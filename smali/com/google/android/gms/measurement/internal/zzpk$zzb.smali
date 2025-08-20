@@ -53,8 +53,7 @@
     iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzpk$zzb;->zze:Lcom/google/android/gms/measurement/internal/zzpk;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Lcom/google/android/gms/measurement/internal/zzpk;Lcom/google/android/gms/measurement/internal/zzpt;)V
@@ -62,8 +61,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/measurement/internal/zzpk$zzb;-><init>(Lcom/google/android/gms/measurement/internal/zzpk;)V
-
-    return-void
+return-void
 .end method
 
 .method private static zza(Lcom/google/android/gms/internal/measurement/zzgg$zzf;)J

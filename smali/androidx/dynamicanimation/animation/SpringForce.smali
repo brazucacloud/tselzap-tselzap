@@ -317,7 +317,8 @@
     const/4 v0, 0x1
 
     .line 86
-    iput-boolean v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mInitialized:Z    return-void
+    iput-boolean v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mInitialized:Z
+return-void
 
     .line 89
     :cond_3
@@ -557,7 +558,8 @@
     const/4 p1, 0x0
 
     .line 10
-    iput-boolean p1, p0, Landroidx/dynamicanimation/animation/SpringForce;->mInitialized:Z    return-object p0
+    iput-boolean p1, p0, Landroidx/dynamicanimation/animation/SpringForce;->mInitialized:Z
+return-object p0
 
     .line 13
     :cond_0
@@ -625,7 +627,8 @@
     const/4 p1, 0x0
 
     .line 14
-    iput-boolean p1, p0, Landroidx/dynamicanimation/animation/SpringForce;->mInitialized:Z    return-object p0
+    iput-boolean p1, p0, Landroidx/dynamicanimation/animation/SpringForce;->mInitialized:Z
+return-object p0
 
     .line 17
     :cond_0

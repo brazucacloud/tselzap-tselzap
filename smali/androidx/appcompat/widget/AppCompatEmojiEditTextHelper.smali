@@ -199,7 +199,8 @@
     .line 31
     .line 32
     .line 33
-    invoke-virtual {p0, v1}, Landroidx/appcompat/widget/AppCompatEmojiEditTextHelper;->setEnabled(Z)V    return-void
+    invoke-virtual {p0, v1}, Landroidx/appcompat/widget/AppCompatEmojiEditTextHelper;->setEnabled(Z)V
+return-void
 
     .line 37
     :goto_1
@@ -246,6 +247,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/emoji2/viewsintegration/EmojiEditTextHelper;->setEnabled(Z)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/emoji2/viewsintegration/EmojiEditTextHelper;->setEnabled(Z)V
+return-void
 .end method
 .end class

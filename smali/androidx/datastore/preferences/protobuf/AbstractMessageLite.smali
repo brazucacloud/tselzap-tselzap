@@ -68,8 +68,7 @@
     check-cast p1, Ljava/util/List;
 
     invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->addAll(Ljava/lang/Iterable;Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method public static addAll(Ljava/lang/Iterable;Ljava/util/List;)V
@@ -88,8 +87,7 @@
 
     .line 2
     invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->addAll(Ljava/lang/Iterable;Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method public static checkByteStringIsUtf8(Landroidx/datastore/preferences/protobuf/ByteString;)V
@@ -253,7 +251,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/UninitializedMessageException;-><init>(Landroidx/datastore/preferences/protobuf/MessageLite;)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/UninitializedMessageException;-><init>(Landroidx/datastore/preferences/protobuf/MessageLite;)V
+return-object v0
 .end method
 
 .method public setMemoizedSerializedSize(I)V
@@ -455,7 +454,8 @@
     .line 22
     .line 23
     .line 24
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->flush()V    return-void
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->flush()V
+return-void
 .end method
 
 .method public writeTo(Ljava/io/OutputStream;)V
@@ -491,6 +491,7 @@
     .line 14
     .line 15
     .line 16
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->flush()V    return-void
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->flush()V
+return-void
 .end method
 .end class

@@ -1499,8 +1499,7 @@
     move-result-object p1
 
     invoke-virtual {p0, p1}, Lx0/w;->setSimpleItems([Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public setSimpleItems([Ljava/lang/String;)V
@@ -1522,8 +1521,7 @@
     invoke-direct {v0, p0, v1, v2, p1}, Lx0/v;-><init>(Lx0/w;Landroid/content/Context;I[Ljava/lang/String;)V
 
     invoke-virtual {p0, v0}, Lx0/w;->setAdapter(Landroid/widget/ListAdapter;)V
-
-    return-void
+return-void
 .end method
 
 .method public final showDropDown()V

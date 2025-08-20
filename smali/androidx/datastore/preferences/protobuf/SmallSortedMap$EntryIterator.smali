@@ -66,8 +66,7 @@
 
     .line 3
     invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$EntryIterator;-><init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;)V
-
-    return-void
+return-void
 .end method
 
 .method private getOverflowIterator()Ljava/util/Iterator;
@@ -385,7 +384,8 @@
     move-result-object v0
 
     .line 43
-    invoke-interface {v0}, Ljava/util/Iterator;->remove()V    return-void
+    invoke-interface {v0}, Ljava/util/Iterator;->remove()V
+return-void
 
     .line 47
     :cond_1

@@ -60,8 +60,7 @@
     const/4 v1, 0x1
 
     invoke-direct {p0, v0, v1, v0}, Landroidx/lifecycle/ComputableLiveData;-><init>(Ljava/util/concurrent/Executor;ILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/util/concurrent/Executor;)V
@@ -143,8 +142,7 @@
     .line 11
     :cond_0
     invoke-direct {p0, p1}, Landroidx/lifecycle/ComputableLiveData;-><init>(Ljava/util/concurrent/Executor;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic a(Landroidx/lifecycle/ComputableLiveData;)V
@@ -152,8 +150,7 @@
 
     .line 1
     invoke-static {p0}, Landroidx/lifecycle/ComputableLiveData;->refreshRunnable$lambda$0(Landroidx/lifecycle/ComputableLiveData;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic b(Landroidx/lifecycle/ComputableLiveData;)V
@@ -161,8 +158,7 @@
 
     .line 1
     invoke-static {p0}, Landroidx/lifecycle/ComputableLiveData;->invalidationRunnable$lambda$1(Landroidx/lifecycle/ComputableLiveData;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic getInvalidationRunnable$lifecycle_livedata_release$annotations()V
@@ -473,6 +469,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1}, Landroidx/arch/core/executor/TaskExecutor;->executeOnMainThread(Ljava/lang/Runnable;)V    return-void
+    invoke-virtual {v0, v1}, Landroidx/arch/core/executor/TaskExecutor;->executeOnMainThread(Ljava/lang/Runnable;)V
+return-void
 .end method
 .end class

@@ -37,8 +37,7 @@
     move-result-object v0
 
     invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;-><init>(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Landroidx/datastore/preferences/protobuf/Option$1;)V
@@ -46,8 +45,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Option$Builder;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -69,7 +67,8 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Option;->access$200(Landroidx/datastore/preferences/protobuf/Option;)V    return-object p0
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Option;->access$200(Landroidx/datastore/preferences/protobuf/Option;)V
+return-object p0
 .end method
 
 .method public clearValue()Landroidx/datastore/preferences/protobuf/Option$Builder;
@@ -89,7 +88,8 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Option;->access$700(Landroidx/datastore/preferences/protobuf/Option;)V    return-object p0
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Option;->access$700(Landroidx/datastore/preferences/protobuf/Option;)V
+return-object p0
 .end method
 
 .method public getName()Ljava/lang/String;
@@ -197,7 +197,8 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Option;->access$600(Landroidx/datastore/preferences/protobuf/Option;Landroidx/datastore/preferences/protobuf/Any;)V    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Option;->access$600(Landroidx/datastore/preferences/protobuf/Option;Landroidx/datastore/preferences/protobuf/Any;)V
+return-object p0
 .end method
 
 .method public setName(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/Option$Builder;
@@ -217,7 +218,8 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Option;->access$100(Landroidx/datastore/preferences/protobuf/Option;Ljava/lang/String;)V    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Option;->access$100(Landroidx/datastore/preferences/protobuf/Option;Ljava/lang/String;)V
+return-object p0
 .end method
 
 .method public setNameBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/Option$Builder;
@@ -237,7 +239,8 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Option;->access$300(Landroidx/datastore/preferences/protobuf/Option;Landroidx/datastore/preferences/protobuf/ByteString;)V    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Option;->access$300(Landroidx/datastore/preferences/protobuf/Option;Landroidx/datastore/preferences/protobuf/ByteString;)V
+return-object p0
 .end method
 
 .method public setValue(Landroidx/datastore/preferences/protobuf/Any$Builder;)Landroidx/datastore/preferences/protobuf/Option$Builder;
@@ -252,8 +255,7 @@
     check-cast v0, Landroidx/datastore/preferences/protobuf/Option;
 
     invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Option;->access$500(Landroidx/datastore/preferences/protobuf/Option;Landroidx/datastore/preferences/protobuf/Any$Builder;)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setValue(Landroidx/datastore/preferences/protobuf/Any;)Landroidx/datastore/preferences/protobuf/Option$Builder;
@@ -268,7 +270,6 @@
     check-cast v0, Landroidx/datastore/preferences/protobuf/Option;
 
     invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Option;->access$400(Landroidx/datastore/preferences/protobuf/Option;Landroidx/datastore/preferences/protobuf/Any;)V
-
-    return-object p0
+return-object p0
 .end method
 .end class

@@ -22,8 +22,7 @@
     iput-object p1, p0, Landroidx/profileinstaller/d;->c:Landroid/content/Context;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -39,15 +38,13 @@
     iget-object v0, p0, Landroidx/profileinstaller/d;->c:Landroid/content/Context;
 
     invoke-static {v0}, Landroidx/profileinstaller/ProfileInstallerInitializer;->a(Landroid/content/Context;)V
-
-    return-void
+return-void
 
     :pswitch_0
     iget-object v0, p0, Landroidx/profileinstaller/d;->c:Landroid/content/Context;
 
     invoke-static {v0}, Landroidx/profileinstaller/ProfileInstallerInitializer;->b(Landroid/content/Context;)V
-
-    return-void
+return-void
 
     nop
 

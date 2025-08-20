@@ -72,7 +72,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintHelper;->validateParams()V    return-void
+    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintHelper;->validateParams()V
+return-void
 .end method
 
 .method public onMeasure(II)V

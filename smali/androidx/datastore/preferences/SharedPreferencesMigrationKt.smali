@@ -124,8 +124,7 @@
 
     .line 16
     invoke-direct/range {v1 .. v8}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/util/Set;Lp1/p;Lp1/q;ILkotlin/jvm/internal/e;)V
-
-    return-object v1
+return-object v1
 
     :cond_0
     move-object v2, p0
@@ -155,8 +154,7 @@
 
     .line 20
     invoke-direct/range {v2 .. v7}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/util/Set;Lp1/p;Lp1/q;)V
-
-    return-object v2
+return-object v2
 .end method
 
 .method public static final SharedPreferencesMigration(Lp1/a;)Landroidx/datastore/migrations/SharedPreferencesMigration;
@@ -239,8 +237,7 @@
 
     .line 7
     invoke-direct/range {v1 .. v7}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Lp1/a;Ljava/util/Set;Lp1/p;Lp1/q;ILkotlin/jvm/internal/e;)V
-
-    return-object v1
+return-object v1
 
     :cond_0
     move-object v2, p0
@@ -260,8 +257,7 @@
 
     .line 11
     invoke-direct {p0, v2, p1, v0, v1}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Lp1/a;Ljava/util/Set;Lp1/p;Lp1/q;)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public static synthetic SharedPreferencesMigration$default(Landroid/content/Context;Ljava/lang/String;Ljava/util/Set;ILjava/lang/Object;)Landroidx/datastore/migrations/SharedPreferencesMigration;
@@ -334,7 +330,8 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getMigrationFunction$1;-><init>(Lg1/d;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getMigrationFunction$1;-><init>(Lg1/d;)V
+return-object v0
 .end method
 
 .method private static final getShouldRunMigration(Ljava/util/Set;)Lp1/p;
@@ -357,6 +354,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, p0, v1}, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getShouldRunMigration$1;-><init>(Ljava/util/Set;Lg1/d;)V    return-object v0
+    invoke-direct {v0, p0, v1}, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getShouldRunMigration$1;-><init>(Ljava/util/Set;Lg1/d;)V
+return-object v0
 .end method
 .end class

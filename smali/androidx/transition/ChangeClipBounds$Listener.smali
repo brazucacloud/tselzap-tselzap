@@ -55,8 +55,7 @@
 
     .line 1
     invoke-virtual {p0, p1, v0}, Landroidx/transition/ChangeClipBounds$Listener;->onAnimationEnd(Landroid/animation/Animator;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public onAnimationEnd(Landroid/animation/Animator;Z)V
@@ -109,8 +108,7 @@
 
     .line 2
     invoke-static {p0, p1, p2}, Landroidx/transition/b;->a(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public onTransitionPause(Landroidx/transition/Transition;)V
@@ -228,7 +226,6 @@
 
     .line 2
     invoke-static {p0, p1, p2}, Landroidx/transition/b;->b(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
-
-    return-void
+return-void
 .end method
 .end class

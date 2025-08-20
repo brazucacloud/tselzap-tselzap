@@ -531,8 +531,7 @@
     const/4 p3, 0x1
 
     invoke-direct {p0, p1, p2, p3}, Lcom/google/android/gms/common/api/internal/zabe;->zam(Lcom/google/android/gms/common/api/GoogleApiClient;Lcom/google/android/gms/common/api/internal/StatusPendingResult;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic zai(Lcom/google/android/gms/common/api/internal/zabe;)V
@@ -1402,8 +1401,7 @@
 
     .line 12
     invoke-interface {v1}, Ljava/util/concurrent/locks/Lock;->unlock()V
-
-    return-object v0
+return-object v0
 
     .line 13
     :cond_4
@@ -1552,8 +1550,7 @@
 
     .line 27
     invoke-interface {p2}, Ljava/util/concurrent/locks/Lock;->unlock()V
-
-    return-object p1
+return-object p1
 
     .line 28
     :cond_2
@@ -1940,8 +1937,7 @@
 
     .line 13
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
-
-    return-void
+return-void
 
     :catchall_1
     move-exception v0
@@ -2036,8 +2032,7 @@
 
     .line 25
     invoke-interface {p1}, Ljava/util/concurrent/locks/Lock;->unlock()V
-
-    return-void
+return-void
 
     :catchall_0
     move-exception p1

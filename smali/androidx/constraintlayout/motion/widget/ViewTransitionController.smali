@@ -352,7 +352,8 @@
 
     .line 13
     .line 14
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z    return-void
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+return-void
 .end method
 
 .method public animate()V
@@ -606,7 +607,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {v0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public isViewTransitionEnabled(I)Z

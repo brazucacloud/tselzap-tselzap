@@ -54,7 +54,8 @@
     const/4 p1, 0x0
 
     .line 12
-    invoke-direct {p0, p1}, Landroidx/fragment/app/Fragment$OnPreAttachedListener;-><init>(Landroidx/fragment/app/Fragment$1;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/fragment/app/Fragment$OnPreAttachedListener;-><init>(Landroidx/fragment/app/Fragment$1;)V
+return-void
 .end method
 
 
@@ -118,6 +119,7 @@
     move-result-object v0
 
     .line 28
-    invoke-virtual {v2, v0}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V    return-void
+    invoke-virtual {v2, v0}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
+return-void
 .end method
 .end class

@@ -49,7 +49,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/activity/result/contract/ActivityResultContract;-><init>()V    return-void
+    invoke-direct {p0}, Landroidx/activity/result/contract/ActivityResultContract;-><init>()V
+return-void
 .end method
 
 

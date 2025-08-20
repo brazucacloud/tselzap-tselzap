@@ -181,6 +181,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroidx/appcompat/view/ViewPropertyAnimatorCompatSet;->onAnimationsEnded()V    return-void
+    invoke-virtual {v0}, Landroidx/appcompat/view/ViewPropertyAnimatorCompatSet;->onAnimationsEnded()V
+return-void
 .end method
 .end class

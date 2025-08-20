@@ -202,8 +202,7 @@
     iget-object v1, p0, Lcom/google/android/gms/internal/measurement/zzh;->zzb:Lcom/google/android/gms/internal/measurement/zzbb;
 
     invoke-direct {v0, p0, v1}, Lcom/google/android/gms/internal/measurement/zzh;-><init>(Lcom/google/android/gms/internal/measurement/zzh;Lcom/google/android/gms/internal/measurement/zzbb;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public final zza(Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzaq;)V

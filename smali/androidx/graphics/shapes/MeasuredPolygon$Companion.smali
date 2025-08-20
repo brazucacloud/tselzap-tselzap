@@ -20,8 +20,7 @@
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Lkotlin/jvm/internal/e;)V
@@ -29,8 +28,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/graphics/shapes/MeasuredPolygon$Companion;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -639,6 +637,7 @@
     move-object v2, p1
 
     .line 291
-    invoke-direct/range {v1 .. v6}, Landroidx/graphics/shapes/MeasuredPolygon;-><init>(Landroidx/graphics/shapes/Measurer;Ljava/util/List;Ljava/util/List;Landroidx/collection/FloatList;Lkotlin/jvm/internal/e;)V    return-object v1
+    invoke-direct/range {v1 .. v6}, Landroidx/graphics/shapes/MeasuredPolygon;-><init>(Landroidx/graphics/shapes/Measurer;Ljava/util/List;Ljava/util/List;Landroidx/collection/FloatList;Lkotlin/jvm/internal/e;)V
+return-object v1
 .end method
 .end class

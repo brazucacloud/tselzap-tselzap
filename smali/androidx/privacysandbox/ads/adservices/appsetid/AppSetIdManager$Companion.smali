@@ -20,8 +20,7 @@
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Lkotlin/jvm/internal/e;)V
@@ -29,8 +28,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManager$Companion;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -77,7 +75,8 @@
 
     .line 16
     .line 17
-    invoke-direct {v0, p1}, Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManagerApi33Ext4Impl;-><init>(Landroid/content/Context;)V    return-object v0
+    invoke-direct {v0, p1}, Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManagerApi33Ext4Impl;-><init>(Landroid/content/Context;)V
+return-object v0
 
     .line 21
     :cond_0

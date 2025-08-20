@@ -16,7 +16,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/fragment/app/FragmentTransitionImpl;-><init>()V    return-void
+    invoke-direct {p0}, Landroidx/fragment/app/FragmentTransitionImpl;-><init>()V
+return-void
 .end method
 
 .method public static synthetic a(Ljava/lang/Runnable;Landroidx/transition/Transition;Ljava/lang/Runnable;)V
@@ -24,8 +25,7 @@
 
     .line 1
     invoke-static {p0, p1, p2}, Landroidx/transition/FragmentTransitionSupport;->lambda$setListenerForTransitionEnd$0(Ljava/lang/Runnable;Landroidx/transition/Transition;Ljava/lang/Runnable;)V
-
-    return-void
+return-void
 .end method
 
 .method private static hasSimpleTarget(Landroidx/transition/Transition;)Z
@@ -121,11 +121,13 @@
     .line 4
     .line 5
     .line 6
-    invoke-interface {p2}, Ljava/lang/Runnable;->run()V    return-void
+    invoke-interface {p2}, Ljava/lang/Runnable;->run()V
+return-void
 
     .line 10
     :cond_0
-    invoke-interface {p0}, Ljava/lang/Runnable;->run()V    return-void
+    invoke-interface {p0}, Ljava/lang/Runnable;->run()V
+return-void
 .end method
 
 
@@ -327,7 +329,8 @@
 
     .line 2
     .line 3
-    invoke-interface {p1}, Landroidx/transition/TransitionSeekController;->animateToEnd()V    return-void
+    invoke-interface {p1}, Landroidx/transition/TransitionSeekController;->animateToEnd()V
+return-void
 .end method
 
 .method public animateToStart(Ljava/lang/Object;Ljava/lang/Runnable;)V
@@ -346,7 +349,8 @@
 
     .line 2
     .line 3
-    invoke-interface {p1, p2}, Landroidx/transition/TransitionSeekController;->animateToStart(Ljava/lang/Runnable;)V    return-void
+    invoke-interface {p1, p2}, Landroidx/transition/TransitionSeekController;->animateToStart(Ljava/lang/Runnable;)V
+return-void
 .end method
 
 .method public beginDelayedTransition(Landroid/view/ViewGroup;Ljava/lang/Object;)V
@@ -1281,8 +1285,7 @@
 
     .line 1
     invoke-virtual/range {v0 .. v5}, Landroidx/transition/FragmentTransitionSupport;->setListenerForTransitionEnd(Landroidx/fragment/app/Fragment;Ljava/lang/Object;Landroidx/core/os/CancellationSignal;Ljava/lang/Runnable;Ljava/lang/Runnable;)V
-
-    return-void
+return-void
 .end method
 
 .method public setListenerForTransitionEnd(Landroidx/fragment/app/Fragment;Ljava/lang/Object;Landroidx/core/os/CancellationSignal;Ljava/lang/Runnable;Ljava/lang/Runnable;)V
@@ -1424,7 +1427,8 @@
     .line 33
     .line 34
     .line 35
-    invoke-virtual {p0, p1, p3}, Landroidx/transition/FragmentTransitionSupport;->addTargets(Ljava/lang/Object;Ljava/util/ArrayList;)V    return-void
+    invoke-virtual {p0, p1, p3}, Landroidx/transition/FragmentTransitionSupport;->addTargets(Ljava/lang/Object;Ljava/util/ArrayList;)V
+return-void
 .end method
 
 .method public swapSharedElementTargets(Ljava/lang/Object;Ljava/util/ArrayList;Ljava/util/ArrayList;)V

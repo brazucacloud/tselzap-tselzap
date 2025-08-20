@@ -65,8 +65,7 @@
     move-wide v4, p4
 
     invoke-interface/range {v0 .. v5}, Lcom/google/android/gms/measurement/internal/zzkb;->interceptEvent(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;J)V
-
-    return-void
+return-void
 .end method
 
 .end class

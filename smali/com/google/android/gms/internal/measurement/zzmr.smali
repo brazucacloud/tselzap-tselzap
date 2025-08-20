@@ -38,8 +38,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/zzmr;-><init>(Lcom/google/android/gms/internal/measurement/zzmk;)V
-
-    return-void
+return-void
 .end method
 
 .method private final zza()Ljava/util/Iterator;

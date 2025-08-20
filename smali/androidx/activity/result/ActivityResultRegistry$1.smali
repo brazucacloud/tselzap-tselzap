@@ -53,7 +53,8 @@
 
     .line 8
     .line 9
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 
@@ -268,7 +269,8 @@
     move-result-object p1
 
     .line 102
-    invoke-interface {p2, p1}, Landroidx/activity/result/ActivityResultCallback;->onActivityResult(Ljava/lang/Object;)V    return-void
+    invoke-interface {p2, p1}, Landroidx/activity/result/ActivityResultCallback;->onActivityResult(Ljava/lang/Object;)V
+return-void
 
     .line 106
     :cond_1

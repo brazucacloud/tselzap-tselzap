@@ -333,8 +333,7 @@
     invoke-direct {v0, p0}, Landroidx/activity/c;-><init>(Landroidx/activity/ComponentActivity;)V
 
     invoke-virtual {p0, v0}, Landroidx/activity/ComponentActivity;->addOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V
-
-    return-void
+return-void
 
     .line 28
     :cond_1
@@ -370,15 +369,15 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/activity/ComponentActivity;->lambda$new$2(Landroid/content/Context;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic access$001(Landroidx/activity/ComponentActivity;)V
     .locals 0
 
     .line 1
-    invoke-super {p0}, Landroid/app/Activity;->onBackPressed()V    return-void
+    invoke-super {p0}, Landroid/app/Activity;->onBackPressed()V
+return-void
 .end method
 
 .method public static synthetic access$100(Landroidx/activity/ComponentActivity;)Landroidx/activity/OnBackPressedDispatcher;
@@ -418,7 +417,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi16Impl;-><init>(Landroidx/activity/ComponentActivity;)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi16Impl;-><init>(Landroidx/activity/ComponentActivity;)V
+return-object v0
 .end method
 
 .method private synthetic lambda$new$0()Lc1/v;
@@ -452,7 +452,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {v1, v0}, Landroidx/activity/result/ActivityResultRegistry;->onSaveInstanceState(Landroid/os/Bundle;)V    return-object v0
+    invoke-virtual {v1, v0}, Landroidx/activity/result/ActivityResultRegistry;->onSaveInstanceState(Landroid/os/Bundle;)V
+return-object v0
 .end method
 
 .method private synthetic lambda$new$2(Landroid/content/Context;)V
@@ -562,8 +563,7 @@
     iget-object v0, p0, Landroidx/activity/ComponentActivity;->mMenuHostHelper:Landroidx/core/view/MenuHostHelper;
 
     invoke-virtual {v0, p1}, Landroidx/core/view/MenuHostHelper;->addMenuProvider(Landroidx/core/view/MenuProvider;)V
-
-    return-void
+return-void
 .end method
 
 .method public addMenuProvider(Landroidx/core/view/MenuProvider;Landroidx/lifecycle/LifecycleOwner;)V
@@ -581,8 +581,7 @@
     iget-object v0, p0, Landroidx/activity/ComponentActivity;->mMenuHostHelper:Landroidx/core/view/MenuHostHelper;
 
     invoke-virtual {v0, p1, p2}, Landroidx/core/view/MenuHostHelper;->addMenuProvider(Landroidx/core/view/MenuProvider;Landroidx/lifecycle/LifecycleOwner;)V
-
-    return-void
+return-void
 .end method
 
 .method public addMenuProvider(Landroidx/core/view/MenuProvider;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$State;)V
@@ -609,8 +608,7 @@
     iget-object v0, p0, Landroidx/activity/ComponentActivity;->mMenuHostHelper:Landroidx/core/view/MenuHostHelper;
 
     invoke-virtual {v0, p1, p2, p3}, Landroidx/core/view/MenuHostHelper;->addMenuProvider(Landroidx/core/view/MenuProvider;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$State;)V
-
-    return-void
+return-void
 .end method
 
 .method public final addOnConfigurationChangedListener(Landroidx/core/util/Consumer;)V
@@ -633,7 +631,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z    return-void
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
+return-void
 .end method
 
 .method public final addOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V
@@ -648,7 +647,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/activity/contextaware/ContextAwareHelper;->addOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/activity/contextaware/ContextAwareHelper;->addOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V
+return-void
 .end method
 
 .method public final addOnMultiWindowModeChangedListener(Landroidx/core/util/Consumer;)V
@@ -1305,7 +1305,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Activity;->invalidateOptionsMenu()V    return-void
+    invoke-virtual {p0}, Landroid/app/Activity;->invalidateOptionsMenu()V
+return-void
 .end method
 
 .method public onActivityResult(IILandroid/content/Intent;)V
@@ -1366,7 +1367,8 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Landroidx/activity/OnBackPressedDispatcher;->onBackPressed()V    return-void
+    invoke-virtual {v0}, Landroidx/activity/OnBackPressedDispatcher;->onBackPressed()V
+return-void
 .end method
 
 .method public onConfigurationChanged(Landroid/content/res/Configuration;)V
@@ -1779,7 +1781,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-super {p0, p1, p2}, Landroid/app/Activity;->onPanelClosed(ILandroid/view/Menu;)V    return-void
+    invoke-super {p0, p1, p2}, Landroid/app/Activity;->onPanelClosed(ILandroid/view/Menu;)V
+return-void
 .end method
 
 .method public onPictureInPictureModeChanged(Z)V
@@ -2161,7 +2164,8 @@
 
     .line 20
     .line 21
-    invoke-virtual {v0, p1}, Landroidx/savedstate/SavedStateRegistryController;->performSave(Landroid/os/Bundle;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/savedstate/SavedStateRegistryController;->performSave(Landroid/os/Bundle;)V
+return-void
 .end method
 
 .method public onTrimMemory(I)V
@@ -2365,7 +2369,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/core/view/MenuHostHelper;->removeMenuProvider(Landroidx/core/view/MenuProvider;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/core/view/MenuHostHelper;->removeMenuProvider(Landroidx/core/view/MenuProvider;)V
+return-void
 .end method
 
 .method public final removeOnConfigurationChangedListener(Landroidx/core/util/Consumer;)V
@@ -2403,7 +2408,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/activity/contextaware/ContextAwareHelper;->removeOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/activity/contextaware/ContextAwareHelper;->removeOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V
+return-void
 .end method
 
 .method public final removeOnMultiWindowModeChangedListener(Landroidx/core/util/Consumer;)V
@@ -2552,7 +2558,8 @@
     .line 21
     .line 22
     .line 23
-    invoke-static {}, Landroidx/tracing/Trace;->endSection()V    return-void
+    invoke-static {}, Landroidx/tracing/Trace;->endSection()V
+return-void
 
     .line 27
     :goto_1
@@ -2677,8 +2684,7 @@
 
     .line 1
     invoke-super {p0, p1, p2}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
-
-    return-void
+return-void
 .end method
 
 .method public startActivityForResult(Landroid/content/Intent;ILandroid/os/Bundle;)V
@@ -2696,8 +2702,7 @@
 
     .line 2
     invoke-super {p0, p1, p2, p3}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;ILandroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 
 .method public startIntentSenderForResult(Landroid/content/IntentSender;ILandroid/content/Intent;III)V
@@ -2715,8 +2720,7 @@
 
     .line 1
     invoke-super/range {p0 .. p6}, Landroid/app/Activity;->startIntentSenderForResult(Landroid/content/IntentSender;ILandroid/content/Intent;III)V
-
-    return-void
+return-void
 .end method
 
 .method public startIntentSenderForResult(Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V
@@ -2738,7 +2742,6 @@
 
     .line 2
     invoke-super/range {p0 .. p7}, Landroid/app/Activity;->startIntentSenderForResult(Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 .end class

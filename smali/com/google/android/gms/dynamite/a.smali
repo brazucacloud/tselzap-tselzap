@@ -22,8 +22,7 @@
     new-instance v0, Ldalvik/system/DelegateLastClassLoader;
 
     invoke-direct {v0, p0, p1}, Ldalvik/system/DelegateLastClassLoader;-><init>(Ljava/lang/String;Ljava/lang/ClassLoader;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static synthetic c()V

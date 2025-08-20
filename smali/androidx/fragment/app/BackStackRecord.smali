@@ -97,8 +97,7 @@
     iget-boolean p1, p1, Landroidx/fragment/app/BackStackRecord;->mBeingSaved:Z
 
     iput-boolean p1, p0, Landroidx/fragment/app/BackStackRecord;->mBeingSaved:Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/fragment/app/FragmentManager;)V
@@ -784,7 +783,8 @@
     const/4 v1, 0x0
 
     .line 7
-    invoke-virtual {v0, p0, v1}, Landroidx/fragment/app/FragmentManager;->execSingleAction(Landroidx/fragment/app/FragmentManager$OpGenerator;Z)V    return-void
+    invoke-virtual {v0, p0, v1}, Landroidx/fragment/app/FragmentManager;->execSingleAction(Landroidx/fragment/app/FragmentManager$OpGenerator;Z)V
+return-void
 .end method
 
 .method public commitNowAllowingStateLoss()V
@@ -803,7 +803,8 @@
     const/4 v1, 0x1
 
     .line 7
-    invoke-virtual {v0, p0, v1}, Landroidx/fragment/app/FragmentManager;->execSingleAction(Landroidx/fragment/app/FragmentManager$OpGenerator;Z)V    return-void
+    invoke-virtual {v0, p0, v1}, Landroidx/fragment/app/FragmentManager;->execSingleAction(Landroidx/fragment/app/FragmentManager$OpGenerator;Z)V
+return-void
 .end method
 
 .method public detach(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
@@ -930,8 +931,7 @@
 
     .line 1
     invoke-virtual {p0, p1, p2, v0}, Landroidx/fragment/app/BackStackRecord;->dump(Ljava/lang/String;Ljava/io/PrintWriter;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public dump(Ljava/lang/String;Ljava/io/PrintWriter;Z)V

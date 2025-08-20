@@ -30,8 +30,7 @@
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Lcom/google/android/gms/common/internal/zaac;)V
@@ -39,8 +38,7 @@
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -60,8 +58,7 @@
     const/4 v2, 0x0
 
     invoke-direct {v0, v1, v2}, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;-><init>(Ljava/lang/String;Lcom/google/android/gms/common/internal/zaad;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public setApi(Ljava/lang/String;)Lcom/google/android/gms/common/internal/TelemetryLoggingOptions$Builder;

@@ -471,7 +471,8 @@
 
     .line 69
     .line 70
-    invoke-direct {p0, p1}, Landroidx/navigation/serialization/RouteBuilder;->addPath(Ljava/lang/String;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/navigation/serialization/RouteBuilder;->addPath(Ljava/lang/String;)V
+return-void
 
     .line 74
     :cond_3
@@ -644,7 +645,8 @@
     move-result-object p1
 
     .line 49
-    invoke-direct {p0, p2, p1}, Landroidx/navigation/serialization/RouteBuilder;->addQuery(Ljava/lang/String;Ljava/lang/String;)V    return-void
+    invoke-direct {p0, p2, p1}, Landroidx/navigation/serialization/RouteBuilder;->addQuery(Ljava/lang/String;Ljava/lang/String;)V
+return-void
 
     .line 53
     :cond_1
@@ -675,7 +677,8 @@
     move-result-object p1
 
     .line 68
-    invoke-direct {p0, p1}, Landroidx/navigation/serialization/RouteBuilder;->addPath(Ljava/lang/String;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/navigation/serialization/RouteBuilder;->addPath(Ljava/lang/String;)V
+return-void
 .end method
 
 .method public final build()Ljava/lang/String;

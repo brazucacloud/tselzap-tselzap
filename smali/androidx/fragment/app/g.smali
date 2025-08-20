@@ -31,7 +31,6 @@
     iget-object v0, p0, Landroidx/fragment/app/g;->a:Landroidx/fragment/app/FragmentActivity;
 
     invoke-static {v0, p1}, Landroidx/fragment/app/FragmentActivity;->d(Landroidx/fragment/app/FragmentActivity;Landroid/content/Context;)V
-
-    return-void
+return-void
 .end method
 .end class

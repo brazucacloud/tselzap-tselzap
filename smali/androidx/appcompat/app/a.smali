@@ -22,8 +22,7 @@
     iput-object p1, p0, Landroidx/appcompat/app/a;->c:Landroid/content/Context;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -39,15 +38,13 @@
     iget-object v0, p0, Landroidx/appcompat/app/a;->c:Landroid/content/Context;
 
     invoke-static {v0}, Landroidx/appcompat/app/AppCompatDelegate;->b(Landroid/content/Context;)V
-
-    return-void
+return-void
 
     :pswitch_0
     iget-object v0, p0, Landroidx/appcompat/app/a;->c:Landroid/content/Context;
 
     invoke-static {v0}, Landroidx/appcompat/app/AppCompatDelegate;->a(Landroid/content/Context;)V
-
-    return-void
+return-void
 
     nop
 

@@ -98,8 +98,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/customview/view/AbsSavedState;-><init>(Landroid/os/Parcelable;)V
-
-    return-void
+return-void
 .end method
 
 
@@ -191,6 +190,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1, v0, p2}, Landroid/os/Parcel;->writeParcelable(Landroid/os/Parcelable;I)V    return-void
+    invoke-virtual {p1, v0, p2}, Landroid/os/Parcel;->writeParcelable(Landroid/os/Parcelable;I)V
+return-void
 .end method
 .end class

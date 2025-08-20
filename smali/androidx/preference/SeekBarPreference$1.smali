@@ -30,7 +30,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 
@@ -93,7 +94,8 @@
     const/4 v0, 0x1
 
     .line 4
-    iput-boolean v0, p1, Landroidx/preference/SeekBarPreference;->mTrackingTouch:Z    return-void
+    iput-boolean v0, p1, Landroidx/preference/SeekBarPreference;->mTrackingTouch:Z
+return-void
 .end method
 
 .method public onStopTrackingTouch(Landroid/widget/SeekBar;)V

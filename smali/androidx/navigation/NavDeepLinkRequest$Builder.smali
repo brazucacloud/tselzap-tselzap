@@ -52,8 +52,7 @@
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Lkotlin/jvm/internal/e;)V
@@ -61,8 +60,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/navigation/NavDeepLinkRequest$Builder;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public static final fromAction(Ljava/lang/String;)Landroidx/navigation/NavDeepLinkRequest$Builder;
@@ -123,7 +121,8 @@
 
     .line 8
     .line 9
-    invoke-direct {v0, v1, v2, v3}, Landroidx/navigation/NavDeepLinkRequest;-><init>(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;)V    return-object v0
+    invoke-direct {v0, v1, v2, v3}, Landroidx/navigation/NavDeepLinkRequest;-><init>(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;)V
+return-object v0
 .end method
 
 .method public final setAction(Ljava/lang/String;)Landroidx/navigation/NavDeepLinkRequest$Builder;

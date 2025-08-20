@@ -70,8 +70,7 @@
 
     .line 3
     invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$DescendingEntryIterator;-><init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;)V
-
-    return-void
+return-void
 .end method
 
 .method private getOverflowIterator()Ljava/util/Iterator;

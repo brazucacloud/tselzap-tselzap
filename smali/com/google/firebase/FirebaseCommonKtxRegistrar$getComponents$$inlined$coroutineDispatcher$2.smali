@@ -55,8 +55,7 @@
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -98,8 +97,7 @@
     new-instance v0, Lz1/O;
 
     invoke-direct {v0, p1}, Lz1/O;-><init>(Ljava/util/concurrent/Executor;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .end class

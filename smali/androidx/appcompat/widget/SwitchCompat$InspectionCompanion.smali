@@ -70,7 +70,8 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-boolean v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mPropertiesMapped:Z    return-void
+    iput-boolean v0, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mPropertiesMapped:Z
+return-void
 .end method
 
 
@@ -282,7 +283,8 @@
     const/4 p1, 0x1
 
     .line 100
-    iput-boolean p1, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mPropertiesMapped:Z    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->mPropertiesMapped:Z
+return-void
 .end method
 
 .method public readProperties(Landroidx/appcompat/widget/SwitchCompat;Landroid/view/inspector/PropertyReader;)V
@@ -417,8 +419,7 @@
     move-result-object p1
 
     invoke-static {p2, v0, p1}, Landroidx/activity/f;->l(Landroid/view/inspector/PropertyReader;ILandroid/graphics/PorterDuff$Mode;)V
-
-    return-void
+return-void
 
     .line 16
     :cond_0
@@ -444,7 +445,6 @@
     check-cast p1, Landroidx/appcompat/widget/SwitchCompat;
 
     invoke-virtual {p0, p1, p2}, Landroidx/appcompat/widget/SwitchCompat$InspectionCompanion;->readProperties(Landroidx/appcompat/widget/SwitchCompat;Landroid/view/inspector/PropertyReader;)V
-
-    return-void
+return-void
 .end method
 .end class

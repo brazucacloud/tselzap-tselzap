@@ -179,8 +179,7 @@
     iget-object p0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzj;->zzf:Lcom/google/android/gms/internal/measurement/zzkr;
 
     invoke-interface {p0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic zza(Lcom/google/android/gms/internal/measurement/zzgg$zzj;Ljava/lang/Iterable;)V
@@ -193,8 +192,7 @@
     iget-object p0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzj;->zzf:Lcom/google/android/gms/internal/measurement/zzkr;
 
     invoke-static {p1, p0}, Lcom/google/android/gms/internal/measurement/zziq;->zza(Ljava/lang/Iterable;Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic zza(Lcom/google/android/gms/internal/measurement/zzgg$zzj;Ljava/lang/String;)V
@@ -486,16 +484,14 @@
     new-instance p1, Lcom/google/android/gms/internal/measurement/zzgg$zzj$zza;
 
     invoke-direct {p1, p2}, Lcom/google/android/gms/internal/measurement/zzgg$zzj$zza;-><init>(Lcom/google/android/gms/internal/measurement/zzgp;)V
-
-    return-object p1
+return-object p1
 
     .line 18
     :pswitch_5
     new-instance p1, Lcom/google/android/gms/internal/measurement/zzgg$zzj;
 
     invoke-direct {p1}, Lcom/google/android/gms/internal/measurement/zzgg$zzj;-><init>()V
-
-    return-object p1
+return-object p1
 
     nop
 

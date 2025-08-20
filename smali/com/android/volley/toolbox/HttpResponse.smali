@@ -47,8 +47,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2, v0, v1}, Lcom/android/volley/toolbox/HttpResponse;-><init>(ILjava/util/List;ILjava/io/InputStream;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(ILjava/util/List;ILjava/io/InputStream;)V

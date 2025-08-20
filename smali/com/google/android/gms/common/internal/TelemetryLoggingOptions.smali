@@ -71,8 +71,7 @@
     const/4 v1, 0x0
 
     invoke-direct {v0, v1}, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions$Builder;-><init>(Lcom/google/android/gms/common/internal/zaac;)V
-
-    return-object v0
+return-object v0
 .end method
 
 

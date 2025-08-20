@@ -128,7 +128,8 @@
 
     .line 26
     .line 27
-    invoke-virtual {v0, v1}, Landroidx/appcompat/widget/ActivityChooserModel;->setOnChooseActivityListener(Landroidx/appcompat/widget/ActivityChooserModel$OnChooseActivityListener;)V    return-void
+    invoke-virtual {v0, v1}, Landroidx/appcompat/widget/ActivityChooserModel;->setOnChooseActivityListener(Landroidx/appcompat/widget/ActivityChooserModel$OnChooseActivityListener;)V
+return-void
 .end method
 
 
@@ -496,7 +497,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/appcompat/widget/ShareActionProvider;->setActivityChooserPolicyIfNeeded()V    return-void
+    invoke-direct {p0}, Landroidx/appcompat/widget/ShareActionProvider;->setActivityChooserPolicyIfNeeded()V
+return-void
 .end method
 
 .method public setShareHistoryFileName(Ljava/lang/String;)V
@@ -507,7 +509,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/appcompat/widget/ShareActionProvider;->setActivityChooserPolicyIfNeeded()V    return-void
+    invoke-direct {p0}, Landroidx/appcompat/widget/ShareActionProvider;->setActivityChooserPolicyIfNeeded()V
+return-void
 .end method
 
 .method public setShareIntent(Landroid/content/Intent;)V
@@ -581,7 +584,8 @@
     move-result-object v0
 
     .line 34
-    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/ActivityChooserModel;->setIntent(Landroid/content/Intent;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/ActivityChooserModel;->setIntent(Landroid/content/Intent;)V
+return-void
 .end method
 
 .method public updateIntent(Landroid/content/Intent;)V

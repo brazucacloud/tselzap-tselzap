@@ -204,8 +204,7 @@
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->unsafe:Lsun/misc/Unsafe;
 
     invoke-virtual {v0, p1, p2, p3, p4}, Lsun/misc/Unsafe;->putInt(Ljava/lang/Object;JI)V
-
-    return-void
+return-void
 .end method
 
 .method public abstract putLong(JJ)V
@@ -224,8 +223,7 @@
     move-wide v4, p4
 
     invoke-virtual/range {v0 .. v5}, Lsun/misc/Unsafe;->putLong(Ljava/lang/Object;JJ)V
-
-    return-void
+return-void
 .end method
 
 .method public final putObject(Ljava/lang/Object;JLjava/lang/Object;)V

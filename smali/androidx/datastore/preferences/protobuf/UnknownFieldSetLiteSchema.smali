@@ -19,7 +19,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/UnknownFieldSchema;-><init>()V    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/UnknownFieldSchema;-><init>()V
+return-void
 .end method
 
 
@@ -39,8 +40,7 @@
     move-result-object p3
 
     invoke-virtual {p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;->storeField(ILjava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic addFixed32(Ljava/lang/Object;II)V
@@ -50,8 +50,7 @@
     check-cast p1, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;
 
     invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLiteSchema;->addFixed32(Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;II)V
-
-    return-void
+return-void
 .end method
 
 .method public addFixed64(Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;IJ)V
@@ -69,8 +68,7 @@
     move-result-object p3
 
     invoke-virtual {p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;->storeField(ILjava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic addFixed64(Ljava/lang/Object;IJ)V
@@ -80,8 +78,7 @@
     check-cast p1, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;
 
     invoke-virtual {p0, p1, p2, p3, p4}, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLiteSchema;->addFixed64(Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;IJ)V
-
-    return-void
+return-void
 .end method
 
 .method public addGroup(Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;ILandroidx/datastore/preferences/protobuf/UnknownFieldSetLite;)V
@@ -95,8 +92,7 @@
     move-result p2
 
     invoke-virtual {p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;->storeField(ILjava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic addGroup(Ljava/lang/Object;ILjava/lang/Object;)V
@@ -108,8 +104,7 @@
     check-cast p3, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;
 
     invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLiteSchema;->addGroup(Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;ILandroidx/datastore/preferences/protobuf/UnknownFieldSetLite;)V
-
-    return-void
+return-void
 .end method
 
 .method public addLengthDelimited(Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;ILandroidx/datastore/preferences/protobuf/ByteString;)V
@@ -123,8 +118,7 @@
     move-result p2
 
     invoke-virtual {p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;->storeField(ILjava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic addLengthDelimited(Ljava/lang/Object;ILandroidx/datastore/preferences/protobuf/ByteString;)V
@@ -134,8 +128,7 @@
     check-cast p1, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;
 
     invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLiteSchema;->addLengthDelimited(Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;ILandroidx/datastore/preferences/protobuf/ByteString;)V
-
-    return-void
+return-void
 .end method
 
 .method public addVarint(Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;IJ)V
@@ -153,8 +146,7 @@
     move-result-object p3
 
     invoke-virtual {p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;->storeField(ILjava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic addVarint(Ljava/lang/Object;IJ)V
@@ -288,7 +280,8 @@
     move-result-object p1
 
     .line 5
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;->makeImmutable()V    return-void
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;->makeImmutable()V
+return-void
 .end method
 
 .method public merge(Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;)Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;
@@ -358,8 +351,7 @@
 
     .line 2
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLiteSchema;->setToMessage(Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;)V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic setBuilderToMessage(Ljava/lang/Object;Ljava/lang/Object;)V
@@ -369,8 +361,7 @@
     check-cast p2, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;
 
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLiteSchema;->setBuilderToMessage(Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;)V
-
-    return-void
+return-void
 .end method
 
 .method public setToMessage(Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;)V
@@ -391,8 +382,7 @@
     check-cast p2, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;
 
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLiteSchema;->setToMessage(Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;)V
-
-    return-void
+return-void
 .end method
 
 .method public shouldDiscardUnknownFields(Landroidx/datastore/preferences/protobuf/Reader;)Z
@@ -408,8 +398,7 @@
 
     .line 2
     invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;->makeImmutable()V
-
-    return-object p1
+return-object p1
 .end method
 
 .method public bridge synthetic toImmutable(Ljava/lang/Object;)Ljava/lang/Object;
@@ -430,8 +419,7 @@
 
     .line 2
     invoke-virtual {p1, p2}, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;->writeAsMessageSetTo(Landroidx/datastore/preferences/protobuf/Writer;)V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic writeAsMessageSetTo(Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/Writer;)V
@@ -441,8 +429,7 @@
     check-cast p1, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;
 
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLiteSchema;->writeAsMessageSetTo(Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;Landroidx/datastore/preferences/protobuf/Writer;)V
-
-    return-void
+return-void
 .end method
 
 .method public writeTo(Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;Landroidx/datastore/preferences/protobuf/Writer;)V
@@ -450,8 +437,7 @@
 
     .line 2
     invoke-virtual {p1, p2}, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;->writeTo(Landroidx/datastore/preferences/protobuf/Writer;)V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic writeTo(Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/Writer;)V
@@ -461,7 +447,6 @@
     check-cast p1, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;
 
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLiteSchema;->writeTo(Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;Landroidx/datastore/preferences/protobuf/Writer;)V
-
-    return-void
+return-void
 .end method
 .end class

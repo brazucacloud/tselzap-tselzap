@@ -48,8 +48,7 @@
 
     .line 3
     iput-boolean v0, p0, Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton$ExtendedFloatingActionButtonBehavior;->d:Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -94,8 +93,7 @@
 
     .line 9
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-
-    return-void
+return-void
 .end method
 
 

@@ -219,8 +219,7 @@
     new-instance v0, Lcom/google/android/gms/measurement/internal/zzhd;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/measurement/internal/zzhd;-><init>(Ljava/lang/String;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method private static zza(ZLjava/lang/Object;)Ljava/lang/String;
@@ -928,8 +927,7 @@
     const-string p1, "Scheduler not set. Not logging error/warn"
 
     invoke-virtual {p0, p3, p1}, Lcom/google/android/gms/measurement/internal/zzhc;->zza(ILjava/lang/String;)V
-
-    return-void
+return-void
 
     .line 59
     :cond_1
@@ -943,8 +941,7 @@
     const-string p1, "Scheduler not initialized. Not logging error/warn"
 
     invoke-virtual {p0, p3, p1}, Lcom/google/android/gms/measurement/internal/zzhc;->zza(ILjava/lang/String;)V
-
-    return-void
+return-void
 
     :cond_2
     if-gez p1, :cond_3

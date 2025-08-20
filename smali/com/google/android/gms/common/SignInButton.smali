@@ -54,8 +54,7 @@
 
     .line 1
     invoke-direct {p0, p1, v0}, Lcom/google/android/gms/common/SignInButton;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -73,8 +72,7 @@
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/gms/common/SignInButton;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -140,8 +138,7 @@
 
     .line 8
     invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/common/SignInButton;->setStyle(II)V
-
-    return-void
+return-void
 
     :catchall_0
     move-exception p2
@@ -443,8 +440,7 @@
     move-result-object p1
 
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/SignInButton;->zaa(Landroid/content/Context;)V
-
-    return-void
+return-void
 .end method
 
 .method public setStyle(II[Lcom/google/android/gms/common/api/Scope;)V
@@ -458,8 +454,7 @@
 
     .line 2
     invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/common/SignInButton;->setStyle(II)V
-
-    return-void
+return-void
 .end method
 
 .end class

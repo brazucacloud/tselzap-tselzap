@@ -138,8 +138,7 @@
     .line 8
     :goto_1
     invoke-direct/range {p1 .. p7}, Landroidx/privacysandbox/ads/adservices/measurement/WebSourceRegistrationRequest;-><init>(Ljava/util/List;Landroid/net/Uri;Landroid/view/InputEvent;Landroid/net/Uri;Landroid/net/Uri;Landroid/net/Uri;)V
-
-    return-void
+return-void
 .end method
 
 
@@ -260,7 +259,8 @@
 
     .line 47
     .line 48
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+return-object v0
 .end method
 
 .method public equals(Ljava/lang/Object;)Z

@@ -50,8 +50,7 @@
 
     .line 7
     invoke-direct {p0, p1}, Landroidx/constraintlayout/widget/ReactiveGuide;->init(Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -85,8 +84,7 @@
 
     .line 14
     invoke-direct {p0, p2}, Landroidx/constraintlayout/widget/ReactiveGuide;->init(Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -120,8 +118,7 @@
 
     .line 21
     invoke-direct {p0, p2}, Landroidx/constraintlayout/widget/ReactiveGuide;->init(Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
@@ -155,8 +152,7 @@
 
     .line 28
     invoke-direct {p0, p2}, Landroidx/constraintlayout/widget/ReactiveGuide;->init(Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method private changeValue(IILandroidx/constraintlayout/motion/widget/MotionLayout;I)V
@@ -176,7 +172,8 @@
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p3, p4, v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->updateState(ILandroidx/constraintlayout/widget/ConstraintSet;)V    return-void
+    invoke-virtual {p3, p4, v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->updateState(ILandroidx/constraintlayout/widget/ConstraintSet;)V
+return-void
 .end method
 
 .method private init(Landroid/util/AttributeSet;)V
@@ -582,7 +579,8 @@
 
     .line 68
     .line 69
-    invoke-virtual {p3, v0, v1, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->updateStateAnimate(ILandroidx/constraintlayout/widget/ConstraintSet;I)V    return-void
+    invoke-virtual {p3, v0, v1, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->updateStateAnimate(ILandroidx/constraintlayout/widget/ConstraintSet;I)V
+return-void
 
     .line 73
     :cond_4
@@ -641,7 +639,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAnimateChange:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ReactiveGuide;->mAnimateChange:Z
+return-void
 .end method
 
 .method public setApplyToConstraintSetId(I)V

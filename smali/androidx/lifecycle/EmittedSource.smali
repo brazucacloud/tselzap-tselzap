@@ -76,7 +76,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/lifecycle/EmittedSource;->removeSource()V    return-void
+    invoke-direct {p0}, Landroidx/lifecycle/EmittedSource;->removeSource()V
+return-void
 .end method
 
 .method private final removeSource()V

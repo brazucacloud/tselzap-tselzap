@@ -197,8 +197,7 @@
 
     .line 3
     invoke-virtual {p0, p1, v0}, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->onAnimationEnd(Landroid/animation/Animator;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public onAnimationEnd(Landroid/animation/Animator;Z)V
@@ -278,8 +277,7 @@
 
     .line 3
     invoke-virtual {p0, p1, v0}, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->onTransitionEnd(Landroidx/transition/Transition;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public onTransitionEnd(Landroidx/transition/Transition;Z)V
@@ -423,7 +421,6 @@
 
     .line 2
     invoke-static {p0, p1, p2}, Landroidx/transition/b;->b(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
-
-    return-void
+return-void
 .end method
 .end class

@@ -210,7 +210,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 .method public static checkAppCompatTheme(Landroid/view/View;Landroid/content/Context;)V
@@ -320,7 +321,8 @@
     .line 46
     :cond_0
     :goto_0
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V    return-void
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
+return-void
 
     .line 50
     :goto_1
@@ -382,7 +384,8 @@
 
     .line 21
     .line 22
-    invoke-direct {p0, v1, v0}, Landroid/content/res/ColorStateList;-><init>([[I[I)V    return-object p0
+    invoke-direct {p0, v1, v0}, Landroid/content/res/ColorStateList;-><init>([[I[I)V
+return-object p0
 .end method
 
 .method public static getDisabledThemeAttrColor(Landroid/content/Context;I)I
@@ -606,7 +609,8 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 15
-    invoke-virtual {p0}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V    return-object p1
+    invoke-virtual {p0}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V
+return-object p1
 
     .line 19
     :catchall_0

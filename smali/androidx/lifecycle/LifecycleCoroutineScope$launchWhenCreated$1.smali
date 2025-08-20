@@ -74,7 +74,8 @@
     const/4 p1, 0x2
 
     .line 6
-    invoke-direct {p0, p1, p3}, Li1/i;-><init>(ILg1/d;)V    return-void
+    invoke-direct {p0, p1, p3}, Li1/i;-><init>(ILg1/d;)V
+return-void
 .end method
 
 
@@ -106,7 +107,8 @@
 
     .line 6
     .line 7
-    invoke-direct {p1, v0, v1, p2}, Landroidx/lifecycle/LifecycleCoroutineScope$launchWhenCreated$1;-><init>(Landroidx/lifecycle/LifecycleCoroutineScope;Lp1/p;Lg1/d;)V    return-object p1
+    invoke-direct {p1, v0, v1, p2}, Landroidx/lifecycle/LifecycleCoroutineScope$launchWhenCreated$1;-><init>(Landroidx/lifecycle/LifecycleCoroutineScope;Lp1/p;Lg1/d;)V
+return-object p1
 .end method
 
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;

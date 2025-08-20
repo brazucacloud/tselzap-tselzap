@@ -42,7 +42,8 @@
     move-result p1
 
     .line 7
-    invoke-direct {p0, p1}, Landroidx/collection/IndexBasedArrayIterator;-><init>(I)V    return-void
+    invoke-direct {p0, p1}, Landroidx/collection/IndexBasedArrayIterator;-><init>(I)V
+return-void
 .end method
 
 

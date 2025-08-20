@@ -13,8 +13,7 @@
     const/4 v1, 0x0
 
     invoke-direct {v0, v1}, Landroid/os/Bundle;-><init>(I)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final varargs bundleOf([Lc1/f;)Landroid/os/Bundle;

@@ -68,7 +68,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/navigation/NavigatorState;->pop(Landroidx/navigation/NavBackStackEntry;Z)V    return-void
+    invoke-super {p0, p1, p2}, Landroidx/navigation/NavigatorState;->pop(Landroidx/navigation/NavBackStackEntry;Z)V
+return-void
 .end method
 
 
@@ -86,7 +87,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-super {p0, p1}, Landroidx/navigation/NavigatorState;->push(Landroidx/navigation/NavBackStackEntry;)V    return-void
+    invoke-super {p0, p1}, Landroidx/navigation/NavigatorState;->push(Landroidx/navigation/NavBackStackEntry;)V
+return-void
 .end method
 
 .method public createBackStackEntry(Landroidx/navigation/NavDestination;Landroid/os/Bundle;)Landroidx/navigation/NavBackStackEntry;
@@ -503,7 +505,8 @@
 
     .line 155
     .line 156
-    invoke-virtual {p1, v0}, LC1/C;->h(Ljava/lang/Object;)V    return-void
+    invoke-virtual {p1, v0}, LC1/C;->h(Ljava/lang/Object;)V
+return-void
 
     .line 160
     :cond_5
@@ -717,7 +720,8 @@
     .line 54
     .line 55
     .line 56
-    invoke-super {p0, p1, p2}, Landroidx/navigation/NavigatorState;->pop(Landroidx/navigation/NavBackStackEntry;Z)V    return-void
+    invoke-super {p0, p1, p2}, Landroidx/navigation/NavigatorState;->pop(Landroidx/navigation/NavBackStackEntry;Z)V
+return-void
 
     .line 60
     :cond_0
@@ -734,7 +738,8 @@
     .line 65
     .line 66
     .line 67
-    invoke-virtual {v0, p1, v1}, Landroidx/navigation/NavController;->popBackStackFromNavigator$navigation_runtime_release(Landroidx/navigation/NavBackStackEntry;Lp1/a;)V    return-void
+    invoke-virtual {v0, p1, v1}, Landroidx/navigation/NavController;->popBackStackFromNavigator$navigation_runtime_release(Landroidx/navigation/NavBackStackEntry;Lp1/a;)V
+return-void
 
     .line 71
     :cond_1
@@ -767,7 +772,8 @@
 
     .line 85
     .line 86
-    invoke-virtual {v0, p1, p2}, Landroidx/navigation/NavController$NavControllerNavigatorState;->pop(Landroidx/navigation/NavBackStackEntry;Z)V    return-void
+    invoke-virtual {v0, p1, p2}, Landroidx/navigation/NavController$NavControllerNavigatorState;->pop(Landroidx/navigation/NavBackStackEntry;Z)V
+return-void
 .end method
 
 .method public popWithTransition(Landroidx/navigation/NavBackStackEntry;Z)V
@@ -783,7 +789,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-super {p0, p1, p2}, Landroidx/navigation/NavigatorState;->popWithTransition(Landroidx/navigation/NavBackStackEntry;Z)V    return-void
+    invoke-super {p0, p1, p2}, Landroidx/navigation/NavigatorState;->popWithTransition(Landroidx/navigation/NavBackStackEntry;Z)V
+return-void
 .end method
 
 .method public prepareForTransition(Landroidx/navigation/NavBackStackEntry;)V
@@ -832,7 +839,8 @@
 
     .line 22
     .line 23
-    invoke-virtual {p1, v0}, Landroidx/navigation/NavBackStackEntry;->setMaxLifecycle(Landroidx/lifecycle/Lifecycle$State;)V    return-void
+    invoke-virtual {p1, v0}, Landroidx/navigation/NavBackStackEntry;->setMaxLifecycle(Landroidx/lifecycle/Lifecycle$State;)V
+return-void
 
     .line 27
     :cond_0
@@ -937,7 +945,8 @@
     .line 41
     .line 42
     .line 43
-    invoke-virtual {p0, p1}, Landroidx/navigation/NavController$NavControllerNavigatorState;->addInternal(Landroidx/navigation/NavBackStackEntry;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/navigation/NavController$NavControllerNavigatorState;->addInternal(Landroidx/navigation/NavBackStackEntry;)V
+return-void
 
     .line 47
     :cond_0
@@ -1020,7 +1029,8 @@
 
     .line 89
     .line 90
-    invoke-virtual {v0, p1}, Landroidx/navigation/NavController$NavControllerNavigatorState;->push(Landroidx/navigation/NavBackStackEntry;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/navigation/NavController$NavControllerNavigatorState;->push(Landroidx/navigation/NavBackStackEntry;)V
+return-void
 
     .line 94
     :cond_2

@@ -20,7 +20,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/navigation/NavType;-><init>(Z)V    return-void
+    invoke-direct {p0, p1}, Landroidx/navigation/NavType;-><init>(Z)V
+return-void
 .end method
 
 

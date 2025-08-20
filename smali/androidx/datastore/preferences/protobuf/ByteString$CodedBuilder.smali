@@ -47,8 +47,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/ByteString$CodedBuilder;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 
@@ -74,7 +73,8 @@
 
     .line 9
     .line 10
-    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;-><init>([B)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;-><init>([B)V
+return-object v0
 .end method
 
 .method public getCodedOutput()Landroidx/datastore/preferences/protobuf/CodedOutputStream;

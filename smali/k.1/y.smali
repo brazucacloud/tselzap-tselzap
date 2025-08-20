@@ -45,8 +45,7 @@
     sget-object v0, Ljava/util/Collections;->EMPTY_LIST:Ljava/util/List;
 
     invoke-direct {p0, p1, v0}, Lk/y;-><init>(Ljava/lang/String;Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/String;Ljava/util/List;)V
@@ -937,8 +936,7 @@
 
     .line 2
     invoke-virtual {p0, v0}, Lk/y;->e(Ljava/lang/Appendable;)V
-
-    return-void
+return-void
 .end method
 
 .method public final printStackTrace(Ljava/io/PrintStream;)V
@@ -946,8 +944,7 @@
 
     .line 3
     invoke-virtual {p0, p1}, Lk/y;->e(Ljava/lang/Appendable;)V
-
-    return-void
+return-void
 .end method
 
 .method public final printStackTrace(Ljava/io/PrintWriter;)V
@@ -955,8 +952,7 @@
 
     .line 4
     invoke-virtual {p0, p1}, Lk/y;->e(Ljava/lang/Appendable;)V
-
-    return-void
+return-void
 .end method
 
 .end class

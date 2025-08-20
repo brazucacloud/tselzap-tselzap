@@ -79,7 +79,8 @@
 
     .line 16
     .line 17
-    invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V    return-void
+    invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
+return-void
 .end method
 
 
@@ -422,8 +423,7 @@
     check-cast p1, Ljava/lang/Throwable;
 
     invoke-virtual {p0, p1}, Landroidx/print/PrintHelper$1;->onPostExecute(Ljava/lang/Throwable;)V
-
-    return-void
+return-void
 .end method
 
 .method public onPostExecute(Ljava/lang/Throwable;)V
@@ -442,8 +442,7 @@
     iget-object p1, p0, Landroidx/print/PrintHelper$1;->val$writeResultCallback:Landroid/print/PrintDocumentAdapter$WriteResultCallback;
 
     invoke-virtual {p1}, Landroid/print/PrintDocumentAdapter$WriteResultCallback;->onWriteCancelled()V
-
-    return-void
+return-void
 
     :cond_0
     if-nez p1, :cond_1
@@ -462,8 +461,7 @@
     aput-object v1, v0, v2
 
     invoke-virtual {p1, v0}, Landroid/print/PrintDocumentAdapter$WriteResultCallback;->onWriteFinished([Landroid/print/PageRange;)V
-
-    return-void
+return-void
 
     .line 5
     :cond_1
@@ -479,7 +477,6 @@
     const/4 v0, 0x0
 
     invoke-virtual {p1, v0}, Landroid/print/PrintDocumentAdapter$WriteResultCallback;->onWriteFailed(Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 .end class

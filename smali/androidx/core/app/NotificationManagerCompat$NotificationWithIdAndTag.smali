@@ -34,8 +34,7 @@
 
     .line 5
     invoke-direct {p0, v0, p1, p2}, Landroidx/core/app/NotificationManagerCompat$NotificationWithIdAndTag;-><init>(Ljava/lang/String;ILandroid/app/Notification;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/String;ILandroid/app/Notification;)V

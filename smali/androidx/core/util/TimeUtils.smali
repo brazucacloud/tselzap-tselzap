@@ -153,8 +153,7 @@
     const-string p0, "--"
 
     invoke-virtual {p4, p0}, Ljava/io/PrintWriter;->print(Ljava/lang/String;)V
-
-    return-void
+return-void
 
     :cond_0
     sub-long/2addr p0, p2
@@ -163,8 +162,7 @@
 
     .line 11
     invoke-static {p0, p1, p4, p2}, Landroidx/core/util/TimeUtils;->formatDuration(JLjava/io/PrintWriter;I)V
-
-    return-void
+return-void
 .end method
 
 .method public static formatDuration(JLjava/io/PrintWriter;)V
@@ -179,8 +177,7 @@
 
     .line 9
     invoke-static {p0, p1, p2, v0}, Landroidx/core/util/TimeUtils;->formatDuration(JLjava/io/PrintWriter;I)V
-
-    return-void
+return-void
 .end method
 
 .method public static formatDuration(JLjava/io/PrintWriter;I)V

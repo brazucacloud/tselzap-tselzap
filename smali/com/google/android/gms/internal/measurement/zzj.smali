@@ -125,8 +125,7 @@
     new-instance v0, Lcom/google/android/gms/internal/measurement/zzat;
 
     invoke-direct {v0, p0, v1}, Lcom/google/android/gms/internal/measurement/zzat;-><init>(Ljava/lang/String;Ljava/util/List;)V
-
-    return-object v0
+return-object v0
 
     .line 11
     :cond_4
@@ -148,16 +147,14 @@
     move-result-object p0
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/measurement/zzag;-><init>(Ljava/lang/Boolean;)V
-
-    return-object v0
+return-object v0
 
     .line 13
     :cond_5
     new-instance p0, Lcom/google/android/gms/internal/measurement/zzag;
 
     invoke-direct {p0, v2}, Lcom/google/android/gms/internal/measurement/zzag;-><init>(Ljava/lang/Boolean;)V
-
-    return-object p0
+return-object p0
 
     .line 14
     :cond_6
@@ -179,16 +176,14 @@
     move-result-object p0
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/measurement/zzai;-><init>(Ljava/lang/Double;)V
-
-    return-object v0
+return-object v0
 
     .line 16
     :cond_7
     new-instance p0, Lcom/google/android/gms/internal/measurement/zzai;
 
     invoke-direct {p0, v2}, Lcom/google/android/gms/internal/measurement/zzai;-><init>(Ljava/lang/Double;)V
-
-    return-object p0
+return-object p0
 
     .line 17
     :cond_8
@@ -206,8 +201,7 @@
     move-result-object p0
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/measurement/zzas;-><init>(Ljava/lang/String;)V
-
-    return-object v0
+return-object v0
 
     .line 19
     :cond_9
@@ -238,8 +232,7 @@
     check-cast p0, Ljava/lang/String;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/measurement/zzas;-><init>(Ljava/lang/String;)V
-
-    return-object v0
+return-object v0
 
     .line 23
     :cond_1
@@ -253,8 +246,7 @@
     check-cast p0, Ljava/lang/Double;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/measurement/zzai;-><init>(Ljava/lang/Double;)V
-
-    return-object v0
+return-object v0
 
     .line 25
     :cond_2
@@ -276,8 +268,7 @@
     move-result-object p0
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/measurement/zzai;-><init>(Ljava/lang/Double;)V
-
-    return-object v0
+return-object v0
 
     .line 27
     :cond_3
@@ -299,8 +290,7 @@
     move-result-object p0
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/measurement/zzai;-><init>(Ljava/lang/Double;)V
-
-    return-object v0
+return-object v0
 
     .line 29
     :cond_4
@@ -314,8 +304,7 @@
     check-cast p0, Ljava/lang/Boolean;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/measurement/zzag;-><init>(Ljava/lang/Boolean;)V
-
-    return-object v0
+return-object v0
 
     .line 31
     :cond_5

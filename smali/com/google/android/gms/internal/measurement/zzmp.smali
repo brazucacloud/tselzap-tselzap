@@ -25,8 +25,7 @@
     const/4 v0, 0x0
 
     invoke-direct {p0, p1, v0}, Lcom/google/android/gms/internal/measurement/zzmq;-><init>(Lcom/google/android/gms/internal/measurement/zzmk;Lcom/google/android/gms/internal/measurement/zzmt;)V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Lcom/google/android/gms/internal/measurement/zzmk;Lcom/google/android/gms/internal/measurement/zzmt;)V
@@ -34,8 +33,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/zzmp;-><init>(Lcom/google/android/gms/internal/measurement/zzmk;)V
-
-    return-void
+return-void
 .end method
 
 

@@ -434,7 +434,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Landroid/view/View;->removeCallbacks(Ljava/lang/Runnable;)Z    return-void
+    invoke-virtual {v0, v1}, Landroid/view/View;->removeCallbacks(Ljava/lang/Runnable;)Z
+return-void
 .end method
 
 .method private destroyCallbacks()V
@@ -472,7 +473,8 @@
     .line 16
     .line 17
     .line 18
-    invoke-direct {p0}, Landroidx/recyclerview/widget/FastScroller;->cancelHide()V    return-void
+    invoke-direct {p0}, Landroidx/recyclerview/widget/FastScroller;->cancelHide()V
+return-void
 .end method
 
 .method private drawHorizontalScrollbar(Landroid/graphics/Canvas;)V
@@ -583,7 +585,8 @@
     int-to-float v0, v0
 
     .line 51
-    invoke-virtual {p1, v1, v0}, Landroid/graphics/Canvas;->translate(FF)V    return-void
+    invoke-virtual {p1, v1, v0}, Landroid/graphics/Canvas;->translate(FF)V
+return-void
 .end method
 
 .method private drawVerticalScrollbar(Landroid/graphics/Canvas;)V
@@ -724,7 +727,8 @@
     int-to-float v1, v1
 
     .line 67
-    invoke-virtual {p1, v0, v1}, Landroid/graphics/Canvas;->translate(FF)V    return-void
+    invoke-virtual {p1, v0, v1}, Landroid/graphics/Canvas;->translate(FF)V
+return-void
 
     .line 71
     :cond_0
@@ -777,7 +781,8 @@
     int-to-float v1, v1
 
     .line 94
-    invoke-virtual {p1, v0, v1}, Landroid/graphics/Canvas;->translate(FF)V    return-void
+    invoke-virtual {p1, v0, v1}, Landroid/graphics/Canvas;->translate(FF)V
+return-void
 .end method
 
 .method private getHorizontalRange()[I
@@ -1455,7 +1460,8 @@
 
     .line 48
     .line 49
-    invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V    return-void
+    invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
+return-void
 .end method
 
 .method public isDragging()Z
@@ -1830,7 +1836,8 @@
     const/4 p1, 0x0
 
     .line 58
-    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/FastScroller;->setState(I)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/FastScroller;->setState(I)V
+return-void
 .end method
 
 .method public onInterceptTouchEvent(Landroidx/recyclerview/widget/RecyclerView;Landroid/view/MotionEvent;)Z
@@ -2168,7 +2175,8 @@
     .line 68
     :cond_3
     :goto_0
-    invoke-virtual {p0, v1}, Landroidx/recyclerview/widget/FastScroller;->setState(I)V    return-void
+    invoke-virtual {p0, v1}, Landroidx/recyclerview/widget/FastScroller;->setState(I)V
+return-void
 
     .line 72
     :cond_4
@@ -2296,7 +2304,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {v0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public setState(I)V
@@ -2532,7 +2541,8 @@
 
     .line 57
     .line 58
-    invoke-virtual {v0}, Landroid/animation/ValueAnimator;->start()V    return-void
+    invoke-virtual {v0}, Landroid/animation/ValueAnimator;->start()V
+return-void
 .end method
 
 .method public updateScrollPosition(II)V
@@ -2659,7 +2669,8 @@
 
     .line 54
     .line 55
-    invoke-virtual {p0, v3}, Landroidx/recyclerview/widget/FastScroller;->setState(I)V    return-void
+    invoke-virtual {p0, v3}, Landroidx/recyclerview/widget/FastScroller;->setState(I)V
+return-void
 
     .line 59
     :cond_2
@@ -2800,6 +2811,7 @@
     .line 117
     :cond_6
     :goto_2
-    invoke-virtual {p0, v4}, Landroidx/recyclerview/widget/FastScroller;->setState(I)V    return-void
+    invoke-virtual {p0, v4}, Landroidx/recyclerview/widget/FastScroller;->setState(I)V
+return-void
 .end method
 .end class

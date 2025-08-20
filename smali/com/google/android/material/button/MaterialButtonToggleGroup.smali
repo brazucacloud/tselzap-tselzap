@@ -1231,8 +1231,7 @@
     move-result p1
 
     invoke-virtual {p0, p1}, Lcom/google/android/material/button/MaterialButtonToggleGroup;->setSingleSelection(Z)V
-
-    return-void
+return-void
 .end method
 
 .method public setSingleSelection(Z)V

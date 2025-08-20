@@ -73,8 +73,7 @@
 
     .line 6
     invoke-virtual {p1, p2}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;)V
-
-    return-object v0
+return-object v0
 
     .line 7
     :cond_0
@@ -144,8 +143,7 @@
     move-result-object p1
 
     invoke-virtual {p2, v1, p1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public final zza()Z

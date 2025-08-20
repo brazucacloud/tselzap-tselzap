@@ -306,7 +306,8 @@
 
     .line 7
     .line 8
-    invoke-direct {v0, p0}, Landroidx/collection/SparseArrayKt$keyIterator$1;-><init>(Landroidx/collection/SparseArrayCompat;)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/collection/SparseArrayKt$keyIterator$1;-><init>(Landroidx/collection/SparseArrayCompat;)V
+return-object v0
 .end method
 
 .method public static final plus(Landroidx/collection/SparseArrayCompat;Landroidx/collection/SparseArrayCompat;)Landroidx/collection/SparseArrayCompat;
@@ -377,7 +378,8 @@
     .line 26
     .line 27
     .line 28
-    invoke-virtual {v0, p1}, Landroidx/collection/SparseArrayCompat;->putAll(Landroidx/collection/SparseArrayCompat;)V    return-object v0
+    invoke-virtual {v0, p1}, Landroidx/collection/SparseArrayCompat;->putAll(Landroidx/collection/SparseArrayCompat;)V
+return-object v0
 .end method
 
 .method public static final synthetic remove(Landroidx/collection/SparseArrayCompat;ILjava/lang/Object;)Z
@@ -425,7 +427,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, p1, p2}, Landroidx/collection/SparseArrayCompat;->put(ILjava/lang/Object;)V    return-void
+    invoke-virtual {p0, p1, p2}, Landroidx/collection/SparseArrayCompat;->put(ILjava/lang/Object;)V
+return-void
 .end method
 
 .method public static final valueIterator(Landroidx/collection/SparseArrayCompat;)Ljava/util/Iterator;
@@ -456,6 +459,7 @@
 
     .line 7
     .line 8
-    invoke-direct {v0, p0}, Landroidx/collection/SparseArrayKt$valueIterator$1;-><init>(Landroidx/collection/SparseArrayCompat;)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/collection/SparseArrayKt$valueIterator$1;-><init>(Landroidx/collection/SparseArrayCompat;)V
+return-object v0
 .end method
 .end class

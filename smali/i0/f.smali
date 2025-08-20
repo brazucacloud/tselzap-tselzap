@@ -18,8 +18,7 @@
     iput-object p1, p0, Li0/f;->a:Lcom/google/android/material/chip/ChipGroup;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .end class

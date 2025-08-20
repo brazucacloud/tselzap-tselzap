@@ -24,7 +24,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 .method public static synthetic a(Landroidx/navigation/NavDirections;Landroid/view/View;)V
@@ -89,8 +90,7 @@
     new-instance v0, Landroidx/navigation/b;
 
     invoke-direct {v0, p0, p1}, Landroidx/navigation/b;-><init>(ILandroid/os/Bundle;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final createNavigateOnClickListener(Landroidx/navigation/NavDirections;)Landroid/view/View$OnClickListener;
@@ -106,8 +106,7 @@
     const/4 v1, 0x1
 
     invoke-direct {v0, p0, v1}, LH/a;-><init>(Ljava/lang/Object;I)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static synthetic createNavigateOnClickListener$default(ILandroid/os/Bundle;ILjava/lang/Object;)Landroid/view/View$OnClickListener;
@@ -157,7 +156,8 @@
     move-result-object p2
 
     .line 10
-    invoke-virtual {p2, p0, p1}, Landroidx/navigation/NavController;->navigate(ILandroid/os/Bundle;)V    return-void
+    invoke-virtual {p2, p0, p1}, Landroidx/navigation/NavController;->navigate(ILandroid/os/Bundle;)V
+return-void
 .end method
 
 .method private static final createNavigateOnClickListener$lambda$1(Landroidx/navigation/NavDirections;Landroid/view/View;)V
@@ -190,7 +190,8 @@
     move-result-object p1
 
     .line 15
-    invoke-virtual {p1, p0}, Landroidx/navigation/NavController;->navigate(Landroidx/navigation/NavDirections;)V    return-void
+    invoke-virtual {p1, p0}, Landroidx/navigation/NavController;->navigate(Landroidx/navigation/NavDirections;)V
+return-void
 .end method
 
 .method public static final findNavController(Landroid/app/Activity;I)Landroidx/navigation/NavController;

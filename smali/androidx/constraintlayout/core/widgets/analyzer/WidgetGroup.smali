@@ -856,7 +856,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V    return-void
+    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
+return-void
 .end method
 
 .method public getId()I
@@ -1072,7 +1073,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mAuthoritative:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->mAuthoritative:Z
+return-void
 .end method
 
 .method public setOrientation(I)V

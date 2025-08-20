@@ -324,8 +324,7 @@
 
     .line 1
     invoke-virtual/range {v0 .. v6}, Landroidx/constraintlayout/core/state/helpers/ChainReference;->addChainElement(Ljava/lang/Object;FFFFF)V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic bias(F)Landroidx/constraintlayout/core/state/ConstraintReference;

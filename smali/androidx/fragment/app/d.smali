@@ -30,8 +30,7 @@
     iput-object p3, p0, Landroidx/fragment/app/d;->e:Ljava/lang/Object;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Ljava/util/ArrayList;Landroidx/fragment/app/SpecialEffectsController$Operation;Landroidx/fragment/app/DefaultSpecialEffectsController;)V
@@ -93,8 +92,7 @@
     check-cast v2, Ljava/util/ArrayList;
 
     invoke-static {v2, v0, v1}, Landroidx/fragment/app/DefaultSpecialEffectsController;->c(Ljava/util/ArrayList;Landroidx/fragment/app/SpecialEffectsController$Operation;Landroidx/fragment/app/DefaultSpecialEffectsController;)V
-
-    return-void
+return-void
 
     :pswitch_1
     iget-object v0, p0, Landroidx/fragment/app/d;->e:Ljava/lang/Object;

@@ -93,8 +93,7 @@
     new-instance v0, Landroid/view/WindowInsets$Builder;
 
     invoke-direct {v0}, Landroid/view/WindowInsets$Builder;-><init>()V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static synthetic f(Landroid/view/WindowInsets;)Landroid/view/WindowInsets$Builder;
@@ -104,8 +103,7 @@
     new-instance v0, Landroid/view/WindowInsets$Builder;
 
     invoke-direct {v0, p0}, Landroid/view/WindowInsets$Builder;-><init>(Landroid/view/WindowInsets;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic g(Landroid/view/WindowInsets;IIII)Landroid/view/WindowInsets;
@@ -146,8 +144,7 @@
     new-instance v0, Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;
 
     invoke-direct {v0, p0}, Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;-><init>(Ljava/util/Map;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic k(Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;Landroid/graphics/Region;)Landroid/view/accessibility/AccessibilityNodeInfo;
@@ -175,8 +172,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/app/Activity;->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic n(Landroid/view/View;F)V
@@ -238,8 +234,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setTouchDelegateInfo(Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic u(Landroid/view/accessibility/AccessibilityNodeInfo;Z)V
@@ -247,8 +242,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setTextEntryKey(Z)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic v()Z

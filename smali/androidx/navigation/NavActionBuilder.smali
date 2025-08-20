@@ -368,7 +368,8 @@
 
     .line 155
     :goto_1
-    invoke-direct {v0, v1, v2, v3}, Landroidx/navigation/NavAction;-><init>(ILandroidx/navigation/NavOptions;Landroid/os/Bundle;)V    return-object v0
+    invoke-direct {v0, v1, v2, v3}, Landroidx/navigation/NavAction;-><init>(ILandroidx/navigation/NavOptions;Landroid/os/Bundle;)V
+return-object v0
 .end method
 
 .method public final getDefaultArguments()Ljava/util/Map;

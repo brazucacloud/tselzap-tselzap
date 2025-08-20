@@ -137,7 +137,8 @@
     .line 32
     .line 33
     .line 34
-    invoke-virtual {v0, p1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z    return-void
+    invoke-virtual {v0, p1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
+return-void
 .end method
 
 .method public clearListeners()V
@@ -148,7 +149,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/HashMap;->clear()V    return-void
+    invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
+return-void
 .end method
 
 .method public fireNewValue(II)V

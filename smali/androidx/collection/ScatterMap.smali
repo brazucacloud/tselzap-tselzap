@@ -62,8 +62,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/collection/ScatterMap;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic getKeys$annotations()V
@@ -835,7 +834,8 @@
 
     .line 123
     .line 124
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+return-object v0
 .end method
 
 .method public final asMap()Ljava/util/Map;
@@ -853,7 +853,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/collection/ScatterMap$MapWrapper;-><init>(Landroidx/collection/ScatterMap;)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/collection/ScatterMap$MapWrapper;-><init>(Landroidx/collection/ScatterMap;)V
+return-object v0
 .end method
 
 .method public final contains(Ljava/lang/Object;)Z
@@ -4387,8 +4388,7 @@
     const-string v1, "StringBuilder().apply(builderAction).toString()"
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public final none()Z

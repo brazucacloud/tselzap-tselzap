@@ -44,8 +44,7 @@
     const/4 p1, 0x0
 
     invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 
@@ -59,8 +58,7 @@
     iget-object v1, p0, Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2;->this$0:Landroidx/activity/result/ActivityResultCallerLauncher;
 
     invoke-direct {v0, v1}, Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1;-><init>(Landroidx/activity/result/ActivityResultCallerLauncher;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public bridge synthetic invoke()Ljava/lang/Object;

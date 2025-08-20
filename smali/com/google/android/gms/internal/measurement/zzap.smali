@@ -346,8 +346,7 @@
     move-result-object p2
 
     invoke-direct {p1, p2}, Lcom/google/android/gms/internal/measurement/zzas;-><init>(Ljava/lang/String;)V
-
-    return-object p1
+return-object p1
 
     .line 3
     :cond_0
@@ -383,8 +382,7 @@
     move-result-object v1
 
     invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public final zza(Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzaq;)V

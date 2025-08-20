@@ -86,8 +86,7 @@
 
     .line 1
     invoke-direct/range {p0 .. p6}, Lcom/google/android/gms/measurement/internal/zzhh;-><init>(Ljava/lang/String;Lcom/google/android/gms/measurement/internal/zzhi;ILjava/lang/Throwable;[BLjava/util/Map;)V
-
-    return-void
+return-void
 .end method
 
 

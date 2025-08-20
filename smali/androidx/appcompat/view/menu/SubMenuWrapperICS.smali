@@ -41,7 +41,8 @@
 
     .line 2
     .line 3
-    invoke-interface {v0}, Landroid/view/SubMenu;->clearHeader()V    return-void
+    invoke-interface {v0}, Landroid/view/SubMenu;->clearHeader()V
+return-void
 .end method
 
 .method public getItem()Landroid/view/MenuItem;

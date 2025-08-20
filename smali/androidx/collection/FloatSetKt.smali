@@ -101,8 +101,7 @@
     invoke-direct {v0, v1}, Landroidx/collection/MutableFloatSet;-><init>(I)V
 
     invoke-virtual {v0, p0}, Landroidx/collection/MutableFloatSet;->plusAssign([F)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final getEmptyFloatArray()[F
@@ -155,8 +154,7 @@
     const/4 v3, 0x0
 
     invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatSet;-><init>(IILkotlin/jvm/internal/e;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableFloatSetOf(F)Landroidx/collection/MutableFloatSet;
@@ -171,8 +169,7 @@
 
     .line 3
     invoke-virtual {v0, p0}, Landroidx/collection/MutableFloatSet;->plusAssign(F)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableFloatSetOf(FF)Landroidx/collection/MutableFloatSet;
@@ -190,8 +187,7 @@
 
     .line 6
     invoke-virtual {v0, p1}, Landroidx/collection/MutableFloatSet;->plusAssign(F)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableFloatSetOf(FFF)Landroidx/collection/MutableFloatSet;
@@ -212,8 +208,7 @@
 
     .line 10
     invoke-virtual {v0, p2}, Landroidx/collection/MutableFloatSet;->plusAssign(F)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final varargs mutableFloatSetOf([F)Landroidx/collection/MutableFloatSet;
@@ -231,7 +226,6 @@
     invoke-direct {v0, v1}, Landroidx/collection/MutableFloatSet;-><init>(I)V
 
     invoke-virtual {v0, p0}, Landroidx/collection/MutableFloatSet;->plusAssign([F)V
-
-    return-object v0
+return-object v0
 .end method
 .end class

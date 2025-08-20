@@ -73,8 +73,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;->lambda$onStopped$1(Ljava/util/concurrent/Executor;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic b(Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;Ljava/util/concurrent/Executor;I)V
@@ -82,8 +81,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2}, Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;->lambda$onFirstFix$2(Ljava/util/concurrent/Executor;I)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic c(Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;Ljava/util/concurrent/Executor;)V
@@ -91,8 +89,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;->lambda$onStarted$0(Ljava/util/concurrent/Executor;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic d(Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;Ljava/util/concurrent/Executor;Landroid/location/GnssStatus;)V
@@ -100,8 +97,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2}, Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;->lambda$onSatelliteStatusChanged$3(Ljava/util/concurrent/Executor;Landroid/location/GnssStatus;)V
-
-    return-void
+return-void
 .end method
 
 .method private synthetic lambda$onFirstFix$2(Ljava/util/concurrent/Executor;I)V

@@ -124,8 +124,7 @@
     new-instance v0, Landroid/view/inspector/InspectionCompanion$UninitializedPropertyMapException;
 
     invoke-direct {v0}, Landroid/view/inspector/InspectionCompanion$UninitializedPropertyMapException;-><init>()V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic g(Landroid/view/Window;)V
@@ -135,8 +134,7 @@
     const/4 v0, 0x0
 
     invoke-virtual {p0, v0}, Landroid/view/Window;->setStatusBarContrastEnforced(Z)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic h(Landroid/view/Window;Z)V
@@ -144,8 +142,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/view/Window;->setNavigationBarContrastEnforced(Z)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic i(Landroid/view/inspector/PropertyReader;IF)V
@@ -153,8 +150,7 @@
 
     .line 1
     invoke-interface {p0, p1, p2}, Landroid/view/inspector/PropertyReader;->readFloat(IF)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic j(Landroid/view/inspector/PropertyReader;II)V
@@ -162,8 +158,7 @@
 
     .line 1
     invoke-interface {p0, p1, p2}, Landroid/view/inspector/PropertyReader;->readInt(II)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic k(Landroid/view/inspector/PropertyReader;ILandroid/content/res/ColorStateList;)V
@@ -171,8 +166,7 @@
 
     .line 1
     invoke-interface {p0, p1, p2}, Landroid/view/inspector/PropertyReader;->readObject(ILjava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic l(Landroid/view/inspector/PropertyReader;ILandroid/graphics/PorterDuff$Mode;)V
@@ -180,8 +174,7 @@
 
     .line 1
     invoke-interface {p0, p1, p2}, Landroid/view/inspector/PropertyReader;->readObject(ILjava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic m(Landroid/widget/TextView;)Z
@@ -222,8 +215,7 @@
 
     .line 1
     invoke-interface {p0, p1, p2}, Landroid/view/inspector/PropertyReader;->readIntEnum(II)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic q(Landroid/view/inspector/PropertyMapper;I)I
@@ -292,8 +284,7 @@
 
     .line 1
     invoke-interface {p0, p1, p2}, Landroid/view/inspector/PropertyReader;->readGravity(II)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic w(Landroid/graphics/Insets;)I

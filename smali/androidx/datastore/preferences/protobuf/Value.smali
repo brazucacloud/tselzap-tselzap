@@ -79,7 +79,8 @@
 
     .line 9
     .line 10
-    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->registerDefaultInstance(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V    return-void
+    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->registerDefaultInstance(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
+return-void
 .end method
 
 .method private constructor <init>()V
@@ -108,7 +109,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Value;->clearKind()V    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Value;->clearKind()V
+return-void
 .end method
 
 .method public static synthetic access$1000(Landroidx/datastore/preferences/protobuf/Value;Z)V
@@ -122,7 +124,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Value;->clearBoolValue()V    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Value;->clearBoolValue()V
+return-void
 .end method
 
 .method public static synthetic access$1200(Landroidx/datastore/preferences/protobuf/Value;Landroidx/datastore/preferences/protobuf/Struct;)V
@@ -150,7 +153,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Value;->clearStructValue()V    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Value;->clearStructValue()V
+return-void
 .end method
 
 .method public static synthetic access$1600(Landroidx/datastore/preferences/protobuf/Value;Landroidx/datastore/preferences/protobuf/ListValue;)V
@@ -178,7 +182,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Value;->clearListValue()V    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Value;->clearListValue()V
+return-void
 .end method
 
 .method public static synthetic access$200(Landroidx/datastore/preferences/protobuf/Value;I)V
@@ -199,7 +204,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Value;->clearNullValue()V    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Value;->clearNullValue()V
+return-void
 .end method
 
 .method public static synthetic access$500(Landroidx/datastore/preferences/protobuf/Value;D)V
@@ -213,7 +219,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Value;->clearNumberValue()V    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Value;->clearNumberValue()V
+return-void
 .end method
 
 .method public static synthetic access$700(Landroidx/datastore/preferences/protobuf/Value;Ljava/lang/String;)V
@@ -227,7 +234,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Value;->clearStringValue()V    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Value;->clearStringValue()V
+return-void
 .end method
 
 .method public static synthetic access$900(Landroidx/datastore/preferences/protobuf/Value;Landroidx/datastore/preferences/protobuf/ByteString;)V
@@ -1309,7 +1317,8 @@
 
     .line 95
     .line 96
-    invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/Value;-><init>()V    return-object p1
+    invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/Value;-><init>()V
+return-object p1
 
     .line 100
     nop

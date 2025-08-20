@@ -99,8 +99,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Landroidx/recyclerview/widget/SortedList;-><init>(Ljava/lang/Class;Landroidx/recyclerview/widget/SortedList$Callback;I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/Class;Landroidx/recyclerview/widget/SortedList$Callback;I)V
@@ -303,11 +302,13 @@
     const/4 v1, 0x0
 
     .line 21
-    invoke-interface {p1, v1, v0}, Landroidx/recyclerview/widget/ListUpdateCallback;->onInserted(II)V    return-void
+    invoke-interface {p1, v1, v0}, Landroidx/recyclerview/widget/ListUpdateCallback;->onInserted(II)V
+return-void
 
     .line 25
     :cond_1
-    invoke-direct {p0, p1, v0}, Landroidx/recyclerview/widget/SortedList;->merge([Ljava/lang/Object;I)V    return-void
+    invoke-direct {p0, p1, v0}, Landroidx/recyclerview/widget/SortedList;->merge([Ljava/lang/Object;I)V
+return-void
 .end method
 
 .method private addToData(ILjava/lang/Object;)V
@@ -516,7 +517,8 @@
     array-length v2, p1
 
     .line 12
-    invoke-static {p1, v1, v0, v1, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V    return-object v0
+    invoke-static {p1, v1, v0, v1, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+return-object v0
 .end method
 
 .method private findIndexOf(Ljava/lang/Object;[Ljava/lang/Object;III)I
@@ -1403,7 +1405,8 @@
 
     .line 18
     .line 19
-    invoke-interface {p1, v1, v0}, Landroidx/recyclerview/widget/ListUpdateCallback;->onInserted(II)V    return-void
+    invoke-interface {p1, v1, v0}, Landroidx/recyclerview/widget/ListUpdateCallback;->onInserted(II)V
+return-void
 .end method
 
 .method private replaceAllInternal([Ljava/lang/Object;)V
@@ -1816,7 +1819,8 @@
 
     .line 15
     .line 16
-    invoke-interface {v0, v2, v1}, Landroidx/recyclerview/widget/ListUpdateCallback;->onRemoved(II)V    return-void
+    invoke-interface {v0, v2, v1}, Landroidx/recyclerview/widget/ListUpdateCallback;->onRemoved(II)V
+return-void
 .end method
 
 .method private sortAndDedup([Ljava/lang/Object;)I
@@ -2051,8 +2055,7 @@
     const/4 v0, 0x1
 
     invoke-virtual {p0, p1, v0}, Landroidx/recyclerview/widget/SortedList;->addAll([Ljava/lang/Object;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public varargs addAll([Ljava/lang/Object;)V
@@ -2071,8 +2074,7 @@
 
     .line 5
     invoke-virtual {p0, p1, v0}, Landroidx/recyclerview/widget/SortedList;->addAll([Ljava/lang/Object;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public addAll([Ljava/lang/Object;Z)V
@@ -2102,8 +2104,7 @@
 
     .line 3
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/SortedList;->addAllInternal([Ljava/lang/Object;)V
-
-    return-void
+return-void
 
     .line 4
     :cond_1
@@ -2112,8 +2113,7 @@
     move-result-object p1
 
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/SortedList;->addAllInternal([Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public beginBatchedUpdates()V
@@ -2206,7 +2206,8 @@
 
     .line 19
     .line 20
-    invoke-interface {v1, v3, v0}, Landroidx/recyclerview/widget/ListUpdateCallback;->onRemoved(II)V    return-void
+    invoke-interface {v1, v3, v0}, Landroidx/recyclerview/widget/ListUpdateCallback;->onRemoved(II)V
+return-void
 .end method
 
 .method public endBatchedUpdates()V
@@ -2599,7 +2600,8 @@
     const/4 v1, 0x1
 
     .line 9
-    invoke-direct {p0, p1, v1}, Landroidx/recyclerview/widget/SortedList;->removeItemAtIndex(IZ)V    return-object v0
+    invoke-direct {p0, p1, v1}, Landroidx/recyclerview/widget/SortedList;->removeItemAtIndex(IZ)V
+return-object v0
 .end method
 
 .method public replaceAll(Ljava/util/Collection;)V
@@ -2637,8 +2639,7 @@
     const/4 v0, 0x1
 
     invoke-virtual {p0, p1, v0}, Landroidx/recyclerview/widget/SortedList;->replaceAll([Ljava/lang/Object;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public varargs replaceAll([Ljava/lang/Object;)V
@@ -2657,8 +2658,7 @@
 
     .line 4
     invoke-virtual {p0, p1, v0}, Landroidx/recyclerview/widget/SortedList;->replaceAll([Ljava/lang/Object;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public replaceAll([Ljava/lang/Object;Z)V
@@ -2680,8 +2680,7 @@
 
     .line 2
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/SortedList;->replaceAllInternal([Ljava/lang/Object;)V
-
-    return-void
+return-void
 
     .line 3
     :cond_0
@@ -2690,8 +2689,7 @@
     move-result-object p1
 
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/SortedList;->replaceAllInternal([Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public size()I
@@ -2809,7 +2807,8 @@
     move-result-object p2
 
     .line 46
-    invoke-virtual {v2, p1, v1, p2}, Landroidx/recyclerview/widget/SortedList$Callback;->onChanged(IILjava/lang/Object;)V    return-void
+    invoke-virtual {v2, p1, v1, p2}, Landroidx/recyclerview/widget/SortedList$Callback;->onChanged(IILjava/lang/Object;)V
+return-void
 
     .line 50
     :cond_2

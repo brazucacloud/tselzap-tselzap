@@ -37,8 +37,7 @@
 
     .line 13
     invoke-direct {p0, p1, v0}, Landroidx/preference/DialogPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -62,8 +61,7 @@
     move-result v0
 
     invoke-direct {p0, p1, p2, v0}, Landroidx/preference/DialogPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -81,8 +79,7 @@
 
     .line 11
     invoke-direct {p0, p1, p2, p3, v0}, Landroidx/preference/DialogPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
@@ -186,8 +183,7 @@
 
     .line 10
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-
-    return-void
+return-void
 .end method
 
 
@@ -256,7 +252,8 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p0}, Landroidx/preference/PreferenceManager;->showDialog(Landroidx/preference/Preference;)V    return-void
+    invoke-virtual {v0, p0}, Landroidx/preference/PreferenceManager;->showDialog(Landroidx/preference/Preference;)V
+return-void
 .end method
 
 .method public setDialogIcon(I)V
@@ -309,8 +306,7 @@
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/preference/DialogPreference;->setDialogMessage(Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 
 .method public setDialogMessage(Ljava/lang/CharSequence;)V
@@ -339,8 +335,7 @@
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/preference/DialogPreference;->setDialogTitle(Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 
 .method public setDialogTitle(Ljava/lang/CharSequence;)V
@@ -369,8 +364,7 @@
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/preference/DialogPreference;->setNegativeButtonText(Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 
 .method public setNegativeButtonText(Ljava/lang/CharSequence;)V
@@ -399,8 +393,7 @@
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/preference/DialogPreference;->setPositiveButtonText(Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 
 .method public setPositiveButtonText(Ljava/lang/CharSequence;)V

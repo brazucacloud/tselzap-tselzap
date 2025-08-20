@@ -361,8 +361,7 @@
 
     .line 16
     invoke-virtual {p0}, Landroidx/viewpager/widget/ViewPager;->initViewPager()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -451,8 +450,7 @@
 
     .line 32
     invoke-virtual {p0}, Landroidx/viewpager/widget/ViewPager;->initViewPager()V
-
-    return-void
+return-void
 .end method
 
 .method private calculatePageOffsets(Landroidx/viewpager/widget/ViewPager$ItemInfo;ILandroidx/viewpager/widget/ViewPager$ItemInfo;)V
@@ -1155,7 +1153,8 @@
 
     .line 313
     :cond_e
-    iput-boolean v1, p0, Landroidx/viewpager/widget/ViewPager;->mNeedCalculatePageOffsets:Z    return-void
+    iput-boolean v1, p0, Landroidx/viewpager/widget/ViewPager;->mNeedCalculatePageOffsets:Z
+return-void
 .end method
 
 .method private completeScroll(Z)V
@@ -1966,7 +1965,8 @@
     const/4 p2, 0x0
 
     .line 11
-    invoke-virtual {p1, p2, p2, p2, p2}, Landroid/graphics/Rect;->set(IIII)V    return-object p1
+    invoke-virtual {p1, p2, p2, p2, p2}, Landroid/graphics/Rect;->set(IIII)V
+return-object p1
 
     .line 15
     :cond_1
@@ -3194,7 +3194,8 @@
 
     .line 30
     .line 31
-    invoke-virtual {p1, p2}, Landroid/widget/Scroller;->setFinalX(I)V    return-void
+    invoke-virtual {p1, p2}, Landroid/widget/Scroller;->setFinalX(I)V
+return-void
 
     .line 35
     :cond_0
@@ -4081,7 +4082,8 @@
 
     .line 36
     .line 37
-    invoke-virtual {p1, p2, v0}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V    return-object v0
+    invoke-virtual {p1, p2, v0}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
+return-object v0
 
     .line 41
     :cond_1
@@ -4090,7 +4092,8 @@
 
     .line 42
     .line 43
-    invoke-virtual {p1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z    return-object v0
+    invoke-virtual {p1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+return-object v0
 .end method
 
 .method public addOnAdapterChangeListener(Landroidx/viewpager/widget/ViewPager$OnAdapterChangeListener;)V
@@ -4127,7 +4130,8 @@
 
     .line 13
     .line 14
-    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z    return-void
+    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+return-void
 .end method
 
 .method public addOnPageChangeListener(Landroidx/viewpager/widget/ViewPager$OnPageChangeListener;)V
@@ -4164,7 +4168,8 @@
 
     .line 13
     .line 14
-    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z    return-void
+    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+return-void
 .end method
 
 .method public addTouchables(Ljava/util/ArrayList;)V
@@ -6545,7 +6550,8 @@
     const/4 v0, 0x0
 
     .line 69
-    iput-boolean v0, p0, Landroidx/viewpager/widget/ViewPager;->mFakeDragging:Z    return-void
+    iput-boolean v0, p0, Landroidx/viewpager/widget/ViewPager;->mFakeDragging:Z
+return-void
 
     .line 72
     :cond_1
@@ -7031,7 +7037,8 @@
     .line 128
     .line 129
     .line 130
-    invoke-virtual {p1}, Landroid/view/MotionEvent;->recycle()V    return-void
+    invoke-virtual {p1}, Landroid/view/MotionEvent;->recycle()V
+return-void
 
     .line 134
     :cond_5
@@ -7058,7 +7065,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/viewpager/widget/ViewPager$LayoutParams;-><init>()V    return-object v0
+    invoke-direct {v0}, Landroidx/viewpager/widget/ViewPager$LayoutParams;-><init>()V
+return-object v0
 .end method
 
 .method public generateLayoutParams(Landroid/util/AttributeSet;)Landroid/view/ViewGroup$LayoutParams;
@@ -7622,7 +7630,8 @@
     const/4 v0, 0x1
 
     .line 5
-    iput-boolean v0, p0, Landroidx/viewpager/widget/ViewPager;->mFirstLayout:Z    return-void
+    iput-boolean v0, p0, Landroidx/viewpager/widget/ViewPager;->mFirstLayout:Z
+return-void
 .end method
 
 .method public onDetachedFromWindow()V
@@ -9242,7 +9251,8 @@
 
     .line 286
     :goto_6
-    iput-boolean v14, v0, Landroidx/viewpager/widget/ViewPager;->mFirstLayout:Z    return-void
+    iput-boolean v14, v0, Landroidx/viewpager/widget/ViewPager;->mFirstLayout:Z
+return-void
 .end method
 
 .method public onMeasure(II)V
@@ -10156,7 +10166,8 @@
 
     .line 161
     :cond_7
-    iput-boolean v2, p0, Landroidx/viewpager/widget/ViewPager;->mCalledSuper:Z    return-void
+    iput-boolean v2, p0, Landroidx/viewpager/widget/ViewPager;->mCalledSuper:Z
+return-void
 .end method
 
 .method public onRequestFocusInDescendants(ILandroid/graphics/Rect;)Z
@@ -11308,8 +11319,7 @@
 
     .line 6
     invoke-direct {v0}, Landroidx/viewpager/widget/ViewPager;->sortChildDrawingOrder()V
-
-    return-void
+return-void
 
     .line 7
     :cond_1
@@ -11319,8 +11329,7 @@
 
     .line 8
     invoke-direct {v0}, Landroidx/viewpager/widget/ViewPager;->sortChildDrawingOrder()V
-
-    return-void
+return-void
 
     .line 9
     :cond_2
@@ -12658,8 +12667,7 @@
     .line 15
     :cond_7
     invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
-
-    return-void
+return-void
 
     .line 16
     :cond_8
@@ -12803,7 +12811,8 @@
     .line 10
     .line 11
     .line 12
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public setPageMarginDrawable(I)V
@@ -12858,8 +12867,7 @@
 
     .line 4
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-
-    return-void
+return-void
 .end method
 
 .method public setPageTransformer(ZLandroidx/viewpager/widget/ViewPager$PageTransformer;)V

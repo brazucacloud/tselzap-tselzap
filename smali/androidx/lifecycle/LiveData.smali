@@ -265,7 +265,8 @@
     const/4 v0, 0x0
 
     .line 13
-    invoke-virtual {p1, v0}, Landroidx/lifecycle/LiveData$ObserverWrapper;->activeStateChanged(Z)V    return-void
+    invoke-virtual {p1, v0}, Landroidx/lifecycle/LiveData$ObserverWrapper;->activeStateChanged(Z)V
+return-void
 
     .line 17
     :cond_1
@@ -298,7 +299,8 @@
 
     .line 29
     .line 30
-    invoke-interface {p1, v0}, Landroidx/lifecycle/Observer;->onChanged(Ljava/lang/Object;)V    return-void
+    invoke-interface {p1, v0}, Landroidx/lifecycle/Observer;->onChanged(Ljava/lang/Object;)V
+return-void
 .end method
 
 
@@ -426,7 +428,8 @@
 
     .line 48
     :cond_5
-    iput-boolean v1, p0, Landroidx/lifecycle/LiveData;->mChangingActiveState:Z    return-void
+    iput-boolean v1, p0, Landroidx/lifecycle/LiveData;->mChangingActiveState:Z
+return-void
 
     .line 51
     :goto_4
@@ -462,7 +465,8 @@
 
     .line 5
     .line 6
-    iput-boolean v1, p0, Landroidx/lifecycle/LiveData;->mDispatchInvalidated:Z    return-void
+    iput-boolean v1, p0, Landroidx/lifecycle/LiveData;->mDispatchInvalidated:Z
+return-void
 
     .line 9
     :cond_0
@@ -566,7 +570,8 @@
 
     .line 55
     .line 56
-    iput-boolean v0, p0, Landroidx/lifecycle/LiveData;->mDispatchingValue:Z    return-void
+    iput-boolean v0, p0, Landroidx/lifecycle/LiveData;->mDispatchingValue:Z
+return-void
 .end method
 
 .method public getValue()Ljava/lang/Object;
@@ -826,7 +831,8 @@
     move-result-object p1
 
     .line 56
-    invoke-virtual {p1, v0}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V    return-void
+    invoke-virtual {p1, v0}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
+return-void
 .end method
 
 .method public observeForever(Landroidx/lifecycle/Observer;)V
@@ -896,7 +902,8 @@
     const/4 p1, 0x1
 
     .line 27
-    invoke-virtual {v0, p1}, Landroidx/lifecycle/LiveData$ObserverWrapper;->activeStateChanged(Z)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/lifecycle/LiveData$ObserverWrapper;->activeStateChanged(Z)V
+return-void
 
     .line 31
     :cond_1
@@ -992,7 +999,8 @@
 
     .line 24
     .line 25
-    invoke-virtual {p1, v0}, Landroidx/arch/core/executor/ArchTaskExecutor;->postToMainThread(Ljava/lang/Runnable;)V    return-void
+    invoke-virtual {p1, v0}, Landroidx/arch/core/executor/ArchTaskExecutor;->postToMainThread(Ljava/lang/Runnable;)V
+return-void
 
     .line 29
     :catchall_0
@@ -1062,7 +1070,8 @@
     const/4 v0, 0x0
 
     .line 21
-    invoke-virtual {p1, v0}, Landroidx/lifecycle/LiveData$ObserverWrapper;->activeStateChanged(Z)V    return-void
+    invoke-virtual {p1, v0}, Landroidx/lifecycle/LiveData$ObserverWrapper;->activeStateChanged(Z)V
+return-void
 .end method
 
 .method public removeObservers(Landroidx/lifecycle/LifecycleOwner;)V

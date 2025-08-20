@@ -221,8 +221,7 @@
     new-instance p2, Landroidx/datastore/preferences/core/PreferenceDataStore;
 
     invoke-direct {p2, p1}, Landroidx/datastore/preferences/core/PreferenceDataStore;-><init>(Landroidx/datastore/core/DataStore;)V
-
-    return-object p2
+return-object p2
 .end method
 
 .method public final create(Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Lp1/a;)Landroidx/datastore/core/DataStore;

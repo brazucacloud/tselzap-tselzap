@@ -148,8 +148,7 @@
 
     .line 23
     iput-boolean p1, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzd;->zzi:Z
-
-    return-void
+return-void
 .end method
 
 .method public static zzb()Lcom/google/android/gms/internal/measurement/zzgg$zzd$zza;
@@ -340,16 +339,14 @@
     new-instance p1, Lcom/google/android/gms/internal/measurement/zzgg$zzd$zza;
 
     invoke-direct {p1, p2}, Lcom/google/android/gms/internal/measurement/zzgg$zzd$zza;-><init>(Lcom/google/android/gms/internal/measurement/zzgp;)V
-
-    return-object p1
+return-object p1
 
     .line 16
     :pswitch_5
     new-instance p1, Lcom/google/android/gms/internal/measurement/zzgg$zzd;
 
     invoke-direct {p1}, Lcom/google/android/gms/internal/measurement/zzgg$zzd;-><init>()V
-
-    return-object p1
+return-object p1
 
     nop
 

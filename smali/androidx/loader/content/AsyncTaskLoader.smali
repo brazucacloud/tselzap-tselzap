@@ -69,8 +69,7 @@
     sget-object v0, Landroidx/loader/content/ModernAsyncTask;->THREAD_POOL_EXECUTOR:Ljava/util/concurrent/Executor;
 
     invoke-direct {p0, p1, v0}, Landroidx/loader/content/AsyncTaskLoader;-><init>(Landroid/content/Context;Ljava/util/concurrent/Executor;)V
-
-    return-void
+return-void
 .end method
 
 .method private constructor <init>(Landroid/content/Context;Ljava/util/concurrent/Executor;)V
@@ -191,7 +190,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0, p1, p2}, Landroidx/loader/content/AsyncTaskLoader;->dispatchOnCancelled(Landroidx/loader/content/AsyncTaskLoader$LoadTask;Ljava/lang/Object;)V    return-void
+    invoke-virtual {p0, p1, p2}, Landroidx/loader/content/AsyncTaskLoader;->dispatchOnCancelled(Landroidx/loader/content/AsyncTaskLoader$LoadTask;Ljava/lang/Object;)V
+return-void
 
     .line 9
     :cond_0
@@ -207,7 +207,8 @@
 
     .line 14
     .line 15
-    invoke-virtual {p0, p2}, Landroidx/loader/content/AsyncTaskLoader;->onCanceled(Ljava/lang/Object;)V    return-void
+    invoke-virtual {p0, p2}, Landroidx/loader/content/AsyncTaskLoader;->onCanceled(Ljava/lang/Object;)V
+return-void
 
     .line 19
     :cond_1
@@ -235,7 +236,8 @@
 
     .line 30
     .line 31
-    invoke-virtual {p0, p2}, Landroidx/loader/content/Loader;->deliverResult(Ljava/lang/Object;)V    return-void
+    invoke-virtual {p0, p2}, Landroidx/loader/content/Loader;->deliverResult(Ljava/lang/Object;)V
+return-void
 .end method
 
 .method public dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
@@ -811,7 +813,8 @@
 
     .line 13
     .line 14
-    invoke-virtual {p0}, Landroidx/loader/content/AsyncTaskLoader;->executePendingTask()V    return-void
+    invoke-virtual {p0}, Landroidx/loader/content/AsyncTaskLoader;->executePendingTask()V
+return-void
 .end method
 
 .method public onLoadInBackground()Ljava/lang/Object;

@@ -238,7 +238,8 @@
     move-result-object p1
 
     .line 20
-    invoke-virtual {p3, p2, p1}, Landroid/os/Bundle;->putFloatArray(Ljava/lang/String;[F)V    return-void
+    invoke-virtual {p3, p2, p1}, Landroid/os/Bundle;->putFloatArray(Ljava/lang/String;[F)V
+return-void
 
     .line 24
     :pswitch_1
@@ -250,7 +251,8 @@
     move-result p1
 
     .line 28
-    invoke-virtual {p3, p2, p1}, Landroid/os/Bundle;->putFloat(Ljava/lang/String;F)V    return-void
+    invoke-virtual {p3, p2, p1}, Landroid/os/Bundle;->putFloat(Ljava/lang/String;F)V
+return-void
 
     .line 32
     :pswitch_2
@@ -262,7 +264,8 @@
     move-result-object p1
 
     .line 36
-    invoke-virtual {p3, p2, p1}, Landroid/os/BaseBundle;->putLongArray(Ljava/lang/String;[J)V    return-void
+    invoke-virtual {p3, p2, p1}, Landroid/os/BaseBundle;->putLongArray(Ljava/lang/String;[J)V
+return-void
 
     .line 40
     :pswitch_3
@@ -274,7 +277,8 @@
     move-result-wide v0
 
     .line 44
-    invoke-virtual {p3, p2, v0, v1}, Landroid/os/BaseBundle;->putLong(Ljava/lang/String;J)V    return-void
+    invoke-virtual {p3, p2, v0, v1}, Landroid/os/BaseBundle;->putLong(Ljava/lang/String;J)V
+return-void
 
     .line 48
     :pswitch_4
@@ -286,7 +290,8 @@
     move-result-object p1
 
     .line 52
-    invoke-virtual {p3, p2, p1}, Landroid/os/BaseBundle;->putIntArray(Ljava/lang/String;[I)V    return-void
+    invoke-virtual {p3, p2, p1}, Landroid/os/BaseBundle;->putIntArray(Ljava/lang/String;[I)V
+return-void
 
     .line 56
     :pswitch_5
@@ -298,7 +303,8 @@
     move-result p1
 
     .line 60
-    invoke-virtual {p3, p2, p1}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V    return-void
+    invoke-virtual {p3, p2, p1}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
+return-void
 
     .line 64
     :pswitch_6
@@ -310,7 +316,8 @@
     move-result-object p1
 
     .line 68
-    invoke-virtual {p3, p2, p1}, Landroid/os/BaseBundle;->putDoubleArray(Ljava/lang/String;[D)V    return-void
+    invoke-virtual {p3, p2, p1}, Landroid/os/BaseBundle;->putDoubleArray(Ljava/lang/String;[D)V
+return-void
 
     .line 72
     :pswitch_7
@@ -322,7 +329,8 @@
     move-result-wide v0
 
     .line 76
-    invoke-virtual {p3, p2, v0, v1}, Landroid/os/BaseBundle;->putDouble(Ljava/lang/String;D)V    return-void
+    invoke-virtual {p3, p2, v0, v1}, Landroid/os/BaseBundle;->putDouble(Ljava/lang/String;D)V
+return-void
 
     .line 80
     :pswitch_8
@@ -334,7 +342,8 @@
     move-result-object p1
 
     .line 84
-    invoke-virtual {p3, p2, p1}, Landroid/os/Bundle;->putBooleanArray(Ljava/lang/String;[Z)V    return-void
+    invoke-virtual {p3, p2, p1}, Landroid/os/Bundle;->putBooleanArray(Ljava/lang/String;[Z)V
+return-void
 
     .line 88
     :pswitch_9
@@ -346,7 +355,8 @@
     move-result p1
 
     .line 92
-    invoke-virtual {p3, p2, p1}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V    return-void
+    invoke-virtual {p3, p2, p1}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
+return-void
 
     .line 96
     :pswitch_a
@@ -369,7 +379,8 @@
 
     .line 104
     .line 105
-    invoke-virtual {p3, p2, p1}, Landroid/os/BaseBundle;->putStringArray(Ljava/lang/String;[Ljava/lang/String;)V    return-void
+    invoke-virtual {p3, p2, p1}, Landroid/os/BaseBundle;->putStringArray(Ljava/lang/String;[Ljava/lang/String;)V
+return-void
 
     .line 109
     :pswitch_b
@@ -381,7 +392,8 @@
     move-result-object p1
 
     .line 113
-    invoke-virtual {p3, p2, p1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V    return-void
+    invoke-virtual {p3, p2, p1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+return-void
 
     .line 117
     :pswitch_c
@@ -393,7 +405,8 @@
     move-result-object p1
 
     .line 121
-    invoke-virtual {p3, p2, p1}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V    return-void
+    invoke-virtual {p3, p2, p1}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
+return-void
 
     .line 125
     :pswitch_d
@@ -405,14 +418,16 @@
     move-result-object p1
 
     .line 129
-    invoke-virtual {p3, p2, p1}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V    return-void
+    invoke-virtual {p3, p2, p1}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
+return-void
 
     .line 133
     :pswitch_e
     const/4 p1, 0x0
 
     .line 134
-    invoke-virtual {p3, p2, p1}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V    return-void
+    invoke-virtual {p3, p2, p1}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
+return-void
 
     .line 138
     nop
@@ -1578,7 +1593,8 @@
 
     .line 2
     .line 3
-    iput-boolean p2, p0, Landroidx/versionedparcelable/VersionedParcelStream;->mIgnoreParcelables:Z    return-void
+    iput-boolean p2, p0, Landroidx/versionedparcelable/VersionedParcelStream;->mIgnoreParcelables:Z
+return-void
 
     .line 6
     :cond_0
@@ -1767,8 +1783,7 @@
     iget-object v0, p0, Landroidx/versionedparcelable/VersionedParcelStream;->mCurrentOutput:Ljava/io/DataOutputStream;
 
     invoke-virtual {v0, p1}, Ljava/io/OutputStream;->write([B)V
-
-    return-void
+return-void
 
     :catch_0
     move-exception p1
@@ -1811,8 +1826,7 @@
     iget-object v0, p0, Landroidx/versionedparcelable/VersionedParcelStream;->mCurrentOutput:Ljava/io/DataOutputStream;
 
     invoke-virtual {v0, p1, p2, p3}, Ljava/io/DataOutputStream;->write([BII)V
-
-    return-void
+return-void
 
     :catch_0
     move-exception p1
@@ -2047,7 +2061,8 @@
 
     .line 16
     .line 17
-    invoke-virtual {v0, p1}, Ljava/io/OutputStream;->write([B)V    return-void
+    invoke-virtual {v0, p1}, Ljava/io/OutputStream;->write([B)V
+return-void
 
     .line 21
     :catch_0

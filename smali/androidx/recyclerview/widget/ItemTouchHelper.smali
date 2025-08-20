@@ -925,7 +925,8 @@
     .line 64
     .line 65
     .line 66
-    invoke-direct {p0}, Landroidx/recyclerview/widget/ItemTouchHelper;->stopGestureDetection()V    return-void
+    invoke-direct {p0}, Landroidx/recyclerview/widget/ItemTouchHelper;->stopGestureDetection()V
+return-void
 .end method
 
 .method private findSwapTargets(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)Ljava/util/List;
@@ -1942,7 +1943,8 @@
     .line 32
     .line 33
     .line 34
-    invoke-direct {p0}, Landroidx/recyclerview/widget/ItemTouchHelper;->startGestureDetection()V    return-void
+    invoke-direct {p0}, Landroidx/recyclerview/widget/ItemTouchHelper;->startGestureDetection()V
+return-void
 .end method
 
 .method private startGestureDetection()V
@@ -3023,7 +3025,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Landroid/graphics/Rect;->setEmpty()V    return-void
+    invoke-virtual {p1}, Landroid/graphics/Rect;->setEmpty()V
+return-void
 .end method
 
 .method public hasRunningRecoverAnim()Z
@@ -3340,7 +3343,8 @@
 
     .line 114
     .line 115
-    invoke-interface {p1}, Ljava/util/List;->clear()V    return-void
+    invoke-interface {p1}, Ljava/util/List;->clear()V
+return-void
 
     .line 119
     :cond_4
@@ -3747,7 +3751,8 @@
     .line 6
     .line 7
     .line 8
-    invoke-virtual {v0, v1}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z    return-void
+    invoke-virtual {v0, v1}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
+return-void
 .end method
 
 .method public removeChildDrawingOrderCallbackIfNecessary(Landroid/view/View;)V
@@ -5015,7 +5020,8 @@
 
     .line 294
     .line 295
-    invoke-virtual {v0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {v0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public startDrag(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V

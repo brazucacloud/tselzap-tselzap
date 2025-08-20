@@ -117,8 +117,7 @@
     move-result-object p1
 
     invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/util/Set;)V
@@ -148,8 +147,7 @@
 
     .line 15
     invoke-interface {v0, p1}, Ljava/util/Set;->addAll(Ljava/util/Collection;)Z
-
-    return-void
+return-void
 .end method
 
 .method public varargs constructor <init>([I)V
@@ -221,7 +219,8 @@
     const/4 v4, 0x0
 
     .line 10
-    invoke-direct {v0, v1, v2, v3, v4}, Landroidx/navigation/ui/AppBarConfiguration;-><init>(Ljava/util/Set;Landroidx/customview/widget/Openable;Landroidx/navigation/ui/AppBarConfiguration$OnNavigateUpListener;Lkotlin/jvm/internal/e;)V    return-object v0
+    invoke-direct {v0, v1, v2, v3, v4}, Landroidx/navigation/ui/AppBarConfiguration;-><init>(Ljava/util/Set;Landroidx/customview/widget/Openable;Landroidx/navigation/ui/AppBarConfiguration$OnNavigateUpListener;Lkotlin/jvm/internal/e;)V
+return-object v0
 .end method
 
 .method public final setDrawerLayout(Landroidx/drawerlayout/widget/DrawerLayout;)Landroidx/navigation/ui/AppBarConfiguration$Builder;

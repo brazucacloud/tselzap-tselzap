@@ -58,7 +58,8 @@
 
     .line 14
     .line 15
-    invoke-virtual {p0}, Landroidx/appcompat/view/menu/MenuAdapter;->findExpandedIndex()V    return-void
+    invoke-virtual {p0}, Landroidx/appcompat/view/menu/MenuAdapter;->findExpandedIndex()V
+return-void
 .end method
 
 
@@ -457,13 +458,15 @@
     .line 2
     .line 3
     .line 4
-    invoke-super {p0}, Landroid/widget/BaseAdapter;->notifyDataSetChanged()V    return-void
+    invoke-super {p0}, Landroid/widget/BaseAdapter;->notifyDataSetChanged()V
+return-void
 .end method
 
 .method public setForceShowIcon(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mForceShowIcon:Z    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mForceShowIcon:Z
+return-void
 .end method
 .end class

@@ -166,8 +166,7 @@
 
     .line 4
     invoke-virtual {p0, v0}, Landroidx/transition/Slide;->setSlideEdge(I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -188,8 +187,7 @@
 
     .line 8
     invoke-virtual {p0, p1}, Landroidx/transition/Slide;->setSlideEdge(I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -239,8 +237,7 @@
 
     .line 15
     invoke-virtual {p0, p2}, Landroidx/transition/Slide;->setSlideEdge(I)V
-
-    return-void
+return-void
 .end method
 
 .method private captureValues(Landroidx/transition/TransitionValues;)V
@@ -737,6 +734,7 @@
     .line 70
     .line 71
     .line 72
-    invoke-virtual {p0, v0}, Landroidx/transition/Transition;->setPropagation(Landroidx/transition/TransitionPropagation;)V    return-void
+    invoke-virtual {p0, v0}, Landroidx/transition/Transition;->setPropagation(Landroidx/transition/TransitionPropagation;)V
+return-void
 .end method
 .end class

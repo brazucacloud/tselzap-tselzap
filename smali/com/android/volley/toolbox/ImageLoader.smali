@@ -396,8 +396,7 @@
 
     .line 7
     invoke-interface {p2, v0, v8}, Lcom/android/volley/toolbox/ImageLoader$ImageListener;->onResponse(Lcom/android/volley/toolbox/ImageLoader$ImageContainer;Z)V
-
-    return-object v0
+return-object v0
 
     .line 8
     :cond_0
@@ -443,8 +442,7 @@
 
     .line 12
     invoke-virtual {v0, v6}, Lcom/android/volley/toolbox/ImageLoader$BatchedImageRequest;->addContainer(Lcom/android/volley/toolbox/ImageLoader$ImageContainer;)V
-
-    return-object v6
+return-object v6
 
     :cond_2
     move-object v0, p0

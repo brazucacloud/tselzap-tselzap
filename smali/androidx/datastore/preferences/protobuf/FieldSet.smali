@@ -106,8 +106,7 @@
 
     .line 8
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/FieldSet;->makeImmutable()V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Landroidx/datastore/preferences/protobuf/FieldSet$1;)V
@@ -115,8 +114,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/FieldSet;-><init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;)V
-
-    return-void
+return-void
 .end method
 
 .method private constructor <init>(Z)V
@@ -133,8 +131,7 @@
 
     .line 5
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/FieldSet;->makeImmutable()V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic access$100(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Z)Landroidx/datastore/preferences/protobuf/SmallSortedMap;
@@ -5106,8 +5103,7 @@
     check-cast v0, Landroidx/datastore/preferences/protobuf/MessageLite;
 
     invoke-virtual {p2, p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeMessageSetExtension(ILandroidx/datastore/preferences/protobuf/MessageLite;)V
-
-    return-void
+return-void
 
     .line 13
     :cond_1
@@ -5116,8 +5112,7 @@
     move-result-object p1
 
     invoke-static {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/FieldSet;->writeField(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/CodedOutputStream;)V
-
-    return-void
+return-void
 .end method
 
 
@@ -5393,8 +5388,7 @@
     iget-boolean v1, p0, Landroidx/datastore/preferences/protobuf/FieldSet;->hasLazyField:Z
 
     iput-boolean v1, v0, Landroidx/datastore/preferences/protobuf/FieldSet;->hasLazyField:Z
-
-    return-object v0
+return-object v0
 .end method
 
 .method public bridge synthetic clone()Ljava/lang/Object;

@@ -30,7 +30,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 
@@ -52,7 +53,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1, p3}, Landroidx/appcompat/widget/SearchView;->onItemSelected(I)Z    return-void
+    invoke-virtual {p1, p3}, Landroidx/appcompat/widget/SearchView;->onItemSelected(I)Z
+return-void
 .end method
 
 .method public onNothingSelected(Landroid/widget/AdapterView;)V

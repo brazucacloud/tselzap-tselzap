@@ -36,8 +36,7 @@
     move v1, p1
 
     invoke-direct/range {v0 .. v5}, Landroidx/navigation/NavAction;-><init>(ILandroidx/navigation/NavOptions;Landroid/os/Bundle;ILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(ILandroidx/navigation/NavOptions;)V
@@ -61,8 +60,7 @@
     move-object v2, p2
 
     invoke-direct/range {v0 .. v5}, Landroidx/navigation/NavAction;-><init>(ILandroidx/navigation/NavOptions;Landroid/os/Bundle;ILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(ILandroidx/navigation/NavOptions;Landroid/os/Bundle;)V
@@ -108,8 +106,7 @@
     .line 7
     :cond_1
     invoke-direct {p0, p1, p2, p3}, Landroidx/navigation/NavAction;-><init>(ILandroidx/navigation/NavOptions;Landroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 
 
@@ -608,6 +605,7 @@
 
     .line 41
     .line 42
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+return-object v0
 .end method
 .end class

@@ -683,7 +683,8 @@
 
     .line 20
     .line 21
-    invoke-virtual {p0, v0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z    return-void
+    invoke-virtual {p0, v0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
+return-void
 .end method
 
 .method public animateToVisibility(I)V
@@ -784,7 +785,8 @@
     .line 47
     .line 48
     .line 49
-    invoke-virtual {v2}, Landroid/view/ViewPropertyAnimator;->start()V    return-void
+    invoke-virtual {v2}, Landroid/view/ViewPropertyAnimator;->start()V
+return-void
 
     .line 53
     :cond_2
@@ -835,7 +837,8 @@
     .line 76
     .line 77
     .line 78
-    invoke-virtual {v2}, Landroid/view/ViewPropertyAnimator;->start()V    return-void
+    invoke-virtual {v2}, Landroid/view/ViewPropertyAnimator;->start()V
+return-void
 .end method
 
 .method public createTabView(Landroidx/appcompat/app/ActionBar$Tab;Z)Landroidx/appcompat/widget/ScrollingTabContainerView$TabView;
@@ -1054,7 +1057,8 @@
     move-result-object p1
 
     .line 7
-    invoke-virtual {p1}, Landroidx/appcompat/app/ActionBar$Tab;->select()V    return-void
+    invoke-virtual {p1}, Landroidx/appcompat/app/ActionBar$Tab;->select()V
+return-void
 .end method
 
 .method public onMeasure(II)V
@@ -1466,7 +1470,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/appcompat/widget/ScrollingTabContainerView;->mAllowCollapse:Z    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/widget/ScrollingTabContainerView;->mAllowCollapse:Z
+return-void
 .end method
 
 .method public setContentHeight(I)V
@@ -1477,7 +1482,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public setTabSelected(I)V

@@ -20,8 +20,7 @@
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Lkotlin/jvm/internal/e;)V
@@ -29,8 +28,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/lifecycle/ViewModelProvider$NewInstanceFactory$Companion;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic getInstance$annotations()V
@@ -85,6 +83,7 @@
     move-result-object v0
 
     .line 19
-    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V    return-object v0
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+return-object v0
 .end method
 .end class

@@ -1235,8 +1235,7 @@
 
     .line 5
     invoke-direct {p0}, Landroidx/emoji2/text/SpannableBuilder;->unblockwatchers()V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public replace(IILjava/lang/CharSequence;II)Landroid/text/SpannableStringBuilder;
@@ -1257,8 +1256,7 @@
 
     .line 8
     invoke-direct {p0}, Landroidx/emoji2/text/SpannableBuilder;->unblockwatchers()V
-
-    return-object p1
+return-object p1
 .end method
 
 .method public setSpan(Ljava/lang/Object;III)V

@@ -27,8 +27,7 @@
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/graphics/Rect;)V
@@ -117,8 +116,7 @@
     new-instance p1, Landroid/graphics/Rect;
 
     invoke-direct {p1, v0, v1, v2, p2}, Landroid/graphics/Rect;-><init>(IIII)V
-
-    return-object p1
+return-object p1
 
     .line 8
     :cond_0

@@ -14,7 +14,8 @@
     const/4 v1, 0x1
 
     .line 3
-    invoke-direct {p0, v0, v1, v0}, Landroidx/graphics/shapes/Cubic;-><init>([FILkotlin/jvm/internal/e;)V    return-void
+    invoke-direct {p0, v0, v1, v0}, Landroidx/graphics/shapes/Cubic;-><init>([FILkotlin/jvm/internal/e;)V
+return-void
 .end method
 
 .method private final transformOnePoint(Landroidx/graphics/shapes/PointTransformer;I)V
@@ -251,6 +252,7 @@
     const/4 v0, 0x6
 
     .line 19
-    invoke-direct {p0, p1, v0}, Landroidx/graphics/shapes/MutableCubic;->transformOnePoint(Landroidx/graphics/shapes/PointTransformer;I)V    return-void
+    invoke-direct {p0, p1, v0}, Landroidx/graphics/shapes/MutableCubic;->transformOnePoint(Landroidx/graphics/shapes/PointTransformer;I)V
+return-void
 .end method
 .end class

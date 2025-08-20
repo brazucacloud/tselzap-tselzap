@@ -31,8 +31,7 @@
     iget-object v0, p0, Lcom/fmark/tselzap/Utils/d;->a:Ljava/lang/StringBuilder;
 
     invoke-static {v0, p1}, Lcom/fmark/tselzap/Utils/Tools;->a(Ljava/lang/StringBuilder;I)V
-
-    return-void
+return-void
 .end method
 
 .end class

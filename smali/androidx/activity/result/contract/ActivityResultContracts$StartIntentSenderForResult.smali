@@ -58,7 +58,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/activity/result/contract/ActivityResultContract;-><init>()V    return-void
+    invoke-direct {p0}, Landroidx/activity/result/contract/ActivityResultContract;-><init>()V
+return-void
 .end method
 
 
@@ -91,8 +92,7 @@
     const-string p2, "Intent(ACTION_INTENT_SEN\u2026NT_SENDER_REQUEST, input)"
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object p1
+return-object p1
 .end method
 
 .method public bridge synthetic createIntent(Landroid/content/Context;Ljava/lang/Object;)Landroid/content/Intent;
@@ -115,8 +115,7 @@
     new-instance v0, Landroidx/activity/result/ActivityResult;
 
     invoke-direct {v0, p1, p2}, Landroidx/activity/result/ActivityResult;-><init>(ILandroid/content/Intent;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public bridge synthetic parseResult(ILandroid/content/Intent;)Ljava/lang/Object;

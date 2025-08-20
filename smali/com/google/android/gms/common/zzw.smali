@@ -74,8 +74,7 @@
     move-object p1, p0
 
     invoke-direct/range {p1 .. p6}, Lcom/google/android/gms/common/zzw;-><init>(ZIILjava/lang/String;Ljava/lang/Throwable;)V
-
-    return-void
+return-void
 .end method
 
 .method public static zzb()Lcom/google/android/gms/common/zzw;
@@ -108,8 +107,7 @@
     move-object v4, p0
 
     invoke-direct/range {v0 .. v5}, Lcom/google/android/gms/common/zzw;-><init>(ZIILjava/lang/String;Ljava/lang/Throwable;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static zzd(Ljava/lang/String;Ljava/lang/Throwable;)Lcom/google/android/gms/common/zzw;
@@ -136,8 +134,7 @@
     move-object v5, p1
 
     invoke-direct/range {v0 .. v5}, Lcom/google/android/gms/common/zzw;-><init>(ZIILjava/lang/String;Ljava/lang/Throwable;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static zzf(I)Lcom/google/android/gms/common/zzw;
@@ -156,8 +153,7 @@
     move v2, p0
 
     invoke-direct/range {v0 .. v5}, Lcom/google/android/gms/common/zzw;-><init>(ZIILjava/lang/String;Ljava/lang/Throwable;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static zzg(IILjava/lang/String;Ljava/lang/Throwable;)Lcom/google/android/gms/common/zzw;
@@ -180,8 +176,7 @@
     move-object v5, p3
 
     invoke-direct/range {v0 .. v5}, Lcom/google/android/gms/common/zzw;-><init>(ZIILjava/lang/String;Ljava/lang/Throwable;)V
-
-    return-object v0
+return-object v0
 .end method
 
 

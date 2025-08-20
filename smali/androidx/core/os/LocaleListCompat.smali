@@ -732,8 +732,7 @@
     invoke-direct {v1, p0}, Landroidx/core/os/LocaleListPlatformWrapper;-><init>(Ljava/lang/Object;)V
 
     invoke-direct {v0, v1}, Landroidx/core/os/LocaleListCompat;-><init>(Landroidx/core/os/LocaleListInterface;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static wrap(Ljava/lang/Object;)Landroidx/core/os/LocaleListCompat;

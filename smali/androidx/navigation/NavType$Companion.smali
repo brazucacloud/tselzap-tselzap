@@ -20,8 +20,7 @@
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Lkotlin/jvm/internal/e;)V
@@ -29,8 +28,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/navigation/NavType$Companion;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -743,7 +741,8 @@
 
     .line 45
     .line 46
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+return-object p1
 .end method
 
 .method public final inferFromValueType(Ljava/lang/Object;)Landroidx/navigation/NavType;
@@ -782,7 +781,8 @@
 
     .line 8
     .line 9
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+return-object p1
 
     .line 13
     :cond_0
@@ -798,7 +798,8 @@
 
     .line 18
     .line 19
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+return-object p1
 
     .line 23
     :cond_1
@@ -814,7 +815,8 @@
 
     .line 28
     .line 29
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+return-object p1
 
     .line 33
     :cond_2
@@ -830,7 +832,8 @@
 
     .line 38
     .line 39
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+return-object p1
 
     .line 43
     :cond_3
@@ -846,7 +849,8 @@
 
     .line 48
     .line 49
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+return-object p1
 
     .line 53
     :cond_4
@@ -862,7 +866,8 @@
 
     .line 58
     .line 59
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+return-object p1
 
     .line 63
     :cond_5
@@ -878,7 +883,8 @@
 
     .line 68
     .line 69
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+return-object p1
 
     .line 73
     :cond_6
@@ -894,7 +900,8 @@
 
     .line 78
     .line 79
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+return-object p1
 
     .line 83
     :cond_7
@@ -942,7 +949,8 @@
 
     .line 103
     .line 104
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+return-object p1
 
     .line 108
     :cond_9
@@ -1032,7 +1040,8 @@
     .line 150
     .line 151
     .line 152
-    invoke-direct {v0, p1}, Landroidx/navigation/NavType$ParcelableArrayType;-><init>(Ljava/lang/Class;)V    return-object v0
+    invoke-direct {v0, p1}, Landroidx/navigation/NavType$ParcelableArrayType;-><init>(Ljava/lang/Class;)V
+return-object v0
 
     .line 156
     :cond_a
@@ -1122,7 +1131,8 @@
     .line 198
     .line 199
     .line 200
-    invoke-direct {v0, p1}, Landroidx/navigation/NavType$SerializableArrayType;-><init>(Ljava/lang/Class;)V    return-object v0
+    invoke-direct {v0, p1}, Landroidx/navigation/NavType$SerializableArrayType;-><init>(Ljava/lang/Class;)V
+return-object v0
 
     .line 204
     :cond_b
@@ -1146,7 +1156,8 @@
     move-result-object p1
 
     .line 214
-    invoke-direct {v0, p1}, Landroidx/navigation/NavType$ParcelableType;-><init>(Ljava/lang/Class;)V    return-object v0
+    invoke-direct {v0, p1}, Landroidx/navigation/NavType$ParcelableType;-><init>(Ljava/lang/Class;)V
+return-object v0
 
     .line 218
     :cond_c
@@ -1170,7 +1181,8 @@
     move-result-object p1
 
     .line 228
-    invoke-direct {v0, p1}, Landroidx/navigation/NavType$EnumType;-><init>(Ljava/lang/Class;)V    return-object v0
+    invoke-direct {v0, p1}, Landroidx/navigation/NavType$EnumType;-><init>(Ljava/lang/Class;)V
+return-object v0
 
     .line 232
     :cond_d
@@ -1194,7 +1206,8 @@
     move-result-object p1
 
     .line 242
-    invoke-direct {v0, p1}, Landroidx/navigation/NavType$SerializableType;-><init>(Ljava/lang/Class;)V    return-object v0
+    invoke-direct {v0, p1}, Landroidx/navigation/NavType$SerializableType;-><init>(Ljava/lang/Class;)V
+return-object v0
 
     .line 246
     :cond_e
@@ -1267,7 +1280,8 @@
 
     .line 280
     .line 281
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+return-object p1
 .end method
 
 .method public final parseSerializableOrParcelableType$navigation_common_release(Ljava/lang/Class;Z)Landroidx/navigation/NavType;
@@ -1316,7 +1330,8 @@
 
     .line 17
     .line 18
-    invoke-direct {p2, p1}, Landroidx/navigation/NavType$ParcelableArrayType;-><init>(Ljava/lang/Class;)V    return-object p2
+    invoke-direct {p2, p1}, Landroidx/navigation/NavType$ParcelableArrayType;-><init>(Ljava/lang/Class;)V
+return-object p2
 
     .line 22
     :cond_0
@@ -1324,7 +1339,8 @@
 
     .line 23
     .line 24
-    invoke-direct {p2, p1}, Landroidx/navigation/NavType$ParcelableType;-><init>(Ljava/lang/Class;)V    return-object p2
+    invoke-direct {p2, p1}, Landroidx/navigation/NavType$ParcelableType;-><init>(Ljava/lang/Class;)V
+return-object p2
 
     .line 28
     :cond_1
@@ -1352,7 +1368,8 @@
 
     .line 39
     .line 40
-    invoke-direct {p2, p1}, Landroidx/navigation/NavType$EnumType;-><init>(Ljava/lang/Class;)V    return-object p2
+    invoke-direct {p2, p1}, Landroidx/navigation/NavType$EnumType;-><init>(Ljava/lang/Class;)V
+return-object p2
 
     .line 44
     :cond_2
@@ -1380,7 +1397,8 @@
 
     .line 55
     .line 56
-    invoke-direct {p2, p1}, Landroidx/navigation/NavType$SerializableArrayType;-><init>(Ljava/lang/Class;)V    return-object p2
+    invoke-direct {p2, p1}, Landroidx/navigation/NavType$SerializableArrayType;-><init>(Ljava/lang/Class;)V
+return-object p2
 
     .line 60
     :cond_3
@@ -1388,7 +1406,8 @@
 
     .line 61
     .line 62
-    invoke-direct {p2, p1}, Landroidx/navigation/NavType$SerializableType;-><init>(Ljava/lang/Class;)V    return-object p2
+    invoke-direct {p2, p1}, Landroidx/navigation/NavType$SerializableType;-><init>(Ljava/lang/Class;)V
+return-object p2
 
     .line 66
     :cond_4

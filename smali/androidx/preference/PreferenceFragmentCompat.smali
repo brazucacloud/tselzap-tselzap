@@ -152,7 +152,8 @@
     move-result-object v0
 
     .line 17
-    invoke-virtual {v0}, Landroid/os/Message;->sendToTarget()V    return-void
+    invoke-virtual {v0}, Landroid/os/Message;->sendToTarget()V
+return-void
 .end method
 
 .method private requirePreferenceManager()V
@@ -215,7 +216,8 @@
 
     .line 13
     :cond_0
-    invoke-interface {v0}, Ljava/lang/Runnable;->run()V    return-void
+    invoke-interface {v0}, Ljava/lang/Runnable;->run()V
+return-void
 .end method
 
 .method private unbindPreferences()V
@@ -256,7 +258,8 @@
     .line 17
     .line 18
     :cond_0
-    invoke-virtual {p0}, Landroidx/preference/PreferenceFragmentCompat;->onUnbindPreferences()V    return-void
+    invoke-virtual {p0}, Landroidx/preference/PreferenceFragmentCompat;->onUnbindPreferences()V
+return-void
 .end method
 
 
@@ -302,7 +305,8 @@
     move-result-object p1
 
     .line 18
-    invoke-virtual {p0, p1}, Landroidx/preference/PreferenceFragmentCompat;->setPreferenceScreen(Landroidx/preference/PreferenceScreen;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/preference/PreferenceFragmentCompat;->setPreferenceScreen(Landroidx/preference/PreferenceScreen;)V
+return-void
 .end method
 
 .method public bindPreferences()V
@@ -348,7 +352,8 @@
     .line 20
     .line 21
     :cond_0
-    invoke-virtual {p0}, Landroidx/preference/PreferenceFragmentCompat;->onBindPreferences()V    return-void
+    invoke-virtual {p0}, Landroidx/preference/PreferenceFragmentCompat;->onBindPreferences()V
+return-void
 .end method
 
 .method public findPreference(Ljava/lang/CharSequence;)Landroidx/preference/Preference;
@@ -607,7 +612,8 @@
 
     .line 73
     :goto_0
-    invoke-virtual {p0, p1, v0}, Landroidx/preference/PreferenceFragmentCompat;->onCreatePreferences(Landroid/os/Bundle;Ljava/lang/String;)V    return-void
+    invoke-virtual {p0, p1, v0}, Landroidx/preference/PreferenceFragmentCompat;->onCreatePreferences(Landroid/os/Bundle;Ljava/lang/String;)V
+return-void
 .end method
 
 .method public onCreateAdapter(Landroidx/preference/PreferenceScreen;)Landroidx/recyclerview/widget/RecyclerView$Adapter;
@@ -624,7 +630,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/preference/PreferenceGroupAdapter;-><init>(Landroidx/preference/PreferenceGroup;)V    return-object v0
+    invoke-direct {v0, p1}, Landroidx/preference/PreferenceGroupAdapter;-><init>(Landroidx/preference/PreferenceGroup;)V
+return-object v0
 .end method
 
 .method public onCreateLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
@@ -645,7 +652,8 @@
     move-result-object v1
 
     .line 7
-    invoke-direct {v0, v1}, Landroidx/recyclerview/widget/LinearLayoutManager;-><init>(Landroid/content/Context;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/recyclerview/widget/LinearLayoutManager;-><init>(Landroid/content/Context;)V
+return-object v0
 .end method
 
 .method public abstract onCreatePreferences(Landroid/os/Bundle;Ljava/lang/String;)V
@@ -1429,7 +1437,8 @@
     move-result-object v0
 
     .line 144
-    invoke-virtual {p1, v0, v2}, Landroidx/fragment/app/DialogFragment;->show(Landroidx/fragment/app/FragmentManager;Ljava/lang/String;)V    return-void
+    invoke-virtual {p1, v0, v2}, Landroidx/fragment/app/DialogFragment;->show(Landroidx/fragment/app/FragmentManager;Ljava/lang/String;)V
+return-void
 
     .line 148
     :cond_9
@@ -2101,7 +2110,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {v0, p0}, Landroidx/preference/PreferenceManager;->setOnDisplayPreferenceDialogListener(Landroidx/preference/PreferenceManager$OnDisplayPreferenceDialogListener;)V    return-void
+    invoke-virtual {v0, p0}, Landroidx/preference/PreferenceManager;->setOnDisplayPreferenceDialogListener(Landroidx/preference/PreferenceManager$OnDisplayPreferenceDialogListener;)V
+return-void
 .end method
 
 .method public onStop()V
@@ -2129,7 +2139,8 @@
 
     .line 11
     .line 12
-    invoke-virtual {v0, v1}, Landroidx/preference/PreferenceManager;->setOnDisplayPreferenceDialogListener(Landroidx/preference/PreferenceManager$OnDisplayPreferenceDialogListener;)V    return-void
+    invoke-virtual {v0, v1}, Landroidx/preference/PreferenceManager;->setOnDisplayPreferenceDialogListener(Landroidx/preference/PreferenceManager$OnDisplayPreferenceDialogListener;)V
+return-void
 .end method
 
 .method public onUnbindPreferences()V
@@ -2235,7 +2246,8 @@
     const/4 p1, 0x1
 
     .line 41
-    iput-boolean p1, p0, Landroidx/preference/PreferenceFragmentCompat;->mInitDone:Z    return-void
+    iput-boolean p1, p0, Landroidx/preference/PreferenceFragmentCompat;->mInitDone:Z
+return-void
 .end method
 
 .method public scrollToPreference(Landroidx/preference/Preference;)V
@@ -2249,8 +2261,7 @@
 
     .line 2
     invoke-direct {p0, p1, v0}, Landroidx/preference/PreferenceFragmentCompat;->scrollToPreferenceInternal(Landroidx/preference/Preference;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public scrollToPreference(Ljava/lang/String;)V
@@ -2264,8 +2275,7 @@
 
     .line 1
     invoke-direct {p0, v0, p1}, Landroidx/preference/PreferenceFragmentCompat;->scrollToPreferenceInternal(Landroidx/preference/Preference;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public setDivider(Landroid/graphics/drawable/Drawable;)V
@@ -2280,7 +2290,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/preference/PreferenceFragmentCompat$DividerDecoration;->setDivider(Landroid/graphics/drawable/Drawable;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/preference/PreferenceFragmentCompat$DividerDecoration;->setDivider(Landroid/graphics/drawable/Drawable;)V
+return-void
 .end method
 
 .method public setDividerHeight(I)V
@@ -2291,7 +2302,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/preference/PreferenceFragmentCompat$DividerDecoration;->setDividerHeight(I)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/preference/PreferenceFragmentCompat$DividerDecoration;->setDividerHeight(I)V
+return-void
 .end method
 
 .method public setPreferenceScreen(Landroidx/preference/PreferenceScreen;)V
@@ -2445,6 +2457,7 @@
 
     .line 41
     .line 42
-    invoke-virtual {p0, p1}, Landroidx/preference/PreferenceFragmentCompat;->setPreferenceScreen(Landroidx/preference/PreferenceScreen;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/preference/PreferenceFragmentCompat;->setPreferenceScreen(Landroidx/preference/PreferenceScreen;)V
+return-void
 .end method
 .end class

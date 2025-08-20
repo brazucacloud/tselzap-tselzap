@@ -35,8 +35,7 @@
     const/4 v0, 0x0
 
     invoke-virtual {p0, p1, v0, p2}, Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;Ljava/lang/String;Landroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 
 .end class

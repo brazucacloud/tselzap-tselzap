@@ -119,8 +119,7 @@
     check-cast p1, Landroidx/constraintlayout/core/motion/MotionWidget;
 
     invoke-virtual {p0, p1, p2}, Landroidx/constraintlayout/core/motion/utils/SplineSet$CustomSpline;->setProperty(Landroidx/constraintlayout/core/motion/MotionWidget;F)V
-
-    return-void
+return-void
 .end method
 
 .method public setup(I)V

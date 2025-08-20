@@ -56,7 +56,8 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+return-object v0
 .end method
 
 .method public static final mutableObjectFloatMapOf()Landroidx/collection/MutableObjectFloatMap;
@@ -81,8 +82,7 @@
     const/4 v3, 0x0
 
     invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableObjectFloatMap;-><init>(IILkotlin/jvm/internal/e;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableObjectFloatMapOf(Ljava/lang/Object;F)Landroidx/collection/MutableObjectFloatMap;
@@ -110,8 +110,7 @@
 
     .line 3
     invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableObjectFloatMap;->set(Ljava/lang/Object;F)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableObjectFloatMapOf(Ljava/lang/Object;FLjava/lang/Object;F)Landroidx/collection/MutableObjectFloatMap;
@@ -142,8 +141,7 @@
 
     .line 6
     invoke-virtual {v0, p2, p3}, Landroidx/collection/MutableObjectFloatMap;->set(Ljava/lang/Object;F)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableObjectFloatMapOf(Ljava/lang/Object;FLjava/lang/Object;FLjava/lang/Object;F)Landroidx/collection/MutableObjectFloatMap;
@@ -177,8 +175,7 @@
 
     .line 10
     invoke-virtual {v0, p4, p5}, Landroidx/collection/MutableObjectFloatMap;->set(Ljava/lang/Object;F)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableObjectFloatMapOf(Ljava/lang/Object;FLjava/lang/Object;FLjava/lang/Object;FLjava/lang/Object;F)Landroidx/collection/MutableObjectFloatMap;
@@ -215,8 +212,7 @@
 
     .line 15
     invoke-virtual {v0, p6, p7}, Landroidx/collection/MutableObjectFloatMap;->set(Ljava/lang/Object;F)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableObjectFloatMapOf(Ljava/lang/Object;FLjava/lang/Object;FLjava/lang/Object;FLjava/lang/Object;FLjava/lang/Object;F)Landroidx/collection/MutableObjectFloatMap;
@@ -256,8 +252,7 @@
 
     .line 21
     invoke-virtual {v0, p8, p9}, Landroidx/collection/MutableObjectFloatMap;->set(Ljava/lang/Object;F)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final objectFloatMap()Landroidx/collection/ObjectFloatMap;
@@ -281,7 +276,8 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+return-object v0
 .end method
 
 .method public static final objectFloatMapOf(Ljava/lang/Object;F)Landroidx/collection/ObjectFloatMap;
@@ -309,8 +305,7 @@
 
     .line 2
     invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableObjectFloatMap;->set(Ljava/lang/Object;F)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final objectFloatMapOf(Ljava/lang/Object;FLjava/lang/Object;F)Landroidx/collection/ObjectFloatMap;
@@ -341,8 +336,7 @@
 
     .line 5
     invoke-virtual {v0, p2, p3}, Landroidx/collection/MutableObjectFloatMap;->set(Ljava/lang/Object;F)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final objectFloatMapOf(Ljava/lang/Object;FLjava/lang/Object;FLjava/lang/Object;F)Landroidx/collection/ObjectFloatMap;
@@ -376,8 +370,7 @@
 
     .line 9
     invoke-virtual {v0, p4, p5}, Landroidx/collection/MutableObjectFloatMap;->set(Ljava/lang/Object;F)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final objectFloatMapOf(Ljava/lang/Object;FLjava/lang/Object;FLjava/lang/Object;FLjava/lang/Object;F)Landroidx/collection/ObjectFloatMap;
@@ -414,8 +407,7 @@
 
     .line 14
     invoke-virtual {v0, p6, p7}, Landroidx/collection/MutableObjectFloatMap;->set(Ljava/lang/Object;F)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final objectFloatMapOf(Ljava/lang/Object;FLjava/lang/Object;FLjava/lang/Object;FLjava/lang/Object;FLjava/lang/Object;F)Landroidx/collection/ObjectFloatMap;
@@ -455,7 +447,6 @@
 
     .line 20
     invoke-virtual {v0, p8, p9}, Landroidx/collection/MutableObjectFloatMap;->set(Ljava/lang/Object;F)V
-
-    return-object v0
+return-object v0
 .end method
 .end class

@@ -30,7 +30,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 
@@ -63,7 +64,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {v0}, Landroidx/appcompat/widget/ListPopupWindow;->dismiss()V    return-void
+    invoke-virtual {v0}, Landroidx/appcompat/widget/ListPopupWindow;->dismiss()V
+return-void
 
     .line 17
     :cond_0
@@ -80,6 +82,7 @@
 
     .line 23
     .line 24
-    invoke-static {v0}, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;->access$001(Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;)V    return-void
+    invoke-static {v0}, Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;->access$001(Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;)V
+return-void
 .end method
 .end class

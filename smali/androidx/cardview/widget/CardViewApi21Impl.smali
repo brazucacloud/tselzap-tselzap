@@ -17,7 +17,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 .method private getCardBackground(Landroidx/cardview/widget/CardViewDelegate;)Landroidx/cardview/widget/RoundRectDrawable;
@@ -257,7 +258,8 @@
     move-result-object p1
 
     .line 5
-    invoke-virtual {p1, p2}, Landroidx/cardview/widget/RoundRectDrawable;->setColor(Landroid/content/res/ColorStateList;)V    return-void
+    invoke-virtual {p1, p2}, Landroidx/cardview/widget/RoundRectDrawable;->setColor(Landroid/content/res/ColorStateList;)V
+return-void
 .end method
 
 .method public setElevation(Landroidx/cardview/widget/CardViewDelegate;F)V
@@ -323,7 +325,8 @@
     move-result-object p1
 
     .line 5
-    invoke-virtual {p1, p2}, Landroidx/cardview/widget/RoundRectDrawable;->setRadius(F)V    return-void
+    invoke-virtual {p1, p2}, Landroidx/cardview/widget/RoundRectDrawable;->setRadius(F)V
+return-void
 .end method
 
 .method public updatePadding(Landroidx/cardview/widget/CardViewDelegate;)V

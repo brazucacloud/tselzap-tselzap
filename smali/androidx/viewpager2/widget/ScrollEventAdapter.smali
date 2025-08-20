@@ -117,7 +117,8 @@
 
     .line 24
     .line 25
-    invoke-direct {p0}, Landroidx/viewpager2/widget/ScrollEventAdapter;->resetState()V    return-void
+    invoke-direct {p0}, Landroidx/viewpager2/widget/ScrollEventAdapter;->resetState()V
+return-void
 .end method
 
 .method private dispatchScrolled(IFI)V
@@ -324,7 +325,8 @@
 
     .line 21
     .line 22
-    iput-boolean v0, p0, Landroidx/viewpager2/widget/ScrollEventAdapter;->mDataSetChangeHappened:Z    return-void
+    iput-boolean v0, p0, Landroidx/viewpager2/widget/ScrollEventAdapter;->mDataSetChangeHappened:Z
+return-void
 .end method
 
 .method private startDrag(Z)V
@@ -402,7 +404,8 @@
     .line 31
     :cond_2
     :goto_1
-    invoke-direct {p0, v0}, Landroidx/viewpager2/widget/ScrollEventAdapter;->dispatchStateChanged(I)V    return-void
+    invoke-direct {p0, v0}, Landroidx/viewpager2/widget/ScrollEventAdapter;->dispatchStateChanged(I)V
+return-void
 .end method
 
 .method private updateScrollEventValues()V
@@ -436,7 +439,8 @@
 
     .line 13
     .line 14
-    invoke-virtual {v0}, Landroidx/viewpager2/widget/ScrollEventAdapter$ScrollEventValues;->reset()V    return-void
+    invoke-virtual {v0}, Landroidx/viewpager2/widget/ScrollEventAdapter$ScrollEventValues;->reset()V
+return-void
 
     .line 18
     :cond_0
@@ -456,7 +460,8 @@
 
     .line 25
     .line 26
-    invoke-virtual {v0}, Landroidx/viewpager2/widget/ScrollEventAdapter$ScrollEventValues;->reset()V    return-void
+    invoke-virtual {v0}, Landroidx/viewpager2/widget/ScrollEventAdapter$ScrollEventValues;->reset()V
+return-void
 
     .line 30
     :cond_1
@@ -896,7 +901,8 @@
     const/4 v0, 0x1
 
     .line 5
-    invoke-direct {p0, v0}, Landroidx/viewpager2/widget/ScrollEventAdapter;->startDrag(Z)V    return-void
+    invoke-direct {p0, v0}, Landroidx/viewpager2/widget/ScrollEventAdapter;->startDrag(Z)V
+return-void
 .end method
 
 .method public notifyDataSetChangeHappened()V
@@ -906,7 +912,8 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/viewpager2/widget/ScrollEventAdapter;->mDataSetChangeHappened:Z    return-void
+    iput-boolean v0, p0, Landroidx/viewpager2/widget/ScrollEventAdapter;->mDataSetChangeHappened:Z
+return-void
 .end method
 
 .method public notifyEndFakeDrag()V
@@ -980,14 +987,16 @@
     .line 34
     .line 35
     .line 36
-    invoke-direct {p0}, Landroidx/viewpager2/widget/ScrollEventAdapter;->resetState()V    return-void
+    invoke-direct {p0}, Landroidx/viewpager2/widget/ScrollEventAdapter;->resetState()V
+return-void
 
     .line 40
     :cond_2
     const/4 v0, 0x2
 
     .line 41
-    invoke-direct {p0, v0}, Landroidx/viewpager2/widget/ScrollEventAdapter;->dispatchStateChanged(I)V    return-void
+    invoke-direct {p0, v0}, Landroidx/viewpager2/widget/ScrollEventAdapter;->dispatchStateChanged(I)V
+return-void
 .end method
 
 .method public notifyProgrammaticScroll(IZ)V
@@ -1092,7 +1101,8 @@
 
     .line 12
     .line 13
-    invoke-direct {p0, v0}, Landroidx/viewpager2/widget/ScrollEventAdapter;->startDrag(Z)V    return-void
+    invoke-direct {p0, v0}, Landroidx/viewpager2/widget/ScrollEventAdapter;->startDrag(Z)V
+return-void
 
     .line 17
     :cond_1
@@ -1128,7 +1138,8 @@
     .line 31
     .line 32
     .line 33
-    iput-boolean v1, p0, Landroidx/viewpager2/widget/ScrollEventAdapter;->mDispatchSelected:Z    return-void
+    iput-boolean v1, p0, Landroidx/viewpager2/widget/ScrollEventAdapter;->mDispatchSelected:Z
+return-void
 
     .line 36
     :cond_2

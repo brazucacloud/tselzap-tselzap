@@ -315,7 +315,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemActionRequestChanged(Landroidx/appcompat/view/menu/MenuItemImpl;)V    return-void
+    invoke-virtual {v0, p0}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemActionRequestChanged(Landroidx/appcompat/view/menu/MenuItemImpl;)V
+return-void
 .end method
 
 .method public collapseActionView()Z
@@ -1798,8 +1799,7 @@
     iget-object p1, p0, Landroidx/appcompat/view/menu/MenuItemImpl;->mMenu:Landroidx/appcompat/view/menu/MenuBuilder;
 
     invoke-virtual {p1, p0}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemActionRequestChanged(Landroidx/appcompat/view/menu/MenuItemImpl;)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setActionViewExpanded(Z)V
@@ -1817,7 +1817,8 @@
     const/4 v0, 0x0
 
     .line 6
-    invoke-virtual {p1, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V    return-void
+    invoke-virtual {p1, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V
+return-void
 .end method
 
 .method public setAlphabeticShortcut(C)Landroid/view/MenuItem;
@@ -1844,8 +1845,7 @@
     const/4 v0, 0x0
 
     invoke-virtual {p1, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setAlphabeticShortcut(CI)Landroid/view/MenuItem;
@@ -1885,8 +1885,7 @@
     const/4 p2, 0x0
 
     invoke-virtual {p1, p2}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setCallback(Ljava/lang/Runnable;)Landroid/view/MenuItem;
@@ -1955,11 +1954,13 @@
 
     .line 8
     .line 9
-    invoke-virtual {p1, p0}, Landroidx/appcompat/view/menu/MenuBuilder;->setExclusiveItemChecked(Landroid/view/MenuItem;)V    return-object p0
+    invoke-virtual {p1, p0}, Landroidx/appcompat/view/menu/MenuBuilder;->setExclusiveItemChecked(Landroid/view/MenuItem;)V
+return-object p0
 
     .line 13
     :cond_0
-    invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/MenuItemImpl;->setCheckedInt(Z)V    return-object p0
+    invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/MenuItemImpl;->setCheckedInt(Z)V
+return-object p0
 .end method
 
 .method public setCheckedInt(Z)V
@@ -2043,8 +2044,7 @@
     const/4 v0, 0x0
 
     invoke-virtual {p1, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setEnabled(Z)Landroid/view/MenuItem;
@@ -2091,7 +2091,8 @@
     const/4 v0, 0x0
 
     .line 19
-    invoke-virtual {p1, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V    return-object p0
+    invoke-virtual {p1, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V
+return-object p0
 .end method
 
 .method public setExclusiveCheckable(Z)V
@@ -2149,8 +2150,7 @@
     const/4 v0, 0x0
 
     invoke-virtual {p1, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setIcon(Landroid/graphics/drawable/Drawable;)Landroid/view/MenuItem;
@@ -2173,8 +2173,7 @@
     iget-object p1, p0, Landroidx/appcompat/view/menu/MenuItemImpl;->mMenu:Landroidx/appcompat/view/menu/MenuBuilder;
 
     invoke-virtual {p1, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setIconTintList(Landroid/content/res/ColorStateList;)Landroid/view/MenuItem;
@@ -2209,7 +2208,8 @@
     const/4 v0, 0x0
 
     .line 11
-    invoke-virtual {p1, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V    return-object p0
+    invoke-virtual {p1, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V
+return-object p0
 .end method
 
 .method public setIconTintMode(Landroid/graphics/PorterDuff$Mode;)Landroid/view/MenuItem;
@@ -2240,7 +2240,8 @@
     const/4 v0, 0x0
 
     .line 11
-    invoke-virtual {p1, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V    return-object p0
+    invoke-virtual {p1, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V
+return-object p0
 .end method
 
 .method public setIntent(Landroid/content/Intent;)Landroid/view/MenuItem;
@@ -2308,8 +2309,7 @@
     const/4 v0, 0x0
 
     invoke-virtual {p1, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setNumericShortcut(CI)Landroid/view/MenuItem;
@@ -2345,8 +2345,7 @@
     const/4 p2, 0x0
 
     invoke-virtual {p1, p2}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setOnActionExpandListener(Landroid/view/MenuItem$OnActionExpandListener;)Landroid/view/MenuItem;
@@ -2382,8 +2381,7 @@
     const/4 p2, 0x0
 
     invoke-virtual {p1, p2}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setShortcut(CCII)Landroid/view/MenuItem;
@@ -2421,8 +2419,7 @@
     const/4 p2, 0x0
 
     invoke-virtual {p1, p2}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setShowAsAction(I)V
@@ -2481,7 +2478,8 @@
 
     .line 23
     .line 24
-    invoke-virtual {p1, p0}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemActionRequestChanged(Landroidx/appcompat/view/menu/MenuItemImpl;)V    return-void
+    invoke-virtual {p1, p0}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemActionRequestChanged(Landroidx/appcompat/view/menu/MenuItemImpl;)V
+return-void
 .end method
 
 .method public bridge synthetic setShowAsActionFlags(I)Landroid/view/MenuItem;
@@ -2504,8 +2502,7 @@
 
     .line 2
     invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/MenuItemImpl;->setShowAsAction(I)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setSubMenu(Landroidx/appcompat/view/menu/SubMenuBuilder;)V
@@ -2657,7 +2654,8 @@
     const/4 v0, 0x0
 
     .line 6
-    invoke-virtual {p1, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V    return-object p0
+    invoke-virtual {p1, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V
+return-object p0
 .end method
 
 .method public bridge synthetic setTooltipText(Ljava/lang/CharSequence;)Landroid/view/MenuItem;
@@ -2687,8 +2685,7 @@
     const/4 v0, 0x0
 
     invoke-virtual {p1, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->onItemsChanged(Z)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setVisible(Z)Landroid/view/MenuItem;

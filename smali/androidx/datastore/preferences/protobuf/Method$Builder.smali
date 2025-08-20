@@ -37,8 +37,7 @@
     move-result-object v0
 
     invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;-><init>(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Landroidx/datastore/preferences/protobuf/Method$1;)V
@@ -46,8 +45,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Method$Builder;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -99,8 +97,7 @@
     check-cast v0, Landroidx/datastore/preferences/protobuf/Method;
 
     invoke-static {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/Method;->access$1900(Landroidx/datastore/preferences/protobuf/Method;ILandroidx/datastore/preferences/protobuf/Option$Builder;)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public addOptions(ILandroidx/datastore/preferences/protobuf/Option;)Landroidx/datastore/preferences/protobuf/Method$Builder;
@@ -115,8 +112,7 @@
     check-cast v0, Landroidx/datastore/preferences/protobuf/Method;
 
     invoke-static {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/Method;->access$1700(Landroidx/datastore/preferences/protobuf/Method;ILandroidx/datastore/preferences/protobuf/Option;)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public addOptions(Landroidx/datastore/preferences/protobuf/Option$Builder;)Landroidx/datastore/preferences/protobuf/Method$Builder;
@@ -131,8 +127,7 @@
     check-cast v0, Landroidx/datastore/preferences/protobuf/Method;
 
     invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Method;->access$1800(Landroidx/datastore/preferences/protobuf/Method;Landroidx/datastore/preferences/protobuf/Option$Builder;)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public addOptions(Landroidx/datastore/preferences/protobuf/Option;)Landroidx/datastore/preferences/protobuf/Method$Builder;
@@ -147,8 +142,7 @@
     check-cast v0, Landroidx/datastore/preferences/protobuf/Method;
 
     invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Method;->access$1600(Landroidx/datastore/preferences/protobuf/Method;Landroidx/datastore/preferences/protobuf/Option;)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public clearName()Landroidx/datastore/preferences/protobuf/Method$Builder;
@@ -715,8 +709,7 @@
     check-cast v0, Landroidx/datastore/preferences/protobuf/Method;
 
     invoke-static {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/Method;->access$1500(Landroidx/datastore/preferences/protobuf/Method;ILandroidx/datastore/preferences/protobuf/Option$Builder;)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setOptions(ILandroidx/datastore/preferences/protobuf/Option;)Landroidx/datastore/preferences/protobuf/Method$Builder;
@@ -731,8 +724,7 @@
     check-cast v0, Landroidx/datastore/preferences/protobuf/Method;
 
     invoke-static {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/Method;->access$1400(Landroidx/datastore/preferences/protobuf/Method;ILandroidx/datastore/preferences/protobuf/Option;)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setRequestStreaming(Z)Landroidx/datastore/preferences/protobuf/Method$Builder;

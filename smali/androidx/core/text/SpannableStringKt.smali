@@ -66,8 +66,7 @@
 
     .line 1
     invoke-interface {p0, p3, p1, p2, v0}, Landroid/text/Spannable;->setSpan(Ljava/lang/Object;III)V
-
-    return-void
+return-void
 .end method
 
 .method public static final set(Landroid/text/Spannable;Lu1/g;Ljava/lang/Object;)V
@@ -82,8 +81,7 @@
     iget p1, p1, Lu1/e;->c:I
 
     invoke-interface {p0, p2, v0, p1, v1}, Landroid/text/Spannable;->setSpan(Ljava/lang/Object;III)V
-
-    return-void
+return-void
 .end method
 
 .method public static final toSpannable(Ljava/lang/CharSequence;)Landroid/text/Spannable;

@@ -129,8 +129,7 @@
     .line 2
     :cond_1
     invoke-direct {p0, p1, p2, p3, p4}, Landroidx/lifecycle/CoroutineLiveData;-><init>(Lg1/i;JLp1/p;)V
-
-    return-void
+return-void
 .end method
 
 .method public static final synthetic access$setBlockRunner$p(Landroidx/lifecycle/CoroutineLiveData;Landroidx/lifecycle/BlockRunner;)V

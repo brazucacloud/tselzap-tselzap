@@ -1429,7 +1429,8 @@
 
     .line 594
     .line 595
-    invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->append(II)V    return-void
+    invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->append(II)V
+return-void
 .end method
 
 .method public constructor <init>()V
@@ -4172,7 +4173,8 @@
     .line 750
     .line 751
     :cond_0
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V    return-void
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
+return-void
 
     .line 755
     :pswitch_data_0

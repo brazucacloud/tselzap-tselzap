@@ -35,8 +35,7 @@
 
     .line 4
     invoke-direct {p0, p1, v0}, Landroidx/preference/TwoStatePreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -54,8 +53,7 @@
 
     .line 3
     invoke-direct {p0, p1, p2, v0}, Landroidx/preference/TwoStatePreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -73,8 +71,7 @@
 
     .line 2
     invoke-direct {p0, p1, p2, p3, v0}, Landroidx/preference/TwoStatePreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
@@ -90,8 +87,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Landroidx/preference/Preference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
-
-    return-void
+return-void
 .end method
 
 
@@ -270,12 +266,14 @@
 
     .line 26
     .line 27
-    invoke-virtual {p0, p1}, Landroidx/preference/TwoStatePreference;->setChecked(Z)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/preference/TwoStatePreference;->setChecked(Z)V
+return-void
 
     .line 31
     :cond_1
     :goto_0
-    invoke-super {p0, p1}, Landroidx/preference/Preference;->onRestoreInstanceState(Landroid/os/Parcelable;)V    return-void
+    invoke-super {p0, p1}, Landroidx/preference/Preference;->onRestoreInstanceState(Landroid/os/Parcelable;)V
+return-void
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -321,7 +319,8 @@
     move-result v0
 
     .line 21
-    iput-boolean v0, v1, Landroidx/preference/TwoStatePreference$SavedState;->mChecked:Z    return-object v1
+    iput-boolean v0, v1, Landroidx/preference/TwoStatePreference$SavedState;->mChecked:Z
+return-object v1
 .end method
 
 .method public onSetInitialValue(Ljava/lang/Object;)V
@@ -357,7 +356,8 @@
     move-result p1
 
     .line 15
-    invoke-virtual {p0, p1}, Landroidx/preference/TwoStatePreference;->setChecked(Z)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/preference/TwoStatePreference;->setChecked(Z)V
+return-void
 .end method
 
 .method public setChecked(Z)V
@@ -442,7 +442,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/preference/TwoStatePreference;->mDisableDependentsState:Z    return-void
+    iput-boolean p1, p0, Landroidx/preference/TwoStatePreference;->mDisableDependentsState:Z
+return-void
 .end method
 
 .method public setSummaryOff(I)V
@@ -458,8 +459,7 @@
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/preference/TwoStatePreference;->setSummaryOff(Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 
 .method public setSummaryOff(Ljava/lang/CharSequence;)V
@@ -499,8 +499,7 @@
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/preference/TwoStatePreference;->setSummaryOn(Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 
 .method public setSummaryOn(Ljava/lang/CharSequence;)V

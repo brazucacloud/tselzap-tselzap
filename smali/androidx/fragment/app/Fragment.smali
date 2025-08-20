@@ -315,8 +315,7 @@
 
     .line 15
     invoke-direct {p0}, Landroidx/fragment/app/Fragment;->initLifecycle()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -342,8 +341,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/fragment/app/Fragment;->lambda$performCreateView$0()V
-
-    return-void
+return-void
 .end method
 
 .method private ensureAnimationInfo()Landroidx/fragment/app/Fragment$AnimationInfo;
@@ -852,7 +850,8 @@
 
     .line 24
     .line 25
-    invoke-direct {p1, p0, v5, v6}, Landroidx/fragment/app/Fragment$10;-><init>(Landroidx/fragment/app/Fragment;Ljava/util/concurrent/atomic/AtomicReference;Landroidx/activity/result/contract/ActivityResultContract;)V    return-object p1
+    invoke-direct {p1, p0, v5, v6}, Landroidx/fragment/app/Fragment$10;-><init>(Landroidx/fragment/app/Fragment;Ljava/util/concurrent/atomic/AtomicReference;Landroidx/activity/result/contract/ActivityResultContract;)V
+return-object p1
 
     .line 29
     :cond_0
@@ -902,7 +901,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Landroidx/fragment/app/Fragment$OnPreAttachedListener;->onPreAttached()V    return-void
+    invoke-virtual {p1}, Landroidx/fragment/app/Fragment$OnPreAttachedListener;->onPreAttached()V
+return-void
 
     .line 9
     :cond_0
@@ -910,7 +910,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z    return-void
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+return-void
 .end method
 
 .method private restoreViewState()V
@@ -1115,7 +1116,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/fragment/app/Fragment$5;-><init>(Landroidx/fragment/app/Fragment;)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/fragment/app/Fragment$5;-><init>(Landroidx/fragment/app/Fragment;)V
+return-object v0
 .end method
 
 .method public dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
@@ -2126,7 +2128,8 @@
     move-result-object p1
 
     .line 533
-    invoke-virtual {v0, p1, p2, p3, p4}, Landroidx/fragment/app/FragmentManager;->dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V    return-void
+    invoke-virtual {v0, p1, p2, p3, p4}, Landroidx/fragment/app/FragmentManager;->dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
+return-void
 .end method
 
 .method public final equals(Ljava/lang/Object;)Z
@@ -3158,8 +3161,7 @@
     move-result-object v0
 
     invoke-static {p1, v0}, Landroidx/core/view/LayoutInflaterCompat;->setFactory2(Landroid/view/LayoutInflater;Landroid/view/LayoutInflater$Factory2;)V
-
-    return-object p1
+return-object p1
 
     .line 6
     :cond_0
@@ -3614,7 +3616,8 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V    return-object v0
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+return-object v0
 .end method
 
 .method public getSharedElementTargetNames()Ljava/util/ArrayList;
@@ -3661,7 +3664,8 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V    return-object v0
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+return-object v0
 .end method
 
 .method public final getString(I)Ljava/lang/String;
@@ -4080,7 +4084,8 @@
 
     .line 50
     .line 51
-    iput-boolean v0, p0, Landroidx/fragment/app/Fragment;->mDetached:Z    return-void
+    iput-boolean v0, p0, Landroidx/fragment/app/Fragment;->mDetached:Z
+return-void
 .end method
 
 .method public final isAdded()Z
@@ -4421,7 +4426,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->noteStateNotSaved()V    return-void
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->noteStateNotSaved()V
+return-void
 .end method
 
 .method public onActivityCreated(Landroid/os/Bundle;)V
@@ -4443,7 +4449,8 @@
     const/4 p1, 0x1
 
     .line 2
-    iput-boolean p1, p0, Landroidx/fragment/app/Fragment;->mCalled:Z    return-void
+    iput-boolean p1, p0, Landroidx/fragment/app/Fragment;->mCalled:Z
+return-void
 .end method
 
 .method public onActivityResult(IILandroid/content/Intent;)V
@@ -4571,8 +4578,7 @@
 
     .line 5
     iput-boolean p1, p0, Landroidx/fragment/app/Fragment;->mCalled:Z
-
-    return-void
+return-void
 .end method
 
 .method public onAttach(Landroid/content/Context;)V
@@ -4649,7 +4655,8 @@
     const/4 p1, 0x1
 
     .line 2
-    iput-boolean p1, p0, Landroidx/fragment/app/Fragment;->mCalled:Z    return-void
+    iput-boolean p1, p0, Landroidx/fragment/app/Fragment;->mCalled:Z
+return-void
 .end method
 
 .method public onContextItemSelected(Landroid/view/MenuItem;)Z
@@ -4854,7 +4861,8 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/fragment/app/Fragment;->mCalled:Z    return-void
+    iput-boolean v0, p0, Landroidx/fragment/app/Fragment;->mCalled:Z
+return-void
 .end method
 
 .method public onDestroyOptionsMenu()V
@@ -4880,7 +4888,8 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/fragment/app/Fragment;->mCalled:Z    return-void
+    iput-boolean v0, p0, Landroidx/fragment/app/Fragment;->mCalled:Z
+return-void
 .end method
 
 .method public onDetach()V
@@ -4895,7 +4904,8 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/fragment/app/Fragment;->mCalled:Z    return-void
+    iput-boolean v0, p0, Landroidx/fragment/app/Fragment;->mCalled:Z
+return-void
 .end method
 
 .method public onGetLayoutInflater(Landroid/os/Bundle;)Landroid/view/LayoutInflater;
@@ -4953,8 +4963,7 @@
 
     .line 5
     iput-boolean p1, p0, Landroidx/fragment/app/Fragment;->mCalled:Z
-
-    return-void
+return-void
 .end method
 
 .method public onInflate(Landroid/content/Context;Landroid/util/AttributeSet;Landroid/os/Bundle;)V
@@ -5023,7 +5032,8 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/fragment/app/Fragment;->mCalled:Z    return-void
+    iput-boolean v0, p0, Landroidx/fragment/app/Fragment;->mCalled:Z
+return-void
 .end method
 
 .method public onMultiWindowModeChanged(Z)V
@@ -5076,7 +5086,8 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/fragment/app/Fragment;->mCalled:Z    return-void
+    iput-boolean v0, p0, Landroidx/fragment/app/Fragment;->mCalled:Z
+return-void
 .end method
 
 .method public onPictureInPictureModeChanged(Z)V
@@ -5136,7 +5147,8 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/fragment/app/Fragment;->mCalled:Z    return-void
+    iput-boolean v0, p0, Landroidx/fragment/app/Fragment;->mCalled:Z
+return-void
 .end method
 
 .method public onSaveInstanceState(Landroid/os/Bundle;)V
@@ -5163,7 +5175,8 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/fragment/app/Fragment;->mCalled:Z    return-void
+    iput-boolean v0, p0, Landroidx/fragment/app/Fragment;->mCalled:Z
+return-void
 .end method
 
 .method public onStop()V
@@ -5178,7 +5191,8 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/fragment/app/Fragment;->mCalled:Z    return-void
+    iput-boolean v0, p0, Landroidx/fragment/app/Fragment;->mCalled:Z
+return-void
 .end method
 
 .method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
@@ -5213,7 +5227,8 @@
     const/4 p1, 0x1
 
     .line 2
-    iput-boolean p1, p0, Landroidx/fragment/app/Fragment;->mCalled:Z    return-void
+    iput-boolean p1, p0, Landroidx/fragment/app/Fragment;->mCalled:Z
+return-void
 .end method
 
 .method public performActivityCreated(Landroid/os/Bundle;)V
@@ -5265,7 +5280,8 @@
 
     .line 23
     .line 24
-    invoke-virtual {p1}, Landroidx/fragment/app/FragmentManager;->dispatchActivityCreated()V    return-void
+    invoke-virtual {p1}, Landroidx/fragment/app/FragmentManager;->dispatchActivityCreated()V
+return-void
 
     .line 28
     :cond_0
@@ -5425,7 +5441,8 @@
 
     .line 63
     .line 64
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchAttach()V    return-void
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchAttach()V
+return-void
 
     .line 68
     :cond_1
@@ -5464,7 +5481,8 @@
     .end param
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/fragment/app/Fragment;->onConfigurationChanged(Landroid/content/res/Configuration;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/fragment/app/Fragment;->onConfigurationChanged(Landroid/content/res/Configuration;)V
+return-void
 .end method
 
 .method public performContextItemSelected(Landroid/view/MenuItem;)Z
@@ -5591,7 +5609,8 @@
 
     .line 34
     .line 35
-    invoke-virtual {p1, v0}, Landroidx/lifecycle/LifecycleRegistry;->handleLifecycleEvent(Landroidx/lifecycle/Lifecycle$Event;)V    return-void
+    invoke-virtual {p1, v0}, Landroidx/lifecycle/LifecycleRegistry;->handleLifecycleEvent(Landroidx/lifecycle/Lifecycle$Event;)V
+return-void
 
     .line 39
     :cond_0
@@ -6131,7 +6150,8 @@
     .line 53
     .line 54
     .line 55
-    iput-boolean v0, p0, Landroidx/fragment/app/Fragment;->mPerformedCreateView:Z    return-void
+    iput-boolean v0, p0, Landroidx/fragment/app/Fragment;->mPerformedCreateView:Z
+return-void
 
     .line 58
     :cond_1
@@ -6295,14 +6315,16 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->onLowMemory()V    return-void
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->onLowMemory()V
+return-void
 .end method
 
 .method public performMultiWindowModeChanged(Z)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/fragment/app/Fragment;->onMultiWindowModeChanged(Z)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/fragment/app/Fragment;->onMultiWindowModeChanged(Z)V
+return-void
 .end method
 
 .method public performOptionsItemSelected(Landroid/view/MenuItem;)Z
@@ -6532,7 +6554,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/fragment/app/Fragment;->onPictureInPictureModeChanged(Z)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/fragment/app/Fragment;->onPictureInPictureModeChanged(Z)V
+return-void
 .end method
 
 .method public performPrepareOptionsMenu(Landroid/view/Menu;)Z
@@ -6666,7 +6689,8 @@
 
     .line 29
     .line 30
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchPrimaryNavigationFragmentChanged()V    return-void
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchPrimaryNavigationFragmentChanged()V
+return-void
 .end method
 
 .method public performResume()V
@@ -6756,7 +6780,8 @@
 
     .line 42
     .line 43
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchResume()V    return-void
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchResume()V
+return-void
 
     .line 47
     :cond_1
@@ -6791,7 +6816,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/fragment/app/Fragment;->onSaveInstanceState(Landroid/os/Bundle;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/fragment/app/Fragment;->onSaveInstanceState(Landroid/os/Bundle;)V
+return-void
 .end method
 
 .method public performStart()V
@@ -6881,7 +6907,8 @@
 
     .line 42
     .line 43
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchStart()V    return-void
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchStart()V
+return-void
 
     .line 47
     :cond_1
@@ -7059,7 +7086,8 @@
 
     .line 19
     .line 20
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchViewCreated()V    return-void
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchViewCreated()V
+return-void
 .end method
 
 .method public postponeEnterTransition()V
@@ -7073,8 +7101,7 @@
     const/4 v1, 0x1
 
     iput-boolean v1, v0, Landroidx/fragment/app/Fragment$AnimationInfo;->mEnterTransitionPostponed:Z
-
-    return-void
+return-void
 .end method
 
 .method public final postponeEnterTransition(JLjava/util/concurrent/TimeUnit;)V
@@ -7152,8 +7179,7 @@
     move-result-wide p1
 
     invoke-virtual {v0, v1, p1, p2}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
-
-    return-void
+return-void
 .end method
 
 .method public final registerForActivityResult(Landroidx/activity/result/contract/ActivityResultContract;Landroidx/activity/result/ActivityResultCallback;)Landroidx/activity/result/ActivityResultLauncher;
@@ -7286,7 +7312,8 @@
     move-result-object v0
 
     .line 9
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/fragment/app/FragmentManager;->launchRequestPermissions(Landroidx/fragment/app/Fragment;[Ljava/lang/String;I)V    return-void
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/fragment/app/FragmentManager;->launchRequestPermissions(Landroidx/fragment/app/Fragment;[Ljava/lang/String;I)V
+return-void
 
     .line 13
     :cond_0
@@ -8296,7 +8323,8 @@
     move-result-object v0
 
     .line 10
-    iput-boolean p1, v0, Landroidx/fragment/app/Fragment$AnimationInfo;->mIsPop:Z    return-void
+    iput-boolean p1, v0, Landroidx/fragment/app/Fragment$AnimationInfo;->mIsPop:Z
+return-void
 .end method
 
 .method public setPostOnViewCreatedAlpha(F)V
@@ -8360,18 +8388,21 @@
 
     .line 11
     .line 12
-    invoke-virtual {v0, p0}, Landroidx/fragment/app/FragmentManager;->addRetainedFragment(Landroidx/fragment/app/Fragment;)V    return-void
+    invoke-virtual {v0, p0}, Landroidx/fragment/app/FragmentManager;->addRetainedFragment(Landroidx/fragment/app/Fragment;)V
+return-void
 
     .line 16
     :cond_0
-    invoke-virtual {v0, p0}, Landroidx/fragment/app/FragmentManager;->removeRetainedFragment(Landroidx/fragment/app/Fragment;)V    return-void
+    invoke-virtual {v0, p0}, Landroidx/fragment/app/FragmentManager;->removeRetainedFragment(Landroidx/fragment/app/Fragment;)V
+return-void
 
     .line 20
     :cond_1
     const/4 p1, 0x1
 
     .line 21
-    iput-boolean p1, p0, Landroidx/fragment/app/Fragment;->mRetainInstanceChangedWhileDetached:Z    return-void
+    iput-boolean p1, p0, Landroidx/fragment/app/Fragment;->mRetainInstanceChangedWhileDetached:Z
+return-void
 .end method
 
 .method public setReturnTransition(Ljava/lang/Object;)V
@@ -8894,8 +8925,7 @@
 
     .line 1
     invoke-virtual {p0, p1, v0}, Landroidx/fragment/app/Fragment;->startActivity(Landroid/content/Intent;Landroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 
 .method public startActivity(Landroid/content/Intent;Landroid/os/Bundle;)V
@@ -8918,8 +8948,7 @@
 
     .line 3
     invoke-virtual {v0, p0, p1, v1, p2}, Landroidx/fragment/app/FragmentHostCallback;->onStartActivityFromFragment(Landroidx/fragment/app/Fragment;Landroid/content/Intent;ILandroid/os/Bundle;)V
-
-    return-void
+return-void
 
     .line 4
     :cond_0
@@ -8953,8 +8982,7 @@
 
     .line 1
     invoke-virtual {p0, p1, p2, v0}, Landroidx/fragment/app/Fragment;->startActivityForResult(Landroid/content/Intent;ILandroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 
 .method public startActivityForResult(Landroid/content/Intent;ILandroid/os/Bundle;)V
@@ -8981,8 +9009,7 @@
     move-result-object v0
 
     invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/fragment/app/FragmentManager;->launchStartActivityForResult(Landroidx/fragment/app/Fragment;Landroid/content/Intent;ILandroid/os/Bundle;)V
-
-    return-void
+return-void
 
     .line 4
     :cond_0
@@ -9177,7 +9204,8 @@
     move v7, p6
 
     .line 79
-    invoke-virtual/range {v0 .. v8}, Landroidx/fragment/app/FragmentManager;->launchStartIntentSenderForResult(Landroidx/fragment/app/Fragment;Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V    return-void
+    invoke-virtual/range {v0 .. v8}, Landroidx/fragment/app/FragmentManager;->launchStartIntentSenderForResult(Landroidx/fragment/app/Fragment;Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V
+return-void
 
     .line 83
     :cond_1
@@ -9255,7 +9283,8 @@
     const/4 v1, 0x0
 
     .line 23
-    iput-boolean v1, v0, Landroidx/fragment/app/Fragment$AnimationInfo;->mEnterTransitionPostponed:Z    return-void
+    iput-boolean v1, v0, Landroidx/fragment/app/Fragment$AnimationInfo;->mEnterTransitionPostponed:Z
+return-void
 
     .line 26
     :cond_1

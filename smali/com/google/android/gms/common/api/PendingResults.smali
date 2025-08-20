@@ -8,8 +8,7 @@
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public static canceledPendingResult()Lcom/google/android/gms/common/api/PendingResult;
@@ -37,8 +36,7 @@
 
     .line 2
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->cancel()V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static canceledPendingResult(Lcom/google/android/gms/common/api/Result;)Lcom/google/android/gms/common/api/PendingResult;
@@ -98,8 +96,7 @@
 
     .line 7
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->cancel()V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static immediateFailedResult(Lcom/google/android/gms/common/api/Result;Lcom/google/android/gms/common/api/GoogleApiClient;)Lcom/google/android/gms/common/api/PendingResult;
@@ -223,8 +220,7 @@
     new-instance p0, Lcom/google/android/gms/common/api/internal/OptionalPendingResultImpl;
 
     invoke-direct {p0, v0}, Lcom/google/android/gms/common/api/internal/OptionalPendingResultImpl;-><init>(Lcom/google/android/gms/common/api/PendingResult;)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public static immediatePendingResult(Lcom/google/android/gms/common/api/Result;Lcom/google/android/gms/common/api/GoogleApiClient;)Lcom/google/android/gms/common/api/OptionalPendingResult;
@@ -271,8 +267,7 @@
     new-instance p0, Lcom/google/android/gms/common/api/internal/OptionalPendingResultImpl;
 
     invoke-direct {p0, v0}, Lcom/google/android/gms/common/api/internal/OptionalPendingResultImpl;-><init>(Lcom/google/android/gms/common/api/PendingResult;)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public static immediatePendingResult(Lcom/google/android/gms/common/api/Status;)Lcom/google/android/gms/common/api/PendingResult;
@@ -311,8 +306,7 @@
 
     .line 9
     invoke-virtual {v0, p0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->setResult(Lcom/google/android/gms/common/api/Result;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static immediatePendingResult(Lcom/google/android/gms/common/api/Status;Lcom/google/android/gms/common/api/GoogleApiClient;)Lcom/google/android/gms/common/api/PendingResult;
@@ -355,8 +349,7 @@
 
     .line 12
     invoke-virtual {v0, p0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->setResult(Lcom/google/android/gms/common/api/Result;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .end class

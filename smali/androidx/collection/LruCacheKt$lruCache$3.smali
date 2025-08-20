@@ -40,8 +40,7 @@
     const/4 v0, 0x4
 
     invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 
@@ -74,7 +73,6 @@
     const-string p1, "<anonymous parameter 2>"
 
     invoke-static {p3, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 .end class

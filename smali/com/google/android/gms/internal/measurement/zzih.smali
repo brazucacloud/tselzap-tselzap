@@ -183,8 +183,7 @@
 
     .line 7
     invoke-static {v0}, Landroid/os/StrictMode;->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
-
-    return-object p0
+return-object p0
 
     .line 8
     :cond_1
@@ -199,8 +198,7 @@
 
     .line 9
     invoke-static {v0}, Landroid/os/StrictMode;->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
-
-    return-object p0
+return-object p0
 
     .line 10
     :goto_1

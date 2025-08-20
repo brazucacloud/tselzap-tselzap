@@ -30,7 +30,8 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/navigation/NavType;-><init>(Z)V    return-void
+    invoke-direct {p0, v0}, Landroidx/navigation/NavType;-><init>(Z)V
+return-void
 .end method
 
 
@@ -118,8 +119,7 @@
 
     .line 2
     invoke-virtual {p1, p2, p3, p4}, Landroid/os/BaseBundle;->putDouble(Ljava/lang/String;D)V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic put(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/Object;)V
@@ -133,7 +133,6 @@
     move-result-wide v0
 
     invoke-virtual {p0, p1, p2, v0, v1}, Landroidx/navigation/serialization/InternalNavType$DoubleType$1;->put(Landroid/os/Bundle;Ljava/lang/String;D)V
-
-    return-void
+return-void
 .end method
 .end class

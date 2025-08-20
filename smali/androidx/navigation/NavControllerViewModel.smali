@@ -267,7 +267,8 @@
 
     .line 28
     .line 29
-    invoke-interface {v0}, Ljava/util/Map;->clear()V    return-void
+    invoke-interface {v0}, Ljava/util/Map;->clear()V
+return-void
 .end method
 
 .method public toString()Ljava/lang/String;

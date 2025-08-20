@@ -457,8 +457,7 @@
     new-instance p1, Landroidx/core/view/inputmethod/InputConnectionCompat$1;
 
     invoke-direct {p1, p0, v2, p2}, Landroidx/core/view/inputmethod/InputConnectionCompat$1;-><init>(Landroid/view/inputmethod/InputConnection;ZLandroidx/core/view/inputmethod/InputConnectionCompat$OnCommitContentListener;)V
-
-    return-object p1
+return-object p1
 
     .line 6
     :cond_0
@@ -478,8 +477,7 @@
     new-instance p1, Landroidx/core/view/inputmethod/InputConnectionCompat$2;
 
     invoke-direct {p1, p0, v2, p2}, Landroidx/core/view/inputmethod/InputConnectionCompat$2;-><init>(Landroid/view/inputmethod/InputConnection;ZLandroidx/core/view/inputmethod/InputConnectionCompat$OnCommitContentListener;)V
-
-    return-object p1
+return-object p1
 .end method
 
 .method public static handlePerformPrivateCommand(Ljava/lang/String;Landroid/os/Bundle;Landroidx/core/view/inputmethod/InputConnectionCompat$OnCommitContentListener;)Z

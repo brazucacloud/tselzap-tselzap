@@ -126,7 +126,8 @@
 
     .line 18
     .line 19
-    iput-boolean v2, p0, Landroidx/collection/IndexBasedArrayIterator;->canRemove:Z    return-object v0
+    iput-boolean v2, p0, Landroidx/collection/IndexBasedArrayIterator;->canRemove:Z
+return-object v0
 
     .line 22
     :cond_0
@@ -185,7 +186,8 @@
     const/4 v0, 0x0
 
     .line 21
-    iput-boolean v0, p0, Landroidx/collection/IndexBasedArrayIterator;->canRemove:Z    return-void
+    iput-boolean v0, p0, Landroidx/collection/IndexBasedArrayIterator;->canRemove:Z
+return-void
 
     .line 24
     :cond_0

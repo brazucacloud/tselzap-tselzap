@@ -51,8 +51,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/navigation/NavDestination;-><init>(Landroidx/navigation/Navigator;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/navigation/NavigatorProvider;)V
@@ -70,8 +69,7 @@
     move-result-object p1
 
     invoke-direct {p0, p1}, Landroidx/navigation/ActivityNavigator$Destination;-><init>(Landroidx/navigation/Navigator;)V
-
-    return-void
+return-void
 .end method
 
 .method private final parseApplicationId(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
@@ -699,7 +697,8 @@
     .line 125
     .line 126
     .line 127
-    invoke-virtual {p2}, Landroid/content/res/TypedArray;->recycle()V    return-void
+    invoke-virtual {p2}, Landroid/content/res/TypedArray;->recycle()V
+return-void
 .end method
 
 .method public final setAction(Ljava/lang/String;)Landroidx/navigation/ActivityNavigator$Destination;
@@ -985,6 +984,7 @@
 
     .line 51
     .line 52
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+return-object v0
 .end method
 .end class

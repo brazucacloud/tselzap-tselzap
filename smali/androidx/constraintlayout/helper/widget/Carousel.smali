@@ -251,8 +251,7 @@
 
     .line 41
     invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/helper/widget/Carousel;->init(Landroid/content/Context;Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -344,8 +343,7 @@
 
     .line 62
     invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/helper/widget/Carousel;->init(Landroid/content/Context;Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic a(Landroidx/constraintlayout/helper/widget/Carousel;)V
@@ -353,8 +351,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Carousel;->lambda$updateItems$0()V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic access$000(Landroidx/constraintlayout/helper/widget/Carousel;)Landroidx/constraintlayout/motion/widget/MotionLayout;
@@ -368,7 +365,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Carousel;->updateItems()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Carousel;->updateItems()V
+return-void
 .end method
 
 .method public static synthetic access$200(Landroidx/constraintlayout/helper/widget/Carousel;)I
@@ -913,7 +911,8 @@
 
     .line 19
     .line 20
-    invoke-virtual {v0, v1, v2}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToState(II)V    return-void
+    invoke-virtual {v0, v1, v2}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToState(II)V
+return-void
 
     .line 24
     :cond_0
@@ -929,7 +928,8 @@
 
     .line 29
     .line 30
-    invoke-virtual {v0, v1, v2}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToState(II)V    return-void
+    invoke-virtual {v0, v1, v2}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToState(II)V
+return-void
 .end method
 
 .method private updateItems()V
@@ -1525,7 +1525,8 @@
 
     .line 280
     .line 281
-    invoke-virtual {v0, v1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->setTransition(I)V    return-void
+    invoke-virtual {v0, v1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->setTransition(I)V
+return-void
 
     .line 285
     :cond_14
@@ -1711,7 +1712,8 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0}, Landroidx/constraintlayout/helper/widget/Carousel;->refresh()V    return-void
+    invoke-virtual {p0}, Landroidx/constraintlayout/helper/widget/Carousel;->refresh()V
+return-void
 .end method
 
 .method public onAttachedToWindow()V
@@ -1906,7 +1908,8 @@
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V    return-void
+    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
+return-void
 .end method
 
 .method public onTransitionChange(Landroidx/constraintlayout/motion/widget/MotionLayout;IIF)V
@@ -2213,7 +2216,8 @@
     .line 42
     .line 43
     .line 44
-    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Carousel;->updateItems()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Carousel;->updateItems()V
+return-void
 .end method
 
 .method public setAdapter(Landroidx/constraintlayout/helper/widget/Carousel$Adapter;)V
@@ -2227,7 +2231,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/constraintlayout/helper/widget/Carousel;->mInfiniteCarousel:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/helper/widget/Carousel;->mInfiniteCarousel:Z
+return-void
 .end method
 
 .method public transitionToIndex(II)V
@@ -2310,7 +2315,8 @@
 
     .line 38
     .line 39
-    invoke-virtual {p1, p2, v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToState(II)V    return-void
+    invoke-virtual {p1, p2, v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToState(II)V
+return-void
 
     .line 43
     :cond_0
@@ -2326,6 +2332,7 @@
 
     .line 48
     .line 49
-    invoke-virtual {p1, p2, v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToState(II)V    return-void
+    invoke-virtual {p1, p2, v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToState(II)V
+return-void
 .end method
 .end class

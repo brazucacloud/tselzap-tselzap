@@ -20,8 +20,7 @@
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Lkotlin/jvm/internal/e;)V
@@ -29,8 +28,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/navigation/NavDestination$Companion;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic getHierarchy$annotations(Landroidx/navigation/NavDestination;)V
@@ -146,7 +144,8 @@
 
     .line 30
     .line 31
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+return-object p1
 .end method
 
 .method public final getHierarchy(Landroidx/navigation/NavDestination;)Lw1/h;

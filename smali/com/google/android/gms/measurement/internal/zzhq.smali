@@ -1025,8 +1025,7 @@
     check-cast v1, Landroid/os/Bundle;
 
     invoke-direct {v0, v1}, Landroid/os/Bundle;-><init>(Landroid/os/Bundle;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public final zza(Landroid/os/Bundle;)V

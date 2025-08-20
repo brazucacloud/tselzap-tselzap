@@ -68,8 +68,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/core/app/NotificationCompat$Style;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method private constructor <init>(ILandroidx/core/app/Person;Landroid/app/PendingIntent;Landroid/app/PendingIntent;Landroid/app/PendingIntent;)V
@@ -147,8 +146,7 @@
 
     .line 3
     invoke-virtual {p0, p1}, Landroidx/core/app/NotificationCompat$Style;->setBuilder(Landroidx/core/app/NotificationCompat$Builder;)V
-
-    return-void
+return-void
 .end method
 
 .method public static forIncomingCall(Landroidx/core/app/Person;Landroid/app/PendingIntent;Landroid/app/PendingIntent;)Landroidx/core/app/NotificationCompat$CallStyle;

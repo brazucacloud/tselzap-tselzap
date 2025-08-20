@@ -309,7 +309,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->setCallback(Landroidx/appcompat/view/menu/MenuBuilder$Callback;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->setCallback(Landroidx/appcompat/view/menu/MenuBuilder$Callback;)V
+return-void
 .end method
 
 .method public setGroupDividerEnabled(Z)V
@@ -320,7 +321,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->setGroupDividerEnabled(Z)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->setGroupDividerEnabled(Z)V
+return-void
 .end method
 
 .method public setHeaderIcon(I)Landroid/view/SubMenu;
@@ -420,7 +422,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->setQwertyMode(Z)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuBuilder;->setQwertyMode(Z)V
+return-void
 .end method
 
 .method public setShortcutsVisible(Z)V

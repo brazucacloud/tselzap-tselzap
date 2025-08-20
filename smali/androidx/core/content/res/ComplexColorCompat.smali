@@ -303,8 +303,7 @@
     const/4 v1, 0x0
 
     invoke-direct {v0, v1, v1, p0}, Landroidx/core/content/res/ComplexColorCompat;-><init>(Landroid/graphics/Shader;Landroid/content/res/ColorStateList;I)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static from(Landroid/content/res/ColorStateList;)Landroidx/core/content/res/ComplexColorCompat;
@@ -324,8 +323,7 @@
     const/4 v2, 0x0
 
     invoke-direct {v0, v2, p0, v1}, Landroidx/core/content/res/ComplexColorCompat;-><init>(Landroid/graphics/Shader;Landroid/content/res/ColorStateList;I)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static from(Landroid/graphics/Shader;)Landroidx/core/content/res/ComplexColorCompat;
@@ -343,8 +341,7 @@
     const/4 v2, 0x0
 
     invoke-direct {v0, p0, v1, v2}, Landroidx/core/content/res/ComplexColorCompat;-><init>(Landroid/graphics/Shader;Landroid/content/res/ColorStateList;I)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static inflate(Landroid/content/res/Resources;ILandroid/content/res/Resources$Theme;)Landroidx/core/content/res/ComplexColorCompat;

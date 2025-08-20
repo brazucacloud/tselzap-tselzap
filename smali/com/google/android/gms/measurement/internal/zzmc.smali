@@ -138,8 +138,7 @@
 
     .line 3
     invoke-virtual {v0, v1}, Lcom/google/android/gms/measurement/internal/zzij;->zzb(Ljava/lang/Runnable;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic zza(Lcom/google/android/gms/measurement/internal/zzmc;ILjava/lang/Exception;[BLjava/util/Map;)V
@@ -159,8 +158,7 @@
     move-object v5, p4
 
     invoke-interface/range {v0 .. v5}, Lcom/google/android/gms/measurement/internal/zzlz;->zza(Ljava/lang/String;ILjava/lang/Throwable;[BLjava/util/Map;)V
-
-    return-void
+return-void
 .end method
 
 

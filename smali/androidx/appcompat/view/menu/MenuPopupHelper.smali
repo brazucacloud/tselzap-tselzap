@@ -420,7 +420,8 @@
 
     .line 105
     .line 106
-    invoke-virtual {v2, v0}, Landroidx/appcompat/view/menu/MenuPopup;->setGravity(I)V    return-object v2
+    invoke-virtual {v2, v0}, Landroidx/appcompat/view/menu/MenuPopup;->setGravity(I)V
+return-object v2
 .end method
 
 .method private showPopup(IIZZ)V
@@ -576,7 +577,8 @@
     .line 73
     .line 74
     :cond_1
-    invoke-interface {v0}, Landroidx/appcompat/view/menu/ShowableListMenu;->show()V    return-void
+    invoke-interface {v0}, Landroidx/appcompat/view/menu/ShowableListMenu;->show()V
+return-void
 .end method
 
 

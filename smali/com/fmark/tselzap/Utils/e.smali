@@ -37,8 +37,7 @@
     iget-wide v1, p0, Lcom/fmark/tselzap/Utils/e;->c:J
 
     invoke-static {v1, v2, v0}, Lcom/fmark/tselzap/Utils/Tools;->b(JLjava/util/concurrent/TimeUnit;)V
-
-    return-void
+return-void
 .end method
 
 .end class

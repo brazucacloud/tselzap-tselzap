@@ -1350,6 +1350,7 @@
 
     .line 206
     .line 207
-    invoke-direct {p1, p0}, Landroidx/graphics/shapes/DoubleMapper;-><init>([Lc1/f;)V    return-object p1
+    invoke-direct {p1, p0}, Landroidx/graphics/shapes/DoubleMapper;-><init>([Lc1/f;)V
+return-object p1
 .end method
 .end class

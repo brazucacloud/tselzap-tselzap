@@ -36,8 +36,7 @@
 
     .line 1
     invoke-direct {p0, v2, v0, v1}, Lcom/android/volley/DefaultRetryPolicy;-><init>(IIF)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(IIF)V

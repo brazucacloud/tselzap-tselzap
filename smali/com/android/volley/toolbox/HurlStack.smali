@@ -30,8 +30,7 @@
 
     .line 1
     invoke-direct {p0, v0}, Lcom/android/volley/toolbox/HurlStack;-><init>(Lcom/android/volley/toolbox/HurlStack$UrlRewriter;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Lcom/android/volley/toolbox/HurlStack$UrlRewriter;)V
@@ -41,8 +40,7 @@
 
     .line 2
     invoke-direct {p0, p1, v0}, Lcom/android/volley/toolbox/HurlStack;-><init>(Lcom/android/volley/toolbox/HurlStack$UrlRewriter;Ljavax/net/ssl/SSLSocketFactory;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Lcom/android/volley/toolbox/HurlStack$UrlRewriter;Ljavax/net/ssl/SSLSocketFactory;)V

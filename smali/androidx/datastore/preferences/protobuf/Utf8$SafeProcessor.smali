@@ -19,7 +19,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Utf8$Processor;-><init>()V    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Utf8$Processor;-><init>()V
+return-void
 .end method
 
 .method private static partialIsValidUtf8([BII)I
@@ -657,7 +658,8 @@
 
     .line 158
     .line 159
-    invoke-direct {p1, v9, v0, v10}, Ljava/lang/String;-><init>([CII)V    return-object p1
+    invoke-direct {p1, v9, v0, v10}, Ljava/lang/String;-><init>([CII)V
+return-object p1
 
     .line 163
     :cond_b
@@ -1288,7 +1290,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Utf8$Processor;->encodeUtf8Default(Ljava/lang/CharSequence;Ljava/nio/ByteBuffer;)V    return-void
+    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Utf8$Processor;->encodeUtf8Default(Ljava/lang/CharSequence;Ljava/nio/ByteBuffer;)V
+return-void
 .end method
 
 .method public partialIsValidUtf8(I[BII)I

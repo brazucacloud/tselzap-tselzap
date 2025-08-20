@@ -54,8 +54,7 @@
     move-result-object v0
 
     invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;-><init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;)V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Landroidx/datastore/preferences/protobuf/FieldSet$1;)V
@@ -63,8 +62,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method private constructor <init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;)V
@@ -89,8 +87,7 @@
 
     .line 5
     iput-boolean p1, p0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->isMutable:Z
-
-    return-void
+return-void
 .end method
 
 .method private ensureIsMutable()V
@@ -183,7 +180,8 @@
     move-result p0
 
     .line 19
-    iput-boolean p0, v0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->hasLazyField:Z    return-object v0
+    iput-boolean p0, v0, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->hasLazyField:Z
+return-object v0
 .end method
 
 .method private mergeFromField(Ljava/util/Map$Entry;)V
@@ -1100,11 +1098,13 @@
 
     .line 19
     .line 20
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->makeImmutable()V    return-object v0
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->makeImmutable()V
+return-object v0
 
     .line 24
     :cond_0
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->replaceBuilders(Landroidx/datastore/preferences/protobuf/SmallSortedMap;)V    return-object v0
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;->replaceBuilders(Landroidx/datastore/preferences/protobuf/SmallSortedMap;)V
+return-object v0
 
     .line 28
     :cond_1

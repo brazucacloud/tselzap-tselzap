@@ -70,8 +70,7 @@
 
     .line 8
     invoke-direct {p0, p1, v0}, Landroidx/constraintlayout/utils/widget/MotionTelltales;->init(Landroid/content/Context;Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -118,8 +117,7 @@
 
     .line 16
     invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/utils/widget/MotionTelltales;->init(Landroid/content/Context;Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -166,8 +164,7 @@
 
     .line 24
     invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/utils/widget/MotionTelltales;->init(Landroid/content/Context;Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method private init(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -331,7 +328,8 @@
 
     .line 74
     .line 75
-    invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStrokeWidth(F)V    return-void
+    invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
+return-void
 .end method
 
 
@@ -604,7 +602,8 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroid/view/View;->postInvalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->postInvalidate()V
+return-void
 .end method
 
 .method public setText(Ljava/lang/CharSequence;)V
@@ -623,6 +622,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 .end class

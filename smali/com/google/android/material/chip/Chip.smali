@@ -7850,8 +7850,7 @@
     .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/google/android/material/chip/Chip;->e()V
-
-    return-void
+return-void
 .end method
 
 .method public final setCompoundDrawables(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V
@@ -8357,8 +8356,7 @@
 
     .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/CheckBox;->setCompoundDrawablesRelativeWithIntrinsicBounds(IIII)V
-
-    return-void
+return-void
 
     .line 2
     :cond_0
@@ -8390,8 +8388,7 @@
 
     .line 4
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/CheckBox;->setCompoundDrawablesRelativeWithIntrinsicBounds(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V
-
-    return-void
+return-void
 
     .line 5
     :cond_0
@@ -8423,8 +8420,7 @@
 
     .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/CheckBox;->setCompoundDrawablesWithIntrinsicBounds(IIII)V
-
-    return-void
+return-void
 
     .line 2
     :cond_0
@@ -8456,8 +8452,7 @@
 
     .line 4
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/CheckBox;->setCompoundDrawablesWithIntrinsicBounds(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V
-
-    return-void
+return-void
 
     .line 5
     :cond_0
@@ -9417,8 +9412,7 @@
     .line 11
     :cond_0
     invoke-virtual {p0}, Lcom/google/android/material/chip/Chip;->h()V
-
-    return-void
+return-void
 .end method
 
 .method public final setTextAppearance(Landroid/content/Context;I)V
@@ -9444,8 +9438,7 @@
     .line 7
     :cond_0
     invoke-virtual {p0}, Lcom/google/android/material/chip/Chip;->h()V
-
-    return-void
+return-void
 .end method
 
 .method public setTextAppearance(Lr0/f;)V
@@ -9466,8 +9459,7 @@
     .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/google/android/material/chip/Chip;->h()V
-
-    return-void
+return-void
 .end method
 
 .method public setTextAppearanceResource(I)V

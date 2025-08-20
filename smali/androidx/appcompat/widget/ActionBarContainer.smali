@@ -47,8 +47,7 @@
 
     .line 1
     invoke-direct {p0, p1, v0}, Landroidx/appcompat/widget/ActionBarContainer;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -1388,7 +1387,8 @@
     .line 77
     .line 78
     .line 79
-    invoke-static {p0}, Landroidx/appcompat/widget/ActionBarContainer$Api21Impl;->invalidateOutline(Landroidx/appcompat/widget/ActionBarContainer;)V    return-void
+    invoke-static {p0}, Landroidx/appcompat/widget/ActionBarContainer$Api21Impl;->invalidateOutline(Landroidx/appcompat/widget/ActionBarContainer;)V
+return-void
 .end method
 
 .method public setSplitBackground(Landroid/graphics/drawable/Drawable;)V
@@ -1533,7 +1533,8 @@
     .line 65
     .line 66
     .line 67
-    invoke-static {p0}, Landroidx/appcompat/widget/ActionBarContainer$Api21Impl;->invalidateOutline(Landroidx/appcompat/widget/ActionBarContainer;)V    return-void
+    invoke-static {p0}, Landroidx/appcompat/widget/ActionBarContainer$Api21Impl;->invalidateOutline(Landroidx/appcompat/widget/ActionBarContainer;)V
+return-void
 .end method
 
 .method public setStackedBackground(Landroid/graphics/drawable/Drawable;)V
@@ -1710,7 +1711,8 @@
     .line 81
     .line 82
     .line 83
-    invoke-static {p0}, Landroidx/appcompat/widget/ActionBarContainer$Api21Impl;->invalidateOutline(Landroidx/appcompat/widget/ActionBarContainer;)V    return-void
+    invoke-static {p0}, Landroidx/appcompat/widget/ActionBarContainer$Api21Impl;->invalidateOutline(Landroidx/appcompat/widget/ActionBarContainer;)V
+return-void
 .end method
 
 .method public setTabContainer(Landroidx/appcompat/widget/ScrollingTabContainerView;)V

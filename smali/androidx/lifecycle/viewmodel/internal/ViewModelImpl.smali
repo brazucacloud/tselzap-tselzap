@@ -150,8 +150,7 @@
 
     .line 20
     invoke-static {v0, p2}, Ld1/q;->l0(Ljava/util/Collection;[Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public varargs constructor <init>([Ljava/lang/AutoCloseable;)V
@@ -187,8 +186,7 @@
 
     .line 14
     invoke-static {v0, p1}, Ld1/q;->l0(Ljava/util/Collection;[Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public static final synthetic access$closeWithRuntimeException(Landroidx/lifecycle/viewmodel/internal/ViewModelImpl;Ljava/lang/AutoCloseable;)V

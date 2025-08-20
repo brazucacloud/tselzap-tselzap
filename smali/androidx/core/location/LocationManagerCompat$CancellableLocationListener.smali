@@ -107,8 +107,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/core/location/LocationManagerCompat$CancellableLocationListener;->lambda$startTimeout$0()V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic b(Landroidx/core/util/Consumer;Landroid/location/Location;)V
@@ -116,8 +115,7 @@
 
     .line 1
     invoke-static {p0, p1}, Landroidx/core/location/LocationManagerCompat$CancellableLocationListener;->lambda$onLocationChanged$1(Landroidx/core/util/Consumer;Landroid/location/Location;)V
-
-    return-void
+return-void
 .end method
 
 .method private cleanup()V

@@ -302,8 +302,7 @@
     move-result-object v1
 
     invoke-direct {p1, v0, v1}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
-
-    return-object p1
+return-object p1
 
     :cond_0
     const/4 v4, 0x1
@@ -383,8 +382,7 @@
     move-result-object v3
 
     invoke-direct {v1, v2, v3}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
-
-    return-object v1
+return-object v1
 
     :cond_1
     const/4 v1, 0x0
@@ -400,8 +398,7 @@
     sget-object v3, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     invoke-direct {v1, v2, v3}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
-
-    return-object v1
+return-object v1
 
     .line 15
     :cond_2
@@ -476,8 +473,7 @@
     move-result-object v1
 
     invoke-direct {p1, v0, v1}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
-
-    return-object p1
+return-object p1
 .end method
 
 
@@ -548,8 +544,7 @@
     const-string v0, ""
 
     invoke-direct {p1, v0, p2}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
-
-    return-object p1
+return-object p1
 .end method
 
 .method public final zza(Ljava/lang/String;Z)Ljava/lang/String;

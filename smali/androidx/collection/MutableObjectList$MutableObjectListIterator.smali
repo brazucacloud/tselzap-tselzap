@@ -107,7 +107,8 @@
 
     .line 8
     .line 9
-    invoke-interface {v0, v1, p1}, Ljava/util/List;->add(ILjava/lang/Object;)V    return-void
+    invoke-interface {v0, v1, p1}, Ljava/util/List;->add(ILjava/lang/Object;)V
+return-void
 .end method
 
 .method public hasNext()Z

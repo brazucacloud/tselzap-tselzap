@@ -128,8 +128,7 @@
     move-result-object v0
 
     invoke-interface {v0, p0, p1}, Lcom/google/android/gms/internal/measurement/zzmj;->zza(Ljava/lang/Object;Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method private final zzb([BIILcom/google/android/gms/internal/measurement/zzjv;)Lcom/google/android/gms/internal/measurement/zzki$zzb;
@@ -473,8 +472,7 @@
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzki$zzb;->zza:Lcom/google/android/gms/internal/measurement/zzki;
 
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/measurement/zzki$zzb;->zza(Ljava/lang/Object;Ljava/lang/Object;)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public final synthetic zzag()Lcom/google/android/gms/internal/measurement/zzis;

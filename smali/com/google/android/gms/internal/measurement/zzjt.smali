@@ -72,8 +72,7 @@
     const/4 v2, 0x1
 
     invoke-direct {p0, v0, v1, v2}, Lcom/google/android/gms/internal/measurement/zzjt;-><init>([DIZ)V
-
-    return-void
+return-void
 .end method
 
 .method private constructor <init>([DIZ)V
@@ -1077,8 +1076,7 @@
     const/4 v2, 0x1
 
     invoke-direct {v0, p1, v1, v2}, Lcom/google/android/gms/internal/measurement/zzjt;-><init>([DIZ)V
-
-    return-object v0
+return-object v0
 
     .line 4
     :cond_1

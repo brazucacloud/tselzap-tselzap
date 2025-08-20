@@ -48,7 +48,8 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+return-object v0
 .end method
 
 .method public static final longObjectMapOf()Landroidx/collection/LongObjectMap;
@@ -69,8 +70,7 @@
     const-string v1, "null cannot be cast to non-null type androidx.collection.LongObjectMap<V of androidx.collection.LongObjectMapKt.longObjectMapOf>"
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final longObjectMapOf(JLjava/lang/Object;)Landroidx/collection/LongObjectMap;
@@ -98,8 +98,7 @@
 
     .line 3
     invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableLongObjectMap;->set(JLjava/lang/Object;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final longObjectMapOf(JLjava/lang/Object;JLjava/lang/Object;)Landroidx/collection/LongObjectMap;
@@ -130,8 +129,7 @@
 
     .line 6
     invoke-virtual {v0, p3, p4, p5}, Landroidx/collection/MutableLongObjectMap;->set(JLjava/lang/Object;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final longObjectMapOf(JLjava/lang/Object;JLjava/lang/Object;JLjava/lang/Object;)Landroidx/collection/LongObjectMap;
@@ -165,8 +163,7 @@
 
     .line 10
     invoke-virtual {v0, p6, p7, p8}, Landroidx/collection/MutableLongObjectMap;->set(JLjava/lang/Object;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final longObjectMapOf(JLjava/lang/Object;JLjava/lang/Object;JLjava/lang/Object;JLjava/lang/Object;)Landroidx/collection/LongObjectMap;
@@ -203,8 +200,7 @@
 
     .line 15
     invoke-virtual {v0, p9, p10, p11}, Landroidx/collection/MutableLongObjectMap;->set(JLjava/lang/Object;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final longObjectMapOf(JLjava/lang/Object;JLjava/lang/Object;JLjava/lang/Object;JLjava/lang/Object;JLjava/lang/Object;)Landroidx/collection/LongObjectMap;
@@ -248,8 +244,7 @@
 
     .line 21
     invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableLongObjectMap;->set(JLjava/lang/Object;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableLongObjectMapOf()Landroidx/collection/MutableLongObjectMap;
@@ -274,8 +269,7 @@
     const/4 v3, 0x0
 
     invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongObjectMap;-><init>(IILkotlin/jvm/internal/e;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableLongObjectMapOf(JLjava/lang/Object;)Landroidx/collection/MutableLongObjectMap;
@@ -303,8 +297,7 @@
 
     .line 3
     invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableLongObjectMap;->set(JLjava/lang/Object;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableLongObjectMapOf(JLjava/lang/Object;JLjava/lang/Object;)Landroidx/collection/MutableLongObjectMap;
@@ -335,8 +328,7 @@
 
     .line 6
     invoke-virtual {v0, p3, p4, p5}, Landroidx/collection/MutableLongObjectMap;->set(JLjava/lang/Object;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableLongObjectMapOf(JLjava/lang/Object;JLjava/lang/Object;JLjava/lang/Object;)Landroidx/collection/MutableLongObjectMap;
@@ -370,8 +362,7 @@
 
     .line 10
     invoke-virtual {v0, p6, p7, p8}, Landroidx/collection/MutableLongObjectMap;->set(JLjava/lang/Object;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableLongObjectMapOf(JLjava/lang/Object;JLjava/lang/Object;JLjava/lang/Object;JLjava/lang/Object;)Landroidx/collection/MutableLongObjectMap;
@@ -408,8 +399,7 @@
 
     .line 15
     invoke-virtual {v0, p9, p10, p11}, Landroidx/collection/MutableLongObjectMap;->set(JLjava/lang/Object;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableLongObjectMapOf(JLjava/lang/Object;JLjava/lang/Object;JLjava/lang/Object;JLjava/lang/Object;JLjava/lang/Object;)Landroidx/collection/MutableLongObjectMap;
@@ -453,7 +443,6 @@
 
     .line 21
     invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableLongObjectMap;->set(JLjava/lang/Object;)V
-
-    return-object v0
+return-object v0
 .end method
 .end class

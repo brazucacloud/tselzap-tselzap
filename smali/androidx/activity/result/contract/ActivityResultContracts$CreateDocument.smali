@@ -39,8 +39,7 @@
     const-string v0, "*/*"
 
     invoke-direct {p0, v0}, Landroidx/activity/result/contract/ActivityResultContracts$CreateDocument;-><init>(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/String;)V
@@ -111,8 +110,7 @@
     const-string p2, "Intent(Intent.ACTION_CRE\u2026ntent.EXTRA_TITLE, input)"
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object p1
+return-object p1
 .end method
 
 .method public bridge synthetic getSynchronousResult(Landroid/content/Context;Ljava/lang/Object;)Landroidx/activity/result/contract/ActivityResultContract$SynchronousResult;

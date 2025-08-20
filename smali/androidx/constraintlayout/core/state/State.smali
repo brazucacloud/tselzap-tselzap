@@ -1321,7 +1321,8 @@
     const/4 p1, 0x1
 
     .line 7
-    iput-boolean p1, p0, Landroidx/constraintlayout/core/state/State;->mDirtyBaselineNeededWidgets:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/core/state/State;->mDirtyBaselineNeededWidgets:Z
+return-void
 .end method
 
 .method public varargs centerHorizontally([Ljava/lang/Object;)Landroidx/constraintlayout/core/state/helpers/AlignHorizontallyReference;
@@ -1511,7 +1512,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p1, p0}, Landroidx/constraintlayout/core/state/ConstraintReference;-><init>(Landroidx/constraintlayout/core/state/State;)V    return-object p1
+    invoke-direct {p1, p0}, Landroidx/constraintlayout/core/state/ConstraintReference;-><init>(Landroidx/constraintlayout/core/state/State;)V
+return-object p1
 .end method
 
 .method public directMapping()V
@@ -2598,7 +2600,8 @@
     const/4 v0, 0x1
 
     .line 67
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/state/State;->mDirtyBaselineNeededWidgets:Z    return-void
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/state/State;->mDirtyBaselineNeededWidgets:Z
+return-void
 .end method
 
 .method public sameFixedHeight(I)Z
@@ -2677,7 +2680,8 @@
     .end annotation
 
     .line 1
-    iput-boolean p1, p0, Landroidx/constraintlayout/core/state/State;->mIsLtr:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/core/state/State;->mIsLtr:Z
+return-void
 .end method
 
 .method public setRtl(Z)V
@@ -2688,7 +2692,8 @@
 
     .line 2
     .line 3
-    iput-boolean p1, p0, Landroidx/constraintlayout/core/state/State;->mIsLtr:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/core/state/State;->mIsLtr:Z
+return-void
 .end method
 
 .method public setTag(Ljava/lang/String;Ljava/lang/String;)V

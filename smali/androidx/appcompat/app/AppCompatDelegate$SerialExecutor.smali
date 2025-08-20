@@ -79,8 +79,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/appcompat/app/AppCompatDelegate$SerialExecutor;->lambda$execute$0(Ljava/lang/Runnable;)V
-
-    return-void
+return-void
 .end method
 
 .method private synthetic lambda$execute$0(Ljava/lang/Runnable;)V
@@ -95,7 +94,8 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroidx/appcompat/app/AppCompatDelegate$SerialExecutor;->scheduleNext()V    return-void
+    invoke-virtual {p0}, Landroidx/appcompat/app/AppCompatDelegate$SerialExecutor;->scheduleNext()V
+return-void
 
     .line 8
     :catchall_0

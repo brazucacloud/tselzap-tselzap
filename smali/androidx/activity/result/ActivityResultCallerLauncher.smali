@@ -199,8 +199,7 @@
     iget-object v0, p0, Landroidx/activity/result/ActivityResultCallerLauncher;->callerInput:Ljava/lang/Object;
 
     invoke-virtual {p1, v0, p2}, Landroidx/activity/result/ActivityResultLauncher;->launch(Ljava/lang/Object;Landroidx/core/app/ActivityOptionsCompat;)V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic launch(Ljava/lang/Object;Landroidx/core/app/ActivityOptionsCompat;)V
@@ -210,8 +209,7 @@
     check-cast p1, Lc1/v;
 
     invoke-virtual {p0, p1, p2}, Landroidx/activity/result/ActivityResultCallerLauncher;->launch(Lc1/v;Landroidx/core/app/ActivityOptionsCompat;)V
-
-    return-void
+return-void
 .end method
 
 .method public unregister()V
@@ -222,6 +220,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/activity/result/ActivityResultLauncher;->unregister()V    return-void
+    invoke-virtual {v0}, Landroidx/activity/result/ActivityResultLauncher;->unregister()V
+return-void
 .end method
 .end class

@@ -81,8 +81,7 @@
     move v6, p5
 
     invoke-direct/range {v1 .. v9}, Landroidx/privacysandbox/ads/adservices/adselection/ReportEventRequest;-><init>(JLjava/lang/String;Ljava/lang/String;ILandroid/view/InputEvent;ILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(JLjava/lang/String;Ljava/lang/String;ILandroid/view/InputEvent;)V
@@ -157,8 +156,7 @@
 
     .line 9
     invoke-direct/range {v0 .. v6}, Landroidx/privacysandbox/ads/adservices/adselection/ReportEventRequest;-><init>(JLjava/lang/String;Ljava/lang/String;ILandroid/view/InputEvent;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic getInputEvent$annotations()V

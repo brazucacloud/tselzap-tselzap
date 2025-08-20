@@ -131,7 +131,8 @@
     .line 48
     .line 49
     :cond_1
-    invoke-virtual {p0}, Landroidx/appcompat/widget/ScrollingTabContainerView$TabView;->update()V    return-void
+    invoke-virtual {p0}, Landroidx/appcompat/widget/ScrollingTabContainerView$TabView;->update()V
+return-void
 .end method
 
 
@@ -144,7 +145,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroidx/appcompat/widget/ScrollingTabContainerView$TabView;->update()V    return-void
+    invoke-virtual {p0}, Landroidx/appcompat/widget/ScrollingTabContainerView$TabView;->update()V
+return-void
 .end method
 
 .method public getTab()Landroidx/appcompat/app/ActionBar$Tab;
@@ -167,7 +169,8 @@
 
     .line 5
     .line 6
-    invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityRecord;->setClassName(Ljava/lang/CharSequence;)V    return-void
+    invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityRecord;->setClassName(Ljava/lang/CharSequence;)V
+return-void
 .end method
 
 .method public onInitializeAccessibilityNodeInfo(Landroid/view/accessibility/AccessibilityNodeInfo;)V
@@ -183,7 +186,8 @@
 
     .line 5
     .line 6
-    invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityNodeInfo;->setClassName(Ljava/lang/CharSequence;)V    return-void
+    invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityNodeInfo;->setClassName(Ljava/lang/CharSequence;)V
+return-void
 .end method
 
 .method public onMeasure(II)V

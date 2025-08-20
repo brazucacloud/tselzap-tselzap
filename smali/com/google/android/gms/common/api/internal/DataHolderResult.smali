@@ -50,8 +50,7 @@
     invoke-direct {v0, v1}, Lcom/google/android/gms/common/api/Status;-><init>(I)V
 
     invoke-direct {p0, p1, v0}, Lcom/google/android/gms/common/api/internal/DataHolderResult;-><init>(Lcom/google/android/gms/common/data/DataHolder;Lcom/google/android/gms/common/api/Status;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Lcom/google/android/gms/common/data/DataHolder;Lcom/google/android/gms/common/api/Status;)V

@@ -487,6 +487,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeTypedList(Ljava/util/List;)V    return-void
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeTypedList(Ljava/util/List;)V
+return-void
 .end method
 .end class

@@ -168,8 +168,7 @@
     move-result-object v0
 
     invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/measurement/internal/zzqd;->zza(Lcom/google/android/gms/internal/measurement/zzdq;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 

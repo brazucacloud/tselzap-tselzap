@@ -100,8 +100,7 @@
     const/4 v1, -0x3
 
     invoke-direct {v0, v1}, Landroidx/core/provider/FontRequestWorker$TypefaceResult;-><init>(I)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public bridge synthetic call()Ljava/lang/Object;

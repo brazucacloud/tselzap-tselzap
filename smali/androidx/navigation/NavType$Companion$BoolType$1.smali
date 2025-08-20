@@ -30,7 +30,8 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/navigation/NavType;-><init>(Z)V    return-void
+    invoke-direct {p0, v0}, Landroidx/navigation/NavType;-><init>(Z)V
+return-void
 .end method
 
 
@@ -145,8 +146,7 @@
     move-result p3
 
     invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/NavType$Companion$BoolType$1;->put(Landroid/os/Bundle;Ljava/lang/String;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public put(Landroid/os/Bundle;Ljava/lang/String;Z)V
@@ -162,7 +162,6 @@
 
     .line 2
     invoke-virtual {p1, p2, p3}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
-
-    return-void
+return-void
 .end method
 .end class

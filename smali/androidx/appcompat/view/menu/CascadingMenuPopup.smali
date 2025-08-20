@@ -382,7 +382,8 @@
     const/4 v1, 0x2
 
     .line 39
-    invoke-virtual {v0, v1}, Landroidx/appcompat/widget/ListPopupWindow;->setInputMethodMode(I)V    return-object v0
+    invoke-virtual {v0, v1}, Landroidx/appcompat/widget/ListPopupWindow;->setInputMethodMode(I)V
+return-object v0
 .end method
 
 .method private findIndexOfAddedMenu(Landroidx/appcompat/view/menu/MenuBuilder;)I
@@ -1535,7 +1536,8 @@
 
     .line 11
     .line 12
-    invoke-direct {p0, p1}, Landroidx/appcompat/view/menu/CascadingMenuPopup;->showMenu(Landroidx/appcompat/view/menu/MenuBuilder;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/appcompat/view/menu/CascadingMenuPopup;->showMenu(Landroidx/appcompat/view/menu/MenuBuilder;)V
+return-void
 
     .line 16
     :cond_0
@@ -2057,7 +2059,8 @@
 
     .line 135
     .line 136
-    invoke-interface {p1}, Landroid/widget/PopupWindow$OnDismissListener;->onDismiss()V    return-void
+    invoke-interface {p1}, Landroid/widget/PopupWindow$OnDismissListener;->onDismiss()V
+return-void
 
     .line 140
     :cond_7
@@ -2400,7 +2403,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup;->mForceShowIcon:Z    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup;->mForceShowIcon:Z
+return-void
 .end method
 
 .method public setGravity(I)V
@@ -2472,7 +2476,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup;->mShowTitle:Z    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup;->mShowTitle:Z
+return-void
 .end method
 
 .method public setVerticalOffset(I)V

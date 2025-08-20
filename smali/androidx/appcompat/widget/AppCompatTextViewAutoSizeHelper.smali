@@ -424,7 +424,8 @@
 
     .line 15
     .line 16
-    iput-boolean v0, p0, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->mNeedsAutoSizeText:Z    return-void
+    iput-boolean v0, p0, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->mNeedsAutoSizeText:Z
+return-void
 .end method
 
 .method private findLargestTextSizeWhichFits(Landroid/graphics/RectF;)I
@@ -1554,7 +1555,8 @@
     const/4 p1, 0x0
 
     .line 26
-    iput-boolean p1, p0, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->mHasPresetAutoSizeValues:Z    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->mHasPresetAutoSizeValues:Z
+return-void
 
     .line 29
     :cond_0
@@ -2006,7 +2008,8 @@
     const/4 v0, 0x1
 
     .line 128
-    iput-boolean v0, p0, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->mNeedsAutoSizeText:Z    return-void
+    iput-boolean v0, p0, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->mNeedsAutoSizeText:Z
+return-void
 .end method
 
 .method public createLayout(Ljava/lang/CharSequence;Landroid/text/Layout$Alignment;II)Landroid/text/StaticLayout;
@@ -2135,7 +2138,8 @@
     move v3, v9
 
     .line 50
-    invoke-direct/range {v0 .. v7}, Landroid/text/StaticLayout;-><init>(Ljava/lang/CharSequence;Landroid/text/TextPaint;ILandroid/text/Layout$Alignment;FFZ)V    return-object v0
+    invoke-direct/range {v0 .. v7}, Landroid/text/StaticLayout;-><init>(Ljava/lang/CharSequence;Landroid/text/TextPaint;ILandroid/text/Layout$Alignment;FFZ)V
+return-object v0
 .end method
 
 .method public getAutoSizeMaxTextSize()I
@@ -2296,7 +2300,8 @@
     int-to-float p1, p1
 
     .line 30
-    invoke-virtual {v0, p1}, Landroid/graphics/Paint;->setTextSize(F)V    return-void
+    invoke-virtual {v0, p1}, Landroid/graphics/Paint;->setTextSize(F)V
+return-void
 .end method
 
 .method public isAutoSizeEnabled()Z
@@ -3129,7 +3134,8 @@
 
     .line 45
     .line 46
-    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->autoSizeText()V    return-void
+    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->autoSizeText()V
+return-void
 
     .line 50
     :cond_0

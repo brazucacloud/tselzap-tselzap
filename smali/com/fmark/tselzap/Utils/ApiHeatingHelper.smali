@@ -25,8 +25,7 @@
 
     .line 1
     invoke-static {p0, p1, p2}, Lcom/fmark/tselzap/Utils/ApiHeatingHelper;->lambda$showPhoneEditDialog$1(Landroid/widget/LinearLayout;Landroid/widget/CompoundButton;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic b(Landroid/widget/CheckBox;Landroid/widget/CheckBox;Landroid/widget/CheckBox;Landroid/widget/CheckBox;LG0/x;Landroid/widget/EditText;Landroid/widget/CheckBox;LG0/x;Landroid/widget/EditText;Ljava/lang/String;Landroid/widget/TextView;Lcom/fmark/tselzap/Interfaces/OnPhoneNumberSavedListener;Landroid/content/DialogInterface;I)V
@@ -43,8 +42,7 @@
 
     .line 1
     invoke-static {p0, p1, p2}, Lcom/fmark/tselzap/Utils/ApiHeatingHelper;->lambda$showPhoneEditDialog$0(Landroid/widget/LinearLayout;Landroid/widget/CompoundButton;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public static checkPermissions(Landroid/content/Context;)Z
@@ -389,8 +387,7 @@
     move-result-object p0
 
     invoke-interface {p11, p0}, Lcom/fmark/tselzap/Interfaces/OnPhoneNumberSavedListener;->onPhoneNumberSaved(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public static requestPermissions(Landroid/app/Activity;)V

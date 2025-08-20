@@ -107,8 +107,7 @@
     move-wide/from16 v7, p7
 
     invoke-direct/range {v0 .. v9}, Lcom/google/android/gms/measurement/internal/zzoz;-><init>(J[BLjava/lang/String;Landroid/os/Bundle;IJLjava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(J[BLjava/lang/String;Landroid/os/Bundle;IJLjava/lang/String;)V

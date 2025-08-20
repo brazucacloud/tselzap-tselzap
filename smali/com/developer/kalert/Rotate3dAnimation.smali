@@ -113,8 +113,7 @@
 
     .line 36
     invoke-direct {p0}, Lcom/developer/kalert/Rotate3dAnimation;->initializePivotPoint()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(IFFIFIF)V
@@ -146,8 +145,7 @@
 
     .line 45
     invoke-direct {p0}, Lcom/developer/kalert/Rotate3dAnimation;->initializePivotPoint()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -253,8 +251,7 @@
 
     .line 17
     invoke-direct {p0}, Lcom/developer/kalert/Rotate3dAnimation;->initializePivotPoint()V
-
-    return-void
+return-void
 .end method
 
 .method private initializePivotPoint()V

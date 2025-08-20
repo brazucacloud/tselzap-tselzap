@@ -47,8 +47,7 @@
     iget-object v3, p0, Lcom/google/android/gms/measurement/internal/zzoe;->zzd:Landroid/content/Intent;
 
     invoke-static {v0, v1, v2, v3}, Lcom/google/android/gms/measurement/internal/zzoc;->zza(Lcom/google/android/gms/measurement/internal/zzoc;ILcom/google/android/gms/measurement/internal/zzhc;Landroid/content/Intent;)V
-
-    return-void
+return-void
 .end method
 
 .end class

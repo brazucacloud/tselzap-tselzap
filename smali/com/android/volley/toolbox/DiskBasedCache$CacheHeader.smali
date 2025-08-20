@@ -69,8 +69,7 @@
 
     .line 11
     invoke-direct/range {v0 .. v11}, Lcom/android/volley/toolbox/DiskBasedCache$CacheHeader;-><init>(Ljava/lang/String;Ljava/lang/String;JJJJLjava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method private constructor <init>(Ljava/lang/String;Ljava/lang/String;JJJJLjava/util/List;)V

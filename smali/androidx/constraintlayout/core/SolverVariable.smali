@@ -908,7 +908,8 @@
 
     .line 46
     .line 47
-    invoke-static {v0, v3}, Ljava/util/Arrays;->fill([FF)V    return-void
+    invoke-static {v0, v3}, Ljava/util/Arrays;->fill([FF)V
+return-void
 .end method
 
 .method public setFinalValue(Landroidx/constraintlayout/core/LinearSystem;F)V
@@ -1064,7 +1065,8 @@
 
     .line 30
     .line 31
-    invoke-virtual {p1}, Landroidx/constraintlayout/core/LinearSystem;->displayReadableRows()V    return-void
+    invoke-virtual {p1}, Landroidx/constraintlayout/core/LinearSystem;->displayReadableRows()V
+return-void
 .end method
 
 .method public setType(Landroidx/constraintlayout/core/SolverVariable$Type;Ljava/lang/String;)V

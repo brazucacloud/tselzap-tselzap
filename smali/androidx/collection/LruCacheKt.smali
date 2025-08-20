@@ -54,7 +54,8 @@
 
     .line 17
     .line 18
-    invoke-direct {v0, p0, p1, p2, p3}, Landroidx/collection/LruCacheKt$lruCache$4;-><init>(ILp1/p;Lp1/l;Lp1/r;)V    return-object v0
+    invoke-direct {v0, p0, p1, p2, p3}, Landroidx/collection/LruCacheKt$lruCache$4;-><init>(ILp1/p;Lp1/l;Lp1/r;)V
+return-object v0
 .end method
 
 .method public static synthetic lruCache$default(ILp1/p;Lp1/l;Lp1/r;ILjava/lang/Object;)Landroidx/collection/LruCache;
@@ -131,6 +132,7 @@
 
     .line 35
     .line 36
-    invoke-direct {p4, p0, p1, p2, p3}, Landroidx/collection/LruCacheKt$lruCache$4;-><init>(ILp1/p;Lp1/l;Lp1/r;)V    return-object p4
+    invoke-direct {p4, p0, p1, p2, p3}, Landroidx/collection/LruCacheKt$lruCache$4;-><init>(ILp1/p;Lp1/l;Lp1/r;)V
+return-object p4
 .end method
 .end class

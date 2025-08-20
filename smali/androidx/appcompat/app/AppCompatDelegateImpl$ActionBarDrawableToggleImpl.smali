@@ -30,7 +30,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 
@@ -99,7 +100,8 @@
     move-result-object v1
 
     .line 21
-    invoke-virtual {v0}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V    return-object v1
+    invoke-virtual {v0}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V
+return-object v1
 .end method
 
 .method public isNavigationVisible()Z

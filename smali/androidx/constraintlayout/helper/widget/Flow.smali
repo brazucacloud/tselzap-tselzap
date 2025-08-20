@@ -947,7 +947,8 @@
 
     .line 430
     .line 431
-    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintHelper;->validateParams()V    return-void
+    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintHelper;->validateParams()V
+return-void
 .end method
 
 .method public loadParameters(Landroidx/constraintlayout/widget/ConstraintSet$Constraint;Landroidx/constraintlayout/core/widgets/HelperWidget;Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;Landroid/util/SparseArray;)V
@@ -1092,7 +1093,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public setFirstHorizontalStyle(I)V
@@ -1108,7 +1110,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public setFirstVerticalBias(F)V
@@ -1124,7 +1127,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public setFirstVerticalStyle(I)V
@@ -1140,7 +1144,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public setHorizontalAlign(I)V
@@ -1156,7 +1161,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public setHorizontalBias(F)V
@@ -1172,7 +1178,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public setHorizontalGap(I)V
@@ -1188,7 +1195,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public setHorizontalStyle(I)V
@@ -1204,7 +1212,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public setLastHorizontalBias(F)V
@@ -1220,7 +1229,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public setLastHorizontalStyle(I)V
@@ -1236,7 +1246,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public setLastVerticalBias(F)V
@@ -1252,7 +1263,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public setLastVerticalStyle(I)V
@@ -1268,7 +1280,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public setMaxElementsWrap(I)V
@@ -1284,7 +1297,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public setOrientation(I)V
@@ -1300,7 +1314,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public setPadding(I)V
@@ -1316,7 +1331,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public setPaddingBottom(I)V
@@ -1332,7 +1348,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public setPaddingLeft(I)V
@@ -1348,7 +1365,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public setPaddingRight(I)V
@@ -1364,7 +1382,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public setPaddingTop(I)V
@@ -1380,7 +1399,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public setVerticalAlign(I)V
@@ -1396,7 +1416,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public setVerticalBias(F)V
@@ -1412,7 +1433,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public setVerticalGap(I)V
@@ -1428,7 +1450,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public setVerticalStyle(I)V
@@ -1444,7 +1467,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public setWrapMode(I)V
@@ -1460,6 +1484,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 .end class

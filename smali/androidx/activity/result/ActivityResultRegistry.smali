@@ -334,7 +334,8 @@
     .line 42
     .line 43
     .line 44
-    invoke-virtual {p4, p1, v0}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V    return-void
+    invoke-virtual {p4, p1, v0}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
+return-void
 .end method
 
 .method private generateRandomNumber()I
@@ -440,7 +441,8 @@
     move-result v0
 
     .line 16
-    invoke-direct {p0, v0, p1}, Landroidx/activity/result/ActivityResultRegistry;->bindRcKey(ILjava/lang/String;)V    return-void
+    invoke-direct {p0, v0, p1}, Landroidx/activity/result/ActivityResultRegistry;->bindRcKey(ILjava/lang/String;)V
+return-void
 .end method
 
 
@@ -950,7 +952,8 @@
 
     .line 54
     .line 55
-    invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V    return-void
+    invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
+return-void
 .end method
 
 .method public final register(Ljava/lang/String;Landroidx/activity/result/contract/ActivityResultContract;Landroidx/activity/result/ActivityResultCallback;)Landroidx/activity/result/ActivityResultLauncher;
@@ -1062,8 +1065,7 @@
     new-instance p3, Landroidx/activity/result/ActivityResultRegistry$3;
 
     invoke-direct {p3, p0, p1, p2}, Landroidx/activity/result/ActivityResultRegistry$3;-><init>(Landroidx/activity/result/ActivityResultRegistry;Ljava/lang/String;Landroidx/activity/result/contract/ActivityResultContract;)V
-
-    return-object p3
+return-object p3
 .end method
 
 .method public final register(Ljava/lang/String;Landroidx/lifecycle/LifecycleOwner;Landroidx/activity/result/contract/ActivityResultContract;Landroidx/activity/result/ActivityResultCallback;)Landroidx/activity/result/ActivityResultLauncher;
@@ -1160,8 +1162,7 @@
     new-instance p2, Landroidx/activity/result/ActivityResultRegistry$2;
 
     invoke-direct {p2, p0, p1, p3}, Landroidx/activity/result/ActivityResultRegistry$2;-><init>(Landroidx/activity/result/ActivityResultRegistry;Ljava/lang/String;Landroidx/activity/result/contract/ActivityResultContract;)V
-
-    return-object p2
+return-object p2
 
     .line 10
     :cond_1

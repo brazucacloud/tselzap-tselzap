@@ -31,8 +31,7 @@
     iget-object v0, p0, Landroidx/core/view/i;->a:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-static {v0, p1, p2}, Landroidx/core/view/SoftwareKeyboardControllerCompat$Impl30;->b(Ljava/util/concurrent/atomic/AtomicBoolean;Landroid/view/WindowInsetsController;I)V
-
-    return-void
+return-void
 .end method
 
 .end class

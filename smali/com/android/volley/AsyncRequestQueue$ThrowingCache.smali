@@ -23,8 +23,7 @@
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Lcom/android/volley/AsyncRequestQueue$1;)V
@@ -32,8 +31,7 @@
 
     .line 2
     invoke-direct {p0}, Lcom/android/volley/AsyncRequestQueue$ThrowingCache;-><init>()V
-
-    return-void
+return-void
 .end method
 
 

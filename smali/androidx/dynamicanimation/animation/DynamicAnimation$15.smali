@@ -33,7 +33,8 @@
 
     .line 4
     .line 5
-    invoke-direct {p0, p2}, Landroidx/dynamicanimation/animation/FloatPropertyCompat;-><init>(Ljava/lang/String;)V    return-void
+    invoke-direct {p0, p2}, Landroidx/dynamicanimation/animation/FloatPropertyCompat;-><init>(Ljava/lang/String;)V
+return-void
 .end method
 
 

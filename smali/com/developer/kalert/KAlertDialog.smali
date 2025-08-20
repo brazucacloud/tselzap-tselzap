@@ -184,8 +184,7 @@
 
     .line 1
     invoke-direct {p0, p1, v0, v0}, Lcom/developer/kalert/KAlertDialog;-><init>(Landroid/content/Context;IZ)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;IZ)V
@@ -343,8 +342,7 @@
 
     .line 21
     invoke-virtual {p1, p2, p3}, Landroid/view/animation/Animation;->setDuration(J)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Z)V
@@ -354,8 +352,7 @@
 
     .line 2
     invoke-direct {p0, p1, v0, p2}, Lcom/developer/kalert/KAlertDialog;-><init>(Landroid/content/Context;IZ)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic access$000(Lcom/developer/kalert/KAlertDialog;)Landroid/view/View;
@@ -420,8 +417,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Lcom/developer/kalert/KAlertDialog;->lambda$showKeyboard$0(Landroid/view/inputmethod/InputMethodManager;)V
-
-    return-void
+return-void
 .end method
 
 .method private changeAlertType(IZ)V
@@ -1810,8 +1806,7 @@
 
     .line 25
     invoke-direct {p0}, Lcom/developer/kalert/KAlertDialog;->hideKeyboard()V
-
-    return-void
+return-void
 .end method
 
 .method public confirmButtonColor(I)Lcom/developer/kalert/KAlertDialog;
@@ -1847,8 +1842,7 @@
 
     .line 1
     invoke-virtual {p0, v0}, Lcom/developer/kalert/KAlertDialog;->dismissWithAnimation(Z)V
-
-    return-void
+return-void
 .end method
 
 .method public dismissWithAnimation(Z)V

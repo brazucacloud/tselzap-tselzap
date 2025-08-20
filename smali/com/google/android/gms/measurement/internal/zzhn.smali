@@ -73,8 +73,7 @@
 
     .line 4
     iput-boolean p1, p0, Lcom/google/android/gms/measurement/internal/zzhn;->zzd:Z
-
-    return-void
+return-void
 .end method
 
 .method public final zza()Z

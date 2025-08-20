@@ -37,8 +37,7 @@
     iget v1, p0, Landroidx/core/location/l;->c:I
 
     invoke-static {v0, v1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->f(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;I)V
-
-    return-void
+return-void
 .end method
 
 .end class

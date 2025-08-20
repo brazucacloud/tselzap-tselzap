@@ -41,7 +41,8 @@
     const/4 v0, 0x1
 
     .line 5
-    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->isMutable:Z    return-void
+    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->isMutable:Z
+return-void
 .end method
 
 
@@ -59,8 +60,7 @@
 
     .line 4
     invoke-super {p0, p1, p2}, Ljava/util/AbstractList;->add(ILjava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public add(Ljava/lang/Object;)Z
@@ -133,7 +133,8 @@
     .line 2
     .line 3
     .line 4
-    invoke-super {p0}, Ljava/util/AbstractList;->clear()V    return-void
+    invoke-super {p0}, Ljava/util/AbstractList;->clear()V
+return-void
 .end method
 
 .method public ensureIsMutable()V
@@ -342,7 +343,8 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->isMutable:Z    return-void
+    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->isMutable:Z
+return-void
 .end method
 
 .method public remove(I)Ljava/lang/Object;

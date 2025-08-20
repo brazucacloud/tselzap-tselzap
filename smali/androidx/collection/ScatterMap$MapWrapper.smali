@@ -52,7 +52,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 
@@ -229,7 +230,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/collection/ScatterMap$MapWrapper$entries$1;-><init>(Landroidx/collection/ScatterMap;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/collection/ScatterMap$MapWrapper$entries$1;-><init>(Landroidx/collection/ScatterMap;)V
+return-object v0
 .end method
 
 .method public getKeys()Ljava/util/Set;
@@ -251,7 +253,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/collection/ScatterMap$MapWrapper$keys$1;-><init>(Landroidx/collection/ScatterMap;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/collection/ScatterMap$MapWrapper$keys$1;-><init>(Landroidx/collection/ScatterMap;)V
+return-object v0
 .end method
 
 .method public getSize()I
@@ -284,7 +287,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/collection/ScatterMap$MapWrapper$values$1;-><init>(Landroidx/collection/ScatterMap;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/collection/ScatterMap$MapWrapper$values$1;-><init>(Landroidx/collection/ScatterMap;)V
+return-object v0
 .end method
 
 .method public isEmpty()Z

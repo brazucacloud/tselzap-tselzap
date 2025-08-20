@@ -91,8 +91,7 @@
 
     .line 4
     invoke-direct {p0, v0, p1, p2, p3}, Lcom/android/volley/toolbox/StringRequest;-><init>(ILjava/lang/String;Lcom/android/volley/Response$Listener;Lcom/android/volley/Response$ErrorListener;)V
-
-    return-void
+return-void
 .end method
 
 
@@ -153,8 +152,7 @@
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/android/volley/toolbox/StringRequest;->deliverResponse(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public deliverResponse(Ljava/lang/String;)V

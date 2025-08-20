@@ -20,8 +20,7 @@
 
     .line 1
     invoke-virtual {p0, p1, p2}, Landroid/adservices/appsetid/AppSetIdManager;->getAppSetId(Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic C(Landroid/adservices/customaudience/CustomAudienceManager;Landroid/adservices/customaudience/JoinCustomAudienceRequest;Landroidx/arch/core/executor/a;Landroid/os/OutcomeReceiver;)V
@@ -29,8 +28,7 @@
 
     .line 1
     invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/customaudience/CustomAudienceManager;->joinCustomAudience(Landroid/adservices/customaudience/JoinCustomAudienceRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic D(Landroid/adservices/customaudience/CustomAudience$Builder;Landroid/net/Uri;)Landroid/adservices/customaudience/CustomAudience$Builder;
@@ -80,8 +78,7 @@
     new-instance v0, Landroid/adservices/common/AdData$Builder;
 
     invoke-direct {v0}, Landroid/adservices/common/AdData$Builder;-><init>()V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic e(Landroid/adservices/common/AdData$Builder;Landroid/net/Uri;)Landroid/adservices/common/AdData$Builder;
@@ -146,8 +143,7 @@
     new-instance v0, Landroid/adservices/customaudience/CustomAudience$Builder;
 
     invoke-direct {v0}, Landroid/adservices/customaudience/CustomAudience$Builder;-><init>()V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic k(Landroid/adservices/customaudience/CustomAudience$Builder;Landroid/adservices/common/AdSelectionSignals;)Landroid/adservices/customaudience/CustomAudience$Builder;
@@ -265,8 +261,7 @@
     new-instance v0, Landroid/adservices/customaudience/JoinCustomAudienceRequest$Builder;
 
     invoke-direct {v0}, Landroid/adservices/customaudience/JoinCustomAudienceRequest$Builder;-><init>()V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static synthetic v()Landroid/adservices/customaudience/LeaveCustomAudienceRequest$Builder;
@@ -276,8 +271,7 @@
     new-instance v0, Landroid/adservices/customaudience/LeaveCustomAudienceRequest$Builder;
 
     invoke-direct {v0}, Landroid/adservices/customaudience/LeaveCustomAudienceRequest$Builder;-><init>()V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic w(Landroid/adservices/customaudience/LeaveCustomAudienceRequest$Builder;Landroid/adservices/common/AdTechIdentifier;)Landroid/adservices/customaudience/LeaveCustomAudienceRequest$Builder;
@@ -309,8 +303,7 @@
     new-instance v0, Landroid/adservices/customaudience/TrustedBiddingData$Builder;
 
     invoke-direct {v0}, Landroid/adservices/customaudience/TrustedBiddingData$Builder;-><init>()V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic z()Ljava/lang/Class;

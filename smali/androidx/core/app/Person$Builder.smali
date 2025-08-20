@@ -46,8 +46,7 @@
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/core/app/Person;)V
@@ -85,8 +84,7 @@
     iget-boolean p1, p1, Landroidx/core/app/Person;->mIsImportant:Z
 
     iput-boolean p1, p0, Landroidx/core/app/Person$Builder;->mIsImportant:Z
-
-    return-void
+return-void
 .end method
 
 

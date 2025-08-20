@@ -128,8 +128,7 @@
     move-result-object p2
 
     invoke-direct {p0, p1, p2}, Landroidx/recyclerview/widget/ConcatAdapter;-><init>(Landroidx/recyclerview/widget/ConcatAdapter$Config;Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/util/List;)V
@@ -154,8 +153,7 @@
     sget-object v0, Landroidx/recyclerview/widget/ConcatAdapter$Config;->DEFAULT:Landroidx/recyclerview/widget/ConcatAdapter$Config;
 
     invoke-direct {p0, v0, p1}, Landroidx/recyclerview/widget/ConcatAdapter;-><init>(Landroidx/recyclerview/widget/ConcatAdapter$Config;Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method public varargs constructor <init>([Landroidx/recyclerview/widget/RecyclerView$Adapter;)V

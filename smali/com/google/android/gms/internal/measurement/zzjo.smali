@@ -57,8 +57,7 @@
     const/4 p2, 0x0
 
     invoke-direct {p0, p1, p2, p3, p2}, Lcom/google/android/gms/internal/measurement/zzjo;-><init>([BIIZ)V
-
-    return-void
+return-void
 .end method
 
 .method private final zzaa()J
@@ -1675,8 +1674,7 @@
 
     .line 3
     invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzjo;->zzab()V
-
-    return-void
+return-void
 .end method
 
 .method public final zze()I

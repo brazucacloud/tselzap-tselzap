@@ -164,8 +164,7 @@
     move-result-object v0
 
     invoke-virtual {v0}, Landroid/database/sqlite/SQLiteClosable;->close()V
-
-    return-object p1
+return-object p1
 .end method
 
 .method public bridge synthetic onPostExecute(Ljava/lang/Object;)V
@@ -175,8 +174,7 @@
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Lcom/fmark/tselzap/ApiWA/sender/WhatsappApi$2;->onPostExecute(Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method public onPostExecute(Ljava/util/List;)V

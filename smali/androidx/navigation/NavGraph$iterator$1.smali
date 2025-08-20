@@ -229,7 +229,8 @@
     const/4 v0, 0x0
 
     .line 35
-    iput-boolean v0, p0, Landroidx/navigation/NavGraph$iterator$1;->wentToNext:Z    return-void
+    iput-boolean v0, p0, Landroidx/navigation/NavGraph$iterator$1;->wentToNext:Z
+return-void
 
     .line 38
     :cond_0

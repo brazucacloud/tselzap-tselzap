@@ -74,7 +74,8 @@
     .line 13
     .line 14
     .line 15
-    invoke-virtual {p2, p0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z    return-void
+    invoke-virtual {p2, p0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
+return-void
 .end method
 
 
@@ -218,6 +219,7 @@
     const/4 v0, 0x1
 
     .line 26
-    iput-boolean v0, p0, Landroidx/fragment/app/FragmentAnim$EndViewTransitionAnimation;->mTransitionEnded:Z    return-void
+    iput-boolean v0, p0, Landroidx/fragment/app/FragmentAnim$EndViewTransitionAnimation;->mTransitionEnded:Z
+return-void
 .end method
 .end class

@@ -590,8 +590,7 @@
     const-string v0, "Must be called on the main application thread"
 
     invoke-static {v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkMainThread(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public static checkMainThread(Ljava/lang/String;)V
@@ -700,8 +699,7 @@
     const-string v0, "Must not be called on GoogleApiHandler thread."
 
     invoke-static {v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotGoogleApiHandlerThread(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public static checkNotGoogleApiHandlerThread(Ljava/lang/String;)V
@@ -761,8 +759,7 @@
     const-string v0, "Must not be called on the main application thread"
 
     invoke-static {v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotMainThread(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public static checkNotMainThread(Ljava/lang/String;)V

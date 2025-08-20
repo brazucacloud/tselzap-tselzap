@@ -12,7 +12,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 .method public static fromInputStream(Ljava/io/InputStream;)Landroidx/versionedparcelable/VersionedParcelable;
@@ -380,7 +381,8 @@
     .line 16
     .line 17
     .line 18
-    invoke-virtual {p0, p1, v0}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V    return-void
+    invoke-virtual {p0, p1, v0}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
+return-void
 .end method
 
 .method public static putVersionedParcelableList(Landroid/os/Bundle;Ljava/lang/String;Ljava/util/List;)V
@@ -487,7 +489,8 @@
     .line 38
     .line 39
     .line 40
-    invoke-virtual {p0, p1, v0}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V    return-void
+    invoke-virtual {p0, p1, v0}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
+return-void
 .end method
 
 .method public static toOutputStream(Landroidx/versionedparcelable/VersionedParcelable;Ljava/io/OutputStream;)V
@@ -516,7 +519,8 @@
     .line 8
     .line 9
     .line 10
-    invoke-virtual {v0}, Landroidx/versionedparcelable/VersionedParcelStream;->closeField()V    return-void
+    invoke-virtual {v0}, Landroidx/versionedparcelable/VersionedParcelStream;->closeField()V
+return-void
 .end method
 
 .method public static toParcelable(Landroidx/versionedparcelable/VersionedParcelable;)Landroid/os/Parcelable;

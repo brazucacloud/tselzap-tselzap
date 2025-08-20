@@ -47,8 +47,7 @@
     const/4 v0, 0x1
 
     invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 
@@ -77,7 +76,6 @@
 
     .line 2
     invoke-virtual {p1, v0}, Landroidx/navigation/PopUpToBuilder;->setSaveState(Z)V
-
-    return-void
+return-void
 .end method
 .end class

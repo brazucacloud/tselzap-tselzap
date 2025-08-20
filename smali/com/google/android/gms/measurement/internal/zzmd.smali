@@ -133,8 +133,7 @@
     const-string p2, "[sgtm] There\'s an existing pending job, skip this schedule."
 
     invoke-virtual {p1, p2}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;)V
-
-    return-void
+return-void
 
     .line 6
     :cond_0
@@ -163,8 +162,7 @@
     move-result-object v0
 
     invoke-virtual {p1, p2, v0}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-
-    return-void
+return-void
 
     .line 9
     :cond_1
@@ -283,8 +281,7 @@
     const-string v0, "[sgtm] Scion upload job scheduled with result"
 
     invoke-virtual {p2, v0, p1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public final zzab()Z

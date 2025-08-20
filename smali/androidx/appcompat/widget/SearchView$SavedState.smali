@@ -67,8 +67,7 @@
     move-result p1
 
     iput-boolean p1, p0, Landroidx/appcompat/widget/SearchView$SavedState;->isIconified:Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/os/Parcelable;)V
@@ -76,8 +75,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/customview/view/AbsSavedState;-><init>(Landroid/os/Parcelable;)V
-
-    return-void
+return-void
 .end method
 
 

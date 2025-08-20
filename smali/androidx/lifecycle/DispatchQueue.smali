@@ -55,8 +55,7 @@
 
     .line 1
     invoke-static {p0, p1}, Landroidx/lifecycle/DispatchQueue;->dispatchAndEnqueue$lambda$2$lambda$1(Landroidx/lifecycle/DispatchQueue;Ljava/lang/Runnable;)V
-
-    return-void
+return-void
 .end method
 
 .method private static final dispatchAndEnqueue$lambda$2$lambda$1(Landroidx/lifecycle/DispatchQueue;Ljava/lang/Runnable;)V
@@ -81,7 +80,8 @@
     .line 9
     .line 10
     .line 11
-    invoke-direct {p0, p1}, Landroidx/lifecycle/DispatchQueue;->enqueue(Ljava/lang/Runnable;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/lifecycle/DispatchQueue;->enqueue(Ljava/lang/Runnable;)V
+return-void
 .end method
 
 .method private final enqueue(Ljava/lang/Runnable;)V
@@ -106,7 +106,8 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0}, Landroidx/lifecycle/DispatchQueue;->drainQueue()V    return-void
+    invoke-virtual {p0}, Landroidx/lifecycle/DispatchQueue;->drainQueue()V
+return-void
 
     .line 13
     :cond_0
@@ -229,7 +230,8 @@
 
     .line 30
     :cond_0
-    invoke-direct {p0, p2}, Landroidx/lifecycle/DispatchQueue;->enqueue(Ljava/lang/Runnable;)V    return-void
+    invoke-direct {p0, p2}, Landroidx/lifecycle/DispatchQueue;->enqueue(Ljava/lang/Runnable;)V
+return-void
 
     .line 34
     :cond_1
@@ -246,7 +248,8 @@
     .line 38
     .line 39
     .line 40
-    invoke-virtual {v0, p1, v1}, LA1/c;->dispatch(Lg1/i;Ljava/lang/Runnable;)V    return-void
+    invoke-virtual {v0, p1, v1}, LA1/c;->dispatch(Lg1/i;Ljava/lang/Runnable;)V
+return-void
 .end method
 
 .method public final drainQueue()V
@@ -347,7 +350,8 @@
     .line 41
     :cond_3
     :goto_1
-    iput-boolean v1, p0, Landroidx/lifecycle/DispatchQueue;->isDraining:Z    return-void
+    iput-boolean v1, p0, Landroidx/lifecycle/DispatchQueue;->isDraining:Z
+return-void
 
     .line 44
     :goto_2
@@ -370,7 +374,8 @@
 
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroidx/lifecycle/DispatchQueue;->drainQueue()V    return-void
+    invoke-virtual {p0}, Landroidx/lifecycle/DispatchQueue;->drainQueue()V
+return-void
 .end method
 
 .method public final pause()V
@@ -382,7 +387,8 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/lifecycle/DispatchQueue;->paused:Z    return-void
+    iput-boolean v0, p0, Landroidx/lifecycle/DispatchQueue;->paused:Z
+return-void
 .end method
 
 .method public final resume()V
@@ -414,7 +420,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0}, Landroidx/lifecycle/DispatchQueue;->drainQueue()V    return-void
+    invoke-virtual {p0}, Landroidx/lifecycle/DispatchQueue;->drainQueue()V
+return-void
 
     .line 17
     :cond_1

@@ -76,7 +76,6 @@
 
     .line 7
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-
-    return-void
+return-void
 .end method
 .end class

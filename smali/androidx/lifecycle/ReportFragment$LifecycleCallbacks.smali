@@ -50,7 +50,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 .method public static final registerIn(Landroid/app/Activity;)V
@@ -59,8 +60,7 @@
     sget-object v0, Landroidx/lifecycle/ReportFragment$LifecycleCallbacks;->Companion:Landroidx/lifecycle/ReportFragment$LifecycleCallbacks$Companion;
 
     invoke-virtual {v0, p0}, Landroidx/lifecycle/ReportFragment$LifecycleCallbacks$Companion;->registerIn(Landroid/app/Activity;)V
-
-    return-void
+return-void
 .end method
 
 
@@ -71,8 +71,7 @@
     const-string p2, "activity"
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public onActivityDestroyed(Landroid/app/Activity;)V
@@ -81,8 +80,7 @@
     const-string v0, "activity"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public onActivityPaused(Landroid/app/Activity;)V
@@ -91,8 +89,7 @@
     const-string v0, "activity"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public onActivityPostCreated(Landroid/app/Activity;Landroid/os/Bundle;)V
@@ -116,7 +113,8 @@
 
     .line 9
     .line 10
-    invoke-virtual {p2, p1, v0}, Landroidx/lifecycle/ReportFragment$Companion;->dispatch$lifecycle_runtime_release(Landroid/app/Activity;Landroidx/lifecycle/Lifecycle$Event;)V    return-void
+    invoke-virtual {p2, p1, v0}, Landroidx/lifecycle/ReportFragment$Companion;->dispatch$lifecycle_runtime_release(Landroid/app/Activity;Landroidx/lifecycle/Lifecycle$Event;)V
+return-void
 .end method
 
 .method public onActivityPostResumed(Landroid/app/Activity;)V
@@ -140,7 +138,8 @@
 
     .line 9
     .line 10
-    invoke-virtual {v0, p1, v1}, Landroidx/lifecycle/ReportFragment$Companion;->dispatch$lifecycle_runtime_release(Landroid/app/Activity;Landroidx/lifecycle/Lifecycle$Event;)V    return-void
+    invoke-virtual {v0, p1, v1}, Landroidx/lifecycle/ReportFragment$Companion;->dispatch$lifecycle_runtime_release(Landroid/app/Activity;Landroidx/lifecycle/Lifecycle$Event;)V
+return-void
 .end method
 
 .method public onActivityPostStarted(Landroid/app/Activity;)V
@@ -164,7 +163,8 @@
 
     .line 9
     .line 10
-    invoke-virtual {v0, p1, v1}, Landroidx/lifecycle/ReportFragment$Companion;->dispatch$lifecycle_runtime_release(Landroid/app/Activity;Landroidx/lifecycle/Lifecycle$Event;)V    return-void
+    invoke-virtual {v0, p1, v1}, Landroidx/lifecycle/ReportFragment$Companion;->dispatch$lifecycle_runtime_release(Landroid/app/Activity;Landroidx/lifecycle/Lifecycle$Event;)V
+return-void
 .end method
 
 .method public onActivityPreDestroyed(Landroid/app/Activity;)V
@@ -188,7 +188,8 @@
 
     .line 9
     .line 10
-    invoke-virtual {v0, p1, v1}, Landroidx/lifecycle/ReportFragment$Companion;->dispatch$lifecycle_runtime_release(Landroid/app/Activity;Landroidx/lifecycle/Lifecycle$Event;)V    return-void
+    invoke-virtual {v0, p1, v1}, Landroidx/lifecycle/ReportFragment$Companion;->dispatch$lifecycle_runtime_release(Landroid/app/Activity;Landroidx/lifecycle/Lifecycle$Event;)V
+return-void
 .end method
 
 .method public onActivityPrePaused(Landroid/app/Activity;)V
@@ -212,7 +213,8 @@
 
     .line 9
     .line 10
-    invoke-virtual {v0, p1, v1}, Landroidx/lifecycle/ReportFragment$Companion;->dispatch$lifecycle_runtime_release(Landroid/app/Activity;Landroidx/lifecycle/Lifecycle$Event;)V    return-void
+    invoke-virtual {v0, p1, v1}, Landroidx/lifecycle/ReportFragment$Companion;->dispatch$lifecycle_runtime_release(Landroid/app/Activity;Landroidx/lifecycle/Lifecycle$Event;)V
+return-void
 .end method
 
 .method public onActivityPreStopped(Landroid/app/Activity;)V
@@ -236,7 +238,8 @@
 
     .line 9
     .line 10
-    invoke-virtual {v0, p1, v1}, Landroidx/lifecycle/ReportFragment$Companion;->dispatch$lifecycle_runtime_release(Landroid/app/Activity;Landroidx/lifecycle/Lifecycle$Event;)V    return-void
+    invoke-virtual {v0, p1, v1}, Landroidx/lifecycle/ReportFragment$Companion;->dispatch$lifecycle_runtime_release(Landroid/app/Activity;Landroidx/lifecycle/Lifecycle$Event;)V
+return-void
 .end method
 
 .method public onActivityResumed(Landroid/app/Activity;)V
@@ -245,8 +248,7 @@
     const-string v0, "activity"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public onActivitySaveInstanceState(Landroid/app/Activity;Landroid/os/Bundle;)V
@@ -259,8 +261,7 @@
     const-string p1, "bundle"
 
     invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public onActivityStarted(Landroid/app/Activity;)V
@@ -269,8 +270,7 @@
     const-string v0, "activity"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public onActivityStopped(Landroid/app/Activity;)V
@@ -279,7 +279,6 @@
     const-string v0, "activity"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 .end class

@@ -39,7 +39,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 
@@ -164,7 +165,6 @@
     check-cast p1, Landroidx/lifecycle/LifecycleOwner;
 
     invoke-virtual {p0, p1}, Landroidx/fragment/app/DialogFragment$4;->onChanged(Landroidx/lifecycle/LifecycleOwner;)V
-
-    return-void
+return-void
 .end method
 .end class

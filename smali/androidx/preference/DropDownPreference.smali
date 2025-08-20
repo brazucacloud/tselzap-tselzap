@@ -25,8 +25,7 @@
 
     .line 1
     invoke-direct {p0, p1, v0}, Landroidx/preference/DropDownPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -44,8 +43,7 @@
     sget v0, Landroidx/preference/R$attr;->dropdownPreferenceStyle:I
 
     invoke-direct {p0, p1, p2, v0}, Landroidx/preference/DropDownPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -63,8 +61,7 @@
 
     .line 3
     invoke-direct {p0, p1, p2, p3, v0}, Landroidx/preference/DropDownPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
@@ -100,8 +97,7 @@
 
     .line 8
     invoke-direct {p0}, Landroidx/preference/DropDownPreference;->updateEntries()V
-
-    return-void
+return-void
 .end method
 
 .method private findSpinnerIndexOfValue(Ljava/lang/String;)I
@@ -270,7 +266,8 @@
     .line 6
     .line 7
     .line 8
-    invoke-direct {v0, v1, v2}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;I)V    return-object v0
+    invoke-direct {v0, v1, v2}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;I)V
+return-object v0
 .end method
 
 .method public notifyChanged()V
@@ -389,7 +386,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/widget/Spinner;->performClick()Z    return-void
+    invoke-virtual {v0}, Landroid/widget/Spinner;->performClick()Z
+return-void
 .end method
 
 .method public setEntries([Ljava/lang/CharSequence;)V
@@ -405,7 +403,8 @@
     .line 2
     .line 3
     .line 4
-    invoke-direct {p0}, Landroidx/preference/DropDownPreference;->updateEntries()V    return-void
+    invoke-direct {p0}, Landroidx/preference/DropDownPreference;->updateEntries()V
+return-void
 .end method
 
 .method public setValueIndex(I)V

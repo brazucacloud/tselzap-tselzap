@@ -111,8 +111,7 @@
     iget-object p1, p0, Landroidx/core/app/JobIntentService$CommandProcessor;->this$0:Landroidx/core/app/JobIntentService;
 
     invoke-virtual {p1}, Landroidx/core/app/JobIntentService;->processorFinished()V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic onPostExecute(Ljava/lang/Object;)V
@@ -133,8 +132,7 @@
     iget-object p1, p0, Landroidx/core/app/JobIntentService$CommandProcessor;->this$0:Landroidx/core/app/JobIntentService;
 
     invoke-virtual {p1}, Landroidx/core/app/JobIntentService;->processorFinished()V
-
-    return-void
+return-void
 .end method
 
 .end class

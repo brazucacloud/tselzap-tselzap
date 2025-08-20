@@ -66,8 +66,7 @@
 
     .line 5
     invoke-virtual {p0, p1}, Landroidx/core/app/NotificationCompat$Style;->setBuilder(Landroidx/core/app/NotificationCompat$Builder;)V
-
-    return-void
+return-void
 .end method
 
 

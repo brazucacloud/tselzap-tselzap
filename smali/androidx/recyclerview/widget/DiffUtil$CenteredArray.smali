@@ -65,7 +65,8 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Ljava/util/Arrays;->fill([II)V    return-void
+    invoke-static {v0, p1}, Ljava/util/Arrays;->fill([II)V
+return-void
 .end method
 
 .method public get(I)I

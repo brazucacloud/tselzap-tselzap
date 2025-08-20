@@ -17,7 +17,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0, p1}, Landroidx/navigation/NavController;-><init>(Landroid/content/Context;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/navigation/NavController;-><init>(Landroid/content/Context;)V
+return-void
 .end method
 
 
@@ -26,7 +27,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/navigation/NavController;->enableOnBackPressed(Z)V    return-void
+    invoke-super {p0, p1}, Landroidx/navigation/NavController;->enableOnBackPressed(Z)V
+return-void
 .end method
 
 .method public final setLifecycleOwner(Landroidx/lifecycle/LifecycleOwner;)V
@@ -42,7 +44,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-super {p0, p1}, Landroidx/navigation/NavController;->setLifecycleOwner(Landroidx/lifecycle/LifecycleOwner;)V    return-void
+    invoke-super {p0, p1}, Landroidx/navigation/NavController;->setLifecycleOwner(Landroidx/lifecycle/LifecycleOwner;)V
+return-void
 .end method
 
 .method public final setOnBackPressedDispatcher(Landroidx/activity/OnBackPressedDispatcher;)V
@@ -58,7 +61,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-super {p0, p1}, Landroidx/navigation/NavController;->setOnBackPressedDispatcher(Landroidx/activity/OnBackPressedDispatcher;)V    return-void
+    invoke-super {p0, p1}, Landroidx/navigation/NavController;->setOnBackPressedDispatcher(Landroidx/activity/OnBackPressedDispatcher;)V
+return-void
 .end method
 
 .method public final setViewModelStore(Landroidx/lifecycle/ViewModelStore;)V

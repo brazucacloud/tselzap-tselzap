@@ -64,8 +64,7 @@
     invoke-direct {v0}, Landroidx/transition/CircularPropagation;-><init>()V
 
     invoke-virtual {p0, v0}, Landroidx/transition/Transition;->setPropagation(Landroidx/transition/TransitionPropagation;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -95,8 +94,7 @@
     invoke-direct {p1}, Landroidx/transition/CircularPropagation;-><init>()V
 
     invoke-virtual {p0, p1}, Landroidx/transition/Transition;->setPropagation(Landroidx/transition/TransitionPropagation;)V
-
-    return-void
+return-void
 .end method
 
 .method private static calculateDistance(FF)F

@@ -88,7 +88,8 @@
 
     .line 14
     .line 15
-    invoke-virtual {v1, v0}, Landroidx/constraintlayout/core/widgets/Guideline;->setGuideBegin(I)V    return-void
+    invoke-virtual {v1, v0}, Landroidx/constraintlayout/core/widgets/Guideline;->setGuideBegin(I)V
+return-void
 
     .line 19
     :cond_0
@@ -104,7 +105,8 @@
 
     .line 24
     .line 25
-    invoke-virtual {v1, v0}, Landroidx/constraintlayout/core/widgets/Guideline;->setGuideEnd(I)V    return-void
+    invoke-virtual {v1, v0}, Landroidx/constraintlayout/core/widgets/Guideline;->setGuideEnd(I)V
+return-void
 
     .line 29
     :cond_1
@@ -116,7 +118,8 @@
 
     .line 32
     .line 33
-    invoke-virtual {v0, v1}, Landroidx/constraintlayout/core/widgets/Guideline;->setGuidePercent(F)V    return-void
+    invoke-virtual {v0, v1}, Landroidx/constraintlayout/core/widgets/Guideline;->setGuidePercent(F)V
+return-void
 .end method
 
 .method public end(Ljava/lang/Object;)Landroidx/constraintlayout/core/state/helpers/GuidelineReference;

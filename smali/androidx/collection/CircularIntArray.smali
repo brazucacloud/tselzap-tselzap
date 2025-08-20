@@ -25,8 +25,7 @@
     const/4 v2, 0x0
 
     invoke-direct {p0, v2, v0, v1}, Landroidx/collection/CircularIntArray;-><init>(IILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -105,8 +104,7 @@
     .line 9
     :cond_0
     invoke-direct {p0, p1}, Landroidx/collection/CircularIntArray;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 .method private final doubleCapacity()V

@@ -75,8 +75,7 @@
 
     .line 9
     invoke-virtual {v1, v0}, Landroidx/recyclerview/widget/AsyncListDiffer;->addListListener(Landroidx/recyclerview/widget/AsyncListDiffer$ListListener;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/recyclerview/widget/DiffUtil$ItemCallback;)V
@@ -125,8 +124,7 @@
 
     .line 5
     invoke-virtual {v1, v0}, Landroidx/recyclerview/widget/AsyncListDiffer;->addListListener(Landroidx/recyclerview/widget/AsyncListDiffer$ListListener;)V
-
-    return-void
+return-void
 .end method
 
 
@@ -257,8 +255,7 @@
     iget-object v0, p0, Landroidx/recyclerview/widget/ListAdapter;->mDiffer:Landroidx/recyclerview/widget/AsyncListDiffer;
 
     invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/AsyncListDiffer;->submitList(Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method public submitList(Ljava/util/List;Ljava/lang/Runnable;)V
@@ -285,7 +282,6 @@
     iget-object v0, p0, Landroidx/recyclerview/widget/ListAdapter;->mDiffer:Landroidx/recyclerview/widget/AsyncListDiffer;
 
     invoke-virtual {v0, p1, p2}, Landroidx/recyclerview/widget/AsyncListDiffer;->submitList(Ljava/util/List;Ljava/lang/Runnable;)V
-
-    return-void
+return-void
 .end method
 .end class

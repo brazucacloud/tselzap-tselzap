@@ -178,7 +178,8 @@
     move-result-object p1
 
     .line 7
-    invoke-virtual {p1}, Landroidx/core/view/ViewPropertyAnimatorCompat;->start()V    return-void
+    invoke-virtual {p1}, Landroidx/core/view/ViewPropertyAnimatorCompat;->start()V
+return-void
 .end method
 
 .method public canShowOverflowMenu()Z
@@ -783,7 +784,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public setVisibility(I)V

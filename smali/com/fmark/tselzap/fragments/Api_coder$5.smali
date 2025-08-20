@@ -56,8 +56,7 @@
     check-cast p1, Lorg/json/JSONObject;
 
     invoke-virtual {p0, p1}, Lcom/fmark/tselzap/fragments/Api_coder$5;->onResponse(Lorg/json/JSONObject;)V
-
-    return-void
+return-void
 .end method
 
 .method public onResponse(Lorg/json/JSONObject;)V

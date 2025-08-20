@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/fragment/app/Fragment;-><init>()V    return-void
+    invoke-direct {p0}, Landroidx/fragment/app/Fragment;-><init>()V
+return-void
 .end method
 
 .method public static final synthetic access$getOnBackPressedCallback$p(Landroidx/preference/PreferenceHeaderFragmentCompat;)Landroidx/activity/OnBackPressedCallback;
@@ -300,7 +301,8 @@
 
     .line 24
     :goto_0
-    invoke-virtual {v0, p0}, Landroidx/activity/OnBackPressedCallback;->setEnabled(Z)V    return-void
+    invoke-virtual {v0, p0}, Landroidx/activity/OnBackPressedCallback;->setEnabled(Z)V
+return-void
 .end method
 
 .method private final openPreferenceHeader(Landroid/content/Intent;)V
@@ -313,8 +315,7 @@
     .line 19
     :cond_0
     invoke-virtual {p0, p1}, Landroidx/fragment/app/Fragment;->startActivity(Landroid/content/Intent;)V
-
-    return-void
+return-void
 .end method
 
 .method private final openPreferenceHeader(Landroidx/preference/Preference;)V
@@ -333,8 +334,7 @@
     move-result-object p1
 
     invoke-direct {p0, p1}, Landroidx/preference/PreferenceHeaderFragmentCompat;->openPreferenceHeader(Landroid/content/Intent;)V
-
-    return-void
+return-void
 
     .line 3
     :cond_0
@@ -898,7 +898,8 @@
     const/4 p2, 0x3
 
     .line 55
-    invoke-virtual {p1, p2}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->setLockMode(I)V    return-object p1
+    invoke-virtual {p1, p2}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->setLockMode(I)V
+return-object p1
 .end method
 
 .method public onPreferenceStartFragment(Landroidx/preference/PreferenceFragmentCompat;Landroidx/preference/Preference;)Z
@@ -1334,7 +1335,8 @@
     .line 107
     .line 108
     .line 109
-    invoke-virtual {p1, p2, v0}, Landroidx/activity/OnBackPressedDispatcher;->addCallback(Landroidx/lifecycle/LifecycleOwner;Landroidx/activity/OnBackPressedCallback;)V    return-void
+    invoke-virtual {p1, p2, v0}, Landroidx/activity/OnBackPressedDispatcher;->addCallback(Landroidx/lifecycle/LifecycleOwner;Landroidx/activity/OnBackPressedCallback;)V
+return-void
 .end method
 
 .method public onViewStateRestored(Landroid/os/Bundle;)V

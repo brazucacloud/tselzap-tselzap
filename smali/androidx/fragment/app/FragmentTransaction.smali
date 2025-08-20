@@ -355,8 +355,7 @@
     iget-boolean p1, p3, Landroidx/fragment/app/FragmentTransaction;->mReorderingAllowed:Z
 
     iput-boolean p1, p0, Landroidx/fragment/app/FragmentTransaction;->mReorderingAllowed:Z
-
-    return-void
+return-void
 .end method
 
 .method private createFragment(Ljava/lang/Class;Landroid/os/Bundle;)Landroidx/fragment/app/Fragment;
@@ -485,8 +484,7 @@
 
     .line 4
     invoke-virtual {p0, p1, p2, v0, v1}, Landroidx/fragment/app/FragmentTransaction;->doAddOp(ILandroidx/fragment/app/Fragment;Ljava/lang/String;I)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public add(ILandroidx/fragment/app/Fragment;Ljava/lang/String;)Landroidx/fragment/app/FragmentTransaction;
@@ -510,8 +508,7 @@
 
     .line 6
     invoke-virtual {p0, p1, p2, p3, v0}, Landroidx/fragment/app/FragmentTransaction;->doAddOp(ILandroidx/fragment/app/Fragment;Ljava/lang/String;I)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public final add(ILjava/lang/Class;Landroid/os/Bundle;)Landroidx/fragment/app/FragmentTransaction;
@@ -652,8 +649,7 @@
 
     .line 2
     invoke-virtual {p0, v0, p1, p2, v1}, Landroidx/fragment/app/FragmentTransaction;->doAddOp(ILandroidx/fragment/app/Fragment;Ljava/lang/String;I)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public final add(Ljava/lang/Class;Landroid/os/Bundle;Ljava/lang/String;)Landroidx/fragment/app/FragmentTransaction;
@@ -1009,7 +1005,8 @@
     .line 5
     .line 6
     .line 7
-    invoke-virtual {p0, v0}, Landroidx/fragment/app/FragmentTransaction;->addOp(Landroidx/fragment/app/FragmentTransaction$Op;)V    return-object p0
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/FragmentTransaction;->addOp(Landroidx/fragment/app/FragmentTransaction$Op;)V
+return-object p0
 .end method
 
 .method public abstract commit()I
@@ -1050,7 +1047,8 @@
     .line 5
     .line 6
     .line 7
-    invoke-virtual {p0, v0}, Landroidx/fragment/app/FragmentTransaction;->addOp(Landroidx/fragment/app/FragmentTransaction$Op;)V    return-object p0
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/FragmentTransaction;->addOp(Landroidx/fragment/app/FragmentTransaction$Op;)V
+return-object p0
 .end method
 
 .method public disallowAddToBackStack()Landroidx/fragment/app/FragmentTransaction;
@@ -1070,7 +1068,8 @@
     const/4 v0, 0x0
 
     .line 6
-    iput-boolean v0, p0, Landroidx/fragment/app/FragmentTransaction;->mAllowAddToBackStack:Z    return-object p0
+    iput-boolean v0, p0, Landroidx/fragment/app/FragmentTransaction;->mAllowAddToBackStack:Z
+return-object p0
 
     .line 9
     :cond_0
@@ -1456,7 +1455,8 @@
     .line 180
     .line 181
     .line 182
-    invoke-virtual {p0, p1}, Landroidx/fragment/app/FragmentTransaction;->addOp(Landroidx/fragment/app/FragmentTransaction$Op;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/fragment/app/FragmentTransaction;->addOp(Landroidx/fragment/app/FragmentTransaction$Op;)V
+return-void
 
     .line 186
     :cond_9
@@ -1536,7 +1536,8 @@
     .line 5
     .line 6
     .line 7
-    invoke-virtual {p0, v0}, Landroidx/fragment/app/FragmentTransaction;->addOp(Landroidx/fragment/app/FragmentTransaction$Op;)V    return-object p0
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/FragmentTransaction;->addOp(Landroidx/fragment/app/FragmentTransaction$Op;)V
+return-object p0
 .end method
 
 .method public isAddToBackStackAllowed()Z
@@ -1586,7 +1587,8 @@
     .line 5
     .line 6
     .line 7
-    invoke-virtual {p0, v0}, Landroidx/fragment/app/FragmentTransaction;->addOp(Landroidx/fragment/app/FragmentTransaction$Op;)V    return-object p0
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/FragmentTransaction;->addOp(Landroidx/fragment/app/FragmentTransaction$Op;)V
+return-object p0
 .end method
 
 .method public replace(ILandroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
@@ -1635,8 +1637,7 @@
 
     .line 4
     invoke-virtual {p0, p1, p2, p3, v0}, Landroidx/fragment/app/FragmentTransaction;->doAddOp(ILandroidx/fragment/app/Fragment;Ljava/lang/String;I)V
-
-    return-object p0
+return-object p0
 
     .line 5
     :cond_0
@@ -1777,7 +1778,8 @@
 
     .line 16
     .line 17
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z    return-object p0
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+return-object p0
 .end method
 
 .method public setAllowOptimization(Z)Landroidx/fragment/app/FragmentTransaction;
@@ -1995,7 +1997,8 @@
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p0, v0}, Landroidx/fragment/app/FragmentTransaction;->addOp(Landroidx/fragment/app/FragmentTransaction$Op;)V    return-object p0
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/FragmentTransaction;->addOp(Landroidx/fragment/app/FragmentTransaction$Op;)V
+return-object p0
 .end method
 
 .method public setPrimaryNavigationFragment(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
@@ -2021,7 +2024,8 @@
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p0, v0}, Landroidx/fragment/app/FragmentTransaction;->addOp(Landroidx/fragment/app/FragmentTransaction$Op;)V    return-object p0
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/FragmentTransaction;->addOp(Landroidx/fragment/app/FragmentTransaction$Op;)V
+return-object p0
 .end method
 
 .method public setReorderingAllowed(Z)Landroidx/fragment/app/FragmentTransaction;
@@ -2030,7 +2034,8 @@
     .end annotation
 
     .line 1
-    iput-boolean p1, p0, Landroidx/fragment/app/FragmentTransaction;->mReorderingAllowed:Z    return-object p0
+    iput-boolean p1, p0, Landroidx/fragment/app/FragmentTransaction;->mReorderingAllowed:Z
+return-object p0
 .end method
 
 .method public setTransition(I)Landroidx/fragment/app/FragmentTransaction;
@@ -2079,6 +2084,7 @@
     .line 5
     .line 6
     .line 7
-    invoke-virtual {p0, v0}, Landroidx/fragment/app/FragmentTransaction;->addOp(Landroidx/fragment/app/FragmentTransaction$Op;)V    return-object p0
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/FragmentTransaction;->addOp(Landroidx/fragment/app/FragmentTransaction$Op;)V
+return-object p0
 .end method
 .end class

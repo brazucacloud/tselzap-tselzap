@@ -37,8 +37,7 @@
     move-result-object v0
 
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/measurement/zzki$zzb;-><init>(Lcom/google/android/gms/internal/measurement/zzki;)V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Lcom/google/android/gms/internal/measurement/zzge;)V
@@ -46,8 +45,7 @@
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzfz$zzd$zza;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -104,8 +102,7 @@
 
     .line 6
     invoke-static {v0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzfz$zzd;->zza(Lcom/google/android/gms/internal/measurement/zzfz$zzd;ILcom/google/android/gms/internal/measurement/zzfz$zzc;)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public final zzb()Lcom/google/android/gms/internal/measurement/zzfz$zzd$zza;

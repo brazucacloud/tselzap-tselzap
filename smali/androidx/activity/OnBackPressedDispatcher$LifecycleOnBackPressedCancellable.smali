@@ -76,7 +76,8 @@
 
     .line 19
     .line 20
-    invoke-virtual {p2, p0}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V    return-void
+    invoke-virtual {p2, p0}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
+return-void
 .end method
 
 
@@ -189,7 +190,8 @@
 
     .line 33
     .line 34
-    invoke-interface {p1}, Landroidx/activity/Cancellable;->cancel()V    return-void
+    invoke-interface {p1}, Landroidx/activity/Cancellable;->cancel()V
+return-void
 
     .line 38
     :cond_1

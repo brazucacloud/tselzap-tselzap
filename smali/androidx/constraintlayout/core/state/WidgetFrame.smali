@@ -243,8 +243,7 @@
 
     .line 70
     invoke-virtual {p0, p1}, Landroidx/constraintlayout/core/state/WidgetFrame;->updateAttributes(Landroidx/constraintlayout/core/state/WidgetFrame;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/constraintlayout/core/widgets/ConstraintWidget;)V
@@ -1328,7 +1327,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, p1, v0, p2}, Landroidx/constraintlayout/core/state/WidgetFrame;->setCustomAttribute(Ljava/lang/String;II)V    return-void
+    invoke-virtual {p0, p1, v0, p2}, Landroidx/constraintlayout/core/state/WidgetFrame;->setCustomAttribute(Ljava/lang/String;II)V
+return-void
 .end method
 
 .method public addCustomFloat(Ljava/lang/String;F)V
@@ -1339,7 +1339,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, p1, v0, p2}, Landroidx/constraintlayout/core/state/WidgetFrame;->setCustomAttribute(Ljava/lang/String;IF)V    return-void
+    invoke-virtual {p0, p1, v0, p2}, Landroidx/constraintlayout/core/state/WidgetFrame;->setCustomAttribute(Ljava/lang/String;IF)V
+return-void
 .end method
 
 .method public centerX()F
@@ -2033,7 +2034,8 @@
     move-result-object p1
 
     .line 126
-    invoke-virtual {v2, p1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V    return-void
+    invoke-virtual {v2, p1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+return-void
 .end method
 
 .method public parseCustom(Landroidx/constraintlayout/core/parser/CLElement;)V

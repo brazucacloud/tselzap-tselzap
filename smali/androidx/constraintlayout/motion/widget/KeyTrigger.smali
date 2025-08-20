@@ -1922,7 +1922,8 @@
     move-result-object p2
 
     .line 7
-    invoke-static {p0, p2, p1}, Landroidx/constraintlayout/motion/widget/KeyTrigger$Loader;->read(Landroidx/constraintlayout/motion/widget/KeyTrigger;Landroid/content/res/TypedArray;Landroid/content/Context;)V    return-void
+    invoke-static {p0, p2, p1}, Landroidx/constraintlayout/motion/widget/KeyTrigger$Loader;->read(Landroidx/constraintlayout/motion/widget/KeyTrigger;Landroid/content/res/TypedArray;Landroid/content/Context;)V
+return-void
 .end method
 
 .method public setValue(Ljava/lang/String;Ljava/lang/Object;)V
@@ -2312,7 +2313,8 @@
     move-result p1
 
     .line 172
-    iput-boolean p1, p0, Landroidx/constraintlayout/motion/widget/KeyTrigger;->mPostLayout:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/motion/widget/KeyTrigger;->mPostLayout:Z
+return-void
 
     .line 175
     :pswitch_2

@@ -73,7 +73,8 @@
 
     .line 13
     :cond_0
-    invoke-direct {v1, v0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V    return-object v1
+    invoke-direct {v1, v0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+return-object v1
 .end method
 
 
@@ -92,7 +93,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/os/Handler;->postAtFrontOfQueue(Ljava/lang/Runnable;)Z    return-void
+    invoke-virtual {v0, p1}, Landroid/os/Handler;->postAtFrontOfQueue(Ljava/lang/Runnable;)Z
+return-void
 .end method
 
 .method public viewCreated(Landroid/view/View;)V

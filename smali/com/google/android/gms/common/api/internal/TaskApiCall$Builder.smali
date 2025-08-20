@@ -234,8 +234,7 @@
     .end annotation
 
     iput-boolean p1, p0, Lcom/google/android/gms/common/api/internal/TaskApiCall$Builder;->zab:Z
-
-    return-object p0
+return-object p0
 .end method
 
 .method public varargs setFeatures([Lcom/google/android/gms/common/Feature;)Lcom/google/android/gms/common/api/internal/TaskApiCall$Builder;

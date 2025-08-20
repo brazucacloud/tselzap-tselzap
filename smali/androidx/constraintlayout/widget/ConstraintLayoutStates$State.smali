@@ -243,7 +243,8 @@
 
     .line 102
     :cond_2
-    invoke-virtual {p2}, Landroid/content/res/TypedArray;->recycle()V    return-void
+    invoke-virtual {p2}, Landroid/content/res/TypedArray;->recycle()V
+return-void
 .end method
 
 
@@ -256,7 +257,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z    return-void
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+return-void
 .end method
 
 .method public findMatch(FF)I

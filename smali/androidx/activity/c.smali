@@ -31,7 +31,6 @@
     iget-object v0, p0, Landroidx/activity/c;->a:Landroidx/activity/ComponentActivity;
 
     invoke-static {v0, p1}, Landroidx/activity/ComponentActivity;->a(Landroidx/activity/ComponentActivity;Landroid/content/Context;)V
-
-    return-void
+return-void
 .end method
 .end class

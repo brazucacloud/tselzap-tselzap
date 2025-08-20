@@ -56,8 +56,7 @@
 
     .line 5
     iput-boolean p1, p0, Landroidx/core/view/DisplayCompat$ModeCompat;->mIsNative:Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/view/Display$Mode;Landroid/graphics/Point;)V
@@ -97,8 +96,7 @@
 
     .line 17
     iput-boolean p1, p0, Landroidx/core/view/DisplayCompat$ModeCompat;->mIsNative:Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/view/Display$Mode;Z)V
@@ -140,8 +138,7 @@
 
     .line 11
     iput-boolean p2, p0, Landroidx/core/view/DisplayCompat$ModeCompat;->mIsNative:Z
-
-    return-void
+return-void
 .end method
 
 

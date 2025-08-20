@@ -29,8 +29,7 @@
     iput p1, p0, LN/v;->b:I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -290,13 +289,11 @@
     packed-switch v0, :pswitch_data_0
 
     invoke-static {p1}, Lcom/fmark/tselzap/fragments/Bot_coder;->e(Lcom/developer/kalert/KAlertDialog;)V
-
-    return-void
+return-void
 
     :pswitch_0
     invoke-virtual {p1}, Lcom/developer/kalert/KAlertDialog;->dismissWithAnimation()V
-
-    return-void
+return-void
 
     nop
 
@@ -320,8 +317,7 @@
 
     .line 1
     invoke-static {p1}, Lcom/google/firebase/crashlytics/FirebaseCrashlytics;->a(Ljava/lang/Exception;)V
-
-    return-void
+return-void
 .end method
 
 .method public translate(Ljava/lang/Object;)Ljava/lang/Object;

@@ -41,8 +41,7 @@
     const/4 p1, 0x1
 
     invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 
@@ -69,7 +68,6 @@
     iget-object v0, p0, Landroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$1;->$listener:Landroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$listener$1;
 
     invoke-interface {p1, v0}, Landroidx/activity/contextaware/ContextAware;->removeOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V
-
-    return-void
+return-void
 .end method
 .end class

@@ -140,8 +140,7 @@
 
     .line 2
     invoke-virtual {p0, v0}, Lcom/android/volley/CacheDispatcher;->processRequest(Lcom/android/volley/Request;)V
-
-    return-void
+return-void
 .end method
 
 
@@ -188,8 +187,7 @@
 
     .line 7
     invoke-virtual {p1, v1}, Lcom/android/volley/Request;->sendEvent(I)V
-
-    return-void
+return-void
 
     :catchall_0
     move-exception v0
@@ -235,8 +233,7 @@
     .line 12
     :cond_1
     invoke-virtual {p1, v1}, Lcom/android/volley/Request;->sendEvent(I)V
-
-    return-void
+return-void
 
     .line 13
     :cond_2
@@ -279,8 +276,7 @@
     .line 19
     :cond_3
     invoke-virtual {p1, v1}, Lcom/android/volley/Request;->sendEvent(I)V
-
-    return-void
+return-void
 
     .line 20
     :cond_4
@@ -353,8 +349,7 @@
     .line 30
     :cond_5
     invoke-virtual {p1, v1}, Lcom/android/volley/Request;->sendEvent(I)V
-
-    return-void
+return-void
 
     .line 31
     :cond_6
@@ -415,8 +410,7 @@
     .line 39
     :goto_0
     invoke-virtual {p1, v1}, Lcom/android/volley/Request;->sendEvent(I)V
-
-    return-void
+return-void
 
     :goto_1
     invoke-virtual {p1, v1}, Lcom/android/volley/Request;->sendEvent(I)V

@@ -26,7 +26,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/concurrent/futures/AbstractResolvableFuture;-><init>()V    return-void
+    invoke-direct {p0}, Landroidx/concurrent/futures/AbstractResolvableFuture;-><init>()V
+return-void
 .end method
 
 .method public static create()Landroidx/concurrent/futures/ResolvableFuture;
@@ -46,7 +47,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/concurrent/futures/ResolvableFuture;-><init>()V    return-object v0
+    invoke-direct {v0}, Landroidx/concurrent/futures/ResolvableFuture;-><init>()V
+return-object v0
 .end method
 
 

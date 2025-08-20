@@ -171,8 +171,7 @@
 
     .line 12
     invoke-virtual {p0}, Lcom/google/android/gms/common/server/response/zan;->zad()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/Class;)V

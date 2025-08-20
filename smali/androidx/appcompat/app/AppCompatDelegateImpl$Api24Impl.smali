@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 .method public static generateConfigDelta_locale(Landroid/content/res/Configuration;Landroid/content/res/Configuration;Landroid/content/res/Configuration;)V
@@ -143,7 +144,8 @@
     move-result-object p0
 
     .line 9
-    invoke-static {p0}, Landroidx/appcompat/app/c;->r(Landroid/os/LocaleList;)V    return-void
+    invoke-static {p0}, Landroidx/appcompat/app/c;->r(Landroid/os/LocaleList;)V
+return-void
 .end method
 
 .method public static setLocales(Landroid/content/res/Configuration;Landroidx/core/os/LocaleListCompat;)V
@@ -168,6 +170,7 @@
     move-result-object p1
 
     .line 9
-    invoke-static {p0, p1}, Landroidx/appcompat/app/c;->o(Landroid/content/res/Configuration;Landroid/os/LocaleList;)V    return-void
+    invoke-static {p0, p1}, Landroidx/appcompat/app/c;->o(Landroid/content/res/Configuration;Landroid/os/LocaleList;)V
+return-void
 .end method
 .end class

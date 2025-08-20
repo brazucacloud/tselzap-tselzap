@@ -30,7 +30,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 
@@ -254,7 +255,8 @@
     const/4 p2, 0x1
 
     .line 9
-    iput-boolean p2, p1, Landroidx/recyclerview/widget/RecyclerView;->mItemsChanged:Z    return-void
+    iput-boolean p2, p1, Landroidx/recyclerview/widget/RecyclerView;->mItemsChanged:Z
+return-void
 .end method
 
 .method public offsetPositionsForAdd(II)V
@@ -277,7 +279,8 @@
     const/4 p2, 0x1
 
     .line 9
-    iput-boolean p2, p1, Landroidx/recyclerview/widget/RecyclerView;->mItemsAddedOrRemoved:Z    return-void
+    iput-boolean p2, p1, Landroidx/recyclerview/widget/RecyclerView;->mItemsAddedOrRemoved:Z
+return-void
 .end method
 
 .method public offsetPositionsForMove(II)V
@@ -300,7 +303,8 @@
     const/4 p2, 0x1
 
     .line 9
-    iput-boolean p2, p1, Landroidx/recyclerview/widget/RecyclerView;->mItemsAddedOrRemoved:Z    return-void
+    iput-boolean p2, p1, Landroidx/recyclerview/widget/RecyclerView;->mItemsAddedOrRemoved:Z
+return-void
 .end method
 
 .method public offsetPositionsForRemovingInvisible(II)V
@@ -364,7 +368,8 @@
     const/4 p2, 0x1
 
     .line 10
-    iput-boolean p2, p1, Landroidx/recyclerview/widget/RecyclerView;->mItemsAddedOrRemoved:Z    return-void
+    iput-boolean p2, p1, Landroidx/recyclerview/widget/RecyclerView;->mItemsAddedOrRemoved:Z
+return-void
 .end method
 
 .method public onDispatchFirstPass(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V

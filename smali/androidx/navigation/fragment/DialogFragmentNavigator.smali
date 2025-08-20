@@ -152,8 +152,7 @@
 
     .line 1
     invoke-static {p0, p1, p2}, Landroidx/navigation/fragment/DialogFragmentNavigator;->onAttach$lambda$1(Landroidx/navigation/fragment/DialogFragmentNavigator;Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;)V
-
-    return-void
+return-void
 .end method
 
 .method public static final synthetic access$getState(Landroidx/navigation/fragment/DialogFragmentNavigator;)Landroidx/navigation/NavigatorState;
@@ -174,7 +173,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Landroidx/navigation/fragment/DialogFragmentNavigator;->popWithTransition(ILandroidx/navigation/NavBackStackEntry;Z)V    return-void
+    invoke-direct {p0, p1, p2, p3}, Landroidx/navigation/fragment/DialogFragmentNavigator;->popWithTransition(ILandroidx/navigation/NavBackStackEntry;Z)V
+return-void
 .end method
 
 .method private final createDialogFragment(Landroidx/navigation/NavBackStackEntry;)Landroidx/fragment/app/DialogFragment;
@@ -800,8 +800,7 @@
     new-instance v0, Landroidx/navigation/fragment/DialogFragmentNavigator$Destination;
 
     invoke-direct {v0, p0}, Landroidx/navigation/fragment/DialogFragmentNavigator$Destination;-><init>(Landroidx/navigation/Navigator;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public final getBackStack$navigation_fragment_release()LC1/A;
@@ -1054,7 +1053,8 @@
     .line 76
     .line 77
     .line 78
-    invoke-virtual {p1, v0}, Landroidx/fragment/app/FragmentManager;->addFragmentOnAttachListener(Landroidx/fragment/app/FragmentOnAttachListener;)V    return-void
+    invoke-virtual {p1, v0}, Landroidx/fragment/app/FragmentManager;->addFragmentOnAttachListener(Landroidx/fragment/app/FragmentOnAttachListener;)V
+return-void
 .end method
 
 .method public onLaunchSingleTop(Landroidx/navigation/NavBackStackEntry;)V
@@ -1227,7 +1227,8 @@
     move-result-object v0
 
     .line 85
-    invoke-virtual {v0, p1}, Landroidx/navigation/NavigatorState;->onLaunchSingleTopWithTransition(Landroidx/navigation/NavBackStackEntry;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/navigation/NavigatorState;->onLaunchSingleTopWithTransition(Landroidx/navigation/NavBackStackEntry;)V
+return-void
 .end method
 
 .method public popBackStack(Landroidx/navigation/NavBackStackEntry;Z)V
@@ -1406,6 +1407,7 @@
 
     .line 88
     :cond_2
-    invoke-direct {p0, v1, p1, p2}, Landroidx/navigation/fragment/DialogFragmentNavigator;->popWithTransition(ILandroidx/navigation/NavBackStackEntry;Z)V    return-void
+    invoke-direct {p0, v1, p1, p2}, Landroidx/navigation/fragment/DialogFragmentNavigator;->popWithTransition(ILandroidx/navigation/NavBackStackEntry;Z)V
+return-void
 .end method
 .end class

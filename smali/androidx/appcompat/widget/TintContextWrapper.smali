@@ -115,7 +115,8 @@
     move-result-object p1
 
     .line 31
-    invoke-virtual {v0, p1}, Landroid/content/res/Resources$Theme;->setTo(Landroid/content/res/Resources$Theme;)V    return-void
+    invoke-virtual {v0, p1}, Landroid/content/res/Resources$Theme;->setTo(Landroid/content/res/Resources$Theme;)V
+return-void
 
     .line 35
     :cond_0
@@ -551,13 +552,15 @@
 
     .line 4
     .line 5
-    invoke-super {p0, p1}, Landroid/content/ContextWrapper;->setTheme(I)V    return-void
+    invoke-super {p0, p1}, Landroid/content/ContextWrapper;->setTheme(I)V
+return-void
 
     .line 9
     :cond_0
     const/4 v1, 0x1
 
     .line 10
-    invoke-virtual {v0, p1, v1}, Landroid/content/res/Resources$Theme;->applyStyle(IZ)V    return-void
+    invoke-virtual {v0, p1, v1}, Landroid/content/res/Resources$Theme;->applyStyle(IZ)V
+return-void
 .end method
 .end class

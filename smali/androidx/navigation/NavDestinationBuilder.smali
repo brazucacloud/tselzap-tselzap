@@ -101,8 +101,7 @@
 
     .line 8
     invoke-direct {p0, p1, p2, v0}, Landroidx/navigation/NavDestinationBuilder;-><init>(Landroidx/navigation/Navigator;ILjava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/navigation/Navigator;ILjava/lang/String;)V
@@ -181,8 +180,7 @@
 
     .line 9
     invoke-direct {p0, p1, v0, p2}, Landroidx/navigation/NavDestinationBuilder;-><init>(Landroidx/navigation/Navigator;ILjava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/navigation/Navigator;Lv1/c;Ljava/util/Map;)V
@@ -914,8 +912,7 @@
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/navigation/NavDestinationBuilder;->deepLink(Landroidx/navigation/NavDeepLink;)V
-
-    return-void
+return-void
 
     :cond_2
     invoke-static {v4}, Lkotlin/jvm/internal/j;->l(Ljava/lang/String;)V

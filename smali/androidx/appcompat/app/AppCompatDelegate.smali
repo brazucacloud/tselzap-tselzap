@@ -175,7 +175,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 .method public static synthetic a(Landroid/content/Context;)V
@@ -183,8 +184,7 @@
 
     .line 1
     invoke-static {p0}, Landroidx/appcompat/app/AppCompatDelegate;->lambda$syncRequestedAndStoredLocales$1(Landroid/content/Context;)V
-
-    return-void
+return-void
 .end method
 
 .method public static addActiveDelegate(Landroidx/appcompat/app/AppCompatDelegate;)V
@@ -412,8 +412,7 @@
 
     .line 1
     invoke-static {p0}, Landroidx/appcompat/app/AppCompatDelegate;->lambda$asyncExecuteSyncRequestedAndStoredLocales$0(Landroid/content/Context;)V
-
-    return-void
+return-void
 .end method
 
 .method public static create(Landroid/app/Activity;Landroidx/appcompat/app/AppCompatCallback;)Landroidx/appcompat/app/AppCompatDelegate;
@@ -433,8 +432,7 @@
     new-instance v0, Landroidx/appcompat/app/AppCompatDelegateImpl;
 
     invoke-direct {v0, p0, p1}, Landroidx/appcompat/app/AppCompatDelegateImpl;-><init>(Landroid/app/Activity;Landroidx/appcompat/app/AppCompatCallback;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static create(Landroid/app/Dialog;Landroidx/appcompat/app/AppCompatCallback;)Landroidx/appcompat/app/AppCompatDelegate;
@@ -454,8 +452,7 @@
     new-instance v0, Landroidx/appcompat/app/AppCompatDelegateImpl;
 
     invoke-direct {v0, p0, p1}, Landroidx/appcompat/app/AppCompatDelegateImpl;-><init>(Landroid/app/Dialog;Landroidx/appcompat/app/AppCompatCallback;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static create(Landroid/content/Context;Landroid/app/Activity;Landroidx/appcompat/app/AppCompatCallback;)Landroidx/appcompat/app/AppCompatDelegate;
@@ -479,8 +476,7 @@
     new-instance v0, Landroidx/appcompat/app/AppCompatDelegateImpl;
 
     invoke-direct {v0, p0, p1, p2}, Landroidx/appcompat/app/AppCompatDelegateImpl;-><init>(Landroid/content/Context;Landroid/app/Activity;Landroidx/appcompat/app/AppCompatCallback;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static create(Landroid/content/Context;Landroid/view/Window;Landroidx/appcompat/app/AppCompatCallback;)Landroidx/appcompat/app/AppCompatDelegate;
@@ -504,8 +500,7 @@
     new-instance v0, Landroidx/appcompat/app/AppCompatDelegateImpl;
 
     invoke-direct {v0, p0, p1, p2}, Landroidx/appcompat/app/AppCompatDelegateImpl;-><init>(Landroid/content/Context;Landroid/view/Window;Landroidx/appcompat/app/AppCompatCallback;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static getApplicationLocales()Landroidx/core/os/LocaleListCompat;
@@ -809,7 +804,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/appcompat/app/AppCompatDelegate;->syncRequestedAndStoredLocales(Landroid/content/Context;)V    return-void
+    invoke-static {p0}, Landroidx/appcompat/app/AppCompatDelegate;->syncRequestedAndStoredLocales(Landroid/content/Context;)V
+return-void
 .end method
 
 .method private static synthetic lambda$syncRequestedAndStoredLocales$1(Landroid/content/Context;)V
@@ -1037,7 +1033,8 @@
     move-result-object p0
 
     .line 24
-    invoke-static {v0, p0}, Landroidx/appcompat/app/AppCompatDelegate$Api33Impl;->localeManagerSetApplicationLocales(Ljava/lang/Object;Landroid/os/LocaleList;)V    return-void
+    invoke-static {v0, p0}, Landroidx/appcompat/app/AppCompatDelegate$Api33Impl;->localeManagerSetApplicationLocales(Ljava/lang/Object;Landroid/os/LocaleList;)V
+return-void
 
     .line 28
     :cond_0
@@ -1560,7 +1557,8 @@
     .line 7
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Landroidx/appcompat/app/AppCompatDelegate$SerialExecutor;->execute(Ljava/lang/Runnable;)V    return-void
+    invoke-virtual {v0, v1}, Landroidx/appcompat/app/AppCompatDelegate$SerialExecutor;->execute(Ljava/lang/Runnable;)V
+return-void
 .end method
 
 .method public attachBaseContext(Landroid/content/Context;)V
@@ -1584,7 +1582,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatDelegate;->attachBaseContext(Landroid/content/Context;)V    return-object p1
+    invoke-virtual {p0, p1}, Landroidx/appcompat/app/AppCompatDelegate;->attachBaseContext(Landroid/content/Context;)V
+return-object p1
 .end method
 
 .method public abstract createView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;

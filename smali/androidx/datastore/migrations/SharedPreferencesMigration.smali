@@ -115,8 +115,7 @@
 
     .line 24
     invoke-direct/range {v1 .. v7}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Lp1/a;Ljava/util/Set;Lp1/p;Lp1/q;Landroid/content/Context;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Landroid/content/Context;Ljava/lang/String;Ljava/util/Set;Lp1/p;Lp1/q;ILkotlin/jvm/internal/e;)V
@@ -158,8 +157,7 @@
 
     .line 22
     invoke-direct/range {v0 .. v5}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/util/Set;Lp1/p;Lp1/q;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;Ljava/util/Set;Lp1/q;)V
@@ -211,8 +209,7 @@
     move-object v6, p4
 
     invoke-direct/range {v1 .. v8}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/util/Set;Lp1/p;Lp1/q;ILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Ljava/lang/String;Lp1/q;)V
@@ -257,8 +254,7 @@
     move-object v6, p3
 
     invoke-direct/range {v1 .. v8}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Landroid/content/Context;Ljava/lang/String;Ljava/util/Set;Lp1/p;Lp1/q;ILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Lp1/a;Ljava/util/Set;Lp1/p;Lp1/q;)V
@@ -308,8 +304,7 @@
 
     .line 19
     invoke-direct/range {v1 .. v7}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Lp1/a;Ljava/util/Set;Lp1/p;Lp1/q;Landroid/content/Context;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Lp1/a;Ljava/util/Set;Lp1/p;Lp1/q;ILkotlin/jvm/internal/e;)V
@@ -339,8 +334,7 @@
     .line 18
     :cond_1
     invoke-direct {p0, p1, p2, p3, p4}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Lp1/a;Ljava/util/Set;Lp1/p;Lp1/q;)V
-
-    return-void
+return-void
 .end method
 
 .method private constructor <init>(Lp1/a;Ljava/util/Set;Lp1/p;Lp1/q;Landroid/content/Context;Ljava/lang/String;)V
@@ -437,8 +431,7 @@
 
     .line 15
     invoke-direct/range {v0 .. v6}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Lp1/a;Ljava/util/Set;Lp1/p;Lp1/q;Landroid/content/Context;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Lp1/a;Ljava/util/Set;Lp1/q;)V
@@ -483,8 +476,7 @@
     move-object v5, p3
 
     invoke-direct/range {v1 .. v7}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Lp1/a;Ljava/util/Set;Lp1/p;Lp1/q;ILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Lp1/a;Lp1/q;)V
@@ -522,8 +514,7 @@
     move-object v5, p2
 
     invoke-direct/range {v1 .. v7}, Landroidx/datastore/migrations/SharedPreferencesMigration;-><init>(Lp1/a;Ljava/util/Set;Lp1/p;Lp1/q;ILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method private final deleteSharedPreferences(Landroid/content/Context;Ljava/lang/String;)V

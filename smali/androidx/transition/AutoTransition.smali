@@ -12,8 +12,7 @@
 
     .line 2
     invoke-direct {p0}, Landroidx/transition/AutoTransition;->init()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -32,8 +31,7 @@
 
     .line 4
     invoke-direct {p0}, Landroidx/transition/AutoTransition;->init()V
-
-    return-void
+return-void
 .end method
 
 .method private init()V

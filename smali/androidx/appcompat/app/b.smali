@@ -37,7 +37,6 @@
     iget-object v1, p0, Landroidx/appcompat/app/b;->c:Ljava/lang/Runnable;
 
     invoke-static {v0, v1}, Landroidx/appcompat/app/AppCompatDelegate$SerialExecutor;->a(Landroidx/appcompat/app/AppCompatDelegate$SerialExecutor;Ljava/lang/Runnable;)V
-
-    return-void
+return-void
 .end method
 .end class

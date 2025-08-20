@@ -108,8 +108,7 @@
 
     .line 1
     invoke-direct/range {p0 .. p5}, Lcom/android/volley/AsyncRequestQueue;-><init>(Lcom/android/volley/Cache;Lcom/android/volley/AsyncNetwork;Lcom/android/volley/AsyncCache;Lcom/android/volley/ResponseDelivery;Lcom/android/volley/AsyncRequestQueue$ExecutorFactory;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic access$000(Lcom/android/volley/AsyncRequestQueue;)V

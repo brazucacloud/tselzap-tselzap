@@ -101,8 +101,7 @@
 
     .line 4
     invoke-direct {v0, p1, p0, p2}, Lcom/google/android/gms/common/api/internal/ListenerHolder;-><init>(Landroid/os/Looper;Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static createListenerHolder(Ljava/lang/Object;Ljava/util/concurrent/Executor;Ljava/lang/String;)Lcom/google/android/gms/common/api/internal/ListenerHolder;
@@ -160,8 +159,7 @@
 
     .line 8
     invoke-direct {v0, p1, p0, p2}, Lcom/google/android/gms/common/api/internal/ListenerHolder;-><init>(Ljava/util/concurrent/Executor;Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static createListenerKey(Ljava/lang/Object;Ljava/lang/String;)Lcom/google/android/gms/common/api/internal/ListenerHolder$ListenerKey;

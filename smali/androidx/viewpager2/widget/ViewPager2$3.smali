@@ -27,7 +27,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/viewpager2/widget/ViewPager2$OnPageChangeCallback;-><init>()V    return-void
+    invoke-direct {p0}, Landroidx/viewpager2/widget/ViewPager2$OnPageChangeCallback;-><init>()V
+return-void
 .end method
 
 

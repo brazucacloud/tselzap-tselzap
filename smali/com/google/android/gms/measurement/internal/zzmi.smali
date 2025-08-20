@@ -64,8 +64,7 @@
 
     .line 9
     invoke-virtual {p0}, Ljava/io/ObjectInputStream;->close()V
-
-    return-object v1
+return-object v1
 
     :catchall_0
     move-exception v1

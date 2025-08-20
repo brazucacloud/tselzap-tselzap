@@ -109,8 +109,7 @@
 
     .line 13
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-
-    return-void
+return-void
 
     :catchall_0
     move-exception p2
@@ -164,8 +163,7 @@
 
     .line 20
     invoke-virtual {p0, p1}, Landroidx/transition/PatternPathMotion;->setPatternPath(Landroid/graphics/Path;)V
-
-    return-void
+return-void
 .end method
 
 .method private static distance(FF)F
@@ -290,7 +288,8 @@
 
     .line 41
     .line 42
-    invoke-virtual {p2, p3, p1}, Landroid/graphics/Path;->transform(Landroid/graphics/Matrix;Landroid/graphics/Path;)V    return-object p1
+    invoke-virtual {p2, p3, p1}, Landroid/graphics/Path;->transform(Landroid/graphics/Matrix;Landroid/graphics/Path;)V
+return-object p1
 .end method
 
 .method public getPatternPath()Landroid/graphics/Path;

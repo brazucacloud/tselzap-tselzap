@@ -87,8 +87,7 @@
 
     .line 7
     invoke-direct {p0, p1, v0}, Landroidx/customview/view/AbsSavedState;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
@@ -167,8 +166,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/customview/view/AbsSavedState;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -198,6 +196,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1, v0, p2}, Landroid/os/Parcel;->writeParcelable(Landroid/os/Parcelable;I)V    return-void
+    invoke-virtual {p1, v0, p2}, Landroid/os/Parcel;->writeParcelable(Landroid/os/Parcelable;I)V
+return-void
 .end method
 .end class

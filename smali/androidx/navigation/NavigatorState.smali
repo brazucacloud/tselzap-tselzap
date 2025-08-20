@@ -316,7 +316,8 @@
 
     .line 69
     .line 70
-    invoke-virtual {v0, v2}, LC1/C;->h(Ljava/lang/Object;)V    return-void
+    invoke-virtual {v0, v2}, LC1/C;->h(Ljava/lang/Object;)V
+return-void
 .end method
 
 .method public onLaunchSingleTop(Landroidx/navigation/NavBackStackEntry;)V
@@ -480,7 +481,8 @@
     .line 73
     .line 74
     .line 75
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V    return-void
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
+return-void
 
     .line 79
     :goto_1
@@ -632,7 +634,8 @@
     .line 67
     .line 68
     .line 69
-    invoke-virtual {p0, p1}, Landroidx/navigation/NavigatorState;->onLaunchSingleTop(Landroidx/navigation/NavBackStackEntry;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/navigation/NavigatorState;->onLaunchSingleTop(Landroidx/navigation/NavBackStackEntry;)V
+return-void
 
     .line 73
     :cond_1
@@ -786,7 +789,8 @@
     .line 60
     .line 61
     .line 62
-    invoke-interface {p2}, Ljava/util/concurrent/locks/Lock;->unlock()V    return-void
+    invoke-interface {p2}, Ljava/util/concurrent/locks/Lock;->unlock()V
+return-void
 
     .line 66
     :goto_2
@@ -1199,7 +1203,8 @@
     .line 190
     .line 191
     :cond_8
-    invoke-virtual {p0, p1, p2}, Landroidx/navigation/NavigatorState;->pop(Landroidx/navigation/NavBackStackEntry;Z)V    return-void
+    invoke-virtual {p0, p1, p2}, Landroidx/navigation/NavigatorState;->pop(Landroidx/navigation/NavBackStackEntry;Z)V
+return-void
 .end method
 
 .method public prepareForTransition(Landroidx/navigation/NavBackStackEntry;)V
@@ -1245,7 +1250,8 @@
     move-result-object p1
 
     .line 20
-    invoke-virtual {v0, p1}, LC1/C;->h(Ljava/lang/Object;)V    return-void
+    invoke-virtual {v0, p1}, LC1/C;->h(Ljava/lang/Object;)V
+return-void
 .end method
 
 .method public push(Landroidx/navigation/NavBackStackEntry;)V
@@ -1313,7 +1319,8 @@
     .line 29
     .line 30
     .line 31
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V    return-void
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
+return-void
 
     .line 35
     :catchall_0
@@ -1612,7 +1619,8 @@
     .line 137
     .line 138
     .line 139
-    invoke-virtual {p0, p1}, Landroidx/navigation/NavigatorState;->push(Landroidx/navigation/NavBackStackEntry;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/navigation/NavigatorState;->push(Landroidx/navigation/NavBackStackEntry;)V
+return-void
 .end method
 
 .method public final setNavigating(Z)V
@@ -1624,6 +1632,7 @@
     .end annotation
 
     .line 1
-    iput-boolean p1, p0, Landroidx/navigation/NavigatorState;->isNavigating:Z    return-void
+    iput-boolean p1, p0, Landroidx/navigation/NavigatorState;->isNavigating:Z
+return-void
 .end method
 .end class

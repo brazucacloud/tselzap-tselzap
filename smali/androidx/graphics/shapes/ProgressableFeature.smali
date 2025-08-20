@@ -87,8 +87,7 @@
     new-instance v0, Landroidx/graphics/shapes/ProgressableFeature;
 
     invoke-direct {v0, p1, p2}, Landroidx/graphics/shapes/ProgressableFeature;-><init>(FLandroidx/graphics/shapes/Feature;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public equals(Ljava/lang/Object;)Z

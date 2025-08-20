@@ -142,7 +142,8 @@
     const/4 v0, 0x1
 
     .line 19
-    iput-boolean v0, p1, Landroidx/fragment/app/Fragment;->mAdded:Z    return-void
+    iput-boolean v0, p1, Landroidx/fragment/app/Fragment;->mAdded:Z
+return-void
 
     .line 22
     :catchall_0
@@ -2076,7 +2077,8 @@
     const/4 v0, 0x0
 
     .line 11
-    iput-boolean v0, p1, Landroidx/fragment/app/Fragment;->mAdded:Z    return-void
+    iput-boolean v0, p1, Landroidx/fragment/app/Fragment;->mAdded:Z
+return-void
 
     .line 14
     :catchall_0
@@ -2099,7 +2101,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/HashMap;->clear()V    return-void
+    invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
+return-void
 .end method
 
 .method public restoreAddedFragments(Ljava/util/List;)V
@@ -2312,7 +2315,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V    return-void
+    invoke-virtual {v0, p1}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
+return-void
 .end method
 
 .method public saveActiveFragments()Ljava/util/ArrayList;

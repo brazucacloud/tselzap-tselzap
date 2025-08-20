@@ -39,8 +39,7 @@
     const/4 v2, 0x0
 
     invoke-direct {p0, v2, v0, v1}, Landroidx/collection/MutableScatterMap;-><init>(IILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -59,8 +58,7 @@
     move-result p1
 
     invoke-direct {p0, p1}, Landroidx/collection/MutableScatterMap;->initializeStorage(I)V
-
-    return-void
+return-void
 
     .line 5
     :cond_0
@@ -85,8 +83,7 @@
     .line 2
     :cond_0
     invoke-direct {p0, p1}, Landroidx/collection/MutableScatterMap;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 .method private final adjustStorage()V
@@ -157,7 +154,8 @@
 
     .line 30
     .line 31
-    invoke-direct {p0, v0}, Landroidx/collection/MutableScatterMap;->resizeStorage(I)V    return-void
+    invoke-direct {p0, v0}, Landroidx/collection/MutableScatterMap;->resizeStorage(I)V
+return-void
 
     .line 35
     :cond_0
@@ -173,7 +171,8 @@
     move-result v0
 
     .line 41
-    invoke-direct {p0, v0}, Landroidx/collection/MutableScatterMap;->resizeStorage(I)V    return-void
+    invoke-direct {p0, v0}, Landroidx/collection/MutableScatterMap;->resizeStorage(I)V
+return-void
 .end method
 
 .method private final findFirstAvailableSlot(I)I
@@ -424,7 +423,8 @@
 
     .line 34
     .line 35
-    invoke-direct {p0}, Landroidx/collection/MutableScatterMap;->initializeGrowth()V    return-void
+    invoke-direct {p0}, Landroidx/collection/MutableScatterMap;->initializeGrowth()V
+return-void
 .end method
 
 .method private final initializeStorage(I)V
@@ -1053,7 +1053,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/collection/MutableScatterMap$MutableMapWrapper;-><init>(Landroidx/collection/MutableScatterMap;)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/collection/MutableScatterMap$MutableMapWrapper;-><init>(Landroidx/collection/MutableScatterMap;)V
+return-object v0
 .end method
 
 .method public final clear()V
@@ -1155,7 +1156,8 @@
     .line 45
     .line 46
     .line 47
-    invoke-direct {p0}, Landroidx/collection/MutableScatterMap;->initializeGrowth()V    return-void
+    invoke-direct {p0}, Landroidx/collection/MutableScatterMap;->initializeGrowth()V
+return-void
 .end method
 
 .method public final compute(Ljava/lang/Object;Lp1/p;)Ljava/lang/Object;
@@ -1816,7 +1818,8 @@
     move-result-object p2
 
     .line 16
-    invoke-virtual {p0, p1, p2}, Landroidx/collection/MutableScatterMap;->set(Ljava/lang/Object;Ljava/lang/Object;)V    return-object p2
+    invoke-virtual {p0, p1, p2}, Landroidx/collection/MutableScatterMap;->set(Ljava/lang/Object;Ljava/lang/Object;)V
+return-object p2
 
     .line 20
     :cond_0
@@ -2110,8 +2113,7 @@
 
     .line 6
     invoke-virtual {p0, p1}, Landroidx/collection/MutableScatterMap;->putAll(Landroidx/collection/ScatterMap;)V
-
-    return-void
+return-void
 .end method
 
 .method public final plusAssign(Lc1/f;)V
@@ -2134,8 +2136,7 @@
     iget-object p1, p1, Lc1/f;->c:Ljava/lang/Object;
 
     invoke-virtual {p0, v0, p1}, Landroidx/collection/MutableScatterMap;->set(Ljava/lang/Object;Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public final plusAssign(Ljava/lang/Iterable;)V
@@ -2156,8 +2157,7 @@
 
     .line 3
     invoke-virtual {p0, p1}, Landroidx/collection/MutableScatterMap;->putAll(Ljava/lang/Iterable;)V
-
-    return-void
+return-void
 .end method
 
 .method public final plusAssign(Ljava/util/Map;)V
@@ -2176,8 +2176,7 @@
 
     .line 5
     invoke-virtual {p0, p1}, Landroidx/collection/MutableScatterMap;->putAll(Ljava/util/Map;)V
-
-    return-void
+return-void
 .end method
 
 .method public final plusAssign(Lw1/h;)V
@@ -2196,8 +2195,7 @@
 
     .line 4
     invoke-virtual {p0, p1}, Landroidx/collection/MutableScatterMap;->putAll(Lw1/h;)V
-
-    return-void
+return-void
 .end method
 
 .method public final plusAssign([Lc1/f;)V
@@ -2216,8 +2214,7 @@
 
     .line 2
     invoke-virtual {p0, p1}, Landroidx/collection/MutableScatterMap;->putAll([Lc1/f;)V
-
-    return-void
+return-void
 .end method
 
 .method public final put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;

@@ -91,7 +91,8 @@
 
     .line 30
     .line 31
-    invoke-direct {p0}, Landroidx/transition/ChangeTransform$PathAnimatorMatrix;->setAnimationMatrix()V    return-void
+    invoke-direct {p0}, Landroidx/transition/ChangeTransform$PathAnimatorMatrix;->setAnimationMatrix()V
+return-void
 .end method
 
 .method private setAnimationMatrix()V
@@ -173,7 +174,8 @@
 
     .line 8
     .line 9
-    invoke-direct {p0}, Landroidx/transition/ChangeTransform$PathAnimatorMatrix;->setAnimationMatrix()V    return-void
+    invoke-direct {p0}, Landroidx/transition/ChangeTransform$PathAnimatorMatrix;->setAnimationMatrix()V
+return-void
 .end method
 
 .method public setValues([F)V
@@ -195,6 +197,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-direct {p0}, Landroidx/transition/ChangeTransform$PathAnimatorMatrix;->setAnimationMatrix()V    return-void
+    invoke-direct {p0}, Landroidx/transition/ChangeTransform$PathAnimatorMatrix;->setAnimationMatrix()V
+return-void
 .end method
 .end class

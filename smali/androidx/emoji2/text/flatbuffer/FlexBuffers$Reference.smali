@@ -86,8 +86,7 @@
 
     .line 1
     invoke-direct/range {v2 .. v7}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;-><init>(Landroidx/emoji2/text/flatbuffer/ReadBuf;IIII)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/emoji2/text/flatbuffer/ReadBuf;IIII)V

@@ -106,8 +106,7 @@
     const-string p0, "messageFactory"
 
     invoke-static {p1, p0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public static final directionVector(F)J

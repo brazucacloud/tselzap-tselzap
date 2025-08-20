@@ -56,8 +56,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->lambda$onProviderEnabled$4(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic b(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;Ljava/lang/String;ILandroid/os/Bundle;)V
@@ -65,8 +64,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2, p3}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->lambda$onStatusChanged$3(Ljava/lang/String;ILandroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic c(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;Landroid/location/Location;)V
@@ -74,8 +72,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->lambda$onLocationChanged$0(Landroid/location/Location;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic d(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;Ljava/util/List;)V
@@ -83,8 +80,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->lambda$onLocationChanged$1(Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic e(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;Ljava/lang/String;)V
@@ -92,8 +88,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->lambda$onProviderDisabled$5(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic f(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;I)V
@@ -101,8 +96,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->lambda$onFlushComplete$2(I)V
-
-    return-void
+return-void
 .end method
 
 .method private synthetic lambda$onFlushComplete$2(I)V
@@ -360,8 +354,7 @@
     invoke-direct {v1, p0, p1, v2}, Landroidx/core/location/k;-><init>(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;Ljava/lang/Object;I)V
 
     invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
-
-    return-void
+return-void
 .end method
 
 .method public onLocationChanged(Ljava/util/List;)V
@@ -397,8 +390,7 @@
     invoke-direct {v1, p0, p1, v2}, Landroidx/core/location/k;-><init>(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;Ljava/lang/Object;I)V
 
     invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
-
-    return-void
+return-void
 .end method
 
 .method public onProviderDisabled(Ljava/lang/String;)V

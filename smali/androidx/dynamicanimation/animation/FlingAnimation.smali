@@ -202,7 +202,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->setFrictionScalar(F)V    return-object p0
+    invoke-virtual {v0, p1}, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->setFrictionScalar(F)V
+return-object p0
 
     .line 12
     :cond_0

@@ -113,11 +113,13 @@
     .line 47
     .line 48
     .line 49
-    invoke-virtual {p0}, Landroidx/lifecycle/LifecycleController;->finish()V    return-void
+    invoke-virtual {p0}, Landroidx/lifecycle/LifecycleController;->finish()V
+return-void
 
     .line 53
     :cond_0
-    invoke-virtual {p1, p2}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V    return-void
+    invoke-virtual {p1, p2}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
+return-void
 .end method
 
 .method public static synthetic a(Landroidx/lifecycle/LifecycleController;Lz1/V;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
@@ -141,7 +143,8 @@
     .line 3
     .line 4
     .line 5
-    invoke-virtual {p0}, Landroidx/lifecycle/LifecycleController;->finish()V    return-void
+    invoke-virtual {p0}, Landroidx/lifecycle/LifecycleController;->finish()V
+return-void
 .end method
 
 .method private static final observer$lambda$0(Landroidx/lifecycle/LifecycleController;Lz1/V;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
@@ -216,7 +219,8 @@
     .line 35
     .line 36
     .line 37
-    invoke-virtual {p0}, Landroidx/lifecycle/LifecycleController;->finish()V    return-void
+    invoke-virtual {p0}, Landroidx/lifecycle/LifecycleController;->finish()V
+return-void
 
     .line 41
     :cond_0
@@ -256,7 +260,8 @@
 
     .line 58
     .line 59
-    invoke-virtual {p0}, Landroidx/lifecycle/DispatchQueue;->pause()V    return-void
+    invoke-virtual {p0}, Landroidx/lifecycle/DispatchQueue;->pause()V
+return-void
 
     .line 63
     :cond_1
@@ -264,7 +269,8 @@
 
     .line 64
     .line 65
-    invoke-virtual {p0}, Landroidx/lifecycle/DispatchQueue;->resume()V    return-void
+    invoke-virtual {p0}, Landroidx/lifecycle/DispatchQueue;->resume()V
+return-void
 .end method
 
 
@@ -292,6 +298,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {v0}, Landroidx/lifecycle/DispatchQueue;->finish()V    return-void
+    invoke-virtual {v0}, Landroidx/lifecycle/DispatchQueue;->finish()V
+return-void
 .end method
 .end class

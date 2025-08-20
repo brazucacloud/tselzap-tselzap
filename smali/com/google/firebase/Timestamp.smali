@@ -122,8 +122,7 @@
     move-result p1
 
     invoke-direct {p0, v0, v1, p1}, Lcom/google/firebase/Timestamp;-><init>(JI)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/util/Date;)V

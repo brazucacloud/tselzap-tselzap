@@ -1339,7 +1339,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/transition/TransitionInflater;-><init>(Landroid/content/Context;)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/transition/TransitionInflater;-><init>(Landroid/content/Context;)V
+return-object v0
 .end method
 
 .method private getTargetIds(Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroidx/transition/Transition;)V
@@ -1905,7 +1906,8 @@
     .line 83
     :cond_4
     :goto_2
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V    return-void
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
+return-void
 .end method
 
 
@@ -1960,7 +1962,8 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 20
-    invoke-interface {p1}, Landroid/content/res/XmlResourceParser;->close()V    return-object v0
+    invoke-interface {p1}, Landroid/content/res/XmlResourceParser;->close()V
+return-object v0
 
     .line 24
     :catchall_0
@@ -2132,7 +2135,8 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 19
-    invoke-interface {p1}, Landroid/content/res/XmlResourceParser;->close()V    return-object p2
+    invoke-interface {p1}, Landroid/content/res/XmlResourceParser;->close()V
+return-object p2
 
     .line 23
     :catchall_0

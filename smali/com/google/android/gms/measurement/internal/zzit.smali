@@ -53,8 +53,7 @@
     iget-object v4, p0, Lcom/google/android/gms/measurement/internal/zzit;->zze:Ljava/lang/String;
 
     invoke-static {v0, v1, v2, v3, v4}, Lcom/google/android/gms/measurement/internal/zzir;->zza(Lcom/google/android/gms/measurement/internal/zzir;Lcom/google/android/gms/measurement/internal/zzq;Landroid/os/Bundle;Lcom/google/android/gms/measurement/internal/zzgl;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .end class

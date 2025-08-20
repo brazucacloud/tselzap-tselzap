@@ -92,8 +92,7 @@
 
     .line 10
     invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridEngine;->initVariables()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(III)V
@@ -160,8 +159,7 @@
 
     .line 22
     invoke-direct {p0, v0}, Landroidx/constraintlayout/core/utils/GridEngine;->fillConstraintMatrix(Z)V
-
-    return-void
+return-void
 .end method
 
 .method private addAllConstraintPositions()V
@@ -549,7 +547,8 @@
     .line 105
     .line 106
     :cond_5
-    invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridEngine;->addAllConstraintPositions()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridEngine;->addAllConstraintPositions()V
+return-void
 .end method
 
 .method private getColByIndex(I)I
@@ -1697,7 +1696,8 @@
 
     .line 12
     .line 13
-    invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridEngine;->updateActualRowsAndColumns()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridEngine;->updateActualRowsAndColumns()V
+return-void
 .end method
 
 .method public setNumWidgets(I)V
@@ -1791,7 +1791,8 @@
 
     .line 12
     .line 13
-    invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridEngine;->updateActualRowsAndColumns()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridEngine;->updateActualRowsAndColumns()V
+return-void
 .end method
 
 .method public setSkips(Ljava/lang/String;)V
@@ -1943,7 +1944,8 @@
     .line 33
     .line 34
     :cond_2
-    invoke-direct {p0, v1}, Landroidx/constraintlayout/core/utils/GridEngine;->fillConstraintMatrix(Z)V    return-void
+    invoke-direct {p0, v1}, Landroidx/constraintlayout/core/utils/GridEngine;->fillConstraintMatrix(Z)V
+return-void
 .end method
 
 .method public topOfWidget(I)I

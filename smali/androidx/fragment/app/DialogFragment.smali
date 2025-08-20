@@ -134,8 +134,7 @@
 
     .line 11
     iput-boolean v0, p0, Landroidx/fragment/app/DialogFragment;->mDialogCreated:Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -199,8 +198,7 @@
 
     .line 22
     iput-boolean p1, p0, Landroidx/fragment/app/DialogFragment;->mDialogCreated:Z
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic access$000(Landroidx/fragment/app/DialogFragment;)Landroid/app/Dialog;
@@ -423,7 +421,8 @@
 
     .line 98
     .line 99
-    invoke-virtual {p2}, Landroidx/fragment/app/FragmentTransaction;->commitNow()V    return-void
+    invoke-virtual {p2}, Landroidx/fragment/app/FragmentTransaction;->commitNow()V
+return-void
 
     .line 103
     :cond_5
@@ -604,7 +603,8 @@
     .line 73
     .line 74
     :goto_1
-    iput-boolean v0, p0, Landroidx/fragment/app/DialogFragment;->mCreatingDialog:Z    return-void
+    iput-boolean v0, p0, Landroidx/fragment/app/DialogFragment;->mCreatingDialog:Z
+return-void
 
     .line 77
     :goto_2
@@ -640,7 +640,8 @@
 
     .line 6
     .line 7
-    invoke-direct {v1, p0, v0}, Landroidx/fragment/app/DialogFragment$5;-><init>(Landroidx/fragment/app/DialogFragment;Landroidx/fragment/app/FragmentContainer;)V    return-object v1
+    invoke-direct {v1, p0, v0}, Landroidx/fragment/app/DialogFragment$5;-><init>(Landroidx/fragment/app/DialogFragment;Landroidx/fragment/app/FragmentContainer;)V
+return-object v1
 .end method
 
 .method public dismiss()V
@@ -650,7 +651,8 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0, v0, v0}, Landroidx/fragment/app/DialogFragment;->dismissInternal(ZZZ)V    return-void
+    invoke-direct {p0, v0, v0, v0}, Landroidx/fragment/app/DialogFragment;->dismissInternal(ZZZ)V
+return-void
 .end method
 
 .method public dismissAllowingStateLoss()V
@@ -663,7 +665,8 @@
     const/4 v1, 0x0
 
     .line 3
-    invoke-direct {p0, v0, v1, v1}, Landroidx/fragment/app/DialogFragment;->dismissInternal(ZZZ)V    return-void
+    invoke-direct {p0, v0, v1, v1}, Landroidx/fragment/app/DialogFragment;->dismissInternal(ZZZ)V
+return-void
 .end method
 
 .method public dismissNow()V
@@ -678,7 +681,8 @@
     const/4 v1, 0x1
 
     .line 3
-    invoke-direct {p0, v0, v0, v1}, Landroidx/fragment/app/DialogFragment;->dismissInternal(ZZZ)V    return-void
+    invoke-direct {p0, v0, v0, v1}, Landroidx/fragment/app/DialogFragment;->dismissInternal(ZZZ)V
+return-void
 .end method
 
 .method public getDialog()Landroid/app/Dialog;
@@ -726,7 +730,8 @@
     .end annotation
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onActivityCreated(Landroid/os/Bundle;)V    return-void
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onActivityCreated(Landroid/os/Bundle;)V
+return-void
 .end method
 
 .method public onAttach(Landroid/content/Context;)V
@@ -1026,7 +1031,8 @@
     move-result v1
 
     .line 37
-    invoke-direct {p1, v0, v1}, Landroidx/activity/ComponentDialog;-><init>(Landroid/content/Context;I)V    return-object p1
+    invoke-direct {p1, v0, v1}, Landroidx/activity/ComponentDialog;-><init>(Landroid/content/Context;I)V
+return-object p1
 .end method
 
 .method public onDestroyView()V
@@ -1152,7 +1158,8 @@
 
     .line 20
     .line 21
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/LiveData;->removeObserver(Landroidx/lifecycle/Observer;)V    return-void
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/LiveData;->removeObserver(Landroidx/lifecycle/Observer;)V
+return-void
 .end method
 
 .method public onDismiss(Landroid/content/DialogInterface;)V
@@ -2061,7 +2068,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/fragment/app/DialogFragment;->mShowsDialog:Z    return-void
+    iput-boolean p1, p0, Landroidx/fragment/app/DialogFragment;->mShowsDialog:Z
+return-void
 .end method
 
 .method public setStyle(II)V
@@ -2245,7 +2253,8 @@
     .line 21
     .line 22
     :cond_1
-    invoke-virtual {p1, v0}, Landroid/app/Dialog;->requestWindowFeature(I)Z    return-void
+    invoke-virtual {p1, v0}, Landroid/app/Dialog;->requestWindowFeature(I)Z
+return-void
 .end method
 
 .method public show(Landroidx/fragment/app/FragmentTransaction;Ljava/lang/String;)I
@@ -2367,6 +2376,7 @@
     .line 15
     .line 16
     .line 17
-    invoke-virtual {p1}, Landroidx/fragment/app/FragmentTransaction;->commitNow()V    return-void
+    invoke-virtual {p1}, Landroidx/fragment/app/FragmentTransaction;->commitNow()V
+return-void
 .end method
 .end class

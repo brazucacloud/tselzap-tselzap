@@ -95,8 +95,7 @@
     new-instance v0, Landroid/adservices/measurement/WebSourceRegistrationRequest$Builder;
 
     invoke-direct {v0, p0, p1}, Landroid/adservices/measurement/WebSourceRegistrationRequest$Builder;-><init>(Ljava/util/List;Landroid/net/Uri;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic f(Landroid/adservices/measurement/WebSourceRegistrationRequest$Builder;)Landroid/adservices/measurement/WebSourceRegistrationRequest;
@@ -128,8 +127,7 @@
     new-instance v0, Landroid/adservices/measurement/WebTriggerParams$Builder;
 
     invoke-direct {v0, p0}, Landroid/adservices/measurement/WebTriggerParams$Builder;-><init>(Landroid/net/Uri;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic i(Landroid/adservices/measurement/WebTriggerParams$Builder;)Landroid/adservices/measurement/WebTriggerParams;
@@ -150,8 +148,7 @@
     new-instance v0, Landroid/adservices/measurement/WebTriggerRegistrationRequest$Builder;
 
     invoke-direct {v0, p0, p1}, Landroid/adservices/measurement/WebTriggerRegistrationRequest$Builder;-><init>(Ljava/util/List;Landroid/net/Uri;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic k(Landroid/adservices/measurement/WebTriggerRegistrationRequest$Builder;)Landroid/adservices/measurement/WebTriggerRegistrationRequest;
@@ -172,8 +169,7 @@
     new-instance v0, Landroid/adservices/topics/GetTopicsRequest$Builder;
 
     invoke-direct {v0}, Landroid/adservices/topics/GetTopicsRequest$Builder;-><init>()V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic m(Landroid/adservices/topics/GetTopicsRequest$Builder;Ljava/lang/String;)Landroid/adservices/topics/GetTopicsRequest$Builder;
@@ -305,8 +301,7 @@
 
     .line 1
     invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/topics/TopicsManager;->getTopics(Landroid/adservices/topics/GetTopicsRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic z(Landroid/adservices/topics/Topic;)J

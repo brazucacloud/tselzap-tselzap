@@ -71,8 +71,7 @@
 
     .line 1
     invoke-static {p0, p1, p2}, Landroidx/fragment/app/DefaultSpecialEffectsController;->executeOperations$lambda$2(Ljava/util/List;Landroidx/fragment/app/SpecialEffectsController$Operation;Landroidx/fragment/app/DefaultSpecialEffectsController;)V
-
-    return-void
+return-void
 .end method
 
 .method private final captureTransitioningViews(Ljava/util/ArrayList;Landroid/view/View;)V
@@ -208,8 +207,7 @@
 
     .line 1
     invoke-static {p0, p1, p2, p3}, Landroidx/fragment/app/DefaultSpecialEffectsController;->startTransitions$lambda$9(Landroidx/fragment/app/SpecialEffectsController$Operation;Landroidx/fragment/app/SpecialEffectsController$Operation;ZLandroidx/collection/ArrayMap;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic e(Landroid/animation/Animator;Landroidx/fragment/app/SpecialEffectsController$Operation;)V
@@ -217,8 +215,7 @@
 
     .line 1
     invoke-static {p0, p1}, Landroidx/fragment/app/DefaultSpecialEffectsController;->startAnimations$lambda$3(Landroid/animation/Animator;Landroidx/fragment/app/SpecialEffectsController$Operation;)V
-
-    return-void
+return-void
 .end method
 
 .method private static final executeOperations$lambda$2(Ljava/util/List;Landroidx/fragment/app/SpecialEffectsController$Operation;Landroidx/fragment/app/DefaultSpecialEffectsController;)V
@@ -390,8 +387,7 @@
 
     .line 1
     invoke-static {p0}, Landroidx/fragment/app/DefaultSpecialEffectsController;->startTransitions$lambda$11(Ljava/util/ArrayList;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic h(Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionInfo;Landroidx/fragment/app/SpecialEffectsController$Operation;)V
@@ -399,8 +395,7 @@
 
     .line 1
     invoke-static {p0, p1}, Landroidx/fragment/app/DefaultSpecialEffectsController;->startTransitions$lambda$14$lambda$13(Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionInfo;Landroidx/fragment/app/SpecialEffectsController$Operation;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic i(Landroidx/fragment/app/FragmentTransitionImpl;Landroid/view/View;Landroid/graphics/Rect;)V
@@ -4986,7 +4981,8 @@
     .line 1688
     .line 1689
     .line 1690
-    invoke-virtual {v7, v4, v9, v10}, Landroidx/fragment/app/FragmentTransitionImpl;->swapSharedElementTargets(Ljava/lang/Object;Ljava/util/ArrayList;Ljava/util/ArrayList;)V    return-object v0
+    invoke-virtual {v7, v4, v9, v10}, Landroidx/fragment/app/FragmentTransitionImpl;->swapSharedElementTargets(Ljava/lang/Object;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
+return-object v0
 .end method
 
 .method private static final startTransitions$lambda$10(Landroidx/fragment/app/FragmentTransitionImpl;Landroid/view/View;Landroid/graphics/Rect;)V
@@ -5155,7 +5151,8 @@
     const/4 v0, 0x0
 
     .line 15
-    invoke-static {p0, p1, p2, p3, v0}, Landroidx/fragment/app/FragmentTransition;->callSharedElementStartEnd(Landroidx/fragment/app/Fragment;Landroidx/fragment/app/Fragment;ZLandroidx/collection/ArrayMap;Z)V    return-void
+    invoke-static {p0, p1, p2, p3, v0}, Landroidx/fragment/app/FragmentTransition;->callSharedElementStartEnd(Landroidx/fragment/app/Fragment;Landroidx/fragment/app/Fragment;ZLandroidx/collection/ArrayMap;Z)V
+return-void
 .end method
 
 .method private final syncAnimations(Ljava/util/List;)V

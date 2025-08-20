@@ -68,7 +68,8 @@
     const/4 p1, 0x1
 
     .line 6
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V    return-void
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
+return-void
 .end method
 
 
@@ -100,8 +101,7 @@
     iget-object p1, p0, Landroidx/privacysandbox/ads/adservices/java/internal/CoroutineAdapterKt$asListenableFuture$1$1;->$completer:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
 
     invoke-virtual {p1}, Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;->setCancelled()Z
-
-    return-void
+return-void
 
     .line 4
     :cond_0

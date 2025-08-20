@@ -1074,8 +1074,7 @@
     const/4 p1, 0x1
 
     iput-boolean p1, p0, Lcom/google/android/gms/common/api/internal/GoogleApiManager;->zaf:Z
-
-    return-void
+return-void
 .end method
 
 

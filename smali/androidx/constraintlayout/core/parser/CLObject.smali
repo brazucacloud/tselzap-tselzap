@@ -28,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/parser/CLContainer;-><init>([C)V    return-void
+    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/parser/CLContainer;-><init>([C)V
+return-void
 .end method
 
 .method public static allocate([C)Landroidx/constraintlayout/core/parser/CLObject;
@@ -39,7 +40,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/constraintlayout/core/parser/CLObject;-><init>([C)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/constraintlayout/core/parser/CLObject;-><init>([C)V
+return-object v0
 .end method
 
 
@@ -114,7 +116,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/constraintlayout/core/parser/CLObject$CLObjectIterator;-><init>(Landroidx/constraintlayout/core/parser/CLObject;)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/constraintlayout/core/parser/CLObject$CLObjectIterator;-><init>(Landroidx/constraintlayout/core/parser/CLObject;)V
+return-object v0
 .end method
 
 .method public toFormattedJSON()Ljava/lang/String;

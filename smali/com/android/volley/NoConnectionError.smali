@@ -9,8 +9,7 @@
 
     .line 1
     invoke-direct {p0}, Lcom/android/volley/NetworkError;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/Throwable;)V
@@ -18,8 +17,7 @@
 
     .line 2
     invoke-direct {p0, p1}, Lcom/android/volley/NetworkError;-><init>(Ljava/lang/Throwable;)V
-
-    return-void
+return-void
 .end method
 
 .end class

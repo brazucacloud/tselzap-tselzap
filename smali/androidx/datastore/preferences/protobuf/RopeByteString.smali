@@ -156,8 +156,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/RopeByteString;-><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic access$400(Landroidx/datastore/preferences/protobuf/RopeByteString;)Landroidx/datastore/preferences/protobuf/ByteString;
@@ -302,7 +301,8 @@
 
     .line 62
     .line 63
-    invoke-direct {p1, v0, p0}, Landroidx/datastore/preferences/protobuf/RopeByteString;-><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)V    return-object p1
+    invoke-direct {p1, v0, p0}, Landroidx/datastore/preferences/protobuf/RopeByteString;-><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)V
+return-object p1
 
     .line 67
     :cond_3
@@ -375,7 +375,8 @@
 
     .line 101
     .line 102
-    invoke-direct {p1, v0, p0}, Landroidx/datastore/preferences/protobuf/RopeByteString;-><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)V    return-object p1
+    invoke-direct {p1, v0, p0}, Landroidx/datastore/preferences/protobuf/RopeByteString;-><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)V
+return-object p1
 
     .line 106
     :cond_4
@@ -423,7 +424,8 @@
 
     .line 127
     .line 128
-    invoke-direct {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/RopeByteString;-><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)V    return-object v0
+    invoke-direct {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/RopeByteString;-><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)V
+return-object v0
 
     .line 132
     :cond_5
@@ -718,7 +720,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/RopeByteString;-><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)V    return-object v0
+    invoke-direct {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/RopeByteString;-><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)V
+return-object v0
 .end method
 
 .method private readObject(Ljava/io/ObjectInputStream;)V
@@ -886,7 +889,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/ByteString;->copyTo(Ljava/nio/ByteBuffer;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/ByteString;->copyTo(Ljava/nio/ByteBuffer;)V
+return-void
 .end method
 
 .method public copyToInternal([BIII)V
@@ -909,7 +913,8 @@
 
     .line 8
     .line 9
-    invoke-virtual {v0, p1, p2, p3, p4}, Landroidx/datastore/preferences/protobuf/ByteString;->copyToInternal([BIII)V    return-void
+    invoke-virtual {v0, p1, p2, p3, p4}, Landroidx/datastore/preferences/protobuf/ByteString;->copyToInternal([BIII)V
+return-void
 
     .line 13
     :cond_0
@@ -924,7 +929,8 @@
     sub-int/2addr p2, v1
 
     .line 18
-    invoke-virtual {v0, p1, p2, p3, p4}, Landroidx/datastore/preferences/protobuf/ByteString;->copyToInternal([BIII)V    return-void
+    invoke-virtual {v0, p1, p2, p3, p4}, Landroidx/datastore/preferences/protobuf/ByteString;->copyToInternal([BIII)V
+return-void
 
     .line 22
     :cond_1
@@ -953,7 +959,8 @@
     const/4 v0, 0x0
 
     .line 33
-    invoke-virtual {p2, p1, v0, p3, p4}, Landroidx/datastore/preferences/protobuf/ByteString;->copyToInternal([BIII)V    return-void
+    invoke-virtual {p2, p1, v0, p3, p4}, Landroidx/datastore/preferences/protobuf/ByteString;->copyToInternal([BIII)V
+return-void
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
@@ -1193,8 +1200,7 @@
     new-instance v0, Landroidx/datastore/preferences/protobuf/RopeByteString$1;
 
     invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/RopeByteString$1;-><init>(Landroidx/datastore/preferences/protobuf/RopeByteString;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public bridge synthetic iterator()Ljava/util/Iterator;
@@ -1239,7 +1245,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/RopeByteString$RopeInputStream;-><init>(Landroidx/datastore/preferences/protobuf/RopeByteString;)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/RopeByteString$RopeInputStream;-><init>(Landroidx/datastore/preferences/protobuf/RopeByteString;)V
+return-object v0
 .end method
 
 .method public partialHash(III)I
@@ -1543,7 +1550,8 @@
 
     .line 56
     .line 57
-    invoke-direct {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/RopeByteString;-><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)V    return-object v0
+    invoke-direct {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/RopeByteString;-><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)V
+return-object v0
 .end method
 
 .method public toStringInternal(Ljava/nio/charset/Charset;)Ljava/lang/String;
@@ -1562,7 +1570,8 @@
     move-result-object v1
 
     .line 7
-    invoke-direct {v0, v1, p1}, Ljava/lang/String;-><init>([BLjava/nio/charset/Charset;)V    return-object v0
+    invoke-direct {v0, v1, p1}, Ljava/lang/String;-><init>([BLjava/nio/charset/Charset;)V
+return-object v0
 .end method
 
 .method public writeReplace()Ljava/lang/Object;
@@ -1599,8 +1608,7 @@
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString;->right:Landroidx/datastore/preferences/protobuf/ByteString;
 
     invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/ByteString;->writeTo(Landroidx/datastore/preferences/protobuf/ByteOutput;)V
-
-    return-void
+return-void
 .end method
 
 .method public writeTo(Ljava/io/OutputStream;)V
@@ -1615,8 +1623,7 @@
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString;->right:Landroidx/datastore/preferences/protobuf/ByteString;
 
     invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/ByteString;->writeTo(Ljava/io/OutputStream;)V
-
-    return-void
+return-void
 .end method
 
 .method public writeToInternal(Ljava/io/OutputStream;II)V
@@ -1639,7 +1646,8 @@
 
     .line 8
     .line 9
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/ByteString;->writeToInternal(Ljava/io/OutputStream;II)V    return-void
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/ByteString;->writeToInternal(Ljava/io/OutputStream;II)V
+return-void
 
     .line 13
     :cond_0
@@ -1654,7 +1662,8 @@
     sub-int/2addr p2, v1
 
     .line 18
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/ByteString;->writeToInternal(Ljava/io/OutputStream;II)V    return-void
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/ByteString;->writeToInternal(Ljava/io/OutputStream;II)V
+return-void
 
     .line 22
     :cond_1
@@ -1680,7 +1689,8 @@
     sub-int/2addr p3, v1
 
     .line 32
-    invoke-virtual {p2, p1, v0, p3}, Landroidx/datastore/preferences/protobuf/ByteString;->writeToInternal(Ljava/io/OutputStream;II)V    return-void
+    invoke-virtual {p2, p1, v0, p3}, Landroidx/datastore/preferences/protobuf/ByteString;->writeToInternal(Ljava/io/OutputStream;II)V
+return-void
 .end method
 
 .method public writeToReverse(Landroidx/datastore/preferences/protobuf/ByteOutput;)V
@@ -1700,6 +1710,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/ByteString;->writeToReverse(Landroidx/datastore/preferences/protobuf/ByteOutput;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/ByteString;->writeToReverse(Landroidx/datastore/preferences/protobuf/ByteOutput;)V
+return-void
 .end method
 .end class

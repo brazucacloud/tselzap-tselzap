@@ -27,7 +27,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, p2}, Landroidx/activity/OnBackPressedCallback;-><init>(Z)V    return-void
+    invoke-direct {p0, p2}, Landroidx/activity/OnBackPressedCallback;-><init>(Z)V
+return-void
 .end method
 
 
@@ -40,6 +41,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->handleOnBackPressed()V    return-void
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->handleOnBackPressed()V
+return-void
 .end method
 .end class

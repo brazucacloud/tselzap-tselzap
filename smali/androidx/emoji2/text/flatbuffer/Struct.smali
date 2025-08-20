@@ -33,8 +33,7 @@
 
     .line 4
     invoke-virtual {p0, v0, v1}, Landroidx/emoji2/text/flatbuffer/Struct;->__reset(ILjava/nio/ByteBuffer;)V
-
-    return-void
+return-void
 .end method
 
 .method public __reset(ILjava/nio/ByteBuffer;)V

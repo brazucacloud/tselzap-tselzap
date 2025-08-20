@@ -94,8 +94,7 @@
     move-result-object p2
 
     invoke-direct {p0, p1, v0, p2}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;-><init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Ljava/lang/Comparable;Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method private equals(Ljava/lang/Object;Ljava/lang/Object;)Z

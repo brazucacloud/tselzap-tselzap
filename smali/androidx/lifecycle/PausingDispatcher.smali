@@ -57,7 +57,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {v0, p1, p2}, Landroidx/lifecycle/DispatchQueue;->dispatchAndEnqueue(Lg1/i;Ljava/lang/Runnable;)V    return-void
+    invoke-virtual {v0, p1, p2}, Landroidx/lifecycle/DispatchQueue;->dispatchAndEnqueue(Lg1/i;Ljava/lang/Runnable;)V
+return-void
 .end method
 
 .method public isDispatchNeeded(Lg1/i;)Z

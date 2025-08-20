@@ -36,7 +36,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/appcompat/view/ActionBarPolicy;-><init>(Landroid/content/Context;)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/appcompat/view/ActionBarPolicy;-><init>(Landroid/content/Context;)V
+return-object v0
 .end method
 
 

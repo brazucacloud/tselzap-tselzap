@@ -228,8 +228,7 @@
 
     .line 2
     iput-boolean v0, p0, Landroidx/transition/ChangeBounds;->mResizeClip:Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -272,8 +271,7 @@
 
     .line 8
     invoke-virtual {p0, p2}, Landroidx/transition/ChangeBounds;->setResizeClip(Z)V
-
-    return-void
+return-void
 .end method
 
 .method private captureValues(Landroidx/transition/TransitionValues;)V
@@ -1577,6 +1575,7 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/transition/ChangeBounds;->mResizeClip:Z    return-void
+    iput-boolean p1, p0, Landroidx/transition/ChangeBounds;->mResizeClip:Z
+return-void
 .end method
 .end class

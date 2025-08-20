@@ -668,8 +668,7 @@
 
     .line 1
     invoke-virtual {p0, v0}, Landroidx/core/app/TaskStackBuilder;->startActivities(Landroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 
 .method public startActivities(Landroid/os/Bundle;)V

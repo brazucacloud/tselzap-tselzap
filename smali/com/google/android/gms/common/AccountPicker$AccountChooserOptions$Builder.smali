@@ -52,8 +52,7 @@
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/google/android/gms/common/AccountPicker$AccountChooserOptions$Builder;->zzd:Z
-
-    return-void
+return-void
 .end method
 
 
@@ -310,8 +309,7 @@
     .end annotation
 
     iput-boolean p1, p0, Lcom/google/android/gms/common/AccountPicker$AccountChooserOptions$Builder;->zzd:Z
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setOptionsForAddingAccount(Landroid/os/Bundle;)Lcom/google/android/gms/common/AccountPicker$AccountChooserOptions$Builder;

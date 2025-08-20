@@ -170,8 +170,7 @@
     const/4 v0, 0x0
 
     invoke-virtual {p0, v0, p1, p2, p3}, Landroid/app/AlarmManager;->setExactAndAllowWhileIdle(IJLandroid/app/PendingIntent;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic m(Landroid/graphics/drawable/AnimatedVectorDrawable;)V
@@ -179,8 +178,7 @@
 
     .line 1
     invoke-virtual {p0}, Landroid/graphics/drawable/AnimatedVectorDrawable;->clearAnimationCallbacks()V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic n(Landroid/graphics/drawable/AnimatedVectorDrawable;Landroid/graphics/drawable/Animatable2$AnimationCallback;)V
@@ -197,8 +195,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/media/MediaMetadataRetriever;->setDataSource(Landroid/media/MediaDataSource;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic p(Landroid/print/PrintAttributes$Builder;I)V
@@ -224,8 +221,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setContextClickable(Z)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic s(Landroid/widget/TextView;I)V

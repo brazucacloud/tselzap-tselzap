@@ -37,8 +37,7 @@
 
     .line 2
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/base/zau;-><init>(Landroid/os/Looper;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/os/Looper;)V
@@ -50,8 +49,7 @@
 
     .line 3
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/base/zau;-><init>(Landroid/os/Looper;)V
-
-    return-void
+return-void
 .end method
 
 

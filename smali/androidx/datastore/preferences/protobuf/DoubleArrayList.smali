@@ -56,7 +56,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->makeImmutable()V    return-void
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->makeImmutable()V
+return-void
 .end method
 
 .method public constructor <init>()V
@@ -70,8 +71,7 @@
     const/4 v1, 0x0
 
     invoke-direct {p0, v0, v1}, Landroidx/datastore/preferences/protobuf/DoubleArrayList;-><init>([DI)V
-
-    return-void
+return-void
 .end method
 
 .method private constructor <init>([DI)V
@@ -275,8 +275,7 @@
     move-result-wide v0
 
     invoke-direct {p0, p1, v0, v1}, Landroidx/datastore/preferences/protobuf/DoubleArrayList;->addDouble(ID)V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic add(ILjava/lang/Object;)V
@@ -286,8 +285,7 @@
     check-cast p2, Ljava/lang/Double;
 
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/DoubleArrayList;->add(ILjava/lang/Double;)V
-
-    return-void
+return-void
 .end method
 
 .method public add(Ljava/lang/Double;)Z
@@ -751,8 +749,7 @@
     iget v1, p0, Landroidx/datastore/preferences/protobuf/DoubleArrayList;->size:I
 
     invoke-direct {v0, p1, v1}, Landroidx/datastore/preferences/protobuf/DoubleArrayList;-><init>([DI)V
-
-    return-object v0
+return-object v0
 
     .line 4
     :cond_0

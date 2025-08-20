@@ -120,8 +120,7 @@
     check-cast v2, Ljava/util/Map$Entry;
 
     invoke-direct {v0, v1, v2}, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter;-><init>(Landroidx/datastore/preferences/protobuf/Internal$MapAdapter;Ljava/util/Map$Entry;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public remove()V
@@ -132,6 +131,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/Iterator;->remove()V    return-void
+    invoke-interface {v0}, Ljava/util/Iterator;->remove()V
+return-void
 .end method
 .end class

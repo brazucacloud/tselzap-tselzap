@@ -53,8 +53,7 @@
     move-result-object p1
 
     invoke-direct {v0, p0, p1}, Landroidx/appcompat/widget/TintTypedArray;-><init>(Landroid/content/Context;Landroid/content/res/TypedArray;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static obtainStyledAttributes(Landroid/content/Context;Landroid/util/AttributeSet;[I)Landroidx/appcompat/widget/TintTypedArray;
@@ -68,8 +67,7 @@
     move-result-object p1
 
     invoke-direct {v0, p0, p1}, Landroidx/appcompat/widget/TintTypedArray;-><init>(Landroid/content/Context;Landroid/content/res/TypedArray;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static obtainStyledAttributes(Landroid/content/Context;Landroid/util/AttributeSet;[III)Landroidx/appcompat/widget/TintTypedArray;
@@ -84,8 +82,7 @@
     move-result-object p1
 
     invoke-direct {v0, p0, p1}, Landroidx/appcompat/widget/TintTypedArray;-><init>(Landroid/content/Context;Landroid/content/res/TypedArray;)V
-
-    return-object v0
+return-object v0
 .end method
 
 
@@ -852,6 +849,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V    return-void
+    invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
+return-void
 .end method
 .end class

@@ -228,8 +228,7 @@
 
     .line 2
     invoke-virtual {p0, v0}, Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;->setFailedResult(Lcom/google/android/gms/common/api/Status;)V
-
-    return-void
+return-void
 .end method
 
 
@@ -404,8 +403,7 @@
 
     .line 6
     invoke-virtual {p0, p1}, Lcom/google/android/gms/common/api/internal/BaseImplementation$ApiMethodImpl;->onSetFailedResult(Lcom/google/android/gms/common/api/Result;)V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic setResult(Ljava/lang/Object;)V

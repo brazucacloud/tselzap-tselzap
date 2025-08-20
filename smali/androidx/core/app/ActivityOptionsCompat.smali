@@ -226,8 +226,7 @@
     move-result-object p0
 
     invoke-direct {v0, p0}, Landroidx/core/app/ActivityOptionsCompat$ActivityOptionsCompatImpl;-><init>(Landroid/app/ActivityOptions;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static varargs makeSceneTransitionAnimation(Landroid/app/Activity;[Landroidx/core/util/Pair;)Landroidx/core/app/ActivityOptionsCompat;
@@ -305,8 +304,7 @@
     move-result-object p0
 
     invoke-direct {p1, p0}, Landroidx/core/app/ActivityOptionsCompat$ActivityOptionsCompatImpl;-><init>(Landroid/app/ActivityOptions;)V
-
-    return-object p1
+return-object p1
 .end method
 
 .method public static makeTaskLaunchBehind()Landroidx/core/app/ActivityOptionsCompat;

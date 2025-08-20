@@ -50,7 +50,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/view/ActionMode;->finish()V    return-void
+    invoke-virtual {v0}, Landroidx/appcompat/view/ActionMode;->finish()V
+return-void
 .end method
 
 .method public getCustomView()Landroid/view/View;
@@ -99,7 +100,8 @@
 
     .line 12
     .line 13
-    invoke-direct {v0, v1, v2}, Landroidx/appcompat/view/menu/MenuWrapperICS;-><init>(Landroid/content/Context;Landroidx/core/internal/view/SupportMenu;)V    return-object v0
+    invoke-direct {v0, v1, v2}, Landroidx/appcompat/view/menu/MenuWrapperICS;-><init>(Landroid/content/Context;Landroidx/core/internal/view/SupportMenu;)V
+return-object v0
 .end method
 
 .method public getMenuInflater()Landroid/view/MenuInflater;
@@ -200,7 +202,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/view/ActionMode;->invalidate()V    return-void
+    invoke-virtual {v0}, Landroidx/appcompat/view/ActionMode;->invalidate()V
+return-void
 .end method
 
 .method public isTitleOptional()Z
@@ -239,8 +242,7 @@
     iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;->mWrappedObject:Landroidx/appcompat/view/ActionMode;
 
     invoke-virtual {v0, p1}, Landroidx/appcompat/view/ActionMode;->setSubtitle(I)V
-
-    return-void
+return-void
 .end method
 
 .method public setSubtitle(Ljava/lang/CharSequence;)V
@@ -250,8 +252,7 @@
     iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;->mWrappedObject:Landroidx/appcompat/view/ActionMode;
 
     invoke-virtual {v0, p1}, Landroidx/appcompat/view/ActionMode;->setSubtitle(Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 
 .method public setTag(Ljava/lang/Object;)V
@@ -262,7 +263,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/appcompat/view/ActionMode;->setTag(Ljava/lang/Object;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/view/ActionMode;->setTag(Ljava/lang/Object;)V
+return-void
 .end method
 
 .method public setTitle(I)V
@@ -272,8 +274,7 @@
     iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;->mWrappedObject:Landroidx/appcompat/view/ActionMode;
 
     invoke-virtual {v0, p1}, Landroidx/appcompat/view/ActionMode;->setTitle(I)V
-
-    return-void
+return-void
 .end method
 
 .method public setTitle(Ljava/lang/CharSequence;)V
@@ -283,8 +284,7 @@
     iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;->mWrappedObject:Landroidx/appcompat/view/ActionMode;
 
     invoke-virtual {v0, p1}, Landroidx/appcompat/view/ActionMode;->setTitle(Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 
 .method public setTitleOptionalHint(Z)V
@@ -295,6 +295,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/appcompat/view/ActionMode;->setTitleOptionalHint(Z)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/view/ActionMode;->setTitleOptionalHint(Z)V
+return-void
 .end method
 .end class

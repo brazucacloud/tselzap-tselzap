@@ -22,8 +22,7 @@
     iput-object p1, p0, Lcom/fmark/tselzap/fragments/d;->c:Lcom/fmark/tselzap/fragments/Api_coder;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 

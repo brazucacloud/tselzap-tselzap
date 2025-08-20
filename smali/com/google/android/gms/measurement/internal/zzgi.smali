@@ -133,8 +133,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/google/android/gms/measurement/internal/zzgi;-><init>(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Lcom/google/android/gms/measurement/internal/zzgg;)V
-
-    return-void
+return-void
 .end method
 
 

@@ -54,7 +54,8 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z    return-void
+    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+return-void
 .end method
 
 .method public removeTransformer(Landroidx/viewpager2/widget/ViewPager2$PageTransformer;)V

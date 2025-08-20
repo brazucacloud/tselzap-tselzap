@@ -94,8 +94,7 @@
 
     .line 7
     invoke-virtual {p0, v5}, Landroidx/collection/ArraySet;->set_size$collection(I)V
-
-    return-void
+return-void
 
     .line 8
     :cond_0
@@ -604,7 +603,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0, p1}, Landroidx/collection/ArraySet;->setArray$collection([Ljava/lang/Object;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/collection/ArraySet;->setArray$collection([Ljava/lang/Object;)V
+return-void
 .end method
 
 .method public static final arraySetOf()Landroidx/collection/ArraySet;
@@ -629,8 +629,7 @@
     const/4 v3, 0x0
 
     invoke-direct {v0, v3, v1, v2}, Landroidx/collection/ArraySet;-><init>(IILkotlin/jvm/internal/e;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final varargs arraySetOf([Ljava/lang/Object;)Landroidx/collection/ArraySet;
@@ -1823,7 +1822,8 @@
 
     .line 18
     .line 19
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;->clear()V    return-object v1
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->clear()V
+return-object v1
 
     .line 23
     :cond_0
@@ -2112,7 +2112,8 @@
 
     .line 158
     .line 159
-    invoke-virtual {p0, v3}, Landroidx/collection/ArraySet;->set_size$collection(I)V    return-object v1
+    invoke-virtual {p0, v3}, Landroidx/collection/ArraySet;->set_size$collection(I)V
+return-object v1
 
     .line 163
     :cond_6

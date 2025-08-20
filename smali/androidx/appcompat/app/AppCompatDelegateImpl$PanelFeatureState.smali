@@ -81,7 +81,8 @@
     const/4 p1, 0x0
 
     .line 7
-    iput-boolean p1, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$PanelFeatureState;->refreshDecorView:Z    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$PanelFeatureState;->refreshDecorView:Z
+return-void
 .end method
 
 
@@ -625,6 +626,7 @@
 
     .line 88
     .line 89
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V    return-void
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
+return-void
 .end method
 .end class

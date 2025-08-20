@@ -154,7 +154,8 @@
 
     .line 16
     .line 17
-    invoke-direct {v0, p1, p2}, Landroid/graphics/PorterDuffColorFilter;-><init>(ILandroid/graphics/PorterDuff$Mode;)V    return-object v0
+    invoke-direct {v0, p1, p2}, Landroid/graphics/PorterDuffColorFilter;-><init>(ILandroid/graphics/PorterDuff$Mode;)V
+return-object v0
 
     .line 21
     :cond_1
@@ -220,7 +221,8 @@
     move-result p1
 
     .line 26
-    invoke-virtual {v0, p1}, Landroid/graphics/Paint;->setColor(I)V    return-void
+    invoke-virtual {v0, p1}, Landroid/graphics/Paint;->setColor(I)V
+return-void
 .end method
 
 .method private updateBounds(Landroid/graphics/Rect;)V
@@ -494,7 +496,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {p1, v0, v1}, Landroid/graphics/Outline;->setRoundRect(Landroid/graphics/Rect;F)V    return-void
+    invoke-virtual {p1, v0, v1}, Landroid/graphics/Outline;->setRoundRect(Landroid/graphics/Rect;F)V
+return-void
 .end method
 
 .method public getPadding()F
@@ -590,7 +593,8 @@
     .line 2
     .line 3
     .line 4
-    invoke-direct {p0, p1}, Landroidx/cardview/widget/RoundRectDrawable;->updateBounds(Landroid/graphics/Rect;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/cardview/widget/RoundRectDrawable;->updateBounds(Landroid/graphics/Rect;)V
+return-void
 .end method
 
 .method public onStateChange([I)Z
@@ -700,7 +704,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/graphics/Paint;->setAlpha(I)V    return-void
+    invoke-virtual {v0, p1}, Landroid/graphics/Paint;->setAlpha(I)V
+return-void
 .end method
 
 .method public setColor(Landroid/content/res/ColorStateList;)V
@@ -716,7 +721,8 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V    return-void
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
+return-void
 .end method
 
 .method public setColorFilter(Landroid/graphics/ColorFilter;)V
@@ -782,7 +788,8 @@
     .line 24
     .line 25
     .line 26
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V    return-void
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
+return-void
 .end method
 
 .method public setRadius(F)V
@@ -813,7 +820,8 @@
     .line 12
     .line 13
     .line 14
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V    return-void
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
+return-void
 .end method
 
 .method public setTintList(Landroid/content/res/ColorStateList;)V
@@ -840,7 +848,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V    return-void
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
+return-void
 .end method
 
 .method public setTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -867,6 +876,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V    return-void
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
+return-void
 .end method
 .end class

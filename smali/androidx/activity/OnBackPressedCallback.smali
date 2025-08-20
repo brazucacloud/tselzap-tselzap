@@ -70,7 +70,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z    return-void
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
+return-void
 .end method
 
 .method public final getEnabledChangedCallback$activity_release()Lp1/a;
@@ -107,8 +108,7 @@
     const-string v0, "backEvent"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public handleOnBackStarted(Landroidx/activity/BackEventCompat;)V
@@ -119,8 +119,7 @@
     const-string v0, "backEvent"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public final isEnabled()Z

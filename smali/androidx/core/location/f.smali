@@ -26,8 +26,7 @@
     iput-object p2, p0, Landroidx/core/location/f;->d:Landroid/location/Location;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -45,8 +44,7 @@
     iget-object v1, p0, Landroidx/core/location/f;->c:Landroidx/core/util/Consumer;
 
     invoke-static {v1, v0}, Landroidx/core/location/LocationManagerCompat;->a(Landroidx/core/util/Consumer;Landroid/location/Location;)V
-
-    return-void
+return-void
 
     :pswitch_0
     iget-object v0, p0, Landroidx/core/location/f;->c:Landroidx/core/util/Consumer;
@@ -54,8 +52,7 @@
     iget-object v1, p0, Landroidx/core/location/f;->d:Landroid/location/Location;
 
     invoke-static {v0, v1}, Landroidx/core/location/LocationManagerCompat$CancellableLocationListener;->b(Landroidx/core/util/Consumer;Landroid/location/Location;)V
-
-    return-void
+return-void
 
     nop
 

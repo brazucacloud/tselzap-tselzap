@@ -88,8 +88,7 @@
     const/4 v2, 0x1
 
     invoke-direct {p0, v0, v1, v2}, Lcom/google/android/gms/internal/measurement/zzme;-><init>([Ljava/lang/Object;IZ)V
-
-    return-void
+return-void
 .end method
 
 .method private constructor <init>([Ljava/lang/Object;IZ)V

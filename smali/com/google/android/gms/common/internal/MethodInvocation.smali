@@ -151,8 +151,7 @@
 
     .line 1
     invoke-direct/range {v0 .. v11}, Lcom/google/android/gms/common/internal/MethodInvocation;-><init>(IIIJJLjava/lang/String;Ljava/lang/String;II)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(IIIJJLjava/lang/String;Ljava/lang/String;II)V

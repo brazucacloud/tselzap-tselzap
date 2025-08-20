@@ -145,8 +145,7 @@
 
     .line 1
     invoke-direct {p0, v0}, Landroidx/core/content/FileProvider;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -243,8 +242,7 @@
 
     .line 4
     invoke-static {p0, v1, v0, v1, p1}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method private static copyOf([Ljava/lang/String;I)[Ljava/lang/String;
@@ -257,8 +255,7 @@
 
     .line 2
     invoke-static {p0, v1, v0, v1, p1}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static getFileProviderPathsMetaData(Landroid/content/Context;Ljava/lang/String;Landroid/content/pm/ProviderInfo;I)Landroid/content/res/XmlResourceParser;

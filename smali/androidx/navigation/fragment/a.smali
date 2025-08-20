@@ -31,7 +31,6 @@
     iget-object v0, p0, Landroidx/navigation/fragment/a;->b:Landroidx/navigation/fragment/DialogFragmentNavigator;
 
     invoke-static {v0, p1, p2}, Landroidx/navigation/fragment/DialogFragmentNavigator;->a(Landroidx/navigation/fragment/DialogFragmentNavigator;Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;)V
-
-    return-void
+return-void
 .end method
 .end class

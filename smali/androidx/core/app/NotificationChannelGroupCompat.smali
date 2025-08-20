@@ -48,8 +48,7 @@
     sget-object v0, Ljava/util/Collections;->EMPTY_LIST:Ljava/util/List;
 
     invoke-direct {p0, p1, v0}, Landroidx/core/app/NotificationChannelGroupCompat;-><init>(Landroid/app/NotificationChannelGroup;Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/app/NotificationChannelGroup;Ljava/util/List;)V

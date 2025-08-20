@@ -437,7 +437,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/lifecycle/LifecycleRegistry;->handleLifecycleEvent(Landroidx/lifecycle/Lifecycle$Event;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/lifecycle/LifecycleRegistry;->handleLifecycleEvent(Landroidx/lifecycle/Lifecycle$Event;)V
+return-void
 .end method
 
 .method public initialize()V
@@ -530,7 +531,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/savedstate/SavedStateRegistryController;->performRestore(Landroid/os/Bundle;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/savedstate/SavedStateRegistryController;->performRestore(Landroid/os/Bundle;)V
+return-void
 .end method
 
 .method public performSave(Landroid/os/Bundle;)V
@@ -545,7 +547,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/savedstate/SavedStateRegistryController;->performSave(Landroid/os/Bundle;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/savedstate/SavedStateRegistryController;->performSave(Landroid/os/Bundle;)V
+return-void
 .end method
 
 .method public setCurrentState(Landroidx/lifecycle/Lifecycle$State;)V
@@ -560,6 +563,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/lifecycle/LifecycleRegistry;->setCurrentState(Landroidx/lifecycle/Lifecycle$State;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/lifecycle/LifecycleRegistry;->setCurrentState(Landroidx/lifecycle/Lifecycle$State;)V
+return-void
 .end method
 .end class

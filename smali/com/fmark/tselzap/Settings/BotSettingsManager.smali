@@ -205,8 +205,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->handleSettingsChanged(Landroid/content/Intent;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic b(Lcom/fmark/tselzap/Settings/BotSettingsManager;Landroid/content/Context;)V
@@ -214,8 +213,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->respondWithSettings(Landroid/content/Context;)V
-
-    return-void
+return-void
 .end method
 
 .method private broadcastBoolSetting(Ljava/lang/String;Z)V

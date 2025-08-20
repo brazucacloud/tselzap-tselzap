@@ -50,8 +50,7 @@
     const/4 v1, 0x0
 
     invoke-direct {v0, p1, v1}, Lcom/developer/progressx/ProgressWheel$WheelSavedState;-><init>(Landroid/os/Parcel;Lcom/developer/progressx/ProgressWheel$1;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public bridge synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;

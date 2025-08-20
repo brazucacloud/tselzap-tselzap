@@ -1529,8 +1529,7 @@
 
     .line 5
     invoke-virtual {v0, p1}, Lu0/j;->o(Landroid/content/res/ColorStateList;)V
-
-    return-void
+return-void
 .end method
 
 .method public setCardBackgroundColor(Landroid/content/res/ColorStateList;)V
@@ -1547,8 +1546,7 @@
 
     .line 2
     invoke-virtual {v0, p1}, Lu0/j;->o(Landroid/content/res/ColorStateList;)V
-
-    return-void
+return-void
 .end method
 
 .method public setCardElevation(F)V
@@ -2437,8 +2435,7 @@
     :cond_1
     :goto_0
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-
-    return-void
+return-void
 .end method
 
 .method public setStrokeWidth(I)V

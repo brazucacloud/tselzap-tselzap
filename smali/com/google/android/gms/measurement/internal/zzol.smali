@@ -29,8 +29,7 @@
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzol;->zza:Lcom/google/android/gms/measurement/internal/zzom;
 
     invoke-static {v0}, Lcom/google/android/gms/measurement/internal/zzom;->zza(Lcom/google/android/gms/measurement/internal/zzom;)V
-
-    return-void
+return-void
 .end method
 
 .end class

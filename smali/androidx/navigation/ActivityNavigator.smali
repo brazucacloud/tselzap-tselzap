@@ -159,8 +159,7 @@
     sget-object v0, Landroidx/navigation/ActivityNavigator;->Companion:Landroidx/navigation/ActivityNavigator$Companion;
 
     invoke-virtual {v0, p0}, Landroidx/navigation/ActivityNavigator$Companion;->applyPopAnimationsToPendingTransition(Landroid/app/Activity;)V
-
-    return-void
+return-void
 .end method
 
 
@@ -172,8 +171,7 @@
     new-instance v0, Landroidx/navigation/ActivityNavigator$Destination;
 
     invoke-direct {v0, p0}, Landroidx/navigation/ActivityNavigator$Destination;-><init>(Landroidx/navigation/Navigator;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public bridge synthetic createDestination()Landroidx/navigation/NavDestination;

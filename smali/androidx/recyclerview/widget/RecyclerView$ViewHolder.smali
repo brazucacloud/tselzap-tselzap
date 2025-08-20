@@ -1245,7 +1245,8 @@
     const/4 v0, 0x4
 
     .line 18
-    invoke-virtual {p1, p0, v0}, Landroidx/recyclerview/widget/RecyclerView;->setChildImportantForAccessibilityInternal(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)Z    return-void
+    invoke-virtual {p1, p0, v0}, Landroidx/recyclerview/widget/RecyclerView;->setChildImportantForAccessibilityInternal(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)Z
+return-void
 .end method
 
 .method public onLeftHiddenState(Landroidx/recyclerview/widget/RecyclerView;)V
@@ -1693,7 +1694,8 @@
 
     .line 2
     .line 3
-    iput-boolean p2, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->mInChangeScrap:Z    return-void
+    iput-boolean p2, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->mInChangeScrap:Z
+return-void
 .end method
 
 .method public shouldBeKeptAsChild()Z

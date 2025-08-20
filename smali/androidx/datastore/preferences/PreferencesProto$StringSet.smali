@@ -83,7 +83,8 @@
 
     .line 9
     .line 10
-    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->registerDefaultInstance(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V    return-void
+    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->registerDefaultInstance(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
+return-void
 .end method
 
 .method private constructor <init>()V
@@ -117,35 +118,40 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/PreferencesProto$StringSet;->setStrings(ILjava/lang/String;)V    return-void
+    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/PreferencesProto$StringSet;->setStrings(ILjava/lang/String;)V
+return-void
 .end method
 
 .method public static synthetic access$2500(Landroidx/datastore/preferences/PreferencesProto$StringSet;Ljava/lang/String;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/PreferencesProto$StringSet;->addStrings(Ljava/lang/String;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/PreferencesProto$StringSet;->addStrings(Ljava/lang/String;)V
+return-void
 .end method
 
 .method public static synthetic access$2600(Landroidx/datastore/preferences/PreferencesProto$StringSet;Ljava/lang/Iterable;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/PreferencesProto$StringSet;->addAllStrings(Ljava/lang/Iterable;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/PreferencesProto$StringSet;->addAllStrings(Ljava/lang/Iterable;)V
+return-void
 .end method
 
 .method public static synthetic access$2700(Landroidx/datastore/preferences/PreferencesProto$StringSet;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$StringSet;->clearStrings()V    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$StringSet;->clearStrings()V
+return-void
 .end method
 
 .method public static synthetic access$2800(Landroidx/datastore/preferences/PreferencesProto$StringSet;Landroidx/datastore/preferences/protobuf/ByteString;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/PreferencesProto$StringSet;->addStringsBytes(Landroidx/datastore/preferences/protobuf/ByteString;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/PreferencesProto$StringSet;->addStringsBytes(Landroidx/datastore/preferences/protobuf/ByteString;)V
+return-void
 .end method
 
 .method private addAllStrings(Ljava/lang/Iterable;)V
@@ -169,7 +175,8 @@
 
     .line 5
     .line 6
-    invoke-static {p1, v0}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;->addAll(Ljava/lang/Iterable;Ljava/util/List;)V    return-void
+    invoke-static {p1, v0}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;->addAll(Ljava/lang/Iterable;Ljava/util/List;)V
+return-void
 .end method
 
 .method private addStrings(Ljava/lang/String;)V
@@ -190,7 +197,8 @@
 
     .line 8
     .line 9
-    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z    return-void
+    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+return-void
 .end method
 
 .method private addStringsBytes(Landroidx/datastore/preferences/protobuf/ByteString;)V
@@ -716,7 +724,8 @@
 
     .line 74
     .line 75
-    invoke-direct {p1, p3}, Landroidx/datastore/preferences/PreferencesProto$StringSet$Builder;-><init>(Landroidx/datastore/preferences/PreferencesProto$1;)V    return-object p1
+    invoke-direct {p1, p3}, Landroidx/datastore/preferences/PreferencesProto$StringSet$Builder;-><init>(Landroidx/datastore/preferences/PreferencesProto$1;)V
+return-object p1
 
     .line 79
     :pswitch_6
@@ -724,7 +733,8 @@
 
     .line 80
     .line 81
-    invoke-direct {p1}, Landroidx/datastore/preferences/PreferencesProto$StringSet;-><init>()V    return-object p1
+    invoke-direct {p1}, Landroidx/datastore/preferences/PreferencesProto$StringSet;-><init>()V
+return-object p1
 
     .line 85
     :pswitch_data_0

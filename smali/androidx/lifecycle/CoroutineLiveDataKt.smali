@@ -90,8 +90,7 @@
     new-instance v0, Landroidx/lifecycle/CoroutineLiveData;
 
     invoke-direct {v0, p0, p1, p2, p3}, Landroidx/lifecycle/CoroutineLiveData;-><init>(Lg1/i;JLp1/p;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final liveData(Lg1/i;Lp1/p;)Landroidx/lifecycle/LiveData;
@@ -177,8 +176,7 @@
     move-result-wide v1
 
     invoke-direct {v0, p1, v1, v2, p2}, Landroidx/lifecycle/CoroutineLiveData;-><init>(Lg1/i;JLp1/p;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final liveData(Ljava/time/Duration;Lp1/p;)Landroidx/lifecycle/LiveData;

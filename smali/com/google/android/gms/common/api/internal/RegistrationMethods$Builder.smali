@@ -57,8 +57,7 @@
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;->zaf:Z
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Lcom/google/android/gms/common/api/internal/zacm;)V
@@ -74,8 +73,7 @@
     const/4 p1, 0x1
 
     iput-boolean p1, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;->zaf:Z
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic zaa(Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;)Lcom/google/android/gms/common/api/internal/RemoteCall;
@@ -362,8 +360,7 @@
     .end annotation
 
     iput-boolean p1, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;->zaf:Z
-
-    return-object p0
+return-object p0
 .end method
 
 .method public varargs setFeatures([Lcom/google/android/gms/common/Feature;)Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;

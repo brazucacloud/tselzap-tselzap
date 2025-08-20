@@ -87,8 +87,7 @@
 
     .line 9
     iput-boolean p2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$UnsafeDirectNioDecoder;->immutable:Z
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Ljava/nio/ByteBuffer;ZLandroidx/datastore/preferences/protobuf/CodedInputStream$1;)V
@@ -96,8 +95,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedInputStream$UnsafeDirectNioDecoder;-><init>(Ljava/nio/ByteBuffer;Z)V
-
-    return-void
+return-void
 .end method
 
 .method private bufferPos(J)I
@@ -1671,8 +1669,7 @@
 
     .line 17
     invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$UnsafeDirectNioDecoder;->popLimit(I)V
-
-    return-object p1
+return-object p1
 
     .line 18
     :cond_0
@@ -1727,8 +1724,7 @@
 
     .line 8
     invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$UnsafeDirectNioDecoder;->popLimit(I)V
-
-    return-void
+return-void
 
     .line 9
     :cond_0

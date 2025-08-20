@@ -718,7 +718,8 @@
 
     .line 24
     .line 25
-    invoke-direct {p0}, Landroid/view/animation/OvershootInterpolator;-><init>()V    return-object p0
+    invoke-direct {p0}, Landroid/view/animation/OvershootInterpolator;-><init>()V
+return-object p0
 
     .line 29
     :cond_1
@@ -726,7 +727,8 @@
 
     .line 30
     .line 31
-    invoke-direct {p0}, Landroid/view/animation/BounceInterpolator;-><init>()V    return-object p0
+    invoke-direct {p0}, Landroid/view/animation/BounceInterpolator;-><init>()V
+return-object p0
 
     .line 35
     :cond_2
@@ -734,7 +736,8 @@
 
     .line 36
     .line 37
-    invoke-direct {p0}, Landroid/view/animation/DecelerateInterpolator;-><init>()V    return-object p0
+    invoke-direct {p0}, Landroid/view/animation/DecelerateInterpolator;-><init>()V
+return-object p0
 
     .line 41
     :cond_3
@@ -742,7 +745,8 @@
 
     .line 42
     .line 43
-    invoke-direct {p0}, Landroid/view/animation/AccelerateInterpolator;-><init>()V    return-object p0
+    invoke-direct {p0}, Landroid/view/animation/AccelerateInterpolator;-><init>()V
+return-object p0
 
     .line 47
     :cond_4
@@ -750,7 +754,8 @@
 
     .line 48
     .line 49
-    invoke-direct {p0}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V    return-object p0
+    invoke-direct {p0}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
+return-object p0
 
     .line 53
     :cond_5
@@ -766,7 +771,8 @@
 
     .line 58
     .line 59
-    invoke-direct {p1, p0}, Landroidx/constraintlayout/motion/widget/MotionController$1;-><init>(Landroidx/constraintlayout/core/motion/utils/Easing;)V    return-object p1
+    invoke-direct {p1, p0}, Landroidx/constraintlayout/motion/widget/MotionController$1;-><init>(Landroidx/constraintlayout/core/motion/utils/Easing;)V
+return-object p1
 
     .line 63
     :cond_6
@@ -1227,7 +1233,8 @@
 
     .line 39
     .line 40
-    invoke-virtual {v1, v0, p1}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V    return-void
+    invoke-virtual {v1, v0, p1}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
+return-void
 .end method
 
 .method private readView(Landroidx/constraintlayout/motion/widget/MotionPaths;)V
@@ -1300,7 +1307,8 @@
     int-to-float v3, v3
 
     .line 31
-    invoke-virtual {p1, v0, v1, v2, v3}, Landroidx/constraintlayout/motion/widget/MotionPaths;->setBounds(FFFF)V    return-void
+    invoke-virtual {p1, v0, v1, v2, v3}, Landroidx/constraintlayout/motion/widget/MotionPaths;->setBounds(FFFF)V
+return-void
 .end method
 
 
@@ -2807,7 +2815,8 @@
 
     .line 22
     .line 23
-    invoke-virtual {p1, v0, v1, p2, p3}, Landroidx/constraintlayout/motion/widget/MotionPaths;->getRect([I[D[FI)V    return-void
+    invoke-virtual {p1, v0, v1, p2, p3}, Landroidx/constraintlayout/motion/widget/MotionPaths;->getRect([I[D[FI)V
+return-void
 .end method
 
 .method public buildRectangles([FI)V
@@ -3165,7 +3174,8 @@
     move-object v8, p4
 
     .line 32
-    invoke-virtual/range {v1 .. v8}, Landroidx/constraintlayout/motion/widget/MotionPaths;->getCenter(D[I[D[F[D[F)V    return-void
+    invoke-virtual/range {v1 .. v8}, Landroidx/constraintlayout/motion/widget/MotionPaths;->getCenter(D[I[D[F[D[F)V
+return-void
 .end method
 
 .method public getCenterX()F
@@ -3378,7 +3388,8 @@
 
     .line 90
     .line 91
-    invoke-virtual/range {v4 .. v10}, Landroidx/constraintlayout/motion/widget/MotionPaths;->setDpDt(FF[F[I[D[D)V    return-void
+    invoke-virtual/range {v4 .. v10}, Landroidx/constraintlayout/motion/widget/MotionPaths;->setDpDt(FF[F[I[D[D)V
+return-void
 
     .line 95
     :cond_3
@@ -6982,7 +6993,8 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mForceMeasure:Z    return-void
+    iput-boolean v0, p0, Landroidx/constraintlayout/motion/widget/MotionController;->mForceMeasure:Z
+return-void
 .end method
 
 .method public rotate(Landroid/graphics/Rect;Landroid/graphics/Rect;III)V
@@ -7698,7 +7710,8 @@
 
     .line 65
     .line 66
-    invoke-virtual {p3, p1, p2, v3, p4}, Landroidx/constraintlayout/motion/widget/MotionConstrainedPoint;->setState(Landroid/graphics/Rect;Landroidx/constraintlayout/widget/ConstraintSet;II)V    return-void
+    invoke-virtual {p3, p1, p2, v3, p4}, Landroidx/constraintlayout/motion/widget/MotionConstrainedPoint;->setState(Landroid/graphics/Rect;Landroidx/constraintlayout/widget/ConstraintSet;II)V
+return-void
 .end method
 
 .method public setPathMotionArc(I)V
@@ -10842,7 +10855,8 @@
 
     .line 11
     .line 12
-    invoke-virtual {v0, p1, v1}, Landroidx/constraintlayout/motion/widget/MotionPaths;->setupRelative(Landroidx/constraintlayout/motion/widget/MotionController;Landroidx/constraintlayout/motion/widget/MotionPaths;)V    return-void
+    invoke-virtual {v0, p1, v1}, Landroidx/constraintlayout/motion/widget/MotionPaths;->setupRelative(Landroidx/constraintlayout/motion/widget/MotionController;Landroidx/constraintlayout/motion/widget/MotionPaths;)V
+return-void
 .end method
 
 .method public toString()Ljava/lang/String;

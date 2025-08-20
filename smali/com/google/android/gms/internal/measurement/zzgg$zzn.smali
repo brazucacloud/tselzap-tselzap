@@ -150,8 +150,7 @@
     iget-object p0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzn;->zzg:Lcom/google/android/gms/internal/measurement/zzko;
 
     invoke-static {p1, p0}, Lcom/google/android/gms/internal/measurement/zziq;->zza(Ljava/lang/Iterable;Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method public static zzc()Lcom/google/android/gms/internal/measurement/zzgg$zzn$zza;
@@ -336,16 +335,14 @@
     new-instance p1, Lcom/google/android/gms/internal/measurement/zzgg$zzn$zza;
 
     invoke-direct {p1, p2}, Lcom/google/android/gms/internal/measurement/zzgg$zzn$zza;-><init>(Lcom/google/android/gms/internal/measurement/zzgp;)V
-
-    return-object p1
+return-object p1
 
     .line 17
     :pswitch_5
     new-instance p1, Lcom/google/android/gms/internal/measurement/zzgg$zzn;
 
     invoke-direct {p1}, Lcom/google/android/gms/internal/measurement/zzgg$zzn;-><init>()V
-
-    return-object p1
+return-object p1
 
     nop
 

@@ -317,8 +317,7 @@
     invoke-direct {v2, p2}, Landroidx/window/core/Bounds;-><init>(Landroid/graphics/Rect;)V
 
     invoke-direct {p1, v2, v0, v1}, Landroidx/window/layout/HardwareFoldingFeature;-><init>(Landroidx/window/core/Bounds;Landroidx/window/layout/HardwareFoldingFeature$Type;Landroidx/window/layout/FoldingFeature$State;)V
-
-    return-object p1
+return-object p1
 
     :cond_4
     return-object v3
@@ -408,8 +407,7 @@
     new-instance p1, Landroidx/window/layout/WindowLayoutInfo;
 
     invoke-direct {p1, v0}, Landroidx/window/layout/WindowLayoutInfo;-><init>(Ljava/util/List;)V
-
-    return-object p1
+return-object p1
 .end method
 
 .end class

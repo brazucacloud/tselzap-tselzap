@@ -64,8 +64,7 @@
 
     .line 8
     iput-boolean p4, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$ArrayDecoder;->immutable:Z
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>([BIIZLandroidx/datastore/preferences/protobuf/CodedInputStream$1;)V
@@ -73,8 +72,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Landroidx/datastore/preferences/protobuf/CodedInputStream$ArrayDecoder;-><init>([BIIZ)V
-
-    return-void
+return-void
 .end method
 
 .method private recomputeBufferSizeAfterLimit()V
@@ -155,11 +153,13 @@
 
     .line 9
     .line 10
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$ArrayDecoder;->skipRawVarintFastPath()V    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$ArrayDecoder;->skipRawVarintFastPath()V
+return-void
 
     .line 14
     :cond_0
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$ArrayDecoder;->skipRawVarintSlowPath()V    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$ArrayDecoder;->skipRawVarintSlowPath()V
+return-void
 .end method
 
 .method private skipRawVarintFastPath()V
@@ -294,7 +294,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$ArrayDecoder;->enableAliasing:Z    return-void
+    iput-boolean p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$ArrayDecoder;->enableAliasing:Z
+return-void
 .end method
 
 .method public getBytesUntilLimit()I
@@ -392,7 +393,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$ArrayDecoder;->recomputeBufferSizeAfterLimit()V    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$ArrayDecoder;->recomputeBufferSizeAfterLimit()V
+return-void
 .end method
 
 .method public pushLimit(I)I
@@ -1042,8 +1044,7 @@
 
     .line 17
     invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$ArrayDecoder;->popLimit(I)V
-
-    return-object p1
+return-object p1
 
     .line 18
     :cond_0
@@ -1098,8 +1099,7 @@
 
     .line 8
     invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$ArrayDecoder;->popLimit(I)V
-
-    return-void
+return-void
 
     .line 9
     :cond_0
@@ -2699,7 +2699,8 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {p0, p1, p2, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$ArrayDecoder;->readGroup(ILandroidx/datastore/preferences/protobuf/MessageLite$Builder;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V    return-void
+    invoke-virtual {p0, p1, p2, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$ArrayDecoder;->readGroup(ILandroidx/datastore/preferences/protobuf/MessageLite$Builder;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
+return-void
 .end method
 
 .method public resetSizeCounter()V

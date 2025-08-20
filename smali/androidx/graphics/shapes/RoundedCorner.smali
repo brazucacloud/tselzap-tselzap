@@ -192,8 +192,7 @@
 
     .line 15
     invoke-direct/range {v1 .. v9}, Landroidx/graphics/shapes/RoundedCorner;-><init>(JJJLandroidx/graphics/shapes/CornerRounding;Lkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(JJJLandroidx/graphics/shapes/CornerRounding;Lkotlin/jvm/internal/e;)V
@@ -201,8 +200,7 @@
 
     .line 1
     invoke-direct/range {p0 .. p7}, Landroidx/graphics/shapes/RoundedCorner;-><init>(JJJLandroidx/graphics/shapes/CornerRounding;)V
-
-    return-void
+return-void
 .end method
 
 .method private final calculateActualSmoothingValue(F)F

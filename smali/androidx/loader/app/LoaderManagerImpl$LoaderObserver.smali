@@ -121,7 +121,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {p2, p1}, Ljava/io/PrintWriter;->println(Z)V    return-void
+    invoke-virtual {p2, p1}, Ljava/io/PrintWriter;->println(Z)V
+return-void
 .end method
 
 .method public hasDeliveredData()Z
@@ -234,7 +235,8 @@
     const/4 p1, 0x1
 
     .line 48
-    iput-boolean p1, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderObserver;->mDeliveredData:Z    return-void
+    iput-boolean p1, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderObserver;->mDeliveredData:Z
+return-void
 .end method
 
 .method public reset()V

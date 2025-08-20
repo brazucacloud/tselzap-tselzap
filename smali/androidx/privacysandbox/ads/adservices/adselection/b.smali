@@ -86,8 +86,7 @@
     new-instance v0, Landroid/adservices/common/AdFilters$Builder;
 
     invoke-direct {v0}, Landroid/adservices/common/AdFilters$Builder;-><init>()V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic e(Landroid/adservices/common/AdFilters$Builder;Landroid/adservices/common/FrequencyCapFilters;)Landroid/adservices/common/AdFilters$Builder;
@@ -119,8 +118,7 @@
     new-instance v0, Landroid/adservices/common/FrequencyCapFilters$Builder;
 
     invoke-direct {v0}, Landroid/adservices/common/FrequencyCapFilters$Builder;-><init>()V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic h(Landroid/adservices/common/FrequencyCapFilters$Builder;Ljava/util/List;)Landroid/adservices/common/FrequencyCapFilters$Builder;
@@ -152,8 +150,7 @@
     new-instance v0, Landroid/adservices/common/KeyedFrequencyCap$Builder;
 
     invoke-direct {v0, p0, p1, p2}, Landroid/adservices/common/KeyedFrequencyCap$Builder;-><init>(IILjava/time/Duration;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic k(Landroid/adservices/common/KeyedFrequencyCap$Builder;)Landroid/adservices/common/KeyedFrequencyCap;
@@ -207,8 +204,7 @@
     new-instance v0, Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest$Builder;
 
     invoke-direct {v0, p0}, Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest$Builder;-><init>(Landroid/net/Uri;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic p(Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest$Builder;)Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest;
@@ -278,8 +274,7 @@
 
     .line 1
     invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/customaudience/CustomAudienceManager;->fetchAndJoinCustomAudience(Landroid/adservices/customaudience/FetchAndJoinCustomAudienceRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic w(Landroid/adservices/topics/EncryptedTopic;)[B

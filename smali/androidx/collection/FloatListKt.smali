@@ -91,8 +91,7 @@
     invoke-direct {v0, v1}, Landroidx/collection/MutableFloatList;-><init>(I)V
 
     invoke-virtual {v0, p0}, Landroidx/collection/MutableFloatList;->plusAssign([F)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableFloatListOf()Landroidx/collection/MutableFloatList;
@@ -108,8 +107,7 @@
     const/4 v3, 0x0
 
     invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatList;-><init>(IILkotlin/jvm/internal/e;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableFloatListOf(F)Landroidx/collection/MutableFloatList;
@@ -184,7 +182,6 @@
     invoke-direct {v0, v1}, Landroidx/collection/MutableFloatList;-><init>(I)V
 
     invoke-virtual {v0, p0}, Landroidx/collection/MutableFloatList;->plusAssign([F)V
-
-    return-object v0
+return-object v0
 .end method
 .end class

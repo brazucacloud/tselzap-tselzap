@@ -246,8 +246,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Landroidx/graphics/shapes/MeasuredPolygon;-><init>(Landroidx/graphics/shapes/Measurer;Ljava/util/List;Ljava/util/List;Landroidx/collection/FloatList;)V
-
-    return-void
+return-void
 .end method
 
 .method public static final synthetic access$getMeasurer$p(Landroidx/graphics/shapes/MeasuredPolygon;)Landroidx/graphics/shapes/Measurer;
@@ -857,7 +856,8 @@
 
     .line 267
     .line 268
-    invoke-direct {v0, v1, p1, v4, v6}, Landroidx/graphics/shapes/MeasuredPolygon;-><init>(Landroidx/graphics/shapes/Measurer;Ljava/util/List;Ljava/util/List;Landroidx/collection/FloatList;)V    return-object v0
+    invoke-direct {v0, v1, p1, v4, v6}, Landroidx/graphics/shapes/MeasuredPolygon;-><init>(Landroidx/graphics/shapes/Measurer;Ljava/util/List;Ljava/util/List;Landroidx/collection/FloatList;)V
+return-object v0
 
     .line 272
     :cond_8

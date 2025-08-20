@@ -135,8 +135,7 @@
     check-cast p1, Landroid/graphics/Bitmap;
 
     invoke-virtual {p0, p1, p2}, Lcom/fmark/tselzap/Utils/Tools$1;->onResourceReady(Landroid/graphics/Bitmap;LC/c;)V
-
-    return-void
+return-void
 .end method
 
 .end class

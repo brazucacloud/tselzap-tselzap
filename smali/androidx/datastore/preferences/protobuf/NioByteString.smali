@@ -639,7 +639,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/NioByteString$1;-><init>(Landroidx/datastore/preferences/protobuf/NioByteString;)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/NioByteString$1;-><init>(Landroidx/datastore/preferences/protobuf/NioByteString;)V
+return-object v0
 .end method
 
 .method public partialHash(III)I
@@ -882,7 +883,8 @@
 
     .line 42
     .line 43
-    invoke-direct {v3, v0, v2, v1, p1}, Ljava/lang/String;-><init>([BIILjava/nio/charset/Charset;)V    return-object v3
+    invoke-direct {v3, v0, v2, v1, p1}, Ljava/lang/String;-><init>([BIILjava/nio/charset/Charset;)V
+return-object v3
 .end method
 
 .method public writeTo(Landroidx/datastore/preferences/protobuf/ByteOutput;)V
@@ -896,8 +898,7 @@
     move-result-object v0
 
     invoke-virtual {p1, v0}, Landroidx/datastore/preferences/protobuf/ByteOutput;->writeLazy(Ljava/nio/ByteBuffer;)V
-
-    return-void
+return-void
 .end method
 
 .method public writeTo(Ljava/io/OutputStream;)V
@@ -909,8 +910,7 @@
     move-result-object v0
 
     invoke-virtual {p1, v0}, Ljava/io/OutputStream;->write([B)V
-
-    return-void
+return-void
 .end method
 
 .method public writeToInternal(Ljava/io/OutputStream;II)V
@@ -975,7 +975,8 @@
     move-result-object p2
 
     .line 29
-    invoke-virtual {p1, p2, v1, p3}, Ljava/io/OutputStream;->write([BII)V    return-void
+    invoke-virtual {p1, p2, v1, p3}, Ljava/io/OutputStream;->write([BII)V
+return-void
 
     .line 33
     :cond_0
@@ -990,6 +991,7 @@
     move-result-object p2
 
     .line 38
-    invoke-static {p2, p1}, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;->write(Ljava/nio/ByteBuffer;Ljava/io/OutputStream;)V    return-void
+    invoke-static {p2, p1}, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;->write(Ljava/nio/ByteBuffer;Ljava/io/OutputStream;)V
+return-void
 .end method
 .end class

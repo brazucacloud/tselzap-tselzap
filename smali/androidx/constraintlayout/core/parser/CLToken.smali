@@ -103,7 +103,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/constraintlayout/core/parser/CLToken;-><init>([C)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/constraintlayout/core/parser/CLToken;-><init>([C)V
+return-object v0
 .end method
 
 

@@ -53,7 +53,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, p1}, Landroidx/collection/ScatterSet$SetWrapper;-><init>(Landroidx/collection/ScatterSet;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/collection/ScatterSet$SetWrapper;-><init>(Landroidx/collection/ScatterSet;)V
+return-void
 .end method
 
 
@@ -127,7 +128,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/collection/MutableScatterSet;->clear()V    return-void
+    invoke-virtual {v0}, Landroidx/collection/MutableScatterSet;->clear()V
+return-void
 .end method
 
 .method public iterator()Ljava/util/Iterator;
@@ -149,7 +151,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1;-><init>(Landroidx/collection/MutableScatterSet;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1;-><init>(Landroidx/collection/MutableScatterSet;)V
+return-object v0
 .end method
 
 .method public remove(Ljava/lang/Object;)Z

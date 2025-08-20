@@ -144,8 +144,7 @@
 
     .line 10
     invoke-virtual {p1}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V
-
-    return-void
+return-void
 .end method
 
 .method private initTitle()V
@@ -1974,7 +1973,8 @@
     .line 26
     .line 27
     :cond_2
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public setSubtitle(Ljava/lang/CharSequence;)V
@@ -1985,7 +1985,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/appcompat/widget/ActionBarContextView;->initTitle()V    return-void
+    invoke-direct {p0}, Landroidx/appcompat/widget/ActionBarContextView;->initTitle()V
+return-void
 .end method
 
 .method public setTitle(Ljava/lang/CharSequence;)V
@@ -2022,7 +2023,8 @@
     .line 7
     .line 8
     :cond_0
-    iput-boolean p1, p0, Landroidx/appcompat/widget/ActionBarContextView;->mTitleOptional:Z    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/widget/ActionBarContextView;->mTitleOptional:Z
+return-void
 .end method
 
 .method public bridge synthetic setVisibility(I)V

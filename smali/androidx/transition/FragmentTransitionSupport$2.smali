@@ -47,7 +47,8 @@
 
     .line 6
     .line 7
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 
@@ -117,8 +118,7 @@
 
     .line 1
     invoke-static {p0, p1, p2}, Landroidx/transition/b;->a(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public onTransitionPause(Landroidx/transition/Transition;)V
@@ -162,7 +162,6 @@
 
     .line 1
     invoke-static {p0, p1, p2}, Landroidx/transition/b;->b(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
-
-    return-void
+return-void
 .end method
 .end class

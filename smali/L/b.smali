@@ -31,8 +31,7 @@
     iput-object p1, p0, LL/b;->c:Ljava/lang/Object;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -1641,8 +1640,7 @@
     check-cast v0, Lcom/google/firebase/database/android/AndroidAuthTokenProvider;
 
     invoke-static {v0, p1}, Lcom/google/firebase/database/android/AndroidAuthTokenProvider;->d(Lcom/google/firebase/database/android/AndroidAuthTokenProvider;Lcom/google/firebase/inject/Provider;)V
-
-    return-void
+return-void
 
     :sswitch_0
     iget-object v0, p0, LL/b;->c:Ljava/lang/Object;
@@ -1650,8 +1648,7 @@
     check-cast v0, Lcom/google/firebase/database/android/AndroidAppCheckTokenProvider;
 
     invoke-static {v0, p1}, Lcom/google/firebase/database/android/AndroidAppCheckTokenProvider;->b(Lcom/google/firebase/database/android/AndroidAppCheckTokenProvider;Lcom/google/firebase/inject/Provider;)V
-
-    return-void
+return-void
 
     :sswitch_1
     iget-object v0, p0, LL/b;->c:Ljava/lang/Object;
@@ -1659,8 +1656,7 @@
     check-cast v0, Lcom/google/firebase/crashlytics/internal/CrashlyticsRemoteConfigListener;
 
     invoke-static {v0, p1}, Lcom/google/firebase/crashlytics/internal/RemoteConfigDeferredProxy;->a(Lcom/google/firebase/crashlytics/internal/CrashlyticsRemoteConfigListener;Lcom/google/firebase/inject/Provider;)V
-
-    return-void
+return-void
 
     :sswitch_2
     iget-object v0, p0, LL/b;->c:Ljava/lang/Object;
@@ -1668,8 +1664,7 @@
     check-cast v0, Lcom/google/firebase/crashlytics/internal/CrashlyticsNativeComponentDeferredProxy;
 
     invoke-static {v0, p1}, Lcom/google/firebase/crashlytics/internal/CrashlyticsNativeComponentDeferredProxy;->b(Lcom/google/firebase/crashlytics/internal/CrashlyticsNativeComponentDeferredProxy;Lcom/google/firebase/inject/Provider;)V
-
-    return-void
+return-void
 
     nop
 
@@ -1690,8 +1685,7 @@
     check-cast v0, Landroidx/fragment/app/SpecialEffectsController$Operation;
 
     invoke-static {v0}, Landroidx/fragment/app/SpecialEffectsController$Operation;->a(Landroidx/fragment/app/SpecialEffectsController$Operation;)V
-
-    return-void
+return-void
 .end method
 
 .method public onCommitContent(Landroidx/core/view/inputmethod/InputContentInfoCompat;ILandroid/os/Bundle;)Z
@@ -1718,8 +1712,7 @@
     check-cast v0, Lp1/p;
 
     invoke-static {v0, p1, p2}, Landroidx/fragment/app/FragmentKt;->a(Lp1/p;Ljava/lang/String;Landroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 
 .method public then(Lcom/google/android/gms/tasks/Task;)Ljava/lang/Object;

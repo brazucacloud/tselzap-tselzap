@@ -22,7 +22,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 .method public static beginAsyncSection(Ljava/lang/String;I)V
@@ -55,7 +56,8 @@
     .line 9
     :catch_0
     :cond_0
-    invoke-static {p0, p1}, Landroidx/tracing/Trace;->beginAsyncSectionFallback(Ljava/lang/String;I)V    return-void
+    invoke-static {p0, p1}, Landroidx/tracing/Trace;->beginAsyncSectionFallback(Ljava/lang/String;I)V
+return-void
 .end method
 
 .method private static beginAsyncSectionFallback(Ljava/lang/String;I)V
@@ -196,7 +198,8 @@
 
     .line 61
     :goto_1
-    invoke-static {v4, p0}, Landroidx/tracing/Trace;->handleException(Ljava/lang/String;Ljava/lang/Exception;)V    return-void
+    invoke-static {v4, p0}, Landroidx/tracing/Trace;->handleException(Ljava/lang/String;Ljava/lang/Exception;)V
+return-void
 .end method
 
 .method public static beginSection(Ljava/lang/String;)V
@@ -207,7 +210,8 @@
     .end param
 
     .line 1
-    invoke-static {p0}, Landroidx/tracing/TraceApi18Impl;->beginSection(Ljava/lang/String;)V    return-void
+    invoke-static {p0}, Landroidx/tracing/TraceApi18Impl;->beginSection(Ljava/lang/String;)V
+return-void
 .end method
 
 .method public static endAsyncSection(Ljava/lang/String;I)V
@@ -240,7 +244,8 @@
     .line 9
     :catch_0
     :cond_0
-    invoke-static {p0, p1}, Landroidx/tracing/Trace;->endAsyncSectionFallback(Ljava/lang/String;I)V    return-void
+    invoke-static {p0, p1}, Landroidx/tracing/Trace;->endAsyncSectionFallback(Ljava/lang/String;I)V
+return-void
 .end method
 
 .method private static endAsyncSectionFallback(Ljava/lang/String;I)V
@@ -381,14 +386,16 @@
 
     .line 61
     :goto_1
-    invoke-static {v4, p0}, Landroidx/tracing/Trace;->handleException(Ljava/lang/String;Ljava/lang/Exception;)V    return-void
+    invoke-static {v4, p0}, Landroidx/tracing/Trace;->handleException(Ljava/lang/String;Ljava/lang/Exception;)V
+return-void
 .end method
 
 .method public static endSection()V
     .locals 0
 
     .line 1
-    invoke-static {}, Landroidx/tracing/TraceApi18Impl;->endSection()V    return-void
+    invoke-static {}, Landroidx/tracing/TraceApi18Impl;->endSection()V
+return-void
 .end method
 
 .method private static handleException(Ljava/lang/String;Ljava/lang/Exception;)V
@@ -705,7 +712,8 @@
     .line 9
     :catch_0
     :cond_0
-    invoke-static {p0, p1}, Landroidx/tracing/Trace;->setCounterFallback(Ljava/lang/String;I)V    return-void
+    invoke-static {p0, p1}, Landroidx/tracing/Trace;->setCounterFallback(Ljava/lang/String;I)V
+return-void
 .end method
 
 .method private static setCounterFallback(Ljava/lang/String;I)V
@@ -846,6 +854,7 @@
 
     .line 61
     :goto_1
-    invoke-static {v4, p0}, Landroidx/tracing/Trace;->handleException(Ljava/lang/String;Ljava/lang/Exception;)V    return-void
+    invoke-static {v4, p0}, Landroidx/tracing/Trace;->handleException(Ljava/lang/String;Ljava/lang/Exception;)V
+return-void
 .end method
 .end class

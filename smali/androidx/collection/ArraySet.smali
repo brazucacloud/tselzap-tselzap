@@ -50,8 +50,7 @@
     const/4 v2, 0x0
 
     invoke-direct {p0, v2, v0, v1}, Landroidx/collection/ArraySet;-><init>(IILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -91,8 +90,7 @@
     .line 6
     :cond_0
     invoke-direct {p0, p1}, Landroidx/collection/ArraySet;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/collection/ArraySet;)V
@@ -629,8 +627,7 @@
 
     .line 7
     invoke-virtual {p0, v5}, Landroidx/collection/ArraySet;->set_size$collection(I)V
-
-    return-void
+return-void
 
     .line 8
     :cond_0
@@ -1290,7 +1287,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/collection/ArraySet$ElementIterator;-><init>(Landroidx/collection/ArraySet;)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/collection/ArraySet$ElementIterator;-><init>(Landroidx/collection/ArraySet;)V
+return-object v0
 .end method
 
 .method public remove(Ljava/lang/Object;)Z
@@ -1466,7 +1464,8 @@
 
     .line 13
     .line 14
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;->clear()V    return-object v1
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->clear()V
+return-object v1
 
     .line 18
     :cond_0
@@ -1755,7 +1754,8 @@
 
     .line 153
     .line 154
-    invoke-virtual {p0, v3}, Landroidx/collection/ArraySet;->set_size$collection(I)V    return-object v1
+    invoke-virtual {p0, v3}, Landroidx/collection/ArraySet;->set_size$collection(I)V
+return-object v1
 
     .line 158
     :cond_6
@@ -1949,8 +1949,7 @@
     const-string v1, "copyOfRange(...)"
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public final toArray([Ljava/lang/Object;)[Ljava/lang/Object;
@@ -1982,8 +1981,7 @@
     iget v2, p0, Landroidx/collection/ArraySet;->_size:I
 
     invoke-static {v1, v1, v2, v0, p1}, Ld1/i;->W(III[Ljava/lang/Object;[Ljava/lang/Object;)V
-
-    return-object p1
+return-object p1
 .end method
 
 .method public toString()Ljava/lang/String;

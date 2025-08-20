@@ -293,11 +293,13 @@
     .line 90
     .line 91
     .line 92
-    invoke-virtual {p1}, Landroid/animation/ObjectAnimator;->start()V    return-void
+    invoke-virtual {p1}, Landroid/animation/ObjectAnimator;->start()V
+return-void
 
     .line 96
     :cond_4
-    invoke-virtual {v0, p1}, Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;->setProgress(F)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;->setProgress(F)V
+return-void
 .end method
 
 
@@ -375,7 +377,8 @@
 
     .line 34
     .line 35
-    invoke-virtual {p1, p0}, Landroidx/navigation/NavController;->removeOnDestinationChangedListener(Landroidx/navigation/NavController$OnDestinationChangedListener;)V    return-void
+    invoke-virtual {p1, p0}, Landroidx/navigation/NavController;->removeOnDestinationChangedListener(Landroidx/navigation/NavController$OnDestinationChangedListener;)V
+return-void
 
     .line 39
     :cond_2
@@ -424,7 +427,8 @@
 
     .line 60
     .line 61
-    invoke-virtual {p0, v1, p2}, Landroidx/navigation/ui/AbstractAppBarOnDestinationChangedListener;->setNavigationIcon(Landroid/graphics/drawable/Drawable;I)V    return-void
+    invoke-virtual {p0, v1, p2}, Landroidx/navigation/ui/AbstractAppBarOnDestinationChangedListener;->setNavigationIcon(Landroid/graphics/drawable/Drawable;I)V
+return-void
 
     .line 65
     :cond_4
@@ -440,7 +444,8 @@
 
     .line 70
     :cond_5
-    invoke-direct {p0, p2}, Landroidx/navigation/ui/AbstractAppBarOnDestinationChangedListener;->setActionBarUpIndicator(Z)V    return-void
+    invoke-direct {p0, p2}, Landroidx/navigation/ui/AbstractAppBarOnDestinationChangedListener;->setActionBarUpIndicator(Z)V
+return-void
 .end method
 
 .method public abstract setNavigationIcon(Landroid/graphics/drawable/Drawable;I)V

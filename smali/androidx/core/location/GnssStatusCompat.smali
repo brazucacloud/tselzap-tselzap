@@ -108,8 +108,7 @@
     new-instance v0, Landroidx/core/location/GnssStatusWrapper;
 
     invoke-direct {v0, p0}, Landroidx/core/location/GnssStatusWrapper;-><init>(Ljava/lang/Object;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static wrap(Landroid/location/GpsStatus;)Landroidx/core/location/GnssStatusCompat;
@@ -131,8 +130,7 @@
     new-instance v0, Landroidx/core/location/GpsStatusWrapper;
 
     invoke-direct {v0, p0}, Landroidx/core/location/GpsStatusWrapper;-><init>(Landroid/location/GpsStatus;)V
-
-    return-object v0
+return-object v0
 .end method
 
 

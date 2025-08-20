@@ -224,8 +224,7 @@
     iget-object v1, p0, Lcom/google/android/gms/measurement/internal/zzaz;->zzc:Ljava/lang/Runnable;
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
-
-    return-void
+return-void
 .end method
 
 .method public final zza(J)V

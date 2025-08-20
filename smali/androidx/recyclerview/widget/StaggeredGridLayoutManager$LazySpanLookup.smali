@@ -43,7 +43,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 .method private invalidateFullSpansAfter(I)I
@@ -464,7 +465,8 @@
 
     .line 47
     .line 48
-    invoke-interface {v0, v1, p1}, Ljava/util/List;->add(ILjava/lang/Object;)V    return-void
+    invoke-interface {v0, v1, p1}, Ljava/util/List;->add(ILjava/lang/Object;)V
+return-void
 
     .line 52
     :cond_2
@@ -480,7 +482,8 @@
 
     .line 56
     .line 57
-    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z    return-void
+    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+return-void
 .end method
 
 .method public clear()V
@@ -549,7 +552,8 @@
 
     .line 17
     .line 18
-    invoke-static {p1, v1}, Ljava/util/Arrays;->fill([II)V    return-void
+    invoke-static {p1, v1}, Ljava/util/Arrays;->fill([II)V
+return-void
 
     .line 22
     :cond_0

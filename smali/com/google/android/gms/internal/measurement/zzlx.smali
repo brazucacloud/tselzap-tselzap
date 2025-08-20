@@ -113,8 +113,7 @@
     new-instance v0, Lcom/google/android/gms/internal/measurement/zzlx;
 
     invoke-direct {v0, p0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzlx;-><init>(Lcom/google/android/gms/internal/measurement/zzmz;Lcom/google/android/gms/internal/measurement/zzjx;Lcom/google/android/gms/internal/measurement/zzlr;)V
-
-    return-object v0
+return-object v0
 .end method
 
 
@@ -240,8 +239,7 @@
 
     .line 17
     invoke-virtual {v0, p1, v2}, Lcom/google/android/gms/internal/measurement/zzmz;->zzb(Ljava/lang/Object;Ljava/lang/Object;)V
-
-    return-void
+return-void
 
     .line 18
     :cond_1
@@ -402,8 +400,7 @@
 
     .line 35
     invoke-virtual {v0, p1, v2}, Lcom/google/android/gms/internal/measurement/zzmz;->zzb(Ljava/lang/Object;Ljava/lang/Object;)V
-
-    return-void
+return-void
 
     .line 36
     :cond_c
@@ -548,8 +545,7 @@
     move-result-object p1
 
     invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzmz;->zza(Ljava/lang/Object;Lcom/google/android/gms/internal/measurement/zznq;)V
-
-    return-void
+return-void
 .end method
 
 .method public final zza(Ljava/lang/Object;Ljava/lang/Object;)V

@@ -73,8 +73,7 @@
     move-result-object v1
 
     invoke-direct {v0, v1}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;-><init>(Ljava/lang/Object;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static obtain(Landroidx/core/view/accessibility/AccessibilityRecordCompat;)Landroidx/core/view/accessibility/AccessibilityRecordCompat;
@@ -92,8 +91,7 @@
     move-result-object p0
 
     invoke-direct {v0, p0}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;-><init>(Ljava/lang/Object;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static setMaxScrollX(Landroid/view/accessibility/AccessibilityRecord;I)V
@@ -105,8 +103,7 @@
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setMaxScrollX(I)V
-
-    return-void
+return-void
 .end method
 
 .method public static setMaxScrollY(Landroid/view/accessibility/AccessibilityRecord;I)V
@@ -118,8 +115,7 @@
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setMaxScrollY(I)V
-
-    return-void
+return-void
 .end method
 
 .method public static setSource(Landroid/view/accessibility/AccessibilityRecord;Landroid/view/View;I)V
@@ -918,8 +914,7 @@
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-static {v0, p1}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->setMaxScrollX(Landroid/view/accessibility/AccessibilityRecord;I)V
-
-    return-void
+return-void
 .end method
 
 .method public setMaxScrollY(I)V
@@ -931,8 +926,7 @@
     iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     invoke-static {v0, p1}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->setMaxScrollY(Landroid/view/accessibility/AccessibilityRecord;I)V
-
-    return-void
+return-void
 .end method
 
 .method public setParcelableData(Landroid/os/Parcelable;)V

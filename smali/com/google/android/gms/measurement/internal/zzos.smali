@@ -437,8 +437,7 @@
 
     .line 17
     invoke-direct {p0, p1, v2, v0, v1}, Lcom/google/android/gms/measurement/internal/zzos;-><init>(Landroid/content/SharedPreferences;ILB0/n;LB0/o;)V
-
-    return-void
+return-void
 .end method
 
 .method private constructor <init>(Landroid/content/SharedPreferences;ILB0/n;LB0/o;)V

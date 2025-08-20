@@ -209,8 +209,7 @@
     invoke-direct {v0}, Lu0/n;-><init>()V
 
     invoke-direct {p0, v0}, Lu0/j;-><init>(Lu0/n;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
@@ -226,8 +225,7 @@
     move-result-object p1
 
     invoke-direct {p0, p1}, Lu0/j;-><init>(Lu0/n;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Lu0/h;)V
@@ -425,8 +423,7 @@
     invoke-direct {v0, p1}, Lu0/h;-><init>(Lu0/n;)V
 
     invoke-direct {p0, v0}, Lu0/j;-><init>(Lu0/h;)V
-
-    return-void
+return-void
 .end method
 
 .method public static b(Landroid/graphics/RectF;Lu0/n;[F)F

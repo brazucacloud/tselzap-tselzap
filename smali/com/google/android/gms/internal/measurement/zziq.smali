@@ -60,8 +60,7 @@
 
     .line 4
     invoke-static {p0, p1}, Lcom/google/android/gms/internal/measurement/zzis;->zza(Ljava/lang/Iterable;Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 

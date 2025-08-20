@@ -90,8 +90,7 @@
 
     .line 15
     invoke-direct {p0, p1, p2, v0}, Lcom/android/volley/RequestQueue;-><init>(Lcom/android/volley/Cache;Lcom/android/volley/Network;I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Lcom/android/volley/Cache;Lcom/android/volley/Network;I)V
@@ -113,8 +112,7 @@
 
     .line 14
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/android/volley/RequestQueue;-><init>(Lcom/android/volley/Cache;Lcom/android/volley/Network;ILcom/android/volley/ResponseDelivery;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Lcom/android/volley/Cache;Lcom/android/volley/Network;ILcom/android/volley/ResponseDelivery;)V
@@ -560,8 +558,7 @@
     invoke-direct {v0, p0, p1}, Lcom/android/volley/RequestQueue$1;-><init>(Lcom/android/volley/RequestQueue;Ljava/lang/Object;)V
 
     invoke-virtual {p0, v0}, Lcom/android/volley/RequestQueue;->cancelAll(Lcom/android/volley/RequestQueue$RequestFilter;)V
-
-    return-void
+return-void
 
     .line 7
     :cond_0

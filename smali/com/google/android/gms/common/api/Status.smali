@@ -233,8 +233,7 @@
 
     .line 2
     invoke-direct {p0, p1, v0}, Lcom/google/android/gms/common/api/Status;-><init>(ILjava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(ILjava/lang/String;)V
@@ -248,8 +247,7 @@
 
     .line 4
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/gms/common/api/Status;-><init>(ILjava/lang/String;Landroid/app/PendingIntent;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(ILjava/lang/String;Landroid/app/PendingIntent;)V
@@ -267,8 +265,7 @@
 
     .line 6
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/google/android/gms/common/api/Status;-><init>(ILjava/lang/String;Landroid/app/PendingIntent;Lcom/google/android/gms/common/ConnectionResult;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(ILjava/lang/String;Landroid/app/PendingIntent;Lcom/google/android/gms/common/ConnectionResult;)V
@@ -334,8 +331,7 @@
 
     .line 3
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/gms/common/api/Status;-><init>(Lcom/google/android/gms/common/ConnectionResult;Ljava/lang/String;I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Lcom/google/android/gms/common/ConnectionResult;Ljava/lang/String;I)V
@@ -360,8 +356,7 @@
     move-result-object v0
 
     invoke-direct {p0, p3, p2, v0, p1}, Lcom/google/android/gms/common/api/Status;-><init>(ILjava/lang/String;Landroid/app/PendingIntent;Lcom/google/android/gms/common/ConnectionResult;)V
-
-    return-void
+return-void
 .end method
 
 
@@ -736,8 +731,7 @@
 
     .line 5
     invoke-virtual/range {v1 .. v8}, Landroid/app/Activity;->startIntentSenderForResult(Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 
 .method public startResolutionForResult(Landroidx/activity/result/ActivityResultLauncher;)V
@@ -784,8 +778,7 @@
 
     .line 8
     invoke-virtual {p1, v0}, Landroidx/activity/result/ActivityResultLauncher;->launch(Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public toString()Ljava/lang/String;

@@ -56,7 +56,8 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+return-object v0
 .end method
 
 .method public static final mutableScatterSetOf()Landroidx/collection/MutableScatterSet;
@@ -81,8 +82,7 @@
     const/4 v3, 0x0
 
     invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableScatterSet;-><init>(IILkotlin/jvm/internal/e;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableScatterSetOf(Ljava/lang/Object;)Landroidx/collection/MutableScatterSet;
@@ -106,8 +106,7 @@
 
     .line 3
     invoke-virtual {v0, p0}, Landroidx/collection/MutableScatterSet;->plusAssign(Ljava/lang/Object;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableScatterSetOf(Ljava/lang/Object;Ljava/lang/Object;)Landroidx/collection/MutableScatterSet;
@@ -134,8 +133,7 @@
 
     .line 6
     invoke-virtual {v0, p1}, Landroidx/collection/MutableScatterSet;->plusAssign(Ljava/lang/Object;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableScatterSetOf(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Landroidx/collection/MutableScatterSet;
@@ -165,8 +163,7 @@
 
     .line 10
     invoke-virtual {v0, p2}, Landroidx/collection/MutableScatterSet;->plusAssign(Ljava/lang/Object;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final varargs mutableScatterSetOf([Ljava/lang/Object;)Landroidx/collection/MutableScatterSet;
@@ -193,8 +190,7 @@
     invoke-direct {v0, v1}, Landroidx/collection/MutableScatterSet;-><init>(I)V
 
     invoke-virtual {v0, p0}, Landroidx/collection/MutableScatterSet;->plusAssign([Ljava/lang/Object;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final scatterSetOf()Landroidx/collection/ScatterSet;
@@ -215,8 +211,7 @@
     const-string v1, "null cannot be cast to non-null type androidx.collection.ScatterSet<E of androidx.collection.ScatterSetKt.scatterSetOf>"
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final scatterSetOf(Ljava/lang/Object;)Landroidx/collection/ScatterSet;
@@ -303,7 +298,6 @@
     invoke-direct {v0, v1}, Landroidx/collection/MutableScatterSet;-><init>(I)V
 
     invoke-virtual {v0, p0}, Landroidx/collection/MutableScatterSet;->plusAssign([Ljava/lang/Object;)V
-
-    return-object v0
+return-object v0
 .end method
 .end class

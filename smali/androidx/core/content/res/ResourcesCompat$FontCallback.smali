@@ -32,8 +32,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/core/content/res/ResourcesCompat$FontCallback;->lambda$callbackSuccessAsync$0(Landroid/graphics/Typeface;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic b(Landroidx/core/content/res/ResourcesCompat$FontCallback;I)V
@@ -41,8 +40,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/core/content/res/ResourcesCompat$FontCallback;->lambda$callbackFailAsync$1(I)V
-
-    return-void
+return-void
 .end method
 
 .method public static getHandler(Landroid/os/Handler;)Landroid/os/Handler;

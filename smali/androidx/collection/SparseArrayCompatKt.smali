@@ -28,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/collection/SparseArrayCompatKt;->gc(Landroidx/collection/SparseArrayCompat;)V    return-void
+    invoke-static {p0}, Landroidx/collection/SparseArrayCompatKt;->gc(Landroidx/collection/SparseArrayCompat;)V
+return-void
 .end method
 
 .method public static final synthetic access$getDELETED$p()Ljava/lang/Object;
@@ -84,7 +85,8 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0, p1, p2}, Landroidx/collection/SparseArrayCompat;->put(ILjava/lang/Object;)V    return-void
+    invoke-virtual {p0, p1, p2}, Landroidx/collection/SparseArrayCompat;->put(ILjava/lang/Object;)V
+return-void
 
     .line 22
     :cond_0
@@ -270,7 +272,8 @@
 
     .line 21
     .line 22
-    iput-boolean v2, p0, Landroidx/collection/SparseArrayCompat;->garbage:Z    return-void
+    iput-boolean v2, p0, Landroidx/collection/SparseArrayCompat;->garbage:Z
+return-void
 .end method
 
 .method public static final commonContainsKey(Landroidx/collection/SparseArrayCompat;I)Z

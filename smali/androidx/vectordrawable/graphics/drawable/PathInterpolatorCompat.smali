@@ -42,8 +42,7 @@
     move-result-object p1
 
     invoke-direct {p0, v0, p1, p2, p3}, Landroidx/vectordrawable/graphics/drawable/PathInterpolatorCompat;-><init>(Landroid/content/res/Resources;Landroid/content/res/Resources$Theme;Landroid/util/AttributeSet;Lorg/xmlpull/v1/XmlPullParser;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/res/Resources;Landroid/content/res/Resources$Theme;Landroid/util/AttributeSet;Lorg/xmlpull/v1/XmlPullParser;)V
@@ -64,8 +63,7 @@
 
     .line 5
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-
-    return-void
+return-void
 .end method
 
 .method private initCubic(FFFF)V
@@ -114,7 +112,8 @@
     .line 19
     .line 20
     .line 21
-    invoke-direct {p0, v0}, Landroidx/vectordrawable/graphics/drawable/PathInterpolatorCompat;->initPath(Landroid/graphics/Path;)V    return-void
+    invoke-direct {p0, v0}, Landroidx/vectordrawable/graphics/drawable/PathInterpolatorCompat;->initPath(Landroid/graphics/Path;)V
+return-void
 .end method
 
 .method private initPath(Landroid/graphics/Path;)V
@@ -688,7 +687,8 @@
     .line 13
     .line 14
     .line 15
-    invoke-direct {p0, v0}, Landroidx/vectordrawable/graphics/drawable/PathInterpolatorCompat;->initPath(Landroid/graphics/Path;)V    return-void
+    invoke-direct {p0, v0}, Landroidx/vectordrawable/graphics/drawable/PathInterpolatorCompat;->initPath(Landroid/graphics/Path;)V
+return-void
 .end method
 
 .method private parseInterpolatorFromTypeArray(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;)V
@@ -734,7 +734,8 @@
 
     .line 19
     .line 20
-    invoke-direct {p0, p2}, Landroidx/vectordrawable/graphics/drawable/PathInterpolatorCompat;->initPath(Landroid/graphics/Path;)V    return-void
+    invoke-direct {p0, p2}, Landroidx/vectordrawable/graphics/drawable/PathInterpolatorCompat;->initPath(Landroid/graphics/Path;)V
+return-void
 
     .line 24
     :cond_0
@@ -852,7 +853,8 @@
 
     .line 78
     .line 79
-    invoke-direct {p0, v0, v1}, Landroidx/vectordrawable/graphics/drawable/PathInterpolatorCompat;->initQuad(FF)V    return-void
+    invoke-direct {p0, v0, v1}, Landroidx/vectordrawable/graphics/drawable/PathInterpolatorCompat;->initQuad(FF)V
+return-void
 
     .line 83
     :cond_2
@@ -878,7 +880,8 @@
     move-result p1
 
     .line 93
-    invoke-direct {p0, v0, v1, v2, p1}, Landroidx/vectordrawable/graphics/drawable/PathInterpolatorCompat;->initCubic(FFFF)V    return-void
+    invoke-direct {p0, v0, v1, v2, p1}, Landroidx/vectordrawable/graphics/drawable/PathInterpolatorCompat;->initCubic(FFFF)V
+return-void
 
     .line 97
     :cond_3

@@ -55,8 +55,7 @@
     move-object v2, p1
 
     invoke-direct/range {v0 .. v9}, Lcom/google/android/gms/internal/measurement/zzic;-><init>(Ljava/lang/String;Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;ZZZZLA0/b;)V
-
-    return-void
+return-void
 .end method
 
 .method private constructor <init>(Ljava/lang/String;Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;ZZZZLA0/b;)V
@@ -241,8 +240,7 @@
     const/4 v7, 0x1
 
     invoke-direct/range {v0 .. v9}, Lcom/google/android/gms/internal/measurement/zzic;-><init>(Ljava/lang/String;Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;ZZZZLA0/b;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public final zzb()Lcom/google/android/gms/internal/measurement/zzic;

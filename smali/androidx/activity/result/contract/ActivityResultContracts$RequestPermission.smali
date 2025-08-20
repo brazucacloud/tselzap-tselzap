@@ -28,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/activity/result/contract/ActivityResultContract;-><init>()V    return-void
+    invoke-direct {p0}, Landroidx/activity/result/contract/ActivityResultContract;-><init>()V
+return-void
 .end method
 
 
@@ -119,8 +120,7 @@
     sget-object p2, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     invoke-direct {p1, p2}, Landroidx/activity/result/contract/ActivityResultContract$SynchronousResult;-><init>(Ljava/lang/Object;)V
-
-    return-object p1
+return-object p1
 
     :cond_0
     const/4 p1, 0x0

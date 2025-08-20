@@ -132,8 +132,7 @@
 
     .line 1
     invoke-interface {p0, p1, p2}, Landroid/view/inspector/PropertyReader;->readResourceId(II)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic i(Landroid/view/inspector/PropertyMapper;I)I

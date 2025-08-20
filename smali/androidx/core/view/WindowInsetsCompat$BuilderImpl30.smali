@@ -24,8 +24,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/core/view/WindowInsetsCompat$BuilderImpl29;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/core/view/WindowInsetsCompat;)V
@@ -37,8 +36,7 @@
 
     .line 2
     invoke-direct {p0, p1}, Landroidx/core/view/WindowInsetsCompat$BuilderImpl29;-><init>(Landroidx/core/view/WindowInsetsCompat;)V
-
-    return-void
+return-void
 .end method
 
 

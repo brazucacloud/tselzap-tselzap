@@ -200,7 +200,8 @@
     move-result-wide v0
 
     .line 5
-    invoke-virtual {p0, p1, p2, v0, v1}, Landroid/widget/AdapterView;->performItemClick(Landroid/view/View;IJ)Z    return-void
+    invoke-virtual {p0, p1, p2, v0, v1}, Landroid/widget/AdapterView;->performItemClick(Landroid/view/View;IJ)Z
+return-void
 .end method
 
 .method private drawSelectorCompat(Landroid/graphics/Canvas;)V
@@ -718,7 +719,8 @@
     .line 79
     .line 80
     .line 81
-    invoke-virtual {p0}, Landroid/view/View;->refreshDrawableState()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->refreshDrawableState()V
+return-void
 .end method
 
 .method private setSelectorEnabled(Z)V
@@ -905,7 +907,8 @@
     .line 11
     .line 12
     .line 13
-    invoke-direct {p0}, Landroidx/appcompat/widget/DropDownListView;->updateSelectorStateCompat()V    return-void
+    invoke-direct {p0}, Landroidx/appcompat/widget/DropDownListView;->updateSelectorStateCompat()V
+return-void
 .end method
 
 .method public hasFocus()Z
@@ -2122,7 +2125,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/appcompat/widget/DropDownListView;->mListSelectionHidden:Z    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/widget/DropDownListView;->mListSelectionHidden:Z
+return-void
 .end method
 
 .method public setSelector(Landroid/graphics/drawable/Drawable;)V

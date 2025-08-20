@@ -191,8 +191,7 @@
     const/4 p1, 0x1
 
     iput-boolean p1, p0, Lcom/google/android/gms/common/api/Batch;->zaf:Z
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic zad(Lcom/google/android/gms/common/api/Batch;Z)V
@@ -201,8 +200,7 @@
     const/4 p1, 0x1
 
     iput-boolean p1, p0, Lcom/google/android/gms/common/api/Batch;->zag:Z
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic zae(Lcom/google/android/gms/common/api/Batch;I)V
@@ -310,8 +308,7 @@
     new-instance v1, Lcom/google/android/gms/common/api/BatchResult;
 
     invoke-direct {v1, p1, v0}, Lcom/google/android/gms/common/api/BatchResult;-><init>(Lcom/google/android/gms/common/api/Status;[Lcom/google/android/gms/common/api/PendingResult;)V
-
-    return-object v1
+return-object v1
 .end method
 
 .method public final bridge synthetic createFailedResult(Lcom/google/android/gms/common/api/Status;)Lcom/google/android/gms/common/api/Result;

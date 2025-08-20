@@ -45,8 +45,7 @@
     new-instance v0, Landroidx/core/graphics/drawable/RoundedBitmapDrawable21;
 
     invoke-direct {v0, p0, p1}, Landroidx/core/graphics/drawable/RoundedBitmapDrawable21;-><init>(Landroid/content/res/Resources;Landroid/graphics/Bitmap;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static create(Landroid/content/res/Resources;Ljava/io/InputStream;)Landroidx/core/graphics/drawable/RoundedBitmapDrawable;

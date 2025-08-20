@@ -11,8 +11,7 @@
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method private static zzc(Ljava/lang/Object;J)Lcom/google/android/gms/internal/measurement/zzkr;
@@ -165,8 +164,7 @@
     .line 13
     :cond_2
     invoke-static {p1, p3, p4, p2}, Lcom/google/android/gms/internal/measurement/zzna;->zza(Ljava/lang/Object;JLjava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public final zzb(Ljava/lang/Object;J)V

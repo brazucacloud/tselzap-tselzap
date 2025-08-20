@@ -973,7 +973,8 @@
 
     .line 98
     :goto_1
-    iput-boolean p2, p1, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;->mPendingInvalidate:Z    return-void
+    iput-boolean p2, p1, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;->mPendingInvalidate:Z
+return-void
 
     .line 101
     :cond_3
@@ -1101,7 +1102,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->recycleAndClearCachedViews()V    return-void
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->recycleAndClearCachedViews()V
+return-void
 .end method
 
 .method public clearOldPositions()V
@@ -2853,7 +2855,8 @@
     .line 45
     :cond_3
     :goto_1
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->recycleAndClearCachedViews()V    return-void
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->recycleAndClearCachedViews()V
+return-void
 .end method
 
 .method public offsetPositionRecordsForInsert(II)V
@@ -3408,14 +3411,16 @@
     .line 13
     .line 14
     .line 15
-    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->maybeSendPoolingContainerAttach()V    return-void
+    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->maybeSendPoolingContainerAttach()V
+return-void
 .end method
 
 .method public onAttachedToWindow()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->maybeSendPoolingContainerAttach()V    return-void
+    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->maybeSendPoolingContainerAttach()V
+return-void
 .end method
 
 .method public onDetachedFromWindow()V
@@ -4793,7 +4798,8 @@
     .line 31
     .line 32
     :cond_1
-    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->maybeSendPoolingContainerAttach()V    return-void
+    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->maybeSendPoolingContainerAttach()V
+return-void
 .end method
 
 .method public setViewCacheExtension(Landroidx/recyclerview/widget/RecyclerView$ViewCacheExtension;)V
@@ -4811,7 +4817,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->updateViewCacheSize()V    return-void
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->updateViewCacheSize()V
+return-void
 .end method
 
 .method public tryGetViewHolderForPositionByDeadline(IZJ)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
@@ -6003,7 +6010,8 @@
 
     .line 575
     :goto_a
-    iput-boolean v6, v3, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;->mPendingInvalidate:Z    return-object v1
+    iput-boolean v6, v3, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;->mPendingInvalidate:Z
+return-object v1
 
     .line 578
     :cond_1a
@@ -6120,7 +6128,8 @@
 
     .line 21
     .line 22
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->clearReturnedFromScrapFlag()V    return-void
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->clearReturnedFromScrapFlag()V
+return-void
 .end method
 
 .method public updateViewCacheSize()V

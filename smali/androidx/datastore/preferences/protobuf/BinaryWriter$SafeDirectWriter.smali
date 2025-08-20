@@ -69,8 +69,7 @@
     move-result-object v0
 
     invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->nextBuffer(Landroidx/datastore/preferences/protobuf/AllocatedBuffer;)V
-
-    return-void
+return-void
 .end method
 
 .method private nextBuffer(I)V
@@ -82,8 +81,7 @@
     move-result-object p1
 
     invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->nextBuffer(Landroidx/datastore/preferences/protobuf/AllocatedBuffer;)V
-
-    return-void
+return-void
 .end method
 
 .method private nextBuffer(Landroidx/datastore/preferences/protobuf/AllocatedBuffer;)V
@@ -1993,8 +1991,7 @@
 
     .line 3
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->writeTag(II)V
-
-    return-void
+return-void
 .end method
 
 .method public writeBool(Z)V
@@ -2004,8 +2001,7 @@
 
     .line 4
     invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->write(B)V
-
-    return-void
+return-void
 .end method
 
 .method public writeBytes(ILandroidx/datastore/preferences/protobuf/ByteString;)V
@@ -2143,8 +2139,7 @@
 
     .line 3
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->writeTag(II)V
-
-    return-void
+return-void
 .end method
 
 .method public writeFixed64(IJ)V
@@ -2162,8 +2157,7 @@
 
     .line 3
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->writeTag(II)V
-
-    return-void
+return-void
 .end method
 
 .method public writeFixed64(J)V
@@ -2205,8 +2199,7 @@
 
     .line 3
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->writeTag(II)V
-
-    return-void
+return-void
 .end method
 
 .method public writeGroup(ILjava/lang/Object;Landroidx/datastore/preferences/protobuf/Schema;)V
@@ -2224,8 +2217,7 @@
 
     .line 6
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->writeTag(II)V
-
-    return-void
+return-void
 .end method
 
 .method public writeInt32(I)V
@@ -2262,8 +2254,7 @@
 
     .line 3
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->writeTag(II)V
-
-    return-void
+return-void
 .end method
 
 .method public writeLazy(Ljava/nio/ByteBuffer;)V
@@ -2299,8 +2290,7 @@
 
     .line 12
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->nextBuffer()V
-
-    return-void
+return-void
 
     .line 13
     :cond_0
@@ -2353,8 +2343,7 @@
 
     .line 4
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->nextBuffer()V
-
-    return-void
+return-void
 
     .line 5
     :cond_0
@@ -2413,8 +2402,7 @@
 
     .line 6
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->writeTag(II)V
-
-    return-void
+return-void
 .end method
 
 .method public writeMessage(ILjava/lang/Object;Landroidx/datastore/preferences/protobuf/Schema;)V
@@ -2447,8 +2435,7 @@
 
     .line 12
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->writeTag(II)V
-
-    return-void
+return-void
 .end method
 
 .method public writeSInt32(I)V
@@ -2479,8 +2466,7 @@
 
     .line 3
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->writeTag(II)V
-
-    return-void
+return-void
 .end method
 
 .method public writeSInt64(IJ)V
@@ -2498,8 +2484,7 @@
 
     .line 3
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->writeTag(II)V
-
-    return-void
+return-void
 .end method
 
 .method public writeSInt64(J)V
@@ -2560,8 +2545,7 @@
 
     .line 6
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;->writeTag(II)V
-
-    return-void
+return-void
 .end method
 
 .method public writeString(Ljava/lang/String;)V

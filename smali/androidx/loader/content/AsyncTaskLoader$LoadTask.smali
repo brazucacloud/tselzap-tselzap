@@ -145,7 +145,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Ljava/util/concurrent/CountDownLatch;->countDown()V    return-void
+    invoke-virtual {p1}, Ljava/util/concurrent/CountDownLatch;->countDown()V
+return-void
 
     .line 12
     :catchall_0
@@ -188,7 +189,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Ljava/util/concurrent/CountDownLatch;->countDown()V    return-void
+    invoke-virtual {p1}, Ljava/util/concurrent/CountDownLatch;->countDown()V
+return-void
 
     .line 12
     :catchall_0
@@ -221,7 +223,8 @@
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Landroidx/loader/content/AsyncTaskLoader;->executePendingTask()V    return-void
+    invoke-virtual {v0}, Landroidx/loader/content/AsyncTaskLoader;->executePendingTask()V
+return-void
 .end method
 
 .method public waitForLoader()V

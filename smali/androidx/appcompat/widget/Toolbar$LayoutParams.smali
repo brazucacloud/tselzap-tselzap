@@ -36,8 +36,7 @@
 
     .line 9
     invoke-direct {p0, v0, v1, p1}, Landroidx/appcompat/widget/Toolbar$LayoutParams;-><init>(III)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(II)V

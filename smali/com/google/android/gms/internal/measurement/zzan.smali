@@ -179,8 +179,7 @@
     new-instance v0, Lcom/google/android/gms/internal/measurement/zzam;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/measurement/zzam;-><init>(Ljava/util/Iterator;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .end class

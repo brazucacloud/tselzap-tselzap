@@ -49,8 +49,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/collection/LongIntMap;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic getKeys$annotations()V
@@ -421,8 +420,7 @@
     const-string v1, "StringBuilder().apply(builderAction).toString()"
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object v0
+return-object v0
 
     .line 21
     :cond_b
@@ -3271,8 +3269,7 @@
     const-string v1, "StringBuilder().apply(builderAction).toString()"
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public final joinToString(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lp1/p;)Ljava/lang/String;
@@ -3477,8 +3474,7 @@
     const-string v1, "StringBuilder().apply(builderAction).toString()"
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public final joinToString(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILp1/p;)Ljava/lang/String;
@@ -3692,8 +3688,7 @@
     const-string v1, "StringBuilder().apply(builderAction).toString()"
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public final joinToString(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Lp1/p;)Ljava/lang/String;
@@ -3893,8 +3888,7 @@
     const-string v1, "StringBuilder().apply(builderAction).toString()"
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public final joinToString(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Lp1/p;)Ljava/lang/String;
@@ -4085,8 +4079,7 @@
     const-string v2, "StringBuilder().apply(builderAction).toString()"
 
     invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object v1
+return-object v1
 .end method
 
 .method public final joinToString(Ljava/lang/CharSequence;Lp1/p;)Ljava/lang/String;
@@ -4278,8 +4271,7 @@
     const-string v1, "StringBuilder().apply(builderAction).toString()"
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public final joinToString(Lp1/p;)Ljava/lang/String;
@@ -4462,8 +4454,7 @@
     const-string v2, "StringBuilder().apply(builderAction).toString()"
 
     invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object v1
+return-object v1
 .end method
 
 .method public final none()Z

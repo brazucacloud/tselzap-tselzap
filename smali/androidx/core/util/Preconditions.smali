@@ -765,8 +765,7 @@
 
     .line 2
     invoke-static {p0, v0}, Landroidx/core/util/Preconditions;->checkState(ZLjava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public static checkState(ZLjava/lang/String;)V

@@ -77,8 +77,7 @@
 
     .line 1
     invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -90,8 +89,7 @@
     invoke-direct {v0, p1}, Ljava/util/ArrayList;-><init>(I)V
 
     invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;-><init>(Ljava/util/ArrayList;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/datastore/preferences/protobuf/LazyStringList;)V
@@ -113,8 +111,7 @@
 
     .line 5
     invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;->addAll(Ljava/util/Collection;)Z
-
-    return-void
+return-void
 .end method
 
 .method private constructor <init>(Ljava/util/ArrayList;)V
@@ -154,8 +151,7 @@
     invoke-direct {v0, p1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
     invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;-><init>(Ljava/util/ArrayList;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic access$000(Landroidx/datastore/preferences/protobuf/LazyStringArrayList;I[B)Ljava/lang/Object;
@@ -190,7 +186,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;->add(I[B)V    return-void
+    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;->add(I[B)V
+return-void
 .end method
 
 .method public static synthetic access$300(Landroidx/datastore/preferences/protobuf/LazyStringArrayList;ILandroidx/datastore/preferences/protobuf/ByteString;)Ljava/lang/Object;
@@ -225,7 +222,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;->add(ILandroidx/datastore/preferences/protobuf/ByteString;)V    return-void
+    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;->add(ILandroidx/datastore/preferences/protobuf/ByteString;)V
+return-void
 .end method
 
 .method private add(ILandroidx/datastore/preferences/protobuf/ByteString;)V
@@ -477,8 +475,7 @@
     check-cast p2, Ljava/lang/String;
 
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;->add(ILjava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public add(ILjava/lang/String;)V
@@ -1003,7 +1000,8 @@
 
     .line 8
     .line 9
-    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList;-><init>(Landroidx/datastore/preferences/protobuf/LazyStringList;)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList;-><init>(Landroidx/datastore/preferences/protobuf/LazyStringList;)V
+return-object v0
 
     .line 13
     :cond_0
@@ -1171,8 +1169,7 @@
     new-instance p1, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;
 
     invoke-direct {p1, v0}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;-><init>(Ljava/util/ArrayList;)V
-
-    return-object p1
+return-object p1
 
     .line 6
     :cond_0

@@ -37,8 +37,7 @@
     move-result-object v0
 
     invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;-><init>(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Landroidx/datastore/preferences/PreferencesProto$1;)V
@@ -46,8 +45,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$StringSet$Builder;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -78,7 +76,8 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/PreferencesProto$StringSet;->access$2600(Landroidx/datastore/preferences/PreferencesProto$StringSet;Ljava/lang/Iterable;)V    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/PreferencesProto$StringSet;->access$2600(Landroidx/datastore/preferences/PreferencesProto$StringSet;Ljava/lang/Iterable;)V
+return-object p0
 .end method
 
 .method public addStrings(Ljava/lang/String;)Landroidx/datastore/preferences/PreferencesProto$StringSet$Builder;
@@ -98,7 +97,8 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/PreferencesProto$StringSet;->access$2500(Landroidx/datastore/preferences/PreferencesProto$StringSet;Ljava/lang/String;)V    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/PreferencesProto$StringSet;->access$2500(Landroidx/datastore/preferences/PreferencesProto$StringSet;Ljava/lang/String;)V
+return-object p0
 .end method
 
 .method public addStringsBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/PreferencesProto$StringSet$Builder;
@@ -118,7 +118,8 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/PreferencesProto$StringSet;->access$2800(Landroidx/datastore/preferences/PreferencesProto$StringSet;Landroidx/datastore/preferences/protobuf/ByteString;)V    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/PreferencesProto$StringSet;->access$2800(Landroidx/datastore/preferences/PreferencesProto$StringSet;Landroidx/datastore/preferences/protobuf/ByteString;)V
+return-object p0
 .end method
 
 .method public clearStrings()Landroidx/datastore/preferences/PreferencesProto$StringSet$Builder;
@@ -138,7 +139,8 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Landroidx/datastore/preferences/PreferencesProto$StringSet;->access$2700(Landroidx/datastore/preferences/PreferencesProto$StringSet;)V    return-object p0
+    invoke-static {v0}, Landroidx/datastore/preferences/PreferencesProto$StringSet;->access$2700(Landroidx/datastore/preferences/PreferencesProto$StringSet;)V
+return-object p0
 .end method
 
 .method public getStrings(I)Ljava/lang/String;
@@ -262,6 +264,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1, p2}, Landroidx/datastore/preferences/PreferencesProto$StringSet;->access$2400(Landroidx/datastore/preferences/PreferencesProto$StringSet;ILjava/lang/String;)V    return-object p0
+    invoke-static {v0, p1, p2}, Landroidx/datastore/preferences/PreferencesProto$StringSet;->access$2400(Landroidx/datastore/preferences/PreferencesProto$StringSet;ILjava/lang/String;)V
+return-object p0
 .end method
 .end class

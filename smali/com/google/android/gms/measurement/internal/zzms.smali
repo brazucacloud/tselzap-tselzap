@@ -29,8 +29,7 @@
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzms;->zza:Lcom/google/android/gms/measurement/internal/zzmp;
 
     invoke-static {v0}, Lcom/google/android/gms/measurement/internal/zzmp;->zzc(Lcom/google/android/gms/measurement/internal/zzmp;)V
-
-    return-void
+return-void
 .end method
 
 .end class

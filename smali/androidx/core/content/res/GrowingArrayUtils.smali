@@ -224,8 +224,7 @@
     sub-int/2addr v0, p2
 
     invoke-static {p0, p2, p1, p3, v0}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
-
-    return-object p1
+return-object p1
 .end method
 
 .method public static insert([JIIJ)[J
@@ -274,8 +273,7 @@
     sub-int/2addr p4, p2
 
     invoke-static {p0, p2, p1, p3, p4}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
-
-    return-object p1
+return-object p1
 .end method
 
 .method public static insert([Ljava/lang/Object;IILjava/lang/Object;)[Ljava/lang/Object;
@@ -345,8 +343,7 @@
     sub-int/2addr v0, p2
 
     invoke-static {p0, p2, p1, p3, v0}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
-
-    return-object p1
+return-object p1
 .end method
 
 .method public static insert([ZIIZ)[Z
@@ -395,8 +392,7 @@
     sub-int/2addr v0, p2
 
     invoke-static {p0, p2, p1, p3, v0}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
-
-    return-object p1
+return-object p1
 .end method
 
 .end class

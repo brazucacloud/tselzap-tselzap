@@ -33,8 +33,7 @@
 
     .line 1
     invoke-direct {p0}, Lcom/fmark/tselzap/Services/NotificationReceiver;->lambda$onListenerDisconnected$6()V
-
-    return-void
+return-void
 .end method
 
 .method private addContactIfNeeded(Ljava/lang/String;Ljava/lang/String;)V
@@ -395,8 +394,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/fmark/tselzap/Services/NotificationReceiver;->lambda$sendToApi$1(Landroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;Lorg/json/JSONObject;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic e(Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/List;I)V
@@ -404,8 +402,7 @@
 
     .line 1
     invoke-static/range {p0 .. p6}, Lcom/fmark/tselzap/Services/NotificationReceiver;->lambda$processMessageResponse$3(Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/List;I)V
-
-    return-void
+return-void
 .end method
 
 .method private extractNumberFromText(Ljava/lang/String;)Ljava/lang/String;
@@ -613,8 +610,7 @@
 
     .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/fmark/tselzap/Services/NotificationReceiver;->lambda$processMessageResponse$4(Ljava/util/List;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/List;I)V
-
-    return-void
+return-void
 .end method
 
 .method private findReplyAction(Landroid/app/Notification;)Landroidx/core/app/NotificationCompat$Action;
@@ -753,8 +749,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Lcom/fmark/tselzap/Services/NotificationReceiver;->lambda$onNotificationPosted$0(Landroid/service/notification/StatusBarNotification;)V
-
-    return-void
+return-void
 .end method
 
 .method private getRemoteInputs(Landroid/app/Notification;)Ljava/util/ArrayList;

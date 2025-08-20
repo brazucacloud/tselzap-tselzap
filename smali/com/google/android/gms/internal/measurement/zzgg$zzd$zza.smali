@@ -37,8 +37,7 @@
     move-result-object v0
 
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/measurement/zzki$zzb;-><init>(Lcom/google/android/gms/internal/measurement/zzki;)V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Lcom/google/android/gms/internal/measurement/zzgp;)V
@@ -46,8 +45,7 @@
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzgg$zzd$zza;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -64,8 +62,7 @@
     check-cast v0, Lcom/google/android/gms/internal/measurement/zzgg$zzd;
 
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/measurement/zzgg$zzd;->zza(Lcom/google/android/gms/internal/measurement/zzgg$zzd;I)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public final zza(Lcom/google/android/gms/internal/measurement/zzgg$zzm$zza;)Lcom/google/android/gms/internal/measurement/zzgg$zzd$zza;
@@ -88,8 +85,7 @@
     check-cast p1, Lcom/google/android/gms/internal/measurement/zzgg$zzm;
 
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/measurement/zzgg$zzd;->zza(Lcom/google/android/gms/internal/measurement/zzgg$zzd;Lcom/google/android/gms/internal/measurement/zzgg$zzm;)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public final zza(Lcom/google/android/gms/internal/measurement/zzgg$zzm;)Lcom/google/android/gms/internal/measurement/zzgg$zzd$zza;
@@ -104,8 +100,7 @@
     check-cast v0, Lcom/google/android/gms/internal/measurement/zzgg$zzd;
 
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/measurement/zzgg$zzd;->zzb(Lcom/google/android/gms/internal/measurement/zzgg$zzd;Lcom/google/android/gms/internal/measurement/zzgg$zzm;)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public final zza(Z)Lcom/google/android/gms/internal/measurement/zzgg$zzd$zza;
@@ -120,8 +115,7 @@
     check-cast v0, Lcom/google/android/gms/internal/measurement/zzgg$zzd;
 
     invoke-static {v0, p1}, Lcom/google/android/gms/internal/measurement/zzgg$zzd;->zza(Lcom/google/android/gms/internal/measurement/zzgg$zzd;Z)V
-
-    return-object p0
+return-object p0
 .end method
 
 .end class

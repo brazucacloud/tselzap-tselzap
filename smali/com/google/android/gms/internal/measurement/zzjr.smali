@@ -71,8 +71,7 @@
 
     .line 2
     invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzja;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Lcom/google/android/gms/internal/measurement/zzjs;)V
@@ -80,8 +79,7 @@
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzjr;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public static zza(D)I
@@ -434,8 +432,7 @@
     const/4 v2, 0x0
 
     invoke-direct {v1, p0, v2, v0}, Lcom/google/android/gms/internal/measurement/zzjr$zza;-><init>([BII)V
-
-    return-object v1
+return-object v1
 .end method
 
 .method public static zzc(IJ)I
@@ -1067,8 +1064,7 @@
     move-result-wide p1
 
     invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzjr;->zza(J)V
-
-    return-void
+return-void
 .end method
 
 .method public final zzb(F)V
@@ -1080,8 +1076,7 @@
     move-result p1
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/measurement/zzjr;->zza(I)V
-
-    return-void
+return-void
 .end method
 
 .method public abstract zzb(I)V
@@ -1096,8 +1091,7 @@
     move-result-wide p2
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzjr;->zza(IJ)V
-
-    return-void
+return-void
 .end method
 
 .method public final zzb(IF)V
@@ -1109,8 +1103,7 @@
     move-result p2
 
     invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzjr;->zza(II)V
-
-    return-void
+return-void
 .end method
 
 .method public abstract zzb(II)V
@@ -1132,8 +1125,7 @@
 
     .line 24
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/measurement/zzjr;->zza(B)V
-
-    return-void
+return-void
 .end method
 
 .method public abstract zzb([BII)V
@@ -1157,8 +1149,7 @@
     move-result-wide p2
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzjr;->zzb(IJ)V
-
-    return-void
+return-void
 .end method
 
 .method public final zzh(J)V
@@ -1170,8 +1161,7 @@
     move-result-wide p1
 
     invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzjr;->zzb(J)V
-
-    return-void
+return-void
 .end method
 
 .method public final zzk(I)V
@@ -1183,8 +1173,7 @@
     move-result p1
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/measurement/zzjr;->zzc(I)V
-
-    return-void
+return-void
 .end method
 
 .method public final zzk(II)V
@@ -1196,8 +1185,7 @@
     move-result p2
 
     invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzjr;->zzd(II)V
-
-    return-void
+return-void
 .end method
 
 .end class

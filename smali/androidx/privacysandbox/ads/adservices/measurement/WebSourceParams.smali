@@ -58,7 +58,8 @@
 
     .line 10
     .line 11
-    iput-boolean p2, p0, Landroidx/privacysandbox/ads/adservices/measurement/WebSourceParams;->debugKeyAllowed:Z    return-void
+    iput-boolean p2, p0, Landroidx/privacysandbox/ads/adservices/measurement/WebSourceParams;->debugKeyAllowed:Z
+return-void
 .end method
 
 

@@ -81,7 +81,8 @@
 
     .line 19
     .line 20
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/Oscillator;->mNormalized:Z    return-void
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/Oscillator;->mNormalized:Z
+return-void
 .end method
 
 
@@ -204,7 +205,8 @@
     const/4 p1, 0x0
 
     .line 56
-    iput-boolean p1, p0, Landroidx/constraintlayout/core/motion/utils/Oscillator;->mNormalized:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/core/motion/utils/Oscillator;->mNormalized:Z
+return-void
 .end method
 
 .method public getDP(D)D
@@ -1136,7 +1138,8 @@
 
     .line 106
     :cond_3
-    iput-boolean v3, p0, Landroidx/constraintlayout/core/motion/utils/Oscillator;->mNormalized:Z    return-void
+    iput-boolean v3, p0, Landroidx/constraintlayout/core/motion/utils/Oscillator;->mNormalized:Z
+return-void
 .end method
 
 .method public setType(ILjava/lang/String;)V

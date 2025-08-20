@@ -64,8 +64,7 @@
     iget-object v1, p0, Lcom/android/volley/toolbox/ImageLoader$2;->val$cacheKey:Ljava/lang/String;
 
     invoke-virtual {v0, v1, p1}, Lcom/android/volley/toolbox/ImageLoader;->onGetImageSuccess(Ljava/lang/String;Landroid/graphics/Bitmap;)V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic onResponse(Ljava/lang/Object;)V
@@ -75,8 +74,7 @@
     check-cast p1, Landroid/graphics/Bitmap;
 
     invoke-virtual {p0, p1}, Lcom/android/volley/toolbox/ImageLoader$2;->onResponse(Landroid/graphics/Bitmap;)V
-
-    return-void
+return-void
 .end method
 
 .end class

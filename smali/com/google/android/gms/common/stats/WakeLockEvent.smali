@@ -266,8 +266,7 @@
     move/from16 p1, p18
 
     iput-boolean p1, p0, Lcom/google/android/gms/common/stats/WakeLockEvent;->zzo:Z
-
-    return-void
+return-void
 .end method
 
 

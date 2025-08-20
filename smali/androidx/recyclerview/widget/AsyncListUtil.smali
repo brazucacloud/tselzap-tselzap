@@ -294,7 +294,8 @@
 
     .line 78
     .line 79
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/AsyncListUtil;->refresh()V    return-void
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/AsyncListUtil;->refresh()V
+return-void
 .end method
 
 .method private isRefreshPending()Z
@@ -508,7 +509,8 @@
     const/4 v0, 0x1
 
     .line 12
-    iput-boolean v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mAllowScrollHints:Z    return-void
+    iput-boolean v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mAllowScrollHints:Z
+return-void
 .end method
 
 .method public refresh()V
@@ -540,7 +542,8 @@
 
     .line 13
     .line 14
-    invoke-interface {v0, v1}, Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;->refresh(I)V    return-void
+    invoke-interface {v0, v1}, Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;->refresh(I)V
+return-void
 .end method
 
 .method public updateRange()V

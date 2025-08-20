@@ -979,7 +979,8 @@
     .line 2
     .line 3
     .line 4
-    invoke-direct {p0}, Landroidx/fragment/app/ListFragment;->ensureList()V    return-void
+    invoke-direct {p0}, Landroidx/fragment/app/ListFragment;->ensureList()V
+return-void
 .end method
 
 .method public final requireListAdapter()Landroid/widget/ListAdapter;
@@ -1215,8 +1216,7 @@
 
     .line 1
     invoke-direct {p0, p1, v0}, Landroidx/fragment/app/ListFragment;->setListShown(ZZ)V
-
-    return-void
+return-void
 .end method
 
 .method public setListShownNoAnimation(Z)V
@@ -1226,7 +1226,8 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, p1, v0}, Landroidx/fragment/app/ListFragment;->setListShown(ZZ)V    return-void
+    invoke-direct {p0, p1, v0}, Landroidx/fragment/app/ListFragment;->setListShown(ZZ)V
+return-void
 .end method
 
 .method public setSelection(I)V

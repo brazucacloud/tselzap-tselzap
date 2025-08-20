@@ -117,8 +117,7 @@
 
     .line 1
     invoke-virtual {p0, p1, v0}, Landroidx/transition/ChangeBounds$ClipListener;->onAnimationEnd(Landroid/animation/Animator;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public onAnimationEnd(Landroid/animation/Animator;Z)V
@@ -206,8 +205,7 @@
 
     .line 1
     invoke-virtual {p0, p1, v0}, Landroidx/transition/ChangeBounds$ClipListener;->onAnimationStart(Landroid/animation/Animator;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public onAnimationStart(Landroid/animation/Animator;Z)V
@@ -308,7 +306,8 @@
     const/4 p1, 0x1
 
     .line 2
-    iput-boolean p1, p0, Landroidx/transition/ChangeBounds$ClipListener;->mIsCanceled:Z    return-void
+    iput-boolean p1, p0, Landroidx/transition/ChangeBounds$ClipListener;->mIsCanceled:Z
+return-void
 .end method
 
 .method public onTransitionEnd(Landroidx/transition/Transition;)V
@@ -326,8 +325,7 @@
 
     .line 2
     invoke-static {p0, p1, p2}, Landroidx/transition/b;->a(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public onTransitionPause(Landroidx/transition/Transition;)V
@@ -452,7 +450,6 @@
 
     .line 2
     invoke-static {p0, p1, p2}, Landroidx/transition/b;->b(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
-
-    return-void
+return-void
 .end method
 .end class

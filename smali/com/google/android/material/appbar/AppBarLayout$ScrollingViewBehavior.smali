@@ -20,8 +20,7 @@
 
     .line 1
     invoke-direct {p0}, La0/g;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -50,8 +49,7 @@
 
     .line 7
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-
-    return-void
+return-void
 .end method
 
 .method public static h(Ljava/util/List;)Lcom/google/android/material/appbar/AppBarLayout;

@@ -56,8 +56,7 @@
 
     .line 1
     invoke-static {p0, p1}, Landroidx/lifecycle/b;->a(Landroidx/lifecycle/DefaultLifecycleObserver;Landroidx/lifecycle/LifecycleOwner;)V
-
-    return-void
+return-void
 .end method
 
 .method public final synthetic onDestroy(Landroidx/lifecycle/LifecycleOwner;)V
@@ -65,8 +64,7 @@
 
     .line 1
     invoke-static {p0, p1}, Landroidx/lifecycle/b;->b(Landroidx/lifecycle/DefaultLifecycleObserver;Landroidx/lifecycle/LifecycleOwner;)V
-
-    return-void
+return-void
 .end method
 
 .method public final synthetic onPause(Landroidx/lifecycle/LifecycleOwner;)V
@@ -74,8 +72,7 @@
 
     .line 1
     invoke-static {p0, p1}, Landroidx/lifecycle/b;->c(Landroidx/lifecycle/DefaultLifecycleObserver;Landroidx/lifecycle/LifecycleOwner;)V
-
-    return-void
+return-void
 .end method
 
 .method public onResume(Landroidx/lifecycle/LifecycleOwner;)V
@@ -112,8 +109,7 @@
 
     .line 1
     invoke-static {p0, p1}, Landroidx/lifecycle/b;->e(Landroidx/lifecycle/DefaultLifecycleObserver;Landroidx/lifecycle/LifecycleOwner;)V
-
-    return-void
+return-void
 .end method
 
 .method public final synthetic onStop(Landroidx/lifecycle/LifecycleOwner;)V
@@ -121,8 +117,7 @@
 
     .line 1
     invoke-static {p0, p1}, Landroidx/lifecycle/b;->f(Landroidx/lifecycle/DefaultLifecycleObserver;Landroidx/lifecycle/LifecycleOwner;)V
-
-    return-void
+return-void
 .end method
 
 .end class

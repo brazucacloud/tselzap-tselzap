@@ -23,8 +23,7 @@
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Landroidx/datastore/preferences/protobuf/ByteString$1;)V
@@ -32,8 +31,7 @@
 
     .line 2
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/ByteString$ArraysByteArrayCopier;-><init>()V
-
-    return-void
+return-void
 .end method
 
 

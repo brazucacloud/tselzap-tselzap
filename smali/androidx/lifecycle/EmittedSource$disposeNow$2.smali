@@ -59,7 +59,8 @@
     const/4 p1, 0x2
 
     .line 4
-    invoke-direct {p0, p1, p2}, Li1/i;-><init>(ILg1/d;)V    return-void
+    invoke-direct {p0, p1, p2}, Li1/i;-><init>(ILg1/d;)V
+return-void
 .end method
 
 
@@ -87,7 +88,8 @@
 
     .line 4
     .line 5
-    invoke-direct {p1, v0, p2}, Landroidx/lifecycle/EmittedSource$disposeNow$2;-><init>(Landroidx/lifecycle/EmittedSource;Lg1/d;)V    return-object p1
+    invoke-direct {p1, v0, p2}, Landroidx/lifecycle/EmittedSource$disposeNow$2;-><init>(Landroidx/lifecycle/EmittedSource;Lg1/d;)V
+return-object p1
 .end method
 
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;

@@ -43,8 +43,7 @@
     const/4 v1, 0x1
 
     invoke-direct {p0, v0, v1, v0}, Landroidx/graphics/shapes/Cubic;-><init>([FILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method private constructor <init>(JJJJ)V
@@ -128,8 +127,7 @@
 
     .line 14
     invoke-direct {p0, p8}, Landroidx/graphics/shapes/Cubic;-><init>([F)V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(JJJJLkotlin/jvm/internal/e;)V
@@ -137,8 +135,7 @@
 
     .line 2
     invoke-direct/range {p0 .. p8}, Landroidx/graphics/shapes/Cubic;-><init>(JJJJ)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>([F)V
@@ -186,8 +183,7 @@
 
     :cond_0
     invoke-direct {p0, p1}, Landroidx/graphics/shapes/Cubic;-><init>([F)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic calculateBounds$graphics_shapes_release$default(Landroidx/graphics/shapes/Cubic;[FZILjava/lang/Object;)V
@@ -226,7 +222,8 @@
 
     .line 15
     :cond_1
-    invoke-virtual {p0, p1, p2}, Landroidx/graphics/shapes/Cubic;->calculateBounds$graphics_shapes_release([FZ)V    return-void
+    invoke-virtual {p0, p1, p2}, Landroidx/graphics/shapes/Cubic;->calculateBounds$graphics_shapes_release([FZ)V
+return-void
 
     .line 19
     :cond_2
@@ -1819,7 +1816,8 @@
 
     .line 28
     .line 29
-    invoke-direct {p1, v1}, Landroidx/graphics/shapes/Cubic;-><init>([F)V    return-object p1
+    invoke-direct {p1, v1}, Landroidx/graphics/shapes/Cubic;-><init>([F)V
+return-object p1
 .end method
 
 .method public final pointOnCurve-OOQOV4g$graphics_shapes_release(F)J
@@ -2493,7 +2491,8 @@
 
     .line 196
     .line 197
-    invoke-direct {v1, v3, v0}, Lc1/f;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V    return-object v1
+    invoke-direct {v1, v3, v0}, Lc1/f;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+return-object v1
 .end method
 
 .method public final times(F)Landroidx/graphics/shapes/Cubic;
@@ -2525,8 +2524,7 @@
     new-instance p1, Landroidx/graphics/shapes/Cubic;
 
     invoke-direct {p1, v1}, Landroidx/graphics/shapes/Cubic;-><init>([F)V
-
-    return-object p1
+return-object p1
 .end method
 
 .method public final times(I)Landroidx/graphics/shapes/Cubic;
@@ -2778,7 +2776,8 @@
     .line 20
     .line 21
     .line 22
-    invoke-virtual {v0, p1}, Landroidx/graphics/shapes/MutableCubic;->transform(Landroidx/graphics/shapes/PointTransformer;)V    return-object v0
+    invoke-virtual {v0, p1}, Landroidx/graphics/shapes/MutableCubic;->transform(Landroidx/graphics/shapes/PointTransformer;)V
+return-object v0
 .end method
 
 .method public final zeroLength$graphics_shapes_release()Z

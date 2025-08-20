@@ -18,8 +18,7 @@
     iput p1, p0, Lk/F;->a:I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 

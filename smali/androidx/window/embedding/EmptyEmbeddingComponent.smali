@@ -35,8 +35,7 @@
     const-string v0, "splitRules"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public setSplitInfoCallback(Ljava/util/function/Consumer;)V
@@ -54,8 +53,7 @@
     const-string v0, "consumer"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .end class

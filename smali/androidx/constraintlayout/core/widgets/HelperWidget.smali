@@ -366,7 +366,8 @@
     const/4 v1, 0x0
 
     .line 7
-    invoke-static {v0, v1}, Ljava/util/Arrays;->fill([Ljava/lang/Object;Ljava/lang/Object;)V    return-void
+    invoke-static {v0, v1}, Ljava/util/Arrays;->fill([Ljava/lang/Object;Ljava/lang/Object;)V
+return-void
 .end method
 
 .method public updateConstraints(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;)V

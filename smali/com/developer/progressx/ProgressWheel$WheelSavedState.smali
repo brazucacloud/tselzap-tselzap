@@ -182,8 +182,7 @@
 
     :cond_2
     iput-boolean v1, p0, Lcom/developer/progressx/ProgressWheel$WheelSavedState;->fillRadius:Z
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Landroid/os/Parcel;Lcom/developer/progressx/ProgressWheel$1;)V
@@ -191,8 +190,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Lcom/developer/progressx/ProgressWheel$WheelSavedState;-><init>(Landroid/os/Parcel;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/os/Parcelable;)V

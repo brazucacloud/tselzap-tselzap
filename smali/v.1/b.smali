@@ -42,8 +42,7 @@
     new-instance v0, Lv/c;
 
     invoke-direct {v0, p0}, Lv/c;-><init>(Lv/b;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public final newDrawable(Landroid/content/res/Resources;)Landroid/graphics/drawable/Drawable;
@@ -53,8 +52,7 @@
     new-instance p1, Lv/c;
 
     invoke-direct {p1, p0}, Lv/c;-><init>(Lv/b;)V
-
-    return-object p1
+return-object p1
 .end method
 
 .end class

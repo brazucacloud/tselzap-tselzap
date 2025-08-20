@@ -27,7 +27,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/activity/result/ActivityResultRegistry;-><init>()V    return-void
+    invoke-direct {p0}, Landroidx/activity/result/ActivityResultRegistry;-><init>()V
+return-void
 .end method
 
 
@@ -99,7 +100,8 @@
     .line 21
     .line 22
     .line 23
-    invoke-virtual {p2, p3}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z    return-void
+    invoke-virtual {p2, p3}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+return-void
 
     .line 27
     :cond_0
@@ -265,7 +267,8 @@
     .line 102
     .line 103
     :cond_4
-    invoke-static {v0, p2, p1}, Landroidx/core/app/ActivityCompat;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V    return-void
+    invoke-static {v0, p2, p1}, Landroidx/core/app/ActivityCompat;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V
+return-void
 
     .line 107
     :cond_5
@@ -422,6 +425,7 @@
     move v2, p1
 
     .line 174
-    invoke-static {v0, p2, v2, v7}, Landroidx/core/app/ActivityCompat;->startActivityForResult(Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)V    return-void
+    invoke-static {v0, p2, v2, v7}, Landroidx/core/app/ActivityCompat;->startActivityForResult(Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)V
+return-void
 .end method
 .end class

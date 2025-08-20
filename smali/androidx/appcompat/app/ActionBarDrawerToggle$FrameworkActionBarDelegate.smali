@@ -122,7 +122,8 @@
     move-result-object v1
 
     .line 25
-    invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V    return-object v1
+    invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
+return-object v1
 .end method
 
 .method public isNavigationVisible()Z

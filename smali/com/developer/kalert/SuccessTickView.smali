@@ -99,8 +99,7 @@
 
     .line 9
     invoke-direct {p0}, Lcom/developer/kalert/SuccessTickView;->init()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -172,8 +171,7 @@
 
     .line 18
     invoke-direct {p0}, Lcom/developer/kalert/SuccessTickView;->init()V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic access$002(Lcom/developer/kalert/SuccessTickView;Z)Z

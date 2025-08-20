@@ -125,7 +125,8 @@
 
     .line 26
     .line 27
-    iput-boolean v0, p0, Landroidx/recyclerview/widget/RecyclerView$State;->mRunPredictiveAnimations:Z    return-void
+    iput-boolean v0, p0, Landroidx/recyclerview/widget/RecyclerView$State;->mRunPredictiveAnimations:Z
+return-void
 .end method
 
 
@@ -382,7 +383,8 @@
 
     .line 14
     .line 15
-    iput-boolean p1, p0, Landroidx/recyclerview/widget/RecyclerView$State;->mIsMeasuring:Z    return-void
+    iput-boolean p1, p0, Landroidx/recyclerview/widget/RecyclerView$State;->mIsMeasuring:Z
+return-void
 .end method
 
 .method public put(ILjava/lang/Object;)V
@@ -415,7 +417,8 @@
 
     .line 13
     .line 14
-    invoke-virtual {v0, p1, p2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V    return-void
+    invoke-virtual {v0, p1, p2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
+return-void
 .end method
 
 .method public remove(I)V
@@ -430,7 +433,8 @@
 
     .line 6
     :cond_0
-    invoke-virtual {v0, p1}, Landroid/util/SparseArray;->remove(I)V    return-void
+    invoke-virtual {v0, p1}, Landroid/util/SparseArray;->remove(I)V
+return-void
 .end method
 
 .method public toString()Ljava/lang/String;

@@ -70,8 +70,7 @@
     sget v1, Landroidx/appcompat/R$drawable;->abc_ic_ab_back_material:I
 
     invoke-direct {p0, p1, p2, v0, v1}, Landroidx/appcompat/widget/ToolbarWidgetWrapper;-><init>(Landroidx/appcompat/widget/Toolbar;ZII)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/appcompat/widget/Toolbar;ZII)V
@@ -637,7 +636,8 @@
 
     .line 18
     .line 19
-    invoke-virtual {v0, v1}, Landroidx/appcompat/widget/Toolbar;->setNavigationContentDescription(I)V    return-void
+    invoke-virtual {v0, v1}, Landroidx/appcompat/widget/Toolbar;->setNavigationContentDescription(I)V
+return-void
 
     .line 23
     :cond_0
@@ -695,7 +695,8 @@
     .line 15
     .line 16
     :goto_0
-    invoke-virtual {v0, v1}, Landroidx/appcompat/widget/Toolbar;->setNavigationIcon(Landroid/graphics/drawable/Drawable;)V    return-void
+    invoke-virtual {v0, v1}, Landroidx/appcompat/widget/Toolbar;->setNavigationIcon(Landroid/graphics/drawable/Drawable;)V
+return-void
 
     .line 20
     :cond_1
@@ -706,7 +707,8 @@
     const/4 v1, 0x0
 
     .line 23
-    invoke-virtual {v0, v1}, Landroidx/appcompat/widget/Toolbar;->setNavigationIcon(Landroid/graphics/drawable/Drawable;)V    return-void
+    invoke-virtual {v0, v1}, Landroidx/appcompat/widget/Toolbar;->setNavigationIcon(Landroid/graphics/drawable/Drawable;)V
+return-void
 .end method
 
 .method private updateToolbarLogo()V
@@ -769,7 +771,8 @@
 
     .line 24
     .line 25
-    invoke-virtual {v1, v0}, Landroidx/appcompat/widget/Toolbar;->setLogo(Landroid/graphics/drawable/Drawable;)V    return-void
+    invoke-virtual {v1, v0}, Landroidx/appcompat/widget/Toolbar;->setLogo(Landroid/graphics/drawable/Drawable;)V
+return-void
 .end method
 
 
@@ -829,7 +832,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/widget/Toolbar;->collapseActionView()V    return-void
+    invoke-virtual {v0}, Landroidx/appcompat/widget/Toolbar;->collapseActionView()V
+return-void
 .end method
 
 .method public dismissPopupMenus()V
@@ -840,7 +844,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/widget/Toolbar;->dismissPopupMenus()V    return-void
+    invoke-virtual {v0}, Landroidx/appcompat/widget/Toolbar;->dismissPopupMenus()V
+return-void
 .end method
 
 .method public getContext()Landroid/content/Context;
@@ -1281,7 +1286,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/Toolbar;->setCollapsible(Z)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/Toolbar;->setCollapsible(Z)V
+return-void
 .end method
 
 .method public setCustomView(Landroid/view/View;)V
@@ -1809,8 +1815,7 @@
 
     :goto_0
     invoke-virtual {p0, p1}, Landroidx/appcompat/widget/ToolbarWidgetWrapper;->setIcon(Landroid/graphics/drawable/Drawable;)V
-
-    return-void
+return-void
 .end method
 
 .method public setIcon(Landroid/graphics/drawable/Drawable;)V
@@ -1821,8 +1826,7 @@
 
     .line 3
     invoke-direct {p0}, Landroidx/appcompat/widget/ToolbarWidgetWrapper;->updateToolbarLogo()V
-
-    return-void
+return-void
 .end method
 
 .method public setLogo(I)V
@@ -1846,8 +1850,7 @@
 
     :goto_0
     invoke-virtual {p0, p1}, Landroidx/appcompat/widget/ToolbarWidgetWrapper;->setLogo(Landroid/graphics/drawable/Drawable;)V
-
-    return-void
+return-void
 .end method
 
 .method public setLogo(Landroid/graphics/drawable/Drawable;)V
@@ -1858,8 +1861,7 @@
 
     .line 3
     invoke-direct {p0}, Landroidx/appcompat/widget/ToolbarWidgetWrapper;->updateToolbarLogo()V
-
-    return-void
+return-void
 .end method
 
 .method public setMenu(Landroid/view/Menu;Landroidx/appcompat/view/menu/MenuPresenter$Callback;)V
@@ -1930,7 +1932,8 @@
 
     .line 33
     .line 34
-    invoke-virtual {p2, p1, v0}, Landroidx/appcompat/widget/Toolbar;->setMenu(Landroidx/appcompat/view/menu/MenuBuilder;Landroidx/appcompat/widget/ActionMenuPresenter;)V    return-void
+    invoke-virtual {p2, p1, v0}, Landroidx/appcompat/widget/Toolbar;->setMenu(Landroidx/appcompat/view/menu/MenuBuilder;Landroidx/appcompat/widget/ActionMenuPresenter;)V
+return-void
 .end method
 
 .method public setMenuCallbacks(Landroidx/appcompat/view/menu/MenuPresenter$Callback;Landroidx/appcompat/view/menu/MenuBuilder$Callback;)V
@@ -1941,7 +1944,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/appcompat/widget/Toolbar;->setMenuCallbacks(Landroidx/appcompat/view/menu/MenuPresenter$Callback;Landroidx/appcompat/view/menu/MenuBuilder$Callback;)V    return-void
+    invoke-virtual {v0, p1, p2}, Landroidx/appcompat/widget/Toolbar;->setMenuCallbacks(Landroidx/appcompat/view/menu/MenuPresenter$Callback;Landroidx/appcompat/view/menu/MenuBuilder$Callback;)V
+return-void
 .end method
 
 .method public setMenuPrepared()V
@@ -1951,7 +1955,8 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/appcompat/widget/ToolbarWidgetWrapper;->mMenuPrepared:Z    return-void
+    iput-boolean v0, p0, Landroidx/appcompat/widget/ToolbarWidgetWrapper;->mMenuPrepared:Z
+return-void
 .end method
 
 .method public setNavigationContentDescription(I)V
@@ -1975,8 +1980,7 @@
 
     :goto_0
     invoke-virtual {p0, p1}, Landroidx/appcompat/widget/ToolbarWidgetWrapper;->setNavigationContentDescription(Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 
 .method public setNavigationContentDescription(Ljava/lang/CharSequence;)V
@@ -1987,8 +1991,7 @@
 
     .line 2
     invoke-direct {p0}, Landroidx/appcompat/widget/ToolbarWidgetWrapper;->updateHomeAccessibility()V
-
-    return-void
+return-void
 .end method
 
 .method public setNavigationIcon(I)V
@@ -2012,8 +2015,7 @@
 
     :goto_0
     invoke-virtual {p0, p1}, Landroidx/appcompat/widget/ToolbarWidgetWrapper;->setNavigationIcon(Landroid/graphics/drawable/Drawable;)V
-
-    return-void
+return-void
 .end method
 
 .method public setNavigationIcon(Landroid/graphics/drawable/Drawable;)V
@@ -2024,8 +2026,7 @@
 
     .line 2
     invoke-direct {p0}, Landroidx/appcompat/widget/ToolbarWidgetWrapper;->updateNavigationIcon()V
-
-    return-void
+return-void
 .end method
 
 .method public setNavigationMode(I)V
@@ -2293,7 +2294,8 @@
 
     .line 3
     .line 4
-    invoke-direct {p0, p1}, Landroidx/appcompat/widget/ToolbarWidgetWrapper;->setTitleInt(Ljava/lang/CharSequence;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/appcompat/widget/ToolbarWidgetWrapper;->setTitleInt(Ljava/lang/CharSequence;)V
+return-void
 .end method
 
 .method public setVisibility(I)V

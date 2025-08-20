@@ -146,8 +146,7 @@
     .line 1
     :goto_1
     invoke-direct/range {p1 .. p9}, Landroidx/window/embedding/SplitPairRule;-><init>(Ljava/util/Set;ZZZIIFI)V
-
-    return-void
+return-void
 .end method
 
 

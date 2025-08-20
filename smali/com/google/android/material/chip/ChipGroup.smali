@@ -1198,8 +1198,7 @@
     move-result p1
 
     invoke-virtual {p0, p1}, Lcom/google/android/material/chip/ChipGroup;->setSingleLine(Z)V
-
-    return-void
+return-void
 .end method
 
 .method public setSingleLine(Z)V
@@ -1207,8 +1206,7 @@
 
     .line 1
     invoke-super {p0, p1}, Lo0/e;->setSingleLine(Z)V
-
-    return-void
+return-void
 .end method
 
 .method public setSingleSelection(I)V
@@ -1228,8 +1226,7 @@
     move-result p1
 
     invoke-virtual {p0, p1}, Lcom/google/android/material/chip/ChipGroup;->setSingleSelection(Z)V
-
-    return-void
+return-void
 .end method
 
 .method public setSingleSelection(Z)V

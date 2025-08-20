@@ -69,7 +69,8 @@
 
     .line 6
     .line 7
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mDone:Z    return-void
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mDone:Z
+return-void
 .end method
 
 .method private calcY(F)F
@@ -898,7 +899,8 @@
     move-object p1, p0
 
     .line 24
-    invoke-direct/range {p1 .. p6}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->setup(FFFFF)V    return-void
+    invoke-direct/range {p1 .. p6}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->setup(FFFFF)V
+return-void
 
     .line 28
     :cond_1
@@ -936,7 +938,8 @@
     move v5, p6
 
     .line 40
-    invoke-direct/range {v0 .. v5}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->setup(FFFFF)V    return-void
+    invoke-direct/range {v0 .. v5}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->setup(FFFFF)V
+return-void
 .end method
 
 .method public debug(Ljava/lang/String;F)Ljava/lang/String;

@@ -28,8 +28,7 @@
     const/4 v3, 0x0
 
     invoke-direct {v0, v1, v2, v3}, Landroid/app/NotificationChannel;-><init>(Ljava/lang/String;Ljava/lang/CharSequence;I)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static synthetic C(Ljava/lang/String;)Landroid/app/NotificationChannel;
@@ -43,8 +42,7 @@
     const/4 v2, 0x4
 
     invoke-direct {v0, v1, p0, v2}, Landroid/app/NotificationChannel;-><init>(Ljava/lang/String;Ljava/lang/CharSequence;I)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic D(Landroid/app/NotificationChannel;)V
@@ -104,8 +102,7 @@
     const/4 v3, 0x3
 
     invoke-direct {v0, v1, v2, v3}, Landroid/app/NotificationChannel;-><init>(Ljava/lang/String;Ljava/lang/CharSequence;I)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic e(Landroid/app/NotificationManager;)Landroid/app/NotificationChannel;
@@ -143,8 +140,7 @@
     const/4 v2, 0x3
 
     invoke-direct {v0, v1, p0, v2}, Landroid/app/NotificationChannel;-><init>(Ljava/lang/String;Ljava/lang/CharSequence;I)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic h(Landroid/content/Context;Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;I)Landroid/content/Intent;
@@ -295,8 +291,7 @@
     const v0, -0xff0100
 
     invoke-virtual {p0, v0}, Landroid/app/NotificationChannel;->setLightColor(I)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic v(Landroid/app/NotificationChannel;Ljava/lang/String;)V
@@ -304,8 +299,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/app/NotificationChannel;->setName(Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic w(Landroid/app/NotificationManager;Landroid/app/NotificationChannel;)V
@@ -313,8 +307,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/app/NotificationManager;->createNotificationChannel(Landroid/app/NotificationChannel;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic x(Landroid/content/Context;Landroid/content/Intent;)V

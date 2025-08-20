@@ -375,7 +375,8 @@
 
     .line 5
     .line 6
-    invoke-interface {v0, p1, p2}, Landroidx/recyclerview/widget/ListUpdateCallback;->onMoved(II)V    return-void
+    invoke-interface {v0, p1, p2}, Landroidx/recyclerview/widget/ListUpdateCallback;->onMoved(II)V
+return-void
 .end method
 
 .method public onRemoved(II)V

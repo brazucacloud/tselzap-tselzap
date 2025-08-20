@@ -542,8 +542,7 @@
     iget-object v0, p0, Landroidx/core/content/pm/ShortcutInfoCompat$Builder;->mCapabilityBindings:Ljava/util/Set;
 
     invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
-
-    return-object p0
+return-object p0
 .end method
 
 .method public addCapabilityBinding(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)Landroidx/core/content/pm/ShortcutInfoCompat$Builder;
@@ -1524,8 +1523,7 @@
     const/4 v1, 0x1
 
     iput-boolean v1, v0, Landroidx/core/content/pm/ShortcutInfoCompat;->mIsLongLived:Z
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setLongLived(Z)Landroidx/core/content/pm/ShortcutInfoCompat$Builder;
@@ -1537,8 +1535,7 @@
     iget-object v0, p0, Landroidx/core/content/pm/ShortcutInfoCompat$Builder;->mInfo:Landroidx/core/content/pm/ShortcutInfoCompat;
 
     iput-boolean p1, v0, Landroidx/core/content/pm/ShortcutInfoCompat;->mIsLongLived:Z
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setPerson(Landroidx/core/app/Person;)Landroidx/core/content/pm/ShortcutInfoCompat$Builder;

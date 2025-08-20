@@ -37,8 +37,7 @@
     move-result-object v0
 
     invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;-><init>(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Landroidx/datastore/preferences/protobuf/Struct$1;)V
@@ -46,8 +45,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Struct$Builder;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -77,7 +75,8 @@
     move-result-object v0
 
     .line 12
-    invoke-interface {v0}, Ljava/util/Map;->clear()V    return-object p0
+    invoke-interface {v0}, Ljava/util/Map;->clear()V
+return-object p0
 .end method
 
 .method public containsFields(Ljava/lang/String;)Z
@@ -357,7 +356,8 @@
     move-result-object v0
 
     .line 12
-    invoke-interface {v0, p1}, Ljava/util/Map;->putAll(Ljava/util/Map;)V    return-object p0
+    invoke-interface {v0, p1}, Ljava/util/Map;->putAll(Ljava/util/Map;)V
+return-object p0
 .end method
 
 .method public putFields(Ljava/lang/String;Landroidx/datastore/preferences/protobuf/Value;)Landroidx/datastore/preferences/protobuf/Struct$Builder;

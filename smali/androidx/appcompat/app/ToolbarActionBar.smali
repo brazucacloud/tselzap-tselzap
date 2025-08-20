@@ -761,7 +761,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/app/ActionBar;->onConfigurationChanged(Landroid/content/res/Configuration;)V    return-void
+    invoke-super {p0, p1}, Landroidx/appcompat/app/ActionBar;->onConfigurationChanged(Landroid/content/res/Configuration;)V
+return-void
 .end method
 
 .method public onDestroy()V
@@ -1204,7 +1205,8 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V    return-void
+    invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
+return-void
 .end method
 
 .method public setCustomView(I)V
@@ -1299,7 +1301,8 @@
 
     .line 7
     :goto_0
-    invoke-virtual {p0, p1, v0}, Landroidx/appcompat/app/ToolbarActionBar;->setDisplayOptions(II)V    return-void
+    invoke-virtual {p0, p1, v0}, Landroidx/appcompat/app/ToolbarActionBar;->setDisplayOptions(II)V
+return-void
 .end method
 
 .method public setDisplayOptions(I)V
@@ -1314,8 +1317,7 @@
 
     .line 1
     invoke-virtual {p0, p1, v0}, Landroidx/appcompat/app/ToolbarActionBar;->setDisplayOptions(II)V
-
-    return-void
+return-void
 .end method
 
 .method public setDisplayOptions(II)V
@@ -1340,8 +1342,7 @@
     or-int/2addr p1, p2
 
     invoke-interface {v1, p1}, Landroidx/appcompat/widget/DecorToolbar;->setDisplayOptions(I)V
-
-    return-void
+return-void
 .end method
 
 .method public setDisplayShowCustomEnabled(Z)V
@@ -1368,7 +1369,8 @@
 
     .line 9
     :goto_0
-    invoke-virtual {p0, p1, v0}, Landroidx/appcompat/app/ToolbarActionBar;->setDisplayOptions(II)V    return-void
+    invoke-virtual {p0, p1, v0}, Landroidx/appcompat/app/ToolbarActionBar;->setDisplayOptions(II)V
+return-void
 .end method
 
 .method public setDisplayShowHomeEnabled(Z)V
@@ -1393,7 +1395,8 @@
 
     .line 7
     :goto_0
-    invoke-virtual {p0, p1, v0}, Landroidx/appcompat/app/ToolbarActionBar;->setDisplayOptions(II)V    return-void
+    invoke-virtual {p0, p1, v0}, Landroidx/appcompat/app/ToolbarActionBar;->setDisplayOptions(II)V
+return-void
 .end method
 
 .method public setDisplayShowTitleEnabled(Z)V
@@ -1420,7 +1423,8 @@
 
     .line 9
     :goto_0
-    invoke-virtual {p0, p1, v0}, Landroidx/appcompat/app/ToolbarActionBar;->setDisplayOptions(II)V    return-void
+    invoke-virtual {p0, p1, v0}, Landroidx/appcompat/app/ToolbarActionBar;->setDisplayOptions(II)V
+return-void
 .end method
 
 .method public setDisplayUseLogoEnabled(Z)V
@@ -1430,7 +1434,8 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-virtual {p0, p1, v0}, Landroidx/appcompat/app/ToolbarActionBar;->setDisplayOptions(II)V    return-void
+    invoke-virtual {p0, p1, v0}, Landroidx/appcompat/app/ToolbarActionBar;->setDisplayOptions(II)V
+return-void
 .end method
 
 .method public setElevation(F)V
@@ -1459,8 +1464,7 @@
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setNavigationContentDescription(I)V
-
-    return-void
+return-void
 .end method
 
 .method public setHomeActionContentDescription(Ljava/lang/CharSequence;)V
@@ -1470,8 +1474,7 @@
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setNavigationContentDescription(Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 
 .method public setHomeAsUpIndicator(I)V
@@ -1481,8 +1484,7 @@
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setNavigationIcon(I)V
-
-    return-void
+return-void
 .end method
 
 .method public setHomeAsUpIndicator(Landroid/graphics/drawable/Drawable;)V
@@ -1492,8 +1494,7 @@
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setNavigationIcon(Landroid/graphics/drawable/Drawable;)V
-
-    return-void
+return-void
 .end method
 
 .method public setHomeButtonEnabled(Z)V
@@ -1509,8 +1510,7 @@
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setIcon(I)V
-
-    return-void
+return-void
 .end method
 
 .method public setIcon(Landroid/graphics/drawable/Drawable;)V
@@ -1520,8 +1520,7 @@
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setIcon(Landroid/graphics/drawable/Drawable;)V
-
-    return-void
+return-void
 .end method
 
 .method public setListNavigationCallbacks(Landroid/widget/SpinnerAdapter;Landroidx/appcompat/app/ActionBar$OnNavigationListener;)V
@@ -1551,8 +1550,7 @@
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setLogo(I)V
-
-    return-void
+return-void
 .end method
 
 .method public setLogo(Landroid/graphics/drawable/Drawable;)V
@@ -1562,8 +1560,7 @@
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setLogo(Landroid/graphics/drawable/Drawable;)V
-
-    return-void
+return-void
 .end method
 
 .method public setNavigationMode(I)V
@@ -1581,7 +1578,8 @@
 
     .line 5
     .line 6
-    invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setNavigationMode(I)V    return-void
+    invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setNavigationMode(I)V
+return-void
 
     .line 10
     :cond_0
@@ -1627,7 +1625,8 @@
 
     .line 11
     .line 12
-    invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setDropdownSelectedPosition(I)V    return-void
+    invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setDropdownSelectedPosition(I)V
+return-void
 
     .line 16
     :cond_0
@@ -1687,8 +1686,7 @@
 
     :goto_0
     invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setSubtitle(Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 
 .method public setSubtitle(Ljava/lang/CharSequence;)V
@@ -1698,8 +1696,7 @@
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setSubtitle(Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 
 .method public setTitle(I)V
@@ -1725,8 +1722,7 @@
 
     :goto_0
     invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setTitle(Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 
 .method public setTitle(Ljava/lang/CharSequence;)V
@@ -1736,8 +1732,7 @@
     iget-object v0, p0, Landroidx/appcompat/app/ToolbarActionBar;->mDecorToolbar:Landroidx/appcompat/widget/DecorToolbar;
 
     invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setTitle(Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 
 .method public setWindowTitle(Ljava/lang/CharSequence;)V
@@ -1748,7 +1743,8 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setWindowTitle(Ljava/lang/CharSequence;)V    return-void
+    invoke-interface {v0, p1}, Landroidx/appcompat/widget/DecorToolbar;->setWindowTitle(Ljava/lang/CharSequence;)V
+return-void
 .end method
 
 .method public show()V

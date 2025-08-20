@@ -71,8 +71,7 @@
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/os/Parcel;)V
@@ -111,8 +110,7 @@
 
     :goto_0
     iput-boolean v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$SavedState;->mAnchorLayoutFromEnd:Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/recyclerview/widget/LinearLayoutManager$SavedState;)V
@@ -140,8 +138,7 @@
     iget-boolean p1, p1, Landroidx/recyclerview/widget/LinearLayoutManager$SavedState;->mAnchorLayoutFromEnd:Z
 
     iput-boolean p1, p0, Landroidx/recyclerview/widget/LinearLayoutManager$SavedState;->mAnchorLayoutFromEnd:Z
-
-    return-void
+return-void
 .end method
 
 
@@ -213,6 +210,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V    return-void
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
+return-void
 .end method
 .end class

@@ -474,8 +474,7 @@
 
     .line 4
     iput-boolean v1, p0, Landroidx/collection/ArrayMap$MapIterator;->mEntryValid:Z
-
-    return-object p0
+return-object p0
 
     .line 5
     :cond_0
@@ -538,7 +537,8 @@
     const/4 v0, 0x0
 
     .line 25
-    iput-boolean v0, p0, Landroidx/collection/ArrayMap$MapIterator;->mEntryValid:Z    return-void
+    iput-boolean v0, p0, Landroidx/collection/ArrayMap$MapIterator;->mEntryValid:Z
+return-void
 
     .line 28
     :cond_0

@@ -53,7 +53,8 @@
     move-object v2, p1
 
     .line 11
-    invoke-direct/range {v0 .. v6}, Lkotlin/jvm/internal/h;-><init>(ILjava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V    return-void
+    invoke-direct/range {v0 .. v6}, Lkotlin/jvm/internal/h;-><init>(ILjava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+return-void
 .end method
 
 
@@ -78,7 +79,6 @@
     check-cast v0, Landroidx/activity/OnBackPressedDispatcher;
 
     invoke-static {v0}, Landroidx/activity/OnBackPressedDispatcher;->access$updateEnabledCallbacks(Landroidx/activity/OnBackPressedDispatcher;)V
-
-    return-void
+return-void
 .end method
 .end class

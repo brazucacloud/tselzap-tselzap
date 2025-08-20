@@ -261,8 +261,7 @@
     const-string p1, "oldValue"
 
     invoke-static {p3, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public final evictAll()V
@@ -272,7 +271,8 @@
     const/4 v0, -0x1
 
     .line 2
-    invoke-virtual {p0, v0}, Landroidx/collection/LruCache;->trimToSize(I)V    return-void
+    invoke-virtual {p0, v0}, Landroidx/collection/LruCache;->trimToSize(I)V
+return-void
 .end method
 
 .method public final evictionCount()I
@@ -500,7 +500,8 @@
     const/4 v1, 0x0
 
     .line 80
-    invoke-virtual {p0, v1, p1, v0, v2}, Landroidx/collection/LruCache;->entryRemoved(ZLjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V    return-object v2
+    invoke-virtual {p0, v1, p1, v0, v2}, Landroidx/collection/LruCache;->entryRemoved(ZLjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+return-object v2
 
     .line 84
     :cond_3
@@ -508,7 +509,8 @@
 
     .line 85
     .line 86
-    invoke-virtual {p0, p1}, Landroidx/collection/LruCache;->trimToSize(I)V    return-object v0
+    invoke-virtual {p0, p1}, Landroidx/collection/LruCache;->trimToSize(I)V
+return-object v0
 
     .line 90
     :goto_1
@@ -755,7 +757,8 @@
 
     .line 57
     .line 58
-    invoke-virtual {p0, p1}, Landroidx/collection/LruCache;->trimToSize(I)V    return-object v1
+    invoke-virtual {p0, p1}, Landroidx/collection/LruCache;->trimToSize(I)V
+return-object v1
 
     .line 62
     :goto_1
@@ -930,7 +933,8 @@
     monitor-exit v0
 
     .line 9
-    invoke-virtual {p0, p1}, Landroidx/collection/LruCache;->trimToSize(I)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/collection/LruCache;->trimToSize(I)V
+return-void
 
     .line 13
     :catchall_0

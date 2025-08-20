@@ -30,8 +30,7 @@
     iput-object p3, p0, Landroidx/profileinstaller/a;->e:Ljava/lang/Object;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -55,8 +54,7 @@
     check-cast v2, Ljava/lang/String;
 
     invoke-static {v0, v1, v2}, Lcom/fmark/tselzap/fragments/ApiContact_coder;->e(Lcom/fmark/tselzap/fragments/ApiContact_coder;ILjava/lang/String;)V
-
-    return-void
+return-void
 
     :pswitch_0
     iget-object v0, p0, Landroidx/profileinstaller/a;->d:Ljava/lang/Object;
@@ -68,8 +66,7 @@
     iget-object v2, p0, Landroidx/profileinstaller/a;->e:Ljava/lang/Object;
 
     invoke-static {v0, v1, v2}, Landroidx/profileinstaller/DeviceProfileWriter;->a(Landroidx/profileinstaller/DeviceProfileWriter;ILjava/lang/Object;)V
-
-    return-void
+return-void
 
     nop
 

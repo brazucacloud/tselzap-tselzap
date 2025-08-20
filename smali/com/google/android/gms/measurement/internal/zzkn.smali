@@ -41,8 +41,7 @@
     iget-wide v2, p0, Lcom/google/android/gms/measurement/internal/zzkn;->zzc:J
 
     invoke-static {v0, v1, v2, v3}, Lcom/google/android/gms/measurement/internal/zzkf;->zza(Lcom/google/android/gms/measurement/internal/zzkf;Landroid/os/Bundle;J)V
-
-    return-void
+return-void
 .end method
 
 .end class

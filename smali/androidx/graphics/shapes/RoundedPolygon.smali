@@ -1820,6 +1820,7 @@
 
     .line 63
     .line 64
-    invoke-direct {v1, p1, v2, v0}, Landroidx/graphics/shapes/RoundedPolygon;-><init>(Ljava/util/List;FF)V    return-object v1
+    invoke-direct {v1, p1, v2, v0}, Landroidx/graphics/shapes/RoundedPolygon;-><init>(Ljava/util/List;FF)V
+return-object v1
 .end method
 .end class

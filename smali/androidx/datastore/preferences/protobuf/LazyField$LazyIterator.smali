@@ -135,8 +135,7 @@
     const/4 v2, 0x0
 
     invoke-direct {v1, v0, v2}, Landroidx/datastore/preferences/protobuf/LazyField$LazyEntry;-><init>(Ljava/util/Map$Entry;Landroidx/datastore/preferences/protobuf/LazyField$1;)V
-
-    return-object v1
+return-object v1
 
     :cond_0
     return-object v0
@@ -150,6 +149,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/Iterator;->remove()V    return-void
+    invoke-interface {v0}, Ljava/util/Iterator;->remove()V
+return-void
 .end method
 .end class

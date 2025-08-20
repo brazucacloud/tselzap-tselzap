@@ -97,7 +97,8 @@
     .line 27
     .line 28
     .line 29
-    iput-boolean p4, p0, Landroidx/appcompat/view/StandaloneActionMode;->mFocusable:Z    return-void
+    iput-boolean p4, p0, Landroidx/appcompat/view/StandaloneActionMode;->mFocusable:Z
+return-void
 .end method
 
 
@@ -125,7 +126,8 @@
 
     .line 10
     .line 11
-    invoke-interface {v0, p0}, Landroidx/appcompat/view/ActionMode$Callback;->onDestroyActionMode(Landroidx/appcompat/view/ActionMode;)V    return-void
+    invoke-interface {v0, p0}, Landroidx/appcompat/view/ActionMode$Callback;->onDestroyActionMode(Landroidx/appcompat/view/ActionMode;)V
+return-void
 .end method
 
 .method public getCustomView()Landroid/view/View;
@@ -184,7 +186,8 @@
     move-result-object v1
 
     .line 9
-    invoke-direct {v0, v1}, Landroidx/appcompat/view/SupportMenuInflater;-><init>(Landroid/content/Context;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/appcompat/view/SupportMenuInflater;-><init>(Landroid/content/Context;)V
+return-object v0
 .end method
 
 .method public getSubtitle()Ljava/lang/CharSequence;
@@ -412,8 +415,7 @@
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/appcompat/view/StandaloneActionMode;->setSubtitle(Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 
 .method public setSubtitle(Ljava/lang/CharSequence;)V
@@ -438,8 +440,7 @@
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/appcompat/view/StandaloneActionMode;->setTitle(Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 
 .method public setTitle(Ljava/lang/CharSequence;)V

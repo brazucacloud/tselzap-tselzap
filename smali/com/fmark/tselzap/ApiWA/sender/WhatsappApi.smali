@@ -383,8 +383,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2}, Lcom/fmark/tselzap/ApiWA/sender/WhatsappApi;->sendMessage(Lcom/fmark/tselzap/ApiWA/sender/model/WContact;Lcom/fmark/tselzap/ApiWA/sender/model/WMessage;)V
-
-    return-void
+return-void
 .end method
 
 .method public static getInstance()Lcom/fmark/tselzap/ApiWA/sender/WhatsappApi;
@@ -1931,8 +1930,7 @@
     move-result-object p2
 
     invoke-direct {p0, p1, v1, v0, p2}, Lcom/fmark/tselzap/ApiWA/sender/WhatsappApi;->sendBigMessage(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 
@@ -2100,8 +2098,7 @@
 
     .line 5
     invoke-virtual {p0, v0, p1, p3, p4}, Lcom/fmark/tselzap/ApiWA/sender/WhatsappApi;->sendMessage(Ljava/util/List;Ljava/util/List;Landroid/content/Context;Lcom/fmark/tselzap/ApiWA/sender/liseteners/SendMessageListener;)V
-
-    return-void
+return-void
 .end method
 
 .method public declared-synchronized sendMessage(Ljava/util/List;Ljava/util/List;Landroid/content/Context;Lcom/fmark/tselzap/ApiWA/sender/liseteners/SendMessageListener;)V

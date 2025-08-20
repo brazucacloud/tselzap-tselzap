@@ -1377,8 +1377,7 @@
 
     .line 1
     invoke-direct {p0}, Lcom/fmark/tselzap/fragments/Api_coder;->showImprovedDialog()V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic r(Lcom/fmark/tselzap/fragments/Api_coder;)V
@@ -1386,8 +1385,7 @@
 
     .line 1
     invoke-direct {p0}, Lcom/fmark/tselzap/fragments/Api_coder;->startServiceLogic()V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic s(Lcom/fmark/tselzap/fragments/Api_coder;Z)V
@@ -1395,8 +1393,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Lcom/fmark/tselzap/fragments/Api_coder;->updateButtonAppearance(Z)V
-
-    return-void
+return-void
 .end method
 
 .method private showImprovedDialog()V
@@ -1850,8 +1847,7 @@
 
     .line 1
     invoke-direct {p0}, Lcom/fmark/tselzap/fragments/Api_coder;->updateLog()V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic u(Lcom/fmark/tselzap/fragments/Api_coder;Ljava/lang/String;)V
@@ -1859,8 +1855,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Lcom/fmark/tselzap/fragments/Api_coder;->updateServersFromJSON(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method private updateButtonAppearance(Z)V

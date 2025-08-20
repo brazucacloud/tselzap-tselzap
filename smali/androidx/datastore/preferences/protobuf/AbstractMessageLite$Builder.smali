@@ -69,8 +69,7 @@
     check-cast p1, Ljava/util/List;
 
     invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->addAll(Ljava/lang/Iterable;Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method public static addAll(Ljava/lang/Iterable;Ljava/util/List;)V
@@ -218,8 +217,7 @@
     .line 17
     :cond_5
     invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->addAllCheckingNulls(Ljava/lang/Iterable;Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method private static addAllCheckingNulls(Ljava/lang/Iterable;Ljava/util/List;)V
@@ -828,8 +826,7 @@
 
     .line 37
     invoke-virtual {p1, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->checkLastTagWas(I)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public mergeFrom(Ljava/io/InputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
@@ -855,8 +852,7 @@
 
     .line 40
     invoke-virtual {p1, p2}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->checkLastTagWas(I)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public mergeFrom([B)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;

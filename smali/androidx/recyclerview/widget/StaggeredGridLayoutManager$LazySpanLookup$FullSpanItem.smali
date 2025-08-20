@@ -67,8 +67,7 @@
 
     .line 8
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/os/Parcel;)V
@@ -323,13 +322,15 @@
 
     .line 28
     .line 29
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeIntArray([I)V    return-void
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeIntArray([I)V
+return-void
 
     .line 33
     :cond_0
     const/4 p2, 0x0
 
     .line 34
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V    return-void
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
+return-void
 .end method
 .end class

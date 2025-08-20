@@ -39,8 +39,7 @@
 
     .line 13
     invoke-virtual/range {p0 .. p8}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->setup(DDDD)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/String;)V

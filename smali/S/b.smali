@@ -33,8 +33,7 @@
     iput-object p3, p0, LS/b;->c:Ljava/lang/Object;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;I)V
@@ -50,8 +49,7 @@
     iput-object p3, p0, LS/b;->e:Ljava/lang/Object;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -2819,8 +2817,7 @@
     check-cast v2, Landroidx/transition/Transition;
 
     invoke-static {v1, v2, v0}, Landroidx/transition/FragmentTransitionSupport;->a(Ljava/lang/Runnable;Landroidx/transition/Transition;Ljava/lang/Runnable;)V
-
-    return-void
+return-void
 .end method
 
 .method public then(Lcom/google/android/gms/tasks/Task;)Ljava/lang/Object;

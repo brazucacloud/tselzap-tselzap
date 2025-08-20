@@ -9,8 +9,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/fragment/app/DialogFragment;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -22,8 +21,7 @@
 
     .line 2
     invoke-direct {p0, p1}, Landroidx/fragment/app/DialogFragment;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 
@@ -58,7 +56,8 @@
     move-result v1
 
     .line 11
-    invoke-direct {p1, v0, v1}, Landroidx/appcompat/app/AppCompatDialog;-><init>(Landroid/content/Context;I)V    return-object p1
+    invoke-direct {p1, v0, v1}, Landroidx/appcompat/app/AppCompatDialog;-><init>(Landroid/content/Context;I)V
+return-object p1
 .end method
 
 .method public setupDialog(Landroid/app/Dialog;I)V
@@ -132,6 +131,7 @@
 
     .line 31
     :cond_2
-    invoke-super {p0, p1, p2}, Landroidx/fragment/app/DialogFragment;->setupDialog(Landroid/app/Dialog;I)V    return-void
+    invoke-super {p0, p1, p2}, Landroidx/fragment/app/DialogFragment;->setupDialog(Landroid/app/Dialog;I)V
+return-void
 .end method
 .end class

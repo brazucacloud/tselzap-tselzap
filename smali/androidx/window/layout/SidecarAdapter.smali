@@ -488,8 +488,7 @@
     sget-object p2, Ld1/t;->b:Ld1/t;
 
     invoke-direct {p1, p2}, Landroidx/window/layout/WindowLayoutInfo;-><init>(Ljava/util/List;)V
-
-    return-object p1
+return-object p1
 
     .line 8
     :cond_0
@@ -521,8 +520,7 @@
     new-instance p2, Landroidx/window/layout/WindowLayoutInfo;
 
     invoke-direct {p2, p1}, Landroidx/window/layout/WindowLayoutInfo;-><init>(Ljava/util/List;)V
-
-    return-object p2
+return-object p2
 .end method
 
 .method public final translate(Ljava/util/List;Landroidx/window/sidecar/SidecarDeviceState;)Ljava/util/List;

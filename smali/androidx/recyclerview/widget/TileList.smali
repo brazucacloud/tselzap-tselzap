@@ -176,7 +176,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/util/SparseArray;->clear()V    return-void
+    invoke-virtual {v0}, Landroid/util/SparseArray;->clear()V
+return-void
 .end method
 
 .method public getAtIndex(I)Landroidx/recyclerview/widget/TileList$Tile;
@@ -382,7 +383,8 @@
 
     .line 17
     .line 18
-    invoke-virtual {v1, p1}, Landroid/util/SparseArray;->delete(I)V    return-object v0
+    invoke-virtual {v1, p1}, Landroid/util/SparseArray;->delete(I)V
+return-object v0
 .end method
 
 .method public size()I

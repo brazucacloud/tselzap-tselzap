@@ -82,8 +82,7 @@
     const/4 p2, 0x2
 
     invoke-static {p0, p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzkb;->zza(Lcom/google/android/gms/internal/measurement/zzjr;Lcom/google/android/gms/internal/measurement/zznh;ILjava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .end class

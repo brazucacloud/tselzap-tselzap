@@ -30,8 +30,7 @@
     iput p3, p0, Landroidx/core/location/h;->d:I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -53,8 +52,7 @@
     iget v2, p0, Landroidx/core/location/h;->d:I
 
     invoke-static {v0, v1, v2}, Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;->b(Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;Ljava/util/concurrent/Executor;I)V
-
-    return-void
+return-void
 
     :pswitch_0
     iget-object v0, p0, Landroidx/core/location/h;->e:Ljava/lang/Object;
@@ -66,8 +64,7 @@
     iget v2, p0, Landroidx/core/location/h;->d:I
 
     invoke-static {v0, v1, v2}, Landroidx/core/location/LocationManagerCompat$GpsStatusTransport;->c(Landroidx/core/location/LocationManagerCompat$GpsStatusTransport;Ljava/util/concurrent/Executor;I)V
-
-    return-void
+return-void
 
     :pswitch_1
     iget-object v0, p0, Landroidx/core/location/h;->e:Ljava/lang/Object;
@@ -79,8 +76,7 @@
     iget v2, p0, Landroidx/core/location/h;->d:I
 
     invoke-static {v0, v1, v2}, Landroidx/core/location/LocationManagerCompat$GnssMeasurementsTransport;->b(Landroidx/core/location/LocationManagerCompat$GnssMeasurementsTransport;Ljava/util/concurrent/Executor;I)V
-
-    return-void
+return-void
 
     nop
 

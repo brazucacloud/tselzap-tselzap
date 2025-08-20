@@ -919,7 +919,8 @@
 
     .line 58
     .line 59
-    invoke-virtual {v0}, Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;->onRestorePendingState()V    return-void
+    invoke-virtual {v0}, Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;->onRestorePendingState()V
+return-void
 .end method
 
 .method private setOrientation(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -963,8 +964,7 @@
 
     .line 6
     invoke-virtual {v5}, Landroid/content/res/TypedArray;->recycle()V
-
-    return-void
+return-void
 
     :catchall_0
     move-exception v0
@@ -1183,7 +1183,8 @@
     .line 38
     .line 39
     .line 40
-    invoke-direct {p0}, Landroidx/viewpager2/widget/ViewPager2;->restorePendingState()V    return-void
+    invoke-direct {p0}, Landroidx/viewpager2/widget/ViewPager2;->restorePendingState()V
+return-void
 .end method
 
 .method public endFakeDrag()Z
@@ -1489,7 +1490,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;->invalidateItemDecorations()V    return-void
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;->invalidateItemDecorations()V
+return-void
 .end method
 
 .method public isFakeDragging()Z
@@ -2219,7 +2221,8 @@
 
     .line 32
     .line 33
-    invoke-virtual {v3, v2, v0, v1}, Landroidx/viewpager2/widget/PageTransformerAdapter;->onPageScrolled(IFI)V    return-void
+    invoke-virtual {v3, v2, v0, v1}, Landroidx/viewpager2/widget/PageTransformerAdapter;->onPageScrolled(IFI)V
+return-void
 .end method
 
 .method public setAdapter(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
@@ -2621,7 +2624,8 @@
 
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;->onSetLayoutDirection()V    return-void
+    invoke-virtual {p1}, Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;->onSetLayoutDirection()V
+return-void
 .end method
 
 .method public setOffscreenPageLimit(I)V
@@ -2672,7 +2676,8 @@
 
     .line 19
     .line 20
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V    return-void
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V
+return-void
 .end method
 
 .method public setOrientation(I)V
@@ -2687,8 +2692,7 @@
     iget-object p1, p0, Landroidx/viewpager2/widget/ViewPager2;->mAccessibilityProvider:Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;
 
     invoke-virtual {p1}, Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;->onSetOrientation()V
-
-    return-void
+return-void
 .end method
 
 .method public setPageTransformer(Landroidx/viewpager2/widget/ViewPager2$PageTransformer;)V
@@ -2810,7 +2814,8 @@
     .line 53
     .line 54
     .line 55
-    invoke-virtual {p0}, Landroidx/viewpager2/widget/ViewPager2;->requestTransform()V    return-void
+    invoke-virtual {p0}, Landroidx/viewpager2/widget/ViewPager2;->requestTransform()V
+return-void
 .end method
 
 .method public setUserInputEnabled(Z)V
@@ -2825,7 +2830,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;->onSetUserInputEnabled()V    return-void
+    invoke-virtual {p1}, Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;->onSetUserInputEnabled()V
+return-void
 .end method
 
 .method public snapToPage()V
@@ -3003,7 +3009,8 @@
     const/4 v0, 0x0
 
     .line 36
-    iput-boolean v0, p0, Landroidx/viewpager2/widget/ViewPager2;->mCurrentItemDirty:Z    return-void
+    iput-boolean v0, p0, Landroidx/viewpager2/widget/ViewPager2;->mCurrentItemDirty:Z
+return-void
 
     .line 39
     :cond_2

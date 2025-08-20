@@ -24,8 +24,7 @@
 
     .line 1
     invoke-direct {p0}, Lorg/apache/http/client/methods/HttpEntityEnclosingRequestBase;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/String;)V
@@ -40,8 +39,7 @@
     move-result-object p1
 
     invoke-virtual {p0, p1}, Lorg/apache/http/client/methods/HttpEntityEnclosingRequestBase;->setURI(Ljava/net/URI;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/net/URI;)V
@@ -52,8 +50,7 @@
 
     .line 3
     invoke-virtual {p0, p1}, Lorg/apache/http/client/methods/HttpEntityEnclosingRequestBase;->setURI(Ljava/net/URI;)V
-
-    return-void
+return-void
 .end method
 
 

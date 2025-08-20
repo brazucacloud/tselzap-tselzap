@@ -310,8 +310,7 @@
     iget-object p0, p0, Lcom/google/android/gms/measurement/internal/zzhz;->zzi:Lcom/google/android/gms/internal/measurement/zzv;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/measurement/zzr;-><init>(Lcom/google/android/gms/internal/measurement/zzv;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static synthetic zza(Lcom/google/android/gms/measurement/internal/zzhz;Ljava/lang/String;)Lcom/google/android/gms/internal/measurement/zzb;
@@ -1128,8 +1127,7 @@
     const-string v0, "Failed to load EES program. appId"
 
     invoke-virtual {p2, v0, p1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic zzb(Lcom/google/android/gms/measurement/internal/zzhz;Ljava/lang/String;)Lcom/google/android/gms/internal/measurement/zzb;
@@ -3167,8 +3165,7 @@
 
     .line 1
     invoke-super {p0}, Lcom/google/android/gms/measurement/internal/zzjq;->zzt()V
-
-    return-void
+return-void
 .end method
 
 .method public final zzt(Ljava/lang/String;)Z
@@ -3222,8 +3219,7 @@
 
     .line 1
     invoke-super {p0}, Lcom/google/android/gms/measurement/internal/zzjq;->zzu()V
-
-    return-void
+return-void
 .end method
 
 .method public final bridge synthetic zzv()V

@@ -29,8 +29,7 @@
     iput-object p2, p0, Lcom/google/android/gms/common/internal/zzv;->zza:Ljava/lang/String;
 
     iput-boolean p5, p0, Lcom/google/android/gms/common/internal/zzv;->zzc:Z
-
-    return-void
+return-void
 .end method
 
 

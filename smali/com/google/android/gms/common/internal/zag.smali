@@ -11,8 +11,7 @@
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public static zab(Landroid/app/Activity;Landroid/content/Intent;I)Lcom/google/android/gms/common/internal/zag;
@@ -25,8 +24,7 @@
     new-instance v0, Lcom/google/android/gms/common/internal/zad;
 
     invoke-direct {v0, p1, p0, p2}, Lcom/google/android/gms/common/internal/zad;-><init>(Landroid/content/Intent;Landroid/app/Activity;I)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static zac(Landroidx/fragment/app/Fragment;Landroid/content/Intent;I)Lcom/google/android/gms/common/internal/zag;
@@ -43,8 +41,7 @@
     new-instance v0, Lcom/google/android/gms/common/internal/zae;
 
     invoke-direct {v0, p1, p0, p2}, Lcom/google/android/gms/common/internal/zae;-><init>(Landroid/content/Intent;Landroidx/fragment/app/Fragment;I)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static zad(Lcom/google/android/gms/common/api/internal/LifecycleFragment;Landroid/content/Intent;I)Lcom/google/android/gms/common/internal/zag;
@@ -63,8 +60,7 @@
     const/4 v0, 0x2
 
     invoke-direct {p2, p1, p0, v0}, Lcom/google/android/gms/common/internal/zaf;-><init>(Landroid/content/Intent;Lcom/google/android/gms/common/api/internal/LifecycleFragment;I)V
-
-    return-object p2
+return-object p2
 .end method
 
 

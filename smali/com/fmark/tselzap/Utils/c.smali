@@ -106,8 +106,7 @@
     new-instance v0, Ljava/util/PriorityQueue;
 
     invoke-direct {v0, p0}, Ljava/util/PriorityQueue;-><init>(Ljava/util/Comparator;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic k(Lcom/google/android/gms/internal/common/zzag;)Ljava/util/Spliterator;
@@ -141,8 +140,7 @@
     sget-object v0, Landroid/icu/text/DisplayContext;->CAPITALIZATION_FOR_STANDALONE:Landroid/icu/text/DisplayContext;
 
     invoke-virtual {p0, v0}, Landroid/icu/text/DateFormat;->setContext(Landroid/icu/text/DisplayContext;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic n(Landroid/icu/text/DateFormat;Landroid/icu/util/TimeZone;)V
@@ -150,8 +148,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/icu/text/DateFormat;->setTimeZone(Landroid/icu/util/TimeZone;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic o(Landroid/widget/EditText;Landroid/os/LocaleList;)V
@@ -159,8 +156,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/widget/EditText;->setImeHintLocales(Landroid/os/LocaleList;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic p(Ljava/util/concurrent/CompletableFuture;J)V

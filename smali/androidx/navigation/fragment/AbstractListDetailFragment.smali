@@ -24,7 +24,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/fragment/app/Fragment;-><init>()V    return-void
+    invoke-direct {p0}, Landroidx/fragment/app/Fragment;-><init>()V
+return-void
 .end method
 
 .method public static final synthetic access$getOnBackPressedCallback$p(Landroidx/navigation/fragment/AbstractListDetailFragment;)Landroidx/activity/OnBackPressedCallback;
@@ -52,7 +53,8 @@
 
     .line 6
     .line 7
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+return-object v0
 
     .line 11
     :cond_0
@@ -171,7 +173,8 @@
 
     .line 15
     .line 16
-    invoke-direct {v0}, Landroidx/navigation/fragment/NavHostFragment;-><init>()V    return-object v0
+    invoke-direct {v0}, Landroidx/navigation/fragment/NavHostFragment;-><init>()V
+return-object v0
 .end method
 
 .method public abstract onCreateListPaneView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
@@ -614,7 +617,8 @@
     .line 218
     .line 219
     .line 220
-    invoke-virtual {p1, p3, v0}, Landroidx/activity/OnBackPressedDispatcher;->addCallback(Landroidx/lifecycle/LifecycleOwner;Landroidx/activity/OnBackPressedCallback;)V    return-object p2
+    invoke-virtual {p1, p3, v0}, Landroidx/activity/OnBackPressedDispatcher;->addCallback(Landroidx/lifecycle/LifecycleOwner;Landroidx/activity/OnBackPressedCallback;)V
+return-object p2
 .end method
 
 .method public onInflate(Landroid/content/Context;Landroid/util/AttributeSet;Landroid/os/Bundle;)V
@@ -691,7 +695,8 @@
     .line 35
     .line 36
     :cond_0
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V    return-void
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
+return-void
 .end method
 
 .method public onListPaneViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
@@ -700,8 +705,7 @@
     const-string p2, "view"
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public onSaveInstanceState(Landroid/os/Bundle;)V
@@ -867,6 +871,7 @@
 
     .line 32
     :goto_0
-    invoke-virtual {p1, v0}, Landroidx/activity/OnBackPressedCallback;->setEnabled(Z)V    return-void
+    invoke-virtual {p1, v0}, Landroidx/activity/OnBackPressedCallback;->setEnabled(Z)V
+return-void
 .end method
 .end class

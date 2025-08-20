@@ -396,8 +396,7 @@
     check-cast p3, [Ljava/io/Serializable;
 
     invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/NavType$SerializableArrayType;->put(Landroid/os/Bundle;Ljava/lang/String;[Ljava/io/Serializable;)V
-
-    return-void
+return-void
 .end method
 
 .method public put(Landroid/os/Bundle;Ljava/lang/String;[Ljava/io/Serializable;)V
@@ -426,8 +425,7 @@
 
     .line 3
     invoke-virtual {p1, p2, p3}, Landroid/os/Bundle;->putSerializable(Ljava/lang/String;Ljava/io/Serializable;)V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic valueEquals(Ljava/lang/Object;Ljava/lang/Object;)Z

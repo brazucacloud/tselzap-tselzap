@@ -63,8 +63,7 @@
 
     .line 1
     invoke-direct {p0, p1, v0}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallResponse;-><init>(IZ)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(IZ)V
@@ -88,8 +87,7 @@
     iput p1, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallResponse;->zaa:I
 
     iput-boolean p2, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallResponse;->zab:Z
-
-    return-void
+return-void
 .end method
 
 

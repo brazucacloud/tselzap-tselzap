@@ -514,7 +514,8 @@
     .line 101
     .line 102
     .line 103
-    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Grid;->setBoxViewHorizontalChains()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Grid;->setBoxViewHorizontalChains()V
+return-void
 .end method
 
 .method private clearHParams(Landroid/view/View;)V
@@ -3475,7 +3476,8 @@
     .line 23
     .line 24
     .line 25
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public setColumns(I)V
@@ -3529,7 +3531,8 @@
     .line 21
     .line 22
     .line 23
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public setHorizontalGaps(F)V
@@ -3580,7 +3583,8 @@
     .line 18
     .line 19
     .line 20
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public setOrientation(I)V
@@ -3624,7 +3628,8 @@
     .line 15
     .line 16
     .line 17
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public setRowWeights(Ljava/lang/String;)V
@@ -3684,7 +3689,8 @@
     .line 23
     .line 24
     .line 25
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public setRows(I)V
@@ -3738,7 +3744,8 @@
     .line 21
     .line 22
     .line 23
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public setSkips(Ljava/lang/String;)V
@@ -3798,7 +3805,8 @@
     .line 23
     .line 24
     .line 25
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public setSpans(Ljava/lang/CharSequence;)V
@@ -3866,7 +3874,8 @@
     .line 27
     .line 28
     .line 29
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public setVerticalGaps(F)V
@@ -3917,6 +3926,7 @@
     .line 18
     .line 19
     .line 20
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 .end class

@@ -396,8 +396,7 @@
     check-cast p3, [Landroid/os/Parcelable;
 
     invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/NavType$ParcelableArrayType;->put(Landroid/os/Bundle;Ljava/lang/String;[Landroid/os/Parcelable;)V
-
-    return-void
+return-void
 .end method
 
 .method public put(Landroid/os/Bundle;Ljava/lang/String;[Landroid/os/Parcelable;)V
@@ -426,8 +425,7 @@
 
     .line 3
     invoke-virtual {p1, p2, p3}, Landroid/os/Bundle;->putParcelableArray(Ljava/lang/String;[Landroid/os/Parcelable;)V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic valueEquals(Ljava/lang/Object;Ljava/lang/Object;)Z

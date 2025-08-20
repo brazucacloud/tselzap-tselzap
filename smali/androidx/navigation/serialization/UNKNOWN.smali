@@ -37,7 +37,8 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/navigation/NavType;-><init>(Z)V    return-void
+    invoke-direct {p0, v0}, Landroidx/navigation/NavType;-><init>(Z)V
+return-void
 .end method
 
 
@@ -108,8 +109,7 @@
     check-cast p3, Ljava/lang/String;
 
     invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/serialization/UNKNOWN;->put(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public put(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;)V
@@ -127,7 +127,6 @@
     const-string p1, "value"
 
     invoke-static {p3, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 .end class

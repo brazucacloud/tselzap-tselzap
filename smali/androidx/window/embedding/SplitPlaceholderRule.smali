@@ -117,8 +117,7 @@
     .line 1
     :goto_1
     invoke-direct/range {p1 .. p7}, Landroidx/window/embedding/SplitPlaceholderRule;-><init>(Ljava/util/Set;Landroid/content/Intent;IIFI)V
-
-    return-void
+return-void
 .end method
 
 

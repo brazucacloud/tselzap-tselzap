@@ -39,7 +39,8 @@
 
     .line 6
     .line 7
-    invoke-direct {p0}, Landroidx/fragment/app/FragmentManager$FragmentLifecycleCallbacks;-><init>()V    return-void
+    invoke-direct {p0}, Landroidx/fragment/app/FragmentManager$FragmentLifecycleCallbacks;-><init>()V
+return-void
 .end method
 
 

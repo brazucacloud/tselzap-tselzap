@@ -82,8 +82,7 @@
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Landroidx/window/embedding/EmbeddingTranslatingCallback;->accept(Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method public accept(Ljava/util/List;)V
@@ -112,8 +111,7 @@
     move-result-object p1
 
     invoke-interface {v0, p1}, Landroidx/window/embedding/EmbeddingInterfaceCompat$EmbeddingCallbackInterface;->onSplitInfoChanged(Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .end class

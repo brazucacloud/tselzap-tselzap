@@ -31,8 +31,7 @@
     const-string v0, "extraLongLived"
 
     invoke-virtual {p0, v0, p1}, Landroid/os/PersistableBundle;->putBoolean(Ljava/lang/String;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic d(Landroid/view/View;Landroid/view/accessibility/AccessibilityNodeInfo;)V

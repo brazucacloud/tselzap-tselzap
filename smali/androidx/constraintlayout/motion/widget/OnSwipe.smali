@@ -422,7 +422,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mMoveWhenScrollAtTop:Z    return-object p0
+    iput-boolean p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mMoveWhenScrollAtTop:Z
+return-object p0
 .end method
 
 .method public setNestedScrollFlags(I)Landroidx/constraintlayout/motion/widget/OnSwipe;

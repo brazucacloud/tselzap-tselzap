@@ -154,7 +154,8 @@
     .line 15
     .line 16
     .line 17
-    invoke-virtual {v0, v1}, Landroidx/fragment/app/Fragment;->setArguments(Landroid/os/Bundle;)V    return-object v0
+    invoke-virtual {v0, v1}, Landroidx/fragment/app/Fragment;->setArguments(Landroid/os/Bundle;)V
+return-object v0
 .end method
 
 .method private setPendingShowSoftInputRequest(Z)V
@@ -476,7 +477,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putCharSequence(Ljava/lang/String;Ljava/lang/CharSequence;)V    return-void
+    invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putCharSequence(Ljava/lang/String;Ljava/lang/CharSequence;)V
+return-void
 .end method
 
 .method public scheduleShowSoftInput()V
@@ -496,7 +498,8 @@
     .line 3
     .line 4
     .line 5
-    invoke-virtual {p0}, Landroidx/preference/EditTextPreferenceDialogFragmentCompat;->scheduleShowSoftInputInner()V    return-void
+    invoke-virtual {p0}, Landroidx/preference/EditTextPreferenceDialogFragmentCompat;->scheduleShowSoftInputInner()V
+return-void
 .end method
 
 .method public scheduleShowSoftInputInner()V
@@ -591,7 +594,8 @@
 
     .line 40
     .line 41
-    invoke-direct {p0, v1}, Landroidx/preference/EditTextPreferenceDialogFragmentCompat;->setPendingShowSoftInputRequest(Z)V    return-void
+    invoke-direct {p0, v1}, Landroidx/preference/EditTextPreferenceDialogFragmentCompat;->setPendingShowSoftInputRequest(Z)V
+return-void
 
     .line 45
     :cond_1

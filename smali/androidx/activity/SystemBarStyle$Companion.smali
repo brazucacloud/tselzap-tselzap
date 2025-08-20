@@ -20,8 +20,7 @@
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Lkotlin/jvm/internal/e;)V
@@ -29,8 +28,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/activity/SystemBarStyle$Companion;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic auto$default(Landroidx/activity/SystemBarStyle$Companion;IILp1/l;ILjava/lang/Object;)Landroidx/activity/SystemBarStyle;
@@ -130,8 +128,7 @@
     move-object v5, p3
 
     invoke-direct/range {v1 .. v6}, Landroidx/activity/SystemBarStyle;-><init>(IIILp1/l;Lkotlin/jvm/internal/e;)V
-
-    return-object v1
+return-object v1
 .end method
 
 .method public final dark(I)Landroidx/activity/SystemBarStyle;
@@ -162,7 +159,8 @@
     move v1, p1
 
     .line 9
-    invoke-direct/range {v0 .. v5}, Landroidx/activity/SystemBarStyle;-><init>(IIILp1/l;Lkotlin/jvm/internal/e;)V    return-object v0
+    invoke-direct/range {v0 .. v5}, Landroidx/activity/SystemBarStyle;-><init>(IIILp1/l;Lkotlin/jvm/internal/e;)V
+return-object v0
 .end method
 
 .method public final light(II)Landroidx/activity/SystemBarStyle;
@@ -197,6 +195,7 @@
     move v2, p2
 
     .line 9
-    invoke-direct/range {v0 .. v5}, Landroidx/activity/SystemBarStyle;-><init>(IIILp1/l;Lkotlin/jvm/internal/e;)V    return-object v0
+    invoke-direct/range {v0 .. v5}, Landroidx/activity/SystemBarStyle;-><init>(IIILp1/l;Lkotlin/jvm/internal/e;)V
+return-object v0
 .end method
 .end class

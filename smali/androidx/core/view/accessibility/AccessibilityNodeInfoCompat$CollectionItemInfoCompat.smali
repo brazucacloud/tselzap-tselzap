@@ -52,8 +52,7 @@
     move-result-object p0
 
     invoke-direct {v0, p0}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$CollectionItemInfoCompat;-><init>(Ljava/lang/Object;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static obtain(IIIIZZ)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$CollectionItemInfoCompat;
@@ -67,8 +66,7 @@
     move-result-object p0
 
     invoke-direct {v0, p0}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$CollectionItemInfoCompat;-><init>(Ljava/lang/Object;)V
-
-    return-object v0
+return-object v0
 .end method
 
 

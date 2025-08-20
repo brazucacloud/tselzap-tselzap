@@ -27,7 +27,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, p2}, Landroidx/appcompat/widget/ContentFrameLayout;-><init>(Landroid/content/Context;)V    return-void
+    invoke-direct {p0, p2}, Landroidx/appcompat/widget/ContentFrameLayout;-><init>(Landroid/content/Context;)V
+return-void
 .end method
 
 .method private isOutOfBounds(II)Z

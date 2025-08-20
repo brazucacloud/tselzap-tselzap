@@ -55,8 +55,7 @@
 
     .line 20
     invoke-direct {p0, v0}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -72,8 +71,7 @@
     move-result-object v2
 
     invoke-direct {p0, p1, v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;-><init>(ILandroidx/emoji2/text/flatbuffer/FlatBufferBuilder$ByteBufferFactory;Ljava/nio/ByteBuffer;Landroidx/emoji2/text/flatbuffer/Utf8;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(ILandroidx/emoji2/text/flatbuffer/FlatBufferBuilder$ByteBufferFactory;)V
@@ -87,8 +85,7 @@
     move-result-object v1
 
     invoke-direct {p0, p1, p2, v0, v1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;-><init>(ILandroidx/emoji2/text/flatbuffer/FlatBufferBuilder$ByteBufferFactory;Ljava/nio/ByteBuffer;Landroidx/emoji2/text/flatbuffer/Utf8;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(ILandroidx/emoji2/text/flatbuffer/FlatBufferBuilder$ByteBufferFactory;Ljava/nio/ByteBuffer;Landroidx/emoji2/text/flatbuffer/Utf8;)V
@@ -192,8 +189,7 @@
     invoke-direct {v0}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder$HeapByteBufferFactory;-><init>()V
 
     invoke-direct {p0, p1, v0}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;-><init>(Ljava/nio/ByteBuffer;Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder$ByteBufferFactory;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/nio/ByteBuffer;Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder$ByteBufferFactory;)V
@@ -209,8 +205,7 @@
     move-result-object v1
 
     invoke-direct {p0, v0, p2, p1, v1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;-><init>(ILandroidx/emoji2/text/flatbuffer/FlatBufferBuilder$ByteBufferFactory;Ljava/nio/ByteBuffer;Landroidx/emoji2/text/flatbuffer/Utf8;)V
-
-    return-void
+return-void
 .end method
 
 .method private dataStart()I
@@ -436,8 +431,7 @@
     invoke-virtual {p0, p2}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->addBoolean(Z)V
 
     invoke-virtual {p0, p1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->slot(I)V
-
-    return-void
+return-void
 .end method
 
 .method public addBoolean(Z)V
@@ -451,8 +445,7 @@
     invoke-virtual {p0, v0, v1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->prep(II)V
 
     invoke-virtual {p0, p1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->putBoolean(Z)V
-
-    return-void
+return-void
 .end method
 
 .method public addByte(B)V
@@ -466,8 +459,7 @@
     invoke-virtual {p0, v0, v1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->prep(II)V
 
     invoke-virtual {p0, p1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->putByte(B)V
-
-    return-void
+return-void
 .end method
 
 .method public addByte(IBI)V
@@ -490,8 +482,7 @@
     invoke-virtual {p0, p2}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->addByte(B)V
 
     invoke-virtual {p0, p1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->slot(I)V
-
-    return-void
+return-void
 .end method
 
 .method public addDouble(D)V
@@ -505,8 +496,7 @@
     invoke-virtual {p0, v0, v1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->prep(II)V
 
     invoke-virtual {p0, p1, p2}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->putDouble(D)V
-
-    return-void
+return-void
 .end method
 
 .method public addDouble(IDD)V
@@ -531,8 +521,7 @@
     invoke-virtual {p0, p2, p3}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->addDouble(D)V
 
     invoke-virtual {p0, p1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->slot(I)V
-
-    return-void
+return-void
 .end method
 
 .method public addFloat(F)V
@@ -546,8 +535,7 @@
     invoke-virtual {p0, v0, v1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->prep(II)V
 
     invoke-virtual {p0, p1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->putFloat(F)V
-
-    return-void
+return-void
 .end method
 
 .method public addFloat(IFD)V
@@ -574,8 +562,7 @@
     invoke-virtual {p0, p2}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->addFloat(F)V
 
     invoke-virtual {p0, p1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->slot(I)V
-
-    return-void
+return-void
 .end method
 
 .method public addInt(I)V
@@ -589,8 +576,7 @@
     invoke-virtual {p0, v0, v1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->prep(II)V
 
     invoke-virtual {p0, p1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->putInt(I)V
-
-    return-void
+return-void
 .end method
 
 .method public addInt(III)V
@@ -613,8 +599,7 @@
     invoke-virtual {p0, p2}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->addInt(I)V
 
     invoke-virtual {p0, p1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->slot(I)V
-
-    return-void
+return-void
 .end method
 
 .method public addLong(IJJ)V
@@ -639,8 +624,7 @@
     invoke-virtual {p0, p2, p3}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->addLong(J)V
 
     invoke-virtual {p0, p1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->slot(I)V
-
-    return-void
+return-void
 .end method
 
 .method public addLong(J)V
@@ -654,8 +638,7 @@
     invoke-virtual {p0, v0, v1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->prep(II)V
 
     invoke-virtual {p0, p1, p2}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->putLong(J)V
-
-    return-void
+return-void
 .end method
 
 .method public addOffset(I)V
@@ -679,8 +662,7 @@
 
     .line 3
     invoke-virtual {p0, v0}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->putInt(I)V
-
-    return-void
+return-void
 .end method
 
 .method public addOffset(III)V
@@ -703,8 +685,7 @@
     invoke-virtual {p0, p2}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->addOffset(I)V
 
     invoke-virtual {p0, p1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->slot(I)V
-
-    return-void
+return-void
 .end method
 
 .method public addShort(ISI)V
@@ -727,8 +708,7 @@
     invoke-virtual {p0, p2}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->addShort(S)V
 
     invoke-virtual {p0, p1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->slot(I)V
-
-    return-void
+return-void
 .end method
 
 .method public addShort(S)V
@@ -742,8 +722,7 @@
     invoke-virtual {p0, v0, v1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->prep(II)V
 
     invoke-virtual {p0, p1}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->putShort(S)V
-
-    return-void
+return-void
 .end method
 
 .method public addStruct(III)V
@@ -1937,8 +1916,7 @@
 
     .line 6
     invoke-virtual {p0, p1, v0}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->finish(IZ)V
-
-    return-void
+return-void
 .end method
 
 .method public finish(ILjava/lang/String;)V
@@ -1948,8 +1926,7 @@
 
     .line 12
     invoke-virtual {p0, p1, p2, v0}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->finish(ILjava/lang/String;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public finish(ILjava/lang/String;Z)V
@@ -2002,8 +1979,7 @@
     .line 10
     :cond_1
     invoke-virtual {p0, p1, p3}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->finish(IZ)V
-
-    return-void
+return-void
 
     .line 11
     :cond_2
@@ -2068,8 +2044,7 @@
 
     .line 5
     iput-boolean p1, p0, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->finished:Z
-
-    return-void
+return-void
 .end method
 
 .method public finishSizePrefixed(I)V
@@ -2079,8 +2054,7 @@
 
     .line 1
     invoke-virtual {p0, p1, v0}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->finish(IZ)V
-
-    return-void
+return-void
 .end method
 
 .method public finishSizePrefixed(ILjava/lang/String;)V
@@ -2090,8 +2064,7 @@
 
     .line 2
     invoke-virtual {p0, p1, p2, v0}, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder;->finish(ILjava/lang/String;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public finished()V

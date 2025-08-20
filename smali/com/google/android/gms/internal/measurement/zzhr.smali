@@ -16,8 +16,7 @@
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public static zza(Landroid/content/Context;)LA0/e;
@@ -91,8 +90,7 @@
     .line 33
     :goto_0
     invoke-static {v0}, Landroid/os/StrictMode;->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
-
-    return-object v1
+return-object v1
 
     .line 34
     :goto_1
@@ -351,8 +349,7 @@
     new-instance v0, Ljava/lang/String;
 
     invoke-direct {v0, p0}, Ljava/lang/String;-><init>(Ljava/lang/String;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method private static zzb(Landroid/content/Context;)LA0/e;

@@ -234,7 +234,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {v1, v0}, Landroidx/concurrent/futures/ResolvableFuture;->set(Ljava/lang/Object;)Z    return-void
+    invoke-virtual {v1, v0}, Landroidx/concurrent/futures/ResolvableFuture;->set(Ljava/lang/Object;)Z
+return-void
 .end method
 
 .method public set(Ljava/lang/Object;)Z

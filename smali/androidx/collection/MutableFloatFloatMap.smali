@@ -19,8 +19,7 @@
     const/4 v2, 0x0
 
     invoke-direct {p0, v2, v0, v1}, Landroidx/collection/MutableFloatFloatMap;-><init>(IILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -39,8 +38,7 @@
     move-result p1
 
     invoke-direct {p0, p1}, Landroidx/collection/MutableFloatFloatMap;->initializeStorage(I)V
-
-    return-void
+return-void
 
     .line 5
     :cond_0
@@ -65,8 +63,7 @@
     .line 2
     :cond_0
     invoke-direct {p0, p1}, Landroidx/collection/MutableFloatFloatMap;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 .method private final adjustStorage()V
@@ -133,7 +130,8 @@
 
     .line 28
     .line 29
-    invoke-direct {p0}, Landroidx/collection/MutableFloatFloatMap;->removeDeletedMarkers()V    return-void
+    invoke-direct {p0}, Landroidx/collection/MutableFloatFloatMap;->removeDeletedMarkers()V
+return-void
 
     .line 33
     :cond_0
@@ -149,7 +147,8 @@
     move-result v0
 
     .line 39
-    invoke-direct {p0, v0}, Landroidx/collection/MutableFloatFloatMap;->resizeStorage(I)V    return-void
+    invoke-direct {p0, v0}, Landroidx/collection/MutableFloatFloatMap;->resizeStorage(I)V
+return-void
 .end method
 
 .method private final findFirstAvailableSlot(I)I
@@ -884,7 +883,8 @@
 
     .line 34
     .line 35
-    invoke-direct {p0}, Landroidx/collection/MutableFloatFloatMap;->initializeGrowth()V    return-void
+    invoke-direct {p0}, Landroidx/collection/MutableFloatFloatMap;->initializeGrowth()V
+return-void
 .end method
 
 .method private final initializeStorage(I)V
@@ -1571,7 +1571,8 @@
     .line 32
     .line 33
     :cond_0
-    invoke-direct {p0}, Landroidx/collection/MutableFloatFloatMap;->initializeGrowth()V    return-void
+    invoke-direct {p0}, Landroidx/collection/MutableFloatFloatMap;->initializeGrowth()V
+return-void
 .end method
 
 .method public final getOrPut(FLp1/a;)F
@@ -1642,8 +1643,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroidx/collection/MutableFloatFloatMap;->remove(F)V
-
-    return-void
+return-void
 .end method
 
 .method public final minusAssign(Landroidx/collection/FloatList;)V
@@ -1819,7 +1819,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, p1}, Landroidx/collection/MutableFloatFloatMap;->putAll(Landroidx/collection/FloatFloatMap;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/collection/MutableFloatFloatMap;->putAll(Landroidx/collection/FloatFloatMap;)V
+return-void
 .end method
 
 .method public final put(FFF)F
@@ -1861,8 +1862,7 @@
 
     .line 1
     invoke-virtual {p0, p1, p2}, Landroidx/collection/MutableFloatFloatMap;->set(FF)V
-
-    return-void
+return-void
 .end method
 
 .method public final putAll(Landroidx/collection/FloatFloatMap;)V

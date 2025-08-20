@@ -268,14 +268,16 @@
 
     .line 113
     .line 114
-    invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->append(II)V    return-void
+    invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->append(II)V
+return-void
 .end method
 
 .method private constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 .method public static read(Landroidx/constraintlayout/motion/widget/KeyTrigger;Landroid/content/res/TypedArray;Landroid/content/Context;)V

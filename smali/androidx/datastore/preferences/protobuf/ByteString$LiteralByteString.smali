@@ -160,7 +160,8 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p2, p1, p3, p4}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V    return-void
+    invoke-static {v0, p2, p1, p3, p4}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+return-void
 .end method
 
 .method public final equals(Ljava/lang/Object;)Z
@@ -661,7 +662,8 @@
     move-result v3
 
     .line 13
-    invoke-direct {v0, v1, v2, v3}, Ljava/io/ByteArrayInputStream;-><init>([BII)V    return-object v0
+    invoke-direct {v0, v1, v2, v3}, Ljava/io/ByteArrayInputStream;-><init>([BII)V
+return-object v0
 .end method
 
 .method public final partialHash(III)I
@@ -785,7 +787,8 @@
     add-int/2addr v2, p1
 
     .line 23
-    invoke-direct {v0, v1, v2, p2}, Landroidx/datastore/preferences/protobuf/ByteString$BoundedByteString;-><init>([BII)V    return-object v0
+    invoke-direct {v0, v1, v2, p2}, Landroidx/datastore/preferences/protobuf/ByteString$BoundedByteString;-><init>([BII)V
+return-object v0
 .end method
 
 .method public final toStringInternal(Ljava/nio/charset/Charset;)Ljava/lang/String;
@@ -816,7 +819,8 @@
     move-result v3
 
     .line 13
-    invoke-direct {v0, v1, v2, v3, p1}, Ljava/lang/String;-><init>([BIILjava/nio/charset/Charset;)V    return-object v0
+    invoke-direct {v0, v1, v2, v3, p1}, Ljava/lang/String;-><init>([BIILjava/nio/charset/Charset;)V
+return-object v0
 .end method
 
 .method public final writeTo(Landroidx/datastore/preferences/protobuf/ByteOutput;)V
@@ -834,8 +838,7 @@
     move-result v2
 
     invoke-virtual {p1, v0, v1, v2}, Landroidx/datastore/preferences/protobuf/ByteOutput;->writeLazy([BII)V
-
-    return-void
+return-void
 .end method
 
 .method public final writeTo(Ljava/io/OutputStream;)V
@@ -847,8 +850,7 @@
     move-result-object v0
 
     invoke-virtual {p1, v0}, Ljava/io/OutputStream;->write([B)V
-
-    return-void
+return-void
 .end method
 
 .method public final writeToInternal(Ljava/io/OutputStream;II)V
@@ -870,6 +872,7 @@
     add-int/2addr v1, p2
 
     .line 8
-    invoke-virtual {p1, v0, v1, p3}, Ljava/io/OutputStream;->write([BII)V    return-void
+    invoke-virtual {p1, v0, v1, p3}, Ljava/io/OutputStream;->write([BII)V
+return-void
 .end method
 .end class

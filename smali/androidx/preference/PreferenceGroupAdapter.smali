@@ -203,7 +203,8 @@
     .line 65
     .line 66
     :goto_0
-    invoke-virtual {p0}, Landroidx/preference/PreferenceGroupAdapter;->updatePreferences()V    return-void
+    invoke-virtual {p0}, Landroidx/preference/PreferenceGroupAdapter;->updatePreferences()V
+return-void
 .end method
 
 .method private createExpandButton(Landroidx/preference/PreferenceGroup;Ljava/util/List;)Landroidx/preference/ExpandButton;
@@ -254,7 +255,8 @@
     .line 17
     .line 18
     .line 19
-    invoke-virtual {v0, p2}, Landroidx/preference/Preference;->setOnPreferenceClickListener(Landroidx/preference/Preference$OnPreferenceClickListener;)V    return-object v0
+    invoke-virtual {v0, p2}, Landroidx/preference/Preference;->setOnPreferenceClickListener(Landroidx/preference/Preference$OnPreferenceClickListener;)V
+return-object v0
 .end method
 
 .method private createVisiblePreferencesList(Landroidx/preference/PreferenceGroup;)Ljava/util/List;
@@ -1284,7 +1286,8 @@
     .end param
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/preference/PreferenceGroupAdapter;->onPreferenceHierarchyChange(Landroidx/preference/Preference;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/preference/PreferenceGroupAdapter;->onPreferenceHierarchyChange(Landroidx/preference/Preference;)V
+return-void
 .end method
 
 .method public updatePreferences()V

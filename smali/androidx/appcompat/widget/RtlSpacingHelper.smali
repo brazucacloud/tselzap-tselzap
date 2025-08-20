@@ -70,7 +70,8 @@
 
     .line 20
     .line 21
-    iput-boolean v0, p0, Landroidx/appcompat/widget/RtlSpacingHelper;->mIsRelative:Z    return-void
+    iput-boolean v0, p0, Landroidx/appcompat/widget/RtlSpacingHelper;->mIsRelative:Z
+return-void
 .end method
 
 

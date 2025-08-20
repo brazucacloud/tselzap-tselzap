@@ -97,7 +97,8 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+return-object v0
 .end method
 
 .method public static final get(J)I
@@ -587,8 +588,7 @@
     const/4 v3, 0x0
 
     invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableScatterMap;-><init>(IILkotlin/jvm/internal/e;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final varargs mutableScatterMapOf([Lc1/f;)Landroidx/collection/MutableScatterMap;
@@ -620,8 +620,7 @@
 
     .line 3
     invoke-virtual {v0, p0}, Landroidx/collection/MutableScatterMap;->putAll([Lc1/f;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final next(J)J

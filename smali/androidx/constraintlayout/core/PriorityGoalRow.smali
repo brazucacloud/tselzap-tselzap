@@ -381,7 +381,8 @@
 
     .line 32
     .line 33
-    iput-boolean v0, p1, Landroidx/constraintlayout/core/SolverVariable;->inGoal:Z    return-void
+    iput-boolean v0, p1, Landroidx/constraintlayout/core/SolverVariable;->inGoal:Z
+return-void
 
     .line 36
     :cond_1

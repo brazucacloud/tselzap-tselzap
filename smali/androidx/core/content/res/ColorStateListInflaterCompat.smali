@@ -943,8 +943,7 @@
     new-instance v2, Landroid/content/res/ColorStateList;
 
     invoke-direct {v2, v1, v0}, Landroid/content/res/ColorStateList;-><init>([[I[I)V
-
-    return-object v2
+return-object v2
 .end method
 
 .method private static isColorInt(Landroid/content/res/Resources;I)Z

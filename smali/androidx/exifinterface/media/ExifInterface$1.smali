@@ -35,7 +35,8 @@
 
     .line 4
     .line 5
-    invoke-direct {p0}, Landroid/media/MediaDataSource;-><init>()V    return-void
+    invoke-direct {p0}, Landroid/media/MediaDataSource;-><init>()V
+return-void
 .end method
 
 

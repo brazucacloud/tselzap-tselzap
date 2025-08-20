@@ -224,7 +224,8 @@
     move-result-object p1
 
     .line 27
-    invoke-virtual {p2, p1}, Ljava/io/Writer;->write(Ljava/lang/String;)V    return-void
+    invoke-virtual {p2, p1}, Ljava/io/Writer;->write(Ljava/lang/String;)V
+return-void
 
     .line 31
     :cond_0
@@ -270,7 +271,8 @@
     move-result-object p1
 
     .line 53
-    invoke-virtual {p2, p1}, Ljava/io/Writer;->write(Ljava/lang/String;)V    return-void
+    invoke-virtual {p2, p1}, Ljava/io/Writer;->write(Ljava/lang/String;)V
+return-void
 
     .line 57
     :cond_1
@@ -917,7 +919,8 @@
     move-result-object p2
 
     .line 66
-    invoke-virtual {p1, p2}, Ljava/io/Writer;->write(Ljava/lang/String;)V    return-void
+    invoke-virtual {p1, p2}, Ljava/io/Writer;->write(Ljava/lang/String;)V
+return-void
 .end method
 
 .method public writeConstraint(Ljava/lang/String;ILjava/lang/String;II)V
@@ -1062,7 +1065,8 @@
 
     .line 74
     .line 75
-    invoke-virtual {p1, p2}, Ljava/io/Writer;->write(Ljava/lang/String;)V    return-void
+    invoke-virtual {p1, p2}, Ljava/io/Writer;->write(Ljava/lang/String;)V
+return-void
 .end method
 
 .method public writeLayout()V
@@ -2248,7 +2252,8 @@
 
     .line 618
     .line 619
-    invoke-virtual {v1, v2}, Ljava/io/Writer;->write(Ljava/lang/String;)V    return-void
+    invoke-virtual {v1, v2}, Ljava/io/Writer;->write(Ljava/lang/String;)V
+return-void
 .end method
 
 .method public writeVariable(Ljava/lang/String;FF)V
@@ -2298,8 +2303,7 @@
     move-result-object p2
 
     invoke-virtual {p1, p2}, Ljava/io/Writer;->write(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public writeVariable(Ljava/lang/String;I)V
@@ -2383,8 +2387,7 @@
     const-string p2, "\n"
 
     invoke-virtual {p1, p2}, Ljava/io/Writer;->write(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public writeVariable(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
@@ -2529,8 +2532,7 @@
     const-string p2, "],\n"
 
     invoke-virtual {p1, p2}, Ljava/io/Writer;->write(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public writeXmlConstraint(Ljava/lang/String;I)V
@@ -2626,6 +2628,7 @@
     move-result-object p2
 
     .line 49
-    invoke-virtual {p1, p2}, Ljava/io/Writer;->write(Ljava/lang/String;)V    return-void
+    invoke-virtual {p1, p2}, Ljava/io/Writer;->write(Ljava/lang/String;)V
+return-void
 .end method
 .end class

@@ -18,8 +18,7 @@
 
     .line 2
     iput-boolean v0, p0, Lcom/google/android/material/search/SearchBar$ScrollingViewBehavior;->h:Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -40,8 +39,7 @@
 
     .line 4
     iput-boolean p1, p0, Lcom/google/android/material/search/SearchBar$ScrollingViewBehavior;->h:Z
-
-    return-void
+return-void
 .end method
 
 

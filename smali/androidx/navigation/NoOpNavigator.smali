@@ -28,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/navigation/Navigator;-><init>()V    return-void
+    invoke-direct {p0}, Landroidx/navigation/Navigator;-><init>()V
+return-void
 .end method
 
 
@@ -41,7 +42,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/navigation/NavDestination;-><init>(Landroidx/navigation/Navigator;)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/navigation/NavDestination;-><init>(Landroidx/navigation/Navigator;)V
+return-object v0
 .end method
 
 .method public navigate(Landroidx/navigation/NavDestination;Landroid/os/Bundle;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)Landroidx/navigation/NavDestination;
@@ -50,8 +52,7 @@
     const-string p2, "destination"
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object p1
+return-object p1
 .end method
 
 .method public popBackStack()Z

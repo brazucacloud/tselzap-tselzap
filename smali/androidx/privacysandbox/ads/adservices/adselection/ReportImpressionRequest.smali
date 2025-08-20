@@ -38,8 +38,7 @@
     move-result-object v0
 
     invoke-direct {p0, p1, p2, v0}, Landroidx/privacysandbox/ads/adservices/adselection/ReportImpressionRequest;-><init>(JLandroidx/privacysandbox/ads/adservices/adselection/AdSelectionConfig;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(JLandroidx/privacysandbox/ads/adservices/adselection/AdSelectionConfig;)V

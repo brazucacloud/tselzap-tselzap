@@ -168,8 +168,7 @@
     iget-object p0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzl;->zzg:Lcom/google/android/gms/internal/measurement/zzkr;
 
     invoke-interface {p0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic zzb()Lcom/google/android/gms/internal/measurement/zzgg$zzl;
@@ -319,16 +318,14 @@
     new-instance p1, Lcom/google/android/gms/internal/measurement/zzgg$zzl$zza;
 
     invoke-direct {p1, p2}, Lcom/google/android/gms/internal/measurement/zzgg$zzl$zza;-><init>(Lcom/google/android/gms/internal/measurement/zzgp;)V
-
-    return-object p1
+return-object p1
 
     .line 16
     :pswitch_5
     new-instance p1, Lcom/google/android/gms/internal/measurement/zzgg$zzl;
 
     invoke-direct {p1}, Lcom/google/android/gms/internal/measurement/zzgg$zzl;-><init>()V
-
-    return-object p1
+return-object p1
 
     nop
 

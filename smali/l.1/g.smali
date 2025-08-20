@@ -149,8 +149,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/graphics/Canvas;->clipOutRect(Landroid/graphics/RectF;)Z
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic p(Landroid/text/TextPaint;Ljava/lang/String;)V
@@ -169,8 +168,7 @@
     const/4 v0, 0x1
 
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->setImportantForAutofill(I)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic r(Landroid/graphics/ColorSpace;)Z

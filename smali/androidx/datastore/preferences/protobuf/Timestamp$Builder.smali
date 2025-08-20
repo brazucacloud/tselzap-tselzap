@@ -37,8 +37,7 @@
     move-result-object v0
 
     invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;-><init>(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Landroidx/datastore/preferences/protobuf/Timestamp$1;)V
@@ -46,8 +45,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Timestamp$Builder;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -69,7 +67,8 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Timestamp;->access$400(Landroidx/datastore/preferences/protobuf/Timestamp;)V    return-object p0
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Timestamp;->access$400(Landroidx/datastore/preferences/protobuf/Timestamp;)V
+return-object p0
 .end method
 
 .method public clearSeconds()Landroidx/datastore/preferences/protobuf/Timestamp$Builder;
@@ -89,7 +88,8 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Timestamp;->access$200(Landroidx/datastore/preferences/protobuf/Timestamp;)V    return-object p0
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Timestamp;->access$200(Landroidx/datastore/preferences/protobuf/Timestamp;)V
+return-object p0
 .end method
 
 .method public getNanos()I
@@ -153,7 +153,8 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Timestamp;->access$300(Landroidx/datastore/preferences/protobuf/Timestamp;I)V    return-object p0
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Timestamp;->access$300(Landroidx/datastore/preferences/protobuf/Timestamp;I)V
+return-object p0
 .end method
 
 .method public setSeconds(J)Landroidx/datastore/preferences/protobuf/Timestamp$Builder;
@@ -173,6 +174,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/Timestamp;->access$100(Landroidx/datastore/preferences/protobuf/Timestamp;J)V    return-object p0
+    invoke-static {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/Timestamp;->access$100(Landroidx/datastore/preferences/protobuf/Timestamp;J)V
+return-object p0
 .end method
 .end class

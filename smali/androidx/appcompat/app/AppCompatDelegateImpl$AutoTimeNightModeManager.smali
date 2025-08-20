@@ -78,7 +78,8 @@
 
     .line 17
     .line 18
-    invoke-virtual {v0, v1}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V    return-object v0
+    invoke-virtual {v0, v1}, Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+return-object v0
 .end method
 
 .method public getApplyableNightMode()I

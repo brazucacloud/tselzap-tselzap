@@ -61,8 +61,7 @@
 
     .line 6
     invoke-virtual {p0, p1}, Landroidx/core/graphics/drawable/WrappedDrawableApi14;->setWrappedDrawable(Landroid/graphics/drawable/Drawable;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/core/graphics/drawable/WrappedDrawableState;Landroid/content/res/Resources;)V
@@ -84,8 +83,7 @@
 
     .line 3
     invoke-direct {p0, p2}, Landroidx/core/graphics/drawable/WrappedDrawableApi14;->updateLocalState(Landroid/content/res/Resources;)V
-
-    return-void
+return-void
 .end method
 
 .method private mutateConstantState()Landroidx/core/graphics/drawable/WrappedDrawableState;

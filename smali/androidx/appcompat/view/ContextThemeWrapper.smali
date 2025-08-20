@@ -27,8 +27,7 @@
 
     .line 1
     invoke-direct {p0, v0}, Landroid/content/ContextWrapper;-><init>(Landroid/content/Context;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;I)V
@@ -238,7 +237,8 @@
 
     .line 38
     .line 39
-    invoke-virtual {p0, v1, v2, v0}, Landroidx/appcompat/view/ContextThemeWrapper;->onApplyThemeResource(Landroid/content/res/Resources$Theme;IZ)V    return-void
+    invoke-virtual {p0, v1, v2, v0}, Landroidx/appcompat/view/ContextThemeWrapper;->onApplyThemeResource(Landroid/content/res/Resources$Theme;IZ)V
+return-void
 .end method
 
 .method private static isEmptyConfiguration(Landroid/content/res/Configuration;)Z
@@ -372,7 +372,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroid/content/ContextWrapper;->attachBaseContext(Landroid/content/Context;)V    return-void
+    invoke-super {p0, p1}, Landroid/content/ContextWrapper;->attachBaseContext(Landroid/content/Context;)V
+return-void
 .end method
 
 .method public getAssets()Landroid/content/res/AssetManager;
@@ -541,7 +542,8 @@
     const/4 p3, 0x1
 
     .line 2
-    invoke-virtual {p1, p2, p3}, Landroid/content/res/Resources$Theme;->applyStyle(IZ)V    return-void
+    invoke-virtual {p1, p2, p3}, Landroid/content/res/Resources$Theme;->applyStyle(IZ)V
+return-void
 .end method
 
 .method public setTheme(I)V

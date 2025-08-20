@@ -22,8 +22,7 @@
     iput-object p1, p0, Landroidx/lifecycle/a;->c:Ljava/lang/Object;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -41,8 +40,7 @@
     check-cast v0, Landroidx/lifecycle/ProcessLifecycleOwner;
 
     invoke-static {v0}, Landroidx/lifecycle/ProcessLifecycleOwner;->a(Landroidx/lifecycle/ProcessLifecycleOwner;)V
-
-    return-void
+return-void
 
     :pswitch_0
     iget-object v0, p0, Landroidx/lifecycle/a;->c:Ljava/lang/Object;
@@ -50,8 +48,7 @@
     check-cast v0, Landroidx/lifecycle/ComputableLiveData;
 
     invoke-static {v0}, Landroidx/lifecycle/ComputableLiveData;->b(Landroidx/lifecycle/ComputableLiveData;)V
-
-    return-void
+return-void
 
     :pswitch_1
     iget-object v0, p0, Landroidx/lifecycle/a;->c:Ljava/lang/Object;
@@ -59,8 +56,7 @@
     check-cast v0, Landroidx/lifecycle/ComputableLiveData;
 
     invoke-static {v0}, Landroidx/lifecycle/ComputableLiveData;->a(Landroidx/lifecycle/ComputableLiveData;)V
-
-    return-void
+return-void
 
     nop
 

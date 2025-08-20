@@ -14,7 +14,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/fragment/app/FragmentTransitionImpl;-><init>()V    return-void
+    invoke-direct {p0}, Landroidx/fragment/app/FragmentTransitionImpl;-><init>()V
+return-void
 .end method
 
 .method private static hasSimpleTarget(Landroid/transition/Transition;)Z
@@ -1132,7 +1133,8 @@
     .line 33
     .line 34
     .line 35
-    invoke-virtual {p0, p1, p3}, Landroidx/fragment/app/FragmentTransitionCompat21;->addTargets(Ljava/lang/Object;Ljava/util/ArrayList;)V    return-void
+    invoke-virtual {p0, p1, p3}, Landroidx/fragment/app/FragmentTransitionCompat21;->addTargets(Ljava/lang/Object;Ljava/util/ArrayList;)V
+return-void
 .end method
 
 .method public swapSharedElementTargets(Ljava/lang/Object;Ljava/util/ArrayList;Ljava/util/ArrayList;)V

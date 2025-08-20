@@ -453,7 +453,8 @@
     const/4 v3, 0x0
 
     .line 53
-    invoke-virtual {v1, v2, v0, v3}, Landroidx/fragment/app/FragmentLifecycleCallbacksDispatcher;->dispatchOnFragmentActivityCreated(Landroidx/fragment/app/Fragment;Landroid/os/Bundle;Z)V    return-void
+    invoke-virtual {v1, v2, v0, v3}, Landroidx/fragment/app/FragmentLifecycleCallbacksDispatcher;->dispatchOnFragmentActivityCreated(Landroidx/fragment/app/Fragment;Landroid/os/Bundle;Z)V
+return-void
 .end method
 
 .method public addViewToContainer()V
@@ -908,7 +909,8 @@
 
     .line 178
     .line 179
-    invoke-virtual {v0, v1, v2}, Landroidx/fragment/app/FragmentLifecycleCallbacksDispatcher;->dispatchOnFragmentAttached(Landroidx/fragment/app/Fragment;Z)V    return-void
+    invoke-virtual {v0, v1, v2}, Landroidx/fragment/app/FragmentLifecycleCallbacksDispatcher;->dispatchOnFragmentAttached(Landroidx/fragment/app/Fragment;Z)V
+return-void
 .end method
 
 .method public computeExpectedState()I
@@ -1513,7 +1515,8 @@
 
     .line 63
     .line 64
-    invoke-virtual {v1, v2, v0, v3}, Landroidx/fragment/app/FragmentLifecycleCallbacksDispatcher;->dispatchOnFragmentCreated(Landroidx/fragment/app/Fragment;Landroid/os/Bundle;Z)V    return-void
+    invoke-virtual {v1, v2, v0, v3}, Landroidx/fragment/app/FragmentLifecycleCallbacksDispatcher;->dispatchOnFragmentCreated(Landroidx/fragment/app/Fragment;Landroid/os/Bundle;Z)V
+return-void
 
     .line 68
     :cond_2
@@ -1524,7 +1527,8 @@
 
     .line 70
     .line 71
-    invoke-virtual {v1}, Landroidx/fragment/app/Fragment;->restoreChildFragmentState()V    return-void
+    invoke-virtual {v1}, Landroidx/fragment/app/Fragment;->restoreChildFragmentState()V
+return-void
 .end method
 
 .method public createView()V
@@ -2829,7 +2833,8 @@
 
     .line 239
     .line 240
-    invoke-virtual {v0, p0}, Landroidx/fragment/app/FragmentStore;->makeInactive(Landroidx/fragment/app/FragmentStateManager;)V    return-void
+    invoke-virtual {v0, p0}, Landroidx/fragment/app/FragmentStore;->makeInactive(Landroidx/fragment/app/FragmentStateManager;)V
+return-void
 .end method
 
 .method public destroyFragmentView()V
@@ -2974,7 +2979,8 @@
 
     .line 70
     .line 71
-    iput-boolean v2, v0, Landroidx/fragment/app/Fragment;->mInLayout:Z    return-void
+    iput-boolean v2, v0, Landroidx/fragment/app/Fragment;->mInLayout:Z
+return-void
 .end method
 
 .method public detach()V
@@ -4378,7 +4384,8 @@
     .line 452
     .line 453
     :cond_10
-    iput-boolean v0, p0, Landroidx/fragment/app/FragmentStateManager;->mMovingToState:Z    return-void
+    iput-boolean v0, p0, Landroidx/fragment/app/FragmentStateManager;->mMovingToState:Z
+return-void
 
     .line 456
     :goto_4
@@ -4512,7 +4519,8 @@
     const/4 v2, 0x0
 
     .line 39
-    invoke-virtual {v0, v1, v2}, Landroidx/fragment/app/FragmentLifecycleCallbacksDispatcher;->dispatchOnFragmentPaused(Landroidx/fragment/app/Fragment;Z)V    return-void
+    invoke-virtual {v0, v1, v2}, Landroidx/fragment/app/FragmentLifecycleCallbacksDispatcher;->dispatchOnFragmentPaused(Landroidx/fragment/app/Fragment;Z)V
+return-void
 .end method
 
 .method public restoreState(Ljava/lang/ClassLoader;)V
@@ -5079,7 +5087,8 @@
     move-result-object v1
 
     .line 14
-    invoke-direct {v0, v1}, Landroidx/fragment/app/Fragment$SavedState;-><init>(Landroid/os/Bundle;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/fragment/app/Fragment$SavedState;-><init>(Landroid/os/Bundle;)V
+return-object v0
 
     .line 18
     :cond_0
@@ -5664,7 +5673,8 @@
     const/4 v2, 0x0
 
     .line 39
-    invoke-virtual {v0, v1, v2}, Landroidx/fragment/app/FragmentLifecycleCallbacksDispatcher;->dispatchOnFragmentStarted(Landroidx/fragment/app/Fragment;Z)V    return-void
+    invoke-virtual {v0, v1, v2}, Landroidx/fragment/app/FragmentLifecycleCallbacksDispatcher;->dispatchOnFragmentStarted(Landroidx/fragment/app/Fragment;Z)V
+return-void
 .end method
 
 .method public stop()V
@@ -5746,6 +5756,7 @@
     const/4 v2, 0x0
 
     .line 39
-    invoke-virtual {v0, v1, v2}, Landroidx/fragment/app/FragmentLifecycleCallbacksDispatcher;->dispatchOnFragmentStopped(Landroidx/fragment/app/Fragment;Z)V    return-void
+    invoke-virtual {v0, v1, v2}, Landroidx/fragment/app/FragmentLifecycleCallbacksDispatcher;->dispatchOnFragmentStopped(Landroidx/fragment/app/Fragment;Z)V
+return-void
 .end method
 .end class

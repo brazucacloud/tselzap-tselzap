@@ -140,8 +140,7 @@
     check-cast p1, Landroidx/core/provider/FontRequestWorker$TypefaceResult;
 
     invoke-virtual {p0, p1}, Landroidx/core/provider/FontRequestWorker$4;->accept(Landroidx/core/provider/FontRequestWorker$TypefaceResult;)V
-
-    return-void
+return-void
 .end method
 
 .end class

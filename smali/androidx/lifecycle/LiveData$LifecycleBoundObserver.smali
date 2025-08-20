@@ -81,7 +81,8 @@
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0, p0}, Landroidx/lifecycle/Lifecycle;->removeObserver(Landroidx/lifecycle/LifecycleObserver;)V    return-void
+    invoke-virtual {v0, p0}, Landroidx/lifecycle/Lifecycle;->removeObserver(Landroidx/lifecycle/LifecycleObserver;)V
+return-void
 .end method
 
 .method public isAttachedTo(Landroidx/lifecycle/LifecycleOwner;)Z
@@ -155,7 +156,8 @@
 
     .line 18
     .line 19
-    invoke-virtual {p1, p2}, Landroidx/lifecycle/LiveData;->removeObserver(Landroidx/lifecycle/Observer;)V    return-void
+    invoke-virtual {p1, p2}, Landroidx/lifecycle/LiveData;->removeObserver(Landroidx/lifecycle/Observer;)V
+return-void
 
     .line 23
     :cond_0

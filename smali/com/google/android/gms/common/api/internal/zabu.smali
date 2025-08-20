@@ -74,16 +74,14 @@
     const/4 p1, 0x1
 
     iput-boolean p1, p0, Lcom/google/android/gms/common/api/internal/zabu;->zaf:Z
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic zad(Lcom/google/android/gms/common/api/internal/zabu;)V
     .locals 0
 
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/zabu;->zah()V
-
-    return-void
+return-void
 .end method
 
 .method private final zah()V

@@ -174,7 +174,8 @@
     .line 31
     .line 32
     .line 33
-    invoke-virtual {p0, v1}, Landroidx/appcompat/widget/AppCompatEmojiTextHelper;->setEnabled(Z)V    return-void
+    invoke-virtual {p0, v1}, Landroidx/appcompat/widget/AppCompatEmojiTextHelper;->setEnabled(Z)V
+return-void
 
     .line 37
     :goto_1

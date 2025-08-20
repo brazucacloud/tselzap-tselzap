@@ -702,8 +702,7 @@
 
     .line 1
     invoke-direct {p0}, Lcom/fmark/tselzap/fragments/ApiCustom_coder;->showImprovedDialog()V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic k(Lcom/fmark/tselzap/fragments/ApiCustom_coder;)V
@@ -711,8 +710,7 @@
 
     .line 1
     invoke-direct {p0}, Lcom/fmark/tselzap/fragments/ApiCustom_coder;->startServiceLogic()V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic l(Lcom/fmark/tselzap/fragments/ApiCustom_coder;)V
@@ -720,8 +718,7 @@
 
     .line 1
     invoke-direct {p0}, Lcom/fmark/tselzap/fragments/ApiCustom_coder;->updateLog()V
-
-    return-void
+return-void
 .end method
 
 .method private synthetic lambda$onCreateView$0(Landroid/view/View;)V

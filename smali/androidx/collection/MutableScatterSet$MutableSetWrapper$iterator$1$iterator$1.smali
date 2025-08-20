@@ -79,7 +79,8 @@
 
     .line 4
     .line 5
-    invoke-direct {p0, p3}, Li1/h;-><init>(Lg1/d;)V    return-void
+    invoke-direct {p0, p3}, Li1/h;-><init>(Lg1/d;)V
+return-void
 .end method
 
 

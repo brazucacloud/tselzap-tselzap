@@ -668,7 +668,8 @@
 
     .line 52
     .line 53
-    invoke-static {p1}, Landroidx/dynamicanimation/animation/DynamicAnimation;->removeNullEntries(Ljava/util/ArrayList;)V    return-void
+    invoke-static {p1}, Landroidx/dynamicanimation/animation/DynamicAnimation;->removeNullEntries(Ljava/util/ArrayList;)V
+return-void
 .end method
 
 .method private getPropertyValue()F
@@ -869,7 +870,8 @@
 
     .line 37
     .line 38
-    invoke-virtual {v0, p0, v1, v2}, Landroidx/dynamicanimation/animation/AnimationHandler;->addAnimationFrameCallback(Landroidx/dynamicanimation/animation/AnimationHandler$AnimationFrameCallback;J)V    return-void
+    invoke-virtual {v0, p0, v1, v2}, Landroidx/dynamicanimation/animation/AnimationHandler;->addAnimationFrameCallback(Landroidx/dynamicanimation/animation/AnimationHandler$AnimationFrameCallback;J)V
+return-void
 
     .line 42
     :cond_1
@@ -1216,7 +1218,8 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Landroidx/dynamicanimation/animation/DynamicAnimation;->removeEntry(Ljava/util/ArrayList;Ljava/lang/Object;)V    return-void
+    invoke-static {v0, p1}, Landroidx/dynamicanimation/animation/DynamicAnimation;->removeEntry(Ljava/util/ArrayList;Ljava/lang/Object;)V
+return-void
 .end method
 
 .method public removeUpdateListener(Landroidx/dynamicanimation/animation/DynamicAnimation$OnAnimationUpdateListener;)V
@@ -1227,7 +1230,8 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Landroidx/dynamicanimation/animation/DynamicAnimation;->removeEntry(Ljava/util/ArrayList;Ljava/lang/Object;)V    return-void
+    invoke-static {v0, p1}, Landroidx/dynamicanimation/animation/DynamicAnimation;->removeEntry(Ljava/util/ArrayList;Ljava/lang/Object;)V
+return-void
 .end method
 
 .method public setMaxValue(F)Landroidx/dynamicanimation/animation/DynamicAnimation;
@@ -1406,7 +1410,8 @@
 
     .line 44
     .line 45
-    invoke-static {p1}, Landroidx/dynamicanimation/animation/DynamicAnimation;->removeNullEntries(Ljava/util/ArrayList;)V    return-void
+    invoke-static {p1}, Landroidx/dynamicanimation/animation/DynamicAnimation;->removeNullEntries(Ljava/util/ArrayList;)V
+return-void
 .end method
 
 .method public setStartValue(F)Landroidx/dynamicanimation/animation/DynamicAnimation;
@@ -1425,7 +1430,8 @@
     const/4 p1, 0x1
 
     .line 4
-    iput-boolean p1, p0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mStartValueIsSet:Z    return-object p0
+    iput-boolean p1, p0, Landroidx/dynamicanimation/animation/DynamicAnimation;->mStartValueIsSet:Z
+return-object p0
 .end method
 
 .method public setStartVelocity(F)Landroidx/dynamicanimation/animation/DynamicAnimation;

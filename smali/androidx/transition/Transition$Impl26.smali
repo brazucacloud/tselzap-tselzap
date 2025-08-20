@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 .method public static getTotalDuration(Landroid/animation/Animator;)J
@@ -52,6 +53,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, p1, p2}, Landroidx/core/graphics/a;->u(Landroid/animation/AnimatorSet;J)V    return-void
+    invoke-static {p0, p1, p2}, Landroidx/core/graphics/a;->u(Landroid/animation/AnimatorSet;J)V
+return-void
 .end method
 .end class

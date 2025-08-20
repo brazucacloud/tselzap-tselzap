@@ -571,8 +571,7 @@
     move-result-object p0
 
     invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;-><init>([B)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static copyFrom(Ljava/lang/String;Ljava/nio/charset/Charset;)Landroidx/datastore/preferences/protobuf/ByteString;
@@ -586,8 +585,7 @@
     move-result-object p0
 
     invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;-><init>([B)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static copyFrom(Ljava/nio/ByteBuffer;)Landroidx/datastore/preferences/protobuf/ByteString;
@@ -627,8 +625,7 @@
     new-instance p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
 
     invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;-><init>([B)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public static copyFrom([B)Landroidx/datastore/preferences/protobuf/ByteString;
@@ -666,8 +663,7 @@
     move-result-object p0
 
     invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;-><init>([B)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static copyFromUtf8(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/ByteString;
@@ -726,8 +722,7 @@
     const/16 v1, 0x80
 
     invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/ByteString$Output;-><init>(I)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static newOutput(I)Landroidx/datastore/preferences/protobuf/ByteString$Output;
@@ -737,8 +732,7 @@
     new-instance v0, Landroidx/datastore/preferences/protobuf/ByteString$Output;
 
     invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/ByteString$Output;-><init>(I)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method private static readChunk(Ljava/io/InputStream;I)Landroidx/datastore/preferences/protobuf/ByteString;
@@ -942,8 +936,7 @@
     new-instance v0, Landroidx/datastore/preferences/protobuf/NioByteString;
 
     invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/NioByteString;-><init>(Ljava/nio/ByteBuffer;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static wrap([B)Landroidx/datastore/preferences/protobuf/ByteString;
@@ -953,8 +946,7 @@
     new-instance v0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
 
     invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;-><init>([B)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static wrap([BII)Landroidx/datastore/preferences/protobuf/ByteString;
@@ -964,8 +956,7 @@
     new-instance v0, Landroidx/datastore/preferences/protobuf/ByteString$BoundedByteString;
 
     invoke-direct {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/ByteString$BoundedByteString;-><init>([BII)V
-
-    return-object v0
+return-object v0
 .end method
 
 
@@ -1141,8 +1132,7 @@
     move-result v1
 
     invoke-virtual {p0, p1, v0, p2, v1}, Landroidx/datastore/preferences/protobuf/ByteString;->copyTo([BIII)V
-
-    return-void
+return-void
 .end method
 
 .method public final copyTo([BIII)V
@@ -1348,8 +1338,7 @@
     new-instance v0, Landroidx/datastore/preferences/protobuf/ByteString$1;
 
     invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/ByteString$1;-><init>(Landroidx/datastore/preferences/protobuf/ByteString;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public bridge synthetic iterator()Ljava/util/Iterator;

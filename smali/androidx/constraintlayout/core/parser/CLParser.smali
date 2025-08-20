@@ -554,7 +554,8 @@
 
     .line 133
     .line 134
-    iput-boolean p1, v0, Landroidx/constraintlayout/core/parser/CLParser;->mHasComment:Z    return-object v1
+    iput-boolean p1, v0, Landroidx/constraintlayout/core/parser/CLParser;->mHasComment:Z
+return-object v1
 
     .line 137
     :pswitch_1
@@ -662,7 +663,8 @@
     int-to-long p2, v2
 
     .line 178
-    invoke-virtual {p1, p2, p3}, Landroidx/constraintlayout/core/parser/CLElement;->setEnd(J)V    return-object p1
+    invoke-virtual {p1, p2, p3}, Landroidx/constraintlayout/core/parser/CLElement;->setEnd(J)V
+return-object p1
 
     .line 182
     :cond_5

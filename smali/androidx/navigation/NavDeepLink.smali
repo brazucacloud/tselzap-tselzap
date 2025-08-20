@@ -184,8 +184,7 @@
 
     .line 16
     invoke-direct {p0, p1, v0, v0}, Landroidx/navigation/NavDeepLink;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
@@ -305,8 +304,7 @@
 
     .line 15
     invoke-direct {p0}, Landroidx/navigation/NavDeepLink;->parseMime()V
-
-    return-void
+return-void
 .end method
 
 .method public static final synthetic access$getFragArgsAndRegex(Landroidx/navigation/NavDeepLink;)Lc1/f;
@@ -1515,7 +1513,8 @@
 
     .line 11
     :cond_0
-    invoke-virtual {p1, p2, p3}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V    return-void
+    invoke-virtual {p1, p2, p3}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+return-void
 .end method
 
 .method private final parseArgumentForRepeatedParam(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;Landroidx/navigation/NavArgument;)Z
@@ -1682,7 +1681,8 @@
 
     .line 52
     .line 53
-    invoke-direct {v2, v0, v1}, Lc1/f;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V    return-object v2
+    invoke-direct {v2, v0, v1}, Lc1/f;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+return-object v2
 
     .line 57
     :cond_1
@@ -3958,6 +3958,7 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/navigation/NavDeepLink;->isExactDeepLink:Z    return-void
+    iput-boolean p1, p0, Landroidx/navigation/NavDeepLink;->isExactDeepLink:Z
+return-void
 .end method
 .end class

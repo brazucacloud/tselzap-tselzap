@@ -43,6 +43,7 @@
     move-result-object p2
 
     .line 11
-    invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/core/dsl/Constraint$Anchor;-><init>(Landroidx/constraintlayout/core/dsl/Constraint;Landroidx/constraintlayout/core/dsl/Constraint$Side;)V    return-void
+    invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/core/dsl/Constraint$Anchor;-><init>(Landroidx/constraintlayout/core/dsl/Constraint;Landroidx/constraintlayout/core/dsl/Constraint$Side;)V
+return-void
 .end method
 .end class

@@ -11,8 +11,7 @@
 
     .line 1
     invoke-direct {p0, v0}, Landroidx/core/os/OperationCanceledException;-><init>(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/String;)V
@@ -30,8 +29,7 @@
     move-result-object p1
 
     invoke-direct {p0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .end class

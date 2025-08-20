@@ -61,7 +61,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/activity/result/contract/ActivityResultContract;-><init>()V    return-void
+    invoke-direct {p0}, Landroidx/activity/result/contract/ActivityResultContract;-><init>()V
+return-void
 .end method
 
 
@@ -149,8 +150,7 @@
     sget-object p2, Ld1/u;->b:Ld1/u;
 
     invoke-direct {p1, p2}, Landroidx/activity/result/contract/ActivityResultContract$SynchronousResult;-><init>(Ljava/lang/Object;)V
-
-    return-object p1
+return-object p1
 
     .line 4
     :cond_0
@@ -224,8 +224,7 @@
     new-instance p1, Landroidx/activity/result/contract/ActivityResultContract$SynchronousResult;
 
     invoke-direct {p1, v0}, Landroidx/activity/result/contract/ActivityResultContract$SynchronousResult;-><init>(Ljava/lang/Object;)V
-
-    return-object p1
+return-object p1
 .end method
 
 .method public bridge synthetic parseResult(ILandroid/content/Intent;)Ljava/lang/Object;

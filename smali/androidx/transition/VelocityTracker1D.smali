@@ -60,7 +60,8 @@
 
     .line 18
     .line 19
-    invoke-static {v1, v2, v3}, Ljava/util/Arrays;->fill([JJ)V    return-void
+    invoke-static {v1, v2, v3}, Ljava/util/Arrays;->fill([JJ)V
+return-void
 .end method
 
 .method private kineticEnergyToVelocity(F)F
@@ -591,6 +592,7 @@
     const/4 v1, 0x0
 
     .line 14
-    invoke-static {v0, v1}, Ljava/util/Arrays;->fill([FF)V    return-void
+    invoke-static {v0, v1}, Ljava/util/Arrays;->fill([FF)V
+return-void
 .end method
 .end class

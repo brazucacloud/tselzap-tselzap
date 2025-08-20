@@ -205,8 +205,7 @@
     iget-object p0, p0, Landroid/util/Pair;->second:Ljava/lang/Object;
 
     invoke-direct {v0, v1, p0}, Lc1/f;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final toKotlinPair(Landroidx/core/util/Pair;)Lc1/f;
@@ -232,8 +231,7 @@
     iget-object p0, p0, Landroidx/core/util/Pair;->second:Ljava/lang/Object;
 
     invoke-direct {v0, v1, p0}, Lc1/f;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .end class

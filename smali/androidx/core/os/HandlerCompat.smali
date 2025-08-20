@@ -173,8 +173,7 @@
     new-instance v0, Landroid/os/Handler;
 
     invoke-direct {v0, p0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static createAsync(Landroid/os/Looper;Landroid/os/Handler$Callback;)Landroid/os/Handler;
@@ -323,8 +322,7 @@
     new-instance v0, Landroid/os/Handler;
 
     invoke-direct {v0, p0, p1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;Landroid/os/Handler$Callback;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static hasCallbacks(Landroid/os/Handler;Ljava/lang/Runnable;)Z

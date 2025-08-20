@@ -46,7 +46,8 @@
 
     .line 6
     .line 7
-    invoke-direct {p0}, Landroidx/activity/result/ActivityResultLauncher;-><init>()V    return-void
+    invoke-direct {p0}, Landroidx/activity/result/ActivityResultLauncher;-><init>()V
+return-void
 .end method
 
 
@@ -251,6 +252,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Landroidx/activity/result/ActivityResultRegistry;->unregister(Ljava/lang/String;)V    return-void
+    invoke-virtual {v0, v1}, Landroidx/activity/result/ActivityResultRegistry;->unregister(Ljava/lang/String;)V
+return-void
 .end method
 .end class

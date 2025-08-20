@@ -73,8 +73,7 @@
 
     .line 6
     iput-boolean v0, p0, Landroidx/constraintlayout/core/ArrayRow;->mIsSimpleDefinition:Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/constraintlayout/core/Cache;)V
@@ -1030,7 +1029,8 @@
     const/4 p1, 0x1
 
     .line 9
-    iput-boolean p1, p0, Landroidx/constraintlayout/core/ArrayRow;->mIsSimpleDefinition:Z    return-object p0
+    iput-boolean p1, p0, Landroidx/constraintlayout/core/ArrayRow;->mIsSimpleDefinition:Z
+return-object p0
 .end method
 
 .method public createRowDimensionPercent(Landroidx/constraintlayout/core/SolverVariable;Landroidx/constraintlayout/core/SolverVariable;F)Landroidx/constraintlayout/core/ArrayRow;
@@ -2197,7 +2197,8 @@
     const/4 v0, 0x0
 
     .line 13
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/ArrayRow;->mIsSimpleDefinition:Z    return-void
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/ArrayRow;->mIsSimpleDefinition:Z
+return-void
 .end method
 
 .method public sizeInBytes()I

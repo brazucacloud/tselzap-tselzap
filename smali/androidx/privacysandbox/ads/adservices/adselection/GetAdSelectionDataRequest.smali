@@ -35,8 +35,7 @@
     const/4 v1, 0x2
 
     invoke-direct {p0, p1, v0, v1, v0}, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataRequest;-><init>(Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;Landroid/net/Uri;ILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;Landroid/net/Uri;)V
@@ -70,8 +69,7 @@
     .line 5
     :cond_0
     invoke-direct {p0, p1, p2}, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataRequest;-><init>(Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;Landroid/net/Uri;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic getCoordinatorOriginUri$annotations()V

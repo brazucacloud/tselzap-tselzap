@@ -96,7 +96,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0}, Landroidx/appcompat/widget/ListPopupWindow;->show()V    return-void
+    invoke-super {p0}, Landroidx/appcompat/widget/ListPopupWindow;->show()V
+return-void
 .end method
 
 
@@ -458,7 +459,8 @@
     .line 164
     .line 165
     :goto_2
-    invoke-virtual {p0, v3}, Landroidx/appcompat/widget/ListPopupWindow;->setHorizontalOffset(I)V    return-void
+    invoke-virtual {p0, v3}, Landroidx/appcompat/widget/ListPopupWindow;->setHorizontalOffset(I)V
+return-void
 .end method
 
 .method public getHintText()Ljava/lang/CharSequence;

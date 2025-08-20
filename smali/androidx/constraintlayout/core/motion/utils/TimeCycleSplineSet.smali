@@ -454,7 +454,8 @@
     move-result-object v0
 
     .line 23
-    invoke-virtual {p1, v0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V    return-void
+    invoke-virtual {p1, v0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+return-void
 
     .line 27
     :cond_0

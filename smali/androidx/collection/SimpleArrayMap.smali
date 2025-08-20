@@ -36,8 +36,7 @@
     const/4 v2, 0x0
 
     invoke-direct {p0, v2, v0, v1}, Landroidx/collection/SimpleArrayMap;-><init>(IILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -93,8 +92,7 @@
     .line 9
     :cond_0
     invoke-direct {p0, p1}, Landroidx/collection/SimpleArrayMap;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/collection/SimpleArrayMap;)V
@@ -1969,7 +1967,8 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0}, Landroidx/collection/SimpleArrayMap;->clear()V    return-object v3
+    invoke-virtual {p0}, Landroidx/collection/SimpleArrayMap;->clear()V
+return-object v3
 
     .line 22
     :cond_0

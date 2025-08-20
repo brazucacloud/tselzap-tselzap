@@ -37,8 +37,7 @@
     const/4 p1, 0x0
 
     invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 
@@ -60,8 +59,7 @@
     const-string v1, "requireActivity().defaultViewModelCreationExtras"
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public bridge synthetic invoke()Ljava/lang/Object;

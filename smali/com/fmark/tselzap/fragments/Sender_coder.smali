@@ -148,8 +148,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/fmark/tselzap/fragments/Sender_coder;->lambda$setupNumberPicker$4(Lcom/shawnlin/numberpicker/NumberPicker;II)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic f(Lcom/fmark/tselzap/fragments/Sender_coder;Lcom/fmark/tselzap/Activity/Sender;Landroid/view/View;)V
@@ -166,8 +165,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Lcom/fmark/tselzap/fragments/Sender_coder;->lambda$updateLogs$5(Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method private initViews()V

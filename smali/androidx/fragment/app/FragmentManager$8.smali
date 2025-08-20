@@ -39,7 +39,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 
@@ -130,8 +131,7 @@
 
     .line 11
     invoke-virtual {v3, v0, v1, p1}, Landroidx/fragment/app/Fragment;->onActivityResult(IILandroid/content/Intent;)V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic onActivityResult(Ljava/lang/Object;)V
@@ -141,7 +141,6 @@
     check-cast p1, Landroidx/activity/result/ActivityResult;
 
     invoke-virtual {p0, p1}, Landroidx/fragment/app/FragmentManager$8;->onActivityResult(Landroidx/activity/result/ActivityResult;)V
-
-    return-void
+return-void
 .end method
 .end class

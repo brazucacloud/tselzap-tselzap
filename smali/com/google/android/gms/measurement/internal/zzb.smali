@@ -87,8 +87,7 @@
     const-string p2, "Not logging ad exposure. No active activity"
 
     invoke-virtual {p1, p2}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;)V
-
-    return-void
+return-void
 
     :cond_0
     const-wide/16 v0, 0x3e8
@@ -115,8 +114,7 @@
     const-string p2, "Not logging ad exposure. Less than 1000 ms. exposure"
 
     invoke-virtual {p3, p2, p1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-
-    return-void
+return-void
 
     .line 21
     :cond_1
@@ -144,8 +142,7 @@
     const-string p3, "_xa"
 
     invoke-virtual {p1, p2, p3, v0}, Lcom/google/android/gms/measurement/internal/zzkf;->zzc(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic zza(Lcom/google/android/gms/measurement/internal/zzb;J)V
@@ -153,8 +150,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/measurement/internal/zzb;->zzb(J)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic zza(Lcom/google/android/gms/measurement/internal/zzb;Ljava/lang/String;J)V
@@ -233,8 +229,7 @@
     const-string p1, "Too many ads visible"
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;)V
-
-    return-void
+return-void
 
     .line 11
     :cond_2
@@ -277,8 +272,7 @@
     const-string p2, "Not logging ad unit exposure. No active activity"
 
     invoke-virtual {p1, p2}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;)V
-
-    return-void
+return-void
 
     :cond_0
     const-wide/16 v0, 0x3e8
@@ -305,8 +299,7 @@
     const-string p3, "Not logging ad unit exposure. Less than 1000 ms. exposure"
 
     invoke-virtual {p1, p3, p2}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-
-    return-void
+return-void
 
     .line 29
     :cond_1
@@ -339,8 +332,7 @@
     const-string p3, "_xu"
 
     invoke-virtual {p1, p2, p3, v0}, Lcom/google/android/gms/measurement/internal/zzkf;->zzc(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 
 .method private final zzb(J)V
@@ -519,8 +511,7 @@
     const-string p1, "First ad exposure time was never set"
 
     invoke-virtual {p0, p1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;)V
-
-    return-void
+return-void
 
     :cond_1
     sub-long/2addr p2, v2
@@ -559,8 +550,7 @@
     const-string p2, "Call to endAdUnitExposure for unknown ad unit id"
 
     invoke-virtual {p0, p2, p1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 
@@ -657,8 +647,7 @@
     .line 41
     :cond_1
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/measurement/internal/zzb;->zzb(J)V
-
-    return-void
+return-void
 .end method
 
 .method public final zza(Ljava/lang/String;J)V
@@ -687,8 +676,7 @@
 
     .line 15
     invoke-virtual {v0, v1}, Lcom/google/android/gms/measurement/internal/zzij;->zzb(Ljava/lang/Runnable;)V
-
-    return-void
+return-void
 
     .line 16
     :cond_1
@@ -704,8 +692,7 @@
     const-string p2, "Ad unit id must be a non-empty string"
 
     invoke-virtual {p1, p2}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public final bridge synthetic zzb()Lcom/google/android/gms/common/util/Clock;
@@ -745,8 +732,7 @@
 
     .line 23
     invoke-virtual {v0, v1}, Lcom/google/android/gms/measurement/internal/zzij;->zzb(Ljava/lang/Runnable;)V
-
-    return-void
+return-void
 
     .line 24
     :cond_1
@@ -762,8 +748,7 @@
     const-string p2, "Ad unit id must be a non-empty string"
 
     invoke-virtual {p1, p2}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public final bridge synthetic zzc()Lcom/google/android/gms/measurement/internal/zzb;

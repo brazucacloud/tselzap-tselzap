@@ -44,8 +44,7 @@
 
     .line 2
     invoke-direct {p0, p1, p2, p3, v0}, Landroidx/appcompat/widget/AppCompatPopupWindow;->init(Landroid/content/Context;Landroid/util/AttributeSet;II)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
@@ -72,8 +71,7 @@
 
     .line 4
     invoke-direct {p0, p1, p2, p3, p4}, Landroidx/appcompat/widget/AppCompatPopupWindow;->init(Landroid/content/Context;Landroid/util/AttributeSet;II)V
-
-    return-void
+return-void
 .end method
 
 .method private init(Landroid/content/Context;Landroid/util/AttributeSet;II)V
@@ -142,7 +140,8 @@
     .line 30
     .line 31
     .line 32
-    invoke-virtual {p1}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V    return-void
+    invoke-virtual {p1}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V
+return-void
 .end method
 
 .method private setSupportOverlapAnchor(Z)V
@@ -157,11 +156,13 @@
 
     .line 4
     .line 5
-    iput-boolean p1, p0, Landroidx/appcompat/widget/AppCompatPopupWindow;->mOverlapAnchor:Z    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/widget/AppCompatPopupWindow;->mOverlapAnchor:Z
+return-void
 
     .line 8
     :cond_0
-    invoke-static {p0, p1}, Landroidx/core/widget/PopupWindowCompat;->setOverlapAnchor(Landroid/widget/PopupWindow;Z)V    return-void
+    invoke-static {p0, p1}, Landroidx/core/widget/PopupWindowCompat;->setOverlapAnchor(Landroid/widget/PopupWindow;Z)V
+return-void
 .end method
 
 

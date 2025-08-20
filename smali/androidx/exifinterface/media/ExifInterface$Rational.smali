@@ -34,8 +34,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2, v0, v1}, Landroidx/exifinterface/media/ExifInterface$Rational;-><init>(JJ)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(JJ)V

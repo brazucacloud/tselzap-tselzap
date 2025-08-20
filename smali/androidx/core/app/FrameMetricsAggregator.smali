@@ -67,8 +67,7 @@
 
     .line 1
     invoke-direct {p0, v0}, Landroidx/core/app/FrameMetricsAggregator;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(I)V

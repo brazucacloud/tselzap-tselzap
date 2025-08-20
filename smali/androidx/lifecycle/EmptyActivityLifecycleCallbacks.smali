@@ -11,7 +11,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 
@@ -22,8 +23,7 @@
     const-string p2, "activity"
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public onActivityDestroyed(Landroid/app/Activity;)V
@@ -32,8 +32,7 @@
     const-string v0, "activity"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public onActivityPaused(Landroid/app/Activity;)V
@@ -42,8 +41,7 @@
     const-string v0, "activity"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public onActivityResumed(Landroid/app/Activity;)V
@@ -52,8 +50,7 @@
     const-string v0, "activity"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public onActivitySaveInstanceState(Landroid/app/Activity;Landroid/os/Bundle;)V
@@ -66,8 +63,7 @@
     const-string p1, "outState"
 
     invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public onActivityStarted(Landroid/app/Activity;)V
@@ -76,8 +72,7 @@
     const-string v0, "activity"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public onActivityStopped(Landroid/app/Activity;)V
@@ -86,7 +81,6 @@
     const-string v0, "activity"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 .end class

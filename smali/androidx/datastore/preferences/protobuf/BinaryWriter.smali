@@ -93,8 +93,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter;-><init>(Landroidx/datastore/preferences/protobuf/BufferAllocator;I)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic access$200(J)B
@@ -309,7 +308,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;-><init>(Landroidx/datastore/preferences/protobuf/BufferAllocator;I)V    return-object v0
+    invoke-direct {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;-><init>(Landroidx/datastore/preferences/protobuf/BufferAllocator;I)V
+return-object v0
 .end method
 
 .method public static newSafeHeapInstance(Landroidx/datastore/preferences/protobuf/BufferAllocator;I)Landroidx/datastore/preferences/protobuf/BinaryWriter;
@@ -320,7 +320,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeHeapWriter;-><init>(Landroidx/datastore/preferences/protobuf/BufferAllocator;I)V    return-object v0
+    invoke-direct {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeHeapWriter;-><init>(Landroidx/datastore/preferences/protobuf/BufferAllocator;I)V
+return-object v0
 .end method
 
 .method public static newUnsafeDirectInstance(Landroidx/datastore/preferences/protobuf/BufferAllocator;I)Landroidx/datastore/preferences/protobuf/BinaryWriter;
@@ -343,7 +344,8 @@
 
     .line 8
     .line 9
-    invoke-direct {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryWriter$UnsafeDirectWriter;-><init>(Landroidx/datastore/preferences/protobuf/BufferAllocator;I)V    return-object v0
+    invoke-direct {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryWriter$UnsafeDirectWriter;-><init>(Landroidx/datastore/preferences/protobuf/BufferAllocator;I)V
+return-object v0
 
     .line 13
     :cond_0
@@ -382,7 +384,8 @@
 
     .line 8
     .line 9
-    invoke-direct {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryWriter$UnsafeHeapWriter;-><init>(Landroidx/datastore/preferences/protobuf/BufferAllocator;I)V    return-object v0
+    invoke-direct {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryWriter$UnsafeHeapWriter;-><init>(Landroidx/datastore/preferences/protobuf/BufferAllocator;I)V
+return-object v0
 
     .line 13
     :cond_0
@@ -456,8 +459,7 @@
 
     .line 16
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeTag(II)V
-
-    return-void
+return-void
 
     .line 17
     :cond_1
@@ -554,8 +556,7 @@
 
     .line 7
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeTag(II)V
-
-    return-void
+return-void
 
     .line 8
     :cond_1
@@ -650,8 +651,7 @@
 
     .line 16
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeTag(II)V
-
-    return-void
+return-void
 
     .line 17
     :cond_1
@@ -754,8 +754,7 @@
 
     .line 7
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeTag(II)V
-
-    return-void
+return-void
 
     .line 8
     :cond_1
@@ -846,8 +845,7 @@
 
     .line 16
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeTag(II)V
-
-    return-void
+return-void
 
     .line 17
     :cond_1
@@ -946,8 +944,7 @@
 
     .line 7
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeTag(II)V
-
-    return-void
+return-void
 
     .line 8
     :cond_1
@@ -1038,8 +1035,7 @@
 
     .line 16
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeTag(II)V
-
-    return-void
+return-void
 
     .line 17
     :cond_1
@@ -1138,8 +1134,7 @@
 
     .line 7
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeTag(II)V
-
-    return-void
+return-void
 
     .line 8
     :cond_1
@@ -1234,8 +1229,7 @@
 
     .line 16
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeTag(II)V
-
-    return-void
+return-void
 
     .line 17
     :cond_1
@@ -1338,8 +1332,7 @@
 
     .line 7
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeTag(II)V
-
-    return-void
+return-void
 
     .line 8
     :cond_1
@@ -1430,8 +1423,7 @@
 
     .line 16
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeTag(II)V
-
-    return-void
+return-void
 
     .line 17
     :cond_1
@@ -1530,8 +1522,7 @@
 
     .line 7
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeTag(II)V
-
-    return-void
+return-void
 
     .line 8
     :cond_1
@@ -1581,7 +1572,8 @@
 
     .line 6
     .line 7
-    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeString(ILjava/lang/String;)V    return-void
+    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeString(ILjava/lang/String;)V
+return-void
 
     .line 11
     :cond_0
@@ -1589,7 +1581,8 @@
 
     .line 12
     .line 13
-    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeBytes(ILandroidx/datastore/preferences/protobuf/ByteString;)V    return-void
+    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeBytes(ILandroidx/datastore/preferences/protobuf/ByteString;)V
+return-void
 .end method
 
 .method public static final writeMapEntryField(Landroidx/datastore/preferences/protobuf/Writer;ILandroidx/datastore/preferences/protobuf/WireFormat$FieldType;Ljava/lang/Object;)V
@@ -1676,7 +1669,8 @@
     move-result p2
 
     .line 42
-    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeEnum(II)V    return-void
+    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeEnum(II)V
+return-void
 
     .line 46
     :cond_0
@@ -1700,7 +1694,8 @@
     move-result p2
 
     .line 56
-    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeEnum(II)V    return-void
+    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeEnum(II)V
+return-void
 
     .line 60
     :cond_1
@@ -1725,11 +1720,13 @@
 
     .line 69
     .line 70
-    invoke-interface {p0, p1, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeBytes(ILandroidx/datastore/preferences/protobuf/ByteString;)V    return-void
+    invoke-interface {p0, p1, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeBytes(ILandroidx/datastore/preferences/protobuf/ByteString;)V
+return-void
 
     .line 74
     :pswitch_2
-    invoke-interface {p0, p1, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeMessage(ILjava/lang/Object;)V    return-void
+    invoke-interface {p0, p1, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeMessage(ILjava/lang/Object;)V
+return-void
 
     .line 78
     :pswitch_3
@@ -1745,7 +1742,8 @@
     move-result-wide p2
 
     .line 84
-    invoke-interface {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeDouble(ID)V    return-void
+    invoke-interface {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeDouble(ID)V
+return-void
 
     .line 88
     :pswitch_4
@@ -1761,7 +1759,8 @@
     move-result p2
 
     .line 94
-    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeFloat(IF)V    return-void
+    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeFloat(IF)V
+return-void
 
     .line 98
     :pswitch_5
@@ -1777,7 +1776,8 @@
     move-result-wide p2
 
     .line 104
-    invoke-interface {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeUInt64(IJ)V    return-void
+    invoke-interface {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeUInt64(IJ)V
+return-void
 
     .line 108
     :pswitch_6
@@ -1793,7 +1793,8 @@
     move-result p2
 
     .line 114
-    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeUInt32(II)V    return-void
+    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeUInt32(II)V
+return-void
 
     .line 118
     :pswitch_7
@@ -1801,7 +1802,8 @@
 
     .line 119
     .line 120
-    invoke-interface {p0, p1, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeString(ILjava/lang/String;)V    return-void
+    invoke-interface {p0, p1, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeString(ILjava/lang/String;)V
+return-void
 
     .line 124
     :pswitch_8
@@ -1817,7 +1819,8 @@
     move-result-wide p2
 
     .line 130
-    invoke-interface {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeSInt64(IJ)V    return-void
+    invoke-interface {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeSInt64(IJ)V
+return-void
 
     .line 134
     :pswitch_9
@@ -1833,7 +1836,8 @@
     move-result p2
 
     .line 140
-    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeSInt32(II)V    return-void
+    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeSInt32(II)V
+return-void
 
     .line 144
     :pswitch_a
@@ -1849,7 +1853,8 @@
     move-result-wide p2
 
     .line 150
-    invoke-interface {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeSFixed64(IJ)V    return-void
+    invoke-interface {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeSFixed64(IJ)V
+return-void
 
     .line 154
     :pswitch_b
@@ -1865,7 +1870,8 @@
     move-result p2
 
     .line 160
-    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeSFixed32(II)V    return-void
+    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeSFixed32(II)V
+return-void
 
     .line 164
     :pswitch_c
@@ -1881,7 +1887,8 @@
     move-result-wide p2
 
     .line 170
-    invoke-interface {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeInt64(IJ)V    return-void
+    invoke-interface {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeInt64(IJ)V
+return-void
 
     .line 174
     :pswitch_d
@@ -1897,7 +1904,8 @@
     move-result p2
 
     .line 180
-    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeInt32(II)V    return-void
+    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeInt32(II)V
+return-void
 
     .line 184
     :pswitch_e
@@ -1913,7 +1921,8 @@
     move-result-wide p2
 
     .line 190
-    invoke-interface {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeFixed64(IJ)V    return-void
+    invoke-interface {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeFixed64(IJ)V
+return-void
 
     .line 194
     :pswitch_f
@@ -1929,7 +1938,8 @@
     move-result p2
 
     .line 200
-    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeFixed32(II)V    return-void
+    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeFixed32(II)V
+return-void
 
     .line 204
     :pswitch_10
@@ -1945,7 +1955,8 @@
     move-result p2
 
     .line 210
-    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeBool(IZ)V    return-void
+    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeBool(IZ)V
+return-void
 
     .line 214
     nop
@@ -2029,8 +2040,7 @@
 
     .line 16
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeTag(II)V
-
-    return-void
+return-void
 
     .line 17
     :cond_1
@@ -2129,8 +2139,7 @@
 
     .line 7
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeTag(II)V
-
-    return-void
+return-void
 
     .line 8
     :cond_1
@@ -2221,8 +2230,7 @@
 
     .line 16
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeTag(II)V
-
-    return-void
+return-void
 
     .line 17
     :cond_1
@@ -2321,8 +2329,7 @@
 
     .line 7
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeTag(II)V
-
-    return-void
+return-void
 
     .line 8
     :cond_1
@@ -2413,8 +2420,7 @@
 
     .line 16
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeTag(II)V
-
-    return-void
+return-void
 
     .line 17
     :cond_1
@@ -2513,8 +2519,7 @@
 
     .line 7
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeTag(II)V
-
-    return-void
+return-void
 
     .line 8
     :cond_1
@@ -2605,8 +2610,7 @@
 
     .line 16
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeTag(II)V
-
-    return-void
+return-void
 
     .line 17
     :cond_1
@@ -2705,8 +2709,7 @@
 
     .line 7
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeTag(II)V
-
-    return-void
+return-void
 
     .line 8
     :cond_1
@@ -2873,11 +2876,13 @@
 
     .line 6
     .line 7
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeBoolList_Internal(ILandroidx/datastore/preferences/protobuf/BooleanArrayList;Z)V    return-void
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeBoolList_Internal(ILandroidx/datastore/preferences/protobuf/BooleanArrayList;Z)V
+return-void
 
     .line 11
     :cond_0
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeBoolList_Internal(ILjava/util/List;Z)V    return-void
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeBoolList_Internal(ILjava/util/List;Z)V
+return-void
 .end method
 
 .method public final writeBytesList(ILjava/util/List;)V
@@ -2949,7 +2954,8 @@
     move-result-wide p2
 
     .line 5
-    invoke-interface {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeFixed64(IJ)V    return-void
+    invoke-interface {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeFixed64(IJ)V
+return-void
 .end method
 
 .method public final writeDoubleList(ILjava/util/List;Z)V
@@ -2976,18 +2982,21 @@
 
     .line 6
     .line 7
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeDoubleList_Internal(ILandroidx/datastore/preferences/protobuf/DoubleArrayList;Z)V    return-void
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeDoubleList_Internal(ILandroidx/datastore/preferences/protobuf/DoubleArrayList;Z)V
+return-void
 
     .line 11
     :cond_0
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeDoubleList_Internal(ILjava/util/List;Z)V    return-void
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeDoubleList_Internal(ILjava/util/List;Z)V
+return-void
 .end method
 
 .method public final writeEnum(II)V
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeInt32(II)V    return-void
+    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeInt32(II)V
+return-void
 .end method
 
 .method public final writeEnumList(ILjava/util/List;Z)V
@@ -3002,7 +3011,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeInt32List(ILjava/util/List;Z)V    return-void
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeInt32List(ILjava/util/List;Z)V
+return-void
 .end method
 
 .method public abstract writeFixed32(I)V
@@ -3032,11 +3042,13 @@
 
     .line 6
     .line 7
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeFixed32List_Internal(ILandroidx/datastore/preferences/protobuf/IntArrayList;Z)V    return-void
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeFixed32List_Internal(ILandroidx/datastore/preferences/protobuf/IntArrayList;Z)V
+return-void
 
     .line 11
     :cond_0
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeFixed32List_Internal(ILjava/util/List;Z)V    return-void
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeFixed32List_Internal(ILjava/util/List;Z)V
+return-void
 .end method
 
 .method public abstract writeFixed64(J)V
@@ -3066,11 +3078,13 @@
 
     .line 6
     .line 7
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeFixed64List_Internal(ILandroidx/datastore/preferences/protobuf/LongArrayList;Z)V    return-void
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeFixed64List_Internal(ILandroidx/datastore/preferences/protobuf/LongArrayList;Z)V
+return-void
 
     .line 11
     :cond_0
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeFixed64List_Internal(ILjava/util/List;Z)V    return-void
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeFixed64List_Internal(ILjava/util/List;Z)V
+return-void
 .end method
 
 .method public final writeFloat(IF)V
@@ -3085,7 +3099,8 @@
     move-result p2
 
     .line 5
-    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeFixed32(II)V    return-void
+    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeFixed32(II)V
+return-void
 .end method
 
 .method public final writeFloatList(ILjava/util/List;Z)V
@@ -3112,11 +3127,13 @@
 
     .line 6
     .line 7
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeFloatList_Internal(ILandroidx/datastore/preferences/protobuf/FloatArrayList;Z)V    return-void
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeFloatList_Internal(ILandroidx/datastore/preferences/protobuf/FloatArrayList;Z)V
+return-void
 
     .line 11
     :cond_0
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeFloatList_Internal(ILjava/util/List;Z)V    return-void
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeFloatList_Internal(ILjava/util/List;Z)V
+return-void
 .end method
 
 .method public final writeGroupList(ILjava/util/List;)V
@@ -3218,18 +3235,21 @@
 
     .line 6
     .line 7
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeInt32List_Internal(ILandroidx/datastore/preferences/protobuf/IntArrayList;Z)V    return-void
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeInt32List_Internal(ILandroidx/datastore/preferences/protobuf/IntArrayList;Z)V
+return-void
 
     .line 11
     :cond_0
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeInt32List_Internal(ILjava/util/List;Z)V    return-void
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeInt32List_Internal(ILjava/util/List;Z)V
+return-void
 .end method
 
 .method public final writeInt64(IJ)V
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeUInt64(IJ)V    return-void
+    invoke-interface {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeUInt64(IJ)V
+return-void
 .end method
 
 .method public final writeInt64List(ILjava/util/List;Z)V
@@ -3244,7 +3264,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeUInt64List(ILjava/util/List;Z)V    return-void
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeUInt64List(ILjava/util/List;Z)V
+return-void
 .end method
 
 .method public writeMap(ILandroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/util/Map;)V
@@ -3506,14 +3527,16 @@
     .line 22
     .line 23
     .line 24
-    invoke-virtual {p0, v1, v2}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeTag(II)V    return-void
+    invoke-virtual {p0, v1, v2}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeTag(II)V
+return-void
 .end method
 
 .method public final writeSFixed32(II)V
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeFixed32(II)V    return-void
+    invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeFixed32(II)V
+return-void
 .end method
 
 .method public final writeSFixed32List(ILjava/util/List;Z)V
@@ -3528,14 +3551,16 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeFixed32List(ILjava/util/List;Z)V    return-void
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeFixed32List(ILjava/util/List;Z)V
+return-void
 .end method
 
 .method public final writeSFixed64(IJ)V
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeFixed64(IJ)V    return-void
+    invoke-interface {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeFixed64(IJ)V
+return-void
 .end method
 
 .method public final writeSFixed64List(ILjava/util/List;Z)V
@@ -3550,7 +3575,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeFixed64List(ILjava/util/List;Z)V    return-void
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeFixed64List(ILjava/util/List;Z)V
+return-void
 .end method
 
 .method public abstract writeSInt32(I)V
@@ -3580,11 +3606,13 @@
 
     .line 6
     .line 7
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeSInt32List_Internal(ILandroidx/datastore/preferences/protobuf/IntArrayList;Z)V    return-void
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeSInt32List_Internal(ILandroidx/datastore/preferences/protobuf/IntArrayList;Z)V
+return-void
 
     .line 11
     :cond_0
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeSInt32List_Internal(ILjava/util/List;Z)V    return-void
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeSInt32List_Internal(ILjava/util/List;Z)V
+return-void
 .end method
 
 .method public abstract writeSInt64(J)V
@@ -3614,11 +3642,13 @@
 
     .line 6
     .line 7
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeSInt64List_Internal(ILandroidx/datastore/preferences/protobuf/LongArrayList;Z)V    return-void
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeSInt64List_Internal(ILandroidx/datastore/preferences/protobuf/LongArrayList;Z)V
+return-void
 
     .line 11
     :cond_0
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeSInt64List_Internal(ILjava/util/List;Z)V    return-void
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeSInt64List_Internal(ILjava/util/List;Z)V
+return-void
 .end method
 
 .method public abstract writeString(Ljava/lang/String;)V
@@ -3761,11 +3791,13 @@
 
     .line 6
     .line 7
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeUInt32List_Internal(ILandroidx/datastore/preferences/protobuf/IntArrayList;Z)V    return-void
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeUInt32List_Internal(ILandroidx/datastore/preferences/protobuf/IntArrayList;Z)V
+return-void
 
     .line 11
     :cond_0
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeUInt32List_Internal(ILjava/util/List;Z)V    return-void
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeUInt32List_Internal(ILjava/util/List;Z)V
+return-void
 .end method
 
 .method public final writeUInt64List(ILjava/util/List;Z)V
@@ -3792,11 +3824,13 @@
 
     .line 6
     .line 7
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeUInt64List_Internal(ILandroidx/datastore/preferences/protobuf/LongArrayList;Z)V    return-void
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeUInt64List_Internal(ILandroidx/datastore/preferences/protobuf/LongArrayList;Z)V
+return-void
 
     .line 11
     :cond_0
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeUInt64List_Internal(ILjava/util/List;Z)V    return-void
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryWriter;->writeUInt64List_Internal(ILjava/util/List;Z)V
+return-void
 .end method
 
 .method public abstract writeVarint32(I)V

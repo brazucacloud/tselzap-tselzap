@@ -20,7 +20,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, p1, v0}, Landroidx/constraintlayout/core/state/HelperReference;-><init>(Landroidx/constraintlayout/core/state/State;Landroidx/constraintlayout/core/state/State$Helper;)V    return-void
+    invoke-direct {p0, p1, v0}, Landroidx/constraintlayout/core/state/HelperReference;-><init>(Landroidx/constraintlayout/core/state/State;Landroidx/constraintlayout/core/state/State$Helper;)V
+return-void
 .end method
 
 
@@ -118,7 +119,8 @@
 
     .line 39
     .line 40
-    invoke-virtual {v0, v1}, Landroidx/constraintlayout/core/widgets/Barrier;->setMargin(I)V    return-void
+    invoke-virtual {v0, v1}, Landroidx/constraintlayout/core/widgets/Barrier;->setMargin(I)V
+return-void
 .end method
 
 .method public getHelperWidget()Landroidx/constraintlayout/core/widgets/HelperWidget;

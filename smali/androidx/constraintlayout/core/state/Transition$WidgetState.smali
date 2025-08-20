@@ -203,7 +203,8 @@
 
     .line 84
     .line 85
-    invoke-virtual {v0, v1}, Landroidx/constraintlayout/core/motion/Motion;->setEnd(Landroidx/constraintlayout/core/motion/MotionWidget;)V    return-void
+    invoke-virtual {v0, v1}, Landroidx/constraintlayout/core/motion/Motion;->setEnd(Landroidx/constraintlayout/core/motion/MotionWidget;)V
+return-void
 .end method
 
 
@@ -367,7 +368,8 @@
     move v7, p3
 
     .line 53
-    invoke-virtual/range {v5 .. v10}, Landroidx/constraintlayout/core/motion/Motion;->interpolate(Landroidx/constraintlayout/core/motion/MotionWidget;FJLandroidx/constraintlayout/core/motion/utils/KeyCache;)Z    return-void
+    invoke-virtual/range {v5 .. v10}, Landroidx/constraintlayout/core/motion/Motion;->interpolate(Landroidx/constraintlayout/core/motion/MotionWidget;FJLandroidx/constraintlayout/core/motion/utils/KeyCache;)Z
+return-void
 .end method
 
 .method public setKeyAttribute(Landroidx/constraintlayout/core/motion/utils/TypedBundle;)V
@@ -385,8 +387,7 @@
     iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
 
     invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/motion/Motion;->addKey(Landroidx/constraintlayout/core/motion/key/MotionKey;)V
-
-    return-void
+return-void
 .end method
 
 .method public setKeyAttribute(Landroidx/constraintlayout/core/motion/utils/TypedBundle;[Landroidx/constraintlayout/core/motion/CustomVariable;)V
@@ -432,8 +433,7 @@
     iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
 
     invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/motion/Motion;->addKey(Landroidx/constraintlayout/core/motion/key/MotionKey;)V
-
-    return-void
+return-void
 .end method
 
 .method public setKeyCycle(Landroidx/constraintlayout/core/motion/utils/TypedBundle;)V
@@ -458,7 +458,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/motion/Motion;->addKey(Landroidx/constraintlayout/core/motion/key/MotionKey;)V    return-void
+    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/motion/Motion;->addKey(Landroidx/constraintlayout/core/motion/key/MotionKey;)V
+return-void
 .end method
 
 .method public setKeyPosition(Landroidx/constraintlayout/core/motion/utils/TypedBundle;)V
@@ -483,7 +484,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/motion/Motion;->addKey(Landroidx/constraintlayout/core/motion/key/MotionKey;)V    return-void
+    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/motion/Motion;->addKey(Landroidx/constraintlayout/core/motion/key/MotionKey;)V
+return-void
 .end method
 
 .method public setPathRelative(Landroidx/constraintlayout/core/state/Transition$WidgetState;)V
@@ -498,7 +500,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/motion/Motion;->setupRelative(Landroidx/constraintlayout/core/motion/Motion;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/motion/Motion;->setupRelative(Landroidx/constraintlayout/core/motion/Motion;)V
+return-void
 .end method
 
 .method public update(Landroidx/constraintlayout/core/widgets/ConstraintWidget;I)V

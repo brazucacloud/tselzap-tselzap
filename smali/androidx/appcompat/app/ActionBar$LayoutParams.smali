@@ -28,8 +28,7 @@
 
     .line 10
     invoke-direct {p0, v0, v1, p1}, Landroidx/appcompat/app/ActionBar$LayoutParams;-><init>(III)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(II)V
@@ -91,8 +90,7 @@
 
     .line 5
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/view/ViewGroup$LayoutParams;)V

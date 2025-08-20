@@ -37,8 +37,7 @@
     iget-object v1, p0, Landroidx/core/view/f;->c:Landroidx/core/view/MenuProvider;
 
     invoke-static {v0, v1, p1, p2}, Landroidx/core/view/MenuHostHelper;->b(Landroidx/core/view/MenuHostHelper;Landroidx/core/view/MenuProvider;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
-
-    return-void
+return-void
 .end method
 
 .end class

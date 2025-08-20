@@ -254,7 +254,8 @@
     .line 83
     .line 84
     .line 85
-    invoke-direct {p0, p4, p5}, Landroidx/cardview/widget/RoundRectDrawableWithShadow;->setShadowSize(FF)V    return-void
+    invoke-direct {p0, p4, p5}, Landroidx/cardview/widget/RoundRectDrawableWithShadow;->setShadowSize(FF)V
+return-void
 .end method
 
 .method private buildComponents(Landroid/graphics/Rect;)V
@@ -322,7 +323,8 @@
     .line 26
     .line 27
     .line 28
-    invoke-direct {p0}, Landroidx/cardview/widget/RoundRectDrawableWithShadow;->buildShadowCorners()V    return-void
+    invoke-direct {p0}, Landroidx/cardview/widget/RoundRectDrawableWithShadow;->buildShadowCorners()V
+return-void
 .end method
 
 .method private buildShadowCorners()V
@@ -684,7 +686,8 @@
 
     .line 175
     .line 176
-    invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setAntiAlias(Z)V    return-void
+    invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setAntiAlias(Z)V
+return-void
 
     .line 180
     nop
@@ -1305,7 +1308,8 @@
     .line 245
     .line 246
     :cond_5
-    invoke-virtual {v3, p1}, Landroid/graphics/Canvas;->restoreToCount(I)V    return-void
+    invoke-virtual {v3, p1}, Landroid/graphics/Canvas;->restoreToCount(I)V
+return-void
 .end method
 
 .method private setBackground(Landroid/content/res/ColorStateList;)V
@@ -1364,7 +1368,8 @@
     move-result p1
 
     .line 26
-    invoke-virtual {v0, p1}, Landroid/graphics/Paint;->setColor(I)V    return-void
+    invoke-virtual {v0, p1}, Landroid/graphics/Paint;->setColor(I)V
+return-void
 .end method
 
 .method private setShadowSize(FF)V
@@ -1463,8 +1468,7 @@
 
     .line 11
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
-
-    return-void
+return-void
 
     .line 12
     :cond_3
@@ -1633,7 +1637,8 @@
 
     .line 41
     .line 42
-    invoke-interface {v0, p1, v1, v2, v3}, Landroidx/cardview/widget/RoundRectDrawableWithShadow$RoundRectHelper;->drawRoundRect(Landroid/graphics/Canvas;Landroid/graphics/RectF;FLandroid/graphics/Paint;)V    return-void
+    invoke-interface {v0, p1, v1, v2, v3}, Landroidx/cardview/widget/RoundRectDrawableWithShadow$RoundRectHelper;->drawRoundRect(Landroid/graphics/Canvas;Landroid/graphics/RectF;FLandroid/graphics/Paint;)V
+return-void
 .end method
 
 .method public getColor()Landroid/content/res/ColorStateList;
@@ -1969,7 +1974,8 @@
     const/4 p1, 0x1
 
     .line 5
-    iput-boolean p1, p0, Landroidx/cardview/widget/RoundRectDrawableWithShadow;->mDirty:Z    return-void
+    iput-boolean p1, p0, Landroidx/cardview/widget/RoundRectDrawableWithShadow;->mDirty:Z
+return-void
 .end method
 
 .method public onStateChange([I)Z
@@ -2045,7 +2051,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V    return-void
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
+return-void
 .end method
 
 .method public setAlpha(I)V
@@ -2074,7 +2081,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {v0, p1}, Landroid/graphics/Paint;->setAlpha(I)V    return-void
+    invoke-virtual {v0, p1}, Landroid/graphics/Paint;->setAlpha(I)V
+return-void
 .end method
 
 .method public setColor(Landroid/content/res/ColorStateList;)V
@@ -2090,7 +2098,8 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V    return-void
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
+return-void
 .end method
 
 .method public setColorFilter(Landroid/graphics/ColorFilter;)V
@@ -2155,7 +2164,8 @@
 
     .line 22
     .line 23
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V    return-void
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
+return-void
 
     .line 27
     :cond_1
@@ -2213,7 +2223,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, v0, p1}, Landroidx/cardview/widget/RoundRectDrawableWithShadow;->setShadowSize(FF)V    return-void
+    invoke-direct {p0, v0, p1}, Landroidx/cardview/widget/RoundRectDrawableWithShadow;->setShadowSize(FF)V
+return-void
 .end method
 
 .method public setShadowSize(F)V
@@ -2223,7 +2234,6 @@
     iget v0, p0, Landroidx/cardview/widget/RoundRectDrawableWithShadow;->mRawMaxShadowSize:F
 
     invoke-direct {p0, p1, v0}, Landroidx/cardview/widget/RoundRectDrawableWithShadow;->setShadowSize(FF)V
-
-    return-void
+return-void
 .end method
 .end class

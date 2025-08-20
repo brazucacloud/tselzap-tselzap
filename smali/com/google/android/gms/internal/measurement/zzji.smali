@@ -36,8 +36,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/zzji;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 

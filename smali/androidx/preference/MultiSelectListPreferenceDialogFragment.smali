@@ -114,7 +114,8 @@
     .line 15
     .line 16
     .line 17
-    invoke-virtual {v0, v1}, Landroid/app/Fragment;->setArguments(Landroid/os/Bundle;)V    return-object v0
+    invoke-virtual {v0, v1}, Landroid/app/Fragment;->setArguments(Landroid/os/Bundle;)V
+return-object v0
 .end method
 
 
@@ -366,7 +367,8 @@
     const/4 p1, 0x0
 
     .line 23
-    iput-boolean p1, p0, Landroidx/preference/MultiSelectListPreferenceDialogFragment;->mPreferenceChanged:Z    return-void
+    iput-boolean p1, p0, Landroidx/preference/MultiSelectListPreferenceDialogFragment;->mPreferenceChanged:Z
+return-void
 .end method
 
 .method public onPrepareDialogBuilder(Landroid/app/AlertDialog$Builder;)V
@@ -526,6 +528,7 @@
 
     .line 33
     .line 34
-    invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putCharSequenceArray(Ljava/lang/String;[Ljava/lang/CharSequence;)V    return-void
+    invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putCharSequenceArray(Ljava/lang/String;[Ljava/lang/CharSequence;)V
+return-void
 .end method
 .end class

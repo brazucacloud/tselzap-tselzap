@@ -200,8 +200,7 @@
     iget-wide v1, p0, LU/e;->b:J
 
     invoke-static {v0, v1, v2, p1}, Lcom/google/firebase/database/connection/PersistentConnectionImpl;->e(Lcom/google/firebase/database/connection/PersistentConnectionImpl;JLjava/lang/Exception;)V
-
-    return-void
+return-void
 .end method
 
 .end class

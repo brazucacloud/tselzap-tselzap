@@ -61,8 +61,7 @@
 
     .line 5
     invoke-virtual {v0, p1}, Ljava/util/EnumMap;->putAll(Ljava/util/Map;)V
-
-    return-void
+return-void
 .end method
 
 .method public static zza(Ljava/lang/String;)Lcom/google/android/gms/measurement/internal/zzal;
@@ -141,8 +140,7 @@
     new-instance p0, Lcom/google/android/gms/measurement/internal/zzal;
 
     invoke-direct {p0, v0}, Lcom/google/android/gms/measurement/internal/zzal;-><init>(Ljava/util/EnumMap;)V
-
-    return-object p0
+return-object p0
 
     .line 10
     :cond_2
@@ -150,8 +148,7 @@
     new-instance p0, Lcom/google/android/gms/measurement/internal/zzal;
 
     invoke-direct {p0}, Lcom/google/android/gms/measurement/internal/zzal;-><init>()V
-
-    return-object p0
+return-object p0
 .end method
 
 

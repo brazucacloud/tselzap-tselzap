@@ -106,7 +106,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 .method public static computeSizeBoolList(ILjava/util/List;Z)I
@@ -3145,7 +3146,8 @@
     move-result-object p0
 
     .line 13
-    invoke-static {p1, p3, p4, p0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V    return-void
+    invoke-static {p1, p3, p4, p0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
+return-void
 .end method
 
 .method public static mergeUnknownFields(Landroidx/datastore/preferences/protobuf/UnknownFieldSchema;Ljava/lang/Object;Ljava/lang/Object;)V
@@ -3189,7 +3191,8 @@
     move-result-object p2
 
     .line 13
-    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnknownFieldSchema;->setToMessage(Ljava/lang/Object;Ljava/lang/Object;)V    return-void
+    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnknownFieldSchema;->setToMessage(Ljava/lang/Object;Ljava/lang/Object;)V
+return-void
 .end method
 
 .method public static proto2UnknownFieldSetSchema()Landroidx/datastore/preferences/protobuf/UnknownFieldSchema;
@@ -4676,7 +4679,8 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/SchemaUtil;->writeStringInternal(ILjava/lang/String;Landroidx/datastore/preferences/protobuf/Writer;)V    return-void
+    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/SchemaUtil;->writeStringInternal(ILjava/lang/String;Landroidx/datastore/preferences/protobuf/Writer;)V
+return-void
 
     .line 11
     :cond_0
@@ -4684,7 +4688,8 @@
 
     .line 12
     .line 13
-    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/SchemaUtil;->writeBytes(ILandroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/Writer;)V    return-void
+    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/SchemaUtil;->writeBytes(ILandroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/Writer;)V
+return-void
 .end method
 
 .method private static writeStringInternal(ILjava/lang/String;Landroidx/datastore/preferences/protobuf/Writer;)V

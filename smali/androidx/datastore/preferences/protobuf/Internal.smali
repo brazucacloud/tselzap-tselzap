@@ -110,7 +110,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 .method public static byteArrayDefaultValue(Ljava/lang/String;)[B
@@ -1046,7 +1047,8 @@
 
     .line 10
     .line 11
-    invoke-direct {v0, p0, v1}, Ljava/lang/String;-><init>([BLjava/nio/charset/Charset;)V    return-object v0
+    invoke-direct {v0, p0, v1}, Ljava/lang/String;-><init>([BLjava/nio/charset/Charset;)V
+return-object v0
 .end method
 
 .method public static toByteArray(Ljava/lang/String;)[B
@@ -1079,6 +1081,7 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, p0, v1}, Ljava/lang/String;-><init>([BLjava/nio/charset/Charset;)V    return-object v0
+    invoke-direct {v0, p0, v1}, Ljava/lang/String;-><init>([BLjava/nio/charset/Charset;)V
+return-object v0
 .end method
 .end class

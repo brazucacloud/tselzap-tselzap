@@ -93,8 +93,7 @@
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/os/Parcel;)V
@@ -454,6 +453,7 @@
 
     .line 55
     .line 56
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeList(Ljava/util/List;)V    return-void
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeList(Ljava/util/List;)V
+return-void
 .end method
 .end class

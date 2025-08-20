@@ -20,8 +20,7 @@
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Lkotlin/jvm/internal/e;)V
@@ -29,8 +28,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/lifecycle/SavedStateHandle$Companion;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -56,7 +54,8 @@
 
     .line 6
     .line 7
-    invoke-direct {p1}, Landroidx/lifecycle/SavedStateHandle;-><init>()V    return-object p1
+    invoke-direct {p1}, Landroidx/lifecycle/SavedStateHandle;-><init>()V
+return-object p1
 
     .line 11
     :cond_0
@@ -140,7 +139,8 @@
 
     .line 50
     .line 51
-    invoke-direct {p2, p1}, Landroidx/lifecycle/SavedStateHandle;-><init>(Ljava/util/Map;)V    return-object p2
+    invoke-direct {p2, p1}, Landroidx/lifecycle/SavedStateHandle;-><init>(Ljava/util/Map;)V
+return-object p2
 
     .line 55
     :cond_2
@@ -289,7 +289,8 @@
 
     .line 127
     .line 128
-    invoke-direct {p1, v0}, Landroidx/lifecycle/SavedStateHandle;-><init>(Ljava/util/Map;)V    return-object p1
+    invoke-direct {p1, v0}, Landroidx/lifecycle/SavedStateHandle;-><init>(Ljava/util/Map;)V
+return-object p1
 
     .line 132
     :cond_4

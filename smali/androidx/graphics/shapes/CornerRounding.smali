@@ -73,8 +73,7 @@
     const/4 v2, 0x0
 
     invoke-direct {p0, v2, v2, v0, v1}, Landroidx/graphics/shapes/CornerRounding;-><init>(FFILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(FF)V
@@ -124,8 +123,7 @@
     .line 5
     :cond_1
     invoke-direct {p0, p1, p2}, Landroidx/graphics/shapes/CornerRounding;-><init>(FF)V
-
-    return-void
+return-void
 .end method
 
 

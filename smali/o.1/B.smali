@@ -22,8 +22,7 @@
     iput-object p1, p0, Lo/B;->c:Landroid/content/ContentResolver;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 

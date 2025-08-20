@@ -51,8 +51,7 @@
 
     .line 4
     invoke-virtual {p0, v0}, Landroidx/navigation/NavGraphBuilder;->destination(Landroidx/navigation/NavDestinationBuilder;)V
-
-    return-void
+return-void
 .end method
 
 .method public static final activity(Landroidx/navigation/NavGraphBuilder;Ljava/lang/String;Lp1/l;)V
@@ -103,8 +102,7 @@
 
     .line 9
     invoke-virtual {p0, v0}, Landroidx/navigation/NavGraphBuilder;->destination(Landroidx/navigation/NavDestinationBuilder;)V
-
-    return-void
+return-void
 .end method
 
 .method public static final activity(Landroidx/navigation/NavGraphBuilder;Ljava/util/Map;Lp1/l;)V

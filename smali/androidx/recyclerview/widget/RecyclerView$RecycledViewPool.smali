@@ -180,7 +180,8 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z    return-void
+    invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
+return-void
 .end method
 
 .method public clear()V

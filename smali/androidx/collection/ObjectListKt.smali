@@ -49,14 +49,16 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/collection/ObjectListKt;->checkIndex(Ljava/util/List;I)V    return-void
+    invoke-static {p0, p1}, Landroidx/collection/ObjectListKt;->checkIndex(Ljava/util/List;I)V
+return-void
 .end method
 
 .method public static final synthetic access$checkSubIndex(Ljava/util/List;II)V
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/collection/ObjectListKt;->checkSubIndex(Ljava/util/List;II)V    return-void
+    invoke-static {p0, p1, p2}, Landroidx/collection/ObjectListKt;->checkSubIndex(Ljava/util/List;II)V
+return-void
 .end method
 
 .method public static final synthetic access$getEmptyArray$p()[Ljava/lang/Object;
@@ -356,7 +358,8 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+return-object v0
 .end method
 
 .method public static final mutableObjectListOf()Landroidx/collection/MutableObjectList;
@@ -381,8 +384,7 @@
     const/4 v3, 0x0
 
     invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableObjectList;-><init>(IILkotlin/jvm/internal/e;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableObjectListOf(Ljava/lang/Object;)Landroidx/collection/MutableObjectList;
@@ -493,8 +495,7 @@
     invoke-direct {v0, v1}, Landroidx/collection/MutableObjectList;-><init>(I)V
 
     invoke-virtual {v0, p0}, Landroidx/collection/MutableObjectList;->plusAssign([Ljava/lang/Object;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final objectListOf()Landroidx/collection/ObjectList;
@@ -515,8 +516,7 @@
     const-string v1, "null cannot be cast to non-null type androidx.collection.ObjectList<E of androidx.collection.ObjectListKt.objectListOf>"
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final objectListOf(Ljava/lang/Object;)Landroidx/collection/ObjectList;
@@ -603,7 +603,6 @@
     invoke-direct {v0, v1}, Landroidx/collection/MutableObjectList;-><init>(I)V
 
     invoke-virtual {v0, p0}, Landroidx/collection/MutableObjectList;->plusAssign([Ljava/lang/Object;)V
-
-    return-object v0
+return-object v0
 .end method
 .end class

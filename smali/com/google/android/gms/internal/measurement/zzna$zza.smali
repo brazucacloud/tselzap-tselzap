@@ -54,14 +54,12 @@
 
     .line 6
     invoke-static {p1, p2, p3, p4}, Lcom/google/android/gms/internal/measurement/zzna;->zza(Ljava/lang/Object;JB)V
-
-    return-void
+return-void
 
     .line 7
     :cond_0
     invoke-static {p1, p2, p3, p4}, Lcom/google/android/gms/internal/measurement/zzna;->zzb(Ljava/lang/Object;JB)V
-
-    return-void
+return-void
 .end method
 
 .method public final zza(Ljava/lang/Object;JD)V
@@ -79,8 +77,7 @@
     move-wide v2, p2
 
     invoke-virtual/range {v0 .. v5}, Lcom/google/android/gms/internal/measurement/zzna$zzb;->zza(Ljava/lang/Object;JJ)V
-
-    return-void
+return-void
 .end method
 
 .method public final zza(Ljava/lang/Object;JF)V
@@ -92,8 +89,7 @@
     move-result p4
 
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/google/android/gms/internal/measurement/zzna$zzb;->zza(Ljava/lang/Object;JI)V
-
-    return-void
+return-void
 .end method
 
 .method public final zza(Ljava/lang/Object;JZ)V
@@ -106,14 +102,12 @@
 
     .line 3
     invoke-static {p1, p2, p3, p4}, Lcom/google/android/gms/internal/measurement/zzna;->zza(Ljava/lang/Object;JZ)V
-
-    return-void
+return-void
 
     .line 4
     :cond_0
     invoke-static {p1, p2, p3, p4}, Lcom/google/android/gms/internal/measurement/zzna;->zzb(Ljava/lang/Object;JZ)V
-
-    return-void
+return-void
 .end method
 
 .method public final zzb(Ljava/lang/Object;J)F

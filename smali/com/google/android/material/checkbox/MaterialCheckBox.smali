@@ -2210,8 +2210,7 @@
     move-result-object p1
 
     invoke-virtual {p0, p1}, Lcom/google/android/material/checkbox/MaterialCheckBox;->setButtonDrawable(Landroid/graphics/drawable/Drawable;)V
-
-    return-void
+return-void
 .end method
 
 .method public setButtonDrawable(Landroid/graphics/drawable/Drawable;)V
@@ -2231,8 +2230,7 @@
 
     .line 4
     invoke-virtual {p0}, Lcom/google/android/material/checkbox/MaterialCheckBox;->a()V
-
-    return-void
+return-void
 .end method
 
 .method public setButtonIconDrawable(Landroid/graphics/drawable/Drawable;)V

@@ -61,7 +61,8 @@
 
     .line 10
     .line 11
-    invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V    return-void
+    invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
+return-void
 .end method
 
 
@@ -129,8 +130,7 @@
     check-cast p1, Landroid/graphics/Bitmap;
 
     invoke-virtual {p0, p1}, Landroidx/print/PrintHelper$PrintUriAdapter$1;->onCancelled(Landroid/graphics/Bitmap;)V
-
-    return-void
+return-void
 .end method
 
 .method public onPostExecute(Landroid/graphics/Bitmap;)V
@@ -320,8 +320,7 @@
     check-cast p1, Landroid/graphics/Bitmap;
 
     invoke-virtual {p0, p1}, Landroidx/print/PrintHelper$PrintUriAdapter$1;->onPostExecute(Landroid/graphics/Bitmap;)V
-
-    return-void
+return-void
 .end method
 
 .method public onPreExecute()V
@@ -341,6 +340,7 @@
     .line 6
     .line 7
     .line 8
-    invoke-virtual {v0, v1}, Landroid/os/CancellationSignal;->setOnCancelListener(Landroid/os/CancellationSignal$OnCancelListener;)V    return-void
+    invoke-virtual {v0, v1}, Landroid/os/CancellationSignal;->setOnCancelListener(Landroid/os/CancellationSignal$OnCancelListener;)V
+return-void
 .end method
 .end class

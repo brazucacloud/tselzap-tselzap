@@ -30,8 +30,7 @@
     move-wide v1, p1
 
     invoke-direct/range {v0 .. v5}, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;-><init>(J[BILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(J[B)V
@@ -60,8 +59,7 @@
     .line 4
     :cond_0
     invoke-direct {p0, p1, p2, p3}, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;-><init>(J[B)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/adservices/adselection/GetAdSelectionDataOutcome;)V
@@ -99,8 +97,7 @@
     move-result-object p1
 
     invoke-direct {p0, v0, v1, p1}, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;-><init>(J[B)V
-
-    return-void
+return-void
 .end method
 
 

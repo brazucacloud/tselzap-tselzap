@@ -668,7 +668,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/widget/ConstraintHelper;->applyLayoutFeatures(Landroidx/constraintlayout/widget/ConstraintLayout;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/widget/ConstraintHelper;->applyLayoutFeatures(Landroidx/constraintlayout/widget/ConstraintLayout;)V
+return-void
 .end method
 
 .method public calcCenters()V
@@ -1316,7 +1317,8 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintHelper;->applyLayoutFeatures()V    return-void
+    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintHelper;->applyLayoutFeatures()V
+return-void
 .end method
 
 .method public setPivotX(F)V
@@ -1327,7 +1329,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Layer;->transform()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Layer;->transform()V
+return-void
 .end method
 
 .method public setPivotY(F)V
@@ -1338,7 +1341,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Layer;->transform()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Layer;->transform()V
+return-void
 .end method
 
 .method public setRotation(F)V
@@ -1349,7 +1353,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Layer;->transform()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Layer;->transform()V
+return-void
 .end method
 
 .method public setScaleX(F)V
@@ -1360,7 +1365,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Layer;->transform()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Layer;->transform()V
+return-void
 .end method
 
 .method public setScaleY(F)V
@@ -1371,7 +1377,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Layer;->transform()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Layer;->transform()V
+return-void
 .end method
 
 .method public setTranslationX(F)V
@@ -1382,7 +1389,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Layer;->transform()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Layer;->transform()V
+return-void
 .end method
 
 .method public setTranslationY(F)V
@@ -1393,7 +1401,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Layer;->transform()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Layer;->transform()V
+return-void
 .end method
 
 .method public setVisibility(I)V
@@ -1405,7 +1414,8 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintHelper;->applyLayoutFeatures()V    return-void
+    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintHelper;->applyLayoutFeatures()V
+return-void
 .end method
 
 .method public updatePostLayout(Landroidx/constraintlayout/widget/ConstraintLayout;)V
@@ -1544,7 +1554,8 @@
     .line 63
     .line 64
     .line 65
-    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Layer;->transform()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Layer;->transform()V
+return-void
 .end method
 
 .method public updatePreDraw(Landroidx/constraintlayout/widget/ConstraintLayout;)V

@@ -208,8 +208,7 @@
     const-string p1, "initializeApp(context, options)"
 
     invoke-static {p0, p1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public static final initialize(Lcom/google/firebase/Firebase;Landroid/content/Context;Lcom/google/firebase/FirebaseOptions;Ljava/lang/String;)Lcom/google/firebase/FirebaseApp;
@@ -239,8 +238,7 @@
     const-string p1, "initializeApp(context, options, name)"
 
     invoke-static {p0, p1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object p0
+return-object p0
 .end method
 
 .end class

@@ -41,7 +41,8 @@
     const/4 p1, 0x1
 
     .line 7
-    iput-boolean p1, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;->mAllowDividerAfterLastItem:Z    return-void
+    iput-boolean p1, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;->mAllowDividerAfterLastItem:Z
+return-void
 .end method
 
 .method private shouldDrawDividerBelow(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView;)Z
@@ -360,7 +361,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;->mAllowDividerAfterLastItem:Z    return-void
+    iput-boolean p1, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;->mAllowDividerAfterLastItem:Z
+return-void
 .end method
 
 .method public setDivider(Landroid/graphics/drawable/Drawable;)V
@@ -411,7 +413,8 @@
 
     .line 18
     .line 19
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->invalidateItemDecorations()V    return-void
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->invalidateItemDecorations()V
+return-void
 .end method
 
 .method public setDividerHeight(I)V
@@ -430,6 +433,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->invalidateItemDecorations()V    return-void
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->invalidateItemDecorations()V
+return-void
 .end method
 .end class

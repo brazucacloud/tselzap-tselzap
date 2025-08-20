@@ -69,8 +69,7 @@
 
     .line 3
     invoke-direct {p0, p1, v0}, Landroidx/fragment/app/FragmentTabHost;->initFragmentTabHost(Landroid/content/Context;Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -98,8 +97,7 @@
 
     .line 6
     invoke-direct {p0, p1, p2}, Landroidx/fragment/app/FragmentTabHost;->initFragmentTabHost(Landroid/content/Context;Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method private doTabChanged(Ljava/lang/String;Landroidx/fragment/app/FragmentTransaction;)Landroidx/fragment/app/FragmentTransaction;
@@ -653,7 +651,8 @@
     .line 20
     .line 21
     .line 22
-    invoke-super {p0, p0}, Landroid/widget/TabHost;->setOnTabChangedListener(Landroid/widget/TabHost$OnTabChangeListener;)V    return-void
+    invoke-super {p0, p0}, Landroid/widget/TabHost;->setOnTabChangedListener(Landroid/widget/TabHost$OnTabChangeListener;)V
+return-void
 .end method
 
 
@@ -798,7 +797,8 @@
     .line 57
     .line 58
     .line 59
-    invoke-virtual {p0, p1}, Landroid/widget/TabHost;->addTab(Landroid/widget/TabHost$TabSpec;)V    return-void
+    invoke-virtual {p0, p1}, Landroid/widget/TabHost;->addTab(Landroid/widget/TabHost$TabSpec;)V
+return-void
 .end method
 
 .method public onAttachedToWindow()V
@@ -1006,7 +1006,8 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-boolean v0, p0, Landroidx/fragment/app/FragmentTabHost;->mAttached:Z    return-void
+    iput-boolean v0, p0, Landroidx/fragment/app/FragmentTabHost;->mAttached:Z
+return-void
 .end method
 
 .method public onRestoreInstanceState(Landroid/os/Parcelable;)V
@@ -1030,7 +1031,8 @@
 
     .line 4
     .line 5
-    invoke-super {p0, p1}, Landroid/widget/TabHost;->onRestoreInstanceState(Landroid/os/Parcelable;)V    return-void
+    invoke-super {p0, p1}, Landroid/widget/TabHost;->onRestoreInstanceState(Landroid/os/Parcelable;)V
+return-void
 
     .line 9
     :cond_0
@@ -1055,7 +1057,8 @@
 
     .line 19
     .line 20
-    invoke-virtual {p0, p1}, Landroid/widget/TabHost;->setCurrentTabByTag(Ljava/lang/String;)V    return-void
+    invoke-virtual {p0, p1}, Landroid/widget/TabHost;->setCurrentTabByTag(Ljava/lang/String;)V
+return-void
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -1206,8 +1209,7 @@
 
     .line 6
     invoke-direct {p0}, Landroidx/fragment/app/FragmentTabHost;->ensureContent()V
-
-    return-void
+return-void
 .end method
 
 .method public setup(Landroid/content/Context;Landroidx/fragment/app/FragmentManager;I)V

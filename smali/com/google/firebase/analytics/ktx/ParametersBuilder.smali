@@ -61,8 +61,7 @@
     iget-object v0, p0, Lcom/google/firebase/analytics/ktx/ParametersBuilder;->zza:Landroid/os/Bundle;
 
     invoke-virtual {v0, p1, p2, p3}, Landroid/os/BaseBundle;->putDouble(Ljava/lang/String;D)V
-
-    return-void
+return-void
 .end method
 
 .method public final param(Ljava/lang/String;J)V
@@ -80,8 +79,7 @@
     iget-object v0, p0, Lcom/google/firebase/analytics/ktx/ParametersBuilder;->zza:Landroid/os/Bundle;
 
     invoke-virtual {v0, p1, p2, p3}, Landroid/os/BaseBundle;->putLong(Ljava/lang/String;J)V
-
-    return-void
+return-void
 .end method
 
 .method public final param(Ljava/lang/String;Landroid/os/Bundle;)V
@@ -107,8 +105,7 @@
     iget-object v0, p0, Lcom/google/firebase/analytics/ktx/ParametersBuilder;->zza:Landroid/os/Bundle;
 
     invoke-virtual {v0, p1, p2}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 
 .method public final param(Ljava/lang/String;Ljava/lang/String;)V
@@ -134,8 +131,7 @@
     iget-object v0, p0, Lcom/google/firebase/analytics/ktx/ParametersBuilder;->zza:Landroid/os/Bundle;
 
     invoke-virtual {v0, p1, p2}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public final param(Ljava/lang/String;[Landroid/os/Bundle;)V
@@ -163,8 +159,7 @@
     check-cast p2, [Landroid/os/Parcelable;
 
     invoke-virtual {v0, p1, p2}, Landroid/os/Bundle;->putParcelableArray(Ljava/lang/String;[Landroid/os/Parcelable;)V
-
-    return-void
+return-void
 .end method
 
 .end class

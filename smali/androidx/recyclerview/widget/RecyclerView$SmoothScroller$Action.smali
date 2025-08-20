@@ -282,7 +282,8 @@
     .line 10
     .line 11
     .line 12
-    iput-boolean v1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mChanged:Z    return-void
+    iput-boolean v1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mChanged:Z
+return-void
 
     .line 15
     :cond_0
@@ -358,7 +359,8 @@
     .line 51
     .line 52
     :cond_1
-    iput-boolean v1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mChanged:Z    return-void
+    iput-boolean v1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mChanged:Z
+return-void
 
     .line 55
     :cond_2
@@ -468,6 +470,7 @@
     const/4 p1, 0x1
 
     .line 10
-    iput-boolean p1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mChanged:Z    return-void
+    iput-boolean p1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mChanged:Z
+return-void
 .end method
 .end class

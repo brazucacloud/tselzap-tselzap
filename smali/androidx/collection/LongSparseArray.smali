@@ -40,8 +40,7 @@
     const/4 v2, 0x0
 
     invoke-direct {p0, v2, v0, v1}, Landroidx/collection/LongSparseArray;-><init>(IILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -95,8 +94,7 @@
     .line 8
     :cond_0
     invoke-direct {p0, p1}, Landroidx/collection/LongSparseArray;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 
@@ -138,7 +136,8 @@
 
     .line 14
     .line 15
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/collection/LongSparseArray;->put(JLjava/lang/Object;)V    return-void
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/collection/LongSparseArray;->put(JLjava/lang/Object;)V
+return-void
 
     .line 19
     :cond_0
@@ -380,7 +379,8 @@
 
     .line 16
     .line 17
-    iput-boolean v2, p0, Landroidx/collection/LongSparseArray;->garbage:Z    return-void
+    iput-boolean v2, p0, Landroidx/collection/LongSparseArray;->garbage:Z
+return-void
 .end method
 
 .method public clone()Landroidx/collection/LongSparseArray;

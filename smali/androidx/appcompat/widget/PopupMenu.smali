@@ -145,8 +145,7 @@
     invoke-direct {p1, p0}, Landroidx/appcompat/widget/PopupMenu$2;-><init>(Landroidx/appcompat/widget/PopupMenu;)V
 
     invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuPopupHelper;->setOnDismissListener(Landroid/widget/PopupWindow$OnDismissListener;)V
-
-    return-void
+return-void
 .end method
 
 
@@ -159,7 +158,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuPopupHelper;->dismiss()V    return-void
+    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuPopupHelper;->dismiss()V
+return-void
 .end method
 
 .method public getDragToOpenListener()Landroid/view/View$OnTouchListener;
@@ -238,7 +238,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/appcompat/view/SupportMenuInflater;-><init>(Landroid/content/Context;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/appcompat/view/SupportMenuInflater;-><init>(Landroid/content/Context;)V
+return-object v0
 .end method
 
 .method public getMenuListView()Landroid/widget/ListView;
@@ -306,7 +307,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, p1, v1}, Landroid/view/MenuInflater;->inflate(ILandroid/view/Menu;)V    return-void
+    invoke-virtual {v0, p1, v1}, Landroid/view/MenuInflater;->inflate(ILandroid/view/Menu;)V
+return-void
 .end method
 
 .method public setForceShowIcon(Z)V
@@ -317,7 +319,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuPopupHelper;->setForceShowIcon(Z)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuPopupHelper;->setForceShowIcon(Z)V
+return-void
 .end method
 
 .method public setGravity(I)V
@@ -328,7 +331,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuPopupHelper;->setGravity(I)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/view/menu/MenuPopupHelper;->setGravity(I)V
+return-void
 .end method
 
 .method public setOnDismissListener(Landroidx/appcompat/widget/PopupMenu$OnDismissListener;)V
@@ -361,6 +365,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuPopupHelper;->show()V    return-void
+    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuPopupHelper;->show()V
+return-void
 .end method
 .end class

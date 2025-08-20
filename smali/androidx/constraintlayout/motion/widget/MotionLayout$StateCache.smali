@@ -234,7 +234,8 @@
 
     .line 62
     .line 63
-    invoke-virtual {v0, v1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->setProgress(F)V    return-void
+    invoke-virtual {v0, v1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->setProgress(F)V
+return-void
 
     .line 67
     :cond_5
@@ -334,7 +335,8 @@
 
     .line 30
     .line 31
-    invoke-virtual {v0, v1, v2}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V    return-object v0
+    invoke-virtual {v0, v1, v2}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
+return-object v0
 .end method
 
 .method public recordState()V

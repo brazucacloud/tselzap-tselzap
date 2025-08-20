@@ -395,7 +395,8 @@
 
     .line 9
     .line 10
-    invoke-direct {p0}, Landroidx/drawerlayout/widget/DrawerLayout$ViewDragCallback;->closeOtherDrawer()V    return-void
+    invoke-direct {p0}, Landroidx/drawerlayout/widget/DrawerLayout$ViewDragCallback;->closeOtherDrawer()V
+return-void
 .end method
 
 .method public onViewDragStateChanged(I)V
@@ -531,7 +532,8 @@
 
     .line 45
     .line 46
-    invoke-virtual {p1}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p1}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public onViewReleased(Landroid/view/View;FF)V
@@ -704,7 +706,8 @@
 
     .line 71
     .line 72
-    invoke-virtual {p1}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p1}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public peekDrawer()V

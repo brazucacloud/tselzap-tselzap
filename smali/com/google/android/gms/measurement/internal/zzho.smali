@@ -482,8 +482,7 @@
     sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     invoke-direct {p1, v1, v0}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
-
-    return-object p1
+return-object p1
 
     .line 6
     :cond_0
@@ -518,8 +517,7 @@
     move-result-object v1
 
     invoke-direct {p1, v0, v1}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
-
-    return-object p1
+return-object p1
 
     .line 9
     :cond_1
@@ -618,8 +616,7 @@
     move-result-object v1
 
     invoke-direct {p1, v0, v1}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
-
-    return-object p1
+return-object p1
 .end method
 
 .method public final zza(Ljava/lang/Boolean;)V
@@ -660,8 +657,7 @@
     .line 25
     :goto_0
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
-
-    return-void
+return-void
 .end method
 
 .method public final zza(Z)V
@@ -688,8 +684,7 @@
 
     .line 29
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
-
-    return-void
+return-void
 .end method
 
 .method public final zza(I)Z
@@ -1236,8 +1231,7 @@
     .line 10
     :goto_0
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
-
-    return-void
+return-void
 .end method
 
 .method public final zzb(Ljava/lang/String;)V
@@ -1264,8 +1258,7 @@
 
     .line 4
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
-
-    return-void
+return-void
 .end method
 
 .method public final zzb(Z)V
@@ -1311,8 +1304,7 @@
 
     .line 17
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
-
-    return-void
+return-void
 .end method
 
 .method public final zzc()Landroid/content/SharedPreferences;
@@ -1444,8 +1436,7 @@
 
     .line 14
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
-
-    return-void
+return-void
 .end method
 
 .method public final zzg()Landroid/content/SharedPreferences;

@@ -22,8 +22,7 @@
     iput-object p1, p0, Landroidx/appcompat/widget/b;->c:Landroidx/appcompat/widget/Toolbar;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -39,15 +38,13 @@
     iget-object v0, p0, Landroidx/appcompat/widget/b;->c:Landroidx/appcompat/widget/Toolbar;
 
     invoke-virtual {v0}, Landroidx/appcompat/widget/Toolbar;->invalidateMenu()V
-
-    return-void
+return-void
 
     :pswitch_0
     iget-object v0, p0, Landroidx/appcompat/widget/b;->c:Landroidx/appcompat/widget/Toolbar;
 
     invoke-virtual {v0}, Landroidx/appcompat/widget/Toolbar;->collapseActionView()V
-
-    return-void
+return-void
 
     nop
 

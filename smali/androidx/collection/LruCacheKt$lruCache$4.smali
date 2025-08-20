@@ -73,7 +73,8 @@
 
     .line 6
     .line 7
-    invoke-direct {p0, p1}, Landroidx/collection/LruCache;-><init>(I)V    return-void
+    invoke-direct {p0, p1}, Landroidx/collection/LruCache;-><init>(I)V
+return-void
 .end method
 
 

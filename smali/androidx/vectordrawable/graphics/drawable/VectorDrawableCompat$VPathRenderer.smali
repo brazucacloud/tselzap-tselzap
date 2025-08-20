@@ -465,7 +465,8 @@
 
     .line 84
     :cond_2
-    invoke-virtual/range {p3 .. p3}, Landroid/graphics/Canvas;->restore()V    return-void
+    invoke-virtual/range {p3 .. p3}, Landroid/graphics/Canvas;->restore()V
+return-void
 .end method
 
 .method private drawPath(Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VGroup;Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;Landroid/graphics/Canvas;IILandroid/graphics/ColorFilter;)V

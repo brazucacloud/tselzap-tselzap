@@ -75,8 +75,7 @@
 
     .line 10
     invoke-virtual {p0, p1, v0}, Lcom/google/android/gms/internal/measurement/zzbu;->zzb(ILandroid/os/Parcel;)V
-
-    return-void
+return-void
 .end method
 
 .end class

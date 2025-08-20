@@ -31,8 +31,7 @@
     const/4 v2, 0x0
 
     invoke-direct {p0, v2, v0, v1, v2}, Landroidx/datastore/preferences/core/MutablePreferences;-><init>(Ljava/util/Map;ZILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/util/Map;Z)V
@@ -90,8 +89,7 @@
     .line 3
     :cond_1
     invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/core/MutablePreferences;-><init>(Ljava/util/Map;Z)V
-
-    return-void
+return-void
 .end method
 
 
@@ -430,8 +428,7 @@
     aput-object p1, v0, v1
 
     invoke-virtual {p0, v0}, Landroidx/datastore/preferences/core/MutablePreferences;->putAll([Landroidx/datastore/preferences/core/Preferences$Pair;)V
-
-    return-void
+return-void
 .end method
 
 .method public final plusAssign(Landroidx/datastore/preferences/core/Preferences;)V
@@ -452,8 +449,7 @@
     move-result-object p1
 
     invoke-interface {v0, p1}, Ljava/util/Map;->putAll(Ljava/util/Map;)V
-
-    return-void
+return-void
 .end method
 
 .method public final varargs putAll([Landroidx/datastore/preferences/core/Preferences$Pair;)V

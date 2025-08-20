@@ -24,8 +24,7 @@
 
     .line 2
     invoke-direct {p0}, Landroidx/core/graphics/drawable/WrappedDrawableApi21;->findAndCacheIsProjectedDrawableMethod()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/core/graphics/drawable/WrappedDrawableState;Landroid/content/res/Resources;)V
@@ -36,8 +35,7 @@
 
     .line 4
     invoke-direct {p0}, Landroidx/core/graphics/drawable/WrappedDrawableApi21;->findAndCacheIsProjectedDrawableMethod()V
-
-    return-void
+return-void
 .end method
 
 .method private findAndCacheIsProjectedDrawableMethod()V

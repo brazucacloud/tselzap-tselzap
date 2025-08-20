@@ -60,8 +60,7 @@
 
     .line 1
     invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/ListFieldSchema;-><init>(Landroidx/datastore/preferences/protobuf/ListFieldSchema$1;)V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Landroidx/datastore/preferences/protobuf/ListFieldSchema$1;)V
@@ -69,8 +68,7 @@
 
     .line 2
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/ListFieldSchema$ListFieldSchemaFull;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public static getList(Ljava/lang/Object;J)Ljava/util/List;
@@ -167,8 +165,7 @@
     .line 9
     :goto_0
     invoke-static {p0, p1, p2, v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
-
-    return-object v0
+return-object v0
 
     .line 10
     :cond_2
@@ -200,8 +197,7 @@
 
     .line 13
     invoke-static {p0, p1, p2, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
-
-    return-object v1
+return-object v1
 
     .line 14
     :cond_3
@@ -227,8 +223,7 @@
 
     .line 17
     invoke-static {p0, p1, p2, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
-
-    return-object v1
+return-object v1
 
     .line 18
     :cond_4
@@ -264,8 +259,7 @@
 
     .line 21
     invoke-static {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
-
-    return-object p3
+return-object p3
 
     :cond_5
     return-object v0
@@ -393,7 +387,8 @@
 
     .line 55
     :goto_1
-    invoke-static {p1, p2, p3, v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V    return-void
+    invoke-static {p1, p2, p3, v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
+return-void
 .end method
 
 .method public mergeListsAt(Ljava/lang/Object;Ljava/lang/Object;J)V
@@ -472,7 +467,8 @@
 
     .line 31
     :cond_1
-    invoke-static {p1, p3, p4, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V    return-void
+    invoke-static {p1, p3, p4, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
+return-void
 .end method
 
 .method public mutableListAt(Ljava/lang/Object;J)Ljava/util/List;

@@ -33,8 +33,7 @@
     check-cast p1, Landroidx/window/layout/WindowLayoutInfo;
 
     invoke-static {v0, p1}, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$1;->a(LB1/b;Landroidx/window/layout/WindowLayoutInfo;)V
-
-    return-void
+return-void
 .end method
 
 .end class

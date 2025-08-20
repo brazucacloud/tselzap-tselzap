@@ -448,7 +448,8 @@
 
     .line 146
     .line 147
-    invoke-static {v0, v1}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V    return-void
+    invoke-static {v0, v1}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
+return-void
 .end method
 
 .method private flushTaskWithDeadline(Landroidx/recyclerview/widget/GapWorker$Task;J)V
@@ -872,7 +873,8 @@
 
     .line 72
     :cond_3
-    invoke-static {}, Landroid/os/Trace;->endSection()V    return-void
+    invoke-static {}, Landroid/os/Trace;->endSection()V
+return-void
 
     .line 76
     :goto_2
@@ -1035,7 +1037,8 @@
     .line 66
     .line 67
     .line 68
-    invoke-static {}, Landroid/os/Trace;->endSection()V    return-object p2
+    invoke-static {}, Landroid/os/Trace;->endSection()V
+return-object p2
 
     .line 72
     :goto_2
@@ -1222,7 +1225,8 @@
     .line 2
     .line 3
     .line 4
-    invoke-direct {p0, p1, p2}, Landroidx/recyclerview/widget/GapWorker;->flushTasksWithDeadline(J)V    return-void
+    invoke-direct {p0, p1, p2}, Landroidx/recyclerview/widget/GapWorker;->flushTasksWithDeadline(J)V
+return-void
 .end method
 
 .method public remove(Landroidx/recyclerview/widget/RecyclerView;)V
@@ -1319,7 +1323,8 @@
 
     .line 17
     .line 18
-    invoke-static {}, Landroid/os/Trace;->endSection()V    return-void
+    invoke-static {}, Landroid/os/Trace;->endSection()V
+return-void
 
     .line 22
     :cond_0

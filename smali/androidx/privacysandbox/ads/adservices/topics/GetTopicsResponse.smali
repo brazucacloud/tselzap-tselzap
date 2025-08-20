@@ -45,8 +45,7 @@
     sget-object v0, Ld1/t;->b:Ld1/t;
 
     invoke-direct {p0, p1, v0}, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;-><init>(Ljava/util/List;Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/util/List;Ljava/util/List;)V

@@ -93,8 +93,7 @@
 
     .line 9
     invoke-direct {p0, p1, v0}, Landroidx/lifecycle/LifecycleRegistry;-><init>(Landroidx/lifecycle/LifecycleOwner;Z)V
-
-    return-void
+return-void
 .end method
 
 .method private constructor <init>(Landroidx/lifecycle/LifecycleOwner;Z)V
@@ -147,8 +146,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2}, Landroidx/lifecycle/LifecycleRegistry;-><init>(Landroidx/lifecycle/LifecycleOwner;Z)V
-
-    return-void
+return-void
 .end method
 
 .method private final backwardPass(Landroidx/lifecycle/LifecycleOwner;)V
@@ -1162,7 +1160,8 @@
     .line 97
     :cond_5
     :goto_2
-    iput-boolean v0, p0, Landroidx/lifecycle/LifecycleRegistry;->newEventOccurred:Z    return-void
+    iput-boolean v0, p0, Landroidx/lifecycle/LifecycleRegistry;->newEventOccurred:Z
+return-void
 .end method
 
 .method private final popParentState()V
@@ -1392,7 +1391,8 @@
 
     .line 93
     .line 94
-    invoke-virtual {v0, v1}, LC1/C;->h(Ljava/lang/Object;)V    return-void
+    invoke-virtual {v0, v1}, LC1/C;->h(Ljava/lang/Object;)V
+return-void
 
     .line 98
     :cond_3
@@ -1757,7 +1757,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v1, v0}, LC1/t;-><init>(LC1/r;)V    return-object v1
+    invoke-direct {v1, v0}, LC1/t;-><init>(LC1/r;)V
+return-object v1
 .end method
 
 .method public getObserverCount()I
@@ -1817,7 +1818,8 @@
     move-result-object p1
 
     .line 15
-    invoke-direct {p0, p1}, Landroidx/lifecycle/LifecycleRegistry;->moveToState(Landroidx/lifecycle/Lifecycle$State;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/lifecycle/LifecycleRegistry;->moveToState(Landroidx/lifecycle/Lifecycle$State;)V
+return-void
 .end method
 
 .method public markState(Landroidx/lifecycle/Lifecycle$State;)V
@@ -1844,7 +1846,8 @@
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p0, p1}, Landroidx/lifecycle/LifecycleRegistry;->setCurrentState(Landroidx/lifecycle/Lifecycle$State;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/lifecycle/LifecycleRegistry;->setCurrentState(Landroidx/lifecycle/Lifecycle$State;)V
+return-void
 .end method
 
 .method public removeObserver(Landroidx/lifecycle/LifecycleObserver;)V
@@ -1898,6 +1901,7 @@
     .line 9
     .line 10
     .line 11
-    invoke-direct {p0, p1}, Landroidx/lifecycle/LifecycleRegistry;->moveToState(Landroidx/lifecycle/Lifecycle$State;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/lifecycle/LifecycleRegistry;->moveToState(Landroidx/lifecycle/Lifecycle$State;)V
+return-void
 .end method
 .end class

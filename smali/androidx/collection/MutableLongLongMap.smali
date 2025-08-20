@@ -19,8 +19,7 @@
     const/4 v2, 0x0
 
     invoke-direct {p0, v2, v0, v1}, Landroidx/collection/MutableLongLongMap;-><init>(IILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -39,8 +38,7 @@
     move-result p1
 
     invoke-direct {p0, p1}, Landroidx/collection/MutableLongLongMap;->initializeStorage(I)V
-
-    return-void
+return-void
 
     .line 5
     :cond_0
@@ -65,8 +63,7 @@
     .line 2
     :cond_0
     invoke-direct {p0, p1}, Landroidx/collection/MutableLongLongMap;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 .method private final adjustStorage()V
@@ -133,7 +130,8 @@
 
     .line 28
     .line 29
-    invoke-direct {p0}, Landroidx/collection/MutableLongLongMap;->removeDeletedMarkers()V    return-void
+    invoke-direct {p0}, Landroidx/collection/MutableLongLongMap;->removeDeletedMarkers()V
+return-void
 
     .line 33
     :cond_0
@@ -149,7 +147,8 @@
     move-result v0
 
     .line 39
-    invoke-direct {p0, v0}, Landroidx/collection/MutableLongLongMap;->resizeStorage(I)V    return-void
+    invoke-direct {p0, v0}, Landroidx/collection/MutableLongLongMap;->resizeStorage(I)V
+return-void
 .end method
 
 .method private final findFirstAvailableSlot(I)I
@@ -891,7 +890,8 @@
 
     .line 34
     .line 35
-    invoke-direct {p0}, Landroidx/collection/MutableLongLongMap;->initializeGrowth()V    return-void
+    invoke-direct {p0}, Landroidx/collection/MutableLongLongMap;->initializeGrowth()V
+return-void
 .end method
 
 .method private final initializeStorage(I)V
@@ -1585,7 +1585,8 @@
     .line 32
     .line 33
     :cond_0
-    invoke-direct {p0}, Landroidx/collection/MutableLongLongMap;->initializeGrowth()V    return-void
+    invoke-direct {p0}, Landroidx/collection/MutableLongLongMap;->initializeGrowth()V
+return-void
 .end method
 
 .method public final getOrPut(JLp1/a;)J
@@ -1640,7 +1641,8 @@
     move-result-wide v0
 
     .line 22
-    invoke-virtual {p0, p1, p2, v0, v1}, Landroidx/collection/MutableLongLongMap;->put(JJ)V    return-wide v0
+    invoke-virtual {p0, p1, p2, v0, v1}, Landroidx/collection/MutableLongLongMap;->put(JJ)V
+return-wide v0
 
     .line 26
     :cond_0
@@ -1656,8 +1658,7 @@
 
     .line 1
     invoke-virtual {p0, p1, p2}, Landroidx/collection/MutableLongLongMap;->remove(J)V
-
-    return-void
+return-void
 .end method
 
 .method public final minusAssign(Landroidx/collection/LongList;)V
@@ -1833,7 +1834,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, p1}, Landroidx/collection/MutableLongLongMap;->putAll(Landroidx/collection/LongLongMap;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/collection/MutableLongLongMap;->putAll(Landroidx/collection/LongLongMap;)V
+return-void
 .end method
 
 .method public final put(JJJ)J
@@ -1877,8 +1879,7 @@
 
     .line 1
     invoke-virtual {p0, p1, p2, p3, p4}, Landroidx/collection/MutableLongLongMap;->set(JJ)V
-
-    return-void
+return-void
 .end method
 
 .method public final putAll(Landroidx/collection/LongLongMap;)V

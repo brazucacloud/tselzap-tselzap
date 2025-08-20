@@ -29,8 +29,7 @@
     iget-object v0, p0, Lcom/google/android/gms/stats/zza;->zza:Lcom/google/android/gms/stats/WakeLock;
 
     invoke-static {v0}, Lcom/google/android/gms/stats/WakeLock;->zza(Lcom/google/android/gms/stats/WakeLock;)V
-
-    return-void
+return-void
 .end method
 
 .end class

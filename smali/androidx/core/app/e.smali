@@ -41,8 +41,7 @@
     move-object v5, p5
 
     invoke-static/range {v0 .. v5}, Landroidx/core/app/PendingIntentCompat$GatedCallback;->a(Landroidx/core/app/PendingIntentCompat$GatedCallback;Landroid/app/PendingIntent;Landroid/content/Intent;ILjava/lang/String;Landroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 
 .end class

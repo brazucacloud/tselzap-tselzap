@@ -3582,8 +3582,7 @@
 
     .line 8
     invoke-virtual {v0, p1}, Lo0/l;->b(Landroidx/appcompat/view/menu/MenuItemImpl;)V
-
-    return-void
+return-void
 
     .line 9
     :cond_0

@@ -259,7 +259,8 @@
 
     .line 9
     .line 10
-    invoke-interface {v0, p1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z    return-void
+    invoke-interface {v0, p1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
+return-void
 .end method
 
 .method public bridge synthetic build()Landroidx/navigation/NavDestination;
@@ -346,8 +347,7 @@
     invoke-static {v2}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     invoke-virtual {v0, v2}, Landroidx/navigation/NavGraph;->setStartDestination(Ljava/lang/String;)V
-
-    return-object v0
+return-object v0
 
     .line 13
     :cond_2
@@ -365,8 +365,7 @@
     sget-object v2, Landroidx/navigation/NavGraphBuilder$build$1$1;->INSTANCE:Landroidx/navigation/NavGraphBuilder$build$1$1;
 
     invoke-virtual {v0, v1, v2}, Landroidx/navigation/NavGraph;->setStartDestination(LJ1/b;Lp1/l;)V
-
-    return-object v0
+return-object v0
 
     .line 15
     :cond_3
@@ -378,14 +377,12 @@
     invoke-static {v2}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     invoke-virtual {v0, v2}, Landroidx/navigation/NavGraph;->setStartDestination(Ljava/lang/Object;)V
-
-    return-object v0
+return-object v0
 
     .line 17
     :cond_4
     invoke-virtual {v0, v1}, Landroidx/navigation/NavGraph;->setStartDestination(I)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public final destination(Landroidx/navigation/NavDestinationBuilder;)V
@@ -449,6 +446,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, p1}, Landroidx/navigation/NavGraphBuilder;->addDestination(Landroidx/navigation/NavDestination;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/navigation/NavGraphBuilder;->addDestination(Landroidx/navigation/NavDestination;)V
+return-void
 .end method
 .end class

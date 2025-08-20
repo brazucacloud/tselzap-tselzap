@@ -97,8 +97,7 @@
     iget-wide v4, p0, Lcom/google/android/gms/measurement/internal/zzbj;->zzd:J
 
     invoke-direct/range {v0 .. v5}, Lcom/google/android/gms/measurement/internal/zzhg;-><init>(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;J)V
-
-    return-object v0
+return-object v0
 .end method
 
 
@@ -206,8 +205,7 @@
     iget-wide v4, p0, Lcom/google/android/gms/measurement/internal/zzhg;->zzd:J
 
     invoke-direct/range {v0 .. v5}, Lcom/google/android/gms/measurement/internal/zzbj;-><init>(Ljava/lang/String;Lcom/google/android/gms/measurement/internal/zzbi;Ljava/lang/String;J)V
-
-    return-object v0
+return-object v0
 .end method
 
 .end class

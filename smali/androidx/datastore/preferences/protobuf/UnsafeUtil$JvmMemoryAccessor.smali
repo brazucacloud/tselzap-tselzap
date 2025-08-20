@@ -19,7 +19,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;-><init>(Lsun/misc/Unsafe;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;-><init>(Lsun/misc/Unsafe;)V
+return-void
 .end method
 
 
@@ -43,8 +44,7 @@
     move-wide v7, p6
 
     invoke-virtual/range {v0 .. v8}, Lsun/misc/Unsafe;->copyMemory(Ljava/lang/Object;JLjava/lang/Object;JJ)V
-
-    return-void
+return-void
 .end method
 
 .method public copyMemory([BJJJ)V
@@ -68,8 +68,7 @@
     move-object v1, p1
 
     invoke-virtual/range {v0 .. v8}, Lsun/misc/Unsafe;->copyMemory(Ljava/lang/Object;JLjava/lang/Object;JJ)V
-
-    return-void
+return-void
 .end method
 
 .method public getBoolean(Ljava/lang/Object;J)Z
@@ -234,7 +233,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3, p4}, Lsun/misc/Unsafe;->putBoolean(Ljava/lang/Object;JZ)V    return-void
+    invoke-virtual {v0, p1, p2, p3, p4}, Lsun/misc/Unsafe;->putBoolean(Ljava/lang/Object;JZ)V
+return-void
 .end method
 
 .method public putByte(JB)V
@@ -244,8 +244,7 @@
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->unsafe:Lsun/misc/Unsafe;
 
     invoke-virtual {v0, p1, p2, p3}, Lsun/misc/Unsafe;->putByte(JB)V
-
-    return-void
+return-void
 .end method
 
 .method public putByte(Ljava/lang/Object;JB)V
@@ -255,8 +254,7 @@
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->unsafe:Lsun/misc/Unsafe;
 
     invoke-virtual {v0, p1, p2, p3, p4}, Lsun/misc/Unsafe;->putByte(Ljava/lang/Object;JB)V
-
-    return-void
+return-void
 .end method
 
 .method public putDouble(Ljava/lang/Object;JD)V
@@ -276,7 +274,8 @@
     move-wide v4, p4
 
     .line 6
-    invoke-virtual/range {v0 .. v5}, Lsun/misc/Unsafe;->putDouble(Ljava/lang/Object;JD)V    return-void
+    invoke-virtual/range {v0 .. v5}, Lsun/misc/Unsafe;->putDouble(Ljava/lang/Object;JD)V
+return-void
 .end method
 
 .method public putFloat(Ljava/lang/Object;JF)V
@@ -287,7 +286,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3, p4}, Lsun/misc/Unsafe;->putFloat(Ljava/lang/Object;JF)V    return-void
+    invoke-virtual {v0, p1, p2, p3, p4}, Lsun/misc/Unsafe;->putFloat(Ljava/lang/Object;JF)V
+return-void
 .end method
 
 .method public putInt(JI)V
@@ -298,7 +298,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3}, Lsun/misc/Unsafe;->putInt(JI)V    return-void
+    invoke-virtual {v0, p1, p2, p3}, Lsun/misc/Unsafe;->putInt(JI)V
+return-void
 .end method
 
 .method public putLong(JJ)V
@@ -309,6 +310,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3, p4}, Lsun/misc/Unsafe;->putLong(JJ)V    return-void
+    invoke-virtual {v0, p1, p2, p3, p4}, Lsun/misc/Unsafe;->putLong(JJ)V
+return-void
 .end method
 .end class

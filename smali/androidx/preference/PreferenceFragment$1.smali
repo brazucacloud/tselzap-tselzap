@@ -27,7 +27,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroid/os/Handler;-><init>()V    return-void
+    invoke-direct {p0}, Landroid/os/Handler;-><init>()V
+return-void
 .end method
 
 
@@ -55,6 +56,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p1}, Landroidx/preference/PreferenceFragment;->bindPreferences()V    return-void
+    invoke-virtual {p1}, Landroidx/preference/PreferenceFragment;->bindPreferences()V
+return-void
 .end method
 .end class

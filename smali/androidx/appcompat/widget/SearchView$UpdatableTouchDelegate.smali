@@ -429,6 +429,7 @@
 
     .line 21
     .line 22
-    invoke-virtual {p1, p2}, Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V    return-void
+    invoke-virtual {p1, p2}, Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V
+return-void
 .end method
 .end class

@@ -132,8 +132,7 @@
 
     .line 1
     invoke-interface {p0, p1, p2}, Landroid/window/OnBackInvokedDispatcher;->registerOnBackInvokedCallback(ILandroid/window/OnBackInvokedCallback;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic m(Landroid/window/OnBackInvokedDispatcher;Landroid/window/OnBackInvokedCallback;)V
@@ -141,8 +140,7 @@
 
     .line 1
     invoke-interface {p0, p1}, Landroid/window/OnBackInvokedDispatcher;->unregisterOnBackInvokedCallback(Landroid/window/OnBackInvokedCallback;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic n(Landroid/window/OnBackInvokedDispatcher;Landroidx/appcompat/app/d;)V
@@ -152,8 +150,7 @@
     const v0, 0xf4240
 
     invoke-interface {p0, v0, p1}, Landroid/window/OnBackInvokedDispatcher;->registerOnBackInvokedCallback(ILandroid/window/OnBackInvokedCallback;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic o(Ljava/util/Locale;Ljava/util/Locale;)Z

@@ -519,7 +519,8 @@
 
     .line 27
     .line 28
-    invoke-virtual {v0}, Landroidx/collection/SimpleArrayMap;->clear()V    return-void
+    invoke-virtual {v0}, Landroidx/collection/SimpleArrayMap;->clear()V
+return-void
 .end method
 
 .method public contains(Ljava/lang/Object;)Z
@@ -578,7 +579,8 @@
 
     .line 10
     .line 11
-    invoke-direct {v0, p1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V    return-object v0
+    invoke-direct {v0, p1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+return-object v0
 .end method
 
 .method public getIncomingEdgesInternal(Ljava/lang/Object;)Ljava/util/ArrayList;

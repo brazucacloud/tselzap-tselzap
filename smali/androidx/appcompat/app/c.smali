@@ -195,8 +195,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/content/res/Configuration;->setLocales(Landroid/os/LocaleList;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic p(Landroid/location/GnssMeasurementsEvent$Callback;I)V
@@ -204,8 +203,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/location/GnssMeasurementsEvent$Callback;->onStatusChanged(I)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic q(Landroid/location/GnssMeasurementsEvent$Callback;Landroid/location/GnssMeasurementsEvent;)V
@@ -213,8 +211,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/location/GnssMeasurementsEvent$Callback;->onGnssMeasurementsReceived(Landroid/location/GnssMeasurementsEvent;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic r(Landroid/os/LocaleList;)V
@@ -222,8 +219,7 @@
 
     .line 1
     invoke-static {p0}, Landroid/os/LocaleList;->setDefault(Landroid/os/LocaleList;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic s(Landroid/location/GnssStatus;I)Z

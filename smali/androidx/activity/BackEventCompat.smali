@@ -108,8 +108,7 @@
 
     .line 10
     invoke-direct {p0, v1, v2, v3, p1}, Landroidx/activity/BackEventCompat;-><init>(FFFI)V
-
-    return-void
+return-void
 .end method
 
 

@@ -9,8 +9,7 @@
 
     .line 1
     invoke-direct {p0}, Landroid/graphics/drawable/Drawable$ConstantState;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Lcom/google/android/gms/internal/base/zag;)V
@@ -18,8 +17,7 @@
 
     .line 2
     invoke-direct {p0}, Landroid/graphics/drawable/Drawable$ConstantState;-><init>()V
-
-    return-void
+return-void
 .end method
 
 

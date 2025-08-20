@@ -27,8 +27,7 @@
 
     .line 3
     invoke-direct {p0}, Landroidx/transition/Visibility;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -86,8 +85,7 @@
 
     .line 10
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-
-    return-void
+return-void
 .end method
 
 .method private createAnimation(Landroid/view/View;FF)Landroid/animation/Animator;

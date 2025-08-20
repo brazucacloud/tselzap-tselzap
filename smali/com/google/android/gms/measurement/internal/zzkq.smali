@@ -51,8 +51,7 @@
     move-object v7, p5
 
     invoke-static/range {v0 .. v7}, Lcom/google/android/gms/measurement/internal/zzkf;->zza(Lcom/google/android/gms/measurement/internal/zzkf;Ljava/util/concurrent/atomic/AtomicReference;Lcom/google/android/gms/measurement/internal/zzoz;Ljava/lang/String;ILjava/lang/Throwable;[BLjava/util/Map;)V
-
-    return-void
+return-void
 .end method
 
 .end class

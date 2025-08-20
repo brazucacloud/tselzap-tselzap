@@ -906,8 +906,7 @@
 
     .line 1
     invoke-virtual {p0, p1, v0}, Landroidx/constraintlayout/core/dsl/Constraint;->linkToEnd(Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;I)V
-
-    return-void
+return-void
 .end method
 
 .method public linkToEnd(Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;I)V
@@ -917,8 +916,7 @@
 
     .line 2
     invoke-virtual {p0, p1, p2, v0}, Landroidx/constraintlayout/core/dsl/Constraint;->linkToEnd(Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;II)V
-
-    return-void
+return-void
 .end method
 
 .method public linkToEnd(Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;II)V
@@ -945,8 +943,7 @@
 
     .line 1
     invoke-virtual {p0, p1, v0}, Landroidx/constraintlayout/core/dsl/Constraint;->linkToLeft(Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;I)V
-
-    return-void
+return-void
 .end method
 
 .method public linkToLeft(Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;I)V
@@ -956,8 +953,7 @@
 
     .line 2
     invoke-virtual {p0, p1, p2, v0}, Landroidx/constraintlayout/core/dsl/Constraint;->linkToLeft(Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;II)V
-
-    return-void
+return-void
 .end method
 
 .method public linkToLeft(Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;II)V
@@ -984,8 +980,7 @@
 
     .line 1
     invoke-virtual {p0, p1, v0}, Landroidx/constraintlayout/core/dsl/Constraint;->linkToRight(Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;I)V
-
-    return-void
+return-void
 .end method
 
 .method public linkToRight(Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;I)V
@@ -995,8 +990,7 @@
 
     .line 2
     invoke-virtual {p0, p1, p2, v0}, Landroidx/constraintlayout/core/dsl/Constraint;->linkToRight(Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;II)V
-
-    return-void
+return-void
 .end method
 
 .method public linkToRight(Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;II)V
@@ -1023,8 +1017,7 @@
 
     .line 1
     invoke-virtual {p0, p1, v0}, Landroidx/constraintlayout/core/dsl/Constraint;->linkToStart(Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;I)V
-
-    return-void
+return-void
 .end method
 
 .method public linkToStart(Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;I)V
@@ -1034,8 +1027,7 @@
 
     .line 2
     invoke-virtual {p0, p1, p2, v0}, Landroidx/constraintlayout/core/dsl/Constraint;->linkToStart(Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;II)V
-
-    return-void
+return-void
 .end method
 
 .method public linkToStart(Landroidx/constraintlayout/core/dsl/Constraint$HAnchor;II)V
@@ -1119,14 +1111,16 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mConstrainedHeight:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mConstrainedHeight:Z
+return-void
 .end method
 
 .method public setConstrainedWidth(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mConstrainedWidth:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/core/dsl/Constraint;->mConstrainedWidth:Z
+return-void
 .end method
 
 .method public setDimensionRatio(Ljava/lang/String;)V

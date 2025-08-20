@@ -59,8 +59,7 @@
 
     .line 3
     invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableLongFloatMap;->set(JF)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final longFloatMapOf(JFJF)Landroidx/collection/LongFloatMap;
@@ -82,8 +81,7 @@
 
     .line 6
     invoke-virtual {v0, p3, p4, p5}, Landroidx/collection/MutableLongFloatMap;->set(JF)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final longFloatMapOf(JFJFJF)Landroidx/collection/LongFloatMap;
@@ -108,8 +106,7 @@
 
     .line 10
     invoke-virtual {v0, p6, p7, p8}, Landroidx/collection/MutableLongFloatMap;->set(JF)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final longFloatMapOf(JFJFJFJF)Landroidx/collection/LongFloatMap;
@@ -137,8 +134,7 @@
 
     .line 15
     invoke-virtual {v0, p9, p10, p11}, Landroidx/collection/MutableLongFloatMap;->set(JF)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final longFloatMapOf(JFJFJFJFJF)Landroidx/collection/LongFloatMap;
@@ -173,8 +169,7 @@
 
     .line 21
     invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableLongFloatMap;->set(JF)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableLongFloatMapOf()Landroidx/collection/MutableLongFloatMap;
@@ -190,8 +185,7 @@
     const/4 v3, 0x0
 
     invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongFloatMap;-><init>(IILkotlin/jvm/internal/e;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableLongFloatMapOf(JF)Landroidx/collection/MutableLongFloatMap;
@@ -210,8 +204,7 @@
 
     .line 3
     invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableLongFloatMap;->set(JF)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableLongFloatMapOf(JFJF)Landroidx/collection/MutableLongFloatMap;
@@ -233,8 +226,7 @@
 
     .line 6
     invoke-virtual {v0, p3, p4, p5}, Landroidx/collection/MutableLongFloatMap;->set(JF)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableLongFloatMapOf(JFJFJF)Landroidx/collection/MutableLongFloatMap;
@@ -259,8 +251,7 @@
 
     .line 10
     invoke-virtual {v0, p6, p7, p8}, Landroidx/collection/MutableLongFloatMap;->set(JF)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableLongFloatMapOf(JFJFJFJF)Landroidx/collection/MutableLongFloatMap;
@@ -288,8 +279,7 @@
 
     .line 15
     invoke-virtual {v0, p9, p10, p11}, Landroidx/collection/MutableLongFloatMap;->set(JF)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableLongFloatMapOf(JFJFJFJFJF)Landroidx/collection/MutableLongFloatMap;
@@ -324,7 +314,6 @@
 
     .line 21
     invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableLongFloatMap;->set(JF)V
-
-    return-object v0
+return-object v0
 .end method
 .end class

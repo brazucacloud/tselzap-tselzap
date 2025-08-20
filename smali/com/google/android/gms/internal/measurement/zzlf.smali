@@ -65,8 +65,7 @@
 
     .line 4
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/measurement/zzlf;-><init>(Lcom/google/android/gms/internal/measurement/zzlo;)V
-
-    return-void
+return-void
 .end method
 
 .method private constructor <init>(Lcom/google/android/gms/internal/measurement/zzlo;)V

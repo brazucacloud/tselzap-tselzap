@@ -46,8 +46,7 @@
 
     .line 4
     iput-boolean p1, p0, Landroidx/dynamicanimation/animation/SpringAnimation;->mEndRequested:Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/Object;Landroidx/dynamicanimation/animation/FloatPropertyCompat;)V
@@ -79,8 +78,7 @@
 
     .line 8
     iput-boolean p1, p0, Landroidx/dynamicanimation/animation/SpringAnimation;->mEndRequested:Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/Object;Landroidx/dynamicanimation/animation/FloatPropertyCompat;F)V
@@ -278,7 +276,8 @@
     .line 24
     .line 25
     .line 26
-    invoke-virtual {p0}, Landroidx/dynamicanimation/animation/SpringAnimation;->start()V    return-void
+    invoke-virtual {p0}, Landroidx/dynamicanimation/animation/SpringAnimation;->start()V
+return-void
 .end method
 
 .method public canSkipToEnd()Z
@@ -489,7 +488,8 @@
     .line 12
     .line 13
     .line 14
-    invoke-super {p0}, Landroidx/dynamicanimation/animation/DynamicAnimation;->start()V    return-void
+    invoke-super {p0}, Landroidx/dynamicanimation/animation/DynamicAnimation;->start()V
+return-void
 .end method
 
 .method public updateValueAndVelocity(J)Z

@@ -41,8 +41,7 @@
     move-result-object p1
 
     invoke-direct {p0, p1}, Landroidx/core/view/WindowInsetsAnimationCompat$Impl30;-><init>(Landroid/view/WindowInsetsAnimation;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/view/WindowInsetsAnimation;)V

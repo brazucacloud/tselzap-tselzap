@@ -403,8 +403,7 @@
     iget p2, p2, Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure$Measure;->measuredBaseline:I
 
     invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setBaselineDistance(I)V
-
-    return-void
+return-void
 .end method
 
 .method public measureChildren()Z
@@ -666,7 +665,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/constraintlayout/core/widgets/VirtualLayout;->mNeedsCallFromSolver:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/core/widgets/VirtualLayout;->mNeedsCallFromSolver:Z
+return-void
 .end method
 
 .method public setMeasure(II)V
@@ -769,6 +769,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/widgets/VirtualLayout;->captureWidgets()V    return-void
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/widgets/VirtualLayout;->captureWidgets()V
+return-void
 .end method
 .end class

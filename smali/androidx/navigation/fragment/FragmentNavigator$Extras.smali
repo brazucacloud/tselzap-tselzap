@@ -77,7 +77,8 @@
 
     .line 15
     .line 16
-    invoke-virtual {v0, p1}, Ljava/util/AbstractMap;->putAll(Ljava/util/Map;)V    return-void
+    invoke-virtual {v0, p1}, Ljava/util/AbstractMap;->putAll(Ljava/util/Map;)V
+return-void
 .end method
 
 

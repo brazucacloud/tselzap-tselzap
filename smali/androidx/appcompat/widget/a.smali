@@ -119,8 +119,7 @@
 
     .line 1
     invoke-interface {p0, p1, p2}, Landroid/view/inspector/PropertyReader;->readIntFlag(II)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic f(Landroid/view/inspector/PropertyReader;ILandroid/graphics/drawable/Drawable;)V
@@ -128,8 +127,7 @@
 
     .line 1
     invoke-interface {p0, p1, p2}, Landroid/view/inspector/PropertyReader;->readObject(ILjava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic g(Landroid/view/inspector/PropertyReader;ILandroid/view/Menu;)V
@@ -137,8 +135,7 @@
 
     .line 1
     invoke-interface {p0, p1, p2}, Landroid/view/inspector/PropertyReader;->readObject(ILjava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic h(Landroid/view/inspector/PropertyReader;ILjava/lang/CharSequence;)V
@@ -146,8 +143,7 @@
 
     .line 1
     invoke-interface {p0, p1, p2}, Landroid/view/inspector/PropertyReader;->readObject(ILjava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic i(Landroid/view/inspector/PropertyReader;IZ)V
@@ -155,8 +151,7 @@
 
     .line 1
     invoke-interface {p0, p1, p2}, Landroid/view/inspector/PropertyReader;->readBoolean(IZ)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic j(Landroid/view/inspector/PropertyMapper;)I

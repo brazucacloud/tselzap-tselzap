@@ -41,8 +41,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/navigation/NavDestination;-><init>(Landroidx/navigation/Navigator;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/navigation/NavigatorProvider;)V
@@ -60,8 +59,7 @@
     move-result-object p1
 
     invoke-direct {p0, p1}, Landroidx/navigation/fragment/FragmentNavigator$Destination;-><init>(Landroidx/navigation/Navigator;)V
-
-    return-void
+return-void
 .end method
 
 
@@ -152,7 +150,8 @@
 
     .line 6
     .line 7
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+return-object v0
 
     .line 11
     :cond_0
@@ -296,7 +295,8 @@
     .line 39
     .line 40
     :cond_0
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V    return-void
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
+return-void
 .end method
 
 .method public final setClassName(Ljava/lang/String;)Landroidx/navigation/fragment/FragmentNavigator$Destination;
@@ -389,6 +389,7 @@
 
     .line 36
     .line 37
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+return-object v0
 .end method
 .end class

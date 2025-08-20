@@ -53,8 +53,7 @@
     iget-object v4, p0, Lcom/google/android/gms/measurement/internal/zzmb;->zze:Ljava/util/Map;
 
     invoke-static {v0, v1, v2, v3, v4}, Lcom/google/android/gms/measurement/internal/zzmc;->zza(Lcom/google/android/gms/measurement/internal/zzmc;ILjava/lang/Exception;[BLjava/util/Map;)V
-
-    return-void
+return-void
 .end method
 
 .end class

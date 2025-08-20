@@ -383,8 +383,7 @@
     .line 71
     :cond_c
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/constraintlayout/widget/Constraints$LayoutParams;)V

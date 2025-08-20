@@ -25,8 +25,7 @@
     const-string p0, "viewHolder"
 
     invoke-static {p2, p0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .end class

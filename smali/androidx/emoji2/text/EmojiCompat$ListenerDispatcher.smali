@@ -65,8 +65,7 @@
     const/4 v0, 0x0
 
     invoke-direct {p0, p1, p2, v0}, Landroidx/emoji2/text/EmojiCompat$ListenerDispatcher;-><init>(Ljava/util/Collection;ILjava/lang/Throwable;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/util/Collection;I)V
@@ -88,8 +87,7 @@
 
     .line 2
     invoke-direct {p0, p1, p2, v0}, Landroidx/emoji2/text/EmojiCompat$ListenerDispatcher;-><init>(Ljava/util/Collection;ILjava/lang/Throwable;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/util/Collection;ILjava/lang/Throwable;)V

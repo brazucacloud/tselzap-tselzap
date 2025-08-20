@@ -176,8 +176,7 @@
 
     .line 6
     invoke-virtual {p1, v0}, Landroidx/navigation/NavBackStackEntry;->saveState(Landroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 
 
@@ -363,6 +362,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeBundle(Landroid/os/Bundle;)V    return-void
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeBundle(Landroid/os/Bundle;)V
+return-void
 .end method
 .end class

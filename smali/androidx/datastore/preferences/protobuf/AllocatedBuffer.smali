@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 .method public static wrap(Ljava/nio/ByteBuffer;)Landroidx/datastore/preferences/protobuf/AllocatedBuffer;
@@ -23,8 +24,7 @@
     new-instance v0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$1;
 
     invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$1;-><init>(Ljava/nio/ByteBuffer;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static wrap([B)Landroidx/datastore/preferences/protobuf/AllocatedBuffer;
@@ -117,7 +117,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;-><init>([BII)V    return-object v0
+    invoke-direct {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;-><init>([BII)V
+return-object v0
 .end method
 
 

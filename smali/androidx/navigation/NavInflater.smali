@@ -721,7 +721,8 @@
     .line 183
     .line 184
     .line 185
-    invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V    return-void
+    invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
+return-void
 .end method
 
 .method private final inflateArgument(Landroid/content/res/TypedArray;Landroid/content/res/Resources;I)Landroidx/navigation/NavArgument;
@@ -1571,7 +1572,8 @@
     .line 32
     .line 33
     :cond_0
-    invoke-virtual {p3}, Landroid/content/res/TypedArray;->recycle()V    return-void
+    invoke-virtual {p3}, Landroid/content/res/TypedArray;->recycle()V
+return-void
 
     .line 37
     :cond_1
@@ -1644,7 +1646,8 @@
     .line 25
     .line 26
     .line 27
-    invoke-virtual {p3}, Landroid/content/res/TypedArray;->recycle()V    return-void
+    invoke-virtual {p3}, Landroid/content/res/TypedArray;->recycle()V
+return-void
 
     .line 31
     :cond_0
@@ -1927,7 +1930,8 @@
     .line 129
     .line 130
     .line 131
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V    return-void
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
+return-void
 
     .line 135
     :cond_7
@@ -2026,8 +2030,7 @@
 
     .line 9
     invoke-interface {v1}, Landroid/content/res/XmlResourceParser;->close()V
-
-    return-object v2
+return-object v2
 
     :catchall_0
     move-exception p1

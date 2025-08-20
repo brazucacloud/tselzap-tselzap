@@ -65,8 +65,7 @@
     move-object v4, p1
 
     invoke-virtual/range {v0 .. v7}, Lcom/google/android/gms/measurement/internal/zzhc;->zza(IZZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public final zza(Ljava/lang/String;Ljava/lang/Object;)V
@@ -90,8 +89,7 @@
     move-object v5, p2
 
     invoke-virtual/range {v0 .. v7}, Lcom/google/android/gms/measurement/internal/zzhc;->zza(IZZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public final zza(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
@@ -115,8 +113,7 @@
     move-object v6, p3
 
     invoke-virtual/range {v0 .. v7}, Lcom/google/android/gms/measurement/internal/zzhc;->zza(IZZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public final zza(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
@@ -140,8 +137,7 @@
     move-object v7, p4
 
     invoke-virtual/range {v0 .. v7}, Lcom/google/android/gms/measurement/internal/zzhc;->zza(IZZLjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .end class

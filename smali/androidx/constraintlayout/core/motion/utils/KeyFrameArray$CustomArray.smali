@@ -56,7 +56,8 @@
 
     .line 13
     .line 14
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$CustomArray;->clear()V    return-void
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$CustomArray;->clear()V
+return-void
 .end method
 
 
@@ -111,7 +112,8 @@
 
     .line 23
     .line 24
-    invoke-static {p2}, Ljava/util/Arrays;->sort([I)V    return-void
+    invoke-static {p2}, Ljava/util/Arrays;->sort([I)V
+return-void
 .end method
 
 .method public clear()V
@@ -314,7 +316,8 @@
 
     .line 81
     .line 82
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V    return-void
+    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+return-void
 .end method
 
 .method public keyAt(I)I

@@ -32,7 +32,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 
@@ -96,8 +97,7 @@
     const-string p2, "destination"
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object p1
+return-object p1
 .end method
 
 .method public navigate(Ljava/util/List;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)V
@@ -198,7 +198,8 @@
     const/4 p1, 0x1
 
     .line 9
-    iput-boolean p1, p0, Landroidx/navigation/Navigator;->isAttached:Z    return-void
+    iput-boolean p1, p0, Landroidx/navigation/Navigator;->isAttached:Z
+return-void
 .end method
 
 .method public onLaunchSingleTop(Landroidx/navigation/NavBackStackEntry;)V
@@ -270,7 +271,8 @@
     move-result-object v0
 
     .line 33
-    invoke-virtual {v0, p1}, Landroidx/navigation/NavigatorState;->onLaunchSingleTop(Landroidx/navigation/NavBackStackEntry;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/navigation/NavigatorState;->onLaunchSingleTop(Landroidx/navigation/NavBackStackEntry;)V
+return-void
 .end method
 
 .method public onRestoreState(Landroid/os/Bundle;)V
@@ -279,8 +281,7 @@
     const-string v0, "savedState"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public onSaveState()Landroid/os/Bundle;

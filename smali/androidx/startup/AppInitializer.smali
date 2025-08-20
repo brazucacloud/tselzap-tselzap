@@ -301,8 +301,7 @@
     .line 22
     :goto_3
     invoke-static {}, Landroidx/tracing/Trace;->endSection()V
-
-    return-object v0
+return-object v0
 
     .line 23
     :cond_4
@@ -512,8 +511,7 @@
 
     .line 8
     invoke-static {}, Landroidx/tracing/Trace;->endSection()V
-
-    return-void
+return-void
 
     :catchall_0
     move-exception v0

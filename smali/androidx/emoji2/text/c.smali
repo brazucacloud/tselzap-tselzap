@@ -43,8 +43,7 @@
     iget-object v2, p0, Landroidx/emoji2/text/c;->d:Ljava/util/concurrent/ThreadPoolExecutor;
 
     invoke-static {v0, v1, v2}, Landroidx/emoji2/text/EmojiCompatInitializer$BackgroundDefaultLoader;->a(Landroidx/emoji2/text/EmojiCompatInitializer$BackgroundDefaultLoader;Landroidx/emoji2/text/EmojiCompat$MetadataRepoLoaderCallback;Ljava/util/concurrent/ThreadPoolExecutor;)V
-
-    return-void
+return-void
 .end method
 
 .end class

@@ -69,8 +69,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/zzcu;-><init>(Lcom/google/android/gms/internal/measurement/zzcr;)V
-
-    return-void
+return-void
 .end method
 
 .method private final zza(Ljava/lang/String;Ljava/lang/Object;)V

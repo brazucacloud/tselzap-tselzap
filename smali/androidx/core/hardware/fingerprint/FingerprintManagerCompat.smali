@@ -269,8 +269,7 @@
     .line 2
     :goto_1
     invoke-virtual/range {v0 .. v5}, Landroidx/core/hardware/fingerprint/FingerprintManagerCompat;->authenticate(Landroidx/core/hardware/fingerprint/FingerprintManagerCompat$CryptoObject;ILandroid/os/CancellationSignal;Landroidx/core/hardware/fingerprint/FingerprintManagerCompat$AuthenticationCallback;Landroid/os/Handler;)V
-
-    return-void
+return-void
 .end method
 
 .method public hasEnrolledFingerprints()Z

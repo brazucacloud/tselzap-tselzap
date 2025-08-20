@@ -20,7 +20,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 .method private static clamp(I)I
@@ -211,8 +212,7 @@
     move-result-object p0
 
     invoke-virtual {v0, p0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public static logStack(Ljava/lang/String;I)V
@@ -456,7 +456,8 @@
     move-result-object p0
 
     .line 23
-    invoke-virtual {v0, p0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V    return-void
+    invoke-virtual {v0, p0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+return-void
 .end method
 
 .method public static rgbaTocColor(FFFF)I
@@ -721,7 +722,8 @@
     move-result-object p0
 
     .line 84
-    invoke-virtual {v0, p0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V    return-void
+    invoke-virtual {v0, p0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+return-void
 .end method
 
 

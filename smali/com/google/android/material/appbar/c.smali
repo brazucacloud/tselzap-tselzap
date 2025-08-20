@@ -16,8 +16,7 @@
     const/4 v1, 0x0
 
     invoke-direct {v0, p1, v1}, Lcom/google/android/material/appbar/d;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public final createFromParcel(Landroid/os/Parcel;Ljava/lang/ClassLoader;)Ljava/lang/Object;
@@ -27,8 +26,7 @@
     new-instance v0, Lcom/google/android/material/appbar/d;
 
     invoke-direct {v0, p1, p2}, Lcom/google/android/material/appbar/d;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public final newArray(I)[Ljava/lang/Object;

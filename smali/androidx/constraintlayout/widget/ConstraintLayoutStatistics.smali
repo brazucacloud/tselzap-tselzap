@@ -90,8 +90,7 @@
 
     .line 3
     invoke-virtual {p0, p1}, Landroidx/constraintlayout/widget/ConstraintLayoutStatistics;->attach(Landroidx/constraintlayout/widget/ConstraintLayout;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/constraintlayout/widget/ConstraintLayoutStatistics;)V
@@ -111,8 +110,7 @@
     iget-object p1, p1, Landroidx/constraintlayout/widget/ConstraintLayoutStatistics;->mMetrics:Landroidx/constraintlayout/core/Metrics;
 
     invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/Metrics;->copy(Landroidx/constraintlayout/core/Metrics;)V
-
-    return-void
+return-void
 .end method
 
 .method private compare(Landroidx/constraintlayout/widget/ConstraintLayoutStatistics;I)Ljava/lang/String;
@@ -683,8 +681,7 @@
     new-instance v0, Landroidx/constraintlayout/widget/ConstraintLayoutStatistics;
 
     invoke-direct {v0, p0}, Landroidx/constraintlayout/widget/ConstraintLayoutStatistics;-><init>(Landroidx/constraintlayout/widget/ConstraintLayoutStatistics;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public bridge synthetic clone()Ljava/lang/Object;
@@ -911,8 +908,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/constraintlayout/widget/ConstraintLayoutStatistics;->log(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public logSummary(Ljava/lang/String;Landroidx/constraintlayout/widget/ConstraintLayoutStatistics;)V
@@ -927,8 +923,7 @@
 
     .line 2
     invoke-direct {p0, p1}, Landroidx/constraintlayout/widget/ConstraintLayoutStatistics;->log(Ljava/lang/String;)V
-
-    return-void
+return-void
 
     .line 3
     :cond_0
@@ -1085,6 +1080,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/constraintlayout/core/Metrics;->reset()V    return-void
+    invoke-virtual {v0}, Landroidx/constraintlayout/core/Metrics;->reset()V
+return-void
 .end method
 .end class

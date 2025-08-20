@@ -97,8 +97,7 @@
     move-result-object p1
 
     invoke-direct {p0, v0, p1}, Landroidx/viewpager2/adapter/FragmentStateAdapter;-><init>(Landroidx/fragment/app/FragmentManager;Landroidx/lifecycle/Lifecycle;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/fragment/app/FragmentActivity;)V
@@ -118,8 +117,7 @@
     move-result-object p1
 
     invoke-direct {p0, v0, p1}, Landroidx/viewpager2/adapter/FragmentStateAdapter;-><init>(Landroidx/fragment/app/FragmentManager;Landroidx/lifecycle/Lifecycle;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/fragment/app/FragmentManager;Landroidx/lifecycle/Lifecycle;)V
@@ -677,7 +675,8 @@
 
     .line 51
     .line 52
-    invoke-virtual {v0, p1, p2}, Landroidx/collection/LongSparseArray;->remove(J)V    return-void
+    invoke-virtual {v0, p1, p2}, Landroidx/collection/LongSparseArray;->remove(J)V
+return-void
 
     .line 56
     :cond_3
@@ -696,7 +695,8 @@
     const/4 p1, 0x1
 
     .line 63
-    iput-boolean p1, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter;->mHasStaleFragments:Z    return-void
+    iput-boolean p1, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter;->mHasStaleFragments:Z
+return-void
 
     .line 66
     :cond_4
@@ -820,7 +820,8 @@
 
     .line 125
     .line 126
-    invoke-virtual {p1, v1}, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentEventDispatcher;->dispatchPostEvents(Ljava/util/List;)V    return-void
+    invoke-virtual {p1, v1}, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentEventDispatcher;->dispatchPostEvents(Ljava/util/List;)V
+return-void
 
     .line 130
     :catchall_0
@@ -917,7 +918,8 @@
     const/4 p1, 0x0
 
     .line 9
-    invoke-virtual {v0, v1, p1}, Landroidx/fragment/app/FragmentManager;->registerFragmentLifecycleCallbacks(Landroidx/fragment/app/FragmentManager$FragmentLifecycleCallbacks;Z)V    return-void
+    invoke-virtual {v0, v1, p1}, Landroidx/fragment/app/FragmentManager;->registerFragmentLifecycleCallbacks(Landroidx/fragment/app/FragmentManager$FragmentLifecycleCallbacks;Z)V
+return-void
 .end method
 
 
@@ -1480,8 +1482,7 @@
     .line 13
     :cond_1
     invoke-virtual {p0}, Landroidx/viewpager2/adapter/FragmentStateAdapter;->gcFragments()V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
@@ -1600,8 +1601,7 @@
 
     .line 3
     invoke-virtual {p0}, Landroidx/viewpager2/adapter/FragmentStateAdapter;->gcFragments()V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic onViewRecycled(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
@@ -1952,7 +1952,8 @@
 
     .line 146
     .line 147
-    invoke-virtual {p1, v2}, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentEventDispatcher;->dispatchPostEvents(Ljava/util/List;)V    return-void
+    invoke-virtual {p1, v2}, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentEventDispatcher;->dispatchPostEvents(Ljava/util/List;)V
+return-void
 
     .line 151
     :catchall_0
@@ -2006,7 +2007,8 @@
     .line 172
     .line 173
     .line 174
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V    return-void
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
+return-void
 
     .line 178
     :cond_8
@@ -2033,7 +2035,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentEventDispatcher;->registerCallback(Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentEventDispatcher;->registerCallback(Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback;)V
+return-void
 .end method
 
 .method public final restoreState(Landroid/os/Parcelable;)V
@@ -2622,6 +2625,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentEventDispatcher;->unregisterCallback(Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentEventDispatcher;->unregisterCallback(Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback;)V
+return-void
 .end method
 .end class

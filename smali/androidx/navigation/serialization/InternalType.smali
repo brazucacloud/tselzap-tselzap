@@ -682,7 +682,8 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V    return-void
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+return-void
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Landroidx/navigation/serialization/InternalType;

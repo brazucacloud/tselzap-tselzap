@@ -44,7 +44,8 @@
 
     .line 12
     .line 13
-    invoke-direct {p0}, Landroidx/constraintlayout/core/widgets/analyzer/ChainRun;->build()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/core/widgets/analyzer/ChainRun;->build()V
+return-void
 .end method
 
 .method private build()V
@@ -1151,7 +1152,8 @@
 
     .line 7
     .line 8
-    iput-boolean v1, v0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->resolved:Z    return-void
+    iput-boolean v1, v0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->resolved:Z
+return-void
 .end method
 
 .method public supportsWrapComputation()Z

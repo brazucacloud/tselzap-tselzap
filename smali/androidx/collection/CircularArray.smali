@@ -42,8 +42,7 @@
     const/4 v2, 0x0
 
     invoke-direct {p0, v2, v0, v1}, Landroidx/collection/CircularArray;-><init>(IILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -122,8 +121,7 @@
     .line 9
     :cond_0
     invoke-direct {p0, p1}, Landroidx/collection/CircularArray;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 .method private final doubleCapacity()V
@@ -333,7 +331,8 @@
     move-result v0
 
     .line 5
-    invoke-virtual {p0, v0}, Landroidx/collection/CircularArray;->removeFromStart(I)V    return-void
+    invoke-virtual {p0, v0}, Landroidx/collection/CircularArray;->removeFromStart(I)V
+return-void
 .end method
 
 .method public final get(I)Ljava/lang/Object;
@@ -383,7 +382,8 @@
 
     .line 18
     .line 19
-    invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V    return-object p1
+    invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+return-object p1
 
     .line 23
     :cond_0
@@ -431,7 +431,8 @@
 
     .line 10
     .line 11
-    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V    return-object v0
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+return-object v0
 
     .line 15
     :cond_0
@@ -491,7 +492,8 @@
 
     .line 15
     .line 16
-    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V    return-object v0
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+return-object v0
 
     .line 20
     :cond_0

@@ -64,7 +64,8 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Ljava/util/Collections;->addAll(Ljava/util/Collection;[Ljava/lang/Object;)Z    return-object p0
+    invoke-static {v0, p1}, Ljava/util/Collections;->addAll(Ljava/util/Collection;[Ljava/lang/Object;)Z
+return-object p0
 .end method
 
 .method public apply()V
@@ -77,7 +78,8 @@
     .locals 0
 
     .line 1
-    invoke-super {p0}, Landroidx/constraintlayout/core/state/ConstraintReference;->apply()V    return-void
+    invoke-super {p0}, Landroidx/constraintlayout/core/state/ConstraintReference;->apply()V
+return-void
 .end method
 
 .method public getConstraintWidget()Landroidx/constraintlayout/core/widgets/ConstraintWidget;

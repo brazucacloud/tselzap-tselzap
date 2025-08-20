@@ -720,8 +720,7 @@
     .line 71
     :cond_3
     invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic access$000(Landroidx/transition/Transition;)Landroidx/transition/Transition;
@@ -1135,7 +1134,8 @@
 
     .line 112
     .line 113
-    invoke-virtual {p0, v1, v2, v0}, Landroidx/collection/LongSparseArray;->put(JLjava/lang/Object;)V    return-void
+    invoke-virtual {p0, v1, v2, v0}, Landroidx/collection/LongSparseArray;->put(JLjava/lang/Object;)V
+return-void
 
     .line 117
     :cond_4
@@ -2769,7 +2769,8 @@
 
     .line 66
     :cond_4
-    invoke-direct {p0, v0, v1}, Landroidx/transition/Transition;->addUnmatched(Landroidx/collection/ArrayMap;Landroidx/collection/ArrayMap;)V    return-void
+    invoke-direct {p0, v0, v1}, Landroidx/transition/Transition;->addUnmatched(Landroidx/collection/ArrayMap;Landroidx/collection/ArrayMap;)V
+return-void
 .end method
 
 .method private notifyFromTransition(Landroidx/transition/Transition;Landroidx/transition/Transition$TransitionNotification;Z)V
@@ -3220,7 +3221,8 @@
 
     .line 13
     .line 14
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z    return-object p0
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+return-object p0
 .end method
 
 .method public addTarget(I)Landroidx/transition/Transition;
@@ -3299,8 +3301,7 @@
     iget-object v0, p0, Landroidx/transition/Transition;->mTargetTypes:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    return-object p0
+return-object p0
 .end method
 
 .method public addTarget(Ljava/lang/String;)Landroidx/transition/Transition;
@@ -3329,8 +3330,7 @@
     iget-object v0, p0, Landroidx/transition/Transition;->mTargetNames:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    return-object p0
+return-object p0
 .end method
 
 .method public animate(Landroid/animation/Animator;)V
@@ -3350,7 +3350,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroidx/transition/Transition;->end()V    return-void
+    invoke-virtual {p0}, Landroidx/transition/Transition;->end()V
+return-void
 
     .line 7
     :cond_0
@@ -3469,7 +3470,8 @@
     .line 63
     .line 64
     .line 65
-    invoke-virtual {p1}, Landroid/animation/Animator;->start()V    return-void
+    invoke-virtual {p1}, Landroid/animation/Animator;->start()V
+return-void
 .end method
 
 .method public cancel()V
@@ -3565,7 +3567,8 @@
     const/4 v1, 0x0
 
     .line 41
-    invoke-virtual {p0, v0, v1}, Landroidx/transition/Transition;->notifyListeners(Landroidx/transition/Transition$TransitionNotification;Z)V    return-void
+    invoke-virtual {p0, v0, v1}, Landroidx/transition/Transition;->notifyListeners(Landroidx/transition/Transition$TransitionNotification;Z)V
+return-void
 .end method
 
 .method public abstract captureEndValues(Landroidx/transition/TransitionValues;)V
@@ -4224,7 +4227,8 @@
 
     .line 20
     .line 21
-    invoke-virtual {p1}, Landroidx/collection/LongSparseArray;->clear()V    return-void
+    invoke-virtual {p1}, Landroidx/collection/LongSparseArray;->clear()V
+return-void
 
     .line 25
     :cond_0
@@ -4262,7 +4266,8 @@
 
     .line 42
     .line 43
-    invoke-virtual {p1}, Landroidx/collection/LongSparseArray;->clear()V    return-void
+    invoke-virtual {p1}, Landroidx/collection/LongSparseArray;->clear()V
+return-void
 .end method
 
 .method public clone()Landroidx/transition/Transition;
@@ -6678,7 +6683,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p0, p1, p2}, Landroidx/transition/Transition;->notifyFromTransition(Landroidx/transition/Transition;Landroidx/transition/Transition$TransitionNotification;Z)V    return-void
+    invoke-direct {p0, p0, p1, p2}, Landroidx/transition/Transition;->notifyFromTransition(Landroidx/transition/Transition;Landroidx/transition/Transition$TransitionNotification;Z)V
+return-void
 .end method
 
 .method public pause(Landroid/view/View;)V
@@ -7201,7 +7207,8 @@
 
     .line 192
     .line 193
-    invoke-virtual {p0}, Landroidx/transition/Transition;->runAnimators()V    return-void
+    invoke-virtual {p0}, Landroidx/transition/Transition;->runAnimators()V
+return-void
 
     .line 197
     :cond_7
@@ -7482,7 +7489,8 @@
 
     .line 113
     .line 114
-    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V    return-void
+    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
+return-void
 .end method
 
 .method public removeListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;
@@ -7875,14 +7883,16 @@
     .line 42
     .line 43
     .line 44
-    invoke-virtual {p0}, Landroidx/transition/Transition;->end()V    return-void
+    invoke-virtual {p0}, Landroidx/transition/Transition;->end()V
+return-void
 .end method
 
 .method public setCanRemoveViews(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/transition/Transition;->mCanRemoveViews:Z    return-void
+    iput-boolean p1, p0, Landroidx/transition/Transition;->mCanRemoveViews:Z
+return-void
 .end method
 
 .method public setCurrentPlayTimeMillis(JJ)V

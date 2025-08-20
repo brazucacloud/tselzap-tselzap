@@ -41,8 +41,7 @@
     const/4 v3, 0x0
 
     invoke-direct {p0, v2, v3, v0, v1}, Landroidx/collection/internal/LruHashMap;-><init>(IFILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(IF)V
@@ -82,8 +81,7 @@
     .line 4
     :cond_1
     invoke-direct {p0, p1, p2}, Landroidx/collection/internal/LruHashMap;-><init>(IF)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/collection/internal/LruHashMap;)V
@@ -212,7 +210,8 @@
 
     .line 8
     .line 9
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+return-object v0
 .end method
 
 .method public final isEmpty()Z

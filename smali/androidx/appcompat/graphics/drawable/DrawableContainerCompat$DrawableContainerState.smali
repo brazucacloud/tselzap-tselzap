@@ -759,7 +759,8 @@
 
     .line 17
     .line 18
-    invoke-virtual {p1, v0}, Landroid/graphics/drawable/Drawable;->setCallback(Landroid/graphics/drawable/Drawable$Callback;)V    return-object p1
+    invoke-virtual {p1, v0}, Landroid/graphics/drawable/Drawable;->setCallback(Landroid/graphics/drawable/Drawable$Callback;)V
+return-object p1
 .end method
 
 
@@ -1166,7 +1167,8 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$DrawableContainerState;->mMutated:Z    return-void
+    iput-boolean v0, p0, Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$DrawableContainerState;->mMutated:Z
+return-void
 .end method
 
 .method public computeConstantSize()V
@@ -1904,7 +1906,8 @@
 
     .line 3
     .line 4
-    iput-boolean v0, p0, Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$DrawableContainerState;->mCheckedStateful:Z    return-void
+    iput-boolean v0, p0, Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$DrawableContainerState;->mCheckedStateful:Z
+return-void
 .end method
 
 .method public final isConstantSize()Z
@@ -2041,14 +2044,16 @@
     const/4 v0, 0x1
 
     .line 19
-    iput-boolean v0, p0, Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$DrawableContainerState;->mMutated:Z    return-void
+    iput-boolean v0, p0, Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$DrawableContainerState;->mMutated:Z
+return-void
 .end method
 
 .method public final setConstantSize(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$DrawableContainerState;->mConstantSize:Z    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$DrawableContainerState;->mConstantSize:Z
+return-void
 .end method
 
 .method public final setEnterFadeDuration(I)V
@@ -2150,7 +2155,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$DrawableContainerState;->mVariablePadding:Z    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$DrawableContainerState;->mVariablePadding:Z
+return-void
 .end method
 
 .method public final updateDensity(Landroid/content/res/Resources;)V

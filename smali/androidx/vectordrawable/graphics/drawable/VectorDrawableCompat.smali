@@ -1746,7 +1746,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V    return-void
+    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
+return-void
 
     .line 9
     :cond_0
@@ -2694,8 +2695,7 @@
 
     .line 2
     invoke-virtual {v0, p1, p2, p3}, Landroid/graphics/drawable/Drawable;->inflate(Landroid/content/res/Resources;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 
     :cond_0
     const/4 v0, 0x0
@@ -2716,8 +2716,7 @@
 
     .line 5
     invoke-static {v0, p1, p2, p3, p4}, Landroidx/core/graphics/drawable/DrawableCompat;->inflate(Landroid/graphics/drawable/Drawable;Landroid/content/res/Resources;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroid/content/res/Resources$Theme;)V
-
-    return-void
+return-void
 
     .line 6
     :cond_0
@@ -2787,11 +2786,13 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V    return-void
+    invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
+return-void
 
     .line 9
     :cond_0
-    invoke-super {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V    return-void
+    invoke-super {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
+return-void
 .end method
 
 .method public isAutoMirrored()Z
@@ -3132,18 +3133,21 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1, p2, p3}, Landroid/graphics/drawable/Drawable;->scheduleSelf(Ljava/lang/Runnable;J)V    return-void
+    invoke-virtual {v0, p1, p2, p3}, Landroid/graphics/drawable/Drawable;->scheduleSelf(Ljava/lang/Runnable;J)V
+return-void
 
     .line 9
     :cond_0
-    invoke-super {p0, p1, p2, p3}, Landroid/graphics/drawable/Drawable;->scheduleSelf(Ljava/lang/Runnable;J)V    return-void
+    invoke-super {p0, p1, p2, p3}, Landroid/graphics/drawable/Drawable;->scheduleSelf(Ljava/lang/Runnable;J)V
+return-void
 .end method
 
 .method public setAllowCaching(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat;->mAllowCaching:Z    return-void
+    iput-boolean p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat;->mAllowCaching:Z
+return-void
 .end method
 
 .method public setAlpha(I)V
@@ -3158,7 +3162,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->setAlpha(I)V    return-void
+    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->setAlpha(I)V
+return-void
 
     .line 9
     :cond_0
@@ -3216,7 +3221,8 @@
 
     .line 4
     .line 5
-    invoke-static {v0, p1}, Landroidx/core/graphics/drawable/DrawableCompat;->setAutoMirrored(Landroid/graphics/drawable/Drawable;Z)V    return-void
+    invoke-static {v0, p1}, Landroidx/core/graphics/drawable/DrawableCompat;->setAutoMirrored(Landroid/graphics/drawable/Drawable;Z)V
+return-void
 
     .line 9
     :cond_0
@@ -3224,7 +3230,8 @@
 
     .line 10
     .line 11
-    iput-boolean p1, v0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VectorDrawableCompatState;->mAutoMirrored:Z    return-void
+    iput-boolean p1, v0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VectorDrawableCompatState;->mAutoMirrored:Z
+return-void
 .end method
 
 .method public bridge synthetic setChangingConfigurations(I)V
@@ -3253,8 +3260,7 @@
 
     .line 3
     invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->setColorFilter(Landroid/graphics/ColorFilter;)V
-
-    return-void
+return-void
 
     .line 4
     :cond_0
@@ -3262,8 +3268,7 @@
 
     .line 5
     invoke-virtual {p0}, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat;->invalidateSelf()V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic setFilterBitmap(Z)V
@@ -3313,7 +3318,8 @@
 
     .line 4
     .line 5
-    invoke-static {v0, p1}, Landroidx/core/graphics/drawable/DrawableCompat;->setTint(Landroid/graphics/drawable/Drawable;I)V    return-void
+    invoke-static {v0, p1}, Landroidx/core/graphics/drawable/DrawableCompat;->setTint(Landroid/graphics/drawable/Drawable;I)V
+return-void
 
     .line 9
     :cond_0
@@ -3340,7 +3346,8 @@
 
     .line 4
     .line 5
-    invoke-static {v0, p1}, Landroidx/core/graphics/drawable/DrawableCompat;->setTintList(Landroid/graphics/drawable/Drawable;Landroid/content/res/ColorStateList;)V    return-void
+    invoke-static {v0, p1}, Landroidx/core/graphics/drawable/DrawableCompat;->setTintList(Landroid/graphics/drawable/Drawable;Landroid/content/res/ColorStateList;)V
+return-void
 
     .line 9
     :cond_0
@@ -3401,7 +3408,8 @@
 
     .line 4
     .line 5
-    invoke-static {v0, p1}, Landroidx/core/graphics/drawable/DrawableCompat;->setTintMode(Landroid/graphics/drawable/Drawable;Landroid/graphics/PorterDuff$Mode;)V    return-void
+    invoke-static {v0, p1}, Landroidx/core/graphics/drawable/DrawableCompat;->setTintMode(Landroid/graphics/drawable/Drawable;Landroid/graphics/PorterDuff$Mode;)V
+return-void
 
     .line 9
     :cond_0
@@ -3495,11 +3503,13 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->unscheduleSelf(Ljava/lang/Runnable;)V    return-void
+    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->unscheduleSelf(Ljava/lang/Runnable;)V
+return-void
 
     .line 9
     :cond_0
-    invoke-super {p0, p1}, Landroid/graphics/drawable/Drawable;->unscheduleSelf(Ljava/lang/Runnable;)V    return-void
+    invoke-super {p0, p1}, Landroid/graphics/drawable/Drawable;->unscheduleSelf(Ljava/lang/Runnable;)V
+return-void
 .end method
 
 .method public updateTintFilter(Landroid/graphics/PorterDuffColorFilter;Landroid/content/res/ColorStateList;Landroid/graphics/PorterDuff$Mode;)Landroid/graphics/PorterDuffColorFilter;
@@ -3541,7 +3551,8 @@
 
     .line 16
     .line 17
-    invoke-direct {p2, p1, p3}, Landroid/graphics/PorterDuffColorFilter;-><init>(ILandroid/graphics/PorterDuff$Mode;)V    return-object p2
+    invoke-direct {p2, p1, p3}, Landroid/graphics/PorterDuffColorFilter;-><init>(ILandroid/graphics/PorterDuff$Mode;)V
+return-object p2
 
     .line 21
     :cond_1

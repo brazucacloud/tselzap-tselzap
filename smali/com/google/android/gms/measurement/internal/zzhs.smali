@@ -94,8 +94,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/google/android/gms/measurement/internal/zzhs;-><init>(Lcom/google/android/gms/measurement/internal/zzho;Ljava/lang/String;J)V
-
-    return-void
+return-void
 .end method
 
 .method private final zzb()J
@@ -310,8 +309,7 @@
 
     .line 7
     invoke-direct {p0}, Lcom/google/android/gms/measurement/internal/zzhs;->zzc()V
-
-    return-object v6
+return-object v6
 
     .line 8
     :cond_2
@@ -360,8 +358,7 @@
     move-result-object v2
 
     invoke-direct {v1, v0, v2}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
-
-    return-object v1
+return-object v1
 
     .line 12
     :cond_4
@@ -444,8 +441,7 @@
 
     .line 21
     invoke-interface {p2}, Landroid/content/SharedPreferences$Editor;->apply()V
-
-    return-void
+return-void
 
     .line 22
     :cond_2
@@ -510,8 +506,7 @@
 
     .line 27
     invoke-interface {v1}, Landroid/content/SharedPreferences$Editor;->apply()V
-
-    return-void
+return-void
 .end method
 
 .end class

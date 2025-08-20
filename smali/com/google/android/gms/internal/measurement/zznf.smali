@@ -689,8 +689,7 @@
     new-instance p1, Ljava/lang/String;
 
     invoke-direct {p1, v9, v0, v10}, Ljava/lang/String;-><init>([CII)V
-
-    return-object p1
+return-object p1
 
     .line 43
     :cond_9

@@ -27,7 +27,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/core/view/ViewPropertyAnimatorListenerAdapter;-><init>()V    return-void
+    invoke-direct {p0}, Landroidx/core/view/ViewPropertyAnimatorListenerAdapter;-><init>()V
+return-void
 .end method
 
 
@@ -51,6 +52,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p1}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 .end class

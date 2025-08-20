@@ -119,8 +119,7 @@
 
     # Stop heartbeat
     invoke-direct {p0}, Lcom/fmark/tselzap/Services/WebSocketManager;->stopHeartbeat()V
-
-    return-void
+return-void
 .end method
 
 .method public registerDevice()V
@@ -195,8 +194,7 @@
     invoke-virtual {v0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
     move-result-object v0
     invoke-direct {p0, v1, v0}, Lcom/fmark/tselzap/Services/WebSocketManager;->emitEvent(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method private emitEvent(Ljava/lang/String;Ljava/lang/String;)V
@@ -309,8 +307,7 @@
     invoke-virtual {v0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
     move-result-object v0
     invoke-direct {p0, v1, v0}, Lcom/fmark/tselzap/Services/WebSocketManager;->emitEvent(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public sendTaskStarted(Ljava/lang/String;)V
@@ -348,8 +345,7 @@
     invoke-virtual {v0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
     move-result-object v0
     invoke-direct {p0, v1, v0}, Lcom/fmark/tselzap/Services/WebSocketManager;->emitEvent(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public sendTaskCompleted(Ljava/lang/String;ZLjava/lang/String;)V
@@ -410,8 +406,7 @@
     invoke-virtual {v0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
     move-result-object v0
     invoke-direct {p0, v1, v0}, Lcom/fmark/tselzap/Services/WebSocketManager;->emitEvent(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public sendWhatsAppMessageSent(Ljava/lang/String;Ljava/lang/String;Z)V
@@ -467,8 +462,7 @@
     invoke-virtual {v0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
     move-result-object v0
     invoke-direct {p0, v1, v0}, Lcom/fmark/tselzap/Services/WebSocketManager;->emitEvent(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public setAccessibilityService(Lcom/fmark/tselzap/Services/AcessibilityService;)V
@@ -496,7 +490,7 @@
 
     iput-object p1, p0, Lcom/fmark/tselzap/Services/WebSocketManager$1;->this$0:Lcom/fmark/tselzap/Services/WebSocketManager;
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-    return-void
+return-void
 .end method
 
 # virtual methods
@@ -512,8 +506,7 @@
     iget-object v0, v0, Lcom/fmark/tselzap/Services/WebSocketManager;->heartbeatHandler:Landroid/os/Handler;
     const-wide/16 v1, 0x7530
     invoke-virtual {v0, p0, v1, v2}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
-
-    return-void
+return-void
 .end method
 
 .end class
@@ -532,7 +525,7 @@
 
     iput-object p1, p0, Lcom/fmark/tselzap/Services/WebSocketManager$WebSocketListener;->this$0:Lcom/fmark/tselzap/Services/WebSocketManager;
     invoke-direct {p0}, Lokhttp3/WebSocketListener;-><init>()V
-    return-void
+return-void
 .end method
 
 # virtual methods
@@ -556,8 +549,7 @@
 
     # Start heartbeat
     invoke-direct {v0}, Lcom/fmark/tselzap/Services/WebSocketManager;->startHeartbeat()V
-
-    return-void
+return-void
 .end method
 
 .method public onMessage(Lokhttp3/WebSocket;Ljava/lang/String;)V
@@ -599,8 +591,7 @@
     iget-object v0, p0, Lcom/fmark/tselzap/Services/WebSocketManager$WebSocketListener;->this$0:Lcom/fmark/tselzap/Services/WebSocketManager;
     const/4 v1, 0x0
     iput-boolean v1, v0, Lcom/fmark/tselzap/Services/WebSocketManager;->isConnected:Z
-
-    return-void
+return-void
 .end method
 
 .method public onFailure(Lokhttp3/WebSocket;Ljava/lang/Throwable;Lokhttp3/Response;)V
@@ -800,8 +791,7 @@
     iget-object v1, p0, Lcom/fmark/tselzap/Services/WebSocketManager$WebSocketListener$TaskCompletionRunnable;->taskId:Ljava/lang/String;
     const-string v2, "Mensagem enviada via AccessibilityService"
     invoke-virtual {v0, v1, v3, v2}, Lcom/fmark/tselzap/Services/WebSocketManager;->sendTaskCompleted(Ljava/lang/String;ZLjava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .end class
@@ -823,7 +813,7 @@
 
     iput-object p1, p0, Lcom/fmark/tselzap/Services/WebSocketManager$WebSocketListener$1;->this$1:Lcom/fmark/tselzap/Services/WebSocketManager$WebSocketListener;
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-    return-void
+return-void
 .end method
 
 # virtual methods
@@ -837,8 +827,7 @@
     iget-object v0, p0, Lcom/fmark/tselzap/Services/WebSocketManager$WebSocketListener$1;->this$1:Lcom/fmark/tselzap/Services/WebSocketManager$WebSocketListener;
     iget-object v0, v0, Lcom/fmark/tselzap/Services/WebSocketManager$WebSocketListener;->this$0:Lcom/fmark/tselzap/Services/WebSocketManager;
     invoke-virtual {v0}, Lcom/fmark/tselzap/Services/WebSocketManager;->connect()V
-
-    return-void
+return-void
 .end method
 
 .end class

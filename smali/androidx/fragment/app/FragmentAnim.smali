@@ -17,7 +17,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 .method private static getNextAnim(Landroidx/fragment/app/Fragment;ZZ)I
@@ -195,7 +196,8 @@
 
     .line 49
     .line 50
-    invoke-direct {p0, v1}, Landroidx/fragment/app/FragmentAnim$AnimationOrAnimator;-><init>(Landroid/view/animation/Animation;)V    return-object p0
+    invoke-direct {p0, v1}, Landroidx/fragment/app/FragmentAnim$AnimationOrAnimator;-><init>(Landroid/view/animation/Animation;)V
+return-object p0
 
     .line 54
     :cond_2
@@ -215,7 +217,8 @@
 
     .line 61
     .line 62
-    invoke-direct {p0, p1}, Landroidx/fragment/app/FragmentAnim$AnimationOrAnimator;-><init>(Landroid/animation/Animator;)V    return-object p0
+    invoke-direct {p0, p1}, Landroidx/fragment/app/FragmentAnim$AnimationOrAnimator;-><init>(Landroid/animation/Animator;)V
+return-object p0
 
     .line 66
     :cond_3
@@ -350,7 +353,8 @@
 
     .line 128
     .line 129
-    invoke-direct {p1, p0}, Landroidx/fragment/app/FragmentAnim$AnimationOrAnimator;-><init>(Landroid/view/animation/Animation;)V    return-object p1
+    invoke-direct {p1, p0}, Landroidx/fragment/app/FragmentAnim$AnimationOrAnimator;-><init>(Landroid/view/animation/Animation;)V
+return-object p1
 
     .line 133
     :cond_6

@@ -266,7 +266,8 @@
     .line 23
     .line 24
     :cond_0
-    invoke-virtual {p0}, Landroidx/transition/Scene;->enter()V    return-void
+    invoke-virtual {p0}, Landroidx/transition/Scene;->enter()V
+return-void
 
     .line 28
     :cond_1
@@ -669,7 +670,8 @@
     .line 85
     .line 86
     :cond_4
-    invoke-virtual {p0}, Landroidx/transition/Scene;->enter()V    return-object v2
+    invoke-virtual {p0}, Landroidx/transition/Scene;->enter()V
+return-object v2
 
     .line 90
     :cond_5
@@ -870,7 +872,8 @@
 
     .line 31
     .line 32
-    invoke-virtual {v2, v1}, Ljava/lang/ThreadLocal;->set(Ljava/lang/Object;)V    return-object v0
+    invoke-virtual {v2, v1}, Ljava/lang/ThreadLocal;->set(Ljava/lang/Object;)V
+return-object v0
 .end method
 
 .method private getTransition(Landroidx/transition/Scene;)Landroidx/transition/Transition;
@@ -967,8 +970,7 @@
     sget-object v0, Landroidx/transition/TransitionManager;->sDefaultTransition:Landroidx/transition/Transition;
 
     invoke-static {p0, v0}, Landroidx/transition/TransitionManager;->changeScene(Landroidx/transition/Scene;Landroidx/transition/Transition;)V
-
-    return-void
+return-void
 .end method
 
 .method public static go(Landroidx/transition/Scene;Landroidx/transition/Transition;)V
@@ -984,8 +986,7 @@
 
     .line 2
     invoke-static {p0, p1}, Landroidx/transition/TransitionManager;->changeScene(Landroidx/transition/Scene;Landroidx/transition/Transition;)V
-
-    return-void
+return-void
 .end method
 
 .method private static sceneChangeRunTransition(Landroid/view/ViewGroup;Landroidx/transition/Transition;)V
@@ -1227,6 +1228,7 @@
     move-result-object v0
 
     .line 5
-    invoke-static {p1, v0}, Landroidx/transition/TransitionManager;->changeScene(Landroidx/transition/Scene;Landroidx/transition/Transition;)V    return-void
+    invoke-static {p1, v0}, Landroidx/transition/TransitionManager;->changeScene(Landroidx/transition/Scene;Landroidx/transition/Transition;)V
+return-void
 .end method
 .end class

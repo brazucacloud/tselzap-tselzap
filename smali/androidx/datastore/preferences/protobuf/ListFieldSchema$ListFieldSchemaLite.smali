@@ -22,8 +22,7 @@
 
     .line 1
     invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/ListFieldSchema;-><init>(Landroidx/datastore/preferences/protobuf/ListFieldSchema$1;)V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Landroidx/datastore/preferences/protobuf/ListFieldSchema$1;)V
@@ -31,8 +30,7 @@
 
     .line 2
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/ListFieldSchema$ListFieldSchemaLite;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public static getProtobufList(Ljava/lang/Object;J)Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
@@ -75,7 +73,8 @@
     move-result-object p1
 
     .line 5
-    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;->makeImmutable()V    return-void
+    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;->makeImmutable()V
+return-void
 .end method
 
 .method public mergeListsAt(Ljava/lang/Object;Ljava/lang/Object;J)V
@@ -170,7 +169,8 @@
 
     .line 38
     :cond_2
-    invoke-static {p1, p3, p4, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V    return-void
+    invoke-static {p1, p3, p4, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
+return-void
 .end method
 
 .method public mutableListAt(Ljava/lang/Object;J)Ljava/util/List;

@@ -243,8 +243,7 @@
     new-instance v3, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
 
     invoke-direct {v3, p0, v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;-><init>(Landroidx/emoji2/text/flatbuffer/ReadBuf;III)V
-
-    return-object v3
+return-object v3
 .end method
 
 .method public static getRoot(Ljava/nio/ByteBuffer;)Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;

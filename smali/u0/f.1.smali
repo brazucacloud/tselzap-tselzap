@@ -28,8 +28,7 @@
     iput p1, p0, Lu0/f;->b:I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public static r(Landroid/content/Context;I)Lu0/f;

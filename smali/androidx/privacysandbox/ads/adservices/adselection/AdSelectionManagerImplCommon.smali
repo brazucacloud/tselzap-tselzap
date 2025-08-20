@@ -587,8 +587,7 @@
     new-instance p1, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;
 
     invoke-direct {p1, p0}, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;-><init>(Landroid/adservices/adselection/AdSelectionOutcome;)V
-
-    return-object p1
+return-object p1
 .end method
 
 .method public static synthetic selectAds$suspendImpl(Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionManagerImplCommon;Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionFromOutcomesConfig;Lg1/d;)Ljava/lang/Object;

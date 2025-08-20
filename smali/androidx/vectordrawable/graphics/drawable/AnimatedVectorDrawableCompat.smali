@@ -163,8 +163,7 @@
     check-cast p0, Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat;
 
     invoke-virtual {p0}, Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat;->clearAnimationCallbacks()V
-
-    return-void
+return-void
 .end method
 
 .method public static create(Landroid/content/Context;I)Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat;
@@ -938,8 +937,7 @@
     .line 5
     :cond_1
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic clearColorFilter()V
@@ -961,7 +959,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V    return-void
+    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
+return-void
 
     .line 9
     :cond_0
@@ -1410,8 +1409,7 @@
 
     .line 2
     invoke-static {v0, p1, p2, p3, p4}, Landroidx/core/graphics/drawable/DrawableCompat;->inflate(Landroid/graphics/drawable/Drawable;Landroid/content/res/Resources;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroid/content/res/Resources$Theme;)V
-
-    return-void
+return-void
 
     .line 3
     :cond_0
@@ -1592,8 +1590,7 @@
     iget-object p1, p0, Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat;->mAnimatedVectorState:Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat$AnimatedVectorDrawableCompatState;
 
     invoke-virtual {p1}, Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat$AnimatedVectorDrawableCompatState;->setupAnimatorSet()V
-
-    return-void
+return-void
 .end method
 
 .method public isAutoMirrored()Z
@@ -1763,7 +1760,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->setBounds(Landroid/graphics/Rect;)V    return-void
+    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->setBounds(Landroid/graphics/Rect;)V
+return-void
 
     .line 9
     :cond_0
@@ -1775,7 +1773,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->setBounds(Landroid/graphics/Rect;)V    return-void
+    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->setBounds(Landroid/graphics/Rect;)V
+return-void
 .end method
 
 .method public onLevelChange(I)Z
@@ -1937,8 +1936,7 @@
     iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat;->mAnimatorListener:Landroid/animation/Animator$AnimatorListener;
 
     invoke-virtual {p1, v0}, Landroid/animation/Animator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
-
-    return-void
+return-void
 .end method
 
 .method public setAlpha(I)V
@@ -1953,7 +1951,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->setAlpha(I)V    return-void
+    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->setAlpha(I)V
+return-void
 
     .line 9
     :cond_0
@@ -1980,7 +1979,8 @@
 
     .line 4
     .line 5
-    invoke-static {v0, p1}, Landroidx/core/graphics/drawable/DrawableCompat;->setAutoMirrored(Landroid/graphics/drawable/Drawable;Z)V    return-void
+    invoke-static {v0, p1}, Landroidx/core/graphics/drawable/DrawableCompat;->setAutoMirrored(Landroid/graphics/drawable/Drawable;Z)V
+return-void
 
     .line 9
     :cond_0
@@ -2021,8 +2021,7 @@
 
     .line 3
     invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->setColorFilter(Landroid/graphics/ColorFilter;)V
-
-    return-void
+return-void
 
     .line 4
     :cond_0
@@ -2082,7 +2081,8 @@
 
     .line 4
     .line 5
-    invoke-static {v0, p1}, Landroidx/core/graphics/drawable/DrawableCompat;->setTint(Landroid/graphics/drawable/Drawable;I)V    return-void
+    invoke-static {v0, p1}, Landroidx/core/graphics/drawable/DrawableCompat;->setTint(Landroid/graphics/drawable/Drawable;I)V
+return-void
 
     .line 9
     :cond_0
@@ -2109,7 +2109,8 @@
 
     .line 4
     .line 5
-    invoke-static {v0, p1}, Landroidx/core/graphics/drawable/DrawableCompat;->setTintList(Landroid/graphics/drawable/Drawable;Landroid/content/res/ColorStateList;)V    return-void
+    invoke-static {v0, p1}, Landroidx/core/graphics/drawable/DrawableCompat;->setTintList(Landroid/graphics/drawable/Drawable;Landroid/content/res/ColorStateList;)V
+return-void
 
     .line 9
     :cond_0
@@ -2136,7 +2137,8 @@
 
     .line 4
     .line 5
-    invoke-static {v0, p1}, Landroidx/core/graphics/drawable/DrawableCompat;->setTintMode(Landroid/graphics/drawable/Drawable;Landroid/graphics/PorterDuff$Mode;)V    return-void
+    invoke-static {v0, p1}, Landroidx/core/graphics/drawable/DrawableCompat;->setTintMode(Landroid/graphics/drawable/Drawable;Landroid/graphics/PorterDuff$Mode;)V
+return-void
 
     .line 9
     :cond_0
@@ -2213,7 +2215,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Landroid/graphics/drawable/AnimatedVectorDrawable;->start()V    return-void
+    invoke-virtual {v0}, Landroid/graphics/drawable/AnimatedVectorDrawable;->start()V
+return-void
 
     .line 11
     :cond_0
@@ -2250,7 +2253,8 @@
     .line 27
     .line 28
     .line 29
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V    return-void
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
+return-void
 .end method
 
 .method public stop()V
@@ -2269,7 +2273,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Landroid/graphics/drawable/AnimatedVectorDrawable;->stop()V    return-void
+    invoke-virtual {v0}, Landroid/graphics/drawable/AnimatedVectorDrawable;->stop()V
+return-void
 
     .line 11
     :cond_0
@@ -2281,7 +2286,8 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0}, Landroid/animation/AnimatorSet;->end()V    return-void
+    invoke-virtual {v0}, Landroid/animation/AnimatorSet;->end()V
+return-void
 .end method
 
 .method public unregisterAnimationCallback(Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;)Z

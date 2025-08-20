@@ -36,7 +36,8 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/LinearLayoutManager$AnchorInfo;->reset()V    return-void
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/LinearLayoutManager$AnchorInfo;->reset()V
+return-void
 .end method
 
 
@@ -564,7 +565,8 @@
 
     .line 10
     .line 11
-    iput-boolean v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$AnchorInfo;->mValid:Z    return-void
+    iput-boolean v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$AnchorInfo;->mValid:Z
+return-void
 .end method
 
 .method public toString()Ljava/lang/String;

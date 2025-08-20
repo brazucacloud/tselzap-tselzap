@@ -40,8 +40,7 @@
     const/4 v2, 0x0
 
     invoke-direct {p0, v2, v0, v1}, Landroidx/collection/SparseArrayCompat;-><init>(IILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -95,8 +94,7 @@
     .line 8
     :cond_0
     invoke-direct {p0, p1}, Landroidx/collection/SparseArrayCompat;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 
@@ -134,7 +132,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0, p1, p2}, Landroidx/collection/SparseArrayCompat;->put(ILjava/lang/Object;)V    return-void
+    invoke-virtual {p0, p1, p2}, Landroidx/collection/SparseArrayCompat;->put(ILjava/lang/Object;)V
+return-void
 
     .line 17
     :cond_0
@@ -302,7 +301,8 @@
 
     .line 16
     .line 17
-    iput-boolean v2, p0, Landroidx/collection/SparseArrayCompat;->garbage:Z    return-void
+    iput-boolean v2, p0, Landroidx/collection/SparseArrayCompat;->garbage:Z
+return-void
 .end method
 
 .method public clone()Landroidx/collection/SparseArrayCompat;
@@ -472,7 +472,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/collection/SparseArrayCompat;->remove(I)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/collection/SparseArrayCompat;->remove(I)V
+return-void
 .end method
 
 .method public get(I)Ljava/lang/Object;
@@ -1573,8 +1574,7 @@
 
     .line 1
     invoke-static {p0, p1}, Landroidx/collection/SparseArrayCompatKt;->commonRemove(Landroidx/collection/SparseArrayCompat;I)V
-
-    return-void
+return-void
 .end method
 
 .method public remove(ILjava/lang/Object;)Z

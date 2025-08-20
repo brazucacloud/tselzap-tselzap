@@ -178,8 +178,7 @@
 
     .line 23
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-
-    return-void
+return-void
 .end method
 
 .method private static toTangent(F)F
@@ -628,7 +627,8 @@
     move v6, p4
 
     .line 147
-    invoke-virtual/range {v0 .. v6}, Landroid/graphics/Path;->cubicTo(FFFFFF)V    return-object v0
+    invoke-virtual/range {v0 .. v6}, Landroid/graphics/Path;->cubicTo(FFFFFF)V
+return-object v0
 .end method
 
 .method public setMaximumAngle(F)V

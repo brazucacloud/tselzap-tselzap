@@ -88,8 +88,7 @@
     new-instance v0, Landroid/content/pm/ShortcutInfo$Builder;
 
     invoke-direct {v0, p0, p1}, Landroid/content/pm/ShortcutInfo$Builder;-><init>(Landroid/content/Context;Ljava/lang/String;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic e(Landroid/content/pm/ShortcutInfo$Builder;Ljava/lang/CharSequence;)Landroid/content/pm/ShortcutInfo$Builder;

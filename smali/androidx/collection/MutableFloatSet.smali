@@ -19,8 +19,7 @@
     const/4 v2, 0x0
 
     invoke-direct {p0, v2, v0, v1}, Landroidx/collection/MutableFloatSet;-><init>(IILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -39,8 +38,7 @@
     move-result p1
 
     invoke-direct {p0, p1}, Landroidx/collection/MutableFloatSet;->initializeStorage(I)V
-
-    return-void
+return-void
 
     .line 5
     :cond_0
@@ -65,8 +63,7 @@
     .line 2
     :cond_0
     invoke-direct {p0, p1}, Landroidx/collection/MutableFloatSet;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 .method private final adjustStorage()V
@@ -133,7 +130,8 @@
 
     .line 28
     .line 29
-    invoke-direct {p0}, Landroidx/collection/MutableFloatSet;->removeDeletedMarkers()V    return-void
+    invoke-direct {p0}, Landroidx/collection/MutableFloatSet;->removeDeletedMarkers()V
+return-void
 
     .line 33
     :cond_0
@@ -149,7 +147,8 @@
     move-result v0
 
     .line 39
-    invoke-direct {p0, v0}, Landroidx/collection/MutableFloatSet;->resizeStorage(I)V    return-void
+    invoke-direct {p0, v0}, Landroidx/collection/MutableFloatSet;->resizeStorage(I)V
+return-void
 .end method
 
 .method private final findAbsoluteInsertIndex(F)I
@@ -878,7 +877,8 @@
 
     .line 34
     .line 35
-    invoke-direct {p0}, Landroidx/collection/MutableFloatSet;->initializeGrowth()V    return-void
+    invoke-direct {p0}, Landroidx/collection/MutableFloatSet;->initializeGrowth()V
+return-void
 .end method
 
 .method private final initializeStorage(I)V
@@ -1754,7 +1754,8 @@
     .line 32
     .line 33
     :cond_0
-    invoke-direct {p0}, Landroidx/collection/MutableFloatSet;->initializeGrowth()V    return-void
+    invoke-direct {p0}, Landroidx/collection/MutableFloatSet;->initializeGrowth()V
+return-void
 .end method
 
 .method public final minusAssign(F)V

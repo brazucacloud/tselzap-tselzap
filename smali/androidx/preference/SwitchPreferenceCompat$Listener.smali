@@ -30,7 +30,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 
@@ -67,7 +68,8 @@
 
     .line 14
     .line 15
-    invoke-virtual {p1, p2}, Landroid/widget/CompoundButton;->setChecked(Z)V    return-void
+    invoke-virtual {p1, p2}, Landroid/widget/CompoundButton;->setChecked(Z)V
+return-void
 
     .line 19
     :cond_0
@@ -75,6 +77,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {p1, p2}, Landroidx/preference/TwoStatePreference;->setChecked(Z)V    return-void
+    invoke-virtual {p1, p2}, Landroidx/preference/TwoStatePreference;->setChecked(Z)V
+return-void
 .end method
 .end class

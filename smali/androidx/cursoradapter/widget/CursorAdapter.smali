@@ -112,8 +112,7 @@
 
     .line 2
     invoke-virtual {p0, p1, p2, v0}, Landroidx/cursoradapter/widget/CursorAdapter;->init(Landroid/content/Context;Landroid/database/Cursor;I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/database/Cursor;I)V
@@ -124,8 +123,7 @@
 
     .line 6
     invoke-virtual {p0, p1, p2, p3}, Landroidx/cursoradapter/widget/CursorAdapter;->init(Landroid/content/Context;Landroid/database/Cursor;I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/database/Cursor;Z)V
@@ -146,8 +144,7 @@
     .line 4
     :goto_0
     invoke-virtual {p0, p1, p2, p3}, Landroidx/cursoradapter/widget/CursorAdapter;->init(Landroid/content/Context;Landroid/database/Cursor;I)V
-
-    return-void
+return-void
 .end method
 
 
@@ -665,8 +662,7 @@
     .line 1
     :goto_0
     invoke-virtual {p0, p1, p2, p3}, Landroidx/cursoradapter/widget/CursorAdapter;->init(Landroid/content/Context;Landroid/database/Cursor;I)V
-
-    return-void
+return-void
 .end method
 
 .method public newDropDownView(Landroid/content/Context;Landroid/database/Cursor;Landroid/view/ViewGroup;)Landroid/view/View;
@@ -880,7 +876,8 @@
 
     .line 51
     .line 52
-    invoke-virtual {p0}, Landroid/widget/BaseAdapter;->notifyDataSetChanged()V    return-object v0
+    invoke-virtual {p0}, Landroid/widget/BaseAdapter;->notifyDataSetChanged()V
+return-object v0
 
     .line 56
     :cond_5
@@ -898,6 +895,7 @@
 
     .line 61
     .line 62
-    invoke-virtual {p0}, Landroid/widget/BaseAdapter;->notifyDataSetInvalidated()V    return-object v0
+    invoke-virtual {p0}, Landroid/widget/BaseAdapter;->notifyDataSetInvalidated()V
+return-object v0
 .end method
 .end class

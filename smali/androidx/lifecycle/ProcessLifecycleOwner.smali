@@ -140,8 +140,7 @@
 
     .line 1
     invoke-static {p0}, Landroidx/lifecycle/ProcessLifecycleOwner;->delayedPauseRunnable$lambda$0(Landroidx/lifecycle/ProcessLifecycleOwner;)V
-
-    return-void
+return-void
 .end method
 
 .method public static final synthetic access$getInitializationListener$p(Landroidx/lifecycle/ProcessLifecycleOwner;)Landroidx/lifecycle/ReportFragment$ActivityInitializationListener;
@@ -176,7 +175,8 @@
     .line 7
     .line 8
     .line 9
-    invoke-virtual {p0}, Landroidx/lifecycle/ProcessLifecycleOwner;->dispatchStopIfNeeded$lifecycle_process_release()V    return-void
+    invoke-virtual {p0}, Landroidx/lifecycle/ProcessLifecycleOwner;->dispatchStopIfNeeded$lifecycle_process_release()V
+return-void
 .end method
 
 .method public static final get()Landroidx/lifecycle/LifecycleOwner;
@@ -197,8 +197,7 @@
     sget-object v0, Landroidx/lifecycle/ProcessLifecycleOwner;->Companion:Landroidx/lifecycle/ProcessLifecycleOwner$Companion;
 
     invoke-virtual {v0, p0}, Landroidx/lifecycle/ProcessLifecycleOwner$Companion;->init$lifecycle_process_release(Landroid/content/Context;)V
-
-    return-void
+return-void
 .end method
 
 
@@ -295,7 +294,8 @@
     const/4 v0, 0x0
 
     .line 21
-    iput-boolean v0, p0, Landroidx/lifecycle/ProcessLifecycleOwner;->pauseSent:Z    return-void
+    iput-boolean v0, p0, Landroidx/lifecycle/ProcessLifecycleOwner;->pauseSent:Z
+return-void
 
     .line 24
     :cond_0
@@ -391,7 +391,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroidx/lifecycle/ProcessLifecycleOwner;->dispatchStopIfNeeded$lifecycle_process_release()V    return-void
+    invoke-virtual {p0}, Landroidx/lifecycle/ProcessLifecycleOwner;->dispatchStopIfNeeded$lifecycle_process_release()V
+return-void
 .end method
 
 .method public final attach$lifecycle_process_release(Landroid/content/Context;)V
@@ -463,7 +464,8 @@
     .line 34
     .line 35
     .line 36
-    invoke-virtual {p1, v0}, Landroid/app/Application;->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V    return-void
+    invoke-virtual {p1, v0}, Landroid/app/Application;->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
+return-void
 .end method
 
 .method public final dispatchPauseIfNeeded$lifecycle_process_release()V

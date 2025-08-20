@@ -203,7 +203,8 @@
 
     .line 41
     .line 42
-    invoke-virtual {v0, p1}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
+return-void
 .end method
 
 .method public unregister(Landroidx/recyclerview/widget/RecyclerView;)V

@@ -262,7 +262,8 @@
 
     .line 104
     .line 105
-    iput-boolean p5, p0, Landroidx/navigation/NavArgument;->isDefaultValueUnknown:Z    return-void
+    iput-boolean p5, p0, Landroidx/navigation/NavArgument;->isDefaultValueUnknown:Z
+return-void
 .end method
 
 
@@ -709,7 +710,8 @@
 
     .line 74
     .line 75
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+return-object v0
 .end method
 
 .method public final verify(Ljava/lang/String;Landroid/os/Bundle;)Z

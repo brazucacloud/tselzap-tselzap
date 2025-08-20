@@ -57,7 +57,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, p1}, Landroidx/fragment/app/FragmentHostCallback;-><init>(Landroidx/fragment/app/FragmentActivity;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/fragment/app/FragmentHostCallback;-><init>(Landroidx/fragment/app/FragmentActivity;)V
+return-void
 .end method
 
 
@@ -73,8 +74,7 @@
     iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->addMenuProvider(Landroidx/core/view/MenuProvider;)V
-
-    return-void
+return-void
 .end method
 
 .method public addMenuProvider(Landroidx/core/view/MenuProvider;Landroidx/lifecycle/LifecycleOwner;)V
@@ -92,8 +92,7 @@
     iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     invoke-virtual {v0, p1, p2}, Landroidx/activity/ComponentActivity;->addMenuProvider(Landroidx/core/view/MenuProvider;Landroidx/lifecycle/LifecycleOwner;)V
-
-    return-void
+return-void
 .end method
 
 .method public addMenuProvider(Landroidx/core/view/MenuProvider;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$State;)V
@@ -115,8 +114,7 @@
     iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     invoke-virtual {v0, p1, p2, p3}, Landroidx/activity/ComponentActivity;->addMenuProvider(Landroidx/core/view/MenuProvider;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$State;)V
-
-    return-void
+return-void
 .end method
 
 .method public addOnConfigurationChangedListener(Landroidx/core/util/Consumer;)V
@@ -139,7 +137,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->addOnConfigurationChangedListener(Landroidx/core/util/Consumer;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->addOnConfigurationChangedListener(Landroidx/core/util/Consumer;)V
+return-void
 .end method
 
 .method public addOnMultiWindowModeChangedListener(Landroidx/core/util/Consumer;)V
@@ -162,7 +161,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->addOnMultiWindowModeChangedListener(Landroidx/core/util/Consumer;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->addOnMultiWindowModeChangedListener(Landroidx/core/util/Consumer;)V
+return-void
 .end method
 
 .method public addOnPictureInPictureModeChangedListener(Landroidx/core/util/Consumer;)V
@@ -185,7 +185,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->addOnPictureInPictureModeChangedListener(Landroidx/core/util/Consumer;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->addOnPictureInPictureModeChangedListener(Landroidx/core/util/Consumer;)V
+return-void
 .end method
 
 .method public addOnTrimMemoryListener(Landroidx/core/util/Consumer;)V
@@ -208,7 +209,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->addOnTrimMemoryListener(Landroidx/core/util/Consumer;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->addOnTrimMemoryListener(Landroidx/core/util/Consumer;)V
+return-void
 .end method
 
 .method public getActivityResultRegistry()Landroidx/activity/result/ActivityResultRegistry;
@@ -312,7 +314,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/activity/ComponentActivity;->invalidateMenu()V    return-void
+    invoke-virtual {v0}, Landroidx/activity/ComponentActivity;->invalidateMenu()V
+return-void
 .end method
 
 .method public onAttachFragment(Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;)V
@@ -331,7 +334,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1, p2}, Landroidx/fragment/app/FragmentActivity;->onAttachFragment(Landroidx/fragment/app/Fragment;)V    return-void
+    invoke-virtual {p1, p2}, Landroidx/fragment/app/FragmentActivity;->onAttachFragment(Landroidx/fragment/app/Fragment;)V
+return-void
 .end method
 
 .method public onDump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
@@ -358,7 +362,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3, p4}, Landroidx/fragment/app/FragmentActivity;->dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V    return-void
+    invoke-virtual {v0, p1, p2, p3, p4}, Landroidx/fragment/app/FragmentActivity;->dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
+return-void
 .end method
 
 .method public onFindViewById(I)Landroid/view/View;
@@ -593,7 +598,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->invalidateMenu()V    return-void
+    invoke-virtual {p0}, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->invalidateMenu()V
+return-void
 .end method
 
 .method public removeMenuProvider(Landroidx/core/view/MenuProvider;)V
@@ -608,7 +614,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->removeMenuProvider(Landroidx/core/view/MenuProvider;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->removeMenuProvider(Landroidx/core/view/MenuProvider;)V
+return-void
 .end method
 
 .method public removeOnConfigurationChangedListener(Landroidx/core/util/Consumer;)V
@@ -631,7 +638,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->removeOnConfigurationChangedListener(Landroidx/core/util/Consumer;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->removeOnConfigurationChangedListener(Landroidx/core/util/Consumer;)V
+return-void
 .end method
 
 .method public removeOnMultiWindowModeChangedListener(Landroidx/core/util/Consumer;)V
@@ -654,7 +662,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->removeOnMultiWindowModeChangedListener(Landroidx/core/util/Consumer;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->removeOnMultiWindowModeChangedListener(Landroidx/core/util/Consumer;)V
+return-void
 .end method
 
 .method public removeOnPictureInPictureModeChangedListener(Landroidx/core/util/Consumer;)V
@@ -677,7 +686,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->removeOnPictureInPictureModeChangedListener(Landroidx/core/util/Consumer;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->removeOnPictureInPictureModeChangedListener(Landroidx/core/util/Consumer;)V
+return-void
 .end method
 
 .method public removeOnTrimMemoryListener(Landroidx/core/util/Consumer;)V
@@ -700,6 +710,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->removeOnTrimMemoryListener(Landroidx/core/util/Consumer;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->removeOnTrimMemoryListener(Landroidx/core/util/Consumer;)V
+return-void
 .end method
 .end class

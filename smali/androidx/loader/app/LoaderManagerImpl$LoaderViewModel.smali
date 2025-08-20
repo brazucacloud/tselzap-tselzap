@@ -74,7 +74,8 @@
     const/4 v0, 0x0
 
     .line 12
-    iput-boolean v0, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderViewModel;->mCreatingLoader:Z    return-void
+    iput-boolean v0, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderViewModel;->mCreatingLoader:Z
+return-void
 .end method
 
 .method public static getInstance(Landroidx/lifecycle/ViewModelStore;)Landroidx/loader/app/LoaderManagerImpl$LoaderViewModel;
@@ -290,7 +291,8 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderViewModel;->mCreatingLoader:Z    return-void
+    iput-boolean v0, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderViewModel;->mCreatingLoader:Z
+return-void
 .end method
 
 .method public getLoader(I)Landroidx/loader/app/LoaderManagerImpl$LoaderInfo;
@@ -521,7 +523,8 @@
 
     .line 29
     .line 30
-    invoke-virtual {v0}, Landroidx/collection/SparseArrayCompat;->clear()V    return-void
+    invoke-virtual {v0}, Landroidx/collection/SparseArrayCompat;->clear()V
+return-void
 .end method
 
 .method public putLoader(ILandroidx/loader/app/LoaderManagerImpl$LoaderInfo;)V
@@ -536,7 +539,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/collection/SparseArrayCompat;->put(ILjava/lang/Object;)V    return-void
+    invoke-virtual {v0, p1, p2}, Landroidx/collection/SparseArrayCompat;->put(ILjava/lang/Object;)V
+return-void
 .end method
 
 .method public removeLoader(I)V
@@ -547,7 +551,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/collection/SparseArrayCompat;->remove(I)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/collection/SparseArrayCompat;->remove(I)V
+return-void
 .end method
 
 .method public startCreatingLoader()V
@@ -557,6 +562,7 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderViewModel;->mCreatingLoader:Z    return-void
+    iput-boolean v0, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderViewModel;->mCreatingLoader:Z
+return-void
 .end method
 .end class

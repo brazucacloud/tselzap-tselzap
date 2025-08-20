@@ -107,8 +107,7 @@
     move-result-object p1
 
     iput-object p1, p0, Lcom/fmark/tselzap/Config/BotConfig;->defaultMsg:[Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/util/List;Ljava/util/List;[Z[Z[Z)V
@@ -150,8 +149,7 @@
 
     .line 6
     iput-object p5, p0, Lcom/fmark/tselzap/Config/BotConfig;->defaultMsg:[Z
-
-    return-void
+return-void
 .end method
 
 

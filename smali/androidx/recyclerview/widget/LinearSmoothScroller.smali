@@ -751,7 +751,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;->stop()V    return-void
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;->stop()V
+return-void
 
     .line 11
     :cond_0
@@ -1113,6 +1114,7 @@
     .line 83
     .line 84
     .line 85
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;->stop()V    return-void
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;->stop()V
+return-void
 .end method
 .end class

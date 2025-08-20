@@ -51,8 +51,7 @@
 
     .line 5
     iput-boolean p1, p0, Landroidx/core/app/NotificationManagerCompat$CancelTask;->all:Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/String;ILjava/lang/String;)V
@@ -74,8 +73,7 @@
 
     .line 10
     iput-boolean p1, p0, Landroidx/core/app/NotificationManagerCompat$CancelTask;->all:Z
-
-    return-void
+return-void
 .end method
 
 

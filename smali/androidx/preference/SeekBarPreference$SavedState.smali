@@ -86,8 +86,7 @@
 
     .line 5
     invoke-direct {p0, p1}, Landroidx/preference/Preference$BaseSavedState;-><init>(Landroid/os/Parcelable;)V
-
-    return-void
+return-void
 .end method
 
 
@@ -123,6 +122,7 @@
 
     .line 15
     .line 16
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V    return-void
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
+return-void
 .end method
 .end class

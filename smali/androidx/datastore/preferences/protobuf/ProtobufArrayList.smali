@@ -68,7 +68,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->makeImmutable()V    return-void
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->makeImmutable()V
+return-void
 .end method
 
 .method public constructor <init>()V
@@ -82,8 +83,7 @@
     const/4 v1, 0x0
 
     invoke-direct {p0, v0, v1}, Landroidx/datastore/preferences/protobuf/ProtobufArrayList;-><init>([Ljava/lang/Object;I)V
-
-    return-void
+return-void
 .end method
 
 .method private constructor <init>([Ljava/lang/Object;I)V
@@ -434,8 +434,7 @@
     iget v1, p0, Landroidx/datastore/preferences/protobuf/ProtobufArrayList;->size:I
 
     invoke-direct {v0, p1, v1}, Landroidx/datastore/preferences/protobuf/ProtobufArrayList;-><init>([Ljava/lang/Object;I)V
-
-    return-object v0
+return-object v0
 
     .line 5
     :cond_0

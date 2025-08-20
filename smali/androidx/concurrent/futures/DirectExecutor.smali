@@ -77,7 +77,8 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V    return-void
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+return-void
 .end method
 
 .method public static valueOf(Ljava/lang/String;)Landroidx/concurrent/futures/DirectExecutor;
@@ -124,7 +125,8 @@
     .locals 0
 
     .line 1
-    invoke-interface {p1}, Ljava/lang/Runnable;->run()V    return-void
+    invoke-interface {p1}, Ljava/lang/Runnable;->run()V
+return-void
 .end method
 
 .method public toString()Ljava/lang/String;

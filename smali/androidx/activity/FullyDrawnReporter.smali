@@ -141,8 +141,7 @@
 
     .line 1
     invoke-static {p0}, Landroidx/activity/FullyDrawnReporter;->reportRunnable$lambda$2(Landroidx/activity/FullyDrawnReporter;)V
-
-    return-void
+return-void
 .end method
 
 .method private final postWhenReportersAreDone()V

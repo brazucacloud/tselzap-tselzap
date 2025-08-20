@@ -34,8 +34,7 @@
     move-wide v1, p1
 
     invoke-direct/range {v0 .. v6}, Landroidx/privacysandbox/ads/adservices/adselection/PersistAdSelectionResultRequest;-><init>(JLandroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;[BILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(JLandroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;)V
@@ -55,8 +54,7 @@
     move-object v3, p3
 
     invoke-direct/range {v0 .. v6}, Landroidx/privacysandbox/ads/adservices/adselection/PersistAdSelectionResultRequest;-><init>(JLandroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;[BILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(JLandroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;[B)V
@@ -98,8 +96,7 @@
     .line 7
     :cond_1
     invoke-direct {p0, p1, p2, p3, p4}, Landroidx/privacysandbox/ads/adservices/adselection/PersistAdSelectionResultRequest;-><init>(JLandroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;[B)V
-
-    return-void
+return-void
 .end method
 
 
@@ -202,7 +199,8 @@
 
     .line 36
     .line 37
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+return-object v0
 .end method
 
 .method public equals(Ljava/lang/Object;)Z

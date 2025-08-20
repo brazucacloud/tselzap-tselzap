@@ -49,8 +49,7 @@
     iget-object v3, p0, Landroidx/core/location/m;->e:Landroid/os/Bundle;
 
     invoke-static {v0, v1, v2, v3}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->b(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;Ljava/lang/String;ILandroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 
 .end class

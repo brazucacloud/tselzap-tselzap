@@ -132,8 +132,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/graphics/Outline;->setPath(Landroid/graphics/Path;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic m(Landroid/view/WindowInsetsController;)V
@@ -143,8 +142,7 @@
     const/16 v0, 0x8
 
     invoke-interface {p0, v0, v0}, Landroid/view/WindowInsetsController;->setSystemBarsAppearance(II)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic n()Z

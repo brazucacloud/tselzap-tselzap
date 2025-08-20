@@ -9,8 +9,7 @@
 
     .line 1
     invoke-static {p1, p0}, Landroidx/activity/result/ActivityResultCallerKt;->registerForActivityResult$lambda$0(Lp1/l;Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic b(Ljava/lang/Object;Lp1/l;)V
@@ -18,8 +17,7 @@
 
     .line 1
     invoke-static {p1, p0}, Landroidx/activity/result/ActivityResultCallerKt;->registerForActivityResult$lambda$1(Lp1/l;Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public static final registerForActivityResult(Landroidx/activity/result/ActivityResultCaller;Landroidx/activity/result/contract/ActivityResultContract;Ljava/lang/Object;Landroidx/activity/result/ActivityResultRegistry;Lp1/l;)Landroidx/activity/result/ActivityResultLauncher;
@@ -58,8 +56,7 @@
     new-instance p3, Landroidx/activity/result/ActivityResultCallerLauncher;
 
     invoke-direct {p3, p0, p1, p2}, Landroidx/activity/result/ActivityResultCallerLauncher;-><init>(Landroidx/activity/result/ActivityResultLauncher;Landroidx/activity/result/contract/ActivityResultContract;Ljava/lang/Object;)V
-
-    return-object p3
+return-object p3
 .end method
 
 .method public static final registerForActivityResult(Landroidx/activity/result/ActivityResultCaller;Landroidx/activity/result/contract/ActivityResultContract;Ljava/lang/Object;Lp1/l;)Landroidx/activity/result/ActivityResultLauncher;
@@ -97,8 +94,7 @@
     new-instance p3, Landroidx/activity/result/ActivityResultCallerLauncher;
 
     invoke-direct {p3, p0, p1, p2}, Landroidx/activity/result/ActivityResultCallerLauncher;-><init>(Landroidx/activity/result/ActivityResultLauncher;Landroidx/activity/result/contract/ActivityResultContract;Ljava/lang/Object;)V
-
-    return-object p3
+return-object p3
 .end method
 
 .method private static final registerForActivityResult$lambda$0(Lp1/l;Ljava/lang/Object;)V

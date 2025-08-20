@@ -64,7 +64,8 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Landroid/app/DialogFragment;-><init>()V    return-void
+    invoke-direct {p0}, Landroid/app/DialogFragment;-><init>()V
+return-void
 .end method
 
 .method private requestInputMethod(Landroid/app/Dialog;)V
@@ -95,14 +96,16 @@
 
     .line 10
     .line 11
-    invoke-static {p1}, Landroidx/preference/PreferenceDialogFragment$Api30Impl;->showIme(Landroid/view/Window;)V    return-void
+    invoke-static {p1}, Landroidx/preference/PreferenceDialogFragment$Api30Impl;->showIme(Landroid/view/Window;)V
+return-void
 
     .line 15
     :cond_0
     const/4 v0, 0x5
 
     .line 16
-    invoke-virtual {p1, v0}, Landroid/view/Window;->setSoftInputMode(I)V    return-void
+    invoke-virtual {p1, v0}, Landroid/view/Window;->setSoftInputMode(I)V
+return-void
 .end method
 
 
@@ -944,7 +947,8 @@
 
     .line 12
     :goto_0
-    invoke-virtual {p0, p1}, Landroidx/preference/PreferenceDialogFragment;->onDialogClosed(Z)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/preference/PreferenceDialogFragment;->onDialogClosed(Z)V
+return-void
 .end method
 
 .method public onPrepareDialogBuilder(Landroid/app/AlertDialog$Builder;)V

@@ -153,7 +153,8 @@
     .line 12
     .line 13
     :cond_1
-    invoke-virtual {p0, p1, p2}, Landroidx/graphics/shapes/MeasuredPolygon$MeasuredCubic;->updateProgressRange$graphics_shapes_release(FF)V    return-void
+    invoke-virtual {p0, p1, p2}, Landroidx/graphics/shapes/MeasuredPolygon$MeasuredCubic;->updateProgressRange$graphics_shapes_release(FF)V
+return-void
 .end method
 
 
@@ -348,7 +349,8 @@
 
     .line 87
     .line 88
-    invoke-direct {p1, v2, v1}, Lc1/f;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V    return-object p1
+    invoke-direct {p1, v2, v1}, Lc1/f;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+return-object p1
 
     .line 92
     :cond_2

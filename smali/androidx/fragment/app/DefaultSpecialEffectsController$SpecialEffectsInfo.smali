@@ -69,7 +69,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Landroidx/fragment/app/SpecialEffectsController$Operation;->completeSpecialEffect(Landroidx/core/os/CancellationSignal;)V    return-void
+    invoke-virtual {v0, v1}, Landroidx/fragment/app/SpecialEffectsController$Operation;->completeSpecialEffect(Landroidx/core/os/CancellationSignal;)V
+return-void
 .end method
 
 .method public final getOperation()Landroidx/fragment/app/SpecialEffectsController$Operation;

@@ -51,8 +51,7 @@
     iget-object v3, p0, Lcom/fmark/tselzap/Services/f;->e:Ljava/util/ArrayList;
 
     invoke-static {v0, v1, v2, v3, p1}, Lcom/fmark/tselzap/Services/NotificationReceiver;->d(Lcom/fmark/tselzap/Services/NotificationReceiver;Landroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;Lorg/json/JSONObject;)V
-
-    return-void
+return-void
 .end method
 
 .end class

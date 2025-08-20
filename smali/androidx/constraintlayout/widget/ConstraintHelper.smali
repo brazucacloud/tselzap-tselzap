@@ -72,8 +72,7 @@
 
     .line 7
     invoke-virtual {p0, v0}, Landroidx/constraintlayout/widget/ConstraintHelper;->init(Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -111,8 +110,7 @@
 
     .line 14
     invoke-virtual {p0, p2}, Landroidx/constraintlayout/widget/ConstraintHelper;->init(Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -150,8 +148,7 @@
 
     .line 21
     invoke-virtual {p0, p2}, Landroidx/constraintlayout/widget/ConstraintHelper;->init(Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method private addID(Ljava/lang/String;)V
@@ -227,7 +224,8 @@
     .line 32
     .line 33
     .line 34
-    invoke-direct {p0, v0}, Landroidx/constraintlayout/widget/ConstraintHelper;->addRscID(I)V    return-void
+    invoke-direct {p0, v0}, Landroidx/constraintlayout/widget/ConstraintHelper;->addRscID(I)V
+return-void
 
     .line 38
     :cond_2
@@ -1031,7 +1029,8 @@
     .line 39
     .line 40
     .line 41
-    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
+return-void
 .end method
 
 .method public applyHelperParams()V
@@ -1879,7 +1878,8 @@
     move-result-object p1
 
     .line 22
-    invoke-direct {p0, p1}, Landroidx/constraintlayout/widget/ConstraintHelper;->addID(Ljava/lang/String;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/constraintlayout/widget/ConstraintHelper;->addID(Ljava/lang/String;)V
+return-void
 
     .line 26
     :cond_1
@@ -1949,7 +1949,8 @@
     move-result-object p1
 
     .line 22
-    invoke-direct {p0, p1}, Landroidx/constraintlayout/widget/ConstraintHelper;->addTag(Ljava/lang/String;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/constraintlayout/widget/ConstraintHelper;->addTag(Ljava/lang/String;)V
+return-void
 
     .line 26
     :cond_1
@@ -2228,8 +2229,7 @@
     iget-object p1, p1, Landroidx/constraintlayout/widget/ConstraintLayout;->mLayoutWidget:Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;
 
     invoke-interface {v0, p1}, Landroidx/constraintlayout/core/widgets/Helper;->updateConstraints(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;)V
-
-    return-void
+return-void
 .end method
 
 .method public validateParams()V

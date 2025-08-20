@@ -148,8 +148,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/appcompat/widget/TooltipCompatHandler;->lambda$new$0()V
-
-    return-void
+return-void
 .end method
 
 .method private cancelPendingShow()V
@@ -164,7 +163,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Landroid/view/View;->removeCallbacks(Ljava/lang/Runnable;)Z    return-void
+    invoke-virtual {v0, v1}, Landroid/view/View;->removeCallbacks(Ljava/lang/Runnable;)Z
+return-void
 .end method
 
 .method private forceNextChangeSignificant()V
@@ -174,7 +174,8 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/appcompat/widget/TooltipCompatHandler;->mForceNextChangeSignificant:Z    return-void
+    iput-boolean v0, p0, Landroidx/appcompat/widget/TooltipCompatHandler;->mForceNextChangeSignificant:Z
+return-void
 .end method
 
 .method private synthetic lambda$new$0()V
@@ -184,7 +185,8 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-virtual {p0, v0}, Landroidx/appcompat/widget/TooltipCompatHandler;->show(Z)V    return-void
+    invoke-virtual {p0, v0}, Landroidx/appcompat/widget/TooltipCompatHandler;->show(Z)V
+return-void
 .end method
 
 .method private scheduleShow()V
@@ -539,7 +541,8 @@
 
     .line 43
     .line 44
-    invoke-virtual {v0, v1}, Landroid/view/View;->removeCallbacks(Ljava/lang/Runnable;)Z    return-void
+    invoke-virtual {v0, v1}, Landroid/view/View;->removeCallbacks(Ljava/lang/Runnable;)Z
+return-void
 .end method
 
 .method public onHover(Landroid/view/View;Landroid/view/MotionEvent;)Z
@@ -756,7 +759,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/appcompat/widget/TooltipCompatHandler;->hide()V    return-void
+    invoke-virtual {p0}, Landroidx/appcompat/widget/TooltipCompatHandler;->hide()V
+return-void
 .end method
 
 .method public show(Z)V

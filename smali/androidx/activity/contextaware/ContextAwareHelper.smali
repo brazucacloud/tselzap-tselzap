@@ -72,7 +72,8 @@
 
     .line 14
     .line 15
-    invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z    return-void
+    invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
+return-void
 .end method
 
 .method public final clearAvailableContext()V

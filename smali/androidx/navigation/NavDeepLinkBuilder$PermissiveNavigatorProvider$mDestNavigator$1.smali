@@ -27,7 +27,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/navigation/Navigator;-><init>()V    return-void
+    invoke-direct {p0}, Landroidx/navigation/Navigator;-><init>()V
+return-void
 .end method
 
 
@@ -44,7 +45,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/navigation/NavDestination;-><init>(Ljava/lang/String;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/navigation/NavDestination;-><init>(Ljava/lang/String;)V
+return-object v0
 .end method
 
 .method public navigate(Landroidx/navigation/NavDestination;Landroid/os/Bundle;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)Landroidx/navigation/NavDestination;

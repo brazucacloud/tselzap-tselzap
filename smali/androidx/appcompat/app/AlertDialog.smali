@@ -36,8 +36,7 @@
 
     .line 1
     invoke-direct {p0, p1, v0}, Landroidx/appcompat/app/AlertDialog;-><init>(Landroid/content/Context;I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;I)V
@@ -97,8 +96,7 @@
 
     .line 6
     invoke-virtual {p0, p3}, Landroid/app/Dialog;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)V
-
-    return-void
+return-void
 .end method
 
 .method public static resolveDialogTheme(Landroid/content/Context;I)I
@@ -208,7 +206,8 @@
 
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroidx/appcompat/app/AlertController;->installContent()V    return-void
+    invoke-virtual {p1}, Landroidx/appcompat/app/AlertController;->installContent()V
+return-void
 .end method
 
 .method public onKeyDown(ILandroid/view/KeyEvent;)Z
@@ -300,8 +299,7 @@
     move-object v3, p3
 
     invoke-virtual/range {v0 .. v5}, Landroidx/appcompat/app/AlertController;->setButton(ILjava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;Landroid/os/Message;Landroid/graphics/drawable/Drawable;)V
-
-    return-void
+return-void
 .end method
 
 .method public setButton(ILjava/lang/CharSequence;Landroid/graphics/drawable/Drawable;Landroid/content/DialogInterface$OnClickListener;)V
@@ -321,8 +319,7 @@
     move-object v3, p4
 
     invoke-virtual/range {v0 .. v5}, Landroidx/appcompat/app/AlertController;->setButton(ILjava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;Landroid/os/Message;Landroid/graphics/drawable/Drawable;)V
-
-    return-void
+return-void
 .end method
 
 .method public setButton(ILjava/lang/CharSequence;Landroid/os/Message;)V
@@ -342,8 +339,7 @@
     move-object v4, p3
 
     invoke-virtual/range {v0 .. v5}, Landroidx/appcompat/app/AlertController;->setButton(ILjava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;Landroid/os/Message;Landroid/graphics/drawable/Drawable;)V
-
-    return-void
+return-void
 .end method
 
 .method public setButtonPanelLayoutHint(I)V
@@ -359,7 +355,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/appcompat/app/AlertController;->setButtonPanelLayoutHint(I)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/app/AlertController;->setButtonPanelLayoutHint(I)V
+return-void
 .end method
 
 .method public setCustomTitle(Landroid/view/View;)V
@@ -380,8 +377,7 @@
     iget-object v0, p0, Landroidx/appcompat/app/AlertDialog;->mAlert:Landroidx/appcompat/app/AlertController;
 
     invoke-virtual {v0, p1}, Landroidx/appcompat/app/AlertController;->setIcon(I)V
-
-    return-void
+return-void
 .end method
 
 .method public setIcon(Landroid/graphics/drawable/Drawable;)V
@@ -391,8 +387,7 @@
     iget-object v0, p0, Landroidx/appcompat/app/AlertDialog;->mAlert:Landroidx/appcompat/app/AlertController;
 
     invoke-virtual {v0, p1}, Landroidx/appcompat/app/AlertController;->setIcon(Landroid/graphics/drawable/Drawable;)V
-
-    return-void
+return-void
 .end method
 
 .method public setIconAttribute(I)V
@@ -440,7 +435,8 @@
 
     .line 21
     .line 22
-    invoke-virtual {p1, v0}, Landroidx/appcompat/app/AlertController;->setIcon(I)V    return-void
+    invoke-virtual {p1, v0}, Landroidx/appcompat/app/AlertController;->setIcon(I)V
+return-void
 .end method
 
 .method public setMessage(Ljava/lang/CharSequence;)V
@@ -451,7 +447,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/appcompat/app/AlertController;->setMessage(Ljava/lang/CharSequence;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/app/AlertController;->setMessage(Ljava/lang/CharSequence;)V
+return-void
 .end method
 
 .method public setTitle(Ljava/lang/CharSequence;)V
@@ -467,7 +464,8 @@
 
     .line 5
     .line 6
-    invoke-virtual {v0, p1}, Landroidx/appcompat/app/AlertController;->setTitle(Ljava/lang/CharSequence;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/app/AlertController;->setTitle(Ljava/lang/CharSequence;)V
+return-void
 .end method
 
 .method public setView(Landroid/view/View;)V

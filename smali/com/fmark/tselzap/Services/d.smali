@@ -63,8 +63,7 @@
     move v6, p1
 
     invoke-static/range {v0 .. v6}, Lcom/fmark/tselzap/Services/NotificationReceiver;->e(Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/List;I)V
-
-    return-void
+return-void
 .end method
 
 .end class

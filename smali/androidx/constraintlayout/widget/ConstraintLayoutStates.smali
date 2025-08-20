@@ -108,7 +108,8 @@
 
     .line 27
     .line 28
-    invoke-direct {p0, p1, p3}, Landroidx/constraintlayout/widget/ConstraintLayoutStates;->load(Landroid/content/Context;I)V    return-void
+    invoke-direct {p0, p1, p3}, Landroidx/constraintlayout/widget/ConstraintLayoutStates;->load(Landroid/content/Context;I)V
+return-void
 .end method
 
 .method private load(Landroid/content/Context;I)V
@@ -707,7 +708,8 @@
 
     .line 97
     .line 98
-    invoke-virtual {p1, v1, v0}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V    return-void
+    invoke-virtual {p1, v1, v0}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
+return-void
 
     .line 102
     :cond_4
@@ -1080,7 +1082,8 @@
 
     .line 107
     .line 108
-    invoke-virtual {p2, v1, p1}, Landroidx/constraintlayout/widget/ConstraintsChangedListener;->postLayoutChange(II)V    return-void
+    invoke-virtual {p2, v1, p1}, Landroidx/constraintlayout/widget/ConstraintsChangedListener;->postLayoutChange(II)V
+return-void
 
     .line 112
     :cond_7

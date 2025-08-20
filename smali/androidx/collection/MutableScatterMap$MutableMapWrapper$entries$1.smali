@@ -55,7 +55,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 
@@ -136,7 +137,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/collection/MutableScatterMap;->clear()V    return-void
+    invoke-virtual {v0}, Landroidx/collection/MutableScatterMap;->clear()V
+return-void
 .end method
 
 .method public final contains(Ljava/lang/Object;)Z
@@ -386,7 +388,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/collection/MutableScatterMap$MutableMapWrapper$entries$1$iterator$1;-><init>(Landroidx/collection/MutableScatterMap;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/collection/MutableScatterMap$MutableMapWrapper$entries$1$iterator$1;-><init>(Landroidx/collection/MutableScatterMap;)V
+return-object v0
 .end method
 
 .method public final remove(Ljava/lang/Object;)Z

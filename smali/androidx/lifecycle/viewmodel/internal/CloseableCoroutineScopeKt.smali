@@ -25,7 +25,8 @@
 
     .line 7
     .line 8
-    invoke-direct {v0, p0}, Landroidx/lifecycle/viewmodel/internal/CloseableCoroutineScope;-><init>(Lz1/v;)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/lifecycle/viewmodel/internal/CloseableCoroutineScope;-><init>(Lz1/v;)V
+return-object v0
 .end method
 
 .method public static final createViewModelScope()Landroidx/lifecycle/viewmodel/internal/CloseableCoroutineScope;
@@ -76,6 +77,7 @@
     move-result-object v0
 
     .line 20
-    invoke-direct {v1, v0}, Landroidx/lifecycle/viewmodel/internal/CloseableCoroutineScope;-><init>(Lg1/i;)V    return-object v1
+    invoke-direct {v1, v0}, Landroidx/lifecycle/viewmodel/internal/CloseableCoroutineScope;-><init>(Lg1/i;)V
+return-object v1
 .end method
 .end class

@@ -262,8 +262,7 @@
 
     .line 4
     invoke-direct {p0}, Lcom/google/android/gms/tasks/zzw;->zzi()V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public final addOnCanceledListener(Lcom/google/android/gms/tasks/OnCanceledListener;)Lcom/google/android/gms/tasks/Task;
@@ -328,8 +327,7 @@
 
     .line 7
     invoke-direct {p0}, Lcom/google/android/gms/tasks/zzw;->zzi()V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public final addOnCompleteListener(Landroid/app/Activity;Lcom/google/android/gms/tasks/OnCompleteListener;)Lcom/google/android/gms/tasks/Task;
@@ -377,8 +375,7 @@
 
     .line 4
     invoke-direct {p0}, Lcom/google/android/gms/tasks/zzw;->zzi()V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public final addOnCompleteListener(Lcom/google/android/gms/tasks/OnCompleteListener;)Lcom/google/android/gms/tasks/Task;
@@ -414,8 +411,7 @@
 
     .line 7
     invoke-direct {p0}, Lcom/google/android/gms/tasks/zzw;->zzi()V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public final addOnCompleteListener(Ljava/util/concurrent/Executor;Lcom/google/android/gms/tasks/OnCompleteListener;)Lcom/google/android/gms/tasks/Task;
@@ -453,8 +449,7 @@
 
     .line 9
     invoke-direct {p0}, Lcom/google/android/gms/tasks/zzw;->zzi()V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public final addOnFailureListener(Landroid/app/Activity;Lcom/google/android/gms/tasks/OnFailureListener;)Lcom/google/android/gms/tasks/Task;
@@ -502,8 +497,7 @@
 
     .line 4
     invoke-direct {p0}, Lcom/google/android/gms/tasks/zzw;->zzi()V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public final addOnFailureListener(Lcom/google/android/gms/tasks/OnFailureListener;)Lcom/google/android/gms/tasks/Task;
@@ -568,8 +562,7 @@
 
     .line 7
     invoke-direct {p0}, Lcom/google/android/gms/tasks/zzw;->zzi()V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public final addOnSuccessListener(Landroid/app/Activity;Lcom/google/android/gms/tasks/OnSuccessListener;)Lcom/google/android/gms/tasks/Task;
@@ -617,8 +610,7 @@
 
     .line 4
     invoke-direct {p0}, Lcom/google/android/gms/tasks/zzw;->zzi()V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public final addOnSuccessListener(Lcom/google/android/gms/tasks/OnSuccessListener;)Lcom/google/android/gms/tasks/Task;
@@ -683,8 +675,7 @@
 
     .line 7
     invoke-direct {p0}, Lcom/google/android/gms/tasks/zzw;->zzi()V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public final continueWith(Lcom/google/android/gms/tasks/Continuation;)Lcom/google/android/gms/tasks/Task;
@@ -760,8 +751,7 @@
 
     .line 4
     invoke-direct {p0}, Lcom/google/android/gms/tasks/zzw;->zzi()V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public final continueWithTask(Lcom/google/android/gms/tasks/Continuation;)Lcom/google/android/gms/tasks/Task;
@@ -841,8 +831,7 @@
 
     .line 4
     invoke-direct {p0}, Lcom/google/android/gms/tasks/zzw;->zzi()V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public final getException()Ljava/lang/Exception;
@@ -1254,8 +1243,7 @@
 
     .line 4
     invoke-direct {p0}, Lcom/google/android/gms/tasks/zzw;->zzi()V
-
-    return-object v1
+return-object v1
 .end method
 
 .method public final onSuccessTask(Ljava/util/concurrent/Executor;Lcom/google/android/gms/tasks/SuccessContinuation;)Lcom/google/android/gms/tasks/Task;
@@ -1292,8 +1280,7 @@
 
     .line 7
     invoke-direct {p0}, Lcom/google/android/gms/tasks/zzw;->zzi()V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public final zza(Ljava/lang/Exception;)V

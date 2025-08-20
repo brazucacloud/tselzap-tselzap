@@ -450,15 +450,18 @@
 
     .line 8
     .line 9
-    invoke-direct {p0, p3, p4, p5, p6}, Landroidx/constraintlayout/motion/widget/KeyPosition;->calcCartesianPosition(FFFF)V    return-void
+    invoke-direct {p0, p3, p4, p5, p6}, Landroidx/constraintlayout/motion/widget/KeyPosition;->calcCartesianPosition(FFFF)V
+return-void
 
     .line 13
     :cond_0
-    invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/motion/widget/KeyPosition;->calcScreenPosition(II)V    return-void
+    invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/motion/widget/KeyPosition;->calcScreenPosition(II)V
+return-void
 
     .line 17
     :cond_1
-    invoke-direct {p0, p3, p4, p5, p6}, Landroidx/constraintlayout/motion/widget/KeyPosition;->calcPathPosition(FFFF)V    return-void
+    invoke-direct {p0, p3, p4, p5, p6}, Landroidx/constraintlayout/motion/widget/KeyPosition;->calcPathPosition(FFFF)V
+return-void
 .end method
 
 .method public clone()Landroidx/constraintlayout/motion/widget/Key;
@@ -728,7 +731,8 @@
     move-result-object p1
 
     .line 7
-    invoke-static {p0, p1}, Landroidx/constraintlayout/motion/widget/KeyPosition$Loader;->access$000(Landroidx/constraintlayout/motion/widget/KeyPosition;Landroid/content/res/TypedArray;)V    return-void
+    invoke-static {p0, p1}, Landroidx/constraintlayout/motion/widget/KeyPosition$Loader;->access$000(Landroidx/constraintlayout/motion/widget/KeyPosition;Landroid/content/res/TypedArray;)V
+return-void
 .end method
 
 .method public positionAttributes(Landroid/view/View;Landroid/graphics/RectF;Landroid/graphics/RectF;FF[Ljava/lang/String;[F)V
@@ -781,7 +785,8 @@
     move-object v7, p7
 
     .line 19
-    invoke-virtual/range {v1 .. v7}, Landroidx/constraintlayout/motion/widget/KeyPosition;->positionCartAttributes(Landroid/graphics/RectF;Landroid/graphics/RectF;FF[Ljava/lang/String;[F)V    return-void
+    invoke-virtual/range {v1 .. v7}, Landroidx/constraintlayout/motion/widget/KeyPosition;->positionCartAttributes(Landroid/graphics/RectF;Landroid/graphics/RectF;FF[Ljava/lang/String;[F)V
+return-void
 
     .line 23
     :cond_0
@@ -806,7 +811,8 @@
     move-object v7, p7
 
     .line 30
-    invoke-virtual/range {v1 .. v7}, Landroidx/constraintlayout/motion/widget/KeyPosition;->positionAxisAttributes(Landroid/graphics/RectF;Landroid/graphics/RectF;FF[Ljava/lang/String;[F)V    return-void
+    invoke-virtual/range {v1 .. v7}, Landroidx/constraintlayout/motion/widget/KeyPosition;->positionAxisAttributes(Landroid/graphics/RectF;Landroid/graphics/RectF;FF[Ljava/lang/String;[F)V
+return-void
 
     .line 34
     :cond_1
@@ -835,7 +841,8 @@
     move-object v7, p7
 
     .line 45
-    invoke-virtual/range {v1 .. v7}, Landroidx/constraintlayout/motion/widget/KeyPosition;->positionPathAttributes(Landroid/graphics/RectF;Landroid/graphics/RectF;FF[Ljava/lang/String;[F)V    return-void
+    invoke-virtual/range {v1 .. v7}, Landroidx/constraintlayout/motion/widget/KeyPosition;->positionPathAttributes(Landroid/graphics/RectF;Landroid/graphics/RectF;FF[Ljava/lang/String;[F)V
+return-void
 .end method
 
 .method public positionAxisAttributes(Landroid/graphics/RectF;Landroid/graphics/RectF;FF[Ljava/lang/String;[F)V

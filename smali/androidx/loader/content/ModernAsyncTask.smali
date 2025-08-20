@@ -226,8 +226,7 @@
     sget-object v0, Landroidx/loader/content/ModernAsyncTask;->sDefaultExecutor:Ljava/util/concurrent/Executor;
 
     invoke-interface {v0, p0}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
-
-    return-void
+return-void
 .end method
 
 .method private static getHandler()Landroid/os/Handler;
@@ -499,7 +498,8 @@
 
     .line 59
     .line 60
-    invoke-interface {p1, p2}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V    return-object p0
+    invoke-interface {p1, p2}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+return-object p0
 .end method
 
 .method public finish(Ljava/lang/Object;)V
@@ -624,8 +624,7 @@
 
     .line 2
     invoke-virtual {p0}, Landroidx/loader/content/ModernAsyncTask;->onCancelled()V
-
-    return-void
+return-void
 .end method
 
 .method public onPostExecute(Ljava/lang/Object;)V
@@ -704,7 +703,8 @@
     move-result-object v0
 
     .line 20
-    invoke-virtual {v0}, Landroid/os/Message;->sendToTarget()V    return-object p1
+    invoke-virtual {v0}, Landroid/os/Message;->sendToTarget()V
+return-object p1
 .end method
 
 .method public postResultIfNotInvoked(Ljava/lang/Object;)V

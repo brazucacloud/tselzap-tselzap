@@ -30,7 +30,8 @@
     const/4 p1, 0x0
 
     .line 4
-    invoke-direct {p0, p1}, Landroidx/fragment/app/Fragment$OnPreAttachedListener;-><init>(Landroidx/fragment/app/Fragment$1;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/fragment/app/Fragment$OnPreAttachedListener;-><init>(Landroidx/fragment/app/Fragment$1;)V
+return-void
 .end method
 
 
@@ -101,6 +102,7 @@
 
     .line 30
     .line 31
-    invoke-virtual {v1, v0}, Landroidx/savedstate/SavedStateRegistryController;->performRestore(Landroid/os/Bundle;)V    return-void
+    invoke-virtual {v1, v0}, Landroidx/savedstate/SavedStateRegistryController;->performRestore(Landroid/os/Bundle;)V
+return-void
 .end method
 .end class

@@ -46,8 +46,7 @@
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;->zzd:Z
-
-    return-void
+return-void
 .end method
 
 
@@ -124,8 +123,7 @@
     .end annotation
 
     iput-boolean p1, p0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;->zzd:Z
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setProcessingReason(I)Lcom/google/android/gms/common/api/ComplianceOptions$Builder;

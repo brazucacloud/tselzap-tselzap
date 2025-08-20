@@ -367,8 +367,7 @@
     const/4 p1, 0x6
 
     invoke-direct {p0, p1}, LN/v;-><init>(I)V
-
-    return-object p0
+return-object p0
 
     .line 2
     :pswitch_1
@@ -377,8 +376,7 @@
     const/4 p1, 0x7
 
     invoke-direct {p0, p1}, LN/v;-><init>(I)V
-
-    return-object p0
+return-object p0
 
     .line 3
     :pswitch_2
@@ -387,8 +385,7 @@
     const/16 p1, 0x8
 
     invoke-direct {p0, p1}, LN/v;-><init>(I)V
-
-    return-object p0
+return-object p0
 
     .line 4
     :pswitch_3
@@ -397,8 +394,7 @@
     const/4 p1, 0x5
 
     invoke-direct {p0, p1}, LN/v;-><init>(I)V
-
-    return-object p0
+return-object p0
 
     .line 5
     :pswitch_4
@@ -407,8 +403,7 @@
     const/4 p1, 0x4
 
     invoke-direct {p0, p1}, LN/v;-><init>(I)V
-
-    return-object p0
+return-object p0
 
     .line 6
     :pswitch_5
@@ -417,8 +412,7 @@
     const/4 p1, 0x3
 
     invoke-direct {p0, p1}, LN/v;-><init>(I)V
-
-    return-object p0
+return-object p0
 
     .line 7
     :pswitch_6
@@ -427,8 +421,7 @@
     const/4 p1, 0x2
 
     invoke-direct {p0, p1}, LN/v;-><init>(I)V
-
-    return-object p0
+return-object p0
 
     .line 8
     :pswitch_7
@@ -437,8 +430,7 @@
     const/4 v0, 0x6
 
     invoke-direct {p0, p1, v0}, LL/b;-><init>(Ljava/lang/Object;I)V
-
-    return-object p0
+return-object p0
 
     :pswitch_data_0
     .packed-switch -0x1
@@ -756,7 +748,8 @@
     move-result-object p1
 
     .line 10
-    invoke-virtual {p1, p3, p4}, Landroidx/constraintlayout/core/state/WidgetFrame;->addCustomColor(Ljava/lang/String;I)V    return-void
+    invoke-virtual {p1, p3, p4}, Landroidx/constraintlayout/core/state/WidgetFrame;->addCustomColor(Ljava/lang/String;I)V
+return-void
 .end method
 
 .method public addCustomFloat(ILjava/lang/String;Ljava/lang/String;F)V
@@ -782,7 +775,8 @@
     move-result-object p1
 
     .line 10
-    invoke-virtual {p1, p3, p4}, Landroidx/constraintlayout/core/state/WidgetFrame;->addCustomFloat(Ljava/lang/String;F)V    return-void
+    invoke-virtual {p1, p3, p4}, Landroidx/constraintlayout/core/state/WidgetFrame;->addCustomFloat(Ljava/lang/String;F)V
+return-void
 .end method
 
 .method public addKeyAttribute(Ljava/lang/String;Landroidx/constraintlayout/core/motion/utils/TypedBundle;)V
@@ -798,8 +792,7 @@
     move-result-object p1
 
     invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/state/Transition$WidgetState;->setKeyAttribute(Landroidx/constraintlayout/core/motion/utils/TypedBundle;)V
-
-    return-void
+return-void
 .end method
 
 .method public addKeyAttribute(Ljava/lang/String;Landroidx/constraintlayout/core/motion/utils/TypedBundle;[Landroidx/constraintlayout/core/motion/CustomVariable;)V
@@ -837,7 +830,8 @@
     move-result-object p1
 
     .line 7
-    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/state/Transition$WidgetState;->setKeyCycle(Landroidx/constraintlayout/core/motion/utils/TypedBundle;)V    return-void
+    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/state/Transition$WidgetState;->setKeyCycle(Landroidx/constraintlayout/core/motion/utils/TypedBundle;)V
+return-void
 .end method
 
 .method public addKeyPosition(Ljava/lang/String;IIFF)V
@@ -945,8 +939,7 @@
     move-result-object p1
 
     invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/state/Transition$WidgetState;->setKeyPosition(Landroidx/constraintlayout/core/motion/utils/TypedBundle;)V
-
-    return-void
+return-void
 .end method
 
 .method public calcStagger()V
@@ -1623,7 +1616,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/HashMap;->clear()V    return-void
+    invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
+return-void
 .end method
 
 .method public contains(Ljava/lang/String;)Z
@@ -2564,7 +2558,8 @@
 
     .line 16
     .line 17
-    invoke-virtual {p1, v0, v1}, Landroidx/constraintlayout/core/motion/Motion;->buildPath([FI)V    return-object v0
+    invoke-virtual {p1, v0, v1}, Landroidx/constraintlayout/core/motion/Motion;->buildPath([FI)V
+return-object v0
 .end method
 
 .method public getStart(Landroidx/constraintlayout/core/widgets/ConstraintWidget;)Landroidx/constraintlayout/core/state/WidgetFrame;
@@ -3046,7 +3041,8 @@
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Landroidx/constraintlayout/core/motion/utils/TypedBundle;->clear()V    return-void
+    invoke-virtual {v0}, Landroidx/constraintlayout/core/motion/utils/TypedBundle;->clear()V
+return-void
 .end method
 
 .method public setTouchUp(FJFF)V
@@ -3586,6 +3582,7 @@
 
     .line 103
     :cond_4
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/state/Transition;->calcStagger()V    return-void
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/state/Transition;->calcStagger()V
+return-void
 .end method
 .end class

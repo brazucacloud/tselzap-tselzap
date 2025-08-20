@@ -85,7 +85,8 @@
     const/4 p1, 0x1
 
     .line 29
-    iput-boolean p1, p0, Landroidx/transition/GhostViewHolder;->mAttached:Z    return-void
+    iput-boolean p1, p0, Landroidx/transition/GhostViewHolder;->mAttached:Z
+return-void
 .end method
 
 .method public static getHolder(Landroid/view/ViewGroup;)Landroidx/transition/GhostViewHolder;

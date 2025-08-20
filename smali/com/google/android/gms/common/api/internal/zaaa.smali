@@ -1022,8 +1022,7 @@
     .locals 0
 
     iput-boolean p1, p0, Lcom/google/android/gms/common/api/internal/zaaa;->zal:Z
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic zan(Lcom/google/android/gms/common/api/internal/zaaa;IZ)V

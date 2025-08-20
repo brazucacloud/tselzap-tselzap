@@ -223,8 +223,7 @@
     invoke-interface {p3, v0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     invoke-virtual {p0, v0}, Landroidx/navigation/NavGraphBuilder;->destination(Landroidx/navigation/NavDestinationBuilder;)V
-
-    return-void
+return-void
 .end method
 
 .method public static final navigation(Landroidx/navigation/NavGraphBuilder;Ljava/lang/Object;Ljava/util/Map;Lp1/l;)V
@@ -313,8 +312,7 @@
     invoke-interface {p3, v0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     invoke-virtual {p0, v0}, Landroidx/navigation/NavGraphBuilder;->destination(Landroidx/navigation/NavDestinationBuilder;)V
-
-    return-void
+return-void
 .end method
 
 .method public static final navigation(Landroidx/navigation/NavGraphBuilder;Lv1/c;Ljava/util/Map;Lp1/l;)V

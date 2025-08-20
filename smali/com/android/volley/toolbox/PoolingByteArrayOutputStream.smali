@@ -19,8 +19,7 @@
 
     .line 1
     invoke-direct {p0, p1, v0}, Lcom/android/volley/toolbox/PoolingByteArrayOutputStream;-><init>(Lcom/android/volley/toolbox/ByteArrayPool;I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Lcom/android/volley/toolbox/ByteArrayPool;I)V

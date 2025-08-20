@@ -44,7 +44,8 @@
     const/4 p1, 0x1
 
     .line 9
-    invoke-virtual {p2, p1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V    return-void
+    invoke-virtual {p2, p1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
+return-void
 .end method
 
 

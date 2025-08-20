@@ -1047,8 +1047,7 @@
     move-result p1
 
     iput-boolean p1, p0, Landroidx/constraintlayout/core/motion/CustomAttribute;->mBooleanValue:Z
-
-    return-void
+return-void
 
     .line 12
     :pswitch_2
@@ -1152,8 +1151,7 @@
 
     :goto_0
     iput-boolean v1, p0, Landroidx/constraintlayout/core/motion/CustomAttribute;->mBooleanValue:Z
-
-    return-void
+return-void
 
     .line 4
     :pswitch_2

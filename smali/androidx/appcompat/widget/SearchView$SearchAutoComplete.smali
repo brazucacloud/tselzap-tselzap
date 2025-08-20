@@ -409,7 +409,8 @@
 
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroidx/appcompat/widget/SearchView;->onTextFocusChanged()V    return-void
+    invoke-virtual {p1}, Landroidx/appcompat/widget/SearchView;->onTextFocusChanged()V
+return-void
 .end method
 
 .method public onKeyPreIme(ILandroid/view/KeyEvent;)Z
@@ -733,7 +734,8 @@
     const/4 p1, 0x1
 
     .line 49
-    iput-boolean p1, p0, Landroidx/appcompat/widget/SearchView$SearchAutoComplete;->mHasPendingShowSoftInputRequest:Z    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/widget/SearchView$SearchAutoComplete;->mHasPendingShowSoftInputRequest:Z
+return-void
 .end method
 
 .method public setSearchView(Landroidx/appcompat/widget/SearchView;)V

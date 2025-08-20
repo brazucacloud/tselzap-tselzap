@@ -52,7 +52,8 @@
     const/4 p1, 0x1
 
     .line 8
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V    return-void
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
+return-void
 .end method
 
 
@@ -99,8 +100,7 @@
 
     .line 6
     invoke-virtual {p1, v0, v3}, Lz1/t;->dispatch(Lg1/i;Ljava/lang/Runnable;)V
-
-    return-void
+return-void
 
     .line 7
     :cond_0
@@ -109,7 +109,6 @@
     iget-object v0, p0, Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$2$2;->$observer:Landroidx/lifecycle/WithLifecycleStateKt$suspendWithStateAtLeastUnchecked$2$observer$1;
 
     invoke-virtual {p1, v0}, Landroidx/lifecycle/Lifecycle;->removeObserver(Landroidx/lifecycle/LifecycleObserver;)V
-
-    return-void
+return-void
 .end method
 .end class

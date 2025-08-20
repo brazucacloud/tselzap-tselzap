@@ -69,7 +69,8 @@
     const/4 p1, 0x1
 
     .line 8
-    iput-boolean p1, p0, Landroidx/transition/ChangeBounds$SuppressLayoutListener;->mCanceled:Z    return-void
+    iput-boolean p1, p0, Landroidx/transition/ChangeBounds$SuppressLayoutListener;->mCanceled:Z
+return-void
 .end method
 
 .method public onTransitionEnd(Landroidx/transition/Transition;)V

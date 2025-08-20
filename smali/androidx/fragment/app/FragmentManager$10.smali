@@ -41,7 +41,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 
@@ -58,8 +59,7 @@
     check-cast p1, Ljava/util/Map;
 
     invoke-virtual {p0, p1}, Landroidx/fragment/app/FragmentManager$10;->onActivityResult(Ljava/util/Map;)V
-
-    return-void
+return-void
 .end method
 
 .method public onActivityResult(Ljava/util/Map;)V
@@ -223,7 +223,6 @@
     .line 15
     :cond_3
     invoke-virtual {v4, v1, v0, p1}, Landroidx/fragment/app/Fragment;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V
-
-    return-void
+return-void
 .end method
 .end class

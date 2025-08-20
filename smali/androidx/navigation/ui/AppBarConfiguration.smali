@@ -63,8 +63,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2, p3}, Landroidx/navigation/ui/AppBarConfiguration;-><init>(Ljava/util/Set;Landroidx/customview/widget/Openable;Landroidx/navigation/ui/AppBarConfiguration$OnNavigateUpListener;)V
-
-    return-void
+return-void
 .end method
 
 

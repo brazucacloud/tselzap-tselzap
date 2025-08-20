@@ -69,7 +69,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/activity/result/contract/ActivityResultContract;-><init>()V    return-void
+    invoke-direct {p0}, Landroidx/activity/result/contract/ActivityResultContract;-><init>()V
+return-void
 .end method
 
 .method public static final getGmsPicker$activity_release(Landroid/content/Context;)Landroid/content/pm/ResolveInfo;

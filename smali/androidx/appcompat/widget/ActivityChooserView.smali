@@ -564,7 +564,8 @@
     const/4 v0, 0x1
 
     .line 18
-    iput-boolean v0, p0, Landroidx/appcompat/widget/ActivityChooserView;->mIsAttachedToWindow:Z    return-void
+    iput-boolean v0, p0, Landroidx/appcompat/widget/ActivityChooserView;->mIsAttachedToWindow:Z
+return-void
 .end method
 
 .method public onDetachedFromWindow()V
@@ -653,7 +654,8 @@
     const/4 v0, 0x0
 
     .line 42
-    iput-boolean v0, p0, Landroidx/appcompat/widget/ActivityChooserView;->mIsAttachedToWindow:Z    return-void
+    iput-boolean v0, p0, Landroidx/appcompat/widget/ActivityChooserView;->mIsAttachedToWindow:Z
+return-void
 .end method
 
 .method public onLayout(ZIIII)V

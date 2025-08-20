@@ -373,8 +373,7 @@
     move-result-object p0
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzg;->zza(Ljava/lang/String;ILjava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method public static zza(Ljava/lang/String;ILjava/util/List;)V
@@ -672,8 +671,7 @@
     move-result-object p0
 
     invoke-static {p0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzg;->zzb(Ljava/lang/String;ILjava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method public static zzb(Ljava/lang/String;ILjava/util/List;)V

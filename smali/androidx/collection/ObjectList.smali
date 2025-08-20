@@ -52,8 +52,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/collection/ObjectList;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic getContent$annotations()V
@@ -2316,8 +2315,7 @@
     const-string p2, "StringBuilder().apply(builderAction).toString()"
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object p1
+return-object p1
 .end method
 
 .method public final last()Ljava/lang/Object;

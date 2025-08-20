@@ -58,8 +58,7 @@
 
     .line 1
     invoke-virtual {p0}, Landroid/content/pm/ShortcutManager;->removeAllDynamicShortcuts()V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic g(Landroid/content/pm/ShortcutManager;Ljava/lang/String;)V
@@ -67,8 +66,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutManager;->reportShortcutUsed(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic h(Landroid/content/pm/ShortcutManager;Ljava/util/ArrayList;)V
@@ -76,8 +74,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutManager;->enableShortcuts(Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic i(Landroid/content/pm/ShortcutManager;Ljava/util/List;)V
@@ -85,8 +82,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutManager;->removeDynamicShortcuts(Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic j(Landroid/content/pm/ShortcutManager;Ljava/util/List;Ljava/lang/CharSequence;)V
@@ -94,8 +90,7 @@
 
     .line 1
     invoke-virtual {p0, p1, p2}, Landroid/content/pm/ShortcutManager;->disableShortcuts(Ljava/util/List;Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic k(Landroid/view/inputmethod/EditorInfo;[Ljava/lang/String;)V

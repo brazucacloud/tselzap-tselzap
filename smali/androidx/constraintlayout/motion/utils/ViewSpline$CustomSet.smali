@@ -97,8 +97,7 @@
     iget-object v0, p0, Landroidx/constraintlayout/motion/utils/ViewSpline$CustomSet;->mConstraintAttributeList:Landroid/util/SparseArray;
 
     invoke-virtual {v0, p1, p2}, Landroid/util/SparseArray;->append(ILjava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public setProperty(Landroid/view/View;F)V

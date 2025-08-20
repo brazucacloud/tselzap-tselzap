@@ -48,8 +48,7 @@
     new-instance v0, Lcom/fmark/tselzap/Config/BotConfig;
 
     invoke-direct {v0, p1}, Lcom/fmark/tselzap/Config/BotConfig;-><init>(Landroid/os/Parcel;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public bridge synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;

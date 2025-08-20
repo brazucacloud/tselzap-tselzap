@@ -48,7 +48,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/lifecycle/LiveData;-><init>()V    return-void
+    invoke-direct {p0}, Landroidx/lifecycle/LiveData;-><init>()V
+return-void
 .end method
 
 
@@ -77,6 +78,7 @@
 
     .line 10
     .line 11
-    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V    return-void
+    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+return-void
 .end method
 .end class

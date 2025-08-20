@@ -37,7 +37,8 @@
     const/4 p1, 0x0
 
     .line 7
-    iput-boolean p1, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorListener;->mCanceled:Z    return-void
+    iput-boolean p1, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorListener;->mCanceled:Z
+return-void
 .end method
 
 
@@ -49,7 +50,8 @@
     const/4 p1, 0x1
 
     .line 2
-    iput-boolean p1, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorListener;->mCanceled:Z    return-void
+    iput-boolean p1, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorListener;->mCanceled:Z
+return-void
 .end method
 
 .method public onAnimationEnd(Landroid/animation/Animator;)V
@@ -67,7 +69,8 @@
 
     .line 5
     .line 6
-    iput-boolean v0, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorListener;->mCanceled:Z    return-void
+    iput-boolean v0, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorListener;->mCanceled:Z
+return-void
 
     .line 9
     :cond_0
@@ -118,7 +121,8 @@
 
     .line 31
     .line 32
-    invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/FastScroller;->setState(I)V    return-void
+    invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/FastScroller;->setState(I)V
+return-void
 
     .line 36
     :cond_1
@@ -133,6 +137,7 @@
 
     .line 40
     .line 41
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/FastScroller;->requestRedraw()V    return-void
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/FastScroller;->requestRedraw()V
+return-void
 .end method
 .end class

@@ -118,7 +118,8 @@
     .line 17
     .line 18
     .line 19
-    invoke-direct {v0, p1, v2}, Landroidx/privacysandbox/ads/adservices/appsetid/AppSetId;-><init>(Ljava/lang/String;I)V    return-object v0
+    invoke-direct {v0, p1, v2}, Landroidx/privacysandbox/ads/adservices/appsetid/AppSetId;-><init>(Ljava/lang/String;I)V
+return-object v0
 
     .line 23
     :cond_0
@@ -142,7 +143,8 @@
     const/4 v1, 0x2
 
     .line 33
-    invoke-direct {v0, p1, v1}, Landroidx/privacysandbox/ads/adservices/appsetid/AppSetId;-><init>(Ljava/lang/String;I)V    return-object v0
+    invoke-direct {v0, p1, v1}, Landroidx/privacysandbox/ads/adservices/appsetid/AppSetId;-><init>(Ljava/lang/String;I)V
+return-object v0
 .end method
 
 .method public static getAppSetId$suspendImpl(Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManagerImplCommon;Lg1/d;)Ljava/lang/Object;

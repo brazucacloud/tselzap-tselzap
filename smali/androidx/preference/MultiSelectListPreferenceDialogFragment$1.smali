@@ -30,7 +30,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 
@@ -82,7 +83,8 @@
     or-int/2addr p2, p3
 
     .line 22
-    iput-boolean p2, p1, Landroidx/preference/MultiSelectListPreferenceDialogFragment;->mPreferenceChanged:Z    return-void
+    iput-boolean p2, p1, Landroidx/preference/MultiSelectListPreferenceDialogFragment;->mPreferenceChanged:Z
+return-void
 
     .line 25
     :cond_0
@@ -125,6 +127,7 @@
     or-int/2addr p2, p3
 
     .line 44
-    iput-boolean p2, p1, Landroidx/preference/MultiSelectListPreferenceDialogFragment;->mPreferenceChanged:Z    return-void
+    iput-boolean p2, p1, Landroidx/preference/MultiSelectListPreferenceDialogFragment;->mPreferenceChanged:Z
+return-void
 .end method
 .end class

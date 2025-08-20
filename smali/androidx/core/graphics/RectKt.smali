@@ -156,8 +156,7 @@
 
     .line 11
     invoke-virtual {v0, p0, p0}, Landroid/graphics/Rect;->offset(II)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final minus(Landroid/graphics/Rect;Landroid/graphics/Point;)Landroid/graphics/Rect;
@@ -178,8 +177,7 @@
     neg-int p1, p1
 
     invoke-virtual {v0, p0, p1}, Landroid/graphics/Rect;->offset(II)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final minus(Landroid/graphics/RectF;F)Landroid/graphics/RectF;
@@ -194,8 +192,7 @@
 
     .line 13
     invoke-virtual {v0, p0, p0}, Landroid/graphics/RectF;->offset(FF)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final minus(Landroid/graphics/RectF;Landroid/graphics/PointF;)Landroid/graphics/RectF;
@@ -216,8 +213,7 @@
     neg-float p1, p1
 
     invoke-virtual {v0, p0, p1}, Landroid/graphics/RectF;->offset(FF)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final minus(Landroid/graphics/Rect;Landroid/graphics/Rect;)Landroid/graphics/Region;
@@ -279,8 +275,7 @@
 
     .line 2
     invoke-virtual {v0, p1}, Landroid/graphics/Rect;->union(Landroid/graphics/Rect;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final or(Landroid/graphics/RectF;Landroid/graphics/RectF;)Landroid/graphics/RectF;
@@ -293,8 +288,7 @@
 
     .line 4
     invoke-virtual {v0, p1}, Landroid/graphics/RectF;->union(Landroid/graphics/RectF;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final plus(Landroid/graphics/Rect;I)Landroid/graphics/Rect;
@@ -307,8 +301,7 @@
 
     .line 6
     invoke-virtual {v0, p1, p1}, Landroid/graphics/Rect;->offset(II)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final plus(Landroid/graphics/Rect;Landroid/graphics/Point;)Landroid/graphics/Rect;
@@ -325,8 +318,7 @@
     iget p1, p1, Landroid/graphics/Point;->y:I
 
     invoke-virtual {v0, p0, p1}, Landroid/graphics/Rect;->offset(II)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final plus(Landroid/graphics/Rect;Landroid/graphics/Rect;)Landroid/graphics/Rect;
@@ -339,8 +331,7 @@
 
     .line 2
     invoke-virtual {v0, p1}, Landroid/graphics/Rect;->union(Landroid/graphics/Rect;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final plus(Landroid/graphics/RectF;F)Landroid/graphics/RectF;
@@ -353,8 +344,7 @@
 
     .line 8
     invoke-virtual {v0, p1, p1}, Landroid/graphics/RectF;->offset(FF)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final plus(Landroid/graphics/RectF;Landroid/graphics/PointF;)Landroid/graphics/RectF;
@@ -371,8 +361,7 @@
     iget p1, p1, Landroid/graphics/PointF;->y:F
 
     invoke-virtual {v0, p0, p1}, Landroid/graphics/RectF;->offset(FF)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final plus(Landroid/graphics/RectF;Landroid/graphics/RectF;)Landroid/graphics/RectF;
@@ -385,8 +374,7 @@
 
     .line 4
     invoke-virtual {v0, p1}, Landroid/graphics/RectF;->union(Landroid/graphics/RectF;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final times(Landroid/graphics/Rect;I)Landroid/graphics/Rect;
@@ -552,8 +540,7 @@
     new-instance v0, Landroid/graphics/Region;
 
     invoke-direct {v0, p0}, Landroid/graphics/Region;-><init>(Landroid/graphics/Rect;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final toRegion(Landroid/graphics/RectF;)Landroid/graphics/Region;
@@ -572,8 +559,7 @@
 
     .line 5
     invoke-direct {v0, v1}, Landroid/graphics/Region;-><init>(Landroid/graphics/Rect;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final transform(Landroid/graphics/RectF;Landroid/graphics/Matrix;)Landroid/graphics/RectF;

@@ -26,7 +26,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 
@@ -53,6 +54,7 @@
 
     .line 8
     .line 9
-    iput-boolean v1, p0, Landroidx/appcompat/widget/TintInfo;->mHasTintMode:Z    return-void
+    iput-boolean v1, p0, Landroidx/appcompat/widget/TintInfo;->mHasTintMode:Z
+return-void
 .end method
 .end class

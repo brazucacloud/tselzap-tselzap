@@ -682,8 +682,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Lcom/fmark/tselzap/Services/BackgroundApiService;->lambda$showToast$4(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic e(Lcom/fmark/tselzap/Services/BackgroundApiService;Ljava/lang/String;)V
@@ -691,8 +690,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Lcom/fmark/tselzap/Services/BackgroundApiService;->lambda$makeApiRequest$2(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic f(Lcom/fmark/tselzap/Services/BackgroundApiService;)I
@@ -3359,8 +3357,7 @@
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/fmark/tselzap/Services/BackgroundApiService;->reconnectServer:Z
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic p(Lcom/fmark/tselzap/Services/BackgroundApiService;)V
@@ -3368,8 +3365,7 @@
 
     .line 1
     invoke-direct {p0}, Lcom/fmark/tselzap/Services/BackgroundApiService;->fetchDataFromApi()V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic q(Lcom/fmark/tselzap/Services/BackgroundApiService;Ljava/lang/String;Ljava/lang/Exception;)V
@@ -3377,8 +3373,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2}, Lcom/fmark/tselzap/Services/BackgroundApiService;->logError(Ljava/lang/String;Ljava/lang/Throwable;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic r(Lcom/fmark/tselzap/Services/BackgroundApiService;)V
@@ -3386,8 +3381,7 @@
 
     .line 1
     invoke-direct {p0}, Lcom/fmark/tselzap/Services/BackgroundApiService;->restartService()V
-
-    return-void
+return-void
 .end method
 
 .method private releaseWakeLock()V
@@ -3709,8 +3703,7 @@
     const-string v0, "log"
 
     invoke-direct {p0, v0, p1}, Lcom/fmark/tselzap/Services/BackgroundApiService;->sendMessageBroadcast(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method private saveServiceState()V
@@ -5545,8 +5538,7 @@
     move-object v7, p3
 
     invoke-direct/range {v0 .. v7}, Lcom/fmark/tselzap/Services/BackgroundApiService;->setMessageAutomation(Ljava/lang/String;Ljava/lang/String;ZZZLjava/lang/String;Ljava/util/ArrayList;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic u(Lcom/fmark/tselzap/Services/BackgroundApiService;Ljava/lang/String;)V
@@ -5554,8 +5546,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Lcom/fmark/tselzap/Services/BackgroundApiService;->showToast(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method private updateElapsedTime()V

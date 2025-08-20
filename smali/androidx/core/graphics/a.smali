@@ -269,8 +269,7 @@
 
     .line 1
     invoke-virtual {p0, p1, p2}, Landroid/animation/AnimatorSet;->setCurrentPlayTime(J)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic v(Landroid/app/NotificationChannel;Ljava/lang/String;)V
@@ -278,8 +277,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/app/NotificationChannel;->setDescription(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic w(Landroid/view/accessibility/AccessibilityNodeInfo;Ljava/lang/CharSequence;)V
@@ -287,8 +285,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setHintText(Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic x(Landroid/view/accessibility/AccessibilityNodeInfo;Ljava/util/List;)V
@@ -296,8 +293,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setAvailableExtraData(Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic y(Landroid/view/accessibility/AccessibilityNodeInfo;Z)V
@@ -305,8 +301,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setShowingHintText(Z)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic z(Lcom/fmark/tselzap/Activity/Sender;Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)V

@@ -46,8 +46,7 @@
     move-result-object p1
 
     invoke-direct {p0, v0, v1, p1}, Landroidx/navigation/NavDeepLinkRequest;-><init>(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;)V
@@ -247,6 +246,7 @@
 
     .line 76
     .line 77
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+return-object v0
 .end method
 .end class

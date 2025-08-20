@@ -121,7 +121,8 @@
 
     .line 10
     .line 11
-    invoke-direct {p0, p2}, Landroidx/preference/PreferenceInflater;->init(Landroidx/preference/PreferenceManager;)V    return-void
+    invoke-direct {p0, p2}, Landroidx/preference/PreferenceInflater;->init(Landroidx/preference/PreferenceManager;)V
+return-void
 .end method
 
 .method private createItem(Ljava/lang/String;[Ljava/lang/String;Landroid/util/AttributeSet;)Landroidx/preference/Preference;
@@ -787,7 +788,8 @@
     move-result-object p1
 
     .line 59
-    invoke-virtual {p0, p1}, Landroidx/preference/PreferenceInflater;->setDefaultPackages([Ljava/lang/String;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/preference/PreferenceInflater;->setDefaultPackages([Ljava/lang/String;)V
+return-void
 .end method
 
 .method private onMergeRoots(Landroidx/preference/PreferenceGroup;Landroidx/preference/PreferenceGroup;)Landroidx/preference/PreferenceGroup;
@@ -808,7 +810,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {p2, p1}, Landroidx/preference/Preference;->onAttachedToHierarchy(Landroidx/preference/PreferenceManager;)V    return-object p2
+    invoke-virtual {p2, p1}, Landroidx/preference/Preference;->onAttachedToHierarchy(Landroidx/preference/PreferenceManager;)V
+return-object p2
 
     .line 9
     :cond_0
@@ -1178,8 +1181,7 @@
 
     .line 3
     invoke-interface {p1}, Landroid/content/res/XmlResourceParser;->close()V
-
-    return-object p2
+return-object p2
 
     :catchall_0
     move-exception p2

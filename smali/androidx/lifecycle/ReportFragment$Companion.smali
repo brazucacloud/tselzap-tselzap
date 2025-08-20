@@ -20,8 +20,7 @@
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Lkotlin/jvm/internal/e;)V
@@ -29,8 +28,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/lifecycle/ReportFragment$Companion;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic get$annotations(Landroid/app/Activity;)V
@@ -83,7 +81,8 @@
     move-result-object p1
 
     .line 21
-    invoke-virtual {p1, p2}, Landroidx/lifecycle/LifecycleRegistry;->handleLifecycleEvent(Landroidx/lifecycle/Lifecycle$Event;)V    return-void
+    invoke-virtual {p1, p2}, Landroidx/lifecycle/LifecycleRegistry;->handleLifecycleEvent(Landroidx/lifecycle/Lifecycle$Event;)V
+return-void
 
     .line 25
     :cond_0

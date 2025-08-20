@@ -86,8 +86,7 @@
     iget-object v0, p0, Landroidx/datastore/core/SingleProcessDataStore$UncloseableOutputStream;->fileOutputStream:Ljava/io/FileOutputStream;
 
     invoke-virtual {v0, p1}, Ljava/io/FileOutputStream;->write(I)V
-
-    return-void
+return-void
 .end method
 
 .method public write([B)V
@@ -101,8 +100,7 @@
     iget-object v0, p0, Landroidx/datastore/core/SingleProcessDataStore$UncloseableOutputStream;->fileOutputStream:Ljava/io/FileOutputStream;
 
     invoke-virtual {v0, p1}, Ljava/io/FileOutputStream;->write([B)V
-
-    return-void
+return-void
 .end method
 
 .method public write([BII)V
@@ -116,8 +114,7 @@
     iget-object v0, p0, Landroidx/datastore/core/SingleProcessDataStore$UncloseableOutputStream;->fileOutputStream:Ljava/io/FileOutputStream;
 
     invoke-virtual {v0, p1, p2, p3}, Ljava/io/FileOutputStream;->write([BII)V
-
-    return-void
+return-void
 .end method
 
 .end class

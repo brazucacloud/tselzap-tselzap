@@ -56,8 +56,7 @@
 
     .line 2
     invoke-super {p0, p1, p2}, Ljava/util/AbstractList;->add(ILjava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public add(Ljava/lang/Object;)Z

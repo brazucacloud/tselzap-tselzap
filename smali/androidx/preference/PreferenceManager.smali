@@ -108,7 +108,8 @@
     move-result-object p1
 
     .line 17
-    invoke-virtual {p0, p1}, Landroidx/preference/PreferenceManager;->setSharedPreferencesName(Ljava/lang/String;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/preference/PreferenceManager;->setSharedPreferencesName(Ljava/lang/String;)V
+return-void
 .end method
 
 .method public static getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
@@ -283,8 +284,7 @@
 
     .line 12
     invoke-interface {p0}, Landroid/content/SharedPreferences$Editor;->apply()V
-
-    return-void
+return-void
 .end method
 
 .method private setNoCommit(Z)V
@@ -309,7 +309,8 @@
     .line 9
     .line 10
     :cond_0
-    iput-boolean p1, p0, Landroidx/preference/PreferenceManager;->mNoCommit:Z    return-void
+    iput-boolean p1, p0, Landroidx/preference/PreferenceManager;->mNoCommit:Z
+return-void
 .end method
 
 
@@ -336,7 +337,8 @@
     .line 5
     .line 6
     .line 7
-    invoke-virtual {v0, p0}, Landroidx/preference/Preference;->onAttachedToHierarchy(Landroidx/preference/PreferenceManager;)V    return-object v0
+    invoke-virtual {v0, p0}, Landroidx/preference/Preference;->onAttachedToHierarchy(Landroidx/preference/PreferenceManager;)V
+return-object v0
 .end method
 
 .method public findPreference(Ljava/lang/CharSequence;)Landroidx/preference/Preference;
@@ -721,7 +723,8 @@
     const/4 p2, 0x0
 
     .line 20
-    invoke-direct {p0, p2}, Landroidx/preference/PreferenceManager;->setNoCommit(Z)V    return-object p1
+    invoke-direct {p0, p2}, Landroidx/preference/PreferenceManager;->setNoCommit(Z)V
+return-object p1
 .end method
 
 .method public isStorageDefault()Z

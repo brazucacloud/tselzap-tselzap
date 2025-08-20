@@ -196,8 +196,7 @@
     move-result-object p0
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/measurement/zzjk;-><init>([B)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static zza([B)Lcom/google/android/gms/internal/measurement/zziz;
@@ -235,8 +234,7 @@
     move-result-object p0
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/measurement/zzjk;-><init>([B)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static zzb([B)Lcom/google/android/gms/internal/measurement/zziz;
@@ -246,8 +244,7 @@
     new-instance v0, Lcom/google/android/gms/internal/measurement/zzjk;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/measurement/zzjk;-><init>([B)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static zzc(I)Lcom/google/android/gms/internal/measurement/zzji;

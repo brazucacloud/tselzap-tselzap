@@ -459,7 +459,8 @@
 
     .line 118
     .line 119
-    iput-boolean v2, v0, Landroidx/transition/Visibility$VisibilityInfo;->mVisibilityChange:Z    return-object v0
+    iput-boolean v2, v0, Landroidx/transition/Visibility$VisibilityInfo;->mVisibilityChange:Z
+return-object v0
 
     .line 122
     :cond_3
@@ -471,7 +472,8 @@
 
     .line 125
     .line 126
-    iput-boolean v2, v0, Landroidx/transition/Visibility$VisibilityInfo;->mVisibilityChange:Z    return-object v0
+    iput-boolean v2, v0, Landroidx/transition/Visibility$VisibilityInfo;->mVisibilityChange:Z
+return-object v0
 
     .line 129
     :cond_4
@@ -487,7 +489,8 @@
 
     .line 134
     .line 135
-    iput-boolean v2, v0, Landroidx/transition/Visibility$VisibilityInfo;->mVisibilityChange:Z    return-object v0
+    iput-boolean v2, v0, Landroidx/transition/Visibility$VisibilityInfo;->mVisibilityChange:Z
+return-object v0
 
     .line 138
     :cond_5
@@ -503,7 +506,8 @@
 
     .line 143
     .line 144
-    iput-boolean v2, v0, Landroidx/transition/Visibility$VisibilityInfo;->mVisibilityChange:Z    return-object v0
+    iput-boolean v2, v0, Landroidx/transition/Visibility$VisibilityInfo;->mVisibilityChange:Z
+return-object v0
 
     .line 147
     :cond_6
@@ -523,7 +527,8 @@
 
     .line 154
     .line 155
-    iput-boolean v2, v0, Landroidx/transition/Visibility$VisibilityInfo;->mVisibilityChange:Z    return-object v0
+    iput-boolean v2, v0, Landroidx/transition/Visibility$VisibilityInfo;->mVisibilityChange:Z
+return-object v0
 
     .line 158
     :cond_7

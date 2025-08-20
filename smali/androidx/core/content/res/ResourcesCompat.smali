@@ -1643,8 +1643,7 @@
 
     .line 5
     invoke-virtual {p2, p0, p3}, Landroidx/core/content/res/ResourcesCompat$FontCallback;->callbackFailAsync(ILandroid/os/Handler;)V
-
-    return-void
+return-void
 
     .line 6
     :cond_0
@@ -2142,8 +2141,7 @@
 
     .line 19
     invoke-virtual {v7, p0, v8}, Landroidx/core/content/res/ResourcesCompat$FontCallback;->callbackSuccessAsync(Landroid/graphics/Typeface;Landroid/os/Handler;)V
-
-    return-object p0
+return-object p0
 
     .line 20
     :cond_8

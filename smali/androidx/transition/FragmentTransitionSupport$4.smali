@@ -41,7 +41,8 @@
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 
@@ -67,8 +68,7 @@
     iget-object p1, p0, Landroidx/transition/FragmentTransitionSupport$4;->val$transitionCompleteRunnable:Ljava/lang/Runnable;
 
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
-
-    return-void
+return-void
 .end method
 
 .method public final synthetic onTransitionEnd(Landroidx/transition/Transition;Z)V
@@ -76,8 +76,7 @@
 
     .line 1
     invoke-static {p0, p1, p2}, Landroidx/transition/b;->a(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public onTransitionPause(Landroidx/transition/Transition;)V
@@ -115,7 +114,6 @@
 
     .line 2
     invoke-static {p0, p1, p2}, Landroidx/transition/b;->b(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
-
-    return-void
+return-void
 .end method
 .end class

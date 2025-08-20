@@ -11,8 +11,7 @@
     new-instance v0, Landroid/adservices/signals/UpdateSignalsRequest$Builder;
 
     invoke-direct {v0, p0}, Landroid/adservices/signals/UpdateSignalsRequest$Builder;-><init>(Landroid/net/Uri;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic b(Landroid/adservices/signals/UpdateSignalsRequest$Builder;)Landroid/adservices/signals/UpdateSignalsRequest;
@@ -40,8 +39,7 @@
 
     .line 1
     invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/signals/ProtectedSignalsManager;->updateSignals(Landroid/adservices/signals/UpdateSignalsRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
-
-    return-void
+return-void
 .end method
 
 .end class

@@ -47,8 +47,7 @@
 
     .line 8
     iput-boolean p1, p0, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;->mPendingInvalidate:Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -73,8 +72,7 @@
 
     .line 4
     iput-boolean p1, p0, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;->mPendingInvalidate:Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/view/ViewGroup$LayoutParams;)V
@@ -99,8 +97,7 @@
 
     .line 16
     iput-boolean p1, p0, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;->mPendingInvalidate:Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/view/ViewGroup$MarginLayoutParams;)V
@@ -125,8 +122,7 @@
 
     .line 12
     iput-boolean p1, p0, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;->mPendingInvalidate:Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/recyclerview/widget/RecyclerView$LayoutParams;)V
@@ -151,8 +147,7 @@
 
     .line 20
     iput-boolean p1, p0, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;->mPendingInvalidate:Z
-
-    return-void
+return-void
 .end method
 
 

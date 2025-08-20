@@ -93,8 +93,7 @@
 
     .line 2
     invoke-direct {p0, v0}, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -108,8 +107,7 @@
     const/4 p1, 0x1
 
     invoke-direct {p0, v0, p1}, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;-><init>(Landroidx/emoji2/text/flatbuffer/ReadWriteBuf;I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/emoji2/text/flatbuffer/ReadWriteBuf;I)V
@@ -167,8 +165,7 @@
 
     .line 12
     invoke-direct {p0, p1, v0}, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;-><init>(Ljava/nio/ByteBuffer;I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/nio/ByteBuffer;I)V
@@ -186,8 +183,7 @@
     invoke-direct {v0, p1}, Landroidx/emoji2/text/flatbuffer/ArrayReadWriteBuf;-><init>([B)V
 
     invoke-direct {p0, v0, p2}, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;-><init>(Landroidx/emoji2/text/flatbuffer/ReadWriteBuf;I)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic access$000(Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;)Landroidx/emoji2/text/flatbuffer/ReadWriteBuf;
@@ -2228,8 +2224,7 @@
 
     .line 1
     invoke-virtual {p0, v0, p1}, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;->putBoolean(Ljava/lang/String;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public putFloat(D)V
@@ -2239,8 +2234,7 @@
 
     .line 3
     invoke-virtual {p0, v0, p1, p2}, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;->putFloat(Ljava/lang/String;D)V
-
-    return-void
+return-void
 .end method
 
 .method public putFloat(F)V
@@ -2250,8 +2244,7 @@
 
     .line 1
     invoke-virtual {p0, v0, p1}, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;->putFloat(Ljava/lang/String;F)V
-
-    return-void
+return-void
 .end method
 
 .method public putFloat(Ljava/lang/String;D)V
@@ -2299,8 +2292,7 @@
 
     .line 1
     invoke-virtual {p0, v0, p1}, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;->putInt(Ljava/lang/String;I)V
-
-    return-void
+return-void
 .end method
 
 .method public putInt(J)V
@@ -2310,8 +2302,7 @@
 
     .line 8
     invoke-virtual {p0, v0, p1, p2}, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;->putInt(Ljava/lang/String;J)V
-
-    return-void
+return-void
 .end method
 
 .method public putInt(Ljava/lang/String;I)V
@@ -2321,8 +2312,7 @@
 
     .line 2
     invoke-virtual {p0, p1, v0, v1}, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;->putInt(Ljava/lang/String;J)V
-
-    return-void
+return-void
 .end method
 
 .method public putInt(Ljava/lang/String;J)V
@@ -2553,8 +2543,7 @@
 
     .line 1
     invoke-direct {p0, v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;->putUInt(Ljava/lang/String;J)V
-
-    return-void
+return-void
 .end method
 
 .method public putUInt(J)V
@@ -2564,8 +2553,7 @@
 
     .line 2
     invoke-direct {p0, v0, p1, p2}, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;->putUInt(Ljava/lang/String;J)V
-
-    return-void
+return-void
 .end method
 
 .method public putUInt64(Ljava/math/BigInteger;)V
@@ -2579,8 +2567,7 @@
     move-result-wide v1
 
     invoke-direct {p0, v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;->putUInt64(Ljava/lang/String;J)V
-
-    return-void
+return-void
 .end method
 
 .method public startMap()I

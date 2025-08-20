@@ -131,6 +131,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V    return-void
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
+return-void
 .end method
 .end class

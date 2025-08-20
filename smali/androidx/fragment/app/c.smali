@@ -57,8 +57,7 @@
     iput-object p3, p0, Landroidx/fragment/app/c;->f:Ljava/lang/Object;
 
     iput-boolean p4, p0, Landroidx/fragment/app/c;->c:Z
-
-    return-void
+return-void
 .end method
 
 
@@ -86,8 +85,7 @@
     iget-boolean v3, p0, Landroidx/fragment/app/c;->c:Z
 
     invoke-static {v1, v2, v0, v3}, Lcom/google/firebase/crashlytics/internal/common/SessionReportingCoordinator;->a(Lcom/google/firebase/crashlytics/internal/common/SessionReportingCoordinator;Lcom/google/firebase/crashlytics/internal/model/CrashlyticsReport$Session$Event;Lcom/google/firebase/crashlytics/internal/metadata/EventMetadata;Z)V
-
-    return-void
+return-void
 
     :pswitch_0
     iget-object v0, p0, Landroidx/fragment/app/c;->f:Ljava/lang/Object;
@@ -105,8 +103,7 @@
     iget-boolean v3, p0, Landroidx/fragment/app/c;->c:Z
 
     invoke-static {v1, v2, v3, v0}, Landroidx/fragment/app/DefaultSpecialEffectsController;->d(Landroidx/fragment/app/SpecialEffectsController$Operation;Landroidx/fragment/app/SpecialEffectsController$Operation;ZLandroidx/collection/ArrayMap;)V
-
-    return-void
+return-void
 
     nop
 

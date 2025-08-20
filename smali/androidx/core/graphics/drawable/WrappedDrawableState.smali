@@ -172,8 +172,7 @@
     new-instance v0, Landroidx/core/graphics/drawable/WrappedDrawableApi21;
 
     invoke-direct {v0, p0, p1}, Landroidx/core/graphics/drawable/WrappedDrawableApi21;-><init>(Landroidx/core/graphics/drawable/WrappedDrawableState;Landroid/content/res/Resources;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .end class

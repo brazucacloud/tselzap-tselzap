@@ -246,6 +246,7 @@
 
     .line 84
     :cond_2
-    invoke-static {p2}, Ljava/util/Collections;->sort(Ljava/util/List;)V    return-void
+    invoke-static {p2}, Ljava/util/Collections;->sort(Ljava/util/List;)V
+return-void
 .end method
 .end class

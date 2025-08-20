@@ -8,7 +8,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/parser/CLElement;-><init>([C)V    return-void
+    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/parser/CLElement;-><init>([C)V
+return-void
 .end method
 
 .method public static allocate([C)Landroidx/constraintlayout/core/parser/CLElement;
@@ -19,7 +20,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/constraintlayout/core/parser/CLString;-><init>([C)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/constraintlayout/core/parser/CLString;-><init>([C)V
+return-object v0
 .end method
 
 .method public static from(Ljava/lang/String;)Landroidx/constraintlayout/core/parser/CLString;
@@ -73,7 +75,8 @@
     int-to-long v1, p0
 
     .line 22
-    invoke-virtual {v0, v1, v2}, Landroidx/constraintlayout/core/parser/CLElement;->setEnd(J)V    return-object v0
+    invoke-virtual {v0, v1, v2}, Landroidx/constraintlayout/core/parser/CLElement;->setEnd(J)V
+return-object v0
 .end method
 
 

@@ -29,8 +29,7 @@
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzks;->zza:Lcom/google/android/gms/measurement/internal/zzkf;
 
     invoke-static {v0, p1, p2}, Lcom/google/android/gms/measurement/internal/zzkf;->zza(Lcom/google/android/gms/measurement/internal/zzkf;Landroid/content/SharedPreferences;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .end class

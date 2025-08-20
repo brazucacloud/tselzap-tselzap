@@ -716,7 +716,8 @@
     move-result v1
 
     .line 114
-    invoke-virtual {v0, v1, p1}, Landroidx/collection/SparseArrayCompat;->put(ILjava/lang/Object;)V    return-void
+    invoke-virtual {v0, v1, p1}, Landroidx/collection/SparseArrayCompat;->put(ILjava/lang/Object;)V
+return-void
 
     .line 118
     :cond_6
@@ -1704,7 +1705,8 @@
 
     .line 18
     .line 19
-    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V    return-object v0
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+return-object v0
 .end method
 
 .method public final getStartDestination()I
@@ -1840,7 +1842,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/navigation/NavGraph$iterator$1;-><init>(Landroidx/navigation/NavGraph;)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/navigation/NavGraph$iterator$1;-><init>(Landroidx/navigation/NavGraph;)V
+return-object v0
 .end method
 
 .method public matchDeepLink(Landroidx/navigation/NavDeepLinkRequest;)Landroidx/navigation/NavDestination$DeepLinkMatch;
@@ -2457,7 +2460,8 @@
 
     .line 48
     .line 49
-    invoke-virtual {p2}, Landroid/content/res/TypedArray;->recycle()V    return-void
+    invoke-virtual {p2}, Landroid/content/res/TypedArray;->recycle()V
+return-void
 .end method
 
 .method public final remove(Landroidx/navigation/NavDestination;)V
@@ -2557,8 +2561,7 @@
 
     .line 2
     invoke-direct {p0, p1}, Landroidx/navigation/NavGraph;->setStartDestinationId(I)V
-
-    return-void
+return-void
 .end method
 
 .method public final setStartDestination(LJ1/b;Lp1/l;)V
@@ -2684,8 +2687,7 @@
     invoke-direct {v1, p1}, Landroidx/navigation/NavGraph$setStartDestination$2;-><init>(Ljava/lang/Object;)V
 
     invoke-virtual {p0, v0, v1}, Landroidx/navigation/NavGraph;->setStartDestination(LJ1/b;Lp1/l;)V
-
-    return-void
+return-void
 .end method
 
 .method public final setStartDestination(Ljava/lang/String;)V
@@ -2697,8 +2699,7 @@
 
     .line 3
     invoke-direct {p0, p1}, Landroidx/navigation/NavGraph;->setStartDestinationRoute(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -2898,6 +2899,7 @@
 
     .line 98
     .line 99
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+return-object v0
 .end method
 .end class

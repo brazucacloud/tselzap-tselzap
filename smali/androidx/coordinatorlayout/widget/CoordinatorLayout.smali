@@ -273,8 +273,7 @@
 
     .line 1
     invoke-direct {p0, p1, v0}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -284,8 +283,7 @@
     sget v0, Landroidx/coordinatorlayout/R$attr;->coordinatorLayoutStyle:I
 
     invoke-direct {p0, p1, p2, v0}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -809,7 +807,8 @@
     add-int/2addr p4, p1
 
     .line 63
-    invoke-virtual {p2, v0, p1, p3, p4}, Landroid/graphics/Rect;->set(IIII)V    return-void
+    invoke-virtual {p2, v0, p1, p3, p4}, Landroid/graphics/Rect;->set(IIII)V
+return-void
 .end method
 
 .method private dispatchApplyWindowInsetsToBehaviors(Landroidx/core/view/WindowInsetsCompat;)Landroidx/core/view/WindowInsetsCompat;
@@ -1235,7 +1234,8 @@
     add-int/2addr p6, p1
 
     .line 93
-    invoke-virtual {p3, v1, p1, p5, p6}, Landroid/graphics/Rect;->set(IIII)V    return-void
+    invoke-virtual {p3, v1, p1, p5, p6}, Landroid/graphics/Rect;->set(IIII)V
+return-void
 .end method
 
 .method private getFullContentHeight()I
@@ -1867,7 +1867,8 @@
     .line 146
     .line 147
     .line 148
-    invoke-static {v5}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->releaseTempRect(Landroid/graphics/Rect;)V    return-void
+    invoke-static {v5}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->releaseTempRect(Landroid/graphics/Rect;)V
+return-void
 .end method
 
 .method private layoutChildWithAnchor(Landroid/view/View;Landroid/view/View;I)V
@@ -1929,7 +1930,8 @@
     .line 27
     .line 28
     .line 29
-    invoke-static {v1}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->releaseTempRect(Landroid/graphics/Rect;)V    return-void
+    invoke-static {v1}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->releaseTempRect(Landroid/graphics/Rect;)V
+return-void
 
     .line 33
     :catchall_0
@@ -2383,7 +2385,8 @@
     const/4 v0, 0x3
 
     .line 6
-    invoke-virtual {p1, v0}, Landroid/view/MotionEvent;->setAction(I)V    return-object p1
+    invoke-virtual {p1, v0}, Landroid/view/MotionEvent;->setAction(I)V
+return-object p1
 .end method
 
 .method private offsetChildByInset(Landroid/view/View;Landroid/graphics/Rect;I)V
@@ -2633,7 +2636,8 @@
 
     .line 122
     .line 123
-    invoke-static {v2}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->releaseTempRect(Landroid/graphics/Rect;)V    return-void
+    invoke-static {v2}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->releaseTempRect(Landroid/graphics/Rect;)V
+return-void
 
     .line 127
     :cond_4
@@ -3785,7 +3789,8 @@
 
     .line 87
     .line 88
-    invoke-static {v0}, Ljava/util/Collections;->reverse(Ljava/util/List;)V    return-void
+    invoke-static {v0}, Ljava/util/Collections;->reverse(Ljava/util/List;)V
+return-void
 .end method
 
 .method private static releaseTempRect(Landroid/graphics/Rect;)V
@@ -3946,7 +3951,8 @@
 
     .line 65
     :cond_2
-    iput-boolean v1, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->mDisallowInterceptReset:Z    return-void
+    iput-boolean v1, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->mDisallowInterceptReset:Z
+return-void
 .end method
 
 .method private static resolveAnchoredChildGravity(I)I
@@ -4193,7 +4199,8 @@
     const/4 v0, 0x1
 
     .line 26
-    iput-boolean v0, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->mNeedsPreDrawListener:Z    return-void
+    iput-boolean v0, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->mNeedsPreDrawListener:Z
+return-void
 .end method
 
 .method public checkLayoutParams(Landroid/view/ViewGroup$LayoutParams;)Z
@@ -5327,7 +5334,8 @@
 
     .line 29
     .line 30
-    invoke-virtual {p0}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->addPreDrawListener()V    return-void
+    invoke-virtual {p0}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->addPreDrawListener()V
+return-void
 
     .line 34
     :cond_2
@@ -5360,8 +5368,7 @@
     const/4 v1, -0x2
 
     invoke-direct {v0, v1, v1}, Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;-><init>(II)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public bridge synthetic generateLayoutParams(Landroid/util/AttributeSet;)Landroid/view/ViewGroup$LayoutParams;
@@ -5397,8 +5404,7 @@
     move-result-object v1
 
     invoke-direct {v0, v1, p1}, Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public generateLayoutParams(Landroid/view/ViewGroup$LayoutParams;)Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;
@@ -5415,8 +5421,7 @@
     check-cast p1, Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;
 
     invoke-direct {v0, p1}, Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;-><init>(Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;)V
-
-    return-object v0
+return-object v0
 
     .line 6
     :cond_0
@@ -5518,12 +5523,14 @@
     move-result p1
 
     .line 38
-    invoke-virtual {p3, p2, v0, v1, p1}, Landroid/graphics/Rect;->set(IIII)V    return-void
+    invoke-virtual {p3, p2, v0, v1, p1}, Landroid/graphics/Rect;->set(IIII)V
+return-void
 
     .line 42
     :cond_2
     :goto_0
-    invoke-virtual {p3}, Landroid/graphics/Rect;->setEmpty()V    return-void
+    invoke-virtual {p3}, Landroid/graphics/Rect;->setEmpty()V
+return-void
 .end method
 
 .method public getDependencies(Landroid/view/View;)Ljava/util/List;
@@ -5695,7 +5702,8 @@
     .line 21
     .line 22
     .line 23
-    invoke-direct {p0, v5, v4, v6, v7}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->constrainChildRect(Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;Landroid/graphics/Rect;II)V    return-void
+    invoke-direct {p0, v5, v4, v6, v7}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->constrainChildRect(Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;Landroid/graphics/Rect;II)V
+return-void
 .end method
 
 .method public getLastChildRect(Landroid/view/View;Landroid/graphics/Rect;)V
@@ -5722,7 +5730,8 @@
     move-result-object p1
 
     .line 11
-    invoke-virtual {p2, p1}, Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V    return-void
+    invoke-virtual {p2, p1}, Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V
+return-void
 .end method
 
 .method public final getLastWindowInsets()Landroidx/core/view/WindowInsetsCompat;
@@ -5825,7 +5834,8 @@
     .line 32
     .line 33
     .line 34
-    iput-boolean v2, v0, Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;->mBehaviorResolved:Z    return-object v0
+    iput-boolean v2, v0, Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;->mBehaviorResolved:Z
+return-object v0
 
     .line 37
     :cond_1
@@ -6339,7 +6349,8 @@
     .line 99
     .line 100
     .line 101
-    invoke-static {v4}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->releaseTempRect(Landroid/graphics/Rect;)V    return-void
+    invoke-static {v4}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->releaseTempRect(Landroid/graphics/Rect;)V
+return-void
 
     .line 105
     :cond_5
@@ -6439,7 +6450,8 @@
     const/4 v0, 0x1
 
     .line 45
-    iput-boolean v0, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->mIsAttachedToWindow:Z    return-void
+    iput-boolean v0, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->mIsAttachedToWindow:Z
+return-void
 .end method
 
 .method public final onChildViewsChanged(I)V
@@ -7017,7 +7029,8 @@
     .line 268
     .line 269
     .line 270
-    invoke-static {v6}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->releaseTempRect(Landroid/graphics/Rect;)V    return-void
+    invoke-static {v6}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->releaseTempRect(Landroid/graphics/Rect;)V
+return-void
 .end method
 
 .method public onDetachedFromWindow()V
@@ -7085,7 +7098,8 @@
     const/4 v0, 0x0
 
     .line 32
-    iput-boolean v0, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->mIsAttachedToWindow:Z    return-void
+    iput-boolean v0, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->mIsAttachedToWindow:Z
+return-void
 .end method
 
 .method public onDraw(Landroid/graphics/Canvas;)V
@@ -9811,7 +9825,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1, p2}, Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;->setLastChildRect(Landroid/graphics/Rect;)V    return-void
+    invoke-virtual {p1, p2}, Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;->setLastChildRect(Landroid/graphics/Rect;)V
+return-void
 .end method
 
 .method public removePreDrawListener()V
@@ -9855,7 +9870,8 @@
     const/4 v0, 0x0
 
     .line 19
-    iput-boolean v0, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->mNeedsPreDrawListener:Z    return-void
+    iput-boolean v0, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->mNeedsPreDrawListener:Z
+return-void
 .end method
 
 .method public requestChildRectangleOnScreen(Landroid/view/View;Landroid/graphics/Rect;Z)Z
@@ -9974,7 +9990,8 @@
     .line 2
     .line 3
     .line 4
-    invoke-direct {p0}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->setupForInsets()V    return-void
+    invoke-direct {p0}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->setupForInsets()V
+return-void
 .end method
 
 .method public setOnHierarchyChangeListener(Landroid/view/ViewGroup$OnHierarchyChangeListener;)V
@@ -10148,7 +10165,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, v0}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->setStatusBarBackground(Landroid/graphics/drawable/Drawable;)V    return-void
+    invoke-virtual {p0, v0}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->setStatusBarBackground(Landroid/graphics/drawable/Drawable;)V
+return-void
 .end method
 
 .method public setStatusBarBackgroundResource(I)V
@@ -10187,7 +10205,8 @@
 
     .line 13
     :goto_0
-    invoke-virtual {p0, p1}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->setStatusBarBackground(Landroid/graphics/drawable/Drawable;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->setStatusBarBackground(Landroid/graphics/drawable/Drawable;)V
+return-void
 .end method
 
 .method public setVisibility(I)V

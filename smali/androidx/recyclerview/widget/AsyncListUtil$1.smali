@@ -38,7 +38,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 .method private isRequestedGeneration(I)Z
@@ -137,7 +138,8 @@
 
     .line 31
     .line 32
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/TileList;->clear()V    return-void
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/TileList;->clear()V
+return-void
 .end method
 
 
@@ -173,7 +175,8 @@
 
     .line 10
     .line 11
-    invoke-interface {p1, p2}, Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;->recycleTile(Landroidx/recyclerview/widget/TileList$Tile;)V    return-void
+    invoke-interface {p1, p2}, Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;->recycleTile(Landroidx/recyclerview/widget/TileList$Tile;)V
+return-void
 
     .line 15
     :cond_0
@@ -432,7 +435,8 @@
 
     .line 41
     .line 42
-    invoke-interface {p2, p1}, Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;->recycleTile(Landroidx/recyclerview/widget/TileList$Tile;)V    return-void
+    invoke-interface {p2, p1}, Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;->recycleTile(Landroidx/recyclerview/widget/TileList$Tile;)V
+return-void
 .end method
 
 .method public updateItemCount(II)V
@@ -496,6 +500,7 @@
 
     .line 30
     .line 31
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/AsyncListUtil;->updateRange()V    return-void
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/AsyncListUtil;->updateRange()V
+return-void
 .end method
 .end class

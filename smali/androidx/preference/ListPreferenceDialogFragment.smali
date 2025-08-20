@@ -31,7 +31,8 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Landroidx/preference/PreferenceDialogFragment;-><init>()V    return-void
+    invoke-direct {p0}, Landroidx/preference/PreferenceDialogFragment;-><init>()V
+return-void
 .end method
 
 .method private getListPreference()Landroidx/preference/ListPreference;
@@ -88,7 +89,8 @@
     .line 15
     .line 16
     .line 17
-    invoke-virtual {v0, v1}, Landroid/app/Fragment;->setArguments(Landroid/os/Bundle;)V    return-object v0
+    invoke-virtual {v0, v1}, Landroid/app/Fragment;->setArguments(Landroid/os/Bundle;)V
+return-object v0
 .end method
 
 
@@ -404,6 +406,7 @@
 
     .line 21
     .line 22
-    invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putCharSequenceArray(Ljava/lang/String;[Ljava/lang/CharSequence;)V    return-void
+    invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putCharSequenceArray(Ljava/lang/String;[Ljava/lang/CharSequence;)V
+return-void
 .end method
 .end class

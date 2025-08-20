@@ -29,8 +29,7 @@
 
     .line 1
     invoke-static {p0, p1, p2}, Landroidx/fragment/app/i;->a(Landroidx/fragment/app/FragmentManager$OnBackStackChangedListener;Landroidx/fragment/app/Fragment;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public final synthetic onBackStackChangeStarted(Landroidx/fragment/app/Fragment;Z)V
@@ -38,8 +37,7 @@
 
     .line 1
     invoke-static {p0, p1, p2}, Landroidx/fragment/app/i;->b(Landroidx/fragment/app/FragmentManager$OnBackStackChangedListener;Landroidx/fragment/app/Fragment;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public final onBackStackChanged()V
@@ -49,7 +47,6 @@
     iget-object v0, p0, Landroidx/preference/a;->a:Landroidx/preference/PreferenceHeaderFragmentCompat;
 
     invoke-static {v0}, Landroidx/preference/PreferenceHeaderFragmentCompat;->b(Landroidx/preference/PreferenceHeaderFragmentCompat;)V
-
-    return-void
+return-void
 .end method
 .end class

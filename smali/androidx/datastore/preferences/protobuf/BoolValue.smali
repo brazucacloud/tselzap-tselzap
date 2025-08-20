@@ -66,14 +66,16 @@
 
     .line 9
     .line 10
-    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->registerDefaultInstance(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V    return-void
+    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->registerDefaultInstance(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
+return-void
 .end method
 
 .method private constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;-><init>()V    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;-><init>()V
+return-void
 .end method
 
 .method public static synthetic access$000()Landroidx/datastore/preferences/protobuf/BoolValue;
@@ -94,7 +96,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BoolValue;->clearValue()V    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BoolValue;->clearValue()V
+return-void
 .end method
 
 .method private clearValue()V
@@ -104,7 +107,8 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/BoolValue;->value_:Z    return-void
+    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/BoolValue;->value_:Z
+return-void
 .end method
 
 .method public static getDefaultInstance()Landroidx/datastore/preferences/protobuf/BoolValue;
@@ -385,7 +389,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/datastore/preferences/protobuf/BoolValue;->value_:Z    return-void
+    iput-boolean p1, p0, Landroidx/datastore/preferences/protobuf/BoolValue;->value_:Z
+return-void
 .end method
 
 
@@ -571,7 +576,8 @@
 
     .line 80
     .line 81
-    invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/BoolValue;-><init>()V    return-object p1
+    invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/BoolValue;-><init>()V
+return-object p1
 
     .line 85
     :pswitch_data_0

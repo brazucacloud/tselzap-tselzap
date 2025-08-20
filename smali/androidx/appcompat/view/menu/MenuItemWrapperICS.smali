@@ -1052,7 +1052,8 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroidx/core/internal/view/SupportMenuItem;->setShowAsAction(I)V    return-void
+    invoke-interface {v0, p1}, Landroidx/core/internal/view/SupportMenuItem;->setShowAsAction(I)V
+return-void
 .end method
 
 .method public setShowAsActionFlags(I)Landroid/view/MenuItem;

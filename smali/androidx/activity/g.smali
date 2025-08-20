@@ -31,7 +31,6 @@
     iget-object v0, p0, Landroidx/activity/g;->a:Lp1/a;
 
     invoke-static {v0}, Landroidx/activity/OnBackPressedDispatcher$Api33Impl;->a(Lp1/a;)V
-
-    return-void
+return-void
 .end method
 .end class

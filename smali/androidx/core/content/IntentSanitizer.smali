@@ -129,8 +129,7 @@
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Landroidx/core/content/IntentSanitizer$1;)V
@@ -138,8 +137,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/core/content/IntentSanitizer;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic a(Ljava/lang/String;)V
@@ -147,8 +145,7 @@
 
     .line 1
     invoke-static {p0}, Landroidx/core/content/IntentSanitizer;->lambda$sanitizeByThrowing$1(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic access$1002(Landroidx/core/content/IntentSanitizer;Z)Z
@@ -321,8 +318,7 @@
 
     .line 1
     invoke-static {p0}, Landroidx/core/content/IntentSanitizer;->lambda$sanitizeByFiltering$0(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method private static checkOtherMembers(ILandroid/content/ClipData$Item;Landroidx/core/util/Consumer;)V

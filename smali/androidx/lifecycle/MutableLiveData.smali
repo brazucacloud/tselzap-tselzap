@@ -21,8 +21,7 @@
 
     .line 2
     invoke-direct {p0}, Landroidx/lifecycle/LiveData;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/Object;)V
@@ -35,8 +34,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/lifecycle/LiveData;-><init>(Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 

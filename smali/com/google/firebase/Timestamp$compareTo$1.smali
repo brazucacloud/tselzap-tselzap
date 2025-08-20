@@ -39,8 +39,7 @@
     const-string v1, "seconds"
 
     invoke-direct {p0, v1, v0}, Lkotlin/jvm/internal/n;-><init>(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 

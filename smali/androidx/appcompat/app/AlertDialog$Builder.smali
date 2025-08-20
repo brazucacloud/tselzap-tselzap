@@ -36,8 +36,7 @@
     move-result v0
 
     invoke-direct {p0, p1, v0}, Landroidx/appcompat/app/AlertDialog$Builder;-><init>(Landroid/content/Context;I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;I)V
@@ -235,7 +234,8 @@
 
     .line 2
     .line 3
-    iput-boolean p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mCancelable:Z    return-object p0
+    iput-boolean p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mCancelable:Z
+return-object p0
 .end method
 
 .method public setCursor(Landroid/database/Cursor;Landroid/content/DialogInterface$OnClickListener;Ljava/lang/String;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -364,7 +364,8 @@
 
     .line 2
     .line 3
-    iput-boolean p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mForceInverseBackground:Z    return-object p0
+    iput-boolean p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mForceInverseBackground:Z
+return-object p0
 .end method
 
 .method public setItems(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -481,8 +482,7 @@
 
     .line 4
     iput-boolean p2, p1, Landroidx/appcompat/app/AlertController$AlertParams;->mIsMultiChoice:Z
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setMultiChoiceItems(Landroid/database/Cursor;Ljava/lang/String;Ljava/lang/String;Landroid/content/DialogInterface$OnMultiChoiceClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -506,8 +506,7 @@
 
     .line 13
     iput-boolean p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mIsMultiChoice:Z
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setMultiChoiceItems([Ljava/lang/CharSequence;[ZLandroid/content/DialogInterface$OnMultiChoiceClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -528,8 +527,7 @@
 
     .line 8
     iput-boolean p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mIsMultiChoice:Z
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setNegativeButton(ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -742,7 +740,8 @@
 
     .line 2
     .line 3
-    iput-boolean p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mRecycleOnMeasure:Z    return-object p0
+    iput-boolean p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mRecycleOnMeasure:Z
+return-object p0
 .end method
 
 .method public setSingleChoiceItems(IILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -779,8 +778,7 @@
 
     .line 4
     iput-boolean p2, p1, Landroidx/appcompat/app/AlertController$AlertParams;->mIsSingleChoice:Z
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setSingleChoiceItems(Landroid/database/Cursor;ILjava/lang/String;Landroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -804,8 +802,7 @@
 
     .line 9
     iput-boolean p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mIsSingleChoice:Z
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setSingleChoiceItems(Landroid/widget/ListAdapter;ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -826,8 +823,7 @@
 
     .line 17
     iput-boolean p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mIsSingleChoice:Z
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setSingleChoiceItems([Ljava/lang/CharSequence;ILandroid/content/DialogInterface$OnClickListener;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -848,8 +844,7 @@
 
     .line 13
     iput-boolean p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mIsSingleChoice:Z
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setTitle(I)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -905,8 +900,7 @@
 
     .line 3
     iput-boolean p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mViewSpacingSpecified:Z
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setView(Landroid/view/View;)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -924,8 +918,7 @@
 
     .line 6
     iput-boolean p1, v0, Landroidx/appcompat/app/AlertController$AlertParams;->mViewSpacingSpecified:Z
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setView(Landroid/view/View;IIII)Landroidx/appcompat/app/AlertDialog$Builder;
@@ -981,6 +974,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Landroid/app/Dialog;->show()V    return-object v0
+    invoke-virtual {v0}, Landroid/app/Dialog;->show()V
+return-object v0
 .end method
 .end class

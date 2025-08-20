@@ -688,8 +688,7 @@
     new-instance p0, Landroid/os/Bundle;
 
     invoke-direct {p0}, Landroid/os/Bundle;-><init>()V
-
-    return-object p0
+return-object p0
 
     .line 156
     :cond_0
@@ -1330,8 +1329,7 @@
     iget-wide v1, p0, Lcom/google/android/gms/measurement/internal/zzmh;->zzc:J
 
     invoke-virtual {p1, v0, v1, v2}, Landroid/os/BaseBundle;->putLong(Ljava/lang/String;J)V
-
-    return-void
+return-void
 
     :cond_3
     if-eqz p1, :cond_4
@@ -1370,8 +1368,7 @@
 
     .line 348
     invoke-static/range {v0 .. v5}, Lcom/google/android/gms/measurement/internal/zzqd;->zza(Lcom/google/android/gms/measurement/internal/zzqc;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;I)V
-
-    return-void
+return-void
 .end method
 
 .method public static zza(Lcom/google/android/gms/measurement/internal/zzqc;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;I)V
@@ -1427,8 +1424,7 @@
     const-string p2, "_err"
 
     invoke-interface {p0, p1, p2, v0}, Lcom/google/android/gms/measurement/internal/zzqc;->zza(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 
 .method private final zza(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;Ljava/util/List;Z)V
@@ -2225,8 +2221,7 @@
 
     .line 514
     invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
-
-    return-object p0
+return-object p0
 
     :catchall_0
     move-exception p0
@@ -2260,8 +2255,7 @@
     const/4 v0, 0x0
 
     invoke-direct {p0, v0}, Ljava/util/ArrayList;-><init>(I)V
-
-    return-object p0
+return-object p0
 
     .line 13
     :cond_0
@@ -3658,8 +3652,7 @@
     const-string p2, "Could not get MD5 instance"
 
     invoke-virtual {p1, p2}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;)V
-
-    return-wide v2
+return-wide v2
 
     :cond_0
     if-eqz v0, :cond_2
@@ -4268,8 +4261,7 @@
     const-string v3, "Install referrer url isn\'t a hierarchical URI"
 
     invoke-virtual {v2, v3, v0}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-
-    return-object v1
+return-object v1
 .end method
 
 .method public final zza(Landroid/os/Bundle;Ljava/lang/String;)Landroid/os/Bundle;
@@ -4720,8 +4712,7 @@
     invoke-direct {p4, p1}, Lcom/google/android/gms/measurement/internal/zzbi;-><init>(Landroid/os/Bundle;)V
 
     invoke-direct/range {p2 .. p7}, Lcom/google/android/gms/measurement/internal/zzbj;-><init>(Ljava/lang/String;Lcom/google/android/gms/measurement/internal/zzbi;Ljava/lang/String;J)V
-
-    return-object p2
+return-object p2
 
     :cond_3
     move-object v0, p0
@@ -4975,8 +4966,7 @@
 
     .line 281
     invoke-virtual {p1, v0, p2, p3}, Landroid/os/BaseBundle;->putLong(Ljava/lang/String;J)V
-
-    return-void
+return-void
 .end method
 
 .method public final zza(Landroid/os/Bundle;Landroid/os/Bundle;)V
@@ -5056,8 +5046,7 @@
     move-result-wide v0
 
     invoke-virtual {p1, p2, v0, v1}, Landroid/os/BaseBundle;->putLong(Ljava/lang/String;J)V
-
-    return-void
+return-void
 
     .line 357
     :cond_1
@@ -5072,8 +5061,7 @@
 
     .line 359
     invoke-virtual {p1, p2, p3}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
+return-void
 
     .line 360
     :cond_2
@@ -5089,8 +5077,7 @@
     move-result-wide v0
 
     invoke-virtual {p1, p2, v0, v1}, Landroid/os/BaseBundle;->putDouble(Ljava/lang/String;D)V
-
-    return-void
+return-void
 
     .line 362
     :cond_3
@@ -5102,8 +5089,7 @@
     check-cast p3, [Landroid/os/Bundle;
 
     invoke-virtual {p1, p2, p3}, Landroid/os/Bundle;->putParcelableArray(Ljava/lang/String;[Landroid/os/Parcelable;)V
-
-    return-void
+return-void
 
     :cond_4
     if-eqz p2, :cond_6
@@ -5192,8 +5178,7 @@
     const-string v0, "Error returning int value to wrapper"
 
     invoke-virtual {p2, v0, p1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public final zza(Lcom/google/android/gms/internal/measurement/zzdq;J)V
@@ -5234,8 +5219,7 @@
     const-string p3, "Error returning long value to wrapper"
 
     invoke-virtual {p2, p3, p1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public final zza(Lcom/google/android/gms/internal/measurement/zzdq;Landroid/os/Bundle;)V
@@ -5266,8 +5250,7 @@
     const-string v0, "Error returning bundle value to wrapper"
 
     invoke-virtual {p2, v0, p1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public final zza(Lcom/google/android/gms/internal/measurement/zzdq;Ljava/lang/String;)V
@@ -5308,8 +5291,7 @@
     const-string v0, "Error returning string value to wrapper"
 
     invoke-virtual {p2, v0, p1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public final zza(Lcom/google/android/gms/internal/measurement/zzdq;Ljava/util/ArrayList;)V
@@ -5359,8 +5341,7 @@
     const-string v0, "Error returning bundle list to wrapper"
 
     invoke-virtual {p2, v0, p1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public final zza(Lcom/google/android/gms/internal/measurement/zzdq;Z)V
@@ -5401,8 +5382,7 @@
     const-string v0, "Error returning boolean value to wrapper"
 
     invoke-virtual {p2, v0, p1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public final zza(Lcom/google/android/gms/internal/measurement/zzdq;[B)V
@@ -5443,8 +5423,7 @@
     const-string v0, "Error returning byte array to wrapper"
 
     invoke-virtual {p2, v0, p1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public final zza(Lcom/google/android/gms/measurement/internal/zzhg;I)V
@@ -5597,8 +5576,7 @@
 
     .line 309
     invoke-virtual {p2, p1}, Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
-
-    return-void
+return-void
 
     .line 310
     :cond_1

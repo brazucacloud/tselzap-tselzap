@@ -26,8 +26,7 @@
     iput-object p2, p0, Landroidx/core/location/k;->d:Ljava/lang/Object;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -47,8 +46,7 @@
     check-cast v1, Landroid/location/Location;
 
     invoke-static {v0, v1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->c(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;Landroid/location/Location;)V
-
-    return-void
+return-void
 
     :pswitch_0
     iget-object v0, p0, Landroidx/core/location/k;->c:Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;
@@ -58,8 +56,7 @@
     check-cast v1, Ljava/util/List;
 
     invoke-static {v0, v1}, Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;->d(Landroidx/core/location/LocationManagerCompat$LocationListenerTransport;Ljava/util/List;)V
-
-    return-void
+return-void
 
     nop
 

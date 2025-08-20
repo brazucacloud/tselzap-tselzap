@@ -59,8 +59,7 @@
 
     .line 3
     invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableLongIntMap;->set(JI)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final longIntMapOf(JIJI)Landroidx/collection/LongIntMap;
@@ -82,8 +81,7 @@
 
     .line 6
     invoke-virtual {v0, p3, p4, p5}, Landroidx/collection/MutableLongIntMap;->set(JI)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final longIntMapOf(JIJIJI)Landroidx/collection/LongIntMap;
@@ -108,8 +106,7 @@
 
     .line 10
     invoke-virtual {v0, p6, p7, p8}, Landroidx/collection/MutableLongIntMap;->set(JI)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final longIntMapOf(JIJIJIJI)Landroidx/collection/LongIntMap;
@@ -137,8 +134,7 @@
 
     .line 15
     invoke-virtual {v0, p9, p10, p11}, Landroidx/collection/MutableLongIntMap;->set(JI)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final longIntMapOf(JIJIJIJIJI)Landroidx/collection/LongIntMap;
@@ -173,8 +169,7 @@
 
     .line 21
     invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableLongIntMap;->set(JI)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableLongIntMapOf()Landroidx/collection/MutableLongIntMap;
@@ -190,8 +185,7 @@
     const/4 v3, 0x0
 
     invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongIntMap;-><init>(IILkotlin/jvm/internal/e;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableLongIntMapOf(JI)Landroidx/collection/MutableLongIntMap;
@@ -210,8 +204,7 @@
 
     .line 3
     invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableLongIntMap;->set(JI)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableLongIntMapOf(JIJI)Landroidx/collection/MutableLongIntMap;
@@ -233,8 +226,7 @@
 
     .line 6
     invoke-virtual {v0, p3, p4, p5}, Landroidx/collection/MutableLongIntMap;->set(JI)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableLongIntMapOf(JIJIJI)Landroidx/collection/MutableLongIntMap;
@@ -259,8 +251,7 @@
 
     .line 10
     invoke-virtual {v0, p6, p7, p8}, Landroidx/collection/MutableLongIntMap;->set(JI)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableLongIntMapOf(JIJIJIJI)Landroidx/collection/MutableLongIntMap;
@@ -288,8 +279,7 @@
 
     .line 15
     invoke-virtual {v0, p9, p10, p11}, Landroidx/collection/MutableLongIntMap;->set(JI)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableLongIntMapOf(JIJIJIJIJI)Landroidx/collection/MutableLongIntMap;
@@ -324,7 +314,6 @@
 
     .line 21
     invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableLongIntMap;->set(JI)V
-
-    return-object v0
+return-object v0
 .end method
 .end class

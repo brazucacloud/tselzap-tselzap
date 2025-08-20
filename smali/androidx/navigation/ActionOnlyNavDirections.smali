@@ -71,8 +71,7 @@
     new-instance v0, Landroidx/navigation/ActionOnlyNavDirections;
 
     invoke-direct {v0, p1}, Landroidx/navigation/ActionOnlyNavDirections;-><init>(I)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public equals(Ljava/lang/Object;)Z

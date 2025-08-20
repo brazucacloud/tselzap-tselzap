@@ -105,7 +105,8 @@
     const/4 v0, 0x0
 
     .line 21
-    iput-boolean v0, p0, Landroidx/transition/Visibility$OverlayListener;->mHasOverlay:Z    return-void
+    iput-boolean v0, p0, Landroidx/transition/Visibility$OverlayListener;->mHasOverlay:Z
+return-void
 .end method
 
 
@@ -115,8 +116,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/transition/Visibility$OverlayListener;->removeFromOverlay()V
-
-    return-void
+return-void
 .end method
 
 .method public onAnimationEnd(Landroid/animation/Animator;Z)V
@@ -202,7 +202,8 @@
 
     .line 22
     .line 23
-    invoke-virtual {p1}, Landroidx/transition/Transition;->cancel()V    return-void
+    invoke-virtual {p1}, Landroidx/transition/Transition;->cancel()V
+return-void
 .end method
 
 .method public onAnimationStart(Landroid/animation/Animator;Z)V
@@ -309,8 +310,7 @@
 
     .line 1
     invoke-static {p0, p1, p2}, Landroidx/transition/b;->a(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public onTransitionPause(Landroidx/transition/Transition;)V
@@ -348,7 +348,6 @@
 
     .line 2
     invoke-static {p0, p1, p2}, Landroidx/transition/b;->b(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
-
-    return-void
+return-void
 .end method
 .end class

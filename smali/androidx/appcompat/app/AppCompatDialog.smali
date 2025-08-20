@@ -24,8 +24,7 @@
 
     .line 1
     invoke-direct {p0, p1, v0}, Landroidx/appcompat/app/AppCompatDialog;-><init>(Landroid/content/Context;I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;I)V
@@ -65,8 +64,7 @@
 
     .line 6
     invoke-virtual {v0, p1}, Landroidx/appcompat/app/AppCompatDelegate;->onCreate(Landroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;ZLandroid/content/DialogInterface$OnCancelListener;)V
@@ -95,8 +93,7 @@
 
     .line 10
     invoke-virtual {p0, p3}, Landroid/app/Dialog;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)V
-
-    return-void
+return-void
 .end method
 
 .method private static getThemeResId(Landroid/content/Context;I)I
@@ -246,7 +243,8 @@
     move-result-object v0
 
     .line 8
-    invoke-virtual {v0}, Landroidx/appcompat/app/AppCompatDelegate;->onDestroy()V    return-void
+    invoke-virtual {v0}, Landroidx/appcompat/app/AppCompatDelegate;->onDestroy()V
+return-void
 .end method
 
 .method public dispatchKeyEvent(Landroid/view/KeyEvent;)Z
@@ -388,7 +386,8 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Landroidx/appcompat/app/AppCompatDelegate;->invalidateOptionsMenu()V    return-void
+    invoke-virtual {v0}, Landroidx/appcompat/app/AppCompatDelegate;->invalidateOptionsMenu()V
+return-void
 .end method
 
 .method public onCreate(Landroid/os/Bundle;)V
@@ -421,7 +420,8 @@
     move-result-object v0
 
     .line 15
-    invoke-virtual {v0, p1}, Landroidx/appcompat/app/AppCompatDelegate;->onCreate(Landroid/os/Bundle;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/app/AppCompatDelegate;->onCreate(Landroid/os/Bundle;)V
+return-void
 .end method
 
 .method public onStop()V
@@ -441,7 +441,8 @@
     move-result-object v0
 
     .line 8
-    invoke-virtual {v0}, Landroidx/appcompat/app/AppCompatDelegate;->onStop()V    return-void
+    invoke-virtual {v0}, Landroidx/appcompat/app/AppCompatDelegate;->onStop()V
+return-void
 .end method
 
 .method public onSupportActionModeFinished(Landroidx/appcompat/view/ActionMode;)V
@@ -546,8 +547,7 @@
     move-result-object p1
 
     invoke-virtual {v0, p1}, Landroidx/appcompat/app/AppCompatDelegate;->setTitle(Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 
 .method public setTitle(Ljava/lang/CharSequence;)V
@@ -562,8 +562,7 @@
     move-result-object v0
 
     invoke-virtual {v0, p1}, Landroidx/appcompat/app/AppCompatDelegate;->setTitle(Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 
 .method public superDispatchKeyEvent(Landroid/view/KeyEvent;)Z

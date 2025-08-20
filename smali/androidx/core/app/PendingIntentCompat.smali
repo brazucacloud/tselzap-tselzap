@@ -345,8 +345,7 @@
 
     .line 4
     invoke-virtual {v0}, Landroidx/core/app/PendingIntentCompat$GatedCallback;->close()V
-
-    return-void
+return-void
 
     :catchall_0
     move-exception p0
@@ -420,8 +419,7 @@
 
     .line 6
     invoke-static/range {v0 .. v7}, Landroidx/core/app/PendingIntentCompat;->send(Landroid/app/PendingIntent;Landroid/content/Context;ILandroid/content/Intent;Landroid/app/PendingIntent$OnFinished;Landroid/os/Handler;Ljava/lang/String;Landroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 
 .method public static send(Landroid/app/PendingIntent;Landroid/content/Context;ILandroid/content/Intent;Landroid/app/PendingIntent$OnFinished;Landroid/os/Handler;Ljava/lang/String;Landroid/os/Bundle;)V
@@ -507,8 +505,7 @@
 
     .line 12
     invoke-virtual {v1}, Landroidx/core/app/PendingIntentCompat$GatedCallback;->close()V
-
-    return-void
+return-void
 
     .line 13
     :goto_1

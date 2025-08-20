@@ -639,7 +639,8 @@
 
     .line 6
     .line 7
-    invoke-super {p0, p1, p2}, Landroid/view/MenuInflater;->inflate(ILandroid/view/Menu;)V    return-void
+    invoke-super {p0, p1, p2}, Landroid/view/MenuInflater;->inflate(ILandroid/view/Menu;)V
+return-void
 
     .line 11
     :cond_0

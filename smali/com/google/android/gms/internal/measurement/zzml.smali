@@ -277,8 +277,7 @@
 
     .line 27
     invoke-virtual {p4, p3, p1, v0, v1}, Lcom/google/android/gms/internal/measurement/zzmz;->zzb(Ljava/lang/Object;IJ)V
-
-    return-object p3
+return-object p3
 .end method
 
 .method public static zza(Ljava/lang/Object;ILjava/util/List;Lcom/google/android/gms/internal/measurement/zzkm;Ljava/lang/Object;Lcom/google/android/gms/internal/measurement/zzmz;)Ljava/lang/Object;
@@ -577,8 +576,7 @@
 
     .line 34
     invoke-static {p1, p3, p4, p0}, Lcom/google/android/gms/internal/measurement/zzna;->zza(Ljava/lang/Object;JLjava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public static zza(Lcom/google/android/gms/internal/measurement/zzmz;Ljava/lang/Object;Ljava/lang/Object;)V
@@ -614,8 +612,7 @@
 
     .line 38
     invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzmz;->zzc(Ljava/lang/Object;Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public static zza(Ljava/lang/Class;)V

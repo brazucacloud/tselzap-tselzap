@@ -31,7 +31,6 @@
     iget-object v0, p0, Landroidx/appcompat/widget/c;->a:Ljava/lang/Runnable;
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
-
-    return-void
+return-void
 .end method
 .end class

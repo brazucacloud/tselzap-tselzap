@@ -727,8 +727,7 @@
     check-cast p1, Landroid/graphics/Bitmap;
 
     invoke-virtual {p0, p1}, Lcom/android/volley/toolbox/ImageRequest;->deliverResponse(Landroid/graphics/Bitmap;)V
-
-    return-void
+return-void
 .end method
 
 .method public getPriority()Lcom/android/volley/Request$Priority;

@@ -1438,7 +1438,8 @@
     .line 319
     .line 320
     :cond_14
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V    return-void
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
+return-void
 .end method
 
 .method private updateTransition(Landroidx/constraintlayout/motion/widget/MotionScene$Transition;Landroid/view/View;)V
@@ -2025,7 +2026,8 @@
     .line 152
     .line 153
     .line 154
-    invoke-virtual {p2, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToEnd(Ljava/lang/Runnable;)V    return-void
+    invoke-virtual {p2, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToEnd(Ljava/lang/Runnable;)V
+return-void
 .end method
 
 .method public checkTags(Landroid/view/View;)Z
@@ -2202,7 +2204,8 @@
 
     .line 29
     .line 30
-    invoke-direct {p1}, Landroid/view/animation/AnticipateInterpolator;-><init>()V    return-object p1
+    invoke-direct {p1}, Landroid/view/animation/AnticipateInterpolator;-><init>()V
+return-object p1
 
     .line 34
     :cond_1
@@ -2210,7 +2213,8 @@
 
     .line 35
     .line 36
-    invoke-direct {p1}, Landroid/view/animation/OvershootInterpolator;-><init>()V    return-object p1
+    invoke-direct {p1}, Landroid/view/animation/OvershootInterpolator;-><init>()V
+return-object p1
 
     .line 40
     :cond_2
@@ -2218,7 +2222,8 @@
 
     .line 41
     .line 42
-    invoke-direct {p1}, Landroid/view/animation/BounceInterpolator;-><init>()V    return-object p1
+    invoke-direct {p1}, Landroid/view/animation/BounceInterpolator;-><init>()V
+return-object p1
 
     .line 46
     :cond_3
@@ -2226,7 +2231,8 @@
 
     .line 47
     .line 48
-    invoke-direct {p1}, Landroid/view/animation/DecelerateInterpolator;-><init>()V    return-object p1
+    invoke-direct {p1}, Landroid/view/animation/DecelerateInterpolator;-><init>()V
+return-object p1
 
     .line 52
     :cond_4
@@ -2234,7 +2240,8 @@
 
     .line 53
     .line 54
-    invoke-direct {p1}, Landroid/view/animation/AccelerateInterpolator;-><init>()V    return-object p1
+    invoke-direct {p1}, Landroid/view/animation/AccelerateInterpolator;-><init>()V
+return-object p1
 
     .line 58
     :cond_5
@@ -2242,7 +2249,8 @@
 
     .line 59
     .line 60
-    invoke-direct {p1}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V    return-object p1
+    invoke-direct {p1}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
+return-object p1
 
     .line 64
     :cond_6
@@ -2451,7 +2459,8 @@
 
     .line 2
     .line 3
-    iput-boolean p1, p0, Landroidx/constraintlayout/motion/widget/ViewTransition;->mDisabled:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/motion/widget/ViewTransition;->mDisabled:Z
+return-void
 .end method
 
 .method public setId(I)V

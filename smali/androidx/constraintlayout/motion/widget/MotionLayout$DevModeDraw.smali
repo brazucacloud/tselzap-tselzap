@@ -522,7 +522,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {p1, v0, v1}, Landroid/graphics/Canvas;->drawLines([FLandroid/graphics/Paint;)V    return-void
+    invoke-virtual {p1, v0, v1}, Landroid/graphics/Canvas;->drawLines([FLandroid/graphics/Paint;)V
+return-void
 .end method
 
 .method private drawPathAsConfigured(Landroid/graphics/Canvas;)V
@@ -741,7 +742,8 @@
 
     .line 64
     .line 65
-    invoke-virtual/range {v12 .. v17}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V    return-void
+    invoke-virtual/range {v12 .. v17}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
+return-void
 .end method
 
 .method private drawPathCartesianTicks(Landroid/graphics/Canvas;FF)V
@@ -1124,7 +1126,8 @@
 
     .line 180
     .line 181
-    invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V    return-void
+    invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
+return-void
 .end method
 
 .method private drawPathRelative(Landroid/graphics/Canvas;)V
@@ -1177,7 +1180,8 @@
     move-object v2, p1
 
     .line 21
-    invoke-virtual/range {v2 .. v7}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V    return-void
+    invoke-virtual/range {v2 .. v7}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
+return-void
 .end method
 
 .method private drawPathRelativeTicks(Landroid/graphics/Canvas;FF)V
@@ -1463,7 +1467,8 @@
     move v5, v9
 
     .line 132
-    invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V    return-void
+    invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
+return-void
 .end method
 
 .method private drawPathScreenTicks(Landroid/graphics/Canvas;FFII)V
@@ -1804,7 +1809,8 @@
 
     .line 158
     .line 159
-    invoke-virtual/range {v0 .. v5}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V    return-void
+    invoke-virtual/range {v0 .. v5}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
+return-void
 .end method
 
 .method private drawRectangle(Landroid/graphics/Canvas;Landroidx/constraintlayout/motion/widget/MotionController;)V
@@ -2040,7 +2046,8 @@
 
     .line 113
     .line 114
-    invoke-virtual {p1, p2, v0}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V    return-void
+    invoke-virtual {p1, p2, v0}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
+return-void
 .end method
 
 .method private drawTicks(Landroid/graphics/Canvas;IILandroidx/constraintlayout/motion/widget/MotionController;)V
@@ -2552,7 +2559,8 @@
 
     .line 21
     .line 22
-    invoke-virtual/range {v6 .. v11}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V    return-void
+    invoke-virtual/range {v6 .. v11}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
+return-void
 .end method
 
 
@@ -3152,7 +3160,8 @@
     .line 20
     .line 21
     .line 22
-    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/constraintlayout/motion/widget/MotionLayout$DevModeDraw;->drawTicks(Landroid/graphics/Canvas;IILandroidx/constraintlayout/motion/widget/MotionController;)V    return-void
+    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/constraintlayout/motion/widget/MotionLayout$DevModeDraw;->drawTicks(Landroid/graphics/Canvas;IILandroidx/constraintlayout/motion/widget/MotionController;)V
+return-void
 .end method
 
 .method public getTextBounds(Ljava/lang/String;Landroid/graphics/Paint;)V
@@ -3174,6 +3183,7 @@
     const/4 v2, 0x0
 
     .line 8
-    invoke-virtual {p2, p1, v2, v0, v1}, Landroid/graphics/Paint;->getTextBounds(Ljava/lang/String;IILandroid/graphics/Rect;)V    return-void
+    invoke-virtual {p2, p1, v2, v0, v1}, Landroid/graphics/Paint;->getTextBounds(Ljava/lang/String;IILandroid/graphics/Rect;)V
+return-void
 .end method
 .end class

@@ -61,8 +61,7 @@
 
     .line 1
     invoke-direct/range {v0 .. v5}, Lcom/google/android/gms/ads/identifier/AdvertisingIdClient;-><init>(Landroid/content/Context;JZZ)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;JZZ)V

@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;-><init>(Lsun/misc/Unsafe;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;-><init>(Lsun/misc/Unsafe;)V
+return-void
 .end method
 
 .method private static smallAddress(J)I
@@ -236,11 +237,13 @@
 
     .line 4
     .line 5
-    invoke-static {p1, p2, p3, p4}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->access$600(Ljava/lang/Object;JZ)V    return-void
+    invoke-static {p1, p2, p3, p4}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->access$600(Ljava/lang/Object;JZ)V
+return-void
 
     .line 9
     :cond_0
-    invoke-static {p1, p2, p3, p4}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->access$700(Ljava/lang/Object;JZ)V    return-void
+    invoke-static {p1, p2, p3, p4}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->access$700(Ljava/lang/Object;JZ)V
+return-void
 .end method
 
 .method public putByte(JB)V
@@ -264,14 +267,12 @@
 
     .line 3
     invoke-static {p1, p2, p3, p4}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->access$200(Ljava/lang/Object;JB)V
-
-    return-void
+return-void
 
     .line 4
     :cond_0
     invoke-static {p1, p2, p3, p4}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->access$300(Ljava/lang/Object;JB)V
-
-    return-void
+return-void
 .end method
 
 .method public putDouble(Ljava/lang/Object;JD)V
@@ -295,7 +296,8 @@
     move-wide v2, p2
 
     .line 8
-    invoke-virtual/range {v0 .. v5}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->putLong(Ljava/lang/Object;JJ)V    return-void
+    invoke-virtual/range {v0 .. v5}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->putLong(Ljava/lang/Object;JJ)V
+return-void
 .end method
 
 .method public putFloat(Ljava/lang/Object;JF)V
@@ -310,7 +312,8 @@
     move-result p4
 
     .line 5
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->putInt(Ljava/lang/Object;JI)V    return-void
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->putInt(Ljava/lang/Object;JI)V
+return-void
 .end method
 
 .method public putInt(JI)V

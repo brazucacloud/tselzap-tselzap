@@ -37,8 +37,7 @@
     iget-object v1, p0, Landroidx/profileinstaller/c;->b:Landroid/content/Context;
 
     invoke-static {v0, v1, p1, p2}, Landroidx/profileinstaller/ProfileInstallerInitializer;->c(Landroidx/profileinstaller/ProfileInstallerInitializer;Landroid/content/Context;J)V
-
-    return-void
+return-void
 .end method
 
 .end class

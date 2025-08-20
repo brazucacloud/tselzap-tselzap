@@ -16206,8 +16206,7 @@
     iget-object v0, v0, Lx0/p;->d:Lcom/google/android/material/internal/CheckableImageButton;
 
     invoke-static {v1, v0, p1}, La/a;->H(Lcom/google/android/material/textfield/TextInputLayout;Lcom/google/android/material/internal/CheckableImageButton;Landroid/content/res/ColorStateList;)V
-
-    return-void
+return-void
 .end method
 
 .method public setErrorIconDrawable(Landroid/graphics/drawable/Drawable;)V
@@ -16221,8 +16220,7 @@
     iget-object v0, p0, Lcom/google/android/material/textfield/TextInputLayout;->d:Lx0/p;
 
     invoke-virtual {v0, p1}, Lx0/p;->i(Landroid/graphics/drawable/Drawable;)V
-
-    return-void
+return-void
 .end method
 
 .method public setErrorIconOnClickListener(Landroid/view/View$OnClickListener;)V
@@ -16974,8 +16972,7 @@
 
     :goto_0
     invoke-virtual {p0, p1}, Lcom/google/android/material/textfield/TextInputLayout;->setHint(Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 
 .method public setHint(Ljava/lang/CharSequence;)V
@@ -17852,8 +17849,7 @@
     iget-object v0, v0, Lx0/p;->h:Lcom/google/android/material/internal/CheckableImageButton;
 
     invoke-virtual {v0, p1}, Landroidx/appcompat/widget/AppCompatImageButton;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
-
-    return-void
+return-void
 .end method
 
 .method public setPasswordVisibilityToggleDrawable(Landroid/graphics/drawable/Drawable;)V
@@ -17872,8 +17868,7 @@
 
     .line 6
     invoke-virtual {v0, p1}, Landroidx/appcompat/widget/AppCompatImageButton;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
-
-    return-void
+return-void
 .end method
 
 .method public setPasswordVisibilityToggleEnabled(Z)V
@@ -18464,8 +18459,7 @@
 
     :goto_0
     invoke-virtual {p0, p1}, Lcom/google/android/material/textfield/TextInputLayout;->setStartIconContentDescription(Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 
 .method public setStartIconContentDescription(Ljava/lang/CharSequence;)V
@@ -18519,8 +18513,7 @@
 
     :goto_0
     invoke-virtual {p0, p1}, Lcom/google/android/material/textfield/TextInputLayout;->setStartIconDrawable(Landroid/graphics/drawable/Drawable;)V
-
-    return-void
+return-void
 .end method
 
 .method public setStartIconDrawable(Landroid/graphics/drawable/Drawable;)V
@@ -18534,8 +18527,7 @@
     iget-object v0, p0, Lcom/google/android/material/textfield/TextInputLayout;->c:Lx0/y;
 
     invoke-virtual {v0, p1}, Lx0/y;->b(Landroid/graphics/drawable/Drawable;)V
-
-    return-void
+return-void
 .end method
 
 .method public setStartIconMinSize(I)V

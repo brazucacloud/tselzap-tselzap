@@ -31,8 +31,7 @@
 
     .line 12
     invoke-direct {p0, p1, v0}, Landroidx/preference/SwitchPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -56,8 +55,7 @@
     move-result v0
 
     invoke-direct {p0, p1, p2, v0}, Landroidx/preference/SwitchPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -75,8 +73,7 @@
 
     .line 10
     invoke-direct {p0, p1, p2, p3, v0}, Landroidx/preference/SwitchPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
@@ -166,8 +163,7 @@
 
     .line 9
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-
-    return-void
+return-void
 .end method
 
 .method private syncSwitchView(Landroid/view/View;)V
@@ -424,8 +420,7 @@
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/preference/SwitchPreference;->setSwitchTextOff(Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 
 .method public setSwitchTextOff(Ljava/lang/CharSequence;)V
@@ -440,8 +435,7 @@
 
     .line 2
     invoke-virtual {p0}, Landroidx/preference/Preference;->notifyChanged()V
-
-    return-void
+return-void
 .end method
 
 .method public setSwitchTextOn(I)V
@@ -457,8 +451,7 @@
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/preference/SwitchPreference;->setSwitchTextOn(Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 
 .method public setSwitchTextOn(Ljava/lang/CharSequence;)V
@@ -473,7 +466,6 @@
 
     .line 2
     invoke-virtual {p0}, Landroidx/preference/Preference;->notifyChanged()V
-
-    return-void
+return-void
 .end method
 .end class

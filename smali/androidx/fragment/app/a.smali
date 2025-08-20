@@ -37,7 +37,6 @@
     iget-object v1, p0, Landroidx/fragment/app/a;->c:Landroidx/fragment/app/SpecialEffectsController$Operation;
 
     invoke-static {v0, v1}, Landroidx/fragment/app/DefaultSpecialEffectsController;->e(Landroid/animation/Animator;Landroidx/fragment/app/SpecialEffectsController$Operation;)V
-
-    return-void
+return-void
 .end method
 .end class

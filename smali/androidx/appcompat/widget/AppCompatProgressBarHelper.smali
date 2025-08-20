@@ -83,7 +83,8 @@
     const/4 v2, 0x0
 
     .line 11
-    invoke-direct {v1, v0, v2, v2}, Landroid/graphics/drawable/shapes/RoundRectShape;-><init>([FLandroid/graphics/RectF;[F)V    return-object v1
+    invoke-direct {v1, v0, v2, v2}, Landroid/graphics/drawable/shapes/RoundRectShape;-><init>([FLandroid/graphics/RectF;[F)V
+return-object v1
 
     .line 15
     :array_0
@@ -311,7 +312,8 @@
     .line 44
     .line 45
     :cond_1
-    invoke-virtual {p1}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V    return-void
+    invoke-virtual {p1}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V
+return-void
 .end method
 
 .method public tileify(Landroid/graphics/drawable/Drawable;Z)Landroid/graphics/drawable/Drawable;
@@ -355,7 +357,8 @@
     move-result-object p2
 
     .line 18
-    invoke-interface {v0, p2}, Landroidx/core/graphics/drawable/WrappedDrawable;->setWrappedDrawable(Landroid/graphics/drawable/Drawable;)V    return-object p1
+    invoke-interface {v0, p2}, Landroidx/core/graphics/drawable/WrappedDrawable;->setWrappedDrawable(Landroid/graphics/drawable/Drawable;)V
+return-object p1
 
     .line 22
     :cond_0
@@ -644,7 +647,8 @@
     const/4 p2, 0x3
 
     .line 158
-    invoke-direct {p1, v2, p2, v1}, Landroid/graphics/drawable/ClipDrawable;-><init>(Landroid/graphics/drawable/Drawable;II)V    return-object p1
+    invoke-direct {p1, v2, p2, v1}, Landroid/graphics/drawable/ClipDrawable;-><init>(Landroid/graphics/drawable/Drawable;II)V
+return-object p1
 
     .line 162
     :cond_8

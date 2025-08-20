@@ -216,8 +216,7 @@
     iget-object v0, p0, Landroidx/transition/PathProperty;->mProperty:Landroid/util/Property;
 
     invoke-virtual {v0, p1, p2}, Landroid/util/Property;->set(Ljava/lang/Object;Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic set(Ljava/lang/Object;Ljava/lang/Object;)V
@@ -227,7 +226,6 @@
     check-cast p2, Ljava/lang/Float;
 
     invoke-virtual {p0, p1, p2}, Landroidx/transition/PathProperty;->set(Ljava/lang/Object;Ljava/lang/Float;)V
-
-    return-void
+return-void
 .end method
 .end class

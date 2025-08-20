@@ -718,15 +718,15 @@
 
     .line 1
     invoke-static {p0, p1, p2}, Landroidx/navigation/NavController;->lifecycleObserver$lambda$2(Landroidx/navigation/NavController;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
-
-    return-void
+return-void
 .end method
 
 .method public static final synthetic access$addEntryToBackStack(Landroidx/navigation/NavController;Landroidx/navigation/NavDestination;Landroid/os/Bundle;Landroidx/navigation/NavBackStackEntry;Ljava/util/List;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/navigation/NavController;->addEntryToBackStack(Landroidx/navigation/NavDestination;Landroid/os/Bundle;Landroidx/navigation/NavBackStackEntry;Ljava/util/List;)V    return-void
+    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/navigation/NavController;->addEntryToBackStack(Landroidx/navigation/NavDestination;Landroid/os/Bundle;Landroidx/navigation/NavBackStackEntry;Ljava/util/List;)V
+return-void
 .end method
 
 .method public static final synthetic access$getAddToBackStackHandler$p(Landroidx/navigation/NavController;)Lp1/l;
@@ -817,7 +817,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Landroidx/navigation/NavController;->popEntryFromBackStack(Landroidx/navigation/NavBackStackEntry;ZLd1/h;)V    return-void
+    invoke-direct {p0, p1, p2, p3}, Landroidx/navigation/NavController;->popEntryFromBackStack(Landroidx/navigation/NavBackStackEntry;ZLd1/h;)V
+return-void
 .end method
 
 .method public static final synthetic access$setDeepLinkSaveState$cp(Z)V
@@ -2368,7 +2369,8 @@
     .line 8
     .line 9
     :cond_0
-    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/navigation/NavController;->addEntryToBackStack(Landroidx/navigation/NavDestination;Landroid/os/Bundle;Landroidx/navigation/NavBackStackEntry;Ljava/util/List;)V    return-void
+    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/navigation/NavController;->addEntryToBackStack(Landroidx/navigation/NavDestination;Landroid/os/Bundle;Landroidx/navigation/NavBackStackEntry;Ljava/util/List;)V
+return-void
 
     .line 13
     :cond_1
@@ -2954,8 +2956,7 @@
     sget-object v0, Landroidx/navigation/NavController;->Companion:Landroidx/navigation/NavController$Companion;
 
     invoke-virtual {v0, p0}, Landroidx/navigation/NavController$Companion;->enableDeepLinkSaveState(Z)V
-
-    return-void
+return-void
 .end method
 
 .method private final executePopOperations(Ljava/util/List;Landroidx/navigation/NavDestination;ZZ)Z
@@ -4608,7 +4609,8 @@
     move-result-object p1
 
     .line 31
-    invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V    return-object p1
+    invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+return-object p1
 .end method
 
 .method private final instantiateBackStack(Ld1/h;)Ljava/util/List;
@@ -6023,8 +6025,7 @@
     .line 114
     :cond_9
     invoke-virtual {v0}, Landroidx/navigation/NavController;->updateBackStackLifecycle$navigation_runtime_release()V
-
-    return-void
+return-void
 
     .line 115
     :cond_a
@@ -6057,8 +6058,7 @@
     .line 2
     :cond_1
     invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/NavController;->navigate(Ljava/lang/Object;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)V
-
-    return-void
+return-void
 
     :cond_2
     new-instance p0, Ljava/lang/UnsupportedOperationException;
@@ -6093,8 +6093,7 @@
     .line 1
     :cond_1
     invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/NavController;->navigate(Ljava/lang/String;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)V
-
-    return-void
+return-void
 
     :cond_2
     new-instance p0, Ljava/lang/UnsupportedOperationException;
@@ -6180,7 +6179,8 @@
     move-object v5, p5
 
     .line 15
-    invoke-direct/range {v0 .. v5}, Landroidx/navigation/NavController;->navigateInternal(Landroidx/navigation/Navigator;Ljava/util/List;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;Lp1/l;)V    return-void
+    invoke-direct/range {v0 .. v5}, Landroidx/navigation/NavController;->navigateInternal(Landroidx/navigation/Navigator;Ljava/util/List;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;Lp1/l;)V
+return-void
 
     .line 19
     :cond_1
@@ -6836,7 +6836,8 @@
     .line 312
     .line 313
     .line 314
-    invoke-direct {p0, v0, p1, v1, v1}, Landroidx/navigation/NavController;->navigate(Landroidx/navigation/NavDestination;Landroid/os/Bundle;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)V    return-void
+    invoke-direct {p0, v0, p1, v1, v1}, Landroidx/navigation/NavController;->navigate(Landroidx/navigation/NavDestination;Landroid/os/Bundle;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)V
+return-void
 
     .line 318
     :cond_c
@@ -7279,8 +7280,7 @@
     .line 2
     :cond_0
     invoke-direct {p0, p1, p2, p3, p4}, Landroidx/navigation/NavController;->popBackStackInternal(Landroidx/navigation/Navigator;Landroidx/navigation/NavBackStackEntry;ZLp1/l;)V
-
-    return-void
+return-void
 
     :cond_1
     new-instance p0, Ljava/lang/UnsupportedOperationException;
@@ -7764,7 +7764,8 @@
     .line 16
     .line 17
     :cond_1
-    invoke-direct {p0, p1, p2, p3}, Landroidx/navigation/NavController;->popEntryFromBackStack(Landroidx/navigation/NavBackStackEntry;ZLd1/h;)V    return-void
+    invoke-direct {p0, p1, p2, p3}, Landroidx/navigation/NavController;->popEntryFromBackStack(Landroidx/navigation/NavBackStackEntry;ZLd1/h;)V
+return-void
 
     .line 21
     :cond_2
@@ -8864,7 +8865,8 @@
 
     .line 16
     :goto_0
-    invoke-virtual {v0, v2}, Landroidx/activity/OnBackPressedCallback;->setEnabled(Z)V    return-void
+    invoke-virtual {v0, v2}, Landroidx/activity/OnBackPressedCallback;->setEnabled(Z)V
+return-void
 .end method
 
 
@@ -9089,7 +9091,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/navigation/NavDeepLinkBuilder;-><init>(Landroidx/navigation/NavController;)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/navigation/NavDeepLinkBuilder;-><init>(Landroidx/navigation/NavController;)V
+return-object v0
 .end method
 
 .method public enableOnBackPressed(Z)V
@@ -9105,7 +9108,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/navigation/NavController;->updateOnBackPressedCallbackEnabled()V    return-void
+    invoke-direct {p0}, Landroidx/navigation/NavController;->updateOnBackPressedCallbackEnabled()V
+return-void
 .end method
 
 .method public final findDestination(ILandroidx/navigation/NavDestination;)Landroidx/navigation/NavDestination;
@@ -9746,7 +9750,8 @@
 
     .line 6
     .line 7
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+return-object v0
 
     .line 11
     :cond_0
@@ -11033,8 +11038,7 @@
 
     .line 5
     invoke-virtual {p0, p1, v0}, Landroidx/navigation/NavController;->navigate(ILandroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 
 .method public navigate(ILandroid/os/Bundle;)V
@@ -11050,8 +11054,7 @@
 
     .line 6
     invoke-virtual {p0, p1, p2, v0}, Landroidx/navigation/NavController;->navigate(ILandroid/os/Bundle;Landroidx/navigation/NavOptions;)V
-
-    return-void
+return-void
 .end method
 
 .method public navigate(ILandroid/os/Bundle;Landroidx/navigation/NavOptions;)V
@@ -11067,8 +11070,7 @@
 
     .line 7
     invoke-virtual {p0, p1, p2, p3, v0}, Landroidx/navigation/NavController;->navigate(ILandroid/os/Bundle;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)V
-
-    return-void
+return-void
 .end method
 
 .method public navigate(ILandroid/os/Bundle;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)V
@@ -11395,8 +11397,7 @@
     .line 41
     :cond_c
     invoke-direct {p0, v2, v5, p3, p4}, Landroidx/navigation/NavController;->navigate(Landroidx/navigation/NavDestination;Landroid/os/Bundle;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)V
-
-    return-void
+return-void
 
     .line 42
     :cond_d
@@ -11454,8 +11455,7 @@
     invoke-direct {v0, p1, v1, v1}, Landroidx/navigation/NavDeepLinkRequest;-><init>(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0, v0}, Landroidx/navigation/NavController;->navigate(Landroidx/navigation/NavDeepLinkRequest;)V
-
-    return-void
+return-void
 .end method
 
 .method public navigate(Landroid/net/Uri;Landroidx/navigation/NavOptions;)V
@@ -11475,8 +11475,7 @@
     invoke-direct {v0, p1, v1, v1}, Landroidx/navigation/NavDeepLinkRequest;-><init>(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0, v0, p2, v1}, Landroidx/navigation/NavController;->navigate(Landroidx/navigation/NavDeepLinkRequest;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)V
-
-    return-void
+return-void
 .end method
 
 .method public navigate(Landroid/net/Uri;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)V
@@ -11496,8 +11495,7 @@
     invoke-direct {v0, p1, v1, v1}, Landroidx/navigation/NavDeepLinkRequest;-><init>(Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;)V
 
     invoke-virtual {p0, v0, p2, p3}, Landroidx/navigation/NavController;->navigate(Landroidx/navigation/NavDeepLinkRequest;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)V
-
-    return-void
+return-void
 .end method
 
 .method public navigate(Landroidx/navigation/NavDeepLinkRequest;)V
@@ -11513,8 +11511,7 @@
 
     .line 53
     invoke-virtual {p0, p1, v0}, Landroidx/navigation/NavController;->navigate(Landroidx/navigation/NavDeepLinkRequest;Landroidx/navigation/NavOptions;)V
-
-    return-void
+return-void
 .end method
 
 .method public navigate(Landroidx/navigation/NavDeepLinkRequest;Landroidx/navigation/NavOptions;)V
@@ -11530,8 +11527,7 @@
 
     .line 54
     invoke-virtual {p0, p1, p2, v0}, Landroidx/navigation/NavController;->navigate(Landroidx/navigation/NavDeepLinkRequest;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)V
-
-    return-void
+return-void
 .end method
 
 .method public navigate(Landroidx/navigation/NavDeepLinkRequest;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)V
@@ -11620,8 +11616,7 @@
 
     .line 65
     invoke-direct {p0, v0, v1, p2, p3}, Landroidx/navigation/NavController;->navigate(Landroidx/navigation/NavDestination;Landroid/os/Bundle;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)V
-
-    return-void
+return-void
 
     .line 66
     :cond_1
@@ -11712,8 +11707,7 @@
     const/4 v1, 0x0
 
     invoke-virtual {p0, v0, p1, v1}, Landroidx/navigation/NavController;->navigate(ILandroid/os/Bundle;Landroidx/navigation/NavOptions;)V
-
-    return-void
+return-void
 .end method
 
 .method public navigate(Landroidx/navigation/NavDirections;Landroidx/navigation/NavOptions;)V
@@ -11735,8 +11729,7 @@
     move-result-object p1
 
     invoke-virtual {p0, v0, p1, p2}, Landroidx/navigation/NavController;->navigate(ILandroid/os/Bundle;Landroidx/navigation/NavOptions;)V
-
-    return-void
+return-void
 .end method
 
 .method public navigate(Landroidx/navigation/NavDirections;Landroidx/navigation/Navigator$Extras;)V
@@ -11764,8 +11757,7 @@
     const/4 v1, 0x0
 
     invoke-virtual {p0, v0, p1, v1, p2}, Landroidx/navigation/NavController;->navigate(ILandroid/os/Bundle;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)V
-
-    return-void
+return-void
 .end method
 
 .method public final navigate(Ljava/lang/Object;)V
@@ -11799,8 +11791,7 @@
     move-object v2, p1
 
     invoke-static/range {v1 .. v6}, Landroidx/navigation/NavController;->navigate$default(Landroidx/navigation/NavController;Ljava/lang/Object;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;ILjava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public final navigate(Ljava/lang/Object;Landroidx/navigation/NavOptions;)V
@@ -11836,8 +11827,7 @@
     move-object v3, p2
 
     invoke-static/range {v1 .. v6}, Landroidx/navigation/NavController;->navigate$default(Landroidx/navigation/NavController;Ljava/lang/Object;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;ILjava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public final navigate(Ljava/lang/Object;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)V
@@ -11866,8 +11856,7 @@
     move-result-object p1
 
     invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/NavController;->navigate(Ljava/lang/String;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)V
-
-    return-void
+return-void
 .end method
 
 .method public final navigate(Ljava/lang/Object;Lp1/l;)V
@@ -11909,8 +11898,7 @@
     move-object v2, p1
 
     invoke-static/range {v1 .. v6}, Landroidx/navigation/NavController;->navigate$default(Landroidx/navigation/NavController;Ljava/lang/Object;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;ILjava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public final navigate(Ljava/lang/String;)V
@@ -11936,8 +11924,7 @@
     move-object v2, p1
 
     invoke-static/range {v1 .. v6}, Landroidx/navigation/NavController;->navigate$default(Landroidx/navigation/NavController;Ljava/lang/String;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;ILjava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public final navigate(Ljava/lang/String;Landroidx/navigation/NavOptions;)V
@@ -11963,8 +11950,7 @@
     move-object v3, p2
 
     invoke-static/range {v1 .. v6}, Landroidx/navigation/NavController;->navigate$default(Landroidx/navigation/NavController;Ljava/lang/String;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;ILjava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public final navigate(Ljava/lang/String;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)V
@@ -12063,8 +12049,7 @@
 
     .line 132
     invoke-direct {p0, v0, v1, p2, p3}, Landroidx/navigation/NavController;->navigate(Landroidx/navigation/NavDestination;Landroid/os/Bundle;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)V
-
-    return-void
+return-void
 
     .line 133
     :cond_1
@@ -12169,8 +12154,7 @@
     move-object v2, p1
 
     invoke-static/range {v1 .. v6}, Landroidx/navigation/NavController;->navigate$default(Landroidx/navigation/NavController;Ljava/lang/String;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;ILjava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public navigateUp()Z
@@ -13478,7 +13462,8 @@
     move-result p1
 
     .line 170
-    iput-boolean p1, p0, Landroidx/navigation/NavController;->deepLinkHandled:Z    return-void
+    iput-boolean p1, p0, Landroidx/navigation/NavController;->deepLinkHandled:Z
+return-void
 .end method
 
 .method public saveState()Landroid/os/Bundle;
@@ -14239,8 +14224,7 @@
     const/4 v0, 0x0
 
     invoke-virtual {p0, p1, v0}, Landroidx/navigation/NavController;->setGraph(Landroidx/navigation/NavGraph;Landroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 
 .method public setGraph(ILandroid/os/Bundle;)V
@@ -14265,8 +14249,7 @@
     move-result-object p1
 
     invoke-virtual {p0, p1, p2}, Landroidx/navigation/NavController;->setGraph(Landroidx/navigation/NavGraph;Landroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 
 .method public setGraph(Landroidx/navigation/NavGraph;)V
@@ -14285,8 +14268,7 @@
 
     .line 1
     invoke-virtual {p0, p1, v0}, Landroidx/navigation/NavController;->setGraph(Landroidx/navigation/NavGraph;Landroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 
 .method public setGraph(Landroidx/navigation/NavGraph;Landroid/os/Bundle;)V
@@ -14416,8 +14398,7 @@
 
     .line 12
     invoke-direct {p0, p2}, Landroidx/navigation/NavController;->onGraphCreated(Landroid/os/Bundle;)V
-
-    return-void
+return-void
 
     :cond_4
     move-object v3, p0
@@ -14694,7 +14675,8 @@
 
     .line 37
     .line 38
-    invoke-virtual {p1, v0}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V    return-void
+    invoke-virtual {p1, v0}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
+return-void
 .end method
 
 .method public setNavigatorProvider(Landroidx/navigation/NavigatorProvider;)V
@@ -14835,7 +14817,8 @@
 
     .line 41
     .line 42
-    invoke-virtual {p1, v0}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V    return-void
+    invoke-virtual {p1, v0}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
+return-void
 
     .line 46
     :cond_1

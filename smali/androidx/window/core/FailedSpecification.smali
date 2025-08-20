@@ -969,8 +969,7 @@
     const-string p1, "condition"
 
     invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object p0
+return-object p0
 .end method
 
 .end class

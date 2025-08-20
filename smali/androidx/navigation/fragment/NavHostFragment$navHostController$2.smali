@@ -37,8 +37,7 @@
     const/4 p1, 0x0
 
     invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic a(Landroidx/navigation/NavHostController;)Landroid/os/Bundle;
@@ -192,7 +191,8 @@
 
     .line 41
     .line 42
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object p0
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+return-object p0
 .end method
 
 
@@ -310,8 +310,7 @@
     move-result v0
 
     invoke-virtual {v1, v0}, Landroidx/navigation/NavController;->setGraph(I)V
-
-    return-object v1
+return-object v1
 
     .line 15
     :cond_2

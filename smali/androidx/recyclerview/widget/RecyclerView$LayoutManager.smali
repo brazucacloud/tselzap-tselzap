@@ -146,7 +146,8 @@
 
     .line 41
     .line 42
-    iput-boolean v0, p0, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->mItemPrefetchEnabled:Z    return-void
+    iput-boolean v0, p0, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->mItemPrefetchEnabled:Z
+return-void
 .end method
 
 .method private addViewInt(Landroid/view/View;IZ)V
@@ -1153,7 +1154,8 @@
 
     .line 45
     .line 46
-    invoke-virtual {p0}, Landroid/content/res/TypedArray;->recycle()V    return-object v0
+    invoke-virtual {p0}, Landroid/content/res/TypedArray;->recycle()V
+return-object v0
 .end method
 
 .method private isFocusedChildVisibleAfterScrolling(Landroidx/recyclerview/widget/RecyclerView;II)Z
@@ -1738,7 +1740,8 @@
     const/4 p1, 0x0
 
     .line 6
-    invoke-virtual {p2, p1, p1, p1, p1}, Landroid/graphics/Rect;->set(IIII)V    return-void
+    invoke-virtual {p2, p1, p1, p1, p1}, Landroid/graphics/Rect;->set(IIII)V
+return-void
 
     .line 10
     :cond_0
@@ -1750,7 +1753,8 @@
     move-result-object p1
 
     .line 14
-    invoke-virtual {p2, p1}, Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V    return-void
+    invoke-virtual {p2, p1}, Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V
+return-void
 .end method
 
 .method public canScrollHorizontally()Z
@@ -3585,7 +3589,8 @@
     move-result p1
 
     .line 116
-    invoke-virtual {p3, p2, p1}, Landroid/graphics/Rect;->offset(II)V    return-void
+    invoke-virtual {p3, p2, p1}, Landroid/graphics/Rect;->offset(II)V
+return-void
 .end method
 
 .method public getWidth()I
@@ -5019,8 +5024,7 @@
 
     .line 15
     invoke-virtual {p3, p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setCollectionInfo(Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public onInitializeAccessibilityNodeInfoForItem(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V
@@ -5137,8 +5141,7 @@
 
     .line 7
     invoke-virtual {p4, p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setCollectionItemInfo(Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public onInterceptFocusSearch(Landroid/view/View;I)Landroid/view/View;
@@ -6362,7 +6365,8 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->mRequestedSimpleAnimations:Z    return-void
+    iput-boolean v0, p0, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->mRequestedSimpleAnimations:Z
+return-void
 .end method
 
 .method public scrollHorizontallyBy(ILandroidx/recyclerview/widget/RecyclerView$Recycler;Landroidx/recyclerview/widget/RecyclerView$State;)I
@@ -6426,7 +6430,8 @@
     .end annotation
 
     .line 1
-    iput-boolean p1, p0, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->mAutoMeasure:Z    return-void
+    iput-boolean p1, p0, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->mAutoMeasure:Z
+return-void
 .end method
 
 .method public setExactMeasureSpecsFrom(Landroidx/recyclerview/widget/RecyclerView;)V
@@ -6843,7 +6848,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->mMeasurementCacheEnabled:Z    return-void
+    iput-boolean p1, p0, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->mMeasurementCacheEnabled:Z
+return-void
 .end method
 
 .method public setRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V

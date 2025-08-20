@@ -29,7 +29,8 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/navigation/CollectionNavType;-><init>(Z)V    return-void
+    invoke-direct {p0, v0}, Landroidx/navigation/CollectionNavType;-><init>(Z)V
+return-void
 .end method
 
 
@@ -190,8 +191,7 @@
 
     .line 10
     invoke-static {p2}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
-
-    return-object p2
+return-object p2
 
     :cond_0
     return-object p1
@@ -204,8 +204,7 @@
     check-cast p3, [D
 
     invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/serialization/InternalNavType$DoubleArrayType$1;->put(Landroid/os/Bundle;Ljava/lang/String;[D)V
-
-    return-void
+return-void
 .end method
 
 .method public put(Landroid/os/Bundle;Ljava/lang/String;[D)V
@@ -221,8 +220,7 @@
 
     .line 2
     invoke-virtual {p1, p2, p3}, Landroid/os/BaseBundle;->putDoubleArray(Ljava/lang/String;[D)V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic serializeAsValues(Ljava/lang/Object;)Ljava/util/List;

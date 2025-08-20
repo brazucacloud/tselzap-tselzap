@@ -16,7 +16,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/app/Service;-><init>()V    return-void
+    invoke-direct {p0}, Landroid/app/Service;-><init>()V
+return-void
 .end method
 
 .method public static getServiceInfo(Landroid/content/Context;)Landroid/content/pm/ServiceInfo;

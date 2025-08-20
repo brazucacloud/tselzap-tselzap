@@ -77,8 +77,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/collection/SimpleArrayMap;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -86,8 +85,7 @@
 
     .line 2
     invoke-direct {p0, p1}, Landroidx/collection/SimpleArrayMap;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/collection/SimpleArrayMap;)V
@@ -99,8 +97,7 @@
 
     .line 3
     invoke-direct {p0, p1}, Landroidx/collection/SimpleArrayMap;-><init>(Landroidx/collection/SimpleArrayMap;)V
-
-    return-void
+return-void
 .end method
 
 .method public static equalsSetHelper(Ljava/util/Set;Ljava/lang/Object;)Z

@@ -218,8 +218,7 @@
 
     :goto_0
     iput-boolean p1, p0, Landroidx/fragment/app/BackStackRecordState;->mReorderingAllowed:Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/fragment/app/BackStackRecord;)V
@@ -419,8 +418,7 @@
     iget-boolean p1, p1, Landroidx/fragment/app/FragmentTransaction;->mReorderingAllowed:Z
 
     iput-boolean p1, p0, Landroidx/fragment/app/BackStackRecordState;->mReorderingAllowed:Z
-
-    return-void
+return-void
 
     .line 28
     :cond_2
@@ -803,7 +801,8 @@
 
     .line 179
     .line 180
-    iput-boolean v0, p1, Landroidx/fragment/app/FragmentTransaction;->mReorderingAllowed:Z    return-void
+    iput-boolean v0, p1, Landroidx/fragment/app/FragmentTransaction;->mReorderingAllowed:Z
+return-void
 .end method
 
 
@@ -886,8 +885,7 @@
 
     .line 7
     invoke-virtual {v0, p1}, Landroidx/fragment/app/BackStackRecord;->bumpBackStackNesting(I)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public instantiate(Landroidx/fragment/app/FragmentManager;Ljava/util/Map;)Landroidx/fragment/app/BackStackRecord;
@@ -1138,6 +1136,7 @@
 
     .line 68
     .line 69
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V    return-void
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
+return-void
 .end method
 .end class

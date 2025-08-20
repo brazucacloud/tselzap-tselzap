@@ -29,8 +29,7 @@
 
     .line 1
     invoke-static {p0, p1}, Lcom/fmark/tselzap/Utils/Tools;->lambda$textToUnicode$1(Ljava/lang/StringBuilder;I)V
-
-    return-void
+return-void
 .end method
 
 .method public static addContact(Landroid/content/Context;Ljava/lang/String;)V
@@ -272,8 +271,7 @@
 
     .line 1
     invoke-static {p2, p0, p1}, Lcom/fmark/tselzap/Utils/Tools;->lambda$timer$0(Ljava/util/concurrent/TimeUnit;J)V
-
-    return-void
+return-void
 .end method
 
 .method public static convertUrlToLocalUri(Landroid/content/Context;Ljava/lang/String;Lcom/fmark/tselzap/Utils/Tools$UriConversionListener;)V
@@ -1258,8 +1256,7 @@
     move-result-object p0
 
     invoke-virtual {p0}, Landroid/widget/Toast;->show()V
-
-    return-void
+return-void
 .end method
 
 .method public static logError(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
@@ -1337,8 +1334,7 @@
     move-result-object p0
 
     invoke-virtual {p0}, Landroid/widget/Toast;->show()V
-
-    return-void
+return-void
 .end method
 
 .method public static navigateToFragment(Landroid/app/Activity;Landroidx/fragment/app/Fragment;I)V
@@ -1812,8 +1808,7 @@
     sget-object v0, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     invoke-static {p0, p1, v0}, Lcom/fmark/tselzap/Utils/Tools;->timer(JLjava/util/concurrent/TimeUnit;)V
-
-    return-void
+return-void
 .end method
 
 .method public static timer(JLjava/util/concurrent/TimeUnit;)V
@@ -1867,8 +1862,7 @@
 
     .line 8
     invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;->shutdown()V
-
-    return-void
+return-void
 
     :catchall_0
     move-exception p0
@@ -1893,8 +1887,7 @@
 
     .line 11
     invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;->shutdown()V
-
-    return-void
+return-void
 
     :goto_0
     invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;->shutdown()V
@@ -1905,8 +1898,7 @@
     .line 13
     :cond_0
     invoke-static {p0, p1, p2}, Lcom/fmark/tselzap/Utils/Tools;->executeDelayFallback(JLjava/util/concurrent/TimeUnit;)V
-
-    return-void
+return-void
 .end method
 
 .end class

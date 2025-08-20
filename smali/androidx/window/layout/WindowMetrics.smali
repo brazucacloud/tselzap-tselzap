@@ -26,8 +26,7 @@
     invoke-direct {v0, p1}, Landroidx/window/core/Bounds;-><init>(Landroid/graphics/Rect;)V
 
     invoke-direct {p0, v0}, Landroidx/window/layout/WindowMetrics;-><init>(Landroidx/window/core/Bounds;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/window/core/Bounds;)V

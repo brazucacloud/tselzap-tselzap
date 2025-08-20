@@ -157,7 +157,8 @@
     .line 50
     .line 51
     .line 52
-    invoke-virtual {p0, p2}, Landroidx/recyclerview/widget/ItemTouchHelper$RecoverAnimation;->setFraction(F)V    return-void
+    invoke-virtual {p0, p2}, Landroidx/recyclerview/widget/ItemTouchHelper$RecoverAnimation;->setFraction(F)V
+return-void
 
     .line 56
     nop
@@ -179,7 +180,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/animation/ValueAnimator;->cancel()V    return-void
+    invoke-virtual {v0}, Landroid/animation/ValueAnimator;->cancel()V
+return-void
 .end method
 
 .method public onAnimationCancel(Landroid/animation/Animator;)V
@@ -190,7 +192,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/ItemTouchHelper$RecoverAnimation;->setFraction(F)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/ItemTouchHelper$RecoverAnimation;->setFraction(F)V
+return-void
 .end method
 
 .method public onAnimationEnd(Landroid/animation/Animator;)V
@@ -218,7 +221,8 @@
     .line 10
     .line 11
     :cond_0
-    iput-boolean v0, p0, Landroidx/recyclerview/widget/ItemTouchHelper$RecoverAnimation;->mEnded:Z    return-void
+    iput-boolean v0, p0, Landroidx/recyclerview/widget/ItemTouchHelper$RecoverAnimation;->mEnded:Z
+return-void
 .end method
 
 .method public onAnimationRepeat(Landroid/animation/Animator;)V
@@ -271,7 +275,8 @@
 
     .line 8
     .line 9
-    invoke-virtual {v0}, Landroid/animation/ValueAnimator;->start()V    return-void
+    invoke-virtual {v0}, Landroid/animation/ValueAnimator;->start()V
+return-void
 .end method
 
 .method public update()V

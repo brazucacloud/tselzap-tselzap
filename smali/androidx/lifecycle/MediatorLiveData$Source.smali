@@ -155,7 +155,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0}, Landroidx/lifecycle/LiveData;->observeForever(Landroidx/lifecycle/Observer;)V    return-void
+    invoke-virtual {v0, p0}, Landroidx/lifecycle/LiveData;->observeForever(Landroidx/lifecycle/Observer;)V
+return-void
 .end method
 
 .method public unplug()V
@@ -166,6 +167,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0}, Landroidx/lifecycle/LiveData;->removeObserver(Landroidx/lifecycle/Observer;)V    return-void
+    invoke-virtual {v0, p0}, Landroidx/lifecycle/LiveData;->removeObserver(Landroidx/lifecycle/Observer;)V
+return-void
 .end method
 .end class

@@ -71,8 +71,7 @@
     iget-object v0, p0, Landroidx/core/provider/FontRequestWorker$2;->val$callback:Landroidx/core/provider/CallbackWithHandler;
 
     invoke-virtual {v0, p1}, Landroidx/core/provider/CallbackWithHandler;->onTypefaceResult(Landroidx/core/provider/FontRequestWorker$TypefaceResult;)V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic accept(Ljava/lang/Object;)V
@@ -82,8 +81,7 @@
     check-cast p1, Landroidx/core/provider/FontRequestWorker$TypefaceResult;
 
     invoke-virtual {p0, p1}, Landroidx/core/provider/FontRequestWorker$2;->accept(Landroidx/core/provider/FontRequestWorker$TypefaceResult;)V
-
-    return-void
+return-void
 .end method
 
 .end class

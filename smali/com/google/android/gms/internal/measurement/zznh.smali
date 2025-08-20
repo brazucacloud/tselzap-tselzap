@@ -701,8 +701,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/google/android/gms/internal/measurement/zznh;-><init>(Ljava/lang/String;ILcom/google/android/gms/internal/measurement/zzno;I)V
-
-    return-void
+return-void
 .end method
 
 .method public static values()[Lcom/google/android/gms/internal/measurement/zznh;

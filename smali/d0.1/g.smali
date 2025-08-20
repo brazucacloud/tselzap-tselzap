@@ -120,8 +120,7 @@
 
     :cond_2
     iput-boolean v0, p0, Ld0/g;->f:Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/os/Parcelable;Lcom/google/android/material/bottomsheet/BottomSheetBehavior;)V
@@ -157,8 +156,7 @@
 
     .line 15
     iput-boolean p1, p0, Ld0/g;->f:Z
-
-    return-void
+return-void
 .end method
 
 

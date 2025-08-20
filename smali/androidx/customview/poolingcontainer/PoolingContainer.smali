@@ -64,7 +64,8 @@
     move-result-object p0
 
     .line 15
-    invoke-virtual {p0, p1}, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;->addListener(Landroidx/customview/poolingcontainer/PoolingContainerListener;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;->addListener(Landroidx/customview/poolingcontainer/PoolingContainerListener;)V
+return-void
 .end method
 
 .method public static final callPoolingContainerOnRelease(Landroid/view/View;)V
@@ -446,7 +447,8 @@
     move-result-object p0
 
     .line 15
-    invoke-virtual {p0, p1}, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;->removeListener(Landroidx/customview/poolingcontainer/PoolingContainerListener;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/customview/poolingcontainer/PoolingContainerListenerHolder;->removeListener(Landroidx/customview/poolingcontainer/PoolingContainerListener;)V
+return-void
 .end method
 
 .method public static final setPoolingContainer(Landroid/view/View;Z)V

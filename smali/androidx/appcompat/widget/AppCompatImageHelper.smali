@@ -350,7 +350,8 @@
     move-result-object v2
 
     .line 37
-    invoke-static {v0, v1, v2}, Landroidx/appcompat/widget/AppCompatDrawableManager;->tintDrawable(Landroid/graphics/drawable/Drawable;Landroidx/appcompat/widget/TintInfo;[I)V    return-void
+    invoke-static {v0, v1, v2}, Landroidx/appcompat/widget/AppCompatDrawableManager;->tintDrawable(Landroid/graphics/drawable/Drawable;Landroidx/appcompat/widget/TintInfo;[I)V
+return-void
 
     .line 41
     :cond_2
@@ -701,7 +702,8 @@
     .line 111
     .line 112
     :cond_3
-    invoke-virtual {v8}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V    return-void
+    invoke-virtual {v8}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V
+return-void
 
     .line 116
     :goto_1
@@ -795,7 +797,8 @@
     .line 29
     .line 30
     :goto_0
-    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatImageHelper;->applySupportImageTint()V    return-void
+    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatImageHelper;->applySupportImageTint()V
+return-void
 .end method
 
 .method public setInternalImageTint(Landroid/content/res/ColorStateList;)V
@@ -855,7 +858,8 @@
     .line 24
     .line 25
     :goto_0
-    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatImageHelper;->applySupportImageTint()V    return-void
+    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatImageHelper;->applySupportImageTint()V
+return-void
 .end method
 
 .method public setSupportImageTintList(Landroid/content/res/ColorStateList;)V
@@ -899,7 +903,8 @@
 
     .line 18
     .line 19
-    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatImageHelper;->applySupportImageTint()V    return-void
+    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatImageHelper;->applySupportImageTint()V
+return-void
 .end method
 
 .method public setSupportImageTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -943,6 +948,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatImageHelper;->applySupportImageTint()V    return-void
+    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatImageHelper;->applySupportImageTint()V
+return-void
 .end method
 .end class

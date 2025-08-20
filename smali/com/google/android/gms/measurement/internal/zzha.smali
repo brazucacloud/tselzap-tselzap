@@ -143,8 +143,7 @@
     iget-object p0, p0, Lcom/google/android/gms/measurement/internal/zzha;->zze:Ljava/util/concurrent/atomic/AtomicLong;
 
     invoke-virtual {p0, p1, p2}, Ljava/util/concurrent/atomic/AtomicLong;->set(J)V
-
-    return-void
+return-void
 .end method
 
 

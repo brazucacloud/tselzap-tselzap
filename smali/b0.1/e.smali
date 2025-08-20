@@ -32,7 +32,8 @@
 
     .line 7
     .line 8
-    iput-boolean p3, p0, Lb0/e;->c:Z    return-void
+    iput-boolean p3, p0, Lb0/e;->c:Z
+return-void
 .end method
 
 

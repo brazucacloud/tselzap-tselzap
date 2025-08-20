@@ -154,8 +154,7 @@
 
     .line 2
     invoke-direct {p0, p1, v0, v0}, Lcom/google/android/gms/common/ConnectionResult;-><init>(ILandroid/app/PendingIntent;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(IILandroid/app/PendingIntent;Ljava/lang/String;)V
@@ -214,8 +213,7 @@
 
     .line 3
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/gms/common/ConnectionResult;-><init>(ILandroid/app/PendingIntent;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(ILandroid/app/PendingIntent;Ljava/lang/String;)V
@@ -233,8 +231,7 @@
 
     .line 4
     invoke-direct {p0, v0, p1, p2, p3}, Lcom/google/android/gms/common/ConnectionResult;-><init>(IILandroid/app/PendingIntent;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public static zza(I)Ljava/lang/String;

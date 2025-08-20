@@ -173,8 +173,7 @@
     iput p3, p0, Lcom/google/android/gms/common/api/ComplianceOptions;->zzd:I
 
     iput-boolean p4, p0, Lcom/google/android/gms/common/api/ComplianceOptions;->zze:Z
-
-    return-void
+return-void
 .end method
 
 .method public static newBuilder()Lcom/google/android/gms/common/api/ComplianceOptions$Builder;
@@ -189,8 +188,7 @@
     new-instance v0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;
 
     invoke-direct {v0}, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;-><init>()V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final newBuilder(Landroid/content/Context;)Lcom/google/android/gms/common/api/ComplianceOptions$Builder;

@@ -68,7 +68,8 @@
     const/4 p1, 0x2
 
     .line 6
-    invoke-direct {p0, p1, p3}, Li1/i;-><init>(ILg1/d;)V    return-void
+    invoke-direct {p0, p1, p3}, Li1/i;-><init>(ILg1/d;)V
+return-void
 .end method
 
 

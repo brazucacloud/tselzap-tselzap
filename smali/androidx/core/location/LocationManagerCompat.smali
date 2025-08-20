@@ -101,8 +101,7 @@
 
     .line 1
     invoke-static {p0, p1}, Landroidx/core/location/LocationManagerCompat;->lambda$getCurrentLocation$0(Landroidx/core/util/Consumer;Landroid/location/Location;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic b(Landroid/location/LocationManager;Landroidx/core/location/LocationManagerCompat$GpsStatusTransport;)Ljava/lang/Boolean;
@@ -167,8 +166,7 @@
 
     .line 4
     invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/location/LocationManagerCompat$Api30Impl;->getCurrentLocation(Landroid/location/LocationManager;Ljava/lang/String;Landroid/os/CancellationSignal;Ljava/util/concurrent/Executor;Landroidx/core/util/Consumer;)V
-
-    return-void
+return-void
 
     :cond_0
     if-eqz p2, :cond_1
@@ -209,8 +207,7 @@
     invoke-direct {p0, p4, v0, p1}, Landroidx/core/location/f;-><init>(Landroidx/core/util/Consumer;Landroid/location/Location;I)V
 
     invoke-interface {p3, p0}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
-
-    return-void
+return-void
 
     .line 9
     :cond_2
@@ -248,8 +245,7 @@
 
     .line 13
     invoke-virtual {v6, p0, p1}, Landroidx/core/location/LocationManagerCompat$CancellableLocationListener;->startTimeout(J)V
-
-    return-void
+return-void
 .end method
 
 .method public static getCurrentLocation(Landroid/location/LocationManager;Ljava/lang/String;Landroidx/core/os/CancellationSignal;Ljava/util/concurrent/Executor;Landroidx/core/util/Consumer;)V
@@ -314,8 +310,7 @@
     .line 2
     :goto_0
     invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/location/LocationManagerCompat;->getCurrentLocation(Landroid/location/LocationManager;Ljava/lang/String;Landroid/os/CancellationSignal;Ljava/util/concurrent/Executor;Landroidx/core/util/Consumer;)V
-
-    return-void
+return-void
 .end method
 
 .method public static getGnssHardwareModelName(Landroid/location/LocationManager;)Ljava/lang/String;
@@ -2877,8 +2872,7 @@
 
     .line 17
     invoke-static {p0, p1, p2, p4, p3}, Landroidx/core/location/LocationManagerCompat$Api31Impl;->requestLocationUpdates(Landroid/location/LocationManager;Ljava/lang/String;Landroid/location/LocationRequest;Ljava/util/concurrent/Executor;Landroid/location/LocationListener;)V
-
-    return-void
+return-void
 
     .line 18
     :cond_0
@@ -2911,8 +2905,7 @@
 
     .line 21
     invoke-virtual/range {v1 .. v7}, Landroid/location/LocationManager;->requestLocationUpdates(Ljava/lang/String;JFLandroid/location/LocationListener;Landroid/os/Looper;)V
-
-    return-void
+return-void
 .end method
 
 .method public static requestLocationUpdates(Landroid/location/LocationManager;Ljava/lang/String;Landroidx/core/location/LocationRequestCompat;Ljava/util/concurrent/Executor;Landroidx/core/location/LocationListenerCompat;)V
@@ -2958,8 +2951,7 @@
 
     .line 3
     invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/location/LocationManagerCompat$Api31Impl;->requestLocationUpdates(Landroid/location/LocationManager;Ljava/lang/String;Landroid/location/LocationRequest;Ljava/util/concurrent/Executor;Landroid/location/LocationListener;)V
-
-    return-void
+return-void
 
     :cond_0
     const/16 v1, 0x1e

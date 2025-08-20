@@ -118,8 +118,7 @@
 
     .line 1
     invoke-direct/range {p0 .. p7}, Lcom/google/firebase/FirebaseOptions;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic access$000(Lcom/google/firebase/FirebaseOptions;)Ljava/lang/String;

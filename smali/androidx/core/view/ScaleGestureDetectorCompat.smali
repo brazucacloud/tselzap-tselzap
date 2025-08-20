@@ -55,8 +55,7 @@
 
     .line 2
     invoke-virtual {p0, p1}, Landroid/view/ScaleGestureDetector;->setQuickScaleEnabled(Z)V
-
-    return-void
+return-void
 .end method
 
 .method public static setQuickScaleEnabled(Ljava/lang/Object;Z)V
@@ -68,8 +67,7 @@
     check-cast p0, Landroid/view/ScaleGestureDetector;
 
     invoke-static {p0, p1}, Landroidx/core/view/ScaleGestureDetectorCompat;->setQuickScaleEnabled(Landroid/view/ScaleGestureDetector;Z)V
-
-    return-void
+return-void
 .end method
 
 .end class

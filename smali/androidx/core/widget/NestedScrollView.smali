@@ -4944,8 +4944,7 @@
     move-object v7, p7
 
     invoke-virtual/range {v0 .. v7}, Landroidx/core/view/NestedScrollingChildHelper;->dispatchNestedScroll(IIII[II[I)V
-
-    return-void
+return-void
 .end method
 
 .method public dispatchNestedScroll(IIII[I)Z
@@ -10374,8 +10373,7 @@
     iget-object v0, p0, Landroidx/core/widget/NestedScrollView;->mChildHelper:Landroidx/core/view/NestedScrollingChildHelper;
 
     invoke-virtual {v0, p1}, Landroidx/core/view/NestedScrollingChildHelper;->stopNestedScroll(I)V
-
-    return-void
+return-void
 .end method
 
 .end class

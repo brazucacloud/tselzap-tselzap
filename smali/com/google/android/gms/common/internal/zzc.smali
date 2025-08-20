@@ -27,8 +27,7 @@
     const/4 p1, 0x0
 
     iput-boolean p1, p0, Lcom/google/android/gms/common/internal/zzc;->zzb:Z
-
-    return-void
+return-void
 .end method
 
 

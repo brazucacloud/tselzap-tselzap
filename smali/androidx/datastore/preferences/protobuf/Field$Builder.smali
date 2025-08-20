@@ -37,8 +37,7 @@
     move-result-object v0
 
     invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;-><init>(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Landroidx/datastore/preferences/protobuf/Field$1;)V
@@ -46,8 +45,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field$Builder;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -99,8 +97,7 @@
     check-cast v0, Landroidx/datastore/preferences/protobuf/Field;
 
     invoke-static {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/Field;->access$2400(Landroidx/datastore/preferences/protobuf/Field;ILandroidx/datastore/preferences/protobuf/Option$Builder;)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public addOptions(ILandroidx/datastore/preferences/protobuf/Option;)Landroidx/datastore/preferences/protobuf/Field$Builder;
@@ -115,8 +112,7 @@
     check-cast v0, Landroidx/datastore/preferences/protobuf/Field;
 
     invoke-static {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/Field;->access$2200(Landroidx/datastore/preferences/protobuf/Field;ILandroidx/datastore/preferences/protobuf/Option;)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public addOptions(Landroidx/datastore/preferences/protobuf/Option$Builder;)Landroidx/datastore/preferences/protobuf/Field$Builder;
@@ -131,8 +127,7 @@
     check-cast v0, Landroidx/datastore/preferences/protobuf/Field;
 
     invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Field;->access$2300(Landroidx/datastore/preferences/protobuf/Field;Landroidx/datastore/preferences/protobuf/Option$Builder;)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public addOptions(Landroidx/datastore/preferences/protobuf/Option;)Landroidx/datastore/preferences/protobuf/Field$Builder;
@@ -147,8 +142,7 @@
     check-cast v0, Landroidx/datastore/preferences/protobuf/Field;
 
     invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Field;->access$2100(Landroidx/datastore/preferences/protobuf/Field;Landroidx/datastore/preferences/protobuf/Option;)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public clearCardinality()Landroidx/datastore/preferences/protobuf/Field$Builder;
@@ -1150,8 +1144,7 @@
     check-cast v0, Landroidx/datastore/preferences/protobuf/Field;
 
     invoke-static {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/Field;->access$2000(Landroidx/datastore/preferences/protobuf/Field;ILandroidx/datastore/preferences/protobuf/Option$Builder;)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setOptions(ILandroidx/datastore/preferences/protobuf/Option;)Landroidx/datastore/preferences/protobuf/Field$Builder;
@@ -1166,8 +1159,7 @@
     check-cast v0, Landroidx/datastore/preferences/protobuf/Field;
 
     invoke-static {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/Field;->access$1900(Landroidx/datastore/preferences/protobuf/Field;ILandroidx/datastore/preferences/protobuf/Option;)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public setPacked(Z)Landroidx/datastore/preferences/protobuf/Field$Builder;

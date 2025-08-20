@@ -20,8 +20,7 @@
 
     .line 1
     invoke-direct {p0, v0}, Landroidx/emoji2/text/flatbuffer/ArrayReadWriteBuf;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -31,8 +30,7 @@
     new-array p1, p1, [B
 
     invoke-direct {p0, p1}, Landroidx/emoji2/text/flatbuffer/ArrayReadWriteBuf;-><init>([B)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>([B)V
@@ -772,8 +770,7 @@
     iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/ArrayReadWriteBuf;->buffer:[B
 
     invoke-static {p2, p3, v0, p1, p4}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
-
-    return-void
+return-void
 .end method
 
 .method public setBoolean(IZ)V

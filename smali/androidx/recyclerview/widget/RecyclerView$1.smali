@@ -30,7 +30,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 
@@ -79,7 +80,8 @@
 
     .line 19
     .line 20
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V    return-void
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V
+return-void
 
     .line 24
     :cond_1
@@ -94,7 +96,8 @@
     const/4 v1, 0x1
 
     .line 29
-    iput-boolean v1, v0, Landroidx/recyclerview/widget/RecyclerView;->mLayoutWasDefered:Z    return-void
+    iput-boolean v1, v0, Landroidx/recyclerview/widget/RecyclerView;->mLayoutWasDefered:Z
+return-void
 
     .line 32
     :cond_2

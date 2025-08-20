@@ -379,7 +379,8 @@
 
     .line 14
     .line 15
-    invoke-virtual {v1, v0}, Landroid/os/Parcel;->readByteArray([B)V    return-object v0
+    invoke-virtual {v1, v0}, Landroid/os/Parcel;->readByteArray([B)V
+return-object v0
 .end method
 
 .method public readCharSequence()Ljava/lang/CharSequence;
@@ -733,7 +734,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/os/Parcel;->writeInt(I)V    return-void
+    invoke-virtual {v0, p1}, Landroid/os/Parcel;->writeInt(I)V
+return-void
 .end method
 
 .method public writeBundle(Landroid/os/Bundle;)V
@@ -744,7 +746,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/os/Parcel;->writeBundle(Landroid/os/Bundle;)V    return-void
+    invoke-virtual {v0, p1}, Landroid/os/Parcel;->writeBundle(Landroid/os/Bundle;)V
+return-void
 .end method
 
 .method public writeByteArray([B)V
@@ -763,8 +766,7 @@
     iget-object v0, p0, Landroidx/versionedparcelable/VersionedParcelParcel;->mParcel:Landroid/os/Parcel;
 
     invoke-virtual {v0, p1}, Landroid/os/Parcel;->writeByteArray([B)V
-
-    return-void
+return-void
 
     .line 3
     :cond_0
@@ -773,8 +775,7 @@
     const/4 v0, -0x1
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
-
-    return-void
+return-void
 .end method
 
 .method public writeByteArray([BII)V
@@ -793,8 +794,7 @@
     iget-object v0, p0, Landroidx/versionedparcelable/VersionedParcelParcel;->mParcel:Landroid/os/Parcel;
 
     invoke-virtual {v0, p1, p2, p3}, Landroid/os/Parcel;->writeByteArray([BII)V
-
-    return-void
+return-void
 
     .line 6
     :cond_0
@@ -803,8 +803,7 @@
     const/4 p2, -0x1
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
-
-    return-void
+return-void
 .end method
 
 .method public writeCharSequence(Ljava/lang/CharSequence;)V
@@ -818,7 +817,8 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-static {p1, v0, v1}, Landroid/text/TextUtils;->writeToParcel(Ljava/lang/CharSequence;Landroid/os/Parcel;I)V    return-void
+    invoke-static {p1, v0, v1}, Landroid/text/TextUtils;->writeToParcel(Ljava/lang/CharSequence;Landroid/os/Parcel;I)V
+return-void
 .end method
 
 .method public writeDouble(D)V
@@ -829,7 +829,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroid/os/Parcel;->writeDouble(D)V    return-void
+    invoke-virtual {v0, p1, p2}, Landroid/os/Parcel;->writeDouble(D)V
+return-void
 .end method
 
 .method public writeFloat(F)V
@@ -840,7 +841,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/os/Parcel;->writeFloat(F)V    return-void
+    invoke-virtual {v0, p1}, Landroid/os/Parcel;->writeFloat(F)V
+return-void
 .end method
 
 .method public writeInt(I)V
@@ -851,7 +853,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/os/Parcel;->writeInt(I)V    return-void
+    invoke-virtual {v0, p1}, Landroid/os/Parcel;->writeInt(I)V
+return-void
 .end method
 
 .method public writeLong(J)V
@@ -862,7 +865,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroid/os/Parcel;->writeLong(J)V    return-void
+    invoke-virtual {v0, p1, p2}, Landroid/os/Parcel;->writeLong(J)V
+return-void
 .end method
 
 .method public writeParcelable(Landroid/os/Parcelable;)V
@@ -876,7 +880,8 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-virtual {v0, p1, v1}, Landroid/os/Parcel;->writeParcelable(Landroid/os/Parcelable;I)V    return-void
+    invoke-virtual {v0, p1, v1}, Landroid/os/Parcel;->writeParcelable(Landroid/os/Parcelable;I)V
+return-void
 .end method
 
 .method public writeString(Ljava/lang/String;)V
@@ -887,7 +892,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V    return-void
+    invoke-virtual {v0, p1}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+return-void
 .end method
 
 .method public writeStrongBinder(Landroid/os/IBinder;)V
@@ -898,7 +904,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/os/Parcel;->writeStrongBinder(Landroid/os/IBinder;)V    return-void
+    invoke-virtual {v0, p1}, Landroid/os/Parcel;->writeStrongBinder(Landroid/os/IBinder;)V
+return-void
 .end method
 
 .method public writeStrongInterface(Landroid/os/IInterface;)V
@@ -909,6 +916,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/os/Parcel;->writeStrongInterface(Landroid/os/IInterface;)V    return-void
+    invoke-virtual {v0, p1}, Landroid/os/Parcel;->writeStrongInterface(Landroid/os/IInterface;)V
+return-void
 .end method
 .end class

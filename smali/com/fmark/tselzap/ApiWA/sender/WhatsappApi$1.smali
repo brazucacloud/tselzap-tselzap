@@ -374,8 +374,7 @@
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/fmark/tselzap/ApiWA/sender/WhatsappApi$1;->onPostExecute(Ljava/lang/Boolean;)V
-
-    return-void
+return-void
 .end method
 
 .end class

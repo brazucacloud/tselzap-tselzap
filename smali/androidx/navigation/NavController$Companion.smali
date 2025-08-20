@@ -20,8 +20,7 @@
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Lkotlin/jvm/internal/e;)V
@@ -29,8 +28,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/navigation/NavController$Companion;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic getKEY_DEEP_LINK_EXTRAS$annotations()V
@@ -47,6 +45,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p1}, Landroidx/navigation/NavController;->access$setDeepLinkSaveState$cp(Z)V    return-void
+    invoke-static {p1}, Landroidx/navigation/NavController;->access$setDeepLinkSaveState$cp(Z)V
+return-void
 .end method
 .end class

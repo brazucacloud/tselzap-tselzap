@@ -434,6 +434,7 @@
 
     .line 4
     .line 5
-    invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z    return-object p0
+    invoke-interface {v0, v1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
+return-object p0
 .end method
 .end class

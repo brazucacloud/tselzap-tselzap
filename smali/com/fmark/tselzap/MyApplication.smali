@@ -25,8 +25,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2}, Lcom/fmark/tselzap/MyApplication;->lambda$onCreate$0(Ljava/lang/Thread;Ljava/lang/Throwable;)V
-
-    return-void
+return-void
 .end method
 
 .method public static getInstance()Lcom/fmark/tselzap/MyApplication;

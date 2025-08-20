@@ -235,8 +235,7 @@
 
     :cond_5
     iput-boolean v1, p0, Landroidx/fragment/app/FragmentState;->mUserVisibleHint:Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/fragment/app/Fragment;)V
@@ -324,8 +323,7 @@
     iget-boolean p1, p1, Landroidx/fragment/app/Fragment;->mUserVisibleHint:Z
 
     iput-boolean p1, p0, Landroidx/fragment/app/FragmentState;->mUserVisibleHint:Z
-
-    return-void
+return-void
 .end method
 
 
@@ -483,7 +481,8 @@
 
     .line 65
     .line 66
-    iput-boolean p2, p1, Landroidx/fragment/app/Fragment;->mUserVisibleHint:Z    return-object p1
+    iput-boolean p2, p1, Landroidx/fragment/app/Fragment;->mUserVisibleHint:Z
+return-object p1
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -912,6 +911,7 @@
 
     .line 67
     .line 68
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V    return-void
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
+return-void
 .end method
 .end class

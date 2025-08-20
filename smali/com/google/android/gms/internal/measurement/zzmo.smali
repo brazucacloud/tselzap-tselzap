@@ -48,8 +48,7 @@
     move-result-object p2
 
     invoke-direct {p0, p1, v0, p2}, Lcom/google/android/gms/internal/measurement/zzmo;-><init>(Lcom/google/android/gms/internal/measurement/zzmk;Ljava/lang/Comparable;Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method private static zza(Ljava/lang/Object;Ljava/lang/Object;)Z

@@ -229,7 +229,8 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0}, Landroid/database/DataSetObservable;->notifyChanged()V    return-void
+    invoke-virtual {v0}, Landroid/database/DataSetObservable;->notifyChanged()V
+return-void
 
     .line 19
     :goto_1
@@ -253,7 +254,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/database/Observable;->registerObserver(Ljava/lang/Object;)V    return-void
+    invoke-virtual {v0, p1}, Landroid/database/Observable;->registerObserver(Ljava/lang/Object;)V
+return-void
 .end method
 
 .method public restoreState(Landroid/os/Parcelable;Ljava/lang/ClassLoader;)V
@@ -378,6 +380,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/database/Observable;->unregisterObserver(Ljava/lang/Object;)V    return-void
+    invoke-virtual {v0, p1}, Landroid/database/Observable;->unregisterObserver(Ljava/lang/Object;)V
+return-void
 .end method
 .end class

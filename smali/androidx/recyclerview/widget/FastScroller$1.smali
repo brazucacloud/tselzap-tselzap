@@ -30,7 +30,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 
@@ -47,6 +48,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/FastScroller;->hide(I)V    return-void
+    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/FastScroller;->hide(I)V
+return-void
 .end method
 .end class

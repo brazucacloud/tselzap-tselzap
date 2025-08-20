@@ -201,8 +201,7 @@
     iget-object p0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzm;->zzg:Lcom/google/android/gms/internal/measurement/zzkr;
 
     invoke-static {p1, p0}, Lcom/google/android/gms/internal/measurement/zziq;->zza(Ljava/lang/Iterable;Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic zzb(Lcom/google/android/gms/internal/measurement/zzgg$zzm;)V
@@ -243,8 +242,7 @@
     iget-object p0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzm;->zzf:Lcom/google/android/gms/internal/measurement/zzko;
 
     invoke-static {p1, p0}, Lcom/google/android/gms/internal/measurement/zziq;->zza(Ljava/lang/Iterable;Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic zzc(Lcom/google/android/gms/internal/measurement/zzgg$zzm;)V
@@ -285,8 +283,7 @@
     iget-object p0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzm;->zzh:Lcom/google/android/gms/internal/measurement/zzkr;
 
     invoke-static {p1, p0}, Lcom/google/android/gms/internal/measurement/zziq;->zza(Ljava/lang/Iterable;Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic zzd(Lcom/google/android/gms/internal/measurement/zzgg$zzm;)V
@@ -327,8 +324,7 @@
     iget-object p0, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzm;->zze:Lcom/google/android/gms/internal/measurement/zzko;
 
     invoke-static {p1, p0}, Lcom/google/android/gms/internal/measurement/zziq;->zza(Ljava/lang/Iterable;Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method public static zze()Lcom/google/android/gms/internal/measurement/zzgg$zzm$zza;
@@ -529,16 +525,14 @@
     new-instance p1, Lcom/google/android/gms/internal/measurement/zzgg$zzm$zza;
 
     invoke-direct {p1, p2}, Lcom/google/android/gms/internal/measurement/zzgg$zzm$zza;-><init>(Lcom/google/android/gms/internal/measurement/zzgp;)V
-
-    return-object p1
+return-object p1
 
     .line 16
     :pswitch_5
     new-instance p1, Lcom/google/android/gms/internal/measurement/zzgg$zzm;
 
     invoke-direct {p1}, Lcom/google/android/gms/internal/measurement/zzgg$zzm;-><init>()V
-
-    return-object p1
+return-object p1
 
     :pswitch_data_0
     .packed-switch 0x1

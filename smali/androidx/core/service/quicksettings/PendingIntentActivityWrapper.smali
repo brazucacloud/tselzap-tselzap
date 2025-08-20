@@ -102,8 +102,7 @@
 
     .line 1
     invoke-direct/range {v0 .. v6}, Landroidx/core/service/quicksettings/PendingIntentActivityWrapper;-><init>(Landroid/content/Context;ILandroid/content/Intent;ILandroid/os/Bundle;Z)V
-
-    return-void
+return-void
 .end method
 
 .method private createPendingIntent()Landroid/app/PendingIntent;

@@ -27,7 +27,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, p2}, Ljava/io/FilterInputStream;-><init>(Ljava/io/InputStream;)V    return-void
+    invoke-direct {p0, p2}, Ljava/io/FilterInputStream;-><init>(Ljava/io/InputStream;)V
+return-void
 .end method
 
 

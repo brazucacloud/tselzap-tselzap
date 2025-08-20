@@ -15,8 +15,7 @@
     const/4 v2, 0x0
 
     invoke-direct {p0, v2, v0, v1}, Landroidx/collection/MutableLongList;-><init>(IILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -26,8 +25,7 @@
 
     .line 3
     invoke-direct {p0, p1, v0}, Landroidx/collection/LongList;-><init>(ILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(IILkotlin/jvm/internal/e;)V
@@ -42,8 +40,7 @@
     .line 2
     :cond_0
     invoke-direct {p0, p1}, Landroidx/collection/MutableLongList;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic trim$default(Landroidx/collection/MutableLongList;IILjava/lang/Object;)V
@@ -63,7 +60,8 @@
     .line 6
     .line 7
     :cond_0
-    invoke-virtual {p0, p1}, Landroidx/collection/MutableLongList;->trim(I)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/collection/MutableLongList;->trim(I)V
+return-void
 .end method
 
 
@@ -493,8 +491,7 @@
 
     .line 1
     invoke-virtual {p0, p1, p2}, Landroidx/collection/MutableLongList;->remove(J)Z
-
-    return-void
+return-void
 .end method
 
 .method public final minusAssign(Landroidx/collection/LongList;)V
@@ -1240,7 +1237,8 @@
     const/4 v2, 0x0
 
     .line 11
-    invoke-static {v0, v2, v1}, Ljava/util/Arrays;->sort([JII)V    return-void
+    invoke-static {v0, v2, v1}, Ljava/util/Arrays;->sort([JII)V
+return-void
 .end method
 
 .method public final sortDescending()V

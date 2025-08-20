@@ -31,8 +31,7 @@
 
     .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>([[D)V
@@ -43,8 +42,7 @@
 
     .line 2
     invoke-virtual {p0, p1}, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->setup([[D)V
-
-    return-void
+return-void
 .end method
 
 .method public static calcNaturalCubic(I[D)[Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;

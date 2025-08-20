@@ -103,8 +103,7 @@
 
     .line 1
     invoke-static {p0}, Landroidx/arch/core/executor/ArchTaskExecutor;->lambda$static$0(Ljava/lang/Runnable;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic b(Ljava/lang/Runnable;)V
@@ -112,8 +111,7 @@
 
     .line 1
     invoke-static {p0}, Landroidx/arch/core/executor/ArchTaskExecutor;->lambda$static$1(Ljava/lang/Runnable;)V
-
-    return-void
+return-void
 .end method
 
 .method public static getIOThreadExecutor()Ljava/util/concurrent/Executor;
@@ -222,7 +220,8 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p0}, Landroidx/arch/core/executor/ArchTaskExecutor;->postToMainThread(Ljava/lang/Runnable;)V    return-void
+    invoke-virtual {v0, p0}, Landroidx/arch/core/executor/ArchTaskExecutor;->postToMainThread(Ljava/lang/Runnable;)V
+return-void
 .end method
 
 .method private static synthetic lambda$static$1(Ljava/lang/Runnable;)V
@@ -237,7 +236,8 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p0}, Landroidx/arch/core/executor/ArchTaskExecutor;->executeOnDiskIO(Ljava/lang/Runnable;)V    return-void
+    invoke-virtual {v0, p0}, Landroidx/arch/core/executor/ArchTaskExecutor;->executeOnDiskIO(Ljava/lang/Runnable;)V
+return-void
 .end method
 
 
@@ -254,7 +254,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/arch/core/executor/TaskExecutor;->executeOnDiskIO(Ljava/lang/Runnable;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/arch/core/executor/TaskExecutor;->executeOnDiskIO(Ljava/lang/Runnable;)V
+return-void
 .end method
 
 .method public isMainThread()Z
@@ -287,7 +288,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/arch/core/executor/TaskExecutor;->postToMainThread(Ljava/lang/Runnable;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/arch/core/executor/TaskExecutor;->postToMainThread(Ljava/lang/Runnable;)V
+return-void
 .end method
 
 .method public setDelegate(Landroidx/arch/core/executor/TaskExecutor;)V

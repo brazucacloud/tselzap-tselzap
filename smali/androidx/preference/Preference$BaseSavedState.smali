@@ -51,8 +51,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroid/view/AbsSavedState;-><init>(Landroid/os/Parcel;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/os/Parcelable;)V
@@ -60,7 +59,6 @@
 
     .line 2
     invoke-direct {p0, p1}, Landroid/view/AbsSavedState;-><init>(Landroid/os/Parcelable;)V
-
-    return-void
+return-void
 .end method
 .end class

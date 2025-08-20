@@ -60,8 +60,7 @@
     sget-object v0, Ljava/nio/ByteOrder;->BIG_ENDIAN:Ljava/nio/ByteOrder;
 
     invoke-direct {p0, p1, v0}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;-><init>(Ljava/io/InputStream;Ljava/nio/ByteOrder;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/io/InputStream;Ljava/nio/ByteOrder;)V
@@ -114,8 +113,7 @@
     invoke-direct {v0, p1}, Ljava/io/ByteArrayInputStream;-><init>([B)V
 
     invoke-direct {p0, v0}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;-><init>(Ljava/io/InputStream;)V
-
-    return-void
+return-void
 .end method
 
 

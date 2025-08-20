@@ -94,8 +94,7 @@
     .line 5
     :cond_0
     invoke-virtual {p1, p0}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setParent(Landroidx/constraintlayout/core/widgets/ConstraintWidget;)V
-
-    return-void
+return-void
 .end method
 
 .method public varargs add([Landroidx/constraintlayout/core/widgets/ConstraintWidget;)V
@@ -301,7 +300,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->reset()V    return-void
+    invoke-virtual {p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->reset()V
+return-void
 .end method
 
 .method public removeAllChildren()V
@@ -312,7 +312,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V    return-void
+    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
+return-void
 .end method
 
 .method public reset()V
@@ -328,7 +329,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-super {p0}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->reset()V    return-void
+    invoke-super {p0}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->reset()V
+return-void
 .end method
 
 .method public resetSolverVariables(Landroidx/constraintlayout/core/Cache;)V

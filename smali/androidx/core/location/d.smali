@@ -33,8 +33,7 @@
     check-cast p1, Landroid/location/Location;
 
     invoke-interface {v0, p1}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .end class

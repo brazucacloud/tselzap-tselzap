@@ -91,8 +91,7 @@
     invoke-direct {v0, v1}, Landroidx/collection/MutableLongList;-><init>(I)V
 
     invoke-virtual {v0, p0}, Landroidx/collection/MutableLongList;->plusAssign([J)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableLongListOf()Landroidx/collection/MutableLongList;
@@ -108,8 +107,7 @@
     const/4 v3, 0x0
 
     invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongList;-><init>(IILkotlin/jvm/internal/e;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableLongListOf(J)Landroidx/collection/MutableLongList;
@@ -184,7 +182,6 @@
     invoke-direct {v0, v1}, Landroidx/collection/MutableLongList;-><init>(I)V
 
     invoke-virtual {v0, p0}, Landroidx/collection/MutableLongList;->plusAssign([J)V
-
-    return-object v0
+return-object v0
 .end method
 .end class

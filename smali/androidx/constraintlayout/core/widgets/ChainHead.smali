@@ -82,7 +82,8 @@
 
     .line 10
     .line 11
-    iput-boolean p3, p0, Landroidx/constraintlayout/core/widgets/ChainHead;->mIsRtl:Z    return-void
+    iput-boolean p3, p0, Landroidx/constraintlayout/core/widgets/ChainHead;->mIsRtl:Z
+return-void
 .end method
 
 .method private defineChainProperties()V
@@ -882,7 +883,8 @@
 
     .line 365
     :goto_6
-    iput-boolean v3, p0, Landroidx/constraintlayout/core/widgets/ChainHead;->mHasComplexMatchWeights:Z    return-void
+    iput-boolean v3, p0, Landroidx/constraintlayout/core/widgets/ChainHead;->mHasComplexMatchWeights:Z
+return-void
 .end method
 
 .method private static isMatchConstraintEqualityCandidate(Landroidx/constraintlayout/core/widgets/ConstraintWidget;I)Z
@@ -975,7 +977,8 @@
     const/4 v0, 0x1
 
     .line 9
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/widgets/ChainHead;->mDefined:Z    return-void
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/widgets/ChainHead;->mDefined:Z
+return-void
 .end method
 
 .method public getFirst()Landroidx/constraintlayout/core/widgets/ConstraintWidget;

@@ -66,7 +66,8 @@
 
     .line 9
     .line 10
-    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->registerDefaultInstance(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V    return-void
+    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->registerDefaultInstance(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
+return-void
 .end method
 
 .method private constructor <init>()V
@@ -96,21 +97,24 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/SourceContext;->setFileName(Ljava/lang/String;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/SourceContext;->setFileName(Ljava/lang/String;)V
+return-void
 .end method
 
 .method public static synthetic access$200(Landroidx/datastore/preferences/protobuf/SourceContext;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/SourceContext;->clearFileName()V    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/SourceContext;->clearFileName()V
+return-void
 .end method
 
 .method public static synthetic access$300(Landroidx/datastore/preferences/protobuf/SourceContext;Landroidx/datastore/preferences/protobuf/ByteString;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/SourceContext;->setFileNameBytes(Landroidx/datastore/preferences/protobuf/ByteString;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/SourceContext;->setFileNameBytes(Landroidx/datastore/preferences/protobuf/ByteString;)V
+return-void
 .end method
 
 .method private clearFileName()V
@@ -591,7 +595,8 @@
 
     .line 74
     .line 75
-    invoke-direct {p1, p3}, Landroidx/datastore/preferences/protobuf/SourceContext$Builder;-><init>(Landroidx/datastore/preferences/protobuf/SourceContext$1;)V    return-object p1
+    invoke-direct {p1, p3}, Landroidx/datastore/preferences/protobuf/SourceContext$Builder;-><init>(Landroidx/datastore/preferences/protobuf/SourceContext$1;)V
+return-object p1
 
     .line 79
     :pswitch_6
@@ -599,7 +604,8 @@
 
     .line 80
     .line 81
-    invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/SourceContext;-><init>()V    return-object p1
+    invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/SourceContext;-><init>()V
+return-object p1
 
     .line 85
     :pswitch_data_0

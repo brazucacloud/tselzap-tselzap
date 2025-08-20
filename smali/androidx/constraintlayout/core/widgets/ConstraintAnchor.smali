@@ -1784,7 +1784,8 @@
 
     .line 16
     :cond_0
-    invoke-virtual {p1}, Landroidx/constraintlayout/core/SolverVariable;->reset()V    return-void
+    invoke-virtual {p1}, Landroidx/constraintlayout/core/SolverVariable;->reset()V
+return-void
 .end method
 
 .method public setFinalValue(I)V
@@ -1798,7 +1799,8 @@
     const/4 p1, 0x1
 
     .line 4
-    iput-boolean p1, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mHasFinalValue:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->mHasFinalValue:Z
+return-void
 .end method
 
 .method public setGoneMargin(I)V

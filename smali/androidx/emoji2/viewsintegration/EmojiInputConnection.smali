@@ -85,8 +85,7 @@
 
     .line 5
     invoke-virtual {p4, p3}, Landroidx/emoji2/viewsintegration/EmojiInputConnection$EmojiCompatDeleteHelper;->updateEditorInfoAttrs(Landroid/view/inputmethod/EditorInfo;)V
-
-    return-void
+return-void
 .end method
 
 .method private getEditable()Landroid/text/Editable;

@@ -45,8 +45,7 @@
     move-object v0, p0
 
     invoke-direct/range {v0 .. v6}, Landroidx/window/embedding/SplitRule;-><init>(IIFIILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(IIFI)V
@@ -105,8 +104,7 @@
     .line 2
     :cond_3
     invoke-direct {p0, p1, p2, p3, p4}, Landroidx/window/embedding/SplitRule;-><init>(IIFI)V
-
-    return-void
+return-void
 .end method
 
 

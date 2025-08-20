@@ -188,7 +188,8 @@
     .line 31
     .line 32
     .line 33
-    invoke-virtual {v1, p1, v0}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V    return-object v0
+    invoke-virtual {v1, p1, v0}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
+return-object v0
 .end method
 
 .method public static setCurrentScene(Landroid/view/ViewGroup;Landroidx/transition/Scene;)V

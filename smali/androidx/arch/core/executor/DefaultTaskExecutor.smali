@@ -204,7 +204,8 @@
 
     .line 55
     .line 56
-    invoke-direct {v0, p0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V    return-object v0
+    invoke-direct {v0, p0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+return-object v0
 
     .line 60
     :catch_1
@@ -212,7 +213,8 @@
 
     .line 61
     .line 62
-    invoke-direct {v0, p0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V    return-object v0
+    invoke-direct {v0, p0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+return-object v0
 .end method
 
 
@@ -229,7 +231,8 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V    return-void
+    invoke-interface {v0, p1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+return-void
 .end method
 
 .method public isMainThread()Z
@@ -360,6 +363,7 @@
 
     .line 30
     .line 31
-    invoke-virtual {v0, p1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z    return-void
+    invoke-virtual {v0, p1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+return-void
 .end method
 .end class

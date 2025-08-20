@@ -45,8 +45,7 @@
 
     .line 6
     invoke-direct {p0, p1, p2, p3, v0}, Landroidx/core/content/res/FontResourcesParserCompat$ProviderResourceEntry;-><init>(Landroidx/core/provider/FontRequest;IILjava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/core/provider/FontRequest;IILjava/lang/String;)V

@@ -19,8 +19,7 @@
     move-result-object v0
 
     invoke-direct {p0, v0}, Lcom/google/android/gms/common/internal/zal;-><init>(Lcom/google/android/gms/common/GoogleApiAvailabilityLight;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Lcom/google/android/gms/common/GoogleApiAvailabilityLight;)V

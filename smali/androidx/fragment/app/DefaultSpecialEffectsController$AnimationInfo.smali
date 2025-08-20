@@ -50,7 +50,8 @@
     .line 12
     .line 13
     .line 14
-    iput-boolean p3, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;->isPop:Z    return-void
+    iput-boolean p3, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;->isPop:Z
+return-void
 .end method
 
 
@@ -150,6 +151,7 @@
 
     .line 44
     .line 45
-    iput-boolean v3, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;->isAnimLoaded:Z    return-object p1
+    iput-boolean v3, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;->isAnimLoaded:Z
+return-object p1
 .end method
 .end class

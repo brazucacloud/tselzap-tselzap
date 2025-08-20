@@ -22,8 +22,7 @@
     const-string v0, "CodedOutputStream was writing to a flat byte array and ran out of space."
 
     invoke-direct {p0, v0}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(IIILjava/lang/Throwable;)V
@@ -41,8 +40,7 @@
 
     .line 10
     invoke-direct/range {v0 .. v6}, Lcom/google/android/gms/internal/measurement/zzjr$zzb;-><init>(JJILjava/lang/Throwable;)V
-
-    return-void
+return-void
 .end method
 
 .method private constructor <init>(JJILjava/lang/Throwable;)V
@@ -76,8 +74,7 @@
     move-result-object p1
 
     invoke-direct {p0, p1, p6}, Lcom/google/android/gms/internal/measurement/zzjr$zzb;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
-
-    return-void
+return-void
 .end method
 
 .method private constructor <init>(Ljava/lang/String;Ljava/lang/Throwable;)V
@@ -93,8 +90,7 @@
 
     .line 5
     invoke-direct {p0, p1, p2}, Ljava/io/IOException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/Throwable;)V
@@ -104,8 +100,7 @@
     const-string v0, "CodedOutputStream was writing to a flat byte array and ran out of space."
 
     invoke-direct {p0, v0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
-
-    return-void
+return-void
 .end method
 
 .end class

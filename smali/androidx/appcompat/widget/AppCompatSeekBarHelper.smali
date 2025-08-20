@@ -730,7 +730,8 @@
     .line 96
     .line 97
     .line 98
-    invoke-direct {p0}, Landroidx/appcompat/widget/AppCompatSeekBarHelper;->applyTickMarkTint()V    return-void
+    invoke-direct {p0}, Landroidx/appcompat/widget/AppCompatSeekBarHelper;->applyTickMarkTint()V
+return-void
 .end method
 
 .method public setTickMark(Landroid/graphics/drawable/Drawable;)V
@@ -832,7 +833,8 @@
 
     .line 46
     .line 47
-    invoke-virtual {p1}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p1}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public setTickMarkTintList(Landroid/content/res/ColorStateList;)V
@@ -854,7 +856,8 @@
 
     .line 5
     .line 6
-    invoke-direct {p0}, Landroidx/appcompat/widget/AppCompatSeekBarHelper;->applyTickMarkTint()V    return-void
+    invoke-direct {p0}, Landroidx/appcompat/widget/AppCompatSeekBarHelper;->applyTickMarkTint()V
+return-void
 .end method
 
 .method public setTickMarkTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -876,6 +879,7 @@
 
     .line 5
     .line 6
-    invoke-direct {p0}, Landroidx/appcompat/widget/AppCompatSeekBarHelper;->applyTickMarkTint()V    return-void
+    invoke-direct {p0}, Landroidx/appcompat/widget/AppCompatSeekBarHelper;->applyTickMarkTint()V
+return-void
 .end method
 .end class

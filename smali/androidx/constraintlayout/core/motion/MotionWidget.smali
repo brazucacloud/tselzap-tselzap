@@ -625,7 +625,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroidx/constraintlayout/core/motion/MotionWidget;->setBounds(IIII)V    return-void
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroidx/constraintlayout/core/motion/MotionWidget;->setBounds(IIII)V
+return-void
 .end method
 
 .method public setBounds(IIII)V
@@ -683,8 +684,7 @@
     iget-object v0, p0, Landroidx/constraintlayout/core/motion/MotionWidget;->mWidgetFrame:Landroidx/constraintlayout/core/state/WidgetFrame;
 
     invoke-virtual {v0, p1, p2, p3}, Landroidx/constraintlayout/core/state/WidgetFrame;->setCustomAttribute(Ljava/lang/String;IF)V
-
-    return-void
+return-void
 .end method
 
 .method public setCustomAttribute(Ljava/lang/String;II)V
@@ -694,8 +694,7 @@
     iget-object v0, p0, Landroidx/constraintlayout/core/motion/MotionWidget;->mWidgetFrame:Landroidx/constraintlayout/core/state/WidgetFrame;
 
     invoke-virtual {v0, p1, p2, p3}, Landroidx/constraintlayout/core/state/WidgetFrame;->setCustomAttribute(Ljava/lang/String;II)V
-
-    return-void
+return-void
 .end method
 
 .method public setCustomAttribute(Ljava/lang/String;ILjava/lang/String;)V
@@ -705,8 +704,7 @@
     iget-object v0, p0, Landroidx/constraintlayout/core/motion/MotionWidget;->mWidgetFrame:Landroidx/constraintlayout/core/state/WidgetFrame;
 
     invoke-virtual {v0, p1, p2, p3}, Landroidx/constraintlayout/core/state/WidgetFrame;->setCustomAttribute(Ljava/lang/String;ILjava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public setCustomAttribute(Ljava/lang/String;IZ)V
@@ -716,8 +714,7 @@
     iget-object v0, p0, Landroidx/constraintlayout/core/motion/MotionWidget;->mWidgetFrame:Landroidx/constraintlayout/core/state/WidgetFrame;
 
     invoke-virtual {v0, p1, p2, p3}, Landroidx/constraintlayout/core/state/WidgetFrame;->setCustomAttribute(Ljava/lang/String;IZ)V
-
-    return-void
+return-void
 .end method
 
 .method public setInterpolatedValue(Landroidx/constraintlayout/core/motion/CustomAttribute;[F)V
@@ -743,7 +740,8 @@
 
     .line 9
     .line 10
-    invoke-virtual {v0, p1, v1, p2}, Landroidx/constraintlayout/core/state/WidgetFrame;->setCustomAttribute(Ljava/lang/String;IF)V    return-void
+    invoke-virtual {v0, p1, v1, p2}, Landroidx/constraintlayout/core/state/WidgetFrame;->setCustomAttribute(Ljava/lang/String;IF)V
+return-void
 .end method
 
 .method public setPivotX(F)V

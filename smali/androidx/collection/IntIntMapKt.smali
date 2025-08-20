@@ -59,8 +59,7 @@
 
     .line 3
     invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableIntIntMap;->set(II)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final intIntMapOf(IIII)Landroidx/collection/IntIntMap;
@@ -82,8 +81,7 @@
 
     .line 6
     invoke-virtual {v0, p2, p3}, Landroidx/collection/MutableIntIntMap;->set(II)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final intIntMapOf(IIIIII)Landroidx/collection/IntIntMap;
@@ -108,8 +106,7 @@
 
     .line 10
     invoke-virtual {v0, p4, p5}, Landroidx/collection/MutableIntIntMap;->set(II)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final intIntMapOf(IIIIIIII)Landroidx/collection/IntIntMap;
@@ -137,8 +134,7 @@
 
     .line 15
     invoke-virtual {v0, p6, p7}, Landroidx/collection/MutableIntIntMap;->set(II)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final intIntMapOf(IIIIIIIIII)Landroidx/collection/IntIntMap;
@@ -169,8 +165,7 @@
 
     .line 21
     invoke-virtual {v0, p8, p9}, Landroidx/collection/MutableIntIntMap;->set(II)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableIntIntMapOf()Landroidx/collection/MutableIntIntMap;
@@ -186,8 +181,7 @@
     const/4 v3, 0x0
 
     invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableIntIntMap;-><init>(IILkotlin/jvm/internal/e;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableIntIntMapOf(II)Landroidx/collection/MutableIntIntMap;
@@ -206,8 +200,7 @@
 
     .line 3
     invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableIntIntMap;->set(II)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableIntIntMapOf(IIII)Landroidx/collection/MutableIntIntMap;
@@ -229,8 +222,7 @@
 
     .line 6
     invoke-virtual {v0, p2, p3}, Landroidx/collection/MutableIntIntMap;->set(II)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableIntIntMapOf(IIIIII)Landroidx/collection/MutableIntIntMap;
@@ -255,8 +247,7 @@
 
     .line 10
     invoke-virtual {v0, p4, p5}, Landroidx/collection/MutableIntIntMap;->set(II)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableIntIntMapOf(IIIIIIII)Landroidx/collection/MutableIntIntMap;
@@ -284,8 +275,7 @@
 
     .line 15
     invoke-virtual {v0, p6, p7}, Landroidx/collection/MutableIntIntMap;->set(II)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableIntIntMapOf(IIIIIIIIII)Landroidx/collection/MutableIntIntMap;
@@ -316,7 +306,6 @@
 
     .line 21
     invoke-virtual {v0, p8, p9}, Landroidx/collection/MutableIntIntMap;->set(II)V
-
-    return-object v0
+return-object v0
 .end method
 .end class

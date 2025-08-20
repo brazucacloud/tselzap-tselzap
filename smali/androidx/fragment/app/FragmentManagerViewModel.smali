@@ -132,7 +132,8 @@
 
     .line 31
     .line 32
-    iput-boolean p1, p0, Landroidx/fragment/app/FragmentManagerViewModel;->mStateAutomaticallySaved:Z    return-void
+    iput-boolean p1, p0, Landroidx/fragment/app/FragmentManagerViewModel;->mStateAutomaticallySaved:Z
+return-void
 .end method
 
 .method private clearNonConfigStateInternal(Ljava/lang/String;Z)V
@@ -759,7 +760,8 @@
     move-result-object v1
 
     .line 9
-    invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V    return-object v0
+    invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+return-object v0
 .end method
 
 .method public getSnapshot()Landroidx/fragment/app/FragmentManagerNonConfig;
@@ -1011,7 +1013,8 @@
     .line 120
     .line 121
     .line 122
-    invoke-direct {v1, v2, v0, v3}, Landroidx/fragment/app/FragmentManagerNonConfig;-><init>(Ljava/util/Collection;Ljava/util/Map;Ljava/util/Map;)V    return-object v1
+    invoke-direct {v1, v2, v0, v3}, Landroidx/fragment/app/FragmentManagerNonConfig;-><init>(Ljava/util/Collection;Ljava/util/Map;Ljava/util/Map;)V
+return-object v1
 .end method
 
 .method public getViewModelStore(Landroidx/fragment/app/Fragment;)Landroidx/lifecycle/ViewModelStore;
@@ -1195,7 +1198,8 @@
     const/4 v0, 0x1
 
     .line 28
-    iput-boolean v0, p0, Landroidx/fragment/app/FragmentManagerViewModel;->mHasBeenCleared:Z    return-void
+    iput-boolean v0, p0, Landroidx/fragment/app/FragmentManagerViewModel;->mHasBeenCleared:Z
+return-void
 .end method
 
 .method public removeRetainedFragment(Landroidx/fragment/app/Fragment;)V
@@ -1549,14 +1553,16 @@
     const/4 p1, 0x0
 
     .line 116
-    iput-boolean p1, p0, Landroidx/fragment/app/FragmentManagerViewModel;->mHasSavedSnapshot:Z    return-void
+    iput-boolean p1, p0, Landroidx/fragment/app/FragmentManagerViewModel;->mHasSavedSnapshot:Z
+return-void
 .end method
 
 .method public setIsStateSaved(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/fragment/app/FragmentManagerViewModel;->mIsStateSaved:Z    return-void
+    iput-boolean p1, p0, Landroidx/fragment/app/FragmentManagerViewModel;->mIsStateSaved:Z
+return-void
 .end method
 
 .method public shouldDestroy(Landroidx/fragment/app/Fragment;)Z

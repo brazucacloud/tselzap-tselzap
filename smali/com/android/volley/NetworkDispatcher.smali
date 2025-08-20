@@ -149,8 +149,7 @@
 
     .line 2
     invoke-virtual {p0, v0}, Lcom/android/volley/NetworkDispatcher;->processRequest(Lcom/android/volley/Request;)V
-
-    return-void
+return-void
 .end method
 
 
@@ -207,8 +206,7 @@
 
     .line 9
     invoke-virtual {p1, v2}, Lcom/android/volley/Request;->sendEvent(I)V
-
-    return-void
+return-void
 
     :catchall_0
     move-exception v0
@@ -267,8 +265,7 @@
 
     .line 16
     invoke-virtual {p1, v2}, Lcom/android/volley/Request;->sendEvent(I)V
-
-    return-void
+return-void
 
     .line 17
     :cond_1
@@ -327,8 +324,7 @@
 
     .line 25
     invoke-virtual {p1, v2}, Lcom/android/volley/Request;->sendEvent(I)V
-
-    return-void
+return-void
 
     .line 26
     :goto_0

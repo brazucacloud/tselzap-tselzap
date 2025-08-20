@@ -135,7 +135,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/parser/CLContainer;-><init>([C)V    return-void
+    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/parser/CLContainer;-><init>([C)V
+return-void
 .end method
 
 .method public static allocate(Ljava/lang/String;Landroidx/constraintlayout/core/parser/CLElement;)Landroidx/constraintlayout/core/parser/CLElement;
@@ -168,8 +169,7 @@
 
     .line 5
     invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/parser/CLKey;->set(Landroidx/constraintlayout/core/parser/CLElement;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static allocate([C)Landroidx/constraintlayout/core/parser/CLElement;
@@ -179,8 +179,7 @@
     new-instance v0, Landroidx/constraintlayout/core/parser/CLKey;
 
     invoke-direct {v0, p0}, Landroidx/constraintlayout/core/parser/CLKey;-><init>([C)V
-
-    return-object v0
+return-object v0
 .end method
 
 

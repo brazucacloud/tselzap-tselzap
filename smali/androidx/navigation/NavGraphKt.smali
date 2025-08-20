@@ -328,7 +328,8 @@
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p0, p1}, Landroidx/navigation/NavGraph;->remove(Landroidx/navigation/NavDestination;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/navigation/NavGraph;->remove(Landroidx/navigation/NavDestination;)V
+return-void
 .end method
 
 .method public static final plusAssign(Landroidx/navigation/NavGraph;Landroidx/navigation/NavDestination;)V
@@ -344,8 +345,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroidx/navigation/NavGraph;->addDestination(Landroidx/navigation/NavDestination;)V
-
-    return-void
+return-void
 .end method
 
 .method public static final plusAssign(Landroidx/navigation/NavGraph;Landroidx/navigation/NavGraph;)V
@@ -361,7 +361,6 @@
 
     .line 2
     invoke-virtual {p0, p1}, Landroidx/navigation/NavGraph;->addAll(Landroidx/navigation/NavGraph;)V
-
-    return-void
+return-void
 .end method
 .end class

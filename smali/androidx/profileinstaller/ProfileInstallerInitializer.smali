@@ -46,8 +46,7 @@
 
     .line 1
     invoke-static {p0}, Landroidx/profileinstaller/ProfileInstallerInitializer;->lambda$writeInBackground$2(Landroid/content/Context;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic b(Landroid/content/Context;)V
@@ -55,8 +54,7 @@
 
     .line 1
     invoke-static {p0}, Landroidx/profileinstaller/ProfileInstallerInitializer;->lambda$installAfterDelay$1(Landroid/content/Context;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic c(Landroidx/profileinstaller/ProfileInstallerInitializer;Landroid/content/Context;J)V
@@ -64,8 +62,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2, p3}, Landroidx/profileinstaller/ProfileInstallerInitializer;->lambda$create$0(Landroid/content/Context;J)V
-
-    return-void
+return-void
 .end method
 
 .method private synthetic lambda$create$0(Landroid/content/Context;J)V
@@ -183,8 +180,7 @@
     new-instance p1, Landroidx/profileinstaller/ProfileInstallerInitializer$Result;
 
     invoke-direct {p1}, Landroidx/profileinstaller/ProfileInstallerInitializer$Result;-><init>()V
-
-    return-object p1
+return-object p1
 
     .line 4
     :cond_0
@@ -207,8 +203,7 @@
     new-instance p1, Landroidx/profileinstaller/ProfileInstallerInitializer$Result;
 
     invoke-direct {p1}, Landroidx/profileinstaller/ProfileInstallerInitializer$Result;-><init>()V
-
-    return-object p1
+return-object p1
 .end method
 
 .method public bridge synthetic create(Landroid/content/Context;)Ljava/lang/Object;

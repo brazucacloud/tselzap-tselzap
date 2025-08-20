@@ -31,8 +31,7 @@
     iget-object v0, p0, Lcom/google/android/material/timepicker/g;->b:Lcom/google/android/material/timepicker/h;
 
     invoke-virtual {v0}, Lcom/google/android/material/timepicker/h;->a()V
-
-    return-void
+return-void
 .end method
 
 .end class

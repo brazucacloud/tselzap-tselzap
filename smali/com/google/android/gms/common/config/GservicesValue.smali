@@ -154,8 +154,7 @@
     new-instance v0, Lcom/google/android/gms/common/config/zzd;
 
     invoke-direct {v0, p0, p1}, Lcom/google/android/gms/common/config/zzd;-><init>(Ljava/lang/String;Ljava/lang/Float;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static value(Ljava/lang/String;Ljava/lang/Integer;)Lcom/google/android/gms/common/config/GservicesValue;
@@ -190,8 +189,7 @@
     new-instance v0, Lcom/google/android/gms/common/config/zzc;
 
     invoke-direct {v0, p0, p1}, Lcom/google/android/gms/common/config/zzc;-><init>(Ljava/lang/String;Ljava/lang/Integer;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static value(Ljava/lang/String;Ljava/lang/Long;)Lcom/google/android/gms/common/config/GservicesValue;
@@ -226,8 +224,7 @@
     new-instance v0, Lcom/google/android/gms/common/config/zzb;
 
     invoke-direct {v0, p0, p1}, Lcom/google/android/gms/common/config/zzb;-><init>(Ljava/lang/String;Ljava/lang/Long;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static value(Ljava/lang/String;Ljava/lang/String;)Lcom/google/android/gms/common/config/GservicesValue;
@@ -262,8 +259,7 @@
     new-instance v0, Lcom/google/android/gms/common/config/zze;
 
     invoke-direct {v0, p0, p1}, Lcom/google/android/gms/common/config/zze;-><init>(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static value(Ljava/lang/String;Z)Lcom/google/android/gms/common/config/GservicesValue;
@@ -297,8 +293,7 @@
     move-result-object p1
 
     invoke-direct {v0, p0, p1}, Lcom/google/android/gms/common/config/zza;-><init>(Ljava/lang/String;Ljava/lang/Boolean;)V
-
-    return-object v0
+return-object v0
 .end method
 
 

@@ -37,8 +37,7 @@
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -70,8 +69,7 @@
     const/4 v14, 0x0
 
     invoke-direct/range {v0 .. v14}, Lcom/google/android/gms/measurement/internal/zzpu;-><init>(JLcom/google/android/gms/internal/measurement/zzgg$zzj;Ljava/lang/String;Ljava/util/Map;Lcom/google/android/gms/measurement/internal/zzmf;JJJILcom/google/android/gms/measurement/internal/zzpw;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public final zza(I)Lcom/google/android/gms/measurement/internal/zzpx;

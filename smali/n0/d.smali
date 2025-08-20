@@ -15,8 +15,7 @@
     iput p2, p0, Ln0/d;->a:I
 
     invoke-direct {p0, p3, p1}, Landroid/util/Property;-><init>(Ljava/lang/Class;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 

@@ -619,8 +619,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/fragment/app/FragmentManager;->lambda$new$1(Ljava/lang/Integer;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic access$000(Landroidx/fragment/app/FragmentManager;)Ljava/util/Map;
@@ -660,8 +659,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/fragment/app/FragmentManager;->lambda$new$3(Landroidx/core/app/PictureInPictureModeChangedInfo;)V
-
-    return-void
+return-void
 .end method
 
 .method private checkStateLoss()V
@@ -719,7 +717,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V    return-void
+    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
+return-void
 .end method
 
 .method private clearBackStackStateViewModels()V
@@ -1172,8 +1171,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/fragment/app/FragmentManager;->lambda$new$2(Landroidx/core/app/MultiWindowModeChangedInfo;)V
-
-    return-void
+return-void
 .end method
 
 .method private dispatchParentPrimaryNavigationFragmentChanged(Landroidx/fragment/app/Fragment;)V
@@ -1356,8 +1354,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/fragment/app/FragmentManager;->lambda$new$0(Landroid/content/res/Configuration;)V
-
-    return-void
+return-void
 .end method
 
 .method public static enableDebugLogging(Z)V
@@ -4932,7 +4929,8 @@
 
     .line 41
     :goto_0
-    invoke-virtual {v0, v2}, Landroidx/activity/OnBackPressedCallback;->setEnabled(Z)V    return-void
+    invoke-virtual {v0, v2}, Landroidx/activity/OnBackPressedCallback;->setEnabled(Z)V
+return-void
 
     .line 45
     :goto_1
@@ -4976,7 +4974,8 @@
 
     .line 13
     .line 14
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z    return-void
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+return-void
 .end method
 
 .method public addFragment(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentStateManager;
@@ -5182,7 +5181,8 @@
 
     .line 13
     .line 14
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z    return-void
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+return-void
 .end method
 
 .method public addRetainedFragment(Landroidx/fragment/app/Fragment;)V
@@ -6069,7 +6069,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/fragment/app/BackStackRecord;-><init>(Landroidx/fragment/app/FragmentManager;)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/fragment/app/BackStackRecord;-><init>(Landroidx/fragment/app/FragmentManager;)V
+return-object v0
 .end method
 
 .method public checkForMenus()Z
@@ -6173,7 +6174,8 @@
     const/4 p1, 0x0
 
     .line 7
-    invoke-virtual {p0, v0, p1}, Landroidx/fragment/app/FragmentManager;->enqueueAction(Landroidx/fragment/app/FragmentManager$OpGenerator;Z)V    return-void
+    invoke-virtual {p0, v0, p1}, Landroidx/fragment/app/FragmentManager;->enqueueAction(Landroidx/fragment/app/FragmentManager$OpGenerator;Z)V
+return-void
 .end method
 
 .method public clearBackStackState(Ljava/util/ArrayList;Ljava/util/ArrayList;Ljava/lang/String;)Z
@@ -6486,7 +6488,8 @@
 
     .line 35
     .line 36
-    invoke-virtual {v0, p1}, Landroidx/fragment/app/FragmentStateManager;->setFragmentManagerState(I)V    return-object v0
+    invoke-virtual {v0, p1}, Landroidx/fragment/app/FragmentStateManager;->setFragmentManagerState(I)V
+return-object v0
 .end method
 
 .method public detachFragment(Landroidx/fragment/app/Fragment;)V
@@ -6677,7 +6680,8 @@
     const/4 v0, 0x4
 
     .line 12
-    invoke-direct {p0, v0}, Landroidx/fragment/app/FragmentManager;->dispatchStateChange(I)V    return-void
+    invoke-direct {p0, v0}, Landroidx/fragment/app/FragmentManager;->dispatchStateChange(I)V
+return-void
 .end method
 
 .method public dispatchAttach()V
@@ -6704,7 +6708,8 @@
     .line 9
     .line 10
     .line 11
-    invoke-direct {p0, v0}, Landroidx/fragment/app/FragmentManager;->dispatchStateChange(I)V    return-void
+    invoke-direct {p0, v0}, Landroidx/fragment/app/FragmentManager;->dispatchStateChange(I)V
+return-void
 .end method
 
 .method public dispatchConfigurationChanged(Landroid/content/res/Configuration;Z)V
@@ -6941,7 +6946,8 @@
     const/4 v0, 0x1
 
     .line 12
-    invoke-direct {p0, v0}, Landroidx/fragment/app/FragmentManager;->dispatchStateChange(I)V    return-void
+    invoke-direct {p0, v0}, Landroidx/fragment/app/FragmentManager;->dispatchStateChange(I)V
+return-void
 .end method
 
 .method public dispatchCreateOptionsMenu(Landroid/view/Menu;Landroid/view/MenuInflater;)Z
@@ -7402,7 +7408,8 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/fragment/app/FragmentManager;->dispatchStateChange(I)V    return-void
+    invoke-direct {p0, v0}, Landroidx/fragment/app/FragmentManager;->dispatchStateChange(I)V
+return-void
 .end method
 
 .method public dispatchLowMemory(Z)V
@@ -7958,7 +7965,8 @@
     const/4 v0, 0x5
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/fragment/app/FragmentManager;->dispatchStateChange(I)V    return-void
+    invoke-direct {p0, v0}, Landroidx/fragment/app/FragmentManager;->dispatchStateChange(I)V
+return-void
 .end method
 
 .method public dispatchPictureInPictureModeChanged(ZZ)V
@@ -8197,7 +8205,8 @@
 
     .line 5
     .line 6
-    invoke-direct {p0, v0}, Landroidx/fragment/app/FragmentManager;->dispatchParentPrimaryNavigationFragmentChanged(Landroidx/fragment/app/Fragment;)V    return-void
+    invoke-direct {p0, v0}, Landroidx/fragment/app/FragmentManager;->dispatchParentPrimaryNavigationFragmentChanged(Landroidx/fragment/app/Fragment;)V
+return-void
 .end method
 
 .method public dispatchResume()V
@@ -8227,7 +8236,8 @@
     const/4 v0, 0x7
 
     .line 12
-    invoke-direct {p0, v0}, Landroidx/fragment/app/FragmentManager;->dispatchStateChange(I)V    return-void
+    invoke-direct {p0, v0}, Landroidx/fragment/app/FragmentManager;->dispatchStateChange(I)V
+return-void
 .end method
 
 .method public dispatchStart()V
@@ -8257,7 +8267,8 @@
     const/4 v0, 0x5
 
     .line 12
-    invoke-direct {p0, v0}, Landroidx/fragment/app/FragmentManager;->dispatchStateChange(I)V    return-void
+    invoke-direct {p0, v0}, Landroidx/fragment/app/FragmentManager;->dispatchStateChange(I)V
+return-void
 .end method
 
 .method public dispatchStop()V
@@ -8283,7 +8294,8 @@
     const/4 v0, 0x4
 
     .line 10
-    invoke-direct {p0, v0}, Landroidx/fragment/app/FragmentManager;->dispatchStateChange(I)V    return-void
+    invoke-direct {p0, v0}, Landroidx/fragment/app/FragmentManager;->dispatchStateChange(I)V
+return-void
 .end method
 
 .method public dispatchViewCreated()V
@@ -8293,7 +8305,8 @@
     const/4 v0, 0x2
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/fragment/app/FragmentManager;->dispatchStateChange(I)V    return-void
+    invoke-direct {p0, v0}, Landroidx/fragment/app/FragmentManager;->dispatchStateChange(I)V
+return-void
 .end method
 
 .method public dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
@@ -9288,7 +9301,8 @@
 
     .line 51
     .line 52
-    invoke-virtual {p1}, Landroidx/fragment/app/FragmentStore;->burpActive()V    return-void
+    invoke-virtual {p1}, Landroidx/fragment/app/FragmentStore;->burpActive()V
+return-void
 .end method
 
 .method public executePendingTransactions()Z
@@ -9858,7 +9872,8 @@
 
     .line 18
     .line 19
-    invoke-virtual {v0}, Landroidx/activity/OnBackPressedDispatcher;->onBackPressed()V    return-void
+    invoke-virtual {v0}, Landroidx/activity/OnBackPressedDispatcher;->onBackPressed()V
+return-void
 .end method
 
 .method public hideFragment(Landroidx/fragment/app/Fragment;)V
@@ -10222,7 +10237,8 @@
 
     .line 18
     .line 19
-    invoke-virtual {p1, p2}, Landroidx/activity/result/ActivityResultLauncher;->launch(Ljava/lang/Object;)V    return-void
+    invoke-virtual {p1, p2}, Landroidx/activity/result/ActivityResultLauncher;->launch(Ljava/lang/Object;)V
+return-void
 
     .line 23
     :cond_0
@@ -10230,7 +10246,8 @@
 
     .line 24
     .line 25
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/fragment/app/FragmentHostCallback;->onRequestPermissionsFromFragment(Landroidx/fragment/app/Fragment;[Ljava/lang/String;I)V    return-void
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/fragment/app/FragmentHostCallback;->onRequestPermissionsFromFragment(Landroidx/fragment/app/Fragment;[Ljava/lang/String;I)V
+return-void
 .end method
 
 .method public launchStartActivityForResult(Landroidx/fragment/app/Fragment;Landroid/content/Intent;ILandroid/os/Bundle;)V
@@ -10297,7 +10314,8 @@
 
     .line 25
     .line 26
-    invoke-virtual {p1, p2}, Landroidx/activity/result/ActivityResultLauncher;->launch(Ljava/lang/Object;)V    return-void
+    invoke-virtual {p1, p2}, Landroidx/activity/result/ActivityResultLauncher;->launch(Ljava/lang/Object;)V
+return-void
 
     .line 30
     :cond_1
@@ -10305,7 +10323,8 @@
 
     .line 31
     .line 32
-    invoke-virtual {v0, p1, p2, p3, p4}, Landroidx/fragment/app/FragmentHostCallback;->onStartActivityFromFragment(Landroidx/fragment/app/Fragment;Landroid/content/Intent;ILandroid/os/Bundle;)V    return-void
+    invoke-virtual {v0, p1, p2, p3, p4}, Landroidx/fragment/app/FragmentHostCallback;->onStartActivityFromFragment(Landroidx/fragment/app/Fragment;Landroid/content/Intent;ILandroid/os/Bundle;)V
+return-void
 .end method
 
 .method public launchStartIntentSenderForResult(Landroidx/fragment/app/Fragment;Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V
@@ -10571,7 +10590,8 @@
 
     .line 127
     .line 128
-    invoke-virtual {p1, p2}, Landroidx/activity/result/ActivityResultLauncher;->launch(Ljava/lang/Object;)V    return-void
+    invoke-virtual {p1, p2}, Landroidx/activity/result/ActivityResultLauncher;->launch(Ljava/lang/Object;)V
+return-void
 
     .line 132
     :cond_4
@@ -10601,7 +10621,8 @@
 
     .line 141
     .line 142
-    invoke-virtual/range {v0 .. v8}, Landroidx/fragment/app/FragmentHostCallback;->onStartIntentSenderFromFragment(Landroidx/fragment/app/Fragment;Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V    return-void
+    invoke-virtual/range {v0 .. v8}, Landroidx/fragment/app/FragmentHostCallback;->onStartIntentSenderFromFragment(Landroidx/fragment/app/Fragment;Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V
+return-void
 .end method
 
 .method public moveToState(IZ)V
@@ -10996,7 +11017,8 @@
     const/4 p1, 0x1
 
     .line 14
-    iput-boolean p1, p0, Landroidx/fragment/app/FragmentManager;->mHavePendingDeferredStart:Z    return-void
+    iput-boolean p1, p0, Landroidx/fragment/app/FragmentManager;->mHavePendingDeferredStart:Z
+return-void
 
     .line 17
     :cond_0
@@ -11031,8 +11053,7 @@
     invoke-direct {v0, p0, v1, v2, v3}, Landroidx/fragment/app/FragmentManager$PopBackStackState;-><init>(Landroidx/fragment/app/FragmentManager;Ljava/lang/String;II)V
 
     invoke-virtual {p0, v0, v3}, Landroidx/fragment/app/FragmentManager;->enqueueAction(Landroidx/fragment/app/FragmentManager$OpGenerator;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public popBackStack(II)V
@@ -11042,8 +11063,7 @@
 
     .line 3
     invoke-virtual {p0, p1, p2, v0}, Landroidx/fragment/app/FragmentManager;->popBackStack(IIZ)V
-
-    return-void
+return-void
 .end method
 
 .method public popBackStack(IIZ)V
@@ -11059,8 +11079,7 @@
     invoke-direct {v0, p0, v1, p1, p2}, Landroidx/fragment/app/FragmentManager$PopBackStackState;-><init>(Landroidx/fragment/app/FragmentManager;Ljava/lang/String;II)V
 
     invoke-virtual {p0, v0, p3}, Landroidx/fragment/app/FragmentManager;->enqueueAction(Landroidx/fragment/app/FragmentManager$OpGenerator;Z)V
-
-    return-void
+return-void
 
     .line 5
     :cond_0
@@ -11096,8 +11115,7 @@
     const/4 p1, 0x0
 
     invoke-virtual {p0, v0, p1}, Landroidx/fragment/app/FragmentManager;->enqueueAction(Landroidx/fragment/app/FragmentManager$OpGenerator;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public popBackStackImmediate()Z
@@ -11354,7 +11372,8 @@
 
     .line 22
     .line 23
-    invoke-virtual {p1, p2, p3}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V    return-void
+    invoke-virtual {p1, p2, p3}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+return-void
 .end method
 
 .method public registerFragmentLifecycleCallbacks(Landroidx/fragment/app/FragmentManager$FragmentLifecycleCallbacks;Z)V
@@ -11369,7 +11388,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/fragment/app/FragmentLifecycleCallbacksDispatcher;->registerFragmentLifecycleCallbacks(Landroidx/fragment/app/FragmentManager$FragmentLifecycleCallbacks;Z)V    return-void
+    invoke-virtual {v0, p1, p2}, Landroidx/fragment/app/FragmentLifecycleCallbacksDispatcher;->registerFragmentLifecycleCallbacks(Landroidx/fragment/app/FragmentManager$FragmentLifecycleCallbacks;Z)V
+return-void
 .end method
 
 .method public removeFragment(Landroidx/fragment/app/Fragment;)V
@@ -11621,7 +11641,8 @@
     .line 20
     .line 21
     .line 22
-    invoke-virtual {p0, p1}, Landroidx/fragment/app/FragmentManager;->restoreSaveStateInternal(Landroid/os/Parcelable;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/fragment/app/FragmentManager;->restoreSaveStateInternal(Landroid/os/Parcelable;)V
+return-void
 .end method
 
 .method public restoreBackStack(Ljava/lang/String;)V
@@ -11644,7 +11665,8 @@
     const/4 p1, 0x0
 
     .line 7
-    invoke-virtual {p0, v0, p1}, Landroidx/fragment/app/FragmentManager;->enqueueAction(Landroidx/fragment/app/FragmentManager$OpGenerator;Z)V    return-void
+    invoke-virtual {p0, v0, p1}, Landroidx/fragment/app/FragmentManager;->enqueueAction(Landroidx/fragment/app/FragmentManager$OpGenerator;Z)V
+return-void
 .end method
 
 .method public restoreBackStackState(Ljava/util/ArrayList;Ljava/util/ArrayList;Ljava/lang/String;)Z
@@ -11919,7 +11941,8 @@
     .line 16
     .line 17
     :cond_0
-    invoke-virtual {p0, p1}, Landroidx/fragment/app/FragmentManager;->restoreSaveStateInternal(Landroid/os/Parcelable;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/fragment/app/FragmentManager;->restoreSaveStateInternal(Landroid/os/Parcelable;)V
+return-void
 .end method
 
 .method public restoreSaveStateInternal(Landroid/os/Parcelable;)V
@@ -13724,7 +13747,8 @@
     const/4 p1, 0x0
 
     .line 7
-    invoke-virtual {p0, v0, p1}, Landroidx/fragment/app/FragmentManager;->enqueueAction(Landroidx/fragment/app/FragmentManager$OpGenerator;Z)V    return-void
+    invoke-virtual {p0, v0, p1}, Landroidx/fragment/app/FragmentManager;->enqueueAction(Landroidx/fragment/app/FragmentManager$OpGenerator;Z)V
+return-void
 .end method
 
 .method public saveBackStackState(Ljava/util/ArrayList;Ljava/util/ArrayList;Ljava/lang/String;)Z
@@ -15223,7 +15247,8 @@
     .line 78
     .line 79
     :cond_2
-    invoke-virtual {p2, v0}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V    return-void
+    invoke-virtual {p2, v0}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
+return-void
 .end method
 
 .method public setMaxLifecycle(Landroidx/fragment/app/Fragment;Landroidx/lifecycle/Lifecycle$State;)V
@@ -15462,7 +15487,8 @@
 
     .line 60
     .line 61
-    invoke-direct {p0, p1}, Landroidx/fragment/app/FragmentManager;->dispatchParentPrimaryNavigationFragmentChanged(Landroidx/fragment/app/Fragment;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/fragment/app/FragmentManager;->dispatchParentPrimaryNavigationFragmentChanged(Landroidx/fragment/app/Fragment;)V
+return-void
 .end method
 
 .method public setSpecialEffectsControllerFactory(Landroidx/fragment/app/SpecialEffectsControllerFactory;)V
@@ -15820,6 +15846,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/fragment/app/FragmentLifecycleCallbacksDispatcher;->unregisterFragmentLifecycleCallbacks(Landroidx/fragment/app/FragmentManager$FragmentLifecycleCallbacks;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/fragment/app/FragmentLifecycleCallbacksDispatcher;->unregisterFragmentLifecycleCallbacks(Landroidx/fragment/app/FragmentManager$FragmentLifecycleCallbacks;)V
+return-void
 .end method
 .end class

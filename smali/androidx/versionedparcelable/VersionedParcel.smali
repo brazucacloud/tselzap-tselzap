@@ -178,7 +178,8 @@
     move-result-object p1
 
     .line 28
-    invoke-direct {v0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V    return-object v0
+    invoke-direct {v0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+return-object v0
 
     .line 32
     :pswitch_1
@@ -186,7 +187,8 @@
 
     .line 33
     .line 34
-    invoke-direct {p1, p2}, Ljava/lang/SecurityException;-><init>(Ljava/lang/String;)V    return-object p1
+    invoke-direct {p1, p2}, Ljava/lang/SecurityException;-><init>(Ljava/lang/String;)V
+return-object p1
 
     .line 38
     :pswitch_2
@@ -194,7 +196,8 @@
 
     .line 39
     .line 40
-    invoke-direct {p1, p2}, Landroid/os/BadParcelableException;-><init>(Ljava/lang/String;)V    return-object p1
+    invoke-direct {p1, p2}, Landroid/os/BadParcelableException;-><init>(Ljava/lang/String;)V
+return-object p1
 
     .line 44
     :pswitch_3
@@ -202,7 +205,8 @@
 
     .line 45
     .line 46
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V    return-object p1
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+return-object p1
 
     .line 50
     :pswitch_4
@@ -210,7 +214,8 @@
 
     .line 51
     .line 52
-    invoke-direct {p1, p2}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V    return-object p1
+    invoke-direct {p1, p2}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+return-object p1
 
     .line 56
     :pswitch_5
@@ -218,7 +223,8 @@
 
     .line 57
     .line 58
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V    return-object p1
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+return-object p1
 
     .line 62
     :pswitch_6
@@ -226,7 +232,8 @@
 
     .line 63
     .line 64
-    invoke-direct {p1}, Landroid/os/NetworkOnMainThreadException;-><init>()V    return-object p1
+    invoke-direct {p1}, Landroid/os/NetworkOnMainThreadException;-><init>()V
+return-object p1
 
     .line 68
     :pswitch_7
@@ -234,7 +241,8 @@
 
     .line 69
     .line 70
-    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V    return-object p1
+    invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+return-object p1
 
     .line 74
     :pswitch_8
@@ -2909,7 +2917,8 @@
 
     .line 23
     .line 24
-    invoke-direct {v0, p1, p2}, Landroid/util/Size;-><init>(II)V    return-object v0
+    invoke-direct {v0, p1, p2}, Landroid/util/Size;-><init>(II)V
+return-object v0
 
     .line 28
     :cond_1
@@ -2969,7 +2978,8 @@
 
     .line 23
     .line 24
-    invoke-direct {v0, p1, p2}, Landroid/util/SizeF;-><init>(FF)V    return-object v0
+    invoke-direct {v0, p1, p2}, Landroid/util/SizeF;-><init>(FF)V
+return-object v0
 
     .line 28
     :cond_1
@@ -3610,7 +3620,8 @@
 
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->writeNoException()V    return-void
+    invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->writeNoException()V
+return-void
 
     .line 10
     :cond_0
@@ -4713,8 +4724,7 @@
 
     .line 7
     invoke-virtual {v0}, Landroidx/versionedparcelable/VersionedParcel;->closeField()V
-
-    return-void
+return-void
 .end method
 
 .method public writeVersionedParcelable(Landroidx/versionedparcelable/VersionedParcelable;I)V

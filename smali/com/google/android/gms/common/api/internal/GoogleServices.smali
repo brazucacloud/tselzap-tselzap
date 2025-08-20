@@ -194,8 +194,7 @@
     xor-int/lit8 p1, p2, 0x1
 
     iput-boolean p1, p0, Lcom/google/android/gms/common/api/internal/GoogleServices;->zzf:Z
-
-    return-void
+return-void
 .end method
 
 .method private static checkInitialized(Ljava/lang/String;)Lcom/google/android/gms/common/api/internal/GoogleServices;

@@ -313,8 +313,7 @@
     move-result-object p3
 
     invoke-direct {p0, p1, p2, p3}, Landroidx/constraintlayout/motion/widget/MotionScene$Transition;->fillFromAttributeList(Landroidx/constraintlayout/motion/widget/MotionScene;Landroid/content/Context;Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/constraintlayout/motion/widget/MotionScene;Landroidx/constraintlayout/motion/widget/MotionScene$Transition;)V
@@ -1290,7 +1289,8 @@
     .line 8
     .line 9
     .line 10
-    invoke-virtual {p3}, Landroid/content/res/TypedArray;->recycle()V    return-void
+    invoke-virtual {p3}, Landroid/content/res/TypedArray;->recycle()V
+return-void
 .end method
 
 
@@ -1349,8 +1349,7 @@
     iget-object p1, p0, Landroidx/constraintlayout/motion/widget/MotionScene$Transition;->mOnClicks:Ljava/util/ArrayList;
 
     invoke-virtual {p1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    return-void
+return-void
 .end method
 
 .method public addOnClick(Landroid/content/Context;Lorg/xmlpull/v1/XmlPullParser;)V
@@ -1720,7 +1719,8 @@
 
     .line 2
     .line 3
-    iput-boolean p1, p0, Landroidx/constraintlayout/motion/widget/MotionScene$Transition;->mDisable:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/motion/widget/MotionScene$Transition;->mDisable:Z
+return-void
 .end method
 
 .method public setInterpolatorInfo(ILjava/lang/String;I)V

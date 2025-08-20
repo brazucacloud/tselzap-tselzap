@@ -175,8 +175,7 @@
     .line 7
     :cond_0
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
-
-    return-void
+return-void
 
     :goto_1
     invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
@@ -191,8 +190,7 @@
     check-cast p1, Landroidx/window/extensions/layout/WindowLayoutInfo;
 
     invoke-virtual {p0, p1}, Landroidx/window/layout/ExtensionWindowLayoutInfoBackend$MulticastConsumer;->accept(Landroidx/window/extensions/layout/WindowLayoutInfo;)V
-
-    return-void
+return-void
 .end method
 
 .method public final addListener(Landroidx/core/util/Consumer;)V

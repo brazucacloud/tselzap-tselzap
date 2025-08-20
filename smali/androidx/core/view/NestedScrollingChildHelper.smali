@@ -931,8 +931,7 @@
 
     .line 1
     invoke-virtual {p0, v0}, Landroidx/core/view/NestedScrollingChildHelper;->stopNestedScroll(I)V
-
-    return-void
+return-void
 .end method
 
 .method public stopNestedScroll(I)V

@@ -245,8 +245,7 @@
 
     .line 32
     invoke-direct {p0, p1, v0}, Landroidx/constraintlayout/utils/widget/MotionLabel;->init(Landroid/content/Context;Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -383,8 +382,7 @@
 
     .line 64
     invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/utils/widget/MotionLabel;->init(Landroid/content/Context;Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -521,8 +519,7 @@
 
     .line 96
     invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/utils/widget/MotionLabel;->init(Landroid/content/Context;Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic access$000(Landroidx/constraintlayout/utils/widget/MotionLabel;)F
@@ -565,7 +562,8 @@
 
     .line 11
     .line 12
-    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/MotionLabel;->updateShaderMatrix()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/MotionLabel;->updateShaderMatrix()V
+return-void
 .end method
 
 .method private getHorizontalOffset()F
@@ -1654,7 +1652,8 @@
     .line 359
     .line 360
     .line 361
-    invoke-virtual {p0}, Landroidx/constraintlayout/utils/widget/MotionLabel;->setupPath()V    return-void
+    invoke-virtual {p0}, Landroidx/constraintlayout/utils/widget/MotionLabel;->setupPath()V
+return-void
 .end method
 
 .method private setTypefaceFromAttrs(Ljava/lang/String;II)V
@@ -1677,7 +1676,8 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/utils/widget/MotionLabel;->setTypeface(Landroid/graphics/Typeface;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/utils/widget/MotionLabel;->setTypeface(Landroid/graphics/Typeface;)V
+return-void
 
     .line 13
     :cond_0
@@ -1838,7 +1838,8 @@
     .line 77
     .line 78
     :cond_8
-    invoke-virtual {p3, p2}, Landroid/graphics/Paint;->setTextSkewX(F)V    return-void
+    invoke-virtual {p3, p2}, Landroid/graphics/Paint;->setTextSkewX(F)V
+return-void
 
     .line 82
     :cond_9
@@ -1860,7 +1861,8 @@
     .line 90
     .line 91
     .line 92
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/utils/widget/MotionLabel;->setTypeface(Landroid/graphics/Typeface;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/utils/widget/MotionLabel;->setTypeface(Landroid/graphics/Typeface;)V
+return-void
 .end method
 
 .method private setUpTheme(Landroid/content/Context;)V
@@ -1908,7 +1910,8 @@
 
     .line 21
     .line 22
-    invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setColor(I)V    return-void
+    invoke-virtual {p1, v0}, Landroid/graphics/Paint;->setColor(I)V
+return-void
 .end method
 
 .method private setupTexture()V
@@ -2597,7 +2600,8 @@
 
     .line 176
     .line 177
-    invoke-virtual {v0, v1}, Landroid/graphics/Shader;->setLocalMatrix(Landroid/graphics/Matrix;)V    return-void
+    invoke-virtual {v0, v1}, Landroid/graphics/Shader;->setLocalMatrix(Landroid/graphics/Matrix;)V
+return-void
 .end method
 
 
@@ -2952,7 +2956,8 @@
 
     .line 131
     .line 132
-    iput-boolean v9, p0, Landroidx/constraintlayout/utils/widget/MotionLabel;->mNotBuilt:Z    return-void
+    iput-boolean v9, p0, Landroidx/constraintlayout/utils/widget/MotionLabel;->mNotBuilt:Z
+return-void
 .end method
 
 .method public getRound()F
@@ -3573,8 +3578,7 @@
 
     .line 21
     invoke-virtual {p0, v1}, Landroidx/constraintlayout/utils/widget/MotionLabel;->buildShape(F)V
-
-    return-void
+return-void
 .end method
 
 .method public onDraw(Landroid/graphics/Canvas;)V
@@ -3697,7 +3701,8 @@
 
     .line 52
     .line 53
-    invoke-virtual {p1, v2, v3, v1, v0}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V    return-void
+    invoke-virtual {p1, v2, v3, v1, v0}, Landroid/graphics/Canvas;->drawText(Ljava/lang/String;FFLandroid/graphics/Paint;)V
+return-void
 
     .line 57
     :cond_1
@@ -4042,7 +4047,8 @@
 
     .line 230
     .line 231
-    invoke-virtual {p1, v0}, Landroid/graphics/Paint;->set(Landroid/graphics/Paint;)V    return-void
+    invoke-virtual {p1, v0}, Landroid/graphics/Paint;->set(Landroid/graphics/Paint;)V
+return-void
 
     .line 235
     :cond_6
@@ -4197,7 +4203,8 @@
 
     .line 311
     .line 312
-    invoke-virtual {p1, v0}, Landroid/graphics/Path;->transform(Landroid/graphics/Matrix;)V    return-void
+    invoke-virtual {p1, v0}, Landroid/graphics/Path;->transform(Landroid/graphics/Matrix;)V
+return-void
 .end method
 
 .method public onMeasure(II)V
@@ -4651,7 +4658,8 @@
 
     .line 14
     .line 15
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/utils/widget/MotionLabel;->setRoundPercent(F)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/utils/widget/MotionLabel;->setRoundPercent(F)V
+return-void
 
     .line 19
     :cond_0
@@ -5115,7 +5123,8 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public setTextBackgroundPanX(F)V
@@ -5131,7 +5140,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public setTextBackgroundPanY(F)V
@@ -5147,7 +5157,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public setTextBackgroundRotate(F)V
@@ -5163,7 +5174,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public setTextBackgroundZoom(F)V
@@ -5179,7 +5191,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public setTextFillColor(I)V
@@ -5190,7 +5203,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public setTextOutlineColor(I)V
@@ -5208,7 +5222,8 @@
 
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public setTextOutlineThickness(F)V
@@ -5254,7 +5269,8 @@
     .line 18
     .line 19
     :cond_0
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public setTextPanX(F)V
@@ -5265,7 +5281,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public setTextPanY(F)V
@@ -5276,7 +5293,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public setTextSize(F)V
@@ -5367,7 +5385,8 @@
     .line 39
     .line 40
     .line 41
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public setTextureHeight(F)V
@@ -5383,7 +5402,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public setTextureWidth(F)V
@@ -5399,7 +5419,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public setTypeface(Landroid/graphics/Typeface;)V
@@ -5605,6 +5626,7 @@
     const/4 v1, 0x1
 
     .line 70
-    invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setAntiAlias(Z)V    return-void
+    invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setAntiAlias(Z)V
+return-void
 .end method
 .end class

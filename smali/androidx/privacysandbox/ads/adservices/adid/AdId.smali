@@ -23,8 +23,7 @@
     iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/adid/AdId;->adId:Ljava/lang/String;
 
     iput-boolean p2, p0, Landroidx/privacysandbox/ads/adservices/adid/AdId;->isLimitAdTrackingEnabled:Z
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Ljava/lang/String;ZILkotlin/jvm/internal/e;)V
@@ -39,8 +38,7 @@
     .line 2
     :cond_0
     invoke-direct {p0, p1, p2}, Landroidx/privacysandbox/ads/adservices/adid/AdId;-><init>(Ljava/lang/String;Z)V
-
-    return-void
+return-void
 .end method
 
 

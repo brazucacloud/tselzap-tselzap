@@ -37,8 +37,7 @@
     const/4 p1, 0x1
 
     invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 
@@ -56,8 +55,7 @@
     iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/topics/TopicsManager$Companion$obtain$2;->$context:Landroid/content/Context;
 
     invoke-direct {p1, v0}, Landroidx/privacysandbox/ads/adservices/topics/TopicsManagerApi31Ext9Impl;-><init>(Landroid/content/Context;)V
-
-    return-object p1
+return-object p1
 .end method
 
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;

@@ -22,8 +22,7 @@
     iput-object p1, p0, Landroidx/navigation/a;->c:Ljava/lang/Object;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -41,8 +40,7 @@
     check-cast v0, Landroidx/savedstate/SavedStateRegistry;
 
     invoke-static {v0, p1, p2}, Landroidx/savedstate/SavedStateRegistry;->a(Landroidx/savedstate/SavedStateRegistry;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
-
-    return-void
+return-void
 
     :pswitch_0
     iget-object v0, p0, Landroidx/navigation/a;->c:Ljava/lang/Object;
@@ -50,8 +48,7 @@
     check-cast v0, Landroidx/navigation/NavController;
 
     invoke-static {v0, p1, p2}, Landroidx/navigation/NavController;->a(Landroidx/navigation/NavController;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
-
-    return-void
+return-void
 
     nop
 

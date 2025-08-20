@@ -54,8 +54,7 @@
 
     .line 12
     invoke-direct {p0, p1, v0}, Lcom/android/volley/toolbox/DiskBasedCache;-><init>(Lcom/android/volley/toolbox/DiskBasedCache$FileSupplier;I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Lcom/android/volley/toolbox/DiskBasedCache$FileSupplier;I)V
@@ -98,8 +97,7 @@
 
     .line 11
     invoke-direct {p0, p1, v0}, Lcom/android/volley/toolbox/DiskBasedCache;-><init>(Ljava/io/File;I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/io/File;I)V

@@ -18,8 +18,7 @@
     iput p1, p0, LT/a;->b:I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -33,8 +32,7 @@
     packed-switch v0, :pswitch_data_0
 
     invoke-static {}, Lcom/google/firebase/crashlytics/internal/concurrency/CrashlyticsWorker;->c()V
-
-    return-void
+return-void
 
     :pswitch_0
     sget v0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/AlarmManagerSchedulerBroadcastReceiver;->a:I

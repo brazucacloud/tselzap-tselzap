@@ -39,7 +39,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/transition/TransitionPropagation;-><init>()V    return-void
+    invoke-direct {p0}, Landroidx/transition/TransitionPropagation;-><init>()V
+return-void
 .end method
 
 .method private static getViewCoordinate(Landroidx/transition/TransitionValues;I)I

@@ -125,8 +125,7 @@
     move-result-wide v2
 
     invoke-virtual {p0, v1, v2, v3}, Landroid/os/BaseBundle;->putDouble(Ljava/lang/String;D)V
-
-    return-void
+return-void
 
     .line 18
     :cond_0
@@ -142,8 +141,7 @@
     move-result-wide v2
 
     invoke-virtual {p0, v1, v2, v3}, Landroid/os/BaseBundle;->putLong(Ljava/lang/String;J)V
-
-    return-void
+return-void
 
     .line 20
     :cond_1
@@ -152,8 +150,7 @@
     move-result-object p1
 
     invoke-virtual {p0, v1, p1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .end class

@@ -31,8 +31,7 @@
     iget-object v0, p0, Lcom/developer/kalert/a;->b:Lcom/developer/kalert/KAlertDialog$1;
 
     invoke-static {v0}, Lcom/developer/kalert/KAlertDialog$1;->a(Lcom/developer/kalert/KAlertDialog$1;)V
-
-    return-void
+return-void
 .end method
 
 .end class

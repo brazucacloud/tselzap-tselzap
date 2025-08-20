@@ -162,8 +162,7 @@
     iput-boolean p3, p0, Lcom/google/android/gms/common/zzs;->zzc:Z
 
     iput-boolean p4, p0, Lcom/google/android/gms/common/zzs;->zzd:Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/String;Lcom/google/android/gms/common/zzj;ZZ)V
@@ -179,8 +178,7 @@
     iput-boolean p3, p0, Lcom/google/android/gms/common/zzs;->zzc:Z
 
     iput-boolean p4, p0, Lcom/google/android/gms/common/zzs;->zzd:Z
-
-    return-void
+return-void
 .end method
 
 

@@ -134,8 +134,7 @@
 
     .line 18
     iput-boolean p1, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzc;->zzk:Z
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic zzb()Lcom/google/android/gms/internal/measurement/zzgg$zzc;
@@ -159,8 +158,7 @@
 
     .line 3
     iput-boolean p1, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzc;->zzj:Z
-
-    return-void
+return-void
 .end method
 
 .method public static zzc()Lcom/google/android/gms/internal/measurement/zzgg$zzc;
@@ -184,8 +182,7 @@
 
     .line 3
     iput-boolean p1, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzc;->zzf:Z
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic zzd(Lcom/google/android/gms/internal/measurement/zzgg$zzc;Z)V
@@ -200,8 +197,7 @@
 
     .line 2
     iput-boolean p1, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzc;->zzl:Z
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic zze(Lcom/google/android/gms/internal/measurement/zzgg$zzc;Z)V
@@ -216,8 +212,7 @@
 
     .line 2
     iput-boolean p1, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzc;->zzg:Z
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic zzf(Lcom/google/android/gms/internal/measurement/zzgg$zzc;Z)V
@@ -232,8 +227,7 @@
 
     .line 2
     iput-boolean p1, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzc;->zzh:Z
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic zzg(Lcom/google/android/gms/internal/measurement/zzgg$zzc;Z)V
@@ -248,8 +242,7 @@
 
     .line 2
     iput-boolean p1, p0, Lcom/google/android/gms/internal/measurement/zzgg$zzc;->zzi:Z
-
-    return-void
+return-void
 .end method
 
 
@@ -407,16 +400,14 @@
     new-instance p1, Lcom/google/android/gms/internal/measurement/zzgg$zzc$zza;
 
     invoke-direct {p1, p2}, Lcom/google/android/gms/internal/measurement/zzgg$zzc$zza;-><init>(Lcom/google/android/gms/internal/measurement/zzgp;)V
-
-    return-object p1
+return-object p1
 
     .line 16
     :pswitch_5
     new-instance p1, Lcom/google/android/gms/internal/measurement/zzgg$zzc;
 
     invoke-direct {p1}, Lcom/google/android/gms/internal/measurement/zzgg$zzc;-><init>()V
-
-    return-object p1
+return-object p1
 
     nop
 

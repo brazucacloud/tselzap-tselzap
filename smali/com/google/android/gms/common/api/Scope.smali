@@ -95,8 +95,7 @@
 
     .line 2
     invoke-direct {p0, v0, p1}, Lcom/google/android/gms/common/api/Scope;-><init>(ILjava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 

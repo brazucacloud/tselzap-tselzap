@@ -41,7 +41,8 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0}, Landroidx/appcompat/view/menu/ListMenuPresenter$MenuAdapter;->findExpandedIndex()V    return-void
+    invoke-virtual {p0}, Landroidx/appcompat/view/menu/ListMenuPresenter$MenuAdapter;->findExpandedIndex()V
+return-void
 .end method
 
 
@@ -303,6 +304,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-super {p0}, Landroid/widget/BaseAdapter;->notifyDataSetChanged()V    return-void
+    invoke-super {p0}, Landroid/widget/BaseAdapter;->notifyDataSetChanged()V
+return-void
 .end method
 .end class

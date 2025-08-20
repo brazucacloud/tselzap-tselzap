@@ -186,8 +186,7 @@
     .locals 0
 
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/zaa;->zac(Ljava/lang/Runnable;)V
-
-    return-void
+return-void
 .end method
 
 .method private final declared-synchronized zac(Ljava/lang/Runnable;)V

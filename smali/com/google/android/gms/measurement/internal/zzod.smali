@@ -41,8 +41,7 @@
     iget-object v2, p0, Lcom/google/android/gms/measurement/internal/zzod;->zzc:Landroid/app/job/JobParameters;
 
     invoke-static {v0, v1, v2}, Lcom/google/android/gms/measurement/internal/zzoc;->zza(Lcom/google/android/gms/measurement/internal/zzoc;Lcom/google/android/gms/measurement/internal/zzhc;Landroid/app/job/JobParameters;)V
-
-    return-void
+return-void
 .end method
 
 .end class

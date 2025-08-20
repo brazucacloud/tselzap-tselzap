@@ -153,7 +153,8 @@
     move-object v5, p0
 
     .line 65
-    invoke-virtual {v5}, Landroid/graphics/Path;->close()V    return-void
+    invoke-virtual {v5}, Landroid/graphics/Path;->close()V
+return-void
 .end method
 
 .method public static final toPath(Landroidx/graphics/shapes/Morph;FLandroid/graphics/Path;)Landroid/graphics/Path;
@@ -173,8 +174,7 @@
     move-result-object p0
 
     invoke-static {p2, p0}, Landroidx/graphics/shapes/Shapes_androidKt;->pathFromCubics(Landroid/graphics/Path;Ljava/util/List;)V
-
-    return-object p2
+return-object p2
 .end method
 
 .method public static final toPath(Landroidx/graphics/shapes/RoundedPolygon;)Landroid/graphics/Path;
@@ -213,8 +213,7 @@
     move-result-object p0
 
     invoke-static {p1, p0}, Landroidx/graphics/shapes/Shapes_androidKt;->pathFromCubics(Landroid/graphics/Path;Ljava/util/List;)V
-
-    return-object p1
+return-object p1
 .end method
 
 .method public static synthetic toPath$default(Landroidx/graphics/shapes/Morph;FLandroid/graphics/Path;ILjava/lang/Object;)Landroid/graphics/Path;

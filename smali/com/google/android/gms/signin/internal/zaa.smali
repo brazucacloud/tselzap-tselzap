@@ -73,8 +73,7 @@
 
     .line 1
     invoke-direct {p0, v2, v0, v1}, Lcom/google/android/gms/signin/internal/zaa;-><init>(IILandroid/content/Intent;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(IILandroid/content/Intent;)V

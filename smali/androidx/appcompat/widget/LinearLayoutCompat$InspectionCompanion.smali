@@ -62,7 +62,8 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-boolean v0, p0, Landroidx/appcompat/widget/LinearLayoutCompat$InspectionCompanion;->mPropertiesMapped:Z    return-void
+    iput-boolean v0, p0, Landroidx/appcompat/widget/LinearLayoutCompat$InspectionCompanion;->mPropertiesMapped:Z
+return-void
 .end method
 
 
@@ -220,7 +221,8 @@
     const/4 p1, 0x1
 
     .line 74
-    iput-boolean p1, p0, Landroidx/appcompat/widget/LinearLayoutCompat$InspectionCompanion;->mPropertiesMapped:Z    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/widget/LinearLayoutCompat$InspectionCompanion;->mPropertiesMapped:Z
+return-void
 .end method
 
 .method public readProperties(Landroidx/appcompat/widget/LinearLayoutCompat;Landroid/view/inspector/PropertyReader;)V
@@ -319,8 +321,7 @@
     move-result p1
 
     invoke-static {p2, v0, p1}, Landroidx/appcompat/widget/a;->e(Landroid/view/inspector/PropertyReader;II)V
-
-    return-void
+return-void
 
     .line 12
     :cond_0
@@ -346,7 +347,6 @@
     check-cast p1, Landroidx/appcompat/widget/LinearLayoutCompat;
 
     invoke-virtual {p0, p1, p2}, Landroidx/appcompat/widget/LinearLayoutCompat$InspectionCompanion;->readProperties(Landroidx/appcompat/widget/LinearLayoutCompat;Landroid/view/inspector/PropertyReader;)V
-
-    return-void
+return-void
 .end method
 .end class

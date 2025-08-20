@@ -41,7 +41,8 @@
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 
@@ -60,7 +61,8 @@
 
     .line 2
     .line 3
-    invoke-interface {p1}, Ljava/lang/Runnable;->run()V    return-void
+    invoke-interface {p1}, Ljava/lang/Runnable;->run()V
+return-void
 .end method
 
 .method public onTransitionPause(Landroid/transition/Transition;)V

@@ -145,8 +145,7 @@
 
     .line 2
     iput-boolean p1, p0, Landroidx/transition/ChangeImageTransform$Listener;->mIsBeforeAnimator:Z
-
-    return-void
+return-void
 .end method
 
 .method public onAnimationEnd(Landroid/animation/Animator;Z)V
@@ -158,8 +157,7 @@
 
     .line 1
     iput-boolean p2, p0, Landroidx/transition/ChangeImageTransform$Listener;->mIsBeforeAnimator:Z
-
-    return-void
+return-void
 .end method
 
 .method public onAnimationPause(Landroid/animation/Animator;)V
@@ -182,14 +180,16 @@
 
     .line 8
     .line 9
-    invoke-direct {p0, p1}, Landroidx/transition/ChangeImageTransform$Listener;->saveMatrix(Landroid/graphics/Matrix;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/transition/ChangeImageTransform$Listener;->saveMatrix(Landroid/graphics/Matrix;)V
+return-void
 .end method
 
 .method public onAnimationResume(Landroid/animation/Animator;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/transition/ChangeImageTransform$Listener;->restoreMatrix()V    return-void
+    invoke-direct {p0}, Landroidx/transition/ChangeImageTransform$Listener;->restoreMatrix()V
+return-void
 .end method
 
 .method public onAnimationStart(Landroid/animation/Animator;)V
@@ -199,8 +199,7 @@
 
     .line 2
     iput-boolean p1, p0, Landroidx/transition/ChangeImageTransform$Listener;->mIsBeforeAnimator:Z
-
-    return-void
+return-void
 .end method
 
 .method public onAnimationStart(Landroid/animation/Animator;Z)V
@@ -214,8 +213,7 @@
 
     .line 1
     iput-boolean p1, p0, Landroidx/transition/ChangeImageTransform$Listener;->mIsBeforeAnimator:Z
-
-    return-void
+return-void
 .end method
 
 .method public onTransitionCancel(Landroidx/transition/Transition;)V
@@ -243,8 +241,7 @@
 
     .line 2
     invoke-static {p0, p1, p2}, Landroidx/transition/b;->a(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public onTransitionPause(Landroidx/transition/Transition;)V
@@ -284,7 +281,8 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Landroidx/transition/ChangeImageTransform$Listener;->restoreMatrix()V    return-void
+    invoke-direct {p0}, Landroidx/transition/ChangeImageTransform$Listener;->restoreMatrix()V
+return-void
 .end method
 
 .method public onTransitionStart(Landroidx/transition/Transition;)V
@@ -302,7 +300,6 @@
 
     .line 2
     invoke-static {p0, p1, p2}, Landroidx/transition/b;->b(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
-
-    return-void
+return-void
 .end method
 .end class

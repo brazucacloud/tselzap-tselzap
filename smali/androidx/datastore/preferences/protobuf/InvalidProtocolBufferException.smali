@@ -78,7 +78,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;-><init>(Ljava/lang/String;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;-><init>(Ljava/lang/String;)V
+return-object v0
 .end method
 
 .method public static invalidTag()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -93,7 +94,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;-><init>(Ljava/lang/String;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;-><init>(Ljava/lang/String;)V
+return-object v0
 .end method
 
 .method public static invalidUtf8()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -108,7 +110,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;-><init>(Ljava/lang/String;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;-><init>(Ljava/lang/String;)V
+return-object v0
 .end method
 
 .method public static invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
@@ -123,7 +126,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;-><init>(Ljava/lang/String;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;-><init>(Ljava/lang/String;)V
+return-object v0
 .end method
 
 .method public static malformedVarint()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -138,7 +142,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;-><init>(Ljava/lang/String;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;-><init>(Ljava/lang/String;)V
+return-object v0
 .end method
 
 .method public static negativeSize()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -153,7 +158,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;-><init>(Ljava/lang/String;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;-><init>(Ljava/lang/String;)V
+return-object v0
 .end method
 
 .method public static parseFailure()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -168,7 +174,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;-><init>(Ljava/lang/String;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;-><init>(Ljava/lang/String;)V
+return-object v0
 .end method
 
 .method public static recursionLimitExceeded()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -183,7 +190,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;-><init>(Ljava/lang/String;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;-><init>(Ljava/lang/String;)V
+return-object v0
 .end method
 
 .method public static sizeLimitExceeded()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -198,7 +206,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;-><init>(Ljava/lang/String;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;-><init>(Ljava/lang/String;)V
+return-object v0
 .end method
 
 .method public static truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
@@ -213,7 +222,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;-><init>(Ljava/lang/String;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;-><init>(Ljava/lang/String;)V
+return-object v0
 .end method
 
 

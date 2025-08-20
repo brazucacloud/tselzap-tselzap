@@ -184,8 +184,7 @@
 
     .line 1
     invoke-direct/range {v0 .. v16}, Lcom/google/android/gms/measurement/internal/zzbf;-><init>(Ljava/lang/String;Ljava/lang/String;JJJJJLjava/lang/Long;Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/Boolean;)V
-
-    return-void
+return-void
 .end method
 
 
@@ -225,8 +224,7 @@
     move-wide/from16 v10, p1
 
     invoke-direct/range {v1 .. v17}, Lcom/google/android/gms/measurement/internal/zzbf;-><init>(Ljava/lang/String;Ljava/lang/String;JJJJJLjava/lang/Long;Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/Boolean;)V
-
-    return-object v1
+return-object v1
 .end method
 
 .method public final zza(JJ)Lcom/google/android/gms/measurement/internal/zzbf;
@@ -267,8 +265,7 @@
     move-wide/from16 v12, p1
 
     invoke-direct/range {v1 .. v17}, Lcom/google/android/gms/measurement/internal/zzbf;-><init>(Ljava/lang/String;Ljava/lang/String;JJJJJLjava/lang/Long;Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/Boolean;)V
-
-    return-object v1
+return-object v1
 .end method
 
 .method public final zza(Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/Boolean;)Lcom/google/android/gms/measurement/internal/zzbf;
@@ -319,8 +316,7 @@
     move-object/from16 v17, p2
 
     invoke-direct/range {v2 .. v18}, Lcom/google/android/gms/measurement/internal/zzbf;-><init>(Ljava/lang/String;Ljava/lang/String;JJJJJLjava/lang/Long;Ljava/lang/Long;Ljava/lang/Long;Ljava/lang/Boolean;)V
-
-    return-object v2
+return-object v2
 .end method
 
 .end class

@@ -340,7 +340,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/collection/LongSparseArray;->put(JLjava/lang/Object;)V    return-void
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/collection/LongSparseArray;->put(JLjava/lang/Object;)V
+return-void
 .end method
 
 .method public addToPostLayout(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;Landroidx/recyclerview/widget/RecyclerView$ItemAnimator$ItemHolderInfo;)V
@@ -474,7 +475,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroidx/collection/LongSparseArray;->clear()V    return-void
+    invoke-virtual {v0}, Landroidx/collection/LongSparseArray;->clear()V
+return-void
 .end method
 
 .method public getFromOldChangeHolders(J)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
@@ -590,7 +592,8 @@
     .locals 0
 
     .line 1
-    invoke-static {}, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;->drainCache()V    return-void
+    invoke-static {}, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;->drainCache()V
+return-void
 .end method
 
 .method public onViewDetached(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V

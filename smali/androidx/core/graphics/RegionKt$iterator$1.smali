@@ -125,8 +125,7 @@
     move-result v1
 
     iput-boolean v1, p0, Landroidx/core/graphics/RegionKt$iterator$1;->hasMore:Z
-
-    return-object v0
+return-object v0
 
     .line 5
     :cond_0

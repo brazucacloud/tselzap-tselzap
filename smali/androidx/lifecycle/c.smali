@@ -31,7 +31,6 @@
     iget-object v0, p0, Landroidx/lifecycle/c;->a:LB1/r;
 
     invoke-static {v0, p1}, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->a(LB1/r;Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 .end class

@@ -47,7 +47,8 @@
 
     .line 11
     .line 12
-    invoke-virtual {p1, p0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->addPanelSlideListener(Landroidx/slidingpanelayout/widget/SlidingPaneLayout$PanelSlideListener;)V    return-void
+    invoke-virtual {p1, p0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->addPanelSlideListener(Landroidx/slidingpanelayout/widget/SlidingPaneLayout$PanelSlideListener;)V
+return-void
 .end method
 
 
@@ -60,7 +61,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->closePane()Z    return-void
+    invoke-virtual {v0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->closePane()Z
+return-void
 .end method
 
 .method public onPanelClosed(Landroid/view/View;)V
@@ -79,7 +81,8 @@
     const/4 p1, 0x0
 
     .line 7
-    invoke-virtual {p0, p1}, Landroidx/activity/OnBackPressedCallback;->setEnabled(Z)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/activity/OnBackPressedCallback;->setEnabled(Z)V
+return-void
 .end method
 
 .method public onPanelOpened(Landroid/view/View;)V
@@ -98,7 +101,8 @@
     const/4 p1, 0x1
 
     .line 7
-    invoke-virtual {p0, p1}, Landroidx/activity/OnBackPressedCallback;->setEnabled(Z)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/activity/OnBackPressedCallback;->setEnabled(Z)V
+return-void
 .end method
 
 .method public onPanelSlide(Landroid/view/View;F)V
@@ -107,7 +111,6 @@
     const-string p2, "panel"
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 .end class

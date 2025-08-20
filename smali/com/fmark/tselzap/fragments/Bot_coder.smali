@@ -373,8 +373,7 @@
 
     .line 1
     invoke-direct {p0}, Lcom/fmark/tselzap/fragments/Bot_coder;->lambda$onViewCreated$0()V
-
-    return-void
+return-void
 .end method
 
 .method private dismissCurrentDialog()V
@@ -450,8 +449,7 @@
 
     .line 1
     invoke-static {p0}, Lcom/fmark/tselzap/fragments/Bot_coder;->lambda$saveApiEndpoint$11(Lcom/developer/kalert/KAlertDialog;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic f(Lcom/fmark/tselzap/fragments/Bot_coder;Landroid/view/View;)V
@@ -468,8 +466,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Lcom/fmark/tselzap/fragments/Bot_coder;->lambda$showXiaomiPermissionDialog$13(Lcom/developer/kalert/KAlertDialog;)V
-
-    return-void
+return-void
 .end method
 
 .method private getPR()V
@@ -945,8 +942,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2}, Lcom/fmark/tselzap/fragments/Bot_coder;->lambda$setupListeners$10(Landroid/widget/CompoundButton;Z)V
-
-    return-void
+return-void
 .end method
 
 .method private handleSaveButtonClick()V
@@ -1597,8 +1593,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2}, Lcom/fmark/tselzap/fragments/Bot_coder;->lambda$setupListeners$5(Landroid/widget/CompoundButton;Z)V
-
-    return-void
+return-void
 .end method
 
 .method private initDialog()V
@@ -3013,8 +3008,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Lcom/fmark/tselzap/fragments/Bot_coder;->lambda$showNotificationPermissionDialog$1(Lcom/developer/kalert/KAlertDialog;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic k(Lcom/fmark/tselzap/fragments/Bot_coder;Landroid/view/View;)V
@@ -3031,8 +3025,7 @@
 
     .line 1
     invoke-direct {p0}, Lcom/fmark/tselzap/fragments/Bot_coder;->lambda$checkXiaomiPermissions$12()V
-
-    return-void
+return-void
 .end method
 
 .method private synthetic lambda$checkXiaomiPermissions$12()V
@@ -3803,8 +3796,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2}, Lcom/fmark/tselzap/fragments/Bot_coder;->lambda$setupListeners$6(Landroid/widget/CompoundButton;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic o(Lcom/fmark/tselzap/fragments/Bot_coder;Landroid/widget/CompoundButton;Z)V
@@ -3812,8 +3804,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2}, Lcom/fmark/tselzap/fragments/Bot_coder;->lambda$setupListeners$9(Landroid/widget/CompoundButton;Z)V
-
-    return-void
+return-void
 .end method
 
 .method private openNotificationSettings()V
@@ -3951,8 +3942,7 @@
 
     .line 1
     invoke-direct {p0}, Lcom/fmark/tselzap/fragments/Bot_coder;->setPR()V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic r(Lcom/fmark/tselzap/fragments/Bot_coder;I)V
@@ -3962,8 +3952,7 @@
     const/4 v0, 0x0
 
     invoke-direct {p0, v0, p1}, Lcom/fmark/tselzap/fragments/Bot_coder;->showAddEditDialog(ZI)V
-
-    return-void
+return-void
 .end method
 
 .method private removeView()V

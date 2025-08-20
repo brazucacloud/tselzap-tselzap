@@ -273,7 +273,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 .method private addDoneString(Ljava/lang/StringBuilder;)V
@@ -709,7 +710,8 @@
     move-result-object p0
 
     .line 32
-    invoke-virtual {v1, v2, p0, v0}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V    return-void
+    invoke-virtual {v1, v2, p0, v0}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
+return-void
 .end method
 
 .method private getDoneValue(Ljava/lang/Object;)Ljava/lang/Object;
@@ -868,7 +870,8 @@
 
     .line 28
     .line 29
-    invoke-direct {p0, v1, v0}, Landroidx/concurrent/futures/AbstractResolvableFuture$Cancellation;-><init>(ZLjava/lang/Throwable;)V    return-object p0
+    invoke-direct {p0, v1, v0}, Landroidx/concurrent/futures/AbstractResolvableFuture$Cancellation;-><init>(ZLjava/lang/Throwable;)V
+return-object p0
 
     .line 33
     :cond_0
@@ -947,7 +950,8 @@
 
     .line 64
     .line 65
-    invoke-direct {v0, p0}, Landroidx/concurrent/futures/AbstractResolvableFuture$Failure;-><init>(Ljava/lang/Throwable;)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/concurrent/futures/AbstractResolvableFuture$Failure;-><init>(Ljava/lang/Throwable;)V
+return-object v0
 
     .line 69
     :goto_0
@@ -994,7 +998,8 @@
     .line 90
     .line 91
     .line 92
-    invoke-direct {v0, v1}, Landroidx/concurrent/futures/AbstractResolvableFuture$Failure;-><init>(Ljava/lang/Throwable;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/concurrent/futures/AbstractResolvableFuture$Failure;-><init>(Ljava/lang/Throwable;)V
+return-object v0
 
     .line 96
     :cond_5
@@ -1002,7 +1007,8 @@
 
     .line 97
     .line 98
-    invoke-direct {p0, v1, v2}, Landroidx/concurrent/futures/AbstractResolvableFuture$Cancellation;-><init>(ZLjava/lang/Throwable;)V    return-object p0
+    invoke-direct {p0, v1, v2}, Landroidx/concurrent/futures/AbstractResolvableFuture$Cancellation;-><init>(ZLjava/lang/Throwable;)V
+return-object p0
 
     .line 102
     :catch_1
@@ -1021,7 +1027,8 @@
     move-result-object p0
 
     .line 109
-    invoke-direct {v0, p0}, Landroidx/concurrent/futures/AbstractResolvableFuture$Failure;-><init>(Ljava/lang/Throwable;)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/concurrent/futures/AbstractResolvableFuture$Failure;-><init>(Ljava/lang/Throwable;)V
+return-object v0
 .end method
 
 .method public static getUninterruptibly(Ljava/util/concurrent/Future;)Ljava/lang/Object;
@@ -1361,7 +1368,8 @@
     .line 34
     .line 35
     :cond_2
-    invoke-static {p1, p2}, Landroidx/concurrent/futures/AbstractResolvableFuture;->executeListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V    return-void
+    invoke-static {p1, p2}, Landroidx/concurrent/futures/AbstractResolvableFuture;->executeListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+return-void
 .end method
 
 .method public afterDone()V

@@ -45,7 +45,8 @@
 
     .line 8
     .line 9
-    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V    return-void
+    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
+return-void
 .end method
 
 
@@ -145,7 +146,8 @@
 
     .line 47
     .line 48
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/DefaultItemAnimator;->dispatchFinishedWhenDone()V    return-void
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/DefaultItemAnimator;->dispatchFinishedWhenDone()V
+return-void
 .end method
 
 .method public onAnimationStart(Landroid/animation/Animator;)V

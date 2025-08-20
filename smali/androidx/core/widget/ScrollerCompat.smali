@@ -80,8 +80,7 @@
     new-instance v0, Landroidx/core/widget/ScrollerCompat;
 
     invoke-direct {v0, p0, p1}, Landroidx/core/widget/ScrollerCompat;-><init>(Landroid/content/Context;Landroid/view/animation/Interpolator;)V
-
-    return-object v0
+return-object v0
 .end method
 
 
@@ -149,8 +148,7 @@
     move/from16 v8, p8
 
     invoke-virtual/range {v0 .. v8}, Landroid/widget/OverScroller;->fling(IIIIIIII)V
-
-    return-void
+return-void
 .end method
 
 .method public fling(IIIIIIIIII)V
@@ -182,8 +180,7 @@
     move/from16 v10, p10
 
     invoke-virtual/range {v0 .. v10}, Landroid/widget/OverScroller;->fling(IIIIIIIIII)V
-
-    return-void
+return-void
 .end method
 
 .method public getCurrVelocity()F
@@ -409,8 +406,7 @@
     iget-object v0, p0, Landroidx/core/widget/ScrollerCompat;->mScroller:Landroid/widget/OverScroller;
 
     invoke-virtual {v0, p1, p2, p3, p4}, Landroid/widget/OverScroller;->startScroll(IIII)V
-
-    return-void
+return-void
 .end method
 
 .method public startScroll(IIIII)V
@@ -432,8 +428,7 @@
     move v5, p5
 
     invoke-virtual/range {v0 .. v5}, Landroid/widget/OverScroller;->startScroll(IIIII)V
-
-    return-void
+return-void
 .end method
 
 .end class

@@ -34,7 +34,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, p1}, Landroidx/dynamicanimation/animation/FloatPropertyCompat;-><init>(Ljava/lang/String;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/dynamicanimation/animation/FloatPropertyCompat;-><init>(Ljava/lang/String;)V
+return-void
 .end method
 
 
@@ -87,6 +88,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1, p2}, Landroidx/core/os/a;->u(Landroid/util/FloatProperty;Ljava/lang/Object;F)V    return-void
+    invoke-static {v0, p1, p2}, Landroidx/core/os/a;->u(Landroid/util/FloatProperty;Ljava/lang/Object;F)V
+return-void
 .end method
 .end class

@@ -56,8 +56,7 @@
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzna$zzb;->zza:Lsun/misc/Unsafe;
 
     invoke-virtual {v0, p1, p2, p3, p4}, Lsun/misc/Unsafe;->putInt(Ljava/lang/Object;JI)V
-
-    return-void
+return-void
 .end method
 
 .method public final zza(Ljava/lang/Object;JJ)V
@@ -73,8 +72,7 @@
     move-wide v4, p4
 
     invoke-virtual/range {v0 .. v5}, Lsun/misc/Unsafe;->putLong(Ljava/lang/Object;JJ)V
-
-    return-void
+return-void
 .end method
 
 .method public abstract zza(Ljava/lang/Object;JZ)V

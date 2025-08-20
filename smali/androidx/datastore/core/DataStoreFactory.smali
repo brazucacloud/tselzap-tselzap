@@ -256,8 +256,7 @@
     move-object v1, p5
 
     invoke-direct/range {v0 .. v5}, Landroidx/datastore/core/SingleProcessDataStore;-><init>(Lp1/a;Landroidx/datastore/core/Serializer;Ljava/util/List;Landroidx/datastore/core/CorruptionHandler;Lz1/v;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public final create(Landroidx/datastore/core/Serializer;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Lp1/a;)Landroidx/datastore/core/DataStore;

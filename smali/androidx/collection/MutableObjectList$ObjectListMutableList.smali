@@ -84,8 +84,7 @@
     iget-object v0, p0, Landroidx/collection/MutableObjectList$ObjectListMutableList;->objectList:Landroidx/collection/MutableObjectList;
 
     invoke-virtual {v0, p1, p2}, Landroidx/collection/MutableObjectList;->add(ILjava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public add(Ljava/lang/Object;)Z
@@ -164,7 +163,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/collection/MutableObjectList;->clear()V    return-void
+    invoke-virtual {v0}, Landroidx/collection/MutableObjectList;->clear()V
+return-void
 .end method
 
 .method public contains(Ljava/lang/Object;)Z
@@ -325,7 +325,8 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, p0, v1}, Landroidx/collection/MutableObjectList$MutableObjectListIterator;-><init>(Ljava/util/List;I)V    return-object v0
+    invoke-direct {v0, p0, v1}, Landroidx/collection/MutableObjectList$MutableObjectListIterator;-><init>(Ljava/util/List;I)V
+return-object v0
 .end method
 
 .method public lastIndexOf(Ljava/lang/Object;)I
@@ -362,8 +363,7 @@
     const/4 v1, 0x0
 
     invoke-direct {v0, p0, v1}, Landroidx/collection/MutableObjectList$MutableObjectListIterator;-><init>(Ljava/util/List;I)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public listIterator(I)Ljava/util/ListIterator;
@@ -380,8 +380,7 @@
     new-instance v0, Landroidx/collection/MutableObjectList$MutableObjectListIterator;
 
     invoke-direct {v0, p0, p1}, Landroidx/collection/MutableObjectList$MutableObjectListIterator;-><init>(Ljava/util/List;I)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public final bridge remove(I)Ljava/lang/Object;
@@ -579,7 +578,8 @@
 
     .line 5
     .line 6
-    invoke-direct {v0, p0, p1, p2}, Landroidx/collection/MutableObjectList$SubList;-><init>(Ljava/util/List;II)V    return-object v0
+    invoke-direct {v0, p0, p1, p2}, Landroidx/collection/MutableObjectList$SubList;-><init>(Ljava/util/List;II)V
+return-object v0
 .end method
 
 .method public toArray()[Ljava/lang/Object;

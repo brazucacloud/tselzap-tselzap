@@ -192,6 +192,7 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/navigation/fragment/FragmentNavigator$Extras;-><init>(Ljava/util/Map;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/navigation/fragment/FragmentNavigator$Extras;-><init>(Ljava/util/Map;)V
+return-object v0
 .end method
 .end class

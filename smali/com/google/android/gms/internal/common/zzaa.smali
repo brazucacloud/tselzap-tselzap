@@ -99,8 +99,7 @@
     iget-object v2, v1, Lcom/google/android/gms/internal/common/zzx;->zza:Lcom/google/android/gms/internal/common/zzr;
 
     invoke-direct {v0, v1, p0, p1, v2}, Lcom/google/android/gms/internal/common/zzw;-><init>(Lcom/google/android/gms/internal/common/zzx;Lcom/google/android/gms/internal/common/zzaa;Ljava/lang/CharSequence;Lcom/google/android/gms/internal/common/zzr;)V
-
-    return-object v0
+return-object v0
 .end method
 
 
@@ -119,8 +118,7 @@
     const v4, 0x7fffffff
 
     invoke-direct {v1, v2, v3, v0, v4}, Lcom/google/android/gms/internal/common/zzaa;-><init>(Lcom/google/android/gms/internal/common/zzx;ZLcom/google/android/gms/internal/common/zzr;I)V
-
-    return-object v1
+return-object v1
 .end method
 
 .method public final zzd(Ljava/lang/CharSequence;)Ljava/lang/Iterable;
@@ -129,8 +127,7 @@
     new-instance v0, Lcom/google/android/gms/internal/common/zzy;
 
     invoke-direct {v0, p0, p1}, Lcom/google/android/gms/internal/common/zzy;-><init>(Lcom/google/android/gms/internal/common/zzaa;Ljava/lang/CharSequence;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public final zzf(Ljava/lang/CharSequence;)Ljava/util/List;

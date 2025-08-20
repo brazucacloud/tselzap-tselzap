@@ -26,8 +26,7 @@
     new-instance v0, Landroidx/collection/FloatFloatPair;
 
     invoke-direct {v0, p0, p1}, Landroidx/collection/FloatFloatPair;-><init>(J)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final component1-impl(J)F

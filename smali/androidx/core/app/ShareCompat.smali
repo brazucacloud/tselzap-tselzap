@@ -63,8 +63,7 @@
 
     .line 10
     invoke-static {p0, p2}, Landroidx/core/app/ShareCompat;->configureMenuItem(Landroid/view/MenuItem;Landroidx/core/app/ShareCompat$IntentBuilder;)V
-
-    return-void
+return-void
 
     .line 11
     :cond_0

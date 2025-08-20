@@ -58,8 +58,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/android/volley/toolbox/AsyncHttpStack$Response;-><init>(Lcom/android/volley/toolbox/HttpResponse;Ljava/io/IOException;Lcom/android/volley/AuthFailureError;)V
-
-    return-void
+return-void
 .end method
 
 .end class

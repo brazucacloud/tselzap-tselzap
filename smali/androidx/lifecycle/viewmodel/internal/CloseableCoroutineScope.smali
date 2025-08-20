@@ -41,8 +41,7 @@
     move-result-object p1
 
     invoke-direct {p0, p1}, Landroidx/lifecycle/viewmodel/internal/CloseableCoroutineScope;-><init>(Lg1/i;)V
-
-    return-void
+return-void
 .end method
 
 

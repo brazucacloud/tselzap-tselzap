@@ -181,8 +181,7 @@
     new-instance v0, Landroid/text/PrecomputedText$Params$Builder;
 
     invoke-direct {v0, p0}, Landroid/text/PrecomputedText$Params$Builder;-><init>(Landroid/text/TextPaint;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic n(Landroid/text/PrecomputedText$Params$Builder;)Landroid/text/PrecomputedText$Params;
@@ -265,8 +264,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/text/PrecomputedText;->removeSpan(Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic v(Landroid/text/PrecomputedText;Ljava/lang/Object;III)V
@@ -274,8 +272,7 @@
 
     .line 1
     invoke-virtual {p0, p1, p2, p3, p4}, Landroid/text/PrecomputedText;->setSpan(Ljava/lang/Object;III)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic w(Landroid/view/accessibility/AccessibilityNodeInfo;Ljava/lang/CharSequence;)V
@@ -283,8 +280,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setPaneTitle(Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic x(Landroid/view/accessibility/AccessibilityNodeInfo;Z)V
@@ -292,8 +288,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setScreenReaderFocusable(Z)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic y(Landroid/view/accessibility/AccessibilityNodeInfo;)Z

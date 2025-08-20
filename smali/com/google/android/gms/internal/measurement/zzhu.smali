@@ -192,8 +192,7 @@
 
     .line 12
     iput-boolean p1, p0, Lcom/google/android/gms/internal/measurement/zzhu;->zzl:Z
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Lcom/google/android/gms/internal/measurement/zzic;Ljava/lang/String;Ljava/lang/Object;ZLcom/google/android/gms/internal/measurement/zzie;)V
@@ -203,8 +202,7 @@
     const/4 p4, 0x1
 
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/google/android/gms/internal/measurement/zzhu;-><init>(Lcom/google/android/gms/internal/measurement/zzic;Ljava/lang/String;Ljava/lang/Object;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic zza(Landroid/content/Context;)LA0/e;
@@ -227,8 +225,7 @@
     const/4 v0, 0x1
 
     invoke-direct {p3, p0, p1, p2, v0}, Lcom/google/android/gms/internal/measurement/zzib;-><init>(Lcom/google/android/gms/internal/measurement/zzic;Ljava/lang/String;Ljava/lang/Boolean;Z)V
-
-    return-object p3
+return-object p3
 .end method
 
 .method public static synthetic zza(Lcom/google/android/gms/internal/measurement/zzic;Ljava/lang/String;Ljava/lang/Double;Z)Lcom/google/android/gms/internal/measurement/zzhu;
@@ -240,8 +237,7 @@
     const/4 v0, 0x1
 
     invoke-direct {p3, p0, p1, p2, v0}, Lcom/google/android/gms/internal/measurement/zzia;-><init>(Lcom/google/android/gms/internal/measurement/zzic;Ljava/lang/String;Ljava/lang/Double;Z)V
-
-    return-object p3
+return-object p3
 .end method
 
 .method public static synthetic zza(Lcom/google/android/gms/internal/measurement/zzic;Ljava/lang/String;Ljava/lang/Long;Z)Lcom/google/android/gms/internal/measurement/zzhu;
@@ -253,8 +249,7 @@
     const/4 v0, 0x1
 
     invoke-direct {p3, p0, p1, p2, v0}, Lcom/google/android/gms/internal/measurement/zzhy;-><init>(Lcom/google/android/gms/internal/measurement/zzic;Ljava/lang/String;Ljava/lang/Long;Z)V
-
-    return-object p3
+return-object p3
 .end method
 
 .method public static synthetic zza(Lcom/google/android/gms/internal/measurement/zzic;Ljava/lang/String;Ljava/lang/String;Z)Lcom/google/android/gms/internal/measurement/zzhu;
@@ -266,8 +261,7 @@
     const/4 v0, 0x1
 
     invoke-direct {p3, p0, p1, p2, v0}, Lcom/google/android/gms/internal/measurement/zzid;-><init>(Lcom/google/android/gms/internal/measurement/zzic;Ljava/lang/String;Ljava/lang/String;Z)V
-
-    return-object p3
+return-object p3
 .end method
 
 .method private final zza(Lcom/google/android/gms/internal/measurement/zzif;)Ljava/lang/Object;

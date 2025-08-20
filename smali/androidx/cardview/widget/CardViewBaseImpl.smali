@@ -60,7 +60,8 @@
     move v5, p5
 
     .line 11
-    invoke-direct/range {v0 .. v5}, Landroidx/cardview/widget/RoundRectDrawableWithShadow;-><init>(Landroid/content/res/Resources;Landroid/content/res/ColorStateList;FFF)V    return-object v0
+    invoke-direct/range {v0 .. v5}, Landroidx/cardview/widget/RoundRectDrawableWithShadow;-><init>(Landroid/content/res/Resources;Landroid/content/res/ColorStateList;FFF)V
+return-object v0
 .end method
 
 .method private getShadowBackground(Landroidx/cardview/widget/CardViewDelegate;)Landroidx/cardview/widget/RoundRectDrawableWithShadow;
@@ -329,7 +330,8 @@
     move-result-object p1
 
     .line 5
-    invoke-virtual {p1, p2}, Landroidx/cardview/widget/RoundRectDrawableWithShadow;->setColor(Landroid/content/res/ColorStateList;)V    return-void
+    invoke-virtual {p1, p2}, Landroidx/cardview/widget/RoundRectDrawableWithShadow;->setColor(Landroid/content/res/ColorStateList;)V
+return-void
 .end method
 
 .method public setElevation(Landroidx/cardview/widget/CardViewDelegate;F)V
@@ -344,7 +346,8 @@
     move-result-object p1
 
     .line 5
-    invoke-virtual {p1, p2}, Landroidx/cardview/widget/RoundRectDrawableWithShadow;->setShadowSize(F)V    return-void
+    invoke-virtual {p1, p2}, Landroidx/cardview/widget/RoundRectDrawableWithShadow;->setShadowSize(F)V
+return-void
 .end method
 
 .method public setMaxElevation(Landroidx/cardview/widget/CardViewDelegate;F)V

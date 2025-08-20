@@ -61,8 +61,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/savedstate/SavedStateRegistryController;-><init>(Landroidx/savedstate/SavedStateRegistryOwner;)V
-
-    return-void
+return-void
 .end method
 
 .method public static final create(Landroidx/savedstate/SavedStateRegistryOwner;)Landroidx/savedstate/SavedStateRegistryController;
@@ -150,7 +149,8 @@
     const/4 v0, 0x1
 
     .line 31
-    iput-boolean v0, p0, Landroidx/savedstate/SavedStateRegistryController;->attached:Z    return-void
+    iput-boolean v0, p0, Landroidx/savedstate/SavedStateRegistryController;->attached:Z
+return-void
 
     .line 34
     :cond_0
@@ -229,7 +229,8 @@
 
     .line 27
     .line 28
-    invoke-virtual {v0, p1}, Landroidx/savedstate/SavedStateRegistry;->performRestore$savedstate_release(Landroid/os/Bundle;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/savedstate/SavedStateRegistry;->performRestore$savedstate_release(Landroid/os/Bundle;)V
+return-void
 
     .line 32
     :cond_1
@@ -305,6 +306,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Landroidx/savedstate/SavedStateRegistry;->performSave(Landroid/os/Bundle;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/savedstate/SavedStateRegistry;->performSave(Landroid/os/Bundle;)V
+return-void
 .end method
 .end class

@@ -283,8 +283,7 @@
     iget-object p1, p1, Landroidx/navigation/NavBackStackEntry;->maxLifecycle:Landroidx/lifecycle/Lifecycle$State;
 
     invoke-virtual {p0, p1}, Landroidx/navigation/NavBackStackEntry;->setMaxLifecycle(Landroidx/lifecycle/Lifecycle$State;)V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Landroidx/navigation/NavBackStackEntry;Landroid/os/Bundle;ILkotlin/jvm/internal/e;)V
@@ -302,8 +301,7 @@
     .line 20
     :cond_0
     invoke-direct {p0, p1, p2}, Landroidx/navigation/NavBackStackEntry;-><init>(Landroidx/navigation/NavBackStackEntry;Landroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 
 .method public static final synthetic access$getContext$p(Landroidx/navigation/NavBackStackEntry;)Landroid/content/Context;
@@ -643,7 +641,8 @@
 
     .line 10
     .line 11
-    invoke-direct {v0, v1}, Landroid/os/Bundle;-><init>(Landroid/os/Bundle;)V    return-object v0
+    invoke-direct {v0, v1}, Landroid/os/Bundle;-><init>(Landroid/os/Bundle;)V
+return-object v0
 .end method
 
 .method public getDefaultViewModelCreationExtras()Landroidx/lifecycle/viewmodel/CreationExtras;
@@ -979,7 +978,8 @@
 
     .line 11
     .line 12
-    invoke-virtual {p0}, Landroidx/navigation/NavBackStackEntry;->updateState()V    return-void
+    invoke-virtual {p0}, Landroidx/navigation/NavBackStackEntry;->updateState()V
+return-void
 .end method
 
 .method public hashCode()I
@@ -1183,7 +1183,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Landroidx/savedstate/SavedStateRegistryController;->performSave(Landroid/os/Bundle;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/savedstate/SavedStateRegistryController;->performSave(Landroid/os/Bundle;)V
+return-void
 .end method
 
 .method public final setDestination(Landroidx/navigation/NavDestination;)V
@@ -1229,7 +1230,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {p0}, Landroidx/navigation/NavBackStackEntry;->updateState()V    return-void
+    invoke-virtual {p0}, Landroidx/navigation/NavBackStackEntry;->updateState()V
+return-void
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -1323,7 +1325,8 @@
 
     .line 47
     .line 48
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+return-object v0
 .end method
 
 .method public final updateState()V
@@ -1423,7 +1426,8 @@
 
     .line 44
     .line 45
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/LifecycleRegistry;->setCurrentState(Landroidx/lifecycle/Lifecycle$State;)V    return-void
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/LifecycleRegistry;->setCurrentState(Landroidx/lifecycle/Lifecycle$State;)V
+return-void
 
     .line 49
     :cond_2
@@ -1435,6 +1439,7 @@
 
     .line 52
     .line 53
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/LifecycleRegistry;->setCurrentState(Landroidx/lifecycle/Lifecycle$State;)V    return-void
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/LifecycleRegistry;->setCurrentState(Landroidx/lifecycle/Lifecycle$State;)V
+return-void
 .end method
 .end class

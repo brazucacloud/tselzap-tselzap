@@ -1661,7 +1661,8 @@
 
     .line 28
     :cond_1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->skipVarintSlowPath()V    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->skipVarintSlowPath()V
+return-void
 .end method
 
 .method private skipVarintSlowPath()V
@@ -1984,7 +1985,8 @@
 
     .line 45
     :cond_1
-    invoke-direct {p0, v3}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requirePosition(I)V    return-void
+    invoke-direct {p0, v3}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requirePosition(I)V
+return-void
 
     .line 49
     :cond_2
@@ -2137,7 +2139,8 @@
 
     .line 119
     :cond_7
-    invoke-direct {p0, v3}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requirePosition(I)V    return-void
+    invoke-direct {p0, v3}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requirePosition(I)V
+return-void
 
     .line 123
     :cond_8
@@ -4271,8 +4274,7 @@
 
     .line 2
     invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readGroupList(Ljava/util/List;Landroidx/datastore/preferences/protobuf/Schema;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
-
-    return-void
+return-void
 .end method
 
 .method public readInt32()I
@@ -4388,7 +4390,8 @@
 
     .line 38
     :cond_0
-    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requirePosition(I)V    return-void
+    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requirePosition(I)V
+return-void
 
     .line 42
     :cond_1
@@ -4526,7 +4529,8 @@
 
     .line 107
     :cond_5
-    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requirePosition(I)V    return-void
+    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requirePosition(I)V
+return-void
 
     .line 111
     :cond_6
@@ -4716,7 +4720,8 @@
 
     .line 38
     :cond_0
-    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requirePosition(I)V    return-void
+    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requirePosition(I)V
+return-void
 
     .line 42
     :cond_1
@@ -4854,7 +4859,8 @@
 
     .line 107
     :cond_5
-    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requirePosition(I)V    return-void
+    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requirePosition(I)V
+return-void
 
     .line 111
     :cond_6
@@ -5331,8 +5337,7 @@
 
     .line 2
     invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readMessageList(Ljava/util/List;Landroidx/datastore/preferences/protobuf/Schema;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
-
-    return-void
+return-void
 .end method
 
 .method public readSFixed32()I
@@ -6837,7 +6842,8 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readStringListInternal(Ljava/util/List;Z)V    return-void
+    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readStringListInternal(Ljava/util/List;Z)V
+return-void
 .end method
 
 .method public readStringListInternal(Ljava/util/List;Z)V
@@ -7023,7 +7029,8 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readStringListInternal(Ljava/util/List;Z)V    return-void
+    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readStringListInternal(Ljava/util/List;Z)V
+return-void
 .end method
 
 .method public readStringRequireUtf8()Ljava/lang/String;
@@ -7477,7 +7484,8 @@
 
     .line 38
     :cond_0
-    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requirePosition(I)V    return-void
+    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requirePosition(I)V
+return-void
 
     .line 42
     :cond_1
@@ -7615,7 +7623,8 @@
 
     .line 107
     :cond_5
-    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requirePosition(I)V    return-void
+    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requirePosition(I)V
+return-void
 
     .line 111
     :cond_6

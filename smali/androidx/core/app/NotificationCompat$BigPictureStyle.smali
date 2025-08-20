@@ -43,8 +43,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/core/app/NotificationCompat$Style;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/core/app/NotificationCompat$Builder;)V
@@ -59,8 +58,7 @@
 
     .line 3
     invoke-virtual {p0, p1}, Landroidx/core/app/NotificationCompat$Style;->setBuilder(Landroidx/core/app/NotificationCompat$Builder;)V
-
-    return-void
+return-void
 .end method
 
 .method private static asIconCompat(Landroid/os/Parcelable;)Landroidx/core/graphics/drawable/IconCompat;
@@ -570,8 +568,7 @@
 
     .line 2
     iput-boolean p1, p0, Landroidx/core/app/NotificationCompat$BigPictureStyle;->mBigLargeIconSet:Z
-
-    return-object p0
+return-object p0
 .end method
 
 .method public bigLargeIcon(Landroid/graphics/drawable/Icon;)Landroidx/core/app/NotificationCompat$BigPictureStyle;
@@ -606,8 +603,7 @@
 
     .line 4
     iput-boolean p1, p0, Landroidx/core/app/NotificationCompat$BigPictureStyle;->mBigLargeIconSet:Z
-
-    return-object p0
+return-object p0
 .end method
 
 .method public bigPicture(Landroid/graphics/Bitmap;)Landroidx/core/app/NotificationCompat$BigPictureStyle;

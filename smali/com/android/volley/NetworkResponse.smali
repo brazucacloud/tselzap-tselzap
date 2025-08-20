@@ -136,8 +136,7 @@
 
     .line 3
     invoke-direct/range {v0 .. v6}, Lcom/android/volley/NetworkResponse;-><init>(I[BLjava/util/Map;ZJ)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(I[BLjava/util/Map;ZJ)V
@@ -177,8 +176,7 @@
     move-wide v6, p5
 
     invoke-direct/range {v0 .. v7}, Lcom/android/volley/NetworkResponse;-><init>(I[BLjava/util/Map;Ljava/util/List;ZJ)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(I[BZJLjava/util/List;)V
@@ -214,8 +212,7 @@
     move-object v4, p6
 
     invoke-direct/range {v0 .. v7}, Lcom/android/volley/NetworkResponse;-><init>(I[BLjava/util/Map;Ljava/util/List;ZJ)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>([B)V
@@ -236,8 +233,7 @@
 
     .line 5
     invoke-direct/range {v0 .. v6}, Lcom/android/volley/NetworkResponse;-><init>(I[BZJLjava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>([BLjava/util/Map;)V
@@ -273,8 +269,7 @@
 
     .line 6
     invoke-direct/range {v0 .. v6}, Lcom/android/volley/NetworkResponse;-><init>(I[BLjava/util/Map;ZJ)V
-
-    return-void
+return-void
 .end method
 
 .method private static toAllHeaderList(Ljava/util/Map;)Ljava/util/List;

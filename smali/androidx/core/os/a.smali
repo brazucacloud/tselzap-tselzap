@@ -112,8 +112,7 @@
     new-instance v0, Landroid/content/res/Resources$NotFoundException;
 
     invoke-direct {v0, p0, p1}, Landroid/content/res/Resources$NotFoundException;-><init>(Ljava/lang/String;Ljava/lang/Exception;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic g(Landroid/text/TextPaint;)Landroid/os/LocaleList;
@@ -260,8 +259,7 @@
 
     .line 1
     invoke-static {p0}, Landroid/service/notification/NotificationListenerService;->requestRebind(Landroid/content/ComponentName;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic u(Landroid/util/FloatProperty;Ljava/lang/Object;F)V
@@ -278,8 +276,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setDrawingOrder(I)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic w(Landroid/view/accessibility/AccessibilityNodeInfo;Z)V
@@ -287,8 +284,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setImportantForAccessibility(Z)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic x(Ljava/util/stream/IntStream;Lcom/fmark/tselzap/Services/d;)V
@@ -296,8 +292,7 @@
 
     .line 1
     invoke-interface {p0, p1}, Ljava/util/stream/IntStream;->forEach(Ljava/util/function/IntConsumer;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic y(Ljava/util/stream/IntStream;Lcom/fmark/tselzap/Services/e;)V
@@ -305,8 +300,7 @@
 
     .line 1
     invoke-interface {p0, p1}, Ljava/util/stream/IntStream;->forEach(Ljava/util/function/IntConsumer;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic z(Ljava/util/stream/IntStream;Lcom/fmark/tselzap/Utils/d;)V
@@ -314,8 +308,7 @@
 
     .line 1
     invoke-interface {p0, p1}, Ljava/util/stream/IntStream;->forEach(Ljava/util/function/IntConsumer;)V
-
-    return-void
+return-void
 .end method
 
 .end class

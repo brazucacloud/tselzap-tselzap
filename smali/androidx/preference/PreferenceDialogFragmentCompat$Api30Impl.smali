@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 .method public static showIme(Landroid/view/Window;)V
@@ -60,6 +61,7 @@
     move-result v0
 
     .line 13
-    invoke-interface {p0, v0}, Landroid/view/WindowInsetsController;->show(I)V    return-void
+    invoke-interface {p0, v0}, Landroid/view/WindowInsetsController;->show(I)V
+return-void
 .end method
 .end class

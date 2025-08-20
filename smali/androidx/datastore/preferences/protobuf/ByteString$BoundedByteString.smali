@@ -124,7 +124,8 @@
     add-int/2addr v1, p2
 
     .line 8
-    invoke-static {v0, v1, p1, p3, p4}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V    return-void
+    invoke-static {v0, v1, p1, p3, p4}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+return-void
 .end method
 
 .method public getOffsetIntoBytes()I

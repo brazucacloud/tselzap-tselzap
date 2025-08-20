@@ -27,8 +27,7 @@
     iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zat;->zaa:Lcom/google/android/gms/common/api/Api;
 
     iput-boolean p2, p0, Lcom/google/android/gms/common/api/internal/zat;->zab:Z
-
-    return-void
+return-void
 .end method
 
 .method private final zab()Lcom/google/android/gms/common/api/internal/zau;

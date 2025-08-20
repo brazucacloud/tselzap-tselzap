@@ -31,7 +31,6 @@
     iget-object v0, p0, Landroidx/appcompat/app/d;->a:Landroidx/appcompat/app/AppCompatDelegateImpl;
 
     invoke-virtual {v0}, Landroidx/appcompat/app/AppCompatDelegateImpl;->onBackPressed()Z
-
-    return-void
+return-void
 .end method
 .end class

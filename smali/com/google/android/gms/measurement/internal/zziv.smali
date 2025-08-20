@@ -47,8 +47,7 @@
     iget-object v3, p0, Lcom/google/android/gms/measurement/internal/zziv;->zzd:Lcom/google/android/gms/measurement/internal/zzgq;
 
     invoke-static {v0, v1, v2, v3}, Lcom/google/android/gms/measurement/internal/zzir;->zza(Lcom/google/android/gms/measurement/internal/zzir;Ljava/lang/String;Lcom/google/android/gms/measurement/internal/zzpb;Lcom/google/android/gms/measurement/internal/zzgq;)V
-
-    return-void
+return-void
 .end method
 
 .end class

@@ -275,8 +275,7 @@
     move-result-object v0
 
     invoke-direct {p1, v0, v2, v3, p0}, Lcom/google/android/gms/internal/measurement/zzar;-><init>(Ljava/lang/String;Ljava/util/List;Ljava/util/List;Lcom/google/android/gms/internal/measurement/zzh;)V
-
-    return-object p1
+return-object p1
 
     .line 90
     :cond_1
@@ -651,16 +650,14 @@
     new-instance p2, Lcom/google/android/gms/internal/measurement/zzaj;
 
     invoke-direct {p2, v1, p1}, Lcom/google/android/gms/internal/measurement/zzaj;-><init>(Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzaq;)V
-
-    return-object p2
+return-object p2
 
     .line 34
     :pswitch_3
     new-instance p1, Lcom/google/android/gms/internal/measurement/zzaf;
 
     invoke-direct {p1, p3}, Lcom/google/android/gms/internal/measurement/zzaf;-><init>(Ljava/util/List;)V
-
-    return-object p1
+return-object p1
 
     .line 35
     :pswitch_4
@@ -795,8 +792,7 @@
     const-string p3, ""
 
     invoke-virtual {p2, p3, p1}, Lcom/google/android/gms/internal/measurement/zzh;->zzc(Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzaq;)V
-
-    return-object p1
+return-object p1
 
     .line 50
     :cond_e
@@ -805,8 +801,7 @@
     move-result-object p3
 
     invoke-virtual {p2, p3, p1}, Lcom/google/android/gms/internal/measurement/zzh;->zzc(Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzaq;)V
-
-    return-object p1
+return-object p1
 
     .line 51
     :pswitch_7

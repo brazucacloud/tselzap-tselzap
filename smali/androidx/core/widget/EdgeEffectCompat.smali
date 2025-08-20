@@ -138,8 +138,7 @@
 
     .line 3
     invoke-static {p0, p1, p2}, Landroidx/core/widget/EdgeEffectCompat$Api21Impl;->onPull(Landroid/widget/EdgeEffect;FF)V
-
-    return-void
+return-void
 .end method
 
 .method public static onPullDistance(Landroid/widget/EdgeEffect;FF)F

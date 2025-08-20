@@ -145,16 +145,14 @@
     .locals 0
 
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/common/api/internal/zap;->zaa(Lcom/google/android/gms/common/ConnectionResult;I)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic zag(Lcom/google/android/gms/common/api/internal/zap;)V
     .locals 0
 
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/zap;->zad()V
-
-    return-void
+return-void
 .end method
 
 

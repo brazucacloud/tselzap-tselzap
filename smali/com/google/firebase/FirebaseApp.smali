@@ -571,8 +571,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Lcom/google/firebase/FirebaseApp;->lambda$new$1(Z)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic access$200()Ljava/lang/Object;
@@ -1569,8 +1568,7 @@
 
     .line 22
     invoke-direct {v0}, Lcom/google/firebase/FirebaseApp;->initializeAllApis()V
-
-    return-object v0
+return-object v0
 
     :catchall_0
     move-exception p0
@@ -2516,8 +2514,7 @@
     check-cast v0, Lcom/google/firebase/internal/DataCollectionConfigStorage;
 
     invoke-virtual {v0, p1}, Lcom/google/firebase/internal/DataCollectionConfigStorage;->setEnabled(Ljava/lang/Boolean;)V
-
-    return-void
+return-void
 .end method
 
 .method public setDataCollectionDefaultEnabled(Z)V
@@ -2534,8 +2531,7 @@
     move-result-object p1
 
     invoke-virtual {p0, p1}, Lcom/google/firebase/FirebaseApp;->setDataCollectionDefaultEnabled(Ljava/lang/Boolean;)V
-
-    return-void
+return-void
 .end method
 
 .method public toString()Ljava/lang/String;

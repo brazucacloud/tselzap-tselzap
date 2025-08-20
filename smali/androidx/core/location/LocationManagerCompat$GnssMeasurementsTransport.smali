@@ -61,8 +61,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2}, Landroidx/core/location/LocationManagerCompat$GnssMeasurementsTransport;->lambda$onGnssMeasurementsReceived$0(Ljava/util/concurrent/Executor;Landroid/location/GnssMeasurementsEvent;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic b(Landroidx/core/location/LocationManagerCompat$GnssMeasurementsTransport;Ljava/util/concurrent/Executor;I)V
@@ -70,8 +69,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2}, Landroidx/core/location/LocationManagerCompat$GnssMeasurementsTransport;->lambda$onStatusChanged$1(Ljava/util/concurrent/Executor;I)V
-
-    return-void
+return-void
 .end method
 
 .method private synthetic lambda$onGnssMeasurementsReceived$0(Ljava/util/concurrent/Executor;Landroid/location/GnssMeasurementsEvent;)V

@@ -17,7 +17,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 
@@ -85,6 +86,7 @@
 
     .line 31
     .line 32
-    invoke-virtual {p3, p1}, Landroid/view/Window;->addFlags(I)V    return-void
+    invoke-virtual {p3, p1}, Landroid/view/Window;->addFlags(I)V
+return-void
 .end method
 .end class

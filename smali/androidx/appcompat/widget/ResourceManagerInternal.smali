@@ -383,7 +383,8 @@
     .line 31
     .line 32
     :cond_1
-    invoke-virtual {v0, p2, p3}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V    return-void
+    invoke-virtual {v0, p2, p3}, Landroidx/collection/SparseArrayCompat;->append(ILjava/lang/Object;)V
+return-void
 .end method
 
 .method private checkVectorDrawableSetup(Landroid/content/Context;)V

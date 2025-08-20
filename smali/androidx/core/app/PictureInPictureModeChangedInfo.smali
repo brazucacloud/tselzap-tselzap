@@ -22,8 +22,7 @@
 
     .line 2
     iput-boolean p1, p0, Landroidx/core/app/PictureInPictureModeChangedInfo;->isInPictureInPictureMode:Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(ZLandroid/content/res/Configuration;)V

@@ -61,8 +61,7 @@
 
     .line 1
     invoke-static {p0}, Landroid/net/TrafficStats;->incrementOperationCount(I)V
-
-    return-void
+return-void
 .end method
 
 .method public static incrementOperationCount(II)V
@@ -72,8 +71,7 @@
 
     .line 2
     invoke-static {p0, p1}, Landroid/net/TrafficStats;->incrementOperationCount(II)V
-
-    return-void
+return-void
 .end method
 
 .method public static setThreadStatsTag(I)V

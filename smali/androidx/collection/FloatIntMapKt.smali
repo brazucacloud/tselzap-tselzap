@@ -59,8 +59,7 @@
 
     .line 3
     invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableFloatIntMap;->set(FI)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final floatIntMapOf(FIFI)Landroidx/collection/FloatIntMap;
@@ -82,8 +81,7 @@
 
     .line 6
     invoke-virtual {v0, p2, p3}, Landroidx/collection/MutableFloatIntMap;->set(FI)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final floatIntMapOf(FIFIFI)Landroidx/collection/FloatIntMap;
@@ -108,8 +106,7 @@
 
     .line 10
     invoke-virtual {v0, p4, p5}, Landroidx/collection/MutableFloatIntMap;->set(FI)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final floatIntMapOf(FIFIFIFI)Landroidx/collection/FloatIntMap;
@@ -137,8 +134,7 @@
 
     .line 15
     invoke-virtual {v0, p6, p7}, Landroidx/collection/MutableFloatIntMap;->set(FI)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final floatIntMapOf(FIFIFIFIFI)Landroidx/collection/FloatIntMap;
@@ -169,8 +165,7 @@
 
     .line 21
     invoke-virtual {v0, p8, p9}, Landroidx/collection/MutableFloatIntMap;->set(FI)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableFloatIntMapOf()Landroidx/collection/MutableFloatIntMap;
@@ -186,8 +181,7 @@
     const/4 v3, 0x0
 
     invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableFloatIntMap;-><init>(IILkotlin/jvm/internal/e;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableFloatIntMapOf(FI)Landroidx/collection/MutableFloatIntMap;
@@ -206,8 +200,7 @@
 
     .line 3
     invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableFloatIntMap;->set(FI)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableFloatIntMapOf(FIFI)Landroidx/collection/MutableFloatIntMap;
@@ -229,8 +222,7 @@
 
     .line 6
     invoke-virtual {v0, p2, p3}, Landroidx/collection/MutableFloatIntMap;->set(FI)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableFloatIntMapOf(FIFIFI)Landroidx/collection/MutableFloatIntMap;
@@ -255,8 +247,7 @@
 
     .line 10
     invoke-virtual {v0, p4, p5}, Landroidx/collection/MutableFloatIntMap;->set(FI)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableFloatIntMapOf(FIFIFIFI)Landroidx/collection/MutableFloatIntMap;
@@ -284,8 +275,7 @@
 
     .line 15
     invoke-virtual {v0, p6, p7}, Landroidx/collection/MutableFloatIntMap;->set(FI)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableFloatIntMapOf(FIFIFIFIFI)Landroidx/collection/MutableFloatIntMap;
@@ -316,7 +306,6 @@
 
     .line 21
     invoke-virtual {v0, p8, p9}, Landroidx/collection/MutableFloatIntMap;->set(FI)V
-
-    return-object v0
+return-object v0
 .end method
 .end class

@@ -61,8 +61,7 @@
     array-length v0, p1
 
     invoke-static {p1, p2, p3, p2, v0}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
-
-    return-void
+return-void
 .end method
 
 .method public getPos(D[F)V

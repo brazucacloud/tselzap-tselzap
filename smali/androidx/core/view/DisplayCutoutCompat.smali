@@ -56,8 +56,7 @@
 
     :goto_0
     invoke-direct {p0, p1}, Landroidx/core/view/DisplayCutoutCompat;-><init>(Landroid/view/DisplayCutout;)V
-
-    return-void
+return-void
 .end method
 
 .method private constructor <init>(Landroid/view/DisplayCutout;)V
@@ -105,8 +104,7 @@
     move-result-object p1
 
     invoke-direct {p0, p1}, Landroidx/core/view/DisplayCutoutCompat;-><init>(Landroid/view/DisplayCutout;)V
-
-    return-void
+return-void
 .end method
 
 .method private static constructDisplayCutout(Landroidx/core/graphics/Insets;Landroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Rect;Landroidx/core/graphics/Insets;)Landroid/view/DisplayCutout;

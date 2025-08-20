@@ -3264,7 +3264,8 @@
 
     .line 1540
     .line 1541
-    invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->append(II)V    return-void
+    invoke-virtual {v0, v1, v2}, Landroid/util/SparseIntArray;->append(II)V
+return-void
 .end method
 
 .method public constructor <init>()V
@@ -3597,7 +3598,8 @@
     .line 17
     .line 18
     .line 19
-    invoke-virtual {p0}, Landroid/content/res/TypedArray;->recycle()V    return-object v0
+    invoke-virtual {p0}, Landroid/content/res/TypedArray;->recycle()V
+return-object v0
 .end method
 
 .method private convertReferenceString(Landroid/view/View;Ljava/lang/String;)[I
@@ -4005,8 +4007,7 @@
     move/from16 v2, p9
 
     invoke-virtual/range {v0 .. v5}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIIII)V
-
-    return-void
+return-void
 
     .line 13
     :cond_5
@@ -4060,7 +4061,8 @@
     .line 18
     .line 19
     .line 20
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V    return-object v0
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
+return-object v0
 .end method
 
 .method private get(I)Landroidx/constraintlayout/widget/ConstraintSet$Constraint;
@@ -4575,7 +4577,8 @@
 
     .line 56
     .line 57
-    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;->constrainedWidth:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;->constrainedWidth:Z
+return-void
 
     .line 60
     :cond_5
@@ -4583,7 +4586,8 @@
 
     .line 61
     .line 62
-    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;->constrainedHeight:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;->constrainedHeight:Z
+return-void
 
     .line 65
     :cond_6
@@ -4607,7 +4611,8 @@
 
     .line 74
     .line 75
-    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->constrainedWidth:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->constrainedWidth:Z
+return-void
 
     .line 78
     :cond_7
@@ -4615,7 +4620,8 @@
 
     .line 79
     .line 80
-    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->constrainedHeight:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->constrainedHeight:Z
+return-void
 
     .line 83
     :cond_8
@@ -4648,7 +4654,8 @@
 
     .line 97
     .line 98
-    invoke-virtual {p0, p2, p1}, Landroidx/constraintlayout/widget/ConstraintSet$Constraint$Delta;->add(IZ)V    return-void
+    invoke-virtual {p0, p2, p1}, Landroidx/constraintlayout/widget/ConstraintSet$Constraint$Delta;->add(IZ)V
+return-void
 
     .line 102
     :cond_9
@@ -4684,7 +4691,8 @@
     move-result-object p1
 
     .line 117
-    invoke-static {p0, p1, p3}, Landroidx/constraintlayout/widget/ConstraintSet;->parseDimensionConstraintsString(Ljava/lang/Object;Ljava/lang/String;I)V    return-void
+    invoke-static {p0, p1, p3}, Landroidx/constraintlayout/widget/ConstraintSet;->parseDimensionConstraintsString(Ljava/lang/Object;Ljava/lang/String;I)V
+return-void
 .end method
 
 .method public static parseDimensionConstraintsString(Ljava/lang/Object;Ljava/lang/String;I)V
@@ -4828,7 +4836,8 @@
     .line 66
     .line 67
     :goto_0
-    invoke-static {p0, p1}, Landroidx/constraintlayout/widget/ConstraintSet;->parseDimensionRatioString(Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;Ljava/lang/String;)V    return-void
+    invoke-static {p0, p1}, Landroidx/constraintlayout/widget/ConstraintSet;->parseDimensionRatioString(Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;Ljava/lang/String;)V
+return-void
 
     .line 71
     :cond_2
@@ -4863,7 +4872,8 @@
     const/4 p2, 0x5
 
     .line 87
-    invoke-virtual {p0, p2, p1}, Landroidx/constraintlayout/widget/ConstraintSet$Constraint$Delta;->add(ILjava/lang/String;)V    return-void
+    invoke-virtual {p0, p2, p1}, Landroidx/constraintlayout/widget/ConstraintSet$Constraint$Delta;->add(ILjava/lang/String;)V
+return-void
 
     .line 91
     :cond_4
@@ -4989,7 +4999,8 @@
 
     .line 155
     .line 156
-    invoke-virtual {p0, p2, p1}, Landroidx/constraintlayout/widget/ConstraintSet$Constraint$Delta;->add(IF)V    return-void
+    invoke-virtual {p0, p2, p1}, Landroidx/constraintlayout/widget/ConstraintSet$Constraint$Delta;->add(IF)V
+return-void
 
     .line 160
     :cond_9
@@ -5164,7 +5175,8 @@
 
     .line 249
     .line 250
-    invoke-virtual {p0, p1, v2}, Landroidx/constraintlayout/widget/ConstraintSet$Constraint$Delta;->add(II)V    return-void
+    invoke-virtual {p0, p1, v2}, Landroidx/constraintlayout/widget/ConstraintSet$Constraint$Delta;->add(II)V
+return-void
 
     .line 254
     :cond_f
@@ -5490,8 +5502,7 @@
 
     .line 1
     invoke-static {p1, p2}, Landroidx/constraintlayout/widget/ConstraintSet;->populateOverride(Landroidx/constraintlayout/widget/ConstraintSet$Constraint;Landroid/content/res/TypedArray;)V
-
-    return-void
+return-void
 
     .line 2
     :cond_0
@@ -10272,8 +10283,7 @@
 
     .line 16
     iput-boolean p1, p0, Landroidx/constraintlayout/widget/ConstraintSet$Transform;->applyElevation:Z
-
-    return-void
+return-void
 
     .line 17
     :pswitch_e
@@ -10983,8 +10993,7 @@
     iget-object p0, p0, Landroidx/constraintlayout/widget/ConstraintSet$Constraint;->layout:Landroidx/constraintlayout/widget/ConstraintSet$Layout;
 
     iput-boolean p2, p0, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->constrainedHeight:Z
-
-    return-void
+return-void
 
     .line 82
     :cond_1
@@ -11000,16 +11009,14 @@
     iget-object p0, p0, Landroidx/constraintlayout/widget/ConstraintSet$Constraint;->layout:Landroidx/constraintlayout/widget/ConstraintSet$Layout;
 
     iput-boolean p2, p0, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->mBarrierAllowsGoneWidgets:Z
-
-    return-void
+return-void
 
     .line 84
     :cond_4
     iget-object p0, p0, Landroidx/constraintlayout/widget/ConstraintSet$Constraint;->transform:Landroidx/constraintlayout/widget/ConstraintSet$Transform;
 
     iput-boolean p2, p0, Landroidx/constraintlayout/widget/ConstraintSet$Transform;->applyElevation:Z
-
-    return-void
+return-void
 .end method
 
 .method private sideToString(I)Ljava/lang/String;
@@ -11221,7 +11228,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, v0, p1}, Landroidx/constraintlayout/widget/ConstraintSet;->addAttributes(Landroidx/constraintlayout/widget/ConstraintAttribute$AttributeType;[Ljava/lang/String;)V    return-void
+    invoke-direct {p0, v0, p1}, Landroidx/constraintlayout/widget/ConstraintSet;->addAttributes(Landroidx/constraintlayout/widget/ConstraintAttribute$AttributeType;[Ljava/lang/String;)V
+return-void
 .end method
 
 .method public varargs addFloatAttributes([Ljava/lang/String;)V
@@ -11232,7 +11240,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, v0, p1}, Landroidx/constraintlayout/widget/ConstraintSet;->addAttributes(Landroidx/constraintlayout/widget/ConstraintAttribute$AttributeType;[Ljava/lang/String;)V    return-void
+    invoke-direct {p0, v0, p1}, Landroidx/constraintlayout/widget/ConstraintSet;->addAttributes(Landroidx/constraintlayout/widget/ConstraintAttribute$AttributeType;[Ljava/lang/String;)V
+return-void
 .end method
 
 .method public varargs addIntAttributes([Ljava/lang/String;)V
@@ -11243,7 +11252,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, v0, p1}, Landroidx/constraintlayout/widget/ConstraintSet;->addAttributes(Landroidx/constraintlayout/widget/ConstraintAttribute$AttributeType;[Ljava/lang/String;)V    return-void
+    invoke-direct {p0, v0, p1}, Landroidx/constraintlayout/widget/ConstraintSet;->addAttributes(Landroidx/constraintlayout/widget/ConstraintAttribute$AttributeType;[Ljava/lang/String;)V
+return-void
 .end method
 
 .method public varargs addStringAttributes([Ljava/lang/String;)V
@@ -11254,7 +11264,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, v0, p1}, Landroidx/constraintlayout/widget/ConstraintSet;->addAttributes(Landroidx/constraintlayout/widget/ConstraintAttribute$AttributeType;[Ljava/lang/String;)V    return-void
+    invoke-direct {p0, v0, p1}, Landroidx/constraintlayout/widget/ConstraintSet;->addAttributes(Landroidx/constraintlayout/widget/ConstraintAttribute$AttributeType;[Ljava/lang/String;)V
+return-void
 .end method
 
 .method public addToHorizontalChain(III)V
@@ -12158,7 +12169,8 @@
     .line 7
     .line 8
     .line 9
-    invoke-virtual {p1}, Landroidx/constraintlayout/widget/ConstraintLayout;->requestLayout()V    return-void
+    invoke-virtual {p1}, Landroidx/constraintlayout/widget/ConstraintLayout;->requestLayout()V
+return-void
 .end method
 
 .method public applyToHelper(Landroidx/constraintlayout/widget/ConstraintHelper;Landroidx/constraintlayout/core/widgets/ConstraintWidget;Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;Landroid/util/SparseArray;)V
@@ -13522,7 +13534,8 @@
     const/4 v0, 0x0
 
     .line 6
-    invoke-virtual {p1, v0}, Landroidx/constraintlayout/widget/ConstraintLayout;->setConstraintSet(Landroidx/constraintlayout/widget/ConstraintSet;)V    return-void
+    invoke-virtual {p1, v0}, Landroidx/constraintlayout/widget/ConstraintLayout;->setConstraintSet(Landroidx/constraintlayout/widget/ConstraintSet;)V
+return-void
 .end method
 
 .method public center(IIIIIIIF)V
@@ -13941,8 +13954,7 @@
 
     .line 5
     invoke-virtual/range {v0 .. v8}, Landroidx/constraintlayout/widget/ConstraintSet;->center(IIIIIIIF)V
-
-    return-void
+return-void
 
     :cond_0
     const/16 v16, 0x0
@@ -13965,8 +13977,7 @@
 
     .line 6
     invoke-virtual/range {v9 .. v17}, Landroidx/constraintlayout/widget/ConstraintSet;->center(IIIIIIIF)V
-
-    return-void
+return-void
 .end method
 
 .method public centerHorizontally(IIIIIIIF)V
@@ -14051,8 +14062,7 @@
 
     .line 5
     invoke-virtual/range {v0 .. v8}, Landroidx/constraintlayout/widget/ConstraintSet;->center(IIIIIIIF)V
-
-    return-void
+return-void
 
     :cond_0
     const/16 v16, 0x0
@@ -14075,8 +14085,7 @@
 
     .line 6
     invoke-virtual/range {v9 .. v17}, Landroidx/constraintlayout/widget/ConstraintSet;->center(IIIIIIIF)V
-
-    return-void
+return-void
 .end method
 
 .method public centerHorizontallyRtl(IIIIIIIF)V
@@ -14161,8 +14170,7 @@
 
     .line 5
     invoke-virtual/range {v0 .. v8}, Landroidx/constraintlayout/widget/ConstraintSet;->center(IIIIIIIF)V
-
-    return-void
+return-void
 
     :cond_0
     const/16 v16, 0x0
@@ -14185,8 +14193,7 @@
 
     .line 6
     invoke-virtual/range {v9 .. v17}, Landroidx/constraintlayout/widget/ConstraintSet;->center(IIIIIIIF)V
-
-    return-void
+return-void
 .end method
 
 .method public centerVertically(IIIIIIIF)V
@@ -14482,8 +14489,7 @@
     check-cast p1, Landroidx/constraintlayout/widget/ConstraintLayout;
 
     invoke-virtual {p0, p1}, Landroidx/constraintlayout/widget/ConstraintSet;->clone(Landroidx/constraintlayout/widget/ConstraintLayout;)V
-
-    return-void
+return-void
 .end method
 
 .method public clone(Landroidx/constraintlayout/widget/ConstraintLayout;)V
@@ -16332,7 +16338,8 @@
 
     .line 6
     .line 7
-    iput-boolean p2, p1, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->constrainedHeight:Z    return-void
+    iput-boolean p2, p1, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->constrainedHeight:Z
+return-void
 .end method
 
 .method public constrainedWidth(IZ)V
@@ -16351,7 +16358,8 @@
 
     .line 6
     .line 7
-    iput-boolean p2, p1, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->constrainedWidth:Z    return-void
+    iput-boolean p2, p1, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->constrainedWidth:Z
+return-void
 .end method
 
 .method public create(II)V
@@ -16446,8 +16454,7 @@
 
     .line 1
     invoke-direct/range {v0 .. v9}, Landroidx/constraintlayout/widget/ConstraintSet;->createHorizontalChain(IIII[I[FIII)V
-
-    return-void
+return-void
 .end method
 
 .method public createHorizontalChainRtl(IIII[I[FI)V
@@ -16486,7 +16493,8 @@
 
     .line 12
     .line 13
-    invoke-direct/range {v0 .. v9}, Landroidx/constraintlayout/widget/ConstraintSet;->createHorizontalChain(IIII[I[FIII)V    return-void
+    invoke-direct/range {v0 .. v9}, Landroidx/constraintlayout/widget/ConstraintSet;->createHorizontalChain(IIII[I[FIII)V
+return-void
 .end method
 
 .method public createVerticalChain(IIII[I[FI)V
@@ -16751,7 +16759,8 @@
     move v4, p4
 
     .line 114
-    invoke-virtual/range {v0 .. v5}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIIII)V    return-void
+    invoke-virtual/range {v0 .. v5}, Landroidx/constraintlayout/widget/ConstraintSet;->connect(IIIII)V
+return-void
 
     .line 118
     :cond_5
@@ -17021,7 +17030,8 @@
     move-result-object p2
 
     .line 125
-    invoke-virtual {p1, p2}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V    return-void
+    invoke-virtual {p1, p2}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+return-void
 .end method
 
 .method public getApplyElevation(I)Z
@@ -19510,7 +19520,8 @@
     const/4 v0, 0x7
 
     .line 106
-    invoke-virtual {p0, p1, v0}, Landroidx/constraintlayout/widget/ConstraintSet;->clear(II)V    return-void
+    invoke-virtual {p0, p1, v0}, Landroidx/constraintlayout/widget/ConstraintSet;->clear(II)V
+return-void
 
     .line 110
     :goto_3
@@ -19875,7 +19886,8 @@
     const/4 v0, 0x4
 
     .line 94
-    invoke-virtual {p0, p1, v0}, Landroidx/constraintlayout/widget/ConstraintSet;->clear(II)V    return-void
+    invoke-virtual {p0, p1, v0}, Landroidx/constraintlayout/widget/ConstraintSet;->clear(II)V
+return-void
 .end method
 
 .method public setAlpha(IF)V
@@ -19913,7 +19925,8 @@
 
     .line 6
     .line 7
-    iput-boolean p2, p1, Landroidx/constraintlayout/widget/ConstraintSet$Transform;->applyElevation:Z    return-void
+    iput-boolean p2, p1, Landroidx/constraintlayout/widget/ConstraintSet$Transform;->applyElevation:Z
+return-void
 .end method
 
 .method public setBarrierType(II)V
@@ -19947,7 +19960,8 @@
     move-result-object p1
 
     .line 5
-    invoke-static {p1, p2, p3}, Landroidx/constraintlayout/widget/ConstraintSet$Constraint;->access$1000(Landroidx/constraintlayout/widget/ConstraintSet$Constraint;Ljava/lang/String;I)V    return-void
+    invoke-static {p1, p2, p3}, Landroidx/constraintlayout/widget/ConstraintSet$Constraint;->access$1000(Landroidx/constraintlayout/widget/ConstraintSet$Constraint;Ljava/lang/String;I)V
+return-void
 .end method
 
 .method public setDimensionRatio(ILjava/lang/String;)V
@@ -20042,7 +20056,8 @@
     const/4 p2, 0x1
 
     .line 16
-    iput-boolean p2, p1, Landroidx/constraintlayout/widget/ConstraintSet$Transform;->applyElevation:Z    return-void
+    iput-boolean p2, p1, Landroidx/constraintlayout/widget/ConstraintSet$Transform;->applyElevation:Z
+return-void
 .end method
 
 .method public setFloatValue(ILjava/lang/String;F)V
@@ -20057,14 +20072,16 @@
     move-result-object p1
 
     .line 5
-    invoke-static {p1, p2, p3}, Landroidx/constraintlayout/widget/ConstraintSet$Constraint;->access$1100(Landroidx/constraintlayout/widget/ConstraintSet$Constraint;Ljava/lang/String;F)V    return-void
+    invoke-static {p1, p2, p3}, Landroidx/constraintlayout/widget/ConstraintSet$Constraint;->access$1100(Landroidx/constraintlayout/widget/ConstraintSet$Constraint;Ljava/lang/String;F)V
+return-void
 .end method
 
 .method public setForceId(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ConstraintSet;->mForceId:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ConstraintSet;->mForceId:Z
+return-void
 .end method
 
 .method public setGoneMargin(III)V
@@ -20406,7 +20423,8 @@
     move-result-object p1
 
     .line 5
-    invoke-static {p1, p2, p3}, Landroidx/constraintlayout/widget/ConstraintSet$Constraint;->access$900(Landroidx/constraintlayout/widget/ConstraintSet$Constraint;Ljava/lang/String;I)V    return-void
+    invoke-static {p1, p2, p3}, Landroidx/constraintlayout/widget/ConstraintSet$Constraint;->access$900(Landroidx/constraintlayout/widget/ConstraintSet$Constraint;Ljava/lang/String;I)V
+return-void
 .end method
 
 .method public setLayoutWrapBehavior(II)V
@@ -20782,7 +20800,8 @@
     move-result-object p1
 
     .line 5
-    invoke-static {p1, p2, p3}, Landroidx/constraintlayout/widget/ConstraintSet$Constraint;->access$1200(Landroidx/constraintlayout/widget/ConstraintSet$Constraint;Ljava/lang/String;Ljava/lang/String;)V    return-void
+    invoke-static {p1, p2, p3}, Landroidx/constraintlayout/widget/ConstraintSet$Constraint;->access$1200(Landroidx/constraintlayout/widget/ConstraintSet$Constraint;Ljava/lang/String;Ljava/lang/String;)V
+return-void
 .end method
 
 .method public setTransformPivot(IFF)V
@@ -20930,7 +20949,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ConstraintSet;->mValidate:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/widget/ConstraintSet;->mValidate:Z
+return-void
 .end method
 
 .method public setVerticalBias(IF)V
@@ -21085,6 +21105,7 @@
     .line 27
     .line 28
     :goto_0
-    invoke-virtual {p1, v0}, Ljava/io/Writer;->write(Ljava/lang/String;)V    return-void
+    invoke-virtual {p1, v0}, Ljava/io/Writer;->write(Ljava/lang/String;)V
+return-void
 .end method
 .end class

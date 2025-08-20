@@ -273,7 +273,8 @@
 
     .line 68
     .line 69
-    invoke-static {p1}, Landroidx/graphics/shapes/FloatMappingKt;->validateProgress(Landroidx/collection/FloatList;)V    return-void
+    invoke-static {p1}, Landroidx/graphics/shapes/FloatMappingKt;->validateProgress(Landroidx/collection/FloatList;)V
+return-void
 .end method
 
 

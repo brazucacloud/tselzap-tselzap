@@ -72,8 +72,7 @@
     iget-boolean p1, p1, Landroidx/constraintlayout/core/motion/CustomVariable;->mBooleanValue:Z
 
     iput-boolean p1, p0, Landroidx/constraintlayout/core/motion/CustomVariable;->mBooleanValue:Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/constraintlayout/core/motion/CustomVariable;Ljava/lang/Object;)V
@@ -306,8 +305,7 @@
 
     .line 37
     iput-boolean p3, p0, Landroidx/constraintlayout/core/motion/CustomVariable;->mBooleanValue:Z
-
-    return-void
+return-void
 .end method
 
 .method private static clamp(I)I
@@ -786,7 +784,8 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1, v1, v0, v2}, Landroidx/constraintlayout/core/motion/MotionWidget;->setCustomAttribute(Ljava/lang/String;IZ)V    return-void
+    invoke-virtual {p1, v1, v0, v2}, Landroidx/constraintlayout/core/motion/MotionWidget;->setCustomAttribute(Ljava/lang/String;IZ)V
+return-void
 
     .line 15
     :pswitch_1
@@ -798,7 +797,8 @@
 
     .line 18
     .line 19
-    invoke-virtual {p1, v1, v0, v2}, Landroidx/constraintlayout/core/motion/MotionWidget;->setCustomAttribute(Ljava/lang/String;ILjava/lang/String;)V    return-void
+    invoke-virtual {p1, v1, v0, v2}, Landroidx/constraintlayout/core/motion/MotionWidget;->setCustomAttribute(Ljava/lang/String;ILjava/lang/String;)V
+return-void
 
     .line 23
     :pswitch_2
@@ -810,7 +810,8 @@
 
     .line 26
     .line 27
-    invoke-virtual {p1, v1, v0, v2}, Landroidx/constraintlayout/core/motion/MotionWidget;->setCustomAttribute(Ljava/lang/String;IF)V    return-void
+    invoke-virtual {p1, v1, v0, v2}, Landroidx/constraintlayout/core/motion/MotionWidget;->setCustomAttribute(Ljava/lang/String;IF)V
+return-void
 
     .line 31
     :pswitch_3
@@ -822,7 +823,8 @@
 
     .line 34
     .line 35
-    invoke-virtual {p1, v1, v0, v2}, Landroidx/constraintlayout/core/motion/MotionWidget;->setCustomAttribute(Ljava/lang/String;II)V    return-void
+    invoke-virtual {p1, v1, v0, v2}, Landroidx/constraintlayout/core/motion/MotionWidget;->setCustomAttribute(Ljava/lang/String;II)V
+return-void
 
     .line 39
     :pswitch_data_0
@@ -1618,7 +1620,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/constraintlayout/core/motion/CustomVariable;->mBooleanValue:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/core/motion/CustomVariable;->mBooleanValue:Z
+return-void
 .end method
 
 .method public setFloatValue(F)V
@@ -1681,7 +1684,8 @@
 
     .line 21
     :goto_0
-    invoke-virtual {p1, v3, v0, v1}, Landroidx/constraintlayout/core/motion/MotionWidget;->setCustomAttribute(Ljava/lang/String;IZ)V    return-void
+    invoke-virtual {p1, v3, v0, v1}, Landroidx/constraintlayout/core/motion/MotionWidget;->setCustomAttribute(Ljava/lang/String;IZ)V
+return-void
 
     .line 25
     :pswitch_1
@@ -1892,7 +1896,8 @@
 
     .line 122
     .line 123
-    invoke-virtual {p1, v0, v1, p2}, Landroidx/constraintlayout/core/motion/MotionWidget;->setCustomAttribute(Ljava/lang/String;II)V    return-void
+    invoke-virtual {p1, v0, v1, p2}, Landroidx/constraintlayout/core/motion/MotionWidget;->setCustomAttribute(Ljava/lang/String;II)V
+return-void
 
     .line 127
     :pswitch_3
@@ -1904,7 +1909,8 @@
 
     .line 130
     .line 131
-    invoke-virtual {p1, v1, v0, p2}, Landroidx/constraintlayout/core/motion/MotionWidget;->setCustomAttribute(Ljava/lang/String;IF)V    return-void
+    invoke-virtual {p1, v1, v0, p2}, Landroidx/constraintlayout/core/motion/MotionWidget;->setCustomAttribute(Ljava/lang/String;IF)V
+return-void
 
     .line 135
     :pswitch_4
@@ -1919,7 +1925,8 @@
     float-to-int p2, p2
 
     .line 140
-    invoke-virtual {p1, v1, v0, p2}, Landroidx/constraintlayout/core/motion/MotionWidget;->setCustomAttribute(Ljava/lang/String;II)V    return-void
+    invoke-virtual {p1, v1, v0, p2}, Landroidx/constraintlayout/core/motion/MotionWidget;->setCustomAttribute(Ljava/lang/String;II)V
+return-void
 
     .line 144
     nop
@@ -1974,8 +1981,7 @@
     move-result p1
 
     iput-boolean p1, p0, Landroidx/constraintlayout/core/motion/CustomVariable;->mBooleanValue:Z
-
-    return-void
+return-void
 
     .line 17
     :pswitch_2
@@ -2066,8 +2072,7 @@
 
     :goto_0
     iput-boolean v1, p0, Landroidx/constraintlayout/core/motion/CustomVariable;->mBooleanValue:Z
-
-    return-void
+return-void
 
     .line 3
     :pswitch_1

@@ -254,8 +254,7 @@
     move-object v6, p1
 
     invoke-static/range {v1 .. v6}, Lcom/google/firebase/crashlytics/internal/CrashlyticsNativeComponentDeferredProxy;->a(Ljava/lang/String;Ljava/lang/String;JLcom/google/firebase/crashlytics/internal/model/StaticSessionData;Lcom/google/firebase/inject/Provider;)V
-
-    return-void
+return-void
 .end method
 
 .method public onSuccess(Ljava/lang/Object;)V

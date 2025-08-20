@@ -31,8 +31,7 @@
     iget-object v0, p0, Lcom/google/firebase/b;->a:Lcom/google/firebase/FirebaseApp;
 
     invoke-static {v0, p1}, Lcom/google/firebase/FirebaseApp;->a(Lcom/google/firebase/FirebaseApp;Z)V
-
-    return-void
+return-void
 .end method
 
 .end class

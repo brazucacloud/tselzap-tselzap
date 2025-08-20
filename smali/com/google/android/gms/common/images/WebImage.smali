@@ -116,8 +116,7 @@
 
     .line 2
     invoke-direct {p0, p1, v0, v0}, Lcom/google/android/gms/common/images/WebImage;-><init>(Landroid/net/Uri;II)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/net/Uri;II)V
@@ -213,8 +212,7 @@
     move-result p1
 
     invoke-direct {p0, v0, v1, p1}, Lcom/google/android/gms/common/images/WebImage;-><init>(Landroid/net/Uri;II)V
-
-    return-void
+return-void
 .end method
 
 

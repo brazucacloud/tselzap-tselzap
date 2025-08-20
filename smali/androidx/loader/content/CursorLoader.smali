@@ -183,8 +183,7 @@
 
     .line 3
     invoke-interface {p1}, Landroid/database/Cursor;->close()V
-
-    return-void
+return-void
 
     .line 4
     :cond_0
@@ -229,8 +228,7 @@
     check-cast p1, Landroid/database/Cursor;
 
     invoke-virtual {p0, p1}, Landroidx/loader/content/CursorLoader;->deliverResult(Landroid/database/Cursor;)V
-
-    return-void
+return-void
 .end method
 
 .method public dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
@@ -416,7 +414,8 @@
 
     .line 99
     .line 100
-    invoke-virtual {p3, p1}, Ljava/io/PrintWriter;->println(Z)V    return-void
+    invoke-virtual {p3, p1}, Ljava/io/PrintWriter;->println(Z)V
+return-void
 .end method
 
 .method public getProjection()[Ljava/lang/String;
@@ -661,8 +660,7 @@
     check-cast p1, Landroid/database/Cursor;
 
     invoke-virtual {p0, p1}, Landroidx/loader/content/CursorLoader;->onCanceled(Landroid/database/Cursor;)V
-
-    return-void
+return-void
 .end method
 
 .method public onReset()V
@@ -762,7 +760,8 @@
     .line 20
     :cond_2
     :goto_0
-    invoke-virtual {p0}, Landroidx/loader/content/Loader;->forceLoad()V    return-void
+    invoke-virtual {p0}, Landroidx/loader/content/Loader;->forceLoad()V
+return-void
 .end method
 
 .method public onStopLoading()V

@@ -22,7 +22,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 
@@ -47,8 +48,7 @@
     new-instance p1, Landroidx/navigation/NavControllerViewModel;
 
     invoke-direct {p1}, Landroidx/navigation/NavControllerViewModel;-><init>()V
-
-    return-object p1
+return-object p1
 .end method
 
 .method public final synthetic create(Ljava/lang/Class;Landroidx/lifecycle/viewmodel/CreationExtras;)Landroidx/lifecycle/ViewModel;

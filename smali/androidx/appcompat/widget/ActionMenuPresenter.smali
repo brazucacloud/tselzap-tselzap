@@ -1700,7 +1700,8 @@
     .line 2
     .line 3
     .line 4
-    invoke-super {p0, p1, p2}, Landroidx/appcompat/view/menu/BaseMenuPresenter;->onCloseMenu(Landroidx/appcompat/view/menu/MenuBuilder;Z)V    return-void
+    invoke-super {p0, p1, p2}, Landroidx/appcompat/view/menu/BaseMenuPresenter;->onCloseMenu(Landroidx/appcompat/view/menu/MenuBuilder;Z)V
+return-void
 .end method
 
 .method public onConfigurationChanged(Landroid/content/res/Configuration;)V
@@ -2081,7 +2082,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/appcompat/widget/ActionMenuPresenter;->mExpandedActionViewsExclusive:Z    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/widget/ActionMenuPresenter;->mExpandedActionViewsExclusive:Z
+return-void
 .end method
 
 .method public setItemLimit(I)V
@@ -2095,7 +2097,8 @@
     const/4 p1, 0x1
 
     .line 4
-    iput-boolean p1, p0, Landroidx/appcompat/widget/ActionMenuPresenter;->mMaxItemsSet:Z    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/widget/ActionMenuPresenter;->mMaxItemsSet:Z
+return-void
 .end method
 
 .method public setMenuView(Landroidx/appcompat/widget/ActionMenuView;)V
@@ -2150,7 +2153,8 @@
     const/4 p1, 0x1
 
     .line 4
-    iput-boolean p1, p0, Landroidx/appcompat/widget/ActionMenuPresenter;->mReserveOverflowSet:Z    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/widget/ActionMenuPresenter;->mReserveOverflowSet:Z
+return-void
 .end method
 
 .method public setWidthLimit(IZ)V
@@ -2168,7 +2172,8 @@
     const/4 p1, 0x1
 
     .line 6
-    iput-boolean p1, p0, Landroidx/appcompat/widget/ActionMenuPresenter;->mWidthLimitSet:Z    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/widget/ActionMenuPresenter;->mWidthLimitSet:Z
+return-void
 .end method
 
 .method public shouldIncludeItem(ILandroidx/appcompat/view/menu/MenuItemImpl;)Z

@@ -81,8 +81,7 @@
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic zzA(Lcom/google/android/gms/common/AccountPicker$AccountChooserOptions;)Z
@@ -225,8 +224,7 @@
     .locals 0
 
     iput-boolean p1, p0, Lcom/google/android/gms/common/AccountPicker$AccountChooserOptions;->zze:Z
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic zzm(Lcom/google/android/gms/common/AccountPicker$AccountChooserOptions;Lcom/google/android/gms/common/zza;)V
@@ -245,8 +243,7 @@
     const/4 p1, 0x0
 
     iput-boolean p1, p0, Lcom/google/android/gms/common/AccountPicker$AccountChooserOptions;->zzn:Z
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic zzo(Lcom/google/android/gms/common/AccountPicker$AccountChooserOptions;Z)V
@@ -255,8 +252,7 @@
     const/4 p1, 0x0
 
     iput-boolean p1, p0, Lcom/google/android/gms/common/AccountPicker$AccountChooserOptions;->zzo:Z
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic zzp(Lcom/google/android/gms/common/AccountPicker$AccountChooserOptions;Ljava/lang/String;)V
@@ -301,8 +297,7 @@
     const/4 p1, 0x0
 
     iput-boolean p1, p0, Lcom/google/android/gms/common/AccountPicker$AccountChooserOptions;->zzb:Z
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic zzu(Lcom/google/android/gms/common/AccountPicker$AccountChooserOptions;Z)V
@@ -311,8 +306,7 @@
     const/4 p1, 0x0
 
     iput-boolean p1, p0, Lcom/google/android/gms/common/AccountPicker$AccountChooserOptions;->zzh:Z
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic zzv(Lcom/google/android/gms/common/AccountPicker$AccountChooserOptions;I)V
@@ -339,8 +333,7 @@
     const/4 p1, 0x0
 
     iput-boolean p1, p0, Lcom/google/android/gms/common/AccountPicker$AccountChooserOptions;->zzk:Z
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic zzy(Lcom/google/android/gms/common/AccountPicker$AccountChooserOptions;)Z

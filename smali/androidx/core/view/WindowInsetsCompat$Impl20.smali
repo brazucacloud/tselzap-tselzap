@@ -97,8 +97,7 @@
     invoke-direct {v0, p2}, Landroid/view/WindowInsets;-><init>(Landroid/view/WindowInsets;)V
 
     invoke-direct {p0, p1, v0}, Landroidx/core/view/WindowInsetsCompat$Impl20;-><init>(Landroidx/core/view/WindowInsetsCompat;Landroid/view/WindowInsets;)V
-
-    return-void
+return-void
 .end method
 
 .method private getInsets(IZ)Landroidx/core/graphics/Insets;

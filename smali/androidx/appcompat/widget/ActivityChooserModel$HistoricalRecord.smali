@@ -50,8 +50,7 @@
     move-result-object p1
 
     invoke-direct {p0, p1, p2, p3, p4}, Landroidx/appcompat/widget/ActivityChooserModel$HistoricalRecord;-><init>(Landroid/content/ComponentName;JF)V
-
-    return-void
+return-void
 .end method
 
 

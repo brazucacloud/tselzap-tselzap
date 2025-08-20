@@ -122,7 +122,8 @@
 
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroidx/loader/content/Loader;->onAbandon()V    return-void
+    invoke-virtual {p0}, Landroidx/loader/content/Loader;->onAbandon()V
+return-void
 .end method
 
 .method public cancelLoad()Z
@@ -148,7 +149,8 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Landroidx/loader/content/Loader;->mProcessingChange:Z    return-void
+    iput-boolean v0, p0, Landroidx/loader/content/Loader;->mProcessingChange:Z
+return-void
 .end method
 
 .method public dataToString(Ljava/lang/Object;)Ljava/lang/String;
@@ -454,7 +456,8 @@
 
     .line 98
     .line 99
-    invoke-virtual {p3, p1}, Ljava/io/PrintWriter;->println(Z)V    return-void
+    invoke-virtual {p3, p1}, Ljava/io/PrintWriter;->println(Z)V
+return-void
 .end method
 
 .method public forceLoad()V
@@ -463,7 +466,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/loader/content/Loader;->onForceLoad()V    return-void
+    invoke-virtual {p0}, Landroidx/loader/content/Loader;->onForceLoad()V
+return-void
 .end method
 
 .method public getContext()Landroid/content/Context;
@@ -535,14 +539,16 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0}, Landroidx/loader/content/Loader;->forceLoad()V    return-void
+    invoke-virtual {p0}, Landroidx/loader/content/Loader;->forceLoad()V
+return-void
 
     .line 9
     :cond_0
     const/4 v0, 0x1
 
     .line 10
-    iput-boolean v0, p0, Landroidx/loader/content/Loader;->mContentChanged:Z    return-void
+    iput-boolean v0, p0, Landroidx/loader/content/Loader;->mContentChanged:Z
+return-void
 .end method
 
 .method public onForceLoad()V
@@ -704,7 +710,8 @@
 
     .line 13
     .line 14
-    iput-boolean v0, p0, Landroidx/loader/content/Loader;->mProcessingChange:Z    return-void
+    iput-boolean v0, p0, Landroidx/loader/content/Loader;->mProcessingChange:Z
+return-void
 .end method
 
 .method public rollbackContentChanged()V
@@ -752,7 +759,8 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0}, Landroidx/loader/content/Loader;->onStartLoading()V    return-void
+    invoke-virtual {p0}, Landroidx/loader/content/Loader;->onStartLoading()V
+return-void
 .end method
 
 .method public stopLoading()V
@@ -768,7 +776,8 @@
 
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroidx/loader/content/Loader;->onStopLoading()V    return-void
+    invoke-virtual {p0}, Landroidx/loader/content/Loader;->onStopLoading()V
+return-void
 .end method
 
 .method public takeContentChanged()Z

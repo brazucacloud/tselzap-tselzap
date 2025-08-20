@@ -63,7 +63,8 @@
 
     .line 17
     .line 18
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object p0
+    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+return-object p0
 .end method
 
 .method public static synthetic asListenableFuture$default(Lz1/z;Ljava/lang/Object;ILjava/lang/Object;)LD0/c;

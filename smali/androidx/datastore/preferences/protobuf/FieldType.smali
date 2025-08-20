@@ -2382,7 +2382,8 @@
 
     .line 62
     :goto_1
-    iput-boolean p3, p0, Landroidx/datastore/preferences/protobuf/FieldType;->primitiveScalar:Z    return-void
+    iput-boolean p3, p0, Landroidx/datastore/preferences/protobuf/FieldType;->primitiveScalar:Z
+return-void
 .end method
 
 .method public static forId(I)Landroidx/datastore/preferences/protobuf/FieldType;

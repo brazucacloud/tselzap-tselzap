@@ -35,8 +35,7 @@
 
     .line 1
     invoke-direct {p0, p1, v0}, Landroidx/core/widget/ContentLoadingProgressBar;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -95,8 +94,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/core/widget/ContentLoadingProgressBar;->showOnUiThread()V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic b(Landroidx/core/widget/ContentLoadingProgressBar;)V
@@ -104,8 +102,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/core/widget/ContentLoadingProgressBar;->hideOnUiThread()V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic c(Landroidx/core/widget/ContentLoadingProgressBar;)V
@@ -113,8 +110,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/core/widget/ContentLoadingProgressBar;->lambda$new$1()V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic d(Landroidx/core/widget/ContentLoadingProgressBar;)V
@@ -122,8 +118,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/core/widget/ContentLoadingProgressBar;->lambda$new$0()V
-
-    return-void
+return-void
 .end method
 
 .method private hideOnUiThread()V

@@ -671,7 +671,8 @@
     move-result-object v1
 
     .line 64
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V    return-void
+    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+return-void
 .end method
 
 .method public getAttributeNames(Ljava/util/HashSet;)V

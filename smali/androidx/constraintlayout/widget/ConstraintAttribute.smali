@@ -1084,7 +1084,8 @@
     .line 257
     .line 258
     :cond_d
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V    return-void
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
+return-void
 .end method
 
 .method public static setAttributes(Landroid/view/View;Ljava/util/HashMap;)V
@@ -3060,8 +3061,7 @@
     move-result p1
 
     iput-boolean p1, p0, Landroidx/constraintlayout/widget/ConstraintAttribute;->mBooleanValue:Z
-
-    return-void
+return-void
 
     .line 12
     :pswitch_2
@@ -3160,8 +3160,7 @@
 
     :cond_0
     iput-boolean v1, p0, Landroidx/constraintlayout/widget/ConstraintAttribute;->mBooleanValue:Z
-
-    return-void
+return-void
 
     .line 4
     :pswitch_2

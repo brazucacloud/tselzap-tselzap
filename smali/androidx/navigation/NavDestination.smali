@@ -142,8 +142,7 @@
     move-result-object p1
 
     invoke-direct {p0, p1}, Landroidx/navigation/NavDestination;-><init>(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/String;)V
@@ -543,8 +542,7 @@
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/navigation/NavDestination;->addDeepLink(Landroidx/navigation/NavDeepLink;)V
-
-    return-void
+return-void
 .end method
 
 .method public final addInDefaultArgs(Landroid/os/Bundle;)Landroid/os/Bundle;
@@ -2972,7 +2970,8 @@
     move-object v4, p0
 
     .line 57
-    invoke-direct/range {v3 .. v9}, Landroidx/navigation/NavDestination$DeepLinkMatch;-><init>(Landroidx/navigation/NavDestination;Landroid/os/Bundle;ZIZI)V    return-object v3
+    invoke-direct/range {v3 .. v9}, Landroidx/navigation/NavDestination$DeepLinkMatch;-><init>(Landroidx/navigation/NavDestination;Landroid/os/Bundle;ZIZI)V
+return-object v3
 
     .line 61
     :cond_2
@@ -3119,7 +3118,8 @@
 
     .line 68
     .line 69
-    invoke-virtual {p2}, Landroid/content/res/TypedArray;->recycle()V    return-void
+    invoke-virtual {p2}, Landroid/content/res/TypedArray;->recycle()V
+return-void
 .end method
 
 .method public final putAction(II)V
@@ -3149,8 +3149,7 @@
     invoke-direct/range {v0 .. v5}, Landroidx/navigation/NavAction;-><init>(ILandroidx/navigation/NavOptions;Landroid/os/Bundle;ILkotlin/jvm/internal/e;)V
 
     invoke-virtual {p0, p1, v0}, Landroidx/navigation/NavDestination;->putAction(ILandroidx/navigation/NavAction;)V
-
-    return-void
+return-void
 .end method
 
 .method public final putAction(ILandroidx/navigation/NavAction;)V
@@ -3177,8 +3176,7 @@
     iget-object v0, p0, Landroidx/navigation/NavDestination;->actions:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v0, p1, p2}, Landroidx/collection/SparseArrayCompat;->put(ILjava/lang/Object;)V
-
-    return-void
+return-void
 
     .line 4
     :cond_0
@@ -3235,7 +3233,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/collection/SparseArrayCompat;->remove(I)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/collection/SparseArrayCompat;->remove(I)V
+return-void
 .end method
 
 .method public final removeArgument(Ljava/lang/String;)V
@@ -3718,6 +3717,7 @@
 
     .line 89
     .line 90
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+return-object v0
 .end method
 .end class

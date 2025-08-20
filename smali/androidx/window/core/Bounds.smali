@@ -52,8 +52,7 @@
     iget p1, p1, Landroid/graphics/Rect;->bottom:I
 
     invoke-direct {p0, v0, v1, v2, p1}, Landroidx/window/core/Bounds;-><init>(IIII)V
-
-    return-void
+return-void
 .end method
 
 

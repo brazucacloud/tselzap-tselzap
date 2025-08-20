@@ -28,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroid/util/Property;-><init>(Ljava/lang/Class;Ljava/lang/String;)V    return-void
+    invoke-direct {p0, p1, p2}, Landroid/util/Property;-><init>(Ljava/lang/Class;Ljava/lang/String;)V
+return-void
 .end method
 
 
@@ -68,8 +69,7 @@
     move-result p2
 
     invoke-virtual {p1, p2}, Landroidx/appcompat/widget/SwitchCompat;->setThumbPosition(F)V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic set(Ljava/lang/Object;Ljava/lang/Object;)V
@@ -81,7 +81,6 @@
     check-cast p2, Ljava/lang/Float;
 
     invoke-virtual {p0, p1, p2}, Landroidx/appcompat/widget/SwitchCompat$1;->set(Landroidx/appcompat/widget/SwitchCompat;Ljava/lang/Float;)V
-
-    return-void
+return-void
 .end method
 .end class

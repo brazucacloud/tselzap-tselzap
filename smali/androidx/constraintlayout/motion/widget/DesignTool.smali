@@ -912,7 +912,8 @@
     move-result p2
 
     .line 27
-    invoke-virtual {p0, p1, p2}, Landroidx/constraintlayout/widget/ConstraintSet;->setHorizontalBias(IF)V    return-void
+    invoke-virtual {p0, p1, p2}, Landroidx/constraintlayout/widget/ConstraintSet;->setHorizontalBias(IF)V
+return-void
 
     .line 31
     :cond_1
@@ -1040,7 +1041,8 @@
     move-result p2
 
     .line 37
-    invoke-virtual {p1, p2, p0}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainWidth(II)V    return-void
+    invoke-virtual {p1, p2, p0}, Landroidx/constraintlayout/widget/ConstraintSet;->constrainWidth(II)V
+return-void
 
     .line 41
     :cond_2
@@ -1234,7 +1236,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->disableAutoTransition(Z)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->disableAutoTransition(Z)V
+return-void
 .end method
 
 .method public dumpConstraintSet(Ljava/lang/String;)V
@@ -1599,7 +1602,8 @@
 
     .line 27
     :cond_1
-    invoke-virtual {p1, p2, v0}, Landroidx/constraintlayout/motion/widget/MotionController;->buildRectangles([FI)V    return-void
+    invoke-virtual {p1, p2, v0}, Landroidx/constraintlayout/motion/widget/MotionController;->buildRectangles([FI)V
+return-void
 .end method
 
 .method public getEndState()Ljava/lang/String;
@@ -2522,7 +2526,8 @@
 
     .line 123
     .line 124
-    invoke-virtual {p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->requestLayout()V    return-void
+    invoke-virtual {p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->requestLayout()V
+return-void
 .end method
 
 .method public setKeyFrame(Ljava/lang/Object;ILjava/lang/String;Ljava/lang/Object;)V
@@ -2997,7 +3002,8 @@
 
     .line 79
     .line 80
-    invoke-virtual {p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->requestLayout()V    return-void
+    invoke-virtual {p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->requestLayout()V
+return-void
 .end method
 
 .method public setToolPosition(F)V
@@ -3055,7 +3061,8 @@
 
     .line 26
     .line 27
-    invoke-virtual {p1}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p1}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public setTransition(Ljava/lang/String;Ljava/lang/String;)V

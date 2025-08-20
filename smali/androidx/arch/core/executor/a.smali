@@ -18,8 +18,7 @@
     iput p1, p0, Landroidx/arch/core/executor/a;->b:I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -33,18 +32,15 @@
     packed-switch v0, :pswitch_data_0
 
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
-
-    return-void
+return-void
 
     :pswitch_0
     invoke-static {p1}, Landroidx/arch/core/executor/ArchTaskExecutor;->b(Ljava/lang/Runnable;)V
-
-    return-void
+return-void
 
     :pswitch_1
     invoke-static {p1}, Landroidx/arch/core/executor/ArchTaskExecutor;->a(Ljava/lang/Runnable;)V
-
-    return-void
+return-void
 
     nop
 

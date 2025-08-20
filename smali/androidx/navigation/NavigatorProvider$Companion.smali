@@ -20,8 +20,7 @@
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Lkotlin/jvm/internal/e;)V
@@ -29,8 +28,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/navigation/NavigatorProvider$Companion;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -189,7 +187,8 @@
     .line 68
     :cond_2
     :goto_1
-    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V    return-object v0
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
+return-object v0
 .end method
 
 .method public final validateName$navigation_common_release(Ljava/lang/String;)Z

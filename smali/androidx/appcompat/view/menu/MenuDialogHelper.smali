@@ -90,7 +90,8 @@
     const/4 v0, 0x0
 
     .line 16
-    invoke-virtual {p1, p2, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->performItemAction(Landroid/view/MenuItem;I)Z    return-void
+    invoke-virtual {p1, p2, v0}, Landroidx/appcompat/view/menu/MenuBuilder;->performItemAction(Landroid/view/MenuItem;I)Z
+return-void
 .end method
 
 .method public onCloseMenu(Landroidx/appcompat/view/menu/MenuBuilder;Z)V
@@ -152,7 +153,8 @@
     const/4 v1, 0x1
 
     .line 6
-    invoke-virtual {p1, v0, v1}, Landroidx/appcompat/view/menu/ListMenuPresenter;->onCloseMenu(Landroidx/appcompat/view/menu/MenuBuilder;Z)V    return-void
+    invoke-virtual {p1, v0, v1}, Landroidx/appcompat/view/menu/ListMenuPresenter;->onCloseMenu(Landroidx/appcompat/view/menu/MenuBuilder;Z)V
+return-void
 .end method
 
 .method public onKey(Landroid/content/DialogInterface;ILandroid/view/KeyEvent;)Z
@@ -605,6 +607,7 @@
 
     .line 107
     .line 108
-    invoke-virtual {p1}, Landroid/app/Dialog;->show()V    return-void
+    invoke-virtual {p1}, Landroid/app/Dialog;->show()V
+return-void
 .end method
 .end class

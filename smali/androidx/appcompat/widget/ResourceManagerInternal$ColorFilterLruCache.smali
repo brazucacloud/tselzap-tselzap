@@ -28,7 +28,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/collection/LruCache;-><init>(I)V    return-void
+    invoke-direct {p0, p1}, Landroidx/collection/LruCache;-><init>(I)V
+return-void
 .end method
 
 .method private static generateCacheKey(ILandroid/graphics/PorterDuff$Mode;)I

@@ -60,7 +60,8 @@
     const/4 p1, 0x0
 
     .line 6
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V    return-void
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
+return-void
 .end method
 
 
@@ -112,8 +113,7 @@
     const-string v1, "defaultViewModelProviderFactory"
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public bridge synthetic invoke()Ljava/lang/Object;

@@ -654,7 +654,8 @@
 
     .line 42
     .line 43
-    invoke-static {}, Landroid/os/Trace;->endSection()V    return-object p1
+    invoke-static {}, Landroid/os/Trace;->endSection()V
+return-object p1
 
     .line 47
     :cond_1
@@ -778,7 +779,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObservable;->notifyChanged()V    return-void
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObservable;->notifyChanged()V
+return-void
 .end method
 
 .method public final notifyItemChanged(I)V
@@ -1046,7 +1048,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/database/Observable;->registerObserver(Ljava/lang/Object;)V    return-void
+    invoke-virtual {v0, p1}, Landroid/database/Observable;->registerObserver(Ljava/lang/Object;)V
+return-void
 .end method
 
 .method public setHasStableIds(Z)V
@@ -1065,7 +1068,8 @@
 
     .line 6
     .line 7
-    iput-boolean p1, p0, Landroidx/recyclerview/widget/RecyclerView$Adapter;->mHasStableIds:Z    return-void
+    iput-boolean p1, p0, Landroidx/recyclerview/widget/RecyclerView$Adapter;->mHasStableIds:Z
+return-void
 
     .line 10
     :cond_0
@@ -1100,7 +1104,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObservable;->notifyStateRestorationPolicyChanged()V    return-void
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObservable;->notifyStateRestorationPolicyChanged()V
+return-void
 .end method
 
 .method public unregisterAdapterDataObserver(Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;)V
@@ -1115,6 +1120,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/database/Observable;->unregisterObserver(Ljava/lang/Object;)V    return-void
+    invoke-virtual {v0, p1}, Landroid/database/Observable;->unregisterObserver(Ljava/lang/Object;)V
+return-void
 .end method
 .end class

@@ -501,8 +501,7 @@
 
     .line 53
     invoke-direct {p0, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->init(Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -728,8 +727,7 @@
 
     .line 106
     invoke-direct {p0, p2}, Landroidx/constraintlayout/motion/widget/MotionLayout;->init(Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -955,8 +953,7 @@
 
     .line 159
     invoke-direct {p0, p2}, Landroidx/constraintlayout/motion/widget/MotionLayout;->init(Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic access$000(Landroidx/constraintlayout/motion/widget/MotionLayout;)Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;
@@ -977,7 +974,8 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroidx/constraintlayout/widget/ConstraintLayout;->resolveSystem(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;III)V    return-void
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroidx/constraintlayout/widget/ConstraintLayout;->resolveSystem(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;III)V
+return-void
 .end method
 
 .method public static synthetic access$1100(Landroidx/constraintlayout/motion/widget/MotionLayout;ZLandroid/view/View;Landroidx/constraintlayout/core/widgets/ConstraintWidget;Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;Landroid/util/SparseArray;)V
@@ -1005,42 +1003,48 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->setupMotionViews()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->setupMotionViews()V
+return-void
 .end method
 
 .method public static synthetic access$1500(Landroidx/constraintlayout/motion/widget/MotionLayout;IIIIZZ)V
     .locals 0
 
     .line 1
-    invoke-virtual/range {p0 .. p6}, Landroidx/constraintlayout/widget/ConstraintLayout;->resolveMeasuredDimension(IIIIZZ)V    return-void
+    invoke-virtual/range {p0 .. p6}, Landroidx/constraintlayout/widget/ConstraintLayout;->resolveMeasuredDimension(IIIIZZ)V
+return-void
 .end method
 
 .method public static synthetic access$1600(Landroidx/constraintlayout/motion/widget/MotionLayout;Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;III)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroidx/constraintlayout/widget/ConstraintLayout;->resolveSystem(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;III)V    return-void
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroidx/constraintlayout/widget/ConstraintLayout;->resolveSystem(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;III)V
+return-void
 .end method
 
 .method public static synthetic access$1700(Landroidx/constraintlayout/motion/widget/MotionLayout;Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;III)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroidx/constraintlayout/widget/ConstraintLayout;->resolveSystem(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;III)V    return-void
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroidx/constraintlayout/widget/ConstraintLayout;->resolveSystem(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;III)V
+return-void
 .end method
 
 .method public static synthetic access$1800(Landroidx/constraintlayout/motion/widget/MotionLayout;Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;III)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroidx/constraintlayout/widget/ConstraintLayout;->resolveSystem(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;III)V    return-void
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroidx/constraintlayout/widget/ConstraintLayout;->resolveSystem(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;III)V
+return-void
 .end method
 
 .method public static synthetic access$1900(Landroidx/constraintlayout/motion/widget/MotionLayout;Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;III)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroidx/constraintlayout/widget/ConstraintLayout;->resolveSystem(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;III)V    return-void
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroidx/constraintlayout/widget/ConstraintLayout;->resolveSystem(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;III)V
+return-void
 .end method
 
 .method public static synthetic access$200(Landroidx/constraintlayout/motion/widget/MotionLayout;)I
@@ -3433,7 +3437,8 @@
 
     .line 77
     .line 78
-    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V    return-void
+    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
+return-void
 .end method
 
 .method private setupMotionViews()V
@@ -4775,7 +4780,8 @@
 
     .line 13
     .line 14
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z    return-void
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
+return-void
 .end method
 
 .method public animateTo(F)V
@@ -4936,7 +4942,8 @@
 
     .line 72
     .line 73
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public applyViewTransition(ILandroidx/constraintlayout/motion/widget/MotionController;)Z
@@ -5002,7 +5009,8 @@
     .line 14
     .line 15
     .line 16
-    invoke-virtual {v0, p1}, Landroidx/constraintlayout/widget/ConstraintSet;->clone(Landroidx/constraintlayout/widget/ConstraintSet;)V    return-object v0
+    invoke-virtual {v0, p1}, Landroidx/constraintlayout/widget/ConstraintSet;->clone(Landroidx/constraintlayout/widget/ConstraintSet;)V
+return-object v0
 .end method
 
 .method public disableAutoTransition(Z)V
@@ -5017,7 +5025,8 @@
 
     .line 6
     :cond_0
-    invoke-virtual {v0, p1}, Landroidx/constraintlayout/motion/widget/MotionScene;->disableAutoTransition(Z)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/constraintlayout/motion/widget/MotionScene;->disableAutoTransition(Z)V
+return-void
 .end method
 
 .method public dispatchDraw(Landroid/graphics/Canvas;)V
@@ -5655,7 +5664,8 @@
     const/4 p2, 0x1
 
     .line 8
-    invoke-virtual {p1, p2}, Landroidx/constraintlayout/motion/widget/MotionScene$Transition;->setEnabled(Z)V    return-void
+    invoke-virtual {p1, p2}, Landroidx/constraintlayout/motion/widget/MotionScene$Transition;->setEnabled(Z)V
+return-void
 
     .line 12
     :cond_0
@@ -5740,7 +5750,8 @@
     const/4 p2, 0x0
 
     .line 51
-    invoke-virtual {p1, p2}, Landroidx/constraintlayout/motion/widget/MotionScene$Transition;->setEnabled(Z)V    return-void
+    invoke-virtual {p1, p2}, Landroidx/constraintlayout/motion/widget/MotionScene$Transition;->setEnabled(Z)V
+return-void
 .end method
 
 .method public enableViewTransition(IZ)V
@@ -8314,7 +8325,8 @@
     const/4 p1, 0x0
 
     .line 14
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->setProgress(F)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->setProgress(F)V
+return-void
 
     .line 18
     :cond_1
@@ -8330,11 +8342,13 @@
 
     .line 23
     .line 24
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->setProgress(F)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->setProgress(F)V
+return-void
 
     .line 28
     :cond_2
-    invoke-virtual {p0, p1, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->setTransition(II)V    return-void
+    invoke-virtual {p0, p1, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->setTransition(II)V
+return-void
 .end method
 
 .method public loadLayoutDescription(I)V
@@ -8628,7 +8642,8 @@
 
     .line 138
     :cond_5
-    invoke-virtual {p1}, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->apply()V    return-void
+    invoke-virtual {p1}, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->apply()V
+return-void
 
     .line 142
     :cond_6
@@ -8944,7 +8959,8 @@
 
     .line 87
     :cond_4
-    invoke-virtual {v0}, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->apply()V    return-void
+    invoke-virtual {v0}, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->apply()V
+return-void
 
     .line 91
     :cond_5
@@ -9393,7 +9409,8 @@
     move-object p1, p0
 
     .line 13
-    iput-boolean v1, p1, Landroidx/constraintlayout/motion/widget/MotionLayout;->mInLayout:Z    return-void
+    iput-boolean v1, p1, Landroidx/constraintlayout/motion/widget/MotionLayout;->mInLayout:Z
+return-void
 
     .line 16
     :catchall_0
@@ -9478,7 +9495,8 @@
 
     .line 47
     .line 48
-    iput-boolean v1, p1, Landroidx/constraintlayout/motion/widget/MotionLayout;->mInLayout:Z    return-void
+    iput-boolean v1, p1, Landroidx/constraintlayout/motion/widget/MotionLayout;->mInLayout:Z
+return-void
 
     .line 51
     :goto_2
@@ -9500,7 +9518,8 @@
 
     .line 4
     .line 5
-    invoke-super {p0, p1, p2}, Landroidx/constraintlayout/widget/ConstraintLayout;->onMeasure(II)V    return-void
+    invoke-super {p0, p1, p2}, Landroidx/constraintlayout/widget/ConstraintLayout;->onMeasure(II)V
+return-void
 
     .line 9
     :cond_0
@@ -9913,7 +9932,8 @@
     .line 197
     .line 198
     :cond_d
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->evaluateLayout()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->evaluateLayout()V
+return-void
 .end method
 
 .method public onNestedFling(Landroid/view/View;FFZ)Z
@@ -10409,8 +10429,7 @@
     .line 5
     :cond_1
     iput-boolean p6, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mUndergoingMotion:Z
-
-    return-void
+return-void
 .end method
 
 .method public onNestedScrollAccepted(Landroid/view/View;Landroid/view/View;II)V
@@ -10483,7 +10502,8 @@
 
     .line 13
     .line 14
-    invoke-virtual {p0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->requestLayout()V    return-void
+    invoke-virtual {p0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->requestLayout()V
+return-void
 
     .line 18
     :cond_1
@@ -11120,7 +11140,8 @@
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->rebuildScene()V    return-void
+    invoke-virtual {p0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->rebuildScene()V
+return-void
 .end method
 
 .method public rebuildScene()V
@@ -11136,7 +11157,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public removeTransitionListener(Landroidx/constraintlayout/motion/widget/MotionLayout$TransitionListener;)Z
@@ -11287,7 +11309,8 @@
 
     .line 54
     :cond_2
-    invoke-super {p0}, Landroidx/constraintlayout/widget/ConstraintLayout;->requestLayout()V    return-void
+    invoke-super {p0}, Landroidx/constraintlayout/widget/ConstraintLayout;->requestLayout()V
+return-void
 .end method
 
 .method public rotateTo(II)V
@@ -11579,7 +11602,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToState(I)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToState(I)V
+return-void
 
     .line 12
     :cond_0
@@ -11665,21 +11689,24 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public setDelayedApplicationOfInitialState(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mDelayedApply:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mDelayedApply:Z
+return-void
 .end method
 
 .method public setInteractionEnabled(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mInteractionEnabled:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mInteractionEnabled:Z
+return-void
 .end method
 
 .method public setInterpolatedProgress(F)V
@@ -11727,11 +11754,13 @@
     move-result p1
 
     .line 22
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->setProgress(F)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->setProgress(F)V
+return-void
 
     .line 26
     :cond_0
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->setProgress(F)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->setProgress(F)V
+return-void
 .end method
 
 .method public setOnHide(F)V
@@ -11902,8 +11931,7 @@
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mStateCache:Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;
 
     invoke-virtual {v0, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->setProgress(F)V
-
-    return-void
+return-void
 
     :cond_3
     if-gtz v2, :cond_5
@@ -12039,8 +12067,7 @@
 
     .line 36
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-
-    return-void
+return-void
 .end method
 
 .method public setProgress(FF)V
@@ -12108,8 +12135,7 @@
     .line 9
     :goto_0
     invoke-virtual {p0, v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->animateTo(F)V
-
-    return-void
+return-void
 
     :cond_3
     cmpl-float p2, p1, v1
@@ -12160,7 +12186,8 @@
     .line 8
     .line 9
     .line 10
-    invoke-virtual {p0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->rebuildScene()V    return-void
+    invoke-virtual {p0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->rebuildScene()V
+return-void
 .end method
 
 .method public setStartState(I)V
@@ -12214,7 +12241,8 @@
 
     .line 24
     .line 25
-    invoke-virtual {v0, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->setEndState(I)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->setEndState(I)V
+return-void
 
     .line 29
     :cond_1
@@ -12251,8 +12279,7 @@
 
     .line 15
     invoke-virtual {v0, p1, p2, p3}, Landroidx/constraintlayout/widget/ConstraintLayoutStates;->updateConstraints(IFF)V
-
-    return-void
+return-void
 
     .line 16
     :cond_0
@@ -12327,8 +12354,7 @@
 
     .line 7
     invoke-virtual {p0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->fireTransitionCompleted()V
-
-    return-void
+return-void
 
     :cond_3
     if-ne p1, v2, :cond_4
@@ -12407,8 +12433,7 @@
     iget v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mEndState:I
 
     invoke-virtual {p1, v0}, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->setEndState(I)V
-
-    return-void
+return-void
 
     .line 25
     :cond_1
@@ -12573,8 +12598,7 @@
 
     .line 41
     invoke-virtual {p0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToStart()V
-
-    return-void
+return-void
 
     .line 42
     :cond_7
@@ -12616,8 +12640,7 @@
     iget-object p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mStateCache:Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;
 
     invoke-virtual {p1, p2}, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->setEndState(I)V
-
-    return-void
+return-void
 
     .line 6
     :cond_1
@@ -12820,8 +12843,7 @@
 
     .line 65
     invoke-virtual {p0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->rebuildScene()V
-
-    return-void
+return-void
 .end method
 
 .method public setTransitionDuration(I)V
@@ -12848,7 +12870,8 @@
 
     .line 13
     :cond_0
-    invoke-virtual {v0, p1}, Landroidx/constraintlayout/motion/widget/MotionScene;->setDuration(I)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/constraintlayout/motion/widget/MotionScene;->setDuration(I)V
+return-void
 .end method
 
 .method public setTransitionListener(Landroidx/constraintlayout/motion/widget/MotionLayout$TransitionListener;)V
@@ -13587,7 +13610,8 @@
 
     .line 257
     .line 258
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public touchSpringTo(FF)V
@@ -13794,7 +13818,8 @@
 
     .line 95
     .line 96
-    invoke-virtual {p0}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public transitionToEnd()V
@@ -13834,8 +13859,7 @@
 
     .line 1
     invoke-virtual {p0, v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->animateTo(F)V
-
-    return-void
+return-void
 .end method
 
 .method public transitionToStart(Ljava/lang/Runnable;)V
@@ -13879,16 +13903,14 @@
     iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mStateCache:Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;
 
     invoke-virtual {v0, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->setEndState(I)V
-
-    return-void
+return-void
 
     :cond_1
     const/4 v0, -0x1
 
     .line 5
     invoke-virtual {p0, p1, v0, v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToState(III)V
-
-    return-void
+return-void
 .end method
 
 .method public transitionToState(II)V
@@ -13918,16 +13940,14 @@
     iget-object p2, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mStateCache:Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;
 
     invoke-virtual {p2, p1}, Landroidx/constraintlayout/motion/widget/MotionLayout$StateCache;->setEndState(I)V
-
-    return-void
+return-void
 
     :cond_1
     const/4 v0, -0x1
 
     .line 10
     invoke-virtual {p0, p1, v0, v0, p2}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToState(IIII)V
-
-    return-void
+return-void
 .end method
 
 .method public transitionToState(III)V
@@ -13937,8 +13957,7 @@
 
     .line 11
     invoke-virtual {p0, p1, p2, p3, v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToState(IIII)V
-
-    return-void
+return-void
 .end method
 
 .method public transitionToState(IIII)V
@@ -14521,8 +14540,7 @@
 
     .line 82
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-
-    return-void
+return-void
 .end method
 
 .method public updateState()V
@@ -14556,8 +14574,7 @@
 
     .line 10
     invoke-virtual {p0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->rebuildScene()V
-
-    return-void
+return-void
 .end method
 
 .method public updateState(ILandroidx/constraintlayout/widget/ConstraintSet;)V

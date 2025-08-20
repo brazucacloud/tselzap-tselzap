@@ -43,8 +43,7 @@
 
     .line 1
     invoke-static {p0}, Landroidx/core/app/ActivityCompat;->lambda$recreate$0(Landroid/app/Activity;)V
-
-    return-void
+return-void
 .end method
 
 .method public static finishAffinity(Landroid/app/Activity;)V

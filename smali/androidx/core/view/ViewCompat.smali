@@ -1327,8 +1327,7 @@
     check-cast p0, Landroidx/core/view/NestedScrollingChild3;
 
     invoke-interface/range {p0 .. p7}, Landroidx/core/view/NestedScrollingChild3;->dispatchNestedScroll(IIII[II[I)V
-
-    return-void
+return-void
 
     :cond_0
     move p7, p6
@@ -5468,8 +5467,7 @@
 
     .line 1
     invoke-virtual {p0}, Landroid/view/View;->postInvalidateOnAnimation()V
-
-    return-void
+return-void
 .end method
 
 .method public static postInvalidateOnAnimation(Landroid/view/View;IIII)V
@@ -8079,8 +8077,7 @@
     check-cast p0, Landroidx/core/view/NestedScrollingChild2;
 
     invoke-interface {p0, p1}, Landroidx/core/view/NestedScrollingChild2;->stopNestedScroll(I)V
-
-    return-void
+return-void
 
     :cond_0
     if-nez p1, :cond_1

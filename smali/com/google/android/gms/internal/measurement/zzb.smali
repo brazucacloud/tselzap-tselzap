@@ -23,8 +23,7 @@
     invoke-direct {v0}, Lcom/google/android/gms/internal/measurement/zzf;-><init>()V
 
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/measurement/zzb;-><init>(Lcom/google/android/gms/internal/measurement/zzf;)V
-
-    return-void
+return-void
 .end method
 
 .method private constructor <init>(Lcom/google/android/gms/internal/measurement/zzf;)V
@@ -77,8 +76,7 @@
     const-string v1, "internal.eventLogger"
 
     invoke-virtual {p1, v1, v0}, Lcom/google/android/gms/internal/measurement/zzf;->zza(Ljava/lang/String;Ljava/util/concurrent/Callable;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic zza(Lcom/google/android/gms/internal/measurement/zzb;)Lcom/google/android/gms/internal/measurement/zzal;
@@ -90,8 +88,7 @@
     iget-object p0, p0, Lcom/google/android/gms/internal/measurement/zzb;->zzc:Lcom/google/android/gms/internal/measurement/zzac;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/measurement/zzk;-><init>(Lcom/google/android/gms/internal/measurement/zzac;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static synthetic zzb(Lcom/google/android/gms/internal/measurement/zzb;)Lcom/google/android/gms/internal/measurement/zzal;
@@ -103,8 +100,7 @@
     iget-object p0, p0, Lcom/google/android/gms/internal/measurement/zzb;->zzd:Lcom/google/android/gms/internal/measurement/zzaa;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/internal/measurement/zzw;-><init>(Lcom/google/android/gms/internal/measurement/zzaa;)V
-
-    return-object v0
+return-object v0
 .end method
 
 
@@ -378,8 +374,7 @@
     iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzb;->zza:Lcom/google/android/gms/internal/measurement/zzf;
 
     invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzf;->zza(Ljava/lang/String;Ljava/util/concurrent/Callable;)V
-
-    return-void
+return-void
 .end method
 
 .method public final zza(Lcom/google/android/gms/internal/measurement/zzad;)Z

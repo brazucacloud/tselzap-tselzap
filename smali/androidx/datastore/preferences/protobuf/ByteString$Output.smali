@@ -129,7 +129,8 @@
     const/4 v1, 0x0
 
     .line 9
-    invoke-static {p1, v1, v0, v1, p2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V    return-object v0
+    invoke-static {p1, v1, v0, v1, p2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+return-object v0
 .end method
 
 .method private flushFullBuffer(I)V
@@ -742,7 +743,8 @@
     move-result-object v0
 
     .line 37
-    invoke-virtual {p1, v0}, Ljava/io/OutputStream;->write([B)V    return-void
+    invoke-virtual {p1, v0}, Ljava/io/OutputStream;->write([B)V
+return-void
 
     .line 41
     :catchall_0

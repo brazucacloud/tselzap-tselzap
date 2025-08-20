@@ -57,8 +57,7 @@
     move-object v0, p0
 
     invoke-direct/range {v0 .. v5}, Lkotlin/jvm/internal/i;-><init>(ILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
-
-    return-void
+return-void
 .end method
 
 

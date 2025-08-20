@@ -35,8 +35,7 @@
 
     .line 1
     invoke-direct {p0, p1, v0}, Lcom/google/android/gms/internal/measurement/zzed$zza;-><init>(Lcom/google/android/gms/internal/measurement/zzed;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Lcom/google/android/gms/internal/measurement/zzed;Z)V
@@ -67,8 +66,7 @@
 
     .line 5
     iput-boolean p2, p0, Lcom/google/android/gms/internal/measurement/zzed$zza;->zzc:Z
-
-    return-void
+return-void
 .end method
 
 

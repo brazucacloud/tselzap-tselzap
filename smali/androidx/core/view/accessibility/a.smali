@@ -11,8 +11,7 @@
     const/4 v0, 0x1
 
     invoke-virtual {p0, v0}, Landroid/graphics/ImageDecoder;->setAllocator(I)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic B(Landroid/view/DisplayCutout;)I
@@ -33,8 +32,7 @@
     const/4 v0, 0x0
 
     invoke-virtual {p0, v0}, Landroid/graphics/ImageDecoder;->setMemorySizePolicy(I)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic D(Landroid/view/DisplayCutout;)I
@@ -170,8 +168,7 @@
     const/4 v0, 0x3
 
     invoke-virtual {p0, v0}, Landroid/graphics/ImageDecoder;->setAllocator(I)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic m(Landroid/graphics/ImageDecoder;II)V
@@ -179,8 +176,7 @@
 
     .line 1
     invoke-virtual {p0, p1, p2}, Landroid/graphics/ImageDecoder;->setTargetSize(II)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic n(Landroid/graphics/ImageDecoder;Landroid/graphics/ColorSpace;)V
@@ -188,8 +184,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/graphics/ImageDecoder;->setTargetColorSpace(Landroid/graphics/ColorSpace;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic o(Landroid/graphics/ImageDecoder;Lq/a;)V
@@ -197,8 +192,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/graphics/ImageDecoder;->setOnPartialImageListener(Landroid/graphics/ImageDecoder$OnPartialImageListener;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic p(Landroid/view/View;)V
@@ -217,8 +211,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setTooltipText(Ljava/lang/CharSequence;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic r(Landroid/view/accessibility/AccessibilityNodeInfo;Z)V
@@ -226,8 +219,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setHeading(Z)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic s(Ljava/lang/Object;)V

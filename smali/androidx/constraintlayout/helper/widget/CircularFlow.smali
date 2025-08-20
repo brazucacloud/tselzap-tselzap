@@ -792,7 +792,8 @@
     .line 216
     .line 217
     :cond_7
-    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintHelper;->applyLayoutFeatures()V    return-void
+    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintHelper;->applyLayoutFeatures()V
+return-void
 .end method
 
 .method private removeAngle([FI)[F
@@ -1006,7 +1007,8 @@
     move-result-object p1
 
     .line 24
-    invoke-direct {p0, p1}, Landroidx/constraintlayout/helper/widget/CircularFlow;->addAngle(Ljava/lang/String;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/constraintlayout/helper/widget/CircularFlow;->addAngle(Ljava/lang/String;)V
+return-void
 
     .line 28
     :cond_1
@@ -1088,7 +1090,8 @@
     move-result-object p1
 
     .line 24
-    invoke-direct {p0, p1}, Landroidx/constraintlayout/helper/widget/CircularFlow;->addRadius(Ljava/lang/String;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/constraintlayout/helper/widget/CircularFlow;->addRadius(Ljava/lang/String;)V
+return-void
 
     .line 28
     :cond_1
@@ -1256,7 +1259,8 @@
 
     .line 66
     .line 67
-    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/CircularFlow;->anchorReferences()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/CircularFlow;->anchorReferences()V
+return-void
 .end method
 
 .method public getAngles()[F
@@ -1717,7 +1721,8 @@
     .line 48
     .line 49
     :cond_3
-    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/CircularFlow;->anchorReferences()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/CircularFlow;->anchorReferences()V
+return-void
 .end method
 
 .method public removeView(Landroid/view/View;)I
@@ -1973,7 +1978,8 @@
 
     .line 52
     .line 53
-    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/CircularFlow;->anchorReferences()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/CircularFlow;->anchorReferences()V
+return-void
 .end method
 
 .method public updateRadius(Landroid/view/View;I)V
@@ -2111,7 +2117,8 @@
 
     .line 68
     .line 69
-    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/CircularFlow;->anchorReferences()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/CircularFlow;->anchorReferences()V
+return-void
 .end method
 
 .method public updateReference(Landroid/view/View;IF)V
@@ -2286,6 +2293,7 @@
     .line 84
     .line 85
     :cond_2
-    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/CircularFlow;->anchorReferences()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/CircularFlow;->anchorReferences()V
+return-void
 .end method
 .end class

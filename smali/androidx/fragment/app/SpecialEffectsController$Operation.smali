@@ -151,7 +151,8 @@
     .line 49
     .line 50
     .line 51
-    invoke-virtual {p4, p1}, Landroidx/core/os/CancellationSignal;->setOnCancelListener(Landroidx/core/os/CancellationSignal$OnCancelListener;)V    return-void
+    invoke-virtual {p4, p1}, Landroidx/core/os/CancellationSignal;->setOnCancelListener(Landroidx/core/os/CancellationSignal$OnCancelListener;)V
+return-void
 .end method
 
 .method private static final _init_$lambda$0(Landroidx/fragment/app/SpecialEffectsController$Operation;)V
@@ -167,7 +168,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroidx/fragment/app/SpecialEffectsController$Operation;->cancel()V    return-void
+    invoke-virtual {p0}, Landroidx/fragment/app/SpecialEffectsController$Operation;->cancel()V
+return-void
 .end method
 
 .method public static synthetic a(Landroidx/fragment/app/SpecialEffectsController$Operation;)V
@@ -175,8 +177,7 @@
 
     .line 1
     invoke-static {p0}, Landroidx/fragment/app/SpecialEffectsController$Operation;->_init_$lambda$0(Landroidx/fragment/app/SpecialEffectsController$Operation;)V
-
-    return-void
+return-void
 .end method
 
 
@@ -198,7 +199,8 @@
 
     .line 7
     .line 8
-    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z    return-void
+    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+return-void
 .end method
 
 .method public final cancel()V
@@ -240,7 +242,8 @@
 
     .line 16
     .line 17
-    invoke-virtual {p0}, Landroidx/fragment/app/SpecialEffectsController$Operation;->complete()V    return-void
+    invoke-virtual {p0}, Landroidx/fragment/app/SpecialEffectsController$Operation;->complete()V
+return-void
 
     .line 21
     :cond_1

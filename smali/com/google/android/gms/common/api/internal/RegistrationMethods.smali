@@ -94,8 +94,7 @@
     const/4 v1, 0x0
 
     invoke-direct {v0, v1}, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;-><init>(Lcom/google/android/gms/common/api/internal/zacm;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .end class

@@ -43,7 +43,8 @@
     const/4 p1, 0x0
 
     .line 9
-    iput-boolean p1, p0, Landroidx/appcompat/widget/ToolbarWidgetWrapper$2;->mCanceled:Z    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/widget/ToolbarWidgetWrapper$2;->mCanceled:Z
+return-void
 .end method
 
 
@@ -55,7 +56,8 @@
     const/4 p1, 0x1
 
     .line 2
-    iput-boolean p1, p0, Landroidx/appcompat/widget/ToolbarWidgetWrapper$2;->mCanceled:Z    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/widget/ToolbarWidgetWrapper$2;->mCanceled:Z
+return-void
 .end method
 
 .method public onAnimationEnd(Landroid/view/View;)V

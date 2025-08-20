@@ -194,8 +194,7 @@
 
     .line 1
     invoke-direct/range {p0 .. p7}, Lcom/google/android/gms/measurement/internal/zzx;-><init>(Lcom/google/android/gms/measurement/internal/zzv;Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzgg$zzm;Ljava/util/BitSet;Ljava/util/BitSet;Ljava/util/Map;Ljava/util/Map;)V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Lcom/google/android/gms/measurement/internal/zzv;Ljava/lang/String;Lcom/google/android/gms/measurement/internal/zzae;)V
@@ -203,8 +202,7 @@
 
     .line 2
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/measurement/internal/zzx;-><init>(Lcom/google/android/gms/measurement/internal/zzv;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic zza(Lcom/google/android/gms/measurement/internal/zzx;)Ljava/util/BitSet;

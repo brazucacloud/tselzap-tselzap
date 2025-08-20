@@ -238,7 +238,8 @@
 
     .line 22
     .line 23
-    invoke-direct/range {v0 .. v9}, Landroidx/navigation/NavOptions;-><init>(ZZLjava/lang/String;ZZIIII)V    return-object v0
+    invoke-direct/range {v0 .. v9}, Landroidx/navigation/NavOptions;-><init>(ZZLjava/lang/String;ZZIIII)V
+return-object v0
 
     .line 27
     :cond_0
@@ -286,7 +287,8 @@
 
     .line 48
     .line 49
-    invoke-direct/range {v1 .. v10}, Landroidx/navigation/NavOptions;-><init>(ZZLv1/c;ZZIIII)V    return-object v1
+    invoke-direct/range {v1 .. v10}, Landroidx/navigation/NavOptions;-><init>(ZZLv1/c;ZZIIII)V
+return-object v1
 
     .line 53
     :cond_1
@@ -339,7 +341,8 @@
 
     .line 77
     .line 78
-    invoke-direct/range {v2 .. v11}, Landroidx/navigation/NavOptions;-><init>(ZZLjava/lang/Object;ZZIIII)V    return-object v2
+    invoke-direct/range {v2 .. v11}, Landroidx/navigation/NavOptions;-><init>(ZZLjava/lang/Object;ZZIIII)V
+return-object v2
 
     .line 82
     :cond_2
@@ -383,7 +386,8 @@
 
     .line 101
     .line 102
-    invoke-direct/range {v3 .. v12}, Landroidx/navigation/NavOptions;-><init>(ZZIZZIIII)V    return-object v3
+    invoke-direct/range {v3 .. v12}, Landroidx/navigation/NavOptions;-><init>(ZZIZZIIII)V
+return-object v3
 .end method
 
 .method public final setEnterAnim(I)Landroidx/navigation/NavOptions$Builder;
@@ -418,7 +422,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/navigation/NavOptions$Builder;->singleTop:Z    return-object p0
+    iput-boolean p1, p0, Landroidx/navigation/NavOptions$Builder;->singleTop:Z
+return-object p0
 .end method
 
 .method public final setPopEnterAnim(I)Landroidx/navigation/NavOptions$Builder;
@@ -496,8 +501,7 @@
 
     .line 9
     iput-boolean p3, p0, Landroidx/navigation/NavOptions$Builder;->popUpToSaveState:Z
-
-    return-object p0
+return-object p0
 .end method
 
 .method public final setPopUpTo(Ljava/lang/Object;Z)Landroidx/navigation/NavOptions$Builder;
@@ -614,8 +618,7 @@
 
     .line 13
     iput-boolean p3, p0, Landroidx/navigation/NavOptions$Builder;->popUpToSaveState:Z
-
-    return-object p0
+return-object p0
 .end method
 
 .method public final setPopUpTo(Lv1/c;ZZ)Landroidx/navigation/NavOptions$Builder;
@@ -652,8 +655,7 @@
 
     .line 17
     iput-boolean p3, p0, Landroidx/navigation/NavOptions$Builder;->popUpToSaveState:Z
-
-    return-object p0
+return-object p0
 .end method
 
 .method public final setPopUpTo(Z)Landroidx/navigation/NavOptions$Builder;
@@ -698,6 +700,7 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/navigation/NavOptions$Builder;->restoreState:Z    return-object p0
+    iput-boolean p1, p0, Landroidx/navigation/NavOptions$Builder;->restoreState:Z
+return-object p0
 .end method
 .end class

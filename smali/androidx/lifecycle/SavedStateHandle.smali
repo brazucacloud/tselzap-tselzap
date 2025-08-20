@@ -553,8 +553,7 @@
 
     .line 7
     invoke-interface {v0, p1}, Ljava/util/Map;->putAll(Ljava/util/Map;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic a(Landroidx/lifecycle/SavedStateHandle;)Landroid/os/Bundle;
@@ -1149,8 +1148,7 @@
     const-string v0, "null cannot be cast to non-null type androidx.lifecycle.MutableLiveData<T of androidx.lifecycle.SavedStateHandle.getLiveData>"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object p1
+return-object p1
 .end method
 
 .method public final getLiveData(Ljava/lang/String;Ljava/lang/Object;)Landroidx/lifecycle/MutableLiveData;
@@ -1295,7 +1293,8 @@
 
     .line 48
     .line 49
-    invoke-direct {p1, v1}, LC1/t;-><init>(LC1/r;)V    return-object p1
+    invoke-direct {p1, v1}, LC1/t;-><init>(LC1/r;)V
+return-object p1
 .end method
 
 .method public final keys()Ljava/util/Set;
@@ -1569,7 +1568,8 @@
 
     .line 51
     .line 52
-    invoke-virtual {p1, p2}, LC1/C;->h(Ljava/lang/Object;)V    return-void
+    invoke-virtual {p1, p2}, LC1/C;->h(Ljava/lang/Object;)V
+return-void
 
     .line 56
     :cond_3

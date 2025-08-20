@@ -77,8 +77,7 @@
     const/4 v1, 0x1
 
     invoke-direct {p0, v0, v1, v0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;-><init>(Ljava/util/List;ILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/util/List;)V
@@ -169,8 +168,7 @@
     .line 3
     :cond_0
     invoke-direct {p0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;-><init>(Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic a(Landroid/view/View;Landroid/view/GestureDetector;Landroid/view/View;Landroid/view/MotionEvent;)Z
@@ -3833,14 +3831,12 @@
 
     .line 6
     invoke-virtual {p0, v0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->moveItem(II)V
-
-    return-void
+return-void
 
     .line 7
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->insertItem(ILjava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public onAttachedToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
@@ -4285,8 +4281,7 @@
     const-string p1, "viewHolder"
 
     invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public onDragStarted(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;)V
@@ -4300,8 +4295,7 @@
     const-string p1, "viewHolder"
 
     invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public onIsDragging(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;IILandroid/graphics/Canvas;Landroid/graphics/Canvas;Z)V
@@ -4318,8 +4312,7 @@
     const-string p1, "viewHolder"
 
     invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public onIsSwiping(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;IILandroid/graphics/Canvas;Landroid/graphics/Canvas;Z)V
@@ -4336,8 +4329,7 @@
     const-string p1, "viewHolder"
 
     invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public onSwipeAnimationFinished(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;)V
@@ -4351,8 +4343,7 @@
     const-string v0, "viewHolder"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public onSwipeStarted(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;)V
@@ -4366,8 +4357,7 @@
     const-string p1, "viewHolder"
 
     invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public final removeItem(I)V

@@ -30,7 +30,8 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/navigation/NavType;-><init>(Z)V    return-void
+    invoke-direct {p0, v0}, Landroidx/navigation/NavType;-><init>(Z)V
+return-void
 .end method
 
 
@@ -111,8 +112,7 @@
     check-cast p3, Ljava/lang/String;
 
     invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/NavType$Companion$StringType$1;->put(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public put(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;)V
@@ -128,8 +128,7 @@
 
     .line 2
     invoke-virtual {p1, p2, p3}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic serializeAsValue(Ljava/lang/Object;)Ljava/lang/String;

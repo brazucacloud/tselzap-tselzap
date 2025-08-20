@@ -21,8 +21,7 @@
     .end annotation
 
     invoke-direct {p0}, Lcom/google/android/gms/common/server/response/FastJsonResponse;-><init>()V
-
-    return-void
+return-void
 .end method
 
 

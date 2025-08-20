@@ -22,8 +22,7 @@
     iput-object p1, p0, Lcom/fmark/tselzap/fragments/f;->b:Lcom/fmark/tselzap/fragments/Bot_coder;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -39,29 +38,25 @@
     iget-object v0, p0, Lcom/fmark/tselzap/fragments/f;->b:Lcom/fmark/tselzap/fragments/Bot_coder;
 
     invoke-static {v0, p1, p2}, Lcom/fmark/tselzap/fragments/Bot_coder;->o(Lcom/fmark/tselzap/fragments/Bot_coder;Landroid/widget/CompoundButton;Z)V
-
-    return-void
+return-void
 
     :pswitch_0
     iget-object v0, p0, Lcom/fmark/tselzap/fragments/f;->b:Lcom/fmark/tselzap/fragments/Bot_coder;
 
     invoke-static {v0, p1, p2}, Lcom/fmark/tselzap/fragments/Bot_coder;->n(Lcom/fmark/tselzap/fragments/Bot_coder;Landroid/widget/CompoundButton;Z)V
-
-    return-void
+return-void
 
     :pswitch_1
     iget-object v0, p0, Lcom/fmark/tselzap/fragments/f;->b:Lcom/fmark/tselzap/fragments/Bot_coder;
 
     invoke-static {v0, p1, p2}, Lcom/fmark/tselzap/fragments/Bot_coder;->i(Lcom/fmark/tselzap/fragments/Bot_coder;Landroid/widget/CompoundButton;Z)V
-
-    return-void
+return-void
 
     :pswitch_2
     iget-object v0, p0, Lcom/fmark/tselzap/fragments/f;->b:Lcom/fmark/tselzap/fragments/Bot_coder;
 
     invoke-static {v0, p1, p2}, Lcom/fmark/tselzap/fragments/Bot_coder;->h(Lcom/fmark/tselzap/fragments/Bot_coder;Landroid/widget/CompoundButton;Z)V
-
-    return-void
+return-void
 
     nop
 

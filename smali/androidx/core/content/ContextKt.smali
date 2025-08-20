@@ -74,8 +74,7 @@
     invoke-interface {p3, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     invoke-virtual {p0}, Landroid/content/res/TypedArray;->recycle()V
-
-    return-void
+return-void
 .end method
 
 .method public static final withStyledAttributes(Landroid/content/Context;Landroid/util/AttributeSet;[IIILp1/l;)V
@@ -107,8 +106,7 @@
     invoke-interface {p5, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     invoke-virtual {p0}, Landroid/content/res/TypedArray;->recycle()V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic withStyledAttributes$default(Landroid/content/Context;Landroid/util/AttributeSet;[IIILp1/l;ILjava/lang/Object;)V

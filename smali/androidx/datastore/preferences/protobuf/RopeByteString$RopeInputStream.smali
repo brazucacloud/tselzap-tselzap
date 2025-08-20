@@ -44,7 +44,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/RopeByteString$RopeInputStream;->initialize()V    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/RopeByteString$RopeInputStream;->initialize()V
+return-void
 .end method
 
 .method private advanceIfCurrentPieceFullyRead()V

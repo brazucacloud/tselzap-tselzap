@@ -218,16 +218,14 @@
     .locals 0
 
     invoke-static {p1}, Lcom/google/android/gms/common/api/internal/zada;->zan(Lcom/google/android/gms/common/api/Result;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic zag(Lcom/google/android/gms/common/api/internal/zada;Lcom/google/android/gms/common/api/Status;)V
     .locals 0
 
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/zada;->zaj(Lcom/google/android/gms/common/api/Status;)V
-
-    return-void
+return-void
 .end method
 
 .method private final zaj(Lcom/google/android/gms/common/api/Status;)V

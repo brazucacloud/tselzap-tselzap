@@ -31,8 +31,7 @@
     iget-object v0, p0, Lp0/c;->a:Lp0/b;
 
     invoke-interface {v0}, Lp0/b;->a()V
-
-    return-void
+return-void
 .end method
 
 .end class

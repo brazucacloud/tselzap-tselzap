@@ -118,7 +118,8 @@
 
     .line 11
     .line 12
-    invoke-virtual {p3, p1, p0}, Landroidx/loader/content/Loader;->registerListener(ILandroidx/loader/content/Loader$OnLoadCompleteListener;)V    return-void
+    invoke-virtual {p3, p1, p0}, Landroidx/loader/content/Loader;->registerListener(ILandroidx/loader/content/Loader$OnLoadCompleteListener;)V
+return-void
 .end method
 
 
@@ -472,7 +473,8 @@
     move-result p1
 
     .line 109
-    invoke-virtual {p3, p1}, Ljava/io/PrintWriter;->println(Z)V    return-void
+    invoke-virtual {p3, p1}, Ljava/io/PrintWriter;->println(Z)V
+return-void
 .end method
 
 .method public getLoader()Landroidx/loader/content/Loader;
@@ -626,7 +628,8 @@
 
     .line 25
     .line 26
-    invoke-virtual {v0}, Landroidx/loader/content/Loader;->startLoading()V    return-void
+    invoke-virtual {v0}, Landroidx/loader/content/Loader;->startLoading()V
+return-void
 .end method
 
 .method public onInactive()V
@@ -681,7 +684,8 @@
 
     .line 25
     .line 26
-    invoke-virtual {v0}, Landroidx/loader/content/Loader;->stopLoading()V    return-void
+    invoke-virtual {v0}, Landroidx/loader/content/Loader;->stopLoading()V
+return-void
 .end method
 
 .method public onLoadComplete(Landroidx/loader/content/Loader;Ljava/lang/Object;)V

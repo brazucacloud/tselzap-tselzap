@@ -43,7 +43,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->makeImmutable()V    return-void
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->makeImmutable()V
+return-void
 .end method
 
 .method private constructor <init>()V
@@ -56,8 +57,7 @@
 
     .line 2
     iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/MapFieldLite;->isMutable:Z
-
-    return-void
+return-void
 .end method
 
 .method private constructor <init>(Ljava/util/Map;)V
@@ -77,8 +77,7 @@
 
     .line 4
     iput-boolean p1, p0, Landroidx/datastore/preferences/protobuf/MapFieldLite;->isMutable:Z
-
-    return-void
+return-void
 .end method
 
 .method public static calculateHashCodeForMap(Ljava/util/Map;)I
@@ -589,7 +588,8 @@
     .line 2
     .line 3
     .line 4
-    invoke-super {p0}, Ljava/util/LinkedHashMap;->clear()V    return-void
+    invoke-super {p0}, Ljava/util/LinkedHashMap;->clear()V
+return-void
 .end method
 
 .method public entrySet()Ljava/util/Set;
@@ -684,7 +684,8 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/MapFieldLite;->isMutable:Z    return-void
+    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/MapFieldLite;->isMutable:Z
+return-void
 .end method
 
 .method public mergeFrom(Landroidx/datastore/preferences/protobuf/MapFieldLite;)V
@@ -751,7 +752,8 @@
 
     .line 8
     .line 9
-    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;-><init>()V    return-object v0
+    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;-><init>()V
+return-object v0
 
     .line 13
     :cond_0
@@ -759,7 +761,8 @@
 
     .line 14
     .line 15
-    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;-><init>(Ljava/util/Map;)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;-><init>(Ljava/util/Map;)V
+return-object v0
 .end method
 
 .method public put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -834,7 +837,8 @@
     .line 5
     .line 6
     .line 7
-    invoke-super {p0, p1}, Ljava/util/LinkedHashMap;->putAll(Ljava/util/Map;)V    return-void
+    invoke-super {p0, p1}, Ljava/util/LinkedHashMap;->putAll(Ljava/util/Map;)V
+return-void
 .end method
 
 .method public remove(Ljava/lang/Object;)Ljava/lang/Object;

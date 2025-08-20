@@ -2544,8 +2544,7 @@
     .line 7
     :cond_1
     invoke-virtual {p2}, Landroid/content/res/TypedArray;->recycle()V
-
-    return-void
+return-void
 .end method
 
 .method private parseMotionSceneTags(Landroid/content/Context;Lorg/xmlpull/v1/XmlPullParser;)V
@@ -2669,7 +2668,8 @@
 
     .line 55
     :cond_2
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V    return-void
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
+return-void
 .end method
 
 .method private readConstraintChain(ILandroidx/constraintlayout/motion/widget/MotionLayout;)V
@@ -2887,7 +2887,8 @@
     .line 111
     .line 112
     :goto_0
-    invoke-virtual {v0, v0}, Landroidx/constraintlayout/widget/ConstraintSet;->applyDeltaFrom(Landroidx/constraintlayout/widget/ConstraintSet;)V    return-void
+    invoke-virtual {v0, v0}, Landroidx/constraintlayout/widget/ConstraintSet;->applyDeltaFrom(Landroidx/constraintlayout/widget/ConstraintSet;)V
+return-void
 .end method
 
 .method public static stripID(Ljava/lang/String;)Ljava/lang/String;
@@ -4260,7 +4261,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/constraintlayout/motion/widget/MotionScene;->mDisableAutoTransition:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/motion/widget/MotionScene;->mDisableAutoTransition:Z
+return-void
 .end method
 
 .method public enableViewTransition(IZ)V
@@ -4722,7 +4724,8 @@
 
     .line 33
     .line 34
-    invoke-direct {v0}, Landroid/view/animation/AnticipateInterpolator;-><init>()V    return-object v0
+    invoke-direct {v0}, Landroid/view/animation/AnticipateInterpolator;-><init>()V
+return-object v0
 
     .line 38
     :cond_1
@@ -4730,7 +4733,8 @@
 
     .line 39
     .line 40
-    invoke-direct {v0}, Landroid/view/animation/OvershootInterpolator;-><init>()V    return-object v0
+    invoke-direct {v0}, Landroid/view/animation/OvershootInterpolator;-><init>()V
+return-object v0
 
     .line 44
     :cond_2
@@ -4738,7 +4742,8 @@
 
     .line 45
     .line 46
-    invoke-direct {v0}, Landroid/view/animation/BounceInterpolator;-><init>()V    return-object v0
+    invoke-direct {v0}, Landroid/view/animation/BounceInterpolator;-><init>()V
+return-object v0
 
     .line 50
     :cond_3
@@ -4746,7 +4751,8 @@
 
     .line 51
     .line 52
-    invoke-direct {v0}, Landroid/view/animation/DecelerateInterpolator;-><init>()V    return-object v0
+    invoke-direct {v0}, Landroid/view/animation/DecelerateInterpolator;-><init>()V
+return-object v0
 
     .line 56
     :cond_4
@@ -4754,7 +4760,8 @@
 
     .line 57
     .line 58
-    invoke-direct {v0}, Landroid/view/animation/AccelerateInterpolator;-><init>()V    return-object v0
+    invoke-direct {v0}, Landroid/view/animation/AccelerateInterpolator;-><init>()V
+return-object v0
 
     .line 62
     :cond_5
@@ -4762,7 +4769,8 @@
 
     .line 63
     .line 64
-    invoke-direct {v0}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V    return-object v0
+    invoke-direct {v0}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
+return-object v0
 
     .line 68
     :cond_6
@@ -4790,7 +4798,8 @@
 
     .line 79
     .line 80
-    invoke-direct {v1, p0, v0}, Landroidx/constraintlayout/motion/widget/MotionScene$1;-><init>(Landroidx/constraintlayout/motion/widget/MotionScene;Landroidx/constraintlayout/core/motion/utils/Easing;)V    return-object v1
+    invoke-direct {v1, p0, v0}, Landroidx/constraintlayout/motion/widget/MotionScene$1;-><init>(Landroidx/constraintlayout/motion/widget/MotionScene;Landroidx/constraintlayout/core/motion/utils/Easing;)V
+return-object v1
 
     .line 84
     :cond_7
@@ -6771,7 +6780,8 @@
 
     .line 193
     .line 194
-    iput-boolean v3, p0, Landroidx/constraintlayout/motion/widget/MotionScene;->mIgnoreTouch:Z    return-void
+    iput-boolean v3, p0, Landroidx/constraintlayout/motion/widget/MotionScene;->mIgnoreTouch:Z
+return-void
 
     .line 197
     :cond_7
@@ -6872,7 +6882,8 @@
 
     .line 243
     .line 244
-    invoke-virtual {p1, p2, p3}, Landroidx/constraintlayout/motion/widget/TouchResponse;->setDown(FF)V    return-void
+    invoke-virtual {p1, p2, p3}, Landroidx/constraintlayout/motion/widget/TouchResponse;->setDown(FF)V
+return-void
 
     .line 248
     :cond_9
@@ -7126,7 +7137,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V    return-void
+    invoke-virtual {v0, p1, p2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
+return-void
 .end method
 
 .method public setDuration(I)V
@@ -7141,7 +7153,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Landroidx/constraintlayout/motion/widget/MotionScene$Transition;->setDuration(I)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/constraintlayout/motion/widget/MotionScene$Transition;->setDuration(I)V
+return-void
 
     .line 9
     :cond_0

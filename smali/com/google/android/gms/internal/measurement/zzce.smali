@@ -66,8 +66,7 @@
     move-object p1, p0
 
     invoke-direct/range {p1 .. p7}, Lcom/google/android/gms/internal/measurement/zzce;-><init>(Ljava/lang/String;ZLcom/google/android/gms/internal/measurement/zzcq;Lcom/google/android/gms/internal/measurement/zzcc;Lcom/google/android/gms/internal/measurement/zzcb;Lcom/google/android/gms/internal/measurement/zzcp;)V
-
-    return-void
+return-void
 .end method
 
 

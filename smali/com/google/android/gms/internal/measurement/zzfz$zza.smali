@@ -373,16 +373,14 @@
     new-instance p1, Lcom/google/android/gms/internal/measurement/zzfz$zza$zzb;
 
     invoke-direct {p1, p2}, Lcom/google/android/gms/internal/measurement/zzfz$zza$zzb;-><init>(Lcom/google/android/gms/internal/measurement/zzge;)V
-
-    return-object p1
+return-object p1
 
     .line 16
     :pswitch_5
     new-instance p1, Lcom/google/android/gms/internal/measurement/zzfz$zza;
 
     invoke-direct {p1}, Lcom/google/android/gms/internal/measurement/zzfz$zza;-><init>()V
-
-    return-object p1
+return-object p1
 
     nop
 

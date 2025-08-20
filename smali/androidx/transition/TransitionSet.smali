@@ -130,8 +130,7 @@
 
     .line 14
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-
-    return-void
+return-void
 .end method
 
 .method private addTransitionInternal(Landroidx/transition/Transition;)V
@@ -2442,7 +2441,8 @@
     .line 10
     .line 11
     .line 12
-    invoke-virtual {p0}, Landroidx/transition/Transition;->end()V    return-void
+    invoke-virtual {p0}, Landroidx/transition/Transition;->end()V
+return-void
 
     .line 16
     :cond_0
@@ -2560,7 +2560,8 @@
 
     .line 71
     .line 72
-    invoke-virtual {v0}, Landroidx/transition/Transition;->runAnimators()V    return-void
+    invoke-virtual {v0}, Landroidx/transition/Transition;->runAnimators()V
+return-void
 
     .line 76
     :cond_2
@@ -3334,7 +3335,8 @@
     const/4 p1, 0x0
 
     .line 7
-    iput-boolean p1, p0, Landroidx/transition/TransitionSet;->mPlayTogether:Z    return-object p0
+    iput-boolean p1, p0, Landroidx/transition/TransitionSet;->mPlayTogether:Z
+return-object p0
 
     .line 10
     :cond_0
@@ -3363,7 +3365,8 @@
 
     .line 22
     :cond_1
-    iput-boolean v0, p0, Landroidx/transition/TransitionSet;->mPlayTogether:Z    return-object p0
+    iput-boolean v0, p0, Landroidx/transition/TransitionSet;->mPlayTogether:Z
+return-object p0
 .end method
 
 .method public setPathMotion(Landroidx/transition/PathMotion;)V

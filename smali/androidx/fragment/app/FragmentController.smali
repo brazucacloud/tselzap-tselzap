@@ -73,7 +73,8 @@
 
     .line 10
     .line 11
-    invoke-direct {v0, p0}, Landroidx/fragment/app/FragmentController;-><init>(Landroidx/fragment/app/FragmentHostCallback;)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/fragment/app/FragmentController;-><init>(Landroidx/fragment/app/FragmentHostCallback;)V
+return-object v0
 .end method
 
 
@@ -94,7 +95,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v1, v0, v0, p1}, Landroidx/fragment/app/FragmentManager;->attachController(Landroidx/fragment/app/FragmentHostCallback;Landroidx/fragment/app/FragmentContainer;Landroidx/fragment/app/Fragment;)V    return-void
+    invoke-virtual {v1, v0, v0, p1}, Landroidx/fragment/app/FragmentManager;->attachController(Landroidx/fragment/app/FragmentHostCallback;Landroidx/fragment/app/FragmentContainer;Landroidx/fragment/app/Fragment;)V
+return-void
 .end method
 
 .method public dispatchActivityCreated()V
@@ -109,7 +111,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchActivityCreated()V    return-void
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchActivityCreated()V
+return-void
 .end method
 
 .method public dispatchConfigurationChanged(Landroid/content/res/Configuration;)V
@@ -133,7 +136,8 @@
     const/4 v1, 0x1
 
     .line 6
-    invoke-virtual {v0, p1, v1}, Landroidx/fragment/app/FragmentManager;->dispatchConfigurationChanged(Landroid/content/res/Configuration;Z)V    return-void
+    invoke-virtual {v0, p1, v1}, Landroidx/fragment/app/FragmentManager;->dispatchConfigurationChanged(Landroid/content/res/Configuration;Z)V
+return-void
 .end method
 
 .method public dispatchContextItemSelected(Landroid/view/MenuItem;)Z
@@ -174,7 +178,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchCreate()V    return-void
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchCreate()V
+return-void
 .end method
 
 .method public dispatchCreateOptionsMenu(Landroid/view/Menu;Landroid/view/MenuInflater;)Z
@@ -221,7 +226,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchDestroy()V    return-void
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchDestroy()V
+return-void
 .end method
 
 .method public dispatchDestroyView()V
@@ -236,7 +242,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchDestroyView()V    return-void
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchDestroyView()V
+return-void
 .end method
 
 .method public dispatchLowMemory()V
@@ -256,7 +263,8 @@
     const/4 v1, 0x1
 
     .line 6
-    invoke-virtual {v0, v1}, Landroidx/fragment/app/FragmentManager;->dispatchLowMemory(Z)V    return-void
+    invoke-virtual {v0, v1}, Landroidx/fragment/app/FragmentManager;->dispatchLowMemory(Z)V
+return-void
 .end method
 
 .method public dispatchMultiWindowModeChanged(Z)V
@@ -276,7 +284,8 @@
     const/4 v1, 0x1
 
     .line 6
-    invoke-virtual {v0, p1, v1}, Landroidx/fragment/app/FragmentManager;->dispatchMultiWindowModeChanged(ZZ)V    return-void
+    invoke-virtual {v0, p1, v1}, Landroidx/fragment/app/FragmentManager;->dispatchMultiWindowModeChanged(ZZ)V
+return-void
 .end method
 
 .method public dispatchOptionsItemSelected(Landroid/view/MenuItem;)Z
@@ -325,7 +334,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Landroidx/fragment/app/FragmentManager;->dispatchOptionsMenuClosed(Landroid/view/Menu;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/fragment/app/FragmentManager;->dispatchOptionsMenuClosed(Landroid/view/Menu;)V
+return-void
 .end method
 
 .method public dispatchPause()V
@@ -340,7 +350,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchPause()V    return-void
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchPause()V
+return-void
 .end method
 
 .method public dispatchPictureInPictureModeChanged(Z)V
@@ -360,7 +371,8 @@
     const/4 v1, 0x1
 
     .line 6
-    invoke-virtual {v0, p1, v1}, Landroidx/fragment/app/FragmentManager;->dispatchPictureInPictureModeChanged(ZZ)V    return-void
+    invoke-virtual {v0, p1, v1}, Landroidx/fragment/app/FragmentManager;->dispatchPictureInPictureModeChanged(ZZ)V
+return-void
 .end method
 
 .method public dispatchPrepareOptionsMenu(Landroid/view/Menu;)Z
@@ -411,7 +423,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchResume()V    return-void
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchResume()V
+return-void
 .end method
 
 .method public dispatchStart()V
@@ -426,7 +439,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchStart()V    return-void
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchStart()V
+return-void
 .end method
 
 .method public dispatchStop()V
@@ -441,7 +455,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchStop()V    return-void
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchStop()V
+return-void
 .end method
 
 .method public doLoaderDestroy()V
@@ -670,7 +685,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->noteStateNotSaved()V    return-void
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->noteStateNotSaved()V
+return-void
 .end method
 
 .method public onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
@@ -748,8 +764,7 @@
     iget-object v0, v0, Landroidx/fragment/app/FragmentHostCallback;->mFragmentManager:Landroidx/fragment/app/FragmentManager;
 
     invoke-virtual {v0, p1, p2}, Landroidx/fragment/app/FragmentManager;->restoreAllState(Landroid/os/Parcelable;Landroidx/fragment/app/FragmentManagerNonConfig;)V
-
-    return-void
+return-void
 .end method
 
 .method public restoreAllState(Landroid/os/Parcelable;Ljava/util/List;)V
@@ -787,8 +802,7 @@
     invoke-direct {v1, p2, v2, v2}, Landroidx/fragment/app/FragmentManagerNonConfig;-><init>(Ljava/util/Collection;Ljava/util/Map;Ljava/util/Map;)V
 
     invoke-virtual {v0, p1, v1}, Landroidx/fragment/app/FragmentManager;->restoreAllState(Landroid/os/Parcelable;Landroidx/fragment/app/FragmentManagerNonConfig;)V
-
-    return-void
+return-void
 .end method
 
 .method public restoreLoaderNonConfig(Landroidx/collection/SimpleArrayMap;)V
@@ -842,7 +856,8 @@
 
     .line 8
     .line 9
-    invoke-virtual {v0, p1}, Landroidx/fragment/app/FragmentManager;->restoreSaveState(Landroid/os/Parcelable;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/fragment/app/FragmentManager;->restoreSaveState(Landroid/os/Parcelable;)V
+return-void
 
     .line 13
     :cond_0
@@ -973,7 +988,8 @@
     move-result-object v0
 
     .line 23
-    invoke-direct {v1, v0}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V    return-object v1
+    invoke-direct {v1, v0}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+return-object v1
 
     .line 27
     :cond_0

@@ -225,8 +225,7 @@
     move-result p1
 
     invoke-virtual {p0, p1, p2}, Landroidx/emoji2/text/flatbuffer/Table;->__reset(ILjava/nio/ByteBuffer;)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public static compareStrings(IILjava/nio/ByteBuffer;)I
@@ -424,8 +423,7 @@
 
     .line 8
     invoke-virtual {p0, v0, v1}, Landroidx/emoji2/text/flatbuffer/Table;->__reset(ILjava/nio/ByteBuffer;)V
-
-    return-void
+return-void
 .end method
 
 .method public __reset(ILjava/nio/ByteBuffer;)V

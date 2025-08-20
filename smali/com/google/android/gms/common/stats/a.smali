@@ -73,8 +73,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Ljavax/net/ssl/SSLParameters;->setApplicationProtocols([Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic h(Ljavax/net/ssl/SSLSocket;)V
@@ -84,8 +83,7 @@
     const/4 v0, 0x1
 
     invoke-static {p0, v0}, Landroid/net/ssl/SSLSockets;->setUseSessionTickets(Ljavax/net/ssl/SSLSocket;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic i()Z

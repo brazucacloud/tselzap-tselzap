@@ -81,7 +81,8 @@
     add-float/2addr p2, p3
 
     .line 15
-    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/motion/MotionWidget;->setRotationZ(F)V    return-void
+    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/motion/MotionWidget;->setRotationZ(F)V
+return-void
 .end method
 
 .method public setProperty(Landroidx/constraintlayout/core/motion/MotionWidget;F)V

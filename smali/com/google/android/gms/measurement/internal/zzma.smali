@@ -80,8 +80,7 @@
 
     .line 9
     invoke-virtual {v0}, Ljava/io/InputStream;->close()V
-
-    return-object p0
+return-object p0
 
     :goto_1
     if-eqz v0, :cond_1

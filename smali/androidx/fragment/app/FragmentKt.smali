@@ -9,8 +9,7 @@
 
     .line 1
     invoke-static {p0, p1, p2}, Landroidx/fragment/app/FragmentKt;->setFragmentResultListener$lambda$0(Lp1/p;Ljava/lang/String;Landroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 
 .method public static final clearFragmentResult(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
@@ -43,7 +42,8 @@
     move-result-object p0
 
     .line 15
-    invoke-virtual {p0, p1}, Landroidx/fragment/app/FragmentManager;->clearFragmentResult(Ljava/lang/String;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/fragment/app/FragmentManager;->clearFragmentResult(Ljava/lang/String;)V
+return-void
 .end method
 
 .method public static final clearFragmentResultListener(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
@@ -76,7 +76,8 @@
     move-result-object p0
 
     .line 15
-    invoke-virtual {p0, p1}, Landroidx/fragment/app/FragmentManager;->clearFragmentResultListener(Ljava/lang/String;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/fragment/app/FragmentManager;->clearFragmentResultListener(Ljava/lang/String;)V
+return-void
 .end method
 
 .method public static final setFragmentResult(Landroidx/fragment/app/Fragment;Ljava/lang/String;Landroid/os/Bundle;)V
@@ -118,7 +119,8 @@
     move-result-object p0
 
     .line 20
-    invoke-virtual {p0, p1, p2}, Landroidx/fragment/app/FragmentManager;->setFragmentResult(Ljava/lang/String;Landroid/os/Bundle;)V    return-void
+    invoke-virtual {p0, p1, p2}, Landroidx/fragment/app/FragmentManager;->setFragmentResult(Ljava/lang/String;Landroid/os/Bundle;)V
+return-void
 .end method
 
 .method public static final setFragmentResultListener(Landroidx/fragment/app/Fragment;Ljava/lang/String;Lp1/p;)V
@@ -182,7 +184,8 @@
     .line 25
     .line 26
     .line 27
-    invoke-virtual {v0, p1, p0, v1}, Landroidx/fragment/app/FragmentManager;->setFragmentResultListener(Ljava/lang/String;Landroidx/lifecycle/LifecycleOwner;Landroidx/fragment/app/FragmentResultListener;)V    return-void
+    invoke-virtual {v0, p1, p0, v1}, Landroidx/fragment/app/FragmentManager;->setFragmentResultListener(Ljava/lang/String;Landroidx/lifecycle/LifecycleOwner;Landroidx/fragment/app/FragmentResultListener;)V
+return-void
 .end method
 
 .method private static final setFragmentResultListener$lambda$0(Lp1/p;Ljava/lang/String;Landroid/os/Bundle;)V

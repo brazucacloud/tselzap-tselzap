@@ -105,8 +105,7 @@
     const/4 v1, -0x2
 
     invoke-direct {v0, v1, v1}, Landroidx/constraintlayout/widget/Constraints$LayoutParams;-><init>(II)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public bridge synthetic generateLayoutParams(Landroid/util/AttributeSet;)Landroid/view/ViewGroup$LayoutParams;
@@ -142,8 +141,7 @@
     move-result-object v1
 
     invoke-direct {v0, v1, p1}, Landroidx/constraintlayout/widget/Constraints$LayoutParams;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public getConstraintSet()Landroidx/constraintlayout/widget/ConstraintSet;

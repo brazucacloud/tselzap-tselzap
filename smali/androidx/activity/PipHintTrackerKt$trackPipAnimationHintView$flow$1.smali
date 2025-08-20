@@ -63,7 +63,8 @@
     const/4 p1, 0x2
 
     .line 4
-    invoke-direct {p0, p1, p2}, Li1/i;-><init>(ILg1/d;)V    return-void
+    invoke-direct {p0, p1, p2}, Li1/i;-><init>(ILg1/d;)V
+return-void
 .end method
 
 .method public static synthetic a(LB1/r;Landroid/view/View;IIIIIIII)V

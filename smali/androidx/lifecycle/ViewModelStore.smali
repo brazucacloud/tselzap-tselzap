@@ -102,7 +102,8 @@
 
     .line 28
     .line 29
-    invoke-interface {v0}, Ljava/util/Map;->clear()V    return-void
+    invoke-interface {v0}, Ljava/util/Map;->clear()V
+return-void
 .end method
 
 .method public final get(Ljava/lang/String;)Landroidx/lifecycle/ViewModel;
@@ -172,7 +173,8 @@
     move-result-object v1
 
     .line 9
-    invoke-direct {v0, v1}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V    return-object v0
+    invoke-direct {v0, v1}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
+return-object v0
 .end method
 
 .method public final put(Ljava/lang/String;Landroidx/lifecycle/ViewModel;)V

@@ -1232,8 +1232,7 @@
 
     .line 11
     invoke-virtual {p1, p2}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
-
-    return-object v1
+return-object v1
 .end method
 
 .method private createIconWithBackground(IIII)Landroid/graphics/Bitmap;

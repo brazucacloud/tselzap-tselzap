@@ -41,7 +41,8 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;-><init>(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;-><init>(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
+return-void
 .end method
 
 .method private ensureExtensionsAreMutable()Landroidx/datastore/preferences/protobuf/FieldSet;
@@ -205,7 +206,8 @@
     move-result-object p1
 
     .line 21
-    invoke-virtual {v0, v1, p1}, Landroidx/datastore/preferences/protobuf/FieldSet;->addRepeatedField(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;Ljava/lang/Object;)V    return-object p0
+    invoke-virtual {v0, v1, p1}, Landroidx/datastore/preferences/protobuf/FieldSet;->addRepeatedField(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;Ljava/lang/Object;)V
+return-object p0
 .end method
 
 .method public final buildPartial()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtendableMessage;
@@ -313,7 +315,8 @@
 
     .line 16
     .line 17
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/FieldSet;->clearField(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;)V    return-object p0
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/FieldSet;->clearField(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;)V
+return-object p0
 .end method
 
 .method public copyOnWrite()V
@@ -544,8 +547,7 @@
 
     .line 11
     invoke-virtual {v0, v1, p2, p1}, Landroidx/datastore/preferences/protobuf/FieldSet;->setRepeatedField(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;ILjava/lang/Object;)V
-
-    return-object p0
+return-object p0
 .end method
 
 .method public final setExtension(Landroidx/datastore/preferences/protobuf/ExtensionLite;Ljava/lang/Object;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtendableBuilder;
@@ -584,7 +586,6 @@
     move-result-object p1
 
     invoke-virtual {v0, v1, p1}, Landroidx/datastore/preferences/protobuf/FieldSet;->setField(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;Ljava/lang/Object;)V
-
-    return-object p0
+return-object p0
 .end method
 .end class

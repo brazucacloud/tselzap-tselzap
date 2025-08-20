@@ -75,8 +75,7 @@
 
     .line 1
     invoke-direct {p0, p1, v0}, Landroidx/recyclerview/widget/AdapterHelper;-><init>(Landroidx/recyclerview/widget/AdapterHelper$Callback;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/recyclerview/widget/AdapterHelper$Callback;Z)V
@@ -1020,7 +1019,8 @@
 
     .line 26
     .line 27
-    invoke-interface {v0, v1, p1}, Landroidx/recyclerview/widget/AdapterHelper$Callback;->offsetPositionsForMove(II)V    return-void
+    invoke-interface {v0, v1, p1}, Landroidx/recyclerview/widget/AdapterHelper$Callback;->offsetPositionsForMove(II)V
+return-void
 
     .line 31
     :cond_0
@@ -1111,7 +1111,8 @@
 
     .line 78
     .line 79
-    invoke-interface {v0, v1, p1}, Landroidx/recyclerview/widget/AdapterHelper$Callback;->offsetPositionsForAdd(II)V    return-void
+    invoke-interface {v0, v1, p1}, Landroidx/recyclerview/widget/AdapterHelper$Callback;->offsetPositionsForAdd(II)V
+return-void
 .end method
 
 .method private updatePositionWithPostponed(II)I
@@ -1541,7 +1542,8 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Ljava/util/Collections;->addAll(Ljava/util/Collection;[Ljava/lang/Object;)Z    return-object p0
+    invoke-static {v0, p1}, Ljava/util/Collections;->addAll(Ljava/util/Collection;[Ljava/lang/Object;)Z
+return-object p0
 .end method
 
 .method public applyPendingUpdatesToPosition(I)I
@@ -2099,7 +2101,8 @@
 
     .line 35
     .line 36
-    invoke-interface {v0, p2, p1}, Landroidx/recyclerview/widget/AdapterHelper$Callback;->offsetPositionsForRemovingInvisible(II)V    return-void
+    invoke-interface {v0, p2, p1}, Landroidx/recyclerview/widget/AdapterHelper$Callback;->offsetPositionsForRemovingInvisible(II)V
+return-void
 .end method
 
 .method public findPositionOffset(I)I
@@ -2347,7 +2350,8 @@
 
     .line 12
     .line 13
-    invoke-direct {v0, p1, p2, p3, p4}, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;-><init>(IIILjava/lang/Object;)V    return-object v0
+    invoke-direct {v0, p1, p2, p3, p4}, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;-><init>(IIILjava/lang/Object;)V
+return-object v0
 
     .line 17
     :cond_0
@@ -2798,7 +2802,8 @@
 
     .line 67
     .line 68
-    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V    return-void
+    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
+return-void
 .end method
 
 .method public recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
@@ -2886,7 +2891,8 @@
 
     .line 20
     :cond_0
-    invoke-interface {p1}, Ljava/util/List;->clear()V    return-void
+    invoke-interface {p1}, Ljava/util/List;->clear()V
+return-void
 .end method
 
 .method public reset()V

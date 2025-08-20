@@ -133,7 +133,8 @@
 
     .line 62
     .line 63
-    invoke-virtual {v0}, Landroidx/lifecycle/LifecycleCoroutineScopeImpl;->register()V    return-object v0
+    invoke-virtual {v0}, Landroidx/lifecycle/LifecycleCoroutineScopeImpl;->register()V
+return-object v0
 
     .line 67
     :cond_3

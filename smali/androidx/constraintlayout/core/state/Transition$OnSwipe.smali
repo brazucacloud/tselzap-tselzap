@@ -922,7 +922,8 @@
 
     .line 60
     .line 61
-    invoke-virtual {p2, p1, p3, v3}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine$Decelerate;->config(FFF)V    return-void
+    invoke-virtual {p2, p1, p3, v3}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine$Decelerate;->config(FFF)V
+return-void
 
     .line 65
     :cond_3
@@ -993,7 +994,8 @@
     move v4, p5
 
     .line 95
-    invoke-virtual/range {v0 .. v6}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->config(FFFFFF)V    return-void
+    invoke-virtual/range {v0 .. v6}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->config(FFFFFF)V
+return-void
 
     .line 99
     :cond_5
@@ -1065,7 +1067,8 @@
 
     .line 129
     .line 130
-    invoke-virtual/range {v0 .. v8}, Landroidx/constraintlayout/core/motion/utils/SpringStopEngine;->springConfig(FFFFFFFI)V    return-void
+    invoke-virtual/range {v0 .. v8}, Landroidx/constraintlayout/core/motion/utils/SpringStopEngine;->springConfig(FFFFFFFI)V
+return-void
 .end method
 
 .method public getDestinationPosition(FFF)F
@@ -1515,7 +1518,8 @@
     move-result-object v1
 
     .line 69
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V    return-void
+    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+return-void
 
     .line 73
     :cond_0
@@ -1709,7 +1713,8 @@
     move-result-object v1
 
     .line 175
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V    return-void
+    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+return-void
 .end method
 
 .method public setAnchorId(Ljava/lang/String;)V
@@ -1759,7 +1764,8 @@
 
     .line 9
     :goto_0
-    iput-boolean p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mDragVertical:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mDragVertical:Z
+return-void
 .end method
 
 .method public setDragScale(F)V

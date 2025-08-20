@@ -587,8 +587,7 @@
 
     .line 2
     invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/NavType;->put(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/Object;)V
-
-    return-object p3
+return-object p3
 .end method
 
 .method public final parseAndPut(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
@@ -633,8 +632,7 @@
 
     .line 5
     invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/NavType;->put(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/Object;)V
-
-    return-object p3
+return-object p3
 
     :cond_0
     return-object p4

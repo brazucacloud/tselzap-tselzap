@@ -88,8 +88,7 @@
 
     .line 1
     invoke-static {p0, p1}, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$1;->invokeSuspend$lambda-0(LB1/f;Landroidx/window/layout/WindowLayoutInfo;)V
-
-    return-void
+return-void
 .end method
 
 .method private static final invokeSuspend$lambda-0(LB1/f;Landroidx/window/layout/WindowLayoutInfo;)V

@@ -155,7 +155,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/animation/ValueAnimator;->reverse()V    return-void
+    invoke-virtual {v0}, Landroid/animation/ValueAnimator;->reverse()V
+return-void
 .end method
 
 .method public start()V
@@ -166,7 +167,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/animation/ObjectAnimator;->start()V    return-void
+    invoke-virtual {v0}, Landroid/animation/ObjectAnimator;->start()V
+return-void
 .end method
 
 .method public stop()V
@@ -177,6 +179,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/animation/Animator;->cancel()V    return-void
+    invoke-virtual {v0}, Landroid/animation/Animator;->cancel()V
+return-void
 .end method
 .end class

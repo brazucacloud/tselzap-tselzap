@@ -119,7 +119,8 @@
     .line 34
     .line 35
     .line 36
-    invoke-virtual {p0, p2}, Landroidx/recyclerview/widget/DividerItemDecoration;->setOrientation(I)V    return-void
+    invoke-virtual {p0, p2}, Landroidx/recyclerview/widget/DividerItemDecoration;->setOrientation(I)V
+return-void
 .end method
 
 .method private drawHorizontal(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;)V
@@ -328,7 +329,8 @@
 
     .line 99
     :cond_1
-    invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V    return-void
+    invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
+return-void
 .end method
 
 .method private drawVertical(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;)V
@@ -529,7 +531,8 @@
 
     .line 95
     :cond_1
-    invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V    return-void
+    invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
+return-void
 .end method
 
 
@@ -563,7 +566,8 @@
 
     .line 5
     .line 6
-    invoke-virtual {p1, p3, p3, p3, p3}, Landroid/graphics/Rect;->set(IIII)V    return-void
+    invoke-virtual {p1, p3, p3, p3, p3}, Landroid/graphics/Rect;->set(IIII)V
+return-void
 
     .line 10
     :cond_0
@@ -586,7 +590,8 @@
     move-result p2
 
     .line 19
-    invoke-virtual {p1, p3, p3, p3, p2}, Landroid/graphics/Rect;->set(IIII)V    return-void
+    invoke-virtual {p1, p3, p3, p3, p2}, Landroid/graphics/Rect;->set(IIII)V
+return-void
 
     .line 23
     :cond_1
@@ -598,7 +603,8 @@
     move-result p2
 
     .line 27
-    invoke-virtual {p1, p3, p3, p2, p3}, Landroid/graphics/Rect;->set(IIII)V    return-void
+    invoke-virtual {p1, p3, p3, p2, p3}, Landroid/graphics/Rect;->set(IIII)V
+return-void
 .end method
 
 .method public onDraw(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;)V

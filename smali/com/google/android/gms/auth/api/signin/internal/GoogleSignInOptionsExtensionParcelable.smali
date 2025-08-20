@@ -110,8 +110,7 @@
     const/4 v1, 0x1
 
     invoke-direct {p0, v1, v0, p1}, Lcom/google/android/gms/auth/api/signin/internal/GoogleSignInOptionsExtensionParcelable;-><init>(IILandroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 
 

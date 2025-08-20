@@ -29,8 +29,7 @@
     iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zacf;->zaa:Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;
 
     invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zab()V
-
-    return-void
+return-void
 .end method
 
 .end class

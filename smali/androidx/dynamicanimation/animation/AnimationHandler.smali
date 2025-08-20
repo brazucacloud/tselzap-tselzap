@@ -136,7 +136,8 @@
     const/4 v0, 0x0
 
     .line 30
-    iput-boolean v0, p0, Landroidx/dynamicanimation/animation/AnimationHandler;->mListDirty:Z    return-void
+    iput-boolean v0, p0, Landroidx/dynamicanimation/animation/AnimationHandler;->mListDirty:Z
+return-void
 .end method
 
 .method private cleanUpList()V
@@ -547,7 +548,8 @@
 
     .line 37
     :cond_2
-    invoke-direct {p0}, Landroidx/dynamicanimation/animation/AnimationHandler;->cleanUpList()V    return-void
+    invoke-direct {p0}, Landroidx/dynamicanimation/animation/AnimationHandler;->cleanUpList()V
+return-void
 .end method
 
 .method public getProvider()Landroidx/dynamicanimation/animation/AnimationHandler$AnimationFrameCallbackProvider;

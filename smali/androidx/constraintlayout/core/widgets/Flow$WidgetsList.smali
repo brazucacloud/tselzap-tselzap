@@ -3095,7 +3095,8 @@
     .line 104
     :cond_4
     :goto_2
-    invoke-direct {p0}, Landroidx/constraintlayout/core/widgets/Flow$WidgetsList;->recomputeDimensions()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/core/widgets/Flow$WidgetsList;->recomputeDimensions()V
+return-void
 .end method
 
 .method public setStartIndex(I)V

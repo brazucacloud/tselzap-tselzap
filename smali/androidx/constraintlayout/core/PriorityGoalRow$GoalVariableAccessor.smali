@@ -566,7 +566,8 @@
     const/4 v1, 0x0
 
     .line 6
-    invoke-static {v0, v1}, Ljava/util/Arrays;->fill([FF)V    return-void
+    invoke-static {v0, v1}, Ljava/util/Arrays;->fill([FF)V
+return-void
 .end method
 
 .method public toString()Ljava/lang/String;

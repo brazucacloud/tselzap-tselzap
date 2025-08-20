@@ -45,7 +45,8 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1}, Li1/c;-><init>(Lg1/d;)V    return-void
+    invoke-direct {p0, p1}, Li1/c;-><init>(Lg1/d;)V
+return-void
 .end method
 
 

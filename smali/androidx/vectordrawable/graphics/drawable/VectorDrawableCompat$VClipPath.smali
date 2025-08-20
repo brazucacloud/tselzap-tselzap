@@ -20,8 +20,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VClipPath;)V
@@ -142,7 +141,8 @@
     .line 17
     .line 18
     .line 19
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V    return-void
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
+return-void
 .end method
 
 .method public isClipPath()Z

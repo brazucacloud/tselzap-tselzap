@@ -49,8 +49,7 @@
 
     .line 1
     invoke-direct/range {v0 .. v7}, Lcom/google/android/gms/measurement/internal/zzmh;-><init>(Ljava/lang/String;Ljava/lang/String;JZJ)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;JZJ)V

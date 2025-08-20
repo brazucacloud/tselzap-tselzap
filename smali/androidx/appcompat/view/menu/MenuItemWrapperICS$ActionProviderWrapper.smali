@@ -174,7 +174,8 @@
     move-result-object p1
 
     .line 9
-    invoke-virtual {v0, p1}, Landroid/view/ActionProvider;->onPrepareSubMenu(Landroid/view/SubMenu;)V    return-void
+    invoke-virtual {v0, p1}, Landroid/view/ActionProvider;->onPrepareSubMenu(Landroid/view/SubMenu;)V
+return-void
 .end method
 
 .method public overridesItemVisibility()Z
@@ -203,7 +204,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/ActionProvider;->refreshVisibility()V    return-void
+    invoke-virtual {v0}, Landroid/view/ActionProvider;->refreshVisibility()V
+return-void
 .end method
 
 .method public setVisibilityListener(Landroidx/core/view/ActionProvider$VisibilityListener;)V

@@ -70,8 +70,7 @@
 
     .line 2
     iput-boolean v0, p0, Lcom/google/android/gms/internal/measurement/zzll;->zzb:Z
-
-    return-void
+return-void
 .end method
 
 .method private constructor <init>(Ljava/util/Map;)V
@@ -91,8 +90,7 @@
 
     .line 4
     iput-boolean p1, p0, Lcom/google/android/gms/internal/measurement/zzll;->zzb:Z
-
-    return-void
+return-void
 .end method
 
 .method private static zza(Ljava/lang/Object;)I

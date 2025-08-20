@@ -1242,7 +1242,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/constraintlayout/utils/widget/ImageFilterView;->mOverlay:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/utils/widget/ImageFilterView;->mOverlay:Z
+return-void
 .end method
 
 .method private updateViewMatrix()V
@@ -1321,7 +1322,8 @@
 
     .line 39
     :cond_0
-    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->setMatrix()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->setMatrix()V
+return-void
 .end method
 
 
@@ -1439,7 +1441,8 @@
     .line 2
     .line 3
     .line 4
-    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->setMatrix()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->setMatrix()V
+return-void
 .end method
 
 .method public setAltImageDrawable(Landroid/graphics/drawable/Drawable;)V
@@ -1768,7 +1771,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->updateViewMatrix()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->updateViewMatrix()V
+return-void
 .end method
 
 .method public setImagePanY(F)V
@@ -1779,7 +1783,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->updateViewMatrix()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->updateViewMatrix()V
+return-void
 .end method
 
 .method public setImageResource(I)V
@@ -1885,7 +1890,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->updateViewMatrix()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->updateViewMatrix()V
+return-void
 .end method
 
 .method public setImageZoom(F)V
@@ -1896,7 +1902,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->updateViewMatrix()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->updateViewMatrix()V
+return-void
 .end method
 
 .method public setRound(F)V

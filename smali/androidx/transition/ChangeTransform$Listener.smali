@@ -128,7 +128,8 @@
     const/4 p1, 0x1
 
     .line 2
-    iput-boolean p1, p0, Landroidx/transition/ChangeTransform$Listener;->mIsCanceled:Z    return-void
+    iput-boolean p1, p0, Landroidx/transition/ChangeTransform$Listener;->mIsCanceled:Z
+return-void
 .end method
 
 .method public onAnimationEnd(Landroid/animation/Animator;)V
@@ -239,7 +240,8 @@
     move-result-object p1
 
     .line 7
-    invoke-direct {p0, p1}, Landroidx/transition/ChangeTransform$Listener;->setCurrentMatrix(Landroid/graphics/Matrix;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/transition/ChangeTransform$Listener;->setCurrentMatrix(Landroid/graphics/Matrix;)V
+return-void
 .end method
 
 .method public onAnimationResume(Landroid/animation/Animator;)V

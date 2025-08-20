@@ -225,7 +225,8 @@
 
     .line 65
     .line 66
-    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V    return-object p1
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
+return-object p1
 .end method
 
 .method private static final forEachIndexedKType(LJ1/b;Ljava/util/Map;Lp1/q;)V
@@ -425,7 +426,8 @@
     .line 6
     .line 7
     :cond_0
-    invoke-static {p0, p1, p2}, Landroidx/navigation/serialization/RouteSerializerKt;->forEachIndexedKType(LJ1/b;Ljava/util/Map;Lp1/q;)V    return-void
+    invoke-static {p0, p1, p2}, Landroidx/navigation/serialization/RouteSerializerKt;->forEachIndexedKType(LJ1/b;Ljava/util/Map;Lp1/q;)V
+return-void
 .end method
 
 .method private static final forEachIndexedName(LJ1/b;Ljava/util/Map;Lp1/q;)V

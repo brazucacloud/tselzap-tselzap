@@ -38,8 +38,7 @@
 
     .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;Landroidx/datastore/preferences/protobuf/ByteString;)V
@@ -644,7 +643,8 @@
 
     .line 13
     .line 14
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/LazyFieldLite;->set(Landroidx/datastore/preferences/protobuf/LazyFieldLite;)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/LazyFieldLite;->set(Landroidx/datastore/preferences/protobuf/LazyFieldLite;)V
+return-void
 
     .line 18
     :cond_1
@@ -832,7 +832,8 @@
     move-result-object p1
 
     .line 11
-    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/LazyFieldLite;->setByteString(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V    return-void
+    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/LazyFieldLite;->setByteString(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
+return-void
 
     .line 15
     :cond_0
@@ -877,7 +878,8 @@
 
     .line 34
     .line 35
-    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/LazyFieldLite;->setByteString(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V    return-void
+    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/LazyFieldLite;->setByteString(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
+return-void
 
     .line 39
     :cond_2
@@ -1137,7 +1139,8 @@
 
     .line 6
     .line 7
-    invoke-interface {p1, p2, v0}, Landroidx/datastore/preferences/protobuf/Writer;->writeBytes(ILandroidx/datastore/preferences/protobuf/ByteString;)V    return-void
+    invoke-interface {p1, p2, v0}, Landroidx/datastore/preferences/protobuf/Writer;->writeBytes(ILandroidx/datastore/preferences/protobuf/ByteString;)V
+return-void
 
     .line 11
     :cond_0
@@ -1149,7 +1152,8 @@
 
     .line 14
     .line 15
-    invoke-interface {p1, p2, v0}, Landroidx/datastore/preferences/protobuf/Writer;->writeBytes(ILandroidx/datastore/preferences/protobuf/ByteString;)V    return-void
+    invoke-interface {p1, p2, v0}, Landroidx/datastore/preferences/protobuf/Writer;->writeBytes(ILandroidx/datastore/preferences/protobuf/ByteString;)V
+return-void
 
     .line 19
     :cond_1
@@ -1165,7 +1169,8 @@
 
     .line 24
     .line 25
-    invoke-interface {p1, p2, v0}, Landroidx/datastore/preferences/protobuf/Writer;->writeMessage(ILjava/lang/Object;)V    return-void
+    invoke-interface {p1, p2, v0}, Landroidx/datastore/preferences/protobuf/Writer;->writeMessage(ILjava/lang/Object;)V
+return-void
 
     .line 29
     :cond_2
@@ -1173,6 +1178,7 @@
 
     .line 30
     .line 31
-    invoke-interface {p1, p2, v0}, Landroidx/datastore/preferences/protobuf/Writer;->writeBytes(ILandroidx/datastore/preferences/protobuf/ByteString;)V    return-void
+    invoke-interface {p1, p2, v0}, Landroidx/datastore/preferences/protobuf/Writer;->writeBytes(ILandroidx/datastore/preferences/protobuf/ByteString;)V
+return-void
 .end method
 .end class

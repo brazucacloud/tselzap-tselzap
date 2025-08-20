@@ -98,7 +98,8 @@
 
     .line 21
     .line 22
-    invoke-virtual {p0, p1}, LC1/C;->h(Ljava/lang/Object;)V    return-void
+    invoke-virtual {p0, p1}, LC1/C;->h(Ljava/lang/Object;)V
+return-void
 .end method
 
 .method public static synthetic a(LC1/C;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
@@ -106,8 +107,7 @@
 
     .line 1
     invoke-static {p0, p1, p2}, Landroidx/lifecycle/Lifecycle;->_get_currentStateFlow_$lambda$0(LC1/r;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
-
-    return-void
+return-void
 .end method
 
 
@@ -169,7 +169,8 @@
 
     .line 19
     .line 20
-    invoke-direct {v1, v0}, LC1/t;-><init>(LC1/r;)V    return-object v1
+    invoke-direct {v1, v0}, LC1/t;-><init>(LC1/r;)V
+return-object v1
 .end method
 
 .method public final getInternalScopeRef()Ljava/util/concurrent/atomic/AtomicReference;

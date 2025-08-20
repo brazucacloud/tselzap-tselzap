@@ -89,7 +89,8 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$SerializedForm;-><init>(Landroidx/datastore/preferences/protobuf/MessageLite;)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$SerializedForm;-><init>(Landroidx/datastore/preferences/protobuf/MessageLite;)V
+return-object v0
 .end method
 
 .method private readResolveFallback()Ljava/lang/Object;

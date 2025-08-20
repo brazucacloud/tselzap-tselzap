@@ -168,8 +168,7 @@
     const-wide/16 v2, 0x7d0
 
     invoke-virtual {p1, p2, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
-
-    return-void
+return-void
 .end method
 
 .end class

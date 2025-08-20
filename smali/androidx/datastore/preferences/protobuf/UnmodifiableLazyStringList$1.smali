@@ -88,8 +88,7 @@
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;->add(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public add(Ljava/lang/String;)V
@@ -249,8 +248,7 @@
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;->set(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public set(Ljava/lang/String;)V

@@ -53,7 +53,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, p1}, Landroidx/collection/ScatterMap$MapWrapper;-><init>(Landroidx/collection/ScatterMap;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/collection/ScatterMap$MapWrapper;-><init>(Landroidx/collection/ScatterMap;)V
+return-void
 .end method
 
 
@@ -66,7 +67,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/collection/MutableScatterMap;->clear()V    return-void
+    invoke-virtual {v0}, Landroidx/collection/MutableScatterMap;->clear()V
+return-void
 .end method
 
 .method public getEntries()Ljava/util/Set;
@@ -89,7 +91,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/collection/MutableScatterMap$MutableMapWrapper$entries$1;-><init>(Landroidx/collection/MutableScatterMap;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/collection/MutableScatterMap$MutableMapWrapper$entries$1;-><init>(Landroidx/collection/MutableScatterMap;)V
+return-object v0
 .end method
 
 .method public getKeys()Ljava/util/Set;
@@ -111,7 +114,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/collection/MutableScatterMap$MutableMapWrapper$keys$1;-><init>(Landroidx/collection/MutableScatterMap;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/collection/MutableScatterMap$MutableMapWrapper$keys$1;-><init>(Landroidx/collection/MutableScatterMap;)V
+return-object v0
 .end method
 
 .method public getValues()Ljava/util/Collection;
@@ -133,7 +137,8 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/collection/MutableScatterMap$MutableMapWrapper$values$1;-><init>(Landroidx/collection/MutableScatterMap;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/collection/MutableScatterMap$MutableMapWrapper$values$1;-><init>(Landroidx/collection/MutableScatterMap;)V
+return-object v0
 .end method
 
 .method public put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;

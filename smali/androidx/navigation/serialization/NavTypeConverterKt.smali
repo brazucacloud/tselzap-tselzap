@@ -295,7 +295,8 @@
     .line 42
     .line 43
     .line 44
-    invoke-direct {v0, p0}, Landroidx/navigation/serialization/InternalNavType$EnumNullableType;-><init>(Ljava/lang/Class;)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/navigation/serialization/InternalNavType$EnumNullableType;-><init>(Ljava/lang/Class;)V
+return-object v0
 
     .line 48
     :cond_0
@@ -369,7 +370,8 @@
     .line 84
     .line 85
     .line 86
-    invoke-direct {v0, p0}, Landroidx/navigation/serialization/InternalNavType$EnumListType;-><init>(Ljava/lang/Class;)V    return-object v0
+    invoke-direct {v0, p0}, Landroidx/navigation/serialization/InternalNavType$EnumListType;-><init>(Ljava/lang/Class;)V
+return-object v0
 
     .line 90
     :pswitch_3

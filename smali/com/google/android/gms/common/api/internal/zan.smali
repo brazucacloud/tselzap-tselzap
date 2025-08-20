@@ -18,8 +18,7 @@
     iput-object p2, p0, Lcom/google/android/gms/common/api/internal/zan;->zaa:Landroid/app/Dialog;
 
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/zabw;-><init>()V
-
-    return-void
+return-void
 .end method
 
 

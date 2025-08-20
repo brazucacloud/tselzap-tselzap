@@ -307,8 +307,7 @@
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Lcom/google/android/gms/common/internal/zak;->zae:Z
-
-    return-void
+return-void
 .end method
 
 .method public final zac(Lcom/google/android/gms/common/ConnectionResult;)V

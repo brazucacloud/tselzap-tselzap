@@ -96,8 +96,7 @@
     const/4 p2, 0x0
 
     invoke-direct {p0, p1, p2, p3}, Lcom/google/android/gms/common/api/GoogleApi$Settings;-><init>(Lcom/google/android/gms/common/api/internal/StatusExceptionMapper;Landroid/accounts/Account;Landroid/os/Looper;)V
-
-    return-void
+return-void
 .end method
 
 .end class

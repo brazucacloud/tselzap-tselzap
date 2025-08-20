@@ -104,8 +104,7 @@
     new-instance v0, Landroid/view/ContentInfo$Builder;
 
     invoke-direct {v0, p0, p1}, Landroid/view/ContentInfo$Builder;-><init>(Landroid/content/ClipData;I)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static synthetic k(Landroid/view/ContentInfo;)Landroid/view/ContentInfo$Builder;
@@ -115,8 +114,7 @@
     new-instance v0, Landroid/view/ContentInfo$Builder;
 
     invoke-direct {v0, p0}, Landroid/view/ContentInfo$Builder;-><init>(Landroid/view/ContentInfo;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic l(Landroid/view/ContentInfo$Builder;)Landroid/view/ContentInfo;
@@ -177,8 +175,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/app/Notification$CallStyle;->setBuilder(Landroid/app/Notification$Builder;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic r(Landroid/view/ContentInfo$Builder;I)V

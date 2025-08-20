@@ -159,8 +159,7 @@
 
     .line 13
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-
-    return-void
+return-void
 .end method
 
 .method private addContentView(Landroid/view/View;)V
@@ -822,7 +821,8 @@
     .line 30
     .line 31
     :cond_0
-    invoke-super {p0, p1, p2}, Landroid/widget/LinearLayout;->onMeasure(II)V    return-void
+    invoke-super {p0, p1, p2}, Landroid/widget/LinearLayout;->onMeasure(II)V
+return-void
 .end method
 
 .method public prefersCondensedTitle()Z
@@ -1085,7 +1085,8 @@
     .line 27
     .line 28
     :goto_0
-    invoke-virtual {v0, p1}, Landroid/widget/CompoundButton;->setChecked(Z)V    return-void
+    invoke-virtual {v0, p1}, Landroid/widget/CompoundButton;->setChecked(Z)V
+return-void
 .end method
 
 .method public setForceShowIcon(Z)V
@@ -1096,7 +1097,8 @@
 
     .line 2
     .line 3
-    iput-boolean p1, p0, Landroidx/appcompat/view/menu/ListMenuItemView;->mPreserveIconSpacing:Z    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/view/menu/ListMenuItemView;->mPreserveIconSpacing:Z
+return-void
 .end method
 
 .method public setGroupDividerEnabled(Z)V

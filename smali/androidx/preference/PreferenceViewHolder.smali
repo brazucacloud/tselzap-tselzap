@@ -381,13 +381,15 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/preference/PreferenceViewHolder;->mDividerAllowedAbove:Z    return-void
+    iput-boolean p1, p0, Landroidx/preference/PreferenceViewHolder;->mDividerAllowedAbove:Z
+return-void
 .end method
 
 .method public setDividerAllowedBelow(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/preference/PreferenceViewHolder;->mDividerAllowedBelow:Z    return-void
+    iput-boolean p1, p0, Landroidx/preference/PreferenceViewHolder;->mDividerAllowedBelow:Z
+return-void
 .end method
 .end class

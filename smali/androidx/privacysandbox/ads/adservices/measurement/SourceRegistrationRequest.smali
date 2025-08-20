@@ -70,8 +70,7 @@
     .line 3
     :cond_0
     invoke-direct {p0, p1, p2}, Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest;-><init>(Ljava/util/List;Landroid/view/InputEvent;)V
-
-    return-void
+return-void
 .end method
 
 

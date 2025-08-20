@@ -583,8 +583,7 @@
 
     .line 105
     invoke-virtual {p0, p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setDebugName(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method private addHorizontalChain(Landroidx/constraintlayout/core/widgets/ConstraintWidget;)V
@@ -1274,7 +1273,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;->addHorizontalChain(Landroidx/constraintlayout/core/widgets/ConstraintWidget;)V    return-void
+    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;->addHorizontalChain(Landroidx/constraintlayout/core/widgets/ConstraintWidget;)V
+return-void
 
     .line 7
     :cond_0
@@ -2383,7 +2383,8 @@
     move-result-object v2
 
     .line 11
-    invoke-virtual {v0, v1, v2}, Landroidx/constraintlayout/core/widgets/analyzer/DependencyGraph;->defineTerminalWidgets(Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;)V    return-void
+    invoke-virtual {v0, v1, v2}, Landroidx/constraintlayout/core/widgets/analyzer/DependencyGraph;->defineTerminalWidgets(Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;)V
+return-void
 .end method
 
 .method public directMeasure(Z)Z
@@ -2452,7 +2453,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/LinearSystem;->fillMetrics(Landroidx/constraintlayout/core/Metrics;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/LinearSystem;->fillMetrics(Landroidx/constraintlayout/core/Metrics;)V
+return-void
 .end method
 
 .method public getHorizontalGuidelines()Ljava/util/ArrayList;
@@ -2892,7 +2894,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/constraintlayout/core/widgets/analyzer/DependencyGraph;->invalidateGraph()V    return-void
+    invoke-virtual {v0}, Landroidx/constraintlayout/core/widgets/analyzer/DependencyGraph;->invalidateGraph()V
+return-void
 .end method
 
 .method public invalidateMeasures()V
@@ -2903,7 +2906,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/constraintlayout/core/widgets/analyzer/DependencyGraph;->invalidateMeasures()V    return-void
+    invoke-virtual {v0}, Landroidx/constraintlayout/core/widgets/analyzer/DependencyGraph;->invalidateMeasures()V
+return-void
 .end method
 
 .method public isHeightMeasuredTooSmall()Z
@@ -4827,7 +4831,8 @@
 
     .line 16
     .line 17
-    invoke-super {p0}, Landroidx/constraintlayout/core/widgets/WidgetContainer;->reset()V    return-void
+    invoke-super {p0}, Landroidx/constraintlayout/core/widgets/WidgetContainer;->reset()V
+return-void
 .end method
 
 .method public setMeasurer(Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure$Measurer;)V
@@ -4842,7 +4847,8 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/analyzer/DependencyGraph;->setMeasurer(Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure$Measurer;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/analyzer/DependencyGraph;->setMeasurer(Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure$Measurer;)V
+return-void
 .end method
 
 .method public setOptimizationLevel(I)V
@@ -4898,7 +4904,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;->mIsRtl:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;->mIsRtl:Z
+return-void
 .end method
 
 .method public updateChildrenFromSolver(Landroidx/constraintlayout/core/LinearSystem;[Z)Z
@@ -5069,6 +5076,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0}, Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure;->updateHierarchy(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;)V    return-void
+    invoke-virtual {v0, p0}, Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure;->updateHierarchy(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;)V
+return-void
 .end method
 .end class

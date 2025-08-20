@@ -98,8 +98,7 @@
 
     .line 14
     invoke-direct {p0, p1, v1}, Landroidx/constraintlayout/utils/widget/ImageFilterButton;->init(Landroid/content/Context;Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -162,8 +161,7 @@
 
     .line 28
     invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/utils/widget/ImageFilterButton;->init(Landroid/content/Context;Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -226,8 +224,7 @@
 
     .line 42
     invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/utils/widget/ImageFilterButton;->init(Landroid/content/Context;Landroid/util/AttributeSet;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic access$000(Landroidx/constraintlayout/utils/widget/ImageFilterButton;)F
@@ -792,7 +789,8 @@
 
     .line 265
     .line 266
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/AppCompatImageButton;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V    return-void
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/AppCompatImageButton;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+return-void
 
     .line 270
     :cond_d
@@ -1213,7 +1211,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/constraintlayout/utils/widget/ImageFilterButton;->mOverlay:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/utils/widget/ImageFilterButton;->mOverlay:Z
+return-void
 .end method
 
 .method private updateViewMatrix()V
@@ -1292,7 +1291,8 @@
 
     .line 39
     :cond_0
-    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterButton;->setMatrix()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterButton;->setMatrix()V
+return-void
 .end method
 
 
@@ -1305,7 +1305,8 @@
     .end param
 
     .line 1
-    invoke-super {p0, p1}, Landroid/widget/ImageButton;->draw(Landroid/graphics/Canvas;)V    return-void
+    invoke-super {p0, p1}, Landroid/widget/ImageButton;->draw(Landroid/graphics/Canvas;)V
+return-void
 .end method
 
 .method public getContrast()F
@@ -1399,7 +1400,8 @@
     .line 2
     .line 3
     .line 4
-    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterButton;->setMatrix()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterButton;->setMatrix()V
+return-void
 .end method
 
 .method public setAltImageResource(I)V
@@ -1482,7 +1484,8 @@
 
     .line 38
     .line 39
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/utils/widget/ImageFilterButton;->setCrossfade(F)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/utils/widget/ImageFilterButton;->setCrossfade(F)V
+return-void
 .end method
 
 .method public setBrightness(F)V
@@ -1702,11 +1705,13 @@
 
     .line 36
     .line 37
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/utils/widget/ImageFilterButton;->setCrossfade(F)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/utils/widget/ImageFilterButton;->setCrossfade(F)V
+return-void
 
     .line 41
     :cond_0
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/AppCompatImageButton;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V    return-void
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/AppCompatImageButton;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+return-void
 .end method
 
 .method public setImagePanX(F)V
@@ -1717,7 +1722,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterButton;->updateViewMatrix()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterButton;->updateViewMatrix()V
+return-void
 .end method
 
 .method public setImagePanY(F)V
@@ -1728,7 +1734,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterButton;->updateViewMatrix()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterButton;->updateViewMatrix()V
+return-void
 .end method
 
 .method public setImageResource(I)V
@@ -1819,11 +1826,13 @@
 
     .line 42
     .line 43
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/utils/widget/ImageFilterButton;->setCrossfade(F)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/utils/widget/ImageFilterButton;->setCrossfade(F)V
+return-void
 
     .line 47
     :cond_0
-    invoke-super {p0, p1}, Landroidx/appcompat/widget/AppCompatImageButton;->setImageResource(I)V    return-void
+    invoke-super {p0, p1}, Landroidx/appcompat/widget/AppCompatImageButton;->setImageResource(I)V
+return-void
 .end method
 
 .method public setImageRotate(F)V
@@ -1834,7 +1843,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterButton;->updateViewMatrix()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterButton;->updateViewMatrix()V
+return-void
 .end method
 
 .method public setImageZoom(F)V
@@ -1845,7 +1855,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterButton;->updateViewMatrix()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterButton;->updateViewMatrix()V
+return-void
 .end method
 
 .method public setRound(F)V
@@ -1883,7 +1894,8 @@
 
     .line 14
     .line 15
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/utils/widget/ImageFilterButton;->setRoundPercent(F)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/utils/widget/ImageFilterButton;->setRoundPercent(F)V
+return-void
 
     .line 19
     :cond_0

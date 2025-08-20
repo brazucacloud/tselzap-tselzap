@@ -378,8 +378,7 @@
     check-cast p3, Ljava/util/List;
 
     invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/serialization/InternalNavType$EnumListType;->put(Landroid/os/Bundle;Ljava/lang/String;Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method public put(Landroid/os/Bundle;Ljava/lang/String;Ljava/util/List;)V
@@ -418,8 +417,7 @@
 
     :goto_0
     invoke-virtual {p1, p2, v0}, Landroid/os/Bundle;->putSerializable(Ljava/lang/String;Ljava/io/Serializable;)V
-
-    return-void
+return-void
 .end method
 
 .method public bridge synthetic serializeAsValues(Ljava/lang/Object;)Ljava/util/List;

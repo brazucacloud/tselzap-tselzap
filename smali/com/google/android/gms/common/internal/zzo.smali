@@ -104,8 +104,7 @@
     const/4 p1, 0x0
 
     iput-boolean p1, p0, Lcom/google/android/gms/common/internal/zzo;->zzf:Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/String;IZ)V
@@ -119,8 +118,7 @@
     const-string v0, "com.google.android.gms"
 
     invoke-direct {p0, p1, v0, p2, p3}, Lcom/google/android/gms/common/internal/zzo;-><init>(Ljava/lang/String;Ljava/lang/String;IZ)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;IZ)V
@@ -147,8 +145,7 @@
     iput p1, p0, Lcom/google/android/gms/common/internal/zzo;->zze:I
 
     iput-boolean p4, p0, Lcom/google/android/gms/common/internal/zzo;->zzf:Z
-
-    return-void
+return-void
 .end method
 
 

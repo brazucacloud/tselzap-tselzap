@@ -127,8 +127,7 @@
 
     .line 1
     invoke-static {p0, p1, p2}, Landroidx/profileinstaller/ProfileInstaller;->lambda$result$0(Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;ILjava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic b(Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;ILjava/lang/Object;)V
@@ -136,8 +135,7 @@
 
     .line 1
     invoke-static {p0, p1, p2}, Landroidx/profileinstaller/ProfileInstaller;->lambda$diagnostic$1(Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;ILjava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public static deleteProfileWrittenFor(Ljava/io/File;)Z
@@ -742,8 +740,7 @@
     sget-object v1, Landroidx/profileinstaller/ProfileInstaller;->EMPTY_DIAGNOSTICS:Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;
 
     invoke-static {p0, v0, v1}, Landroidx/profileinstaller/ProfileInstaller;->writeProfile(Landroid/content/Context;Ljava/util/concurrent/Executor;Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;)V
-
-    return-void
+return-void
 .end method
 
 .method public static writeProfile(Landroid/content/Context;Ljava/util/concurrent/Executor;Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;)V
@@ -767,8 +764,7 @@
 
     .line 2
     invoke-static {p0, p1, p2, v0}, Landroidx/profileinstaller/ProfileInstaller;->writeProfile(Landroid/content/Context;Ljava/util/concurrent/Executor;Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public static writeProfile(Landroid/content/Context;Ljava/util/concurrent/Executor;Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;Z)V

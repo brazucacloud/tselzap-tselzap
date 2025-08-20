@@ -279,8 +279,7 @@
     .line 20
     :goto_0
     invoke-virtual {p1, p0}, Landroidx/core/view/WindowInsetsCompat$Impl;->copyWindowDataInto(Landroidx/core/view/WindowInsetsCompat;)V
-
-    return-void
+return-void
 
     .line 21
     :cond_5

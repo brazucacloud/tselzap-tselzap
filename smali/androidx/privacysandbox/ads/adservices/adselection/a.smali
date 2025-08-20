@@ -9,8 +9,7 @@
 
     .line 1
     invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/adselection/AdSelectionManager;->persistAdSelectionResult(Landroid/adservices/adselection/PersistAdSelectionResultRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic B(Landroid/adservices/adselection/AdSelectionManager;Landroid/adservices/adselection/ReportEventRequest;Landroidx/arch/core/executor/a;Landroid/os/OutcomeReceiver;)V
@@ -18,8 +17,7 @@
 
     .line 1
     invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/adselection/AdSelectionManager;->reportEvent(Landroid/adservices/adselection/ReportEventRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic C(Landroid/adservices/adselection/AdSelectionManager;Landroid/adservices/adselection/UpdateAdCounterHistogramRequest;Landroidx/arch/core/executor/a;Landroid/os/OutcomeReceiver;)V
@@ -27,8 +25,7 @@
 
     .line 1
     invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/adselection/AdSelectionManager;->updateAdCounterHistogram(Landroid/adservices/adselection/UpdateAdCounterHistogramRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic D(Landroid/adservices/adselection/GetAdSelectionDataOutcome;)[B
@@ -60,8 +57,7 @@
     new-instance v0, Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;
 
     invoke-direct {v0}, Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;-><init>()V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic c(Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;Landroid/adservices/common/AdSelectionSignals;)Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;
@@ -135,8 +131,7 @@
     new-instance v0, Landroid/adservices/adselection/GetAdSelectionDataRequest$Builder;
 
     invoke-direct {v0}, Landroid/adservices/adselection/GetAdSelectionDataRequest$Builder;-><init>()V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic j(Landroid/adservices/adselection/GetAdSelectionDataRequest$Builder;Landroid/adservices/common/AdTechIdentifier;)Landroid/adservices/adselection/GetAdSelectionDataRequest$Builder;
@@ -179,8 +174,7 @@
     new-instance v0, Landroid/adservices/adselection/PersistAdSelectionResultRequest$Builder;
 
     invoke-direct {v0}, Landroid/adservices/adselection/PersistAdSelectionResultRequest$Builder;-><init>()V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic n(Landroid/adservices/adselection/PersistAdSelectionResultRequest$Builder;J)Landroid/adservices/adselection/PersistAdSelectionResultRequest$Builder;
@@ -242,8 +236,7 @@
     move v5, p4
 
     invoke-direct/range {v0 .. v5}, Landroid/adservices/adselection/ReportEventRequest$Builder;-><init>(JLjava/lang/String;Ljava/lang/String;I)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic s(Landroid/adservices/adselection/ReportEventRequest$Builder;Landroid/view/InputEvent;)Landroid/adservices/adselection/ReportEventRequest$Builder;
@@ -275,8 +268,7 @@
     new-instance v0, Landroid/adservices/adselection/ReportImpressionRequest;
 
     invoke-direct {v0, p0, p1}, Landroid/adservices/adselection/ReportImpressionRequest;-><init>(J)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static synthetic v(JILandroid/adservices/common/AdTechIdentifier;)Landroid/adservices/adselection/UpdateAdCounterHistogramRequest$Builder;
@@ -286,8 +278,7 @@
     new-instance v0, Landroid/adservices/adselection/UpdateAdCounterHistogramRequest$Builder;
 
     invoke-direct {v0, p0, p1, p2, p3}, Landroid/adservices/adselection/UpdateAdCounterHistogramRequest$Builder;-><init>(JILandroid/adservices/common/AdTechIdentifier;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static bridge synthetic w(Landroid/adservices/adselection/UpdateAdCounterHistogramRequest$Builder;)Landroid/adservices/adselection/UpdateAdCounterHistogramRequest;
@@ -315,8 +306,7 @@
 
     .line 1
     invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/adselection/AdSelectionManager;->selectAds(Landroid/adservices/adselection/AdSelectionFromOutcomesConfig;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic z(Landroid/adservices/adselection/AdSelectionManager;Landroid/adservices/adselection/GetAdSelectionDataRequest;Landroidx/arch/core/executor/a;Landroid/os/OutcomeReceiver;)V
@@ -324,7 +314,6 @@
 
     .line 1
     invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/adselection/AdSelectionManager;->getAdSelectionData(Landroid/adservices/adselection/GetAdSelectionDataRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
-
-    return-void
+return-void
 .end method
 .end class

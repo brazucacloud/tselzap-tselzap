@@ -44,7 +44,8 @@
 
     .line 2
     .line 3
-    invoke-interface {v0}, Landroid/graphics/drawable/Animatable;->start()V    return-void
+    invoke-interface {v0}, Landroid/graphics/drawable/Animatable;->start()V
+return-void
 .end method
 
 .method public stop()V
@@ -55,6 +56,7 @@
 
     .line 2
     .line 3
-    invoke-interface {v0}, Landroid/graphics/drawable/Animatable;->stop()V    return-void
+    invoke-interface {v0}, Landroid/graphics/drawable/Animatable;->stop()V
+return-void
 .end method
 .end class

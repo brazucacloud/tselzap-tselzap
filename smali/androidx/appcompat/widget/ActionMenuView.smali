@@ -1927,7 +1927,8 @@
     const/4 v1, 0x1
 
     .line 6
-    iput-boolean v1, v0, Landroidx/appcompat/widget/ActionMenuView$LayoutParams;->isOverflowButton:Z    return-object v0
+    iput-boolean v1, v0, Landroidx/appcompat/widget/ActionMenuView$LayoutParams;->isOverflowButton:Z
+return-object v0
 .end method
 
 .method public getMenu()Landroid/view/Menu;
@@ -2438,7 +2439,8 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroidx/appcompat/widget/ActionMenuView;->dismissPopupMenus()V    return-void
+    invoke-virtual {p0}, Landroidx/appcompat/widget/ActionMenuView;->dismissPopupMenus()V
+return-void
 .end method
 
 .method public onLayout(ZIIII)V
@@ -2457,7 +2459,8 @@
 
     .line 6
     .line 7
-    invoke-super/range {p0 .. p5}, Landroidx/appcompat/widget/LinearLayoutCompat;->onLayout(ZIIII)V    return-void
+    invoke-super/range {p0 .. p5}, Landroidx/appcompat/widget/LinearLayoutCompat;->onLayout(ZIIII)V
+return-void
 
     .line 11
     :cond_0
@@ -3284,7 +3287,8 @@
 
     .line 77
     :cond_4
-    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/LinearLayoutCompat;->onMeasure(II)V    return-void
+    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/LinearLayoutCompat;->onMeasure(II)V
+return-void
 .end method
 
 .method public peekMenu()Landroidx/appcompat/view/menu/MenuBuilder;
@@ -3355,7 +3359,8 @@
 
     .line 5
     .line 6
-    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/ActionMenuPresenter;->setOverflowIcon(Landroid/graphics/drawable/Drawable;)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/ActionMenuPresenter;->setOverflowIcon(Landroid/graphics/drawable/Drawable;)V
+return-void
 .end method
 
 .method public setOverflowReserved(Z)V
@@ -3367,7 +3372,8 @@
     .end annotation
 
     .line 1
-    iput-boolean p1, p0, Landroidx/appcompat/widget/ActionMenuView;->mReserveOverflow:Z    return-void
+    iput-boolean p1, p0, Landroidx/appcompat/widget/ActionMenuView;->mReserveOverflow:Z
+return-void
 .end method
 
 .method public setPopupTheme(I)V

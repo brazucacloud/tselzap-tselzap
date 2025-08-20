@@ -33,7 +33,8 @@
 
     .line 4
     .line 5
-    invoke-direct {p0}, Landroid/transition/Transition$EpicenterCallback;-><init>()V    return-void
+    invoke-direct {p0}, Landroid/transition/Transition$EpicenterCallback;-><init>()V
+return-void
 .end method
 
 

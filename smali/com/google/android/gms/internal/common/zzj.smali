@@ -35,8 +35,7 @@
 
     .line 2
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/internal/common/zzj;-><init>(Ljava/lang/Class;Ljava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public static zzb(Ljava/lang/Class;Ljava/lang/Object;)Lcom/google/android/gms/internal/common/zzj;
@@ -49,8 +48,7 @@
     new-instance v0, Lcom/google/android/gms/internal/common/zzj;
 
     invoke-direct {v0, p0, p1}, Lcom/google/android/gms/internal/common/zzj;-><init>(Ljava/lang/Class;Ljava/lang/Object;)V
-
-    return-object v0
+return-object v0
 .end method
 
 

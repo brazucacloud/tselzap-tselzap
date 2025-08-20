@@ -368,21 +368,24 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/FrameLayout;->setPadding(IIII)V    return-void
+    invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/FrameLayout;->setPadding(IIII)V
+return-void
 .end method
 
 .method public static synthetic access$101(Landroidx/cardview/widget/CardView;I)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroid/widget/FrameLayout;->setMinimumWidth(I)V    return-void
+    invoke-super {p0, p1}, Landroid/widget/FrameLayout;->setMinimumWidth(I)V
+return-void
 .end method
 
 .method public static synthetic access$201(Landroidx/cardview/widget/CardView;I)V
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroid/widget/FrameLayout;->setMinimumHeight(I)V    return-void
+    invoke-super {p0, p1}, Landroid/widget/FrameLayout;->setMinimumHeight(I)V
+return-void
 .end method
 
 
@@ -709,11 +712,13 @@
 
     .line 77
     :goto_1
-    invoke-super {p0, p1, p2}, Landroid/widget/FrameLayout;->onMeasure(II)V    return-void
+    invoke-super {p0, p1, p2}, Landroid/widget/FrameLayout;->onMeasure(II)V
+return-void
 
     .line 81
     :cond_2
-    invoke-super {p0, p1, p2}, Landroid/widget/FrameLayout;->onMeasure(II)V    return-void
+    invoke-super {p0, p1, p2}, Landroid/widget/FrameLayout;->onMeasure(II)V
+return-void
 .end method
 
 .method public setCardBackgroundColor(I)V
@@ -832,7 +837,8 @@
 
     .line 2
     .line 3
-    invoke-super {p0, p1}, Landroid/widget/FrameLayout;->setMinimumHeight(I)V    return-void
+    invoke-super {p0, p1}, Landroid/widget/FrameLayout;->setMinimumHeight(I)V
+return-void
 .end method
 
 .method public setMinimumWidth(I)V
@@ -843,7 +849,8 @@
 
     .line 2
     .line 3
-    invoke-super {p0, p1}, Landroid/widget/FrameLayout;->setMinimumWidth(I)V    return-void
+    invoke-super {p0, p1}, Landroid/widget/FrameLayout;->setMinimumWidth(I)V
+return-void
 .end method
 
 .method public setPadding(IIII)V

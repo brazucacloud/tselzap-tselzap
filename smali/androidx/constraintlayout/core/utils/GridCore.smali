@@ -101,8 +101,7 @@
 
     .line 7
     invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridCore;->initMatrices()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(II)V
@@ -156,8 +155,7 @@
 
     .line 18
     invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridCore;->initMatrices()V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic a(Ljava/lang/String;Ljava/lang/String;)I
@@ -185,7 +183,8 @@
     .line 5
     .line 6
     .line 7
-    invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridCore;->arrangeWidgets()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridCore;->arrangeWidgets()V
+return-void
 .end method
 
 .method private arrangeWidgets()V
@@ -474,7 +473,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {p1}, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->reset()V    return-void
+    invoke-virtual {p1}, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->reset()V
+return-void
 .end method
 
 .method private clearVerticalAttributes(Landroidx/constraintlayout/core/widgets/ConstraintWidget;)V
@@ -512,7 +512,8 @@
 
     .line 17
     .line 18
-    invoke-virtual {p1}, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->reset()V    return-void
+    invoke-virtual {p1}, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->reset()V
+return-void
 .end method
 
 .method private connectWidget(Landroidx/constraintlayout/core/widgets/ConstraintWidget;IIII)V
@@ -1537,7 +1538,8 @@
     .line 32
     .line 33
     :cond_1
-    invoke-direct {p0, v1}, Landroidx/constraintlayout/core/utils/GridCore;->fillConstraintMatrix(Z)V    return-void
+    invoke-direct {p0, v1}, Landroidx/constraintlayout/core/utils/GridCore;->fillConstraintMatrix(Z)V
+return-void
 .end method
 
 .method private initVariables()V
@@ -3646,7 +3648,8 @@
     .line 2
     .line 3
     .line 4
-    invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridCore;->addConstraints()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridCore;->addConstraints()V
+return-void
 .end method
 
 .method public getColumnWeights()Ljava/lang/String;
@@ -3745,7 +3748,8 @@
 
     .line 19
     .line 20
-    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/widgets/WidgetContainer;->add([Landroidx/constraintlayout/core/widgets/ConstraintWidget;)V    return-void
+    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/widgets/WidgetContainer;->add([Landroidx/constraintlayout/core/widgets/ConstraintWidget;)V
+return-void
 .end method
 
 .method public setColumnWeights(Ljava/lang/String;)V
@@ -3817,7 +3821,8 @@
     .line 14
     .line 15
     .line 16
-    invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridCore;->initVariables()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridCore;->initVariables()V
+return-void
 .end method
 
 .method public setContainer(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;)V
@@ -3981,7 +3986,8 @@
     .line 14
     .line 15
     .line 16
-    invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridCore;->initVariables()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridCore;->initVariables()V
+return-void
 .end method
 
 .method public setSkips(Ljava/lang/String;)V

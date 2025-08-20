@@ -187,8 +187,7 @@
     const-string p1, "{\n                try {\n\u2026          }\n            }"
 
     invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    return-object p2
+return-object p2
 
     :catch_0
     move-exception p2

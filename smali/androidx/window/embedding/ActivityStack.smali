@@ -47,8 +47,7 @@
 
     .line 3
     iput-boolean p2, p0, Landroidx/window/embedding/ActivityStack;->isEmpty:Z
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Ljava/util/List;ZILkotlin/jvm/internal/e;)V
@@ -63,8 +62,7 @@
     .line 4
     :cond_0
     invoke-direct {p0, p1, p2}, Landroidx/window/embedding/ActivityStack;-><init>(Ljava/util/List;Z)V
-
-    return-void
+return-void
 .end method
 
 

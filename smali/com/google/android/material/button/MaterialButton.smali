@@ -139,8 +139,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/material/button/MaterialButton;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -607,8 +606,7 @@
 
     :cond_5
     invoke-virtual {p0, p1}, Lcom/google/android/material/button/MaterialButton;->g(Z)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic a(Lcom/google/android/material/button/MaterialButton;)F

@@ -130,8 +130,7 @@
     invoke-direct {v0, v1}, Landroidx/collection/MutableLongSet;-><init>(I)V
 
     invoke-virtual {v0, p0}, Landroidx/collection/MutableLongSet;->plusAssign([J)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableLongSetOf()Landroidx/collection/MutableLongSet;
@@ -147,8 +146,7 @@
     const/4 v3, 0x0
 
     invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongSet;-><init>(IILkotlin/jvm/internal/e;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableLongSetOf(J)Landroidx/collection/MutableLongSet;
@@ -163,8 +161,7 @@
 
     .line 3
     invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableLongSet;->plusAssign(J)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableLongSetOf(JJ)Landroidx/collection/MutableLongSet;
@@ -182,8 +179,7 @@
 
     .line 6
     invoke-virtual {v0, p2, p3}, Landroidx/collection/MutableLongSet;->plusAssign(J)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final mutableLongSetOf(JJJ)Landroidx/collection/MutableLongSet;
@@ -204,8 +200,7 @@
 
     .line 10
     invoke-virtual {v0, p4, p5}, Landroidx/collection/MutableLongSet;->plusAssign(J)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static final varargs mutableLongSetOf([J)Landroidx/collection/MutableLongSet;
@@ -223,7 +218,6 @@
     invoke-direct {v0, v1}, Landroidx/collection/MutableLongSet;-><init>(I)V
 
     invoke-virtual {v0, p0}, Landroidx/collection/MutableLongSet;->plusAssign([J)V
-
-    return-object v0
+return-object v0
 .end method
 .end class

@@ -103,8 +103,7 @@
     move-object v0, p0
 
     invoke-direct/range {v0 .. v6}, Landroidx/privacysandbox/ads/adservices/common/FrequencyCapFilters;-><init>(Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;ILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/util/List;)V
@@ -138,8 +137,7 @@
     move-object v2, p1
 
     invoke-direct/range {v1 .. v7}, Landroidx/privacysandbox/ads/adservices/common/FrequencyCapFilters;-><init>(Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;ILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/util/List;Ljava/util/List;)V
@@ -180,8 +178,7 @@
     move-object v3, p2
 
     invoke-direct/range {v1 .. v7}, Landroidx/privacysandbox/ads/adservices/common/FrequencyCapFilters;-><init>(Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;ILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
@@ -229,8 +226,7 @@
     move-object v4, p3
 
     invoke-direct/range {v1 .. v7}, Landroidx/privacysandbox/ads/adservices/common/FrequencyCapFilters;-><init>(Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;ILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
@@ -322,8 +318,7 @@
 
     :cond_3
     invoke-direct {p0, p1, p2, p3, p4}, Landroidx/privacysandbox/ads/adservices/common/FrequencyCapFilters;-><init>(Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 
 .method private final convertToAdServices(Ljava/util/List;)Ljava/util/List;
@@ -540,7 +535,8 @@
 
     .line 50
     .line 51
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V    return-object v0
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
+return-object v0
 .end method
 
 .method public equals(Ljava/lang/Object;)Z

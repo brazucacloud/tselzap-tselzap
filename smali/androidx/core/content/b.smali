@@ -18,8 +18,7 @@
     iput p1, p0, Landroidx/core/content/b;->b:I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -35,13 +34,11 @@
     packed-switch v0, :pswitch_data_0
 
     invoke-static {p1}, Landroidx/core/content/IntentSanitizer;->b(Ljava/lang/String;)V
-
-    return-void
+return-void
 
     :pswitch_0
     invoke-static {p1}, Landroidx/core/content/IntentSanitizer;->a(Ljava/lang/String;)V
-
-    return-void
+return-void
 
     nop
 

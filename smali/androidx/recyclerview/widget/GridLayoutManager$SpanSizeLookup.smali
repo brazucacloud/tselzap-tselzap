@@ -67,7 +67,8 @@
 
     .line 20
     .line 21
-    iput-boolean v0, p0, Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;->mCacheSpanGroupIndices:Z    return-void
+    iput-boolean v0, p0, Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;->mCacheSpanGroupIndices:Z
+return-void
 .end method
 
 .method public static findFirstKeyLessThan(Landroid/util/SparseIntArray;I)I
@@ -599,7 +600,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/util/SparseIntArray;->clear()V    return-void
+    invoke-virtual {v0}, Landroid/util/SparseIntArray;->clear()V
+return-void
 .end method
 
 .method public invalidateSpanIndexCache()V
@@ -610,7 +612,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/util/SparseIntArray;->clear()V    return-void
+    invoke-virtual {v0}, Landroid/util/SparseIntArray;->clear()V
+return-void
 .end method
 
 .method public isSpanGroupIndexCacheEnabled()Z
@@ -645,7 +648,8 @@
     .line 7
     .line 8
     :cond_0
-    iput-boolean p1, p0, Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;->mCacheSpanGroupIndices:Z    return-void
+    iput-boolean p1, p0, Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;->mCacheSpanGroupIndices:Z
+return-void
 .end method
 
 .method public setSpanIndexCacheEnabled(Z)V
@@ -666,6 +670,7 @@
     .line 7
     .line 8
     :cond_0
-    iput-boolean p1, p0, Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;->mCacheSpanIndices:Z    return-void
+    iput-boolean p1, p0, Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;->mCacheSpanIndices:Z
+return-void
 .end method
 .end class

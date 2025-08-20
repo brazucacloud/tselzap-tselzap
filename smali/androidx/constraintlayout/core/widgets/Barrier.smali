@@ -49,8 +49,7 @@
 
     .line 5
     iput-boolean v0, p0, Landroidx/constraintlayout/core/widgets/Barrier;->mResolved:Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/String;)V
@@ -77,8 +76,7 @@
 
     .line 11
     invoke-virtual {p0, p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setDebugName(Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 
@@ -1920,7 +1918,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/constraintlayout/core/widgets/Barrier;->mAllowsGoneWidget:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/core/widgets/Barrier;->mAllowsGoneWidget:Z
+return-void
 .end method
 
 .method public setBarrierType(I)V

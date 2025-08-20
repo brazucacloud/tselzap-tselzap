@@ -29,8 +29,7 @@
     iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzkp;->zza:Lcom/google/android/gms/measurement/internal/zzkf;
 
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/zzkf;->zzat()V
-
-    return-void
+return-void
 .end method
 
 .end class

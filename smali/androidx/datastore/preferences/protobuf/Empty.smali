@@ -60,14 +60,16 @@
 
     .line 9
     .line 10
-    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->registerDefaultInstance(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V    return-void
+    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->registerDefaultInstance(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
+return-void
 .end method
 
 .method private constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;-><init>()V    return-void
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;-><init>()V
+return-void
 .end method
 
 .method public static synthetic access$000()Landroidx/datastore/preferences/protobuf/Empty;
@@ -480,7 +482,8 @@
 
     .line 67
     .line 68
-    invoke-direct {p1, p2}, Landroidx/datastore/preferences/protobuf/Empty$Builder;-><init>(Landroidx/datastore/preferences/protobuf/Empty$1;)V    return-object p1
+    invoke-direct {p1, p2}, Landroidx/datastore/preferences/protobuf/Empty$Builder;-><init>(Landroidx/datastore/preferences/protobuf/Empty$1;)V
+return-object p1
 
     .line 72
     :pswitch_6
@@ -488,7 +491,8 @@
 
     .line 73
     .line 74
-    invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/Empty;-><init>()V    return-object p1
+    invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/Empty;-><init>()V
+return-object p1
 
     .line 78
     nop

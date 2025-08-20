@@ -46,8 +46,7 @@
     const/4 v2, 0x0
 
     invoke-direct {p0, v2, v0, v1}, Landroidx/collection/MutableObjectList;-><init>(IILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -57,8 +56,7 @@
 
     .line 3
     invoke-direct {p0, p1, v0}, Landroidx/collection/ObjectList;-><init>(ILkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(IILkotlin/jvm/internal/e;)V
@@ -73,8 +71,7 @@
     .line 2
     :cond_0
     invoke-direct {p0, p1}, Landroidx/collection/MutableObjectList;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic trim$default(Landroidx/collection/MutableObjectList;IILjava/lang/Object;)V
@@ -94,7 +91,8 @@
     .line 6
     .line 7
     :cond_0
-    invoke-virtual {p0, p1}, Landroidx/collection/MutableObjectList;->trim(I)V    return-void
+    invoke-virtual {p0, p1}, Landroidx/collection/MutableObjectList;->trim(I)V
+return-void
 .end method
 
 

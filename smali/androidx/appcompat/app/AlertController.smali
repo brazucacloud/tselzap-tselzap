@@ -331,7 +331,8 @@
     .line 109
     .line 110
     .line 111
-    invoke-virtual {p2, v1}, Landroidx/appcompat/app/AppCompatDialog;->supportRequestWindowFeature(I)Z    return-void
+    invoke-virtual {p2, v1}, Landroidx/appcompat/app/AppCompatDialog;->supportRequestWindowFeature(I)Z
+return-void
 .end method
 
 .method public static canTextInput(Landroid/view/View;)Z
@@ -2624,7 +2625,8 @@
     .line 8
     .line 9
     .line 10
-    invoke-direct {p0}, Landroidx/appcompat/app/AlertController;->setupView()V    return-void
+    invoke-direct {p0}, Landroidx/appcompat/app/AlertController;->setupView()V
+return-void
 .end method
 
 .method public onKeyDown(ILandroid/view/KeyEvent;)Z
@@ -2954,8 +2956,7 @@
 
     .line 3
     iput-boolean p1, p0, Landroidx/appcompat/app/AlertController;->mViewSpacingSpecified:Z
-
-    return-void
+return-void
 .end method
 
 .method public setView(Landroid/view/View;)V
@@ -2971,8 +2972,7 @@
 
     .line 6
     iput-boolean p1, p0, Landroidx/appcompat/app/AlertController;->mViewSpacingSpecified:Z
-
-    return-void
+return-void
 .end method
 
 .method public setView(Landroid/view/View;IIII)V

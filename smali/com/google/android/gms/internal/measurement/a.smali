@@ -103,8 +103,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/graphics/drawable/InsetDrawable;->setDrawable(Landroid/graphics/drawable/Drawable;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic j(Landroid/graphics/drawable/LayerDrawable;)V
@@ -116,8 +115,7 @@
     const/16 v1, 0x11
 
     invoke-virtual {p0, v0, v1}, Landroid/graphics/drawable/LayerDrawable;->setLayerGravity(II)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic k(Landroid/graphics/drawable/LayerDrawable;II)V
@@ -127,8 +125,7 @@
     const/4 v0, 0x1
 
     invoke-virtual {p0, v0, p1, p2}, Landroid/graphics/drawable/LayerDrawable;->setLayerSize(III)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic l(Landroid/media/MediaMetadataRetriever;Lr/C;)V
@@ -136,8 +133,7 @@
 
     .line 1
     invoke-virtual {p0, p1}, Landroid/media/MediaMetadataRetriever;->setDataSource(Landroid/media/MediaDataSource;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic m(Landroid/os/StrictMode$ThreadPolicy$Builder;)V

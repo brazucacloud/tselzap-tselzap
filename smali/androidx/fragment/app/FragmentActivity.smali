@@ -63,8 +63,7 @@
 
     .line 5
     invoke-direct {p0}, Landroidx/fragment/app/FragmentActivity;->init()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -104,8 +103,7 @@
 
     .line 10
     invoke-direct {p0}, Landroidx/fragment/app/FragmentActivity;->init()V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic d(Landroidx/fragment/app/FragmentActivity;Landroid/content/Context;)V
@@ -113,8 +111,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/fragment/app/FragmentActivity;->lambda$init$3(Landroid/content/Context;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic e(Landroidx/fragment/app/FragmentActivity;Landroid/content/res/Configuration;)V
@@ -122,8 +119,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/fragment/app/FragmentActivity;->lambda$init$1(Landroid/content/res/Configuration;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic f(Landroidx/fragment/app/FragmentActivity;)Landroid/os/Bundle;
@@ -142,8 +138,7 @@
 
     .line 1
     invoke-direct {p0, p1}, Landroidx/fragment/app/FragmentActivity;->lambda$init$2(Landroid/content/Intent;)V
-
-    return-void
+return-void
 .end method
 
 .method private init()V
@@ -222,7 +217,8 @@
     .line 37
     .line 38
     .line 39
-    invoke-virtual {p0, v0}, Landroidx/activity/ComponentActivity;->addOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V    return-void
+    invoke-virtual {p0, v0}, Landroidx/activity/ComponentActivity;->addOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V
+return-void
 .end method
 
 .method private synthetic lambda$init$0()Landroid/os/Bundle;
@@ -251,7 +247,8 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Landroid/os/Bundle;-><init>()V    return-object v0
+    invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
+return-object v0
 .end method
 
 .method private synthetic lambda$init$1(Landroid/content/res/Configuration;)V
@@ -262,7 +259,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroidx/fragment/app/FragmentController;->noteStateNotSaved()V    return-void
+    invoke-virtual {p1}, Landroidx/fragment/app/FragmentController;->noteStateNotSaved()V
+return-void
 .end method
 
 .method private synthetic lambda$init$2(Landroid/content/Intent;)V
@@ -273,7 +271,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroidx/fragment/app/FragmentController;->noteStateNotSaved()V    return-void
+    invoke-virtual {p1}, Landroidx/fragment/app/FragmentController;->noteStateNotSaved()V
+return-void
 .end method
 
 .method private synthetic lambda$init$3(Landroid/content/Context;)V
@@ -287,7 +286,8 @@
     const/4 v0, 0x0
 
     .line 4
-    invoke-virtual {p1, v0}, Landroidx/fragment/app/FragmentController;->attachHost(Landroidx/fragment/app/Fragment;)V    return-void
+    invoke-virtual {p1, v0}, Landroidx/fragment/app/FragmentController;->attachHost(Landroidx/fragment/app/Fragment;)V
+return-void
 .end method
 
 .method private static markState(Landroidx/fragment/app/FragmentManager;Landroidx/lifecycle/Lifecycle$State;)Z
@@ -729,7 +729,8 @@
     move-result-object v0
 
     .line 104
-    invoke-virtual {v0, p1, p2, p3, p4}, Landroidx/fragment/app/FragmentManager;->dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V    return-void
+    invoke-virtual {v0, p1, p2, p3, p4}, Landroidx/fragment/app/FragmentManager;->dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
+return-void
 .end method
 
 .method public getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
@@ -818,7 +819,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-super {p0, p1, p2, p3}, Landroidx/activity/ComponentActivity;->onActivityResult(IILandroid/content/Intent;)V    return-void
+    invoke-super {p0, p1, p2, p3}, Landroidx/activity/ComponentActivity;->onActivityResult(IILandroid/content/Intent;)V
+return-void
 .end method
 
 .method public onAttachFragment(Landroidx/fragment/app/Fragment;)V
@@ -866,7 +868,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {p1}, Landroidx/fragment/app/FragmentController;->dispatchCreate()V    return-void
+    invoke-virtual {p1}, Landroidx/fragment/app/FragmentController;->dispatchCreate()V
+return-void
 .end method
 
 .method public onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
@@ -971,7 +974,8 @@
 
     .line 12
     .line 13
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/LifecycleRegistry;->handleLifecycleEvent(Landroidx/lifecycle/Lifecycle$Event;)V    return-void
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/LifecycleRegistry;->handleLifecycleEvent(Landroidx/lifecycle/Lifecycle$Event;)V
+return-void
 .end method
 
 .method public onMenuItemSelected(ILandroid/view/MenuItem;)Z
@@ -1060,7 +1064,8 @@
 
     .line 15
     .line 16
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/LifecycleRegistry;->handleLifecycleEvent(Landroidx/lifecycle/Lifecycle$Event;)V    return-void
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/LifecycleRegistry;->handleLifecycleEvent(Landroidx/lifecycle/Lifecycle$Event;)V
+return-void
 .end method
 
 .method public onPostResume()V
@@ -1072,7 +1077,8 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroidx/fragment/app/FragmentActivity;->onResumeFragments()V    return-void
+    invoke-virtual {p0}, Landroidx/fragment/app/FragmentActivity;->onResumeFragments()V
+return-void
 .end method
 
 .method public onRequestPermissionsResult(I[Ljava/lang/String;[I)V
@@ -1098,7 +1104,8 @@
     .line 4
     .line 5
     .line 6
-    invoke-super {p0, p1, p2, p3}, Landroidx/activity/ComponentActivity;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V    return-void
+    invoke-super {p0, p1, p2, p3}, Landroidx/activity/ComponentActivity;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V
+return-void
 .end method
 
 .method public onResume()V
@@ -1154,7 +1161,8 @@
 
     .line 9
     .line 10
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentController;->dispatchResume()V    return-void
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentController;->dispatchResume()V
+return-void
 .end method
 
 .method public onStart()V
@@ -1233,7 +1241,8 @@
 
     .line 37
     .line 38
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentController;->dispatchStart()V    return-void
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentController;->dispatchStart()V
+return-void
 .end method
 
 .method public onStateNotSaved()V
@@ -1244,7 +1253,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentController;->noteStateNotSaved()V    return-void
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentController;->noteStateNotSaved()V
+return-void
 .end method
 
 .method public onStop()V
@@ -1285,7 +1295,8 @@
 
     .line 18
     .line 19
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/LifecycleRegistry;->handleLifecycleEvent(Landroidx/lifecycle/Lifecycle$Event;)V    return-void
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/LifecycleRegistry;->handleLifecycleEvent(Landroidx/lifecycle/Lifecycle$Event;)V
+return-void
 .end method
 
 .method public setEnterSharedElementCallback(Landroidx/core/app/SharedElementCallback;)V
@@ -1296,7 +1307,8 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/app/ActivityCompat;->setEnterSharedElementCallback(Landroid/app/Activity;Landroidx/core/app/SharedElementCallback;)V    return-void
+    invoke-static {p0, p1}, Landroidx/core/app/ActivityCompat;->setEnterSharedElementCallback(Landroid/app/Activity;Landroidx/core/app/SharedElementCallback;)V
+return-void
 .end method
 
 .method public setExitSharedElementCallback(Landroidx/core/app/SharedElementCallback;)V
@@ -1307,7 +1319,8 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/app/ActivityCompat;->setExitSharedElementCallback(Landroid/app/Activity;Landroidx/core/app/SharedElementCallback;)V    return-void
+    invoke-static {p0, p1}, Landroidx/core/app/ActivityCompat;->setExitSharedElementCallback(Landroid/app/Activity;Landroidx/core/app/SharedElementCallback;)V
+return-void
 .end method
 
 .method public startActivityFromFragment(Landroidx/fragment/app/Fragment;Landroid/content/Intent;I)V
@@ -1325,8 +1338,7 @@
 
     .line 1
     invoke-virtual {p0, p1, p2, p3, v0}, Landroidx/fragment/app/FragmentActivity;->startActivityFromFragment(Landroidx/fragment/app/Fragment;Landroid/content/Intent;ILandroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 
 .method public startActivityFromFragment(Landroidx/fragment/app/Fragment;Landroid/content/Intent;ILandroid/os/Bundle;)V
@@ -1350,14 +1362,12 @@
 
     .line 2
     invoke-static {p0, p2, v0, p4}, Landroidx/core/app/ActivityCompat;->startActivityForResult(Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)V
-
-    return-void
+return-void
 
     .line 3
     :cond_0
     invoke-virtual {p1, p2, p3, p4}, Landroidx/fragment/app/Fragment;->startActivityForResult(Landroid/content/Intent;ILandroid/os/Bundle;)V
-
-    return-void
+return-void
 .end method
 
 .method public startIntentSenderFromFragment(Landroidx/fragment/app/Fragment;Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V
@@ -1415,18 +1425,21 @@
 
     .line 13
     .line 14
-    invoke-static/range {v1 .. v8}, Landroidx/core/app/ActivityCompat;->startIntentSenderForResult(Landroid/app/Activity;Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V    return-void
+    invoke-static/range {v1 .. v8}, Landroidx/core/app/ActivityCompat;->startIntentSenderForResult(Landroid/app/Activity;Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V
+return-void
 
     .line 18
     :cond_0
-    invoke-virtual/range {p1 .. p8}, Landroidx/fragment/app/Fragment;->startIntentSenderForResult(Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V    return-void
+    invoke-virtual/range {p1 .. p8}, Landroidx/fragment/app/Fragment;->startIntentSenderForResult(Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V
+return-void
 .end method
 
 .method public supportFinishAfterTransition()V
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/app/ActivityCompat;->finishAfterTransition(Landroid/app/Activity;)V    return-void
+    invoke-static {p0}, Landroidx/core/app/ActivityCompat;->finishAfterTransition(Landroid/app/Activity;)V
+return-void
 .end method
 
 .method public supportInvalidateOptionsMenu()V
@@ -1435,21 +1448,24 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->invalidateMenu()V    return-void
+    invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->invalidateMenu()V
+return-void
 .end method
 
 .method public supportPostponeEnterTransition()V
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/app/ActivityCompat;->postponeEnterTransition(Landroid/app/Activity;)V    return-void
+    invoke-static {p0}, Landroidx/core/app/ActivityCompat;->postponeEnterTransition(Landroid/app/Activity;)V
+return-void
 .end method
 
 .method public supportStartPostponedEnterTransition()V
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/app/ActivityCompat;->startPostponedEnterTransition(Landroid/app/Activity;)V    return-void
+    invoke-static {p0}, Landroidx/core/app/ActivityCompat;->startPostponedEnterTransition(Landroid/app/Activity;)V
+return-void
 .end method
 
 .method public final validateRequestPermissionsRequestCode(I)V

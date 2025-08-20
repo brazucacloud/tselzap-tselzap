@@ -22,8 +22,7 @@
     iput-object p1, p0, Landroidx/appcompat/widget/e;->c:Landroidx/appcompat/widget/TooltipCompatHandler;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -39,15 +38,13 @@
     iget-object v0, p0, Landroidx/appcompat/widget/e;->c:Landroidx/appcompat/widget/TooltipCompatHandler;
 
     invoke-virtual {v0}, Landroidx/appcompat/widget/TooltipCompatHandler;->hide()V
-
-    return-void
+return-void
 
     :pswitch_0
     iget-object v0, p0, Landroidx/appcompat/widget/e;->c:Landroidx/appcompat/widget/TooltipCompatHandler;
 
     invoke-static {v0}, Landroidx/appcompat/widget/TooltipCompatHandler;->a(Landroidx/appcompat/widget/TooltipCompatHandler;)V
-
-    return-void
+return-void
 
     nop
 

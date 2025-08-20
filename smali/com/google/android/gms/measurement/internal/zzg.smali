@@ -586,8 +586,7 @@
 
     .line 29
     iput-boolean p1, p0, Lcom/google/android/gms/measurement/internal/zzg;->zzp:Z
-
-    return-void
+return-void
 .end method
 
 .method public final zza([B)V
@@ -1650,8 +1649,7 @@
 
     .line 19
     iput-boolean p1, p0, Lcom/google/android/gms/measurement/internal/zzg;->zzo:Z
-
-    return-void
+return-void
 .end method
 
 .method public final zzc()I
@@ -1833,8 +1831,7 @@
 
     .line 19
     iput-boolean p1, p0, Lcom/google/android/gms/measurement/internal/zzg;->zzv:Z
-
-    return-void
+return-void
 .end method
 
 .method public final zzd()I
@@ -2016,8 +2013,7 @@
 
     .line 19
     iput-boolean p1, p0, Lcom/google/android/gms/measurement/internal/zzg;->zzz:Z
-
-    return-void
+return-void
 .end method
 
 .method public final zze()J

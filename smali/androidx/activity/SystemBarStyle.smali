@@ -79,8 +79,7 @@
 
     .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Landroidx/activity/SystemBarStyle;-><init>(IIILp1/l;)V
-
-    return-void
+return-void
 .end method
 
 .method public static final auto(II)Landroidx/activity/SystemBarStyle;

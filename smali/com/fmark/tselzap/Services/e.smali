@@ -43,8 +43,7 @@
     iget-object v2, p0, Lcom/fmark/tselzap/Services/e;->c:Ljava/util/List;
 
     invoke-static {v0, v1, v2, p1}, Lcom/fmark/tselzap/Services/NotificationReceiver;->f(Ljava/util/List;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/List;I)V
-
-    return-void
+return-void
 .end method
 
 .end class

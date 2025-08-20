@@ -301,7 +301,8 @@
     move-result-object v2
 
     .line 32
-    invoke-static {v0, v1, v2}, Landroidx/appcompat/widget/AppCompatDrawableManager;->tintDrawable(Landroid/graphics/drawable/Drawable;Landroidx/appcompat/widget/TintInfo;[I)V    return-void
+    invoke-static {v0, v1, v2}, Landroidx/appcompat/widget/AppCompatDrawableManager;->tintDrawable(Landroid/graphics/drawable/Drawable;Landroidx/appcompat/widget/TintInfo;[I)V
+return-void
 
     .line 36
     :cond_1
@@ -611,7 +612,8 @@
     .line 106
     .line 107
     :cond_2
-    invoke-virtual {v8}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V    return-void
+    invoke-virtual {v8}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V
+return-void
 
     .line 111
     :goto_1
@@ -641,7 +643,8 @@
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatBackgroundHelper;->applySupportBackgroundTint()V    return-void
+    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatBackgroundHelper;->applySupportBackgroundTint()V
+return-void
 .end method
 
 .method public onSetBackgroundResource(I)V
@@ -693,7 +696,8 @@
     .line 20
     .line 21
     .line 22
-    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatBackgroundHelper;->applySupportBackgroundTint()V    return-void
+    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatBackgroundHelper;->applySupportBackgroundTint()V
+return-void
 .end method
 
 .method public setInternalBackgroundTint(Landroid/content/res/ColorStateList;)V
@@ -753,7 +757,8 @@
     .line 24
     .line 25
     :goto_0
-    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatBackgroundHelper;->applySupportBackgroundTint()V    return-void
+    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatBackgroundHelper;->applySupportBackgroundTint()V
+return-void
 .end method
 
 .method public setSupportBackgroundTintList(Landroid/content/res/ColorStateList;)V
@@ -797,7 +802,8 @@
 
     .line 18
     .line 19
-    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatBackgroundHelper;->applySupportBackgroundTint()V    return-void
+    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatBackgroundHelper;->applySupportBackgroundTint()V
+return-void
 .end method
 
 .method public setSupportBackgroundTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -841,6 +847,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatBackgroundHelper;->applySupportBackgroundTint()V    return-void
+    invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatBackgroundHelper;->applySupportBackgroundTint()V
+return-void
 .end method
 .end class

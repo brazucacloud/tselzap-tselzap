@@ -91,7 +91,8 @@
     const/4 v0, 0x1
 
     .line 12
-    iput-boolean v0, p0, Landroidx/savedstate/SavedStateRegistry;->isAllowingSavingState:Z    return-void
+    iput-boolean v0, p0, Landroidx/savedstate/SavedStateRegistry;->isAllowingSavingState:Z
+return-void
 .end method
 
 .method public static synthetic a(Landroidx/savedstate/SavedStateRegistry;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
@@ -99,8 +100,7 @@
 
     .line 1
     invoke-static {p0, p1, p2}, Landroidx/savedstate/SavedStateRegistry;->performAttach$lambda$4(Landroidx/savedstate/SavedStateRegistry;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
-
-    return-void
+return-void
 .end method
 
 .method private static final performAttach$lambda$4(Landroidx/savedstate/SavedStateRegistry;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
@@ -145,7 +145,8 @@
     const/4 p1, 0x1
 
     .line 21
-    iput-boolean p1, p0, Landroidx/savedstate/SavedStateRegistry;->isAllowingSavingState:Z    return-void
+    iput-boolean p1, p0, Landroidx/savedstate/SavedStateRegistry;->isAllowingSavingState:Z
+return-void
 
     .line 24
     :cond_0
@@ -440,7 +441,8 @@
     const/4 p1, 0x1
 
     .line 20
-    iput-boolean p1, p0, Landroidx/savedstate/SavedStateRegistry;->attached:Z    return-void
+    iput-boolean p1, p0, Landroidx/savedstate/SavedStateRegistry;->attached:Z
+return-void
 
     .line 23
     :cond_0
@@ -512,7 +514,8 @@
     const/4 p1, 0x1
 
     .line 22
-    iput-boolean p1, p0, Landroidx/savedstate/SavedStateRegistry;->isRestored:Z    return-void
+    iput-boolean p1, p0, Landroidx/savedstate/SavedStateRegistry;->isRestored:Z
+return-void
 
     .line 25
     :cond_1
@@ -931,7 +934,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/savedstate/SavedStateRegistry;->isAllowingSavingState:Z    return-void
+    iput-boolean p1, p0, Landroidx/savedstate/SavedStateRegistry;->isAllowingSavingState:Z
+return-void
 .end method
 
 .method public final unregisterSavedStateProvider(Ljava/lang/String;)V

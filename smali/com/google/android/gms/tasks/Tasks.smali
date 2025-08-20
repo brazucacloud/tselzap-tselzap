@@ -8,8 +8,7 @@
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public static await(Lcom/google/android/gms/tasks/Task;)Ljava/lang/Object;
@@ -247,8 +246,7 @@
 
     .line 5
     invoke-interface {p0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public static forCanceled()Lcom/google/android/gms/tasks/Task;

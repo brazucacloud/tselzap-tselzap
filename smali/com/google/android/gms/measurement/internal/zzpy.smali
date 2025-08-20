@@ -218,8 +218,7 @@
     move-object v0, p0
 
     invoke-direct/range {v0 .. v5}, Lcom/google/android/gms/measurement/internal/zzpy;-><init>(Ljava/lang/String;JLjava/lang/Object;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/String;JLjava/lang/Object;Ljava/lang/String;)V

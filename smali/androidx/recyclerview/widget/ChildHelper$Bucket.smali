@@ -344,7 +344,8 @@
     sub-int/2addr p1, v0
 
     .line 11
-    invoke-virtual {v1, p1, p2}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->insert(IZ)V    return-void
+    invoke-virtual {v1, p1, p2}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->insert(IZ)V
+return-void
 
     .line 15
     :cond_0
@@ -468,7 +469,8 @@
 
     .line 65
     .line 66
-    invoke-virtual {p1, v6, v2}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->insert(IZ)V    return-void
+    invoke-virtual {p1, v6, v2}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->insert(IZ)V
+return-void
 .end method
 
 .method public remove(I)Z
@@ -685,7 +687,8 @@
     sub-int/2addr p1, v0
 
     .line 11
-    invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->set(I)V    return-void
+    invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->set(I)V
+return-void
 
     .line 15
     :cond_0

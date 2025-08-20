@@ -80,8 +80,7 @@
     iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/SplineSet$CustomSet;->mConstraintAttributeList:Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$CustomArray;
 
     invoke-virtual {v0, p1, p2}, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$CustomArray;->append(ILandroidx/constraintlayout/core/motion/CustomAttribute;)V
-
-    return-void
+return-void
 .end method
 
 .method public setProperty(Landroidx/constraintlayout/core/state/WidgetFrame;F)V

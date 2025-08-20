@@ -69,7 +69,8 @@
     const/4 p1, 0x0
 
     .line 16
-    iput-boolean p1, p0, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi16Impl;->mOnDrawScheduled:Z    return-void
+    iput-boolean p1, p0, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi16Impl;->mOnDrawScheduled:Z
+return-void
 .end method
 
 .method public static synthetic a(Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi16Impl;)V
@@ -77,8 +78,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi16Impl;->lambda$execute$0()V
-
-    return-void
+return-void
 .end method
 
 .method private synthetic lambda$execute$0()V
@@ -227,11 +227,13 @@
 
     .line 26
     .line 27
-    invoke-virtual {p1}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p1}, Landroid/view/View;->invalidate()V
+return-void
 
     .line 31
     :cond_0
-    invoke-virtual {p1}, Landroid/view/View;->postInvalidate()V    return-void
+    invoke-virtual {p1}, Landroid/view/View;->postInvalidate()V
+return-void
 
     .line 35
     :cond_1

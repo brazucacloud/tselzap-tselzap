@@ -789,7 +789,8 @@
     .line 8
     .line 9
     .line 10
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V    return-void
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
+return-void
 .end method
 
 .method public isStateful()Z
@@ -892,7 +893,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/core/content/res/ComplexColorCompat;->setColor(I)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/core/content/res/ComplexColorCompat;->setColor(I)V
+return-void
 .end method
 
 .method public setStrokeAlpha(F)V
@@ -910,7 +912,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/core/content/res/ComplexColorCompat;->setColor(I)V    return-void
+    invoke-virtual {v0, p1}, Landroidx/core/content/res/ComplexColorCompat;->setColor(I)V
+return-void
 .end method
 
 .method public setStrokeWidth(F)V

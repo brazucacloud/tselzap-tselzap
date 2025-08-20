@@ -31,7 +31,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 
@@ -200,7 +201,8 @@
     move-result v3
 
     .line 21
-    invoke-direct {v0, v1, v2, v3}, Landroidx/recyclerview/widget/DiffUtil$Diagonal;-><init>(III)V    return-object v0
+    invoke-direct {v0, v1, v2, v3}, Landroidx/recyclerview/widget/DiffUtil$Diagonal;-><init>(III)V
+return-object v0
 
     .line 25
     :cond_0
@@ -240,7 +242,8 @@
     move-result v3
 
     .line 43
-    invoke-direct {v0, v1, v2, v3}, Landroidx/recyclerview/widget/DiffUtil$Diagonal;-><init>(III)V    return-object v0
+    invoke-direct {v0, v1, v2, v3}, Landroidx/recyclerview/widget/DiffUtil$Diagonal;-><init>(III)V
+return-object v0
 
     .line 47
     :cond_1
@@ -268,7 +271,8 @@
     move-result v3
 
     .line 59
-    invoke-direct {v0, v1, v2, v3}, Landroidx/recyclerview/widget/DiffUtil$Diagonal;-><init>(III)V    return-object v0
+    invoke-direct {v0, v1, v2, v3}, Landroidx/recyclerview/widget/DiffUtil$Diagonal;-><init>(III)V
+return-object v0
 
     .line 63
     :cond_2
@@ -291,6 +295,7 @@
     sub-int/2addr v3, v1
 
     .line 72
-    invoke-direct {v0, v1, v2, v3}, Landroidx/recyclerview/widget/DiffUtil$Diagonal;-><init>(III)V    return-object v0
+    invoke-direct {v0, v1, v2, v3}, Landroidx/recyclerview/widget/DiffUtil$Diagonal;-><init>(III)V
+return-object v0
 .end method
 .end class

@@ -34,7 +34,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/constraintlayout/core/motion/utils/SplineSet;-><init>()V    return-void
+    invoke-direct {p0}, Landroidx/constraintlayout/core/motion/utils/SplineSet;-><init>()V
+return-void
 .end method
 
 .method public static makeCustomSpline(Ljava/lang/String;Landroid/util/SparseArray;)Landroidx/constraintlayout/motion/utils/ViewSpline;
@@ -556,7 +557,8 @@
 
     .line 219
     .line 220
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$AlphaSet;-><init>()V    return-object p0
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$AlphaSet;-><init>()V
+return-object p0
 
     .line 224
     :pswitch_1
@@ -564,7 +566,8 @@
 
     .line 225
     .line 226
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$AlphaSet;-><init>()V    return-object p0
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$AlphaSet;-><init>()V
+return-object p0
 
     .line 230
     :pswitch_2
@@ -572,7 +575,8 @@
 
     .line 231
     .line 232
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$PathRotate;-><init>()V    return-object p0
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$PathRotate;-><init>()V
+return-object p0
 
     .line 236
     :pswitch_3
@@ -580,7 +584,8 @@
 
     .line 237
     .line 238
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$ElevationSet;-><init>()V    return-object p0
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$ElevationSet;-><init>()V
+return-object p0
 
     .line 242
     :pswitch_4
@@ -588,7 +593,8 @@
 
     .line 243
     .line 244
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$RotationSet;-><init>()V    return-object p0
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$RotationSet;-><init>()V
+return-object p0
 
     .line 248
     :pswitch_5
@@ -596,7 +602,8 @@
 
     .line 249
     .line 250
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$PivotYset;-><init>()V    return-object p0
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$PivotYset;-><init>()V
+return-object p0
 
     .line 254
     :pswitch_6
@@ -604,7 +611,8 @@
 
     .line 255
     .line 256
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$PivotXset;-><init>()V    return-object p0
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$PivotXset;-><init>()V
+return-object p0
 
     .line 260
     :pswitch_7
@@ -612,7 +620,8 @@
 
     .line 261
     .line 262
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$AlphaSet;-><init>()V    return-object p0
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$AlphaSet;-><init>()V
+return-object p0
 
     .line 266
     :pswitch_8
@@ -620,7 +629,8 @@
 
     .line 267
     .line 268
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$ScaleYset;-><init>()V    return-object p0
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$ScaleYset;-><init>()V
+return-object p0
 
     .line 272
     :pswitch_9
@@ -628,7 +638,8 @@
 
     .line 273
     .line 274
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$ScaleXset;-><init>()V    return-object p0
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$ScaleXset;-><init>()V
+return-object p0
 
     .line 278
     :pswitch_a
@@ -636,7 +647,8 @@
 
     .line 279
     .line 280
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$ProgressSet;-><init>()V    return-object p0
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$ProgressSet;-><init>()V
+return-object p0
 
     .line 284
     :pswitch_b
@@ -644,7 +656,8 @@
 
     .line 285
     .line 286
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$TranslationZset;-><init>()V    return-object p0
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$TranslationZset;-><init>()V
+return-object p0
 
     .line 290
     :pswitch_c
@@ -652,7 +665,8 @@
 
     .line 291
     .line 292
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$TranslationYset;-><init>()V    return-object p0
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$TranslationYset;-><init>()V
+return-object p0
 
     .line 296
     :pswitch_d
@@ -660,7 +674,8 @@
 
     .line 297
     .line 298
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$TranslationXset;-><init>()V    return-object p0
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$TranslationXset;-><init>()V
+return-object p0
 
     .line 302
     :pswitch_e
@@ -668,7 +683,8 @@
 
     .line 303
     .line 304
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$RotationYset;-><init>()V    return-object p0
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$RotationYset;-><init>()V
+return-object p0
 
     .line 308
     :pswitch_f
@@ -676,7 +692,8 @@
 
     .line 309
     .line 310
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$RotationXset;-><init>()V    return-object p0
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewSpline$RotationXset;-><init>()V
+return-object p0
 
     .line 314
     nop

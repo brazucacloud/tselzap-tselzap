@@ -55,8 +55,7 @@
 
     .line 5
     iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->shouldDiscardUnknownFields:Z
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Landroidx/datastore/preferences/protobuf/CodedInputStream$1;)V
@@ -64,8 +63,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public static decodeZigZag32(I)I
@@ -136,8 +134,7 @@
     const/4 v1, 0x0
 
     invoke-direct {v0, p0, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedInputStream$StreamDecoder;-><init>(Ljava/io/InputStream;ILandroidx/datastore/preferences/protobuf/CodedInputStream$1;)V
-
-    return-object v0
+return-object v0
 
     .line 4
     :cond_1
@@ -271,8 +268,7 @@
     const/4 v1, 0x0
 
     invoke-direct {v0, p0, v2, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;-><init>(Ljava/lang/Iterable;IZLandroidx/datastore/preferences/protobuf/CodedInputStream$1;)V
-
-    return-object v0
+return-object v0
 
     .line 13
     :cond_3
@@ -356,8 +352,7 @@
     const/4 v1, 0x0
 
     invoke-direct {v0, p0, p1, v1}, Landroidx/datastore/preferences/protobuf/CodedInputStream$UnsafeDirectNioDecoder;-><init>(Ljava/nio/ByteBuffer;ZLandroidx/datastore/preferences/protobuf/CodedInputStream$1;)V
-
-    return-object v0
+return-object v0
 
     .line 25
     :cond_1
@@ -587,7 +582,8 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->shouldDiscardUnknownFields:Z    return-void
+    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->shouldDiscardUnknownFields:Z
+return-void
 .end method
 
 .method public abstract enableAliasing(Z)V
@@ -843,6 +839,7 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->shouldDiscardUnknownFields:Z    return-void
+    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->shouldDiscardUnknownFields:Z
+return-void
 .end method
 .end class

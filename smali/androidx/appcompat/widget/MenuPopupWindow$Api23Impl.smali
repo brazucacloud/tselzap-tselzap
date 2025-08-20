@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 .method public static setEnterTransition(Landroid/widget/PopupWindow;Landroid/transition/Transition;)V
@@ -32,7 +33,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/widget/PopupWindow;->setEnterTransition(Landroid/transition/Transition;)V    return-void
+    invoke-virtual {p0, p1}, Landroid/widget/PopupWindow;->setEnterTransition(Landroid/transition/Transition;)V
+return-void
 .end method
 
 .method public static setExitTransition(Landroid/widget/PopupWindow;Landroid/transition/Transition;)V
@@ -41,6 +43,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/widget/PopupWindow;->setExitTransition(Landroid/transition/Transition;)V    return-void
+    invoke-virtual {p0, p1}, Landroid/widget/PopupWindow;->setExitTransition(Landroid/transition/Transition;)V
+return-void
 .end method
 .end class

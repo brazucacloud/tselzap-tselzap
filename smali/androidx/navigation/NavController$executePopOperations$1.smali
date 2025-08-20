@@ -81,7 +81,8 @@
     const/4 p1, 0x1
 
     .line 12
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V    return-void
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
+return-void
 .end method
 
 
@@ -126,7 +127,6 @@
     iget-object v2, p0, Landroidx/navigation/NavController$executePopOperations$1;->$savedState:Ld1/h;
 
     invoke-static {v0, p1, v1, v2}, Landroidx/navigation/NavController;->access$popEntryFromBackStack(Landroidx/navigation/NavController;Landroidx/navigation/NavBackStackEntry;ZLd1/h;)V
-
-    return-void
+return-void
 .end method
 .end class

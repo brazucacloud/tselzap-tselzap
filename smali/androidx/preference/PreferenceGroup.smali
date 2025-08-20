@@ -70,8 +70,7 @@
 
     .line 18
     invoke-direct {p0, p1, p2, v0}, Landroidx/preference/PreferenceGroup;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -89,8 +88,7 @@
 
     .line 17
     invoke-direct {p0, p1, p2, p3, v0}, Landroidx/preference/PreferenceGroup;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
@@ -198,8 +196,7 @@
     .line 16
     :cond_0
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-
-    return-void
+return-void
 .end method
 
 .method private removePreferenceInt(Landroidx/preference/Preference;)Z
@@ -1331,12 +1328,14 @@
     move-result-object p1
 
     .line 26
-    invoke-super {p0, p1}, Landroidx/preference/Preference;->onRestoreInstanceState(Landroid/os/Parcelable;)V    return-void
+    invoke-super {p0, p1}, Landroidx/preference/Preference;->onRestoreInstanceState(Landroid/os/Parcelable;)V
+return-void
 
     .line 30
     :cond_1
     :goto_0
-    invoke-super {p0, p1}, Landroidx/preference/Preference;->onRestoreInstanceState(Landroid/os/Parcelable;)V    return-void
+    invoke-super {p0, p1}, Landroidx/preference/Preference;->onRestoreInstanceState(Landroid/os/Parcelable;)V
+return-void
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -1361,7 +1360,8 @@
 
     .line 8
     .line 9
-    invoke-direct {v1, v0, v2}, Landroidx/preference/PreferenceGroup$SavedState;-><init>(Landroid/os/Parcelable;I)V    return-object v1
+    invoke-direct {v1, v0, v2}, Landroidx/preference/PreferenceGroup$SavedState;-><init>(Landroid/os/Parcelable;I)V
+return-object v1
 .end method
 
 .method public removeAll()V
@@ -1433,7 +1433,8 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 28
-    invoke-virtual {p0}, Landroidx/preference/Preference;->notifyHierarchyChanged()V    return-void
+    invoke-virtual {p0}, Landroidx/preference/Preference;->notifyHierarchyChanged()V
+return-void
 
     .line 32
     :goto_1
@@ -1594,7 +1595,8 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/preference/PreferenceGroup;->mOrderingAsAdded:Z    return-void
+    iput-boolean p1, p0, Landroidx/preference/PreferenceGroup;->mOrderingAsAdded:Z
+return-void
 .end method
 
 .method public sortPreferences()V

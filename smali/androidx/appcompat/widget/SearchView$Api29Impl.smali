@@ -23,7 +23,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 .method public static refreshAutoCompleteResults(Landroid/widget/AutoCompleteTextView;)V
@@ -32,7 +33,8 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/AutoCompleteTextView;->refreshAutoCompleteResults()V    return-void
+    invoke-virtual {p0}, Landroid/widget/AutoCompleteTextView;->refreshAutoCompleteResults()V
+return-void
 .end method
 
 .method public static setInputMethodMode(Landroidx/appcompat/widget/SearchView$SearchAutoComplete;I)V

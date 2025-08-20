@@ -2260,8 +2260,7 @@
     new-instance v0, LA0/d;
 
     invoke-direct {v0, v1, v9, v14}, LA0/d;-><init>(Lk/q;LA/h;Lk/u;)V
-
-    return-object v0
+return-object v0
 
     .line 8
     :cond_1
@@ -2449,8 +2448,7 @@
     new-instance v0, LA0/d;
 
     invoke-direct {v0, v1, v9, v14}, LA0/d;-><init>(Lk/q;LA/h;Lk/u;)V
-
-    return-object v0
+return-object v0
 
     :catchall_0
     move-exception v0

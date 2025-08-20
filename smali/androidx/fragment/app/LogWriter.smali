@@ -110,14 +110,16 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/fragment/app/LogWriter;->flushBuilder()V    return-void
+    invoke-direct {p0}, Landroidx/fragment/app/LogWriter;->flushBuilder()V
+return-void
 .end method
 
 .method public flush()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/fragment/app/LogWriter;->flushBuilder()V    return-void
+    invoke-direct {p0}, Landroidx/fragment/app/LogWriter;->flushBuilder()V
+return-void
 .end method
 
 .method public write([CII)V

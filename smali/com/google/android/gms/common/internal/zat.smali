@@ -119,8 +119,7 @@
 
     .line 2
     invoke-direct {p0, v0, p1, p2, p3}, Lcom/google/android/gms/common/internal/zat;-><init>(ILandroid/accounts/Account;ILcom/google/android/gms/auth/api/signin/GoogleSignInAccount;)V
-
-    return-void
+return-void
 .end method
 
 

@@ -56,8 +56,7 @@
     .end annotation
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public static getStatusCodeString(I)Ljava/lang/String;

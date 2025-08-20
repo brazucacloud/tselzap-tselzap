@@ -22,8 +22,7 @@
     iput-object p1, p0, Lcom/fmark/tselzap/fragments/e;->c:Lcom/fmark/tselzap/fragments/Bot_coder;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 
@@ -39,15 +38,13 @@
     iget-object v0, p0, Lcom/fmark/tselzap/fragments/e;->c:Lcom/fmark/tselzap/fragments/Bot_coder;
 
     invoke-static {v0}, Lcom/fmark/tselzap/fragments/Bot_coder;->d(Lcom/fmark/tselzap/fragments/Bot_coder;)V
-
-    return-void
+return-void
 
     :pswitch_0
     iget-object v0, p0, Lcom/fmark/tselzap/fragments/e;->c:Lcom/fmark/tselzap/fragments/Bot_coder;
 
     invoke-static {v0}, Lcom/fmark/tselzap/fragments/Bot_coder;->l(Lcom/fmark/tselzap/fragments/Bot_coder;)V
-
-    return-void
+return-void
 
     nop
 

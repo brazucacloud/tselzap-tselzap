@@ -372,8 +372,7 @@
     iget-object p1, p0, Landroidx/emoji2/text/EmojiCompat$Config;->mEmojiAsDefaultStyleExceptions:[I
 
     invoke-static {p1}, Ljava/util/Arrays;->sort([I)V
-
-    return-object p0
+return-object p0
 
     :cond_1
     const/4 p1, 0x0

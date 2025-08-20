@@ -75,8 +75,7 @@
     iget-object v0, p0, Landroidx/constraintlayout/core/dsl/ConstraintSet;->mConstraints:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
-
-    return-void
+return-void
 .end method
 
 .method public add(Landroidx/constraintlayout/core/dsl/Helper;)V

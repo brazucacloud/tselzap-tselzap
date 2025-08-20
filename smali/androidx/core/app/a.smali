@@ -31,8 +31,7 @@
     iget-object v0, p0, Landroidx/core/app/a;->b:Landroid/app/Activity;
 
     invoke-static {v0}, Landroidx/core/app/ActivityCompat;->a(Landroid/app/Activity;)V
-
-    return-void
+return-void
 .end method
 
 .end class

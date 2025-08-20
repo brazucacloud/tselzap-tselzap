@@ -19,7 +19,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/graphics/Matrix;-><init>()V    return-void
+    invoke-direct {p0}, Landroid/graphics/Matrix;-><init>()V
+return-void
 .end method
 
 
@@ -235,14 +236,16 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V    return-void
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
+return-void
 .end method
 
 .method public set(Landroid/graphics/Matrix;)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V    return-void
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
+return-void
 .end method
 
 .method public setConcat(Landroid/graphics/Matrix;Landroid/graphics/Matrix;)Z
@@ -292,8 +295,7 @@
 
     .line 2
     invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
-
-    return-void
+return-void
 .end method
 
 .method public setRotate(FFF)V
@@ -301,8 +303,7 @@
 
     .line 1
     invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
-
-    return-void
+return-void
 .end method
 
 .method public setScale(FF)V
@@ -310,8 +311,7 @@
 
     .line 2
     invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
-
-    return-void
+return-void
 .end method
 
 .method public setScale(FFFF)V
@@ -319,8 +319,7 @@
 
     .line 1
     invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
-
-    return-void
+return-void
 .end method
 
 .method public setSinCos(FF)V
@@ -328,8 +327,7 @@
 
     .line 2
     invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
-
-    return-void
+return-void
 .end method
 
 .method public setSinCos(FFFF)V
@@ -337,8 +335,7 @@
 
     .line 1
     invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
-
-    return-void
+return-void
 .end method
 
 .method public setSkew(FF)V
@@ -346,8 +343,7 @@
 
     .line 2
     invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
-
-    return-void
+return-void
 .end method
 
 .method public setSkew(FFFF)V
@@ -355,21 +351,22 @@
 
     .line 1
     invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
-
-    return-void
+return-void
 .end method
 
 .method public setTranslate(FF)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V    return-void
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
+return-void
 .end method
 
 .method public setValues([F)V
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V    return-void
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
+return-void
 .end method
 .end class

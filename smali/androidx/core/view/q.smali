@@ -37,8 +37,7 @@
     iget-object v1, p0, Landroidx/core/view/q;->b:Landroidx/core/view/WindowInsetsControllerCompat$OnControllableInsetsChangedListener;
 
     invoke-static {v0, v1, p1, p2}, Landroidx/core/view/WindowInsetsControllerCompat$Impl30;->a(Landroidx/core/view/WindowInsetsControllerCompat$Impl30;Landroidx/core/view/WindowInsetsControllerCompat$OnControllableInsetsChangedListener;Landroid/view/WindowInsetsController;I)V
-
-    return-void
+return-void
 .end method
 
 .end class

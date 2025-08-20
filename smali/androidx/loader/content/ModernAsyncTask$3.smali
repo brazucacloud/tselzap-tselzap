@@ -34,7 +34,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, p2}, Ljava/util/concurrent/FutureTask;-><init>(Ljava/util/concurrent/Callable;)V    return-void
+    invoke-direct {p0, p2}, Ljava/util/concurrent/FutureTask;-><init>(Ljava/util/concurrent/Callable;)V
+return-void
 .end method
 
 

@@ -26,8 +26,7 @@
     move-result-object p1
 
     invoke-direct {p0, p1}, Landroidx/core/view/animation/PathInterpolatorApi14;-><init>(Landroid/graphics/Path;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(FFFF)V
@@ -39,8 +38,7 @@
     move-result-object p1
 
     invoke-direct {p0, p1}, Landroidx/core/view/animation/PathInterpolatorApi14;-><init>(Landroid/graphics/Path;)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/graphics/Path;)V

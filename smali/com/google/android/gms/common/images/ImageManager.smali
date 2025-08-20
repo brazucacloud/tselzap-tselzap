@@ -323,8 +323,7 @@
 
     .line 2
     invoke-virtual {p0, v0}, Lcom/google/android/gms/common/images/ImageManager;->zaj(Lcom/google/android/gms/common/images/zag;)V
-
-    return-void
+return-void
 .end method
 
 .method public loadImage(Landroid/widget/ImageView;Landroid/net/Uri;)V
@@ -345,8 +344,7 @@
 
     .line 4
     invoke-virtual {p0, v0}, Lcom/google/android/gms/common/images/ImageManager;->zaj(Lcom/google/android/gms/common/images/zag;)V
-
-    return-void
+return-void
 .end method
 
 .method public loadImage(Landroid/widget/ImageView;Landroid/net/Uri;I)V
@@ -369,8 +367,7 @@
 
     .line 6
     invoke-virtual {p0, v0}, Lcom/google/android/gms/common/images/ImageManager;->zaj(Lcom/google/android/gms/common/images/zag;)V
-
-    return-void
+return-void
 .end method
 
 .method public loadImage(Lcom/google/android/gms/common/images/ImageManager$OnImageLoadedListener;Landroid/net/Uri;)V
@@ -391,8 +388,7 @@
 
     .line 8
     invoke-virtual {p0, v0}, Lcom/google/android/gms/common/images/ImageManager;->zaj(Lcom/google/android/gms/common/images/zag;)V
-
-    return-void
+return-void
 .end method
 
 .method public loadImage(Lcom/google/android/gms/common/images/ImageManager$OnImageLoadedListener;Landroid/net/Uri;I)V
@@ -415,8 +411,7 @@
 
     .line 10
     invoke-virtual {p0, v0}, Lcom/google/android/gms/common/images/ImageManager;->zaj(Lcom/google/android/gms/common/images/zag;)V
-
-    return-void
+return-void
 .end method
 
 .method public final zaj(Lcom/google/android/gms/common/images/zag;)V

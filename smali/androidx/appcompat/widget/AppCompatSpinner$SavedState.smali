@@ -69,8 +69,7 @@
 
     :goto_0
     iput-boolean p1, p0, Landroidx/appcompat/widget/AppCompatSpinner$SavedState;->mShowDropdown:Z
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Landroid/os/Parcelable;)V
@@ -100,6 +99,7 @@
     int-to-byte p2, p2
 
     .line 7
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeByte(B)V    return-void
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeByte(B)V
+return-void
 .end method
 .end class

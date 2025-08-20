@@ -40,7 +40,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, p1}, Landroidx/activity/OnBackPressedCallback;-><init>(Z)V    return-void
+    invoke-direct {p0, p1}, Landroidx/activity/OnBackPressedCallback;-><init>(Z)V
+return-void
 .end method
 
 

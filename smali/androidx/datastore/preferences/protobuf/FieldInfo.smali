@@ -1166,7 +1166,8 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;-><init>(Landroidx/datastore/preferences/protobuf/FieldInfo$1;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;-><init>(Landroidx/datastore/preferences/protobuf/FieldInfo$1;)V
+return-object v0
 .end method
 
 

@@ -35,8 +35,7 @@
     iget-object v1, p0, Lcom/google/android/gms/common/api/internal/zacg;->zab:Landroid/os/IBinder;
 
     invoke-virtual {v0, v1}, Lcom/google/android/gms/common/api/internal/NonGmsServiceBrokerClient;->zaa(Landroid/os/IBinder;)V
-
-    return-void
+return-void
 .end method
 
 .end class

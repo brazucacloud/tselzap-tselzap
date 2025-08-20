@@ -81,7 +81,8 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 .method public static clearCachedBuffer()V
@@ -95,7 +96,8 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-virtual {v0, v1}, Ljava/lang/ThreadLocal;->set(Ljava/lang/Object;)V    return-void
+    invoke-virtual {v0, v1}, Ljava/lang/ThreadLocal;->set(Ljava/lang/Object;)V
+return-void
 .end method
 
 .method private static getBuffer()[B
@@ -345,7 +347,8 @@
     .line 6
     .line 7
     .line 8
-    invoke-virtual {v0, v1}, Ljava/lang/ThreadLocal;->set(Ljava/lang/Object;)V    return-void
+    invoke-virtual {v0, v1}, Ljava/lang/ThreadLocal;->set(Ljava/lang/Object;)V
+return-void
 .end method
 
 .method public static write(Ljava/nio/ByteBuffer;Ljava/io/OutputStream;)V

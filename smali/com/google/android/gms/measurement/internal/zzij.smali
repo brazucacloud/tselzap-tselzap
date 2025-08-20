@@ -522,14 +522,12 @@
     .line 19
     :cond_0
     invoke-virtual {v0}, Ljava/util/concurrent/FutureTask;->run()V
-
-    return-object v0
+return-object v0
 
     .line 20
     :cond_1
     invoke-direct {p0, v0}, Lcom/google/android/gms/measurement/internal/zzij;->zza(Lcom/google/android/gms/measurement/internal/zzik;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public final zza(Ljava/lang/Runnable;)V
@@ -663,14 +661,12 @@
 
     .line 8
     invoke-virtual {v0}, Ljava/util/concurrent/FutureTask;->run()V
-
-    return-object v0
+return-object v0
 
     .line 9
     :cond_0
     invoke-direct {p0, v0}, Lcom/google/android/gms/measurement/internal/zzij;->zza(Lcom/google/android/gms/measurement/internal/zzik;)V
-
-    return-object v0
+return-object v0
 .end method
 
 .method public final zzb(Ljava/lang/Runnable;)V
@@ -692,8 +688,7 @@
     invoke-direct {v0, p0, p1, v1, v2}, Lcom/google/android/gms/measurement/internal/zzik;-><init>(Lcom/google/android/gms/measurement/internal/zzij;Ljava/lang/Runnable;ZLjava/lang/String;)V
 
     invoke-direct {p0, v0}, Lcom/google/android/gms/measurement/internal/zzij;->zza(Lcom/google/android/gms/measurement/internal/zzik;)V
-
-    return-void
+return-void
 .end method
 
 .method public final zzc(Ljava/lang/Runnable;)V
@@ -715,8 +710,7 @@
     invoke-direct {v0, p0, p1, v1, v2}, Lcom/google/android/gms/measurement/internal/zzik;-><init>(Lcom/google/android/gms/measurement/internal/zzij;Ljava/lang/Runnable;ZLjava/lang/String;)V
 
     invoke-direct {p0, v0}, Lcom/google/android/gms/measurement/internal/zzij;->zza(Lcom/google/android/gms/measurement/internal/zzik;)V
-
-    return-void
+return-void
 .end method
 
 .method public final bridge synthetic zzd()Lcom/google/android/gms/measurement/internal/zzad;

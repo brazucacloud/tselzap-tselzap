@@ -104,8 +104,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/window/embedding/SplitController;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public static final synthetic access$getGlobalInstance$cp()Landroidx/window/embedding/SplitController;
@@ -171,8 +170,7 @@
     sget-object v0, Landroidx/window/embedding/SplitController;->Companion:Landroidx/window/embedding/SplitController$Companion;
 
     invoke-virtual {v0, p0, p1}, Landroidx/window/embedding/SplitController$Companion;->initialize(Landroid/content/Context;I)V
-
-    return-void
+return-void
 .end method
 
 .method private final setStaticSplitRules(Ljava/util/Set;)V

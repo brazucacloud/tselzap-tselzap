@@ -100,7 +100,8 @@
     const/4 p1, 0x2
 
     .line 10
-    invoke-direct {p0, p1, p5}, Li1/i;-><init>(ILg1/d;)V    return-void
+    invoke-direct {p0, p1, p5}, Li1/i;-><init>(ILg1/d;)V
+return-void
 .end method
 
 
@@ -143,7 +144,8 @@
     move-object v5, p2
 
     .line 12
-    invoke-direct/range {v0 .. v5}, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1;-><init>(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;Lz1/v;Lp1/p;Lg1/d;)V    return-object v0
+    invoke-direct/range {v0 .. v5}, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1;-><init>(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;Lz1/v;Lp1/p;Lg1/d;)V
+return-object v0
 .end method
 
 .method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;

@@ -40,8 +40,7 @@
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/google/android/gms/common/internal/DowngradeableSafeParcel;->zzb:Z
-
-    return-void
+return-void
 .end method
 
 .method public static canUnparcelSafely(Ljava/lang/String;)Z
@@ -163,8 +162,7 @@
     .end annotation
 
     iput-boolean p1, p0, Lcom/google/android/gms/common/internal/DowngradeableSafeParcel;->zzb:Z
-
-    return-void
+return-void
 .end method
 
 .method public shouldDowngrade()Z

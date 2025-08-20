@@ -39,8 +39,7 @@
     move-result v0
 
     invoke-direct {p0, v0}, Landroidx/core/text/BidiFormatter$Builder;->initialize(Z)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Ljava/util/Locale;)V
@@ -55,8 +54,7 @@
     move-result p1
 
     invoke-direct {p0, p1}, Landroidx/core/text/BidiFormatter$Builder;->initialize(Z)V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Z)V
@@ -67,8 +65,7 @@
 
     .line 4
     invoke-direct {p0, p1}, Landroidx/core/text/BidiFormatter$Builder;->initialize(Z)V
-
-    return-void
+return-void
 .end method
 
 .method private static getDefaultInstanceFromContext(Z)Landroidx/core/text/BidiFormatter;

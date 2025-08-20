@@ -50,7 +50,8 @@
     const/4 p1, 0x1
 
     .line 14
-    iput-boolean p1, p0, Landroidx/preference/PreferenceScreen;->mShouldUseGeneratedIds:Z    return-void
+    iput-boolean p1, p0, Landroidx/preference/PreferenceScreen;->mShouldUseGeneratedIds:Z
+return-void
 .end method
 
 
@@ -153,7 +154,8 @@
 
     .line 6
     .line 7
-    iput-boolean p1, p0, Landroidx/preference/PreferenceScreen;->mShouldUseGeneratedIds:Z    return-void
+    iput-boolean p1, p0, Landroidx/preference/PreferenceScreen;->mShouldUseGeneratedIds:Z
+return-void
 
     .line 10
     :cond_0

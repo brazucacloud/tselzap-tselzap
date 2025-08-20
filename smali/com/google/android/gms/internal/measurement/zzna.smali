@@ -363,8 +363,7 @@
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public static zza(Ljava/lang/Object;J)D
@@ -460,8 +459,7 @@
 
     .line 2
     invoke-static {p0, p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzna;->zzc(Ljava/lang/Object;JB)V
-
-    return-void
+return-void
 .end method
 
 .method public static zza(Ljava/lang/Object;JD)V
@@ -477,8 +475,7 @@
     move-wide v4, p3
 
     invoke-virtual/range {v0 .. v5}, Lcom/google/android/gms/internal/measurement/zzna$zzb;->zza(Ljava/lang/Object;JD)V
-
-    return-void
+return-void
 .end method
 
 .method public static zza(Ljava/lang/Object;JF)V
@@ -488,8 +485,7 @@
     sget-object v0, Lcom/google/android/gms/internal/measurement/zzna;->zzf:Lcom/google/android/gms/internal/measurement/zzna$zzb;
 
     invoke-virtual {v0, p0, p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzna$zzb;->zza(Ljava/lang/Object;JF)V
-
-    return-void
+return-void
 .end method
 
 .method public static zza(Ljava/lang/Object;JI)V
@@ -499,8 +495,7 @@
     sget-object v0, Lcom/google/android/gms/internal/measurement/zzna;->zzf:Lcom/google/android/gms/internal/measurement/zzna$zzb;
 
     invoke-virtual {v0, p0, p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzna$zzb;->zza(Ljava/lang/Object;JI)V
-
-    return-void
+return-void
 .end method
 
 .method public static zza(Ljava/lang/Object;JJ)V
@@ -516,8 +511,7 @@
     move-wide v4, p3
 
     invoke-virtual/range {v0 .. v5}, Lcom/google/android/gms/internal/measurement/zzna$zzb;->zza(Ljava/lang/Object;JJ)V
-
-    return-void
+return-void
 .end method
 
 .method public static zza(Ljava/lang/Object;JLjava/lang/Object;)V
@@ -530,8 +524,7 @@
     iget-object v0, v0, Lcom/google/android/gms/internal/measurement/zzna$zzb;->zza:Lsun/misc/Unsafe;
 
     invoke-virtual {v0, p0, p1, p2, p3}, Lsun/misc/Unsafe;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic zza(Ljava/lang/Object;JZ)V
@@ -541,8 +534,7 @@
 
     .line 9
     invoke-static {p0, p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzna;->zzc(Ljava/lang/Object;JB)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic zza(Ljava/lang/Throwable;)V
@@ -577,8 +569,7 @@
     const-string v3, "logMissingMethod"
 
     invoke-virtual {v0, v1, v2, v3, p0}, Ljava/util/logging/Logger;->logp(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-
-    return-void
+return-void
 .end method
 
 .method public static zza([BJB)V
@@ -592,8 +583,7 @@
     add-long/2addr v1, p1
 
     invoke-virtual {v0, p0, v1, v2, p3}, Lcom/google/android/gms/internal/measurement/zzna$zzb;->zza(Ljava/lang/Object;JB)V
-
-    return-void
+return-void
 .end method
 
 .method public static zzb(Ljava/lang/Object;J)F
@@ -672,8 +662,7 @@
 
     .line 1
     invoke-static {p0, p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzna;->zzd(Ljava/lang/Object;JB)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic zzb(Ljava/lang/Object;JZ)V
@@ -683,8 +672,7 @@
 
     .line 7
     invoke-static {p0, p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzna;->zzd(Ljava/lang/Object;JB)V
-
-    return-void
+return-void
 .end method
 
 .method private static zzc(Ljava/lang/Class;)I
@@ -768,8 +756,7 @@
 
     .line 6
     invoke-static {p0, v0, v1, p1}, Lcom/google/android/gms/internal/measurement/zzna;->zza(Ljava/lang/Object;JI)V
-
-    return-void
+return-void
 .end method
 
 .method public static zzc(Ljava/lang/Object;JZ)V
@@ -779,8 +766,7 @@
     sget-object v0, Lcom/google/android/gms/internal/measurement/zzna;->zzf:Lcom/google/android/gms/internal/measurement/zzna$zzb;
 
     invoke-virtual {v0, p0, p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzna$zzb;->zza(Ljava/lang/Object;JZ)V
-
-    return-void
+return-void
 .end method
 
 .method public static zzc()Z
@@ -839,8 +825,7 @@
 
     .line 3
     invoke-static {p0, v0, v1, p1}, Lcom/google/android/gms/internal/measurement/zzna;->zza(Ljava/lang/Object;JI)V
-
-    return-void
+return-void
 .end method
 
 .method public static zzd()Z

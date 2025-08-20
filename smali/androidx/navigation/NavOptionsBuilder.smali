@@ -84,8 +84,7 @@
 
     :cond_0
     invoke-virtual {p0, p1, p2}, Landroidx/navigation/NavOptionsBuilder;->popUpTo(ILp1/l;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic popUpTo$default(Landroidx/navigation/NavOptionsBuilder;Ljava/lang/Object;Lp1/l;ILjava/lang/Object;)V
@@ -100,8 +99,7 @@
 
     :cond_0
     invoke-virtual {p0, p1, p2}, Landroidx/navigation/NavOptionsBuilder;->popUpTo(Ljava/lang/Object;Lp1/l;)V
-
-    return-void
+return-void
 .end method
 
 .method public static synthetic popUpTo$default(Landroidx/navigation/NavOptionsBuilder;Ljava/lang/String;Lp1/l;ILjava/lang/Object;)V
@@ -116,8 +114,7 @@
 
     :cond_0
     invoke-virtual {p0, p1, p2}, Landroidx/navigation/NavOptionsBuilder;->popUpTo(Ljava/lang/String;Lp1/l;)V
-
-    return-void
+return-void
 .end method
 
 .method public static popUpTo$default(Landroidx/navigation/NavOptionsBuilder;Lp1/l;ILjava/lang/Object;)V
@@ -171,7 +168,8 @@
     const/4 p1, 0x0
 
     .line 12
-    iput-boolean p1, p0, Landroidx/navigation/NavOptionsBuilder;->inclusive:Z    return-void
+    iput-boolean p1, p0, Landroidx/navigation/NavOptionsBuilder;->inclusive:Z
+return-void
 
     .line 15
     :cond_0
@@ -587,8 +585,7 @@
     move-result p1
 
     iput-boolean p1, p0, Landroidx/navigation/NavOptionsBuilder;->saveState:Z
-
-    return-void
+return-void
 .end method
 
 .method public final popUpTo(Ljava/lang/Object;Lp1/l;)V
@@ -644,8 +641,7 @@
     move-result p1
 
     iput-boolean p1, p0, Landroidx/navigation/NavOptionsBuilder;->saveState:Z
-
-    return-void
+return-void
 .end method
 
 .method public final popUpTo(Ljava/lang/String;Lp1/l;)V
@@ -695,8 +691,7 @@
     move-result p1
 
     iput-boolean p1, p0, Landroidx/navigation/NavOptionsBuilder;->saveState:Z
-
-    return-void
+return-void
 .end method
 
 .method public final popUpTo(Lp1/l;)V
@@ -783,15 +778,15 @@
     move-result p1
 
     iput-boolean p1, p0, Landroidx/navigation/NavOptionsBuilder;->saveState:Z
-
-    return-void
+return-void
 .end method
 
 .method public final setLaunchSingleTop(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/navigation/NavOptionsBuilder;->launchSingleTop:Z    return-void
+    iput-boolean p1, p0, Landroidx/navigation/NavOptionsBuilder;->launchSingleTop:Z
+return-void
 .end method
 
 .method public final setPopUpTo(I)V
@@ -804,7 +799,8 @@
     const/4 v1, 0x2
 
     .line 3
-    invoke-static {p0, p1, v0, v1, v0}, Landroidx/navigation/NavOptionsBuilder;->popUpTo$default(Landroidx/navigation/NavOptionsBuilder;ILp1/l;ILjava/lang/Object;)V    return-void
+    invoke-static {p0, p1, v0, v1, v0}, Landroidx/navigation/NavOptionsBuilder;->popUpTo$default(Landroidx/navigation/NavOptionsBuilder;ILp1/l;ILjava/lang/Object;)V
+return-void
 .end method
 
 .method public final setPopUpToId$navigation_common_release(I)V
@@ -818,13 +814,15 @@
     const/4 p1, 0x0
 
     .line 4
-    iput-boolean p1, p0, Landroidx/navigation/NavOptionsBuilder;->inclusive:Z    return-void
+    iput-boolean p1, p0, Landroidx/navigation/NavOptionsBuilder;->inclusive:Z
+return-void
 .end method
 
 .method public final setRestoreState(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/navigation/NavOptionsBuilder;->restoreState:Z    return-void
+    iput-boolean p1, p0, Landroidx/navigation/NavOptionsBuilder;->restoreState:Z
+return-void
 .end method
 .end class

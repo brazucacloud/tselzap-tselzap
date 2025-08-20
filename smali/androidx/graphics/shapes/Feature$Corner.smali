@@ -50,8 +50,7 @@
 
     .line 6
     iput-boolean p6, p0, Landroidx/graphics/shapes/Feature$Corner;->convex:Z
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Ljava/util/List;JJZILkotlin/jvm/internal/e;)V
@@ -83,8 +82,7 @@
 
     .line 2
     invoke-direct/range {v0 .. v7}, Landroidx/graphics/shapes/Feature$Corner;-><init>(Ljava/util/List;JJZLkotlin/jvm/internal/e;)V
-
-    return-void
+return-void
 .end method
 
 .method public synthetic constructor <init>(Ljava/util/List;JJZLkotlin/jvm/internal/e;)V
@@ -92,8 +90,7 @@
 
     .line 1
     invoke-direct/range {p0 .. p6}, Landroidx/graphics/shapes/Feature$Corner;-><init>(Ljava/util/List;JJZ)V
-
-    return-void
+return-void
 .end method
 
 
@@ -337,6 +334,7 @@
     const/4 v10, 0x0
 
     .line 63
-    invoke-direct/range {v3 .. v10}, Landroidx/graphics/shapes/Feature$Corner;-><init>(Ljava/util/List;JJZLkotlin/jvm/internal/e;)V    return-object v3
+    invoke-direct/range {v3 .. v10}, Landroidx/graphics/shapes/Feature$Corner;-><init>(Ljava/util/List;JJZLkotlin/jvm/internal/e;)V
+return-object v3
 .end method
 .end class

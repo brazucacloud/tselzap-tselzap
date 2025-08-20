@@ -71,8 +71,7 @@
     const/4 p1, 0x3
 
     invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 
@@ -133,7 +132,6 @@
     iget-object v1, p0, Landroidx/navigation/serialization/RouteSerializerKt$generateRouteWithArgs$1;->$builder:Landroidx/navigation/serialization/RouteBuilder;
 
     invoke-virtual {v1, p1, p2, p3, v0}, Landroidx/navigation/serialization/RouteBuilder;->appendArg(ILjava/lang/String;Landroidx/navigation/NavType;Ljava/util/List;)V
-
-    return-void
+return-void
 .end method
 .end class

@@ -35,8 +35,7 @@
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/api/Response;-><init>()V
-
-    return-void
+return-void
 .end method
 
 .method public constructor <init>(Lcom/google/android/gms/common/data/AbstractDataBuffer;)V
@@ -56,8 +55,7 @@
 
     .line 2
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/Response;-><init>(Lcom/google/android/gms/common/api/Result;)V
-
-    return-void
+return-void
 .end method
 
 

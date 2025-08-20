@@ -1556,8 +1556,7 @@
     .locals 0
 
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/zaaw;->zaA()V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic zar(Lcom/google/android/gms/common/api/internal/zaaw;Lcom/google/android/gms/signin/internal/zak;)V
@@ -1792,24 +1791,21 @@
     .locals 0
 
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/zaaw;->zaD(Lcom/google/android/gms/common/ConnectionResult;)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic zat(Lcom/google/android/gms/common/api/internal/zaaw;Lcom/google/android/gms/common/ConnectionResult;Lcom/google/android/gms/common/api/Api;Z)V
     .locals 0
 
     invoke-direct {p0, p1, p2, p3}, Lcom/google/android/gms/common/api/internal/zaaw;->zaE(Lcom/google/android/gms/common/ConnectionResult;Lcom/google/android/gms/common/api/Api;Z)V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic zau(Lcom/google/android/gms/common/api/internal/zaaw;)V
     .locals 0
 
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/zaaw;->zaF()V
-
-    return-void
+return-void
 .end method
 
 .method public static bridge synthetic zav(Lcom/google/android/gms/common/api/internal/zaaw;)Z

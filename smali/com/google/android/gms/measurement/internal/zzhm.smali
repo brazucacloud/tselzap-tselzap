@@ -292,8 +292,7 @@
 
     .line 13
     iput-boolean v0, p0, Lcom/google/android/gms/measurement/internal/zzhm;->zzb:Z
-
-    return-void
+return-void
 .end method
 
 .method public final zzb()V

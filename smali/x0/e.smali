@@ -15,8 +15,7 @@
     iput p2, p0, Lx0/e;->e:I
 
     invoke-direct {p0, p1}, Lx0/q;-><init>(Lx0/p;)V
-
-    return-void
+return-void
 .end method
 
 

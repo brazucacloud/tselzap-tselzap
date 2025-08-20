@@ -316,7 +316,8 @@
 
     .line 5
     .line 6
-    invoke-interface {v0}, Landroid/view/Menu;->clear()V    return-void
+    invoke-interface {v0}, Landroid/view/Menu;->clear()V
+return-void
 .end method
 
 .method public close()V
@@ -327,7 +328,8 @@
 
     .line 2
     .line 3
-    invoke-interface {v0}, Landroid/view/Menu;->close()V    return-void
+    invoke-interface {v0}, Landroid/view/Menu;->close()V
+return-void
 .end method
 
 .method public findItem(I)Landroid/view/MenuItem;
@@ -467,7 +469,8 @@
 
     .line 5
     .line 6
-    invoke-interface {v0, p1}, Landroid/view/Menu;->removeGroup(I)V    return-void
+    invoke-interface {v0, p1}, Landroid/view/Menu;->removeGroup(I)V
+return-void
 .end method
 
 .method public removeItem(I)V
@@ -483,7 +486,8 @@
 
     .line 5
     .line 6
-    invoke-interface {v0, p1}, Landroid/view/Menu;->removeItem(I)V    return-void
+    invoke-interface {v0, p1}, Landroid/view/Menu;->removeItem(I)V
+return-void
 .end method
 
 .method public setGroupCheckable(IZZ)V
@@ -494,7 +498,8 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1, p2, p3}, Landroid/view/Menu;->setGroupCheckable(IZZ)V    return-void
+    invoke-interface {v0, p1, p2, p3}, Landroid/view/Menu;->setGroupCheckable(IZZ)V
+return-void
 .end method
 
 .method public setGroupEnabled(IZ)V
@@ -505,7 +510,8 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1, p2}, Landroid/view/Menu;->setGroupEnabled(IZ)V    return-void
+    invoke-interface {v0, p1, p2}, Landroid/view/Menu;->setGroupEnabled(IZ)V
+return-void
 .end method
 
 .method public setGroupVisible(IZ)V
@@ -527,7 +533,8 @@
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroid/view/Menu;->setQwertyMode(Z)V    return-void
+    invoke-interface {v0, p1}, Landroid/view/Menu;->setQwertyMode(Z)V
+return-void
 .end method
 
 .method public size()I

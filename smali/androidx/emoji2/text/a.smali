@@ -31,8 +31,7 @@
     iget-object v0, p0, Landroidx/emoji2/text/a;->b:Landroid/os/Handler;
 
     invoke-virtual {v0, p1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
-
-    return-void
+return-void
 .end method
 
 .end class

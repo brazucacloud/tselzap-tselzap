@@ -2190,7 +2190,8 @@
     move-result-object p1
 
     .line 7
-    invoke-static {p0, p1}, Landroidx/constraintlayout/motion/widget/KeyAttributes$Loader;->read(Landroidx/constraintlayout/motion/widget/KeyAttributes;Landroid/content/res/TypedArray;)V    return-void
+    invoke-static {p0, p1}, Landroidx/constraintlayout/motion/widget/KeyAttributes$Loader;->read(Landroidx/constraintlayout/motion/widget/KeyAttributes;Landroid/content/res/TypedArray;)V
+return-void
 .end method
 
 .method public setInterpolation(Ljava/util/HashMap;)V
@@ -3377,7 +3378,8 @@
     move-result p1
 
     .line 235
-    iput-boolean p1, p0, Landroidx/constraintlayout/motion/widget/KeyAttributes;->mVisibility:Z    return-void
+    iput-boolean p1, p0, Landroidx/constraintlayout/motion/widget/KeyAttributes;->mVisibility:Z
+return-void
 
     .line 238
     :pswitch_1

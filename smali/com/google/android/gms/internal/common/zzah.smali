@@ -20,8 +20,7 @@
 
     .line 2
     invoke-direct {p0, p1}, Lcom/google/android/gms/internal/common/zzae;-><init>(I)V
-
-    return-void
+return-void
 .end method
 
 

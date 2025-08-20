@@ -39,8 +39,7 @@
     move-object v5, p5
 
     invoke-static/range {v0 .. v5}, Lcom/google/android/gms/measurement/internal/zzim;->zza(Lcom/google/android/gms/measurement/internal/zzim;Ljava/lang/String;ILjava/lang/Throwable;[BLjava/util/Map;)V
-
-    return-void
+return-void
 .end method
 
 .end class

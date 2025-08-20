@@ -180,7 +180,8 @@
     move-result-object v1
 
     .line 7
-    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;-><init>(Ljava/lang/String;)V    return-object v0
+    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;-><init>(Ljava/lang/String;)V
+return-object v0
 .end method
 
 .method public getMissingFields()Ljava/util/List;

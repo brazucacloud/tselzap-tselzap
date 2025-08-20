@@ -56,7 +56,8 @@
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V    return-void
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+return-void
 .end method
 
 
@@ -109,6 +110,7 @@
 
     .line 20
     :goto_0
-    invoke-interface {v0, p1}, Lg1/d;->resumeWith(Ljava/lang/Object;)V    return-void
+    invoke-interface {v0, p1}, Lg1/d;->resumeWith(Ljava/lang/Object;)V
+return-void
 .end method
 .end class

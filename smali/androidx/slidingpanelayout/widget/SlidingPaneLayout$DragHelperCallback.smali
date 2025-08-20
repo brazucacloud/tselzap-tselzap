@@ -27,7 +27,8 @@
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/customview/widget/ViewDragHelper$Callback;-><init>()V    return-void
+    invoke-direct {p0}, Landroidx/customview/widget/ViewDragHelper$Callback;-><init>()V
+return-void
 .end method
 
 .method private isDraggable()Z
@@ -406,7 +407,8 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->setAllChildrenVisible()V    return-void
+    invoke-virtual {p1}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->setAllChildrenVisible()V
+return-void
 .end method
 
 .method public onViewDragStateChanged(I)V
@@ -482,7 +484,8 @@
     const/4 v0, 0x0
 
     .line 36
-    iput-boolean v0, p1, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mPreservedOpenState:Z    return-void
+    iput-boolean v0, p1, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mPreservedOpenState:Z
+return-void
 
     .line 39
     :cond_0
@@ -527,7 +530,8 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p1}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public onViewReleased(Landroid/view/View;FF)V
@@ -757,7 +761,8 @@
 
     .line 105
     .line 106
-    invoke-virtual {p1}, Landroid/view/View;->invalidate()V    return-void
+    invoke-virtual {p1}, Landroid/view/View;->invalidate()V
+return-void
 .end method
 
 .method public tryCaptureView(Landroid/view/View;I)Z

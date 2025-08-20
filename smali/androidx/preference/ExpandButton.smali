@@ -86,7 +86,8 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0, v0}, Landroidx/preference/Preference;->setOrder(I)V    return-void
+    invoke-virtual {p0, v0}, Landroidx/preference/Preference;->setOrder(I)V
+return-void
 .end method
 
 .method private setSummary(Ljava/util/List;)V
@@ -293,7 +294,8 @@
 
     .line 91
     :cond_4
-    invoke-virtual {p0, v1}, Landroidx/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V    return-void
+    invoke-virtual {p0, v1}, Landroidx/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
+return-void
 .end method
 
 
