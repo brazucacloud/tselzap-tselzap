@@ -6956,21 +6956,6 @@
     <public type="style" name="alert_dialog_light" id="0x7f14050a" />
     <public type="style" name="dialog_blue_button" id="0x7f14050b" />
     <public type="style" name="tooltip_dialog_anaimation" id="0x7f14050c" />
-    <public type="style" name="Base.V22.Theme.AppCompat" id="0x7f1400b8" />
-    <public type="style" name="Base.V22.Theme.AppCompat.Light" id="0x7f1400b9" />
-    <public type="style" name="Base.V23.Theme.AppCompat" id="0x7f1400ba" />
-    <public type="style" name="Base.V23.Theme.AppCompat.Light" id="0x7f1400bb" />
-    <public type="style" name="Base.V24.Theme.Material3.Dark" id="0x7f1400bc" />
-    <public type="style" name="Base.V24.Theme.Material3.Dark.Dialog" id="0x7f1400bd" />
-    <public type="style" name="Base.V24.Theme.Material3.Light" id="0x7f1400be" />
-    <public type="style" name="Base.V24.Theme.Material3.Light.Dialog" id="0x7f1400bf" />
-    <public type="style" name="Platform.V25.AppCompat" id="0x7f140159" />
-    <public type="style" name="Platform.V25.AppCompat.Light" id="0x7f14015a" />
-    <public type="style" name="Base.V26.Theme.AppCompat" id="0x7f1400c0" />
-    <public type="style" name="Base.V26.Theme.AppCompat.Light" id="0x7f1400c1" />
-    <public type="style" name="Base.V26.Widget.AppCompat.Toolbar" id="0x7f1400c2" />
-    <public type="style" name="Base.V28.Theme.AppCompat" id="0x7f1400c3" />
-    <public type="style" name="Base.V28.Theme.AppCompat.Light" id="0x7f1400c4" />
     <public type="xml" name="backup_config" id="0x7f160000" />
     <public type="xml" name="filepaths" id="0x7f160001" />
     <public type="xml" name="m3_button_group_child_size_change" id="0x7f160002" />
