@@ -32,6 +32,15 @@ def fix_smali_file(file_path):
             
         # Detectar return statements
         elif in_method and (line.startswith('return-') or line.startswith('return ')):
+            # Verificar se há .line órfãs ANTES do return
+            # Remover .line órfãs imediatamente anteriores
+            while (len(fixed_lines) > 0 and 
+                   fixed_lines[-1].strip().startswith('.line ') and
+                   len(fixed_lines) > 1 and
+                   not fixed_lines[-2].strip().startswith('.line')):
+                removed_count += 1
+                fixed_lines.pop()
+            
             fixed_lines.append(lines[i])
             skip_orphan_lines = True
             

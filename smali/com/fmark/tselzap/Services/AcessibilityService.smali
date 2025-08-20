@@ -292,7 +292,6 @@
     .line 4
     move-result p1
 
-    .line 5
     return p1
 .end method
 
@@ -393,7 +392,6 @@
     .line 48
     const/4 p1, 0x1
 
-    .line 49
     return p1
 
     .line 50
@@ -5546,7 +5544,6 @@
     .line 45
     const/4 p0, 0x1
 
-    .line 46
     return p0
 
     .line 47
@@ -6899,7 +6896,6 @@
     .line 33
     const/4 v0, 0x1
 
-    .line 34
     return v0
 
     .line 35
@@ -7066,7 +7062,6 @@
     .line 74
     move-result-object p1
 
-    .line 75
     return-object p1
 
     .line 76
@@ -7806,9 +7801,6 @@
     .line 60
     invoke-static {v2, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 61
-    .line 62
-    .line 63
     return-object p1
 .end method
 
