@@ -41,4 +41,3 @@
     iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Helper$HelperType;->mName:Ljava/lang/String;    return-object v0
 .end method
 
-.end class

@@ -7,4 +7,3 @@
 .method public abstract b(Lk/C;Li/i;)Lk/C;
 .end method
 
-.end class

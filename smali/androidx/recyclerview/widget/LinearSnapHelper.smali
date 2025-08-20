@@ -1020,4 +1020,3 @@
     return v7
 .end method
 
-.end class

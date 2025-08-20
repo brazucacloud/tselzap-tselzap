@@ -26,4 +26,3 @@
 
 .field public k:[I
 
-.end class

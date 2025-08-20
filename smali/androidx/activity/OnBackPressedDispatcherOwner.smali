@@ -10,4 +10,3 @@
 .method public abstract getOnBackPressedDispatcher()Landroidx/activity/OnBackPressedDispatcher;
 .end method
 
-.end class

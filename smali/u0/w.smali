@@ -62,4 +62,3 @@
 .method public abstract a(Landroid/graphics/Matrix;Lt0/a;ILandroid/graphics/Canvas;)V
 .end method
 
-.end class

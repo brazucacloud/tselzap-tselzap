@@ -16,4 +16,3 @@
     name = "UrlRewriter"
 .end annotation
 
-.end class

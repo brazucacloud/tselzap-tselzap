@@ -2268,4 +2268,3 @@ return-object p2
     .line 82
     throw p2.end method
 
-.end class

@@ -16,4 +16,3 @@
     name = "HasOptions"
 .end annotation
 
-.end class

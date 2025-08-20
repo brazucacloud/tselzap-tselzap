@@ -68,4 +68,3 @@
     mul-float v0, v0, v1    return v0
 .end method
 
-.end class

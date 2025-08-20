@@ -76,8 +76,7 @@
         value = {
             "(TK;",
             "Ljava/util/function/BiFunction<",
-            "-TK;
-    -TV;+TV;>;)TV;"
+            "-TK;-TV;+TV;>;)TV;"
         }
     .end annotation
 
@@ -115,8 +114,7 @@
         value = {
             "(TK;",
             "Ljava/util/function/BiFunction<",
-            "-TK;
-    -TV;+TV;>;)TV;"
+            "-TK;-TV;+TV;>;)TV;"
         }
     .end annotation
 
@@ -338,8 +336,7 @@ return-object v0
         value = {
             "(TK;TV;",
             "Ljava/util/function/BiFunction<",
-            "-TV;
-    -TV;+TV;>;)TV;"
+            "-TV;-TV;+TV;>;)TV;"
         }
     .end annotation
 
@@ -480,8 +477,7 @@ return-object v0
         value = {
             "(",
             "Ljava/util/function/BiFunction<",
-            "-TK;
-    -TV;+TV;>;)V"
+            "-TK;-TV;+TV;>;)V"
         }
     .end annotation
 
@@ -529,4 +525,3 @@ return-object v0
     return-object v0
 .end method
 
-.end class

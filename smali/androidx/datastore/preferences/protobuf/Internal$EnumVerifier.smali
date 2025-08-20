@@ -18,4 +18,3 @@
 .method public abstract isInRange(I)Z
 .end method
 
-.end class

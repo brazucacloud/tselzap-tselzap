@@ -10,4 +10,3 @@
 .method public abstract b(Ljava/lang/Object;IILi/i;)Lo/n;
 .end method
 
-.end class

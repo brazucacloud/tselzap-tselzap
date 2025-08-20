@@ -55,4 +55,3 @@
 .method public abstract zzf(Ljava/lang/Object;)Z
 .end method
 
-.end class

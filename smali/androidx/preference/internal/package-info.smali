@@ -9,4 +9,3 @@
         .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
-.end class

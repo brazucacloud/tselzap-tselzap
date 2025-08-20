@@ -581,4 +581,3 @@ return-object p0
     iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/Easing;->mStr:Ljava/lang/String;    return-object v0
 .end method
 
-.end class

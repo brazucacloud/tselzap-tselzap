@@ -32,4 +32,3 @@
 .method public abstract setGroupDividerEnabled(Z)V
 .end method
 
-.end class

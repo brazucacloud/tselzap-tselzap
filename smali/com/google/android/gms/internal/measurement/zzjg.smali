@@ -7,4 +7,3 @@
 .method public abstract zza([BII)[B
 .end method
 
-.end class

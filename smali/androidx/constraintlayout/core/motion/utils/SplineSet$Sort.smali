@@ -218,4 +218,3 @@
     aput p0, p1, p3    return-void
 .end method
 
-.end class

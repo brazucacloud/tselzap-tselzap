@@ -22,4 +22,3 @@
     .end param
 .end method
 
-.end class

@@ -1251,4 +1251,3 @@
     return v3
 .end method
 
-.end class

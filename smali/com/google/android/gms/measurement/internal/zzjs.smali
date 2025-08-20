@@ -19,4 +19,3 @@
 .method public abstract zzl()Lcom/google/android/gms/measurement/internal/zzij;
 .end method
 
-.end class

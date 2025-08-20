@@ -22,4 +22,3 @@
 .method public abstract zza([BII)Ljava/lang/String;
 .end method
 
-.end class

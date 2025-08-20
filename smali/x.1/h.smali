@@ -10,4 +10,3 @@
 .method public abstract n(Lx/i;)V
 .end method
 
-.end class

@@ -18,4 +18,3 @@
 .method public abstract onAnimationEnd(Landroidx/dynamicanimation/animation/DynamicAnimation;ZFF)V
 .end method
 
-.end class

@@ -40,4 +40,3 @@
 .method public abstract hasStructValue()Z
 .end method
 
-.end class

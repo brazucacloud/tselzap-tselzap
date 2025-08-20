@@ -299,4 +299,3 @@ return-object v0
     return-wide v0
 .end method
 
-.end class

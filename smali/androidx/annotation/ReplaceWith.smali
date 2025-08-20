@@ -33,4 +33,3 @@
 .method public abstract imports()[Ljava/lang/String;
 .end method
 
-.end class

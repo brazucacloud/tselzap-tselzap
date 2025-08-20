@@ -10,4 +10,3 @@
 .method public abstract isInitialized()Z
 .end method
 
-.end class

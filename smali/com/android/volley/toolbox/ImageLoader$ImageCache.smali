@@ -23,4 +23,3 @@
 .method public abstract putBitmap(Ljava/lang/String;Landroid/graphics/Bitmap;)V
 .end method
 
-.end class

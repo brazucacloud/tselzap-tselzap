@@ -88,4 +88,3 @@
     iget-object v0, p0, Landroidx/fragment/app/strictmode/FragmentReuseViolation;->previousFragmentId:Ljava/lang/String;    return-object v0
 .end method
 
-.end class

@@ -13,4 +13,3 @@
     name = null
 .end annotation
 
-.end class

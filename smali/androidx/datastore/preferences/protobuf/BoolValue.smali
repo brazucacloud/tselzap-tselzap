@@ -601,4 +601,3 @@ return-void
     iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/BoolValue;->value_:Z    return v0
 .end method
 
-.end class

@@ -63,4 +63,3 @@
 .method public abstract zze()Ljava/lang/String;
 .end method
 
-.end class

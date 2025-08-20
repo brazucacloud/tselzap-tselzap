@@ -186,4 +186,3 @@ return-object p1
     .line 25
     throw p1.end method
 
-.end class

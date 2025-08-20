@@ -631,4 +631,3 @@ return-object p1
     iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/Timestamp;->seconds_:J    return-wide v0
 .end method
 
-.end class

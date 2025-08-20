@@ -368,4 +368,3 @@ return-void
     check-cast v0, [Landroidx/constraintlayout/core/motion/CustomAttribute$AttributeType;    return-object v0
 .end method
 
-.end class

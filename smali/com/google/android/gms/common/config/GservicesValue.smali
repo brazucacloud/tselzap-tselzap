@@ -656,4 +656,3 @@ return-object v0
     .end annotation
 .end method
 
-.end class

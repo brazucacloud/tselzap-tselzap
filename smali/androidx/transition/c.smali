@@ -61,4 +61,3 @@ return-void
     .end packed-switch
 .end method
 
-.end class

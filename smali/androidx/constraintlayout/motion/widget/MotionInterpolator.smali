@@ -23,4 +23,3 @@
 .method public abstract getVelocity()F
 .end method
 
-.end class

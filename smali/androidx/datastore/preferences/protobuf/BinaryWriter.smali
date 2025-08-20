@@ -3840,4 +3840,3 @@ return-void
 .method public abstract writeVarint64(J)V
 .end method
 
-.end class

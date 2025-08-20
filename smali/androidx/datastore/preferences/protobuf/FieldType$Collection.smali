@@ -214,4 +214,3 @@ return-void
     iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/FieldType$Collection;->isList:Z    return v0
 .end method
 
-.end class

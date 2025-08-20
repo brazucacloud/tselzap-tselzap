@@ -25,4 +25,3 @@
 .method public abstract setShadowPadding(IIII)V
 .end method
 
-.end class

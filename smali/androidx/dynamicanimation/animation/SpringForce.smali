@@ -1211,4 +1211,3 @@ return-object p0
     return-object v2
 .end method
 
-.end class

@@ -126,4 +126,3 @@
     return v2
 .end method
 
-.end class

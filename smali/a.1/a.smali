@@ -10463,4 +10463,3 @@
 .method public abstract y(Landroid/view/View;I)Landroid/view/ViewPropertyAnimator;
 .end method
 
-.end class

@@ -10,4 +10,3 @@
 .method public abstract c(Li/f;Ljava/lang/Exception;Lcom/bumptech/glide/load/data/e;Li/a;)V
 .end method
 
-.end class

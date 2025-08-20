@@ -1154,6 +1154,5 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 34
-    throw v1.end method
-
-.end class
+    throw v1
+.end method

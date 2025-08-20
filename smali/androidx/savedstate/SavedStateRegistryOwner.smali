@@ -10,4 +10,3 @@
 .method public abstract getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
 .end method
 
-.end class

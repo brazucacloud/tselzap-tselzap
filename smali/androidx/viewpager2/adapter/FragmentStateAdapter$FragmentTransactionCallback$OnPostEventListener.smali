@@ -18,4 +18,3 @@
 .method public abstract onPost()V
 .end method
 
-.end class

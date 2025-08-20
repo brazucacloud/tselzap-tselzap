@@ -24,4 +24,3 @@
 .method public abstract populate(Landroid/view/View;I)V
 .end method
 
-.end class

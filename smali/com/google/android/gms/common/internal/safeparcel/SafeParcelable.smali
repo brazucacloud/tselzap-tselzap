@@ -27,4 +27,3 @@
     .end annotation
 .end field
 
-.end class

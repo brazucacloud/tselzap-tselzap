@@ -18,4 +18,3 @@
 .method public abstract onWriteComplete()V
 .end method
 
-.end class

@@ -21,4 +21,3 @@
 .method public abstract zza()B
 .end method
 
-.end class

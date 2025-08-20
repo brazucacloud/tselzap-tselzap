@@ -2148,4 +2148,3 @@ return-void
 .method public abstract writeUInt64NoTag(J)V
 .end method
 
-.end class

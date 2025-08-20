@@ -41,4 +41,3 @@
 .method public abstract e()I
 .end method
 
-.end class

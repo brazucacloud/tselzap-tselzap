@@ -279,4 +279,3 @@ return-object v0
     return v0
 .end method
 
-.end class

@@ -1935,4 +1935,3 @@
     .line 39
     throw p1.end method
 
-.end class

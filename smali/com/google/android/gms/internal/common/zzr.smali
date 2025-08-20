@@ -25,4 +25,3 @@ return-object v0
 .method public abstract zza(C)Z
 .end method
 
-.end class

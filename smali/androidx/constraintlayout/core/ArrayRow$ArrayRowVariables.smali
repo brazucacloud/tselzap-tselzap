@@ -60,4 +60,3 @@
 .method public abstract use(Landroidx/constraintlayout/core/ArrayRow;Z)F
 .end method
 
-.end class

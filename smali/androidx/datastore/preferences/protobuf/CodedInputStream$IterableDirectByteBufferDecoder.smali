@@ -4484,4 +4484,3 @@ return-object v0
     .line 64
     throw p1.end method
 
-.end class

@@ -7,4 +7,3 @@
 .method public abstract execute()Ljava/lang/Object;
 .end method
 
-.end class

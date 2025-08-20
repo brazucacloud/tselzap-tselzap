@@ -10,4 +10,3 @@
 .method public abstract zzcr()Z
 .end method
 
-.end class

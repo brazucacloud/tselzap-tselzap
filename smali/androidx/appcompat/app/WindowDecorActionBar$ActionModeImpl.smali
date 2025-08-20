@@ -711,4 +711,3 @@ return-object v0
     return-void
 .end method
 
-.end class

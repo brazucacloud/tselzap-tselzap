@@ -512,4 +512,3 @@ return-object v0
 .method public abstract zzb(III)I
 .end method
 
-.end class

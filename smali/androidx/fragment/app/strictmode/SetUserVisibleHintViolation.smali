@@ -79,4 +79,3 @@ return-void
     iget-boolean v0, p0, Landroidx/fragment/app/strictmode/SetUserVisibleHintViolation;->isVisibleToUser:Z    return v0
 .end method
 
-.end class

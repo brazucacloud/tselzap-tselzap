@@ -443,4 +443,3 @@
     iget-object v0, p0, Landroidx/navigation/serialization/RouteDecoder;->serializersModule:LO1/b;    return-object v0
 .end method
 
-.end class

@@ -233,4 +233,3 @@
     iget v0, v0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mLastVelocity:F    return v0
 .end method
 
-.end class

@@ -206,4 +206,3 @@
     .line 8
     throw p1.end method
 
-.end class

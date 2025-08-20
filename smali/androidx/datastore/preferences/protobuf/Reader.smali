@@ -410,4 +410,3 @@
 .method public abstract skipField()Z
 .end method
 
-.end class

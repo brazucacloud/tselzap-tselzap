@@ -13,4 +13,3 @@
 .method public abstract open()V
 .end method
 
-.end class

@@ -1844,4 +1844,3 @@ return-void
     sput-object p1, Landroidx/fragment/app/strictmode/FragmentStrictMode;->defaultPolicy:Landroidx/fragment/app/strictmode/FragmentStrictMode$Policy;    return-void
 .end method
 
-.end class

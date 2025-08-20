@@ -22,4 +22,3 @@
 .method public abstract setKey(Ljava/lang/Object;)V
 .end method
 
-.end class

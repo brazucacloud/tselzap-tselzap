@@ -10,4 +10,3 @@
 .method public abstract zaa(Lcom/google/android/gms/common/ConnectionResult;Lcom/google/android/gms/common/api/Api;Z)V
 .end method
 
-.end class

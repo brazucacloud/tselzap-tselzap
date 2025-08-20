@@ -160,4 +160,3 @@
     return-object p5
 .end method
 
-.end class

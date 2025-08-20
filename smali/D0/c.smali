@@ -10,4 +10,3 @@
 .method public abstract addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 .end method
 
-.end class

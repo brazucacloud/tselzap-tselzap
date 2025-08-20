@@ -468,4 +468,3 @@
 .method public abstract h()Z
 .end method
 
-.end class

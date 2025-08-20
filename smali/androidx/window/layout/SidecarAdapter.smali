@@ -896,4 +896,3 @@ return-object p2
     return-object v0
 .end method
 
-.end class

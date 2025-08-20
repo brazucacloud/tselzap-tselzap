@@ -26,4 +26,3 @@
     }
 .end annotation
 
-.end class

@@ -28,4 +28,3 @@
 .method public abstract onFling(II)Z
 .end method
 
-.end class

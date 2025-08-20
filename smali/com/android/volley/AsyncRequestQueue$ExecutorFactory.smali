@@ -56,4 +56,3 @@
 .method public abstract createNonBlockingScheduledExecutor()Ljava/util/concurrent/ScheduledExecutorService;
 .end method
 
-.end class

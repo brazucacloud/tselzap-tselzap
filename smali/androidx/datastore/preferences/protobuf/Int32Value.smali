@@ -601,4 +601,3 @@ return-void
     iget v0, p0, Landroidx/datastore/preferences/protobuf/Int32Value;->value_:I    return v0
 .end method
 
-.end class

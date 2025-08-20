@@ -76,4 +76,3 @@
 .method public abstract set(I[B)V
 .end method
 
-.end class

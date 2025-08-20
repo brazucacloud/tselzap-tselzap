@@ -19,4 +19,3 @@
 .method public abstract zad(Lcom/google/android/gms/signin/internal/zae;)V
 .end method
 
-.end class

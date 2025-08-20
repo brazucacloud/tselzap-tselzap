@@ -63,4 +63,3 @@
 .method public abstract unit()I
 .end method
 
-.end class

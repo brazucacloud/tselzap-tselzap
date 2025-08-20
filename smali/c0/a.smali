@@ -281,4 +281,3 @@
     .line 227
 .end method
 
-.end class

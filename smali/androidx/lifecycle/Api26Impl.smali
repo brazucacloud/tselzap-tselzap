@@ -59,4 +59,3 @@
     return-wide v0
 .end method
 
-.end class

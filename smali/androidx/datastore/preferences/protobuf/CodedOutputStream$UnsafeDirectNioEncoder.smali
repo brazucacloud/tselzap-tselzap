@@ -1759,4 +1759,3 @@ return-void
     .line 127
     throw p1.end method
 
-.end class

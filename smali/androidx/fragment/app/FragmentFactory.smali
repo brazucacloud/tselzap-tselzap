@@ -468,4 +468,3 @@
     .line 76
     throw v2.end method
 
-.end class

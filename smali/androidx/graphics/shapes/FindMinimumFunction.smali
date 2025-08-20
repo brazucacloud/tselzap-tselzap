@@ -7,4 +7,3 @@
 .method public abstract invoke(F)F
 .end method
 
-.end class

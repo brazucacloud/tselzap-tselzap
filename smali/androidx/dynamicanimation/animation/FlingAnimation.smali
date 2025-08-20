@@ -388,4 +388,3 @@ return-object p0
     return p1
 .end method
 
-.end class

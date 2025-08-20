@@ -39,4 +39,3 @@
 .method public abstract isDone()Z
 .end method
 
-.end class

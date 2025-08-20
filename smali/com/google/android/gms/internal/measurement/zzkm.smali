@@ -7,4 +7,3 @@
 .method public abstract zza(I)Z
 .end method
 
-.end class

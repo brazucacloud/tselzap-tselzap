@@ -16,4 +16,3 @@
 .method public abstract zaa()V
 .end method
 
-.end class

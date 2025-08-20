@@ -64,4 +64,3 @@
 .method public abstract onStateRestorationPolicyChanged(Landroidx/recyclerview/widget/NestedAdapterWrapper;)V
 .end method
 
-.end class

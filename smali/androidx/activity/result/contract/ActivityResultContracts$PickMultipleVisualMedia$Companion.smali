@@ -73,4 +73,3 @@
     const v0, 0x7fffffff    return v0
 .end method
 
-.end class

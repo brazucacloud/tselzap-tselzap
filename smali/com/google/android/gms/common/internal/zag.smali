@@ -175,4 +175,3 @@ return-object p2
 .method public abstract zaa()V
 .end method
 
-.end class

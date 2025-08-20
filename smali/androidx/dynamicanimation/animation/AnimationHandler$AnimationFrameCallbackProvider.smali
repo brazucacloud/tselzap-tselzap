@@ -37,4 +37,3 @@
 .method public abstract postFrameCallback()V
 .end method
 
-.end class

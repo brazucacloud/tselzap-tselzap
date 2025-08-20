@@ -235,4 +235,3 @@ return-void
     check-cast v0, [Landroidx/constraintlayout/core/parser/CLToken$Type;    return-object v0
 .end method
 
-.end class

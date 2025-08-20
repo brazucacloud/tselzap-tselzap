@@ -20,4 +20,3 @@
     }
 .end annotation
 
-.end class

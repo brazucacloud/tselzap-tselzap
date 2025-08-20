@@ -10,4 +10,3 @@
 .method public abstract getConstraintWidget()Landroidx/constraintlayout/core/widgets/ConstraintWidget;
 .end method
 
-.end class

@@ -13,4 +13,3 @@
 .method public abstract stopDifferentialMotionFling()V
 .end method
 
-.end class

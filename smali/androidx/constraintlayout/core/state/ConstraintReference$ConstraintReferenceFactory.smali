@@ -18,4 +18,3 @@
 .method public abstract create(Landroidx/constraintlayout/core/state/State;)Landroidx/constraintlayout/core/state/ConstraintReference;
 .end method
 
-.end class

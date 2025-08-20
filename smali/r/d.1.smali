@@ -312,4 +312,3 @@
 .method public abstract c(Ll/a;Landroid/graphics/Bitmap;II)Landroid/graphics/Bitmap;
 .end method
 
-.end class

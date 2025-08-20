@@ -279,4 +279,3 @@
     .line 36
     throw v1.end method
 
-.end class

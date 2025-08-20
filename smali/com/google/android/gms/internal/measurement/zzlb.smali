@@ -36,4 +36,3 @@
 .method public abstract zzb(Ljava/lang/Object;J)V
 .end method
 
-.end class

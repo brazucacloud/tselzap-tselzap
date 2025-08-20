@@ -2,4 +2,3 @@
 .super Landroid/view/ViewGroup$MarginLayoutParams;
 .source "SourceFile"
 
-.end class

@@ -34,4 +34,3 @@
 .method public abstract level()Landroidx/annotation/RequiresOptIn$Level;
 .end method
 
-.end class

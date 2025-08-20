@@ -130,4 +130,3 @@
     iget-object v0, p0, Landroidx/recyclerview/widget/AsyncDifferConfig;->mMainThreadExecutor:Ljava/util/concurrent/Executor;    return-object v0
 .end method
 
-.end class

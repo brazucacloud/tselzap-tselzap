@@ -5,4 +5,3 @@
 # interfaces
 .implements Lb1/a;
 
-.end class

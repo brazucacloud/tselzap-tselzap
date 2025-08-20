@@ -136,4 +136,3 @@
     return p4
 .end method
 
-.end class

@@ -54,4 +54,3 @@
     iget v0, p0, Landroidx/navigation/NavDeepLinkBuilder$DeepLinkDestination;->destinationId:I    return v0
 .end method
 
-.end class

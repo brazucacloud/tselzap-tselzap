@@ -5,4 +5,3 @@
 # interfaces
 .implements Landroid/os/IInterface;
 
-.end class

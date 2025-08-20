@@ -466,4 +466,3 @@
     sget-object v0, Landroidx/navigation/serialization/InternalNavType;->StringNullableListType:Landroidx/navigation/NavType;    return-object v0
 .end method
 
-.end class

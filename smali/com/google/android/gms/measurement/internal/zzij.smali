@@ -1005,4 +1005,3 @@ return-void
     .line 22
 .end method
 
-.end class

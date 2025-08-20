@@ -18,4 +18,3 @@
 .method public abstract localToGlobal(J)J
 .end method
 
-.end class

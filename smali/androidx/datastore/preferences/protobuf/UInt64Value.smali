@@ -602,4 +602,3 @@ return-void
     iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/UInt64Value;->value_:J    return-wide v0
 .end method
 
-.end class

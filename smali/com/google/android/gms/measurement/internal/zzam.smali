@@ -7,4 +7,3 @@
 .method public abstract zza(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 .end method
 
-.end class

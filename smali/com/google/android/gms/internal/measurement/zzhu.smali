@@ -1012,4 +1012,3 @@ return-object p3
     return-object v0
 .end method
 
-.end class

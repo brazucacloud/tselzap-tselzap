@@ -21,4 +21,3 @@
 .method public abstract measure(Landroidx/constraintlayout/core/widgets/ConstraintWidget;Landroidx/constraintlayout/core/widgets/analyzer/BasicMeasure$Measure;)V
 .end method
 
-.end class

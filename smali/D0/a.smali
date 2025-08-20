@@ -10,4 +10,3 @@
 .method public abstract onSuccess(Ljava/lang/Object;)V
 .end method
 
-.end class

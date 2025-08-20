@@ -89,4 +89,3 @@
 .method public abstract setAutoSizeTextTypeWithDefaults(I)V
 .end method
 
-.end class

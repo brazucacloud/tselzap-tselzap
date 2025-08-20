@@ -22,4 +22,3 @@
 
 .field public i:LM/q;
 
-.end class

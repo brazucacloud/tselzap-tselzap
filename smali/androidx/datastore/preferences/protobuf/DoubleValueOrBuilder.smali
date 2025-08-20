@@ -10,4 +10,3 @@
 .method public abstract getValue()D
 .end method
 
-.end class

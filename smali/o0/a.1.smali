@@ -578,4 +578,3 @@
     return p2
 .end method
 
-.end class

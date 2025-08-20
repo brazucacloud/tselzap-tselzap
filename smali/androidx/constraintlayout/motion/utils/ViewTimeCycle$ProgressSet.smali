@@ -264,4 +264,3 @@ return-void
     iget-boolean p1, v4, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;->mContinue:Z    return p1
 .end method
 
-.end class

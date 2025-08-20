@@ -24,4 +24,3 @@
 .method public abstract localToGlobal(I)I
 .end method
 
-.end class

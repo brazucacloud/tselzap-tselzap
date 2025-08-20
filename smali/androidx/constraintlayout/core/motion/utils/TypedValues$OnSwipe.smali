@@ -186,4 +186,3 @@
     sput-object v0, Landroidx/constraintlayout/core/motion/utils/TypedValues$OnSwipe;->NESTED_SCROLL_FLAGS_ENUM:[Ljava/lang/String;    return-void
 .end method
 
-.end class

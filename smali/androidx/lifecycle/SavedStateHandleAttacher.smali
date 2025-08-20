@@ -133,4 +133,3 @@
     throw p2
 .end method
 
-.end class

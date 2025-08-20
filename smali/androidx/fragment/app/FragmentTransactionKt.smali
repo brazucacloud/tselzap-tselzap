@@ -166,4 +166,3 @@
     .line 10
     throw p0.end method
 
-.end class

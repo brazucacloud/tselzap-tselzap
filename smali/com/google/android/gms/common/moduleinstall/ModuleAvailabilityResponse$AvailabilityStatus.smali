@@ -28,4 +28,3 @@
 
 .field public static final STATUS_UNKNOWN_MODULE:I = 0x2
 
-.end class

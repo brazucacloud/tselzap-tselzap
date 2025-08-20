@@ -181,8 +181,7 @@
             ">(",
             "Landroid/os/Parcel;",
             "Ljava/util/Map<",
-            "-TK;
-    -TV;>;",
+            "-TK;-TV;>;",
             "Ljava/lang/ClassLoader;",
             "Ljava/lang/Class<",
             "TK;>;",
@@ -438,4 +437,4 @@
     return-object p0
 .end method
 
-.end class
+

@@ -18,4 +18,3 @@
 .method public abstract onFitSystemWindows(Landroid/graphics/Rect;)V
 .end method
 
-.end class

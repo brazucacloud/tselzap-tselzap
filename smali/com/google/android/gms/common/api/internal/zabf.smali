@@ -32,4 +32,3 @@
 .method public abstract zaj()Z
 .end method
 
-.end class

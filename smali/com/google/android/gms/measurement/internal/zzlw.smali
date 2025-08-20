@@ -19,4 +19,3 @@
 .method public abstract zzc(Lcom/google/android/gms/internal/measurement/zzeb;)V
 .end method
 
-.end class

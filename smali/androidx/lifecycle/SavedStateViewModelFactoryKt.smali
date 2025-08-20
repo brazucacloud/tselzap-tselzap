@@ -553,4 +553,3 @@
     .line 102
     throw p2.end method
 
-.end class

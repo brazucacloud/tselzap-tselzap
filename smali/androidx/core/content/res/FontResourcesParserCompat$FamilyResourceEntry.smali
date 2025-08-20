@@ -13,4 +13,3 @@
     name = "FamilyResourceEntry"
 .end annotation
 
-.end class

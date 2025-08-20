@@ -1598,4 +1598,3 @@ return-object p0
     return-object v1
 .end method
 
-.end class

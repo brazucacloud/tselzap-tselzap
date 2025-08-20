@@ -24,4 +24,3 @@
 .method public abstract onExpandButtonClick()V
 .end method
 
-.end class

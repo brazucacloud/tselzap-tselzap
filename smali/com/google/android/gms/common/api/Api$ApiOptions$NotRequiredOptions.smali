@@ -16,4 +16,3 @@
     name = "NotRequiredOptions"
 .end annotation
 
-.end class

@@ -34,4 +34,3 @@
 .method public abstract limit()I
 .end method
 
-.end class

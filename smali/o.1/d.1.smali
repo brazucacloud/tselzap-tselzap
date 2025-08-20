@@ -2,4 +2,3 @@
 .super LR0/c;
 .source "SourceFile"
 
-.end class

@@ -113,4 +113,3 @@
     sget-object p1, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback;->NO_OP:Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback$OnPostEventListener;    return-object p1
 .end method
 
-.end class

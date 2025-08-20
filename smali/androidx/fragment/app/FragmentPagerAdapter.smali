@@ -772,4 +772,3 @@ return-void
     .line 33
     throw p1.end method
 
-.end class

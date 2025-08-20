@@ -556,4 +556,3 @@ return-void
     iget-object v0, p0, Landroidx/lifecycle/ProcessLifecycleOwner;->registry:Landroidx/lifecycle/LifecycleRegistry;    return-object v0
 .end method
 
-.end class

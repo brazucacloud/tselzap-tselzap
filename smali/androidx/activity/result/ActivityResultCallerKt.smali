@@ -113,4 +113,3 @@ return-object p3
     return-void
 .end method
 
-.end class

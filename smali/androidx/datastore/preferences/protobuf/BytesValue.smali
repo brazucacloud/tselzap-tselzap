@@ -628,4 +628,3 @@ return-void
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/BytesValue;->value_:Landroidx/datastore/preferences/protobuf/ByteString;    return-object v0
 .end method
 
-.end class

@@ -31,4 +31,3 @@
 .method public abstract setRequest(LA/c;)V
 .end method
 
-.end class

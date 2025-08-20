@@ -25,4 +25,3 @@
 .method public abstract onStateChanged(Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper$OnItemStateChangeListener$StateChangeType;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
 .end method
 
-.end class

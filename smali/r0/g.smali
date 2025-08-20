@@ -10,4 +10,3 @@
 .method public abstract b(Landroid/graphics/Typeface;Z)V
 .end method
 
-.end class

@@ -2,4 +2,3 @@
 .super Lcom/bumptech/glide/g;
 .source "SourceFile"
 
-.end class

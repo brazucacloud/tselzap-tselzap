@@ -2669,4 +2669,3 @@ return-object v0
     .line 217
 .end method
 
-.end class

@@ -1037,4 +1037,3 @@ return-void
     iget v0, p0, Landroidx/constraintlayout/core/widgets/ChainHead;->mTotalWeight:F    return v0
 .end method
 
-.end class

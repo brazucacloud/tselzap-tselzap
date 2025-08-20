@@ -22,4 +22,3 @@
 .method public abstract setTransitionContent(Ljava/lang/String;Ljava/lang/String;)V
 .end method
 
-.end class

@@ -34,4 +34,3 @@
 
 .field public static final REQUEST_QUEUED:I
 
-.end class

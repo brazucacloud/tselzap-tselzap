@@ -2,4 +2,3 @@
 .super Lo0/s;
 .source "SourceFile"
 
-.end class

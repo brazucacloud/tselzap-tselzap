@@ -11,4 +11,3 @@
 .method public abstract zza()Lcom/google/android/gms/internal/measurement/zzlw;
 .end method
 
-.end class

@@ -177,4 +177,3 @@
     .line 80
     throw p0.end method
 
-.end class

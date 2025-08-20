@@ -332,4 +332,3 @@
 .method public abstract zzt()Z
 .end method
 
-.end class

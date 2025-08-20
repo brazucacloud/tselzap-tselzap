@@ -38,4 +38,3 @@
 
 .field public static final STATE_UNKNOWN:I
 
-.end class

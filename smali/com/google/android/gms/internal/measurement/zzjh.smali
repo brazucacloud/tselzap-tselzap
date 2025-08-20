@@ -25,4 +25,3 @@
 .method public abstract zza(Lcom/google/android/gms/internal/measurement/zziz;II)Z
 .end method
 
-.end class

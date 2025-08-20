@@ -8,4 +8,3 @@
 
 .field public d:Landroid/view/View;
 
-.end class

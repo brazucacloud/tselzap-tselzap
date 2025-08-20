@@ -7,4 +7,3 @@
 .method public abstract onContextAvailable(Landroid/content/Context;)V
 .end method
 
-.end class

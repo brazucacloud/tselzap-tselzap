@@ -62,4 +62,3 @@
 .method public abstract isPermissionRevocationEnabledForApp(Landroidx/core/app/unusedapprestrictions/IUnusedAppRestrictionsBackportCallback;)V
 .end method
 
-.end class

@@ -548,4 +548,3 @@
     .line 243
 .end method
 
-.end class

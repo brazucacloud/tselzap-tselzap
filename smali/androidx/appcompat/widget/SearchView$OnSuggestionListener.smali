@@ -21,4 +21,3 @@
 .method public abstract onSuggestionSelect(I)Z
 .end method
 
-.end class

@@ -325,4 +325,3 @@ return-object p1
     .end packed-switch
 .end method
 
-.end class

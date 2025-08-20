@@ -307,4 +307,3 @@
     sget-object p1, Landroidx/lifecycle/Lifecycle$Event;->ON_CREATE:Landroidx/lifecycle/Lifecycle$Event;    return-object p1
 .end method
 
-.end class

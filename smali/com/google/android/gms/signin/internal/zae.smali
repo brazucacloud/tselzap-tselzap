@@ -10,4 +10,3 @@
 .method public abstract zab(Lcom/google/android/gms/signin/internal/zak;)V
 .end method
 
-.end class

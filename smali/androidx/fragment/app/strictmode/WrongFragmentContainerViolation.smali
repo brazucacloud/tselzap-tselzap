@@ -97,4 +97,3 @@
     iget-object v0, p0, Landroidx/fragment/app/strictmode/WrongFragmentContainerViolation;->container:Landroid/view/ViewGroup;    return-object v0
 .end method
 
-.end class

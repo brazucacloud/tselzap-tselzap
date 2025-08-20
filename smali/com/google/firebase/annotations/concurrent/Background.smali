@@ -15,4 +15,3 @@
     }
 .end annotation
 
-.end class

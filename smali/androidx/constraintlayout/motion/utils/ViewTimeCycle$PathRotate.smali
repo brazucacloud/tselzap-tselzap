@@ -89,4 +89,3 @@
     iget-boolean p1, p0, Landroidx/constraintlayout/core/motion/utils/TimeCycleSplineSet;->mContinue:Z    return p1
 .end method
 
-.end class

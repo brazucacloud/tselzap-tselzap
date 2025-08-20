@@ -13,4 +13,3 @@
         Landroidx/privacysandbox/ads/adservices/common/ExperimentalFeatures$RegisterSourceOptIn;
     }
 .end annotation
-.end class

@@ -21,4 +21,3 @@
 .method public abstract getUriForFile(Ljava/io/File;)Landroid/net/Uri;
 .end method
 
-.end class

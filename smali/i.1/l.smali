@@ -10,4 +10,3 @@
 .method public abstract l(Li/i;)I
 .end method
 
-.end class

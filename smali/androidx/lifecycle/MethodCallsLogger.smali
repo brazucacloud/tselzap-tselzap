@@ -144,4 +144,3 @@
     xor-int/lit8 p1, v1, 0x1    return p1
 .end method
 
-.end class

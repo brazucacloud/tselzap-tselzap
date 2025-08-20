@@ -16,4 +16,3 @@
     name = "AnyClient"
 .end annotation
 
-.end class

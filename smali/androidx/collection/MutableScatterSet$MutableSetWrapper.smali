@@ -494,4 +494,3 @@ return-object v0
     return v5
 .end method
 
-.end class

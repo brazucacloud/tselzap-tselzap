@@ -97,4 +97,3 @@
     sget-object v0, Landroidx/navigation/NavArgsLazyKt;->methodSignature:[Ljava/lang/Class;    return-object v0
 .end method
 
-.end class

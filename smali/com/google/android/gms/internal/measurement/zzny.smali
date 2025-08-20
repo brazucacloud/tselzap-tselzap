@@ -217,4 +217,3 @@
 .method public abstract zzz()J
 .end method
 
-.end class

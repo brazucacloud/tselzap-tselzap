@@ -479,4 +479,3 @@
     iget-boolean v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$TransitionInfo;->isOverlapAllowed:Z    return v0
 .end method
 
-.end class

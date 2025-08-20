@@ -10,4 +10,3 @@
 
 .field public c:Landroid/view/animation/Interpolator;
 
-.end class

@@ -7,4 +7,3 @@
 .method public abstract a()LF/h;
 .end method
 
-.end class

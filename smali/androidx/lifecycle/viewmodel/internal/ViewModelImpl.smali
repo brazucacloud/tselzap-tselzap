@@ -589,4 +589,3 @@ return-void
     .line 23
     throw p1.end method
 
-.end class

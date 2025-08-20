@@ -1514,4 +1514,3 @@ return-object p0
 .method public abstract updateValueAndVelocity(J)Z
 .end method
 
-.end class

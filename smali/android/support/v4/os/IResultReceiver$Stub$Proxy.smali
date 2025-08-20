@@ -153,4 +153,3 @@
     .line 51
 .end method
 
-.end class

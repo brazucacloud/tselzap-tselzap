@@ -355,4 +355,3 @@
     iget v0, p0, Landroidx/datastore/preferences/protobuf/Value$KindCase;->value:I    return v0
 .end method
 
-.end class

@@ -54,4 +54,3 @@
 .method public abstract value()Ljava/lang/String;
 .end method
 
-.end class

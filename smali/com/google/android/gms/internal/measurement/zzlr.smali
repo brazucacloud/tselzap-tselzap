@@ -22,4 +22,3 @@
 .method public abstract zzcn()Lcom/google/android/gms/internal/measurement/zzlq;
 .end method
 
-.end class

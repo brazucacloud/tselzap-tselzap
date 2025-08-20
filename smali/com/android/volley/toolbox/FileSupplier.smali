@@ -7,4 +7,3 @@
 .method public abstract get()Ljava/io/File;
 .end method
 
-.end class

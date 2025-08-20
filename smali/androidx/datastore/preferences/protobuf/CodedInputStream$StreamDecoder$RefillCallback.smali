@@ -18,4 +18,3 @@
 .method public abstract onRefill()V
 .end method
 
-.end class

@@ -400,4 +400,3 @@ return-void
     .line 116
     throw p1.end method
 
-.end class

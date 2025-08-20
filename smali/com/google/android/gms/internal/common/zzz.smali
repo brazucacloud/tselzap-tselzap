@@ -327,4 +327,3 @@
 .method public abstract zzd(I)I
 .end method
 
-.end class

@@ -18,4 +18,3 @@
 .method public abstract doStartService(Landroid/content/Context;Landroid/content/Intent;)V
 .end method
 
-.end class

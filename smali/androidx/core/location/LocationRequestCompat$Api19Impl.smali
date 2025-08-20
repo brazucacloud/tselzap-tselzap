@@ -617,4 +617,3 @@
     return-object v5
 .end method
 
-.end class

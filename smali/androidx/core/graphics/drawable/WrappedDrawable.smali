@@ -18,4 +18,3 @@
 .method public abstract setWrappedDrawable(Landroid/graphics/drawable/Drawable;)V
 .end method
 
-.end class

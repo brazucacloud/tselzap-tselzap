@@ -148,4 +148,3 @@
 .method public abstract shouldBeActive()Z
 .end method
 
-.end class

@@ -13,4 +13,3 @@
 .method public abstract isMessageSetWireFormat()Z
 .end method
 
-.end class

@@ -22,4 +22,3 @@
 .method public abstract computeVerticalScrollRange()I
 .end method
 
-.end class

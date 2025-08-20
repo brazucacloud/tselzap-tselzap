@@ -1830,4 +1830,3 @@
     .line 1502
 .end method
 
-.end class

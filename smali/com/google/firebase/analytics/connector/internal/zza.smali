@@ -21,4 +21,3 @@
 .method public abstract zzb()V
 .end method
 
-.end class

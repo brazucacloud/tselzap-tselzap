@@ -271,4 +271,3 @@
     iget v0, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$FiniteGenerator;->mCurrent:F    return v0
 .end method
 
-.end class

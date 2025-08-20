@@ -2226,4 +2226,3 @@ return-object p0
     throw p0
 .end method
 
-.end class

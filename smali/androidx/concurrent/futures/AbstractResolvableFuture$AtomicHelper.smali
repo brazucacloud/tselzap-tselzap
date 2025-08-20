@@ -78,4 +78,3 @@
 .method public abstract putThread(Landroidx/concurrent/futures/AbstractResolvableFuture$Waiter;Ljava/lang/Thread;)V
 .end method
 
-.end class

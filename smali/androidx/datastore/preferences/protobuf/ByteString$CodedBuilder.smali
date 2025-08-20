@@ -84,4 +84,3 @@ return-object v0
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$CodedBuilder;->output:Landroidx/datastore/preferences/protobuf/CodedOutputStream;    return-object v0
 .end method
 
-.end class

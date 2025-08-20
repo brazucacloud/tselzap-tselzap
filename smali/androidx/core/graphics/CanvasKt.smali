@@ -6679,4 +6679,3 @@
     .line 1032
 .end method
 
-.end class

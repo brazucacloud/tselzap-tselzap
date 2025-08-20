@@ -64,4 +64,3 @@
     .line 20
     throw p1.end method
 
-.end class

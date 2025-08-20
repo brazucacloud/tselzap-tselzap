@@ -133,4 +133,3 @@
     .line 49
     throw p1.end method
 
-.end class

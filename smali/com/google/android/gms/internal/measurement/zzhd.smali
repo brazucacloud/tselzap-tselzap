@@ -452,4 +452,3 @@
     return v4
 .end method
 
-.end class

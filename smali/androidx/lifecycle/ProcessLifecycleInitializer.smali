@@ -107,4 +107,3 @@
     sget-object v0, Ld1/t;->b:Ld1/t;    return-object v0
 .end method
 
-.end class

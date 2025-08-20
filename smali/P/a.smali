@@ -143,8 +143,7 @@
 
     .line 28
     .line 29
-    const-string v4, "Scoped provider was invoked recursively 
-    returning different results: "
+    const-string v4, "Scoped provider was invoked recursively returning different results: "
 
     .line 30
     .line 31
@@ -240,4 +239,3 @@
     return-object v0
 .end method
 
-.end class

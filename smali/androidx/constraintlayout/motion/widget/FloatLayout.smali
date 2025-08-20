@@ -7,4 +7,3 @@
 .method public abstract layout(FFFF)V
 .end method
 
-.end class

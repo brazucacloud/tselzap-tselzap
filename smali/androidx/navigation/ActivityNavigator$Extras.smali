@@ -63,4 +63,3 @@
     iget v0, p0, Landroidx/navigation/ActivityNavigator$Extras;->flags:I    return v0
 .end method
 
-.end class

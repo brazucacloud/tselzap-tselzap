@@ -1042,4 +1042,3 @@ return-object v0
     iget v0, p0, Landroidx/datastore/preferences/protobuf/DoubleArrayList;->size:I    return v0
 .end method
 
-.end class

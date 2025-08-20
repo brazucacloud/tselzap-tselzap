@@ -21,4 +21,3 @@
 .method public abstract size()I
 .end method
 
-.end class

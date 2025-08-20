@@ -139,4 +139,3 @@ return-void
     xor-int/lit8 v0, v0, 0x1    return v0
 .end method
 
-.end class

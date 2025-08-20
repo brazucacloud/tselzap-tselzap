@@ -136,4 +136,3 @@ return-object v0
 return-object p4
 .end method
 
-.end class

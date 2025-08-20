@@ -69,4 +69,3 @@
 .method public abstract notify(Ljava/lang/String;ILjava/lang/String;Landroid/app/Notification;)V
 .end method
 
-.end class

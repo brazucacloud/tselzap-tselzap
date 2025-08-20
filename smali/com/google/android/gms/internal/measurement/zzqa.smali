@@ -28,4 +28,3 @@
 .method public abstract zzh()Z
 .end method
 
-.end class

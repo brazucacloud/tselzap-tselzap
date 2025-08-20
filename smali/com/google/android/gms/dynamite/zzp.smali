@@ -431,4 +431,3 @@
     return-object p2
 .end method
 
-.end class

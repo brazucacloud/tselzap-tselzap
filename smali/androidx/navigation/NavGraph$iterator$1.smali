@@ -250,4 +250,3 @@ return-void
     .line 45
     throw v0.end method
 
-.end class

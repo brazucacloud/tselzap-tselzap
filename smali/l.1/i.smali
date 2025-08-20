@@ -7,4 +7,3 @@
 .method public abstract a()V
 .end method
 
-.end class

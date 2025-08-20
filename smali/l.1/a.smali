@@ -19,4 +19,3 @@
 .method public abstract o()V
 .end method
 
-.end class

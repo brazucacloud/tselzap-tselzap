@@ -7896,4 +7896,3 @@
 .method public abstract z()I
 .end method
 
-.end class

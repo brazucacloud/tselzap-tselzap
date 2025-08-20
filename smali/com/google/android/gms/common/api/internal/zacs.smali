@@ -26,4 +26,3 @@
 .method public abstract zag(I)V
 .end method
 
-.end class

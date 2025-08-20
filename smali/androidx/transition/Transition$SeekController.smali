@@ -1413,4 +1413,3 @@ return-void
     .line 88
     throw p1.end method
 
-.end class

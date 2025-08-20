@@ -10,4 +10,3 @@
 .method public abstract a_()V
 .end method
 
-.end class

@@ -15,4 +15,3 @@
     sget-object v0, Landroidx/graphics/shapes/PolygonMeasureKt;->LOG_TAG:Ljava/lang/String;    return-object v0
 .end method
 
-.end class

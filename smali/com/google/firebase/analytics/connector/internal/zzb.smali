@@ -1821,4 +1821,3 @@ return-object v0
     return p0
 .end method
 
-.end class

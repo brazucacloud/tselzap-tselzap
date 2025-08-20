@@ -36,4 +36,3 @@
 .method public abstract skip(I)V
 .end method
 
-.end class

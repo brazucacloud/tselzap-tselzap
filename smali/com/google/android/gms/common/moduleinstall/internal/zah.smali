@@ -10,4 +10,3 @@
 .method public abstract zab(Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate;)V
 .end method
 
-.end class

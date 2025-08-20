@@ -13,4 +13,3 @@
 .method public abstract zzc(Ljava/lang/String;)Z
 .end method
 
-.end class

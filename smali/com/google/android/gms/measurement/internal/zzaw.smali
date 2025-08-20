@@ -10,4 +10,3 @@
 .method public abstract zza(JLcom/google/android/gms/internal/measurement/zzgg$zzf;)Z
 .end method
 
-.end class

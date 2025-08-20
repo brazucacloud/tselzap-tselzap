@@ -20,4 +20,3 @@
 .method public abstract onRemoved(II)V
 .end method
 
-.end class

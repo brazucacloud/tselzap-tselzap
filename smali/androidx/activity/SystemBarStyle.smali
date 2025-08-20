@@ -241,4 +241,3 @@ return-void
     iget p1, p0, Landroidx/activity/SystemBarStyle;->lightScrim:I    return p1
 .end method
 
-.end class

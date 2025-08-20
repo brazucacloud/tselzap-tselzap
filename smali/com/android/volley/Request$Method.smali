@@ -33,4 +33,3 @@
 
 .field public static final TRACE:I = 0x6
 
-.end class

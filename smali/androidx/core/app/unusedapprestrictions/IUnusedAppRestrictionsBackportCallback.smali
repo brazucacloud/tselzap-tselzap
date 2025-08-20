@@ -62,4 +62,3 @@
 .method public abstract onIsPermissionRevocationEnabledForAppResult(ZZ)V
 .end method
 
-.end class

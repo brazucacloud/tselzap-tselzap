@@ -22,4 +22,3 @@
 .method public abstract zzb(Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzco;Lcom/google/android/gms/internal/measurement/zzcl;)Ljava/lang/String;
 .end method
 
-.end class

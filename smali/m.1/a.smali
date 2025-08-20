@@ -10,4 +10,3 @@
 .method public abstract c(Li/f;LA0/d;)V
 .end method
 
-.end class

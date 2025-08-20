@@ -108,4 +108,3 @@
     .line 27
 .end method
 
-.end class

@@ -18,4 +18,3 @@
 .method public abstract onSharedElementsReady()V
 .end method
 
-.end class

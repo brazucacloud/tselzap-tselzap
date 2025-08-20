@@ -1206,4 +1206,3 @@
     .line 41
     throw v1.end method
 
-.end class

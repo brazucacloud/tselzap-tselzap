@@ -21,4 +21,3 @@
 .method public abstract startActivityAndCollapse(Landroid/content/Intent;)V
 .end method
 
-.end class

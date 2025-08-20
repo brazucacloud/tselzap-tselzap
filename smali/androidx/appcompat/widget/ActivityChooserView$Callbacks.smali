@@ -516,4 +516,3 @@
     .line 31
     throw p1.end method
 
-.end class

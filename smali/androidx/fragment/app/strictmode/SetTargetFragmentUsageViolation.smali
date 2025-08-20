@@ -115,4 +115,3 @@
     iget-object v0, p0, Landroidx/fragment/app/strictmode/SetTargetFragmentUsageViolation;->targetFragment:Landroidx/fragment/app/Fragment;    return-object v0
 .end method
 
-.end class

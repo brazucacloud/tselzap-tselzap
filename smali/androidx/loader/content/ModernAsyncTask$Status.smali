@@ -170,4 +170,3 @@ return-void
     check-cast v0, [Landroidx/loader/content/ModernAsyncTask$Status;    return-object v0
 .end method
 
-.end class

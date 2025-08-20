@@ -24,4 +24,3 @@
 .method public abstract onMenuItemActionExpand(Landroid/view/MenuItem;)Z
 .end method
 
-.end class

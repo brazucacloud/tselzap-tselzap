@@ -124,4 +124,3 @@
 .method public abstract zzc(Ljava/lang/Object;)V
 .end method
 
-.end class

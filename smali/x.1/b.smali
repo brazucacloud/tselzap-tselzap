@@ -5,4 +5,3 @@
 # interfaces
 .implements Lx/i;
 
-.end class

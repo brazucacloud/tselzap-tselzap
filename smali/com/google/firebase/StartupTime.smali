@@ -99,4 +99,3 @@
 .method public abstract getUptimeMillis()J
 .end method
 
-.end class

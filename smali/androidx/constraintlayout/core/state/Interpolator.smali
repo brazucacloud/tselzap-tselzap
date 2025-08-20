@@ -7,4 +7,3 @@
 .method public abstract getInterpolation(F)F
 .end method
 
-.end class

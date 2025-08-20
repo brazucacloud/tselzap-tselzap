@@ -51,4 +51,3 @@
 .method public abstract setValue(IZ)Z
 .end method
 
-.end class

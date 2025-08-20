@@ -84,4 +84,3 @@
 .method public abstract encodedLength(Ljava/lang/CharSequence;)I
 .end method
 
-.end class

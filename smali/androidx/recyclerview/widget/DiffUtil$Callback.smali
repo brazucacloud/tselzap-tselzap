@@ -47,4 +47,3 @@
 .method public abstract getOldListSize()I
 .end method
 
-.end class

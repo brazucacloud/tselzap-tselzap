@@ -409,4 +409,3 @@ return-object p1
     return-object v2
 .end method
 
-.end class

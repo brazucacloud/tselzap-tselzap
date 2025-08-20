@@ -13,4 +13,3 @@
 .method public abstract setInternalOnCheckedChangeListener(Lo0/g;)V
 .end method
 
-.end class

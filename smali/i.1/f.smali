@@ -42,4 +42,3 @@
 .method public abstract hashCode()I
 .end method
 
-.end class

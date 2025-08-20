@@ -787,4 +787,3 @@ return-object v3
     return p0
 .end method
 
-.end class

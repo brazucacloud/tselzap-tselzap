@@ -1547,4 +1547,3 @@ return-object p1
     iget v0, p0, Landroidx/datastore/preferences/protobuf/Method;->syntax_:I    return v0
 .end method
 
-.end class

@@ -16,4 +16,3 @@
 .method public abstract zze(Z)Z
 .end method
 
-.end class

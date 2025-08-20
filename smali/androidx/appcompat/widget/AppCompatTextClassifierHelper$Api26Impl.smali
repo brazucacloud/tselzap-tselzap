@@ -82,4 +82,3 @@
     sget-object p0, Landroid/view/textclassifier/TextClassifier;->NO_OP:Landroid/view/textclassifier/TextClassifier;    return-object p0
 .end method
 
-.end class

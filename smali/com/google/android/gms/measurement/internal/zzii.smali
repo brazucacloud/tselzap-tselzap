@@ -2,4 +2,3 @@
 .super Ljava/lang/RuntimeException;
 .source "SourceFile"
 
-.end class

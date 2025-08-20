@@ -28,4 +28,3 @@
 .method public abstract zzc(ILandroid/os/IBinder;Lcom/google/android/gms/common/internal/zzk;)V
 .end method
 
-.end class

@@ -10,4 +10,3 @@
 .method public abstract zza(Landroid/os/Bundle;)Landroid/os/Bundle;
 .end method
 
-.end class

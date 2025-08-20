@@ -123,4 +123,3 @@
 .method public abstract zzz()Z
 .end method
 
-.end class

@@ -154,4 +154,3 @@
     return-object v7
 .end method
 
-.end class

@@ -106,4 +106,3 @@ return-void
     aput p2, v0, p1    return-void
 .end method
 
-.end class

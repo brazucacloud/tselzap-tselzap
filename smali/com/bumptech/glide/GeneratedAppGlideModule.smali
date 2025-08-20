@@ -21,4 +21,3 @@
 .method public abstract h()Ljava/util/Set;
 .end method
 
-.end class

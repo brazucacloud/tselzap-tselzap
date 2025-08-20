@@ -38,4 +38,3 @@
 .method public abstract a(Landroid/graphics/Matrix;Landroid/graphics/Path;)V
 .end method
 
-.end class

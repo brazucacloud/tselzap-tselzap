@@ -7,4 +7,3 @@
 .method public abstract getBounds()Landroid/graphics/Rect;
 .end method
 
-.end class

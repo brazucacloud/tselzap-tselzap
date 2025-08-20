@@ -459,4 +459,3 @@ return-void
 .method public abstract setTitle(Ljava/lang/CharSequence;)V
 .end method
 
-.end class

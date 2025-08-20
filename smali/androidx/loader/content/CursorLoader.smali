@@ -833,4 +833,3 @@ return-void
     return-void
 .end method
 
-.end class

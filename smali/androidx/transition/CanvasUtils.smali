@@ -248,4 +248,3 @@ return-void
     .line 99
     throw p0.end method
 
-.end class

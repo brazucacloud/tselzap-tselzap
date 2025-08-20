@@ -9,4 +9,3 @@
 # static fields
 .field public static final synthetic b:I
 
-.end class

@@ -21,4 +21,3 @@
 .method public abstract getIntent()Landroid/content/Intent;
 .end method
 
-.end class

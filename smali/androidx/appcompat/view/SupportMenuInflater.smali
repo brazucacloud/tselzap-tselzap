@@ -833,4 +833,3 @@ return-void
     :cond_5
     throw p1.end method
 
-.end class

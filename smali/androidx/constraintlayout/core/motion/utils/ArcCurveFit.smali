@@ -1607,4 +1607,3 @@
     iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit;->mTime:[D    return-object v0
 .end method
 
-.end class

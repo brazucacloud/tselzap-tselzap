@@ -1348,4 +1348,3 @@
     .line 903
 .end method
 
-.end class

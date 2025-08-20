@@ -10,4 +10,3 @@
 .method public abstract onResourceReady(Ljava/lang/Object;Ljava/lang/Object;LB/e;Li/a;Z)Z
 .end method
 
-.end class

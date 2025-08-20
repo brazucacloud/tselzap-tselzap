@@ -71,4 +71,3 @@
 .method public abstract zza(Ljava/net/URL;Ljava/lang/String;)Ljava/net/URLConnection;
 .end method
 
-.end class

@@ -11,4 +11,3 @@
     sget-object p0, Landroidx/lifecycle/viewmodel/CreationExtras$Empty;->INSTANCE:Landroidx/lifecycle/viewmodel/CreationExtras$Empty;    return-object p0
 .end method
 
-.end class

@@ -496,4 +496,3 @@ return-void
     sget-object v1, Lc1/v;->a:Lc1/v;    return-object v1
 .end method
 
-.end class

@@ -29,4 +29,3 @@
 .method public abstract writeLazy([BII)V
 .end method
 
-.end class

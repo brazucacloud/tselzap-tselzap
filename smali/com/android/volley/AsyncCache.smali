@@ -45,4 +45,3 @@
 .method public abstract remove(Ljava/lang/String;Lcom/android/volley/AsyncCache$OnWriteCompleteCallback;)V
 .end method
 
-.end class

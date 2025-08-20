@@ -21,4 +21,3 @@
 .method public abstract onUriConverted(Landroid/net/Uri;)V
 .end method
 
-.end class

@@ -10,4 +10,3 @@
 .method public abstract b(Ljava/lang/Object;Li/i;)Z
 .end method
 
-.end class

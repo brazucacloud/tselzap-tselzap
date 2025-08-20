@@ -8692,4 +8692,3 @@ return-object v1
     return v0
 .end method
 
-.end class

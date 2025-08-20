@@ -218,4 +218,3 @@ return-object p1
     throw p1
 .end method
 
-.end class

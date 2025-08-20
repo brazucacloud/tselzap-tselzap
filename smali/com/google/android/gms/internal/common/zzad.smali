@@ -326,4 +326,3 @@
 .method public abstract zza(I)Ljava/lang/Object;
 .end method
 
-.end class

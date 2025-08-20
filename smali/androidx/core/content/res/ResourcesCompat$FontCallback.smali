@@ -206,4 +206,3 @@ return-void
     .end param
 .end method
 
-.end class

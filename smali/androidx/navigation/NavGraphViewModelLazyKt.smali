@@ -474,4 +474,3 @@
     check-cast p0, Landroidx/navigation/NavBackStackEntry;    return-object p0
 .end method
 
-.end class

@@ -32,4 +32,3 @@
 .method public abstract getRetryDelay()J
 .end method
 
-.end class

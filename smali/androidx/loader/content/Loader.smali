@@ -998,4 +998,3 @@ return-void
     .line 26
     throw p1.end method
 
-.end class

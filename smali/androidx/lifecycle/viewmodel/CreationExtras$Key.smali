@@ -21,4 +21,3 @@
         "Ljava/lang/Object;"
     }
 .end annotation
-.end class

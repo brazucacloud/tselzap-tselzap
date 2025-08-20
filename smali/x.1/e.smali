@@ -6,4 +6,3 @@
 .implements Lx/g;
 .implements Lx/m;
 
-.end class

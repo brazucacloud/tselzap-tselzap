@@ -13,4 +13,3 @@
 .method public abstract set(Ljava/lang/String;F)V
 .end method
 
-.end class

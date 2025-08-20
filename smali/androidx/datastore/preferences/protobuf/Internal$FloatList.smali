@@ -39,4 +39,3 @@
 .method public abstract setFloat(IF)F
 .end method
 
-.end class

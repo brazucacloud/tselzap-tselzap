@@ -15,4 +15,3 @@
 .method public abstract getBuilder()Landroid/app/Notification$Builder;
 .end method
 
-.end class

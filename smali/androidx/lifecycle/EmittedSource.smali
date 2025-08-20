@@ -221,4 +221,3 @@
     sget-object p1, Lc1/v;->a:Lc1/v;    return-object p1
 .end method
 
-.end class

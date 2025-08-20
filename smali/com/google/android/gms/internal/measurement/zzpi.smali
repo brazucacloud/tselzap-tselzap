@@ -37,4 +37,3 @@
 .method public abstract zzk()Z
 .end method
 
-.end class

@@ -43,4 +43,3 @@
 .method public abstract stopNestedScroll()V
 .end method
 
-.end class

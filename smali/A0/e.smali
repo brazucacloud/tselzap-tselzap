@@ -13,4 +13,3 @@
 .method public abstract b()Z
 .end method
 
-.end class

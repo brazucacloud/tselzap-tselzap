@@ -13,4 +13,3 @@
 .method public abstract getFileNameBytes()Landroidx/datastore/preferences/protobuf/ByteString;
 .end method
 
-.end class

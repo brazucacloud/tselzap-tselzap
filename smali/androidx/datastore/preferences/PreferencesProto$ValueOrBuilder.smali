@@ -66,4 +66,3 @@
 .method public abstract hasStringSet()Z
 .end method
 
-.end class

@@ -8,4 +8,3 @@
 
 .field public b:F
 
-.end class

@@ -90,4 +90,3 @@
     check-cast p1, Landroidx/navigation/NavControllerViewModel;    return-object p1
 .end method
 
-.end class

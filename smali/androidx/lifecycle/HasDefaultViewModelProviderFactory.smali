@@ -10,4 +10,3 @@
 .method public abstract getDefaultViewModelProviderFactory()Landroidx/lifecycle/ViewModelProvider$Factory;
 .end method
 
-.end class

@@ -31,4 +31,3 @@
         .enum Ljava/lang/annotation/ElementType;->TYPE_USE:Ljava/lang/annotation/ElementType;
     }
 .end annotation
-.end class

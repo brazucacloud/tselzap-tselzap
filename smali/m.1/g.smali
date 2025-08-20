@@ -10,4 +10,3 @@
 
 .field public c:I
 
-.end class

@@ -12,4 +12,3 @@
 .method public abstract isConnected()Z
 .end method
 
-.end class

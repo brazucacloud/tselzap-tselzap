@@ -804,4 +804,3 @@
     .line 192
     throw v0.end method
 
-.end class

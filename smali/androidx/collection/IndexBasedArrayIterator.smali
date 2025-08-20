@@ -210,4 +210,3 @@ return-void
 .method public abstract removeAt(I)V
 .end method
 
-.end class

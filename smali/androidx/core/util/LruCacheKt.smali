@@ -90,4 +90,3 @@
     return-object p4
 .end method
 
-.end class

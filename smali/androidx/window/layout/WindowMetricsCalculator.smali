@@ -34,4 +34,3 @@
 .method public abstract computeMaximumWindowMetrics(Landroid/app/Activity;)Landroidx/window/layout/WindowMetrics;
 .end method
 
-.end class

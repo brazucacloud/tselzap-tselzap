@@ -364,4 +364,3 @@
     throw v0
 .end method
 
-.end class

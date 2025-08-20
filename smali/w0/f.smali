@@ -6,4 +6,3 @@
 # instance fields
 .field public a:Lw0/d;
 
-.end class

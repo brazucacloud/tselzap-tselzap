@@ -801,4 +801,3 @@ return-object v0
     aput-wide p1, p0, v0    return-void
 .end method
 
-.end class

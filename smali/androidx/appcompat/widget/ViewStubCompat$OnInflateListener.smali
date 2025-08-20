@@ -18,4 +18,3 @@
 .method public abstract onInflate(Landroidx/appcompat/widget/ViewStubCompat;Landroid/view/View;)V
 .end method
 
-.end class

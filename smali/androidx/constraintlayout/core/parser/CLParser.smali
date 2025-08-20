@@ -1322,4 +1322,3 @@ return-object v1
     throw v1
 .end method
 
-.end class

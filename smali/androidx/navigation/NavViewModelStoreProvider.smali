@@ -15,4 +15,3 @@
 .method public abstract getViewModelStore(Ljava/lang/String;)Landroidx/lifecycle/ViewModelStore;
 .end method
 
-.end class

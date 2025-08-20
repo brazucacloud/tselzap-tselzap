@@ -1241,4 +1241,3 @@ return-object v0
     sget-object p0, Landroidx/navigation/serialization/InternalType;->UNKNOWN:Landroidx/navigation/serialization/InternalType;    return-object p0
 .end method
 
-.end class

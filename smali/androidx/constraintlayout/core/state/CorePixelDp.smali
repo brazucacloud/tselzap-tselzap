@@ -7,4 +7,3 @@
 .method public abstract toPixels(F)F
 .end method
 
-.end class

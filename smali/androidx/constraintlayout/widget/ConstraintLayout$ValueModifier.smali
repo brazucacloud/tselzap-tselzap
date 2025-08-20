@@ -18,4 +18,3 @@
 .method public abstract update(IIILandroid/view/View;Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;)Z
 .end method
 
-.end class

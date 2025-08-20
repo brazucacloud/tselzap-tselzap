@@ -1054,4 +1054,3 @@
     iget-object v0, p0, Landroidx/graphics/shapes/Morph;->_morphMatch:Ljava/util/List;    return-object v0
 .end method
 
-.end class

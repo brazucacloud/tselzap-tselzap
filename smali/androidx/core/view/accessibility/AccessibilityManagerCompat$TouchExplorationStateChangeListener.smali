@@ -18,4 +18,3 @@
 .method public abstract onTouchExplorationStateChanged(Z)V
 .end method
 
-.end class

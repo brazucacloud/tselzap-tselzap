@@ -17,4 +17,3 @@
     name = "Optional"
 .end annotation
 
-.end class

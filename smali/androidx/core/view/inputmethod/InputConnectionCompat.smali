@@ -1015,4 +1015,3 @@ return-object p1
     return v2
 .end method
 
-.end class

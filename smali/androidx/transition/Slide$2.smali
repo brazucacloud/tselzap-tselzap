@@ -96,4 +96,3 @@ return-void
     return p2
 .end method
 
-.end class

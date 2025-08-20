@@ -202,4 +202,3 @@ return-void
     check-cast v0, [Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;    return-object v0
 .end method
 
-.end class

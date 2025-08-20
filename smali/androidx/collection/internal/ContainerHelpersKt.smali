@@ -211,4 +211,3 @@
     div-int/lit8 p0, p0, 0x8    return p0
 .end method
 
-.end class

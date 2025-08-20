@@ -21,4 +21,3 @@
 .method public abstract onLogLongClick(Ljava/lang/String;I)V
 .end method
 
-.end class

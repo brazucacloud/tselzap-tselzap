@@ -53,4 +53,3 @@
 .method public abstract updatePadding(Landroidx/cardview/widget/CardViewDelegate;)V
 .end method
 
-.end class

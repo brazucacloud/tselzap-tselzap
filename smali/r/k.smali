@@ -664,4 +664,3 @@
     return-wide p1
 .end method
 
-.end class

@@ -27,4 +27,3 @@
 .method public abstract onPrepareActionMode(Landroidx/appcompat/view/ActionMode;Landroid/view/Menu;)Z
 .end method
 
-.end class

@@ -2,4 +2,3 @@
 .super Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
 .source "SourceFile"
 
-.end class

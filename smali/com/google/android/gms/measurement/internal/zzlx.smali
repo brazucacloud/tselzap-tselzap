@@ -81,4 +81,3 @@
 .method public abstract zzj()Ljava/lang/String;
 .end method
 
-.end class

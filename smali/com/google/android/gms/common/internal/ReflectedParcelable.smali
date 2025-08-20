@@ -5,4 +5,3 @@
 # interfaces
 .implements Landroid/os/Parcelable;
 
-.end class

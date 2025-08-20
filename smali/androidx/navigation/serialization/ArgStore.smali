@@ -20,4 +20,3 @@
 .method public abstract get(Ljava/lang/String;)Ljava/lang/Object;
 .end method
 
-.end class

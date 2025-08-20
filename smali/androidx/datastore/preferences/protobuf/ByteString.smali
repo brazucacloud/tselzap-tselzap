@@ -1649,4 +1649,3 @@ return-object v0
 .method public abstract writeToReverse(Landroidx/datastore/preferences/protobuf/ByteOutput;)V
 .end method
 
-.end class

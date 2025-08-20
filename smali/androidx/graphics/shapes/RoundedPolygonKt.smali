@@ -1490,4 +1490,3 @@ return-object v3
     return-object v0
 .end method
 
-.end class

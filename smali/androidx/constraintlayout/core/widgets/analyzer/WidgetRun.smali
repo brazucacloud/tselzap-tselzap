@@ -1369,4 +1369,3 @@ return-void
     const-wide/16 v0, 0x0    return-wide v0
 .end method
 
-.end class

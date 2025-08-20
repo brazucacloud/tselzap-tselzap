@@ -47,4 +47,3 @@
 .method public abstract allocateHeapBuffer(I)Landroidx/datastore/preferences/protobuf/AllocatedBuffer;
 .end method
 
-.end class

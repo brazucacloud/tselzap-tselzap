@@ -7,4 +7,3 @@
 .method public abstract transform-XgqJiTY(FF)J
 .end method
 
-.end class

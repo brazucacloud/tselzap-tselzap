@@ -75,4 +75,3 @@
     iget-object v0, p0, Landroidx/navigation/NamedNavArgument;->name:Ljava/lang/String;    return-object v0
 .end method
 
-.end class

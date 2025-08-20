@@ -7,4 +7,3 @@
 .method public abstract a(Landroid/graphics/RectF;)F
 .end method
 
-.end class

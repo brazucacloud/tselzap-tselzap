@@ -12,4 +12,3 @@
 .method public abstract onDeleted(Ljava/lang/String;Lcom/google/firebase/FirebaseOptions;)V
 .end method
 
-.end class

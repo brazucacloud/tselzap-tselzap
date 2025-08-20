@@ -17,4 +17,3 @@
 .method public abstract zac(IZ)V
 .end method
 
-.end class

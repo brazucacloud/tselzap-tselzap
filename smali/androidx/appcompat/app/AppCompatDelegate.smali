@@ -1758,4 +1758,3 @@ return-object p1
     .end annotation
 .end method
 
-.end class

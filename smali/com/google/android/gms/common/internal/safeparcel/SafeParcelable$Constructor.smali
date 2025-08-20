@@ -16,4 +16,3 @@
     name = "Constructor"
 .end annotation
 
-.end class

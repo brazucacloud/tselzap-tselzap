@@ -7,4 +7,3 @@
 .method public abstract initialize()V
 .end method
 
-.end class

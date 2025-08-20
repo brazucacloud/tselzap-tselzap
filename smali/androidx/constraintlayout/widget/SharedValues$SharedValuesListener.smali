@@ -18,4 +18,3 @@
 .method public abstract onNewValue(III)V
 .end method
 
-.end class

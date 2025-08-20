@@ -2438,4 +2438,3 @@ return-void
     .line 36
     throw p1.end method
 
-.end class

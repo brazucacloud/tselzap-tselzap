@@ -19,4 +19,3 @@
 .method public abstract isStopped()Z
 .end method
 
-.end class

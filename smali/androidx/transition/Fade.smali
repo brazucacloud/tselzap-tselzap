@@ -444,4 +444,3 @@
     return-object p3
 .end method
 
-.end class

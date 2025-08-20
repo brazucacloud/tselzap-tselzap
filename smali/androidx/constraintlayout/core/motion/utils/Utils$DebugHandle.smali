@@ -18,4 +18,3 @@
 .method public abstract message(Ljava/lang/String;)V
 .end method
 
-.end class

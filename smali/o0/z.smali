@@ -7,4 +7,3 @@
 .method public abstract getState()[I
 .end method
 
-.end class

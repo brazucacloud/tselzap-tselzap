@@ -210,4 +210,3 @@ return-object v2
     throw v1
 .end method
 
-.end class

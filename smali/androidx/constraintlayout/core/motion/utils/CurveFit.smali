@@ -126,4 +126,3 @@ return-object v0
 .method public abstract getTimePoints()[D
 .end method
 
-.end class

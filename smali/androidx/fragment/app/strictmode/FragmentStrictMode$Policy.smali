@@ -279,4 +279,3 @@
     iget-object v0, p0, Landroidx/fragment/app/strictmode/FragmentStrictMode$Policy;->mAllowedViolations:Ljava/util/Map;    return-object v0
 .end method
 
-.end class

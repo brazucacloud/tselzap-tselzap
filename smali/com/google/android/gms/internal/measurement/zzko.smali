@@ -24,4 +24,3 @@
 .method public abstract zzc(I)Lcom/google/android/gms/internal/measurement/zzko;
 .end method
 
-.end class

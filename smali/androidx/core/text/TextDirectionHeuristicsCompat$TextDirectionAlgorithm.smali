@@ -18,4 +18,3 @@
 .method public abstract checkRtl(Ljava/lang/CharSequence;II)I
 .end method
 
-.end class

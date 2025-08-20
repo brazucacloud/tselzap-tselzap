@@ -159,4 +159,3 @@ return-object v0
     throw v0
 .end method
 
-.end class

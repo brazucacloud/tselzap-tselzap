@@ -1115,4 +1115,3 @@ return-void
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/EnumValue;->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;    return-object v0
 .end method
 
-.end class

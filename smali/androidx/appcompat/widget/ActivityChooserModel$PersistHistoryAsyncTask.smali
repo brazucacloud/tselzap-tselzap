@@ -366,4 +366,3 @@
     return-object v6
 .end method
 
-.end class

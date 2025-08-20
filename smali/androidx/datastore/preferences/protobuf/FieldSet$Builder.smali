@@ -2078,4 +2078,3 @@ return-object v0
     .line 56
     throw p1.end method
 
-.end class

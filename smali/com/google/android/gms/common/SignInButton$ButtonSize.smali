@@ -20,4 +20,3 @@
     value = .enum Ljava/lang/annotation/RetentionPolicy;->SOURCE:Ljava/lang/annotation/RetentionPolicy;
 .end annotation
 
-.end class

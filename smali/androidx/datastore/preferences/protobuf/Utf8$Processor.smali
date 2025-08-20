@@ -3775,4 +3775,3 @@ return-void
 .method public abstract partialIsValidUtf8Direct(ILjava/nio/ByteBuffer;II)I
 .end method
 
-.end class

@@ -12,4 +12,3 @@
     accessFlags = 0x609
     name = "VisualMediaType"
 .end annotation
-.end class

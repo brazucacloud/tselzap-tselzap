@@ -143,4 +143,3 @@
     return-wide v2
 .end method
 
-.end class

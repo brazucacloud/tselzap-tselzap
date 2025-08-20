@@ -13,4 +13,3 @@
 .method public abstract zac(ILjava/util/concurrent/ThreadFactory;I)Ljava/util/concurrent/ExecutorService;
 .end method
 
-.end class

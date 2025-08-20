@@ -235,4 +235,3 @@
 .method public abstract zzv()Z
 .end method
 
-.end class

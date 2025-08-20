@@ -63,4 +63,3 @@
 .method public abstract send(ILandroid/os/Bundle;)V
 .end method
 
-.end class

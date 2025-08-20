@@ -24,4 +24,3 @@
 .method public abstract onSubUiVisibilityChanged(Z)V
 .end method
 
-.end class

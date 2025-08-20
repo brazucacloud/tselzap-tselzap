@@ -18,4 +18,3 @@
 .method public abstract onItemSwiped(ILcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnItemSwipeListener$SwipeDirection;)V
 .end method
 
-.end class

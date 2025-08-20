@@ -304,4 +304,3 @@ return-object p2
     return-object p0
 .end method
 
-.end class

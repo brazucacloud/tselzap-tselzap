@@ -297,4 +297,3 @@
     .line 128
     goto :goto_0.end method
 
-.end class

@@ -7,4 +7,3 @@
 .method public abstract p(Lo/w;)Lo/o;
 .end method
 
-.end class

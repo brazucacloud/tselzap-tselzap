@@ -18,4 +18,3 @@
 .method public abstract onAnimationUpdate(Landroidx/dynamicanimation/animation/DynamicAnimation;FF)V
 .end method
 
-.end class

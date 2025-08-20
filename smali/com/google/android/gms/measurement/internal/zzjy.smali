@@ -8,4 +8,3 @@
 
 .field public static zzb:Ljava/lang/String; = "returning_buyer"
 
-.end class

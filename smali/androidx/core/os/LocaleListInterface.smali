@@ -37,4 +37,3 @@
 .method public abstract toLanguageTags()Ljava/lang/String;
 .end method
 
-.end class

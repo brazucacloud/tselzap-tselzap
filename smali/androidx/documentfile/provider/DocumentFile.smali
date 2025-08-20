@@ -294,4 +294,3 @@ return-object v0
     .end param
 .end method
 
-.end class

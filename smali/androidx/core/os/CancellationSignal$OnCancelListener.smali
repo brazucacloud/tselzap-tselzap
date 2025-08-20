@@ -18,4 +18,3 @@
 .method public abstract onCancel()V
 .end method
 
-.end class

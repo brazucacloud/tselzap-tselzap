@@ -274,4 +274,3 @@
     return-void
 .end method
 
-.end class

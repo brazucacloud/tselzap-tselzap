@@ -19248,4 +19248,3 @@ return-void
     return v6
 .end method
 
-.end class

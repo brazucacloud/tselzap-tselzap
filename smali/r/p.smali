@@ -10,4 +10,3 @@
 .method public abstract q()V
 .end method
 
-.end class

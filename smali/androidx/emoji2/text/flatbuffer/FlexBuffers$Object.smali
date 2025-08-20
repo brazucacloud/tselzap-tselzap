@@ -73,4 +73,3 @@
 .method public abstract toString(Ljava/lang/StringBuilder;)Ljava/lang/StringBuilder;
 .end method
 
-.end class

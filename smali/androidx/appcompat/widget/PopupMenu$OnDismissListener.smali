@@ -18,4 +18,3 @@
 .method public abstract onDismiss(Landroidx/appcompat/widget/PopupMenu;)V
 .end method
 
-.end class

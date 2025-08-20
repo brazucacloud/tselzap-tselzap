@@ -516,4 +516,3 @@
     check-cast p0, Landroidx/lifecycle/SavedStateHandlesVM;    return-object p0
 .end method
 
-.end class
