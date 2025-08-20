@@ -47,7 +47,6 @@
     .line 8
     const/4 p1, 0x1
 
-    .line 9
     return p1
 
     .line 10
@@ -71,7 +70,6 @@
     .line 19
     move-result p1
 
-    .line 20
     return p1
 
     .line 21
@@ -82,7 +80,6 @@
     .line 23
     const/4 p1, 0x1
 
-    .line 24
     return p1
 
     .line 25
@@ -395,3 +392,5 @@
     .line 216
     .line 217
 .end method
+
+.end class

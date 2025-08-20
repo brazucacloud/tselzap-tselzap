@@ -91,7 +91,6 @@
     .line 19
     move-result-object p1
 
-    .line 20
     return-object p1
 
     .line 21
@@ -107,7 +106,6 @@
     .line 26
     move-result-object p1
 
-    .line 27
     return-object p1
 
     .line 28
@@ -327,7 +325,6 @@
     .line 8
     const/4 p1, 0x1
 
-    .line 9
     return p1
 
     .line 10
@@ -355,7 +352,6 @@
     .line 21
     move-result p1
 
-    .line 22
     return p1
 
     .line 23
@@ -2029,3 +2025,5 @@
     .line 1347
     .line 1348
 .end method
+
+.end class

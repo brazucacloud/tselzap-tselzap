@@ -69,6 +69,7 @@
 .method public final invoke(Landroid/animation/Animator;)V
     .locals 0
 
-    .line 1
     return-void
 .end method
+
+.end class

@@ -29,24 +29,6 @@
     .line 3
     .line 4
     return-void
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public static fromAndroidPerson(Landroid/app/Person;)Landroidx/core/app/Person;
@@ -195,22 +177,7 @@
     .line 69
     move-result-object p0
 
-    .line 70
     return-object p0
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
 .end method
 
 .method public static toAndroidPerson(Landroidx/core/app/Person;)Landroid/app/Person;
@@ -359,20 +326,7 @@
     .line 69
     move-result-object p0
 
-    .line 70
     return-object p0
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
 .end method
+
+.end class

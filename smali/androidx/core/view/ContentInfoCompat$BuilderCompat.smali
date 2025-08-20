@@ -46,3 +46,5 @@
 
 .method public abstract setSource(I)V
 .end method
+
+.end class

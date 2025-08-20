@@ -85,22 +85,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public addOptions(ILandroidx/datastore/preferences/protobuf/Option$Builder;)Landroidx/datastore/preferences/protobuf/Method$Builder;
@@ -190,17 +174,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public clearOptions()Landroidx/datastore/preferences/protobuf/Method$Builder;
@@ -226,17 +199,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public clearRequestStreaming()Landroidx/datastore/preferences/protobuf/Method$Builder;
@@ -262,17 +224,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public clearRequestTypeUrl()Landroidx/datastore/preferences/protobuf/Method$Builder;
@@ -298,17 +249,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public clearResponseStreaming()Landroidx/datastore/preferences/protobuf/Method$Builder;
@@ -334,17 +274,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public clearResponseTypeUrl()Landroidx/datastore/preferences/protobuf/Method$Builder;
@@ -370,17 +299,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public clearSyntax()Landroidx/datastore/preferences/protobuf/Method$Builder;
@@ -406,17 +324,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getName()Ljava/lang/String;
@@ -438,21 +345,7 @@
     .line 8
     move-result-object v0
 
-    .line 9
     return-object v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getNameBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -474,21 +367,7 @@
     .line 8
     move-result-object v0
 
-    .line 9
     return-object v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getOptions(I)Landroidx/datastore/preferences/protobuf/Option;
@@ -510,26 +389,7 @@
     .line 8
     move-result-object p1
 
-    .line 9
     return-object p1
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public getOptionsCount()I
@@ -551,21 +411,7 @@
     .line 8
     move-result v0
 
-    .line 9
     return v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getOptionsList()Ljava/util/List;
@@ -603,17 +449,7 @@
     .line 12
     move-result-object v0
 
-    .line 13
     return-object v0
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getRequestStreaming()Z
@@ -635,21 +471,7 @@
     .line 8
     move-result v0
 
-    .line 9
     return v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getRequestTypeUrl()Ljava/lang/String;
@@ -671,21 +493,7 @@
     .line 8
     move-result-object v0
 
-    .line 9
     return-object v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getRequestTypeUrlBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -707,21 +515,7 @@
     .line 8
     move-result-object v0
 
-    .line 9
     return-object v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getResponseStreaming()Z
@@ -743,21 +537,7 @@
     .line 8
     move-result v0
 
-    .line 9
     return v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getResponseTypeUrl()Ljava/lang/String;
@@ -779,21 +559,7 @@
     .line 8
     move-result-object v0
 
-    .line 9
     return-object v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getResponseTypeUrlBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -815,21 +581,7 @@
     .line 8
     move-result-object v0
 
-    .line 9
     return-object v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getSyntax()Landroidx/datastore/preferences/protobuf/Syntax;
@@ -851,21 +603,7 @@
     .line 8
     move-result-object v0
 
-    .line 9
     return-object v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getSyntaxValue()I
@@ -887,21 +625,7 @@
     .line 8
     move-result v0
 
-    .line 9
     return v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public removeOptions(I)Landroidx/datastore/preferences/protobuf/Method$Builder;
@@ -927,22 +651,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public setName(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/Method$Builder;
@@ -968,22 +676,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public setNameBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/Method$Builder;
@@ -1009,22 +701,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public setOptions(ILandroidx/datastore/preferences/protobuf/Option$Builder;)Landroidx/datastore/preferences/protobuf/Method$Builder;
@@ -1082,22 +758,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public setRequestTypeUrl(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/Method$Builder;
@@ -1123,22 +783,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public setRequestTypeUrlBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/Method$Builder;
@@ -1164,22 +808,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public setResponseStreaming(Z)Landroidx/datastore/preferences/protobuf/Method$Builder;
@@ -1205,22 +833,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public setResponseTypeUrl(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/Method$Builder;
@@ -1246,22 +858,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public setResponseTypeUrlBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/Method$Builder;
@@ -1287,22 +883,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public setSyntax(Landroidx/datastore/preferences/protobuf/Syntax;)Landroidx/datastore/preferences/protobuf/Method$Builder;
@@ -1328,22 +908,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public setSyntaxValue(I)Landroidx/datastore/preferences/protobuf/Method$Builder;
@@ -1369,20 +933,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
+
+.end class

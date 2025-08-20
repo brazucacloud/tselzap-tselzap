@@ -23,3 +23,5 @@
 
 .method public abstract validateExtensionInterface()Z
 .end method
+
+.end class

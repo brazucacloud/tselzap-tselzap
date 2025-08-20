@@ -112,9 +112,6 @@
     .line 47
     .line 48
     return-void
-    .line 49
-    .line 50
-    .line 51
 .end method
 
 .method private getHintFromLayout()Ljava/lang/CharSequence;
@@ -142,24 +139,13 @@
     .line 10
     move-result-object v0
 
-    .line 11
     return-object v0
 
     .line 12
     :cond_0
     const/4 v0, 0x0
 
-    .line 13
     return-object v0
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method private getTextInputLayout()Lcom/google/android/material/textfield/TextInputLayout;
@@ -215,7 +201,6 @@
     :cond_1
     const/4 v0, 0x0
 
-    .line 22
     return-object v0
 .end method
 
@@ -273,8 +258,6 @@
     .line 25
     :cond_0
     return-void
-    .line 26
-    .line 27
 .end method
 
 .method public final getGlobalVisibleRect(Landroid/graphics/Rect;Landroid/graphics/Point;)Z
@@ -356,22 +339,7 @@
     .line 36
     move-result p1
 
-    .line 37
     return p1
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
 .end method
 
 .method public getHint()Ljava/lang/CharSequence;
@@ -407,7 +375,6 @@
     .line 14
     move-result-object v0
 
-    .line 15
     return-object v0
 
     .line 16
@@ -419,10 +386,7 @@
     .line 19
     move-result-object v0
 
-    .line 20
     return-object v0
-    .line 21
-    .line 22
 .end method
 
 .method public final onAttachedToWindow()V
@@ -521,47 +485,6 @@
     .line 45
     :cond_1
     return-void
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
 .end method
 
 .method public final onCreateInputConnection(Landroid/view/inputmethod/EditorInfo;)Landroid/view/inputmethod/InputConnection;
@@ -602,16 +525,6 @@
     .line 17
     :cond_0
     return-object v0
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public final onInitializeAccessibilityNodeInfo(Landroid/view/accessibility/AccessibilityNodeInfo;)V
@@ -787,8 +700,6 @@
     .line 82
     :cond_4
     return-void
-    .line 83
-    .line 84
 .end method
 
 .method public final requestRectangleOnScreen(Landroid/graphics/Rect;)Z
@@ -873,7 +784,6 @@
     .line 39
     move-result p1
 
-    .line 40
     return p1
 
     .line 41
@@ -885,47 +795,7 @@
     .line 44
     move-result p1
 
-    .line 45
     return p1
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
 .end method
 
 .method public setTextInputLayoutFocusedRectEnabled(Z)V
@@ -937,28 +807,6 @@
     .line 2
     .line 3
     return-void
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
+
+.end class

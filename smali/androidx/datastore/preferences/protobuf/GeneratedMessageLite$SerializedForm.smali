@@ -83,11 +83,6 @@
     .line 21
     .line 22
     return-void
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public static of(Landroidx/datastore/preferences/protobuf/MessageLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$SerializedForm;
@@ -104,27 +99,6 @@
     .line 5
     .line 6
     return-object v0
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method private readResolveFallback()Ljava/lang/Object;
@@ -210,7 +184,6 @@
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 36
     return-object v0
 
     .line 37
@@ -659,18 +632,7 @@
     .line 11
     move-result-object v0
 
-    .line 12
     return-object v0
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 
@@ -756,7 +718,6 @@
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 36
     return-object v0
 
     .line 37
@@ -873,7 +834,6 @@
     .line 86
     move-result-object v0
 
-    .line 87
     return-object v0
 
     .line 88
@@ -1151,3 +1111,5 @@
     .line 340
     .line 341
 .end method
+
+.end class

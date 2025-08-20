@@ -32,3 +32,5 @@
 .field public static final PUT:I = 0x2
 
 .field public static final TRACE:I = 0x6
+
+.end class

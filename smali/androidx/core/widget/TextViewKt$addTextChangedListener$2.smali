@@ -87,6 +87,7 @@
 .method public final invoke(Ljava/lang/CharSequence;III)V
     .locals 0
 
-    .line 1
     return-void
 .end method
+
+.end class

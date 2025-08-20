@@ -465,14 +465,12 @@
     .line 12
     const/4 p0, -0x1
 
-    .line 13
     return p0
 
     .line 14
     :pswitch_0
     const/4 p0, 0x4
 
-    .line 15
     return p0
 
     .line 16
@@ -489,7 +487,6 @@
     :pswitch_2
     const/4 p0, 0x2
 
-    .line 20
     return p0
 
     .line 21
@@ -511,3 +508,5 @@
     .line 26
     .line 27
 .end method
+
+.end class

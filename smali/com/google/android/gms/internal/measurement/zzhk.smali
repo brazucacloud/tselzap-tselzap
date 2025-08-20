@@ -6,3 +6,5 @@
 # virtual methods
 .method public abstract zza()V
 .end method
+
+.end class

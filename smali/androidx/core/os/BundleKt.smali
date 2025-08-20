@@ -536,3 +536,5 @@
     :cond_1d
     return-object v0
 .end method
+
+.end class

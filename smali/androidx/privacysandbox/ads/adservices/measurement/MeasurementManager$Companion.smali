@@ -176,23 +176,7 @@
     :cond_1
     const/4 p1, 0x0
 
-    .line 67
     return-object p1
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
 .end method
+
+.end class

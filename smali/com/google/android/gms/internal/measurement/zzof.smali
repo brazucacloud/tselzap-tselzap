@@ -9,3 +9,5 @@
 
 .method public abstract zzb()Z
 .end method
+
+.end class

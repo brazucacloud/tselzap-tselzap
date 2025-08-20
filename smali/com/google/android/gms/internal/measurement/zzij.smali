@@ -167,7 +167,6 @@
     :goto_0
     const/4 p1, 0x1
 
-    .line 48
     return p1
 
     .line 49
@@ -218,3 +217,5 @@
     .line 83
     .line 84
 .end method
+
+.end class

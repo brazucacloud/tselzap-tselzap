@@ -27,3 +27,5 @@
 .field public static final STATUS_READY_TO_DOWNLOAD:I = 0x1
 
 .field public static final STATUS_UNKNOWN_MODULE:I = 0x2
+
+.end class

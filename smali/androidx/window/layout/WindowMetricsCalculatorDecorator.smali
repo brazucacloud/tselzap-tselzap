@@ -25,3 +25,5 @@
     .annotation build Landroidx/window/core/ExperimentalWindowApi;
     .end annotation
 .end method
+
+.end class

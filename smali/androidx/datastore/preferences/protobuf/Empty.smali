@@ -66,15 +66,6 @@
     .line 12
     .line 13
     return-void
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method private constructor <init>()V
@@ -87,24 +78,6 @@
     .line 3
     .line 4
     return-void
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public static synthetic access$000()Landroidx/datastore/preferences/protobuf/Empty;
@@ -116,25 +89,6 @@
     .line 2
     .line 3
     return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public static getDefaultInstance()Landroidx/datastore/preferences/protobuf/Empty;
@@ -146,25 +100,6 @@
     .line 2
     .line 3
     return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public static newBuilder()Landroidx/datastore/preferences/protobuf/Empty$Builder;
@@ -400,23 +335,7 @@
     .line 6
     move-result-object v0
 
-    .line 7
     return-object v0
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 
@@ -476,7 +395,6 @@
     .line 24
     move-result-object p1
 
-    .line 25
     return-object p1
 
     .line 26
@@ -536,7 +454,6 @@
     :goto_0
     monitor-exit p2
 
-    .line 50
     return-object p1
 
     .line 51
@@ -577,7 +494,6 @@
     .line 64
     move-result-object p1
 
-    .line 65
     return-object p1
 
     .line 66
@@ -659,3 +575,5 @@
     .line 116
     .line 117
 .end method
+
+.end class

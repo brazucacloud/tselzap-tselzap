@@ -39,3 +39,5 @@
         .end annotation
     .end param
 .end method
+
+.end class

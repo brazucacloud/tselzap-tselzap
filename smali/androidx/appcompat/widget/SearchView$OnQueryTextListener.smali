@@ -20,3 +20,5 @@
 
 .method public abstract onQueryTextSubmit(Ljava/lang/String;)Z
 .end method
+
+.end class

@@ -669,3 +669,5 @@
     .line 507
     .line 508
 .end method
+
+.end class

@@ -64,7 +64,6 @@
     .line 16
     move-result v0
 
-    .line 17
     return v0
 
     .line 18
@@ -116,7 +115,6 @@
     .line 16
     move-result v0
 
-    .line 17
     return v0
 
     .line 18
@@ -185,7 +183,6 @@
     .line 24
     add-int/2addr v1, v0
 
-    .line 25
     return v1
 
     .line 26
@@ -201,7 +198,6 @@
     .line 31
     move-result v0
 
-    .line 32
     return v0
 
     .line 33
@@ -288,7 +284,6 @@
     .line 11
     move-result v0
 
-    .line 12
     return v0
 
     .line 13
@@ -304,7 +299,6 @@
     .line 18
     move-result v0
 
-    .line 19
     return v0
 
     .line 20
@@ -441,3 +435,5 @@
     .line 85
     .line 86
 .end method
+
+.end class

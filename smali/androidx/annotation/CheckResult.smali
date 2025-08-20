@@ -30,3 +30,5 @@
 # virtual methods
 .method public abstract suggest()Ljava/lang/String;
 .end method
+
+.end class

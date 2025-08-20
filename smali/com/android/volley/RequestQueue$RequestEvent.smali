@@ -33,3 +33,5 @@
 .field public static final REQUEST_NETWORK_DISPATCH_STARTED:I = 0x3
 
 .field public static final REQUEST_QUEUED:I
+
+.end class

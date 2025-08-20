@@ -33,27 +33,6 @@
     .line 5
     .line 6
     return-void
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public static final synthetic access$getMCustomAudienceManager$p(Landroidx/privacysandbox/ads/adservices/java/customaudience/CustomAudienceManagerFutures$Api33Ext4JavaImpl;)Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudienceManager;
@@ -65,30 +44,6 @@
     .line 2
     .line 3
     return-object p0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 
@@ -163,7 +118,6 @@
     .line 26
     move-result-object p1
 
-    .line 27
     return-object p1
 .end method
 
@@ -237,7 +191,6 @@
     .line 26
     move-result-object p1
 
-    .line 27
     return-object p1
 .end method
 
@@ -311,6 +264,7 @@
     .line 26
     move-result-object p1
 
-    .line 27
     return-object p1
 .end method
+
+.end class

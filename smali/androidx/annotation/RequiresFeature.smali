@@ -28,3 +28,5 @@
 
 .method public abstract name()Ljava/lang/String;
 .end method
+
+.end class

@@ -6,3 +6,5 @@
 # virtual methods
 .method public abstract onCanceled()V
 .end method
+
+.end class

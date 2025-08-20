@@ -41,3 +41,5 @@
 
 .method public abstract version()I
 .end method
+
+.end class

@@ -1938,7 +1938,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 65
     return-object v0
 
     .line 66
@@ -2054,7 +2053,6 @@
     :goto_1
     const/4 v0, 0x0
 
-    .line 122
     return-object v0
 
     .line 123
@@ -2300,3 +2298,5 @@
 
     return p1
 .end method
+
+.end class

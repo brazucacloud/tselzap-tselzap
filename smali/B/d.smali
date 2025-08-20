@@ -6,3 +6,5 @@
 # virtual methods
 .method public abstract b(II)V
 .end method
+
+.end class

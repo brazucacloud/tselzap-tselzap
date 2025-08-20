@@ -177,7 +177,6 @@
     :cond_3
     monitor-exit v1
 
-    .line 59
     return-object v0
 
     .line 60
@@ -192,26 +191,6 @@
     .line 62
     :cond_4
     return-object v0
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
 .end method
+
+.end class

@@ -39,27 +39,6 @@
     .line 5
     .line 6
     return-void
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public static obtain(IIIIZ)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$CollectionItemInfoCompat;
@@ -113,21 +92,7 @@
     .line 8
     move-result v0
 
-    .line 9
     return v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getColumnSpan()I
@@ -149,21 +114,7 @@
     .line 8
     move-result v0
 
-    .line 9
     return v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getColumnTitle()Ljava/lang/String;
@@ -195,22 +146,13 @@
     .line 12
     move-result-object v0
 
-    .line 13
     return-object v0
 
     .line 14
     :cond_0
     const/4 v0, 0x0
 
-    .line 15
     return-object v0
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getRowIndex()I
@@ -232,21 +174,7 @@
     .line 8
     move-result v0
 
-    .line 9
     return v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getRowSpan()I
@@ -268,21 +196,7 @@
     .line 8
     move-result v0
 
-    .line 9
     return v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getRowTitle()Ljava/lang/String;
@@ -314,22 +228,13 @@
     .line 12
     move-result-object v0
 
-    .line 13
     return-object v0
 
     .line 14
     :cond_0
     const/4 v0, 0x0
 
-    .line 15
     return-object v0
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public isHeading()Z
@@ -353,21 +258,7 @@
     .line 8
     move-result v0
 
-    .line 9
     return v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public isSelected()Z
@@ -389,19 +280,7 @@
     .line 8
     move-result v0
 
-    .line 9
     return v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
+
+.end class

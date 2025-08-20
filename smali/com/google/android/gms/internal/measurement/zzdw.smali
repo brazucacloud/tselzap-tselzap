@@ -12,3 +12,5 @@
 
 .method public abstract zza(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;J)V
 .end method
+
+.end class

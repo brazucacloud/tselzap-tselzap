@@ -17,3 +17,5 @@
 # virtual methods
 .method public abstract onWindowLayoutChanged(Landroid/app/Activity;Landroidx/window/layout/WindowLayoutInfo;)V
 .end method
+
+.end class

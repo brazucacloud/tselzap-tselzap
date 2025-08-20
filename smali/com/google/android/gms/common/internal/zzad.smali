@@ -347,3 +347,5 @@
     .line 237
     .line 238
 .end method
+
+.end class

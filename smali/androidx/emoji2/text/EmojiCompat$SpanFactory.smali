@@ -27,3 +27,5 @@
         value = 0x13
     .end annotation
 .end method
+
+.end class

@@ -88,7 +88,6 @@
     .line 23
     monitor-exit v0
 
-    .line 24
     return-void
 
     .line 25
@@ -188,7 +187,6 @@
     .line 33
     monitor-exit v1
 
-    .line 34
     return-void
 
     .line 35
@@ -235,7 +233,6 @@
     :try_start_3
     monitor-exit v0
 
-    .line 47
     return-void
 
     .line 48
@@ -282,3 +279,5 @@
     .line 83
     .line 84
 .end method
+
+.end class

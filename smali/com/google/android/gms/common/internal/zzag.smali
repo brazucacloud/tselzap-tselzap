@@ -21,3 +21,5 @@
 
 .method public abstract zzi()Z
 .end method
+
+.end class

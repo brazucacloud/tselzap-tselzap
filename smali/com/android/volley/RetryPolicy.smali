@@ -12,3 +12,5 @@
 
 .method public abstract retry(Lcom/android/volley/VolleyError;)V
 .end method
+
+.end class

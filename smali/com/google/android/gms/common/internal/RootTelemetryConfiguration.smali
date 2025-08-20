@@ -279,7 +279,6 @@
     .line 47
     .line 48
     return-void
-    .line 49
-    .line 50
-    .line 51
 .end method
+
+.end class

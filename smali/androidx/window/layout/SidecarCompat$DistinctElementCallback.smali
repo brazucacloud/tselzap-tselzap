@@ -88,8 +88,6 @@
     .line 24
     .line 25
     return-void
-    .line 26
-    .line 27
 .end method
 
 
@@ -395,3 +393,5 @@
     .line 237
     .line 238
 .end method
+
+.end class

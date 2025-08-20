@@ -9,3 +9,5 @@
 .field public b:LA0/c;
 
 .field public c:Landroid/view/animation/Interpolator;
+
+.end class

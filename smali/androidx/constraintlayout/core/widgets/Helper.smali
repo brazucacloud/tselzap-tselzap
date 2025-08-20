@@ -12,3 +12,5 @@
 
 .method public abstract updateConstraints(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;)V
 .end method
+
+.end class

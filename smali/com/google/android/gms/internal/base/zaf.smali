@@ -54,6 +54,6 @@
     .line 19
     .line 20
     return-void
-    .line 21
-    .line 22
 .end method
+
+.end class

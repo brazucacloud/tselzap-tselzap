@@ -17,3 +17,5 @@
 # virtual methods
 .method public abstract onPrepareListView(Landroid/widget/ListView;)V
 .end method
+
+.end class

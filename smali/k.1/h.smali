@@ -43,19 +43,13 @@
     .line 13
     const/4 v0, 0x1
 
-    .line 14
     return v0
 
     .line 15
     :cond_1
     const/4 v0, 0x0
 
-    .line 16
     return v0
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
+
+.end class

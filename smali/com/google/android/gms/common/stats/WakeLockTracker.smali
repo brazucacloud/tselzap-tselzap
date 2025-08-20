@@ -170,7 +170,6 @@
         }
     .end annotation
 
-    .line 1
     return-void
 .end method
 
@@ -219,7 +218,6 @@
         }
     .end annotation
 
-    .line 2
     return-void
 .end method
 
@@ -238,3 +236,5 @@
 
     return-void
 .end method
+
+.end class

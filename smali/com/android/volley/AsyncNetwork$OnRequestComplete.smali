@@ -20,3 +20,5 @@
 
 .method public abstract onSuccess(Lcom/android/volley/NetworkResponse;)V
 .end method
+
+.end class

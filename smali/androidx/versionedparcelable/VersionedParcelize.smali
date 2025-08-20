@@ -53,3 +53,5 @@
 
 .method public abstract jetifyAs()Ljava/lang/String;
 .end method
+
+.end class

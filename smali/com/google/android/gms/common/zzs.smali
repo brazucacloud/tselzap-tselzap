@@ -275,12 +275,6 @@
     .line 42
     .line 43
     return-void
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
 .end method
+
+.end class

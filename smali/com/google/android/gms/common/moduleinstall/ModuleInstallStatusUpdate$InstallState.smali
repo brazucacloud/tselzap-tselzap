@@ -37,3 +37,5 @@
 .field public static final STATE_PENDING:I = 0x1
 
 .field public static final STATE_UNKNOWN:I
+
+.end class

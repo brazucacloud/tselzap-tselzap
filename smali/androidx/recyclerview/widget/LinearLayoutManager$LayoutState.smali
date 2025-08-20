@@ -106,11 +106,6 @@
     .line 16
     .line 17
     return-void
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method private nextViewFromScrapList()Landroid/view/View;
@@ -221,45 +216,7 @@
     :cond_2
     const/4 v0, 0x0
 
-    .line 49
     return-object v0
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
 .end method
 
 
@@ -336,28 +293,13 @@
     .line 11
     const/4 p1, 0x1
 
-    .line 12
     return p1
 
     .line 13
     :cond_0
     const/4 p1, 0x0
 
-    .line 14
     return p1
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public log()V
@@ -476,30 +418,6 @@
     .line 61
     .line 62
     return-void
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
 .end method
 
 .method public next(Landroidx/recyclerview/widget/RecyclerView$Recycler;)Landroid/view/View;
@@ -521,7 +439,6 @@
     .line 8
     move-result-object p1
 
-    .line 9
     return-object p1
 
     .line 10
@@ -554,10 +471,6 @@
     .line 22
     .line 23
     return-object p1
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public nextViewInLimitedList(Landroid/view/View;)Landroid/view/View;
@@ -704,25 +617,6 @@
     .line 63
     :cond_4
     return-object v1
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
 .end method
+
+.end class

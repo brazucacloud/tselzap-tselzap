@@ -16,3 +16,5 @@
 # virtual methods
 .method public abstract zza([BII)V
 .end method
+
+.end class

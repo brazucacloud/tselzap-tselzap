@@ -56,11 +56,6 @@
     .line 16
     .line 17
     return-void
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public synthetic constructor <init>(Landroid/content/ContentResolver;I)V
@@ -133,7 +128,6 @@
     .line 26
     move-result-object p1
 
-    .line 27
     return-object p1
 
     .line 28
@@ -180,7 +174,6 @@
     .line 48
     move-result-object p1
 
-    .line 49
     return-object p1
 
     .line 50
@@ -225,3 +218,5 @@
     .line 83
     .line 84
 .end method
+
+.end class

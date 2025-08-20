@@ -67,7 +67,6 @@
     .line 5
     const/4 p0, 0x1
 
-    .line 6
     return p0
 
     .line 7
@@ -123,7 +122,6 @@
     .line 5
     const/4 v0, 0x0
 
-    .line 6
     return-object v0
 
     .line 7
@@ -178,3 +176,5 @@
 
     return v0
 .end method
+
+.end class

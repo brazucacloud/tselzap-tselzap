@@ -4,3 +4,5 @@
 
 # interfaces
 .implements Ljava/io/Closeable;
+
+.end class

@@ -50,15 +50,6 @@
     .line 17
     .line 18
     return-void
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public static bridge synthetic zaa(Landroid/app/Activity;)Lcom/google/android/gms/common/api/internal/zaa;
@@ -124,7 +115,6 @@
     :goto_0
     monitor-exit p0
 
-    .line 27
     return-object v1
 
     .line 28
@@ -221,7 +211,6 @@
     .line 7
     monitor-exit p0
 
-    .line 8
     return-void
 
     .line 9
@@ -396,3 +385,5 @@
     .line 85
     .line 86
 .end method
+
+.end class

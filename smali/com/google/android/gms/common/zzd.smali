@@ -74,6 +74,6 @@
     .line 25
     :cond_2
     return v0
-    .line 26
-    .line 27
 .end method
+
+.end class

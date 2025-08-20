@@ -40,7 +40,6 @@
     .line 13
     monitor-exit p0
 
-    .line 14
     return-object v0
 
     .line 15
@@ -66,3 +65,5 @@
     .line 26
     .line 27
 .end method
+
+.end class

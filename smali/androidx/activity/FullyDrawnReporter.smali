@@ -138,17 +138,6 @@
     .line 39
     .line 40
     return-void
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
 .end method
 
 .method public static synthetic a(Landroidx/activity/FullyDrawnReporter;)V
@@ -202,9 +191,6 @@
     .line 19
     :cond_0
     return-void
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method private static final reportRunnable$lambda$2(Landroidx/activity/FullyDrawnReporter;)V
@@ -281,7 +267,6 @@
     :goto_0
     monitor-exit v0
 
-    .line 32
     return-void
 
     .line 33
@@ -532,7 +517,6 @@
     :goto_0
     monitor-exit v0
 
-    .line 18
     return-void
 
     .line 19
@@ -639,7 +623,6 @@
     .line 38
     monitor-exit v0
 
-    .line 39
     return-void
 
     .line 40
@@ -715,7 +698,6 @@
     .line 6
     monitor-exit v0
 
-    .line 7
     return v1
 
     .line 8
@@ -786,7 +768,6 @@
     .line 16
     monitor-exit v0
 
-    .line 17
     return-void
 
     .line 18
@@ -864,7 +845,6 @@
     :goto_0
     monitor-exit v0
 
-    .line 23
     return-void
 
     .line 24
@@ -935,3 +915,5 @@
     .line 85
     .line 86
 .end method
+
+.end class

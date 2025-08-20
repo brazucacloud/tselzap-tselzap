@@ -6,3 +6,5 @@
 # virtual methods
 .method public abstract f(Ljava/lang/Object;Ljava/io/File;Li/i;)Z
 .end method
+
+.end class

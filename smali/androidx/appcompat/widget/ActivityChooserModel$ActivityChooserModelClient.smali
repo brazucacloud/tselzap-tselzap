@@ -17,3 +17,5 @@
 # virtual methods
 .method public abstract setActivityChooserModel(Landroidx/appcompat/widget/ActivityChooserModel;)V
 .end method
+
+.end class

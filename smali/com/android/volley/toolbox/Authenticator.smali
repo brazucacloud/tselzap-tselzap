@@ -9,3 +9,5 @@
 
 .method public abstract invalidateAuthToken(Ljava/lang/String;)V
 .end method
+
+.end class

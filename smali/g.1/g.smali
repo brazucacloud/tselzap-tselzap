@@ -299,7 +299,6 @@
     .line 82
     monitor-exit v0
 
-    .line 83
     return-object v5
 
     .line 84
@@ -452,7 +451,6 @@
     .line 154
     monitor-exit v0
 
-    .line 155
     return-object v1
 
     .line 156
@@ -720,7 +718,6 @@
     :goto_0
     monitor-exit v0
 
-    .line 20
     return-void
 
     .line 21
@@ -732,3 +729,5 @@
     .line 22
     throw v1
 .end method
+
+.end class

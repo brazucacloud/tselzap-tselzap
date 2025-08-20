@@ -128,7 +128,6 @@
     .line 40
     move-result-object p0
 
-    .line 41
     return-object p0
 
     .line 42
@@ -136,16 +135,7 @@
     :goto_0
     const/4 p0, 0x0
 
-    .line 43
     return-object p0
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
 .end method
 
 .method public static zza(Ljava/lang/String;)Ljava/security/MessageDigest;
@@ -203,16 +193,7 @@
     :cond_1
     const/4 p0, 0x0
 
-    .line 17
     return-object p0
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
+
+.end class

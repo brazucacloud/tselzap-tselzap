@@ -21,22 +21,6 @@
     .line 5
     .line 6
     return-void
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 
@@ -56,7 +40,6 @@
     :pswitch_0
     const/4 p1, 0x0
 
-    .line 6
     return p1
 
     .line 7
@@ -1435,7 +1418,6 @@
     :goto_3
     const/4 p1, 0x1
 
-    .line 707
     return p1
 
     .line 708
@@ -2248,3 +2230,5 @@
     .line 1479
     .line 1480
 .end method
+
+.end class

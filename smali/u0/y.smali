@@ -6,3 +6,5 @@
 # virtual methods
 .method public abstract setShapeAppearanceModel(Lu0/n;)V
 .end method
+
+.end class

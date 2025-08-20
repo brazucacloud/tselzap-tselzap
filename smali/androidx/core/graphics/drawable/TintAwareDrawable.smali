@@ -24,3 +24,5 @@
 
 .method public abstract setTintMode(Landroid/graphics/PorterDuff$Mode;)V
 .end method
+
+.end class

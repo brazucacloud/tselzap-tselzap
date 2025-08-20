@@ -24,3 +24,5 @@
 
 .method public abstract onProviderInstalled()V
 .end method
+
+.end class

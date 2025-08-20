@@ -63,3 +63,5 @@
 
 .method public abstract writePosition()I
 .end method
+
+.end class

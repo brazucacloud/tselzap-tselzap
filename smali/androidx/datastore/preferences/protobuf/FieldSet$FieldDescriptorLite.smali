@@ -56,3 +56,5 @@
 
 .method public abstract isRepeated()Z
 .end method
+
+.end class

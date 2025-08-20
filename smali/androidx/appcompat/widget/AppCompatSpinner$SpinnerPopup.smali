@@ -59,3 +59,5 @@
 
 .method public abstract show(II)V
 .end method
+
+.end class

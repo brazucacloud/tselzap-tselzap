@@ -48,7 +48,6 @@
     .line 12
     add-int/2addr p1, p2
 
-    .line 13
     return p1
 
     .line 14
@@ -67,7 +66,6 @@
     .line 20
     add-int/2addr p1, p2
 
-    .line 21
     return p1
 
     .line 22
@@ -86,7 +84,6 @@
     .line 28
     add-int/2addr p1, p2
 
-    .line 29
     return p1
 
     .line 30
@@ -182,7 +179,6 @@
     .line 14
     move-result-object p1
 
-    .line 15
     return-object p1
 
     .line 16
@@ -208,7 +204,6 @@
     .line 25
     move-result-object p1
 
-    .line 26
     return-object p1
 
     .line 27
@@ -231,7 +226,6 @@
     .line 35
     move-result-object p1
 
-    .line 36
     return-object p1
 
     .line 37
@@ -255,3 +249,5 @@
     .line 50
     .line 51
 .end method
+
+.end class

@@ -12,3 +12,5 @@
         Lcom/google/android/gms/dynamic/IObjectWrapper$Stub;
     }
 .end annotation
+
+.end class

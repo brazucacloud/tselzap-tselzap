@@ -6,3 +6,5 @@
 # virtual methods
 .method public abstract j()Ljava/lang/Object;
 .end method
+
+.end class

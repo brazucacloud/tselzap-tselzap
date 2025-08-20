@@ -487,14 +487,12 @@
     .line 11
     const/4 p0, -0x1
 
-    .line 12
     return p0
 
     .line 13
     :pswitch_0
     const/4 p0, 0x4
 
-    .line 14
     return p0
 
     .line 15
@@ -510,7 +508,6 @@
     :pswitch_2
     const/4 p0, 0x2
 
-    .line 19
     return p0
 
     .line 20
@@ -537,3 +534,5 @@
         :pswitch_1
     .end packed-switch
 .end method
+
+.end class

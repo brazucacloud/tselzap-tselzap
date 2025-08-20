@@ -438,7 +438,6 @@
     .line 189
     move-result-object p0
 
-    .line 190
     return-object p0
 
     .line 191
@@ -446,31 +445,7 @@
     :goto_6
     const/4 p0, 0x0
 
-    .line 192
     return-object p0
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
-    .line 199
-    .line 200
-    .line 201
-    .line 202
-    .line 203
-    .line 204
-    .line 205
-    .line 206
-    .line 207
-    .line 208
-    .line 209
-    .line 210
-    .line 211
-    .line 212
-    .line 213
-    .line 214
-    .line 215
-    .line 216
-    .line 217
 .end method
+
+.end class

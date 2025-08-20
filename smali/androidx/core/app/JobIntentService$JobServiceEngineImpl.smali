@@ -69,20 +69,6 @@
     .line 12
     .line 13
     return-void
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 
@@ -98,25 +84,7 @@
     .line 4
     move-result-object v0
 
-    .line 5
     return-object v0
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public dequeueWork()Landroidx/core/app/JobIntentService$GenericWorkItem;
@@ -144,7 +112,6 @@
     .line 9
     monitor-exit v0
 
-    .line 10
     return-object v2
 
     .line 11
@@ -291,25 +258,7 @@
     .line 9
     const/4 p1, 0x1
 
-    .line 10
     return p1
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public onStopJob(Landroid/app/job/JobParameters;)Z
@@ -345,7 +294,6 @@
     .line 13
     monitor-exit v0
 
-    .line 14
     return p1
 
     .line 15
@@ -370,3 +318,5 @@
     .line 26
     .line 27
 .end method
+
+.end class

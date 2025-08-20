@@ -19,3 +19,5 @@
 
 .method public abstract zzak()Lcom/google/android/gms/internal/measurement/zzlr;
 .end method
+
+.end class

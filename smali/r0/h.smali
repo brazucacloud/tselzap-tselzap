@@ -102,14 +102,13 @@
     .line 47
     move-result-object p0
 
-    .line 48
     return-object p0
 
     .line 49
     :cond_0
     const/4 p0, 0x0
 
-    .line 50
     return-object p0
-    .line 51
 .end method
+
+.end class

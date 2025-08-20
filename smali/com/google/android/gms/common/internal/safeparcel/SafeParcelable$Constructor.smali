@@ -15,3 +15,5 @@
     accessFlags = 0x2609
     name = "Constructor"
 .end annotation
+
+.end class

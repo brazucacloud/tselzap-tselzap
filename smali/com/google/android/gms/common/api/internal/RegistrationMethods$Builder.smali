@@ -280,14 +280,6 @@
     .line 77
     .line 78
     return-object v1
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
 .end method
 
 .method public onConnectionSuspended(Ljava/lang/Runnable;)Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
@@ -488,3 +480,5 @@
 
     return-object p0
 .end method
+
+.end class

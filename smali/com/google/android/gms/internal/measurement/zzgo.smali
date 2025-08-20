@@ -12,3 +12,5 @@
         Lcom/google/android/gms/internal/measurement/zzgo$zzd;
     }
 .end annotation
+
+.end class

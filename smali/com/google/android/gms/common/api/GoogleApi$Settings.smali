@@ -72,16 +72,6 @@
     .line 11
     .line 12
     return-void
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method private constructor <init>(Lcom/google/android/gms/common/api/internal/StatusExceptionMapper;Landroid/accounts/Account;Landroid/os/Looper;)V
@@ -109,3 +99,5 @@
 
     return-void
 .end method
+
+.end class

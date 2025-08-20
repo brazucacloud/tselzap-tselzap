@@ -17,3 +17,5 @@
 # virtual methods
 .method public abstract onClick(Lcom/developer/kalert/KAlertDialog;)V
 .end method
+
+.end class

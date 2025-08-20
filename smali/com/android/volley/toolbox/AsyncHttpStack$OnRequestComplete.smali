@@ -23,3 +23,5 @@
 
 .method public abstract onSuccess(Lcom/android/volley/toolbox/HttpResponse;)V
 .end method
+
+.end class

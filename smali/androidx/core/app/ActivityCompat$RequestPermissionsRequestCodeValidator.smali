@@ -23,3 +23,5 @@
 # virtual methods
 .method public abstract validateRequestPermissionsRequestCode(I)V
 .end method
+
+.end class

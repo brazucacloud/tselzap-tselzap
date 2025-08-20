@@ -230,7 +230,6 @@
     .line 5
     monitor-exit p0
 
-    .line 6
     return-void
 
     .line 7
@@ -303,7 +302,6 @@
     .line 20
     monitor-exit v0
 
-    .line 21
     return-void
 
     .line 22
@@ -380,3 +378,5 @@
     .line 85
     .line 86
 .end method
+
+.end class

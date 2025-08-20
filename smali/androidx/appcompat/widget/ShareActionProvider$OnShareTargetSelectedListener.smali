@@ -17,3 +17,5 @@
 # virtual methods
 .method public abstract onShareTargetSelected(Landroidx/appcompat/widget/ShareActionProvider;Landroid/content/Intent;)Z
 .end method
+
+.end class

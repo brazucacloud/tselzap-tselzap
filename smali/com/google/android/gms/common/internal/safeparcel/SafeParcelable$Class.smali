@@ -39,3 +39,5 @@
 
 .method public abstract validate()Z
 .end method
+
+.end class

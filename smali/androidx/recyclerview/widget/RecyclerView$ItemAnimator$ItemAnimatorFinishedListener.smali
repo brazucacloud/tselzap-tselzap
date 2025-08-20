@@ -17,3 +17,5 @@
 # virtual methods
 .method public abstract onAnimationsFinished()V
 .end method
+
+.end class

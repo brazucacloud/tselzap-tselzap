@@ -90,3 +90,5 @@
     .line 27
     return-object p1
 .end method
+
+.end class

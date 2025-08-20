@@ -53,3 +53,5 @@
 
 .method public abstract updateMenuView(Z)V
 .end method
+
+.end class

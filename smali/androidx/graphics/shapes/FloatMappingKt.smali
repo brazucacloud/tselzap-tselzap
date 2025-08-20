@@ -275,7 +275,6 @@
     .line 129
     move-result p0
 
-    .line 130
     return p0
 
     .line 131
@@ -1602,3 +1601,5 @@
     .line 242
     .line 243
 .end method
+
+.end class

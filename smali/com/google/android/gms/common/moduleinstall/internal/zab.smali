@@ -100,7 +100,6 @@
     .line 32
     move-result p1
 
-    .line 33
     return p1
 
     .line 34
@@ -126,11 +125,6 @@
     .line 43
     .line 44
     return v2
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
 .end method
+
+.end class

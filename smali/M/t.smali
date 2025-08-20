@@ -21,3 +21,5 @@
 .field public h:LM/x;
 
 .field public i:LM/q;
+
+.end class

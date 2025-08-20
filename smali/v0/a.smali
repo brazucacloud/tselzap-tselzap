@@ -69,7 +69,6 @@
     .line 18
     sub-int/2addr v1, v0
 
-    .line 19
     return v1
 
     .line 20
@@ -153,7 +152,6 @@
     .line 9
     move-result v0
 
-    .line 10
     return v0
 
     .line 11
@@ -168,7 +166,6 @@
     .line 15
     neg-int v0, v0
 
-    .line 16
     return v0
 
     .line 17
@@ -214,7 +211,6 @@
     .line 14
     sub-int/2addr p1, v0
 
-    .line 15
     return p1
 
     .line 16
@@ -237,7 +233,6 @@
     .line 24
     add-int/2addr p1, v0
 
-    .line 25
     return p1
 
     .line 26
@@ -270,7 +265,6 @@
     .line 9
     move-result p1
 
-    .line 10
     return p1
 
     .line 11
@@ -282,7 +276,6 @@
     .line 14
     move-result p1
 
-    .line 15
     return p1
 
     .line 16
@@ -1511,7 +1504,6 @@
     .line 20
     div-float/2addr v0, v1
 
-    .line 21
     return v0
 
     .line 22
@@ -1549,7 +1541,6 @@
     .line 35
     div-float/2addr p1, v1
 
-    .line 36
     return p1
 
     .line 37
@@ -1702,7 +1693,6 @@
     .line 20
     move-result v0
 
-    .line 21
     return v0
 
     .line 22
@@ -1732,7 +1722,6 @@
     .line 33
     move-result v0
 
-    .line 34
     return v0
 
     .line 35
@@ -1792,3 +1781,5 @@
     .line 85
     .line 86
 .end method
+
+.end class

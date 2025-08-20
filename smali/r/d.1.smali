@@ -108,7 +108,6 @@
     .line 47
     move-result-object p1
 
-    .line 48
     return-object p1
 
     .line 49
@@ -312,3 +311,5 @@
 
 .method public abstract c(Ll/a;Landroid/graphics/Bitmap;II)Landroid/graphics/Bitmap;
 .end method
+
+.end class

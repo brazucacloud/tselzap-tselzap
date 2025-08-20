@@ -144,18 +144,6 @@
     .line 73
     .line 74
     return-void
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
 .end method
 
 
@@ -224,7 +212,6 @@
     .line 24
     move-result-object p1
 
-    .line 25
     return-object p1
 
     .line 26
@@ -395,7 +382,6 @@
     .line 109
     move-result-object p1
 
-    .line 110
     return-object p1
 
     .line 111
@@ -1514,3 +1500,5 @@
     .line 902
     .line 903
 .end method
+
+.end class

@@ -17,3 +17,5 @@
 # virtual methods
 .method public abstract saveState()Landroid/os/Bundle;
 .end method
+
+.end class

@@ -36,7 +36,6 @@
     .line 3
     const/4 p0, 0x0
 
-    .line 4
     return-object p0
 
     .line 5
@@ -51,25 +50,7 @@
     .line 9
     move-result-object p0
 
-    .line 10
     return-object p0
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public static decodeUrlSafe(Ljava/lang/String;)[B
@@ -91,7 +72,6 @@
     .line 3
     const/4 p0, 0x0
 
-    .line 4
     return-object p0
 
     .line 5
@@ -107,24 +87,7 @@
     .line 10
     move-result-object p0
 
-    .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public static decodeUrlSafeNoPadding(Ljava/lang/String;)[B
@@ -146,7 +109,6 @@
     .line 3
     const/4 p0, 0x0
 
-    .line 4
     return-object p0
 
     .line 5
@@ -162,24 +124,7 @@
     .line 10
     move-result-object p0
 
-    .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public static encode([B)Ljava/lang/String;
@@ -201,7 +146,6 @@
     .line 3
     const/4 p0, 0x0
 
-    .line 4
     return-object p0
 
     .line 5
@@ -216,25 +160,7 @@
     .line 9
     move-result-object p0
 
-    .line 10
     return-object p0
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public static encodeUrlSafe([B)Ljava/lang/String;
@@ -256,7 +182,6 @@
     .line 3
     const/4 p0, 0x0
 
-    .line 4
     return-object p0
 
     .line 5
@@ -272,24 +197,7 @@
     .line 10
     move-result-object p0
 
-    .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public static encodeUrlSafeNoPadding([B)Ljava/lang/String;
@@ -311,7 +219,6 @@
     .line 3
     const/4 p0, 0x0
 
-    .line 4
     return-object p0
 
     .line 5
@@ -327,22 +234,7 @@
     .line 10
     move-result-object p0
 
-    .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
+
+.end class

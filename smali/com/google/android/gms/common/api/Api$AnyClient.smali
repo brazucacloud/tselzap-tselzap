@@ -15,3 +15,5 @@
     accessFlags = 0x609
     name = "AnyClient"
 .end annotation
+
+.end class

@@ -75,17 +75,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public clearKind()Landroidx/datastore/preferences/protobuf/Value$Builder;
@@ -111,17 +100,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public clearListValue()Landroidx/datastore/preferences/protobuf/Value$Builder;
@@ -147,17 +125,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public clearNullValue()Landroidx/datastore/preferences/protobuf/Value$Builder;
@@ -183,17 +150,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public clearNumberValue()Landroidx/datastore/preferences/protobuf/Value$Builder;
@@ -219,17 +175,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public clearStringValue()Landroidx/datastore/preferences/protobuf/Value$Builder;
@@ -255,17 +200,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public clearStructValue()Landroidx/datastore/preferences/protobuf/Value$Builder;
@@ -291,17 +225,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getBoolValue()Z
@@ -323,21 +246,7 @@
     .line 8
     move-result v0
 
-    .line 9
     return v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getKindCase()Landroidx/datastore/preferences/protobuf/Value$KindCase;
@@ -359,21 +268,7 @@
     .line 8
     move-result-object v0
 
-    .line 9
     return-object v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getListValue()Landroidx/datastore/preferences/protobuf/ListValue;
@@ -395,21 +290,7 @@
     .line 8
     move-result-object v0
 
-    .line 9
     return-object v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getNullValue()Landroidx/datastore/preferences/protobuf/NullValue;
@@ -431,21 +312,7 @@
     .line 8
     move-result-object v0
 
-    .line 9
     return-object v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getNullValueValue()I
@@ -467,21 +334,7 @@
     .line 8
     move-result v0
 
-    .line 9
     return v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getNumberValue()D
@@ -503,21 +356,7 @@
     .line 8
     move-result-wide v0
 
-    .line 9
     return-wide v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getStringValue()Ljava/lang/String;
@@ -539,21 +378,7 @@
     .line 8
     move-result-object v0
 
-    .line 9
     return-object v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getStringValueBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -575,21 +400,7 @@
     .line 8
     move-result-object v0
 
-    .line 9
     return-object v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getStructValue()Landroidx/datastore/preferences/protobuf/Struct;
@@ -611,21 +422,7 @@
     .line 8
     move-result-object v0
 
-    .line 9
     return-object v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public hasListValue()Z
@@ -647,21 +444,7 @@
     .line 8
     move-result v0
 
-    .line 9
     return v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public hasStructValue()Z
@@ -683,21 +466,7 @@
     .line 8
     move-result v0
 
-    .line 9
     return v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public mergeListValue(Landroidx/datastore/preferences/protobuf/ListValue;)Landroidx/datastore/preferences/protobuf/Value$Builder;
@@ -723,22 +492,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public mergeStructValue(Landroidx/datastore/preferences/protobuf/Struct;)Landroidx/datastore/preferences/protobuf/Value$Builder;
@@ -764,22 +517,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public setBoolValue(Z)Landroidx/datastore/preferences/protobuf/Value$Builder;
@@ -805,22 +542,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public setListValue(Landroidx/datastore/preferences/protobuf/ListValue$Builder;)Landroidx/datastore/preferences/protobuf/Value$Builder;
@@ -878,22 +599,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public setNullValueValue(I)Landroidx/datastore/preferences/protobuf/Value$Builder;
@@ -919,22 +624,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public setNumberValue(D)Landroidx/datastore/preferences/protobuf/Value$Builder;
@@ -960,22 +649,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public setStringValue(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/Value$Builder;
@@ -1001,22 +674,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public setStringValueBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/Value$Builder;
@@ -1042,22 +699,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public setStructValue(Landroidx/datastore/preferences/protobuf/Struct$Builder;)Landroidx/datastore/preferences/protobuf/Value$Builder;
@@ -1091,3 +732,5 @@
 
     return-object p0
 .end method
+
+.end class

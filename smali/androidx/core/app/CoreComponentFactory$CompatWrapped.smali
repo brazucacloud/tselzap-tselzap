@@ -23,3 +23,5 @@
 # virtual methods
 .method public abstract getWrapper()Ljava/lang/Object;
 .end method
+
+.end class

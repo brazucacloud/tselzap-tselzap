@@ -1644,3 +1644,5 @@
     .line 1347
     .line 1348
 .end method
+
+.end class

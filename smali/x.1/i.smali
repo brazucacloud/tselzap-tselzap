@@ -12,3 +12,5 @@
 
 .method public abstract onStop()V
 .end method
+
+.end class

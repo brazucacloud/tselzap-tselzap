@@ -17,3 +17,5 @@
 # virtual methods
 .method public abstract value()F
 .end method
+
+.end class

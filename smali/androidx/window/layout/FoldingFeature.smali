@@ -28,3 +28,5 @@
 
 .method public abstract isSeparating()Z
 .end method
+
+.end class

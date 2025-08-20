@@ -46,3 +46,5 @@
 
 .method public abstract toInclusive()Z
 .end method
+
+.end class

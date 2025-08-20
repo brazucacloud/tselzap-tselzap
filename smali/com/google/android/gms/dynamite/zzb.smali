@@ -561,7 +561,6 @@
     .line 216
     monitor-exit v0
 
-    .line 217
     return-object v1
 
     .line 218
@@ -696,3 +695,5 @@
     .line 340
     .line 341
 .end method
+
+.end class

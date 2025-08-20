@@ -15,3 +15,5 @@
 
 .method public abstract zzd()Z
 .end method
+
+.end class

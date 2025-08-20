@@ -274,7 +274,6 @@
     .line 44
     move-result-object p0
 
-    .line 45
     return-object p0
 
     .line 46
@@ -339,3 +338,5 @@
     .line 83
     .line 84
 .end method
+
+.end class

@@ -33,3 +33,5 @@
 # virtual methods
 .method public abstract level()Landroidx/annotation/experimental/Experimental$Level;
 .end method
+
+.end class

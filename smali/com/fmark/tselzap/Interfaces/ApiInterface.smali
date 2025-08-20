@@ -19,3 +19,5 @@
         value = "data"
     .end annotation
 .end method
+
+.end class

@@ -167,7 +167,6 @@
     :goto_0
     monitor-exit p0
 
-    .line 39
     return-void
 
     .line 40
@@ -190,3 +189,5 @@
     .line 50
     .line 51
 .end method
+
+.end class

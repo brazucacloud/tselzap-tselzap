@@ -36,19 +36,6 @@
     .line 8
     .line 9
     return-void
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public synthetic constructor <init>(I)V
@@ -79,7 +66,6 @@
     .line 6
     const/4 p1, 0x0
 
-    .line 7
     return p1
 
     .line 8
@@ -90,14 +76,12 @@
     .line 10
     const/4 p1, 0x1
 
-    .line 11
     return p1
 
     .line 12
     :pswitch_1
     const/4 p1, 0x1
 
-    .line 13
     return p1
 
     .line 14
@@ -138,7 +122,6 @@
     .line 6
     const/4 p1, 0x0
 
-    .line 7
     return-object p1
 
     .line 8
@@ -395,3 +378,5 @@
     .line 216
     .line 217
 .end method
+
+.end class

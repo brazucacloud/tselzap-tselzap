@@ -38,3 +38,5 @@
 
 .method public abstract setBoolean(IZ)Z
 .end method
+
+.end class

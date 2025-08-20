@@ -6,3 +6,5 @@
 # virtual methods
 .method public abstract e([BLjava/lang/Object;Ljava/security/MessageDigest;)V
 .end method
+
+.end class

@@ -64,9 +64,6 @@
     .line 18
     .line 19
     return-void
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 
@@ -105,7 +102,6 @@
     :try_end_0
     .catch Ljava/lang/IllegalStateException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 10
     return-object p1
 
     .line 11
@@ -124,13 +120,6 @@
     .line 17
     .line 18
     return-object p1
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
+
+.end class

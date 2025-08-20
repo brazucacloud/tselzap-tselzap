@@ -26,3 +26,5 @@
 
 .method public abstract runQueryOnBackgroundThread(Ljava/lang/CharSequence;)Landroid/database/Cursor;
 .end method
+
+.end class

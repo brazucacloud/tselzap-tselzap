@@ -7,3 +7,5 @@
 .field public a:F
 
 .field public b:F
+
+.end class

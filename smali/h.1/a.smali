@@ -25,3 +25,5 @@
 .field public j:I
 
 .field public k:[I
+
+.end class

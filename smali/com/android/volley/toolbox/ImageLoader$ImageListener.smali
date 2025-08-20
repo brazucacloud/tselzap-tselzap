@@ -20,3 +20,5 @@
 # virtual methods
 .method public abstract onResponse(Lcom/android/volley/toolbox/ImageLoader$ImageContainer;Z)V
 .end method
+
+.end class

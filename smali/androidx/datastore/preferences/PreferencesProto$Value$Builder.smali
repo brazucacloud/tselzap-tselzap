@@ -75,17 +75,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public clearDouble()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
@@ -111,17 +100,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public clearFloat()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
@@ -147,17 +125,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public clearInteger()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
@@ -183,17 +150,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public clearLong()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
@@ -219,17 +175,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public clearString()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
@@ -255,17 +200,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public clearStringSet()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
@@ -291,17 +225,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public clearValue()Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
@@ -327,17 +250,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getBoolean()Z
@@ -359,21 +271,7 @@
     .line 8
     move-result v0
 
-    .line 9
     return v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getDouble()D
@@ -395,21 +293,7 @@
     .line 8
     move-result-wide v0
 
-    .line 9
     return-wide v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getFloat()F
@@ -431,21 +315,7 @@
     .line 8
     move-result v0
 
-    .line 9
     return v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getInteger()I
@@ -467,21 +337,7 @@
     .line 8
     move-result v0
 
-    .line 9
     return v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getLong()J
@@ -503,21 +359,7 @@
     .line 8
     move-result-wide v0
 
-    .line 9
     return-wide v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getString()Ljava/lang/String;
@@ -539,21 +381,7 @@
     .line 8
     move-result-object v0
 
-    .line 9
     return-object v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getStringBytes()Landroidx/datastore/preferences/protobuf/ByteString;
@@ -575,21 +403,7 @@
     .line 8
     move-result-object v0
 
-    .line 9
     return-object v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getStringSet()Landroidx/datastore/preferences/PreferencesProto$StringSet;
@@ -611,21 +425,7 @@
     .line 8
     move-result-object v0
 
-    .line 9
     return-object v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getValueCase()Landroidx/datastore/preferences/PreferencesProto$Value$ValueCase;
@@ -647,21 +447,7 @@
     .line 8
     move-result-object v0
 
-    .line 9
     return-object v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public hasBoolean()Z
@@ -683,21 +469,7 @@
     .line 8
     move-result v0
 
-    .line 9
     return v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public hasDouble()Z
@@ -719,21 +491,7 @@
     .line 8
     move-result v0
 
-    .line 9
     return v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public hasFloat()Z
@@ -755,21 +513,7 @@
     .line 8
     move-result v0
 
-    .line 9
     return v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public hasInteger()Z
@@ -791,21 +535,7 @@
     .line 8
     move-result v0
 
-    .line 9
     return v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public hasLong()Z
@@ -827,21 +557,7 @@
     .line 8
     move-result v0
 
-    .line 9
     return v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public hasString()Z
@@ -863,21 +579,7 @@
     .line 8
     move-result v0
 
-    .line 9
     return v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public hasStringSet()Z
@@ -899,21 +601,7 @@
     .line 8
     move-result v0
 
-    .line 9
     return v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public mergeStringSet(Landroidx/datastore/preferences/PreferencesProto$StringSet;)Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
@@ -939,22 +627,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public setBoolean(Z)Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
@@ -980,22 +652,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public setDouble(D)Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
@@ -1021,22 +677,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public setFloat(F)Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
@@ -1062,22 +702,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public setInteger(I)Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
@@ -1103,22 +727,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public setLong(J)Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
@@ -1144,22 +752,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public setString(Ljava/lang/String;)Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
@@ -1185,22 +777,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public setStringBytes(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
@@ -1226,22 +802,6 @@
     .line 10
     .line 11
     return-object p0
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public setStringSet(Landroidx/datastore/preferences/PreferencesProto$StringSet$Builder;)Landroidx/datastore/preferences/PreferencesProto$Value$Builder;
@@ -1275,3 +835,5 @@
 
     return-object p0
 .end method
+
+.end class

@@ -15,3 +15,5 @@
     accessFlags = 0x609
     name = "NotRequiredOptions"
 .end annotation
+
+.end class

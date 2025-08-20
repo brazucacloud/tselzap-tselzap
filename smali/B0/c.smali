@@ -99,7 +99,6 @@
     .line 11
     move-result p1
 
-    .line 12
     return p1
 
     .line 13
@@ -828,7 +827,6 @@
     .line 11
     move-result v0
 
-    .line 12
     return v0
 
     .line 13
@@ -844,7 +842,6 @@
     .line 18
     move-result v0
 
-    .line 19
     return v0
 
     .line 20
@@ -857,3 +854,5 @@
     .end packed-switch
     .line 22
 .end method
+
+.end class

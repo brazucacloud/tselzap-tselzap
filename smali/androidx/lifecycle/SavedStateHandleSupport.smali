@@ -396,16 +396,6 @@
     .line 74
     :cond_2
     return-void
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
 .end method
 
 .method public static final getSavedStateHandlesProvider(Landroidx/savedstate/SavedStateRegistryOwner;)Landroidx/lifecycle/SavedStateHandlesProvider;
@@ -587,5 +577,6 @@
     .line 25
     .line 26
     return-object p0
-    .line 27
 .end method
+
+.end class

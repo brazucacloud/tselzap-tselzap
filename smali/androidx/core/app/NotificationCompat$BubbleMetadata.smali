@@ -147,7 +147,6 @@
     .line 14
     move-result-object p0
 
-    .line 15
     return-object p0
 
     .line 16
@@ -167,14 +166,11 @@
     .line 23
     move-result-object p0
 
-    .line 24
     return-object p0
 
     .line 25
     :cond_2
     return-object v0
-    .line 26
-    .line 27
 .end method
 
 .method public static toPlatform(Landroidx/core/app/NotificationCompat$BubbleMetadata;)Landroid/app/Notification$BubbleMetadata;
@@ -217,7 +213,6 @@
     .line 14
     move-result-object p0
 
-    .line 15
     return-object p0
 
     .line 16
@@ -237,14 +232,11 @@
     .line 23
     move-result-object p0
 
-    .line 24
     return-object p0
 
     .line 25
     :cond_2
     return-object v0
-    .line 26
-    .line 27
 .end method
 
 
@@ -273,21 +265,7 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 9
     return v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getDeleteIntent()Landroid/app/PendingIntent;
@@ -301,25 +279,6 @@
     .line 2
     .line 3
     return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getDesiredHeight()I
@@ -334,25 +293,6 @@
     .line 2
     .line 3
     return v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getDesiredHeightResId()I
@@ -366,25 +306,6 @@
     .line 2
     .line 3
     return v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getIcon()Landroidx/core/graphics/drawable/IconCompat;
@@ -404,25 +325,6 @@
     .line 2
     .line 3
     return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getIntent()Landroid/app/PendingIntent;
@@ -442,25 +344,6 @@
     .line 2
     .line 3
     return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getShortcutId()Ljava/lang/String;
@@ -474,25 +357,6 @@
     .line 2
     .line 3
     return-object v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public isNotificationSuppressed()Z
@@ -513,27 +377,13 @@
     .line 7
     const/4 v0, 0x1
 
-    .line 8
     return v0
 
     .line 9
     :cond_0
     const/4 v0, 0x0
 
-    .line 10
     return v0
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public setFlags(I)V
@@ -550,28 +400,6 @@
     .line 2
     .line 3
     return-void
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
+
+.end class

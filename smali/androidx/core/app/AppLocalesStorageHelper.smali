@@ -44,20 +44,6 @@
     .line 7
     .line 8
     return-void
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method private constructor <init>()V
@@ -70,24 +56,6 @@
     .line 3
     .line 4
     return-void
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public static persistLocales(Landroid/content/Context;Ljava/lang/String;)V
@@ -139,7 +107,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 18
     return-void
 
     .line 19
@@ -746,7 +713,6 @@
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_1
 
-    .line 100
     return-object v1
 
     .line 101
@@ -773,7 +739,6 @@
     :catch_3
     monitor-exit v0
 
-    .line 108
     return-object v1
 
     .line 109
@@ -918,3 +883,5 @@
     .line 242
     .line 243
 .end method
+
+.end class

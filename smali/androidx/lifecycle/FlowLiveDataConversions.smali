@@ -63,12 +63,7 @@
     .line 22
     move-result-object p0
 
-    .line 23
     return-object p0
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public static final asLiveData(LC1/g;)Landroidx/lifecycle/LiveData;
@@ -313,3 +308,5 @@
 
     return-object p0
 .end method
+
+.end class

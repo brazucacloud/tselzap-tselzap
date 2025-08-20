@@ -20,3 +20,5 @@
 # virtual methods
 .method public abstract zzc(I)Lcom/google/android/gms/internal/measurement/zzkp;
 .end method
+
+.end class

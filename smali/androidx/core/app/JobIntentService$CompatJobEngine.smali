@@ -20,3 +20,5 @@
 
 .method public abstract dequeueWork()Landroidx/core/app/JobIntentService$GenericWorkItem;
 .end method
+
+.end class

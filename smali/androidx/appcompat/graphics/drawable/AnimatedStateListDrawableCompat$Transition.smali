@@ -54,3 +54,5 @@
 
 .method public abstract stop()V
 .end method
+
+.end class

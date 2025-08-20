@@ -76,13 +76,6 @@
     .line 19
     .line 20
     return-void
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public static synthetic a(Landroidx/appcompat/app/AppCompatDelegate$SerialExecutor;Ljava/lang/Runnable;)V
@@ -200,7 +193,6 @@
     :goto_0
     monitor-exit v0
 
-    .line 25
     return-void
 
     .line 26
@@ -272,7 +264,6 @@
     :goto_0
     monitor-exit v0
 
-    .line 25
     return-void
 
     .line 26
@@ -343,3 +334,5 @@
     .line 85
     .line 86
 .end method
+
+.end class

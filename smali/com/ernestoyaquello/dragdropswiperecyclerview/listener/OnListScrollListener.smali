@@ -18,3 +18,5 @@
 
 .method public abstract onListScrolled(Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollDirection;I)V
 .end method
+
+.end class

@@ -15,3 +15,5 @@
 
 .method public abstract d()V
 .end method
+
+.end class

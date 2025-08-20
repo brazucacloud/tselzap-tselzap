@@ -21,3 +21,5 @@
 
 .method public abstract zzf()Z
 .end method
+
+.end class

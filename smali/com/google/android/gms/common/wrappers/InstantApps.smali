@@ -88,7 +88,6 @@
     .line 23
     monitor-exit v0
 
-    .line 24
     return p0
 
     .line 25
@@ -218,7 +217,6 @@
     .line 77
     monitor-exit v0
 
-    .line 78
     return p0
 
     .line 79
@@ -235,3 +233,5 @@
     .line 83
     .line 84
 .end method
+
+.end class

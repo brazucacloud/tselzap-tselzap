@@ -189,7 +189,6 @@
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_2
 
-    .line 68
     return-void
 
     .line 69
@@ -433,7 +432,6 @@
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_2
 
-    .line 90
     return-void
 
     .line 91
@@ -718,3 +716,5 @@
     .line 340
     .line 341
 .end method
+
+.end class

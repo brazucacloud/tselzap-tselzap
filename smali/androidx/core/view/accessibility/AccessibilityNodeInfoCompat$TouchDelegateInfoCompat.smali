@@ -115,27 +115,13 @@
     .line 12
     move-result-object p1
 
-    .line 13
     return-object p1
 
     .line 14
     :cond_0
     const/4 p1, 0x0
 
-    .line 15
     return-object p1
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public getRegionCount()I
@@ -168,22 +154,13 @@
     .line 12
     move-result v0
 
-    .line 13
     return v0
 
     .line 14
     :cond_0
     const/4 v0, 0x0
 
-    .line 15
     return v0
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public getTargetForRegion(Landroid/graphics/Region;)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
@@ -231,19 +208,13 @@
     .line 18
     move-result-object p1
 
-    .line 19
     return-object p1
 
     .line 20
     :cond_0
     const/4 p1, 0x0
 
-    .line 21
     return-object p1
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
+
+.end class

@@ -17,3 +17,5 @@
 # virtual methods
 .method public abstract copyFrom([BII)[B
 .end method
+
+.end class

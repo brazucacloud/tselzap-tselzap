@@ -20,7 +20,6 @@
 .method public final zza(Ljava/lang/Runnable;)Ljava/lang/Runnable;
     .locals 0
 
-    .line 1
     return-object p1
 .end method
 
@@ -38,6 +37,7 @@
         }
     .end annotation
 
-    .line 2
     return-object p1
 .end method
+
+.end class

@@ -46,3 +46,5 @@
 
 .method public abstract value()J
 .end method
+
+.end class

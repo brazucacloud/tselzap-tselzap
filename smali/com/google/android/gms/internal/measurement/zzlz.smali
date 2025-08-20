@@ -6,3 +6,5 @@
 # virtual methods
 .method public abstract zza(Ljava/lang/Object;)Ljava/lang/Object;
 .end method
+
+.end class

@@ -11,3 +11,5 @@
 
 .method public abstract getArguments()Landroid/os/Bundle;
 .end method
+
+.end class

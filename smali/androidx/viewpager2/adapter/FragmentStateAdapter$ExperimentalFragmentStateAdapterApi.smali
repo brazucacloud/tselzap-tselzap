@@ -19,3 +19,5 @@
     accessFlags = 0x2609
     name = "ExperimentalFragmentStateAdapterApi"
 .end annotation
+
+.end class

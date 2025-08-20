@@ -6,3 +6,5 @@
 # virtual methods
 .method public abstract layout(FFFF)V
 .end method
+
+.end class

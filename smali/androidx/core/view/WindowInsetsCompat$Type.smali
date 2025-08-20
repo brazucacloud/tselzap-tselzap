@@ -57,24 +57,6 @@
     .line 3
     .line 4
     return-void
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public static all()I
@@ -224,21 +206,18 @@
     :cond_1
     const/4 p0, 0x7
 
-    .line 48
     return p0
 
     .line 49
     :cond_2
     const/4 p0, 0x6
 
-    .line 50
     return p0
 
     .line 51
     :cond_3
     const/4 p0, 0x5
 
-    .line 52
     return p0
 
     .line 53
@@ -249,7 +228,6 @@
     :cond_5
     const/4 p0, 0x3
 
-    .line 55
     return p0
 
     .line 56
@@ -264,33 +242,7 @@
     :cond_8
     const/4 p0, 0x0
 
-    .line 59
     return p0
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
 .end method
 
 .method public static mandatorySystemGestures()I
@@ -340,3 +292,5 @@
 
     return v0
 .end method
+
+.end class

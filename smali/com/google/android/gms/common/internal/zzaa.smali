@@ -12,3 +12,5 @@
 
 .method public abstract zzd()Lcom/google/android/gms/dynamic/IObjectWrapper;
 .end method
+
+.end class

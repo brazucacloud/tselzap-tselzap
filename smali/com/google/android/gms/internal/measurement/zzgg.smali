@@ -24,3 +24,5 @@
         Lcom/google/android/gms/internal/measurement/zzgg$zzj;
     }
 .end annotation
+
+.end class

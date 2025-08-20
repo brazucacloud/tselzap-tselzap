@@ -46,3 +46,5 @@
 
 .method public abstract unused(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
 .end method
+
+.end class

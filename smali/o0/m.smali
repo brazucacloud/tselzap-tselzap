@@ -4,3 +4,5 @@
 
 # interfaces
 .implements Lo0/n;
+
+.end class

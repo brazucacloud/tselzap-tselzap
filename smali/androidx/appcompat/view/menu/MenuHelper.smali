@@ -9,3 +9,5 @@
 
 .method public abstract setPresenterCallback(Landroidx/appcompat/view/menu/MenuPresenter$Callback;)V
 .end method
+
+.end class

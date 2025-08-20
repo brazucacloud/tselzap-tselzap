@@ -14,24 +14,6 @@
     .line 3
     .line 4
     return-void
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public static emptyBooleanList()Landroidx/datastore/preferences/protobuf/Internal$BooleanList;
@@ -45,25 +27,7 @@
     .line 4
     move-result-object v0
 
-    .line 5
     return-object v0
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public static emptyDoubleList()Landroidx/datastore/preferences/protobuf/Internal$DoubleList;
@@ -77,25 +41,7 @@
     .line 4
     move-result-object v0
 
-    .line 5
     return-object v0
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public static emptyFloatList()Landroidx/datastore/preferences/protobuf/Internal$FloatList;
@@ -109,25 +55,7 @@
     .line 4
     move-result-object v0
 
-    .line 5
     return-object v0
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public static emptyIntList()Landroidx/datastore/preferences/protobuf/Internal$IntList;
@@ -141,25 +69,7 @@
     .line 4
     move-result-object v0
 
-    .line 5
     return-object v0
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public static emptyLongList()Landroidx/datastore/preferences/protobuf/Internal$LongList;
@@ -173,25 +83,7 @@
     .line 4
     move-result-object v0
 
-    .line 5
     return-object v0
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public static emptyProtobufList()Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
@@ -214,25 +106,7 @@
     .line 4
     move-result-object v0
 
-    .line 5
     return-object v0
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public static mutableCopy(Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;)Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
@@ -282,19 +156,7 @@
     .line 15
     move-result-object p0
 
-    .line 16
     return-object p0
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public static newBooleanList()Landroidx/datastore/preferences/protobuf/Internal$BooleanList;
@@ -311,22 +173,6 @@
     .line 5
     .line 6
     return-object v0
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public static newDoubleList()Landroidx/datastore/preferences/protobuf/Internal$DoubleList;
@@ -343,22 +189,6 @@
     .line 5
     .line 6
     return-object v0
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public static newFloatList()Landroidx/datastore/preferences/protobuf/Internal$FloatList;
@@ -375,22 +205,6 @@
     .line 5
     .line 6
     return-object v0
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public static newIntList()Landroidx/datastore/preferences/protobuf/Internal$IntList;
@@ -407,22 +221,6 @@
     .line 5
     .line 6
     return-object v0
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public static newLongList()Landroidx/datastore/preferences/protobuf/Internal$LongList;
@@ -439,20 +237,6 @@
     .line 5
     .line 6
     return-object v0
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
+
+.end class

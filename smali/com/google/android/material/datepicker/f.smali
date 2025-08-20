@@ -48,16 +48,6 @@
     .line 11
     .line 12
     return-void
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public constructor <init>()V
@@ -137,25 +127,6 @@
     .line 2
     .line 3
     return v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public final getItem(I)Ljava/lang/Object;
@@ -172,7 +143,6 @@
     .line 5
     const/4 p1, 0x0
 
-    .line 6
     return-object p1
 
     .line 7
@@ -199,18 +169,7 @@
     .line 16
     move-result-object p1
 
-    .line 17
     return-object p1
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public final getItemId(I)J
@@ -409,31 +368,6 @@
     .line 89
     .line 90
     return-object v1
-    .line 91
-    .line 92
-    .line 93
-    .line 94
-    .line 95
-    .line 96
-    .line 97
-    .line 98
-    .line 99
-    .line 100
-    .line 101
-    .line 102
-    .line 103
-    .line 104
-    .line 105
-    .line 106
-    .line 107
-    .line 108
-    .line 109
-    .line 110
-    .line 111
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
 .end method
+
+.end class

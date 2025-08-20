@@ -9,3 +9,5 @@
 .field public b:I
 
 .field public c:I
+
+.end class

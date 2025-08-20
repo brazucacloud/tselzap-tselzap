@@ -220,7 +220,6 @@
     .line 29
     monitor-exit p0
 
-    .line 30
     return-object p1
 
     .line 31
@@ -245,7 +244,6 @@
     .line 37
     const/4 p1, 0x0
 
-    .line 38
     return-object p1
 
     .line 39
@@ -331,7 +329,6 @@
     .line 10
     monitor-exit p0
 
-    .line 11
     return-object p1
 
     .line 12
@@ -429,7 +426,6 @@
     .line 53
     monitor-exit p0
 
-    .line 54
     return-object p1
 
     .line 55
@@ -695,7 +691,6 @@
     .line 16
     monitor-exit p0
 
-    .line 17
     return-object v0
 
     .line 18
@@ -806,7 +801,6 @@
     :cond_3
     monitor-exit p0
 
-    .line 64
     return-object v0
 
     .line 65
@@ -991,3 +985,5 @@
     .line 237
     .line 238
 .end method
+
+.end class

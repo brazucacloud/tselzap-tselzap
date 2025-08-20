@@ -20,3 +20,5 @@
 # virtual methods
 .method public abstract getCurrentVelocity(Landroid/view/VelocityTracker;Landroid/view/MotionEvent;I)F
 .end method
+
+.end class

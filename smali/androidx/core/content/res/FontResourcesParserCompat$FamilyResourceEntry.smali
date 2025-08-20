@@ -12,3 +12,5 @@
     accessFlags = 0x609
     name = "FamilyResourceEntry"
 .end annotation
+
+.end class

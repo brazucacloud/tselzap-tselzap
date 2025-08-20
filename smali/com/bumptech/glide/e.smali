@@ -7,7 +7,6 @@
 .method static synthetic constructor <clinit>()V
     .locals 0
 
-    .line 1
     return-void
 .end method
 
@@ -26,3 +25,5 @@
 
     throw p0
 .end method
+
+.end class

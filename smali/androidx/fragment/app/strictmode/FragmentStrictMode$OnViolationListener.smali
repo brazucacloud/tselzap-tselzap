@@ -17,3 +17,5 @@
 # virtual methods
 .method public abstract onViolation(Landroidx/fragment/app/strictmode/Violation;)V
 .end method
+
+.end class

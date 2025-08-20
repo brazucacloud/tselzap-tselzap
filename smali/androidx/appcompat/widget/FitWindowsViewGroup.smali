@@ -20,3 +20,5 @@
 # virtual methods
 .method public abstract setOnFitSystemWindowsListener(Landroidx/appcompat/widget/FitWindowsViewGroup$OnFitSystemWindowsListener;)V
 .end method
+
+.end class

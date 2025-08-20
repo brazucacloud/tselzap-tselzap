@@ -6,3 +6,5 @@
 # virtual methods
 .method public abstract zza(Lcom/google/android/gms/internal/measurement/zzaq;)Lcom/google/android/gms/internal/measurement/zzh;
 .end method
+
+.end class

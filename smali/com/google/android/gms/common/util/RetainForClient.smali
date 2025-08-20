@@ -9,3 +9,5 @@
 # annotations
 .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
 .end annotation
+
+.end class

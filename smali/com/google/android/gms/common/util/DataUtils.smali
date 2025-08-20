@@ -129,12 +129,6 @@
     .line 44
     .line 45
     return-void
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
 .end method
 
 .method public static loadImageBytes(Landroid/graphics/Bitmap;)[B
@@ -179,16 +173,7 @@
     .line 16
     move-result-object p0
 
-    .line 17
     return-object p0
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
+
+.end class

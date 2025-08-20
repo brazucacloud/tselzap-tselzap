@@ -38,7 +38,6 @@
 .method public a(Ljava/lang/Exception;)V
     .locals 0
 
-    .line 1
     return-void
 .end method
 
@@ -335,3 +334,5 @@
 
     return-object p1
 .end method
+
+.end class

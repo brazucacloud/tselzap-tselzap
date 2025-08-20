@@ -220,3 +220,5 @@
     .line 83
     .line 84
 .end method
+
+.end class

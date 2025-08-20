@@ -269,3 +269,5 @@
     :cond_4
     return p3
 .end method
+
+.end class

@@ -17,3 +17,5 @@
 # virtual methods
 .method public abstract get(Ljava/lang/String;)I
 .end method
+
+.end class

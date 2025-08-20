@@ -9,3 +9,5 @@
 # virtual methods
 .method public abstract b(Landroid/content/Context;Lk/C;II)Lk/C;
 .end method
+
+.end class

@@ -64,10 +64,6 @@
     .line 17
     .line 18
     return-void
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method private static zza(Lcom/google/android/gms/internal/measurement/zzh;Lcom/google/android/gms/internal/measurement/zzar;Lcom/google/android/gms/internal/measurement/zzaq;)I
@@ -304,3 +300,5 @@
 
     throw p1
 .end method
+
+.end class

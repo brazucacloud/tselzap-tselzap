@@ -5614,7 +5614,6 @@
     .line 9
     move-result-object v0
 
-    .line 10
     return-object v0
 
     .line 11
@@ -5690,7 +5689,6 @@
     .line 46
     move-result-object v0
 
-    .line 47
     return-object v0
 
     .line 48
@@ -5739,3 +5737,5 @@
     .line 85
     .line 86
 .end method
+
+.end class

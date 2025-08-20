@@ -25,24 +25,6 @@
     .line 3
     .line 4
     return-void
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public static isAvailable()Z
@@ -75,21 +57,13 @@
     .line 13
     const/4 v0, 0x1
 
-    .line 14
     return v0
 
     .line 15
     :cond_0
     const/4 v0, 0x0
 
-    .line 16
     return v0
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method private static partialIsValidUtf8(JI)I
@@ -3254,7 +3228,6 @@
     .line 50
     long-to-int v0, v4
 
-    .line 51
     return v0
 
     .line 52
@@ -3788,7 +3761,6 @@
     :cond_b
     long-to-int v0, v4
 
-    .line 306
     return v0
 
     .line 307
@@ -7376,7 +7348,6 @@
     .line 77
     move-result p1
 
-    .line 78
     return p1
 
     .line 79
@@ -7476,7 +7447,6 @@
     .line 121
     move-result p1
 
-    .line 122
     return p1
 
     .line 123
@@ -7527,7 +7497,6 @@
     .line 143
     move-result p1
 
-    .line 144
     return p1
 
     .line 145
@@ -7597,7 +7566,6 @@
     .line 172
     move-result p1
 
-    .line 173
     return p1
 
     .line 174
@@ -7687,3 +7655,5 @@
     .line 216
     .line 217
 .end method
+
+.end class

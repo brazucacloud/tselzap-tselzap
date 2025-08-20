@@ -209,12 +209,6 @@
     .line 78
     :catch_5
     return-void
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
 .end method
+
+.end class

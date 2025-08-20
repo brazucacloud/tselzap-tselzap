@@ -23,3 +23,5 @@
 
 .method public abstract onStart()V
 .end method
+
+.end class

@@ -313,7 +313,6 @@
     :goto_0
     monitor-exit v0
 
-    .line 23
     return-void
 
     .line 24
@@ -360,7 +359,6 @@
     .line 12
     monitor-exit p0
 
-    .line 13
     return-void
 
     .line 14
@@ -387,3 +385,5 @@
     .line 26
     .line 27
 .end method
+
+.end class

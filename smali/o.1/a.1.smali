@@ -74,7 +74,6 @@
     .line 8
     const/4 p1, 0x1
 
-    .line 9
     return p1
 
     .line 10
@@ -601,3 +600,5 @@
     .line 216
     .line 217
 .end method
+
+.end class

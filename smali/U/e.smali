@@ -187,18 +187,6 @@
     .line 72
     :cond_0
     return-object v6
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
 .end method
 
 .method public onFailure(Ljava/lang/Exception;)V
@@ -215,3 +203,5 @@
 
     return-void
 .end method
+
+.end class

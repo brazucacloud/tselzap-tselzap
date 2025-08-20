@@ -9,3 +9,5 @@
 
 .method public abstract zab(Lcom/google/android/gms/dynamic/LifecycleDelegate;)V
 .end method
+
+.end class

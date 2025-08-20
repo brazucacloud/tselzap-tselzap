@@ -51,7 +51,6 @@
     .line 13
     const/4 p1, 0x0
 
-    .line 14
     return-object p1
 
     .line 15
@@ -139,3 +138,5 @@
     .line 83
     .line 84
 .end method
+
+.end class

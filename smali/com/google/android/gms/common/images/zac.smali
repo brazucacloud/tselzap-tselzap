@@ -292,7 +292,6 @@
     .line 121
     monitor-exit v0
 
-    .line 122
     return-void
 
     .line 123
@@ -523,3 +522,5 @@
     .line 340
     .line 341
 .end method
+
+.end class

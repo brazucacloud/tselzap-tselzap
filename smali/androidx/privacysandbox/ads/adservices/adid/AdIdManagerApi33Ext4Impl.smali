@@ -76,5 +76,6 @@
     .line 25
     .line 26
     return-void
-    .line 27
 .end method
+
+.end class

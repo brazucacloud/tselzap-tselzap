@@ -17,3 +17,5 @@
 # virtual methods
 .method public abstract onActionProviderVisibilityChanged(Z)V
 .end method
+
+.end class

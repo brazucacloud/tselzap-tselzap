@@ -6,3 +6,5 @@
 # virtual methods
 .method public abstract release()V
 .end method
+
+.end class

@@ -56,3 +56,5 @@
 
 .method public abstract getPreferencesOrThrow(Ljava/lang/String;)Landroidx/datastore/preferences/PreferencesProto$Value;
 .end method
+
+.end class

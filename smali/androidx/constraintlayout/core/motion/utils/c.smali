@@ -1813,7 +1813,6 @@
     .line 30
     const/4 p0, -0x1
 
-    .line 31
     return p0
 
     .line 32
@@ -1821,7 +1820,6 @@
     :pswitch_0
     const/4 p0, 0x4
 
-    .line 33
     return p0
 
     .line 34
@@ -1837,7 +1835,6 @@
     :pswitch_1
     const/4 p0, 0x2
 
-    .line 38
     return p0
 
     .line 39
@@ -1916,3 +1913,5 @@
     .line 83
     .line 84
 .end method
+
+.end class

@@ -226,10 +226,6 @@
     .line 23
     :cond_0
     return v1
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public static readInputStreamFully(Ljava/io/InputStream;)[B
@@ -356,7 +352,6 @@
     .line 26
     move-result-object p0
 
-    .line 27
     return-object p0
 
     .line 28
@@ -423,3 +418,5 @@
     .line 83
     .line 84
 .end method
+
+.end class

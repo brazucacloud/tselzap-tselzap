@@ -48,7 +48,6 @@
     .line 10
     const/4 p1, 0x0
 
-    .line 11
     return p1
 
     .line 12
@@ -225,7 +224,6 @@
     :cond_3
     monitor-exit v1
 
-    .line 95
     return v2
 
     .line 96
@@ -356,7 +354,6 @@
     :cond_6
     monitor-exit v0
 
-    .line 153
     return v2
 
     .line 154
@@ -456,3 +453,5 @@
     .line 242
     .line 243
 .end method
+
+.end class

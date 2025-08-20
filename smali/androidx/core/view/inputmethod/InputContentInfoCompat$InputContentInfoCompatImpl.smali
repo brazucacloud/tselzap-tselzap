@@ -40,3 +40,5 @@
 
 .method public abstract requestPermission()V
 .end method
+
+.end class

@@ -9,3 +9,5 @@
 # virtual methods
 .method public abstract getValue()F
 .end method
+
+.end class

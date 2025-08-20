@@ -41,3 +41,5 @@
 
 .method public abstract updateFromSystem(Landroidx/constraintlayout/core/LinearSystem;)V
 .end method
+
+.end class

@@ -21,3 +21,5 @@
         "Lcom/google/android/gms/tasks/OnCanceledListener;"
     }
 .end annotation
+
+.end class

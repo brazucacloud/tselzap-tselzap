@@ -39,24 +39,6 @@
     .line 3
     .line 4
     return-void
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method private final wildcardMatch(Ljava/lang/String;Ljava/lang/String;)Z
@@ -217,7 +199,6 @@
     .line 73
     move-result p1
 
-    .line 74
     return p1
 
     .line 75
@@ -440,7 +421,6 @@
     .line 21
     const/4 p1, 0x1
 
-    .line 22
     return p1
 
     .line 23
@@ -491,15 +471,7 @@
     .line 43
     move-result p1
 
-    .line 44
     return p1
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
 .end method
 
 .method public final areComponentsMatching$window_release(Landroid/content/ComponentName;Landroid/content/ComponentName;)Z
@@ -907,3 +879,5 @@
     .line 237
     .line 238
 .end method
+
+.end class

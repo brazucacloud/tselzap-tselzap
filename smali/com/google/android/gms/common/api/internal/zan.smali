@@ -68,5 +68,6 @@
     .line 21
     :cond_0
     return-void
-    .line 22
 .end method
+
+.end class

@@ -9,3 +9,5 @@
 
 .method public abstract isRtl([CII)Z
 .end method
+
+.end class

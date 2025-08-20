@@ -47,7 +47,6 @@
     .line 20
     const/4 p0, -0x1
 
-    .line 21
     return p0
 
     .line 22
@@ -89,33 +88,19 @@
     .line 9
     const/4 p0, -0x1
 
-    .line 10
     return p0
 
     .line 11
     :cond_0
     const/4 p0, 0x1
 
-    .line 12
     return p0
 
     .line 13
     :cond_1
     const/4 p0, 0x2
 
-    .line 14
     return p0
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
+
+.end class

@@ -307,7 +307,6 @@
     .line 6
     monitor-exit v0
 
-    .line 7
     return v1
 
     .line 8
@@ -365,23 +364,6 @@
     .line 4
     .line 5
     return-void
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public final evictionCount()I
@@ -404,7 +386,6 @@
     .line 6
     monitor-exit v0
 
-    .line 7
     return v1
 
     .line 8
@@ -488,7 +469,6 @@
     .line 23
     monitor-exit v0
 
-    .line 24
     return-object v1
 
     .line 25
@@ -532,7 +512,6 @@
     .line 40
     const/4 p1, 0x0
 
-    .line 41
     return-object p1
 
     .line 42
@@ -830,7 +809,6 @@
     .line 6
     monitor-exit v0
 
-    .line 7
     return v1
 
     .line 8
@@ -876,7 +854,6 @@
     .line 6
     monitor-exit v0
 
-    .line 7
     return v1
 
     .line 8
@@ -922,7 +899,6 @@
     .line 6
     monitor-exit v0
 
-    .line 7
     return v1
 
     .line 8
@@ -1293,7 +1269,6 @@
     .line 6
     monitor-exit v0
 
-    .line 7
     return v1
 
     .line 8
@@ -1558,7 +1533,6 @@
     .line 6
     monitor-exit v0
 
-    .line 7
     return v1
 
     .line 8
@@ -1714,7 +1688,6 @@
     :cond_0
     monitor-exit v1
 
-    .line 46
     return-object v0
 
     .line 47
@@ -1905,7 +1878,6 @@
     .line 67
     monitor-exit v1
 
-    .line 68
     return-object v0
 
     .line 69
@@ -2134,7 +2106,6 @@
     .line 88
     monitor-exit v0
 
-    .line 89
     return-void
 
     .line 90
@@ -2215,7 +2186,6 @@
     :goto_4
     monitor-exit v0
 
-    .line 124
     return-void
 
     .line 125
@@ -2354,3 +2324,5 @@
     .line 242
     .line 243
 .end method
+
+.end class

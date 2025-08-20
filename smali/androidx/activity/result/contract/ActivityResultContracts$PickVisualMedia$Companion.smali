@@ -92,12 +92,7 @@
     .line 22
     move-result-object p1
 
-    .line 23
     return-object p1
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public final getSystemFallbackPicker$activity_release(Landroid/content/Context;)Landroid/content/pm/ResolveInfo;
@@ -145,12 +140,7 @@
     .line 22
     move-result-object p1
 
-    .line 23
     return-object p1
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public final getVisualMimeType$activity_release(Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$VisualMediaType;)Ljava/lang/String;
@@ -217,7 +207,6 @@
     .line 29
     move-result-object p1
 
-    .line 30
     return-object p1
 
     .line 31
@@ -232,7 +221,6 @@
     .line 35
     const/4 p1, 0x0
 
-    .line 36
     return-object p1
 
     .line 37
@@ -318,27 +306,13 @@
     .line 12
     const/4 p1, 0x1
 
-    .line 13
     return p1
 
     .line 14
     :cond_0
     const/4 p1, 0x0
 
-    .line 15
     return p1
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public final isPhotoPickerAvailable()Z
@@ -432,27 +406,13 @@
     .line 12
     const/4 p1, 0x1
 
-    .line 13
     return p1
 
     .line 14
     :cond_0
     const/4 p1, 0x0
 
-    .line 15
     return p1
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public final isSystemPickerAvailable$activity_release()Z
@@ -507,13 +467,13 @@
     :goto_0
     const/4 v0, 0x1
 
-    .line 20
     return v0
 
     .line 21
     :cond_1
     const/4 v0, 0x0
 
-    .line 22
     return v0
 .end method
+
+.end class

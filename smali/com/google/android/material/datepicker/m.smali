@@ -458,7 +458,6 @@
     .line 9
     move-result p1
 
-    .line 10
     return p1
 
     .line 11
@@ -602,3 +601,5 @@
     .line 116
     .line 117
 .end method
+
+.end class

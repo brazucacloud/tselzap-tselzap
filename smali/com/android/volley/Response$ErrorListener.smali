@@ -17,3 +17,5 @@
 # virtual methods
 .method public abstract onErrorResponse(Lcom/android/volley/VolleyError;)V
 .end method
+
+.end class

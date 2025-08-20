@@ -414,3 +414,5 @@
     .line 242
     .line 243
 .end method
+
+.end class

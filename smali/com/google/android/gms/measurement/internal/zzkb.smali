@@ -8,3 +8,5 @@
     .annotation build Landroidx/annotation/WorkerThread;
     .end annotation
 .end method
+
+.end class

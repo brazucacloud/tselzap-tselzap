@@ -5,3 +5,5 @@
 
 # static fields
 .field static zza:Lcom/google/android/gms/measurement/internal/zzad;
+
+.end class

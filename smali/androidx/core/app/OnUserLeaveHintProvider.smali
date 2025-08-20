@@ -9,3 +9,5 @@
 
 .method public abstract removeOnUserLeaveHintListener(Ljava/lang/Runnable;)V
 .end method
+
+.end class

@@ -83,15 +83,6 @@
     .line 12
     .line 13
     return-void
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 
@@ -159,16 +150,6 @@
     .line 16
     .line 17
     return-object p0
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public abstract getAttributeNames(Ljava/util/HashSet;)V
@@ -191,25 +172,6 @@
     .line 2
     .line 3
     return v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public matches(Ljava/lang/String;)Z
@@ -239,7 +201,6 @@
     .line 11
     move-result p1
 
-    .line 12
     return p1
 
     .line 13
@@ -247,21 +208,7 @@
     :goto_0
     const/4 p1, 0x0
 
-    .line 14
     return p1
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public setCustomAttribute(Ljava/lang/String;IF)V
@@ -333,30 +280,6 @@
     .line 2
     .line 3
     return-void
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public setInterpolation(Ljava/util/HashMap;)V
@@ -441,30 +364,6 @@
     .line 2
     .line 3
     return-object p0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public toBoolean(Ljava/lang/Object;)Z
@@ -490,7 +389,6 @@
     .line 10
     move-result p1
 
-    .line 11
     return p1
 
     .line 12
@@ -510,15 +408,7 @@
     .line 19
     move-result p1
 
-    .line 20
     return p1
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public toFloat(Ljava/lang/Object;)F
@@ -544,7 +434,6 @@
     .line 10
     move-result p1
 
-    .line 11
     return p1
 
     .line 12
@@ -564,15 +453,7 @@
     .line 19
     move-result p1
 
-    .line 20
     return p1
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public toInt(Ljava/lang/Object;)I
@@ -598,7 +479,6 @@
     .line 10
     move-result p1
 
-    .line 11
     return p1
 
     .line 12
@@ -618,13 +498,7 @@
     .line 19
     move-result p1
 
-    .line 20
     return p1
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
+
+.end class

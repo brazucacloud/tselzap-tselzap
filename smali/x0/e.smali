@@ -72,3 +72,5 @@
     .end packed-switch
     .line 22
 .end method
+
+.end class

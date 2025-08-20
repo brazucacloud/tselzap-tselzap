@@ -217,5 +217,6 @@
     .line 85
     :catch_6
     return-void
-    .line 86
 .end method
+
+.end class

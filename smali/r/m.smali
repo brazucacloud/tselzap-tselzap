@@ -12,3 +12,5 @@
 
 .method public abstract skip(J)J
 .end method
+
+.end class

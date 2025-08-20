@@ -149,7 +149,6 @@
     .line 8
     monitor-exit p0
 
-    .line 9
     return-void
 
     .line 10
@@ -198,7 +197,6 @@
     :cond_1
     monitor-exit p0
 
-    .line 28
     return-void
 
     .line 29
@@ -213,7 +211,6 @@
     .line 31
     monitor-exit p0
 
-    .line 32
     return-void
 
     .line 33
@@ -276,3 +273,5 @@
     .line 83
     .line 84
 .end method
+
+.end class

@@ -35,3 +35,5 @@
 # virtual methods
 .method public abstract value()[Landroidx/annotation/RestrictTo$Scope;
 .end method
+
+.end class

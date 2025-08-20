@@ -24,3 +24,5 @@
         "TContainingType;TType;>;"
     }
 .end annotation
+
+.end class

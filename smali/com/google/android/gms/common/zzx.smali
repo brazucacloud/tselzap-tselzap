@@ -80,3 +80,5 @@
     .line 26
     .line 27
 .end method
+
+.end class

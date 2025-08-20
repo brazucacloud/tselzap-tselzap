@@ -9,3 +9,5 @@
 
 .method public abstract setProgress(F)V
 .end method
+
+.end class

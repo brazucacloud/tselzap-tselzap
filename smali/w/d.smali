@@ -36,19 +36,6 @@
     .line 8
     .line 9
     return-void
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public synthetic constructor <init>(I)V
@@ -419,3 +406,5 @@
     .line 237
     .line 238
 .end method
+
+.end class

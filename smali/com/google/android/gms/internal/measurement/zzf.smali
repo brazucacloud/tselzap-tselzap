@@ -144,24 +144,6 @@
     .line 67
     .line 68
     return-void
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
 .end method
 
 
@@ -240,3 +222,5 @@
 
     return-void
 .end method
+
+.end class

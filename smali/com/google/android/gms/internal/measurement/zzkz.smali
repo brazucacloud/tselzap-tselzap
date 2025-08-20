@@ -112,7 +112,6 @@
     .line 3
     const/4 p1, 0x1
 
-    .line 4
     return p1
 
     .line 5
@@ -127,7 +126,6 @@
     .line 9
     const/4 p1, 0x0
 
-    .line 10
     return p1
 
     .line 11
@@ -175,7 +173,6 @@
     .line 32
     move-result p1
 
-    .line 33
     return p1
 
     .line 34
@@ -195,7 +192,6 @@
     .line 41
     move-result p1
 
-    .line 42
     return p1
 
     .line 43
@@ -227,7 +223,6 @@
     .line 56
     move-result p1
 
-    .line 57
     return p1
 
     .line 58
@@ -255,22 +250,7 @@
     .line 69
     move-result p1
 
-    .line 70
     return p1
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
 .end method
 
 .method public hashCode()I
@@ -410,3 +390,5 @@
 
     throw v0
 .end method
+
+.end class

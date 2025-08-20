@@ -40,7 +40,6 @@
     .line 8
     array-length p1, p1
 
-    .line 9
     return p1
 
     .line 10
@@ -51,7 +50,6 @@
     .line 12
     array-length p1, p1
 
-    .line 13
     return p1
 
     .line 14
@@ -146,3 +144,5 @@
     .line 21
     .line 22
 .end method
+
+.end class

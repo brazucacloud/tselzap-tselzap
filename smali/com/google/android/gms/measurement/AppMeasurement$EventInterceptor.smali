@@ -46,3 +46,5 @@
     .annotation build Lcom/google/android/gms/common/internal/ShowFirstParty;
     .end annotation
 .end method
+
+.end class

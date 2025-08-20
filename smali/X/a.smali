@@ -179,9 +179,6 @@
     .line 83
     :cond_0
     return-void
-    .line 84
-    .line 85
-    .line 86
 .end method
 
 .method public static a(LK/c;)I
@@ -215,7 +212,6 @@
     .line 14
     move-result p0
 
-    .line 15
     return p0
 
     .line 16
@@ -362,3 +358,5 @@
     .line 26
     .line 27
 .end method
+
+.end class

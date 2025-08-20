@@ -50,17 +50,6 @@
     .line 10
     .line 11
     return-void
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public constructor <init>()V
@@ -73,24 +62,6 @@
     .line 3
     .line 4
     return-void
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public static completeWakefulIntent(Landroid/content/Intent;)Z
@@ -163,7 +134,6 @@
     .line 31
     monitor-exit v1
 
-    .line 32
     return v3
 
     .line 33
@@ -208,7 +178,6 @@
     .line 52
     monitor-exit v1
 
-    .line 53
     return v3
 
     .line 54
@@ -327,7 +296,6 @@
     .line 32
     monitor-exit v1
 
-    .line 33
     return-object p0
 
     .line 34
@@ -411,7 +379,6 @@
     .line 75
     monitor-exit v1
 
-    .line 76
     return-object p1
 
     .line 77
@@ -583,3 +550,5 @@
     .line 237
     .line 238
 .end method
+
+.end class

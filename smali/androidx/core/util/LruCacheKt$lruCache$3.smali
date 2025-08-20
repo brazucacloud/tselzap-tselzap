@@ -66,6 +66,7 @@
 .method public final invoke(ZLjava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     return-void
 .end method
+
+.end class

@@ -27,7 +27,6 @@
     :try_end_0
     .catch Ljava/lang/SecurityException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 5
     return-object p0
 
     .line 6
@@ -75,3 +74,5 @@
     .line 26
     .line 27
 .end method
+
+.end class

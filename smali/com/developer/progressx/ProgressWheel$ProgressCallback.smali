@@ -17,3 +17,5 @@
 # virtual methods
 .method public abstract onProgressUpdate(F)V
 .end method
+
+.end class

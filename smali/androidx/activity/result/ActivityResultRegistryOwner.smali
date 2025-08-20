@@ -6,3 +6,5 @@
 # virtual methods
 .method public abstract getActivityResultRegistry()Landroidx/activity/result/ActivityResultRegistry;
 .end method
+
+.end class

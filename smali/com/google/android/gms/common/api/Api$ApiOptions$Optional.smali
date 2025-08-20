@@ -16,3 +16,5 @@
     accessFlags = 0x609
     name = "Optional"
 .end annotation
+
+.end class

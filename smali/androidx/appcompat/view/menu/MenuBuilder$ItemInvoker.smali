@@ -23,3 +23,5 @@
 # virtual methods
 .method public abstract invokeItem(Landroidx/appcompat/view/menu/MenuItemImpl;)Z
 .end method
+
+.end class

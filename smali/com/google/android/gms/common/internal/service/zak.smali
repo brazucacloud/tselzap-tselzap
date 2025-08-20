@@ -9,3 +9,5 @@
 # virtual methods
 .method public abstract zab(I)V
 .end method
+
+.end class

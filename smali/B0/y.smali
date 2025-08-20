@@ -69,8 +69,6 @@
     .line 24
     .line 25
     return-void
-    .line 26
-    .line 27
 .end method
 
 
@@ -225,7 +223,6 @@
     :cond_2
     const/4 v0, 0x0
 
-    .line 68
     return v0
 
     .line 69
@@ -307,3 +304,5 @@
     throw v0
     .line 22
 .end method
+
+.end class

@@ -48,17 +48,6 @@
     .line 15
     .line 16
     return-void
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public static bridge synthetic zza(Lcom/google/android/gms/measurement/internal/zzaz;J)V
@@ -159,7 +148,6 @@
     .line 37
     monitor-exit v0
 
-    .line 38
     return-object v1
 
     .line 39
@@ -329,23 +317,13 @@
     .line 9
     const/4 v0, 0x1
 
-    .line 10
     return v0
 
     .line 11
     :cond_0
     const/4 v0, 0x0
 
-    .line 12
     return v0
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
+
+.end class

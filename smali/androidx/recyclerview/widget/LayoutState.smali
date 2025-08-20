@@ -64,16 +64,6 @@
     .line 11
     .line 12
     return-void
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 
@@ -104,28 +94,13 @@
     .line 11
     const/4 p1, 0x1
 
-    .line 12
     return p1
 
     .line 13
     :cond_0
     const/4 p1, 0x0
 
-    .line 14
     return p1
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public next(Landroidx/recyclerview/widget/RecyclerView$Recycler;)Landroid/view/View;
@@ -160,19 +135,6 @@
     .line 13
     .line 14
     return-object p1
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -307,20 +269,7 @@
     .line 71
     move-result-object v0
 
-    .line 72
     return-object v0
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
-    .line 79
-    .line 80
-    .line 81
-    .line 82
-    .line 83
-    .line 84
-    .line 85
-    .line 86
 .end method
+
+.end class

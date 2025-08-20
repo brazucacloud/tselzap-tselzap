@@ -20,3 +20,5 @@
 
 .method public abstract onItemDropped(II)V
 .end method
+
+.end class

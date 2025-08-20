@@ -405,3 +405,5 @@
     .line 116
     .line 117
 .end method
+
+.end class

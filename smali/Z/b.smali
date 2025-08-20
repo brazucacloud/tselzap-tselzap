@@ -110,5 +110,6 @@
     .line 49
     .line 50
     return-void
-    .line 51
 .end method
+
+.end class

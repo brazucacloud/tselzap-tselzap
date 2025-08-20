@@ -31,3 +31,5 @@
 
 .method public abstract remove(Ljava/lang/String;)V
 .end method
+
+.end class

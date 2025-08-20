@@ -283,12 +283,6 @@
     .line 110
     .line 111
     return-object p2
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
 .end method
 
 .method public final persistAdSelectionResult(Landroid/adservices/adselection/AdSelectionManager;Landroidx/privacysandbox/ads/adservices/adselection/PersistAdSelectionResultRequest;Lg1/d;)Ljava/lang/Object;
@@ -539,12 +533,6 @@
     .line 110
     .line 111
     return-object p2
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
 .end method
 
 .method public final selectAds(Landroid/adservices/adselection/AdSelectionManager;Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionFromOutcomesConfig;Lg1/d;)Ljava/lang/Object;
@@ -795,10 +783,6 @@
     .line 110
     .line 111
     return-object p2
-    .line 112
-    .line 113
-    .line 114
-    .line 115
-    .line 116
-    .line 117
 .end method
+
+.end class

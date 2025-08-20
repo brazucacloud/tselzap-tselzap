@@ -160,7 +160,6 @@
     .line 32
     monitor-exit p1
 
-    .line 33
     return-void
 
     .line 34
@@ -296,7 +295,6 @@
     .line 16
     int-to-short v0, v0
 
-    .line 17
     return v0
 
     .line 18
@@ -379,29 +377,7 @@
 .method public b()V
     .locals 0
 
-    .line 1
     return-void
-    .line 2
-    .line 3
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public c()I
@@ -430,18 +406,7 @@
     .line 11
     or-int/2addr v0, v1
 
-    .line 12
     return v0
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public d()Ljava/lang/Object;
@@ -461,21 +426,6 @@
     .line 6
     .line 7
     return-object v0
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public e([BLjava/lang/Object;Ljava/security/MessageDigest;)V
@@ -711,11 +661,7 @@
     .line 21
     int-to-long p1, p2
 
-    .line 22
     return-wide p1
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
+
+.end class

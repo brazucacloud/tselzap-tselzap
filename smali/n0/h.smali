@@ -18,3 +18,5 @@
 
 .method public abstract j()Landroid/view/ViewGroup$LayoutParams;
 .end method
+
+.end class

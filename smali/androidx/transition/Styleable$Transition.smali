@@ -34,3 +34,5 @@
     .annotation build Landroidx/annotation/StyleableRes;
     .end annotation
 .end field
+
+.end class

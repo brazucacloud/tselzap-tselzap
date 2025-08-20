@@ -12,3 +12,5 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 .end method
+
+.end class

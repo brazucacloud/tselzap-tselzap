@@ -310,7 +310,6 @@
     .line 8
     const/4 p1, 0x1
 
-    .line 9
     return p1
 
     .line 10
@@ -321,7 +320,6 @@
     .line 12
     const/4 p1, 0x1
 
-    .line 13
     return p1
 
     .line 14
@@ -332,7 +330,6 @@
     .line 16
     const/4 p1, 0x1
 
-    .line 17
     return p1
 
     .line 18
@@ -377,3 +374,5 @@
     .line 50
     .line 51
 .end method
+
+.end class

@@ -15,3 +15,5 @@
 
 .method public abstract recycle()V
 .end method
+
+.end class

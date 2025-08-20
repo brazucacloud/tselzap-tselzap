@@ -84,10 +84,6 @@
     .line 22
     .line 23
     return-void
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public final onConnectionSuspended(I)V
@@ -95,3 +91,5 @@
 
     return-void
 .end method
+
+.end class

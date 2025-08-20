@@ -20,3 +20,5 @@
 # virtual methods
 .method public abstract id()I
 .end method
+
+.end class

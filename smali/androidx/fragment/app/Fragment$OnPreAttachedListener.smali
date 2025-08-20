@@ -37,3 +37,5 @@
 # virtual methods
 .method public abstract onPreAttached()V
 .end method
+
+.end class

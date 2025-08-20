@@ -78,7 +78,6 @@
 .method public final zza(Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzco;Lcom/google/android/gms/internal/measurement/zzcl;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     return-object p1
 .end method
 
@@ -91,3 +90,5 @@
 
     return-object p1
 .end method
+
+.end class

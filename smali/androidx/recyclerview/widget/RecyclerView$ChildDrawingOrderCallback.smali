@@ -17,3 +17,5 @@
 # virtual methods
 .method public abstract onGetChildDrawingOrder(II)I
 .end method
+
+.end class

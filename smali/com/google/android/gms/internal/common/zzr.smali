@@ -26,3 +26,5 @@
 # virtual methods
 .method public abstract zza(C)Z
 .end method
+
+.end class

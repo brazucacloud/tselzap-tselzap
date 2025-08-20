@@ -24,3 +24,5 @@
 # virtual methods
 .method public abstract onPositionChanged(Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper$OnItemLayoutPositionChangeListener$Action;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;IILandroid/graphics/Canvas;Landroid/graphics/Canvas;Z)V
 .end method
+
+.end class

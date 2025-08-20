@@ -64,3 +64,5 @@
 
 .method public abstract zay(Lcom/google/android/gms/common/api/internal/SignInConnectionListener;)Z
 .end method
+
+.end class

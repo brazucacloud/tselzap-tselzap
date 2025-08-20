@@ -34,21 +34,6 @@
     .line 6
     .line 7
     return-void
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public constructor <init>()V
@@ -61,24 +46,6 @@
     .line 3
     .line 4
     return-void
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public static create()Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
@@ -107,7 +74,6 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 11
     return-object v0
 
     .line 12
@@ -123,11 +89,6 @@
     .line 16
     .line 17
     return-object v0
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method public static createEmpty()Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
@@ -156,7 +117,6 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 11
     return-object v0
 
     .line 12
@@ -167,14 +127,6 @@
     .line 13
     .line 14
     return-object v0
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
 
 .method private static final invokeSubclassFactory(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
@@ -220,14 +172,6 @@
     .line 18
     .line 19
     return-object p0
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public static isFullRegistry(Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Z
@@ -264,24 +208,13 @@
     .line 15
     const/4 p0, 0x1
 
-    .line 16
     return p0
 
     .line 17
     :cond_0
     const/4 p0, 0x0
 
-    .line 18
     return p0
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public static reflectExtensionRegistry()Ljava/lang/Class;
@@ -309,26 +242,13 @@
     :try_end_0
     .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 7
     return-object v0
 
     .line 8
     :catch_0
     const/4 v0, 0x0
 
-    .line 9
     return-object v0
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
 .end method
+
+.end class

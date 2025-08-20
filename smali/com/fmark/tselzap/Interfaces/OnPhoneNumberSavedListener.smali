@@ -6,3 +6,5 @@
 # virtual methods
 .method public abstract onPhoneNumberSaved(Ljava/lang/String;)V
 .end method
+
+.end class

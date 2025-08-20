@@ -25,3 +25,5 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 .end method
+
+.end class

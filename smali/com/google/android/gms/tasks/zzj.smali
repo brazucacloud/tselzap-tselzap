@@ -80,7 +80,6 @@
     .line 7
     monitor-exit v0
 
-    .line 8
     return-void
 
     .line 9
@@ -133,7 +132,6 @@
     .line 8
     monitor-exit v0
 
-    .line 9
     return-void
 
     .line 10
@@ -182,3 +180,5 @@
     .line 26
     .line 27
 .end method
+
+.end class

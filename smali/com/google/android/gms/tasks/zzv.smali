@@ -44,15 +44,6 @@
     .line 17
     .line 18
     return-void
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
 .end method
 
 .method public static zza(Landroid/app/Activity;)Lcom/google/android/gms/tasks/zzv;
@@ -118,7 +109,6 @@
     :goto_0
     monitor-exit p0
 
-    .line 27
     return-object v0
 
     .line 28
@@ -283,7 +273,6 @@
     .line 41
     monitor-exit v0
 
-    .line 42
     return-void
 
     .line 43
@@ -370,7 +359,6 @@
     .line 14
     monitor-exit v0
 
-    .line 15
     return-void
 
     .line 16
@@ -394,3 +382,5 @@
     .line 26
     .line 27
 .end method
+
+.end class
