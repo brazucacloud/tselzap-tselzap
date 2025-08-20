@@ -22,8 +22,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -35,8 +34,7 @@
     .locals 1
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -44,8 +42,7 @@
     const/4 v0, 0x0
 
     .line 2
-    sput-object v0, Landroidx/core/service/quicksettings/TileServiceCompat;
-    ->sTileServiceWrapper:Landroidx/core/service/quicksettings/TileServiceCompat$TileServiceWrapper;
+    sput-object v0, Landroidx/core/service/quicksettings/TileServiceCompat;->sTileServiceWrapper:Landroidx/core/service/quicksettings/TileServiceCompat$TileServiceWrapper;
 
     .line 3
     .line 4
@@ -60,14 +57,12 @@
     .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    sput-object p0, Landroidx/core/service/quicksettings/TileServiceCompat;
-    ->sTileServiceWrapper:Landroidx/core/service/quicksettings/TileServiceCompat$TileServiceWrapper;
+    sput-object p0, Landroidx/core/service/quicksettings/TileServiceCompat;->sTileServiceWrapper:Landroidx/core/service/quicksettings/TileServiceCompat$TileServiceWrapper;
 
     .line 2
     .line 3
@@ -86,8 +81,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -99,8 +93,7 @@
 
     .line 6
     .line 7
-    sget-object v0, Landroidx/core/service/quicksettings/TileServiceCompat;
-    ->sTileServiceWrapper:Landroidx/core/service/quicksettings/TileServiceCompat$TileServiceWrapper;
+    sget-object v0, Landroidx/core/service/quicksettings/TileServiceCompat;->sTileServiceWrapper:Landroidx/core/service/quicksettings/TileServiceCompat$TileServiceWrapper;
 
     .line 8
     .line 9
@@ -108,8 +101,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Landroidx/core/service/quicksettings/PendingIntentActivityWrapper;
-    ->getPendingIntent()Landroid/app/PendingIntent;
+    invoke-virtual {p1}, Landroidx/core/service/quicksettings/PendingIntentActivityWrapper;->getPendingIntent()Landroid/app/PendingIntent;
 
     .line 12
     .line 13
@@ -117,8 +109,7 @@
     move-result-object p0
 
     .line 15
-    invoke-interface {v0, p0}, Landroidx/core/service/quicksettings/TileServiceCompat$TileServiceWrapper;
-    ->startActivityAndCollapse(Landroid/app/PendingIntent;)V
+    invoke-interface {v0, p0}, Landroidx/core/service/quicksettings/TileServiceCompat$TileServiceWrapper;->startActivityAndCollapse(Landroid/app/PendingIntent;)V
 
     .line 16
     .line 17
@@ -127,8 +118,7 @@
 
     .line 19
     :cond_0
-    invoke-virtual {p1}, Landroidx/core/service/quicksettings/PendingIntentActivityWrapper;
-    ->getPendingIntent()Landroid/app/PendingIntent;
+    invoke-virtual {p1}, Landroidx/core/service/quicksettings/PendingIntentActivityWrapper;->getPendingIntent()Landroid/app/PendingIntent;
 
     .line 20
     .line 21
@@ -136,8 +126,7 @@
     move-result-object p1
 
     .line 23
-    invoke-static {p0, p1}, Landroidx/core/service/quicksettings/TileServiceCompat$Api34Impl;
-    ->startActivityAndCollapse(Landroid/service/quicksettings/TileService;Landroid/app/PendingIntent;)V
+    invoke-static {p0, p1}, Landroidx/core/service/quicksettings/TileServiceCompat$Api34Impl;->startActivityAndCollapse(Landroid/service/quicksettings/TileService;Landroid/app/PendingIntent;)V
 
     .line 24
     .line 25
@@ -154,8 +143,7 @@
 
     .line 30
     .line 31
-    sget-object v0, Landroidx/core/service/quicksettings/TileServiceCompat;
-    ->sTileServiceWrapper:Landroidx/core/service/quicksettings/TileServiceCompat$TileServiceWrapper;
+    sget-object v0, Landroidx/core/service/quicksettings/TileServiceCompat;->sTileServiceWrapper:Landroidx/core/service/quicksettings/TileServiceCompat$TileServiceWrapper;
 
     .line 32
     .line 33
@@ -163,8 +151,7 @@
 
     .line 34
     .line 35
-    invoke-virtual {p1}, Landroidx/core/service/quicksettings/PendingIntentActivityWrapper;
-    ->getIntent()Landroid/content/Intent;
+    invoke-virtual {p1}, Landroidx/core/service/quicksettings/PendingIntentActivityWrapper;->getIntent()Landroid/content/Intent;
 
     .line 36
     .line 37
@@ -172,8 +159,7 @@
     move-result-object p0
 
     .line 39
-    invoke-interface {v0, p0}, Landroidx/core/service/quicksettings/TileServiceCompat$TileServiceWrapper;
-    ->startActivityAndCollapse(Landroid/content/Intent;)V
+    invoke-interface {v0, p0}, Landroidx/core/service/quicksettings/TileServiceCompat$TileServiceWrapper;->startActivityAndCollapse(Landroid/content/Intent;)V
 
     .line 40
     .line 41
@@ -182,8 +168,7 @@
 
     .line 43
     :cond_2
-    invoke-virtual {p1}, Landroidx/core/service/quicksettings/PendingIntentActivityWrapper;
-    ->getIntent()Landroid/content/Intent;
+    invoke-virtual {p1}, Landroidx/core/service/quicksettings/PendingIntentActivityWrapper;->getIntent()Landroid/content/Intent;
 
     .line 44
     .line 45
@@ -191,8 +176,7 @@
     move-result-object p1
 
     .line 47
-    invoke-static {p0, p1}, Landroidx/core/service/quicksettings/TileServiceCompat$Api24Impl;
-    ->startActivityAndCollapse(Landroid/service/quicksettings/TileService;Landroid/content/Intent;)V
+    invoke-static {p0, p1}, Landroidx/core/service/quicksettings/TileServiceCompat$Api24Impl;->startActivityAndCollapse(Landroid/service/quicksettings/TileService;Landroid/content/Intent;)V
 
     .line 48
     .line 49

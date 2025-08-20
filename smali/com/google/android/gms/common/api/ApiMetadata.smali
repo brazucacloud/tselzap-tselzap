@@ -51,26 +51,21 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    invoke-static {}, Lcom/google/android/gms/common/api/zza;
-    ->zza()Lcom/google/android/gms/common/api/zza;
+    invoke-static {}, Lcom/google/android/gms/common/api/zza;->zza()Lcom/google/android/gms/common/api/zza;
 
     move-result-object v0
 
-    sput-object v0, Lcom/google/android/gms/common/api/ApiMetadata;
-    ->CREATOR:Landroid/os/Parcelable$Creator;
+    sput-object v0, Lcom/google/android/gms/common/api/ApiMetadata;->CREATOR:Landroid/os/Parcelable$Creator;
 
-    invoke-static {}, Lcom/google/android/gms/common/api/ApiMetadata;
-    ->newBuilder()Lcom/google/android/gms/common/api/ApiMetadata$Builder;
+    invoke-static {}, Lcom/google/android/gms/common/api/ApiMetadata;->newBuilder()Lcom/google/android/gms/common/api/ApiMetadata$Builder;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/ApiMetadata$Builder;
-    ->build()Lcom/google/android/gms/common/api/ApiMetadata;
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/ApiMetadata$Builder;->build()Lcom/google/android/gms/common/api/ApiMetadata;
 
     move-result-object v0
 
-    sput-object v0, Lcom/google/android/gms/common/api/ApiMetadata;
-    ->zza:Lcom/google/android/gms/common/api/ApiMetadata;
+    sput-object v0, Lcom/google/android/gms/common/api/ApiMetadata;->zza:Lcom/google/android/gms/common/api/ApiMetadata;
 
     return-void
 .end method
@@ -88,11 +83,9 @@
     .annotation build Lcom/google/android/gms/common/internal/safeparcel/SafeParcelable$Constructor;
     .end annotation
 
-    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/ApiMetadata;
-    ->zzb:Lcom/google/android/gms/common/api/ComplianceOptions;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/ApiMetadata;->zzb:Lcom/google/android/gms/common/api/ComplianceOptions;
 
     return-void
 .end method
@@ -110,8 +103,7 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Lcom/google/android/gms/common/api/ApiMetadata;
-    ->newBuilder()Lcom/google/android/gms/common/api/ApiMetadata$Builder;
+    invoke-static {}, Lcom/google/android/gms/common/api/ApiMetadata;->newBuilder()Lcom/google/android/gms/common/api/ApiMetadata$Builder;
 
     .line 2
     .line 3
@@ -119,14 +111,12 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p0}, Lcom/google/android/gms/common/api/ApiMetadata$Builder;
-    ->setComplianceOptions(Lcom/google/android/gms/common/api/ComplianceOptions;)Lcom/google/android/gms/common/api/ApiMetadata$Builder;
+    invoke-virtual {v0, p0}, Lcom/google/android/gms/common/api/ApiMetadata$Builder;->setComplianceOptions(Lcom/google/android/gms/common/api/ComplianceOptions;)Lcom/google/android/gms/common/api/ApiMetadata$Builder;
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/ApiMetadata$Builder;
-    ->build()Lcom/google/android/gms/common/api/ApiMetadata;
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/ApiMetadata$Builder;->build()Lcom/google/android/gms/common/api/ApiMetadata;
 
     .line 9
     .line 10
@@ -144,8 +134,7 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    sget-object v0, Lcom/google/android/gms/common/api/ApiMetadata;
-    ->zza:Lcom/google/android/gms/common/api/ApiMetadata;
+    sget-object v0, Lcom/google/android/gms/common/api/ApiMetadata;->zza:Lcom/google/android/gms/common/api/ApiMetadata;
 
     return-object v0
 .end method
@@ -160,8 +149,7 @@
 
     new-instance v0, Lcom/google/android/gms/common/api/ApiMetadata$Builder;
 
-    invoke-direct {v0}, Lcom/google/android/gms/common/api/ApiMetadata$Builder;
-    -><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/common/api/ApiMetadata$Builder;-><init>()V
     return-object v0
 .end method
 
@@ -193,18 +181,15 @@
 
     .line 8
     .line 9
-    iget-object v0, p0, Lcom/google/android/gms/common/api/ApiMetadata;
-    ->zzb:Lcom/google/android/gms/common/api/ComplianceOptions;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/ApiMetadata;->zzb:Lcom/google/android/gms/common/api/ComplianceOptions;
 
     .line 10
     .line 11
-    iget-object p1, p1, Lcom/google/android/gms/common/api/ApiMetadata;
-    ->zzb:Lcom/google/android/gms/common/api/ComplianceOptions;
+    iget-object p1, p1, Lcom/google/android/gms/common/api/ApiMetadata;->zzb:Lcom/google/android/gms/common/api/ComplianceOptions;
 
     .line 12
     .line 13
-    invoke-static {v0, p1}, Ljava/util/Objects;
-    ->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Ljava/util/Objects;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 14
     .line 15
@@ -218,13 +203,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/ApiMetadata;
-    ->zzb:Lcom/google/android/gms/common/api/ComplianceOptions;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/ApiMetadata;->zzb:Lcom/google/android/gms/common/api/ComplianceOptions;
 
     .line 2
     .line 3
-    invoke-static {v0}, Ljava/util/Objects;
-    ->hashCode(Ljava/lang/Object;)I
+    invoke-static {v0}, Ljava/util/Objects;->hashCode(Ljava/lang/Object;)I
 
     .line 4
     .line 5
@@ -240,13 +223,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/ApiMetadata;
-    ->zzb:Lcom/google/android/gms/common/api/ComplianceOptions;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/ApiMetadata;->zzb:Lcom/google/android/gms/common/api/ComplianceOptions;
 
     .line 2
     .line 3
-    invoke-static {v0}, Ljava/lang/String;
-    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 4
     .line 5
@@ -262,8 +243,7 @@
 
     .line 10
     .line 11
-    invoke-static {v1, v0, v2}, Landroidx/constraintlayout/core/parser/a;
-    ->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v0, v2}, Landroidx/constraintlayout/core/parser/a;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 12
     .line 13
@@ -286,19 +266,16 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p1, v0}, Landroid/os/Parcel;
-    ->writeInt(I)V
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
     .line 5
     .line 6
     .line 7
-    iget-object v0, p0, Lcom/google/android/gms/common/api/ApiMetadata;
-    ->zzb:Lcom/google/android/gms/common/api/ComplianceOptions;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/ApiMetadata;->zzb:Lcom/google/android/gms/common/api/ComplianceOptions;
 
     .line 8
     .line 9
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
-    ->beginObjectHeader(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->beginObjectHeader(Landroid/os/Parcel;)I
 
     .line 10
     .line 11
@@ -312,14 +289,12 @@
     const/4 v3, 0x0
 
     .line 15
-    invoke-static {p1, v2, v0, p2, v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
-    ->writeParcelable(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
+    invoke-static {p1, v2, v0, p2, v3}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeParcelable(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
 
     .line 16
     .line 17
     .line 18
-    invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
-    ->finishObjectHeader(Landroid/os/Parcel;I)V
+    invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->finishObjectHeader(Landroid/os/Parcel;I)V
 
     .line 19
     .line 20

@@ -12,8 +12,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p1}, Landroidx/constraintlayout/core/motion/utils/a;
-    ->b(I)I
+    invoke-static {p1}, Landroidx/constraintlayout/core/motion/utils/a;->b(I)I
 
     move-result p1
 
@@ -24,8 +23,7 @@
     .locals 0
 
     .line 2
-    invoke-static {p1}, Landroidx/constraintlayout/core/motion/utils/a;
-    ->a(Ljava/lang/String;)I
+    invoke-static {p1}, Landroidx/constraintlayout/core/motion/utils/a;->a(Ljava/lang/String;)I
 
     move-result p1
 

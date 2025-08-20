@@ -193,98 +193,77 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
-    iput-object p1, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;
-    ->rootView:Landroidx/coordinatorlayout/widget/CoordinatorLayout;
+    iput-object p1, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;->rootView:Landroidx/coordinatorlayout/widget/CoordinatorLayout;
 
     .line 3
-    iput-object p2, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;
-    ->activeAcc:Landroid/widget/LinearLayout;
+    iput-object p2, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;->activeAcc:Landroid/widget/LinearLayout;
 
     .line 4
-    iput-object p3, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;
-    ->allowc:Lcom/google/android/material/card/MaterialCardView;
+    iput-object p3, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;->allowc:Lcom/google/android/material/card/MaterialCardView;
 
     .line 5
-    iput-object p4, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;
-    ->btnClear:Lcom/google/android/material/button/MaterialButton;
+    iput-object p4, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;->btnClear:Lcom/google/android/material/button/MaterialButton;
 
     .line 6
-    iput-object p5, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;
-    ->buttonx:Lcom/google/android/material/radiobutton/MaterialRadioButton;
+    iput-object p5, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;->buttonx:Lcom/google/android/material/radiobutton/MaterialRadioButton;
 
     .line 7
-    iput-object p6, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;
-    ->buttony:Lcom/google/android/material/radiobutton/MaterialRadioButton;
+    iput-object p6, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;->buttony:Lcom/google/android/material/radiobutton/MaterialRadioButton;
 
     .line 8
-    iput-object p7, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;
-    ->emptyLogView:Landroid/widget/TextView;
+    iput-object p7, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;->emptyLogView:Landroid/widget/TextView;
 
     .line 9
-    iput-object p8, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;
-    ->imageView2:Landroid/widget/ImageView;
+    iput-object p8, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;->imageView2:Landroid/widget/ImageView;
 
     .line 10
-    iput-object p9, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;
-    ->imageView4:Landroid/widget/ImageView;
+    iput-object p9, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;->imageView4:Landroid/widget/ImageView;
 
     .line 11
-    iput-object p10, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;
-    ->importCsvCard:Lcom/google/android/material/card/MaterialCardView;
+    iput-object p10, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;->importCsvCard:Lcom/google/android/material/card/MaterialCardView;
 
     .line 12
-    iput-object p11, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;
-    ->logsSender:Landroid/widget/ListView;
+    iput-object p11, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;->logsSender:Landroid/widget/ListView;
 
     .line 13
-    iput-object p12, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;
-    ->manualEntryCard:Lcom/google/android/material/card/MaterialCardView;
+    iput-object p12, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;->manualEntryCard:Lcom/google/android/material/card/MaterialCardView;
 
     .line 14
-    iput-object p13, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;
-    ->namelog:Landroid/widget/TextView;
+    iput-object p13, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;->namelog:Landroid/widget/TextView;
 
     .line 15
-    iput-object p14, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;
-    ->numberPicker:Lcom/shawnlin/numberpicker/NumberPicker;
+    iput-object p14, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;->numberPicker:Lcom/shawnlin/numberpicker/NumberPicker;
 
     .line 16
-    iput-object p15, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;
-    ->radiogroup:Landroid/widget/RadioGroup;
+    iput-object p15, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;->radiogroup:Landroid/widget/RadioGroup;
 
     move-object/from16 p1, p16
 
     .line 17
-    iput-object p1, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;
-    ->send:Lcom/google/android/material/button/MaterialButton;
+    iput-object p1, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;->send:Lcom/google/android/material/button/MaterialButton;
 
     move-object/from16 p1, p17
 
     .line 18
-    iput-object p1, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;
-    ->statusText:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;->statusText:Landroid/widget/TextView;
 
     move-object/from16 p1, p18
 
     .line 19
-    iput-object p1, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;
-    ->textView:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;->textView:Landroid/widget/TextView;
 
     move-object/from16 p1, p19
 
     .line 20
-    iput-object p1, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;
-    ->textView6:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;->textView6:Landroid/widget/TextView;
 
     move-object/from16 p1, p20
 
     .line 21
-    iput-object p1, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;
-    ->textView7:Landroid/widget/TextView;
+    iput-object p1, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;->textView7:Landroid/widget/TextView;
 
     return-void
 .end method
@@ -308,8 +287,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 7
     .line 8
@@ -333,8 +311,7 @@
     .line 16
     .line 17
     .line 18
-    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 19
     .line 20
@@ -358,8 +335,7 @@
     .line 28
     .line 29
     .line 30
-    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 31
     .line 32
@@ -383,8 +359,7 @@
     .line 40
     .line 41
     .line 42
-    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 43
     .line 44
@@ -408,8 +383,7 @@
     .line 52
     .line 53
     .line 54
-    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 55
     .line 56
@@ -433,8 +407,7 @@
     .line 64
     .line 65
     .line 66
-    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 67
     .line 68
@@ -458,8 +431,7 @@
     .line 76
     .line 77
     .line 78
-    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 79
     .line 80
@@ -483,8 +455,7 @@
     .line 88
     .line 89
     .line 90
-    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 91
     .line 92
@@ -508,8 +479,7 @@
     .line 100
     .line 101
     .line 102
-    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 103
     .line 104
@@ -533,8 +503,7 @@
     .line 112
     .line 113
     .line 114
-    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 115
     .line 116
@@ -558,8 +527,7 @@
     .line 124
     .line 125
     .line 126
-    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 127
     .line 128
@@ -583,8 +551,7 @@
     .line 136
     .line 137
     .line 138
-    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 139
     .line 140
@@ -609,8 +576,7 @@
     .line 149
     .line 150
     .line 151
-    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 152
     .line 153
@@ -635,8 +601,7 @@
     .line 162
     .line 163
     .line 164
-    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 165
     .line 166
@@ -661,8 +626,7 @@
     .line 175
     .line 176
     .line 177
-    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 178
     .line 179
@@ -687,8 +651,7 @@
     .line 188
     .line 189
     .line 190
-    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 191
     .line 192
@@ -713,8 +676,7 @@
     .line 201
     .line 202
     .line 203
-    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 204
     .line 205
@@ -739,8 +701,7 @@
     .line 214
     .line 215
     .line 216
-    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 217
     .line 218
@@ -765,8 +726,7 @@
     .line 227
     .line 228
     .line 229
-    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {v0, v1}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 230
     .line 231
@@ -797,8 +757,7 @@
 
     .line 243
     .line 244
-    invoke-direct/range {v3 .. v23}, Lcom/fmark/tselzap/databinding/SenderPageBinding;
-    -><init>(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/widget/LinearLayout;Lcom/google/android/material/card/MaterialCardView;Lcom/google/android/material/button/MaterialButton;Lcom/google/android/material/radiobutton/MaterialRadioButton;Lcom/google/android/material/radiobutton/MaterialRadioButton;Landroid/widget/TextView;Landroid/widget/ImageView;Landroid/widget/ImageView;Lcom/google/android/material/card/MaterialCardView;Landroid/widget/ListView;Lcom/google/android/material/card/MaterialCardView;Landroid/widget/TextView;Lcom/shawnlin/numberpicker/NumberPicker;Landroid/widget/RadioGroup;Lcom/google/android/material/button/MaterialButton;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;)V
+    invoke-direct/range {v3 .. v23}, Lcom/fmark/tselzap/databinding/SenderPageBinding;-><init>(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/widget/LinearLayout;Lcom/google/android/material/card/MaterialCardView;Lcom/google/android/material/button/MaterialButton;Lcom/google/android/material/radiobutton/MaterialRadioButton;Lcom/google/android/material/radiobutton/MaterialRadioButton;Landroid/widget/TextView;Landroid/widget/ImageView;Landroid/widget/ImageView;Lcom/google/android/material/card/MaterialCardView;Landroid/widget/ListView;Lcom/google/android/material/card/MaterialCardView;Landroid/widget/TextView;Lcom/shawnlin/numberpicker/NumberPicker;Landroid/widget/RadioGroup;Lcom/google/android/material/button/MaterialButton;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/TextView;)V
 
     .line 245
     .line 246
@@ -807,8 +766,7 @@
 
     .line 248
     :cond_0
-    invoke-virtual {v0}, Landroid/view/View;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     .line 249
     .line 250
@@ -816,8 +774,7 @@
     move-result-object v0
 
     .line 252
-    invoke-virtual {v0, v1}, Landroid/content/res/Resources;
-    ->getResourceName(I)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Landroid/content/res/Resources;->getResourceName(I)Ljava/lang/String;
 
     .line 253
     .line 254
@@ -833,8 +790,7 @@
 
     .line 259
     .line 260
-    invoke-virtual {v2, v0}, Ljava/lang/String;
-    ->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 261
     .line 262
@@ -842,8 +798,7 @@
     move-result-object v0
 
     .line 264
-    invoke-direct {v1, v0}, Ljava/lang/NullPointerException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v0}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     .line 265
     .line 266
@@ -1946,8 +1901,7 @@
     const/4 v1, 0x0
 
     .line 1
-    invoke-static {p0, v0, v1}, Lcom/fmark/tselzap/databinding/SenderPageBinding;
-    ->inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/fmark/tselzap/databinding/SenderPageBinding;
+    invoke-static {p0, v0, v1}, Lcom/fmark/tselzap/databinding/SenderPageBinding;->inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/fmark/tselzap/databinding/SenderPageBinding;
 
     move-result-object p0
 
@@ -1972,21 +1926,18 @@
     const/4 v1, 0x0
 
     .line 2
-    invoke-virtual {p0, v0, p1, v1}, Landroid/view/LayoutInflater;
-    ->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    invoke-virtual {p0, v0, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p0
 
     if-eqz p2, :cond_0
 
     .line 3
-    invoke-virtual {p1, p0}, Landroid/view/ViewGroup;
-    ->addView(Landroid/view/View;)V
+    invoke-virtual {p1, p0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     .line 4
     :cond_0
-    invoke-static {p0}, Lcom/fmark/tselzap/databinding/SenderPageBinding;
-    ->bind(Landroid/view/View;)Lcom/fmark/tselzap/databinding/SenderPageBinding;
+    invoke-static {p0}, Lcom/fmark/tselzap/databinding/SenderPageBinding;->bind(Landroid/view/View;)Lcom/fmark/tselzap/databinding/SenderPageBinding;
 
     move-result-object p0
 
@@ -2001,8 +1952,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/fmark/tselzap/databinding/SenderPageBinding;
-    ->getRoot()Landroidx/coordinatorlayout/widget/CoordinatorLayout;
+    invoke-virtual {p0}, Lcom/fmark/tselzap/databinding/SenderPageBinding;->getRoot()Landroidx/coordinatorlayout/widget/CoordinatorLayout;
 
     move-result-object v0
 
@@ -2015,8 +1965,7 @@
     .end annotation
 
     .line 2
-    iget-object v0, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;
-    ->rootView:Landroidx/coordinatorlayout/widget/CoordinatorLayout;
+    iget-object v0, p0, Lcom/fmark/tselzap/databinding/SenderPageBinding;->rootView:Landroidx/coordinatorlayout/widget/CoordinatorLayout;
 
     return-object v0
 .end method

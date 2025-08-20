@@ -20,20 +20,15 @@
 .method public constructor <init>(Lcom/google/android/gms/common/api/PendingResult;Lcom/google/android/gms/tasks/TaskCompletionSource;Lcom/google/android/gms/common/internal/PendingResultUtil$ResultConverter;Lcom/google/android/gms/common/internal/zas;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/google/android/gms/common/internal/zap;
-    ->zaa:Lcom/google/android/gms/common/api/PendingResult;
+    iput-object p1, p0, Lcom/google/android/gms/common/internal/zap;->zaa:Lcom/google/android/gms/common/api/PendingResult;
 
-    iput-object p2, p0, Lcom/google/android/gms/common/internal/zap;
-    ->zab:Lcom/google/android/gms/tasks/TaskCompletionSource;
+    iput-object p2, p0, Lcom/google/android/gms/common/internal/zap;->zab:Lcom/google/android/gms/tasks/TaskCompletionSource;
 
-    iput-object p3, p0, Lcom/google/android/gms/common/internal/zap;
-    ->zac:Lcom/google/android/gms/common/internal/PendingResultUtil$ResultConverter;
+    iput-object p3, p0, Lcom/google/android/gms/common/internal/zap;->zac:Lcom/google/android/gms/common/internal/PendingResultUtil$ResultConverter;
 
-    iput-object p4, p0, Lcom/google/android/gms/common/internal/zap;
-    ->zad:Lcom/google/android/gms/common/internal/zas;
+    iput-object p4, p0, Lcom/google/android/gms/common/internal/zap;->zad:Lcom/google/android/gms/common/internal/zas;
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -43,8 +38,7 @@
     .locals 3
 
     .line 1
-    invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;
-    ->isSuccess()Z
+    invoke-virtual {p1}, Lcom/google/android/gms/common/api/Status;->isSuccess()Z
 
     .line 2
     .line 3
@@ -56,8 +50,7 @@
 
     .line 6
     .line 7
-    iget-object p1, p0, Lcom/google/android/gms/common/internal/zap;
-    ->zaa:Lcom/google/android/gms/common/api/PendingResult;
+    iget-object p1, p0, Lcom/google/android/gms/common/internal/zap;->zaa:Lcom/google/android/gms/common/api/PendingResult;
 
     .line 8
     .line 9
@@ -65,13 +58,11 @@
 
     .line 10
     .line 11
-    sget-object v2, Ljava/util/concurrent/TimeUnit;
-    ->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
+    sget-object v2, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
     .line 12
     .line 13
-    invoke-virtual {p1, v0, v1, v2}, Lcom/google/android/gms/common/api/PendingResult;
-    ->await(JLjava/util/concurrent/TimeUnit;)Lcom/google/android/gms/common/api/Result;
+    invoke-virtual {p1, v0, v1, v2}, Lcom/google/android/gms/common/api/PendingResult;->await(JLjava/util/concurrent/TimeUnit;)Lcom/google/android/gms/common/api/Result;
 
     .line 14
     .line 15
@@ -79,18 +70,15 @@
     move-result-object p1
 
     .line 17
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/zap;
-    ->zab:Lcom/google/android/gms/tasks/TaskCompletionSource;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/zap;->zab:Lcom/google/android/gms/tasks/TaskCompletionSource;
 
     .line 18
     .line 19
-    iget-object v1, p0, Lcom/google/android/gms/common/internal/zap;
-    ->zac:Lcom/google/android/gms/common/internal/PendingResultUtil$ResultConverter;
+    iget-object v1, p0, Lcom/google/android/gms/common/internal/zap;->zac:Lcom/google/android/gms/common/internal/PendingResultUtil$ResultConverter;
 
     .line 20
     .line 21
-    invoke-interface {v1, p1}, Lcom/google/android/gms/common/internal/PendingResultUtil$ResultConverter;
-    ->convert(Lcom/google/android/gms/common/api/Result;)Ljava/lang/Object;
+    invoke-interface {v1, p1}, Lcom/google/android/gms/common/internal/PendingResultUtil$ResultConverter;->convert(Lcom/google/android/gms/common/api/Result;)Ljava/lang/Object;
 
     .line 22
     .line 23
@@ -98,8 +86,7 @@
     move-result-object p1
 
     .line 25
-    invoke-virtual {v0, p1}, Lcom/google/android/gms/tasks/TaskCompletionSource;
-    ->setResult(Ljava/lang/Object;)V
+    invoke-virtual {v0, p1}, Lcom/google/android/gms/tasks/TaskCompletionSource;->setResult(Ljava/lang/Object;)V
 
     .line 26
     .line 27
@@ -108,13 +95,11 @@
 
     .line 29
     :cond_0
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/zap;
-    ->zab:Lcom/google/android/gms/tasks/TaskCompletionSource;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/zap;->zab:Lcom/google/android/gms/tasks/TaskCompletionSource;
 
     .line 30
     .line 31
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/ApiExceptionUtil;
-    ->fromStatus(Lcom/google/android/gms/common/api/Status;)Lcom/google/android/gms/common/api/ApiException;
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/ApiExceptionUtil;->fromStatus(Lcom/google/android/gms/common/api/Status;)Lcom/google/android/gms/common/api/ApiException;
 
     .line 32
     .line 33
@@ -122,8 +107,7 @@
     move-result-object p1
 
     .line 35
-    invoke-virtual {v0, p1}, Lcom/google/android/gms/tasks/TaskCompletionSource;
-    ->setException(Ljava/lang/Exception;)V
+    invoke-virtual {v0, p1}, Lcom/google/android/gms/tasks/TaskCompletionSource;->setException(Ljava/lang/Exception;)V
 
     .line 36
     .line 37

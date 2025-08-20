@@ -21,14 +21,12 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, LE/g;
-    -><init>(I)V
+    invoke-direct {v0, v1}, LE/g;-><init>(I)V
 
     .line 5
     .line 6
     .line 7
-    sput-object v0, LE/h;
-    ->a:LE/g;
+    sput-object v0, LE/h;->a:LE/g;
 
     .line 8
     .line 9
@@ -39,14 +37,12 @@
     const/4 v1, 0x1
 
     .line 12
-    invoke-direct {v0, v1}, LE/g;
-    -><init>(I)V
+    invoke-direct {v0, v1}, LE/g;-><init>(I)V
 
     .line 13
     .line 14
     .line 15
-    sput-object v0, LE/h;
-    ->b:LE/g;
+    sput-object v0, LE/h;->b:LE/g;
 
     .line 16
     .line 17
@@ -69,8 +65,7 @@
 
     .line 5
     .line 6
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 7
     .line 8
@@ -128,8 +123,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, LE/h;
-    ->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, LE/h;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -153,8 +147,7 @@
 
     .line 5
     .line 6
-    invoke-direct {p0, p1}, Ljava/lang/NullPointerException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     .line 7
     .line 8

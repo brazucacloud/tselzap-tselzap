@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/appcompat/widget/PopupMenu;
-    -><init>(Landroid/content/Context;Landroid/view/View;III)V
+    value = Landroidx/appcompat/widget/PopupMenu;-><init>(Landroid/content/Context;Landroid/view/View;III)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/PopupMenu$1;
-    ->this$0:Landroidx/appcompat/widget/PopupMenu;
+    iput-object p1, p0, Landroidx/appcompat/widget/PopupMenu$1;->this$0:Landroidx/appcompat/widget/PopupMenu;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -51,13 +48,11 @@
     .end param
 
     .line 1
-    iget-object p1, p0, Landroidx/appcompat/widget/PopupMenu$1;
-    ->this$0:Landroidx/appcompat/widget/PopupMenu;
+    iget-object p1, p0, Landroidx/appcompat/widget/PopupMenu$1;->this$0:Landroidx/appcompat/widget/PopupMenu;
 
     .line 2
     .line 3
-    iget-object p1, p1, Landroidx/appcompat/widget/PopupMenu;
-    ->mMenuItemClickListener:Landroidx/appcompat/widget/PopupMenu$OnMenuItemClickListener;
+    iget-object p1, p1, Landroidx/appcompat/widget/PopupMenu;->mMenuItemClickListener:Landroidx/appcompat/widget/PopupMenu$OnMenuItemClickListener;
 
     .line 4
     .line 5
@@ -65,8 +60,7 @@
 
     .line 6
     .line 7
-    invoke-interface {p1, p2}, Landroidx/appcompat/widget/PopupMenu$OnMenuItemClickListener;
-    ->onMenuItemClick(Landroid/view/MenuItem;)Z
+    invoke-interface {p1, p2}, Landroidx/appcompat/widget/PopupMenu$OnMenuItemClickListener;->onMenuItemClick(Landroid/view/MenuItem;)Z
 
     .line 8
     .line 9

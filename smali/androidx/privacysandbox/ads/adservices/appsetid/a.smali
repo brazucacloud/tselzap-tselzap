@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/appsetid/AppSetId;
-    ->getId()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/adservices/appsetid/AppSetId;->getId()Ljava/lang/String;
 
     move-result-object p0
 
@@ -20,8 +19,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/adservices/appsetid/AppSetIdManager;
-    ->getAppSetId(Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
+    invoke-virtual {p0, p1, p2}, Landroid/adservices/appsetid/AppSetIdManager;->getAppSetId(Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
 return-void
 .end method
 
@@ -29,8 +27,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/customaudience/CustomAudienceManager;
-    ->joinCustomAudience(Landroid/adservices/customaudience/JoinCustomAudienceRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
+    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/customaudience/CustomAudienceManager;->joinCustomAudience(Landroid/adservices/customaudience/JoinCustomAudienceRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
 return-void
 .end method
 
@@ -38,8 +35,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/CustomAudience$Builder;
-    ->setDailyUpdateUri(Landroid/net/Uri;)Landroid/adservices/customaudience/CustomAudience$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/CustomAudience$Builder;->setDailyUpdateUri(Landroid/net/Uri;)Landroid/adservices/customaudience/CustomAudience$Builder;
 
     move-result-object p0
 
@@ -50,8 +46,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/appsetid/AppSetId;
-    ->getScope()I
+    invoke-virtual {p0}, Landroid/adservices/appsetid/AppSetId;->getScope()I
 
     move-result p0
 
@@ -82,8 +77,7 @@ return-void
     .line 1
     new-instance v0, Landroid/adservices/common/AdData$Builder;
 
-    invoke-direct {v0}, Landroid/adservices/common/AdData$Builder;
-    -><init>()V
+    invoke-direct {v0}, Landroid/adservices/common/AdData$Builder;-><init>()V
     return-object v0
 .end method
 
@@ -91,8 +85,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/common/AdData$Builder;
-    ->setRenderUri(Landroid/net/Uri;)Landroid/adservices/common/AdData$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/common/AdData$Builder;->setRenderUri(Landroid/net/Uri;)Landroid/adservices/common/AdData$Builder;
 
     move-result-object p0
 
@@ -103,8 +96,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/common/AdData$Builder;
-    ->setMetadata(Ljava/lang/String;)Landroid/adservices/common/AdData$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/common/AdData$Builder;->setMetadata(Ljava/lang/String;)Landroid/adservices/common/AdData$Builder;
 
     move-result-object p0
 
@@ -115,8 +107,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/common/AdData$Builder;
-    ->build()Landroid/adservices/common/AdData;
+    invoke-virtual {p0}, Landroid/adservices/common/AdData$Builder;->build()Landroid/adservices/common/AdData;
 
     move-result-object p0
 
@@ -127,8 +118,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/adservices/common/AdSelectionSignals;
-    ->fromString(Ljava/lang/String;)Landroid/adservices/common/AdSelectionSignals;
+    invoke-static {p0}, Landroid/adservices/common/AdSelectionSignals;->fromString(Ljava/lang/String;)Landroid/adservices/common/AdSelectionSignals;
 
     move-result-object p0
 
@@ -139,8 +129,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/adservices/common/AdTechIdentifier;
-    ->fromString(Ljava/lang/String;)Landroid/adservices/common/AdTechIdentifier;
+    invoke-static {p0}, Landroid/adservices/common/AdTechIdentifier;->fromString(Ljava/lang/String;)Landroid/adservices/common/AdTechIdentifier;
 
     move-result-object p0
 
@@ -153,8 +142,7 @@ return-void
     .line 1
     new-instance v0, Landroid/adservices/customaudience/CustomAudience$Builder;
 
-    invoke-direct {v0}, Landroid/adservices/customaudience/CustomAudience$Builder;
-    -><init>()V
+    invoke-direct {v0}, Landroid/adservices/customaudience/CustomAudience$Builder;-><init>()V
     return-object v0
 .end method
 
@@ -162,8 +150,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/CustomAudience$Builder;
-    ->setUserBiddingSignals(Landroid/adservices/common/AdSelectionSignals;)Landroid/adservices/customaudience/CustomAudience$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/CustomAudience$Builder;->setUserBiddingSignals(Landroid/adservices/common/AdSelectionSignals;)Landroid/adservices/customaudience/CustomAudience$Builder;
 
     move-result-object p0
 
@@ -174,8 +161,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/CustomAudience$Builder;
-    ->setBuyer(Landroid/adservices/common/AdTechIdentifier;)Landroid/adservices/customaudience/CustomAudience$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/CustomAudience$Builder;->setBuyer(Landroid/adservices/common/AdTechIdentifier;)Landroid/adservices/customaudience/CustomAudience$Builder;
 
     move-result-object p0
 
@@ -186,8 +172,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/CustomAudience$Builder;
-    ->setTrustedBiddingData(Landroid/adservices/customaudience/TrustedBiddingData;)Landroid/adservices/customaudience/CustomAudience$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/CustomAudience$Builder;->setTrustedBiddingData(Landroid/adservices/customaudience/TrustedBiddingData;)Landroid/adservices/customaudience/CustomAudience$Builder;
 
     move-result-object p0
 
@@ -198,8 +183,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/CustomAudience$Builder;
-    ->setBiddingLogicUri(Landroid/net/Uri;)Landroid/adservices/customaudience/CustomAudience$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/CustomAudience$Builder;->setBiddingLogicUri(Landroid/net/Uri;)Landroid/adservices/customaudience/CustomAudience$Builder;
 
     move-result-object p0
 
@@ -210,8 +194,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/CustomAudience$Builder;
-    ->setName(Ljava/lang/String;)Landroid/adservices/customaudience/CustomAudience$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/CustomAudience$Builder;->setName(Ljava/lang/String;)Landroid/adservices/customaudience/CustomAudience$Builder;
 
     move-result-object p0
 
@@ -222,8 +205,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/CustomAudience$Builder;
-    ->setExpirationTime(Ljava/time/Instant;)Landroid/adservices/customaudience/CustomAudience$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/CustomAudience$Builder;->setExpirationTime(Ljava/time/Instant;)Landroid/adservices/customaudience/CustomAudience$Builder;
 
     move-result-object p0
 
@@ -234,8 +216,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/CustomAudience$Builder;
-    ->setAds(Ljava/util/List;)Landroid/adservices/customaudience/CustomAudience$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/CustomAudience$Builder;->setAds(Ljava/util/List;)Landroid/adservices/customaudience/CustomAudience$Builder;
 
     move-result-object p0
 
@@ -246,8 +227,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/customaudience/CustomAudience$Builder;
-    ->build()Landroid/adservices/customaudience/CustomAudience;
+    invoke-virtual {p0}, Landroid/adservices/customaudience/CustomAudience$Builder;->build()Landroid/adservices/customaudience/CustomAudience;
 
     move-result-object p0
 
@@ -258,8 +238,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/adservices/customaudience/CustomAudienceManager;
-    ->get(Landroid/content/Context;)Landroid/adservices/customaudience/CustomAudienceManager;
+    invoke-static {p0}, Landroid/adservices/customaudience/CustomAudienceManager;->get(Landroid/content/Context;)Landroid/adservices/customaudience/CustomAudienceManager;
 
     move-result-object p0
 
@@ -281,8 +260,7 @@ return-void
     .line 1
     new-instance v0, Landroid/adservices/customaudience/JoinCustomAudienceRequest$Builder;
 
-    invoke-direct {v0}, Landroid/adservices/customaudience/JoinCustomAudienceRequest$Builder;
-    -><init>()V
+    invoke-direct {v0}, Landroid/adservices/customaudience/JoinCustomAudienceRequest$Builder;-><init>()V
     return-object v0
 .end method
 
@@ -292,8 +270,7 @@ return-void
     .line 1
     new-instance v0, Landroid/adservices/customaudience/LeaveCustomAudienceRequest$Builder;
 
-    invoke-direct {v0}, Landroid/adservices/customaudience/LeaveCustomAudienceRequest$Builder;
-    -><init>()V
+    invoke-direct {v0}, Landroid/adservices/customaudience/LeaveCustomAudienceRequest$Builder;-><init>()V
     return-object v0
 .end method
 
@@ -301,8 +278,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/LeaveCustomAudienceRequest$Builder;
-    ->setBuyer(Landroid/adservices/common/AdTechIdentifier;)Landroid/adservices/customaudience/LeaveCustomAudienceRequest$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/LeaveCustomAudienceRequest$Builder;->setBuyer(Landroid/adservices/common/AdTechIdentifier;)Landroid/adservices/customaudience/LeaveCustomAudienceRequest$Builder;
 
     move-result-object p0
 
@@ -313,8 +289,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/LeaveCustomAudienceRequest$Builder;
-    ->setName(Ljava/lang/String;)Landroid/adservices/customaudience/LeaveCustomAudienceRequest$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/customaudience/LeaveCustomAudienceRequest$Builder;->setName(Ljava/lang/String;)Landroid/adservices/customaudience/LeaveCustomAudienceRequest$Builder;
 
     move-result-object p0
 
@@ -327,8 +302,7 @@ return-void
     .line 1
     new-instance v0, Landroid/adservices/customaudience/TrustedBiddingData$Builder;
 
-    invoke-direct {v0}, Landroid/adservices/customaudience/TrustedBiddingData$Builder;
-    -><init>()V
+    invoke-direct {v0}, Landroid/adservices/customaudience/TrustedBiddingData$Builder;-><init>()V
     return-object v0
 .end method
 

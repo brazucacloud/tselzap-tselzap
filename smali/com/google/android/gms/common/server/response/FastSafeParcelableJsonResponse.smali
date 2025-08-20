@@ -20,8 +20,7 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    invoke-direct {p0}, Lcom/google/android/gms/common/server/response/FastJsonResponse;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/server/response/FastJsonResponse;-><init>()V
     return-void
 .end method
 
@@ -67,8 +66,7 @@
 
     .line 9
     :cond_1
-    invoke-virtual {p0}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 10
     .line 11
@@ -76,8 +74,7 @@
     move-result-object v2
 
     .line 13
-    invoke-virtual {v2, p1}, Ljava/lang/Class;
-    ->isInstance(Ljava/lang/Object;)Z
+    invoke-virtual {v2, p1}, Ljava/lang/Class;->isInstance(Ljava/lang/Object;)Z
 
     .line 14
     .line 15
@@ -97,8 +94,7 @@
 
     .line 21
     .line 22
-    invoke-virtual {p0}, Lcom/google/android/gms/common/server/response/FastJsonResponse;
-    ->getFieldMappings()Ljava/util/Map;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->getFieldMappings()Ljava/util/Map;
 
     .line 23
     .line 24
@@ -106,8 +102,7 @@
     move-result-object v2
 
     .line 26
-    invoke-interface {v2}, Ljava/util/Map;
-    ->values()Ljava/util/Collection;
+    invoke-interface {v2}, Ljava/util/Map;->values()Ljava/util/Collection;
 
     .line 27
     .line 28
@@ -115,8 +110,7 @@
     move-result-object v2
 
     .line 30
-    invoke-interface {v2}, Ljava/util/Collection;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v2}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     .line 31
     .line 32
@@ -125,8 +119,7 @@
 
     .line 34
     :cond_3
-    invoke-interface {v2}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
 
     .line 35
     .line 36
@@ -138,8 +131,7 @@
 
     .line 39
     .line 40
-    invoke-interface {v2}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 41
     .line 42
@@ -151,8 +143,7 @@
 
     .line 45
     .line 46
-    invoke-virtual {p0, v3}, Lcom/google/android/gms/common/server/response/FastJsonResponse;
-    ->isFieldSet(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Z
+    invoke-virtual {p0, v3}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->isFieldSet(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Z
 
     .line 47
     .line 48
@@ -164,8 +155,7 @@
 
     .line 51
     .line 52
-    invoke-virtual {p1, v3}, Lcom/google/android/gms/common/server/response/FastJsonResponse;
-    ->isFieldSet(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Z
+    invoke-virtual {p1, v3}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->isFieldSet(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Z
 
     .line 53
     .line 54
@@ -177,8 +167,7 @@
 
     .line 57
     .line 58
-    invoke-virtual {p0, v3}, Lcom/google/android/gms/common/server/response/FastJsonResponse;
-    ->getFieldValue(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Ljava/lang/Object;
+    invoke-virtual {p0, v3}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->getFieldValue(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Ljava/lang/Object;
 
     .line 59
     .line 60
@@ -186,8 +175,7 @@
     move-result-object v4
 
     .line 62
-    invoke-virtual {p1, v3}, Lcom/google/android/gms/common/server/response/FastJsonResponse;
-    ->getFieldValue(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Ljava/lang/Object;
+    invoke-virtual {p1, v3}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->getFieldValue(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Ljava/lang/Object;
 
     .line 63
     .line 64
@@ -195,8 +183,7 @@
     move-result-object v3
 
     .line 66
-    invoke-static {v4, v3}, Lcom/google/android/gms/common/internal/Objects;
-    ->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v4, v3}, Lcom/google/android/gms/common/internal/Objects;->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 67
     .line 68
@@ -213,8 +200,7 @@
 
     .line 73
     :cond_5
-    invoke-virtual {p1, v3}, Lcom/google/android/gms/common/server/response/FastJsonResponse;
-    ->isFieldSet(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Z
+    invoke-virtual {p1, v3}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->isFieldSet(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Z
 
     .line 74
     .line 75
@@ -253,8 +239,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/android/gms/common/server/response/FastJsonResponse;
-    ->getFieldMappings()Ljava/util/Map;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->getFieldMappings()Ljava/util/Map;
 
     .line 2
     .line 3
@@ -262,8 +247,7 @@
     move-result-object v0
 
     .line 5
-    invoke-interface {v0}, Ljava/util/Map;
-    ->values()Ljava/util/Collection;
+    invoke-interface {v0}, Ljava/util/Map;->values()Ljava/util/Collection;
 
     .line 6
     .line 7
@@ -271,8 +255,7 @@
     move-result-object v0
 
     .line 9
-    invoke-interface {v0}, Ljava/util/Collection;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     .line 10
     .line 11
@@ -285,8 +268,7 @@
     .line 14
     :cond_0
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 15
     .line 16
@@ -298,8 +280,7 @@
 
     .line 19
     .line 20
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -311,8 +292,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {p0, v2}, Lcom/google/android/gms/common/server/response/FastJsonResponse;
-    ->isFieldSet(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Z
+    invoke-virtual {p0, v2}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->isFieldSet(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Z
 
     .line 27
     .line 28
@@ -328,8 +308,7 @@
 
     .line 33
     .line 34
-    invoke-virtual {p0, v2}, Lcom/google/android/gms/common/server/response/FastJsonResponse;
-    ->getFieldValue(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Ljava/lang/Object;
+    invoke-virtual {p0, v2}, Lcom/google/android/gms/common/server/response/FastJsonResponse;->getFieldValue(Lcom/google/android/gms/common/server/response/FastJsonResponse$Field;)Ljava/lang/Object;
 
     .line 35
     .line 36
@@ -337,8 +316,7 @@
     move-result-object v2
 
     .line 38
-    invoke-static {v2}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v2}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 39
     .line 40
@@ -346,8 +324,7 @@
     move-result-object v2
 
     .line 42
-    invoke-virtual {v2}, Ljava/lang/Object;
-    ->hashCode()I
+    invoke-virtual {v2}, Ljava/lang/Object;->hashCode()I
 
     .line 43
     .line 44
@@ -386,8 +363,7 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Landroid/os/Parcel;
-    ->obtain()Landroid/os/Parcel;
+    invoke-static {}, Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
 
     .line 2
     .line 3
@@ -398,14 +374,12 @@
     const/4 v1, 0x0
 
     .line 6
-    invoke-interface {p0, v0, v1}, Landroid/os/Parcelable;
-    ->writeToParcel(Landroid/os/Parcel;I)V
+    invoke-interface {p0, v0, v1}, Landroid/os/Parcelable;->writeToParcel(Landroid/os/Parcel;I)V
 
     .line 7
     .line 8
     .line 9
-    invoke-virtual {v0}, Landroid/os/Parcel;
-    ->marshall()[B
+    invoke-virtual {v0}, Landroid/os/Parcel;->marshall()[B
 
     .line 10
     .line 11
@@ -413,8 +387,7 @@
     move-result-object v1
 
     .line 13
-    invoke-virtual {v0}, Landroid/os/Parcel;
-    ->recycle()V
+    invoke-virtual {v0}, Landroid/os/Parcel;->recycle()V
 
     .line 14
     .line 15

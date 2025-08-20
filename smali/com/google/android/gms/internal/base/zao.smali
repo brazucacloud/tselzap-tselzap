@@ -20,8 +20,7 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Lcom/google/android/gms/internal/base/zan;
-    ->zaa()Z
+    invoke-static {}, Lcom/google/android/gms/internal/base/zan;->zaa()Z
 
     .line 2
     .line 3
@@ -36,8 +35,7 @@
     const/4 v0, 0x1
 
     .line 8
-    invoke-static {}, Lcom/google/android/gms/internal/base/zan;
-    ->zaa()Z
+    invoke-static {}, Lcom/google/android/gms/internal/base/zan;->zaa()Z
 
     .line 9
     .line 10
@@ -60,8 +58,7 @@
 
     .line 17
     :goto_0
-    invoke-static {p0, p1, p2, v0}, Lcom/fmark/tselzap/Services/a;
-    ->h(Landroid/content/Context;Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;I)Landroid/content/Intent;
+    invoke-static {p0, p1, p2, v0}, Lcom/fmark/tselzap/Services/a;->h(Landroid/content/Context;Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;I)Landroid/content/Intent;
 
     .line 18
     .line 19
@@ -72,8 +69,7 @@
 
     .line 22
     :cond_1
-    invoke-virtual {p0, p1, p2}, Landroid/content/Context;
-    ->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
+    invoke-virtual {p0, p1, p2}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
     .line 23
     .line 24

@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/activity/ViewTreeFullyDrawnReporterOwner;
-    ->get(Landroid/view/View;)Landroidx/activity/FullyDrawnReporterOwner;
+    value = Landroidx/activity/ViewTreeFullyDrawnReporterOwner;->get(Landroid/view/View;)Landroidx/activity/FullyDrawnReporterOwner;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,11 +34,9 @@
 
     new-instance v0, Landroidx/activity/ViewTreeFullyDrawnReporterOwner$findViewTreeFullyDrawnReporterOwner$2;
 
-    invoke-direct {v0}, Landroidx/activity/ViewTreeFullyDrawnReporterOwner$findViewTreeFullyDrawnReporterOwner$2;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/activity/ViewTreeFullyDrawnReporterOwner$findViewTreeFullyDrawnReporterOwner$2;-><init>()V
 
-    sput-object v0, Landroidx/activity/ViewTreeFullyDrawnReporterOwner$findViewTreeFullyDrawnReporterOwner$2;
-    ->INSTANCE:Landroidx/activity/ViewTreeFullyDrawnReporterOwner$findViewTreeFullyDrawnReporterOwner$2;
+    sput-object v0, Landroidx/activity/ViewTreeFullyDrawnReporterOwner$findViewTreeFullyDrawnReporterOwner$2;->INSTANCE:Landroidx/activity/ViewTreeFullyDrawnReporterOwner$findViewTreeFullyDrawnReporterOwner$2;
 
     return-void
 .end method
@@ -49,8 +46,7 @@
 
     const/4 v0, 0x1
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;
-    -><init>(I)V
+    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;-><init>(I)V
 return-void
 .end method
 
@@ -61,15 +57,12 @@ return-void
 
     const-string v0, "it"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    sget v0, Landroidx/activity/R$id;
-    ->report_drawn:I
+    sget v0, Landroidx/activity/R$id;->report_drawn:I
 
-    invoke-virtual {p1, v0}, Landroid/view/View;
-    ->getTag(I)Ljava/lang/Object;
+    invoke-virtual {p1, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -93,8 +86,7 @@ return-void
     .line 1
     check-cast p1, Landroid/view/View;
 
-    invoke-virtual {p0, p1}, Landroidx/activity/ViewTreeFullyDrawnReporterOwner$findViewTreeFullyDrawnReporterOwner$2;
-    ->invoke(Landroid/view/View;)Landroidx/activity/FullyDrawnReporterOwner;
+    invoke-virtual {p0, p1}, Landroidx/activity/ViewTreeFullyDrawnReporterOwner$findViewTreeFullyDrawnReporterOwner$2;->invoke(Landroid/view/View;)Landroidx/activity/FullyDrawnReporterOwner;
 
     move-result-object p1
 

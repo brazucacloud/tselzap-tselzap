@@ -17,8 +17,7 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lr/g;
-    ->a:I
+    iput p1, p0, Lr/g;->a:I
 
     .line 2
     .line 3
@@ -27,8 +26,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 7
     .line 8
@@ -37,14 +35,12 @@
 
     .line 10
     .line 11
-    invoke-direct {p1}, Lr/a;
-    -><init>()V
+    invoke-direct {p1}, Lr/a;-><init>()V
 
     .line 12
     .line 13
     .line 14
-    iput-object p1, p0, Lr/g;
-    ->b:Lr/a;
+    iput-object p1, p0, Lr/g;->b:Lr/a;
 
     .line 15
     .line 16
@@ -52,8 +48,7 @@
 
     .line 17
     :pswitch_0
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 18
     .line 19
@@ -62,14 +57,12 @@
 
     .line 21
     .line 22
-    invoke-direct {p1}, Lr/a;
-    -><init>()V
+    invoke-direct {p1}, Lr/a;-><init>()V
 
     .line 23
     .line 24
     .line 25
-    iput-object p1, p0, Lr/g;
-    ->b:Lr/a;
+    iput-object p1, p0, Lr/g;->b:Lr/a;
 
     .line 26
     .line 27
@@ -146,13 +139,11 @@
     .locals 6
 
     .line 1
-    iget-object v0, p0, Lr/g;
-    ->b:Lr/a;
+    iget-object v0, p0, Lr/g;->b:Lr/a;
 
     .line 2
     .line 3
-    iget v1, p0, Lr/g;
-    ->a:I
+    iget v1, p0, Lr/g;->a:I
 
     .line 4
     .line 5
@@ -165,8 +156,7 @@
 
     .line 9
     .line 10
-    sget-object v1, LE/c;
-    ->a:Ljava/util/concurrent/atomic/AtomicReference;
+    sget-object v1, LE/c;->a:Ljava/util/concurrent/atomic/AtomicReference;
 
     .line 11
     .line 12
@@ -178,22 +168,19 @@
 
     .line 15
     .line 16
-    invoke-direct {v1, v2}, Ljava/io/ByteArrayOutputStream;
-    -><init>(I)V
+    invoke-direct {v1, v2}, Ljava/io/ByteArrayOutputStream;-><init>(I)V
 
     .line 17
     .line 18
     .line 19
-    sget-object v3, LE/c;
-    ->a:Ljava/util/concurrent/atomic/AtomicReference;
+    sget-object v3, LE/c;->a:Ljava/util/concurrent/atomic/AtomicReference;
 
     .line 20
     .line 21
     const/4 v4, 0x0
 
     .line 22
-    invoke-virtual {v3, v4}, Ljava/util/concurrent/atomic/AtomicReference;
-    ->getAndSet(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, v4}, Ljava/util/concurrent/atomic/AtomicReference;->getAndSet(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 23
     .line 24
@@ -215,8 +202,7 @@
     .line 32
     :cond_0
     :goto_0
-    invoke-virtual {p1, v4}, Ljava/io/InputStream;
-    ->read([B)I
+    invoke-virtual {p1, v4}, Ljava/io/InputStream;->read([B)I
 
     .line 33
     .line 34
@@ -231,8 +217,7 @@
 
     .line 38
     .line 39
-    invoke-virtual {v1, v4, v5, v2}, Ljava/io/ByteArrayOutputStream;
-    ->write([BII)V
+    invoke-virtual {v1, v4, v5, v2}, Ljava/io/ByteArrayOutputStream;->write([BII)V
 
     .line 40
     .line 41
@@ -241,14 +226,12 @@
 
     .line 43
     :cond_1
-    invoke-virtual {v3, v4}, Ljava/util/concurrent/atomic/AtomicReference;
-    ->set(Ljava/lang/Object;)V
+    invoke-virtual {v3, v4}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
 
     .line 44
     .line 45
     .line 46
-    invoke-virtual {v1}, Ljava/io/ByteArrayOutputStream;
-    ->toByteArray()[B
+    invoke-virtual {v1}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
 
     .line 47
     .line 48
@@ -259,8 +242,7 @@
     array-length v1, p1
 
     .line 51
-    invoke-static {v1}, Ljava/nio/ByteBuffer;
-    ->allocateDirect(I)Ljava/nio/ByteBuffer;
+    invoke-static {v1}, Ljava/nio/ByteBuffer;->allocateDirect(I)Ljava/nio/ByteBuffer;
 
     .line 52
     .line 53
@@ -268,8 +250,7 @@
     move-result-object v1
 
     .line 55
-    invoke-virtual {v1, p1}, Ljava/nio/ByteBuffer;
-    ->put([B)Ljava/nio/ByteBuffer;
+    invoke-virtual {v1, p1}, Ljava/nio/ByteBuffer;->put([B)Ljava/nio/ByteBuffer;
 
     .line 56
     .line 57
@@ -277,8 +258,7 @@
     move-result-object p1
 
     .line 59
-    invoke-virtual {p1, v5}, Ljava/nio/ByteBuffer;
-    ->position(I)Ljava/nio/Buffer;
+    invoke-virtual {p1, v5}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
     .line 60
     .line 61
@@ -290,8 +270,7 @@
 
     .line 64
     .line 65
-    invoke-static {p1}, Lr/f;
-    ->b(Ljava/nio/ByteBuffer;)Landroid/graphics/ImageDecoder$Source;
+    invoke-static {p1}, Lr/f;->b(Ljava/nio/ByteBuffer;)Landroid/graphics/ImageDecoder$Source;
 
     .line 66
     .line 67
@@ -299,8 +278,7 @@
     move-result-object p1
 
     .line 69
-    invoke-virtual {v0, p1, p2, p3, p4}, Lr/a;
-    ->c(Landroid/graphics/ImageDecoder$Source;IILi/i;)Lr/c;
+    invoke-virtual {v0, p1, p2, p3, p4}, Lr/a;->c(Landroid/graphics/ImageDecoder$Source;IILi/i;)Lr/c;
 
     .line 70
     .line 71
@@ -315,8 +293,7 @@
 
     .line 75
     .line 76
-    invoke-static {p1}, Lr/f;
-    ->b(Ljava/nio/ByteBuffer;)Landroid/graphics/ImageDecoder$Source;
+    invoke-static {p1}, Lr/f;->b(Ljava/nio/ByteBuffer;)Landroid/graphics/ImageDecoder$Source;
 
     .line 77
     .line 78
@@ -324,8 +301,7 @@
     move-result-object p1
 
     .line 80
-    invoke-virtual {v0, p1, p2, p3, p4}, Lr/a;
-    ->c(Landroid/graphics/ImageDecoder$Source;IILi/i;)Lr/c;
+    invoke-virtual {v0, p1, p2, p3, p4}, Lr/a;->c(Landroid/graphics/ImageDecoder$Source;IILi/i;)Lr/c;
 
     .line 81
     .line 82
@@ -477,8 +453,7 @@
     .locals 0
 
     .line 1
-    iget p2, p0, Lr/g;
-    ->a:I
+    iget p2, p0, Lr/g;->a:I
 
     .line 2
     .line 3

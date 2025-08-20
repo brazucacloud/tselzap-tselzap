@@ -6,8 +6,7 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -26,8 +25,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -55,8 +53,7 @@
 
     .line 4
     .line 5
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -101,8 +98,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1, p2, v0}, Landroid/content/pm/PackageManager;
-    ->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
+    invoke-virtual {p1, p2, v0}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
 
     .line 4
     .line 5
@@ -110,8 +106,7 @@
     move-result-object p1
 
     .line 7
-    iget-object p1, p1, Landroid/content/pm/PackageInfo;
-    ->signatures:[Landroid/content/pm/Signature;
+    iget-object p1, p1, Landroid/content/pm/PackageInfo;->signatures:[Landroid/content/pm/Signature;
 
     .line 8
     .line 9
@@ -144,8 +139,7 @@
     .end annotation
 
     .line 1
-    sget-object p1, Ljava/util/Collections;
-    ->EMPTY_LIST:Ljava/util/List;
+    sget-object p1, Ljava/util/Collections;->EMPTY_LIST:Ljava/util/List;
 
     .line 2
     .line 3

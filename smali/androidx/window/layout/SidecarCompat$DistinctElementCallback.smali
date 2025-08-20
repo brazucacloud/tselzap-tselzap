@@ -47,20 +47,17 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/window/layout/SidecarCompat$DistinctElementCallback;
-    ->callbackInterface:Landroidx/window/layout/ExtensionInterfaceCompat$ExtensionCallbackInterface;
+    iput-object p1, p0, Landroidx/window/layout/SidecarCompat$DistinctElementCallback;->callbackInterface:Landroidx/window/layout/ExtensionInterfaceCompat$ExtensionCallbackInterface;
 
     .line 10
     .line 11
@@ -68,14 +65,12 @@
 
     .line 12
     .line 13
-    invoke-direct {p1}, Ljava/util/concurrent/locks/ReentrantLock;
-    -><init>()V
+    invoke-direct {p1}, Ljava/util/concurrent/locks/ReentrantLock;-><init>()V
 
     .line 14
     .line 15
     .line 16
-    iput-object p1, p0, Landroidx/window/layout/SidecarCompat$DistinctElementCallback;
-    ->lock:Ljava/util/concurrent/locks/ReentrantLock;
+    iput-object p1, p0, Landroidx/window/layout/SidecarCompat$DistinctElementCallback;->lock:Ljava/util/concurrent/locks/ReentrantLock;
 
     .line 17
     .line 18
@@ -83,14 +78,12 @@
 
     .line 19
     .line 20
-    invoke-direct {p1}, Ljava/util/WeakHashMap;
-    -><init>()V
+    invoke-direct {p1}, Ljava/util/WeakHashMap;-><init>()V
 
     .line 21
     .line 22
     .line 23
-    iput-object p1, p0, Landroidx/window/layout/SidecarCompat$DistinctElementCallback;
-    ->activityWindowLayoutInfo:Ljava/util/WeakHashMap;
+    iput-object p1, p0, Landroidx/window/layout/SidecarCompat$DistinctElementCallback;->activityWindowLayoutInfo:Ljava/util/WeakHashMap;
 
     .line 24
     .line 25
@@ -107,8 +100,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -117,31 +109,26 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/window/layout/SidecarCompat$DistinctElementCallback;
-    ->lock:Ljava/util/concurrent/locks/ReentrantLock;
+    iget-object v0, p0, Landroidx/window/layout/SidecarCompat$DistinctElementCallback;->lock:Ljava/util/concurrent/locks/ReentrantLock;
 
     .line 12
     .line 13
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
-    ->lock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
 
     .line 14
     .line 15
     .line 16
     :try_start_0
-    iget-object v1, p0, Landroidx/window/layout/SidecarCompat$DistinctElementCallback;
-    ->activityWindowLayoutInfo:Ljava/util/WeakHashMap;
+    iget-object v1, p0, Landroidx/window/layout/SidecarCompat$DistinctElementCallback;->activityWindowLayoutInfo:Ljava/util/WeakHashMap;
 
     .line 17
     .line 18
-    invoke-virtual {v1, p1}, Ljava/util/WeakHashMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1}, Ljava/util/WeakHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -153,8 +140,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {p2, v1}, Landroidx/window/layout/WindowLayoutInfo;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, v1}, Landroidx/window/layout/WindowLayoutInfo;->equals(Ljava/lang/Object;)Z
 
     .line 25
     .line 26
@@ -168,8 +154,7 @@
 
     .line 29
     .line 30
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
-    ->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
     .line 31
     .line 32
@@ -179,13 +164,11 @@
     .line 34
     :cond_0
     :try_start_1
-    iget-object v1, p0, Landroidx/window/layout/SidecarCompat$DistinctElementCallback;
-    ->activityWindowLayoutInfo:Ljava/util/WeakHashMap;
+    iget-object v1, p0, Landroidx/window/layout/SidecarCompat$DistinctElementCallback;->activityWindowLayoutInfo:Ljava/util/WeakHashMap;
 
     .line 35
     .line 36
-    invoke-virtual {v1, p1, p2}, Ljava/util/WeakHashMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1, p2}, Ljava/util/WeakHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 37
     .line 38
@@ -199,19 +182,16 @@
 
     .line 41
     .line 42
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
-    ->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
     .line 43
     .line 44
     .line 45
-    iget-object v0, p0, Landroidx/window/layout/SidecarCompat$DistinctElementCallback;
-    ->callbackInterface:Landroidx/window/layout/ExtensionInterfaceCompat$ExtensionCallbackInterface;
+    iget-object v0, p0, Landroidx/window/layout/SidecarCompat$DistinctElementCallback;->callbackInterface:Landroidx/window/layout/ExtensionInterfaceCompat$ExtensionCallbackInterface;
 
     .line 46
     .line 47
-    invoke-interface {v0, p1, p2}, Landroidx/window/layout/ExtensionInterfaceCompat$ExtensionCallbackInterface;
-    ->onWindowLayoutChanged(Landroid/app/Activity;Landroidx/window/layout/WindowLayoutInfo;)V
+    invoke-interface {v0, p1, p2}, Landroidx/window/layout/ExtensionInterfaceCompat$ExtensionCallbackInterface;->onWindowLayoutChanged(Landroid/app/Activity;Landroidx/window/layout/WindowLayoutInfo;)V
 
     .line 48
     .line 49
@@ -223,8 +203,7 @@
     move-exception p1
 
     .line 52
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
-    ->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
     .line 53
     .line 54

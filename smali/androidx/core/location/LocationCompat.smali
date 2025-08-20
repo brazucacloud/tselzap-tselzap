@@ -59,8 +59,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -76,8 +75,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroid/location/Location;
-    ->getExtras()Landroid/os/Bundle;
+    invoke-virtual {p0}, Landroid/location/Location;->getExtras()Landroid/os/Bundle;
 
     .line 2
     .line 3
@@ -89,8 +87,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0, p1}, Landroid/os/BaseBundle;
-    ->containsKey(Ljava/lang/String;)Z
+    invoke-virtual {p0, p1}, Landroid/os/BaseBundle;->containsKey(Ljava/lang/String;)Z
 
     .line 8
     .line 9
@@ -121,8 +118,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -134,8 +130,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api26Impl;
-    ->getBearingAccuracyDegrees(Landroid/location/Location;)F
+    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api26Impl;->getBearingAccuracyDegrees(Landroid/location/Location;)F
 
     .line 8
     .line 9
@@ -146,8 +141,7 @@
 
     .line 12
     :cond_0
-    invoke-virtual {p0}, Landroid/location/Location;
-    ->getExtras()Landroid/os/Bundle;
+    invoke-virtual {p0}, Landroid/location/Location;->getExtras()Landroid/os/Bundle;
 
     .line 13
     .line 14
@@ -170,8 +164,7 @@
 
     .line 21
     .line 22
-    invoke-virtual {p0, v1, v0}, Landroid/os/Bundle;
-    ->getFloat(Ljava/lang/String;F)F
+    invoke-virtual {p0, v1, v0}, Landroid/os/Bundle;->getFloat(Ljava/lang/String;F)F
 
     .line 23
     .line 24
@@ -189,13 +182,11 @@
     .end param
 
     .line 1
-    sget-object v0, Ljava/util/concurrent/TimeUnit;
-    ->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
+    sget-object v0, Ljava/util/concurrent/TimeUnit;->NANOSECONDS:Ljava/util/concurrent/TimeUnit;
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/location/Location;
-    ->getElapsedRealtimeNanos()J
+    invoke-virtual {p0}, Landroid/location/Location;->getElapsedRealtimeNanos()J
 
     .line 4
     .line 5
@@ -203,8 +194,7 @@
     move-result-wide v1
 
     .line 7
-    invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/TimeUnit;
-    ->toMillis(J)J
+    invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/TimeUnit;->toMillis(J)J
 
     .line 8
     .line 9
@@ -222,8 +212,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroid/location/Location;
-    ->getElapsedRealtimeNanos()J
+    invoke-virtual {p0}, Landroid/location/Location;->getElapsedRealtimeNanos()J
 
     .line 2
     .line 3
@@ -242,8 +231,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/core/location/LocationCompat;
-    ->sFieldsMaskField:Ljava/lang/reflect/Field;
+    sget-object v0, Landroidx/core/location/LocationCompat;->sFieldsMaskField:Ljava/lang/reflect/Field;
 
     .line 2
     .line 3
@@ -259,8 +247,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Ljava/lang/Class;
-    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v0, v1}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 10
     .line 11
@@ -268,23 +255,20 @@
     move-result-object v0
 
     .line 13
-    sput-object v0, Landroidx/core/location/LocationCompat;
-    ->sFieldsMaskField:Ljava/lang/reflect/Field;
+    sput-object v0, Landroidx/core/location/LocationCompat;->sFieldsMaskField:Ljava/lang/reflect/Field;
 
     .line 14
     .line 15
     const/4 v1, 0x1
 
     .line 16
-    invoke-virtual {v0, v1}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v0, v1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 17
     .line 18
     .line 19
     :cond_0
-    sget-object v0, Landroidx/core/location/LocationCompat;
-    ->sFieldsMaskField:Ljava/lang/reflect/Field;
+    sget-object v0, Landroidx/core/location/LocationCompat;->sFieldsMaskField:Ljava/lang/reflect/Field;
 
     .line 20
     .line 21
@@ -300,8 +284,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/core/location/LocationCompat;
-    ->sHasBearingAccuracyMask:Ljava/lang/Integer;
+    sget-object v0, Landroidx/core/location/LocationCompat;->sHasBearingAccuracyMask:Ljava/lang/Integer;
 
     .line 2
     .line 3
@@ -317,8 +300,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Ljava/lang/Class;
-    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v0, v1}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 10
     .line 11
@@ -329,8 +311,7 @@
     const/4 v1, 0x1
 
     .line 14
-    invoke-virtual {v0, v1}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v0, v1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 15
     .line 16
@@ -338,8 +319,7 @@
     const/4 v1, 0x0
 
     .line 18
-    invoke-virtual {v0, v1}, Ljava/lang/reflect/Field;
-    ->getInt(Ljava/lang/Object;)I
+    invoke-virtual {v0, v1}, Ljava/lang/reflect/Field;->getInt(Ljava/lang/Object;)I
 
     .line 19
     .line 20
@@ -347,8 +327,7 @@
     move-result v0
 
     .line 22
-    invoke-static {v0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 23
     .line 24
@@ -356,19 +335,16 @@
     move-result-object v0
 
     .line 26
-    sput-object v0, Landroidx/core/location/LocationCompat;
-    ->sHasBearingAccuracyMask:Ljava/lang/Integer;
+    sput-object v0, Landroidx/core/location/LocationCompat;->sHasBearingAccuracyMask:Ljava/lang/Integer;
 
     .line 27
     .line 28
     :cond_0
-    sget-object v0, Landroidx/core/location/LocationCompat;
-    ->sHasBearingAccuracyMask:Ljava/lang/Integer;
+    sget-object v0, Landroidx/core/location/LocationCompat;->sHasBearingAccuracyMask:Ljava/lang/Integer;
 
     .line 29
     .line 30
-    invoke-virtual {v0}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
 
     .line 31
     .line 32
@@ -387,8 +363,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/core/location/LocationCompat;
-    ->sHasSpeedAccuracyMask:Ljava/lang/Integer;
+    sget-object v0, Landroidx/core/location/LocationCompat;->sHasSpeedAccuracyMask:Ljava/lang/Integer;
 
     .line 2
     .line 3
@@ -404,8 +379,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Ljava/lang/Class;
-    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v0, v1}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 10
     .line 11
@@ -416,8 +390,7 @@
     const/4 v1, 0x1
 
     .line 14
-    invoke-virtual {v0, v1}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v0, v1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 15
     .line 16
@@ -425,8 +398,7 @@
     const/4 v1, 0x0
 
     .line 18
-    invoke-virtual {v0, v1}, Ljava/lang/reflect/Field;
-    ->getInt(Ljava/lang/Object;)I
+    invoke-virtual {v0, v1}, Ljava/lang/reflect/Field;->getInt(Ljava/lang/Object;)I
 
     .line 19
     .line 20
@@ -434,8 +406,7 @@
     move-result v0
 
     .line 22
-    invoke-static {v0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 23
     .line 24
@@ -443,19 +414,16 @@
     move-result-object v0
 
     .line 26
-    sput-object v0, Landroidx/core/location/LocationCompat;
-    ->sHasSpeedAccuracyMask:Ljava/lang/Integer;
+    sput-object v0, Landroidx/core/location/LocationCompat;->sHasSpeedAccuracyMask:Ljava/lang/Integer;
 
     .line 27
     .line 28
     :cond_0
-    sget-object v0, Landroidx/core/location/LocationCompat;
-    ->sHasSpeedAccuracyMask:Ljava/lang/Integer;
+    sget-object v0, Landroidx/core/location/LocationCompat;->sHasSpeedAccuracyMask:Ljava/lang/Integer;
 
     .line 29
     .line 30
-    invoke-virtual {v0}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
 
     .line 31
     .line 32
@@ -474,8 +442,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/core/location/LocationCompat;
-    ->sHasVerticalAccuracyMask:Ljava/lang/Integer;
+    sget-object v0, Landroidx/core/location/LocationCompat;->sHasVerticalAccuracyMask:Ljava/lang/Integer;
 
     .line 2
     .line 3
@@ -491,8 +458,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Ljava/lang/Class;
-    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v0, v1}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 10
     .line 11
@@ -503,8 +469,7 @@
     const/4 v1, 0x1
 
     .line 14
-    invoke-virtual {v0, v1}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v0, v1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 15
     .line 16
@@ -512,8 +477,7 @@
     const/4 v1, 0x0
 
     .line 18
-    invoke-virtual {v0, v1}, Ljava/lang/reflect/Field;
-    ->getInt(Ljava/lang/Object;)I
+    invoke-virtual {v0, v1}, Ljava/lang/reflect/Field;->getInt(Ljava/lang/Object;)I
 
     .line 19
     .line 20
@@ -521,8 +485,7 @@
     move-result v0
 
     .line 22
-    invoke-static {v0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 23
     .line 24
@@ -530,19 +493,16 @@
     move-result-object v0
 
     .line 26
-    sput-object v0, Landroidx/core/location/LocationCompat;
-    ->sHasVerticalAccuracyMask:Ljava/lang/Integer;
+    sput-object v0, Landroidx/core/location/LocationCompat;->sHasVerticalAccuracyMask:Ljava/lang/Integer;
 
     .line 27
     .line 28
     :cond_0
-    sget-object v0, Landroidx/core/location/LocationCompat;
-    ->sHasVerticalAccuracyMask:Ljava/lang/Integer;
+    sget-object v0, Landroidx/core/location/LocationCompat;->sHasVerticalAccuracyMask:Ljava/lang/Integer;
 
     .line 29
     .line 30
-    invoke-virtual {v0}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
 
     .line 31
     .line 32
@@ -563,8 +523,7 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -576,8 +535,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api34Impl;
-    ->getMslAltitudeAccuracyMeters(Landroid/location/Location;)F
+    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api34Impl;->getMslAltitudeAccuracyMeters(Landroid/location/Location;)F
 
     .line 8
     .line 9
@@ -588,8 +546,7 @@
 
     .line 12
     :cond_0
-    invoke-static {p0}, Landroidx/core/location/LocationCompat;
-    ->getOrCreateExtras(Landroid/location/Location;)Landroid/os/Bundle;
+    invoke-static {p0}, Landroidx/core/location/LocationCompat;->getOrCreateExtras(Landroid/location/Location;)Landroid/os/Bundle;
 
     .line 13
     .line 14
@@ -601,8 +558,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0, v0}, Landroid/os/Bundle;
-    ->getFloat(Ljava/lang/String;)F
+    invoke-virtual {p0, v0}, Landroid/os/Bundle;->getFloat(Ljava/lang/String;)F
 
     .line 19
     .line 20
@@ -620,8 +576,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -633,8 +588,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api34Impl;
-    ->getMslAltitudeMeters(Landroid/location/Location;)D
+    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api34Impl;->getMslAltitudeMeters(Landroid/location/Location;)D
 
     .line 8
     .line 9
@@ -645,8 +599,7 @@
 
     .line 12
     :cond_0
-    invoke-static {p0}, Landroidx/core/location/LocationCompat;
-    ->getOrCreateExtras(Landroid/location/Location;)Landroid/os/Bundle;
+    invoke-static {p0}, Landroidx/core/location/LocationCompat;->getOrCreateExtras(Landroid/location/Location;)Landroid/os/Bundle;
 
     .line 13
     .line 14
@@ -658,8 +611,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0, v0}, Landroid/os/BaseBundle;
-    ->getDouble(Ljava/lang/String;)D
+    invoke-virtual {p0, v0}, Landroid/os/BaseBundle;->getDouble(Ljava/lang/String;)D
 
     .line 19
     .line 20
@@ -677,8 +629,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroid/location/Location;
-    ->getExtras()Landroid/os/Bundle;
+    invoke-virtual {p0}, Landroid/location/Location;->getExtras()Landroid/os/Bundle;
 
     .line 2
     .line 3
@@ -694,20 +645,17 @@
 
     .line 8
     .line 9
-    invoke-direct {v0}, Landroid/os/Bundle;
-    -><init>()V
+    invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
 
     .line 10
     .line 11
     .line 12
-    invoke-virtual {p0, v0}, Landroid/location/Location;
-    ->setExtras(Landroid/os/Bundle;)V
+    invoke-virtual {p0, v0}, Landroid/location/Location;->setExtras(Landroid/os/Bundle;)V
 
     .line 13
     .line 14
     .line 15
-    invoke-virtual {p0}, Landroid/location/Location;
-    ->getExtras()Landroid/os/Bundle;
+    invoke-virtual {p0}, Landroid/location/Location;->getExtras()Landroid/os/Bundle;
 
     .line 16
     .line 17
@@ -728,8 +676,7 @@
     const/4 v0, 0x1
 
     .line 2
-    sget-object v1, Landroidx/core/location/LocationCompat;
-    ->sSetIsFromMockProviderMethod:Ljava/lang/reflect/Method;
+    sget-object v1, Landroidx/core/location/LocationCompat;->sSetIsFromMockProviderMethod:Ljava/lang/reflect/Method;
 
     .line 3
     .line 4
@@ -741,8 +688,7 @@
 
     .line 7
     .line 8
-    sget-object v2, Ljava/lang/Boolean;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v2, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
 
     .line 9
     .line 10
@@ -761,8 +707,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {v2, v3, v1}, Ljava/lang/Class;
-    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v2, v3, v1}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 18
     .line 19
@@ -770,20 +715,17 @@
     move-result-object v1
 
     .line 21
-    sput-object v1, Landroidx/core/location/LocationCompat;
-    ->sSetIsFromMockProviderMethod:Ljava/lang/reflect/Method;
+    sput-object v1, Landroidx/core/location/LocationCompat;->sSetIsFromMockProviderMethod:Ljava/lang/reflect/Method;
 
     .line 22
     .line 23
-    invoke-virtual {v1, v0}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v1, v0}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 24
     .line 25
     .line 26
     :cond_0
-    sget-object v0, Landroidx/core/location/LocationCompat;
-    ->sSetIsFromMockProviderMethod:Ljava/lang/reflect/Method;
+    sget-object v0, Landroidx/core/location/LocationCompat;->sSetIsFromMockProviderMethod:Ljava/lang/reflect/Method;
 
     .line 27
     .line 28
@@ -798,8 +740,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -811,8 +752,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api26Impl;
-    ->getSpeedAccuracyMetersPerSecond(Landroid/location/Location;)F
+    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api26Impl;->getSpeedAccuracyMetersPerSecond(Landroid/location/Location;)F
 
     .line 8
     .line 9
@@ -823,8 +763,7 @@
 
     .line 12
     :cond_0
-    invoke-virtual {p0}, Landroid/location/Location;
-    ->getExtras()Landroid/os/Bundle;
+    invoke-virtual {p0}, Landroid/location/Location;->getExtras()Landroid/os/Bundle;
 
     .line 13
     .line 14
@@ -847,8 +786,7 @@
 
     .line 21
     .line 22
-    invoke-virtual {p0, v1, v0}, Landroid/os/Bundle;
-    ->getFloat(Ljava/lang/String;F)F
+    invoke-virtual {p0, v1, v0}, Landroid/os/Bundle;->getFloat(Ljava/lang/String;F)F
 
     .line 23
     .line 24
@@ -866,8 +804,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -879,8 +816,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api26Impl;
-    ->getVerticalAccuracyMeters(Landroid/location/Location;)F
+    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api26Impl;->getVerticalAccuracyMeters(Landroid/location/Location;)F
 
     .line 8
     .line 9
@@ -891,8 +827,7 @@
 
     .line 12
     :cond_0
-    invoke-virtual {p0}, Landroid/location/Location;
-    ->getExtras()Landroid/os/Bundle;
+    invoke-virtual {p0}, Landroid/location/Location;->getExtras()Landroid/os/Bundle;
 
     .line 13
     .line 14
@@ -915,8 +850,7 @@
 
     .line 21
     .line 22
-    invoke-virtual {p0, v1, v0}, Landroid/os/Bundle;
-    ->getFloat(Ljava/lang/String;F)F
+    invoke-virtual {p0, v1, v0}, Landroid/os/Bundle;->getFloat(Ljava/lang/String;F)F
 
     .line 23
     .line 24
@@ -934,8 +868,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -947,8 +880,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api26Impl;
-    ->hasBearingAccuracy(Landroid/location/Location;)Z
+    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api26Impl;->hasBearingAccuracy(Landroid/location/Location;)Z
 
     .line 8
     .line 9
@@ -963,8 +895,7 @@
 
     .line 13
     .line 14
-    invoke-static {p0, v0}, Landroidx/core/location/LocationCompat;
-    ->containsExtra(Landroid/location/Location;Ljava/lang/String;)Z
+    invoke-static {p0, v0}, Landroidx/core/location/LocationCompat;->containsExtra(Landroid/location/Location;Ljava/lang/String;)Z
 
     .line 15
     .line 16
@@ -982,8 +913,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -995,8 +925,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api34Impl;
-    ->hasMslAltitude(Landroid/location/Location;)Z
+    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api34Impl;->hasMslAltitude(Landroid/location/Location;)Z
 
     .line 8
     .line 9
@@ -1011,8 +940,7 @@
 
     .line 13
     .line 14
-    invoke-static {p0, v0}, Landroidx/core/location/LocationCompat;
-    ->containsExtra(Landroid/location/Location;Ljava/lang/String;)Z
+    invoke-static {p0, v0}, Landroidx/core/location/LocationCompat;->containsExtra(Landroid/location/Location;Ljava/lang/String;)Z
 
     .line 15
     .line 16
@@ -1030,8 +958,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -1043,8 +970,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api34Impl;
-    ->hasMslAltitudeAccuracy(Landroid/location/Location;)Z
+    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api34Impl;->hasMslAltitudeAccuracy(Landroid/location/Location;)Z
 
     .line 8
     .line 9
@@ -1059,8 +985,7 @@
 
     .line 13
     .line 14
-    invoke-static {p0, v0}, Landroidx/core/location/LocationCompat;
-    ->containsExtra(Landroid/location/Location;Ljava/lang/String;)Z
+    invoke-static {p0, v0}, Landroidx/core/location/LocationCompat;->containsExtra(Landroid/location/Location;Ljava/lang/String;)Z
 
     .line 15
     .line 16
@@ -1078,8 +1003,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -1091,8 +1015,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api26Impl;
-    ->hasSpeedAccuracy(Landroid/location/Location;)Z
+    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api26Impl;->hasSpeedAccuracy(Landroid/location/Location;)Z
 
     .line 8
     .line 9
@@ -1107,8 +1030,7 @@
 
     .line 13
     .line 14
-    invoke-static {p0, v0}, Landroidx/core/location/LocationCompat;
-    ->containsExtra(Landroid/location/Location;Ljava/lang/String;)Z
+    invoke-static {p0, v0}, Landroidx/core/location/LocationCompat;->containsExtra(Landroid/location/Location;Ljava/lang/String;)Z
 
     .line 15
     .line 16
@@ -1126,8 +1048,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -1139,8 +1060,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api26Impl;
-    ->hasVerticalAccuracy(Landroid/location/Location;)Z
+    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api26Impl;->hasVerticalAccuracy(Landroid/location/Location;)Z
 
     .line 8
     .line 9
@@ -1155,8 +1075,7 @@
 
     .line 13
     .line 14
-    invoke-static {p0, v0}, Landroidx/core/location/LocationCompat;
-    ->containsExtra(Landroid/location/Location;Ljava/lang/String;)Z
+    invoke-static {p0, v0}, Landroidx/core/location/LocationCompat;->containsExtra(Landroid/location/Location;Ljava/lang/String;)Z
 
     .line 15
     .line 16
@@ -1174,8 +1093,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroid/location/Location;
-    ->isFromMockProvider()Z
+    invoke-virtual {p0}, Landroid/location/Location;->isFromMockProvider()Z
 
     .line 2
     .line 3
@@ -1193,8 +1111,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -1206,8 +1123,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api33Impl;
-    ->removeBearingAccuracy(Landroid/location/Location;)V
+    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api33Impl;->removeBearingAccuracy(Landroid/location/Location;)V
 
     .line 8
     .line 9
@@ -1224,8 +1140,7 @@
 
     .line 14
     .line 15
-    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api29Impl;
-    ->removeBearingAccuracy(Landroid/location/Location;)V
+    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api29Impl;->removeBearingAccuracy(Landroid/location/Location;)V
 
     .line 16
     .line 17
@@ -1242,8 +1157,7 @@
 
     .line 22
     .line 23
-    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api28Impl;
-    ->removeBearingAccuracy(Landroid/location/Location;)V
+    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api28Impl;->removeBearingAccuracy(Landroid/location/Location;)V
 
     .line 24
     .line 25
@@ -1260,8 +1174,7 @@
 
     .line 30
     .line 31
-    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api26Impl;
-    ->removeBearingAccuracy(Landroid/location/Location;)V
+    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api26Impl;->removeBearingAccuracy(Landroid/location/Location;)V
 
     .line 32
     .line 33
@@ -1274,8 +1187,7 @@
 
     .line 36
     .line 37
-    invoke-static {p0, v0}, Landroidx/core/location/LocationCompat;
-    ->removeExtra(Landroid/location/Location;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Landroidx/core/location/LocationCompat;->removeExtra(Landroid/location/Location;Ljava/lang/String;)V
 
     .line 38
     .line 39
@@ -1291,8 +1203,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroid/location/Location;
-    ->getExtras()Landroid/os/Bundle;
+    invoke-virtual {p0}, Landroid/location/Location;->getExtras()Landroid/os/Bundle;
 
     .line 2
     .line 3
@@ -1304,14 +1215,12 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, p1}, Landroid/os/Bundle;
-    ->remove(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Landroid/os/Bundle;->remove(Ljava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    invoke-virtual {v0}, Landroid/os/BaseBundle;
-    ->isEmpty()Z
+    invoke-virtual {v0}, Landroid/os/BaseBundle;->isEmpty()Z
 
     .line 11
     .line 12
@@ -1326,8 +1235,7 @@
     const/4 p1, 0x0
 
     .line 17
-    invoke-virtual {p0, p1}, Landroid/location/Location;
-    ->setExtras(Landroid/os/Bundle;)V
+    invoke-virtual {p0, p1}, Landroid/location/Location;->setExtras(Landroid/os/Bundle;)V
 
     .line 18
     .line 19
@@ -1344,8 +1252,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -1357,8 +1264,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api34Impl;
-    ->removeMslAltitude(Landroid/location/Location;)V
+    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api34Impl;->removeMslAltitude(Landroid/location/Location;)V
 
     .line 8
     .line 9
@@ -1371,8 +1277,7 @@
 
     .line 12
     .line 13
-    invoke-static {p0, v0}, Landroidx/core/location/LocationCompat;
-    ->removeExtra(Landroid/location/Location;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Landroidx/core/location/LocationCompat;->removeExtra(Landroid/location/Location;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -1388,8 +1293,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -1401,8 +1305,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api34Impl;
-    ->removeMslAltitudeAccuracy(Landroid/location/Location;)V
+    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api34Impl;->removeMslAltitudeAccuracy(Landroid/location/Location;)V
 
     .line 8
     .line 9
@@ -1415,8 +1318,7 @@
 
     .line 12
     .line 13
-    invoke-static {p0, v0}, Landroidx/core/location/LocationCompat;
-    ->removeExtra(Landroid/location/Location;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Landroidx/core/location/LocationCompat;->removeExtra(Landroid/location/Location;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -1432,8 +1334,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -1445,8 +1346,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api33Impl;
-    ->removeSpeedAccuracy(Landroid/location/Location;)V
+    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api33Impl;->removeSpeedAccuracy(Landroid/location/Location;)V
 
     .line 8
     .line 9
@@ -1463,8 +1363,7 @@
 
     .line 14
     .line 15
-    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api29Impl;
-    ->removeSpeedAccuracy(Landroid/location/Location;)V
+    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api29Impl;->removeSpeedAccuracy(Landroid/location/Location;)V
 
     .line 16
     .line 17
@@ -1481,8 +1380,7 @@
 
     .line 22
     .line 23
-    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api28Impl;
-    ->removeSpeedAccuracy(Landroid/location/Location;)V
+    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api28Impl;->removeSpeedAccuracy(Landroid/location/Location;)V
 
     .line 24
     .line 25
@@ -1499,8 +1397,7 @@
 
     .line 30
     .line 31
-    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api26Impl;
-    ->removeSpeedAccuracy(Landroid/location/Location;)V
+    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api26Impl;->removeSpeedAccuracy(Landroid/location/Location;)V
 
     .line 32
     .line 33
@@ -1513,8 +1410,7 @@
 
     .line 36
     .line 37
-    invoke-static {p0, v0}, Landroidx/core/location/LocationCompat;
-    ->removeExtra(Landroid/location/Location;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Landroidx/core/location/LocationCompat;->removeExtra(Landroid/location/Location;Ljava/lang/String;)V
 
     .line 38
     .line 39
@@ -1530,8 +1426,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -1543,8 +1438,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api33Impl;
-    ->removeVerticalAccuracy(Landroid/location/Location;)V
+    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api33Impl;->removeVerticalAccuracy(Landroid/location/Location;)V
 
     .line 8
     .line 9
@@ -1561,8 +1455,7 @@
 
     .line 14
     .line 15
-    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api29Impl;
-    ->removeVerticalAccuracy(Landroid/location/Location;)V
+    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api29Impl;->removeVerticalAccuracy(Landroid/location/Location;)V
 
     .line 16
     .line 17
@@ -1579,8 +1472,7 @@
 
     .line 22
     .line 23
-    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api28Impl;
-    ->removeVerticalAccuracy(Landroid/location/Location;)V
+    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api28Impl;->removeVerticalAccuracy(Landroid/location/Location;)V
 
     .line 24
     .line 25
@@ -1597,8 +1489,7 @@
 
     .line 30
     .line 31
-    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api26Impl;
-    ->removeVerticalAccuracy(Landroid/location/Location;)V
+    invoke-static {p0}, Landroidx/core/location/LocationCompat$Api26Impl;->removeVerticalAccuracy(Landroid/location/Location;)V
 
     .line 32
     .line 33
@@ -1611,8 +1502,7 @@
 
     .line 36
     .line 37
-    invoke-static {p0, v0}, Landroidx/core/location/LocationCompat;
-    ->removeExtra(Landroid/location/Location;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Landroidx/core/location/LocationCompat;->removeExtra(Landroid/location/Location;Ljava/lang/String;)V
 
     .line 38
     .line 39
@@ -1628,8 +1518,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -1641,8 +1530,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/location/LocationCompat$Api26Impl;
-    ->setBearingAccuracyDegrees(Landroid/location/Location;F)V
+    invoke-static {p0, p1}, Landroidx/core/location/LocationCompat$Api26Impl;->setBearingAccuracyDegrees(Landroid/location/Location;F)V
 
     .line 8
     .line 9
@@ -1651,8 +1539,7 @@
 
     .line 11
     :cond_0
-    invoke-static {p0}, Landroidx/core/location/LocationCompat;
-    ->getOrCreateExtras(Landroid/location/Location;)Landroid/os/Bundle;
+    invoke-static {p0}, Landroidx/core/location/LocationCompat;->getOrCreateExtras(Landroid/location/Location;)Landroid/os/Bundle;
 
     .line 12
     .line 13
@@ -1664,8 +1551,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p0, v0, p1}, Landroid/os/Bundle;
-    ->putFloat(Ljava/lang/String;F)V
+    invoke-virtual {p0, v0, p1}, Landroid/os/Bundle;->putFloat(Ljava/lang/String;F)V
 
     .line 18
     .line 19
@@ -1687,8 +1573,7 @@
 
     .line 1
     :try_start_0
-    invoke-static {}, Landroidx/core/location/LocationCompat;
-    ->getSetIsFromMockProviderMethod()Ljava/lang/reflect/Method;
+    invoke-static {}, Landroidx/core/location/LocationCompat;->getSetIsFromMockProviderMethod()Ljava/lang/reflect/Method;
 
     .line 2
     .line 3
@@ -1696,8 +1581,7 @@
     move-result-object v0
 
     .line 5
-    invoke-static {p1}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 6
     .line 7
@@ -1719,8 +1603,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0, p0, v1}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0, v1}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_2
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_1
@@ -1740,8 +1623,7 @@
 
     .line 21
     .line 22
-    invoke-direct {p1, p0}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/Throwable;)V
+    invoke-direct {p1, p0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
 
     .line 23
     .line 24
@@ -1757,14 +1639,12 @@
 
     .line 28
     .line 29
-    invoke-direct {p1}, Ljava/lang/IllegalAccessError;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/IllegalAccessError;-><init>()V
 
     .line 30
     .line 31
     .line 32
-    invoke-virtual {p1, p0}, Ljava/lang/Throwable;
-    ->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
+    invoke-virtual {p1, p0}, Ljava/lang/Throwable;->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
 
     .line 33
     .line 34
@@ -1780,14 +1660,12 @@
 
     .line 38
     .line 39
-    invoke-direct {p1}, Ljava/lang/NoSuchMethodError;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/NoSuchMethodError;-><init>()V
 
     .line 40
     .line 41
     .line 42
-    invoke-virtual {p1, p0}, Ljava/lang/Throwable;
-    ->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
+    invoke-virtual {p1, p0}, Ljava/lang/Throwable;->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
 
     .line 43
     .line 44
@@ -1814,8 +1692,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -1827,8 +1704,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/location/LocationCompat$Api34Impl;
-    ->setMslAltitudeAccuracyMeters(Landroid/location/Location;F)V
+    invoke-static {p0, p1}, Landroidx/core/location/LocationCompat$Api34Impl;->setMslAltitudeAccuracyMeters(Landroid/location/Location;F)V
 
     .line 8
     .line 9
@@ -1837,8 +1713,7 @@
 
     .line 11
     :cond_0
-    invoke-static {p0}, Landroidx/core/location/LocationCompat;
-    ->getOrCreateExtras(Landroid/location/Location;)Landroid/os/Bundle;
+    invoke-static {p0}, Landroidx/core/location/LocationCompat;->getOrCreateExtras(Landroid/location/Location;)Landroid/os/Bundle;
 
     .line 12
     .line 13
@@ -1850,8 +1725,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p0, v0, p1}, Landroid/os/Bundle;
-    ->putFloat(Ljava/lang/String;F)V
+    invoke-virtual {p0, v0, p1}, Landroid/os/Bundle;->putFloat(Ljava/lang/String;F)V
 
     .line 18
     .line 19
@@ -1867,8 +1741,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -1880,8 +1753,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1, p2}, Landroidx/core/location/LocationCompat$Api34Impl;
-    ->setMslAltitudeMeters(Landroid/location/Location;D)V
+    invoke-static {p0, p1, p2}, Landroidx/core/location/LocationCompat$Api34Impl;->setMslAltitudeMeters(Landroid/location/Location;D)V
 
     .line 8
     .line 9
@@ -1890,8 +1762,7 @@
 
     .line 11
     :cond_0
-    invoke-static {p0}, Landroidx/core/location/LocationCompat;
-    ->getOrCreateExtras(Landroid/location/Location;)Landroid/os/Bundle;
+    invoke-static {p0}, Landroidx/core/location/LocationCompat;->getOrCreateExtras(Landroid/location/Location;)Landroid/os/Bundle;
 
     .line 12
     .line 13
@@ -1903,8 +1774,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p0, v0, p1, p2}, Landroid/os/BaseBundle;
-    ->putDouble(Ljava/lang/String;D)V
+    invoke-virtual {p0, v0, p1, p2}, Landroid/os/BaseBundle;->putDouble(Ljava/lang/String;D)V
 
     .line 18
     .line 19
@@ -1920,8 +1790,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -1933,8 +1802,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/location/LocationCompat$Api26Impl;
-    ->setSpeedAccuracyMetersPerSecond(Landroid/location/Location;F)V
+    invoke-static {p0, p1}, Landroidx/core/location/LocationCompat$Api26Impl;->setSpeedAccuracyMetersPerSecond(Landroid/location/Location;F)V
 
     .line 8
     .line 9
@@ -1943,8 +1811,7 @@
 
     .line 11
     :cond_0
-    invoke-static {p0}, Landroidx/core/location/LocationCompat;
-    ->getOrCreateExtras(Landroid/location/Location;)Landroid/os/Bundle;
+    invoke-static {p0}, Landroidx/core/location/LocationCompat;->getOrCreateExtras(Landroid/location/Location;)Landroid/os/Bundle;
 
     .line 12
     .line 13
@@ -1956,8 +1823,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p0, v0, p1}, Landroid/os/Bundle;
-    ->putFloat(Ljava/lang/String;F)V
+    invoke-virtual {p0, v0, p1}, Landroid/os/Bundle;->putFloat(Ljava/lang/String;F)V
 
     .line 18
     .line 19
@@ -1973,8 +1839,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -1986,8 +1851,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/location/LocationCompat$Api26Impl;
-    ->setVerticalAccuracyMeters(Landroid/location/Location;F)V
+    invoke-static {p0, p1}, Landroidx/core/location/LocationCompat$Api26Impl;->setVerticalAccuracyMeters(Landroid/location/Location;F)V
 
     .line 8
     .line 9
@@ -1996,8 +1860,7 @@
 
     .line 11
     :cond_0
-    invoke-static {p0}, Landroidx/core/location/LocationCompat;
-    ->getOrCreateExtras(Landroid/location/Location;)Landroid/os/Bundle;
+    invoke-static {p0}, Landroidx/core/location/LocationCompat;->getOrCreateExtras(Landroid/location/Location;)Landroid/os/Bundle;
 
     .line 12
     .line 13
@@ -2009,8 +1872,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p0, v0, p1}, Landroid/os/Bundle;
-    ->putFloat(Ljava/lang/String;F)V
+    invoke-virtual {p0, v0, p1}, Landroid/os/Bundle;->putFloat(Ljava/lang/String;F)V
 
     .line 18
     .line 19

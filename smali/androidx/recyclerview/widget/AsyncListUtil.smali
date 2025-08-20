@@ -142,8 +142,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -155,8 +154,7 @@
 
     .line 6
     .line 7
-    iput-object v1, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mTmpRange:[I
+    iput-object v1, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mTmpRange:[I
 
     .line 8
     .line 9
@@ -164,8 +162,7 @@
 
     .line 10
     .line 11
-    iput-object v1, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mPrevRange:[I
+    iput-object v1, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mPrevRange:[I
 
     .line 12
     .line 13
@@ -173,31 +170,26 @@
 
     .line 14
     .line 15
-    iput-object v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mTmpRangeExtended:[I
+    iput-object v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mTmpRangeExtended:[I
 
     .line 16
     .line 17
     const/4 v0, 0x0
 
     .line 18
-    iput v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mScrollHint:I
+    iput v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mScrollHint:I
 
     .line 19
     .line 20
-    iput v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mItemCount:I
+    iput v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mItemCount:I
 
     .line 21
     .line 22
-    iput v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mDisplayedGeneration:I
+    iput v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mDisplayedGeneration:I
 
     .line 23
     .line 24
-    iput v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mRequestedGeneration:I
+    iput v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mRequestedGeneration:I
 
     .line 25
     .line 26
@@ -205,14 +197,12 @@
 
     .line 27
     .line 28
-    invoke-direct {v0}, Landroid/util/SparseIntArray;
-    -><init>()V
+    invoke-direct {v0}, Landroid/util/SparseIntArray;-><init>()V
 
     .line 29
     .line 30
     .line 31
-    iput-object v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mMissingPositions:Landroid/util/SparseIntArray;
+    iput-object v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mMissingPositions:Landroid/util/SparseIntArray;
 
     .line 32
     .line 33
@@ -220,14 +210,12 @@
 
     .line 34
     .line 35
-    invoke-direct {v0, p0}, Landroidx/recyclerview/widget/AsyncListUtil$1;
-    -><init>(Landroidx/recyclerview/widget/AsyncListUtil;)V
+    invoke-direct {v0, p0}, Landroidx/recyclerview/widget/AsyncListUtil$1;-><init>(Landroidx/recyclerview/widget/AsyncListUtil;)V
 
     .line 36
     .line 37
     .line 38
-    iput-object v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mMainThreadCallback:Landroidx/recyclerview/widget/ThreadUtil$MainThreadCallback;
+    iput-object v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mMainThreadCallback:Landroidx/recyclerview/widget/ThreadUtil$MainThreadCallback;
 
     .line 39
     .line 40
@@ -235,34 +223,28 @@
 
     .line 41
     .line 42
-    invoke-direct {v1, p0}, Landroidx/recyclerview/widget/AsyncListUtil$2;
-    -><init>(Landroidx/recyclerview/widget/AsyncListUtil;)V
+    invoke-direct {v1, p0}, Landroidx/recyclerview/widget/AsyncListUtil$2;-><init>(Landroidx/recyclerview/widget/AsyncListUtil;)V
 
     .line 43
     .line 44
     .line 45
-    iput-object v1, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mBackgroundCallback:Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;
+    iput-object v1, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mBackgroundCallback:Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;
 
     .line 46
     .line 47
-    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mTClass:Ljava/lang/Class;
+    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mTClass:Ljava/lang/Class;
 
     .line 48
     .line 49
-    iput p2, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mTileSize:I
+    iput p2, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mTileSize:I
 
     .line 50
     .line 51
-    iput-object p3, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mDataCallback:Landroidx/recyclerview/widget/AsyncListUtil$DataCallback;
+    iput-object p3, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mDataCallback:Landroidx/recyclerview/widget/AsyncListUtil$DataCallback;
 
     .line 52
     .line 53
-    iput-object p4, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mViewCallback:Landroidx/recyclerview/widget/AsyncListUtil$ViewCallback;
+    iput-object p4, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mViewCallback:Landroidx/recyclerview/widget/AsyncListUtil$ViewCallback;
 
     .line 54
     .line 55
@@ -270,14 +252,12 @@
 
     .line 56
     .line 57
-    invoke-direct {p1, p2}, Landroidx/recyclerview/widget/TileList;
-    -><init>(I)V
+    invoke-direct {p1, p2}, Landroidx/recyclerview/widget/TileList;-><init>(I)V
 
     .line 58
     .line 59
     .line 60
-    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mTileList:Landroidx/recyclerview/widget/TileList;
+    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mTileList:Landroidx/recyclerview/widget/TileList;
 
     .line 61
     .line 62
@@ -285,14 +265,12 @@
 
     .line 63
     .line 64
-    invoke-direct {p1}, Landroidx/recyclerview/widget/MessageThreadUtil;
-    -><init>()V
+    invoke-direct {p1}, Landroidx/recyclerview/widget/MessageThreadUtil;-><init>()V
 
     .line 65
     .line 66
     .line 67
-    invoke-interface {p1, v0}, Landroidx/recyclerview/widget/ThreadUtil;
-    ->getMainThreadProxy(Landroidx/recyclerview/widget/ThreadUtil$MainThreadCallback;)Landroidx/recyclerview/widget/ThreadUtil$MainThreadCallback;
+    invoke-interface {p1, v0}, Landroidx/recyclerview/widget/ThreadUtil;->getMainThreadProxy(Landroidx/recyclerview/widget/ThreadUtil$MainThreadCallback;)Landroidx/recyclerview/widget/ThreadUtil$MainThreadCallback;
 
     .line 68
     .line 69
@@ -300,13 +278,11 @@
     move-result-object p2
 
     .line 71
-    iput-object p2, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mMainThreadProxy:Landroidx/recyclerview/widget/ThreadUtil$MainThreadCallback;
+    iput-object p2, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mMainThreadProxy:Landroidx/recyclerview/widget/ThreadUtil$MainThreadCallback;
 
     .line 72
     .line 73
-    invoke-interface {p1, v1}, Landroidx/recyclerview/widget/ThreadUtil;
-    ->getBackgroundProxy(Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;)Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;
+    invoke-interface {p1, v1}, Landroidx/recyclerview/widget/ThreadUtil;->getBackgroundProxy(Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;)Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;
 
     .line 74
     .line 75
@@ -314,13 +290,11 @@
     move-result-object p1
 
     .line 77
-    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mBackgroundProxy:Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;
+    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mBackgroundProxy:Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;
 
     .line 78
     .line 79
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->refresh()V
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/AsyncListUtil;->refresh()V
     return-void
 .end method
 
@@ -328,13 +302,11 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mRequestedGeneration:I
+    iget v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mRequestedGeneration:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mDisplayedGeneration:I
+    iget v1, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mDisplayedGeneration:I
 
     .line 4
     .line 5
@@ -371,8 +343,7 @@
 
     .line 2
     .line 3
-    iget v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mItemCount:I
+    iget v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mItemCount:I
 
     .line 4
     .line 5
@@ -380,13 +351,11 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mTileList:Landroidx/recyclerview/widget/TileList;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mTileList:Landroidx/recyclerview/widget/TileList;
 
     .line 8
     .line 9
-    invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/TileList;
-    ->getItemAt(I)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/TileList;->getItemAt(I)Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -398,8 +367,7 @@
 
     .line 14
     .line 15
-    invoke-direct {p0}, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->isRefreshPending()Z
+    invoke-direct {p0}, Landroidx/recyclerview/widget/AsyncListUtil;->isRefreshPending()Z
 
     .line 16
     .line 17
@@ -411,16 +379,14 @@
 
     .line 20
     .line 21
-    iget-object v1, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mMissingPositions:Landroid/util/SparseIntArray;
+    iget-object v1, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mMissingPositions:Landroid/util/SparseIntArray;
 
     .line 22
     .line 23
     const/4 v2, 0x0
 
     .line 24
-    invoke-virtual {v1, p1, v2}, Landroid/util/SparseIntArray;
-    ->put(II)V
+    invoke-virtual {v1, p1, v2}, Landroid/util/SparseIntArray;->put(II)V
 
     .line 25
     .line 26
@@ -438,14 +404,12 @@
 
     .line 31
     .line 32
-    invoke-direct {v1}, Ljava/lang/StringBuilder;
-    -><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 33
     .line 34
     .line 35
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 36
     .line 37
@@ -454,25 +418,21 @@
 
     .line 39
     .line 40
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 41
     .line 42
     .line 43
-    iget p1, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mItemCount:I
+    iget p1, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mItemCount:I
 
     .line 44
     .line 45
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 46
     .line 47
     .line 48
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 49
     .line 50
@@ -480,8 +440,7 @@
     move-result-object p1
 
     .line 52
-    invoke-direct {v0, p1}, Ljava/lang/IndexOutOfBoundsException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IndexOutOfBoundsException;-><init>(Ljava/lang/String;)V
 
     .line 53
     .line 54
@@ -492,16 +451,14 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mItemCount:I    return v0
+    iget v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mItemCount:I    return v0
 .end method
 
 .method public varargs log(Ljava/lang/String;[Ljava/lang/Object;)V
     .locals 0
 
     .line 1
-    invoke-static {p1, p2}, Ljava/lang/String;
-    ->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1, p2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 2
     .line 3
@@ -513,8 +470,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p2, p1}, Ljava/lang/String;
-    ->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p2, p1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 8
     .line 9
@@ -526,8 +482,7 @@
 
     .line 12
     .line 13
-    invoke-static {p2, p1}, Landroid/util/Log;
-    ->d(Ljava/lang/String;Ljava/lang/String;)I    
+    invoke-static {p2, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
     return-void
 .end method
 
@@ -535,8 +490,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->isRefreshPending()Z
+    invoke-direct {p0}, Landroidx/recyclerview/widget/AsyncListUtil;->isRefreshPending()Z
 
     .line 2
     .line 3
@@ -548,8 +502,7 @@
 
     .line 8
     :cond_0
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->updateRange()V
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/AsyncListUtil;->updateRange()V
 
     .line 9
     .line 10
@@ -557,8 +510,7 @@
     const/4 v0, 0x1
 
     .line 12
-    iput-boolean v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mAllowScrollHints:Z
+    iput-boolean v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mAllowScrollHints:Z
 return-void
 .end method
 
@@ -566,24 +518,20 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mMissingPositions:Landroid/util/SparseIntArray;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mMissingPositions:Landroid/util/SparseIntArray;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/util/SparseIntArray;
-    ->clear()V
+    invoke-virtual {v0}, Landroid/util/SparseIntArray;->clear()V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mBackgroundProxy:Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mBackgroundProxy:Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;
 
     .line 7
     .line 8
-    iget v1, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mRequestedGeneration:I
+    iget v1, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mRequestedGeneration:I
 
     .line 9
     .line 10
@@ -591,13 +539,11 @@ return-void
 
     .line 11
     .line 12
-    iput v1, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mRequestedGeneration:I
+    iput v1, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mRequestedGeneration:I
 
     .line 13
     .line 14
-    invoke-interface {v0, v1}, Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;
-    ->refresh(I)V
+    invoke-interface {v0, v1}, Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;->refresh(I)V
 return-void
 .end method
 
@@ -605,24 +551,20 @@ return-void
     .locals 10
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mViewCallback:Landroidx/recyclerview/widget/AsyncListUtil$ViewCallback;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mViewCallback:Landroidx/recyclerview/widget/AsyncListUtil$ViewCallback;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mTmpRange:[I
+    iget-object v1, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mTmpRange:[I
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/AsyncListUtil$ViewCallback;
-    ->getItemRangeInto([I)V
+    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/AsyncListUtil$ViewCallback;->getItemRangeInto([I)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mTmpRange:[I
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mTmpRange:[I
 
     .line 9
     .line 10
@@ -653,8 +595,7 @@ return-void
     .line 21
     .line 22
     :cond_0
-    iget v5, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mItemCount:I
+    iget v5, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mItemCount:I
 
     .line 23
     .line 24
@@ -666,8 +607,7 @@ return-void
 
     .line 27
     :cond_1
-    iget-boolean v5, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mAllowScrollHints:Z
+    iget-boolean v5, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mAllowScrollHints:Z
 
     .line 28
     .line 29
@@ -675,8 +615,7 @@ return-void
 
     .line 30
     .line 31
-    iput v1, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mScrollHint:I
+    iput v1, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mScrollHint:I
 
     .line 32
     .line 33
@@ -684,8 +623,7 @@ return-void
 
     .line 34
     :cond_2
-    iget-object v5, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mPrevRange:[I
+    iget-object v5, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mPrevRange:[I
 
     .line 35
     .line 36
@@ -713,8 +651,7 @@ return-void
 
     .line 46
     .line 47
-    iput v3, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mScrollHint:I
+    iput v3, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mScrollHint:I
 
     .line 48
     .line 49
@@ -729,8 +666,7 @@ return-void
     const/4 v5, 0x2
 
     .line 53
-    iput v5, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mScrollHint:I
+    iput v5, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mScrollHint:I
 
     .line 54
     .line 55
@@ -739,15 +675,13 @@ return-void
     .line 56
     :cond_5
     :goto_0
-    iput v1, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mScrollHint:I
+    iput v1, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mScrollHint:I
 
     .line 57
     .line 58
     :cond_6
     :goto_1
-    iget-object v5, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mPrevRange:[I
+    iget-object v5, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mPrevRange:[I
 
     .line 59
     .line 60
@@ -759,34 +693,28 @@ return-void
 
     .line 63
     .line 64
-    iget-object v2, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mViewCallback:Landroidx/recyclerview/widget/AsyncListUtil$ViewCallback;
+    iget-object v2, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mViewCallback:Landroidx/recyclerview/widget/AsyncListUtil$ViewCallback;
 
     .line 65
     .line 66
-    iget-object v4, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mTmpRangeExtended:[I
+    iget-object v4, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mTmpRangeExtended:[I
 
     .line 67
     .line 68
-    iget v5, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mScrollHint:I
+    iget v5, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mScrollHint:I
 
     .line 69
     .line 70
-    invoke-virtual {v2, v0, v4, v5}, Landroidx/recyclerview/widget/AsyncListUtil$ViewCallback;
-    ->extendRangeInto([I[II)V
+    invoke-virtual {v2, v0, v4, v5}, Landroidx/recyclerview/widget/AsyncListUtil$ViewCallback;->extendRangeInto([I[II)V
 
     .line 71
     .line 72
     .line 73
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mTmpRangeExtended:[I
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mTmpRangeExtended:[I
 
     .line 74
     .line 75
-    iget-object v2, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mTmpRange:[I
+    iget-object v2, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mTmpRange:[I
 
     .line 76
     .line 77
@@ -798,8 +726,7 @@ return-void
 
     .line 80
     .line 81
-    invoke-static {v4, v1}, Ljava/lang/Math;
-    ->max(II)I
+    invoke-static {v4, v1}, Ljava/lang/Math;->max(II)I
 
     .line 82
     .line 83
@@ -807,8 +734,7 @@ return-void
     move-result v4
 
     .line 85
-    invoke-static {v2, v4}, Ljava/lang/Math;
-    ->min(II)I
+    invoke-static {v2, v4}, Ljava/lang/Math;->min(II)I
 
     .line 86
     .line 87
@@ -820,13 +746,11 @@ return-void
 
     .line 90
     .line 91
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mTmpRangeExtended:[I
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mTmpRangeExtended:[I
 
     .line 92
     .line 93
-    iget-object v2, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mTmpRange:[I
+    iget-object v2, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mTmpRange:[I
 
     .line 94
     .line 95
@@ -838,16 +762,14 @@ return-void
 
     .line 98
     .line 99
-    iget v5, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mItemCount:I
+    iget v5, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mItemCount:I
 
     .line 100
     .line 101
     sub-int/2addr v5, v3
 
     .line 102
-    invoke-static {v4, v5}, Ljava/lang/Math;
-    ->min(II)I
+    invoke-static {v4, v5}, Ljava/lang/Math;->min(II)I
 
     .line 103
     .line 104
@@ -855,8 +777,7 @@ return-void
     move-result v4
 
     .line 106
-    invoke-static {v2, v4}, Ljava/lang/Math;
-    ->max(II)I
+    invoke-static {v2, v4}, Ljava/lang/Math;->max(II)I
 
     .line 107
     .line 108
@@ -868,13 +789,11 @@ return-void
 
     .line 111
     .line 112
-    iget-object v4, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mBackgroundProxy:Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;
+    iget-object v4, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mBackgroundProxy:Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;
 
     .line 113
     .line 114
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mTmpRange:[I
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mTmpRange:[I
 
     .line 115
     .line 116
@@ -886,8 +805,7 @@ return-void
 
     .line 119
     .line 120
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mTmpRangeExtended:[I
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mTmpRangeExtended:[I
 
     .line 121
     .line 122
@@ -899,13 +817,11 @@ return-void
 
     .line 125
     .line 126
-    iget v9, p0, Landroidx/recyclerview/widget/AsyncListUtil;
-    ->mScrollHint:I
+    iget v9, p0, Landroidx/recyclerview/widget/AsyncListUtil;->mScrollHint:I
 
     .line 127
     .line 128
-    invoke-interface/range {v4 .. v9}, Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;
-    ->updateRange(IIIII)V
+    invoke-interface/range {v4 .. v9}, Landroidx/recyclerview/widget/ThreadUtil$BackgroundCallback;->updateRange(IIIII)V
 
     .line 129
     .line 130

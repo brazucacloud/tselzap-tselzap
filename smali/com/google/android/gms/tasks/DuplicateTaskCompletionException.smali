@@ -12,8 +12,7 @@
     .end param
 
     .line 1
-    invoke-direct {p0, p1, p2}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p0, p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 2
     .line 3
@@ -40,8 +39,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/android/gms/tasks/Task;
-    ->isComplete()Z
+    invoke-virtual {p0}, Lcom/google/android/gms/tasks/Task;->isComplete()Z
 
     .line 2
     .line 3
@@ -61,8 +59,7 @@
 
     .line 10
     .line 11
-    invoke-direct {p0, v0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 12
     .line 13
@@ -71,8 +68,7 @@
 
     .line 15
     :cond_0
-    invoke-virtual {p0}, Lcom/google/android/gms/tasks/Task;
-    ->getException()Ljava/lang/Exception;
+    invoke-virtual {p0}, Lcom/google/android/gms/tasks/Task;->getException()Ljava/lang/Exception;
 
     .line 16
     .line 17
@@ -92,8 +88,7 @@
 
     .line 24
     :cond_1
-    invoke-virtual {p0}, Lcom/google/android/gms/tasks/Task;
-    ->isSuccessful()Z
+    invoke-virtual {p0}, Lcom/google/android/gms/tasks/Task;->isSuccessful()Z
 
     .line 25
     .line 26
@@ -105,8 +100,7 @@
 
     .line 29
     .line 30
-    invoke-virtual {p0}, Lcom/google/android/gms/tasks/Task;
-    ->getResult()Ljava/lang/Object;
+    invoke-virtual {p0}, Lcom/google/android/gms/tasks/Task;->getResult()Ljava/lang/Object;
 
     .line 31
     .line 32
@@ -114,8 +108,7 @@
     move-result-object p0
 
     .line 34
-    invoke-static {p0}, Ljava/lang/String;
-    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 35
     .line 36
@@ -127,8 +120,7 @@
 
     .line 39
     .line 40
-    invoke-virtual {v1, p0}, Ljava/lang/String;
-    ->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, p0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 41
     .line 42
@@ -140,8 +132,7 @@
 
     .line 45
     :cond_2
-    invoke-virtual {p0}, Lcom/google/android/gms/tasks/Task;
-    ->isCanceled()Z
+    invoke-virtual {p0}, Lcom/google/android/gms/tasks/Task;->isCanceled()Z
 
     .line 46
     .line 47
@@ -174,8 +165,7 @@
 
     .line 59
     .line 60
-    invoke-virtual {v2, p0}, Ljava/lang/String;
-    ->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, p0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 61
     .line 62
@@ -183,8 +173,7 @@
     move-result-object p0
 
     .line 64
-    invoke-direct {v1, p0, v0}, Lcom/google/android/gms/tasks/DuplicateTaskCompletionException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v1, p0, v0}, Lcom/google/android/gms/tasks/DuplicateTaskCompletionException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 65
     .line 66

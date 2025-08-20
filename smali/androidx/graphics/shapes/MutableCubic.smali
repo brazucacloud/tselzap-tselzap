@@ -14,8 +14,7 @@
     const/4 v1, 0x1
 
     .line 3
-    invoke-direct {p0, v0, v1, v0}, Landroidx/graphics/shapes/Cubic;
-    -><init>([FILkotlin/jvm/internal/e;)V
+    invoke-direct {p0, v0, v1, v0}, Landroidx/graphics/shapes/Cubic;-><init>([FILkotlin/jvm/internal/e;)V
 return-void
 .end method
 
@@ -23,8 +22,7 @@ return-void
     .locals 5
 
     .line 1
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
-    ->getPoints$graphics_shapes_release()[F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getPoints$graphics_shapes_release()[F
 
     .line 2
     .line 3
@@ -36,8 +34,7 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
-    ->getPoints$graphics_shapes_release()[F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getPoints$graphics_shapes_release()[F
 
     .line 8
     .line 9
@@ -53,8 +50,7 @@ return-void
 
     .line 14
     .line 15
-    invoke-interface {p1, v0, v1}, Landroidx/graphics/shapes/PointTransformer;
-    ->transform-XgqJiTY(FF)J
+    invoke-interface {p1, v0, v1}, Landroidx/graphics/shapes/PointTransformer;->transform-XgqJiTY(FF)J
 
     .line 16
     .line 17
@@ -62,8 +58,7 @@ return-void
     move-result-wide v0
 
     .line 19
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
-    ->getPoints$graphics_shapes_release()[F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getPoints$graphics_shapes_release()[F
 
     .line 20
     .line 21
@@ -82,8 +77,7 @@ return-void
     long-to-int v4, v3
 
     .line 28
-    invoke-static {v4}, Ljava/lang/Float;
-    ->intBitsToFloat(I)F
+    invoke-static {v4}, Ljava/lang/Float;->intBitsToFloat(I)F
 
     .line 29
     .line 30
@@ -95,8 +89,7 @@ return-void
 
     .line 33
     .line 34
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
-    ->getPoints$graphics_shapes_release()[F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getPoints$graphics_shapes_release()[F
 
     .line 35
     .line 36
@@ -117,8 +110,7 @@ return-void
     long-to-int p2, v0
 
     .line 45
-    invoke-static {p2}, Ljava/lang/Float;
-    ->intBitsToFloat(I)F
+    invoke-static {p2}, Ljava/lang/Float;->intBitsToFloat(I)F
 
     .line 46
     .line 47
@@ -139,8 +131,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -149,8 +140,7 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -167,8 +157,7 @@ return-void
 
     .line 15
     .line 16
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;
-    ->getPoints$graphics_shapes_release()[F
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Cubic;->getPoints$graphics_shapes_release()[F
 
     .line 17
     .line 18
@@ -176,8 +165,7 @@ return-void
     move-result-object v1
 
     .line 20
-    invoke-virtual {p1}, Landroidx/graphics/shapes/Cubic;
-    ->getPoints$graphics_shapes_release()[F
+    invoke-virtual {p1}, Landroidx/graphics/shapes/Cubic;->getPoints$graphics_shapes_release()[F
 
     .line 21
     .line 22
@@ -189,8 +177,7 @@ return-void
 
     .line 25
     .line 26
-    invoke-virtual {p2}, Landroidx/graphics/shapes/Cubic;
-    ->getPoints$graphics_shapes_release()[F
+    invoke-virtual {p2}, Landroidx/graphics/shapes/Cubic;->getPoints$graphics_shapes_release()[F
 
     .line 27
     .line 28
@@ -202,8 +189,7 @@ return-void
 
     .line 31
     .line 32
-    invoke-static {v2, v3, p3}, Landroidx/graphics/shapes/Utils;
-    ->interpolate(FFF)F
+    invoke-static {v2, v3, p3}, Landroidx/graphics/shapes/Utils;->interpolate(FFF)F
 
     .line 33
     .line 34
@@ -234,8 +220,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -243,8 +228,7 @@ return-void
     const/4 v0, 0x0
 
     .line 7
-    invoke-direct {p0, p1, v0}, Landroidx/graphics/shapes/MutableCubic;
-    ->transformOnePoint(Landroidx/graphics/shapes/PointTransformer;I)V
+    invoke-direct {p0, p1, v0}, Landroidx/graphics/shapes/MutableCubic;->transformOnePoint(Landroidx/graphics/shapes/PointTransformer;I)V
 
     .line 8
     .line 9
@@ -252,8 +236,7 @@ return-void
     const/4 v0, 0x2
 
     .line 11
-    invoke-direct {p0, p1, v0}, Landroidx/graphics/shapes/MutableCubic;
-    ->transformOnePoint(Landroidx/graphics/shapes/PointTransformer;I)V
+    invoke-direct {p0, p1, v0}, Landroidx/graphics/shapes/MutableCubic;->transformOnePoint(Landroidx/graphics/shapes/PointTransformer;I)V
 
     .line 12
     .line 13
@@ -261,8 +244,7 @@ return-void
     const/4 v0, 0x4
 
     .line 15
-    invoke-direct {p0, p1, v0}, Landroidx/graphics/shapes/MutableCubic;
-    ->transformOnePoint(Landroidx/graphics/shapes/PointTransformer;I)V
+    invoke-direct {p0, p1, v0}, Landroidx/graphics/shapes/MutableCubic;->transformOnePoint(Landroidx/graphics/shapes/PointTransformer;I)V
 
     .line 16
     .line 17
@@ -270,8 +252,7 @@ return-void
     const/4 v0, 0x6
 
     .line 19
-    invoke-direct {p0, p1, v0}, Landroidx/graphics/shapes/MutableCubic;
-    ->transformOnePoint(Landroidx/graphics/shapes/PointTransformer;I)V
+    invoke-direct {p0, p1, v0}, Landroidx/graphics/shapes/MutableCubic;->transformOnePoint(Landroidx/graphics/shapes/PointTransformer;I)V
 return-void
 .end method
 

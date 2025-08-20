@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -38,8 +37,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/ViewStructure;
-    ->setClassName(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Landroid/view/ViewStructure;->setClassName(Ljava/lang/String;)V
 
     .line 2
     .line 3
@@ -53,8 +51,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/ViewStructure;
-    ->setContentDescription(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, p1}, Landroid/view/ViewStructure;->setContentDescription(Ljava/lang/CharSequence;)V
 
     .line 2
     .line 3
@@ -68,8 +65,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual/range {p0 .. p6}, Landroid/view/ViewStructure;
-    ->setDimens(IIIIII)V
+    invoke-virtual/range {p0 .. p6}, Landroid/view/ViewStructure;->setDimens(IIIIII)V
 
     .line 2
     .line 3
@@ -83,8 +79,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/ViewStructure;
-    ->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, p1}, Landroid/view/ViewStructure;->setText(Ljava/lang/CharSequence;)V
 
     .line 2
     .line 3

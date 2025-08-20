@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/navigation/NavGraph;
-    ->setStartDestination()V
+    value = Landroidx/navigation/NavGraph;->setStartDestination()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,11 +34,9 @@
 
     new-instance v0, Landroidx/navigation/NavGraph$setStartDestination$1;
 
-    invoke-direct {v0}, Landroidx/navigation/NavGraph$setStartDestination$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/navigation/NavGraph$setStartDestination$1;-><init>()V
 
-    sput-object v0, Landroidx/navigation/NavGraph$setStartDestination$1;
-    ->INSTANCE:Landroidx/navigation/NavGraph$setStartDestination$1;
+    sput-object v0, Landroidx/navigation/NavGraph$setStartDestination$1;->INSTANCE:Landroidx/navigation/NavGraph$setStartDestination$1;
 
     return-void
 .end method
@@ -49,8 +46,7 @@
 
     const/4 v0, 0x1
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;
-    -><init>(I)V
+    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;-><init>(I)V
 return-void
 .end method
 
@@ -62,8 +58,7 @@ return-void
     .line 1
     check-cast p1, Landroidx/navigation/NavDestination;
 
-    invoke-virtual {p0, p1}, Landroidx/navigation/NavGraph$setStartDestination$1;
-    ->invoke(Landroidx/navigation/NavDestination;)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Landroidx/navigation/NavGraph$setStartDestination$1;->invoke(Landroidx/navigation/NavDestination;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -75,17 +70,14 @@ return-void
 
     const-string v0, "startDestination"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-virtual {p1}, Landroidx/navigation/NavDestination;
-    ->getRoute()Ljava/lang/String;
+    invoke-virtual {p1}, Landroidx/navigation/NavDestination;->getRoute()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-static {p1}, Lkotlin/jvm/internal/j;
-    ->c(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
     return-object p1
 .end method
 

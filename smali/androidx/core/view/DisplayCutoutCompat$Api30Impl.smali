@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -60,8 +59,7 @@
     move-object v6, p5
 
     .line 9
-    invoke-direct/range {v0 .. v6}, Landroid/view/DisplayCutout;
-    -><init>(Landroid/graphics/Insets;Landroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Insets;)V
+    invoke-direct/range {v0 .. v6}, Landroid/view/DisplayCutout;-><init>(Landroid/graphics/Insets;Landroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Insets;)V
 
     .line 10
     .line 11
@@ -75,8 +73,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/DisplayCutout;
-    ->getWaterfallInsets()Landroid/graphics/Insets;
+    invoke-virtual {p0}, Landroid/view/DisplayCutout;->getWaterfallInsets()Landroid/graphics/Insets;
 
     .line 2
     .line 3

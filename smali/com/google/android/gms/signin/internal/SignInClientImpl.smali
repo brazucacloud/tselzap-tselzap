@@ -88,8 +88,7 @@
     move-object v6, p7
 
     .line 9
-    invoke-direct/range {v0 .. v6}, Lcom/google/android/gms/common/internal/GmsClient;
-    -><init>(Landroid/content/Context;Landroid/os/Looper;ILcom/google/android/gms/common/internal/ClientSettings;Lcom/google/android/gms/common/api/GoogleApiClient$ConnectionCallbacks;Lcom/google/android/gms/common/api/GoogleApiClient$OnConnectionFailedListener;)V
+    invoke-direct/range {v0 .. v6}, Lcom/google/android/gms/common/internal/GmsClient;-><init>(Landroid/content/Context;Landroid/os/Looper;ILcom/google/android/gms/common/internal/ClientSettings;Lcom/google/android/gms/common/api/GoogleApiClient$ConnectionCallbacks;Lcom/google/android/gms/common/api/GoogleApiClient$OnConnectionFailedListener;)V
 
     .line 10
     .line 11
@@ -97,23 +96,19 @@
     const/4 p1, 0x1
 
     .line 13
-    iput-boolean p1, v0, Lcom/google/android/gms/signin/internal/SignInClientImpl;
-    ->zab:Z
+    iput-boolean p1, v0, Lcom/google/android/gms/signin/internal/SignInClientImpl;->zab:Z
 
     .line 14
     .line 15
-    iput-object v4, v0, Lcom/google/android/gms/signin/internal/SignInClientImpl;
-    ->zac:Lcom/google/android/gms/common/internal/ClientSettings;
+    iput-object v4, v0, Lcom/google/android/gms/signin/internal/SignInClientImpl;->zac:Lcom/google/android/gms/common/internal/ClientSettings;
 
     .line 16
     .line 17
-    iput-object p5, v0, Lcom/google/android/gms/signin/internal/SignInClientImpl;
-    ->zad:Landroid/os/Bundle;
+    iput-object p5, v0, Lcom/google/android/gms/signin/internal/SignInClientImpl;->zad:Landroid/os/Bundle;
 
     .line 18
     .line 19
-    invoke-virtual {v4}, Lcom/google/android/gms/common/internal/ClientSettings;
-    ->zab()Ljava/lang/Integer;
+    invoke-virtual {v4}, Lcom/google/android/gms/common/internal/ClientSettings;->zab()Ljava/lang/Integer;
 
     .line 20
     .line 21
@@ -121,8 +116,7 @@
     move-result-object p1
 
     .line 23
-    iput-object p1, v0, Lcom/google/android/gms/signin/internal/SignInClientImpl;
-    ->zae:Ljava/lang/Integer;
+    iput-object p1, v0, Lcom/google/android/gms/signin/internal/SignInClientImpl;->zae:Ljava/lang/Integer;
 
     .line 24
     .line 25
@@ -142,14 +136,12 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/ClientSettings;
-    ->zaa()Lcom/google/android/gms/signin/SignInOptions;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/ClientSettings;->zaa()Lcom/google/android/gms/signin/SignInOptions;
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/ClientSettings;
-    ->zab()Ljava/lang/Integer;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/ClientSettings;->zab()Ljava/lang/Integer;
 
     .line 5
     .line 6
@@ -161,8 +153,7 @@
 
     .line 9
     .line 10
-    invoke-direct {v1}, Landroid/os/Bundle;
-    -><init>()V
+    invoke-direct {v1}, Landroid/os/Bundle;-><init>()V
 
     .line 11
     .line 12
@@ -171,8 +162,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/ClientSettings;
-    ->getAccount()Landroid/accounts/Account;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/ClientSettings;->getAccount()Landroid/accounts/Account;
 
     .line 16
     .line 17
@@ -180,8 +170,7 @@
     move-result-object p0
 
     .line 19
-    invoke-virtual {v1, v2, p0}, Landroid/os/Bundle;
-    ->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
+    invoke-virtual {v1, v2, p0}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
 
     .line 20
     .line 21
@@ -194,8 +183,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {v0}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
 
     .line 27
     .line 28
@@ -203,8 +191,7 @@
     move-result v0
 
     .line 30
-    invoke-virtual {v1, p0, v0}, Landroid/os/BaseBundle;
-    ->putInt(Ljava/lang/String;I)V
+    invoke-virtual {v1, p0, v0}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
 
     .line 31
     .line 32
@@ -217,8 +204,7 @@
     const/4 v0, 0x0
 
     .line 36
-    invoke-virtual {v1, p0, v0}, Landroid/os/Bundle;
-    ->putBoolean(Ljava/lang/String;Z)V
+    invoke-virtual {v1, p0, v0}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
     .line 37
     .line 38
@@ -227,8 +213,7 @@
 
     .line 40
     .line 41
-    invoke-virtual {v1, p0, v0}, Landroid/os/Bundle;
-    ->putBoolean(Ljava/lang/String;Z)V
+    invoke-virtual {v1, p0, v0}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
     .line 42
     .line 43
@@ -240,8 +225,7 @@
     const/4 v2, 0x0
 
     .line 47
-    invoke-virtual {v1, p0, v2}, Landroid/os/BaseBundle;
-    ->putString(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, p0, v2}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 48
     .line 49
@@ -253,8 +237,7 @@
     const/4 v3, 0x1
 
     .line 53
-    invoke-virtual {v1, p0, v3}, Landroid/os/Bundle;
-    ->putBoolean(Ljava/lang/String;Z)V
+    invoke-virtual {v1, p0, v3}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
     .line 54
     .line 55
@@ -263,8 +246,7 @@
 
     .line 57
     .line 58
-    invoke-virtual {v1, p0, v0}, Landroid/os/Bundle;
-    ->putBoolean(Ljava/lang/String;Z)V
+    invoke-virtual {v1, p0, v0}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
     .line 59
     .line 60
@@ -273,8 +255,7 @@
 
     .line 62
     .line 63
-    invoke-virtual {v1, p0, v2}, Landroid/os/BaseBundle;
-    ->putString(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, p0, v2}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 64
     .line 65
@@ -283,8 +264,7 @@
 
     .line 67
     .line 68
-    invoke-virtual {v1, p0, v2}, Landroid/os/BaseBundle;
-    ->putString(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, p0, v2}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 69
     .line 70
@@ -293,8 +273,7 @@
 
     .line 72
     .line 73
-    invoke-virtual {v1, p0, v0}, Landroid/os/Bundle;
-    ->putBoolean(Ljava/lang/String;Z)V
+    invoke-virtual {v1, p0, v0}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
     .line 74
     .line 75
@@ -328,8 +307,7 @@
 
     .line 6
     .line 7
-    invoke-interface {p1, v0}, Landroid/os/IBinder;
-    ->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
+    invoke-interface {p1, v0}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
 
     .line 8
     .line 9
@@ -357,8 +335,7 @@
 
     .line 19
     .line 20
-    invoke-direct {v0, p1}, Lcom/google/android/gms/signin/internal/zaf;
-    -><init>(Landroid/os/IBinder;)V
+    invoke-direct {v0, p1}, Lcom/google/android/gms/signin/internal/zaf;-><init>(Landroid/os/IBinder;)V
 
     .line 21
     .line 22
@@ -372,13 +349,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/signin/internal/SignInClientImpl;
-    ->zac:Lcom/google/android/gms/common/internal/ClientSettings;
+    iget-object v0, p0, Lcom/google/android/gms/signin/internal/SignInClientImpl;->zac:Lcom/google/android/gms/common/internal/ClientSettings;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/google/android/gms/common/internal/ClientSettings;
-    ->getRealClientPackageName()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/google/android/gms/common/internal/ClientSettings;->getRealClientPackageName()Ljava/lang/String;
 
     .line 4
     .line 5
@@ -386,8 +361,7 @@
     move-result-object v0
 
     .line 7
-    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/BaseGmsClient;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/BaseGmsClient;->getContext()Landroid/content/Context;
 
     .line 8
     .line 9
@@ -395,8 +369,7 @@
     move-result-object v1
 
     .line 11
-    invoke-virtual {v1}, Landroid/content/Context;
-    ->getPackageName()Ljava/lang/String;
+    invoke-virtual {v1}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     .line 12
     .line 13
@@ -404,8 +377,7 @@
     move-result-object v1
 
     .line 15
-    invoke-virtual {v1, v0}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 16
     .line 17
@@ -417,13 +389,11 @@
 
     .line 20
     .line 21
-    iget-object v0, p0, Lcom/google/android/gms/signin/internal/SignInClientImpl;
-    ->zad:Landroid/os/Bundle;
+    iget-object v0, p0, Lcom/google/android/gms/signin/internal/SignInClientImpl;->zad:Landroid/os/Bundle;
 
     .line 22
     .line 23
-    iget-object v1, p0, Lcom/google/android/gms/signin/internal/SignInClientImpl;
-    ->zac:Lcom/google/android/gms/common/internal/ClientSettings;
+    iget-object v1, p0, Lcom/google/android/gms/signin/internal/SignInClientImpl;->zac:Lcom/google/android/gms/common/internal/ClientSettings;
 
     .line 24
     .line 25
@@ -431,8 +401,7 @@
 
     .line 26
     .line 27
-    invoke-virtual {v1}, Lcom/google/android/gms/common/internal/ClientSettings;
-    ->getRealClientPackageName()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/google/android/gms/common/internal/ClientSettings;->getRealClientPackageName()Ljava/lang/String;
 
     .line 28
     .line 29
@@ -440,15 +409,13 @@
     move-result-object v1
 
     .line 31
-    invoke-virtual {v0, v2, v1}, Landroid/os/BaseBundle;
-    ->putString(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 32
     .line 33
     .line 34
     :cond_0
-    iget-object v0, p0, Lcom/google/android/gms/signin/internal/SignInClientImpl;
-    ->zad:Landroid/os/Bundle;
+    iget-object v0, p0, Lcom/google/android/gms/signin/internal/SignInClientImpl;->zad:Landroid/os/Bundle;
 
     .line 35
     .line 36
@@ -486,8 +453,7 @@
 .method public final requiresSignIn()Z
     .locals 1
 
-    iget-boolean v0, p0, Lcom/google/android/gms/signin/internal/SignInClientImpl;
-    ->zab:Z
+    iget-boolean v0, p0, Lcom/google/android/gms/signin/internal/SignInClientImpl;->zab:Z
 
     return v0
 .end method
@@ -497,8 +463,7 @@
 
     .line 1
     :try_start_0
-    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/BaseGmsClient;
-    ->getService()Landroid/os/IInterface;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/BaseGmsClient;->getService()Landroid/os/IInterface;
 
     .line 2
     .line 3
@@ -510,13 +475,11 @@
 
     .line 6
     .line 7
-    iget-object v1, p0, Lcom/google/android/gms/signin/internal/SignInClientImpl;
-    ->zae:Ljava/lang/Integer;
+    iget-object v1, p0, Lcom/google/android/gms/signin/internal/SignInClientImpl;->zae:Ljava/lang/Integer;
 
     .line 8
     .line 9
-    invoke-static {v1}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v1}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -528,8 +491,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {v1}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
     .line 16
     .line 17
@@ -537,8 +499,7 @@
     move-result v1
 
     .line 19
-    invoke-virtual {v0, v1}, Lcom/google/android/gms/signin/internal/zaf;
-    ->zae(I)V
+    invoke-virtual {v0, v1}, Lcom/google/android/gms/signin/internal/zaf;->zae(I)V
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -557,8 +518,7 @@
 
     .line 26
     .line 27
-    invoke-static {v0, v1}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 28
     .line 29
@@ -574,14 +534,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Lcom/google/android/gms/common/internal/BaseGmsClient$LegacyClientCallbackAdapter;
-    -><init>(Lcom/google/android/gms/common/internal/BaseGmsClient;)V
+    invoke-direct {v0, p0}, Lcom/google/android/gms/common/internal/BaseGmsClient$LegacyClientCallbackAdapter;-><init>(Lcom/google/android/gms/common/internal/BaseGmsClient;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/internal/BaseGmsClient;
-    ->connect(Lcom/google/android/gms/common/internal/BaseGmsClient$ConnectionProgressReportCallbacks;)V
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/internal/BaseGmsClient;->connect(Lcom/google/android/gms/common/internal/BaseGmsClient$ConnectionProgressReportCallbacks;)V
 
     .line 7
     .line 8
@@ -598,8 +556,7 @@
 
     .line 1
     :try_start_0
-    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/BaseGmsClient;
-    ->getService()Landroid/os/IInterface;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/BaseGmsClient;->getService()Landroid/os/IInterface;
 
     .line 2
     .line 3
@@ -611,13 +568,11 @@
 
     .line 6
     .line 7
-    iget-object v1, p0, Lcom/google/android/gms/signin/internal/SignInClientImpl;
-    ->zae:Ljava/lang/Integer;
+    iget-object v1, p0, Lcom/google/android/gms/signin/internal/SignInClientImpl;->zae:Ljava/lang/Integer;
 
     .line 8
     .line 9
-    invoke-static {v1}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v1}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -629,8 +584,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {v1}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
     .line 16
     .line 17
@@ -638,8 +592,7 @@
     move-result v1
 
     .line 19
-    invoke-virtual {v0, p1, v1, p2}, Lcom/google/android/gms/signin/internal/zaf;
-    ->zaf(Lcom/google/android/gms/common/internal/IAccountAccessor;IZ)V
+    invoke-virtual {v0, p1, v1, p2}, Lcom/google/android/gms/signin/internal/zaf;->zaf(Lcom/google/android/gms/common/internal/IAccountAccessor;IZ)V
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -658,8 +611,7 @@
 
     .line 26
     .line 27
-    invoke-static {p1, p2}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, p2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 28
     .line 29
@@ -675,8 +627,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -688,13 +639,11 @@
 
     .line 8
     :try_start_0
-    iget-object v2, p0, Lcom/google/android/gms/signin/internal/SignInClientImpl;
-    ->zac:Lcom/google/android/gms/common/internal/ClientSettings;
+    iget-object v2, p0, Lcom/google/android/gms/signin/internal/SignInClientImpl;->zac:Lcom/google/android/gms/common/internal/ClientSettings;
 
     .line 9
     .line 10
-    invoke-virtual {v2}, Lcom/google/android/gms/common/internal/ClientSettings;
-    ->getAccountOrDefault()Landroid/accounts/Account;
+    invoke-virtual {v2}, Lcom/google/android/gms/common/internal/ClientSettings;->getAccountOrDefault()Landroid/accounts/Account;
 
     .line 11
     .line 12
@@ -706,13 +655,11 @@
 
     .line 15
     .line 16
-    iget-object v4, v2, Landroid/accounts/Account;
-    ->name:Ljava/lang/String;
+    iget-object v4, v2, Landroid/accounts/Account;->name:Ljava/lang/String;
 
     .line 17
     .line 18
-    invoke-virtual {v3, v4}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 19
     .line 20
@@ -724,8 +671,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/BaseGmsClient;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/BaseGmsClient;->getContext()Landroid/content/Context;
 
     .line 25
     .line 26
@@ -733,8 +679,7 @@
     move-result-object v3
 
     .line 28
-    invoke-static {v3}, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->getInstance(Landroid/content/Context;)Lcom/google/android/gms/auth/api/signin/internal/Storage;
+    invoke-static {v3}, Lcom/google/android/gms/auth/api/signin/internal/Storage;->getInstance(Landroid/content/Context;)Lcom/google/android/gms/auth/api/signin/internal/Storage;
 
     .line 29
     .line 30
@@ -742,8 +687,7 @@
     move-result-object v3
 
     .line 32
-    invoke-virtual {v3}, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->getSavedDefaultGoogleSignInAccount()Lcom/google/android/gms/auth/api/signin/GoogleSignInAccount;
+    invoke-virtual {v3}, Lcom/google/android/gms/auth/api/signin/internal/Storage;->getSavedDefaultGoogleSignInAccount()Lcom/google/android/gms/auth/api/signin/GoogleSignInAccount;
 
     .line 33
     .line 34
@@ -770,13 +714,11 @@
 
     .line 41
     .line 42
-    iget-object v5, p0, Lcom/google/android/gms/signin/internal/SignInClientImpl;
-    ->zae:Ljava/lang/Integer;
+    iget-object v5, p0, Lcom/google/android/gms/signin/internal/SignInClientImpl;->zae:Ljava/lang/Integer;
 
     .line 43
     .line 44
-    invoke-static {v5}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v5}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 45
     .line 46
@@ -788,8 +730,7 @@
 
     .line 49
     .line 50
-    invoke-virtual {v5}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {v5}, Ljava/lang/Integer;->intValue()I
 
     .line 51
     .line 52
@@ -797,14 +738,12 @@
     move-result v5
 
     .line 54
-    invoke-direct {v4, v2, v5, v3}, Lcom/google/android/gms/common/internal/zat;
-    -><init>(Landroid/accounts/Account;ILcom/google/android/gms/auth/api/signin/GoogleSignInAccount;)V
+    invoke-direct {v4, v2, v5, v3}, Lcom/google/android/gms/common/internal/zat;-><init>(Landroid/accounts/Account;ILcom/google/android/gms/auth/api/signin/GoogleSignInAccount;)V
 
     .line 55
     .line 56
     .line 57
-    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/BaseGmsClient;
-    ->getService()Landroid/os/IInterface;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/internal/BaseGmsClient;->getService()Landroid/os/IInterface;
 
     .line 58
     .line 59
@@ -820,14 +759,12 @@
 
     .line 64
     .line 65
-    invoke-direct {v3, v0, v4}, Lcom/google/android/gms/signin/internal/zai;
-    -><init>(ILcom/google/android/gms/common/internal/zat;)V
+    invoke-direct {v3, v0, v4}, Lcom/google/android/gms/signin/internal/zai;-><init>(ILcom/google/android/gms/common/internal/zat;)V
 
     .line 66
     .line 67
     .line 68
-    invoke-virtual {v2, v3, p1}, Lcom/google/android/gms/signin/internal/zaf;
-    ->zag(Lcom/google/android/gms/signin/internal/zai;Lcom/google/android/gms/signin/internal/zae;)V
+    invoke-virtual {v2, v3, p1}, Lcom/google/android/gms/signin/internal/zaf;->zag(Lcom/google/android/gms/signin/internal/zai;Lcom/google/android/gms/signin/internal/zae;)V
     :try_end_0
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -846,8 +783,7 @@
 
     .line 75
     .line 76
-    invoke-static {v4, v3}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v4, v3}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 77
     .line 78
@@ -865,20 +801,17 @@
 
     .line 84
     .line 85
-    invoke-direct {v5, v6, v1}, Lcom/google/android/gms/common/ConnectionResult;
-    -><init>(ILandroid/app/PendingIntent;)V
+    invoke-direct {v5, v6, v1}, Lcom/google/android/gms/common/ConnectionResult;-><init>(ILandroid/app/PendingIntent;)V
 
     .line 86
     .line 87
     .line 88
-    invoke-direct {v3, v0, v5, v1}, Lcom/google/android/gms/signin/internal/zak;
-    -><init>(ILcom/google/android/gms/common/ConnectionResult;Lcom/google/android/gms/common/internal/zav;)V
+    invoke-direct {v3, v0, v5, v1}, Lcom/google/android/gms/signin/internal/zak;-><init>(ILcom/google/android/gms/common/ConnectionResult;Lcom/google/android/gms/common/internal/zav;)V
 
     .line 89
     .line 90
     .line 91
-    invoke-interface {p1, v3}, Lcom/google/android/gms/signin/internal/zae;
-    ->zab(Lcom/google/android/gms/signin/internal/zak;)V
+    invoke-interface {p1, v3}, Lcom/google/android/gms/signin/internal/zae;->zab(Lcom/google/android/gms/signin/internal/zak;)V
     :try_end_1
     .catch Landroid/os/RemoteException; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -893,8 +826,7 @@
 
     .line 96
     .line 97
-    invoke-static {v4, p1, v2}, Landroid/util/Log;
-    ->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v4, p1, v2}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 98
     .line 99

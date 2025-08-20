@@ -55,14 +55,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/fmark/tselzap/Config/BotConfig$1;
-    -><init>()V
+    invoke-direct {v0}, Lcom/fmark/tselzap/Config/BotConfig$1;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Lcom/fmark/tselzap/Config/BotConfig;
-    ->CREATOR:Landroid/os/Parcelable$Creator;
+    sput-object v0, Lcom/fmark/tselzap/Config/BotConfig;->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 7
     .line 8
@@ -73,53 +71,42 @@
     .locals 1
 
     .line 7
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 8
-    invoke-virtual {p1}, Landroid/os/Parcel;
-    ->createStringArrayList()Ljava/util/ArrayList;
+    invoke-virtual {p1}, Landroid/os/Parcel;->createStringArrayList()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/fmark/tselzap/Config/BotConfig;
-    ->questions:Ljava/util/List;
+    iput-object v0, p0, Lcom/fmark/tselzap/Config/BotConfig;->questions:Ljava/util/List;
 
     .line 9
-    invoke-virtual {p1}, Landroid/os/Parcel;
-    ->createStringArrayList()Ljava/util/ArrayList;
+    invoke-virtual {p1}, Landroid/os/Parcel;->createStringArrayList()Ljava/util/ArrayList;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/fmark/tselzap/Config/BotConfig;
-    ->answers:Ljava/util/List;
+    iput-object v0, p0, Lcom/fmark/tselzap/Config/BotConfig;->answers:Ljava/util/List;
 
     .line 10
-    invoke-virtual {p1}, Landroid/os/Parcel;
-    ->createBooleanArray()[Z
+    invoke-virtual {p1}, Landroid/os/Parcel;->createBooleanArray()[Z
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/fmark/tselzap/Config/BotConfig;
-    ->exactMatch:[Z
+    iput-object v0, p0, Lcom/fmark/tselzap/Config/BotConfig;->exactMatch:[Z
 
     .line 11
-    invoke-virtual {p1}, Landroid/os/Parcel;
-    ->createBooleanArray()[Z
+    invoke-virtual {p1}, Landroid/os/Parcel;->createBooleanArray()[Z
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/fmark/tselzap/Config/BotConfig;
-    ->containsMatch:[Z
+    iput-object v0, p0, Lcom/fmark/tselzap/Config/BotConfig;->containsMatch:[Z
 
     .line 12
-    invoke-virtual {p1}, Landroid/os/Parcel;
-    ->createBooleanArray()[Z
+    invoke-virtual {p1}, Landroid/os/Parcel;->createBooleanArray()[Z
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/fmark/tselzap/Config/BotConfig;
-    ->defaultMsg:[Z
+    iput-object p1, p0, Lcom/fmark/tselzap/Config/BotConfig;->defaultMsg:[Z
 return-void
 .end method
 
@@ -138,38 +125,30 @@ return-void
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     new-instance v0, Ljava/util/ArrayList;
 
-    invoke-direct {v0, p1}, Ljava/util/ArrayList;
-    -><init>(Ljava/util/Collection;)V
+    invoke-direct {v0, p1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    iput-object v0, p0, Lcom/fmark/tselzap/Config/BotConfig;
-    ->questions:Ljava/util/List;
+    iput-object v0, p0, Lcom/fmark/tselzap/Config/BotConfig;->questions:Ljava/util/List;
 
     .line 3
     new-instance p1, Ljava/util/ArrayList;
 
-    invoke-direct {p1, p2}, Ljava/util/ArrayList;
-    -><init>(Ljava/util/Collection;)V
+    invoke-direct {p1, p2}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    iput-object p1, p0, Lcom/fmark/tselzap/Config/BotConfig;
-    ->answers:Ljava/util/List;
+    iput-object p1, p0, Lcom/fmark/tselzap/Config/BotConfig;->answers:Ljava/util/List;
 
     .line 4
-    iput-object p3, p0, Lcom/fmark/tselzap/Config/BotConfig;
-    ->exactMatch:[Z
+    iput-object p3, p0, Lcom/fmark/tselzap/Config/BotConfig;->exactMatch:[Z
 
     .line 5
-    iput-object p4, p0, Lcom/fmark/tselzap/Config/BotConfig;
-    ->containsMatch:[Z
+    iput-object p4, p0, Lcom/fmark/tselzap/Config/BotConfig;->containsMatch:[Z
 
     .line 6
-    iput-object p5, p0, Lcom/fmark/tselzap/Config/BotConfig;
-    ->defaultMsg:[Z
+    iput-object p5, p0, Lcom/fmark/tselzap/Config/BotConfig;->defaultMsg:[Z
 return-void
 .end method
 
@@ -195,8 +174,7 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Config/BotConfig;
-    ->answers:Ljava/util/List;
+    iget-object v0, p0, Lcom/fmark/tselzap/Config/BotConfig;->answers:Ljava/util/List;
 
     .line 2
     .line 3
@@ -207,8 +185,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Config/BotConfig;
-    ->containsMatch:[Z
+    iget-object v0, p0, Lcom/fmark/tselzap/Config/BotConfig;->containsMatch:[Z
 
     .line 2
     .line 3
@@ -219,8 +196,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Config/BotConfig;
-    ->defaultMsg:[Z
+    iget-object v0, p0, Lcom/fmark/tselzap/Config/BotConfig;->defaultMsg:[Z
 
     .line 2
     .line 3
@@ -231,8 +207,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Config/BotConfig;
-    ->exactMatch:[Z
+    iget-object v0, p0, Lcom/fmark/tselzap/Config/BotConfig;->exactMatch:[Z
 
     .line 2
     .line 3
@@ -251,8 +226,7 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Config/BotConfig;
-    ->questions:Ljava/util/List;
+    iget-object v0, p0, Lcom/fmark/tselzap/Config/BotConfig;->questions:Ljava/util/List;
 
     .line 2
     .line 3
@@ -263,57 +237,47 @@ return-void
     .locals 0
 
     .line 1
-    iget-object p2, p0, Lcom/fmark/tselzap/Config/BotConfig;
-    ->questions:Ljava/util/List;
+    iget-object p2, p0, Lcom/fmark/tselzap/Config/BotConfig;->questions:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;
-    ->writeStringList(Ljava/util/List;)V
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeStringList(Ljava/util/List;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object p2, p0, Lcom/fmark/tselzap/Config/BotConfig;
-    ->answers:Ljava/util/List;
+    iget-object p2, p0, Lcom/fmark/tselzap/Config/BotConfig;->answers:Ljava/util/List;
 
     .line 7
     .line 8
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;
-    ->writeStringList(Ljava/util/List;)V
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeStringList(Ljava/util/List;)V
 
     .line 9
     .line 10
     .line 11
-    iget-object p2, p0, Lcom/fmark/tselzap/Config/BotConfig;
-    ->exactMatch:[Z
+    iget-object p2, p0, Lcom/fmark/tselzap/Config/BotConfig;->exactMatch:[Z
 
     .line 12
     .line 13
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;
-    ->writeBooleanArray([Z)V
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeBooleanArray([Z)V
 
     .line 14
     .line 15
     .line 16
-    iget-object p2, p0, Lcom/fmark/tselzap/Config/BotConfig;
-    ->containsMatch:[Z
+    iget-object p2, p0, Lcom/fmark/tselzap/Config/BotConfig;->containsMatch:[Z
 
     .line 17
     .line 18
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;
-    ->writeBooleanArray([Z)V
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeBooleanArray([Z)V
 
     .line 19
     .line 20
     .line 21
-    iget-object p2, p0, Lcom/fmark/tselzap/Config/BotConfig;
-    ->defaultMsg:[Z
+    iget-object p2, p0, Lcom/fmark/tselzap/Config/BotConfig;->defaultMsg:[Z
 
     .line 22
     .line 23
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;
-    ->writeBooleanArray([Z)V
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeBooleanArray([Z)V
 
     .line 24
     .line 25

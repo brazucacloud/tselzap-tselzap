@@ -12,13 +12,11 @@
     .locals 0
 
     .line 1
-    iput-object p2, p0, Lcom/google/android/gms/internal/measurement/zzet;
-    ->zza:Ljava/lang/Runnable;
+    iput-object p2, p0, Lcom/google/android/gms/internal/measurement/zzet;->zza:Ljava/lang/Runnable;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzdu;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzdu;-><init>()V
 
     .line 4
     .line 5
@@ -34,13 +32,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzet;
-    ->zza:Ljava/lang/Runnable;
+    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzet;->zza:Ljava/lang/Runnable;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/lang/Runnable;
-    ->run()V
+    invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
     .line 4
     .line 5

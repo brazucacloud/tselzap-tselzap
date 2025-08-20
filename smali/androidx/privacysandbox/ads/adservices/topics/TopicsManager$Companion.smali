@@ -19,8 +19,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -28,8 +27,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/privacysandbox/ads/adservices/topics/TopicsManager$Companion;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/privacysandbox/ads/adservices/topics/TopicsManager$Companion;-><init>()V
     return-void
 .end method
 
@@ -49,19 +47,16 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object v0, Landroidx/privacysandbox/ads/adservices/internal/AdServicesInfo;
-    ->INSTANCE:Landroidx/privacysandbox/ads/adservices/internal/AdServicesInfo;
+    sget-object v0, Landroidx/privacysandbox/ads/adservices/internal/AdServicesInfo;->INSTANCE:Landroidx/privacysandbox/ads/adservices/internal/AdServicesInfo;
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroidx/privacysandbox/ads/adservices/internal/AdServicesInfo;
-    ->adServicesVersion()I
+    invoke-virtual {v0}, Landroidx/privacysandbox/ads/adservices/internal/AdServicesInfo;->adServicesVersion()I
 
     .line 9
     .line 10
@@ -81,14 +76,12 @@
 
     .line 17
     .line 18
-    invoke-direct {v0, p1}, Landroidx/privacysandbox/ads/adservices/topics/TopicsManagerApi33Ext11Impl;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p1}, Landroidx/privacysandbox/ads/adservices/topics/TopicsManagerApi33Ext11Impl;-><init>(Landroid/content/Context;)V
     return-object v0
 
     .line 22
     :cond_0
-    invoke-virtual {v0}, Landroidx/privacysandbox/ads/adservices/internal/AdServicesInfo;
-    ->adServicesVersion()I
+    invoke-virtual {v0}, Landroidx/privacysandbox/ads/adservices/internal/AdServicesInfo;->adServicesVersion()I
 
     .line 23
     .line 24
@@ -107,14 +100,12 @@
 
     .line 30
     .line 31
-    invoke-direct {v0, p1}, Landroidx/privacysandbox/ads/adservices/topics/TopicsManagerApi33Ext5Impl;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p1}, Landroidx/privacysandbox/ads/adservices/topics/TopicsManagerApi33Ext5Impl;-><init>(Landroid/content/Context;)V
     return-object v0
 
     .line 35
     :cond_1
-    invoke-virtual {v0}, Landroidx/privacysandbox/ads/adservices/internal/AdServicesInfo;
-    ->adServicesVersion()I
+    invoke-virtual {v0}, Landroidx/privacysandbox/ads/adservices/internal/AdServicesInfo;->adServicesVersion()I
 
     .line 36
     .line 37
@@ -133,14 +124,12 @@
 
     .line 43
     .line 44
-    invoke-direct {v0, p1}, Landroidx/privacysandbox/ads/adservices/topics/TopicsManagerApi33Ext4Impl;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p1}, Landroidx/privacysandbox/ads/adservices/topics/TopicsManagerApi33Ext4Impl;-><init>(Landroid/content/Context;)V
     return-object v0
 
     .line 48
     :cond_2
-    invoke-virtual {v0}, Landroidx/privacysandbox/ads/adservices/internal/AdServicesInfo;
-    ->extServicesVersionS()I
+    invoke-virtual {v0}, Landroidx/privacysandbox/ads/adservices/internal/AdServicesInfo;->extServicesVersionS()I
 
     .line 49
     .line 50
@@ -156,8 +145,7 @@
 
     .line 55
     .line 56
-    sget-object v0, Landroidx/privacysandbox/ads/adservices/internal/BackCompatManager;
-    ->INSTANCE:Landroidx/privacysandbox/ads/adservices/internal/BackCompatManager;
+    sget-object v0, Landroidx/privacysandbox/ads/adservices/internal/BackCompatManager;->INSTANCE:Landroidx/privacysandbox/ads/adservices/internal/BackCompatManager;
 
     .line 57
     .line 58
@@ -165,14 +153,12 @@
 
     .line 59
     .line 60
-    invoke-direct {v1, p1}, Landroidx/privacysandbox/ads/adservices/topics/TopicsManager$Companion$obtain$1;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {v1, p1}, Landroidx/privacysandbox/ads/adservices/topics/TopicsManager$Companion$obtain$1;-><init>(Landroid/content/Context;)V
 
     .line 61
     .line 62
     .line 63
-    invoke-virtual {v0, p1, v3, v1}, Landroidx/privacysandbox/ads/adservices/internal/BackCompatManager;
-    ->getManager(Landroid/content/Context;Ljava/lang/String;Lp1/l;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, v3, v1}, Landroidx/privacysandbox/ads/adservices/internal/BackCompatManager;->getManager(Landroid/content/Context;Ljava/lang/String;Lp1/l;)Ljava/lang/Object;
 
     .line 64
     .line 65
@@ -184,8 +170,7 @@
 
     .line 70
     :cond_3
-    invoke-virtual {v0}, Landroidx/privacysandbox/ads/adservices/internal/AdServicesInfo;
-    ->extServicesVersionS()I
+    invoke-virtual {v0}, Landroidx/privacysandbox/ads/adservices/internal/AdServicesInfo;->extServicesVersionS()I
 
     .line 71
     .line 72
@@ -201,8 +186,7 @@
 
     .line 77
     .line 78
-    sget-object v0, Landroidx/privacysandbox/ads/adservices/internal/BackCompatManager;
-    ->INSTANCE:Landroidx/privacysandbox/ads/adservices/internal/BackCompatManager;
+    sget-object v0, Landroidx/privacysandbox/ads/adservices/internal/BackCompatManager;->INSTANCE:Landroidx/privacysandbox/ads/adservices/internal/BackCompatManager;
 
     .line 79
     .line 80
@@ -210,14 +194,12 @@
 
     .line 81
     .line 82
-    invoke-direct {v1, p1}, Landroidx/privacysandbox/ads/adservices/topics/TopicsManager$Companion$obtain$2;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {v1, p1}, Landroidx/privacysandbox/ads/adservices/topics/TopicsManager$Companion$obtain$2;-><init>(Landroid/content/Context;)V
 
     .line 83
     .line 84
     .line 85
-    invoke-virtual {v0, p1, v3, v1}, Landroidx/privacysandbox/ads/adservices/internal/BackCompatManager;
-    ->getManager(Landroid/content/Context;Ljava/lang/String;Lp1/l;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, v3, v1}, Landroidx/privacysandbox/ads/adservices/internal/BackCompatManager;->getManager(Landroid/content/Context;Ljava/lang/String;Lp1/l;)Ljava/lang/Object;
 
     .line 86
     .line 87

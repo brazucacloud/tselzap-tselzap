@@ -35,11 +35,9 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/savedstate/Recreator$Companion;
-    -><init>(Lkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v1}, Landroidx/savedstate/Recreator$Companion;-><init>(Lkotlin/jvm/internal/e;)V
 
-    sput-object v0, Landroidx/savedstate/Recreator;
-    ->Companion:Landroidx/savedstate/Recreator$Companion;
+    sput-object v0, Landroidx/savedstate/Recreator;->Companion:Landroidx/savedstate/Recreator$Companion;
 
     return-void
 .end method
@@ -52,20 +50,17 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/savedstate/Recreator;
-    ->owner:Landroidx/savedstate/SavedStateRegistryOwner;    
+    iput-object p1, p0, Landroidx/savedstate/Recreator;->owner:Landroidx/savedstate/SavedStateRegistryOwner;
     return-void
 .end method
 
@@ -82,8 +77,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v1}, Ljava/lang/Class;
-    ->getClassLoader()Ljava/lang/ClassLoader;
+    invoke-virtual {v1}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
 
     .line 6
     .line 7
@@ -94,8 +88,7 @@
     const/4 v2, 0x0
 
     .line 10
-    invoke-static {p1, v2, v1}, Ljava/lang/Class;
-    ->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
+    invoke-static {p1, v2, v1}, Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
 
     .line 11
     .line 12
@@ -107,8 +100,7 @@
 
     .line 15
     .line 16
-    invoke-virtual {v1, v3}, Ljava/lang/Class;
-    ->asSubclass(Ljava/lang/Class;)Ljava/lang/Class;
+    invoke-virtual {v1, v3}, Ljava/lang/Class;->asSubclass(Ljava/lang/Class;)Ljava/lang/Class;
 
     .line 17
     .line 18
@@ -120,8 +112,7 @@
 
     .line 21
     .line 22
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_2
 
@@ -133,8 +124,7 @@
 
     .line 26
     .line 27
-    invoke-virtual {v1, v3}, Ljava/lang/Class;
-    ->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+    invoke-virtual {v1, v3}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     .line 28
     .line 29
@@ -147,8 +137,7 @@
     const/4 v1, 0x1
 
     .line 32
-    invoke-virtual {v0, v1}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v0, v1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 33
     .line 34
@@ -158,8 +147,7 @@
 
     .line 36
     .line 37
-    invoke-virtual {v0, v1}, Ljava/lang/reflect/Constructor;
-    ->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 38
     .line 39
@@ -171,8 +159,7 @@
 
     .line 42
     .line 43
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 44
     .line 45
@@ -183,13 +170,11 @@
 
     .line 47
     .line 48
-    iget-object p1, p0, Landroidx/savedstate/Recreator;
-    ->owner:Landroidx/savedstate/SavedStateRegistryOwner;
+    iget-object p1, p0, Landroidx/savedstate/Recreator;->owner:Landroidx/savedstate/SavedStateRegistryOwner;
 
     .line 49
     .line 50
-    invoke-interface {v0, p1}, Landroidx/savedstate/SavedStateRegistry$AutoRecreated;
-    ->onRecreated(Landroidx/savedstate/SavedStateRegistryOwner;)V
+    invoke-interface {v0, p1}, Landroidx/savedstate/SavedStateRegistry$AutoRecreated;->onRecreated(Landroidx/savedstate/SavedStateRegistryOwner;)V
 return-void
 
     .line 54
@@ -205,8 +190,7 @@ return-void
 
     .line 58
     .line 59
-    invoke-static {v2, p1}, LA/d;
-    ->w(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, p1}, LA/d;->w(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 60
     .line 61
@@ -214,8 +198,7 @@ return-void
     move-result-object p1
 
     .line 63
-    invoke-direct {v1, p1, v0}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v1, p1, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 64
     .line 65
@@ -235,14 +218,12 @@ return-void
 
     .line 71
     .line 72
-    invoke-direct {v3, v0}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 73
     .line 74
     .line 75
-    invoke-virtual {v1}, Ljava/lang/Class;
-    ->getSimpleName()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
     .line 76
     .line 77
@@ -250,8 +231,7 @@ return-void
     move-result-object v0
 
     .line 79
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 80
     .line 81
@@ -260,14 +240,12 @@ return-void
 
     .line 83
     .line 84
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 85
     .line 86
     .line 87
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 88
     .line 89
@@ -275,8 +253,7 @@ return-void
     move-result-object v0
 
     .line 91
-    invoke-direct {v2, v0, p1}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v2, v0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 92
     .line 93
@@ -296,8 +273,7 @@ return-void
 
     .line 99
     .line 100
-    invoke-static {v0, p1, v3}, Landroidx/constraintlayout/core/parser/a;
-    ->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, p1, v3}, Landroidx/constraintlayout/core/parser/a;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 101
     .line 102
@@ -305,8 +281,7 @@ return-void
     move-result-object p1
 
     .line 104
-    invoke-direct {v2, p1, v1}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v2, p1, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 105
     .line 106
@@ -323,8 +298,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -333,14 +307,12 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    sget-object v0, Landroidx/lifecycle/Lifecycle$Event;
-    ->ON_CREATE:Landroidx/lifecycle/Lifecycle$Event;
+    sget-object v0, Landroidx/lifecycle/Lifecycle$Event;->ON_CREATE:Landroidx/lifecycle/Lifecycle$Event;
 
     .line 12
     .line 13
@@ -348,8 +320,7 @@ return-void
 
     .line 14
     .line 15
-    invoke-interface {p1}, Landroidx/lifecycle/LifecycleOwner;
-    ->getLifecycle()Landroidx/lifecycle/Lifecycle;
+    invoke-interface {p1}, Landroidx/lifecycle/LifecycleOwner;->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     .line 16
     .line 17
@@ -357,19 +328,16 @@ return-void
     move-result-object p1
 
     .line 19
-    invoke-virtual {p1, p0}, Landroidx/lifecycle/Lifecycle;
-    ->removeObserver(Landroidx/lifecycle/LifecycleObserver;)V
+    invoke-virtual {p1, p0}, Landroidx/lifecycle/Lifecycle;->removeObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
     .line 20
     .line 21
     .line 22
-    iget-object p1, p0, Landroidx/savedstate/Recreator;
-    ->owner:Landroidx/savedstate/SavedStateRegistryOwner;
+    iget-object p1, p0, Landroidx/savedstate/Recreator;->owner:Landroidx/savedstate/SavedStateRegistryOwner;
 
     .line 23
     .line 24
-    invoke-interface {p1}, Landroidx/savedstate/SavedStateRegistryOwner;
-    ->getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
+    invoke-interface {p1}, Landroidx/savedstate/SavedStateRegistryOwner;->getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
 
     .line 25
     .line 26
@@ -381,8 +349,7 @@ return-void
 
     .line 29
     .line 30
-    invoke-virtual {p1, p2}, Landroidx/savedstate/SavedStateRegistry;
-    ->consumeRestoredStateForKey(Ljava/lang/String;)Landroid/os/Bundle;
+    invoke-virtual {p1, p2}, Landroidx/savedstate/SavedStateRegistry;->consumeRestoredStateForKey(Ljava/lang/String;)Landroid/os/Bundle;
 
     .line 31
     .line 32
@@ -402,8 +369,7 @@ return-void
 
     .line 38
     .line 39
-    invoke-virtual {p1, p2}, Landroid/os/Bundle;
-    ->getStringArrayList(Ljava/lang/String;)Ljava/util/ArrayList;
+    invoke-virtual {p1, p2}, Landroid/os/Bundle;->getStringArrayList(Ljava/lang/String;)Ljava/util/ArrayList;
 
     .line 40
     .line 41
@@ -415,8 +381,7 @@ return-void
 
     .line 44
     .line 45
-    invoke-interface {p1}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 46
     .line 47
@@ -425,8 +390,7 @@ return-void
 
     .line 49
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
     .line 50
     .line 51
@@ -438,8 +402,7 @@ return-void
 
     .line 54
     .line 55
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 56
     .line 57
@@ -451,8 +414,7 @@ return-void
 
     .line 60
     .line 61
-    invoke-direct {p0, p2}, Landroidx/savedstate/Recreator;
-    ->reflectiveNew(Ljava/lang/String;)V
+    invoke-direct {p0, p2}, Landroidx/savedstate/Recreator;->reflectiveNew(Ljava/lang/String;)V
 
     .line 62
     .line 63
@@ -474,8 +436,7 @@ return-void
 
     .line 69
     .line 70
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 71
     .line 72
@@ -492,8 +453,7 @@ return-void
 
     .line 77
     .line 78
-    invoke-direct {p1, p2}, Ljava/lang/AssertionError;
-    -><init>(Ljava/lang/Object;)V
+    invoke-direct {p1, p2}, Ljava/lang/AssertionError;-><init>(Ljava/lang/Object;)V
 
     .line 79
     .line 80

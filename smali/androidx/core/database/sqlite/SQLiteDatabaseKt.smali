@@ -23,8 +23,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/database/sqlite/SQLiteDatabase;
-    ->beginTransaction()V
+    invoke-virtual {p0}, Landroid/database/sqlite/SQLiteDatabase;->beginTransaction()V
 
     .line 4
     .line 5
@@ -33,16 +32,14 @@
 
     .line 7
     :cond_0
-    invoke-virtual {p0}, Landroid/database/sqlite/SQLiteDatabase;
-    ->beginTransactionNonExclusive()V
+    invoke-virtual {p0}, Landroid/database/sqlite/SQLiteDatabase;->beginTransactionNonExclusive()V
 
     .line 8
     .line 9
     .line 10
     :goto_0
     :try_start_0
-    invoke-interface {p2, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -50,16 +47,14 @@
     move-result-object p1
 
     .line 14
-    invoke-virtual {p0}, Landroid/database/sqlite/SQLiteDatabase;
-    ->setTransactionSuccessful()V
+    invoke-virtual {p0}, Landroid/database/sqlite/SQLiteDatabase;->setTransactionSuccessful()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 15
     .line 16
     .line 17
-    invoke-virtual {p0}, Landroid/database/sqlite/SQLiteDatabase;
-    ->endTransaction()V
+    invoke-virtual {p0}, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
 
     .line 18
     .line 19
@@ -71,8 +66,7 @@
     move-exception p1
 
     .line 22
-    invoke-virtual {p0}, Landroid/database/sqlite/SQLiteDatabase;
-    ->endTransaction()V
+    invoke-virtual {p0}, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
 
     .line 23
     .line 24
@@ -194,8 +188,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p0}, Landroid/database/sqlite/SQLiteDatabase;
-    ->beginTransaction()V
+    invoke-virtual {p0}, Landroid/database/sqlite/SQLiteDatabase;->beginTransaction()V
 
     .line 9
     .line 10
@@ -204,16 +197,14 @@
 
     .line 12
     :cond_1
-    invoke-virtual {p0}, Landroid/database/sqlite/SQLiteDatabase;
-    ->beginTransactionNonExclusive()V
+    invoke-virtual {p0}, Landroid/database/sqlite/SQLiteDatabase;->beginTransactionNonExclusive()V
 
     .line 13
     .line 14
     .line 15
     :goto_0
     :try_start_0
-    invoke-interface {p2, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -221,16 +212,14 @@
     move-result-object p1
 
     .line 19
-    invoke-virtual {p0}, Landroid/database/sqlite/SQLiteDatabase;
-    ->setTransactionSuccessful()V
+    invoke-virtual {p0}, Landroid/database/sqlite/SQLiteDatabase;->setTransactionSuccessful()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {p0}, Landroid/database/sqlite/SQLiteDatabase;
-    ->endTransaction()V
+    invoke-virtual {p0}, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
 
     .line 23
     .line 24
@@ -242,8 +231,7 @@
     move-exception p1
 
     .line 27
-    invoke-virtual {p0}, Landroid/database/sqlite/SQLiteDatabase;
-    ->endTransaction()V
+    invoke-virtual {p0}, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
 
     .line 28
     .line 29

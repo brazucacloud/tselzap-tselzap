@@ -69,35 +69,28 @@
     .end annotation
 
     .line 7
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 8
     new-instance v0, Ljava/util/HashMap;
 
-    invoke-direct {v0}, Ljava/util/HashMap;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    iput-object v0, p0, Lcom/android/volley/WaitingRequestManager;
-    ->mWaitingRequests:Ljava/util/Map;
+    iput-object v0, p0, Lcom/android/volley/WaitingRequestManager;->mWaitingRequests:Ljava/util/Map;
 
     const/4 v0, 0x0
 
     .line 9
-    iput-object v0, p0, Lcom/android/volley/WaitingRequestManager;
-    ->mRequestQueue:Lcom/android/volley/RequestQueue;
+    iput-object v0, p0, Lcom/android/volley/WaitingRequestManager;->mRequestQueue:Lcom/android/volley/RequestQueue;
 
     .line 10
-    iput-object p3, p0, Lcom/android/volley/WaitingRequestManager;
-    ->mResponseDelivery:Lcom/android/volley/ResponseDelivery;
+    iput-object p3, p0, Lcom/android/volley/WaitingRequestManager;->mResponseDelivery:Lcom/android/volley/ResponseDelivery;
 
     .line 11
-    iput-object p1, p0, Lcom/android/volley/WaitingRequestManager;
-    ->mCacheDispatcher:Lcom/android/volley/CacheDispatcher;
+    iput-object p1, p0, Lcom/android/volley/WaitingRequestManager;->mCacheDispatcher:Lcom/android/volley/CacheDispatcher;
 
     .line 12
-    iput-object p2, p0, Lcom/android/volley/WaitingRequestManager;
-    ->mNetworkQueue:Ljava/util/concurrent/BlockingQueue;
+    iput-object p2, p0, Lcom/android/volley/WaitingRequestManager;->mNetworkQueue:Ljava/util/concurrent/BlockingQueue;
 
     return-void
 .end method
@@ -110,40 +103,32 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     new-instance v0, Ljava/util/HashMap;
 
-    invoke-direct {v0}, Ljava/util/HashMap;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    iput-object v0, p0, Lcom/android/volley/WaitingRequestManager;
-    ->mWaitingRequests:Ljava/util/Map;
+    iput-object v0, p0, Lcom/android/volley/WaitingRequestManager;->mWaitingRequests:Ljava/util/Map;
 
     .line 3
-    iput-object p1, p0, Lcom/android/volley/WaitingRequestManager;
-    ->mRequestQueue:Lcom/android/volley/RequestQueue;
+    iput-object p1, p0, Lcom/android/volley/WaitingRequestManager;->mRequestQueue:Lcom/android/volley/RequestQueue;
 
     .line 4
-    invoke-virtual {p1}, Lcom/android/volley/RequestQueue;
-    ->getResponseDelivery()Lcom/android/volley/ResponseDelivery;
+    invoke-virtual {p1}, Lcom/android/volley/RequestQueue;->getResponseDelivery()Lcom/android/volley/ResponseDelivery;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/android/volley/WaitingRequestManager;
-    ->mResponseDelivery:Lcom/android/volley/ResponseDelivery;
+    iput-object p1, p0, Lcom/android/volley/WaitingRequestManager;->mResponseDelivery:Lcom/android/volley/ResponseDelivery;
 
     const/4 p1, 0x0
 
     .line 5
-    iput-object p1, p0, Lcom/android/volley/WaitingRequestManager;
-    ->mCacheDispatcher:Lcom/android/volley/CacheDispatcher;
+    iput-object p1, p0, Lcom/android/volley/WaitingRequestManager;->mCacheDispatcher:Lcom/android/volley/CacheDispatcher;
 
     .line 6
-    iput-object p1, p0, Lcom/android/volley/WaitingRequestManager;
-    ->mNetworkQueue:Ljava/util/concurrent/BlockingQueue;
+    iput-object p1, p0, Lcom/android/volley/WaitingRequestManager;->mNetworkQueue:Ljava/util/concurrent/BlockingQueue;
 
     return-void
 .end method
@@ -171,8 +156,7 @@
 
     .line 4
     :try_start_0
-    invoke-virtual {p1}, Lcom/android/volley/Request;
-    ->getCacheKey()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/android/volley/Request;->getCacheKey()Ljava/lang/String;
 
     .line 5
     .line 6
@@ -180,13 +164,11 @@
     move-result-object v2
 
     .line 8
-    iget-object v3, p0, Lcom/android/volley/WaitingRequestManager;
-    ->mWaitingRequests:Ljava/util/Map;
+    iget-object v3, p0, Lcom/android/volley/WaitingRequestManager;->mWaitingRequests:Ljava/util/Map;
 
     .line 9
     .line 10
-    invoke-interface {v3, v2}, Ljava/util/Map;
-    ->containsKey(Ljava/lang/Object;)Z
+    invoke-interface {v3, v2}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     .line 11
     .line 12
@@ -198,13 +180,11 @@
 
     .line 15
     .line 16
-    iget-object v3, p0, Lcom/android/volley/WaitingRequestManager;
-    ->mWaitingRequests:Ljava/util/Map;
+    iget-object v3, p0, Lcom/android/volley/WaitingRequestManager;->mWaitingRequests:Ljava/util/Map;
 
     .line 17
     .line 18
-    invoke-interface {v3, v2}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v3, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -224,8 +204,7 @@
 
     .line 27
     .line 28
-    invoke-direct {v3}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v3}, Ljava/util/ArrayList;-><init>()V
 
     .line 29
     .line 30
@@ -246,31 +225,26 @@
 
     .line 35
     .line 36
-    invoke-virtual {p1, v4}, Lcom/android/volley/Request;
-    ->addMarker(Ljava/lang/String;)V
+    invoke-virtual {p1, v4}, Lcom/android/volley/Request;->addMarker(Ljava/lang/String;)V
 
     .line 37
     .line 38
     .line 39
-    invoke-interface {v3, p1}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v3, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 40
     .line 41
     .line 42
-    iget-object p1, p0, Lcom/android/volley/WaitingRequestManager;
-    ->mWaitingRequests:Ljava/util/Map;
+    iget-object p1, p0, Lcom/android/volley/WaitingRequestManager;->mWaitingRequests:Ljava/util/Map;
 
     .line 43
     .line 44
-    invoke-interface {p1, v2, v3}, Ljava/util/Map;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 45
     .line 46
     .line 47
-    sget-boolean p1, Lcom/android/volley/VolleyLog;
-    ->DEBUG:Z
+    sget-boolean p1, Lcom/android/volley/VolleyLog;->DEBUG:Z
 
     .line 48
     .line 49
@@ -290,8 +264,7 @@
 
     .line 56
     .line 57
-    invoke-static {p1, v3}, Lcom/android/volley/VolleyLog;
-    ->d(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {p1, v3}, Lcom/android/volley/VolleyLog;->d(Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -306,28 +279,24 @@
     .line 62
     :cond_2
     :try_start_1
-    iget-object v3, p0, Lcom/android/volley/WaitingRequestManager;
-    ->mWaitingRequests:Ljava/util/Map;
+    iget-object v3, p0, Lcom/android/volley/WaitingRequestManager;->mWaitingRequests:Ljava/util/Map;
 
     .line 63
     .line 64
     const/4 v4, 0x0
 
     .line 65
-    invoke-interface {v3, v2, v4}, Ljava/util/Map;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v3, v2, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 66
     .line 67
     .line 68
-    invoke-virtual {p1, p0}, Lcom/android/volley/Request;
-    ->setNetworkRequestCompleteListener(Lcom/android/volley/Request$NetworkRequestCompleteListener;)V
+    invoke-virtual {p1, p0}, Lcom/android/volley/Request;->setNetworkRequestCompleteListener(Lcom/android/volley/Request$NetworkRequestCompleteListener;)V
 
     .line 69
     .line 70
     .line 71
-    sget-boolean p1, Lcom/android/volley/VolleyLog;
-    ->DEBUG:Z
+    sget-boolean p1, Lcom/android/volley/VolleyLog;->DEBUG:Z
 
     .line 72
     .line 73
@@ -347,8 +316,7 @@
 
     .line 80
     .line 81
-    invoke-static {p1, v1}, Lcom/android/volley/VolleyLog;
-    ->d(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {p1, v1}, Lcom/android/volley/VolleyLog;->d(Ljava/lang/String;[Ljava/lang/Object;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -548,8 +516,7 @@
 
     .line 4
     :try_start_0
-    invoke-virtual {p1}, Lcom/android/volley/Request;
-    ->getCacheKey()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/android/volley/Request;->getCacheKey()Ljava/lang/String;
 
     .line 5
     .line 6
@@ -557,13 +524,11 @@
     move-result-object p1
 
     .line 8
-    iget-object v2, p0, Lcom/android/volley/WaitingRequestManager;
-    ->mWaitingRequests:Ljava/util/Map;
+    iget-object v2, p0, Lcom/android/volley/WaitingRequestManager;->mWaitingRequests:Ljava/util/Map;
 
     .line 9
     .line 10
-    invoke-interface {v2, p1}, Ljava/util/Map;
-    ->remove(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v2, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -579,8 +544,7 @@
 
     .line 17
     .line 18
-    invoke-interface {v2}, Ljava/util/List;
-    ->isEmpty()Z
+    invoke-interface {v2}, Ljava/util/List;->isEmpty()Z
 
     .line 19
     .line 20
@@ -592,8 +556,7 @@
 
     .line 23
     .line 24
-    sget-boolean v3, Lcom/android/volley/VolleyLog;
-    ->DEBUG:Z
+    sget-boolean v3, Lcom/android/volley/VolleyLog;->DEBUG:Z
 
     .line 25
     .line 26
@@ -605,8 +568,7 @@
 
     .line 29
     .line 30
-    invoke-interface {v2}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v2}, Ljava/util/List;->size()I
 
     .line 31
     .line 32
@@ -614,8 +576,7 @@
     move-result v4
 
     .line 34
-    invoke-static {v4}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 35
     .line 36
@@ -638,8 +599,7 @@
 
     .line 44
     .line 45
-    invoke-static {v3, v5}, Lcom/android/volley/VolleyLog;
-    ->v(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v3, v5}, Lcom/android/volley/VolleyLog;->v(Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 46
     .line 47
@@ -656,8 +616,7 @@
     .line 51
     :cond_0
     :goto_0
-    invoke-interface {v2, v1}, Ljava/util/List;
-    ->remove(I)Ljava/lang/Object;
+    invoke-interface {v2, v1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
     .line 52
     .line 53
@@ -669,25 +628,21 @@
 
     .line 56
     .line 57
-    iget-object v4, p0, Lcom/android/volley/WaitingRequestManager;
-    ->mWaitingRequests:Ljava/util/Map;
+    iget-object v4, p0, Lcom/android/volley/WaitingRequestManager;->mWaitingRequests:Ljava/util/Map;
 
     .line 58
     .line 59
-    invoke-interface {v4, p1, v2}, Ljava/util/Map;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v4, p1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 60
     .line 61
     .line 62
-    invoke-virtual {v3, p0}, Lcom/android/volley/Request;
-    ->setNetworkRequestCompleteListener(Lcom/android/volley/Request$NetworkRequestCompleteListener;)V
+    invoke-virtual {v3, p0}, Lcom/android/volley/Request;->setNetworkRequestCompleteListener(Lcom/android/volley/Request$NetworkRequestCompleteListener;)V
 
     .line 63
     .line 64
     .line 65
-    iget-object p1, p0, Lcom/android/volley/WaitingRequestManager;
-    ->mRequestQueue:Lcom/android/volley/RequestQueue;
+    iget-object p1, p0, Lcom/android/volley/WaitingRequestManager;->mRequestQueue:Lcom/android/volley/RequestQueue;
 
     .line 66
     .line 67
@@ -695,8 +650,7 @@
 
     .line 68
     .line 69
-    invoke-virtual {p1, v3}, Lcom/android/volley/RequestQueue;
-    ->sendRequestOverNetwork(Lcom/android/volley/Request;)V
+    invoke-virtual {p1, v3}, Lcom/android/volley/RequestQueue;->sendRequestOverNetwork(Lcom/android/volley/Request;)V
 
     .line 70
     .line 71
@@ -705,8 +659,7 @@
 
     .line 73
     :cond_1
-    iget-object p1, p0, Lcom/android/volley/WaitingRequestManager;
-    ->mCacheDispatcher:Lcom/android/volley/CacheDispatcher;
+    iget-object p1, p0, Lcom/android/volley/WaitingRequestManager;->mCacheDispatcher:Lcom/android/volley/CacheDispatcher;
 
     .line 74
     .line 75
@@ -714,8 +667,7 @@
 
     .line 76
     .line 77
-    iget-object p1, p0, Lcom/android/volley/WaitingRequestManager;
-    ->mNetworkQueue:Ljava/util/concurrent/BlockingQueue;
+    iget-object p1, p0, Lcom/android/volley/WaitingRequestManager;->mNetworkQueue:Ljava/util/concurrent/BlockingQueue;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -726,8 +678,7 @@
     .line 80
     .line 81
     :try_start_1
-    invoke-interface {p1, v3}, Ljava/util/concurrent/BlockingQueue;
-    ->put(Ljava/lang/Object;)V
+    invoke-interface {p1, v3}, Ljava/util/concurrent/BlockingQueue;->put(Ljava/lang/Object;)V
     :try_end_1
     .catch Ljava/lang/InterruptedException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -747,8 +698,7 @@
 
     .line 87
     .line 88
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     .line 89
     .line 90
@@ -764,14 +714,12 @@
 
     .line 95
     .line 96
-    invoke-static {v2, v0}, Lcom/android/volley/VolleyLog;
-    ->e(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v2, v0}, Lcom/android/volley/VolleyLog;->e(Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 97
     .line 98
     .line 99
-    invoke-static {}, Ljava/lang/Thread;
-    ->currentThread()Ljava/lang/Thread;
+    invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     .line 100
     .line 101
@@ -779,19 +727,16 @@
     move-result-object p1
 
     .line 103
-    invoke-virtual {p1}, Ljava/lang/Thread;
-    ->interrupt()V
+    invoke-virtual {p1}, Ljava/lang/Thread;->interrupt()V
 
     .line 104
     .line 105
     .line 106
-    iget-object p1, p0, Lcom/android/volley/WaitingRequestManager;
-    ->mCacheDispatcher:Lcom/android/volley/CacheDispatcher;
+    iget-object p1, p0, Lcom/android/volley/WaitingRequestManager;->mCacheDispatcher:Lcom/android/volley/CacheDispatcher;
 
     .line 107
     .line 108
-    invoke-virtual {p1}, Lcom/android/volley/CacheDispatcher;
-    ->quit()V
+    invoke-virtual {p1}, Lcom/android/volley/CacheDispatcher;->quit()V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
@@ -957,8 +902,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p2, Lcom/android/volley/Response;
-    ->cacheEntry:Lcom/android/volley/Cache$Entry;
+    iget-object v0, p2, Lcom/android/volley/Response;->cacheEntry:Lcom/android/volley/Cache$Entry;
 
     .line 2
     .line 3
@@ -966,8 +910,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Lcom/android/volley/Cache$Entry;
-    ->isExpired()Z
+    invoke-virtual {v0}, Lcom/android/volley/Cache$Entry;->isExpired()Z
 
     .line 6
     .line 7
@@ -983,8 +926,7 @@
 
     .line 12
     :cond_0
-    invoke-virtual {p1}, Lcom/android/volley/Request;
-    ->getCacheKey()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/android/volley/Request;->getCacheKey()Ljava/lang/String;
 
     .line 13
     .line 14
@@ -996,13 +938,11 @@
 
     .line 17
     :try_start_0
-    iget-object v0, p0, Lcom/android/volley/WaitingRequestManager;
-    ->mWaitingRequests:Ljava/util/Map;
+    iget-object v0, p0, Lcom/android/volley/WaitingRequestManager;->mWaitingRequests:Ljava/util/Map;
 
     .line 18
     .line 19
-    invoke-interface {v0, p1}, Ljava/util/Map;
-    ->remove(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -1023,8 +963,7 @@
 
     .line 27
     .line 28
-    sget-boolean v1, Lcom/android/volley/VolleyLog;
-    ->DEBUG:Z
+    sget-boolean v1, Lcom/android/volley/VolleyLog;->DEBUG:Z
 
     .line 29
     .line 30
@@ -1036,8 +975,7 @@
 
     .line 33
     .line 34
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     .line 35
     .line 36
@@ -1045,8 +983,7 @@
     move-result v2
 
     .line 38
-    invoke-static {v2}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 39
     .line 40
@@ -1075,15 +1012,13 @@
 
     .line 50
     .line 51
-    invoke-static {v1, v3}, Lcom/android/volley/VolleyLog;
-    ->v(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v1, v3}, Lcom/android/volley/VolleyLog;->v(Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 52
     .line 53
     .line 54
     :cond_1
-    invoke-interface {v0}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 55
     .line 56
@@ -1092,8 +1027,7 @@
 
     .line 58
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
     .line 59
     .line 60
@@ -1105,8 +1039,7 @@
 
     .line 63
     .line 64
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 65
     .line 66
@@ -1118,13 +1051,11 @@
 
     .line 69
     .line 70
-    iget-object v1, p0, Lcom/android/volley/WaitingRequestManager;
-    ->mResponseDelivery:Lcom/android/volley/ResponseDelivery;
+    iget-object v1, p0, Lcom/android/volley/WaitingRequestManager;->mResponseDelivery:Lcom/android/volley/ResponseDelivery;
 
     .line 71
     .line 72
-    invoke-interface {v1, v0, p2}, Lcom/android/volley/ResponseDelivery;
-    ->postResponse(Lcom/android/volley/Request;Lcom/android/volley/Response;)V
+    invoke-interface {v1, v0, p2}, Lcom/android/volley/ResponseDelivery;->postResponse(Lcom/android/volley/Request;Lcom/android/volley/Response;)V
 
     .line 73
     .line 74
@@ -1151,8 +1082,7 @@
     .line 80
     :cond_3
     :goto_1
-    invoke-virtual {p0, p1}, Lcom/android/volley/WaitingRequestManager;
-    ->onNoUsableResponseReceived(Lcom/android/volley/Request;)V
+    invoke-virtual {p0, p1}, Lcom/android/volley/WaitingRequestManager;->onNoUsableResponseReceived(Lcom/android/volley/Request;)V
 
     .line 81
     .line 82

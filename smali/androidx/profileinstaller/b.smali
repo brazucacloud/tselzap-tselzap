@@ -21,20 +21,15 @@
     .locals 0
 
     .line 1
-    iput p4, p0, Landroidx/profileinstaller/b;
-    ->b:I
+    iput p4, p0, Landroidx/profileinstaller/b;->b:I
 
-    iput-object p1, p0, Landroidx/profileinstaller/b;
-    ->c:Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;
+    iput-object p1, p0, Landroidx/profileinstaller/b;->c:Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;
 
-    iput p2, p0, Landroidx/profileinstaller/b;
-    ->d:I
+    iput p2, p0, Landroidx/profileinstaller/b;->d:I
 
-    iput-object p3, p0, Landroidx/profileinstaller/b;
-    ->e:Ljava/lang/Object;
+    iput-object p3, p0, Landroidx/profileinstaller/b;->e:Ljava/lang/Object;
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -44,36 +39,27 @@
     .locals 3
 
     .line 1
-    iget v0, p0, Landroidx/profileinstaller/b;
-    ->b:I
+    iget v0, p0, Landroidx/profileinstaller/b;->b:I
 
     packed-switch v0, :pswitch_data_0
 
-    iget-object v0, p0, Landroidx/profileinstaller/b;
-    ->e:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/profileinstaller/b;->e:Ljava/lang/Object;
 
-    iget-object v1, p0, Landroidx/profileinstaller/b;
-    ->c:Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;
+    iget-object v1, p0, Landroidx/profileinstaller/b;->c:Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;
 
-    iget v2, p0, Landroidx/profileinstaller/b;
-    ->d:I
+    iget v2, p0, Landroidx/profileinstaller/b;->d:I
 
-    invoke-static {v1, v2, v0}, Landroidx/profileinstaller/ProfileInstaller;
-    ->b(Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;ILjava/lang/Object;)V
+    invoke-static {v1, v2, v0}, Landroidx/profileinstaller/ProfileInstaller;->b(Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;ILjava/lang/Object;)V
 return-void
 
     :pswitch_0
-    iget-object v0, p0, Landroidx/profileinstaller/b;
-    ->e:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/profileinstaller/b;->e:Ljava/lang/Object;
 
-    iget-object v1, p0, Landroidx/profileinstaller/b;
-    ->c:Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;
+    iget-object v1, p0, Landroidx/profileinstaller/b;->c:Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;
 
-    iget v2, p0, Landroidx/profileinstaller/b;
-    ->d:I
+    iget v2, p0, Landroidx/profileinstaller/b;->d:I
 
-    invoke-static {v1, v2, v0}, Landroidx/profileinstaller/ProfileInstaller;
-    ->a(Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;ILjava/lang/Object;)V
+    invoke-static {v1, v2, v0}, Landroidx/profileinstaller/ProfileInstaller;->a(Landroidx/profileinstaller/ProfileInstaller$DiagnosticsCallback;ILjava/lang/Object;)V
 return-void
 
     nop

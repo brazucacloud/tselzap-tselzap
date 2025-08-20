@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual/range {p0 .. p5}, Landroid/media/MediaMetadataRetriever;
-    ->getScaledFrameAtTime(JIII)Landroid/graphics/Bitmap;
+    invoke-virtual/range {p0 .. p5}, Landroid/media/MediaMetadataRetriever;->getScaledFrameAtTime(JIII)Landroid/graphics/Bitmap;
 
     move-result-object p0
 
@@ -22,8 +21,7 @@
     .line 1
     new-instance v0, Ldalvik/system/DelegateLastClassLoader;
 
-    invoke-direct {v0, p0, p1}, Ldalvik/system/DelegateLastClassLoader;
-    -><init>(Ljava/lang/String;Ljava/lang/ClassLoader;)V
+    invoke-direct {v0, p0, p1}, Ldalvik/system/DelegateLastClassLoader;-><init>(Ljava/lang/String;Ljava/lang/ClassLoader;)V
 return-object v0
 .end method
 

@@ -18,43 +18,36 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    iput p1, p0, Lr/k;
-    ->b:I
+    iput p1, p0, Lr/k;->b:I
 
     packed-switch p1, :pswitch_data_0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/16 p1, 0x8
 
     .line 2
-    invoke-static {p1}, Ljava/nio/ByteBuffer;
-    ->allocate(I)Ljava/nio/ByteBuffer;
+    invoke-static {p1}, Ljava/nio/ByteBuffer;->allocate(I)Ljava/nio/ByteBuffer;
 
     move-result-object p1
 
-    iput-object p1, p0, Lr/k;
-    ->c:Ljava/nio/ByteBuffer;
+    iput-object p1, p0, Lr/k;->c:Ljava/nio/ByteBuffer;
 
     return-void
 
     .line 3
     :pswitch_0
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, 0x4
 
     .line 4
-    invoke-static {p1}, Ljava/nio/ByteBuffer;
-    ->allocate(I)Ljava/nio/ByteBuffer;
+    invoke-static {p1}, Ljava/nio/ByteBuffer;->allocate(I)Ljava/nio/ByteBuffer;
 
     move-result-object p1
 
-    iput-object p1, p0, Lr/k;
-    ->c:Ljava/nio/ByteBuffer;
+    iput-object p1, p0, Lr/k;->c:Ljava/nio/ByteBuffer;
 
     return-void
 
@@ -67,36 +60,29 @@
 .method public constructor <init>(Ljava/nio/ByteBuffer;I)V
     .locals 0
 
-    iput p2, p0, Lr/k;
-    ->b:I
+    iput p2, p0, Lr/k;->b:I
 
     packed-switch p2, :pswitch_data_0
 
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 6
-    iput-object p1, p0, Lr/k;
-    ->c:Ljava/nio/ByteBuffer;
+    iput-object p1, p0, Lr/k;->c:Ljava/nio/ByteBuffer;
 
     .line 7
-    sget-object p2, Ljava/nio/ByteOrder;
-    ->BIG_ENDIAN:Ljava/nio/ByteOrder;
+    sget-object p2, Ljava/nio/ByteOrder;->BIG_ENDIAN:Ljava/nio/ByteOrder;
 
-    invoke-virtual {p1, p2}, Ljava/nio/ByteBuffer;
-    ->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
+    invoke-virtual {p1, p2}, Ljava/nio/ByteBuffer;->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
 
     return-void
 
     .line 8
     :pswitch_0
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 9
-    iput-object p1, p0, Lr/k;
-    ->c:Ljava/nio/ByteBuffer;
+    iput-object p1, p0, Lr/k;->c:Ljava/nio/ByteBuffer;
 
     return-void
 
@@ -114,14 +100,12 @@
 
     .line 2
     .line 3
-    invoke-virtual {p3, p1}, Ljava/security/MessageDigest;
-    ->update([B)V
+    invoke-virtual {p3, p1}, Ljava/security/MessageDigest;->update([B)V
 
     .line 4
     .line 5
     .line 6
-    iget-object p1, p0, Lr/k;
-    ->c:Ljava/nio/ByteBuffer;
+    iget-object p1, p0, Lr/k;->c:Ljava/nio/ByteBuffer;
 
     .line 7
     .line 8
@@ -129,27 +113,23 @@
 
     .line 9
     :try_start_0
-    iget-object v0, p0, Lr/k;
-    ->c:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Lr/k;->c:Ljava/nio/ByteBuffer;
 
     .line 10
     .line 11
     const/4 v1, 0x0
 
     .line 12
-    invoke-virtual {v0, v1}, Ljava/nio/ByteBuffer;
-    ->position(I)Ljava/nio/Buffer;
+    invoke-virtual {v0, v1}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
     .line 13
     .line 14
     .line 15
-    iget-object v0, p0, Lr/k;
-    ->c:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Lr/k;->c:Ljava/nio/ByteBuffer;
 
     .line 16
     .line 17
-    invoke-virtual {p2}, Ljava/lang/Long;
-    ->longValue()J
+    invoke-virtual {p2}, Ljava/lang/Long;->longValue()J
 
     .line 18
     .line 19
@@ -157,8 +137,7 @@
     move-result-wide v1
 
     .line 21
-    invoke-virtual {v0, v1, v2}, Ljava/nio/ByteBuffer;
-    ->putLong(J)Ljava/nio/ByteBuffer;
+    invoke-virtual {v0, v1, v2}, Ljava/nio/ByteBuffer;->putLong(J)Ljava/nio/ByteBuffer;
 
     .line 22
     .line 23
@@ -166,8 +145,7 @@
     move-result-object p2
 
     .line 25
-    invoke-virtual {p2}, Ljava/nio/ByteBuffer;
-    ->array()[B
+    invoke-virtual {p2}, Ljava/nio/ByteBuffer;->array()[B
 
     .line 26
     .line 27
@@ -175,8 +153,7 @@
     move-result-object p2
 
     .line 29
-    invoke-virtual {p3, p2}, Ljava/security/MessageDigest;
-    ->update([B)V
+    invoke-virtual {p3, p2}, Ljava/security/MessageDigest;->update([B)V
 
     .line 30
     .line 31
@@ -285,13 +262,11 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lr/k;
-    ->c:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Lr/k;->c:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/nio/Buffer;
-    ->remaining()I
+    invoke-virtual {v0}, Ljava/nio/Buffer;->remaining()I
 
     .line 4
     .line 5
@@ -306,8 +281,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {v0}, Ljava/nio/ByteBuffer;
-    ->get()B
+    invoke-virtual {v0}, Ljava/nio/ByteBuffer;->get()B
 
     .line 11
     .line 12
@@ -329,8 +303,7 @@
 
     .line 19
     .line 20
-    invoke-direct {v0}, Lr/l;
-    -><init>()V
+    invoke-direct {v0}, Lr/l;-><init>()V
 
     .line 21
     .line 22
@@ -411,8 +384,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Lr/k;
-    ->a()S
+    invoke-virtual {p0}, Lr/k;->a()S
 
     .line 2
     .line 3
@@ -424,8 +396,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Lr/k;
-    ->a()S
+    invoke-virtual {p0}, Lr/k;->a()S
 
     .line 8
     .line 9
@@ -442,16 +413,14 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lr/k;
-    ->c:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Lr/k;->c:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
     const/4 v1, 0x0
 
     .line 4
-    invoke-virtual {v0, v1}, Ljava/nio/ByteBuffer;
-    ->position(I)Ljava/nio/Buffer;
+    invoke-virtual {v0, v1}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
     .line 5
     .line 6
@@ -463,8 +432,7 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Lr/k;
-    ->b:I
+    iget v0, p0, Lr/k;->b:I
 
     .line 2
     .line 3
@@ -485,14 +453,12 @@
 
     .line 11
     :cond_0
-    invoke-virtual {p3, p1}, Ljava/security/MessageDigest;
-    ->update([B)V
+    invoke-virtual {p3, p1}, Ljava/security/MessageDigest;->update([B)V
 
     .line 12
     .line 13
     .line 14
-    iget-object v0, p0, Lr/k;
-    ->c:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Lr/k;->c:Ljava/nio/ByteBuffer;
 
     .line 15
     .line 16
@@ -500,27 +466,23 @@
 
     .line 17
     :try_start_0
-    iget-object p1, p0, Lr/k;
-    ->c:Ljava/nio/ByteBuffer;
+    iget-object p1, p0, Lr/k;->c:Ljava/nio/ByteBuffer;
 
     .line 18
     .line 19
     const/4 v1, 0x0
 
     .line 20
-    invoke-virtual {p1, v1}, Ljava/nio/ByteBuffer;
-    ->position(I)Ljava/nio/Buffer;
+    invoke-virtual {p1, v1}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
     .line 21
     .line 22
     .line 23
-    iget-object p1, p0, Lr/k;
-    ->c:Ljava/nio/ByteBuffer;
+    iget-object p1, p0, Lr/k;->c:Ljava/nio/ByteBuffer;
 
     .line 24
     .line 25
-    invoke-virtual {p2}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
 
     .line 26
     .line 27
@@ -528,8 +490,7 @@
     move-result p2
 
     .line 29
-    invoke-virtual {p1, p2}, Ljava/nio/ByteBuffer;
-    ->putInt(I)Ljava/nio/ByteBuffer;
+    invoke-virtual {p1, p2}, Ljava/nio/ByteBuffer;->putInt(I)Ljava/nio/ByteBuffer;
 
     .line 30
     .line 31
@@ -537,8 +498,7 @@
     move-result-object p1
 
     .line 33
-    invoke-virtual {p1}, Ljava/nio/ByteBuffer;
-    ->array()[B
+    invoke-virtual {p1}, Ljava/nio/ByteBuffer;->array()[B
 
     .line 34
     .line 35
@@ -546,8 +506,7 @@
     move-result-object p1
 
     .line 37
-    invoke-virtual {p3, p1}, Ljava/security/MessageDigest;
-    ->update([B)V
+    invoke-virtual {p3, p1}, Ljava/security/MessageDigest;->update([B)V
 
     .line 38
     .line 39
@@ -572,8 +531,7 @@
 
     .line 45
     :pswitch_0
-    invoke-direct {p0, p1, p2, p3}, Lr/k;
-    ->f([BLjava/lang/Object;Ljava/security/MessageDigest;)V
+    invoke-direct {p0, p1, p2, p3}, Lr/k;->f([BLjava/lang/Object;Ljava/security/MessageDigest;)V
 
     .line 46
     .line 47
@@ -659,13 +617,11 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lr/k;
-    ->c:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Lr/k;->c:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/nio/Buffer;
-    ->remaining()I
+    invoke-virtual {v0}, Ljava/nio/Buffer;->remaining()I
 
     .line 4
     .line 5
@@ -676,8 +632,7 @@
     int-to-long v1, v1
 
     .line 8
-    invoke-static {v1, v2, p1, p2}, Ljava/lang/Math;
-    ->min(JJ)J
+    invoke-static {v1, v2, p1, p2}, Ljava/lang/Math;->min(JJ)J
 
     .line 9
     .line 10
@@ -688,8 +643,7 @@
     long-to-int p2, p1
 
     .line 13
-    invoke-virtual {v0}, Ljava/nio/Buffer;
-    ->position()I
+    invoke-virtual {v0}, Ljava/nio/Buffer;->position()I
 
     .line 14
     .line 15
@@ -700,8 +654,7 @@
     add-int/2addr p1, p2
 
     .line 18
-    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;
-    ->position(I)Ljava/nio/Buffer;
+    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
     .line 19
     .line 20

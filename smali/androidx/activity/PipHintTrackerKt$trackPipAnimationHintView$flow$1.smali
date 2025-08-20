@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/activity/PipHintTrackerKt;
-    ->trackPipAnimationHintView(Landroid/app/Activity;Landroid/view/View;Lg1/d;)Ljava/lang/Object;
+    value = Landroidx/activity/PipHintTrackerKt;->trackPipAnimationHintView(Landroid/app/Activity;Landroid/view/View;Lg1/d;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -57,16 +56,14 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;
-    ->$view:Landroid/view/View;
+    iput-object p1, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;->$view:Landroid/view/View;
 
     .line 2
     .line 3
     const/4 p1, 0x2
 
     .line 4
-    invoke-direct {p0, p1, p2}, Li1/i;
-    -><init>(ILg1/d;)V
+    invoke-direct {p0, p1, p2}, Li1/i;-><init>(ILg1/d;)V
 return-void
 .end method
 
@@ -74,8 +71,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static/range {p0 .. p9}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;
-    ->invokeSuspend$lambda$0(LB1/r;Landroid/view/View;IIIIIIII)V
+    invoke-static/range {p0 .. p9}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;->invokeSuspend$lambda$0(LB1/r;Landroid/view/View;IIIIIIII)V
 
     return-void
 .end method
@@ -84,8 +80,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;
-    ->invokeSuspend$lambda$1(LB1/r;Landroid/view/View;)V
+    invoke-static {p0, p1}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;->invokeSuspend$lambda$1(LB1/r;Landroid/view/View;)V
 
     return-void
 .end method
@@ -119,8 +114,7 @@ return-void
     .line 11
     :cond_1
     :goto_0
-    invoke-static {p1}, Landroidx/activity/PipHintTrackerKt;
-    ->access$trackPipAnimationHintView$positionInWindow(Landroid/view/View;)Landroid/graphics/Rect;
+    invoke-static {p1}, Landroidx/activity/PipHintTrackerKt;->access$trackPipAnimationHintView$positionInWindow(Landroid/view/View;)Landroid/graphics/Rect;
 
     .line 12
     .line 13
@@ -132,8 +126,7 @@ return-void
 
     .line 16
     .line 17
-    invoke-virtual {p0, p1}, LB1/q;
-    ->h(Ljava/lang/Object;)Ljava/lang/Object;    
+    invoke-virtual {p0, p1}, LB1/q;->h(Ljava/lang/Object;)Ljava/lang/Object;
     return-void
 .end method
 
@@ -141,8 +134,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p1}, Landroidx/activity/PipHintTrackerKt;
-    ->access$trackPipAnimationHintView$positionInWindow(Landroid/view/View;)Landroid/graphics/Rect;
+    invoke-static {p1}, Landroidx/activity/PipHintTrackerKt;->access$trackPipAnimationHintView$positionInWindow(Landroid/view/View;)Landroid/graphics/Rect;
 
     .line 2
     .line 3
@@ -154,8 +146,7 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {p0, p1}, LB1/q;
-    ->h(Ljava/lang/Object;)Ljava/lang/Object;    
+    invoke-virtual {p0, p1}, LB1/q;->h(Ljava/lang/Object;)Ljava/lang/Object;
     return-void
 .end method
 
@@ -180,19 +171,16 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;
-    ->$view:Landroid/view/View;
+    iget-object v1, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;->$view:Landroid/view/View;
 
     .line 4
     .line 5
-    invoke-direct {v0, v1, p2}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;
-    -><init>(Landroid/view/View;Lg1/d;)V
+    invoke-direct {v0, v1, p2}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;-><init>(Landroid/view/View;Lg1/d;)V
 
     .line 6
     .line 7
     .line 8
-    iput-object p1, v0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;
-    ->L$0:Ljava/lang/Object;    
+    iput-object p1, v0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;->L$0:Ljava/lang/Object;
     return-object v0
 .end method
 
@@ -211,18 +199,15 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;
-    ->create(Ljava/lang/Object;Lg1/d;)Lg1/d;
+    invoke-virtual {p0, p1, p2}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;->create(Ljava/lang/Object;Lg1/d;)Lg1/d;
 
     move-result-object p1
 
     check-cast p1, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;
 
-    sget-object p2, Lc1/v;
-    ->a:Lc1/v;
+    sget-object p2, Lc1/v;->a:Lc1/v;
 
-    invoke-virtual {p1, p2}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;
-    ->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -237,8 +222,7 @@ return-void
 
     check-cast p2, Lg1/d;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;
-    ->invoke(LB1/r;Lg1/d;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;->invoke(LB1/r;Lg1/d;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -249,13 +233,11 @@ return-void
     .locals 7
 
     .line 1
-    sget-object v0, Lh1/a;
-    ->b:Lh1/a;
+    sget-object v0, Lh1/a;->b:Lh1/a;
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;
-    ->label:I
+    iget v1, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;->label:I
 
     .line 4
     .line 5
@@ -270,8 +252,7 @@ return-void
 
     .line 9
     .line 10
-    invoke-static {p1}, Lcom/bumptech/glide/b;
-    ->c0(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
 
     .line 11
     .line 12
@@ -288,8 +269,7 @@ return-void
 
     .line 17
     .line 18
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -298,14 +278,12 @@ return-void
 
     .line 22
     :cond_1
-    invoke-static {p1}, Lcom/bumptech/glide/b;
-    ->c0(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
 
     .line 23
     .line 24
     .line 25
-    iget-object p1, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;
-    ->L$0:Ljava/lang/Object;
+    iget-object p1, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;->L$0:Ljava/lang/Object;
 
     .line 26
     .line 27
@@ -317,14 +295,12 @@ return-void
 
     .line 30
     .line 31
-    invoke-direct {v1, p1}, Landroidx/activity/h;
-    -><init>(LB1/r;)V
+    invoke-direct {v1, p1}, Landroidx/activity/h;-><init>(LB1/r;)V
 
     .line 32
     .line 33
     .line 34
-    iget-object v3, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;
-    ->$view:Landroid/view/View;
+    iget-object v3, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;->$view:Landroid/view/View;
 
     .line 35
     .line 36
@@ -332,8 +308,7 @@ return-void
 
     .line 37
     .line 38
-    invoke-direct {v4, p1, v3}, Landroidx/activity/i;
-    -><init>(LB1/r;Landroid/view/View;)V
+    invoke-direct {v4, p1, v3}, Landroidx/activity/i;-><init>(LB1/r;Landroid/view/View;)V
 
     .line 39
     .line 40
@@ -342,24 +317,20 @@ return-void
 
     .line 42
     .line 43
-    invoke-direct {v5, p1, v3, v4, v1}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$attachStateChangeListener$1;
-    -><init>(LB1/r;Landroid/view/View;Landroid/view/ViewTreeObserver$OnScrollChangedListener;Landroid/view/View$OnLayoutChangeListener;)V
+    invoke-direct {v5, p1, v3, v4, v1}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$attachStateChangeListener$1;-><init>(LB1/r;Landroid/view/View;Landroid/view/ViewTreeObserver$OnScrollChangedListener;Landroid/view/View$OnLayoutChangeListener;)V
 
     .line 44
     .line 45
     .line 46
-    sget-object v3, Landroidx/activity/Api19Impl;
-    ->INSTANCE:Landroidx/activity/Api19Impl;
+    sget-object v3, Landroidx/activity/Api19Impl;->INSTANCE:Landroidx/activity/Api19Impl;
 
     .line 47
     .line 48
-    iget-object v6, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;
-    ->$view:Landroid/view/View;
+    iget-object v6, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;->$view:Landroid/view/View;
 
     .line 49
     .line 50
-    invoke-virtual {v3, v6}, Landroidx/activity/Api19Impl;
-    ->isAttachedToWindow(Landroid/view/View;)Z
+    invoke-virtual {v3, v6}, Landroidx/activity/Api19Impl;->isAttachedToWindow(Landroid/view/View;)Z
 
     .line 51
     .line 52
@@ -371,13 +342,11 @@ return-void
 
     .line 55
     .line 56
-    iget-object v3, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;
-    ->$view:Landroid/view/View;
+    iget-object v3, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;->$view:Landroid/view/View;
 
     .line 57
     .line 58
-    invoke-static {v3}, Landroidx/activity/PipHintTrackerKt;
-    ->access$trackPipAnimationHintView$positionInWindow(Landroid/view/View;)Landroid/graphics/Rect;
+    invoke-static {v3}, Landroidx/activity/PipHintTrackerKt;->access$trackPipAnimationHintView$positionInWindow(Landroid/view/View;)Landroid/graphics/Rect;
 
     .line 59
     .line 60
@@ -392,19 +361,16 @@ return-void
 
     .line 64
     .line 65
-    invoke-virtual {v6, v3}, LB1/q;
-    ->h(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v6, v3}, LB1/q;->h(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 66
     .line 67
     .line 68
-    iget-object v3, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;
-    ->$view:Landroid/view/View;
+    iget-object v3, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;->$view:Landroid/view/View;
 
     .line 69
     .line 70
-    invoke-virtual {v3}, Landroid/view/View;
-    ->getViewTreeObserver()Landroid/view/ViewTreeObserver;
+    invoke-virtual {v3}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
 
     .line 71
     .line 72
@@ -412,31 +378,26 @@ return-void
     move-result-object v3
 
     .line 74
-    invoke-virtual {v3, v4}, Landroid/view/ViewTreeObserver;
-    ->addOnScrollChangedListener(Landroid/view/ViewTreeObserver$OnScrollChangedListener;)V
+    invoke-virtual {v3, v4}, Landroid/view/ViewTreeObserver;->addOnScrollChangedListener(Landroid/view/ViewTreeObserver$OnScrollChangedListener;)V
 
     .line 75
     .line 76
     .line 77
-    iget-object v3, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;
-    ->$view:Landroid/view/View;
+    iget-object v3, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;->$view:Landroid/view/View;
 
     .line 78
     .line 79
-    invoke-virtual {v3, v1}, Landroid/view/View;
-    ->addOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V
+    invoke-virtual {v3, v1}, Landroid/view/View;->addOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V
 
     .line 80
     .line 81
     .line 82
     :cond_2
-    iget-object v3, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;
-    ->$view:Landroid/view/View;
+    iget-object v3, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;->$view:Landroid/view/View;
 
     .line 83
     .line 84
-    invoke-virtual {v3, v5}, Landroid/view/View;
-    ->addOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V
+    invoke-virtual {v3, v5}, Landroid/view/View;->addOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V
 
     .line 85
     .line 86
@@ -445,24 +406,20 @@ return-void
 
     .line 88
     .line 89
-    iget-object v6, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;
-    ->$view:Landroid/view/View;
+    iget-object v6, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;->$view:Landroid/view/View;
 
     .line 90
     .line 91
-    invoke-direct {v3, v6, v4, v1, v5}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$1;
-    -><init>(Landroid/view/View;Landroid/view/ViewTreeObserver$OnScrollChangedListener;Landroid/view/View$OnLayoutChangeListener;Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$attachStateChangeListener$1;)V
+    invoke-direct {v3, v6, v4, v1, v5}, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$1;-><init>(Landroid/view/View;Landroid/view/ViewTreeObserver$OnScrollChangedListener;Landroid/view/View$OnLayoutChangeListener;Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1$attachStateChangeListener$1;)V
 
     .line 92
     .line 93
     .line 94
-    iput v2, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;
-    ->label:I
+    iput v2, p0, Landroidx/activity/PipHintTrackerKt$trackPipAnimationHintView$flow$1;->label:I
 
     .line 95
     .line 96
-    invoke-static {p1, v3, p0}, Lcom/bumptech/glide/b;
-    ->c(LB1/r;Lp1/a;Li1/c;)Ljava/lang/Object;
+    invoke-static {p1, v3, p0}, Lcom/bumptech/glide/b;->c(LB1/r;Lp1/a;Li1/c;)Ljava/lang/Object;
 
     .line 97
     .line 98
@@ -475,8 +432,7 @@ return-void
     .line 103
     :cond_3
     :goto_0
-    sget-object p1, Lc1/v;
-    ->a:Lc1/v;    return-object p1
+    sget-object p1, Lc1/v;->a:Lc1/v;    return-object p1
 .end method
 
 .end class

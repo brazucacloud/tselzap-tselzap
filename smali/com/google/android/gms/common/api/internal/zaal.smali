@@ -19,8 +19,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -29,24 +28,20 @@
 
     .line 5
     .line 6
-    invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;
-    -><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/zaal;
-    ->zaa:Ljava/lang/ref/WeakReference;
+    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/zaal;->zaa:Ljava/lang/ref/WeakReference;
 
     .line 10
     .line 11
-    iput-object p2, p0, Lcom/google/android/gms/common/api/internal/zaal;
-    ->zab:Lcom/google/android/gms/common/api/Api;
+    iput-object p2, p0, Lcom/google/android/gms/common/api/internal/zaal;->zab:Lcom/google/android/gms/common/api/Api;
 
     .line 12
     .line 13
-    iput-boolean p3, p0, Lcom/google/android/gms/common/api/internal/zaal;
-    ->zac:Z
+    iput-boolean p3, p0, Lcom/google/android/gms/common/api/internal/zaal;->zac:Z
 
     .line 14
     .line 15
@@ -56,8 +51,7 @@
 .method public static bridge synthetic zaa(Lcom/google/android/gms/common/api/internal/zaal;)Z
     .locals 0
 
-    iget-boolean p0, p0, Lcom/google/android/gms/common/api/internal/zaal;
-    ->zac:Z
+    iget-boolean p0, p0, Lcom/google/android/gms/common/api/internal/zaal;->zac:Z
 
     return p0
 .end method
@@ -72,13 +66,11 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaal;
-    ->zaa:Ljava/lang/ref/WeakReference;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaal;->zaa:Ljava/lang/ref/WeakReference;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -98,8 +90,7 @@
 
     .line 12
     :cond_0
-    invoke-static {}, Landroid/os/Looper;
-    ->myLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
     .line 13
     .line 14
@@ -107,8 +98,7 @@
     move-result-object v1
 
     .line 16
-    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zaaw;
-    ->zak(Lcom/google/android/gms/common/api/internal/zaaw;)Lcom/google/android/gms/common/api/internal/zabi;
+    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zaaw;->zak(Lcom/google/android/gms/common/api/internal/zaaw;)Lcom/google/android/gms/common/api/internal/zabi;
 
     .line 17
     .line 18
@@ -116,13 +106,11 @@
     move-result-object v2
 
     .line 20
-    iget-object v2, v2, Lcom/google/android/gms/common/api/internal/zabi;
-    ->zag:Lcom/google/android/gms/common/api/internal/zabe;
+    iget-object v2, v2, Lcom/google/android/gms/common/api/internal/zabi;->zag:Lcom/google/android/gms/common/api/internal/zabe;
 
     .line 21
     .line 22
-    invoke-virtual {v2}, Lcom/google/android/gms/common/api/internal/zabe;
-    ->getLooper()Landroid/os/Looper;
+    invoke-virtual {v2}, Lcom/google/android/gms/common/api/internal/zabe;->getLooper()Landroid/os/Looper;
 
     .line 23
     .line 24
@@ -152,14 +140,12 @@
 
     .line 33
     .line 34
-    invoke-static {v1, v2}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkState(ZLjava/lang/Object;)V
+    invoke-static {v1, v2}, Lcom/google/android/gms/common/internal/Preconditions;->checkState(ZLjava/lang/Object;)V
 
     .line 35
     .line 36
     .line 37
-    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zaaw;
-    ->zap(Lcom/google/android/gms/common/api/internal/zaaw;)Ljava/util/concurrent/locks/Lock;
+    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zaaw;->zap(Lcom/google/android/gms/common/api/internal/zaaw;)Ljava/util/concurrent/locks/Lock;
 
     .line 38
     .line 39
@@ -167,15 +153,13 @@
     move-result-object v1
 
     .line 41
-    invoke-interface {v1}, Ljava/util/concurrent/locks/Lock;
-    ->lock()V
+    invoke-interface {v1}, Ljava/util/concurrent/locks/Lock;->lock()V
 
     .line 42
     .line 43
     .line 44
     :try_start_0
-    invoke-static {v0, v3}, Lcom/google/android/gms/common/api/internal/zaaw;
-    ->zaw(Lcom/google/android/gms/common/api/internal/zaaw;I)Z
+    invoke-static {v0, v3}, Lcom/google/android/gms/common/api/internal/zaaw;->zaw(Lcom/google/android/gms/common/api/internal/zaaw;I)Z
 
     .line 45
     .line 46
@@ -191,8 +175,7 @@
 
     .line 51
     :cond_2
-    invoke-virtual {p1}, Lcom/google/android/gms/common/ConnectionResult;
-    ->isSuccess()Z
+    invoke-virtual {p1}, Lcom/google/android/gms/common/ConnectionResult;->isSuccess()Z
 
     .line 52
     .line 53
@@ -204,18 +187,15 @@
 
     .line 56
     .line 57
-    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/zaal;
-    ->zab:Lcom/google/android/gms/common/api/Api;
+    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/zaal;->zab:Lcom/google/android/gms/common/api/Api;
 
     .line 58
     .line 59
-    iget-boolean v2, p0, Lcom/google/android/gms/common/api/internal/zaal;
-    ->zac:Z
+    iget-boolean v2, p0, Lcom/google/android/gms/common/api/internal/zaal;->zac:Z
 
     .line 60
     .line 61
-    invoke-static {v0, p1, v1, v2}, Lcom/google/android/gms/common/api/internal/zaaw;
-    ->zat(Lcom/google/android/gms/common/api/internal/zaaw;Lcom/google/android/gms/common/ConnectionResult;Lcom/google/android/gms/common/api/Api;Z)V
+    invoke-static {v0, p1, v1, v2}, Lcom/google/android/gms/common/api/internal/zaaw;->zat(Lcom/google/android/gms/common/api/internal/zaaw;Lcom/google/android/gms/common/ConnectionResult;Lcom/google/android/gms/common/api/Api;Z)V
 
     .line 62
     .line 63
@@ -232,8 +212,7 @@
     .line 67
     :cond_3
     :goto_1
-    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zaaw;
-    ->zax(Lcom/google/android/gms/common/api/internal/zaaw;)Z
+    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zaaw;->zax(Lcom/google/android/gms/common/api/internal/zaaw;)Z
 
     .line 68
     .line 69
@@ -245,8 +224,7 @@
 
     .line 72
     .line 73
-    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zaaw;
-    ->zau(Lcom/google/android/gms/common/api/internal/zaaw;)V
+    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zaaw;->zau(Lcom/google/android/gms/common/api/internal/zaaw;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -255,8 +233,7 @@
     .line 76
     :cond_4
     :goto_2
-    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zaaw;
-    ->zap(Lcom/google/android/gms/common/api/internal/zaaw;)Ljava/util/concurrent/locks/Lock;
+    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zaaw;->zap(Lcom/google/android/gms/common/api/internal/zaaw;)Ljava/util/concurrent/locks/Lock;
 
     .line 77
     .line 78
@@ -264,8 +241,7 @@
     move-result-object p1
 
     .line 80
-    invoke-interface {p1}, Ljava/util/concurrent/locks/Lock;
-    ->unlock()V
+    invoke-interface {p1}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
     .line 81
     .line 82
@@ -274,8 +250,7 @@
 
     .line 84
     :goto_3
-    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zaaw;
-    ->zap(Lcom/google/android/gms/common/api/internal/zaaw;)Ljava/util/concurrent/locks/Lock;
+    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zaaw;->zap(Lcom/google/android/gms/common/api/internal/zaaw;)Ljava/util/concurrent/locks/Lock;
 
     .line 85
     .line 86
@@ -283,8 +258,7 @@
     move-result-object v0
 
     .line 88
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
-    ->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
     .line 89
     .line 90

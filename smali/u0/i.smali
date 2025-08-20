@@ -16,8 +16,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, LA/d;
-    ->c(ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v0}, LA/d;->c(ILjava/lang/String;)Ljava/lang/String;
 
     .line 4
     .line 5
@@ -25,14 +24,12 @@
     move-result-object v0
 
     .line 7
-    invoke-direct {p0, v0}, Landroidx/dynamicanimation/animation/FloatPropertyCompat;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Landroidx/dynamicanimation/animation/FloatPropertyCompat;-><init>(Ljava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    iput p1, p0, Lu0/i;
-    ->a:I
+    iput p1, p0, Lu0/i;->a:I
 
     .line 11
     .line 12
@@ -49,8 +46,7 @@
 
     .line 2
     .line 3
-    iget-object p1, p1, Lu0/j;
-    ->D:[F
+    iget-object p1, p1, Lu0/j;->D:[F
 
     .line 4
     .line 5
@@ -58,8 +54,7 @@
 
     .line 6
     .line 7
-    iget v0, p0, Lu0/i;
-    ->a:I
+    iget v0, p0, Lu0/i;->a:I
 
     .line 8
     .line 9
@@ -84,8 +79,7 @@
 
     .line 2
     .line 3
-    iget-object v0, p1, Lu0/j;
-    ->D:[F
+    iget-object v0, p1, Lu0/j;->D:[F
 
     .line 4
     .line 5
@@ -93,8 +87,7 @@
 
     .line 6
     .line 7
-    iget v1, p0, Lu0/i;
-    ->a:I
+    iget v1, p0, Lu0/i;->a:I
 
     .line 8
     .line 9
@@ -102,8 +95,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Lu0/j;
-    ->invalidateSelf()V
+    invoke-virtual {p1}, Lu0/j;->invalidateSelf()V
 
     .line 12
     .line 13

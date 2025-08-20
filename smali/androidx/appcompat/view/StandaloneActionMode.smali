@@ -9,8 +9,7 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -44,24 +43,20 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/appcompat/view/ActionMode;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/appcompat/view/ActionMode;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/appcompat/view/StandaloneActionMode;
-    ->mContext:Landroid/content/Context;
+    iput-object p1, p0, Landroidx/appcompat/view/StandaloneActionMode;->mContext:Landroid/content/Context;
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/appcompat/view/StandaloneActionMode;
-    ->mContextView:Landroidx/appcompat/widget/ActionBarContextView;
+    iput-object p2, p0, Landroidx/appcompat/view/StandaloneActionMode;->mContextView:Landroidx/appcompat/widget/ActionBarContextView;
 
     .line 7
     .line 8
-    iput-object p3, p0, Landroidx/appcompat/view/StandaloneActionMode;
-    ->mCallback:Landroidx/appcompat/view/ActionMode$Callback;
+    iput-object p3, p0, Landroidx/appcompat/view/StandaloneActionMode;->mCallback:Landroidx/appcompat/view/ActionMode$Callback;
 
     .line 9
     .line 10
@@ -69,8 +64,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {p2}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p2}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 13
     .line 14
@@ -78,8 +72,7 @@
     move-result-object p2
 
     .line 16
-    invoke-direct {p1, p2}, Landroidx/appcompat/view/menu/MenuBuilder;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {p1, p2}, Landroidx/appcompat/view/menu/MenuBuilder;-><init>(Landroid/content/Context;)V
 
     .line 17
     .line 18
@@ -87,8 +80,7 @@
     const/4 p2, 0x1
 
     .line 20
-    invoke-virtual {p1, p2}, Landroidx/appcompat/view/menu/MenuBuilder;
-    ->setDefaultShowAsAction(I)Landroidx/appcompat/view/menu/MenuBuilder;
+    invoke-virtual {p1, p2}, Landroidx/appcompat/view/menu/MenuBuilder;->setDefaultShowAsAction(I)Landroidx/appcompat/view/menu/MenuBuilder;
 
     .line 21
     .line 22
@@ -96,19 +88,16 @@
     move-result-object p1
 
     .line 24
-    iput-object p1, p0, Landroidx/appcompat/view/StandaloneActionMode;
-    ->mMenu:Landroidx/appcompat/view/menu/MenuBuilder;
+    iput-object p1, p0, Landroidx/appcompat/view/StandaloneActionMode;->mMenu:Landroidx/appcompat/view/menu/MenuBuilder;
 
     .line 25
     .line 26
-    invoke-virtual {p1, p0}, Landroidx/appcompat/view/menu/MenuBuilder;
-    ->setCallback(Landroidx/appcompat/view/menu/MenuBuilder$Callback;)V
+    invoke-virtual {p1, p0}, Landroidx/appcompat/view/menu/MenuBuilder;->setCallback(Landroidx/appcompat/view/menu/MenuBuilder$Callback;)V
 
     .line 27
     .line 28
     .line 29
-    iput-boolean p4, p0, Landroidx/appcompat/view/StandaloneActionMode;
-    ->mFocusable:Z
+    iput-boolean p4, p0, Landroidx/appcompat/view/StandaloneActionMode;->mFocusable:Z
 return-void
 .end method
 
@@ -118,8 +107,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/appcompat/view/StandaloneActionMode;
-    ->mFinished:Z
+    iget-boolean v0, p0, Landroidx/appcompat/view/StandaloneActionMode;->mFinished:Z
 
     .line 2
     .line 3
@@ -130,18 +118,15 @@ return-void
     const/4 v0, 0x1
 
     .line 7
-    iput-boolean v0, p0, Landroidx/appcompat/view/StandaloneActionMode;
-    ->mFinished:Z
+    iput-boolean v0, p0, Landroidx/appcompat/view/StandaloneActionMode;->mFinished:Z
 
     .line 8
     .line 9
-    iget-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;
-    ->mCallback:Landroidx/appcompat/view/ActionMode$Callback;
+    iget-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;->mCallback:Landroidx/appcompat/view/ActionMode$Callback;
 
     .line 10
     .line 11
-    invoke-interface {v0, p0}, Landroidx/appcompat/view/ActionMode$Callback;
-    ->onDestroyActionMode(Landroidx/appcompat/view/ActionMode;)V
+    invoke-interface {v0, p0}, Landroidx/appcompat/view/ActionMode$Callback;->onDestroyActionMode(Landroidx/appcompat/view/ActionMode;)V
 return-void
 .end method
 
@@ -149,8 +134,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;
-    ->mCustomView:Ljava/lang/ref/WeakReference;
+    iget-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;->mCustomView:Ljava/lang/ref/WeakReference;
 
     .line 2
     .line 3
@@ -158,8 +142,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -180,8 +163,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;
-    ->mMenu:Landroidx/appcompat/view/menu/MenuBuilder;    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;->mMenu:Landroidx/appcompat/view/menu/MenuBuilder;    return-object v0
 .end method
 
 .method public getMenuInflater()Landroid/view/MenuInflater;
@@ -192,13 +174,11 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/appcompat/view/StandaloneActionMode;
-    ->mContextView:Landroidx/appcompat/widget/ActionBarContextView;
+    iget-object v1, p0, Landroidx/appcompat/view/StandaloneActionMode;->mContextView:Landroidx/appcompat/widget/ActionBarContextView;
 
     .line 4
     .line 5
-    invoke-virtual {v1}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {v1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 6
     .line 7
@@ -206,8 +186,7 @@ return-void
     move-result-object v1
 
     .line 9
-    invoke-direct {v0, v1}, Landroidx/appcompat/view/SupportMenuInflater;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Landroidx/appcompat/view/SupportMenuInflater;-><init>(Landroid/content/Context;)V
     return-object v0
 .end method
 
@@ -215,13 +194,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;
-    ->mContextView:Landroidx/appcompat/widget/ActionBarContextView;
+    iget-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;->mContextView:Landroidx/appcompat/widget/ActionBarContextView;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/widget/ActionBarContextView;
-    ->getSubtitle()Ljava/lang/CharSequence;
+    invoke-virtual {v0}, Landroidx/appcompat/widget/ActionBarContextView;->getSubtitle()Ljava/lang/CharSequence;
 
     .line 4
     .line 5
@@ -235,13 +212,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;
-    ->mContextView:Landroidx/appcompat/widget/ActionBarContextView;
+    iget-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;->mContextView:Landroidx/appcompat/widget/ActionBarContextView;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/widget/ActionBarContextView;
-    ->getTitle()Ljava/lang/CharSequence;
+    invoke-virtual {v0}, Landroidx/appcompat/widget/ActionBarContextView;->getTitle()Ljava/lang/CharSequence;
 
     .line 4
     .line 5
@@ -255,18 +230,15 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;
-    ->mCallback:Landroidx/appcompat/view/ActionMode$Callback;
+    iget-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;->mCallback:Landroidx/appcompat/view/ActionMode$Callback;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/appcompat/view/StandaloneActionMode;
-    ->mMenu:Landroidx/appcompat/view/menu/MenuBuilder;
+    iget-object v1, p0, Landroidx/appcompat/view/StandaloneActionMode;->mMenu:Landroidx/appcompat/view/menu/MenuBuilder;
 
     .line 4
     .line 5
-    invoke-interface {v0, p0, v1}, Landroidx/appcompat/view/ActionMode$Callback;
-    ->onPrepareActionMode(Landroidx/appcompat/view/ActionMode;Landroid/view/Menu;)Z    
+    invoke-interface {v0, p0, v1}, Landroidx/appcompat/view/ActionMode$Callback;->onPrepareActionMode(Landroidx/appcompat/view/ActionMode;Landroid/view/Menu;)Z
     return-void
 .end method
 
@@ -274,13 +246,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;
-    ->mContextView:Landroidx/appcompat/widget/ActionBarContextView;
+    iget-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;->mContextView:Landroidx/appcompat/widget/ActionBarContextView;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/widget/ActionBarContextView;
-    ->isTitleOptional()Z
+    invoke-virtual {v0}, Landroidx/appcompat/widget/ActionBarContextView;->isTitleOptional()Z
 
     .line 4
     .line 5
@@ -294,8 +264,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/appcompat/view/StandaloneActionMode;
-    ->mFocusable:Z    return v0
+    iget-boolean v0, p0, Landroidx/appcompat/view/StandaloneActionMode;->mFocusable:Z    return v0
 .end method
 
 .method public onCloseMenu(Landroidx/appcompat/view/menu/MenuBuilder;Z)V
@@ -322,13 +291,11 @@ return-void
     .end param
 
     .line 1
-    iget-object p1, p0, Landroidx/appcompat/view/StandaloneActionMode;
-    ->mCallback:Landroidx/appcompat/view/ActionMode$Callback;
+    iget-object p1, p0, Landroidx/appcompat/view/StandaloneActionMode;->mCallback:Landroidx/appcompat/view/ActionMode$Callback;
 
     .line 2
     .line 3
-    invoke-interface {p1, p0, p2}, Landroidx/appcompat/view/ActionMode$Callback;
-    ->onActionItemClicked(Landroidx/appcompat/view/ActionMode;Landroid/view/MenuItem;)Z
+    invoke-interface {p1, p0, p2}, Landroidx/appcompat/view/ActionMode$Callback;->onActionItemClicked(Landroidx/appcompat/view/ActionMode;Landroid/view/MenuItem;)Z
 
     .line 4
     .line 5
@@ -346,19 +313,16 @@ return-void
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroidx/appcompat/view/StandaloneActionMode;
-    ->invalidate()V
+    invoke-virtual {p0}, Landroidx/appcompat/view/StandaloneActionMode;->invalidate()V
 
     .line 2
     .line 3
     .line 4
-    iget-object p1, p0, Landroidx/appcompat/view/StandaloneActionMode;
-    ->mContextView:Landroidx/appcompat/widget/ActionBarContextView;
+    iget-object p1, p0, Landroidx/appcompat/view/StandaloneActionMode;->mContextView:Landroidx/appcompat/widget/ActionBarContextView;
 
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroidx/appcompat/widget/ActionBarContextView;
-    ->showOverflowMenu()Z    
+    invoke-virtual {p1}, Landroidx/appcompat/widget/ActionBarContextView;->showOverflowMenu()Z
     return-void
 .end method
 
@@ -366,8 +330,7 @@ return-void
     .locals 3
 
     .line 1
-    invoke-virtual {p1}, Landroidx/appcompat/view/menu/MenuBuilder;
-    ->hasVisibleItems()Z
+    invoke-virtual {p1}, Landroidx/appcompat/view/menu/MenuBuilder;->hasVisibleItems()Z
 
     .line 2
     .line 3
@@ -386,13 +349,11 @@ return-void
 
     .line 10
     .line 11
-    iget-object v2, p0, Landroidx/appcompat/view/StandaloneActionMode;
-    ->mContextView:Landroidx/appcompat/widget/ActionBarContextView;
+    iget-object v2, p0, Landroidx/appcompat/view/StandaloneActionMode;->mContextView:Landroidx/appcompat/widget/ActionBarContextView;
 
     .line 12
     .line 13
-    invoke-virtual {v2}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {v2}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 14
     .line 15
@@ -400,14 +361,12 @@ return-void
     move-result-object v2
 
     .line 17
-    invoke-direct {v0, v2, p1}, Landroidx/appcompat/view/menu/MenuPopupHelper;
-    -><init>(Landroid/content/Context;Landroidx/appcompat/view/menu/MenuBuilder;)V
+    invoke-direct {v0, v2, p1}, Landroidx/appcompat/view/menu/MenuPopupHelper;-><init>(Landroid/content/Context;Landroidx/appcompat/view/menu/MenuBuilder;)V
 
     .line 18
     .line 19
     .line 20
-    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuPopupHelper;
-    ->show()V    
+    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuPopupHelper;->show()V
     return v1
 .end method
 
@@ -415,13 +374,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;
-    ->mContextView:Landroidx/appcompat/widget/ActionBarContextView;
+    iget-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;->mContextView:Landroidx/appcompat/widget/ActionBarContextView;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/ActionBarContextView;
-    ->setCustomView(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/ActionBarContextView;->setCustomView(Landroid/view/View;)V
 
     .line 4
     .line 5
@@ -434,8 +391,7 @@ return-void
 
     .line 9
     .line 10
-    invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;
-    -><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     .line 11
     .line 12
@@ -448,8 +404,7 @@ return-void
 
     .line 15
     :goto_0
-    iput-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;
-    ->mCustomView:Ljava/lang/ref/WeakReference;    
+    iput-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;->mCustomView:Ljava/lang/ref/WeakReference;
     return-void
 .end method
 
@@ -457,16 +412,13 @@ return-void
     .locals 1
 
     .line 2
-    iget-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;
-    ->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;->mContext:Landroid/content/Context;
 
-    invoke-virtual {v0, p1}, Landroid/content/Context;
-    ->getString(I)Ljava/lang/String;
+    invoke-virtual {v0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {p0, p1}, Landroidx/appcompat/view/StandaloneActionMode;
-    ->setSubtitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, p1}, Landroidx/appcompat/view/StandaloneActionMode;->setSubtitle(Ljava/lang/CharSequence;)V
 return-void
 .end method
 
@@ -474,11 +426,9 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;
-    ->mContextView:Landroidx/appcompat/widget/ActionBarContextView;
+    iget-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;->mContextView:Landroidx/appcompat/widget/ActionBarContextView;
 
-    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/ActionBarContextView;
-    ->setSubtitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/ActionBarContextView;->setSubtitle(Ljava/lang/CharSequence;)V
 
     return-void
 .end method
@@ -487,16 +437,13 @@ return-void
     .locals 1
 
     .line 2
-    iget-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;
-    ->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;->mContext:Landroid/content/Context;
 
-    invoke-virtual {v0, p1}, Landroid/content/Context;
-    ->getString(I)Ljava/lang/String;
+    invoke-virtual {v0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {p0, p1}, Landroidx/appcompat/view/StandaloneActionMode;
-    ->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, p1}, Landroidx/appcompat/view/StandaloneActionMode;->setTitle(Ljava/lang/CharSequence;)V
 return-void
 .end method
 
@@ -504,11 +451,9 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;
-    ->mContextView:Landroidx/appcompat/widget/ActionBarContextView;
+    iget-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;->mContextView:Landroidx/appcompat/widget/ActionBarContextView;
 
-    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/ActionBarContextView;
-    ->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/ActionBarContextView;->setTitle(Ljava/lang/CharSequence;)V
 
     return-void
 .end method
@@ -517,19 +462,16 @@ return-void
     .locals 1
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/appcompat/view/ActionMode;
-    ->setTitleOptionalHint(Z)V
+    invoke-super {p0, p1}, Landroidx/appcompat/view/ActionMode;->setTitleOptionalHint(Z)V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;
-    ->mContextView:Landroidx/appcompat/widget/ActionBarContextView;
+    iget-object v0, p0, Landroidx/appcompat/view/StandaloneActionMode;->mContextView:Landroidx/appcompat/widget/ActionBarContextView;
 
     .line 5
     .line 6
-    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/ActionBarContextView;
-    ->setTitleOptional(Z)V    
+    invoke-virtual {v0, p1}, Landroidx/appcompat/widget/ActionBarContextView;->setTitleOptional(Z)V
     return-void
 .end method
 

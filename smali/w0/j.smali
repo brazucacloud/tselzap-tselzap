@@ -36,8 +36,7 @@
     move-result-object v0
 
     .line 11
-    sput-object v0, Lw0/j;
-    ->C:[I
+    sput-object v0, Lw0/j;->C:[I
 
     .line 12
     .line 13
@@ -48,14 +47,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2, p3, p4}, Lw0/i;
-    -><init>(Landroid/content/Context;Landroid/view/ViewGroup;Lcom/google/android/material/snackbar/SnackbarContentLayout;Lcom/google/android/material/snackbar/SnackbarContentLayout;)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lw0/i;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;Lcom/google/android/material/snackbar/SnackbarContentLayout;Lcom/google/android/material/snackbar/SnackbarContentLayout;)V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p2}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p2}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 5
     .line 6
@@ -67,8 +64,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {p1, p2}, Landroid/content/Context;
-    ->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -80,8 +76,7 @@
 
     .line 15
     .line 16
-    iput-object p1, p0, Lw0/j;
-    ->A:Landroid/view/accessibility/AccessibilityManager;
+    iput-object p1, p0, Lw0/j;->A:Landroid/view/accessibility/AccessibilityManager;
 
     .line 17
     .line 18
@@ -123,8 +118,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getId()I
+    invoke-virtual {p0}, Landroid/view/View;->getId()I
 
     .line 15
     .line 16
@@ -161,8 +155,7 @@
 
     .line 30
     .line 31
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getParent()Landroid/view/ViewParent;
+    invoke-virtual {p0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     .line 32
     .line 33
@@ -203,8 +196,7 @@
 
     .line 47
     .line 48
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 49
     .line 50
@@ -212,8 +204,7 @@
     move-result-object v0
 
     .line 52
-    invoke-static {v0}, Landroid/view/LayoutInflater;
-    ->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+    invoke-static {v0}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     .line 53
     .line 54
@@ -221,13 +212,11 @@
     move-result-object v1
 
     .line 56
-    sget-object v2, Lw0/j;
-    ->C:[I
+    sget-object v2, Lw0/j;->C:[I
 
     .line 57
     .line 58
-    invoke-virtual {v0, v2}, Landroid/content/Context;
-    ->obtainStyledAttributes([I)Landroid/content/res/TypedArray;
+    invoke-virtual {v0, v2}, Landroid/content/Context;->obtainStyledAttributes([I)Landroid/content/res/TypedArray;
 
     .line 59
     .line 60
@@ -241,8 +230,7 @@
     const/4 v4, -0x1
 
     .line 64
-    invoke-virtual {v2, v3, v4}, Landroid/content/res/TypedArray;
-    ->getResourceId(II)I
+    invoke-virtual {v2, v3, v4}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     .line 65
     .line 66
@@ -253,8 +241,7 @@
     const/4 v6, 0x1
 
     .line 69
-    invoke-virtual {v2, v6, v4}, Landroid/content/res/TypedArray;
-    ->getResourceId(II)I
+    invoke-virtual {v2, v6, v4}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     .line 70
     .line 71
@@ -262,8 +249,7 @@
     move-result v6
 
     .line 73
-    invoke-virtual {v2}, Landroid/content/res/TypedArray;
-    ->recycle()V
+    invoke-virtual {v2}, Landroid/content/res/TypedArray;->recycle()V
 
     .line 74
     .line 75
@@ -291,8 +277,7 @@
     .line 86
     .line 87
     :goto_2
-    invoke-virtual {v1, v2, p0, v3}, Landroid/view/LayoutInflater;
-    ->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    invoke-virtual {v1, v2, p0, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     .line 88
     .line 89
@@ -308,19 +293,16 @@
 
     .line 94
     .line 95
-    invoke-direct {v2, v0, p0, v1, v1}, Lw0/j;
-    -><init>(Landroid/content/Context;Landroid/view/ViewGroup;Lcom/google/android/material/snackbar/SnackbarContentLayout;Lcom/google/android/material/snackbar/SnackbarContentLayout;)V
+    invoke-direct {v2, v0, p0, v1, v1}, Lw0/j;-><init>(Landroid/content/Context;Landroid/view/ViewGroup;Lcom/google/android/material/snackbar/SnackbarContentLayout;Lcom/google/android/material/snackbar/SnackbarContentLayout;)V
 
     .line 96
     .line 97
     .line 98
-    iget-object p0, v2, Lw0/i;
-    ->i:Lw0/h;
+    iget-object p0, v2, Lw0/i;->i:Lw0/h;
 
     .line 99
     .line 100
-    invoke-virtual {p0, v3}, Landroid/view/ViewGroup;
-    ->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p0, v3}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     .line 101
     .line 102
@@ -332,8 +314,7 @@
 
     .line 105
     .line 106
-    invoke-virtual {p0}, Lcom/google/android/material/snackbar/SnackbarContentLayout;
-    ->getMessageView()Landroid/widget/TextView;
+    invoke-virtual {p0}, Lcom/google/android/material/snackbar/SnackbarContentLayout;->getMessageView()Landroid/widget/TextView;
 
     .line 107
     .line 108
@@ -341,14 +322,12 @@
     move-result-object p0
 
     .line 110
-    invoke-virtual {p0, p1}, Landroid/widget/TextView;
-    ->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 111
     .line 112
     .line 113
-    iput p2, v2, Lw0/i;
-    ->k:I
+    iput p2, v2, Lw0/i;->k:I
 
     .line 114
     .line 115
@@ -364,8 +343,7 @@
 
     .line 119
     .line 120
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 121
     .line 122
@@ -1159,8 +1137,7 @@
     .locals 8
 
     .line 1
-    invoke-static {}, LN0/d;
-    ->d()LN0/d;
+    invoke-static {}, LN0/d;->d()LN0/d;
 
     .line 2
     .line 3
@@ -1168,8 +1145,7 @@
     move-result-object v0
 
     .line 5
-    iget v1, p0, Lw0/i;
-    ->k:I
+    iget v1, p0, Lw0/i;->k:I
 
     .line 6
     .line 7
@@ -1194,13 +1170,11 @@
 
     .line 14
     :cond_0
-    sget v5, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v5, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 15
     .line 16
-    iget-object v6, p0, Lw0/j;
-    ->A:Landroid/view/accessibility/AccessibilityManager;
+    iget-object v6, p0, Lw0/j;->A:Landroid/view/accessibility/AccessibilityManager;
 
     .line 17
     .line 18
@@ -1212,8 +1186,7 @@
 
     .line 21
     .line 22
-    iget-boolean v4, p0, Lw0/j;
-    ->B:Z
+    iget-boolean v4, p0, Lw0/j;->B:Z
 
     .line 23
     .line 24
@@ -1236,8 +1209,7 @@
 
     .line 30
     .line 31
-    invoke-static {v6, v1, v4}, Lcom/google/android/gms/common/stats/a;
-    ->a(Landroid/view/accessibility/AccessibilityManager;II)I
+    invoke-static {v6, v1, v4}, Lcom/google/android/gms/common/stats/a;->a(Landroid/view/accessibility/AccessibilityManager;II)I
 
     .line 32
     .line 33
@@ -1249,8 +1221,7 @@
 
     .line 36
     :cond_2
-    iget-boolean v5, p0, Lw0/j;
-    ->B:Z
+    iget-boolean v5, p0, Lw0/j;->B:Z
 
     .line 37
     .line 38
@@ -1258,8 +1229,7 @@
 
     .line 39
     .line 40
-    invoke-virtual {v6}, Landroid/view/accessibility/AccessibilityManager;
-    ->isTouchExplorationEnabled()Z
+    invoke-virtual {v6}, Landroid/view/accessibility/AccessibilityManager;->isTouchExplorationEnabled()Z
 
     .line 41
     .line 42
@@ -1276,13 +1246,11 @@
     .line 47
     :cond_3
     :goto_2
-    iget-object v4, p0, Lw0/i;
-    ->t:Lw0/d;
+    iget-object v4, p0, Lw0/i;->t:Lw0/d;
 
     .line 48
     .line 49
-    iget-object v5, v0, LN0/d;
-    ->b:Ljava/lang/Object;
+    iget-object v5, v0, LN0/d;->b:Ljava/lang/Object;
 
     .line 50
     .line 51
@@ -1290,8 +1258,7 @@
 
     .line 52
     :try_start_0
-    invoke-virtual {v0, v4}, LN0/d;
-    ->e(Lw0/d;)Z
+    invoke-virtual {v0, v4}, LN0/d;->e(Lw0/d;)Z
 
     .line 53
     .line 54
@@ -1303,8 +1270,7 @@
 
     .line 57
     .line 58
-    iget-object v2, v0, LN0/d;
-    ->d:Ljava/lang/Object;
+    iget-object v2, v0, LN0/d;->d:Ljava/lang/Object;
 
     .line 59
     .line 60
@@ -1312,13 +1278,11 @@
 
     .line 61
     .line 62
-    iput v1, v2, Lw0/k;
-    ->b:I
+    iput v1, v2, Lw0/k;->b:I
 
     .line 63
     .line 64
-    iget-object v1, v0, LN0/d;
-    ->c:Ljava/lang/Object;
+    iget-object v1, v0, LN0/d;->c:Ljava/lang/Object;
 
     .line 65
     .line 66
@@ -1326,14 +1290,12 @@
 
     .line 67
     .line 68
-    invoke-virtual {v1, v2}, Landroid/os/Handler;
-    ->removeCallbacksAndMessages(Ljava/lang/Object;)V
+    invoke-virtual {v1, v2}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
     .line 69
     .line 70
     .line 71
-    iget-object v1, v0, LN0/d;
-    ->d:Ljava/lang/Object;
+    iget-object v1, v0, LN0/d;->d:Ljava/lang/Object;
 
     .line 72
     .line 73
@@ -1341,8 +1303,7 @@
 
     .line 74
     .line 75
-    invoke-virtual {v0, v1}, LN0/d;
-    ->h(Lw0/k;)V
+    invoke-virtual {v0, v1}, LN0/d;->h(Lw0/k;)V
 
     .line 76
     .line 77
@@ -1360,8 +1321,7 @@
 
     .line 82
     :cond_4
-    iget-object v6, v0, LN0/d;
-    ->e:Ljava/lang/Object;
+    iget-object v6, v0, LN0/d;->e:Ljava/lang/Object;
 
     .line 83
     .line 84
@@ -1373,13 +1333,11 @@
 
     .line 87
     .line 88
-    iget-object v6, v6, Lw0/k;
-    ->a:Ljava/lang/ref/WeakReference;
+    iget-object v6, v6, Lw0/k;->a:Ljava/lang/ref/WeakReference;
 
     .line 89
     .line 90
-    invoke-virtual {v6}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v6}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 91
     .line 92
@@ -1399,8 +1357,7 @@
 
     .line 98
     .line 99
-    iget-object v2, v0, LN0/d;
-    ->e:Ljava/lang/Object;
+    iget-object v2, v0, LN0/d;->e:Ljava/lang/Object;
 
     .line 100
     .line 101
@@ -1408,8 +1365,7 @@
 
     .line 102
     .line 103
-    iput v1, v2, Lw0/k;
-    ->b:I
+    iput v1, v2, Lw0/k;->b:I
 
     .line 104
     .line 105
@@ -1421,20 +1377,17 @@
 
     .line 107
     .line 108
-    invoke-direct {v2, v1, v4}, Lw0/k;
-    -><init>(ILw0/d;)V
+    invoke-direct {v2, v1, v4}, Lw0/k;-><init>(ILw0/d;)V
 
     .line 109
     .line 110
     .line 111
-    iput-object v2, v0, LN0/d;
-    ->e:Ljava/lang/Object;
+    iput-object v2, v0, LN0/d;->e:Ljava/lang/Object;
 
     .line 112
     .line 113
     :goto_3
-    iget-object v1, v0, LN0/d;
-    ->d:Ljava/lang/Object;
+    iget-object v1, v0, LN0/d;->d:Ljava/lang/Object;
 
     .line 114
     .line 115
@@ -1446,8 +1399,7 @@
 
     .line 118
     .line 119
-    invoke-virtual {v0, v1, v3}, LN0/d;
-    ->b(Lw0/k;I)Z
+    invoke-virtual {v0, v1, v3}, LN0/d;->b(Lw0/k;I)Z
 
     .line 120
     .line 121
@@ -1468,13 +1420,11 @@
     const/4 v1, 0x0
 
     .line 128
-    iput-object v1, v0, LN0/d;
-    ->d:Ljava/lang/Object;
+    iput-object v1, v0, LN0/d;->d:Ljava/lang/Object;
 
     .line 129
     .line 130
-    invoke-virtual {v0}, LN0/d;
-    ->i()V
+    invoke-virtual {v0}, LN0/d;->i()V
 
     .line 131
     .line 132

@@ -5,8 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/appcompat/widget/AppCompatSpinner;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILandroid/content/res/Resources$Theme;)V
+    value = Landroidx/appcompat/widget/AppCompatSpinner;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILandroid/content/res/Resources$Theme;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,18 +25,15 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatSpinner$1;
-    ->this$0:Landroidx/appcompat/widget/AppCompatSpinner;
+    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatSpinner$1;->this$0:Landroidx/appcompat/widget/AppCompatSpinner;
 
     .line 2
     .line 3
-    iput-object p3, p0, Landroidx/appcompat/widget/AppCompatSpinner$1;
-    ->val$popup:Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;
+    iput-object p3, p0, Landroidx/appcompat/widget/AppCompatSpinner$1;->val$popup:Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;
 
     .line 4
     .line 5
-    invoke-direct {p0, p2}, Landroidx/appcompat/widget/ForwardingListener;
-    -><init>(Landroid/view/View;)V    
+    invoke-direct {p0, p2}, Landroidx/appcompat/widget/ForwardingListener;-><init>(Landroid/view/View;)V
     return-void
 .end method
 
@@ -47,21 +43,18 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatSpinner$1;
-    ->val$popup:Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatSpinner$1;->val$popup:Landroidx/appcompat/widget/AppCompatSpinner$DropdownPopup;    return-object v0
 .end method
 
 .method public onForwardingStarted()Z
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatSpinner$1;
-    ->this$0:Landroidx/appcompat/widget/AppCompatSpinner;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatSpinner$1;->this$0:Landroidx/appcompat/widget/AppCompatSpinner;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatSpinner;
-    ->getInternalPopup()Landroidx/appcompat/widget/AppCompatSpinner$SpinnerPopup;
+    invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatSpinner;->getInternalPopup()Landroidx/appcompat/widget/AppCompatSpinner$SpinnerPopup;
 
     .line 4
     .line 5
@@ -69,8 +62,7 @@
     move-result-object v0
 
     .line 7
-    invoke-interface {v0}, Landroidx/appcompat/widget/AppCompatSpinner$SpinnerPopup;
-    ->isShowing()Z
+    invoke-interface {v0}, Landroidx/appcompat/widget/AppCompatSpinner$SpinnerPopup;->isShowing()Z
 
     .line 8
     .line 9
@@ -82,13 +74,11 @@
 
     .line 12
     .line 13
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatSpinner$1;
-    ->this$0:Landroidx/appcompat/widget/AppCompatSpinner;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatSpinner$1;->this$0:Landroidx/appcompat/widget/AppCompatSpinner;
 
     .line 14
     .line 15
-    invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatSpinner;
-    ->showPopup()V
+    invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatSpinner;->showPopup()V
 
     .line 16
     .line 17

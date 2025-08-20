@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -48,8 +47,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0}, Landroid/view/ViewGroup;
-    ->getChildCount()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
 
     .line 10
     .line 11
@@ -65,8 +63,7 @@
 
     .line 15
     .line 16
-    invoke-virtual {p0, v2}, Landroid/view/ViewGroup;
-    ->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p0, v2}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     .line 17
     .line 18
@@ -74,8 +71,7 @@
     move-result-object v3
 
     .line 20
-    invoke-virtual {v3, p1}, Landroid/view/View;
-    ->findViewById(I)Landroid/view/View;
+    invoke-virtual {v3, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     .line 21
     .line 22

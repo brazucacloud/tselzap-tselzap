@@ -18,25 +18,21 @@
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput p1, p0, Landroidx/graphics/shapes/ProgressableFeature;
-    ->progress:F
+    iput p1, p0, Landroidx/graphics/shapes/ProgressableFeature;->progress:F
 
     .line 10
     .line 11
-    iput-object p2, p0, Landroidx/graphics/shapes/ProgressableFeature;
-    ->feature:Landroidx/graphics/shapes/Feature;    
+    iput-object p2, p0, Landroidx/graphics/shapes/ProgressableFeature;->feature:Landroidx/graphics/shapes/Feature;
     return-void
 .end method
 
@@ -47,20 +43,17 @@
 
     if-eqz p4, :cond_0
 
-    iget p1, p0, Landroidx/graphics/shapes/ProgressableFeature;
-    ->progress:F
+    iget p1, p0, Landroidx/graphics/shapes/ProgressableFeature;->progress:F
 
     :cond_0
     and-int/lit8 p3, p3, 0x2
 
     if-eqz p3, :cond_1
 
-    iget-object p2, p0, Landroidx/graphics/shapes/ProgressableFeature;
-    ->feature:Landroidx/graphics/shapes/Feature;
+    iget-object p2, p0, Landroidx/graphics/shapes/ProgressableFeature;->feature:Landroidx/graphics/shapes/Feature;
 
     :cond_1
-    invoke-virtual {p0, p1, p2}, Landroidx/graphics/shapes/ProgressableFeature;
-    ->copy(FLandroidx/graphics/shapes/Feature;)Landroidx/graphics/shapes/ProgressableFeature;
+    invoke-virtual {p0, p1, p2}, Landroidx/graphics/shapes/ProgressableFeature;->copy(FLandroidx/graphics/shapes/Feature;)Landroidx/graphics/shapes/ProgressableFeature;
 
     move-result-object p0
 
@@ -72,8 +65,7 @@
 .method public final component1()F
     .locals 1
 
-    iget v0, p0, Landroidx/graphics/shapes/ProgressableFeature;
-    ->progress:F
+    iget v0, p0, Landroidx/graphics/shapes/ProgressableFeature;->progress:F
 
     return v0
 .end method
@@ -81,8 +73,7 @@
 .method public final component2()Landroidx/graphics/shapes/Feature;
     .locals 1
 
-    iget-object v0, p0, Landroidx/graphics/shapes/ProgressableFeature;
-    ->feature:Landroidx/graphics/shapes/Feature;
+    iget-object v0, p0, Landroidx/graphics/shapes/ProgressableFeature;->feature:Landroidx/graphics/shapes/Feature;
 
     return-object v0
 .end method
@@ -92,13 +83,11 @@
 
     const-string v0, "feature"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v0, Landroidx/graphics/shapes/ProgressableFeature;
 
-    invoke-direct {v0, p1, p2}, Landroidx/graphics/shapes/ProgressableFeature;
-    -><init>(FLandroidx/graphics/shapes/Feature;)V
+    invoke-direct {v0, p1, p2}, Landroidx/graphics/shapes/ProgressableFeature;-><init>(FLandroidx/graphics/shapes/Feature;)V
 return-object v0
 .end method
 
@@ -123,14 +112,11 @@ return-object v0
     :cond_1
     check-cast p1, Landroidx/graphics/shapes/ProgressableFeature;
 
-    iget v1, p0, Landroidx/graphics/shapes/ProgressableFeature;
-    ->progress:F
+    iget v1, p0, Landroidx/graphics/shapes/ProgressableFeature;->progress:F
 
-    iget v3, p1, Landroidx/graphics/shapes/ProgressableFeature;
-    ->progress:F
+    iget v3, p1, Landroidx/graphics/shapes/ProgressableFeature;->progress:F
 
-    invoke-static {v1, v3}, Ljava/lang/Float;
-    ->compare(FF)I
+    invoke-static {v1, v3}, Ljava/lang/Float;->compare(FF)I
 
     move-result v1
 
@@ -139,14 +125,11 @@ return-object v0
     return v2
 
     :cond_2
-    iget-object v1, p0, Landroidx/graphics/shapes/ProgressableFeature;
-    ->feature:Landroidx/graphics/shapes/Feature;
+    iget-object v1, p0, Landroidx/graphics/shapes/ProgressableFeature;->feature:Landroidx/graphics/shapes/Feature;
 
-    iget-object p1, p1, Landroidx/graphics/shapes/ProgressableFeature;
-    ->feature:Landroidx/graphics/shapes/Feature;
+    iget-object p1, p1, Landroidx/graphics/shapes/ProgressableFeature;->feature:Landroidx/graphics/shapes/Feature;
 
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -162,29 +145,25 @@ return-object v0
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/graphics/shapes/ProgressableFeature;
-    ->feature:Landroidx/graphics/shapes/Feature;    return-object v0
+    iget-object v0, p0, Landroidx/graphics/shapes/ProgressableFeature;->feature:Landroidx/graphics/shapes/Feature;    return-object v0
 .end method
 
 .method public final getProgress()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/graphics/shapes/ProgressableFeature;
-    ->progress:F    return v0
+    iget v0, p0, Landroidx/graphics/shapes/ProgressableFeature;->progress:F    return v0
 .end method
 
 .method public hashCode()I
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/graphics/shapes/ProgressableFeature;
-    ->progress:F
+    iget v0, p0, Landroidx/graphics/shapes/ProgressableFeature;->progress:F
 
     .line 2
     .line 3
-    invoke-static {v0}, Ljava/lang/Float;
-    ->floatToIntBits(F)I
+    invoke-static {v0}, Ljava/lang/Float;->floatToIntBits(F)I
 
     .line 4
     .line 5
@@ -196,13 +175,11 @@ return-object v0
 
     .line 8
     .line 9
-    iget-object v1, p0, Landroidx/graphics/shapes/ProgressableFeature;
-    ->feature:Landroidx/graphics/shapes/Feature;
+    iget-object v1, p0, Landroidx/graphics/shapes/ProgressableFeature;->feature:Landroidx/graphics/shapes/Feature;
 
     .line 10
     .line 11
-    invoke-virtual {v1}, Ljava/lang/Object;
-    ->hashCode()I
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
 
     .line 12
     .line 13
@@ -222,33 +199,25 @@ return-object v0
 
     const-string v1, "ProgressableFeature(progress="
 
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget v1, p0, Landroidx/graphics/shapes/ProgressableFeature;
-    ->progress:F
+    iget v1, p0, Landroidx/graphics/shapes/ProgressableFeature;->progress:F
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     const-string v1, ", feature="
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Landroidx/graphics/shapes/ProgressableFeature;
-    ->feature:Landroidx/graphics/shapes/Feature;
+    iget-object v1, p0, Landroidx/graphics/shapes/ProgressableFeature;->feature:Landroidx/graphics/shapes/Feature;
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     const/16 v1, 0x29
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
 

@@ -52,8 +52,7 @@
 
     .line 8
     .line 9
-    sget-object v5, Ljava/lang/Integer;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v5, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
 
     .line 10
     .line 11
@@ -76,8 +75,7 @@
 
     .line 19
     .line 20
-    sget-object v7, Ljava/lang/Boolean;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v7, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
 
     .line 21
     .line 22
@@ -88,8 +86,7 @@
 
     .line 24
     .line 25
-    sget-object v7, Ljava/lang/Float;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v7, Ljava/lang/Float;->TYPE:Ljava/lang/Class;
 
     .line 26
     .line 27
@@ -107,8 +104,7 @@
 
     .line 32
     .line 33
-    invoke-virtual {v3, v4, v6}, Ljava/lang/Class;
-    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v3, v4, v6}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 34
     .line 35
@@ -116,13 +112,11 @@
     move-result-object v3
 
     .line 37
-    sput-object v3, Landroidx/appcompat/widget/DropDownListView$Api30Impl;
-    ->sPositionSelector:Ljava/lang/reflect/Method;
+    sput-object v3, Landroidx/appcompat/widget/DropDownListView$Api30Impl;->sPositionSelector:Ljava/lang/reflect/Method;
 
     .line 38
     .line 39
-    invoke-virtual {v3, v1}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v3, v1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 40
     .line 41
@@ -139,8 +133,7 @@
 
     .line 47
     .line 48
-    invoke-virtual {v2, v3, v4}, Ljava/lang/Class;
-    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v2, v3, v4}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 49
     .line 50
@@ -148,13 +141,11 @@
     move-result-object v3
 
     .line 52
-    sput-object v3, Landroidx/appcompat/widget/DropDownListView$Api30Impl;
-    ->sSetSelectedPositionInt:Ljava/lang/reflect/Method;
+    sput-object v3, Landroidx/appcompat/widget/DropDownListView$Api30Impl;->sSetSelectedPositionInt:Ljava/lang/reflect/Method;
 
     .line 53
     .line 54
-    invoke-virtual {v3, v1}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v3, v1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 55
     .line 56
@@ -171,8 +162,7 @@
 
     .line 62
     .line 63
-    invoke-virtual {v2, v3, v4}, Ljava/lang/Class;
-    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v2, v3, v4}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 64
     .line 65
@@ -180,19 +170,16 @@
     move-result-object v0
 
     .line 67
-    sput-object v0, Landroidx/appcompat/widget/DropDownListView$Api30Impl;
-    ->sSetNextSelectedPositionInt:Ljava/lang/reflect/Method;
+    sput-object v0, Landroidx/appcompat/widget/DropDownListView$Api30Impl;->sSetNextSelectedPositionInt:Ljava/lang/reflect/Method;
 
     .line 68
     .line 69
-    invoke-virtual {v0, v1}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v0, v1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 70
     .line 71
     .line 72
-    sput-boolean v1, Landroidx/appcompat/widget/DropDownListView$Api30Impl;
-    ->sHasMethods:Z
+    sput-boolean v1, Landroidx/appcompat/widget/DropDownListView$Api30Impl;->sHasMethods:Z
     :try_end_0
     .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
@@ -201,8 +188,7 @@
     move-exception v0
 
     .line 76
-    invoke-virtual {v0}, Ljava/lang/Throwable;
-    ->printStackTrace()V
+    invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
     return-void
 .end method
 
@@ -210,8 +196,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -219,8 +204,7 @@
     .locals 1
 
     .line 1
-    sget-boolean v0, Landroidx/appcompat/widget/DropDownListView$Api30Impl;
-    ->sHasMethods:Z    return v0
+    sget-boolean v0, Landroidx/appcompat/widget/DropDownListView$Api30Impl;->sHasMethods:Z    return v0
 .end method
 
 .method public static positionSelectorForHoveredItem(Landroidx/appcompat/widget/DropDownListView;ILandroid/view/View;)V
@@ -239,13 +223,11 @@
 
     .line 3
     :try_start_0
-    sget-object v2, Landroidx/appcompat/widget/DropDownListView$Api30Impl;
-    ->sPositionSelector:Ljava/lang/reflect/Method;
+    sget-object v2, Landroidx/appcompat/widget/DropDownListView$Api30Impl;->sPositionSelector:Ljava/lang/reflect/Method;
 
     .line 4
     .line 5
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 6
     .line 7
@@ -256,8 +238,7 @@
     const/4 v4, -0x1
 
     .line 10
-    invoke-static {v4}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 11
     .line 12
@@ -265,8 +246,7 @@
     move-result-object v5
 
     .line 14
-    invoke-static {v4}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 15
     .line 16
@@ -289,8 +269,7 @@
 
     .line 24
     .line 25
-    sget-object p2, Ljava/lang/Boolean;
-    ->FALSE:Ljava/lang/Boolean;
+    sget-object p2, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     .line 26
     .line 27
@@ -315,19 +294,16 @@
 
     .line 35
     .line 36
-    invoke-virtual {v2, p0, v6}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, p0, v6}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 37
     .line 38
     .line 39
-    sget-object p2, Landroidx/appcompat/widget/DropDownListView$Api30Impl;
-    ->sSetSelectedPositionInt:Ljava/lang/reflect/Method;
+    sget-object p2, Landroidx/appcompat/widget/DropDownListView$Api30Impl;->sSetSelectedPositionInt:Ljava/lang/reflect/Method;
 
     .line 40
     .line 41
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 42
     .line 43
@@ -343,19 +319,16 @@
 
     .line 48
     .line 49
-    invoke-virtual {p2, p0, v3}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p2, p0, v3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 50
     .line 51
     .line 52
-    sget-object p2, Landroidx/appcompat/widget/DropDownListView$Api30Impl;
-    ->sSetNextSelectedPositionInt:Ljava/lang/reflect/Method;
+    sget-object p2, Landroidx/appcompat/widget/DropDownListView$Api30Impl;->sSetNextSelectedPositionInt:Ljava/lang/reflect/Method;
 
     .line 53
     .line 54
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 55
     .line 56
@@ -371,8 +344,7 @@
 
     .line 61
     .line 62
-    invoke-virtual {p2, p0, v0}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p2, p0, v0}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_0 .. :try_end_0} :catch_0    return-void
@@ -382,8 +354,7 @@
     move-exception p0
 
     .line 67
-    invoke-virtual {p0}, Ljava/lang/Throwable;
-    ->printStackTrace()V
+    invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
 
     .line 68
     .line 69
@@ -395,8 +366,7 @@
     move-exception p0
 
     .line 72
-    invoke-virtual {p0}, Ljava/lang/Throwable;
-    ->printStackTrace()V
+    invoke-virtual {p0}, Ljava/lang/Throwable;->printStackTrace()V
 
     .line 73
     .line 74

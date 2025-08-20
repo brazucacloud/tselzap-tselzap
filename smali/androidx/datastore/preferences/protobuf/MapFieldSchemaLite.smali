@@ -11,8 +11,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -40,8 +39,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Ljava/util/AbstractMap;
-    ->isEmpty()Z
+    invoke-virtual {p1}, Ljava/util/AbstractMap;->isEmpty()Z
 
     .line 6
     .line 7
@@ -56,8 +54,7 @@
 
     .line 13
     :cond_0
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->entrySet()Ljava/util/Set;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->entrySet()Ljava/util/Set;
 
     .line 14
     .line 15
@@ -65,8 +62,7 @@
     move-result-object p1
 
     .line 17
-    invoke-interface {p1}, Ljava/util/Set;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     .line 18
     .line 19
@@ -75,8 +71,7 @@
 
     .line 21
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
     .line 22
     .line 23
@@ -88,8 +83,7 @@
 
     .line 26
     .line 27
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -101,8 +95,7 @@
 
     .line 32
     .line 33
-    invoke-interface {v0}, Ljava/util/Map$Entry;
-    ->getKey()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     .line 34
     .line 35
@@ -110,8 +103,7 @@
     move-result-object v2
 
     .line 37
-    invoke-interface {v0}, Ljava/util/Map$Entry;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     .line 38
     .line 39
@@ -119,8 +111,7 @@
     move-result-object v0
 
     .line 41
-    invoke-virtual {p2, p0, v2, v0}, Landroidx/datastore/preferences/protobuf/MapEntryLite;
-    ->computeMessageSize(ILjava/lang/Object;Ljava/lang/Object;)I
+    invoke-virtual {p2, p0, v2, v0}, Landroidx/datastore/preferences/protobuf/MapEntryLite;->computeMessageSize(ILjava/lang/Object;Ljava/lang/Object;)I
 
     .line 42
     .line 43
@@ -164,8 +155,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Ljava/util/AbstractMap;
-    ->isEmpty()Z
+    invoke-virtual {p1}, Ljava/util/AbstractMap;->isEmpty()Z
 
     .line 6
     .line 7
@@ -177,8 +167,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->isMutable()Z
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->isMutable()Z
 
     .line 12
     .line 13
@@ -190,8 +179,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->mutableCopy()Landroidx/datastore/preferences/protobuf/MapFieldLite;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->mutableCopy()Landroidx/datastore/preferences/protobuf/MapFieldLite;
 
     .line 18
     .line 19
@@ -200,8 +188,7 @@
 
     .line 21
     :cond_0
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->mergeFrom(Landroidx/datastore/preferences/protobuf/MapFieldLite;)V
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->mergeFrom(Landroidx/datastore/preferences/protobuf/MapFieldLite;)V
 
     .line 22
     .line 23
@@ -245,8 +232,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/MapEntryLite;
-    ->getMetadata()Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/MapEntryLite;->getMetadata()Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;
 
     .line 4
     .line 5
@@ -276,8 +262,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p1, p2, p3}, Landroidx/datastore/preferences/protobuf/MapFieldSchemaLite;
-    ->getSerializedSizeLite(ILjava/lang/Object;Ljava/lang/Object;)I
+    invoke-static {p1, p2, p3}, Landroidx/datastore/preferences/protobuf/MapFieldSchemaLite;->getSerializedSizeLite(ILjava/lang/Object;Ljava/lang/Object;)I
 
     .line 2
     .line 3
@@ -295,8 +280,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->isMutable()Z
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->isMutable()Z
 
     .line 4
     .line 5
@@ -311,8 +295,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p1, p2}, Landroidx/datastore/preferences/protobuf/MapFieldSchemaLite;
-    ->mergeFromLite(Ljava/lang/Object;Ljava/lang/Object;)Landroidx/datastore/preferences/protobuf/MapFieldLite;
+    invoke-static {p1, p2}, Landroidx/datastore/preferences/protobuf/MapFieldSchemaLite;->mergeFromLite(Ljava/lang/Object;Ljava/lang/Object;)Landroidx/datastore/preferences/protobuf/MapFieldLite;
 
     .line 2
     .line 3
@@ -326,8 +309,7 @@
     .locals 0
 
     .line 1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->emptyMapField()Landroidx/datastore/preferences/protobuf/MapFieldLite;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->emptyMapField()Landroidx/datastore/preferences/protobuf/MapFieldLite;
 
     .line 2
     .line 3
@@ -335,8 +317,7 @@
     move-result-object p1
 
     .line 5
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->mutableCopy()Landroidx/datastore/preferences/protobuf/MapFieldLite;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->mutableCopy()Landroidx/datastore/preferences/protobuf/MapFieldLite;
 
     .line 6
     .line 7
@@ -357,8 +338,7 @@
 
     .line 3
     .line 4
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->makeImmutable()V
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->makeImmutable()V
     return-object p1
 .end method
 

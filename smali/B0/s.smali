@@ -12,13 +12,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, LB0/s;
-    ->d:LB0/t;
+    iput-object p1, p0, LB0/s;->d:LB0/t;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/util/AbstractCollection;
-    -><init>()V
+    invoke-direct {p0}, Ljava/util/AbstractCollection;-><init>()V
 
     .line 4
     .line 5
@@ -41,18 +39,15 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, LB0/s;
-    ->d:LB0/t;
+    iget-object v0, p0, LB0/s;->d:LB0/t;
 
     .line 2
     .line 3
-    iget v1, v0, LB0/t;
-    ->g:I
+    iget v1, v0, LB0/t;->g:I
 
     .line 4
     .line 5
-    invoke-static {p1, v1}, Lcom/bumptech/glide/b;
-    ->h(II)V
+    invoke-static {p1, v1}, Lcom/bumptech/glide/b;->h(II)V
 
     .line 6
     .line 7
@@ -61,8 +56,7 @@
 
     .line 9
     .line 10
-    iget-object v0, v0, LB0/t;
-    ->f:[Ljava/lang/Object;
+    iget-object v0, v0, LB0/t;->f:[Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -70,8 +64,7 @@
 
     .line 13
     .line 14
-    invoke-static {v1}, Ljava/util/Objects;
-    ->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -84,8 +77,7 @@
 
     .line 20
     .line 21
-    invoke-static {p1}, Ljava/util/Objects;
-    ->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 22
     .line 23
@@ -94,8 +86,7 @@
 
     .line 25
     .line 26
-    invoke-direct {v0, v1, p1}, Ljava/util/AbstractMap$SimpleImmutableEntry;
-    -><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v0, v1, p1}, Ljava/util/AbstractMap$SimpleImmutableEntry;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 27
     .line 28
@@ -107,13 +98,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, LB0/s;
-    ->d:LB0/t;
+    iget-object v0, p0, LB0/s;->d:LB0/t;
 
     .line 2
     .line 3
-    iget v0, v0, LB0/t;
-    ->g:I
+    iget v0, v0, LB0/t;->g:I
 
     .line 4
     .line 5

@@ -16,24 +16,20 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/zac;
-    -><init>(I)V
+    invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/zac;-><init>(I)V
 
     .line 2
     .line 3
     .line 4
-    iput-object p3, p0, Lcom/google/android/gms/common/api/internal/zag;
-    ->zab:Lcom/google/android/gms/tasks/TaskCompletionSource;
+    iput-object p3, p0, Lcom/google/android/gms/common/api/internal/zag;->zab:Lcom/google/android/gms/tasks/TaskCompletionSource;
 
     .line 5
     .line 6
-    iput-object p2, p0, Lcom/google/android/gms/common/api/internal/zag;
-    ->zaa:Lcom/google/android/gms/common/api/internal/TaskApiCall;
+    iput-object p2, p0, Lcom/google/android/gms/common/api/internal/zag;->zaa:Lcom/google/android/gms/common/api/internal/TaskApiCall;
 
     .line 7
     .line 8
-    iput-object p4, p0, Lcom/google/android/gms/common/api/internal/zag;
-    ->zad:Lcom/google/android/gms/common/api/internal/StatusExceptionMapper;
+    iput-object p4, p0, Lcom/google/android/gms/common/api/internal/zag;->zad:Lcom/google/android/gms/common/api/internal/StatusExceptionMapper;
 
     .line 9
     .line 10
@@ -44,8 +40,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {p2}, Lcom/google/android/gms/common/api/internal/TaskApiCall;
-    ->shouldAutoResolveMissingFeatures()Z
+    invoke-virtual {p2}, Lcom/google/android/gms/common/api/internal/TaskApiCall;->shouldAutoResolveMissingFeatures()Z
 
     .line 14
     .line 15
@@ -69,8 +64,7 @@
 
     .line 23
     .line 24
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 25
     .line 26
@@ -89,13 +83,11 @@
     .locals 0
 
     .line 1
-    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/zag;
-    ->zaa:Lcom/google/android/gms/common/api/internal/TaskApiCall;
+    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/zag;->zaa:Lcom/google/android/gms/common/api/internal/TaskApiCall;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Lcom/google/android/gms/common/api/internal/TaskApiCall;
-    ->shouldAutoResolveMissingFeatures()Z
+    invoke-virtual {p1}, Lcom/google/android/gms/common/api/internal/TaskApiCall;->shouldAutoResolveMissingFeatures()Z
 
     .line 4
     .line 5
@@ -111,13 +103,11 @@
     .end annotation
 
     .line 1
-    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/zag;
-    ->zaa:Lcom/google/android/gms/common/api/internal/TaskApiCall;
+    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/zag;->zaa:Lcom/google/android/gms/common/api/internal/TaskApiCall;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Lcom/google/android/gms/common/api/internal/TaskApiCall;
-    ->zab()[Lcom/google/android/gms/common/Feature;
+    invoke-virtual {p1}, Lcom/google/android/gms/common/api/internal/TaskApiCall;->zab()[Lcom/google/android/gms/common/Feature;
 
     .line 4
     .line 5
@@ -135,18 +125,15 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zag;
-    ->zad:Lcom/google/android/gms/common/api/internal/StatusExceptionMapper;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zag;->zad:Lcom/google/android/gms/common/api/internal/StatusExceptionMapper;
 
     .line 2
     .line 3
-    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/zag;
-    ->zab:Lcom/google/android/gms/tasks/TaskCompletionSource;
+    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/zag;->zab:Lcom/google/android/gms/tasks/TaskCompletionSource;
 
     .line 4
     .line 5
-    invoke-interface {v0, p1}, Lcom/google/android/gms/common/api/internal/StatusExceptionMapper;
-    ->getException(Lcom/google/android/gms/common/api/Status;)Ljava/lang/Exception;
+    invoke-interface {v0, p1}, Lcom/google/android/gms/common/api/internal/StatusExceptionMapper;->getException(Lcom/google/android/gms/common/api/Status;)Ljava/lang/Exception;
 
     .line 6
     .line 7
@@ -154,8 +141,7 @@
     move-result-object p1
 
     .line 9
-    invoke-virtual {v1, p1}, Lcom/google/android/gms/tasks/TaskCompletionSource;
-    ->trySetException(Ljava/lang/Exception;)Z
+    invoke-virtual {v1, p1}, Lcom/google/android/gms/tasks/TaskCompletionSource;->trySetException(Ljava/lang/Exception;)Z
 
     .line 10
     .line 11
@@ -171,13 +157,11 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zag;
-    ->zab:Lcom/google/android/gms/tasks/TaskCompletionSource;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zag;->zab:Lcom/google/android/gms/tasks/TaskCompletionSource;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Lcom/google/android/gms/tasks/TaskCompletionSource;
-    ->trySetException(Ljava/lang/Exception;)Z
+    invoke-virtual {v0, p1}, Lcom/google/android/gms/tasks/TaskCompletionSource;->trySetException(Ljava/lang/Exception;)Z
 
     .line 4
     .line 5
@@ -190,13 +174,11 @@
 
     .line 1
     :try_start_0
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zag;
-    ->zaa:Lcom/google/android/gms/common/api/internal/TaskApiCall;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zag;->zaa:Lcom/google/android/gms/common/api/internal/TaskApiCall;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Lcom/google/android/gms/common/api/internal/zabq;
-    ->zaf()Lcom/google/android/gms/common/api/Api$Client;
+    invoke-virtual {p1}, Lcom/google/android/gms/common/api/internal/zabq;->zaf()Lcom/google/android/gms/common/api/Api$Client;
 
     .line 4
     .line 5
@@ -204,13 +186,11 @@
     move-result-object p1
 
     .line 7
-    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/zag;
-    ->zab:Lcom/google/android/gms/tasks/TaskCompletionSource;
+    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/zag;->zab:Lcom/google/android/gms/tasks/TaskCompletionSource;
 
     .line 8
     .line 9
-    invoke-virtual {v0, p1, v1}, Lcom/google/android/gms/common/api/internal/TaskApiCall;
-    ->doExecute(Lcom/google/android/gms/common/api/Api$AnyClient;Lcom/google/android/gms/tasks/TaskCompletionSource;)V
+    invoke-virtual {v0, p1, v1}, Lcom/google/android/gms/common/api/internal/TaskApiCall;->doExecute(Lcom/google/android/gms/common/api/Api$AnyClient;Lcom/google/android/gms/tasks/TaskCompletionSource;)V
     :try_end_0
     .catch Landroid/os/DeadObjectException; {:try_start_0 .. :try_end_0} :catch_2
     .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_1
@@ -244,13 +224,11 @@
 
     .line 19
     :goto_0
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zag;
-    ->zab:Lcom/google/android/gms/tasks/TaskCompletionSource;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zag;->zab:Lcom/google/android/gms/tasks/TaskCompletionSource;
 
     .line 20
     .line 21
-    invoke-virtual {v0, p1}, Lcom/google/android/gms/tasks/TaskCompletionSource;
-    ->trySetException(Ljava/lang/Exception;)Z
+    invoke-virtual {v0, p1}, Lcom/google/android/gms/tasks/TaskCompletionSource;->trySetException(Ljava/lang/Exception;)Z
 
     .line 22
     .line 23
@@ -259,8 +237,7 @@
 
     .line 25
     :goto_1
-    invoke-static {p1}, Lcom/google/android/gms/common/api/internal/zai;
-    ->zah(Landroid/os/RemoteException;)Lcom/google/android/gms/common/api/Status;
+    invoke-static {p1}, Lcom/google/android/gms/common/api/internal/zai;->zah(Landroid/os/RemoteException;)Lcom/google/android/gms/common/api/Status;
 
     .line 26
     .line 27
@@ -268,8 +245,7 @@
     move-result-object p1
 
     .line 29
-    invoke-virtual {p0, p1}, Lcom/google/android/gms/common/api/internal/zag;
-    ->zad(Lcom/google/android/gms/common/api/Status;)V
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/common/api/internal/zag;->zad(Lcom/google/android/gms/common/api/Status;)V
 
     .line 30
     .line 31
@@ -340,13 +316,11 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zag;
-    ->zab:Lcom/google/android/gms/tasks/TaskCompletionSource;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zag;->zab:Lcom/google/android/gms/tasks/TaskCompletionSource;
 
     .line 2
     .line 3
-    invoke-virtual {p1, v0, p2}, Lcom/google/android/gms/common/api/internal/zaad;
-    ->zad(Lcom/google/android/gms/tasks/TaskCompletionSource;Z)V
+    invoke-virtual {p1, v0, p2}, Lcom/google/android/gms/common/api/internal/zaad;->zad(Lcom/google/android/gms/tasks/TaskCompletionSource;Z)V
 
     .line 4
     .line 5

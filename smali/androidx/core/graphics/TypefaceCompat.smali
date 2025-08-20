@@ -31,8 +31,7 @@
     .locals 2
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -48,14 +47,12 @@
 
     .line 8
     .line 9
-    invoke-direct {v0}, Landroidx/core/graphics/TypefaceCompatApi29Impl;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/core/graphics/TypefaceCompatApi29Impl;-><init>()V
 
     .line 10
     .line 11
     .line 12
-    sput-object v0, Landroidx/core/graphics/TypefaceCompat;
-    ->sTypefaceCompatImpl:Landroidx/core/graphics/TypefaceCompatBaseImpl;
+    sput-object v0, Landroidx/core/graphics/TypefaceCompat;->sTypefaceCompatImpl:Landroidx/core/graphics/TypefaceCompatBaseImpl;
 
     .line 13
     .line 14
@@ -75,14 +72,12 @@
 
     .line 20
     .line 21
-    invoke-direct {v0}, Landroidx/core/graphics/TypefaceCompatApi28Impl;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/core/graphics/TypefaceCompatApi28Impl;-><init>()V
 
     .line 22
     .line 23
     .line 24
-    sput-object v0, Landroidx/core/graphics/TypefaceCompat;
-    ->sTypefaceCompatImpl:Landroidx/core/graphics/TypefaceCompatBaseImpl;
+    sput-object v0, Landroidx/core/graphics/TypefaceCompat;->sTypefaceCompatImpl:Landroidx/core/graphics/TypefaceCompatBaseImpl;
 
     .line 25
     .line 26
@@ -102,14 +97,12 @@
 
     .line 32
     .line 33
-    invoke-direct {v0}, Landroidx/core/graphics/TypefaceCompatApi26Impl;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/core/graphics/TypefaceCompatApi26Impl;-><init>()V
 
     .line 34
     .line 35
     .line 36
-    sput-object v0, Landroidx/core/graphics/TypefaceCompat;
-    ->sTypefaceCompatImpl:Landroidx/core/graphics/TypefaceCompatBaseImpl;
+    sput-object v0, Landroidx/core/graphics/TypefaceCompat;->sTypefaceCompatImpl:Landroidx/core/graphics/TypefaceCompatBaseImpl;
 
     .line 37
     .line 38
@@ -125,8 +118,7 @@
 
     .line 42
     .line 43
-    invoke-static {}, Landroidx/core/graphics/TypefaceCompatApi24Impl;
-    ->isUsable()Z
+    invoke-static {}, Landroidx/core/graphics/TypefaceCompatApi24Impl;->isUsable()Z
 
     .line 44
     .line 45
@@ -142,14 +134,12 @@
 
     .line 50
     .line 51
-    invoke-direct {v0}, Landroidx/core/graphics/TypefaceCompatApi24Impl;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/core/graphics/TypefaceCompatApi24Impl;-><init>()V
 
     .line 52
     .line 53
     .line 54
-    sput-object v0, Landroidx/core/graphics/TypefaceCompat;
-    ->sTypefaceCompatImpl:Landroidx/core/graphics/TypefaceCompatBaseImpl;
+    sput-object v0, Landroidx/core/graphics/TypefaceCompat;->sTypefaceCompatImpl:Landroidx/core/graphics/TypefaceCompatBaseImpl;
 
     .line 55
     .line 56
@@ -161,14 +151,12 @@
 
     .line 58
     .line 59
-    invoke-direct {v0}, Landroidx/core/graphics/TypefaceCompatApi21Impl;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/core/graphics/TypefaceCompatApi21Impl;-><init>()V
 
     .line 60
     .line 61
     .line 62
-    sput-object v0, Landroidx/core/graphics/TypefaceCompat;
-    ->sTypefaceCompatImpl:Landroidx/core/graphics/TypefaceCompatBaseImpl;
+    sput-object v0, Landroidx/core/graphics/TypefaceCompat;->sTypefaceCompatImpl:Landroidx/core/graphics/TypefaceCompatBaseImpl;
 
     .line 63
     .line 64
@@ -181,14 +169,12 @@
 
     .line 67
     .line 68
-    invoke-direct {v0, v1}, Landroidx/collection/LruCache;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/collection/LruCache;-><init>(I)V
 
     .line 69
     .line 70
     .line 71
-    sput-object v0, Landroidx/core/graphics/TypefaceCompat;
-    ->sTypefaceCache:Landroidx/collection/LruCache;
+    sput-object v0, Landroidx/core/graphics/TypefaceCompat;->sTypefaceCache:Landroidx/collection/LruCache;
 
     .line 72
     .line 73
@@ -199,8 +185,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -212,8 +197,7 @@
     .locals 1
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -221,13 +205,11 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/core/graphics/TypefaceCompat;
-    ->sTypefaceCache:Landroidx/collection/LruCache;
+    sget-object v0, Landroidx/core/graphics/TypefaceCompat;->sTypefaceCache:Landroidx/collection/LruCache;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/collection/LruCache;
-    ->evictAll()V
+    invoke-virtual {v0}, Landroidx/collection/LruCache;->evictAll()V
 
     .line 4
     .line 5
@@ -251,8 +233,7 @@
     if-eqz p0, :cond_0
 
     .line 1
-    invoke-static {p1, p2}, Landroid/graphics/Typeface;
-    ->create(Landroid/graphics/Typeface;I)Landroid/graphics/Typeface;
+    invoke-static {p1, p2}, Landroid/graphics/Typeface;->create(Landroid/graphics/Typeface;I)Landroid/graphics/Typeface;
 
     move-result-object p0
 
@@ -264,8 +245,7 @@
 
     const-string p1, "Context cannot be null"
 
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -298,22 +278,18 @@
 
     const/4 v2, 0x1
 
-    invoke-static {p2, v2, v0, v1}, Landroidx/core/util/Preconditions;
-    ->checkArgumentInRange(IIILjava/lang/String;)I
+    invoke-static {p2, v2, v0, v1}, Landroidx/core/util/Preconditions;->checkArgumentInRange(IIILjava/lang/String;)I
 
     if-nez p1, :cond_0
 
     .line 4
-    sget-object p1, Landroid/graphics/Typeface;
-    ->DEFAULT:Landroid/graphics/Typeface;
+    sget-object p1, Landroid/graphics/Typeface;->DEFAULT:Landroid/graphics/Typeface;
 
     .line 5
     :cond_0
-    sget-object v0, Landroidx/core/graphics/TypefaceCompat;
-    ->sTypefaceCompatImpl:Landroidx/core/graphics/TypefaceCompatBaseImpl;
+    sget-object v0, Landroidx/core/graphics/TypefaceCompat;->sTypefaceCompatImpl:Landroidx/core/graphics/TypefaceCompatBaseImpl;
 
-    invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/core/graphics/TypefaceCompatBaseImpl;
-    ->createWeightStyle(Landroid/content/Context;Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
+    invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/core/graphics/TypefaceCompatBaseImpl;->createWeightStyle(Landroid/content/Context;Landroid/graphics/Typeface;IZ)Landroid/graphics/Typeface;
 
     move-result-object p0
 
@@ -325,8 +301,7 @@
 
     const-string p1, "Context cannot be null"
 
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -350,19 +325,16 @@
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/core/graphics/TypefaceCompat;
-    ->sTypefaceCompatImpl:Landroidx/core/graphics/TypefaceCompatBaseImpl;
+    sget-object v0, Landroidx/core/graphics/TypefaceCompat;->sTypefaceCompatImpl:Landroidx/core/graphics/TypefaceCompatBaseImpl;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/core/graphics/TypefaceCompatBaseImpl;
-    ->createFromFontInfo(Landroid/content/Context;Landroid/os/CancellationSignal;[Landroidx/core/provider/FontsContractCompat$FontInfo;I)Landroid/graphics/Typeface;
+    invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/core/graphics/TypefaceCompatBaseImpl;->createFromFontInfo(Landroid/content/Context;Landroid/os/CancellationSignal;[Landroidx/core/provider/FontsContractCompat$FontInfo;I)Landroid/graphics/Typeface;
 
     .line 4
     .line 5
@@ -399,8 +371,7 @@
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -428,8 +399,7 @@
     move/from16 v9, p7
 
     .line 15
-    invoke-static/range {v0 .. v9}, Landroidx/core/graphics/TypefaceCompat;
-    ->createFromResourcesFamilyXml(Landroid/content/Context;Landroidx/core/content/res/FontResourcesParserCompat$FamilyResourceEntry;Landroid/content/res/Resources;ILjava/lang/String;IILandroidx/core/content/res/ResourcesCompat$FontCallback;Landroid/os/Handler;Z)Landroid/graphics/Typeface;
+    invoke-static/range {v0 .. v9}, Landroidx/core/graphics/TypefaceCompat;->createFromResourcesFamilyXml(Landroid/content/Context;Landroidx/core/content/res/FontResourcesParserCompat$FamilyResourceEntry;Landroid/content/res/Resources;ILjava/lang/String;IILandroidx/core/content/res/ResourcesCompat$FontCallback;Landroid/os/Handler;Z)Landroid/graphics/Typeface;
 
     move-result-object p0
 
@@ -467,8 +437,7 @@
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -485,14 +454,12 @@
     check-cast p1, Landroidx/core/content/res/FontResourcesParserCompat$ProviderResourceEntry;
 
     .line 3
-    invoke-virtual {p1}, Landroidx/core/content/res/FontResourcesParserCompat$ProviderResourceEntry;
-    ->getSystemFontFamilyName()Ljava/lang/String;
+    invoke-virtual {p1}, Landroidx/core/content/res/FontResourcesParserCompat$ProviderResourceEntry;->getSystemFontFamilyName()Ljava/lang/String;
 
     move-result-object v2
 
     .line 4
-    invoke-static {v2}, Landroidx/core/graphics/TypefaceCompat;
-    ->getSystemFontFamily(Ljava/lang/String;)Landroid/graphics/Typeface;
+    invoke-static {v2}, Landroidx/core/graphics/TypefaceCompat;->getSystemFontFamily(Ljava/lang/String;)Landroid/graphics/Typeface;
 
     move-result-object v2
 
@@ -501,8 +468,7 @@
     if-eqz v0, :cond_0
 
     .line 5
-    invoke-virtual {v0, v2, v1}, Landroidx/core/content/res/ResourcesCompat$FontCallback;
-    ->callbackSuccessAsync(Landroid/graphics/Typeface;Landroid/os/Handler;)V
+    invoke-virtual {v0, v2, v1}, Landroidx/core/content/res/ResourcesCompat$FontCallback;->callbackSuccessAsync(Landroid/graphics/Typeface;Landroid/os/Handler;)V
 
     :cond_0
     return-object v2
@@ -515,8 +481,7 @@
     if-eqz p9, :cond_3
 
     .line 6
-    invoke-virtual {p1}, Landroidx/core/content/res/FontResourcesParserCompat$ProviderResourceEntry;
-    ->getFetchStrategy()I
+    invoke-virtual {p1}, Landroidx/core/content/res/FontResourcesParserCompat$ProviderResourceEntry;->getFetchStrategy()I
 
     move-result v4
 
@@ -541,8 +506,7 @@
     if-eqz p9, :cond_4
 
     .line 7
-    invoke-virtual {p1}, Landroidx/core/content/res/FontResourcesParserCompat$ProviderResourceEntry;
-    ->getTimeout()I
+    invoke-virtual {p1}, Landroidx/core/content/res/FontResourcesParserCompat$ProviderResourceEntry;->getTimeout()I
 
     move-result v2
 
@@ -557,20 +521,17 @@
 
     .line 8
     :goto_2
-    invoke-static {v1}, Landroidx/core/content/res/ResourcesCompat$FontCallback;
-    ->getHandler(Landroid/os/Handler;)Landroid/os/Handler;
+    invoke-static {v1}, Landroidx/core/content/res/ResourcesCompat$FontCallback;->getHandler(Landroid/os/Handler;)Landroid/os/Handler;
 
     move-result-object v10
 
     .line 9
     new-instance v11, Landroidx/core/graphics/TypefaceCompat$ResourcesCallbackAdapter;
 
-    invoke-direct {v11, v0}, Landroidx/core/graphics/TypefaceCompat$ResourcesCallbackAdapter;
-    -><init>(Landroidx/core/content/res/ResourcesCompat$FontCallback;)V
+    invoke-direct {v11, v0}, Landroidx/core/graphics/TypefaceCompat$ResourcesCallbackAdapter;-><init>(Landroidx/core/content/res/ResourcesCompat$FontCallback;)V
 
     .line 10
-    invoke-virtual {p1}, Landroidx/core/content/res/FontResourcesParserCompat$ProviderResourceEntry;
-    ->getRequest()Landroidx/core/provider/FontRequest;
+    invoke-virtual {p1}, Landroidx/core/content/res/FontResourcesParserCompat$ProviderResourceEntry;->getRequest()Landroidx/core/provider/FontRequest;
 
     move-result-object v6
 
@@ -578,8 +539,7 @@
 
     move/from16 v7, p6
 
-    invoke-static/range {v5 .. v11}, Landroidx/core/provider/FontsContractCompat;
-    ->requestFont(Landroid/content/Context;Landroidx/core/provider/FontRequest;IZILandroid/os/Handler;Landroidx/core/provider/FontsContractCompat$FontRequestCallback;)Landroid/graphics/Typeface;
+    invoke-static/range {v5 .. v11}, Landroidx/core/provider/FontsContractCompat;->requestFont(Landroid/content/Context;Landroidx/core/provider/FontRequest;IZILandroid/os/Handler;Landroidx/core/provider/FontsContractCompat$FontRequestCallback;)Landroid/graphics/Typeface;
 
     move-result-object p0
 
@@ -587,15 +547,13 @@
 
     .line 11
     :cond_5
-    sget-object v2, Landroidx/core/graphics/TypefaceCompat;
-    ->sTypefaceCompatImpl:Landroidx/core/graphics/TypefaceCompatBaseImpl;
+    sget-object v2, Landroidx/core/graphics/TypefaceCompat;->sTypefaceCompatImpl:Landroidx/core/graphics/TypefaceCompatBaseImpl;
 
     check-cast p1, Landroidx/core/content/res/FontResourcesParserCompat$FontFamilyFilesResourceEntry;
 
     move/from16 v7, p6
 
-    invoke-virtual {v2, p0, p1, p2, v7}, Landroidx/core/graphics/TypefaceCompatBaseImpl;
-    ->createFromFontFamilyFilesResourceEntry(Landroid/content/Context;Landroidx/core/content/res/FontResourcesParserCompat$FontFamilyFilesResourceEntry;Landroid/content/res/Resources;I)Landroid/graphics/Typeface;
+    invoke-virtual {v2, p0, p1, p2, v7}, Landroidx/core/graphics/TypefaceCompatBaseImpl;->createFromFontFamilyFilesResourceEntry(Landroid/content/Context;Landroidx/core/content/res/FontResourcesParserCompat$FontFamilyFilesResourceEntry;Landroid/content/res/Resources;I)Landroid/graphics/Typeface;
 
     move-result-object p0
 
@@ -604,8 +562,7 @@
     if-eqz p0, :cond_6
 
     .line 12
-    invoke-virtual {v0, p0, v1}, Landroidx/core/content/res/ResourcesCompat$FontCallback;
-    ->callbackSuccessAsync(Landroid/graphics/Typeface;Landroid/os/Handler;)V
+    invoke-virtual {v0, p0, v1}, Landroidx/core/content/res/ResourcesCompat$FontCallback;->callbackSuccessAsync(Landroid/graphics/Typeface;Landroid/os/Handler;)V
 
     goto :goto_3
 
@@ -613,24 +570,20 @@
     const/4 p1, -0x3
 
     .line 13
-    invoke-virtual {v0, p1, v1}, Landroidx/core/content/res/ResourcesCompat$FontCallback;
-    ->callbackFailAsync(ILandroid/os/Handler;)V
+    invoke-virtual {v0, p1, v1}, Landroidx/core/content/res/ResourcesCompat$FontCallback;->callbackFailAsync(ILandroid/os/Handler;)V
 
     :cond_7
     :goto_3
     if-eqz p0, :cond_8
 
     .line 14
-    sget-object p1, Landroidx/core/graphics/TypefaceCompat;
-    ->sTypefaceCache:Landroidx/collection/LruCache;
+    sget-object p1, Landroidx/core/graphics/TypefaceCompat;->sTypefaceCache:Landroidx/collection/LruCache;
 
-    invoke-static/range {p2 .. p6}, Landroidx/core/graphics/TypefaceCompat;
-    ->createResourceUid(Landroid/content/res/Resources;ILjava/lang/String;II)Ljava/lang/String;
+    invoke-static/range {p2 .. p6}, Landroidx/core/graphics/TypefaceCompat;->createResourceUid(Landroid/content/res/Resources;ILjava/lang/String;II)Ljava/lang/String;
 
     move-result-object p2
 
-    invoke-virtual {p1, p2, p0}, Landroidx/collection/LruCache;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2, p0}, Landroidx/collection/LruCache;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_8
     return-object p0
@@ -651,8 +604,7 @@
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -672,8 +624,7 @@
     move v5, p4
 
     .line 4
-    invoke-static/range {v0 .. v5}, Landroidx/core/graphics/TypefaceCompat;
-    ->createFromResourcesFontFile(Landroid/content/Context;Landroid/content/res/Resources;ILjava/lang/String;II)Landroid/graphics/Typeface;
+    invoke-static/range {v0 .. v5}, Landroidx/core/graphics/TypefaceCompat;->createFromResourcesFontFile(Landroid/content/Context;Landroid/content/res/Resources;ILjava/lang/String;II)Landroid/graphics/Typeface;
 
     move-result-object p0
 
@@ -695,14 +646,12 @@
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/core/graphics/TypefaceCompat;
-    ->sTypefaceCompatImpl:Landroidx/core/graphics/TypefaceCompatBaseImpl;
+    sget-object v0, Landroidx/core/graphics/TypefaceCompat;->sTypefaceCompatImpl:Landroidx/core/graphics/TypefaceCompatBaseImpl;
 
     move-object v1, p0
 
@@ -714,25 +663,21 @@
 
     move v5, p5
 
-    invoke-virtual/range {v0 .. v5}, Landroidx/core/graphics/TypefaceCompatBaseImpl;
-    ->createFromResourcesFontFile(Landroid/content/Context;Landroid/content/res/Resources;ILjava/lang/String;I)Landroid/graphics/Typeface;
+    invoke-virtual/range {v0 .. v5}, Landroidx/core/graphics/TypefaceCompatBaseImpl;->createFromResourcesFontFile(Landroid/content/Context;Landroid/content/res/Resources;ILjava/lang/String;I)Landroid/graphics/Typeface;
 
     move-result-object p0
 
     if-eqz p0, :cond_0
 
     .line 2
-    invoke-static {v2, v3, v4, p4, v5}, Landroidx/core/graphics/TypefaceCompat;
-    ->createResourceUid(Landroid/content/res/Resources;ILjava/lang/String;II)Ljava/lang/String;
+    invoke-static {v2, v3, v4, p4, v5}, Landroidx/core/graphics/TypefaceCompat;->createResourceUid(Landroid/content/res/Resources;ILjava/lang/String;II)Ljava/lang/String;
 
     move-result-object p1
 
     .line 3
-    sget-object p2, Landroidx/core/graphics/TypefaceCompat;
-    ->sTypefaceCache:Landroidx/collection/LruCache;
+    sget-object p2, Landroidx/core/graphics/TypefaceCompat;->sTypefaceCache:Landroidx/collection/LruCache;
 
-    invoke-virtual {p2, p1, p0}, Landroidx/collection/LruCache;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p2, p1, p0}, Landroidx/collection/LruCache;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_0
     return-object p0
@@ -746,14 +691,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/StringBuilder;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, p1}, Landroid/content/res/Resources;
-    ->getResourcePackageName(I)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getResourcePackageName(I)Ljava/lang/String;
 
     .line 7
     .line 8
@@ -761,8 +704,7 @@
     move-result-object p0
 
     .line 10
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 11
     .line 12
@@ -771,56 +713,47 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;
-    ->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     .line 16
     .line 17
     .line 18
-    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 19
     .line 20
     .line 21
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;
-    ->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     .line 22
     .line 23
     .line 24
-    invoke-virtual {v0, p3}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 25
     .line 26
     .line 27
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;
-    ->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     .line 28
     .line 29
     .line 30
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 31
     .line 32
     .line 33
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;
-    ->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     .line 34
     .line 35
     .line 36
-    invoke-virtual {v0, p4}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p4}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 37
     .line 38
     .line 39
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 40
     .line 41
@@ -841,8 +774,7 @@
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -854,8 +786,7 @@
     const/4 v1, 0x0
 
     .line 2
-    invoke-static {p0, p1, v0, v1, p2}, Landroidx/core/graphics/TypefaceCompat;
-    ->findFromCache(Landroid/content/res/Resources;ILjava/lang/String;II)Landroid/graphics/Typeface;
+    invoke-static {p0, p1, v0, v1, p2}, Landroidx/core/graphics/TypefaceCompat;->findFromCache(Landroid/content/res/Resources;ILjava/lang/String;II)Landroid/graphics/Typeface;
 
     move-result-object p0
 
@@ -877,22 +808,18 @@
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/core/graphics/TypefaceCompat;
-    ->sTypefaceCache:Landroidx/collection/LruCache;
+    sget-object v0, Landroidx/core/graphics/TypefaceCompat;->sTypefaceCache:Landroidx/collection/LruCache;
 
-    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/graphics/TypefaceCompat;
-    ->createResourceUid(Landroid/content/res/Resources;ILjava/lang/String;II)Ljava/lang/String;
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/graphics/TypefaceCompat;->createResourceUid(Landroid/content/res/Resources;ILjava/lang/String;II)Ljava/lang/String;
 
     move-result-object p0
 
-    invoke-virtual {v0, p0}, Landroidx/collection/LruCache;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0}, Landroidx/collection/LruCache;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -907,13 +834,11 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/core/graphics/TypefaceCompat;
-    ->sTypefaceCompatImpl:Landroidx/core/graphics/TypefaceCompatBaseImpl;
+    sget-object v0, Landroidx/core/graphics/TypefaceCompat;->sTypefaceCompatImpl:Landroidx/core/graphics/TypefaceCompatBaseImpl;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/core/graphics/TypefaceCompatBaseImpl;
-    ->getFontFamily(Landroid/graphics/Typeface;)Landroidx/core/content/res/FontResourcesParserCompat$FontFamilyFilesResourceEntry;
+    invoke-virtual {v0, p1}, Landroidx/core/graphics/TypefaceCompatBaseImpl;->getFontFamily(Landroid/graphics/Typeface;)Landroidx/core/content/res/FontResourcesParserCompat$FontFamilyFilesResourceEntry;
 
     .line 4
     .line 5
@@ -931,8 +856,7 @@
 
     .line 11
     :cond_0
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     .line 12
     .line 13
@@ -940,8 +864,7 @@
     move-result-object v1
 
     .line 15
-    invoke-virtual {v0, p0, p1, v1, p2}, Landroidx/core/graphics/TypefaceCompatBaseImpl;
-    ->createFromFontFamilyFilesResourceEntry(Landroid/content/Context;Landroidx/core/content/res/FontResourcesParserCompat$FontFamilyFilesResourceEntry;Landroid/content/res/Resources;I)Landroid/graphics/Typeface;
+    invoke-virtual {v0, p0, p1, v1, p2}, Landroidx/core/graphics/TypefaceCompatBaseImpl;->createFromFontFamilyFilesResourceEntry(Landroid/content/Context;Landroidx/core/content/res/FontResourcesParserCompat$FontFamilyFilesResourceEntry;Landroid/content/res/Resources;I)Landroid/graphics/Typeface;
 
     .line 16
     .line 17
@@ -966,8 +889,7 @@
 
     .line 3
     .line 4
-    invoke-virtual {p0}, Ljava/lang/String;
-    ->isEmpty()Z
+    invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
 
     .line 5
     .line 6
@@ -986,8 +908,7 @@
     const/4 v1, 0x0
 
     .line 12
-    invoke-static {p0, v1}, Landroid/graphics/Typeface;
-    ->create(Ljava/lang/String;I)Landroid/graphics/Typeface;
+    invoke-static {p0, v1}, Landroid/graphics/Typeface;->create(Ljava/lang/String;I)Landroid/graphics/Typeface;
 
     .line 13
     .line 14
@@ -995,13 +916,11 @@
     move-result-object p0
 
     .line 16
-    sget-object v2, Landroid/graphics/Typeface;
-    ->DEFAULT:Landroid/graphics/Typeface;
+    sget-object v2, Landroid/graphics/Typeface;->DEFAULT:Landroid/graphics/Typeface;
 
     .line 17
     .line 18
-    invoke-static {v2, v1}, Landroid/graphics/Typeface;
-    ->create(Landroid/graphics/Typeface;I)Landroid/graphics/Typeface;
+    invoke-static {v2, v1}, Landroid/graphics/Typeface;->create(Landroid/graphics/Typeface;I)Landroid/graphics/Typeface;
 
     .line 19
     .line 20
@@ -1013,8 +932,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {p0, v1}, Landroid/graphics/Typeface;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Landroid/graphics/Typeface;->equals(Ljava/lang/Object;)Z
 
     .line 25
     .line 26

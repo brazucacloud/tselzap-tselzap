@@ -28,11 +28,9 @@
 
     new-instance v0, Landroidx/lifecycle/ProcessLifecycleOwner$Api29Impl;
 
-    invoke-direct {v0}, Landroidx/lifecycle/ProcessLifecycleOwner$Api29Impl;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/lifecycle/ProcessLifecycleOwner$Api29Impl;-><init>()V
 
-    sput-object v0, Landroidx/lifecycle/ProcessLifecycleOwner$Api29Impl;
-    ->INSTANCE:Landroidx/lifecycle/ProcessLifecycleOwner$Api29Impl;
+    sput-object v0, Landroidx/lifecycle/ProcessLifecycleOwner$Api29Impl;->INSTANCE:Landroidx/lifecycle/ProcessLifecycleOwner$Api29Impl;
 
     return-void
 .end method
@@ -41,8 +39,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -56,8 +53,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -66,14 +62,12 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p0, p1}, Landroid/app/Activity;
-    ->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
+    invoke-virtual {p0, p1}, Landroid/app/Activity;->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
 return-void
 .end method
 

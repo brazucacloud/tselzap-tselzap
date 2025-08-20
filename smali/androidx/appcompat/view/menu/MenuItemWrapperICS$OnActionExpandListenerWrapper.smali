@@ -28,19 +28,16 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/view/menu/MenuItemWrapperICS$OnActionExpandListenerWrapper;
-    ->this$0:Landroidx/appcompat/view/menu/MenuItemWrapperICS;
+    iput-object p1, p0, Landroidx/appcompat/view/menu/MenuItemWrapperICS$OnActionExpandListenerWrapper;->this$0:Landroidx/appcompat/view/menu/MenuItemWrapperICS;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/appcompat/view/menu/MenuItemWrapperICS$OnActionExpandListenerWrapper;
-    ->mObject:Landroid/view/MenuItem$OnActionExpandListener;    
+    iput-object p2, p0, Landroidx/appcompat/view/menu/MenuItemWrapperICS$OnActionExpandListenerWrapper;->mObject:Landroid/view/MenuItem$OnActionExpandListener;
     return-void
 .end method
 
@@ -50,18 +47,15 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuItemWrapperICS$OnActionExpandListenerWrapper;
-    ->mObject:Landroid/view/MenuItem$OnActionExpandListener;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuItemWrapperICS$OnActionExpandListenerWrapper;->mObject:Landroid/view/MenuItem$OnActionExpandListener;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/appcompat/view/menu/MenuItemWrapperICS$OnActionExpandListenerWrapper;
-    ->this$0:Landroidx/appcompat/view/menu/MenuItemWrapperICS;
+    iget-object v1, p0, Landroidx/appcompat/view/menu/MenuItemWrapperICS$OnActionExpandListenerWrapper;->this$0:Landroidx/appcompat/view/menu/MenuItemWrapperICS;
 
     .line 4
     .line 5
-    invoke-virtual {v1, p1}, Landroidx/appcompat/view/menu/BaseMenuWrapper;
-    ->getMenuItemWrapper(Landroid/view/MenuItem;)Landroid/view/MenuItem;
+    invoke-virtual {v1, p1}, Landroidx/appcompat/view/menu/BaseMenuWrapper;->getMenuItemWrapper(Landroid/view/MenuItem;)Landroid/view/MenuItem;
 
     .line 6
     .line 7
@@ -69,8 +63,7 @@
     move-result-object p1
 
     .line 9
-    invoke-interface {v0, p1}, Landroid/view/MenuItem$OnActionExpandListener;
-    ->onMenuItemActionCollapse(Landroid/view/MenuItem;)Z
+    invoke-interface {v0, p1}, Landroid/view/MenuItem$OnActionExpandListener;->onMenuItemActionCollapse(Landroid/view/MenuItem;)Z
 
     .line 10
     .line 11
@@ -84,18 +77,15 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuItemWrapperICS$OnActionExpandListenerWrapper;
-    ->mObject:Landroid/view/MenuItem$OnActionExpandListener;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuItemWrapperICS$OnActionExpandListenerWrapper;->mObject:Landroid/view/MenuItem$OnActionExpandListener;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/appcompat/view/menu/MenuItemWrapperICS$OnActionExpandListenerWrapper;
-    ->this$0:Landroidx/appcompat/view/menu/MenuItemWrapperICS;
+    iget-object v1, p0, Landroidx/appcompat/view/menu/MenuItemWrapperICS$OnActionExpandListenerWrapper;->this$0:Landroidx/appcompat/view/menu/MenuItemWrapperICS;
 
     .line 4
     .line 5
-    invoke-virtual {v1, p1}, Landroidx/appcompat/view/menu/BaseMenuWrapper;
-    ->getMenuItemWrapper(Landroid/view/MenuItem;)Landroid/view/MenuItem;
+    invoke-virtual {v1, p1}, Landroidx/appcompat/view/menu/BaseMenuWrapper;->getMenuItemWrapper(Landroid/view/MenuItem;)Landroid/view/MenuItem;
 
     .line 6
     .line 7
@@ -103,8 +93,7 @@
     move-result-object p1
 
     .line 9
-    invoke-interface {v0, p1}, Landroid/view/MenuItem$OnActionExpandListener;
-    ->onMenuItemActionExpand(Landroid/view/MenuItem;)Z
+    invoke-interface {v0, p1}, Landroid/view/MenuItem$OnActionExpandListener;->onMenuItemActionExpand(Landroid/view/MenuItem;)Z
 
     .line 10
     .line 11

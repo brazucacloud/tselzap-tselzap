@@ -15,14 +15,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/appcompat/app/NavItemSelectedListener;
-    ->mListener:Landroidx/appcompat/app/ActionBar$OnNavigationListener;    
+    iput-object p1, p0, Landroidx/appcompat/app/NavItemSelectedListener;->mListener:Landroidx/appcompat/app/ActionBar$OnNavigationListener;
     return-void
 .end method
 
@@ -41,8 +39,7 @@
     .end annotation
 
     .line 1
-    iget-object p1, p0, Landroidx/appcompat/app/NavItemSelectedListener;
-    ->mListener:Landroidx/appcompat/app/ActionBar$OnNavigationListener;
+    iget-object p1, p0, Landroidx/appcompat/app/NavItemSelectedListener;->mListener:Landroidx/appcompat/app/ActionBar$OnNavigationListener;
 
     .line 2
     .line 3
@@ -50,8 +47,7 @@
 
     .line 4
     .line 5
-    invoke-interface {p1, p3, p4, p5}, Landroidx/appcompat/app/ActionBar$OnNavigationListener;
-    ->onNavigationItemSelected(IJ)Z
+    invoke-interface {p1, p3, p4, p5}, Landroidx/appcompat/app/ActionBar$OnNavigationListener;->onNavigationItemSelected(IJ)Z
 
     .line 6
     .line 7

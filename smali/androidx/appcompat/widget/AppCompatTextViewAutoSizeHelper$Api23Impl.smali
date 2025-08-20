@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -57,8 +56,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0}, Ljava/lang/CharSequence;
-    ->length()I
+    invoke-interface {p0}, Ljava/lang/CharSequence;->length()I
 
     .line 2
     .line 3
@@ -69,8 +67,7 @@
     const/4 v1, 0x0
 
     .line 6
-    invoke-static {p0, v1, v0, p5, p2}, Landroid/text/StaticLayout$Builder;
-    ->obtain(Ljava/lang/CharSequence;IILandroid/text/TextPaint;I)Landroid/text/StaticLayout$Builder;
+    invoke-static {p0, v1, v0, p5, p2}, Landroid/text/StaticLayout$Builder;->obtain(Ljava/lang/CharSequence;IILandroid/text/TextPaint;I)Landroid/text/StaticLayout$Builder;
 
     .line 7
     .line 8
@@ -78,8 +75,7 @@
     move-result-object p0
 
     .line 10
-    invoke-virtual {p0, p1}, Landroid/text/StaticLayout$Builder;
-    ->setAlignment(Landroid/text/Layout$Alignment;)Landroid/text/StaticLayout$Builder;
+    invoke-virtual {p0, p1}, Landroid/text/StaticLayout$Builder;->setAlignment(Landroid/text/Layout$Alignment;)Landroid/text/StaticLayout$Builder;
 
     .line 11
     .line 12
@@ -87,8 +83,7 @@
     move-result-object p1
 
     .line 14
-    invoke-virtual {p4}, Landroid/widget/TextView;
-    ->getLineSpacingExtra()F
+    invoke-virtual {p4}, Landroid/widget/TextView;->getLineSpacingExtra()F
 
     .line 15
     .line 16
@@ -96,8 +91,7 @@
     move-result p2
 
     .line 18
-    invoke-virtual {p4}, Landroid/widget/TextView;
-    ->getLineSpacingMultiplier()F
+    invoke-virtual {p4}, Landroid/widget/TextView;->getLineSpacingMultiplier()F
 
     .line 19
     .line 20
@@ -105,8 +99,7 @@
     move-result p5
 
     .line 22
-    invoke-virtual {p1, p2, p5}, Landroid/text/StaticLayout$Builder;
-    ->setLineSpacing(FF)Landroid/text/StaticLayout$Builder;
+    invoke-virtual {p1, p2, p5}, Landroid/text/StaticLayout$Builder;->setLineSpacing(FF)Landroid/text/StaticLayout$Builder;
 
     .line 23
     .line 24
@@ -114,8 +107,7 @@
     move-result-object p1
 
     .line 26
-    invoke-virtual {p4}, Landroid/widget/TextView;
-    ->getIncludeFontPadding()Z
+    invoke-virtual {p4}, Landroid/widget/TextView;->getIncludeFontPadding()Z
 
     .line 27
     .line 28
@@ -123,8 +115,7 @@
     move-result p2
 
     .line 30
-    invoke-virtual {p1, p2}, Landroid/text/StaticLayout$Builder;
-    ->setIncludePad(Z)Landroid/text/StaticLayout$Builder;
+    invoke-virtual {p1, p2}, Landroid/text/StaticLayout$Builder;->setIncludePad(Z)Landroid/text/StaticLayout$Builder;
 
     .line 31
     .line 32
@@ -132,8 +123,7 @@
     move-result-object p1
 
     .line 34
-    invoke-virtual {p4}, Landroid/widget/TextView;
-    ->getBreakStrategy()I
+    invoke-virtual {p4}, Landroid/widget/TextView;->getBreakStrategy()I
 
     .line 35
     .line 36
@@ -141,8 +131,7 @@
     move-result p2
 
     .line 38
-    invoke-virtual {p1, p2}, Landroid/text/StaticLayout$Builder;
-    ->setBreakStrategy(I)Landroid/text/StaticLayout$Builder;
+    invoke-virtual {p1, p2}, Landroid/text/StaticLayout$Builder;->setBreakStrategy(I)Landroid/text/StaticLayout$Builder;
 
     .line 39
     .line 40
@@ -150,8 +139,7 @@
     move-result-object p1
 
     .line 42
-    invoke-virtual {p4}, Landroid/widget/TextView;
-    ->getHyphenationFrequency()I
+    invoke-virtual {p4}, Landroid/widget/TextView;->getHyphenationFrequency()I
 
     .line 43
     .line 44
@@ -159,8 +147,7 @@
     move-result p2
 
     .line 46
-    invoke-virtual {p1, p2}, Landroid/text/StaticLayout$Builder;
-    ->setHyphenationFrequency(I)Landroid/text/StaticLayout$Builder;
+    invoke-virtual {p1, p2}, Landroid/text/StaticLayout$Builder;->setHyphenationFrequency(I)Landroid/text/StaticLayout$Builder;
 
     .line 47
     .line 48
@@ -181,15 +168,13 @@
     .line 55
     .line 56
     :cond_0
-    invoke-virtual {p1, p3}, Landroid/text/StaticLayout$Builder;
-    ->setMaxLines(I)Landroid/text/StaticLayout$Builder;
+    invoke-virtual {p1, p3}, Landroid/text/StaticLayout$Builder;->setMaxLines(I)Landroid/text/StaticLayout$Builder;
 
     .line 57
     .line 58
     .line 59
     :try_start_0
-    invoke-virtual {p6, p0, p4}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper$Impl;
-    ->computeAndSetTextDirection(Landroid/text/StaticLayout$Builder;Landroid/widget/TextView;)V
+    invoke-virtual {p6, p0, p4}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper$Impl;->computeAndSetTextDirection(Landroid/text/StaticLayout$Builder;Landroid/widget/TextView;)V
     :try_end_0
     .catch Ljava/lang/ClassCastException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -208,15 +193,13 @@
 
     .line 66
     .line 67
-    invoke-static {p1, p2}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, p2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 68
     .line 69
     .line 70
     :goto_0
-    invoke-virtual {p0}, Landroid/text/StaticLayout$Builder;
-    ->build()Landroid/text/StaticLayout;
+    invoke-virtual {p0}, Landroid/text/StaticLayout$Builder;->build()Landroid/text/StaticLayout;
 
     .line 71
     .line 72

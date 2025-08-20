@@ -40,19 +40,16 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/datastore/core/State;
-    -><init>(Lkotlin/jvm/internal/e;)V
+    invoke-direct {p0, v0}, Landroidx/datastore/core/State;-><init>(Lkotlin/jvm/internal/e;)V
 
     .line 3
     .line 4
     .line 5
-    iput-object p1, p0, Landroidx/datastore/core/Data;
-    ->value:Ljava/lang/Object;
+    iput-object p1, p0, Landroidx/datastore/core/Data;->value:Ljava/lang/Object;
 
     .line 6
     .line 7
-    iput p2, p0, Landroidx/datastore/core/Data;
-    ->hashCode:I
+    iput p2, p0, Landroidx/datastore/core/Data;->hashCode:I
 
     .line 8
     .line 9
@@ -65,8 +62,7 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/core/Data;
-    ->value:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/datastore/core/Data;->value:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -77,8 +73,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Ljava/lang/Object;
-    ->hashCode()I
+    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
 
     .line 7
     .line 8
@@ -94,8 +89,7 @@
 
     .line 12
     :goto_0
-    iget v2, p0, Landroidx/datastore/core/Data;
-    ->hashCode:I
+    iget v2, p0, Landroidx/datastore/core/Data;->hashCode:I
 
     .line 13
     .line 14
@@ -123,8 +117,7 @@
 
     .line 23
     .line 24
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 25
     .line 26
@@ -195,8 +188,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/core/Data;
-    ->hashCode:I
+    iget v0, p0, Landroidx/datastore/core/Data;->hashCode:I
 
     .line 2
     .line 3
@@ -212,8 +204,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/core/Data;
-    ->value:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/datastore/core/Data;->value:Ljava/lang/Object;
 
     .line 2
     .line 3

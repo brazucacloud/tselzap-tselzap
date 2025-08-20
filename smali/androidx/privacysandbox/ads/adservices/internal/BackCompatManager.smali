@@ -13,11 +13,9 @@
 
     new-instance v0, Landroidx/privacysandbox/ads/adservices/internal/BackCompatManager;
 
-    invoke-direct {v0}, Landroidx/privacysandbox/ads/adservices/internal/BackCompatManager;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/privacysandbox/ads/adservices/internal/BackCompatManager;-><init>()V
 
-    sput-object v0, Landroidx/privacysandbox/ads/adservices/internal/BackCompatManager;
-    ->INSTANCE:Landroidx/privacysandbox/ads/adservices/internal/BackCompatManager;
+    sput-object v0, Landroidx/privacysandbox/ads/adservices/internal/BackCompatManager;->INSTANCE:Landroidx/privacysandbox/ads/adservices/internal/BackCompatManager;
 
     return-void
 .end method
@@ -26,8 +24,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -52,8 +49,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -62,8 +58,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -72,15 +67,13 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
     .line 16
     :try_start_0
-    invoke-interface {p3, p1}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, p1}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -101,19 +94,16 @@
 
     .line 24
     .line 25
-    invoke-direct {p1, p3}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 26
     .line 27
     .line 28
-    sget-object p3, Landroidx/privacysandbox/ads/adservices/internal/AdServicesInfo;
-    ->INSTANCE:Landroidx/privacysandbox/ads/adservices/internal/AdServicesInfo;
+    sget-object p3, Landroidx/privacysandbox/ads/adservices/internal/AdServicesInfo;->INSTANCE:Landroidx/privacysandbox/ads/adservices/internal/AdServicesInfo;
 
     .line 29
     .line 30
-    invoke-virtual {p3}, Landroidx/privacysandbox/ads/adservices/internal/AdServicesInfo;
-    ->extServicesVersionS()I
+    invoke-virtual {p3}, Landroidx/privacysandbox/ads/adservices/internal/AdServicesInfo;->extServicesVersionS()I
 
     .line 31
     .line 32
@@ -121,14 +111,12 @@
     move-result p3
 
     .line 34
-    invoke-virtual {p1, p3}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 35
     .line 36
     .line 37
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 38
     .line 39
@@ -136,8 +124,7 @@
     move-result-object p1
 
     .line 41
-    invoke-static {p2, p1}, Landroid/util/Log;
-    ->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p2, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 42
     .line 43

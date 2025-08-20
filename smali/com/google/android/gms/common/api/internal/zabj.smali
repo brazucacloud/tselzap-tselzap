@@ -12,8 +12,7 @@
     .locals 3
 
     .line 1
-    invoke-static {}, Lcom/google/android/gms/internal/base/zat;
-    ->zaa()Lcom/google/android/gms/internal/base/zaq;
+    invoke-static {}, Lcom/google/android/gms/internal/base/zat;->zaa()Lcom/google/android/gms/internal/base/zaq;
 
     .line 2
     .line 3
@@ -29,8 +28,7 @@
 
     .line 8
     .line 9
-    invoke-direct {v1, v2}, Lcom/google/android/gms/common/util/concurrent/NumberedThreadFactory;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Lcom/google/android/gms/common/util/concurrent/NumberedThreadFactory;-><init>(Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -38,8 +36,7 @@
     const/4 v2, 0x2
 
     .line 13
-    invoke-interface {v0, v2, v1, v2}, Lcom/google/android/gms/internal/base/zaq;
-    ->zac(ILjava/util/concurrent/ThreadFactory;I)Ljava/util/concurrent/ExecutorService;
+    invoke-interface {v0, v2, v1, v2}, Lcom/google/android/gms/internal/base/zaq;->zac(ILjava/util/concurrent/ThreadFactory;I)Ljava/util/concurrent/ExecutorService;
 
     .line 14
     .line 15
@@ -47,8 +44,7 @@
     move-result-object v0
 
     .line 17
-    sput-object v0, Lcom/google/android/gms/common/api/internal/zabj;
-    ->zaa:Ljava/util/concurrent/ExecutorService;
+    sput-object v0, Lcom/google/android/gms/common/api/internal/zabj;->zaa:Ljava/util/concurrent/ExecutorService;
 
     .line 18
     .line 19
@@ -58,8 +54,7 @@
 .method public static zaa()Ljava/util/concurrent/ExecutorService;
     .locals 1
 
-    sget-object v0, Lcom/google/android/gms/common/api/internal/zabj;
-    ->zaa:Ljava/util/concurrent/ExecutorService;
+    sget-object v0, Lcom/google/android/gms/common/api/internal/zabj;->zaa:Ljava/util/concurrent/ExecutorService;
 
     return-object v0
 .end method

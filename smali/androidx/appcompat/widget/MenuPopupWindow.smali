@@ -9,8 +9,7 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -39,8 +38,7 @@
 
     .line 1
     :try_start_0
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -67,8 +65,7 @@
 
     .line 13
     .line 14
-    sget-object v3, Ljava/lang/Boolean;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v3, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
 
     .line 15
     .line 16
@@ -79,8 +76,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {v0, v1, v2}, Ljava/lang/Class;
-    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v0, v1, v2}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 20
     .line 21
@@ -88,8 +84,7 @@
     move-result-object v0
 
     .line 23
-    sput-object v0, Landroidx/appcompat/widget/MenuPopupWindow;
-    ->sSetTouchModalMethod:Ljava/lang/reflect/Method;
+    sput-object v0, Landroidx/appcompat/widget/MenuPopupWindow;->sSetTouchModalMethod:Ljava/lang/reflect/Method;
     :try_end_0
     .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
@@ -103,8 +98,7 @@
 
     .line 29
     .line 30
-    invoke-static {v0, v1}, Landroid/util/Log;
-    ->i(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 31
     .line 32
@@ -125,8 +119,7 @@
     .end param
 
     .line 1
-    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/appcompat/widget/ListPopupWindow;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
+    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/appcompat/widget/ListPopupWindow;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 return-void
 .end method
 
@@ -142,14 +135,12 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/MenuPopupWindow$MenuDropDownListView;
-    -><init>(Landroid/content/Context;Z)V
+    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/MenuPopupWindow$MenuDropDownListView;-><init>(Landroid/content/Context;Z)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {v0, p0}, Landroidx/appcompat/widget/MenuPopupWindow$MenuDropDownListView;
-    ->setHoverListener(Landroidx/appcompat/widget/MenuItemHoverListener;)V    
+    invoke-virtual {v0, p0}, Landroidx/appcompat/widget/MenuPopupWindow$MenuDropDownListView;->setHoverListener(Landroidx/appcompat/widget/MenuItemHoverListener;)V
     return-object v0
 .end method
 
@@ -165,8 +156,7 @@ return-void
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/MenuPopupWindow;
-    ->mHoverListener:Landroidx/appcompat/widget/MenuItemHoverListener;
+    iget-object v0, p0, Landroidx/appcompat/widget/MenuPopupWindow;->mHoverListener:Landroidx/appcompat/widget/MenuItemHoverListener;
 
     .line 2
     .line 3
@@ -174,8 +164,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-interface {v0, p1, p2}, Landroidx/appcompat/widget/MenuItemHoverListener;
-    ->onItemHoverEnter(Landroidx/appcompat/view/menu/MenuBuilder;Landroid/view/MenuItem;)V
+    invoke-interface {v0, p1, p2}, Landroidx/appcompat/widget/MenuItemHoverListener;->onItemHoverEnter(Landroidx/appcompat/view/menu/MenuBuilder;Landroid/view/MenuItem;)V
 
     .line 6
     .line 7
@@ -196,8 +185,7 @@ return-void
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/MenuPopupWindow;
-    ->mHoverListener:Landroidx/appcompat/widget/MenuItemHoverListener;
+    iget-object v0, p0, Landroidx/appcompat/widget/MenuPopupWindow;->mHoverListener:Landroidx/appcompat/widget/MenuItemHoverListener;
 
     .line 2
     .line 3
@@ -205,8 +193,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-interface {v0, p1, p2}, Landroidx/appcompat/widget/MenuItemHoverListener;
-    ->onItemHoverExit(Landroidx/appcompat/view/menu/MenuBuilder;Landroid/view/MenuItem;)V
+    invoke-interface {v0, p1, p2}, Landroidx/appcompat/widget/MenuItemHoverListener;->onItemHoverExit(Landroidx/appcompat/view/menu/MenuBuilder;Landroid/view/MenuItem;)V
 
     .line 6
     .line 7
@@ -219,8 +206,7 @@ return-void
     .locals 2
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -232,8 +218,7 @@ return-void
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/appcompat/widget/ListPopupWindow;
-    ->mPopup:Landroid/widget/PopupWindow;
+    iget-object v0, p0, Landroidx/appcompat/widget/ListPopupWindow;->mPopup:Landroid/widget/PopupWindow;
 
     .line 8
     .line 9
@@ -241,8 +226,7 @@ return-void
 
     .line 10
     .line 11
-    invoke-static {v0, p1}, Landroidx/appcompat/widget/MenuPopupWindow$Api23Impl;
-    ->setEnterTransition(Landroid/widget/PopupWindow;Landroid/transition/Transition;)V
+    invoke-static {v0, p1}, Landroidx/appcompat/widget/MenuPopupWindow$Api23Impl;->setEnterTransition(Landroid/widget/PopupWindow;Landroid/transition/Transition;)V
 
     .line 12
     .line 13
@@ -255,8 +239,7 @@ return-void
     .locals 2
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -268,8 +251,7 @@ return-void
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/appcompat/widget/ListPopupWindow;
-    ->mPopup:Landroid/widget/PopupWindow;
+    iget-object v0, p0, Landroidx/appcompat/widget/ListPopupWindow;->mPopup:Landroid/widget/PopupWindow;
 
     .line 8
     .line 9
@@ -277,8 +259,7 @@ return-void
 
     .line 10
     .line 11
-    invoke-static {v0, p1}, Landroidx/appcompat/widget/MenuPopupWindow$Api23Impl;
-    ->setExitTransition(Landroid/widget/PopupWindow;Landroid/transition/Transition;)V
+    invoke-static {v0, p1}, Landroidx/appcompat/widget/MenuPopupWindow$Api23Impl;->setExitTransition(Landroid/widget/PopupWindow;Landroid/transition/Transition;)V
 
     .line 12
     .line 13
@@ -291,8 +272,7 @@ return-void
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/MenuPopupWindow;
-    ->mHoverListener:Landroidx/appcompat/widget/MenuItemHoverListener;    
+    iput-object p1, p0, Landroidx/appcompat/widget/MenuPopupWindow;->mHoverListener:Landroidx/appcompat/widget/MenuItemHoverListener;
     return-void
 .end method
 
@@ -300,8 +280,7 @@ return-void
     .locals 4
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -313,8 +292,7 @@ return-void
 
     .line 6
     .line 7
-    sget-object v0, Landroidx/appcompat/widget/MenuPopupWindow;
-    ->sSetTouchModalMethod:Ljava/lang/reflect/Method;
+    sget-object v0, Landroidx/appcompat/widget/MenuPopupWindow;->sSetTouchModalMethod:Ljava/lang/reflect/Method;
 
     .line 8
     .line 9
@@ -323,13 +301,11 @@ return-void
     .line 10
     .line 11
     :try_start_0
-    iget-object v1, p0, Landroidx/appcompat/widget/ListPopupWindow;
-    ->mPopup:Landroid/widget/PopupWindow;
+    iget-object v1, p0, Landroidx/appcompat/widget/ListPopupWindow;->mPopup:Landroid/widget/PopupWindow;
 
     .line 12
     .line 13
-    invoke-static {p1}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 14
     .line 15
@@ -351,8 +327,7 @@ return-void
 
     .line 22
     .line 23
-    invoke-virtual {v0, v1, v2}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
@@ -366,8 +341,7 @@ return-void
 
     .line 30
     .line 31
-    invoke-static {p1, v0}, Landroid/util/Log;
-    ->i(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 32
     .line 33
@@ -377,13 +351,11 @@ return-void
 
     .line 35
     :cond_1
-    iget-object v0, p0, Landroidx/appcompat/widget/ListPopupWindow;
-    ->mPopup:Landroid/widget/PopupWindow;
+    iget-object v0, p0, Landroidx/appcompat/widget/ListPopupWindow;->mPopup:Landroid/widget/PopupWindow;
 
     .line 36
     .line 37
-    invoke-static {v0, p1}, Landroidx/appcompat/widget/MenuPopupWindow$Api29Impl;
-    ->setTouchModal(Landroid/widget/PopupWindow;Z)V
+    invoke-static {v0, p1}, Landroidx/appcompat/widget/MenuPopupWindow$Api29Impl;->setTouchModal(Landroid/widget/PopupWindow;Z)V
 return-void
 .end method
 

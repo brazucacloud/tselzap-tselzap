@@ -25,8 +25,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -35,8 +34,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -45,8 +43,7 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -55,8 +52,7 @@
 
     .line 17
     .line 18
-    invoke-direct {v0, p0, p1, p2, p3}, Landroidx/datastore/preferences/PreferenceDataStoreSingletonDelegate;
-    -><init>(Ljava/lang/String;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Lp1/l;Lz1/v;)V
+    invoke-direct {v0, p0, p1, p2, p3}, Landroidx/datastore/preferences/PreferenceDataStoreSingletonDelegate;-><init>(Ljava/lang/String;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Lp1/l;Lz1/v;)V
 return-object v0
 .end method
 
@@ -84,8 +80,7 @@ return-object v0
 
     .line 9
     .line 10
-    sget-object p2, Landroidx/datastore/preferences/PreferenceDataStoreDelegateKt$preferencesDataStore$1;
-    ->INSTANCE:Landroidx/datastore/preferences/PreferenceDataStoreDelegateKt$preferencesDataStore$1;
+    sget-object p2, Landroidx/datastore/preferences/PreferenceDataStoreDelegateKt$preferencesDataStore$1;->INSTANCE:Landroidx/datastore/preferences/PreferenceDataStoreDelegateKt$preferencesDataStore$1;
 
     .line 11
     .line 12
@@ -98,13 +93,11 @@ return-object v0
 
     .line 15
     .line 16
-    sget-object p3, Lz1/F;
-    ->b:LG1/c;
+    sget-object p3, Lz1/F;->b:LG1/c;
 
     .line 17
     .line 18
-    invoke-static {}, Lz1/w;
-    ->b()Lz1/l0;
+    invoke-static {}, Lz1/w;->b()Lz1/l0;
 
     .line 19
     .line 20
@@ -112,8 +105,7 @@ return-object v0
     move-result-object p4
 
     .line 22
-    invoke-virtual {p3, p4}, Lg1/a;
-    ->plus(Lg1/i;)Lg1/i;
+    invoke-virtual {p3, p4}, Lg1/a;->plus(Lg1/i;)Lg1/i;
 
     .line 23
     .line 24
@@ -121,8 +113,7 @@ return-object v0
     move-result-object p3
 
     .line 26
-    invoke-static {p3}, Lz1/w;
-    ->a(Lg1/i;)LE1/e;
+    invoke-static {p3}, Lz1/w;->a(Lg1/i;)LE1/e;
 
     .line 27
     .line 28
@@ -131,8 +122,7 @@ return-object v0
 
     .line 30
     :cond_2
-    invoke-static {p0, p1, p2, p3}, Landroidx/datastore/preferences/PreferenceDataStoreDelegateKt;
-    ->preferencesDataStore(Ljava/lang/String;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Lp1/l;Lz1/v;)Lr1/a;
+    invoke-static {p0, p1, p2, p3}, Landroidx/datastore/preferences/PreferenceDataStoreDelegateKt;->preferencesDataStore(Ljava/lang/String;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Lp1/l;Lz1/v;)Lr1/a;
 
     .line 31
     .line 32

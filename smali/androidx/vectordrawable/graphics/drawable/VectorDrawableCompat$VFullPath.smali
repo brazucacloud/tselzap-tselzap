@@ -45,56 +45,44 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;-><init>()V
 
     const/4 v0, 0x0
 
     .line 2
-    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeWidth:F
+    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeWidth:F
 
     const/high16 v1, 0x3f800000    # 1.0f
 
     .line 3
-    iput v1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeAlpha:F
+    iput v1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeAlpha:F
 
     .line 4
-    iput v1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mFillAlpha:F
+    iput v1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mFillAlpha:F
 
     .line 5
-    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mTrimPathStart:F
+    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mTrimPathStart:F
 
     .line 6
-    iput v1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mTrimPathEnd:F
+    iput v1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mTrimPathEnd:F
 
     .line 7
-    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mTrimPathOffset:F
+    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mTrimPathOffset:F
 
     .line 8
-    sget-object v0, Landroid/graphics/Paint$Cap;
-    ->BUTT:Landroid/graphics/Paint$Cap;
+    sget-object v0, Landroid/graphics/Paint$Cap;->BUTT:Landroid/graphics/Paint$Cap;
 
-    iput-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeLineCap:Landroid/graphics/Paint$Cap;
+    iput-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeLineCap:Landroid/graphics/Paint$Cap;
 
     .line 9
-    sget-object v0, Landroid/graphics/Paint$Join;
-    ->MITER:Landroid/graphics/Paint$Join;
+    sget-object v0, Landroid/graphics/Paint$Join;->MITER:Landroid/graphics/Paint$Join;
 
-    iput-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeLineJoin:Landroid/graphics/Paint$Join;
+    iput-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeLineJoin:Landroid/graphics/Paint$Join;
 
     const/high16 v0, 0x40800000    # 4.0f
 
     .line 10
-    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeMiterlimit:F
+    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeMiterlimit:F
 
     return-void
 .end method
@@ -103,147 +91,109 @@
     .locals 2
 
     .line 11
-    invoke-direct {p0, p1}, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;
-    -><init>(Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;)V
+    invoke-direct {p0, p1}, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;-><init>(Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;)V
 
     const/4 v0, 0x0
 
     .line 12
-    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeWidth:F
+    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeWidth:F
 
     const/high16 v1, 0x3f800000    # 1.0f
 
     .line 13
-    iput v1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeAlpha:F
+    iput v1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeAlpha:F
 
     .line 14
-    iput v1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mFillAlpha:F
+    iput v1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mFillAlpha:F
 
     .line 15
-    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mTrimPathStart:F
+    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mTrimPathStart:F
 
     .line 16
-    iput v1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mTrimPathEnd:F
+    iput v1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mTrimPathEnd:F
 
     .line 17
-    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mTrimPathOffset:F
+    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mTrimPathOffset:F
 
     .line 18
-    sget-object v0, Landroid/graphics/Paint$Cap;
-    ->BUTT:Landroid/graphics/Paint$Cap;
+    sget-object v0, Landroid/graphics/Paint$Cap;->BUTT:Landroid/graphics/Paint$Cap;
 
-    iput-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeLineCap:Landroid/graphics/Paint$Cap;
+    iput-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeLineCap:Landroid/graphics/Paint$Cap;
 
     .line 19
-    sget-object v0, Landroid/graphics/Paint$Join;
-    ->MITER:Landroid/graphics/Paint$Join;
+    sget-object v0, Landroid/graphics/Paint$Join;->MITER:Landroid/graphics/Paint$Join;
 
-    iput-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeLineJoin:Landroid/graphics/Paint$Join;
+    iput-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeLineJoin:Landroid/graphics/Paint$Join;
 
     const/high16 v0, 0x40800000    # 4.0f
 
     .line 20
-    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeMiterlimit:F
+    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeMiterlimit:F
 
     .line 21
-    iget-object v0, p1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mThemeAttrs:[I
+    iget-object v0, p1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mThemeAttrs:[I
 
-    iput-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mThemeAttrs:[I
+    iput-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mThemeAttrs:[I
 
     .line 22
-    iget-object v0, p1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeColor:Landroidx/core/content/res/ComplexColorCompat;
+    iget-object v0, p1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeColor:Landroidx/core/content/res/ComplexColorCompat;
 
-    iput-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeColor:Landroidx/core/content/res/ComplexColorCompat;
+    iput-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeColor:Landroidx/core/content/res/ComplexColorCompat;
 
     .line 23
-    iget v0, p1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeWidth:F
+    iget v0, p1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeWidth:F
 
-    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeWidth:F
+    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeWidth:F
 
     .line 24
-    iget v0, p1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeAlpha:F
+    iget v0, p1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeAlpha:F
 
-    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeAlpha:F
+    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeAlpha:F
 
     .line 25
-    iget-object v0, p1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mFillColor:Landroidx/core/content/res/ComplexColorCompat;
+    iget-object v0, p1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mFillColor:Landroidx/core/content/res/ComplexColorCompat;
 
-    iput-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mFillColor:Landroidx/core/content/res/ComplexColorCompat;
+    iput-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mFillColor:Landroidx/core/content/res/ComplexColorCompat;
 
     .line 26
-    iget v0, p1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;
-    ->mFillRule:I
+    iget v0, p1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;->mFillRule:I
 
-    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;
-    ->mFillRule:I
+    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;->mFillRule:I
 
     .line 27
-    iget v0, p1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mFillAlpha:F
+    iget v0, p1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mFillAlpha:F
 
-    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mFillAlpha:F
+    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mFillAlpha:F
 
     .line 28
-    iget v0, p1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mTrimPathStart:F
+    iget v0, p1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mTrimPathStart:F
 
-    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mTrimPathStart:F
+    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mTrimPathStart:F
 
     .line 29
-    iget v0, p1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mTrimPathEnd:F
+    iget v0, p1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mTrimPathEnd:F
 
-    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mTrimPathEnd:F
+    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mTrimPathEnd:F
 
     .line 30
-    iget v0, p1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mTrimPathOffset:F
+    iget v0, p1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mTrimPathOffset:F
 
-    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mTrimPathOffset:F
+    iput v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mTrimPathOffset:F
 
     .line 31
-    iget-object v0, p1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeLineCap:Landroid/graphics/Paint$Cap;
+    iget-object v0, p1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeLineCap:Landroid/graphics/Paint$Cap;
 
-    iput-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeLineCap:Landroid/graphics/Paint$Cap;
+    iput-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeLineCap:Landroid/graphics/Paint$Cap;
 
     .line 32
-    iget-object v0, p1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeLineJoin:Landroid/graphics/Paint$Join;
+    iget-object v0, p1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeLineJoin:Landroid/graphics/Paint$Join;
 
-    iput-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeLineJoin:Landroid/graphics/Paint$Join;
+    iput-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeLineJoin:Landroid/graphics/Paint$Join;
 
     .line 33
-    iget p1, p1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeMiterlimit:F
+    iget p1, p1, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeMiterlimit:F
 
-    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeMiterlimit:F
+    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeMiterlimit:F
 
     return-void
 .end method
@@ -270,18 +220,15 @@
 
     .line 10
     :cond_0
-    sget-object p1, Landroid/graphics/Paint$Cap;
-    ->SQUARE:Landroid/graphics/Paint$Cap;    return-object p1
+    sget-object p1, Landroid/graphics/Paint$Cap;->SQUARE:Landroid/graphics/Paint$Cap;    return-object p1
 
     .line 13
     :cond_1
-    sget-object p1, Landroid/graphics/Paint$Cap;
-    ->ROUND:Landroid/graphics/Paint$Cap;    return-object p1
+    sget-object p1, Landroid/graphics/Paint$Cap;->ROUND:Landroid/graphics/Paint$Cap;    return-object p1
 
     .line 16
     :cond_2
-    sget-object p1, Landroid/graphics/Paint$Cap;
-    ->BUTT:Landroid/graphics/Paint$Cap;    return-object p1
+    sget-object p1, Landroid/graphics/Paint$Cap;->BUTT:Landroid/graphics/Paint$Cap;    return-object p1
 .end method
 
 .method private getStrokeLineJoin(ILandroid/graphics/Paint$Join;)Landroid/graphics/Paint$Join;
@@ -306,18 +253,15 @@
 
     .line 10
     :cond_0
-    sget-object p1, Landroid/graphics/Paint$Join;
-    ->BEVEL:Landroid/graphics/Paint$Join;    return-object p1
+    sget-object p1, Landroid/graphics/Paint$Join;->BEVEL:Landroid/graphics/Paint$Join;    return-object p1
 
     .line 13
     :cond_1
-    sget-object p1, Landroid/graphics/Paint$Join;
-    ->ROUND:Landroid/graphics/Paint$Join;    return-object p1
+    sget-object p1, Landroid/graphics/Paint$Join;->ROUND:Landroid/graphics/Paint$Join;    return-object p1
 
     .line 16
     :cond_2
-    sget-object p1, Landroid/graphics/Paint$Join;
-    ->MITER:Landroid/graphics/Paint$Join;    return-object p1
+    sget-object p1, Landroid/graphics/Paint$Join;->MITER:Landroid/graphics/Paint$Join;    return-object p1
 .end method
 
 .method private updateStateFromTypedArray(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Landroid/content/res/Resources$Theme;)V
@@ -327,8 +271,7 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mThemeAttrs:[I
+    iput-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mThemeAttrs:[I
 
     .line 3
     .line 4
@@ -336,8 +279,7 @@
 
     .line 5
     .line 6
-    invoke-static {p2, v0}, Landroidx/core/content/res/TypedArrayUtils;
-    ->hasAttribute(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
+    invoke-static {p2, v0}, Landroidx/core/content/res/TypedArrayUtils;->hasAttribute(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
 
     .line 7
     .line 8
@@ -352,8 +294,7 @@
     const/4 v0, 0x0
 
     .line 14
-    invoke-virtual {p1, v0}, Landroid/content/res/TypedArray;
-    ->getString(I)Ljava/lang/String;
+    invoke-virtual {p1, v0}, Landroid/content/res/TypedArray;->getString(I)Ljava/lang/String;
 
     .line 15
     .line 16
@@ -365,8 +306,7 @@
 
     .line 19
     .line 20
-    iput-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;
-    ->mPathName:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;->mPathName:Ljava/lang/String;
 
     .line 21
     .line 22
@@ -374,8 +314,7 @@
     const/4 v0, 0x2
 
     .line 23
-    invoke-virtual {p1, v0}, Landroid/content/res/TypedArray;
-    ->getString(I)Ljava/lang/String;
+    invoke-virtual {p1, v0}, Landroid/content/res/TypedArray;->getString(I)Ljava/lang/String;
 
     .line 24
     .line 25
@@ -387,8 +326,7 @@
 
     .line 28
     .line 29
-    invoke-static {v0}, Landroidx/core/graphics/PathParser;
-    ->createNodesFromPathData(Ljava/lang/String;)[Landroidx/core/graphics/PathParser$PathDataNode;
+    invoke-static {v0}, Landroidx/core/graphics/PathParser;->createNodesFromPathData(Ljava/lang/String;)[Landroidx/core/graphics/PathParser$PathDataNode;
 
     .line 30
     .line 31
@@ -396,8 +334,7 @@
     move-result-object v0
 
     .line 33
-    iput-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;
-    ->mNodes:[Landroidx/core/graphics/PathParser$PathDataNode;
+    iput-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;->mNodes:[Landroidx/core/graphics/PathParser$PathDataNode;
 
     .line 34
     .line 35
@@ -421,8 +358,7 @@
     move-object v3, p3
 
     .line 42
-    invoke-static/range {v1 .. v6}, Landroidx/core/content/res/TypedArrayUtils;
-    ->getNamedComplexColor(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Landroid/content/res/Resources$Theme;Ljava/lang/String;II)Landroidx/core/content/res/ComplexColorCompat;
+    invoke-static/range {v1 .. v6}, Landroidx/core/content/res/TypedArrayUtils;->getNamedComplexColor(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Landroid/content/res/Resources$Theme;Ljava/lang/String;II)Landroidx/core/content/res/ComplexColorCompat;
 
     .line 43
     .line 44
@@ -439,8 +375,7 @@
     move-object v2, v3
 
     .line 49
-    iput-object p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mFillColor:Landroidx/core/content/res/ComplexColorCompat;
+    iput-object p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mFillColor:Landroidx/core/content/res/ComplexColorCompat;
 
     .line 50
     .line 51
@@ -448,8 +383,7 @@
 
     .line 52
     .line 53
-    iget p2, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mFillAlpha:F
+    iget p2, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mFillAlpha:F
 
     .line 54
     .line 55
@@ -457,8 +391,7 @@
 
     .line 56
     .line 57
-    invoke-static {v0, v1, p3, p1, p2}, Landroidx/core/content/res/TypedArrayUtils;
-    ->getNamedFloat(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;IF)F
+    invoke-static {v0, v1, p3, p1, p2}, Landroidx/core/content/res/TypedArrayUtils;->getNamedFloat(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;IF)F
 
     .line 58
     .line 59
@@ -466,8 +399,7 @@
     move-result p1
 
     .line 61
-    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mFillAlpha:F
+    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mFillAlpha:F
 
     .line 62
     .line 63
@@ -482,8 +414,7 @@
     const/4 p3, -0x1
 
     .line 68
-    invoke-static {v0, v1, p1, p2, p3}, Landroidx/core/content/res/TypedArrayUtils;
-    ->getNamedInt(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;II)I
+    invoke-static {v0, v1, p1, p2, p3}, Landroidx/core/content/res/TypedArrayUtils;->getNamedInt(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;II)I
 
     .line 69
     .line 70
@@ -491,13 +422,11 @@
     move-result p1
 
     .line 72
-    iget-object p2, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeLineCap:Landroid/graphics/Paint$Cap;
+    iget-object p2, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeLineCap:Landroid/graphics/Paint$Cap;
 
     .line 73
     .line 74
-    invoke-direct {p0, p1, p2}, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->getStrokeLineCap(ILandroid/graphics/Paint$Cap;)Landroid/graphics/Paint$Cap;
+    invoke-direct {p0, p1, p2}, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->getStrokeLineCap(ILandroid/graphics/Paint$Cap;)Landroid/graphics/Paint$Cap;
 
     .line 75
     .line 76
@@ -505,8 +434,7 @@
     move-result-object p1
 
     .line 78
-    iput-object p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeLineCap:Landroid/graphics/Paint$Cap;
+    iput-object p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeLineCap:Landroid/graphics/Paint$Cap;
 
     .line 79
     .line 80
@@ -518,8 +446,7 @@
 
     .line 83
     .line 84
-    invoke-static {v0, v1, p1, p2, p3}, Landroidx/core/content/res/TypedArrayUtils;
-    ->getNamedInt(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;II)I
+    invoke-static {v0, v1, p1, p2, p3}, Landroidx/core/content/res/TypedArrayUtils;->getNamedInt(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;II)I
 
     .line 85
     .line 86
@@ -527,13 +454,11 @@
     move-result p1
 
     .line 88
-    iget-object p2, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeLineJoin:Landroid/graphics/Paint$Join;
+    iget-object p2, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeLineJoin:Landroid/graphics/Paint$Join;
 
     .line 89
     .line 90
-    invoke-direct {p0, p1, p2}, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->getStrokeLineJoin(ILandroid/graphics/Paint$Join;)Landroid/graphics/Paint$Join;
+    invoke-direct {p0, p1, p2}, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->getStrokeLineJoin(ILandroid/graphics/Paint$Join;)Landroid/graphics/Paint$Join;
 
     .line 91
     .line 92
@@ -541,8 +466,7 @@
     move-result-object p1
 
     .line 94
-    iput-object p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeLineJoin:Landroid/graphics/Paint$Join;
+    iput-object p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeLineJoin:Landroid/graphics/Paint$Join;
 
     .line 95
     .line 96
@@ -550,8 +474,7 @@
 
     .line 97
     .line 98
-    iget p2, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeMiterlimit:F
+    iget p2, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeMiterlimit:F
 
     .line 99
     .line 100
@@ -559,8 +482,7 @@
 
     .line 101
     .line 102
-    invoke-static {v0, v1, p3, p1, p2}, Landroidx/core/content/res/TypedArrayUtils;
-    ->getNamedFloat(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;IF)F
+    invoke-static {v0, v1, p3, p1, p2}, Landroidx/core/content/res/TypedArrayUtils;->getNamedFloat(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;IF)F
 
     .line 103
     .line 104
@@ -568,8 +490,7 @@
     move-result p1
 
     .line 106
-    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeMiterlimit:F
+    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeMiterlimit:F
 
     .line 107
     .line 108
@@ -583,8 +504,7 @@
 
     .line 111
     .line 112
-    invoke-static/range {v0 .. v5}, Landroidx/core/content/res/TypedArrayUtils;
-    ->getNamedComplexColor(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Landroid/content/res/Resources$Theme;Ljava/lang/String;II)Landroidx/core/content/res/ComplexColorCompat;
+    invoke-static/range {v0 .. v5}, Landroidx/core/content/res/TypedArrayUtils;->getNamedComplexColor(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Landroid/content/res/Resources$Theme;Ljava/lang/String;II)Landroidx/core/content/res/ComplexColorCompat;
 
     .line 113
     .line 114
@@ -592,8 +512,7 @@
     move-result-object p1
 
     .line 116
-    iput-object p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeColor:Landroidx/core/content/res/ComplexColorCompat;
+    iput-object p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeColor:Landroidx/core/content/res/ComplexColorCompat;
 
     .line 117
     .line 118
@@ -601,8 +520,7 @@
 
     .line 119
     .line 120
-    iget p2, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeAlpha:F
+    iget p2, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeAlpha:F
 
     .line 121
     .line 122
@@ -610,8 +528,7 @@
 
     .line 123
     .line 124
-    invoke-static {v0, v1, p3, p1, p2}, Landroidx/core/content/res/TypedArrayUtils;
-    ->getNamedFloat(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;IF)F
+    invoke-static {v0, v1, p3, p1, p2}, Landroidx/core/content/res/TypedArrayUtils;->getNamedFloat(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;IF)F
 
     .line 125
     .line 126
@@ -619,16 +536,14 @@
     move-result p1
 
     .line 128
-    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeAlpha:F
+    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeAlpha:F
 
     .line 129
     .line 130
     const/4 p1, 0x4
 
     .line 131
-    iget p2, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeWidth:F
+    iget p2, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeWidth:F
 
     .line 132
     .line 133
@@ -636,8 +551,7 @@
 
     .line 134
     .line 135
-    invoke-static {v0, v1, p3, p1, p2}, Landroidx/core/content/res/TypedArrayUtils;
-    ->getNamedFloat(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;IF)F
+    invoke-static {v0, v1, p3, p1, p2}, Landroidx/core/content/res/TypedArrayUtils;->getNamedFloat(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;IF)F
 
     .line 136
     .line 137
@@ -645,16 +559,14 @@
     move-result p1
 
     .line 139
-    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeWidth:F
+    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeWidth:F
 
     .line 140
     .line 141
     const/4 p1, 0x6
 
     .line 142
-    iget p2, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mTrimPathEnd:F
+    iget p2, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mTrimPathEnd:F
 
     .line 143
     .line 144
@@ -662,8 +574,7 @@
 
     .line 145
     .line 146
-    invoke-static {v0, v1, p3, p1, p2}, Landroidx/core/content/res/TypedArrayUtils;
-    ->getNamedFloat(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;IF)F
+    invoke-static {v0, v1, p3, p1, p2}, Landroidx/core/content/res/TypedArrayUtils;->getNamedFloat(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;IF)F
 
     .line 147
     .line 148
@@ -671,16 +582,14 @@
     move-result p1
 
     .line 150
-    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mTrimPathEnd:F
+    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mTrimPathEnd:F
 
     .line 151
     .line 152
     const/4 p1, 0x7
 
     .line 153
-    iget p2, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mTrimPathOffset:F
+    iget p2, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mTrimPathOffset:F
 
     .line 154
     .line 155
@@ -688,8 +597,7 @@
 
     .line 156
     .line 157
-    invoke-static {v0, v1, p3, p1, p2}, Landroidx/core/content/res/TypedArrayUtils;
-    ->getNamedFloat(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;IF)F
+    invoke-static {v0, v1, p3, p1, p2}, Landroidx/core/content/res/TypedArrayUtils;->getNamedFloat(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;IF)F
 
     .line 158
     .line 159
@@ -697,16 +605,14 @@
     move-result p1
 
     .line 161
-    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mTrimPathOffset:F
+    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mTrimPathOffset:F
 
     .line 162
     .line 163
     const/4 p1, 0x5
 
     .line 164
-    iget p2, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mTrimPathStart:F
+    iget p2, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mTrimPathStart:F
 
     .line 165
     .line 166
@@ -714,8 +620,7 @@
 
     .line 167
     .line 168
-    invoke-static {v0, v1, p3, p1, p2}, Landroidx/core/content/res/TypedArrayUtils;
-    ->getNamedFloat(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;IF)F
+    invoke-static {v0, v1, p3, p1, p2}, Landroidx/core/content/res/TypedArrayUtils;->getNamedFloat(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;IF)F
 
     .line 169
     .line 170
@@ -723,8 +628,7 @@
     move-result p1
 
     .line 172
-    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mTrimPathStart:F
+    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mTrimPathStart:F
 
     .line 173
     .line 174
@@ -732,8 +636,7 @@
 
     .line 175
     .line 176
-    iget p2, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;
-    ->mFillRule:I
+    iget p2, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;->mFillRule:I
 
     .line 177
     .line 178
@@ -741,8 +644,7 @@
 
     .line 179
     .line 180
-    invoke-static {v0, v1, p3, p1, p2}, Landroidx/core/content/res/TypedArrayUtils;
-    ->getNamedInt(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;II)I
+    invoke-static {v0, v1, p3, p1, p2}, Landroidx/core/content/res/TypedArrayUtils;->getNamedInt(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;II)I
 
     .line 181
     .line 182
@@ -750,8 +652,7 @@
     move-result p1
 
     .line 184
-    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;
-    ->mFillRule:I    
+    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPath;->mFillRule:I
     return-void
 .end method
 
@@ -767,8 +668,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mThemeAttrs:[I
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mThemeAttrs:[I
 
     .line 2
     .line 3
@@ -791,8 +691,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mFillAlpha:F    return v0
+    iget v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mFillAlpha:F    return v0
 .end method
 
 .method public getFillColor()I
@@ -801,13 +700,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mFillColor:Landroidx/core/content/res/ComplexColorCompat;
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mFillColor:Landroidx/core/content/res/ComplexColorCompat;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/core/content/res/ComplexColorCompat;
-    ->getColor()I
+    invoke-virtual {v0}, Landroidx/core/content/res/ComplexColorCompat;->getColor()I
 
     .line 4
     .line 5
@@ -821,8 +718,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeAlpha:F    return v0
+    iget v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeAlpha:F    return v0
 .end method
 
 .method public getStrokeColor()I
@@ -831,13 +727,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeColor:Landroidx/core/content/res/ComplexColorCompat;
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeColor:Landroidx/core/content/res/ComplexColorCompat;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/core/content/res/ComplexColorCompat;
-    ->getColor()I
+    invoke-virtual {v0}, Landroidx/core/content/res/ComplexColorCompat;->getColor()I
 
     .line 4
     .line 5
@@ -851,45 +745,39 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeWidth:F    return v0
+    iget v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeWidth:F    return v0
 .end method
 
 .method public getTrimPathEnd()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mTrimPathEnd:F    return v0
+    iget v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mTrimPathEnd:F    return v0
 .end method
 
 .method public getTrimPathOffset()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mTrimPathOffset:F    return v0
+    iget v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mTrimPathOffset:F    return v0
 .end method
 
 .method public getTrimPathStart()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mTrimPathStart:F    return v0
+    iget v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mTrimPathStart:F    return v0
 .end method
 
 .method public inflate(Landroid/content/res/Resources;Landroid/util/AttributeSet;Landroid/content/res/Resources$Theme;Lorg/xmlpull/v1/XmlPullParser;)V
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/vectordrawable/graphics/drawable/AndroidResources;
-    ->STYLEABLE_VECTOR_DRAWABLE_PATH:[I
+    sget-object v0, Landroidx/vectordrawable/graphics/drawable/AndroidResources;->STYLEABLE_VECTOR_DRAWABLE_PATH:[I
 
     .line 2
     .line 3
-    invoke-static {p1, p3, p2, v0}, Landroidx/core/content/res/TypedArrayUtils;
-    ->obtainAttributes(Landroid/content/res/Resources;Landroid/content/res/Resources$Theme;Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
+    invoke-static {p1, p3, p2, v0}, Landroidx/core/content/res/TypedArrayUtils;->obtainAttributes(Landroid/content/res/Resources;Landroid/content/res/Resources$Theme;Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     .line 4
     .line 5
@@ -897,14 +785,12 @@
     move-result-object p1
 
     .line 7
-    invoke-direct {p0, p1, p4, p3}, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->updateStateFromTypedArray(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Landroid/content/res/Resources$Theme;)V
+    invoke-direct {p0, p1, p4, p3}, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->updateStateFromTypedArray(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Landroid/content/res/Resources$Theme;)V
 
     .line 8
     .line 9
     .line 10
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;
-    ->recycle()V
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
     return-void
 .end method
 
@@ -912,13 +798,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mFillColor:Landroidx/core/content/res/ComplexColorCompat;
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mFillColor:Landroidx/core/content/res/ComplexColorCompat;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/core/content/res/ComplexColorCompat;
-    ->isStateful()Z
+    invoke-virtual {v0}, Landroidx/core/content/res/ComplexColorCompat;->isStateful()Z
 
     .line 4
     .line 5
@@ -930,13 +814,11 @@
 
     .line 8
     .line 9
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeColor:Landroidx/core/content/res/ComplexColorCompat;
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeColor:Landroidx/core/content/res/ComplexColorCompat;
 
     .line 10
     .line 11
-    invoke-virtual {v0}, Landroidx/core/content/res/ComplexColorCompat;
-    ->isStateful()Z
+    invoke-virtual {v0}, Landroidx/core/content/res/ComplexColorCompat;->isStateful()Z
 
     .line 12
     .line 13
@@ -968,13 +850,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mFillColor:Landroidx/core/content/res/ComplexColorCompat;
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mFillColor:Landroidx/core/content/res/ComplexColorCompat;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/core/content/res/ComplexColorCompat;
-    ->onStateChanged([I)Z
+    invoke-virtual {v0, p1}, Landroidx/core/content/res/ComplexColorCompat;->onStateChanged([I)Z
 
     .line 4
     .line 5
@@ -982,13 +862,11 @@
     move-result v0
 
     .line 7
-    iget-object v1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeColor:Landroidx/core/content/res/ComplexColorCompat;
+    iget-object v1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeColor:Landroidx/core/content/res/ComplexColorCompat;
 
     .line 8
     .line 9
-    invoke-virtual {v1, p1}, Landroidx/core/content/res/ComplexColorCompat;
-    ->onStateChanged([I)Z
+    invoke-virtual {v1, p1}, Landroidx/core/content/res/ComplexColorCompat;->onStateChanged([I)Z
 
     .line 10
     .line 11
@@ -1005,8 +883,7 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mFillAlpha:F    
+    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mFillAlpha:F
     return-void
 .end method
 
@@ -1014,13 +891,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mFillColor:Landroidx/core/content/res/ComplexColorCompat;
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mFillColor:Landroidx/core/content/res/ComplexColorCompat;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/core/content/res/ComplexColorCompat;
-    ->setColor(I)V
+    invoke-virtual {v0, p1}, Landroidx/core/content/res/ComplexColorCompat;->setColor(I)V
 return-void
 .end method
 
@@ -1028,8 +903,7 @@ return-void
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeAlpha:F    
+    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeAlpha:F
     return-void
 .end method
 
@@ -1037,13 +911,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeColor:Landroidx/core/content/res/ComplexColorCompat;
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeColor:Landroidx/core/content/res/ComplexColorCompat;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/core/content/res/ComplexColorCompat;
-    ->setColor(I)V
+    invoke-virtual {v0, p1}, Landroidx/core/content/res/ComplexColorCompat;->setColor(I)V
 return-void
 .end method
 
@@ -1051,8 +923,7 @@ return-void
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mStrokeWidth:F    
+    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mStrokeWidth:F
     return-void
 .end method
 
@@ -1060,8 +931,7 @@ return-void
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mTrimPathEnd:F    
+    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mTrimPathEnd:F
     return-void
 .end method
 
@@ -1069,8 +939,7 @@ return-void
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mTrimPathOffset:F    
+    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mTrimPathOffset:F
     return-void
 .end method
 
@@ -1078,8 +947,7 @@ return-void
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;
-    ->mTrimPathStart:F    
+    iput p1, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VFullPath;->mTrimPathStart:F
     return-void
 .end method
 

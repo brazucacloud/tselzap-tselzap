@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/android/volley/toolbox/ImageLoader;
-    ->makeImageRequest(Ljava/lang/String;IILandroid/widget/ImageView$ScaleType;Ljava/lang/String;)Lcom/android/volley/Request;
+    value = Lcom/android/volley/toolbox/ImageLoader;->makeImageRequest(Ljava/lang/String;IILandroid/widget/ImageView$ScaleType;Ljava/lang/String;)Lcom/android/volley/Request;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -38,18 +37,15 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/android/volley/toolbox/ImageLoader$2;
-    ->this$0:Lcom/android/volley/toolbox/ImageLoader;
+    iput-object p1, p0, Lcom/android/volley/toolbox/ImageLoader$2;->this$0:Lcom/android/volley/toolbox/ImageLoader;
 
     .line 2
     .line 3
-    iput-object p2, p0, Lcom/android/volley/toolbox/ImageLoader$2;
-    ->val$cacheKey:Ljava/lang/String;
+    iput-object p2, p0, Lcom/android/volley/toolbox/ImageLoader$2;->val$cacheKey:Ljava/lang/String;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 6
     .line 7
@@ -63,14 +59,11 @@
     .locals 2
 
     .line 2
-    iget-object v0, p0, Lcom/android/volley/toolbox/ImageLoader$2;
-    ->this$0:Lcom/android/volley/toolbox/ImageLoader;
+    iget-object v0, p0, Lcom/android/volley/toolbox/ImageLoader$2;->this$0:Lcom/android/volley/toolbox/ImageLoader;
 
-    iget-object v1, p0, Lcom/android/volley/toolbox/ImageLoader$2;
-    ->val$cacheKey:Ljava/lang/String;
+    iget-object v1, p0, Lcom/android/volley/toolbox/ImageLoader$2;->val$cacheKey:Ljava/lang/String;
 
-    invoke-virtual {v0, v1, p1}, Lcom/android/volley/toolbox/ImageLoader;
-    ->onGetImageSuccess(Ljava/lang/String;Landroid/graphics/Bitmap;)V
+    invoke-virtual {v0, v1, p1}, Lcom/android/volley/toolbox/ImageLoader;->onGetImageSuccess(Ljava/lang/String;Landroid/graphics/Bitmap;)V
 return-void
 .end method
 
@@ -80,8 +73,7 @@ return-void
     .line 1
     check-cast p1, Landroid/graphics/Bitmap;
 
-    invoke-virtual {p0, p1}, Lcom/android/volley/toolbox/ImageLoader$2;
-    ->onResponse(Landroid/graphics/Bitmap;)V
+    invoke-virtual {p0, p1}, Lcom/android/volley/toolbox/ImageLoader$2;->onResponse(Landroid/graphics/Bitmap;)V
 return-void
 .end method
 

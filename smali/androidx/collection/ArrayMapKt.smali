@@ -21,8 +21,7 @@
     .line 1
     new-instance v0, Landroidx/collection/ArrayMap;
 
-    invoke-direct {v0}, Landroidx/collection/ArrayMap;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/collection/ArrayMap;-><init>()V
     return-object v0
 .end method
 
@@ -44,16 +43,14 @@
 
     const-string v0, "pairs"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     new-instance v0, Landroidx/collection/ArrayMap;
 
     array-length v1, p0
 
-    invoke-direct {v0, v1}, Landroidx/collection/ArrayMap;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/collection/ArrayMap;-><init>(I)V
 
     .line 3
     array-length v1, p0
@@ -66,15 +63,12 @@
     aget-object v3, p0, v2
 
     .line 4
-    iget-object v4, v3, Lc1/f;
-    ->b:Ljava/lang/Object;
+    iget-object v4, v3, Lc1/f;->b:Ljava/lang/Object;
 
     .line 5
-    iget-object v3, v3, Lc1/f;
-    ->c:Ljava/lang/Object;
+    iget-object v3, v3, Lc1/f;->c:Ljava/lang/Object;
 
-    invoke-interface {v0, v4, v3}, Ljava/util/Map;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v4, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     add-int/lit8 v2, v2, 0x1
 

@@ -25,8 +25,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -35,8 +34,7 @@
 
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/recyclerview/widget/DiffUtil$CenteredArray;
-    ->mData:[I
+    iput-object p1, p0, Landroidx/recyclerview/widget/DiffUtil$CenteredArray;->mData:[I
 
     .line 7
     .line 8
@@ -47,8 +45,7 @@
 
     .line 10
     .line 11
-    iput p1, p0, Landroidx/recyclerview/widget/DiffUtil$CenteredArray;
-    ->mMid:I    
+    iput p1, p0, Landroidx/recyclerview/widget/DiffUtil$CenteredArray;->mMid:I
     return-void
 .end method
 
@@ -58,21 +55,18 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/DiffUtil$CenteredArray;
-    ->mData:[I    return-object v0
+    iget-object v0, p0, Landroidx/recyclerview/widget/DiffUtil$CenteredArray;->mData:[I    return-object v0
 .end method
 
 .method public fill(I)V
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/DiffUtil$CenteredArray;
-    ->mData:[I
+    iget-object v0, p0, Landroidx/recyclerview/widget/DiffUtil$CenteredArray;->mData:[I
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Ljava/util/Arrays;
-    ->fill([II)V
+    invoke-static {v0, p1}, Ljava/util/Arrays;->fill([II)V
 return-void
 .end method
 
@@ -80,13 +74,11 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/DiffUtil$CenteredArray;
-    ->mData:[I
+    iget-object v0, p0, Landroidx/recyclerview/widget/DiffUtil$CenteredArray;->mData:[I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/recyclerview/widget/DiffUtil$CenteredArray;
-    ->mMid:I
+    iget v1, p0, Landroidx/recyclerview/widget/DiffUtil$CenteredArray;->mMid:I
 
     .line 4
     .line 5
@@ -100,13 +92,11 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/DiffUtil$CenteredArray;
-    ->mData:[I
+    iget-object v0, p0, Landroidx/recyclerview/widget/DiffUtil$CenteredArray;->mData:[I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/recyclerview/widget/DiffUtil$CenteredArray;
-    ->mMid:I
+    iget v1, p0, Landroidx/recyclerview/widget/DiffUtil$CenteredArray;->mMid:I
 
     .line 4
     .line 5

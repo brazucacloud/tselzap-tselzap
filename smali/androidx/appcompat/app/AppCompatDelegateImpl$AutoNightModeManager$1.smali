@@ -5,8 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager;
-    ->setup()V
+    value = Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager;->setup()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,13 +23,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager$1;
-    ->this$1:Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager;
+    iput-object p1, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager$1;->this$1:Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroid/content/BroadcastReceiver;
-    -><init>()V
+    invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
     return-void
 .end method
 
@@ -40,13 +37,11 @@
     .locals 0
 
     .line 1
-    iget-object p1, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager$1;
-    ->this$1:Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager;
+    iget-object p1, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager$1;->this$1:Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager;
-    ->onChange()V
+    invoke-virtual {p1}, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager;->onChange()V
     return-void
 .end method
 

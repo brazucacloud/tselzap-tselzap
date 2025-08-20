@@ -22,8 +22,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroid/os/Binder;
-    -><init>()V
+    invoke-direct {p0}, Landroid/os/Binder;-><init>()V
 
     .line 2
     .line 3
@@ -32,8 +31,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {p0, p0, v0}, Landroid/os/Binder;
-    ->attachInterface(Landroid/os/IInterface;Ljava/lang/String;)V
+    invoke-virtual {p0, p0, v0}, Landroid/os/Binder;->attachInterface(Landroid/os/IInterface;Ljava/lang/String;)V
 
     .line 7
     .line 8
@@ -88,14 +86,12 @@
 
     .line 11
     .line 12
-    invoke-virtual {p2, p4}, Landroid/os/Parcel;
-    ->enforceInterface(Ljava/lang/String;)V
+    invoke-virtual {p2, p4}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
 
     .line 13
     .line 14
     .line 15
-    invoke-virtual {p2}, Landroid/os/Parcel;
-    ->readStrongBinder()Landroid/os/IBinder;
+    invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
 
     .line 16
     .line 17
@@ -121,8 +117,7 @@
 
     .line 25
     .line 26
-    invoke-interface {p4, v1}, Landroid/os/IBinder;
-    ->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
+    invoke-interface {p4, v1}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
 
     .line 27
     .line 28
@@ -150,8 +145,7 @@
 
     .line 38
     .line 39
-    invoke-direct {v1, p4}, Lcom/google/android/gms/common/internal/zzab;
-    -><init>(Landroid/os/IBinder;)V
+    invoke-direct {v1, p4}, Lcom/google/android/gms/common/internal/zzab;-><init>(Landroid/os/IBinder;)V
 
     .line 40
     .line 41
@@ -168,8 +162,7 @@
 
     .line 46
     .line 47
-    invoke-virtual {p2}, Landroid/os/Parcel;
-    ->readInt()I
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
 
     .line 48
     .line 49
@@ -181,13 +174,11 @@
 
     .line 52
     .line 53
-    sget-object p1, Lcom/google/android/gms/common/internal/GetServiceRequest;
-    ->CREATOR:Landroid/os/Parcelable$Creator;
+    sget-object p1, Lcom/google/android/gms/common/internal/GetServiceRequest;->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 54
     .line 55
-    invoke-interface {p1, p2}, Landroid/os/Parcelable$Creator;
-    ->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+    invoke-interface {p1, p2}, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
 
     .line 56
     .line 57
@@ -203,20 +194,17 @@
     .line 61
     .line 62
     :cond_3
-    invoke-interface {p0, v1, v0}, Lcom/google/android/gms/common/internal/IGmsServiceBroker;
-    ->getService(Lcom/google/android/gms/common/internal/IGmsCallbacks;Lcom/google/android/gms/common/internal/GetServiceRequest;)V
+    invoke-interface {p0, v1, v0}, Lcom/google/android/gms/common/internal/IGmsServiceBroker;->getService(Lcom/google/android/gms/common/internal/IGmsCallbacks;Lcom/google/android/gms/common/internal/GetServiceRequest;)V
 
     .line 63
     .line 64
     .line 65
-    invoke-static {p3}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p3}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 66
     .line 67
     .line 68
-    invoke-virtual {p3}, Landroid/os/Parcel;
-    ->writeNoException()V
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
     .line 69
     .line 70
@@ -233,8 +221,7 @@
 
     .line 75
     .line 76
-    invoke-virtual {p2}, Landroid/os/Parcel;
-    ->readInt()I
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
 
     .line 77
     .line 78
@@ -246,13 +233,11 @@
 
     .line 81
     .line 82
-    sget-object p1, Lcom/google/android/gms/common/internal/zzal;
-    ->CREATOR:Landroid/os/Parcelable$Creator;
+    sget-object p1, Lcom/google/android/gms/common/internal/zzal;->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 83
     .line 84
-    invoke-interface {p1, p2}, Landroid/os/Parcelable$Creator;
-    ->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+    invoke-interface {p1, p2}, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
 
     .line 85
     .line 86
@@ -269,8 +254,7 @@
 
     .line 91
     .line 92
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     .line 93
     .line 94
@@ -279,8 +263,7 @@
 
     .line 96
     :cond_6
-    invoke-virtual {p2}, Landroid/os/Parcel;
-    ->readInt()I
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
 
     .line 97
     .line 98
@@ -292,8 +275,7 @@
 
     .line 101
     .line 102
-    invoke-virtual {p2}, Landroid/os/Parcel;
-    ->readString()Ljava/lang/String;
+    invoke-virtual {p2}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     .line 103
     .line 104
@@ -391,14 +373,12 @@
     .line 150
     .line 151
     :pswitch_0
-    invoke-virtual {p2}, Landroid/os/Parcel;
-    ->readStrongBinder()Landroid/os/IBinder;
+    invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
 
     .line 152
     .line 153
     .line 154
-    invoke-virtual {p2}, Landroid/os/Parcel;
-    ->readInt()I
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
 
     .line 155
     .line 156
@@ -410,13 +390,11 @@
 
     .line 159
     .line 160
-    sget-object p1, Landroid/os/Bundle;
-    ->CREATOR:Landroid/os/Parcelable$Creator;
+    sget-object p1, Landroid/os/Bundle;->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 161
     .line 162
-    invoke-interface {p1, p2}, Landroid/os/Parcelable$Creator;
-    ->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+    invoke-interface {p1, p2}, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
 
     .line 163
     .line 164
@@ -432,14 +410,12 @@
 
     .line 169
     :pswitch_1
-    invoke-virtual {p2}, Landroid/os/Parcel;
-    ->readString()Ljava/lang/String;
+    invoke-virtual {p2}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     .line 170
     .line 171
     .line 172
-    invoke-virtual {p2}, Landroid/os/Parcel;
-    ->createStringArray()[Ljava/lang/String;
+    invoke-virtual {p2}, Landroid/os/Parcel;->createStringArray()[Ljava/lang/String;
 
     .line 173
     .line 174
@@ -448,38 +424,32 @@
 
     .line 176
     :pswitch_2
-    invoke-virtual {p2}, Landroid/os/Parcel;
-    ->readString()Ljava/lang/String;
+    invoke-virtual {p2}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     .line 177
     .line 178
     .line 179
-    invoke-virtual {p2}, Landroid/os/Parcel;
-    ->createStringArray()[Ljava/lang/String;
+    invoke-virtual {p2}, Landroid/os/Parcel;->createStringArray()[Ljava/lang/String;
 
     .line 180
     .line 181
     .line 182
-    invoke-virtual {p2}, Landroid/os/Parcel;
-    ->readString()Ljava/lang/String;
+    invoke-virtual {p2}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     .line 183
     .line 184
     .line 185
-    invoke-virtual {p2}, Landroid/os/Parcel;
-    ->readStrongBinder()Landroid/os/IBinder;
+    invoke-virtual {p2}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
 
     .line 186
     .line 187
     .line 188
-    invoke-virtual {p2}, Landroid/os/Parcel;
-    ->readString()Ljava/lang/String;
+    invoke-virtual {p2}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     .line 189
     .line 190
     .line 191
-    invoke-virtual {p2}, Landroid/os/Parcel;
-    ->readInt()I
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
 
     .line 192
     .line 193
@@ -491,13 +461,11 @@
 
     .line 196
     .line 197
-    sget-object p1, Landroid/os/Bundle;
-    ->CREATOR:Landroid/os/Parcelable$Creator;
+    sget-object p1, Landroid/os/Bundle;->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 198
     .line 199
-    invoke-interface {p1, p2}, Landroid/os/Parcelable$Creator;
-    ->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+    invoke-interface {p1, p2}, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
 
     .line 200
     .line 201
@@ -513,8 +481,7 @@
 
     .line 206
     :cond_7
-    invoke-virtual {p2}, Landroid/os/Parcel;
-    ->readString()Ljava/lang/String;
+    invoke-virtual {p2}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     .line 207
     .line 208
@@ -524,20 +491,17 @@
     .line 210
     :cond_8
     :pswitch_3
-    invoke-virtual {p2}, Landroid/os/Parcel;
-    ->createStringArray()[Ljava/lang/String;
+    invoke-virtual {p2}, Landroid/os/Parcel;->createStringArray()[Ljava/lang/String;
 
     .line 211
     .line 212
     .line 213
-    invoke-virtual {p2}, Landroid/os/Parcel;
-    ->readString()Ljava/lang/String;
+    invoke-virtual {p2}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     .line 214
     .line 215
     .line 216
-    invoke-virtual {p2}, Landroid/os/Parcel;
-    ->readInt()I
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
 
     .line 217
     .line 218
@@ -549,13 +513,11 @@
 
     .line 221
     .line 222
-    sget-object p1, Landroid/os/Bundle;
-    ->CREATOR:Landroid/os/Parcelable$Creator;
+    sget-object p1, Landroid/os/Bundle;->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 223
     .line 224
-    invoke-interface {p1, p2}, Landroid/os/Parcelable$Creator;
-    ->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+    invoke-interface {p1, p2}, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
 
     .line 225
     .line 226
@@ -572,8 +534,7 @@
     .line 231
     :cond_9
     :pswitch_4
-    invoke-virtual {p2}, Landroid/os/Parcel;
-    ->readInt()I
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
 
     .line 232
     .line 233
@@ -585,13 +546,11 @@
 
     .line 236
     .line 237
-    sget-object p1, Landroid/os/Bundle;
-    ->CREATOR:Landroid/os/Parcelable$Creator;
+    sget-object p1, Landroid/os/Bundle;->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 238
     .line 239
-    invoke-interface {p1, p2}, Landroid/os/Parcelable$Creator;
-    ->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+    invoke-interface {p1, p2}, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
 
     .line 240
     .line 241
@@ -607,26 +566,22 @@
 
     .line 246
     :cond_a
-    invoke-virtual {p2}, Landroid/os/Parcel;
-    ->readString()Ljava/lang/String;
+    invoke-virtual {p2}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     .line 247
     .line 248
     .line 249
-    invoke-virtual {p2}, Landroid/os/Parcel;
-    ->createStringArray()[Ljava/lang/String;
+    invoke-virtual {p2}, Landroid/os/Parcel;->createStringArray()[Ljava/lang/String;
 
     .line 250
     .line 251
     .line 252
-    invoke-virtual {p2}, Landroid/os/Parcel;
-    ->readString()Ljava/lang/String;
+    invoke-virtual {p2}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
     .line 253
     .line 254
     .line 255
-    invoke-virtual {p2}, Landroid/os/Parcel;
-    ->readInt()I
+    invoke-virtual {p2}, Landroid/os/Parcel;->readInt()I
 
     .line 256
     .line 257
@@ -638,13 +593,11 @@
 
     .line 260
     .line 261
-    sget-object p1, Landroid/os/Bundle;
-    ->CREATOR:Landroid/os/Parcelable$Creator;
+    sget-object p1, Landroid/os/Bundle;->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 262
     .line 263
-    invoke-interface {p1, p2}, Landroid/os/Parcelable$Creator;
-    ->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+    invoke-interface {p1, p2}, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
 
     .line 264
     .line 265
@@ -662,8 +615,7 @@
 
     .line 270
     .line 271
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     .line 272
     .line 273
@@ -673,8 +625,7 @@
     .line 275
     :cond_c
     :goto_2
-    invoke-super {p0, p1, p2, p3, p4}, Landroid/os/Binder;
-    ->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
+    invoke-super {p0, p1, p2, p3, p4}, Landroid/os/Binder;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
 
     .line 276
     .line 277

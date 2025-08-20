@@ -12,13 +12,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Ld0/d;
-    ->a:Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
+    iput-object p1, p0, Ld0/d;->a:Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/customview/widget/ViewDragHelper$Callback;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/customview/widget/ViewDragHelper$Callback;-><init>()V
 
     .line 4
     .line 5
@@ -32,8 +30,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getLeft()I
+    invoke-virtual {p1}, Landroid/view/View;->getLeft()I
 
     .line 2
     .line 3
@@ -47,13 +44,11 @@
     .locals 0
 
     .line 1
-    iget-object p3, p0, Ld0/d;
-    ->a:Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
+    iget-object p3, p0, Ld0/d;->a:Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
 
     .line 2
     .line 3
-    invoke-virtual {p3}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->k()I
+    invoke-virtual {p3}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->k()I
 
     .line 4
     .line 5
@@ -61,8 +56,7 @@
     move-result p3
 
     .line 7
-    invoke-virtual {p0, p1}, Ld0/d;
-    ->getViewVerticalDragRange(Landroid/view/View;)I
+    invoke-virtual {p0, p1}, Ld0/d;->getViewVerticalDragRange(Landroid/view/View;)I
 
     .line 8
     .line 9
@@ -70,8 +64,7 @@
     move-result p1
 
     .line 11
-    invoke-static {p2, p3, p1}, Landroidx/core/math/MathUtils;
-    ->clamp(III)I
+    invoke-static {p2, p3, p1}, Landroidx/core/math/MathUtils;->clamp(III)I
 
     .line 12
     .line 13
@@ -85,13 +78,11 @@
     .locals 1
 
     .line 1
-    iget-object p1, p0, Ld0/d;
-    ->a:Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
+    iget-object p1, p0, Ld0/d;->a:Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
 
     .line 2
     .line 3
-    iget-boolean v0, p1, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->J:Z
+    iget-boolean v0, p1, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->J:Z
 
     .line 4
     .line 5
@@ -99,8 +90,7 @@
 
     .line 6
     .line 7
-    iget p1, p1, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->W:I
+    iget p1, p1, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->W:I
 
     .line 8
     .line 9
@@ -108,8 +98,7 @@
 
     .line 10
     :cond_0
-    iget p1, p1, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->H:I
+    iget p1, p1, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->H:I
 
     .line 11
     .line 12
@@ -127,13 +116,11 @@
 
     .line 3
     .line 4
-    iget-object p1, p0, Ld0/d;
-    ->a:Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
+    iget-object p1, p0, Ld0/d;->a:Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
 
     .line 5
     .line 6
-    iget-boolean v1, p1, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->L:Z
+    iget-boolean v1, p1, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->L:Z
 
     .line 7
     .line 8
@@ -141,8 +128,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {p1, v0}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->p(I)V
+    invoke-virtual {p1, v0}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->p(I)V
 
     .line 11
     .line 12
@@ -155,13 +141,11 @@
     .locals 0
 
     .line 1
-    iget-object p1, p0, Ld0/d;
-    ->a:Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
+    iget-object p1, p0, Ld0/d;->a:Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
 
     .line 2
     .line 3
-    invoke-virtual {p1, p3}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->h(I)V
+    invoke-virtual {p1, p3}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->h(I)V
 
     .line 4
     .line 5
@@ -179,8 +163,7 @@
     const/4 v1, 0x3
 
     .line 3
-    iget-object v2, p0, Ld0/d;
-    ->a:Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
+    iget-object v2, p0, Ld0/d;->a:Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
 
     .line 4
     .line 5
@@ -195,8 +178,7 @@
 
     .line 9
     .line 10
-    iget-boolean p2, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->c:Z
+    iget-boolean p2, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->c:Z
 
     .line 11
     .line 12
@@ -214,8 +196,7 @@
     .line 16
     .line 17
     :cond_1
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getTop()I
+    invoke-virtual {p1}, Landroid/view/View;->getTop()I
 
     .line 18
     .line 19
@@ -223,20 +204,17 @@
     move-result p2
 
     .line 21
-    invoke-static {}, Landroid/os/SystemClock;
-    ->uptimeMillis()J
+    invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
 
     .line 22
     .line 23
     .line 24
-    invoke-virtual {v2}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 25
     .line 26
     .line 27
-    iget p3, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->F:I
+    iget p3, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->F:I
 
     .line 28
     .line 29
@@ -249,8 +227,7 @@
     .line 32
     .line 33
     :cond_2
-    iget-boolean v4, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->J:Z
+    iget-boolean v4, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->J:Z
 
     .line 34
     .line 35
@@ -258,8 +235,7 @@
 
     .line 36
     .line 37
-    invoke-virtual {v2, p1, p3}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->q(Landroid/view/View;F)Z
+    invoke-virtual {v2, p1, p3}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->q(Landroid/view/View;F)Z
 
     .line 38
     .line 39
@@ -271,8 +247,7 @@
 
     .line 42
     .line 43
-    invoke-static {p2}, Ljava/lang/Math;
-    ->abs(F)F
+    invoke-static {p2}, Ljava/lang/Math;->abs(F)F
 
     .line 44
     .line 45
@@ -280,8 +255,7 @@
     move-result p2
 
     .line 47
-    invoke-static {p3}, Ljava/lang/Math;
-    ->abs(F)F
+    invoke-static {p3}, Ljava/lang/Math;->abs(F)F
 
     .line 48
     .line 49
@@ -297,8 +271,7 @@
 
     .line 54
     .line 55
-    iget p2, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->e:I
+    iget p2, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->e:I
 
     .line 56
     .line 57
@@ -314,8 +287,7 @@
     .line 61
     .line 62
     :cond_3
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getTop()I
+    invoke-virtual {p1}, Landroid/view/View;->getTop()I
 
     .line 63
     .line 64
@@ -323,13 +295,11 @@
     move-result p2
 
     .line 66
-    iget p3, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->W:I
+    iget p3, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->W:I
 
     .line 67
     .line 68
-    invoke-virtual {v2}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->k()I
+    invoke-virtual {v2}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->k()I
 
     .line 69
     .line 70
@@ -357,8 +327,7 @@
     .line 79
     .line 80
     :cond_5
-    iget-boolean p2, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->c:Z
+    iget-boolean p2, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->c:Z
 
     .line 81
     .line 82
@@ -370,8 +339,7 @@
 
     .line 85
     :cond_6
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getTop()I
+    invoke-virtual {p1}, Landroid/view/View;->getTop()I
 
     .line 86
     .line 87
@@ -379,8 +347,7 @@
     move-result p2
 
     .line 89
-    invoke-virtual {v2}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->k()I
+    invoke-virtual {v2}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->k()I
 
     .line 90
     .line 91
@@ -391,8 +358,7 @@
     sub-int/2addr p2, p3
 
     .line 94
-    invoke-static {p2}, Ljava/lang/Math;
-    ->abs(I)I
+    invoke-static {p2}, Ljava/lang/Math;->abs(I)I
 
     .line 95
     .line 96
@@ -400,8 +366,7 @@
     move-result p2
 
     .line 98
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getTop()I
+    invoke-virtual {p1}, Landroid/view/View;->getTop()I
 
     .line 99
     .line 100
@@ -409,16 +374,14 @@
     move-result p3
 
     .line 102
-    iget v3, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->F:I
+    iget v3, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->F:I
 
     .line 103
     .line 104
     sub-int/2addr p3, v3
 
     .line 105
-    invoke-static {p3}, Ljava/lang/Math;
-    ->abs(I)I
+    invoke-static {p3}, Ljava/lang/Math;->abs(I)I
 
     .line 106
     .line 107
@@ -445,8 +408,7 @@
 
     .line 116
     .line 117
-    invoke-static {p2}, Ljava/lang/Math;
-    ->abs(F)F
+    invoke-static {p2}, Ljava/lang/Math;->abs(F)F
 
     .line 118
     .line 119
@@ -454,8 +416,7 @@
     move-result p2
 
     .line 121
-    invoke-static {p3}, Ljava/lang/Math;
-    ->abs(F)F
+    invoke-static {p3}, Ljava/lang/Math;->abs(F)F
 
     .line 122
     .line 123
@@ -475,8 +436,7 @@
 
     .line 130
     :cond_8
-    iget-boolean p2, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->c:Z
+    iget-boolean p2, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->c:Z
 
     .line 131
     .line 132
@@ -492,8 +452,7 @@
 
     .line 136
     :cond_a
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getTop()I
+    invoke-virtual {p1}, Landroid/view/View;->getTop()I
 
     .line 137
     .line 138
@@ -501,8 +460,7 @@
     move-result p2
 
     .line 140
-    iget p3, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->F:I
+    iget p3, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->F:I
 
     .line 141
     .line 142
@@ -510,8 +468,7 @@
 
     .line 143
     .line 144
-    invoke-static {p3}, Ljava/lang/Math;
-    ->abs(I)I
+    invoke-static {p3}, Ljava/lang/Math;->abs(I)I
 
     .line 145
     .line 146
@@ -519,16 +476,14 @@
     move-result p3
 
     .line 148
-    iget v1, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->H:I
+    iget v1, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->H:I
 
     .line 149
     .line 150
     sub-int/2addr p2, v1
 
     .line 151
-    invoke-static {p2}, Ljava/lang/Math;
-    ->abs(I)I
+    invoke-static {p2}, Ljava/lang/Math;->abs(I)I
 
     .line 152
     .line 153
@@ -540,8 +495,7 @@
 
     .line 156
     .line 157
-    invoke-virtual {v2}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 158
     .line 159
@@ -551,8 +505,7 @@
     .line 161
     :cond_b
     :goto_1
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getTop()I
+    invoke-virtual {p1}, Landroid/view/View;->getTop()I
 
     .line 162
     .line 163
@@ -560,8 +513,7 @@
     move-result p2
 
     .line 165
-    iget-boolean p3, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->c:Z
+    iget-boolean p3, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->c:Z
 
     .line 166
     .line 167
@@ -569,8 +521,7 @@
 
     .line 168
     .line 169
-    iget p3, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->E:I
+    iget p3, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->E:I
 
     .line 170
     .line 171
@@ -578,8 +529,7 @@
 
     .line 172
     .line 173
-    invoke-static {p3}, Ljava/lang/Math;
-    ->abs(I)I
+    invoke-static {p3}, Ljava/lang/Math;->abs(I)I
 
     .line 174
     .line 175
@@ -587,16 +537,14 @@
     move-result p3
 
     .line 177
-    iget v0, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->H:I
+    iget v0, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->H:I
 
     .line 178
     .line 179
     sub-int/2addr p2, v0
 
     .line 180
-    invoke-static {p2}, Ljava/lang/Math;
-    ->abs(I)I
+    invoke-static {p2}, Ljava/lang/Math;->abs(I)I
 
     .line 181
     .line 182
@@ -613,8 +561,7 @@
     .line 187
     .line 188
     :cond_c
-    iget p3, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->F:I
+    iget p3, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->F:I
 
     .line 189
     .line 190
@@ -622,8 +569,7 @@
 
     .line 191
     .line 192
-    iget p3, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->H:I
+    iget p3, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->H:I
 
     .line 193
     .line 194
@@ -631,8 +577,7 @@
 
     .line 195
     .line 196
-    invoke-static {p3}, Ljava/lang/Math;
-    ->abs(I)I
+    invoke-static {p3}, Ljava/lang/Math;->abs(I)I
 
     .line 197
     .line 198
@@ -649,8 +594,7 @@
     .line 203
     .line 204
     :cond_d
-    invoke-virtual {v2}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 205
     .line 206
@@ -663,8 +607,7 @@
 
     .line 209
     .line 210
-    invoke-static {p3}, Ljava/lang/Math;
-    ->abs(I)I
+    invoke-static {p3}, Ljava/lang/Math;->abs(I)I
 
     .line 211
     .line 212
@@ -672,16 +615,14 @@
     move-result p3
 
     .line 214
-    iget v1, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->H:I
+    iget v1, v2, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->H:I
 
     .line 215
     .line 216
     sub-int/2addr p2, v1
 
     .line 217
-    invoke-static {p2}, Ljava/lang/Math;
-    ->abs(I)I
+    invoke-static {p2}, Ljava/lang/Math;->abs(I)I
 
     .line 218
     .line 219
@@ -693,16 +634,14 @@
 
     .line 222
     .line 223
-    invoke-virtual {v2}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 224
     .line 225
     .line 226
     :cond_f
     :goto_2
-    invoke-virtual {v2}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 227
     .line 228
@@ -710,8 +649,7 @@
     const/4 p2, 0x1
 
     .line 230
-    invoke-virtual {v2, p1, v0, p2}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->r(Landroid/view/View;IZ)V
+    invoke-virtual {v2, p1, v0, p2}, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->r(Landroid/view/View;IZ)V
 
     .line 231
     .line 232
@@ -723,13 +661,11 @@
     .locals 4
 
     .line 1
-    iget-object v0, p0, Ld0/d;
-    ->a:Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
+    iget-object v0, p0, Ld0/d;->a:Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
 
     .line 2
     .line 3
-    iget v1, v0, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->O:I
+    iget v1, v0, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->O:I
 
     .line 4
     .line 5
@@ -744,8 +680,7 @@
 
     .line 9
     :cond_0
-    iget-boolean v3, v0, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->e0:Z
+    iget-boolean v3, v0, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->e0:Z
 
     .line 10
     .line 11
@@ -764,8 +699,7 @@
 
     .line 16
     .line 17
-    iget v1, v0, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->c0:I
+    iget v1, v0, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->c0:I
 
     .line 18
     .line 19
@@ -773,8 +707,7 @@
 
     .line 20
     .line 21
-    iget-object p2, v0, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->Y:Ljava/lang/ref/WeakReference;
+    iget-object p2, v0, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->Y:Ljava/lang/ref/WeakReference;
 
     .line 22
     .line 23
@@ -782,8 +715,7 @@
 
     .line 24
     .line 25
-    invoke-virtual {p2}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {p2}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 26
     .line 27
@@ -810,8 +742,7 @@
     const/4 v1, -0x1
 
     .line 36
-    invoke-virtual {p2, v1}, Landroid/view/View;
-    ->canScrollVertically(I)Z
+    invoke-virtual {p2, v1}, Landroid/view/View;->canScrollVertically(I)Z
 
     .line 37
     .line 38
@@ -827,14 +758,12 @@
 
     .line 43
     :cond_3
-    invoke-static {}, Landroid/os/SystemClock;
-    ->uptimeMillis()J
+    invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
 
     .line 44
     .line 45
     .line 46
-    iget-object p2, v0, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;
-    ->X:Ljava/lang/ref/WeakReference;
+    iget-object p2, v0, Lcom/google/android/material/bottomsheet/BottomSheetBehavior;->X:Ljava/lang/ref/WeakReference;
 
     .line 47
     .line 48
@@ -842,8 +771,7 @@
 
     .line 49
     .line 50
-    invoke-virtual {p2}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {p2}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 51
     .line 52

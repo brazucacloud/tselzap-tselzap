@@ -20,14 +20,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p2}, Landroidx/core/net/DatagramSocketWrapper$DatagramSocketImplWrapper;
-    -><init>(Ljava/net/DatagramSocket;Ljava/io/FileDescriptor;)V
+    invoke-direct {v0, p1, p2}, Landroidx/core/net/DatagramSocketWrapper$DatagramSocketImplWrapper;-><init>(Ljava/net/DatagramSocket;Ljava/io/FileDescriptor;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0, v0}, Ljava/net/Socket;
-    -><init>(Ljava/net/SocketImpl;)V
+    invoke-direct {p0, v0}, Ljava/net/Socket;-><init>(Ljava/net/SocketImpl;)V
 
     .line 7
     .line 8

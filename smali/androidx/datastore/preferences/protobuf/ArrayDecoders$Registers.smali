@@ -29,17 +29,14 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    ->getEmptyRegistry()Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->getEmptyRegistry()Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
 
     move-result-object v0
 
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/ArrayDecoders$Registers;
-    ->extensionRegistry:Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/ArrayDecoders$Registers;->extensionRegistry:Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
 
     return-void
 .end method
@@ -48,16 +45,13 @@
     .locals 0
 
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 4
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 5
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/ArrayDecoders$Registers;
-    ->extensionRegistry:Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/ArrayDecoders$Registers;->extensionRegistry:Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
 
     return-void
 .end method

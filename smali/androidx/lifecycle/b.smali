@@ -12,8 +12,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 return-void
 .end method
 
@@ -25,8 +24,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 return-void
 .end method
 
@@ -38,8 +36,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 return-void
 .end method
 
@@ -51,8 +48,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 return-void
 .end method
 
@@ -64,8 +60,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 return-void
 .end method
 
@@ -77,8 +72,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 return-void
 .end method
 

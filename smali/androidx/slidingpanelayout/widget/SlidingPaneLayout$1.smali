@@ -26,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$1;
-    ->this$0:Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
+    iput-object p1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$1;->this$0:Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -46,13 +44,11 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$1;
-    ->this$0:Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
+    iget-object v0, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$1;->this$0:Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
 
     .line 2
     .line 3
-    iput-object p1, v0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
-    ->mFoldingFeature:Landroidx/window/layout/FoldingFeature;
+    iput-object p1, v0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->mFoldingFeature:Landroidx/window/layout/FoldingFeature;
 
     .line 4
     .line 5
@@ -60,8 +56,7 @@
 
     .line 6
     .line 7
-    invoke-direct {p1}, Landroidx/transition/ChangeBounds;
-    -><init>()V
+    invoke-direct {p1}, Landroidx/transition/ChangeBounds;-><init>()V
 
     .line 8
     .line 9
@@ -70,8 +65,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {p1, v0, v1}, Landroidx/transition/Transition;
-    ->setDuration(J)Landroidx/transition/Transition;
+    invoke-virtual {p1, v0, v1}, Landroidx/transition/Transition;->setDuration(J)Landroidx/transition/Transition;
 
     .line 13
     .line 14
@@ -88,8 +82,7 @@
     .line 19
     .line 20
     .line 21
-    invoke-static {v2, v0, v0, v1}, Landroidx/core/view/animation/PathInterpolatorCompat;
-    ->create(FFFF)Landroid/view/animation/Interpolator;
+    invoke-static {v2, v0, v0, v1}, Landroidx/core/view/animation/PathInterpolatorCompat;->create(FFFF)Landroid/view/animation/Interpolator;
 
     .line 22
     .line 23
@@ -97,30 +90,25 @@
     move-result-object v0
 
     .line 25
-    invoke-virtual {p1, v0}, Landroidx/transition/Transition;
-    ->setInterpolator(Landroid/animation/TimeInterpolator;)Landroidx/transition/Transition;
+    invoke-virtual {p1, v0}, Landroidx/transition/Transition;->setInterpolator(Landroid/animation/TimeInterpolator;)Landroidx/transition/Transition;
 
     .line 26
     .line 27
     .line 28
-    iget-object v0, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$1;
-    ->this$0:Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
+    iget-object v0, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$1;->this$0:Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
 
     .line 29
     .line 30
-    invoke-static {v0, p1}, Landroidx/transition/TransitionManager;
-    ->beginDelayedTransition(Landroid/view/ViewGroup;Landroidx/transition/Transition;)V
+    invoke-static {v0, p1}, Landroidx/transition/TransitionManager;->beginDelayedTransition(Landroid/view/ViewGroup;Landroidx/transition/Transition;)V
 
     .line 31
     .line 32
     .line 33
-    iget-object p1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$1;
-    ->this$0:Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
+    iget-object p1, p0, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$1;->this$0:Landroidx/slidingpanelayout/widget/SlidingPaneLayout;
 
     .line 34
     .line 35
-    invoke-virtual {p1}, Landroid/view/View;
-    ->requestLayout()V
+    invoke-virtual {p1}, Landroid/view/View;->requestLayout()V
     return-void
 .end method
 

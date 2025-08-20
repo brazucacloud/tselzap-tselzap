@@ -14,11 +14,9 @@
 .method public constructor <init>(Lcom/google/android/gms/tasks/TaskCompletionSource;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/google/android/gms/tasks/zzs;
-    ->zza:Lcom/google/android/gms/tasks/TaskCompletionSource;
+    iput-object p1, p0, Lcom/google/android/gms/tasks/zzs;->zza:Lcom/google/android/gms/tasks/TaskCompletionSource;
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -28,13 +26,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/tasks/zzs;
-    ->zza:Lcom/google/android/gms/tasks/TaskCompletionSource;
+    iget-object v0, p0, Lcom/google/android/gms/tasks/zzs;->zza:Lcom/google/android/gms/tasks/TaskCompletionSource;
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/google/android/gms/tasks/TaskCompletionSource;
-    ->zza(Lcom/google/android/gms/tasks/TaskCompletionSource;)Lcom/google/android/gms/tasks/zzw;
+    invoke-static {v0}, Lcom/google/android/gms/tasks/TaskCompletionSource;->zza(Lcom/google/android/gms/tasks/TaskCompletionSource;)Lcom/google/android/gms/tasks/zzw;
 
     .line 4
     .line 5
@@ -42,8 +38,7 @@
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0}, Lcom/google/android/gms/tasks/zzw;
-    ->zzc()Z
+    invoke-virtual {v0}, Lcom/google/android/gms/tasks/zzw;->zzc()Z
 
     .line 8
     .line 9

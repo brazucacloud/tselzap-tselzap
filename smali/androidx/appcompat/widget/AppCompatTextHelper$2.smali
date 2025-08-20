@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/appcompat/widget/AppCompatTextHelper;
-    ->onAsyncTypefaceReceived(Ljava/lang/ref/WeakReference;Landroid/graphics/Typeface;)V
+    value = Landroidx/appcompat/widget/AppCompatTextHelper;->onAsyncTypefaceReceived(Ljava/lang/ref/WeakReference;Landroid/graphics/Typeface;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -38,28 +37,23 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper$2;
-    ->this$0:Landroidx/appcompat/widget/AppCompatTextHelper;
+    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextHelper$2;->this$0:Landroidx/appcompat/widget/AppCompatTextHelper;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/appcompat/widget/AppCompatTextHelper$2;
-    ->val$textView:Landroid/widget/TextView;
+    iput-object p2, p0, Landroidx/appcompat/widget/AppCompatTextHelper$2;->val$textView:Landroid/widget/TextView;
 
     .line 4
     .line 5
-    iput-object p3, p0, Landroidx/appcompat/widget/AppCompatTextHelper$2;
-    ->val$typeface:Landroid/graphics/Typeface;
+    iput-object p3, p0, Landroidx/appcompat/widget/AppCompatTextHelper$2;->val$typeface:Landroid/graphics/Typeface;
 
     .line 6
     .line 7
-    iput p4, p0, Landroidx/appcompat/widget/AppCompatTextHelper$2;
-    ->val$style:I
+    iput p4, p0, Landroidx/appcompat/widget/AppCompatTextHelper$2;->val$style:I
 
     .line 8
     .line 9
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -69,23 +63,19 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper$2;
-    ->val$textView:Landroid/widget/TextView;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextHelper$2;->val$textView:Landroid/widget/TextView;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/appcompat/widget/AppCompatTextHelper$2;
-    ->val$typeface:Landroid/graphics/Typeface;
+    iget-object v1, p0, Landroidx/appcompat/widget/AppCompatTextHelper$2;->val$typeface:Landroid/graphics/Typeface;
 
     .line 4
     .line 5
-    iget v2, p0, Landroidx/appcompat/widget/AppCompatTextHelper$2;
-    ->val$style:I
+    iget v2, p0, Landroidx/appcompat/widget/AppCompatTextHelper$2;->val$style:I
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1, v2}, Landroid/widget/TextView;
-    ->setTypeface(Landroid/graphics/Typeface;I)V    
+    invoke-virtual {v0, v1, v2}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;I)V
     return-void
 .end method
 

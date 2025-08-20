@@ -13,8 +13,7 @@
 
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -44,8 +43,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -55,34 +53,29 @@
     .line 5
     .line 6
     .line 7
-    iput v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->mMaxEmojiCount:I
+    iput v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->mMaxEmojiCount:I
 
     .line 8
     .line 9
     const/4 v0, 0x0
 
     .line 10
-    iput v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->mEmojiReplaceStrategy:I
+    iput v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->mEmojiReplaceStrategy:I
 
     .line 11
     .line 12
-    iput-object p1, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->mEditText:Landroid/widget/EditText;
+    iput-object p1, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->mEditText:Landroid/widget/EditText;
 
     .line 13
     .line 14
-    iput-boolean p2, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->mExpectInitializedEmojiCompat:Z
+    iput-boolean p2, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->mExpectInitializedEmojiCompat:Z
 
     .line 15
     .line 16
     const/4 p1, 0x1
 
     .line 17
-    iput-boolean p1, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->mEnabled:Z
+    iput-boolean p1, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->mEnabled:Z
 
     .line 18
     .line 19
@@ -93,8 +86,7 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->mInitCallback:Landroidx/emoji2/text/EmojiCompat$InitCallback;
+    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->mInitCallback:Landroidx/emoji2/text/EmojiCompat$InitCallback;
 
     .line 2
     .line 3
@@ -106,25 +98,21 @@
 
     .line 6
     .line 7
-    iget-object v1, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->mEditText:Landroid/widget/EditText;
+    iget-object v1, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->mEditText:Landroid/widget/EditText;
 
     .line 8
     .line 9
-    invoke-direct {v0, v1}, Landroidx/emoji2/viewsintegration/EmojiTextWatcher$InitCallbackImpl;
-    -><init>(Landroid/widget/EditText;)V
+    invoke-direct {v0, v1}, Landroidx/emoji2/viewsintegration/EmojiTextWatcher$InitCallbackImpl;-><init>(Landroid/widget/EditText;)V
 
     .line 10
     .line 11
     .line 12
-    iput-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->mInitCallback:Landroidx/emoji2/text/EmojiCompat$InitCallback;
+    iput-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->mInitCallback:Landroidx/emoji2/text/EmojiCompat$InitCallback;
 
     .line 13
     .line 14
     :cond_0
-    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->mInitCallback:Landroidx/emoji2/text/EmojiCompat$InitCallback;
+    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->mInitCallback:Landroidx/emoji2/text/EmojiCompat$InitCallback;
 
     .line 15
     .line 16
@@ -150,8 +138,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;
-    ->isAttachedToWindow()Z
+    invoke-virtual {p0}, Landroid/view/View;->isAttachedToWindow()Z
 
     .line 7
     .line 8
@@ -163,8 +150,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {p0}, Landroid/widget/TextView;
-    ->getEditableText()Landroid/text/Editable;
+    invoke-virtual {p0}, Landroid/widget/TextView;->getEditableText()Landroid/text/Editable;
 
     .line 13
     .line 14
@@ -172,8 +158,7 @@
     move-result-object p0
 
     .line 16
-    invoke-static {p0}, Landroid/text/Selection;
-    ->getSelectionStart(Ljava/lang/CharSequence;)I
+    invoke-static {p0}, Landroid/text/Selection;->getSelectionStart(Ljava/lang/CharSequence;)I
 
     .line 17
     .line 18
@@ -181,8 +166,7 @@
     move-result p1
 
     .line 20
-    invoke-static {p0}, Landroid/text/Selection;
-    ->getSelectionEnd(Ljava/lang/CharSequence;)I
+    invoke-static {p0}, Landroid/text/Selection;->getSelectionEnd(Ljava/lang/CharSequence;)I
 
     .line 21
     .line 22
@@ -190,8 +174,7 @@
     move-result v0
 
     .line 24
-    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;
-    ->get()Landroidx/emoji2/text/EmojiCompat;
+    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;->get()Landroidx/emoji2/text/EmojiCompat;
 
     .line 25
     .line 26
@@ -199,14 +182,12 @@
     move-result-object v1
 
     .line 28
-    invoke-virtual {v1, p0}, Landroidx/emoji2/text/EmojiCompat;
-    ->process(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+    invoke-virtual {v1, p0}, Landroidx/emoji2/text/EmojiCompat;->process(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
 
     .line 29
     .line 30
     .line 31
-    invoke-static {p0, p1, v0}, Landroidx/emoji2/viewsintegration/EmojiInputFilter;
-    ->updateSelection(Landroid/text/Spannable;II)V
+    invoke-static {p0, p1, v0}, Landroidx/emoji2/viewsintegration/EmojiInputFilter;->updateSelection(Landroid/text/Spannable;II)V
 
     .line 32
     .line 33
@@ -219,8 +200,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->mEnabled:Z
+    iget-boolean v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->mEnabled:Z
 
     .line 2
     .line 3
@@ -228,8 +208,7 @@
 
     .line 4
     .line 5
-    iget-boolean v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->mExpectInitializedEmojiCompat:Z
+    iget-boolean v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->mExpectInitializedEmojiCompat:Z
 
     .line 6
     .line 7
@@ -237,8 +216,7 @@
 
     .line 8
     .line 9
-    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;
-    ->isConfigured()Z
+    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;->isConfigured()Z
 
     .line 10
     .line 11
@@ -284,8 +262,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->mEmojiReplaceStrategy:I
+    iget v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->mEmojiReplaceStrategy:I
 
     .line 2
     .line 3
@@ -296,8 +273,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->mMaxEmojiCount:I
+    iget v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->mMaxEmojiCount:I
 
     .line 2
     .line 3
@@ -308,8 +284,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->mEnabled:Z
+    iget-boolean v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->mEnabled:Z
 
     .line 2
     .line 3
@@ -320,13 +295,11 @@
     .locals 6
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->mEditText:Landroid/widget/EditText;
+    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->mEditText:Landroid/widget/EditText;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/View;
-    ->isInEditMode()Z
+    invoke-virtual {v0}, Landroid/view/View;->isInEditMode()Z
 
     .line 4
     .line 5
@@ -338,8 +311,7 @@
 
     .line 8
     .line 9
-    invoke-direct {p0}, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->shouldSkipForDisabledOrNotConfigured()Z
+    invoke-direct {p0}, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->shouldSkipForDisabledOrNotConfigured()Z
 
     .line 10
     .line 11
@@ -367,8 +339,7 @@
 
     .line 21
     .line 22
-    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;
-    ->get()Landroidx/emoji2/text/EmojiCompat;
+    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;->get()Landroidx/emoji2/text/EmojiCompat;
 
     .line 23
     .line 24
@@ -376,8 +347,7 @@
     move-result-object p3
 
     .line 26
-    invoke-virtual {p3}, Landroidx/emoji2/text/EmojiCompat;
-    ->getLoadState()I
+    invoke-virtual {p3}, Landroidx/emoji2/text/EmojiCompat;->getLoadState()I
 
     .line 27
     .line 28
@@ -414,8 +384,7 @@
 
     .line 41
     .line 42
-    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;
-    ->get()Landroidx/emoji2/text/EmojiCompat;
+    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;->get()Landroidx/emoji2/text/EmojiCompat;
 
     .line 43
     .line 44
@@ -427,21 +396,18 @@
 
     .line 47
     .line 48
-    iget v4, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->mMaxEmojiCount:I
+    iget v4, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->mMaxEmojiCount:I
 
     .line 49
     .line 50
-    iget v5, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->mEmojiReplaceStrategy:I
+    iget v5, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->mEmojiReplaceStrategy:I
 
     .line 51
     .line 52
     move v2, p2
 
     .line 53
-    invoke-virtual/range {v0 .. v5}, Landroidx/emoji2/text/EmojiCompat;
-    ->process(Ljava/lang/CharSequence;IIII)Ljava/lang/CharSequence;
+    invoke-virtual/range {v0 .. v5}, Landroidx/emoji2/text/EmojiCompat;->process(Ljava/lang/CharSequence;IIII)Ljava/lang/CharSequence;
 
     .line 54
     .line 55
@@ -450,8 +416,7 @@
 
     .line 57
     :cond_2
-    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;
-    ->get()Landroidx/emoji2/text/EmojiCompat;
+    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;->get()Landroidx/emoji2/text/EmojiCompat;
 
     .line 58
     .line 59
@@ -459,8 +424,7 @@
     move-result-object p1
 
     .line 61
-    invoke-direct {p0}, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->getInitCallback()Landroidx/emoji2/text/EmojiCompat$InitCallback;
+    invoke-direct {p0}, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->getInitCallback()Landroidx/emoji2/text/EmojiCompat$InitCallback;
 
     .line 62
     .line 63
@@ -468,8 +432,7 @@
     move-result-object p2
 
     .line 65
-    invoke-virtual {p1, p2}, Landroidx/emoji2/text/EmojiCompat;
-    ->registerInitCallback(Landroidx/emoji2/text/EmojiCompat$InitCallback;)V
+    invoke-virtual {p1, p2}, Landroidx/emoji2/text/EmojiCompat;->registerInitCallback(Landroidx/emoji2/text/EmojiCompat$InitCallback;)V
 
     .line 66
     .line 67
@@ -483,8 +446,7 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->mEmojiReplaceStrategy:I
+    iput p1, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->mEmojiReplaceStrategy:I
 
     .line 2
     .line 3
@@ -495,8 +457,7 @@
     .locals 2
 
     .line 1
-    iget-boolean v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->mEnabled:Z
+    iget-boolean v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->mEnabled:Z
 
     .line 2
     .line 3
@@ -504,8 +465,7 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->mInitCallback:Landroidx/emoji2/text/EmojiCompat$InitCallback;
+    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->mInitCallback:Landroidx/emoji2/text/EmojiCompat$InitCallback;
 
     .line 6
     .line 7
@@ -513,8 +473,7 @@
 
     .line 8
     .line 9
-    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;
-    ->get()Landroidx/emoji2/text/EmojiCompat;
+    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;->get()Landroidx/emoji2/text/EmojiCompat;
 
     .line 10
     .line 11
@@ -522,20 +481,17 @@
     move-result-object v0
 
     .line 13
-    iget-object v1, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->mInitCallback:Landroidx/emoji2/text/EmojiCompat$InitCallback;
+    iget-object v1, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->mInitCallback:Landroidx/emoji2/text/EmojiCompat$InitCallback;
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Landroidx/emoji2/text/EmojiCompat;
-    ->unregisterInitCallback(Landroidx/emoji2/text/EmojiCompat$InitCallback;)V
+    invoke-virtual {v0, v1}, Landroidx/emoji2/text/EmojiCompat;->unregisterInitCallback(Landroidx/emoji2/text/EmojiCompat$InitCallback;)V
 
     .line 16
     .line 17
     .line 18
     :cond_0
-    iput-boolean p1, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->mEnabled:Z
+    iput-boolean p1, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->mEnabled:Z
 
     .line 19
     .line 20
@@ -543,13 +499,11 @@
 
     .line 21
     .line 22
-    iget-object p1, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->mEditText:Landroid/widget/EditText;
+    iget-object p1, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->mEditText:Landroid/widget/EditText;
 
     .line 23
     .line 24
-    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;
-    ->get()Landroidx/emoji2/text/EmojiCompat;
+    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;->get()Landroidx/emoji2/text/EmojiCompat;
 
     .line 25
     .line 26
@@ -557,8 +511,7 @@
     move-result-object v0
 
     .line 28
-    invoke-virtual {v0}, Landroidx/emoji2/text/EmojiCompat;
-    ->getLoadState()I
+    invoke-virtual {v0}, Landroidx/emoji2/text/EmojiCompat;->getLoadState()I
 
     .line 29
     .line 30
@@ -566,8 +519,7 @@
     move-result v0
 
     .line 32
-    invoke-static {p1, v0}, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->processTextOnEnablingEvent(Landroid/widget/EditText;I)V
+    invoke-static {p1, v0}, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->processTextOnEnablingEvent(Landroid/widget/EditText;I)V
 
     .line 33
     .line 34
@@ -580,8 +532,7 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->mMaxEmojiCount:I
+    iput p1, p0, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->mMaxEmojiCount:I
 
     .line 2
     .line 3

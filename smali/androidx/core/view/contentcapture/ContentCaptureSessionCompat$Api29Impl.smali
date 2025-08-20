@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -38,8 +37,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/view/contentcapture/ContentCaptureSession;
-    ->newAutofillId(Landroid/view/autofill/AutofillId;J)Landroid/view/autofill/AutofillId;
+    invoke-virtual {p0, p1, p2, p3}, Landroid/view/contentcapture/ContentCaptureSession;->newAutofillId(Landroid/view/autofill/AutofillId;J)Landroid/view/autofill/AutofillId;
 
     .line 2
     .line 3
@@ -55,8 +53,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/contentcapture/ContentCaptureSession;
-    ->newViewStructure(Landroid/view/View;)Landroid/view/ViewStructure;
+    invoke-virtual {p0, p1}, Landroid/view/contentcapture/ContentCaptureSession;->newViewStructure(Landroid/view/View;)Landroid/view/ViewStructure;
 
     .line 2
     .line 3
@@ -72,8 +69,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/view/contentcapture/ContentCaptureSession;
-    ->newVirtualViewStructure(Landroid/view/autofill/AutofillId;J)Landroid/view/ViewStructure;
+    invoke-virtual {p0, p1, p2, p3}, Landroid/view/contentcapture/ContentCaptureSession;->newVirtualViewStructure(Landroid/view/autofill/AutofillId;J)Landroid/view/ViewStructure;
 
     .line 2
     .line 3
@@ -89,8 +85,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/contentcapture/ContentCaptureSession;
-    ->notifyViewAppeared(Landroid/view/ViewStructure;)V
+    invoke-virtual {p0, p1}, Landroid/view/contentcapture/ContentCaptureSession;->notifyViewAppeared(Landroid/view/ViewStructure;)V
 
     .line 2
     .line 3
@@ -104,8 +99,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/view/contentcapture/ContentCaptureSession;
-    ->notifyViewTextChanged(Landroid/view/autofill/AutofillId;Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, p1, p2}, Landroid/view/contentcapture/ContentCaptureSession;->notifyViewTextChanged(Landroid/view/autofill/AutofillId;Ljava/lang/CharSequence;)V
 
     .line 2
     .line 3
@@ -119,8 +113,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/view/contentcapture/ContentCaptureSession;
-    ->notifyViewsDisappeared(Landroid/view/autofill/AutofillId;[J)V
+    invoke-virtual {p0, p1, p2}, Landroid/view/contentcapture/ContentCaptureSession;->notifyViewsDisappeared(Landroid/view/autofill/AutofillId;[J)V
 
     .line 2
     .line 3

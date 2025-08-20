@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -42,8 +41,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroid/app/Notification$MessagingStyle;
-    -><init>(Landroid/app/Person;)V
+    invoke-direct {v0, p0}, Landroid/app/Notification$MessagingStyle;-><init>(Landroid/app/Person;)V
 
     .line 4
     .line 5
@@ -57,8 +55,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$MessagingStyle;
-    ->setGroupConversation(Z)Landroid/app/Notification$MessagingStyle;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$MessagingStyle;->setGroupConversation(Z)Landroid/app/Notification$MessagingStyle;
 
     .line 2
     .line 3

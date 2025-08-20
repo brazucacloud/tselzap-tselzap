@@ -26,8 +26,7 @@
 
     .line 7
     :cond_0
-    invoke-interface {p1}, Lk/C;
-    ->b()I
+    invoke-interface {p1}, Lk/C;->b()I
 
     .line 8
     .line 9
@@ -49,8 +48,7 @@
 
     .line 4
     .line 5
-    iget-object p1, p0, Lm/e;
-    ->d:Lk/q;
+    iget-object p1, p0, Lm/e;->d:Lk/q;
 
     .line 6
     .line 7
@@ -62,16 +60,14 @@
 
     .line 10
     .line 11
-    iget-object p1, p1, Lk/q;
-    ->e:LU0/c;
+    iget-object p1, p1, Lk/q;->e:LU0/c;
 
     .line 12
     .line 13
     const/4 v0, 0x1
 
     .line 14
-    invoke-virtual {p1, p2, v0}, LU0/c;
-    ->a(Lk/C;Z)V
+    invoke-virtual {p1, p2, v0}, LU0/c;->a(Lk/C;Z)V
 
     .line 15
     .line 16
@@ -96,8 +92,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0, v0, v1}, LE/k;
-    ->e(J)V
+    invoke-virtual {p0, v0, v1}, LE/k;->e(J)V
 
     .line 8
     .line 9
@@ -135,8 +130,7 @@
 
     .line 22
     :try_start_0
-    iget-wide v0, p0, LE/k;
-    ->b:J
+    iget-wide v0, p0, LE/k;->b:J
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -152,8 +146,7 @@
     div-long/2addr v0, v2
 
     .line 28
-    invoke-virtual {p0, v0, v1}, LE/k;
-    ->e(J)V
+    invoke-virtual {p0, v0, v1}, LE/k;->e(J)V
 
     .line 29
     .line 30

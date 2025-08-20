@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/fragment/app/FragmentViewModelLazyKt;
-    ->viewModels(Landroidx/fragment/app/Fragment;Lp1/a;Lp1/a;)Lc1/d;
+    value = Landroidx/fragment/app/FragmentViewModelLazyKt;->viewModels(Landroidx/fragment/app/Fragment;Lp1/a;Lp1/a;)Lc1/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -47,16 +46,14 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$3;
-    ->$owner$delegate:Lc1/d;
+    iput-object p1, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$3;->$owner$delegate:Lc1/d;
 
     .line 2
     .line 3
     const/4 p1, 0x0
 
     .line 4
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
-    -><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
 return-void
 .end method
 
@@ -66,11 +63,9 @@ return-void
     .locals 2
 
     .line 2
-    iget-object v0, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$3;
-    ->$owner$delegate:Lc1/d;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$3;->$owner$delegate:Lc1/d;
 
-    invoke-static {v0}, Landroidx/fragment/app/FragmentViewModelLazyKt;
-    ->access$viewModels$lambda-0(Lc1/d;)Landroidx/lifecycle/ViewModelStoreOwner;
+    invoke-static {v0}, Landroidx/fragment/app/FragmentViewModelLazyKt;->access$viewModels$lambda-0(Lc1/d;)Landroidx/lifecycle/ViewModelStoreOwner;
 
     move-result-object v0
 
@@ -88,8 +83,7 @@ return-void
     :goto_0
     if-eqz v0, :cond_2
 
-    invoke-interface {v0}, Landroidx/lifecycle/HasDefaultViewModelProviderFactory;
-    ->getDefaultViewModelCreationExtras()Landroidx/lifecycle/viewmodel/CreationExtras;
+    invoke-interface {v0}, Landroidx/lifecycle/HasDefaultViewModelProviderFactory;->getDefaultViewModelCreationExtras()Landroidx/lifecycle/viewmodel/CreationExtras;
 
     move-result-object v0
 
@@ -103,8 +97,7 @@ return-void
     .line 3
     :cond_2
     :goto_1
-    sget-object v0, Landroidx/lifecycle/viewmodel/CreationExtras$Empty;
-    ->INSTANCE:Landroidx/lifecycle/viewmodel/CreationExtras$Empty;
+    sget-object v0, Landroidx/lifecycle/viewmodel/CreationExtras$Empty;->INSTANCE:Landroidx/lifecycle/viewmodel/CreationExtras$Empty;
 
     return-object v0
 .end method
@@ -113,8 +106,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$3;
-    ->invoke()Landroidx/lifecycle/viewmodel/CreationExtras;
+    invoke-virtual {p0}, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$3;->invoke()Landroidx/lifecycle/viewmodel/CreationExtras;
 
     move-result-object v0
 

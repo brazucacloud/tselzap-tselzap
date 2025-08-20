@@ -25,8 +25,7 @@
     .locals 12
 
     .line 1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
-    ->values()[Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->values()[Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 2
     .line 3
@@ -41,8 +40,7 @@
 
     .line 7
     .line 8
-    sput-object v0, Landroidx/datastore/preferences/protobuf/FieldSet$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
+    sput-object v0, Landroidx/datastore/preferences/protobuf/FieldSet$1;->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
 
     .line 9
     .line 10
@@ -50,13 +48,11 @@
 
     .line 11
     :try_start_0
-    sget-object v2, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
-    ->DOUBLE:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    sget-object v2, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->DOUBLE:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 12
     .line 13
-    invoke-virtual {v2}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     .line 14
     .line 15
@@ -75,18 +71,15 @@
 
     .line 20
     :try_start_1
-    sget-object v2, Landroidx/datastore/preferences/protobuf/FieldSet$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
+    sget-object v2, Landroidx/datastore/preferences/protobuf/FieldSet$1;->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
 
     .line 21
     .line 22
-    sget-object v3, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
-    ->FLOAT:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    sget-object v3, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->FLOAT:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 23
     .line 24
-    invoke-virtual {v3}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v3}, Ljava/lang/Enum;->ordinal()I
 
     .line 25
     .line 26
@@ -105,18 +98,15 @@
 
     .line 31
     :try_start_2
-    sget-object v3, Landroidx/datastore/preferences/protobuf/FieldSet$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
+    sget-object v3, Landroidx/datastore/preferences/protobuf/FieldSet$1;->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
 
     .line 32
     .line 33
-    sget-object v4, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
-    ->INT64:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    sget-object v4, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->INT64:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 34
     .line 35
-    invoke-virtual {v4}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v4}, Ljava/lang/Enum;->ordinal()I
 
     .line 36
     .line 37
@@ -135,18 +125,15 @@
 
     .line 42
     :try_start_3
-    sget-object v4, Landroidx/datastore/preferences/protobuf/FieldSet$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
+    sget-object v4, Landroidx/datastore/preferences/protobuf/FieldSet$1;->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
 
     .line 43
     .line 44
-    sget-object v5, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
-    ->UINT64:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    sget-object v5, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->UINT64:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 45
     .line 46
-    invoke-virtual {v5}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v5}, Ljava/lang/Enum;->ordinal()I
 
     .line 47
     .line 48
@@ -165,18 +152,15 @@
 
     .line 53
     :try_start_4
-    sget-object v5, Landroidx/datastore/preferences/protobuf/FieldSet$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
+    sget-object v5, Landroidx/datastore/preferences/protobuf/FieldSet$1;->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
 
     .line 54
     .line 55
-    sget-object v6, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
-    ->INT32:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    sget-object v6, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->INT32:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 56
     .line 57
-    invoke-virtual {v6}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v6}, Ljava/lang/Enum;->ordinal()I
 
     .line 58
     .line 59
@@ -195,18 +179,15 @@
 
     .line 64
     :try_start_5
-    sget-object v6, Landroidx/datastore/preferences/protobuf/FieldSet$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
+    sget-object v6, Landroidx/datastore/preferences/protobuf/FieldSet$1;->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
 
     .line 65
     .line 66
-    sget-object v7, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
-    ->FIXED64:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    sget-object v7, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->FIXED64:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 67
     .line 68
-    invoke-virtual {v7}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v7}, Ljava/lang/Enum;->ordinal()I
 
     .line 69
     .line 70
@@ -225,18 +206,15 @@
 
     .line 75
     :try_start_6
-    sget-object v7, Landroidx/datastore/preferences/protobuf/FieldSet$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
+    sget-object v7, Landroidx/datastore/preferences/protobuf/FieldSet$1;->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
 
     .line 76
     .line 77
-    sget-object v8, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
-    ->FIXED32:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    sget-object v8, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->FIXED32:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 78
     .line 79
-    invoke-virtual {v8}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v8}, Ljava/lang/Enum;->ordinal()I
 
     .line 80
     .line 81
@@ -256,18 +234,15 @@
     .line 86
     .line 87
     :try_start_7
-    sget-object v8, Landroidx/datastore/preferences/protobuf/FieldSet$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
+    sget-object v8, Landroidx/datastore/preferences/protobuf/FieldSet$1;->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
 
     .line 88
     .line 89
-    sget-object v9, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
-    ->BOOL:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    sget-object v9, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->BOOL:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 90
     .line 91
-    invoke-virtual {v9}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v9}, Ljava/lang/Enum;->ordinal()I
 
     .line 92
     .line 93
@@ -287,18 +262,15 @@
     .line 98
     .line 99
     :try_start_8
-    sget-object v9, Landroidx/datastore/preferences/protobuf/FieldSet$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
+    sget-object v9, Landroidx/datastore/preferences/protobuf/FieldSet$1;->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
 
     .line 100
     .line 101
-    sget-object v10, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
-    ->GROUP:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    sget-object v10, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->GROUP:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 102
     .line 103
-    invoke-virtual {v10}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v10}, Ljava/lang/Enum;->ordinal()I
 
     .line 104
     .line 105
@@ -314,18 +286,15 @@
     .line 109
     :catch_8
     :try_start_9
-    sget-object v9, Landroidx/datastore/preferences/protobuf/FieldSet$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
+    sget-object v9, Landroidx/datastore/preferences/protobuf/FieldSet$1;->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
 
     .line 110
     .line 111
-    sget-object v10, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
-    ->MESSAGE:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    sget-object v10, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->MESSAGE:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 112
     .line 113
-    invoke-virtual {v10}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v10}, Ljava/lang/Enum;->ordinal()I
 
     .line 114
     .line 115
@@ -345,18 +314,15 @@
     .line 121
     :catch_9
     :try_start_a
-    sget-object v9, Landroidx/datastore/preferences/protobuf/FieldSet$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
+    sget-object v9, Landroidx/datastore/preferences/protobuf/FieldSet$1;->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
 
     .line 122
     .line 123
-    sget-object v10, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
-    ->STRING:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    sget-object v10, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->STRING:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 124
     .line 125
-    invoke-virtual {v10}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v10}, Ljava/lang/Enum;->ordinal()I
 
     .line 126
     .line 127
@@ -376,18 +342,15 @@
     .line 133
     :catch_a
     :try_start_b
-    sget-object v9, Landroidx/datastore/preferences/protobuf/FieldSet$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
+    sget-object v9, Landroidx/datastore/preferences/protobuf/FieldSet$1;->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
 
     .line 134
     .line 135
-    sget-object v10, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
-    ->BYTES:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    sget-object v10, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->BYTES:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 136
     .line 137
-    invoke-virtual {v10}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v10}, Ljava/lang/Enum;->ordinal()I
 
     .line 138
     .line 139
@@ -407,18 +370,15 @@
     .line 145
     :catch_b
     :try_start_c
-    sget-object v9, Landroidx/datastore/preferences/protobuf/FieldSet$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
+    sget-object v9, Landroidx/datastore/preferences/protobuf/FieldSet$1;->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
 
     .line 146
     .line 147
-    sget-object v10, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
-    ->UINT32:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    sget-object v10, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->UINT32:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 148
     .line 149
-    invoke-virtual {v10}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v10}, Ljava/lang/Enum;->ordinal()I
 
     .line 150
     .line 151
@@ -438,18 +398,15 @@
     .line 157
     :catch_c
     :try_start_d
-    sget-object v9, Landroidx/datastore/preferences/protobuf/FieldSet$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
+    sget-object v9, Landroidx/datastore/preferences/protobuf/FieldSet$1;->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
 
     .line 158
     .line 159
-    sget-object v10, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
-    ->SFIXED32:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    sget-object v10, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->SFIXED32:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 160
     .line 161
-    invoke-virtual {v10}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v10}, Ljava/lang/Enum;->ordinal()I
 
     .line 162
     .line 163
@@ -469,18 +426,15 @@
     .line 169
     :catch_d
     :try_start_e
-    sget-object v9, Landroidx/datastore/preferences/protobuf/FieldSet$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
+    sget-object v9, Landroidx/datastore/preferences/protobuf/FieldSet$1;->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
 
     .line 170
     .line 171
-    sget-object v10, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
-    ->SFIXED64:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    sget-object v10, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->SFIXED64:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 172
     .line 173
-    invoke-virtual {v10}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v10}, Ljava/lang/Enum;->ordinal()I
 
     .line 174
     .line 175
@@ -500,18 +454,15 @@
     .line 181
     :catch_e
     :try_start_f
-    sget-object v9, Landroidx/datastore/preferences/protobuf/FieldSet$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
+    sget-object v9, Landroidx/datastore/preferences/protobuf/FieldSet$1;->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
 
     .line 182
     .line 183
-    sget-object v10, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
-    ->SINT32:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    sget-object v10, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->SINT32:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 184
     .line 185
-    invoke-virtual {v10}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v10}, Ljava/lang/Enum;->ordinal()I
 
     .line 186
     .line 187
@@ -531,18 +482,15 @@
     .line 193
     :catch_f
     :try_start_10
-    sget-object v9, Landroidx/datastore/preferences/protobuf/FieldSet$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
+    sget-object v9, Landroidx/datastore/preferences/protobuf/FieldSet$1;->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
 
     .line 194
     .line 195
-    sget-object v10, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
-    ->SINT64:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    sget-object v10, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->SINT64:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 196
     .line 197
-    invoke-virtual {v10}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v10}, Ljava/lang/Enum;->ordinal()I
 
     .line 198
     .line 199
@@ -562,18 +510,15 @@
     .line 205
     :catch_10
     :try_start_11
-    sget-object v9, Landroidx/datastore/preferences/protobuf/FieldSet$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
+    sget-object v9, Landroidx/datastore/preferences/protobuf/FieldSet$1;->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
 
     .line 206
     .line 207
-    sget-object v10, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
-    ->ENUM:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    sget-object v10, Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;->ENUM:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 208
     .line 209
-    invoke-virtual {v10}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v10}, Ljava/lang/Enum;->ordinal()I
 
     .line 210
     .line 211
@@ -592,8 +537,7 @@
     .line 216
     .line 217
     :catch_11
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
-    ->values()[Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;->values()[Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
 
     .line 218
     .line 219
@@ -608,19 +552,16 @@
 
     .line 223
     .line 224
-    sput-object v9, Landroidx/datastore/preferences/protobuf/FieldSet$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$JavaType:[I
+    sput-object v9, Landroidx/datastore/preferences/protobuf/FieldSet$1;->$SwitchMap$com$google$protobuf$WireFormat$JavaType:[I
 
     .line 225
     .line 226
     :try_start_12
-    sget-object v10, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
-    ->INT:Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
+    sget-object v10, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;->INT:Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
 
     .line 227
     .line 228
-    invoke-virtual {v10}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v10}, Ljava/lang/Enum;->ordinal()I
 
     .line 229
     .line 230
@@ -636,18 +577,15 @@
     .line 234
     :catch_12
     :try_start_13
-    sget-object v1, Landroidx/datastore/preferences/protobuf/FieldSet$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$JavaType:[I
+    sget-object v1, Landroidx/datastore/preferences/protobuf/FieldSet$1;->$SwitchMap$com$google$protobuf$WireFormat$JavaType:[I
 
     .line 235
     .line 236
-    sget-object v9, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
-    ->LONG:Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
+    sget-object v9, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;->LONG:Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
 
     .line 237
     .line 238
-    invoke-virtual {v9}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v9}, Ljava/lang/Enum;->ordinal()I
 
     .line 239
     .line 240
@@ -663,18 +601,15 @@
     .line 244
     :catch_13
     :try_start_14
-    sget-object v0, Landroidx/datastore/preferences/protobuf/FieldSet$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$JavaType:[I
+    sget-object v0, Landroidx/datastore/preferences/protobuf/FieldSet$1;->$SwitchMap$com$google$protobuf$WireFormat$JavaType:[I
 
     .line 245
     .line 246
-    sget-object v1, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
-    ->FLOAT:Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
+    sget-object v1, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;->FLOAT:Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
 
     .line 247
     .line 248
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     .line 249
     .line 250
@@ -690,18 +625,15 @@
     .line 254
     :catch_14
     :try_start_15
-    sget-object v0, Landroidx/datastore/preferences/protobuf/FieldSet$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$JavaType:[I
+    sget-object v0, Landroidx/datastore/preferences/protobuf/FieldSet$1;->$SwitchMap$com$google$protobuf$WireFormat$JavaType:[I
 
     .line 255
     .line 256
-    sget-object v1, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
-    ->DOUBLE:Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
+    sget-object v1, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;->DOUBLE:Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
 
     .line 257
     .line 258
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     .line 259
     .line 260
@@ -717,18 +649,15 @@
     .line 264
     :catch_15
     :try_start_16
-    sget-object v0, Landroidx/datastore/preferences/protobuf/FieldSet$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$JavaType:[I
+    sget-object v0, Landroidx/datastore/preferences/protobuf/FieldSet$1;->$SwitchMap$com$google$protobuf$WireFormat$JavaType:[I
 
     .line 265
     .line 266
-    sget-object v1, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
-    ->BOOLEAN:Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
+    sget-object v1, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;->BOOLEAN:Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
 
     .line 267
     .line 268
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     .line 269
     .line 270
@@ -744,18 +673,15 @@
     .line 274
     :catch_16
     :try_start_17
-    sget-object v0, Landroidx/datastore/preferences/protobuf/FieldSet$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$JavaType:[I
+    sget-object v0, Landroidx/datastore/preferences/protobuf/FieldSet$1;->$SwitchMap$com$google$protobuf$WireFormat$JavaType:[I
 
     .line 275
     .line 276
-    sget-object v1, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
-    ->STRING:Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
+    sget-object v1, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;->STRING:Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
 
     .line 277
     .line 278
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     .line 279
     .line 280
@@ -771,18 +697,15 @@
     .line 284
     :catch_17
     :try_start_18
-    sget-object v0, Landroidx/datastore/preferences/protobuf/FieldSet$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$JavaType:[I
+    sget-object v0, Landroidx/datastore/preferences/protobuf/FieldSet$1;->$SwitchMap$com$google$protobuf$WireFormat$JavaType:[I
 
     .line 285
     .line 286
-    sget-object v1, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
-    ->BYTE_STRING:Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
+    sget-object v1, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;->BYTE_STRING:Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
 
     .line 287
     .line 288
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     .line 289
     .line 290
@@ -798,18 +721,15 @@
     .line 294
     :catch_18
     :try_start_19
-    sget-object v0, Landroidx/datastore/preferences/protobuf/FieldSet$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$JavaType:[I
+    sget-object v0, Landroidx/datastore/preferences/protobuf/FieldSet$1;->$SwitchMap$com$google$protobuf$WireFormat$JavaType:[I
 
     .line 295
     .line 296
-    sget-object v1, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
-    ->ENUM:Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
+    sget-object v1, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;->ENUM:Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
 
     .line 297
     .line 298
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     .line 299
     .line 300
@@ -825,18 +745,15 @@
     .line 304
     :catch_19
     :try_start_1a
-    sget-object v0, Landroidx/datastore/preferences/protobuf/FieldSet$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$JavaType:[I
+    sget-object v0, Landroidx/datastore/preferences/protobuf/FieldSet$1;->$SwitchMap$com$google$protobuf$WireFormat$JavaType:[I
 
     .line 305
     .line 306
-    sget-object v1, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
-    ->MESSAGE:Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
+    sget-object v1, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;->MESSAGE:Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;
 
     .line 307
     .line 308
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     .line 309
     .line 310

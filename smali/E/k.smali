@@ -16,8 +16,7 @@
     .locals 4
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -37,19 +36,16 @@
 
     .line 10
     .line 11
-    invoke-direct {v0, v2, v3, v1}, Ljava/util/LinkedHashMap;
-    -><init>(IFZ)V
+    invoke-direct {v0, v2, v3, v1}, Ljava/util/LinkedHashMap;-><init>(IFZ)V
 
     .line 12
     .line 13
     .line 14
-    iput-object v0, p0, LE/k;
-    ->a:Ljava/util/LinkedHashMap;
+    iput-object v0, p0, LE/k;->a:Ljava/util/LinkedHashMap;
 
     .line 15
     .line 16
-    iput-wide p1, p0, LE/k;
-    ->b:J
+    iput-wide p1, p0, LE/k;->b:J
 
     .line 17
     .line 18
@@ -66,13 +62,11 @@
 
     .line 2
     :try_start_0
-    iget-object v0, p0, LE/k;
-    ->a:Ljava/util/LinkedHashMap;
+    iget-object v0, p0, LE/k;->a:Ljava/util/LinkedHashMap;
 
     .line 3
     .line 4
-    invoke-virtual {v0, p1}, Ljava/util/LinkedHashMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Ljava/util/LinkedHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -88,8 +82,7 @@
 
     .line 11
     .line 12
-    iget-object p1, p1, LE/j;
-    ->a:Ljava/lang/Object;
+    iget-object p1, p1, LE/j;->a:Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -154,8 +147,7 @@
 
     .line 2
     :try_start_0
-    invoke-virtual {p0, p2}, LE/k;
-    ->b(Ljava/lang/Object;)I
+    invoke-virtual {p0, p2}, LE/k;->b(Ljava/lang/Object;)I
 
     .line 3
     .line 4
@@ -166,8 +158,7 @@
     int-to-long v1, v0
 
     .line 7
-    iget-wide v3, p0, LE/k;
-    ->b:J
+    iget-wide v3, p0, LE/k;->b:J
 
     .line 8
     .line 9
@@ -182,8 +173,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {p0, p1, p2}, LE/k;
-    ->c(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-virtual {p0, p1, p2}, LE/k;->c(Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -208,22 +198,19 @@
     .line 22
     .line 23
     :try_start_1
-    iget-wide v3, p0, LE/k;
-    ->c:J
+    iget-wide v3, p0, LE/k;->c:J
 
     .line 24
     .line 25
     add-long/2addr v3, v1
 
     .line 26
-    iput-wide v3, p0, LE/k;
-    ->c:J
+    iput-wide v3, p0, LE/k;->c:J
 
     .line 27
     .line 28
     :cond_1
-    iget-object v1, p0, LE/k;
-    ->a:Ljava/util/LinkedHashMap;
+    iget-object v1, p0, LE/k;->a:Ljava/util/LinkedHashMap;
 
     .line 29
     .line 30
@@ -242,15 +229,13 @@
 
     .line 35
     .line 36
-    invoke-direct {v2, p2, v0}, LE/j;
-    -><init>(Ljava/lang/Object;I)V
+    invoke-direct {v2, p2, v0}, LE/j;-><init>(Ljava/lang/Object;I)V
 
     .line 37
     .line 38
     .line 39
     :goto_0
-    invoke-interface {v1, p1, v2}, Ljava/util/Map;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, p1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 40
     .line 41
@@ -266,13 +251,11 @@
 
     .line 46
     .line 47
-    iget-wide v1, p0, LE/k;
-    ->c:J
+    iget-wide v1, p0, LE/k;->c:J
 
     .line 48
     .line 49
-    iget v3, v0, LE/j;
-    ->b:I
+    iget v3, v0, LE/j;->b:I
 
     .line 50
     .line 51
@@ -282,18 +265,15 @@
     sub-long/2addr v1, v3
 
     .line 53
-    iput-wide v1, p0, LE/k;
-    ->c:J
+    iput-wide v1, p0, LE/k;->c:J
 
     .line 54
     .line 55
-    iget-object v1, v0, LE/j;
-    ->a:Ljava/lang/Object;
+    iget-object v1, v0, LE/j;->a:Ljava/lang/Object;
 
     .line 56
     .line 57
-    invoke-virtual {v1, p2}, Ljava/lang/Object;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, p2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     .line 58
     .line 59
@@ -305,25 +285,21 @@
 
     .line 62
     .line 63
-    iget-object p2, v0, LE/j;
-    ->a:Ljava/lang/Object;
+    iget-object p2, v0, LE/j;->a:Ljava/lang/Object;
 
     .line 64
     .line 65
-    invoke-virtual {p0, p1, p2}, LE/k;
-    ->c(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-virtual {p0, p1, p2}, LE/k;->c(Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 66
     .line 67
     .line 68
     :cond_3
-    iget-wide p1, p0, LE/k;
-    ->b:J
+    iget-wide p1, p0, LE/k;->b:J
 
     .line 69
     .line 70
-    invoke-virtual {p0, p1, p2}, LE/k;
-    ->e(J)V
+    invoke-virtual {p0, p1, p2}, LE/k;->e(J)V
 
     .line 71
     .line 72
@@ -332,8 +308,7 @@
 
     .line 74
     .line 75
-    iget-object v5, v0, LE/j;
-    ->a:Ljava/lang/Object;
+    iget-object v5, v0, LE/j;->a:Ljava/lang/Object;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -522,8 +497,7 @@
     .line 2
     :goto_0
     :try_start_0
-    iget-wide v0, p0, LE/k;
-    ->c:J
+    iget-wide v0, p0, LE/k;->c:J
 
     .line 3
     .line 4
@@ -535,13 +509,11 @@
 
     .line 7
     .line 8
-    iget-object v0, p0, LE/k;
-    ->a:Ljava/util/LinkedHashMap;
+    iget-object v0, p0, LE/k;->a:Ljava/util/LinkedHashMap;
 
     .line 9
     .line 10
-    invoke-virtual {v0}, Ljava/util/LinkedHashMap;
-    ->entrySet()Ljava/util/Set;
+    invoke-virtual {v0}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
 
     .line 11
     .line 12
@@ -549,8 +521,7 @@
     move-result-object v0
 
     .line 14
-    invoke-interface {v0}, Ljava/util/Set;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     .line 15
     .line 16
@@ -558,8 +529,7 @@
     move-result-object v0
 
     .line 18
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -571,8 +541,7 @@
 
     .line 23
     .line 24
-    invoke-interface {v1}, Ljava/util/Map$Entry;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     .line 25
     .line 26
@@ -584,13 +553,11 @@
 
     .line 29
     .line 30
-    iget-wide v3, p0, LE/k;
-    ->c:J
+    iget-wide v3, p0, LE/k;->c:J
 
     .line 31
     .line 32
-    iget v5, v2, LE/j;
-    ->b:I
+    iget v5, v2, LE/j;->b:I
 
     .line 33
     .line 34
@@ -600,13 +567,11 @@
     sub-long/2addr v3, v5
 
     .line 36
-    iput-wide v3, p0, LE/k;
-    ->c:J
+    iput-wide v3, p0, LE/k;->c:J
 
     .line 37
     .line 38
-    invoke-interface {v1}, Ljava/util/Map$Entry;
-    ->getKey()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     .line 39
     .line 40
@@ -614,19 +579,16 @@
     move-result-object v1
 
     .line 42
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->remove()V
+    invoke-interface {v0}, Ljava/util/Iterator;->remove()V
 
     .line 43
     .line 44
     .line 45
-    iget-object v0, v2, LE/j;
-    ->a:Ljava/lang/Object;
+    iget-object v0, v2, LE/j;->a:Ljava/lang/Object;
 
     .line 46
     .line 47
-    invoke-virtual {p0, v1, v0}, LE/k;
-    ->c(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-virtual {p0, v1, v0}, LE/k;->c(Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

@@ -21,11 +21,9 @@
 
     new-instance v0, Lcom/google/android/gms/common/util/DefaultClock;
 
-    invoke-direct {v0}, Lcom/google/android/gms/common/util/DefaultClock;
-    -><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/common/util/DefaultClock;-><init>()V
 
-    sput-object v0, Lcom/google/android/gms/common/util/DefaultClock;
-    ->zza:Lcom/google/android/gms/common/util/DefaultClock;
+    sput-object v0, Lcom/google/android/gms/common/util/DefaultClock;->zza:Lcom/google/android/gms/common/util/DefaultClock;
 
     return-void
 .end method
@@ -33,8 +31,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -46,8 +43,7 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    sget-object v0, Lcom/google/android/gms/common/util/DefaultClock;
-    ->zza:Lcom/google/android/gms/common/util/DefaultClock;
+    sget-object v0, Lcom/google/android/gms/common/util/DefaultClock;->zza:Lcom/google/android/gms/common/util/DefaultClock;
 
     return-object v0
 .end method
@@ -58,8 +54,7 @@
     .locals 2
 
     .line 1
-    invoke-static {}, Landroid/os/SystemClock;
-    ->currentThreadTimeMillis()J
+    invoke-static {}, Landroid/os/SystemClock;->currentThreadTimeMillis()J
 
     .line 2
     .line 3
@@ -73,8 +68,7 @@
     .locals 2
 
     .line 1
-    invoke-static {}, Ljava/lang/System;
-    ->currentTimeMillis()J
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     .line 2
     .line 3
@@ -88,8 +82,7 @@
     .locals 2
 
     .line 1
-    invoke-static {}, Landroid/os/SystemClock;
-    ->elapsedRealtime()J
+    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     .line 2
     .line 3
@@ -103,8 +96,7 @@
     .locals 2
 
     .line 1
-    invoke-static {}, Ljava/lang/System;
-    ->nanoTime()J
+    invoke-static {}, Ljava/lang/System;->nanoTime()J
 
     .line 2
     .line 3

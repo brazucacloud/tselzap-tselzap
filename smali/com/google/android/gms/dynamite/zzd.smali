@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/ThreadLocal;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/ThreadLocal;-><init>()V
 
     .line 2
     .line 3
@@ -27,8 +26,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, v1}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 4
     .line 5

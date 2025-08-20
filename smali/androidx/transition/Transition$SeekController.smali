@@ -76,13 +76,11 @@
     .locals 2
 
     .line 1
-    iput-object p1, p0, Landroidx/transition/Transition$SeekController;
-    ->this$0:Landroidx/transition/Transition;
+    iput-object p1, p0, Landroidx/transition/Transition$SeekController;->this$0:Landroidx/transition/Transition;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/transition/TransitionListenerAdapter;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/transition/TransitionListenerAdapter;-><init>()V
 
     .line 4
     .line 5
@@ -91,26 +89,22 @@
 
     .line 7
     .line 8
-    iput-wide v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mCurrentPlayTime:J
+    iput-wide v0, p0, Landroidx/transition/Transition$SeekController;->mCurrentPlayTime:J
 
     .line 9
     .line 10
     const/4 p1, 0x0
 
     .line 11
-    iput-object p1, p0, Landroidx/transition/Transition$SeekController;
-    ->mOnReadyListeners:Ljava/util/ArrayList;
+    iput-object p1, p0, Landroidx/transition/Transition$SeekController;->mOnReadyListeners:Ljava/util/ArrayList;
 
     .line 12
     .line 13
-    iput-object p1, p0, Landroidx/transition/Transition$SeekController;
-    ->mOnProgressListeners:Ljava/util/ArrayList;
+    iput-object p1, p0, Landroidx/transition/Transition$SeekController;->mOnProgressListeners:Ljava/util/ArrayList;
 
     .line 14
     .line 15
-    iput-object p1, p0, Landroidx/transition/Transition$SeekController;
-    ->mListenerCache:[Landroidx/core/util/Consumer;
+    iput-object p1, p0, Landroidx/transition/Transition$SeekController;->mListenerCache:[Landroidx/core/util/Consumer;
 
     .line 16
     .line 17
@@ -118,14 +112,12 @@
 
     .line 18
     .line 19
-    invoke-direct {p1}, Landroidx/transition/VelocityTracker1D;
-    -><init>()V
+    invoke-direct {p1}, Landroidx/transition/VelocityTracker1D;-><init>()V
 
     .line 20
     .line 21
     .line 22
-    iput-object p1, p0, Landroidx/transition/Transition$SeekController;
-    ->mVelocityTracker:Landroidx/transition/VelocityTracker1D;    
+    iput-object p1, p0, Landroidx/transition/Transition$SeekController;->mVelocityTracker:Landroidx/transition/VelocityTracker1D;
     return-void
 .end method
 
@@ -133,8 +125,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/transition/Transition$SeekController;
-    ->lambda$ensureAnimation$0(Landroidx/dynamicanimation/animation/DynamicAnimation;ZFF)V
+    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/transition/Transition$SeekController;->lambda$ensureAnimation$0(Landroidx/dynamicanimation/animation/DynamicAnimation;ZFF)V
 return-void
 .end method
 
@@ -142,8 +133,7 @@ return-void
     .locals 5
 
     .line 1
-    iget-object v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mOnProgressListeners:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/transition/Transition$SeekController;->mOnProgressListeners:Ljava/util/ArrayList;
 
     .line 2
     .line 3
@@ -151,8 +141,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Ljava/util/ArrayList;
-    ->isEmpty()Z
+    invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
 
     .line 6
     .line 7
@@ -168,13 +157,11 @@ return-void
 
     .line 12
     :cond_0
-    iget-object v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mOnProgressListeners:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/transition/Transition$SeekController;->mOnProgressListeners:Ljava/util/ArrayList;
 
     .line 13
     .line 14
-    invoke-virtual {v0}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     .line 15
     .line 16
@@ -182,8 +169,7 @@ return-void
     move-result v0
 
     .line 18
-    iget-object v1, p0, Landroidx/transition/Transition$SeekController;
-    ->mListenerCache:[Landroidx/core/util/Consumer;
+    iget-object v1, p0, Landroidx/transition/Transition$SeekController;->mListenerCache:[Landroidx/core/util/Consumer;
 
     .line 19
     .line 20
@@ -195,24 +181,20 @@ return-void
 
     .line 23
     .line 24
-    iput-object v1, p0, Landroidx/transition/Transition$SeekController;
-    ->mListenerCache:[Landroidx/core/util/Consumer;
+    iput-object v1, p0, Landroidx/transition/Transition$SeekController;->mListenerCache:[Landroidx/core/util/Consumer;
 
     .line 25
     .line 26
     :cond_1
-    iget-object v1, p0, Landroidx/transition/Transition$SeekController;
-    ->mOnProgressListeners:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroidx/transition/Transition$SeekController;->mOnProgressListeners:Ljava/util/ArrayList;
 
     .line 27
     .line 28
-    iget-object v2, p0, Landroidx/transition/Transition$SeekController;
-    ->mListenerCache:[Landroidx/core/util/Consumer;
+    iget-object v2, p0, Landroidx/transition/Transition$SeekController;->mListenerCache:[Landroidx/core/util/Consumer;
 
     .line 29
     .line 30
-    invoke-virtual {v1, v2}, Ljava/util/ArrayList;
-    ->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-virtual {v1, v2}, Ljava/util/ArrayList;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     .line 31
     .line 32
@@ -227,8 +209,7 @@ return-void
     const/4 v2, 0x0
 
     .line 37
-    iput-object v2, p0, Landroidx/transition/Transition$SeekController;
-    ->mListenerCache:[Landroidx/core/util/Consumer;
+    iput-object v2, p0, Landroidx/transition/Transition$SeekController;->mListenerCache:[Landroidx/core/util/Consumer;
 
     .line 38
     .line 39
@@ -244,8 +225,7 @@ return-void
 
     .line 43
     .line 44
-    invoke-interface {v4, p0}, Landroidx/core/util/Consumer;
-    ->accept(Ljava/lang/Object;)V
+    invoke-interface {v4, p0}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
 
     .line 45
     .line 46
@@ -262,8 +242,7 @@ return-void
 
     .line 52
     :cond_2
-    iput-object v1, p0, Landroidx/transition/Transition$SeekController;
-    ->mListenerCache:[Landroidx/core/util/Consumer;
+    iput-object v1, p0, Landroidx/transition/Transition$SeekController;->mListenerCache:[Landroidx/core/util/Consumer;
 
     .line 53
     .line 54
@@ -276,8 +255,7 @@ return-void
     .locals 5
 
     .line 1
-    iget-object v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
+    iget-object v0, p0, Landroidx/transition/Transition$SeekController;->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
 
     .line 2
     .line 3
@@ -285,13 +263,11 @@ return-void
 
     .line 6
     :cond_0
-    iget-object v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mVelocityTracker:Landroidx/transition/VelocityTracker1D;
+    iget-object v0, p0, Landroidx/transition/Transition$SeekController;->mVelocityTracker:Landroidx/transition/VelocityTracker1D;
 
     .line 7
     .line 8
-    invoke-static {}, Landroid/view/animation/AnimationUtils;
-    ->currentAnimationTimeMillis()J
+    invoke-static {}, Landroid/view/animation/AnimationUtils;->currentAnimationTimeMillis()J
 
     .line 9
     .line 10
@@ -299,16 +275,14 @@ return-void
     move-result-wide v1
 
     .line 12
-    iget-wide v3, p0, Landroidx/transition/Transition$SeekController;
-    ->mCurrentPlayTime:J
+    iget-wide v3, p0, Landroidx/transition/Transition$SeekController;->mCurrentPlayTime:J
 
     .line 13
     .line 14
     long-to-float v3, v3
 
     .line 15
-    invoke-virtual {v0, v1, v2, v3}, Landroidx/transition/VelocityTracker1D;
-    ->addDataPoint(JF)V
+    invoke-virtual {v0, v1, v2, v3}, Landroidx/transition/VelocityTracker1D;->addDataPoint(JF)V
 
     .line 16
     .line 17
@@ -321,20 +295,17 @@ return-void
 
     .line 21
     .line 22
-    invoke-direct {v1}, Landroidx/dynamicanimation/animation/FloatValueHolder;
-    -><init>()V
+    invoke-direct {v1}, Landroidx/dynamicanimation/animation/FloatValueHolder;-><init>()V
 
     .line 23
     .line 24
     .line 25
-    invoke-direct {v0, v1}, Landroidx/dynamicanimation/animation/SpringAnimation;
-    -><init>(Landroidx/dynamicanimation/animation/FloatValueHolder;)V
+    invoke-direct {v0, v1}, Landroidx/dynamicanimation/animation/SpringAnimation;-><init>(Landroidx/dynamicanimation/animation/FloatValueHolder;)V
 
     .line 26
     .line 27
     .line 28
-    iput-object v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
+    iput-object v0, p0, Landroidx/transition/Transition$SeekController;->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
 
     .line 29
     .line 30
@@ -342,8 +313,7 @@ return-void
 
     .line 31
     .line 32
-    invoke-direct {v0}, Landroidx/dynamicanimation/animation/SpringForce;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/dynamicanimation/animation/SpringForce;-><init>()V
 
     .line 33
     .line 34
@@ -352,8 +322,7 @@ return-void
 
     .line 36
     .line 37
-    invoke-virtual {v0, v1}, Landroidx/dynamicanimation/animation/SpringForce;
-    ->setDampingRatio(F)Landroidx/dynamicanimation/animation/SpringForce;
+    invoke-virtual {v0, v1}, Landroidx/dynamicanimation/animation/SpringForce;->setDampingRatio(F)Landroidx/dynamicanimation/animation/SpringForce;
 
     .line 38
     .line 39
@@ -362,65 +331,54 @@ return-void
 
     .line 41
     .line 42
-    invoke-virtual {v0, v1}, Landroidx/dynamicanimation/animation/SpringForce;
-    ->setStiffness(F)Landroidx/dynamicanimation/animation/SpringForce;
+    invoke-virtual {v0, v1}, Landroidx/dynamicanimation/animation/SpringForce;->setStiffness(F)Landroidx/dynamicanimation/animation/SpringForce;
 
     .line 43
     .line 44
     .line 45
-    iget-object v1, p0, Landroidx/transition/Transition$SeekController;
-    ->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
+    iget-object v1, p0, Landroidx/transition/Transition$SeekController;->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
 
     .line 46
     .line 47
-    invoke-virtual {v1, v0}, Landroidx/dynamicanimation/animation/SpringAnimation;
-    ->setSpring(Landroidx/dynamicanimation/animation/SpringForce;)Landroidx/dynamicanimation/animation/SpringAnimation;
+    invoke-virtual {v1, v0}, Landroidx/dynamicanimation/animation/SpringAnimation;->setSpring(Landroidx/dynamicanimation/animation/SpringForce;)Landroidx/dynamicanimation/animation/SpringAnimation;
 
     .line 48
     .line 49
     .line 50
-    iget-object v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
+    iget-object v0, p0, Landroidx/transition/Transition$SeekController;->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
 
     .line 51
     .line 52
-    iget-wide v1, p0, Landroidx/transition/Transition$SeekController;
-    ->mCurrentPlayTime:J
+    iget-wide v1, p0, Landroidx/transition/Transition$SeekController;->mCurrentPlayTime:J
 
     .line 53
     .line 54
     long-to-float v1, v1
 
     .line 55
-    invoke-virtual {v0, v1}, Landroidx/dynamicanimation/animation/DynamicAnimation;
-    ->setStartValue(F)Landroidx/dynamicanimation/animation/DynamicAnimation;
+    invoke-virtual {v0, v1}, Landroidx/dynamicanimation/animation/DynamicAnimation;->setStartValue(F)Landroidx/dynamicanimation/animation/DynamicAnimation;
 
     .line 56
     .line 57
     .line 58
-    iget-object v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
+    iget-object v0, p0, Landroidx/transition/Transition$SeekController;->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
 
     .line 59
     .line 60
-    invoke-virtual {v0, p0}, Landroidx/dynamicanimation/animation/DynamicAnimation;
-    ->addUpdateListener(Landroidx/dynamicanimation/animation/DynamicAnimation$OnAnimationUpdateListener;)Landroidx/dynamicanimation/animation/DynamicAnimation;
+    invoke-virtual {v0, p0}, Landroidx/dynamicanimation/animation/DynamicAnimation;->addUpdateListener(Landroidx/dynamicanimation/animation/DynamicAnimation$OnAnimationUpdateListener;)Landroidx/dynamicanimation/animation/DynamicAnimation;
 
     .line 61
     .line 62
     .line 63
-    iget-object v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
+    iget-object v0, p0, Landroidx/transition/Transition$SeekController;->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
 
     .line 64
     .line 65
-    iget-object v1, p0, Landroidx/transition/Transition$SeekController;
-    ->mVelocityTracker:Landroidx/transition/VelocityTracker1D;
+    iget-object v1, p0, Landroidx/transition/Transition$SeekController;->mVelocityTracker:Landroidx/transition/VelocityTracker1D;
 
     .line 66
     .line 67
-    invoke-virtual {v1}, Landroidx/transition/VelocityTracker1D;
-    ->calculateVelocity()F
+    invoke-virtual {v1}, Landroidx/transition/VelocityTracker1D;->calculateVelocity()F
 
     .line 68
     .line 69
@@ -428,19 +386,16 @@ return-void
     move-result v1
 
     .line 71
-    invoke-virtual {v0, v1}, Landroidx/dynamicanimation/animation/DynamicAnimation;
-    ->setStartVelocity(F)Landroidx/dynamicanimation/animation/DynamicAnimation;
+    invoke-virtual {v0, v1}, Landroidx/dynamicanimation/animation/DynamicAnimation;->setStartVelocity(F)Landroidx/dynamicanimation/animation/DynamicAnimation;
 
     .line 72
     .line 73
     .line 74
-    iget-object v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
+    iget-object v0, p0, Landroidx/transition/Transition$SeekController;->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
 
     .line 75
     .line 76
-    invoke-virtual {p0}, Landroidx/transition/Transition$SeekController;
-    ->getDurationMillis()J
+    invoke-virtual {p0}, Landroidx/transition/Transition$SeekController;->getDurationMillis()J
 
     .line 77
     .line 78
@@ -458,14 +413,12 @@ return-void
     long-to-float v1, v1
 
     .line 84
-    invoke-virtual {v0, v1}, Landroidx/dynamicanimation/animation/DynamicAnimation;
-    ->setMaxValue(F)Landroidx/dynamicanimation/animation/DynamicAnimation;
+    invoke-virtual {v0, v1}, Landroidx/dynamicanimation/animation/DynamicAnimation;->setMaxValue(F)Landroidx/dynamicanimation/animation/DynamicAnimation;
 
     .line 85
     .line 86
     .line 87
-    iget-object v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
+    iget-object v0, p0, Landroidx/transition/Transition$SeekController;->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
 
     .line 88
     .line 89
@@ -473,14 +426,12 @@ return-void
 
     .line 90
     .line 91
-    invoke-virtual {v0, v1}, Landroidx/dynamicanimation/animation/DynamicAnimation;
-    ->setMinValue(F)Landroidx/dynamicanimation/animation/DynamicAnimation;
+    invoke-virtual {v0, v1}, Landroidx/dynamicanimation/animation/DynamicAnimation;->setMinValue(F)Landroidx/dynamicanimation/animation/DynamicAnimation;
 
     .line 92
     .line 93
     .line 94
-    iget-object v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
+    iget-object v0, p0, Landroidx/transition/Transition$SeekController;->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
 
     .line 95
     .line 96
@@ -488,14 +439,12 @@ return-void
 
     .line 97
     .line 98
-    invoke-virtual {v0, v1}, Landroidx/dynamicanimation/animation/DynamicAnimation;
-    ->setMinimumVisibleChange(F)Landroidx/dynamicanimation/animation/DynamicAnimation;
+    invoke-virtual {v0, v1}, Landroidx/dynamicanimation/animation/DynamicAnimation;->setMinimumVisibleChange(F)Landroidx/dynamicanimation/animation/DynamicAnimation;
 
     .line 99
     .line 100
     .line 101
-    iget-object v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
+    iget-object v0, p0, Landroidx/transition/Transition$SeekController;->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
 
     .line 102
     .line 103
@@ -503,14 +452,12 @@ return-void
 
     .line 104
     .line 105
-    invoke-direct {v1, p0}, Landroidx/transition/a;
-    -><init>(Landroidx/transition/Transition$SeekController;)V
+    invoke-direct {v1, p0}, Landroidx/transition/a;-><init>(Landroidx/transition/Transition$SeekController;)V
 
     .line 106
     .line 107
     .line 108
-    invoke-virtual {v0, v1}, Landroidx/dynamicanimation/animation/DynamicAnimation;
-    ->addEndListener(Landroidx/dynamicanimation/animation/DynamicAnimation$OnAnimationEndListener;)Landroidx/dynamicanimation/animation/DynamicAnimation;    
+    invoke-virtual {v0, v1}, Landroidx/dynamicanimation/animation/DynamicAnimation;->addEndListener(Landroidx/dynamicanimation/animation/DynamicAnimation$OnAnimationEndListener;)Landroidx/dynamicanimation/animation/DynamicAnimation;
     return-void
 .end method
 
@@ -537,8 +484,7 @@ return-void
 
     .line 9
     .line 10
-    invoke-virtual {p0}, Landroidx/transition/Transition$SeekController;
-    ->getDurationMillis()J
+    invoke-virtual {p0}, Landroidx/transition/Transition$SeekController;->getDurationMillis()J
 
     .line 11
     .line 12
@@ -546,8 +492,7 @@ return-void
     move-result-wide p3
 
     .line 14
-    iget-object p1, p0, Landroidx/transition/Transition$SeekController;
-    ->this$0:Landroidx/transition/Transition;
+    iget-object p1, p0, Landroidx/transition/Transition$SeekController;->this$0:Landroidx/transition/Transition;
 
     .line 15
     .line 16
@@ -555,8 +500,7 @@ return-void
 
     .line 17
     .line 18
-    invoke-virtual {p1, p2}, Landroidx/transition/TransitionSet;
-    ->getTransitionAt(I)Landroidx/transition/Transition;
+    invoke-virtual {p1, p2}, Landroidx/transition/TransitionSet;->getTransitionAt(I)Landroidx/transition/Transition;
 
     .line 19
     .line 20
@@ -564,8 +508,7 @@ return-void
     move-result-object p1
 
     .line 22
-    invoke-static {p1}, Landroidx/transition/Transition;
-    ->access$000(Landroidx/transition/Transition;)Landroidx/transition/Transition;
+    invoke-static {p1}, Landroidx/transition/Transition;->access$000(Landroidx/transition/Transition;)Landroidx/transition/Transition;
 
     .line 23
     .line 24
@@ -576,19 +519,16 @@ return-void
     const/4 v0, 0x0
 
     .line 27
-    invoke-static {p1, v0}, Landroidx/transition/Transition;
-    ->access$002(Landroidx/transition/Transition;Landroidx/transition/Transition;)Landroidx/transition/Transition;
+    invoke-static {p1, v0}, Landroidx/transition/Transition;->access$002(Landroidx/transition/Transition;Landroidx/transition/Transition;)Landroidx/transition/Transition;
 
     .line 28
     .line 29
     .line 30
-    iget-object p1, p0, Landroidx/transition/Transition$SeekController;
-    ->this$0:Landroidx/transition/Transition;
+    iget-object p1, p0, Landroidx/transition/Transition$SeekController;->this$0:Landroidx/transition/Transition;
 
     .line 31
     .line 32
-    iget-wide v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mCurrentPlayTime:J
+    iget-wide v0, p0, Landroidx/transition/Transition$SeekController;->mCurrentPlayTime:J
 
     .line 33
     .line 34
@@ -596,30 +536,25 @@ return-void
 
     .line 35
     .line 36
-    invoke-virtual {p1, v2, v3, v0, v1}, Landroidx/transition/Transition;
-    ->setCurrentPlayTimeMillis(JJ)V
+    invoke-virtual {p1, v2, v3, v0, v1}, Landroidx/transition/Transition;->setCurrentPlayTimeMillis(JJ)V
 
     .line 37
     .line 38
     .line 39
-    iget-object p1, p0, Landroidx/transition/Transition$SeekController;
-    ->this$0:Landroidx/transition/Transition;
+    iget-object p1, p0, Landroidx/transition/Transition$SeekController;->this$0:Landroidx/transition/Transition;
 
     .line 40
     .line 41
-    invoke-virtual {p1, p3, p4, v2, v3}, Landroidx/transition/Transition;
-    ->setCurrentPlayTimeMillis(JJ)V
+    invoke-virtual {p1, p3, p4, v2, v3}, Landroidx/transition/Transition;->setCurrentPlayTimeMillis(JJ)V
 
     .line 42
     .line 43
     .line 44
-    iput-wide p3, p0, Landroidx/transition/Transition$SeekController;
-    ->mCurrentPlayTime:J
+    iput-wide p3, p0, Landroidx/transition/Transition$SeekController;->mCurrentPlayTime:J
 
     .line 45
     .line 46
-    iget-object p1, p0, Landroidx/transition/Transition$SeekController;
-    ->mResetToStartState:Ljava/lang/Runnable;
+    iget-object p1, p0, Landroidx/transition/Transition$SeekController;->mResetToStartState:Ljava/lang/Runnable;
 
     .line 47
     .line 48
@@ -627,25 +562,21 @@ return-void
 
     .line 49
     .line 50
-    invoke-interface {p1}, Ljava/lang/Runnable;
-    ->run()V
+    invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
     .line 51
     .line 52
     .line 53
     :cond_0
-    iget-object p1, p0, Landroidx/transition/Transition$SeekController;
-    ->this$0:Landroidx/transition/Transition;
+    iget-object p1, p0, Landroidx/transition/Transition$SeekController;->this$0:Landroidx/transition/Transition;
 
     .line 54
     .line 55
-    iget-object p1, p1, Landroidx/transition/Transition;
-    ->mAnimators:Ljava/util/ArrayList;
+    iget-object p1, p1, Landroidx/transition/Transition;->mAnimators:Ljava/util/ArrayList;
 
     .line 56
     .line 57
-    invoke-virtual {p1}, Ljava/util/ArrayList;
-    ->clear()V
+    invoke-virtual {p1}, Ljava/util/ArrayList;->clear()V
 
     .line 58
     .line 59
@@ -654,32 +585,27 @@ return-void
 
     .line 61
     .line 62
-    sget-object p1, Landroidx/transition/Transition$TransitionNotification;
-    ->ON_END:Landroidx/transition/Transition$TransitionNotification;
+    sget-object p1, Landroidx/transition/Transition$TransitionNotification;->ON_END:Landroidx/transition/Transition$TransitionNotification;
 
     .line 63
     .line 64
     const/4 p3, 0x1
 
     .line 65
-    invoke-virtual {p2, p1, p3}, Landroidx/transition/Transition;
-    ->notifyListeners(Landroidx/transition/Transition$TransitionNotification;Z)V
+    invoke-virtual {p2, p1, p3}, Landroidx/transition/Transition;->notifyListeners(Landroidx/transition/Transition$TransitionNotification;Z)V
 return-void
 
     .line 69
     :cond_1
-    iget-object p1, p0, Landroidx/transition/Transition$SeekController;
-    ->this$0:Landroidx/transition/Transition;
+    iget-object p1, p0, Landroidx/transition/Transition$SeekController;->this$0:Landroidx/transition/Transition;
 
     .line 70
     .line 71
-    sget-object p3, Landroidx/transition/Transition$TransitionNotification;
-    ->ON_END:Landroidx/transition/Transition$TransitionNotification;
+    sget-object p3, Landroidx/transition/Transition$TransitionNotification;->ON_END:Landroidx/transition/Transition$TransitionNotification;
 
     .line 72
     .line 73
-    invoke-virtual {p1, p3, p2}, Landroidx/transition/Transition;
-    ->notifyListeners(Landroidx/transition/Transition$TransitionNotification;Z)V
+    invoke-virtual {p1, p3, p2}, Landroidx/transition/Transition;->notifyListeners(Landroidx/transition/Transition$TransitionNotification;Z)V
 
     .line 74
     .line 75
@@ -706,8 +632,7 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mOnProgressListeners:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/transition/Transition$SeekController;->mOnProgressListeners:Ljava/util/ArrayList;
 
     .line 2
     .line 3
@@ -719,25 +644,21 @@ return-void
 
     .line 6
     .line 7
-    invoke-direct {v0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 8
     .line 9
     .line 10
-    iput-object v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mOnProgressListeners:Ljava/util/ArrayList;
+    iput-object v0, p0, Landroidx/transition/Transition$SeekController;->mOnProgressListeners:Ljava/util/ArrayList;
 
     .line 11
     .line 12
     :cond_0
-    iget-object v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mOnProgressListeners:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/transition/Transition$SeekController;->mOnProgressListeners:Ljava/util/ArrayList;
 
     .line 13
     .line 14
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 return-void
 .end method
 
@@ -757,8 +678,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/Transition$SeekController;
-    ->isReady()Z
+    invoke-virtual {p0}, Landroidx/transition/Transition$SeekController;->isReady()Z
 
     .line 2
     .line 3
@@ -770,14 +690,12 @@ return-void
 
     .line 6
     .line 7
-    invoke-interface {p1, p0}, Landroidx/core/util/Consumer;
-    ->accept(Ljava/lang/Object;)V
+    invoke-interface {p1, p0}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
     return-void
 
     .line 11
     :cond_0
-    iget-object v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mOnReadyListeners:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/transition/Transition$SeekController;->mOnReadyListeners:Ljava/util/ArrayList;
 
     .line 12
     .line 13
@@ -789,25 +707,21 @@ return-void
 
     .line 16
     .line 17
-    invoke-direct {v0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 18
     .line 19
     .line 20
-    iput-object v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mOnReadyListeners:Ljava/util/ArrayList;
+    iput-object v0, p0, Landroidx/transition/Transition$SeekController;->mOnReadyListeners:Ljava/util/ArrayList;
 
     .line 21
     .line 22
     :cond_1
-    iget-object v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mOnReadyListeners:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/transition/Transition$SeekController;->mOnReadyListeners:Ljava/util/ArrayList;
 
     .line 23
     .line 24
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 return-void
 .end method
 
@@ -815,19 +729,16 @@ return-void
     .locals 5
 
     .line 1
-    invoke-direct {p0}, Landroidx/transition/Transition$SeekController;
-    ->ensureAnimation()V
+    invoke-direct {p0}, Landroidx/transition/Transition$SeekController;->ensureAnimation()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
+    iget-object v0, p0, Landroidx/transition/Transition$SeekController;->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
 
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroidx/transition/Transition$SeekController;
-    ->getDurationMillis()J
+    invoke-virtual {p0}, Landroidx/transition/Transition$SeekController;->getDurationMillis()J
 
     .line 7
     .line 8
@@ -845,8 +756,7 @@ return-void
     long-to-float v1, v1
 
     .line 14
-    invoke-virtual {v0, v1}, Landroidx/dynamicanimation/animation/SpringAnimation;
-    ->animateToFinalPosition(F)V
+    invoke-virtual {v0, v1}, Landroidx/dynamicanimation/animation/SpringAnimation;->animateToFinalPosition(F)V
     return-void
 .end method
 
@@ -858,27 +768,23 @@ return-void
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/transition/Transition$SeekController;
-    ->mResetToStartState:Ljava/lang/Runnable;
+    iput-object p1, p0, Landroidx/transition/Transition$SeekController;->mResetToStartState:Ljava/lang/Runnable;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/transition/Transition$SeekController;
-    ->ensureAnimation()V
+    invoke-direct {p0}, Landroidx/transition/Transition$SeekController;->ensureAnimation()V
 
     .line 4
     .line 5
     .line 6
-    iget-object p1, p0, Landroidx/transition/Transition$SeekController;
-    ->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
+    iget-object p1, p0, Landroidx/transition/Transition$SeekController;->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
 
     .line 7
     .line 8
     const/4 v0, 0x0
 
     .line 9
-    invoke-virtual {p1, v0}, Landroidx/dynamicanimation/animation/SpringAnimation;
-    ->animateToFinalPosition(F)V
+    invoke-virtual {p1, v0}, Landroidx/dynamicanimation/animation/SpringAnimation;->animateToFinalPosition(F)V
 return-void
 .end method
 
@@ -886,8 +792,7 @@ return-void
     .locals 3
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/Transition$SeekController;
-    ->getCurrentPlayTimeMillis()J
+    invoke-virtual {p0}, Landroidx/transition/Transition$SeekController;->getCurrentPlayTimeMillis()J
 
     .line 2
     .line 3
@@ -898,8 +803,7 @@ return-void
     long-to-float v0, v0
 
     .line 6
-    invoke-virtual {p0}, Landroidx/transition/Transition$SeekController;
-    ->getDurationMillis()J
+    invoke-virtual {p0}, Landroidx/transition/Transition$SeekController;->getDurationMillis()J
 
     .line 7
     .line 8
@@ -919,8 +823,7 @@ return-void
     .locals 6
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/Transition$SeekController;
-    ->getDurationMillis()J
+    invoke-virtual {p0}, Landroidx/transition/Transition$SeekController;->getDurationMillis()J
 
     .line 2
     .line 3
@@ -932,13 +835,11 @@ return-void
 
     .line 6
     .line 7
-    iget-wide v4, p0, Landroidx/transition/Transition$SeekController;
-    ->mCurrentPlayTime:J
+    iget-wide v4, p0, Landroidx/transition/Transition$SeekController;->mCurrentPlayTime:J
 
     .line 8
     .line 9
-    invoke-static {v2, v3, v4, v5}, Ljava/lang/Math;
-    ->max(JJ)J
+    invoke-static {v2, v3, v4, v5}, Ljava/lang/Math;->max(JJ)J
 
     .line 10
     .line 11
@@ -946,8 +847,7 @@ return-void
     move-result-wide v2
 
     .line 13
-    invoke-static {v0, v1, v2, v3}, Ljava/lang/Math;
-    ->min(JJ)J
+    invoke-static {v0, v1, v2, v3}, Ljava/lang/Math;->min(JJ)J
 
     .line 14
     .line 15
@@ -961,13 +861,11 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/transition/Transition$SeekController;
-    ->this$0:Landroidx/transition/Transition;
+    iget-object v0, p0, Landroidx/transition/Transition$SeekController;->this$0:Landroidx/transition/Transition;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/transition/Transition;
-    ->getTotalDurationMillis()J
+    invoke-virtual {v0}, Landroidx/transition/Transition;->getTotalDurationMillis()J
 
     .line 4
     .line 5
@@ -981,8 +879,7 @@ return-void
     .locals 6
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/Transition$SeekController;
-    ->getDurationMillis()J
+    invoke-virtual {p0}, Landroidx/transition/Transition$SeekController;->getDurationMillis()J
 
     .line 2
     .line 3
@@ -1007,24 +904,20 @@ return-void
     .line 12
     .line 13
     :cond_0
-    iget-object v0, p0, Landroidx/transition/Transition$SeekController;
-    ->this$0:Landroidx/transition/Transition;
+    iget-object v0, p0, Landroidx/transition/Transition$SeekController;->this$0:Landroidx/transition/Transition;
 
     .line 14
     .line 15
-    iget-wide v4, p0, Landroidx/transition/Transition$SeekController;
-    ->mCurrentPlayTime:J
+    iget-wide v4, p0, Landroidx/transition/Transition$SeekController;->mCurrentPlayTime:J
 
     .line 16
     .line 17
-    invoke-virtual {v0, v2, v3, v4, v5}, Landroidx/transition/Transition;
-    ->setCurrentPlayTimeMillis(JJ)V
+    invoke-virtual {v0, v2, v3, v4, v5}, Landroidx/transition/Transition;->setCurrentPlayTimeMillis(JJ)V
 
     .line 18
     .line 19
     .line 20
-    iput-wide v2, p0, Landroidx/transition/Transition$SeekController;
-    ->mCurrentPlayTime:J    
+    iput-wide v2, p0, Landroidx/transition/Transition$SeekController;->mCurrentPlayTime:J
     return-void
 .end method
 
@@ -1032,16 +925,14 @@ return-void
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mIsReady:Z    return v0
+    iget-boolean v0, p0, Landroidx/transition/Transition$SeekController;->mIsReady:Z    return v0
 .end method
 
 .method public onAnimationUpdate(Landroidx/dynamicanimation/animation/DynamicAnimation;FF)V
     .locals 4
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/Transition$SeekController;
-    ->getDurationMillis()J
+    invoke-virtual {p0}, Landroidx/transition/Transition$SeekController;->getDurationMillis()J
 
     .line 2
     .line 3
@@ -1059,8 +950,7 @@ return-void
     float-to-double p1, p2
 
     .line 9
-    invoke-static {p1, p2}, Ljava/lang/Math;
-    ->round(D)J
+    invoke-static {p1, p2}, Ljava/lang/Math;->round(D)J
 
     .line 10
     .line 11
@@ -1068,8 +958,7 @@ return-void
     move-result-wide p1
 
     .line 13
-    invoke-static {v0, v1, p1, p2}, Ljava/lang/Math;
-    ->min(JJ)J
+    invoke-static {v0, v1, p1, p2}, Ljava/lang/Math;->min(JJ)J
 
     .line 14
     .line 15
@@ -1081,8 +970,7 @@ return-void
 
     .line 18
     .line 19
-    invoke-static {v0, v1, p1, p2}, Ljava/lang/Math;
-    ->max(JJ)J
+    invoke-static {v0, v1, p1, p2}, Ljava/lang/Math;->max(JJ)J
 
     .line 20
     .line 21
@@ -1090,29 +978,24 @@ return-void
     move-result-wide p1
 
     .line 23
-    iget-object p3, p0, Landroidx/transition/Transition$SeekController;
-    ->this$0:Landroidx/transition/Transition;
+    iget-object p3, p0, Landroidx/transition/Transition$SeekController;->this$0:Landroidx/transition/Transition;
 
     .line 24
     .line 25
-    iget-wide v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mCurrentPlayTime:J
+    iget-wide v0, p0, Landroidx/transition/Transition$SeekController;->mCurrentPlayTime:J
 
     .line 26
     .line 27
-    invoke-virtual {p3, p1, p2, v0, v1}, Landroidx/transition/Transition;
-    ->setCurrentPlayTimeMillis(JJ)V
+    invoke-virtual {p3, p1, p2, v0, v1}, Landroidx/transition/Transition;->setCurrentPlayTimeMillis(JJ)V
 
     .line 28
     .line 29
     .line 30
-    iput-wide p1, p0, Landroidx/transition/Transition$SeekController;
-    ->mCurrentPlayTime:J
+    iput-wide p1, p0, Landroidx/transition/Transition$SeekController;->mCurrentPlayTime:J
 
     .line 31
     .line 32
-    invoke-direct {p0}, Landroidx/transition/Transition$SeekController;
-    ->callProgressListeners()V
+    invoke-direct {p0}, Landroidx/transition/Transition$SeekController;->callProgressListeners()V
     return-void
 .end method
 
@@ -1127,8 +1010,7 @@ return-void
     const/4 p1, 0x1
 
     .line 2
-    iput-boolean p1, p0, Landroidx/transition/Transition$SeekController;
-    ->mIsCanceled:Z
+    iput-boolean p1, p0, Landroidx/transition/Transition$SeekController;->mIsCanceled:Z
 return-void
 .end method
 
@@ -1139,13 +1021,11 @@ return-void
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mIsReady:Z
+    iput-boolean v0, p0, Landroidx/transition/Transition$SeekController;->mIsReady:Z
 
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mOnReadyListeners:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/transition/Transition$SeekController;->mOnReadyListeners:Ljava/util/ArrayList;
 
     .line 5
     .line 6
@@ -1156,8 +1036,7 @@ return-void
     const/4 v1, 0x0
 
     .line 9
-    iput-object v1, p0, Landroidx/transition/Transition$SeekController;
-    ->mOnReadyListeners:Ljava/util/ArrayList;
+    iput-object v1, p0, Landroidx/transition/Transition$SeekController;->mOnReadyListeners:Ljava/util/ArrayList;
 
     .line 10
     .line 11
@@ -1165,8 +1044,7 @@ return-void
 
     .line 12
     :goto_0
-    invoke-virtual {v0}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     .line 13
     .line 14
@@ -1178,8 +1056,7 @@ return-void
 
     .line 17
     .line 18
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -1191,8 +1068,7 @@ return-void
 
     .line 23
     .line 24
-    invoke-interface {v2, p0}, Landroidx/core/util/Consumer;
-    ->accept(Ljava/lang/Object;)V
+    invoke-interface {v2, p0}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
 
     .line 25
     .line 26
@@ -1205,8 +1081,7 @@ return-void
 
     .line 30
     :cond_0
-    invoke-direct {p0}, Landroidx/transition/Transition$SeekController;
-    ->callProgressListeners()V
+    invoke-direct {p0}, Landroidx/transition/Transition$SeekController;->callProgressListeners()V
     return-void
 .end method
 
@@ -1226,8 +1101,7 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mOnProgressListeners:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/transition/Transition$SeekController;->mOnProgressListeners:Ljava/util/ArrayList;
 
     .line 2
     .line 3
@@ -1235,8 +1109,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
-    ->remove(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 
     .line 6
     .line 7
@@ -1261,8 +1134,7 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mOnReadyListeners:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/transition/Transition$SeekController;->mOnReadyListeners:Ljava/util/ArrayList;
 
     .line 2
     .line 3
@@ -1270,19 +1142,16 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
-    ->remove(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 
     .line 6
     .line 7
     .line 8
-    iget-object p1, p0, Landroidx/transition/Transition$SeekController;
-    ->mOnReadyListeners:Ljava/util/ArrayList;
+    iget-object p1, p0, Landroidx/transition/Transition$SeekController;->mOnReadyListeners:Ljava/util/ArrayList;
 
     .line 9
     .line 10
-    invoke-virtual {p1}, Ljava/util/ArrayList;
-    ->isEmpty()Z
+    invoke-virtual {p1}, Ljava/util/ArrayList;->isEmpty()Z
 
     .line 11
     .line 12
@@ -1297,8 +1166,7 @@ return-void
     const/4 p1, 0x0
 
     .line 17
-    iput-object p1, p0, Landroidx/transition/Transition$SeekController;
-    ->mOnReadyListeners:Ljava/util/ArrayList;
+    iput-object p1, p0, Landroidx/transition/Transition$SeekController;->mOnReadyListeners:Ljava/util/ArrayList;
 
     .line 18
     .line 19
@@ -1310,8 +1178,7 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
+    iget-object v0, p0, Landroidx/transition/Transition$SeekController;->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
 
     .line 2
     .line 3
@@ -1319,8 +1186,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {p0}, Landroidx/transition/Transition$SeekController;
-    ->getDurationMillis()J
+    invoke-virtual {p0}, Landroidx/transition/Transition$SeekController;->getDurationMillis()J
 
     .line 6
     .line 7
@@ -1338,8 +1204,7 @@ return-void
     float-to-long v0, p1
 
     .line 13
-    invoke-virtual {p0, v0, v1}, Landroidx/transition/Transition$SeekController;
-    ->setCurrentPlayTimeMillis(J)V
+    invoke-virtual {p0, v0, v1}, Landroidx/transition/Transition$SeekController;->setCurrentPlayTimeMillis(J)V
     return-void
 
     .line 17
@@ -1352,8 +1217,7 @@ return-void
 
     .line 20
     .line 21
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 22
     .line 23
@@ -1364,8 +1228,7 @@ return-void
     .locals 5
 
     .line 1
-    iget-object v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
+    iget-object v0, p0, Landroidx/transition/Transition$SeekController;->mSpringAnimation:Landroidx/dynamicanimation/animation/SpringAnimation;
 
     .line 2
     .line 3
@@ -1373,8 +1236,7 @@ return-void
 
     .line 4
     .line 5
-    iget-wide v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mCurrentPlayTime:J
+    iget-wide v0, p0, Landroidx/transition/Transition$SeekController;->mCurrentPlayTime:J
 
     .line 6
     .line 7
@@ -1386,8 +1248,7 @@ return-void
 
     .line 10
     .line 11
-    invoke-virtual {p0}, Landroidx/transition/Transition$SeekController;
-    ->isReady()Z
+    invoke-virtual {p0}, Landroidx/transition/Transition$SeekController;->isReady()Z
 
     .line 12
     .line 13
@@ -1403,8 +1264,7 @@ return-void
 
     .line 18
     :cond_0
-    iget-boolean v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mIsCanceled:Z
+    iget-boolean v0, p0, Landroidx/transition/Transition$SeekController;->mIsCanceled:Z
 
     .line 19
     .line 20
@@ -1424,8 +1284,7 @@ return-void
 
     .line 27
     .line 28
-    iget-wide v2, p0, Landroidx/transition/Transition$SeekController;
-    ->mCurrentPlayTime:J
+    iget-wide v2, p0, Landroidx/transition/Transition$SeekController;->mCurrentPlayTime:J
 
     .line 29
     .line 30
@@ -1445,8 +1304,7 @@ return-void
 
     .line 37
     :cond_1
-    invoke-virtual {p0}, Landroidx/transition/Transition$SeekController;
-    ->getDurationMillis()J
+    invoke-virtual {p0}, Landroidx/transition/Transition$SeekController;->getDurationMillis()J
 
     .line 38
     .line 39
@@ -1462,8 +1320,7 @@ return-void
 
     .line 44
     .line 45
-    iget-wide v2, p0, Landroidx/transition/Transition$SeekController;
-    ->mCurrentPlayTime:J
+    iget-wide v2, p0, Landroidx/transition/Transition$SeekController;->mCurrentPlayTime:J
 
     .line 46
     .line 47
@@ -1484,8 +1341,7 @@ return-void
     .line 54
     :cond_2
     :goto_0
-    iget-wide v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mCurrentPlayTime:J
+    iget-wide v0, p0, Landroidx/transition/Transition$SeekController;->mCurrentPlayTime:J
 
     .line 55
     .line 56
@@ -1497,36 +1353,30 @@ return-void
 
     .line 59
     .line 60
-    iget-object v2, p0, Landroidx/transition/Transition$SeekController;
-    ->this$0:Landroidx/transition/Transition;
+    iget-object v2, p0, Landroidx/transition/Transition$SeekController;->this$0:Landroidx/transition/Transition;
 
     .line 61
     .line 62
-    invoke-virtual {v2, p1, p2, v0, v1}, Landroidx/transition/Transition;
-    ->setCurrentPlayTimeMillis(JJ)V
+    invoke-virtual {v2, p1, p2, v0, v1}, Landroidx/transition/Transition;->setCurrentPlayTimeMillis(JJ)V
 
     .line 63
     .line 64
     .line 65
-    iput-wide p1, p0, Landroidx/transition/Transition$SeekController;
-    ->mCurrentPlayTime:J
+    iput-wide p1, p0, Landroidx/transition/Transition$SeekController;->mCurrentPlayTime:J
 
     .line 66
     .line 67
     :cond_3
-    invoke-direct {p0}, Landroidx/transition/Transition$SeekController;
-    ->callProgressListeners()V
+    invoke-direct {p0}, Landroidx/transition/Transition$SeekController;->callProgressListeners()V
 
     .line 68
     .line 69
     .line 70
-    iget-object v0, p0, Landroidx/transition/Transition$SeekController;
-    ->mVelocityTracker:Landroidx/transition/VelocityTracker1D;
+    iget-object v0, p0, Landroidx/transition/Transition$SeekController;->mVelocityTracker:Landroidx/transition/VelocityTracker1D;
 
     .line 71
     .line 72
-    invoke-static {}, Landroid/view/animation/AnimationUtils;
-    ->currentAnimationTimeMillis()J
+    invoke-static {}, Landroid/view/animation/AnimationUtils;->currentAnimationTimeMillis()J
 
     .line 73
     .line 74
@@ -1537,8 +1387,7 @@ return-void
     long-to-float p1, p1
 
     .line 77
-    invoke-virtual {v0, v1, v2, p1}, Landroidx/transition/VelocityTracker1D;
-    ->addDataPoint(JF)V
+    invoke-virtual {v0, v1, v2, p1}, Landroidx/transition/VelocityTracker1D;->addDataPoint(JF)V
 
     .line 78
     .line 79
@@ -1557,8 +1406,7 @@ return-void
 
     .line 84
     .line 85
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 86
     .line 87

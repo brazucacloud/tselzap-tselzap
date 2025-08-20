@@ -14,8 +14,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -24,14 +23,12 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Landroidx/collection/SimpleArrayMap;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/collection/SimpleArrayMap;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, LZ/c;
-    ->a:Landroidx/collection/SimpleArrayMap;
+    iput-object v0, p0, LZ/c;->a:Landroidx/collection/SimpleArrayMap;
 
     .line 10
     .line 11
@@ -39,14 +36,12 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Landroidx/collection/SimpleArrayMap;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/collection/SimpleArrayMap;-><init>()V
 
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, LZ/c;
-    ->b:Landroidx/collection/SimpleArrayMap;
+    iput-object v0, p0, LZ/c;->b:Landroidx/collection/SimpleArrayMap;
 
     .line 17
     .line 18
@@ -57,8 +52,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p1, p2}, Landroid/content/res/TypedArray;
-    ->hasValue(I)Z
+    invoke-virtual {p1, p2}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
     .line 2
     .line 3
@@ -73,8 +67,7 @@
     const/4 v0, 0x0
 
     .line 8
-    invoke-virtual {p1, p2, v0}, Landroid/content/res/TypedArray;
-    ->getResourceId(II)I
+    invoke-virtual {p1, p2, v0}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     .line 9
     .line 10
@@ -86,8 +79,7 @@
 
     .line 13
     .line 14
-    invoke-static {p0, p1}, LZ/c;
-    ->b(Landroid/content/Context;I)LZ/c;
+    invoke-static {p0, p1}, LZ/c;->b(Landroid/content/Context;I)LZ/c;
 
     .line 15
     .line 16
@@ -111,8 +103,7 @@
 
     .line 2
     :try_start_0
-    invoke-static {p0, p1}, Landroid/animation/AnimatorInflater;
-    ->loadAnimator(Landroid/content/Context;I)Landroid/animation/Animator;
+    invoke-static {p0, p1}, Landroid/animation/AnimatorInflater;->loadAnimator(Landroid/content/Context;I)Landroid/animation/Animator;
 
     .line 3
     .line 4
@@ -132,8 +123,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {p0}, Landroid/animation/AnimatorSet;
-    ->getChildAnimations()Ljava/util/ArrayList;
+    invoke-virtual {p0}, Landroid/animation/AnimatorSet;->getChildAnimations()Ljava/util/ArrayList;
 
     .line 13
     .line 14
@@ -141,8 +131,7 @@
     move-result-object p0
 
     .line 16
-    invoke-static {p0}, LZ/c;
-    ->c(Ljava/util/ArrayList;)LZ/c;
+    invoke-static {p0}, LZ/c;->c(Ljava/util/ArrayList;)LZ/c;
 
     .line 17
     .line 18
@@ -168,20 +157,17 @@
 
     .line 26
     .line 27
-    invoke-direct {v1}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     .line 28
     .line 29
     .line 30
-    invoke-virtual {v1, p0}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v1, p0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 31
     .line 32
     .line 33
-    invoke-static {v1}, LZ/c;
-    ->c(Ljava/util/ArrayList;)LZ/c;
+    invoke-static {v1}, LZ/c;->c(Ljava/util/ArrayList;)LZ/c;
 
     .line 34
     .line 35
@@ -206,14 +192,12 @@
 
     .line 42
     .line 43
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 44
     .line 45
     .line 46
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->toHexString(I)Ljava/lang/String;
+    invoke-static {p1}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
 
     .line 47
     .line 48
@@ -221,14 +205,12 @@
     move-result-object p1
 
     .line 50
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 51
     .line 52
     .line 53
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 54
     .line 55
@@ -240,8 +222,7 @@
 
     .line 58
     .line 59
-    invoke-static {v1, p1, p0}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, p1, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 60
     .line 61
@@ -257,14 +238,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, LZ/c;
-    -><init>()V
+    invoke-direct {v0}, LZ/c;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-interface {p0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {p0}, Ljava/util/List;->size()I
 
     .line 7
     .line 8
@@ -283,8 +262,7 @@
 
     .line 13
     .line 14
-    invoke-interface {p0, v3}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {p0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -308,8 +286,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {v4}, Landroid/animation/ObjectAnimator;
-    ->getPropertyName()Ljava/lang/String;
+    invoke-virtual {v4}, Landroid/animation/ObjectAnimator;->getPropertyName()Ljava/lang/String;
 
     .line 27
     .line 28
@@ -317,8 +294,7 @@
     move-result-object v5
 
     .line 30
-    invoke-virtual {v4}, Landroid/animation/ValueAnimator;
-    ->getValues()[Landroid/animation/PropertyValuesHolder;
+    invoke-virtual {v4}, Landroid/animation/ValueAnimator;->getValues()[Landroid/animation/PropertyValuesHolder;
 
     .line 31
     .line 32
@@ -326,14 +302,12 @@
     move-result-object v6
 
     .line 34
-    invoke-virtual {v0, v5, v6}, LZ/c;
-    ->g(Ljava/lang/String;[Landroid/animation/PropertyValuesHolder;)V
+    invoke-virtual {v0, v5, v6}, LZ/c;->g(Ljava/lang/String;[Landroid/animation/PropertyValuesHolder;)V
 
     .line 35
     .line 36
     .line 37
-    invoke-virtual {v4}, Landroid/animation/ObjectAnimator;
-    ->getPropertyName()Ljava/lang/String;
+    invoke-virtual {v4}, Landroid/animation/ObjectAnimator;->getPropertyName()Ljava/lang/String;
 
     .line 38
     .line 39
@@ -345,8 +319,7 @@
 
     .line 42
     .line 43
-    invoke-virtual {v4}, Landroid/animation/ValueAnimator;
-    ->getStartDelay()J
+    invoke-virtual {v4}, Landroid/animation/ValueAnimator;->getStartDelay()J
 
     .line 44
     .line 45
@@ -354,8 +327,7 @@
     move-result-wide v7
 
     .line 47
-    invoke-virtual {v4}, Landroid/animation/ValueAnimator;
-    ->getDuration()J
+    invoke-virtual {v4}, Landroid/animation/ValueAnimator;->getDuration()J
 
     .line 48
     .line 49
@@ -363,8 +335,7 @@
     move-result-wide v9
 
     .line 51
-    invoke-virtual {v4}, Landroid/animation/ValueAnimator;
-    ->getInterpolator()Landroid/animation/TimeInterpolator;
+    invoke-virtual {v4}, Landroid/animation/ValueAnimator;->getInterpolator()Landroid/animation/TimeInterpolator;
 
     .line 52
     .line 53
@@ -372,42 +343,35 @@
     move-result-object v11
 
     .line 55
-    invoke-direct {v6}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {v6}, Ljava/lang/Object;-><init>()V
 
     .line 56
     .line 57
     .line 58
-    iput v2, v6, LZ/d;
-    ->d:I
+    iput v2, v6, LZ/d;->d:I
 
     .line 59
     .line 60
     const/4 v12, 0x1
 
     .line 61
-    iput v12, v6, LZ/d;
-    ->e:I
+    iput v12, v6, LZ/d;->e:I
 
     .line 62
     .line 63
-    iput-wide v7, v6, LZ/d;
-    ->a:J
+    iput-wide v7, v6, LZ/d;->a:J
 
     .line 64
     .line 65
-    iput-wide v9, v6, LZ/d;
-    ->b:J
+    iput-wide v9, v6, LZ/d;->b:J
 
     .line 66
     .line 67
-    iput-object v11, v6, LZ/d;
-    ->c:Landroid/animation/TimeInterpolator;
+    iput-object v11, v6, LZ/d;->c:Landroid/animation/TimeInterpolator;
 
     .line 68
     .line 69
-    invoke-virtual {v4}, Landroid/animation/ValueAnimator;
-    ->getRepeatCount()I
+    invoke-virtual {v4}, Landroid/animation/ValueAnimator;->getRepeatCount()I
 
     .line 70
     .line 71
@@ -415,13 +379,11 @@
     move-result v7
 
     .line 73
-    iput v7, v6, LZ/d;
-    ->d:I
+    iput v7, v6, LZ/d;->d:I
 
     .line 74
     .line 75
-    invoke-virtual {v4}, Landroid/animation/ValueAnimator;
-    ->getRepeatMode()I
+    invoke-virtual {v4}, Landroid/animation/ValueAnimator;->getRepeatMode()I
 
     .line 76
     .line 77
@@ -429,18 +391,15 @@
     move-result v4
 
     .line 79
-    iput v4, v6, LZ/d;
-    ->e:I
+    iput v4, v6, LZ/d;->e:I
 
     .line 80
     .line 81
-    iget-object v4, v0, LZ/c;
-    ->a:Landroidx/collection/SimpleArrayMap;
+    iget-object v4, v0, LZ/c;->a:Landroidx/collection/SimpleArrayMap;
 
     .line 82
     .line 83
-    invoke-virtual {v4, v5, v6}, Landroidx/collection/SimpleArrayMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v4, v5, v6}, Landroidx/collection/SimpleArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 84
     .line 85
@@ -465,20 +424,17 @@
 
     .line 94
     .line 95
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 96
     .line 97
     .line 98
-    invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 99
     .line 100
     .line 101
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 102
     .line 103
@@ -486,8 +442,7 @@
     move-result-object v0
 
     .line 105
-    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 106
     .line 107
@@ -505,8 +460,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0, p1}, LZ/c;
-    ->e(Ljava/lang/String;)[Landroid/animation/PropertyValuesHolder;
+    invoke-virtual {p0, p1}, LZ/c;->e(Ljava/lang/String;)[Landroid/animation/PropertyValuesHolder;
 
     .line 2
     .line 3
@@ -514,8 +468,7 @@
     move-result-object v0
 
     .line 5
-    invoke-static {p2, v0}, Landroid/animation/ObjectAnimator;
-    ->ofPropertyValuesHolder(Ljava/lang/Object;[Landroid/animation/PropertyValuesHolder;)Landroid/animation/ObjectAnimator;
+    invoke-static {p2, v0}, Landroid/animation/ObjectAnimator;->ofPropertyValuesHolder(Ljava/lang/Object;[Landroid/animation/PropertyValuesHolder;)Landroid/animation/ObjectAnimator;
 
     .line 6
     .line 7
@@ -523,19 +476,16 @@
     move-result-object p2
 
     .line 9
-    invoke-virtual {p2, p3}, Landroid/animation/ObjectAnimator;
-    ->setProperty(Landroid/util/Property;)V
+    invoke-virtual {p2, p3}, Landroid/animation/ObjectAnimator;->setProperty(Landroid/util/Property;)V
 
     .line 10
     .line 11
     .line 12
-    iget-object p3, p0, LZ/c;
-    ->a:Landroidx/collection/SimpleArrayMap;
+    iget-object p3, p0, LZ/c;->a:Landroidx/collection/SimpleArrayMap;
 
     .line 13
     .line 14
-    invoke-virtual {p3, p1}, Landroidx/collection/SimpleArrayMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p3, p1}, Landroidx/collection/SimpleArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -547,8 +497,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p3, p1}, Landroidx/collection/SimpleArrayMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p3, p1}, Landroidx/collection/SimpleArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -560,30 +509,25 @@
 
     .line 25
     .line 26
-    iget-wide v0, p1, LZ/d;
-    ->a:J
+    iget-wide v0, p1, LZ/d;->a:J
 
     .line 27
     .line 28
-    invoke-virtual {p2, v0, v1}, Landroid/animation/Animator;
-    ->setStartDelay(J)V
+    invoke-virtual {p2, v0, v1}, Landroid/animation/Animator;->setStartDelay(J)V
 
     .line 29
     .line 30
     .line 31
-    iget-wide v0, p1, LZ/d;
-    ->b:J
+    iget-wide v0, p1, LZ/d;->b:J
 
     .line 32
     .line 33
-    invoke-virtual {p2, v0, v1}, Landroid/animation/Animator;
-    ->setDuration(J)Landroid/animation/Animator;
+    invoke-virtual {p2, v0, v1}, Landroid/animation/Animator;->setDuration(J)Landroid/animation/Animator;
 
     .line 34
     .line 35
     .line 36
-    invoke-virtual {p1}, LZ/d;
-    ->a()Landroid/animation/TimeInterpolator;
+    invoke-virtual {p1}, LZ/d;->a()Landroid/animation/TimeInterpolator;
 
     .line 37
     .line 38
@@ -591,30 +535,25 @@
     move-result-object p3
 
     .line 40
-    invoke-virtual {p2, p3}, Landroid/animation/Animator;
-    ->setInterpolator(Landroid/animation/TimeInterpolator;)V
+    invoke-virtual {p2, p3}, Landroid/animation/Animator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
     .line 41
     .line 42
     .line 43
-    iget p3, p1, LZ/d;
-    ->d:I
+    iget p3, p1, LZ/d;->d:I
 
     .line 44
     .line 45
-    invoke-virtual {p2, p3}, Landroid/animation/ValueAnimator;
-    ->setRepeatCount(I)V
+    invoke-virtual {p2, p3}, Landroid/animation/ValueAnimator;->setRepeatCount(I)V
 
     .line 46
     .line 47
     .line 48
-    iget p1, p1, LZ/d;
-    ->e:I
+    iget p1, p1, LZ/d;->e:I
 
     .line 49
     .line 50
-    invoke-virtual {p2, p1}, Landroid/animation/ValueAnimator;
-    ->setRepeatMode(I)V
+    invoke-virtual {p2, p1}, Landroid/animation/ValueAnimator;->setRepeatMode(I)V
 
     .line 51
     .line 52
@@ -627,8 +566,7 @@
 
     .line 55
     .line 56
-    invoke-direct {p1}, Ljava/lang/IllegalArgumentException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/IllegalArgumentException;-><init>()V
 
     .line 57
     .line 58
@@ -698,8 +636,7 @@
     .locals 3
 
     .line 1
-    invoke-virtual {p0, p1}, LZ/c;
-    ->f(Ljava/lang/String;)Z
+    invoke-virtual {p0, p1}, LZ/c;->f(Ljava/lang/String;)Z
 
     .line 2
     .line 3
@@ -711,13 +648,11 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, LZ/c;
-    ->b:Landroidx/collection/SimpleArrayMap;
+    iget-object v0, p0, LZ/c;->b:Landroidx/collection/SimpleArrayMap;
 
     .line 8
     .line 9
-    invoke-virtual {v0, p1}, Landroidx/collection/SimpleArrayMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Landroidx/collection/SimpleArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -751,8 +686,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {v2}, Landroid/animation/PropertyValuesHolder;
-    ->clone()Landroid/animation/PropertyValuesHolder;
+    invoke-virtual {v2}, Landroid/animation/PropertyValuesHolder;->clone()Landroid/animation/PropertyValuesHolder;
 
     .line 25
     .line 26
@@ -780,8 +714,7 @@
 
     .line 35
     .line 36
-    invoke-direct {p1}, Ljava/lang/IllegalArgumentException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/IllegalArgumentException;-><init>()V
 
     .line 37
     .line 38
@@ -866,18 +799,15 @@
 
     .line 12
     .line 13
-    iget-object v0, p0, LZ/c;
-    ->a:Landroidx/collection/SimpleArrayMap;
+    iget-object v0, p0, LZ/c;->a:Landroidx/collection/SimpleArrayMap;
 
     .line 14
     .line 15
-    iget-object p1, p1, LZ/c;
-    ->a:Landroidx/collection/SimpleArrayMap;
+    iget-object p1, p1, LZ/c;->a:Landroidx/collection/SimpleArrayMap;
 
     .line 16
     .line 17
-    invoke-virtual {v0, p1}, Landroidx/collection/SimpleArrayMap;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Landroidx/collection/SimpleArrayMap;->equals(Ljava/lang/Object;)Z
 
     .line 18
     .line 19
@@ -891,13 +821,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, LZ/c;
-    ->b:Landroidx/collection/SimpleArrayMap;
+    iget-object v0, p0, LZ/c;->b:Landroidx/collection/SimpleArrayMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/collection/SimpleArrayMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Landroidx/collection/SimpleArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -924,13 +852,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, LZ/c;
-    ->b:Landroidx/collection/SimpleArrayMap;
+    iget-object v0, p0, LZ/c;->b:Landroidx/collection/SimpleArrayMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/collection/SimpleArrayMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, p2}, Landroidx/collection/SimpleArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -942,13 +868,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, LZ/c;
-    ->a:Landroidx/collection/SimpleArrayMap;
+    iget-object v0, p0, LZ/c;->a:Landroidx/collection/SimpleArrayMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/collection/SimpleArrayMap;
-    ->hashCode()I
+    invoke-virtual {v0}, Landroidx/collection/SimpleArrayMap;->hashCode()I
 
     .line 4
     .line 5
@@ -970,8 +894,7 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -980,8 +903,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {v1}, Ljava/lang/Class;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     .line 11
     .line 12
@@ -989,8 +911,7 @@
     move-result-object v1
 
     .line 14
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 15
     .line 16
@@ -999,14 +920,12 @@
 
     .line 18
     .line 19
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     .line 20
     .line 21
     .line 22
-    invoke-static {p0}, Ljava/lang/System;
-    ->identityHashCode(Ljava/lang/Object;)I
+    invoke-static {p0}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
 
     .line 23
     .line 24
@@ -1014,8 +933,7 @@
     move-result v1
 
     .line 26
-    invoke-static {v1}, Ljava/lang/Integer;
-    ->toHexString(I)Ljava/lang/String;
+    invoke-static {v1}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
 
     .line 27
     .line 28
@@ -1023,8 +941,7 @@
     move-result-object v1
 
     .line 30
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 31
     .line 32
@@ -1033,19 +950,16 @@
 
     .line 34
     .line 35
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 36
     .line 37
     .line 38
-    iget-object v1, p0, LZ/c;
-    ->a:Landroidx/collection/SimpleArrayMap;
+    iget-object v1, p0, LZ/c;->a:Landroidx/collection/SimpleArrayMap;
 
     .line 39
     .line 40
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 41
     .line 42
@@ -1054,14 +968,12 @@
 
     .line 44
     .line 45
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 46
     .line 47
     .line 48
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 49
     .line 50

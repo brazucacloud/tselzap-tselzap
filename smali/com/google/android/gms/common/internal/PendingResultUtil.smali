@@ -24,11 +24,9 @@
 
     new-instance v0, Lcom/google/android/gms/common/internal/zao;
 
-    invoke-direct {v0}, Lcom/google/android/gms/common/internal/zao;
-    -><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/common/internal/zao;-><init>()V
 
-    sput-object v0, Lcom/google/android/gms/common/internal/PendingResultUtil;
-    ->zaa:Lcom/google/android/gms/common/internal/zas;
+    sput-object v0, Lcom/google/android/gms/common/internal/PendingResultUtil;->zaa:Lcom/google/android/gms/common/internal/zas;
 
     return-void
 .end method
@@ -36,8 +34,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -76,14 +73,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Lcom/google/android/gms/common/internal/zaq;
-    -><init>(Lcom/google/android/gms/common/api/Response;)V
+    invoke-direct {v0, p1}, Lcom/google/android/gms/common/internal/zaq;-><init>(Lcom/google/android/gms/common/api/Response;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/PendingResultUtil;
-    ->toTask(Lcom/google/android/gms/common/api/PendingResult;Lcom/google/android/gms/common/internal/PendingResultUtil$ResultConverter;)Lcom/google/android/gms/tasks/Task;
+    invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/PendingResultUtil;->toTask(Lcom/google/android/gms/common/api/PendingResult;Lcom/google/android/gms/common/internal/PendingResultUtil$ResultConverter;)Lcom/google/android/gms/tasks/Task;
 
     .line 7
     .line 8
@@ -126,8 +121,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/google/android/gms/common/internal/PendingResultUtil;
-    ->zaa:Lcom/google/android/gms/common/internal/zas;
+    sget-object v0, Lcom/google/android/gms/common/internal/PendingResultUtil;->zaa:Lcom/google/android/gms/common/internal/zas;
 
     .line 2
     .line 3
@@ -135,8 +129,7 @@
 
     .line 4
     .line 5
-    invoke-direct {v1}, Lcom/google/android/gms/tasks/TaskCompletionSource;
-    -><init>()V
+    invoke-direct {v1}, Lcom/google/android/gms/tasks/TaskCompletionSource;-><init>()V
 
     .line 6
     .line 7
@@ -145,20 +138,17 @@
 
     .line 9
     .line 10
-    invoke-direct {v2, p0, v1, p1, v0}, Lcom/google/android/gms/common/internal/zap;
-    -><init>(Lcom/google/android/gms/common/api/PendingResult;Lcom/google/android/gms/tasks/TaskCompletionSource;Lcom/google/android/gms/common/internal/PendingResultUtil$ResultConverter;Lcom/google/android/gms/common/internal/zas;)V
+    invoke-direct {v2, p0, v1, p1, v0}, Lcom/google/android/gms/common/internal/zap;-><init>(Lcom/google/android/gms/common/api/PendingResult;Lcom/google/android/gms/tasks/TaskCompletionSource;Lcom/google/android/gms/common/internal/PendingResultUtil$ResultConverter;Lcom/google/android/gms/common/internal/zas;)V
 
     .line 11
     .line 12
     .line 13
-    invoke-virtual {p0, v2}, Lcom/google/android/gms/common/api/PendingResult;
-    ->addStatusListener(Lcom/google/android/gms/common/api/PendingResult$StatusListener;)V
+    invoke-virtual {p0, v2}, Lcom/google/android/gms/common/api/PendingResult;->addStatusListener(Lcom/google/android/gms/common/api/PendingResult$StatusListener;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {v1}, Lcom/google/android/gms/tasks/TaskCompletionSource;
-    ->getTask()Lcom/google/android/gms/tasks/Task;
+    invoke-virtual {v1}, Lcom/google/android/gms/tasks/TaskCompletionSource;->getTask()Lcom/google/android/gms/tasks/Task;
 
     .line 17
     .line 18
@@ -198,14 +188,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/google/android/gms/common/internal/zar;
-    -><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/common/internal/zar;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/PendingResultUtil;
-    ->toTask(Lcom/google/android/gms/common/api/PendingResult;Lcom/google/android/gms/common/internal/PendingResultUtil$ResultConverter;)Lcom/google/android/gms/tasks/Task;
+    invoke-static {p0, v0}, Lcom/google/android/gms/common/internal/PendingResultUtil;->toTask(Lcom/google/android/gms/common/api/PendingResult;Lcom/google/android/gms/common/internal/PendingResultUtil$ResultConverter;)Lcom/google/android/gms/tasks/Task;
 
     .line 7
     .line 8

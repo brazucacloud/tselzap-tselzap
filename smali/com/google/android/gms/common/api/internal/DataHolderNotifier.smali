@@ -38,11 +38,9 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/DataHolderNotifier;
-    ->zaa:Lcom/google/android/gms/common/data/DataHolder;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/DataHolderNotifier;->zaa:Lcom/google/android/gms/common/data/DataHolder;
 
     return-void
 .end method
@@ -67,11 +65,9 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/DataHolderNotifier;
-    ->zaa:Lcom/google/android/gms/common/data/DataHolder;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/DataHolderNotifier;->zaa:Lcom/google/android/gms/common/data/DataHolder;
 
-    invoke-virtual {p0, p1, v0}, Lcom/google/android/gms/common/api/internal/DataHolderNotifier;
-    ->notifyListener(Ljava/lang/Object;Lcom/google/android/gms/common/data/DataHolder;)V
+    invoke-virtual {p0, p1, v0}, Lcom/google/android/gms/common/api/internal/DataHolderNotifier;->notifyListener(Ljava/lang/Object;Lcom/google/android/gms/common/data/DataHolder;)V
 return-void
 .end method
 
@@ -103,8 +99,7 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/DataHolderNotifier;
-    ->zaa:Lcom/google/android/gms/common/data/DataHolder;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/DataHolderNotifier;->zaa:Lcom/google/android/gms/common/data/DataHolder;
 
     .line 2
     .line 3
@@ -112,8 +107,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Lcom/google/android/gms/common/data/DataHolder;
-    ->close()V
+    invoke-virtual {v0}, Lcom/google/android/gms/common/data/DataHolder;->close()V
 
     .line 6
     .line 7

@@ -101,8 +101,7 @@
     .line 5
     .line 6
     .line 7
-    sput-object v0, Landroidx/transition/Styleable;
-    ->TRANSITION_TARGET:[I
+    sput-object v0, Landroidx/transition/Styleable;->TRANSITION_TARGET:[I
 
     .line 8
     .line 9
@@ -129,8 +128,7 @@
     move-result-object v0
 
     .line 22
-    sput-object v0, Landroidx/transition/Styleable;
-    ->TRANSITION_MANAGER:[I
+    sput-object v0, Landroidx/transition/Styleable;->TRANSITION_MANAGER:[I
 
     .line 23
     .line 24
@@ -162,8 +160,7 @@
     move-result-object v0
 
     .line 40
-    sput-object v0, Landroidx/transition/Styleable;
-    ->TRANSITION:[I
+    sput-object v0, Landroidx/transition/Styleable;->TRANSITION:[I
 
     .line 41
     .line 42
@@ -180,8 +177,7 @@
     move-result-object v0
 
     .line 49
-    sput-object v0, Landroidx/transition/Styleable;
-    ->CHANGE_BOUNDS:[I
+    sput-object v0, Landroidx/transition/Styleable;->CHANGE_BOUNDS:[I
 
     .line 50
     .line 51
@@ -198,8 +194,7 @@
     move-result-object v0
 
     .line 58
-    sput-object v0, Landroidx/transition/Styleable;
-    ->VISIBILITY_TRANSITION:[I
+    sput-object v0, Landroidx/transition/Styleable;->VISIBILITY_TRANSITION:[I
 
     .line 59
     .line 60
@@ -216,8 +211,7 @@
     move-result-object v0
 
     .line 67
-    sput-object v0, Landroidx/transition/Styleable;
-    ->FADE:[I
+    sput-object v0, Landroidx/transition/Styleable;->FADE:[I
 
     .line 68
     .line 69
@@ -239,8 +233,7 @@
     move-result-object v0
 
     .line 79
-    sput-object v0, Landroidx/transition/Styleable;
-    ->CHANGE_TRANSFORM:[I
+    sput-object v0, Landroidx/transition/Styleable;->CHANGE_TRANSFORM:[I
 
     .line 80
     .line 81
@@ -257,8 +250,7 @@
     move-result-object v0
 
     .line 88
-    sput-object v0, Landroidx/transition/Styleable;
-    ->SLIDE:[I
+    sput-object v0, Landroidx/transition/Styleable;->SLIDE:[I
 
     .line 89
     .line 90
@@ -275,8 +267,7 @@
     move-result-object v0
 
     .line 97
-    sput-object v0, Landroidx/transition/Styleable;
-    ->TRANSITION_SET:[I
+    sput-object v0, Landroidx/transition/Styleable;->TRANSITION_SET:[I
 
     .line 98
     .line 99
@@ -303,8 +294,7 @@
     move-result-object v0
 
     .line 112
-    sput-object v0, Landroidx/transition/Styleable;
-    ->ARC_MOTION:[I
+    sput-object v0, Landroidx/transition/Styleable;->ARC_MOTION:[I
 
     .line 113
     .line 114
@@ -321,8 +311,7 @@
     move-result-object v0
 
     .line 121
-    sput-object v0, Landroidx/transition/Styleable;
-    ->PATTERN_PATH_MOTION:[I    return-void
+    sput-object v0, Landroidx/transition/Styleable;->PATTERN_PATH_MOTION:[I    return-void
 
     .line 124
     nop
@@ -342,8 +331,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 

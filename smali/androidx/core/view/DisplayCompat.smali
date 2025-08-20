@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -44,8 +43,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -61,8 +59,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0, p1}, Landroidx/core/view/DisplayCompat;
-    ->parsePhysicalDisplaySizeFromSystemProperties(Ljava/lang/String;Landroid/view/Display;)Landroid/graphics/Point;
+    invoke-static {v0, p1}, Landroidx/core/view/DisplayCompat;->parsePhysicalDisplaySizeFromSystemProperties(Ljava/lang/String;Landroid/view/Display;)Landroid/graphics/Point;
 
     .line 10
     .line 11
@@ -78,8 +75,7 @@
 
     .line 15
     .line 16
-    invoke-static {v0, p1}, Landroidx/core/view/DisplayCompat;
-    ->parsePhysicalDisplaySizeFromSystemProperties(Ljava/lang/String;Landroid/view/Display;)Landroid/graphics/Point;
+    invoke-static {v0, p1}, Landroidx/core/view/DisplayCompat;->parsePhysicalDisplaySizeFromSystemProperties(Ljava/lang/String;Landroid/view/Display;)Landroid/graphics/Point;
 
     .line 17
     .line 18
@@ -96,8 +92,7 @@
 
     .line 23
     :cond_1
-    invoke-static {p0}, Landroidx/core/view/DisplayCompat;
-    ->isSonyBravia4kTv(Landroid/content/Context;)Z
+    invoke-static {p0}, Landroidx/core/view/DisplayCompat;->isSonyBravia4kTv(Landroid/content/Context;)Z
 
     .line 24
     .line 25
@@ -112,8 +107,7 @@
 
     .line 29
     .line 30
-    invoke-static {p1}, Landroidx/core/view/DisplayCompat;
-    ->isCurrentModeTheLargestMode(Landroid/view/Display;)Z
+    invoke-static {p1}, Landroidx/core/view/DisplayCompat;->isCurrentModeTheLargestMode(Landroid/view/Display;)Z
 
     .line 31
     .line 32
@@ -137,8 +131,7 @@
 
     .line 41
     .line 42
-    invoke-direct {p0, p1, v0}, Landroid/graphics/Point;
-    -><init>(II)V
+    invoke-direct {p0, p1, v0}, Landroid/graphics/Point;-><init>(II)V
 
     .line 43
     .line 44
@@ -164,8 +157,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/view/DisplayCompat;
-    ->getCurrentDisplaySizeFromWorkarounds(Landroid/content/Context;Landroid/view/Display;)Landroid/graphics/Point;
+    invoke-static {p0, p1}, Landroidx/core/view/DisplayCompat;->getCurrentDisplaySizeFromWorkarounds(Landroid/content/Context;Landroid/view/Display;)Landroid/graphics/Point;
 
     .line 2
     .line 3
@@ -185,14 +177,12 @@
 
     .line 9
     .line 10
-    invoke-direct {p0}, Landroid/graphics/Point;
-    -><init>()V
+    invoke-direct {p0}, Landroid/graphics/Point;-><init>()V
 
     .line 11
     .line 12
     .line 13
-    invoke-virtual {p1, p0}, Landroid/view/Display;
-    ->getRealSize(Landroid/graphics/Point;)V
+    invoke-virtual {p1, p0}, Landroid/view/Display;->getRealSize(Landroid/graphics/Point;)V
 
     .line 14
     .line 15
@@ -214,8 +204,7 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -227,8 +216,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/view/DisplayCompat$Api23Impl;
-    ->getMode(Landroid/content/Context;Landroid/view/Display;)Landroidx/core/view/DisplayCompat$ModeCompat;
+    invoke-static {p0, p1}, Landroidx/core/view/DisplayCompat$Api23Impl;->getMode(Landroid/content/Context;Landroid/view/Display;)Landroidx/core/view/DisplayCompat$ModeCompat;
 
     .line 8
     .line 9
@@ -243,8 +231,7 @@
 
     .line 13
     .line 14
-    invoke-static {p0, p1}, Landroidx/core/view/DisplayCompat;
-    ->getDisplaySize(Landroid/content/Context;Landroid/view/Display;)Landroid/graphics/Point;
+    invoke-static {p0, p1}, Landroidx/core/view/DisplayCompat;->getDisplaySize(Landroid/content/Context;Landroid/view/Display;)Landroid/graphics/Point;
 
     .line 15
     .line 16
@@ -252,8 +239,7 @@
     move-result-object p0
 
     .line 18
-    invoke-direct {v0, p0}, Landroidx/core/view/DisplayCompat$ModeCompat;
-    -><init>(Landroid/graphics/Point;)V
+    invoke-direct {v0, p0}, Landroidx/core/view/DisplayCompat$ModeCompat;-><init>(Landroid/graphics/Point;)V
 
     .line 19
     .line 20
@@ -281,8 +267,7 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -294,8 +279,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/view/DisplayCompat$Api23Impl;
-    ->getSupportedModes(Landroid/content/Context;Landroid/view/Display;)[Landroidx/core/view/DisplayCompat$ModeCompat;
+    invoke-static {p0, p1}, Landroidx/core/view/DisplayCompat$Api23Impl;->getSupportedModes(Landroid/content/Context;Landroid/view/Display;)[Landroidx/core/view/DisplayCompat$ModeCompat;
 
     .line 8
     .line 9
@@ -306,8 +290,7 @@
 
     .line 12
     :cond_0
-    invoke-static {p0, p1}, Landroidx/core/view/DisplayCompat;
-    ->getMode(Landroid/content/Context;Landroid/view/Display;)Landroidx/core/view/DisplayCompat$ModeCompat;
+    invoke-static {p0, p1}, Landroidx/core/view/DisplayCompat;->getMode(Landroid/content/Context;Landroid/view/Display;)Landroidx/core/view/DisplayCompat$ModeCompat;
 
     .line 13
     .line 14
@@ -349,8 +332,7 @@
 
     .line 4
     .line 5
-    invoke-static {v2}, Ljava/lang/Class;
-    ->forName(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v2}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 6
     .line 7
@@ -374,8 +356,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {v2, v3, v4}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v2, v3, v4}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 18
     .line 19
@@ -391,8 +372,7 @@
 
     .line 24
     .line 25
-    invoke-virtual {v3, v2, v1}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, v2, v1}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 26
     .line 27
@@ -423,8 +403,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -436,8 +415,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/view/DisplayCompat$Api23Impl;
-    ->isCurrentModeTheLargestMode(Landroid/view/Display;)Z
+    invoke-static {p0}, Landroidx/core/view/DisplayCompat$Api23Impl;->isCurrentModeTheLargestMode(Landroid/view/Display;)Z
 
     .line 8
     .line 9
@@ -461,8 +439,7 @@
     .end param
 
     .line 1
-    invoke-static {p0}, Landroidx/core/view/DisplayCompat;
-    ->isTv(Landroid/content/Context;)Z
+    invoke-static {p0}, Landroidx/core/view/DisplayCompat;->isTv(Landroid/content/Context;)Z
 
     .line 2
     .line 3
@@ -478,13 +455,11 @@
 
     .line 8
     .line 9
-    sget-object v1, Landroid/os/Build;
-    ->MANUFACTURER:Ljava/lang/String;
+    sget-object v1, Landroid/os/Build;->MANUFACTURER:Ljava/lang/String;
 
     .line 10
     .line 11
-    invoke-virtual {v0, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -496,8 +471,7 @@
 
     .line 16
     .line 17
-    sget-object v0, Landroid/os/Build;
-    ->MODEL:Ljava/lang/String;
+    sget-object v0, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
     .line 18
     .line 19
@@ -505,8 +479,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {v0, v1}, Ljava/lang/String;
-    ->startsWith(Ljava/lang/String;)Z
+    invoke-virtual {v0, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     .line 22
     .line 23
@@ -518,8 +491,7 @@
 
     .line 26
     .line 27
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 28
     .line 29
@@ -531,8 +503,7 @@
 
     .line 32
     .line 33
-    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;
-    ->hasSystemFeature(Ljava/lang/String;)Z
+    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;->hasSystemFeature(Ljava/lang/String;)Z
 
     .line 34
     .line 35
@@ -567,8 +538,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Landroid/content/Context;
-    ->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -584,8 +554,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p0}, Landroid/app/UiModeManager;
-    ->getCurrentModeType()I
+    invoke-virtual {p0}, Landroid/app/UiModeManager;->getCurrentModeType()I
 
     .line 12
     .line 13
@@ -619,8 +588,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0}, Ljava/lang/String;
-    ->trim()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -635,8 +603,7 @@
     const/4 v1, -0x1
 
     .line 8
-    invoke-virtual {p0, v0, v1}, Ljava/lang/String;
-    ->split(Ljava/lang/String;I)[Ljava/lang/String;
+    invoke-virtual {p0, v0, v1}, Ljava/lang/String;->split(Ljava/lang/String;I)[Ljava/lang/String;
 
     .line 9
     .line 10
@@ -661,8 +628,7 @@
 
     .line 18
     .line 19
-    invoke-static {v0}, Ljava/lang/Integer;
-    ->parseInt(Ljava/lang/String;)I
+    invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     .line 20
     .line 21
@@ -677,8 +643,7 @@
 
     .line 25
     .line 26
-    invoke-static {p0}, Ljava/lang/Integer;
-    ->parseInt(Ljava/lang/String;)I
+    invoke-static {p0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     .line 27
     .line 28
@@ -698,8 +663,7 @@
 
     .line 35
     .line 36
-    invoke-direct {v1, v0, p0}, Landroid/graphics/Point;
-    -><init>(II)V
+    invoke-direct {v1, v0, p0}, Landroid/graphics/Point;-><init>(II)V
 
     .line 37
     .line 38
@@ -712,8 +676,7 @@
 
     .line 41
     .line 42
-    invoke-direct {p0}, Ljava/lang/NumberFormatException;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/NumberFormatException;-><init>()V
 
     .line 43
     .line 44
@@ -774,8 +737,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Landroid/view/Display;
-    ->getDisplayId()I
+    invoke-virtual {p1}, Landroid/view/Display;->getDisplayId()I
 
     .line 2
     .line 3
@@ -794,8 +756,7 @@
 
     .line 9
     :cond_0
-    invoke-static {p0}, Landroidx/core/view/DisplayCompat;
-    ->getSystemProperty(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Landroidx/core/view/DisplayCompat;->getSystemProperty(Ljava/lang/String;)Ljava/lang/String;
 
     .line 10
     .line 11
@@ -803,8 +764,7 @@
     move-result-object p0
 
     .line 13
-    invoke-static {p0}, Landroid/text/TextUtils;
-    ->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 14
     .line 15
@@ -825,8 +785,7 @@
     .line 22
     :cond_1
     :try_start_0
-    invoke-static {p0}, Landroidx/core/view/DisplayCompat;
-    ->parseDisplaySize(Ljava/lang/String;)Landroid/graphics/Point;
+    invoke-static {p0}, Landroidx/core/view/DisplayCompat;->parseDisplaySize(Ljava/lang/String;)Landroid/graphics/Point;
 
     .line 23
     .line 24

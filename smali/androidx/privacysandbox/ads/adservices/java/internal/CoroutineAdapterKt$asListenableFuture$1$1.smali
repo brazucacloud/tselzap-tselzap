@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/privacysandbox/ads/adservices/java/internal/CoroutineAdapterKt;
-    ->asListenableFuture(Lz1/z;Ljava/lang/Object;)LD0/c;
+    value = Landroidx/privacysandbox/ads/adservices/java/internal/CoroutineAdapterKt;->asListenableFuture(Lz1/z;Ljava/lang/Object;)LD0/c;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -58,21 +57,18 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/java/internal/CoroutineAdapterKt$asListenableFuture$1$1;
-    ->$completer:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
+    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/java/internal/CoroutineAdapterKt$asListenableFuture$1$1;->$completer:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/privacysandbox/ads/adservices/java/internal/CoroutineAdapterKt$asListenableFuture$1$1;
-    ->$this_asListenableFuture:Lz1/z;
+    iput-object p2, p0, Landroidx/privacysandbox/ads/adservices/java/internal/CoroutineAdapterKt$asListenableFuture$1$1;->$this_asListenableFuture:Lz1/z;
 
     .line 4
     .line 5
     const/4 p1, 0x1
 
     .line 6
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
-    -><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
 return-void
 .end method
 
@@ -84,11 +80,9 @@ return-void
     .line 1
     check-cast p1, Ljava/lang/Throwable;
 
-    invoke-virtual {p0, p1}, Landroidx/privacysandbox/ads/adservices/java/internal/CoroutineAdapterKt$asListenableFuture$1$1;
-    ->invoke(Ljava/lang/Throwable;)V
+    invoke-virtual {p0, p1}, Landroidx/privacysandbox/ads/adservices/java/internal/CoroutineAdapterKt$asListenableFuture$1$1;->invoke(Ljava/lang/Throwable;)V
 
-    sget-object p1, Lc1/v;
-    ->a:Lc1/v;
+    sget-object p1, Lc1/v;->a:Lc1/v;
 
     return-object p1
 .end method
@@ -104,38 +98,30 @@ return-void
     if-eqz v0, :cond_0
 
     .line 3
-    iget-object p1, p0, Landroidx/privacysandbox/ads/adservices/java/internal/CoroutineAdapterKt$asListenableFuture$1$1;
-    ->$completer:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
+    iget-object p1, p0, Landroidx/privacysandbox/ads/adservices/java/internal/CoroutineAdapterKt$asListenableFuture$1$1;->$completer:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
 
-    invoke-virtual {p1}, Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
-    ->setCancelled()Z
+    invoke-virtual {p1}, Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;->setCancelled()Z
 return-void
 
     .line 4
     :cond_0
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/java/internal/CoroutineAdapterKt$asListenableFuture$1$1;
-    ->$completer:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/java/internal/CoroutineAdapterKt$asListenableFuture$1$1;->$completer:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
 
-    invoke-virtual {v0, p1}, Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
-    ->setException(Ljava/lang/Throwable;)Z
+    invoke-virtual {v0, p1}, Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;->setException(Ljava/lang/Throwable;)Z
 
     return-void
 
     .line 5
     :cond_1
-    iget-object p1, p0, Landroidx/privacysandbox/ads/adservices/java/internal/CoroutineAdapterKt$asListenableFuture$1$1;
-    ->$completer:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
+    iget-object p1, p0, Landroidx/privacysandbox/ads/adservices/java/internal/CoroutineAdapterKt$asListenableFuture$1$1;->$completer:Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
 
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/java/internal/CoroutineAdapterKt$asListenableFuture$1$1;
-    ->$this_asListenableFuture:Lz1/z;
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/java/internal/CoroutineAdapterKt$asListenableFuture$1$1;->$this_asListenableFuture:Lz1/z;
 
-    invoke-interface {v0}, Lz1/z;
-    ->e()Ljava/lang/Object;
+    invoke-interface {v0}, Lz1/z;->e()Ljava/lang/Object;
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
-    ->set(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;->set(Ljava/lang/Object;)Z
 
     return-void
 .end method

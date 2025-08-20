@@ -7,8 +7,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;-><init>()V
     return-void
 .end method
 

@@ -31,13 +31,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/collection/ArrayMap$EntrySet;
-    ->this$0:Landroidx/collection/ArrayMap;
+    iput-object p1, p0, Landroidx/collection/ArrayMap$EntrySet;->this$0:Landroidx/collection/ArrayMap;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/util/AbstractSet;
-    -><init>()V
+    invoke-direct {p0}, Ljava/util/AbstractSet;-><init>()V
     return-void
 .end method
 
@@ -62,13 +60,11 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/collection/ArrayMap$EntrySet;
-    ->this$0:Landroidx/collection/ArrayMap;
+    iget-object v1, p0, Landroidx/collection/ArrayMap$EntrySet;->this$0:Landroidx/collection/ArrayMap;
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/collection/ArrayMap$MapIterator;
-    -><init>(Landroidx/collection/ArrayMap;)V
+    invoke-direct {v0, v1}, Landroidx/collection/ArrayMap$MapIterator;-><init>(Landroidx/collection/ArrayMap;)V
 return-object v0
 .end method
 
@@ -76,13 +72,11 @@ return-object v0
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/ArrayMap$EntrySet;
-    ->this$0:Landroidx/collection/ArrayMap;
+    iget-object v0, p0, Landroidx/collection/ArrayMap$EntrySet;->this$0:Landroidx/collection/ArrayMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/collection/SimpleArrayMap;
-    ->size()I
+    invoke-virtual {v0}, Landroidx/collection/SimpleArrayMap;->size()I
 
     .line 4
     .line 5

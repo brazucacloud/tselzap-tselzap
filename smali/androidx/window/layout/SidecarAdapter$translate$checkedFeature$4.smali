@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/window/layout/SidecarAdapter;
-    ->translate$window_release(Landroidx/window/sidecar/SidecarDisplayFeature;Landroidx/window/sidecar/SidecarDeviceState;)Landroidx/window/layout/DisplayFeature;
+    value = Landroidx/window/layout/SidecarAdapter;->translate$window_release(Landroidx/window/sidecar/SidecarDisplayFeature;Landroidx/window/sidecar/SidecarDeviceState;)Landroidx/window/layout/DisplayFeature;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,11 +34,9 @@
 
     new-instance v0, Landroidx/window/layout/SidecarAdapter$translate$checkedFeature$4;
 
-    invoke-direct {v0}, Landroidx/window/layout/SidecarAdapter$translate$checkedFeature$4;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/window/layout/SidecarAdapter$translate$checkedFeature$4;-><init>()V
 
-    sput-object v0, Landroidx/window/layout/SidecarAdapter$translate$checkedFeature$4;
-    ->INSTANCE:Landroidx/window/layout/SidecarAdapter$translate$checkedFeature$4;
+    sput-object v0, Landroidx/window/layout/SidecarAdapter$translate$checkedFeature$4;->INSTANCE:Landroidx/window/layout/SidecarAdapter$translate$checkedFeature$4;
 
     return-void
 .end method
@@ -49,8 +46,7 @@
 
     const/4 v0, 0x1
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;
-    -><init>(I)V
+    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;-><init>(I)V
 return-void
 .end method
 
@@ -61,27 +57,22 @@ return-void
 
     const-string v0, "$this$require"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-virtual {p1}, Landroidx/window/sidecar/SidecarDisplayFeature;
-    ->getRect()Landroid/graphics/Rect;
+    invoke-virtual {p1}, Landroidx/window/sidecar/SidecarDisplayFeature;->getRect()Landroid/graphics/Rect;
 
     move-result-object v0
 
-    iget v0, v0, Landroid/graphics/Rect;
-    ->left:I
+    iget v0, v0, Landroid/graphics/Rect;->left:I
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {p1}, Landroidx/window/sidecar/SidecarDisplayFeature;
-    ->getRect()Landroid/graphics/Rect;
+    invoke-virtual {p1}, Landroidx/window/sidecar/SidecarDisplayFeature;->getRect()Landroid/graphics/Rect;
 
     move-result-object p1
 
-    iget p1, p1, Landroid/graphics/Rect;
-    ->top:I
+    iget p1, p1, Landroid/graphics/Rect;->top:I
 
     if-nez p1, :cond_0
 
@@ -97,8 +88,7 @@ return-void
     const/4 p1, 0x1
 
     :goto_1
-    invoke-static {p1}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p1
 
@@ -111,8 +101,7 @@ return-void
     .line 1
     check-cast p1, Landroidx/window/sidecar/SidecarDisplayFeature;
 
-    invoke-virtual {p0, p1}, Landroidx/window/layout/SidecarAdapter$translate$checkedFeature$4;
-    ->invoke(Landroidx/window/sidecar/SidecarDisplayFeature;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1}, Landroidx/window/layout/SidecarAdapter$translate$checkedFeature$4;->invoke(Landroidx/window/sidecar/SidecarDisplayFeature;)Ljava/lang/Boolean;
 
     move-result-object p1
 

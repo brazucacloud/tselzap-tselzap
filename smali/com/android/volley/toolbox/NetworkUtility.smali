@@ -20,8 +20,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -46,8 +45,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Lcom/android/volley/Request;
-    ->getRetryPolicy()Lcom/android/volley/RetryPolicy;
+    invoke-virtual {p0}, Lcom/android/volley/Request;->getRetryPolicy()Lcom/android/volley/RetryPolicy;
 
     .line 4
     .line 5
@@ -55,8 +53,7 @@
     move-result-object v1
 
     .line 7
-    invoke-virtual {p0}, Lcom/android/volley/Request;
-    ->getTimeoutMs()I
+    invoke-virtual {p0}, Lcom/android/volley/Request;->getTimeoutMs()I
 
     .line 8
     .line 9
@@ -65,8 +62,7 @@
 
     .line 11
     :try_start_0
-    invoke-static {p1}, Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;
-    ->access$000(Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;)Lcom/android/volley/VolleyError;
+    invoke-static {p1}, Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;->access$000(Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;)Lcom/android/volley/VolleyError;
 
     .line 12
     .line 13
@@ -74,16 +70,14 @@
     move-result-object v3
 
     .line 15
-    invoke-interface {v1, v3}, Lcom/android/volley/RetryPolicy;
-    ->retry(Lcom/android/volley/VolleyError;)V
+    invoke-interface {v1, v3}, Lcom/android/volley/RetryPolicy;->retry(Lcom/android/volley/VolleyError;)V
     :try_end_0
     .catch Lcom/android/volley/VolleyError; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 16
     .line 17
     .line 18
-    invoke-static {p1}, Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;
-    ->access$100(Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;->access$100(Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;)Ljava/lang/String;
 
     .line 19
     .line 20
@@ -95,14 +89,12 @@
 
     .line 23
     .line 24
-    invoke-direct {v1}, Ljava/lang/StringBuilder;
-    -><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 25
     .line 26
     .line 27
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 28
     .line 29
@@ -111,26 +103,22 @@
 
     .line 31
     .line 32
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 33
     .line 34
     .line 35
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 36
     .line 37
     .line 38
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 39
     .line 40
     .line 41
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 42
     .line 43
@@ -138,8 +126,7 @@
     move-result-object p1
 
     .line 45
-    invoke-virtual {p0, p1}, Lcom/android/volley/Request;
-    ->addMarker(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Lcom/android/volley/Request;->addMarker(Ljava/lang/String;)V
 
     .line 46
     .line 47
@@ -151,8 +138,7 @@
     move-exception v1
 
     .line 50
-    invoke-static {p1}, Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;
-    ->access$100(Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;->access$100(Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;)Ljava/lang/String;
 
     .line 51
     .line 52
@@ -164,14 +150,12 @@
 
     .line 55
     .line 56
-    invoke-direct {v3}, Ljava/lang/StringBuilder;
-    -><init>()V
+    invoke-direct {v3}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 57
     .line 58
     .line 59
-    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 60
     .line 61
@@ -180,26 +164,22 @@
 
     .line 63
     .line 64
-    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 65
     .line 66
     .line 67
-    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 68
     .line 69
     .line 70
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 71
     .line 72
     .line 73
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 74
     .line 75
@@ -207,8 +187,7 @@
     move-result-object p1
 
     .line 77
-    invoke-virtual {p0, p1}, Lcom/android/volley/Request;
-    ->addMarker(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Lcom/android/volley/Request;->addMarker(Ljava/lang/String;)V
 
     .line 78
     .line 79
@@ -389,8 +368,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/android/volley/Request;
-    ->getCacheEntry()Lcom/android/volley/Cache$Entry;
+    invoke-virtual {p0}, Lcom/android/volley/Request;->getCacheEntry()Lcom/android/volley/Cache$Entry;
 
     .line 2
     .line 3
@@ -422,8 +400,7 @@
     move-object v6, p3
 
     .line 15
-    invoke-direct/range {v0 .. v6}, Lcom/android/volley/NetworkResponse;
-    -><init>(I[BZJLjava/util/List;)V
+    invoke-direct/range {v0 .. v6}, Lcom/android/volley/NetworkResponse;-><init>(I[BZJLjava/util/List;)V
 
     .line 16
     .line 17
@@ -438,8 +415,7 @@
     move-object v6, p3
 
     .line 21
-    invoke-static {v6, p0}, Lcom/android/volley/toolbox/HttpHeaderParser;
-    ->combineHeaders(Ljava/util/List;Lcom/android/volley/Cache$Entry;)Ljava/util/List;
+    invoke-static {v6, p0}, Lcom/android/volley/toolbox/HttpHeaderParser;->combineHeaders(Ljava/util/List;Lcom/android/volley/Cache$Entry;)Ljava/util/List;
 
     .line 22
     .line 23
@@ -451,8 +427,7 @@
 
     .line 26
     .line 27
-    iget-object v3, p0, Lcom/android/volley/Cache$Entry;
-    ->data:[B
+    iget-object v3, p0, Lcom/android/volley/Cache$Entry;->data:[B
 
     .line 28
     .line 29
@@ -466,8 +441,7 @@
 
     .line 32
     .line 33
-    invoke-direct/range {v1 .. v7}, Lcom/android/volley/NetworkResponse;
-    -><init>(I[BZJLjava/util/List;)V
+    invoke-direct/range {v1 .. v7}, Lcom/android/volley/NetworkResponse;-><init>(I[BZJLjava/util/List;)V
 
     .line 34
     .line 35
@@ -487,8 +461,7 @@
 
     .line 4
     .line 5
-    invoke-direct {v1, p2, p1}, Lcom/android/volley/toolbox/PoolingByteArrayOutputStream;
-    -><init>(Lcom/android/volley/toolbox/ByteArrayPool;I)V
+    invoke-direct {v1, p2, p1}, Lcom/android/volley/toolbox/PoolingByteArrayOutputStream;-><init>(Lcom/android/volley/toolbox/ByteArrayPool;I)V
 
     .line 6
     .line 7
@@ -501,8 +474,7 @@
 
     .line 11
     :try_start_0
-    invoke-virtual {p2, p1}, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->getBuf(I)[B
+    invoke-virtual {p2, p1}, Lcom/android/volley/toolbox/ByteArrayPool;->getBuf(I)[B
 
     .line 12
     .line 13
@@ -514,8 +486,7 @@
     .line 15
     :goto_0
     :try_start_1
-    invoke-virtual {p0, p1}, Ljava/io/InputStream;
-    ->read([B)I
+    invoke-virtual {p0, p1}, Ljava/io/InputStream;->read([B)I
 
     .line 16
     .line 17
@@ -530,8 +501,7 @@
 
     .line 21
     .line 22
-    invoke-virtual {v1, p1, v2, v3}, Lcom/android/volley/toolbox/PoolingByteArrayOutputStream;
-    ->write([BII)V
+    invoke-virtual {v1, p1, v2, v3}, Lcom/android/volley/toolbox/PoolingByteArrayOutputStream;->write([BII)V
 
     .line 23
     .line 24
@@ -547,8 +517,7 @@
 
     .line 28
     :cond_0
-    invoke-virtual {v1}, Ljava/io/ByteArrayOutputStream;
-    ->toByteArray()[B
+    invoke-virtual {v1}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
 
     .line 29
     .line 30
@@ -559,8 +528,7 @@
 
     .line 32
     :try_start_2
-    invoke-virtual {p0}, Ljava/io/InputStream;
-    ->close()V
+    invoke-virtual {p0}, Ljava/io/InputStream;->close()V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
 
@@ -575,22 +543,19 @@
 
     .line 37
     .line 38
-    invoke-static {v0, p0}, Lcom/android/volley/VolleyLog;
-    ->v(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, p0}, Lcom/android/volley/VolleyLog;->v(Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 39
     .line 40
     .line 41
     :goto_1
-    invoke-virtual {p2, p1}, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->
+    invoke-virtual {p2, p1}, Lcom/android/volley/toolbox/ByteArrayPool;->
     returnBuf([B)V
 
     .line 42
     .line 43
     .line 44
-    invoke-virtual {v1}, Lcom/android/volley/toolbox/PoolingByteArrayOutputStream;
-    ->close()V
+    invoke-virtual {v1}, Lcom/android/volley/toolbox/PoolingByteArrayOutputStream;->close()V
 
     .line 45
     .line 46
@@ -611,8 +576,7 @@
     .line 51
     .line 52
     :try_start_3
-    invoke-virtual {p0}, Ljava/io/InputStream;
-    ->close()V
+    invoke-virtual {p0}, Ljava/io/InputStream;->close()V
     :try_end_3
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_1
 
@@ -627,23 +591,20 @@
 
     .line 57
     .line 58
-    invoke-static {v0, p0}, Lcom/android/volley/VolleyLog;
-    ->v(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, p0}, Lcom/android/volley/VolleyLog;->v(Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 59
     .line 60
     .line 61
     :cond_1
     :goto_3
-    invoke-virtual {p2, p1}, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->
+    invoke-virtual {p2, p1}, Lcom/android/volley/toolbox/ByteArrayPool;->
     returnBuf([B)V
 
     .line 62
     .line 63
     .line 64
-    invoke-virtual {v1}, Lcom/android/volley/toolbox/PoolingByteArrayOutputStream;
-    ->close()V
+    invoke-virtual {v1}, Lcom/android/volley/toolbox/PoolingByteArrayOutputStream;->close()V
 
     .line 65
     .line 66
@@ -712,8 +673,7 @@
     .end annotation
 
     .line 1
-    sget-boolean v0, Lcom/android/volley/VolleyLog;
-    ->DEBUG:Z
+    sget-boolean v0, Lcom/android/volley/VolleyLog;->DEBUG:Z
 
     .line 2
     .line 3
@@ -742,8 +702,7 @@
     .line 13
     :cond_1
     :goto_0
-    invoke-static {p0, p1}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {p0, p1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 14
     .line 15
@@ -758,8 +717,7 @@
     array-length p1, p3
 
     .line 20
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 21
     .line 22
@@ -776,8 +734,7 @@
     .line 26
     .line 27
     :goto_1
-    invoke-static {p4}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 28
     .line 29
@@ -785,8 +742,7 @@
     move-result-object p3
 
     .line 31
-    invoke-virtual {p2}, Lcom/android/volley/Request;
-    ->getRetryPolicy()Lcom/android/volley/RetryPolicy;
+    invoke-virtual {p2}, Lcom/android/volley/Request;->getRetryPolicy()Lcom/android/volley/RetryPolicy;
 
     .line 32
     .line 33
@@ -794,8 +750,7 @@
     move-result-object p4
 
     .line 35
-    invoke-interface {p4}, Lcom/android/volley/RetryPolicy;
-    ->getCurrentRetryCount()I
+    invoke-interface {p4}, Lcom/android/volley/RetryPolicy;->getCurrentRetryCount()I
 
     .line 36
     .line 37
@@ -803,8 +758,7 @@
     move-result p4
 
     .line 39
-    invoke-static {p4}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 40
     .line 41
@@ -858,8 +812,7 @@
 
     .line 62
     .line 63
-    invoke-static {p0, v0}, Lcom/android/volley/VolleyLog;
-    ->d(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {p0, v0}, Lcom/android/volley/VolleyLog;->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 64
     .line 65
@@ -910,8 +863,7 @@
 
     .line 9
     .line 10
-    invoke-direct {p1}, Lcom/android/volley/TimeoutError;
-    -><init>()V
+    invoke-direct {p1}, Lcom/android/volley/TimeoutError;-><init>()V
 
     .line 11
     .line 12
@@ -920,8 +872,7 @@
 
     .line 14
     .line 15
-    invoke-direct {p0, p2, p1, v1}, Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;
-    -><init>(Ljava/lang/String;Lcom/android/volley/VolleyError;Lcom/android/volley/toolbox/NetworkUtility$1;)V
+    invoke-direct {p0, p2, p1, v1}, Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;-><init>(Ljava/lang/String;Lcom/android/volley/VolleyError;Lcom/android/volley/toolbox/NetworkUtility$1;)V
 
     .line 16
     .line 17
@@ -942,8 +893,7 @@
 
     .line 24
     .line 25
-    invoke-virtual {p4}, Lcom/android/volley/toolbox/HttpResponse;
-    ->getStatusCode()I
+    invoke-virtual {p4}, Lcom/android/volley/toolbox/HttpResponse;->getStatusCode()I
 
     .line 26
     .line 27
@@ -951,8 +901,7 @@
     move-result v3
 
     .line 29
-    invoke-static {v3}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 30
     .line 31
@@ -960,8 +909,7 @@
     move-result-object p1
 
     .line 33
-    invoke-virtual {p0}, Lcom/android/volley/Request;
-    ->getUrl()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/android/volley/Request;->getUrl()Ljava/lang/String;
 
     .line 34
     .line 35
@@ -994,8 +942,7 @@
 
     .line 47
     .line 48
-    invoke-static {p1, v2}, Lcom/android/volley/VolleyLog;
-    ->e(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {p1, v2}, Lcom/android/volley/VolleyLog;->e(Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 49
     .line 50
@@ -1004,8 +951,7 @@
 
     .line 52
     .line 53
-    invoke-virtual {p4}, Lcom/android/volley/toolbox/HttpResponse;
-    ->getHeaders()Ljava/util/List;
+    invoke-virtual {p4}, Lcom/android/volley/toolbox/HttpResponse;->getHeaders()Ljava/util/List;
 
     .line 54
     .line 55
@@ -1017,8 +963,7 @@
 
     .line 58
     .line 59
-    invoke-static {}, Landroid/os/SystemClock;
-    ->elapsedRealtime()J
+    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     .line 60
     .line 61
@@ -1036,8 +981,7 @@
     move-object v4, p5
 
     .line 67
-    invoke-direct/range {v2 .. v8}, Lcom/android/volley/NetworkResponse;
-    -><init>(I[BZJLjava/util/List;)V
+    invoke-direct/range {v2 .. v8}, Lcom/android/volley/NetworkResponse;-><init>(I[BZJLjava/util/List;)V
 
     .line 68
     .line 69
@@ -1086,8 +1030,7 @@
 
     .line 89
     .line 90
-    invoke-direct {p0, v2}, Lcom/android/volley/ClientError;
-    -><init>(Lcom/android/volley/NetworkResponse;)V
+    invoke-direct {p0, v2}, Lcom/android/volley/ClientError;-><init>(Lcom/android/volley/NetworkResponse;)V
 
     .line 91
     .line 92
@@ -1113,8 +1056,7 @@
 
     .line 101
     .line 102
-    invoke-virtual {p0}, Lcom/android/volley/Request;
-    ->shouldRetryServerErrors()Z
+    invoke-virtual {p0}, Lcom/android/volley/Request;->shouldRetryServerErrors()Z
 
     .line 103
     .line 104
@@ -1134,8 +1076,7 @@
 
     .line 111
     .line 112
-    invoke-direct {p1, v2}, Lcom/android/volley/ServerError;
-    -><init>(Lcom/android/volley/NetworkResponse;)V
+    invoke-direct {p1, v2}, Lcom/android/volley/ServerError;-><init>(Lcom/android/volley/NetworkResponse;)V
 
     .line 113
     .line 114
@@ -1144,8 +1085,7 @@
 
     .line 116
     .line 117
-    invoke-direct {p0, p2, p1, v1}, Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;
-    -><init>(Ljava/lang/String;Lcom/android/volley/VolleyError;Lcom/android/volley/toolbox/NetworkUtility$1;)V
+    invoke-direct {p0, p2, p1, v1}, Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;-><init>(Ljava/lang/String;Lcom/android/volley/VolleyError;Lcom/android/volley/toolbox/NetworkUtility$1;)V
 
     .line 118
     .line 119
@@ -1158,8 +1098,7 @@
 
     .line 122
     .line 123
-    invoke-direct {p0, v2}, Lcom/android/volley/ServerError;
-    -><init>(Lcom/android/volley/NetworkResponse;)V
+    invoke-direct {p0, v2}, Lcom/android/volley/ServerError;-><init>(Lcom/android/volley/NetworkResponse;)V
 
     .line 124
     .line 125
@@ -1177,8 +1116,7 @@
 
     .line 130
     .line 131
-    invoke-direct {p1, v2}, Lcom/android/volley/AuthFailureError;
-    -><init>(Lcom/android/volley/NetworkResponse;)V
+    invoke-direct {p1, v2}, Lcom/android/volley/AuthFailureError;-><init>(Lcom/android/volley/NetworkResponse;)V
 
     .line 132
     .line 133
@@ -1187,8 +1125,7 @@
 
     .line 135
     .line 136
-    invoke-direct {p0, p2, p1, v1}, Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;
-    -><init>(Ljava/lang/String;Lcom/android/volley/VolleyError;Lcom/android/volley/toolbox/NetworkUtility$1;)V
+    invoke-direct {p0, p2, p1, v1}, Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;-><init>(Ljava/lang/String;Lcom/android/volley/VolleyError;Lcom/android/volley/toolbox/NetworkUtility$1;)V
 
     .line 137
     .line 138
@@ -1205,8 +1142,7 @@
 
     .line 143
     .line 144
-    invoke-direct {p1}, Lcom/android/volley/NetworkError;
-    -><init>()V
+    invoke-direct {p1}, Lcom/android/volley/NetworkError;-><init>()V
 
     .line 145
     .line 146
@@ -1215,8 +1151,7 @@
 
     .line 148
     .line 149
-    invoke-direct {p0, p2, p1, v1}, Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;
-    -><init>(Ljava/lang/String;Lcom/android/volley/VolleyError;Lcom/android/volley/toolbox/NetworkUtility$1;)V
+    invoke-direct {p0, p2, p1, v1}, Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;-><init>(Ljava/lang/String;Lcom/android/volley/VolleyError;Lcom/android/volley/toolbox/NetworkUtility$1;)V
 
     .line 150
     .line 151
@@ -1225,8 +1160,7 @@
 
     .line 153
     :cond_7
-    invoke-virtual {p0}, Lcom/android/volley/Request;
-    ->shouldRetryConnectionErrors()Z
+    invoke-virtual {p0}, Lcom/android/volley/Request;->shouldRetryConnectionErrors()Z
 
     .line 154
     .line 155
@@ -1246,8 +1180,7 @@
 
     .line 162
     .line 163
-    invoke-direct {p1}, Lcom/android/volley/NoConnectionError;
-    -><init>()V
+    invoke-direct {p1}, Lcom/android/volley/NoConnectionError;-><init>()V
 
     .line 164
     .line 165
@@ -1256,8 +1189,7 @@
 
     .line 167
     .line 168
-    invoke-direct {p0, p2, p1, v1}, Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;
-    -><init>(Ljava/lang/String;Lcom/android/volley/VolleyError;Lcom/android/volley/toolbox/NetworkUtility$1;)V
+    invoke-direct {p0, p2, p1, v1}, Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;-><init>(Ljava/lang/String;Lcom/android/volley/VolleyError;Lcom/android/volley/toolbox/NetworkUtility$1;)V
 
     .line 169
     .line 170
@@ -1270,8 +1202,7 @@
 
     .line 173
     .line 174
-    invoke-direct {p0, p1}, Lcom/android/volley/NoConnectionError;
-    -><init>(Ljava/lang/Throwable;)V
+    invoke-direct {p0, p1}, Lcom/android/volley/NoConnectionError;-><init>(Ljava/lang/Throwable;)V
 
     .line 175
     .line 176
@@ -1292,14 +1223,12 @@
 
     .line 183
     .line 184
-    invoke-direct {p3, p4}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p3, p4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 185
     .line 186
     .line 187
-    invoke-virtual {p0}, Lcom/android/volley/Request;
-    ->getUrl()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/android/volley/Request;->getUrl()Ljava/lang/String;
 
     .line 188
     .line 189
@@ -1307,14 +1236,12 @@
     move-result-object p0
 
     .line 191
-    invoke-virtual {p3, p0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p3, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 192
     .line 193
     .line 194
-    invoke-virtual {p3}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 195
     .line 196
@@ -1322,8 +1249,7 @@
     move-result-object p0
 
     .line 198
-    invoke-direct {p2, p0, p1}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p2, p0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 199
     .line 200

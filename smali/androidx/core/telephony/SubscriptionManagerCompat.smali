@@ -24,8 +24,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -54,8 +53,7 @@
 
     .line 7
     :cond_0
-    sget v3, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 8
     .line 9
@@ -67,8 +65,7 @@
 
     .line 12
     .line 13
-    invoke-static {p0}, Landroidx/core/telephony/SubscriptionManagerCompat$Api29Impl;
-    ->getSlotIndex(I)I
+    invoke-static {p0}, Landroidx/core/telephony/SubscriptionManagerCompat$Api29Impl;->getSlotIndex(I)I
 
     .line 14
     .line 15
@@ -80,8 +77,7 @@
     .line 18
     :cond_1
     :try_start_0
-    sget-object v4, Landroidx/core/telephony/SubscriptionManagerCompat;
-    ->sGetSlotIndexMethod:Ljava/lang/reflect/Method;
+    sget-object v4, Landroidx/core/telephony/SubscriptionManagerCompat;->sGetSlotIndexMethod:Ljava/lang/reflect/Method;
     :try_end_0
     .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_0
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_0
@@ -97,8 +93,7 @@
 
     .line 23
     .line 24
-    sget-object v5, Ljava/lang/Integer;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v5, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
 
     .line 25
     .line 26
@@ -107,8 +102,7 @@
     .line 27
     .line 28
     :try_start_1
-    invoke-static {}, Landroidx/core/content/a;
-    ->b()Ljava/lang/Class;
+    invoke-static {}, Landroidx/core/content/a;->b()Ljava/lang/Class;
 
     .line 29
     .line 30
@@ -128,8 +122,7 @@
 
     .line 37
     .line 38
-    invoke-virtual {v3, v4, v6}, Ljava/lang/Class;
-    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v3, v4, v6}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 39
     .line 40
@@ -137,8 +130,7 @@
     move-result-object v3
 
     .line 42
-    sput-object v3, Landroidx/core/telephony/SubscriptionManagerCompat;
-    ->sGetSlotIndexMethod:Ljava/lang/reflect/Method;
+    sput-object v3, Landroidx/core/telephony/SubscriptionManagerCompat;->sGetSlotIndexMethod:Ljava/lang/reflect/Method;
 
     .line 43
     .line 44
@@ -146,8 +138,7 @@
 
     .line 45
     :cond_2
-    invoke-static {}, Landroidx/core/content/a;
-    ->b()Ljava/lang/Class;
+    invoke-static {}, Landroidx/core/content/a;->b()Ljava/lang/Class;
 
     .line 46
     .line 47
@@ -167,8 +158,7 @@
 
     .line 54
     .line 55
-    invoke-virtual {v3, v4, v6}, Ljava/lang/Class;
-    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v3, v4, v6}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 56
     .line 57
@@ -176,31 +166,26 @@
     move-result-object v3
 
     .line 59
-    sput-object v3, Landroidx/core/telephony/SubscriptionManagerCompat;
-    ->sGetSlotIndexMethod:Ljava/lang/reflect/Method;
+    sput-object v3, Landroidx/core/telephony/SubscriptionManagerCompat;->sGetSlotIndexMethod:Ljava/lang/reflect/Method;
 
     .line 60
     .line 61
     :goto_0
-    sget-object v3, Landroidx/core/telephony/SubscriptionManagerCompat;
-    ->sGetSlotIndexMethod:Ljava/lang/reflect/Method;
+    sget-object v3, Landroidx/core/telephony/SubscriptionManagerCompat;->sGetSlotIndexMethod:Ljava/lang/reflect/Method;
 
     .line 62
     .line 63
-    invoke-virtual {v3, v1}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v3, v1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 64
     .line 65
     .line 66
     :cond_3
-    sget-object v3, Landroidx/core/telephony/SubscriptionManagerCompat;
-    ->sGetSlotIndexMethod:Ljava/lang/reflect/Method;
+    sget-object v3, Landroidx/core/telephony/SubscriptionManagerCompat;->sGetSlotIndexMethod:Ljava/lang/reflect/Method;
 
     .line 67
     .line 68
-    invoke-static {p0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 69
     .line 70
@@ -219,8 +204,7 @@
     const/4 p0, 0x0
 
     .line 77
-    invoke-virtual {v3, p0, v1}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, p0, v1}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 78
     .line 79
@@ -236,8 +220,7 @@
 
     .line 84
     .line 85
-    invoke-virtual {p0}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
 
     .line 86
     .line 87

@@ -116,8 +116,7 @@
 
     move-result-object v0
 
-    sput-object v0, Landroidx/core/R$styleable;
-    ->Capability:[I
+    sput-object v0, Landroidx/core/R$styleable;->Capability:[I
 
     const v0, 0x7f04003a
 
@@ -133,8 +132,7 @@
 
     move-result-object v0
 
-    sput-object v0, Landroidx/core/R$styleable;
-    ->ColorStateListItem:[I
+    sput-object v0, Landroidx/core/R$styleable;->ColorStateListItem:[I
 
     const/4 v0, 0x7
 
@@ -142,8 +140,7 @@
 
     fill-array-data v0, :array_0
 
-    sput-object v0, Landroidx/core/R$styleable;
-    ->FontFamily:[I
+    sput-object v0, Landroidx/core/R$styleable;->FontFamily:[I
 
     const/16 v0, 0xa
 
@@ -151,8 +148,7 @@
 
     fill-array-data v0, :array_1
 
-    sput-object v0, Landroidx/core/R$styleable;
-    ->FontFamilyFont:[I
+    sput-object v0, Landroidx/core/R$styleable;->FontFamilyFont:[I
 
     const/16 v0, 0xc
 
@@ -160,8 +156,7 @@
 
     fill-array-data v0, :array_2
 
-    sput-object v0, Landroidx/core/R$styleable;
-    ->GradientColor:[I
+    sput-object v0, Landroidx/core/R$styleable;->GradientColor:[I
 
     const v0, 0x1010514
 
@@ -169,8 +164,7 @@
 
     move-result-object v0
 
-    sput-object v0, Landroidx/core/R$styleable;
-    ->GradientColorItem:[I
+    sput-object v0, Landroidx/core/R$styleable;->GradientColorItem:[I
 
     return-void
 
@@ -221,8 +215,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 

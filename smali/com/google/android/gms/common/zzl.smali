@@ -23,14 +23,12 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Ljava/lang/ref/WeakReference;
-    -><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, v1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     .line 5
     .line 6
     .line 7
-    sput-object v0, Lcom/google/android/gms/common/zzl;
-    ->zza:Ljava/lang/ref/WeakReference;
+    sput-object v0, Lcom/google/android/gms/common/zzl;->zza:Ljava/lang/ref/WeakReference;
 
     .line 8
     .line 9
@@ -41,19 +39,16 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/google/android/gms/common/zzj;
-    -><init>([B)V
+    invoke-direct {p0, p1}, Lcom/google/android/gms/common/zzj;-><init>([B)V
 
     .line 2
     .line 3
     .line 4
-    sget-object p1, Lcom/google/android/gms/common/zzl;
-    ->zza:Ljava/lang/ref/WeakReference;
+    sget-object p1, Lcom/google/android/gms/common/zzl;->zza:Ljava/lang/ref/WeakReference;
 
     .line 5
     .line 6
-    iput-object p1, p0, Lcom/google/android/gms/common/zzl;
-    ->zzb:Ljava/lang/ref/WeakReference;
+    iput-object p1, p0, Lcom/google/android/gms/common/zzl;->zzb:Ljava/lang/ref/WeakReference;
 
     .line 7
     .line 8
@@ -73,13 +68,11 @@
 
     .line 2
     :try_start_0
-    iget-object v0, p0, Lcom/google/android/gms/common/zzl;
-    ->zzb:Ljava/lang/ref/WeakReference;
+    iget-object v0, p0, Lcom/google/android/gms/common/zzl;->zzb:Ljava/lang/ref/WeakReference;
 
     .line 3
     .line 4
-    invoke-virtual {v0}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -95,8 +88,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {p0}, Lcom/google/android/gms/common/zzl;
-    ->zzb()[B
+    invoke-virtual {p0}, Lcom/google/android/gms/common/zzl;->zzb()[B
 
     .line 13
     .line 14
@@ -108,14 +100,12 @@
 
     .line 17
     .line 18
-    invoke-direct {v1, v0}, Ljava/lang/ref/WeakReference;
-    -><init>(Ljava/lang/Object;)V
+    invoke-direct {v1, v0}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     .line 19
     .line 20
     .line 21
-    iput-object v1, p0, Lcom/google/android/gms/common/zzl;
-    ->zzb:Ljava/lang/ref/WeakReference;
+    iput-object v1, p0, Lcom/google/android/gms/common/zzl;->zzb:Ljava/lang/ref/WeakReference;
 
     .line 22
     .line 23

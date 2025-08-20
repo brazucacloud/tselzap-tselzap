@@ -34,14 +34,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/util/AbstractList;
-    -><init>()V
+    invoke-direct {p0}, Ljava/util/AbstractList;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/LazyStringArrayList$ByteArrayListView;
-    ->list:Landroidx/datastore/preferences/protobuf/LazyStringArrayList;    
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/LazyStringArrayList$ByteArrayListView;->list:Landroidx/datastore/preferences/protobuf/LazyStringArrayList;
     return-void
 .end method
 
@@ -53,8 +51,7 @@
     .line 1
     check-cast p2, [B
 
-    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList$ByteArrayListView;
-    ->add(I[B)V
+    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList$ByteArrayListView;->add(I[B)V
 
     return-void
 .end method
@@ -63,20 +60,16 @@
     .locals 1
 
     .line 2
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/LazyStringArrayList$ByteArrayListView;
-    ->list:Landroidx/datastore/preferences/protobuf/LazyStringArrayList;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/LazyStringArrayList$ByteArrayListView;->list:Landroidx/datastore/preferences/protobuf/LazyStringArrayList;
 
-    invoke-static {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;
-    ->access$200(Landroidx/datastore/preferences/protobuf/LazyStringArrayList;I[B)V
+    invoke-static {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;->access$200(Landroidx/datastore/preferences/protobuf/LazyStringArrayList;I[B)V
 
     .line 3
-    iget p1, p0, Ljava/util/AbstractList;
-    ->modCount:I
+    iget p1, p0, Ljava/util/AbstractList;->modCount:I
 
     add-int/lit8 p1, p1, 0x1
 
-    iput p1, p0, Ljava/util/AbstractList;
-    ->modCount:I
+    iput p1, p0, Ljava/util/AbstractList;->modCount:I
 
     return-void
 .end method
@@ -85,8 +78,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList$ByteArrayListView;
-    ->get(I)[B
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList$ByteArrayListView;->get(I)[B
 
     move-result-object p1
 
@@ -97,11 +89,9 @@
     .locals 1
 
     .line 2
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/LazyStringArrayList$ByteArrayListView;
-    ->list:Landroidx/datastore/preferences/protobuf/LazyStringArrayList;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/LazyStringArrayList$ByteArrayListView;->list:Landroidx/datastore/preferences/protobuf/LazyStringArrayList;
 
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;
-    ->getByteArray(I)[B
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;->getByteArray(I)[B
 
     move-result-object p1
 
@@ -112,8 +102,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList$ByteArrayListView;
-    ->remove(I)[B
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList$ByteArrayListView;->remove(I)[B
 
     move-result-object p1
 
@@ -124,26 +113,21 @@
     .locals 1
 
     .line 2
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/LazyStringArrayList$ByteArrayListView;
-    ->list:Landroidx/datastore/preferences/protobuf/LazyStringArrayList;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/LazyStringArrayList$ByteArrayListView;->list:Landroidx/datastore/preferences/protobuf/LazyStringArrayList;
 
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;
-    ->remove(I)Ljava/lang/String;
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;->remove(I)Ljava/lang/String;
 
     move-result-object p1
 
     .line 3
-    iget v0, p0, Ljava/util/AbstractList;
-    ->modCount:I
+    iget v0, p0, Ljava/util/AbstractList;->modCount:I
 
     add-int/lit8 v0, v0, 0x1
 
-    iput v0, p0, Ljava/util/AbstractList;
-    ->modCount:I
+    iput v0, p0, Ljava/util/AbstractList;->modCount:I
 
     .line 4
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;
-    ->access$100(Ljava/lang/Object;)[B
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;->access$100(Ljava/lang/Object;)[B
 
     move-result-object p1
 
@@ -156,8 +140,7 @@
     .line 1
     check-cast p2, [B
 
-    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList$ByteArrayListView;
-    ->set(I[B)[B
+    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList$ByteArrayListView;->set(I[B)[B
 
     move-result-object p1
 
@@ -168,26 +151,21 @@
     .locals 1
 
     .line 2
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/LazyStringArrayList$ByteArrayListView;
-    ->list:Landroidx/datastore/preferences/protobuf/LazyStringArrayList;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/LazyStringArrayList$ByteArrayListView;->list:Landroidx/datastore/preferences/protobuf/LazyStringArrayList;
 
-    invoke-static {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;
-    ->access$000(Landroidx/datastore/preferences/protobuf/LazyStringArrayList;I[B)Ljava/lang/Object;
+    invoke-static {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;->access$000(Landroidx/datastore/preferences/protobuf/LazyStringArrayList;I[B)Ljava/lang/Object;
 
     move-result-object p1
 
     .line 3
-    iget p2, p0, Ljava/util/AbstractList;
-    ->modCount:I
+    iget p2, p0, Ljava/util/AbstractList;->modCount:I
 
     add-int/lit8 p2, p2, 0x1
 
-    iput p2, p0, Ljava/util/AbstractList;
-    ->modCount:I
+    iput p2, p0, Ljava/util/AbstractList;->modCount:I
 
     .line 4
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;
-    ->access$100(Ljava/lang/Object;)[B
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;->access$100(Ljava/lang/Object;)[B
 
     move-result-object p1
 
@@ -198,13 +176,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/LazyStringArrayList$ByteArrayListView;
-    ->list:Landroidx/datastore/preferences/protobuf/LazyStringArrayList;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/LazyStringArrayList$ByteArrayListView;->list:Landroidx/datastore/preferences/protobuf/LazyStringArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;
-    ->size()I
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;->size()I
 
     .line 4
     .line 5

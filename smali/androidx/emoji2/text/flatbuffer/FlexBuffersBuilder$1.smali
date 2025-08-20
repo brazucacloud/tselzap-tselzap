@@ -35,13 +35,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder$1;
-    ->this$0:Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;
+    iput-object p1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder$1;->this$0:Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
@@ -55,39 +53,31 @@
     .locals 2
 
     .line 2
-    iget p1, p1, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder$Value;
-    ->key:I
+    iget p1, p1, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder$Value;->key:I
 
     .line 3
-    iget p2, p2, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder$Value;
-    ->key:I
+    iget p2, p2, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder$Value;->key:I
 
     .line 4
     :cond_0
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder$1;
-    ->this$0:Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder$1;->this$0:Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;
 
-    invoke-static {v0}, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;
-    ->access$000(Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;)Landroidx/emoji2/text/flatbuffer/ReadWriteBuf;
+    invoke-static {v0}, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;->access$000(Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;)Landroidx/emoji2/text/flatbuffer/ReadWriteBuf;
 
     move-result-object v0
 
-    invoke-interface {v0, p1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;
-    ->get(I)B
+    invoke-interface {v0, p1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;->get(I)B
 
     move-result v0
 
     .line 5
-    iget-object v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder$1;
-    ->this$0:Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;
+    iget-object v1, p0, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder$1;->this$0:Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;
 
-    invoke-static {v1}, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;
-    ->access$000(Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;)Landroidx/emoji2/text/flatbuffer/ReadWriteBuf;
+    invoke-static {v1}, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;->access$000(Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;)Landroidx/emoji2/text/flatbuffer/ReadWriteBuf;
 
     move-result-object v1
 
-    invoke-interface {v1, p2}, Landroidx/emoji2/text/flatbuffer/ReadBuf;
-    ->get(I)B
+    invoke-interface {v1, p2}, Landroidx/emoji2/text/flatbuffer/ReadBuf;->get(I)B
 
     move-result v1
 
@@ -117,8 +107,7 @@
 
     check-cast p2, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder$Value;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder$1;
-    ->compare(Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder$Value;Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder$Value;)I
+    invoke-virtual {p0, p1, p2}, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder$1;->compare(Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder$Value;Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder$Value;)I
 
     move-result p1
 

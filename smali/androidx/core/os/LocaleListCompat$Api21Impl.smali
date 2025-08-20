@@ -39,8 +39,7 @@
 
     .line 6
     .line 7
-    invoke-direct {v0, v1, v2}, Ljava/util/Locale;
-    -><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v2}, Ljava/util/Locale;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -57,8 +56,7 @@
 
     .line 15
     .line 16
-    invoke-direct {v1, v2, v3}, Ljava/util/Locale;
-    -><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v1, v2, v3}, Ljava/util/Locale;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 17
     .line 18
@@ -84,8 +82,7 @@
 
     .line 27
     .line 28
-    sput-object v2, Landroidx/core/os/LocaleListCompat$Api21Impl;
-    ->PSEUDO_LOCALE:[Ljava/util/Locale;
+    sput-object v2, Landroidx/core/os/LocaleListCompat$Api21Impl;->PSEUDO_LOCALE:[Ljava/util/Locale;
 
     .line 29
     .line 30
@@ -96,8 +93,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -111,8 +107,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Ljava/util/Locale;
-    ->forLanguageTag(Ljava/lang/String;)Ljava/util/Locale;
+    invoke-static {p0}, Ljava/util/Locale;->forLanguageTag(Ljava/lang/String;)Ljava/util/Locale;
 
     .line 2
     .line 3
@@ -126,8 +121,7 @@
     .locals 5
 
     .line 1
-    sget-object v0, Landroidx/core/os/LocaleListCompat$Api21Impl;
-    ->PSEUDO_LOCALE:[Ljava/util/Locale;
+    sget-object v0, Landroidx/core/os/LocaleListCompat$Api21Impl;->PSEUDO_LOCALE:[Ljava/util/Locale;
 
     .line 2
     .line 3
@@ -149,8 +143,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {v4, p0}, Ljava/util/Locale;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v4, p0}, Ljava/util/Locale;->equals(Ljava/lang/Object;)Z
 
     .line 11
     .line 12
@@ -193,8 +186,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Ljava/util/Locale;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p1}, Ljava/util/Locale;->equals(Ljava/lang/Object;)Z
 
     .line 2
     .line 3
@@ -213,8 +205,7 @@
 
     .line 9
     :cond_0
-    invoke-virtual {p0}, Ljava/util/Locale;
-    ->getLanguage()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
     .line 10
     .line 11
@@ -222,8 +213,7 @@
     move-result-object v0
 
     .line 13
-    invoke-virtual {p1}, Ljava/util/Locale;
-    ->getLanguage()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
     .line 14
     .line 15
@@ -231,8 +221,7 @@
     move-result-object v2
 
     .line 17
-    invoke-virtual {v0, v2}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 18
     .line 19
@@ -251,8 +240,7 @@
 
     .line 25
     :cond_1
-    invoke-static {p0}, Landroidx/core/os/LocaleListCompat$Api21Impl;
-    ->isPseudoLocale(Ljava/util/Locale;)Z
+    invoke-static {p0}, Landroidx/core/os/LocaleListCompat$Api21Impl;->isPseudoLocale(Ljava/util/Locale;)Z
 
     .line 26
     .line 27
@@ -264,8 +252,7 @@
 
     .line 30
     .line 31
-    invoke-static {p1}, Landroidx/core/os/LocaleListCompat$Api21Impl;
-    ->isPseudoLocale(Ljava/util/Locale;)Z
+    invoke-static {p1}, Landroidx/core/os/LocaleListCompat$Api21Impl;->isPseudoLocale(Ljava/util/Locale;)Z
 
     .line 32
     .line 33
@@ -281,8 +268,7 @@
 
     .line 38
     :cond_2
-    invoke-static {p0}, Landroidx/core/text/ICUCompat;
-    ->maximizeAndGetScript(Ljava/util/Locale;)Ljava/lang/String;
+    invoke-static {p0}, Landroidx/core/text/ICUCompat;->maximizeAndGetScript(Ljava/util/Locale;)Ljava/lang/String;
 
     .line 39
     .line 40
@@ -290,8 +276,7 @@
     move-result-object v0
 
     .line 42
-    invoke-virtual {v0}, Ljava/lang/String;
-    ->isEmpty()Z
+    invoke-virtual {v0}, Ljava/lang/String;->isEmpty()Z
 
     .line 43
     .line 44
@@ -303,8 +288,7 @@
 
     .line 47
     .line 48
-    invoke-virtual {p0}, Ljava/util/Locale;
-    ->getCountry()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/util/Locale;->getCountry()Ljava/lang/String;
 
     .line 49
     .line 50
@@ -312,8 +296,7 @@
     move-result-object p0
 
     .line 52
-    invoke-virtual {p0}, Ljava/lang/String;
-    ->isEmpty()Z
+    invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
 
     .line 53
     .line 54
@@ -325,8 +308,7 @@
 
     .line 57
     .line 58
-    invoke-virtual {p1}, Ljava/util/Locale;
-    ->getCountry()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/util/Locale;->getCountry()Ljava/lang/String;
 
     .line 59
     .line 60
@@ -334,8 +316,7 @@
     move-result-object p1
 
     .line 62
-    invoke-virtual {p0, p1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 63
     .line 64
@@ -360,8 +341,7 @@
 
     .line 71
     :cond_5
-    invoke-static {p1}, Landroidx/core/text/ICUCompat;
-    ->maximizeAndGetScript(Ljava/util/Locale;)Ljava/lang/String;
+    invoke-static {p1}, Landroidx/core/text/ICUCompat;->maximizeAndGetScript(Ljava/util/Locale;)Ljava/lang/String;
 
     .line 72
     .line 73
@@ -369,8 +349,7 @@
     move-result-object p0
 
     .line 75
-    invoke-virtual {v0, p0}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 76
     .line 77

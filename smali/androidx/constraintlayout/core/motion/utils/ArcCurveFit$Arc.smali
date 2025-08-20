@@ -73,8 +73,7 @@
 
     .line 4
     .line 5
-    sput-object v0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->sOurPercent:[D    return-void
+    sput-object v0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->sOurPercent:[D    return-void
 .end method
 
 .method public constructor <init>(IDDDDDD)V
@@ -93,8 +92,7 @@
 
     .line 6
     .line 7
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 8
     .line 9
@@ -102,8 +100,7 @@
     const/4 v5, 0x0
 
     .line 11
-    iput-boolean v5, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mLinear:Z
+    iput-boolean v5, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mLinear:Z
 
     .line 12
     .line 13
@@ -140,8 +137,7 @@
 
     .line 27
     .line 28
-    iput-boolean v5, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mVertical:Z
+    iput-boolean v5, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mVertical:Z
 
     .line 29
     .line 30
@@ -161,8 +157,7 @@
 
     .line 36
     :cond_1
-    iput-boolean v5, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mVertical:Z
+    iput-boolean v5, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mVertical:Z
 
     .line 37
     .line 38
@@ -182,8 +177,7 @@
 
     .line 44
     :cond_3
-    iput-boolean v5, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mVertical:Z
+    iput-boolean v5, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mVertical:Z
 
     .line 45
     .line 46
@@ -191,19 +185,16 @@
 
     .line 47
     :cond_4
-    iput-boolean v10, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mVertical:Z
+    iput-boolean v10, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mVertical:Z
 
     .line 48
     .line 49
     :goto_0
-    iput-wide v1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mTime1:D
+    iput-wide v1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mTime1:D
 
     .line 50
     .line 51
-    iput-wide v3, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mTime2:D
+    iput-wide v3, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mTime2:D
 
     .line 52
     .line 53
@@ -218,8 +209,7 @@
     div-double/2addr v11, v1
 
     .line 58
-    iput-wide v11, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mOneOverDeltaTime:D
+    iput-wide v11, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mOneOverDeltaTime:D
 
     .line 59
     .line 60
@@ -230,14 +220,12 @@
 
     .line 62
     .line 63
-    iput-boolean v10, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mLinear:Z
+    iput-boolean v10, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mLinear:Z
 
     .line 64
     .line 65
     :cond_5
-    iget-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mLinear:Z
+    iget-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mLinear:Z
 
     .line 66
     .line 67
@@ -245,8 +233,7 @@
 
     .line 68
     .line 69
-    invoke-static {v6, v7}, Ljava/lang/Math;
-    ->abs(D)D
+    invoke-static {v6, v7}, Ljava/lang/Math;->abs(D)D
 
     .line 70
     .line 71
@@ -269,8 +256,7 @@
 
     .line 81
     .line 82
-    invoke-static {v8, v9}, Ljava/lang/Math;
-    ->abs(D)D
+    invoke-static {v8, v9}, Ljava/lang/Math;->abs(D)D
 
     .line 83
     .line 84
@@ -315,13 +301,11 @@
 
     .line 102
     .line 103
-    iput-object v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mLut:[D
+    iput-object v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mLut:[D
 
     .line 104
     .line 105
-    iget-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mVertical:Z
+    iget-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mVertical:Z
 
     .line 106
     .line 107
@@ -350,8 +334,7 @@
 
     .line 115
     .line 116
-    iput-wide v6, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mEllipseA:D
+    iput-wide v6, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mEllipseA:D
 
     .line 117
     .line 118
@@ -374,8 +357,7 @@
 
     .line 124
     .line 125
-    iput-wide v8, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mEllipseB:D
+    iput-wide v8, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mEllipseB:D
 
     .line 126
     .line 127
@@ -396,8 +378,7 @@
     .line 133
     .line 134
     :goto_3
-    iput-wide v1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mEllipseCenterX:D
+    iput-wide v1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mEllipseCenterX:D
 
     .line 135
     .line 136
@@ -418,8 +399,7 @@
     .line 142
     .line 143
     :goto_4
-    iput-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mEllipseCenterY:D
+    iput-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mEllipseCenterY:D
 
     .line 144
     .line 145
@@ -442,19 +422,16 @@
 
     .line 153
     .line 154
-    invoke-direct/range {v0 .. v8}, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->buildTable(DDDD)V
+    invoke-direct/range {v0 .. v8}, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->buildTable(DDDD)V
 
     .line 155
     .line 156
     .line 157
-    iget-wide v1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mArcDistance:D
+    iget-wide v1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mArcDistance:D
 
     .line 158
     .line 159
-    iget-wide v3, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mOneOverDeltaTime:D
+    iget-wide v3, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mOneOverDeltaTime:D
 
     .line 160
     .line 161
@@ -462,39 +439,32 @@
 
     .line 162
     .line 163
-    iput-wide v1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mArcVelocity:D    
+    iput-wide v1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mArcVelocity:D
     return-void
 
     .line 166
     :goto_5
-    iput-boolean v10, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mLinear:Z
+    iput-boolean v10, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mLinear:Z
 
     .line 167
     .line 168
-    iput-wide v1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mX1:D
+    iput-wide v1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mX1:D
 
     .line 169
     .line 170
-    iput-wide v11, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mX2:D
+    iput-wide v11, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mX2:D
 
     .line 171
     .line 172
-    iput-wide v3, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mY1:D
+    iput-wide v3, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mY1:D
 
     .line 173
     .line 174
-    iput-wide v13, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mY2:D
+    iput-wide v13, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mY2:D
 
     .line 175
     .line 176
-    invoke-static {v8, v9, v6, v7}, Ljava/lang/Math;
-    ->hypot(DD)D
+    invoke-static {v8, v9, v6, v7}, Ljava/lang/Math;->hypot(DD)D
 
     .line 177
     .line 178
@@ -502,13 +472,11 @@
     move-result-wide v1
 
     .line 180
-    iput-wide v1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mArcDistance:D
+    iput-wide v1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mArcDistance:D
 
     .line 181
     .line 182
-    iget-wide v3, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mOneOverDeltaTime:D
+    iget-wide v3, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mOneOverDeltaTime:D
 
     .line 183
     .line 184
@@ -516,18 +484,15 @@
 
     .line 185
     .line 186
-    iput-wide v1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mArcVelocity:D
+    iput-wide v1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mArcVelocity:D
 
     .line 187
     .line 188
-    iget-wide v1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mTime2:D
+    iget-wide v1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mTime2:D
 
     .line 189
     .line 190
-    iget-wide v3, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mTime1:D
+    iget-wide v3, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mTime1:D
 
     .line 191
     .line 192
@@ -538,8 +503,7 @@
     div-double/2addr v6, v10
 
     .line 195
-    iput-wide v6, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mEllipseCenterX:D
+    iput-wide v6, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mEllipseCenterX:D
 
     .line 196
     .line 197
@@ -549,8 +513,7 @@
     div-double/2addr v8, v1
 
     .line 199
-    iput-wide v8, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mEllipseCenterY:D    
+    iput-wide v8, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mEllipseCenterY:D
     return-void
 .end method
 
@@ -586,8 +549,7 @@
     .line 13
     .line 14
     :goto_0
-    sget-object v15, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->sOurPercent:[D
+    sget-object v15, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->sOurPercent:[D
 
     .line 15
     .line 16
@@ -633,8 +595,7 @@
     div-double/2addr v5, v7
 
     .line 36
-    invoke-static {v5, v6}, Ljava/lang/Math;
-    ->toRadians(D)D
+    invoke-static {v5, v6}, Ljava/lang/Math;->toRadians(D)D
 
     .line 37
     .line 38
@@ -642,8 +603,7 @@
     move-result-wide v5
 
     .line 40
-    invoke-static {v5, v6}, Ljava/lang/Math;
-    ->sin(D)D
+    invoke-static {v5, v6}, Ljava/lang/Math;->sin(D)D
 
     .line 41
     .line 42
@@ -651,8 +611,7 @@
     move-result-wide v7
 
     .line 44
-    invoke-static {v5, v6}, Ljava/lang/Math;
-    ->cos(D)D
+    invoke-static {v5, v6}, Ljava/lang/Math;->cos(D)D
 
     .line 45
     .line 46
@@ -680,8 +639,7 @@
 
     .line 57
     .line 58
-    invoke-static {v11, v12, v13, v14}, Ljava/lang/Math;
-    ->hypot(DD)D
+    invoke-static {v11, v12, v13, v14}, Ljava/lang/Math;->hypot(DD)D
 
     .line 59
     .line 60
@@ -692,8 +650,7 @@
     add-double/2addr v9, v11
 
     .line 63
-    sget-object v11, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->sOurPercent:[D
+    sget-object v11, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->sOurPercent:[D
 
     .line 64
     .line 65
@@ -722,8 +679,7 @@
 
     .line 74
     :cond_1
-    iput-wide v9, v0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mArcDistance:D
+    iput-wide v9, v0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mArcDistance:D
 
     .line 75
     .line 76
@@ -731,8 +687,7 @@
 
     .line 77
     :goto_1
-    sget-object v2, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->sOurPercent:[D
+    sget-object v2, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->sOurPercent:[D
 
     .line 78
     .line 79
@@ -766,8 +721,7 @@
 
     .line 91
     :goto_2
-    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mLut:[D
+    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mLut:[D
 
     .line 92
     .line 93
@@ -794,13 +748,11 @@
     div-double/2addr v2, v4
 
     .line 102
-    sget-object v1, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->sOurPercent:[D
+    sget-object v1, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->sOurPercent:[D
 
     .line 103
     .line 104
-    invoke-static {v1, v2, v3}, Ljava/util/Arrays;
-    ->binarySearch([DD)I
+    invoke-static {v1, v2, v3}, Ljava/util/Arrays;->binarySearch([DD)I
 
     .line 105
     .line 106
@@ -812,16 +764,14 @@
 
     .line 109
     .line 110
-    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mLut:[D
+    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mLut:[D
 
     .line 111
     .line 112
     int-to-double v3, v1
 
     .line 113
-    sget-object v1, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->sOurPercent:[D
+    sget-object v1, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->sOurPercent:[D
 
     .line 114
     .line 115
@@ -853,8 +803,7 @@
 
     .line 125
     .line 126
-    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mLut:[D
+    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mLut:[D
 
     .line 127
     .line 128
@@ -880,8 +829,7 @@
     int-to-double v5, v4
 
     .line 137
-    sget-object v8, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->sOurPercent:[D
+    sget-object v8, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->sOurPercent:[D
 
     .line 138
     .line 139
@@ -918,8 +866,7 @@
     div-double/2addr v2, v4
 
     .line 152
-    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mLut:[D
+    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mLut:[D
 
     .line 153
     .line 154
@@ -945,13 +892,11 @@
     .locals 6
 
     .line 1
-    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mEllipseA:D
+    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mEllipseA:D
 
     .line 2
     .line 3
-    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mTmpCosAngle:D
+    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mTmpCosAngle:D
 
     .line 4
     .line 5
@@ -959,16 +904,14 @@
 
     .line 6
     .line 7
-    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mEllipseB:D
+    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mEllipseB:D
 
     .line 8
     .line 9
     neg-double v2, v2
 
     .line 10
-    iget-wide v4, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mTmpSinAngle:D
+    iget-wide v4, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mTmpSinAngle:D
 
     .line 11
     .line 12
@@ -976,13 +919,11 @@
 
     .line 13
     .line 14
-    iget-wide v4, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mArcVelocity:D
+    iget-wide v4, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mArcVelocity:D
 
     .line 15
     .line 16
-    invoke-static {v0, v1, v2, v3}, Ljava/lang/Math;
-    ->hypot(DD)D
+    invoke-static {v0, v1, v2, v3}, Ljava/lang/Math;->hypot(DD)D
 
     .line 17
     .line 18
@@ -993,8 +934,7 @@
     div-double/2addr v4, v2
 
     .line 21
-    iget-boolean v2, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mVertical:Z
+    iget-boolean v2, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mVertical:Z
 
     .line 22
     .line 23
@@ -1016,13 +956,11 @@
     .locals 6
 
     .line 1
-    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mEllipseA:D
+    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mEllipseA:D
 
     .line 2
     .line 3
-    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mTmpCosAngle:D
+    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mTmpCosAngle:D
 
     .line 4
     .line 5
@@ -1030,16 +968,14 @@
 
     .line 6
     .line 7
-    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mEllipseB:D
+    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mEllipseB:D
 
     .line 8
     .line 9
     neg-double v2, v2
 
     .line 10
-    iget-wide v4, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mTmpSinAngle:D
+    iget-wide v4, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mTmpSinAngle:D
 
     .line 11
     .line 12
@@ -1047,13 +983,11 @@
 
     .line 13
     .line 14
-    iget-wide v4, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mArcVelocity:D
+    iget-wide v4, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mArcVelocity:D
 
     .line 15
     .line 16
-    invoke-static {v0, v1, v2, v3}, Ljava/lang/Math;
-    ->hypot(DD)D
+    invoke-static {v0, v1, v2, v3}, Ljava/lang/Math;->hypot(DD)D
 
     .line 17
     .line 18
@@ -1064,8 +998,7 @@
     div-double/2addr v4, v0
 
     .line 21
-    iget-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mVertical:Z
+    iget-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mVertical:Z
 
     .line 22
     .line 23
@@ -1087,32 +1020,28 @@
     .locals 0
 
     .line 1
-    iget-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mEllipseCenterX:D    return-wide p1
+    iget-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mEllipseCenterX:D    return-wide p1
 .end method
 
 .method public getLinearDY(D)D
     .locals 0
 
     .line 1
-    iget-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mEllipseCenterY:D    return-wide p1
+    iget-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mEllipseCenterY:D    return-wide p1
 .end method
 
 .method public getLinearX(D)D
     .locals 4
 
     .line 1
-    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mTime1:D
+    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mTime1:D
 
     .line 2
     .line 3
     sub-double/2addr p1, v0
 
     .line 4
-    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mOneOverDeltaTime:D
+    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mOneOverDeltaTime:D
 
     .line 5
     .line 6
@@ -1120,13 +1049,11 @@
 
     .line 7
     .line 8
-    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mX1:D
+    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mX1:D
 
     .line 9
     .line 10
-    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mX2:D
+    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mX2:D
 
     .line 11
     .line 12
@@ -1146,16 +1073,14 @@
     .locals 4
 
     .line 1
-    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mTime1:D
+    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mTime1:D
 
     .line 2
     .line 3
     sub-double/2addr p1, v0
 
     .line 4
-    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mOneOverDeltaTime:D
+    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mOneOverDeltaTime:D
 
     .line 5
     .line 6
@@ -1163,13 +1088,11 @@
 
     .line 7
     .line 8
-    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mY1:D
+    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mY1:D
 
     .line 9
     .line 10
-    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mY2:D
+    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mY2:D
 
     .line 11
     .line 12
@@ -1189,18 +1112,15 @@
     .locals 6
 
     .line 1
-    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mEllipseCenterX:D
+    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mEllipseCenterX:D
 
     .line 2
     .line 3
-    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mEllipseA:D
+    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mEllipseA:D
 
     .line 4
     .line 5
-    iget-wide v4, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mTmpSinAngle:D
+    iget-wide v4, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mTmpSinAngle:D
 
     .line 6
     .line 7
@@ -1217,18 +1137,15 @@
     .locals 6
 
     .line 1
-    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mEllipseCenterY:D
+    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mEllipseCenterY:D
 
     .line 2
     .line 3
-    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mEllipseB:D
+    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mEllipseB:D
 
     .line 4
     .line 5
-    iget-wide v4, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mTmpCosAngle:D
+    iget-wide v4, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mTmpCosAngle:D
 
     .line 6
     .line 7
@@ -1269,8 +1186,7 @@
 
     .line 15
     :cond_1
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mLut:[D
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mLut:[D
 
     .line 16
     .line 17
@@ -1325,8 +1241,7 @@
     .locals 2
 
     .line 1
-    iget-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mVertical:Z
+    iget-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mVertical:Z
 
     .line 2
     .line 3
@@ -1334,8 +1249,7 @@
 
     .line 4
     .line 5
-    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mTime2:D
+    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mTime2:D
 
     .line 6
     .line 7
@@ -1346,8 +1260,7 @@
 
     .line 9
     :cond_0
-    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mTime1:D
+    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mTime1:D
 
     .line 10
     .line 11
@@ -1356,8 +1269,7 @@
     .line 12
     .line 13
     :goto_0
-    iget-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mOneOverDeltaTime:D
+    iget-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mOneOverDeltaTime:D
 
     .line 14
     .line 15
@@ -1372,8 +1284,7 @@
     .line 20
     .line 21
     .line 22
-    invoke-virtual {p0, v0, v1}, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->lookup(D)D
+    invoke-virtual {p0, v0, v1}, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->lookup(D)D
 
     .line 23
     .line 24
@@ -1385,8 +1296,7 @@
 
     .line 27
     .line 28
-    invoke-static {v0, v1}, Ljava/lang/Math;
-    ->sin(D)D
+    invoke-static {v0, v1}, Ljava/lang/Math;->sin(D)D
 
     .line 29
     .line 30
@@ -1394,13 +1304,11 @@
     move-result-wide p1
 
     .line 32
-    iput-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mTmpSinAngle:D
+    iput-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mTmpSinAngle:D
 
     .line 33
     .line 34
-    invoke-static {v0, v1}, Ljava/lang/Math;
-    ->cos(D)D
+    invoke-static {v0, v1}, Ljava/lang/Math;->cos(D)D
 
     .line 35
     .line 36
@@ -1408,8 +1316,7 @@
     move-result-wide p1
 
     .line 38
-    iput-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;
-    ->mTmpCosAngle:D    
+    iput-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mTmpCosAngle:D
     return-void
 .end method
 

@@ -8,8 +8,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p1, p2}, Landroid/content/res/TypedArray;
-    ->hasValue(I)Z
+    invoke-virtual {p1, p2}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
     .line 2
     .line 3
@@ -24,8 +23,7 @@
     const/4 v0, 0x0
 
     .line 8
-    invoke-virtual {p1, p2, v0}, Landroid/content/res/TypedArray;
-    ->getResourceId(II)I
+    invoke-virtual {p1, p2, v0}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     .line 9
     .line 10
@@ -37,8 +35,7 @@
 
     .line 13
     .line 14
-    invoke-static {p0, v0}, Landroidx/appcompat/content/res/AppCompatResources;
-    ->getColorStateList(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
+    invoke-static {p0, v0}, Landroidx/appcompat/content/res/AppCompatResources;->getColorStateList(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
 
     .line 15
     .line 16
@@ -54,8 +51,7 @@
 
     .line 21
     :cond_0
-    invoke-virtual {p1, p2}, Landroid/content/res/TypedArray;
-    ->getColorStateList(I)Landroid/content/res/ColorStateList;
+    invoke-virtual {p1, p2}, Landroid/content/res/TypedArray;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
     .line 22
     .line 23
@@ -69,8 +65,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p1, p2}, Landroidx/appcompat/widget/TintTypedArray;
-    ->hasValue(I)Z
+    invoke-virtual {p1, p2}, Landroidx/appcompat/widget/TintTypedArray;->hasValue(I)Z
 
     .line 2
     .line 3
@@ -85,8 +80,7 @@
     const/4 v0, 0x0
 
     .line 8
-    invoke-virtual {p1, p2, v0}, Landroidx/appcompat/widget/TintTypedArray;
-    ->getResourceId(II)I
+    invoke-virtual {p1, p2, v0}, Landroidx/appcompat/widget/TintTypedArray;->getResourceId(II)I
 
     .line 9
     .line 10
@@ -98,8 +92,7 @@
 
     .line 13
     .line 14
-    invoke-static {p0, v0}, Landroidx/appcompat/content/res/AppCompatResources;
-    ->getColorStateList(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
+    invoke-static {p0, v0}, Landroidx/appcompat/content/res/AppCompatResources;->getColorStateList(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
 
     .line 15
     .line 16
@@ -115,8 +108,7 @@
 
     .line 21
     :cond_0
-    invoke-virtual {p1, p2}, Landroidx/appcompat/widget/TintTypedArray;
-    ->getColorStateList(I)Landroid/content/res/ColorStateList;
+    invoke-virtual {p1, p2}, Landroidx/appcompat/widget/TintTypedArray;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
     .line 22
     .line 23
@@ -130,8 +122,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p1, p2}, Landroid/content/res/TypedArray;
-    ->hasValue(I)Z
+    invoke-virtual {p1, p2}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
     .line 2
     .line 3
@@ -146,8 +137,7 @@
     const/4 v0, 0x0
 
     .line 8
-    invoke-virtual {p1, p2, v0}, Landroid/content/res/TypedArray;
-    ->getResourceId(II)I
+    invoke-virtual {p1, p2, v0}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     .line 9
     .line 10
@@ -159,8 +149,7 @@
 
     .line 13
     .line 14
-    invoke-static {p0, v0}, Landroidx/appcompat/content/res/AppCompatResources;
-    ->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-static {p0, v0}, Landroidx/appcompat/content/res/AppCompatResources;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     .line 15
     .line 16
@@ -176,8 +165,7 @@
 
     .line 21
     :cond_0
-    invoke-virtual {p1, p2}, Landroid/content/res/TypedArray;
-    ->getDrawable(I)Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p1, p2}, Landroid/content/res/TypedArray;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     .line 22
     .line 23
@@ -191,8 +179,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     .line 2
     .line 3
@@ -200,8 +187,7 @@
     move-result-object p0
 
     .line 5
-    invoke-virtual {p0}, Landroid/content/res/Resources;
-    ->getConfiguration()Landroid/content/res/Configuration;
+    invoke-virtual {p0}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
 
     .line 6
     .line 7
@@ -209,8 +195,7 @@
     move-result-object p0
 
     .line 9
-    iget p0, p0, Landroid/content/res/Configuration;
-    ->fontScale:F
+    iget p0, p0, Landroid/content/res/Configuration;->fontScale:F
 
     .line 10
     .line 11

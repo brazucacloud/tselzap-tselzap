@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/lifecycle/BlockRunner;
-    ->cancel()V
+    value = Landroidx/lifecycle/BlockRunner;->cancel()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -63,16 +62,14 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/lifecycle/BlockRunner$cancel$1;
-    ->this$0:Landroidx/lifecycle/BlockRunner;
+    iput-object p1, p0, Landroidx/lifecycle/BlockRunner$cancel$1;->this$0:Landroidx/lifecycle/BlockRunner;
 
     .line 2
     .line 3
     const/4 p1, 0x2
 
     .line 4
-    invoke-direct {p0, p1, p2}, Li1/i;
-    -><init>(ILg1/d;)V
+    invoke-direct {p0, p1, p2}, Li1/i;-><init>(ILg1/d;)V
 return-void
 .end method
 
@@ -97,13 +94,11 @@ return-void
 
     .line 2
     .line 3
-    iget-object v0, p0, Landroidx/lifecycle/BlockRunner$cancel$1;
-    ->this$0:Landroidx/lifecycle/BlockRunner;
+    iget-object v0, p0, Landroidx/lifecycle/BlockRunner$cancel$1;->this$0:Landroidx/lifecycle/BlockRunner;
 
     .line 4
     .line 5
-    invoke-direct {p1, v0, p2}, Landroidx/lifecycle/BlockRunner$cancel$1;
-    -><init>(Landroidx/lifecycle/BlockRunner;Lg1/d;)V
+    invoke-direct {p1, v0, p2}, Landroidx/lifecycle/BlockRunner$cancel$1;-><init>(Landroidx/lifecycle/BlockRunner;Lg1/d;)V
 return-object p1
 .end method
 
@@ -115,8 +110,7 @@ return-object p1
 
     check-cast p2, Lg1/d;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/BlockRunner$cancel$1;
-    ->invoke(Lz1/v;Lg1/d;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/BlockRunner$cancel$1;->invoke(Lz1/v;Lg1/d;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -138,18 +132,15 @@ return-object p1
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/BlockRunner$cancel$1;
-    ->create(Ljava/lang/Object;Lg1/d;)Lg1/d;
+    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/BlockRunner$cancel$1;->create(Ljava/lang/Object;Lg1/d;)Lg1/d;
 
     move-result-object p1
 
     check-cast p1, Landroidx/lifecycle/BlockRunner$cancel$1;
 
-    sget-object p2, Lc1/v;
-    ->a:Lc1/v;
+    sget-object p2, Lc1/v;->a:Lc1/v;
 
-    invoke-virtual {p1, p2}, Landroidx/lifecycle/BlockRunner$cancel$1;
-    ->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Landroidx/lifecycle/BlockRunner$cancel$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -160,18 +151,15 @@ return-object p1
     .locals 9
 
     .line 1
-    sget-object v0, Lh1/a;
-    ->b:Lh1/a;
+    sget-object v0, Lh1/a;->b:Lh1/a;
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/lifecycle/BlockRunner$cancel$1;
-    ->label:I
+    iget v1, p0, Landroidx/lifecycle/BlockRunner$cancel$1;->label:I
 
     .line 4
     .line 5
-    sget-object v2, Lc1/v;
-    ->a:Lc1/v;
+    sget-object v2, Lc1/v;->a:Lc1/v;
 
     .line 6
     .line 7
@@ -189,8 +177,7 @@ return-object p1
 
     .line 12
     .line 13
-    invoke-static {p1}, Lcom/bumptech/glide/b;
-    ->c0(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
 
     .line 14
     .line 15
@@ -207,8 +194,7 @@ return-object p1
 
     .line 20
     .line 21
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 22
     .line 23
@@ -217,19 +203,16 @@ return-object p1
 
     .line 25
     :cond_1
-    invoke-static {p1}, Lcom/bumptech/glide/b;
-    ->c0(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
 
     .line 26
     .line 27
     .line 28
-    iget-object p1, p0, Landroidx/lifecycle/BlockRunner$cancel$1;
-    ->this$0:Landroidx/lifecycle/BlockRunner;
+    iget-object p1, p0, Landroidx/lifecycle/BlockRunner$cancel$1;->this$0:Landroidx/lifecycle/BlockRunner;
 
     .line 29
     .line 30
-    invoke-static {p1}, Landroidx/lifecycle/BlockRunner;
-    ->access$getTimeoutInMs$p(Landroidx/lifecycle/BlockRunner;)J
+    invoke-static {p1}, Landroidx/lifecycle/BlockRunner;->access$getTimeoutInMs$p(Landroidx/lifecycle/BlockRunner;)J
 
     .line 31
     .line 32
@@ -237,8 +220,7 @@ return-object p1
     move-result-wide v5
 
     .line 34
-    iput v4, p0, Landroidx/lifecycle/BlockRunner$cancel$1;
-    ->label:I
+    iput v4, p0, Landroidx/lifecycle/BlockRunner$cancel$1;->label:I
 
     .line 35
     .line 36
@@ -266,8 +248,7 @@ return-object p1
 
     .line 45
     .line 46
-    invoke-static {p0}, Lcom/bumptech/glide/b;
-    ->K(Lg1/d;)Lg1/d;
+    invoke-static {p0}, Lcom/bumptech/glide/b;->K(Lg1/d;)Lg1/d;
 
     .line 47
     .line 48
@@ -275,14 +256,12 @@ return-object p1
     move-result-object v1
 
     .line 50
-    invoke-direct {p1, v4, v1}, Lz1/g;
-    -><init>(ILg1/d;)V
+    invoke-direct {p1, v4, v1}, Lz1/g;-><init>(ILg1/d;)V
 
     .line 51
     .line 52
     .line 53
-    invoke-virtual {p1}, Lz1/g;
-    ->r()V
+    invoke-virtual {p1}, Lz1/g;->r()V
 
     .line 54
     .line 55
@@ -302,18 +281,15 @@ return-object p1
 
     .line 64
     .line 65
-    sget-object v1, Lg1/e;
-    ->b:Lg1/e;
+    sget-object v1, Lg1/e;->b:Lg1/e;
 
     .line 66
     .line 67
-    iget-object v4, p1, Lz1/g;
-    ->f:Lg1/i;
+    iget-object v4, p1, Lz1/g;->f:Lg1/i;
 
     .line 68
     .line 69
-    invoke-interface {v4, v1}, Lg1/i;
-    ->get(Lg1/h;)Lg1/g;
+    invoke-interface {v4, v1}, Lg1/i;->get(Lg1/h;)Lg1/g;
 
     .line 70
     .line 71
@@ -345,21 +321,18 @@ return-object p1
 
     .line 82
     .line 83
-    sget-object v1, Lz1/y;
-    ->a:Lz1/B;
+    sget-object v1, Lz1/y;->a:Lz1/B;
 
     .line 84
     .line 85
     :cond_5
-    invoke-interface {v1, v5, v6, p1}, Lz1/B;
-    ->m(JLz1/g;)V
+    invoke-interface {v1, v5, v6, p1}, Lz1/B;->m(JLz1/g;)V
 
     .line 86
     .line 87
     .line 88
     :cond_6
-    invoke-virtual {p1}, Lz1/g;
-    ->q()Ljava/lang/Object;
+    invoke-virtual {p1}, Lz1/g;->q()Ljava/lang/Object;
 
     .line 89
     .line 90
@@ -377,13 +350,11 @@ return-object p1
     .line 97
     :cond_7
     :goto_2
-    iget-object p1, p0, Landroidx/lifecycle/BlockRunner$cancel$1;
-    ->this$0:Landroidx/lifecycle/BlockRunner;
+    iget-object p1, p0, Landroidx/lifecycle/BlockRunner$cancel$1;->this$0:Landroidx/lifecycle/BlockRunner;
 
     .line 98
     .line 99
-    invoke-static {p1}, Landroidx/lifecycle/BlockRunner;
-    ->access$getLiveData$p(Landroidx/lifecycle/BlockRunner;)Landroidx/lifecycle/CoroutineLiveData;
+    invoke-static {p1}, Landroidx/lifecycle/BlockRunner;->access$getLiveData$p(Landroidx/lifecycle/BlockRunner;)Landroidx/lifecycle/CoroutineLiveData;
 
     .line 100
     .line 101
@@ -391,8 +362,7 @@ return-object p1
     move-result-object p1
 
     .line 103
-    invoke-virtual {p1}, Landroidx/lifecycle/LiveData;
-    ->hasActiveObservers()Z
+    invoke-virtual {p1}, Landroidx/lifecycle/LiveData;->hasActiveObservers()Z
 
     .line 104
     .line 105
@@ -404,13 +374,11 @@ return-object p1
 
     .line 108
     .line 109
-    iget-object p1, p0, Landroidx/lifecycle/BlockRunner$cancel$1;
-    ->this$0:Landroidx/lifecycle/BlockRunner;
+    iget-object p1, p0, Landroidx/lifecycle/BlockRunner$cancel$1;->this$0:Landroidx/lifecycle/BlockRunner;
 
     .line 110
     .line 111
-    invoke-static {p1}, Landroidx/lifecycle/BlockRunner;
-    ->access$getRunningJob$p(Landroidx/lifecycle/BlockRunner;)Lz1/V;
+    invoke-static {p1}, Landroidx/lifecycle/BlockRunner;->access$getRunningJob$p(Landroidx/lifecycle/BlockRunner;)Lz1/V;
 
     .line 112
     .line 113
@@ -422,20 +390,17 @@ return-object p1
 
     .line 116
     .line 117
-    invoke-interface {p1, v3}, Lz1/V;
-    ->c(Ljava/util/concurrent/CancellationException;)V
+    invoke-interface {p1, v3}, Lz1/V;->c(Ljava/util/concurrent/CancellationException;)V
 
     .line 118
     .line 119
     .line 120
     :cond_8
-    iget-object p1, p0, Landroidx/lifecycle/BlockRunner$cancel$1;
-    ->this$0:Landroidx/lifecycle/BlockRunner;
+    iget-object p1, p0, Landroidx/lifecycle/BlockRunner$cancel$1;->this$0:Landroidx/lifecycle/BlockRunner;
 
     .line 121
     .line 122
-    invoke-static {p1, v3}, Landroidx/lifecycle/BlockRunner;
-    ->access$setRunningJob$p(Landroidx/lifecycle/BlockRunner;Lz1/V;)V
+    invoke-static {p1, v3}, Landroidx/lifecycle/BlockRunner;->access$setRunningJob$p(Landroidx/lifecycle/BlockRunner;Lz1/V;)V
 
     .line 123
     .line 124

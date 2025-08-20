@@ -43,24 +43,19 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "block"
 
-    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
-    invoke-direct {p0}, Landroidx/lifecycle/MediatorLiveData;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/lifecycle/MediatorLiveData;-><init>()V
 
     .line 4
-    sget-object v0, Lz1/u;
-    ->c:Lz1/u;
+    sget-object v0, Lz1/u;->c:Lz1/u;
 
-    invoke-interface {p1, v0}, Lg1/i;
-    ->get(Lg1/h;)Lg1/g;
+    invoke-interface {p1, v0}, Lg1/i;->get(Lg1/h;)Lg1/g;
 
     move-result-object v0
 
@@ -70,34 +65,27 @@
     new-instance v1, Lz1/l0;
 
     .line 6
-    invoke-direct {v1, v0}, Lz1/Y;
-    -><init>(Lz1/V;)V
+    invoke-direct {v1, v0}, Lz1/Y;-><init>(Lz1/V;)V
 
     .line 7
-    sget-object v0, Lz1/F;
-    ->a:LG1/d;
+    sget-object v0, Lz1/F;->a:LG1/d;
 
     .line 8
-    sget-object v0, LE1/o;
-    ->a:LA1/c;
+    sget-object v0, LE1/o;->a:LA1/c;
 
     .line 9
-    iget-object v0, v0, LA1/c;
-    ->d:LA1/c;
+    iget-object v0, v0, LA1/c;->d:LA1/c;
 
     .line 10
-    invoke-virtual {v0, p1}, Lg1/a;
-    ->plus(Lg1/i;)Lg1/i;
+    invoke-virtual {v0, p1}, Lg1/a;->plus(Lg1/i;)Lg1/i;
 
     move-result-object p1
 
-    invoke-interface {p1, v1}, Lg1/i;
-    ->plus(Lg1/i;)Lg1/i;
+    invoke-interface {p1, v1}, Lg1/i;->plus(Lg1/i;)Lg1/i;
 
     move-result-object p1
 
-    invoke-static {p1}, Lz1/w;
-    ->a(Lg1/i;)LE1/e;
+    invoke-static {p1}, Lz1/w;->a(Lg1/i;)LE1/e;
 
     move-result-object v5
 
@@ -106,8 +94,7 @@
 
     new-instance v6, Landroidx/lifecycle/CoroutineLiveData$1;
 
-    invoke-direct {v6, p0}, Landroidx/lifecycle/CoroutineLiveData$1;
-    -><init>(Landroidx/lifecycle/CoroutineLiveData;)V
+    invoke-direct {v6, p0}, Landroidx/lifecycle/CoroutineLiveData$1;-><init>(Landroidx/lifecycle/CoroutineLiveData;)V
 
     move-object v1, p0
 
@@ -115,11 +102,9 @@
 
     move-object v2, p4
 
-    invoke-direct/range {v0 .. v6}, Landroidx/lifecycle/BlockRunner;
-    -><init>(Landroidx/lifecycle/CoroutineLiveData;Lp1/p;JLz1/v;Lp1/a;)V
+    invoke-direct/range {v0 .. v6}, Landroidx/lifecycle/BlockRunner;-><init>(Landroidx/lifecycle/CoroutineLiveData;Lp1/p;JLz1/v;Lp1/a;)V
 
-    iput-object v0, v1, Landroidx/lifecycle/CoroutineLiveData;
-    ->blockRunner:Landroidx/lifecycle/BlockRunner;
+    iput-object v0, v1, Landroidx/lifecycle/CoroutineLiveData;->blockRunner:Landroidx/lifecycle/BlockRunner;
 
     return-void
 .end method
@@ -132,8 +117,7 @@
     if-eqz p6, :cond_0
 
     .line 1
-    sget-object p1, Lg1/j;
-    ->b:Lg1/j;
+    sget-object p1, Lg1/j;->b:Lg1/j;
 
     :cond_0
     and-int/lit8 p5, p5, 0x2
@@ -144,8 +128,7 @@
 
     .line 2
     :cond_1
-    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/lifecycle/CoroutineLiveData;
-    -><init>(Lg1/i;JLp1/p;)V
+    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/lifecycle/CoroutineLiveData;-><init>(Lg1/i;JLp1/p;)V
 return-void
 .end method
 
@@ -153,8 +136,7 @@ return-void
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/lifecycle/CoroutineLiveData;
-    ->blockRunner:Landroidx/lifecycle/BlockRunner;    
+    iput-object p1, p0, Landroidx/lifecycle/CoroutineLiveData;->blockRunner:Landroidx/lifecycle/BlockRunner;
     return-void
 .end method
 
@@ -189,8 +171,7 @@ return-void
 
     .line 7
     .line 8
-    iget v1, v0, Landroidx/lifecycle/CoroutineLiveData$clearSource$1;
-    ->label:I
+    iget v1, v0, Landroidx/lifecycle/CoroutineLiveData$clearSource$1;->label:I
 
     .line 9
     .line 10
@@ -209,8 +190,7 @@ return-void
     sub-int/2addr v1, v2
 
     .line 17
-    iput v1, v0, Landroidx/lifecycle/CoroutineLiveData$clearSource$1;
-    ->label:I
+    iput v1, v0, Landroidx/lifecycle/CoroutineLiveData$clearSource$1;->label:I
 
     .line 18
     .line 19
@@ -222,25 +202,21 @@ return-void
 
     .line 21
     .line 22
-    invoke-direct {v0, p0, p1}, Landroidx/lifecycle/CoroutineLiveData$clearSource$1;
-    -><init>(Landroidx/lifecycle/CoroutineLiveData;Lg1/d;)V
+    invoke-direct {v0, p0, p1}, Landroidx/lifecycle/CoroutineLiveData$clearSource$1;-><init>(Landroidx/lifecycle/CoroutineLiveData;Lg1/d;)V
 
     .line 23
     .line 24
     .line 25
     :goto_0
-    iget-object p1, v0, Landroidx/lifecycle/CoroutineLiveData$clearSource$1;
-    ->result:Ljava/lang/Object;
+    iget-object p1, v0, Landroidx/lifecycle/CoroutineLiveData$clearSource$1;->result:Ljava/lang/Object;
 
     .line 26
     .line 27
-    sget-object v1, Lh1/a;
-    ->b:Lh1/a;
+    sget-object v1, Lh1/a;->b:Lh1/a;
 
     .line 28
     .line 29
-    iget v2, v0, Landroidx/lifecycle/CoroutineLiveData$clearSource$1;
-    ->label:I
+    iget v2, v0, Landroidx/lifecycle/CoroutineLiveData$clearSource$1;->label:I
 
     .line 30
     .line 31
@@ -255,8 +231,7 @@ return-void
 
     .line 35
     .line 36
-    iget-object v0, v0, Landroidx/lifecycle/CoroutineLiveData$clearSource$1;
-    ->L$0:Ljava/lang/Object;
+    iget-object v0, v0, Landroidx/lifecycle/CoroutineLiveData$clearSource$1;->L$0:Ljava/lang/Object;
 
     .line 37
     .line 38
@@ -264,8 +239,7 @@ return-void
 
     .line 39
     .line 40
-    invoke-static {p1}, Lcom/bumptech/glide/b;
-    ->c0(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
 
     .line 41
     .line 42
@@ -282,8 +256,7 @@ return-void
 
     .line 47
     .line 48
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 49
     .line 50
@@ -292,14 +265,12 @@ return-void
 
     .line 52
     :cond_2
-    invoke-static {p1}, Lcom/bumptech/glide/b;
-    ->c0(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
 
     .line 53
     .line 54
     .line 55
-    iget-object p1, p0, Landroidx/lifecycle/CoroutineLiveData;
-    ->emittedSource:Landroidx/lifecycle/EmittedSource;
+    iget-object p1, p0, Landroidx/lifecycle/CoroutineLiveData;->emittedSource:Landroidx/lifecycle/EmittedSource;
 
     .line 56
     .line 57
@@ -307,18 +278,15 @@ return-void
 
     .line 58
     .line 59
-    iput-object p0, v0, Landroidx/lifecycle/CoroutineLiveData$clearSource$1;
-    ->L$0:Ljava/lang/Object;
+    iput-object p0, v0, Landroidx/lifecycle/CoroutineLiveData$clearSource$1;->L$0:Ljava/lang/Object;
 
     .line 60
     .line 61
-    iput v3, v0, Landroidx/lifecycle/CoroutineLiveData$clearSource$1;
-    ->label:I
+    iput v3, v0, Landroidx/lifecycle/CoroutineLiveData$clearSource$1;->label:I
 
     .line 62
     .line 63
-    invoke-virtual {p1, v0}, Landroidx/lifecycle/EmittedSource;
-    ->disposeNow(Lg1/d;)Ljava/lang/Object;
+    invoke-virtual {p1, v0}, Landroidx/lifecycle/EmittedSource;->disposeNow(Lg1/d;)Ljava/lang/Object;
 
     .line 64
     .line 65
@@ -337,13 +305,11 @@ return-void
     const/4 p1, 0x0
 
     .line 72
-    iput-object p1, v0, Landroidx/lifecycle/CoroutineLiveData;
-    ->emittedSource:Landroidx/lifecycle/EmittedSource;
+    iput-object p1, v0, Landroidx/lifecycle/CoroutineLiveData;->emittedSource:Landroidx/lifecycle/EmittedSource;
 
     .line 73
     .line 74
-    sget-object p1, Lc1/v;
-    ->a:Lc1/v;    return-object p1
+    sget-object p1, Lc1/v;->a:Lc1/v;    return-object p1
 .end method
 
 .method public final emitSource$lifecycle_livedata_release(Landroidx/lifecycle/LiveData;Lg1/d;)Ljava/lang/Object;
@@ -377,8 +343,7 @@ return-void
 
     .line 7
     .line 8
-    iget v1, v0, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;
-    ->label:I
+    iget v1, v0, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;->label:I
 
     .line 9
     .line 10
@@ -397,8 +362,7 @@ return-void
     sub-int/2addr v1, v2
 
     .line 17
-    iput v1, v0, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;
-    ->label:I
+    iput v1, v0, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;->label:I
 
     .line 18
     .line 19
@@ -410,25 +374,21 @@ return-void
 
     .line 21
     .line 22
-    invoke-direct {v0, p0, p2}, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;
-    -><init>(Landroidx/lifecycle/CoroutineLiveData;Lg1/d;)V
+    invoke-direct {v0, p0, p2}, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;-><init>(Landroidx/lifecycle/CoroutineLiveData;Lg1/d;)V
 
     .line 23
     .line 24
     .line 25
     :goto_0
-    iget-object p2, v0, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;
-    ->result:Ljava/lang/Object;
+    iget-object p2, v0, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;->result:Ljava/lang/Object;
 
     .line 26
     .line 27
-    sget-object v1, Lh1/a;
-    ->b:Lh1/a;
+    sget-object v1, Lh1/a;->b:Lh1/a;
 
     .line 28
     .line 29
-    iget v2, v0, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;
-    ->label:I
+    iget v2, v0, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;->label:I
 
     .line 30
     .line 31
@@ -450,8 +410,7 @@ return-void
 
     .line 38
     .line 39
-    iget-object p1, v0, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;
-    ->L$0:Ljava/lang/Object;
+    iget-object p1, v0, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;->L$0:Ljava/lang/Object;
 
     .line 40
     .line 41
@@ -459,8 +418,7 @@ return-void
 
     .line 42
     .line 43
-    invoke-static {p2}, Lcom/bumptech/glide/b;
-    ->c0(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
 
     .line 44
     .line 45
@@ -477,8 +435,7 @@ return-void
 
     .line 50
     .line 51
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 52
     .line 53
@@ -487,8 +444,7 @@ return-void
 
     .line 55
     :cond_2
-    iget-object p1, v0, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;
-    ->L$1:Ljava/lang/Object;
+    iget-object p1, v0, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;->L$1:Ljava/lang/Object;
 
     .line 56
     .line 57
@@ -496,8 +452,7 @@ return-void
 
     .line 58
     .line 59
-    iget-object v2, v0, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;
-    ->L$0:Ljava/lang/Object;
+    iget-object v2, v0, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;->L$0:Ljava/lang/Object;
 
     .line 60
     .line 61
@@ -505,8 +460,7 @@ return-void
 
     .line 62
     .line 63
-    invoke-static {p2}, Lcom/bumptech/glide/b;
-    ->c0(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
 
     .line 64
     .line 65
@@ -521,29 +475,24 @@ return-void
 
     .line 69
     :cond_3
-    invoke-static {p2}, Lcom/bumptech/glide/b;
-    ->c0(Ljava/lang/Object;)V
+    invoke-static {p2}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
 
     .line 70
     .line 71
     .line 72
-    iput-object p0, v0, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;
-    ->L$0:Ljava/lang/Object;
+    iput-object p0, v0, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;->L$0:Ljava/lang/Object;
 
     .line 73
     .line 74
-    iput-object p1, v0, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;
-    ->L$1:Ljava/lang/Object;
+    iput-object p1, v0, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;->L$1:Ljava/lang/Object;
 
     .line 75
     .line 76
-    iput v4, v0, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;
-    ->label:I
+    iput v4, v0, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;->label:I
 
     .line 77
     .line 78
-    invoke-virtual {p0, v0}, Landroidx/lifecycle/CoroutineLiveData;
-    ->clearSource$lifecycle_livedata_release(Lg1/d;)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroidx/lifecycle/CoroutineLiveData;->clearSource$lifecycle_livedata_release(Lg1/d;)Ljava/lang/Object;
 
     .line 79
     .line 80
@@ -566,26 +515,22 @@ return-void
 
     .line 87
     :goto_1
-    iput-object p1, v0, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;
-    ->L$0:Ljava/lang/Object;
+    iput-object p1, v0, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;->L$0:Ljava/lang/Object;
 
     .line 88
     .line 89
     const/4 v2, 0x0
 
     .line 90
-    iput-object v2, v0, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;
-    ->L$1:Ljava/lang/Object;
+    iput-object v2, v0, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;->L$1:Ljava/lang/Object;
 
     .line 91
     .line 92
-    iput v3, v0, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;
-    ->label:I
+    iput v3, v0, Landroidx/lifecycle/CoroutineLiveData$emitSource$1;->label:I
 
     .line 93
     .line 94
-    invoke-static {p1, p2, v0}, Landroidx/lifecycle/CoroutineLiveDataKt;
-    ->addDisposableSource(Landroidx/lifecycle/MediatorLiveData;Landroidx/lifecycle/LiveData;Lg1/d;)Ljava/lang/Object;
+    invoke-static {p1, p2, v0}, Landroidx/lifecycle/CoroutineLiveDataKt;->addDisposableSource(Landroidx/lifecycle/MediatorLiveData;Landroidx/lifecycle/LiveData;Lg1/d;)Ljava/lang/Object;
 
     .line 95
     .line 96
@@ -607,8 +552,7 @@ return-void
 
     .line 102
     .line 103
-    iput-object p2, p1, Landroidx/lifecycle/CoroutineLiveData;
-    ->emittedSource:Landroidx/lifecycle/EmittedSource;    
+    iput-object p2, p1, Landroidx/lifecycle/CoroutineLiveData;->emittedSource:Landroidx/lifecycle/EmittedSource;
     return-object p2
 .end method
 
@@ -616,14 +560,12 @@ return-void
     .locals 1
 
     .line 1
-    invoke-super {p0}, Landroidx/lifecycle/MediatorLiveData;
-    ->onActive()V
+    invoke-super {p0}, Landroidx/lifecycle/MediatorLiveData;->onActive()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/lifecycle/CoroutineLiveData;
-    ->blockRunner:Landroidx/lifecycle/BlockRunner;
+    iget-object v0, p0, Landroidx/lifecycle/CoroutineLiveData;->blockRunner:Landroidx/lifecycle/BlockRunner;
 
     .line 5
     .line 6
@@ -631,8 +573,7 @@ return-void
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroidx/lifecycle/BlockRunner;
-    ->maybeRun()V
+    invoke-virtual {v0}, Landroidx/lifecycle/BlockRunner;->maybeRun()V
 
     .line 9
     .line 10
@@ -645,14 +586,12 @@ return-void
     .locals 1
 
     .line 1
-    invoke-super {p0}, Landroidx/lifecycle/MediatorLiveData;
-    ->onInactive()V
+    invoke-super {p0}, Landroidx/lifecycle/MediatorLiveData;->onInactive()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/lifecycle/CoroutineLiveData;
-    ->blockRunner:Landroidx/lifecycle/BlockRunner;
+    iget-object v0, p0, Landroidx/lifecycle/CoroutineLiveData;->blockRunner:Landroidx/lifecycle/BlockRunner;
 
     .line 5
     .line 6
@@ -660,8 +599,7 @@ return-void
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroidx/lifecycle/BlockRunner;
-    ->cancel()V
+    invoke-virtual {v0}, Landroidx/lifecycle/BlockRunner;->cancel()V
 
     .line 9
     .line 10

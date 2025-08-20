@@ -25,14 +25,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/google/android/gms/common/api/Api$ClientKey;
-    -><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/common/api/Api$ClientKey;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Lcom/google/android/gms/common/internal/service/zao;
-    ->zac:Lcom/google/android/gms/common/api/Api$ClientKey;
+    sput-object v0, Lcom/google/android/gms/common/internal/service/zao;->zac:Lcom/google/android/gms/common/api/Api$ClientKey;
 
     .line 7
     .line 8
@@ -40,14 +38,12 @@
 
     .line 9
     .line 10
-    invoke-direct {v1}, Lcom/google/android/gms/common/internal/service/zan;
-    -><init>()V
+    invoke-direct {v1}, Lcom/google/android/gms/common/internal/service/zan;-><init>()V
 
     .line 11
     .line 12
     .line 13
-    sput-object v1, Lcom/google/android/gms/common/internal/service/zao;
-    ->zad:Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;
+    sput-object v1, Lcom/google/android/gms/common/internal/service/zao;->zad:Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;
 
     .line 14
     .line 15
@@ -59,14 +55,12 @@
 
     .line 18
     .line 19
-    invoke-direct {v2, v3, v1, v0}, Lcom/google/android/gms/common/api/Api;
-    -><init>(Ljava/lang/String;Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;Lcom/google/android/gms/common/api/Api$ClientKey;)V
+    invoke-direct {v2, v3, v1, v0}, Lcom/google/android/gms/common/api/Api;-><init>(Ljava/lang/String;Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;Lcom/google/android/gms/common/api/Api$ClientKey;)V
 
     .line 20
     .line 21
     .line 22
-    sput-object v2, Lcom/google/android/gms/common/internal/service/zao;
-    ->zae:Lcom/google/android/gms/common/api/Api;
+    sput-object v2, Lcom/google/android/gms/common/internal/service/zao;->zae:Lcom/google/android/gms/common/api/Api;
 
     .line 23
     .line 24
@@ -77,18 +71,15 @@
     .locals 2
 
     .line 1
-    sget-object v0, Lcom/google/android/gms/common/internal/service/zao;
-    ->zae:Lcom/google/android/gms/common/api/Api;
+    sget-object v0, Lcom/google/android/gms/common/internal/service/zao;->zae:Lcom/google/android/gms/common/api/Api;
 
     .line 2
     .line 3
-    sget-object v1, Lcom/google/android/gms/common/api/GoogleApi$Settings;
-    ->DEFAULT_SETTINGS:Lcom/google/android/gms/common/api/GoogleApi$Settings;
+    sget-object v1, Lcom/google/android/gms/common/api/GoogleApi$Settings;->DEFAULT_SETTINGS:Lcom/google/android/gms/common/api/GoogleApi$Settings;
 
     .line 4
     .line 5
-    invoke-direct {p0, p1, v0, p2, v1}, Lcom/google/android/gms/common/api/GoogleApi;
-    -><init>(Landroid/content/Context;Lcom/google/android/gms/common/api/Api;Lcom/google/android/gms/common/api/Api$ApiOptions;Lcom/google/android/gms/common/api/GoogleApi$Settings;)V
+    invoke-direct {p0, p1, v0, p2, v1}, Lcom/google/android/gms/common/api/GoogleApi;-><init>(Landroid/content/Context;Lcom/google/android/gms/common/api/Api;Lcom/google/android/gms/common/api/Api$ApiOptions;Lcom/google/android/gms/common/api/GoogleApi$Settings;)V
 
     .line 6
     .line 7
@@ -112,8 +103,7 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Lcom/google/android/gms/common/api/internal/TaskApiCall;
-    ->builder()Lcom/google/android/gms/common/api/internal/TaskApiCall$Builder;
+    invoke-static {}, Lcom/google/android/gms/common/api/internal/TaskApiCall;->builder()Lcom/google/android/gms/common/api/internal/TaskApiCall$Builder;
 
     .line 2
     .line 3
@@ -128,8 +118,7 @@
 
     .line 7
     .line 8
-    sget-object v2, Lcom/google/android/gms/internal/base/zaf;
-    ->zaa:Lcom/google/android/gms/common/Feature;
+    sget-object v2, Lcom/google/android/gms/internal/base/zaf;->zaa:Lcom/google/android/gms/common/Feature;
 
     .line 9
     .line 10
@@ -140,14 +129,12 @@
 
     .line 12
     .line 13
-    invoke-virtual {v0, v1}, Lcom/google/android/gms/common/api/internal/TaskApiCall$Builder;
-    ->setFeatures([Lcom/google/android/gms/common/Feature;)Lcom/google/android/gms/common/api/internal/TaskApiCall$Builder;
+    invoke-virtual {v0, v1}, Lcom/google/android/gms/common/api/internal/TaskApiCall$Builder;->setFeatures([Lcom/google/android/gms/common/Feature;)Lcom/google/android/gms/common/api/internal/TaskApiCall$Builder;
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {v0, v3}, Lcom/google/android/gms/common/api/internal/TaskApiCall$Builder;
-    ->setAutoResolveMissingFeatures(Z)Lcom/google/android/gms/common/api/internal/TaskApiCall$Builder;
+    invoke-virtual {v0, v3}, Lcom/google/android/gms/common/api/internal/TaskApiCall$Builder;->setAutoResolveMissingFeatures(Z)Lcom/google/android/gms/common/api/internal/TaskApiCall$Builder;
 
     .line 17
     .line 18
@@ -156,20 +143,17 @@
 
     .line 20
     .line 21
-    invoke-direct {v1, p1}, Lcom/google/android/gms/common/internal/service/zam;
-    -><init>(Lcom/google/android/gms/common/internal/TelemetryData;)V
+    invoke-direct {v1, p1}, Lcom/google/android/gms/common/internal/service/zam;-><init>(Lcom/google/android/gms/common/internal/TelemetryData;)V
 
     .line 22
     .line 23
     .line 24
-    invoke-virtual {v0, v1}, Lcom/google/android/gms/common/api/internal/TaskApiCall$Builder;
-    ->run(Lcom/google/android/gms/common/api/internal/RemoteCall;)Lcom/google/android/gms/common/api/internal/TaskApiCall$Builder;
+    invoke-virtual {v0, v1}, Lcom/google/android/gms/common/api/internal/TaskApiCall$Builder;->run(Lcom/google/android/gms/common/api/internal/RemoteCall;)Lcom/google/android/gms/common/api/internal/TaskApiCall$Builder;
 
     .line 25
     .line 26
     .line 27
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/TaskApiCall$Builder;
-    ->build()Lcom/google/android/gms/common/api/internal/TaskApiCall;
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/TaskApiCall$Builder;->build()Lcom/google/android/gms/common/api/internal/TaskApiCall;
 
     .line 28
     .line 29
@@ -177,8 +161,7 @@
     move-result-object p1
 
     .line 31
-    invoke-virtual {p0, p1}, Lcom/google/android/gms/common/api/GoogleApi;
-    ->doBestEffortWrite(Lcom/google/android/gms/common/api/internal/TaskApiCall;)Lcom/google/android/gms/tasks/Task;
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/common/api/GoogleApi;->doBestEffortWrite(Lcom/google/android/gms/common/api/internal/TaskApiCall;)Lcom/google/android/gms/tasks/Task;
 
     .line 32
     .line 33

@@ -35,14 +35,12 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Ljava/util/concurrent/atomic/AtomicBoolean;
-    -><init>(Z)V
+    invoke-direct {p0, v0}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
 
     .line 3
     .line 4
     .line 5
-    iput-object p1, p0, Landroidx/core/util/ContinuationRunnable;
-    ->continuation:Lg1/d;
+    iput-object p1, p0, Landroidx/core/util/ContinuationRunnable;->continuation:Lg1/d;
 
     .line 6
     .line 7
@@ -61,8 +59,7 @@
     const/4 v1, 0x1
 
     .line 3
-    invoke-virtual {p0, v0, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;
-    ->compareAndSet(ZZ)Z
+    invoke-virtual {p0, v0, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->compareAndSet(ZZ)Z
 
     .line 4
     .line 5
@@ -74,18 +71,15 @@
 
     .line 8
     .line 9
-    iget-object v0, p0, Landroidx/core/util/ContinuationRunnable;
-    ->continuation:Lg1/d;
+    iget-object v0, p0, Landroidx/core/util/ContinuationRunnable;->continuation:Lg1/d;
 
     .line 10
     .line 11
-    sget-object v1, Lc1/v;
-    ->a:Lc1/v;
+    sget-object v1, Lc1/v;->a:Lc1/v;
 
     .line 12
     .line 13
-    invoke-interface {v0, v1}, Lg1/d;
-    ->resumeWith(Ljava/lang/Object;)V
+    invoke-interface {v0, v1}, Lg1/d;->resumeWith(Ljava/lang/Object;)V
 
     .line 14
     .line 15
@@ -106,14 +100,12 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p0}, Ljava/util/concurrent/atomic/AtomicBoolean;
-    ->get()Z
+    invoke-virtual {p0}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
 
     .line 9
     .line 10
@@ -121,8 +113,7 @@
     move-result v1
 
     .line 12
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Z)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
 
     .line 13
     .line 14
@@ -131,14 +122,12 @@
 
     .line 16
     .line 17
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     .line 18
     .line 19
     .line 20
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 21
     .line 22

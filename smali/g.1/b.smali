@@ -23,8 +23,7 @@
 
     .line 5
     .line 6
-    invoke-direct {v0, p1, v1}, Ljava/lang/Thread;
-    -><init>(Ljava/lang/Runnable;Ljava/lang/String;)V
+    invoke-direct {v0, p1, v1}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;Ljava/lang/String;)V
 
     .line 7
     .line 8
@@ -32,8 +31,7 @@
     const/4 p1, 0x1
 
     .line 10
-    invoke-virtual {v0, p1}, Ljava/lang/Thread;
-    ->setPriority(I)V
+    invoke-virtual {v0, p1}, Ljava/lang/Thread;->setPriority(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

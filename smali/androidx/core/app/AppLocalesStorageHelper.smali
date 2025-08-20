@@ -6,8 +6,7 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -35,14 +34,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/core/app/AppLocalesStorageHelper;
-    ->sAppLocaleStorageSync:Ljava/lang/Object;
+    sput-object v0, Landroidx/core/app/AppLocalesStorageHelper;->sAppLocaleStorageSync:Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -53,8 +50,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -74,8 +70,7 @@
     .end param
 
     .line 1
-    sget-object v0, Landroidx/core/app/AppLocalesStorageHelper;
-    ->sAppLocaleStorageSync:Ljava/lang/Object;
+    sget-object v0, Landroidx/core/app/AppLocalesStorageHelper;->sAppLocaleStorageSync:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -87,8 +82,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 7
     .line 8
@@ -104,8 +98,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {p0, p1}, Landroid/content/Context;
-    ->deleteFile(Ljava/lang/String;)Z
+    invoke-virtual {p0, p1}, Landroid/content/Context;->deleteFile(Ljava/lang/String;)Z
 
     .line 15
     .line 16
@@ -133,8 +126,7 @@
     const/4 v2, 0x0
 
     .line 24
-    invoke-virtual {p0, v1, v2}, Landroid/content/Context;
-    ->openFileOutput(Ljava/lang/String;I)Ljava/io/FileOutputStream;
+    invoke-virtual {p0, v1, v2}, Landroid/content/Context;->openFileOutput(Ljava/lang/String;I)Ljava/io/FileOutputStream;
 
     .line 25
     .line 26
@@ -146,8 +138,7 @@
 
     .line 28
     :try_start_2
-    invoke-static {}, Landroid/util/Xml;
-    ->newSerializer()Lorg/xmlpull/v1/XmlSerializer;
+    invoke-static {}, Landroid/util/Xml;->newSerializer()Lorg/xmlpull/v1/XmlSerializer;
 
     .line 29
     .line 30
@@ -161,8 +152,7 @@
 
     .line 33
     :try_start_3
-    invoke-interface {v1, p0, v2}, Lorg/xmlpull/v1/XmlSerializer;
-    ->setOutput(Ljava/io/OutputStream;Ljava/lang/String;)V
+    invoke-interface {v1, p0, v2}, Lorg/xmlpull/v1/XmlSerializer;->setOutput(Ljava/io/OutputStream;Ljava/lang/String;)V
 
     .line 34
     .line 35
@@ -171,13 +161,11 @@
 
     .line 37
     .line 38
-    sget-object v4, Ljava/lang/Boolean;
-    ->TRUE:Ljava/lang/Boolean;
+    sget-object v4, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     .line 39
     .line 40
-    invoke-interface {v1, v3, v4}, Lorg/xmlpull/v1/XmlSerializer;
-    ->startDocument(Ljava/lang/String;Ljava/lang/Boolean;)V
+    invoke-interface {v1, v3, v4}, Lorg/xmlpull/v1/XmlSerializer;->startDocument(Ljava/lang/String;Ljava/lang/Boolean;)V
 
     .line 41
     .line 42
@@ -186,8 +174,7 @@
 
     .line 44
     .line 45
-    invoke-interface {v1, v2, v3}, Lorg/xmlpull/v1/XmlSerializer;
-    ->startTag(Ljava/lang/String;Ljava/lang/String;)Lorg/xmlpull/v1/XmlSerializer;
+    invoke-interface {v1, v2, v3}, Lorg/xmlpull/v1/XmlSerializer;->startTag(Ljava/lang/String;Ljava/lang/String;)Lorg/xmlpull/v1/XmlSerializer;
 
     .line 46
     .line 47
@@ -196,8 +183,7 @@
 
     .line 49
     .line 50
-    invoke-interface {v1, v2, v3, p1}, Lorg/xmlpull/v1/XmlSerializer;
-    ->attribute(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/xmlpull/v1/XmlSerializer;
+    invoke-interface {v1, v2, v3, p1}, Lorg/xmlpull/v1/XmlSerializer;->attribute(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/xmlpull/v1/XmlSerializer;
 
     .line 51
     .line 52
@@ -206,14 +192,12 @@
 
     .line 54
     .line 55
-    invoke-interface {v1, v2, p1}, Lorg/xmlpull/v1/XmlSerializer;
-    ->endTag(Ljava/lang/String;Ljava/lang/String;)Lorg/xmlpull/v1/XmlSerializer;
+    invoke-interface {v1, v2, p1}, Lorg/xmlpull/v1/XmlSerializer;->endTag(Ljava/lang/String;Ljava/lang/String;)Lorg/xmlpull/v1/XmlSerializer;
 
     .line 56
     .line 57
     .line 58
-    invoke-interface {v1}, Lorg/xmlpull/v1/XmlSerializer;
-    ->endDocument()V
+    invoke-interface {v1}, Lorg/xmlpull/v1/XmlSerializer;->endDocument()V
     :try_end_3
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_0
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
@@ -227,8 +211,7 @@
     .line 63
     :goto_0
     :try_start_4
-    invoke-virtual {p0}, Ljava/io/FileOutputStream;
-    ->close()V
+    invoke-virtual {p0}, Ljava/io/FileOutputStream;->close()V
     :try_end_4
     .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_1
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
@@ -259,8 +242,7 @@
 
     .line 73
     .line 74
-    invoke-static {v1, v2, p1}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v2, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_1
 
@@ -292,8 +274,7 @@
     .line 83
     .line 84
     :try_start_7
-    invoke-virtual {p0}, Ljava/io/FileOutputStream;
-    ->close()V
+    invoke-virtual {p0}, Ljava/io/FileOutputStream;->close()V
     :try_end_7
     .catch Ljava/io/IOException; {:try_start_7 .. :try_end_7} :catch_2
     .catchall {:try_start_7 .. :try_end_7} :catchall_0
@@ -316,8 +297,7 @@
 
     .line 91
     .line 92
-    invoke-static {p0, p1}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 93
     .line 94
@@ -488,8 +468,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/core/app/AppLocalesStorageHelper;
-    ->sAppLocaleStorageSync:Ljava/lang/Object;
+    sget-object v0, Landroidx/core/app/AppLocalesStorageHelper;->sAppLocaleStorageSync:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -508,8 +487,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p0, v2}, Landroid/content/Context;
-    ->openFileInput(Ljava/lang/String;)Ljava/io/FileInputStream;
+    invoke-virtual {p0, v2}, Landroid/content/Context;->openFileInput(Ljava/lang/String;)Ljava/io/FileInputStream;
 
     .line 9
     .line 10
@@ -521,8 +499,7 @@
 
     .line 12
     :try_start_2
-    invoke-static {}, Landroid/util/Xml;
-    ->newPullParser()Lorg/xmlpull/v1/XmlPullParser;
+    invoke-static {}, Landroid/util/Xml;->newPullParser()Lorg/xmlpull/v1/XmlPullParser;
 
     .line 13
     .line 14
@@ -534,14 +511,12 @@
 
     .line 17
     .line 18
-    invoke-interface {v3, v2, v4}, Lorg/xmlpull/v1/XmlPullParser;
-    ->setInput(Ljava/io/InputStream;Ljava/lang/String;)V
+    invoke-interface {v3, v2, v4}, Lorg/xmlpull/v1/XmlPullParser;->setInput(Ljava/io/InputStream;Ljava/lang/String;)V
 
     .line 19
     .line 20
     .line 21
-    invoke-interface {v3}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getDepth()I
+    invoke-interface {v3}, Lorg/xmlpull/v1/XmlPullParser;->getDepth()I
 
     .line 22
     .line 23
@@ -551,8 +526,7 @@
     .line 25
     :cond_0
     :goto_0
-    invoke-interface {v3}, Lorg/xmlpull/v1/XmlPullParser;
-    ->next()I
+    invoke-interface {v3}, Lorg/xmlpull/v1/XmlPullParser;->next()I
 
     .line 26
     .line 27
@@ -574,8 +548,7 @@
 
     .line 34
     .line 35
-    invoke-interface {v3}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getDepth()I
+    invoke-interface {v3}, Lorg/xmlpull/v1/XmlPullParser;->getDepth()I
 
     .line 36
     .line 37
@@ -614,8 +587,7 @@
 
     .line 50
     :cond_2
-    invoke-interface {v3}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getName()Ljava/lang/String;
+    invoke-interface {v3}, Lorg/xmlpull/v1/XmlPullParser;->getName()Ljava/lang/String;
 
     .line 51
     .line 52
@@ -627,8 +599,7 @@
 
     .line 55
     .line 56
-    invoke-virtual {v5, v6}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v5, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 57
     .line 58
@@ -647,8 +618,7 @@
     const/4 v5, 0x0
 
     .line 65
-    invoke-interface {v3, v5, v4}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getAttributeValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v3, v5, v4}, Lorg/xmlpull/v1/XmlPullParser;->getAttributeValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 66
     .line 67
@@ -667,8 +637,7 @@
     .line 71
     :goto_2
     :try_start_3
-    invoke-virtual {v2}, Ljava/io/FileInputStream;
-    ->close()V
+    invoke-virtual {v2}, Ljava/io/FileInputStream;->close()V
     :try_end_3
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_1
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
@@ -696,8 +665,7 @@
 
     .line 80
     .line 81
-    invoke-static {v3, v4}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v3, v4}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
@@ -715,8 +683,7 @@
     :cond_4
     :goto_3
     :try_start_5
-    invoke-virtual {v1}, Ljava/lang/String;
-    ->isEmpty()Z
+    invoke-virtual {v1}, Ljava/lang/String;->isEmpty()Z
 
     .line 88
     .line 89
@@ -736,8 +703,7 @@
 
     .line 95
     .line 96
-    invoke-virtual {p0, v2}, Landroid/content/Context;
-    ->deleteFile(Ljava/lang/String;)Z
+    invoke-virtual {p0, v2}, Landroid/content/Context;->deleteFile(Ljava/lang/String;)Z
 
     .line 97
     .line 98
@@ -756,8 +722,7 @@
     .line 102
     .line 103
     :try_start_6
-    invoke-virtual {v2}, Ljava/io/FileInputStream;
-    ->close()V
+    invoke-virtual {v2}, Ljava/io/FileInputStream;->close()V
     :try_end_6
     .catch Ljava/io/IOException; {:try_start_6 .. :try_end_6} :catch_2
     .catchall {:try_start_6 .. :try_end_6} :catchall_1

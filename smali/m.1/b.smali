@@ -14,8 +14,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -24,14 +23,12 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/concurrent/locks/ReentrantLock;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/concurrent/locks/ReentrantLock;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Lm/b;
-    ->a:Ljava/util/concurrent/locks/ReentrantLock;
+    iput-object v0, p0, Lm/b;->a:Ljava/util/concurrent/locks/ReentrantLock;
 
     .line 10
     .line 11

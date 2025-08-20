@@ -17,19 +17,16 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lr/t;
-    ->b:Li/m;
+    iput-object p1, p0, Lr/t;->b:Li/m;
 
     .line 5
     .line 6
-    iput-boolean p2, p0, Lr/t;
-    ->c:Z
+    iput-boolean p2, p0, Lr/t;->c:Z
 
     .line 7
     .line 8
@@ -42,13 +39,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lr/t;
-    ->b:Li/m;
+    iget-object v0, p0, Lr/t;->b:Li/m;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Li/f;
-    ->a(Ljava/security/MessageDigest;)V
+    invoke-interface {v0, p1}, Li/f;->a(Ljava/security/MessageDigest;)V
 
     .line 4
     .line 5
@@ -60,8 +55,7 @@
     .locals 2
 
     .line 1
-    invoke-static {p1}, Lcom/bumptech/glide/a;
-    ->b(Landroid/content/Context;)Lcom/bumptech/glide/a;
+    invoke-static {p1}, Lcom/bumptech/glide/a;->b(Landroid/content/Context;)Lcom/bumptech/glide/a;
 
     .line 2
     .line 3
@@ -69,13 +63,11 @@
     move-result-object v0
 
     .line 5
-    iget-object v0, v0, Lcom/bumptech/glide/a;
-    ->b:Ll/a;
+    iget-object v0, v0, Lcom/bumptech/glide/a;->b:Ll/a;
 
     .line 6
     .line 7
-    invoke-interface {p2}, Lk/C;
-    ->get()Ljava/lang/Object;
+    invoke-interface {p2}, Lk/C;->get()Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -87,8 +79,7 @@
 
     .line 12
     .line 13
-    invoke-static {v0, v1, p3, p4}, Lr/s;
-    ->a(Ll/a;Landroid/graphics/drawable/Drawable;II)Lr/c;
+    invoke-static {v0, v1, p3, p4}, Lr/s;->a(Ll/a;Landroid/graphics/drawable/Drawable;II)Lr/c;
 
     .line 14
     .line 15
@@ -100,8 +91,7 @@
 
     .line 18
     .line 19
-    iget-boolean p1, p0, Lr/t;
-    ->c:Z
+    iget-boolean p1, p0, Lr/t;->c:Z
 
     .line 20
     .line 21
@@ -125,14 +115,12 @@
 
     .line 29
     .line 30
-    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 31
     .line 32
     .line 33
-    invoke-virtual {p2, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 34
     .line 35
@@ -141,14 +129,12 @@
 
     .line 37
     .line 38
-    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 39
     .line 40
     .line 41
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 42
     .line 43
@@ -156,8 +142,7 @@
     move-result-object p2
 
     .line 45
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 46
     .line 47
@@ -166,13 +151,11 @@
 
     .line 49
     :cond_1
-    iget-object v1, p0, Lr/t;
-    ->b:Li/m;
+    iget-object v1, p0, Lr/t;->b:Li/m;
 
     .line 50
     .line 51
-    invoke-interface {v1, p1, v0, p3, p4}, Li/m;
-    ->b(Landroid/content/Context;Lk/C;II)Lk/C;
+    invoke-interface {v1, p1, v0, p3, p4}, Li/m;->b(Landroid/content/Context;Lk/C;II)Lk/C;
 
     .line 52
     .line 53
@@ -180,8 +163,7 @@
     move-result-object p3
 
     .line 55
-    invoke-virtual {p3, v0}, Ljava/lang/Object;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p3, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     .line 56
     .line 57
@@ -193,8 +175,7 @@
 
     .line 60
     .line 61
-    invoke-interface {p3}, Lk/C;
-    ->recycle()V
+    invoke-interface {p3}, Lk/C;->recycle()V
 
     .line 62
     .line 63
@@ -203,8 +184,7 @@
 
     .line 65
     :cond_2
-    invoke-virtual {p1}, Landroid/content/Context;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     .line 66
     .line 67
@@ -216,8 +196,7 @@
 
     .line 70
     .line 71
-    invoke-direct {p2, p1, p3}, Lr/c;
-    -><init>(Landroid/content/res/Resources;Lk/C;)V
+    invoke-direct {p2, p1, p3}, Lr/c;-><init>(Landroid/content/res/Resources;Lk/C;)V
 
     .line 72
     .line 73
@@ -241,18 +220,15 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Lr/t;
-    ->b:Li/m;
+    iget-object v0, p0, Lr/t;->b:Li/m;
 
     .line 8
     .line 9
-    iget-object p1, p1, Lr/t;
-    ->b:Li/m;
+    iget-object p1, p1, Lr/t;->b:Li/m;
 
     .line 10
     .line 11
-    invoke-virtual {v0, p1}, Ljava/lang/Object;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -272,13 +248,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lr/t;
-    ->b:Li/m;
+    iget-object v0, p0, Lr/t;->b:Li/m;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/Object;
-    ->hashCode()I
+    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
 
     .line 4
     .line 5

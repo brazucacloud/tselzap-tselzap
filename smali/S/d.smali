@@ -23,34 +23,28 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, LS/d;
-    ->b:Lb1/a;
+    iput-object p1, p0, LS/d;->b:Lb1/a;
 
     .line 5
     .line 6
-    iput-object p2, p0, LS/d;
-    ->c:Lb1/a;
+    iput-object p2, p0, LS/d;->c:Lb1/a;
 
     .line 7
     .line 8
-    iput-object p3, p0, LS/d;
-    ->d:LA0/d;
+    iput-object p3, p0, LS/d;->d:LA0/d;
 
     .line 9
     .line 10
-    iput-object p4, p0, LS/d;
-    ->e:Lb1/a;
+    iput-object p4, p0, LS/d;->e:Lb1/a;
 
     .line 11
     .line 12
-    iput-object p5, p0, LS/d;
-    ->f:Lb1/a;
+    iput-object p5, p0, LS/d;->f:Lb1/a;
 
     .line 13
     .line 14
@@ -63,13 +57,11 @@
     .locals 7
 
     .line 1
-    iget-object v0, p0, LS/d;
-    ->b:Lb1/a;
+    iget-object v0, p0, LS/d;->b:Lb1/a;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Lb1/a;
-    ->get()Ljava/lang/Object;
+    invoke-interface {v0}, Lb1/a;->get()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -84,13 +76,11 @@
 
     .line 9
     .line 10
-    iget-object v0, p0, LS/d;
-    ->c:Lb1/a;
+    iget-object v0, p0, LS/d;->c:Lb1/a;
 
     .line 11
     .line 12
-    invoke-interface {v0}, Lb1/a;
-    ->get()Ljava/lang/Object;
+    invoke-interface {v0}, Lb1/a;->get()Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -105,13 +95,11 @@
 
     .line 18
     .line 19
-    iget-object v0, p0, LS/d;
-    ->d:LA0/d;
+    iget-object v0, p0, LS/d;->d:LA0/d;
 
     .line 20
     .line 21
-    invoke-virtual {v0}, LA0/d;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v0}, LA0/d;->get()Ljava/lang/Object;
 
     .line 22
     .line 23
@@ -126,13 +114,11 @@
 
     .line 27
     .line 28
-    iget-object v0, p0, LS/d;
-    ->e:Lb1/a;
+    iget-object v0, p0, LS/d;->e:Lb1/a;
 
     .line 29
     .line 30
-    invoke-interface {v0}, Lb1/a;
-    ->get()Ljava/lang/Object;
+    invoke-interface {v0}, Lb1/a;->get()Ljava/lang/Object;
 
     .line 31
     .line 32
@@ -147,13 +133,11 @@
 
     .line 36
     .line 37
-    iget-object v0, p0, LS/d;
-    ->f:Lb1/a;
+    iget-object v0, p0, LS/d;->f:Lb1/a;
 
     .line 38
     .line 39
-    invoke-interface {v0}, Lb1/a;
-    ->get()Ljava/lang/Object;
+    invoke-interface {v0}, Lb1/a;->get()Ljava/lang/Object;
 
     .line 40
     .line 41
@@ -172,8 +156,7 @@
 
     .line 47
     .line 48
-    invoke-direct/range {v1 .. v6}, LS/c;
-    -><init>(Ljava/util/concurrent/Executor;LO/f;LT/d;LU/d;LV/c;)V
+    invoke-direct/range {v1 .. v6}, LS/c;-><init>(Ljava/util/concurrent/Executor;LO/f;LT/d;LU/d;LV/c;)V
 
     .line 49
     .line 50

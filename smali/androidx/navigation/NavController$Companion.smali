@@ -19,8 +19,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -28,8 +27,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/navigation/NavController$Companion;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/navigation/NavController$Companion;-><init>()V
     return-void
 .end method
 
@@ -47,8 +45,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p1}, Landroidx/navigation/NavController;
-    ->access$setDeepLinkSaveState$cp(Z)V
+    invoke-static {p1}, Landroidx/navigation/NavController;->access$setDeepLinkSaveState$cp(Z)V
 return-void
 .end method
 

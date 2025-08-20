@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/activity/ComponentActivity$1;
-    ->onLaunch(ILandroidx/activity/result/contract/ActivityResultContract;Ljava/lang/Object;Landroidx/core/app/ActivityOptionsCompat;)V
+    value = Landroidx/activity/ComponentActivity$1;->onLaunch(ILandroidx/activity/result/contract/ActivityResultContract;Ljava/lang/Object;Landroidx/core/app/ActivityOptionsCompat;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -36,23 +35,19 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/activity/ComponentActivity$1$2;
-    ->this$1:Landroidx/activity/ComponentActivity$1;
+    iput-object p1, p0, Landroidx/activity/ComponentActivity$1$2;->this$1:Landroidx/activity/ComponentActivity$1;
 
     .line 2
     .line 3
-    iput p2, p0, Landroidx/activity/ComponentActivity$1$2;
-    ->val$requestCode:I
+    iput p2, p0, Landroidx/activity/ComponentActivity$1$2;->val$requestCode:I
 
     .line 4
     .line 5
-    iput-object p3, p0, Landroidx/activity/ComponentActivity$1$2;
-    ->val$e:Landroid/content/IntentSender$SendIntentException;
+    iput-object p3, p0, Landroidx/activity/ComponentActivity$1$2;->val$e:Landroid/content/IntentSender$SendIntentException;
 
     .line 6
     .line 7
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -62,13 +57,11 @@
     .locals 5
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ComponentActivity$1$2;
-    ->this$1:Landroidx/activity/ComponentActivity$1;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity$1$2;->this$1:Landroidx/activity/ComponentActivity$1;
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/activity/ComponentActivity$1$2;
-    ->val$requestCode:I
+    iget v1, p0, Landroidx/activity/ComponentActivity$1$2;->val$requestCode:I
 
     .line 4
     .line 5
@@ -76,8 +69,7 @@
 
     .line 6
     .line 7
-    invoke-direct {v2}, Landroid/content/Intent;
-    -><init>()V
+    invoke-direct {v2}, Landroid/content/Intent;-><init>()V
 
     .line 8
     .line 9
@@ -86,8 +78,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {v2, v3}, Landroid/content/Intent;
-    ->setAction(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v2, v3}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 13
     .line 14
@@ -99,13 +90,11 @@
 
     .line 17
     .line 18
-    iget-object v4, p0, Landroidx/activity/ComponentActivity$1$2;
-    ->val$e:Landroid/content/IntentSender$SendIntentException;
+    iget-object v4, p0, Landroidx/activity/ComponentActivity$1$2;->val$e:Landroid/content/IntentSender$SendIntentException;
 
     .line 19
     .line 20
-    invoke-virtual {v2, v3, v4}, Landroid/content/Intent;
-    ->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
+    invoke-virtual {v2, v3, v4}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/io/Serializable;)Landroid/content/Intent;
 
     .line 21
     .line 22
@@ -116,8 +105,7 @@
     const/4 v3, 0x0
 
     .line 25
-    invoke-virtual {v0, v1, v3, v2}, Landroidx/activity/result/ActivityResultRegistry;
-    ->dispatchResult(IILandroid/content/Intent;)Z
+    invoke-virtual {v0, v1, v3, v2}, Landroidx/activity/result/ActivityResultRegistry;->dispatchResult(IILandroid/content/Intent;)Z
 return-void
 .end method
 

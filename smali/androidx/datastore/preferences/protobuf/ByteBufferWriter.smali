@@ -41,14 +41,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/ThreadLocal;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/ThreadLocal;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;
-    ->BUFFER:Ljava/lang/ThreadLocal;
+    sput-object v0, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;->BUFFER:Ljava/lang/ThreadLocal;
 
     .line 7
     .line 8
@@ -56,8 +54,7 @@
 
     .line 9
     .line 10
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;
-    ->safeGetClass(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;->safeGetClass(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 11
     .line 12
@@ -65,13 +62,11 @@
     move-result-object v0
 
     .line 14
-    sput-object v0, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;
-    ->FILE_OUTPUT_STREAM_CLASS:Ljava/lang/Class;
+    sput-object v0, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;->FILE_OUTPUT_STREAM_CLASS:Ljava/lang/Class;
 
     .line 15
     .line 16
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;
-    ->getChannelFieldOffset(Ljava/lang/Class;)J
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;->getChannelFieldOffset(Ljava/lang/Class;)J
 
     .line 17
     .line 18
@@ -79,16 +74,14 @@
     move-result-wide v0
 
     .line 20
-    sput-wide v0, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;
-    ->CHANNEL_FIELD_OFFSET:J    return-void
+    sput-wide v0, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;->CHANNEL_FIELD_OFFSET:J    return-void
 .end method
 
 .method private constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -96,16 +89,14 @@
     .locals 2
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;
-    ->BUFFER:Ljava/lang/ThreadLocal;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;->BUFFER:Ljava/lang/ThreadLocal;
 
     .line 2
     .line 3
     const/4 v1, 0x0
 
     .line 4
-    invoke-virtual {v0, v1}, Ljava/lang/ThreadLocal;
-    ->set(Ljava/lang/Object;)V
+    invoke-virtual {v0, v1}, Ljava/lang/ThreadLocal;->set(Ljava/lang/Object;)V
 return-void
 .end method
 
@@ -113,13 +104,11 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;
-    ->BUFFER:Ljava/lang/ThreadLocal;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;->BUFFER:Ljava/lang/ThreadLocal;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/ThreadLocal;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -141,8 +130,7 @@ return-void
 
     .line 13
     :cond_0
-    invoke-virtual {v0}, Ljava/lang/ref/SoftReference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/ref/SoftReference;->get()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -169,8 +157,7 @@ return-void
     .line 2
     .line 3
     :try_start_0
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->hasUnsafeArrayOperations()Z
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->hasUnsafeArrayOperations()Z
 
     .line 4
     .line 5
@@ -186,8 +173,7 @@ return-void
 
     .line 10
     .line 11
-    invoke-virtual {p0, v0}, Ljava/lang/Class;
-    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {p0, v0}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 12
     .line 13
@@ -195,8 +181,7 @@ return-void
     move-result-object p0
 
     .line 15
-    invoke-static {p0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->objectFieldOffset(Ljava/lang/reflect/Field;)J
+    invoke-static {p0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->objectFieldOffset(Ljava/lang/reflect/Field;)J
 
     .line 16
     .line 17
@@ -221,8 +206,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Ljava/lang/Math;
-    ->max(II)I
+    invoke-static {p0, v0}, Ljava/lang/Math;->max(II)I
 
     .line 4
     .line 5
@@ -230,8 +214,7 @@ return-void
     move-result p0
 
     .line 7
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;
-    ->getBuffer()[B
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;->getBuffer()[B
 
     .line 8
     .line 9
@@ -246,8 +229,7 @@ return-void
     array-length v1, v0
 
     .line 14
-    invoke-static {p0, v1}, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;
-    ->needToReallocate(II)Z
+    invoke-static {p0, v1}, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;->needToReallocate(II)Z
 
     .line 15
     .line 16
@@ -280,8 +262,7 @@ return-void
 
     .line 27
     .line 28
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;
-    ->setBuffer([B)V
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;->setBuffer([B)V
 
     .line 29
     .line 30
@@ -331,8 +312,7 @@ return-void
 
     .line 1
     :try_start_0
-    invoke-static {p0}, Ljava/lang/Class;
-    ->forName(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {p0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 2
     .line 3
@@ -354,8 +334,7 @@ return-void
     .locals 2
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;
-    ->BUFFER:Ljava/lang/ThreadLocal;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;->BUFFER:Ljava/lang/ThreadLocal;
 
     .line 2
     .line 3
@@ -363,14 +342,12 @@ return-void
 
     .line 4
     .line 5
-    invoke-direct {v1, p0}, Ljava/lang/ref/SoftReference;
-    -><init>(Ljava/lang/Object;)V
+    invoke-direct {v1, p0}, Ljava/lang/ref/SoftReference;-><init>(Ljava/lang/Object;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {v0, v1}, Ljava/lang/ThreadLocal;
-    ->set(Ljava/lang/Object;)V
+    invoke-virtual {v0, v1}, Ljava/lang/ThreadLocal;->set(Ljava/lang/Object;)V
 return-void
 .end method
 
@@ -378,8 +355,7 @@ return-void
     .locals 4
 
     .line 1
-    invoke-virtual {p0}, Ljava/nio/Buffer;
-    ->position()I
+    invoke-virtual {p0}, Ljava/nio/Buffer;->position()I
 
     .line 2
     .line 3
@@ -388,8 +364,7 @@ return-void
 
     .line 5
     :try_start_0
-    invoke-virtual {p0}, Ljava/nio/ByteBuffer;
-    ->hasArray()Z
+    invoke-virtual {p0}, Ljava/nio/ByteBuffer;->hasArray()Z
 
     .line 6
     .line 7
@@ -401,8 +376,7 @@ return-void
 
     .line 10
     .line 11
-    invoke-virtual {p0}, Ljava/nio/ByteBuffer;
-    ->array()[B
+    invoke-virtual {p0}, Ljava/nio/ByteBuffer;->array()[B
 
     .line 12
     .line 13
@@ -410,8 +384,7 @@ return-void
     move-result-object v1
 
     .line 15
-    invoke-virtual {p0}, Ljava/nio/ByteBuffer;
-    ->arrayOffset()I
+    invoke-virtual {p0}, Ljava/nio/ByteBuffer;->arrayOffset()I
 
     .line 16
     .line 17
@@ -419,8 +392,7 @@ return-void
     move-result v2
 
     .line 19
-    invoke-virtual {p0}, Ljava/nio/Buffer;
-    ->position()I
+    invoke-virtual {p0}, Ljava/nio/Buffer;->position()I
 
     .line 20
     .line 21
@@ -431,8 +403,7 @@ return-void
     add-int/2addr v2, v3
 
     .line 24
-    invoke-virtual {p0}, Ljava/nio/Buffer;
-    ->remaining()I
+    invoke-virtual {p0}, Ljava/nio/Buffer;->remaining()I
 
     .line 25
     .line 26
@@ -440,8 +411,7 @@ return-void
     move-result v3
 
     .line 28
-    invoke-virtual {p1, v1, v2, v3}, Ljava/io/OutputStream;
-    ->write([BII)V
+    invoke-virtual {p1, v1, v2, v3}, Ljava/io/OutputStream;->write([BII)V
 
     .line 29
     .line 30
@@ -457,8 +427,7 @@ return-void
 
     .line 34
     :cond_0
-    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;
-    ->writeToChannel(Ljava/nio/ByteBuffer;Ljava/io/OutputStream;)Z
+    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;->writeToChannel(Ljava/nio/ByteBuffer;Ljava/io/OutputStream;)Z
 
     .line 35
     .line 36
@@ -470,8 +439,7 @@ return-void
 
     .line 39
     .line 40
-    invoke-virtual {p0}, Ljava/nio/Buffer;
-    ->remaining()I
+    invoke-virtual {p0}, Ljava/nio/Buffer;->remaining()I
 
     .line 41
     .line 42
@@ -479,8 +447,7 @@ return-void
     move-result v1
 
     .line 44
-    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;
-    ->getOrCreateBuffer(I)[B
+    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;->getOrCreateBuffer(I)[B
 
     .line 45
     .line 46
@@ -489,8 +456,7 @@ return-void
 
     .line 48
     :goto_0
-    invoke-virtual {p0}, Ljava/nio/Buffer;
-    ->hasRemaining()Z
+    invoke-virtual {p0}, Ljava/nio/Buffer;->hasRemaining()Z
 
     .line 49
     .line 50
@@ -502,8 +468,7 @@ return-void
 
     .line 53
     .line 54
-    invoke-virtual {p0}, Ljava/nio/Buffer;
-    ->remaining()I
+    invoke-virtual {p0}, Ljava/nio/Buffer;->remaining()I
 
     .line 55
     .line 56
@@ -514,8 +479,7 @@ return-void
     array-length v3, v1
 
     .line 59
-    invoke-static {v2, v3}, Ljava/lang/Math;
-    ->min(II)I
+    invoke-static {v2, v3}, Ljava/lang/Math;->min(II)I
 
     .line 60
     .line 61
@@ -526,14 +490,12 @@ return-void
     const/4 v3, 0x0
 
     .line 64
-    invoke-virtual {p0, v1, v3, v2}, Ljava/nio/ByteBuffer;
-    ->get([BII)Ljava/nio/ByteBuffer;
+    invoke-virtual {p0, v1, v3, v2}, Ljava/nio/ByteBuffer;->get([BII)Ljava/nio/ByteBuffer;
 
     .line 65
     .line 66
     .line 67
-    invoke-virtual {p1, v1, v3, v2}, Ljava/io/OutputStream;
-    ->write([BII)V
+    invoke-virtual {p1, v1, v3, v2}, Ljava/io/OutputStream;->write([BII)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -545,14 +507,12 @@ return-void
     .line 71
     :cond_1
     :goto_1
-    invoke-virtual {p0, v0}, Ljava/nio/ByteBuffer;
-    ->position(I)Ljava/nio/Buffer;    
+    invoke-virtual {p0, v0}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
     return-void
 
     .line 75
     :goto_2
-    invoke-virtual {p0, v0}, Ljava/nio/ByteBuffer;
-    ->position(I)Ljava/nio/Buffer;
+    invoke-virtual {p0, v0}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
     .line 76
     .line 77
@@ -563,8 +523,7 @@ return-void
     .locals 5
 
     .line 1
-    sget-wide v0, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;
-    ->CHANNEL_FIELD_OFFSET:J
+    sget-wide v0, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;->CHANNEL_FIELD_OFFSET:J
 
     .line 2
     .line 3
@@ -580,13 +539,11 @@ return-void
 
     .line 8
     .line 9
-    sget-object v2, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;
-    ->FILE_OUTPUT_STREAM_CLASS:Ljava/lang/Class;
+    sget-object v2, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;->FILE_OUTPUT_STREAM_CLASS:Ljava/lang/Class;
 
     .line 10
     .line 11
-    invoke-virtual {v2, p1}, Ljava/lang/Class;
-    ->isInstance(Ljava/lang/Object;)Z
+    invoke-virtual {v2, p1}, Ljava/lang/Class;->isInstance(Ljava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -599,8 +556,7 @@ return-void
     .line 16
     .line 17
     :try_start_0
-    invoke-static {p1, v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getObject(Ljava/lang/Object;J)Ljava/lang/Object;
+    invoke-static {p1, v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getObject(Ljava/lang/Object;J)Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -626,8 +582,7 @@ return-void
 
     .line 26
     .line 27
-    invoke-interface {p1, p0}, Ljava/nio/channels/WritableByteChannel;
-    ->write(Ljava/nio/ByteBuffer;)I
+    invoke-interface {p1, p0}, Ljava/nio/channels/WritableByteChannel;->write(Ljava/nio/ByteBuffer;)I
 
     .line 28
     .line 29

@@ -12,8 +12,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -31,8 +30,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, p1, v0}, Lcom/google/android/gms/common/util/UidVerifier;
-    ->uidHasPackageName(Landroid/content/Context;ILjava/lang/String;)Z
+    invoke-static {p0, p1, v0}, Lcom/google/android/gms/common/util/UidVerifier;->uidHasPackageName(Landroid/content/Context;ILjava/lang/String;)Z
 
     .line 4
     .line 5
@@ -48,8 +46,7 @@
 
     .line 10
     :cond_0
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 11
     .line 12
@@ -62,8 +59,7 @@
     .line 15
     .line 16
     :try_start_0
-    invoke-virtual {p1, v0, v1}, Landroid/content/pm/PackageManager;
-    ->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
+    invoke-virtual {p1, v0, v1}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
 
     .line 17
     .line 18
@@ -73,8 +69,7 @@
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 20
-    invoke-static {p0}, Lcom/google/android/gms/common/GoogleSignatureVerifier;
-    ->getInstance(Landroid/content/Context;)Lcom/google/android/gms/common/GoogleSignatureVerifier;
+    invoke-static {p0}, Lcom/google/android/gms/common/GoogleSignatureVerifier;->getInstance(Landroid/content/Context;)Lcom/google/android/gms/common/GoogleSignatureVerifier;
 
     .line 21
     .line 22
@@ -82,8 +77,7 @@
     move-result-object p0
 
     .line 24
-    invoke-virtual {p0, p1}, Lcom/google/android/gms/common/GoogleSignatureVerifier;
-    ->isGooglePublicSignedPackage(Landroid/content/pm/PackageInfo;)Z
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/common/GoogleSignatureVerifier;->isGooglePublicSignedPackage(Landroid/content/pm/PackageInfo;)Z
 
     .line 25
     .line 26
@@ -101,8 +95,7 @@
 
     .line 31
     .line 32
-    invoke-static {p1, p0}, Landroid/util/Log;
-    ->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {p1, p0}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     .line 33
     .line 34
@@ -118,8 +111,7 @@
 
     .line 39
     .line 40
-    invoke-static {p1, p0}, Landroid/util/Log;
-    ->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, p0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 41
     .line 42
@@ -149,8 +141,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lcom/google/android/gms/common/wrappers/Wrappers;
-    ->packageManager(Landroid/content/Context;)Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    invoke-static {p0}, Lcom/google/android/gms/common/wrappers/Wrappers;->packageManager(Landroid/content/Context;)Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
 
     .line 2
     .line 3
@@ -158,8 +149,7 @@
     move-result-object p0
 
     .line 5
-    invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
-    ->zza(ILjava/lang/String;)Z
+    invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;->zza(ILjava/lang/String;)Z
 
     .line 6
     .line 7

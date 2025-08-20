@@ -51,8 +51,7 @@
     move v3, p3
 
     .line 10
-    invoke-virtual/range {v0 .. v5}, La0/f;
-    ->h(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;III)I
+    invoke-virtual/range {v0 .. v5}, La0/f;->h(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;III)I
 
     .line 11
     .line 12
@@ -64,8 +63,7 @@
     .locals 7
 
     .line 1
-    iget v0, p0, La0/f;
-    ->i:I
+    iget v0, p0, La0/f;->i:I
 
     .line 2
     .line 3
@@ -73,8 +71,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 6
     .line 7
@@ -82,8 +79,7 @@
     move-result-object v0
 
     .line 9
-    invoke-static {v0}, Landroid/view/ViewConfiguration;
-    ->get(Landroid/content/Context;)Landroid/view/ViewConfiguration;
+    invoke-static {v0}, Landroid/view/ViewConfiguration;->get(Landroid/content/Context;)Landroid/view/ViewConfiguration;
 
     .line 10
     .line 11
@@ -91,8 +87,7 @@
     move-result-object v0
 
     .line 13
-    invoke-virtual {v0}, Landroid/view/ViewConfiguration;
-    ->getScaledTouchSlop()I
+    invoke-virtual {v0}, Landroid/view/ViewConfiguration;->getScaledTouchSlop()I
 
     .line 14
     .line 15
@@ -100,14 +95,12 @@
     move-result v0
 
     .line 17
-    iput v0, p0, La0/f;
-    ->i:I
+    iput v0, p0, La0/f;->i:I
 
     .line 18
     .line 19
     :cond_0
-    invoke-virtual {p3}, Landroid/view/MotionEvent;
-    ->getActionMasked()I
+    invoke-virtual {p3}, Landroid/view/MotionEvent;->getActionMasked()I
 
     .line 20
     .line 21
@@ -131,8 +124,7 @@
 
     .line 28
     .line 29
-    iget-boolean v0, p0, La0/f;
-    ->f:Z
+    iget-boolean v0, p0, La0/f;->f:Z
 
     .line 30
     .line 31
@@ -140,8 +132,7 @@
 
     .line 32
     .line 33
-    iget v0, p0, La0/f;
-    ->g:I
+    iget v0, p0, La0/f;->g:I
 
     .line 34
     .line 35
@@ -153,8 +144,7 @@
 
     .line 38
     :cond_1
-    invoke-virtual {p3, v0}, Landroid/view/MotionEvent;
-    ->findPointerIndex(I)I
+    invoke-virtual {p3, v0}, Landroid/view/MotionEvent;->findPointerIndex(I)I
 
     .line 39
     .line 40
@@ -170,8 +160,7 @@
 
     .line 45
     :cond_2
-    invoke-virtual {p3, v0}, Landroid/view/MotionEvent;
-    ->getY(I)F
+    invoke-virtual {p3, v0}, Landroid/view/MotionEvent;->getY(I)F
 
     .line 46
     .line 47
@@ -182,8 +171,7 @@
     float-to-int v0, v0
 
     .line 50
-    iget v1, p0, La0/f;
-    ->h:I
+    iget v1, p0, La0/f;->h:I
 
     .line 51
     .line 52
@@ -191,8 +179,7 @@
 
     .line 53
     .line 54
-    invoke-static {v1}, Ljava/lang/Math;
-    ->abs(I)I
+    invoke-static {v1}, Ljava/lang/Math;->abs(I)I
 
     .line 55
     .line 56
@@ -200,8 +187,7 @@
     move-result v1
 
     .line 58
-    iget v5, p0, La0/f;
-    ->i:I
+    iget v5, p0, La0/f;->i:I
 
     .line 59
     .line 60
@@ -209,8 +195,7 @@
 
     .line 61
     .line 62
-    iput v0, p0, La0/f;
-    ->h:I
+    iput v0, p0, La0/f;->h:I
 
     .line 63
     .line 64
@@ -218,8 +203,7 @@
 
     .line 65
     :cond_3
-    invoke-virtual {p3}, Landroid/view/MotionEvent;
-    ->getActionMasked()I
+    invoke-virtual {p3}, Landroid/view/MotionEvent;->getActionMasked()I
 
     .line 66
     .line 67
@@ -231,13 +215,11 @@
 
     .line 70
     .line 71
-    iput v3, p0, La0/f;
-    ->g:I
+    iput v3, p0, La0/f;->g:I
 
     .line 72
     .line 73
-    invoke-virtual {p3}, Landroid/view/MotionEvent;
-    ->getX()F
+    invoke-virtual {p3}, Landroid/view/MotionEvent;->getX()F
 
     .line 74
     .line 75
@@ -248,8 +230,7 @@
     float-to-int v0, v0
 
     .line 78
-    invoke-virtual {p3}, Landroid/view/MotionEvent;
-    ->getY()F
+    invoke-virtual {p3}, Landroid/view/MotionEvent;->getY()F
 
     .line 79
     .line 80
@@ -274,8 +255,7 @@
 
     .line 88
     .line 89
-    iget-object v5, v5, Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;
-    ->o:Ljava/lang/ref/WeakReference;
+    iget-object v5, v5, Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->o:Ljava/lang/ref/WeakReference;
 
     .line 90
     .line 91
@@ -283,8 +263,7 @@
 
     .line 92
     .line 93
-    invoke-virtual {v5}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v5}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 94
     .line 95
@@ -300,8 +279,7 @@
 
     .line 100
     .line 101
-    invoke-virtual {v5}, Landroid/view/View;
-    ->isShown()Z
+    invoke-virtual {v5}, Landroid/view/View;->isShown()Z
 
     .line 102
     .line 103
@@ -313,8 +291,7 @@
 
     .line 106
     .line 107
-    invoke-virtual {v5, v3}, Landroid/view/View;
-    ->canScrollVertically(I)Z
+    invoke-virtual {v5, v3}, Landroid/view/View;->canScrollVertically(I)Z
 
     .line 108
     .line 109
@@ -327,8 +304,7 @@
     .line 112
     .line 113
     :cond_4
-    invoke-virtual {p1, p2, v0, v1}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;
-    ->isPointInChildBounds(Landroid/view/View;II)Z
+    invoke-virtual {p1, p2, v0, v1}, Landroidx/coordinatorlayout/widget/CoordinatorLayout;->isPointInChildBounds(Landroid/view/View;II)Z
 
     .line 114
     .line 115
@@ -351,8 +327,7 @@
 
     .line 122
     :goto_0
-    iput-boolean p1, p0, La0/f;
-    ->f:Z
+    iput-boolean p1, p0, La0/f;->f:Z
 
     .line 123
     .line 124
@@ -360,13 +335,11 @@
 
     .line 125
     .line 126
-    iput v1, p0, La0/f;
-    ->h:I
+    iput v1, p0, La0/f;->h:I
 
     .line 127
     .line 128
-    invoke-virtual {p3, v4}, Landroid/view/MotionEvent;
-    ->getPointerId(I)I
+    invoke-virtual {p3, v4}, Landroid/view/MotionEvent;->getPointerId(I)I
 
     .line 129
     .line 130
@@ -374,13 +347,11 @@
     move-result p1
 
     .line 132
-    iput p1, p0, La0/f;
-    ->g:I
+    iput p1, p0, La0/f;->g:I
 
     .line 133
     .line 134
-    iget-object p1, p0, La0/f;
-    ->j:Landroid/view/VelocityTracker;
+    iget-object p1, p0, La0/f;->j:Landroid/view/VelocityTracker;
 
     .line 135
     .line 136
@@ -388,8 +359,7 @@
 
     .line 137
     .line 138
-    invoke-static {}, Landroid/view/VelocityTracker;
-    ->obtain()Landroid/view/VelocityTracker;
+    invoke-static {}, Landroid/view/VelocityTracker;->obtain()Landroid/view/VelocityTracker;
 
     .line 139
     .line 140
@@ -397,14 +367,12 @@
     move-result-object p1
 
     .line 142
-    iput-object p1, p0, La0/f;
-    ->j:Landroid/view/VelocityTracker;
+    iput-object p1, p0, La0/f;->j:Landroid/view/VelocityTracker;
 
     .line 143
     .line 144
     :cond_6
-    iget-object p1, p0, La0/f;
-    ->e:Landroid/widget/OverScroller;
+    iget-object p1, p0, La0/f;->e:Landroid/widget/OverScroller;
 
     .line 145
     .line 146
@@ -412,8 +380,7 @@
 
     .line 147
     .line 148
-    invoke-virtual {p1}, Landroid/widget/OverScroller;
-    ->isFinished()Z
+    invoke-virtual {p1}, Landroid/widget/OverScroller;->isFinished()Z
 
     .line 149
     .line 150
@@ -425,13 +392,11 @@
 
     .line 153
     .line 154
-    iget-object p1, p0, La0/f;
-    ->e:Landroid/widget/OverScroller;
+    iget-object p1, p0, La0/f;->e:Landroid/widget/OverScroller;
 
     .line 155
     .line 156
-    invoke-virtual {p1}, Landroid/widget/OverScroller;
-    ->abortAnimation()V
+    invoke-virtual {p1}, Landroid/widget/OverScroller;->abortAnimation()V
 
     .line 157
     .line 158
@@ -440,8 +405,7 @@
 
     .line 160
     :cond_7
-    iget-object p1, p0, La0/f;
-    ->j:Landroid/view/VelocityTracker;
+    iget-object p1, p0, La0/f;->j:Landroid/view/VelocityTracker;
 
     .line 161
     .line 162
@@ -449,8 +413,7 @@
 
     .line 163
     .line 164
-    invoke-virtual {p1, p3}, Landroid/view/VelocityTracker;
-    ->addMovement(Landroid/view/MotionEvent;)V
+    invoke-virtual {p1, p3}, Landroid/view/VelocityTracker;->addMovement(Landroid/view/MotionEvent;)V
 
     .line 165
     .line 166
@@ -471,8 +434,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v6}, Landroid/view/MotionEvent;
-    ->getActionMasked()I
+    invoke-virtual {v6}, Landroid/view/MotionEvent;->getActionMasked()I
 
     .line 6
     .line 7
@@ -521,8 +483,7 @@
 
     .line 25
     :cond_0
-    invoke-virtual {v6}, Landroid/view/MotionEvent;
-    ->getActionIndex()I
+    invoke-virtual {v6}, Landroid/view/MotionEvent;->getActionIndex()I
 
     .line 26
     .line 27
@@ -545,8 +506,7 @@
 
     .line 34
     :goto_0
-    invoke-virtual {v6, v1}, Landroid/view/MotionEvent;
-    ->getPointerId(I)I
+    invoke-virtual {v6, v1}, Landroid/view/MotionEvent;->getPointerId(I)I
 
     .line 35
     .line 36
@@ -554,13 +514,11 @@
     move-result v2
 
     .line 38
-    iput v2, v0, La0/f;
-    ->g:I
+    iput v2, v0, La0/f;->g:I
 
     .line 39
     .line 40
-    invoke-virtual {v6, v1}, Landroid/view/MotionEvent;
-    ->getY(I)F
+    invoke-virtual {v6, v1}, Landroid/view/MotionEvent;->getY(I)F
 
     .line 41
     .line 42
@@ -578,8 +536,7 @@
     float-to-int v1, v1
 
     .line 48
-    iput v1, v0, La0/f;
-    ->h:I
+    iput v1, v0, La0/f;->h:I
 
     .line 49
     .line 50
@@ -587,13 +544,11 @@
 
     .line 51
     :cond_2
-    iget v1, v0, La0/f;
-    ->g:I
+    iget v1, v0, La0/f;->g:I
 
     .line 52
     .line 53
-    invoke-virtual {v6, v1}, Landroid/view/MotionEvent;
-    ->findPointerIndex(I)I
+    invoke-virtual {v6, v1}, Landroid/view/MotionEvent;->findPointerIndex(I)I
 
     .line 54
     .line 55
@@ -610,8 +565,7 @@
     .line 60
     .line 61
     :cond_3
-    invoke-virtual {v6, v1}, Landroid/view/MotionEvent;
-    ->getY(I)F
+    invoke-virtual {v6, v1}, Landroid/view/MotionEvent;->getY(I)F
 
     .line 62
     .line 63
@@ -622,16 +576,14 @@
     float-to-int v1, v1
 
     .line 66
-    iget v2, v0, La0/f;
-    ->h:I
+    iget v2, v0, La0/f;->h:I
 
     .line 67
     .line 68
     sub-int/2addr v2, v1
 
     .line 69
-    iput v1, v0, La0/f;
-    ->h:I
+    iput v1, v0, La0/f;->h:I
 
     .line 70
     .line 71
@@ -643,8 +595,7 @@
 
     .line 74
     .line 75
-    invoke-virtual {v1}, Lcom/google/android/material/appbar/AppBarLayout;
-    ->getDownNestedScrollRange()I
+    invoke-virtual {v1}, Lcom/google/android/material/appbar/AppBarLayout;->getDownNestedScrollRange()I
 
     .line 76
     .line 77
@@ -655,8 +606,7 @@
     neg-int v3, v3
 
     .line 80
-    invoke-virtual {v1}, Lcom/google/android/material/appbar/AppBarLayout;
-    ->getTopInset()I
+    invoke-virtual {v1}, Lcom/google/android/material/appbar/AppBarLayout;->getTopInset()I
 
     .line 81
     .line 82
@@ -668,8 +618,7 @@
 
     .line 85
     .line 86
-    invoke-virtual {v0}, La0/f;
-    ->g()I
+    invoke-virtual {v0}, La0/f;->g()I
 
     .line 87
     .line 88
@@ -692,8 +641,7 @@
 
     .line 96
     .line 97
-    invoke-virtual/range {v0 .. v5}, La0/f;
-    ->h(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;III)I
+    invoke-virtual/range {v0 .. v5}, La0/f;->h(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;III)I
 
     .line 98
     .line 99
@@ -715,8 +663,7 @@
 
     .line 106
     .line 107
-    iget-object v5, v0, La0/f;
-    ->j:Landroid/view/VelocityTracker;
+    iget-object v5, v0, La0/f;->j:Landroid/view/VelocityTracker;
 
     .line 108
     .line 109
@@ -724,14 +671,12 @@
 
     .line 110
     .line 111
-    invoke-virtual {v5, v6}, Landroid/view/VelocityTracker;
-    ->addMovement(Landroid/view/MotionEvent;)V
+    invoke-virtual {v5, v6}, Landroid/view/VelocityTracker;->addMovement(Landroid/view/MotionEvent;)V
 
     .line 112
     .line 113
     .line 114
-    iget-object v5, v0, La0/f;
-    ->j:Landroid/view/VelocityTracker;
+    iget-object v5, v0, La0/f;->j:Landroid/view/VelocityTracker;
 
     .line 115
     .line 116
@@ -739,24 +684,20 @@
 
     .line 117
     .line 118
-    invoke-virtual {v5, v9}, Landroid/view/VelocityTracker;
-    ->computeCurrentVelocity(I)V
+    invoke-virtual {v5, v9}, Landroid/view/VelocityTracker;->computeCurrentVelocity(I)V
 
     .line 119
     .line 120
     .line 121
-    iget-object v5, v0, La0/f;
-    ->j:Landroid/view/VelocityTracker;
+    iget-object v5, v0, La0/f;->j:Landroid/view/VelocityTracker;
 
     .line 122
     .line 123
-    iget v9, v0, La0/f;
-    ->g:I
+    iget v9, v0, La0/f;->g:I
 
     .line 124
     .line 125
-    invoke-virtual {v5, v9}, Landroid/view/VelocityTracker;
-    ->getYVelocity(I)F
+    invoke-virtual {v5, v9}, Landroid/view/VelocityTracker;->getYVelocity(I)F
 
     .line 126
     .line 127
@@ -771,8 +712,7 @@
 
     .line 131
     .line 132
-    invoke-virtual {v9}, Lcom/google/android/material/appbar/AppBarLayout;
-    ->getTotalScrollRange()I
+    invoke-virtual {v9}, Lcom/google/android/material/appbar/AppBarLayout;->getTotalScrollRange()I
 
     .line 133
     .line 134
@@ -783,8 +723,7 @@
     neg-int v10, v10
 
     .line 137
-    iget-object v11, v0, La0/f;
-    ->d:LQ0/q;
+    iget-object v11, v0, La0/f;->d:LQ0/q;
 
     .line 138
     .line 139
@@ -792,20 +731,17 @@
 
     .line 140
     .line 141
-    invoke-virtual {v4, v11}, Landroid/view/View;
-    ->removeCallbacks(Ljava/lang/Runnable;)Z
+    invoke-virtual {v4, v11}, Landroid/view/View;->removeCallbacks(Ljava/lang/Runnable;)Z
 
     .line 142
     .line 143
     .line 144
-    iput-object v2, v0, La0/f;
-    ->d:LQ0/q;
+    iput-object v2, v0, La0/f;->d:LQ0/q;
 
     .line 145
     .line 146
     :cond_5
-    iget-object v11, v0, La0/f;
-    ->e:Landroid/widget/OverScroller;
+    iget-object v11, v0, La0/f;->e:Landroid/widget/OverScroller;
 
     .line 147
     .line 148
@@ -817,8 +753,7 @@
 
     .line 151
     .line 152
-    invoke-virtual {v4}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {v4}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 153
     .line 154
@@ -826,25 +761,21 @@
     move-result-object v12
 
     .line 156
-    invoke-direct {v11, v12}, Landroid/widget/OverScroller;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {v11, v12}, Landroid/widget/OverScroller;-><init>(Landroid/content/Context;)V
 
     .line 157
     .line 158
     .line 159
-    iput-object v11, v0, La0/f;
-    ->e:Landroid/widget/OverScroller;
+    iput-object v11, v0, La0/f;->e:Landroid/widget/OverScroller;
 
     .line 160
     .line 161
     :cond_6
-    iget-object v11, v0, La0/f;
-    ->e:Landroid/widget/OverScroller;
+    iget-object v11, v0, La0/f;->e:Landroid/widget/OverScroller;
 
     .line 162
     .line 163
-    invoke-virtual {v0}, La0/h;
-    ->e()I
+    invoke-virtual {v0}, La0/h;->e()I
 
     .line 164
     .line 165
@@ -852,8 +783,7 @@
     move-result v13
 
     .line 167
-    invoke-static {v5}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v5}, Ljava/lang/Math;->round(F)I
 
     .line 168
     .line 169
@@ -883,19 +813,16 @@
 
     .line 180
     .line 181
-    invoke-virtual/range {v11 .. v19}, Landroid/widget/OverScroller;
-    ->fling(IIIIIIII)V
+    invoke-virtual/range {v11 .. v19}, Landroid/widget/OverScroller;->fling(IIIIIIII)V
 
     .line 182
     .line 183
     .line 184
-    iget-object v5, v0, La0/f;
-    ->e:Landroid/widget/OverScroller;
+    iget-object v5, v0, La0/f;->e:Landroid/widget/OverScroller;
 
     .line 185
     .line 186
-    invoke-virtual {v5}, Landroid/widget/OverScroller;
-    ->computeScrollOffset()Z
+    invoke-virtual {v5}, Landroid/widget/OverScroller;->computeScrollOffset()Z
 
     .line 187
     .line 188
@@ -914,19 +841,16 @@
     const/4 v9, 0x1
 
     .line 195
-    invoke-direct {v5, v0, v1, v4, v9}, LQ0/q;
-    -><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;I)V
+    invoke-direct {v5, v0, v1, v4, v9}, LQ0/q;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;I)V
 
     .line 196
     .line 197
     .line 198
-    iput-object v5, v0, La0/f;
-    ->d:LQ0/q;
+    iput-object v5, v0, La0/f;->d:LQ0/q;
 
     .line 199
     .line 200
-    invoke-virtual {v4, v5}, Landroid/view/View;
-    ->postOnAnimation(Ljava/lang/Runnable;)V
+    invoke-virtual {v4, v5}, Landroid/view/View;->postOnAnimation(Ljava/lang/Runnable;)V
 
     .line 201
     .line 202
@@ -942,14 +866,12 @@
 
     .line 206
     .line 207
-    invoke-virtual {v4, v1, v9}, Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;
-    ->o(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Lcom/google/android/material/appbar/AppBarLayout;)V
+    invoke-virtual {v4, v1, v9}, Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->o(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Lcom/google/android/material/appbar/AppBarLayout;)V
 
     .line 208
     .line 209
     .line 210
-    iget-boolean v4, v9, Lcom/google/android/material/appbar/AppBarLayout;
-    ->l:Z
+    iget-boolean v4, v9, Lcom/google/android/material/appbar/AppBarLayout;->l:Z
 
     .line 211
     .line 212
@@ -957,8 +879,7 @@
 
     .line 213
     .line 214
-    invoke-static {v1}, Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;
-    ->l(Landroidx/coordinatorlayout/widget/CoordinatorLayout;)Landroid/view/View;
+    invoke-static {v1}, Lcom/google/android/material/appbar/AppBarLayout$BaseBehavior;->l(Landroidx/coordinatorlayout/widget/CoordinatorLayout;)Landroid/view/View;
 
     .line 215
     .line 216
@@ -966,8 +887,7 @@
     move-result-object v1
 
     .line 218
-    invoke-virtual {v9, v1}, Lcom/google/android/material/appbar/AppBarLayout;
-    ->f(Landroid/view/View;)Z
+    invoke-virtual {v9, v1}, Lcom/google/android/material/appbar/AppBarLayout;->f(Landroid/view/View;)Z
 
     .line 219
     .line 220
@@ -975,8 +895,7 @@
     move-result v1
 
     .line 222
-    invoke-virtual {v9, v1}, Lcom/google/android/material/appbar/AppBarLayout;
-    ->e(Z)Z
+    invoke-virtual {v9, v1}, Lcom/google/android/material/appbar/AppBarLayout;->e(Z)Z
 
     .line 223
     .line 224
@@ -994,18 +913,15 @@
 
     .line 228
     :goto_3
-    iput-boolean v8, v0, La0/f;
-    ->f:Z
+    iput-boolean v8, v0, La0/f;->f:Z
 
     .line 229
     .line 230
-    iput v3, v0, La0/f;
-    ->g:I
+    iput v3, v0, La0/f;->g:I
 
     .line 231
     .line 232
-    iget-object v3, v0, La0/f;
-    ->j:Landroid/view/VelocityTracker;
+    iget-object v3, v0, La0/f;->j:Landroid/view/VelocityTracker;
 
     .line 233
     .line 234
@@ -1013,21 +929,18 @@
 
     .line 235
     .line 236
-    invoke-virtual {v3}, Landroid/view/VelocityTracker;
-    ->recycle()V
+    invoke-virtual {v3}, Landroid/view/VelocityTracker;->recycle()V
 
     .line 237
     .line 238
     .line 239
-    iput-object v2, v0, La0/f;
-    ->j:Landroid/view/VelocityTracker;
+    iput-object v2, v0, La0/f;->j:Landroid/view/VelocityTracker;
 
     .line 240
     .line 241
     :cond_a
     :goto_4
-    iget-object v2, v0, La0/f;
-    ->j:Landroid/view/VelocityTracker;
+    iget-object v2, v0, La0/f;->j:Landroid/view/VelocityTracker;
 
     .line 242
     .line 243
@@ -1035,15 +948,13 @@
 
     .line 244
     .line 245
-    invoke-virtual {v2, v6}, Landroid/view/VelocityTracker;
-    ->addMovement(Landroid/view/MotionEvent;)V
+    invoke-virtual {v2, v6}, Landroid/view/VelocityTracker;->addMovement(Landroid/view/MotionEvent;)V
 
     .line 246
     .line 247
     .line 248
     :cond_b
-    iget-boolean v2, v0, La0/f;
-    ->f:Z
+    iget-boolean v2, v0, La0/f;->f:Z
 
     .line 249
     .line 250

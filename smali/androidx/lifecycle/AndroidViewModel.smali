@@ -16,20 +16,17 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Landroidx/lifecycle/ViewModel;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/lifecycle/ViewModel;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/lifecycle/AndroidViewModel;
-    ->application:Landroid/app/Application;    
+    iput-object p1, p0, Landroidx/lifecycle/AndroidViewModel;->application:Landroid/app/Application;
     return-void
 .end method
 
@@ -46,8 +43,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/AndroidViewModel;
-    ->application:Landroid/app/Application;
+    iget-object v0, p0, Landroidx/lifecycle/AndroidViewModel;->application:Landroid/app/Application;
 
     .line 2
     .line 3
@@ -55,8 +51,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
-    ->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 return-object v0
 .end method
 

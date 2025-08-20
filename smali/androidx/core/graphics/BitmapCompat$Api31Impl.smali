@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -38,8 +37,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/Bitmap;
-    ->getHardwareBuffer()Landroid/hardware/HardwareBuffer;
+    invoke-virtual {p0}, Landroid/graphics/Bitmap;->getHardwareBuffer()Landroid/hardware/HardwareBuffer;
 
     .line 2
     .line 3
@@ -47,8 +45,7 @@
     move-result-object p0
 
     .line 5
-    invoke-virtual {p0}, Landroid/hardware/HardwareBuffer;
-    ->getFormat()I
+    invoke-virtual {p0}, Landroid/hardware/HardwareBuffer;->getFormat()I
 
     .line 6
     .line 7
@@ -64,8 +61,7 @@
 
     .line 12
     .line 13
-    sget-object p0, Landroid/graphics/Bitmap$Config;
-    ->RGBA_F16:Landroid/graphics/Bitmap$Config;
+    sget-object p0, Landroid/graphics/Bitmap$Config;->RGBA_F16:Landroid/graphics/Bitmap$Config;
 
     .line 14
     .line 15
@@ -73,8 +69,7 @@
 
     .line 16
     :cond_0
-    sget-object p0, Landroid/graphics/Bitmap$Config;
-    ->ARGB_8888:Landroid/graphics/Bitmap$Config;
+    sget-object p0, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     .line 17
     .line 18

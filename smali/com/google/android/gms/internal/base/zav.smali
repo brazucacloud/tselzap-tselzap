@@ -26,14 +26,12 @@
 
     .line 6
     .line 7
-    invoke-direct {v0, v1, v2, v3}, Lcom/google/android/gms/common/Feature;
-    -><init>(Ljava/lang/String;J)V
+    invoke-direct {v0, v1, v2, v3}, Lcom/google/android/gms/common/Feature;-><init>(Ljava/lang/String;J)V
 
     .line 8
     .line 9
     .line 10
-    sput-object v0, Lcom/google/android/gms/internal/base/zav;
-    ->zaa:Lcom/google/android/gms/common/Feature;
+    sput-object v0, Lcom/google/android/gms/internal/base/zav;->zaa:Lcom/google/android/gms/common/Feature;
 
     .line 11
     .line 12
@@ -51,8 +49,7 @@
 
     .line 17
     .line 18
-    sput-object v1, Lcom/google/android/gms/internal/base/zav;
-    ->zab:[Lcom/google/android/gms/common/Feature;
+    sput-object v1, Lcom/google/android/gms/internal/base/zav;->zab:[Lcom/google/android/gms/common/Feature;
 
     .line 19
     .line 20

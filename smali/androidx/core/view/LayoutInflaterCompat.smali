@@ -24,8 +24,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -41,8 +40,7 @@
 
     .line 2
     .line 3
-    sget-boolean v1, Landroidx/core/view/LayoutInflaterCompat;
-    ->sCheckedField:Z
+    sget-boolean v1, Landroidx/core/view/LayoutInflaterCompat;->sCheckedField:Z
 
     .line 4
     .line 5
@@ -66,8 +64,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {v0, v4}, Ljava/lang/Class;
-    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v0, v4}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 15
     .line 16
@@ -75,13 +72,11 @@
     move-result-object v4
 
     .line 18
-    sput-object v4, Landroidx/core/view/LayoutInflaterCompat;
-    ->sLayoutInflaterFactory2Field:Ljava/lang/reflect/Field;
+    sput-object v4, Landroidx/core/view/LayoutInflaterCompat;->sLayoutInflaterFactory2Field:Ljava/lang/reflect/Field;
 
     .line 19
     .line 20
-    invoke-virtual {v4, v1}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v4, v1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
     :try_end_0
     .catch Ljava/lang/NoSuchFieldException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -103,14 +98,12 @@
 
     .line 28
     .line 29
-    invoke-direct {v5, v6}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v5, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 30
     .line 31
     .line 32
-    invoke-virtual {v0}, Ljava/lang/Class;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     .line 33
     .line 34
@@ -118,20 +111,17 @@
     move-result-object v0
 
     .line 36
-    invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 37
     .line 38
     .line 39
-    invoke-virtual {v5, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v5, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 40
     .line 41
     .line 42
-    invoke-virtual {v5}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 43
     .line 44
@@ -139,21 +129,18 @@
     move-result-object v0
 
     .line 46
-    invoke-static {v3, v0, v4}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v3, v0, v4}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 47
     .line 48
     .line 49
     :goto_0
-    sput-boolean v1, Landroidx/core/view/LayoutInflaterCompat;
-    ->sCheckedField:Z
+    sput-boolean v1, Landroidx/core/view/LayoutInflaterCompat;->sCheckedField:Z
 
     .line 50
     .line 51
     :cond_0
-    sget-object v0, Landroidx/core/view/LayoutInflaterCompat;
-    ->sLayoutInflaterFactory2Field:Ljava/lang/reflect/Field;
+    sget-object v0, Landroidx/core/view/LayoutInflaterCompat;->sLayoutInflaterFactory2Field:Ljava/lang/reflect/Field;
 
     .line 52
     .line 53
@@ -162,8 +149,7 @@
     .line 54
     .line 55
     :try_start_1
-    invoke-virtual {v0, p0, p1}, Ljava/lang/reflect/Field;
-    ->set(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-virtual {v0, p0, p1}, Ljava/lang/reflect/Field;->set(Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_1
     .catch Ljava/lang/IllegalAccessException; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -185,26 +171,22 @@
 
     .line 63
     .line 64
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 65
     .line 66
     .line 67
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 68
     .line 69
     .line 70
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 71
     .line 72
     .line 73
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 74
     .line 75
@@ -212,8 +194,7 @@
     move-result-object p0
 
     .line 77
-    invoke-static {v3, p0, p1}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v3, p0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 78
     .line 79
@@ -229,8 +210,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/LayoutInflater;
-    ->getFactory()Landroid/view/LayoutInflater$Factory;
+    invoke-virtual {p0}, Landroid/view/LayoutInflater;->getFactory()Landroid/view/LayoutInflater$Factory;
 
     .line 2
     .line 3
@@ -250,8 +230,7 @@
 
     .line 10
     .line 11
-    iget-object p0, p0, Landroidx/core/view/LayoutInflaterCompat$Factory2Wrapper;
-    ->mDelegateFactory:Landroidx/core/view/LayoutInflaterFactory;
+    iget-object p0, p0, Landroidx/core/view/LayoutInflaterCompat$Factory2Wrapper;->mDelegateFactory:Landroidx/core/view/LayoutInflaterFactory;
 
     .line 12
     .line 13
@@ -282,14 +261,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/view/LayoutInflaterCompat$Factory2Wrapper;
-    -><init>(Landroidx/core/view/LayoutInflaterFactory;)V
+    invoke-direct {v0, p1}, Landroidx/core/view/LayoutInflaterCompat$Factory2Wrapper;-><init>(Landroidx/core/view/LayoutInflaterFactory;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, v0}, Landroid/view/LayoutInflater;
-    ->setFactory2(Landroid/view/LayoutInflater$Factory2;)V
+    invoke-virtual {p0, v0}, Landroid/view/LayoutInflater;->setFactory2(Landroid/view/LayoutInflater$Factory2;)V
 
     .line 7
     .line 8
@@ -309,8 +286,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/LayoutInflater;
-    ->setFactory2(Landroid/view/LayoutInflater$Factory2;)V
+    invoke-virtual {p0, p1}, Landroid/view/LayoutInflater;->setFactory2(Landroid/view/LayoutInflater$Factory2;)V
 
     .line 2
     .line 3

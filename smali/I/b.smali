@@ -17,14 +17,11 @@
     .locals 0
 
     .line 1
-    iput p2, p0, LI/b;
-    ->b:I
+    iput p2, p0, LI/b;->b:I
 
-    iput-object p1, p0, LI/b;
-    ->c:Ljava/lang/Object;
+    iput-object p1, p0, LI/b;->c:Ljava/lang/Object;
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -34,8 +31,7 @@
     .locals 6
 
     .line 1
-    iget p1, p0, LI/b;
-    ->b:I
+    iget p1, p0, LI/b;->b:I
 
     .line 2
     .line 3
@@ -44,8 +40,7 @@
     .line 4
     .line 5
     .line 6
-    iget-object p1, p0, LI/b;
-    ->c:Ljava/lang/Object;
+    iget-object p1, p0, LI/b;->c:Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -53,8 +48,7 @@
 
     .line 9
     .line 10
-    iget-boolean v0, p1, LL0/f;
-    ->a:Z
+    iget-boolean v0, p1, LL0/f;->a:Z
 
     .line 11
     .line 12
@@ -65,8 +59,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {p2}, Landroid/view/MotionEvent;
-    ->getAction()I
+    invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
 
     .line 16
     .line 17
@@ -81,13 +74,11 @@
 
     .line 21
     .line 22
-    iget-object p1, p1, LL0/f;
-    ->g:Landroid/widget/PopupWindow;
+    iget-object p1, p1, LL0/f;->g:Landroid/widget/PopupWindow;
 
     .line 23
     .line 24
-    invoke-virtual {p1}, Landroid/widget/PopupWindow;
-    ->dismiss()V
+    invoke-virtual {p1}, Landroid/widget/PopupWindow;->dismiss()V
 
     .line 25
     .line 26
@@ -96,8 +87,7 @@
 
     .line 28
     :cond_0
-    iget-boolean v0, p1, LL0/f;
-    ->b:Z
+    iget-boolean v0, p1, LL0/f;->b:Z
 
     .line 29
     .line 30
@@ -105,8 +95,7 @@
 
     .line 31
     .line 32
-    invoke-virtual {p2}, Landroid/view/MotionEvent;
-    ->getAction()I
+    invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
 
     .line 33
     .line 34
@@ -118,13 +107,11 @@
 
     .line 37
     .line 38
-    iget-object p1, p1, LL0/f;
-    ->g:Landroid/widget/PopupWindow;
+    iget-object p1, p1, LL0/f;->g:Landroid/widget/PopupWindow;
 
     .line 39
     .line 40
-    invoke-virtual {p1}, Landroid/widget/PopupWindow;
-    ->dismiss()V
+    invoke-virtual {p1}, Landroid/widget/PopupWindow;->dismiss()V
 
     .line 41
     .line 42
@@ -135,8 +122,7 @@
 
     .line 44
     :pswitch_0
-    iget-object p1, p0, LI/b;
-    ->c:Ljava/lang/Object;
+    iget-object p1, p0, LI/b;->c:Ljava/lang/Object;
 
     .line 45
     .line 46
@@ -147,14 +133,12 @@
     const/4 v0, 0x1
 
     .line 49
-    invoke-virtual {p1, v0}, Landroid/view/ViewGroup;
-    ->requestDisallowInterceptTouchEvent(Z)V
+    invoke-virtual {p1, v0}, Landroid/view/ViewGroup;->requestDisallowInterceptTouchEvent(Z)V
 
     .line 50
     .line 51
     .line 52
-    invoke-virtual {p2}, Landroid/view/MotionEvent;
-    ->getAction()I
+    invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
 
     .line 53
     .line 54
@@ -169,8 +153,7 @@
 
     .line 58
     .line 59
-    invoke-virtual {p2}, Landroid/view/MotionEvent;
-    ->getAction()I
+    invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
 
     .line 60
     .line 61
@@ -189,8 +172,7 @@
 
     .line 67
     :cond_2
-    invoke-virtual {p2}, Landroid/view/MotionEvent;
-    ->getAction()I
+    invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
 
     .line 68
     .line 69
@@ -202,13 +184,11 @@
 
     .line 72
     .line 73
-    iput-boolean v2, p1, Lcom/futuremind/recyclerviewfastscroll/FastScroller;
-    ->m:Z
+    iput-boolean v2, p1, Lcom/futuremind/recyclerviewfastscroll/FastScroller;->m:Z
 
     .line 74
     .line 75
-    iget-object p2, p1, Lcom/futuremind/recyclerviewfastscroll/FastScroller;
-    ->o:LI/d;
+    iget-object p2, p1, Lcom/futuremind/recyclerviewfastscroll/FastScroller;->o:LI/d;
 
     .line 76
     .line 77
@@ -216,19 +196,16 @@
 
     .line 78
     .line 79
-    iget-object p1, p1, Lcom/futuremind/recyclerviewfastscroll/FastScroller;
-    ->n:LJ/b;
+    iget-object p1, p1, Lcom/futuremind/recyclerviewfastscroll/FastScroller;->n:LJ/b;
 
     .line 80
     .line 81
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 82
     .line 83
     .line 84
-    invoke-virtual {p1}, LJ/b;
-    ->a()LC1/s;
+    invoke-virtual {p1}, LJ/b;->a()LC1/s;
 
     .line 85
     .line 86
@@ -240,8 +217,7 @@
 
     .line 89
     .line 90
-    invoke-virtual {p1}, LJ/b;
-    ->a()LC1/s;
+    invoke-virtual {p1}, LJ/b;->a()LC1/s;
 
     .line 91
     .line 92
@@ -249,8 +225,7 @@
     move-result-object p1
 
     .line 94
-    iget-object p1, p1, LC1/s;
-    ->c:Ljava/lang/Object;
+    iget-object p1, p1, LC1/s;->c:Ljava/lang/Object;
 
     .line 95
     .line 96
@@ -258,14 +233,12 @@
 
     .line 97
     .line 98
-    invoke-virtual {p1}, LA0/d;
-    ->h()V
+    invoke-virtual {p1}, LA0/d;->h()V
 
     .line 99
     .line 100
     .line 101
-    iget-object p1, p1, LA0/d;
-    ->d:Ljava/lang/Object;
+    iget-object p1, p1, LA0/d;->d:Ljava/lang/Object;
 
     .line 102
     .line 103
@@ -273,8 +246,7 @@
 
     .line 104
     .line 105
-    invoke-virtual {p1}, Landroid/animation/AnimatorSet;
-    ->start()V
+    invoke-virtual {p1}, Landroid/animation/AnimatorSet;->start()V
 
     .line 106
     .line 107
@@ -293,8 +265,7 @@
     .line 113
     :cond_4
     :goto_1
-    iget-object v1, p1, Lcom/futuremind/recyclerviewfastscroll/FastScroller;
-    ->o:LI/d;
+    iget-object v1, p1, Lcom/futuremind/recyclerviewfastscroll/FastScroller;->o:LI/d;
 
     .line 114
     .line 115
@@ -302,8 +273,7 @@
 
     .line 116
     .line 117
-    invoke-virtual {p2}, Landroid/view/MotionEvent;
-    ->getAction()I
+    invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
 
     .line 118
     .line 119
@@ -315,19 +285,16 @@
 
     .line 122
     .line 123
-    iget-object v1, p1, Lcom/futuremind/recyclerviewfastscroll/FastScroller;
-    ->n:LJ/b;
+    iget-object v1, p1, Lcom/futuremind/recyclerviewfastscroll/FastScroller;->n:LJ/b;
 
     .line 124
     .line 125
-    invoke-virtual {v1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 126
     .line 127
     .line 128
-    invoke-virtual {v1}, LJ/b;
-    ->a()LC1/s;
+    invoke-virtual {v1}, LJ/b;->a()LC1/s;
 
     .line 129
     .line 130
@@ -339,8 +306,7 @@
 
     .line 133
     .line 134
-    invoke-virtual {v1}, LJ/b;
-    ->a()LC1/s;
+    invoke-virtual {v1}, LJ/b;->a()LC1/s;
 
     .line 135
     .line 136
@@ -348,8 +314,7 @@
     move-result-object v1
 
     .line 138
-    iget-object v1, v1, LC1/s;
-    ->c:Ljava/lang/Object;
+    iget-object v1, v1, LC1/s;->c:Ljava/lang/Object;
 
     .line 139
     .line 140
@@ -357,8 +322,7 @@
 
     .line 141
     .line 142
-    iget-object v3, v1, LA0/d;
-    ->d:Ljava/lang/Object;
+    iget-object v3, v1, LA0/d;->d:Ljava/lang/Object;
 
     .line 143
     .line 144
@@ -366,14 +330,12 @@
 
     .line 145
     .line 146
-    invoke-virtual {v3}, Landroid/animation/AnimatorSet;
-    ->cancel()V
+    invoke-virtual {v3}, Landroid/animation/AnimatorSet;->cancel()V
 
     .line 147
     .line 148
     .line 149
-    iget-object v3, v1, LA0/d;
-    ->c:Ljava/lang/Object;
+    iget-object v3, v1, LA0/d;->c:Ljava/lang/Object;
 
     .line 150
     .line 151
@@ -381,8 +343,7 @@
 
     .line 152
     .line 153
-    invoke-virtual {v3}, Landroid/view/View;
-    ->getVisibility()I
+    invoke-virtual {v3}, Landroid/view/View;->getVisibility()I
 
     .line 154
     .line 155
@@ -400,20 +361,17 @@
     const/4 v4, 0x0
 
     .line 161
-    invoke-virtual {v3, v4}, Landroid/view/View;
-    ->setVisibility(I)V
+    invoke-virtual {v3, v4}, Landroid/view/View;->setVisibility(I)V
 
     .line 162
     .line 163
     .line 164
-    invoke-virtual {v1}, LA0/d;
-    ->h()V
+    invoke-virtual {v1}, LA0/d;->h()V
 
     .line 165
     .line 166
     .line 167
-    iget-object v1, v1, LA0/d;
-    ->e:Ljava/lang/Object;
+    iget-object v1, v1, LA0/d;->e:Ljava/lang/Object;
 
     .line 168
     .line 169
@@ -421,20 +379,17 @@
 
     .line 170
     .line 171
-    invoke-virtual {v1}, Landroid/animation/AnimatorSet;
-    ->start()V
+    invoke-virtual {v1}, Landroid/animation/AnimatorSet;->start()V
 
     .line 172
     .line 173
     .line 174
     :cond_5
-    iput-boolean v0, p1, Lcom/futuremind/recyclerviewfastscroll/FastScroller;
-    ->m:Z
+    iput-boolean v0, p1, Lcom/futuremind/recyclerviewfastscroll/FastScroller;->m:Z
 
     .line 175
     .line 176
-    invoke-virtual {p1}, Lcom/futuremind/recyclerviewfastscroll/FastScroller;
-    ->c()Z
+    invoke-virtual {p1}, Lcom/futuremind/recyclerviewfastscroll/FastScroller;->c()Z
 
     .line 177
     .line 178
@@ -446,8 +401,7 @@
 
     .line 181
     .line 182
-    invoke-virtual {p2}, Landroid/view/MotionEvent;
-    ->getRawY()F
+    invoke-virtual {p2}, Landroid/view/MotionEvent;->getRawY()F
 
     .line 183
     .line 184
@@ -455,13 +409,11 @@
     move-result p2
 
     .line 186
-    iget-object v1, p1, Lcom/futuremind/recyclerviewfastscroll/FastScroller;
-    ->e:Landroid/view/View;
+    iget-object v1, p1, Lcom/futuremind/recyclerviewfastscroll/FastScroller;->e:Landroid/view/View;
 
     .line 187
     .line 188
-    invoke-virtual {v1}, Landroid/view/View;
-    ->getY()F
+    invoke-virtual {v1}, Landroid/view/View;->getY()F
 
     .line 189
     .line 190
@@ -480,8 +432,7 @@
     move-result-object v2
 
     .line 197
-    invoke-virtual {v1}, Landroid/view/View;
-    ->getParent()Landroid/view/ViewParent;
+    invoke-virtual {v1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     .line 198
     .line 199
@@ -493,8 +444,7 @@
 
     .line 202
     .line 203
-    invoke-virtual {v1, v2}, Landroid/view/View;
-    ->getLocationInWindow([I)V
+    invoke-virtual {v1, v2}, Landroid/view/View;->getLocationInWindow([I)V
 
     .line 204
     .line 205
@@ -509,8 +459,7 @@
     sub-float/2addr p2, v1
 
     .line 210
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getHeight()I
+    invoke-virtual {p1}, Landroid/view/View;->getHeight()I
 
     .line 211
     .line 212
@@ -518,13 +467,11 @@
     move-result v1
 
     .line 214
-    iget-object v2, p1, Lcom/futuremind/recyclerviewfastscroll/FastScroller;
-    ->e:Landroid/view/View;
+    iget-object v2, p1, Lcom/futuremind/recyclerviewfastscroll/FastScroller;->e:Landroid/view/View;
 
     .line 215
     .line 216
-    invoke-virtual {v2}, Landroid/view/View;
-    ->getHeight()I
+    invoke-virtual {v2}, Landroid/view/View;->getHeight()I
 
     .line 217
     .line 218
@@ -546,8 +493,7 @@
 
     .line 224
     :cond_6
-    invoke-virtual {p2}, Landroid/view/MotionEvent;
-    ->getRawX()F
+    invoke-virtual {p2}, Landroid/view/MotionEvent;->getRawX()F
 
     .line 225
     .line 226
@@ -555,13 +501,11 @@
     move-result p2
 
     .line 228
-    iget-object v1, p1, Lcom/futuremind/recyclerviewfastscroll/FastScroller;
-    ->e:Landroid/view/View;
+    iget-object v1, p1, Lcom/futuremind/recyclerviewfastscroll/FastScroller;->e:Landroid/view/View;
 
     .line 229
     .line 230
-    invoke-virtual {v1}, Landroid/view/View;
-    ->getX()F
+    invoke-virtual {v1}, Landroid/view/View;->getX()F
 
     .line 231
     .line 232
@@ -580,8 +524,7 @@
     move-result-object v3
 
     .line 239
-    invoke-virtual {v1}, Landroid/view/View;
-    ->getParent()Landroid/view/ViewParent;
+    invoke-virtual {v1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     .line 240
     .line 241
@@ -593,8 +536,7 @@
 
     .line 244
     .line 245
-    invoke-virtual {v1, v3}, Landroid/view/View;
-    ->getLocationInWindow([I)V
+    invoke-virtual {v1, v3}, Landroid/view/View;->getLocationInWindow([I)V
 
     .line 246
     .line 247
@@ -609,8 +551,7 @@
     sub-float/2addr p2, v1
 
     .line 252
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getWidth()I
+    invoke-virtual {p1}, Landroid/view/View;->getWidth()I
 
     .line 253
     .line 254
@@ -618,13 +559,11 @@
     move-result v1
 
     .line 256
-    iget-object v2, p1, Lcom/futuremind/recyclerviewfastscroll/FastScroller;
-    ->e:Landroid/view/View;
+    iget-object v2, p1, Lcom/futuremind/recyclerviewfastscroll/FastScroller;->e:Landroid/view/View;
 
     .line 257
     .line 258
-    invoke-virtual {v2}, Landroid/view/View;
-    ->getWidth()I
+    invoke-virtual {v2}, Landroid/view/View;->getWidth()I
 
     .line 259
     .line 260
@@ -636,14 +575,12 @@
 
     .line 263
     :goto_3
-    invoke-virtual {p1, p2}, Lcom/futuremind/recyclerviewfastscroll/FastScroller;
-    ->setScrollerPosition(F)V
+    invoke-virtual {p1, p2}, Lcom/futuremind/recyclerviewfastscroll/FastScroller;->setScrollerPosition(F)V
 
     .line 264
     .line 265
     .line 266
-    invoke-static {p1, p2}, Lcom/futuremind/recyclerviewfastscroll/FastScroller;
-    ->a(Lcom/futuremind/recyclerviewfastscroll/FastScroller;F)V
+    invoke-static {p1, p2}, Lcom/futuremind/recyclerviewfastscroll/FastScroller;->a(Lcom/futuremind/recyclerviewfastscroll/FastScroller;F)V
 
     .line 267
     .line 268

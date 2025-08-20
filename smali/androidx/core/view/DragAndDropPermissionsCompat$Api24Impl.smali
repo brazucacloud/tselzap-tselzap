@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -38,8 +37,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/DragAndDropPermissions;
-    ->release()V
+    invoke-virtual {p0}, Landroid/view/DragAndDropPermissions;->release()V
 
     .line 2
     .line 3
@@ -53,8 +51,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Activity;
-    ->requestDragAndDropPermissions(Landroid/view/DragEvent;)Landroid/view/DragAndDropPermissions;
+    invoke-virtual {p0, p1}, Landroid/app/Activity;->requestDragAndDropPermissions(Landroid/view/DragEvent;)Landroid/view/DragAndDropPermissions;
 
     .line 2
     .line 3

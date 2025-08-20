@@ -14,11 +14,9 @@
 .method public constructor <init>(Ljava/util/Collection;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/google/android/gms/tasks/zzab;
-    ->zza:Ljava/util/Collection;
+    iput-object p1, p0, Lcom/google/android/gms/tasks/zzab;->zza:Ljava/util/Collection;
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -36,25 +34,21 @@
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Lcom/google/android/gms/tasks/zzab;
-    ->zza:Ljava/util/Collection;
+    iget-object v0, p0, Lcom/google/android/gms/tasks/zzab;->zza:Ljava/util/Collection;
 
     .line 7
     .line 8
-    invoke-virtual {p1, v0}, Ljava/util/ArrayList;
-    ->addAll(Ljava/util/Collection;)Z
+    invoke-virtual {p1, v0}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
     .line 9
     .line 10
     .line 11
-    invoke-static {p1}, Lcom/google/android/gms/tasks/Tasks;
-    ->forResult(Ljava/lang/Object;)Lcom/google/android/gms/tasks/Task;
+    invoke-static {p1}, Lcom/google/android/gms/tasks/Tasks;->forResult(Ljava/lang/Object;)Lcom/google/android/gms/tasks/Task;
 
     .line 12
     .line 13

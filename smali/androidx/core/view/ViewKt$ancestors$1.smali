@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/view/ViewKt;
-    ->getAncestors(Landroid/view/View;)Lw1/h;
+    value = Landroidx/core/view/ViewKt;->getAncestors(Landroid/view/View;)Lw1/h;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,11 +34,9 @@
 
     new-instance v0, Landroidx/core/view/ViewKt$ancestors$1;
 
-    invoke-direct {v0}, Landroidx/core/view/ViewKt$ancestors$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/core/view/ViewKt$ancestors$1;-><init>()V
 
-    sput-object v0, Landroidx/core/view/ViewKt$ancestors$1;
-    ->INSTANCE:Landroidx/core/view/ViewKt$ancestors$1;
+    sput-object v0, Landroidx/core/view/ViewKt$ancestors$1;->INSTANCE:Landroidx/core/view/ViewKt$ancestors$1;
 
     return-void
 .end method
@@ -59,8 +56,7 @@
 
     move-object v0, p0
 
-    invoke-direct/range {v0 .. v5}, Lkotlin/jvm/internal/i;
-    -><init>(ILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-direct/range {v0 .. v5}, Lkotlin/jvm/internal/i;-><init>(ILjava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
 return-void
 .end method
 
@@ -70,8 +66,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p1}, Landroid/view/ViewParent;
-    ->getParent()Landroid/view/ViewParent;
+    invoke-interface {p1}, Landroid/view/ViewParent;->getParent()Landroid/view/ViewParent;
 
     move-result-object p1
 
@@ -84,8 +79,7 @@ return-void
     .line 2
     check-cast p1, Landroid/view/ViewParent;
 
-    invoke-virtual {p0, p1}, Landroidx/core/view/ViewKt$ancestors$1;
-    ->invoke(Landroid/view/ViewParent;)Landroid/view/ViewParent;
+    invoke-virtual {p0, p1}, Landroidx/core/view/ViewKt$ancestors$1;->invoke(Landroid/view/ViewParent;)Landroid/view/ViewParent;
 
     move-result-object p1
 

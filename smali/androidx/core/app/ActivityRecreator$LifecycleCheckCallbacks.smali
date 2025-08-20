@@ -40,8 +40,7 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -49,28 +48,23 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-boolean v0, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;
-    ->mStarted:Z
+    iput-boolean v0, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;->mStarted:Z
 
     .line 6
     .line 7
-    iput-boolean v0, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;
-    ->mDestroyed:Z
+    iput-boolean v0, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;->mDestroyed:Z
 
     .line 8
     .line 9
-    iput-boolean v0, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;
-    ->mStopQueued:Z
+    iput-boolean v0, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;->mStopQueued:Z
 
     .line 10
     .line 11
-    iput-object p1, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;
-    ->mActivity:Landroid/app/Activity;
+    iput-object p1, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;->mActivity:Landroid/app/Activity;
 
     .line 12
     .line 13
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->hashCode()I
+    invoke-virtual {p1}, Ljava/lang/Object;->hashCode()I
 
     .line 14
     .line 15
@@ -78,8 +72,7 @@
     move-result p1
 
     .line 17
-    iput p1, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;
-    ->mRecreatingHashCode:I
+    iput p1, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;->mRecreatingHashCode:I
 
     .line 18
     .line 19
@@ -98,8 +91,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;
-    ->mActivity:Landroid/app/Activity;
+    iget-object v0, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;->mActivity:Landroid/app/Activity;
 
     .line 2
     .line 3
@@ -110,16 +102,14 @@
     const/4 p1, 0x0
 
     .line 6
-    iput-object p1, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;
-    ->mActivity:Landroid/app/Activity;
+    iput-object p1, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;->mActivity:Landroid/app/Activity;
 
     .line 7
     .line 8
     const/4 p1, 0x1
 
     .line 9
-    iput-boolean p1, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;
-    ->mDestroyed:Z
+    iput-boolean p1, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;->mDestroyed:Z
 
     .line 10
     .line 11
@@ -131,8 +121,7 @@
     .locals 2
 
     .line 1
-    iget-boolean v0, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;
-    ->mDestroyed:Z
+    iget-boolean v0, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;->mDestroyed:Z
 
     .line 2
     .line 3
@@ -140,8 +129,7 @@
 
     .line 4
     .line 5
-    iget-boolean v0, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;
-    ->mStopQueued:Z
+    iget-boolean v0, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;->mStopQueued:Z
 
     .line 6
     .line 7
@@ -149,8 +137,7 @@
 
     .line 8
     .line 9
-    iget-boolean v0, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;
-    ->mStarted:Z
+    iget-boolean v0, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;->mStarted:Z
 
     .line 10
     .line 11
@@ -158,18 +145,15 @@
 
     .line 12
     .line 13
-    iget-object v0, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;
-    ->currentlyRecreatingToken:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;->currentlyRecreatingToken:Ljava/lang/Object;
 
     .line 14
     .line 15
-    iget v1, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;
-    ->mRecreatingHashCode:I
+    iget v1, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;->mRecreatingHashCode:I
 
     .line 16
     .line 17
-    invoke-static {v0, v1, p1}, Landroidx/core/app/ActivityRecreator;
-    ->queueOnStopIfNecessary(Ljava/lang/Object;ILandroid/app/Activity;)Z
+    invoke-static {v0, v1, p1}, Landroidx/core/app/ActivityRecreator;->queueOnStopIfNecessary(Ljava/lang/Object;ILandroid/app/Activity;)Z
 
     .line 18
     .line 19
@@ -184,16 +168,14 @@
     const/4 p1, 0x1
 
     .line 24
-    iput-boolean p1, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;
-    ->mStopQueued:Z
+    iput-boolean p1, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;->mStopQueued:Z
 
     .line 25
     .line 26
     const/4 p1, 0x0
 
     .line 27
-    iput-object p1, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;
-    ->currentlyRecreatingToken:Ljava/lang/Object;
+    iput-object p1, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;->currentlyRecreatingToken:Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -217,8 +199,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;
-    ->mActivity:Landroid/app/Activity;
+    iget-object v0, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;->mActivity:Landroid/app/Activity;
 
     .line 2
     .line 3
@@ -229,8 +210,7 @@
     const/4 p1, 0x1
 
     .line 6
-    iput-boolean p1, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;
-    ->mStarted:Z
+    iput-boolean p1, p0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;->mStarted:Z
 
     .line 7
     .line 8

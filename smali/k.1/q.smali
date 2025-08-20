@@ -35,8 +35,7 @@
     const/4 v1, 0x2
 
     .line 4
-    invoke-static {v0, v1}, Landroid/util/Log;
-    ->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v0, v1}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     .line 5
     .line 6
@@ -44,8 +43,7 @@
     move-result v0
 
     .line 8
-    sput-boolean v0, Lk/q;
-    ->h:Z
+    sput-boolean v0, Lk/q;->h:Z
 
     .line 9
     .line 10
@@ -56,14 +54,12 @@
     .locals 9
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lk/q;
-    ->c:Lm/e;
+    iput-object p1, p0, Lk/q;->c:Lm/e;
 
     .line 5
     .line 6
@@ -71,8 +67,7 @@
 
     .line 7
     .line 8
-    invoke-direct {v0, p2}, Lk/p;
-    -><init>(LC1/s;)V
+    invoke-direct {v0, p2}, Lk/p;-><init>(LC1/s;)V
 
     .line 9
     .line 10
@@ -84,14 +79,12 @@
     const/4 v1, 0x3
 
     .line 14
-    invoke-direct {p2, v1}, LN0/d;
-    -><init>(I)V
+    invoke-direct {p2, v1}, LN0/d;-><init>(I)V
 
     .line 15
     .line 16
     .line 17
-    iput-object p2, p0, Lk/q;
-    ->g:LN0/d;
+    iput-object p2, p0, Lk/q;->g:LN0/d;
 
     .line 18
     .line 19
@@ -105,8 +98,7 @@
 
     .line 21
     :try_start_1
-    iput-object p0, p2, LN0/d;
-    ->e:Ljava/lang/Object;
+    iput-object p0, p2, LN0/d;->e:Ljava/lang/Object;
 
     .line 22
     .line 23
@@ -129,14 +121,12 @@
 
     .line 28
     .line 29
-    invoke-direct {p2, v1}, Lu0/f;
-    -><init>(I)V
+    invoke-direct {p2, v1}, Lu0/f;-><init>(I)V
 
     .line 30
     .line 31
     .line 32
-    iput-object p2, p0, Lk/q;
-    ->b:Lu0/f;
+    iput-object p2, p0, Lk/q;->b:Lu0/f;
 
     .line 33
     .line 34
@@ -147,14 +137,12 @@
     const/4 v1, 0x1
 
     .line 37
-    invoke-direct {p2, v1}, Lcom/bumptech/glide/d;
-    -><init>(I)V
+    invoke-direct {p2, v1}, Lcom/bumptech/glide/d;-><init>(I)V
 
     .line 38
     .line 39
     .line 40
-    iput-object p2, p0, Lk/q;
-    ->a:Lcom/bumptech/glide/d;
+    iput-object p2, p0, Lk/q;->a:Lcom/bumptech/glide/d;
 
     .line 41
     .line 42
@@ -180,14 +168,12 @@
     move-object v6, p6
 
     .line 50
-    invoke-direct/range {v2 .. v8}, Lk/o;
-    -><init>(Ln/c;Ln/c;Ln/c;Ln/c;Lk/q;Lk/q;)V
+    invoke-direct/range {v2 .. v8}, Lk/o;-><init>(Ln/c;Ln/c;Ln/c;Ln/c;Lk/q;Lk/q;)V
 
     .line 51
     .line 52
     .line 53
-    iput-object v2, v7, Lk/q;
-    ->d:Lk/o;
+    iput-object v2, v7, Lk/q;->d:Lk/o;
 
     .line 54
     .line 55
@@ -195,14 +181,12 @@
 
     .line 56
     .line 57
-    invoke-direct {p2, v0}, Lk/m;
-    -><init>(Lk/p;)V
+    invoke-direct {p2, v0}, Lk/m;-><init>(Lk/p;)V
 
     .line 58
     .line 59
     .line 60
-    iput-object p2, v7, Lk/q;
-    ->f:Lk/m;
+    iput-object p2, v7, Lk/q;->f:Lk/m;
 
     .line 61
     .line 62
@@ -210,19 +194,16 @@
 
     .line 63
     .line 64
-    invoke-direct {p2}, LU0/c;
-    -><init>()V
+    invoke-direct {p2}, LU0/c;-><init>()V
 
     .line 65
     .line 66
     .line 67
-    iput-object p2, v7, Lk/q;
-    ->e:LU0/c;
+    iput-object p2, v7, Lk/q;->e:LU0/c;
 
     .line 68
     .line 69
-    iput-object v7, p1, Lm/e;
-    ->d:Lk/q;
+    iput-object v7, p1, Lm/e;->d:Lk/q;
 
     .line 70
     .line 71
@@ -1241,8 +1222,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, LA/d;
-    ->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p0, v0}, LA/d;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 4
     .line 5
@@ -1250,8 +1230,7 @@
     move-result-object p0
 
     .line 7
-    invoke-static {p1, p2}, LE/i;
-    ->a(J)D
+    invoke-static {p1, p2}, LE/i;->a(J)D
 
     .line 8
     .line 9
@@ -1259,8 +1238,7 @@
     move-result-wide p1
 
     .line 11
-    invoke-virtual {p0, p1, p2}, Ljava/lang/StringBuilder;
-    ->append(D)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, p1, p2}, Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
 
     .line 12
     .line 13
@@ -1269,20 +1247,17 @@
 
     .line 15
     .line 16
-    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 17
     .line 18
     .line 19
-    invoke-virtual {p0, p3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {p0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 23
     .line 24
@@ -1294,8 +1269,7 @@
 
     .line 27
     .line 28
-    invoke-static {p1, p0}, Landroid/util/Log;
-    ->v(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, p0}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 29
     .line 30
@@ -1319,8 +1293,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Lk/w;
-    ->d()V
+    invoke-virtual {p0}, Lk/w;->d()V
 
     .line 8
     .line 9
@@ -1337,8 +1310,7 @@
 
     .line 14
     .line 15
-    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -1363,17 +1335,14 @@
     move-object/from16 v2, p0
 
     .line 1
-    sget-boolean v0, Lk/q;
-    ->h:Z
+    sget-boolean v0, Lk/q;->h:Z
 
     if-eqz v0, :cond_0
 
-    sget v0, LE/i;
-    ->b:I
+    sget v0, LE/i;->b:I
 
     .line 2
-    invoke-static {}, Landroid/os/SystemClock;
-    ->elapsedRealtimeNanos()J
+    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtimeNanos()J
 
     move-result-wide v0
 
@@ -1384,12 +1353,10 @@
 
     .line 3
     :goto_0
-    iget-object v3, v2, Lk/q;
-    ->b:Lu0/f;
+    iget-object v3, v2, Lk/q;->b:Lu0/f;
 
     .line 4
-    invoke-virtual {v3}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 5
     new-instance v4, Lk/v;
@@ -1410,8 +1377,7 @@
 
     move-object/from16 v12, p13
 
-    invoke-direct/range {v4 .. v12}, Lk/v;
-    -><init>(Ljava/lang/Object;Li/f;IILE/d;Ljava/lang/Class;Ljava/lang/Class;Li/i;)V
+    invoke-direct/range {v4 .. v12}, Lk/v;-><init>(Ljava/lang/Object;Li/f;IILE/d;Ljava/lang/Class;Ljava/lang/Class;Li/i;)V
 
     .line 6
     monitor-enter p0
@@ -1420,8 +1386,7 @@
 
     .line 7
     :try_start_0
-    invoke-virtual {v2, v4, v3, v0, v1}, Lk/q;
-    ->c(Lk/v;ZJ)Lk/w;
+    invoke-virtual {v2, v4, v3, v0, v1}, Lk/q;->c(Lk/v;ZJ)Lk/w;
 
     move-result-object v5
 
@@ -1466,8 +1431,7 @@
     move-object/from16 v4, p2
 
     .line 8
-    invoke-virtual/range {v2 .. v22}, Lk/q;
-    ->h(Lcom/bumptech/glide/c;Ljava/lang/Object;Li/f;IILjava/lang/Class;Ljava/lang/Class;Lcom/bumptech/glide/f;Lk/k;LE/d;ZZLi/i;ZZLA/h;LE/g;Lk/v;J)LA0/d;
+    invoke-virtual/range {v2 .. v22}, Lk/q;->h(Lcom/bumptech/glide/c;Ljava/lang/Object;Li/f;IILjava/lang/Class;Ljava/lang/Class;Lcom/bumptech/glide/f;Lk/k;LE/d;ZZLi/i;ZZLA/h;LE/g;Lk/v;J)LA0/d;
 
     move-result-object v0
 
@@ -1489,15 +1453,13 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 10
-    sget-object v1, Li/a;
-    ->f:Li/a;
+    sget-object v1, Li/a;->f:Li/a;
 
     const/4 v2, 0x0
 
     move-object/from16 v3, p16
 
-    invoke-virtual {v3, v0, v1, v2}, LA/h;
-    ->k(Lk/C;Li/a;Z)V
+    invoke-virtual {v3, v0, v1, v2}, LA/h;->k(Lk/C;Li/a;Z)V
 
     const/4 v0, 0x0
 
@@ -1517,8 +1479,7 @@
     .locals 9
 
     .line 1
-    iget-object v1, p0, Lk/q;
-    ->c:Lm/e;
+    iget-object v1, p0, Lk/q;->c:Lm/e;
 
     .line 2
     .line 3
@@ -1526,13 +1487,11 @@
 
     .line 4
     :try_start_0
-    iget-object v0, v1, LE/k;
-    ->a:Ljava/util/LinkedHashMap;
+    iget-object v0, v1, LE/k;->a:Ljava/util/LinkedHashMap;
 
     .line 5
     .line 6
-    invoke-interface {v0, p1}, Ljava/util/Map;
-    ->remove(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -1564,13 +1523,11 @@
     .line 18
     :cond_0
     :try_start_1
-    iget-wide v3, v1, LE/k;
-    ->c:J
+    iget-wide v3, v1, LE/k;->c:J
 
     .line 19
     .line 20
-    iget v5, v0, LE/j;
-    ->b:I
+    iget v5, v0, LE/j;->b:I
 
     .line 21
     .line 22
@@ -1580,13 +1537,11 @@
     sub-long/2addr v3, v5
 
     .line 24
-    iput-wide v3, v1, LE/k;
-    ->c:J
+    iput-wide v3, v1, LE/k;->c:J
 
     .line 25
     .line 26
-    iget-object v0, v0, LE/j;
-    ->a:Ljava/lang/Object;
+    iget-object v0, v0, LE/j;->a:Ljava/lang/Object;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -1653,8 +1608,7 @@
     move-object v7, p1
 
     .line 51
-    invoke-direct/range {v3 .. v8}, Lk/w;
-    -><init>(Lk/C;ZZLk/v;Lk/q;)V
+    invoke-direct/range {v3 .. v8}, Lk/w;-><init>(Lk/C;ZZLk/v;Lk/q;)V
 
     .line 52
     .line 53
@@ -1667,19 +1621,16 @@
 
     .line 56
     .line 57
-    invoke-virtual {v2}, Lk/w;
-    ->a()V
+    invoke-virtual {v2}, Lk/w;->a()V
 
     .line 58
     .line 59
     .line 60
-    iget-object p1, v8, Lk/q;
-    ->g:LN0/d;
+    iget-object p1, v8, Lk/q;->g:LN0/d;
 
     .line 61
     .line 62
-    invoke-virtual {p1, v7, v2}, LN0/d;
-    ->a(Lk/v;Lk/w;)V
+    invoke-virtual {p1, v7, v2}, LN0/d;->a(Lk/v;Lk/w;)V
 
     .line 63
     .line 64
@@ -1742,8 +1693,7 @@
 
     .line 5
     :cond_0
-    iget-object p2, p0, Lk/q;
-    ->g:LN0/d;
+    iget-object p2, p0, Lk/q;->g:LN0/d;
 
     .line 6
     .line 7
@@ -1751,8 +1701,7 @@
 
     .line 8
     :try_start_0
-    iget-object v1, p2, LN0/d;
-    ->c:Ljava/lang/Object;
+    iget-object v1, p2, LN0/d;->c:Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -1760,8 +1709,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {v1, p1}, Ljava/util/HashMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -1790,8 +1738,7 @@
     .line 23
     :cond_1
     :try_start_1
-    invoke-virtual {v1}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 24
     .line 25
@@ -1807,8 +1754,7 @@
 
     .line 30
     .line 31
-    invoke-virtual {p2, v1}, LN0/d;
-    ->c(Lk/a;)V
+    invoke-virtual {p2, v1}, LN0/d;->c(Lk/a;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -1835,8 +1781,7 @@
 
     .line 39
     .line 40
-    invoke-virtual {v2}, Lk/w;
-    ->a()V
+    invoke-virtual {v2}, Lk/w;->a()V
 
     .line 41
     .line 42
@@ -1846,8 +1791,7 @@
 
     .line 44
     .line 45
-    sget-boolean p2, Lk/q;
-    ->h:Z
+    sget-boolean p2, Lk/q;->h:Z
 
     .line 46
     .line 47
@@ -1859,8 +1803,7 @@
 
     .line 50
     .line 51
-    invoke-static {p2, p3, p4, p1}, Lk/q;
-    ->d(Ljava/lang/String;JLk/v;)V
+    invoke-static {p2, p3, p4, p1}, Lk/q;->d(Ljava/lang/String;JLk/v;)V
 
     .line 52
     .line 53
@@ -1870,8 +1813,7 @@
 
     .line 55
     :cond_5
-    invoke-virtual {p0, p1}, Lk/q;
-    ->b(Lk/v;)Lk/w;
+    invoke-virtual {p0, p1}, Lk/q;->b(Lk/v;)Lk/w;
 
     .line 56
     .line 57
@@ -1883,8 +1825,7 @@
 
     .line 60
     .line 61
-    sget-boolean v0, Lk/q;
-    ->h:Z
+    sget-boolean v0, Lk/q;->h:Z
 
     .line 62
     .line 63
@@ -1896,8 +1837,7 @@
 
     .line 66
     .line 67
-    invoke-static {v0, p3, p4, p1}, Lk/q;
-    ->d(Ljava/lang/String;JLk/v;)V
+    invoke-static {v0, p3, p4, p1}, Lk/q;->d(Ljava/lang/String;JLk/v;)V
 
     .line 68
     .line 69
@@ -1977,8 +1917,7 @@
     .line 3
     .line 4
     :try_start_0
-    iget-boolean v0, p3, Lk/w;
-    ->b:Z
+    iget-boolean v0, p3, Lk/w;->b:Z
 
     .line 5
     .line 6
@@ -1986,13 +1925,11 @@
 
     .line 7
     .line 8
-    iget-object v0, p0, Lk/q;
-    ->g:LN0/d;
+    iget-object v0, p0, Lk/q;->g:LN0/d;
 
     .line 9
     .line 10
-    invoke-virtual {v0, p2, p3}, LN0/d;
-    ->a(Lk/v;Lk/w;)V
+    invoke-virtual {v0, p2, p3}, LN0/d;->a(Lk/v;Lk/w;)V
 
     .line 11
     .line 12
@@ -2009,30 +1946,25 @@
     .line 16
     :cond_0
     :goto_0
-    iget-object p3, p0, Lk/q;
-    ->a:Lcom/bumptech/glide/d;
+    iget-object p3, p0, Lk/q;->a:Lcom/bumptech/glide/d;
 
     .line 17
     .line 18
-    invoke-virtual {p3}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 19
     .line 20
     .line 21
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 22
     .line 23
     .line 24
-    iget-object p3, p3, Lcom/bumptech/glide/d;
-    ->a:Ljava/util/HashMap;
+    iget-object p3, p3, Lcom/bumptech/glide/d;->a:Ljava/util/HashMap;
 
     .line 25
     .line 26
-    invoke-virtual {p3, p2}, Ljava/util/HashMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p3, p2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 27
     .line 28
@@ -2040,8 +1972,7 @@
     move-result-object v0
 
     .line 30
-    invoke-virtual {p1, v0}, Ljava/lang/Object;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     .line 31
     .line 32
@@ -2053,8 +1984,7 @@
 
     .line 35
     .line 36
-    invoke-virtual {p3, p2}, Ljava/util/HashMap;
-    ->remove(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p3, p2}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -2156,8 +2086,7 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lk/q;
-    ->g:LN0/d;
+    iget-object v0, p0, Lk/q;->g:LN0/d;
 
     .line 2
     .line 3
@@ -2165,8 +2094,7 @@
 
     .line 4
     :try_start_0
-    iget-object v1, v0, LN0/d;
-    ->c:Ljava/lang/Object;
+    iget-object v1, v0, LN0/d;->c:Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -2174,8 +2102,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {v1, p1}, Ljava/util/HashMap;
-    ->remove(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -2194,13 +2121,11 @@
     const/4 v2, 0x0
 
     .line 17
-    iput-object v2, v1, Lk/a;
-    ->c:Lk/C;
+    iput-object v2, v1, Lk/a;->c:Lk/C;
 
     .line 18
     .line 19
-    invoke-virtual {v1}, Ljava/lang/ref/Reference;
-    ->clear()V
+    invoke-virtual {v1}, Ljava/lang/ref/Reference;->clear()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -2211,8 +2136,7 @@
     monitor-exit v0
 
     .line 23
-    iget-boolean v0, p2, Lk/w;
-    ->b:Z
+    iget-boolean v0, p2, Lk/w;->b:Z
 
     .line 24
     .line 25
@@ -2220,13 +2144,11 @@
 
     .line 26
     .line 27
-    iget-object v0, p0, Lk/q;
-    ->c:Lm/e;
+    iget-object v0, p0, Lk/q;->c:Lm/e;
 
     .line 28
     .line 29
-    invoke-virtual {v0, p1, p2}, LE/k;
-    ->d(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, p2}, LE/k;->d(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 30
     .line 31
@@ -2242,16 +2164,14 @@
 
     .line 36
     :cond_1
-    iget-object p1, p0, Lk/q;
-    ->e:LU0/c;
+    iget-object p1, p0, Lk/q;->e:LU0/c;
 
     .line 37
     .line 38
     const/4 v0, 0x0
 
     .line 39
-    invoke-virtual {p1, p2, v0}, LU0/c;
-    ->a(Lk/C;Z)V
+    invoke-virtual {p1, p2, v0}, LU0/c;->a(Lk/C;Z)V
 
     .line 40
     .line 41
@@ -2308,16 +2228,13 @@
     move-wide/from16 v12, p19
 
     .line 1
-    iget-object v14, v1, Lk/q;
-    ->a:Lcom/bumptech/glide/d;
+    iget-object v14, v1, Lk/q;->a:Lcom/bumptech/glide/d;
 
     .line 2
-    iget-object v14, v14, Lcom/bumptech/glide/d;
-    ->a:Ljava/util/HashMap;
+    iget-object v14, v14, Lcom/bumptech/glide/d;->a:Ljava/util/HashMap;
 
     .line 3
-    invoke-virtual {v14, v11}, Ljava/util/HashMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v14, v11}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v14
 
@@ -2326,41 +2243,34 @@
     if-eqz v14, :cond_1
 
     .line 4
-    invoke-virtual {v14, v9, v10}, Lk/u;
-    ->b(LA/h;LE/g;)V
+    invoke-virtual {v14, v9, v10}, Lk/u;->b(LA/h;LE/g;)V
 
     .line 5
-    sget-boolean v0, Lk/q;
-    ->h:Z
+    sget-boolean v0, Lk/q;->h:Z
 
     if-eqz v0, :cond_0
 
     .line 6
     const-string v0, "Added to existing load"
 
-    invoke-static {v0, v12, v13, v11}, Lk/q;
-    ->d(Ljava/lang/String;JLk/v;)V
+    invoke-static {v0, v12, v13, v11}, Lk/q;->d(Ljava/lang/String;JLk/v;)V
 
     .line 7
     :cond_0
     new-instance v0, LA0/d;
 
-    invoke-direct {v0, v1, v9, v14}, LA0/d;
-    -><init>(Lk/q;LA/h;Lk/u;)V
+    invoke-direct {v0, v1, v9, v14}, LA0/d;-><init>(Lk/q;LA/h;Lk/u;)V
 return-object v0
 
     .line 8
     :cond_1
-    iget-object v14, v1, Lk/q;
-    ->d:Lk/o;
+    iget-object v14, v1, Lk/q;->d:Lk/o;
 
     .line 9
-    iget-object v14, v14, Lk/o;
-    ->g:LF/d;
+    iget-object v14, v14, Lk/o;->g:LF/d;
 
     .line 10
-    invoke-virtual {v14}, LF/d;
-    ->acquire()Ljava/lang/Object;
+    invoke-virtual {v14}, LF/d;->acquire()Ljava/lang/Object;
 
     move-result-object v14
 
@@ -2371,20 +2281,17 @@ return-object v0
 
     .line 12
     :try_start_0
-    iput-object v11, v14, Lk/u;
-    ->l:Lk/v;
+    iput-object v11, v14, Lk/u;->l:Lk/v;
 
     move/from16 v15, p14
 
     .line 13
-    iput-boolean v15, v14, Lk/u;
-    ->m:Z
+    iput-boolean v15, v14, Lk/u;->m:Z
 
     move/from16 v15, p15
 
     .line 14
-    iput-boolean v15, v14, Lk/u;
-    ->n:Z
+    iput-boolean v15, v14, Lk/u;->n:Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -2392,180 +2299,140 @@ return-object v0
     monitor-exit v14
 
     .line 16
-    iget-object v15, v1, Lk/q;
-    ->f:Lk/m;
+    iget-object v15, v1, Lk/q;->f:Lk/m;
 
     .line 17
-    iget-object v12, v15, Lk/m;
-    ->b:LF/d;
+    iget-object v12, v15, Lk/m;->b:LF/d;
 
     .line 18
-    invoke-virtual {v12}, LF/d;
-    ->acquire()Ljava/lang/Object;
+    invoke-virtual {v12}, LF/d;->acquire()Ljava/lang/Object;
 
     move-result-object v12
 
     check-cast v12, Lk/i;
 
     .line 19
-    iget v13, v15, Lk/m;
-    ->c:I
+    iget v13, v15, Lk/m;->c:I
 
     add-int/lit8 v9, v13, 0x1
 
-    iput v9, v15, Lk/m;
-    ->c:I
+    iput v9, v15, Lk/m;->c:I
 
     .line 20
-    iget-object v9, v12, Lk/i;
-    ->b:Lk/g;
+    iget-object v9, v12, Lk/i;->b:Lk/g;
 
-    iput-object v0, v9, Lk/g;
-    ->c:Lcom/bumptech/glide/c;
+    iput-object v0, v9, Lk/g;->c:Lcom/bumptech/glide/c;
 
     .line 21
-    iput-object v2, v9, Lk/g;
-    ->d:Ljava/lang/Object;
+    iput-object v2, v9, Lk/g;->d:Ljava/lang/Object;
 
     .line 22
-    iput-object v3, v9, Lk/g;
-    ->n:Li/f;
+    iput-object v3, v9, Lk/g;->n:Li/f;
 
     .line 23
-    iput v4, v9, Lk/g;
-    ->e:I
+    iput v4, v9, Lk/g;->e:I
 
     .line 24
-    iput v5, v9, Lk/g;
-    ->f:I
+    iput v5, v9, Lk/g;->f:I
 
     .line 25
-    iput-object v7, v9, Lk/g;
-    ->p:Lk/k;
+    iput-object v7, v9, Lk/g;->p:Lk/k;
 
     move-object/from16 v15, p6
 
     .line 26
-    iput-object v15, v9, Lk/g;
-    ->g:Ljava/lang/Class;
+    iput-object v15, v9, Lk/g;->g:Ljava/lang/Class;
 
     .line 27
-    iget-object v15, v12, Lk/i;
-    ->e:Lk/p;
+    iget-object v15, v12, Lk/i;->e:Lk/p;
 
-    iput-object v15, v9, Lk/g;
-    ->h:Lk/p;
+    iput-object v15, v9, Lk/g;->h:Lk/p;
 
     move-object/from16 v15, p7
 
     .line 28
-    iput-object v15, v9, Lk/g;
-    ->k:Ljava/lang/Class;
+    iput-object v15, v9, Lk/g;->k:Ljava/lang/Class;
 
     .line 29
-    iput-object v6, v9, Lk/g;
-    ->o:Lcom/bumptech/glide/f;
+    iput-object v6, v9, Lk/g;->o:Lcom/bumptech/glide/f;
 
     .line 30
-    iput-object v8, v9, Lk/g;
-    ->i:Li/i;
+    iput-object v8, v9, Lk/g;->i:Li/i;
 
     move-object/from16 v15, p10
 
     .line 31
-    iput-object v15, v9, Lk/g;
-    ->j:LE/d;
+    iput-object v15, v9, Lk/g;->j:LE/d;
 
     move/from16 v15, p11
 
     .line 32
-    iput-boolean v15, v9, Lk/g;
-    ->q:Z
+    iput-boolean v15, v9, Lk/g;->q:Z
 
     move/from16 v15, p12
 
     .line 33
-    iput-boolean v15, v9, Lk/g;
-    ->r:Z
+    iput-boolean v15, v9, Lk/g;->r:Z
 
     .line 34
-    iput-object v0, v12, Lk/i;
-    ->i:Lcom/bumptech/glide/c;
+    iput-object v0, v12, Lk/i;->i:Lcom/bumptech/glide/c;
 
     .line 35
-    iput-object v3, v12, Lk/i;
-    ->j:Li/f;
+    iput-object v3, v12, Lk/i;->j:Li/f;
 
     .line 36
-    iput-object v6, v12, Lk/i;
-    ->k:Lcom/bumptech/glide/f;
+    iput-object v6, v12, Lk/i;->k:Lcom/bumptech/glide/f;
 
     .line 37
-    iput-object v11, v12, Lk/i;
-    ->l:Lk/v;
+    iput-object v11, v12, Lk/i;->l:Lk/v;
 
     .line 38
-    iput v4, v12, Lk/i;
-    ->m:I
+    iput v4, v12, Lk/i;->m:I
 
     .line 39
-    iput v5, v12, Lk/i;
-    ->n:I
+    iput v5, v12, Lk/i;->n:I
 
     .line 40
-    iput-object v7, v12, Lk/i;
-    ->o:Lk/k;
+    iput-object v7, v12, Lk/i;->o:Lk/k;
 
     .line 41
-    iput-object v8, v12, Lk/i;
-    ->p:Li/i;
+    iput-object v8, v12, Lk/i;->p:Li/i;
 
     .line 42
-    iput-object v14, v12, Lk/i;
-    ->q:Lk/u;
+    iput-object v14, v12, Lk/i;->q:Lk/u;
 
     .line 43
-    iput v13, v12, Lk/i;
-    ->r:I
+    iput v13, v12, Lk/i;->r:I
 
     const/4 v0, 0x1
 
     .line 44
-    iput v0, v12, Lk/i;
-    ->F:I
+    iput v0, v12, Lk/i;->F:I
 
     .line 45
-    iput-object v2, v12, Lk/i;
-    ->t:Ljava/lang/Object;
+    iput-object v2, v12, Lk/i;->t:Ljava/lang/Object;
 
     .line 46
-    iget-object v0, v1, Lk/q;
-    ->a:Lcom/bumptech/glide/d;
+    iget-object v0, v1, Lk/q;->a:Lcom/bumptech/glide/d;
 
-    invoke-virtual {v0}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 47
-    iget-object v0, v0, Lcom/bumptech/glide/d;
-    ->a:Ljava/util/HashMap;
+    iget-object v0, v0, Lcom/bumptech/glide/d;->a:Ljava/util/HashMap;
 
     .line 48
-    invoke-virtual {v0, v11, v14}, Ljava/util/HashMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v11, v14}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-object/from16 v9, p16
 
     .line 49
-    invoke-virtual {v14, v9, v10}, Lk/u;
-    ->b(LA/h;LE/g;)V
+    invoke-virtual {v14, v9, v10}, Lk/u;->b(LA/h;LE/g;)V
 
     .line 50
-    invoke-virtual {v14, v12}, Lk/u;
-    ->k(Lk/i;)V
+    invoke-virtual {v14, v12}, Lk/u;->k(Lk/i;)V
 
     .line 51
-    sget-boolean v0, Lk/q;
-    ->h:Z
+    sget-boolean v0, Lk/q;->h:Z
 
     if-eqz v0, :cond_2
 
@@ -2574,15 +2441,13 @@ return-object v0
 
     move-wide/from16 v12, p19
 
-    invoke-static {v0, v12, v13, v11}, Lk/q;
-    ->d(Ljava/lang/String;JLk/v;)V
+    invoke-static {v0, v12, v13, v11}, Lk/q;->d(Ljava/lang/String;JLk/v;)V
 
     .line 53
     :cond_2
     new-instance v0, LA0/d;
 
-    invoke-direct {v0, v1, v9, v14}, LA0/d;
-    -><init>(Lk/q;LA/h;Lk/u;)V
+    invoke-direct {v0, v1, v9, v14}, LA0/d;-><init>(Lk/q;LA/h;Lk/u;)V
 return-object v0
 
     :catchall_0

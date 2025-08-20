@@ -12,8 +12,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -43,8 +42,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-static {p0, v0, p1}, Lcom/google/android/gms/common/api/internal/TaskUtil;
-    ->setResultOrApiException(Lcom/google/android/gms/common/api/Status;Ljava/lang/Object;Lcom/google/android/gms/tasks/TaskCompletionSource;)V
+    invoke-static {p0, v0, p1}, Lcom/google/android/gms/common/api/internal/TaskUtil;->setResultOrApiException(Lcom/google/android/gms/common/api/Status;Ljava/lang/Object;Lcom/google/android/gms/tasks/TaskCompletionSource;)V
 return-void
 .end method
 
@@ -78,27 +76,23 @@ return-void
     .end annotation
 
     .line 2
-    invoke-virtual {p0}, Lcom/google/android/gms/common/api/Status;
-    ->isSuccess()Z
+    invoke-virtual {p0}, Lcom/google/android/gms/common/api/Status;->isSuccess()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 3
-    invoke-virtual {p2, p1}, Lcom/google/android/gms/tasks/TaskCompletionSource;
-    ->setResult(Ljava/lang/Object;)V
+    invoke-virtual {p2, p1}, Lcom/google/android/gms/tasks/TaskCompletionSource;->setResult(Ljava/lang/Object;)V
     return-void
 
     .line 4
     :cond_0
-    invoke-static {p0}, Lcom/google/android/gms/common/internal/ApiExceptionUtil;
-    ->fromStatus(Lcom/google/android/gms/common/api/Status;)Lcom/google/android/gms/common/api/ApiException;
+    invoke-static {p0}, Lcom/google/android/gms/common/internal/ApiExceptionUtil;->fromStatus(Lcom/google/android/gms/common/api/Status;)Lcom/google/android/gms/common/api/ApiException;
 
     move-result-object p0
 
-    invoke-virtual {p2, p0}, Lcom/google/android/gms/tasks/TaskCompletionSource;
-    ->setException(Ljava/lang/Exception;)V
+    invoke-virtual {p2, p0}, Lcom/google/android/gms/tasks/TaskCompletionSource;->setException(Ljava/lang/Exception;)V
 return-void
 .end method
 
@@ -134,14 +128,12 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/google/android/gms/common/api/internal/zacx;
-    -><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/common/api/internal/zacx;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/tasks/Task;
-    ->continueWith(Lcom/google/android/gms/tasks/Continuation;)Lcom/google/android/gms/tasks/Task;
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/tasks/Task;->continueWith(Lcom/google/android/gms/tasks/Continuation;)Lcom/google/android/gms/tasks/Task;
 
     .line 7
     .line 8
@@ -184,8 +176,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/android/gms/common/api/Status;
-    ->isSuccess()Z
+    invoke-virtual {p0}, Lcom/google/android/gms/common/api/Status;->isSuccess()Z
 
     .line 2
     .line 3
@@ -197,8 +188,7 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {p2, p1}, Lcom/google/android/gms/tasks/TaskCompletionSource;
-    ->trySetResult(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p1}, Lcom/google/android/gms/tasks/TaskCompletionSource;->trySetResult(Ljava/lang/Object;)Z
 
     .line 8
     .line 9
@@ -209,8 +199,7 @@ return-void
 
     .line 12
     :cond_0
-    invoke-static {p0}, Lcom/google/android/gms/common/internal/ApiExceptionUtil;
-    ->fromStatus(Lcom/google/android/gms/common/api/Status;)Lcom/google/android/gms/common/api/ApiException;
+    invoke-static {p0}, Lcom/google/android/gms/common/internal/ApiExceptionUtil;->fromStatus(Lcom/google/android/gms/common/api/Status;)Lcom/google/android/gms/common/api/ApiException;
 
     .line 13
     .line 14
@@ -218,8 +207,7 @@ return-void
     move-result-object p0
 
     .line 16
-    invoke-virtual {p2, p0}, Lcom/google/android/gms/tasks/TaskCompletionSource;
-    ->trySetException(Ljava/lang/Exception;)Z
+    invoke-virtual {p2, p0}, Lcom/google/android/gms/tasks/TaskCompletionSource;->trySetException(Ljava/lang/Exception;)Z
 
     .line 17
     .line 18

@@ -29,29 +29,24 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
-    ->mA:D
+    iput-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;->mA:D
 
     .line 5
     .line 6
-    iput-wide p3, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
-    ->mB:D
+    iput-wide p3, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;->mB:D
 
     .line 7
     .line 8
-    iput-wide p5, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
-    ->mC:D
+    iput-wide p5, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;->mC:D
 
     .line 9
     .line 10
-    iput-wide p7, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
-    ->mD:D    
+    iput-wide p7, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;->mD:D
     return-void
 .end method
 
@@ -61,8 +56,7 @@
     .locals 4
 
     .line 1
-    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
-    ->mD:D
+    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;->mD:D
 
     .line 2
     .line 3
@@ -70,8 +64,7 @@
 
     .line 4
     .line 5
-    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
-    ->mC:D
+    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;->mC:D
 
     .line 6
     .line 7
@@ -82,8 +75,7 @@
 
     .line 9
     .line 10
-    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
-    ->mB:D
+    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;->mB:D
 
     .line 11
     .line 12
@@ -94,8 +86,7 @@
 
     .line 14
     .line 15
-    iget-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
-    ->mA:D
+    iget-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;->mA:D
 
     .line 16
     .line 17
@@ -108,8 +99,7 @@
     .locals 6
 
     .line 1
-    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
-    ->mD:D
+    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;->mD:D
 
     .line 2
     .line 3
@@ -125,8 +115,7 @@
 
     .line 8
     .line 9
-    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
-    ->mC:D
+    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;->mC:D
 
     .line 10
     .line 11
@@ -145,8 +134,7 @@
 
     .line 17
     .line 18
-    iget-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
-    ->mB:D
+    iget-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;->mB:D
 
     .line 19
     .line 20

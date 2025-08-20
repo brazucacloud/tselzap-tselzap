@@ -77,78 +77,62 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    -><init>(Landroidx/datastore/preferences/protobuf/CodedInputStream$1;)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;-><init>(Landroidx/datastore/preferences/protobuf/CodedInputStream$1;)V
 
     const v0, 0x7fffffff
 
     .line 3
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentLimit:I
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentLimit:I
 
     .line 4
-    iput p2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->totalBufferSize:I
+    iput p2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->totalBufferSize:I
 
     .line 5
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->input:Ljava/lang/Iterable;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->input:Ljava/lang/Iterable;
 
     .line 6
-    invoke-interface {p1}, Ljava/lang/Iterable;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->iterator:Ljava/util/Iterator;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->iterator:Ljava/util/Iterator;
 
     .line 7
-    iput-boolean p3, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->immutable:Z
+    iput-boolean p3, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->immutable:Z
 
     const/4 p1, 0x0
 
     .line 8
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->totalBytesRead:I
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->totalBytesRead:I
 
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->startOffset:I
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->startOffset:I
 
     if-nez p2, :cond_0
 
     .line 9
-    sget-object p1, Landroidx/datastore/preferences/protobuf/Internal;
-    ->EMPTY_BYTE_BUFFER:Ljava/nio/ByteBuffer;
+    sget-object p1, Landroidx/datastore/preferences/protobuf/Internal;->EMPTY_BYTE_BUFFER:Ljava/nio/ByteBuffer;
 
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBuffer:Ljava/nio/ByteBuffer;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBuffer:Ljava/nio/ByteBuffer;
 
     const-wide/16 p1, 0x0
 
     .line 10
-    iput-wide p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iput-wide p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 11
-    iput-wide p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferStartPos:J
+    iput-wide p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferStartPos:J
 
     .line 12
-    iput-wide p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferLimit:J
+    iput-wide p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferLimit:J
 
     .line 13
-    iput-wide p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentAddress:J
+    iput-wide p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentAddress:J
 
     return-void
 
     .line 14
     :cond_0
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->tryGetNextByteBuffer()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->tryGetNextByteBuffer()V
     return-void
 .end method
 
@@ -156,8 +140,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    -><init>(Ljava/lang/Iterable;IZ)V
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;-><init>(Ljava/lang/Iterable;IZ)V
 return-void
 .end method
 
@@ -165,13 +148,11 @@ return-void
     .locals 4
 
     .line 1
-    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferLimit:J
+    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferLimit:J
 
     .line 2
     .line 3
-    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 4
     .line 5
@@ -184,13 +165,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->iterator:Ljava/util/Iterator;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->iterator:Ljava/util/Iterator;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 4
     .line 5
@@ -202,14 +181,12 @@ return-void
 
     .line 8
     .line 9
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->tryGetNextByteBuffer()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->tryGetNextByteBuffer()V
     return-void
 
     .line 13
     :cond_0
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 14
     .line 15
@@ -227,8 +204,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->remaining()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->remaining()I
 
     .line 4
     .line 5
@@ -248,8 +224,7 @@ return-void
 
     .line 11
     .line 12
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentRemaining()J
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentRemaining()J
 
     .line 13
     .line 14
@@ -269,15 +244,13 @@ return-void
 
     .line 21
     .line 22
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->getNextByteBuffer()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->getNextByteBuffer()V
 
     .line 23
     .line 24
     .line 25
     :cond_0
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentRemaining()J
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentRemaining()J
 
     .line 26
     .line 27
@@ -288,8 +261,7 @@ return-void
     long-to-int v2, v1
 
     .line 30
-    invoke-static {v0, v2}, Ljava/lang/Math;
-    ->min(II)I
+    invoke-static {v0, v2}, Ljava/lang/Math;->min(II)I
 
     .line 31
     .line 32
@@ -297,8 +269,7 @@ return-void
     move-result v1
 
     .line 34
-    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 35
     .line 36
@@ -318,8 +289,7 @@ return-void
     move-object v4, p1
 
     .line 42
-    invoke-static/range {v2 .. v8}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->copyMemory(J[BJJ)V
+    invoke-static/range {v2 .. v8}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->copyMemory(J[BJJ)V
 
     .line 43
     .line 44
@@ -327,16 +297,14 @@ return-void
     sub-int/2addr v0, v1
 
     .line 46
-    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 47
     .line 48
     add-long/2addr v1, v7
 
     .line 49
-    iput-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iput-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 50
     .line 51
@@ -357,8 +325,7 @@ return-void
 
     .line 57
     :cond_3
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->negativeSize()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->negativeSize()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 58
     .line 59
@@ -370,8 +337,7 @@ return-void
 
     .line 62
     :cond_4
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 63
     .line 64
@@ -385,26 +351,22 @@ return-void
     .locals 3
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->totalBufferSize:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->totalBufferSize:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->bufferSizeAfterCurrentLimit:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->bufferSizeAfterCurrentLimit:I
 
     .line 4
     .line 5
     add-int/2addr v0, v1
 
     .line 6
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->totalBufferSize:I
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->totalBufferSize:I
 
     .line 7
     .line 8
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->startOffset:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->startOffset:I
 
     .line 9
     .line 10
@@ -412,8 +374,7 @@ return-void
 
     .line 11
     .line 12
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentLimit:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentLimit:I
 
     .line 13
     .line 14
@@ -424,16 +385,14 @@ return-void
     sub-int/2addr v1, v2
 
     .line 17
-    iput v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->bufferSizeAfterCurrentLimit:I
+    iput v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->bufferSizeAfterCurrentLimit:I
 
     .line 18
     .line 19
     sub-int/2addr v0, v1
 
     .line 20
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->totalBufferSize:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->totalBufferSize:I
     return-void
 
     .line 23
@@ -441,8 +400,7 @@ return-void
     const/4 v0, 0x0
 
     .line 24
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->bufferSizeAfterCurrentLimit:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->bufferSizeAfterCurrentLimit:I
     return-void
 .end method
 
@@ -450,13 +408,11 @@ return-void
     .locals 4
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->totalBufferSize:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->totalBufferSize:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->totalBytesRead:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->totalBytesRead:I
 
     .line 4
     .line 5
@@ -466,16 +422,14 @@ return-void
     int-to-long v0, v0
 
     .line 7
-    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 8
     .line 9
     sub-long/2addr v0, v2
 
     .line 10
-    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferStartPos:J
+    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferStartPos:J
 
     .line 11
     .line 12
@@ -503,8 +457,7 @@ return-void
 
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawByte()B
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawByte()B
 
     .line 7
     .line 8
@@ -524,8 +477,7 @@ return-void
 
     .line 16
     :cond_1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->malformedVarint()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->malformedVarint()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 17
     .line 18
@@ -539,13 +491,11 @@ return-void
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBuffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBuffer:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/nio/Buffer;
-    ->position()I
+    invoke-virtual {v0}, Ljava/nio/Buffer;->position()I
 
     .line 4
     .line 5
@@ -553,13 +503,11 @@ return-void
     move-result v0
 
     .line 7
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBuffer:Ljava/nio/ByteBuffer;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBuffer:Ljava/nio/ByteBuffer;
 
     .line 8
     .line 9
-    invoke-virtual {v1}, Ljava/nio/Buffer;
-    ->limit()I
+    invoke-virtual {v1}, Ljava/nio/Buffer;->limit()I
 
     .line 10
     .line 11
@@ -568,35 +516,29 @@ return-void
 
     .line 13
     :try_start_0
-    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBuffer:Ljava/nio/ByteBuffer;
+    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBuffer:Ljava/nio/ByteBuffer;
 
     .line 14
     .line 15
-    invoke-virtual {v2, p1}, Ljava/nio/ByteBuffer;
-    ->position(I)Ljava/nio/Buffer;
+    invoke-virtual {v2, p1}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
     .line 16
     .line 17
     .line 18
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBuffer:Ljava/nio/ByteBuffer;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBuffer:Ljava/nio/ByteBuffer;
 
     .line 19
     .line 20
-    invoke-virtual {p1, p2}, Ljava/nio/ByteBuffer;
-    ->limit(I)Ljava/nio/Buffer;
+    invoke-virtual {p1, p2}, Ljava/nio/ByteBuffer;->limit(I)Ljava/nio/Buffer;
 
     .line 21
     .line 22
     .line 23
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBuffer:Ljava/nio/ByteBuffer;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBuffer:Ljava/nio/ByteBuffer;
 
     .line 24
     .line 25
-    invoke-virtual {p1}, Ljava/nio/ByteBuffer;
-    ->slice()Ljava/nio/ByteBuffer;
+    invoke-virtual {p1}, Ljava/nio/ByteBuffer;->slice()Ljava/nio/ByteBuffer;
 
     .line 26
     .line 27
@@ -607,24 +549,20 @@ return-void
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 29
-    iget-object p2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBuffer:Ljava/nio/ByteBuffer;
+    iget-object p2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBuffer:Ljava/nio/ByteBuffer;
 
     .line 30
     .line 31
-    invoke-virtual {p2, v0}, Ljava/nio/ByteBuffer;
-    ->position(I)Ljava/nio/Buffer;
+    invoke-virtual {p2, v0}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
     .line 32
     .line 33
     .line 34
-    iget-object p2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBuffer:Ljava/nio/ByteBuffer;
+    iget-object p2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBuffer:Ljava/nio/ByteBuffer;
 
     .line 35
     .line 36
-    invoke-virtual {p2, v1}, Ljava/nio/ByteBuffer;
-    ->limit(I)Ljava/nio/Buffer;    
+    invoke-virtual {p2, v1}, Ljava/nio/ByteBuffer;->limit(I)Ljava/nio/Buffer;
     return-object p1
 
     .line 40
@@ -637,8 +575,7 @@ return-void
     .line 42
     :catch_0
     :try_start_1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 43
     .line 44
@@ -652,24 +589,20 @@ return-void
 
     .line 47
     :goto_0
-    iget-object p2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBuffer:Ljava/nio/ByteBuffer;
+    iget-object p2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBuffer:Ljava/nio/ByteBuffer;
 
     .line 48
     .line 49
-    invoke-virtual {p2, v0}, Ljava/nio/ByteBuffer;
-    ->position(I)Ljava/nio/Buffer;
+    invoke-virtual {p2, v0}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
     .line 50
     .line 51
     .line 52
-    iget-object p2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBuffer:Ljava/nio/ByteBuffer;
+    iget-object p2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBuffer:Ljava/nio/ByteBuffer;
 
     .line 53
     .line 54
-    invoke-virtual {p2, v1}, Ljava/nio/ByteBuffer;
-    ->limit(I)Ljava/nio/Buffer;
+    invoke-virtual {p2, v1}, Ljava/nio/ByteBuffer;->limit(I)Ljava/nio/Buffer;
 
     .line 55
     .line 56
@@ -680,13 +613,11 @@ return-void
     .locals 6
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->iterator:Ljava/util/Iterator;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->iterator:Ljava/util/Iterator;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -698,23 +629,19 @@ return-void
 
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBuffer:Ljava/nio/ByteBuffer;
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBuffer:Ljava/nio/ByteBuffer;
 
     .line 10
     .line 11
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->totalBytesRead:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->totalBytesRead:I
 
     .line 12
     .line 13
-    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 14
     .line 15
-    iget-wide v4, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferStartPos:J
+    iget-wide v4, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferStartPos:J
 
     .line 16
     .line 17
@@ -727,13 +654,11 @@ return-void
     add-int/2addr v1, v3
 
     .line 20
-    iput v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->totalBytesRead:I
+    iput v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->totalBytesRead:I
 
     .line 21
     .line 22
-    invoke-virtual {v0}, Ljava/nio/Buffer;
-    ->position()I
+    invoke-virtual {v0}, Ljava/nio/Buffer;->position()I
 
     .line 23
     .line 24
@@ -744,23 +669,19 @@ return-void
     int-to-long v0, v0
 
     .line 27
-    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 28
     .line 29
-    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferStartPos:J
+    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferStartPos:J
 
     .line 30
     .line 31
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBuffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBuffer:Ljava/nio/ByteBuffer;
 
     .line 32
     .line 33
-    invoke-virtual {v0}, Ljava/nio/Buffer;
-    ->limit()I
+    invoke-virtual {v0}, Ljava/nio/Buffer;->limit()I
 
     .line 34
     .line 35
@@ -771,18 +692,15 @@ return-void
     int-to-long v0, v0
 
     .line 38
-    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferLimit:J
+    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferLimit:J
 
     .line 39
     .line 40
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBuffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBuffer:Ljava/nio/ByteBuffer;
 
     .line 41
     .line 42
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->addressOffset(Ljava/nio/ByteBuffer;)J
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->addressOffset(Ljava/nio/ByteBuffer;)J
 
     .line 43
     .line 44
@@ -790,47 +708,40 @@ return-void
     move-result-wide v0
 
     .line 46
-    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentAddress:J
+    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentAddress:J
 
     .line 47
     .line 48
-    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 49
     .line 50
     add-long/2addr v2, v0
 
     .line 51
-    iput-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iput-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 52
     .line 53
-    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferStartPos:J
+    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferStartPos:J
 
     .line 54
     .line 55
     add-long/2addr v2, v0
 
     .line 56
-    iput-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferStartPos:J
+    iput-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferStartPos:J
 
     .line 57
     .line 58
-    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferLimit:J
+    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferLimit:J
 
     .line 59
     .line 60
     add-long/2addr v2, v0
 
     .line 61
-    iput-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferLimit:J    
+    iput-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferLimit:J
     return-void
 .end method
 
@@ -840,8 +751,7 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->lastTag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->lastTag:I
 
     .line 2
     .line 3
@@ -849,8 +759,7 @@ return-void
 
     .line 6
     :cond_0
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidEndTag()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidEndTag()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 7
     .line 8
@@ -864,8 +773,7 @@ return-void
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->enableAliasing:Z
+    iput-boolean p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->enableAliasing:Z
 return-void
 .end method
 
@@ -873,8 +781,7 @@ return-void
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentLimit:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentLimit:I
 
     .line 2
     .line 3
@@ -893,8 +800,7 @@ return-void
 
     .line 10
     :cond_0
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->getTotalBytesRead()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->getTotalBytesRead()I
 
     .line 11
     .line 12
@@ -911,21 +817,18 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->lastTag:I    return v0
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->lastTag:I    return v0
 .end method
 
 .method public getTotalBytesRead()I
     .locals 4
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->totalBytesRead:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->totalBytesRead:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->startOffset:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->startOffset:I
 
     .line 4
     .line 5
@@ -935,16 +838,14 @@ return-void
     int-to-long v0, v0
 
     .line 7
-    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 8
     .line 9
     add-long/2addr v0, v2
 
     .line 10
-    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferStartPos:J
+    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferStartPos:J
 
     .line 11
     .line 12
@@ -960,32 +861,28 @@ return-void
     .locals 5
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->totalBytesRead:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->totalBytesRead:I
 
     .line 2
     .line 3
     int-to-long v0, v0
 
     .line 4
-    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 5
     .line 6
     add-long/2addr v0, v2
 
     .line 7
-    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferStartPos:J
+    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferStartPos:J
 
     .line 8
     .line 9
     sub-long/2addr v0, v2
 
     .line 10
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->totalBufferSize:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->totalBufferSize:I
 
     .line 11
     .line 12
@@ -1015,13 +912,11 @@ return-void
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentLimit:I
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentLimit:I
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->recomputeBufferSizeAfterLimit()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->recomputeBufferSizeAfterLimit()V
     return-void
 .end method
 
@@ -1033,8 +928,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->getTotalBytesRead()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->getTotalBytesRead()I
 
     .line 4
     .line 5
@@ -1045,8 +939,7 @@ return-void
     add-int/2addr p1, v0
 
     .line 8
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentLimit:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentLimit:I
 
     .line 9
     .line 10
@@ -1054,19 +947,16 @@ return-void
 
     .line 11
     .line 12
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentLimit:I
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentLimit:I
 
     .line 13
     .line 14
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->recomputeBufferSizeAfterLimit()V    
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->recomputeBufferSizeAfterLimit()V
     return v0
 
     .line 18
     :cond_0
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 19
     .line 20
@@ -1078,8 +968,7 @@ return-void
 
     .line 23
     :cond_1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->negativeSize()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->negativeSize()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 24
     .line 25
@@ -1094,8 +983,7 @@ return-void
     .locals 5
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawVarint64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawVarint64()J
 
     .line 2
     .line 3
@@ -1130,8 +1018,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawVarint32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawVarint32()I
 
     .line 2
     .line 3
@@ -1139,8 +1026,7 @@ return-void
     move-result v0
 
     .line 5
-    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawBytes(I)[B
+    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawBytes(I)[B
 
     .line 6
     .line 7
@@ -1154,8 +1040,7 @@ return-void
     .locals 8
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawVarint32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawVarint32()I
 
     .line 2
     .line 3
@@ -1170,8 +1055,7 @@ return-void
     int-to-long v6, v0
 
     .line 8
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentRemaining()J
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentRemaining()J
 
     .line 9
     .line 10
@@ -1187,8 +1071,7 @@ return-void
 
     .line 15
     .line 16
-    iget-boolean v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->immutable:Z
+    iget-boolean v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->immutable:Z
 
     .line 17
     .line 18
@@ -1196,8 +1079,7 @@ return-void
 
     .line 19
     .line 20
-    iget-boolean v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->enableAliasing:Z
+    iget-boolean v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->enableAliasing:Z
 
     .line 21
     .line 22
@@ -1205,21 +1087,18 @@ return-void
 
     .line 23
     .line 24
-    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 25
     .line 26
     add-long/2addr v0, v6
 
     .line 27
-    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 28
     .line 29
-    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentAddress:J
+    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentAddress:J
 
     .line 30
     .line 31
@@ -1239,8 +1118,7 @@ return-void
     long-to-int v1, v0
 
     .line 37
-    invoke-direct {p0, v5, v1}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->slice(II)Ljava/nio/ByteBuffer;
+    invoke-direct {p0, v5, v1}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->slice(II)Ljava/nio/ByteBuffer;
 
     .line 38
     .line 39
@@ -1255,8 +1133,7 @@ return-void
 
     .line 43
     .line 44
-    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 45
     .line 46
@@ -1264,27 +1141,23 @@ return-void
 
     .line 47
     .line 48
-    invoke-static/range {v1 .. v7}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->copyMemory(J[BJJ)V
+    invoke-static/range {v1 .. v7}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->copyMemory(J[BJJ)V
 
     .line 49
     .line 50
     .line 51
-    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 52
     .line 53
     add-long/2addr v0, v6
 
     .line 54
-    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 55
     .line 56
-    invoke-static {v3}, Ljava/nio/ByteBuffer;
-    ->wrap([B)Ljava/nio/ByteBuffer;
+    invoke-static {v3}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
 
     .line 57
     .line 58
@@ -1299,8 +1172,7 @@ return-void
 
     .line 62
     .line 63
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->remaining()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->remaining()I
 
     .line 64
     .line 65
@@ -1319,14 +1191,12 @@ return-void
     const/4 v2, 0x0
 
     .line 72
-    invoke-direct {p0, v1, v2, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawBytesTo([BII)V
+    invoke-direct {p0, v1, v2, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawBytesTo([BII)V
 
     .line 73
     .line 74
     .line 75
-    invoke-static {v1}, Ljava/nio/ByteBuffer;
-    ->wrap([B)Ljava/nio/ByteBuffer;
+    invoke-static {v1}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
 
     .line 76
     .line 77
@@ -1341,8 +1211,7 @@ return-void
 
     .line 81
     .line 82
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Internal;
-    ->EMPTY_BYTE_BUFFER:Ljava/nio/ByteBuffer;    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Internal;->EMPTY_BYTE_BUFFER:Ljava/nio/ByteBuffer;    return-object v0
 
     .line 85
     :cond_3
@@ -1350,8 +1219,7 @@ return-void
 
     .line 86
     .line 87
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->negativeSize()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->negativeSize()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 88
     .line 89
@@ -1363,8 +1231,7 @@ return-void
 
     .line 92
     :cond_4
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 93
     .line 94
@@ -1378,8 +1245,7 @@ return-void
     .locals 8
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawVarint32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawVarint32()I
 
     .line 2
     .line 3
@@ -1394,16 +1260,14 @@ return-void
     int-to-long v6, v0
 
     .line 8
-    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferLimit:J
+    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferLimit:J
 
     .line 9
     .line 10
     move-wide v3, v1
 
     .line 11
-    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 12
     .line 13
@@ -1418,8 +1282,7 @@ return-void
 
     .line 17
     .line 18
-    iget-boolean v3, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->immutable:Z
+    iget-boolean v3, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->immutable:Z
 
     .line 19
     .line 20
@@ -1427,8 +1290,7 @@ return-void
 
     .line 21
     .line 22
-    iget-boolean v3, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->enableAliasing:Z
+    iget-boolean v3, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->enableAliasing:Z
 
     .line 23
     .line 24
@@ -1436,8 +1298,7 @@ return-void
 
     .line 25
     .line 26
-    iget-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentAddress:J
+    iget-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentAddress:J
 
     .line 27
     .line 28
@@ -1450,8 +1311,7 @@ return-void
     add-int/2addr v0, v2
 
     .line 31
-    invoke-direct {p0, v2, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->slice(II)Ljava/nio/ByteBuffer;
+    invoke-direct {p0, v2, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->slice(II)Ljava/nio/ByteBuffer;
 
     .line 32
     .line 33
@@ -1459,8 +1319,7 @@ return-void
     move-result-object v0
 
     .line 35
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->wrap(Ljava/nio/ByteBuffer;)Landroidx/datastore/preferences/protobuf/ByteString;
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/ByteString;->wrap(Ljava/nio/ByteBuffer;)Landroidx/datastore/preferences/protobuf/ByteString;
 
     .line 36
     .line 37
@@ -1468,16 +1327,14 @@ return-void
     move-result-object v0
 
     .line 39
-    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 40
     .line 41
     add-long/2addr v1, v6
 
     .line 42
-    iput-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J    
+    iput-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
     return-object v0
 
     .line 45
@@ -1490,27 +1347,23 @@ return-void
 
     .line 48
     .line 49
-    invoke-static/range {v1 .. v7}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->copyMemory(J[BJJ)V
+    invoke-static/range {v1 .. v7}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->copyMemory(J[BJJ)V
 
     .line 50
     .line 51
     .line 52
-    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 53
     .line 54
     add-long/2addr v0, v6
 
     .line 55
-    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 56
     .line 57
-    invoke-static {v3}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->wrap([B)Landroidx/datastore/preferences/protobuf/ByteString;
+    invoke-static {v3}, Landroidx/datastore/preferences/protobuf/ByteString;->wrap([B)Landroidx/datastore/preferences/protobuf/ByteString;
 
     .line 58
     .line 59
@@ -1525,8 +1378,7 @@ return-void
 
     .line 63
     .line 64
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->remaining()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->remaining()I
 
     .line 65
     .line 66
@@ -1545,14 +1397,12 @@ return-void
     const/4 v2, 0x0
 
     .line 73
-    invoke-direct {p0, v1, v2, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawBytesTo([BII)V
+    invoke-direct {p0, v1, v2, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawBytesTo([BII)V
 
     .line 74
     .line 75
     .line 76
-    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->wrap([B)Landroidx/datastore/preferences/protobuf/ByteString;
+    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/ByteString;->wrap([B)Landroidx/datastore/preferences/protobuf/ByteString;
 
     .line 77
     .line 78
@@ -1567,8 +1417,7 @@ return-void
 
     .line 82
     .line 83
-    sget-object v0, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->EMPTY:Landroidx/datastore/preferences/protobuf/ByteString;    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/ByteString;->EMPTY:Landroidx/datastore/preferences/protobuf/ByteString;    return-object v0
 
     .line 86
     :cond_3
@@ -1576,8 +1425,7 @@ return-void
 
     .line 87
     .line 88
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->negativeSize()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->negativeSize()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 89
     .line 90
@@ -1589,8 +1437,7 @@ return-void
 
     .line 93
     :cond_4
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 94
     .line 95
@@ -1604,8 +1451,7 @@ return-void
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawLittleEndian64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawLittleEndian64()J
 
     .line 2
     .line 3
@@ -1613,8 +1459,7 @@ return-void
     move-result-wide v0
 
     .line 5
-    invoke-static {v0, v1}, Ljava/lang/Double;
-    ->longBitsToDouble(J)D
+    invoke-static {v0, v1}, Ljava/lang/Double;->longBitsToDouble(J)D
 
     .line 6
     .line 7
@@ -1628,8 +1473,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawVarint32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawVarint32()I
 
     .line 2
     .line 3
@@ -1643,8 +1487,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawLittleEndian32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawLittleEndian32()I
 
     .line 2
     .line 3
@@ -1658,8 +1501,7 @@ return-void
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawLittleEndian64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawLittleEndian64()J
 
     .line 2
     .line 3
@@ -1673,8 +1515,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawLittleEndian32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawLittleEndian32()I
 
     .line 2
     .line 3
@@ -1682,8 +1523,7 @@ return-void
     move-result v0
 
     .line 5
-    invoke-static {v0}, Ljava/lang/Float;
-    ->intBitsToFloat(I)F
+    invoke-static {v0}, Ljava/lang/Float;->intBitsToFloat(I)F
 
     .line 6
     .line 7
@@ -1708,23 +1548,19 @@ return-void
     .end annotation
 
     .line 7
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->recursionDepth:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->recursionDepth:I
 
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->recursionLimit:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->recursionLimit:I
 
     if-ge v0, v1, :cond_0
 
     add-int/lit8 v0, v0, 0x1
 
     .line 8
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->recursionDepth:I
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->recursionDepth:I
 
     .line 9
-    invoke-interface {p2, p0, p3}, Landroidx/datastore/preferences/protobuf/Parser;
-    ->parsePartialFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Ljava/lang/Object;
+    invoke-interface {p2, p0, p3}, Landroidx/datastore/preferences/protobuf/Parser;->parsePartialFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Ljava/lang/Object;
 
     move-result-object p2
 
@@ -1733,29 +1569,24 @@ return-void
     const/4 p3, 0x4
 
     .line 10
-    invoke-static {p1, p3}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->makeTag(II)I
+    invoke-static {p1, p3}, Landroidx/datastore/preferences/protobuf/WireFormat;->makeTag(II)I
 
     move-result p1
 
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->checkLastTagWas(I)V
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->checkLastTagWas(I)V
 
     .line 11
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->recursionDepth:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->recursionDepth:I
 
     add-int/lit8 p1, p1, -0x1
 
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->recursionDepth:I
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->recursionDepth:I
 
     return-object p2
 
     .line 12
     :cond_0
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->recursionLimitExceeded()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->recursionLimitExceeded()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     move-result-object p1
 
@@ -1766,50 +1597,41 @@ return-void
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->recursionDepth:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->recursionDepth:I
 
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->recursionLimit:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->recursionLimit:I
 
     if-ge v0, v1, :cond_0
 
     add-int/lit8 v0, v0, 0x1
 
     .line 2
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->recursionDepth:I
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->recursionDepth:I
 
     .line 3
-    invoke-interface {p2, p0, p3}, Landroidx/datastore/preferences/protobuf/MessageLite$Builder;
-    ->mergeFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/MessageLite$Builder;
+    invoke-interface {p2, p0, p3}, Landroidx/datastore/preferences/protobuf/MessageLite$Builder;->mergeFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/MessageLite$Builder;
 
     const/4 p2, 0x4
 
     .line 4
-    invoke-static {p1, p2}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->makeTag(II)I
+    invoke-static {p1, p2}, Landroidx/datastore/preferences/protobuf/WireFormat;->makeTag(II)I
 
     move-result p1
 
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->checkLastTagWas(I)V
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->checkLastTagWas(I)V
 
     .line 5
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->recursionDepth:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->recursionDepth:I
 
     add-int/lit8 p1, p1, -0x1
 
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->recursionDepth:I
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->recursionDepth:I
 
     return-void
 
     .line 6
     :cond_0
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->recursionLimitExceeded()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->recursionLimitExceeded()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     move-result-object p1
 
@@ -1820,8 +1642,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawVarint32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawVarint32()I
 
     .line 2
     .line 3
@@ -1835,8 +1656,7 @@ return-void
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawVarint64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawVarint64()J
 
     .line 2
     .line 3
@@ -1861,38 +1681,31 @@ return-void
     .end annotation
 
     .line 10
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawVarint32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawVarint32()I
 
     move-result v0
 
     .line 11
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->recursionDepth:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->recursionDepth:I
 
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->recursionLimit:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->recursionLimit:I
 
     if-ge v1, v2, :cond_0
 
     .line 12
-    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->pushLimit(I)I
+    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->pushLimit(I)I
 
     move-result v0
 
     .line 13
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->recursionDepth:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->recursionDepth:I
 
     add-int/lit8 v1, v1, 0x1
 
-    iput v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->recursionDepth:I
+    iput v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->recursionDepth:I
 
     .line 14
-    invoke-interface {p1, p0, p2}, Landroidx/datastore/preferences/protobuf/Parser;
-    ->parsePartialFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Ljava/lang/Object;
+    invoke-interface {p1, p0, p2}, Landroidx/datastore/preferences/protobuf/Parser;->parsePartialFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -1901,27 +1714,22 @@ return-void
     const/4 p2, 0x0
 
     .line 15
-    invoke-virtual {p0, p2}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->checkLastTagWas(I)V
+    invoke-virtual {p0, p2}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->checkLastTagWas(I)V
 
     .line 16
-    iget p2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->recursionDepth:I
+    iget p2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->recursionDepth:I
 
     add-int/lit8 p2, p2, -0x1
 
-    iput p2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->recursionDepth:I
+    iput p2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->recursionDepth:I
 
     .line 17
-    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->popLimit(I)V
+    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->popLimit(I)V
 return-object p1
 
     .line 18
     :cond_0
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->recursionLimitExceeded()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->recursionLimitExceeded()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     move-result-object p1
 
@@ -1932,63 +1740,51 @@ return-object p1
     .locals 3
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawVarint32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawVarint32()I
 
     move-result v0
 
     .line 2
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->recursionDepth:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->recursionDepth:I
 
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->recursionLimit:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->recursionLimit:I
 
     if-ge v1, v2, :cond_0
 
     .line 3
-    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->pushLimit(I)I
+    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->pushLimit(I)I
 
     move-result v0
 
     .line 4
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->recursionDepth:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->recursionDepth:I
 
     add-int/lit8 v1, v1, 0x1
 
-    iput v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->recursionDepth:I
+    iput v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->recursionDepth:I
 
     .line 5
-    invoke-interface {p1, p0, p2}, Landroidx/datastore/preferences/protobuf/MessageLite$Builder;
-    ->mergeFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/MessageLite$Builder;
+    invoke-interface {p1, p0, p2}, Landroidx/datastore/preferences/protobuf/MessageLite$Builder;->mergeFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/MessageLite$Builder;
 
     const/4 p1, 0x0
 
     .line 6
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->checkLastTagWas(I)V
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->checkLastTagWas(I)V
 
     .line 7
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->recursionDepth:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->recursionDepth:I
 
     add-int/lit8 p1, p1, -0x1
 
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->recursionDepth:I
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->recursionDepth:I
 
     .line 8
-    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->popLimit(I)V
+    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->popLimit(I)V
 return-void
 
     .line 9
     :cond_0
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->recursionLimitExceeded()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->recursionLimitExceeded()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     move-result-object p1
 
@@ -1999,8 +1795,7 @@ return-void
     .locals 5
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentRemaining()J
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentRemaining()J
 
     .line 2
     .line 3
@@ -2020,15 +1815,13 @@ return-void
 
     .line 10
     .line 11
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->getNextByteBuffer()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->getNextByteBuffer()V
 
     .line 12
     .line 13
     .line 14
     :cond_0
-    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 15
     .line 16
@@ -2039,13 +1832,11 @@ return-void
     add-long/2addr v2, v0
 
     .line 19
-    iput-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iput-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 20
     .line 21
-    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 22
     .line 23
@@ -2066,8 +1857,7 @@ return-void
     int-to-long v5, p1
 
     .line 4
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentRemaining()J
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentRemaining()J
 
     .line 5
     .line 6
@@ -2087,8 +1877,7 @@ return-void
 
     .line 13
     .line 14
-    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 15
     .line 16
@@ -2096,22 +1885,19 @@ return-void
 
     .line 17
     .line 18
-    invoke-static/range {v0 .. v6}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->copyMemory(J[BJJ)V
+    invoke-static/range {v0 .. v6}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->copyMemory(J[BJJ)V
 
     .line 19
     .line 20
     .line 21
-    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 22
     .line 23
     add-long/2addr v0, v5
 
     .line 24
-    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J    
+    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
     return-object v2
 
     .line 27
@@ -2120,8 +1906,7 @@ return-void
 
     .line 28
     .line 29
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->remaining()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->remaining()I
 
     .line 30
     .line 31
@@ -2140,8 +1925,7 @@ return-void
     const/4 v1, 0x0
 
     .line 38
-    invoke-direct {p0, v0, v1, p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawBytesTo([BII)V
+    invoke-direct {p0, v0, v1, p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawBytesTo([BII)V
     return-object v0
 
     .line 42
@@ -2154,13 +1938,11 @@ return-void
 
     .line 45
     .line 46
-    sget-object p1, Landroidx/datastore/preferences/protobuf/Internal;
-    ->EMPTY_BYTE_ARRAY:[B    return-object p1
+    sget-object p1, Landroidx/datastore/preferences/protobuf/Internal;->EMPTY_BYTE_ARRAY:[B    return-object p1
 
     .line 49
     :cond_2
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->negativeSize()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->negativeSize()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 50
     .line 51
@@ -2172,8 +1954,7 @@ return-void
 
     .line 54
     :cond_3
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 55
     .line 56
@@ -2187,8 +1968,7 @@ return-void
     .locals 5
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentRemaining()J
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentRemaining()J
 
     .line 2
     .line 3
@@ -2208,21 +1988,18 @@ return-void
 
     .line 10
     .line 11
-    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 12
     .line 13
     add-long/2addr v2, v0
 
     .line 14
-    iput-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iput-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 15
     .line 16
-    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 17
     .line 18
@@ -2241,8 +2018,7 @@ return-void
     add-long/2addr v3, v0
 
     .line 25
-    invoke-static {v3, v4}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v3, v4}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 26
     .line 27
@@ -2268,8 +2044,7 @@ return-void
     add-long/2addr v3, v0
 
     .line 37
-    invoke-static {v3, v4}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v3, v4}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 38
     .line 39
@@ -2295,8 +2070,7 @@ return-void
     add-long/2addr v0, v3
 
     .line 49
-    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 50
     .line 51
@@ -2318,8 +2092,7 @@ return-void
 
     .line 59
     :cond_0
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawByte()B
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawByte()B
 
     .line 60
     .line 61
@@ -2331,8 +2104,7 @@ return-void
 
     .line 64
     .line 65
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawByte()B
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawByte()B
 
     .line 66
     .line 67
@@ -2351,8 +2123,7 @@ return-void
     or-int/2addr v0, v1
 
     .line 74
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawByte()B
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawByte()B
 
     .line 75
     .line 76
@@ -2371,8 +2142,7 @@ return-void
     or-int/2addr v0, v1
 
     .line 83
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawByte()B
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawByte()B
 
     .line 84
     .line 85
@@ -2397,8 +2167,7 @@ return-void
     .locals 15
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentRemaining()J
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentRemaining()J
 
     .line 2
     .line 3
@@ -2450,21 +2219,18 @@ return-void
 
     .line 26
     .line 27
-    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 28
     .line 29
     add-long/2addr v11, v0
 
     .line 30
-    iput-wide v11, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iput-wide v11, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 31
     .line 32
-    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 33
     .line 34
@@ -2485,8 +2251,7 @@ return-void
     add-long/2addr v13, v0
 
     .line 41
-    invoke-static {v13, v14}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v13, v14}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 42
     .line 43
@@ -2513,8 +2278,7 @@ return-void
     add-long/2addr v13, v0
 
     .line 52
-    invoke-static {v13, v14}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v13, v14}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 53
     .line 54
@@ -2542,8 +2306,7 @@ return-void
     add-long/2addr v11, v0
 
     .line 64
-    invoke-static {v11, v12}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v11, v12}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 65
     .line 66
@@ -2570,8 +2333,7 @@ return-void
     add-long/2addr v11, v0
 
     .line 75
-    invoke-static {v11, v12}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v11, v12}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 76
     .line 77
@@ -2599,8 +2361,7 @@ return-void
     add-long/2addr v7, v0
 
     .line 87
-    invoke-static {v7, v8}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v7, v8}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 88
     .line 89
@@ -2627,8 +2388,7 @@ return-void
     add-long/2addr v7, v0
 
     .line 98
-    invoke-static {v7, v8}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v7, v8}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 99
     .line 100
@@ -2656,8 +2416,7 @@ return-void
     add-long/2addr v0, v5
 
     .line 110
-    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 111
     .line 112
@@ -2680,8 +2439,7 @@ return-void
 
     .line 119
     :cond_0
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawByte()B
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawByte()B
 
     .line 120
     .line 121
@@ -2695,8 +2453,7 @@ return-void
     and-long/2addr v0, v9
 
     .line 125
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawByte()B
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawByte()B
 
     .line 126
     .line 127
@@ -2716,8 +2473,7 @@ return-void
     or-long/2addr v0, v11
 
     .line 133
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawByte()B
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawByte()B
 
     .line 134
     .line 135
@@ -2738,8 +2494,7 @@ return-void
     or-long/2addr v0, v7
 
     .line 142
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawByte()B
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawByte()B
 
     .line 143
     .line 144
@@ -2760,8 +2515,7 @@ return-void
     or-long/2addr v0, v6
 
     .line 151
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawByte()B
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawByte()B
 
     .line 152
     .line 153
@@ -2782,8 +2536,7 @@ return-void
     or-long/2addr v0, v5
 
     .line 160
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawByte()B
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawByte()B
 
     .line 161
     .line 162
@@ -2804,8 +2557,7 @@ return-void
     or-long/2addr v0, v4
 
     .line 169
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawByte()B
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawByte()B
 
     .line 170
     .line 171
@@ -2826,8 +2578,7 @@ return-void
     or-long/2addr v0, v3
 
     .line 178
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawByte()B
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawByte()B
 
     .line 179
     .line 180
@@ -2854,13 +2605,11 @@ return-void
     .locals 12
 
     .line 1
-    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 2
     .line 3
-    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferLimit:J
+    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferLimit:J
 
     .line 4
     .line 5
@@ -2885,8 +2634,7 @@ return-void
 
     .line 14
     .line 15
-    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 16
     .line 17
@@ -2898,27 +2646,23 @@ return-void
 
     .line 20
     .line 21
-    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 22
     .line 23
     add-long/2addr v0, v2
 
     .line 24
-    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J    
+    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
     return v6
 
     .line 27
     :cond_1
-    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferLimit:J
+    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferLimit:J
 
     .line 28
     .line 29
-    iget-wide v7, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v7, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 30
     .line 31
@@ -2949,8 +2693,7 @@ return-void
     add-long/2addr v2, v0
 
     .line 43
-    invoke-static {v4, v5}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v4, v5}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 44
     .line 45
@@ -2985,8 +2728,7 @@ return-void
     add-long/2addr v5, v0
 
     .line 59
-    invoke-static {v2, v3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v2, v3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 60
     .line 61
@@ -3024,8 +2766,7 @@ return-void
     add-long/2addr v3, v0
 
     .line 75
-    invoke-static {v5, v6}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v5, v6}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 76
     .line 77
@@ -3067,8 +2808,7 @@ return-void
     add-long/2addr v5, v0
 
     .line 93
-    invoke-static {v3, v4}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v3, v4}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 94
     .line 95
@@ -3102,8 +2842,7 @@ return-void
     add-long/2addr v3, v0
 
     .line 109
-    invoke-static {v5, v6}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v5, v6}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 110
     .line 111
@@ -3122,8 +2861,7 @@ return-void
     add-long/2addr v5, v0
 
     .line 118
-    invoke-static {v3, v4}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v3, v4}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 119
     .line 120
@@ -3142,8 +2880,7 @@ return-void
     add-long/2addr v3, v0
 
     .line 127
-    invoke-static {v5, v6}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v5, v6}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 128
     .line 129
@@ -3162,8 +2899,7 @@ return-void
     add-long/2addr v5, v0
 
     .line 136
-    invoke-static {v3, v4}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v3, v4}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 137
     .line 138
@@ -3178,8 +2914,7 @@ return-void
     add-long/2addr v0, v7
 
     .line 143
-    invoke-static {v5, v6}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v5, v6}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 144
     .line 145
@@ -3192,8 +2927,7 @@ return-void
     .line 148
     .line 149
     :goto_2
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawVarint64SlowPath()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawVarint64SlowPath()J
 
     .line 150
     .line 151
@@ -3234,8 +2968,7 @@ return-void
 
     .line 163
     :goto_3
-    iput-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J    
+    iput-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
     return v0
 .end method
 
@@ -3243,13 +2976,11 @@ return-void
     .locals 15
 
     .line 1
-    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 2
     .line 3
-    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferLimit:J
+    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferLimit:J
 
     .line 4
     .line 5
@@ -3274,8 +3005,7 @@ return-void
 
     .line 14
     .line 15
-    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 16
     .line 17
@@ -3287,16 +3017,14 @@ return-void
 
     .line 20
     .line 21
-    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 22
     .line 23
     add-long/2addr v0, v2
 
     .line 24
-    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 25
     .line 26
@@ -3306,13 +3034,11 @@ return-void
 
     .line 28
     :cond_1
-    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferLimit:J
+    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferLimit:J
 
     .line 29
     .line 30
-    iget-wide v7, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v7, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 31
     .line 32
@@ -3343,8 +3069,7 @@ return-void
     add-long/2addr v2, v0
 
     .line 44
-    invoke-static {v4, v5}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v4, v5}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 45
     .line 46
@@ -3382,8 +3107,7 @@ return-void
     add-long/2addr v5, v0
 
     .line 61
-    invoke-static {v2, v3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v2, v3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 62
     .line 63
@@ -3424,8 +3148,7 @@ return-void
     add-long/2addr v3, v0
 
     .line 79
-    invoke-static {v5, v6}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v5, v6}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 80
     .line 81
@@ -3473,8 +3196,7 @@ return-void
     add-long/2addr v9, v0
 
     .line 100
-    invoke-static {v3, v4}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v3, v4}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 101
     .line 102
@@ -3532,8 +3254,7 @@ return-void
     add-long/2addr v11, v0
 
     .line 125
-    invoke-static {v9, v10}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v9, v10}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 126
     .line 127
@@ -3587,8 +3308,7 @@ return-void
     add-long/2addr v9, v0
 
     .line 149
-    invoke-static {v11, v12}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v11, v12}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 150
     .line 151
@@ -3635,8 +3355,7 @@ return-void
     add-long/2addr v11, v0
 
     .line 171
-    invoke-static {v9, v10}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v9, v10}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 172
     .line 173
@@ -3683,8 +3402,7 @@ return-void
     add-long/2addr v9, v0
 
     .line 193
-    invoke-static {v11, v12}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v11, v12}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 194
     .line 195
@@ -3726,8 +3444,7 @@ return-void
     add-long/2addr v0, v7
 
     .line 213
-    invoke-static {v9, v10}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByte(J)B
+    invoke-static {v9, v10}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByte(J)B
 
     .line 214
     .line 215
@@ -3747,8 +3464,7 @@ return-void
     .line 221
     .line 222
     :goto_3
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawVarint64SlowPath()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawVarint64SlowPath()J
 
     .line 223
     .line 224
@@ -3779,8 +3495,7 @@ return-void
 
     .line 233
     :goto_4
-    iput-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J    
+    iput-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
     return-wide v0
 .end method
 
@@ -3804,8 +3519,7 @@ return-void
 
     .line 7
     .line 8
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawByte()B
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawByte()B
 
     .line 9
     .line 10
@@ -3842,8 +3556,7 @@ return-void
 
     .line 25
     :cond_1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->malformedVarint()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->malformedVarint()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 26
     .line 27
@@ -3857,8 +3570,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawLittleEndian32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawLittleEndian32()I
 
     .line 2
     .line 3
@@ -3872,8 +3584,7 @@ return-void
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawLittleEndian64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawLittleEndian64()J
 
     .line 2
     .line 3
@@ -3887,8 +3598,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawVarint32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawVarint32()I
 
     .line 2
     .line 3
@@ -3896,8 +3606,7 @@ return-void
     move-result v0
 
     .line 5
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->decodeZigZag32(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->decodeZigZag32(I)I
 
     .line 6
     .line 7
@@ -3911,8 +3620,7 @@ return-void
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawVarint64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawVarint64()J
 
     .line 2
     .line 3
@@ -3920,8 +3628,7 @@ return-void
     move-result-wide v0
 
     .line 5
-    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->decodeZigZag64(J)J
+    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->decodeZigZag64(J)J
 
     .line 6
     .line 7
@@ -3935,8 +3642,7 @@ return-void
     .locals 8
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawVarint32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawVarint32()I
 
     .line 2
     .line 3
@@ -3951,16 +3657,14 @@ return-void
     int-to-long v6, v0
 
     .line 8
-    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferLimit:J
+    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferLimit:J
 
     .line 9
     .line 10
     move-wide v3, v1
 
     .line 11
-    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 12
     .line 13
@@ -3983,8 +3687,7 @@ return-void
 
     .line 21
     .line 22
-    invoke-static/range {v1 .. v7}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->copyMemory(J[BJJ)V
+    invoke-static/range {v1 .. v7}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->copyMemory(J[BJJ)V
 
     .line 23
     .line 24
@@ -3993,27 +3696,23 @@ return-void
 
     .line 26
     .line 27
-    sget-object v1, Landroidx/datastore/preferences/protobuf/Internal;
-    ->UTF_8:Ljava/nio/charset/Charset;
+    sget-object v1, Landroidx/datastore/preferences/protobuf/Internal;->UTF_8:Ljava/nio/charset/Charset;
 
     .line 28
     .line 29
-    invoke-direct {v0, v3, v1}, Ljava/lang/String;
-    -><init>([BLjava/nio/charset/Charset;)V
+    invoke-direct {v0, v3, v1}, Ljava/lang/String;-><init>([BLjava/nio/charset/Charset;)V
 
     .line 30
     .line 31
     .line 32
-    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 33
     .line 34
     add-long/2addr v1, v6
 
     .line 35
-    iput-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J    
+    iput-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
     return-object v0
 
     .line 38
@@ -4022,8 +3721,7 @@ return-void
 
     .line 39
     .line 40
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->remaining()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->remaining()I
 
     .line 41
     .line 42
@@ -4042,8 +3740,7 @@ return-void
     const/4 v2, 0x0
 
     .line 49
-    invoke-direct {p0, v1, v2, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawBytesTo([BII)V
+    invoke-direct {p0, v1, v2, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawBytesTo([BII)V
 
     .line 50
     .line 51
@@ -4052,13 +3749,11 @@ return-void
 
     .line 53
     .line 54
-    sget-object v2, Landroidx/datastore/preferences/protobuf/Internal;
-    ->UTF_8:Ljava/nio/charset/Charset;
+    sget-object v2, Landroidx/datastore/preferences/protobuf/Internal;->UTF_8:Ljava/nio/charset/Charset;
 
     .line 55
     .line 56
-    invoke-direct {v0, v1, v2}, Ljava/lang/String;
-    -><init>([BLjava/nio/charset/Charset;)V
+    invoke-direct {v0, v1, v2}, Ljava/lang/String;-><init>([BLjava/nio/charset/Charset;)V
 return-object v0
 
     .line 60
@@ -4075,8 +3770,7 @@ return-object v0
 
     .line 66
     .line 67
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->negativeSize()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->negativeSize()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 68
     .line 69
@@ -4088,8 +3782,7 @@ return-object v0
 
     .line 72
     :cond_3
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 73
     .line 74
@@ -4103,8 +3796,7 @@ return-object v0
     .locals 8
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawVarint32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawVarint32()I
 
     .line 2
     .line 3
@@ -4119,13 +3811,11 @@ return-object v0
     int-to-long v1, v0
 
     .line 8
-    iget-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferLimit:J
+    iget-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferLimit:J
 
     .line 9
     .line 10
-    iget-wide v5, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v5, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 11
     .line 12
@@ -4140,8 +3830,7 @@ return-object v0
 
     .line 16
     .line 17
-    iget-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferStartPos:J
+    iget-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferStartPos:J
 
     .line 18
     .line 19
@@ -4151,13 +3840,11 @@ return-object v0
     long-to-int v3, v5
 
     .line 21
-    iget-object v4, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBuffer:Ljava/nio/ByteBuffer;
+    iget-object v4, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBuffer:Ljava/nio/ByteBuffer;
 
     .line 22
     .line 23
-    invoke-static {v4, v3, v0}, Landroidx/datastore/preferences/protobuf/Utf8;
-    ->decodeUtf8(Ljava/nio/ByteBuffer;II)Ljava/lang/String;
+    invoke-static {v4, v3, v0}, Landroidx/datastore/preferences/protobuf/Utf8;->decodeUtf8(Ljava/nio/ByteBuffer;II)Ljava/lang/String;
 
     .line 24
     .line 25
@@ -4165,16 +3852,14 @@ return-object v0
     move-result-object v0
 
     .line 27
-    iget-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 28
     .line 29
     add-long/2addr v3, v1
 
     .line 30
-    iput-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J    
+    iput-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
     return-object v0
 
     .line 33
@@ -4183,8 +3868,7 @@ return-object v0
 
     .line 34
     .line 35
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->remaining()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->remaining()I
 
     .line 36
     .line 37
@@ -4203,14 +3887,12 @@ return-object v0
     const/4 v2, 0x0
 
     .line 44
-    invoke-direct {p0, v1, v2, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawBytesTo([BII)V
+    invoke-direct {p0, v1, v2, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawBytesTo([BII)V
 
     .line 45
     .line 46
     .line 47
-    invoke-static {v1, v2, v0}, Landroidx/datastore/preferences/protobuf/Utf8;
-    ->decodeUtf8([BII)Ljava/lang/String;
+    invoke-static {v1, v2, v0}, Landroidx/datastore/preferences/protobuf/Utf8;->decodeUtf8([BII)Ljava/lang/String;
 
     .line 48
     .line 49
@@ -4233,8 +3915,7 @@ return-object v0
 
     .line 58
     .line 59
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->negativeSize()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->negativeSize()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 60
     .line 61
@@ -4246,8 +3927,7 @@ return-object v0
 
     .line 64
     :cond_3
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 65
     .line 66
@@ -4261,8 +3941,7 @@ return-object v0
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->isAtEnd()Z
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->isAtEnd()Z
 
     .line 2
     .line 3
@@ -4277,14 +3956,12 @@ return-object v0
     const/4 v0, 0x0
 
     .line 8
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->lastTag:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->lastTag:I
     return v0
 
     .line 11
     :cond_0
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawVarint32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawVarint32()I
 
     .line 12
     .line 13
@@ -4292,13 +3969,11 @@ return-object v0
     move-result v0
 
     .line 15
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->lastTag:I
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->lastTag:I
 
     .line 16
     .line 17
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagFieldNumber(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagFieldNumber(I)I
 
     .line 18
     .line 19
@@ -4310,13 +3985,11 @@ return-object v0
 
     .line 22
     .line 23
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->lastTag:I    return v0
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->lastTag:I    return v0
 
     .line 26
     :cond_1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidTag()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidTag()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 27
     .line 28
@@ -4330,8 +4003,7 @@ return-object v0
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawVarint32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawVarint32()I
 
     .line 2
     .line 3
@@ -4345,8 +4017,7 @@ return-object v0
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawVarint64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawVarint64()J
 
     .line 2
     .line 3
@@ -4362,8 +4033,7 @@ return-object v0
     .end annotation
 
     .line 1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    ->getEmptyRegistry()Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->getEmptyRegistry()Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
 
     .line 2
     .line 3
@@ -4371,8 +4041,7 @@ return-object v0
     move-result-object v0
 
     .line 5
-    invoke-virtual {p0, p1, p2, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readGroup(ILandroidx/datastore/preferences/protobuf/MessageLite$Builder;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
+    invoke-virtual {p0, p1, p2, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readGroup(ILandroidx/datastore/preferences/protobuf/MessageLite$Builder;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
     return-void
 .end method
 
@@ -4380,24 +4049,21 @@ return-object v0
     .locals 4
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->totalBytesRead:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->totalBytesRead:I
 
     .line 2
     .line 3
     int-to-long v0, v0
 
     .line 4
-    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 5
     .line 6
     add-long/2addr v0, v2
 
     .line 7
-    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferStartPos:J
+    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferStartPos:J
 
     .line 8
     .line 9
@@ -4407,8 +4073,7 @@ return-object v0
     long-to-int v1, v0
 
     .line 11
-    iput v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->startOffset:I    
+    iput v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->startOffset:I
     return-void
 .end method
 
@@ -4416,8 +4081,7 @@ return-object v0
     .locals 4
 
     .line 1
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     move-result v0
 
@@ -4444,15 +4108,13 @@ return-object v0
     if-ne v0, p1, :cond_0
 
     .line 2
-    invoke-virtual {p0, v3}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->skipRawBytes(I)V
+    invoke-virtual {p0, v3}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->skipRawBytes(I)V
 
     return v1
 
     .line 3
     :cond_0
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     move-result-object p1
 
@@ -4465,35 +4127,29 @@ return-object v0
 
     .line 4
     :cond_2
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->skipMessage()V
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->skipMessage()V
 
     .line 5
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagFieldNumber(I)I
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagFieldNumber(I)I
 
     move-result p1
 
-    invoke-static {p1, v3}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->makeTag(II)I
+    invoke-static {p1, v3}, Landroidx/datastore/preferences/protobuf/WireFormat;->makeTag(II)I
 
     move-result p1
 
     .line 6
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->checkLastTagWas(I)V
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->checkLastTagWas(I)V
 
     return v1
 
     .line 7
     :cond_3
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawVarint32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawVarint32()I
 
     move-result p1
 
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->skipRawBytes(I)V
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->skipRawBytes(I)V
 
     return v1
 
@@ -4501,15 +4157,13 @@ return-object v0
     const/16 p1, 0x8
 
     .line 8
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->skipRawBytes(I)V
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->skipRawBytes(I)V
 
     return v1
 
     .line 9
     :cond_5
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->skipRawVarint()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->skipRawVarint()V
 
     return v1
 .end method
@@ -4518,8 +4172,7 @@ return-object v0
     .locals 4
 
     .line 10
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     move-result v0
 
@@ -4546,25 +4199,21 @@ return-object v0
     if-ne v0, v2, :cond_0
 
     .line 11
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawLittleEndian32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawLittleEndian32()I
 
     move-result v0
 
     .line 12
-    invoke-virtual {p2, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
-    ->writeRawVarint32(I)V
+    invoke-virtual {p2, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeRawVarint32(I)V
 
     .line 13
-    invoke-virtual {p2, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
-    ->writeFixed32NoTag(I)V
+    invoke-virtual {p2, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeFixed32NoTag(I)V
 
     return v1
 
     .line 14
     :cond_0
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     move-result-object p1
 
@@ -4577,83 +4226,68 @@ return-object v0
 
     .line 15
     :cond_2
-    invoke-virtual {p2, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
-    ->writeRawVarint32(I)V
+    invoke-virtual {p2, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeRawVarint32(I)V
 
     .line 16
-    invoke-virtual {p0, p2}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->skipMessage(Landroidx/datastore/preferences/protobuf/CodedOutputStream;)V
+    invoke-virtual {p0, p2}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->skipMessage(Landroidx/datastore/preferences/protobuf/CodedOutputStream;)V
 
     .line 17
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagFieldNumber(I)I
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagFieldNumber(I)I
 
     move-result p1
 
     .line 18
-    invoke-static {p1, v3}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->makeTag(II)I
+    invoke-static {p1, v3}, Landroidx/datastore/preferences/protobuf/WireFormat;->makeTag(II)I
 
     move-result p1
 
     .line 19
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->checkLastTagWas(I)V
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->checkLastTagWas(I)V
 
     .line 20
-    invoke-virtual {p2, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
-    ->writeRawVarint32(I)V
+    invoke-virtual {p2, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeRawVarint32(I)V
 
     return v1
 
     .line 21
     :cond_3
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readBytes()Landroidx/datastore/preferences/protobuf/ByteString;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readBytes()Landroidx/datastore/preferences/protobuf/ByteString;
 
     move-result-object v0
 
     .line 22
-    invoke-virtual {p2, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
-    ->writeRawVarint32(I)V
+    invoke-virtual {p2, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeRawVarint32(I)V
 
     .line 23
-    invoke-virtual {p2, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
-    ->writeBytesNoTag(Landroidx/datastore/preferences/protobuf/ByteString;)V
+    invoke-virtual {p2, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeBytesNoTag(Landroidx/datastore/preferences/protobuf/ByteString;)V
 
     return v1
 
     .line 24
     :cond_4
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readRawLittleEndian64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawLittleEndian64()J
 
     move-result-wide v2
 
     .line 25
-    invoke-virtual {p2, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
-    ->writeRawVarint32(I)V
+    invoke-virtual {p2, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeRawVarint32(I)V
 
     .line 26
-    invoke-virtual {p2, v2, v3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
-    ->writeFixed64NoTag(J)V
+    invoke-virtual {p2, v2, v3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeFixed64NoTag(J)V
 
     return v1
 
     .line 27
     :cond_5
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readInt64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readInt64()J
 
     move-result-wide v2
 
     .line 28
-    invoke-virtual {p2, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
-    ->writeRawVarint32(I)V
+    invoke-virtual {p2, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeRawVarint32(I)V
 
     .line 29
-    invoke-virtual {p2, v2, v3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
-    ->writeUInt64NoTag(J)V
+    invoke-virtual {p2, v2, v3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeUInt64NoTag(J)V
 
     return v1
 .end method
@@ -4663,16 +4297,14 @@ return-object v0
 
     .line 1
     :cond_0
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readTag()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readTag()I
 
     move-result v0
 
     if-eqz v0, :cond_1
 
     .line 2
-    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->skipField(I)Z
+    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->skipField(I)Z
 
     move-result v0
 
@@ -4687,16 +4319,14 @@ return-object v0
 
     .line 3
     :cond_0
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->readTag()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readTag()I
 
     move-result v0
 
     if-eqz v0, :cond_1
 
     .line 4
-    invoke-virtual {p0, v0, p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->skipField(ILandroidx/datastore/preferences/protobuf/CodedOutputStream;)Z
+    invoke-virtual {p0, v0, p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->skipField(ILandroidx/datastore/preferences/protobuf/CodedOutputStream;)Z
 
     move-result v0
 
@@ -4717,13 +4347,11 @@ return-object v0
     int-to-long v0, p1
 
     .line 4
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->totalBufferSize:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->totalBufferSize:I
 
     .line 5
     .line 6
-    iget v3, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->totalBytesRead:I
+    iget v3, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->totalBytesRead:I
 
     .line 7
     .line 8
@@ -4733,16 +4361,14 @@ return-object v0
     int-to-long v2, v2
 
     .line 10
-    iget-wide v4, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v4, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 11
     .line 12
     sub-long/2addr v2, v4
 
     .line 13
-    iget-wide v4, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferStartPos:J
+    iget-wide v4, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferStartPos:J
 
     .line 14
     .line 15
@@ -4762,8 +4388,7 @@ return-object v0
 
     .line 21
     .line 22
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentRemaining()J
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentRemaining()J
 
     .line 23
     .line 24
@@ -4783,15 +4408,13 @@ return-object v0
 
     .line 31
     .line 32
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->getNextByteBuffer()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->getNextByteBuffer()V
 
     .line 33
     .line 34
     .line 35
     :cond_0
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentRemaining()J
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentRemaining()J
 
     .line 36
     .line 37
@@ -4802,8 +4425,7 @@ return-object v0
     long-to-int v1, v0
 
     .line 40
-    invoke-static {p1, v1}, Ljava/lang/Math;
-    ->min(II)I
+    invoke-static {p1, v1}, Ljava/lang/Math;->min(II)I
 
     .line 41
     .line 42
@@ -4814,8 +4436,7 @@ return-object v0
     sub-int/2addr p1, v0
 
     .line 45
-    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 46
     .line 47
@@ -4825,8 +4446,7 @@ return-object v0
     add-long/2addr v1, v3
 
     .line 49
-    iput-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;
-    ->currentByteBufferPos:J
+    iput-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->currentByteBufferPos:J
 
     .line 50
     .line 51
@@ -4842,8 +4462,7 @@ return-object v0
 
     .line 54
     .line 55
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->negativeSize()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->negativeSize()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 56
     .line 57
@@ -4855,8 +4474,7 @@ return-object v0
 
     .line 60
     :cond_3
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 61
     .line 62

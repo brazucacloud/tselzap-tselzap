@@ -37,8 +37,7 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -50,27 +49,23 @@
     const/4 v1, 0x1
 
     .line 7
-    invoke-direct {v0, v1}, Ljava/util/concurrent/CountDownLatch;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Ljava/util/concurrent/CountDownLatch;-><init>(I)V
 
     .line 8
     .line 9
     .line 10
-    iput-object v0, p0, Landroidx/core/app/PendingIntentCompat$GatedCallback;
-    ->mComplete:Ljava/util/concurrent/CountDownLatch;
+    iput-object v0, p0, Landroidx/core/app/PendingIntentCompat$GatedCallback;->mComplete:Ljava/util/concurrent/CountDownLatch;
 
     .line 11
     .line 12
-    iput-object p1, p0, Landroidx/core/app/PendingIntentCompat$GatedCallback;
-    ->mCallback:Landroid/app/PendingIntent$OnFinished;
+    iput-object p1, p0, Landroidx/core/app/PendingIntentCompat$GatedCallback;->mCallback:Landroid/app/PendingIntent$OnFinished;
 
     .line 13
     .line 14
     const/4 p1, 0x0
 
     .line 15
-    iput-boolean p1, p0, Landroidx/core/app/PendingIntentCompat$GatedCallback;
-    ->mSuccess:Z
+    iput-boolean p1, p0, Landroidx/core/app/PendingIntentCompat$GatedCallback;->mSuccess:Z
 
     .line 16
     .line 17
@@ -81,8 +76,7 @@
     .locals 0
 
     .line 1
-    invoke-direct/range {p0 .. p5}, Landroidx/core/app/PendingIntentCompat$GatedCallback;
-    ->onSendFinished(Landroid/app/PendingIntent;Landroid/content/Intent;ILjava/lang/String;Landroid/os/Bundle;)V
+    invoke-direct/range {p0 .. p5}, Landroidx/core/app/PendingIntentCompat$GatedCallback;->onSendFinished(Landroid/app/PendingIntent;Landroid/content/Intent;ILjava/lang/String;Landroid/os/Bundle;)V
 return-void
 .end method
 
@@ -98,13 +92,11 @@ return-void
     .line 3
     :goto_0
     :try_start_0
-    iget-object v0, p0, Landroidx/core/app/PendingIntentCompat$GatedCallback;
-    ->mComplete:Ljava/util/concurrent/CountDownLatch;
+    iget-object v0, p0, Landroidx/core/app/PendingIntentCompat$GatedCallback;->mComplete:Ljava/util/concurrent/CountDownLatch;
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Ljava/util/concurrent/CountDownLatch;
-    ->await()V
+    invoke-virtual {v0}, Ljava/util/concurrent/CountDownLatch;->await()V
     :try_end_0
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -116,8 +108,7 @@ return-void
 
     .line 9
     .line 10
-    invoke-static {}, Ljava/lang/Thread;
-    ->currentThread()Ljava/lang/Thread;
+    invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     .line 11
     .line 12
@@ -125,15 +116,13 @@ return-void
     move-result-object v0
 
     .line 14
-    invoke-virtual {v0}, Ljava/lang/Thread;
-    ->interrupt()V
+    invoke-virtual {v0}, Ljava/lang/Thread;->interrupt()V
 
     .line 15
     .line 16
     .line 17
     :cond_0
-    iget-object v1, p0, Landroidx/core/app/PendingIntentCompat$GatedCallback;
-    ->mCallback:Landroid/app/PendingIntent$OnFinished;
+    iget-object v1, p0, Landroidx/core/app/PendingIntentCompat$GatedCallback;->mCallback:Landroid/app/PendingIntent$OnFinished;
 
     .line 18
     .line 19
@@ -156,8 +145,7 @@ return-void
     move-object v6, p5
 
     .line 26
-    invoke-interface/range {v1 .. v6}, Landroid/app/PendingIntent$OnFinished;
-    ->onSendFinished(Landroid/app/PendingIntent;Landroid/content/Intent;ILjava/lang/String;Landroid/os/Bundle;)V
+    invoke-interface/range {v1 .. v6}, Landroid/app/PendingIntent$OnFinished;->onSendFinished(Landroid/app/PendingIntent;Landroid/content/Intent;ILjava/lang/String;Landroid/os/Bundle;)V
 
     .line 27
     .line 28
@@ -165,8 +153,7 @@ return-void
     const/4 p1, 0x0
 
     .line 30
-    iput-object p1, p0, Landroidx/core/app/PendingIntentCompat$GatedCallback;
-    ->mCallback:Landroid/app/PendingIntent$OnFinished;
+    iput-object p1, p0, Landroidx/core/app/PendingIntentCompat$GatedCallback;->mCallback:Landroid/app/PendingIntent$OnFinished;
 
     .line 31
     .line 32
@@ -208,8 +195,7 @@ return-void
 
     .line 43
     .line 44
-    invoke-static {}, Ljava/lang/Thread;
-    ->currentThread()Ljava/lang/Thread;
+    invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     .line 45
     .line 46
@@ -217,8 +203,7 @@ return-void
     move-result-object p2
 
     .line 48
-    invoke-virtual {p2}, Ljava/lang/Thread;
-    ->interrupt()V
+    invoke-virtual {p2}, Ljava/lang/Thread;->interrupt()V
 
     .line 49
     .line 50
@@ -705,8 +690,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/core/app/PendingIntentCompat$GatedCallback;
-    ->mSuccess:Z
+    iget-boolean v0, p0, Landroidx/core/app/PendingIntentCompat$GatedCallback;->mSuccess:Z
 
     .line 2
     .line 3
@@ -717,19 +701,16 @@ return-void
     const/4 v0, 0x0
 
     .line 6
-    iput-object v0, p0, Landroidx/core/app/PendingIntentCompat$GatedCallback;
-    ->mCallback:Landroid/app/PendingIntent$OnFinished;
+    iput-object v0, p0, Landroidx/core/app/PendingIntentCompat$GatedCallback;->mCallback:Landroid/app/PendingIntent$OnFinished;
 
     .line 7
     .line 8
     :cond_0
-    iget-object v0, p0, Landroidx/core/app/PendingIntentCompat$GatedCallback;
-    ->mComplete:Ljava/util/concurrent/CountDownLatch;
+    iget-object v0, p0, Landroidx/core/app/PendingIntentCompat$GatedCallback;->mComplete:Ljava/util/concurrent/CountDownLatch;
 
     .line 9
     .line 10
-    invoke-virtual {v0}, Ljava/util/concurrent/CountDownLatch;
-    ->countDown()V
+    invoke-virtual {v0}, Ljava/util/concurrent/CountDownLatch;->countDown()V
 
     .line 11
     .line 12
@@ -744,8 +725,7 @@ return-void
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/core/app/PendingIntentCompat$GatedCallback;
-    ->mSuccess:Z
+    iput-boolean v0, p0, Landroidx/core/app/PendingIntentCompat$GatedCallback;->mSuccess:Z
 
     .line 3
     .line 4
@@ -758,8 +738,7 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/PendingIntentCompat$GatedCallback;
-    ->mCallback:Landroid/app/PendingIntent$OnFinished;
+    iget-object v0, p0, Landroidx/core/app/PendingIntentCompat$GatedCallback;->mCallback:Landroid/app/PendingIntent$OnFinished;
 
     .line 2
     .line 3
@@ -777,8 +756,7 @@ return-void
 
     .line 8
     .line 9
-    invoke-direct {v0, p0}, Landroidx/core/app/e;
-    -><init>(Landroidx/core/app/PendingIntentCompat$GatedCallback;)V
+    invoke-direct {v0, p0}, Landroidx/core/app/e;-><init>(Landroidx/core/app/PendingIntentCompat$GatedCallback;)V
 
     .line 10
     .line 11

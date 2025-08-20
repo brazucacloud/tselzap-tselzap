@@ -5,8 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/appcompat/widget/ActivityChooserView;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    value = Landroidx/appcompat/widget/ActivityChooserView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,13 +23,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/ActivityChooserView$4;
-    ->this$0:Landroidx/appcompat/widget/ActivityChooserView;
+    iput-object p1, p0, Landroidx/appcompat/widget/ActivityChooserView$4;->this$0:Landroidx/appcompat/widget/ActivityChooserView;
 
     .line 2
     .line 3
-    invoke-direct {p0, p2}, Landroidx/appcompat/widget/ForwardingListener;
-    -><init>(Landroid/view/View;)V    
+    invoke-direct {p0, p2}, Landroidx/appcompat/widget/ForwardingListener;-><init>(Landroid/view/View;)V
     return-void
 .end method
 
@@ -40,13 +37,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/ActivityChooserView$4;
-    ->this$0:Landroidx/appcompat/widget/ActivityChooserView;
+    iget-object v0, p0, Landroidx/appcompat/widget/ActivityChooserView$4;->this$0:Landroidx/appcompat/widget/ActivityChooserView;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/widget/ActivityChooserView;
-    ->getListPopupWindow()Landroidx/appcompat/widget/ListPopupWindow;
+    invoke-virtual {v0}, Landroidx/appcompat/widget/ActivityChooserView;->getListPopupWindow()Landroidx/appcompat/widget/ListPopupWindow;
 
     .line 4
     .line 5
@@ -60,13 +55,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/ActivityChooserView$4;
-    ->this$0:Landroidx/appcompat/widget/ActivityChooserView;
+    iget-object v0, p0, Landroidx/appcompat/widget/ActivityChooserView$4;->this$0:Landroidx/appcompat/widget/ActivityChooserView;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/widget/ActivityChooserView;
-    ->showPopup()Z
+    invoke-virtual {v0}, Landroidx/appcompat/widget/ActivityChooserView;->showPopup()Z
 
     .line 4
     .line 5
@@ -80,13 +73,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/ActivityChooserView$4;
-    ->this$0:Landroidx/appcompat/widget/ActivityChooserView;
+    iget-object v0, p0, Landroidx/appcompat/widget/ActivityChooserView$4;->this$0:Landroidx/appcompat/widget/ActivityChooserView;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/widget/ActivityChooserView;
-    ->dismissPopup()Z
+    invoke-virtual {v0}, Landroidx/appcompat/widget/ActivityChooserView;->dismissPopup()Z
 
     .line 4
     .line 5

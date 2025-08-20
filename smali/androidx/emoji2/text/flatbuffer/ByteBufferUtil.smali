@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -21,8 +20,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Ljava/nio/Buffer;
-    ->position()I
+    invoke-virtual {p0}, Ljava/nio/Buffer;->position()I
 
     .line 2
     .line 3
@@ -30,8 +28,7 @@
     move-result v0
 
     .line 5
-    invoke-virtual {p0, v0}, Ljava/nio/ByteBuffer;
-    ->getInt(I)I
+    invoke-virtual {p0, v0}, Ljava/nio/ByteBuffer;->getInt(I)I
 
     .line 6
     .line 7
@@ -45,8 +42,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Ljava/nio/ByteBuffer;
-    ->duplicate()Ljava/nio/ByteBuffer;
+    invoke-virtual {p0}, Ljava/nio/ByteBuffer;->duplicate()Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
@@ -54,8 +50,7 @@
     move-result-object p0
 
     .line 5
-    invoke-virtual {p0}, Ljava/nio/Buffer;
-    ->position()I
+    invoke-virtual {p0}, Ljava/nio/Buffer;->position()I
 
     .line 6
     .line 7
@@ -67,8 +62,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p0, v0}, Ljava/nio/ByteBuffer;
-    ->position(I)Ljava/nio/Buffer;
+    invoke-virtual {p0, v0}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
     .line 12
     .line 13

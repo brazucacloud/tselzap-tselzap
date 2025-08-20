@@ -38,8 +38,7 @@
     .line 5
     .line 6
     .line 7
-    invoke-static {p1, p2, v4, v0}, Lz0/a;
-    ->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
+    invoke-static {p1, p2, v4, v0}, Lz0/a;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
 
     .line 8
     .line 9
@@ -47,14 +46,12 @@
     move-result-object p1
 
     .line 11
-    invoke-direct {p0, p1, p2, v4}, Landroid/view/View;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v4}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 12
     .line 13
     .line 14
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 15
     .line 16
@@ -66,19 +63,16 @@
 
     .line 19
     .line 20
-    invoke-direct {p1}, Lu0/j;
-    -><init>()V
+    invoke-direct {p1}, Lu0/j;-><init>()V
 
     .line 21
     .line 22
     .line 23
-    iput-object p1, p0, Lcom/google/android/material/divider/MaterialDivider;
-    ->b:Lu0/j;
+    iput-object p1, p0, Lcom/google/android/material/divider/MaterialDivider;->b:Lu0/j;
 
     .line 24
     .line 25
-    sget-object v3, LY/a;
-    ->w:[I
+    sget-object v3, LY/a;->w:[I
 
     .line 26
     .line 27
@@ -97,8 +91,7 @@
     move-object v2, p2
 
     .line 34
-    invoke-static/range {v1 .. v6}, Lo0/C;
-    ->d(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
+    invoke-static/range {v1 .. v6}, Lo0/C;->d(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
 
     .line 35
     .line 36
@@ -106,8 +99,7 @@
     move-result-object p2
 
     .line 38
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     .line 39
     .line 40
@@ -120,8 +112,7 @@
     .line 43
     .line 44
     .line 45
-    invoke-virtual {v0, v2}, Landroid/content/res/Resources;
-    ->getDimensionPixelSize(I)I
+    invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
     .line 46
     .line 47
@@ -132,8 +123,7 @@
     const/4 v2, 0x3
 
     .line 50
-    invoke-virtual {p2, v2, v0}, Landroid/content/res/TypedArray;
-    ->getDimensionPixelSize(II)I
+    invoke-virtual {p2, v2, v0}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
     .line 51
     .line 52
@@ -141,16 +131,14 @@
     move-result v0
 
     .line 54
-    iput v0, p0, Lcom/google/android/material/divider/MaterialDivider;
-    ->c:I
+    iput v0, p0, Lcom/google/android/material/divider/MaterialDivider;->c:I
 
     .line 55
     .line 56
     const/4 v0, 0x2
 
     .line 57
-    invoke-virtual {p2, v0, p1}, Landroid/content/res/TypedArray;
-    ->getDimensionPixelOffset(II)I
+    invoke-virtual {p2, v0, p1}, Landroid/content/res/TypedArray;->getDimensionPixelOffset(II)I
 
     .line 58
     .line 59
@@ -158,16 +146,14 @@
     move-result v0
 
     .line 61
-    iput v0, p0, Lcom/google/android/material/divider/MaterialDivider;
-    ->e:I
+    iput v0, p0, Lcom/google/android/material/divider/MaterialDivider;->e:I
 
     .line 62
     .line 63
     const/4 v0, 0x1
 
     .line 64
-    invoke-virtual {p2, v0, p1}, Landroid/content/res/TypedArray;
-    ->getDimensionPixelOffset(II)I
+    invoke-virtual {p2, v0, p1}, Landroid/content/res/TypedArray;->getDimensionPixelOffset(II)I
 
     .line 65
     .line 66
@@ -175,13 +161,11 @@
     move-result v0
 
     .line 68
-    iput v0, p0, Lcom/google/android/material/divider/MaterialDivider;
-    ->f:I
+    iput v0, p0, Lcom/google/android/material/divider/MaterialDivider;->f:I
 
     .line 69
     .line 70
-    invoke-static {v1, p2, p1}, Lr0/c;
-    ->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
+    invoke-static {v1, p2, p1}, Lr0/c;->a(Landroid/content/Context;Landroid/content/res/TypedArray;I)Landroid/content/res/ColorStateList;
 
     .line 71
     .line 72
@@ -189,8 +173,7 @@
     move-result-object p1
 
     .line 74
-    invoke-virtual {p1}, Landroid/content/res/ColorStateList;
-    ->getDefaultColor()I
+    invoke-virtual {p1}, Landroid/content/res/ColorStateList;->getDefaultColor()I
 
     .line 75
     .line 76
@@ -198,14 +181,12 @@
     move-result p1
 
     .line 78
-    invoke-virtual {p0, p1}, Lcom/google/android/material/divider/MaterialDivider;
-    ->setDividerColor(I)V
+    invoke-virtual {p0, p1}, Lcom/google/android/material/divider/MaterialDivider;->setDividerColor(I)V
 
     .line 79
     .line 80
     .line 81
-    invoke-virtual {p2}, Landroid/content/res/TypedArray;
-    ->recycle()V
+    invoke-virtual {p2}, Landroid/content/res/TypedArray;->recycle()V
 
     .line 82
     .line 83
@@ -219,8 +200,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/google/android/material/divider/MaterialDivider;
-    ->d:I
+    iget v0, p0, Lcom/google/android/material/divider/MaterialDivider;->d:I
 
     .line 2
     .line 3
@@ -233,8 +213,7 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Lcom/google/android/material/divider/MaterialDivider;
-    ->f:I
+    iget v0, p0, Lcom/google/android/material/divider/MaterialDivider;->f:I
 
     .line 2
     .line 3
@@ -247,8 +226,7 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Lcom/google/android/material/divider/MaterialDivider;
-    ->e:I
+    iget v0, p0, Lcom/google/android/material/divider/MaterialDivider;->e:I
 
     .line 2
     .line 3
@@ -259,8 +237,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/google/android/material/divider/MaterialDivider;
-    ->c:I
+    iget v0, p0, Lcom/google/android/material/divider/MaterialDivider;->c:I
 
     .line 2
     .line 3
@@ -271,14 +248,12 @@
     .locals 6
 
     .line 1
-    invoke-super {p0, p1}, Landroid/view/View;
-    ->onDraw(Landroid/graphics/Canvas;)V
+    invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getLayoutDirection()I
+    invoke-virtual {p0}, Landroid/view/View;->getLayoutDirection()I
 
     .line 5
     .line 6
@@ -308,8 +283,7 @@
 
     .line 15
     .line 16
-    iget v0, p0, Lcom/google/android/material/divider/MaterialDivider;
-    ->f:I
+    iget v0, p0, Lcom/google/android/material/divider/MaterialDivider;->f:I
 
     .line 17
     .line 18
@@ -317,8 +291,7 @@
 
     .line 19
     :cond_1
-    iget v0, p0, Lcom/google/android/material/divider/MaterialDivider;
-    ->e:I
+    iget v0, p0, Lcom/google/android/material/divider/MaterialDivider;->e:I
 
     .line 20
     .line 21
@@ -327,8 +300,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getWidth()I
+    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     .line 24
     .line 25
@@ -336,8 +308,7 @@
     move-result v2
 
     .line 27
-    iget v3, p0, Lcom/google/android/material/divider/MaterialDivider;
-    ->e:I
+    iget v3, p0, Lcom/google/android/material/divider/MaterialDivider;->e:I
 
     .line 28
     .line 29
@@ -349,8 +320,7 @@
 
     .line 31
     :cond_2
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getWidth()I
+    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     .line 32
     .line 33
@@ -358,8 +328,7 @@
     move-result v2
 
     .line 35
-    iget v3, p0, Lcom/google/android/material/divider/MaterialDivider;
-    ->f:I
+    iget v3, p0, Lcom/google/android/material/divider/MaterialDivider;->f:I
 
     .line 36
     .line 37
@@ -367,13 +336,11 @@
 
     .line 38
     :goto_3
-    iget-object v3, p0, Lcom/google/android/material/divider/MaterialDivider;
-    ->b:Lu0/j;
+    iget-object v3, p0, Lcom/google/android/material/divider/MaterialDivider;->b:Lu0/j;
 
     .line 39
     .line 40
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getBottom()I
+    invoke-virtual {p0}, Landroid/view/View;->getBottom()I
 
     .line 41
     .line 42
@@ -381,8 +348,7 @@
     move-result v4
 
     .line 44
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getTop()I
+    invoke-virtual {p0}, Landroid/view/View;->getTop()I
 
     .line 45
     .line 46
@@ -393,14 +359,12 @@
     sub-int/2addr v4, v5
 
     .line 49
-    invoke-virtual {v3, v0, v1, v2, v4}, Landroid/graphics/drawable/Drawable;
-    ->setBounds(IIII)V
+    invoke-virtual {v3, v0, v1, v2, v4}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
     .line 50
     .line 51
     .line 52
-    invoke-virtual {v3, p1}, Lu0/j;
-    ->draw(Landroid/graphics/Canvas;)V
+    invoke-virtual {v3, p1}, Lu0/j;->draw(Landroid/graphics/Canvas;)V
 
     .line 53
     .line 54
@@ -412,14 +376,12 @@
     .locals 1
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroid/view/View;
-    ->onMeasure(II)V
+    invoke-super {p0, p1, p2}, Landroid/view/View;->onMeasure(II)V
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p2}, Landroid/view/View$MeasureSpec;
-    ->getMode(I)I
+    invoke-static {p2}, Landroid/view/View$MeasureSpec;->getMode(I)I
 
     .line 5
     .line 6
@@ -427,8 +389,7 @@
     move-result p1
 
     .line 8
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getMeasuredHeight()I
+    invoke-virtual {p0}, Landroid/view/View;->getMeasuredHeight()I
 
     .line 9
     .line 10
@@ -457,8 +418,7 @@
     .line 20
     :cond_1
     :goto_0
-    iget p1, p0, Lcom/google/android/material/divider/MaterialDivider;
-    ->c:I
+    iget p1, p0, Lcom/google/android/material/divider/MaterialDivider;->c:I
 
     .line 21
     .line 22
@@ -474,8 +434,7 @@
 
     .line 27
     :cond_2
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getMeasuredWidth()I
+    invoke-virtual {p0}, Landroid/view/View;->getMeasuredWidth()I
 
     .line 28
     .line 29
@@ -483,8 +442,7 @@
     move-result p1
 
     .line 31
-    invoke-virtual {p0, p1, p2}, Landroid/view/View;
-    ->setMeasuredDimension(II)V
+    invoke-virtual {p0, p1, p2}, Landroid/view/View;->setMeasuredDimension(II)V
 
     .line 32
     .line 33
@@ -500,8 +458,7 @@
     .end param
 
     .line 1
-    iget v0, p0, Lcom/google/android/material/divider/MaterialDivider;
-    ->d:I
+    iget v0, p0, Lcom/google/android/material/divider/MaterialDivider;->d:I
 
     .line 2
     .line 3
@@ -509,18 +466,15 @@
 
     .line 4
     .line 5
-    iput p1, p0, Lcom/google/android/material/divider/MaterialDivider;
-    ->d:I
+    iput p1, p0, Lcom/google/android/material/divider/MaterialDivider;->d:I
 
     .line 6
     .line 7
-    iget-object v0, p0, Lcom/google/android/material/divider/MaterialDivider;
-    ->b:Lu0/j;
+    iget-object v0, p0, Lcom/google/android/material/divider/MaterialDivider;->b:Lu0/j;
 
     .line 8
     .line 9
-    invoke-static {p1}, Landroid/content/res/ColorStateList;
-    ->valueOf(I)Landroid/content/res/ColorStateList;
+    invoke-static {p1}, Landroid/content/res/ColorStateList;->valueOf(I)Landroid/content/res/ColorStateList;
 
     .line 10
     .line 11
@@ -528,14 +482,12 @@
     move-result-object p1
 
     .line 13
-    invoke-virtual {v0, p1}, Lu0/j;
-    ->o(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {v0, p1}, Lu0/j;->o(Landroid/content/res/ColorStateList;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {p0}, Landroid/view/View;
-    ->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     .line 17
     .line 18
@@ -552,8 +504,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 2
     .line 3
@@ -561,8 +512,7 @@
     move-result-object v0
 
     .line 5
-    invoke-static {v0, p1}, Landroidx/core/content/ContextCompat;
-    ->getColor(Landroid/content/Context;I)I
+    invoke-static {v0, p1}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
 
     .line 6
     .line 7
@@ -570,8 +520,7 @@
     move-result p1
 
     .line 9
-    invoke-virtual {p0, p1}, Lcom/google/android/material/divider/MaterialDivider;
-    ->setDividerColor(I)V
+    invoke-virtual {p0, p1}, Lcom/google/android/material/divider/MaterialDivider;->setDividerColor(I)V
 
     .line 10
     .line 11
@@ -587,8 +536,7 @@
     .end param
 
     .line 1
-    iput p1, p0, Lcom/google/android/material/divider/MaterialDivider;
-    ->f:I
+    iput p1, p0, Lcom/google/android/material/divider/MaterialDivider;->f:I
 
     .line 2
     .line 3
@@ -603,8 +551,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 2
     .line 3
@@ -612,8 +559,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Landroid/content/Context;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     .line 6
     .line 7
@@ -621,8 +567,7 @@
     move-result-object v0
 
     .line 9
-    invoke-virtual {v0, p1}, Landroid/content/res/Resources;
-    ->getDimensionPixelOffset(I)I
+    invoke-virtual {v0, p1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
     .line 10
     .line 11
@@ -630,8 +575,7 @@
     move-result p1
 
     .line 13
-    invoke-virtual {p0, p1}, Lcom/google/android/material/divider/MaterialDivider;
-    ->setDividerInsetEnd(I)V
+    invoke-virtual {p0, p1}, Lcom/google/android/material/divider/MaterialDivider;->setDividerInsetEnd(I)V
 
     .line 14
     .line 15
@@ -647,8 +591,7 @@
     .end param
 
     .line 1
-    iput p1, p0, Lcom/google/android/material/divider/MaterialDivider;
-    ->e:I
+    iput p1, p0, Lcom/google/android/material/divider/MaterialDivider;->e:I
 
     .line 2
     .line 3
@@ -663,8 +606,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 2
     .line 3
@@ -672,8 +614,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Landroid/content/Context;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     .line 6
     .line 7
@@ -681,8 +622,7 @@
     move-result-object v0
 
     .line 9
-    invoke-virtual {v0, p1}, Landroid/content/res/Resources;
-    ->getDimensionPixelOffset(I)I
+    invoke-virtual {v0, p1}, Landroid/content/res/Resources;->getDimensionPixelOffset(I)I
 
     .line 10
     .line 11
@@ -690,8 +630,7 @@
     move-result p1
 
     .line 13
-    invoke-virtual {p0, p1}, Lcom/google/android/material/divider/MaterialDivider;
-    ->setDividerInsetStart(I)V
+    invoke-virtual {p0, p1}, Lcom/google/android/material/divider/MaterialDivider;->setDividerInsetStart(I)V
 
     .line 14
     .line 15
@@ -707,8 +646,7 @@
     .end param
 
     .line 1
-    iget v0, p0, Lcom/google/android/material/divider/MaterialDivider;
-    ->c:I
+    iget v0, p0, Lcom/google/android/material/divider/MaterialDivider;->c:I
 
     .line 2
     .line 3
@@ -716,13 +654,11 @@
 
     .line 4
     .line 5
-    iput p1, p0, Lcom/google/android/material/divider/MaterialDivider;
-    ->c:I
+    iput p1, p0, Lcom/google/android/material/divider/MaterialDivider;->c:I
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroid/view/View;
-    ->requestLayout()V
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
 
     .line 8
     .line 9
@@ -739,8 +675,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 2
     .line 3
@@ -748,8 +683,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Landroid/content/Context;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     .line 6
     .line 7
@@ -757,8 +691,7 @@
     move-result-object v0
 
     .line 9
-    invoke-virtual {v0, p1}, Landroid/content/res/Resources;
-    ->getDimensionPixelSize(I)I
+    invoke-virtual {v0, p1}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
     .line 10
     .line 11
@@ -766,8 +699,7 @@
     move-result p1
 
     .line 13
-    invoke-virtual {p0, p1}, Lcom/google/android/material/divider/MaterialDivider;
-    ->setDividerThickness(I)V
+    invoke-virtual {p0, p1}, Lcom/google/android/material/divider/MaterialDivider;->setDividerThickness(I)V
 
     .line 14
     .line 15

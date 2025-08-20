@@ -20,8 +20,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -30,8 +29,7 @@
 
     .line 7
     .line 8
-    invoke-direct {v0}, Landroidx/navigation/fragment/FragmentNavigator$Extras$Builder;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/navigation/fragment/FragmentNavigator$Extras$Builder;-><init>()V
 
     .line 9
     .line 10
@@ -51,8 +49,7 @@
 
     .line 16
     .line 17
-    iget-object v4, v3, Lc1/f;
-    ->b:Ljava/lang/Object;
+    iget-object v4, v3, Lc1/f;->b:Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -60,8 +57,7 @@
 
     .line 20
     .line 21
-    iget-object v3, v3, Lc1/f;
-    ->c:Ljava/lang/Object;
+    iget-object v3, v3, Lc1/f;->c:Ljava/lang/Object;
 
     .line 22
     .line 23
@@ -69,8 +65,7 @@
 
     .line 24
     .line 25
-    invoke-virtual {v0, v4, v3}, Landroidx/navigation/fragment/FragmentNavigator$Extras$Builder;
-    ->addSharedElement(Landroid/view/View;Ljava/lang/String;)Landroidx/navigation/fragment/FragmentNavigator$Extras$Builder;
+    invoke-virtual {v0, v4, v3}, Landroidx/navigation/fragment/FragmentNavigator$Extras$Builder;->addSharedElement(Landroid/view/View;Ljava/lang/String;)Landroidx/navigation/fragment/FragmentNavigator$Extras$Builder;
 
     .line 26
     .line 27
@@ -83,8 +78,7 @@
 
     .line 31
     :cond_0
-    invoke-virtual {v0}, Landroidx/navigation/fragment/FragmentNavigator$Extras$Builder;
-    ->build()Landroidx/navigation/fragment/FragmentNavigator$Extras;
+    invoke-virtual {v0}, Landroidx/navigation/fragment/FragmentNavigator$Extras$Builder;->build()Landroidx/navigation/fragment/FragmentNavigator$Extras;
 
     .line 32
     .line 33

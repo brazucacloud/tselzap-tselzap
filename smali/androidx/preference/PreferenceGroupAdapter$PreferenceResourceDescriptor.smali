@@ -31,14 +31,12 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 5
     .line 6
@@ -46,8 +44,7 @@
     move-result-object v0
 
     .line 8
-    invoke-virtual {v0}, Ljava/lang/Class;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     .line 9
     .line 10
@@ -55,13 +52,11 @@
     move-result-object v0
 
     .line 12
-    iput-object v0, p0, Landroidx/preference/PreferenceGroupAdapter$PreferenceResourceDescriptor;
-    ->mClassName:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/preference/PreferenceGroupAdapter$PreferenceResourceDescriptor;->mClassName:Ljava/lang/String;
 
     .line 13
     .line 14
-    invoke-virtual {p1}, Landroidx/preference/Preference;
-    ->getLayoutResource()I
+    invoke-virtual {p1}, Landroidx/preference/Preference;->getLayoutResource()I
 
     .line 15
     .line 16
@@ -69,13 +64,11 @@
     move-result v0
 
     .line 18
-    iput v0, p0, Landroidx/preference/PreferenceGroupAdapter$PreferenceResourceDescriptor;
-    ->mLayoutResId:I
+    iput v0, p0, Landroidx/preference/PreferenceGroupAdapter$PreferenceResourceDescriptor;->mLayoutResId:I
 
     .line 19
     .line 20
-    invoke-virtual {p1}, Landroidx/preference/Preference;
-    ->getWidgetLayoutResource()I
+    invoke-virtual {p1}, Landroidx/preference/Preference;->getWidgetLayoutResource()I
 
     .line 21
     .line 22
@@ -83,8 +76,7 @@
     move-result p1
 
     .line 24
-    iput p1, p0, Landroidx/preference/PreferenceGroupAdapter$PreferenceResourceDescriptor;
-    ->mWidgetLayoutResId:I    
+    iput p1, p0, Landroidx/preference/PreferenceGroupAdapter$PreferenceResourceDescriptor;->mWidgetLayoutResId:I
     return-void
 .end method
 
@@ -109,13 +101,11 @@
 
     .line 8
     .line 9
-    iget v0, p0, Landroidx/preference/PreferenceGroupAdapter$PreferenceResourceDescriptor;
-    ->mLayoutResId:I
+    iget v0, p0, Landroidx/preference/PreferenceGroupAdapter$PreferenceResourceDescriptor;->mLayoutResId:I
 
     .line 10
     .line 11
-    iget v2, p1, Landroidx/preference/PreferenceGroupAdapter$PreferenceResourceDescriptor;
-    ->mLayoutResId:I
+    iget v2, p1, Landroidx/preference/PreferenceGroupAdapter$PreferenceResourceDescriptor;->mLayoutResId:I
 
     .line 12
     .line 13
@@ -123,13 +113,11 @@
 
     .line 14
     .line 15
-    iget v0, p0, Landroidx/preference/PreferenceGroupAdapter$PreferenceResourceDescriptor;
-    ->mWidgetLayoutResId:I
+    iget v0, p0, Landroidx/preference/PreferenceGroupAdapter$PreferenceResourceDescriptor;->mWidgetLayoutResId:I
 
     .line 16
     .line 17
-    iget v2, p1, Landroidx/preference/PreferenceGroupAdapter$PreferenceResourceDescriptor;
-    ->mWidgetLayoutResId:I
+    iget v2, p1, Landroidx/preference/PreferenceGroupAdapter$PreferenceResourceDescriptor;->mWidgetLayoutResId:I
 
     .line 18
     .line 19
@@ -137,18 +125,15 @@
 
     .line 20
     .line 21
-    iget-object v0, p0, Landroidx/preference/PreferenceGroupAdapter$PreferenceResourceDescriptor;
-    ->mClassName:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/preference/PreferenceGroupAdapter$PreferenceResourceDescriptor;->mClassName:Ljava/lang/String;
 
     .line 22
     .line 23
-    iget-object p1, p1, Landroidx/preference/PreferenceGroupAdapter$PreferenceResourceDescriptor;
-    ->mClassName:Ljava/lang/String;
+    iget-object p1, p1, Landroidx/preference/PreferenceGroupAdapter$PreferenceResourceDescriptor;->mClassName:Ljava/lang/String;
 
     .line 24
     .line 25
-    invoke-static {v0, p1}, Landroid/text/TextUtils;
-    ->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+    invoke-static {v0, p1}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
     .line 26
     .line 27
@@ -177,8 +162,7 @@
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/preference/PreferenceGroupAdapter$PreferenceResourceDescriptor;
-    ->mLayoutResId:I
+    iget v1, p0, Landroidx/preference/PreferenceGroupAdapter$PreferenceResourceDescriptor;->mLayoutResId:I
 
     .line 4
     .line 5
@@ -189,8 +173,7 @@
 
     .line 7
     .line 8
-    iget v1, p0, Landroidx/preference/PreferenceGroupAdapter$PreferenceResourceDescriptor;
-    ->mWidgetLayoutResId:I
+    iget v1, p0, Landroidx/preference/PreferenceGroupAdapter$PreferenceResourceDescriptor;->mWidgetLayoutResId:I
 
     .line 9
     .line 10
@@ -201,13 +184,11 @@
 
     .line 12
     .line 13
-    iget-object v1, p0, Landroidx/preference/PreferenceGroupAdapter$PreferenceResourceDescriptor;
-    ->mClassName:Ljava/lang/String;
+    iget-object v1, p0, Landroidx/preference/PreferenceGroupAdapter$PreferenceResourceDescriptor;->mClassName:Ljava/lang/String;
 
     .line 14
     .line 15
-    invoke-virtual {v1}, Ljava/lang/String;
-    ->hashCode()I
+    invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
 
     .line 16
     .line 17

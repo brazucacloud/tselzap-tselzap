@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -25,8 +24,7 @@
     .end param
 
     .line 1
-    invoke-static {p0}, Landroid/text/TextUtils;
-    ->getLayoutDirectionFromLocale(Ljava/util/Locale;)I
+    invoke-static {p0}, Landroid/text/TextUtils;->getLayoutDirectionFromLocale(Ljava/util/Locale;)I
 
     .line 2
     .line 3
@@ -46,8 +44,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroid/text/TextUtils;
-    ->htmlEncode(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Landroid/text/TextUtils;->htmlEncode(Ljava/lang/String;)Ljava/lang/String;
 
     .line 2
     .line 3

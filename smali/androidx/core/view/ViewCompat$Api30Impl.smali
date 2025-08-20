@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -38,8 +37,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getImportantForContentCapture()I
+    invoke-virtual {p0}, Landroid/view/View;->getImportantForContentCapture()I
 
     .line 2
     .line 3
@@ -55,8 +53,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getStateDescription()Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroid/view/View;->getStateDescription()Ljava/lang/CharSequence;
 
     .line 2
     .line 3
@@ -76,8 +73,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getWindowInsetsController()Landroid/view/WindowInsetsController;
+    invoke-virtual {p0}, Landroid/view/View;->getWindowInsetsController()Landroid/view/WindowInsetsController;
 
     .line 2
     .line 3
@@ -89,8 +85,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/view/WindowInsetsControllerCompat;
-    ->toWindowInsetsControllerCompat(Landroid/view/WindowInsetsController;)Landroidx/core/view/WindowInsetsControllerCompat;
+    invoke-static {p0}, Landroidx/core/view/WindowInsetsControllerCompat;->toWindowInsetsControllerCompat(Landroid/view/WindowInsetsController;)Landroidx/core/view/WindowInsetsControllerCompat;
 
     .line 8
     .line 9
@@ -112,8 +107,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;
-    ->isImportantForContentCapture()Z
+    invoke-virtual {p0}, Landroid/view/View;->isImportantForContentCapture()Z
 
     .line 2
     .line 3
@@ -129,8 +123,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;
-    ->setImportantForContentCapture(I)V
+    invoke-virtual {p0, p1}, Landroid/view/View;->setImportantForContentCapture(I)V
 
     .line 2
     .line 3
@@ -144,8 +137,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/View;
-    ->setStateDescription(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, p1}, Landroid/view/View;->setStateDescription(Ljava/lang/CharSequence;)V
 
     .line 2
     .line 3

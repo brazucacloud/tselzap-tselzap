@@ -5,8 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/lifecycle/ComputableLiveData;
-    -><init>(Ljava/util/concurrent/Executor;)V
+    value = Landroidx/lifecycle/ComputableLiveData;-><init>(Ljava/util/concurrent/Executor;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -45,13 +44,11 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/lifecycle/ComputableLiveData$_liveData$1;
-    ->this$0:Landroidx/lifecycle/ComputableLiveData;
+    iput-object p1, p0, Landroidx/lifecycle/ComputableLiveData$_liveData$1;->this$0:Landroidx/lifecycle/ComputableLiveData;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/lifecycle/LiveData;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/lifecycle/LiveData;-><init>()V
     return-void
 .end method
 
@@ -61,13 +58,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/ComputableLiveData$_liveData$1;
-    ->this$0:Landroidx/lifecycle/ComputableLiveData;
+    iget-object v0, p0, Landroidx/lifecycle/ComputableLiveData$_liveData$1;->this$0:Landroidx/lifecycle/ComputableLiveData;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/lifecycle/ComputableLiveData;
-    ->getExecutor$lifecycle_livedata_release()Ljava/util/concurrent/Executor;
+    invoke-virtual {v0}, Landroidx/lifecycle/ComputableLiveData;->getExecutor$lifecycle_livedata_release()Ljava/util/concurrent/Executor;
 
     .line 4
     .line 5
@@ -75,18 +70,15 @@
     move-result-object v0
 
     .line 7
-    iget-object v1, p0, Landroidx/lifecycle/ComputableLiveData$_liveData$1;
-    ->this$0:Landroidx/lifecycle/ComputableLiveData;
+    iget-object v1, p0, Landroidx/lifecycle/ComputableLiveData$_liveData$1;->this$0:Landroidx/lifecycle/ComputableLiveData;
 
     .line 8
     .line 9
-    iget-object v1, v1, Landroidx/lifecycle/ComputableLiveData;
-    ->refreshRunnable:Ljava/lang/Runnable;
+    iget-object v1, v1, Landroidx/lifecycle/ComputableLiveData;->refreshRunnable:Ljava/lang/Runnable;
 
     .line 10
     .line 11
-    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;
-    ->execute(Ljava/lang/Runnable;)V
+    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
     return-void
 .end method
 

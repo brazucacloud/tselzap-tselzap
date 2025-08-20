@@ -43,8 +43,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -53,25 +52,21 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 12
     .line 13
     .line 14
-    iput-object p1, p0, Landroidx/window/embedding/EmbeddingTranslatingCallback;
-    ->callback:Landroidx/window/embedding/EmbeddingInterfaceCompat$EmbeddingCallbackInterface;
+    iput-object p1, p0, Landroidx/window/embedding/EmbeddingTranslatingCallback;->callback:Landroidx/window/embedding/EmbeddingInterfaceCompat$EmbeddingCallbackInterface;
 
     .line 15
     .line 16
-    iput-object p2, p0, Landroidx/window/embedding/EmbeddingTranslatingCallback;
-    ->adapter:Landroidx/window/embedding/EmbeddingAdapter;
+    iput-object p2, p0, Landroidx/window/embedding/EmbeddingTranslatingCallback;->adapter:Landroidx/window/embedding/EmbeddingAdapter;
 
     .line 17
     .line 18
@@ -86,8 +81,7 @@
     .line 1
     check-cast p1, Ljava/util/List;
 
-    invoke-virtual {p0, p1}, Landroidx/window/embedding/EmbeddingTranslatingCallback;
-    ->accept(Ljava/util/List;)V
+    invoke-virtual {p0, p1}, Landroidx/window/embedding/EmbeddingTranslatingCallback;->accept(Ljava/util/List;)V
 return-void
 .end method
 
@@ -105,23 +99,18 @@ return-void
 
     const-string v0, "splitInfoList"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    iget-object v0, p0, Landroidx/window/embedding/EmbeddingTranslatingCallback;
-    ->callback:Landroidx/window/embedding/EmbeddingInterfaceCompat$EmbeddingCallbackInterface;
+    iget-object v0, p0, Landroidx/window/embedding/EmbeddingTranslatingCallback;->callback:Landroidx/window/embedding/EmbeddingInterfaceCompat$EmbeddingCallbackInterface;
 
-    iget-object v1, p0, Landroidx/window/embedding/EmbeddingTranslatingCallback;
-    ->adapter:Landroidx/window/embedding/EmbeddingAdapter;
+    iget-object v1, p0, Landroidx/window/embedding/EmbeddingTranslatingCallback;->adapter:Landroidx/window/embedding/EmbeddingAdapter;
 
-    invoke-virtual {v1, p1}, Landroidx/window/embedding/EmbeddingAdapter;
-    ->translate(Ljava/util/List;)Ljava/util/List;
+    invoke-virtual {v1, p1}, Landroidx/window/embedding/EmbeddingAdapter;->translate(Ljava/util/List;)Ljava/util/List;
 
     move-result-object p1
 
-    invoke-interface {v0, p1}, Landroidx/window/embedding/EmbeddingInterfaceCompat$EmbeddingCallbackInterface;
-    ->onSplitInfoChanged(Ljava/util/List;)V
+    invoke-interface {v0, p1}, Landroidx/window/embedding/EmbeddingInterfaceCompat$EmbeddingCallbackInterface;->onSplitInfoChanged(Ljava/util/List;)V
 return-void
 .end method
 

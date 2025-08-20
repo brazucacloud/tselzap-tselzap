@@ -12,14 +12,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0, p1}, Landroidx/navigation/NavController;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Landroidx/navigation/NavController;-><init>(Landroid/content/Context;)V
 return-void
 .end method
 
@@ -29,8 +27,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/navigation/NavController;
-    ->enableOnBackPressed(Z)V
+    invoke-super {p0, p1}, Landroidx/navigation/NavController;->enableOnBackPressed(Z)V
 return-void
 .end method
 
@@ -42,14 +39,12 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-super {p0, p1}, Landroidx/navigation/NavController;
-    ->setLifecycleOwner(Landroidx/lifecycle/LifecycleOwner;)V
+    invoke-super {p0, p1}, Landroidx/navigation/NavController;->setLifecycleOwner(Landroidx/lifecycle/LifecycleOwner;)V
 return-void
 .end method
 
@@ -61,14 +56,12 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-super {p0, p1}, Landroidx/navigation/NavController;
-    ->setOnBackPressedDispatcher(Landroidx/activity/OnBackPressedDispatcher;)V
+    invoke-super {p0, p1}, Landroidx/navigation/NavController;->setOnBackPressedDispatcher(Landroidx/activity/OnBackPressedDispatcher;)V
 return-void
 .end method
 
@@ -80,14 +73,12 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-super {p0, p1}, Landroidx/navigation/NavController;
-    ->setViewModelStore(Landroidx/lifecycle/ViewModelStore;)V    
+    invoke-super {p0, p1}, Landroidx/navigation/NavController;->setViewModelStore(Landroidx/lifecycle/ViewModelStore;)V
     return-void
 .end method
 

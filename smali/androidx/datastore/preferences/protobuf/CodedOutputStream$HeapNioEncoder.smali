@@ -25,8 +25,7 @@
     .locals 3
 
     .line 1
-    invoke-virtual {p1}, Ljava/nio/ByteBuffer;
-    ->array()[B
+    invoke-virtual {p1}, Ljava/nio/ByteBuffer;->array()[B
 
     .line 2
     .line 3
@@ -34,8 +33,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {p1}, Ljava/nio/ByteBuffer;
-    ->arrayOffset()I
+    invoke-virtual {p1}, Ljava/nio/ByteBuffer;->arrayOffset()I
 
     .line 6
     .line 7
@@ -43,8 +41,7 @@
     move-result v1
 
     .line 9
-    invoke-virtual {p1}, Ljava/nio/Buffer;
-    ->position()I
+    invoke-virtual {p1}, Ljava/nio/Buffer;->position()I
 
     .line 10
     .line 11
@@ -55,8 +52,7 @@
     add-int/2addr v2, v1
 
     .line 14
-    invoke-virtual {p1}, Ljava/nio/Buffer;
-    ->remaining()I
+    invoke-virtual {p1}, Ljava/nio/Buffer;->remaining()I
 
     .line 15
     .line 16
@@ -64,19 +60,16 @@
     move-result v1
 
     .line 18
-    invoke-direct {p0, v0, v2, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$ArrayEncoder;
-    -><init>([BII)V
+    invoke-direct {p0, v0, v2, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$ArrayEncoder;-><init>([BII)V
 
     .line 19
     .line 20
     .line 21
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$HeapNioEncoder;
-    ->byteBuffer:Ljava/nio/ByteBuffer;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$HeapNioEncoder;->byteBuffer:Ljava/nio/ByteBuffer;
 
     .line 22
     .line 23
-    invoke-virtual {p1}, Ljava/nio/Buffer;
-    ->position()I
+    invoke-virtual {p1}, Ljava/nio/Buffer;->position()I
 
     .line 24
     .line 25
@@ -84,8 +77,7 @@
     move-result p1
 
     .line 27
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$HeapNioEncoder;
-    ->initialPosition:I    
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$HeapNioEncoder;->initialPosition:I
     return-void
 .end method
 
@@ -95,18 +87,15 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$HeapNioEncoder;
-    ->byteBuffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$HeapNioEncoder;->byteBuffer:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$HeapNioEncoder;
-    ->initialPosition:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$HeapNioEncoder;->initialPosition:I
 
     .line 4
     .line 5
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$ArrayEncoder;
-    ->getTotalBytesWritten()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$ArrayEncoder;->getTotalBytesWritten()I
 
     .line 6
     .line 7
@@ -117,8 +106,7 @@
     add-int/2addr v1, v2
 
     .line 10
-    invoke-virtual {v0, v1}, Ljava/nio/ByteBuffer;
-    ->position(I)Ljava/nio/Buffer;    
+    invoke-virtual {v0, v1}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
     return-void
 .end method
 

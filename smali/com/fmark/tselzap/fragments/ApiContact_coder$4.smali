@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/fmark/tselzap/fragments/ApiContact_coder;
-    ->connectToSocket()V
+    value = Lcom/fmark/tselzap/fragments/ApiContact_coder;->connectToSocket()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder$4;
-    ->this$0:Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    iput-object p1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder$4;->this$0:Lcom/fmark/tselzap/fragments/ApiContact_coder;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
@@ -47,13 +44,11 @@
     .locals 0
 
     .line 1
-    iget-object p1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder$4;
-    ->this$0:Lcom/fmark/tselzap/fragments/ApiContact_coder;
+    iget-object p1, p0, Lcom/fmark/tselzap/fragments/ApiContact_coder$4;->this$0:Lcom/fmark/tselzap/fragments/ApiContact_coder;
 
     .line 2
     .line 3
-    invoke-static {p1}, Lcom/fmark/tselzap/fragments/ApiContact_coder;
-    ->l(Lcom/fmark/tselzap/fragments/ApiContact_coder;)V
+    invoke-static {p1}, Lcom/fmark/tselzap/fragments/ApiContact_coder;->l(Lcom/fmark/tselzap/fragments/ApiContact_coder;)V
 
     .line 4
     .line 5

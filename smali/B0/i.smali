@@ -19,8 +19,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p1}, Ljava/util/AbstractCollection;
-    ->size()I
+    invoke-virtual {p1}, Ljava/util/AbstractCollection;->size()I
 
     .line 2
     .line 3
@@ -28,30 +27,25 @@
     move-result v0
 
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 6
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lcom/bumptech/glide/b;
-    ->i(II)V
+    invoke-static {p2, v0}, Lcom/bumptech/glide/b;->i(II)V
 
     .line 9
     .line 10
     .line 11
-    iput v0, p0, LB0/i;
-    ->b:I
+    iput v0, p0, LB0/i;->b:I
 
     .line 12
     .line 13
-    iput p2, p0, LB0/i;
-    ->c:I
+    iput p2, p0, LB0/i;->c:I
 
     .line 14
     .line 15
-    iput-object p1, p0, LB0/i;
-    ->d:LB0/k;
+    iput-object p1, p0, LB0/i;->d:LB0/k;
 
     .line 16
     .line 17
@@ -64,13 +58,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, LB0/i;
-    ->d:LB0/k;
+    iget-object v0, p0, LB0/i;->d:LB0/k;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -88,8 +80,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     .line 4
     .line 5
@@ -122,13 +113,11 @@
     .locals 2
 
     .line 1
-    iget v0, p0, LB0/i;
-    ->c:I
+    iget v0, p0, LB0/i;->c:I
 
     .line 2
     .line 3
-    iget v1, p0, LB0/i;
-    ->b:I
+    iget v1, p0, LB0/i;->b:I
 
     .line 4
     .line 5
@@ -151,8 +140,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, LB0/i;
-    ->c:I
+    iget v0, p0, LB0/i;->c:I
 
     .line 2
     .line 3
@@ -175,8 +163,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, LB0/i;
-    ->hasNext()Z
+    invoke-virtual {p0}, LB0/i;->hasNext()Z
 
     .line 2
     .line 3
@@ -188,8 +175,7 @@
 
     .line 6
     .line 7
-    iget v0, p0, LB0/i;
-    ->c:I
+    iget v0, p0, LB0/i;->c:I
 
     .line 8
     .line 9
@@ -197,13 +183,11 @@
 
     .line 10
     .line 11
-    iput v1, p0, LB0/i;
-    ->c:I
+    iput v1, p0, LB0/i;->c:I
 
     .line 12
     .line 13
-    invoke-virtual {p0, v0}, LB0/i;
-    ->a(I)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, LB0/i;->a(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -218,8 +202,7 @@
 
     .line 19
     .line 20
-    invoke-direct {v0}, Ljava/util/NoSuchElementException;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/NoSuchElementException;-><init>()V
 
     .line 21
     .line 22
@@ -294,8 +277,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, LB0/i;
-    ->c:I
+    iget v0, p0, LB0/i;->c:I
 
     .line 2
     .line 3
@@ -306,8 +288,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, LB0/i;
-    ->hasPrevious()Z
+    invoke-virtual {p0}, LB0/i;->hasPrevious()Z
 
     .line 2
     .line 3
@@ -319,8 +300,7 @@
 
     .line 6
     .line 7
-    iget v0, p0, LB0/i;
-    ->c:I
+    iget v0, p0, LB0/i;->c:I
 
     .line 8
     .line 9
@@ -328,13 +308,11 @@
 
     .line 10
     .line 11
-    iput v0, p0, LB0/i;
-    ->c:I
+    iput v0, p0, LB0/i;->c:I
 
     .line 12
     .line 13
-    invoke-virtual {p0, v0}, LB0/i;
-    ->a(I)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, LB0/i;->a(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -349,8 +327,7 @@
 
     .line 19
     .line 20
-    invoke-direct {v0}, Ljava/util/NoSuchElementException;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/NoSuchElementException;-><init>()V
 
     .line 21
     .line 22
@@ -425,8 +402,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, LB0/i;
-    ->c:I
+    iget v0, p0, LB0/i;->c:I
 
     .line 2
     .line 3
@@ -445,8 +421,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     .line 4
     .line 5

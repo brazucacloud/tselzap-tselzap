@@ -42,11 +42,9 @@
 
     new-instance v0, Lcom/google/android/gms/common/moduleinstall/zab;
 
-    invoke-direct {v0}, Lcom/google/android/gms/common/moduleinstall/zab;
-    -><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/common/moduleinstall/zab;-><init>()V
 
-    sput-object v0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallIntentResponse;
-    ->CREATOR:Landroid/os/Parcelable$Creator;
+    sput-object v0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallIntentResponse;->CREATOR:Landroid/os/Parcelable$Creator;
 
     return-void
 .end method
@@ -68,14 +66,12 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallIntentResponse;
-    ->zaa:Landroid/app/PendingIntent;
+    iput-object p1, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallIntentResponse;->zaa:Landroid/app/PendingIntent;
 
     .line 5
     .line 6
@@ -89,8 +85,7 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    iget-object v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallIntentResponse;
-    ->zaa:Landroid/app/PendingIntent;
+    iget-object v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallIntentResponse;->zaa:Landroid/app/PendingIntent;
 
     return-object v0
 .end method
@@ -103,8 +98,7 @@
     .end param
 
     .line 1
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
-    ->beginObjectHeader(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->beginObjectHeader(Landroid/os/Parcel;)I
 
     .line 2
     .line 3
@@ -112,8 +106,7 @@
     move-result v0
 
     .line 5
-    invoke-virtual {p0}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallIntentResponse;
-    ->getPendingIntent()Landroid/app/PendingIntent;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallIntentResponse;->getPendingIntent()Landroid/app/PendingIntent;
 
     .line 6
     .line 7
@@ -127,14 +120,12 @@
     const/4 v3, 0x1
 
     .line 11
-    invoke-static {p1, v3, v1, p2, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
-    ->writeParcelable(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
+    invoke-static {p1, v3, v1, p2, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeParcelable(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
 
     .line 12
     .line 13
     .line 14
-    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
-    ->finishObjectHeader(Landroid/os/Parcel;I)V
+    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->finishObjectHeader(Landroid/os/Parcel;I)V
 
     .line 15
     .line 16

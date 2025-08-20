@@ -31,20 +31,17 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/navigation/fragment/FragmentNavigator$sam$androidx_lifecycle_Observer$0;
-    ->function:Lp1/l;    
+    iput-object p1, p0, Landroidx/navigation/fragment/FragmentNavigator$sam$androidx_lifecycle_Observer$0;->function:Lp1/l;
     return-void
 .end method
 
@@ -63,20 +60,17 @@
 
     if-eqz v0, :cond_0
 
-    invoke-interface {p0}, Lkotlin/jvm/internal/f;
-    ->getFunctionDelegate()Lc1/a;
+    invoke-interface {p0}, Lkotlin/jvm/internal/f;->getFunctionDelegate()Lc1/a;
 
     move-result-object v0
 
     check-cast p1, Lkotlin/jvm/internal/f;
 
-    invoke-interface {p1}, Lkotlin/jvm/internal/f;
-    ->getFunctionDelegate()Lc1/a;
+    invoke-interface {p1}, Lkotlin/jvm/internal/f;->getFunctionDelegate()Lc1/a;
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -96,20 +90,17 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/fragment/FragmentNavigator$sam$androidx_lifecycle_Observer$0;
-    ->function:Lp1/l;    return-object v0
+    iget-object v0, p0, Landroidx/navigation/fragment/FragmentNavigator$sam$androidx_lifecycle_Observer$0;->function:Lp1/l;    return-object v0
 .end method
 
 .method public final hashCode()I
     .locals 1
 
-    invoke-interface {p0}, Lkotlin/jvm/internal/f;
-    ->getFunctionDelegate()Lc1/a;
+    invoke-interface {p0}, Lkotlin/jvm/internal/f;->getFunctionDelegate()Lc1/a;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Ljava/lang/Object;
-    ->hashCode()I
+    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
 
     move-result v0
 
@@ -119,11 +110,9 @@
 .method public final synthetic onChanged(Ljava/lang/Object;)V
     .locals 1
 
-    iget-object v0, p0, Landroidx/navigation/fragment/FragmentNavigator$sam$androidx_lifecycle_Observer$0;
-    ->function:Lp1/l;
+    iget-object v0, p0, Landroidx/navigation/fragment/FragmentNavigator$sam$androidx_lifecycle_Observer$0;->function:Lp1/l;
 
-    invoke-interface {v0, p1}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
 .end method

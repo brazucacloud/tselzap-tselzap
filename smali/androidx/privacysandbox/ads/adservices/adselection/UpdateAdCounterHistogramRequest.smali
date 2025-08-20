@@ -25,30 +25,25 @@
 
     .line 2
     .line 3
-    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-wide p1, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;
-    ->adSelectionId:J
+    iput-wide p1, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;->adSelectionId:J
 
     .line 10
     .line 11
-    iput p3, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;
-    ->adEventType:I
+    iput p3, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;->adEventType:I
 
     .line 12
     .line 13
-    iput-object p4, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;
-    ->callerAdTech:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
+    iput-object p4, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;->callerAdTech:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
 
     .line 14
     .line 15
@@ -89,8 +84,7 @@
 
     .line 30
     .line 31
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 32
     .line 33
@@ -112,8 +106,7 @@
 
     .line 39
     .line 40
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 41
     .line 42
@@ -139,35 +132,29 @@
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    invoke-static {}, Landroidx/privacysandbox/ads/adservices/adselection/b;
-    ->u()V
+    invoke-static {}, Landroidx/privacysandbox/ads/adservices/adselection/b;->u()V
 
     .line 2
     .line 3
     .line 4
-    iget-wide v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;
-    ->adSelectionId:J
+    iget-wide v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;->adSelectionId:J
 
     .line 5
     .line 6
-    iget v2, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;
-    ->adEventType:I
+    iget v2, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;->adEventType:I
 
     .line 7
     .line 8
-    iget-object v3, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;
-    ->callerAdTech:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
+    iget-object v3, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;->callerAdTech:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
 
     .line 9
     .line 10
-    invoke-virtual {v3}, Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
-    ->convertToAdServices$ads_adservices_release()Landroid/adservices/common/AdTechIdentifier;
+    invoke-virtual {v3}, Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;->convertToAdServices$ads_adservices_release()Landroid/adservices/common/AdTechIdentifier;
 
     .line 11
     .line 12
@@ -175,8 +162,7 @@
     move-result-object v3
 
     .line 14
-    invoke-static {v0, v1, v2, v3}, Landroidx/privacysandbox/ads/adservices/adselection/a;
-    ->v(JILandroid/adservices/common/AdTechIdentifier;)Landroid/adservices/adselection/UpdateAdCounterHistogramRequest$Builder;
+    invoke-static {v0, v1, v2, v3}, Landroidx/privacysandbox/ads/adservices/adselection/a;->v(JILandroid/adservices/common/AdTechIdentifier;)Landroid/adservices/adselection/UpdateAdCounterHistogramRequest$Builder;
 
     .line 15
     .line 16
@@ -184,8 +170,7 @@
     move-result-object v0
 
     .line 18
-    invoke-static {v0}, Landroidx/privacysandbox/ads/adservices/adselection/a;
-    ->w(Landroid/adservices/adselection/UpdateAdCounterHistogramRequest$Builder;)Landroid/adservices/adselection/UpdateAdCounterHistogramRequest;
+    invoke-static {v0}, Landroidx/privacysandbox/ads/adservices/adselection/a;->w(Landroid/adservices/adselection/UpdateAdCounterHistogramRequest$Builder;)Landroid/adservices/adselection/UpdateAdCounterHistogramRequest;
 
     .line 19
     .line 20
@@ -197,8 +182,7 @@
 
     .line 23
     .line 24
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
     return-object v0
 .end method
 
@@ -224,8 +208,7 @@
 
     .line 11
     :cond_1
-    iget-wide v3, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;
-    ->adSelectionId:J
+    iget-wide v3, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;->adSelectionId:J
 
     .line 12
     .line 13
@@ -233,8 +216,7 @@
 
     .line 14
     .line 15
-    iget-wide v5, p1, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;
-    ->adSelectionId:J
+    iget-wide v5, p1, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;->adSelectionId:J
 
     .line 16
     .line 17
@@ -246,13 +228,11 @@
 
     .line 20
     .line 21
-    iget v1, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;
-    ->adEventType:I
+    iget v1, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;->adEventType:I
 
     .line 22
     .line 23
-    iget v3, p1, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;
-    ->adEventType:I
+    iget v3, p1, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;->adEventType:I
 
     .line 24
     .line 25
@@ -260,18 +240,15 @@
 
     .line 26
     .line 27
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;
-    ->callerAdTech:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;->callerAdTech:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
 
     .line 28
     .line 29
-    iget-object p1, p1, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;
-    ->callerAdTech:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
+    iget-object p1, p1, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;->callerAdTech:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
 
     .line 30
     .line 31
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 32
     .line 33
@@ -290,32 +267,28 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;
-    ->adEventType:I    return v0
+    iget v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;->adEventType:I    return v0
 .end method
 
 .method public final getAdSelectionId()J
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;
-    ->adSelectionId:J    return-wide v0
+    iget-wide v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;->adSelectionId:J    return-wide v0
 .end method
 
 .method public final getCallerAdTech()Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;
-    ->callerAdTech:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;->callerAdTech:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;    return-object v0
 .end method
 
 .method public hashCode()I
     .locals 4
 
     .line 1
-    iget-wide v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;
-    ->adSelectionId:J
+    iget-wide v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;->adSelectionId:J
 
     .line 2
     .line 3
@@ -337,8 +310,7 @@
 
     .line 10
     .line 11
-    iget v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;
-    ->adEventType:I
+    iget v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;->adEventType:I
 
     .line 12
     .line 13
@@ -349,13 +321,11 @@
 
     .line 15
     .line 16
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;
-    ->callerAdTech:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;->callerAdTech:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
 
     .line 17
     .line 18
-    invoke-virtual {v0}, Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
-    ->hashCode()I
+    invoke-virtual {v0}, Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;->hashCode()I
 
     .line 19
     .line 20
@@ -372,8 +342,7 @@
     .locals 4
 
     .line 1
-    iget v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;
-    ->adEventType:I
+    iget v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;->adEventType:I
 
     .line 2
     .line 3
@@ -447,19 +416,16 @@
 
     .line 31
     .line 32
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 33
     .line 34
     .line 35
-    iget-wide v2, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;
-    ->adSelectionId:J
+    iget-wide v2, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;->adSelectionId:J
 
     .line 36
     .line 37
-    invoke-virtual {v1, v2, v3}, Ljava/lang/StringBuilder;
-    ->append(J)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2, v3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
     .line 38
     .line 39
@@ -468,14 +434,12 @@
 
     .line 41
     .line 42
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 43
     .line 44
     .line 45
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 46
     .line 47
@@ -484,25 +448,21 @@
 
     .line 49
     .line 50
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 51
     .line 52
     .line 53
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;
-    ->callerAdTech:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/UpdateAdCounterHistogramRequest;->callerAdTech:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
 
     .line 54
     .line 55
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 56
     .line 57
     .line 58
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 59
     .line 60

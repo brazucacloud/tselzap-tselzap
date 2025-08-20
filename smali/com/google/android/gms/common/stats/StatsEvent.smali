@@ -24,8 +24,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
     return-void
 .end method
 
@@ -37,8 +36,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/android/gms/common/stats/StatsEvent;
-    ->zzb()J
+    invoke-virtual {p0}, Lcom/google/android/gms/common/stats/StatsEvent;->zzb()J
 
     .line 2
     .line 3
@@ -46,8 +44,7 @@
     move-result-wide v0
 
     .line 5
-    invoke-virtual {p0}, Lcom/google/android/gms/common/stats/StatsEvent;
-    ->zza()I
+    invoke-virtual {p0}, Lcom/google/android/gms/common/stats/StatsEvent;->zza()I
 
     .line 6
     .line 7
@@ -55,8 +52,7 @@
     move-result v2
 
     .line 9
-    invoke-virtual {p0}, Lcom/google/android/gms/common/stats/StatsEvent;
-    ->zzc()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/stats/StatsEvent;->zzc()Ljava/lang/String;
 
     .line 10
     .line 11
@@ -68,14 +64,12 @@
 
     .line 14
     .line 15
-    invoke-direct {v4}, Ljava/lang/StringBuilder;
-    -><init>()V
+    invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 16
     .line 17
     .line 18
-    invoke-virtual {v4, v0, v1}, Ljava/lang/StringBuilder;
-    ->append(J)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v0, v1}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
     .line 19
     .line 20
@@ -84,14 +78,12 @@
 
     .line 22
     .line 23
-    invoke-virtual {v4, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 27
     .line 28
@@ -100,20 +92,17 @@
 
     .line 30
     .line 31
-    invoke-virtual {v4, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 32
     .line 33
     .line 34
-    invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 35
     .line 36
     .line 37
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 38
     .line 39

@@ -36,8 +36,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -46,14 +45,12 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Landroidx/core/content/SharedPreferencesCompat$EditorCompat$Helper;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/core/content/SharedPreferencesCompat$EditorCompat$Helper;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/core/content/SharedPreferencesCompat$EditorCompat;
-    ->mHelper:Landroidx/core/content/SharedPreferencesCompat$EditorCompat$Helper;
+    iput-object v0, p0, Landroidx/core/content/SharedPreferencesCompat$EditorCompat;->mHelper:Landroidx/core/content/SharedPreferencesCompat$EditorCompat$Helper;
 
     .line 10
     .line 11
@@ -66,8 +63,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/core/content/SharedPreferencesCompat$EditorCompat;
-    ->sInstance:Landroidx/core/content/SharedPreferencesCompat$EditorCompat;
+    sget-object v0, Landroidx/core/content/SharedPreferencesCompat$EditorCompat;->sInstance:Landroidx/core/content/SharedPreferencesCompat$EditorCompat;
 
     .line 2
     .line 3
@@ -79,20 +75,17 @@
 
     .line 6
     .line 7
-    invoke-direct {v0}, Landroidx/core/content/SharedPreferencesCompat$EditorCompat;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/core/content/SharedPreferencesCompat$EditorCompat;-><init>()V
 
     .line 8
     .line 9
     .line 10
-    sput-object v0, Landroidx/core/content/SharedPreferencesCompat$EditorCompat;
-    ->sInstance:Landroidx/core/content/SharedPreferencesCompat$EditorCompat;
+    sput-object v0, Landroidx/core/content/SharedPreferencesCompat$EditorCompat;->sInstance:Landroidx/core/content/SharedPreferencesCompat$EditorCompat;
 
     .line 11
     .line 12
     :cond_0
-    sget-object v0, Landroidx/core/content/SharedPreferencesCompat$EditorCompat;
-    ->sInstance:Landroidx/core/content/SharedPreferencesCompat$EditorCompat;
+    sget-object v0, Landroidx/core/content/SharedPreferencesCompat$EditorCompat;->sInstance:Landroidx/core/content/SharedPreferencesCompat$EditorCompat;
 
     .line 13
     .line 14
@@ -111,13 +104,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/content/SharedPreferencesCompat$EditorCompat;
-    ->mHelper:Landroidx/core/content/SharedPreferencesCompat$EditorCompat$Helper;
+    iget-object v0, p0, Landroidx/core/content/SharedPreferencesCompat$EditorCompat;->mHelper:Landroidx/core/content/SharedPreferencesCompat$EditorCompat$Helper;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/core/content/SharedPreferencesCompat$EditorCompat$Helper;
-    ->apply(Landroid/content/SharedPreferences$Editor;)V
+    invoke-virtual {v0, p1}, Landroidx/core/content/SharedPreferencesCompat$EditorCompat$Helper;->apply(Landroid/content/SharedPreferences$Editor;)V
 
     .line 4
     .line 5

@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/constraintlayout/motion/widget/MotionLayout;
-    ->rotateTo(II)V
+    value = Landroidx/constraintlayout/motion/widget/MotionLayout;->rotateTo(II)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$2;
-    ->this$0:Landroidx/constraintlayout/motion/widget/MotionLayout;
+    iput-object p1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$2;->this$0:Landroidx/constraintlayout/motion/widget/MotionLayout;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -43,16 +40,14 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$2;
-    ->this$0:Landroidx/constraintlayout/motion/widget/MotionLayout;
+    iget-object v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout$2;->this$0:Landroidx/constraintlayout/motion/widget/MotionLayout;
 
     .line 2
     .line 3
     const/4 v1, 0x0
 
     .line 4
-    invoke-static {v0, v1}, Landroidx/constraintlayout/motion/widget/MotionLayout;
-    ->access$302(Landroidx/constraintlayout/motion/widget/MotionLayout;Z)Z    
+    invoke-static {v0, v1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->access$302(Landroidx/constraintlayout/motion/widget/MotionLayout;Z)Z
     return-void
 .end method
 

@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/navigation/NavBackStackEntry;
-    -><init>(Landroid/content/Context;Landroidx/navigation/NavDestination;Landroid/os/Bundle;Landroidx/lifecycle/Lifecycle$State;Landroidx/navigation/NavViewModelStoreProvider;Ljava/lang/String;Landroid/os/Bundle;)V
+    value = Landroidx/navigation/NavBackStackEntry;-><init>(Landroid/content/Context;Landroidx/navigation/NavDestination;Landroid/os/Bundle;Landroidx/lifecycle/Lifecycle$State;Landroidx/navigation/NavViewModelStoreProvider;Ljava/lang/String;Landroid/os/Bundle;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -33,13 +32,11 @@
 .method public constructor <init>(Landroidx/navigation/NavBackStackEntry;)V
     .locals 0
 
-    iput-object p1, p0, Landroidx/navigation/NavBackStackEntry$defaultFactory$2;
-    ->this$0:Landroidx/navigation/NavBackStackEntry;
+    iput-object p1, p0, Landroidx/navigation/NavBackStackEntry$defaultFactory$2;->this$0:Landroidx/navigation/NavBackStackEntry;
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
-    -><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
 return-void
 .end method
 
@@ -51,11 +48,9 @@ return-void
     .line 2
     new-instance v0, Landroidx/lifecycle/SavedStateViewModelFactory;
 
-    iget-object v1, p0, Landroidx/navigation/NavBackStackEntry$defaultFactory$2;
-    ->this$0:Landroidx/navigation/NavBackStackEntry;
+    iget-object v1, p0, Landroidx/navigation/NavBackStackEntry$defaultFactory$2;->this$0:Landroidx/navigation/NavBackStackEntry;
 
-    invoke-static {v1}, Landroidx/navigation/NavBackStackEntry;
-    ->access$getContext$p(Landroidx/navigation/NavBackStackEntry;)Landroid/content/Context;
+    invoke-static {v1}, Landroidx/navigation/NavBackStackEntry;->access$getContext$p(Landroidx/navigation/NavBackStackEntry;)Landroid/content/Context;
 
     move-result-object v1
 
@@ -63,8 +58,7 @@ return-void
 
     if-eqz v1, :cond_0
 
-    invoke-virtual {v1}, Landroid/content/Context;
-    ->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v1
 
@@ -83,16 +77,13 @@ return-void
     check-cast v2, Landroid/app/Application;
 
     :cond_1
-    iget-object v1, p0, Landroidx/navigation/NavBackStackEntry$defaultFactory$2;
-    ->this$0:Landroidx/navigation/NavBackStackEntry;
+    iget-object v1, p0, Landroidx/navigation/NavBackStackEntry$defaultFactory$2;->this$0:Landroidx/navigation/NavBackStackEntry;
 
-    invoke-virtual {v1}, Landroidx/navigation/NavBackStackEntry;
-    ->getArguments()Landroid/os/Bundle;
+    invoke-virtual {v1}, Landroidx/navigation/NavBackStackEntry;->getArguments()Landroid/os/Bundle;
 
     move-result-object v3
 
-    invoke-direct {v0, v2, v1, v3}, Landroidx/lifecycle/SavedStateViewModelFactory;
-    -><init>(Landroid/app/Application;Landroidx/savedstate/SavedStateRegistryOwner;Landroid/os/Bundle;)V
+    invoke-direct {v0, v2, v1, v3}, Landroidx/lifecycle/SavedStateViewModelFactory;-><init>(Landroid/app/Application;Landroidx/savedstate/SavedStateRegistryOwner;Landroid/os/Bundle;)V
 
     return-object v0
 .end method
@@ -101,8 +92,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/navigation/NavBackStackEntry$defaultFactory$2;
-    ->invoke()Landroidx/lifecycle/SavedStateViewModelFactory;
+    invoke-virtual {p0}, Landroidx/navigation/NavBackStackEntry$defaultFactory$2;->invoke()Landroidx/lifecycle/SavedStateViewModelFactory;
 
     move-result-object v0
 

@@ -17,14 +17,11 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Landroidx/appcompat/widget/b;
-    ->b:I
+    iput p2, p0, Landroidx/appcompat/widget/b;->b:I
 
-    iput-object p1, p0, Landroidx/appcompat/widget/b;
-    ->c:Landroidx/appcompat/widget/Toolbar;
+    iput-object p1, p0, Landroidx/appcompat/widget/b;->c:Landroidx/appcompat/widget/Toolbar;
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -34,24 +31,19 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/appcompat/widget/b;
-    ->b:I
+    iget v0, p0, Landroidx/appcompat/widget/b;->b:I
 
     packed-switch v0, :pswitch_data_0
 
-    iget-object v0, p0, Landroidx/appcompat/widget/b;
-    ->c:Landroidx/appcompat/widget/Toolbar;
+    iget-object v0, p0, Landroidx/appcompat/widget/b;->c:Landroidx/appcompat/widget/Toolbar;
 
-    invoke-virtual {v0}, Landroidx/appcompat/widget/Toolbar;
-    ->invalidateMenu()V
+    invoke-virtual {v0}, Landroidx/appcompat/widget/Toolbar;->invalidateMenu()V
     return-void
 
     :pswitch_0
-    iget-object v0, p0, Landroidx/appcompat/widget/b;
-    ->c:Landroidx/appcompat/widget/Toolbar;
+    iget-object v0, p0, Landroidx/appcompat/widget/b;->c:Landroidx/appcompat/widget/Toolbar;
 
-    invoke-virtual {v0}, Landroidx/appcompat/widget/Toolbar;
-    ->collapseActionView()V
+    invoke-virtual {v0}, Landroidx/appcompat/widget/Toolbar;->collapseActionView()V
     return-void
 
     nop

@@ -18,8 +18,7 @@
 
     .line 1
     :try_start_0
-    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzho;
-    ->zza()Ljava/lang/Object;
+    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzho;->zza()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -32,8 +31,7 @@
 
     .line 6
     :catch_0
-    invoke-static {}, Landroid/os/Binder;
-    ->clearCallingIdentity()J
+    invoke-static {}, Landroid/os/Binder;->clearCallingIdentity()J
 
     .line 7
     .line 8
@@ -42,8 +40,7 @@
 
     .line 10
     :try_start_1
-    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzho;
-    ->zza()Ljava/lang/Object;
+    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzho;->zza()Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -53,8 +50,7 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 14
-    invoke-static {v0, v1}, Landroid/os/Binder;
-    ->restoreCallingIdentity(J)V
+    invoke-static {v0, v1}, Landroid/os/Binder;->restoreCallingIdentity(J)V
 
     .line 15
     .line 16
@@ -66,8 +62,7 @@
     move-exception p0
 
     .line 19
-    invoke-static {v0, v1}, Landroid/os/Binder;
-    ->restoreCallingIdentity(J)V
+    invoke-static {v0, v1}, Landroid/os/Binder;->restoreCallingIdentity(J)V
 
     .line 20
     .line 21

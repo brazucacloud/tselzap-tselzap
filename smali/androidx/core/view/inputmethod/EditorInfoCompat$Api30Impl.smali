@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -40,8 +39,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/inputmethod/EditorInfo;
-    ->getInitialSelectedText(I)Ljava/lang/CharSequence;
+    invoke-virtual {p0, p1}, Landroid/view/inputmethod/EditorInfo;->getInitialSelectedText(I)Ljava/lang/CharSequence;
 
     .line 2
     .line 3
@@ -59,8 +57,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/view/inputmethod/EditorInfo;
-    ->getInitialTextAfterCursor(II)Ljava/lang/CharSequence;
+    invoke-virtual {p0, p1, p2}, Landroid/view/inputmethod/EditorInfo;->getInitialTextAfterCursor(II)Ljava/lang/CharSequence;
 
     .line 2
     .line 3
@@ -78,8 +75,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/view/inputmethod/EditorInfo;
-    ->getInitialTextBeforeCursor(II)Ljava/lang/CharSequence;
+    invoke-virtual {p0, p1, p2}, Landroid/view/inputmethod/EditorInfo;->getInitialTextBeforeCursor(II)Ljava/lang/CharSequence;
 
     .line 2
     .line 3
@@ -97,8 +93,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/view/inputmethod/EditorInfo;
-    ->setInitialSurroundingSubText(Ljava/lang/CharSequence;I)V
+    invoke-virtual {p0, p1, p2}, Landroid/view/inputmethod/EditorInfo;->setInitialSurroundingSubText(Ljava/lang/CharSequence;I)V
 
     .line 2
     .line 3

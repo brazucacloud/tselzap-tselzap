@@ -12,14 +12,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/graphics/Matrix;
-    -><init>()V
+    invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {v0, p0, p1, p2}, Landroid/graphics/Matrix;
-    ->setRotate(FFF)V
+    invoke-virtual {v0, p0, p1, p2}, Landroid/graphics/Matrix;->setRotate(FFF)V
 
     .line 7
     .line 8
@@ -58,8 +56,7 @@
 
     .line 12
     :cond_1
-    invoke-static {p0, p1, p2}, Landroidx/core/graphics/MatrixKt;
-    ->rotationMatrix(FFF)Landroid/graphics/Matrix;
+    invoke-static {p0, p1, p2}, Landroidx/core/graphics/MatrixKt;->rotationMatrix(FFF)Landroid/graphics/Matrix;
 
     .line 13
     .line 14
@@ -77,14 +74,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/graphics/Matrix;
-    -><init>()V
+    invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {v0, p0, p1}, Landroid/graphics/Matrix;
-    ->setScale(FF)V
+    invoke-virtual {v0, p0, p1}, Landroid/graphics/Matrix;->setScale(FF)V
 
     .line 7
     .line 8
@@ -126,8 +121,7 @@
     .line 14
     .line 15
     :cond_1
-    invoke-static {p0, p1}, Landroidx/core/graphics/MatrixKt;
-    ->scaleMatrix(FF)Landroid/graphics/Matrix;
+    invoke-static {p0, p1}, Landroidx/core/graphics/MatrixKt;->scaleMatrix(FF)Landroid/graphics/Matrix;
 
     .line 16
     .line 17
@@ -145,14 +139,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroid/graphics/Matrix;
-    -><init>(Landroid/graphics/Matrix;)V
+    invoke-direct {v0, p0}, Landroid/graphics/Matrix;-><init>(Landroid/graphics/Matrix;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {v0, p1}, Landroid/graphics/Matrix;
-    ->preConcat(Landroid/graphics/Matrix;)Z
+    invoke-virtual {v0, p1}, Landroid/graphics/Matrix;->preConcat(Landroid/graphics/Matrix;)Z
 
     .line 7
     .line 8
@@ -168,14 +160,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/graphics/Matrix;
-    -><init>()V
+    invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {v0, p0, p1}, Landroid/graphics/Matrix;
-    ->setTranslate(FF)V
+    invoke-virtual {v0, p0, p1}, Landroid/graphics/Matrix;->setTranslate(FF)V
 
     .line 7
     .line 8
@@ -214,8 +204,7 @@
 
     .line 12
     :cond_1
-    invoke-static {p0, p1}, Landroidx/core/graphics/MatrixKt;
-    ->translationMatrix(FF)Landroid/graphics/Matrix;
+    invoke-static {p0, p1}, Landroidx/core/graphics/MatrixKt;->translationMatrix(FF)Landroid/graphics/Matrix;
 
     .line 13
     .line 14
@@ -237,8 +226,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0, v0}, Landroid/graphics/Matrix;
-    ->getValues([F)V
+    invoke-virtual {p0, v0}, Landroid/graphics/Matrix;->getValues([F)V
 
     .line 6
     .line 7

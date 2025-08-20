@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -38,8 +37,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityWindowInfo;
-    ->getBoundsInScreen(Landroid/graphics/Rect;)V
+    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityWindowInfo;->getBoundsInScreen(Landroid/graphics/Rect;)V
 
     .line 2
     .line 3
@@ -53,8 +51,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityWindowInfo;
-    ->getChild(I)Landroid/view/accessibility/AccessibilityWindowInfo;
+    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityWindowInfo;->getChild(I)Landroid/view/accessibility/AccessibilityWindowInfo;
 
     .line 2
     .line 3
@@ -70,8 +67,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityWindowInfo;
-    ->getChildCount()I
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityWindowInfo;->getChildCount()I
 
     .line 2
     .line 3
@@ -87,8 +83,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityWindowInfo;
-    ->getId()I
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityWindowInfo;->getId()I
 
     .line 2
     .line 3
@@ -104,8 +99,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityWindowInfo;
-    ->getLayer()I
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityWindowInfo;->getLayer()I
 
     .line 2
     .line 3
@@ -121,8 +115,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityWindowInfo;
-    ->getParent()Landroid/view/accessibility/AccessibilityWindowInfo;
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityWindowInfo;->getParent()Landroid/view/accessibility/AccessibilityWindowInfo;
 
     .line 2
     .line 3
@@ -138,8 +131,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityWindowInfo;
-    ->getRoot()Landroid/view/accessibility/AccessibilityNodeInfo;
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityWindowInfo;->getRoot()Landroid/view/accessibility/AccessibilityNodeInfo;
 
     .line 2
     .line 3
@@ -155,8 +147,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityWindowInfo;
-    ->getType()I
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityWindowInfo;->getType()I
 
     .line 2
     .line 3
@@ -172,8 +163,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityWindowInfo;
-    ->isAccessibilityFocused()Z
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityWindowInfo;->isAccessibilityFocused()Z
 
     .line 2
     .line 3
@@ -189,8 +179,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityWindowInfo;
-    ->isActive()Z
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityWindowInfo;->isActive()Z
 
     .line 2
     .line 3
@@ -206,8 +195,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityWindowInfo;
-    ->isFocused()Z
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityWindowInfo;->isFocused()Z
 
     .line 2
     .line 3
@@ -223,8 +211,7 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Landroid/view/accessibility/AccessibilityWindowInfo;
-    ->obtain()Landroid/view/accessibility/AccessibilityWindowInfo;
+    invoke-static {}, Landroid/view/accessibility/AccessibilityWindowInfo;->obtain()Landroid/view/accessibility/AccessibilityWindowInfo;
 
     move-result-object v0
 
@@ -237,8 +224,7 @@
     .end annotation
 
     .line 2
-    invoke-static {p0}, Landroid/view/accessibility/AccessibilityWindowInfo;
-    ->obtain(Landroid/view/accessibility/AccessibilityWindowInfo;)Landroid/view/accessibility/AccessibilityWindowInfo;
+    invoke-static {p0}, Landroid/view/accessibility/AccessibilityWindowInfo;->obtain(Landroid/view/accessibility/AccessibilityWindowInfo;)Landroid/view/accessibility/AccessibilityWindowInfo;
 
     move-result-object p0
 

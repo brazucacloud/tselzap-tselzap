@@ -39,20 +39,16 @@
     .end param
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 3
-    iput-object p1, p0, Lcom/android/volley/toolbox/AsyncHttpStack$Response;
-    ->httpResponse:Lcom/android/volley/toolbox/HttpResponse;
+    iput-object p1, p0, Lcom/android/volley/toolbox/AsyncHttpStack$Response;->httpResponse:Lcom/android/volley/toolbox/HttpResponse;
 
     .line 4
-    iput-object p2, p0, Lcom/android/volley/toolbox/AsyncHttpStack$Response;
-    ->ioException:Ljava/io/IOException;
+    iput-object p2, p0, Lcom/android/volley/toolbox/AsyncHttpStack$Response;->ioException:Ljava/io/IOException;
 
     .line 5
-    iput-object p3, p0, Lcom/android/volley/toolbox/AsyncHttpStack$Response;
-    ->authFailureError:Lcom/android/volley/AuthFailureError;
+    iput-object p3, p0, Lcom/android/volley/toolbox/AsyncHttpStack$Response;->authFailureError:Lcom/android/volley/AuthFailureError;
 
     return-void
 .end method
@@ -61,8 +57,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Lcom/android/volley/toolbox/AsyncHttpStack$Response;
-    -><init>(Lcom/android/volley/toolbox/HttpResponse;Ljava/io/IOException;Lcom/android/volley/AuthFailureError;)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/android/volley/toolbox/AsyncHttpStack$Response;-><init>(Lcom/android/volley/toolbox/HttpResponse;Ljava/io/IOException;Lcom/android/volley/AuthFailureError;)V
 return-void
 .end method
 

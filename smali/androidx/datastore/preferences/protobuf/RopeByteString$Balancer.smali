@@ -31,17 +31,14 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     new-instance v0, Ljava/util/ArrayDeque;
 
-    invoke-direct {v0}, Ljava/util/ArrayDeque;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayDeque;-><init>()V
 
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;
-    ->prefixesStack:Ljava/util/ArrayDeque;
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;->prefixesStack:Ljava/util/ArrayDeque;
 
     return-void
 .end method
@@ -50,8 +47,7 @@
     .locals 0
 
     .line 3
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;-><init>()V
     return-void
 .end method
 
@@ -59,8 +55,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;
-    ->balance(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/ByteString;
+    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;->balance(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/ByteString;
 
     .line 2
     .line 3
@@ -74,25 +69,21 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;
-    ->doBalance(Landroidx/datastore/preferences/protobuf/ByteString;)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;->doBalance(Landroidx/datastore/preferences/protobuf/ByteString;)V
 
     .line 2
     .line 3
     .line 4
-    invoke-direct {p0, p2}, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;
-    ->doBalance(Landroidx/datastore/preferences/protobuf/ByteString;)V
+    invoke-direct {p0, p2}, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;->doBalance(Landroidx/datastore/preferences/protobuf/ByteString;)V
 
     .line 5
     .line 6
     .line 7
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;
-    ->prefixesStack:Ljava/util/ArrayDeque;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;->prefixesStack:Ljava/util/ArrayDeque;
 
     .line 8
     .line 9
-    invoke-virtual {p1}, Ljava/util/ArrayDeque;
-    ->pop()Ljava/lang/Object;
+    invoke-virtual {p1}, Ljava/util/ArrayDeque;->pop()Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -105,13 +96,11 @@
     .line 14
     .line 15
     :goto_0
-    iget-object p2, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;
-    ->prefixesStack:Ljava/util/ArrayDeque;
+    iget-object p2, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;->prefixesStack:Ljava/util/ArrayDeque;
 
     .line 16
     .line 17
-    invoke-virtual {p2}, Ljava/util/ArrayDeque;
-    ->isEmpty()Z
+    invoke-virtual {p2}, Ljava/util/ArrayDeque;->isEmpty()Z
 
     .line 18
     .line 19
@@ -123,13 +112,11 @@
 
     .line 22
     .line 23
-    iget-object p2, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;
-    ->prefixesStack:Ljava/util/ArrayDeque;
+    iget-object p2, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;->prefixesStack:Ljava/util/ArrayDeque;
 
     .line 24
     .line 25
-    invoke-virtual {p2}, Ljava/util/ArrayDeque;
-    ->pop()Ljava/lang/Object;
+    invoke-virtual {p2}, Ljava/util/ArrayDeque;->pop()Ljava/lang/Object;
 
     .line 26
     .line 27
@@ -148,8 +135,7 @@
     const/4 v1, 0x0
 
     .line 34
-    invoke-direct {v0, p2, p1, v1}, Landroidx/datastore/preferences/protobuf/RopeByteString;
-    -><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/RopeByteString$1;)V
+    invoke-direct {v0, p2, p1, v1}, Landroidx/datastore/preferences/protobuf/RopeByteString;-><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/RopeByteString$1;)V
 
     .line 35
     .line 36
@@ -168,8 +154,7 @@
     .locals 3
 
     .line 1
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->isBalanced()Z
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;->isBalanced()Z
 
     .line 2
     .line 3
@@ -181,8 +166,7 @@
 
     .line 6
     .line 7
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;
-    ->insert(Landroidx/datastore/preferences/protobuf/ByteString;)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;->insert(Landroidx/datastore/preferences/protobuf/ByteString;)V
     return-void
 
     .line 11
@@ -199,8 +183,7 @@
 
     .line 16
     .line 17
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/RopeByteString;
-    ->access$400(Landroidx/datastore/preferences/protobuf/RopeByteString;)Landroidx/datastore/preferences/protobuf/ByteString;
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/RopeByteString;->access$400(Landroidx/datastore/preferences/protobuf/RopeByteString;)Landroidx/datastore/preferences/protobuf/ByteString;
 
     .line 18
     .line 19
@@ -208,14 +191,12 @@
     move-result-object v0
 
     .line 21
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;
-    ->doBalance(Landroidx/datastore/preferences/protobuf/ByteString;)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;->doBalance(Landroidx/datastore/preferences/protobuf/ByteString;)V
 
     .line 22
     .line 23
     .line 24
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/RopeByteString;
-    ->access$500(Landroidx/datastore/preferences/protobuf/RopeByteString;)Landroidx/datastore/preferences/protobuf/ByteString;
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/RopeByteString;->access$500(Landroidx/datastore/preferences/protobuf/RopeByteString;)Landroidx/datastore/preferences/protobuf/ByteString;
 
     .line 25
     .line 26
@@ -223,8 +204,7 @@
     move-result-object p1
 
     .line 28
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;
-    ->doBalance(Landroidx/datastore/preferences/protobuf/ByteString;)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;->doBalance(Landroidx/datastore/preferences/protobuf/ByteString;)V
 return-void
 
     .line 32
@@ -241,14 +221,12 @@ return-void
 
     .line 37
     .line 38
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 39
     .line 40
     .line 41
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 42
     .line 43
@@ -256,14 +234,12 @@ return-void
     move-result-object p1
 
     .line 45
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 46
     .line 47
     .line 48
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 49
     .line 50
@@ -271,8 +247,7 @@ return-void
     move-result-object p1
 
     .line 52
-    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 53
     .line 54
@@ -283,13 +258,11 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/RopeByteString;
-    ->minLengthByDepth:[I
+    sget-object v0, Landroidx/datastore/preferences/protobuf/RopeByteString;->minLengthByDepth:[I
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Ljava/util/Arrays;
-    ->binarySearch([II)I
+    invoke-static {v0, p1}, Ljava/util/Arrays;->binarySearch([II)I
 
     .line 4
     .line 5
@@ -320,8 +293,7 @@ return-void
     .locals 5
 
     .line 1
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->size()I
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;->size()I
 
     .line 2
     .line 3
@@ -329,8 +301,7 @@ return-void
     move-result v0
 
     .line 5
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;
-    ->getDepthBinForLength(I)I
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;->getDepthBinForLength(I)I
 
     .line 6
     .line 7
@@ -338,8 +309,7 @@ return-void
     move-result v0
 
     .line 9
-    sget-object v1, Landroidx/datastore/preferences/protobuf/RopeByteString;
-    ->minLengthByDepth:[I
+    sget-object v1, Landroidx/datastore/preferences/protobuf/RopeByteString;->minLengthByDepth:[I
 
     .line 10
     .line 11
@@ -351,13 +321,11 @@ return-void
 
     .line 14
     .line 15
-    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;
-    ->prefixesStack:Ljava/util/ArrayDeque;
+    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;->prefixesStack:Ljava/util/ArrayDeque;
 
     .line 16
     .line 17
-    invoke-virtual {v3}, Ljava/util/ArrayDeque;
-    ->isEmpty()Z
+    invoke-virtual {v3}, Ljava/util/ArrayDeque;->isEmpty()Z
 
     .line 18
     .line 19
@@ -369,13 +337,11 @@ return-void
 
     .line 22
     .line 23
-    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;
-    ->prefixesStack:Ljava/util/ArrayDeque;
+    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;->prefixesStack:Ljava/util/ArrayDeque;
 
     .line 24
     .line 25
-    invoke-virtual {v3}, Ljava/util/ArrayDeque;
-    ->peek()Ljava/lang/Object;
+    invoke-virtual {v3}, Ljava/util/ArrayDeque;->peek()Ljava/lang/Object;
 
     .line 26
     .line 27
@@ -387,8 +353,7 @@ return-void
 
     .line 30
     .line 31
-    invoke-virtual {v3}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->size()I
+    invoke-virtual {v3}, Landroidx/datastore/preferences/protobuf/ByteString;->size()I
 
     .line 32
     .line 33
@@ -408,13 +373,11 @@ return-void
 
     .line 39
     .line 40
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;
-    ->prefixesStack:Ljava/util/ArrayDeque;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;->prefixesStack:Ljava/util/ArrayDeque;
 
     .line 41
     .line 42
-    invoke-virtual {v1}, Ljava/util/ArrayDeque;
-    ->pop()Ljava/lang/Object;
+    invoke-virtual {v1}, Ljava/util/ArrayDeque;->pop()Ljava/lang/Object;
 
     .line 43
     .line 44
@@ -427,13 +390,11 @@ return-void
     .line 47
     .line 48
     :goto_0
-    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;
-    ->prefixesStack:Ljava/util/ArrayDeque;
+    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;->prefixesStack:Ljava/util/ArrayDeque;
 
     .line 49
     .line 50
-    invoke-virtual {v2}, Ljava/util/ArrayDeque;
-    ->isEmpty()Z
+    invoke-virtual {v2}, Ljava/util/ArrayDeque;->isEmpty()Z
 
     .line 51
     .line 52
@@ -448,13 +409,11 @@ return-void
 
     .line 56
     .line 57
-    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;
-    ->prefixesStack:Ljava/util/ArrayDeque;
+    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;->prefixesStack:Ljava/util/ArrayDeque;
 
     .line 58
     .line 59
-    invoke-virtual {v2}, Ljava/util/ArrayDeque;
-    ->peek()Ljava/lang/Object;
+    invoke-virtual {v2}, Ljava/util/ArrayDeque;->peek()Ljava/lang/Object;
 
     .line 60
     .line 61
@@ -466,8 +425,7 @@ return-void
 
     .line 64
     .line 65
-    invoke-virtual {v2}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->size()I
+    invoke-virtual {v2}, Landroidx/datastore/preferences/protobuf/ByteString;->size()I
 
     .line 66
     .line 67
@@ -479,13 +437,11 @@ return-void
 
     .line 70
     .line 71
-    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;
-    ->prefixesStack:Ljava/util/ArrayDeque;
+    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;->prefixesStack:Ljava/util/ArrayDeque;
 
     .line 72
     .line 73
-    invoke-virtual {v2}, Ljava/util/ArrayDeque;
-    ->pop()Ljava/lang/Object;
+    invoke-virtual {v2}, Ljava/util/ArrayDeque;->pop()Ljava/lang/Object;
 
     .line 74
     .line 75
@@ -501,8 +457,7 @@ return-void
 
     .line 80
     .line 81
-    invoke-direct {v4, v2, v1, v3}, Landroidx/datastore/preferences/protobuf/RopeByteString;
-    -><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/RopeByteString$1;)V
+    invoke-direct {v4, v2, v1, v3}, Landroidx/datastore/preferences/protobuf/RopeByteString;-><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/RopeByteString$1;)V
 
     .line 82
     .line 83
@@ -518,20 +473,17 @@ return-void
 
     .line 87
     .line 88
-    invoke-direct {v0, v1, p1, v3}, Landroidx/datastore/preferences/protobuf/RopeByteString;
-    -><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/RopeByteString$1;)V
+    invoke-direct {v0, v1, p1, v3}, Landroidx/datastore/preferences/protobuf/RopeByteString;-><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/RopeByteString$1;)V
 
     .line 89
     .line 90
     .line 91
     :goto_1
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;
-    ->prefixesStack:Ljava/util/ArrayDeque;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;->prefixesStack:Ljava/util/ArrayDeque;
 
     .line 92
     .line 93
-    invoke-virtual {p1}, Ljava/util/ArrayDeque;
-    ->isEmpty()Z
+    invoke-virtual {p1}, Ljava/util/ArrayDeque;->isEmpty()Z
 
     .line 94
     .line 95
@@ -543,8 +495,7 @@ return-void
 
     .line 98
     .line 99
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/RopeByteString;
-    ->size()I
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/RopeByteString;->size()I
 
     .line 100
     .line 101
@@ -552,8 +503,7 @@ return-void
     move-result p1
 
     .line 103
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;
-    ->getDepthBinForLength(I)I
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;->getDepthBinForLength(I)I
 
     .line 104
     .line 105
@@ -561,8 +511,7 @@ return-void
     move-result p1
 
     .line 107
-    sget-object v1, Landroidx/datastore/preferences/protobuf/RopeByteString;
-    ->minLengthByDepth:[I
+    sget-object v1, Landroidx/datastore/preferences/protobuf/RopeByteString;->minLengthByDepth:[I
 
     .line 108
     .line 109
@@ -574,13 +523,11 @@ return-void
 
     .line 112
     .line 113
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;
-    ->prefixesStack:Ljava/util/ArrayDeque;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;->prefixesStack:Ljava/util/ArrayDeque;
 
     .line 114
     .line 115
-    invoke-virtual {v1}, Ljava/util/ArrayDeque;
-    ->peek()Ljava/lang/Object;
+    invoke-virtual {v1}, Ljava/util/ArrayDeque;->peek()Ljava/lang/Object;
 
     .line 116
     .line 117
@@ -592,8 +539,7 @@ return-void
 
     .line 120
     .line 121
-    invoke-virtual {v1}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->size()I
+    invoke-virtual {v1}, Landroidx/datastore/preferences/protobuf/ByteString;->size()I
 
     .line 122
     .line 123
@@ -605,13 +551,11 @@ return-void
 
     .line 126
     .line 127
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;
-    ->prefixesStack:Ljava/util/ArrayDeque;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;->prefixesStack:Ljava/util/ArrayDeque;
 
     .line 128
     .line 129
-    invoke-virtual {p1}, Ljava/util/ArrayDeque;
-    ->pop()Ljava/lang/Object;
+    invoke-virtual {p1}, Ljava/util/ArrayDeque;->pop()Ljava/lang/Object;
 
     .line 130
     .line 131
@@ -627,8 +571,7 @@ return-void
 
     .line 136
     .line 137
-    invoke-direct {v1, p1, v0, v3}, Landroidx/datastore/preferences/protobuf/RopeByteString;
-    -><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/RopeByteString$1;)V
+    invoke-direct {v1, p1, v0, v3}, Landroidx/datastore/preferences/protobuf/RopeByteString;-><init>(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/RopeByteString$1;)V
 
     .line 138
     .line 139
@@ -640,25 +583,21 @@ return-void
 
     .line 142
     :cond_2
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;
-    ->prefixesStack:Ljava/util/ArrayDeque;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;->prefixesStack:Ljava/util/ArrayDeque;
 
     .line 143
     .line 144
-    invoke-virtual {p1, v0}, Ljava/util/ArrayDeque;
-    ->push(Ljava/lang/Object;)V
+    invoke-virtual {p1, v0}, Ljava/util/ArrayDeque;->push(Ljava/lang/Object;)V
 return-void
 
     .line 148
     :cond_3
     :goto_2
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;
-    ->prefixesStack:Ljava/util/ArrayDeque;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$Balancer;->prefixesStack:Ljava/util/ArrayDeque;
 
     .line 149
     .line 150
-    invoke-virtual {v0, p1}, Ljava/util/ArrayDeque;
-    ->push(Ljava/lang/Object;)V
+    invoke-virtual {v0, p1}, Ljava/util/ArrayDeque;->push(Ljava/lang/Object;)V
 return-void
 .end method
 

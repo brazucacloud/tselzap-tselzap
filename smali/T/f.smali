@@ -35,14 +35,12 @@
 
     .line 7
     .line 8
-    invoke-direct {v3, v4, v2}, Ljava/lang/Enum;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v3, v4, v2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     .line 9
     .line 10
     .line 11
-    sput-object v3, LT/f;
-    ->b:LT/f;
+    sput-object v3, LT/f;->b:LT/f;
 
     .line 12
     .line 13
@@ -54,14 +52,12 @@
 
     .line 16
     .line 17
-    invoke-direct {v4, v5, v1}, Ljava/lang/Enum;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v4, v5, v1}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     .line 18
     .line 19
     .line 20
-    sput-object v4, LT/f;
-    ->c:LT/f;
+    sput-object v4, LT/f;->c:LT/f;
 
     .line 21
     .line 22
@@ -73,14 +69,12 @@
 
     .line 25
     .line 26
-    invoke-direct {v5, v6, v0}, Ljava/lang/Enum;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v5, v6, v0}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     .line 27
     .line 28
     .line 29
-    sput-object v5, LT/f;
-    ->d:LT/f;
+    sput-object v5, LT/f;->d:LT/f;
 
     .line 30
     .line 31
@@ -103,8 +97,7 @@
 
     .line 39
     .line 40
-    sput-object v6, LT/f;
-    ->e:[LT/f;
+    sput-object v6, LT/f;->e:[LT/f;
 
     .line 41
     .line 42
@@ -119,8 +112,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p0}, Ljava/lang/Enum;
-    ->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     .line 4
     .line 5
@@ -139,13 +131,11 @@
     .locals 1
 
     .line 1
-    sget-object v0, LT/f;
-    ->e:[LT/f;
+    sget-object v0, LT/f;->e:[LT/f;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, [LT/f;
-    ->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [LT/f;->clone()Ljava/lang/Object;
 
     .line 4
     .line 5

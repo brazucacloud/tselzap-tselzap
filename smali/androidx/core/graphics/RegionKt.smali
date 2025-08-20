@@ -10,15 +10,12 @@
     .line 1
     new-instance v0, Landroid/graphics/Region;
 
-    invoke-direct {v0, p0}, Landroid/graphics/Region;
-    -><init>(Landroid/graphics/Region;)V
+    invoke-direct {v0, p0}, Landroid/graphics/Region;-><init>(Landroid/graphics/Region;)V
 
     .line 2
-    sget-object p0, Landroid/graphics/Region$Op;
-    ->INTERSECT:Landroid/graphics/Region$Op;
+    sget-object p0, Landroid/graphics/Region$Op;->INTERSECT:Landroid/graphics/Region$Op;
 
-    invoke-virtual {v0, p1, p0}, Landroid/graphics/Region;
-    ->op(Landroid/graphics/Rect;Landroid/graphics/Region$Op;)Z
+    invoke-virtual {v0, p1, p0}, Landroid/graphics/Region;->op(Landroid/graphics/Rect;Landroid/graphics/Region$Op;)Z
 
     return-object v0
 .end method
@@ -29,15 +26,12 @@
     .line 3
     new-instance v0, Landroid/graphics/Region;
 
-    invoke-direct {v0, p0}, Landroid/graphics/Region;
-    -><init>(Landroid/graphics/Region;)V
+    invoke-direct {v0, p0}, Landroid/graphics/Region;-><init>(Landroid/graphics/Region;)V
 
     .line 4
-    sget-object p0, Landroid/graphics/Region$Op;
-    ->INTERSECT:Landroid/graphics/Region$Op;
+    sget-object p0, Landroid/graphics/Region$Op;->INTERSECT:Landroid/graphics/Region$Op;
 
-    invoke-virtual {v0, p1, p0}, Landroid/graphics/Region;
-    ->op(Landroid/graphics/Region;Landroid/graphics/Region$Op;)Z
+    invoke-virtual {v0, p1, p0}, Landroid/graphics/Region;->op(Landroid/graphics/Region;Landroid/graphics/Region$Op;)Z
 
     return-object v0
 .end method
@@ -46,18 +40,15 @@
     .locals 1
 
     .line 1
-    iget v0, p1, Landroid/graphics/Point;
-    ->x:I
+    iget v0, p1, Landroid/graphics/Point;->x:I
 
     .line 2
     .line 3
-    iget p1, p1, Landroid/graphics/Point;
-    ->y:I
+    iget p1, p1, Landroid/graphics/Point;->y:I
 
     .line 4
     .line 5
-    invoke-virtual {p0, v0, p1}, Landroid/graphics/Region;
-    ->contains(II)Z
+    invoke-virtual {p0, v0, p1}, Landroid/graphics/Region;->contains(II)Z
 
     .line 6
     .line 7
@@ -83,8 +74,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroid/graphics/RegionIterator;
-    -><init>(Landroid/graphics/Region;)V
+    invoke-direct {v0, p0}, Landroid/graphics/RegionIterator;-><init>(Landroid/graphics/Region;)V
 
     .line 4
     .line 5
@@ -94,14 +84,12 @@
 
     .line 7
     .line 8
-    invoke-direct {p0}, Landroid/graphics/Rect;
-    -><init>()V
+    invoke-direct {p0}, Landroid/graphics/Rect;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {v0, p0}, Landroid/graphics/RegionIterator;
-    ->next(Landroid/graphics/Rect;)Z
+    invoke-virtual {v0, p0}, Landroid/graphics/RegionIterator;->next(Landroid/graphics/Rect;)Z
 
     .line 12
     .line 13
@@ -117,8 +105,7 @@
 
     .line 18
     :cond_0
-    invoke-interface {p1, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -174,8 +161,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/core/graphics/RegionKt$iterator$1;
-    -><init>(Landroid/graphics/Region;)V
+    invoke-direct {v0, p0}, Landroidx/core/graphics/RegionKt$iterator$1;-><init>(Landroid/graphics/Region;)V
 
     .line 4
     .line 5
@@ -189,15 +175,12 @@
     .line 1
     new-instance v0, Landroid/graphics/Region;
 
-    invoke-direct {v0, p0}, Landroid/graphics/Region;
-    -><init>(Landroid/graphics/Region;)V
+    invoke-direct {v0, p0}, Landroid/graphics/Region;-><init>(Landroid/graphics/Region;)V
 
     .line 2
-    sget-object p0, Landroid/graphics/Region$Op;
-    ->DIFFERENCE:Landroid/graphics/Region$Op;
+    sget-object p0, Landroid/graphics/Region$Op;->DIFFERENCE:Landroid/graphics/Region$Op;
 
-    invoke-virtual {v0, p1, p0}, Landroid/graphics/Region;
-    ->op(Landroid/graphics/Rect;Landroid/graphics/Region$Op;)Z
+    invoke-virtual {v0, p1, p0}, Landroid/graphics/Region;->op(Landroid/graphics/Rect;Landroid/graphics/Region$Op;)Z
 
     return-object v0
 .end method
@@ -208,15 +191,12 @@
     .line 3
     new-instance v0, Landroid/graphics/Region;
 
-    invoke-direct {v0, p0}, Landroid/graphics/Region;
-    -><init>(Landroid/graphics/Region;)V
+    invoke-direct {v0, p0}, Landroid/graphics/Region;-><init>(Landroid/graphics/Region;)V
 
     .line 4
-    sget-object p0, Landroid/graphics/Region$Op;
-    ->DIFFERENCE:Landroid/graphics/Region$Op;
+    sget-object p0, Landroid/graphics/Region$Op;->DIFFERENCE:Landroid/graphics/Region$Op;
 
-    invoke-virtual {v0, p1, p0}, Landroid/graphics/Region;
-    ->op(Landroid/graphics/Region;Landroid/graphics/Region$Op;)Z
+    invoke-virtual {v0, p1, p0}, Landroid/graphics/Region;->op(Landroid/graphics/Region;Landroid/graphics/Region$Op;)Z
 
     return-object v0
 .end method
@@ -229,8 +209,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/graphics/Region;
-    ->getBounds()Landroid/graphics/Rect;
+    invoke-virtual {p0}, Landroid/graphics/Region;->getBounds()Landroid/graphics/Rect;
 
     .line 4
     .line 5
@@ -238,19 +217,16 @@
     move-result-object v1
 
     .line 7
-    invoke-direct {v0, v1}, Landroid/graphics/Region;
-    -><init>(Landroid/graphics/Rect;)V
+    invoke-direct {v0, v1}, Landroid/graphics/Region;-><init>(Landroid/graphics/Rect;)V
 
     .line 8
     .line 9
     .line 10
-    sget-object v1, Landroid/graphics/Region$Op;
-    ->DIFFERENCE:Landroid/graphics/Region$Op;
+    sget-object v1, Landroid/graphics/Region$Op;->DIFFERENCE:Landroid/graphics/Region$Op;
 
     .line 11
     .line 12
-    invoke-virtual {v0, p0, v1}, Landroid/graphics/Region;
-    ->op(Landroid/graphics/Region;Landroid/graphics/Region$Op;)Z
+    invoke-virtual {v0, p0, v1}, Landroid/graphics/Region;->op(Landroid/graphics/Region;Landroid/graphics/Region$Op;)Z
 
     .line 13
     .line 14
@@ -264,12 +240,10 @@
     .line 1
     new-instance v0, Landroid/graphics/Region;
 
-    invoke-direct {v0, p0}, Landroid/graphics/Region;
-    -><init>(Landroid/graphics/Region;)V
+    invoke-direct {v0, p0}, Landroid/graphics/Region;-><init>(Landroid/graphics/Region;)V
 
     .line 2
-    invoke-virtual {v0, p1}, Landroid/graphics/Region;
-    ->union(Landroid/graphics/Rect;)Z
+    invoke-virtual {v0, p1}, Landroid/graphics/Region;->union(Landroid/graphics/Rect;)Z
 
     return-object v0
 .end method
@@ -280,15 +254,12 @@
     .line 3
     new-instance v0, Landroid/graphics/Region;
 
-    invoke-direct {v0, p0}, Landroid/graphics/Region;
-    -><init>(Landroid/graphics/Region;)V
+    invoke-direct {v0, p0}, Landroid/graphics/Region;-><init>(Landroid/graphics/Region;)V
 
     .line 4
-    sget-object p0, Landroid/graphics/Region$Op;
-    ->UNION:Landroid/graphics/Region$Op;
+    sget-object p0, Landroid/graphics/Region$Op;->UNION:Landroid/graphics/Region$Op;
 
-    invoke-virtual {v0, p1, p0}, Landroid/graphics/Region;
-    ->op(Landroid/graphics/Region;Landroid/graphics/Region$Op;)Z
+    invoke-virtual {v0, p1, p0}, Landroid/graphics/Region;->op(Landroid/graphics/Region;Landroid/graphics/Region$Op;)Z
 
     return-object v0
 .end method
@@ -299,12 +270,10 @@
     .line 1
     new-instance v0, Landroid/graphics/Region;
 
-    invoke-direct {v0, p0}, Landroid/graphics/Region;
-    -><init>(Landroid/graphics/Region;)V
+    invoke-direct {v0, p0}, Landroid/graphics/Region;-><init>(Landroid/graphics/Region;)V
 
     .line 2
-    invoke-virtual {v0, p1}, Landroid/graphics/Region;
-    ->union(Landroid/graphics/Rect;)Z
+    invoke-virtual {v0, p1}, Landroid/graphics/Region;->union(Landroid/graphics/Rect;)Z
 
     return-object v0
 .end method
@@ -315,15 +284,12 @@
     .line 3
     new-instance v0, Landroid/graphics/Region;
 
-    invoke-direct {v0, p0}, Landroid/graphics/Region;
-    -><init>(Landroid/graphics/Region;)V
+    invoke-direct {v0, p0}, Landroid/graphics/Region;-><init>(Landroid/graphics/Region;)V
 
     .line 4
-    sget-object p0, Landroid/graphics/Region$Op;
-    ->UNION:Landroid/graphics/Region$Op;
+    sget-object p0, Landroid/graphics/Region$Op;->UNION:Landroid/graphics/Region$Op;
 
-    invoke-virtual {v0, p1, p0}, Landroid/graphics/Region;
-    ->op(Landroid/graphics/Region;Landroid/graphics/Region$Op;)Z
+    invoke-virtual {v0, p1, p0}, Landroid/graphics/Region;->op(Landroid/graphics/Region;Landroid/graphics/Region$Op;)Z
 
     return-object v0
 .end method
@@ -336,8 +302,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/graphics/Region;
-    ->getBounds()Landroid/graphics/Rect;
+    invoke-virtual {p0}, Landroid/graphics/Region;->getBounds()Landroid/graphics/Rect;
 
     .line 4
     .line 5
@@ -345,19 +310,16 @@
     move-result-object v1
 
     .line 7
-    invoke-direct {v0, v1}, Landroid/graphics/Region;
-    -><init>(Landroid/graphics/Rect;)V
+    invoke-direct {v0, v1}, Landroid/graphics/Region;-><init>(Landroid/graphics/Rect;)V
 
     .line 8
     .line 9
     .line 10
-    sget-object v1, Landroid/graphics/Region$Op;
-    ->DIFFERENCE:Landroid/graphics/Region$Op;
+    sget-object v1, Landroid/graphics/Region$Op;->DIFFERENCE:Landroid/graphics/Region$Op;
 
     .line 11
     .line 12
-    invoke-virtual {v0, p0, v1}, Landroid/graphics/Region;
-    ->op(Landroid/graphics/Region;Landroid/graphics/Region$Op;)Z
+    invoke-virtual {v0, p0, v1}, Landroid/graphics/Region;->op(Landroid/graphics/Region;Landroid/graphics/Region$Op;)Z
 
     .line 13
     .line 14
@@ -371,15 +333,12 @@
     .line 1
     new-instance v0, Landroid/graphics/Region;
 
-    invoke-direct {v0, p0}, Landroid/graphics/Region;
-    -><init>(Landroid/graphics/Region;)V
+    invoke-direct {v0, p0}, Landroid/graphics/Region;-><init>(Landroid/graphics/Region;)V
 
     .line 2
-    sget-object p0, Landroid/graphics/Region$Op;
-    ->XOR:Landroid/graphics/Region$Op;
+    sget-object p0, Landroid/graphics/Region$Op;->XOR:Landroid/graphics/Region$Op;
 
-    invoke-virtual {v0, p1, p0}, Landroid/graphics/Region;
-    ->op(Landroid/graphics/Rect;Landroid/graphics/Region$Op;)Z
+    invoke-virtual {v0, p1, p0}, Landroid/graphics/Region;->op(Landroid/graphics/Rect;Landroid/graphics/Region$Op;)Z
 
     return-object v0
 .end method
@@ -390,15 +349,12 @@
     .line 3
     new-instance v0, Landroid/graphics/Region;
 
-    invoke-direct {v0, p0}, Landroid/graphics/Region;
-    -><init>(Landroid/graphics/Region;)V
+    invoke-direct {v0, p0}, Landroid/graphics/Region;-><init>(Landroid/graphics/Region;)V
 
     .line 4
-    sget-object p0, Landroid/graphics/Region$Op;
-    ->XOR:Landroid/graphics/Region$Op;
+    sget-object p0, Landroid/graphics/Region$Op;->XOR:Landroid/graphics/Region$Op;
 
-    invoke-virtual {v0, p1, p0}, Landroid/graphics/Region;
-    ->op(Landroid/graphics/Region;Landroid/graphics/Region$Op;)Z
+    invoke-virtual {v0, p1, p0}, Landroid/graphics/Region;->op(Landroid/graphics/Region;Landroid/graphics/Region$Op;)Z
 
     return-object v0
 .end method

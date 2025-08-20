@@ -37,13 +37,11 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/lifecycle/LiveData$AlwaysActiveObserver;
-    ->this$0:Landroidx/lifecycle/LiveData;
+    iput-object p1, p0, Landroidx/lifecycle/LiveData$AlwaysActiveObserver;->this$0:Landroidx/lifecycle/LiveData;
 
     .line 2
     .line 3
-    invoke-direct {p0, p1, p2}, Landroidx/lifecycle/LiveData$ObserverWrapper;
-    -><init>(Landroidx/lifecycle/LiveData;Landroidx/lifecycle/Observer;)V
+    invoke-direct {p0, p1, p2}, Landroidx/lifecycle/LiveData$ObserverWrapper;-><init>(Landroidx/lifecycle/LiveData;Landroidx/lifecycle/Observer;)V
 return-void
 .end method
 

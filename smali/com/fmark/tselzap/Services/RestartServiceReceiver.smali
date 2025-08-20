@@ -12,8 +12,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/content/BroadcastReceiver;
-    -><init>()V
+    invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
 
     .line 2
     .line 3
@@ -35,14 +34,12 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p2}, Landroid/content/Intent;
-    ->getAction()Ljava/lang/String;
+    invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     .line 9
     .line 10
@@ -54,8 +51,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {v1, v0}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 15
     .line 16
@@ -75,14 +71,12 @@
 
     .line 23
     .line 24
-    invoke-direct {p2, p1, v0}, Landroid/content/Intent;
-    -><init>(Landroid/content/Context;Ljava/lang/Class;)V
+    invoke-direct {p2, p1, v0}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
     .line 25
     .line 26
     .line 27
-    invoke-virtual {p1, p2}, Landroid/content/Context;
-    ->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
+    invoke-virtual {p1, p2}, Landroid/content/Context;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
 
     .line 28
     .line 29
@@ -95,8 +89,7 @@
 
     .line 32
     .line 33
-    invoke-virtual {p2}, Landroid/content/Intent;
-    ->getAction()Ljava/lang/String;
+    invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     .line 34
     .line 35
@@ -104,8 +97,7 @@
     move-result-object v1
 
     .line 37
-    invoke-virtual {v0, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 38
     .line 39
@@ -125,8 +117,7 @@
 
     .line 46
     .line 47
-    invoke-direct {v0, p1, v1}, Landroid/content/Intent;
-    -><init>(Landroid/content/Context;Ljava/lang/Class;)V
+    invoke-direct {v0, p1, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
     .line 48
     .line 49
@@ -138,14 +129,12 @@
     const/4 v2, 0x1
 
     .line 53
-    invoke-virtual {p2, v1, v2}, Landroid/content/Intent;
-    ->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
+    invoke-virtual {p2, v1, v2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
     .line 54
     .line 55
     .line 56
-    invoke-virtual {p1, v0}, Landroid/content/Context;
-    ->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
+    invoke-virtual {p1, v0}, Landroid/content/Context;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
 
     .line 57
     .line 58

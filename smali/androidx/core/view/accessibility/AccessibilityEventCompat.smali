@@ -108,8 +108,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -123,8 +122,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->getImpl()Ljava/lang/Object;
+    invoke-virtual {p1}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->getImpl()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -136,8 +134,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityEvent;
-    ->appendRecord(Landroid/view/accessibility/AccessibilityRecord;)V
+    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityEvent;->appendRecord(Landroid/view/accessibility/AccessibilityRecord;)V
 
     .line 8
     .line 9
@@ -155,8 +152,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    -><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, p0}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;-><init>(Ljava/lang/Object;)V
 
     .line 4
     .line 5
@@ -172,8 +168,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityEvent;
-    ->getAction()I
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityEvent;->getAction()I
 
     .line 2
     .line 3
@@ -196,8 +191,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityEvent;
-    ->getContentChangeTypes()I
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityEvent;->getContentChangeTypes()I
 
     .line 2
     .line 3
@@ -215,8 +209,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityEvent;
-    ->getMovementGranularity()I
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityEvent;->getMovementGranularity()I
 
     .line 2
     .line 3
@@ -236,8 +229,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityEvent;
-    ->getRecord(I)Landroid/view/accessibility/AccessibilityRecord;
+    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityEvent;->getRecord(I)Landroid/view/accessibility/AccessibilityRecord;
 
     .line 4
     .line 5
@@ -245,8 +237,7 @@
     move-result-object p0
 
     .line 7
-    invoke-direct {v0, p0}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    -><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, p0}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;-><init>(Ljava/lang/Object;)V
 
     .line 8
     .line 9
@@ -260,8 +251,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityEvent;
-    ->getRecordCount()I
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityEvent;->getRecordCount()I
 
     .line 2
     .line 3
@@ -279,8 +269,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -292,8 +281,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/view/accessibility/AccessibilityEventCompat$Api34Impl;
-    ->isAccessibilityDataSensitive(Landroid/view/accessibility/AccessibilityEvent;)Z
+    invoke-static {p0}, Landroidx/core/view/accessibility/AccessibilityEventCompat$Api34Impl;->isAccessibilityDataSensitive(Landroid/view/accessibility/AccessibilityEvent;)Z
 
     .line 8
     .line 9
@@ -317,8 +305,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -330,8 +317,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/view/accessibility/AccessibilityEventCompat$Api34Impl;
-    ->setAccessibilityDataSensitive(Landroid/view/accessibility/AccessibilityEvent;Z)V
+    invoke-static {p0, p1}, Landroidx/core/view/accessibility/AccessibilityEventCompat$Api34Impl;->setAccessibilityDataSensitive(Landroid/view/accessibility/AccessibilityEvent;Z)V
 
     .line 8
     .line 9
@@ -348,8 +334,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityEvent;
-    ->setAction(I)V
+    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityEvent;->setAction(I)V
 
     .line 2
     .line 3
@@ -365,8 +350,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityEvent;
-    ->setContentChangeTypes(I)V
+    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityEvent;->setContentChangeTypes(I)V
 
     .line 2
     .line 3
@@ -382,8 +366,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityEvent;
-    ->setMovementGranularity(I)V
+    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityEvent;->setMovementGranularity(I)V
 
     .line 2
     .line 3

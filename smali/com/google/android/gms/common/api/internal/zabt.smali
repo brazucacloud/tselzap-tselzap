@@ -16,14 +16,11 @@
 .method public constructor <init>(Lcom/google/android/gms/common/api/internal/zabu;Lcom/google/android/gms/common/ConnectionResult;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zabt;
-    ->zab:Lcom/google/android/gms/common/api/internal/zabu;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zabt;->zab:Lcom/google/android/gms/common/api/internal/zabu;
 
-    iput-object p2, p0, Lcom/google/android/gms/common/api/internal/zabt;
-    ->zaa:Lcom/google/android/gms/common/ConnectionResult;
+    iput-object p2, p0, Lcom/google/android/gms/common/api/internal/zabt;->zaa:Lcom/google/android/gms/common/ConnectionResult;
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -33,18 +30,15 @@
     .locals 5
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zabt;
-    ->zab:Lcom/google/android/gms/common/api/internal/zabu;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zabt;->zab:Lcom/google/android/gms/common/api/internal/zabu;
 
     .line 2
     .line 3
-    iget-object v1, v0, Lcom/google/android/gms/common/api/internal/zabu;
-    ->zaa:Lcom/google/android/gms/common/api/internal/GoogleApiManager;
+    iget-object v1, v0, Lcom/google/android/gms/common/api/internal/zabu;->zaa:Lcom/google/android/gms/common/api/internal/GoogleApiManager;
 
     .line 4
     .line 5
-    invoke-static {v1}, Lcom/google/android/gms/common/api/internal/GoogleApiManager;
-    ->zar(Lcom/google/android/gms/common/api/internal/GoogleApiManager;)Ljava/util/Map;
+    invoke-static {v1}, Lcom/google/android/gms/common/api/internal/GoogleApiManager;->zar(Lcom/google/android/gms/common/api/internal/GoogleApiManager;)Ljava/util/Map;
 
     .line 6
     .line 7
@@ -52,8 +46,7 @@
     move-result-object v1
 
     .line 9
-    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zabu;
-    ->zab(Lcom/google/android/gms/common/api/internal/zabu;)Lcom/google/android/gms/common/api/internal/ApiKey;
+    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zabu;->zab(Lcom/google/android/gms/common/api/internal/zabu;)Lcom/google/android/gms/common/api/internal/ApiKey;
 
     .line 10
     .line 11
@@ -61,8 +54,7 @@
     move-result-object v0
 
     .line 13
-    invoke-interface {v1, v0}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -82,13 +74,11 @@
 
     .line 22
     :cond_0
-    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/zabt;
-    ->zaa:Lcom/google/android/gms/common/ConnectionResult;
+    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/zabt;->zaa:Lcom/google/android/gms/common/ConnectionResult;
 
     .line 23
     .line 24
-    invoke-virtual {v1}, Lcom/google/android/gms/common/ConnectionResult;
-    ->isSuccess()Z
+    invoke-virtual {v1}, Lcom/google/android/gms/common/ConnectionResult;->isSuccess()Z
 
     .line 25
     .line 26
@@ -103,27 +93,23 @@
 
     .line 30
     .line 31
-    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/zabt;
-    ->zab:Lcom/google/android/gms/common/api/internal/zabu;
+    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/zabt;->zab:Lcom/google/android/gms/common/api/internal/zabu;
 
     .line 32
     .line 33
     const/4 v3, 0x1
 
     .line 34
-    invoke-static {v1, v3}, Lcom/google/android/gms/common/api/internal/zabu;
-    ->zac(Lcom/google/android/gms/common/api/internal/zabu;Z)V
+    invoke-static {v1, v3}, Lcom/google/android/gms/common/api/internal/zabu;->zac(Lcom/google/android/gms/common/api/internal/zabu;Z)V
 
     .line 35
     .line 36
     .line 37
-    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/zabt;
-    ->zab:Lcom/google/android/gms/common/api/internal/zabu;
+    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/zabt;->zab:Lcom/google/android/gms/common/api/internal/zabu;
 
     .line 38
     .line 39
-    invoke-static {v1}, Lcom/google/android/gms/common/api/internal/zabu;
-    ->zaa(Lcom/google/android/gms/common/api/internal/zabu;)Lcom/google/android/gms/common/api/Api$Client;
+    invoke-static {v1}, Lcom/google/android/gms/common/api/internal/zabu;->zaa(Lcom/google/android/gms/common/api/internal/zabu;)Lcom/google/android/gms/common/api/Api$Client;
 
     .line 40
     .line 41
@@ -131,8 +117,7 @@
     move-result-object v1
 
     .line 43
-    invoke-interface {v1}, Lcom/google/android/gms/common/api/Api$Client;
-    ->requiresSignIn()Z
+    invoke-interface {v1}, Lcom/google/android/gms/common/api/Api$Client;->requiresSignIn()Z
 
     .line 44
     .line 45
@@ -144,13 +129,11 @@
 
     .line 48
     .line 49
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zabt;
-    ->zab:Lcom/google/android/gms/common/api/internal/zabu;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zabt;->zab:Lcom/google/android/gms/common/api/internal/zabu;
 
     .line 50
     .line 51
-    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zabu;
-    ->zad(Lcom/google/android/gms/common/api/internal/zabu;)V
+    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zabu;->zad(Lcom/google/android/gms/common/api/internal/zabu;)V
 
     .line 52
     .line 53
@@ -160,13 +143,11 @@
     .line 55
     :cond_1
     :try_start_0
-    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/zabt;
-    ->zab:Lcom/google/android/gms/common/api/internal/zabu;
+    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/zabt;->zab:Lcom/google/android/gms/common/api/internal/zabu;
 
     .line 56
     .line 57
-    invoke-static {v1}, Lcom/google/android/gms/common/api/internal/zabu;
-    ->zaa(Lcom/google/android/gms/common/api/internal/zabu;)Lcom/google/android/gms/common/api/Api$Client;
+    invoke-static {v1}, Lcom/google/android/gms/common/api/internal/zabu;->zaa(Lcom/google/android/gms/common/api/internal/zabu;)Lcom/google/android/gms/common/api/Api$Client;
 
     .line 58
     .line 59
@@ -174,8 +155,7 @@
     move-result-object v3
 
     .line 61
-    invoke-static {v1}, Lcom/google/android/gms/common/api/internal/zabu;
-    ->zaa(Lcom/google/android/gms/common/api/internal/zabu;)Lcom/google/android/gms/common/api/Api$Client;
+    invoke-static {v1}, Lcom/google/android/gms/common/api/internal/zabu;->zaa(Lcom/google/android/gms/common/api/internal/zabu;)Lcom/google/android/gms/common/api/Api$Client;
 
     .line 62
     .line 63
@@ -183,8 +163,7 @@
     move-result-object v1
 
     .line 65
-    invoke-interface {v1}, Lcom/google/android/gms/common/api/Api$Client;
-    ->getScopesForConnectionlessNonSignIn()Ljava/util/Set;
+    invoke-interface {v1}, Lcom/google/android/gms/common/api/Api$Client;->getScopesForConnectionlessNonSignIn()Ljava/util/Set;
 
     .line 66
     .line 67
@@ -192,8 +171,7 @@
     move-result-object v1
 
     .line 69
-    invoke-interface {v3, v2, v1}, Lcom/google/android/gms/common/api/Api$Client;
-    ->getRemoteService(Lcom/google/android/gms/common/internal/IAccountAccessor;Ljava/util/Set;)V
+    invoke-interface {v3, v2, v1}, Lcom/google/android/gms/common/api/Api$Client;->getRemoteService(Lcom/google/android/gms/common/internal/IAccountAccessor;Ljava/util/Set;)V
     :try_end_0
     .catch Ljava/lang/SecurityException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -215,19 +193,16 @@
 
     .line 77
     .line 78
-    invoke-static {v3, v4, v1}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v3, v4, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 79
     .line 80
     .line 81
-    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/zabt;
-    ->zab:Lcom/google/android/gms/common/api/internal/zabu;
+    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/zabt;->zab:Lcom/google/android/gms/common/api/internal/zabu;
 
     .line 82
     .line 83
-    invoke-static {v1}, Lcom/google/android/gms/common/api/internal/zabu;
-    ->zaa(Lcom/google/android/gms/common/api/internal/zabu;)Lcom/google/android/gms/common/api/Api$Client;
+    invoke-static {v1}, Lcom/google/android/gms/common/api/internal/zabu;->zaa(Lcom/google/android/gms/common/api/internal/zabu;)Lcom/google/android/gms/common/api/Api$Client;
 
     .line 84
     .line 85
@@ -239,8 +214,7 @@
 
     .line 88
     .line 89
-    invoke-interface {v1, v3}, Lcom/google/android/gms/common/api/Api$Client;
-    ->disconnect(Ljava/lang/String;)V
+    invoke-interface {v1, v3}, Lcom/google/android/gms/common/api/Api$Client;->disconnect(Ljava/lang/String;)V
 
     .line 90
     .line 91
@@ -253,14 +227,12 @@
 
     .line 95
     .line 96
-    invoke-direct {v1, v3}, Lcom/google/android/gms/common/ConnectionResult;
-    -><init>(I)V
+    invoke-direct {v1, v3}, Lcom/google/android/gms/common/ConnectionResult;-><init>(I)V
 
     .line 97
     .line 98
     .line 99
-    invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/common/api/internal/zabq;
-    ->zar(Lcom/google/android/gms/common/ConnectionResult;Ljava/lang/Exception;)V
+    invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/common/api/internal/zabq;->zar(Lcom/google/android/gms/common/ConnectionResult;Ljava/lang/Exception;)V
 
     .line 100
     .line 101
@@ -269,13 +241,11 @@
 
     .line 103
     :cond_2
-    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/zabt;
-    ->zaa:Lcom/google/android/gms/common/ConnectionResult;
+    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/zabt;->zaa:Lcom/google/android/gms/common/ConnectionResult;
 
     .line 104
     .line 105
-    invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/common/api/internal/zabq;
-    ->zar(Lcom/google/android/gms/common/ConnectionResult;Ljava/lang/Exception;)V
+    invoke-virtual {v0, v1, v2}, Lcom/google/android/gms/common/api/internal/zabq;->zar(Lcom/google/android/gms/common/ConnectionResult;Ljava/lang/Exception;)V
 
     .line 106
     .line 107

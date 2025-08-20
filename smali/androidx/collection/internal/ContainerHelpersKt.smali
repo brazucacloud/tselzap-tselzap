@@ -23,8 +23,7 @@
 
     .line 3
     .line 4
-    sput-object v1, Landroidx/collection/internal/ContainerHelpersKt;
-    ->EMPTY_INTS:[I
+    sput-object v1, Landroidx/collection/internal/ContainerHelpersKt;->EMPTY_INTS:[I
 
     .line 5
     .line 6
@@ -32,8 +31,7 @@
 
     .line 7
     .line 8
-    sput-object v1, Landroidx/collection/internal/ContainerHelpersKt;
-    ->EMPTY_LONGS:[J
+    sput-object v1, Landroidx/collection/internal/ContainerHelpersKt;->EMPTY_LONGS:[J
 
     .line 9
     .line 10
@@ -41,8 +39,7 @@
 
     .line 11
     .line 12
-    sput-object v0, Landroidx/collection/internal/ContainerHelpersKt;
-    ->EMPTY_OBJECTS:[Ljava/lang/Object;    return-void
+    sput-object v0, Landroidx/collection/internal/ContainerHelpersKt;->EMPTY_OBJECTS:[Ljava/lang/Object;    return-void
 .end method
 
 .method public static final binarySearch([III)I
@@ -50,8 +47,7 @@
 
     const-string v0, "array"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     add-int/lit8 p1, p1, -0x1
 
@@ -94,8 +90,7 @@
 
     const-string v0, "array"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     add-int/lit8 p1, p1, -0x1
 
@@ -139,8 +134,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 2
     .line 3
@@ -187,8 +181,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0}, Landroidx/collection/internal/ContainerHelpersKt;
-    ->idealByteArraySize(I)I
+    invoke-static {p0}, Landroidx/collection/internal/ContainerHelpersKt;->idealByteArraySize(I)I
 
     .line 4
     .line 5
@@ -207,8 +200,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0}, Landroidx/collection/internal/ContainerHelpersKt;
-    ->idealByteArraySize(I)I
+    invoke-static {p0}, Landroidx/collection/internal/ContainerHelpersKt;->idealByteArraySize(I)I
 
     .line 4
     .line 5

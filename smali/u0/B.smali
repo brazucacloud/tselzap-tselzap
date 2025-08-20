@@ -14,8 +14,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Lu0/z;
-    -><init>()V
+    invoke-direct {p0}, Lu0/z;-><init>()V
 
     .line 2
     .line 3
@@ -23,21 +22,18 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-boolean v0, p0, Lu0/B;
-    ->f:Z
+    iput-boolean v0, p0, Lu0/B;->f:Z
 
     .line 6
     .line 7
     const/4 v0, 0x0
 
     .line 8
-    iput v0, p0, Lu0/B;
-    ->g:F
+    iput v0, p0, Lu0/B;->g:F
 
     .line 9
     .line 10
-    invoke-direct {p0, p1}, Lu0/B;
-    ->d(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Lu0/B;->d(Landroid/view/View;)V
 
     .line 11
     .line 12
@@ -58,14 +54,12 @@
     const/4 v1, 0x1
 
     .line 4
-    invoke-direct {v0, p0, v1}, Li0/b;
-    -><init>(Ljava/lang/Object;I)V
+    invoke-direct {v0, p0, v1}, Li0/b;-><init>(Ljava/lang/Object;I)V
 
     .line 5
     .line 6
     .line 7
-    invoke-virtual {p1, v0}, Landroid/view/View;
-    ->setOutlineProvider(Landroid/view/ViewOutlineProvider;)V
+    invoke-virtual {p1, v0}, Landroid/view/View;->setOutlineProvider(Landroid/view/ViewOutlineProvider;)V
 
     .line 8
     .line 9
@@ -79,8 +73,7 @@
     .locals 9
 
     .line 1
-    iget-object v0, p0, Lu0/z;
-    ->c:Lu0/n;
+    iget-object v0, p0, Lu0/z;->c:Lu0/n;
 
     .line 2
     .line 3
@@ -91,8 +84,7 @@
 
     .line 5
     .line 6
-    iget-object v2, p0, Lu0/z;
-    ->d:Landroid/graphics/RectF;
+    iget-object v2, p0, Lu0/z;->d:Landroid/graphics/RectF;
 
     .line 7
     .line 8
@@ -104,13 +96,11 @@
 
     .line 11
     :cond_0
-    iget-object v0, v0, Lu0/n;
-    ->f:Lu0/d;
+    iget-object v0, v0, Lu0/n;->f:Lu0/d;
 
     .line 12
     .line 13
-    invoke-interface {v0, v2}, Lu0/d;
-    ->a(Landroid/graphics/RectF;)F
+    invoke-interface {v0, v2}, Lu0/d;->a(Landroid/graphics/RectF;)F
 
     .line 14
     .line 15
@@ -127,18 +117,15 @@
 
     .line 19
     :goto_1
-    iput v0, p0, Lu0/B;
-    ->g:F
+    iput v0, p0, Lu0/B;->g:F
 
     .line 20
     .line 21
-    iget-object v0, p0, Lu0/z;
-    ->d:Landroid/graphics/RectF;
+    iget-object v0, p0, Lu0/z;->d:Landroid/graphics/RectF;
 
     .line 22
     .line 23
-    invoke-virtual {v0}, Landroid/graphics/RectF;
-    ->isEmpty()Z
+    invoke-virtual {v0}, Landroid/graphics/RectF;->isEmpty()Z
 
     .line 24
     .line 25
@@ -153,8 +140,7 @@
 
     .line 29
     .line 30
-    iget-object v0, p0, Lu0/z;
-    ->c:Lu0/n;
+    iget-object v0, p0, Lu0/z;->c:Lu0/n;
 
     .line 31
     .line 32
@@ -166,13 +152,11 @@
 
     .line 35
     :cond_2
-    iget-object v3, p0, Lu0/z;
-    ->d:Landroid/graphics/RectF;
+    iget-object v3, p0, Lu0/z;->d:Landroid/graphics/RectF;
 
     .line 36
     .line 37
-    invoke-virtual {v0, v3}, Lu0/n;
-    ->e(Landroid/graphics/RectF;)Z
+    invoke-virtual {v0, v3}, Lu0/n;->e(Landroid/graphics/RectF;)Z
 
     .line 38
     .line 39
@@ -196,13 +180,11 @@
 
     .line 45
     .line 46
-    iget-object v0, p0, Lu0/z;
-    ->d:Landroid/graphics/RectF;
+    iget-object v0, p0, Lu0/z;->d:Landroid/graphics/RectF;
 
     .line 47
     .line 48
-    invoke-virtual {v0}, Landroid/graphics/RectF;
-    ->isEmpty()Z
+    invoke-virtual {v0}, Landroid/graphics/RectF;->isEmpty()Z
 
     .line 49
     .line 50
@@ -214,8 +196,7 @@
 
     .line 53
     .line 54
-    iget-object v0, p0, Lu0/z;
-    ->c:Lu0/n;
+    iget-object v0, p0, Lu0/z;->c:Lu0/n;
 
     .line 55
     .line 56
@@ -223,8 +204,7 @@
 
     .line 57
     .line 58
-    iget-boolean v4, p0, Lu0/z;
-    ->b:Z
+    iget-boolean v4, p0, Lu0/z;->b:Z
 
     .line 59
     .line 60
@@ -232,13 +212,11 @@
 
     .line 61
     .line 62
-    iget-object v4, p0, Lu0/z;
-    ->d:Landroid/graphics/RectF;
+    iget-object v4, p0, Lu0/z;->d:Landroid/graphics/RectF;
 
     .line 63
     .line 64
-    invoke-virtual {v0, v4}, Lu0/n;
-    ->e(Landroid/graphics/RectF;)Z
+    invoke-virtual {v0, v4}, Lu0/n;->e(Landroid/graphics/RectF;)Z
 
     .line 65
     .line 66
@@ -250,13 +228,11 @@
 
     .line 69
     .line 70
-    iget-object v0, p0, Lu0/z;
-    ->c:Lu0/n;
+    iget-object v0, p0, Lu0/z;->c:Lu0/n;
 
     .line 71
     .line 72
-    iget-object v4, v0, Lu0/n;
-    ->a:La/a;
+    iget-object v4, v0, Lu0/n;->a:La/a;
 
     .line 73
     .line 74
@@ -268,8 +244,7 @@
 
     .line 77
     .line 78
-    iget-object v4, v0, Lu0/n;
-    ->b:La/a;
+    iget-object v4, v0, Lu0/n;->b:La/a;
 
     .line 79
     .line 80
@@ -281,8 +256,7 @@
 
     .line 83
     .line 84
-    iget-object v4, v0, Lu0/n;
-    ->d:La/a;
+    iget-object v4, v0, Lu0/n;->d:La/a;
 
     .line 85
     .line 86
@@ -294,8 +268,7 @@
 
     .line 89
     .line 90
-    iget-object v4, v0, Lu0/n;
-    ->c:La/a;
+    iget-object v4, v0, Lu0/n;->c:La/a;
 
     .line 91
     .line 92
@@ -307,18 +280,15 @@
 
     .line 95
     .line 96
-    iget-object v4, p0, Lu0/z;
-    ->d:Landroid/graphics/RectF;
+    iget-object v4, p0, Lu0/z;->d:Landroid/graphics/RectF;
 
     .line 97
     .line 98
-    iget-object v0, v0, Lu0/n;
-    ->e:Lu0/d;
+    iget-object v0, v0, Lu0/n;->e:Lu0/d;
 
     .line 99
     .line 100
-    invoke-interface {v0, v4}, Lu0/d;
-    ->a(Landroid/graphics/RectF;)F
+    invoke-interface {v0, v4}, Lu0/d;->a(Landroid/graphics/RectF;)F
 
     .line 101
     .line 102
@@ -326,23 +296,19 @@
     move-result v0
 
     .line 104
-    iget-object v4, p0, Lu0/z;
-    ->c:Lu0/n;
+    iget-object v4, p0, Lu0/z;->c:Lu0/n;
 
     .line 105
     .line 106
-    iget-object v4, v4, Lu0/n;
-    ->f:Lu0/d;
+    iget-object v4, v4, Lu0/n;->f:Lu0/d;
 
     .line 107
     .line 108
-    iget-object v5, p0, Lu0/z;
-    ->d:Landroid/graphics/RectF;
+    iget-object v5, p0, Lu0/z;->d:Landroid/graphics/RectF;
 
     .line 109
     .line 110
-    invoke-interface {v4, v5}, Lu0/d;
-    ->a(Landroid/graphics/RectF;)F
+    invoke-interface {v4, v5}, Lu0/d;->a(Landroid/graphics/RectF;)F
 
     .line 111
     .line 112
@@ -350,23 +316,19 @@
     move-result v4
 
     .line 114
-    iget-object v5, p0, Lu0/z;
-    ->c:Lu0/n;
+    iget-object v5, p0, Lu0/z;->c:Lu0/n;
 
     .line 115
     .line 116
-    iget-object v5, v5, Lu0/n;
-    ->h:Lu0/d;
+    iget-object v5, v5, Lu0/n;->h:Lu0/d;
 
     .line 117
     .line 118
-    iget-object v6, p0, Lu0/z;
-    ->d:Landroid/graphics/RectF;
+    iget-object v6, p0, Lu0/z;->d:Landroid/graphics/RectF;
 
     .line 119
     .line 120
-    invoke-interface {v5, v6}, Lu0/d;
-    ->a(Landroid/graphics/RectF;)F
+    invoke-interface {v5, v6}, Lu0/d;->a(Landroid/graphics/RectF;)F
 
     .line 121
     .line 122
@@ -374,23 +336,19 @@
     move-result v5
 
     .line 124
-    iget-object v6, p0, Lu0/z;
-    ->c:Lu0/n;
+    iget-object v6, p0, Lu0/z;->c:Lu0/n;
 
     .line 125
     .line 126
-    iget-object v6, v6, Lu0/n;
-    ->g:Lu0/d;
+    iget-object v6, v6, Lu0/n;->g:Lu0/d;
 
     .line 127
     .line 128
-    iget-object v7, p0, Lu0/z;
-    ->d:Landroid/graphics/RectF;
+    iget-object v7, p0, Lu0/z;->d:Landroid/graphics/RectF;
 
     .line 129
     .line 130
-    invoke-interface {v6, v7}, Lu0/d;
-    ->a(Landroid/graphics/RectF;)F
+    invoke-interface {v6, v7}, Lu0/d;->a(Landroid/graphics/RectF;)F
 
     .line 131
     .line 132
@@ -422,42 +380,35 @@
 
     .line 145
     .line 146
-    iget-object v0, p0, Lu0/z;
-    ->d:Landroid/graphics/RectF;
+    iget-object v0, p0, Lu0/z;->d:Landroid/graphics/RectF;
 
     .line 147
     .line 148
-    iget v1, v0, Landroid/graphics/RectF;
-    ->left:F
+    iget v1, v0, Landroid/graphics/RectF;->left:F
 
     .line 149
     .line 150
     sub-float/2addr v1, v4
 
     .line 151
-    iget v2, v0, Landroid/graphics/RectF;
-    ->top:F
+    iget v2, v0, Landroid/graphics/RectF;->top:F
 
     .line 152
     .line 153
-    iget v5, v0, Landroid/graphics/RectF;
-    ->right:F
+    iget v5, v0, Landroid/graphics/RectF;->right:F
 
     .line 154
     .line 155
-    iget v6, v0, Landroid/graphics/RectF;
-    ->bottom:F
+    iget v6, v0, Landroid/graphics/RectF;->bottom:F
 
     .line 156
     .line 157
-    invoke-virtual {v0, v1, v2, v5, v6}, Landroid/graphics/RectF;
-    ->set(FFFF)V
+    invoke-virtual {v0, v1, v2, v5, v6}, Landroid/graphics/RectF;->set(FFFF)V
 
     .line 158
     .line 159
     .line 160
-    iput v4, p0, Lu0/B;
-    ->g:F
+    iput v4, p0, Lu0/B;->g:F
 
     .line 161
     .line 162
@@ -485,42 +436,35 @@
 
     .line 172
     .line 173
-    iget-object v0, p0, Lu0/z;
-    ->d:Landroid/graphics/RectF;
+    iget-object v0, p0, Lu0/z;->d:Landroid/graphics/RectF;
 
     .line 174
     .line 175
-    iget v1, v0, Landroid/graphics/RectF;
-    ->left:F
+    iget v1, v0, Landroid/graphics/RectF;->left:F
 
     .line 176
     .line 177
-    iget v2, v0, Landroid/graphics/RectF;
-    ->top:F
+    iget v2, v0, Landroid/graphics/RectF;->top:F
 
     .line 178
     .line 179
     sub-float/2addr v2, v5
 
     .line 180
-    iget v4, v0, Landroid/graphics/RectF;
-    ->right:F
+    iget v4, v0, Landroid/graphics/RectF;->right:F
 
     .line 181
     .line 182
-    iget v6, v0, Landroid/graphics/RectF;
-    ->bottom:F
+    iget v6, v0, Landroid/graphics/RectF;->bottom:F
 
     .line 183
     .line 184
-    invoke-virtual {v0, v1, v2, v4, v6}, Landroid/graphics/RectF;
-    ->set(FFFF)V
+    invoke-virtual {v0, v1, v2, v4, v6}, Landroid/graphics/RectF;->set(FFFF)V
 
     .line 185
     .line 186
     .line 187
-    iput v5, p0, Lu0/B;
-    ->g:F
+    iput v5, p0, Lu0/B;->g:F
 
     .line 188
     .line 189
@@ -552,42 +496,35 @@
 
     .line 201
     .line 202
-    iget-object v1, p0, Lu0/z;
-    ->d:Landroid/graphics/RectF;
+    iget-object v1, p0, Lu0/z;->d:Landroid/graphics/RectF;
 
     .line 203
     .line 204
-    iget v2, v1, Landroid/graphics/RectF;
-    ->left:F
+    iget v2, v1, Landroid/graphics/RectF;->left:F
 
     .line 205
     .line 206
-    iget v4, v1, Landroid/graphics/RectF;
-    ->top:F
+    iget v4, v1, Landroid/graphics/RectF;->top:F
 
     .line 207
     .line 208
-    iget v5, v1, Landroid/graphics/RectF;
-    ->right:F
+    iget v5, v1, Landroid/graphics/RectF;->right:F
 
     .line 209
     .line 210
     add-float/2addr v5, v0
 
     .line 211
-    iget v6, v1, Landroid/graphics/RectF;
-    ->bottom:F
+    iget v6, v1, Landroid/graphics/RectF;->bottom:F
 
     .line 212
     .line 213
-    invoke-virtual {v1, v2, v4, v5, v6}, Landroid/graphics/RectF;
-    ->set(FFFF)V
+    invoke-virtual {v1, v2, v4, v5, v6}, Landroid/graphics/RectF;->set(FFFF)V
 
     .line 214
     .line 215
     .line 216
-    iput v0, p0, Lu0/B;
-    ->g:F
+    iput v0, p0, Lu0/B;->g:F
 
     .line 217
     .line 218
@@ -619,42 +556,35 @@
 
     .line 230
     .line 231
-    iget-object v1, p0, Lu0/z;
-    ->d:Landroid/graphics/RectF;
+    iget-object v1, p0, Lu0/z;->d:Landroid/graphics/RectF;
 
     .line 232
     .line 233
-    iget v2, v1, Landroid/graphics/RectF;
-    ->left:F
+    iget v2, v1, Landroid/graphics/RectF;->left:F
 
     .line 234
     .line 235
-    iget v4, v1, Landroid/graphics/RectF;
-    ->top:F
+    iget v4, v1, Landroid/graphics/RectF;->top:F
 
     .line 236
     .line 237
-    iget v5, v1, Landroid/graphics/RectF;
-    ->right:F
+    iget v5, v1, Landroid/graphics/RectF;->right:F
 
     .line 238
     .line 239
-    iget v6, v1, Landroid/graphics/RectF;
-    ->bottom:F
+    iget v6, v1, Landroid/graphics/RectF;->bottom:F
 
     .line 240
     .line 241
     add-float/2addr v6, v0
 
     .line 242
-    invoke-virtual {v1, v2, v4, v5, v6}, Landroid/graphics/RectF;
-    ->set(FFFF)V
+    invoke-virtual {v1, v2, v4, v5, v6}, Landroid/graphics/RectF;->set(FFFF)V
 
     .line 243
     .line 244
     .line 245
-    iput v0, p0, Lu0/B;
-    ->g:F
+    iput v0, p0, Lu0/B;->g:F
 
     .line 246
     .line 247
@@ -664,13 +594,11 @@
 
     .line 248
     :cond_8
-    iput-boolean v2, p0, Lu0/B;
-    ->f:Z
+    iput-boolean v2, p0, Lu0/B;->f:Z
 
     .line 249
     .line 250
-    invoke-virtual {p0}, Lu0/B;
-    ->b()Z
+    invoke-virtual {p0}, Lu0/B;->b()Z
 
     .line 251
     .line 252
@@ -681,14 +609,12 @@
     xor-int/2addr v0, v3
 
     .line 255
-    invoke-virtual {p1, v0}, Landroid/view/View;
-    ->setClipToOutline(Z)V
+    invoke-virtual {p1, v0}, Landroid/view/View;->setClipToOutline(Z)V
 
     .line 256
     .line 257
     .line 258
-    invoke-virtual {p0}, Lu0/B;
-    ->b()Z
+    invoke-virtual {p0}, Lu0/B;->b()Z
 
     .line 259
     .line 260
@@ -700,8 +626,7 @@
 
     .line 263
     .line 264
-    invoke-virtual {p1}, Landroid/view/View;
-    ->invalidate()V
+    invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
     .line 265
     .line 266
@@ -710,8 +635,7 @@
 
     .line 268
     :cond_9
-    invoke-virtual {p1}, Landroid/view/View;
-    ->invalidateOutline()V
+    invoke-virtual {p1}, Landroid/view/View;->invalidateOutline()V
 
     .line 269
     .line 270
@@ -723,8 +647,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Lu0/B;
-    ->f:Z
+    iget-boolean v0, p0, Lu0/B;->f:Z
 
     .line 2
     .line 3
@@ -732,8 +655,7 @@
 
     .line 4
     .line 5
-    iget-boolean v0, p0, Lu0/z;
-    ->a:Z
+    iget-boolean v0, p0, Lu0/z;->a:Z
 
     .line 6
     .line 7

@@ -19,8 +19,7 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p0}, Landroid/util/SizeF;
-    ->getWidth()F
+    invoke-virtual {p0}, Landroid/util/SizeF;->getWidth()F
 
     move-result p0
 
@@ -31,8 +30,7 @@
     .locals 0
 
     .line 3
-    invoke-virtual {p0}, Landroidx/core/util/SizeFCompat;
-    ->getWidth()F
+    invoke-virtual {p0}, Landroidx/core/util/SizeFCompat;->getWidth()F
 
     move-result p0
 
@@ -46,8 +44,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/util/Size;
-    ->getWidth()I
+    invoke-virtual {p0}, Landroid/util/Size;->getWidth()I
 
     move-result p0
 
@@ -61,8 +58,7 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p0}, Landroid/util/SizeF;
-    ->getHeight()F
+    invoke-virtual {p0}, Landroid/util/SizeF;->getHeight()F
 
     move-result p0
 
@@ -73,8 +69,7 @@
     .locals 0
 
     .line 3
-    invoke-virtual {p0}, Landroidx/core/util/SizeFCompat;
-    ->getHeight()F
+    invoke-virtual {p0}, Landroidx/core/util/SizeFCompat;->getHeight()F
 
     move-result p0
 
@@ -88,8 +83,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/util/Size;
-    ->getHeight()I
+    invoke-virtual {p0}, Landroid/util/Size;->getHeight()I
 
     move-result p0
 

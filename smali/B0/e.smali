@@ -12,13 +12,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, LB0/e;
-    ->b:LB0/f;
+    iput-object p1, p0, LB0/e;->b:LB0/f;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/util/AbstractCollection;
-    -><init>()V
+    invoke-direct {p0}, Ljava/util/AbstractCollection;-><init>()V
 
     .line 4
     .line 5
@@ -32,13 +30,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, LB0/e;
-    ->b:LB0/f;
+    iget-object v0, p0, LB0/e;->b:LB0/f;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, LB0/f;
-    ->clear()V
+    invoke-virtual {v0}, LB0/f;->clear()V
 
     .line 4
     .line 5
@@ -50,13 +46,11 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, LB0/e;
-    ->b:LB0/f;
+    iget-object v0, p0, LB0/e;->b:LB0/f;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, LB0/f;
-    ->c()Ljava/util/Map;
+    invoke-virtual {v0}, LB0/f;->c()Ljava/util/Map;
 
     .line 4
     .line 5
@@ -68,8 +62,7 @@
 
     .line 8
     .line 9
-    invoke-interface {v1}, Ljava/util/Map;
-    ->values()Ljava/util/Collection;
+    invoke-interface {v1}, Ljava/util/Map;->values()Ljava/util/Collection;
 
     .line 10
     .line 11
@@ -77,8 +70,7 @@
     move-result-object v0
 
     .line 13
-    invoke-interface {v0}, Ljava/util/Collection;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     .line 14
     .line 15
@@ -96,8 +88,7 @@
     const/4 v2, 0x2
 
     .line 21
-    invoke-direct {v1, v0, v2}, LB0/b;
-    -><init>(LB0/f;I)V
+    invoke-direct {v1, v0, v2}, LB0/b;-><init>(LB0/f;I)V
 
     .line 22
     .line 23
@@ -109,13 +100,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, LB0/e;
-    ->b:LB0/f;
+    iget-object v0, p0, LB0/e;->b:LB0/f;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, LB0/f;
-    ->size()I
+    invoke-virtual {v0}, LB0/f;->size()I
 
     .line 4
     .line 5

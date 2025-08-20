@@ -32,14 +32,12 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -51,8 +49,7 @@
 
     .line 9
     .line 10
-    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextClassifierHelper;
-    ->mTextView:Landroid/widget/TextView;    
+    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextClassifierHelper;->mTextView:Landroid/widget/TextView;
     return-void
 .end method
 
@@ -68,8 +65,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextClassifierHelper;
-    ->mTextClassifier:Landroid/view/textclassifier/TextClassifier;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextClassifierHelper;->mTextClassifier:Landroid/view/textclassifier/TextClassifier;
 
     .line 2
     .line 3
@@ -77,13 +73,11 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextClassifierHelper;
-    ->mTextView:Landroid/widget/TextView;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextClassifierHelper;->mTextView:Landroid/widget/TextView;
 
     .line 6
     .line 7
-    invoke-static {v0}, Landroidx/appcompat/widget/AppCompatTextClassifierHelper$Api26Impl;
-    ->getTextClassifier(Landroid/widget/TextView;)Landroid/view/textclassifier/TextClassifier;
+    invoke-static {v0}, Landroidx/appcompat/widget/AppCompatTextClassifierHelper$Api26Impl;->getTextClassifier(Landroid/widget/TextView;)Landroid/view/textclassifier/TextClassifier;
 
     .line 8
     .line 9
@@ -106,8 +100,7 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextClassifierHelper;
-    ->mTextClassifier:Landroid/view/textclassifier/TextClassifier;    
+    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextClassifierHelper;->mTextClassifier:Landroid/view/textclassifier/TextClassifier;
     return-void
 .end method
 

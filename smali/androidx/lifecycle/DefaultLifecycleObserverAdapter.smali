@@ -29,25 +29,21 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/lifecycle/DefaultLifecycleObserverAdapter;
-    ->defaultLifecycleObserver:Landroidx/lifecycle/DefaultLifecycleObserver;
+    iput-object p1, p0, Landroidx/lifecycle/DefaultLifecycleObserverAdapter;->defaultLifecycleObserver:Landroidx/lifecycle/DefaultLifecycleObserver;
 
     .line 10
     .line 11
-    iput-object p2, p0, Landroidx/lifecycle/DefaultLifecycleObserverAdapter;
-    ->lifecycleEventObserver:Landroidx/lifecycle/LifecycleEventObserver;    
+    iput-object p2, p0, Landroidx/lifecycle/DefaultLifecycleObserverAdapter;->lifecycleEventObserver:Landroidx/lifecycle/LifecycleEventObserver;
     return-void
 .end method
 
@@ -61,8 +57,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -71,19 +66,16 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    sget-object v0, Landroidx/lifecycle/DefaultLifecycleObserverAdapter$WhenMappings;
-    ->$EnumSwitchMapping$0:[I
+    sget-object v0, Landroidx/lifecycle/DefaultLifecycleObserverAdapter$WhenMappings;->$EnumSwitchMapping$0:[I
 
     .line 12
     .line 13
-    invoke-virtual {p2}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {p2}, Ljava/lang/Enum;->ordinal()I
 
     .line 14
     .line 15
@@ -112,8 +104,7 @@
 
     .line 26
     .line 27
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 28
     .line 29
@@ -122,13 +113,11 @@
 
     .line 31
     :pswitch_1
-    iget-object v0, p0, Landroidx/lifecycle/DefaultLifecycleObserverAdapter;
-    ->defaultLifecycleObserver:Landroidx/lifecycle/DefaultLifecycleObserver;
+    iget-object v0, p0, Landroidx/lifecycle/DefaultLifecycleObserverAdapter;->defaultLifecycleObserver:Landroidx/lifecycle/DefaultLifecycleObserver;
 
     .line 32
     .line 33
-    invoke-interface {v0, p1}, Landroidx/lifecycle/DefaultLifecycleObserver;
-    ->onDestroy(Landroidx/lifecycle/LifecycleOwner;)V
+    invoke-interface {v0, p1}, Landroidx/lifecycle/DefaultLifecycleObserver;->onDestroy(Landroidx/lifecycle/LifecycleOwner;)V
 
     .line 34
     .line 35
@@ -137,13 +126,11 @@
 
     .line 37
     :pswitch_2
-    iget-object v0, p0, Landroidx/lifecycle/DefaultLifecycleObserverAdapter;
-    ->defaultLifecycleObserver:Landroidx/lifecycle/DefaultLifecycleObserver;
+    iget-object v0, p0, Landroidx/lifecycle/DefaultLifecycleObserverAdapter;->defaultLifecycleObserver:Landroidx/lifecycle/DefaultLifecycleObserver;
 
     .line 38
     .line 39
-    invoke-interface {v0, p1}, Landroidx/lifecycle/DefaultLifecycleObserver;
-    ->onStop(Landroidx/lifecycle/LifecycleOwner;)V
+    invoke-interface {v0, p1}, Landroidx/lifecycle/DefaultLifecycleObserver;->onStop(Landroidx/lifecycle/LifecycleOwner;)V
 
     .line 40
     .line 41
@@ -152,13 +139,11 @@
 
     .line 43
     :pswitch_3
-    iget-object v0, p0, Landroidx/lifecycle/DefaultLifecycleObserverAdapter;
-    ->defaultLifecycleObserver:Landroidx/lifecycle/DefaultLifecycleObserver;
+    iget-object v0, p0, Landroidx/lifecycle/DefaultLifecycleObserverAdapter;->defaultLifecycleObserver:Landroidx/lifecycle/DefaultLifecycleObserver;
 
     .line 44
     .line 45
-    invoke-interface {v0, p1}, Landroidx/lifecycle/DefaultLifecycleObserver;
-    ->onPause(Landroidx/lifecycle/LifecycleOwner;)V
+    invoke-interface {v0, p1}, Landroidx/lifecycle/DefaultLifecycleObserver;->onPause(Landroidx/lifecycle/LifecycleOwner;)V
 
     .line 46
     .line 47
@@ -167,13 +152,11 @@
 
     .line 49
     :pswitch_4
-    iget-object v0, p0, Landroidx/lifecycle/DefaultLifecycleObserverAdapter;
-    ->defaultLifecycleObserver:Landroidx/lifecycle/DefaultLifecycleObserver;
+    iget-object v0, p0, Landroidx/lifecycle/DefaultLifecycleObserverAdapter;->defaultLifecycleObserver:Landroidx/lifecycle/DefaultLifecycleObserver;
 
     .line 50
     .line 51
-    invoke-interface {v0, p1}, Landroidx/lifecycle/DefaultLifecycleObserver;
-    ->onResume(Landroidx/lifecycle/LifecycleOwner;)V
+    invoke-interface {v0, p1}, Landroidx/lifecycle/DefaultLifecycleObserver;->onResume(Landroidx/lifecycle/LifecycleOwner;)V
 
     .line 52
     .line 53
@@ -182,13 +165,11 @@
 
     .line 55
     :pswitch_5
-    iget-object v0, p0, Landroidx/lifecycle/DefaultLifecycleObserverAdapter;
-    ->defaultLifecycleObserver:Landroidx/lifecycle/DefaultLifecycleObserver;
+    iget-object v0, p0, Landroidx/lifecycle/DefaultLifecycleObserverAdapter;->defaultLifecycleObserver:Landroidx/lifecycle/DefaultLifecycleObserver;
 
     .line 56
     .line 57
-    invoke-interface {v0, p1}, Landroidx/lifecycle/DefaultLifecycleObserver;
-    ->onStart(Landroidx/lifecycle/LifecycleOwner;)V
+    invoke-interface {v0, p1}, Landroidx/lifecycle/DefaultLifecycleObserver;->onStart(Landroidx/lifecycle/LifecycleOwner;)V
 
     .line 58
     .line 59
@@ -197,20 +178,17 @@
 
     .line 61
     :pswitch_6
-    iget-object v0, p0, Landroidx/lifecycle/DefaultLifecycleObserverAdapter;
-    ->defaultLifecycleObserver:Landroidx/lifecycle/DefaultLifecycleObserver;
+    iget-object v0, p0, Landroidx/lifecycle/DefaultLifecycleObserverAdapter;->defaultLifecycleObserver:Landroidx/lifecycle/DefaultLifecycleObserver;
 
     .line 62
     .line 63
-    invoke-interface {v0, p1}, Landroidx/lifecycle/DefaultLifecycleObserver;
-    ->onCreate(Landroidx/lifecycle/LifecycleOwner;)V
+    invoke-interface {v0, p1}, Landroidx/lifecycle/DefaultLifecycleObserver;->onCreate(Landroidx/lifecycle/LifecycleOwner;)V
 
     .line 64
     .line 65
     .line 66
     :goto_0
-    iget-object v0, p0, Landroidx/lifecycle/DefaultLifecycleObserverAdapter;
-    ->lifecycleEventObserver:Landroidx/lifecycle/LifecycleEventObserver;
+    iget-object v0, p0, Landroidx/lifecycle/DefaultLifecycleObserverAdapter;->lifecycleEventObserver:Landroidx/lifecycle/LifecycleEventObserver;
 
     .line 67
     .line 68
@@ -218,8 +196,7 @@
 
     .line 69
     .line 70
-    invoke-interface {v0, p1, p2}, Landroidx/lifecycle/LifecycleEventObserver;
-    ->onStateChanged(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
+    invoke-interface {v0, p1, p2}, Landroidx/lifecycle/LifecycleEventObserver;->onStateChanged(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
 
     .line 71
     .line 72

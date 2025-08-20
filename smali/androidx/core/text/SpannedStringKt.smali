@@ -17,8 +17,7 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Lkotlin/jvm/internal/j;
-    ->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
 
     .line 2
     .line 3
@@ -153,15 +152,13 @@
 
     .line 4
     .line 5
-    invoke-interface {p0}, Ljava/lang/CharSequence;
-    ->length()I
+    invoke-interface {p0}, Ljava/lang/CharSequence;->length()I
 
     .line 6
     .line 7
     .line 8
     :cond_0
-    invoke-static {}, Lkotlin/jvm/internal/j;
-    ->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
 
     .line 9
     .line 10
@@ -672,8 +669,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/text/SpannedString;
-    ->valueOf(Ljava/lang/CharSequence;)Landroid/text/SpannedString;
+    invoke-static {p0}, Landroid/text/SpannedString;->valueOf(Ljava/lang/CharSequence;)Landroid/text/SpannedString;
 
     .line 2
     .line 3

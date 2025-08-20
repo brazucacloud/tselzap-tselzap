@@ -29,8 +29,7 @@
 
     move-wide v1, p1
 
-    invoke-direct/range {v0 .. v5}, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;
-    -><init>(J[BILkotlin/jvm/internal/e;)V
+    invoke-direct/range {v0 .. v5}, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;-><init>(J[BILkotlin/jvm/internal/e;)V
 return-void
 .end method
 
@@ -38,15 +37,12 @@ return-void
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 3
-    iput-wide p1, p0, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;
-    ->adSelectionId:J
+    iput-wide p1, p0, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;->adSelectionId:J
 
-    iput-object p3, p0, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;
-    ->adSelectionData:[B
+    iput-object p3, p0, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;->adSelectionData:[B
 
     return-void
 .end method
@@ -62,8 +58,7 @@ return-void
 
     .line 4
     :cond_0
-    invoke-direct {p0, p1, p2, p3}, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;
-    -><init>(J[B)V
+    invoke-direct {p0, p1, p2, p3}, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;-><init>(J[B)V
 return-void
 .end method
 
@@ -84,29 +79,24 @@ return-void
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     const-string v0, "response"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
-    invoke-static {p1}, Landroidx/privacysandbox/ads/adservices/adselection/a;
-    ->a(Landroid/adservices/adselection/GetAdSelectionDataOutcome;)J
+    invoke-static {p1}, Landroidx/privacysandbox/ads/adservices/adselection/a;->a(Landroid/adservices/adselection/GetAdSelectionDataOutcome;)J
 
     move-result-wide v0
 
-    invoke-static {p1}, Landroidx/privacysandbox/ads/adservices/adselection/a;
-    ->D(Landroid/adservices/adselection/GetAdSelectionDataOutcome;)[B
+    invoke-static {p1}, Landroidx/privacysandbox/ads/adservices/adselection/a;->D(Landroid/adservices/adselection/GetAdSelectionDataOutcome;)[B
 
     move-result-object p1
 
-    invoke-direct {p0, v0, v1, p1}, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;
-    -><init>(J[B)V
+    invoke-direct {p0, v0, v1, p1}, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;-><init>(J[B)V
 return-void
 .end method
 
@@ -134,8 +124,7 @@ return-void
 
     .line 11
     :cond_1
-    iget-wide v3, p0, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;
-    ->adSelectionId:J
+    iget-wide v3, p0, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;->adSelectionId:J
 
     .line 12
     .line 13
@@ -143,8 +132,7 @@ return-void
 
     .line 14
     .line 15
-    iget-wide v5, p1, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;
-    ->adSelectionId:J
+    iget-wide v5, p1, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;->adSelectionId:J
 
     .line 16
     .line 17
@@ -156,18 +144,15 @@ return-void
 
     .line 20
     .line 21
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;
-    ->adSelectionData:[B
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;->adSelectionData:[B
 
     .line 22
     .line 23
-    iget-object p1, p1, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;
-    ->adSelectionData:[B
+    iget-object p1, p1, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;->adSelectionData:[B
 
     .line 24
     .line 25
-    invoke-static {v1, p1}, Ljava/util/Arrays;
-    ->equals([B[B)Z
+    invoke-static {v1, p1}, Ljava/util/Arrays;->equals([B[B)Z
 
     .line 26
     .line 27
@@ -186,24 +171,21 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;
-    ->adSelectionData:[B    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;->adSelectionData:[B    return-object v0
 .end method
 
 .method public final getAdSelectionId()J
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;
-    ->adSelectionId:J    return-wide v0
+    iget-wide v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;->adSelectionId:J    return-wide v0
 .end method
 
 .method public hashCode()I
     .locals 4
 
     .line 1
-    iget-wide v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;
-    ->adSelectionId:J
+    iget-wide v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;->adSelectionId:J
 
     .line 2
     .line 3
@@ -225,8 +207,7 @@ return-void
 
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;
-    ->adSelectionData:[B
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;->adSelectionData:[B
 
     .line 12
     .line 13
@@ -234,8 +215,7 @@ return-void
 
     .line 14
     .line 15
-    invoke-virtual {v0}, Ljava/lang/Object;
-    ->hashCode()I
+    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
 
     .line 16
     .line 17
@@ -268,19 +248,16 @@ return-void
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget-wide v1, p0, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;
-    ->adSelectionId:J
+    iget-wide v1, p0, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;->adSelectionId:J
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;
-    ->append(J)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
     .line 11
     .line 12
@@ -289,25 +266,21 @@ return-void
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 16
     .line 17
     .line 18
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;
-    ->adSelectionData:[B
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/adselection/GetAdSelectionDataOutcome;->adSelectionData:[B
 
     .line 19
     .line 20
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 21
     .line 22
     .line 23
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 24
     .line 25

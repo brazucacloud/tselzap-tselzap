@@ -67,39 +67,32 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/fmark/tselzap/databinding/ActivitySenderBinding;
-    ->rootView:Landroidx/drawerlayout/widget/DrawerLayout;
+    iput-object p1, p0, Lcom/fmark/tselzap/databinding/ActivitySenderBinding;->rootView:Landroidx/drawerlayout/widget/DrawerLayout;
 
     .line 5
     .line 6
-    iput-object p2, p0, Lcom/fmark/tselzap/databinding/ActivitySenderBinding;
-    ->containerx:Landroid/widget/FrameLayout;
+    iput-object p2, p0, Lcom/fmark/tselzap/databinding/ActivitySenderBinding;->containerx:Landroid/widget/FrameLayout;
 
     .line 7
     .line 8
-    iput-object p3, p0, Lcom/fmark/tselzap/databinding/ActivitySenderBinding;
-    ->drawerLayout:Landroidx/drawerlayout/widget/DrawerLayout;
+    iput-object p3, p0, Lcom/fmark/tselzap/databinding/ActivitySenderBinding;->drawerLayout:Landroidx/drawerlayout/widget/DrawerLayout;
 
     .line 9
     .line 10
-    iput-object p4, p0, Lcom/fmark/tselzap/databinding/ActivitySenderBinding;
-    ->navView:Lcom/google/android/material/navigation/NavigationView;
+    iput-object p4, p0, Lcom/fmark/tselzap/databinding/ActivitySenderBinding;->navView:Lcom/google/android/material/navigation/NavigationView;
 
     .line 11
     .line 12
-    iput-object p5, p0, Lcom/fmark/tselzap/databinding/ActivitySenderBinding;
-    ->toolbar:Landroidx/appcompat/widget/Toolbar;
+    iput-object p5, p0, Lcom/fmark/tselzap/databinding/ActivitySenderBinding;->toolbar:Landroidx/appcompat/widget/Toolbar;
 
     .line 13
     .line 14
-    iput-object p6, p0, Lcom/fmark/tselzap/databinding/ActivitySenderBinding;
-    ->toolbarTitle:Landroid/widget/ImageView;
+    iput-object p6, p0, Lcom/fmark/tselzap/databinding/ActivitySenderBinding;->toolbarTitle:Landroid/widget/ImageView;
 
     .line 15
     .line 16
@@ -121,8 +114,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 5
     .line 6
@@ -153,8 +145,7 @@
     .line 17
     .line 18
     .line 19
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 20
     .line 21
@@ -178,8 +169,7 @@
     .line 29
     .line 30
     .line 31
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 32
     .line 33
@@ -203,8 +193,7 @@
     .line 41
     .line 42
     .line 43
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 44
     .line 45
@@ -230,8 +219,7 @@
     move-object v5, v3
 
     .line 55
-    invoke-direct/range {v2 .. v8}, Lcom/fmark/tselzap/databinding/ActivitySenderBinding;
-    -><init>(Landroidx/drawerlayout/widget/DrawerLayout;Landroid/widget/FrameLayout;Landroidx/drawerlayout/widget/DrawerLayout;Lcom/google/android/material/navigation/NavigationView;Landroidx/appcompat/widget/Toolbar;Landroid/widget/ImageView;)V
+    invoke-direct/range {v2 .. v8}, Lcom/fmark/tselzap/databinding/ActivitySenderBinding;-><init>(Landroidx/drawerlayout/widget/DrawerLayout;Landroid/widget/FrameLayout;Landroidx/drawerlayout/widget/DrawerLayout;Lcom/google/android/material/navigation/NavigationView;Landroidx/appcompat/widget/Toolbar;Landroid/widget/ImageView;)V
 
     .line 56
     .line 57
@@ -240,8 +228,7 @@
 
     .line 59
     :cond_0
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     .line 60
     .line 61
@@ -249,8 +236,7 @@
     move-result-object p0
 
     .line 63
-    invoke-virtual {p0, v0}, Landroid/content/res/Resources;
-    ->getResourceName(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getResourceName(I)Ljava/lang/String;
 
     .line 64
     .line 65
@@ -266,8 +252,7 @@
 
     .line 70
     .line 71
-    invoke-virtual {v1, p0}, Ljava/lang/String;
-    ->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, p0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 72
     .line 73
@@ -275,8 +260,7 @@
     move-result-object p0
 
     .line 75
-    invoke-direct {v0, p0}, Ljava/lang/NullPointerException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     .line 76
     .line 77
@@ -304,8 +288,7 @@
     const/4 v1, 0x0
 
     .line 1
-    invoke-static {p0, v0, v1}, Lcom/fmark/tselzap/databinding/ActivitySenderBinding;
-    ->inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/fmark/tselzap/databinding/ActivitySenderBinding;
+    invoke-static {p0, v0, v1}, Lcom/fmark/tselzap/databinding/ActivitySenderBinding;->inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/fmark/tselzap/databinding/ActivitySenderBinding;
 
     move-result-object p0
 
@@ -330,21 +313,18 @@
     const/4 v1, 0x0
 
     .line 2
-    invoke-virtual {p0, v0, p1, v1}, Landroid/view/LayoutInflater;
-    ->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    invoke-virtual {p0, v0, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p0
 
     if-eqz p2, :cond_0
 
     .line 3
-    invoke-virtual {p1, p0}, Landroid/view/ViewGroup;
-    ->addView(Landroid/view/View;)V
+    invoke-virtual {p1, p0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     .line 4
     :cond_0
-    invoke-static {p0}, Lcom/fmark/tselzap/databinding/ActivitySenderBinding;
-    ->bind(Landroid/view/View;)Lcom/fmark/tselzap/databinding/ActivitySenderBinding;
+    invoke-static {p0}, Lcom/fmark/tselzap/databinding/ActivitySenderBinding;->bind(Landroid/view/View;)Lcom/fmark/tselzap/databinding/ActivitySenderBinding;
 
     move-result-object p0
 
@@ -359,8 +339,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/fmark/tselzap/databinding/ActivitySenderBinding;
-    ->getRoot()Landroidx/drawerlayout/widget/DrawerLayout;
+    invoke-virtual {p0}, Lcom/fmark/tselzap/databinding/ActivitySenderBinding;->getRoot()Landroidx/drawerlayout/widget/DrawerLayout;
 
     move-result-object v0
 
@@ -373,8 +352,7 @@
     .end annotation
 
     .line 2
-    iget-object v0, p0, Lcom/fmark/tselzap/databinding/ActivitySenderBinding;
-    ->rootView:Landroidx/drawerlayout/widget/DrawerLayout;
+    iget-object v0, p0, Lcom/fmark/tselzap/databinding/ActivitySenderBinding;->rootView:Landroidx/drawerlayout/widget/DrawerLayout;
 
     return-object v0
 .end method

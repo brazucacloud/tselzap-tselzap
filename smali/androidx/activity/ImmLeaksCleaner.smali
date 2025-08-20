@@ -37,14 +37,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/activity/ImmLeaksCleaner;
-    ->mActivity:Landroid/app/Activity;    
+    iput-object p1, p0, Landroidx/activity/ImmLeaksCleaner;->mActivity:Landroid/app/Activity;
     return-void
 .end method
 
@@ -68,8 +66,7 @@
 
     .line 4
     :try_start_0
-    sput v1, Landroidx/activity/ImmLeaksCleaner;
-    ->sReflectedFieldsInitialized:I
+    sput v1, Landroidx/activity/ImmLeaksCleaner;->sReflectedFieldsInitialized:I
 
     .line 5
     .line 6
@@ -77,8 +74,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0, v1}, Ljava/lang/Class;
-    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v0, v1}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 9
     .line 10
@@ -86,16 +82,14 @@
     move-result-object v1
 
     .line 12
-    sput-object v1, Landroidx/activity/ImmLeaksCleaner;
-    ->sServedViewField:Ljava/lang/reflect/Field;
+    sput-object v1, Landroidx/activity/ImmLeaksCleaner;->sServedViewField:Ljava/lang/reflect/Field;
 
     .line 13
     .line 14
     const/4 v2, 0x1
 
     .line 15
-    invoke-virtual {v1, v2}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v1, v2}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 16
     .line 17
@@ -104,8 +98,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {v0, v1}, Ljava/lang/Class;
-    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v0, v1}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 21
     .line 22
@@ -113,13 +106,11 @@
     move-result-object v1
 
     .line 24
-    sput-object v1, Landroidx/activity/ImmLeaksCleaner;
-    ->sNextServedViewField:Ljava/lang/reflect/Field;
+    sput-object v1, Landroidx/activity/ImmLeaksCleaner;->sNextServedViewField:Ljava/lang/reflect/Field;
 
     .line 25
     .line 26
-    invoke-virtual {v1, v2}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v1, v2}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 27
     .line 28
@@ -128,8 +119,7 @@
 
     .line 30
     .line 31
-    invoke-virtual {v0, v1}, Ljava/lang/Class;
-    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v0, v1}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 32
     .line 33
@@ -137,19 +127,16 @@
     move-result-object v0
 
     .line 35
-    sput-object v0, Landroidx/activity/ImmLeaksCleaner;
-    ->sHField:Ljava/lang/reflect/Field;
+    sput-object v0, Landroidx/activity/ImmLeaksCleaner;->sHField:Ljava/lang/reflect/Field;
 
     .line 36
     .line 37
-    invoke-virtual {v0, v2}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v0, v2}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 38
     .line 39
     .line 40
-    sput v2, Landroidx/activity/ImmLeaksCleaner;
-    ->sReflectedFieldsInitialized:I
+    sput v2, Landroidx/activity/ImmLeaksCleaner;->sReflectedFieldsInitialized:I
     :try_end_0
     .catch Ljava/lang/NoSuchFieldException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -173,8 +160,7 @@
     .end param
 
     .line 1
-    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;
-    ->ON_DESTROY:Landroidx/lifecycle/Lifecycle$Event;
+    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;->ON_DESTROY:Landroidx/lifecycle/Lifecycle$Event;
 
     .line 2
     .line 3
@@ -186,8 +172,7 @@
 
     .line 6
     :cond_0
-    sget p1, Landroidx/activity/ImmLeaksCleaner;
-    ->sReflectedFieldsInitialized:I
+    sget p1, Landroidx/activity/ImmLeaksCleaner;->sReflectedFieldsInitialized:I
 
     .line 7
     .line 8
@@ -195,15 +180,13 @@
 
     .line 9
     .line 10
-    invoke-static {}, Landroidx/activity/ImmLeaksCleaner;
-    ->initializeReflectiveFields()V
+    invoke-static {}, Landroidx/activity/ImmLeaksCleaner;->initializeReflectiveFields()V
 
     .line 11
     .line 12
     .line 13
     :cond_1
-    sget p1, Landroidx/activity/ImmLeaksCleaner;
-    ->sReflectedFieldsInitialized:I
+    sget p1, Landroidx/activity/ImmLeaksCleaner;->sReflectedFieldsInitialized:I
 
     .line 14
     .line 15
@@ -214,8 +197,7 @@
 
     .line 17
     .line 18
-    iget-object p1, p0, Landroidx/activity/ImmLeaksCleaner;
-    ->mActivity:Landroid/app/Activity;
+    iget-object p1, p0, Landroidx/activity/ImmLeaksCleaner;->mActivity:Landroid/app/Activity;
 
     .line 19
     .line 20
@@ -223,8 +205,7 @@
 
     .line 21
     .line 22
-    invoke-virtual {p1, p2}, Landroid/app/Activity;
-    ->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Landroid/app/Activity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 23
     .line 24
@@ -237,13 +218,11 @@
     .line 27
     .line 28
     :try_start_0
-    sget-object p2, Landroidx/activity/ImmLeaksCleaner;
-    ->sHField:Ljava/lang/reflect/Field;
+    sget-object p2, Landroidx/activity/ImmLeaksCleaner;->sHField:Ljava/lang/reflect/Field;
 
     .line 29
     .line 30
-    invoke-virtual {p2, p1}, Ljava/lang/reflect/Field;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p2, p1}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 31
     .line 32
@@ -265,13 +244,11 @@
 
     .line 38
     :try_start_1
-    sget-object v0, Landroidx/activity/ImmLeaksCleaner;
-    ->sServedViewField:Ljava/lang/reflect/Field;
+    sget-object v0, Landroidx/activity/ImmLeaksCleaner;->sServedViewField:Ljava/lang/reflect/Field;
 
     .line 39
     .line 40
-    invoke-virtual {v0, p1}, Ljava/lang/reflect/Field;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 41
     .line 42
@@ -305,8 +282,7 @@
 
     .line 52
     :cond_3
-    invoke-virtual {v0}, Landroid/view/View;
-    ->isAttachedToWindow()Z
+    invoke-virtual {v0}, Landroid/view/View;->isAttachedToWindow()Z
 
     .line 53
     .line 54
@@ -327,16 +303,14 @@
     .line 60
     :cond_4
     :try_start_3
-    sget-object v0, Landroidx/activity/ImmLeaksCleaner;
-    ->sNextServedViewField:Ljava/lang/reflect/Field;
+    sget-object v0, Landroidx/activity/ImmLeaksCleaner;->sNextServedViewField:Ljava/lang/reflect/Field;
 
     .line 61
     .line 62
     const/4 v1, 0x0
 
     .line 63
-    invoke-virtual {v0, p1, v1}, Ljava/lang/reflect/Field;
-    ->set(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-virtual {v0, p1, v1}, Ljava/lang/reflect/Field;->set(Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_3
     .catch Ljava/lang/IllegalAccessException; {:try_start_3 .. :try_end_3} :catch_0
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
@@ -350,8 +324,7 @@
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
     .line 67
-    invoke-virtual {p1}, Landroid/view/inputmethod/InputMethodManager;
-    ->isActive()Z    
+    invoke-virtual {p1}, Landroid/view/inputmethod/InputMethodManager;->isActive()Z
     return-void
 
     .line 71

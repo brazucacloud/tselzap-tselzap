@@ -19,17 +19,13 @@
     .locals 0
 
     .line 1
-    iput p3, p0, Landroidx/core/location/n;
-    ->b:I
+    iput p3, p0, Landroidx/core/location/n;->b:I
 
-    iput-object p1, p0, Landroidx/core/location/n;
-    ->c:Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;
+    iput-object p1, p0, Landroidx/core/location/n;->c:Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;
 
-    iput-object p2, p0, Landroidx/core/location/n;
-    ->d:Ljava/util/concurrent/Executor;
+    iput-object p2, p0, Landroidx/core/location/n;->d:Ljava/util/concurrent/Executor;
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -39,30 +35,23 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/core/location/n;
-    ->b:I
+    iget v0, p0, Landroidx/core/location/n;->b:I
 
     packed-switch v0, :pswitch_data_0
 
-    iget-object v0, p0, Landroidx/core/location/n;
-    ->c:Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;
+    iget-object v0, p0, Landroidx/core/location/n;->c:Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;
 
-    iget-object v1, p0, Landroidx/core/location/n;
-    ->d:Ljava/util/concurrent/Executor;
+    iget-object v1, p0, Landroidx/core/location/n;->d:Ljava/util/concurrent/Executor;
 
-    invoke-static {v0, v1}, Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;
-    ->c(Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;Ljava/util/concurrent/Executor;)V
+    invoke-static {v0, v1}, Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;->c(Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;Ljava/util/concurrent/Executor;)V
 return-void
 
     :pswitch_0
-    iget-object v0, p0, Landroidx/core/location/n;
-    ->c:Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;
+    iget-object v0, p0, Landroidx/core/location/n;->c:Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;
 
-    iget-object v1, p0, Landroidx/core/location/n;
-    ->d:Ljava/util/concurrent/Executor;
+    iget-object v1, p0, Landroidx/core/location/n;->d:Ljava/util/concurrent/Executor;
 
-    invoke-static {v0, v1}, Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;
-    ->a(Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;Ljava/util/concurrent/Executor;)V
+    invoke-static {v0, v1}, Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;->a(Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;Ljava/util/concurrent/Executor;)V
 return-void
 
     nop

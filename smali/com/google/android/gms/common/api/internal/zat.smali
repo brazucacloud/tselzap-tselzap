@@ -22,14 +22,11 @@
 .method public constructor <init>(Lcom/google/android/gms/common/api/Api;Z)V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zat;
-    ->zaa:Lcom/google/android/gms/common/api/Api;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zat;->zaa:Lcom/google/android/gms/common/api/Api;
 
-    iput-boolean p2, p0, Lcom/google/android/gms/common/api/internal/zat;
-    ->zab:Z
+    iput-boolean p2, p0, Lcom/google/android/gms/common/api/internal/zat;->zab:Z
 return-void
 .end method
 
@@ -37,8 +34,7 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zat;
-    ->zac:Lcom/google/android/gms/common/api/internal/zau;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zat;->zac:Lcom/google/android/gms/common/api/internal/zau;
 
     .line 2
     .line 3
@@ -46,14 +42,12 @@ return-void
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
     .line 8
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zat;
-    ->zac:Lcom/google/android/gms/common/api/internal/zau;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zat;->zac:Lcom/google/android/gms/common/api/internal/zau;
 
     .line 9
     .line 10
@@ -70,8 +64,7 @@ return-void
     .end param
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/zat;
-    ->zab()Lcom/google/android/gms/common/api/internal/zau;
+    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/zat;->zab()Lcom/google/android/gms/common/api/internal/zau;
 
     .line 2
     .line 3
@@ -79,8 +72,7 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-interface {v0, p1}, Lcom/google/android/gms/common/api/internal/ConnectionCallbacks;
-    ->onConnected(Landroid/os/Bundle;)V
+    invoke-interface {v0, p1}, Lcom/google/android/gms/common/api/internal/ConnectionCallbacks;->onConnected(Landroid/os/Bundle;)V
 
     .line 6
     .line 7
@@ -96,18 +88,15 @@ return-void
     .end param
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zat;
-    ->zaa:Lcom/google/android/gms/common/api/Api;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zat;->zaa:Lcom/google/android/gms/common/api/Api;
 
     .line 2
     .line 3
-    iget-boolean v1, p0, Lcom/google/android/gms/common/api/internal/zat;
-    ->zab:Z
+    iget-boolean v1, p0, Lcom/google/android/gms/common/api/internal/zat;->zab:Z
 
     .line 4
     .line 5
-    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/zat;
-    ->zab()Lcom/google/android/gms/common/api/internal/zau;
+    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/zat;->zab()Lcom/google/android/gms/common/api/internal/zau;
 
     .line 6
     .line 7
@@ -115,8 +104,7 @@ return-void
     move-result-object v2
 
     .line 9
-    invoke-interface {v2, p1, v0, v1}, Lcom/google/android/gms/common/api/internal/zau;
-    ->zaa(Lcom/google/android/gms/common/ConnectionResult;Lcom/google/android/gms/common/api/Api;Z)V
+    invoke-interface {v2, p1, v0, v1}, Lcom/google/android/gms/common/api/internal/zau;->zaa(Lcom/google/android/gms/common/ConnectionResult;Lcom/google/android/gms/common/api/Api;Z)V
 
     .line 10
     .line 11
@@ -128,8 +116,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/zat;
-    ->zab()Lcom/google/android/gms/common/api/internal/zau;
+    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/zat;->zab()Lcom/google/android/gms/common/api/internal/zau;
 
     .line 2
     .line 3
@@ -137,8 +124,7 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-interface {v0, p1}, Lcom/google/android/gms/common/api/internal/ConnectionCallbacks;
-    ->onConnectionSuspended(I)V
+    invoke-interface {v0, p1}, Lcom/google/android/gms/common/api/internal/ConnectionCallbacks;->onConnectionSuspended(I)V
 
     .line 6
     .line 7
@@ -149,8 +135,7 @@ return-void
 .method public final zaa(Lcom/google/android/gms/common/api/internal/zau;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zat;
-    ->zac:Lcom/google/android/gms/common/api/internal/zau;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zat;->zac:Lcom/google/android/gms/common/api/internal/zau;
 
     return-void
 .end method

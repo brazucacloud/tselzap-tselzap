@@ -37,30 +37,25 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     const-string v0, "physicalSize == null"
 
-    invoke-static {p1, v0}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 3
-    iput-object p1, p0, Landroidx/core/view/DisplayCompat$ModeCompat;
-    ->mPhysicalSize:Landroid/graphics/Point;
+    iput-object p1, p0, Landroidx/core/view/DisplayCompat$ModeCompat;->mPhysicalSize:Landroid/graphics/Point;
 
     const/4 p1, 0x0
 
     .line 4
-    iput-object p1, p0, Landroidx/core/view/DisplayCompat$ModeCompat;
-    ->mMode:Landroid/view/Display$Mode;
+    iput-object p1, p0, Landroidx/core/view/DisplayCompat$ModeCompat;->mMode:Landroid/view/Display$Mode;
 
     const/4 p1, 0x1
 
     .line 5
-    iput-boolean p1, p0, Landroidx/core/view/DisplayCompat$ModeCompat;
-    ->mIsNative:Z
+    iput-boolean p1, p0, Landroidx/core/view/DisplayCompat$ModeCompat;->mIsNative:Z
 return-void
 .end method
 
@@ -79,34 +74,28 @@ return-void
     .end annotation
 
     .line 12
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 13
     const-string v0, "mode == null, can\'t wrap a null reference"
 
-    invoke-static {p1, v0}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 14
     const-string v0, "physicalSize == null"
 
-    invoke-static {p2, v0}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p2, v0}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 15
-    iput-object p2, p0, Landroidx/core/view/DisplayCompat$ModeCompat;
-    ->mPhysicalSize:Landroid/graphics/Point;
+    iput-object p2, p0, Landroidx/core/view/DisplayCompat$ModeCompat;->mPhysicalSize:Landroid/graphics/Point;
 
     .line 16
-    iput-object p1, p0, Landroidx/core/view/DisplayCompat$ModeCompat;
-    ->mMode:Landroid/view/Display$Mode;
+    iput-object p1, p0, Landroidx/core/view/DisplayCompat$ModeCompat;->mMode:Landroid/view/Display$Mode;
 
     const/4 p1, 0x1
 
     .line 17
-    iput-boolean p1, p0, Landroidx/core/view/DisplayCompat$ModeCompat;
-    ->mIsNative:Z
+    iput-boolean p1, p0, Landroidx/core/view/DisplayCompat$ModeCompat;->mIsNative:Z
 return-void
 .end method
 
@@ -121,42 +110,34 @@ return-void
     .end annotation
 
     .line 6
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 7
     const-string v0, "mode == null, can\'t wrap a null reference"
 
-    invoke-static {p1, v0}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 8
     new-instance v0, Landroid/graphics/Point;
 
-    invoke-static {p1}, Landroidx/core/view/DisplayCompat$ModeCompat$Api23Impl;
-    ->getPhysicalWidth(Landroid/view/Display$Mode;)I
+    invoke-static {p1}, Landroidx/core/view/DisplayCompat$ModeCompat$Api23Impl;->getPhysicalWidth(Landroid/view/Display$Mode;)I
 
     move-result v1
 
     .line 9
-    invoke-static {p1}, Landroidx/core/view/DisplayCompat$ModeCompat$Api23Impl;
-    ->getPhysicalHeight(Landroid/view/Display$Mode;)I
+    invoke-static {p1}, Landroidx/core/view/DisplayCompat$ModeCompat$Api23Impl;->getPhysicalHeight(Landroid/view/Display$Mode;)I
 
     move-result v2
 
-    invoke-direct {v0, v1, v2}, Landroid/graphics/Point;
-    -><init>(II)V
+    invoke-direct {v0, v1, v2}, Landroid/graphics/Point;-><init>(II)V
 
-    iput-object v0, p0, Landroidx/core/view/DisplayCompat$ModeCompat;
-    ->mPhysicalSize:Landroid/graphics/Point;
+    iput-object v0, p0, Landroidx/core/view/DisplayCompat$ModeCompat;->mPhysicalSize:Landroid/graphics/Point;
 
     .line 10
-    iput-object p1, p0, Landroidx/core/view/DisplayCompat$ModeCompat;
-    ->mMode:Landroid/view/Display$Mode;
+    iput-object p1, p0, Landroidx/core/view/DisplayCompat$ModeCompat;->mMode:Landroid/view/Display$Mode;
 
     .line 11
-    iput-boolean p2, p0, Landroidx/core/view/DisplayCompat$ModeCompat;
-    ->mIsNative:Z
+    iput-boolean p2, p0, Landroidx/core/view/DisplayCompat$ModeCompat;->mIsNative:Z
 return-void
 .end method
 
@@ -166,13 +147,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/DisplayCompat$ModeCompat;
-    ->mPhysicalSize:Landroid/graphics/Point;
+    iget-object v0, p0, Landroidx/core/view/DisplayCompat$ModeCompat;->mPhysicalSize:Landroid/graphics/Point;
 
     .line 2
     .line 3
-    iget v0, v0, Landroid/graphics/Point;
-    ->y:I
+    iget v0, v0, Landroid/graphics/Point;->y:I
 
     .line 4
     .line 5
@@ -183,13 +162,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/DisplayCompat$ModeCompat;
-    ->mPhysicalSize:Landroid/graphics/Point;
+    iget-object v0, p0, Landroidx/core/view/DisplayCompat$ModeCompat;->mPhysicalSize:Landroid/graphics/Point;
 
     .line 2
     .line 3
-    iget v0, v0, Landroid/graphics/Point;
-    ->x:I
+    iget v0, v0, Landroid/graphics/Point;->x:I
 
     .line 4
     .line 5
@@ -202,8 +179,7 @@ return-void
     .end annotation
 
     .line 1
-    iget-boolean v0, p0, Landroidx/core/view/DisplayCompat$ModeCompat;
-    ->mIsNative:Z
+    iget-boolean v0, p0, Landroidx/core/view/DisplayCompat$ModeCompat;->mIsNative:Z
 
     .line 2
     .line 3
@@ -220,8 +196,7 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/DisplayCompat$ModeCompat;
-    ->mMode:Landroid/view/Display$Mode;
+    iget-object v0, p0, Landroidx/core/view/DisplayCompat$ModeCompat;->mMode:Landroid/view/Display$Mode;
 
     .line 2
     .line 3

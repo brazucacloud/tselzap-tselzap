@@ -18,14 +18,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, La0/i;
-    ->a:Landroid/view/View;
+    iput-object p1, p0, La0/i;->a:Landroid/view/View;
 
     .line 5
     .line 6
@@ -38,18 +36,15 @@
     .locals 4
 
     .line 1
-    iget v0, p0, La0/i;
-    ->d:I
+    iget v0, p0, La0/i;->d:I
 
     .line 2
     .line 3
-    iget-object v1, p0, La0/i;
-    ->a:Landroid/view/View;
+    iget-object v1, p0, La0/i;->a:Landroid/view/View;
 
     .line 4
     .line 5
-    invoke-virtual {v1}, Landroid/view/View;
-    ->getTop()I
+    invoke-virtual {v1}, Landroid/view/View;->getTop()I
 
     .line 6
     .line 7
@@ -57,8 +52,7 @@
     move-result v2
 
     .line 9
-    iget v3, p0, La0/i;
-    ->b:I
+    iget v3, p0, La0/i;->b:I
 
     .line 10
     .line 11
@@ -68,14 +62,12 @@
     sub-int/2addr v0, v2
 
     .line 13
-    invoke-static {v1, v0}, Landroidx/core/view/ViewCompat;
-    ->offsetTopAndBottom(Landroid/view/View;I)V
+    invoke-static {v1, v0}, Landroidx/core/view/ViewCompat;->offsetTopAndBottom(Landroid/view/View;I)V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {v1}, Landroid/view/View;
-    ->getLeft()I
+    invoke-virtual {v1}, Landroid/view/View;->getLeft()I
 
     .line 17
     .line 18
@@ -83,8 +75,7 @@
     move-result v0
 
     .line 20
-    iget v2, p0, La0/i;
-    ->c:I
+    iget v2, p0, La0/i;->c:I
 
     .line 21
     .line 22
@@ -95,8 +86,7 @@
 
     .line 24
     .line 25
-    invoke-static {v1, v0}, Landroidx/core/view/ViewCompat;
-    ->offsetLeftAndRight(Landroid/view/View;I)V
+    invoke-static {v1, v0}, Landroidx/core/view/ViewCompat;->offsetLeftAndRight(Landroid/view/View;I)V
 
     .line 26
     .line 27

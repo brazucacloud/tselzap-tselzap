@@ -40,19 +40,16 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;
-    ->mHostView:Landroid/view/View;
+    iput-object p1, p0, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;->mHostView:Landroid/view/View;
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;
-    ->mMethodName:Ljava/lang/String;    
+    iput-object p2, p0, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;->mMethodName:Ljava/lang/String;
     return-void
 .end method
 
@@ -70,8 +67,7 @@
     .line 2
     .line 3
     :try_start_0
-    invoke-virtual {p1}, Landroid/content/Context;
-    ->isRestricted()Z
+    invoke-virtual {p1}, Landroid/content/Context;->isRestricted()Z
 
     .line 4
     .line 5
@@ -83,8 +79,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 10
     .line 11
@@ -92,8 +87,7 @@
     move-result-object v0
 
     .line 13
-    iget-object v1, p0, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;
-    ->mMethodName:Ljava/lang/String;
+    iget-object v1, p0, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;->mMethodName:Ljava/lang/String;
 
     .line 14
     .line 15
@@ -115,8 +109,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {v0, v1, v2}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v0, v1, v2}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 24
     .line 25
@@ -128,13 +121,11 @@
 
     .line 28
     .line 29
-    iput-object v0, p0, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;
-    ->mResolvedMethod:Ljava/lang/reflect/Method;
+    iput-object v0, p0, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;->mResolvedMethod:Ljava/lang/reflect/Method;
 
     .line 30
     .line 31
-    iput-object p1, p0, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;
-    ->mResolvedContext:Landroid/content/Context;
+    iput-object p1, p0, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;->mResolvedContext:Landroid/content/Context;
     :try_end_0
     .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
@@ -156,8 +147,7 @@
 
     .line 40
     .line 41
-    invoke-virtual {p1}, Landroid/content/ContextWrapper;
-    ->getBaseContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/content/ContextWrapper;->getBaseContext()Landroid/content/Context;
 
     .line 42
     .line 43
@@ -176,13 +166,11 @@
 
     .line 48
     :cond_2
-    iget-object p1, p0, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;
-    ->mHostView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;->mHostView:Landroid/view/View;
 
     .line 49
     .line 50
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getId()I
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
 
     .line 51
     .line 52
@@ -213,19 +201,16 @@
 
     .line 63
     .line 64
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 65
     .line 66
     .line 67
-    iget-object v1, p0, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;
-    ->mHostView:Landroid/view/View;
+    iget-object v1, p0, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;->mHostView:Landroid/view/View;
 
     .line 68
     .line 69
-    invoke-virtual {v1}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {v1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 70
     .line 71
@@ -233,8 +218,7 @@
     move-result-object v1
 
     .line 73
-    invoke-virtual {v1}, Landroid/content/Context;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     .line 74
     .line 75
@@ -242,8 +226,7 @@
     move-result-object v1
 
     .line 77
-    invoke-virtual {v1, p1}, Landroid/content/res/Resources;
-    ->getResourceEntryName(I)Ljava/lang/String;
+    invoke-virtual {v1, p1}, Landroid/content/res/Resources;->getResourceEntryName(I)Ljava/lang/String;
 
     .line 78
     .line 79
@@ -251,8 +234,7 @@
     move-result-object p1
 
     .line 81
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 82
     .line 83
@@ -261,14 +243,12 @@
 
     .line 85
     .line 86
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 87
     .line 88
     .line 89
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 90
     .line 91
@@ -289,19 +269,16 @@
 
     .line 98
     .line 99
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 100
     .line 101
     .line 102
-    iget-object v2, p0, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;
-    ->mMethodName:Ljava/lang/String;
+    iget-object v2, p0, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;->mMethodName:Ljava/lang/String;
 
     .line 103
     .line 104
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 105
     .line 106
@@ -310,19 +287,16 @@
 
     .line 108
     .line 109
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 110
     .line 111
     .line 112
-    iget-object v2, p0, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;
-    ->mHostView:Landroid/view/View;
+    iget-object v2, p0, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;->mHostView:Landroid/view/View;
 
     .line 113
     .line 114
-    invoke-virtual {v2}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 115
     .line 116
@@ -330,20 +304,17 @@
     move-result-object v2
 
     .line 118
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 119
     .line 120
     .line 121
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 122
     .line 123
     .line 124
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 125
     .line 126
@@ -351,8 +322,7 @@
     move-result-object p1
 
     .line 128
-    invoke-direct {v0, p1}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 129
     .line 130
@@ -369,8 +339,7 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;
-    ->mResolvedMethod:Ljava/lang/reflect/Method;
+    iget-object v0, p0, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;->mResolvedMethod:Ljava/lang/reflect/Method;
 
     .line 2
     .line 3
@@ -378,13 +347,11 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;
-    ->mHostView:Landroid/view/View;
+    iget-object v0, p0, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;->mHostView:Landroid/view/View;
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {v0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 8
     .line 9
@@ -392,21 +359,18 @@
     move-result-object v0
 
     .line 11
-    invoke-direct {p0, v0}, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;
-    ->resolveMethod(Landroid/content/Context;)V
+    invoke-direct {p0, v0}, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;->resolveMethod(Landroid/content/Context;)V
 
     .line 12
     .line 13
     .line 14
     :cond_0
     :try_start_0
-    iget-object v0, p0, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;
-    ->mResolvedMethod:Ljava/lang/reflect/Method;
+    iget-object v0, p0, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;->mResolvedMethod:Ljava/lang/reflect/Method;
 
     .line 15
     .line 16
-    iget-object v1, p0, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;
-    ->mResolvedContext:Landroid/content/Context;
+    iget-object v1, p0, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;->mResolvedContext:Landroid/content/Context;
 
     .line 17
     .line 18
@@ -424,8 +388,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {v0, v1, v2}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_0 .. :try_end_0} :catch_0    return-void
@@ -454,8 +417,7 @@
 
     .line 35
     .line 36
-    invoke-direct {v0, v1, p1}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v0, v1, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 37
     .line 38
@@ -472,8 +434,7 @@
 
     .line 43
     .line 44
-    invoke-direct {v0, v1, p1}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v0, v1, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 45
     .line 46

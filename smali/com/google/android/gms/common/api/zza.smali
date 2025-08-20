@@ -22,14 +22,11 @@
 
     new-instance v1, Lcom/google/android/gms/common/api/zzb;
 
-    invoke-direct {v1}, Lcom/google/android/gms/common/api/zzb;
-    -><init>()V
+    invoke-direct {v1}, Lcom/google/android/gms/common/api/zzb;-><init>()V
 
-    invoke-direct {v0, v1}, Lcom/google/android/gms/common/api/zza;
-    -><init>(Landroid/os/Parcelable$Creator;)V
+    invoke-direct {v0, v1}, Lcom/google/android/gms/common/api/zza;-><init>(Landroid/os/Parcelable$Creator;)V
 
-    sput-object v0, Lcom/google/android/gms/common/api/zza;
-    ->zza:Lcom/google/android/gms/common/api/zza;
+    sput-object v0, Lcom/google/android/gms/common/api/zza;->zza:Lcom/google/android/gms/common/api/zza;
 
     return-void
 .end method
@@ -37,11 +34,9 @@
 .method private constructor <init>(Landroid/os/Parcelable$Creator;)V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/zza;
-    ->zzb:Landroid/os/Parcelable$Creator;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/zza;->zzb:Landroid/os/Parcelable$Creator;
 
     return-void
 .end method
@@ -49,8 +44,7 @@
 .method public static zza()Lcom/google/android/gms/common/api/zza;
     .locals 1
 
-    sget-object v0, Lcom/google/android/gms/common/api/zza;
-    ->zza:Lcom/google/android/gms/common/api/zza;
+    sget-object v0, Lcom/google/android/gms/common/api/zza;->zza:Lcom/google/android/gms/common/api/zza;
 
     return-object v0
 .end method
@@ -61,8 +55,7 @@
     .locals 3
 
     .line 1
-    invoke-virtual {p1}, Landroid/os/Parcel;
-    ->dataPosition()I
+    invoke-virtual {p1}, Landroid/os/Parcel;->dataPosition()I
 
     .line 2
     .line 3
@@ -70,8 +63,7 @@
     move-result v0
 
     .line 5
-    invoke-virtual {p1}, Landroid/os/Parcel;
-    ->readInt()I
+    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     .line 6
     .line 7
@@ -88,8 +80,7 @@
 
     .line 13
     .line 14
-    invoke-static {p1}, Lcom/google/android/gms/common/api/zzb;
-    ->zza(Landroid/os/Parcel;)Lcom/google/android/gms/common/api/ApiMetadata;
+    invoke-static {p1}, Lcom/google/android/gms/common/api/zzb;->zza(Landroid/os/Parcel;)Lcom/google/android/gms/common/api/ApiMetadata;
 
     .line 15
     .line 16
@@ -104,14 +95,12 @@
 
     .line 20
     .line 21
-    invoke-virtual {p1, v0}, Landroid/os/Parcel;
-    ->setDataPosition(I)V
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->setDataPosition(I)V
 
     .line 22
     .line 23
     .line 24
-    invoke-static {}, Lcom/google/android/gms/common/api/ApiMetadata;
-    ->getEmptyInstance()Lcom/google/android/gms/common/api/ApiMetadata;
+    invoke-static {}, Lcom/google/android/gms/common/api/ApiMetadata;->getEmptyInstance()Lcom/google/android/gms/common/api/ApiMetadata;
 
     .line 25
     .line 26

@@ -23,8 +23,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -32,8 +31,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/activity/result/contract/ActivityResultContracts$GetMultipleContents$Companion;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/activity/result/contract/ActivityResultContracts$GetMultipleContents$Companion;-><init>()V
     return-void
 .end method
 
@@ -57,8 +55,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -67,14 +64,12 @@
 
     .line 7
     .line 8
-    invoke-direct {v0}, Ljava/util/LinkedHashSet;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/LinkedHashSet;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p1}, Landroid/content/Intent;
-    ->getData()Landroid/net/Uri;
+    invoke-virtual {p1}, Landroid/content/Intent;->getData()Landroid/net/Uri;
 
     .line 12
     .line 13
@@ -86,15 +81,13 @@
 
     .line 16
     .line 17
-    invoke-virtual {v0, v1}, Ljava/util/AbstractCollection;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
     .line 18
     .line 19
     .line 20
     :cond_0
-    invoke-virtual {p1}, Landroid/content/Intent;
-    ->getClipData()Landroid/content/ClipData;
+    invoke-virtual {p1}, Landroid/content/Intent;->getClipData()Landroid/content/ClipData;
 
     .line 21
     .line 22
@@ -106,8 +99,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {v0}, Ljava/util/AbstractCollection;
-    ->isEmpty()Z
+    invoke-virtual {v0}, Ljava/util/AbstractCollection;->isEmpty()Z
 
     .line 27
     .line 28
@@ -119,8 +111,7 @@
 
     .line 31
     .line 32
-    sget-object p1, Ld1/t;
-    ->b:Ld1/t;    return-object p1
+    sget-object p1, Ld1/t;->b:Ld1/t;    return-object p1
 
     .line 35
     :cond_1
@@ -128,8 +119,7 @@
 
     .line 36
     .line 37
-    invoke-virtual {p1}, Landroid/content/ClipData;
-    ->getItemCount()I
+    invoke-virtual {p1}, Landroid/content/ClipData;->getItemCount()I
 
     .line 38
     .line 39
@@ -145,8 +135,7 @@
 
     .line 43
     .line 44
-    invoke-virtual {p1, v2}, Landroid/content/ClipData;
-    ->getItemAt(I)Landroid/content/ClipData$Item;
+    invoke-virtual {p1, v2}, Landroid/content/ClipData;->getItemAt(I)Landroid/content/ClipData$Item;
 
     .line 45
     .line 46
@@ -154,8 +143,7 @@
     move-result-object v3
 
     .line 48
-    invoke-virtual {v3}, Landroid/content/ClipData$Item;
-    ->getUri()Landroid/net/Uri;
+    invoke-virtual {v3}, Landroid/content/ClipData$Item;->getUri()Landroid/net/Uri;
 
     .line 49
     .line 50
@@ -167,8 +155,7 @@
 
     .line 53
     .line 54
-    invoke-virtual {v0, v3}, Ljava/util/AbstractCollection;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/util/AbstractCollection;->add(Ljava/lang/Object;)Z
 
     .line 55
     .line 56
@@ -186,8 +173,7 @@
 
     .line 61
     .line 62
-    invoke-direct {p1, v0}, Ljava/util/ArrayList;
-    -><init>(Ljava/util/Collection;)V
+    invoke-direct {p1, v0}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
     return-object p1
 .end method
 

@@ -42,11 +42,9 @@
 
     new-instance v0, Lcom/google/android/gms/common/server/converter/zab;
 
-    invoke-direct {v0}, Lcom/google/android/gms/common/server/converter/zab;
-    -><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/common/server/converter/zab;-><init>()V
 
-    sput-object v0, Lcom/google/android/gms/common/server/converter/zaa;
-    ->CREATOR:Landroid/os/Parcelable$Creator;
+    sput-object v0, Lcom/google/android/gms/common/server/converter/zaa;->CREATOR:Landroid/os/Parcelable$Creator;
 
     return-void
 .end method
@@ -67,14 +65,11 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
-    iput p1, p0, Lcom/google/android/gms/common/server/converter/zaa;
-    ->zaa:I
+    iput p1, p0, Lcom/google/android/gms/common/server/converter/zaa;->zaa:I
 
-    iput-object p2, p0, Lcom/google/android/gms/common/server/converter/zaa;
-    ->zab:Lcom/google/android/gms/common/server/converter/StringToIntConverter;
+    iput-object p2, p0, Lcom/google/android/gms/common/server/converter/zaa;->zab:Lcom/google/android/gms/common/server/converter/StringToIntConverter;
 
     return-void
 .end method
@@ -83,16 +78,13 @@
     .locals 1
 
     .line 2
-    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
     const/4 v0, 0x1
 
-    iput v0, p0, Lcom/google/android/gms/common/server/converter/zaa;
-    ->zaa:I
+    iput v0, p0, Lcom/google/android/gms/common/server/converter/zaa;->zaa:I
 
-    iput-object p1, p0, Lcom/google/android/gms/common/server/converter/zaa;
-    ->zab:Lcom/google/android/gms/common/server/converter/StringToIntConverter;
+    iput-object p1, p0, Lcom/google/android/gms/common/server/converter/zaa;->zab:Lcom/google/android/gms/common/server/converter/StringToIntConverter;
 
     return-void
 .end method
@@ -117,8 +109,7 @@
 
     .line 8
     .line 9
-    invoke-direct {v0, p0}, Lcom/google/android/gms/common/server/converter/zaa;
-    -><init>(Lcom/google/android/gms/common/server/converter/StringToIntConverter;)V
+    invoke-direct {v0, p0}, Lcom/google/android/gms/common/server/converter/zaa;-><init>(Lcom/google/android/gms/common/server/converter/StringToIntConverter;)V
 
     .line 10
     .line 11
@@ -135,8 +126,7 @@
 
     .line 16
     .line 17
-    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 18
     .line 19
@@ -157,13 +147,11 @@
     .locals 4
 
     .line 1
-    iget v0, p0, Lcom/google/android/gms/common/server/converter/zaa;
-    ->zaa:I
+    iget v0, p0, Lcom/google/android/gms/common/server/converter/zaa;->zaa:I
 
     .line 2
     .line 3
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
-    ->beginObjectHeader(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->beginObjectHeader(Landroid/os/Parcel;)I
 
     .line 4
     .line 5
@@ -174,14 +162,12 @@
     const/4 v2, 0x1
 
     .line 8
-    invoke-static {p1, v2, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
-    ->writeInt(Landroid/os/Parcel;II)V
+    invoke-static {p1, v2, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeInt(Landroid/os/Parcel;II)V
 
     .line 9
     .line 10
     .line 11
-    iget-object v0, p0, Lcom/google/android/gms/common/server/converter/zaa;
-    ->zab:Lcom/google/android/gms/common/server/converter/StringToIntConverter;
+    iget-object v0, p0, Lcom/google/android/gms/common/server/converter/zaa;->zab:Lcom/google/android/gms/common/server/converter/StringToIntConverter;
 
     .line 12
     .line 13
@@ -191,14 +177,12 @@
     const/4 v3, 0x2
 
     .line 15
-    invoke-static {p1, v3, v0, p2, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
-    ->writeParcelable(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
+    invoke-static {p1, v3, v0, p2, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeParcelable(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
 
     .line 16
     .line 17
     .line 18
-    invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
-    ->finishObjectHeader(Landroid/os/Parcel;I)V
+    invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->finishObjectHeader(Landroid/os/Parcel;I)V
 
     .line 19
     .line 20
@@ -210,8 +194,7 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/server/converter/zaa;
-    ->zab:Lcom/google/android/gms/common/server/converter/StringToIntConverter;
+    iget-object v0, p0, Lcom/google/android/gms/common/server/converter/zaa;->zab:Lcom/google/android/gms/common/server/converter/StringToIntConverter;
 
     .line 2
     .line 3
@@ -231,8 +214,7 @@
 
     .line 9
     .line 10
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 11
     .line 12

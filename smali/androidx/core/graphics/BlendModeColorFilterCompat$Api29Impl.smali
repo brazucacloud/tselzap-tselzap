@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -46,8 +45,7 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, p0, p1}, Landroid/graphics/BlendModeColorFilter;
-    -><init>(ILandroid/graphics/BlendMode;)V
+    invoke-direct {v0, p0, p1}, Landroid/graphics/BlendModeColorFilter;-><init>(ILandroid/graphics/BlendMode;)V
 
     .line 6
     .line 7

@@ -276,8 +276,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -291,8 +290,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/MotionEvent;
-    ->findPointerIndex(I)I
+    invoke-virtual {p0, p1}, Landroid/view/MotionEvent;->findPointerIndex(I)I
 
     .line 2
     .line 3
@@ -308,8 +306,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/MotionEvent;
-    ->getActionIndex()I
+    invoke-virtual {p0}, Landroid/view/MotionEvent;->getActionIndex()I
 
     .line 2
     .line 3
@@ -325,8 +322,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/MotionEvent;
-    ->getActionMasked()I
+    invoke-virtual {p0}, Landroid/view/MotionEvent;->getActionMasked()I
 
     .line 2
     .line 3
@@ -342,8 +338,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/MotionEvent;
-    ->getAxisValue(I)F
+    invoke-virtual {p0, p1}, Landroid/view/MotionEvent;->getAxisValue(I)F
 
     move-result p0
 
@@ -356,8 +351,7 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1, p2}, Landroid/view/MotionEvent;
-    ->getAxisValue(II)F
+    invoke-virtual {p0, p1, p2}, Landroid/view/MotionEvent;->getAxisValue(II)F
 
     move-result p0
 
@@ -370,8 +364,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/MotionEvent;
-    ->getButtonState()I
+    invoke-virtual {p0}, Landroid/view/MotionEvent;->getButtonState()I
 
     .line 2
     .line 3
@@ -387,8 +380,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/MotionEvent;
-    ->getPointerCount()I
+    invoke-virtual {p0}, Landroid/view/MotionEvent;->getPointerCount()I
 
     .line 2
     .line 3
@@ -404,8 +396,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/MotionEvent;
-    ->getPointerId(I)I
+    invoke-virtual {p0, p1}, Landroid/view/MotionEvent;->getPointerId(I)I
 
     .line 2
     .line 3
@@ -421,8 +412,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/MotionEvent;
-    ->getSource()I
+    invoke-virtual {p0}, Landroid/view/MotionEvent;->getSource()I
 
     .line 2
     .line 3
@@ -438,8 +428,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/MotionEvent;
-    ->getX(I)F
+    invoke-virtual {p0, p1}, Landroid/view/MotionEvent;->getX(I)F
 
     .line 2
     .line 3
@@ -455,8 +444,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/MotionEvent;
-    ->getY(I)F
+    invoke-virtual {p0, p1}, Landroid/view/MotionEvent;->getY(I)F
 
     .line 2
     .line 3
@@ -474,8 +462,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/MotionEvent;
-    ->getSource()I
+    invoke-virtual {p0}, Landroid/view/MotionEvent;->getSource()I
 
     .line 2
     .line 3

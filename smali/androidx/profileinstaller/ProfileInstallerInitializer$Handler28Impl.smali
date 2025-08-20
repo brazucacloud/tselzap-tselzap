@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -36,8 +35,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/view/accessibility/a;
-    ->f(Landroid/os/Looper;)Landroid/os/Handler;
+    invoke-static {p0}, Landroidx/core/view/accessibility/a;->f(Landroid/os/Looper;)Landroid/os/Handler;
 
     .line 2
     .line 3

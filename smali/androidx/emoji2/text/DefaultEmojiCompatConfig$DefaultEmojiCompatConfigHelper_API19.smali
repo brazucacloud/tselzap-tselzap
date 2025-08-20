@@ -10,8 +10,7 @@
 
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -30,8 +29,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/emoji2/text/DefaultEmojiCompatConfig$DefaultEmojiCompatConfigHelper;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/emoji2/text/DefaultEmojiCompatConfig$DefaultEmojiCompatConfigHelper;-><init>()V
 
     .line 2
     .line 3
@@ -51,8 +49,7 @@
     .end annotation
 
     .line 1
-    iget-object p1, p1, Landroid/content/pm/ResolveInfo;
-    ->providerInfo:Landroid/content/pm/ProviderInfo;
+    iget-object p1, p1, Landroid/content/pm/ResolveInfo;->providerInfo:Landroid/content/pm/ProviderInfo;
 
     .line 2
     .line 3
@@ -85,8 +82,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1, p2, p3}, Landroid/content/pm/PackageManager;
-    ->queryIntentContentProviders(Landroid/content/Intent;I)Ljava/util/List;
+    invoke-virtual {p1, p2, p3}, Landroid/content/pm/PackageManager;->queryIntentContentProviders(Landroid/content/Intent;I)Ljava/util/List;
 
     .line 2
     .line 3

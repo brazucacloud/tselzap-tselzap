@@ -19,11 +19,9 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    sget-object v0, Landroidx/window/layout/WindowInfoTracker$Companion;
-    ->$$INSTANCE:Landroidx/window/layout/WindowInfoTracker$Companion;
+    sget-object v0, Landroidx/window/layout/WindowInfoTracker$Companion;->$$INSTANCE:Landroidx/window/layout/WindowInfoTracker$Companion;
 
-    sput-object v0, Landroidx/window/layout/WindowInfoTracker;
-    ->Companion:Landroidx/window/layout/WindowInfoTracker$Companion;
+    sput-object v0, Landroidx/window/layout/WindowInfoTracker;->Companion:Landroidx/window/layout/WindowInfoTracker$Companion;
 
     return-void
 .end method

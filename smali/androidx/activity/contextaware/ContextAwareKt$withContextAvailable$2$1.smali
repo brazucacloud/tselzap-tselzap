@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/activity/contextaware/ContextAwareKt;
-    ->withContextAvailable(Landroidx/activity/contextaware/ContextAware;Lp1/l;Lg1/d;)Ljava/lang/Object;
+    value = Landroidx/activity/contextaware/ContextAwareKt;->withContextAvailable(Landroidx/activity/contextaware/ContextAware;Lp1/l;Lg1/d;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,16 +34,13 @@
 .method public constructor <init>(Landroidx/activity/contextaware/ContextAware;Landroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$listener$1;)V
     .locals 0
 
-    iput-object p1, p0, Landroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$1;
-    ->$this_withContextAvailable:Landroidx/activity/contextaware/ContextAware;
+    iput-object p1, p0, Landroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$1;->$this_withContextAvailable:Landroidx/activity/contextaware/ContextAware;
 
-    iput-object p2, p0, Landroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$1;
-    ->$listener:Landroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$listener$1;
+    iput-object p2, p0, Landroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$1;->$listener:Landroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$listener$1;
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
-    -><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
 return-void
 .end method
 
@@ -56,11 +52,9 @@ return-void
     .line 1
     check-cast p1, Ljava/lang/Throwable;
 
-    invoke-virtual {p0, p1}, Landroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$1;
-    ->invoke(Ljava/lang/Throwable;)V
+    invoke-virtual {p0, p1}, Landroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$1;->invoke(Ljava/lang/Throwable;)V
 
-    sget-object p1, Lc1/v;
-    ->a:Lc1/v;
+    sget-object p1, Lc1/v;->a:Lc1/v;
 
     return-object p1
 .end method
@@ -69,14 +63,11 @@ return-void
     .locals 1
 
     .line 2
-    iget-object p1, p0, Landroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$1;
-    ->$this_withContextAvailable:Landroidx/activity/contextaware/ContextAware;
+    iget-object p1, p0, Landroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$1;->$this_withContextAvailable:Landroidx/activity/contextaware/ContextAware;
 
-    iget-object v0, p0, Landroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$1;
-    ->$listener:Landroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$listener$1;
+    iget-object v0, p0, Landroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$1;->$listener:Landroidx/activity/contextaware/ContextAwareKt$withContextAvailable$2$listener$1;
 
-    invoke-interface {p1, v0}, Landroidx/activity/contextaware/ContextAware;
-    ->removeOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V
+    invoke-interface {p1, v0}, Landroidx/activity/contextaware/ContextAware;->removeOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V
 return-void
 .end method
 

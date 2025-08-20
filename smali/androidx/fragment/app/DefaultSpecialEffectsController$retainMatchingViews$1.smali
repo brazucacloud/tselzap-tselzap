@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/fragment/app/DefaultSpecialEffectsController;
-    ->retainMatchingViews(Landroidx/collection/ArrayMap;Ljava/util/Collection;)V
+    value = Landroidx/fragment/app/DefaultSpecialEffectsController;->retainMatchingViews(Landroidx/collection/ArrayMap;Ljava/util/Collection;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -49,13 +48,11 @@
         }
     .end annotation
 
-    iput-object p1, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$retainMatchingViews$1;
-    ->$names:Ljava/util/Collection;
+    iput-object p1, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$retainMatchingViews$1;->$names:Ljava/util/Collection;
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
-    -><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
 return-void
 .end method
 
@@ -76,34 +73,28 @@ return-void
 
     const-string v0, "entry"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    iget-object v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$retainMatchingViews$1;
-    ->$names:Ljava/util/Collection;
+    iget-object v0, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$retainMatchingViews$1;->$names:Ljava/util/Collection;
 
     check-cast v0, Ljava/lang/Iterable;
 
-    invoke-interface {p1}, Ljava/util/Map$Entry;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Landroid/view/View;
 
-    invoke-static {p1}, Landroidx/core/view/ViewCompat;
-    ->getTransitionName(Landroid/view/View;)Ljava/lang/String;
+    invoke-static {p1}, Landroidx/core/view/ViewCompat;->getTransitionName(Landroid/view/View;)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-static {v0, p1}, Ld1/k;
-    ->o0(Ljava/lang/Iterable;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Ld1/k;->o0(Ljava/lang/Iterable;Ljava/lang/Object;)Z
 
     move-result p1
 
-    invoke-static {p1}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p1
 
@@ -116,8 +107,7 @@ return-void
     .line 1
     check-cast p1, Ljava/util/Map$Entry;
 
-    invoke-virtual {p0, p1}, Landroidx/fragment/app/DefaultSpecialEffectsController$retainMatchingViews$1;
-    ->invoke(Ljava/util/Map$Entry;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1}, Landroidx/fragment/app/DefaultSpecialEffectsController$retainMatchingViews$1;->invoke(Ljava/util/Map$Entry;)Ljava/lang/Boolean;
 
     move-result-object p1
 

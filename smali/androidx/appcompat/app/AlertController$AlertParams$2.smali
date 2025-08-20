@@ -5,8 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/appcompat/app/AlertController$AlertParams;
-    ->createListView(Landroidx/appcompat/app/AlertController;)V
+    value = Landroidx/appcompat/app/AlertController$AlertParams;->createListView(Landroidx/appcompat/app/AlertController;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -32,29 +31,24 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/app/AlertController$AlertParams$2;
-    ->this$0:Landroidx/appcompat/app/AlertController$AlertParams;
+    iput-object p1, p0, Landroidx/appcompat/app/AlertController$AlertParams$2;->this$0:Landroidx/appcompat/app/AlertController$AlertParams;
 
     .line 2
     .line 3
-    iput-object p5, p0, Landroidx/appcompat/app/AlertController$AlertParams$2;
-    ->val$listView:Landroidx/appcompat/app/AlertController$RecycleListView;
+    iput-object p5, p0, Landroidx/appcompat/app/AlertController$AlertParams$2;->val$listView:Landroidx/appcompat/app/AlertController$RecycleListView;
 
     .line 4
     .line 5
-    iput-object p6, p0, Landroidx/appcompat/app/AlertController$AlertParams$2;
-    ->val$dialog:Landroidx/appcompat/app/AlertController;
+    iput-object p6, p0, Landroidx/appcompat/app/AlertController$AlertParams$2;->val$dialog:Landroidx/appcompat/app/AlertController;
 
     .line 6
     .line 7
-    invoke-direct {p0, p2, p3, p4}, Landroid/widget/CursorAdapter;
-    -><init>(Landroid/content/Context;Landroid/database/Cursor;Z)V
+    invoke-direct {p0, p2, p3, p4}, Landroid/widget/CursorAdapter;-><init>(Landroid/content/Context;Landroid/database/Cursor;Z)V
 
     .line 8
     .line 9
     .line 10
-    invoke-virtual {p0}, Landroid/widget/CursorAdapter;
-    ->getCursor()Landroid/database/Cursor;
+    invoke-virtual {p0}, Landroid/widget/CursorAdapter;->getCursor()Landroid/database/Cursor;
 
     .line 11
     .line 12
@@ -62,13 +56,11 @@
     move-result-object p2
 
     .line 14
-    iget-object p3, p1, Landroidx/appcompat/app/AlertController$AlertParams;
-    ->mLabelColumn:Ljava/lang/String;
+    iget-object p3, p1, Landroidx/appcompat/app/AlertController$AlertParams;->mLabelColumn:Ljava/lang/String;
 
     .line 15
     .line 16
-    invoke-interface {p2, p3}, Landroid/database/Cursor;
-    ->getColumnIndexOrThrow(Ljava/lang/String;)I
+    invoke-interface {p2, p3}, Landroid/database/Cursor;->getColumnIndexOrThrow(Ljava/lang/String;)I
 
     .line 17
     .line 18
@@ -76,18 +68,15 @@
     move-result p3
 
     .line 20
-    iput p3, p0, Landroidx/appcompat/app/AlertController$AlertParams$2;
-    ->mLabelIndex:I
+    iput p3, p0, Landroidx/appcompat/app/AlertController$AlertParams$2;->mLabelIndex:I
 
     .line 21
     .line 22
-    iget-object p1, p1, Landroidx/appcompat/app/AlertController$AlertParams;
-    ->mIsCheckedColumn:Ljava/lang/String;
+    iget-object p1, p1, Landroidx/appcompat/app/AlertController$AlertParams;->mIsCheckedColumn:Ljava/lang/String;
 
     .line 23
     .line 24
-    invoke-interface {p2, p1}, Landroid/database/Cursor;
-    ->getColumnIndexOrThrow(Ljava/lang/String;)I
+    invoke-interface {p2, p1}, Landroid/database/Cursor;->getColumnIndexOrThrow(Ljava/lang/String;)I
 
     .line 25
     .line 26
@@ -95,8 +84,7 @@
     move-result p1
 
     .line 28
-    iput p1, p0, Landroidx/appcompat/app/AlertController$AlertParams$2;
-    ->mIsCheckedIndex:I    
+    iput p1, p0, Landroidx/appcompat/app/AlertController$AlertParams$2;->mIsCheckedIndex:I
     return-void
 .end method
 
@@ -111,8 +99,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p1, p2}, Landroid/view/View;
-    ->findViewById(I)Landroid/view/View;
+    invoke-virtual {p1, p2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     .line 5
     .line 6
@@ -124,13 +111,11 @@
 
     .line 9
     .line 10
-    iget p2, p0, Landroidx/appcompat/app/AlertController$AlertParams$2;
-    ->mLabelIndex:I
+    iget p2, p0, Landroidx/appcompat/app/AlertController$AlertParams$2;->mLabelIndex:I
 
     .line 11
     .line 12
-    invoke-interface {p3, p2}, Landroid/database/Cursor;
-    ->getString(I)Ljava/lang/String;
+    invoke-interface {p3, p2}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     .line 13
     .line 14
@@ -138,19 +123,16 @@
     move-result-object p2
 
     .line 16
-    invoke-virtual {p1, p2}, Landroid/widget/TextView;
-    ->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p1, p2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 17
     .line 18
     .line 19
-    iget-object p1, p0, Landroidx/appcompat/app/AlertController$AlertParams$2;
-    ->val$listView:Landroidx/appcompat/app/AlertController$RecycleListView;
+    iget-object p1, p0, Landroidx/appcompat/app/AlertController$AlertParams$2;->val$listView:Landroidx/appcompat/app/AlertController$RecycleListView;
 
     .line 20
     .line 21
-    invoke-interface {p3}, Landroid/database/Cursor;
-    ->getPosition()I
+    invoke-interface {p3}, Landroid/database/Cursor;->getPosition()I
 
     .line 22
     .line 23
@@ -158,13 +140,11 @@
     move-result p2
 
     .line 25
-    iget v0, p0, Landroidx/appcompat/app/AlertController$AlertParams$2;
-    ->mIsCheckedIndex:I
+    iget v0, p0, Landroidx/appcompat/app/AlertController$AlertParams$2;->mIsCheckedIndex:I
 
     .line 26
     .line 27
-    invoke-interface {p3, v0}, Landroid/database/Cursor;
-    ->getInt(I)I
+    invoke-interface {p3, v0}, Landroid/database/Cursor;->getInt(I)I
 
     .line 28
     .line 29
@@ -187,8 +167,7 @@
 
     .line 36
     :goto_0
-    invoke-virtual {p1, p2, v0}, Landroid/widget/AbsListView;
-    ->setItemChecked(IZ)V    
+    invoke-virtual {p1, p2, v0}, Landroid/widget/AbsListView;->setItemChecked(IZ)V
     return-void
 .end method
 
@@ -196,31 +175,26 @@
     .locals 1
 
     .line 1
-    iget-object p1, p0, Landroidx/appcompat/app/AlertController$AlertParams$2;
-    ->this$0:Landroidx/appcompat/app/AlertController$AlertParams;
+    iget-object p1, p0, Landroidx/appcompat/app/AlertController$AlertParams$2;->this$0:Landroidx/appcompat/app/AlertController$AlertParams;
 
     .line 2
     .line 3
-    iget-object p1, p1, Landroidx/appcompat/app/AlertController$AlertParams;
-    ->mInflater:Landroid/view/LayoutInflater;
+    iget-object p1, p1, Landroidx/appcompat/app/AlertController$AlertParams;->mInflater:Landroid/view/LayoutInflater;
 
     .line 4
     .line 5
-    iget-object p2, p0, Landroidx/appcompat/app/AlertController$AlertParams$2;
-    ->val$dialog:Landroidx/appcompat/app/AlertController;
+    iget-object p2, p0, Landroidx/appcompat/app/AlertController$AlertParams$2;->val$dialog:Landroidx/appcompat/app/AlertController;
 
     .line 6
     .line 7
-    iget p2, p2, Landroidx/appcompat/app/AlertController;
-    ->mMultiChoiceItemLayout:I
+    iget p2, p2, Landroidx/appcompat/app/AlertController;->mMultiChoiceItemLayout:I
 
     .line 8
     .line 9
     const/4 v0, 0x0
 
     .line 10
-    invoke-virtual {p1, p2, p3, v0}, Landroid/view/LayoutInflater;
-    ->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    invoke-virtual {p1, p2, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     .line 11
     .line 12

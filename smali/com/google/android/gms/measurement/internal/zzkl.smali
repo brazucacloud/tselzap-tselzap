@@ -16,14 +16,11 @@
 .method public synthetic constructor <init>(Lcom/google/android/gms/measurement/internal/zzkf;Landroid/os/Bundle;)V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzkl;
-    ->zza:Lcom/google/android/gms/measurement/internal/zzkf;
+    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzkl;->zza:Lcom/google/android/gms/measurement/internal/zzkf;
 
-    iput-object p2, p0, Lcom/google/android/gms/measurement/internal/zzkl;
-    ->zzb:Landroid/os/Bundle;
+    iput-object p2, p0, Lcom/google/android/gms/measurement/internal/zzkl;->zzb:Landroid/os/Bundle;
 
     return-void
 .end method
@@ -33,14 +30,11 @@
 .method public final run()V
     .locals 2
 
-    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzkl;
-    ->zza:Lcom/google/android/gms/measurement/internal/zzkf;
+    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzkl;->zza:Lcom/google/android/gms/measurement/internal/zzkf;
 
-    iget-object v1, p0, Lcom/google/android/gms/measurement/internal/zzkl;
-    ->zzb:Landroid/os/Bundle;
+    iget-object v1, p0, Lcom/google/android/gms/measurement/internal/zzkl;->zzb:Landroid/os/Bundle;
 
-    invoke-static {v0, v1}, Lcom/google/android/gms/measurement/internal/zzkf;
-    ->zza(Lcom/google/android/gms/measurement/internal/zzkf;Landroid/os/Bundle;)V
+    invoke-static {v0, v1}, Lcom/google/android/gms/measurement/internal/zzkf;->zza(Lcom/google/android/gms/measurement/internal/zzkf;Landroid/os/Bundle;)V
 return-void
 .end method
 

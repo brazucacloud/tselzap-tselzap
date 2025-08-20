@@ -5,8 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/view/ViewCompat;
-    ->screenReaderFocusableProperty()Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
+    value = Landroidx/core/view/ViewCompat;->screenReaderFocusableProperty()Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,8 +27,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
-    -><init>(ILjava/lang/Class;I)V
+    invoke-direct {p0, p1, p2, p3}, Landroidx/core/view/ViewCompat$AccessibilityViewProperty;-><init>(ILjava/lang/Class;I)V
 
     .line 2
     .line 3
@@ -50,13 +48,11 @@
     .end annotation
 
     .line 2
-    invoke-static {p1}, Landroidx/core/view/ViewCompat$Api28Impl;
-    ->isScreenReaderFocusable(Landroid/view/View;)Z
+    invoke-static {p1}, Landroidx/core/view/ViewCompat$Api28Impl;->isScreenReaderFocusable(Landroid/view/View;)Z
 
     move-result p1
 
-    invoke-static {p1}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p1
 
@@ -74,8 +70,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/core/view/ViewCompat$1;
-    ->frameworkGet(Landroid/view/View;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1}, Landroidx/core/view/ViewCompat$1;->frameworkGet(Landroid/view/View;)Ljava/lang/Boolean;
 
     move-result-object p1
 
@@ -93,13 +88,11 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p2}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p2
 
-    invoke-static {p1, p2}, Landroidx/core/view/ViewCompat$Api28Impl;
-    ->setScreenReaderFocusable(Landroid/view/View;Z)V
+    invoke-static {p1, p2}, Landroidx/core/view/ViewCompat$Api28Impl;->setScreenReaderFocusable(Landroid/view/View;Z)V
 
     return-void
 .end method
@@ -117,8 +110,7 @@
     .line 1
     check-cast p2, Ljava/lang/Boolean;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/core/view/ViewCompat$1;
-    ->frameworkSet(Landroid/view/View;Ljava/lang/Boolean;)V
+    invoke-virtual {p0, p1, p2}, Landroidx/core/view/ViewCompat$1;->frameworkSet(Landroid/view/View;Ljava/lang/Boolean;)V
 
     return-void
 .end method
@@ -127,8 +119,7 @@
     .locals 0
 
     .line 2
-    invoke-virtual {p0, p1, p2}, Landroidx/core/view/ViewCompat$AccessibilityViewProperty;
-    ->booleanNullToFalseEquals(Ljava/lang/Boolean;Ljava/lang/Boolean;)Z
+    invoke-virtual {p0, p1, p2}, Landroidx/core/view/ViewCompat$AccessibilityViewProperty;->booleanNullToFalseEquals(Ljava/lang/Boolean;Ljava/lang/Boolean;)Z
 
     move-result p1
 
@@ -145,8 +136,7 @@
 
     check-cast p2, Ljava/lang/Boolean;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/core/view/ViewCompat$1;
-    ->shouldUpdate(Ljava/lang/Boolean;Ljava/lang/Boolean;)Z
+    invoke-virtual {p0, p1, p2}, Landroidx/core/view/ViewCompat$1;->shouldUpdate(Ljava/lang/Boolean;Ljava/lang/Boolean;)Z
 
     move-result p1
 

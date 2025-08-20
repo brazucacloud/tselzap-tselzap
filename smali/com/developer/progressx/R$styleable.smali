@@ -48,8 +48,7 @@
 
     fill-array-data v0, :array_0
 
-    sput-object v0, Lcom/developer/progressx/R$styleable;
-    ->ProgressWheel:[I
+    sput-object v0, Lcom/developer/progressx/R$styleable;->ProgressWheel:[I
 
     return-void
 
@@ -71,8 +70,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 

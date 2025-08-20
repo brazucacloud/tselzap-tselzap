@@ -16,8 +16,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -35,8 +34,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/CheckedTextView;
-    ->getCheckMarkDrawable()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0}, Landroid/widget/CheckedTextView;->getCheckMarkDrawable()Landroid/graphics/drawable/Drawable;
 
     .line 2
     .line 3
@@ -56,8 +54,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/widget/CheckedTextViewCompat$Api21Impl;
-    ->getCheckMarkTintList(Landroid/widget/CheckedTextView;)Landroid/content/res/ColorStateList;
+    invoke-static {p0}, Landroidx/core/widget/CheckedTextViewCompat$Api21Impl;->getCheckMarkTintList(Landroid/widget/CheckedTextView;)Landroid/content/res/ColorStateList;
 
     .line 2
     .line 3
@@ -77,8 +74,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/widget/CheckedTextViewCompat$Api21Impl;
-    ->getCheckMarkTintMode(Landroid/widget/CheckedTextView;)Landroid/graphics/PorterDuff$Mode;
+    invoke-static {p0}, Landroidx/core/widget/CheckedTextViewCompat$Api21Impl;->getCheckMarkTintMode(Landroid/widget/CheckedTextView;)Landroid/graphics/PorterDuff$Mode;
 
     .line 2
     .line 3
@@ -100,8 +96,7 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/widget/CheckedTextViewCompat$Api21Impl;
-    ->setCheckMarkTintList(Landroid/widget/CheckedTextView;Landroid/content/res/ColorStateList;)V
+    invoke-static {p0, p1}, Landroidx/core/widget/CheckedTextViewCompat$Api21Impl;->setCheckMarkTintList(Landroid/widget/CheckedTextView;Landroid/content/res/ColorStateList;)V
 
     .line 2
     .line 3
@@ -121,8 +116,7 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/widget/CheckedTextViewCompat$Api21Impl;
-    ->setCheckMarkTintMode(Landroid/widget/CheckedTextView;Landroid/graphics/PorterDuff$Mode;)V
+    invoke-static {p0, p1}, Landroidx/core/widget/CheckedTextViewCompat$Api21Impl;->setCheckMarkTintMode(Landroid/widget/CheckedTextView;Landroid/graphics/PorterDuff$Mode;)V
 
     .line 2
     .line 3

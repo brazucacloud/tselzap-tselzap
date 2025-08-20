@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/appcompat/app/ActionBarDrawerToggle;
-    -><init>(Landroid/app/Activity;Landroidx/appcompat/widget/Toolbar;Landroidx/drawerlayout/widget/DrawerLayout;Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;II)V
+    value = Landroidx/appcompat/app/ActionBarDrawerToggle;-><init>(Landroid/app/Activity;Landroidx/appcompat/widget/Toolbar;Landroidx/drawerlayout/widget/DrawerLayout;Landroidx/appcompat/graphics/drawable/DrawerArrowDrawable;II)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/app/ActionBarDrawerToggle$1;
-    ->this$0:Landroidx/appcompat/app/ActionBarDrawerToggle;
+    iput-object p1, p0, Landroidx/appcompat/app/ActionBarDrawerToggle$1;->this$0:Landroidx/appcompat/app/ActionBarDrawerToggle;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -43,13 +40,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/app/ActionBarDrawerToggle$1;
-    ->this$0:Landroidx/appcompat/app/ActionBarDrawerToggle;
+    iget-object v0, p0, Landroidx/appcompat/app/ActionBarDrawerToggle$1;->this$0:Landroidx/appcompat/app/ActionBarDrawerToggle;
 
     .line 2
     .line 3
-    iget-boolean v1, v0, Landroidx/appcompat/app/ActionBarDrawerToggle;
-    ->mDrawerIndicatorEnabled:Z
+    iget-boolean v1, v0, Landroidx/appcompat/app/ActionBarDrawerToggle;->mDrawerIndicatorEnabled:Z
 
     .line 4
     .line 5
@@ -57,14 +52,12 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Landroidx/appcompat/app/ActionBarDrawerToggle;
-    ->toggle()V
+    invoke-virtual {v0}, Landroidx/appcompat/app/ActionBarDrawerToggle;->toggle()V
     return-void
 
     .line 11
     :cond_0
-    iget-object v0, v0, Landroidx/appcompat/app/ActionBarDrawerToggle;
-    ->mToolbarNavigationClickListener:Landroid/view/View$OnClickListener;
+    iget-object v0, v0, Landroidx/appcompat/app/ActionBarDrawerToggle;->mToolbarNavigationClickListener:Landroid/view/View$OnClickListener;
 
     .line 12
     .line 13
@@ -72,8 +65,7 @@
 
     .line 14
     .line 15
-    invoke-interface {v0, p1}, Landroid/view/View$OnClickListener;
-    ->onClick(Landroid/view/View;)V
+    invoke-interface {v0, p1}, Landroid/view/View$OnClickListener;->onClick(Landroid/view/View;)V
 
     .line 16
     .line 17

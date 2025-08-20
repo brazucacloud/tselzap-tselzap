@@ -47,11 +47,9 @@
 
     new-instance v0, Lcom/google/android/gms/common/moduleinstall/zad;
 
-    invoke-direct {v0}, Lcom/google/android/gms/common/moduleinstall/zad;
-    -><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/common/moduleinstall/zad;-><init>()V
 
-    sput-object v0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallResponse;
-    ->CREATOR:Landroid/os/Parcelable$Creator;
+    sput-object v0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallResponse;->CREATOR:Landroid/os/Parcelable$Creator;
 
     return-void
 .end method
@@ -64,8 +62,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-direct {p0, p1, v0}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallResponse;
-    -><init>(IZ)V
+    invoke-direct {p0, p1, v0}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallResponse;-><init>(IZ)V
 return-void
 .end method
 
@@ -85,14 +82,11 @@ return-void
     .end annotation
 
     .line 2
-    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
-    iput p1, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallResponse;
-    ->zaa:I
+    iput p1, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallResponse;->zaa:I
 
-    iput-boolean p2, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallResponse;
-    ->zab:Z
+    iput-boolean p2, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallResponse;->zab:Z
 return-void
 .end method
 
@@ -101,8 +95,7 @@ return-void
 .method public areModulesAlreadyInstalled()Z
     .locals 1
 
-    iget v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallResponse;
-    ->zaa:I
+    iget v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallResponse;->zaa:I
 
     if-nez v0, :cond_0
 
@@ -119,8 +112,7 @@ return-void
 .method public getSessionId()I
     .locals 1
 
-    iget v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallResponse;
-    ->zaa:I
+    iget v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallResponse;->zaa:I
 
     return v0
 .end method
@@ -133,8 +125,7 @@ return-void
     .end param
 
     .line 1
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
-    ->beginObjectHeader(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->beginObjectHeader(Landroid/os/Parcel;)I
 
     .line 2
     .line 3
@@ -145,8 +136,7 @@ return-void
     const/4 v0, 0x1
 
     .line 6
-    invoke-virtual {p0}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallResponse;
-    ->getSessionId()I
+    invoke-virtual {p0}, Lcom/google/android/gms/common/moduleinstall/ModuleInstallResponse;->getSessionId()I
 
     .line 7
     .line 8
@@ -154,8 +144,7 @@ return-void
     move-result v1
 
     .line 10
-    invoke-static {p1, v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
-    ->writeInt(Landroid/os/Parcel;II)V
+    invoke-static {p1, v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeInt(Landroid/os/Parcel;II)V
 
     .line 11
     .line 12
@@ -163,19 +152,16 @@ return-void
     const/4 v0, 0x2
 
     .line 14
-    iget-boolean v1, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallResponse;
-    ->zab:Z
+    iget-boolean v1, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallResponse;->zab:Z
 
     .line 15
     .line 16
-    invoke-static {p1, v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
-    ->writeBoolean(Landroid/os/Parcel;IZ)V
+    invoke-static {p1, v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeBoolean(Landroid/os/Parcel;IZ)V
 
     .line 17
     .line 18
     .line 19
-    invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
-    ->finishObjectHeader(Landroid/os/Parcel;I)V
+    invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->finishObjectHeader(Landroid/os/Parcel;I)V
 
     .line 20
     .line 21
@@ -186,8 +172,7 @@ return-void
 .method public final zaa()Z
     .locals 1
 
-    iget-boolean v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallResponse;
-    ->zab:Z
+    iget-boolean v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallResponse;->zab:Z
 
     return v0
 .end method

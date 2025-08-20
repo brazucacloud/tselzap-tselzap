@@ -38,8 +38,7 @@
     .line 5
     .line 6
     .line 7
-    invoke-static {p1, p2, v4, v0}, Lz0/a;
-    ->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
+    invoke-static {p1, p2, v4, v0}, Lz0/a;->a(Landroid/content/Context;Landroid/util/AttributeSet;II)Landroid/content/Context;
 
     .line 8
     .line 9
@@ -47,8 +46,7 @@
     move-result-object p1
 
     .line 11
-    invoke-direct {p0, p1, p2, v4}, Landroid/widget/LinearLayout;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v4}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 12
     .line 13
@@ -57,14 +55,12 @@
 
     .line 15
     .line 16
-    invoke-direct {p1}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     .line 17
     .line 18
     .line 19
-    iput-object p1, p0, Le0/e;
-    ->b:Ljava/util/ArrayList;
+    iput-object p1, p0, Le0/e;->b:Ljava/util/ArrayList;
 
     .line 20
     .line 21
@@ -72,14 +68,12 @@
 
     .line 22
     .line 23
-    invoke-direct {p1}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     .line 24
     .line 25
     .line 26
-    iput-object p1, p0, Le0/e;
-    ->c:Ljava/util/ArrayList;
+    iput-object p1, p0, Le0/e;->c:Ljava/util/ArrayList;
 
     .line 27
     .line 28
@@ -98,14 +92,12 @@
 
     .line 34
     .line 35
-    invoke-direct {p1, v0, v1}, LC1/s;
-    -><init>(Ljava/lang/Object;I)V
+    invoke-direct {p1, v0, v1}, LC1/s;-><init>(Ljava/lang/Object;I)V
 
     .line 36
     .line 37
     .line 38
-    iput-object p1, p0, Le0/e;
-    ->d:LC1/s;
+    iput-object p1, p0, Le0/e;->d:LC1/s;
 
     .line 39
     .line 40
@@ -113,19 +105,16 @@
 
     .line 41
     .line 42
-    invoke-direct {p1, v0}, Le0/d;
-    -><init>(Lcom/google/android/material/button/MaterialButtonToggleGroup;)V
+    invoke-direct {p1, v0}, Le0/d;-><init>(Lcom/google/android/material/button/MaterialButtonToggleGroup;)V
 
     .line 43
     .line 44
     .line 45
-    iput-object p1, p0, Le0/e;
-    ->e:Le0/d;
+    iput-object p1, p0, Le0/e;->e:Le0/d;
 
     .line 46
     .line 47
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 48
     .line 49
@@ -133,8 +122,7 @@
     move-result-object v1
 
     .line 51
-    sget-object v3, LY/a;
-    ->q:[I
+    sget-object v3, LY/a;->q:[I
 
     .line 52
     .line 53
@@ -153,8 +141,7 @@
     move-object v2, p2
 
     .line 60
-    invoke-static/range {v1 .. v6}, Lo0/C;
-    ->d(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
+    invoke-static/range {v1 .. v6}, Lo0/C;->d(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
 
     .line 61
     .line 62
@@ -165,8 +152,7 @@
     const/4 v2, 0x2
 
     .line 65
-    invoke-virtual {p2, v2}, Landroid/content/res/TypedArray;
-    ->hasValue(I)Z
+    invoke-virtual {p2, v2}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
     .line 66
     .line 67
@@ -196,8 +182,7 @@
 
     .line 78
     .line 79
-    invoke-virtual {p2, v2, p1}, Landroid/content/res/TypedArray;
-    ->getResourceId(II)I
+    invoke-virtual {p2, v2, p1}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     .line 80
     .line 81
@@ -218,8 +203,7 @@
 
     .line 87
     :cond_0
-    invoke-virtual {v1}, Landroid/content/Context;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     .line 88
     .line 89
@@ -227,8 +211,7 @@
     move-result-object v8
 
     .line 91
-    invoke-virtual {v8, v0}, Landroid/content/res/Resources;
-    ->getResourceTypeName(I)Ljava/lang/String;
+    invoke-virtual {v8, v0}, Landroid/content/res/Resources;->getResourceTypeName(I)Ljava/lang/String;
 
     .line 92
     .line 93
@@ -236,8 +219,7 @@
     move-result-object v8
 
     .line 95
-    invoke-virtual {v8, v6}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v8, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 96
     .line 97
@@ -254,8 +236,7 @@
     .line 102
     :cond_1
     :try_start_0
-    invoke-virtual {v1}, Landroid/content/Context;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     .line 103
     .line 104
@@ -263,8 +244,7 @@
     move-result-object v8
 
     .line 106
-    invoke-virtual {v8, v0}, Landroid/content/res/Resources;
-    ->getXml(I)Landroid/content/res/XmlResourceParser;
+    invoke-virtual {v8, v0}, Landroid/content/res/Resources;->getXml(I)Landroid/content/res/XmlResourceParser;
 
     .line 107
     .line 108
@@ -281,8 +261,7 @@
 
     .line 111
     .line 112
-    invoke-direct {v0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     .line 113
     .line 114
@@ -295,8 +274,7 @@
 
     .line 118
     .line 119
-    iput-object v10, v0, Lu0/H;
-    ->c:[[I
+    iput-object v10, v0, Lu0/H;->c:[[I
 
     .line 120
     .line 121
@@ -304,13 +282,11 @@
 
     .line 122
     .line 123
-    iput-object v9, v0, Lu0/H;
-    ->d:[LC1/s;
+    iput-object v9, v0, Lu0/H;->d:[LC1/s;
 
     .line 124
     .line 125
-    invoke-static {v8}, Landroid/util/Xml;
-    ->asAttributeSet(Lorg/xmlpull/v1/XmlPullParser;)Landroid/util/AttributeSet;
+    invoke-static {v8}, Landroid/util/Xml;->asAttributeSet(Lorg/xmlpull/v1/XmlPullParser;)Landroid/util/AttributeSet;
 
     .line 126
     .line 127
@@ -319,8 +295,7 @@
 
     .line 129
     :goto_1
-    invoke-interface {v8}, Lorg/xmlpull/v1/XmlPullParser;
-    ->next()I
+    invoke-interface {v8}, Lorg/xmlpull/v1/XmlPullParser;->next()I
 
     .line 130
     .line 131
@@ -344,8 +319,7 @@
 
     .line 139
     .line 140
-    invoke-interface {v8}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getName()Ljava/lang/String;
+    invoke-interface {v8}, Lorg/xmlpull/v1/XmlPullParser;->getName()Ljava/lang/String;
 
     .line 141
     .line 142
@@ -353,8 +327,7 @@
     move-result-object v10
 
     .line 144
-    invoke-virtual {v10, v5}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v10, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 145
     .line 146
@@ -366,8 +339,7 @@
 
     .line 149
     .line 150
-    invoke-virtual {v1}, Landroid/content/Context;
-    ->getTheme()Landroid/content/res/Resources$Theme;
+    invoke-virtual {v1}, Landroid/content/Context;->getTheme()Landroid/content/res/Resources$Theme;
 
     .line 151
     .line 152
@@ -375,8 +347,7 @@
     move-result-object v10
 
     .line 154
-    invoke-virtual {v0, v1, v8, v9, v10}, Lu0/H;
-    ->a(Landroid/content/Context;Landroid/content/res/XmlResourceParser;Landroid/util/AttributeSet;Landroid/content/res/Resources$Theme;)V
+    invoke-virtual {v0, v1, v8, v9, v10}, Lu0/H;->a(Landroid/content/Context;Landroid/content/res/XmlResourceParser;Landroid/util/AttributeSet;Landroid/content/res/Resources$Theme;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -403,8 +374,7 @@
     :cond_3
     :goto_3
     :try_start_2
-    invoke-interface {v8}, Landroid/content/res/XmlResourceParser;
-    ->close()V
+    invoke-interface {v8}, Landroid/content/res/XmlResourceParser;->close()V
     :try_end_2
     .catch Lorg/xmlpull/v1/XmlPullParserException; {:try_start_2 .. :try_end_2} :catch_0
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
@@ -422,8 +392,7 @@
 
     .line 167
     .line 168
-    invoke-direct {v0, v4}, Lorg/xmlpull/v1/XmlPullParserException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v4}, Lorg/xmlpull/v1/XmlPullParserException;-><init>(Ljava/lang/String;)V
 
     .line 169
     .line 170
@@ -439,8 +408,7 @@
     .line 173
     .line 174
     :try_start_4
-    invoke-interface {v8}, Landroid/content/res/XmlResourceParser;
-    ->close()V
+    invoke-interface {v8}, Landroid/content/res/XmlResourceParser;->close()V
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_1
 
@@ -455,8 +423,7 @@
 
     .line 179
     :try_start_5
-    invoke-virtual {v9, v0}, Ljava/lang/Throwable;
-    ->addSuppressed(Ljava/lang/Throwable;)V
+    invoke-virtual {v9, v0}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
 
     .line 180
     .line 181
@@ -471,8 +438,7 @@
 
     .line 183
     :goto_6
-    iput-object v0, p0, Le0/e;
-    ->j:Lu0/H;
+    iput-object v0, p0, Le0/e;->j:Lu0/H;
 
     .line 184
     .line 185
@@ -480,8 +446,7 @@
     const/4 v0, 0x4
 
     .line 186
-    invoke-virtual {p2, v0}, Landroid/content/res/TypedArray;
-    ->hasValue(I)Z
+    invoke-virtual {p2, v0}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
     .line 187
     .line 188
@@ -493,8 +458,7 @@
 
     .line 191
     .line 192
-    invoke-static {v1, p2, v0}, Lu0/F;
-    ->b(Landroid/content/Context;Landroid/content/res/TypedArray;I)Lu0/F;
+    invoke-static {v1, p2, v0}, Lu0/F;->b(Landroid/content/Context;Landroid/content/res/TypedArray;I)Lu0/F;
 
     .line 193
     .line 194
@@ -502,8 +466,7 @@
     move-result-object v8
 
     .line 196
-    iput-object v8, p0, Le0/e;
-    ->h:Lu0/F;
+    iput-object v8, p0, Le0/e;->h:Lu0/F;
 
     .line 197
     .line 198
@@ -515,8 +478,7 @@
 
     .line 201
     .line 202
-    invoke-virtual {p2, v0, p1}, Landroid/content/res/TypedArray;
-    ->getResourceId(II)I
+    invoke-virtual {p2, v0, p1}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     .line 203
     .line 204
@@ -527,8 +489,7 @@
     const/4 v9, 0x5
 
     .line 207
-    invoke-virtual {p2, v9, p1}, Landroid/content/res/TypedArray;
-    ->getResourceId(II)I
+    invoke-virtual {p2, v9, p1}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     .line 208
     .line 209
@@ -543,14 +504,12 @@
     int-to-float v11, p1
 
     .line 214
-    invoke-direct {v10, v11}, Lu0/a;
-    -><init>(F)V
+    invoke-direct {v10, v11}, Lu0/a;-><init>(F)V
 
     .line 215
     .line 216
     .line 217
-    invoke-static {v1, v0, v9, v10}, Lu0/n;
-    ->a(Landroid/content/Context;IILu0/d;)Lu0/m;
+    invoke-static {v1, v0, v9, v10}, Lu0/n;->a(Landroid/content/Context;IILu0/d;)Lu0/m;
 
     .line 218
     .line 219
@@ -558,8 +517,7 @@
     move-result-object v0
 
     .line 221
-    invoke-virtual {v0}, Lu0/m;
-    ->a()Lu0/n;
+    invoke-virtual {v0}, Lu0/m;->a()Lu0/n;
 
     .line 222
     .line 223
@@ -567,14 +525,12 @@
     move-result-object v0
 
     .line 225
-    invoke-direct {v8, v0}, Lu0/E;
-    -><init>(Lu0/n;)V
+    invoke-direct {v8, v0}, Lu0/E;-><init>(Lu0/n;)V
 
     .line 226
     .line 227
     .line 228
-    iget v0, v8, Lu0/E;
-    ->a:I
+    iget v0, v8, Lu0/E;->a:I
 
     .line 229
     .line 230
@@ -590,15 +546,13 @@
 
     .line 234
     .line 235
-    invoke-direct {v3, v8}, Lu0/F;
-    -><init>(Lu0/E;)V
+    invoke-direct {v3, v8}, Lu0/F;-><init>(Lu0/E;)V
 
     .line 236
     .line 237
     .line 238
     :goto_7
-    iput-object v3, p0, Le0/e;
-    ->h:Lu0/F;
+    iput-object v3, p0, Le0/e;->h:Lu0/F;
 
     .line 239
     .line 240
@@ -606,8 +560,7 @@
     const/4 v0, 0x3
 
     .line 241
-    invoke-virtual {p2, v0}, Landroid/content/res/TypedArray;
-    ->hasValue(I)Z
+    invoke-virtual {p2, v0}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
     .line 242
     .line 243
@@ -626,14 +579,12 @@
     const/4 v8, 0x0
 
     .line 250
-    invoke-direct {v3, v8}, Lu0/a;
-    -><init>(F)V
+    invoke-direct {v3, v8}, Lu0/a;-><init>(F)V
 
     .line 251
     .line 252
     .line 253
-    invoke-virtual {p2, v0, p1}, Landroid/content/res/TypedArray;
-    ->getResourceId(II)I
+    invoke-virtual {p2, v0, p1}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     .line 254
     .line 255
@@ -645,8 +596,7 @@
 
     .line 258
     .line 259
-    invoke-static {p2, v0, v3}, Lu0/n;
-    ->c(Landroid/content/res/TypedArray;ILu0/d;)Lu0/d;
+    invoke-static {p2, v0, v3}, Lu0/n;->c(Landroid/content/res/TypedArray;ILu0/d;)Lu0/d;
 
     .line 260
     .line 261
@@ -654,8 +604,7 @@
     move-result-object v0
 
     .line 263
-    invoke-static {v0}, Lu0/D;
-    ->b(Lu0/d;)Lu0/D;
+    invoke-static {v0}, Lu0/D;->b(Lu0/d;)Lu0/D;
 
     .line 264
     .line 265
@@ -667,8 +616,7 @@
 
     .line 268
     :cond_9
-    invoke-virtual {v1}, Landroid/content/Context;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     .line 269
     .line 270
@@ -676,8 +624,7 @@
     move-result-object v9
 
     .line 272
-    invoke-virtual {v9, v8}, Landroid/content/res/Resources;
-    ->getResourceTypeName(I)Ljava/lang/String;
+    invoke-virtual {v9, v8}, Landroid/content/res/Resources;->getResourceTypeName(I)Ljava/lang/String;
 
     .line 273
     .line 274
@@ -685,8 +632,7 @@
     move-result-object v9
 
     .line 276
-    invoke-virtual {v9, v6}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v9, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 277
     .line 278
@@ -698,8 +644,7 @@
 
     .line 281
     .line 282
-    invoke-static {p2, v0, v3}, Lu0/n;
-    ->c(Landroid/content/res/TypedArray;ILu0/d;)Lu0/d;
+    invoke-static {p2, v0, v3}, Lu0/n;->c(Landroid/content/res/TypedArray;ILu0/d;)Lu0/d;
 
     .line 283
     .line 284
@@ -707,8 +652,7 @@
     move-result-object v0
 
     .line 286
-    invoke-static {v0}, Lu0/D;
-    ->b(Lu0/d;)Lu0/D;
+    invoke-static {v0}, Lu0/D;->b(Lu0/d;)Lu0/D;
 
     .line 287
     .line 288
@@ -721,8 +665,7 @@
     .line 291
     :cond_a
     :try_start_6
-    invoke-virtual {v1}, Landroid/content/Context;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     .line 292
     .line 293
@@ -730,8 +673,7 @@
     move-result-object v0
 
     .line 295
-    invoke-virtual {v0, v8}, Landroid/content/res/Resources;
-    ->getXml(I)Landroid/content/res/XmlResourceParser;
+    invoke-virtual {v0, v8}, Landroid/content/res/Resources;->getXml(I)Landroid/content/res/XmlResourceParser;
 
     .line 296
     .line 297
@@ -748,14 +690,12 @@
 
     .line 300
     .line 301
-    invoke-direct {v0}, Lu0/D;
-    -><init>()V
+    invoke-direct {v0}, Lu0/D;-><init>()V
 
     .line 302
     .line 303
     .line 304
-    invoke-static {v6}, Landroid/util/Xml;
-    ->asAttributeSet(Lorg/xmlpull/v1/XmlPullParser;)Landroid/util/AttributeSet;
+    invoke-static {v6}, Landroid/util/Xml;->asAttributeSet(Lorg/xmlpull/v1/XmlPullParser;)Landroid/util/AttributeSet;
 
     .line 305
     .line 306
@@ -764,8 +704,7 @@
 
     .line 308
     :goto_8
-    invoke-interface {v6}, Lorg/xmlpull/v1/XmlPullParser;
-    ->next()I
+    invoke-interface {v6}, Lorg/xmlpull/v1/XmlPullParser;->next()I
 
     .line 309
     .line 310
@@ -789,8 +728,7 @@
 
     .line 318
     .line 319
-    invoke-interface {v6}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getName()Ljava/lang/String;
+    invoke-interface {v6}, Lorg/xmlpull/v1/XmlPullParser;->getName()Ljava/lang/String;
 
     .line 320
     .line 321
@@ -798,8 +736,7 @@
     move-result-object v2
 
     .line 323
-    invoke-virtual {v2, v5}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 324
     .line 325
@@ -811,8 +748,7 @@
 
     .line 328
     .line 329
-    invoke-virtual {v1}, Landroid/content/Context;
-    ->getTheme()Landroid/content/res/Resources$Theme;
+    invoke-virtual {v1}, Landroid/content/Context;->getTheme()Landroid/content/res/Resources$Theme;
 
     .line 330
     .line 331
@@ -820,8 +756,7 @@
     move-result-object v2
 
     .line 333
-    invoke-virtual {v0, v1, v6, v8, v2}, Lu0/D;
-    ->d(Landroid/content/Context;Landroid/content/res/XmlResourceParser;Landroid/util/AttributeSet;Landroid/content/res/Resources$Theme;)V
+    invoke-virtual {v0, v1, v6, v8, v2}, Lu0/D;->d(Landroid/content/Context;Landroid/content/res/XmlResourceParser;Landroid/util/AttributeSet;Landroid/content/res/Resources$Theme;)V
     :try_end_7
     .catchall {:try_start_7 .. :try_end_7} :catchall_2
 
@@ -848,8 +783,7 @@
     :cond_c
     :goto_a
     :try_start_8
-    invoke-interface {v6}, Landroid/content/res/XmlResourceParser;
-    ->close()V
+    invoke-interface {v6}, Landroid/content/res/XmlResourceParser;->close()V
     :try_end_8
     .catch Lorg/xmlpull/v1/XmlPullParserException; {:try_start_8 .. :try_end_8} :catch_1
     .catch Ljava/io/IOException; {:try_start_8 .. :try_end_8} :catch_1
@@ -867,8 +801,7 @@
 
     .line 346
     .line 347
-    invoke-direct {v0, v4}, Lorg/xmlpull/v1/XmlPullParserException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v4}, Lorg/xmlpull/v1/XmlPullParserException;-><init>(Ljava/lang/String;)V
 
     .line 348
     .line 349
@@ -884,8 +817,7 @@
     .line 352
     .line 353
     :try_start_a
-    invoke-interface {v6}, Landroid/content/res/XmlResourceParser;
-    ->close()V
+    invoke-interface {v6}, Landroid/content/res/XmlResourceParser;->close()V
     :try_end_a
     .catchall {:try_start_a .. :try_end_a} :catchall_3
 
@@ -900,8 +832,7 @@
 
     .line 358
     :try_start_b
-    invoke-virtual {v1, v0}, Ljava/lang/Throwable;
-    ->addSuppressed(Ljava/lang/Throwable;)V
+    invoke-virtual {v1, v0}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
 
     .line 359
     .line 360
@@ -916,8 +847,7 @@
 
     .line 362
     :catch_1
-    invoke-static {v3}, Lu0/D;
-    ->b(Lu0/d;)Lu0/D;
+    invoke-static {v3}, Lu0/D;->b(Lu0/d;)Lu0/D;
 
     .line 363
     .line 364
@@ -926,14 +856,12 @@
 
     .line 366
     :goto_d
-    iput-object v0, p0, Le0/e;
-    ->g:Lu0/D;
+    iput-object v0, p0, Le0/e;->g:Lu0/D;
 
     .line 367
     .line 368
     :cond_f
-    invoke-virtual {p2, v7, p1}, Landroid/content/res/TypedArray;
-    ->getDimensionPixelSize(II)I
+    invoke-virtual {p2, v7, p1}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
     .line 369
     .line 370
@@ -941,19 +869,16 @@
     move-result v0
 
     .line 372
-    iput v0, p0, Le0/e;
-    ->i:I
+    iput v0, p0, Le0/e;->i:I
 
     .line 373
     .line 374
-    invoke-virtual {p0, v7}, Landroid/view/ViewGroup;
-    ->setChildrenDrawingOrderEnabled(Z)V
+    invoke-virtual {p0, v7}, Landroid/view/ViewGroup;->setChildrenDrawingOrderEnabled(Z)V
 
     .line 375
     .line 376
     .line 377
-    invoke-virtual {p2, p1, v7}, Landroid/content/res/TypedArray;
-    ->getBoolean(IZ)Z
+    invoke-virtual {p2, p1, v7}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     .line 378
     .line 379
@@ -961,14 +886,12 @@
     move-result p1
 
     .line 381
-    invoke-virtual {p0, p1}, Le0/e;
-    ->setEnabled(Z)V
+    invoke-virtual {p0, p1}, Le0/e;->setEnabled(Z)V
 
     .line 382
     .line 383
     .line 384
-    invoke-virtual {p2}, Landroid/content/res/TypedArray;
-    ->recycle()V
+    invoke-virtual {p2}, Landroid/content/res/TypedArray;->recycle()V
 
     .line 385
     .line 386
@@ -980,8 +903,7 @@
     .locals 3
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/ViewGroup;
-    ->getChildCount()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
 
     .line 2
     .line 3
@@ -997,8 +919,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p0, v1}, Le0/e;
-    ->c(I)Z
+    invoke-virtual {p0, v1}, Le0/e;->c(I)Z
 
     .line 9
     .line 10
@@ -1031,8 +952,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/ViewGroup;
-    ->getChildCount()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
 
     .line 2
     .line 3
@@ -1049,8 +969,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0, v0}, Le0/e;
-    ->c(I)Z
+    invoke-virtual {p0, v0}, Le0/e;->c(I)Z
 
     .line 10
     .line 11
@@ -1087,8 +1006,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getId()I
+    invoke-virtual {p1}, Landroid/view/View;->getId()I
 
     .line 2
     .line 3
@@ -1103,8 +1021,7 @@
 
     .line 7
     .line 8
-    invoke-static {}, Landroid/view/View;
-    ->generateViewId()I
+    invoke-static {}, Landroid/view/View;->generateViewId()I
 
     .line 9
     .line 10
@@ -1112,8 +1029,7 @@
     move-result v0
 
     .line 12
-    invoke-virtual {p1, v0}, Landroid/view/View;
-    ->setId(I)V
+    invoke-virtual {p1, v0}, Landroid/view/View;->setId(I)V
 
     .line 13
     .line 14
@@ -1128,8 +1044,7 @@
     .locals 9
 
     .line 1
-    invoke-direct {p0}, Le0/e;
-    ->getFirstVisibleChildIndex()I
+    invoke-direct {p0}, Le0/e;->getFirstVisibleChildIndex()I
 
     .line 2
     .line 3
@@ -1154,8 +1069,7 @@
     .line 11
     .line 12
     :goto_0
-    invoke-virtual {p0}, Landroid/view/ViewGroup;
-    ->getChildCount()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
 
     .line 13
     .line 14
@@ -1170,8 +1084,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {p0, v2}, Landroid/view/ViewGroup;
-    ->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p0, v2}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     .line 20
     .line 21
@@ -1187,8 +1100,7 @@
 
     .line 26
     .line 27
-    invoke-virtual {p0, v5}, Landroid/view/ViewGroup;
-    ->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p0, v5}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     .line 28
     .line 29
@@ -1200,8 +1112,7 @@
 
     .line 32
     .line 33
-    iget v6, p0, Le0/e;
-    ->i:I
+    iget v6, p0, Le0/e;->i:I
 
     .line 34
     .line 35
@@ -1209,8 +1120,7 @@
 
     .line 36
     .line 37
-    invoke-virtual {v3}, Lcom/google/android/material/button/MaterialButton;
-    ->getStrokeWidth()I
+    invoke-virtual {v3}, Lcom/google/android/material/button/MaterialButton;->getStrokeWidth()I
 
     .line 38
     .line 39
@@ -1218,8 +1128,7 @@
     move-result v6
 
     .line 41
-    invoke-virtual {v5}, Lcom/google/android/material/button/MaterialButton;
-    ->getStrokeWidth()I
+    invoke-virtual {v5}, Lcom/google/android/material/button/MaterialButton;->getStrokeWidth()I
 
     .line 42
     .line 43
@@ -1227,8 +1136,7 @@
     move-result v5
 
     .line 45
-    invoke-static {v6, v5}, Ljava/lang/Math;
-    ->min(II)I
+    invoke-static {v6, v5}, Ljava/lang/Math;->min(II)I
 
     .line 46
     .line 47
@@ -1244,8 +1152,7 @@
 
     .line 51
     :goto_1
-    invoke-virtual {v3}, Landroid/view/View;
-    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v3}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 52
     .line 53
@@ -1273,18 +1180,15 @@
 
     .line 63
     .line 64
-    iget v8, v6, Landroid/view/ViewGroup$LayoutParams;
-    ->width:I
+    iget v8, v6, Landroid/view/ViewGroup$LayoutParams;->width:I
 
     .line 65
     .line 66
-    iget v6, v6, Landroid/view/ViewGroup$LayoutParams;
-    ->height:I
+    iget v6, v6, Landroid/view/ViewGroup$LayoutParams;->height:I
 
     .line 67
     .line 68
-    invoke-direct {v7, v8, v6}, Landroid/widget/LinearLayout$LayoutParams;
-    -><init>(II)V
+    invoke-direct {v7, v8, v6}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
     .line 69
     .line 70
@@ -1293,8 +1197,7 @@
 
     .line 72
     :goto_2
-    invoke-virtual {p0}, Landroid/widget/LinearLayout;
-    ->getOrientation()I
+    invoke-virtual {p0}, Landroid/widget/LinearLayout;->getOrientation()I
 
     .line 73
     .line 74
@@ -1306,28 +1209,24 @@
 
     .line 77
     .line 78
-    invoke-virtual {v6, v4}, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->setMarginEnd(I)V
+    invoke-virtual {v6, v4}, Landroid/view/ViewGroup$MarginLayoutParams;->setMarginEnd(I)V
 
     .line 79
     .line 80
     .line 81
-    iget v7, p0, Le0/e;
-    ->i:I
+    iget v7, p0, Le0/e;->i:I
 
     .line 82
     .line 83
     sub-int/2addr v7, v5
 
     .line 84
-    invoke-virtual {v6, v7}, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->setMarginStart(I)V
+    invoke-virtual {v6, v7}, Landroid/view/ViewGroup$MarginLayoutParams;->setMarginStart(I)V
 
     .line 85
     .line 86
     .line 87
-    iput v4, v6, Landroid/widget/LinearLayout$LayoutParams;
-    ->topMargin:I
+    iput v4, v6, Landroid/widget/LinearLayout$LayoutParams;->topMargin:I
 
     .line 88
     .line 89
@@ -1335,33 +1234,28 @@
 
     .line 90
     :cond_3
-    iput v4, v6, Landroid/widget/LinearLayout$LayoutParams;
-    ->bottomMargin:I
+    iput v4, v6, Landroid/widget/LinearLayout$LayoutParams;->bottomMargin:I
 
     .line 91
     .line 92
-    iget v7, p0, Le0/e;
-    ->i:I
+    iget v7, p0, Le0/e;->i:I
 
     .line 93
     .line 94
     sub-int/2addr v7, v5
 
     .line 95
-    iput v7, v6, Landroid/widget/LinearLayout$LayoutParams;
-    ->topMargin:I
+    iput v7, v6, Landroid/widget/LinearLayout$LayoutParams;->topMargin:I
 
     .line 96
     .line 97
-    invoke-virtual {v6, v4}, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->setMarginStart(I)V
+    invoke-virtual {v6, v4}, Landroid/view/ViewGroup$MarginLayoutParams;->setMarginStart(I)V
 
     .line 98
     .line 99
     .line 100
     :goto_3
-    invoke-virtual {v3, v6}, Landroid/view/View;
-    ->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v3, v6}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 101
     .line 102
@@ -1374,8 +1268,7 @@
 
     .line 106
     :cond_4
-    invoke-virtual {p0}, Landroid/view/ViewGroup;
-    ->getChildCount()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
 
     .line 107
     .line 108
@@ -1395,8 +1288,7 @@
 
     .line 115
     :cond_5
-    invoke-virtual {p0, v0}, Landroid/view/ViewGroup;
-    ->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     .line 116
     .line 117
@@ -1408,8 +1300,7 @@
 
     .line 120
     .line 121
-    invoke-virtual {v0}, Landroid/view/View;
-    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 122
     .line 123
@@ -1421,8 +1312,7 @@
 
     .line 126
     .line 127
-    invoke-virtual {p0}, Landroid/widget/LinearLayout;
-    ->getOrientation()I
+    invoke-virtual {p0}, Landroid/widget/LinearLayout;->getOrientation()I
 
     .line 128
     .line 129
@@ -1437,13 +1327,11 @@
 
     .line 133
     .line 134
-    iput v4, v0, Landroid/widget/LinearLayout$LayoutParams;
-    ->topMargin:I
+    iput v4, v0, Landroid/widget/LinearLayout$LayoutParams;->topMargin:I
 
     .line 135
     .line 136
-    iput v4, v0, Landroid/widget/LinearLayout$LayoutParams;
-    ->bottomMargin:I
+    iput v4, v0, Landroid/widget/LinearLayout$LayoutParams;->bottomMargin:I
 
     .line 137
     .line 138
@@ -1451,25 +1339,21 @@
 
     .line 139
     :cond_6
-    invoke-virtual {v0, v4}, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->setMarginEnd(I)V
+    invoke-virtual {v0, v4}, Landroid/view/ViewGroup$MarginLayoutParams;->setMarginEnd(I)V
 
     .line 140
     .line 141
     .line 142
-    invoke-virtual {v0, v4}, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->setMarginStart(I)V
+    invoke-virtual {v0, v4}, Landroid/view/ViewGroup$MarginLayoutParams;->setMarginStart(I)V
 
     .line 143
     .line 144
     .line 145
-    iput v4, v0, Landroid/widget/LinearLayout$LayoutParams;
-    ->leftMargin:I
+    iput v4, v0, Landroid/widget/LinearLayout$LayoutParams;->leftMargin:I
 
     .line 146
     .line 147
-    iput v4, v0, Landroid/widget/LinearLayout$LayoutParams;
-    ->rightMargin:I
+    iput v4, v0, Landroid/widget/LinearLayout$LayoutParams;->rightMargin:I
 
     .line 148
     .line 149
@@ -1498,8 +1382,7 @@
 
     .line 8
     .line 9
-    invoke-static {p1, p2}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 10
     .line 11
@@ -1508,8 +1391,7 @@
 
     .line 13
     :cond_0
-    invoke-super {p0, p1, p2, p3}, Landroid/widget/LinearLayout;
-    ->addView(Landroid/view/View;ILandroid/view/ViewGroup$LayoutParams;)V
+    invoke-super {p0, p1, p2, p3}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;ILandroid/view/ViewGroup$LayoutParams;)V
 
     .line 14
     .line 15
@@ -1518,30 +1400,25 @@
 
     .line 17
     .line 18
-    invoke-direct {p0, p1}, Le0/e;
-    ->setGeneratedIdIfNeeded(Lcom/google/android/material/button/MaterialButton;)V
+    invoke-direct {p0, p1}, Le0/e;->setGeneratedIdIfNeeded(Lcom/google/android/material/button/MaterialButton;)V
 
     .line 19
     .line 20
     .line 21
-    iget-object p2, p0, Le0/e;
-    ->d:LC1/s;
+    iget-object p2, p0, Le0/e;->d:LC1/s;
 
     .line 22
     .line 23
-    invoke-virtual {p1, p2}, Lcom/google/android/material/button/MaterialButton;
-    ->setOnPressedChangeListenerInternal(Le0/b;)V
+    invoke-virtual {p1, p2}, Lcom/google/android/material/button/MaterialButton;->setOnPressedChangeListenerInternal(Le0/b;)V
 
     .line 24
     .line 25
     .line 26
-    iget-object p2, p0, Le0/e;
-    ->b:Ljava/util/ArrayList;
+    iget-object p2, p0, Le0/e;->b:Ljava/util/ArrayList;
 
     .line 27
     .line 28
-    invoke-virtual {p1}, Lcom/google/android/material/button/MaterialButton;
-    ->getShapeAppearanceModel()Lu0/n;
+    invoke-virtual {p1}, Lcom/google/android/material/button/MaterialButton;->getShapeAppearanceModel()Lu0/n;
 
     .line 29
     .line 30
@@ -1549,19 +1426,16 @@
     move-result-object p3
 
     .line 32
-    invoke-virtual {p2, p3}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 33
     .line 34
     .line 35
-    iget-object p2, p0, Le0/e;
-    ->c:Ljava/util/ArrayList;
+    iget-object p2, p0, Le0/e;->c:Ljava/util/ArrayList;
 
     .line 36
     .line 37
-    invoke-virtual {p1}, Lcom/google/android/material/button/MaterialButton;
-    ->getStateListShapeAppearanceModel()Lu0/F;
+    invoke-virtual {p1}, Lcom/google/android/material/button/MaterialButton;->getStateListShapeAppearanceModel()Lu0/F;
 
     .line 38
     .line 39
@@ -1569,14 +1443,12 @@
     move-result-object p3
 
     .line 41
-    invoke-virtual {p2, p3}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 42
     .line 43
     .line 44
-    invoke-virtual {p0}, Landroid/view/View;
-    ->isEnabled()Z
+    invoke-virtual {p0}, Landroid/view/View;->isEnabled()Z
 
     .line 45
     .line 46
@@ -1584,8 +1456,7 @@
     move-result p2
 
     .line 48
-    invoke-virtual {p1, p2}, Landroid/view/View;
-    ->setEnabled(Z)V
+    invoke-virtual {p1, p2}, Landroid/view/View;->setEnabled(Z)V
 
     .line 49
     .line 50
@@ -1597,8 +1468,7 @@
     .locals 12
 
     .line 1
-    iget-object v0, p0, Le0/e;
-    ->j:Lu0/H;
+    iget-object v0, p0, Le0/e;->j:Lu0/H;
 
     .line 2
     .line 3
@@ -1611,8 +1481,7 @@
     .line 6
     .line 7
     :cond_0
-    invoke-direct {p0}, Le0/e;
-    ->getFirstVisibleChildIndex()I
+    invoke-direct {p0}, Le0/e;->getFirstVisibleChildIndex()I
 
     .line 8
     .line 9
@@ -1620,8 +1489,7 @@
     move-result v0
 
     .line 11
-    invoke-direct {p0}, Le0/e;
-    ->getLastVisibleChildIndex()I
+    invoke-direct {p0}, Le0/e;->getLastVisibleChildIndex()I
 
     .line 12
     .line 13
@@ -1642,8 +1510,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {p0, v3}, Le0/e;
-    ->c(I)Z
+    invoke-virtual {p0, v3}, Le0/e;->c(I)Z
 
     .line 22
     .line 23
@@ -1660,8 +1527,7 @@
     .line 28
     .line 29
     :cond_1
-    invoke-virtual {p0, v3}, Le0/e;
-    ->c(I)Z
+    invoke-virtual {p0, v3}, Le0/e;->c(I)Z
 
     .line 30
     .line 31
@@ -1676,8 +1542,7 @@
 
     .line 35
     .line 36
-    iget-object v4, p0, Le0/e;
-    ->j:Lu0/H;
+    iget-object v4, p0, Le0/e;->j:Lu0/H;
 
     .line 37
     .line 38
@@ -1690,8 +1555,7 @@
     .line 41
     .line 42
     :cond_2
-    invoke-virtual {p0, v3}, Landroid/view/ViewGroup;
-    ->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p0, v3}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     .line 43
     .line 44
@@ -1703,13 +1567,11 @@
 
     .line 47
     .line 48
-    iget-object v6, p0, Le0/e;
-    ->j:Lu0/H;
+    iget-object v6, p0, Le0/e;->j:Lu0/H;
 
     .line 49
     .line 50
-    invoke-virtual {v4}, Landroid/view/View;
-    ->getWidth()I
+    invoke-virtual {v4}, Landroid/view/View;->getWidth()I
 
     .line 51
     .line 52
@@ -1724,8 +1586,7 @@
 
     .line 56
     :goto_1
-    iget v9, v6, Lu0/H;
-    ->a:I
+    iget v9, v6, Lu0/H;->a:I
 
     .line 57
     .line 58
@@ -1733,8 +1594,7 @@
 
     .line 59
     .line 60
-    iget-object v9, v6, Lu0/H;
-    ->d:[LC1/s;
+    iget-object v9, v6, Lu0/H;->d:[LC1/s;
 
     .line 61
     .line 62
@@ -1742,8 +1602,7 @@
 
     .line 63
     .line 64
-    iget-object v9, v9, LC1/s;
-    ->c:Ljava/lang/Object;
+    iget-object v9, v9, LC1/s;->c:Ljava/lang/Object;
 
     .line 65
     .line 66
@@ -1751,13 +1610,11 @@
 
     .line 67
     .line 68
-    iget v10, v9, Lu0/G;
-    ->a:I
+    iget v10, v9, Lu0/G;->a:I
 
     .line 69
     .line 70
-    iget v9, v9, Lu0/G;
-    ->b:F
+    iget v9, v9, Lu0/G;->b:F
 
     .line 71
     .line 72
@@ -1771,8 +1628,7 @@
     int-to-float v7, v7
 
     .line 76
-    invoke-static {v7, v9}, Ljava/lang/Math;
-    ->max(FF)F
+    invoke-static {v7, v9}, Ljava/lang/Math;->max(FF)F
 
     .line 77
     .line 78
@@ -1805,8 +1661,7 @@
 
     .line 88
     .line 89
-    invoke-static {v7, v10}, Ljava/lang/Math;
-    ->max(FF)F
+    invoke-static {v7, v10}, Ljava/lang/Math;->max(FF)F
 
     .line 90
     .line 91
@@ -1827,8 +1682,7 @@
 
     .line 97
     :cond_5
-    invoke-static {v5, v7}, Ljava/lang/Math;
-    ->max(II)I
+    invoke-static {v5, v7}, Ljava/lang/Math;->max(II)I
 
     .line 98
     .line 99
@@ -1848,8 +1702,7 @@
 
     .line 105
     .line 106
-    invoke-virtual {p0, v6}, Le0/e;
-    ->c(I)Z
+    invoke-virtual {p0, v6}, Le0/e;->c(I)Z
 
     .line 107
     .line 108
@@ -1861,8 +1714,7 @@
 
     .line 111
     .line 112
-    invoke-virtual {p0, v6}, Landroid/view/ViewGroup;
-    ->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p0, v6}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     .line 113
     .line 114
@@ -1901,8 +1753,7 @@
 
     .line 127
     :cond_8
-    invoke-virtual {v6}, Lcom/google/android/material/button/MaterialButton;
-    ->getAllowedWidthDecrease()I
+    invoke-virtual {v6}, Lcom/google/android/material/button/MaterialButton;->getAllowedWidthDecrease()I
 
     .line 128
     .line 129
@@ -1911,8 +1762,7 @@
 
     .line 131
     :goto_6
-    invoke-virtual {p0}, Landroid/view/ViewGroup;
-    ->getChildCount()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
 
     .line 132
     .line 133
@@ -1929,8 +1779,7 @@
 
     .line 138
     .line 139
-    invoke-virtual {p0, v9}, Le0/e;
-    ->c(I)Z
+    invoke-virtual {p0, v9}, Le0/e;->c(I)Z
 
     .line 140
     .line 141
@@ -1942,8 +1791,7 @@
 
     .line 144
     .line 145
-    invoke-virtual {p0, v9}, Landroid/view/ViewGroup;
-    ->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p0, v9}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     .line 146
     .line 147
@@ -1976,8 +1824,7 @@
 
     .line 158
     :cond_b
-    invoke-virtual {v7}, Lcom/google/android/material/button/MaterialButton;
-    ->getAllowedWidthDecrease()I
+    invoke-virtual {v7}, Lcom/google/android/material/button/MaterialButton;->getAllowedWidthDecrease()I
 
     .line 159
     .line 160
@@ -1989,8 +1836,7 @@
     add-int/2addr v6, v5
 
     .line 163
-    invoke-static {v4, v6}, Ljava/lang/Math;
-    ->min(II)I
+    invoke-static {v4, v6}, Ljava/lang/Math;->min(II)I
 
     .line 164
     .line 165
@@ -2013,8 +1859,7 @@
     .line 172
     .line 173
     :cond_d
-    invoke-static {v2, v5}, Ljava/lang/Math;
-    ->min(II)I
+    invoke-static {v2, v5}, Ljava/lang/Math;->min(II)I
 
     .line 174
     .line 175
@@ -2040,8 +1885,7 @@
 
     .line 183
     .line 184
-    invoke-virtual {p0, v3}, Le0/e;
-    ->c(I)Z
+    invoke-virtual {p0, v3}, Le0/e;->c(I)Z
 
     .line 185
     .line 186
@@ -2057,8 +1901,7 @@
 
     .line 191
     :cond_f
-    invoke-virtual {p0, v3}, Landroid/view/ViewGroup;
-    ->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p0, v3}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     .line 192
     .line 193
@@ -2070,19 +1913,16 @@
 
     .line 196
     .line 197
-    iget-object v5, p0, Le0/e;
-    ->j:Lu0/H;
+    iget-object v5, p0, Le0/e;->j:Lu0/H;
 
     .line 198
     .line 199
-    invoke-virtual {v4, v5}, Lcom/google/android/material/button/MaterialButton;
-    ->setSizeChange(Lu0/H;)V
+    invoke-virtual {v4, v5}, Lcom/google/android/material/button/MaterialButton;->setSizeChange(Lu0/H;)V
 
     .line 200
     .line 201
     .line 202
-    invoke-virtual {p0, v3}, Landroid/view/ViewGroup;
-    ->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p0, v3}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     .line 203
     .line 204
@@ -2119,8 +1959,7 @@
 
     .line 217
     :goto_e
-    invoke-virtual {v4, v5}, Lcom/google/android/material/button/MaterialButton;
-    ->setWidthChangeMax(I)V
+    invoke-virtual {v4, v5}, Lcom/google/android/material/button/MaterialButton;->setWidthChangeMax(I)V
 
     .line 218
     .line 219
@@ -2142,8 +1981,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;
-    ->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     .line 2
     .line 3
@@ -2151,8 +1989,7 @@
     move-result-object p1
 
     .line 5
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getVisibility()I
+    invoke-virtual {p1}, Landroid/view/View;->getVisibility()I
 
     .line 6
     .line 7
@@ -2187,8 +2024,7 @@
 
     .line 2
     .line 3
-    iget-object v1, v0, Le0/e;
-    ->g:Lu0/D;
+    iget-object v1, v0, Le0/e;->g:Lu0/D;
 
     .line 4
     .line 5
@@ -2196,8 +2032,7 @@
 
     .line 6
     .line 7
-    iget-object v1, v0, Le0/e;
-    ->h:Lu0/F;
+    iget-object v1, v0, Le0/e;->h:Lu0/F;
 
     .line 8
     .line 9
@@ -2210,8 +2045,7 @@
     .line 12
     .line 13
     :cond_0
-    invoke-virtual {v0}, Landroid/view/ViewGroup;
-    ->getChildCount()I
+    invoke-virtual {v0}, Landroid/view/ViewGroup;->getChildCount()I
 
     .line 14
     .line 15
@@ -2219,8 +2053,7 @@
     move-result v1
 
     .line 17
-    invoke-direct {v0}, Le0/e;
-    ->getFirstVisibleChildIndex()I
+    invoke-direct {v0}, Le0/e;->getFirstVisibleChildIndex()I
 
     .line 18
     .line 19
@@ -2228,8 +2061,7 @@
     move-result v2
 
     .line 21
-    invoke-direct {v0}, Le0/e;
-    ->getLastVisibleChildIndex()I
+    invoke-direct {v0}, Le0/e;->getLastVisibleChildIndex()I
 
     .line 22
     .line 23
@@ -2248,8 +2080,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {v0, v5}, Landroid/view/ViewGroup;
-    ->getChildAt(I)Landroid/view/View;
+    invoke-virtual {v0, v5}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     .line 30
     .line 31
@@ -2261,8 +2092,7 @@
 
     .line 34
     .line 35
-    invoke-virtual {v6}, Landroid/view/View;
-    ->getVisibility()I
+    invoke-virtual {v6}, Landroid/view/View;->getVisibility()I
 
     .line 36
     .line 37
@@ -2313,8 +2143,7 @@
 
     .line 55
     :goto_2
-    iget-object v10, v0, Le0/e;
-    ->h:Lu0/F;
+    iget-object v10, v0, Le0/e;->h:Lu0/F;
 
     .line 56
     .line 57
@@ -2334,13 +2163,11 @@
 
     .line 64
     :cond_4
-    iget-object v10, v0, Le0/e;
-    ->c:Ljava/util/ArrayList;
+    iget-object v10, v0, Le0/e;->c:Ljava/util/ArrayList;
 
     .line 65
     .line 66
-    invoke-virtual {v10, v5}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {v10, v5}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 67
     .line 68
@@ -2362,13 +2189,11 @@
 
     .line 75
     .line 76
-    iget-object v11, v0, Le0/e;
-    ->b:Ljava/util/ArrayList;
+    iget-object v11, v0, Le0/e;->b:Ljava/util/ArrayList;
 
     .line 77
     .line 78
-    invoke-virtual {v11, v5}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {v11, v5}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 79
     .line 80
@@ -2380,8 +2205,7 @@
 
     .line 83
     .line 84
-    invoke-direct {v10, v11}, Lu0/E;
-    -><init>(Lu0/n;)V
+    invoke-direct {v10, v11}, Lu0/E;-><init>(Lu0/n;)V
 
     .line 85
     .line 86
@@ -2394,34 +2218,28 @@
 
     .line 89
     .line 90
-    invoke-direct {v11}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {v11}, Ljava/lang/Object;-><init>()V
 
     .line 91
     .line 92
     .line 93
-    iget v12, v10, Lu0/F;
-    ->a:I
+    iget v12, v10, Lu0/F;->a:I
 
     .line 94
     .line 95
-    iput v12, v11, Lu0/E;
-    ->a:I
+    iput v12, v11, Lu0/E;->a:I
 
     .line 96
     .line 97
-    iget-object v13, v10, Lu0/F;
-    ->b:Lu0/n;
+    iget-object v13, v10, Lu0/F;->b:Lu0/n;
 
     .line 98
     .line 99
-    iput-object v13, v11, Lu0/E;
-    ->b:Lu0/n;
+    iput-object v13, v11, Lu0/E;->b:Lu0/n;
 
     .line 100
     .line 101
-    iget-object v13, v10, Lu0/F;
-    ->c:[[I
+    iget-object v13, v10, Lu0/F;->c:[[I
 
     .line 102
     .line 103
@@ -2432,13 +2250,11 @@
 
     .line 105
     .line 106
-    iput-object v14, v11, Lu0/E;
-    ->c:[[I
+    iput-object v14, v11, Lu0/E;->c:[[I
 
     .line 107
     .line 108
-    iget-object v15, v10, Lu0/F;
-    ->d:[Lu0/n;
+    iget-object v15, v10, Lu0/F;->d:[Lu0/n;
 
     .line 109
     .line 110
@@ -2449,70 +2265,57 @@
 
     .line 112
     .line 113
-    iput-object v7, v11, Lu0/E;
-    ->d:[Lu0/n;
+    iput-object v7, v11, Lu0/E;->d:[Lu0/n;
 
     .line 114
     .line 115
-    invoke-static {v13, v4, v14, v4, v12}, Ljava/lang/System;
-    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {v13, v4, v14, v4, v12}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 116
     .line 117
     .line 118
-    iget-object v7, v11, Lu0/E;
-    ->d:[Lu0/n;
+    iget-object v7, v11, Lu0/E;->d:[Lu0/n;
 
     .line 119
     .line 120
-    iget v12, v11, Lu0/E;
-    ->a:I
+    iget v12, v11, Lu0/E;->a:I
 
     .line 121
     .line 122
-    invoke-static {v15, v4, v7, v4, v12}, Ljava/lang/System;
-    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {v15, v4, v7, v4, v12}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 123
     .line 124
     .line 125
-    iget-object v7, v10, Lu0/F;
-    ->e:Lu0/D;
+    iget-object v7, v10, Lu0/F;->e:Lu0/D;
 
     .line 126
     .line 127
-    iput-object v7, v11, Lu0/E;
-    ->e:Lu0/D;
+    iput-object v7, v11, Lu0/E;->e:Lu0/D;
 
     .line 128
     .line 129
-    iget-object v7, v10, Lu0/F;
-    ->f:Lu0/D;
+    iget-object v7, v10, Lu0/F;->f:Lu0/D;
 
     .line 130
     .line 131
-    iput-object v7, v11, Lu0/E;
-    ->f:Lu0/D;
+    iput-object v7, v11, Lu0/E;->f:Lu0/D;
 
     .line 132
     .line 133
-    iget-object v7, v10, Lu0/F;
-    ->g:Lu0/D;
+    iget-object v7, v10, Lu0/F;->g:Lu0/D;
 
     .line 134
     .line 135
-    iput-object v7, v11, Lu0/E;
-    ->g:Lu0/D;
+    iput-object v7, v11, Lu0/E;->g:Lu0/D;
 
     .line 136
     .line 137
-    iget-object v7, v10, Lu0/F;
-    ->h:Lu0/D;
+    iget-object v7, v10, Lu0/F;->h:Lu0/D;
 
     .line 138
     .line 139
-    iput-object v7, v11, Lu0/E;
-    ->h:Lu0/D;
+    iput-object v7, v11, Lu0/E;->h:Lu0/D;
 
     .line 140
     .line 141
@@ -2520,8 +2323,7 @@
 
     .line 142
     :goto_4
-    invoke-virtual {v0}, Landroid/widget/LinearLayout;
-    ->getOrientation()I
+    invoke-virtual {v0}, Landroid/widget/LinearLayout;->getOrientation()I
 
     .line 143
     .line 144
@@ -2544,8 +2346,7 @@
 
     .line 151
     :goto_5
-    invoke-virtual {v0}, Landroid/view/View;
-    ->getLayoutDirection()I
+    invoke-virtual {v0}, Landroid/view/View;->getLayoutDirection()I
 
     .line 152
     .line 153
@@ -2658,8 +2459,7 @@
     not-int v7, v7
 
     .line 196
-    iget-object v8, v0, Le0/e;
-    ->g:Lu0/D;
+    iget-object v8, v0, Le0/e;->g:Lu0/D;
 
     .line 197
     .line 198
@@ -2671,8 +2471,7 @@
 
     .line 201
     .line 202
-    iput-object v8, v10, Lu0/E;
-    ->e:Lu0/D;
+    iput-object v8, v10, Lu0/E;->e:Lu0/D;
 
     .line 203
     .line 204
@@ -2685,8 +2484,7 @@
 
     .line 207
     .line 208
-    iput-object v8, v10, Lu0/E;
-    ->f:Lu0/D;
+    iput-object v8, v10, Lu0/E;->f:Lu0/D;
 
     .line 209
     .line 210
@@ -2699,8 +2497,7 @@
 
     .line 213
     .line 214
-    iput-object v8, v10, Lu0/E;
-    ->g:Lu0/D;
+    iput-object v8, v10, Lu0/E;->g:Lu0/D;
 
     .line 215
     .line 216
@@ -2713,14 +2510,12 @@
 
     .line 219
     .line 220
-    iput-object v8, v10, Lu0/E;
-    ->h:Lu0/D;
+    iput-object v8, v10, Lu0/E;->h:Lu0/D;
 
     .line 221
     .line 222
     :cond_11
-    iget v7, v10, Lu0/E;
-    ->a:I
+    iget v7, v10, Lu0/E;->a:I
 
     .line 223
     .line 224
@@ -2739,15 +2534,13 @@
 
     .line 229
     .line 230
-    invoke-direct {v7, v10}, Lu0/F;
-    -><init>(Lu0/E;)V
+    invoke-direct {v7, v10}, Lu0/F;-><init>(Lu0/E;)V
 
     .line 231
     .line 232
     .line 233
     :goto_a
-    invoke-virtual {v7}, Lu0/F;
-    ->d()Z
+    invoke-virtual {v7}, Lu0/F;->d()Z
 
     .line 234
     .line 235
@@ -2759,8 +2552,7 @@
 
     .line 238
     .line 239
-    invoke-virtual {v6, v7}, Lcom/google/android/material/button/MaterialButton;
-    ->setStateListShapeAppearanceModel(Lu0/F;)V
+    invoke-virtual {v6, v7}, Lcom/google/android/material/button/MaterialButton;->setStateListShapeAppearanceModel(Lu0/F;)V
 
     .line 240
     .line 241
@@ -2769,8 +2561,7 @@
 
     .line 243
     :cond_13
-    invoke-virtual {v7}, Lu0/F;
-    ->c()Lu0/n;
+    invoke-virtual {v7}, Lu0/F;->c()Lu0/n;
 
     .line 244
     .line 245
@@ -2778,8 +2569,7 @@
     move-result-object v7
 
     .line 247
-    invoke-virtual {v6, v7}, Lcom/google/android/material/button/MaterialButton;
-    ->setShapeAppearanceModel(Lu0/n;)V
+    invoke-virtual {v6, v7}, Lcom/google/android/material/button/MaterialButton;->setShapeAppearanceModel(Lu0/n;)V
 
     .line 248
     .line 249
@@ -2806,19 +2596,16 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Le0/e;
-    ->e:Le0/d;
+    iget-object v1, p0, Le0/e;->e:Le0/d;
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/util/TreeMap;
-    -><init>(Ljava/util/Comparator;)V
+    invoke-direct {v0, v1}, Ljava/util/TreeMap;-><init>(Ljava/util/Comparator;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p0}, Landroid/view/ViewGroup;
-    ->getChildCount()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
 
     .line 9
     .line 10
@@ -2837,8 +2624,7 @@
 
     .line 15
     .line 16
-    invoke-virtual {p0, v3}, Landroid/view/ViewGroup;
-    ->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p0, v3}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     .line 17
     .line 18
@@ -2850,8 +2636,7 @@
 
     .line 21
     .line 22
-    invoke-static {v3}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 23
     .line 24
@@ -2859,8 +2644,7 @@
     move-result-object v5
 
     .line 26
-    invoke-virtual {v0, v4, v5}, Ljava/util/TreeMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v4, v5}, Ljava/util/TreeMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 27
     .line 28
@@ -2873,8 +2657,7 @@
 
     .line 32
     :cond_0
-    invoke-virtual {v0}, Ljava/util/TreeMap;
-    ->values()Ljava/util/Collection;
+    invoke-virtual {v0}, Ljava/util/TreeMap;->values()Ljava/util/Collection;
 
     .line 33
     .line 34
@@ -2886,8 +2669,7 @@
 
     .line 37
     .line 38
-    invoke-interface {v0, v1}, Ljava/util/Collection;
-    ->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-interface {v0, v1}, Ljava/util/Collection;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     .line 39
     .line 40
@@ -2899,13 +2681,11 @@
 
     .line 43
     .line 44
-    iput-object v0, p0, Le0/e;
-    ->f:[Ljava/lang/Integer;
+    iput-object v0, p0, Le0/e;->f:[Ljava/lang/Integer;
 
     .line 45
     .line 46
-    invoke-super {p0, p1}, Landroid/widget/LinearLayout;
-    ->dispatchDraw(Landroid/graphics/Canvas;)V
+    invoke-super {p0, p1}, Landroid/widget/LinearLayout;->dispatchDraw(Landroid/graphics/Canvas;)V
 
     .line 47
     .line 48
@@ -2920,14 +2700,12 @@
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Le0/e;
-    ->j:Lu0/H;
+    iget-object v0, p0, Le0/e;->j:Lu0/H;
 
     .line 2
     .line 3
@@ -2938,8 +2716,7 @@
     .locals 1
 
     .line 1
-    iget-object p1, p0, Le0/e;
-    ->f:[Ljava/lang/Integer;
+    iget-object p1, p0, Le0/e;->f:[Ljava/lang/Integer;
 
     .line 2
     .line 3
@@ -2962,8 +2739,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     .line 12
     .line 13
@@ -2983,8 +2759,7 @@
 
     .line 19
     .line 20
-    invoke-static {p1, v0}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 21
     .line 22
@@ -2998,13 +2773,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Le0/e;
-    ->g:Lu0/D;
+    iget-object v0, p0, Le0/e;->g:Lu0/D;
 
     .line 2
     .line 3
-    iget-object v0, v0, Lu0/D;
-    ->b:Lu0/d;
+    iget-object v0, v0, Lu0/D;->b:Lu0/d;
 
     .line 4
     .line 5
@@ -3018,14 +2791,12 @@
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Le0/e;
-    ->g:Lu0/D;
+    iget-object v0, p0, Le0/e;->g:Lu0/D;
 
     .line 2
     .line 3
@@ -3038,8 +2809,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Le0/e;
-    ->h:Lu0/F;
+    iget-object v0, p0, Le0/e;->h:Lu0/F;
 
     .line 2
     .line 3
@@ -3053,8 +2823,7 @@
 
     .line 7
     :cond_0
-    invoke-virtual {v0}, Lu0/F;
-    ->c()Lu0/n;
+    invoke-virtual {v0}, Lu0/F;->c()Lu0/n;
 
     .line 8
     .line 9
@@ -3070,8 +2839,7 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Le0/e;
-    ->i:I
+    iget v0, p0, Le0/e;->i:I
 
     .line 2
     .line 3
@@ -3085,14 +2853,12 @@
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Le0/e;
-    ->h:Lu0/F;
+    iget-object v0, p0, Le0/e;->h:Lu0/F;
 
     .line 2
     .line 3
@@ -3103,8 +2869,7 @@
     .locals 0
 
     .line 1
-    invoke-super/range {p0 .. p5}, Landroid/widget/LinearLayout;
-    ->onLayout(ZIIII)V
+    invoke-super/range {p0 .. p5}, Landroid/widget/LinearLayout;->onLayout(ZIIII)V
 
     .line 2
     .line 3
@@ -3113,8 +2878,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {p0}, Le0/e;
-    ->b()V
+    invoke-virtual {p0}, Le0/e;->b()V
 
     .line 7
     .line 8
@@ -3127,20 +2891,17 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Le0/e;
-    ->d()V
+    invoke-virtual {p0}, Le0/e;->d()V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Le0/e;
-    ->a()V
+    invoke-virtual {p0}, Le0/e;->a()V
 
     .line 5
     .line 6
     .line 7
-    invoke-super {p0, p1, p2}, Landroid/widget/LinearLayout;
-    ->onMeasure(II)V
+    invoke-super {p0, p1, p2}, Landroid/widget/LinearLayout;->onMeasure(II)V
 
     .line 8
     .line 9
@@ -3152,8 +2913,7 @@
     .locals 2
 
     .line 1
-    invoke-super {p0, p1}, Landroid/widget/LinearLayout;
-    ->onViewRemoved(Landroid/view/View;)V
+    invoke-super {p0, p1}, Landroid/widget/LinearLayout;->onViewRemoved(Landroid/view/View;)V
 
     .line 2
     .line 3
@@ -3176,15 +2936,13 @@
     const/4 v1, 0x0
 
     .line 12
-    invoke-virtual {v0, v1}, Lcom/google/android/material/button/MaterialButton;
-    ->setOnPressedChangeListenerInternal(Le0/b;)V
+    invoke-virtual {v0, v1}, Lcom/google/android/material/button/MaterialButton;->setOnPressedChangeListenerInternal(Le0/b;)V
 
     .line 13
     .line 14
     .line 15
     :cond_0
-    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;
-    ->indexOfChild(Landroid/view/View;)I
+    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->indexOfChild(Landroid/view/View;)I
 
     .line 16
     .line 17
@@ -3196,37 +2954,31 @@
 
     .line 20
     .line 21
-    iget-object v0, p0, Le0/e;
-    ->b:Ljava/util/ArrayList;
+    iget-object v0, p0, Le0/e;->b:Ljava/util/ArrayList;
 
     .line 22
     .line 23
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
-    ->remove(I)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(I)Ljava/lang/Object;
 
     .line 24
     .line 25
     .line 26
-    iget-object v0, p0, Le0/e;
-    ->c:Ljava/util/ArrayList;
+    iget-object v0, p0, Le0/e;->c:Ljava/util/ArrayList;
 
     .line 27
     .line 28
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
-    ->remove(I)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(I)Ljava/lang/Object;
 
     .line 29
     .line 30
     .line 31
     :cond_1
-    invoke-virtual {p0}, Le0/e;
-    ->d()V
+    invoke-virtual {p0}, Le0/e;->d()V
 
     .line 32
     .line 33
     .line 34
-    invoke-virtual {p0}, Le0/e;
-    ->a()V
+    invoke-virtual {p0}, Le0/e;->a()V
 
     .line 35
     .line 36
@@ -3242,14 +2994,12 @@
     .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Le0/e;
-    ->j:Lu0/H;
+    iget-object v0, p0, Le0/e;->j:Lu0/H;
 
     .line 2
     .line 3
@@ -3257,25 +3007,21 @@
 
     .line 4
     .line 5
-    iput-object p1, p0, Le0/e;
-    ->j:Lu0/H;
+    iput-object p1, p0, Le0/e;->j:Lu0/H;
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Le0/e;
-    ->b()V
+    invoke-virtual {p0}, Le0/e;->b()V
 
     .line 8
     .line 9
     .line 10
-    invoke-virtual {p0}, Landroid/view/View;
-    ->requestLayout()V
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
 
     .line 11
     .line 12
     .line 13
-    invoke-virtual {p0}, Landroid/view/View;
-    ->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     .line 14
     .line 15
@@ -3288,8 +3034,7 @@
     .locals 2
 
     .line 1
-    invoke-super {p0, p1}, Landroid/widget/LinearLayout;
-    ->setEnabled(Z)V
+    invoke-super {p0, p1}, Landroid/widget/LinearLayout;->setEnabled(Z)V
 
     .line 2
     .line 3
@@ -3298,8 +3043,7 @@
 
     .line 5
     :goto_0
-    invoke-virtual {p0}, Landroid/view/ViewGroup;
-    ->getChildCount()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
 
     .line 6
     .line 7
@@ -3311,8 +3055,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p0, v0}, Landroid/view/ViewGroup;
-    ->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     .line 12
     .line 13
@@ -3324,8 +3067,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {v1, p1}, Landroid/view/View;
-    ->setEnabled(Z)V
+    invoke-virtual {v1, p1}, Landroid/view/View;->setEnabled(Z)V
 
     .line 18
     .line 19
@@ -3349,8 +3091,7 @@
     .end param
 
     .line 1
-    invoke-static {p1}, Lu0/D;
-    ->b(Lu0/d;)Lu0/D;
+    invoke-static {p1}, Lu0/D;->b(Lu0/d;)Lu0/D;
 
     .line 2
     .line 3
@@ -3358,19 +3099,16 @@
     move-result-object p1
 
     .line 5
-    iput-object p1, p0, Le0/e;
-    ->g:Lu0/D;
+    iput-object p1, p0, Le0/e;->g:Lu0/D;
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Le0/e;
-    ->d()V
+    invoke-virtual {p0}, Le0/e;->d()V
 
     .line 8
     .line 9
     .line 10
-    invoke-virtual {p0}, Landroid/view/View;
-    ->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     .line 11
     .line 12
@@ -3386,25 +3124,21 @@
     .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Le0/e;
-    ->g:Lu0/D;
+    iput-object p1, p0, Le0/e;->g:Lu0/D;
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Le0/e;
-    ->d()V
+    invoke-virtual {p0}, Le0/e;->d()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;
-    ->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     .line 7
     .line 8
@@ -3424,14 +3158,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Lu0/E;
-    -><init>(Lu0/n;)V
+    invoke-direct {v0, p1}, Lu0/E;-><init>(Lu0/n;)V
 
     .line 4
     .line 5
     .line 6
-    iget p1, v0, Lu0/E;
-    ->a:I
+    iget p1, v0, Lu0/E;->a:I
 
     .line 7
     .line 8
@@ -3450,26 +3182,22 @@
 
     .line 13
     .line 14
-    invoke-direct {p1, v0}, Lu0/F;
-    -><init>(Lu0/E;)V
+    invoke-direct {p1, v0}, Lu0/F;-><init>(Lu0/E;)V
 
     .line 15
     .line 16
     .line 17
     :goto_0
-    iput-object p1, p0, Le0/e;
-    ->h:Lu0/F;
+    iput-object p1, p0, Le0/e;->h:Lu0/F;
 
     .line 18
     .line 19
-    invoke-virtual {p0}, Le0/e;
-    ->d()V
+    invoke-virtual {p0}, Le0/e;->d()V
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {p0}, Landroid/view/View;
-    ->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     .line 23
     .line 24
@@ -3485,19 +3213,16 @@
     .end param
 
     .line 1
-    iput p1, p0, Le0/e;
-    ->i:I
+    iput p1, p0, Le0/e;->i:I
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/view/View;
-    ->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;
-    ->requestLayout()V
+    invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
 
     .line 7
     .line 8
@@ -3513,25 +3238,21 @@
     .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    iput-object p1, p0, Le0/e;
-    ->h:Lu0/F;
+    iput-object p1, p0, Le0/e;->h:Lu0/F;
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Le0/e;
-    ->d()V
+    invoke-virtual {p0}, Le0/e;->d()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/View;
-    ->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     .line 7
     .line 8

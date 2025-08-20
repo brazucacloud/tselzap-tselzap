@@ -39,11 +39,9 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/activity/SystemBarStyle$Companion;
-    -><init>(Lkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v1}, Landroidx/activity/SystemBarStyle$Companion;-><init>(Lkotlin/jvm/internal/e;)V
 
-    sput-object v0, Landroidx/activity/SystemBarStyle;
-    ->Companion:Landroidx/activity/SystemBarStyle$Companion;
+    sput-object v0, Landroidx/activity/SystemBarStyle;->Companion:Landroidx/activity/SystemBarStyle$Companion;
 
     return-void
 .end method
@@ -59,24 +57,19 @@
     .end annotation
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 3
-    iput p1, p0, Landroidx/activity/SystemBarStyle;
-    ->lightScrim:I
+    iput p1, p0, Landroidx/activity/SystemBarStyle;->lightScrim:I
 
     .line 4
-    iput p2, p0, Landroidx/activity/SystemBarStyle;
-    ->darkScrim:I
+    iput p2, p0, Landroidx/activity/SystemBarStyle;->darkScrim:I
 
     .line 5
-    iput p3, p0, Landroidx/activity/SystemBarStyle;
-    ->nightMode:I
+    iput p3, p0, Landroidx/activity/SystemBarStyle;->nightMode:I
 
     .line 6
-    iput-object p4, p0, Landroidx/activity/SystemBarStyle;
-    ->detectDarkMode:Lp1/l;
+    iput-object p4, p0, Landroidx/activity/SystemBarStyle;->detectDarkMode:Lp1/l;
 
     return-void
 .end method
@@ -85,8 +78,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/activity/SystemBarStyle;
-    -><init>(IIILp1/l;)V
+    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/activity/SystemBarStyle;-><init>(IIILp1/l;)V
 return-void
 .end method
 
@@ -102,11 +94,9 @@ return-void
     .end param
 
     .line 1
-    sget-object v0, Landroidx/activity/SystemBarStyle;
-    ->Companion:Landroidx/activity/SystemBarStyle$Companion;
+    sget-object v0, Landroidx/activity/SystemBarStyle;->Companion:Landroidx/activity/SystemBarStyle$Companion;
 
-    invoke-virtual {v0, p0, p1}, Landroidx/activity/SystemBarStyle$Companion;
-    ->auto(II)Landroidx/activity/SystemBarStyle;
+    invoke-virtual {v0, p0, p1}, Landroidx/activity/SystemBarStyle$Companion;->auto(II)Landroidx/activity/SystemBarStyle;
 
     move-result-object p0
 
@@ -133,11 +123,9 @@ return-void
     .end annotation
 
     .line 2
-    sget-object v0, Landroidx/activity/SystemBarStyle;
-    ->Companion:Landroidx/activity/SystemBarStyle$Companion;
+    sget-object v0, Landroidx/activity/SystemBarStyle;->Companion:Landroidx/activity/SystemBarStyle$Companion;
 
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/activity/SystemBarStyle$Companion;
-    ->auto(IILp1/l;)Landroidx/activity/SystemBarStyle;
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/activity/SystemBarStyle$Companion;->auto(IILp1/l;)Landroidx/activity/SystemBarStyle;
 
     move-result-object p0
 
@@ -151,11 +139,9 @@ return-void
         .end annotation
     .end param
 
-    sget-object v0, Landroidx/activity/SystemBarStyle;
-    ->Companion:Landroidx/activity/SystemBarStyle$Companion;
+    sget-object v0, Landroidx/activity/SystemBarStyle;->Companion:Landroidx/activity/SystemBarStyle$Companion;
 
-    invoke-virtual {v0, p0}, Landroidx/activity/SystemBarStyle$Companion;
-    ->dark(I)Landroidx/activity/SystemBarStyle;
+    invoke-virtual {v0, p0}, Landroidx/activity/SystemBarStyle$Companion;->dark(I)Landroidx/activity/SystemBarStyle;
 
     move-result-object p0
 
@@ -173,11 +159,9 @@ return-void
         .end annotation
     .end param
 
-    sget-object v0, Landroidx/activity/SystemBarStyle;
-    ->Companion:Landroidx/activity/SystemBarStyle$Companion;
+    sget-object v0, Landroidx/activity/SystemBarStyle;->Companion:Landroidx/activity/SystemBarStyle$Companion;
 
-    invoke-virtual {v0, p0, p1}, Landroidx/activity/SystemBarStyle$Companion;
-    ->light(II)Landroidx/activity/SystemBarStyle;
+    invoke-virtual {v0, p0, p1}, Landroidx/activity/SystemBarStyle$Companion;->light(II)Landroidx/activity/SystemBarStyle;
 
     move-result-object p0
 
@@ -190,8 +174,7 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/activity/SystemBarStyle;
-    ->darkScrim:I    return v0
+    iget v0, p0, Landroidx/activity/SystemBarStyle;->darkScrim:I    return v0
 .end method
 
 .method public final getDetectDarkMode$activity_release()Lp1/l;
@@ -204,16 +187,14 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/SystemBarStyle;
-    ->detectDarkMode:Lp1/l;    return-object v0
+    iget-object v0, p0, Landroidx/activity/SystemBarStyle;->detectDarkMode:Lp1/l;    return-object v0
 .end method
 
 .method public final getNightMode$activity_release()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/activity/SystemBarStyle;
-    ->nightMode:I    return v0
+    iget v0, p0, Landroidx/activity/SystemBarStyle;->nightMode:I    return v0
 .end method
 
 .method public final getScrim$activity_release(Z)I
@@ -224,21 +205,18 @@ return-void
 
     .line 2
     .line 3
-    iget p1, p0, Landroidx/activity/SystemBarStyle;
-    ->darkScrim:I    return p1
+    iget p1, p0, Landroidx/activity/SystemBarStyle;->darkScrim:I    return p1
 
     .line 6
     :cond_0
-    iget p1, p0, Landroidx/activity/SystemBarStyle;
-    ->lightScrim:I    return p1
+    iget p1, p0, Landroidx/activity/SystemBarStyle;->lightScrim:I    return p1
 .end method
 
 .method public final getScrimWithEnforcedContrast$activity_release(Z)I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/activity/SystemBarStyle;
-    ->nightMode:I
+    iget v0, p0, Landroidx/activity/SystemBarStyle;->nightMode:I
 
     .line 2
     .line 3
@@ -256,13 +234,11 @@ return-void
 
     .line 8
     .line 9
-    iget p1, p0, Landroidx/activity/SystemBarStyle;
-    ->darkScrim:I    return p1
+    iget p1, p0, Landroidx/activity/SystemBarStyle;->darkScrim:I    return p1
 
     .line 12
     :cond_1
-    iget p1, p0, Landroidx/activity/SystemBarStyle;
-    ->lightScrim:I    return p1
+    iget p1, p0, Landroidx/activity/SystemBarStyle;->lightScrim:I    return p1
 .end method
 
 .end class

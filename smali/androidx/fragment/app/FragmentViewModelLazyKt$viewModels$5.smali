@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/fragment/app/FragmentViewModelLazyKt;
-    ->viewModels$default(Landroidx/fragment/app/Fragment;Lp1/a;Lp1/a;Lp1/a;ILjava/lang/Object;)Lc1/d;
+    value = Landroidx/fragment/app/FragmentViewModelLazyKt;->viewModels$default(Landroidx/fragment/app/Fragment;Lp1/a;Lp1/a;Lp1/a;ILjava/lang/Object;)Lc1/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -33,13 +32,11 @@
 .method public constructor <init>(Landroidx/fragment/app/Fragment;)V
     .locals 0
 
-    iput-object p1, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$5;
-    ->$this_viewModels:Landroidx/fragment/app/Fragment;
+    iput-object p1, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$5;->$this_viewModels:Landroidx/fragment/app/Fragment;
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
-    -><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
 return-void
 .end method
 
@@ -49,8 +46,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$5;
-    ->$this_viewModels:Landroidx/fragment/app/Fragment;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$5;->$this_viewModels:Landroidx/fragment/app/Fragment;
 
     return-object v0
 .end method
@@ -59,8 +55,7 @@ return-void
     .locals 1
 
     .line 2
-    invoke-virtual {p0}, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$5;
-    ->invoke()Landroidx/fragment/app/Fragment;
+    invoke-virtual {p0}, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$5;->invoke()Landroidx/fragment/app/Fragment;
 
     move-result-object v0
 

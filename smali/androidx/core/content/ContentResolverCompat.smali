@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -52,8 +51,7 @@
 
     .line 3
     :try_start_0
-    invoke-virtual/range {p0 .. p6}, Landroid/content/ContentResolver;
-    ->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Landroid/os/CancellationSignal;)Landroid/database/Cursor;
+    invoke-virtual/range {p0 .. p6}, Landroid/content/ContentResolver;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Landroid/os/CancellationSignal;)Landroid/database/Cursor;
 
     move-result-object p0
     :try_end_0
@@ -74,8 +72,7 @@
     .line 5
     new-instance p0, Landroidx/core/os/OperationCanceledException;
 
-    invoke-direct {p0}, Landroidx/core/os/OperationCanceledException;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/core/os/OperationCanceledException;-><init>()V
 
     throw p0
 
@@ -123,8 +120,7 @@
     if-eqz p6, :cond_0
 
     .line 1
-    invoke-virtual {p6}, Landroidx/core/os/CancellationSignal;
-    ->getCancellationSignalObject()Ljava/lang/Object;
+    invoke-virtual {p6}, Landroidx/core/os/CancellationSignal;->getCancellationSignalObject()Ljava/lang/Object;
 
     move-result-object p6
 
@@ -154,8 +150,7 @@
 
     .line 2
     :goto_1
-    invoke-static/range {v0 .. v6}, Landroidx/core/content/ContentResolverCompat;
-    ->query(Landroid/content/ContentResolver;Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Landroid/os/CancellationSignal;)Landroid/database/Cursor;
+    invoke-static/range {v0 .. v6}, Landroidx/core/content/ContentResolverCompat;->query(Landroid/content/ContentResolver;Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Landroid/os/CancellationSignal;)Landroid/database/Cursor;
 
     move-result-object p0
 

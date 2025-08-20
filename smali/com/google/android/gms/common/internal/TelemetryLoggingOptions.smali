@@ -35,18 +35,15 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    invoke-static {}, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;
-    ->builder()Lcom/google/android/gms/common/internal/TelemetryLoggingOptions$Builder;
+    invoke-static {}, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;->builder()Lcom/google/android/gms/common/internal/TelemetryLoggingOptions$Builder;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions$Builder;
-    ->build()Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;
+    invoke-virtual {v0}, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions$Builder;->build()Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;
 
     move-result-object v0
 
-    sput-object v0, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;
-    ->zaa:Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;
+    sput-object v0, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;->zaa:Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;
 
     return-void
 .end method
@@ -54,11 +51,9 @@
 .method public synthetic constructor <init>(Ljava/lang/String;Lcom/google/android/gms/common/internal/zaad;)V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;
-    ->zab:Ljava/lang/String;
+    iput-object p1, p0, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;->zab:Ljava/lang/String;
 
     return-void
 .end method
@@ -75,8 +70,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions$Builder;
-    -><init>(Lcom/google/android/gms/common/internal/zaac;)V
+    invoke-direct {v0, v1}, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions$Builder;-><init>(Lcom/google/android/gms/common/internal/zaac;)V
 return-object v0
 .end method
 
@@ -118,18 +112,15 @@ return-object v0
 
     .line 12
     .line 13
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;
-    ->zab:Ljava/lang/String;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;->zab:Ljava/lang/String;
 
     .line 14
     .line 15
-    iget-object p1, p1, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;
-    ->zab:Ljava/lang/String;
+    iget-object p1, p1, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;->zab:Ljava/lang/String;
 
     .line 16
     .line 17
-    invoke-static {v0, p1}, Lcom/google/android/gms/common/internal/Objects;
-    ->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lcom/google/android/gms/common/internal/Objects;->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 18
     .line 19
@@ -143,8 +134,7 @@ return-object v0
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;
-    ->zab:Ljava/lang/String;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;->zab:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -162,8 +152,7 @@ return-object v0
 
     .line 8
     .line 9
-    invoke-static {v1}, Lcom/google/android/gms/common/internal/Objects;
-    ->hashCode([Ljava/lang/Object;)I
+    invoke-static {v1}, Lcom/google/android/gms/common/internal/Objects;->hashCode([Ljava/lang/Object;)I
 
     .line 10
     .line 11
@@ -183,14 +172,12 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/os/Bundle;
-    -><init>()V
+    invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    iget-object v1, p0, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;
-    ->zab:Ljava/lang/String;
+    iget-object v1, p0, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;->zab:Ljava/lang/String;
 
     .line 7
     .line 8
@@ -202,8 +189,7 @@ return-object v0
 
     .line 11
     .line 12
-    invoke-virtual {v0, v2, v1}, Landroid/os/BaseBundle;
-    ->putString(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 13
     .line 14

@@ -44,8 +44,7 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -58,8 +57,7 @@
 
     .line 7
     .line 8
-    iput-object p1, p0, Landroidx/core/util/Pools$SimplePool;
-    ->pool:[Ljava/lang/Object;
+    iput-object p1, p0, Landroidx/core/util/Pools$SimplePool;->pool:[Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -75,8 +73,7 @@
 
     .line 14
     .line 15
-    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -102,8 +99,7 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/core/util/Pools$SimplePool;
-    ->poolSize:I
+    iget v0, p0, Landroidx/core/util/Pools$SimplePool;->poolSize:I
 
     .line 2
     .line 3
@@ -118,8 +114,7 @@
 
     .line 6
     .line 7
-    iget-object v3, p0, Landroidx/core/util/Pools$SimplePool;
-    ->pool:[Ljava/lang/Object;
+    iget-object v3, p0, Landroidx/core/util/Pools$SimplePool;->pool:[Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -159,8 +154,7 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/core/util/Pools$SimplePool;
-    ->poolSize:I
+    iget v0, p0, Landroidx/core/util/Pools$SimplePool;->poolSize:I
 
     .line 2
     .line 3
@@ -175,8 +169,7 @@
 
     .line 7
     .line 8
-    iget-object v2, p0, Landroidx/core/util/Pools$SimplePool;
-    ->pool:[Ljava/lang/Object;
+    iget-object v2, p0, Landroidx/core/util/Pools$SimplePool;->pool:[Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -188,14 +181,12 @@
 
     .line 13
     .line 14
-    invoke-static {v2, v3}, Lkotlin/jvm/internal/j;
-    ->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v3}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 15
     .line 16
     .line 17
-    iget-object v3, p0, Landroidx/core/util/Pools$SimplePool;
-    ->pool:[Ljava/lang/Object;
+    iget-object v3, p0, Landroidx/core/util/Pools$SimplePool;->pool:[Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -203,8 +194,7 @@
 
     .line 20
     .line 21
-    iget v0, p0, Landroidx/core/util/Pools$SimplePool;
-    ->poolSize:I
+    iget v0, p0, Landroidx/core/util/Pools$SimplePool;->poolSize:I
 
     .line 22
     .line 23
@@ -212,8 +202,7 @@
 
     .line 24
     .line 25
-    iput v0, p0, Landroidx/core/util/Pools$SimplePool;
-    ->poolSize:I
+    iput v0, p0, Landroidx/core/util/Pools$SimplePool;->poolSize:I
 
     .line 26
     .line 27
@@ -237,14 +226,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0, p1}, Landroidx/core/util/Pools$SimplePool;
-    ->isInPool(Ljava/lang/Object;)Z
+    invoke-direct {p0, p1}, Landroidx/core/util/Pools$SimplePool;->isInPool(Ljava/lang/Object;)Z
 
     .line 7
     .line 8
@@ -256,13 +243,11 @@
 
     .line 11
     .line 12
-    iget v0, p0, Landroidx/core/util/Pools$SimplePool;
-    ->poolSize:I
+    iget v0, p0, Landroidx/core/util/Pools$SimplePool;->poolSize:I
 
     .line 13
     .line 14
-    iget-object v1, p0, Landroidx/core/util/Pools$SimplePool;
-    ->pool:[Ljava/lang/Object;
+    iget-object v1, p0, Landroidx/core/util/Pools$SimplePool;->pool:[Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -283,8 +268,7 @@
     add-int/2addr v0, p1
 
     .line 23
-    iput v0, p0, Landroidx/core/util/Pools$SimplePool;
-    ->poolSize:I
+    iput v0, p0, Landroidx/core/util/Pools$SimplePool;->poolSize:I
 
     .line 24
     .line 25
@@ -306,8 +290,7 @@
 
     .line 31
     .line 32
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 33
     .line 34

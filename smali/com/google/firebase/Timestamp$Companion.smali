@@ -19,8 +19,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -28,8 +27,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/google/firebase/Timestamp$Companion;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/firebase/Timestamp$Companion;-><init>()V
     return-void
 .end method
 
@@ -37,8 +35,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/google/firebase/Timestamp$Companion;
-    ->toPreciseTime(Ljava/util/Date;)Lc1/f;
+    invoke-direct {p0, p1}, Lcom/google/firebase/Timestamp$Companion;->toPreciseTime(Ljava/util/Date;)Lc1/f;
 
     .line 2
     .line 3
@@ -52,8 +49,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Lcom/google/firebase/Timestamp$Companion;
-    ->validateRange(JI)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/google/firebase/Timestamp$Companion;->validateRange(JI)V
 
     .line 2
     .line 3
@@ -73,8 +69,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Ljava/util/Date;
-    ->getTime()J
+    invoke-virtual {p1}, Ljava/util/Date;->getTime()J
 
     .line 2
     .line 3
@@ -92,8 +87,7 @@
     div-long/2addr v0, v2
 
     .line 9
-    invoke-virtual {p1}, Ljava/util/Date;
-    ->getTime()J
+    invoke-virtual {p1}, Ljava/util/Date;->getTime()J
 
     .line 10
     .line 11
@@ -130,8 +124,7 @@
     sub-long/2addr v0, v2
 
     .line 26
-    invoke-static {v0, v1}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 27
     .line 28
@@ -147,8 +140,7 @@
     add-int/2addr p1, v1
 
     .line 34
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 35
     .line 36
@@ -160,8 +152,7 @@
 
     .line 39
     .line 40
-    invoke-direct {v1, v0, p1}, Lc1/f;
-    -><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v1, v0, p1}, Lc1/f;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 41
     .line 42
@@ -170,8 +161,7 @@
 
     .line 44
     :cond_0
-    invoke-static {v0, v1}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 45
     .line 46
@@ -179,8 +169,7 @@
     move-result-object v0
 
     .line 48
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 49
     .line 50
@@ -192,8 +181,7 @@
 
     .line 53
     .line 54
-    invoke-direct {v1, v0, p1}, Lc1/f;
-    -><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v1, v0, p1}, Lc1/f;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 55
     .line 56
@@ -256,8 +244,7 @@
 
     .line 28
     .line 29
-    invoke-static {p3, p1, p2}, LA/d;
-    ->e(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {p3, p1, p2}, LA/d;->e(Ljava/lang/String;J)Ljava/lang/String;
 
     .line 30
     .line 31
@@ -269,8 +256,7 @@
 
     .line 34
     .line 35
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     .line 36
     .line 37
@@ -278,8 +264,7 @@
     move-result-object p1
 
     .line 39
-    invoke-direct {p2, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 40
     .line 41
@@ -292,8 +277,7 @@
 
     .line 44
     .line 45
-    invoke-static {p3, p1}, LA/d;
-    ->c(ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {p3, p1}, LA/d;->c(ILjava/lang/String;)Ljava/lang/String;
 
     .line 46
     .line 47
@@ -305,8 +289,7 @@
 
     .line 50
     .line 51
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     .line 52
     .line 53
@@ -314,8 +297,7 @@
     move-result-object p1
 
     .line 55
-    invoke-direct {p2, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 56
     .line 57
@@ -517,14 +499,12 @@
 
     .line 4
     .line 5
-    invoke-direct {v1}, Ljava/util/Date;
-    -><init>()V
+    invoke-direct {v1}, Ljava/util/Date;-><init>()V
 
     .line 6
     .line 7
     .line 8
-    invoke-direct {v0, v1}, Lcom/google/firebase/Timestamp;
-    -><init>(Ljava/util/Date;)V
+    invoke-direct {v0, v1}, Lcom/google/firebase/Timestamp;-><init>(Ljava/util/Date;)V
 
     .line 9
     .line 10

@@ -23,13 +23,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager$1;
-    ->this$0:Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    iput-object p1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager$1;->this$0:Lcom/fmark/tselzap/Settings/BotSettingsManager;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroid/content/BroadcastReceiver;
-    -><init>()V
+    invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
 
     .line 4
     .line 5
@@ -43,8 +41,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p2}, Landroid/content/Intent;
-    ->getAction()Ljava/lang/String;
+    invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -64,8 +61,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 11
     .line 12
@@ -81,8 +77,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {v0, p1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 19
     .line 20
@@ -99,13 +94,11 @@
 
     .line 25
     :cond_1
-    iget-object p1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager$1;
-    ->this$0:Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    iget-object p1, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager$1;->this$0:Lcom/fmark/tselzap/Settings/BotSettingsManager;
 
     .line 26
     .line 27
-    invoke-static {p1, p2}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
-    ->a(Lcom/fmark/tselzap/Settings/BotSettingsManager;Landroid/content/Intent;)V
+    invoke-static {p1, p2}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->a(Lcom/fmark/tselzap/Settings/BotSettingsManager;Landroid/content/Intent;)V
 
     .line 28
     .line 29
@@ -114,13 +107,11 @@
 
     .line 31
     :cond_2
-    iget-object p2, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager$1;
-    ->this$0:Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    iget-object p2, p0, Lcom/fmark/tselzap/Settings/BotSettingsManager$1;->this$0:Lcom/fmark/tselzap/Settings/BotSettingsManager;
 
     .line 32
     .line 33
-    invoke-static {p2, p1}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
-    ->b(Lcom/fmark/tselzap/Settings/BotSettingsManager;Landroid/content/Context;)V
+    invoke-static {p2, p1}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->b(Lcom/fmark/tselzap/Settings/BotSettingsManager;Landroid/content/Context;)V
 
     .line 34
     .line 35

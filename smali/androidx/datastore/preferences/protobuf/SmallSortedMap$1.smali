@@ -5,8 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->newFieldMap(I)Landroidx/datastore/preferences/protobuf/SmallSortedMap;
+    value = Landroidx/datastore/preferences/protobuf/SmallSortedMap;->newFieldMap(I)Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -32,8 +31,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    -><init>(ILandroidx/datastore/preferences/protobuf/SmallSortedMap$1;)V
+    invoke-direct {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;-><init>(ILandroidx/datastore/preferences/protobuf/SmallSortedMap$1;)V
 return-void
 .end method
 
@@ -43,8 +41,7 @@ return-void
     .locals 3
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->isImmutable()Z
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->isImmutable()Z
 
     .line 2
     .line 3
@@ -60,8 +57,7 @@ return-void
 
     .line 8
     :goto_0
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->getNumArrayEntries()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->getNumArrayEntries()I
 
     .line 9
     .line 10
@@ -73,8 +69,7 @@ return-void
 
     .line 13
     .line 14
-    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->getArrayEntryAt(I)Ljava/util/Map$Entry;
+    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->getArrayEntryAt(I)Ljava/util/Map$Entry;
 
     .line 15
     .line 16
@@ -82,8 +77,7 @@ return-void
     move-result-object v1
 
     .line 18
-    invoke-interface {v1}, Ljava/util/Map$Entry;
-    ->getKey()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -95,8 +89,7 @@ return-void
 
     .line 23
     .line 24
-    invoke-interface {v2}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;
-    ->isRepeated()Z
+    invoke-interface {v2}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;->isRepeated()Z
 
     .line 25
     .line 26
@@ -108,8 +101,7 @@ return-void
 
     .line 29
     .line 30
-    invoke-interface {v1}, Ljava/util/Map$Entry;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     .line 31
     .line 32
@@ -121,8 +113,7 @@ return-void
 
     .line 35
     .line 36
-    invoke-static {v2}, Ljava/util/Collections;
-    ->unmodifiableList(Ljava/util/List;)Ljava/util/List;
+    invoke-static {v2}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
     .line 37
     .line 38
@@ -130,8 +121,7 @@ return-void
     move-result-object v2
 
     .line 40
-    invoke-interface {v1, v2}, Ljava/util/Map$Entry;
-    ->setValue(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v2}, Ljava/util/Map$Entry;->setValue(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 41
     .line 42
@@ -145,8 +135,7 @@ return-void
 
     .line 46
     :cond_1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->getOverflowEntries()Ljava/lang/Iterable;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->getOverflowEntries()Ljava/lang/Iterable;
 
     .line 47
     .line 48
@@ -154,8 +143,7 @@ return-void
     move-result-object v0
 
     .line 50
-    invoke-interface {v0}, Ljava/lang/Iterable;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     .line 51
     .line 52
@@ -165,8 +153,7 @@ return-void
     .line 54
     :cond_2
     :goto_1
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 55
     .line 56
@@ -178,8 +165,7 @@ return-void
 
     .line 59
     .line 60
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 61
     .line 62
@@ -191,8 +177,7 @@ return-void
 
     .line 65
     .line 66
-    invoke-interface {v1}, Ljava/util/Map$Entry;
-    ->getKey()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     .line 67
     .line 68
@@ -204,8 +189,7 @@ return-void
 
     .line 71
     .line 72
-    invoke-interface {v2}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;
-    ->isRepeated()Z
+    invoke-interface {v2}, Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;->isRepeated()Z
 
     .line 73
     .line 74
@@ -217,8 +201,7 @@ return-void
 
     .line 77
     .line 78
-    invoke-interface {v1}, Ljava/util/Map$Entry;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     .line 79
     .line 80
@@ -230,8 +213,7 @@ return-void
 
     .line 83
     .line 84
-    invoke-static {v2}, Ljava/util/Collections;
-    ->unmodifiableList(Ljava/util/List;)Ljava/util/List;
+    invoke-static {v2}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
     .line 85
     .line 86
@@ -239,8 +221,7 @@ return-void
     move-result-object v2
 
     .line 88
-    invoke-interface {v1, v2}, Ljava/util/Map$Entry;
-    ->setValue(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v2}, Ljava/util/Map$Entry;->setValue(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 89
     .line 90
@@ -249,8 +230,7 @@ return-void
 
     .line 92
     :cond_3
-    invoke-super {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->makeImmutable()V
+    invoke-super {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->makeImmutable()V
 return-void
 .end method
 
@@ -262,8 +242,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-super {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->put(Ljava/lang/Comparable;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-super {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->put(Ljava/lang/Comparable;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5

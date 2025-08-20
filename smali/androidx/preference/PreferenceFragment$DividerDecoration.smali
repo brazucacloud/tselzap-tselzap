@@ -29,13 +29,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;
-    ->this$0:Landroidx/preference/PreferenceFragment;
+    iput-object p1, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;->this$0:Landroidx/preference/PreferenceFragment;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
 
     .line 4
     .line 5
@@ -43,8 +41,7 @@
     const/4 p1, 0x1
 
     .line 7
-    iput-boolean p1, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;
-    ->mAllowDividerAfterLastItem:Z
+    iput-boolean p1, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;->mAllowDividerAfterLastItem:Z
 return-void
 .end method
 
@@ -60,8 +57,7 @@ return-void
     .end param
 
     .line 1
-    invoke-virtual {p2, p1}, Landroidx/recyclerview/widget/RecyclerView;
-    ->getChildViewHolder(Landroid/view/View;)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    invoke-virtual {p2, p1}, Landroidx/recyclerview/widget/RecyclerView;->getChildViewHolder(Landroid/view/View;)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
 
     .line 2
     .line 3
@@ -84,8 +80,7 @@ return-void
 
     .line 11
     .line 12
-    invoke-virtual {v0}, Landroidx/preference/PreferenceViewHolder;
-    ->isDividerAllowedBelow()Z
+    invoke-virtual {v0}, Landroidx/preference/PreferenceViewHolder;->isDividerAllowedBelow()Z
 
     .line 13
     .line 14
@@ -97,13 +92,11 @@ return-void
 
     .line 17
     .line 18
-    iget-boolean v0, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;
-    ->mAllowDividerAfterLastItem:Z
+    iget-boolean v0, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;->mAllowDividerAfterLastItem:Z
 
     .line 19
     .line 20
-    invoke-virtual {p2, p1}, Landroid/view/ViewGroup;
-    ->indexOfChild(Landroid/view/View;)I
+    invoke-virtual {p2, p1}, Landroid/view/ViewGroup;->indexOfChild(Landroid/view/View;)I
 
     .line 21
     .line 22
@@ -111,8 +104,7 @@ return-void
     move-result p1
 
     .line 24
-    invoke-virtual {p2}, Landroid/view/ViewGroup;
-    ->getChildCount()I
+    invoke-virtual {p2}, Landroid/view/ViewGroup;->getChildCount()I
 
     .line 25
     .line 26
@@ -133,8 +125,7 @@ return-void
     add-int/2addr p1, v3
 
     .line 33
-    invoke-virtual {p2, p1}, Landroid/view/ViewGroup;
-    ->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p2, p1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     .line 34
     .line 35
@@ -142,8 +133,7 @@ return-void
     move-result-object p1
 
     .line 37
-    invoke-virtual {p2, p1}, Landroidx/recyclerview/widget/RecyclerView;
-    ->getChildViewHolder(Landroid/view/View;)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    invoke-virtual {p2, p1}, Landroidx/recyclerview/widget/RecyclerView;->getChildViewHolder(Landroid/view/View;)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
 
     .line 38
     .line 39
@@ -163,8 +153,7 @@ return-void
 
     .line 46
     .line 47
-    invoke-virtual {p1}, Landroidx/preference/PreferenceViewHolder;
-    ->isDividerAllowedAbove()Z
+    invoke-virtual {p1}, Landroidx/preference/PreferenceViewHolder;->isDividerAllowedAbove()Z
 
     .line 48
     .line 49
@@ -209,8 +198,7 @@ return-void
     .end param
 
     .line 1
-    invoke-direct {p0, p2, p3}, Landroidx/preference/PreferenceFragment$DividerDecoration;
-    ->shouldDrawDividerBelow(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView;)Z
+    invoke-direct {p0, p2, p3}, Landroidx/preference/PreferenceFragment$DividerDecoration;->shouldDrawDividerBelow(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView;)Z
 
     .line 2
     .line 3
@@ -222,13 +210,11 @@ return-void
 
     .line 6
     .line 7
-    iget p2, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;
-    ->mDividerHeight:I
+    iget p2, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;->mDividerHeight:I
 
     .line 8
     .line 9
-    iput p2, p1, Landroid/graphics/Rect;
-    ->bottom:I
+    iput p2, p1, Landroid/graphics/Rect;->bottom:I
 
     .line 10
     .line 11
@@ -252,8 +238,7 @@ return-void
     .end param
 
     .line 1
-    iget-object p3, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;
-    ->mDivider:Landroid/graphics/drawable/Drawable;
+    iget-object p3, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;->mDivider:Landroid/graphics/drawable/Drawable;
 
     .line 2
     .line 3
@@ -265,8 +250,7 @@ return-void
 
     .line 6
     :cond_0
-    invoke-virtual {p2}, Landroid/view/ViewGroup;
-    ->getChildCount()I
+    invoke-virtual {p2}, Landroid/view/ViewGroup;->getChildCount()I
 
     .line 7
     .line 8
@@ -274,8 +258,7 @@ return-void
     move-result p3
 
     .line 10
-    invoke-virtual {p2}, Landroid/view/View;
-    ->getWidth()I
+    invoke-virtual {p2}, Landroid/view/View;->getWidth()I
 
     .line 11
     .line 12
@@ -294,8 +277,7 @@ return-void
 
     .line 17
     .line 18
-    invoke-virtual {p2, v2}, Landroid/view/ViewGroup;
-    ->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p2, v2}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     .line 19
     .line 20
@@ -303,8 +285,7 @@ return-void
     move-result-object v3
 
     .line 22
-    invoke-direct {p0, v3, p2}, Landroidx/preference/PreferenceFragment$DividerDecoration;
-    ->shouldDrawDividerBelow(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView;)Z
+    invoke-direct {p0, v3, p2}, Landroidx/preference/PreferenceFragment$DividerDecoration;->shouldDrawDividerBelow(Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView;)Z
 
     .line 23
     .line 24
@@ -316,8 +297,7 @@ return-void
 
     .line 27
     .line 28
-    invoke-virtual {v3}, Landroid/view/View;
-    ->getY()F
+    invoke-virtual {v3}, Landroid/view/View;->getY()F
 
     .line 29
     .line 30
@@ -328,8 +308,7 @@ return-void
     float-to-int v4, v4
 
     .line 33
-    invoke-virtual {v3}, Landroid/view/View;
-    ->getHeight()I
+    invoke-virtual {v3}, Landroid/view/View;->getHeight()I
 
     .line 34
     .line 35
@@ -340,32 +319,27 @@ return-void
     add-int/2addr v3, v4
 
     .line 38
-    iget-object v4, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;
-    ->mDivider:Landroid/graphics/drawable/Drawable;
+    iget-object v4, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;->mDivider:Landroid/graphics/drawable/Drawable;
 
     .line 39
     .line 40
-    iget v5, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;
-    ->mDividerHeight:I
+    iget v5, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;->mDividerHeight:I
 
     .line 41
     .line 42
     add-int/2addr v5, v3
 
     .line 43
-    invoke-virtual {v4, v1, v3, v0, v5}, Landroid/graphics/drawable/Drawable;
-    ->setBounds(IIII)V
+    invoke-virtual {v4, v1, v3, v0, v5}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
     .line 44
     .line 45
     .line 46
-    iget-object v3, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;
-    ->mDivider:Landroid/graphics/drawable/Drawable;
+    iget-object v3, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;->mDivider:Landroid/graphics/drawable/Drawable;
 
     .line 47
     .line 48
-    invoke-virtual {v3, p1}, Landroid/graphics/drawable/Drawable;
-    ->draw(Landroid/graphics/Canvas;)V
+    invoke-virtual {v3, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
 
     .line 49
     .line 50
@@ -387,8 +361,7 @@ return-void
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;
-    ->mAllowDividerAfterLastItem:Z
+    iput-boolean p1, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;->mAllowDividerAfterLastItem:Z
 return-void
 .end method
 
@@ -404,8 +377,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;
-    ->getIntrinsicHeight()I
+    invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
 
     .line 4
     .line 5
@@ -413,8 +385,7 @@ return-void
     move-result v0
 
     .line 7
-    iput v0, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;
-    ->mDividerHeight:I
+    iput v0, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;->mDividerHeight:I
 
     .line 8
     .line 9
@@ -425,29 +396,24 @@ return-void
     const/4 v0, 0x0
 
     .line 11
-    iput v0, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;
-    ->mDividerHeight:I
+    iput v0, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;->mDividerHeight:I
 
     .line 12
     .line 13
     :goto_0
-    iput-object p1, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;
-    ->mDivider:Landroid/graphics/drawable/Drawable;
+    iput-object p1, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;->mDivider:Landroid/graphics/drawable/Drawable;
 
     .line 14
     .line 15
-    iget-object p1, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;
-    ->this$0:Landroidx/preference/PreferenceFragment;
+    iget-object p1, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;->this$0:Landroidx/preference/PreferenceFragment;
 
     .line 16
     .line 17
-    iget-object p1, p1, Landroidx/preference/PreferenceFragment;
-    ->mList:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object p1, p1, Landroidx/preference/PreferenceFragment;->mList:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 18
     .line 19
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;
-    ->invalidateItemDecorations()V
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->invalidateItemDecorations()V
     return-void
 .end method
 
@@ -455,23 +421,19 @@ return-void
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;
-    ->mDividerHeight:I
+    iput p1, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;->mDividerHeight:I
 
     .line 2
     .line 3
-    iget-object p1, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;
-    ->this$0:Landroidx/preference/PreferenceFragment;
+    iget-object p1, p0, Landroidx/preference/PreferenceFragment$DividerDecoration;->this$0:Landroidx/preference/PreferenceFragment;
 
     .line 4
     .line 5
-    iget-object p1, p1, Landroidx/preference/PreferenceFragment;
-    ->mList:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object p1, p1, Landroidx/preference/PreferenceFragment;->mList:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;
-    ->invalidateItemDecorations()V
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->invalidateItemDecorations()V
     return-void
 .end method
 

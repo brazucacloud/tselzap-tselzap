@@ -60,43 +60,37 @@
 
     new-array v0, v0, [Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
 
-    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->VERTICAL_LIST_WITH_VERTICAL_DRAGGING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
+    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->VERTICAL_LIST_WITH_VERTICAL_DRAGGING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
 
     const/4 v2, 0x0
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->VERTICAL_LIST_WITH_UNCONSTRAINED_DRAGGING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
+    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->VERTICAL_LIST_WITH_UNCONSTRAINED_DRAGGING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
 
     const/4 v2, 0x1
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->HORIZONTAL_LIST_WITH_HORIZONTAL_DRAGGING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
+    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->HORIZONTAL_LIST_WITH_HORIZONTAL_DRAGGING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
 
     const/4 v2, 0x2
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->HORIZONTAL_LIST_WITH_UNCONSTRAINED_DRAGGING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
+    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->HORIZONTAL_LIST_WITH_UNCONSTRAINED_DRAGGING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
 
     const/4 v2, 0x3
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->GRID_LIST_WITH_HORIZONTAL_SWIPING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
+    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->GRID_LIST_WITH_HORIZONTAL_SWIPING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
 
     const/4 v2, 0x4
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->GRID_LIST_WITH_VERTICAL_SWIPING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
+    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->GRID_LIST_WITH_VERTICAL_SWIPING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
 
     const/4 v2, 0x5
 
@@ -113,13 +107,11 @@
 
     .line 2
     .line 3
-    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->UP:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
+    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->UP:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
 
     .line 4
     .line 5
-    invoke-virtual {v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 6
     .line 7
@@ -127,13 +119,11 @@
     move-result v2
 
     .line 9
-    sget-object v3, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->DOWN:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
+    sget-object v3, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->DOWN:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
 
     .line 10
     .line 11
-    invoke-virtual {v3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 12
     .line 13
@@ -144,13 +134,11 @@
     or-int/2addr v2, v4
 
     .line 16
-    sget-object v4, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->LEFT:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
+    sget-object v4, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->LEFT:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
 
     .line 17
     .line 18
-    invoke-virtual {v4}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v4}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 19
     .line 20
@@ -158,13 +146,11 @@
     move-result v5
 
     .line 22
-    sget-object v6, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->RIGHT:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
+    sget-object v6, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->RIGHT:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
 
     .line 23
     .line 24
-    invoke-virtual {v6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 25
     .line 26
@@ -182,14 +168,12 @@
     const/4 v8, 0x0
 
     .line 32
-    invoke-direct {v0, v7, v8, v2, v5}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    -><init>(Ljava/lang/String;III)V
+    invoke-direct {v0, v7, v8, v2, v5}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;-><init>(Ljava/lang/String;III)V
 
     .line 33
     .line 34
     .line 35
-    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->VERTICAL_LIST_WITH_VERTICAL_DRAGGING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
+    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->VERTICAL_LIST_WITH_VERTICAL_DRAGGING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
 
     .line 36
     .line 37
@@ -197,8 +181,7 @@
 
     .line 38
     .line 39
-    invoke-virtual {v4}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v4}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 40
     .line 41
@@ -206,8 +189,7 @@
     move-result v2
 
     .line 43
-    invoke-virtual {v6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 44
     .line 45
@@ -218,8 +200,7 @@
     or-int/2addr v2, v5
 
     .line 48
-    invoke-virtual {v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 49
     .line 50
@@ -230,8 +211,7 @@
     or-int/2addr v2, v5
 
     .line 53
-    invoke-virtual {v3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 54
     .line 55
@@ -242,8 +222,7 @@
     or-int/2addr v2, v5
 
     .line 58
-    invoke-virtual {v4}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v4}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 59
     .line 60
@@ -251,8 +230,7 @@
     move-result v5
 
     .line 62
-    invoke-virtual {v6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 63
     .line 64
@@ -270,14 +248,12 @@
     const/4 v8, 0x1
 
     .line 70
-    invoke-direct {v0, v7, v8, v2, v5}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    -><init>(Ljava/lang/String;III)V
+    invoke-direct {v0, v7, v8, v2, v5}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;-><init>(Ljava/lang/String;III)V
 
     .line 71
     .line 72
     .line 73
-    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->VERTICAL_LIST_WITH_UNCONSTRAINED_DRAGGING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
+    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->VERTICAL_LIST_WITH_UNCONSTRAINED_DRAGGING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
 
     .line 74
     .line 75
@@ -285,8 +261,7 @@
 
     .line 76
     .line 77
-    invoke-virtual {v4}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v4}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 78
     .line 79
@@ -294,8 +269,7 @@
     move-result v2
 
     .line 81
-    invoke-virtual {v6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 82
     .line 83
@@ -306,8 +280,7 @@
     or-int/2addr v2, v5
 
     .line 86
-    invoke-virtual {v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 87
     .line 88
@@ -315,8 +288,7 @@
     move-result v5
 
     .line 90
-    invoke-virtual {v3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 91
     .line 92
@@ -334,14 +306,12 @@
     const/4 v8, 0x2
 
     .line 98
-    invoke-direct {v0, v7, v8, v2, v5}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    -><init>(Ljava/lang/String;III)V
+    invoke-direct {v0, v7, v8, v2, v5}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;-><init>(Ljava/lang/String;III)V
 
     .line 99
     .line 100
     .line 101
-    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->HORIZONTAL_LIST_WITH_HORIZONTAL_DRAGGING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
+    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->HORIZONTAL_LIST_WITH_HORIZONTAL_DRAGGING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
 
     .line 102
     .line 103
@@ -349,8 +319,7 @@
 
     .line 104
     .line 105
-    invoke-virtual {v4}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v4}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 106
     .line 107
@@ -358,8 +327,7 @@
     move-result v2
 
     .line 109
-    invoke-virtual {v6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 110
     .line 111
@@ -370,8 +338,7 @@
     or-int/2addr v2, v5
 
     .line 114
-    invoke-virtual {v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 115
     .line 116
@@ -382,8 +349,7 @@
     or-int/2addr v2, v5
 
     .line 119
-    invoke-virtual {v3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 120
     .line 121
@@ -394,8 +360,7 @@
     or-int/2addr v2, v5
 
     .line 124
-    invoke-virtual {v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 125
     .line 126
@@ -403,8 +368,7 @@
     move-result v5
 
     .line 128
-    invoke-virtual {v3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 129
     .line 130
@@ -422,14 +386,12 @@
     const/4 v8, 0x3
 
     .line 136
-    invoke-direct {v0, v7, v8, v2, v5}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    -><init>(Ljava/lang/String;III)V
+    invoke-direct {v0, v7, v8, v2, v5}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;-><init>(Ljava/lang/String;III)V
 
     .line 137
     .line 138
     .line 139
-    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->HORIZONTAL_LIST_WITH_UNCONSTRAINED_DRAGGING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
+    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->HORIZONTAL_LIST_WITH_UNCONSTRAINED_DRAGGING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
 
     .line 140
     .line 141
@@ -437,8 +399,7 @@
 
     .line 142
     .line 143
-    invoke-virtual {v4}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v4}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 144
     .line 145
@@ -446,8 +407,7 @@
     move-result v2
 
     .line 147
-    invoke-virtual {v6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 148
     .line 149
@@ -458,8 +418,7 @@
     or-int/2addr v2, v5
 
     .line 152
-    invoke-virtual {v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 153
     .line 154
@@ -470,8 +429,7 @@
     or-int/2addr v1, v2
 
     .line 157
-    invoke-virtual {v3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 158
     .line 159
@@ -482,8 +440,7 @@
     or-int/2addr v1, v2
 
     .line 162
-    invoke-virtual {v4}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v4}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 163
     .line 164
@@ -491,8 +448,7 @@
     move-result v2
 
     .line 166
-    invoke-virtual {v6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 167
     .line 168
@@ -510,14 +466,12 @@
     const/4 v4, 0x4
 
     .line 174
-    invoke-direct {v0, v3, v4, v1, v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    -><init>(Ljava/lang/String;III)V
+    invoke-direct {v0, v3, v4, v1, v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;-><init>(Ljava/lang/String;III)V
 
     .line 175
     .line 176
     .line 177
-    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->GRID_LIST_WITH_HORIZONTAL_SWIPING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
+    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->GRID_LIST_WITH_HORIZONTAL_SWIPING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
 
     .line 178
     .line 179
@@ -536,19 +490,16 @@
     const/4 v3, 0x5
 
     .line 186
-    invoke-direct {v0, v2, v3, v1, v8}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    -><init>(Ljava/lang/String;III)V
+    invoke-direct {v0, v2, v3, v1, v8}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;-><init>(Ljava/lang/String;III)V
 
     .line 187
     .line 188
     .line 189
-    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->GRID_LIST_WITH_VERTICAL_SWIPING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
+    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->GRID_LIST_WITH_VERTICAL_SWIPING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
 
     .line 190
     .line 191
-    invoke-static {}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->$values()[Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
+    invoke-static {}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->$values()[Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
 
     .line 192
     .line 193
@@ -556,13 +507,11 @@
     move-result-object v0
 
     .line 195
-    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->$VALUES:[Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
+    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->$VALUES:[Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
 
     .line 196
     .line 197
-    invoke-static {v0}, La/a;
-    ->o([Ljava/lang/Enum;)Lj1/b;
+    invoke-static {v0}, La/a;->o([Ljava/lang/Enum;)Lj1/b;
 
     .line 198
     .line 199
@@ -570,8 +519,7 @@
     move-result-object v0
 
     .line 201
-    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->$ENTRIES:Lj1/a;
+    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->$ENTRIES:Lj1/a;
 
     .line 202
     .line 203
@@ -587,19 +535,16 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     .line 2
     .line 3
     .line 4
-    iput p3, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->dragFlagsValue:I
+    iput p3, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->dragFlagsValue:I
 
     .line 5
     .line 6
-    iput p4, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->swipeFlagsValue:I
+    iput p4, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->swipeFlagsValue:I
 
     .line 7
     .line 8
@@ -616,8 +561,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->$ENTRIES:Lj1/a;
+    sget-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->$ENTRIES:Lj1/a;
 
     .line 2
     .line 3
@@ -629,8 +573,7 @@
 
     const-class v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
 
-    invoke-static {v0, p0}, Ljava/lang/Enum;
-    ->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object p0
 
@@ -642,11 +585,9 @@
 .method public static values()[Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
     .locals 1
 
-    sget-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->$VALUES:[Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
+    sget-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->$VALUES:[Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
 
-    invoke-virtual {v0}, [Ljava/lang/Object;
-    ->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -673,24 +614,20 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    iget v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->dragFlagsValue:I
+    iget v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->dragFlagsValue:I
 
     .line 7
     .line 8
-    sget-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->UP:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
+    sget-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->UP:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
 
     .line 9
     .line 10
-    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 11
     .line 12
@@ -701,8 +638,7 @@
     and-int/2addr v1, v3
 
     .line 15
-    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 16
     .line 17
@@ -714,25 +650,21 @@
 
     .line 20
     .line 21
-    invoke-interface {v0, v2}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 22
     .line 23
     .line 24
     :cond_0
-    iget v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->dragFlagsValue:I
+    iget v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->dragFlagsValue:I
 
     .line 25
     .line 26
-    sget-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->DOWN:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
+    sget-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->DOWN:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
 
     .line 27
     .line 28
-    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 29
     .line 30
@@ -743,8 +675,7 @@
     and-int/2addr v1, v3
 
     .line 33
-    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 34
     .line 35
@@ -756,25 +687,21 @@
 
     .line 38
     .line 39
-    invoke-interface {v0, v2}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 40
     .line 41
     .line 42
     :cond_1
-    iget v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->dragFlagsValue:I
+    iget v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->dragFlagsValue:I
 
     .line 43
     .line 44
-    sget-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->LEFT:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
+    sget-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->LEFT:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
 
     .line 45
     .line 46
-    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 47
     .line 48
@@ -785,8 +712,7 @@
     and-int/2addr v1, v3
 
     .line 51
-    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 52
     .line 53
@@ -798,25 +724,21 @@
 
     .line 56
     .line 57
-    invoke-interface {v0, v2}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 58
     .line 59
     .line 60
     :cond_2
-    iget v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->dragFlagsValue:I
+    iget v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->dragFlagsValue:I
 
     .line 61
     .line 62
-    sget-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->RIGHT:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
+    sget-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->RIGHT:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
 
     .line 63
     .line 64
-    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 65
     .line 66
@@ -827,8 +749,7 @@
     and-int/2addr v1, v3
 
     .line 69
-    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 70
     .line 71
@@ -840,8 +761,7 @@
 
     .line 74
     .line 75
-    invoke-interface {v0, v2}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 76
     .line 77
@@ -854,8 +774,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->dragFlagsValue:I
+    iget v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->dragFlagsValue:I
 
     .line 2
     .line 3
@@ -878,24 +797,20 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    iget v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->swipeFlagsValue:I
+    iget v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->swipeFlagsValue:I
 
     .line 7
     .line 8
-    sget-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->UP:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
+    sget-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->UP:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
 
     .line 9
     .line 10
-    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 11
     .line 12
@@ -906,8 +821,7 @@
     and-int/2addr v1, v3
 
     .line 15
-    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 16
     .line 17
@@ -919,25 +833,21 @@
 
     .line 20
     .line 21
-    invoke-interface {v0, v2}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 22
     .line 23
     .line 24
     :cond_0
-    iget v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->swipeFlagsValue:I
+    iget v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->swipeFlagsValue:I
 
     .line 25
     .line 26
-    sget-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->DOWN:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
+    sget-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->DOWN:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
 
     .line 27
     .line 28
-    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 29
     .line 30
@@ -948,8 +858,7 @@
     and-int/2addr v1, v3
 
     .line 33
-    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 34
     .line 35
@@ -961,25 +870,21 @@
 
     .line 38
     .line 39
-    invoke-interface {v0, v2}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 40
     .line 41
     .line 42
     :cond_1
-    iget v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->swipeFlagsValue:I
+    iget v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->swipeFlagsValue:I
 
     .line 43
     .line 44
-    sget-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->LEFT:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
+    sget-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->LEFT:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
 
     .line 45
     .line 46
-    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 47
     .line 48
@@ -990,8 +895,7 @@
     and-int/2addr v1, v3
 
     .line 51
-    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 52
     .line 53
@@ -1003,25 +907,21 @@
 
     .line 56
     .line 57
-    invoke-interface {v0, v2}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 58
     .line 59
     .line 60
     :cond_2
-    iget v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->swipeFlagsValue:I
+    iget v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->swipeFlagsValue:I
 
     .line 61
     .line 62
-    sget-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->RIGHT:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
+    sget-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->RIGHT:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
 
     .line 63
     .line 64
-    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 65
     .line 66
@@ -1032,8 +932,7 @@
     and-int/2addr v1, v3
 
     .line 69
-    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 70
     .line 71
@@ -1045,8 +944,7 @@
 
     .line 74
     .line 75
-    invoke-interface {v0, v2}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 76
     .line 77
@@ -1059,8 +957,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->swipeFlagsValue:I
+    iget v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->swipeFlagsValue:I
 
     .line 2
     .line 3
@@ -1071,8 +968,7 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->dragFlagsValue:I
+    iput p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->dragFlagsValue:I
 
     .line 2
     .line 3
@@ -1083,8 +979,7 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->swipeFlagsValue:I
+    iput p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->swipeFlagsValue:I
 
     .line 2
     .line 3

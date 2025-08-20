@@ -22,8 +22,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -46,100 +45,84 @@
     .line 1
     const-class v3, Lcom/google/android/gms/internal/measurement/zzkg;
 
-    invoke-virtual {v3}, Ljava/lang/Class;
-    ->getClassLoader()Ljava/lang/ClassLoader;
+    invoke-virtual {v3}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
 
     move-result-object v4
 
     .line 2
     const-class v0, Lcom/google/android/gms/internal/measurement/zzjv;
 
-    invoke-virtual {p0, v0}, Ljava/lang/Object;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 3
-    sget-object v0, Lcom/google/android/gms/internal/measurement/zzkg;
-    ->zza:Ljava/lang/String;
+    sget-object v0, Lcom/google/android/gms/internal/measurement/zzkg;->zza:Ljava/lang/String;
 
     goto :goto_0
 
     .line 4
     :cond_0
-    invoke-virtual {p0}, Ljava/lang/Class;
-    ->getPackage()Ljava/lang/Package;
+    invoke-virtual {p0}, Ljava/lang/Class;->getPackage()Ljava/lang/Package;
 
     move-result-object v0
 
     .line 5
-    invoke-virtual {v3}, Ljava/lang/Class;
-    ->getPackage()Ljava/lang/Package;
+    invoke-virtual {v3}, Ljava/lang/Class;->getPackage()Ljava/lang/Package;
 
     move-result-object v5
 
-    invoke-virtual {v0, v5}, Ljava/lang/Object;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v5}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
     if-eqz v0, :cond_4
 
     .line 6
-    invoke-virtual {p0}, Ljava/lang/Class;
-    ->getPackage()Ljava/lang/Package;
+    invoke-virtual {p0}, Ljava/lang/Class;->getPackage()Ljava/lang/Package;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Ljava/lang/Package;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Package;->getName()Ljava/lang/String;
 
     move-result-object v0
 
     .line 7
-    invoke-virtual {p0}, Ljava/lang/Class;
-    ->getSimpleName()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
     move-result-object v5
 
     .line 8
     new-instance v6, Ljava/lang/StringBuilder;
 
-    invoke-direct {v6}, Ljava/lang/StringBuilder;
-    -><init>()V
+    invoke-direct {v6}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual {v6, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v6, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 9
     const-string v0, ".BlazeGenerated"
 
     .line 10
-    invoke-virtual {v6, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v6, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v6, v5}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v6, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 11
     const-string v0, "Loader"
 
     .line 12
-    invoke-virtual {v6, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v6, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v6}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v6}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
 
     .line 13
     :goto_0
     :try_start_0
-    invoke-static {v0, v2, v4}, Ljava/lang/Class;
-    ->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
+    invoke-static {v0, v2, v4}, Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
 
     move-result-object v0
     :try_end_0
@@ -149,15 +132,13 @@
     :try_start_1
     new-array v5, v1, [Ljava/lang/Class;
 
-    invoke-virtual {v0, v5}, Ljava/lang/Class;
-    ->getConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+    invoke-virtual {v0, v5}, Ljava/lang/Class;->getConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     move-result-object v0
 
     new-array v5, v1, [Ljava/lang/Object;
 
-    invoke-virtual {v0, v5}, Ljava/lang/reflect/Constructor;
-    ->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v5}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -171,13 +152,11 @@
 
     .line 15
     :try_start_2
-    invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/zzkg;
-    ->zza()Lcom/google/android/gms/internal/measurement/zzjv;
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/zzkg;->zza()Lcom/google/android/gms/internal/measurement/zzjv;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Ljava/lang/Class;
-    ->cast(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Ljava/lang/Class;->cast(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -209,8 +188,7 @@
     :goto_1
     new-instance v5, Ljava/lang/IllegalStateException;
 
-    invoke-direct {v5, v0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v5, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/Throwable;)V
 
     throw v5
 
@@ -218,8 +196,7 @@
     :goto_2
     new-instance v5, Ljava/lang/IllegalStateException;
 
-    invoke-direct {v5, v0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v5, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/Throwable;)V
 
     throw v5
 
@@ -227,8 +204,7 @@
     :goto_3
     new-instance v5, Ljava/lang/IllegalStateException;
 
-    invoke-direct {v5, v0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v5, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/Throwable;)V
 
     throw v5
 
@@ -236,8 +212,7 @@
     :goto_4
     new-instance v5, Ljava/lang/IllegalStateException;
 
-    invoke-direct {v5, v0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v5, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/Throwable;)V
 
     throw v5
     :try_end_2
@@ -245,27 +220,23 @@
 
     .line 20
     :catch_4
-    invoke-static {v3, v4}, Ljava/util/ServiceLoader;
-    ->load(Ljava/lang/Class;Ljava/lang/ClassLoader;)Ljava/util/ServiceLoader;
+    invoke-static {v3, v4}, Ljava/util/ServiceLoader;->load(Ljava/lang/Class;Ljava/lang/ClassLoader;)Ljava/util/ServiceLoader;
 
     move-result-object v0
 
     .line 21
-    invoke-virtual {v0}, Ljava/util/ServiceLoader;
-    ->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/ServiceLoader;->iterator()Ljava/util/Iterator;
 
     move-result-object v3
 
     .line 22
     new-instance v4, Ljava/util/ArrayList;
 
-    invoke-direct {v4}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
     .line 23
     :goto_5
-    invoke-interface {v3}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v3}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
 
@@ -273,27 +244,23 @@
 
     .line 24
     :try_start_3
-    invoke-interface {v3}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Lcom/google/android/gms/internal/measurement/zzkg;
 
-    invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/zzkg;
-    ->zza()Lcom/google/android/gms/internal/measurement/zzjv;
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/zzkg;->zza()Lcom/google/android/gms/internal/measurement/zzjv;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Ljava/lang/Class;
-    ->cast(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Ljava/lang/Class;->cast(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Lcom/google/android/gms/internal/measurement/zzjv;
 
-    invoke-virtual {v4, v0}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v4, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
     :try_end_3
     .catch Ljava/util/ServiceConfigurationError; {:try_start_3 .. :try_end_3} :catch_5
 
@@ -307,29 +274,24 @@
     .line 25
     const-class v0, Lcom/google/android/gms/internal/measurement/zzjr;
 
-    invoke-virtual {v0}, Ljava/lang/Class;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v0}, Ljava/util/logging/Logger;
-    ->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
 
     move-result-object v5
 
-    sget-object v6, Ljava/util/logging/Level;
-    ->SEVERE:Ljava/util/logging/Level;
+    sget-object v6, Ljava/util/logging/Level;->SEVERE:Ljava/util/logging/Level;
 
     .line 26
-    invoke-virtual {p0}, Ljava/lang/Class;
-    ->getSimpleName()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
     move-result-object v0
 
     const-string v7, "Unable to load "
 
-    invoke-virtual {v7, v0}, Ljava/lang/String;
-    ->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v7, v0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v9
 
@@ -337,23 +299,20 @@
 
     const-string v8, "load"
 
-    invoke-virtual/range {v5 .. v10}, Ljava/util/logging/Logger;
-    ->logp(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual/range {v5 .. v10}, Ljava/util/logging/Logger;->logp(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     goto :goto_5
 
     .line 27
     :cond_1
-    invoke-virtual {v4}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {v4}, Ljava/util/ArrayList;->size()I
 
     move-result v0
 
     if-ne v0, v2, :cond_2
 
     .line 28
-    invoke-virtual {v4, v1}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {v4, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -363,8 +322,7 @@
 
     .line 29
     :cond_2
-    invoke-virtual {v4}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {v4}, Ljava/util/ArrayList;->size()I
 
     move-result v0
 
@@ -386,8 +344,7 @@
     aput-object v6, v5, v1
 
     .line 31
-    invoke-virtual {p0, v0, v5}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {p0, v0, v5}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object p0
 
@@ -395,8 +352,7 @@
 
     aput-object v4, v0, v1
 
-    invoke-virtual {p0, v3, v0}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v3, v0}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -416,8 +372,7 @@
     .line 32
     new-instance v0, Ljava/lang/IllegalStateException;
 
-    invoke-direct {v0, p0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v0, p0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/Throwable;)V
 
     throw v0
 
@@ -429,8 +384,7 @@
     .line 33
     new-instance v0, Ljava/lang/IllegalStateException;
 
-    invoke-direct {v0, p0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v0, p0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/Throwable;)V
 
     throw v0
 
@@ -442,8 +396,7 @@
     .line 34
     new-instance v0, Ljava/lang/IllegalStateException;
 
-    invoke-direct {v0, p0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v0, p0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/Throwable;)V
 
     throw v0
 
@@ -451,13 +404,11 @@
     :cond_4
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
-    invoke-virtual {p0}, Ljava/lang/Class;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     move-result-object p0
 
-    invoke-direct {v0, p0}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     throw v0
 .end method

@@ -16,13 +16,11 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1
 
-    iput v0, p0, Lcom/google/android/gms/auth/api/signin/internal/HashAccumulator;
-    ->zaa:I
+    iput v0, p0, Lcom/google/android/gms/auth/api/signin/internal/HashAccumulator;->zaa:I
 
     return-void
 .end method
@@ -42,8 +40,7 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Lcom/google/android/gms/auth/api/signin/internal/HashAccumulator;
-    ->zaa:I
+    iget v0, p0, Lcom/google/android/gms/auth/api/signin/internal/HashAccumulator;->zaa:I
 
     .line 2
     .line 3
@@ -62,8 +59,7 @@
 
     .line 9
     :cond_0
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->hashCode()I
+    invoke-virtual {p1}, Ljava/lang/Object;->hashCode()I
 
     .line 10
     .line 11
@@ -75,8 +71,7 @@
     add-int/2addr v0, p1
 
     .line 14
-    iput v0, p0, Lcom/google/android/gms/auth/api/signin/internal/HashAccumulator;
-    ->zaa:I
+    iput v0, p0, Lcom/google/android/gms/auth/api/signin/internal/HashAccumulator;->zaa:I
 
     .line 15
     .line 16
@@ -88,8 +83,7 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    iget v0, p0, Lcom/google/android/gms/auth/api/signin/internal/HashAccumulator;
-    ->zaa:I
+    iget v0, p0, Lcom/google/android/gms/auth/api/signin/internal/HashAccumulator;->zaa:I
 
     return v0
 .end method
@@ -99,15 +93,13 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    iget v0, p0, Lcom/google/android/gms/auth/api/signin/internal/HashAccumulator;
-    ->zaa:I
+    iget v0, p0, Lcom/google/android/gms/auth/api/signin/internal/HashAccumulator;->zaa:I
 
     mul-int/lit8 v0, v0, 0x1f
 
     add-int/2addr v0, p1
 
-    iput v0, p0, Lcom/google/android/gms/auth/api/signin/internal/HashAccumulator;
-    ->zaa:I
+    iput v0, p0, Lcom/google/android/gms/auth/api/signin/internal/HashAccumulator;->zaa:I
 
     return-object p0
 .end method

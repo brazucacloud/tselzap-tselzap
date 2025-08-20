@@ -55,46 +55,38 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide v0, 0x4097700000000000L    # 1500.0
 
     .line 2
-    invoke-static {v0, v1}, Ljava/lang/Math;
-    ->sqrt(D)D
+    invoke-static {v0, v1}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide v0
 
-    iput-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mNaturalFreq:D
+    iput-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mNaturalFreq:D
 
     const-wide/high16 v0, 0x3fe0000000000000L    # 0.5
 
     .line 3
-    iput-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mDampingRatio:D
+    iput-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mDampingRatio:D
 
     const/4 v0, 0x0
 
     .line 4
-    iput-boolean v0, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mInitialized:Z
+    iput-boolean v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mInitialized:Z
 
     const-wide v0, 0x7fefffffffffffffL    # Double.MAX_VALUE
 
     .line 5
-    iput-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mFinalPosition:D
+    iput-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mFinalPosition:D
 
     .line 6
     new-instance v0, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
 
-    invoke-direct {v0}, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;-><init>()V
 
-    iput-object v0, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mMassState:Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
+    iput-object v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mMassState:Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
 
     return-void
 .end method
@@ -103,52 +95,43 @@
     .locals 2
 
     .line 7
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const-wide v0, 0x4097700000000000L    # 1500.0
 
     .line 8
-    invoke-static {v0, v1}, Ljava/lang/Math;
-    ->sqrt(D)D
+    invoke-static {v0, v1}, Ljava/lang/Math;->sqrt(D)D
 
     move-result-wide v0
 
-    iput-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mNaturalFreq:D
+    iput-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mNaturalFreq:D
 
     const-wide/high16 v0, 0x3fe0000000000000L    # 0.5
 
     .line 9
-    iput-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mDampingRatio:D
+    iput-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mDampingRatio:D
 
     const/4 v0, 0x0
 
     .line 10
-    iput-boolean v0, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mInitialized:Z
+    iput-boolean v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mInitialized:Z
 
     const-wide v0, 0x7fefffffffffffffL    # Double.MAX_VALUE
 
     .line 11
-    iput-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mFinalPosition:D
+    iput-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mFinalPosition:D
 
     .line 12
     new-instance v0, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
 
-    invoke-direct {v0}, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;-><init>()V
 
-    iput-object v0, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mMassState:Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
+    iput-object v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mMassState:Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
 
     float-to-double v0, p1
 
     .line 13
-    iput-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mFinalPosition:D
+    iput-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mFinalPosition:D
 
     return-void
 .end method
@@ -157,8 +140,7 @@
     .locals 8
 
     .line 1
-    iget-boolean v0, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mInitialized:Z
+    iget-boolean v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mInitialized:Z
 
     .line 2
     .line 3
@@ -166,8 +148,7 @@
 
     .line 6
     :cond_0
-    iget-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mFinalPosition:D
+    iget-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mFinalPosition:D
 
     .line 7
     .line 8
@@ -186,8 +167,7 @@
 
     .line 16
     .line 17
-    iget-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mDampingRatio:D
+    iget-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mDampingRatio:D
 
     .line 18
     .line 19
@@ -206,8 +186,7 @@
     neg-double v4, v0
 
     .line 26
-    iget-wide v6, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mNaturalFreq:D
+    iget-wide v6, p0, Landroidx/dynamicanimation/animation/SpringForce;->mNaturalFreq:D
 
     .line 27
     .line 28
@@ -222,8 +201,7 @@
     sub-double/2addr v0, v2
 
     .line 33
-    invoke-static {v0, v1}, Ljava/lang/Math;
-    ->sqrt(D)D
+    invoke-static {v0, v1}, Ljava/lang/Math;->sqrt(D)D
 
     .line 34
     .line 35
@@ -238,21 +216,18 @@
     add-double/2addr v0, v4
 
     .line 40
-    iput-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mGammaPlus:D
+    iput-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mGammaPlus:D
 
     .line 41
     .line 42
-    iget-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mDampingRatio:D
+    iget-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mDampingRatio:D
 
     .line 43
     .line 44
     neg-double v4, v0
 
     .line 45
-    iget-wide v6, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mNaturalFreq:D
+    iget-wide v6, p0, Landroidx/dynamicanimation/animation/SpringForce;->mNaturalFreq:D
 
     .line 46
     .line 47
@@ -267,8 +242,7 @@
     sub-double/2addr v0, v2
 
     .line 52
-    invoke-static {v0, v1}, Ljava/lang/Math;
-    ->sqrt(D)D
+    invoke-static {v0, v1}, Ljava/lang/Math;->sqrt(D)D
 
     .line 53
     .line 54
@@ -283,8 +257,7 @@
     sub-double/2addr v4, v0
 
     .line 59
-    iput-wide v4, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mGammaMinus:D
+    iput-wide v4, p0, Landroidx/dynamicanimation/animation/SpringForce;->mGammaMinus:D
 
     .line 60
     .line 61
@@ -312,8 +285,7 @@
 
     .line 71
     .line 72
-    iget-wide v4, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mNaturalFreq:D
+    iget-wide v4, p0, Landroidx/dynamicanimation/animation/SpringForce;->mNaturalFreq:D
 
     .line 73
     .line 74
@@ -324,8 +296,7 @@
     sub-double/2addr v2, v0
 
     .line 77
-    invoke-static {v2, v3}, Ljava/lang/Math;
-    ->sqrt(D)D
+    invoke-static {v2, v3}, Ljava/lang/Math;->sqrt(D)D
 
     .line 78
     .line 79
@@ -337,8 +308,7 @@
 
     .line 82
     .line 83
-    iput-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mDampedFreq:D
+    iput-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mDampedFreq:D
 
     .line 84
     .line 85
@@ -347,8 +317,7 @@
     const/4 v0, 0x1
 
     .line 86
-    iput-boolean v0, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mInitialized:Z
+    iput-boolean v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mInitialized:Z
 return-void
 
     .line 89
@@ -361,8 +330,7 @@ return-void
 
     .line 92
     .line 93
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 94
     .line 95
@@ -375,14 +343,12 @@ return-void
     .locals 6
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/dynamicanimation/animation/SpringForce;
-    ->getFinalPosition()F
+    invoke-virtual {p0}, Landroidx/dynamicanimation/animation/SpringForce;->getFinalPosition()F
 
     .line 2
     .line 3
@@ -393,8 +359,7 @@ return-void
     sub-float/2addr p1, v0
 
     .line 6
-    iget-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mNaturalFreq:D
+    iget-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mNaturalFreq:D
 
     .line 7
     .line 8
@@ -410,8 +375,7 @@ return-void
 
     .line 13
     .line 14
-    iget-wide v4, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mDampingRatio:D
+    iget-wide v4, p0, Landroidx/dynamicanimation/animation/SpringForce;->mDampingRatio:D
 
     .line 15
     .line 16
@@ -448,8 +412,7 @@ return-void
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mDampingRatio:D
+    iget-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mDampingRatio:D
 
     .line 2
     .line 3
@@ -462,8 +425,7 @@ return-void
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mFinalPosition:D
+    iget-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mFinalPosition:D
 
     .line 2
     .line 3
@@ -476,8 +438,7 @@ return-void
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mNaturalFreq:D
+    iget-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mNaturalFreq:D
 
     .line 2
     .line 3
@@ -494,14 +455,12 @@ return-void
     .locals 4
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    invoke-static {p2}, Ljava/lang/Math;
-    ->abs(F)F
+    invoke-static {p2}, Ljava/lang/Math;->abs(F)F
 
     .line 2
     .line 3
@@ -512,8 +471,7 @@ return-void
     float-to-double v0, p2
 
     .line 6
-    iget-wide v2, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mVelocityThreshold:D
+    iget-wide v2, p0, Landroidx/dynamicanimation/animation/SpringForce;->mVelocityThreshold:D
 
     .line 7
     .line 8
@@ -525,8 +483,7 @@ return-void
 
     .line 11
     .line 12
-    invoke-virtual {p0}, Landroidx/dynamicanimation/animation/SpringForce;
-    ->getFinalPosition()F
+    invoke-virtual {p0}, Landroidx/dynamicanimation/animation/SpringForce;->getFinalPosition()F
 
     .line 13
     .line 14
@@ -537,8 +494,7 @@ return-void
     sub-float/2addr p1, p2
 
     .line 17
-    invoke-static {p1}, Ljava/lang/Math;
-    ->abs(F)F
+    invoke-static {p1}, Ljava/lang/Math;->abs(F)F
 
     .line 18
     .line 19
@@ -549,8 +505,7 @@ return-void
     float-to-double p1, p1
 
     .line 22
-    iget-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mValueThreshold:D
+    iget-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mValueThreshold:D
 
     .line 23
     .line 24
@@ -596,16 +551,14 @@ return-void
     float-to-double v0, p1
 
     .line 7
-    iput-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mDampingRatio:D
+    iput-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mDampingRatio:D
 
     .line 8
     .line 9
     const/4 p1, 0x0
 
     .line 10
-    iput-boolean p1, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mInitialized:Z
+    iput-boolean p1, p0, Landroidx/dynamicanimation/animation/SpringForce;->mInitialized:Z
 return-object p0
 
     .line 13
@@ -618,8 +571,7 @@ return-object p0
 
     .line 16
     .line 17
-    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 18
     .line 19
@@ -633,8 +585,7 @@ return-object p0
     float-to-double v0, p1
 
     .line 2
-    iput-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mFinalPosition:D    
+    iput-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mFinalPosition:D
     return-object p0
 .end method
 
@@ -662,8 +613,7 @@ return-object p0
     float-to-double v0, p1
 
     .line 7
-    invoke-static {v0, v1}, Ljava/lang/Math;
-    ->sqrt(D)D
+    invoke-static {v0, v1}, Ljava/lang/Math;->sqrt(D)D
 
     .line 8
     .line 9
@@ -671,16 +621,14 @@ return-object p0
     move-result-wide v0
 
     .line 11
-    iput-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mNaturalFreq:D
+    iput-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mNaturalFreq:D
 
     .line 12
     .line 13
     const/4 p1, 0x0
 
     .line 14
-    iput-boolean p1, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mInitialized:Z
+    iput-boolean p1, p0, Landroidx/dynamicanimation/animation/SpringForce;->mInitialized:Z
 return-object p0
 
     .line 17
@@ -693,8 +641,7 @@ return-object p0
 
     .line 20
     .line 21
-    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 22
     .line 23
@@ -705,8 +652,7 @@ return-object p0
     .locals 2
 
     .line 1
-    invoke-static {p1, p2}, Ljava/lang/Math;
-    ->abs(D)D
+    invoke-static {p1, p2}, Ljava/lang/Math;->abs(D)D
 
     .line 2
     .line 3
@@ -714,8 +660,7 @@ return-object p0
     move-result-wide p1
 
     .line 5
-    iput-wide p1, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mValueThreshold:D
+    iput-wide p1, p0, Landroidx/dynamicanimation/animation/SpringForce;->mValueThreshold:D
 
     .line 6
     .line 7
@@ -730,8 +675,7 @@ return-object p0
 
     .line 13
     .line 14
-    iput-wide p1, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mVelocityThreshold:D    
+    iput-wide p1, p0, Landroidx/dynamicanimation/animation/SpringForce;->mVelocityThreshold:D
     return-void
 .end method
 
@@ -739,8 +683,7 @@ return-object p0
     .locals 14
 
     .line 1
-    invoke-direct {p0}, Landroidx/dynamicanimation/animation/SpringForce;
-    ->init()V
+    invoke-direct {p0}, Landroidx/dynamicanimation/animation/SpringForce;->init()V
 
     .line 2
     .line 3
@@ -762,8 +705,7 @@ return-object p0
     div-double/2addr v0, v2
 
     .line 13
-    iget-wide v2, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mFinalPosition:D
+    iget-wide v2, p0, Landroidx/dynamicanimation/animation/SpringForce;->mFinalPosition:D
 
     .line 14
     .line 15
@@ -771,8 +713,7 @@ return-object p0
 
     .line 16
     .line 17
-    iget-wide v4, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mDampingRatio:D
+    iget-wide v4, p0, Landroidx/dynamicanimation/animation/SpringForce;->mDampingRatio:D
 
     .line 18
     .line 19
@@ -795,8 +736,7 @@ return-object p0
 
     .line 29
     .line 30
-    iget-wide v4, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mGammaMinus:D
+    iget-wide v4, p0, Landroidx/dynamicanimation/animation/SpringForce;->mGammaMinus:D
 
     .line 31
     .line 32
@@ -808,8 +748,7 @@ return-object p0
 
     .line 35
     .line 36
-    iget-wide v10, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mGammaPlus:D
+    iget-wide v10, p0, Landroidx/dynamicanimation/animation/SpringForce;->mGammaPlus:D
 
     .line 37
     .line 38
@@ -843,8 +782,7 @@ return-object p0
 
     .line 51
     .line 52
-    invoke-static {v6, v7, v4, v5}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v6, v7, v4, v5}, Ljava/lang/Math;->pow(DD)D
 
     .line 53
     .line 54
@@ -856,8 +794,7 @@ return-object p0
 
     .line 57
     .line 58
-    iget-wide v10, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mGammaPlus:D
+    iget-wide v10, p0, Landroidx/dynamicanimation/animation/SpringForce;->mGammaPlus:D
 
     .line 59
     .line 60
@@ -865,8 +802,7 @@ return-object p0
 
     .line 61
     .line 62
-    invoke-static {v6, v7, v10, v11}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v6, v7, v10, v11}, Ljava/lang/Math;->pow(DD)D
 
     .line 63
     .line 64
@@ -881,8 +817,7 @@ return-object p0
     add-double/2addr v10, v4
 
     .line 69
-    iget-wide v4, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mGammaMinus:D
+    iget-wide v4, p0, Landroidx/dynamicanimation/animation/SpringForce;->mGammaMinus:D
 
     .line 70
     .line 71
@@ -894,8 +829,7 @@ return-object p0
 
     .line 74
     .line 75
-    invoke-static {v6, v7, v4, v5}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v6, v7, v4, v5}, Ljava/lang/Math;->pow(DD)D
 
     .line 76
     .line 77
@@ -907,8 +841,7 @@ return-object p0
 
     .line 80
     .line 81
-    iget-wide v8, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mGammaPlus:D
+    iget-wide v8, p0, Landroidx/dynamicanimation/animation/SpringForce;->mGammaPlus:D
 
     .line 82
     .line 83
@@ -920,8 +853,7 @@ return-object p0
 
     .line 86
     .line 87
-    invoke-static {v6, v7, v8, v9}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v6, v7, v8, v9}, Ljava/lang/Math;->pow(DD)D
 
     .line 88
     .line 89
@@ -949,8 +881,7 @@ return-object p0
 
     .line 99
     .line 100
-    iget-wide v4, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mNaturalFreq:D
+    iget-wide v4, p0, Landroidx/dynamicanimation/animation/SpringForce;->mNaturalFreq:D
 
     .line 101
     .line 102
@@ -976,8 +907,7 @@ return-object p0
 
     .line 111
     .line 112
-    invoke-static {v6, v7, v2, v3}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v6, v7, v2, v3}, Ljava/lang/Math;->pow(DD)D
 
     .line 113
     .line 114
@@ -989,8 +919,7 @@ return-object p0
 
     .line 117
     .line 118
-    iget-wide v4, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mNaturalFreq:D
+    iget-wide v4, p0, Landroidx/dynamicanimation/animation/SpringForce;->mNaturalFreq:D
 
     .line 119
     .line 120
@@ -1001,8 +930,7 @@ return-object p0
 
     .line 122
     .line 123
-    invoke-static {v6, v7, v4, v5}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v6, v7, v4, v5}, Ljava/lang/Math;->pow(DD)D
 
     .line 124
     .line 125
@@ -1014,8 +942,7 @@ return-object p0
 
     .line 128
     .line 129
-    iget-wide v10, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mNaturalFreq:D
+    iget-wide v10, p0, Landroidx/dynamicanimation/animation/SpringForce;->mNaturalFreq:D
 
     .line 130
     .line 131
@@ -1033,8 +960,7 @@ return-object p0
 
     .line 136
     .line 137
-    invoke-static {v6, v7, v10, v11}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v6, v7, v10, v11}, Ljava/lang/Math;->pow(DD)D
 
     .line 138
     .line 139
@@ -1056,16 +982,14 @@ return-object p0
 
     .line 146
     :cond_1
-    iget-wide v10, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mDampedFreq:D
+    iget-wide v10, p0, Landroidx/dynamicanimation/animation/SpringForce;->mDampedFreq:D
 
     .line 147
     .line 148
     div-double/2addr v8, v10
 
     .line 149
-    iget-wide v10, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mNaturalFreq:D
+    iget-wide v10, p0, Landroidx/dynamicanimation/animation/SpringForce;->mNaturalFreq:D
 
     .line 150
     .line 151
@@ -1096,8 +1020,7 @@ return-object p0
 
     .line 163
     .line 164
-    invoke-static {v6, v7, v4, v5}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v6, v7, v4, v5}, Ljava/lang/Math;->pow(DD)D
 
     .line 165
     .line 166
@@ -1105,8 +1028,7 @@ return-object p0
     move-result-wide v4
 
     .line 168
-    iget-wide v8, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mDampedFreq:D
+    iget-wide v8, p0, Landroidx/dynamicanimation/animation/SpringForce;->mDampedFreq:D
 
     .line 169
     .line 170
@@ -1114,8 +1036,7 @@ return-object p0
 
     .line 171
     .line 172
-    invoke-static {v8, v9}, Ljava/lang/Math;
-    ->cos(D)D
+    invoke-static {v8, v9}, Ljava/lang/Math;->cos(D)D
 
     .line 173
     .line 174
@@ -1127,8 +1048,7 @@ return-object p0
 
     .line 177
     .line 178
-    iget-wide v10, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mDampedFreq:D
+    iget-wide v10, p0, Landroidx/dynamicanimation/animation/SpringForce;->mDampedFreq:D
 
     .line 179
     .line 180
@@ -1136,8 +1056,7 @@ return-object p0
 
     .line 181
     .line 182
-    invoke-static {v10, v11}, Ljava/lang/Math;
-    ->sin(D)D
+    invoke-static {v10, v11}, Ljava/lang/Math;->sin(D)D
 
     .line 183
     .line 184
@@ -1156,8 +1075,7 @@ return-object p0
 
     .line 190
     .line 191
-    iget-wide v4, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mNaturalFreq:D
+    iget-wide v4, p0, Landroidx/dynamicanimation/animation/SpringForce;->mNaturalFreq:D
 
     .line 192
     .line 193
@@ -1168,8 +1086,7 @@ return-object p0
 
     .line 195
     .line 196
-    iget-wide v6, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mDampingRatio:D
+    iget-wide v6, p0, Landroidx/dynamicanimation/animation/SpringForce;->mDampingRatio:D
 
     .line 197
     .line 198
@@ -1195,8 +1112,7 @@ return-object p0
     .line 208
     .line 209
     .line 210
-    invoke-static {v4, v5, v6, v7}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v4, v5, v6, v7}, Ljava/lang/Math;->pow(DD)D
 
     .line 211
     .line 212
@@ -1204,8 +1120,7 @@ return-object p0
     move-result-wide v4
 
     .line 214
-    iget-wide v6, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mDampedFreq:D
+    iget-wide v6, p0, Landroidx/dynamicanimation/animation/SpringForce;->mDampedFreq:D
 
     .line 215
     .line 216
@@ -1224,8 +1139,7 @@ return-object p0
 
     .line 222
     .line 223
-    invoke-static {v6, v7}, Ljava/lang/Math;
-    ->sin(D)D
+    invoke-static {v6, v7}, Ljava/lang/Math;->sin(D)D
 
     .line 224
     .line 225
@@ -1237,8 +1151,7 @@ return-object p0
 
     .line 228
     .line 229
-    iget-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mDampedFreq:D
+    iget-wide v0, p0, Landroidx/dynamicanimation/animation/SpringForce;->mDampedFreq:D
 
     .line 230
     .line 231
@@ -1250,8 +1163,7 @@ return-object p0
 
     .line 234
     .line 235
-    invoke-static {v0, v1}, Ljava/lang/Math;
-    ->cos(D)D
+    invoke-static {v0, v1}, Ljava/lang/Math;->cos(D)D
 
     .line 236
     .line 237
@@ -1274,13 +1186,11 @@ return-object p0
 
     .line 245
     :goto_0
-    iget-object v2, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mMassState:Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
+    iget-object v2, p0, Landroidx/dynamicanimation/animation/SpringForce;->mMassState:Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
 
     .line 246
     .line 247
-    iget-wide v3, p0, Landroidx/dynamicanimation/animation/SpringForce;
-    ->mFinalPosition:D
+    iget-wide v3, p0, Landroidx/dynamicanimation/animation/SpringForce;->mFinalPosition:D
 
     .line 248
     .line 249
@@ -1290,16 +1200,14 @@ return-object p0
     double-to-float v3, v10
 
     .line 251
-    iput v3, v2, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
-    ->mValue:F
+    iput v3, v2, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;->mValue:F
 
     .line 252
     .line 253
     double-to-float v0, v0
 
     .line 254
-    iput v0, v2, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
-    ->mVelocity:F    
+    iput v0, v2, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;->mVelocity:F
     return-object v2
 .end method
 

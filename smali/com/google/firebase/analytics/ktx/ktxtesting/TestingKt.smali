@@ -28,8 +28,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -38,14 +37,12 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-static {}, Lcom/google/firebase/analytics/ktx/AnalyticsKt;
-    ->getLOCK()Ljava/lang/Object;
+    invoke-static {}, Lcom/google/firebase/analytics/ktx/AnalyticsKt;->getLOCK()Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -57,8 +54,7 @@
 
     .line 16
     :try_start_0
-    invoke-static {}, Lcom/google/firebase/analytics/ktx/AnalyticsKt;
-    ->getANALYTICS()Lcom/google/firebase/analytics/FirebaseAnalytics;
+    invoke-static {}, Lcom/google/firebase/analytics/ktx/AnalyticsKt;->getANALYTICS()Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     .line 17
     .line 18
@@ -66,8 +62,7 @@
     move-result-object v1
 
     .line 20
-    invoke-static {p0}, Lcom/google/firebase/analytics/ktx/AnalyticsKt;
-    ->setANALYTICS(Lcom/google/firebase/analytics/FirebaseAnalytics;)V
+    invoke-static {p0}, Lcom/google/firebase/analytics/ktx/AnalyticsKt;->setANALYTICS(Lcom/google/firebase/analytics/FirebaseAnalytics;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -75,8 +70,7 @@
     .line 22
     .line 23
     :try_start_1
-    invoke-interface {p1}, Lp1/a;
-    ->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lp1/a;->invoke()Ljava/lang/Object;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
@@ -84,8 +78,7 @@
     .line 25
     .line 26
     :try_start_2
-    invoke-static {v1}, Lcom/google/firebase/analytics/ktx/AnalyticsKt;
-    ->setANALYTICS(Lcom/google/firebase/analytics/FirebaseAnalytics;)V
+    invoke-static {v1}, Lcom/google/firebase/analytics/ktx/AnalyticsKt;->setANALYTICS(Lcom/google/firebase/analytics/FirebaseAnalytics;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
@@ -109,8 +102,7 @@
 
     .line 34
     :try_start_3
-    invoke-static {v1}, Lcom/google/firebase/analytics/ktx/AnalyticsKt;
-    ->setANALYTICS(Lcom/google/firebase/analytics/FirebaseAnalytics;)V
+    invoke-static {v1}, Lcom/google/firebase/analytics/ktx/AnalyticsKt;->setANALYTICS(Lcom/google/firebase/analytics/FirebaseAnalytics;)V
 
     .line 35
     .line 36

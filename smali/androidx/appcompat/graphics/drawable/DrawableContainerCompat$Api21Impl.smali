@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -32,8 +31,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable$ConstantState;
-    ->canApplyTheme()Z
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable$ConstantState;->canApplyTheme()Z
 
     .line 2
     .line 3
@@ -47,8 +45,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/graphics/drawable/Drawable;
-    ->getOutline(Landroid/graphics/Outline;)V
+    invoke-virtual {p0, p1}, Landroid/graphics/drawable/Drawable;->getOutline(Landroid/graphics/Outline;)V
 return-void
 .end method
 
@@ -56,8 +53,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/res/Resources$Theme;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/content/res/Resources$Theme;->getResources()Landroid/content/res/Resources;
 
     .line 2
     .line 3

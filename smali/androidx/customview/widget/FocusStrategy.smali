@@ -18,8 +18,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -39,8 +38,7 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/customview/widget/FocusStrategy;
-    ->beamsOverlap(ILandroid/graphics/Rect;Landroid/graphics/Rect;)Z
+    invoke-static {p0, p1, p2}, Landroidx/customview/widget/FocusStrategy;->beamsOverlap(ILandroid/graphics/Rect;Landroid/graphics/Rect;)Z
 
     .line 2
     .line 3
@@ -48,8 +46,7 @@
     move-result v0
 
     .line 5
-    invoke-static {p0, p1, p3}, Landroidx/customview/widget/FocusStrategy;
-    ->beamsOverlap(ILandroid/graphics/Rect;Landroid/graphics/Rect;)Z
+    invoke-static {p0, p1, p3}, Landroidx/customview/widget/FocusStrategy;->beamsOverlap(ILandroid/graphics/Rect;Landroid/graphics/Rect;)Z
 
     .line 6
     .line 7
@@ -72,8 +69,7 @@
 
     .line 15
     :cond_0
-    invoke-static {p0, p1, p3}, Landroidx/customview/widget/FocusStrategy;
-    ->isToDirectionOf(ILandroid/graphics/Rect;Landroid/graphics/Rect;)Z
+    invoke-static {p0, p1, p3}, Landroidx/customview/widget/FocusStrategy;->isToDirectionOf(ILandroid/graphics/Rect;Landroid/graphics/Rect;)Z
 
     .line 16
     .line 17
@@ -108,8 +104,7 @@
 
     .line 32
     :cond_2
-    invoke-static {p0, p1, p2}, Landroidx/customview/widget/FocusStrategy;
-    ->majorAxisDistance(ILandroid/graphics/Rect;Landroid/graphics/Rect;)I
+    invoke-static {p0, p1, p2}, Landroidx/customview/widget/FocusStrategy;->majorAxisDistance(ILandroid/graphics/Rect;Landroid/graphics/Rect;)I
 
     .line 33
     .line 34
@@ -117,8 +112,7 @@
     move-result p2
 
     .line 36
-    invoke-static {p0, p1, p3}, Landroidx/customview/widget/FocusStrategy;
-    ->majorAxisDistanceToFarEdge(ILandroid/graphics/Rect;Landroid/graphics/Rect;)I
+    invoke-static {p0, p1, p3}, Landroidx/customview/widget/FocusStrategy;->majorAxisDistanceToFarEdge(ILandroid/graphics/Rect;Landroid/graphics/Rect;)I
 
     .line 37
     .line 38
@@ -205,8 +199,7 @@
 
     .line 23
     .line 24
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 25
     .line 26
@@ -216,13 +209,11 @@
     .line 28
     :cond_1
     :goto_0
-    iget p0, p2, Landroid/graphics/Rect;
-    ->right:I
+    iget p0, p2, Landroid/graphics/Rect;->right:I
 
     .line 29
     .line 30
-    iget v0, p1, Landroid/graphics/Rect;
-    ->left:I
+    iget v0, p1, Landroid/graphics/Rect;->left:I
 
     .line 31
     .line 32
@@ -230,13 +221,11 @@
 
     .line 33
     .line 34
-    iget p0, p2, Landroid/graphics/Rect;
-    ->left:I
+    iget p0, p2, Landroid/graphics/Rect;->left:I
 
     .line 35
     .line 36
-    iget p1, p1, Landroid/graphics/Rect;
-    ->right:I
+    iget p1, p1, Landroid/graphics/Rect;->right:I
 
     .line 37
     .line 38
@@ -248,13 +237,11 @@
 
     .line 42
     :cond_3
-    iget p0, p2, Landroid/graphics/Rect;
-    ->bottom:I
+    iget p0, p2, Landroid/graphics/Rect;->bottom:I
 
     .line 43
     .line 44
-    iget v0, p1, Landroid/graphics/Rect;
-    ->top:I
+    iget v0, p1, Landroid/graphics/Rect;->top:I
 
     .line 45
     .line 46
@@ -262,13 +249,11 @@
 
     .line 47
     .line 48
-    iget p0, p2, Landroid/graphics/Rect;
-    ->top:I
+    iget p0, p2, Landroid/graphics/Rect;->top:I
 
     .line 49
     .line 50
-    iget p1, p1, Landroid/graphics/Rect;
-    ->bottom:I
+    iget p1, p1, Landroid/graphics/Rect;->bottom:I
 
     .line 51
     .line 52
@@ -325,8 +310,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p4}, Landroid/graphics/Rect;
-    -><init>(Landroid/graphics/Rect;)V
+    invoke-direct {v0, p4}, Landroid/graphics/Rect;-><init>(Landroid/graphics/Rect;)V
 
     .line 4
     .line 5
@@ -366,8 +350,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {p4}, Landroid/graphics/Rect;
-    ->height()I
+    invoke-virtual {p4}, Landroid/graphics/Rect;->height()I
 
     .line 24
     .line 25
@@ -382,8 +365,7 @@
     neg-int v1, v1
 
     .line 30
-    invoke-virtual {v0, v2, v1}, Landroid/graphics/Rect;
-    ->offset(II)V
+    invoke-virtual {v0, v2, v1}, Landroid/graphics/Rect;->offset(II)V
 
     .line 31
     .line 32
@@ -400,8 +382,7 @@
 
     .line 37
     .line 38
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 39
     .line 40
@@ -410,8 +391,7 @@
 
     .line 42
     :cond_1
-    invoke-virtual {p4}, Landroid/graphics/Rect;
-    ->width()I
+    invoke-virtual {p4}, Landroid/graphics/Rect;->width()I
 
     .line 43
     .line 44
@@ -426,8 +406,7 @@
     neg-int v1, v1
 
     .line 49
-    invoke-virtual {v0, v1, v2}, Landroid/graphics/Rect;
-    ->offset(II)V
+    invoke-virtual {v0, v1, v2}, Landroid/graphics/Rect;->offset(II)V
 
     .line 50
     .line 51
@@ -436,8 +415,7 @@
 
     .line 53
     :cond_2
-    invoke-virtual {p4}, Landroid/graphics/Rect;
-    ->height()I
+    invoke-virtual {p4}, Landroid/graphics/Rect;->height()I
 
     .line 54
     .line 55
@@ -449,8 +427,7 @@
 
     .line 58
     .line 59
-    invoke-virtual {v0, v2, v1}, Landroid/graphics/Rect;
-    ->offset(II)V
+    invoke-virtual {v0, v2, v1}, Landroid/graphics/Rect;->offset(II)V
 
     .line 60
     .line 61
@@ -459,8 +436,7 @@
 
     .line 63
     :cond_3
-    invoke-virtual {p4}, Landroid/graphics/Rect;
-    ->width()I
+    invoke-virtual {p4}, Landroid/graphics/Rect;->width()I
 
     .line 64
     .line 65
@@ -472,15 +448,13 @@
 
     .line 68
     .line 69
-    invoke-virtual {v0, v1, v2}, Landroid/graphics/Rect;
-    ->offset(II)V
+    invoke-virtual {v0, v1, v2}, Landroid/graphics/Rect;->offset(II)V
 
     .line 70
     .line 71
     .line 72
     :goto_0
-    invoke-interface {p1, p0}, Landroidx/customview/widget/FocusStrategy$CollectionAdapter;
-    ->size(Ljava/lang/Object;)I
+    invoke-interface {p1, p0}, Landroidx/customview/widget/FocusStrategy$CollectionAdapter;->size(Ljava/lang/Object;)I
 
     .line 73
     .line 74
@@ -492,8 +466,7 @@
 
     .line 77
     .line 78
-    invoke-direct {v3}, Landroid/graphics/Rect;
-    -><init>()V
+    invoke-direct {v3}, Landroid/graphics/Rect;-><init>()V
 
     .line 79
     .line 80
@@ -506,8 +479,7 @@
 
     .line 83
     .line 84
-    invoke-interface {p1, p0, v2}, Landroidx/customview/widget/FocusStrategy$CollectionAdapter;
-    ->get(Ljava/lang/Object;I)Ljava/lang/Object;
+    invoke-interface {p1, p0, v2}, Landroidx/customview/widget/FocusStrategy$CollectionAdapter;->get(Ljava/lang/Object;I)Ljava/lang/Object;
 
     .line 85
     .line 86
@@ -523,14 +495,12 @@
 
     .line 91
     :cond_4
-    invoke-interface {p2, v5, v3}, Landroidx/customview/widget/FocusStrategy$BoundsAdapter;
-    ->obtainBounds(Ljava/lang/Object;Landroid/graphics/Rect;)V
+    invoke-interface {p2, v5, v3}, Landroidx/customview/widget/FocusStrategy$BoundsAdapter;->obtainBounds(Ljava/lang/Object;Landroid/graphics/Rect;)V
 
     .line 92
     .line 93
     .line 94
-    invoke-static {p5, p4, v3, v0}, Landroidx/customview/widget/FocusStrategy;
-    ->isBetterCandidate(ILandroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Rect;)Z
+    invoke-static {p5, p4, v3, v0}, Landroidx/customview/widget/FocusStrategy;->isBetterCandidate(ILandroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Rect;)Z
 
     .line 95
     .line 96
@@ -542,8 +512,7 @@
 
     .line 99
     .line 100
-    invoke-virtual {v0, v3}, Landroid/graphics/Rect;
-    ->set(Landroid/graphics/Rect;)V
+    invoke-virtual {v0, v3}, Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V
 
     .line 101
     .line 102
@@ -600,8 +569,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p1, p0}, Landroidx/customview/widget/FocusStrategy$CollectionAdapter;
-    ->size(Ljava/lang/Object;)I
+    invoke-interface {p1, p0}, Landroidx/customview/widget/FocusStrategy$CollectionAdapter;->size(Ljava/lang/Object;)I
 
     .line 2
     .line 3
@@ -613,8 +581,7 @@
 
     .line 6
     .line 7
-    invoke-direct {v1, v0}, Ljava/util/ArrayList;
-    -><init>(I)V
+    invoke-direct {v1, v0}, Ljava/util/ArrayList;-><init>(I)V
 
     .line 8
     .line 9
@@ -627,8 +594,7 @@
 
     .line 12
     .line 13
-    invoke-interface {p1, p0, v2}, Landroidx/customview/widget/FocusStrategy$CollectionAdapter;
-    ->get(Ljava/lang/Object;I)Ljava/lang/Object;
+    invoke-interface {p1, p0, v2}, Landroidx/customview/widget/FocusStrategy$CollectionAdapter;->get(Ljava/lang/Object;I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -636,8 +602,7 @@
     move-result-object v3
 
     .line 17
-    invoke-virtual {v1, v3}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 18
     .line 19
@@ -654,14 +619,12 @@
 
     .line 24
     .line 25
-    invoke-direct {p0, p5, p2}, Landroidx/customview/widget/FocusStrategy$SequentialComparator;
-    -><init>(ZLandroidx/customview/widget/FocusStrategy$BoundsAdapter;)V
+    invoke-direct {p0, p5, p2}, Landroidx/customview/widget/FocusStrategy$SequentialComparator;-><init>(ZLandroidx/customview/widget/FocusStrategy$BoundsAdapter;)V
 
     .line 26
     .line 27
     .line 28
-    invoke-static {v1, p0}, Ljava/util/Collections;
-    ->sort(Ljava/util/List;Ljava/util/Comparator;)V
+    invoke-static {v1, p0}, Ljava/util/Collections;->sort(Ljava/util/List;Ljava/util/Comparator;)V
 
     .line 29
     .line 30
@@ -680,8 +643,7 @@
 
     .line 36
     .line 37
-    invoke-static {p3, v1, p6}, Landroidx/customview/widget/FocusStrategy;
-    ->getNextFocusable(Ljava/lang/Object;Ljava/util/ArrayList;Z)Ljava/lang/Object;
+    invoke-static {p3, v1, p6}, Landroidx/customview/widget/FocusStrategy;->getNextFocusable(Ljava/lang/Object;Ljava/util/ArrayList;Z)Ljava/lang/Object;
 
     .line 38
     .line 39
@@ -700,8 +662,7 @@
 
     .line 45
     .line 46
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 47
     .line 48
@@ -710,8 +671,7 @@
 
     .line 50
     :cond_2
-    invoke-static {p3, v1, p6}, Landroidx/customview/widget/FocusStrategy;
-    ->getPreviousFocusable(Ljava/lang/Object;Ljava/util/ArrayList;Z)Ljava/lang/Object;
+    invoke-static {p3, v1, p6}, Landroidx/customview/widget/FocusStrategy;->getPreviousFocusable(Ljava/lang/Object;Ljava/util/ArrayList;Z)Ljava/lang/Object;
 
     .line 51
     .line 52
@@ -734,8 +694,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
 
     .line 2
     .line 3
@@ -754,8 +713,7 @@
 
     .line 9
     :cond_0
-    invoke-virtual {p1, p0}, Ljava/util/ArrayList;
-    ->lastIndexOf(Ljava/lang/Object;)I
+    invoke-virtual {p1, p0}, Ljava/util/ArrayList;->lastIndexOf(Ljava/lang/Object;)I
 
     .line 10
     .line 11
@@ -772,8 +730,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p1, p0}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {p1, p0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -795,8 +752,7 @@
     const/4 p0, 0x0
 
     .line 27
-    invoke-virtual {p1, p0}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {p1, p0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -825,8 +781,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
 
     .line 2
     .line 3
@@ -845,8 +800,7 @@
 
     .line 9
     :cond_0
-    invoke-virtual {p1, p0}, Ljava/util/ArrayList;
-    ->indexOf(Ljava/lang/Object;)I
+    invoke-virtual {p1, p0}, Ljava/util/ArrayList;->indexOf(Ljava/lang/Object;)I
 
     .line 10
     .line 11
@@ -863,8 +817,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p1, p0}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {p1, p0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -887,8 +840,7 @@
 
     .line 27
     .line 28
-    invoke-virtual {p1, v0}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {p1, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 29
     .line 30
@@ -934,8 +886,7 @@
     .end param
 
     .line 1
-    invoke-static {p1, p2, p0}, Landroidx/customview/widget/FocusStrategy;
-    ->isCandidate(Landroid/graphics/Rect;Landroid/graphics/Rect;I)Z
+    invoke-static {p1, p2, p0}, Landroidx/customview/widget/FocusStrategy;->isCandidate(Landroid/graphics/Rect;Landroid/graphics/Rect;I)Z
 
     .line 2
     .line 3
@@ -950,8 +901,7 @@
 
     .line 9
     :cond_0
-    invoke-static {p1, p3, p0}, Landroidx/customview/widget/FocusStrategy;
-    ->isCandidate(Landroid/graphics/Rect;Landroid/graphics/Rect;I)Z
+    invoke-static {p1, p3, p0}, Landroidx/customview/widget/FocusStrategy;->isCandidate(Landroid/graphics/Rect;Landroid/graphics/Rect;I)Z
 
     .line 10
     .line 11
@@ -966,8 +916,7 @@
 
     .line 17
     :cond_1
-    invoke-static {p0, p1, p2, p3}, Landroidx/customview/widget/FocusStrategy;
-    ->beamBeats(ILandroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Rect;)Z
+    invoke-static {p0, p1, p2, p3}, Landroidx/customview/widget/FocusStrategy;->beamBeats(ILandroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Rect;)Z
 
     .line 18
     .line 19
@@ -979,8 +928,7 @@
 
     .line 24
     :cond_2
-    invoke-static {p0, p1, p3, p2}, Landroidx/customview/widget/FocusStrategy;
-    ->beamBeats(ILandroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Rect;)Z
+    invoke-static {p0, p1, p3, p2}, Landroidx/customview/widget/FocusStrategy;->beamBeats(ILandroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Rect;)Z
 
     .line 25
     .line 26
@@ -992,8 +940,7 @@
 
     .line 31
     :cond_3
-    invoke-static {p0, p1, p2}, Landroidx/customview/widget/FocusStrategy;
-    ->majorAxisDistance(ILandroid/graphics/Rect;Landroid/graphics/Rect;)I
+    invoke-static {p0, p1, p2}, Landroidx/customview/widget/FocusStrategy;->majorAxisDistance(ILandroid/graphics/Rect;Landroid/graphics/Rect;)I
 
     .line 32
     .line 33
@@ -1001,8 +948,7 @@
     move-result v0
 
     .line 35
-    invoke-static {p0, p1, p2}, Landroidx/customview/widget/FocusStrategy;
-    ->minorAxisDistance(ILandroid/graphics/Rect;Landroid/graphics/Rect;)I
+    invoke-static {p0, p1, p2}, Landroidx/customview/widget/FocusStrategy;->minorAxisDistance(ILandroid/graphics/Rect;Landroid/graphics/Rect;)I
 
     .line 36
     .line 37
@@ -1010,8 +956,7 @@
     move-result p2
 
     .line 39
-    invoke-static {v0, p2}, Landroidx/customview/widget/FocusStrategy;
-    ->getWeightedDistanceFor(II)I
+    invoke-static {v0, p2}, Landroidx/customview/widget/FocusStrategy;->getWeightedDistanceFor(II)I
 
     .line 40
     .line 41
@@ -1019,8 +964,7 @@
     move-result p2
 
     .line 43
-    invoke-static {p0, p1, p3}, Landroidx/customview/widget/FocusStrategy;
-    ->majorAxisDistance(ILandroid/graphics/Rect;Landroid/graphics/Rect;)I
+    invoke-static {p0, p1, p3}, Landroidx/customview/widget/FocusStrategy;->majorAxisDistance(ILandroid/graphics/Rect;Landroid/graphics/Rect;)I
 
     .line 44
     .line 45
@@ -1028,8 +972,7 @@
     move-result v0
 
     .line 47
-    invoke-static {p0, p1, p3}, Landroidx/customview/widget/FocusStrategy;
-    ->minorAxisDistance(ILandroid/graphics/Rect;Landroid/graphics/Rect;)I
+    invoke-static {p0, p1, p3}, Landroidx/customview/widget/FocusStrategy;->minorAxisDistance(ILandroid/graphics/Rect;Landroid/graphics/Rect;)I
 
     .line 48
     .line 49
@@ -1037,8 +980,7 @@
     move-result p0
 
     .line 51
-    invoke-static {v0, p0}, Landroidx/customview/widget/FocusStrategy;
-    ->getWeightedDistanceFor(II)I
+    invoke-static {v0, p0}, Landroidx/customview/widget/FocusStrategy;->getWeightedDistanceFor(II)I
 
     .line 52
     .line 53
@@ -1103,13 +1045,11 @@
 
     .line 18
     .line 19
-    iget p2, p0, Landroid/graphics/Rect;
-    ->top:I
+    iget p2, p0, Landroid/graphics/Rect;->top:I
 
     .line 20
     .line 21
-    iget v0, p1, Landroid/graphics/Rect;
-    ->top:I
+    iget v0, p1, Landroid/graphics/Rect;->top:I
 
     .line 22
     .line 23
@@ -1117,8 +1057,7 @@
 
     .line 24
     .line 25
-    iget p2, p0, Landroid/graphics/Rect;
-    ->bottom:I
+    iget p2, p0, Landroid/graphics/Rect;->bottom:I
 
     .line 26
     .line 27
@@ -1127,13 +1066,11 @@
     .line 28
     .line 29
     :cond_0
-    iget p0, p0, Landroid/graphics/Rect;
-    ->bottom:I
+    iget p0, p0, Landroid/graphics/Rect;->bottom:I
 
     .line 30
     .line 31
-    iget p1, p1, Landroid/graphics/Rect;
-    ->bottom:I
+    iget p1, p1, Landroid/graphics/Rect;->bottom:I
 
     .line 32
     .line 33
@@ -1153,8 +1090,7 @@
 
     .line 40
     .line 41
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 42
     .line 43
@@ -1163,13 +1099,11 @@
 
     .line 45
     :cond_3
-    iget p2, p0, Landroid/graphics/Rect;
-    ->left:I
+    iget p2, p0, Landroid/graphics/Rect;->left:I
 
     .line 46
     .line 47
-    iget v0, p1, Landroid/graphics/Rect;
-    ->left:I
+    iget v0, p1, Landroid/graphics/Rect;->left:I
 
     .line 48
     .line 49
@@ -1177,8 +1111,7 @@
 
     .line 50
     .line 51
-    iget p2, p0, Landroid/graphics/Rect;
-    ->right:I
+    iget p2, p0, Landroid/graphics/Rect;->right:I
 
     .line 52
     .line 53
@@ -1187,13 +1120,11 @@
     .line 54
     .line 55
     :cond_4
-    iget p0, p0, Landroid/graphics/Rect;
-    ->right:I
+    iget p0, p0, Landroid/graphics/Rect;->right:I
 
     .line 56
     .line 57
-    iget p1, p1, Landroid/graphics/Rect;
-    ->right:I
+    iget p1, p1, Landroid/graphics/Rect;->right:I
 
     .line 58
     .line 59
@@ -1205,13 +1136,11 @@
 
     .line 63
     :cond_6
-    iget p2, p0, Landroid/graphics/Rect;
-    ->bottom:I
+    iget p2, p0, Landroid/graphics/Rect;->bottom:I
 
     .line 64
     .line 65
-    iget v0, p1, Landroid/graphics/Rect;
-    ->bottom:I
+    iget v0, p1, Landroid/graphics/Rect;->bottom:I
 
     .line 66
     .line 67
@@ -1219,8 +1148,7 @@
 
     .line 68
     .line 69
-    iget p2, p0, Landroid/graphics/Rect;
-    ->top:I
+    iget p2, p0, Landroid/graphics/Rect;->top:I
 
     .line 70
     .line 71
@@ -1229,13 +1157,11 @@
     .line 72
     .line 73
     :cond_7
-    iget p0, p0, Landroid/graphics/Rect;
-    ->top:I
+    iget p0, p0, Landroid/graphics/Rect;->top:I
 
     .line 74
     .line 75
-    iget p1, p1, Landroid/graphics/Rect;
-    ->top:I
+    iget p1, p1, Landroid/graphics/Rect;->top:I
 
     .line 76
     .line 77
@@ -1247,13 +1173,11 @@
 
     .line 81
     :cond_9
-    iget p2, p0, Landroid/graphics/Rect;
-    ->right:I
+    iget p2, p0, Landroid/graphics/Rect;->right:I
 
     .line 82
     .line 83
-    iget v0, p1, Landroid/graphics/Rect;
-    ->right:I
+    iget v0, p1, Landroid/graphics/Rect;->right:I
 
     .line 84
     .line 85
@@ -1261,8 +1185,7 @@
 
     .line 86
     .line 87
-    iget p2, p0, Landroid/graphics/Rect;
-    ->left:I
+    iget p2, p0, Landroid/graphics/Rect;->left:I
 
     .line 88
     .line 89
@@ -1271,13 +1194,11 @@
     .line 90
     .line 91
     :cond_a
-    iget p0, p0, Landroid/graphics/Rect;
-    ->left:I
+    iget p0, p0, Landroid/graphics/Rect;->left:I
 
     .line 92
     .line 93
-    iget p1, p1, Landroid/graphics/Rect;
-    ->left:I
+    iget p1, p1, Landroid/graphics/Rect;->left:I
 
     .line 94
     .line 95
@@ -1338,13 +1259,11 @@
 
     .line 18
     .line 19
-    iget p0, p1, Landroid/graphics/Rect;
-    ->bottom:I
+    iget p0, p1, Landroid/graphics/Rect;->bottom:I
 
     .line 20
     .line 21
-    iget p1, p2, Landroid/graphics/Rect;
-    ->top:I
+    iget p1, p2, Landroid/graphics/Rect;->top:I
 
     .line 22
     .line 23
@@ -1364,8 +1283,7 @@
 
     .line 30
     .line 31
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 32
     .line 33
@@ -1374,13 +1292,11 @@
 
     .line 35
     :cond_2
-    iget p0, p1, Landroid/graphics/Rect;
-    ->right:I
+    iget p0, p1, Landroid/graphics/Rect;->right:I
 
     .line 36
     .line 37
-    iget p1, p2, Landroid/graphics/Rect;
-    ->left:I
+    iget p1, p2, Landroid/graphics/Rect;->left:I
 
     .line 38
     .line 39
@@ -1392,13 +1308,11 @@
 
     .line 43
     :cond_4
-    iget p0, p1, Landroid/graphics/Rect;
-    ->top:I
+    iget p0, p1, Landroid/graphics/Rect;->top:I
 
     .line 44
     .line 45
-    iget p1, p2, Landroid/graphics/Rect;
-    ->bottom:I
+    iget p1, p2, Landroid/graphics/Rect;->bottom:I
 
     .line 46
     .line 47
@@ -1410,13 +1324,11 @@
 
     .line 51
     :cond_6
-    iget p0, p1, Landroid/graphics/Rect;
-    ->left:I
+    iget p0, p1, Landroid/graphics/Rect;->left:I
 
     .line 52
     .line 53
-    iget p1, p2, Landroid/graphics/Rect;
-    ->right:I
+    iget p1, p2, Landroid/graphics/Rect;->right:I
 
     .line 54
     .line 55
@@ -1442,8 +1354,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-static {p0, p1, p2}, Landroidx/customview/widget/FocusStrategy;
-    ->majorAxisDistanceRaw(ILandroid/graphics/Rect;Landroid/graphics/Rect;)I
+    invoke-static {p0, p1, p2}, Landroidx/customview/widget/FocusStrategy;->majorAxisDistanceRaw(ILandroid/graphics/Rect;Landroid/graphics/Rect;)I
 
     .line 3
     .line 4
@@ -1451,8 +1362,7 @@
     move-result p0
 
     .line 6
-    invoke-static {v0, p0}, Ljava/lang/Math;
-    ->max(II)I
+    invoke-static {v0, p0}, Ljava/lang/Math;->max(II)I
 
     .line 7
     .line 8
@@ -1506,13 +1416,11 @@
 
     .line 16
     .line 17
-    iget p0, p2, Landroid/graphics/Rect;
-    ->top:I
+    iget p0, p2, Landroid/graphics/Rect;->top:I
 
     .line 18
     .line 19
-    iget p1, p1, Landroid/graphics/Rect;
-    ->bottom:I
+    iget p1, p1, Landroid/graphics/Rect;->bottom:I
 
     .line 20
     .line 21
@@ -1531,8 +1439,7 @@
 
     .line 26
     .line 27
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 28
     .line 29
@@ -1541,13 +1448,11 @@
 
     .line 31
     :cond_1
-    iget p0, p2, Landroid/graphics/Rect;
-    ->left:I
+    iget p0, p2, Landroid/graphics/Rect;->left:I
 
     .line 32
     .line 33
-    iget p1, p1, Landroid/graphics/Rect;
-    ->right:I
+    iget p1, p1, Landroid/graphics/Rect;->right:I
 
     .line 34
     .line 35
@@ -1555,13 +1460,11 @@
 
     .line 36
     :cond_2
-    iget p0, p1, Landroid/graphics/Rect;
-    ->top:I
+    iget p0, p1, Landroid/graphics/Rect;->top:I
 
     .line 37
     .line 38
-    iget p1, p2, Landroid/graphics/Rect;
-    ->bottom:I
+    iget p1, p2, Landroid/graphics/Rect;->bottom:I
 
     .line 39
     .line 40
@@ -1569,13 +1472,11 @@
 
     .line 41
     :cond_3
-    iget p0, p1, Landroid/graphics/Rect;
-    ->left:I
+    iget p0, p1, Landroid/graphics/Rect;->left:I
 
     .line 42
     .line 43
-    iget p1, p2, Landroid/graphics/Rect;
-    ->right:I
+    iget p1, p2, Landroid/graphics/Rect;->right:I
 
     .line 44
     .line 45
@@ -1596,8 +1497,7 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-static {p0, p1, p2}, Landroidx/customview/widget/FocusStrategy;
-    ->majorAxisDistanceToFarEdgeRaw(ILandroid/graphics/Rect;Landroid/graphics/Rect;)I
+    invoke-static {p0, p1, p2}, Landroidx/customview/widget/FocusStrategy;->majorAxisDistanceToFarEdgeRaw(ILandroid/graphics/Rect;Landroid/graphics/Rect;)I
 
     .line 3
     .line 4
@@ -1605,8 +1505,7 @@
     move-result p0
 
     .line 6
-    invoke-static {v0, p0}, Ljava/lang/Math;
-    ->max(II)I
+    invoke-static {v0, p0}, Ljava/lang/Math;->max(II)I
 
     .line 7
     .line 8
@@ -1660,13 +1559,11 @@
 
     .line 16
     .line 17
-    iget p0, p2, Landroid/graphics/Rect;
-    ->bottom:I
+    iget p0, p2, Landroid/graphics/Rect;->bottom:I
 
     .line 18
     .line 19
-    iget p1, p1, Landroid/graphics/Rect;
-    ->bottom:I
+    iget p1, p1, Landroid/graphics/Rect;->bottom:I
 
     .line 20
     .line 21
@@ -1685,8 +1582,7 @@
 
     .line 26
     .line 27
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 28
     .line 29
@@ -1695,13 +1591,11 @@
 
     .line 31
     :cond_1
-    iget p0, p2, Landroid/graphics/Rect;
-    ->right:I
+    iget p0, p2, Landroid/graphics/Rect;->right:I
 
     .line 32
     .line 33
-    iget p1, p1, Landroid/graphics/Rect;
-    ->right:I
+    iget p1, p1, Landroid/graphics/Rect;->right:I
 
     .line 34
     .line 35
@@ -1709,13 +1603,11 @@
 
     .line 36
     :cond_2
-    iget p0, p1, Landroid/graphics/Rect;
-    ->top:I
+    iget p0, p1, Landroid/graphics/Rect;->top:I
 
     .line 37
     .line 38
-    iget p1, p2, Landroid/graphics/Rect;
-    ->top:I
+    iget p1, p2, Landroid/graphics/Rect;->top:I
 
     .line 39
     .line 40
@@ -1723,13 +1615,11 @@
 
     .line 41
     :cond_3
-    iget p0, p1, Landroid/graphics/Rect;
-    ->left:I
+    iget p0, p1, Landroid/graphics/Rect;->left:I
 
     .line 42
     .line 43
-    iget p1, p2, Landroid/graphics/Rect;
-    ->left:I
+    iget p1, p2, Landroid/graphics/Rect;->left:I
 
     .line 44
     .line 45
@@ -1791,8 +1681,7 @@
 
     .line 21
     .line 22
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 23
     .line 24
@@ -1802,13 +1691,11 @@
     .line 26
     :cond_1
     :goto_0
-    iget p0, p1, Landroid/graphics/Rect;
-    ->left:I
+    iget p0, p1, Landroid/graphics/Rect;->left:I
 
     .line 27
     .line 28
-    invoke-virtual {p1}, Landroid/graphics/Rect;
-    ->width()I
+    invoke-virtual {p1}, Landroid/graphics/Rect;->width()I
 
     .line 29
     .line 30
@@ -1823,13 +1710,11 @@
     add-int/2addr p1, p0
 
     .line 35
-    iget p0, p2, Landroid/graphics/Rect;
-    ->left:I
+    iget p0, p2, Landroid/graphics/Rect;->left:I
 
     .line 36
     .line 37
-    invoke-virtual {p2}, Landroid/graphics/Rect;
-    ->width()I
+    invoke-virtual {p2}, Landroid/graphics/Rect;->width()I
 
     .line 38
     .line 39
@@ -1847,8 +1732,7 @@
     sub-int/2addr p1, p2
 
     .line 45
-    invoke-static {p1}, Ljava/lang/Math;
-    ->abs(I)I
+    invoke-static {p1}, Ljava/lang/Math;->abs(I)I
 
     .line 46
     .line 47
@@ -1859,13 +1743,11 @@
 
     .line 50
     :cond_2
-    iget p0, p1, Landroid/graphics/Rect;
-    ->top:I
+    iget p0, p1, Landroid/graphics/Rect;->top:I
 
     .line 51
     .line 52
-    invoke-virtual {p1}, Landroid/graphics/Rect;
-    ->height()I
+    invoke-virtual {p1}, Landroid/graphics/Rect;->height()I
 
     .line 53
     .line 54
@@ -1880,13 +1762,11 @@
     add-int/2addr p1, p0
 
     .line 59
-    iget p0, p2, Landroid/graphics/Rect;
-    ->top:I
+    iget p0, p2, Landroid/graphics/Rect;->top:I
 
     .line 60
     .line 61
-    invoke-virtual {p2}, Landroid/graphics/Rect;
-    ->height()I
+    invoke-virtual {p2}, Landroid/graphics/Rect;->height()I
 
     .line 62
     .line 63
@@ -1904,8 +1784,7 @@
     sub-int/2addr p1, p2
 
     .line 69
-    invoke-static {p1}, Ljava/lang/Math;
-    ->abs(I)I
+    invoke-static {p1}, Ljava/lang/Math;->abs(I)I
 
     .line 70
     .line 71

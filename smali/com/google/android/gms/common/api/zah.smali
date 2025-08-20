@@ -24,8 +24,7 @@
     .end param
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/BasePendingResult;
-    -><init>(Lcom/google/android/gms/common/api/GoogleApiClient;)V
+    invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/BasePendingResult;-><init>(Lcom/google/android/gms/common/api/GoogleApiClient;)V
 
     .line 2
     .line 3
@@ -54,8 +53,7 @@
 
     .line 4
     .line 5
-    invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7

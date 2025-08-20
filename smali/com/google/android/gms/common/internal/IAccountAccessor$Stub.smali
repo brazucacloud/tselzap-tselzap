@@ -26,8 +26,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, v0}, Lcom/google/android/gms/internal/common/zzb;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Lcom/google/android/gms/internal/common/zzb;-><init>(Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -59,8 +58,7 @@
 
     .line 6
     .line 7
-    invoke-interface {p0, v0}, Landroid/os/IBinder;
-    ->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
+    invoke-interface {p0, v0}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
 
     .line 8
     .line 9
@@ -88,8 +86,7 @@
 
     .line 19
     .line 20
-    invoke-direct {v0, p0}, Lcom/google/android/gms/common/internal/zzw;
-    -><init>(Landroid/os/IBinder;)V
+    invoke-direct {v0, p0}, Lcom/google/android/gms/common/internal/zzw;-><init>(Landroid/os/IBinder;)V
 
     .line 21
     .line 22
@@ -118,8 +115,7 @@
 
     .line 3
     .line 4
-    invoke-interface {p0}, Lcom/google/android/gms/common/internal/IAccountAccessor;
-    ->zzb()Landroid/accounts/Account;
+    invoke-interface {p0}, Lcom/google/android/gms/common/internal/IAccountAccessor;->zzb()Landroid/accounts/Account;
 
     .line 5
     .line 6
@@ -127,14 +123,12 @@
     move-result-object p1
 
     .line 8
-    invoke-virtual {p3}, Landroid/os/Parcel;
-    ->writeNoException()V
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
     .line 9
     .line 10
     .line 11
-    invoke-static {p3, p1}, Lcom/google/android/gms/internal/common/zzc;
-    ->zzd(Landroid/os/Parcel;Landroid/os/Parcelable;)V
+    invoke-static {p3, p1}, Lcom/google/android/gms/internal/common/zzc;->zzd(Landroid/os/Parcel;Landroid/os/Parcelable;)V
 
     .line 12
     .line 13

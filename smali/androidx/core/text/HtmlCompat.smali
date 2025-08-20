@@ -46,8 +46,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -65,16 +64,14 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x18
 
     if-lt v0, v1, :cond_0
 
     .line 2
-    invoke-static {p0, p1}, Landroidx/core/text/HtmlCompat$Api24Impl;
-    ->fromHtml(Ljava/lang/String;I)Landroid/text/Spanned;
+    invoke-static {p0, p1}, Landroidx/core/text/HtmlCompat$Api24Impl;->fromHtml(Ljava/lang/String;I)Landroid/text/Spanned;
 
     move-result-object p0
 
@@ -82,8 +79,7 @@
 
     .line 3
     :cond_0
-    invoke-static {p0}, Landroid/text/Html;
-    ->fromHtml(Ljava/lang/String;)Landroid/text/Spanned;
+    invoke-static {p0}, Landroid/text/Html;->fromHtml(Ljava/lang/String;)Landroid/text/Spanned;
 
     move-result-object p0
 
@@ -108,16 +104,14 @@
     .end annotation
 
     .line 4
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x18
 
     if-lt v0, v1, :cond_0
 
     .line 5
-    invoke-static {p0, p1, p2, p3}, Landroidx/core/text/HtmlCompat$Api24Impl;
-    ->fromHtml(Ljava/lang/String;ILandroid/text/Html$ImageGetter;Landroid/text/Html$TagHandler;)Landroid/text/Spanned;
+    invoke-static {p0, p1, p2, p3}, Landroidx/core/text/HtmlCompat$Api24Impl;->fromHtml(Ljava/lang/String;ILandroid/text/Html$ImageGetter;Landroid/text/Html$TagHandler;)Landroid/text/Spanned;
 
     move-result-object p0
 
@@ -125,8 +119,7 @@
 
     .line 6
     :cond_0
-    invoke-static {p0, p2, p3}, Landroid/text/Html;
-    ->fromHtml(Ljava/lang/String;Landroid/text/Html$ImageGetter;Landroid/text/Html$TagHandler;)Landroid/text/Spanned;
+    invoke-static {p0, p2, p3}, Landroid/text/Html;->fromHtml(Ljava/lang/String;Landroid/text/Html$ImageGetter;Landroid/text/Html$TagHandler;)Landroid/text/Spanned;
 
     move-result-object p0
 
@@ -143,8 +136,7 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -156,8 +148,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/text/HtmlCompat$Api24Impl;
-    ->toHtml(Landroid/text/Spanned;I)Ljava/lang/String;
+    invoke-static {p0, p1}, Landroidx/core/text/HtmlCompat$Api24Impl;->toHtml(Landroid/text/Spanned;I)Ljava/lang/String;
 
     .line 8
     .line 9
@@ -168,8 +159,7 @@
 
     .line 12
     :cond_0
-    invoke-static {p0}, Landroid/text/Html;
-    ->toHtml(Landroid/text/Spanned;)Ljava/lang/String;
+    invoke-static {p0}, Landroid/text/Html;->toHtml(Landroid/text/Spanned;)Ljava/lang/String;
 
     .line 13
     .line 14

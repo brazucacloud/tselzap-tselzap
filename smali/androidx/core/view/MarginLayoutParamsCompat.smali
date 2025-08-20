@@ -13,8 +13,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -32,8 +31,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->getLayoutDirection()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup$MarginLayoutParams;->getLayoutDirection()I
 
     .line 2
     .line 3
@@ -69,8 +67,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->getMarginEnd()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup$MarginLayoutParams;->getMarginEnd()I
 
     .line 2
     .line 3
@@ -90,8 +87,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->getMarginStart()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup$MarginLayoutParams;->getMarginStart()I
 
     .line 2
     .line 3
@@ -111,8 +107,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->isMarginRelative()Z
+    invoke-virtual {p0}, Landroid/view/ViewGroup$MarginLayoutParams;->isMarginRelative()Z
 
     .line 2
     .line 3
@@ -132,8 +127,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->resolveLayoutDirection(I)V
+    invoke-virtual {p0, p1}, Landroid/view/ViewGroup$MarginLayoutParams;->resolveLayoutDirection(I)V
 
     .line 2
     .line 3
@@ -151,8 +145,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->setLayoutDirection(I)V
+    invoke-virtual {p0, p1}, Landroid/view/ViewGroup$MarginLayoutParams;->setLayoutDirection(I)V
 
     .line 2
     .line 3
@@ -170,8 +163,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->setMarginEnd(I)V
+    invoke-virtual {p0, p1}, Landroid/view/ViewGroup$MarginLayoutParams;->setMarginEnd(I)V
 
     .line 2
     .line 3
@@ -189,8 +181,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->setMarginStart(I)V
+    invoke-virtual {p0, p1}, Landroid/view/ViewGroup$MarginLayoutParams;->setMarginStart(I)V
 
     .line 2
     .line 3

@@ -15,14 +15,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lx0/n;
-    ->b:Lx0/p;
+    iput-object p1, p0, Lx0/n;->b:Lx0/p;
 
     .line 5
     .line 6
@@ -35,13 +33,11 @@
     .locals 2
 
     .line 1
-    iget-object p1, p0, Lx0/n;
-    ->b:Lx0/p;
+    iget-object p1, p0, Lx0/n;->b:Lx0/p;
 
     .line 2
     .line 3
-    iget-object v0, p1, Lx0/p;
-    ->v:Landroid/view/accessibility/AccessibilityManager$TouchExplorationStateChangeListener;
+    iget-object v0, p1, Lx0/p;->v:Landroid/view/accessibility/AccessibilityManager$TouchExplorationStateChangeListener;
 
     .line 4
     .line 5
@@ -49,8 +45,7 @@
 
     .line 6
     .line 7
-    iget-object v0, p1, Lx0/p;
-    ->u:Landroid/view/accessibility/AccessibilityManager;
+    iget-object v0, p1, Lx0/p;->u:Landroid/view/accessibility/AccessibilityManager;
 
     .line 8
     .line 9
@@ -58,8 +53,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Landroid/view/View;
-    ->isAttachedToWindow()Z
+    invoke-virtual {p1}, Landroid/view/View;->isAttachedToWindow()Z
 
     .line 12
     .line 13
@@ -71,13 +65,11 @@
 
     .line 16
     .line 17
-    iget-object p1, p1, Lx0/p;
-    ->v:Landroid/view/accessibility/AccessibilityManager$TouchExplorationStateChangeListener;
+    iget-object p1, p1, Lx0/p;->v:Landroid/view/accessibility/AccessibilityManager$TouchExplorationStateChangeListener;
 
     .line 18
     .line 19
-    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityManager;
-    ->addTouchExplorationStateChangeListener(Landroid/view/accessibility/AccessibilityManager$TouchExplorationStateChangeListener;)Z
+    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityManager;->addTouchExplorationStateChangeListener(Landroid/view/accessibility/AccessibilityManager$TouchExplorationStateChangeListener;)Z
 
     .line 20
     .line 21
@@ -90,13 +82,11 @@
     .locals 1
 
     .line 1
-    iget-object p1, p0, Lx0/n;
-    ->b:Lx0/p;
+    iget-object p1, p0, Lx0/n;->b:Lx0/p;
 
     .line 2
     .line 3
-    iget-object v0, p1, Lx0/p;
-    ->v:Landroid/view/accessibility/AccessibilityManager$TouchExplorationStateChangeListener;
+    iget-object v0, p1, Lx0/p;->v:Landroid/view/accessibility/AccessibilityManager$TouchExplorationStateChangeListener;
 
     .line 4
     .line 5
@@ -104,8 +94,7 @@
 
     .line 6
     .line 7
-    iget-object p1, p1, Lx0/p;
-    ->u:Landroid/view/accessibility/AccessibilityManager;
+    iget-object p1, p1, Lx0/p;->u:Landroid/view/accessibility/AccessibilityManager;
 
     .line 8
     .line 9
@@ -113,8 +102,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityManager;
-    ->removeTouchExplorationStateChangeListener(Landroid/view/accessibility/AccessibilityManager$TouchExplorationStateChangeListener;)Z
+    invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityManager;->removeTouchExplorationStateChangeListener(Landroid/view/accessibility/AccessibilityManager$TouchExplorationStateChangeListener;)Z
 
     .line 12
     .line 13

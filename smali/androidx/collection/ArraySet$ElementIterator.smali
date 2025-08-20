@@ -42,13 +42,11 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/collection/ArraySet$ElementIterator;
-    ->this$0:Landroidx/collection/ArraySet;
+    iput-object p1, p0, Landroidx/collection/ArraySet$ElementIterator;->this$0:Landroidx/collection/ArraySet;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p1}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     .line 4
     .line 5
@@ -56,8 +54,7 @@
     move-result p1
 
     .line 7
-    invoke-direct {p0, p1}, Landroidx/collection/IndexBasedArrayIterator;
-    -><init>(I)V
+    invoke-direct {p0, p1}, Landroidx/collection/IndexBasedArrayIterator;-><init>(I)V
     return-void
 .end method
 
@@ -72,13 +69,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/ArraySet$ElementIterator;
-    ->this$0:Landroidx/collection/ArraySet;
+    iget-object v0, p0, Landroidx/collection/ArraySet$ElementIterator;->this$0:Landroidx/collection/ArraySet;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/collection/ArraySet;
-    ->valueAt(I)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Landroidx/collection/ArraySet;->valueAt(I)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -92,13 +87,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/ArraySet$ElementIterator;
-    ->this$0:Landroidx/collection/ArraySet;
+    iget-object v0, p0, Landroidx/collection/ArraySet$ElementIterator;->this$0:Landroidx/collection/ArraySet;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/collection/ArraySet;
-    ->removeAt(I)Ljava/lang/Object;    
+    invoke-virtual {v0, p1}, Landroidx/collection/ArraySet;->removeAt(I)Ljava/lang/Object;
     return-void
 .end method
 

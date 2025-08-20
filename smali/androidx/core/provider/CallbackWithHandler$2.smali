@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/provider/CallbackWithHandler;
-    ->onTypefaceRequestFailed(I)V
+    value = Landroidx/core/provider/CallbackWithHandler;->onTypefaceRequestFailed(I)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -36,23 +35,19 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/core/provider/CallbackWithHandler$2;
-    ->this$0:Landroidx/core/provider/CallbackWithHandler;
+    iput-object p1, p0, Landroidx/core/provider/CallbackWithHandler$2;->this$0:Landroidx/core/provider/CallbackWithHandler;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/core/provider/CallbackWithHandler$2;
-    ->val$callback:Landroidx/core/provider/FontsContractCompat$FontRequestCallback;
+    iput-object p2, p0, Landroidx/core/provider/CallbackWithHandler$2;->val$callback:Landroidx/core/provider/FontsContractCompat$FontRequestCallback;
 
     .line 4
     .line 5
-    iput p3, p0, Landroidx/core/provider/CallbackWithHandler$2;
-    ->val$reason:I
+    iput p3, p0, Landroidx/core/provider/CallbackWithHandler$2;->val$reason:I
 
     .line 6
     .line 7
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 8
     .line 9
@@ -66,18 +61,15 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/core/provider/CallbackWithHandler$2;
-    ->val$callback:Landroidx/core/provider/FontsContractCompat$FontRequestCallback;
+    iget-object v0, p0, Landroidx/core/provider/CallbackWithHandler$2;->val$callback:Landroidx/core/provider/FontsContractCompat$FontRequestCallback;
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/core/provider/CallbackWithHandler$2;
-    ->val$reason:I
+    iget v1, p0, Landroidx/core/provider/CallbackWithHandler$2;->val$reason:I
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Landroidx/core/provider/FontsContractCompat$FontRequestCallback;
-    ->onTypefaceRequestFailed(I)V
+    invoke-virtual {v0, v1}, Landroidx/core/provider/FontsContractCompat$FontRequestCallback;->onTypefaceRequestFailed(I)V
 
     .line 6
     .line 7

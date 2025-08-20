@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -31,8 +30,7 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -44,8 +42,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1, p2}, Landroidx/transition/GhostViewPlatform;
-    ->addGhost(Landroid/view/View;Landroid/view/ViewGroup;Landroid/graphics/Matrix;)Landroidx/transition/GhostView;
+    invoke-static {p0, p1, p2}, Landroidx/transition/GhostViewPlatform;->addGhost(Landroid/view/View;Landroid/view/ViewGroup;Landroid/graphics/Matrix;)Landroidx/transition/GhostView;
 
     .line 8
     .line 9
@@ -56,8 +53,7 @@
 
     .line 12
     :cond_0
-    invoke-static {p0, p1, p2}, Landroidx/transition/GhostViewPort;
-    ->addGhost(Landroid/view/View;Landroid/view/ViewGroup;Landroid/graphics/Matrix;)Landroidx/transition/GhostViewPort;
+    invoke-static {p0, p1, p2}, Landroidx/transition/GhostViewPort;->addGhost(Landroid/view/View;Landroid/view/ViewGroup;Landroid/graphics/Matrix;)Landroidx/transition/GhostViewPort;
 
     .line 13
     .line 14
@@ -71,8 +67,7 @@
     .locals 2
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -84,14 +79,12 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/transition/GhostViewPlatform;
-    ->removeGhost(Landroid/view/View;)V    
+    invoke-static {p0}, Landroidx/transition/GhostViewPlatform;->removeGhost(Landroid/view/View;)V
     return-void
 
     .line 11
     :cond_0
-    invoke-static {p0}, Landroidx/transition/GhostViewPort;
-    ->removeGhost(Landroid/view/View;)V    
+    invoke-static {p0}, Landroidx/transition/GhostViewPort;->removeGhost(Landroid/view/View;)V
     return-void
 .end method
 

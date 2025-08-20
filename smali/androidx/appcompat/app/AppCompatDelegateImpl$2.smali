@@ -26,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$2;
-    ->this$0:Landroidx/appcompat/app/AppCompatDelegateImpl;
+    iput-object p1, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$2;->this$0:Landroidx/appcompat/app/AppCompatDelegateImpl;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -42,13 +40,11 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$2;
-    ->this$0:Landroidx/appcompat/app/AppCompatDelegateImpl;
+    iget-object v0, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$2;->this$0:Landroidx/appcompat/app/AppCompatDelegateImpl;
 
     .line 2
     .line 3
-    iget v1, v0, Landroidx/appcompat/app/AppCompatDelegateImpl;
-    ->mInvalidatePanelMenuFeatures:I
+    iget v1, v0, Landroidx/appcompat/app/AppCompatDelegateImpl;->mInvalidatePanelMenuFeatures:I
 
     .line 4
     .line 5
@@ -63,20 +59,17 @@
 
     .line 9
     .line 10
-    invoke-virtual {v0, v2}, Landroidx/appcompat/app/AppCompatDelegateImpl;
-    ->doInvalidatePanelMenu(I)V
+    invoke-virtual {v0, v2}, Landroidx/appcompat/app/AppCompatDelegateImpl;->doInvalidatePanelMenu(I)V
 
     .line 11
     .line 12
     .line 13
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$2;
-    ->this$0:Landroidx/appcompat/app/AppCompatDelegateImpl;
+    iget-object v0, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$2;->this$0:Landroidx/appcompat/app/AppCompatDelegateImpl;
 
     .line 14
     .line 15
-    iget v1, v0, Landroidx/appcompat/app/AppCompatDelegateImpl;
-    ->mInvalidatePanelMenuFeatures:I
+    iget v1, v0, Landroidx/appcompat/app/AppCompatDelegateImpl;->mInvalidatePanelMenuFeatures:I
 
     .line 16
     .line 17
@@ -92,25 +85,21 @@
 
     .line 22
     .line 23
-    invoke-virtual {v0, v1}, Landroidx/appcompat/app/AppCompatDelegateImpl;
-    ->doInvalidatePanelMenu(I)V
+    invoke-virtual {v0, v1}, Landroidx/appcompat/app/AppCompatDelegateImpl;->doInvalidatePanelMenu(I)V
 
     .line 24
     .line 25
     .line 26
     :cond_1
-    iget-object v0, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$2;
-    ->this$0:Landroidx/appcompat/app/AppCompatDelegateImpl;
+    iget-object v0, p0, Landroidx/appcompat/app/AppCompatDelegateImpl$2;->this$0:Landroidx/appcompat/app/AppCompatDelegateImpl;
 
     .line 27
     .line 28
-    iput-boolean v2, v0, Landroidx/appcompat/app/AppCompatDelegateImpl;
-    ->mInvalidatePanelMenuPosted:Z
+    iput-boolean v2, v0, Landroidx/appcompat/app/AppCompatDelegateImpl;->mInvalidatePanelMenuPosted:Z
 
     .line 29
     .line 30
-    iput v2, v0, Landroidx/appcompat/app/AppCompatDelegateImpl;
-    ->mInvalidatePanelMenuFeatures:I    
+    iput v2, v0, Landroidx/appcompat/app/AppCompatDelegateImpl;->mInvalidatePanelMenuFeatures:I
     return-void
 .end method
 

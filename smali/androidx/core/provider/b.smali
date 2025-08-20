@@ -8,8 +8,7 @@
     .locals 2
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -25,8 +24,7 @@
 
     .line 8
     .line 9
-    invoke-direct {v0, p0, p1}, Landroidx/core/provider/FontProvider$ContentQueryWrapperApi16Impl;
-    -><init>(Landroid/content/Context;Landroid/net/Uri;)V
+    invoke-direct {v0, p0, p1}, Landroidx/core/provider/FontProvider$ContentQueryWrapperApi16Impl;-><init>(Landroid/content/Context;Landroid/net/Uri;)V
 
     .line 10
     .line 11
@@ -39,8 +37,7 @@
 
     .line 14
     .line 15
-    invoke-direct {v0, p0, p1}, Landroidx/core/provider/FontProvider$ContentQueryWrapperApi24Impl;
-    -><init>(Landroid/content/Context;Landroid/net/Uri;)V
+    invoke-direct {v0, p0, p1}, Landroidx/core/provider/FontProvider$ContentQueryWrapperApi24Impl;-><init>(Landroid/content/Context;Landroid/net/Uri;)V
 
     .line 16
     .line 17

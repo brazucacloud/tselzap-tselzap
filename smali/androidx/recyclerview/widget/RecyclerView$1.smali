@@ -26,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$1;
-    ->this$0:Landroidx/recyclerview/widget/RecyclerView;
+    iput-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$1;->this$0:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -42,13 +40,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$1;
-    ->this$0:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$1;->this$0:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 2
     .line 3
-    iget-boolean v1, v0, Landroidx/recyclerview/widget/RecyclerView;
-    ->mFirstLayoutComplete:Z
+    iget-boolean v1, v0, Landroidx/recyclerview/widget/RecyclerView;->mFirstLayoutComplete:Z
 
     .line 4
     .line 5
@@ -56,8 +52,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Landroid/view/View;
-    ->isLayoutRequested()Z
+    invoke-virtual {v0}, Landroid/view/View;->isLayoutRequested()Z
 
     .line 8
     .line 9
@@ -73,13 +68,11 @@
 
     .line 14
     :cond_0
-    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$1;
-    ->this$0:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$1;->this$0:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 15
     .line 16
-    iget-boolean v1, v0, Landroidx/recyclerview/widget/RecyclerView;
-    ->mIsAttached:Z
+    iget-boolean v1, v0, Landroidx/recyclerview/widget/RecyclerView;->mIsAttached:Z
 
     .line 17
     .line 18
@@ -87,14 +80,12 @@
 
     .line 19
     .line 20
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;
-    ->requestLayout()V
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V
     return-void
 
     .line 24
     :cond_1
-    iget-boolean v1, v0, Landroidx/recyclerview/widget/RecyclerView;
-    ->mLayoutSuppressed:Z
+    iget-boolean v1, v0, Landroidx/recyclerview/widget/RecyclerView;->mLayoutSuppressed:Z
 
     .line 25
     .line 26
@@ -105,14 +96,12 @@
     const/4 v1, 0x1
 
     .line 29
-    iput-boolean v1, v0, Landroidx/recyclerview/widget/RecyclerView;
-    ->mLayoutWasDefered:Z
+    iput-boolean v1, v0, Landroidx/recyclerview/widget/RecyclerView;->mLayoutWasDefered:Z
 return-void
 
     .line 32
     :cond_2
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;
-    ->consumePendingUpdateOperations()V
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;->consumePendingUpdateOperations()V
 
     .line 33
     .line 34

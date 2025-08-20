@@ -8,8 +8,7 @@
     .locals 2
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -46,8 +45,7 @@
 
     .line 15
     .line 16
-    invoke-static {p0}, Landroidx/core/graphics/drawable/DrawableCompat;
-    ->wrap(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
+    invoke-static {p0}, Landroidx/core/graphics/drawable/DrawableCompat;->wrap(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     .line 17
     .line 18
@@ -55,8 +53,7 @@
     move-result-object p0
 
     .line 20
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;
-    ->mutate()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->mutate()Landroid/graphics/drawable/Drawable;
 
     .line 21
     .line 22
@@ -68,8 +65,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {p0, p2}, Landroid/graphics/drawable/Drawable;
-    ->setTintMode(Landroid/graphics/PorterDuff$Mode;)V
+    invoke-virtual {p0, p2}, Landroid/graphics/drawable/Drawable;->setTintMode(Landroid/graphics/PorterDuff$Mode;)V
 
     .line 27
     .line 28
@@ -83,8 +79,7 @@
 
     .line 31
     .line 32
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;
-    ->mutate()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->mutate()Landroid/graphics/drawable/Drawable;
 
     .line 33
     .line 34
@@ -109,8 +104,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroid/graphics/drawable/ColorDrawable;
-    ->getColor()I
+    invoke-virtual {p0}, Landroid/graphics/drawable/ColorDrawable;->getColor()I
 
     .line 8
     .line 9
@@ -118,8 +112,7 @@
     move-result p0
 
     .line 11
-    invoke-static {p0}, Landroid/content/res/ColorStateList;
-    ->valueOf(I)Landroid/content/res/ColorStateList;
+    invoke-static {p0}, Landroid/content/res/ColorStateList;->valueOf(I)Landroid/content/res/ColorStateList;
 
     .line 12
     .line 13
@@ -130,8 +123,7 @@
 
     .line 16
     :cond_0
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 17
     .line 18
@@ -143,8 +135,7 @@
 
     .line 21
     .line 22
-    invoke-static {p0}, Lcom/google/android/gms/common/stats/a;
-    ->k(Landroid/graphics/drawable/Drawable;)Z
+    invoke-static {p0}, Lcom/google/android/gms/common/stats/a;->k(Landroid/graphics/drawable/Drawable;)Z
 
     .line 23
     .line 24
@@ -156,8 +147,7 @@
 
     .line 27
     .line 28
-    invoke-static {p0}, Lcom/google/android/gms/common/stats/a;
-    ->c(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/ColorStateListDrawable;
+    invoke-static {p0}, Lcom/google/android/gms/common/stats/a;->c(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/ColorStateListDrawable;
 
     .line 29
     .line 30
@@ -165,8 +155,7 @@
     move-result-object p0
 
     .line 32
-    invoke-static {p0}, Lcom/google/android/gms/common/stats/a;
-    ->b(Landroid/graphics/drawable/ColorStateListDrawable;)Landroid/content/res/ColorStateList;
+    invoke-static {p0}, Lcom/google/android/gms/common/stats/a;->b(Landroid/graphics/drawable/ColorStateListDrawable;)Landroid/content/res/ColorStateList;
 
     .line 33
     .line 34

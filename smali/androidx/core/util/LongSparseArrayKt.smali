@@ -17,8 +17,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/util/LongSparseArray;
-    ->indexOfKey(J)I
+    invoke-virtual {p0, p1, p2}, Landroid/util/LongSparseArray;->indexOfKey(J)I
 
     .line 2
     .line 3
@@ -54,8 +53,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/util/LongSparseArray;
-    ->indexOfKey(J)I
+    invoke-virtual {p0, p1, p2}, Landroid/util/LongSparseArray;->indexOfKey(J)I
 
     .line 2
     .line 3
@@ -91,8 +89,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/util/LongSparseArray;
-    ->indexOfValue(Ljava/lang/Object;)I
+    invoke-virtual {p0, p1}, Landroid/util/LongSparseArray;->indexOfValue(Ljava/lang/Object;)I
 
     .line 2
     .line 3
@@ -130,8 +127,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/util/LongSparseArray;
-    ->size()I
+    invoke-virtual {p0}, Landroid/util/LongSparseArray;->size()I
 
     .line 2
     .line 3
@@ -147,8 +143,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p0, v1}, Landroid/util/LongSparseArray;
-    ->keyAt(I)J
+    invoke-virtual {p0, v1}, Landroid/util/LongSparseArray;->keyAt(I)J
 
     .line 9
     .line 10
@@ -156,8 +151,7 @@
     move-result-wide v2
 
     .line 12
-    invoke-static {v2, v3}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 13
     .line 14
@@ -165,8 +159,7 @@
     move-result-object v2
 
     .line 16
-    invoke-virtual {p0, v1}, Landroid/util/LongSparseArray;
-    ->valueAt(I)Ljava/lang/Object;
+    invoke-virtual {p0, v1}, Landroid/util/LongSparseArray;->valueAt(I)Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -174,8 +167,7 @@
     move-result-object v3
 
     .line 20
-    invoke-interface {p1, v2, v3}, Lp1/p;
-    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2, v3}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -204,8 +196,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/util/LongSparseArray;
-    ->get(J)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroid/util/LongSparseArray;->get(J)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -239,8 +230,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/util/LongSparseArray;
-    ->get(J)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroid/util/LongSparseArray;->get(J)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -252,8 +242,7 @@
 
     .line 6
     .line 7
-    invoke-interface {p3}, Lp1/a;
-    ->invoke()Ljava/lang/Object;
+    invoke-interface {p3}, Lp1/a;->invoke()Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -278,8 +267,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/util/LongSparseArray;
-    ->size()I
+    invoke-virtual {p0}, Landroid/util/LongSparseArray;->size()I
 
     .line 2
     .line 3
@@ -302,8 +290,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/util/LongSparseArray;
-    ->size()I
+    invoke-virtual {p0}, Landroid/util/LongSparseArray;->size()I
 
     .line 2
     .line 3
@@ -339,8 +326,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/util/LongSparseArray;
-    ->size()I
+    invoke-virtual {p0}, Landroid/util/LongSparseArray;->size()I
 
     .line 2
     .line 3
@@ -381,8 +367,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/core/util/LongSparseArrayKt$keyIterator$1;
-    -><init>(Landroid/util/LongSparseArray;)V
+    invoke-direct {v0, p0}, Landroidx/core/util/LongSparseArrayKt$keyIterator$1;-><init>(Landroid/util/LongSparseArray;)V
 
     .line 4
     .line 5
@@ -411,8 +396,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/util/LongSparseArray;
-    ->size()I
+    invoke-virtual {p0}, Landroid/util/LongSparseArray;->size()I
 
     .line 4
     .line 5
@@ -420,8 +404,7 @@
     move-result v1
 
     .line 7
-    invoke-virtual {p1}, Landroid/util/LongSparseArray;
-    ->size()I
+    invoke-virtual {p1}, Landroid/util/LongSparseArray;->size()I
 
     .line 8
     .line 9
@@ -432,20 +415,17 @@
     add-int/2addr v2, v1
 
     .line 12
-    invoke-direct {v0, v2}, Landroid/util/LongSparseArray;
-    -><init>(I)V
+    invoke-direct {v0, v2}, Landroid/util/LongSparseArray;-><init>(I)V
 
     .line 13
     .line 14
     .line 15
-    invoke-static {v0, p0}, Landroidx/core/util/LongSparseArrayKt;
-    ->putAll(Landroid/util/LongSparseArray;Landroid/util/LongSparseArray;)V
+    invoke-static {v0, p0}, Landroidx/core/util/LongSparseArrayKt;->putAll(Landroid/util/LongSparseArray;Landroid/util/LongSparseArray;)V
 
     .line 16
     .line 17
     .line 18
-    invoke-static {v0, p1}, Landroidx/core/util/LongSparseArrayKt;
-    ->putAll(Landroid/util/LongSparseArray;Landroid/util/LongSparseArray;)V
+    invoke-static {v0, p1}, Landroidx/core/util/LongSparseArrayKt;->putAll(Landroid/util/LongSparseArray;Landroid/util/LongSparseArray;)V
 
     .line 19
     .line 20
@@ -468,8 +448,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Landroid/util/LongSparseArray;
-    ->size()I
+    invoke-virtual {p1}, Landroid/util/LongSparseArray;->size()I
 
     .line 2
     .line 3
@@ -485,8 +464,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1, v1}, Landroid/util/LongSparseArray;
-    ->keyAt(I)J
+    invoke-virtual {p1, v1}, Landroid/util/LongSparseArray;->keyAt(I)J
 
     .line 9
     .line 10
@@ -494,8 +472,7 @@
     move-result-wide v2
 
     .line 12
-    invoke-virtual {p1, v1}, Landroid/util/LongSparseArray;
-    ->valueAt(I)Ljava/lang/Object;
+    invoke-virtual {p1, v1}, Landroid/util/LongSparseArray;->valueAt(I)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -503,8 +480,7 @@
     move-result-object v4
 
     .line 16
-    invoke-virtual {p0, v2, v3, v4}, Landroid/util/LongSparseArray;
-    ->put(JLjava/lang/Object;)V
+    invoke-virtual {p0, v2, v3, v4}, Landroid/util/LongSparseArray;->put(JLjava/lang/Object;)V
 
     .line 17
     .line 18
@@ -533,8 +509,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/util/LongSparseArray;
-    ->indexOfKey(J)I
+    invoke-virtual {p0, p1, p2}, Landroid/util/LongSparseArray;->indexOfKey(J)I
 
     .line 2
     .line 3
@@ -546,8 +521,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0, p1}, Landroid/util/LongSparseArray;
-    ->valueAt(I)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Landroid/util/LongSparseArray;->valueAt(I)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -555,8 +529,7 @@
     move-result-object p2
 
     .line 11
-    invoke-static {p3, p2}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p3, p2}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -568,8 +541,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p0, p1}, Landroid/util/LongSparseArray;
-    ->removeAt(I)V
+    invoke-virtual {p0, p1}, Landroid/util/LongSparseArray;->removeAt(I)V
 
     .line 18
     .line 19
@@ -598,8 +570,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/util/LongSparseArray;
-    ->put(JLjava/lang/Object;)V
+    invoke-virtual {p0, p1, p2, p3}, Landroid/util/LongSparseArray;->put(JLjava/lang/Object;)V
 
     .line 2
     .line 3
@@ -626,8 +597,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/core/util/LongSparseArrayKt$valueIterator$1;
-    -><init>(Landroid/util/LongSparseArray;)V
+    invoke-direct {v0, p0}, Landroidx/core/util/LongSparseArrayKt$valueIterator$1;-><init>(Landroid/util/LongSparseArray;)V
 
     .line 4
     .line 5

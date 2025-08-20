@@ -22,8 +22,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, p1, v0}, Landroidx/dynamicanimation/animation/DynamicAnimation$ViewProperty;
-    -><init>(Ljava/lang/String;Landroidx/dynamicanimation/animation/DynamicAnimation$1;)V    
+    invoke-direct {p0, p1, v0}, Landroidx/dynamicanimation/animation/DynamicAnimation$ViewProperty;-><init>(Ljava/lang/String;Landroidx/dynamicanimation/animation/DynamicAnimation$1;)V
     return-void
 .end method
 
@@ -33,8 +32,7 @@
     .locals 0
 
     .line 2
-    invoke-static {p1}, Landroidx/core/view/ViewCompat;
-    ->getTranslationZ(Landroid/view/View;)F
+    invoke-static {p1}, Landroidx/core/view/ViewCompat;->getTranslationZ(Landroid/view/View;)F
 
     move-result p1
 
@@ -47,8 +45,7 @@
     .line 1
     check-cast p1, Landroid/view/View;
 
-    invoke-virtual {p0, p1}, Landroidx/dynamicanimation/animation/DynamicAnimation$3;
-    ->getValue(Landroid/view/View;)F
+    invoke-virtual {p0, p1}, Landroidx/dynamicanimation/animation/DynamicAnimation$3;->getValue(Landroid/view/View;)F
 
     move-result p1
 
@@ -59,8 +56,7 @@
     .locals 0
 
     .line 2
-    invoke-static {p1, p2}, Landroidx/core/view/ViewCompat;
-    ->setTranslationZ(Landroid/view/View;F)V
+    invoke-static {p1, p2}, Landroidx/core/view/ViewCompat;->setTranslationZ(Landroid/view/View;F)V
 
     return-void
 .end method
@@ -71,8 +67,7 @@
     .line 1
     check-cast p1, Landroid/view/View;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/dynamicanimation/animation/DynamicAnimation$3;
-    ->setValue(Landroid/view/View;F)V
+    invoke-virtual {p0, p1, p2}, Landroidx/dynamicanimation/animation/DynamicAnimation$3;->setValue(Landroid/view/View;F)V
 
     return-void
 .end method

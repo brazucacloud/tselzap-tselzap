@@ -26,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup$3;
-    ->this$0:Landroidx/appcompat/view/menu/CascadingMenuPopup;
+    iput-object p1, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup$3;->this$0:Landroidx/appcompat/view/menu/CascadingMenuPopup;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -50,37 +48,31 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup$3;
-    ->this$0:Landroidx/appcompat/view/menu/CascadingMenuPopup;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup$3;->this$0:Landroidx/appcompat/view/menu/CascadingMenuPopup;
 
     .line 2
     .line 3
-    iget-object v0, v0, Landroidx/appcompat/view/menu/CascadingMenuPopup;
-    ->mSubMenuHoverHandler:Landroid/os/Handler;
+    iget-object v0, v0, Landroidx/appcompat/view/menu/CascadingMenuPopup;->mSubMenuHoverHandler:Landroid/os/Handler;
 
     .line 4
     .line 5
     const/4 v1, 0x0
 
     .line 6
-    invoke-virtual {v0, v1}, Landroid/os/Handler;
-    ->removeCallbacksAndMessages(Ljava/lang/Object;)V
+    invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
     .line 7
     .line 8
     .line 9
-    iget-object v0, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup$3;
-    ->this$0:Landroidx/appcompat/view/menu/CascadingMenuPopup;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup$3;->this$0:Landroidx/appcompat/view/menu/CascadingMenuPopup;
 
     .line 10
     .line 11
-    iget-object v0, v0, Landroidx/appcompat/view/menu/CascadingMenuPopup;
-    ->mShowingMenus:Ljava/util/List;
+    iget-object v0, v0, Landroidx/appcompat/view/menu/CascadingMenuPopup;->mShowingMenus:Ljava/util/List;
 
     .line 12
     .line 13
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     .line 14
     .line 15
@@ -99,18 +91,15 @@
 
     .line 20
     .line 21
-    iget-object v4, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup$3;
-    ->this$0:Landroidx/appcompat/view/menu/CascadingMenuPopup;
+    iget-object v4, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup$3;->this$0:Landroidx/appcompat/view/menu/CascadingMenuPopup;
 
     .line 22
     .line 23
-    iget-object v4, v4, Landroidx/appcompat/view/menu/CascadingMenuPopup;
-    ->mShowingMenus:Ljava/util/List;
+    iget-object v4, v4, Landroidx/appcompat/view/menu/CascadingMenuPopup;->mShowingMenus:Ljava/util/List;
 
     .line 24
     .line 25
-    invoke-interface {v4, v2}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v4, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 26
     .line 27
@@ -122,8 +111,7 @@
 
     .line 30
     .line 31
-    iget-object v4, v4, Landroidx/appcompat/view/menu/CascadingMenuPopup$CascadingMenuInfo;
-    ->menu:Landroidx/appcompat/view/menu/MenuBuilder;
+    iget-object v4, v4, Landroidx/appcompat/view/menu/CascadingMenuPopup$CascadingMenuInfo;->menu:Landroidx/appcompat/view/menu/MenuBuilder;
 
     .line 32
     .line 33
@@ -155,18 +143,15 @@
 
     .line 44
     .line 45
-    iget-object v0, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup$3;
-    ->this$0:Landroidx/appcompat/view/menu/CascadingMenuPopup;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup$3;->this$0:Landroidx/appcompat/view/menu/CascadingMenuPopup;
 
     .line 46
     .line 47
-    iget-object v0, v0, Landroidx/appcompat/view/menu/CascadingMenuPopup;
-    ->mShowingMenus:Ljava/util/List;
+    iget-object v0, v0, Landroidx/appcompat/view/menu/CascadingMenuPopup;->mShowingMenus:Ljava/util/List;
 
     .line 48
     .line 49
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     .line 50
     .line 51
@@ -178,18 +163,15 @@
 
     .line 54
     .line 55
-    iget-object v0, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup$3;
-    ->this$0:Landroidx/appcompat/view/menu/CascadingMenuPopup;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup$3;->this$0:Landroidx/appcompat/view/menu/CascadingMenuPopup;
 
     .line 56
     .line 57
-    iget-object v0, v0, Landroidx/appcompat/view/menu/CascadingMenuPopup;
-    ->mShowingMenus:Ljava/util/List;
+    iget-object v0, v0, Landroidx/appcompat/view/menu/CascadingMenuPopup;->mShowingMenus:Ljava/util/List;
 
     .line 58
     .line 59
-    invoke-interface {v0, v2}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 60
     .line 61
@@ -209,14 +191,12 @@
 
     .line 67
     .line 68
-    invoke-direct {v0, p0, v1, p2, p1}, Landroidx/appcompat/view/menu/CascadingMenuPopup$3$1;
-    -><init>(Landroidx/appcompat/view/menu/CascadingMenuPopup$3;Landroidx/appcompat/view/menu/CascadingMenuPopup$CascadingMenuInfo;Landroid/view/MenuItem;Landroidx/appcompat/view/menu/MenuBuilder;)V
+    invoke-direct {v0, p0, v1, p2, p1}, Landroidx/appcompat/view/menu/CascadingMenuPopup$3$1;-><init>(Landroidx/appcompat/view/menu/CascadingMenuPopup$3;Landroidx/appcompat/view/menu/CascadingMenuPopup$CascadingMenuInfo;Landroid/view/MenuItem;Landroidx/appcompat/view/menu/MenuBuilder;)V
 
     .line 69
     .line 70
     .line 71
-    invoke-static {}, Landroid/os/SystemClock;
-    ->uptimeMillis()J
+    invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
 
     .line 72
     .line 73
@@ -231,18 +211,15 @@
     add-long/2addr v1, v3
 
     .line 78
-    iget-object p2, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup$3;
-    ->this$0:Landroidx/appcompat/view/menu/CascadingMenuPopup;
+    iget-object p2, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup$3;->this$0:Landroidx/appcompat/view/menu/CascadingMenuPopup;
 
     .line 79
     .line 80
-    iget-object p2, p2, Landroidx/appcompat/view/menu/CascadingMenuPopup;
-    ->mSubMenuHoverHandler:Landroid/os/Handler;
+    iget-object p2, p2, Landroidx/appcompat/view/menu/CascadingMenuPopup;->mSubMenuHoverHandler:Landroid/os/Handler;
 
     .line 81
     .line 82
-    invoke-virtual {p2, v0, p1, v1, v2}, Landroid/os/Handler;
-    ->postAtTime(Ljava/lang/Runnable;Ljava/lang/Object;J)Z
+    invoke-virtual {p2, v0, p1, v1, v2}, Landroid/os/Handler;->postAtTime(Ljava/lang/Runnable;Ljava/lang/Object;J)Z
 return-void
 .end method
 
@@ -258,18 +235,15 @@ return-void
     .end param
 
     .line 1
-    iget-object p2, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup$3;
-    ->this$0:Landroidx/appcompat/view/menu/CascadingMenuPopup;
+    iget-object p2, p0, Landroidx/appcompat/view/menu/CascadingMenuPopup$3;->this$0:Landroidx/appcompat/view/menu/CascadingMenuPopup;
 
     .line 2
     .line 3
-    iget-object p2, p2, Landroidx/appcompat/view/menu/CascadingMenuPopup;
-    ->mSubMenuHoverHandler:Landroid/os/Handler;
+    iget-object p2, p2, Landroidx/appcompat/view/menu/CascadingMenuPopup;->mSubMenuHoverHandler:Landroid/os/Handler;
 
     .line 4
     .line 5
-    invoke-virtual {p2, p1}, Landroid/os/Handler;
-    ->removeCallbacksAndMessages(Ljava/lang/Object;)V
+    invoke-virtual {p2, p1}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 return-void
 .end method
 

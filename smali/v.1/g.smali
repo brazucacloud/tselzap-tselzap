@@ -17,14 +17,11 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Lv/g;
-    ->a:I
+    iput p2, p0, Lv/g;->a:I
 
-    iput-object p1, p0, Lv/g;
-    ->b:Ljava/lang/Object;
+    iput-object p1, p0, Lv/g;->b:Ljava/lang/Object;
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -34,8 +31,7 @@
     .locals 3
 
     .line 1
-    iget v0, p0, Lv/g;
-    ->a:I
+    iget v0, p0, Lv/g;->a:I
 
     .line 2
     .line 3
@@ -44,8 +40,7 @@
     .line 4
     .line 5
     .line 6
-    iget v0, p1, Landroid/os/Message;
-    ->what:I
+    iget v0, p1, Landroid/os/Message;->what:I
 
     .line 7
     .line 8
@@ -60,8 +55,7 @@
 
     .line 12
     :cond_0
-    iget-object v0, p0, Lv/g;
-    ->b:Ljava/lang/Object;
+    iget-object v0, p0, Lv/g;->b:Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -69,8 +63,7 @@
 
     .line 15
     .line 16
-    iget-object p1, p1, Landroid/os/Message;
-    ->obj:Ljava/lang/Object;
+    iget-object p1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -78,8 +71,7 @@
 
     .line 19
     .line 20
-    iget-object v1, v0, LN0/d;
-    ->b:Ljava/lang/Object;
+    iget-object v1, v0, LN0/d;->b:Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -87,8 +79,7 @@
 
     .line 23
     :try_start_0
-    iget-object v2, v0, LN0/d;
-    ->d:Ljava/lang/Object;
+    iget-object v2, v0, LN0/d;->d:Ljava/lang/Object;
 
     .line 24
     .line 25
@@ -100,8 +91,7 @@
 
     .line 28
     .line 29
-    iget-object v2, v0, LN0/d;
-    ->e:Ljava/lang/Object;
+    iget-object v2, v0, LN0/d;->e:Ljava/lang/Object;
 
     .line 30
     .line 31
@@ -117,8 +107,7 @@
     const/4 v2, 0x2
 
     .line 36
-    invoke-virtual {v0, p1, v2}, LN0/d;
-    ->b(Lw0/k;I)Z
+    invoke-virtual {v0, p1, v2}, LN0/d;->b(Lw0/k;I)Z
 
     .line 37
     .line 38
@@ -147,13 +136,11 @@
 
     .line 45
     :pswitch_0
-    iget v0, p1, Landroid/os/Message;
-    ->what:I
+    iget v0, p1, Landroid/os/Message;->what:I
 
     .line 46
     .line 47
-    iget-object v1, p0, Lv/g;
-    ->b:Ljava/lang/Object;
+    iget-object v1, p0, Lv/g;->b:Ljava/lang/Object;
 
     .line 48
     .line 49
@@ -168,8 +155,7 @@
 
     .line 53
     .line 54
-    iget-object p1, p1, Landroid/os/Message;
-    ->obj:Ljava/lang/Object;
+    iget-object p1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
     .line 55
     .line 56
@@ -177,8 +163,7 @@
 
     .line 57
     .line 58
-    invoke-virtual {v1, p1}, Lv/h;
-    ->b(Lv/e;)V
+    invoke-virtual {v1, p1}, Lv/h;->b(Lv/e;)V
 
     .line 59
     .line 60
@@ -194,8 +179,7 @@
 
     .line 64
     .line 65
-    iget-object p1, p1, Landroid/os/Message;
-    ->obj:Ljava/lang/Object;
+    iget-object p1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
     .line 66
     .line 67
@@ -203,13 +187,11 @@
 
     .line 68
     .line 69
-    iget-object v0, v1, Lv/h;
-    ->d:Lcom/bumptech/glide/RequestManager;
+    iget-object v0, v1, Lv/h;->d:Lcom/bumptech/glide/RequestManager;
 
     .line 70
     .line 71
-    invoke-virtual {v0, p1}, Lcom/bumptech/glide/RequestManager;
-    ->a(LB/e;)V
+    invoke-virtual {v0, p1}, Lcom/bumptech/glide/RequestManager;->a(LB/e;)V
 
     .line 72
     .line 73

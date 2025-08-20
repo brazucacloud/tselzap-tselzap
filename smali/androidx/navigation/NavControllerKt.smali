@@ -27,31 +27,25 @@
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "builder"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p0}, Landroidx/navigation/NavController;
-    ->getNavigatorProvider()Landroidx/navigation/NavigatorProvider;
+    invoke-virtual {p0}, Landroidx/navigation/NavController;->getNavigatorProvider()Landroidx/navigation/NavigatorProvider;
 
     move-result-object p0
 
     .line 2
     new-instance v0, Landroidx/navigation/NavGraphBuilder;
 
-    invoke-direct {v0, p0, p1, p2}, Landroidx/navigation/NavGraphBuilder;
-    -><init>(Landroidx/navigation/NavigatorProvider;II)V
+    invoke-direct {v0, p0, p1, p2}, Landroidx/navigation/NavGraphBuilder;-><init>(Landroidx/navigation/NavigatorProvider;II)V
 
-    invoke-interface {p3, v0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, v0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-virtual {v0}, Landroidx/navigation/NavGraphBuilder;
-    ->build()Landroidx/navigation/NavGraph;
+    invoke-virtual {v0}, Landroidx/navigation/NavGraphBuilder;->build()Landroidx/navigation/NavGraph;
 
     move-result-object p0
 
@@ -78,41 +72,33 @@
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "startDestination"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "typeMap"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "builder"
 
-    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 7
-    invoke-virtual {p0}, Landroidx/navigation/NavController;
-    ->getNavigatorProvider()Landroidx/navigation/NavigatorProvider;
+    invoke-virtual {p0}, Landroidx/navigation/NavController;->getNavigatorProvider()Landroidx/navigation/NavigatorProvider;
 
     move-result-object p0
 
     .line 8
     new-instance v0, Landroidx/navigation/NavGraphBuilder;
 
-    invoke-direct {v0, p0, p1, p2, p3}, Landroidx/navigation/NavGraphBuilder;
-    -><init>(Landroidx/navigation/NavigatorProvider;Ljava/lang/Object;Lv1/c;Ljava/util/Map;)V
+    invoke-direct {v0, p0, p1, p2, p3}, Landroidx/navigation/NavGraphBuilder;-><init>(Landroidx/navigation/NavigatorProvider;Ljava/lang/Object;Lv1/c;Ljava/util/Map;)V
 
-    invoke-interface {p4, v0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p4, v0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-virtual {v0}, Landroidx/navigation/NavGraphBuilder;
-    ->build()Landroidx/navigation/NavGraph;
+    invoke-virtual {v0}, Landroidx/navigation/NavGraphBuilder;->build()Landroidx/navigation/NavGraph;
 
     move-result-object p0
 
@@ -135,36 +121,29 @@
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "startDestination"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "builder"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
-    invoke-virtual {p0}, Landroidx/navigation/NavController;
-    ->getNavigatorProvider()Landroidx/navigation/NavigatorProvider;
+    invoke-virtual {p0}, Landroidx/navigation/NavController;->getNavigatorProvider()Landroidx/navigation/NavigatorProvider;
 
     move-result-object p0
 
     .line 4
     new-instance v0, Landroidx/navigation/NavGraphBuilder;
 
-    invoke-direct {v0, p0, p1, p2}, Landroidx/navigation/NavGraphBuilder;
-    -><init>(Landroidx/navigation/NavigatorProvider;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, p0, p1, p2}, Landroidx/navigation/NavGraphBuilder;-><init>(Landroidx/navigation/NavigatorProvider;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-interface {p3, v0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, v0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-virtual {v0}, Landroidx/navigation/NavGraphBuilder;
-    ->build()Landroidx/navigation/NavGraph;
+    invoke-virtual {v0}, Landroidx/navigation/NavGraphBuilder;->build()Landroidx/navigation/NavGraph;
 
     move-result-object p0
 
@@ -191,41 +170,33 @@
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "startDestination"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "typeMap"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "builder"
 
-    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
-    invoke-virtual {p0}, Landroidx/navigation/NavController;
-    ->getNavigatorProvider()Landroidx/navigation/NavigatorProvider;
+    invoke-virtual {p0}, Landroidx/navigation/NavController;->getNavigatorProvider()Landroidx/navigation/NavigatorProvider;
 
     move-result-object p0
 
     .line 6
     new-instance v0, Landroidx/navigation/NavGraphBuilder;
 
-    invoke-direct {v0, p0, p1, p2, p3}, Landroidx/navigation/NavGraphBuilder;
-    -><init>(Landroidx/navigation/NavigatorProvider;Lv1/c;Lv1/c;Ljava/util/Map;)V
+    invoke-direct {v0, p0, p1, p2, p3}, Landroidx/navigation/NavGraphBuilder;-><init>(Landroidx/navigation/NavigatorProvider;Lv1/c;Lv1/c;Ljava/util/Map;)V
 
-    invoke-interface {p4, v0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p4, v0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-virtual {v0}, Landroidx/navigation/NavGraphBuilder;
-    ->build()Landroidx/navigation/NavGraph;
+    invoke-virtual {v0}, Landroidx/navigation/NavGraphBuilder;->build()Landroidx/navigation/NavGraph;
 
     move-result-object p0
 
@@ -245,31 +216,25 @@
     :cond_0
     const-string p4, "<this>"
 
-    invoke-static {p0, p4}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p4}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p4, "builder"
 
-    invoke-static {p3, p4}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p4}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-virtual {p0}, Landroidx/navigation/NavController;
-    ->getNavigatorProvider()Landroidx/navigation/NavigatorProvider;
+    invoke-virtual {p0}, Landroidx/navigation/NavController;->getNavigatorProvider()Landroidx/navigation/NavigatorProvider;
 
     move-result-object p0
 
     .line 3
     new-instance p4, Landroidx/navigation/NavGraphBuilder;
 
-    invoke-direct {p4, p0, p1, p2}, Landroidx/navigation/NavGraphBuilder;
-    -><init>(Landroidx/navigation/NavigatorProvider;II)V
+    invoke-direct {p4, p0, p1, p2}, Landroidx/navigation/NavGraphBuilder;-><init>(Landroidx/navigation/NavigatorProvider;II)V
 
-    invoke-interface {p3, p4}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, p4}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-virtual {p4}, Landroidx/navigation/NavGraphBuilder;
-    ->build()Landroidx/navigation/NavGraph;
+    invoke-virtual {p4}, Landroidx/navigation/NavGraphBuilder;->build()Landroidx/navigation/NavGraph;
 
     move-result-object p0
 
@@ -291,48 +256,39 @@
     if-eqz p5, :cond_1
 
     .line 11
-    sget-object p3, Ld1/u;
-    ->b:Ld1/u;
+    sget-object p3, Ld1/u;->b:Ld1/u;
 
     .line 12
     :cond_1
     const-string p5, "<this>"
 
-    invoke-static {p0, p5}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p5}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p5, "startDestination"
 
-    invoke-static {p1, p5}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p5}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p5, "typeMap"
 
-    invoke-static {p3, p5}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p5}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p5, "builder"
 
-    invoke-static {p4, p5}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, p5}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 13
-    invoke-virtual {p0}, Landroidx/navigation/NavController;
-    ->getNavigatorProvider()Landroidx/navigation/NavigatorProvider;
+    invoke-virtual {p0}, Landroidx/navigation/NavController;->getNavigatorProvider()Landroidx/navigation/NavigatorProvider;
 
     move-result-object p0
 
     .line 14
     new-instance p5, Landroidx/navigation/NavGraphBuilder;
 
-    invoke-direct {p5, p0, p1, p2, p3}, Landroidx/navigation/NavGraphBuilder;
-    -><init>(Landroidx/navigation/NavigatorProvider;Ljava/lang/Object;Lv1/c;Ljava/util/Map;)V
+    invoke-direct {p5, p0, p1, p2, p3}, Landroidx/navigation/NavGraphBuilder;-><init>(Landroidx/navigation/NavigatorProvider;Ljava/lang/Object;Lv1/c;Ljava/util/Map;)V
 
-    invoke-interface {p4, p5}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p4, p5}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-virtual {p5}, Landroidx/navigation/NavGraphBuilder;
-    ->build()Landroidx/navigation/NavGraph;
+    invoke-virtual {p5}, Landroidx/navigation/NavGraphBuilder;->build()Landroidx/navigation/NavGraph;
 
     move-result-object p0
 
@@ -352,36 +308,29 @@
     :cond_0
     const-string p4, "<this>"
 
-    invoke-static {p0, p4}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p4}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p4, "startDestination"
 
-    invoke-static {p1, p4}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p4}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p4, "builder"
 
-    invoke-static {p3, p4}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p4}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
-    invoke-virtual {p0}, Landroidx/navigation/NavController;
-    ->getNavigatorProvider()Landroidx/navigation/NavigatorProvider;
+    invoke-virtual {p0}, Landroidx/navigation/NavController;->getNavigatorProvider()Landroidx/navigation/NavigatorProvider;
 
     move-result-object p0
 
     .line 6
     new-instance p4, Landroidx/navigation/NavGraphBuilder;
 
-    invoke-direct {p4, p0, p1, p2}, Landroidx/navigation/NavGraphBuilder;
-    -><init>(Landroidx/navigation/NavigatorProvider;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {p4, p0, p1, p2}, Landroidx/navigation/NavGraphBuilder;-><init>(Landroidx/navigation/NavigatorProvider;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-interface {p3, p4}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, p4}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-virtual {p4}, Landroidx/navigation/NavGraphBuilder;
-    ->build()Landroidx/navigation/NavGraph;
+    invoke-virtual {p4}, Landroidx/navigation/NavGraphBuilder;->build()Landroidx/navigation/NavGraph;
 
     move-result-object p0
 
@@ -403,48 +352,39 @@
     if-eqz p5, :cond_1
 
     .line 7
-    sget-object p3, Ld1/u;
-    ->b:Ld1/u;
+    sget-object p3, Ld1/u;->b:Ld1/u;
 
     .line 8
     :cond_1
     const-string p5, "<this>"
 
-    invoke-static {p0, p5}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p5}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p5, "startDestination"
 
-    invoke-static {p1, p5}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p5}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p5, "typeMap"
 
-    invoke-static {p3, p5}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p5}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p5, "builder"
 
-    invoke-static {p4, p5}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, p5}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
-    invoke-virtual {p0}, Landroidx/navigation/NavController;
-    ->getNavigatorProvider()Landroidx/navigation/NavigatorProvider;
+    invoke-virtual {p0}, Landroidx/navigation/NavController;->getNavigatorProvider()Landroidx/navigation/NavigatorProvider;
 
     move-result-object p0
 
     .line 10
     new-instance p5, Landroidx/navigation/NavGraphBuilder;
 
-    invoke-direct {p5, p0, p1, p2, p3}, Landroidx/navigation/NavGraphBuilder;
-    -><init>(Landroidx/navigation/NavigatorProvider;Lv1/c;Lv1/c;Ljava/util/Map;)V
+    invoke-direct {p5, p0, p1, p2, p3}, Landroidx/navigation/NavGraphBuilder;-><init>(Landroidx/navigation/NavigatorProvider;Lv1/c;Lv1/c;Ljava/util/Map;)V
 
-    invoke-interface {p4, p5}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p4, p5}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-virtual {p5}, Landroidx/navigation/NavGraphBuilder;
-    ->build()Landroidx/navigation/NavGraph;
+    invoke-virtual {p5}, Landroidx/navigation/NavGraphBuilder;->build()Landroidx/navigation/NavGraph;
 
     move-result-object p0
 

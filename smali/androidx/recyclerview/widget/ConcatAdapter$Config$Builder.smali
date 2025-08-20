@@ -25,34 +25,28 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    sget-object v0, Landroidx/recyclerview/widget/ConcatAdapter$Config;
-    ->DEFAULT:Landroidx/recyclerview/widget/ConcatAdapter$Config;
+    sget-object v0, Landroidx/recyclerview/widget/ConcatAdapter$Config;->DEFAULT:Landroidx/recyclerview/widget/ConcatAdapter$Config;
 
     .line 5
     .line 6
-    iget-boolean v1, v0, Landroidx/recyclerview/widget/ConcatAdapter$Config;
-    ->isolateViewTypes:Z
+    iget-boolean v1, v0, Landroidx/recyclerview/widget/ConcatAdapter$Config;->isolateViewTypes:Z
 
     .line 7
     .line 8
-    iput-boolean v1, p0, Landroidx/recyclerview/widget/ConcatAdapter$Config$Builder;
-    ->mIsolateViewTypes:Z
+    iput-boolean v1, p0, Landroidx/recyclerview/widget/ConcatAdapter$Config$Builder;->mIsolateViewTypes:Z
 
     .line 9
     .line 10
-    iget-object v0, v0, Landroidx/recyclerview/widget/ConcatAdapter$Config;
-    ->stableIdMode:Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;
+    iget-object v0, v0, Landroidx/recyclerview/widget/ConcatAdapter$Config;->stableIdMode:Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;
 
     .line 11
     .line 12
-    iput-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapter$Config$Builder;
-    ->mStableIdMode:Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;    
+    iput-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapter$Config$Builder;->mStableIdMode:Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;
     return-void
 .end method
 
@@ -68,18 +62,15 @@
 
     .line 2
     .line 3
-    iget-boolean v1, p0, Landroidx/recyclerview/widget/ConcatAdapter$Config$Builder;
-    ->mIsolateViewTypes:Z
+    iget-boolean v1, p0, Landroidx/recyclerview/widget/ConcatAdapter$Config$Builder;->mIsolateViewTypes:Z
 
     .line 4
     .line 5
-    iget-object v2, p0, Landroidx/recyclerview/widget/ConcatAdapter$Config$Builder;
-    ->mStableIdMode:Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;
+    iget-object v2, p0, Landroidx/recyclerview/widget/ConcatAdapter$Config$Builder;->mStableIdMode:Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;
 
     .line 6
     .line 7
-    invoke-direct {v0, v1, v2}, Landroidx/recyclerview/widget/ConcatAdapter$Config;
-    -><init>(ZLandroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;)V
+    invoke-direct {v0, v1, v2}, Landroidx/recyclerview/widget/ConcatAdapter$Config;-><init>(ZLandroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;)V
 return-object v0
 .end method
 
@@ -89,8 +80,7 @@ return-object v0
     .end annotation
 
     .line 1
-    iput-boolean p1, p0, Landroidx/recyclerview/widget/ConcatAdapter$Config$Builder;
-    ->mIsolateViewTypes:Z
+    iput-boolean p1, p0, Landroidx/recyclerview/widget/ConcatAdapter$Config$Builder;->mIsolateViewTypes:Z
 return-object p0
 .end method
 
@@ -104,8 +94,7 @@ return-object p0
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/recyclerview/widget/ConcatAdapter$Config$Builder;
-    ->mStableIdMode:Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;    
+    iput-object p1, p0, Landroidx/recyclerview/widget/ConcatAdapter$Config$Builder;->mStableIdMode:Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;
     return-object p0
 .end method
 

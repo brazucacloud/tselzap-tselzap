@@ -11,14 +11,12 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p1, p0}, Landroid/view/View;
-    ->removeOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V
+    invoke-virtual {p1, p0}, Landroid/view/View;->removeOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p1}, Landroid/view/View;
-    ->requestApplyInsets()V
+    invoke-virtual {p1}, Landroid/view/View;->requestApplyInsets()V
 
     .line 5
     .line 6

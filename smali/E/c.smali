@@ -16,14 +16,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicReference;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicReference;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, LE/c;
-    ->a:Ljava/util/concurrent/atomic/AtomicReference;
+    sput-object v0, LE/c;->a:Ljava/util/concurrent/atomic/AtomicReference;
 
     .line 7
     .line 8
@@ -38,8 +36,7 @@
 
     .line 2
     :try_start_0
-    invoke-virtual {p0}, Ljava/io/File;
-    ->length()J
+    invoke-virtual {p0}, Ljava/io/File;->length()J
 
     .line 3
     .line 4
@@ -80,8 +77,7 @@
 
     .line 22
     .line 23
-    invoke-direct {v8, p0, v0}, Ljava/io/RandomAccessFile;
-    -><init>(Ljava/io/File;Ljava/lang/String;)V
+    invoke-direct {v8, p0, v0}, Ljava/io/RandomAccessFile;-><init>(Ljava/io/File;Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_2
 
@@ -89,8 +85,7 @@
     .line 25
     .line 26
     :try_start_1
-    invoke-virtual {v8}, Ljava/io/RandomAccessFile;
-    ->getChannel()Ljava/nio/channels/FileChannel;
+    invoke-virtual {v8}, Ljava/io/RandomAccessFile;->getChannel()Ljava/nio/channels/FileChannel;
 
     .line 27
     .line 28
@@ -101,8 +96,7 @@
 
     .line 30
     :try_start_2
-    sget-object v3, Ljava/nio/channels/FileChannel$MapMode;
-    ->READ_ONLY:Ljava/nio/channels/FileChannel$MapMode;
+    sget-object v3, Ljava/nio/channels/FileChannel$MapMode;->READ_ONLY:Ljava/nio/channels/FileChannel$MapMode;
 
     .line 31
     .line 32
@@ -110,8 +104,7 @@
 
     .line 33
     .line 34
-    invoke-virtual/range {v2 .. v7}, Ljava/nio/channels/FileChannel;
-    ->map(Ljava/nio/channels/FileChannel$MapMode;JJ)Ljava/nio/MappedByteBuffer;
+    invoke-virtual/range {v2 .. v7}, Ljava/nio/channels/FileChannel;->map(Ljava/nio/channels/FileChannel$MapMode;JJ)Ljava/nio/MappedByteBuffer;
 
     .line 35
     .line 36
@@ -119,8 +112,7 @@
     move-result-object p0
 
     .line 38
-    invoke-virtual {p0}, Ljava/nio/MappedByteBuffer;
-    ->load()Ljava/nio/MappedByteBuffer;
+    invoke-virtual {p0}, Ljava/nio/MappedByteBuffer;->load()Ljava/nio/MappedByteBuffer;
 
     .line 39
     .line 40
@@ -131,8 +123,7 @@
 
     .line 42
     :try_start_3
-    invoke-virtual {v2}, Ljava/nio/channels/spi/AbstractInterruptibleChannel;
-    ->close()V
+    invoke-virtual {v2}, Ljava/nio/channels/spi/AbstractInterruptibleChannel;->close()V
     :try_end_3
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_0
 
@@ -141,8 +132,7 @@
     .line 45
     :catch_0
     :try_start_4
-    invoke-virtual {v8}, Ljava/io/RandomAccessFile;
-    ->close()V
+    invoke-virtual {v8}, Ljava/io/RandomAccessFile;->close()V
     :try_end_4
     .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_1
 
@@ -199,8 +189,7 @@
 
     .line 63
     .line 64
-    invoke-direct {p0, v0}, Ljava/io/IOException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
 
     .line 65
     .line 66
@@ -217,8 +206,7 @@
 
     .line 71
     .line 72
-    invoke-direct {p0, v0}, Ljava/io/IOException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
 
     .line 73
     .line 74
@@ -234,8 +222,7 @@
     .line 77
     .line 78
     :try_start_6
-    invoke-virtual {v1}, Ljava/nio/channels/spi/AbstractInterruptibleChannel;
-    ->close()V
+    invoke-virtual {v1}, Ljava/nio/channels/spi/AbstractInterruptibleChannel;->close()V
     :try_end_6
     .catch Ljava/io/IOException; {:try_start_6 .. :try_end_6} :catch_2
 
@@ -256,8 +243,7 @@
     .line 84
     .line 85
     :try_start_7
-    invoke-virtual {v8}, Ljava/io/RandomAccessFile;
-    ->close()V
+    invoke-virtual {v8}, Ljava/io/RandomAccessFile;->close()V
     :try_end_7
     .catch Ljava/io/IOException; {:try_start_7 .. :try_end_7} :catch_3
 
@@ -431,8 +417,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-virtual {p0, v0}, Ljava/nio/ByteBuffer;
-    ->position(I)Ljava/nio/Buffer;
+    invoke-virtual {p0, v0}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
     .line 3
     .line 4
@@ -449,8 +434,7 @@
 
     .line 9
     .line 10
-    invoke-direct {v2, p1, v3}, Ljava/io/RandomAccessFile;
-    -><init>(Ljava/io/File;Ljava/lang/String;)V
+    invoke-direct {v2, p1, v3}, Ljava/io/RandomAccessFile;-><init>(Ljava/io/File;Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
@@ -458,8 +442,7 @@
     .line 12
     .line 13
     :try_start_1
-    invoke-virtual {v2}, Ljava/io/RandomAccessFile;
-    ->getChannel()Ljava/nio/channels/FileChannel;
+    invoke-virtual {v2}, Ljava/io/RandomAccessFile;->getChannel()Ljava/nio/channels/FileChannel;
 
     .line 14
     .line 15
@@ -467,26 +450,22 @@
     move-result-object v1
 
     .line 17
-    invoke-virtual {v1, p0}, Ljava/nio/channels/FileChannel;
-    ->write(Ljava/nio/ByteBuffer;)I
+    invoke-virtual {v1, p0}, Ljava/nio/channels/FileChannel;->write(Ljava/nio/ByteBuffer;)I
 
     .line 18
     .line 19
     .line 20
-    invoke-virtual {v1, v0}, Ljava/nio/channels/FileChannel;
-    ->force(Z)V
+    invoke-virtual {v1, v0}, Ljava/nio/channels/FileChannel;->force(Z)V
 
     .line 21
     .line 22
     .line 23
-    invoke-virtual {v1}, Ljava/nio/channels/spi/AbstractInterruptibleChannel;
-    ->close()V
+    invoke-virtual {v1}, Ljava/nio/channels/spi/AbstractInterruptibleChannel;->close()V
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v2}, Ljava/io/RandomAccessFile;
-    ->close()V
+    invoke-virtual {v2}, Ljava/io/RandomAccessFile;->close()V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -494,8 +473,7 @@
     .line 28
     .line 29
     :try_start_2
-    invoke-virtual {v1}, Ljava/nio/channels/spi/AbstractInterruptibleChannel;
-    ->close()V
+    invoke-virtual {v1}, Ljava/nio/channels/spi/AbstractInterruptibleChannel;->close()V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
 
@@ -504,8 +482,7 @@
     .line 32
     :catch_0
     :try_start_3
-    invoke-virtual {v2}, Ljava/io/RandomAccessFile;
-    ->close()V
+    invoke-virtual {v2}, Ljava/io/RandomAccessFile;->close()V
     :try_end_3
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_1
 
@@ -536,8 +513,7 @@
     .line 41
     .line 42
     :try_start_4
-    invoke-virtual {v1}, Ljava/nio/channels/spi/AbstractInterruptibleChannel;
-    ->close()V
+    invoke-virtual {v1}, Ljava/nio/channels/spi/AbstractInterruptibleChannel;->close()V
     :try_end_4
     .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_2
 
@@ -558,8 +534,7 @@
     .line 48
     .line 49
     :try_start_5
-    invoke-virtual {v2}, Ljava/io/RandomAccessFile;
-    ->close()V
+    invoke-virtual {v2}, Ljava/io/RandomAccessFile;->close()V
     :try_end_5
     .catch Ljava/io/IOException; {:try_start_5 .. :try_end_5} :catch_3
 

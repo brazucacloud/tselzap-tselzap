@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/fragment/app/Fragment;
-    ->performCreate(Landroid/os/Bundle;)V
+    value = Landroidx/fragment/app/Fragment;->performCreate(Landroid/os/Bundle;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/fragment/app/Fragment$6;
-    ->this$0:Landroidx/fragment/app/Fragment;
+    iput-object p1, p0, Landroidx/fragment/app/Fragment$6;->this$0:Landroidx/fragment/app/Fragment;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -51,8 +48,7 @@
     .end param
 
     .line 1
-    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;
-    ->ON_STOP:Landroidx/lifecycle/Lifecycle$Event;
+    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;->ON_STOP:Landroidx/lifecycle/Lifecycle$Event;
 
     .line 2
     .line 3
@@ -60,13 +56,11 @@
 
     .line 4
     .line 5
-    iget-object p1, p0, Landroidx/fragment/app/Fragment$6;
-    ->this$0:Landroidx/fragment/app/Fragment;
+    iget-object p1, p0, Landroidx/fragment/app/Fragment$6;->this$0:Landroidx/fragment/app/Fragment;
 
     .line 6
     .line 7
-    iget-object p1, p1, Landroidx/fragment/app/Fragment;
-    ->mView:Landroid/view/View;
+    iget-object p1, p1, Landroidx/fragment/app/Fragment;->mView:Landroid/view/View;
 
     .line 8
     .line 9
@@ -74,8 +68,7 @@
 
     .line 10
     .line 11
-    invoke-static {p1}, Landroidx/fragment/app/Fragment$Api19Impl;
-    ->cancelPendingInputEvents(Landroid/view/View;)V
+    invoke-static {p1}, Landroidx/fragment/app/Fragment$Api19Impl;->cancelPendingInputEvents(Landroid/view/View;)V
 
     .line 12
     .line 13

@@ -17,14 +17,11 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Lx0/b;
-    ->a:I
+    iput p2, p0, Lx0/b;->a:I
 
-    iput-object p1, p0, Lx0/b;
-    ->b:Lx0/d;
+    iput-object p1, p0, Lx0/b;->b:Lx0/d;
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -34,8 +31,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lx0/b;
-    ->a:I
+    iget v0, p0, Lx0/b;->a:I
 
     .line 2
     .line 3
@@ -44,19 +40,16 @@
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Lx0/b;
-    ->b:Lx0/d;
+    iget-object v0, p0, Lx0/b;->b:Lx0/d;
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p1}, Landroid/animation/ValueAnimator;
-    ->getAnimatedValue()Ljava/lang/Object;
+    invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -68,8 +61,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p1}, Ljava/lang/Float;
-    ->floatValue()F
+    invoke-virtual {p1}, Ljava/lang/Float;->floatValue()F
 
     .line 18
     .line 19
@@ -77,19 +69,16 @@
     move-result p1
 
     .line 21
-    iget-object v0, v0, Lx0/q;
-    ->d:Lcom/google/android/material/internal/CheckableImageButton;
+    iget-object v0, v0, Lx0/q;->d:Lcom/google/android/material/internal/CheckableImageButton;
 
     .line 22
     .line 23
-    invoke-virtual {v0, p1}, Landroid/view/View;
-    ->setScaleX(F)V
+    invoke-virtual {v0, p1}, Landroid/view/View;->setScaleX(F)V
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v0, p1}, Landroid/view/View;
-    ->setScaleY(F)V
+    invoke-virtual {v0, p1}, Landroid/view/View;->setScaleY(F)V
 
     .line 27
     .line 28
@@ -98,19 +87,16 @@
 
     .line 30
     :pswitch_0
-    iget-object v0, p0, Lx0/b;
-    ->b:Lx0/d;
+    iget-object v0, p0, Lx0/b;->b:Lx0/d;
 
     .line 31
     .line 32
-    invoke-virtual {v0}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 33
     .line 34
     .line 35
-    invoke-virtual {p1}, Landroid/animation/ValueAnimator;
-    ->getAnimatedValue()Ljava/lang/Object;
+    invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     .line 36
     .line 37
@@ -122,8 +108,7 @@
 
     .line 40
     .line 41
-    invoke-virtual {p1}, Ljava/lang/Float;
-    ->floatValue()F
+    invoke-virtual {p1}, Ljava/lang/Float;->floatValue()F
 
     .line 42
     .line 43
@@ -131,13 +116,11 @@
     move-result p1
 
     .line 45
-    iget-object v0, v0, Lx0/q;
-    ->d:Lcom/google/android/material/internal/CheckableImageButton;
+    iget-object v0, v0, Lx0/q;->d:Lcom/google/android/material/internal/CheckableImageButton;
 
     .line 46
     .line 47
-    invoke-virtual {v0, p1}, Landroid/view/View;
-    ->setAlpha(F)V
+    invoke-virtual {v0, p1}, Landroid/view/View;->setAlpha(F)V
 
     .line 48
     .line 49

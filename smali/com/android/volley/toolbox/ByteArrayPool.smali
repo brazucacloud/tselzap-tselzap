@@ -47,14 +47,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/android/volley/toolbox/ByteArrayPool$1;
-    -><init>()V
+    invoke-direct {v0}, Lcom/android/volley/toolbox/ByteArrayPool$1;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->BUF_COMPARATOR:Ljava/util/Comparator;
+    sput-object v0, Lcom/android/volley/toolbox/ByteArrayPool;->BUF_COMPARATOR:Ljava/util/Comparator;
 
     .line 7
     .line 8
@@ -65,8 +63,7 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -75,14 +72,12 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->mBuffersByLastUse:Ljava/util/List;
+    iput-object v0, p0, Lcom/android/volley/toolbox/ByteArrayPool;->mBuffersByLastUse:Ljava/util/List;
 
     .line 10
     .line 11
@@ -94,27 +89,23 @@
 
     .line 14
     .line 15
-    invoke-direct {v0, v1}, Ljava/util/ArrayList;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
     .line 16
     .line 17
     .line 18
-    iput-object v0, p0, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->mBuffersBySize:Ljava/util/List;
+    iput-object v0, p0, Lcom/android/volley/toolbox/ByteArrayPool;->mBuffersBySize:Ljava/util/List;
 
     .line 19
     .line 20
     const/4 v0, 0x0
 
     .line 21
-    iput v0, p0, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->mCurrentSize:I
+    iput v0, p0, Lcom/android/volley/toolbox/ByteArrayPool;->mCurrentSize:I
 
     .line 22
     .line 23
-    iput p1, p0, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->mSizeLimit:I
+    iput p1, p0, Lcom/android/volley/toolbox/ByteArrayPool;->mSizeLimit:I
 
     .line 24
     .line 25
@@ -130,13 +121,11 @@
     .line 2
     :goto_0
     :try_start_0
-    iget v0, p0, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->mCurrentSize:I
+    iget v0, p0, Lcom/android/volley/toolbox/ByteArrayPool;->mCurrentSize:I
 
     .line 3
     .line 4
-    iget v1, p0, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->mSizeLimit:I
+    iget v1, p0, Lcom/android/volley/toolbox/ByteArrayPool;->mSizeLimit:I
 
     .line 5
     .line 6
@@ -144,16 +133,14 @@
 
     .line 7
     .line 8
-    iget-object v0, p0, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->mBuffersByLastUse:Ljava/util/List;
+    iget-object v0, p0, Lcom/android/volley/toolbox/ByteArrayPool;->mBuffersByLastUse:Ljava/util/List;
 
     .line 9
     .line 10
     const/4 v1, 0x0
 
     .line 11
-    invoke-interface {v0, v1}, Ljava/util/List;
-    ->remove(I)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -165,19 +152,16 @@
 
     .line 16
     .line 17
-    iget-object v1, p0, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->mBuffersBySize:Ljava/util/List;
+    iget-object v1, p0, Lcom/android/volley/toolbox/ByteArrayPool;->mBuffersBySize:Ljava/util/List;
 
     .line 18
     .line 19
-    invoke-interface {v1, v0}, Ljava/util/List;
-    ->remove(Ljava/lang/Object;)Z
+    invoke-interface {v1, v0}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
 
     .line 20
     .line 21
     .line 22
-    iget v1, p0, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->mCurrentSize:I
+    iget v1, p0, Lcom/android/volley/toolbox/ByteArrayPool;->mCurrentSize:I
 
     .line 23
     .line 24
@@ -187,8 +171,7 @@
     sub-int/2addr v1, v0
 
     .line 26
-    iput v1, p0, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->mCurrentSize:I
+    iput v1, p0, Lcom/android/volley/toolbox/ByteArrayPool;->mCurrentSize:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -286,13 +269,11 @@
     .line 3
     :goto_0
     :try_start_0
-    iget-object v1, p0, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->mBuffersBySize:Ljava/util/List;
+    iget-object v1, p0, Lcom/android/volley/toolbox/ByteArrayPool;->mBuffersBySize:Ljava/util/List;
 
     .line 4
     .line 5
-    invoke-interface {v1}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v1}, Ljava/util/List;->size()I
 
     .line 6
     .line 7
@@ -304,13 +285,11 @@
 
     .line 10
     .line 11
-    iget-object v1, p0, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->mBuffersBySize:Ljava/util/List;
+    iget-object v1, p0, Lcom/android/volley/toolbox/ByteArrayPool;->mBuffersBySize:Ljava/util/List;
 
     .line 12
     .line 13
-    invoke-interface {v1, v0}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -329,8 +308,7 @@
 
     .line 21
     .line 22
-    iget p1, p0, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->mCurrentSize:I
+    iget p1, p0, Lcom/android/volley/toolbox/ByteArrayPool;->mCurrentSize:I
 
     .line 23
     .line 24
@@ -340,29 +318,24 @@
     sub-int/2addr p1, v2
 
     .line 26
-    iput p1, p0, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->mCurrentSize:I
+    iput p1, p0, Lcom/android/volley/toolbox/ByteArrayPool;->mCurrentSize:I
 
     .line 27
     .line 28
-    iget-object p1, p0, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->mBuffersBySize:Ljava/util/List;
+    iget-object p1, p0, Lcom/android/volley/toolbox/ByteArrayPool;->mBuffersBySize:Ljava/util/List;
 
     .line 29
     .line 30
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->remove(I)Ljava/lang/Object;
+    invoke-interface {p1, v0}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
     .line 31
     .line 32
     .line 33
-    iget-object p1, p0, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->mBuffersByLastUse:Ljava/util/List;
+    iget-object p1, p0, Lcom/android/volley/toolbox/ByteArrayPool;->mBuffersByLastUse:Ljava/util/List;
 
     .line 34
     .line 35
-    invoke-interface {p1, v1}, Ljava/util/List;
-    ->remove(Ljava/lang/Object;)Z
+    invoke-interface {p1, v1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -461,8 +434,7 @@
     array-length v0, p1
 
     .line 5
-    iget v1, p0, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->mSizeLimit:I
+    iget v1, p0, Lcom/android/volley/toolbox/ByteArrayPool;->mSizeLimit:I
 
     .line 6
     .line 7
@@ -474,29 +446,24 @@
 
     .line 10
     :cond_0
-    iget-object v0, p0, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->mBuffersByLastUse:Ljava/util/List;
+    iget-object v0, p0, Lcom/android/volley/toolbox/ByteArrayPool;->mBuffersByLastUse:Ljava/util/List;
 
     .line 11
     .line 12
-    invoke-interface {v0, p1}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 13
     .line 14
     .line 15
-    iget-object v0, p0, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->mBuffersBySize:Ljava/util/List;
+    iget-object v0, p0, Lcom/android/volley/toolbox/ByteArrayPool;->mBuffersBySize:Ljava/util/List;
 
     .line 16
     .line 17
-    sget-object v1, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->BUF_COMPARATOR:Ljava/util/Comparator;
+    sget-object v1, Lcom/android/volley/toolbox/ByteArrayPool;->BUF_COMPARATOR:Ljava/util/Comparator;
 
     .line 18
     .line 19
-    invoke-static {v0, p1, v1}, Ljava/util/Collections;
-    ->binarySearch(Ljava/util/List;Ljava/lang/Object;Ljava/util/Comparator;)I
+    invoke-static {v0, p1, v1}, Ljava/util/Collections;->binarySearch(Ljava/util/List;Ljava/lang/Object;Ljava/util/Comparator;)I
 
     .line 20
     .line 21
@@ -516,19 +483,16 @@
     .line 27
     .line 28
     :cond_1
-    iget-object v1, p0, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->mBuffersBySize:Ljava/util/List;
+    iget-object v1, p0, Lcom/android/volley/toolbox/ByteArrayPool;->mBuffersBySize:Ljava/util/List;
 
     .line 29
     .line 30
-    invoke-interface {v1, v0, p1}, Ljava/util/List;
-    ->add(ILjava/lang/Object;)V
+    invoke-interface {v1, v0, p1}, Ljava/util/List;->add(ILjava/lang/Object;)V
 
     .line 31
     .line 32
     .line 33
-    iget v0, p0, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->mCurrentSize:I
+    iget v0, p0, Lcom/android/volley/toolbox/ByteArrayPool;->mCurrentSize:I
 
     .line 34
     .line 35
@@ -538,13 +502,11 @@
     add-int/2addr v0, p1
 
     .line 37
-    iput v0, p0, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->mCurrentSize:I
+    iput v0, p0, Lcom/android/volley/toolbox/ByteArrayPool;->mCurrentSize:I
 
     .line 38
     .line 39
-    invoke-direct {p0}, Lcom/android/volley/toolbox/ByteArrayPool;
-    ->trim()V
+    invoke-direct {p0}, Lcom/android/volley/toolbox/ByteArrayPool;->trim()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

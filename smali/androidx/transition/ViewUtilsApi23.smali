@@ -24,8 +24,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/transition/ViewUtilsApi22;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/transition/ViewUtilsApi22;-><init>()V
     return-void
 .end method
 
@@ -44,8 +43,7 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -57,14 +55,12 @@
 
     .line 6
     .line 7
-    invoke-super {p0, p1, p2}, Landroidx/transition/ViewUtilsApi19;
-    ->setTransitionVisibility(Landroid/view/View;I)V    
+    invoke-super {p0, p1, p2}, Landroidx/transition/ViewUtilsApi19;->setTransitionVisibility(Landroid/view/View;I)V
     return-void
 
     .line 11
     :cond_0
-    sget-boolean v0, Landroidx/transition/ViewUtilsApi23;
-    ->sTryHiddenSetTransitionVisibility:Z
+    sget-boolean v0, Landroidx/transition/ViewUtilsApi23;->sTryHiddenSetTransitionVisibility:Z
 
     .line 12
     .line 13
@@ -73,8 +69,7 @@
     .line 14
     .line 15
     :try_start_0
-    invoke-static {p1, p2}, Landroidx/transition/ViewUtilsApi23$Api29Impl;
-    ->setTransitionVisibility(Landroid/view/View;I)V
+    invoke-static {p1, p2}, Landroidx/transition/ViewUtilsApi23$Api29Impl;->setTransitionVisibility(Landroid/view/View;I)V
     :try_end_0
     .catch Ljava/lang/NoSuchMethodError; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
@@ -83,8 +78,7 @@
     const/4 p1, 0x0
 
     .line 20
-    sput-boolean p1, Landroidx/transition/ViewUtilsApi23;
-    ->sTryHiddenSetTransitionVisibility:Z
+    sput-boolean p1, Landroidx/transition/ViewUtilsApi23;->sTryHiddenSetTransitionVisibility:Z
 
     .line 21
     .line 22

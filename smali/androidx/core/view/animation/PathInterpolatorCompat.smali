@@ -16,8 +16,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -31,8 +30,7 @@
     .end annotation
 
     .line 2
-    invoke-static {p0, p1}, Landroidx/core/view/animation/PathInterpolatorCompat$Api21Impl;
-    ->createPathInterpolator(FF)Landroid/view/animation/Interpolator;
+    invoke-static {p0, p1}, Landroidx/core/view/animation/PathInterpolatorCompat$Api21Impl;->createPathInterpolator(FF)Landroid/view/animation/Interpolator;
 
     move-result-object p0
 
@@ -45,8 +43,7 @@
     .end annotation
 
     .line 3
-    invoke-static {p0, p1, p2, p3}, Landroidx/core/view/animation/PathInterpolatorCompat$Api21Impl;
-    ->createPathInterpolator(FFFF)Landroid/view/animation/Interpolator;
+    invoke-static {p0, p1, p2, p3}, Landroidx/core/view/animation/PathInterpolatorCompat$Api21Impl;->createPathInterpolator(FFFF)Landroid/view/animation/Interpolator;
 
     move-result-object p0
 
@@ -63,8 +60,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/view/animation/PathInterpolatorCompat$Api21Impl;
-    ->createPathInterpolator(Landroid/graphics/Path;)Landroid/view/animation/Interpolator;
+    invoke-static {p0}, Landroidx/core/view/animation/PathInterpolatorCompat$Api21Impl;->createPathInterpolator(Landroid/graphics/Path;)Landroid/view/animation/Interpolator;
 
     move-result-object p0
 

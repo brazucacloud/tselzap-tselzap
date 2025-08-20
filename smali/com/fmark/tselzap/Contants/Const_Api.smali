@@ -40,14 +40,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Lcom/fmark/tselzap/Contants/Const_Api;
-    ->LAST_FETCHED_IDS:Ljava/util/List;
+    sput-object v0, Lcom/fmark/tselzap/Contants/Const_Api;->LAST_FETCHED_IDS:Ljava/util/List;
 
     .line 7
     .line 8
@@ -55,14 +53,12 @@
 
     .line 9
     .line 10
-    invoke-direct {v0}, Lorg/json/JSONArray;
-    -><init>()V
+    invoke-direct {v0}, Lorg/json/JSONArray;-><init>()V
 
     .line 11
     .line 12
     .line 13
-    sput-object v0, Lcom/fmark/tselzap/Contants/Const_Api;
-    ->LAST_FETCHED_IDS_TEMP:Lorg/json/JSONArray;
+    sput-object v0, Lcom/fmark/tselzap/Contants/Const_Api;->LAST_FETCHED_IDS_TEMP:Lorg/json/JSONArray;
 
     .line 14
     .line 15
@@ -70,13 +66,11 @@
 
     .line 16
     .line 17
-    sput-object v0, Lcom/fmark/tselzap/Contants/Const_Api;
-    ->ApiServer:Ljava/lang/String;
+    sput-object v0, Lcom/fmark/tselzap/Contants/Const_Api;->ApiServer:Ljava/lang/String;
 
     .line 18
     .line 19
-    sput-object v0, Lcom/fmark/tselzap/Contants/Const_Api;
-    ->LicResponse:Ljava/lang/String;
+    sput-object v0, Lcom/fmark/tselzap/Contants/Const_Api;->LicResponse:Ljava/lang/String;
 
     .line 20
     .line 21
@@ -84,26 +78,22 @@
 
     .line 22
     .line 23
-    sput-object v1, Lcom/fmark/tselzap/Contants/Const_Api;
-    ->ApiType:Ljava/lang/String;
+    sput-object v1, Lcom/fmark/tselzap/Contants/Const_Api;->ApiType:Ljava/lang/String;
 
     .line 24
     .line 25
-    sput-object v0, Lcom/fmark/tselzap/Contants/Const_Api;
-    ->NumberPhonesAndPermissions:Ljava/lang/String;
+    sput-object v0, Lcom/fmark/tselzap/Contants/Const_Api;->NumberPhonesAndPermissions:Ljava/lang/String;
 
     .line 26
     .line 27
-    sput-object v0, Lcom/fmark/tselzap/Contants/Const_Api;
-    ->PermissionsSend:Ljava/lang/String;
+    sput-object v0, Lcom/fmark/tselzap/Contants/Const_Api;->PermissionsSend:Ljava/lang/String;
 
     .line 28
     .line 29
     const/4 v0, 0x5
 
     .line 30
-    sput v0, Lcom/fmark/tselzap/Contants/Const_Api;
-    ->DelaySend:I
+    sput v0, Lcom/fmark/tselzap/Contants/Const_Api;->DelaySend:I
 
     .line 31
     .line 32
@@ -111,8 +101,7 @@
 
     .line 33
     .line 34
-    sput v0, Lcom/fmark/tselzap/Contants/Const_Api;
-    ->DelayServer:I
+    sput v0, Lcom/fmark/tselzap/Contants/Const_Api;->DelayServer:I
 
     .line 35
     .line 36
@@ -123,8 +112,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3

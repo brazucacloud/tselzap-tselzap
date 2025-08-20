@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -49,8 +48,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/Context;
-    ->getSystemService(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Landroid/content/Context;->getSystemService(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -66,8 +64,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/app/AppOpsManager;
-    ->noteProxyOp(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-virtual {p0, p1, p2}, Landroid/app/AppOpsManager;->noteProxyOp(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 2
     .line 3
@@ -83,8 +80,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/app/AppOpsManager;
-    ->noteProxyOpNoThrow(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-virtual {p0, p1, p2}, Landroid/app/AppOpsManager;->noteProxyOpNoThrow(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 2
     .line 3
@@ -100,8 +96,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroid/app/AppOpsManager;
-    ->permissionToOp(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Landroid/app/AppOpsManager;->permissionToOp(Ljava/lang/String;)Ljava/lang/String;
 
     .line 2
     .line 3

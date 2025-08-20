@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/navigation/ActivityNavArgsLazyKt;
-    ->navArgs(Landroid/app/Activity;)Landroidx/navigation/NavArgsLazy;
+    value = Landroidx/navigation/ActivityNavArgsLazyKt;->navArgs(Landroid/app/Activity;)Landroidx/navigation/NavArgsLazy;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -33,13 +32,11 @@
 .method public constructor <init>(Landroid/app/Activity;)V
     .locals 0
 
-    iput-object p1, p0, Landroidx/navigation/ActivityNavArgsLazyKt$navArgs$1;
-    ->$this_navArgs:Landroid/app/Activity;
+    iput-object p1, p0, Landroidx/navigation/ActivityNavArgsLazyKt$navArgs$1;->$this_navArgs:Landroid/app/Activity;
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
-    -><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
 return-void
 .end method
 
@@ -49,11 +46,9 @@ return-void
     .locals 5
 
     .line 2
-    iget-object v0, p0, Landroidx/navigation/ActivityNavArgsLazyKt$navArgs$1;
-    ->$this_navArgs:Landroid/app/Activity;
+    iget-object v0, p0, Landroidx/navigation/ActivityNavArgsLazyKt$navArgs$1;->$this_navArgs:Landroid/app/Activity;
 
-    invoke-virtual {v0}, Landroid/app/Activity;
-    ->getIntent()Landroid/content/Intent;
+    invoke-virtual {v0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
     move-result-object v0
 
@@ -61,12 +56,10 @@ return-void
 
     if-eqz v0, :cond_1
 
-    iget-object v2, p0, Landroidx/navigation/ActivityNavArgsLazyKt$navArgs$1;
-    ->$this_navArgs:Landroid/app/Activity;
+    iget-object v2, p0, Landroidx/navigation/ActivityNavArgsLazyKt$navArgs$1;->$this_navArgs:Landroid/app/Activity;
 
     .line 3
-    invoke-virtual {v0}, Landroid/content/Intent;
-    ->getExtras()Landroid/os/Bundle;
+    invoke-virtual {v0}, Landroid/content/Intent;->getExtras()Landroid/os/Bundle;
 
     move-result-object v3
 
@@ -80,27 +73,21 @@ return-void
 
     new-instance v4, Ljava/lang/StringBuilder;
 
-    invoke-direct {v4, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v4, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     const-string v1, " has null extras in "
 
-    invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v4, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-direct {v3, v0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     throw v3
 
@@ -118,27 +105,21 @@ return-void
 
     new-instance v2, Ljava/lang/StringBuilder;
 
-    invoke-direct {v2, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v1, p0, Landroidx/navigation/ActivityNavArgsLazyKt$navArgs$1;
-    ->$this_navArgs:Landroid/app/Activity;
+    iget-object v1, p0, Landroidx/navigation/ActivityNavArgsLazyKt$navArgs$1;->$this_navArgs:Landroid/app/Activity;
 
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     const-string v1, " has a null Intent"
 
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     throw v0
 .end method
@@ -147,8 +128,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/navigation/ActivityNavArgsLazyKt$navArgs$1;
-    ->invoke()Landroid/os/Bundle;
+    invoke-virtual {p0}, Landroidx/navigation/ActivityNavArgsLazyKt$navArgs$1;->invoke()Landroid/os/Bundle;
 
     move-result-object v0
 

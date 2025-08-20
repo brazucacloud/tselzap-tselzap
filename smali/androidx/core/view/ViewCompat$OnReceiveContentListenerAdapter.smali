@@ -37,14 +37,12 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/core/view/ViewCompat$OnReceiveContentListenerAdapter;
-    ->mJetpackListener:Landroidx/core/view/OnReceiveContentListener;
+    iput-object p1, p0, Landroidx/core/view/ViewCompat$OnReceiveContentListenerAdapter;->mJetpackListener:Landroidx/core/view/OnReceiveContentListener;
 
     .line 5
     .line 6
@@ -67,8 +65,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p2}, Landroidx/core/view/ContentInfoCompat;
-    ->toContentInfoCompat(Landroid/view/ContentInfo;)Landroidx/core/view/ContentInfoCompat;
+    invoke-static {p2}, Landroidx/core/view/ContentInfoCompat;->toContentInfoCompat(Landroid/view/ContentInfo;)Landroidx/core/view/ContentInfoCompat;
 
     .line 2
     .line 3
@@ -76,13 +73,11 @@
     move-result-object v0
 
     .line 5
-    iget-object v1, p0, Landroidx/core/view/ViewCompat$OnReceiveContentListenerAdapter;
-    ->mJetpackListener:Landroidx/core/view/OnReceiveContentListener;
+    iget-object v1, p0, Landroidx/core/view/ViewCompat$OnReceiveContentListenerAdapter;->mJetpackListener:Landroidx/core/view/OnReceiveContentListener;
 
     .line 6
     .line 7
-    invoke-interface {v1, p1, v0}, Landroidx/core/view/OnReceiveContentListener;
-    ->onReceiveContent(Landroid/view/View;Landroidx/core/view/ContentInfoCompat;)Landroidx/core/view/ContentInfoCompat;
+    invoke-interface {v1, p1, v0}, Landroidx/core/view/OnReceiveContentListener;->onReceiveContent(Landroid/view/View;Landroidx/core/view/ContentInfoCompat;)Landroidx/core/view/ContentInfoCompat;
 
     .line 8
     .line 9
@@ -108,8 +103,7 @@
 
     .line 18
     :cond_1
-    invoke-virtual {p1}, Landroidx/core/view/ContentInfoCompat;
-    ->toContentInfo()Landroid/view/ContentInfo;
+    invoke-virtual {p1}, Landroidx/core/view/ContentInfoCompat;->toContentInfo()Landroid/view/ContentInfo;
 
     .line 19
     .line 20

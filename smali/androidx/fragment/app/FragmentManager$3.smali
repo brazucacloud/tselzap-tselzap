@@ -23,13 +23,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/fragment/app/FragmentManager$3;
-    ->this$0:Landroidx/fragment/app/FragmentManager;
+    iput-object p1, p0, Landroidx/fragment/app/FragmentManager$3;->this$0:Landroidx/fragment/app/FragmentManager;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/fragment/app/FragmentFactory;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/fragment/app/FragmentFactory;-><init>()V
     return-void
 .end method
 
@@ -49,13 +47,11 @@
     .end annotation
 
     .line 1
-    iget-object p1, p0, Landroidx/fragment/app/FragmentManager$3;
-    ->this$0:Landroidx/fragment/app/FragmentManager;
+    iget-object p1, p0, Landroidx/fragment/app/FragmentManager$3;->this$0:Landroidx/fragment/app/FragmentManager;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroidx/fragment/app/FragmentManager;
-    ->getHost()Landroidx/fragment/app/FragmentHostCallback;
+    invoke-virtual {p1}, Landroidx/fragment/app/FragmentManager;->getHost()Landroidx/fragment/app/FragmentHostCallback;
 
     .line 4
     .line 5
@@ -63,13 +59,11 @@
     move-result-object p1
 
     .line 7
-    iget-object v0, p0, Landroidx/fragment/app/FragmentManager$3;
-    ->this$0:Landroidx/fragment/app/FragmentManager;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentManager$3;->this$0:Landroidx/fragment/app/FragmentManager;
 
     .line 8
     .line 9
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;
-    ->getHost()Landroidx/fragment/app/FragmentHostCallback;
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->getHost()Landroidx/fragment/app/FragmentHostCallback;
 
     .line 10
     .line 11
@@ -77,8 +71,7 @@
     move-result-object v0
 
     .line 13
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentHostCallback;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentHostCallback;->getContext()Landroid/content/Context;
 
     .line 14
     .line 15
@@ -89,8 +82,7 @@
     const/4 v1, 0x0
 
     .line 18
-    invoke-virtual {p1, v0, p2, v1}, Landroidx/fragment/app/FragmentContainer;
-    ->instantiate(Landroid/content/Context;Ljava/lang/String;Landroid/os/Bundle;)Landroidx/fragment/app/Fragment;
+    invoke-virtual {p1, v0, p2, v1}, Landroidx/fragment/app/FragmentContainer;->instantiate(Landroid/content/Context;Ljava/lang/String;Landroid/os/Bundle;)Landroidx/fragment/app/Fragment;
 
     .line 19
     .line 20

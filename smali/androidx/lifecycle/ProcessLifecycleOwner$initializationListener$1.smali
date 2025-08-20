@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/lifecycle/ProcessLifecycleOwner;
-    -><init>()V
+    value = Landroidx/lifecycle/ProcessLifecycleOwner;-><init>()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/lifecycle/ProcessLifecycleOwner$initializationListener$1;
-    ->this$0:Landroidx/lifecycle/ProcessLifecycleOwner;
+    iput-object p1, p0, Landroidx/lifecycle/ProcessLifecycleOwner$initializationListener$1;->this$0:Landroidx/lifecycle/ProcessLifecycleOwner;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -49,13 +46,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/ProcessLifecycleOwner$initializationListener$1;
-    ->this$0:Landroidx/lifecycle/ProcessLifecycleOwner;
+    iget-object v0, p0, Landroidx/lifecycle/ProcessLifecycleOwner$initializationListener$1;->this$0:Landroidx/lifecycle/ProcessLifecycleOwner;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/lifecycle/ProcessLifecycleOwner;
-    ->activityResumed$lifecycle_process_release()V
+    invoke-virtual {v0}, Landroidx/lifecycle/ProcessLifecycleOwner;->activityResumed$lifecycle_process_release()V
     return-void
 .end method
 
@@ -63,13 +58,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/ProcessLifecycleOwner$initializationListener$1;
-    ->this$0:Landroidx/lifecycle/ProcessLifecycleOwner;
+    iget-object v0, p0, Landroidx/lifecycle/ProcessLifecycleOwner$initializationListener$1;->this$0:Landroidx/lifecycle/ProcessLifecycleOwner;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/lifecycle/ProcessLifecycleOwner;
-    ->activityStarted$lifecycle_process_release()V
+    invoke-virtual {v0}, Landroidx/lifecycle/ProcessLifecycleOwner;->activityStarted$lifecycle_process_release()V
     return-void
 .end method
 

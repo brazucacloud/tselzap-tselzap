@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/lifecycle/SavedStateHandlesProvider;
-    -><init>(Landroidx/savedstate/SavedStateRegistry;Landroidx/lifecycle/ViewModelStoreOwner;)V
+    value = Landroidx/lifecycle/SavedStateHandlesProvider;-><init>(Landroidx/savedstate/SavedStateRegistry;Landroidx/lifecycle/ViewModelStoreOwner;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -33,13 +32,11 @@
 .method public constructor <init>(Landroidx/lifecycle/ViewModelStoreOwner;)V
     .locals 0
 
-    iput-object p1, p0, Landroidx/lifecycle/SavedStateHandlesProvider$viewModel$2;
-    ->$viewModelStoreOwner:Landroidx/lifecycle/ViewModelStoreOwner;
+    iput-object p1, p0, Landroidx/lifecycle/SavedStateHandlesProvider$viewModel$2;->$viewModelStoreOwner:Landroidx/lifecycle/ViewModelStoreOwner;
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
-    -><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
 return-void
 .end method
 
@@ -49,11 +46,9 @@ return-void
     .locals 1
 
     .line 2
-    iget-object v0, p0, Landroidx/lifecycle/SavedStateHandlesProvider$viewModel$2;
-    ->$viewModelStoreOwner:Landroidx/lifecycle/ViewModelStoreOwner;
+    iget-object v0, p0, Landroidx/lifecycle/SavedStateHandlesProvider$viewModel$2;->$viewModelStoreOwner:Landroidx/lifecycle/ViewModelStoreOwner;
 
-    invoke-static {v0}, Landroidx/lifecycle/SavedStateHandleSupport;
-    ->getSavedStateHandlesVM(Landroidx/lifecycle/ViewModelStoreOwner;)Landroidx/lifecycle/SavedStateHandlesVM;
+    invoke-static {v0}, Landroidx/lifecycle/SavedStateHandleSupport;->getSavedStateHandlesVM(Landroidx/lifecycle/ViewModelStoreOwner;)Landroidx/lifecycle/SavedStateHandlesVM;
 
     move-result-object v0
 
@@ -64,8 +59,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/lifecycle/SavedStateHandlesProvider$viewModel$2;
-    ->invoke()Landroidx/lifecycle/SavedStateHandlesVM;
+    invoke-virtual {p0}, Landroidx/lifecycle/SavedStateHandlesProvider$viewModel$2;->invoke()Landroidx/lifecycle/SavedStateHandlesVM;
 
     move-result-object v0
 

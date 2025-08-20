@@ -45,8 +45,7 @@
     .locals 2
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 3
     instance-of v0, p1, Landroidx/datastore/preferences/protobuf/RopeByteString;
@@ -59,34 +58,27 @@
     .line 5
     new-instance v0, Ljava/util/ArrayDeque;
 
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/RopeByteString;
-    ->getTreeDepth()I
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/RopeByteString;->getTreeDepth()I
 
     move-result v1
 
-    invoke-direct {v0, v1}, Ljava/util/ArrayDeque;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Ljava/util/ArrayDeque;-><init>(I)V
 
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;
-    ->breadCrumbs:Ljava/util/ArrayDeque;
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;->breadCrumbs:Ljava/util/ArrayDeque;
 
     .line 6
-    invoke-virtual {v0, p1}, Ljava/util/ArrayDeque;
-    ->push(Ljava/lang/Object;)V
+    invoke-virtual {v0, p1}, Ljava/util/ArrayDeque;->push(Ljava/lang/Object;)V
 
     .line 7
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/RopeByteString;
-    ->access$400(Landroidx/datastore/preferences/protobuf/RopeByteString;)Landroidx/datastore/preferences/protobuf/ByteString;
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/RopeByteString;->access$400(Landroidx/datastore/preferences/protobuf/RopeByteString;)Landroidx/datastore/preferences/protobuf/ByteString;
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;
-    ->getLeafByLeft(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/ByteString$LeafByteString;
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;->getLeafByLeft(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/ByteString$LeafByteString;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;
-    ->next:Landroidx/datastore/preferences/protobuf/ByteString$LeafByteString;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;->next:Landroidx/datastore/preferences/protobuf/ByteString$LeafByteString;
 
     return-void
 
@@ -94,14 +86,12 @@
     const/4 v0, 0x0
 
     .line 8
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;
-    ->breadCrumbs:Ljava/util/ArrayDeque;
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;->breadCrumbs:Ljava/util/ArrayDeque;
 
     .line 9
     check-cast p1, Landroidx/datastore/preferences/protobuf/ByteString$LeafByteString;
 
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;
-    ->next:Landroidx/datastore/preferences/protobuf/ByteString$LeafByteString;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;->next:Landroidx/datastore/preferences/protobuf/ByteString$LeafByteString;
 
     return-void
 .end method
@@ -110,8 +100,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;
-    -><init>(Landroidx/datastore/preferences/protobuf/ByteString;)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;-><init>(Landroidx/datastore/preferences/protobuf/ByteString;)V
 return-void
 .end method
 
@@ -132,19 +121,16 @@ return-void
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;
-    ->breadCrumbs:Ljava/util/ArrayDeque;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;->breadCrumbs:Ljava/util/ArrayDeque;
 
     .line 8
     .line 9
-    invoke-virtual {v0, p1}, Ljava/util/ArrayDeque;
-    ->push(Ljava/lang/Object;)V
+    invoke-virtual {v0, p1}, Ljava/util/ArrayDeque;->push(Ljava/lang/Object;)V
 
     .line 10
     .line 11
     .line 12
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/RopeByteString;
-    ->access$400(Landroidx/datastore/preferences/protobuf/RopeByteString;)Landroidx/datastore/preferences/protobuf/ByteString;
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/RopeByteString;->access$400(Landroidx/datastore/preferences/protobuf/RopeByteString;)Landroidx/datastore/preferences/protobuf/ByteString;
 
     .line 13
     .line 14
@@ -164,8 +150,7 @@ return-void
 
     .line 1
     :cond_0
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;
-    ->breadCrumbs:Ljava/util/ArrayDeque;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;->breadCrumbs:Ljava/util/ArrayDeque;
 
     .line 2
     .line 3
@@ -173,8 +158,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Ljava/util/ArrayDeque;
-    ->isEmpty()Z
+    invoke-virtual {v0}, Ljava/util/ArrayDeque;->isEmpty()Z
 
     .line 6
     .line 7
@@ -190,13 +174,11 @@ return-void
 
     .line 12
     :cond_1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;
-    ->breadCrumbs:Ljava/util/ArrayDeque;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;->breadCrumbs:Ljava/util/ArrayDeque;
 
     .line 13
     .line 14
-    invoke-virtual {v0}, Ljava/util/ArrayDeque;
-    ->pop()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/util/ArrayDeque;->pop()Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -208,8 +190,7 @@ return-void
 
     .line 19
     .line 20
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/RopeByteString;
-    ->access$500(Landroidx/datastore/preferences/protobuf/RopeByteString;)Landroidx/datastore/preferences/protobuf/ByteString;
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/RopeByteString;->access$500(Landroidx/datastore/preferences/protobuf/RopeByteString;)Landroidx/datastore/preferences/protobuf/ByteString;
 
     .line 21
     .line 22
@@ -217,8 +198,7 @@ return-void
     move-result-object v0
 
     .line 24
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;
-    ->getLeafByLeft(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/ByteString$LeafByteString;
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;->getLeafByLeft(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/ByteString$LeafByteString;
 
     .line 25
     .line 26
@@ -226,8 +206,7 @@ return-void
     move-result-object v0
 
     .line 28
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->isEmpty()Z
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/ByteString;->isEmpty()Z
 
     .line 29
     .line 30
@@ -251,8 +230,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;
-    ->next:Landroidx/datastore/preferences/protobuf/ByteString$LeafByteString;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;->next:Landroidx/datastore/preferences/protobuf/ByteString$LeafByteString;
 
     .line 2
     .line 3
@@ -275,19 +253,16 @@ return-void
     .locals 2
 
     .line 2
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;
-    ->next:Landroidx/datastore/preferences/protobuf/ByteString$LeafByteString;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;->next:Landroidx/datastore/preferences/protobuf/ByteString$LeafByteString;
 
     if-eqz v0, :cond_0
 
     .line 3
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;
-    ->getNextNonEmptyLeaf()Landroidx/datastore/preferences/protobuf/ByteString$LeafByteString;
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;->getNextNonEmptyLeaf()Landroidx/datastore/preferences/protobuf/ByteString$LeafByteString;
 
     move-result-object v1
 
-    iput-object v1, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;
-    ->next:Landroidx/datastore/preferences/protobuf/ByteString$LeafByteString;
+    iput-object v1, p0, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;->next:Landroidx/datastore/preferences/protobuf/ByteString$LeafByteString;
 
     return-object v0
 
@@ -295,8 +270,7 @@ return-void
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
-    invoke-direct {v0}, Ljava/util/NoSuchElementException;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/NoSuchElementException;-><init>()V
 
     throw v0
 .end method
@@ -305,8 +279,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;
-    ->next()Landroidx/datastore/preferences/protobuf/ByteString$LeafByteString;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/RopeByteString$PieceIterator;->next()Landroidx/datastore/preferences/protobuf/ByteString$LeafByteString;
 
     move-result-object v0
 
@@ -321,8 +294,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     .line 4
     .line 5

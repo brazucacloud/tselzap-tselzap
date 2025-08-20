@@ -15,11 +15,9 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Ld0/f;
-    ->a:I
+    iput p1, p0, Ld0/f;->a:I
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -28,8 +26,7 @@
 .method public final createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 2
 
-    iget v0, p0, Ld0/f;
-    ->a:I
+    iget v0, p0, Ld0/f;->a:I
 
     packed-switch v0, :pswitch_data_0
 
@@ -38,8 +35,7 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p1, v1}, Lx0/C;
-    -><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
+    invoke-direct {v0, p1, v1}, Lx0/C;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
 return-object v0
 
     .line 9
@@ -48,8 +44,7 @@ return-object v0
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p1, v1}, Lv0/e;
-    -><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
+    invoke-direct {v0, p1, v1}, Lv0/e;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
 return-object v0
 
     .line 10
@@ -58,8 +53,7 @@ return-object v0
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p1, v1}, Lq0/g;
-    -><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
+    invoke-direct {v0, p1, v1}, Lq0/g;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
 return-object v0
 
     .line 11
@@ -68,8 +62,7 @@ return-object v0
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p1, v1}, Lo0/v;
-    -><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
+    invoke-direct {v0, p1, v1}, Lo0/v;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
 return-object v0
 
     .line 12
@@ -78,8 +71,7 @@ return-object v0
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p1, v1}, Lo0/b;
-    -><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
+    invoke-direct {v0, p1, v1}, Lo0/b;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
 return-object v0
 
     .line 13
@@ -88,8 +80,7 @@ return-object v0
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p1, v1}, Le0/c;
-    -><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
+    invoke-direct {v0, p1, v1}, Le0/c;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
 return-object v0
 
     .line 14
@@ -98,8 +89,7 @@ return-object v0
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p1, v1}, Ld0/g;
-    -><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
+    invoke-direct {v0, p1, v1}, Ld0/g;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
 return-object v0
 
     :pswitch_data_0
@@ -116,64 +106,56 @@ return-object v0
 .method public final createFromParcel(Landroid/os/Parcel;Ljava/lang/ClassLoader;)Ljava/lang/Object;
     .locals 1
 
-    iget v0, p0, Ld0/f;
-    ->a:I
+    iget v0, p0, Ld0/f;->a:I
 
     packed-switch v0, :pswitch_data_0
 
     .line 1
     new-instance v0, Lx0/C;
 
-    invoke-direct {v0, p1, p2}, Lx0/C;
-    -><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
+    invoke-direct {v0, p1, p2}, Lx0/C;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
 return-object v0
 
     .line 2
     :pswitch_0
     new-instance v0, Lv0/e;
 
-    invoke-direct {v0, p1, p2}, Lv0/e;
-    -><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
+    invoke-direct {v0, p1, p2}, Lv0/e;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
 return-object v0
 
     .line 3
     :pswitch_1
     new-instance v0, Lq0/g;
 
-    invoke-direct {v0, p1, p2}, Lq0/g;
-    -><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
+    invoke-direct {v0, p1, p2}, Lq0/g;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
 return-object v0
 
     .line 4
     :pswitch_2
     new-instance v0, Lo0/v;
 
-    invoke-direct {v0, p1, p2}, Lo0/v;
-    -><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
+    invoke-direct {v0, p1, p2}, Lo0/v;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
 return-object v0
 
     .line 5
     :pswitch_3
     new-instance v0, Lo0/b;
 
-    invoke-direct {v0, p1, p2}, Lo0/b;
-    -><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
+    invoke-direct {v0, p1, p2}, Lo0/b;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
 return-object v0
 
     .line 6
     :pswitch_4
     new-instance v0, Le0/c;
 
-    invoke-direct {v0, p1, p2}, Le0/c;
-    -><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
+    invoke-direct {v0, p1, p2}, Le0/c;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
 return-object v0
 
     .line 7
     :pswitch_5
     new-instance v0, Ld0/g;
 
-    invoke-direct {v0, p1, p2}, Ld0/g;
-    -><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
+    invoke-direct {v0, p1, p2}, Ld0/g;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
 return-object v0
 
     nop
@@ -193,8 +175,7 @@ return-object v0
     .locals 1
 
     .line 1
-    iget v0, p0, Ld0/f;
-    ->a:I
+    iget v0, p0, Ld0/f;->a:I
 
     .line 2
     .line 3

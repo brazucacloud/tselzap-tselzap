@@ -7,8 +7,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -17,8 +16,7 @@
 
     new-instance v0, Lcom/google/android/gms/internal/common/zzo;
 
-    invoke-direct {v0, p0}, Lcom/google/android/gms/internal/common/zzo;
-    -><init>(C)V
+    invoke-direct {v0, p0}, Lcom/google/android/gms/internal/common/zzo;-><init>(C)V
 return-object v0
 .end method
 

@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/text/TextUtils;
-    ->htmlEncode(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Landroid/text/TextUtils;->htmlEncode(Ljava/lang/String;)Ljava/lang/String;
 
     .line 2
     .line 3

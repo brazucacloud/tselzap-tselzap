@@ -36,8 +36,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -46,14 +45,12 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/WeakHashMap;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/WeakHashMap;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;
-    ->mPanesToVisible:Ljava/util/WeakHashMap;
+    iput-object v0, p0, Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;->mPanesToVisible:Ljava/util/WeakHashMap;
 
     .line 10
     .line 11
@@ -73,8 +70,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p1}, Ljava/util/Map$Entry;
-    ->getKey()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -86,8 +82,7 @@
 
     .line 6
     .line 7
-    invoke-interface {p1}, Ljava/util/Map$Entry;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -99,8 +94,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {v1}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {v1}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 14
     .line 15
@@ -108,8 +102,7 @@
     move-result v1
 
     .line 17
-    invoke-virtual {v0}, Landroid/view/View;
-    ->isShown()Z
+    invoke-virtual {v0}, Landroid/view/View;->isShown()Z
 
     .line 18
     .line 19
@@ -121,8 +114,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {v0}, Landroid/view/View;
-    ->getWindowVisibility()I
+    invoke-virtual {v0}, Landroid/view/View;->getWindowVisibility()I
 
     .line 24
     .line 25
@@ -166,14 +158,12 @@
     .line 40
     .line 41
     :goto_1
-    invoke-static {v0, v1}, Landroidx/core/view/ViewCompat;
-    ->notifyViewAccessibilityStateChangedIfNeeded(Landroid/view/View;I)V
+    invoke-static {v0, v1}, Landroidx/core/view/ViewCompat;->notifyViewAccessibilityStateChangedIfNeeded(Landroid/view/View;I)V
 
     .line 42
     .line 43
     .line 44
-    invoke-static {v2}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 45
     .line 46
@@ -181,8 +171,7 @@
     move-result-object v0
 
     .line 48
-    invoke-interface {p1, v0}, Ljava/util/Map$Entry;
-    ->setValue(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v0}, Ljava/util/Map$Entry;->setValue(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 49
     .line 50
@@ -195,8 +184,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getViewTreeObserver()Landroid/view/ViewTreeObserver;
+    invoke-virtual {p1}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
 
     .line 2
     .line 3
@@ -204,8 +192,7 @@
     move-result-object p1
 
     .line 5
-    invoke-virtual {p1, p0}, Landroid/view/ViewTreeObserver;
-    ->addOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
+    invoke-virtual {p1, p0}, Landroid/view/ViewTreeObserver;->addOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
 
     .line 6
     .line 7
@@ -217,8 +204,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getViewTreeObserver()Landroid/view/ViewTreeObserver;
+    invoke-virtual {p1}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
 
     .line 2
     .line 3
@@ -226,8 +212,7 @@
     move-result-object p1
 
     .line 5
-    invoke-virtual {p1, p0}, Landroid/view/ViewTreeObserver;
-    ->removeOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
+    invoke-virtual {p1, p0}, Landroid/view/ViewTreeObserver;->removeOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
 
     .line 6
     .line 7
@@ -241,13 +226,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;
-    ->mPanesToVisible:Ljava/util/WeakHashMap;
+    iget-object v0, p0, Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;->mPanesToVisible:Ljava/util/WeakHashMap;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroid/view/View;
-    ->isShown()Z
+    invoke-virtual {p1}, Landroid/view/View;->isShown()Z
 
     .line 4
     .line 5
@@ -259,8 +242,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getWindowVisibility()I
+    invoke-virtual {p1}, Landroid/view/View;->getWindowVisibility()I
 
     .line 10
     .line 11
@@ -283,8 +265,7 @@
 
     .line 18
     :goto_0
-    invoke-static {v1}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 19
     .line 20
@@ -292,20 +273,17 @@
     move-result-object v1
 
     .line 22
-    invoke-virtual {v0, p1, v1}, Ljava/util/WeakHashMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, v1}, Ljava/util/WeakHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 23
     .line 24
     .line 25
-    invoke-virtual {p1, p0}, Landroid/view/View;
-    ->addOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V
+    invoke-virtual {p1, p0}, Landroid/view/View;->addOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V
 
     .line 26
     .line 27
     .line 28
-    invoke-virtual {p1}, Landroid/view/View;
-    ->isAttachedToWindow()Z
+    invoke-virtual {p1}, Landroid/view/View;->isAttachedToWindow()Z
 
     .line 29
     .line 30
@@ -317,8 +295,7 @@
 
     .line 33
     .line 34
-    invoke-direct {p0, p1}, Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;
-    ->registerForLayoutCallback(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;->registerForLayoutCallback(Landroid/view/View;)V
 
     .line 35
     .line 36
@@ -331,8 +308,7 @@
     .locals 2
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -344,13 +320,11 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;
-    ->mPanesToVisible:Ljava/util/WeakHashMap;
+    iget-object v0, p0, Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;->mPanesToVisible:Ljava/util/WeakHashMap;
 
     .line 8
     .line 9
-    invoke-virtual {v0}, Ljava/util/WeakHashMap;
-    ->entrySet()Ljava/util/Set;
+    invoke-virtual {v0}, Ljava/util/WeakHashMap;->entrySet()Ljava/util/Set;
 
     .line 10
     .line 11
@@ -358,8 +332,7 @@
     move-result-object v0
 
     .line 13
-    invoke-interface {v0}, Ljava/util/Set;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     .line 14
     .line 15
@@ -368,8 +341,7 @@
 
     .line 17
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 18
     .line 19
@@ -381,8 +353,7 @@
 
     .line 22
     .line 23
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 24
     .line 25
@@ -394,8 +365,7 @@
 
     .line 28
     .line 29
-    invoke-direct {p0, v1}, Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;
-    ->checkPaneVisibility(Ljava/util/Map$Entry;)V
+    invoke-direct {p0, v1}, Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;->checkPaneVisibility(Ljava/util/Map$Entry;)V
 
     .line 30
     .line 31
@@ -411,8 +381,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;
-    ->registerForLayoutCallback(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;->registerForLayoutCallback(Landroid/view/View;)V
 
     .line 2
     .line 3
@@ -430,25 +399,21 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;
-    ->mPanesToVisible:Ljava/util/WeakHashMap;
+    iget-object v0, p0, Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;->mPanesToVisible:Ljava/util/WeakHashMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/WeakHashMap;
-    ->remove(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Ljava/util/WeakHashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1, p0}, Landroid/view/View;
-    ->removeOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V
+    invoke-virtual {p1, p0}, Landroid/view/View;->removeOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V
 
     .line 7
     .line 8
     .line 9
-    invoke-direct {p0, p1}, Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;
-    ->unregisterForLayoutCallback(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Landroidx/core/view/ViewCompat$AccessibilityPaneVisibilityManager;->unregisterForLayoutCallback(Landroid/view/View;)V
 
     .line 10
     .line 11

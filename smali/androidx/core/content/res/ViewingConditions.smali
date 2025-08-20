@@ -34,8 +34,7 @@
     .locals 6
 
     .line 1
-    sget-object v0, Landroidx/core/content/res/CamUtils;
-    ->WHITE_POINT_D65:[F
+    sget-object v0, Landroidx/core/content/res/CamUtils;->WHITE_POINT_D65:[F
 
     .line 2
     .line 3
@@ -43,8 +42,7 @@
 
     .line 4
     .line 5
-    invoke-static {v1}, Landroidx/core/content/res/CamUtils;
-    ->yFromLStar(F)F
+    invoke-static {v1}, Landroidx/core/content/res/CamUtils;->yFromLStar(F)F
 
     .line 6
     .line 7
@@ -83,8 +81,7 @@
     const/4 v4, 0x0
 
     .line 24
-    invoke-static {v0, v2, v1, v3, v4}, Landroidx/core/content/res/ViewingConditions;
-    ->make([FFFFZ)Landroidx/core/content/res/ViewingConditions;
+    invoke-static {v0, v2, v1, v3, v4}, Landroidx/core/content/res/ViewingConditions;->make([FFFFZ)Landroidx/core/content/res/ViewingConditions;
 
     .line 25
     .line 26
@@ -92,8 +89,7 @@
     move-result-object v0
 
     .line 28
-    sput-object v0, Landroidx/core/content/res/ViewingConditions;
-    ->DEFAULT:Landroidx/core/content/res/ViewingConditions;
+    sput-object v0, Landroidx/core/content/res/ViewingConditions;->DEFAULT:Landroidx/core/content/res/ViewingConditions;
 
     .line 29
     .line 30
@@ -104,59 +100,48 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput p1, p0, Landroidx/core/content/res/ViewingConditions;
-    ->mN:F
+    iput p1, p0, Landroidx/core/content/res/ViewingConditions;->mN:F
 
     .line 5
     .line 6
-    iput p2, p0, Landroidx/core/content/res/ViewingConditions;
-    ->mAw:F
+    iput p2, p0, Landroidx/core/content/res/ViewingConditions;->mAw:F
 
     .line 7
     .line 8
-    iput p3, p0, Landroidx/core/content/res/ViewingConditions;
-    ->mNbb:F
+    iput p3, p0, Landroidx/core/content/res/ViewingConditions;->mNbb:F
 
     .line 9
     .line 10
-    iput p4, p0, Landroidx/core/content/res/ViewingConditions;
-    ->mNcb:F
+    iput p4, p0, Landroidx/core/content/res/ViewingConditions;->mNcb:F
 
     .line 11
     .line 12
-    iput p5, p0, Landroidx/core/content/res/ViewingConditions;
-    ->mC:F
+    iput p5, p0, Landroidx/core/content/res/ViewingConditions;->mC:F
 
     .line 13
     .line 14
-    iput p6, p0, Landroidx/core/content/res/ViewingConditions;
-    ->mNc:F
+    iput p6, p0, Landroidx/core/content/res/ViewingConditions;->mNc:F
 
     .line 15
     .line 16
-    iput-object p7, p0, Landroidx/core/content/res/ViewingConditions;
-    ->mRgbD:[F
+    iput-object p7, p0, Landroidx/core/content/res/ViewingConditions;->mRgbD:[F
 
     .line 17
     .line 18
-    iput p8, p0, Landroidx/core/content/res/ViewingConditions;
-    ->mFl:F
+    iput p8, p0, Landroidx/core/content/res/ViewingConditions;->mFl:F
 
     .line 19
     .line 20
-    iput p9, p0, Landroidx/core/content/res/ViewingConditions;
-    ->mFlRoot:F
+    iput p9, p0, Landroidx/core/content/res/ViewingConditions;->mFlRoot:F
 
     .line 21
     .line 22
-    iput p10, p0, Landroidx/core/content/res/ViewingConditions;
-    ->mZ:F
+    iput p10, p0, Landroidx/core/content/res/ViewingConditions;->mZ:F
 
     .line 23
     .line 24
@@ -180,8 +165,7 @@
     const/4 v1, 0x3
 
     .line 4
-    sget-object v2, Landroidx/core/content/res/CamUtils;
-    ->XYZ_TO_CAM16RGB:[[F
+    sget-object v2, Landroidx/core/content/res/CamUtils;->XYZ_TO_CAM16RGB:[[F
 
     .line 5
     .line 6
@@ -365,8 +349,7 @@
     .line 92
     .line 93
     .line 94
-    invoke-static {v15, v2, v8}, Landroidx/core/content/res/CamUtils;
-    ->lerp(FFF)F
+    invoke-static {v15, v2, v8}, Landroidx/core/content/res/CamUtils;->lerp(FFF)F
 
     .line 95
     .line 96
@@ -396,8 +379,7 @@
     .line 106
     .line 107
     .line 108
-    invoke-static {v2, v15, v8}, Landroidx/core/content/res/CamUtils;
-    ->lerp(FFF)F
+    invoke-static {v2, v15, v8}, Landroidx/core/content/res/CamUtils;->lerp(FFF)F
 
     .line 109
     .line 110
@@ -445,8 +427,7 @@
     float-to-double v11, v8
 
     .line 128
-    invoke-static {v11, v12}, Ljava/lang/Math;
-    ->exp(D)D
+    invoke-static {v11, v12}, Ljava/lang/Math;->exp(D)D
 
     .line 129
     .line 130
@@ -641,8 +622,7 @@
 
     .line 216
     .line 217
-    invoke-static {v3, v4}, Ljava/lang/Math;
-    ->cbrt(D)D
+    invoke-static {v3, v4}, Ljava/lang/Math;->cbrt(D)D
 
     .line 218
     .line 219
@@ -660,8 +640,7 @@
     add-float/2addr v11, v12
 
     .line 225
-    invoke-static/range {p2 .. p2}, Landroidx/core/content/res/CamUtils;
-    ->yFromLStar(F)F
+    invoke-static/range {p2 .. p2}, Landroidx/core/content/res/CamUtils;->yFromLStar(F)F
 
     .line 226
     .line 227
@@ -680,8 +659,7 @@
     float-to-double v3, v12
 
     .line 234
-    invoke-static {v3, v4}, Ljava/lang/Math;
-    ->sqrt(D)D
+    invoke-static {v3, v4}, Ljava/lang/Math;->sqrt(D)D
 
     .line 235
     .line 236
@@ -708,8 +686,7 @@
     .line 247
     .line 248
     .line 249
-    invoke-static {v3, v4, v13, v14}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v3, v4, v13, v14}, Ljava/lang/Math;->pow(DD)D
 
     .line 250
     .line 251
@@ -765,8 +742,7 @@
     .line 275
     .line 276
     .line 277
-    invoke-static {v3, v4, v6, v7}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v3, v4, v6, v7}, Ljava/lang/Math;->pow(DD)D
 
     .line 278
     .line 279
@@ -803,8 +779,7 @@
 
     .line 293
     .line 294
-    invoke-static {v2, v3, v6, v7}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v2, v3, v6, v7}, Ljava/lang/Math;->pow(DD)D
 
     .line 295
     .line 296
@@ -834,8 +809,7 @@
 
     .line 307
     .line 308
-    invoke-static {v3, v4, v6, v7}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v3, v4, v6, v7}, Ljava/lang/Math;->pow(DD)D
 
     .line 309
     .line 310
@@ -979,8 +953,7 @@
 
     .line 375
     .line 376
-    invoke-static {v1, v2, v3, v4}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v1, v2, v3, v4}, Ljava/lang/Math;->pow(DD)D
 
     .line 377
     .line 378
@@ -1009,8 +982,7 @@
     move-object v11, v0
 
     .line 389
-    invoke-direct/range {v11 .. v21}, Landroidx/core/content/res/ViewingConditions;
-    -><init>(FFFFFF[FFFF)V
+    invoke-direct/range {v11 .. v21}, Landroidx/core/content/res/ViewingConditions;-><init>(FFFFFF[FFFF)V
 
     .line 390
     .line 391
@@ -1024,8 +996,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/core/content/res/ViewingConditions;
-    ->mAw:F
+    iget v0, p0, Landroidx/core/content/res/ViewingConditions;->mAw:F
 
     .line 2
     .line 3
@@ -1036,8 +1007,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/core/content/res/ViewingConditions;
-    ->mC:F
+    iget v0, p0, Landroidx/core/content/res/ViewingConditions;->mC:F
 
     .line 2
     .line 3
@@ -1048,8 +1018,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/core/content/res/ViewingConditions;
-    ->mFl:F
+    iget v0, p0, Landroidx/core/content/res/ViewingConditions;->mFl:F
 
     .line 2
     .line 3
@@ -1060,8 +1029,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/core/content/res/ViewingConditions;
-    ->mFlRoot:F
+    iget v0, p0, Landroidx/core/content/res/ViewingConditions;->mFlRoot:F
 
     .line 2
     .line 3
@@ -1072,8 +1040,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/core/content/res/ViewingConditions;
-    ->mN:F
+    iget v0, p0, Landroidx/core/content/res/ViewingConditions;->mN:F
 
     .line 2
     .line 3
@@ -1084,8 +1051,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/core/content/res/ViewingConditions;
-    ->mNbb:F
+    iget v0, p0, Landroidx/core/content/res/ViewingConditions;->mNbb:F
 
     .line 2
     .line 3
@@ -1096,8 +1062,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/core/content/res/ViewingConditions;
-    ->mNc:F
+    iget v0, p0, Landroidx/core/content/res/ViewingConditions;->mNc:F
 
     .line 2
     .line 3
@@ -1108,8 +1073,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/core/content/res/ViewingConditions;
-    ->mNcb:F
+    iget v0, p0, Landroidx/core/content/res/ViewingConditions;->mNcb:F
 
     .line 2
     .line 3
@@ -1122,8 +1086,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/content/res/ViewingConditions;
-    ->mRgbD:[F
+    iget-object v0, p0, Landroidx/core/content/res/ViewingConditions;->mRgbD:[F
 
     .line 2
     .line 3
@@ -1134,8 +1097,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/core/content/res/ViewingConditions;
-    ->mZ:F
+    iget v0, p0, Landroidx/core/content/res/ViewingConditions;->mZ:F
 
     .line 2
     .line 3

@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;
-    ->getDisabledMessage()Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;->getDisabledMessage()Ljava/lang/CharSequence;
 
     move-result-object p0
 
@@ -20,8 +19,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;
-    ->isDeclaredInManifest()Z
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;->isDeclaredInManifest()Z
 
     move-result p0
 
@@ -32,8 +30,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;
-    ->isImmutable()Z
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;->isImmutable()Z
 
     move-result p0
 
@@ -44,8 +41,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;
-    ->isEnabled()Z
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;->isEnabled()Z
 
     move-result p0
 
@@ -56,8 +52,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;
-    ->getRank()I
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;->getRank()I
 
     move-result p0
 
@@ -68,8 +63,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;
-    ->getLastChangedTimestamp()J
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;->getLastChangedTimestamp()J
 
     move-result-wide v0
 
@@ -80,8 +74,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;
-    ->getActivity()Landroid/content/ComponentName;
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;->getActivity()Landroid/content/ComponentName;
 
     move-result-object p0
 
@@ -94,8 +87,7 @@
     .line 1
     new-instance v0, Landroid/content/pm/ShortcutInfo$Builder;
 
-    invoke-direct {v0, p0, p1}, Landroid/content/pm/ShortcutInfo$Builder;
-    -><init>(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-direct {v0, p0, p1}, Landroid/content/pm/ShortcutInfo$Builder;-><init>(Landroid/content/Context;Ljava/lang/String;)V
     return-object v0
 .end method
 
@@ -103,8 +95,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutInfo$Builder;
-    ->setShortLabel(Ljava/lang/CharSequence;)Landroid/content/pm/ShortcutInfo$Builder;
+    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutInfo$Builder;->setShortLabel(Ljava/lang/CharSequence;)Landroid/content/pm/ShortcutInfo$Builder;
 
     move-result-object p0
 
@@ -115,8 +106,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutInfo$Builder;
-    ->setIntents([Landroid/content/Intent;)Landroid/content/pm/ShortcutInfo$Builder;
+    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutInfo$Builder;->setIntents([Landroid/content/Intent;)Landroid/content/pm/ShortcutInfo$Builder;
 
     move-result-object p0
 
@@ -127,8 +117,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo$Builder;
-    ->build()Landroid/content/pm/ShortcutInfo;
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo$Builder;->build()Landroid/content/pm/ShortcutInfo;
 
     move-result-object p0
 
@@ -148,8 +137,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;
-    ->getExtras()Landroid/os/PersistableBundle;
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;->getExtras()Landroid/os/PersistableBundle;
 
     move-result-object p0
 
@@ -160,8 +148,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;
-    ->getUserHandle()Landroid/os/UserHandle;
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;->getUserHandle()Landroid/os/UserHandle;
 
     move-result-object p0
 
@@ -172,8 +159,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;
-    ->getShortLabel()Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;->getShortLabel()Ljava/lang/CharSequence;
 
     move-result-object p0
 
@@ -184,8 +170,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;
-    ->getId()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;->getId()Ljava/lang/String;
 
     move-result-object p0
 
@@ -196,8 +181,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;
-    ->getCategories()Ljava/util/Set;
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;->getCategories()Ljava/util/Set;
 
     move-result-object p0
 
@@ -217,8 +201,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutInfo$Builder;
-    ->setRank(I)Landroid/content/pm/ShortcutInfo$Builder;
+    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutInfo$Builder;->setRank(I)Landroid/content/pm/ShortcutInfo$Builder;
 
     return-void
 .end method
@@ -227,8 +210,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutInfo$Builder;
-    ->setActivity(Landroid/content/ComponentName;)Landroid/content/pm/ShortcutInfo$Builder;
+    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutInfo$Builder;->setActivity(Landroid/content/ComponentName;)Landroid/content/pm/ShortcutInfo$Builder;
 
     return-void
 .end method
@@ -237,8 +219,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutInfo$Builder;
-    ->setIcon(Landroid/graphics/drawable/Icon;)Landroid/content/pm/ShortcutInfo$Builder;
+    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutInfo$Builder;->setIcon(Landroid/graphics/drawable/Icon;)Landroid/content/pm/ShortcutInfo$Builder;
 
     return-void
 .end method
@@ -247,8 +228,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutInfo$Builder;
-    ->setExtras(Landroid/os/PersistableBundle;)Landroid/content/pm/ShortcutInfo$Builder;
+    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutInfo$Builder;->setExtras(Landroid/os/PersistableBundle;)Landroid/content/pm/ShortcutInfo$Builder;
 
     return-void
 .end method
@@ -257,8 +237,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutInfo$Builder;
-    ->setLongLabel(Ljava/lang/CharSequence;)Landroid/content/pm/ShortcutInfo$Builder;
+    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutInfo$Builder;->setLongLabel(Ljava/lang/CharSequence;)Landroid/content/pm/ShortcutInfo$Builder;
 
     return-void
 .end method
@@ -267,8 +246,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutInfo$Builder;
-    ->setCategories(Ljava/util/Set;)Landroid/content/pm/ShortcutInfo$Builder;
+    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutInfo$Builder;->setCategories(Ljava/util/Set;)Landroid/content/pm/ShortcutInfo$Builder;
 
     return-void
 .end method
@@ -277,8 +255,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;
-    ->isDynamic()Z
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;->isDynamic()Z
 
     move-result p0
 
@@ -289,8 +266,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;
-    ->getIntents()[Landroid/content/Intent;
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;->getIntents()[Landroid/content/Intent;
 
     move-result-object p0
 
@@ -301,8 +277,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;
-    ->getLongLabel()Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;->getLongLabel()Ljava/lang/CharSequence;
 
     move-result-object p0
 
@@ -313,8 +288,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;
-    ->getPackage()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;->getPackage()Ljava/lang/String;
 
     move-result-object p0
 
@@ -325,8 +299,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutInfo$Builder;
-    ->setDisabledMessage(Ljava/lang/CharSequence;)Landroid/content/pm/ShortcutInfo$Builder;
+    invoke-virtual {p0, p1}, Landroid/content/pm/ShortcutInfo$Builder;->setDisabledMessage(Ljava/lang/CharSequence;)Landroid/content/pm/ShortcutInfo$Builder;
 
     return-void
 .end method
@@ -335,8 +308,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;
-    ->isPinned()Z
+    invoke-virtual {p0}, Landroid/content/pm/ShortcutInfo;->isPinned()Z
 
     move-result p0
 

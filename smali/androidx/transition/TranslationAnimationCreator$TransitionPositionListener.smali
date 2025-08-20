@@ -40,39 +40,32 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;
-    -><init>()V
+    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mMovingView:Landroid/view/View;
+    iput-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mMovingView:Landroid/view/View;
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mViewInHierarchy:Landroid/view/View;
+    iput-object p2, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mViewInHierarchy:Landroid/view/View;
 
     .line 7
     .line 8
-    iput p3, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mTerminalX:F
+    iput p3, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mTerminalX:F
 
     .line 9
     .line 10
-    iput p4, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mTerminalY:F
+    iput p4, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mTerminalY:F
 
     .line 11
     .line 12
-    sget p1, Landroidx/transition/R$id;
-    ->transition_position:I
+    sget p1, Landroidx/transition/R$id;->transition_position:I
 
     .line 13
     .line 14
-    invoke-virtual {p2, p1}, Landroid/view/View;
-    ->getTag(I)Ljava/lang/Object;
+    invoke-virtual {p2, p1}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -84,8 +77,7 @@
 
     .line 19
     .line 20
-    iput-object p3, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mTransitionPosition:[I
+    iput-object p3, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mTransitionPosition:[I
 
     .line 21
     .line 22
@@ -96,8 +88,7 @@
     const/4 p3, 0x0
 
     .line 25
-    invoke-virtual {p2, p1, p3}, Landroid/view/View;
-    ->setTag(ILjava/lang/Object;)V
+    invoke-virtual {p2, p1, p3}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
     .line 26
     .line 27
@@ -110,8 +101,7 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mTransitionPosition:[I
+    iget-object v0, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mTransitionPosition:[I
 
     .line 2
     .line 3
@@ -126,45 +116,37 @@
 
     .line 7
     .line 8
-    iput-object v0, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mTransitionPosition:[I
+    iput-object v0, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mTransitionPosition:[I
 
     .line 9
     .line 10
     :cond_0
-    iget-object v0, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mMovingView:Landroid/view/View;
+    iget-object v0, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mMovingView:Landroid/view/View;
 
     .line 11
     .line 12
-    iget-object v1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mTransitionPosition:[I
+    iget-object v1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mTransitionPosition:[I
 
     .line 13
     .line 14
-    invoke-virtual {v0, v1}, Landroid/view/View;
-    ->getLocationOnScreen([I)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->getLocationOnScreen([I)V
 
     .line 15
     .line 16
     .line 17
-    iget-object v0, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mViewInHierarchy:Landroid/view/View;
+    iget-object v0, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mViewInHierarchy:Landroid/view/View;
 
     .line 18
     .line 19
-    sget v1, Landroidx/transition/R$id;
-    ->transition_position:I
+    sget v1, Landroidx/transition/R$id;->transition_position:I
 
     .line 20
     .line 21
-    iget-object v2, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mTransitionPosition:[I
+    iget-object v2, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mTransitionPosition:[I
 
     .line 22
     .line 23
-    invoke-virtual {v0, v1, v2}, Landroid/view/View;
-    ->setTag(ILjava/lang/Object;)V    
+    invoke-virtual {v0, v1, v2}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
     return-void
 .end method
 
@@ -177,39 +159,32 @@
     const/4 p1, 0x1
 
     .line 2
-    iput-boolean p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mIsTransitionCanceled:Z
+    iput-boolean p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mIsTransitionCanceled:Z
 
     .line 3
     .line 4
-    iget-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mMovingView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mMovingView:Landroid/view/View;
 
     .line 5
     .line 6
-    iget v0, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mTerminalX:F
+    iget v0, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mTerminalX:F
 
     .line 7
     .line 8
-    invoke-virtual {p1, v0}, Landroid/view/View;
-    ->setTranslationX(F)V
+    invoke-virtual {p1, v0}, Landroid/view/View;->setTranslationX(F)V
 
     .line 9
     .line 10
     .line 11
-    iget-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mMovingView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mMovingView:Landroid/view/View;
 
     .line 12
     .line 13
-    iget v0, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mTerminalY:F
+    iget v0, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mTerminalY:F
 
     .line 14
     .line 15
-    invoke-virtual {p1, v0}, Landroid/view/View;
-    ->setTranslationY(F)V    
+    invoke-virtual {p1, v0}, Landroid/view/View;->setTranslationY(F)V
     return-void
 .end method
 
@@ -223,8 +198,7 @@
     const/4 v0, 0x0
 
     .line 3
-    invoke-virtual {p0, p1, v0}, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->onAnimationEnd(Landroid/animation/Animator;Z)V
+    invoke-virtual {p0, p1, v0}, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->onAnimationEnd(Landroid/animation/Animator;Z)V
 return-void
 .end method
 
@@ -238,24 +212,18 @@ return-void
     if-nez p2, :cond_0
 
     .line 1
-    iget-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mMovingView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mMovingView:Landroid/view/View;
 
-    iget p2, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mTerminalX:F
+    iget p2, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mTerminalX:F
 
-    invoke-virtual {p1, p2}, Landroid/view/View;
-    ->setTranslationX(F)V
+    invoke-virtual {p1, p2}, Landroid/view/View;->setTranslationX(F)V
 
     .line 2
-    iget-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mMovingView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mMovingView:Landroid/view/View;
 
-    iget p2, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mTerminalY:F
+    iget p2, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mTerminalY:F
 
-    invoke-virtual {p1, p2}, Landroid/view/View;
-    ->setTranslationY(F)V
+    invoke-virtual {p1, p2}, Landroid/view/View;->setTranslationY(F)V
 
     :cond_0
     return-void
@@ -272,39 +240,32 @@ return-void
     const/4 p1, 0x1
 
     .line 2
-    iput-boolean p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mIsTransitionCanceled:Z
+    iput-boolean p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mIsTransitionCanceled:Z
 
     .line 3
     .line 4
-    iget-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mMovingView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mMovingView:Landroid/view/View;
 
     .line 5
     .line 6
-    iget v0, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mTerminalX:F
+    iget v0, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mTerminalX:F
 
     .line 7
     .line 8
-    invoke-virtual {p1, v0}, Landroid/view/View;
-    ->setTranslationX(F)V
+    invoke-virtual {p1, v0}, Landroid/view/View;->setTranslationX(F)V
 
     .line 9
     .line 10
     .line 11
-    iget-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mMovingView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mMovingView:Landroid/view/View;
 
     .line 12
     .line 13
-    iget v0, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mTerminalY:F
+    iget v0, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mTerminalY:F
 
     .line 14
     .line 15
-    invoke-virtual {p1, v0}, Landroid/view/View;
-    ->setTranslationY(F)V    
+    invoke-virtual {p1, v0}, Landroid/view/View;->setTranslationY(F)V
     return-void
 .end method
 
@@ -318,8 +279,7 @@ return-void
     const/4 v0, 0x0
 
     .line 3
-    invoke-virtual {p0, p1, v0}, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->onTransitionEnd(Landroidx/transition/Transition;Z)V
+    invoke-virtual {p0, p1, v0}, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->onTransitionEnd(Landroidx/transition/Transition;Z)V
 return-void
 .end method
 
@@ -331,22 +291,18 @@ return-void
     .end param
 
     .line 1
-    iget-boolean p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mIsTransitionCanceled:Z
+    iget-boolean p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mIsTransitionCanceled:Z
 
     if-nez p1, :cond_0
 
     .line 2
-    iget-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mViewInHierarchy:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mViewInHierarchy:Landroid/view/View;
 
-    sget p2, Landroidx/transition/R$id;
-    ->transition_position:I
+    sget p2, Landroidx/transition/R$id;->transition_position:I
 
     const/4 v0, 0x0
 
-    invoke-virtual {p1, p2, v0}, Landroid/view/View;
-    ->setTag(ILjava/lang/Object;)V
+    invoke-virtual {p1, p2, v0}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
     :cond_0
     return-void
@@ -360,19 +316,16 @@ return-void
     .end param
 
     .line 1
-    invoke-direct {p0}, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->setInterruptedPosition()V
+    invoke-direct {p0}, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->setInterruptedPosition()V
 
     .line 2
     .line 3
     .line 4
-    iget-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mMovingView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mMovingView:Landroid/view/View;
 
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getTranslationX()F
+    invoke-virtual {p1}, Landroid/view/View;->getTranslationX()F
 
     .line 7
     .line 8
@@ -380,18 +333,15 @@ return-void
     move-result p1
 
     .line 10
-    iput p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mPausedX:F
+    iput p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mPausedX:F
 
     .line 11
     .line 12
-    iget-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mMovingView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mMovingView:Landroid/view/View;
 
     .line 13
     .line 14
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getTranslationY()F
+    invoke-virtual {p1}, Landroid/view/View;->getTranslationY()F
 
     .line 15
     .line 16
@@ -399,39 +349,32 @@ return-void
     move-result p1
 
     .line 18
-    iput p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mPausedY:F
+    iput p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mPausedY:F
 
     .line 19
     .line 20
-    iget-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mMovingView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mMovingView:Landroid/view/View;
 
     .line 21
     .line 22
-    iget v0, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mTerminalX:F
+    iget v0, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mTerminalX:F
 
     .line 23
     .line 24
-    invoke-virtual {p1, v0}, Landroid/view/View;
-    ->setTranslationX(F)V
+    invoke-virtual {p1, v0}, Landroid/view/View;->setTranslationX(F)V
 
     .line 25
     .line 26
     .line 27
-    iget-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mMovingView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mMovingView:Landroid/view/View;
 
     .line 28
     .line 29
-    iget v0, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mTerminalY:F
+    iget v0, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mTerminalY:F
 
     .line 30
     .line 31
-    invoke-virtual {p1, v0}, Landroid/view/View;
-    ->setTranslationY(F)V    
+    invoke-virtual {p1, v0}, Landroid/view/View;->setTranslationY(F)V
     return-void
 .end method
 
@@ -443,34 +386,28 @@ return-void
     .end param
 
     .line 1
-    iget-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mMovingView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mMovingView:Landroid/view/View;
 
     .line 2
     .line 3
-    iget v0, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mPausedX:F
+    iget v0, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mPausedX:F
 
     .line 4
     .line 5
-    invoke-virtual {p1, v0}, Landroid/view/View;
-    ->setTranslationX(F)V
+    invoke-virtual {p1, v0}, Landroid/view/View;->setTranslationX(F)V
 
     .line 6
     .line 7
     .line 8
-    iget-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mMovingView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mMovingView:Landroid/view/View;
 
     .line 9
     .line 10
-    iget v0, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    ->mPausedY:F
+    iget v0, p0, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;->mPausedY:F
 
     .line 11
     .line 12
-    invoke-virtual {p1, v0}, Landroid/view/View;
-    ->setTranslationY(F)V    
+    invoke-virtual {p1, v0}, Landroid/view/View;->setTranslationY(F)V
     return-void
 .end method
 
@@ -488,8 +425,7 @@ return-void
     .locals 0
 
     .line 2
-    invoke-static {p0, p1, p2}, Landroidx/transition/b;
-    ->b(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
+    invoke-static {p0, p1, p2}, Landroidx/transition/b;->b(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
 return-void
 .end method
 

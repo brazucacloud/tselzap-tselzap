@@ -16,14 +16,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/MutabilityOracle$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/MutabilityOracle$1;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/datastore/preferences/protobuf/MutabilityOracle;
-    ->IMMUTABLE:Landroidx/datastore/preferences/protobuf/MutabilityOracle;    return-void
+    sput-object v0, Landroidx/datastore/preferences/protobuf/MutabilityOracle;->IMMUTABLE:Landroidx/datastore/preferences/protobuf/MutabilityOracle;    return-void
 .end method
 
 

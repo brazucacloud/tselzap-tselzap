@@ -57,8 +57,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -66,13 +65,11 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mBackwards:Z
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mBackwards:Z
 
     .line 6
     .line 7
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mDone:Z
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mDone:Z
 return-void
 .end method
 
@@ -83,13 +80,11 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mDone:Z
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mDone:Z
 
     .line 3
     .line 4
-    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1Duration:F
+    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1Duration:F
 
     .line 5
     .line 6
@@ -105,8 +100,7 @@ return-void
 
     .line 11
     .line 12
-    iget v2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1Velocity:F
+    iget v2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1Velocity:F
 
     .line 13
     .line 14
@@ -114,8 +108,7 @@ return-void
 
     .line 15
     .line 16
-    iget v4, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2Velocity:F
+    iget v4, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2Velocity:F
 
     .line 17
     .line 18
@@ -143,8 +136,7 @@ return-void
 
     .line 28
     :cond_0
-    iget v2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mNumberOfStages:I
+    iget v2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mNumberOfStages:I
 
     .line 29
     .line 30
@@ -155,16 +147,14 @@ return-void
 
     .line 32
     .line 33
-    iget p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1EndPosition:F    return p1
+    iget p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1EndPosition:F    return p1
 
     .line 36
     :cond_1
     sub-float/2addr p1, v0
 
     .line 37
-    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2Duration:F
+    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2Duration:F
 
     .line 38
     .line 39
@@ -176,13 +166,11 @@ return-void
 
     .line 42
     .line 43
-    iget v2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1EndPosition:F
+    iget v2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1EndPosition:F
 
     .line 44
     .line 45
-    iget v3, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2Velocity:F
+    iget v3, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2Velocity:F
 
     .line 46
     .line 47
@@ -193,8 +181,7 @@ return-void
     add-float/2addr v4, v2
 
     .line 50
-    iget v2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage3Velocity:F
+    iget v2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3Velocity:F
 
     .line 51
     .line 52
@@ -229,16 +216,14 @@ return-void
 
     .line 64
     .line 65
-    iget p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2EndPosition:F    return p1
+    iget p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2EndPosition:F    return p1
 
     .line 68
     :cond_3
     sub-float/2addr p1, v0
 
     .line 69
-    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage3Duration:F
+    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3Duration:F
 
     .line 70
     .line 71
@@ -250,13 +235,11 @@ return-void
 
     .line 74
     .line 75
-    iget v2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2EndPosition:F
+    iget v2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2EndPosition:F
 
     .line 76
     .line 77
-    iget v3, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage3Velocity:F
+    iget v3, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3Velocity:F
 
     .line 78
     .line 79
@@ -288,13 +271,11 @@ return-void
 
     .line 91
     :cond_4
-    iput-boolean v3, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mDone:Z
+    iput-boolean v3, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mDone:Z
 
     .line 92
     .line 93
-    iget p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage3EndPosition:F    return p1
+    iget p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3EndPosition:F    return p1
 .end method
 
 .method private setup(FFFFF)V
@@ -304,13 +285,11 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mDone:Z
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mDone:Z
 
     .line 3
     .line 4
-    iput p2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage3EndPosition:F
+    iput p2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3EndPosition:F
 
     .line 5
     .line 6
@@ -384,8 +363,7 @@ return-void
     float-to-double v1, p5
 
     .line 37
-    invoke-static {v1, v2}, Ljava/lang/Math;
-    ->sqrt(D)D
+    invoke-static {v1, v2}, Ljava/lang/Math;->sqrt(D)D
 
     .line 38
     .line 39
@@ -408,28 +386,23 @@ return-void
 
     .line 47
     .line 48
-    iput-object p4, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mType:Ljava/lang/String;
+    iput-object p4, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mType:Ljava/lang/String;
 
     .line 49
     .line 50
-    iput v5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mNumberOfStages:I
+    iput v5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mNumberOfStages:I
 
     .line 51
     .line 52
-    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1Velocity:F
+    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1Velocity:F
 
     .line 53
     .line 54
-    iput p5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2Velocity:F
+    iput p5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2Velocity:F
 
     .line 55
     .line 56
-    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage3Velocity:F
+    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3Velocity:F
 
     .line 57
     .line 58
@@ -440,8 +413,7 @@ return-void
     div-float/2addr p4, p3
 
     .line 61
-    iput p4, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1Duration:F
+    iput p4, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1Duration:F
 
     .line 62
     .line 63
@@ -449,8 +421,7 @@ return-void
 
     .line 64
     .line 65
-    iput p3, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2Duration:F
+    iput p3, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2Duration:F
 
     .line 66
     .line 67
@@ -464,18 +435,15 @@ return-void
     div-float/2addr p1, v3
 
     .line 71
-    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1EndPosition:F
+    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1EndPosition:F
 
     .line 72
     .line 73
-    iput p2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2EndPosition:F
+    iput p2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2EndPosition:F
 
     .line 74
     .line 75
-    iput p2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage3EndPosition:F    
+    iput p2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3EndPosition:F
     return-void
 
     .line 78
@@ -484,28 +452,23 @@ return-void
 
     .line 79
     .line 80
-    iput-object p5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mType:Ljava/lang/String;
+    iput-object p5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mType:Ljava/lang/String;
 
     .line 81
     .line 82
-    iput v4, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mNumberOfStages:I
+    iput v4, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mNumberOfStages:I
 
     .line 83
     .line 84
-    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1Velocity:F
+    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1Velocity:F
 
     .line 85
     .line 86
-    iput p4, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2Velocity:F
+    iput p4, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2Velocity:F
 
     .line 87
     .line 88
-    iput p4, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage3Velocity:F
+    iput p4, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3Velocity:F
 
     .line 89
     .line 90
@@ -516,8 +479,7 @@ return-void
     div-float/2addr p5, p3
 
     .line 93
-    iput p5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1Duration:F
+    iput p5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1Duration:F
 
     .line 94
     .line 95
@@ -525,8 +487,7 @@ return-void
 
     .line 96
     .line 97
-    iput p3, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage3Duration:F
+    iput p3, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3Duration:F
 
     .line 98
     .line 99
@@ -557,13 +518,11 @@ return-void
     div-float/2addr p5, p4
 
     .line 110
-    iput p5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2Duration:F
+    iput p5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2Duration:F
 
     .line 111
     .line 112
-    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1EndPosition:F
+    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1EndPosition:F
 
     .line 113
     .line 114
@@ -571,13 +530,11 @@ return-void
 
     .line 115
     .line 116
-    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2EndPosition:F
+    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2EndPosition:F
 
     .line 117
     .line 118
-    iput p2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage3EndPosition:F    
+    iput p2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3EndPosition:F
     return-void
 
     .line 121
@@ -594,8 +551,7 @@ return-void
 
     .line 126
     .line 127
-    iput-object p3, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mType:Ljava/lang/String;
+    iput-object p3, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mType:Ljava/lang/String;
 
     .line 128
     .line 129
@@ -609,28 +565,23 @@ return-void
     const/4 p3, 0x1
 
     .line 133
-    iput p3, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mNumberOfStages:I
+    iput p3, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mNumberOfStages:I
 
     .line 134
     .line 135
-    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1Velocity:F
+    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1Velocity:F
 
     .line 136
     .line 137
-    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2Velocity:F
+    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2Velocity:F
 
     .line 138
     .line 139
-    iput p2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1EndPosition:F
+    iput p2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1EndPosition:F
 
     .line 140
     .line 141
-    iput v3, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1Duration:F    
+    iput v3, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1Duration:F
     return-void
 
     .line 144
@@ -659,48 +610,39 @@ return-void
 
     .line 155
     .line 156
-    iput-object p3, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mType:Ljava/lang/String;
+    iput-object p3, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mType:Ljava/lang/String;
 
     .line 157
     .line 158
-    iput v5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mNumberOfStages:I
+    iput v5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mNumberOfStages:I
 
     .line 159
     .line 160
-    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1Velocity:F
+    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1Velocity:F
 
     .line 161
     .line 162
-    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2Velocity:F
+    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2Velocity:F
 
     .line 163
     .line 164
-    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage3Velocity:F
+    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3Velocity:F
 
     .line 165
     .line 166
-    iput v2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1EndPosition:F
+    iput v2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1EndPosition:F
 
     .line 167
     .line 168
-    iput p2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2EndPosition:F
+    iput p2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2EndPosition:F
 
     .line 169
     .line 170
-    iput v6, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1Duration:F
+    iput v6, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1Duration:F
 
     .line 171
     .line 172
-    iput v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2Duration:F    
+    iput v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2Duration:F
     return-void
 
     .line 175
@@ -722,8 +664,7 @@ return-void
     float-to-double v1, v1
 
     .line 182
-    invoke-static {v1, v2}, Ljava/lang/Math;
-    ->sqrt(D)D
+    invoke-static {v1, v2}, Ljava/lang/Math;->sqrt(D)D
 
     .line 183
     .line 184
@@ -741,8 +682,7 @@ return-void
     div-float/2addr v1, p3
 
     .line 190
-    iput v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1Duration:F
+    iput v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1Duration:F
 
     .line 191
     .line 192
@@ -750,8 +690,7 @@ return-void
 
     .line 193
     .line 194
-    iput v2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2Duration:F
+    iput v2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2Duration:F
 
     .line 195
     .line 196
@@ -767,38 +706,31 @@ return-void
 
     .line 201
     .line 202
-    iput-object p3, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mType:Ljava/lang/String;
+    iput-object p3, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mType:Ljava/lang/String;
 
     .line 203
     .line 204
-    iput v5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mNumberOfStages:I
+    iput v5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mNumberOfStages:I
 
     .line 205
     .line 206
-    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1Velocity:F
+    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1Velocity:F
 
     .line 207
     .line 208
-    iput p5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2Velocity:F
+    iput p5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2Velocity:F
 
     .line 209
     .line 210
-    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage3Velocity:F
+    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3Velocity:F
 
     .line 211
     .line 212
-    iput v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1Duration:F
+    iput v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1Duration:F
 
     .line 213
     .line 214
-    iput v2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2Duration:F
+    iput v2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2Duration:F
 
     .line 215
     .line 216
@@ -812,13 +744,11 @@ return-void
     div-float/2addr p1, v3
 
     .line 220
-    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1EndPosition:F
+    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1EndPosition:F
 
     .line 221
     .line 222
-    iput p2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2EndPosition:F    
+    iput p2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2EndPosition:F
     return-void
 
     .line 225
@@ -827,28 +757,23 @@ return-void
 
     .line 226
     .line 227
-    iput-object p5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mType:Ljava/lang/String;
+    iput-object p5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mType:Ljava/lang/String;
 
     .line 228
     .line 229
-    iput v4, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mNumberOfStages:I
+    iput v4, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mNumberOfStages:I
 
     .line 230
     .line 231
-    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1Velocity:F
+    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1Velocity:F
 
     .line 232
     .line 233
-    iput p4, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2Velocity:F
+    iput p4, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2Velocity:F
 
     .line 234
     .line 235
-    iput p4, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage3Velocity:F
+    iput p4, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3Velocity:F
 
     .line 236
     .line 237
@@ -859,8 +784,7 @@ return-void
     div-float/2addr p5, p3
 
     .line 240
-    iput p5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1Duration:F
+    iput p5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1Duration:F
 
     .line 241
     .line 242
@@ -868,8 +792,7 @@ return-void
 
     .line 243
     .line 244
-    iput p3, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage3Duration:F
+    iput p3, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3Duration:F
 
     .line 245
     .line 246
@@ -900,13 +823,11 @@ return-void
     div-float/2addr p5, p4
 
     .line 257
-    iput p5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2Duration:F
+    iput p5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2Duration:F
 
     .line 258
     .line 259
-    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1EndPosition:F
+    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1EndPosition:F
 
     .line 260
     .line 261
@@ -914,13 +835,11 @@ return-void
 
     .line 262
     .line 263
-    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2EndPosition:F
+    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2EndPosition:F
 
     .line 264
     .line 265
-    iput p2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage3EndPosition:F    
+    iput p2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3EndPosition:F
     return-void
 .end method
 
@@ -933,13 +852,11 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mDone:Z
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mDone:Z
 
     .line 3
     .line 4
-    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStartPosition:F
+    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStartPosition:F
 
     .line 5
     .line 6
@@ -955,8 +872,7 @@ return-void
 
     .line 11
     :cond_0
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mBackwards:Z
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mBackwards:Z
 
     .line 12
     .line 13
@@ -989,8 +905,7 @@ return-void
     move-object p1, p0
 
     .line 24
-    invoke-direct/range {p1 .. p6}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->setup(FFFFF)V
+    invoke-direct/range {p1 .. p6}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->setup(FFFFF)V
 return-void
 
     .line 28
@@ -1029,8 +944,7 @@ return-void
     move v5, p6
 
     .line 40
-    invoke-direct/range {v0 .. v5}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->setup(FFFFF)V
+    invoke-direct/range {v0 .. v5}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->setup(FFFFF)V
 return-void
 .end method
 
@@ -1042,8 +956,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, LA/d;
-    ->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p1, v0}, LA/d;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 4
     .line 5
@@ -1051,8 +964,7 @@ return-void
     move-result-object v0
 
     .line 7
-    iget-object v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mType:Ljava/lang/String;
+    iget-object v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mType:Ljava/lang/String;
 
     .line 8
     .line 9
@@ -1060,8 +972,7 @@ return-void
 
     .line 10
     .line 11
-    invoke-static {v0, v1, v2}, LA/d;
-    ->k(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, LA/d;->k(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 12
     .line 13
@@ -1069,8 +980,7 @@ return-void
     move-result-object v0
 
     .line 15
-    invoke-static {v0, p1}, LA/d;
-    ->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, p1}, LA/d;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 16
     .line 17
@@ -1078,8 +988,7 @@ return-void
     move-result-object v0
 
     .line 19
-    iget-boolean v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mBackwards:Z
+    iget-boolean v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mBackwards:Z
 
     .line 20
     .line 21
@@ -1100,8 +1009,7 @@ return-void
     .line 27
     .line 28
     :goto_0
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 29
     .line 30
@@ -1110,14 +1018,12 @@ return-void
 
     .line 32
     .line 33
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 34
     .line 35
     .line 36
-    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;
-    ->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     .line 37
     .line 38
@@ -1126,19 +1032,16 @@ return-void
 
     .line 40
     .line 41
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 42
     .line 43
     .line 44
-    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mNumberOfStages:I
+    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mNumberOfStages:I
 
     .line 45
     .line 46
-    invoke-static {v0, v2, v1}, LA/d;
-    ->j(Ljava/lang/StringBuilder;Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v0, v2, v1}, LA/d;->j(Ljava/lang/StringBuilder;Ljava/lang/String;I)Ljava/lang/String;
 
     .line 47
     .line 48
@@ -1150,20 +1053,17 @@ return-void
 
     .line 51
     .line 52
-    invoke-direct {v1}, Ljava/lang/StringBuilder;
-    -><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 53
     .line 54
     .line 55
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 56
     .line 57
     .line 58
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 59
     .line 60
@@ -1172,19 +1072,16 @@ return-void
 
     .line 62
     .line 63
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 64
     .line 65
     .line 66
-    iget v3, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1Duration:F
+    iget v3, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1Duration:F
 
     .line 67
     .line 68
-    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;
-    ->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     .line 69
     .line 70
@@ -1193,19 +1090,16 @@ return-void
 
     .line 72
     .line 73
-    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 74
     .line 75
     .line 76
-    iget v4, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1Velocity:F
+    iget v4, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1Velocity:F
 
     .line 77
     .line 78
-    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;
-    ->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     .line 79
     .line 80
@@ -1214,31 +1108,26 @@ return-void
 
     .line 82
     .line 83
-    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 84
     .line 85
     .line 86
-    iget v5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1EndPosition:F
+    iget v5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1EndPosition:F
 
     .line 87
     .line 88
-    invoke-virtual {v1, v5}, Ljava/lang/StringBuilder;
-    ->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v5}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     .line 89
     .line 90
     .line 91
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 92
     .line 93
     .line 94
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 95
     .line 96
@@ -1246,8 +1135,7 @@ return-void
     move-result-object v1
 
     .line 98
-    iget v5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mNumberOfStages:I
+    iget v5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mNumberOfStages:I
 
     .line 99
     .line 100
@@ -1262,83 +1150,69 @@ return-void
 
     .line 104
     .line 105
-    invoke-direct {v5}, Ljava/lang/StringBuilder;
-    -><init>()V
+    invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 106
     .line 107
     .line 108
-    invoke-virtual {v5, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v5, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 109
     .line 110
     .line 111
-    invoke-virtual {v5, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v5, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 112
     .line 113
     .line 114
-    invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 115
     .line 116
     .line 117
-    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2Duration:F
+    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2Duration:F
 
     .line 118
     .line 119
-    invoke-virtual {v5, v1}, Ljava/lang/StringBuilder;
-    ->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v5, v1}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     .line 120
     .line 121
     .line 122
-    invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 123
     .line 124
     .line 125
-    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2Velocity:F
+    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2Velocity:F
 
     .line 126
     .line 127
-    invoke-virtual {v5, v1}, Ljava/lang/StringBuilder;
-    ->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v5, v1}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     .line 128
     .line 129
     .line 130
-    invoke-virtual {v5, v4}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v5, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 131
     .line 132
     .line 133
-    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2EndPosition:F
+    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2EndPosition:F
 
     .line 134
     .line 135
-    invoke-virtual {v5, v1}, Ljava/lang/StringBuilder;
-    ->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v5, v1}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     .line 136
     .line 137
     .line 138
-    invoke-virtual {v5, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v5, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 139
     .line 140
     .line 141
-    invoke-virtual {v5}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 142
     .line 143
@@ -1347,8 +1221,7 @@ return-void
 
     .line 145
     :cond_1
-    iget v5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mNumberOfStages:I
+    iget v5, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mNumberOfStages:I
 
     .line 146
     .line 147
@@ -1363,83 +1236,69 @@ return-void
 
     .line 151
     .line 152
-    invoke-direct {v5}, Ljava/lang/StringBuilder;
-    -><init>()V
+    invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 153
     .line 154
     .line 155
-    invoke-virtual {v5, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v5, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 156
     .line 157
     .line 158
-    invoke-virtual {v5, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v5, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 159
     .line 160
     .line 161
-    invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 162
     .line 163
     .line 164
-    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage3Duration:F
+    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3Duration:F
 
     .line 165
     .line 166
-    invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;
-    ->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     .line 167
     .line 168
     .line 169
-    invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v5, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 170
     .line 171
     .line 172
-    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage3Velocity:F
+    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3Velocity:F
 
     .line 173
     .line 174
-    invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;
-    ->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     .line 175
     .line 176
     .line 177
-    invoke-virtual {v5, v4}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v5, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 178
     .line 179
     .line 180
-    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage3EndPosition:F
+    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3EndPosition:F
 
     .line 181
     .line 182
-    invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;
-    ->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     .line 183
     .line 184
     .line 185
-    invoke-virtual {v5, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v5, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 186
     .line 187
     .line 188
-    invoke-virtual {v5}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 189
     .line 190
@@ -1448,8 +1307,7 @@ return-void
 
     .line 192
     :cond_2
-    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1Duration:F
+    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1Duration:F
 
     .line 193
     .line 194
@@ -1465,8 +1323,7 @@ return-void
 
     .line 199
     .line 200
-    invoke-static {v1, p1, p2}, LA/d;
-    ->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, p1, p2}, LA/d;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 201
     .line 202
@@ -1477,8 +1334,7 @@ return-void
 
     .line 205
     :cond_3
-    iget v2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mNumberOfStages:I
+    iget v2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mNumberOfStages:I
 
     .line 206
     .line 207
@@ -1490,8 +1346,7 @@ return-void
 
     .line 210
     .line 211
-    invoke-static {v1, p1, p2}, LA/d;
-    ->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, p1, p2}, LA/d;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 212
     .line 213
@@ -1505,8 +1360,7 @@ return-void
     sub-float/2addr p2, v0
 
     .line 217
-    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2Duration:F
+    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2Duration:F
 
     .line 218
     .line 219
@@ -1522,8 +1376,7 @@ return-void
 
     .line 224
     .line 225
-    invoke-static {v1, p1, p2}, LA/d;
-    ->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, p1, p2}, LA/d;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 226
     .line 227
@@ -1542,8 +1395,7 @@ return-void
 
     .line 233
     .line 234
-    invoke-static {v1, p1, p2}, LA/d;
-    ->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, p1, p2}, LA/d;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 235
     .line 236
@@ -1557,8 +1409,7 @@ return-void
     sub-float/2addr p2, v0
 
     .line 240
-    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage3Duration:F
+    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3Duration:F
 
     .line 241
     .line 242
@@ -1574,8 +1425,7 @@ return-void
 
     .line 247
     .line 248
-    invoke-static {v1, p1, p2}, LA/d;
-    ->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, p1, p2}, LA/d;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 249
     .line 250
@@ -1590,8 +1440,7 @@ return-void
 
     .line 254
     .line 255
-    invoke-static {v1, p1, p2}, LA/d;
-    ->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, p1, p2}, LA/d;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 256
     .line 257
@@ -1605,8 +1454,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->calcY(F)F
+    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->calcY(F)F
 
     .line 2
     .line 3
@@ -1614,18 +1462,15 @@ return-void
     move-result v0
 
     .line 5
-    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mLastPosition:F
+    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mLastPosition:F
 
     .line 6
     .line 7
-    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mLastTime:F
+    iput p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mLastTime:F
 
     .line 8
     .line 9
-    iget-boolean p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mBackwards:Z
+    iget-boolean p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mBackwards:Z
 
     .line 10
     .line 11
@@ -1633,8 +1478,7 @@ return-void
 
     .line 12
     .line 13
-    iget p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStartPosition:F
+    iget p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStartPosition:F
 
     .line 14
     .line 15
@@ -1644,8 +1488,7 @@ return-void
 
     .line 17
     :cond_0
-    iget p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStartPosition:F
+    iget p1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStartPosition:F
 
     .line 18
     .line 19
@@ -1658,16 +1501,13 @@ return-void
     .locals 1
 
     .line 8
-    iget-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mBackwards:Z
+    iget-boolean v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mBackwards:Z
 
     if-eqz v0, :cond_0
 
-    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mLastTime:F
+    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mLastTime:F
 
-    invoke-virtual {p0, v0}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->getVelocity(F)F
+    invoke-virtual {p0, v0}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->getVelocity(F)F
 
     move-result v0
 
@@ -1676,11 +1516,9 @@ return-void
     return v0
 
     :cond_0
-    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mLastTime:F
+    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mLastTime:F
 
-    invoke-virtual {p0, v0}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->getVelocity(F)F
+    invoke-virtual {p0, v0}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->getVelocity(F)F
 
     move-result v0
 
@@ -1691,19 +1529,16 @@ return-void
     .locals 4
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1Duration:F
+    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1Duration:F
 
     cmpg-float v1, p1, v0
 
     if-gtz v1, :cond_0
 
     .line 2
-    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage1Velocity:F
+    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage1Velocity:F
 
-    iget v2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2Velocity:F
+    iget v2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2Velocity:F
 
     :goto_0
     sub-float/2addr v2, v1
@@ -1718,8 +1553,7 @@ return-void
 
     .line 3
     :cond_0
-    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mNumberOfStages:I
+    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mNumberOfStages:I
 
     const/4 v2, 0x1
 
@@ -1733,19 +1567,16 @@ return-void
     sub-float/2addr p1, v0
 
     .line 4
-    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2Duration:F
+    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2Duration:F
 
     cmpg-float v2, p1, v0
 
     if-gez v2, :cond_2
 
     .line 5
-    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage2Velocity:F
+    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage2Velocity:F
 
-    iget v2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage3Velocity:F
+    iget v2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3Velocity:F
 
     goto :goto_0
 
@@ -1760,16 +1591,14 @@ return-void
     sub-float/2addr p1, v0
 
     .line 6
-    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage3Duration:F
+    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3Duration:F
 
     cmpg-float v1, p1, v0
 
     if-gez v1, :cond_4
 
     .line 7
-    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage3Velocity:F
+    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3Velocity:F
 
     mul-float p1, p1, v1
 
@@ -1787,8 +1616,7 @@ return-void
     .locals 3
 
     .line 1
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->getVelocity()F
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->getVelocity()F
 
     .line 2
     .line 3
@@ -1809,21 +1637,18 @@ return-void
 
     .line 11
     .line 12
-    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mStage3EndPosition:F
+    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mStage3EndPosition:F
 
     .line 13
     .line 14
-    iget v2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;
-    ->mLastPosition:F
+    iget v2, p0, Landroidx/constraintlayout/core/motion/utils/StopLogicEngine;->mLastPosition:F
 
     .line 15
     .line 16
     sub-float/2addr v0, v2
 
     .line 17
-    invoke-static {v0}, Ljava/lang/Math;
-    ->abs(F)F
+    invoke-static {v0}, Ljava/lang/Math;->abs(F)F
 
     .line 18
     .line 19

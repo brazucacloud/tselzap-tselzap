@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -21,8 +20,7 @@
 
     .line 2
     .line 3
-    iget-object v0, p1, Landroid/view/inputmethod/EditorInfo;
-    ->hintText:Ljava/lang/CharSequence;
+    iget-object v0, p1, Landroid/view/inputmethod/EditorInfo;->hintText:Ljava/lang/CharSequence;
 
     .line 4
     .line 5
@@ -30,8 +28,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p2}, Landroid/view/View;
-    ->getParent()Landroid/view/ViewParent;
+    invoke-virtual {p2}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     .line 8
     .line 9
@@ -60,8 +57,7 @@
 
     .line 20
     .line 21
-    invoke-interface {p2}, Landroidx/appcompat/widget/WithHint;
-    ->getHint()Ljava/lang/CharSequence;
+    invoke-interface {p2}, Landroidx/appcompat/widget/WithHint;->getHint()Ljava/lang/CharSequence;
 
     .line 22
     .line 23
@@ -69,14 +65,12 @@
     move-result-object p2
 
     .line 25
-    iput-object p2, p1, Landroid/view/inputmethod/EditorInfo;
-    ->hintText:Ljava/lang/CharSequence;    
+    iput-object p2, p1, Landroid/view/inputmethod/EditorInfo;->hintText:Ljava/lang/CharSequence;
     return-object p0
 
     .line 28
     :cond_0
-    invoke-interface {p2}, Landroid/view/ViewParent;
-    ->getParent()Landroid/view/ViewParent;
+    invoke-interface {p2}, Landroid/view/ViewParent;->getParent()Landroid/view/ViewParent;
 
     .line 29
     .line 30

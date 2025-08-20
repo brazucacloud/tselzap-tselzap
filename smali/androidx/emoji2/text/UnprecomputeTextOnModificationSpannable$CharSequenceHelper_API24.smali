@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -36,8 +35,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/os/a;
-    ->D(Ljava/lang/CharSequence;)Ljava/util/stream/IntStream;
+    invoke-static {p0}, Landroidx/core/os/a;->D(Ljava/lang/CharSequence;)Ljava/util/stream/IntStream;
 
     .line 2
     .line 3
@@ -51,8 +49,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/os/a;
-    ->r(Ljava/lang/CharSequence;)Ljava/util/stream/IntStream;
+    invoke-static {p0}, Landroidx/core/os/a;->r(Ljava/lang/CharSequence;)Ljava/util/stream/IntStream;
 
     .line 2
     .line 3

@@ -27,14 +27,12 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/collection/MutableObjectIntMap;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/collection/MutableObjectIntMap;-><init>(I)V
 
     .line 5
     .line 6
     .line 7
-    sput-object v0, Landroidx/collection/ObjectIntMapKt;
-    ->EmptyObjectIntMap:Landroidx/collection/MutableObjectIntMap;    return-void
+    sput-object v0, Landroidx/collection/ObjectIntMapKt;->EmptyObjectIntMap:Landroidx/collection/MutableObjectIntMap;    return-void
 .end method
 
 .method public static final emptyObjectIntMap()Landroidx/collection/ObjectIntMap;
@@ -50,8 +48,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/collection/ObjectIntMapKt;
-    ->EmptyObjectIntMap:Landroidx/collection/MutableObjectIntMap;
+    sget-object v0, Landroidx/collection/ObjectIntMapKt;->EmptyObjectIntMap:Landroidx/collection/MutableObjectIntMap;
 
     .line 2
     .line 3
@@ -59,8 +56,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
-    ->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 return-object v0
 .end method
 
@@ -85,8 +81,7 @@ return-object v0
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableObjectIntMap;
-    -><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableObjectIntMap;-><init>(IILkotlin/jvm/internal/e;)V
 return-object v0
 .end method
 
@@ -111,12 +106,10 @@ return-object v0
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableObjectIntMap;
-    -><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableObjectIntMap;-><init>(IILkotlin/jvm/internal/e;)V
 
     .line 3
-    invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 return-object v0
 .end method
 
@@ -141,16 +134,13 @@ return-object v0
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableObjectIntMap;
-    -><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableObjectIntMap;-><init>(IILkotlin/jvm/internal/e;)V
 
     .line 5
-    invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 
     .line 6
-    invoke-virtual {v0, p2, p3}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p2, p3}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 return-object v0
 .end method
 
@@ -175,20 +165,16 @@ return-object v0
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableObjectIntMap;
-    -><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableObjectIntMap;-><init>(IILkotlin/jvm/internal/e;)V
 
     .line 8
-    invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 
     .line 9
-    invoke-virtual {v0, p2, p3}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p2, p3}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 
     .line 10
-    invoke-virtual {v0, p4, p5}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p4, p5}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 return-object v0
 .end method
 
@@ -213,24 +199,19 @@ return-object v0
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableObjectIntMap;
-    -><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableObjectIntMap;-><init>(IILkotlin/jvm/internal/e;)V
 
     .line 12
-    invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 
     .line 13
-    invoke-virtual {v0, p2, p3}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p2, p3}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 
     .line 14
-    invoke-virtual {v0, p4, p5}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p4, p5}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 
     .line 15
-    invoke-virtual {v0, p6, p7}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p6, p7}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 return-object v0
 .end method
 
@@ -255,28 +236,22 @@ return-object v0
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableObjectIntMap;
-    -><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableObjectIntMap;-><init>(IILkotlin/jvm/internal/e;)V
 
     .line 17
-    invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 
     .line 18
-    invoke-virtual {v0, p2, p3}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p2, p3}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 
     .line 19
-    invoke-virtual {v0, p4, p5}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p4, p5}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 
     .line 20
-    invoke-virtual {v0, p6, p7}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p6, p7}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 
     .line 21
-    invoke-virtual {v0, p8, p9}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p8, p9}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 return-object v0
 .end method
 
@@ -293,8 +268,7 @@ return-object v0
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/collection/ObjectIntMapKt;
-    ->EmptyObjectIntMap:Landroidx/collection/MutableObjectIntMap;
+    sget-object v0, Landroidx/collection/ObjectIntMapKt;->EmptyObjectIntMap:Landroidx/collection/MutableObjectIntMap;
 
     .line 2
     .line 3
@@ -302,8 +276,7 @@ return-object v0
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
-    ->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 return-object v0
 .end method
 
@@ -328,12 +301,10 @@ return-object v0
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableObjectIntMap;
-    -><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableObjectIntMap;-><init>(IILkotlin/jvm/internal/e;)V
 
     .line 2
-    invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 return-object v0
 .end method
 
@@ -358,16 +329,13 @@ return-object v0
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableObjectIntMap;
-    -><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableObjectIntMap;-><init>(IILkotlin/jvm/internal/e;)V
 
     .line 4
-    invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 
     .line 5
-    invoke-virtual {v0, p2, p3}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p2, p3}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 return-object v0
 .end method
 
@@ -392,20 +360,16 @@ return-object v0
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableObjectIntMap;
-    -><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableObjectIntMap;-><init>(IILkotlin/jvm/internal/e;)V
 
     .line 7
-    invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 
     .line 8
-    invoke-virtual {v0, p2, p3}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p2, p3}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 
     .line 9
-    invoke-virtual {v0, p4, p5}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p4, p5}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 return-object v0
 .end method
 
@@ -430,24 +394,19 @@ return-object v0
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableObjectIntMap;
-    -><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableObjectIntMap;-><init>(IILkotlin/jvm/internal/e;)V
 
     .line 11
-    invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 
     .line 12
-    invoke-virtual {v0, p2, p3}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p2, p3}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 
     .line 13
-    invoke-virtual {v0, p4, p5}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p4, p5}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 
     .line 14
-    invoke-virtual {v0, p6, p7}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p6, p7}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 return-object v0
 .end method
 
@@ -472,28 +431,22 @@ return-object v0
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableObjectIntMap;
-    -><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableObjectIntMap;-><init>(IILkotlin/jvm/internal/e;)V
 
     .line 16
-    invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 
     .line 17
-    invoke-virtual {v0, p2, p3}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p2, p3}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 
     .line 18
-    invoke-virtual {v0, p4, p5}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p4, p5}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 
     .line 19
-    invoke-virtual {v0, p6, p7}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p6, p7}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 
     .line 20
-    invoke-virtual {v0, p8, p9}, Landroidx/collection/MutableObjectIntMap;
-    ->set(Ljava/lang/Object;I)V
+    invoke-virtual {v0, p8, p9}, Landroidx/collection/MutableObjectIntMap;->set(Ljava/lang/Object;I)V
 return-object v0
 .end method
 

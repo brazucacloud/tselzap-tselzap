@@ -26,14 +26,11 @@
     .locals 0
 
     .line 1
-    iput p2, p0, LL/b;
-    ->b:I
+    iput p2, p0, LL/b;->b:I
 
-    iput-object p1, p0, LL/b;
-    ->c:Ljava/lang/Object;
+    iput-object p1, p0, LL/b;->c:Ljava/lang/Object;
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -57,8 +54,7 @@
 
     .line 6
     .line 7
-    iget-object v4, v3, LL/b;
-    ->c:Ljava/lang/Object;
+    iget-object v4, v3, LL/b;->c:Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -70,8 +66,7 @@
 
     .line 12
     .line 13
-    invoke-static {v5}, Lcom/bumptech/glide/b;
-    ->J(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v5}, Lcom/bumptech/glide/b;->J(Ljava/lang/String;)Ljava/lang/String;
 
     .line 14
     .line 15
@@ -82,8 +77,7 @@
     const/4 v7, 0x4
 
     .line 18
-    invoke-static {v6, v7}, Landroid/util/Log;
-    ->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v6, v7}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     .line 19
     .line 20
@@ -91,8 +85,7 @@
     move-result v8
 
     .line 22
-    iget-object v9, v0, LA0/d;
-    ->d:Ljava/lang/Object;
+    iget-object v9, v0, LA0/d;->d:Ljava/lang/Object;
 
     .line 23
     .line 24
@@ -116,8 +109,7 @@
 
     .line 33
     .line 34
-    invoke-static {v10, v8}, Ljava/lang/String;
-    ->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v10, v8}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 35
     .line 36
@@ -125,15 +117,13 @@
     move-result-object v8
 
     .line 38
-    invoke-static {v6, v8}, Landroid/util/Log;
-    ->i(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v6, v8}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 39
     .line 40
     .line 41
     :cond_0
-    invoke-virtual {v9}, Ljava/net/URL;
-    ->openConnection()Ljava/net/URLConnection;
+    invoke-virtual {v9}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
 
     .line 42
     .line 43
@@ -149,31 +139,26 @@
 
     .line 48
     .line 49
-    invoke-virtual {v6, v8}, Ljava/net/URLConnection;
-    ->setConnectTimeout(I)V
+    invoke-virtual {v6, v8}, Ljava/net/URLConnection;->setConnectTimeout(I)V
 
     .line 50
     .line 51
     .line 52
-    iget v8, v4, LL/d;
-    ->g:I
+    iget v8, v4, LL/d;->g:I
 
     .line 53
     .line 54
-    invoke-virtual {v6, v8}, Ljava/net/URLConnection;
-    ->setReadTimeout(I)V
+    invoke-virtual {v6, v8}, Ljava/net/URLConnection;->setReadTimeout(I)V
 
     .line 55
     .line 56
     .line 57
-    invoke-virtual {v6, v2}, Ljava/net/URLConnection;
-    ->setDoOutput(Z)V
+    invoke-virtual {v6, v2}, Ljava/net/URLConnection;->setDoOutput(Z)V
 
     .line 58
     .line 59
     .line 60
-    invoke-virtual {v6, v1}, Ljava/net/HttpURLConnection;
-    ->setInstanceFollowRedirects(Z)V
+    invoke-virtual {v6, v1}, Ljava/net/HttpURLConnection;->setInstanceFollowRedirects(Z)V
 
     .line 61
     .line 62
@@ -182,8 +167,7 @@
 
     .line 64
     .line 65
-    invoke-virtual {v6, v8}, Ljava/net/HttpURLConnection;
-    ->setRequestMethod(Ljava/lang/String;)V
+    invoke-virtual {v6, v8}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
 
     .line 66
     .line 67
@@ -196,8 +180,7 @@
 
     .line 71
     .line 72
-    invoke-virtual {v6, v8, v9}, Ljava/net/URLConnection;
-    ->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v8, v9}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 73
     .line 74
@@ -210,8 +193,7 @@
 
     .line 78
     .line 79
-    invoke-virtual {v6, v8, v9}, Ljava/net/URLConnection;
-    ->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v8, v9}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 80
     .line 81
@@ -224,8 +206,7 @@
 
     .line 85
     .line 86
-    invoke-virtual {v6, v10, v11}, Ljava/net/URLConnection;
-    ->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v10, v11}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 87
     .line 88
@@ -234,14 +215,12 @@
 
     .line 90
     .line 91
-    invoke-virtual {v6, v11, v9}, Ljava/net/URLConnection;
-    ->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v11, v9}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 92
     .line 93
     .line 94
-    iget-object v11, v0, LA0/d;
-    ->c:Ljava/lang/Object;
+    iget-object v11, v0, LA0/d;->c:Ljava/lang/Object;
 
     .line 95
     .line 96
@@ -257,8 +236,7 @@
 
     .line 101
     .line 102
-    invoke-virtual {v6, v12, v11}, Ljava/net/URLConnection;
-    ->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v6, v12, v11}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 103
     .line 104
@@ -268,8 +246,7 @@
 
     .line 106
     :try_start_0
-    invoke-virtual {v6}, Ljava/net/URLConnection;
-    ->getOutputStream()Ljava/io/OutputStream;
+    invoke-virtual {v6}, Ljava/net/URLConnection;->getOutputStream()Ljava/io/OutputStream;
 
     .line 107
     .line 108
@@ -287,8 +264,7 @@
 
     .line 111
     .line 112
-    invoke-direct {v15, v14}, Ljava/util/zip/GZIPOutputStream;
-    -><init>(Ljava/io/OutputStream;)V
+    invoke-direct {v15, v14}, Ljava/util/zip/GZIPOutputStream;-><init>(Ljava/io/OutputStream;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_4
 
@@ -296,13 +272,11 @@
     .line 114
     .line 115
     :try_start_2
-    iget-object v4, v4, LL/d;
-    ->a:Lcom/google/firebase/encoders/DataEncoder;
+    iget-object v4, v4, LL/d;->a:Lcom/google/firebase/encoders/DataEncoder;
 
     .line 116
     .line 117
-    iget-object v0, v0, LA0/d;
-    ->e:Ljava/lang/Object;
+    iget-object v0, v0, LA0/d;->e:Ljava/lang/Object;
 
     .line 118
     .line 119
@@ -322,20 +296,17 @@
 
     .line 126
     .line 127
-    invoke-direct {v11, v15}, Ljava/io/OutputStreamWriter;
-    -><init>(Ljava/io/OutputStream;)V
+    invoke-direct {v11, v15}, Ljava/io/OutputStreamWriter;-><init>(Ljava/io/OutputStream;)V
 
     .line 128
     .line 129
     .line 130
-    invoke-direct {v1, v11}, Ljava/io/BufferedWriter;
-    -><init>(Ljava/io/Writer;)V
+    invoke-direct {v1, v11}, Ljava/io/BufferedWriter;-><init>(Ljava/io/Writer;)V
 
     .line 131
     .line 132
     .line 133
-    invoke-interface {v4, v0, v1}, Lcom/google/firebase/encoders/DataEncoder;
-    ->encode(Ljava/lang/Object;Ljava/io/Writer;)V
+    invoke-interface {v4, v0, v1}, Lcom/google/firebase/encoders/DataEncoder;->encode(Ljava/lang/Object;Ljava/io/Writer;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_5
 
@@ -343,8 +314,7 @@
     .line 135
     .line 136
     :try_start_3
-    invoke-virtual {v15}, Ljava/io/OutputStream;
-    ->close()V
+    invoke-virtual {v15}, Ljava/io/OutputStream;->close()V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_4
 
@@ -356,8 +326,7 @@
     .line 140
     .line 141
     :try_start_4
-    invoke-virtual {v14}, Ljava/io/OutputStream;
-    ->close()V
+    invoke-virtual {v14}, Ljava/io/OutputStream;->close()V
     :try_end_4
     .catch Ljava/net/ConnectException; {:try_start_4 .. :try_end_4} :catch_3
     .catch Ljava/net/UnknownHostException; {:try_start_4 .. :try_end_4} :catch_2
@@ -408,8 +377,7 @@
     .line 158
     :cond_2
     :goto_1
-    invoke-virtual {v6}, Ljava/net/HttpURLConnection;
-    ->getResponseCode()I
+    invoke-virtual {v6}, Ljava/net/HttpURLConnection;->getResponseCode()I
 
     .line 159
     .line 160
@@ -417,8 +385,7 @@
     move-result v0
 
     .line 162
-    invoke-static {v0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 163
     .line 164
@@ -426,8 +393,7 @@
     move-result-object v1
 
     .line 166
-    invoke-static {v5}, Lcom/bumptech/glide/b;
-    ->J(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v5}, Lcom/bumptech/glide/b;->J(Ljava/lang/String;)Ljava/lang/String;
 
     .line 167
     .line 168
@@ -435,8 +401,7 @@
     move-result-object v4
 
     .line 170
-    invoke-static {v4, v7}, Landroid/util/Log;
-    ->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v4, v7}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     .line 171
     .line 172
@@ -460,8 +425,7 @@
 
     .line 181
     .line 182
-    invoke-static {v1, v2}, Ljava/lang/String;
-    ->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v1, v2}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 183
     .line 184
@@ -469,8 +433,7 @@
     move-result-object v1
 
     .line 186
-    invoke-static {v4, v1}, Landroid/util/Log;
-    ->i(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v4, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 187
     .line 188
@@ -480,8 +443,7 @@
 
     .line 190
     .line 191
-    invoke-virtual {v6, v10}, Ljava/net/URLConnection;
-    ->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v6, v10}, Ljava/net/URLConnection;->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
 
     .line 192
     .line 193
@@ -489,8 +451,7 @@
     move-result-object v2
 
     .line 195
-    invoke-static {v5, v1, v2}, Lcom/bumptech/glide/b;
-    ->p(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-static {v5, v1, v2}, Lcom/bumptech/glide/b;->p(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
 
     .line 196
     .line 197
@@ -499,8 +460,7 @@
 
     .line 199
     .line 200
-    invoke-virtual {v6, v8}, Ljava/net/URLConnection;
-    ->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v6, v8}, Ljava/net/URLConnection;->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
 
     .line 201
     .line 202
@@ -508,8 +468,7 @@
     move-result-object v2
 
     .line 204
-    invoke-static {v5, v1, v2}, Lcom/bumptech/glide/b;
-    ->p(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-static {v5, v1, v2}, Lcom/bumptech/glide/b;->p(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
 
     .line 205
     .line 206
@@ -558,8 +517,7 @@
 
     .line 227
     .line 228
-    invoke-direct {v1, v0, v13, v4, v5}, LL/c;
-    -><init>(ILjava/net/URL;J)V
+    invoke-direct {v1, v0, v13, v4, v5}, LL/c;-><init>(ILjava/net/URL;J)V
 
     .line 229
     .line 230
@@ -568,8 +526,7 @@
 
     .line 232
     :cond_5
-    invoke-virtual {v6}, Ljava/net/URLConnection;
-    ->getInputStream()Ljava/io/InputStream;
+    invoke-virtual {v6}, Ljava/net/URLConnection;->getInputStream()Ljava/io/InputStream;
 
     .line 233
     .line 234
@@ -578,8 +535,7 @@
 
     .line 236
     :try_start_5
-    invoke-virtual {v6, v8}, Ljava/net/URLConnection;
-    ->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v6, v8}, Ljava/net/URLConnection;->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
 
     .line 237
     .line 238
@@ -587,8 +543,7 @@
     move-result-object v2
 
     .line 240
-    invoke-virtual {v9, v2}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v9, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 241
     .line 242
@@ -604,8 +559,7 @@
 
     .line 247
     .line 248
-    invoke-direct {v2, v1}, Ljava/util/zip/GZIPInputStream;
-    -><init>(Ljava/io/InputStream;)V
+    invoke-direct {v2, v1}, Ljava/util/zip/GZIPInputStream;-><init>(Ljava/io/InputStream;)V
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_0
 
@@ -629,20 +583,17 @@
 
     .line 256
     .line 257
-    invoke-direct {v5, v2}, Ljava/io/InputStreamReader;
-    -><init>(Ljava/io/InputStream;)V
+    invoke-direct {v5, v2}, Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream;)V
 
     .line 258
     .line 259
     .line 260
-    invoke-direct {v4, v5}, Ljava/io/BufferedReader;
-    -><init>(Ljava/io/Reader;)V
+    invoke-direct {v4, v5}, Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
 
     .line 261
     .line 262
     .line 263
-    invoke-static {v4}, LM/w;
-    ->a(Ljava/io/BufferedReader;)LM/w;
+    invoke-static {v4}, LM/w;->a(Ljava/io/BufferedReader;)LM/w;
 
     .line 264
     .line 265
@@ -650,8 +601,7 @@
     move-result-object v4
 
     .line 267
-    iget-wide v4, v4, LM/w;
-    ->a:J
+    iget-wide v4, v4, LM/w;->a:J
 
     .line 268
     .line 269
@@ -659,8 +609,7 @@
 
     .line 270
     .line 271
-    invoke-direct {v6, v0, v13, v4, v5}, LL/c;
-    -><init>(ILjava/net/URL;J)V
+    invoke-direct {v6, v0, v13, v4, v5}, LL/c;-><init>(ILjava/net/URL;J)V
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_1
 
@@ -672,8 +621,7 @@
     .line 275
     .line 276
     :try_start_7
-    invoke-virtual {v2}, Ljava/io/InputStream;
-    ->close()V
+    invoke-virtual {v2}, Ljava/io/InputStream;->close()V
     :try_end_7
     .catchall {:try_start_7 .. :try_end_7} :catchall_0
 
@@ -699,8 +647,7 @@
 
     .line 284
     .line 285
-    invoke-virtual {v1}, Ljava/io/InputStream;
-    ->close()V
+    invoke-virtual {v1}, Ljava/io/InputStream;->close()V
 
     .line 286
     .line 287
@@ -721,8 +668,7 @@
     .line 292
     .line 293
     :try_start_8
-    invoke-virtual {v2}, Ljava/io/InputStream;
-    ->close()V
+    invoke-virtual {v2}, Ljava/io/InputStream;->close()V
     :try_end_8
     .catchall {:try_start_8 .. :try_end_8} :catchall_2
 
@@ -737,8 +683,7 @@
 
     .line 298
     :try_start_9
-    invoke-virtual {v4, v0}, Ljava/lang/Throwable;
-    ->addSuppressed(Ljava/lang/Throwable;)V
+    invoke-virtual {v4, v0}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
 
     .line 299
     .line 300
@@ -756,8 +701,7 @@
     .line 303
     .line 304
     :try_start_a
-    invoke-virtual {v1}, Ljava/io/InputStream;
-    ->close()V
+    invoke-virtual {v1}, Ljava/io/InputStream;->close()V
     :try_end_a
     .catchall {:try_start_a .. :try_end_a} :catchall_3
 
@@ -771,8 +715,7 @@
     move-exception v0
 
     .line 309
-    invoke-virtual {v2, v0}, Ljava/lang/Throwable;
-    ->addSuppressed(Ljava/lang/Throwable;)V
+    invoke-virtual {v2, v0}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
 
     .line 310
     .line 311
@@ -788,8 +731,7 @@
 
     .line 314
     .line 315
-    invoke-virtual {v6, v1}, Ljava/net/URLConnection;
-    ->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v6, v1}, Ljava/net/URLConnection;->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
 
     .line 316
     .line 317
@@ -805,8 +747,7 @@
 
     .line 322
     .line 323
-    invoke-direct {v4, v1}, Ljava/net/URL;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v4, v1}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
 
     .line 324
     .line 325
@@ -815,8 +756,7 @@
 
     .line 327
     .line 328
-    invoke-direct {v2, v0, v4, v5, v6}, LL/c;
-    -><init>(ILjava/net/URL;J)V
+    invoke-direct {v2, v0, v4, v5, v6}, LL/c;-><init>(ILjava/net/URL;J)V
 
     .line 329
     .line 330
@@ -842,8 +782,7 @@
 
     .line 337
     :try_start_b
-    invoke-virtual {v15}, Ljava/io/OutputStream;
-    ->close()V
+    invoke-virtual {v15}, Ljava/io/OutputStream;->close()V
     :try_end_b
     .catchall {:try_start_b .. :try_end_b} :catchall_6
 
@@ -858,8 +797,7 @@
 
     .line 342
     :try_start_c
-    invoke-virtual {v1, v0}, Ljava/lang/Throwable;
-    ->addSuppressed(Ljava/lang/Throwable;)V
+    invoke-virtual {v1, v0}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
 
     .line 343
     .line 344
@@ -876,8 +814,7 @@
     .line 347
     .line 348
     :try_start_d
-    invoke-virtual {v14}, Ljava/io/OutputStream;
-    ->close()V
+    invoke-virtual {v14}, Ljava/io/OutputStream;->close()V
     :try_end_d
     .catchall {:try_start_d .. :try_end_d} :catchall_7
 
@@ -892,8 +829,7 @@
 
     .line 353
     :try_start_e
-    invoke-virtual {v1, v0}, Ljava/lang/Throwable;
-    ->addSuppressed(Ljava/lang/Throwable;)V
+    invoke-virtual {v1, v0}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
 
     .line 354
     .line 355
@@ -913,8 +849,7 @@
 
     .line 358
     .line 359
-    invoke-static {v5, v1, v0}, Lcom/bumptech/glide/b;
-    ->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
+    invoke-static {v5, v1, v0}, Lcom/bumptech/glide/b;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
 
     .line 360
     .line 361
@@ -931,8 +866,7 @@
 
     .line 367
     .line 368
-    invoke-direct {v0, v1, v13, v6, v7}, LL/c;
-    -><init>(ILjava/net/URL;J)V
+    invoke-direct {v0, v1, v13, v6, v7}, LL/c;-><init>(ILjava/net/URL;J)V
 
     .line 369
     .line 370
@@ -945,8 +879,7 @@
 
     .line 373
     .line 374
-    invoke-static {v5, v1, v0}, Lcom/bumptech/glide/b;
-    ->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
+    invoke-static {v5, v1, v0}, Lcom/bumptech/glide/b;->q(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Exception;)V
 
     .line 375
     .line 376
@@ -959,8 +892,7 @@
 
     .line 380
     .line 381
-    invoke-direct {v0, v1, v13, v6, v7}, LL/c;
-    -><init>(ILjava/net/URL;J)V
+    invoke-direct {v0, v1, v13, v6, v7}, LL/c;-><init>(ILjava/net/URL;J)V
 
     .line 382
     .line 383
@@ -973,15 +905,13 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, LL/b;
-    ->c:Ljava/lang/Object;
+    iget-object v0, p0, LL/b;->c:Ljava/lang/Object;
 
     check-cast v0, Lcom/google/firebase/sessions/EventGDTLogger;
 
     check-cast p1, Lcom/google/firebase/sessions/SessionEvent;
 
-    invoke-static {v0, p1}, Lcom/google/firebase/sessions/EventGDTLogger;
-    ->a(Lcom/google/firebase/sessions/EventGDTLogger;Lcom/google/firebase/sessions/SessionEvent;)[B
+    invoke-static {v0, p1}, Lcom/google/firebase/sessions/EventGDTLogger;->a(Lcom/google/firebase/sessions/EventGDTLogger;Lcom/google/firebase/sessions/SessionEvent;)[B
 
     move-result-object p1
 
@@ -992,13 +922,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, LL/b;
-    ->c:Ljava/lang/Object;
+    iget-object v0, p0, LL/b;->c:Ljava/lang/Object;
 
     check-cast v0, Lokhttp3/EventListener;
 
-    invoke-static {v0, p1}, Lokhttp3/internal/Util;
-    ->a(Lokhttp3/EventListener;Lokhttp3/Call;)Lokhttp3/EventListener;
+    invoke-static {v0, p1}, Lokhttp3/internal/Util;->a(Lokhttp3/EventListener;Lokhttp3/Call;)Lokhttp3/EventListener;
 
     move-result-object p1
 
@@ -1018,13 +946,11 @@
     const/4 v2, 0x0
 
     .line 4
-    iget-object v3, p0, LL/b;
-    ->c:Ljava/lang/Object;
+    iget-object v3, p0, LL/b;->c:Ljava/lang/Object;
 
     .line 5
     .line 6
-    iget v4, p0, LL/b;
-    ->b:I
+    iget v4, p0, LL/b;->b:I
 
     .line 7
     .line 8
@@ -1037,8 +963,7 @@
 
     .line 12
     .line 13
-    iget-object v4, v3, LT/p;
-    ->b:LU/d;
+    iget-object v4, v3, LT/p;->b:LU/d;
 
     .line 14
     .line 15
@@ -1046,8 +971,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {v4}, LU/h;
-    ->a()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {v4}, LU/h;->a()Landroid/database/sqlite/SQLiteDatabase;
 
     .line 18
     .line 19
@@ -1055,8 +979,7 @@
     move-result-object v4
 
     .line 21
-    invoke-virtual {v4}, Landroid/database/sqlite/SQLiteDatabase;
-    ->beginTransaction()V
+    invoke-virtual {v4}, Landroid/database/sqlite/SQLiteDatabase;->beginTransaction()V
 
     .line 22
     .line 23
@@ -1070,8 +993,7 @@
 
     .line 27
     .line 28
-    invoke-virtual {v4, v6, v5}, Landroid/database/sqlite/SQLiteDatabase;
-    ->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual {v4, v6, v5}, Landroid/database/sqlite/SQLiteDatabase;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     .line 29
     .line 30
@@ -1083,14 +1005,12 @@
 
     .line 33
     .line 34
-    invoke-direct {v6, v1}, LN/v;
-    -><init>(I)V
+    invoke-direct {v6, v1}, LN/v;-><init>(I)V
 
     .line 35
     .line 36
     .line 37
-    invoke-static {v5, v6}, LU/h;
-    ->K(Landroid/database/Cursor;LU/f;)Ljava/lang/Object;
+    invoke-static {v5, v6}, LU/h;->K(Landroid/database/Cursor;LU/f;)Ljava/lang/Object;
 
     .line 38
     .line 39
@@ -1102,16 +1022,14 @@
 
     .line 42
     .line 43
-    invoke-virtual {v4}, Landroid/database/sqlite/SQLiteDatabase;
-    ->setTransactionSuccessful()V
+    invoke-virtual {v4}, Landroid/database/sqlite/SQLiteDatabase;->setTransactionSuccessful()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 44
     .line 45
     .line 46
-    invoke-virtual {v4}, Landroid/database/sqlite/SQLiteDatabase;
-    ->endTransaction()V
+    invoke-virtual {v4}, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
 
     .line 47
     .line 48
@@ -1120,8 +1038,7 @@
 
     .line 50
     .line 51
-    invoke-interface {v5}, Ljava/lang/Iterable;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v5}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     .line 52
     .line 53
@@ -1130,8 +1047,7 @@
 
     .line 55
     :goto_0
-    invoke-interface {v4}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v4}, Ljava/util/Iterator;->hasNext()Z
 
     .line 56
     .line 57
@@ -1143,8 +1059,7 @@
 
     .line 60
     .line 61
-    invoke-interface {v4}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v4}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 62
     .line 63
@@ -1156,13 +1071,11 @@
 
     .line 66
     .line 67
-    iget-object v6, v3, LT/p;
-    ->c:LT/d;
+    iget-object v6, v3, LT/p;->c:LT/d;
 
     .line 68
     .line 69
-    invoke-virtual {v6, v5, v1, v2}, LT/d;
-    ->a(LN/t;IZ)V
+    invoke-virtual {v6, v5, v1, v2}, LT/d;->a(LN/t;IZ)V
 
     .line 70
     .line 71
@@ -1178,8 +1091,7 @@
     move-exception v0
 
     .line 75
-    invoke-virtual {v4}, Landroid/database/sqlite/SQLiteDatabase;
-    ->endTransaction()V
+    invoke-virtual {v4}, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
 
     .line 76
     .line 77
@@ -1196,13 +1108,11 @@
 
     .line 82
     .line 83
-    iget-object v0, v3, LU/h;
-    ->c:Lu0/f;
+    iget-object v0, v3, LU/h;->c:Lu0/f;
 
     .line 84
     .line 85
-    invoke-virtual {v0}, Lu0/f;
-    ->w()J
+    invoke-virtual {v0}, Lu0/f;->w()J
 
     .line 86
     .line 87
@@ -1210,21 +1120,18 @@
     move-result-wide v4
 
     .line 89
-    iget-object v0, v3, LU/h;
-    ->e:LU/a;
+    iget-object v0, v3, LU/h;->e:LU/a;
 
     .line 90
     .line 91
-    iget-wide v6, v0, LU/a;
-    ->d:J
+    iget-wide v6, v0, LU/a;->d:J
 
     .line 92
     .line 93
     sub-long/2addr v4, v6
 
     .line 94
-    invoke-virtual {v3}, LU/h;
-    ->a()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {v3}, LU/h;->a()Landroid/database/sqlite/SQLiteDatabase;
 
     .line 95
     .line 96
@@ -1232,15 +1139,13 @@
     move-result-object v0
 
     .line 98
-    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;
-    ->beginTransaction()V
+    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;->beginTransaction()V
 
     .line 99
     .line 100
     .line 101
     :try_start_1
-    invoke-static {v4, v5}, Ljava/lang/String;
-    ->valueOf(J)Ljava/lang/String;
+    invoke-static {v4, v5}, Ljava/lang/String;->valueOf(J)Ljava/lang/String;
 
     .line 102
     .line 103
@@ -1260,8 +1165,7 @@
 
     .line 110
     .line 111
-    invoke-virtual {v0, v5, v4}, Landroid/database/sqlite/SQLiteDatabase;
-    ->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual {v0, v5, v4}, Landroid/database/sqlite/SQLiteDatabase;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     .line 112
     .line 113
@@ -1273,8 +1177,7 @@
     .line 115
     :goto_1
     :try_start_2
-    invoke-interface {v5}, Landroid/database/Cursor;
-    ->moveToNext()Z
+    invoke-interface {v5}, Landroid/database/Cursor;->moveToNext()Z
 
     .line 116
     .line 117
@@ -1286,8 +1189,7 @@
 
     .line 120
     .line 121
-    invoke-interface {v5, v2}, Landroid/database/Cursor;
-    ->getInt(I)I
+    invoke-interface {v5, v2}, Landroid/database/Cursor;->getInt(I)I
 
     .line 122
     .line 123
@@ -1295,8 +1197,7 @@
     move-result v6
 
     .line 125
-    invoke-interface {v5, v1}, Landroid/database/Cursor;
-    ->getString(I)Ljava/lang/String;
+    invoke-interface {v5, v1}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     .line 126
     .line 127
@@ -1307,13 +1208,11 @@
     int-to-long v8, v6
 
     .line 130
-    sget-object v6, LQ/c;
-    ->d:LQ/c;
+    sget-object v6, LQ/c;->d:LQ/c;
 
     .line 131
     .line 132
-    invoke-virtual {v3, v8, v9, v6, v7}, LU/h;
-    ->o(JLQ/c;Ljava/lang/String;)V
+    invoke-virtual {v3, v8, v9, v6, v7}, LU/h;->o(JLQ/c;Ljava/lang/String;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_2
 
@@ -1325,8 +1224,7 @@
     .line 136
     :cond_1
     :try_start_3
-    invoke-interface {v5}, Landroid/database/Cursor;
-    ->close()V
+    invoke-interface {v5}, Landroid/database/Cursor;->close()V
 
     .line 137
     .line 138
@@ -1339,8 +1237,7 @@
 
     .line 142
     .line 143
-    invoke-virtual {v0, v1, v2, v4}, Landroid/database/sqlite/SQLiteDatabase;
-    ->delete(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I
+    invoke-virtual {v0, v1, v2, v4}, Landroid/database/sqlite/SQLiteDatabase;->delete(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I
 
     .line 144
     .line 145
@@ -1348,22 +1245,19 @@
     move-result v1
 
     .line 147
-    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;
-    ->setTransactionSuccessful()V
+    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;->setTransactionSuccessful()V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
     .line 148
     .line 149
     .line 150
-    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;
-    ->endTransaction()V
+    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
 
     .line 151
     .line 152
     .line 153
-    invoke-static {v1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 154
     .line 155
@@ -1385,8 +1279,7 @@
 
     .line 161
     :try_start_4
-    invoke-interface {v5}, Landroid/database/Cursor;
-    ->close()V
+    invoke-interface {v5}, Landroid/database/Cursor;->close()V
 
     .line 162
     .line 163
@@ -1397,8 +1290,7 @@
 
     .line 165
     :goto_2
-    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;
-    ->endTransaction()V
+    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
 
     .line 166
     .line 167
@@ -1415,14 +1307,12 @@
 
     .line 172
     .line 173
-    invoke-virtual {v3}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 174
     .line 175
     .line 176
-    sget v1, LQ/a;
-    ->e:I
+    sget v1, LQ/a;->e:I
 
     .line 177
     .line 178
@@ -1430,14 +1320,12 @@
 
     .line 179
     .line 180
-    invoke-direct {v1}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {v1}, Ljava/lang/Object;-><init>()V
 
     .line 181
     .line 182
     .line 183
-    iput-object v0, v1, LN0/d;
-    ->c:Ljava/lang/Object;
+    iput-object v0, v1, LN0/d;->c:Ljava/lang/Object;
 
     .line 184
     .line 185
@@ -1445,19 +1333,16 @@
 
     .line 186
     .line 187
-    invoke-direct {v4}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
     .line 188
     .line 189
     .line 190
-    iput-object v4, v1, LN0/d;
-    ->d:Ljava/lang/Object;
+    iput-object v4, v1, LN0/d;->d:Ljava/lang/Object;
 
     .line 191
     .line 192
-    iput-object v0, v1, LN0/d;
-    ->e:Ljava/lang/Object;
+    iput-object v0, v1, LN0/d;->e:Ljava/lang/Object;
 
     .line 193
     .line 194
@@ -1465,8 +1350,7 @@
 
     .line 195
     .line 196
-    iput-object v0, v1, LN0/d;
-    ->b:Ljava/lang/Object;
+    iput-object v0, v1, LN0/d;->b:Ljava/lang/Object;
 
     .line 197
     .line 198
@@ -1474,8 +1358,7 @@
 
     .line 199
     .line 200
-    invoke-direct {v0}, Ljava/util/HashMap;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     .line 201
     .line 202
@@ -1484,8 +1367,7 @@
 
     .line 204
     .line 205
-    invoke-virtual {v3}, LU/h;
-    ->a()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {v3}, LU/h;->a()Landroid/database/sqlite/SQLiteDatabase;
 
     .line 206
     .line 207
@@ -1493,8 +1375,7 @@
     move-result-object v5
 
     .line 209
-    invoke-virtual {v5}, Landroid/database/sqlite/SQLiteDatabase;
-    ->beginTransaction()V
+    invoke-virtual {v5}, Landroid/database/sqlite/SQLiteDatabase;->beginTransaction()V
 
     .line 210
     .line 211
@@ -1504,8 +1385,7 @@
 
     .line 213
     .line 214
-    invoke-virtual {v5, v4, v2}, Landroid/database/sqlite/SQLiteDatabase;
-    ->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual {v5, v4, v2}, Landroid/database/sqlite/SQLiteDatabase;->rawQuery(Ljava/lang/String;[Ljava/lang/String;)Landroid/database/Cursor;
 
     .line 215
     .line 216
@@ -1520,14 +1400,12 @@
     const/4 v6, 0x3
 
     .line 221
-    invoke-direct {v4, v3, v0, v1, v6}, LS/b;
-    -><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;I)V
+    invoke-direct {v4, v3, v0, v1, v6}, LS/b;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;I)V
 
     .line 222
     .line 223
     .line 224
-    invoke-static {v2, v4}, LU/h;
-    ->K(Landroid/database/Cursor;LU/f;)Ljava/lang/Object;
+    invoke-static {v2, v4}, LU/h;->K(Landroid/database/Cursor;LU/f;)Ljava/lang/Object;
 
     .line 225
     .line 226
@@ -1539,16 +1417,14 @@
 
     .line 229
     .line 230
-    invoke-virtual {v5}, Landroid/database/sqlite/SQLiteDatabase;
-    ->setTransactionSuccessful()V
+    invoke-virtual {v5}, Landroid/database/sqlite/SQLiteDatabase;->setTransactionSuccessful()V
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_3
 
     .line 231
     .line 232
     .line 233
-    invoke-virtual {v5}, Landroid/database/sqlite/SQLiteDatabase;
-    ->endTransaction()V
+    invoke-virtual {v5}, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
 
     .line 234
     .line 235
@@ -1560,8 +1436,7 @@
     move-exception v0
 
     .line 238
-    invoke-virtual {v5}, Landroid/database/sqlite/SQLiteDatabase;
-    ->endTransaction()V
+    invoke-virtual {v5}, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
 
     .line 239
     .line 240
@@ -1574,8 +1449,7 @@
 
     .line 243
     .line 244
-    iget-object v1, v3, LT/m;
-    ->i:LU/c;
+    iget-object v1, v3, LT/m;->i:LU/c;
 
     .line 245
     .line 246
@@ -1583,8 +1457,7 @@
 
     .line 247
     .line 248
-    invoke-virtual {v1}, LU/h;
-    ->a()Landroid/database/sqlite/SQLiteDatabase;
+    invoke-virtual {v1}, LU/h;->a()Landroid/database/sqlite/SQLiteDatabase;
 
     .line 249
     .line 250
@@ -1592,8 +1465,7 @@
     move-result-object v2
 
     .line 252
-    invoke-virtual {v2}, Landroid/database/sqlite/SQLiteDatabase;
-    ->beginTransaction()V
+    invoke-virtual {v2}, Landroid/database/sqlite/SQLiteDatabase;->beginTransaction()V
 
     .line 253
     .line 254
@@ -1603,8 +1475,7 @@
 
     .line 256
     .line 257
-    invoke-virtual {v2, v3}, Landroid/database/sqlite/SQLiteDatabase;
-    ->compileStatement(Ljava/lang/String;)Landroid/database/sqlite/SQLiteStatement;
+    invoke-virtual {v2, v3}, Landroid/database/sqlite/SQLiteDatabase;->compileStatement(Ljava/lang/String;)Landroid/database/sqlite/SQLiteStatement;
 
     .line 258
     .line 259
@@ -1612,8 +1483,7 @@
     move-result-object v3
 
     .line 261
-    invoke-virtual {v3}, Landroid/database/sqlite/SQLiteStatement;
-    ->execute()V
+    invoke-virtual {v3}, Landroid/database/sqlite/SQLiteStatement;->execute()V
 
     .line 262
     .line 263
@@ -1626,19 +1496,16 @@
 
     .line 267
     .line 268
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 269
     .line 270
     .line 271
-    iget-object v1, v1, LU/h;
-    ->c:Lu0/f;
+    iget-object v1, v1, LU/h;->c:Lu0/f;
 
     .line 272
     .line 273
-    invoke-virtual {v1}, Lu0/f;
-    ->w()J
+    invoke-virtual {v1}, Lu0/f;->w()J
 
     .line 274
     .line 275
@@ -1646,14 +1513,12 @@
     move-result-wide v4
 
     .line 277
-    invoke-virtual {v3, v4, v5}, Ljava/lang/StringBuilder;
-    ->append(J)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v4, v5}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
     .line 278
     .line 279
     .line 280
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 281
     .line 282
@@ -1661,8 +1526,7 @@
     move-result-object v1
 
     .line 284
-    invoke-virtual {v2, v1}, Landroid/database/sqlite/SQLiteDatabase;
-    ->compileStatement(Ljava/lang/String;)Landroid/database/sqlite/SQLiteStatement;
+    invoke-virtual {v2, v1}, Landroid/database/sqlite/SQLiteDatabase;->compileStatement(Ljava/lang/String;)Landroid/database/sqlite/SQLiteStatement;
 
     .line 285
     .line 286
@@ -1670,22 +1534,19 @@
     move-result-object v1
 
     .line 288
-    invoke-virtual {v1}, Landroid/database/sqlite/SQLiteStatement;
-    ->execute()V
+    invoke-virtual {v1}, Landroid/database/sqlite/SQLiteStatement;->execute()V
 
     .line 289
     .line 290
     .line 291
-    invoke-virtual {v2}, Landroid/database/sqlite/SQLiteDatabase;
-    ->setTransactionSuccessful()V
+    invoke-virtual {v2}, Landroid/database/sqlite/SQLiteDatabase;->setTransactionSuccessful()V
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_4
 
     .line 292
     .line 293
     .line 294
-    invoke-virtual {v2}, Landroid/database/sqlite/SQLiteDatabase;
-    ->endTransaction()V
+    invoke-virtual {v2}, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
 
     .line 295
     .line 296
@@ -1697,8 +1558,7 @@
     move-exception v0
 
     .line 299
-    invoke-virtual {v2}, Landroid/database/sqlite/SQLiteDatabase;
-    ->endTransaction()V
+    invoke-virtual {v2}, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
 
     .line 300
     .line 301
@@ -1756,13 +1616,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, LL/b;
-    ->c:Ljava/lang/Object;
+    iget-object v0, p0, LL/b;->c:Ljava/lang/Object;
 
     check-cast v0, Ljava/lang/String;
 
-    invoke-static {v0, p1}, Landroidx/constraintlayout/core/state/Transition;
-    ->d(Ljava/lang/String;F)F
+    invoke-static {v0, p1}, Landroidx/constraintlayout/core/state/Transition;->d(Ljava/lang/String;F)F
 
     move-result p1
 
@@ -1773,48 +1631,39 @@
     .locals 1
 
     .line 1
-    iget v0, p0, LL/b;
-    ->b:I
+    iget v0, p0, LL/b;->b:I
 
     sparse-switch v0, :sswitch_data_0
 
-    iget-object v0, p0, LL/b;
-    ->c:Ljava/lang/Object;
+    iget-object v0, p0, LL/b;->c:Ljava/lang/Object;
 
     check-cast v0, Lcom/google/firebase/database/android/AndroidAuthTokenProvider;
 
-    invoke-static {v0, p1}, Lcom/google/firebase/database/android/AndroidAuthTokenProvider;
-    ->d(Lcom/google/firebase/database/android/AndroidAuthTokenProvider;Lcom/google/firebase/inject/Provider;)V
+    invoke-static {v0, p1}, Lcom/google/firebase/database/android/AndroidAuthTokenProvider;->d(Lcom/google/firebase/database/android/AndroidAuthTokenProvider;Lcom/google/firebase/inject/Provider;)V
 return-void
 
     :sswitch_0
-    iget-object v0, p0, LL/b;
-    ->c:Ljava/lang/Object;
+    iget-object v0, p0, LL/b;->c:Ljava/lang/Object;
 
     check-cast v0, Lcom/google/firebase/database/android/AndroidAppCheckTokenProvider;
 
-    invoke-static {v0, p1}, Lcom/google/firebase/database/android/AndroidAppCheckTokenProvider;
-    ->b(Lcom/google/firebase/database/android/AndroidAppCheckTokenProvider;Lcom/google/firebase/inject/Provider;)V
+    invoke-static {v0, p1}, Lcom/google/firebase/database/android/AndroidAppCheckTokenProvider;->b(Lcom/google/firebase/database/android/AndroidAppCheckTokenProvider;Lcom/google/firebase/inject/Provider;)V
 return-void
 
     :sswitch_1
-    iget-object v0, p0, LL/b;
-    ->c:Ljava/lang/Object;
+    iget-object v0, p0, LL/b;->c:Ljava/lang/Object;
 
     check-cast v0, Lcom/google/firebase/crashlytics/internal/CrashlyticsRemoteConfigListener;
 
-    invoke-static {v0, p1}, Lcom/google/firebase/crashlytics/internal/RemoteConfigDeferredProxy;
-    ->a(Lcom/google/firebase/crashlytics/internal/CrashlyticsRemoteConfigListener;Lcom/google/firebase/inject/Provider;)V
+    invoke-static {v0, p1}, Lcom/google/firebase/crashlytics/internal/RemoteConfigDeferredProxy;->a(Lcom/google/firebase/crashlytics/internal/CrashlyticsRemoteConfigListener;Lcom/google/firebase/inject/Provider;)V
 return-void
 
     :sswitch_2
-    iget-object v0, p0, LL/b;
-    ->c:Ljava/lang/Object;
+    iget-object v0, p0, LL/b;->c:Ljava/lang/Object;
 
     check-cast v0, Lcom/google/firebase/crashlytics/internal/CrashlyticsNativeComponentDeferredProxy;
 
-    invoke-static {v0, p1}, Lcom/google/firebase/crashlytics/internal/CrashlyticsNativeComponentDeferredProxy;
-    ->b(Lcom/google/firebase/crashlytics/internal/CrashlyticsNativeComponentDeferredProxy;Lcom/google/firebase/inject/Provider;)V
+    invoke-static {v0, p1}, Lcom/google/firebase/crashlytics/internal/CrashlyticsNativeComponentDeferredProxy;->b(Lcom/google/firebase/crashlytics/internal/CrashlyticsNativeComponentDeferredProxy;Lcom/google/firebase/inject/Provider;)V
 return-void
 
     nop
@@ -1831,13 +1680,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, LL/b;
-    ->c:Ljava/lang/Object;
+    iget-object v0, p0, LL/b;->c:Ljava/lang/Object;
 
     check-cast v0, Landroidx/fragment/app/SpecialEffectsController$Operation;
 
-    invoke-static {v0}, Landroidx/fragment/app/SpecialEffectsController$Operation;
-    ->a(Landroidx/fragment/app/SpecialEffectsController$Operation;)V
+    invoke-static {v0}, Landroidx/fragment/app/SpecialEffectsController$Operation;->a(Landroidx/fragment/app/SpecialEffectsController$Operation;)V
 return-void
 .end method
 
@@ -1845,13 +1692,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, LL/b;
-    ->c:Ljava/lang/Object;
+    iget-object v0, p0, LL/b;->c:Ljava/lang/Object;
 
     check-cast v0, Landroid/view/View;
 
-    invoke-static {v0, p1, p2, p3}, Landroidx/core/view/inputmethod/InputConnectionCompat;
-    ->a(Landroid/view/View;Landroidx/core/view/inputmethod/InputContentInfoCompat;ILandroid/os/Bundle;)Z
+    invoke-static {v0, p1, p2, p3}, Landroidx/core/view/inputmethod/InputConnectionCompat;->a(Landroid/view/View;Landroidx/core/view/inputmethod/InputContentInfoCompat;ILandroid/os/Bundle;)Z
 
     move-result p1
 
@@ -1862,13 +1707,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, LL/b;
-    ->c:Ljava/lang/Object;
+    iget-object v0, p0, LL/b;->c:Ljava/lang/Object;
 
     check-cast v0, Lp1/p;
 
-    invoke-static {v0, p1, p2}, Landroidx/fragment/app/FragmentKt;
-    ->a(Lp1/p;Ljava/lang/String;Landroid/os/Bundle;)V
+    invoke-static {v0, p1, p2}, Landroidx/fragment/app/FragmentKt;->a(Lp1/p;Ljava/lang/String;Landroid/os/Bundle;)V
 return-void
 .end method
 
@@ -1876,62 +1719,52 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, LL/b;
-    ->b:I
+    iget v0, p0, LL/b;->b:I
 
     packed-switch v0, :pswitch_data_0
 
-    iget-object v0, p0, LL/b;
-    ->c:Ljava/lang/Object;
+    iget-object v0, p0, LL/b;->c:Ljava/lang/Object;
 
     check-cast v0, Lcom/google/android/gms/tasks/SuccessContinuation;
 
-    invoke-static {v0, p1}, Lcom/google/firebase/crashlytics/internal/concurrency/CrashlyticsWorker;
-    ->e(Lcom/google/android/gms/tasks/SuccessContinuation;Lcom/google/android/gms/tasks/Task;)Lcom/google/android/gms/tasks/Task;
+    invoke-static {v0, p1}, Lcom/google/firebase/crashlytics/internal/concurrency/CrashlyticsWorker;->e(Lcom/google/android/gms/tasks/SuccessContinuation;Lcom/google/android/gms/tasks/Task;)Lcom/google/android/gms/tasks/Task;
 
     move-result-object p1
 
     return-object p1
 
     :pswitch_0
-    iget-object v0, p0, LL/b;
-    ->c:Ljava/lang/Object;
+    iget-object v0, p0, LL/b;->c:Ljava/lang/Object;
 
     check-cast v0, Ljava/lang/Runnable;
 
-    invoke-static {v0, p1}, Lcom/google/firebase/crashlytics/internal/concurrency/CrashlyticsWorker;
-    ->d(Ljava/lang/Runnable;Lcom/google/android/gms/tasks/Task;)Lcom/google/android/gms/tasks/Task;
+    invoke-static {v0, p1}, Lcom/google/firebase/crashlytics/internal/concurrency/CrashlyticsWorker;->d(Ljava/lang/Runnable;Lcom/google/android/gms/tasks/Task;)Lcom/google/android/gms/tasks/Task;
 
     move-result-object p1
 
     return-object p1
 
     :pswitch_1
-    iget-object v0, p0, LL/b;
-    ->c:Ljava/lang/Object;
+    iget-object v0, p0, LL/b;->c:Ljava/lang/Object;
 
     check-cast v0, Ljava/util/concurrent/CountDownLatch;
 
-    invoke-static {v0, p1}, Lcom/google/firebase/crashlytics/internal/common/Utils;
-    ->a(Ljava/util/concurrent/CountDownLatch;Lcom/google/android/gms/tasks/Task;)Ljava/lang/Object;
+    invoke-static {v0, p1}, Lcom/google/firebase/crashlytics/internal/common/Utils;->a(Ljava/util/concurrent/CountDownLatch;Lcom/google/android/gms/tasks/Task;)Ljava/lang/Object;
 
     move-result-object p1
 
     return-object p1
 
     :pswitch_2
-    iget-object v0, p0, LL/b;
-    ->c:Ljava/lang/Object;
+    iget-object v0, p0, LL/b;->c:Ljava/lang/Object;
 
     check-cast v0, Lcom/google/firebase/crashlytics/internal/common/SessionReportingCoordinator;
 
-    invoke-static {v0, p1}, Lcom/google/firebase/crashlytics/internal/common/SessionReportingCoordinator;
-    ->b(Lcom/google/firebase/crashlytics/internal/common/SessionReportingCoordinator;Lcom/google/android/gms/tasks/Task;)Z
+    invoke-static {v0, p1}, Lcom/google/firebase/crashlytics/internal/common/SessionReportingCoordinator;->b(Lcom/google/firebase/crashlytics/internal/common/SessionReportingCoordinator;Lcom/google/android/gms/tasks/Task;)Z
 
     move-result p1
 
-    invoke-static {p1}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p1
 

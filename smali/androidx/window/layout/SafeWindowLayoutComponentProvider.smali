@@ -18,24 +18,20 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/window/layout/SafeWindowLayoutComponentProvider;
-    ->INSTANCE:Landroidx/window/layout/SafeWindowLayoutComponentProvider;
+    sput-object v0, Landroidx/window/layout/SafeWindowLayoutComponentProvider;->INSTANCE:Landroidx/window/layout/SafeWindowLayoutComponentProvider;
 
     .line 7
     .line 8
-    sget-object v0, Landroidx/window/layout/SafeWindowLayoutComponentProvider$windowLayoutComponent$2;
-    ->INSTANCE:Landroidx/window/layout/SafeWindowLayoutComponentProvider$windowLayoutComponent$2;
+    sget-object v0, Landroidx/window/layout/SafeWindowLayoutComponentProvider$windowLayoutComponent$2;->INSTANCE:Landroidx/window/layout/SafeWindowLayoutComponentProvider$windowLayoutComponent$2;
 
     .line 9
     .line 10
-    invoke-static {v0}, La/a;
-    ->C(Lp1/a;)Lc1/j;
+    invoke-static {v0}, La/a;->C(Lp1/a;)Lc1/j;
 
     .line 11
     .line 12
@@ -43,8 +39,7 @@
     move-result-object v0
 
     .line 14
-    sput-object v0, Landroidx/window/layout/SafeWindowLayoutComponentProvider;
-    ->windowLayoutComponent$delegate:Lc1/d;
+    sput-object v0, Landroidx/window/layout/SafeWindowLayoutComponentProvider;->windowLayoutComponent$delegate:Lc1/d;
 
     .line 15
     .line 16
@@ -55,8 +50,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -68,8 +62,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;
-    ->canUseWindowLayoutComponent(Ljava/lang/ClassLoader;)Z
+    invoke-direct {p0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;->canUseWindowLayoutComponent(Ljava/lang/ClassLoader;)Z
 
     .line 2
     .line 3
@@ -83,8 +76,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;
-    ->doesReturn(Ljava/lang/reflect/Method;Ljava/lang/Class;)Z
+    invoke-direct {p0, p1, p2}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;->doesReturn(Ljava/lang/reflect/Method;Ljava/lang/Class;)Z
 
     move-result p0
 
@@ -95,8 +87,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0, p1, p2}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;
-    ->doesReturn(Ljava/lang/reflect/Method;Lv1/c;)Z
+    invoke-direct {p0, p1, p2}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;->doesReturn(Ljava/lang/reflect/Method;Lv1/c;)Z
 
     move-result p0
 
@@ -107,8 +98,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;
-    ->foldingFeatureClass(Ljava/lang/ClassLoader;)Ljava/lang/Class;
+    invoke-direct {p0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;->foldingFeatureClass(Ljava/lang/ClassLoader;)Ljava/lang/Class;
 
     .line 2
     .line 3
@@ -122,8 +112,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;
-    ->isPublic(Ljava/lang/reflect/Method;)Z
+    invoke-direct {p0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;->isPublic(Ljava/lang/reflect/Method;)Z
 
     .line 2
     .line 3
@@ -137,8 +126,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;
-    ->windowExtensionsClass(Ljava/lang/ClassLoader;)Ljava/lang/Class;
+    invoke-direct {p0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;->windowExtensionsClass(Ljava/lang/ClassLoader;)Ljava/lang/Class;
 
     .line 2
     .line 3
@@ -152,8 +140,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;
-    ->windowExtensionsProviderClass(Ljava/lang/ClassLoader;)Ljava/lang/Class;
+    invoke-direct {p0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;->windowExtensionsProviderClass(Ljava/lang/ClassLoader;)Ljava/lang/Class;
 
     .line 2
     .line 3
@@ -167,8 +154,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;
-    ->windowLayoutComponentClass(Ljava/lang/ClassLoader;)Ljava/lang/Class;
+    invoke-direct {p0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;->windowLayoutComponentClass(Ljava/lang/ClassLoader;)Ljava/lang/Class;
 
     .line 2
     .line 3
@@ -182,8 +168,7 @@
     .locals 3
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -198,8 +183,7 @@
 
     .line 7
     .line 8
-    invoke-direct {p0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;
-    ->isWindowLayoutProviderValid(Ljava/lang/ClassLoader;)Z
+    invoke-direct {p0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;->isWindowLayoutProviderValid(Ljava/lang/ClassLoader;)Z
 
     .line 9
     .line 10
@@ -211,8 +195,7 @@
 
     .line 13
     .line 14
-    invoke-direct {p0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;
-    ->isWindowExtensionsValid(Ljava/lang/ClassLoader;)Z
+    invoke-direct {p0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;->isWindowExtensionsValid(Ljava/lang/ClassLoader;)Z
 
     .line 15
     .line 16
@@ -224,8 +207,7 @@
 
     .line 19
     .line 20
-    invoke-direct {p0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;
-    ->isWindowLayoutComponentValid(Ljava/lang/ClassLoader;)Z
+    invoke-direct {p0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;->isWindowLayoutComponentValid(Ljava/lang/ClassLoader;)Z
 
     .line 21
     .line 22
@@ -237,8 +219,7 @@
 
     .line 25
     .line 26
-    invoke-direct {p0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;
-    ->isFoldingFeatureValid(Ljava/lang/ClassLoader;)Z
+    invoke-direct {p0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;->isFoldingFeatureValid(Ljava/lang/ClassLoader;)Z
 
     .line 27
     .line 28
@@ -271,13 +252,11 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p1}, Ljava/lang/reflect/Method;
-    ->getReturnType()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/reflect/Method;->getReturnType()Ljava/lang/Class;
 
     move-result-object p1
 
-    invoke-virtual {p1, p2}, Ljava/lang/Object;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, p2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -296,13 +275,11 @@
     .end annotation
 
     .line 1
-    invoke-static {p2}, Lcom/bumptech/glide/b;
-    ->B(Lv1/c;)Ljava/lang/Class;
+    invoke-static {p2}, Lcom/bumptech/glide/b;->B(Lv1/c;)Ljava/lang/Class;
 
     move-result-object p2
 
-    invoke-direct {p0, p1, p2}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;
-    ->doesReturn(Ljava/lang/reflect/Method;Ljava/lang/Class;)Z
+    invoke-direct {p0, p1, p2}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;->doesReturn(Ljava/lang/reflect/Method;Ljava/lang/Class;)Z
 
     move-result p1
 
@@ -326,8 +303,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1, v0}, Ljava/lang/ClassLoader;
-    ->loadClass(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-virtual {p1, v0}, Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 4
     .line 5
@@ -345,14 +321,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider$isFoldingFeatureValid$1;
-    -><init>(Ljava/lang/ClassLoader;)V
+    invoke-direct {v0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider$isFoldingFeatureValid$1;-><init>(Ljava/lang/ClassLoader;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0, v0}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;
-    ->validate(Lp1/a;)Z
+    invoke-direct {p0, v0}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;->validate(Lp1/a;)Z
 
     .line 7
     .line 8
@@ -366,8 +340,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Ljava/lang/reflect/Method;
-    ->getModifiers()I
+    invoke-virtual {p1}, Ljava/lang/reflect/Method;->getModifiers()I
 
     .line 2
     .line 3
@@ -375,8 +348,7 @@
     move-result p1
 
     .line 5
-    invoke-static {p1}, Ljava/lang/reflect/Modifier;
-    ->isPublic(I)Z
+    invoke-static {p1}, Ljava/lang/reflect/Modifier;->isPublic(I)Z
 
     .line 6
     .line 7
@@ -394,14 +366,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider$isWindowExtensionsValid$1;
-    -><init>(Ljava/lang/ClassLoader;)V
+    invoke-direct {v0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider$isWindowExtensionsValid$1;-><init>(Ljava/lang/ClassLoader;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0, v0}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;
-    ->validate(Lp1/a;)Z
+    invoke-direct {p0, v0}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;->validate(Lp1/a;)Z
 
     .line 7
     .line 8
@@ -422,14 +392,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider$isWindowLayoutComponentValid$1;
-    -><init>(Ljava/lang/ClassLoader;)V
+    invoke-direct {v0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider$isWindowLayoutComponentValid$1;-><init>(Ljava/lang/ClassLoader;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0, v0}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;
-    ->validate(Lp1/a;)Z
+    invoke-direct {p0, v0}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;->validate(Lp1/a;)Z
 
     .line 7
     .line 8
@@ -447,14 +415,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider$isWindowLayoutProviderValid$1;
-    -><init>(Ljava/lang/ClassLoader;)V
+    invoke-direct {v0, p1}, Landroidx/window/layout/SafeWindowLayoutComponentProvider$isWindowLayoutProviderValid$1;-><init>(Ljava/lang/ClassLoader;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0, v0}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;
-    ->validate(Lp1/a;)Z
+    invoke-direct {p0, v0}, Landroidx/window/layout/SafeWindowLayoutComponentProvider;->validate(Lp1/a;)Z
 
     .line 7
     .line 8
@@ -476,8 +442,7 @@
 
     .line 1
     :try_start_0
-    invoke-interface {p1}, Lp1/a;
-    ->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lp1/a;->invoke()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -489,8 +454,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 8
     .line 9
@@ -526,8 +490,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1, v0}, Ljava/lang/ClassLoader;
-    ->loadClass(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-virtual {p1, v0}, Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 4
     .line 5
@@ -554,8 +517,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1, v0}, Ljava/lang/ClassLoader;
-    ->loadClass(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-virtual {p1, v0}, Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 4
     .line 5
@@ -582,8 +544,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1, v0}, Ljava/lang/ClassLoader;
-    ->loadClass(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-virtual {p1, v0}, Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 4
     .line 5
@@ -599,13 +560,11 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/window/layout/SafeWindowLayoutComponentProvider;
-    ->windowLayoutComponent$delegate:Lc1/d;
+    sget-object v0, Landroidx/window/layout/SafeWindowLayoutComponentProvider;->windowLayoutComponent$delegate:Lc1/d;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Lc1/d;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Lc1/d;->getValue()Ljava/lang/Object;
 
     .line 4
     .line 5

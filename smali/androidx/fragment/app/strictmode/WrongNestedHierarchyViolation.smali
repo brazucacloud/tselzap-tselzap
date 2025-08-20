@@ -18,8 +18,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -28,8 +27,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -42,14 +40,12 @@
 
     .line 14
     .line 15
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 16
     .line 17
     .line 18
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 19
     .line 20
@@ -58,14 +54,12 @@
 
     .line 22
     .line 23
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 27
     .line 28
@@ -74,8 +68,7 @@
 
     .line 30
     .line 31
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 32
     .line 33
@@ -84,8 +77,7 @@
 
     .line 35
     .line 36
-    invoke-static {v0, v1, p3}, LA/d;
-    ->j(Ljava/lang/StringBuilder;Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v0, v1, p3}, LA/d;->j(Ljava/lang/StringBuilder;Ljava/lang/String;I)Ljava/lang/String;
 
     .line 37
     .line 38
@@ -93,19 +85,16 @@
     move-result-object v0
 
     .line 40
-    invoke-direct {p0, p1, v0}, Landroidx/fragment/app/strictmode/Violation;
-    -><init>(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
+    invoke-direct {p0, p1, v0}, Landroidx/fragment/app/strictmode/Violation;-><init>(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
 
     .line 41
     .line 42
     .line 43
-    iput-object p2, p0, Landroidx/fragment/app/strictmode/WrongNestedHierarchyViolation;
-    ->expectedParentFragment:Landroidx/fragment/app/Fragment;
+    iput-object p2, p0, Landroidx/fragment/app/strictmode/WrongNestedHierarchyViolation;->expectedParentFragment:Landroidx/fragment/app/Fragment;
 
     .line 44
     .line 45
-    iput p3, p0, Landroidx/fragment/app/strictmode/WrongNestedHierarchyViolation;
-    ->containerId:I    
+    iput p3, p0, Landroidx/fragment/app/strictmode/WrongNestedHierarchyViolation;->containerId:I
     return-void
 .end method
 
@@ -115,16 +104,14 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/fragment/app/strictmode/WrongNestedHierarchyViolation;
-    ->containerId:I    return v0
+    iget v0, p0, Landroidx/fragment/app/strictmode/WrongNestedHierarchyViolation;->containerId:I    return v0
 .end method
 
 .method public final getExpectedParentFragment()Landroidx/fragment/app/Fragment;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/strictmode/WrongNestedHierarchyViolation;
-    ->expectedParentFragment:Landroidx/fragment/app/Fragment;    return-object v0
+    iget-object v0, p0, Landroidx/fragment/app/strictmode/WrongNestedHierarchyViolation;->expectedParentFragment:Landroidx/fragment/app/Fragment;    return-object v0
 .end method
 
 .end class

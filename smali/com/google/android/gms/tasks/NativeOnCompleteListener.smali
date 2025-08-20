@@ -30,11 +30,9 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-wide p1, p0, Lcom/google/android/gms/tasks/NativeOnCompleteListener;
-    ->zza:J
+    iput-wide p1, p0, Lcom/google/android/gms/tasks/NativeOnCompleteListener;->zza:J
 
     return-void
 .end method
@@ -62,14 +60,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p2}, Lcom/google/android/gms/tasks/NativeOnCompleteListener;
-    -><init>(J)V
+    invoke-direct {v0, p1, p2}, Lcom/google/android/gms/tasks/NativeOnCompleteListener;-><init>(J)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/tasks/Task;
-    ->addOnCompleteListener(Lcom/google/android/gms/tasks/OnCompleteListener;)Lcom/google/android/gms/tasks/Task;
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/tasks/Task;->addOnCompleteListener(Lcom/google/android/gms/tasks/OnCompleteListener;)Lcom/google/android/gms/tasks/Task;
 
     .line 7
     .line 8
@@ -111,8 +107,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/google/android/gms/tasks/Task;
-    ->isSuccessful()Z
+    invoke-virtual {p1}, Lcom/google/android/gms/tasks/Task;->isSuccessful()Z
 
     .line 2
     .line 3
@@ -127,8 +122,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Lcom/google/android/gms/tasks/Task;
-    ->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/google/android/gms/tasks/Task;->getResult()Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -146,8 +140,7 @@
 
     .line 15
     :cond_0
-    invoke-virtual {p1}, Lcom/google/android/gms/tasks/Task;
-    ->isCanceled()Z
+    invoke-virtual {p1}, Lcom/google/android/gms/tasks/Task;->isCanceled()Z
 
     .line 16
     .line 17
@@ -159,8 +152,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {p1}, Lcom/google/android/gms/tasks/Task;
-    ->getException()Ljava/lang/Exception;
+    invoke-virtual {p1}, Lcom/google/android/gms/tasks/Task;->getException()Ljava/lang/Exception;
 
     .line 22
     .line 23
@@ -172,8 +164,7 @@
 
     .line 26
     .line 27
-    invoke-virtual {v0}, Ljava/lang/Throwable;
-    ->getMessage()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     .line 28
     .line 29
@@ -198,13 +189,11 @@
 
     .line 36
     :goto_0
-    iget-wide v3, p0, Lcom/google/android/gms/tasks/NativeOnCompleteListener;
-    ->zza:J
+    iget-wide v3, p0, Lcom/google/android/gms/tasks/NativeOnCompleteListener;->zza:J
 
     .line 37
     .line 38
-    invoke-virtual {p1}, Lcom/google/android/gms/tasks/Task;
-    ->isSuccessful()Z
+    invoke-virtual {p1}, Lcom/google/android/gms/tasks/Task;->isSuccessful()Z
 
     .line 39
     .line 40
@@ -212,8 +201,7 @@
     move-result v6
 
     .line 42
-    invoke-virtual {p1}, Lcom/google/android/gms/tasks/Task;
-    ->isCanceled()Z
+    invoke-virtual {p1}, Lcom/google/android/gms/tasks/Task;->isCanceled()Z
 
     .line 43
     .line 44
@@ -224,8 +212,7 @@
     move-object v2, p0
 
     .line 47
-    invoke-virtual/range {v2 .. v8}, Lcom/google/android/gms/tasks/NativeOnCompleteListener;
-    ->nativeOnComplete(JLjava/lang/Object;ZZLjava/lang/String;)V
+    invoke-virtual/range {v2 .. v8}, Lcom/google/android/gms/tasks/NativeOnCompleteListener;->nativeOnComplete(JLjava/lang/Object;ZZLjava/lang/String;)V
 
     .line 48
     .line 49

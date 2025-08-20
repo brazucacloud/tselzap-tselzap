@@ -31,14 +31,12 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Landroidx/core/view/WindowInsetsAnimationControllerCompat$Impl;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/core/view/WindowInsetsAnimationControllerCompat$Impl;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/core/view/WindowInsetsAnimationControllerCompat$Impl30;
-    ->mController:Landroid/view/WindowInsetsAnimationController;
+    iput-object p1, p0, Landroidx/core/view/WindowInsetsAnimationControllerCompat$Impl30;->mController:Landroid/view/WindowInsetsAnimationController;
 
     .line 5
     .line 6
@@ -51,13 +49,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsAnimationControllerCompat$Impl30;
-    ->mController:Landroid/view/WindowInsetsAnimationController;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsAnimationControllerCompat$Impl30;->mController:Landroid/view/WindowInsetsAnimationController;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, LH0/a;
-    ->u(Landroid/view/WindowInsetsAnimationController;Z)V
+    invoke-static {v0, p1}, LH0/a;->u(Landroid/view/WindowInsetsAnimationController;Z)V
 
     .line 4
     .line 5
@@ -69,13 +65,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsAnimationControllerCompat$Impl30;
-    ->mController:Landroid/view/WindowInsetsAnimationController;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsAnimationControllerCompat$Impl30;->mController:Landroid/view/WindowInsetsAnimationController;
 
     .line 2
     .line 3
-    invoke-static {v0}, LH0/a;
-    ->A(Landroid/view/WindowInsetsAnimationController;)F
+    invoke-static {v0}, LH0/a;->A(Landroid/view/WindowInsetsAnimationController;)F
 
     .line 4
     .line 5
@@ -89,13 +83,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsAnimationControllerCompat$Impl30;
-    ->mController:Landroid/view/WindowInsetsAnimationController;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsAnimationControllerCompat$Impl30;->mController:Landroid/view/WindowInsetsAnimationController;
 
     .line 2
     .line 3
-    invoke-static {v0}, LH0/a;
-    ->b(Landroid/view/WindowInsetsAnimationController;)F
+    invoke-static {v0}, LH0/a;->b(Landroid/view/WindowInsetsAnimationController;)F
 
     .line 4
     .line 5
@@ -111,13 +103,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsAnimationControllerCompat$Impl30;
-    ->mController:Landroid/view/WindowInsetsAnimationController;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsAnimationControllerCompat$Impl30;->mController:Landroid/view/WindowInsetsAnimationController;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/core/view/n;
-    ->d(Landroid/view/WindowInsetsAnimationController;)Landroid/graphics/Insets;
+    invoke-static {v0}, Landroidx/core/view/n;->d(Landroid/view/WindowInsetsAnimationController;)Landroid/graphics/Insets;
 
     .line 4
     .line 5
@@ -125,8 +115,7 @@
     move-result-object v0
 
     .line 7
-    invoke-static {v0}, Landroidx/core/graphics/Insets;
-    ->toCompatInsets(Landroid/graphics/Insets;)Landroidx/core/graphics/Insets;
+    invoke-static {v0}, Landroidx/core/graphics/Insets;->toCompatInsets(Landroid/graphics/Insets;)Landroidx/core/graphics/Insets;
 
     .line 8
     .line 9
@@ -142,13 +131,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsAnimationControllerCompat$Impl30;
-    ->mController:Landroid/view/WindowInsetsAnimationController;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsAnimationControllerCompat$Impl30;->mController:Landroid/view/WindowInsetsAnimationController;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/core/view/n;
-    ->u(Landroid/view/WindowInsetsAnimationController;)Landroid/graphics/Insets;
+    invoke-static {v0}, Landroidx/core/view/n;->u(Landroid/view/WindowInsetsAnimationController;)Landroid/graphics/Insets;
 
     .line 4
     .line 5
@@ -156,8 +143,7 @@
     move-result-object v0
 
     .line 7
-    invoke-static {v0}, Landroidx/core/graphics/Insets;
-    ->toCompatInsets(Landroid/graphics/Insets;)Landroidx/core/graphics/Insets;
+    invoke-static {v0}, Landroidx/core/graphics/Insets;->toCompatInsets(Landroid/graphics/Insets;)Landroidx/core/graphics/Insets;
 
     .line 8
     .line 9
@@ -173,13 +159,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsAnimationControllerCompat$Impl30;
-    ->mController:Landroid/view/WindowInsetsAnimationController;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsAnimationControllerCompat$Impl30;->mController:Landroid/view/WindowInsetsAnimationController;
 
     .line 2
     .line 3
-    invoke-static {v0}, LH0/a;
-    ->h(Landroid/view/WindowInsetsAnimationController;)Landroid/graphics/Insets;
+    invoke-static {v0}, LH0/a;->h(Landroid/view/WindowInsetsAnimationController;)Landroid/graphics/Insets;
 
     .line 4
     .line 5
@@ -187,8 +171,7 @@
     move-result-object v0
 
     .line 7
-    invoke-static {v0}, Landroidx/core/graphics/Insets;
-    ->toCompatInsets(Landroid/graphics/Insets;)Landroidx/core/graphics/Insets;
+    invoke-static {v0}, Landroidx/core/graphics/Insets;->toCompatInsets(Landroid/graphics/Insets;)Landroidx/core/graphics/Insets;
 
     .line 8
     .line 9
@@ -207,13 +190,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsAnimationControllerCompat$Impl30;
-    ->mController:Landroid/view/WindowInsetsAnimationController;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsAnimationControllerCompat$Impl30;->mController:Landroid/view/WindowInsetsAnimationController;
 
     .line 2
     .line 3
-    invoke-static {v0}, LH0/a;
-    ->e(Landroid/view/WindowInsetsAnimationController;)I
+    invoke-static {v0}, LH0/a;->e(Landroid/view/WindowInsetsAnimationController;)I
 
     .line 4
     .line 5
@@ -227,13 +208,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsAnimationControllerCompat$Impl30;
-    ->mController:Landroid/view/WindowInsetsAnimationController;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsAnimationControllerCompat$Impl30;->mController:Landroid/view/WindowInsetsAnimationController;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/core/view/n;
-    ->q(Landroid/view/WindowInsetsAnimationController;)Z
+    invoke-static {v0}, Landroidx/core/view/n;->q(Landroid/view/WindowInsetsAnimationController;)Z
 
     .line 4
     .line 5
@@ -247,13 +226,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsAnimationControllerCompat$Impl30;
-    ->mController:Landroid/view/WindowInsetsAnimationController;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsAnimationControllerCompat$Impl30;->mController:Landroid/view/WindowInsetsAnimationController;
 
     .line 2
     .line 3
-    invoke-static {v0}, LH0/a;
-    ->y(Landroid/view/WindowInsetsAnimationController;)Z
+    invoke-static {v0}, LH0/a;->y(Landroid/view/WindowInsetsAnimationController;)Z
 
     .line 4
     .line 5
@@ -271,8 +248,7 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsAnimationControllerCompat$Impl30;
-    ->mController:Landroid/view/WindowInsetsAnimationController;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsAnimationControllerCompat$Impl30;->mController:Landroid/view/WindowInsetsAnimationController;
 
     .line 2
     .line 3
@@ -287,8 +263,7 @@
 
     .line 7
     :cond_0
-    invoke-virtual {p1}, Landroidx/core/graphics/Insets;
-    ->toPlatformInsets()Landroid/graphics/Insets;
+    invoke-virtual {p1}, Landroidx/core/graphics/Insets;->toPlatformInsets()Landroid/graphics/Insets;
 
     .line 8
     .line 9
@@ -297,8 +272,7 @@
 
     .line 11
     :goto_0
-    invoke-static {v0, p1, p2, p3}, Landroidx/core/view/n;
-    ->j(Landroid/view/WindowInsetsAnimationController;Landroid/graphics/Insets;FF)V
+    invoke-static {v0, p1, p2, p3}, Landroidx/core/view/n;->j(Landroid/view/WindowInsetsAnimationController;Landroid/graphics/Insets;FF)V
 
     .line 12
     .line 13

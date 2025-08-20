@@ -19,8 +19,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -81,8 +80,7 @@
 
     .line 24
     .line 25
-    invoke-static {p0, p1, v1, v3}, Landroidx/constraintlayout/core/motion/utils/SplineSet$Sort;
-    ->partition([I[FII)I
+    invoke-static {p0, p1, v1, v3}, Landroidx/constraintlayout/core/motion/utils/SplineSet$Sort;->partition([I[FII)I
 
     .line 26
     .line 27
@@ -163,8 +161,7 @@
 
     .line 9
     .line 10
-    invoke-static {p0, p1, v1, p2}, Landroidx/constraintlayout/core/motion/utils/SplineSet$Sort;
-    ->swap([I[FII)V
+    invoke-static {p0, p1, v1, p2}, Landroidx/constraintlayout/core/motion/utils/SplineSet$Sort;->swap([I[FII)V
 
     .line 11
     .line 12
@@ -182,8 +179,7 @@
 
     .line 18
     :cond_1
-    invoke-static {p0, p1, v1, p3}, Landroidx/constraintlayout/core/motion/utils/SplineSet$Sort;
-    ->swap([I[FII)V    
+    invoke-static {p0, p1, v1, p3}, Landroidx/constraintlayout/core/motion/utils/SplineSet$Sort;->swap([I[FII)V
     return v1
 .end method
 

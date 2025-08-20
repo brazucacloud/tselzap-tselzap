@@ -16,8 +16,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -46,13 +45,11 @@
 
     .line 5
     :cond_0
-    sget-object v1, Landroidx/core/graphics/BlendModeUtils$1;
-    ->$SwitchMap$androidx$core$graphics$BlendModeCompat:[I
+    sget-object v1, Landroidx/core/graphics/BlendModeUtils$1;->$SwitchMap$androidx$core$graphics$BlendModeCompat:[I
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
 
     .line 8
     .line 9
@@ -73,8 +70,7 @@
 
     .line 17
     :pswitch_0
-    sget-object p0, Landroid/graphics/PorterDuff$Mode;
-    ->LIGHTEN:Landroid/graphics/PorterDuff$Mode;
+    sget-object p0, Landroid/graphics/PorterDuff$Mode;->LIGHTEN:Landroid/graphics/PorterDuff$Mode;
 
     .line 18
     .line 19
@@ -82,8 +78,7 @@
 
     .line 20
     :pswitch_1
-    sget-object p0, Landroid/graphics/PorterDuff$Mode;
-    ->DARKEN:Landroid/graphics/PorterDuff$Mode;
+    sget-object p0, Landroid/graphics/PorterDuff$Mode;->DARKEN:Landroid/graphics/PorterDuff$Mode;
 
     .line 21
     .line 22
@@ -91,8 +86,7 @@
 
     .line 23
     :pswitch_2
-    sget-object p0, Landroid/graphics/PorterDuff$Mode;
-    ->OVERLAY:Landroid/graphics/PorterDuff$Mode;
+    sget-object p0, Landroid/graphics/PorterDuff$Mode;->OVERLAY:Landroid/graphics/PorterDuff$Mode;
 
     .line 24
     .line 25
@@ -100,8 +94,7 @@
 
     .line 26
     :pswitch_3
-    sget-object p0, Landroid/graphics/PorterDuff$Mode;
-    ->SCREEN:Landroid/graphics/PorterDuff$Mode;
+    sget-object p0, Landroid/graphics/PorterDuff$Mode;->SCREEN:Landroid/graphics/PorterDuff$Mode;
 
     .line 27
     .line 28
@@ -109,8 +102,7 @@
 
     .line 29
     :pswitch_4
-    sget-object p0, Landroid/graphics/PorterDuff$Mode;
-    ->MULTIPLY:Landroid/graphics/PorterDuff$Mode;
+    sget-object p0, Landroid/graphics/PorterDuff$Mode;->MULTIPLY:Landroid/graphics/PorterDuff$Mode;
 
     .line 30
     .line 31
@@ -118,8 +110,7 @@
 
     .line 32
     :pswitch_5
-    sget-object p0, Landroid/graphics/PorterDuff$Mode;
-    ->ADD:Landroid/graphics/PorterDuff$Mode;
+    sget-object p0, Landroid/graphics/PorterDuff$Mode;->ADD:Landroid/graphics/PorterDuff$Mode;
 
     .line 33
     .line 34
@@ -127,8 +118,7 @@
 
     .line 35
     :pswitch_6
-    sget-object p0, Landroid/graphics/PorterDuff$Mode;
-    ->XOR:Landroid/graphics/PorterDuff$Mode;
+    sget-object p0, Landroid/graphics/PorterDuff$Mode;->XOR:Landroid/graphics/PorterDuff$Mode;
 
     .line 36
     .line 37
@@ -136,8 +126,7 @@
 
     .line 38
     :pswitch_7
-    sget-object p0, Landroid/graphics/PorterDuff$Mode;
-    ->DST_ATOP:Landroid/graphics/PorterDuff$Mode;
+    sget-object p0, Landroid/graphics/PorterDuff$Mode;->DST_ATOP:Landroid/graphics/PorterDuff$Mode;
 
     .line 39
     .line 40
@@ -145,8 +134,7 @@
 
     .line 41
     :pswitch_8
-    sget-object p0, Landroid/graphics/PorterDuff$Mode;
-    ->SRC_ATOP:Landroid/graphics/PorterDuff$Mode;
+    sget-object p0, Landroid/graphics/PorterDuff$Mode;->SRC_ATOP:Landroid/graphics/PorterDuff$Mode;
 
     .line 42
     .line 43
@@ -154,8 +142,7 @@
 
     .line 44
     :pswitch_9
-    sget-object p0, Landroid/graphics/PorterDuff$Mode;
-    ->DST_OUT:Landroid/graphics/PorterDuff$Mode;
+    sget-object p0, Landroid/graphics/PorterDuff$Mode;->DST_OUT:Landroid/graphics/PorterDuff$Mode;
 
     .line 45
     .line 46
@@ -163,8 +150,7 @@
 
     .line 47
     :pswitch_a
-    sget-object p0, Landroid/graphics/PorterDuff$Mode;
-    ->SRC_OUT:Landroid/graphics/PorterDuff$Mode;
+    sget-object p0, Landroid/graphics/PorterDuff$Mode;->SRC_OUT:Landroid/graphics/PorterDuff$Mode;
 
     .line 48
     .line 49
@@ -172,8 +158,7 @@
 
     .line 50
     :pswitch_b
-    sget-object p0, Landroid/graphics/PorterDuff$Mode;
-    ->DST_IN:Landroid/graphics/PorterDuff$Mode;
+    sget-object p0, Landroid/graphics/PorterDuff$Mode;->DST_IN:Landroid/graphics/PorterDuff$Mode;
 
     .line 51
     .line 52
@@ -181,8 +166,7 @@
 
     .line 53
     :pswitch_c
-    sget-object p0, Landroid/graphics/PorterDuff$Mode;
-    ->SRC_IN:Landroid/graphics/PorterDuff$Mode;
+    sget-object p0, Landroid/graphics/PorterDuff$Mode;->SRC_IN:Landroid/graphics/PorterDuff$Mode;
 
     .line 54
     .line 55
@@ -190,8 +174,7 @@
 
     .line 56
     :pswitch_d
-    sget-object p0, Landroid/graphics/PorterDuff$Mode;
-    ->DST_OVER:Landroid/graphics/PorterDuff$Mode;
+    sget-object p0, Landroid/graphics/PorterDuff$Mode;->DST_OVER:Landroid/graphics/PorterDuff$Mode;
 
     .line 57
     .line 58
@@ -199,8 +182,7 @@
 
     .line 59
     :pswitch_e
-    sget-object p0, Landroid/graphics/PorterDuff$Mode;
-    ->SRC_OVER:Landroid/graphics/PorterDuff$Mode;
+    sget-object p0, Landroid/graphics/PorterDuff$Mode;->SRC_OVER:Landroid/graphics/PorterDuff$Mode;
 
     .line 60
     .line 61
@@ -208,8 +190,7 @@
 
     .line 62
     :pswitch_f
-    sget-object p0, Landroid/graphics/PorterDuff$Mode;
-    ->DST:Landroid/graphics/PorterDuff$Mode;
+    sget-object p0, Landroid/graphics/PorterDuff$Mode;->DST:Landroid/graphics/PorterDuff$Mode;
 
     .line 63
     .line 64
@@ -217,8 +198,7 @@
 
     .line 65
     :pswitch_10
-    sget-object p0, Landroid/graphics/PorterDuff$Mode;
-    ->SRC:Landroid/graphics/PorterDuff$Mode;
+    sget-object p0, Landroid/graphics/PorterDuff$Mode;->SRC:Landroid/graphics/PorterDuff$Mode;
 
     .line 66
     .line 67
@@ -226,8 +206,7 @@
 
     .line 68
     :pswitch_11
-    sget-object p0, Landroid/graphics/PorterDuff$Mode;
-    ->CLEAR:Landroid/graphics/PorterDuff$Mode;
+    sget-object p0, Landroid/graphics/PorterDuff$Mode;->CLEAR:Landroid/graphics/PorterDuff$Mode;
 
     .line 69
     .line 70

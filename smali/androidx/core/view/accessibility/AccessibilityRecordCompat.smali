@@ -14,8 +14,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -24,8 +23,7 @@
 
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iput-object p1, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 7
     .line 8
@@ -40,8 +38,7 @@
     .end param
 
     .line 2
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityRecord;
-    ->getMaxScrollX()I
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityRecord;->getMaxScrollX()I
 
     move-result p0
 
@@ -56,8 +53,7 @@
     .end param
 
     .line 2
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityRecord;
-    ->getMaxScrollY()I
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityRecord;->getMaxScrollY()I
 
     move-result p0
 
@@ -72,13 +68,11 @@
     .line 2
     new-instance v0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
 
-    invoke-static {}, Landroid/view/accessibility/AccessibilityRecord;
-    ->obtain()Landroid/view/accessibility/AccessibilityRecord;
+    invoke-static {}, Landroid/view/accessibility/AccessibilityRecord;->obtain()Landroid/view/accessibility/AccessibilityRecord;
 
     move-result-object v1
 
-    invoke-direct {v0, v1}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    -><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, v1}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;-><init>(Ljava/lang/Object;)V
     return-object v0
 .end method
 
@@ -90,16 +84,13 @@
     .line 1
     new-instance v0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
 
-    iget-object p0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object p0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
-    invoke-static {p0}, Landroid/view/accessibility/AccessibilityRecord;
-    ->obtain(Landroid/view/accessibility/AccessibilityRecord;)Landroid/view/accessibility/AccessibilityRecord;
+    invoke-static {p0}, Landroid/view/accessibility/AccessibilityRecord;->obtain(Landroid/view/accessibility/AccessibilityRecord;)Landroid/view/accessibility/AccessibilityRecord;
 
     move-result-object p0
 
-    invoke-direct {v0, p0}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    -><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, p0}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;-><init>(Ljava/lang/Object;)V
 return-object v0
 .end method
 
@@ -111,8 +102,7 @@ return-object v0
     .end param
 
     .line 2
-    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityRecord;
-    ->setMaxScrollX(I)V
+    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setMaxScrollX(I)V
 return-void
 .end method
 
@@ -124,8 +114,7 @@ return-void
     .end param
 
     .line 2
-    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityRecord;
-    ->setMaxScrollY(I)V
+    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setMaxScrollY(I)V
 return-void
 .end method
 
@@ -141,8 +130,7 @@ return-void
     .end param
 
     .line 3
-    invoke-virtual {p0, p1, p2}, Landroid/view/accessibility/AccessibilityRecord;
-    ->setSource(Landroid/view/View;I)V
+    invoke-virtual {p0, p1, p2}, Landroid/view/accessibility/AccessibilityRecord;->setSource(Landroid/view/View;I)V
 
     return-void
 .end method
@@ -185,8 +173,7 @@ return-void
 
     .line 12
     .line 13
-    iget-object v1, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v1, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 14
     .line 15
@@ -194,8 +181,7 @@ return-void
 
     .line 16
     .line 17
-    iget-object p1, p1, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object p1, p1, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 18
     .line 19
@@ -211,13 +197,11 @@ return-void
 
     .line 23
     :cond_3
-    iget-object p1, p1, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object p1, p1, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 24
     .line 25
-    invoke-virtual {v1, p1}, Ljava/lang/Object;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     .line 26
     .line 27
@@ -233,13 +217,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;
-    ->getAddedCount()I
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getAddedCount()I
 
     .line 4
     .line 5
@@ -255,13 +237,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;
-    ->getBeforeText()Ljava/lang/CharSequence;
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getBeforeText()Ljava/lang/CharSequence;
 
     .line 4
     .line 5
@@ -277,13 +257,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;
-    ->getClassName()Ljava/lang/CharSequence;
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getClassName()Ljava/lang/CharSequence;
 
     .line 4
     .line 5
@@ -299,13 +277,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;
-    ->getContentDescription()Ljava/lang/CharSequence;
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getContentDescription()Ljava/lang/CharSequence;
 
     .line 4
     .line 5
@@ -321,13 +297,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;
-    ->getCurrentItemIndex()I
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getCurrentItemIndex()I
 
     .line 4
     .line 5
@@ -343,13 +317,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;
-    ->getFromIndex()I
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getFromIndex()I
 
     .line 4
     .line 5
@@ -365,8 +337,7 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
@@ -379,13 +350,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;
-    ->getItemCount()I
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getItemCount()I
 
     .line 4
     .line 5
@@ -401,11 +370,9 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
-    invoke-static {v0}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->getMaxScrollX(Landroid/view/accessibility/AccessibilityRecord;)I
+    invoke-static {v0}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->getMaxScrollX(Landroid/view/accessibility/AccessibilityRecord;)I
 
     move-result v0
 
@@ -418,11 +385,9 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
-    invoke-static {v0}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->getMaxScrollY(Landroid/view/accessibility/AccessibilityRecord;)I
+    invoke-static {v0}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->getMaxScrollY(Landroid/view/accessibility/AccessibilityRecord;)I
 
     move-result v0
 
@@ -435,13 +400,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;
-    ->getParcelableData()Landroid/os/Parcelable;
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getParcelableData()Landroid/os/Parcelable;
 
     .line 4
     .line 5
@@ -457,13 +420,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;
-    ->getRemovedCount()I
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getRemovedCount()I
 
     .line 4
     .line 5
@@ -479,13 +440,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;
-    ->getScrollX()I
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getScrollX()I
 
     .line 4
     .line 5
@@ -501,13 +460,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;
-    ->getScrollY()I
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getScrollY()I
 
     .line 4
     .line 5
@@ -529,13 +486,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;
-    ->getSource()Landroid/view/accessibility/AccessibilityNodeInfo;
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getSource()Landroid/view/accessibility/AccessibilityNodeInfo;
 
     .line 4
     .line 5
@@ -543,8 +498,7 @@ return-void
     move-result-object v0
 
     .line 7
-    invoke-static {v0}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
-    ->wrapNonNullInstance(Ljava/lang/Object;)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    invoke-static {v0}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->wrapNonNullInstance(Ljava/lang/Object;)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
 
     .line 8
     .line 9
@@ -569,13 +523,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;
-    ->getText()Ljava/util/List;
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getText()Ljava/util/List;
 
     .line 4
     .line 5
@@ -591,13 +543,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;
-    ->getToIndex()I
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getToIndex()I
 
     .line 4
     .line 5
@@ -613,13 +563,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;
-    ->getWindowId()I
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->getWindowId()I
 
     .line 4
     .line 5
@@ -635,8 +583,7 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
@@ -650,8 +597,7 @@ return-void
 
     .line 7
     :cond_0
-    invoke-virtual {v0}, Ljava/lang/Object;
-    ->hashCode()I
+    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
 
     .line 8
     .line 9
@@ -667,13 +613,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;
-    ->isChecked()Z
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->isChecked()Z
 
     .line 4
     .line 5
@@ -689,13 +633,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;
-    ->isEnabled()Z
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->isEnabled()Z
 
     .line 4
     .line 5
@@ -711,13 +653,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;
-    ->isFullScreen()Z
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->isFullScreen()Z
 
     .line 4
     .line 5
@@ -733,13 +673,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;
-    ->isPassword()Z
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->isPassword()Z
 
     .line 4
     .line 5
@@ -755,13 +693,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;
-    ->isScrollable()Z
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->isScrollable()Z
 
     .line 4
     .line 5
@@ -777,13 +713,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;
-    ->recycle()V
+    invoke-virtual {v0}, Landroid/view/accessibility/AccessibilityRecord;->recycle()V
 
     .line 4
     .line 5
@@ -797,13 +731,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;
-    ->setAddedCount(I)V
+    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setAddedCount(I)V
 
     .line 4
     .line 5
@@ -817,13 +749,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;
-    ->setBeforeText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setBeforeText(Ljava/lang/CharSequence;)V
 
     .line 4
     .line 5
@@ -837,13 +767,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;
-    ->setChecked(Z)V
+    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setChecked(Z)V
 
     .line 4
     .line 5
@@ -857,13 +785,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;
-    ->setClassName(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setClassName(Ljava/lang/CharSequence;)V
 
     .line 4
     .line 5
@@ -877,13 +803,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;
-    ->setContentDescription(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setContentDescription(Ljava/lang/CharSequence;)V
 
     .line 4
     .line 5
@@ -897,13 +821,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;
-    ->setCurrentItemIndex(I)V
+    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setCurrentItemIndex(I)V
 
     .line 4
     .line 5
@@ -917,13 +839,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;
-    ->setEnabled(Z)V
+    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setEnabled(Z)V
 
     .line 4
     .line 5
@@ -937,13 +857,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;
-    ->setFromIndex(I)V
+    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setFromIndex(I)V
 
     .line 4
     .line 5
@@ -957,13 +875,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;
-    ->setFullScreen(Z)V
+    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setFullScreen(Z)V
 
     .line 4
     .line 5
@@ -977,13 +893,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;
-    ->setItemCount(I)V
+    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setItemCount(I)V
 
     .line 4
     .line 5
@@ -997,11 +911,9 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
-    invoke-static {v0, p1}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->setMaxScrollX(Landroid/view/accessibility/AccessibilityRecord;I)V
+    invoke-static {v0, p1}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->setMaxScrollX(Landroid/view/accessibility/AccessibilityRecord;I)V
 return-void
 .end method
 
@@ -1011,11 +923,9 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
-    invoke-static {v0, p1}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->setMaxScrollY(Landroid/view/accessibility/AccessibilityRecord;I)V
+    invoke-static {v0, p1}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->setMaxScrollY(Landroid/view/accessibility/AccessibilityRecord;I)V
 return-void
 .end method
 
@@ -1025,13 +935,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;
-    ->setParcelableData(Landroid/os/Parcelable;)V
+    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setParcelableData(Landroid/os/Parcelable;)V
 
     .line 4
     .line 5
@@ -1045,13 +953,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;
-    ->setPassword(Z)V
+    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setPassword(Z)V
 
     .line 4
     .line 5
@@ -1065,13 +971,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;
-    ->setRemovedCount(I)V
+    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setRemovedCount(I)V
 
     .line 4
     .line 5
@@ -1085,13 +989,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;
-    ->setScrollX(I)V
+    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setScrollX(I)V
 
     .line 4
     .line 5
@@ -1105,13 +1007,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;
-    ->setScrollY(I)V
+    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setScrollY(I)V
 
     .line 4
     .line 5
@@ -1125,13 +1025,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;
-    ->setScrollable(Z)V
+    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setScrollable(Z)V
 
     .line 4
     .line 5
@@ -1151,11 +1049,9 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
-    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;
-    ->setSource(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setSource(Landroid/view/View;)V
 
     return-void
 .end method
@@ -1166,11 +1062,9 @@ return-void
     .end annotation
 
     .line 2
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
-    invoke-static {v0, p1, p2}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->setSource(Landroid/view/accessibility/AccessibilityRecord;Landroid/view/View;I)V
+    invoke-static {v0, p1, p2}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->setSource(Landroid/view/accessibility/AccessibilityRecord;Landroid/view/View;I)V
 
     return-void
 .end method
@@ -1181,13 +1075,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;
-    ->mRecord:Landroid/view/accessibility/AccessibilityRecord;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityRecordCompat;->mRecord:Landroid/view/accessibility/AccessibilityRecord;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;
-    ->setToIndex(I)V
+    invoke-virtual {v0, p1}, Landroid/view/accessibility/AccessibilityRecord;->setToIndex(I)V
 
     .line 4
     .line 5

@@ -40,33 +40,26 @@
 
     const-string v0, "filters"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-direct {p0, p5, p6, p7, p8}, Landroidx/window/embedding/SplitRule;
-    -><init>(IIFI)V
+    invoke-direct {p0, p5, p6, p7, p8}, Landroidx/window/embedding/SplitRule;-><init>(IIFI)V
 
     .line 3
-    iput-boolean p2, p0, Landroidx/window/embedding/SplitPairRule;
-    ->finishPrimaryWithSecondary:Z
+    iput-boolean p2, p0, Landroidx/window/embedding/SplitPairRule;->finishPrimaryWithSecondary:Z
 
     .line 4
-    iput-boolean p3, p0, Landroidx/window/embedding/SplitPairRule;
-    ->finishSecondaryWithPrimary:Z
+    iput-boolean p3, p0, Landroidx/window/embedding/SplitPairRule;->finishSecondaryWithPrimary:Z
 
     .line 5
-    iput-boolean p4, p0, Landroidx/window/embedding/SplitPairRule;
-    ->clearTop:Z
+    iput-boolean p4, p0, Landroidx/window/embedding/SplitPairRule;->clearTop:Z
 
     .line 6
-    invoke-static {p1}, Ld1/k;
-    ->J0(Ljava/lang/Iterable;)Ljava/util/Set;
+    invoke-static {p1}, Ld1/k;->J0(Ljava/lang/Iterable;)Ljava/util/Set;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/window/embedding/SplitPairRule;
-    ->filters:Ljava/util/Set;
+    iput-object p1, p0, Landroidx/window/embedding/SplitPairRule;->filters:Ljava/util/Set;
 
     return-void
 .end method
@@ -152,8 +145,7 @@
 
     .line 1
     :goto_1
-    invoke-direct/range {p1 .. p9}, Landroidx/window/embedding/SplitPairRule;
-    -><init>(Ljava/util/Set;ZZZIIFI)V
+    invoke-direct/range {p1 .. p9}, Landroidx/window/embedding/SplitPairRule;-><init>(Ljava/util/Set;ZZZIIFI)V
 return-void
 .end method
 
@@ -189,8 +181,7 @@ return-void
 
     .line 11
     :cond_1
-    invoke-super {p0, p1}, Landroidx/window/embedding/SplitRule;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-super {p0, p1}, Landroidx/window/embedding/SplitRule;->equals(Ljava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -206,8 +197,7 @@ return-void
 
     .line 18
     :cond_2
-    iget-object v1, p0, Landroidx/window/embedding/SplitPairRule;
-    ->filters:Ljava/util/Set;
+    iget-object v1, p0, Landroidx/window/embedding/SplitPairRule;->filters:Ljava/util/Set;
 
     .line 19
     .line 20
@@ -215,13 +205,11 @@ return-void
 
     .line 21
     .line 22
-    iget-object v3, p1, Landroidx/window/embedding/SplitPairRule;
-    ->filters:Ljava/util/Set;
+    iget-object v3, p1, Landroidx/window/embedding/SplitPairRule;->filters:Ljava/util/Set;
 
     .line 23
     .line 24
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 25
     .line 26
@@ -237,13 +225,11 @@ return-void
 
     .line 31
     :cond_3
-    iget-boolean v1, p0, Landroidx/window/embedding/SplitPairRule;
-    ->finishPrimaryWithSecondary:Z
+    iget-boolean v1, p0, Landroidx/window/embedding/SplitPairRule;->finishPrimaryWithSecondary:Z
 
     .line 32
     .line 33
-    iget-boolean v3, p1, Landroidx/window/embedding/SplitPairRule;
-    ->finishPrimaryWithSecondary:Z
+    iget-boolean v3, p1, Landroidx/window/embedding/SplitPairRule;->finishPrimaryWithSecondary:Z
 
     .line 34
     .line 35
@@ -255,13 +241,11 @@ return-void
 
     .line 38
     :cond_4
-    iget-boolean v1, p0, Landroidx/window/embedding/SplitPairRule;
-    ->finishSecondaryWithPrimary:Z
+    iget-boolean v1, p0, Landroidx/window/embedding/SplitPairRule;->finishSecondaryWithPrimary:Z
 
     .line 39
     .line 40
-    iget-boolean v3, p1, Landroidx/window/embedding/SplitPairRule;
-    ->finishSecondaryWithPrimary:Z
+    iget-boolean v3, p1, Landroidx/window/embedding/SplitPairRule;->finishSecondaryWithPrimary:Z
 
     .line 41
     .line 42
@@ -273,13 +257,11 @@ return-void
 
     .line 45
     :cond_5
-    iget-boolean v1, p0, Landroidx/window/embedding/SplitPairRule;
-    ->clearTop:Z
+    iget-boolean v1, p0, Landroidx/window/embedding/SplitPairRule;->clearTop:Z
 
     .line 46
     .line 47
-    iget-boolean p1, p1, Landroidx/window/embedding/SplitPairRule;
-    ->clearTop:Z
+    iget-boolean p1, p1, Landroidx/window/embedding/SplitPairRule;->clearTop:Z
 
     .line 48
     .line 49
@@ -298,8 +280,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/window/embedding/SplitPairRule;
-    ->clearTop:Z
+    iget-boolean v0, p0, Landroidx/window/embedding/SplitPairRule;->clearTop:Z
 
     .line 2
     .line 3
@@ -318,8 +299,7 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/window/embedding/SplitPairRule;
-    ->filters:Ljava/util/Set;
+    iget-object v0, p0, Landroidx/window/embedding/SplitPairRule;->filters:Ljava/util/Set;
 
     .line 2
     .line 3
@@ -330,8 +310,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/window/embedding/SplitPairRule;
-    ->finishPrimaryWithSecondary:Z
+    iget-boolean v0, p0, Landroidx/window/embedding/SplitPairRule;->finishPrimaryWithSecondary:Z
 
     .line 2
     .line 3
@@ -342,8 +321,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/window/embedding/SplitPairRule;
-    ->finishSecondaryWithPrimary:Z
+    iget-boolean v0, p0, Landroidx/window/embedding/SplitPairRule;->finishSecondaryWithPrimary:Z
 
     .line 2
     .line 3
@@ -354,8 +332,7 @@ return-void
     .locals 4
 
     .line 1
-    invoke-super {p0}, Landroidx/window/embedding/SplitRule;
-    ->hashCode()I
+    invoke-super {p0}, Landroidx/window/embedding/SplitRule;->hashCode()I
 
     .line 2
     .line 3
@@ -367,13 +344,11 @@ return-void
 
     .line 6
     .line 7
-    iget-object v1, p0, Landroidx/window/embedding/SplitPairRule;
-    ->filters:Ljava/util/Set;
+    iget-object v1, p0, Landroidx/window/embedding/SplitPairRule;->filters:Ljava/util/Set;
 
     .line 8
     .line 9
-    invoke-virtual {v1}, Ljava/lang/Object;
-    ->hashCode()I
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
 
     .line 10
     .line 11
@@ -388,8 +363,7 @@ return-void
 
     .line 15
     .line 16
-    iget-boolean v0, p0, Landroidx/window/embedding/SplitPairRule;
-    ->finishPrimaryWithSecondary:Z
+    iget-boolean v0, p0, Landroidx/window/embedding/SplitPairRule;->finishPrimaryWithSecondary:Z
 
     .line 17
     .line 18
@@ -425,8 +399,7 @@ return-void
 
     .line 31
     .line 32
-    iget-boolean v0, p0, Landroidx/window/embedding/SplitPairRule;
-    ->finishSecondaryWithPrimary:Z
+    iget-boolean v0, p0, Landroidx/window/embedding/SplitPairRule;->finishSecondaryWithPrimary:Z
 
     .line 33
     .line 34
@@ -454,8 +427,7 @@ return-void
 
     .line 43
     .line 44
-    iget-boolean v0, p0, Landroidx/window/embedding/SplitPairRule;
-    ->clearTop:Z
+    iget-boolean v0, p0, Landroidx/window/embedding/SplitPairRule;->clearTop:Z
 
     .line 45
     .line 46
@@ -481,8 +453,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -491,25 +462,21 @@ return-void
 
     .line 7
     .line 8
-    invoke-direct {v0}, Ljava/util/LinkedHashSet;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/LinkedHashSet;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    iget-object v1, p0, Landroidx/window/embedding/SplitPairRule;
-    ->filters:Ljava/util/Set;
+    iget-object v1, p0, Landroidx/window/embedding/SplitPairRule;->filters:Ljava/util/Set;
 
     .line 12
     .line 13
-    invoke-interface {v0, v1}, Ljava/util/Set;
-    ->addAll(Ljava/util/Collection;)Z
+    invoke-interface {v0, v1}, Ljava/util/Set;->addAll(Ljava/util/Collection;)Z
 
     .line 14
     .line 15
     .line 16
-    invoke-interface {v0, p1}, Ljava/util/Set;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
     .line 17
     .line 18
@@ -518,8 +485,7 @@ return-void
 
     .line 20
     .line 21
-    invoke-static {v0}, Ld1/k;
-    ->J0(Ljava/lang/Iterable;)Ljava/util/Set;
+    invoke-static {v0}, Ld1/k;->J0(Ljava/lang/Iterable;)Ljava/util/Set;
 
     .line 22
     .line 23
@@ -527,23 +493,19 @@ return-void
     move-result-object v3
 
     .line 25
-    iget-boolean v4, p0, Landroidx/window/embedding/SplitPairRule;
-    ->finishPrimaryWithSecondary:Z
+    iget-boolean v4, p0, Landroidx/window/embedding/SplitPairRule;->finishPrimaryWithSecondary:Z
 
     .line 26
     .line 27
-    iget-boolean v5, p0, Landroidx/window/embedding/SplitPairRule;
-    ->finishSecondaryWithPrimary:Z
+    iget-boolean v5, p0, Landroidx/window/embedding/SplitPairRule;->finishSecondaryWithPrimary:Z
 
     .line 28
     .line 29
-    iget-boolean v6, p0, Landroidx/window/embedding/SplitPairRule;
-    ->clearTop:Z
+    iget-boolean v6, p0, Landroidx/window/embedding/SplitPairRule;->clearTop:Z
 
     .line 30
     .line 31
-    invoke-virtual {p0}, Landroidx/window/embedding/SplitRule;
-    ->getMinWidth()I
+    invoke-virtual {p0}, Landroidx/window/embedding/SplitRule;->getMinWidth()I
 
     .line 32
     .line 33
@@ -551,8 +513,7 @@ return-void
     move-result v7
 
     .line 35
-    invoke-virtual {p0}, Landroidx/window/embedding/SplitRule;
-    ->getMinSmallestWidth()I
+    invoke-virtual {p0}, Landroidx/window/embedding/SplitRule;->getMinSmallestWidth()I
 
     .line 36
     .line 37
@@ -560,8 +521,7 @@ return-void
     move-result v8
 
     .line 39
-    invoke-virtual {p0}, Landroidx/window/embedding/SplitRule;
-    ->getSplitRatio()F
+    invoke-virtual {p0}, Landroidx/window/embedding/SplitRule;->getSplitRatio()F
 
     .line 40
     .line 41
@@ -569,8 +529,7 @@ return-void
     move-result v9
 
     .line 43
-    invoke-virtual {p0}, Landroidx/window/embedding/SplitRule;
-    ->getLayoutDirection()I
+    invoke-virtual {p0}, Landroidx/window/embedding/SplitRule;->getLayoutDirection()I
 
     .line 44
     .line 45
@@ -578,8 +537,7 @@ return-void
     move-result v10
 
     .line 47
-    invoke-direct/range {v2 .. v10}, Landroidx/window/embedding/SplitPairRule;
-    -><init>(Ljava/util/Set;ZZZIIFI)V
+    invoke-direct/range {v2 .. v10}, Landroidx/window/embedding/SplitPairRule;-><init>(Ljava/util/Set;ZZZIIFI)V
 
     .line 48
     .line 49

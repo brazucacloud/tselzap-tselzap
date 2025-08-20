@@ -24,8 +24,7 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -34,14 +33,12 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Lu0/x;
-    ->f:Ljava/util/ArrayList;
+    iput-object v0, p0, Lu0/x;->f:Ljava/util/ArrayList;
 
     .line 10
     .line 11
@@ -49,14 +46,12 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, Lu0/x;
-    ->g:Ljava/util/ArrayList;
+    iput-object v0, p0, Lu0/x;->g:Ljava/util/ArrayList;
 
     .line 17
     .line 18
@@ -67,8 +62,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {p0, v0, v1, v0}, Lu0/x;
-    ->d(FFF)V
+    invoke-virtual {p0, v0, v1, v0}, Lu0/x;->d(FFF)V
 
     .line 22
     .line 23
@@ -82,8 +76,7 @@
     .locals 4
 
     .line 1
-    iget v0, p0, Lu0/x;
-    ->d:F
+    iget v0, p0, Lu0/x;->d:F
 
     .line 2
     .line 3
@@ -134,39 +127,32 @@
 
     .line 22
     .line 23
-    iget v2, p0, Lu0/x;
-    ->b:F
+    iget v2, p0, Lu0/x;->b:F
 
     .line 24
     .line 25
-    iget v3, p0, Lu0/x;
-    ->c:F
+    iget v3, p0, Lu0/x;->c:F
 
     .line 26
     .line 27
-    invoke-direct {v1, v2, v3, v2, v3}, Lu0/t;
-    -><init>(FFFF)V
+    invoke-direct {v1, v2, v3, v2, v3}, Lu0/t;-><init>(FFFF)V
 
     .line 28
     .line 29
     .line 30
-    iget v2, p0, Lu0/x;
-    ->d:F
+    iget v2, p0, Lu0/x;->d:F
 
     .line 31
     .line 32
-    iput v2, v1, Lu0/t;
-    ->f:F
+    iput v2, v1, Lu0/t;->f:F
 
     .line 33
     .line 34
-    iput v0, v1, Lu0/t;
-    ->g:F
+    iput v0, v1, Lu0/t;->g:F
 
     .line 35
     .line 36
-    iget-object v0, p0, Lu0/x;
-    ->g:Ljava/util/ArrayList;
+    iget-object v0, p0, Lu0/x;->g:Ljava/util/ArrayList;
 
     .line 37
     .line 38
@@ -174,20 +160,17 @@
 
     .line 39
     .line 40
-    invoke-direct {v2, v1}, Lu0/r;
-    -><init>(Lu0/t;)V
+    invoke-direct {v2, v1}, Lu0/r;-><init>(Lu0/t;)V
 
     .line 41
     .line 42
     .line 43
-    invoke-virtual {v0, v2}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 44
     .line 45
     .line 46
-    iput p1, p0, Lu0/x;
-    ->d:F
+    iput p1, p0, Lu0/x;->d:F
 
     .line 47
     .line 48
@@ -198,13 +181,11 @@
     .locals 4
 
     .line 1
-    iget-object v0, p0, Lu0/x;
-    ->f:Ljava/util/ArrayList;
+    iget-object v0, p0, Lu0/x;->f:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     .line 4
     .line 5
@@ -220,8 +201,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {v0, v2}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -233,8 +213,7 @@
 
     .line 15
     .line 16
-    invoke-virtual {v3, p1, p2}, Lu0/v;
-    ->a(Landroid/graphics/Matrix;Landroid/graphics/Path;)V
+    invoke-virtual {v3, p1, p2}, Lu0/v;->a(Landroid/graphics/Matrix;Landroid/graphics/Path;)V
 
     .line 17
     .line 18
@@ -258,29 +237,24 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lu0/v;
-    -><init>()V
+    invoke-direct {v0}, Lu0/v;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    iput p1, v0, Lu0/u;
-    ->b:F
+    iput p1, v0, Lu0/u;->b:F
 
     .line 7
     .line 8
-    iput p2, v0, Lu0/u;
-    ->c:F
+    iput p2, v0, Lu0/u;->c:F
 
     .line 9
     .line 10
-    iget-object v1, p0, Lu0/x;
-    ->f:Ljava/util/ArrayList;
+    iget-object v1, p0, Lu0/x;->f:Ljava/util/ArrayList;
 
     .line 11
     .line 12
-    invoke-virtual {v1, v0}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 13
     .line 14
@@ -289,24 +263,20 @@
 
     .line 16
     .line 17
-    iget v2, p0, Lu0/x;
-    ->b:F
+    iget v2, p0, Lu0/x;->b:F
 
     .line 18
     .line 19
-    iget v3, p0, Lu0/x;
-    ->c:F
+    iget v3, p0, Lu0/x;->c:F
 
     .line 20
     .line 21
-    invoke-direct {v1, v0, v2, v3}, Lu0/s;
-    -><init>(Lu0/u;FF)V
+    invoke-direct {v1, v0, v2, v3}, Lu0/s;-><init>(Lu0/u;FF)V
 
     .line 22
     .line 23
     .line 24
-    invoke-virtual {v1}, Lu0/s;
-    ->b()F
+    invoke-virtual {v1}, Lu0/s;->b()F
 
     .line 25
     .line 26
@@ -321,8 +291,7 @@
     add-float/2addr v0, v2
 
     .line 31
-    invoke-virtual {v1}, Lu0/s;
-    ->b()F
+    invoke-virtual {v1}, Lu0/s;->b()F
 
     .line 32
     .line 33
@@ -333,35 +302,29 @@
     add-float/2addr v3, v2
 
     .line 36
-    invoke-virtual {p0, v0}, Lu0/x;
-    ->a(F)V
+    invoke-virtual {p0, v0}, Lu0/x;->a(F)V
 
     .line 37
     .line 38
     .line 39
-    iget-object v0, p0, Lu0/x;
-    ->g:Ljava/util/ArrayList;
+    iget-object v0, p0, Lu0/x;->g:Ljava/util/ArrayList;
 
     .line 40
     .line 41
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 42
     .line 43
     .line 44
-    iput v3, p0, Lu0/x;
-    ->d:F
+    iput v3, p0, Lu0/x;->d:F
 
     .line 45
     .line 46
-    iput p1, p0, Lu0/x;
-    ->b:F
+    iput p1, p0, Lu0/x;->b:F
 
     .line 47
     .line 48
-    iput p2, p0, Lu0/x;
-    ->c:F
+    iput p2, p0, Lu0/x;->c:F
 
     .line 49
     .line 50
@@ -372,26 +335,22 @@
     .locals 1
 
     .line 1
-    iput p1, p0, Lu0/x;
-    ->a:F
+    iput p1, p0, Lu0/x;->a:F
 
     .line 2
     .line 3
     const/4 v0, 0x0
 
     .line 4
-    iput v0, p0, Lu0/x;
-    ->b:F
+    iput v0, p0, Lu0/x;->b:F
 
     .line 5
     .line 6
-    iput p1, p0, Lu0/x;
-    ->c:F
+    iput p1, p0, Lu0/x;->c:F
 
     .line 7
     .line 8
-    iput p2, p0, Lu0/x;
-    ->d:F
+    iput p2, p0, Lu0/x;->d:F
 
     .line 9
     .line 10
@@ -405,29 +364,24 @@
     rem-float/2addr p2, p1
 
     .line 14
-    iput p2, p0, Lu0/x;
-    ->e:F
+    iput p2, p0, Lu0/x;->e:F
 
     .line 15
     .line 16
-    iget-object p1, p0, Lu0/x;
-    ->f:Ljava/util/ArrayList;
+    iget-object p1, p0, Lu0/x;->f:Ljava/util/ArrayList;
 
     .line 17
     .line 18
-    invoke-virtual {p1}, Ljava/util/ArrayList;
-    ->clear()V
+    invoke-virtual {p1}, Ljava/util/ArrayList;->clear()V
 
     .line 19
     .line 20
     .line 21
-    iget-object p1, p0, Lu0/x;
-    ->g:Ljava/util/ArrayList;
+    iget-object p1, p0, Lu0/x;->g:Ljava/util/ArrayList;
 
     .line 22
     .line 23
-    invoke-virtual {p1}, Ljava/util/ArrayList;
-    ->clear()V
+    invoke-virtual {p1}, Ljava/util/ArrayList;->clear()V
 
     .line 24
     .line 25

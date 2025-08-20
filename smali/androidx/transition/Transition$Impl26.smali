@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -34,8 +33,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/os/a;
-    ->d(Landroid/animation/Animator;)J
+    invoke-static {p0}, Landroidx/core/os/a;->d(Landroid/animation/Animator;)J
 
     .line 2
     .line 3
@@ -55,8 +53,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, p1, p2}, Landroidx/core/graphics/a;
-    ->u(Landroid/animation/AnimatorSet;J)V
+    invoke-static {p0, p1, p2}, Landroidx/core/graphics/a;->u(Landroid/animation/AnimatorSet;J)V
 return-void
 .end method
 

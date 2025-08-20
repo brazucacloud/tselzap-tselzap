@@ -26,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/google/firebase/analytics/zzc;
-    ->zza:Lcom/google/firebase/analytics/FirebaseAnalytics;
+    iput-object p1, p0, Lcom/google/firebase/analytics/zzc;->zza:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
@@ -48,13 +46,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/firebase/analytics/zzc;
-    ->zza:Lcom/google/firebase/analytics/FirebaseAnalytics;
+    iget-object v0, p0, Lcom/google/firebase/analytics/zzc;->zza:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/google/firebase/analytics/FirebaseAnalytics;
-    ->zza(Lcom/google/firebase/analytics/FirebaseAnalytics;)Lcom/google/android/gms/internal/measurement/zzed;
+    invoke-static {v0}, Lcom/google/firebase/analytics/FirebaseAnalytics;->zza(Lcom/google/firebase/analytics/FirebaseAnalytics;)Lcom/google/android/gms/internal/measurement/zzed;
 
     .line 4
     .line 5
@@ -62,8 +58,7 @@
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/zzed;
-    ->zze()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/zzed;->zze()Ljava/lang/String;
 
     .line 8
     .line 9

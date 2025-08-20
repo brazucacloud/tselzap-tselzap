@@ -6,8 +6,7 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -32,14 +31,12 @@
     .end param
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;
-    -><init>(Landroidx/recyclerview/widget/RecyclerView;)V
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;-><init>(Landroidx/recyclerview/widget/RecyclerView;)V
 
     .line 2
     .line 3
     .line 4
-    invoke-super {p0}, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;
-    ->getItemDelegate()Landroidx/core/view/AccessibilityDelegateCompat;
+    invoke-super {p0}, Landroidx/recyclerview/widget/RecyclerViewAccessibilityDelegate;->getItemDelegate()Landroidx/core/view/AccessibilityDelegateCompat;
 
     .line 5
     .line 6
@@ -47,8 +44,7 @@
     move-result-object v0
 
     .line 8
-    iput-object v0, p0, Landroidx/preference/PreferenceRecyclerViewAccessibilityDelegate;
-    ->mDefaultItemDelegate:Landroidx/core/view/AccessibilityDelegateCompat;
+    iput-object v0, p0, Landroidx/preference/PreferenceRecyclerViewAccessibilityDelegate;->mDefaultItemDelegate:Landroidx/core/view/AccessibilityDelegateCompat;
 
     .line 9
     .line 10
@@ -56,19 +52,16 @@
 
     .line 11
     .line 12
-    invoke-direct {v0, p0}, Landroidx/preference/PreferenceRecyclerViewAccessibilityDelegate$1;
-    -><init>(Landroidx/preference/PreferenceRecyclerViewAccessibilityDelegate;)V
+    invoke-direct {v0, p0}, Landroidx/preference/PreferenceRecyclerViewAccessibilityDelegate$1;-><init>(Landroidx/preference/PreferenceRecyclerViewAccessibilityDelegate;)V
 
     .line 13
     .line 14
     .line 15
-    iput-object v0, p0, Landroidx/preference/PreferenceRecyclerViewAccessibilityDelegate;
-    ->mItemDelegate:Landroidx/core/view/AccessibilityDelegateCompat;
+    iput-object v0, p0, Landroidx/preference/PreferenceRecyclerViewAccessibilityDelegate;->mItemDelegate:Landroidx/core/view/AccessibilityDelegateCompat;
 
     .line 16
     .line 17
-    iput-object p1, p0, Landroidx/preference/PreferenceRecyclerViewAccessibilityDelegate;
-    ->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;    
+    iput-object p1, p0, Landroidx/preference/PreferenceRecyclerViewAccessibilityDelegate;->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;
     return-void
 .end method
 
@@ -80,8 +73,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/preference/PreferenceRecyclerViewAccessibilityDelegate;
-    ->mItemDelegate:Landroidx/core/view/AccessibilityDelegateCompat;    return-object v0
+    iget-object v0, p0, Landroidx/preference/PreferenceRecyclerViewAccessibilityDelegate;->mItemDelegate:Landroidx/core/view/AccessibilityDelegateCompat;    return-object v0
 .end method
 
 .end class

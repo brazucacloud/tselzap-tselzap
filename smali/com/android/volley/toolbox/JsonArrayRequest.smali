@@ -40,8 +40,7 @@
     if-eqz p3, :cond_0
 
     .line 2
-    invoke-virtual {p3}, Lorg/json/JSONArray;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p3}, Lorg/json/JSONArray;->toString()Ljava/lang/String;
 
     move-result-object p3
 
@@ -67,8 +66,7 @@
 
     .line 3
     :goto_1
-    invoke-direct/range {v0 .. v5}, Lcom/android/volley/toolbox/JsonRequest;
-    -><init>(ILjava/lang/String;Ljava/lang/String;Lcom/android/volley/Response$Listener;Lcom/android/volley/Response$ErrorListener;)V
+    invoke-direct/range {v0 .. v5}, Lcom/android/volley/toolbox/JsonRequest;-><init>(ILjava/lang/String;Ljava/lang/String;Lcom/android/volley/Response$Listener;Lcom/android/volley/Response$ErrorListener;)V
     return-void
 .end method
 
@@ -103,8 +101,7 @@
     move-object v5, p3
 
     .line 1
-    invoke-direct/range {v0 .. v5}, Lcom/android/volley/toolbox/JsonRequest;
-    -><init>(ILjava/lang/String;Ljava/lang/String;Lcom/android/volley/Response$Listener;Lcom/android/volley/Response$ErrorListener;)V
+    invoke-direct/range {v0 .. v5}, Lcom/android/volley/toolbox/JsonRequest;-><init>(ILjava/lang/String;Ljava/lang/String;Lcom/android/volley/Response$Listener;Lcom/android/volley/Response$ErrorListener;)V
 return-void
 .end method
 
@@ -129,13 +126,11 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, p1, Lcom/android/volley/NetworkResponse;
-    ->data:[B
+    iget-object v1, p1, Lcom/android/volley/NetworkResponse;->data:[B
 
     .line 4
     .line 5
-    iget-object v2, p1, Lcom/android/volley/NetworkResponse;
-    ->headers:Ljava/util/Map;
+    iget-object v2, p1, Lcom/android/volley/NetworkResponse;->headers:Ljava/util/Map;
 
     .line 6
     .line 7
@@ -143,8 +138,7 @@ return-void
 
     .line 8
     .line 9
-    invoke-static {v2, v3}, Lcom/android/volley/toolbox/HttpHeaderParser;
-    ->parseCharset(Ljava/util/Map;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, v3}, Lcom/android/volley/toolbox/HttpHeaderParser;->parseCharset(Ljava/util/Map;Ljava/lang/String;)Ljava/lang/String;
 
     .line 10
     .line 11
@@ -152,8 +146,7 @@ return-void
     move-result-object v2
 
     .line 13
-    invoke-direct {v0, v1, v2}, Ljava/lang/String;
-    -><init>([BLjava/lang/String;)V
+    invoke-direct {v0, v1, v2}, Ljava/lang/String;-><init>([BLjava/lang/String;)V
 
     .line 14
     .line 15
@@ -162,14 +155,12 @@ return-void
 
     .line 17
     .line 18
-    invoke-direct {v1, v0}, Lorg/json/JSONArray;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v0}, Lorg/json/JSONArray;-><init>(Ljava/lang/String;)V
 
     .line 19
     .line 20
     .line 21
-    invoke-static {p1}, Lcom/android/volley/toolbox/HttpHeaderParser;
-    ->parseCacheHeaders(Lcom/android/volley/NetworkResponse;)Lcom/android/volley/Cache$Entry;
+    invoke-static {p1}, Lcom/android/volley/toolbox/HttpHeaderParser;->parseCacheHeaders(Lcom/android/volley/NetworkResponse;)Lcom/android/volley/Cache$Entry;
 
     .line 22
     .line 23
@@ -177,8 +168,7 @@ return-void
     move-result-object p1
 
     .line 25
-    invoke-static {v1, p1}, Lcom/android/volley/Response;
-    ->success(Ljava/lang/Object;Lcom/android/volley/Cache$Entry;)Lcom/android/volley/Response;
+    invoke-static {v1, p1}, Lcom/android/volley/Response;->success(Ljava/lang/Object;Lcom/android/volley/Cache$Entry;)Lcom/android/volley/Response;
 
     .line 26
     .line 27
@@ -210,14 +200,12 @@ return-void
 
     .line 35
     .line 36
-    invoke-direct {v0, p1}, Lcom/android/volley/ParseError;
-    -><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v0, p1}, Lcom/android/volley/ParseError;-><init>(Ljava/lang/Throwable;)V
 
     .line 37
     .line 38
     .line 39
-    invoke-static {v0}, Lcom/android/volley/Response;
-    ->error(Lcom/android/volley/VolleyError;)Lcom/android/volley/Response;
+    invoke-static {v0}, Lcom/android/volley/Response;->error(Lcom/android/volley/VolleyError;)Lcom/android/volley/Response;
 
     .line 40
     .line 41
@@ -232,14 +220,12 @@ return-void
 
     .line 45
     .line 46
-    invoke-direct {v0, p1}, Lcom/android/volley/ParseError;
-    -><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v0, p1}, Lcom/android/volley/ParseError;-><init>(Ljava/lang/Throwable;)V
 
     .line 47
     .line 48
     .line 49
-    invoke-static {v0}, Lcom/android/volley/Response;
-    ->error(Lcom/android/volley/VolleyError;)Lcom/android/volley/Response;
+    invoke-static {v0}, Lcom/android/volley/Response;->error(Lcom/android/volley/VolleyError;)Lcom/android/volley/Response;
 
     .line 50
     .line 51

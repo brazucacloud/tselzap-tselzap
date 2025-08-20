@@ -14,8 +14,7 @@
     .locals 3
 
     .line 1
-    invoke-interface {p1}, Ljava/util/List;
-    ->size()I
+    invoke-interface {p1}, Ljava/util/List;->size()I
 
     .line 2
     .line 3
@@ -31,8 +30,7 @@
 
     .line 7
     .line 8
-    invoke-interface {p1, v1}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -44,8 +42,7 @@
 
     .line 13
     .line 14
-    invoke-interface {p0, v2}, Landroid/location/LocationListener;
-    ->onLocationChanged(Landroid/location/Location;)V
+    invoke-interface {p0, v2}, Landroid/location/LocationListener;->onLocationChanged(Landroid/location/Location;)V
 
     .line 15
     .line 16

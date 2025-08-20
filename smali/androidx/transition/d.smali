@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1}, Landroidx/transition/Transition$TransitionListener;
-    ->onTransitionCancel(Landroidx/transition/Transition;)V
+    invoke-interface {p0, p1}, Landroidx/transition/Transition$TransitionListener;->onTransitionCancel(Landroidx/transition/Transition;)V
 return-void
 .end method
 
@@ -17,8 +16,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1}, Landroidx/transition/Transition$TransitionListener;
-    ->onTransitionPause(Landroidx/transition/Transition;)V
+    invoke-interface {p0, p1}, Landroidx/transition/Transition$TransitionListener;->onTransitionPause(Landroidx/transition/Transition;)V
 return-void
 .end method
 
@@ -26,8 +24,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1}, Landroidx/transition/Transition$TransitionListener;
-    ->onTransitionResume(Landroidx/transition/Transition;)V
+    invoke-interface {p0, p1}, Landroidx/transition/Transition$TransitionListener;->onTransitionResume(Landroidx/transition/Transition;)V
 return-void
 .end method
 

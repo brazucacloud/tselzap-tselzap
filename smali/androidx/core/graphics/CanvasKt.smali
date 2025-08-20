@@ -17,32 +17,27 @@
     .end annotation
 
     .line 13
-    invoke-virtual {p0}, Landroid/graphics/Canvas;
-    ->save()I
+    invoke-virtual {p0}, Landroid/graphics/Canvas;->save()I
 
     move-result v0
 
     .line 14
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/graphics/Canvas;
-    ->clipRect(FFFF)Z
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/graphics/Canvas;->clipRect(FFFF)Z
 
     .line 15
     :try_start_0
-    invoke-interface {p5, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p5, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 16
-    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
     return-void
 
     :catchall_0
     move-exception p1
 
-    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     throw p1
 .end method
@@ -60,32 +55,27 @@
     .end annotation
 
     .line 9
-    invoke-virtual {p0}, Landroid/graphics/Canvas;
-    ->save()I
+    invoke-virtual {p0}, Landroid/graphics/Canvas;->save()I
 
     move-result v0
 
     .line 10
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/graphics/Canvas;
-    ->clipRect(IIII)Z
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/graphics/Canvas;->clipRect(IIII)Z
 
     .line 11
     :try_start_0
-    invoke-interface {p5, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p5, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 12
-    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
     return-void
 
     :catchall_0
     move-exception p1
 
-    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     throw p1
 .end method
@@ -103,32 +93,27 @@
     .end annotation
 
     .line 17
-    invoke-virtual {p0}, Landroid/graphics/Canvas;
-    ->save()I
+    invoke-virtual {p0}, Landroid/graphics/Canvas;->save()I
 
     move-result v0
 
     .line 18
-    invoke-virtual {p0, p1}, Landroid/graphics/Canvas;
-    ->clipPath(Landroid/graphics/Path;)Z
+    invoke-virtual {p0, p1}, Landroid/graphics/Canvas;->clipPath(Landroid/graphics/Path;)Z
 
     .line 19
     :try_start_0
-    invoke-interface {p2, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 20
-    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
     return-void
 
     :catchall_0
     move-exception p1
 
-    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     throw p1
 .end method
@@ -146,32 +131,27 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/Canvas;
-    ->save()I
+    invoke-virtual {p0}, Landroid/graphics/Canvas;->save()I
 
     move-result v0
 
     .line 2
-    invoke-virtual {p0, p1}, Landroid/graphics/Canvas;
-    ->clipRect(Landroid/graphics/Rect;)Z
+    invoke-virtual {p0, p1}, Landroid/graphics/Canvas;->clipRect(Landroid/graphics/Rect;)Z
 
     .line 3
     :try_start_0
-    invoke-interface {p2, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 4
-    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
     return-void
 
     :catchall_0
     move-exception p1
 
-    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     throw p1
 .end method
@@ -189,32 +169,27 @@
     .end annotation
 
     .line 5
-    invoke-virtual {p0}, Landroid/graphics/Canvas;
-    ->save()I
+    invoke-virtual {p0}, Landroid/graphics/Canvas;->save()I
 
     move-result v0
 
     .line 6
-    invoke-virtual {p0, p1}, Landroid/graphics/Canvas;
-    ->clipRect(Landroid/graphics/RectF;)Z
+    invoke-virtual {p0, p1}, Landroid/graphics/Canvas;->clipRect(Landroid/graphics/RectF;)Z
 
     .line 7
     :try_start_0
-    invoke-interface {p2, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 8
-    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
     return-void
 
     :catchall_0
     move-exception p1
 
-    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     throw p1
 .end method
@@ -232,8 +207,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/Canvas;
-    ->save()I
+    invoke-virtual {p0}, Landroid/graphics/Canvas;->save()I
 
     .line 2
     .line 3
@@ -241,23 +215,20 @@
     move-result v0
 
     .line 5
-    invoke-virtual {p0, p1}, Landroid/graphics/Canvas;
-    ->concat(Landroid/graphics/Matrix;)V
+    invoke-virtual {p0, p1}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
 
     .line 6
     .line 7
     .line 8
     :try_start_0
-    invoke-interface {p2, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     .line 12
     .line 13
@@ -269,8 +240,7 @@
     move-exception p1
 
     .line 16
-    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     .line 17
     .line 18
@@ -392,15 +362,13 @@
 
     .line 6
     .line 7
-    invoke-direct {p1}, Landroid/graphics/Matrix;
-    -><init>()V
+    invoke-direct {p1}, Landroid/graphics/Matrix;-><init>()V
 
     .line 8
     .line 9
     .line 10
     :cond_0
-    invoke-virtual {p0}, Landroid/graphics/Canvas;
-    ->save()I
+    invoke-virtual {p0}, Landroid/graphics/Canvas;->save()I
 
     .line 11
     .line 12
@@ -408,23 +376,20 @@
     move-result p3
 
     .line 14
-    invoke-virtual {p0, p1}, Landroid/graphics/Canvas;
-    ->concat(Landroid/graphics/Matrix;)V
+    invoke-virtual {p0, p1}, Landroid/graphics/Canvas;->concat(Landroid/graphics/Matrix;)V
 
     .line 15
     .line 16
     .line 17
     :try_start_0
-    invoke-interface {p2, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 18
     .line 19
     .line 20
-    invoke-virtual {p0, p3}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, p3}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     .line 21
     .line 22
@@ -436,8 +401,7 @@
     move-exception p1
 
     .line 25
-    invoke-virtual {p0, p3}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, p3}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     .line 26
     .line 27
@@ -938,8 +902,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/Canvas;
-    ->save()I
+    invoke-virtual {p0}, Landroid/graphics/Canvas;->save()I
 
     .line 2
     .line 3
@@ -947,23 +910,20 @@
     move-result v0
 
     .line 5
-    invoke-virtual {p0, p1, p2, p3}, Landroid/graphics/Canvas;
-    ->rotate(FFF)V
+    invoke-virtual {p0, p1, p2, p3}, Landroid/graphics/Canvas;->rotate(FFF)V
 
     .line 6
     .line 7
     .line 8
     :try_start_0
-    invoke-interface {p4, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p4, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     .line 12
     .line 13
@@ -975,8 +935,7 @@
     move-exception p1
 
     .line 16
-    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     .line 17
     .line 18
@@ -1516,8 +1475,7 @@
 
     .line 17
     :cond_2
-    invoke-virtual {p0}, Landroid/graphics/Canvas;
-    ->save()I
+    invoke-virtual {p0}, Landroid/graphics/Canvas;->save()I
 
     .line 18
     .line 19
@@ -1525,23 +1483,20 @@
     move-result p5
 
     .line 21
-    invoke-virtual {p0, p1, p2, p3}, Landroid/graphics/Canvas;
-    ->rotate(FFF)V
+    invoke-virtual {p0, p1, p2, p3}, Landroid/graphics/Canvas;->rotate(FFF)V
 
     .line 22
     .line 23
     .line 24
     :try_start_0
-    invoke-interface {p4, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p4, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 25
     .line 26
     .line 27
-    invoke-virtual {p0, p5}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, p5}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     .line 28
     .line 29
@@ -1553,8 +1508,7 @@
     move-exception p1
 
     .line 32
-    invoke-virtual {p0, p5}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, p5}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     .line 33
     .line 34
@@ -2293,8 +2247,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/Canvas;
-    ->save()I
+    invoke-virtual {p0}, Landroid/graphics/Canvas;->save()I
 
     .line 2
     .line 3
@@ -2303,16 +2256,14 @@
 
     .line 5
     :try_start_0
-    invoke-interface {p1, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     .line 9
     .line 10
@@ -2324,8 +2275,7 @@
     move-exception p1
 
     .line 13
-    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     .line 14
     .line 15
@@ -2381,8 +2331,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/Canvas;
-    ->save()I
+    invoke-virtual {p0}, Landroid/graphics/Canvas;->save()I
 
     .line 2
     .line 3
@@ -2390,23 +2339,20 @@
     move-result v0
 
     .line 5
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/graphics/Canvas;
-    ->scale(FFFF)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/graphics/Canvas;->scale(FFFF)V
 
     .line 6
     .line 7
     .line 8
     :try_start_0
-    invoke-interface {p5, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p5, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     .line 12
     .line 13
@@ -2418,8 +2364,7 @@
     move-exception p1
 
     .line 16
-    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     .line 17
     .line 18
@@ -3501,8 +3446,7 @@
 
     .line 26
     :cond_3
-    invoke-virtual {p0}, Landroid/graphics/Canvas;
-    ->save()I
+    invoke-virtual {p0}, Landroid/graphics/Canvas;->save()I
 
     .line 27
     .line 28
@@ -3510,23 +3454,20 @@
     move-result p6
 
     .line 30
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/graphics/Canvas;
-    ->scale(FFFF)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/graphics/Canvas;->scale(FFFF)V
 
     .line 31
     .line 32
     .line 33
     :try_start_0
-    invoke-interface {p5, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p5, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 34
     .line 35
     .line 36
-    invoke-virtual {p0, p6}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, p6}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     .line 37
     .line 38
@@ -3538,8 +3479,7 @@
     move-exception p1
 
     .line 41
-    invoke-virtual {p0, p6}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, p6}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     .line 42
     .line 43
@@ -4100,8 +4040,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/Canvas;
-    ->save()I
+    invoke-virtual {p0}, Landroid/graphics/Canvas;->save()I
 
     .line 2
     .line 3
@@ -4109,23 +4048,20 @@
     move-result v0
 
     .line 5
-    invoke-virtual {p0, p1, p2}, Landroid/graphics/Canvas;
-    ->skew(FF)V
+    invoke-virtual {p0, p1, p2}, Landroid/graphics/Canvas;->skew(FF)V
 
     .line 6
     .line 7
     .line 8
     :try_start_0
-    invoke-interface {p3, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     .line 12
     .line 13
@@ -4137,8 +4073,7 @@
     move-exception p1
 
     .line 16
-    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     .line 17
     .line 18
@@ -4375,8 +4310,7 @@
 
     .line 12
     :cond_1
-    invoke-virtual {p0}, Landroid/graphics/Canvas;
-    ->save()I
+    invoke-virtual {p0}, Landroid/graphics/Canvas;->save()I
 
     .line 13
     .line 14
@@ -4384,23 +4318,20 @@
     move-result p4
 
     .line 16
-    invoke-virtual {p0, p1, p2}, Landroid/graphics/Canvas;
-    ->skew(FF)V
+    invoke-virtual {p0, p1, p2}, Landroid/graphics/Canvas;->skew(FF)V
 
     .line 17
     .line 18
     .line 19
     :try_start_0
-    invoke-interface {p3, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {p0, p4}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, p4}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     .line 23
     .line 24
@@ -4412,8 +4343,7 @@
     move-exception p1
 
     .line 27
-    invoke-virtual {p0, p4}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, p4}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     .line 28
     .line 29
@@ -5436,8 +5366,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/Canvas;
-    ->save()I
+    invoke-virtual {p0}, Landroid/graphics/Canvas;->save()I
 
     .line 2
     .line 3
@@ -5445,23 +5374,20 @@
     move-result v0
 
     .line 5
-    invoke-virtual {p0, p1, p2}, Landroid/graphics/Canvas;
-    ->translate(FF)V
+    invoke-virtual {p0, p1, p2}, Landroid/graphics/Canvas;->translate(FF)V
 
     .line 6
     .line 7
     .line 8
     :try_start_0
-    invoke-interface {p3, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     .line 12
     .line 13
@@ -5473,8 +5399,7 @@
     move-exception p1
 
     .line 16
-    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     .line 17
     .line 18
@@ -5711,8 +5636,7 @@
 
     .line 12
     :cond_1
-    invoke-virtual {p0}, Landroid/graphics/Canvas;
-    ->save()I
+    invoke-virtual {p0}, Landroid/graphics/Canvas;->save()I
 
     .line 13
     .line 14
@@ -5720,23 +5644,20 @@
     move-result p4
 
     .line 16
-    invoke-virtual {p0, p1, p2}, Landroid/graphics/Canvas;
-    ->translate(FF)V
+    invoke-virtual {p0, p1, p2}, Landroid/graphics/Canvas;->translate(FF)V
 
     .line 17
     .line 18
     .line 19
     :try_start_0
-    invoke-interface {p3, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {p0, p4}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, p4}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     .line 23
     .line 24
@@ -5748,8 +5669,7 @@
     move-exception p1
 
     .line 27
-    invoke-virtual {p0, p4}, Landroid/graphics/Canvas;
-    ->restoreToCount(I)V
+    invoke-virtual {p0, p4}, Landroid/graphics/Canvas;->restoreToCount(I)V
 
     .line 28
     .line 29

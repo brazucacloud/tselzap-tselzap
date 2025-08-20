@@ -7,8 +7,7 @@
 .field public static final AUTOLINK_EMAIL_ADDRESS:Ljava/util/regex/Pattern;
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 .end field
@@ -16,8 +15,7 @@
 .field public static final AUTOLINK_WEB_URL:Ljava/util/regex/Pattern;
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 .end field
@@ -84,8 +82,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Ljava/util/regex/Pattern;
-    ->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+    invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     .line 4
     .line 5
@@ -93,8 +90,7 @@
     move-result-object v0
 
     .line 7
-    sput-object v0, Landroidx/core/util/PatternsCompat;
-    ->IP_ADDRESS:Ljava/util/regex/Pattern;
+    sput-object v0, Landroidx/core/util/PatternsCompat;->IP_ADDRESS:Ljava/util/regex/Pattern;
 
     .line 8
     .line 9
@@ -106,14 +102,12 @@
 
     .line 12
     .line 13
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 17
     .line 18
@@ -122,14 +116,12 @@
 
     .line 20
     .line 21
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 22
     .line 23
     .line 24
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 25
     .line 26
@@ -137,8 +129,7 @@
     move-result-object v1
 
     .line 28
-    invoke-static {v1}, Ljava/util/regex/Pattern;
-    ->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+    invoke-static {v1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     .line 29
     .line 30
@@ -146,8 +137,7 @@
     move-result-object v1
 
     .line 32
-    sput-object v1, Landroidx/core/util/PatternsCompat;
-    ->DOMAIN_NAME:Ljava/util/regex/Pattern;
+    sput-object v1, Landroidx/core/util/PatternsCompat;->DOMAIN_NAME:Ljava/util/regex/Pattern;
 
     .line 33
     .line 34
@@ -159,14 +149,12 @@
 
     .line 37
     .line 38
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 39
     .line 40
     .line 41
-    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 42
     .line 43
@@ -175,14 +163,12 @@
 
     .line 45
     .line 46
-    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 47
     .line 48
     .line 49
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 50
     .line 51
@@ -190,8 +176,7 @@
     move-result-object v1
 
     .line 53
-    invoke-static {v1}, Ljava/util/regex/Pattern;
-    ->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+    invoke-static {v1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     .line 54
     .line 55
@@ -199,8 +184,7 @@
     move-result-object v1
 
     .line 57
-    sput-object v1, Landroidx/core/util/PatternsCompat;
-    ->WEB_URL:Ljava/util/regex/Pattern;
+    sput-object v1, Landroidx/core/util/PatternsCompat;->WEB_URL:Ljava/util/regex/Pattern;
 
     .line 58
     .line 59
@@ -212,26 +196,22 @@
 
     .line 62
     .line 63
-    invoke-direct {v1, v3}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 64
     .line 65
     .line 66
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 67
     .line 68
     .line 69
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 70
     .line 71
     .line 72
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 73
     .line 74
@@ -239,8 +219,7 @@
     move-result-object v1
 
     .line 76
-    invoke-static {v1}, Ljava/util/regex/Pattern;
-    ->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+    invoke-static {v1}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     .line 77
     .line 78
@@ -248,8 +227,7 @@
     move-result-object v1
 
     .line 80
-    sput-object v1, Landroidx/core/util/PatternsCompat;
-    ->STRICT_DOMAIN_NAME:Ljava/util/regex/Pattern;
+    sput-object v1, Landroidx/core/util/PatternsCompat;->STRICT_DOMAIN_NAME:Ljava/util/regex/Pattern;
 
     .line 81
     .line 82
@@ -261,26 +239,22 @@
 
     .line 85
     .line 86
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 87
     .line 88
     .line 89
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 90
     .line 91
     .line 92
-    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 93
     .line 94
     .line 95
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 96
     .line 97
@@ -288,8 +262,7 @@
     move-result-object v0
 
     .line 99
-    sput-object v0, Landroidx/core/util/PatternsCompat;
-    ->RELAXED_DOMAIN_NAME:Ljava/lang/String;
+    sput-object v0, Landroidx/core/util/PatternsCompat;->RELAXED_DOMAIN_NAME:Ljava/lang/String;
 
     .line 100
     .line 101
@@ -301,14 +274,12 @@
 
     .line 104
     .line 105
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 106
     .line 107
     .line 108
-    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 109
     .line 110
@@ -317,14 +288,12 @@
 
     .line 112
     .line 113
-    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 114
     .line 115
     .line 116
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 117
     .line 118
@@ -332,8 +301,7 @@
     move-result-object v1
 
     .line 120
-    sput-object v1, Landroidx/core/util/PatternsCompat;
-    ->WEB_URL_WITHOUT_PROTOCOL:Ljava/lang/String;
+    sput-object v1, Landroidx/core/util/PatternsCompat;->WEB_URL_WITHOUT_PROTOCOL:Ljava/lang/String;
 
     .line 121
     .line 122
@@ -345,8 +313,7 @@
 
     .line 125
     .line 126
-    invoke-static {v3, v0, v4}, Landroidx/constraintlayout/core/parser/a;
-    ->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v3, v0, v4}, Landroidx/constraintlayout/core/parser/a;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 127
     .line 128
@@ -354,8 +321,7 @@
     move-result-object v0
 
     .line 130
-    sput-object v0, Landroidx/core/util/PatternsCompat;
-    ->WEB_URL_WITH_PROTOCOL:Ljava/lang/String;
+    sput-object v0, Landroidx/core/util/PatternsCompat;->WEB_URL_WITH_PROTOCOL:Ljava/lang/String;
 
     .line 131
     .line 132
@@ -367,14 +333,12 @@
 
     .line 135
     .line 136
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 137
     .line 138
     .line 139
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 140
     .line 141
@@ -383,26 +347,22 @@
 
     .line 143
     .line 144
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 145
     .line 146
     .line 147
-    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 148
     .line 149
     .line 150
-    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 151
     .line 152
     .line 153
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 154
     .line 155
@@ -410,8 +370,7 @@
     move-result-object v0
 
     .line 157
-    invoke-static {v0}, Ljava/util/regex/Pattern;
-    ->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+    invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     .line 158
     .line 159
@@ -419,8 +378,7 @@
     move-result-object v0
 
     .line 161
-    sput-object v0, Landroidx/core/util/PatternsCompat;
-    ->AUTOLINK_WEB_URL:Ljava/util/regex/Pattern;
+    sput-object v0, Landroidx/core/util/PatternsCompat;->AUTOLINK_WEB_URL:Ljava/util/regex/Pattern;
 
     .line 162
     .line 163
@@ -428,8 +386,7 @@
 
     .line 164
     .line 165
-    invoke-static {v0}, Ljava/util/regex/Pattern;
-    ->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+    invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     .line 166
     .line 167
@@ -437,8 +394,7 @@
     move-result-object v0
 
     .line 169
-    sput-object v0, Landroidx/core/util/PatternsCompat;
-    ->AUTOLINK_EMAIL_ADDRESS:Ljava/util/regex/Pattern;
+    sput-object v0, Landroidx/core/util/PatternsCompat;->AUTOLINK_EMAIL_ADDRESS:Ljava/util/regex/Pattern;
 
     .line 170
     .line 171
@@ -446,8 +402,7 @@
 
     .line 172
     .line 173
-    invoke-static {v0}, Ljava/util/regex/Pattern;
-    ->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+    invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     .line 174
     .line 175
@@ -455,8 +410,7 @@
     move-result-object v0
 
     .line 177
-    sput-object v0, Landroidx/core/util/PatternsCompat;
-    ->EMAIL_ADDRESS:Ljava/util/regex/Pattern;
+    sput-object v0, Landroidx/core/util/PatternsCompat;->EMAIL_ADDRESS:Ljava/util/regex/Pattern;
 
     .line 178
     .line 179
@@ -467,8 +421,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3

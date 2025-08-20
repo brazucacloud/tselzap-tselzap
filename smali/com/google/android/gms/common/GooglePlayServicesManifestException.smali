@@ -21,14 +21,12 @@
     .end param
 
     .line 1
-    invoke-direct {p0, p2}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 2
     .line 3
     .line 4
-    iput p1, p0, Lcom/google/android/gms/common/GooglePlayServicesManifestException;
-    ->zza:I
+    iput p1, p0, Lcom/google/android/gms/common/GooglePlayServicesManifestException;->zza:I
 
     .line 5
     .line 6
@@ -40,8 +38,7 @@
 .method public getActualVersion()I
     .locals 1
 
-    iget v0, p0, Lcom/google/android/gms/common/GooglePlayServicesManifestException;
-    ->zza:I
+    iget v0, p0, Lcom/google/android/gms/common/GooglePlayServicesManifestException;->zza:I
 
     return v0
 .end method
@@ -50,8 +47,7 @@
     .locals 1
 
     .line 1
-    sget v0, Lcom/google/android/gms/common/GoogleApiAvailabilityLight;
-    ->GOOGLE_PLAY_SERVICES_VERSION_CODE:I
+    sget v0, Lcom/google/android/gms/common/GoogleApiAvailabilityLight;->GOOGLE_PLAY_SERVICES_VERSION_CODE:I
 
     .line 2
     .line 3

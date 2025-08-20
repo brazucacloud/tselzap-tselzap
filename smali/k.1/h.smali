@@ -16,8 +16,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Lk/h;
-    ->c:Z
+    iget-boolean v0, p0, Lk/h;->c:Z
 
     .line 2
     .line 3
@@ -25,8 +24,7 @@
 
     .line 4
     .line 5
-    iget-boolean v0, p0, Lk/h;
-    ->b:Z
+    iget-boolean v0, p0, Lk/h;->b:Z
 
     .line 6
     .line 7
@@ -35,8 +33,7 @@
     .line 8
     .line 9
     :cond_0
-    iget-boolean v0, p0, Lk/h;
-    ->a:Z
+    iget-boolean v0, p0, Lk/h;->a:Z
 
     .line 10
     .line 11

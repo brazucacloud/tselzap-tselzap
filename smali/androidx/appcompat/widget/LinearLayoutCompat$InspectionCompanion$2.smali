@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/appcompat/widget/LinearLayoutCompat$InspectionCompanion;
-    ->mapProperties(Landroid/view/inspector/PropertyMapper;)V
+    value = Landroidx/appcompat/widget/LinearLayoutCompat$InspectionCompanion;->mapProperties(Landroid/view/inspector/PropertyMapper;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -37,13 +36,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/LinearLayoutCompat$InspectionCompanion$2;
-    ->this$0:Landroidx/appcompat/widget/LinearLayoutCompat$InspectionCompanion;
+    iput-object p1, p0, Landroidx/appcompat/widget/LinearLayoutCompat$InspectionCompanion$2;->this$0:Landroidx/appcompat/widget/LinearLayoutCompat$InspectionCompanion;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -53,8 +50,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/appcompat/widget/LinearLayoutCompat$InspectionCompanion$2;
-    ->apply(I)Ljava/util/Set;
+    invoke-virtual {p0, p1}, Landroidx/appcompat/widget/LinearLayoutCompat$InspectionCompanion$2;->apply(I)Ljava/util/Set;
 
     move-result-object p1
 
@@ -75,16 +71,14 @@
     .line 2
     new-instance v0, Ljava/util/HashSet;
 
-    invoke-direct {v0}, Ljava/util/HashSet;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
     if-nez p1, :cond_0
 
     .line 3
     const-string v1, "none"
 
-    invoke-virtual {v0, v1}, Ljava/util/HashSet;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
     :cond_0
     const/4 v1, 0x1
@@ -94,8 +88,7 @@
     .line 4
     const-string v1, "beginning"
 
-    invoke-virtual {v0, v1}, Ljava/util/HashSet;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
     :cond_1
     const/4 v1, 0x2
@@ -105,8 +98,7 @@
     .line 5
     const-string v1, "middle"
 
-    invoke-virtual {v0, v1}, Ljava/util/HashSet;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
     :cond_2
     const/4 v1, 0x4
@@ -116,8 +108,7 @@
     .line 6
     const-string p1, "end"
 
-    invoke-virtual {v0, p1}, Ljava/util/HashSet;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
     :cond_3
     return-object v0

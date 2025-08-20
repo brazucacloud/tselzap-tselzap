@@ -12,19 +12,16 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object v0, Landroidx/navigation/fragment/NavHostFragment;
-    ->Companion:Landroidx/navigation/fragment/NavHostFragment$Companion;
+    sget-object v0, Landroidx/navigation/fragment/NavHostFragment;->Companion:Landroidx/navigation/fragment/NavHostFragment$Companion;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p0}, Landroidx/navigation/fragment/NavHostFragment$Companion;
-    ->findNavController(Landroidx/fragment/app/Fragment;)Landroidx/navigation/NavController;
+    invoke-virtual {v0, p0}, Landroidx/navigation/fragment/NavHostFragment$Companion;->findNavController(Landroidx/fragment/app/Fragment;)Landroidx/navigation/NavController;
 
     .line 9
     .line 10

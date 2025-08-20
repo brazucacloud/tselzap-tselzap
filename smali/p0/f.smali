@@ -12,8 +12,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Lp0/e;
-    -><init>(Lp0/f;Lp0/b;)V
+    invoke-direct {v0, p0, p1}, Lp0/e;-><init>(Lp0/f;Lp0/b;)V
 
     .line 4
     .line 5

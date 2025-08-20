@@ -26,8 +26,7 @@
 
     .line 4
     .line 5
-    sget-object v5, Ljava/util/Collections;
-    ->EMPTY_LIST:Ljava/util/List;
+    sget-object v5, Ljava/util/Collections;->EMPTY_LIST:Ljava/util/List;
 
     .line 6
     .line 7
@@ -38,8 +37,7 @@
     const/4 v2, 0x0
 
     .line 10
-    invoke-direct {v6, v2}, Lw/d;
-    -><init>(I)V
+    invoke-direct {v6, v2}, Lw/d;-><init>(I)V
 
     .line 11
     .line 12
@@ -59,14 +57,12 @@
     const/4 v7, 0x0
 
     .line 20
-    invoke-direct/range {v1 .. v7}, Lk/j;
-    -><init>(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Class;Ljava/util/List;Lw/a;LF/d;)V
+    invoke-direct/range {v1 .. v7}, Lk/j;-><init>(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Class;Ljava/util/List;Lw/a;LF/d;)V
 
     .line 21
     .line 22
     .line 23
-    invoke-static {v1}, Ljava/util/Collections;
-    ->singletonList(Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {v1}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
 
     .line 24
     .line 25
@@ -89,14 +85,12 @@
     const/4 v5, 0x0
 
     .line 34
-    invoke-direct/range {v0 .. v5}, Lk/A;
-    -><init>(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Class;Ljava/util/List;LF/d;)V
+    invoke-direct/range {v0 .. v5}, Lk/A;-><init>(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Class;Ljava/util/List;LF/d;)V
 
     .line 35
     .line 36
     .line 37
-    sput-object v0, Lz/b;
-    ->c:Lk/A;
+    sput-object v0, Lz/b;->c:Lk/A;
 
     .line 38
     .line 39
@@ -107,8 +101,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -117,14 +110,12 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Landroidx/collection/ArrayMap;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/collection/ArrayMap;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Lz/b;
-    ->a:Landroidx/collection/ArrayMap;
+    iput-object v0, p0, Lz/b;->a:Landroidx/collection/ArrayMap;
 
     .line 10
     .line 11
@@ -132,14 +123,12 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicReference;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicReference;-><init>()V
 
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, Lz/b;
-    ->b:Ljava/util/concurrent/atomic/AtomicReference;
+    iput-object v0, p0, Lz/b;->b:Ljava/util/concurrent/atomic/AtomicReference;
 
     .line 17
     .line 18
@@ -152,8 +141,7 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lz/b;
-    ->a:Landroidx/collection/ArrayMap;
+    iget-object v0, p0, Lz/b;->a:Landroidx/collection/ArrayMap;
 
     .line 2
     .line 3
@@ -161,8 +149,7 @@
 
     .line 4
     :try_start_0
-    iget-object v1, p0, Lz/b;
-    ->a:Landroidx/collection/ArrayMap;
+    iget-object v1, p0, Lz/b;->a:Landroidx/collection/ArrayMap;
 
     .line 5
     .line 6
@@ -170,8 +157,7 @@
 
     .line 7
     .line 8
-    invoke-direct {v2, p1, p2, p3}, LE/m;
-    -><init>(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Class;)V
+    invoke-direct {v2, p1, p2, p3}, LE/m;-><init>(Ljava/lang/Class;Ljava/lang/Class;Ljava/lang/Class;)V
 
     .line 9
     .line 10
@@ -184,14 +170,12 @@
 
     .line 14
     :cond_0
-    sget-object p4, Lz/b;
-    ->c:Lk/A;
+    sget-object p4, Lz/b;->c:Lk/A;
 
     .line 15
     .line 16
     :goto_0
-    invoke-virtual {v1, v2, p4}, Landroidx/collection/SimpleArrayMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v2, p4}, Landroidx/collection/SimpleArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 17
     .line 18

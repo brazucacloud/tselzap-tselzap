@@ -49,13 +49,11 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper;
-    ->this$0:Landroidx/collection/MutableScatterSet;
+    iput-object p1, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper;->this$0:Landroidx/collection/MutableScatterSet;
 
     .line 2
     .line 3
-    invoke-direct {p0, p1}, Landroidx/collection/ScatterSet$SetWrapper;
-    -><init>(Landroidx/collection/ScatterSet;)V
+    invoke-direct {p0, p1}, Landroidx/collection/ScatterSet$SetWrapper;-><init>(Landroidx/collection/ScatterSet;)V
 return-void
 .end method
 
@@ -70,13 +68,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper;
-    ->this$0:Landroidx/collection/MutableScatterSet;
+    iget-object v0, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper;->this$0:Landroidx/collection/MutableScatterSet;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/collection/MutableScatterSet;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Landroidx/collection/MutableScatterSet;->add(Ljava/lang/Object;)Z
 
     .line 4
     .line 5
@@ -101,14 +97,12 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper;
-    ->this$0:Landroidx/collection/MutableScatterSet;
+    iget-object v0, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper;->this$0:Landroidx/collection/MutableScatterSet;
 
     .line 7
     .line 8
@@ -116,8 +110,7 @@ return-void
 
     .line 9
     .line 10
-    invoke-virtual {v0, p1}, Landroidx/collection/MutableScatterSet;
-    ->addAll(Ljava/lang/Iterable;)Z
+    invoke-virtual {v0, p1}, Landroidx/collection/MutableScatterSet;->addAll(Ljava/lang/Iterable;)Z
 
     .line 11
     .line 12
@@ -131,13 +124,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper;
-    ->this$0:Landroidx/collection/MutableScatterSet;
+    iget-object v0, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper;->this$0:Landroidx/collection/MutableScatterSet;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/collection/MutableScatterSet;
-    ->clear()V
+    invoke-virtual {v0}, Landroidx/collection/MutableScatterSet;->clear()V
     return-void
 .end method
 
@@ -156,13 +147,11 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper;
-    ->this$0:Landroidx/collection/MutableScatterSet;
+    iget-object v1, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper;->this$0:Landroidx/collection/MutableScatterSet;
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1;
-    -><init>(Landroidx/collection/MutableScatterSet;)V
+    invoke-direct {v0, v1}, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1;-><init>(Landroidx/collection/MutableScatterSet;)V
 return-object v0
 .end method
 
@@ -170,13 +159,11 @@ return-object v0
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper;
-    ->this$0:Landroidx/collection/MutableScatterSet;
+    iget-object v0, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper;->this$0:Landroidx/collection/MutableScatterSet;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/collection/MutableScatterSet;
-    ->remove(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Landroidx/collection/MutableScatterSet;->remove(Ljava/lang/Object;)Z
 
     .line 4
     .line 5
@@ -203,19 +190,16 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper;
-    ->this$0:Landroidx/collection/MutableScatterSet;
+    iget-object v0, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper;->this$0:Landroidx/collection/MutableScatterSet;
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroidx/collection/ScatterSet;
-    ->getSize()I
+    invoke-virtual {v0}, Landroidx/collection/ScatterSet;->getSize()I
 
     .line 9
     .line 10
@@ -223,8 +207,7 @@ return-object v0
     move-result v0
 
     .line 12
-    invoke-interface {p1}, Ljava/util/Collection;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     .line 13
     .line 14
@@ -233,8 +216,7 @@ return-object v0
 
     .line 16
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
     .line 17
     .line 18
@@ -246,8 +228,7 @@ return-object v0
 
     .line 21
     .line 22
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 23
     .line 24
@@ -255,13 +236,11 @@ return-object v0
     move-result-object v1
 
     .line 26
-    iget-object v2, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper;
-    ->this$0:Landroidx/collection/MutableScatterSet;
+    iget-object v2, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper;->this$0:Landroidx/collection/MutableScatterSet;
 
     .line 27
     .line 28
-    invoke-virtual {v2, v1}, Landroidx/collection/MutableScatterSet;
-    ->minusAssign(Ljava/lang/Object;)V
+    invoke-virtual {v2, v1}, Landroidx/collection/MutableScatterSet;->minusAssign(Ljava/lang/Object;)V
 
     .line 29
     .line 30
@@ -270,13 +249,11 @@ return-object v0
 
     .line 32
     :cond_0
-    iget-object p1, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper;
-    ->this$0:Landroidx/collection/MutableScatterSet;
+    iget-object p1, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper;->this$0:Landroidx/collection/MutableScatterSet;
 
     .line 33
     .line 34
-    invoke-virtual {p1}, Landroidx/collection/ScatterSet;
-    ->getSize()I
+    invoke-virtual {p1}, Landroidx/collection/ScatterSet;->getSize()I
 
     .line 35
     .line 36
@@ -320,8 +297,7 @@ return-object v0
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -330,13 +306,11 @@ return-object v0
 
     .line 9
     .line 10
-    iget-object v2, v1, Landroidx/collection/MutableScatterSet$MutableSetWrapper;
-    ->this$0:Landroidx/collection/MutableScatterSet;
+    iget-object v2, v1, Landroidx/collection/MutableScatterSet$MutableSetWrapper;->this$0:Landroidx/collection/MutableScatterSet;
 
     .line 11
     .line 12
-    iget-object v3, v2, Landroidx/collection/ScatterSet;
-    ->metadata:[J
+    iget-object v3, v2, Landroidx/collection/ScatterSet;->metadata:[J
 
     .line 13
     .line 14
@@ -448,8 +422,7 @@ return-object v0
     add-int/2addr v13, v12
 
     .line 62
-    iget-object v14, v2, Landroidx/collection/ScatterSet;
-    ->elements:[Ljava/lang/Object;
+    iget-object v14, v2, Landroidx/collection/ScatterSet;->elements:[Ljava/lang/Object;
 
     .line 63
     .line 64
@@ -457,8 +430,7 @@ return-object v0
 
     .line 65
     .line 66
-    invoke-interface {v0, v14}, Ljava/util/Collection;
-    ->contains(Ljava/lang/Object;)Z
+    invoke-interface {v0, v14}, Ljava/util/Collection;->contains(Ljava/lang/Object;)Z
 
     .line 67
     .line 68
@@ -470,8 +442,7 @@ return-object v0
 
     .line 71
     .line 72
-    invoke-virtual {v2, v13}, Landroidx/collection/MutableScatterSet;
-    ->removeElementAt(I)V
+    invoke-virtual {v2, v13}, Landroidx/collection/MutableScatterSet;->removeElementAt(I)V
 
     .line 73
     .line 74

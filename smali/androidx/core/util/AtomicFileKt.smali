@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/util/AtomicFile;
-    ->readFully()[B
+    invoke-virtual {p0}, Landroid/util/AtomicFile;->readFully()[B
 
     .line 2
     .line 3
@@ -27,8 +26,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/util/AtomicFile;
-    ->readFully()[B
+    invoke-virtual {p0}, Landroid/util/AtomicFile;->readFully()[B
 
     .line 4
     .line 5
@@ -36,8 +34,7 @@
     move-result-object p0
 
     .line 7
-    invoke-direct {v0, p0, p1}, Ljava/lang/String;
-    -><init>([BLjava/nio/charset/Charset;)V
+    invoke-direct {v0, p0, p1}, Ljava/lang/String;-><init>([BLjava/nio/charset/Charset;)V
 
     .line 8
     .line 9
@@ -57,14 +54,12 @@
 
     .line 4
     .line 5
-    sget-object p1, Lx1/a;
-    ->a:Ljava/nio/charset/Charset;
+    sget-object p1, Lx1/a;->a:Ljava/nio/charset/Charset;
 
     .line 6
     .line 7
     :cond_0
-    invoke-static {p0, p1}, Landroidx/core/util/AtomicFileKt;
-    ->readText(Landroid/util/AtomicFile;Ljava/nio/charset/Charset;)Ljava/lang/String;
+    invoke-static {p0, p1}, Landroidx/core/util/AtomicFileKt;->readText(Landroid/util/AtomicFile;Ljava/nio/charset/Charset;)Ljava/lang/String;
 
     .line 8
     .line 9
@@ -86,8 +81,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/util/AtomicFile;
-    ->startWrite()Ljava/io/FileOutputStream;
+    invoke-virtual {p0}, Landroid/util/AtomicFile;->startWrite()Ljava/io/FileOutputStream;
 
     .line 2
     .line 3
@@ -96,16 +90,14 @@
 
     .line 5
     :try_start_0
-    invoke-interface {p1, v0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p0, v0}, Landroid/util/AtomicFile;
-    ->finishWrite(Ljava/io/FileOutputStream;)V
+    invoke-virtual {p0, v0}, Landroid/util/AtomicFile;->finishWrite(Ljava/io/FileOutputStream;)V
 
     .line 9
     .line 10
@@ -117,8 +109,7 @@
     move-exception p1
 
     .line 13
-    invoke-virtual {p0, v0}, Landroid/util/AtomicFile;
-    ->failWrite(Ljava/io/FileOutputStream;)V
+    invoke-virtual {p0, v0}, Landroid/util/AtomicFile;->failWrite(Ljava/io/FileOutputStream;)V
 
     .line 14
     .line 15
@@ -165,8 +156,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroid/util/AtomicFile;
-    ->startWrite()Ljava/io/FileOutputStream;
+    invoke-virtual {p0}, Landroid/util/AtomicFile;->startWrite()Ljava/io/FileOutputStream;
 
     .line 2
     .line 3
@@ -175,16 +165,14 @@
 
     .line 5
     :try_start_0
-    invoke-virtual {v0, p1}, Ljava/io/FileOutputStream;
-    ->write([B)V
+    invoke-virtual {v0, p1}, Ljava/io/FileOutputStream;->write([B)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p0, v0}, Landroid/util/AtomicFile;
-    ->finishWrite(Ljava/io/FileOutputStream;)V
+    invoke-virtual {p0, v0}, Landroid/util/AtomicFile;->finishWrite(Ljava/io/FileOutputStream;)V
 
     .line 9
     .line 10
@@ -196,8 +184,7 @@
     move-exception p1
 
     .line 13
-    invoke-virtual {p0, v0}, Landroid/util/AtomicFile;
-    ->failWrite(Ljava/io/FileOutputStream;)V
+    invoke-virtual {p0, v0}, Landroid/util/AtomicFile;->failWrite(Ljava/io/FileOutputStream;)V
 
     .line 14
     .line 15
@@ -244,8 +231,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p1, p2}, Ljava/lang/String;
-    ->getBytes(Ljava/nio/charset/Charset;)[B
+    invoke-virtual {p1, p2}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
 
     .line 2
     .line 3
@@ -257,14 +243,12 @@
 
     .line 6
     .line 7
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    invoke-static {p0, p1}, Landroidx/core/util/AtomicFileKt;
-    ->writeBytes(Landroid/util/AtomicFile;[B)V
+    invoke-static {p0, p1}, Landroidx/core/util/AtomicFileKt;->writeBytes(Landroid/util/AtomicFile;[B)V
 
     .line 11
     .line 12
@@ -284,14 +268,12 @@
 
     .line 4
     .line 5
-    sget-object p2, Lx1/a;
-    ->a:Ljava/nio/charset/Charset;
+    sget-object p2, Lx1/a;->a:Ljava/nio/charset/Charset;
 
     .line 6
     .line 7
     :cond_0
-    invoke-static {p0, p1, p2}, Landroidx/core/util/AtomicFileKt;
-    ->writeText(Landroid/util/AtomicFile;Ljava/lang/String;Ljava/nio/charset/Charset;)V
+    invoke-static {p0, p1, p2}, Landroidx/core/util/AtomicFileKt;->writeText(Landroid/util/AtomicFile;Ljava/lang/String;Ljava/nio/charset/Charset;)V
 
     .line 8
     .line 9

@@ -19,8 +19,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -28,8 +27,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/core/SingleProcessDataStore$Companion;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/datastore/core/SingleProcessDataStore$Companion;-><init>()V
     return-void
 .end method
 
@@ -47,8 +45,7 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Landroidx/datastore/core/SingleProcessDataStore;
-    ->access$getActiveFiles$cp()Ljava/util/Set;
+    invoke-static {}, Landroidx/datastore/core/SingleProcessDataStore;->access$getActiveFiles$cp()Ljava/util/Set;
 
     .line 2
     .line 3
@@ -62,8 +59,7 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Landroidx/datastore/core/SingleProcessDataStore;
-    ->access$getActiveFilesLock$cp()Ljava/lang/Object;
+    invoke-static {}, Landroidx/datastore/core/SingleProcessDataStore;->access$getActiveFilesLock$cp()Ljava/lang/Object;
 
     .line 2
     .line 3

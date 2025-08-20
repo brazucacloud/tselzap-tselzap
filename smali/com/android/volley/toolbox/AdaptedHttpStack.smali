@@ -12,14 +12,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/android/volley/toolbox/BaseHttpStack;
-    -><init>()V
+    invoke-direct {p0}, Lcom/android/volley/toolbox/BaseHttpStack;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/android/volley/toolbox/AdaptedHttpStack;
-    ->mHttpStack:Lcom/android/volley/toolbox/HttpStack;
+    iput-object p1, p0, Lcom/android/volley/toolbox/AdaptedHttpStack;->mHttpStack:Lcom/android/volley/toolbox/HttpStack;
 
     .line 5
     .line 6
@@ -45,13 +43,11 @@
 
     .line 1
     :try_start_0
-    iget-object v0, p0, Lcom/android/volley/toolbox/AdaptedHttpStack;
-    ->mHttpStack:Lcom/android/volley/toolbox/HttpStack;
+    iget-object v0, p0, Lcom/android/volley/toolbox/AdaptedHttpStack;->mHttpStack:Lcom/android/volley/toolbox/HttpStack;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1, p2}, Lcom/android/volley/toolbox/HttpStack;
-    ->performRequest(Lcom/android/volley/Request;Ljava/util/Map;)Lorg/apache/http/HttpResponse;
+    invoke-interface {v0, p1, p2}, Lcom/android/volley/toolbox/HttpStack;->performRequest(Lcom/android/volley/Request;Ljava/util/Map;)Lorg/apache/http/HttpResponse;
 
     .line 4
     .line 5
@@ -61,8 +57,7 @@
     .catch Lorg/apache/http/conn/ConnectTimeoutException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 7
-    invoke-interface {p1}, Lorg/apache/http/HttpResponse;
-    ->getStatusLine()Lorg/apache/http/StatusLine;
+    invoke-interface {p1}, Lorg/apache/http/HttpResponse;->getStatusLine()Lorg/apache/http/StatusLine;
 
     .line 8
     .line 9
@@ -70,8 +65,7 @@
     move-result-object p2
 
     .line 11
-    invoke-interface {p2}, Lorg/apache/http/StatusLine;
-    ->getStatusCode()I
+    invoke-interface {p2}, Lorg/apache/http/StatusLine;->getStatusCode()I
 
     .line 12
     .line 13
@@ -79,8 +73,7 @@
     move-result p2
 
     .line 15
-    invoke-interface {p1}, Lorg/apache/http/HttpResponse;
-    ->getAllHeaders()[Lorg/apache/http/Header;
+    invoke-interface {p1}, Lorg/apache/http/HttpResponse;->getAllHeaders()[Lorg/apache/http/Header;
 
     .line 16
     .line 17
@@ -95,8 +88,7 @@
     array-length v2, v0
 
     .line 22
-    invoke-direct {v1, v2}, Ljava/util/ArrayList;
-    -><init>(I)V
+    invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(I)V
 
     .line 23
     .line 24
@@ -120,8 +112,7 @@
 
     .line 32
     .line 33
-    invoke-interface {v4}, Lorg/apache/http/Header;
-    ->getName()Ljava/lang/String;
+    invoke-interface {v4}, Lorg/apache/http/Header;->getName()Ljava/lang/String;
 
     .line 34
     .line 35
@@ -129,8 +120,7 @@
     move-result-object v6
 
     .line 37
-    invoke-interface {v4}, Lorg/apache/http/Header;
-    ->getValue()Ljava/lang/String;
+    invoke-interface {v4}, Lorg/apache/http/Header;->getValue()Ljava/lang/String;
 
     .line 38
     .line 39
@@ -138,14 +128,12 @@
     move-result-object v4
 
     .line 41
-    invoke-direct {v5, v6, v4}, Lcom/android/volley/Header;
-    -><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v5, v6, v4}, Lcom/android/volley/Header;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 42
     .line 43
     .line 44
-    invoke-virtual {v1, v5}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 45
     .line 46
@@ -158,8 +146,7 @@
 
     .line 50
     :cond_0
-    invoke-interface {p1}, Lorg/apache/http/HttpResponse;
-    ->getEntity()Lorg/apache/http/HttpEntity;
+    invoke-interface {p1}, Lorg/apache/http/HttpResponse;->getEntity()Lorg/apache/http/HttpEntity;
 
     .line 51
     .line 52
@@ -175,8 +162,7 @@
 
     .line 57
     .line 58
-    invoke-direct {p1, p2, v1}, Lcom/android/volley/toolbox/HttpResponse;
-    -><init>(ILjava/util/List;)V
+    invoke-direct {p1, p2, v1}, Lcom/android/volley/toolbox/HttpResponse;-><init>(ILjava/util/List;)V
 
     .line 59
     .line 60
@@ -185,8 +171,7 @@
 
     .line 62
     :cond_1
-    invoke-interface {p1}, Lorg/apache/http/HttpResponse;
-    ->getEntity()Lorg/apache/http/HttpEntity;
+    invoke-interface {p1}, Lorg/apache/http/HttpResponse;->getEntity()Lorg/apache/http/HttpEntity;
 
     .line 63
     .line 64
@@ -194,8 +179,7 @@
     move-result-object v0
 
     .line 66
-    invoke-interface {v0}, Lorg/apache/http/HttpEntity;
-    ->getContentLength()J
+    invoke-interface {v0}, Lorg/apache/http/HttpEntity;->getContentLength()J
 
     .line 67
     .line 68
@@ -221,8 +205,7 @@
 
     .line 77
     .line 78
-    invoke-interface {p1}, Lorg/apache/http/HttpResponse;
-    ->getEntity()Lorg/apache/http/HttpEntity;
+    invoke-interface {p1}, Lorg/apache/http/HttpResponse;->getEntity()Lorg/apache/http/HttpEntity;
 
     .line 79
     .line 80
@@ -230,8 +213,7 @@
     move-result-object v2
 
     .line 82
-    invoke-interface {v2}, Lorg/apache/http/HttpEntity;
-    ->getContentLength()J
+    invoke-interface {v2}, Lorg/apache/http/HttpEntity;->getContentLength()J
 
     .line 83
     .line 84
@@ -242,8 +224,7 @@
     long-to-int v3, v2
 
     .line 87
-    invoke-interface {p1}, Lorg/apache/http/HttpResponse;
-    ->getEntity()Lorg/apache/http/HttpEntity;
+    invoke-interface {p1}, Lorg/apache/http/HttpResponse;->getEntity()Lorg/apache/http/HttpEntity;
 
     .line 88
     .line 89
@@ -251,8 +232,7 @@
     move-result-object p1
 
     .line 91
-    invoke-interface {p1}, Lorg/apache/http/HttpEntity;
-    ->getContent()Ljava/io/InputStream;
+    invoke-interface {p1}, Lorg/apache/http/HttpEntity;->getContent()Ljava/io/InputStream;
 
     .line 92
     .line 93
@@ -260,8 +240,7 @@
     move-result-object p1
 
     .line 95
-    invoke-direct {v0, p2, v1, v3, p1}, Lcom/android/volley/toolbox/HttpResponse;
-    -><init>(ILjava/util/List;ILjava/io/InputStream;)V
+    invoke-direct {v0, p2, v1, v3, p1}, Lcom/android/volley/toolbox/HttpResponse;-><init>(ILjava/util/List;ILjava/io/InputStream;)V
 
     .line 96
     .line 97
@@ -278,8 +257,7 @@
 
     .line 102
     .line 103
-    invoke-static {p2, v2, v3}, LA/d;
-    ->e(Ljava/lang/String;J)Ljava/lang/String;
+    invoke-static {p2, v2, v3}, LA/d;->e(Ljava/lang/String;J)Ljava/lang/String;
 
     .line 104
     .line 105
@@ -287,8 +265,7 @@
     move-result-object p2
 
     .line 107
-    invoke-direct {p1, p2}, Ljava/io/IOException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
 
     .line 108
     .line 109
@@ -304,8 +281,7 @@
 
     .line 113
     .line 114
-    invoke-virtual {p1}, Ljava/lang/Throwable;
-    ->getMessage()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     .line 115
     .line 116
@@ -313,8 +289,7 @@
     move-result-object p1
 
     .line 118
-    invoke-direct {p2, p1}, Ljava/net/SocketTimeoutException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p1}, Ljava/net/SocketTimeoutException;-><init>(Ljava/lang/String;)V
 
     .line 119
     .line 120

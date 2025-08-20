@@ -76,8 +76,7 @@
 
     const/4 v1, 0x1
 
-    invoke-direct {p0, v0, v1, v0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    -><init>(Ljava/util/List;ILkotlin/jvm/internal/e;)V
+    invoke-direct {p0, v0, v1, v0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;-><init>(Ljava/util/List;ILkotlin/jvm/internal/e;)V
 return-void
 .end method
 
@@ -93,82 +92,65 @@ return-void
 
     const-string v0, "dataSet"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
-    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;-><init>()V
 
     .line 5
     check-cast p1, Ljava/util/Collection;
 
-    invoke-static {p1}, Ld1/k;
-    ->H0(Ljava/util/Collection;)Ljava/util/ArrayList;
+    invoke-static {p1}, Ld1/k;->H0(Ljava/util/Collection;)Ljava/util/ArrayList;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->mutableDataSet:Ljava/util/List;
+    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->mutableDataSet:Ljava/util/List;
 
     .line 6
     new-instance v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemDragListener$1;
 
-    invoke-direct {v1, p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemDragListener$1;
-    -><init>(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;)V
+    invoke-direct {v1, p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemDragListener$1;-><init>(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;)V
 
-    iput-object v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->itemDragListener:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemDragListener$1;
+    iput-object v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->itemDragListener:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemDragListener$1;
 
     .line 7
     new-instance v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemSwipeListener$1;
 
-    invoke-direct {v2, p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemSwipeListener$1;
-    -><init>(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;)V
+    invoke-direct {v2, p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemSwipeListener$1;-><init>(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;)V
 
-    iput-object v2, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->itemSwipeListener:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemSwipeListener$1;
+    iput-object v2, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->itemSwipeListener:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemSwipeListener$1;
 
     .line 8
     new-instance v3, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$stateChangeListener$1;
 
-    invoke-direct {v3, p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$stateChangeListener$1;
-    -><init>(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;)V
+    invoke-direct {v3, p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$stateChangeListener$1;-><init>(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;)V
 
-    iput-object v3, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->stateChangeListener:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$stateChangeListener$1;
+    iput-object v3, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->stateChangeListener:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$stateChangeListener$1;
 
     .line 9
     new-instance v4, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemLayoutPositionListener$1;
 
-    invoke-direct {v4, p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemLayoutPositionListener$1;
-    -><init>(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;)V
+    invoke-direct {v4, p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemLayoutPositionListener$1;-><init>(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;)V
 
-    iput-object v4, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->itemLayoutPositionListener:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemLayoutPositionListener$1;
+    iput-object v4, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->itemLayoutPositionListener:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemLayoutPositionListener$1;
 
     .line 10
     new-instance v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper;
 
     .line 11
-    iget-object v5, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->recyclerView:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
+    iget-object v5, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->recyclerView:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
 
     .line 12
-    invoke-direct/range {v0 .. v5}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper;
-    -><init>(Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper$OnItemDragListener;Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper$OnItemSwipeListener;Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper$OnItemStateChangeListener;Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper$OnItemLayoutPositionChangeListener;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;)V
+    invoke-direct/range {v0 .. v5}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper;-><init>(Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper$OnItemDragListener;Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper$OnItemSwipeListener;Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper$OnItemStateChangeListener;Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper$OnItemLayoutPositionChangeListener;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;)V
 
-    iput-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->swipeAndDragHelper:Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper;
+    iput-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->swipeAndDragHelper:Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper;
 
     .line 13
     new-instance p1, Landroidx/recyclerview/widget/ItemTouchHelper;
 
-    invoke-direct {p1, v0}, Landroidx/recyclerview/widget/ItemTouchHelper;
-    -><init>(Landroidx/recyclerview/widget/ItemTouchHelper$Callback;)V
+    invoke-direct {p1, v0}, Landroidx/recyclerview/widget/ItemTouchHelper;-><init>(Landroidx/recyclerview/widget/ItemTouchHelper$Callback;)V
 
-    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->itemTouchHelper:Landroidx/recyclerview/widget/ItemTouchHelper;
+    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->itemTouchHelper:Landroidx/recyclerview/widget/ItemTouchHelper;
 
     return-void
 .end method
@@ -181,13 +163,11 @@ return-void
     if-eqz p2, :cond_0
 
     .line 2
-    sget-object p1, Ld1/t;
-    ->b:Ld1/t;
+    sget-object p1, Ld1/t;->b:Ld1/t;
 
     .line 3
     :cond_0
-    invoke-direct {p0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    -><init>(Ljava/util/List;)V
+    invoke-direct {p0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;-><init>(Ljava/util/List;)V
 return-void
 .end method
 
@@ -195,8 +175,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->setItemDragAndDropWithLongPress$lambda$9(Landroid/view/View;Landroid/view/GestureDetector;Landroid/view/View;Landroid/view/MotionEvent;)Z
+    invoke-static {p0, p1, p2, p3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->setItemDragAndDropWithLongPress$lambda$9(Landroid/view/View;Landroid/view/GestureDetector;Landroid/view/View;Landroid/view/MotionEvent;)Z
 
     move-result p0
 
@@ -207,8 +186,7 @@ return-void
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->dragListener:Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnItemDragListener;
+    iget-object p0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->dragListener:Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnItemDragListener;
 
     .line 2
     .line 3
@@ -219,8 +197,7 @@ return-void
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->itemTouchHelper:Landroidx/recyclerview/widget/ItemTouchHelper;
+    iget-object p0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->itemTouchHelper:Landroidx/recyclerview/widget/ItemTouchHelper;
 
     .line 2
     .line 3
@@ -231,8 +208,7 @@ return-void
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->mutableDataSet:Ljava/util/List;
+    iget-object p0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->mutableDataSet:Ljava/util/List;
 
     .line 2
     .line 3
@@ -243,8 +219,7 @@ return-void
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->swipeListener:Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnItemSwipeListener;
+    iget-object p0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->swipeListener:Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnItemSwipeListener;
 
     .line 2
     .line 3
@@ -255,8 +230,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->onDragFinishedImpl(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;)V
+    invoke-direct {p0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->onDragFinishedImpl(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;)V
 
     .line 2
     .line 3
@@ -268,8 +242,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->onDragStartedImpl(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;)V
+    invoke-direct {p0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->onDragStartedImpl(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;)V
 
     .line 2
     .line 3
@@ -281,8 +254,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct/range {p0 .. p6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->onIsDraggingImpl(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;IILandroid/graphics/Canvas;Landroid/graphics/Canvas;Z)V
+    invoke-direct/range {p0 .. p6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->onIsDraggingImpl(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;IILandroid/graphics/Canvas;Landroid/graphics/Canvas;Z)V
 
     .line 2
     .line 3
@@ -294,8 +266,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct/range {p0 .. p6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->onIsSwipingImpl(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;IILandroid/graphics/Canvas;Landroid/graphics/Canvas;Z)V
+    invoke-direct/range {p0 .. p6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->onIsSwipingImpl(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;IILandroid/graphics/Canvas;Landroid/graphics/Canvas;Z)V
 
     .line 2
     .line 3
@@ -307,8 +278,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->onListItemDragged(II)V
+    invoke-direct {p0, p1, p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->onListItemDragged(II)V
 
     .line 2
     .line 3
@@ -320,8 +290,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->onListItemSwiped(I)V
+    invoke-direct {p0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->onListItemSwiped(I)V
 
     .line 2
     .line 3
@@ -333,8 +302,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->onSwipeFinishedImpl(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;)V
+    invoke-direct {p0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->onSwipeFinishedImpl(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;)V
 
     .line 2
     .line 3
@@ -346,8 +314,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->onSwipeStartedImpl(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;)V
+    invoke-direct {p0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->onSwipeStartedImpl(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;)V
 
     .line 2
     .line 3
@@ -359,8 +326,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->setItemDragAndDrop$lambda$8(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;Landroid/view/View;Landroid/view/MotionEvent;)Z
+    invoke-static {p0, p1, p2, p3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->setItemDragAndDrop$lambda$8(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;Landroid/view/View;Landroid/view/MotionEvent;)Z
 
     move-result p0
 
@@ -385,8 +351,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
-    ->getDividerDrawable$drag_drop_swipe_recyclerview_release()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;->getDividerDrawable$drag_drop_swipe_recyclerview_release()Landroid/graphics/drawable/Drawable;
 
     .line 2
     .line 3
@@ -398,8 +363,7 @@ return-void
 
     .line 6
     .line 7
-    invoke-direct {p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->getOrientation()Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
+    invoke-direct {p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->getOrientation()Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
 
     .line 8
     .line 9
@@ -407,13 +371,11 @@ return-void
     move-result-object p1
 
     .line 11
-    sget-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$WhenMappings;
-    ->$EnumSwitchMapping$0:[I
+    sget-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$WhenMappings;->$EnumSwitchMapping$0:[I
 
     .line 12
     .line 13
-    invoke-virtual {p1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
 
     .line 14
     .line 15
@@ -438,13 +400,11 @@ return-void
 
     .line 25
     :pswitch_0
-    iget-object v0, p3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->itemView:Landroid/view/View;
+    iget-object v0, p3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     .line 26
     .line 27
-    invoke-static {v0, v6}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v6}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 28
     .line 29
@@ -461,8 +421,7 @@ return-void
     move-object v5, p8
 
     .line 34
-    invoke-static/range {v0 .. v5}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DividerDrawingHelperKt;
-    ->drawHorizontalDividers(Landroid/view/View;Landroid/graphics/Canvas;Landroid/graphics/drawable/Drawable;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;)V
+    invoke-static/range {v0 .. v5}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DividerDrawingHelperKt;->drawHorizontalDividers(Landroid/view/View;Landroid/graphics/Canvas;Landroid/graphics/drawable/Drawable;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;)V
 
     .line 35
     .line 36
@@ -470,13 +429,11 @@ return-void
     move-object p6, v5
 
     .line 38
-    iget-object p1, p3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->itemView:Landroid/view/View;
+    iget-object p1, p3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     .line 39
     .line 40
-    invoke-static {p1, v6}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v6}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 41
     .line 42
@@ -490,8 +447,7 @@ return-void
     move-object p3, v2
 
     .line 46
-    invoke-static/range {p1 .. p6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DividerDrawingHelperKt;
-    ->drawVerticalDividers(Landroid/view/View;Landroid/graphics/Canvas;Landroid/graphics/drawable/Drawable;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;)V
+    invoke-static/range {p1 .. p6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DividerDrawingHelperKt;->drawVerticalDividers(Landroid/view/View;Landroid/graphics/Canvas;Landroid/graphics/drawable/Drawable;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;)V
 
     .line 47
     .line 48
@@ -509,13 +465,11 @@ return-void
     move-object p6, p8
 
     .line 53
-    iget-object p1, p3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->itemView:Landroid/view/View;
+    iget-object p1, p3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     .line 54
     .line 55
-    invoke-static {p1, v6}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v6}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 56
     .line 57
@@ -523,8 +477,7 @@ return-void
     move-object p3, v2
 
     .line 59
-    invoke-static/range {p1 .. p6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DividerDrawingHelperKt;
-    ->drawVerticalDividers(Landroid/view/View;Landroid/graphics/Canvas;Landroid/graphics/drawable/Drawable;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;)V
+    invoke-static/range {p1 .. p6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DividerDrawingHelperKt;->drawVerticalDividers(Landroid/view/View;Landroid/graphics/Canvas;Landroid/graphics/drawable/Drawable;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;)V
 
     .line 60
     .line 61
@@ -539,13 +492,11 @@ return-void
     move-object p6, p8
 
     .line 65
-    iget-object p1, p3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->itemView:Landroid/view/View;
+    iget-object p1, p3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     .line 66
     .line 67
-    invoke-static {p1, v6}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v6}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 68
     .line 69
@@ -553,8 +504,7 @@ return-void
     move-object p3, v2
 
     .line 71
-    invoke-static/range {p1 .. p6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DividerDrawingHelperKt;
-    ->drawHorizontalDividers(Landroid/view/View;Landroid/graphics/Canvas;Landroid/graphics/drawable/Drawable;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;)V
+    invoke-static/range {p1 .. p6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DividerDrawingHelperKt;->drawHorizontalDividers(Landroid/view/View;Landroid/graphics/Canvas;Landroid/graphics/drawable/Drawable;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;)V
 
     .line 72
     .line 73
@@ -1155,8 +1105,7 @@ return-void
 
     .line 29
     :cond_4
-    invoke-direct/range {p0 .. p8}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->drawDividers(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;Landroid/graphics/Canvas;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;)V
+    invoke-direct/range {p0 .. p8}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->drawDividers(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;Landroid/graphics/Canvas;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;)V
 
     .line 30
     .line 31
@@ -1173,8 +1122,7 @@ return-void
 
     .line 36
     .line 37
-    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
 
     .line 38
     .line 39
@@ -1234,8 +1182,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-static/range {p4 .. p4}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static/range {p4 .. p4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 2
     .line 3
@@ -1243,8 +1190,7 @@ return-void
     move-result-object v4
 
     .line 5
-    invoke-static/range {p5 .. p5}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static/range {p5 .. p5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 6
     .line 7
@@ -1252,8 +1198,7 @@ return-void
     move-result-object v5
 
     .line 9
-    invoke-static/range {p6 .. p6}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static/range {p6 .. p6}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 10
     .line 11
@@ -1261,8 +1206,7 @@ return-void
     move-result-object v6
 
     .line 13
-    invoke-static/range {p7 .. p7}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static/range {p7 .. p7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 14
     .line 15
@@ -1270,8 +1214,7 @@ return-void
     move-result-object v7
 
     .line 17
-    invoke-static/range {p8 .. p8}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static/range {p8 .. p8}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     .line 18
     .line 19
@@ -1295,14 +1238,12 @@ return-void
 
     .line 28
     .line 29
-    invoke-direct/range {v0 .. v8}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->drawDividers(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;Landroid/graphics/Canvas;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;)V
+    invoke-direct/range {v0 .. v8}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->drawDividers(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;Landroid/graphics/Canvas;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;)V
 
     .line 30
     .line 31
     .line 32
-    invoke-direct/range {p0 .. p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->getOrientation()Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
+    invoke-direct/range {p0 .. p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->getOrientation()Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
 
     .line 33
     .line 34
@@ -1310,8 +1251,7 @@ return-void
     move-result-object v0
 
     .line 36
-    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->GRID_LIST_WITH_HORIZONTAL_SWIPING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
+    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->GRID_LIST_WITH_HORIZONTAL_SWIPING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
 
     .line 37
     .line 38
@@ -1319,8 +1259,7 @@ return-void
 
     .line 39
     .line 40
-    invoke-direct/range {p0 .. p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->getOrientation()Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
+    invoke-direct/range {p0 .. p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->getOrientation()Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
 
     .line 41
     .line 42
@@ -1328,8 +1267,7 @@ return-void
     move-result-object v0
 
     .line 44
-    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->GRID_LIST_WITH_VERTICAL_SWIPING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
+    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->GRID_LIST_WITH_VERTICAL_SWIPING:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
 
     .line 45
     .line 46
@@ -1337,8 +1275,7 @@ return-void
 
     .line 47
     .line 48
-    invoke-static/range {p9 .. p9}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static/range {p9 .. p9}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 49
     .line 50
@@ -1346,8 +1283,7 @@ return-void
     move-result-object v13
 
     .line 52
-    invoke-static/range {p10 .. p10}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static/range {p10 .. p10}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 53
     .line 54
@@ -1355,8 +1291,7 @@ return-void
     move-result-object v14
 
     .line 56
-    invoke-static/range {p11 .. p11}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static/range {p11 .. p11}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 57
     .line 58
@@ -1364,8 +1299,7 @@ return-void
     move-result-object v15
 
     .line 60
-    invoke-static/range {p12 .. p12}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static/range {p12 .. p12}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 61
     .line 62
@@ -1401,8 +1335,7 @@ return-void
 
     .line 77
     .line 78
-    invoke-static/range {v9 .. v19}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->drawDividers$default(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;Landroid/graphics/Canvas;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;ILjava/lang/Object;)V
+    invoke-static/range {v9 .. v19}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->drawDividers$default(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;Landroid/graphics/Canvas;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;ILjava/lang/Object;)V
 
     .line 79
     .line 80
@@ -1434,20 +1367,17 @@ return-void
 
     .line 5
     .line 6
-    invoke-virtual {p2}, Landroid/graphics/Canvas;
-    ->save()I
+    invoke-virtual {p2}, Landroid/graphics/Canvas;->save()I
 
     .line 7
     .line 8
     .line 9
-    invoke-virtual {p2, p4, p5, v1, v2}, Landroid/graphics/Canvas;
-    ->clipRect(IIII)Z
+    invoke-virtual {p2, p4, p5, v1, v2}, Landroid/graphics/Canvas;->clipRect(IIII)Z
 
     .line 10
     .line 11
     .line 12
-    invoke-virtual {p3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->getBehindSwipedItemLayout$drag_drop_swipe_recyclerview_release()Landroid/view/View;
+    invoke-virtual {p3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->getBehindSwipedItemLayout$drag_drop_swipe_recyclerview_release()Landroid/view/View;
 
     .line 13
     .line 14
@@ -1459,8 +1389,7 @@ return-void
 
     .line 17
     .line 18
-    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
-    ->getBehindSwipedItemLayout$drag_drop_swipe_recyclerview_release()Landroid/view/View;
+    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;->getBehindSwipedItemLayout$drag_drop_swipe_recyclerview_release()Landroid/view/View;
 
     .line 19
     .line 20
@@ -1469,8 +1398,7 @@ return-void
 
     .line 22
     :cond_0
-    invoke-virtual {p3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->getBehindSwipedItemSecondaryLayout$drag_drop_swipe_recyclerview_release()Landroid/view/View;
+    invoke-virtual {p3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->getBehindSwipedItemSecondaryLayout$drag_drop_swipe_recyclerview_release()Landroid/view/View;
 
     .line 23
     .line 24
@@ -1482,8 +1410,7 @@ return-void
 
     .line 27
     .line 28
-    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
-    ->getBehindSwipedItemSecondaryLayout$drag_drop_swipe_recyclerview_release()Landroid/view/View;
+    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;->getBehindSwipedItemSecondaryLayout$drag_drop_swipe_recyclerview_release()Landroid/view/View;
 
     .line 29
     .line 30
@@ -1516,8 +1443,7 @@ return-void
 
     .line 42
     .line 43
-    invoke-virtual {v3}, Landroid/view/View;
-    ->getMeasuredWidth()I
+    invoke-virtual {v3}, Landroid/view/View;->getMeasuredWidth()I
 
     .line 44
     .line 45
@@ -1529,8 +1455,7 @@ return-void
 
     .line 48
     .line 49
-    invoke-virtual {v3}, Landroid/view/View;
-    ->getMeasuredHeight()I
+    invoke-virtual {v3}, Landroid/view/View;->getMeasuredHeight()I
 
     .line 50
     .line 51
@@ -1547,8 +1472,7 @@ return-void
 
     .line 56
     .line 57
-    invoke-static {p1, v4}, Landroid/view/View$MeasureSpec;
-    ->makeMeasureSpec(II)I
+    invoke-static {p1, v4}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
     .line 58
     .line 59
@@ -1556,8 +1480,7 @@ return-void
     move-result p1
 
     .line 61
-    invoke-static {p3, v4}, Landroid/view/View$MeasureSpec;
-    ->makeMeasureSpec(II)I
+    invoke-static {p3, v4}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
     .line 62
     .line 63
@@ -1565,21 +1488,18 @@ return-void
     move-result p3
 
     .line 65
-    invoke-virtual {v3, p1, p3}, Landroid/view/View;
-    ->measure(II)V
+    invoke-virtual {v3, p1, p3}, Landroid/view/View;->measure(II)V
 
     .line 66
     .line 67
     .line 68
     :cond_4
-    invoke-virtual {v3, p4, p5, v1, v2}, Landroid/view/View;
-    ->layout(IIII)V
+    invoke-virtual {v3, p4, p5, v1, v2}, Landroid/view/View;->layout(IIII)V
 
     .line 69
     .line 70
     .line 71
-    invoke-virtual {p2}, Landroid/graphics/Canvas;
-    ->save()I
+    invoke-virtual {p2}, Landroid/graphics/Canvas;->save()I
 
     .line 72
     .line 73
@@ -1590,14 +1510,12 @@ return-void
     int-to-float p3, v0
 
     .line 76
-    invoke-virtual {p2, p1, p3}, Landroid/graphics/Canvas;
-    ->translate(FF)V
+    invoke-virtual {p2, p1, p3}, Landroid/graphics/Canvas;->translate(FF)V
 
     .line 77
     .line 78
     .line 79
-    invoke-virtual {v3, p2}, Landroid/view/View;
-    ->draw(Landroid/graphics/Canvas;)V
+    invoke-virtual {v3, p2}, Landroid/view/View;->draw(Landroid/graphics/Canvas;)V
 
     .line 80
     .line 81
@@ -1611,8 +1529,7 @@ return-void
 
     .line 85
     .line 86
-    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
-    ->getBehindSwipedItemBackgroundSecondaryColor()Ljava/lang/Integer;
+    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;->getBehindSwipedItemBackgroundSecondaryColor()Ljava/lang/Integer;
 
     .line 87
     .line 88
@@ -1624,8 +1541,7 @@ return-void
 
     .line 91
     .line 92
-    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
-    ->getBehindSwipedItemBackgroundSecondaryColor()Ljava/lang/Integer;
+    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;->getBehindSwipedItemBackgroundSecondaryColor()Ljava/lang/Integer;
 
     .line 93
     .line 94
@@ -1641,8 +1557,7 @@ return-void
 
     .line 99
     :cond_6
-    invoke-virtual {p3}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {p3}, Ljava/lang/Integer;->intValue()I
 
     .line 100
     .line 101
@@ -1655,8 +1570,7 @@ return-void
     .line 104
     .line 105
     :goto_0
-    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
-    ->getBehindSwipedItemBackgroundSecondaryColor()Ljava/lang/Integer;
+    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;->getBehindSwipedItemBackgroundSecondaryColor()Ljava/lang/Integer;
 
     .line 106
     .line 107
@@ -1668,8 +1582,7 @@ return-void
 
     .line 110
     :cond_7
-    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
-    ->getBehindSwipedItemBackgroundColor()Ljava/lang/Integer;
+    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;->getBehindSwipedItemBackgroundColor()Ljava/lang/Integer;
 
     .line 111
     .line 112
@@ -1682,8 +1595,7 @@ return-void
 
     .line 115
     .line 116
-    invoke-virtual {p3}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {p3}, Ljava/lang/Integer;->intValue()I
 
     .line 117
     .line 118
@@ -1695,8 +1607,7 @@ return-void
 
     .line 121
     .line 122
-    invoke-virtual {p3}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {p3}, Ljava/lang/Integer;->intValue()I
 
     .line 123
     .line 124
@@ -1704,8 +1615,7 @@ return-void
     move-result p3
 
     .line 126
-    invoke-virtual {p2, p3}, Landroid/graphics/Canvas;
-    ->drawColor(I)V
+    invoke-virtual {p2, p3}, Landroid/graphics/Canvas;->drawColor(I)V
 
     .line 127
     .line 128
@@ -1715,8 +1625,7 @@ return-void
 
     .line 130
     .line 131
-    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
-    ->getBehindSwipedItemIconSecondaryDrawable$drag_drop_swipe_recyclerview_release()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;->getBehindSwipedItemIconSecondaryDrawable$drag_drop_swipe_recyclerview_release()Landroid/graphics/drawable/Drawable;
 
     .line 132
     .line 133
@@ -1728,8 +1637,7 @@ return-void
 
     .line 136
     .line 137
-    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
-    ->getBehindSwipedItemIconSecondaryDrawable$drag_drop_swipe_recyclerview_release()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;->getBehindSwipedItemIconSecondaryDrawable$drag_drop_swipe_recyclerview_release()Landroid/graphics/drawable/Drawable;
 
     .line 138
     .line 139
@@ -1741,8 +1649,7 @@ return-void
 
     .line 142
     :cond_9
-    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
-    ->getBehindSwipedItemIconDrawable$drag_drop_swipe_recyclerview_release()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;->getBehindSwipedItemIconDrawable$drag_drop_swipe_recyclerview_release()Landroid/graphics/drawable/Drawable;
 
     .line 143
     .line 144
@@ -1755,8 +1662,7 @@ return-void
 
     .line 147
     .line 148
-    invoke-virtual {p3}, Landroid/graphics/drawable/Drawable;
-    ->getIntrinsicWidth()I
+    invoke-virtual {p3}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
 
     .line 149
     .line 150
@@ -1764,8 +1670,7 @@ return-void
     move-result v3
 
     .line 152
-    invoke-virtual {p3}, Landroid/graphics/drawable/Drawable;
-    ->getIntrinsicHeight()I
+    invoke-virtual {p3}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
 
     .line 153
     .line 154
@@ -1803,8 +1708,7 @@ return-void
 
     .line 169
     .line 170
-    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
-    ->getBehindSwipedItemCenterIcon()Z
+    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;->getBehindSwipedItemCenterIcon()Z
 
     .line 171
     .line 172
@@ -1816,8 +1720,7 @@ return-void
 
     .line 175
     .line 176
-    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
-    ->getBehindSwipedItemIconMargin()F
+    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;->getBehindSwipedItemIconMargin()F
 
     .line 177
     .line 178
@@ -1916,22 +1819,19 @@ return-void
     add-int/2addr v4, v6
 
     .line 218
-    invoke-virtual {p3, v5, v6, v3, v4}, Landroid/graphics/drawable/Drawable;
-    ->setBounds(IIII)V
+    invoke-virtual {p3, v5, v6, v3, v4}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
     .line 219
     .line 220
     .line 221
-    invoke-virtual {p3, p2}, Landroid/graphics/drawable/Drawable;
-    ->draw(Landroid/graphics/Canvas;)V
+    invoke-virtual {p3, p2}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
 
     .line 222
     .line 223
     .line 224
     :cond_e
     :goto_4
-    invoke-virtual {p2}, Landroid/graphics/Canvas;
-    ->restore()V
+    invoke-virtual {p2}, Landroid/graphics/Canvas;->restore()V
 
     .line 225
     .line 226
@@ -1951,8 +1851,7 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->recyclerView:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
+    iget-object v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->recyclerView:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
 
     .line 2
     .line 3
@@ -1995,15 +1894,13 @@ return-void
     move-object v3, p2
 
     .line 18
-    invoke-static/range {v0 .. v10}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->drawDividers$default(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;Landroid/graphics/Canvas;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;ILjava/lang/Object;)V
+    invoke-static/range {v0 .. v10}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->drawDividers$default(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;Landroid/graphics/Canvas;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;ILjava/lang/Object;)V
 
     .line 19
     .line 20
     .line 21
     :cond_0
-    sget-object p1, Lc1/v;
-    ->a:Lc1/v;
+    sget-object p1, Lc1/v;->a:Lc1/v;
 
     .line 22
     .line 23
@@ -2036,8 +1933,7 @@ return-void
 
     .line 4
     .line 5
-    iget-object v1, v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->recyclerView:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
+    iget-object v1, v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->recyclerView:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
 
     .line 6
     .line 7
@@ -2045,8 +1941,7 @@ return-void
 
     .line 8
     .line 9
-    invoke-direct {v0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->getOrientation()Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
+    invoke-direct {v0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->getOrientation()Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
 
     .line 10
     .line 11
@@ -2054,8 +1949,7 @@ return-void
     move-result-object v2
 
     .line 13
-    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->getSwipeFlagsValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->getSwipeFlagsValue$drag_drop_swipe_recyclerview_release()I
 
     .line 14
     .line 15
@@ -2063,13 +1957,11 @@ return-void
     move-result v2
 
     .line 17
-    sget-object v4, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->RIGHT:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
+    sget-object v4, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->RIGHT:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
 
     .line 18
     .line 19
-    invoke-virtual {v4}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v4}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 20
     .line 21
@@ -2080,8 +1972,7 @@ return-void
     and-int/2addr v2, v5
 
     .line 24
-    invoke-virtual {v4}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v4}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 25
     .line 26
@@ -2099,8 +1990,7 @@ return-void
 
     .line 31
     .line 32
-    invoke-direct {v0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->getOrientation()Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
+    invoke-direct {v0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->getOrientation()Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
 
     .line 33
     .line 34
@@ -2108,8 +1998,7 @@ return-void
     move-result-object v2
 
     .line 36
-    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
-    ->getSwipeFlagsValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;->getSwipeFlagsValue$drag_drop_swipe_recyclerview_release()I
 
     .line 37
     .line 38
@@ -2117,13 +2006,11 @@ return-void
     move-result v2
 
     .line 40
-    sget-object v4, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->LEFT:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
+    sget-object v4, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->LEFT:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
 
     .line 41
     .line 42
-    invoke-virtual {v4}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v4}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 43
     .line 44
@@ -2134,8 +2021,7 @@ return-void
     and-int/2addr v2, v7
 
     .line 47
-    invoke-virtual {v4}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;
-    ->getValue$drag_drop_swipe_recyclerview_release()I
+    invoke-virtual {v4}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation$DirectionFlag;->getValue$drag_drop_swipe_recyclerview_release()I
 
     .line 48
     .line 49
@@ -2192,13 +2078,11 @@ return-void
 
     .line 68
     :goto_2
-    iget-object v2, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->itemView:Landroid/view/View;
+    iget-object v2, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     .line 69
     .line 70
-    invoke-virtual {v2}, Landroid/view/View;
-    ->getLeft()I
+    invoke-virtual {v2}, Landroid/view/View;->getLeft()I
 
     .line 71
     .line 72
@@ -2206,13 +2090,11 @@ return-void
     move-result v2
 
     .line 74
-    iget-object v4, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->itemView:Landroid/view/View;
+    iget-object v4, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     .line 75
     .line 76
-    invoke-virtual {v4}, Landroid/view/View;
-    ->getTranslationX()F
+    invoke-virtual {v4}, Landroid/view/View;->getTranslationX()F
 
     .line 77
     .line 78
@@ -2227,13 +2109,11 @@ return-void
 
     .line 82
     .line 83
-    iget-object v2, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->itemView:Landroid/view/View;
+    iget-object v2, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     .line 84
     .line 85
-    invoke-virtual {v2}, Landroid/view/View;
-    ->getTop()I
+    invoke-virtual {v2}, Landroid/view/View;->getTop()I
 
     .line 86
     .line 87
@@ -2241,13 +2121,11 @@ return-void
     move-result v2
 
     .line 89
-    iget-object v4, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->itemView:Landroid/view/View;
+    iget-object v4, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     .line 90
     .line 91
-    invoke-virtual {v4}, Landroid/view/View;
-    ->getTranslationY()F
+    invoke-virtual {v4}, Landroid/view/View;->getTranslationY()F
 
     .line 92
     .line 93
@@ -2262,13 +2140,11 @@ return-void
 
     .line 97
     .line 98
-    iget-object v2, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->itemView:Landroid/view/View;
+    iget-object v2, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     .line 99
     .line 100
-    invoke-virtual {v2}, Landroid/view/View;
-    ->getRight()I
+    invoke-virtual {v2}, Landroid/view/View;->getRight()I
 
     .line 101
     .line 102
@@ -2276,13 +2152,11 @@ return-void
     move-result v2
 
     .line 104
-    iget-object v4, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->itemView:Landroid/view/View;
+    iget-object v4, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     .line 105
     .line 106
-    invoke-virtual {v4}, Landroid/view/View;
-    ->getTranslationX()F
+    invoke-virtual {v4}, Landroid/view/View;->getTranslationX()F
 
     .line 107
     .line 108
@@ -2297,13 +2171,11 @@ return-void
 
     .line 112
     .line 113
-    iget-object v2, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->itemView:Landroid/view/View;
+    iget-object v2, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     .line 114
     .line 115
-    invoke-virtual {v2}, Landroid/view/View;
-    ->getBottom()I
+    invoke-virtual {v2}, Landroid/view/View;->getBottom()I
 
     .line 116
     .line 117
@@ -2311,13 +2183,11 @@ return-void
     move-result v2
 
     .line 119
-    iget-object v4, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->itemView:Landroid/view/View;
+    iget-object v4, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     .line 120
     .line 121
-    invoke-virtual {v4}, Landroid/view/View;
-    ->getTranslationY()F
+    invoke-virtual {v4}, Landroid/view/View;->getTranslationY()F
 
     .line 122
     .line 123
@@ -2336,13 +2206,11 @@ return-void
 
     .line 129
     .line 130
-    iget-object v2, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->itemView:Landroid/view/View;
+    iget-object v2, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     .line 131
     .line 132
-    invoke-virtual {v2}, Landroid/view/View;
-    ->getLeft()I
+    invoke-virtual {v2}, Landroid/view/View;->getLeft()I
 
     .line 133
     .line 134
@@ -2365,13 +2233,11 @@ return-void
 
     .line 140
     .line 141
-    iget-object v2, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->itemView:Landroid/view/View;
+    iget-object v2, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     .line 142
     .line 143
-    invoke-virtual {v2}, Landroid/view/View;
-    ->getTop()I
+    invoke-virtual {v2}, Landroid/view/View;->getTop()I
 
     .line 144
     .line 145
@@ -2394,13 +2260,11 @@ return-void
 
     .line 151
     .line 152
-    iget-object v2, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->itemView:Landroid/view/View;
+    iget-object v2, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     .line 153
     .line 154
-    invoke-virtual {v2}, Landroid/view/View;
-    ->getRight()I
+    invoke-virtual {v2}, Landroid/view/View;->getRight()I
 
     .line 155
     .line 156
@@ -2423,13 +2287,11 @@ return-void
 
     .line 162
     .line 163
-    iget-object v2, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->itemView:Landroid/view/View;
+    iget-object v2, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     .line 164
     .line 165
-    invoke-virtual {v2}, Landroid/view/View;
-    ->getBottom()I
+    invoke-virtual {v2}, Landroid/view/View;->getBottom()I
 
     .line 166
     .line 167
@@ -2448,8 +2310,7 @@ return-void
 
     .line 172
     :goto_6
-    invoke-virtual {v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
-    ->getReduceItemAlphaOnSwiping()Z
+    invoke-virtual {v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;->getReduceItemAlphaOnSwiping()Z
 
     .line 173
     .line 174
@@ -2469,8 +2330,7 @@ return-void
 
     .line 181
     .line 182
-    invoke-static/range {p1 .. p1}, Ljava/lang/Math;
-    ->abs(I)I
+    invoke-static/range {p1 .. p1}, Ljava/lang/Math;->abs(I)I
 
     .line 183
     .line 184
@@ -2496,8 +2356,7 @@ return-void
 
     .line 192
     :cond_9
-    invoke-static/range {p2 .. p2}, Ljava/lang/Math;
-    ->abs(I)I
+    invoke-static/range {p2 .. p2}, Ljava/lang/Math;->abs(I)I
 
     .line 193
     .line 194
@@ -2559,13 +2418,11 @@ return-void
 
     .line 220
     :goto_9
-    iget-object v2, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->itemView:Landroid/view/View;
+    iget-object v2, v3, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     .line 221
     .line 222
-    invoke-virtual {v2, v14}, Landroid/view/View;
-    ->setAlpha(F)V
+    invoke-virtual {v2, v14}, Landroid/view/View;->setAlpha(F)V
 
     .line 223
     .line 224
@@ -2579,8 +2436,7 @@ return-void
 
     .line 228
     .line 229
-    invoke-direct/range {v0 .. v9}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->drawLayoutBehindOnSwiping(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;Landroid/graphics/Canvas;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;IIIIZZ)V
+    invoke-direct/range {v0 .. v9}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->drawLayoutBehindOnSwiping(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;Landroid/graphics/Canvas;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;IIIIZZ)V
 
     .line 230
     .line 231
@@ -2632,8 +2488,7 @@ return-void
     move v7, v13
 
     .line 250
-    invoke-direct/range {v0 .. v12}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->drawDividersOnSwiping(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;Landroid/graphics/Canvas;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;IIIIFIIII)V
+    invoke-direct/range {v0 .. v12}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->drawDividersOnSwiping(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;Landroid/graphics/Canvas;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;IIIIFIIII)V
 
     .line 251
     .line 252
@@ -2652,8 +2507,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->getBehindSwipedItemLayoutId(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;I)Ljava/lang/Integer;
+    invoke-virtual {p0, p1, p2, p3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->getBehindSwipedItemLayoutId(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;I)Ljava/lang/Integer;
 
     .line 2
     .line 3
@@ -2668,8 +2522,7 @@ return-void
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Ljava/lang/Number;
-    ->intValue()I
+    invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
 
     .line 9
     .line 10
@@ -2677,8 +2530,7 @@ return-void
     move-result p1
 
     .line 12
-    invoke-virtual {p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->getBehindSwipedItemLayout$drag_drop_swipe_recyclerview_release()Landroid/view/View;
+    invoke-virtual {p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->getBehindSwipedItemLayout$drag_drop_swipe_recyclerview_release()Landroid/view/View;
 
     .line 13
     .line 14
@@ -2690,8 +2542,7 @@ return-void
 
     .line 17
     .line 18
-    invoke-virtual {v0}, Landroid/view/View;
-    ->getId()I
+    invoke-virtual {v0}, Landroid/view/View;->getId()I
 
     .line 19
     .line 20
@@ -2703,8 +2554,7 @@ return-void
 
     .line 23
     .line 24
-    invoke-virtual {p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->getBehindSwipedItemLayout$drag_drop_swipe_recyclerview_release()Landroid/view/View;
+    invoke-virtual {p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->getBehindSwipedItemLayout$drag_drop_swipe_recyclerview_release()Landroid/view/View;
 
     .line 25
     .line 26
@@ -2715,8 +2565,7 @@ return-void
 
     .line 29
     :cond_0
-    iget-object p2, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->recyclerView:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
+    iget-object p2, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->recyclerView:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
 
     .line 30
     .line 31
@@ -2724,8 +2573,7 @@ return-void
 
     .line 32
     .line 33
-    invoke-virtual {p2}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p2}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 34
     .line 35
@@ -2737,8 +2585,7 @@ return-void
 
     .line 38
     .line 39
-    invoke-static {p2}, Landroid/view/LayoutInflater;
-    ->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+    invoke-static {p2}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     .line 40
     .line 41
@@ -2749,8 +2596,7 @@ return-void
     const/4 v0, 0x0
 
     .line 44
-    invoke-virtual {p2, p1, p3, v0}, Landroid/view/LayoutInflater;
-    ->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    invoke-virtual {p2, p1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     .line 45
     .line 46
@@ -2774,8 +2620,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->getBehindSwipedItemSecondaryLayoutId(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;I)Ljava/lang/Integer;
+    invoke-virtual {p0, p1, p2, p3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->getBehindSwipedItemSecondaryLayoutId(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;I)Ljava/lang/Integer;
 
     .line 2
     .line 3
@@ -2790,8 +2635,7 @@ return-void
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Ljava/lang/Number;
-    ->intValue()I
+    invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
 
     .line 9
     .line 10
@@ -2799,8 +2643,7 @@ return-void
     move-result p1
 
     .line 12
-    invoke-virtual {p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->getBehindSwipedItemSecondaryLayout$drag_drop_swipe_recyclerview_release()Landroid/view/View;
+    invoke-virtual {p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->getBehindSwipedItemSecondaryLayout$drag_drop_swipe_recyclerview_release()Landroid/view/View;
 
     .line 13
     .line 14
@@ -2812,8 +2655,7 @@ return-void
 
     .line 17
     .line 18
-    invoke-virtual {v0}, Landroid/view/View;
-    ->getId()I
+    invoke-virtual {v0}, Landroid/view/View;->getId()I
 
     .line 19
     .line 20
@@ -2825,8 +2667,7 @@ return-void
 
     .line 23
     .line 24
-    invoke-virtual {p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->getBehindSwipedItemSecondaryLayout$drag_drop_swipe_recyclerview_release()Landroid/view/View;
+    invoke-virtual {p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->getBehindSwipedItemSecondaryLayout$drag_drop_swipe_recyclerview_release()Landroid/view/View;
 
     .line 25
     .line 26
@@ -2837,8 +2678,7 @@ return-void
 
     .line 29
     :cond_0
-    iget-object p2, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->recyclerView:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
+    iget-object p2, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->recyclerView:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
 
     .line 30
     .line 31
@@ -2846,8 +2686,7 @@ return-void
 
     .line 32
     .line 33
-    invoke-virtual {p2}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p2}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 34
     .line 35
@@ -2859,8 +2698,7 @@ return-void
 
     .line 38
     .line 39
-    invoke-static {p2}, Landroid/view/LayoutInflater;
-    ->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+    invoke-static {p2}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     .line 40
     .line 41
@@ -2871,8 +2709,7 @@ return-void
     const/4 v0, 0x0
 
     .line 44
-    invoke-virtual {p2, p1, p3, v0}, Landroid/view/LayoutInflater;
-    ->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    invoke-virtual {p2, p1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     .line 45
     .line 46
@@ -2890,8 +2727,7 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->recyclerView:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
+    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->recyclerView:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
 
     .line 2
     .line 3
@@ -2899,8 +2735,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
-    ->getOrientation()Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
+    invoke-virtual {v0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;->getOrientation()Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
 
     .line 6
     .line 7
@@ -2924,8 +2759,7 @@ return-void
 
     .line 15
     .line 16
-    invoke-direct {v0, v1}, Ljava/lang/NullPointerException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     .line 17
     .line 18
@@ -2948,14 +2782,12 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    invoke-virtual {p1, v0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->setBeingDragged$drag_drop_swipe_recyclerview_release(Z)V
+    invoke-virtual {p1, v0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->setBeingDragged$drag_drop_swipe_recyclerview_release(Z)V
 
     .line 3
     .line 4
     .line 5
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->getBindingAdapterPosition()I
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getBindingAdapterPosition()I
 
     .line 6
     .line 7
@@ -2974,8 +2806,7 @@ return-void
 
     .line 13
     :cond_0
-    invoke-virtual {p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->getDataSet()Ljava/util/List;
+    invoke-virtual {p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->getDataSet()Ljava/util/List;
 
     .line 14
     .line 15
@@ -2983,8 +2814,7 @@ return-void
     move-result-object v0
 
     .line 17
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->getBindingAdapterPosition()I
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getBindingAdapterPosition()I
 
     .line 18
     .line 19
@@ -2992,8 +2822,7 @@ return-void
     move-result v1
 
     .line 21
-    invoke-interface {v0, v1}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 22
     .line 23
@@ -3001,8 +2830,7 @@ return-void
     move-result-object v0
 
     .line 25
-    invoke-virtual {p0, v0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->onDragFinished(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;)V
+    invoke-virtual {p0, v0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->onDragFinished(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;)V
 
     .line 26
     .line 27
@@ -3022,14 +2850,12 @@ return-void
     const/4 v0, 0x1
 
     .line 2
-    invoke-virtual {p1, v0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->setBeingDragged$drag_drop_swipe_recyclerview_release(Z)V
+    invoke-virtual {p1, v0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->setBeingDragged$drag_drop_swipe_recyclerview_release(Z)V
 
     .line 3
     .line 4
     .line 5
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->getBindingAdapterPosition()I
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getBindingAdapterPosition()I
 
     .line 6
     .line 7
@@ -3048,8 +2874,7 @@ return-void
 
     .line 13
     :cond_0
-    invoke-virtual {p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->getDataSet()Ljava/util/List;
+    invoke-virtual {p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->getDataSet()Ljava/util/List;
 
     .line 14
     .line 15
@@ -3057,8 +2882,7 @@ return-void
     move-result-object v0
 
     .line 17
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->getBindingAdapterPosition()I
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getBindingAdapterPosition()I
 
     .line 18
     .line 19
@@ -3066,8 +2890,7 @@ return-void
     move-result v1
 
     .line 21
-    invoke-interface {v0, v1}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 22
     .line 23
@@ -3075,8 +2898,7 @@ return-void
     move-result-object v0
 
     .line 25
-    invoke-virtual {p0, v0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->onDragStarted(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;)V
+    invoke-virtual {p0, v0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->onDragStarted(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;)V
 
     .line 26
     .line 27
@@ -3096,8 +2918,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->getBindingAdapterPosition()I
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getBindingAdapterPosition()I
 
     .line 2
     .line 3
@@ -3112,8 +2933,7 @@ return-void
 
     .line 7
     .line 8
-    invoke-virtual {p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->getDataSet()Ljava/util/List;
+    invoke-virtual {p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->getDataSet()Ljava/util/List;
 
     .line 9
     .line 10
@@ -3121,8 +2941,7 @@ return-void
     move-result-object v1
 
     .line 12
-    invoke-interface {v1, v0}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -3145,8 +2964,7 @@ return-void
 
     .line 20
     :goto_1
-    invoke-direct {p0, p5, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->drawOnDragging(Landroid/graphics/Canvas;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;)Lc1/v;
+    invoke-direct {p0, p5, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->drawOnDragging(Landroid/graphics/Canvas;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;)Lc1/v;
 
     .line 21
     .line 22
@@ -3172,8 +2990,7 @@ return-void
     move v8, p6
 
     .line 30
-    invoke-virtual/range {v1 .. v8}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->onIsDragging(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;IILandroid/graphics/Canvas;Landroid/graphics/Canvas;Z)V
+    invoke-virtual/range {v1 .. v8}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->onIsDragging(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;IILandroid/graphics/Canvas;Landroid/graphics/Canvas;Z)V
 
     .line 31
     .line 32
@@ -3193,8 +3010,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->getBindingAdapterPosition()I
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getBindingAdapterPosition()I
 
     .line 2
     .line 3
@@ -3209,8 +3025,7 @@ return-void
 
     .line 7
     .line 8
-    invoke-virtual {p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->getDataSet()Ljava/util/List;
+    invoke-virtual {p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->getDataSet()Ljava/util/List;
 
     .line 9
     .line 10
@@ -3218,8 +3033,7 @@ return-void
     move-result-object v1
 
     .line 12
-    invoke-interface {v1, v0}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -3260,8 +3074,7 @@ return-void
 
     .line 26
     :goto_1
-    invoke-direct/range {v3 .. v8}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->drawOnSwiping(IILcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;Landroid/graphics/Canvas;Landroid/graphics/Canvas;)V
+    invoke-direct/range {v3 .. v8}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->drawOnSwiping(IILcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;Landroid/graphics/Canvas;Landroid/graphics/Canvas;)V
 
     .line 27
     .line 28
@@ -3281,8 +3094,7 @@ return-void
     move v8, p6
 
     .line 34
-    invoke-virtual/range {v1 .. v8}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->onIsSwiping(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;IILandroid/graphics/Canvas;Landroid/graphics/Canvas;Z)V
+    invoke-virtual/range {v1 .. v8}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->onIsSwiping(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;IILandroid/graphics/Canvas;Landroid/graphics/Canvas;Z)V
 
     .line 35
     .line 36
@@ -3294,8 +3106,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->moveItem(II)V
+    invoke-virtual {p0, p1, p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->moveItem(II)V
 
     .line 2
     .line 3
@@ -3307,8 +3118,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->removeItem(I)V
+    invoke-virtual {p0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->removeItem(I)V
 
     .line 2
     .line 3
@@ -3328,14 +3138,12 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    invoke-virtual {p1, v0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->setBeingSwiped$drag_drop_swipe_recyclerview_release(Z)V
+    invoke-virtual {p1, v0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->setBeingSwiped$drag_drop_swipe_recyclerview_release(Z)V
 
     .line 3
     .line 4
     .line 5
-    invoke-virtual {p0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->onSwipeAnimationFinished(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;)V
+    invoke-virtual {p0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->onSwipeAnimationFinished(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;)V
 
     .line 6
     .line 7
@@ -3355,14 +3163,12 @@ return-void
     const/4 v0, 0x1
 
     .line 2
-    invoke-virtual {p1, v0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->setBeingSwiped$drag_drop_swipe_recyclerview_release(Z)V
+    invoke-virtual {p1, v0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->setBeingSwiped$drag_drop_swipe_recyclerview_release(Z)V
 
     .line 3
     .line 4
     .line 5
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->getBindingAdapterPosition()I
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getBindingAdapterPosition()I
 
     .line 6
     .line 7
@@ -3381,8 +3187,7 @@ return-void
 
     .line 13
     :cond_0
-    invoke-virtual {p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->getDataSet()Ljava/util/List;
+    invoke-virtual {p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->getDataSet()Ljava/util/List;
 
     .line 14
     .line 15
@@ -3390,8 +3195,7 @@ return-void
     move-result-object v0
 
     .line 17
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->getBindingAdapterPosition()I
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getBindingAdapterPosition()I
 
     .line 18
     .line 19
@@ -3399,8 +3203,7 @@ return-void
     move-result v1
 
     .line 21
-    invoke-interface {v0, v1}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 22
     .line 23
@@ -3408,8 +3211,7 @@ return-void
     move-result-object v0
 
     .line 25
-    invoke-virtual {p0, v0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->onSwipeStarted(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;)V
+    invoke-virtual {p0, v0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->onSwipeStarted(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;)V
 
     .line 26
     .line 27
@@ -3441,14 +3243,12 @@ return-void
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1, p2, p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/a;
-    -><init>(ILjava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v0, v1, p2, p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/a;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
 
     .line 5
     .line 6
     .line 7
-    invoke-virtual {p1, v0}, Landroid/view/View;
-    ->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+    invoke-virtual {p1, v0}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     .line 8
     .line 9
@@ -3464,8 +3264,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -3474,14 +3273,12 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->getCanBeDragged$drag_drop_swipe_recyclerview_release()Lp1/a;
+    invoke-virtual {p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->getCanBeDragged$drag_drop_swipe_recyclerview_release()Lp1/a;
 
     .line 12
     .line 13
@@ -3493,8 +3290,7 @@ return-void
 
     .line 16
     .line 17
-    invoke-interface {p2}, Lp1/a;
-    ->invoke()Ljava/lang/Object;
+    invoke-interface {p2}, Lp1/a;->invoke()Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -3506,8 +3302,7 @@ return-void
 
     .line 22
     .line 23
-    invoke-virtual {p2}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 24
     .line 25
@@ -3526,8 +3321,7 @@ return-void
 
     .line 31
     .line 32
-    invoke-virtual {p3}, Landroid/view/MotionEvent;
-    ->getActionMasked()I
+    invoke-virtual {p3}, Landroid/view/MotionEvent;->getActionMasked()I
 
     .line 33
     .line 34
@@ -3539,13 +3333,11 @@ return-void
 
     .line 37
     .line 38
-    iget-object p1, p1, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->itemTouchHelper:Landroidx/recyclerview/widget/ItemTouchHelper;
+    iget-object p1, p1, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->itemTouchHelper:Landroidx/recyclerview/widget/ItemTouchHelper;
 
     .line 39
     .line 40
-    invoke-virtual {p1, p0}, Landroidx/recyclerview/widget/ItemTouchHelper;
-    ->startDrag(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
+    invoke-virtual {p1, p0}, Landroidx/recyclerview/widget/ItemTouchHelper;->startDrag(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
 
     .line 41
     .line 42
@@ -3576,13 +3368,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->itemView:Landroid/view/View;
+    iget-object v0, p2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {v0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 4
     .line 5
@@ -3594,8 +3384,7 @@ return-void
 
     .line 8
     .line 9
-    invoke-direct {v1, p2, p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$setItemDragAndDropWithLongPress$longPressGestureListener$1;
-    -><init>(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;)V
+    invoke-direct {v1, p2, p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$setItemDragAndDropWithLongPress$longPressGestureListener$1;-><init>(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;)V
 
     .line 10
     .line 11
@@ -3604,8 +3393,7 @@ return-void
 
     .line 13
     .line 14
-    invoke-direct {p2, v0, v1}, Landroid/view/GestureDetector;
-    -><init>(Landroid/content/Context;Landroid/view/GestureDetector$OnGestureListener;)V
+    invoke-direct {p2, v0, v1}, Landroid/view/GestureDetector;-><init>(Landroid/content/Context;Landroid/view/GestureDetector$OnGestureListener;)V
 
     .line 15
     .line 16
@@ -3613,8 +3401,7 @@ return-void
     const/4 v0, 0x1
 
     .line 18
-    invoke-virtual {p2, v0}, Landroid/view/GestureDetector;
-    ->setIsLongpressEnabled(Z)V
+    invoke-virtual {p2, v0}, Landroid/view/GestureDetector;->setIsLongpressEnabled(Z)V
 
     .line 19
     .line 20
@@ -3626,14 +3413,12 @@ return-void
     const/4 v1, 0x1
 
     .line 24
-    invoke-direct {v0, v1, p1, p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/a;
-    -><init>(ILjava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v0, v1, p1, p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/a;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
 
     .line 25
     .line 26
     .line 27
-    invoke-virtual {p1, v0}, Landroid/view/View;
-    ->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+    invoke-virtual {p1, v0}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     .line 28
     .line 29
@@ -3649,8 +3434,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -3659,20 +3443,17 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p0, p3}, Landroid/view/View;
-    ->onTouchEvent(Landroid/view/MotionEvent;)Z
+    invoke-virtual {p0, p3}, Landroid/view/View;->onTouchEvent(Landroid/view/MotionEvent;)Z
 
     .line 12
     .line 13
     .line 14
-    invoke-virtual {p1, p3}, Landroid/view/GestureDetector;
-    ->onTouchEvent(Landroid/view/MotionEvent;)Z
+    invoke-virtual {p1, p3}, Landroid/view/GestureDetector;->onTouchEvent(Landroid/view/MotionEvent;)Z
 
     .line 15
     .line 16
@@ -3691,8 +3472,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->getViewToTouchToStartDraggingItem(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;I)Landroid/view/View;
+    invoke-virtual {p0, p1, p2, p3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->getViewToTouchToStartDraggingItem(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;I)Landroid/view/View;
 
     .line 2
     .line 3
@@ -3704,8 +3484,7 @@ return-void
 
     .line 6
     .line 7
-    iget-object p1, p2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->itemView:Landroid/view/View;
+    iget-object p1, p2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     .line 8
     .line 9
@@ -3713,15 +3492,13 @@ return-void
 
     .line 10
     .line 11
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 12
     .line 13
     .line 14
     :cond_0
-    iget-object p3, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->recyclerView:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
+    iget-object p3, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->recyclerView:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
 
     .line 15
     .line 16
@@ -3729,8 +3506,7 @@ return-void
 
     .line 17
     .line 18
-    invoke-virtual {p3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
-    ->getLongPressToStartDragging()Z
+    invoke-virtual {p3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;->getLongPressToStartDragging()Z
 
     .line 19
     .line 20
@@ -3745,8 +3521,7 @@ return-void
 
     .line 24
     .line 25
-    invoke-direct {p0, p1, p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->setItemDragAndDropWithLongPress(Landroid/view/View;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;)V
+    invoke-direct {p0, p1, p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->setItemDragAndDropWithLongPress(Landroid/view/View;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;)V
 
     .line 26
     .line 27
@@ -3755,8 +3530,7 @@ return-void
 
     .line 29
     :cond_1
-    invoke-direct {p0, p1, p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->setItemDragAndDrop(Landroid/view/View;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;)V
+    invoke-direct {p0, p1, p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->setItemDragAndDrop(Landroid/view/View;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;)V
 
     .line 30
     .line 31
@@ -3775,24 +3549,20 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->mutableDataSet:Ljava/util/List;
+    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->mutableDataSet:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->mutableDataSet:Ljava/util/List;
+    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->mutableDataSet:Ljava/util/List;
 
     .line 7
     .line 8
-    invoke-interface {v0, p1}, Ljava/util/List;
-    ->indexOf(Ljava/lang/Object;)I
+    invoke-interface {v0, p1}, Ljava/util/List;->indexOf(Ljava/lang/Object;)I
 
     .line 9
     .line 10
@@ -3800,8 +3570,7 @@ return-void
     move-result p1
 
     .line 12
-    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->notifyItemInserted(I)V
+    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyItemInserted(I)V
 
     .line 13
     .line 14
@@ -3819,8 +3588,7 @@ return-void
 
     const-string p1, "viewHolder"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x1
 
@@ -3837,8 +3605,7 @@ return-void
 
     const-string p1, "viewHolder"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x1
 
@@ -3855,8 +3622,7 @@ return-void
 
     const-string p1, "viewHolder"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x1
 
@@ -3879,13 +3645,11 @@ return-void
 
     const-string v0, "oldList"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p1, "newList"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -3903,8 +3667,7 @@ return-void
 
     const-string p1, "viewHolder"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -3922,8 +3685,7 @@ return-void
 
     const-string p1, "viewHolder"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
@@ -3941,8 +3703,7 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->mutableDataSet:Ljava/util/List;
+    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->mutableDataSet:Ljava/util/List;
 
     .line 2
     .line 3
@@ -3953,13 +3714,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->mutableDataSet:Ljava/util/List;
+    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->mutableDataSet:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     .line 4
     .line 5
@@ -3973,8 +3732,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->swipeAndDragHelper:Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper;
+    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->swipeAndDragHelper:Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper;
 
     .line 2
     .line 3
@@ -4009,19 +3767,16 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->mutableDataSet:Ljava/util/List;
+    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->mutableDataSet:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1, p2}, Ljava/util/List;
-    ->add(ILjava/lang/Object;)V
+    invoke-interface {v0, p1, p2}, Ljava/util/List;->add(ILjava/lang/Object;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->notifyItemInserted(I)V
+    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyItemInserted(I)V
 
     .line 7
     .line 8
@@ -4033,31 +3788,24 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->mutableDataSet:Ljava/util/List;
+    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->mutableDataSet:Ljava/util/List;
 
-    invoke-interface {v0, p1}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
     .line 2
-    iget-object v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->mutableDataSet:Ljava/util/List;
+    iget-object v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->mutableDataSet:Ljava/util/List;
 
-    invoke-interface {v1, p1}, Ljava/util/List;
-    ->remove(I)Ljava/lang/Object;
+    invoke-interface {v1, p1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
     .line 3
-    iget-object v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->mutableDataSet:Ljava/util/List;
+    iget-object v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->mutableDataSet:Ljava/util/List;
 
-    invoke-interface {v1, p2, v0}, Ljava/util/List;
-    ->add(ILjava/lang/Object;)V
+    invoke-interface {v1, p2, v0}, Ljava/util/List;->add(ILjava/lang/Object;)V
 
     .line 4
-    invoke-virtual {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->notifyItemMoved(II)V
+    invoke-virtual {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyItemMoved(II)V
 
     return-void
 .end method
@@ -4071,11 +3819,9 @@ return-void
     .end annotation
 
     .line 5
-    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->mutableDataSet:Ljava/util/List;
+    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->mutableDataSet:Ljava/util/List;
 
-    invoke-interface {v0, p2}, Ljava/util/List;
-    ->indexOf(Ljava/lang/Object;)I
+    invoke-interface {v0, p2}, Ljava/util/List;->indexOf(Ljava/lang/Object;)I
 
     move-result v0
 
@@ -4084,14 +3830,12 @@ return-void
     if-eq v0, v1, :cond_0
 
     .line 6
-    invoke-virtual {p0, v0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->moveItem(II)V
+    invoke-virtual {p0, v0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->moveItem(II)V
 return-void
 
     .line 7
     :cond_0
-    invoke-virtual {p0, p1, p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->insertItem(ILjava/lang/Object;)V
+    invoke-virtual {p0, p1, p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->insertItem(ILjava/lang/Object;)V
 return-void
 .end method
 
@@ -4103,14 +3847,12 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-super {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->onAttachedToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
+    invoke-super {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->onAttachedToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
 
     .line 7
     .line 8
@@ -4130,29 +3872,24 @@ return-void
 
     .line 15
     .line 16
-    iput-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->recyclerView:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
+    iput-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->recyclerView:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
 
     .line 17
     .line 18
-    iget-object v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->itemTouchHelper:Landroidx/recyclerview/widget/ItemTouchHelper;
+    iget-object v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->itemTouchHelper:Landroidx/recyclerview/widget/ItemTouchHelper;
 
     .line 19
     .line 20
-    invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/ItemTouchHelper;
-    ->attachToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
+    invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/ItemTouchHelper;->attachToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
 
     .line 21
     .line 22
     .line 23
-    iget-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->swipeAndDragHelper:Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper;
+    iget-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->swipeAndDragHelper:Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper;
 
     .line 24
     .line 25
-    invoke-virtual {p1, v0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper;
-    ->setRecyclerView$drag_drop_swipe_recyclerview_release(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;)V
+    invoke-virtual {p1, v0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper;->setRecyclerView$drag_drop_swipe_recyclerview_release(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;)V
 
     .line 26
     .line 27
@@ -4169,8 +3906,7 @@ return-void
 
     .line 32
     .line 33
-    invoke-direct {p1, v0}, Ljava/lang/ClassCastException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/ClassCastException;-><init>(Ljava/lang/String;)V
 
     .line 34
     .line 35
@@ -4232,8 +3968,7 @@ return-void
     .line 1
     check-cast p1, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
 
-    invoke-virtual {p0, p1, p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->onBindViewHolder(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;I)V
+    invoke-virtual {p0, p1, p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->onBindViewHolder(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;I)V
 
     return-void
 .end method
@@ -4248,21 +3983,17 @@ return-void
 
     const-string v0, "holder"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->mutableDataSet:Ljava/util/List;
+    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->mutableDataSet:Ljava/util/List;
 
-    invoke-interface {v0, p2}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v0, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v0
 
     .line 3
-    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->getCanBeDragged$drag_drop_swipe_recyclerview_release()Lp1/a;
+    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->getCanBeDragged$drag_drop_swipe_recyclerview_release()Lp1/a;
 
     move-result-object v1
 
@@ -4270,16 +4001,13 @@ return-void
 
     new-instance v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$onBindViewHolder$1$1;
 
-    invoke-direct {v1, p1, p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$onBindViewHolder$1$1;
-    -><init>(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;)V
+    invoke-direct {v1, p1, p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$onBindViewHolder$1$1;-><init>(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;)V
 
     :cond_0
-    invoke-virtual {p1, v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->setCanBeDragged$drag_drop_swipe_recyclerview_release(Lp1/a;)V
+    invoke-virtual {p1, v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->setCanBeDragged$drag_drop_swipe_recyclerview_release(Lp1/a;)V
 
     .line 4
-    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->getCanBeDroppedOver$drag_drop_swipe_recyclerview_release()Lp1/a;
+    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->getCanBeDroppedOver$drag_drop_swipe_recyclerview_release()Lp1/a;
 
     move-result-object v1
 
@@ -4287,16 +4015,13 @@ return-void
 
     new-instance v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$onBindViewHolder$1$2;
 
-    invoke-direct {v1, p1, p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$onBindViewHolder$1$2;
-    -><init>(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;)V
+    invoke-direct {v1, p1, p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$onBindViewHolder$1$2;-><init>(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;)V
 
     :cond_1
-    invoke-virtual {p1, v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->setCanBeDroppedOver$drag_drop_swipe_recyclerview_release(Lp1/a;)V
+    invoke-virtual {p1, v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->setCanBeDroppedOver$drag_drop_swipe_recyclerview_release(Lp1/a;)V
 
     .line 5
-    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->getCanBeSwiped$drag_drop_swipe_recyclerview_release()Lp1/a;
+    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->getCanBeSwiped$drag_drop_swipe_recyclerview_release()Lp1/a;
 
     move-result-object v1
 
@@ -4304,47 +4029,37 @@ return-void
 
     new-instance v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$onBindViewHolder$1$3;
 
-    invoke-direct {v1, p1, p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$onBindViewHolder$1$3;
-    -><init>(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;)V
+    invoke-direct {v1, p1, p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$onBindViewHolder$1$3;-><init>(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;)V
 
     :cond_2
-    invoke-virtual {p1, v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->setCanBeSwiped$drag_drop_swipe_recyclerview_release(Lp1/a;)V
+    invoke-virtual {p1, v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->setCanBeSwiped$drag_drop_swipe_recyclerview_release(Lp1/a;)V
 
     .line 6
-    iget-object v1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->itemView:Landroid/view/View;
+    iget-object v1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    invoke-virtual {v1, v2}, Landroid/view/View;
-    ->setAlpha(F)V
+    invoke-virtual {v1, v2}, Landroid/view/View;->setAlpha(F)V
 
     .line 7
-    invoke-direct {p0, v0, p1, p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->getBehindSwipedItemLayout(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;I)Landroid/view/View;
+    invoke-direct {p0, v0, p1, p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->getBehindSwipedItemLayout(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;I)Landroid/view/View;
 
     move-result-object v1
 
-    invoke-virtual {p1, v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->setBehindSwipedItemLayout$drag_drop_swipe_recyclerview_release(Landroid/view/View;)V
+    invoke-virtual {p1, v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->setBehindSwipedItemLayout$drag_drop_swipe_recyclerview_release(Landroid/view/View;)V
 
     .line 8
-    invoke-direct {p0, v0, p1, p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->getBehindSwipedItemSecondaryLayout(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;I)Landroid/view/View;
+    invoke-direct {p0, v0, p1, p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->getBehindSwipedItemSecondaryLayout(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;I)Landroid/view/View;
 
     move-result-object v1
 
-    invoke-virtual {p1, v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->setBehindSwipedItemSecondaryLayout$drag_drop_swipe_recyclerview_release(Landroid/view/View;)V
+    invoke-virtual {p1, v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->setBehindSwipedItemSecondaryLayout$drag_drop_swipe_recyclerview_release(Landroid/view/View;)V
 
     .line 9
-    invoke-direct {p0, v0, p1, p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->setViewForDragging(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;I)V
+    invoke-direct {p0, v0, p1, p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->setViewForDragging(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;I)V
 
     .line 10
-    invoke-virtual {p0, v0, p1, p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->onBindViewHolder(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;I)V
+    invoke-virtual {p0, v0, p1, p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->onBindViewHolder(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;I)V
 
     return-void
 .end method
@@ -4361,8 +4076,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->onCreateViewHolder(Landroid/view/ViewGroup;I)Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
+    invoke-virtual {p0, p1, p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->onCreateViewHolder(Landroid/view/ViewGroup;I)Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
 
     move-result-object p1
 
@@ -4381,19 +4095,16 @@ return-void
 
     const-string p2, "parent"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    iget-object p2, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->recyclerView:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
+    iget-object p2, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->recyclerView:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
 
     const/4 v0, 0x0
 
     if-eqz p2, :cond_0
 
-    invoke-virtual {p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
-    ->getItemLayoutId()I
+    invoke-virtual {p2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;->getItemLayoutId()I
 
     move-result p2
 
@@ -4406,31 +4117,26 @@ return-void
     if-eqz p2, :cond_1
 
     .line 3
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object v1
 
-    invoke-static {v1}, Landroid/view/LayoutInflater;
-    ->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+    invoke-static {v1}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v1
 
     .line 4
-    invoke-virtual {v1, p2, p1, v0}, Landroid/view/LayoutInflater;
-    ->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    invoke-virtual {v1, p2, p1, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p1
 
     .line 5
     const-string p2, "null cannot be cast to non-null type android.view.View"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
-    ->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
-    invoke-virtual {p0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->getViewHolder(Landroid/view/View;)Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
+    invoke-virtual {p0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->getViewHolder(Landroid/view/View;)Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
 
     move-result-object p1
 
@@ -4442,8 +4148,7 @@ return-void
 
     const-string p2, "Unless your adapter implements onCreateViewHolder(), the attribute item_layout must be provided for the DragDropSwipeRecyclerView."
 
-    invoke-direct {p1, p2}, Ljava/lang/NoSuchFieldException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/NoSuchFieldException;-><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -4456,14 +4161,12 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-super {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->onDetachedFromRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
+    invoke-super {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->onDetachedFromRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
 
     .line 7
     .line 8
@@ -4479,18 +4182,15 @@ return-void
     const/4 p1, 0x0
 
     .line 14
-    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->recyclerView:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
+    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->recyclerView:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
 
     .line 15
     .line 16
-    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->swipeAndDragHelper:Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper;
+    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->swipeAndDragHelper:Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper;
 
     .line 17
     .line 18
-    invoke-virtual {v0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper;
-    ->setRecyclerView$drag_drop_swipe_recyclerview_release(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;)V
+    invoke-virtual {v0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeTouchHelper;->setRecyclerView$drag_drop_swipe_recyclerview_release(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;)V
 
     .line 19
     .line 20
@@ -4507,8 +4207,7 @@ return-void
 
     .line 25
     .line 26
-    invoke-direct {p1, v0}, Ljava/lang/ClassCastException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/ClassCastException;-><init>(Ljava/lang/String;)V
 
     .line 27
     .line 28
@@ -4581,8 +4280,7 @@ return-void
 
     const-string p1, "viewHolder"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 return-void
 .end method
 
@@ -4596,8 +4294,7 @@ return-void
 
     const-string p1, "viewHolder"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 return-void
 .end method
 
@@ -4614,8 +4311,7 @@ return-void
 
     const-string p1, "viewHolder"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 return-void
 .end method
 
@@ -4632,8 +4328,7 @@ return-void
 
     const-string p1, "viewHolder"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 return-void
 .end method
 
@@ -4647,8 +4342,7 @@ return-void
 
     const-string v0, "viewHolder"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 return-void
 .end method
 
@@ -4662,8 +4356,7 @@ return-void
 
     const-string p1, "viewHolder"
 
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 return-void
 .end method
 
@@ -4671,19 +4364,16 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->mutableDataSet:Ljava/util/List;
+    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->mutableDataSet:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/List;
-    ->remove(I)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->notifyItemRemoved(I)V
+    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyItemRemoved(I)V
 
     .line 7
     .line 8
@@ -4706,19 +4396,16 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->mutableDataSet:Ljava/util/List;
+    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->mutableDataSet:Ljava/util/List;
 
     .line 7
     .line 8
-    invoke-virtual {p0, v0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->createDiffUtil(Ljava/util/List;Ljava/util/List;)Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeDiffCallback;
+    invoke-virtual {p0, v0, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->createDiffUtil(Ljava/util/List;Ljava/util/List;)Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeDiffCallback;
 
     .line 9
     .line 10
@@ -4730,8 +4417,7 @@ return-void
 
     .line 13
     .line 14
-    invoke-static {p1}, Ld1/k;
-    ->H0(Ljava/util/Collection;)Ljava/util/ArrayList;
+    invoke-static {p1}, Ld1/k;->H0(Ljava/util/Collection;)Ljava/util/ArrayList;
 
     .line 15
     .line 16
@@ -4739,8 +4425,7 @@ return-void
     move-result-object p1
 
     .line 18
-    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->mutableDataSet:Ljava/util/List;
+    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->mutableDataSet:Ljava/util/List;
 
     .line 19
     .line 20
@@ -4748,8 +4433,7 @@ return-void
 
     .line 21
     .line 22
-    invoke-static {v0}, Landroidx/recyclerview/widget/DiffUtil;
-    ->calculateDiff(Landroidx/recyclerview/widget/DiffUtil$Callback;)Landroidx/recyclerview/widget/DiffUtil$DiffResult;
+    invoke-static {v0}, Landroidx/recyclerview/widget/DiffUtil;->calculateDiff(Landroidx/recyclerview/widget/DiffUtil$Callback;)Landroidx/recyclerview/widget/DiffUtil$DiffResult;
 
     .line 23
     .line 24
@@ -4761,14 +4445,12 @@ return-void
 
     .line 27
     .line 28
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 29
     .line 30
     .line 31
-    invoke-virtual {p1, p0}, Landroidx/recyclerview/widget/DiffUtil$DiffResult;
-    ->dispatchUpdatesTo(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
+    invoke-virtual {p1, p0}, Landroidx/recyclerview/widget/DiffUtil$DiffResult;->dispatchUpdatesTo(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V
 
     .line 32
     .line 33
@@ -4777,8 +4459,7 @@ return-void
 
     .line 35
     :cond_0
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->notifyDataSetChanged()V
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyDataSetChanged()V
 
     .line 36
     .line 37
@@ -4805,8 +4486,7 @@ return-void
 
     .line 4
     :cond_0
-    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->dragListener:Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnItemDragListener;
+    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->dragListener:Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnItemDragListener;
 
     .line 5
     .line 6
@@ -4832,8 +4512,7 @@ return-void
 
     .line 4
     :cond_0
-    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->swipeListener:Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnItemSwipeListener;
+    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->swipeListener:Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnItemSwipeListener;
 
     .line 5
     .line 6

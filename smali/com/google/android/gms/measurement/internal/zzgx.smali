@@ -40,8 +40,7 @@
     move-object v5, p4
 
     .line 9
-    invoke-direct/range {v0 .. v6}, Lcom/google/android/gms/common/internal/BaseGmsClient;
-    -><init>(Landroid/content/Context;Landroid/os/Looper;ILcom/google/android/gms/common/internal/BaseGmsClient$BaseConnectionCallbacks;Lcom/google/android/gms/common/internal/BaseGmsClient$BaseOnConnectionFailedListener;Ljava/lang/String;)V
+    invoke-direct/range {v0 .. v6}, Lcom/google/android/gms/common/internal/BaseGmsClient;-><init>(Landroid/content/Context;Landroid/os/Looper;ILcom/google/android/gms/common/internal/BaseGmsClient$BaseConnectionCallbacks;Lcom/google/android/gms/common/internal/BaseGmsClient$BaseOnConnectionFailedListener;Ljava/lang/String;)V
 
     .line 10
     .line 11
@@ -69,8 +68,7 @@
 
     .line 6
     .line 7
-    invoke-interface {p1, v0}, Landroid/os/IBinder;
-    ->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
+    invoke-interface {p1, v0}, Landroid/os/IBinder;->queryLocalInterface(Ljava/lang/String;)Landroid/os/IInterface;
 
     .line 8
     .line 9
@@ -98,8 +96,7 @@
 
     .line 19
     .line 20
-    invoke-direct {v0, p1}, Lcom/google/android/gms/measurement/internal/zzgm;
-    -><init>(Landroid/os/IBinder;)V
+    invoke-direct {v0, p1}, Lcom/google/android/gms/measurement/internal/zzgm;-><init>(Landroid/os/IBinder;)V
 
     .line 21
     .line 22

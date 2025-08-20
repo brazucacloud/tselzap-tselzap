@@ -15,13 +15,11 @@
     const/4 v0, 0x0
 
     .line 2
-    iput v0, p0, LE/d;
-    ->b:I
+    iput v0, p0, LE/d;->b:I
 
     .line 3
     .line 4
-    invoke-super {p0}, Landroidx/collection/SimpleArrayMap;
-    ->clear()V
+    invoke-super {p0}, Landroidx/collection/SimpleArrayMap;->clear()V
 
     .line 5
     .line 6
@@ -33,8 +31,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, LE/d;
-    ->b:I
+    iget v0, p0, LE/d;->b:I
 
     .line 2
     .line 3
@@ -42,8 +39,7 @@
 
     .line 4
     .line 5
-    invoke-super {p0}, Landroidx/collection/SimpleArrayMap;
-    ->hashCode()I
+    invoke-super {p0}, Landroidx/collection/SimpleArrayMap;->hashCode()I
 
     .line 6
     .line 7
@@ -51,14 +47,12 @@
     move-result v0
 
     .line 9
-    iput v0, p0, LE/d;
-    ->b:I
+    iput v0, p0, LE/d;->b:I
 
     .line 10
     .line 11
     :cond_0
-    iget v0, p0, LE/d;
-    ->b:I
+    iget v0, p0, LE/d;->b:I
 
     .line 12
     .line 13
@@ -72,13 +66,11 @@
     const/4 v0, 0x0
 
     .line 2
-    iput v0, p0, LE/d;
-    ->b:I
+    iput v0, p0, LE/d;->b:I
 
     .line 3
     .line 4
-    invoke-super {p0, p1, p2}, Landroidx/collection/SimpleArrayMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-super {p0, p1, p2}, Landroidx/collection/SimpleArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -95,13 +87,11 @@
     const/4 v0, 0x0
 
     .line 2
-    iput v0, p0, LE/d;
-    ->b:I
+    iput v0, p0, LE/d;->b:I
 
     .line 3
     .line 4
-    invoke-super {p0, p1}, Landroidx/collection/SimpleArrayMap;
-    ->putAll(Landroidx/collection/SimpleArrayMap;)V
+    invoke-super {p0, p1}, Landroidx/collection/SimpleArrayMap;->putAll(Landroidx/collection/SimpleArrayMap;)V
 
     .line 5
     .line 6
@@ -116,13 +106,11 @@
     const/4 v0, 0x0
 
     .line 2
-    iput v0, p0, LE/d;
-    ->b:I
+    iput v0, p0, LE/d;->b:I
 
     .line 3
     .line 4
-    invoke-super {p0, p1}, Landroidx/collection/SimpleArrayMap;
-    ->removeAt(I)Ljava/lang/Object;
+    invoke-super {p0, p1}, Landroidx/collection/SimpleArrayMap;->removeAt(I)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -139,13 +127,11 @@
     const/4 v0, 0x0
 
     .line 2
-    iput v0, p0, LE/d;
-    ->b:I
+    iput v0, p0, LE/d;->b:I
 
     .line 3
     .line 4
-    invoke-super {p0, p1, p2}, Landroidx/collection/SimpleArrayMap;
-    ->setValueAt(ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-super {p0, p1, p2}, Landroidx/collection/SimpleArrayMap;->setValueAt(ILjava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6

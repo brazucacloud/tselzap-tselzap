@@ -16,14 +16,11 @@
 .method public constructor <init>(Lcom/google/android/gms/dynamic/DeferredLifecycleHelper;Landroid/os/Bundle;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/google/android/gms/dynamic/zac;
-    ->zab:Lcom/google/android/gms/dynamic/DeferredLifecycleHelper;
+    iput-object p1, p0, Lcom/google/android/gms/dynamic/zac;->zab:Lcom/google/android/gms/dynamic/DeferredLifecycleHelper;
 
-    iput-object p2, p0, Lcom/google/android/gms/dynamic/zac;
-    ->zaa:Landroid/os/Bundle;
+    iput-object p2, p0, Lcom/google/android/gms/dynamic/zac;->zaa:Landroid/os/Bundle;
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -41,13 +38,11 @@
     .locals 1
 
     .line 1
-    iget-object p1, p0, Lcom/google/android/gms/dynamic/zac;
-    ->zab:Lcom/google/android/gms/dynamic/DeferredLifecycleHelper;
+    iget-object p1, p0, Lcom/google/android/gms/dynamic/zac;->zab:Lcom/google/android/gms/dynamic/DeferredLifecycleHelper;
 
     .line 2
     .line 3
-    invoke-static {p1}, Lcom/google/android/gms/dynamic/DeferredLifecycleHelper;
-    ->zaa(Lcom/google/android/gms/dynamic/DeferredLifecycleHelper;)Lcom/google/android/gms/dynamic/LifecycleDelegate;
+    invoke-static {p1}, Lcom/google/android/gms/dynamic/DeferredLifecycleHelper;->zaa(Lcom/google/android/gms/dynamic/DeferredLifecycleHelper;)Lcom/google/android/gms/dynamic/LifecycleDelegate;
 
     .line 4
     .line 5
@@ -55,13 +50,11 @@
     move-result-object p1
 
     .line 7
-    iget-object v0, p0, Lcom/google/android/gms/dynamic/zac;
-    ->zaa:Landroid/os/Bundle;
+    iget-object v0, p0, Lcom/google/android/gms/dynamic/zac;->zaa:Landroid/os/Bundle;
 
     .line 8
     .line 9
-    invoke-interface {p1, v0}, Lcom/google/android/gms/dynamic/LifecycleDelegate;
-    ->onCreate(Landroid/os/Bundle;)V
+    invoke-interface {p1, v0}, Lcom/google/android/gms/dynamic/LifecycleDelegate;->onCreate(Landroid/os/Bundle;)V
 
     .line 10
     .line 11

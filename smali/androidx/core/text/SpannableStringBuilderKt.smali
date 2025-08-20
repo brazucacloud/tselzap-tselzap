@@ -26,14 +26,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroid/text/style/BackgroundColorSpan;
-    -><init>(I)V
+    invoke-direct {v0, p1}, Landroid/text/style/BackgroundColorSpan;-><init>(I)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;
-    ->length()I
+    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;->length()I
 
     .line 7
     .line 8
@@ -41,14 +39,12 @@
     move-result p1
 
     .line 10
-    invoke-interface {p2, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
     .line 12
     .line 13
-    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;
-    ->length()I
+    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;->length()I
 
     .line 14
     .line 15
@@ -60,8 +56,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {p0, v0, p1, p2, v1}, Landroid/text/SpannableStringBuilder;
-    ->setSpan(Ljava/lang/Object;III)V
+    invoke-virtual {p0, v0, p1, p2, v1}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
     .line 20
     .line 21
@@ -89,14 +84,12 @@
     const/4 v1, 0x1
 
     .line 4
-    invoke-direct {v0, v1}, Landroid/text/style/StyleSpan;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Landroid/text/style/StyleSpan;-><init>(I)V
 
     .line 5
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;
-    ->length()I
+    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;->length()I
 
     .line 8
     .line 9
@@ -104,14 +97,12 @@
     move-result v1
 
     .line 11
-    invoke-interface {p1, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 12
     .line 13
     .line 14
-    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;
-    ->length()I
+    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;->length()I
 
     .line 15
     .line 16
@@ -123,8 +114,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p0, v0, v1, p1, v2}, Landroid/text/SpannableStringBuilder;
-    ->setSpan(Ljava/lang/Object;III)V
+    invoke-virtual {p0, v0, v1, p1, v2}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
     .line 21
     .line 22
@@ -148,14 +138,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/text/SpannableStringBuilder;
-    -><init>()V
+    invoke-direct {v0}, Landroid/text/SpannableStringBuilder;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-interface {p0, v0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p0, v0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -164,8 +152,7 @@
 
     .line 10
     .line 11
-    invoke-direct {p0, v0}, Landroid/text/SpannedString;
-    -><init>(Ljava/lang/CharSequence;)V
+    invoke-direct {p0, v0}, Landroid/text/SpannedString;-><init>(Ljava/lang/CharSequence;)V
 
     .line 12
     .line 13
@@ -195,14 +182,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroid/text/style/ForegroundColorSpan;
-    -><init>(I)V
+    invoke-direct {v0, p1}, Landroid/text/style/ForegroundColorSpan;-><init>(I)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;
-    ->length()I
+    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;->length()I
 
     .line 7
     .line 8
@@ -210,14 +195,12 @@
     move-result p1
 
     .line 10
-    invoke-interface {p2, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
     .line 12
     .line 13
-    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;
-    ->length()I
+    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;->length()I
 
     .line 14
     .line 15
@@ -229,8 +212,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {p0, v0, p1, p2, v1}, Landroid/text/SpannableStringBuilder;
-    ->setSpan(Ljava/lang/Object;III)V
+    invoke-virtual {p0, v0, p1, p2, v1}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
     .line 20
     .line 21
@@ -252,25 +234,21 @@
     .end annotation
 
     .line 4
-    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;
-    ->length()I
+    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;->length()I
 
     move-result v0
 
     .line 5
-    invoke-interface {p2, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
-    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;
-    ->length()I
+    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;->length()I
 
     move-result p2
 
     const/16 v1, 0x11
 
-    invoke-virtual {p0, p1, v0, p2, v1}, Landroid/text/SpannableStringBuilder;
-    ->setSpan(Ljava/lang/Object;III)V
+    invoke-virtual {p0, p1, v0, p2, v1}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
     return-object p0
 .end method
 
@@ -289,14 +267,12 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;
-    ->length()I
+    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;->length()I
 
     move-result v0
 
     .line 2
-    invoke-interface {p2, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 3
     array-length p2, p1
@@ -308,15 +284,13 @@
 
     aget-object v2, p1, v1
 
-    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;
-    ->length()I
+    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;->length()I
 
     move-result v3
 
     const/16 v4, 0x11
 
-    invoke-virtual {p0, v2, v0, v3, v4}, Landroid/text/SpannableStringBuilder;
-    ->setSpan(Ljava/lang/Object;III)V
+    invoke-virtual {p0, v2, v0, v3, v4}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
     add-int/lit8 v1, v1, 0x1
 
@@ -346,14 +320,12 @@
     const/4 v1, 0x2
 
     .line 4
-    invoke-direct {v0, v1}, Landroid/text/style/StyleSpan;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Landroid/text/style/StyleSpan;-><init>(I)V
 
     .line 5
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;
-    ->length()I
+    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;->length()I
 
     .line 8
     .line 9
@@ -361,14 +333,12 @@
     move-result v1
 
     .line 11
-    invoke-interface {p1, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 12
     .line 13
     .line 14
-    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;
-    ->length()I
+    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;->length()I
 
     .line 15
     .line 16
@@ -380,8 +350,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p0, v0, v1, p1, v2}, Landroid/text/SpannableStringBuilder;
-    ->setSpan(Ljava/lang/Object;III)V
+    invoke-virtual {p0, v0, v1, p1, v2}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
     .line 21
     .line 22
@@ -407,14 +376,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroid/text/style/RelativeSizeSpan;
-    -><init>(F)V
+    invoke-direct {v0, p1}, Landroid/text/style/RelativeSizeSpan;-><init>(F)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;
-    ->length()I
+    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;->length()I
 
     .line 7
     .line 8
@@ -422,14 +389,12 @@
     move-result p1
 
     .line 10
-    invoke-interface {p2, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
     .line 12
     .line 13
-    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;
-    ->length()I
+    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;->length()I
 
     .line 14
     .line 15
@@ -441,8 +406,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {p0, v0, p1, p2, v1}, Landroid/text/SpannableStringBuilder;
-    ->setSpan(Ljava/lang/Object;III)V
+    invoke-virtual {p0, v0, p1, p2, v1}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
     .line 20
     .line 21
@@ -467,14 +431,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/text/style/StrikethroughSpan;
-    -><init>()V
+    invoke-direct {v0}, Landroid/text/style/StrikethroughSpan;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;
-    ->length()I
+    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;->length()I
 
     .line 7
     .line 8
@@ -482,14 +444,12 @@
     move-result v1
 
     .line 10
-    invoke-interface {p1, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
     .line 12
     .line 13
-    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;
-    ->length()I
+    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;->length()I
 
     .line 14
     .line 15
@@ -501,8 +461,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {p0, v0, v1, p1, v2}, Landroid/text/SpannableStringBuilder;
-    ->setSpan(Ljava/lang/Object;III)V
+    invoke-virtual {p0, v0, v1, p1, v2}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
     .line 20
     .line 21
@@ -527,14 +486,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/text/style/SubscriptSpan;
-    -><init>()V
+    invoke-direct {v0}, Landroid/text/style/SubscriptSpan;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;
-    ->length()I
+    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;->length()I
 
     .line 7
     .line 8
@@ -542,14 +499,12 @@
     move-result v1
 
     .line 10
-    invoke-interface {p1, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
     .line 12
     .line 13
-    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;
-    ->length()I
+    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;->length()I
 
     .line 14
     .line 15
@@ -561,8 +516,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {p0, v0, v1, p1, v2}, Landroid/text/SpannableStringBuilder;
-    ->setSpan(Ljava/lang/Object;III)V
+    invoke-virtual {p0, v0, v1, p1, v2}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
     .line 20
     .line 21
@@ -587,14 +541,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/text/style/SuperscriptSpan;
-    -><init>()V
+    invoke-direct {v0}, Landroid/text/style/SuperscriptSpan;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;
-    ->length()I
+    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;->length()I
 
     .line 7
     .line 8
@@ -602,14 +554,12 @@
     move-result v1
 
     .line 10
-    invoke-interface {p1, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
     .line 12
     .line 13
-    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;
-    ->length()I
+    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;->length()I
 
     .line 14
     .line 15
@@ -621,8 +571,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {p0, v0, v1, p1, v2}, Landroid/text/SpannableStringBuilder;
-    ->setSpan(Ljava/lang/Object;III)V
+    invoke-virtual {p0, v0, v1, p1, v2}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
     .line 20
     .line 21
@@ -647,14 +596,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/text/style/UnderlineSpan;
-    -><init>()V
+    invoke-direct {v0}, Landroid/text/style/UnderlineSpan;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;
-    ->length()I
+    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;->length()I
 
     .line 7
     .line 8
@@ -662,14 +609,12 @@
     move-result v1
 
     .line 10
-    invoke-interface {p1, p0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
     .line 12
     .line 13
-    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;
-    ->length()I
+    invoke-virtual {p0}, Landroid/text/SpannableStringBuilder;->length()I
 
     .line 14
     .line 15
@@ -681,8 +626,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {p0, v0, v1, p1, v2}, Landroid/text/SpannableStringBuilder;
-    ->setSpan(Ljava/lang/Object;III)V
+    invoke-virtual {p0, v0, v1, p1, v2}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
 
     .line 20
     .line 21

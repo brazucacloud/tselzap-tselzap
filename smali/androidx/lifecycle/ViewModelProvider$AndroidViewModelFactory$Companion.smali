@@ -19,8 +19,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -28,8 +27,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory$Companion;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory$Companion;-><init>()V
     return-void
 .end method
 
@@ -43,14 +41,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {}, Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;
-    ->access$get_instance$cp()Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;
+    invoke-static {}, Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;->access$get_instance$cp()Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;
 
     .line 7
     .line 8
@@ -66,21 +62,18 @@
 
     .line 13
     .line 14
-    invoke-direct {v0, p1}, Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;
-    -><init>(Landroid/app/Application;)V
+    invoke-direct {v0, p1}, Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;-><init>(Landroid/app/Application;)V
 
     .line 15
     .line 16
     .line 17
-    invoke-static {v0}, Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;
-    ->access$set_instance$cp(Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;)V
+    invoke-static {v0}, Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;->access$set_instance$cp(Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;)V
 
     .line 18
     .line 19
     .line 20
     :cond_0
-    invoke-static {}, Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;
-    ->access$get_instance$cp()Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;
+    invoke-static {}, Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;->access$get_instance$cp()Landroidx/lifecycle/ViewModelProvider$AndroidViewModelFactory;
 
     .line 21
     .line 22
@@ -88,8 +81,7 @@
     move-result-object p1
 
     .line 24
-    invoke-static {p1}, Lkotlin/jvm/internal/j;
-    ->c(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 return-object p1
 .end method
 

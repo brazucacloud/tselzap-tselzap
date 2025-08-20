@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/activity/SystemBarStyle$Companion;
-    ->auto$default(Landroidx/activity/SystemBarStyle$Companion;IILp1/l;ILjava/lang/Object;)Landroidx/activity/SystemBarStyle;
+    value = Landroidx/activity/SystemBarStyle$Companion;->auto$default(Landroidx/activity/SystemBarStyle$Companion;IILp1/l;ILjava/lang/Object;)Landroidx/activity/SystemBarStyle;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,11 +34,9 @@
 
     new-instance v0, Landroidx/activity/SystemBarStyle$Companion$auto$1;
 
-    invoke-direct {v0}, Landroidx/activity/SystemBarStyle$Companion$auto$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/activity/SystemBarStyle$Companion$auto$1;-><init>()V
 
-    sput-object v0, Landroidx/activity/SystemBarStyle$Companion$auto$1;
-    ->INSTANCE:Landroidx/activity/SystemBarStyle$Companion$auto$1;
+    sput-object v0, Landroidx/activity/SystemBarStyle$Companion$auto$1;->INSTANCE:Landroidx/activity/SystemBarStyle$Companion$auto$1;
 
     return-void
 .end method
@@ -49,8 +46,7 @@
 
     const/4 v0, 0x1
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;
-    -><init>(I)V
+    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;-><init>(I)V
 return-void
 .end method
 
@@ -61,17 +57,14 @@ return-void
 
     const-string v0, "resources"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-virtual {p1}, Landroid/content/res/Resources;
-    ->getConfiguration()Landroid/content/res/Configuration;
+    invoke-virtual {p1}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
 
     move-result-object p1
 
-    iget p1, p1, Landroid/content/res/Configuration;
-    ->uiMode:I
+    iget p1, p1, Landroid/content/res/Configuration;->uiMode:I
 
     and-int/lit8 p1, p1, 0x30
 
@@ -88,8 +81,7 @@ return-void
 
     .line 3
     :goto_0
-    invoke-static {p1}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p1
 
@@ -102,8 +94,7 @@ return-void
     .line 1
     check-cast p1, Landroid/content/res/Resources;
 
-    invoke-virtual {p0, p1}, Landroidx/activity/SystemBarStyle$Companion$auto$1;
-    ->invoke(Landroid/content/res/Resources;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1}, Landroidx/activity/SystemBarStyle$Companion$auto$1;->invoke(Landroid/content/res/Resources;)Ljava/lang/Boolean;
 
     move-result-object p1
 

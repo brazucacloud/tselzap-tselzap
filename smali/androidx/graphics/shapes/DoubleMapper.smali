@@ -35,14 +35,12 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/graphics/shapes/DoubleMapper$Companion;
-    -><init>(Lkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v1}, Landroidx/graphics/shapes/DoubleMapper$Companion;-><init>(Lkotlin/jvm/internal/e;)V
 
     .line 5
     .line 6
     .line 7
-    sput-object v0, Landroidx/graphics/shapes/DoubleMapper;
-    ->Companion:Landroidx/graphics/shapes/DoubleMapper$Companion;
+    sput-object v0, Landroidx/graphics/shapes/DoubleMapper;->Companion:Landroidx/graphics/shapes/DoubleMapper$Companion;
 
     .line 8
     .line 9
@@ -53,8 +51,7 @@
     const/4 v1, 0x0
 
     .line 12
-    invoke-static {v1}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     .line 13
     .line 14
@@ -66,8 +63,7 @@
 
     .line 17
     .line 18
-    invoke-direct {v2, v1, v1}, Lc1/f;
-    -><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v2, v1, v1}, Lc1/f;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 19
     .line 20
@@ -76,8 +72,7 @@
 
     .line 22
     .line 23
-    invoke-static {v1}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     .line 24
     .line 25
@@ -85,8 +80,7 @@
     move-result-object v3
 
     .line 27
-    invoke-static {v1}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     .line 28
     .line 29
@@ -98,8 +92,7 @@
 
     .line 32
     .line 33
-    invoke-direct {v4, v3, v1}, Lc1/f;
-    -><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v4, v3, v1}, Lc1/f;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 34
     .line 35
@@ -125,14 +118,12 @@
 
     .line 44
     .line 45
-    invoke-direct {v0, v1}, Landroidx/graphics/shapes/DoubleMapper;
-    -><init>([Lc1/f;)V
+    invoke-direct {v0, v1}, Landroidx/graphics/shapes/DoubleMapper;-><init>([Lc1/f;)V
 
     .line 46
     .line 47
     .line 48
-    sput-object v0, Landroidx/graphics/shapes/DoubleMapper;
-    ->Identity:Landroidx/graphics/shapes/DoubleMapper;    return-void
+    sput-object v0, Landroidx/graphics/shapes/DoubleMapper;->Identity:Landroidx/graphics/shapes/DoubleMapper;    return-void
 .end method
 
 .method public varargs constructor <init>([Lc1/f;)V
@@ -150,14 +141,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 7
     .line 8
@@ -169,14 +158,12 @@
     array-length v1, p1
 
     .line 12
-    invoke-direct {v0, v1}, Landroidx/collection/MutableFloatList;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/collection/MutableFloatList;-><init>(I)V
 
     .line 13
     .line 14
     .line 15
-    iput-object v0, p0, Landroidx/graphics/shapes/DoubleMapper;
-    ->sourceValues:Landroidx/collection/MutableFloatList;
+    iput-object v0, p0, Landroidx/graphics/shapes/DoubleMapper;->sourceValues:Landroidx/collection/MutableFloatList;
 
     .line 16
     .line 17
@@ -187,14 +174,12 @@
     array-length v1, p1
 
     .line 20
-    invoke-direct {v0, v1}, Landroidx/collection/MutableFloatList;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/collection/MutableFloatList;-><init>(I)V
 
     .line 21
     .line 22
     .line 23
-    iput-object v0, p0, Landroidx/graphics/shapes/DoubleMapper;
-    ->targetValues:Landroidx/collection/MutableFloatList;
+    iput-object v0, p0, Landroidx/graphics/shapes/DoubleMapper;->targetValues:Landroidx/collection/MutableFloatList;
 
     .line 24
     .line 25
@@ -209,8 +194,7 @@
 
     .line 28
     .line 29
-    iget-object v2, p0, Landroidx/graphics/shapes/DoubleMapper;
-    ->sourceValues:Landroidx/collection/MutableFloatList;
+    iget-object v2, p0, Landroidx/graphics/shapes/DoubleMapper;->sourceValues:Landroidx/collection/MutableFloatList;
 
     .line 30
     .line 31
@@ -218,8 +202,7 @@
 
     .line 32
     .line 33
-    iget-object v3, v3, Lc1/f;
-    ->b:Ljava/lang/Object;
+    iget-object v3, v3, Lc1/f;->b:Ljava/lang/Object;
 
     .line 34
     .line 35
@@ -227,8 +210,7 @@
 
     .line 36
     .line 37
-    invoke-virtual {v3}, Ljava/lang/Number;
-    ->floatValue()F
+    invoke-virtual {v3}, Ljava/lang/Number;->floatValue()F
 
     .line 38
     .line 39
@@ -236,14 +218,12 @@
     move-result v3
 
     .line 41
-    invoke-virtual {v2, v3}, Landroidx/collection/MutableFloatList;
-    ->add(F)Z
+    invoke-virtual {v2, v3}, Landroidx/collection/MutableFloatList;->add(F)Z
 
     .line 42
     .line 43
     .line 44
-    iget-object v2, p0, Landroidx/graphics/shapes/DoubleMapper;
-    ->targetValues:Landroidx/collection/MutableFloatList;
+    iget-object v2, p0, Landroidx/graphics/shapes/DoubleMapper;->targetValues:Landroidx/collection/MutableFloatList;
 
     .line 45
     .line 46
@@ -251,8 +231,7 @@
 
     .line 47
     .line 48
-    iget-object v3, v3, Lc1/f;
-    ->c:Ljava/lang/Object;
+    iget-object v3, v3, Lc1/f;->c:Ljava/lang/Object;
 
     .line 49
     .line 50
@@ -260,8 +239,7 @@
 
     .line 51
     .line 52
-    invoke-virtual {v3}, Ljava/lang/Number;
-    ->floatValue()F
+    invoke-virtual {v3}, Ljava/lang/Number;->floatValue()F
 
     .line 53
     .line 54
@@ -269,8 +247,7 @@
     move-result v3
 
     .line 56
-    invoke-virtual {v2, v3}, Landroidx/collection/MutableFloatList;
-    ->add(F)Z
+    invoke-virtual {v2, v3}, Landroidx/collection/MutableFloatList;->add(F)Z
 
     .line 57
     .line 58
@@ -283,24 +260,20 @@
 
     .line 62
     :cond_0
-    iget-object p1, p0, Landroidx/graphics/shapes/DoubleMapper;
-    ->sourceValues:Landroidx/collection/MutableFloatList;
+    iget-object p1, p0, Landroidx/graphics/shapes/DoubleMapper;->sourceValues:Landroidx/collection/MutableFloatList;
 
     .line 63
     .line 64
-    invoke-static {p1}, Landroidx/graphics/shapes/FloatMappingKt;
-    ->validateProgress(Landroidx/collection/FloatList;)V
+    invoke-static {p1}, Landroidx/graphics/shapes/FloatMappingKt;->validateProgress(Landroidx/collection/FloatList;)V
 
     .line 65
     .line 66
     .line 67
-    iget-object p1, p0, Landroidx/graphics/shapes/DoubleMapper;
-    ->targetValues:Landroidx/collection/MutableFloatList;
+    iget-object p1, p0, Landroidx/graphics/shapes/DoubleMapper;->targetValues:Landroidx/collection/MutableFloatList;
 
     .line 68
     .line 69
-    invoke-static {p1}, Landroidx/graphics/shapes/FloatMappingKt;
-    ->validateProgress(Landroidx/collection/FloatList;)V
+    invoke-static {p1}, Landroidx/graphics/shapes/FloatMappingKt;->validateProgress(Landroidx/collection/FloatList;)V
 return-void
 .end method
 
@@ -310,18 +283,15 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/graphics/shapes/DoubleMapper;
-    ->sourceValues:Landroidx/collection/MutableFloatList;
+    iget-object v0, p0, Landroidx/graphics/shapes/DoubleMapper;->sourceValues:Landroidx/collection/MutableFloatList;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/graphics/shapes/DoubleMapper;
-    ->targetValues:Landroidx/collection/MutableFloatList;
+    iget-object v1, p0, Landroidx/graphics/shapes/DoubleMapper;->targetValues:Landroidx/collection/MutableFloatList;
 
     .line 4
     .line 5
-    invoke-static {v0, v1, p1}, Landroidx/graphics/shapes/FloatMappingKt;
-    ->linearMap(Landroidx/collection/FloatList;Landroidx/collection/FloatList;F)F
+    invoke-static {v0, v1, p1}, Landroidx/graphics/shapes/FloatMappingKt;->linearMap(Landroidx/collection/FloatList;Landroidx/collection/FloatList;F)F
 
     .line 6
     .line 7
@@ -335,18 +305,15 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/graphics/shapes/DoubleMapper;
-    ->targetValues:Landroidx/collection/MutableFloatList;
+    iget-object v0, p0, Landroidx/graphics/shapes/DoubleMapper;->targetValues:Landroidx/collection/MutableFloatList;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/graphics/shapes/DoubleMapper;
-    ->sourceValues:Landroidx/collection/MutableFloatList;
+    iget-object v1, p0, Landroidx/graphics/shapes/DoubleMapper;->sourceValues:Landroidx/collection/MutableFloatList;
 
     .line 4
     .line 5
-    invoke-static {v0, v1, p1}, Landroidx/graphics/shapes/FloatMappingKt;
-    ->linearMap(Landroidx/collection/FloatList;Landroidx/collection/FloatList;F)F
+    invoke-static {v0, v1, p1}, Landroidx/graphics/shapes/FloatMappingKt;->linearMap(Landroidx/collection/FloatList;Landroidx/collection/FloatList;F)F
 
     .line 6
     .line 7

@@ -29,8 +29,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -50,8 +49,7 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/graphics/drawable/DrawableCompat$Api21Impl;
-    ->applyTheme(Landroid/graphics/drawable/Drawable;Landroid/content/res/Resources$Theme;)V
+    invoke-static {p0, p1}, Landroidx/core/graphics/drawable/DrawableCompat$Api21Impl;->applyTheme(Landroid/graphics/drawable/Drawable;Landroid/content/res/Resources$Theme;)V
 
     .line 2
     .line 3
@@ -67,8 +65,7 @@
     .end param
 
     .line 1
-    invoke-static {p0}, Landroidx/core/graphics/drawable/DrawableCompat$Api21Impl;
-    ->canApplyTheme(Landroid/graphics/drawable/Drawable;)Z
+    invoke-static {p0}, Landroidx/core/graphics/drawable/DrawableCompat$Api21Impl;->canApplyTheme(Landroid/graphics/drawable/Drawable;)Z
 
     .line 2
     .line 3
@@ -86,8 +83,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -99,8 +95,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;
-    ->clearColorFilter()V
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->clearColorFilter()V
 
     .line 8
     .line 9
@@ -109,8 +104,7 @@
 
     .line 11
     :cond_0
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;
-    ->clearColorFilter()V
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->clearColorFilter()V
 
     .line 12
     .line 13
@@ -127,8 +121,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p0}, Landroid/graphics/drawable/InsetDrawable;
-    ->getDrawable()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0}, Landroid/graphics/drawable/InsetDrawable;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     .line 21
     .line 22
@@ -136,8 +129,7 @@
     move-result-object p0
 
     .line 24
-    invoke-static {p0}, Landroidx/core/graphics/drawable/DrawableCompat;
-    ->clearColorFilter(Landroid/graphics/drawable/Drawable;)V
+    invoke-static {p0}, Landroidx/core/graphics/drawable/DrawableCompat;->clearColorFilter(Landroid/graphics/drawable/Drawable;)V
 
     .line 25
     .line 26
@@ -158,8 +150,7 @@
 
     .line 33
     .line 34
-    invoke-interface {p0}, Landroidx/core/graphics/drawable/WrappedDrawable;
-    ->getWrappedDrawable()Landroid/graphics/drawable/Drawable;
+    invoke-interface {p0}, Landroidx/core/graphics/drawable/WrappedDrawable;->getWrappedDrawable()Landroid/graphics/drawable/Drawable;
 
     .line 35
     .line 36
@@ -167,8 +158,7 @@
     move-result-object p0
 
     .line 38
-    invoke-static {p0}, Landroidx/core/graphics/drawable/DrawableCompat;
-    ->clearColorFilter(Landroid/graphics/drawable/Drawable;)V
+    invoke-static {p0}, Landroidx/core/graphics/drawable/DrawableCompat;->clearColorFilter(Landroid/graphics/drawable/Drawable;)V
 
     .line 39
     .line 40
@@ -189,8 +179,7 @@
 
     .line 47
     .line 48
-    invoke-virtual {p0}, Landroid/graphics/drawable/DrawableContainer;
-    ->getConstantState()Landroid/graphics/drawable/Drawable$ConstantState;
+    invoke-virtual {p0}, Landroid/graphics/drawable/DrawableContainer;->getConstantState()Landroid/graphics/drawable/Drawable$ConstantState;
 
     .line 49
     .line 50
@@ -206,8 +195,7 @@
 
     .line 55
     .line 56
-    invoke-virtual {p0}, Landroid/graphics/drawable/DrawableContainer$DrawableContainerState;
-    ->getChildCount()I
+    invoke-virtual {p0}, Landroid/graphics/drawable/DrawableContainer$DrawableContainerState;->getChildCount()I
 
     .line 57
     .line 58
@@ -223,8 +211,7 @@
 
     .line 62
     .line 63
-    invoke-virtual {p0, v1}, Landroid/graphics/drawable/DrawableContainer$DrawableContainerState;
-    ->getChild(I)Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0, v1}, Landroid/graphics/drawable/DrawableContainer$DrawableContainerState;->getChild(I)Landroid/graphics/drawable/Drawable;
 
     .line 64
     .line 65
@@ -236,8 +223,7 @@
 
     .line 68
     .line 69
-    invoke-static {v2}, Landroidx/core/graphics/drawable/DrawableCompat;
-    ->clearColorFilter(Landroid/graphics/drawable/Drawable;)V
+    invoke-static {v2}, Landroidx/core/graphics/drawable/DrawableCompat;->clearColorFilter(Landroid/graphics/drawable/Drawable;)V
 
     .line 70
     .line 71
@@ -262,8 +248,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;
-    ->getAlpha()I
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->getAlpha()I
 
     .line 2
     .line 3
@@ -283,8 +268,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/graphics/drawable/DrawableCompat$Api21Impl;
-    ->getColorFilter(Landroid/graphics/drawable/Drawable;)Landroid/graphics/ColorFilter;
+    invoke-static {p0}, Landroidx/core/graphics/drawable/DrawableCompat$Api21Impl;->getColorFilter(Landroid/graphics/drawable/Drawable;)Landroid/graphics/ColorFilter;
 
     .line 2
     .line 3
@@ -302,8 +286,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -315,8 +298,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/graphics/drawable/DrawableCompat$Api23Impl;
-    ->getLayoutDirection(Landroid/graphics/drawable/Drawable;)I
+    invoke-static {p0}, Landroidx/core/graphics/drawable/DrawableCompat$Api23Impl;->getLayoutDirection(Landroid/graphics/drawable/Drawable;)I
 
     .line 8
     .line 9
@@ -327,8 +309,7 @@
 
     .line 12
     :cond_0
-    sget-boolean v0, Landroidx/core/graphics/drawable/DrawableCompat;
-    ->sGetLayoutDirectionMethodFetched:Z
+    sget-boolean v0, Landroidx/core/graphics/drawable/DrawableCompat;->sGetLayoutDirectionMethodFetched:Z
 
     .line 13
     .line 14
@@ -359,8 +340,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {v3, v4, v5}, Ljava/lang/Class;
-    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v3, v4, v5}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 27
     .line 28
@@ -368,13 +348,11 @@
     move-result-object v3
 
     .line 30
-    sput-object v3, Landroidx/core/graphics/drawable/DrawableCompat;
-    ->sGetLayoutDirectionMethod:Ljava/lang/reflect/Method;
+    sput-object v3, Landroidx/core/graphics/drawable/DrawableCompat;->sGetLayoutDirectionMethod:Ljava/lang/reflect/Method;
 
     .line 31
     .line 32
-    invoke-virtual {v3, v0}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v3, v0}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
     :try_end_0
     .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -392,21 +370,18 @@
 
     .line 38
     .line 39
-    invoke-static {v1, v4, v3}, Landroid/util/Log;
-    ->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v4, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 40
     .line 41
     .line 42
     :goto_0
-    sput-boolean v0, Landroidx/core/graphics/drawable/DrawableCompat;
-    ->sGetLayoutDirectionMethodFetched:Z
+    sput-boolean v0, Landroidx/core/graphics/drawable/DrawableCompat;->sGetLayoutDirectionMethodFetched:Z
 
     .line 43
     .line 44
     :cond_1
-    sget-object v0, Landroidx/core/graphics/drawable/DrawableCompat;
-    ->sGetLayoutDirectionMethod:Ljava/lang/reflect/Method;
+    sget-object v0, Landroidx/core/graphics/drawable/DrawableCompat;->sGetLayoutDirectionMethod:Ljava/lang/reflect/Method;
 
     .line 45
     .line 46
@@ -419,8 +394,7 @@
 
     .line 49
     .line 50
-    invoke-virtual {v0, p0, v3}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0, v3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 51
     .line 52
@@ -432,8 +406,7 @@
 
     .line 55
     .line 56
-    invoke-virtual {p0}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
 
     .line 57
     .line 58
@@ -453,8 +426,7 @@
 
     .line 63
     .line 64
-    invoke-static {v1, v0, p0}, Landroid/util/Log;
-    ->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v0, p0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 65
     .line 66
@@ -462,8 +434,7 @@
     const/4 p0, 0x0
 
     .line 68
-    sput-object p0, Landroidx/core/graphics/drawable/DrawableCompat;
-    ->sGetLayoutDirectionMethod:Ljava/lang/reflect/Method;
+    sput-object p0, Landroidx/core/graphics/drawable/DrawableCompat;->sGetLayoutDirectionMethod:Ljava/lang/reflect/Method;
 
     .line 69
     .line 70
@@ -495,8 +466,7 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/graphics/drawable/DrawableCompat$Api21Impl;
-    ->inflate(Landroid/graphics/drawable/Drawable;Landroid/content/res/Resources;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroid/content/res/Resources$Theme;)V
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/graphics/drawable/DrawableCompat$Api21Impl;->inflate(Landroid/graphics/drawable/Drawable;Landroid/content/res/Resources;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroid/content/res/Resources$Theme;)V
 
     .line 2
     .line 3
@@ -512,8 +482,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;
-    ->isAutoMirrored()Z
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->isAutoMirrored()Z
 
     .line 2
     .line 3
@@ -533,8 +502,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;
-    ->jumpToCurrentState()V
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->jumpToCurrentState()V
 
     .line 2
     .line 3
@@ -550,8 +518,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/graphics/drawable/Drawable;
-    ->setAutoMirrored(Z)V
+    invoke-virtual {p0, p1}, Landroid/graphics/drawable/Drawable;->setAutoMirrored(Z)V
 
     .line 2
     .line 3
@@ -567,8 +534,7 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/core/graphics/drawable/DrawableCompat$Api21Impl;
-    ->setHotspot(Landroid/graphics/drawable/Drawable;FF)V
+    invoke-static {p0, p1, p2}, Landroidx/core/graphics/drawable/DrawableCompat$Api21Impl;->setHotspot(Landroid/graphics/drawable/Drawable;FF)V
 
     .line 2
     .line 3
@@ -584,8 +550,7 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/graphics/drawable/DrawableCompat$Api21Impl;
-    ->setHotspotBounds(Landroid/graphics/drawable/Drawable;IIII)V
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/graphics/drawable/DrawableCompat$Api21Impl;->setHotspotBounds(Landroid/graphics/drawable/Drawable;IIII)V
 
     .line 2
     .line 3
@@ -607,8 +572,7 @@
     const/4 v1, 0x1
 
     .line 3
-    sget v2, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 4
     .line 5
@@ -620,8 +584,7 @@
 
     .line 8
     .line 9
-    invoke-static {p0, p1}, Landroidx/core/graphics/drawable/DrawableCompat$Api23Impl;
-    ->setLayoutDirection(Landroid/graphics/drawable/Drawable;I)Z
+    invoke-static {p0, p1}, Landroidx/core/graphics/drawable/DrawableCompat$Api23Impl;->setLayoutDirection(Landroid/graphics/drawable/Drawable;I)Z
 
     .line 10
     .line 11
@@ -632,8 +595,7 @@
 
     .line 14
     :cond_0
-    sget-boolean v2, Landroidx/core/graphics/drawable/DrawableCompat;
-    ->sSetLayoutDirectionMethodFetched:Z
+    sget-boolean v2, Landroidx/core/graphics/drawable/DrawableCompat;->sSetLayoutDirectionMethodFetched:Z
 
     .line 15
     .line 16
@@ -658,8 +620,7 @@
 
     .line 25
     .line 26
-    sget-object v6, Ljava/lang/Integer;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v6, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
 
     .line 27
     .line 28
@@ -667,8 +628,7 @@
 
     .line 29
     .line 30
-    invoke-virtual {v2, v4, v5}, Ljava/lang/Class;
-    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v2, v4, v5}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 31
     .line 32
@@ -676,13 +636,11 @@
     move-result-object v2
 
     .line 34
-    sput-object v2, Landroidx/core/graphics/drawable/DrawableCompat;
-    ->sSetLayoutDirectionMethod:Ljava/lang/reflect/Method;
+    sput-object v2, Landroidx/core/graphics/drawable/DrawableCompat;->sSetLayoutDirectionMethod:Ljava/lang/reflect/Method;
 
     .line 35
     .line 36
-    invoke-virtual {v2, v1}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v2, v1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
     :try_end_0
     .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -700,21 +658,18 @@
 
     .line 42
     .line 43
-    invoke-static {v3, v4, v2}, Landroid/util/Log;
-    ->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v3, v4, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 44
     .line 45
     .line 46
     :goto_0
-    sput-boolean v1, Landroidx/core/graphics/drawable/DrawableCompat;
-    ->sSetLayoutDirectionMethodFetched:Z
+    sput-boolean v1, Landroidx/core/graphics/drawable/DrawableCompat;->sSetLayoutDirectionMethodFetched:Z
 
     .line 47
     .line 48
     :cond_1
-    sget-object v2, Landroidx/core/graphics/drawable/DrawableCompat;
-    ->sSetLayoutDirectionMethod:Ljava/lang/reflect/Method;
+    sget-object v2, Landroidx/core/graphics/drawable/DrawableCompat;->sSetLayoutDirectionMethod:Ljava/lang/reflect/Method;
 
     .line 49
     .line 50
@@ -723,8 +678,7 @@
     .line 51
     .line 52
     :try_start_1
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 53
     .line 54
@@ -740,8 +694,7 @@
 
     .line 59
     .line 60
-    invoke-virtual {v2, p0, v4}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, p0, v4}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -759,8 +712,7 @@
 
     .line 66
     .line 67
-    invoke-static {v3, p1, p0}, Landroid/util/Log;
-    ->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v3, p1, p0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 68
     .line 69
@@ -768,8 +720,7 @@
     const/4 p0, 0x0
 
     .line 71
-    sput-object p0, Landroidx/core/graphics/drawable/DrawableCompat;
-    ->sSetLayoutDirectionMethod:Ljava/lang/reflect/Method;
+    sput-object p0, Landroidx/core/graphics/drawable/DrawableCompat;->sSetLayoutDirectionMethod:Ljava/lang/reflect/Method;
 
     .line 72
     .line 73
@@ -789,8 +740,7 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/graphics/drawable/DrawableCompat$Api21Impl;
-    ->setTint(Landroid/graphics/drawable/Drawable;I)V
+    invoke-static {p0, p1}, Landroidx/core/graphics/drawable/DrawableCompat$Api21Impl;->setTint(Landroid/graphics/drawable/Drawable;I)V
 
     .line 2
     .line 3
@@ -810,8 +760,7 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/graphics/drawable/DrawableCompat$Api21Impl;
-    ->setTintList(Landroid/graphics/drawable/Drawable;Landroid/content/res/ColorStateList;)V
+    invoke-static {p0, p1}, Landroidx/core/graphics/drawable/DrawableCompat$Api21Impl;->setTintList(Landroid/graphics/drawable/Drawable;Landroid/content/res/ColorStateList;)V
 
     .line 2
     .line 3
@@ -831,8 +780,7 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/graphics/drawable/DrawableCompat$Api21Impl;
-    ->setTintMode(Landroid/graphics/drawable/Drawable;Landroid/graphics/PorterDuff$Mode;)V
+    invoke-static {p0, p1}, Landroidx/core/graphics/drawable/DrawableCompat$Api21Impl;->setTintMode(Landroid/graphics/drawable/Drawable;Landroid/graphics/PorterDuff$Mode;)V
 
     .line 2
     .line 3
@@ -869,8 +817,7 @@
 
     .line 6
     .line 7
-    invoke-interface {p0}, Landroidx/core/graphics/drawable/WrappedDrawable;
-    ->getWrappedDrawable()Landroid/graphics/drawable/Drawable;
+    invoke-interface {p0}, Landroidx/core/graphics/drawable/WrappedDrawable;->getWrappedDrawable()Landroid/graphics/drawable/Drawable;
 
     .line 8
     .line 9
@@ -892,8 +839,7 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -921,8 +867,7 @@
 
     .line 13
     .line 14
-    invoke-direct {v0, p0}, Landroidx/core/graphics/drawable/WrappedDrawableApi21;
-    -><init>(Landroid/graphics/drawable/Drawable;)V
+    invoke-direct {v0, p0}, Landroidx/core/graphics/drawable/WrappedDrawableApi21;-><init>(Landroid/graphics/drawable/Drawable;)V
 
     .line 15
     .line 16

@@ -29,26 +29,21 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
-    iput-object p1, p0, Landroidx/exifinterface/media/ExifInterface$ExifTag;
-    ->name:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/exifinterface/media/ExifInterface$ExifTag;->name:Ljava/lang/String;
 
     .line 3
-    iput p2, p0, Landroidx/exifinterface/media/ExifInterface$ExifTag;
-    ->number:I
+    iput p2, p0, Landroidx/exifinterface/media/ExifInterface$ExifTag;->number:I
 
     .line 4
-    iput p3, p0, Landroidx/exifinterface/media/ExifInterface$ExifTag;
-    ->primaryFormat:I
+    iput p3, p0, Landroidx/exifinterface/media/ExifInterface$ExifTag;->primaryFormat:I
 
     const/4 p1, -0x1
 
     .line 5
-    iput p1, p0, Landroidx/exifinterface/media/ExifInterface$ExifTag;
-    ->secondaryFormat:I
+    iput p1, p0, Landroidx/exifinterface/media/ExifInterface$ExifTag;->secondaryFormat:I
 
     return-void
 .end method
@@ -57,24 +52,19 @@
     .locals 0
 
     .line 6
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 7
-    iput-object p1, p0, Landroidx/exifinterface/media/ExifInterface$ExifTag;
-    ->name:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/exifinterface/media/ExifInterface$ExifTag;->name:Ljava/lang/String;
 
     .line 8
-    iput p2, p0, Landroidx/exifinterface/media/ExifInterface$ExifTag;
-    ->number:I
+    iput p2, p0, Landroidx/exifinterface/media/ExifInterface$ExifTag;->number:I
 
     .line 9
-    iput p3, p0, Landroidx/exifinterface/media/ExifInterface$ExifTag;
-    ->primaryFormat:I
+    iput p3, p0, Landroidx/exifinterface/media/ExifInterface$ExifTag;->primaryFormat:I
 
     .line 10
-    iput p4, p0, Landroidx/exifinterface/media/ExifInterface$ExifTag;
-    ->secondaryFormat:I
+    iput p4, p0, Landroidx/exifinterface/media/ExifInterface$ExifTag;->secondaryFormat:I
 
     return-void
 .end method
@@ -85,8 +75,7 @@
     .locals 4
 
     .line 1
-    iget v0, p0, Landroidx/exifinterface/media/ExifInterface$ExifTag;
-    ->primaryFormat:I
+    iget v0, p0, Landroidx/exifinterface/media/ExifInterface$ExifTag;->primaryFormat:I
 
     .line 2
     .line 3
@@ -112,8 +101,7 @@
 
     .line 11
     .line 12
-    iget v2, p0, Landroidx/exifinterface/media/ExifInterface$ExifTag;
-    ->secondaryFormat:I
+    iget v2, p0, Landroidx/exifinterface/media/ExifInterface$ExifTag;->secondaryFormat:I
 
     .line 13
     .line 14

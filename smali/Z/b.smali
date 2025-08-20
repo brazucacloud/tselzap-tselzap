@@ -8,8 +8,7 @@
     .locals 10
 
     .line 1
-    invoke-virtual {p1}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {p1}, Ljava/util/ArrayList;->size()I
 
     .line 2
     .line 3
@@ -32,8 +31,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1, v4}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {p1, v4}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -45,8 +43,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {v5}, Landroid/animation/Animator;
-    ->getStartDelay()J
+    invoke-virtual {v5}, Landroid/animation/Animator;->getStartDelay()J
 
     .line 18
     .line 19
@@ -54,8 +51,7 @@
     move-result-wide v6
 
     .line 21
-    invoke-virtual {v5}, Landroid/animation/Animator;
-    ->getDuration()J
+    invoke-virtual {v5}, Landroid/animation/Animator;->getDuration()J
 
     .line 22
     .line 23
@@ -66,8 +62,7 @@
     add-long/2addr v8, v6
 
     .line 26
-    invoke-static {v1, v2, v8, v9}, Ljava/lang/Math;
-    ->max(JJ)J
+    invoke-static {v1, v2, v8, v9}, Ljava/lang/Math;->max(JJ)J
 
     .line 27
     .line 28
@@ -91,8 +86,7 @@
     move-result-object v0
 
     .line 37
-    invoke-static {v0}, Landroid/animation/ValueAnimator;
-    ->ofInt([I)Landroid/animation/ValueAnimator;
+    invoke-static {v0}, Landroid/animation/ValueAnimator;->ofInt([I)Landroid/animation/ValueAnimator;
 
     .line 38
     .line 39
@@ -100,20 +94,17 @@
     move-result-object v0
 
     .line 41
-    invoke-virtual {v0, v1, v2}, Landroid/animation/Animator;
-    ->setDuration(J)Landroid/animation/Animator;
+    invoke-virtual {v0, v1, v2}, Landroid/animation/Animator;->setDuration(J)Landroid/animation/Animator;
 
     .line 42
     .line 43
     .line 44
-    invoke-virtual {p1, v3, v0}, Ljava/util/ArrayList;
-    ->add(ILjava/lang/Object;)V
+    invoke-virtual {p1, v3, v0}, Ljava/util/ArrayList;->add(ILjava/lang/Object;)V
 
     .line 45
     .line 46
     .line 47
-    invoke-virtual {p0, p1}, Landroid/animation/AnimatorSet;
-    ->playTogether(Ljava/util/Collection;)V
+    invoke-virtual {p0, p1}, Landroid/animation/AnimatorSet;->playTogether(Ljava/util/Collection;)V
 
     .line 48
     .line 49

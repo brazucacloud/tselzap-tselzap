@@ -74,11 +74,9 @@
 
     const/4 v10, 0x0
 
-    invoke-direct/range {v0 .. v10}, Lcom/google/android/gms/signin/SignInOptions;
-    -><init>(ZZLjava/lang/String;ZLjava/lang/String;Ljava/lang/String;ZLjava/lang/Long;Ljava/lang/Long;Lcom/google/android/gms/signin/zaf;)V
+    invoke-direct/range {v0 .. v10}, Lcom/google/android/gms/signin/SignInOptions;-><init>(ZZLjava/lang/String;ZLjava/lang/String;Ljava/lang/String;ZLjava/lang/Long;Ljava/lang/Long;Lcom/google/android/gms/signin/zaf;)V
 
-    sput-object v0, Lcom/google/android/gms/signin/SignInOptions;
-    ->zaa:Lcom/google/android/gms/signin/SignInOptions;
+    sput-object v0, Lcom/google/android/gms/signin/SignInOptions;->zaa:Lcom/google/android/gms/signin/SignInOptions;
 
     return-void
 .end method
@@ -86,39 +84,29 @@
 .method public synthetic constructor <init>(ZZLjava/lang/String;ZLjava/lang/String;Ljava/lang/String;ZLjava/lang/Long;Ljava/lang/Long;Lcom/google/android/gms/signin/zaf;)V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 p1, 0x0
 
-    iput-boolean p1, p0, Lcom/google/android/gms/signin/SignInOptions;
-    ->zab:Z
+    iput-boolean p1, p0, Lcom/google/android/gms/signin/SignInOptions;->zab:Z
 
-    iput-boolean p1, p0, Lcom/google/android/gms/signin/SignInOptions;
-    ->zac:Z
+    iput-boolean p1, p0, Lcom/google/android/gms/signin/SignInOptions;->zac:Z
 
     const/4 p2, 0x0
 
-    iput-object p2, p0, Lcom/google/android/gms/signin/SignInOptions;
-    ->zad:Ljava/lang/String;
+    iput-object p2, p0, Lcom/google/android/gms/signin/SignInOptions;->zad:Ljava/lang/String;
 
-    iput-boolean p1, p0, Lcom/google/android/gms/signin/SignInOptions;
-    ->zae:Z
+    iput-boolean p1, p0, Lcom/google/android/gms/signin/SignInOptions;->zae:Z
 
-    iput-boolean p1, p0, Lcom/google/android/gms/signin/SignInOptions;
-    ->zah:Z
+    iput-boolean p1, p0, Lcom/google/android/gms/signin/SignInOptions;->zah:Z
 
-    iput-object p2, p0, Lcom/google/android/gms/signin/SignInOptions;
-    ->zaf:Ljava/lang/String;
+    iput-object p2, p0, Lcom/google/android/gms/signin/SignInOptions;->zaf:Ljava/lang/String;
 
-    iput-object p2, p0, Lcom/google/android/gms/signin/SignInOptions;
-    ->zag:Ljava/lang/String;
+    iput-object p2, p0, Lcom/google/android/gms/signin/SignInOptions;->zag:Ljava/lang/String;
 
-    iput-object p2, p0, Lcom/google/android/gms/signin/SignInOptions;
-    ->zai:Ljava/lang/Long;
+    iput-object p2, p0, Lcom/google/android/gms/signin/SignInOptions;->zai:Ljava/lang/Long;
 
-    iput-object p2, p0, Lcom/google/android/gms/signin/SignInOptions;
-    ->zaj:Ljava/lang/Long;
+    iput-object p2, p0, Lcom/google/android/gms/signin/SignInOptions;->zaj:Ljava/lang/Long;
 
     return-void
 .end method
@@ -163,16 +151,14 @@
 
     .line 12
     .line 13
-    iget-boolean p1, p1, Lcom/google/android/gms/signin/SignInOptions;
-    ->zab:Z
+    iget-boolean p1, p1, Lcom/google/android/gms/signin/SignInOptions;->zab:Z
 
     .line 14
     .line 15
     const/4 p1, 0x0
 
     .line 16
-    invoke-static {p1, p1}, Lcom/google/android/gms/common/internal/Objects;
-    ->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, p1}, Lcom/google/android/gms/common/internal/Objects;->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 17
     .line 18
@@ -184,8 +170,7 @@
 
     .line 21
     .line 22
-    invoke-static {p1, p1}, Lcom/google/android/gms/common/internal/Objects;
-    ->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, p1}, Lcom/google/android/gms/common/internal/Objects;->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 23
     .line 24
@@ -197,8 +182,7 @@
 
     .line 27
     .line 28
-    invoke-static {p1, p1}, Lcom/google/android/gms/common/internal/Objects;
-    ->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, p1}, Lcom/google/android/gms/common/internal/Objects;->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 29
     .line 30
@@ -210,8 +194,7 @@
 
     .line 33
     .line 34
-    invoke-static {p1, p1}, Lcom/google/android/gms/common/internal/Objects;
-    ->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, p1}, Lcom/google/android/gms/common/internal/Objects;->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 35
     .line 36
@@ -223,8 +206,7 @@
 
     .line 39
     .line 40
-    invoke-static {p1, p1}, Lcom/google/android/gms/common/internal/Objects;
-    ->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, p1}, Lcom/google/android/gms/common/internal/Objects;->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 41
     .line 42
@@ -255,8 +237,7 @@
 
     .line 4
     .line 5
-    sget-object v1, Ljava/lang/Boolean;
-    ->FALSE:Ljava/lang/Boolean;
+    sget-object v1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     .line 6
     .line 7
@@ -327,8 +308,7 @@
 
     .line 35
     .line 36
-    invoke-static {v0}, Lcom/google/android/gms/common/internal/Objects;
-    ->hashCode([Ljava/lang/Object;)I
+    invoke-static {v0}, Lcom/google/android/gms/common/internal/Objects;->hashCode([Ljava/lang/Object;)I
 
     .line 37
     .line 38

@@ -24,20 +24,17 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
-    ->identifier:Ljava/lang/String;    
+    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;->identifier:Ljava/lang/String;
     return-void
 .end method
 
@@ -60,19 +57,16 @@
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
-    ->identifier:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;->identifier:Ljava/lang/String;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/privacysandbox/ads/adservices/appsetid/a;
-    ->i(Ljava/lang/String;)Landroid/adservices/common/AdTechIdentifier;
+    invoke-static {v0}, Landroidx/privacysandbox/ads/adservices/appsetid/a;->i(Ljava/lang/String;)Landroid/adservices/common/AdTechIdentifier;
 
     .line 4
     .line 5
@@ -84,8 +78,7 @@
 
     .line 8
     .line 9
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 return-object v0
 .end method
 
@@ -117,8 +110,7 @@ return-object v0
 
     .line 11
     :cond_1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
-    ->identifier:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;->identifier:Ljava/lang/String;
 
     .line 12
     .line 13
@@ -126,13 +118,11 @@ return-object v0
 
     .line 14
     .line 15
-    iget-object p1, p1, Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
-    ->identifier:Ljava/lang/String;
+    iget-object p1, p1, Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;->identifier:Ljava/lang/String;
 
     .line 16
     .line 17
-    invoke-static {v0, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 18
     .line 19
@@ -146,21 +136,18 @@ return-object v0
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
-    ->identifier:Ljava/lang/String;    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;->identifier:Ljava/lang/String;    return-object v0
 .end method
 
 .method public hashCode()I
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
-    ->identifier:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;->identifier:Ljava/lang/String;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/String;
-    ->hashCode()I
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
 
     .line 4
     .line 5
@@ -174,13 +161,11 @@ return-object v0
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
-    ->identifier:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;->identifier:Ljava/lang/String;
 
     .line 2
     .line 3
-    invoke-static {v0}, Ljava/lang/String;
-    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 4
     .line 5

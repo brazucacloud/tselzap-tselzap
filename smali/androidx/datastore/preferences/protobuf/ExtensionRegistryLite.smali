@@ -50,8 +50,7 @@
     .locals 2
 
     .line 1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    ->resolveExtensionClass()Ljava/lang/Class;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->resolveExtensionClass()Ljava/lang/Class;
 
     .line 2
     .line 3
@@ -59,8 +58,7 @@
     move-result-object v0
 
     .line 5
-    sput-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    ->extensionClass:Ljava/lang/Class;
+    sput-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->extensionClass:Ljava/lang/Class;
 
     .line 6
     .line 7
@@ -71,31 +69,26 @@
     const/4 v1, 0x1
 
     .line 10
-    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    -><init>(Z)V
+    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;-><init>(Z)V
 
     .line 11
     .line 12
     .line 13
-    sput-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    ->EMPTY_REGISTRY_LITE:Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;    return-void
+    sput-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->EMPTY_REGISTRY_LITE:Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;    return-void
 .end method
 
 .method public constructor <init>()V
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     new-instance v0, Ljava/util/HashMap;
 
-    invoke-direct {v0}, Ljava/util/HashMap;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    ->extensionsByNumber:Ljava/util/Map;
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->extensionsByNumber:Ljava/util/Map;
 
     return-void
 .end method
@@ -104,36 +97,29 @@
     .locals 1
 
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 4
-    sget-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    ->EMPTY_REGISTRY_LITE:Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->EMPTY_REGISTRY_LITE:Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
 
     if-ne p1, v0, :cond_0
 
     .line 5
-    sget-object p1, Ljava/util/Collections;
-    ->EMPTY_MAP:Ljava/util/Map;
+    sget-object p1, Ljava/util/Collections;->EMPTY_MAP:Ljava/util/Map;
 
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    ->extensionsByNumber:Ljava/util/Map;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->extensionsByNumber:Ljava/util/Map;
 
     return-void
 
     .line 6
     :cond_0
-    iget-object p1, p1, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    ->extensionsByNumber:Ljava/util/Map;
+    iget-object p1, p1, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->extensionsByNumber:Ljava/util/Map;
 
-    invoke-static {p1}, Ljava/util/Collections;
-    ->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {p1}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    ->extensionsByNumber:Ljava/util/Map;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->extensionsByNumber:Ljava/util/Map;
 
     return-void
 .end method
@@ -142,15 +128,12 @@
     .locals 0
 
     .line 7
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 8
-    sget-object p1, Ljava/util/Collections;
-    ->EMPTY_MAP:Ljava/util/Map;
+    sget-object p1, Ljava/util/Collections;->EMPTY_MAP:Ljava/util/Map;
 
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    ->extensionsByNumber:Ljava/util/Map;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->extensionsByNumber:Ljava/util/Map;
 
     return-void
 .end method
@@ -159,8 +142,7 @@
     .locals 2
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    ->emptyRegistry:Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->emptyRegistry:Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
 
     .line 2
     .line 3
@@ -176,8 +158,7 @@
 
     .line 8
     :try_start_0
-    sget-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    ->emptyRegistry:Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->emptyRegistry:Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
 
     .line 9
     .line 10
@@ -185,8 +166,7 @@
 
     .line 11
     .line 12
-    sget-boolean v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    ->doFullRuntimeInheritanceCheck:Z
+    sget-boolean v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->doFullRuntimeInheritanceCheck:Z
 
     .line 13
     .line 14
@@ -194,8 +174,7 @@
 
     .line 15
     .line 16
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryFactory;
-    ->createEmpty()Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryFactory;->createEmpty()Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
 
     .line 17
     .line 18
@@ -214,14 +193,12 @@
 
     .line 23
     :cond_0
-    sget-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    ->EMPTY_REGISTRY_LITE:Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->EMPTY_REGISTRY_LITE:Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
 
     .line 24
     .line 25
     :goto_0
-    sput-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    ->emptyRegistry:Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
+    sput-object v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->emptyRegistry:Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
 
     .line 26
     .line 27
@@ -248,16 +225,14 @@
     .locals 1
 
     .line 1
-    sget-boolean v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    ->eagerlyParseMessageSets:Z    return v0
+    sget-boolean v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->eagerlyParseMessageSets:Z    return v0
 .end method
 
 .method public static newInstance()Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
     .locals 1
 
     .line 1
-    sget-boolean v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    ->doFullRuntimeInheritanceCheck:Z
+    sget-boolean v0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->doFullRuntimeInheritanceCheck:Z
 
     .line 2
     .line 3
@@ -265,8 +240,7 @@
 
     .line 4
     .line 5
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryFactory;
-    ->create()Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryFactory;->create()Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
 
     .line 6
     .line 7
@@ -281,8 +255,7 @@
 
     .line 11
     .line 12
-    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;-><init>()V
     return-object v0
 .end method
 
@@ -302,8 +275,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Ljava/lang/Class;
-    ->forName(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 4
     .line 5
@@ -325,8 +297,7 @@
     .locals 0
 
     .line 1
-    sput-boolean p0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    ->eagerlyParseMessageSets:Z    return-void
+    sput-boolean p0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->eagerlyParseMessageSets:Z    return-void
 .end method
 
 
@@ -346,15 +317,13 @@
     const/4 v1, 0x1
 
     .line 4
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v2
 
     const-class v3, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$GeneratedExtension;
 
-    invoke-virtual {v3, v2}, Ljava/lang/Class;
-    ->isAssignableFrom(Ljava/lang/Class;)Z
+    invoke-virtual {v3, v2}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
     move-result v2
 
@@ -365,18 +334,15 @@
 
     check-cast v2, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$GeneratedExtension;
 
-    invoke-virtual {p0, v2}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    ->add(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$GeneratedExtension;)V
+    invoke-virtual {p0, v2}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->add(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$GeneratedExtension;)V
 
     .line 6
     :cond_0
-    sget-boolean v2, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    ->doFullRuntimeInheritanceCheck:Z
+    sget-boolean v2, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->doFullRuntimeInheritanceCheck:Z
 
     if-eqz v2, :cond_1
 
-    invoke-static {p0}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryFactory;
-    ->isFullRegistry(Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Z
+    invoke-static {p0}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryFactory;->isFullRegistry(Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Z
 
     move-result v2
 
@@ -384,8 +350,7 @@
 
     .line 7
     :try_start_0
-    invoke-virtual {p0}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v2
 
@@ -393,13 +358,11 @@
 
     new-array v4, v1, [Ljava/lang/Class;
 
-    sget-object v5, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    ->extensionClass:Ljava/lang/Class;
+    sget-object v5, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->extensionClass:Ljava/lang/Class;
 
     aput-object v5, v4, v0
 
-    invoke-virtual {v2, v3, v4}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v2, v3, v4}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v2
 
@@ -407,8 +370,7 @@
 
     aput-object p1, v3, v0
 
-    invoke-virtual {v2, p0, v3}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, p0, v3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -427,13 +389,11 @@
     aput-object p1, v1, v0
 
     .line 9
-    invoke-static {v4, v1}, Ljava/lang/String;
-    ->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v4, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-direct {v3, p1, v2}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v3, p1, v2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     throw v3
 
@@ -452,28 +412,23 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    ->extensionsByNumber:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->extensionsByNumber:Ljava/util/Map;
 
     new-instance v1, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite$ObjectIntPair;
 
     .line 2
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$GeneratedExtension;
-    ->getContainingTypeDefaultInstance()Landroidx/datastore/preferences/protobuf/MessageLite;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$GeneratedExtension;->getContainingTypeDefaultInstance()Landroidx/datastore/preferences/protobuf/MessageLite;
 
     move-result-object v2
 
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$GeneratedExtension;
-    ->getNumber()I
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$GeneratedExtension;->getNumber()I
 
     move-result v3
 
-    invoke-direct {v1, v2, v3}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite$ObjectIntPair;
-    -><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, v2, v3}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite$ObjectIntPair;-><init>(Ljava/lang/Object;I)V
 
     .line 3
-    invoke-interface {v0, v1, p1}, Ljava/util/Map;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-void
 .end method
@@ -491,8 +446,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    ->extensionsByNumber:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->extensionsByNumber:Ljava/util/Map;
 
     .line 2
     .line 3
@@ -500,14 +454,12 @@
 
     .line 4
     .line 5
-    invoke-direct {v1, p1, p2}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite$ObjectIntPair;
-    -><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, p1, p2}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite$ObjectIntPair;-><init>(Ljava/lang/Object;I)V
 
     .line 6
     .line 7
     .line 8
-    invoke-interface {v0, v1}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -526,8 +478,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    -><init>(Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
+    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;-><init>(Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
 return-object v0
 .end method
 

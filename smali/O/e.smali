@@ -17,14 +17,11 @@
     .locals 0
 
     .line 1
-    iput p2, p0, LO/e;
-    ->b:I
+    iput p2, p0, LO/e;->b:I
 
-    iput-object p1, p0, LO/e;
-    ->c:LC1/s;
+    iput-object p1, p0, LO/e;->c:LC1/s;
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -34,8 +31,7 @@
     .locals 4
 
     .line 1
-    iget v0, p0, LO/e;
-    ->b:I
+    iget v0, p0, LO/e;->b:I
 
     .line 2
     .line 3
@@ -44,13 +40,11 @@
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, LO/e;
-    ->c:LC1/s;
+    iget-object v0, p0, LO/e;->c:LC1/s;
 
     .line 7
     .line 8
-    iget-object v0, v0, LC1/s;
-    ->c:Ljava/lang/Object;
+    iget-object v0, v0, LC1/s;->c:Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -58,13 +52,11 @@
 
     .line 11
     .line 12
-    sget v1, LU/j;
-    ->e:I
+    sget v1, LU/j;->e:I
 
     .line 13
     .line 14
-    invoke-static {v1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 15
     .line 16
@@ -72,8 +64,7 @@
     move-result-object v1
 
     .line 18
-    invoke-virtual {v1}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
     .line 19
     .line 20
@@ -89,8 +80,7 @@
 
     .line 25
     .line 26
-    invoke-direct {v2, v0, v1, v3}, LU/j;
-    -><init>(Landroid/content/Context;ILjava/lang/String;)V
+    invoke-direct {v2, v0, v1, v3}, LU/j;-><init>(Landroid/content/Context;ILjava/lang/String;)V
 
     .line 27
     .line 28
@@ -99,13 +89,11 @@
 
     .line 30
     :pswitch_0
-    iget-object v0, p0, LO/e;
-    ->c:LC1/s;
+    iget-object v0, p0, LO/e;->c:LC1/s;
 
     .line 31
     .line 32
-    iget-object v0, v0, LC1/s;
-    ->c:Ljava/lang/Object;
+    iget-object v0, v0, LC1/s;->c:Ljava/lang/Object;
 
     .line 33
     .line 34
@@ -113,8 +101,7 @@
 
     .line 35
     .line 36
-    invoke-virtual {v0}, Landroid/content/Context;
-    ->getPackageName()Ljava/lang/String;
+    invoke-virtual {v0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     .line 37
     .line 38
@@ -138,8 +125,7 @@
 
     .line 46
     .line 47
-    invoke-direct {v0, v1}, Ljava/lang/NullPointerException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     .line 48
     .line 49
@@ -148,13 +134,11 @@
 
     .line 51
     :pswitch_1
-    iget-object v0, p0, LO/e;
-    ->c:LC1/s;
+    iget-object v0, p0, LO/e;->c:LC1/s;
 
     .line 52
     .line 53
-    iget-object v0, v0, LC1/s;
-    ->c:Ljava/lang/Object;
+    iget-object v0, v0, LC1/s;->c:Ljava/lang/Object;
 
     .line 54
     .line 55
@@ -169,8 +153,7 @@
     const/4 v2, 0x7
 
     .line 60
-    invoke-direct {v1, v2}, Lu0/f;
-    -><init>(I)V
+    invoke-direct {v1, v2}, Lu0/f;-><init>(I)V
 
     .line 61
     .line 62
@@ -182,8 +165,7 @@
     const/4 v3, 0x6
 
     .line 66
-    invoke-direct {v2, v3}, Lu0/f;
-    -><init>(I)V
+    invoke-direct {v2, v3}, Lu0/f;-><init>(I)V
 
     .line 67
     .line 68
@@ -192,8 +174,7 @@
 
     .line 70
     .line 71
-    invoke-direct {v3, v0, v1, v2}, LO/d;
-    -><init>(Landroid/content/Context;Lu0/f;Lu0/f;)V
+    invoke-direct {v3, v0, v1, v2}, LO/d;-><init>(Landroid/content/Context;Lu0/f;Lu0/f;)V
 
     .line 72
     .line 73

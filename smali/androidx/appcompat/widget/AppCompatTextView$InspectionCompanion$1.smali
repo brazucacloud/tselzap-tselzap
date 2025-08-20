@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/appcompat/widget/AppCompatTextView$InspectionCompanion;
-    ->mapProperties(Landroid/view/inspector/PropertyMapper;)V
+    value = Landroidx/appcompat/widget/AppCompatTextView$InspectionCompanion;->mapProperties(Landroid/view/inspector/PropertyMapper;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -36,13 +35,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextView$InspectionCompanion$1;
-    ->this$0:Landroidx/appcompat/widget/AppCompatTextView$InspectionCompanion;
+    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextView$InspectionCompanion$1;->this$0:Landroidx/appcompat/widget/AppCompatTextView$InspectionCompanion;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -52,8 +49,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/appcompat/widget/AppCompatTextView$InspectionCompanion$1;
-    ->apply(I)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Landroidx/appcompat/widget/AppCompatTextView$InspectionCompanion$1;->apply(I)Ljava/lang/String;
 
     move-result-object p1
 
@@ -70,8 +66,7 @@
     if-eq p1, v0, :cond_0
 
     .line 2
-    invoke-static {p1}, Ljava/lang/String;
-    ->valueOf(I)Ljava/lang/String;
+    invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p1
 

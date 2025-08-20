@@ -15,11 +15,9 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/fmark/tselzap/fragments/h;
-    ->b:Lcom/fmark/tselzap/fragments/Bot_coder;
+    iput-object p1, p0, Lcom/fmark/tselzap/fragments/h;->b:Lcom/fmark/tselzap/fragments/Bot_coder;
 
     return-void
 .end method
@@ -30,8 +28,7 @@
     .locals 6
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/h;
-    ->b:Lcom/fmark/tselzap/fragments/Bot_coder;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/h;->b:Lcom/fmark/tselzap/fragments/Bot_coder;
 
     move-object v1, p1
 
@@ -41,8 +38,7 @@
 
     move-wide v4, p4
 
-    invoke-static/range {v0 .. v5}, Lcom/fmark/tselzap/fragments/Bot_coder;
-    ->m(Lcom/fmark/tselzap/fragments/Bot_coder;Landroid/widget/AdapterView;Landroid/view/View;IJ)V
+    invoke-static/range {v0 .. v5}, Lcom/fmark/tselzap/fragments/Bot_coder;->m(Lcom/fmark/tselzap/fragments/Bot_coder;Landroid/widget/AdapterView;Landroid/view/View;IJ)V
 
     return-void
 .end method

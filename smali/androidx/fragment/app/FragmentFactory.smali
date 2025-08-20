@@ -27,22 +27,19 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/collection/SimpleArrayMap;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/collection/SimpleArrayMap;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/fragment/app/FragmentFactory;
-    ->sClassCacheMap:Landroidx/collection/SimpleArrayMap;    return-void
+    sput-object v0, Landroidx/fragment/app/FragmentFactory;->sClassCacheMap:Landroidx/collection/SimpleArrayMap;    return-void
 .end method
 
 .method public constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -59,8 +56,7 @@
 
     .line 1
     :try_start_0
-    invoke-static {p0, p1}, Landroidx/fragment/app/FragmentFactory;
-    ->loadClass(Ljava/lang/ClassLoader;Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {p0, p1}, Landroidx/fragment/app/FragmentFactory;->loadClass(Ljava/lang/ClassLoader;Ljava/lang/String;)Ljava/lang/Class;
 
     .line 2
     .line 3
@@ -72,8 +68,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1, p0}, Ljava/lang/Class;
-    ->isAssignableFrom(Ljava/lang/Class;)Z
+    invoke-virtual {p1, p0}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
     .line 8
     .line 9
@@ -116,13 +111,11 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/fragment/app/FragmentFactory;
-    ->sClassCacheMap:Landroidx/collection/SimpleArrayMap;
+    sget-object v0, Landroidx/fragment/app/FragmentFactory;->sClassCacheMap:Landroidx/collection/SimpleArrayMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0}, Landroidx/collection/SimpleArrayMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0}, Landroidx/collection/SimpleArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -142,21 +135,18 @@
 
     .line 12
     .line 13
-    invoke-direct {v1}, Landroidx/collection/SimpleArrayMap;
-    -><init>()V
+    invoke-direct {v1}, Landroidx/collection/SimpleArrayMap;-><init>()V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {v0, p0, v1}, Landroidx/collection/SimpleArrayMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0, v1}, Landroidx/collection/SimpleArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 17
     .line 18
     .line 19
     :cond_0
-    invoke-virtual {v1, p1}, Landroidx/collection/SimpleArrayMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1}, Landroidx/collection/SimpleArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -175,8 +165,7 @@
     const/4 v0, 0x0
 
     .line 28
-    invoke-static {p1, v0, p0}, Ljava/lang/Class;
-    ->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
+    invoke-static {p1, v0, p0}, Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
 
     .line 29
     .line 30
@@ -184,8 +173,7 @@
     move-result-object p0
 
     .line 32
-    invoke-virtual {v1, p1, p0}, Landroidx/collection/SimpleArrayMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    
+    invoke-virtual {v1, p1, p0}, Landroidx/collection/SimpleArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     return-object p0
 
     .line 36
@@ -225,8 +213,7 @@
     .line 2
     .line 3
     :try_start_0
-    invoke-static {p0, p1}, Landroidx/fragment/app/FragmentFactory;
-    ->loadClass(Ljava/lang/ClassLoader;Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {p0, p1}, Landroidx/fragment/app/FragmentFactory;->loadClass(Ljava/lang/ClassLoader;Ljava/lang/String;)Ljava/lang/Class;
 
     .line 4
     .line 5
@@ -251,8 +238,7 @@
 
     .line 12
     .line 13
-    invoke-static {v0, p1, v2}, Landroidx/constraintlayout/core/parser/a;
-    ->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, p1, v2}, Landroidx/constraintlayout/core/parser/a;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 14
     .line 15
@@ -260,8 +246,7 @@
     move-result-object p1
 
     .line 17
-    invoke-direct {v1, p1, p0}, Landroidx/fragment/app/Fragment$InstantiationException;
-    -><init>(Ljava/lang/String;Ljava/lang/Exception;)V
+    invoke-direct {v1, p1, p0}, Landroidx/fragment/app/Fragment$InstantiationException;-><init>(Ljava/lang/String;Ljava/lang/Exception;)V
 
     .line 18
     .line 19
@@ -281,8 +266,7 @@
 
     .line 25
     .line 26
-    invoke-static {v0, p1, v2}, Landroidx/constraintlayout/core/parser/a;
-    ->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, p1, v2}, Landroidx/constraintlayout/core/parser/a;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 27
     .line 28
@@ -290,8 +274,7 @@
     move-result-object p1
 
     .line 30
-    invoke-direct {v1, p1, p0}, Landroidx/fragment/app/Fragment$InstantiationException;
-    -><init>(Ljava/lang/String;Ljava/lang/Exception;)V
+    invoke-direct {v1, p1, p0}, Landroidx/fragment/app/Fragment$InstantiationException;-><init>(Ljava/lang/String;Ljava/lang/Exception;)V
 
     .line 31
     .line 32
@@ -323,8 +306,7 @@
     .line 4
     .line 5
     :try_start_0
-    invoke-static {p1, p2}, Landroidx/fragment/app/FragmentFactory;
-    ->loadFragmentClass(Ljava/lang/ClassLoader;Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {p1, p2}, Landroidx/fragment/app/FragmentFactory;->loadFragmentClass(Ljava/lang/ClassLoader;Ljava/lang/String;)Ljava/lang/Class;
 
     .line 6
     .line 7
@@ -339,8 +321,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {p1, v3}, Ljava/lang/Class;
-    ->getConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+    invoke-virtual {p1, v3}, Ljava/lang/Class;->getConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     .line 13
     .line 14
@@ -352,8 +333,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p1, v2}, Ljava/lang/reflect/Constructor;
-    ->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, v2}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -406,8 +386,7 @@
 
     .line 36
     .line 37
-    invoke-static {v1, p2, v2}, Landroidx/constraintlayout/core/parser/a;
-    ->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, p2, v2}, Landroidx/constraintlayout/core/parser/a;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 38
     .line 39
@@ -415,8 +394,7 @@
     move-result-object p2
 
     .line 41
-    invoke-direct {v0, p2, p1}, Landroidx/fragment/app/Fragment$InstantiationException;
-    -><init>(Ljava/lang/String;Ljava/lang/Exception;)V
+    invoke-direct {v0, p2, p1}, Landroidx/fragment/app/Fragment$InstantiationException;-><init>(Ljava/lang/String;Ljava/lang/Exception;)V
 
     .line 42
     .line 43
@@ -433,8 +411,7 @@
 
     .line 48
     .line 49
-    invoke-static {v1, p2, v2}, Landroidx/constraintlayout/core/parser/a;
-    ->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, p2, v2}, Landroidx/constraintlayout/core/parser/a;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 50
     .line 51
@@ -442,8 +419,7 @@
     move-result-object p2
 
     .line 53
-    invoke-direct {v0, p2, p1}, Landroidx/fragment/app/Fragment$InstantiationException;
-    -><init>(Ljava/lang/String;Ljava/lang/Exception;)V
+    invoke-direct {v0, p2, p1}, Landroidx/fragment/app/Fragment$InstantiationException;-><init>(Ljava/lang/String;Ljava/lang/Exception;)V
 
     .line 54
     .line 55
@@ -456,8 +432,7 @@
 
     .line 58
     .line 59
-    invoke-static {v1, p2, v0}, Landroidx/constraintlayout/core/parser/a;
-    ->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, p2, v0}, Landroidx/constraintlayout/core/parser/a;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 60
     .line 61
@@ -465,8 +440,7 @@
     move-result-object p2
 
     .line 63
-    invoke-direct {v2, p2, p1}, Landroidx/fragment/app/Fragment$InstantiationException;
-    -><init>(Ljava/lang/String;Ljava/lang/Exception;)V
+    invoke-direct {v2, p2, p1}, Landroidx/fragment/app/Fragment$InstantiationException;-><init>(Ljava/lang/String;Ljava/lang/Exception;)V
 
     .line 64
     .line 65
@@ -479,8 +453,7 @@
 
     .line 68
     .line 69
-    invoke-static {v1, p2, v0}, Landroidx/constraintlayout/core/parser/a;
-    ->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, p2, v0}, Landroidx/constraintlayout/core/parser/a;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 70
     .line 71
@@ -488,8 +461,7 @@
     move-result-object p2
 
     .line 73
-    invoke-direct {v2, p2, p1}, Landroidx/fragment/app/Fragment$InstantiationException;
-    -><init>(Ljava/lang/String;Ljava/lang/Exception;)V
+    invoke-direct {v2, p2, p1}, Landroidx/fragment/app/Fragment$InstantiationException;-><init>(Ljava/lang/String;Ljava/lang/Exception;)V
 
     .line 74
     .line 75

@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/util/LruCacheKt;
-    ->lruCache$default(ILp1/p;Lp1/l;Lp1/r;ILjava/lang/Object;)Landroid/util/LruCache;
+    value = Landroidx/core/util/LruCacheKt;->lruCache$default(ILp1/p;Lp1/l;Lp1/r;ILjava/lang/Object;)Landroid/util/LruCache;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,11 +27,9 @@
 
     new-instance v0, Landroidx/core/util/LruCacheKt$lruCache$1;
 
-    invoke-direct {v0}, Landroidx/core/util/LruCacheKt$lruCache$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/core/util/LruCacheKt$lruCache$1;-><init>()V
 
-    sput-object v0, Landroidx/core/util/LruCacheKt$lruCache$1;
-    ->INSTANCE:Landroidx/core/util/LruCacheKt$lruCache$1;
+    sput-object v0, Landroidx/core/util/LruCacheKt$lruCache$1;->INSTANCE:Landroidx/core/util/LruCacheKt$lruCache$1;
 
     return-void
 .end method
@@ -42,8 +39,7 @@
 
     const/4 v0, 0x2
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;
-    -><init>(I)V
+    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;-><init>(I)V
 return-void
 .end method
 
@@ -55,8 +51,7 @@ return-void
     const/4 p1, 0x1
 
     .line 1
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
 
@@ -67,8 +62,7 @@ return-void
     .locals 0
 
     .line 2
-    invoke-virtual {p0, p1, p2}, Landroidx/core/util/LruCacheKt$lruCache$1;
-    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Integer;
+    invoke-virtual {p0, p1, p2}, Landroidx/core/util/LruCacheKt$lruCache$1;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Integer;
 
     move-result-object p1
 

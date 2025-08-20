@@ -47,23 +47,19 @@
 
     const-string v0, "clazz"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "initializer"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
-    invoke-static {p1}, Lkotlin/jvm/internal/t;
-    ->a(Ljava/lang/Class;)Lkotlin/jvm/internal/d;
+    invoke-static {p1}, Lkotlin/jvm/internal/t;->a(Ljava/lang/Class;)Lkotlin/jvm/internal/d;
 
     move-result-object p1
 
     .line 5
-    invoke-direct {p0, p1, p2}, Landroidx/lifecycle/viewmodel/ViewModelInitializer;
-    -><init>(Lv1/c;Lp1/l;)V
+    invoke-direct {p0, p1, p2}, Landroidx/lifecycle/viewmodel/ViewModelInitializer;-><init>(Lv1/c;Lp1/l;)V
 
     return-void
 .end method
@@ -81,25 +77,20 @@
 
     const-string v0, "clazz"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "initializer"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
-    iput-object p1, p0, Landroidx/lifecycle/viewmodel/ViewModelInitializer;
-    ->clazz:Lv1/c;
+    iput-object p1, p0, Landroidx/lifecycle/viewmodel/ViewModelInitializer;->clazz:Lv1/c;
 
     .line 3
-    iput-object p2, p0, Landroidx/lifecycle/viewmodel/ViewModelInitializer;
-    ->initializer:Lp1/l;
+    iput-object p2, p0, Landroidx/lifecycle/viewmodel/ViewModelInitializer;->initializer:Lp1/l;
 
     return-void
 .end method
@@ -116,8 +107,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/viewmodel/ViewModelInitializer;
-    ->clazz:Lv1/c;    return-object v0
+    iget-object v0, p0, Landroidx/lifecycle/viewmodel/ViewModelInitializer;->clazz:Lv1/c;    return-object v0
 .end method
 
 .method public final getInitializer$lifecycle_viewmodel_release()Lp1/l;
@@ -130,8 +120,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/viewmodel/ViewModelInitializer;
-    ->initializer:Lp1/l;    return-object v0
+    iget-object v0, p0, Landroidx/lifecycle/viewmodel/ViewModelInitializer;->initializer:Lp1/l;    return-object v0
 .end method
 
 .end class

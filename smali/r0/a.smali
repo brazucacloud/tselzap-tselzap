@@ -16,19 +16,16 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p2, p0, Lr0/a;
-    ->a:Landroid/graphics/Typeface;
+    iput-object p2, p0, Lr0/a;->a:Landroid/graphics/Typeface;
 
     .line 5
     .line 6
-    iput-object p1, p0, Lr0/a;
-    ->b:LC1/s;
+    iput-object p1, p0, Lr0/a;->b:LC1/s;
 
     .line 7
     .line 8
@@ -41,8 +38,7 @@
     .locals 1
 
     .line 1
-    iget-boolean p1, p0, Lr0/a;
-    ->c:Z
+    iget-boolean p1, p0, Lr0/a;->c:Z
 
     .line 2
     .line 3
@@ -50,13 +46,11 @@
 
     .line 4
     .line 5
-    iget-object p1, p0, Lr0/a;
-    ->b:LC1/s;
+    iget-object p1, p0, Lr0/a;->b:LC1/s;
 
     .line 6
     .line 7
-    iget-object p1, p1, LC1/s;
-    ->c:Ljava/lang/Object;
+    iget-object p1, p1, LC1/s;->c:Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -64,13 +58,11 @@
 
     .line 10
     .line 11
-    iget-object v0, p0, Lr0/a;
-    ->a:Landroid/graphics/Typeface;
+    iget-object v0, p0, Lr0/a;->a:Landroid/graphics/Typeface;
 
     .line 12
     .line 13
-    invoke-virtual {p1, v0}, Lo0/c;
-    ->l(Landroid/graphics/Typeface;)Z
+    invoke-virtual {p1, v0}, Lo0/c;->l(Landroid/graphics/Typeface;)Z
 
     .line 14
     .line 15
@@ -85,8 +77,7 @@
     const/4 v0, 0x0
 
     .line 20
-    invoke-virtual {p1, v0}, Lo0/c;
-    ->j(Z)V
+    invoke-virtual {p1, v0}, Lo0/c;->j(Z)V
 
     .line 21
     .line 22
@@ -99,8 +90,7 @@
     .locals 0
 
     .line 1
-    iget-boolean p2, p0, Lr0/a;
-    ->c:Z
+    iget-boolean p2, p0, Lr0/a;->c:Z
 
     .line 2
     .line 3
@@ -108,13 +98,11 @@
 
     .line 4
     .line 5
-    iget-object p2, p0, Lr0/a;
-    ->b:LC1/s;
+    iget-object p2, p0, Lr0/a;->b:LC1/s;
 
     .line 6
     .line 7
-    iget-object p2, p2, LC1/s;
-    ->c:Ljava/lang/Object;
+    iget-object p2, p2, LC1/s;->c:Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -122,8 +110,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p2, p1}, Lo0/c;
-    ->l(Landroid/graphics/Typeface;)Z
+    invoke-virtual {p2, p1}, Lo0/c;->l(Landroid/graphics/Typeface;)Z
 
     .line 12
     .line 13
@@ -138,8 +125,7 @@
     const/4 p1, 0x0
 
     .line 18
-    invoke-virtual {p2, p1}, Lo0/c;
-    ->j(Z)V
+    invoke-virtual {p2, p1}, Lo0/c;->j(Z)V
 
     .line 19
     .line 20

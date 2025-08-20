@@ -29,8 +29,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/app/job/JobService;
-    -><init>()V
+    invoke-direct {p0}, Landroid/app/job/JobService;-><init>()V
 
     .line 2
     .line 3
@@ -50,24 +49,20 @@
     .end annotation
 
     .line 2
-    iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurementJobService;
-    ->zza:Lcom/google/android/gms/measurement/internal/zzoc;
+    iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurementJobService;->zza:Lcom/google/android/gms/measurement/internal/zzoc;
 
     if-nez v0, :cond_0
 
     .line 3
     new-instance v0, Lcom/google/android/gms/measurement/internal/zzoc;
 
-    invoke-direct {v0, p0}, Lcom/google/android/gms/measurement/internal/zzoc;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p0}, Lcom/google/android/gms/measurement/internal/zzoc;-><init>(Landroid/content/Context;)V
 
-    iput-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurementJobService;
-    ->zza:Lcom/google/android/gms/measurement/internal/zzoc;
+    iput-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurementJobService;->zza:Lcom/google/android/gms/measurement/internal/zzoc;
 
     .line 4
     :cond_0
-    iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurementJobService;
-    ->zza:Lcom/google/android/gms/measurement/internal/zzoc;
+    iget-object v0, p0, Lcom/google/android/gms/measurement/AppMeasurementJobService;->zza:Lcom/google/android/gms/measurement/internal/zzoc;
 
     return-object v0
 .end method
@@ -80,14 +75,12 @@
     .end annotation
 
     .line 1
-    invoke-super {p0}, Landroid/app/job/JobService;
-    ->onCreate()V
+    invoke-super {p0}, Landroid/app/job/JobService;->onCreate()V
 
     .line 2
     .line 3
     .line 4
-    invoke-direct {p0}, Lcom/google/android/gms/measurement/AppMeasurementJobService;
-    ->zza()Lcom/google/android/gms/measurement/internal/zzoc;
+    invoke-direct {p0}, Lcom/google/android/gms/measurement/AppMeasurementJobService;->zza()Lcom/google/android/gms/measurement/internal/zzoc;
 
     .line 5
     .line 6
@@ -95,8 +88,7 @@
     move-result-object v0
 
     .line 8
-    invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/zzoc;
-    ->zza()V
+    invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/zzoc;->zza()V
 
     .line 9
     .line 10
@@ -110,8 +102,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/measurement/AppMeasurementJobService;
-    ->zza()Lcom/google/android/gms/measurement/internal/zzoc;
+    invoke-direct {p0}, Lcom/google/android/gms/measurement/AppMeasurementJobService;->zza()Lcom/google/android/gms/measurement/internal/zzoc;
 
     .line 2
     .line 3
@@ -119,14 +110,12 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/zzoc;
-    ->zzb()V
+    invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/zzoc;->zzb()V
 
     .line 6
     .line 7
     .line 8
-    invoke-super {p0}, Landroid/app/job/JobService;
-    ->onDestroy()V
+    invoke-super {p0}, Landroid/app/job/JobService;->onDestroy()V
 
     .line 9
     .line 10
@@ -144,8 +133,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/measurement/AppMeasurementJobService;
-    ->zza()Lcom/google/android/gms/measurement/internal/zzoc;
+    invoke-direct {p0}, Lcom/google/android/gms/measurement/AppMeasurementJobService;->zza()Lcom/google/android/gms/measurement/internal/zzoc;
 
     .line 2
     .line 3
@@ -153,8 +141,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p1}, Lcom/google/android/gms/measurement/internal/zzoc;
-    ->zzb(Landroid/content/Intent;)V
+    invoke-virtual {v0, p1}, Lcom/google/android/gms/measurement/internal/zzoc;->zzb(Landroid/content/Intent;)V
 
     .line 6
     .line 7
@@ -170,8 +157,7 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/measurement/AppMeasurementJobService;
-    ->zza()Lcom/google/android/gms/measurement/internal/zzoc;
+    invoke-direct {p0}, Lcom/google/android/gms/measurement/AppMeasurementJobService;->zza()Lcom/google/android/gms/measurement/internal/zzoc;
 
     .line 2
     .line 3
@@ -179,8 +165,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p1}, Lcom/google/android/gms/measurement/internal/zzoc;
-    ->zza(Landroid/app/job/JobParameters;)Z
+    invoke-virtual {v0, p1}, Lcom/google/android/gms/measurement/internal/zzoc;->zza(Landroid/app/job/JobParameters;)Z
 
     .line 6
     .line 7
@@ -212,8 +197,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/measurement/AppMeasurementJobService;
-    ->zza()Lcom/google/android/gms/measurement/internal/zzoc;
+    invoke-direct {p0}, Lcom/google/android/gms/measurement/AppMeasurementJobService;->zza()Lcom/google/android/gms/measurement/internal/zzoc;
 
     .line 2
     .line 3
@@ -221,8 +205,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p1}, Lcom/google/android/gms/measurement/internal/zzoc;
-    ->zzc(Landroid/content/Intent;)Z
+    invoke-virtual {v0, p1}, Lcom/google/android/gms/measurement/internal/zzoc;->zzc(Landroid/content/Intent;)Z
 
     .line 6
     .line 7
@@ -245,8 +228,7 @@
     const/4 p2, 0x0
 
     .line 5
-    invoke-virtual {p0, p1, p2}, Landroid/app/job/JobService;
-    ->jobFinished(Landroid/app/job/JobParameters;Z)V
+    invoke-virtual {p0, p1, p2}, Landroid/app/job/JobService;->jobFinished(Landroid/app/job/JobParameters;Z)V
 return-void
 .end method
 
@@ -266,8 +248,7 @@ return-void
     .line 6
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     throw p1
 .end method

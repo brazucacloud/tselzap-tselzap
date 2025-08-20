@@ -37,8 +37,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -47,14 +46,12 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Landroid/util/SparseIntArray;
-    -><init>()V
+    invoke-direct {v0}, Landroid/util/SparseIntArray;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/constraintlayout/widget/SharedValues;
-    ->mValues:Landroid/util/SparseIntArray;
+    iput-object v0, p0, Landroidx/constraintlayout/widget/SharedValues;->mValues:Landroid/util/SparseIntArray;
 
     .line 10
     .line 11
@@ -62,14 +59,12 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Ljava/util/HashMap;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, Landroidx/constraintlayout/widget/SharedValues;
-    ->mValuesListeners:Ljava/util/HashMap;    
+    iput-object v0, p0, Landroidx/constraintlayout/widget/SharedValues;->mValuesListeners:Ljava/util/HashMap;
     return-void
 .end method
 
@@ -79,13 +74,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/widget/SharedValues;
-    ->mValuesListeners:Ljava/util/HashMap;
+    iget-object v0, p0, Landroidx/constraintlayout/widget/SharedValues;->mValuesListeners:Ljava/util/HashMap;
 
     .line 2
     .line 3
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 4
     .line 5
@@ -93,8 +86,7 @@
     move-result-object v1
 
     .line 7
-    invoke-virtual {v0, v1}, Ljava/util/HashMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -114,19 +106,16 @@
 
     .line 16
     .line 17
-    invoke-direct {v0}, Ljava/util/HashSet;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
     .line 18
     .line 19
     .line 20
-    iget-object v1, p0, Landroidx/constraintlayout/widget/SharedValues;
-    ->mValuesListeners:Ljava/util/HashMap;
+    iget-object v1, p0, Landroidx/constraintlayout/widget/SharedValues;->mValuesListeners:Ljava/util/HashMap;
 
     .line 21
     .line 22
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 23
     .line 24
@@ -134,8 +123,7 @@
     move-result-object p1
 
     .line 26
-    invoke-virtual {v1, p1, v0}, Ljava/util/HashMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1, v0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 27
     .line 28
@@ -145,14 +133,12 @@
 
     .line 30
     .line 31
-    invoke-direct {p1, p2}, Ljava/lang/ref/WeakReference;
-    -><init>(Ljava/lang/Object;)V
+    invoke-direct {p1, p2}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     .line 32
     .line 33
     .line 34
-    invoke-virtual {v0, p1}, Ljava/util/HashSet;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 return-void
 .end method
 
@@ -160,13 +146,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/widget/SharedValues;
-    ->mValuesListeners:Ljava/util/HashMap;
+    iget-object v0, p0, Landroidx/constraintlayout/widget/SharedValues;->mValuesListeners:Ljava/util/HashMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/HashMap;
-    ->clear()V
+    invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
     return-void
 .end method
 
@@ -174,16 +158,14 @@ return-void
     .locals 5
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/widget/SharedValues;
-    ->mValues:Landroid/util/SparseIntArray;
+    iget-object v0, p0, Landroidx/constraintlayout/widget/SharedValues;->mValues:Landroid/util/SparseIntArray;
 
     .line 2
     .line 3
     const/4 v1, -0x1
 
     .line 4
-    invoke-virtual {v0, p1, v1}, Landroid/util/SparseIntArray;
-    ->get(II)I
+    invoke-virtual {v0, p1, v1}, Landroid/util/SparseIntArray;->get(II)I
 
     .line 5
     .line 6
@@ -199,24 +181,20 @@ return-void
 
     .line 11
     :cond_0
-    iget-object v1, p0, Landroidx/constraintlayout/widget/SharedValues;
-    ->mValues:Landroid/util/SparseIntArray;
+    iget-object v1, p0, Landroidx/constraintlayout/widget/SharedValues;->mValues:Landroid/util/SparseIntArray;
 
     .line 12
     .line 13
-    invoke-virtual {v1, p1, p2}, Landroid/util/SparseIntArray;
-    ->put(II)V
+    invoke-virtual {v1, p1, p2}, Landroid/util/SparseIntArray;->put(II)V
 
     .line 14
     .line 15
     .line 16
-    iget-object v1, p0, Landroidx/constraintlayout/widget/SharedValues;
-    ->mValuesListeners:Ljava/util/HashMap;
+    iget-object v1, p0, Landroidx/constraintlayout/widget/SharedValues;->mValuesListeners:Ljava/util/HashMap;
 
     .line 17
     .line 18
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 19
     .line 20
@@ -224,8 +202,7 @@ return-void
     move-result-object v2
 
     .line 22
-    invoke-virtual {v1, v2}, Ljava/util/HashMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 23
     .line 24
@@ -245,8 +222,7 @@ return-void
 
     .line 31
     :cond_1
-    invoke-virtual {v1}, Ljava/util/HashSet;
-    ->iterator()Ljava/util/Iterator;
+    invoke-virtual {v1}, Ljava/util/HashSet;->iterator()Ljava/util/Iterator;
 
     .line 32
     .line 33
@@ -258,8 +234,7 @@ return-void
 
     .line 36
     :goto_0
-    invoke-interface {v2}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
 
     .line 37
     .line 38
@@ -271,8 +246,7 @@ return-void
 
     .line 41
     .line 42
-    invoke-interface {v2}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 43
     .line 44
@@ -284,8 +258,7 @@ return-void
 
     .line 47
     .line 48
-    invoke-virtual {v4}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v4}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 49
     .line 50
@@ -301,8 +274,7 @@ return-void
 
     .line 55
     .line 56
-    invoke-interface {v4, p1, p2, v0}, Landroidx/constraintlayout/widget/SharedValues$SharedValuesListener;
-    ->onNewValue(III)V
+    invoke-interface {v4, p1, p2, v0}, Landroidx/constraintlayout/widget/SharedValues$SharedValuesListener;->onNewValue(III)V
 
     .line 57
     .line 58
@@ -326,14 +298,12 @@ return-void
 
     .line 65
     .line 66
-    invoke-direct {p1}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     .line 67
     .line 68
     .line 69
-    invoke-virtual {v1}, Ljava/util/HashSet;
-    ->iterator()Ljava/util/Iterator;
+    invoke-virtual {v1}, Ljava/util/HashSet;->iterator()Ljava/util/Iterator;
 
     .line 70
     .line 71
@@ -343,8 +313,7 @@ return-void
     .line 73
     :cond_4
     :goto_1
-    invoke-interface {p2}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
 
     .line 74
     .line 75
@@ -356,8 +325,7 @@ return-void
 
     .line 78
     .line 79
-    invoke-interface {p2}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 80
     .line 81
@@ -369,8 +337,7 @@ return-void
 
     .line 84
     .line 85
-    invoke-virtual {v0}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 86
     .line 87
@@ -386,8 +353,7 @@ return-void
 
     .line 92
     .line 93
-    invoke-virtual {p1, v0}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 94
     .line 95
@@ -396,8 +362,7 @@ return-void
 
     .line 97
     :cond_5
-    invoke-virtual {v1, p1}, Ljava/util/AbstractCollection;
-    ->removeAll(Ljava/util/Collection;)Z
+    invoke-virtual {v1, p1}, Ljava/util/AbstractCollection;->removeAll(Ljava/util/Collection;)Z
 
     .line 98
     .line 99
@@ -411,16 +376,14 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/widget/SharedValues;
-    ->mValues:Landroid/util/SparseIntArray;
+    iget-object v0, p0, Landroidx/constraintlayout/widget/SharedValues;->mValues:Landroid/util/SparseIntArray;
 
     .line 2
     .line 3
     const/4 v1, -0x1
 
     .line 4
-    invoke-virtual {v0, p1, v1}, Landroid/util/SparseIntArray;
-    ->get(II)I
+    invoke-virtual {v0, p1, v1}, Landroid/util/SparseIntArray;->get(II)I
 
     .line 5
     .line 6
@@ -434,16 +397,13 @@ return-void
     .locals 4
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/widget/SharedValues;
-    ->mValuesListeners:Ljava/util/HashMap;
+    iget-object v0, p0, Landroidx/constraintlayout/widget/SharedValues;->mValuesListeners:Ljava/util/HashMap;
 
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Ljava/util/HashMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -457,34 +417,29 @@ return-void
     :cond_0
     new-instance v0, Ljava/util/ArrayList;
 
-    invoke-direct {v0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 3
-    invoke-virtual {p1}, Ljava/util/HashSet;
-    ->iterator()Ljava/util/Iterator;
+    invoke-virtual {p1}, Ljava/util/HashSet;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
     :cond_1
     :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v2
 
     if-eqz v2, :cond_3
 
-    invoke-interface {v1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/lang/ref/WeakReference;
 
     .line 4
-    invoke-virtual {v2}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v2}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     move-result-object v3
 
@@ -496,15 +451,13 @@ return-void
 
     .line 5
     :cond_2
-    invoke-virtual {v0, v2}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
     .line 6
     :cond_3
-    invoke-virtual {p1, v0}, Ljava/util/AbstractCollection;
-    ->removeAll(Ljava/util/Collection;)Z
+    invoke-virtual {p1, v0}, Ljava/util/AbstractCollection;->removeAll(Ljava/util/Collection;)Z
 
     return-void
 .end method
@@ -513,42 +466,35 @@ return-void
     .locals 2
 
     .line 7
-    iget-object v0, p0, Landroidx/constraintlayout/widget/SharedValues;
-    ->mValuesListeners:Ljava/util/HashMap;
+    iget-object v0, p0, Landroidx/constraintlayout/widget/SharedValues;->mValuesListeners:Ljava/util/HashMap;
 
-    invoke-virtual {v0}, Ljava/util/HashMap;
-    ->keySet()Ljava/util/Set;
+    invoke-virtual {v0}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
 
     move-result-object v0
 
-    invoke-interface {v0}, Ljava/util/Set;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object v0
 
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Ljava/lang/Integer;
 
     .line 8
-    invoke-virtual {v1}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
     move-result v1
 
-    invoke-virtual {p0, v1, p1}, Landroidx/constraintlayout/widget/SharedValues;
-    ->removeListener(ILandroidx/constraintlayout/widget/SharedValues$SharedValuesListener;)V
+    invoke-virtual {p0, v1, p1}, Landroidx/constraintlayout/widget/SharedValues;->removeListener(ILandroidx/constraintlayout/widget/SharedValues$SharedValuesListener;)V
 
     goto :goto_0
 

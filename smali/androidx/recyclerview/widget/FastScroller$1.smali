@@ -26,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/recyclerview/widget/FastScroller$1;
-    ->this$0:Landroidx/recyclerview/widget/FastScroller;
+    iput-object p1, p0, Landroidx/recyclerview/widget/FastScroller$1;->this$0:Landroidx/recyclerview/widget/FastScroller;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -42,8 +40,7 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/FastScroller$1;
-    ->this$0:Landroidx/recyclerview/widget/FastScroller;
+    iget-object v0, p0, Landroidx/recyclerview/widget/FastScroller$1;->this$0:Landroidx/recyclerview/widget/FastScroller;
 
     .line 2
     .line 3
@@ -51,8 +48,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/FastScroller;
-    ->hide(I)V
+    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/FastScroller;->hide(I)V
 return-void
 .end method
 

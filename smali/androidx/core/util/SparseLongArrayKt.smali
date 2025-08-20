@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/util/SparseLongArray;
-    ->indexOfKey(I)I
+    invoke-virtual {p0, p1}, Landroid/util/SparseLongArray;->indexOfKey(I)I
 
     .line 2
     .line 3
@@ -36,8 +35,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/util/SparseLongArray;
-    ->indexOfKey(I)I
+    invoke-virtual {p0, p1}, Landroid/util/SparseLongArray;->indexOfKey(I)I
 
     .line 2
     .line 3
@@ -64,8 +62,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/util/SparseLongArray;
-    ->indexOfValue(J)I
+    invoke-virtual {p0, p1, p2}, Landroid/util/SparseLongArray;->indexOfValue(J)I
 
     .line 2
     .line 3
@@ -100,8 +97,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/util/SparseLongArray;
-    ->size()I
+    invoke-virtual {p0}, Landroid/util/SparseLongArray;->size()I
 
     .line 2
     .line 3
@@ -117,8 +113,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p0, v1}, Landroid/util/SparseLongArray;
-    ->keyAt(I)I
+    invoke-virtual {p0, v1}, Landroid/util/SparseLongArray;->keyAt(I)I
 
     .line 9
     .line 10
@@ -126,8 +121,7 @@
     move-result v2
 
     .line 12
-    invoke-static {v2}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 13
     .line 14
@@ -135,8 +129,7 @@
     move-result-object v2
 
     .line 16
-    invoke-virtual {p0, v1}, Landroid/util/SparseLongArray;
-    ->valueAt(I)J
+    invoke-virtual {p0, v1}, Landroid/util/SparseLongArray;->valueAt(I)J
 
     .line 17
     .line 18
@@ -144,8 +137,7 @@
     move-result-wide v3
 
     .line 20
-    invoke-static {v3, v4}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v3, v4}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 21
     .line 22
@@ -153,8 +145,7 @@
     move-result-object v3
 
     .line 24
-    invoke-interface {p1, v2, v3}, Lp1/p;
-    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2, v3}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 25
     .line 26
@@ -174,8 +165,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/util/SparseLongArray;
-    ->get(IJ)J
+    invoke-virtual {p0, p1, p2, p3}, Landroid/util/SparseLongArray;->get(IJ)J
 
     .line 2
     .line 3
@@ -198,8 +188,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/util/SparseLongArray;
-    ->indexOfKey(I)I
+    invoke-virtual {p0, p1}, Landroid/util/SparseLongArray;->indexOfKey(I)I
 
     .line 2
     .line 3
@@ -211,8 +200,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0, p1}, Landroid/util/SparseLongArray;
-    ->valueAt(I)J
+    invoke-virtual {p0, p1}, Landroid/util/SparseLongArray;->valueAt(I)J
 
     .line 8
     .line 9
@@ -223,8 +211,7 @@
 
     .line 12
     :cond_0
-    invoke-interface {p2}, Lp1/a;
-    ->invoke()Ljava/lang/Object;
+    invoke-interface {p2}, Lp1/a;->invoke()Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -236,8 +223,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0}, Ljava/lang/Number;
-    ->longValue()J
+    invoke-virtual {p0}, Ljava/lang/Number;->longValue()J
 
     .line 19
     .line 20
@@ -251,8 +237,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/util/SparseLongArray;
-    ->size()I
+    invoke-virtual {p0}, Landroid/util/SparseLongArray;->size()I
 
     .line 2
     .line 3
@@ -266,8 +251,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/util/SparseLongArray;
-    ->size()I
+    invoke-virtual {p0}, Landroid/util/SparseLongArray;->size()I
 
     .line 2
     .line 3
@@ -294,8 +278,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/util/SparseLongArray;
-    ->size()I
+    invoke-virtual {p0}, Landroid/util/SparseLongArray;->size()I
 
     .line 2
     .line 3
@@ -326,8 +309,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/core/util/SparseLongArrayKt$keyIterator$1;
-    -><init>(Landroid/util/SparseLongArray;)V
+    invoke-direct {v0, p0}, Landroidx/core/util/SparseLongArrayKt$keyIterator$1;-><init>(Landroid/util/SparseLongArray;)V
 
     .line 4
     .line 5
@@ -343,8 +325,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/util/SparseLongArray;
-    ->size()I
+    invoke-virtual {p0}, Landroid/util/SparseLongArray;->size()I
 
     .line 4
     .line 5
@@ -352,8 +333,7 @@
     move-result v1
 
     .line 7
-    invoke-virtual {p1}, Landroid/util/SparseLongArray;
-    ->size()I
+    invoke-virtual {p1}, Landroid/util/SparseLongArray;->size()I
 
     .line 8
     .line 9
@@ -364,20 +344,17 @@
     add-int/2addr v2, v1
 
     .line 12
-    invoke-direct {v0, v2}, Landroid/util/SparseLongArray;
-    -><init>(I)V
+    invoke-direct {v0, v2}, Landroid/util/SparseLongArray;-><init>(I)V
 
     .line 13
     .line 14
     .line 15
-    invoke-static {v0, p0}, Landroidx/core/util/SparseLongArrayKt;
-    ->putAll(Landroid/util/SparseLongArray;Landroid/util/SparseLongArray;)V
+    invoke-static {v0, p0}, Landroidx/core/util/SparseLongArrayKt;->putAll(Landroid/util/SparseLongArray;Landroid/util/SparseLongArray;)V
 
     .line 16
     .line 17
     .line 18
-    invoke-static {v0, p1}, Landroidx/core/util/SparseLongArrayKt;
-    ->putAll(Landroid/util/SparseLongArray;Landroid/util/SparseLongArray;)V
+    invoke-static {v0, p1}, Landroidx/core/util/SparseLongArrayKt;->putAll(Landroid/util/SparseLongArray;Landroid/util/SparseLongArray;)V
 
     .line 19
     .line 20
@@ -389,8 +366,7 @@
     .locals 5
 
     .line 1
-    invoke-virtual {p1}, Landroid/util/SparseLongArray;
-    ->size()I
+    invoke-virtual {p1}, Landroid/util/SparseLongArray;->size()I
 
     .line 2
     .line 3
@@ -406,8 +382,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1, v1}, Landroid/util/SparseLongArray;
-    ->keyAt(I)I
+    invoke-virtual {p1, v1}, Landroid/util/SparseLongArray;->keyAt(I)I
 
     .line 9
     .line 10
@@ -415,8 +390,7 @@
     move-result v2
 
     .line 12
-    invoke-virtual {p1, v1}, Landroid/util/SparseLongArray;
-    ->valueAt(I)J
+    invoke-virtual {p1, v1}, Landroid/util/SparseLongArray;->valueAt(I)J
 
     .line 13
     .line 14
@@ -424,8 +398,7 @@
     move-result-wide v3
 
     .line 16
-    invoke-virtual {p0, v2, v3, v4}, Landroid/util/SparseLongArray;
-    ->put(IJ)V
+    invoke-virtual {p0, v2, v3, v4}, Landroid/util/SparseLongArray;->put(IJ)V
 
     .line 17
     .line 18
@@ -445,8 +418,7 @@
     .locals 3
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/util/SparseLongArray;
-    ->indexOfKey(I)I
+    invoke-virtual {p0, p1}, Landroid/util/SparseLongArray;->indexOfKey(I)I
 
     .line 2
     .line 3
@@ -458,8 +430,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0, p1}, Landroid/util/SparseLongArray;
-    ->valueAt(I)J
+    invoke-virtual {p0, p1}, Landroid/util/SparseLongArray;->valueAt(I)J
 
     .line 8
     .line 9
@@ -475,8 +446,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {p0, p1}, Landroid/util/SparseLongArray;
-    ->removeAt(I)V
+    invoke-virtual {p0, p1}, Landroid/util/SparseLongArray;->removeAt(I)V
 
     .line 16
     .line 17
@@ -496,8 +466,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/util/SparseLongArray;
-    ->put(IJ)V
+    invoke-virtual {p0, p1, p2, p3}, Landroid/util/SparseLongArray;->put(IJ)V
 
     .line 2
     .line 3
@@ -513,8 +482,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;
-    -><init>(Landroid/util/SparseLongArray;)V
+    invoke-direct {v0, p0}, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;-><init>(Landroid/util/SparseLongArray;)V
 
     .line 4
     .line 5

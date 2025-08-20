@@ -16,8 +16,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Ljava/nio/charset/Charset;
-    ->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
+    invoke-static {v0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
 
     .line 4
     .line 5
@@ -25,8 +24,7 @@
     move-result-object v0
 
     .line 7
-    sput-object v0, Li/f;
-    ->a:Ljava/nio/charset/Charset;
+    sput-object v0, Li/f;->a:Ljava/nio/charset/Charset;
 
     .line 8
     .line 9

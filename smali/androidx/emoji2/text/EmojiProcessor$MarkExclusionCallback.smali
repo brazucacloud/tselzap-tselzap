@@ -35,14 +35,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/emoji2/text/EmojiProcessor$MarkExclusionCallback;
-    ->mExclusion:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/emoji2/text/EmojiProcessor$MarkExclusionCallback;->mExclusion:Ljava/lang/String;
 
     .line 5
     .line 6
@@ -61,8 +59,7 @@
     .locals 1
 
     .line 2
-    invoke-virtual {p0}, Landroidx/emoji2/text/EmojiProcessor$MarkExclusionCallback;
-    ->getResult()Landroidx/emoji2/text/EmojiProcessor$MarkExclusionCallback;
+    invoke-virtual {p0}, Landroidx/emoji2/text/EmojiProcessor$MarkExclusionCallback;->getResult()Landroidx/emoji2/text/EmojiProcessor$MarkExclusionCallback;
 
     move-result-object v0
 
@@ -77,8 +74,7 @@
     .end param
 
     .line 1
-    invoke-interface {p1, p2, p3}, Ljava/lang/CharSequence;
-    ->subSequence(II)Ljava/lang/CharSequence;
+    invoke-interface {p1, p2, p3}, Ljava/lang/CharSequence;->subSequence(II)Ljava/lang/CharSequence;
 
     .line 2
     .line 3
@@ -86,13 +82,11 @@
     move-result-object p1
 
     .line 5
-    iget-object p2, p0, Landroidx/emoji2/text/EmojiProcessor$MarkExclusionCallback;
-    ->mExclusion:Ljava/lang/String;
+    iget-object p2, p0, Landroidx/emoji2/text/EmojiProcessor$MarkExclusionCallback;->mExclusion:Ljava/lang/String;
 
     .line 6
     .line 7
-    invoke-static {p1, p2}, Landroid/text/TextUtils;
-    ->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+    invoke-static {p1, p2}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
     .line 8
     .line 9
@@ -107,8 +101,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {p4, p2}, Landroidx/emoji2/text/TypefaceEmojiRasterizer;
-    ->setExclusion(Z)V
+    invoke-virtual {p4, p2}, Landroidx/emoji2/text/TypefaceEmojiRasterizer;->setExclusion(Z)V
 
     .line 15
     .line 16

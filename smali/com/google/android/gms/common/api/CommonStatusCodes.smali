@@ -55,8 +55,7 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -76,8 +75,7 @@
 
     .line 5
     .line 6
-    invoke-static {p0, v0}, LA/d;
-    ->c(ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, v0}, LA/d;->c(ILjava/lang/String;)Ljava/lang/String;
 
     .line 7
     .line 8

@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/activity/result/ActivityResult;
-    ->getResultCode()I
+    invoke-virtual {p0}, Landroidx/activity/result/ActivityResult;->getResultCode()I
 
     .line 2
     .line 3
@@ -23,8 +22,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/activity/result/ActivityResult;
-    ->getData()Landroid/content/Intent;
+    invoke-virtual {p0}, Landroidx/activity/result/ActivityResult;->getData()Landroid/content/Intent;
 
     .line 2
     .line 3

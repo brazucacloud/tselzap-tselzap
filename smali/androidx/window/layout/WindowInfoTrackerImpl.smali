@@ -34,11 +34,9 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/window/layout/WindowInfoTrackerImpl$Companion;
-    -><init>(Lkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v1}, Landroidx/window/layout/WindowInfoTrackerImpl$Companion;-><init>(Lkotlin/jvm/internal/e;)V
 
-    sput-object v0, Landroidx/window/layout/WindowInfoTrackerImpl;
-    ->Companion:Landroidx/window/layout/WindowInfoTrackerImpl$Companion;
+    sput-object v0, Landroidx/window/layout/WindowInfoTrackerImpl;->Companion:Landroidx/window/layout/WindowInfoTrackerImpl$Companion;
 
     return-void
 .end method
@@ -51,8 +49,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -61,25 +58,21 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 12
     .line 13
     .line 14
-    iput-object p1, p0, Landroidx/window/layout/WindowInfoTrackerImpl;
-    ->windowMetricsCalculator:Landroidx/window/layout/WindowMetricsCalculator;
+    iput-object p1, p0, Landroidx/window/layout/WindowInfoTrackerImpl;->windowMetricsCalculator:Landroidx/window/layout/WindowMetricsCalculator;
 
     .line 15
     .line 16
-    iput-object p2, p0, Landroidx/window/layout/WindowInfoTrackerImpl;
-    ->windowBackend:Landroidx/window/layout/WindowBackend;
+    iput-object p2, p0, Landroidx/window/layout/WindowInfoTrackerImpl;->windowBackend:Landroidx/window/layout/WindowBackend;
 
     .line 17
     .line 18
@@ -90,8 +83,7 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/window/layout/WindowInfoTrackerImpl;
-    ->windowBackend:Landroidx/window/layout/WindowBackend;
+    iget-object p0, p0, Landroidx/window/layout/WindowInfoTrackerImpl;->windowBackend:Landroidx/window/layout/WindowBackend;
 
     .line 2
     .line 3
@@ -116,8 +108,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -129,8 +120,7 @@
     const/4 v1, 0x0
 
     .line 9
-    invoke-direct {v0, p0, p1, v1}, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$1;
-    -><init>(Landroidx/window/layout/WindowInfoTrackerImpl;Landroid/app/Activity;Lg1/d;)V
+    invoke-direct {v0, p0, p1, v1}, Landroidx/window/layout/WindowInfoTrackerImpl$windowLayoutInfo$1;-><init>(Landroidx/window/layout/WindowInfoTrackerImpl;Landroid/app/Activity;Lg1/d;)V
 
     .line 10
     .line 11
@@ -139,8 +129,7 @@
 
     .line 13
     .line 14
-    invoke-direct {p1, v0}, LC1/s;
-    -><init>(Lp1/p;)V
+    invoke-direct {p1, v0}, LC1/s;-><init>(Lp1/p;)V
 
     .line 15
     .line 16

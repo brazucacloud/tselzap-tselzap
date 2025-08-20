@@ -27,8 +27,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/database/Observable;
-    -><init>()V
+    invoke-direct {p0}, Landroid/database/Observable;-><init>()V
     return-void
 .end method
 
@@ -38,13 +37,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroid/database/Observable;
-    ->mObservers:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroid/database/Observable;->mObservers:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;
-    ->isEmpty()Z
+    invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
 
     .line 4
     .line 5
@@ -59,13 +56,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroid/database/Observable;
-    ->mObservers:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroid/database/Observable;->mObservers:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     .line 4
     .line 5
@@ -82,13 +77,11 @@
 
     .line 10
     .line 11
-    iget-object v1, p0, Landroid/database/Observable;
-    ->mObservers:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroid/database/Observable;->mObservers:Ljava/util/ArrayList;
 
     .line 12
     .line 13
-    invoke-virtual {v1, v0}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {v1, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -100,8 +93,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;
-    ->onChanged()V
+    invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;->onChanged()V
 
     .line 20
     .line 21
@@ -121,13 +113,11 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroid/database/Observable;
-    ->mObservers:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroid/database/Observable;->mObservers:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     .line 4
     .line 5
@@ -146,13 +136,11 @@
 
     .line 10
     .line 11
-    iget-object v2, p0, Landroid/database/Observable;
-    ->mObservers:Ljava/util/ArrayList;
+    iget-object v2, p0, Landroid/database/Observable;->mObservers:Ljava/util/ArrayList;
 
     .line 12
     .line 13
-    invoke-virtual {v2, v0}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {v2, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -164,8 +152,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {v2, p1, p2, v1}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;
-    ->onItemRangeMoved(III)V
+    invoke-virtual {v2, p1, p2, v1}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;->onItemRangeMoved(III)V
 
     .line 20
     .line 21
@@ -187,8 +174,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-virtual {p0, p1, p2, v0}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObservable;
-    ->notifyItemRangeChanged(IILjava/lang/Object;)V
+    invoke-virtual {p0, p1, p2, v0}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObservable;->notifyItemRangeChanged(IILjava/lang/Object;)V
 
     return-void
 .end method
@@ -201,11 +187,9 @@
     .end param
 
     .line 2
-    iget-object v0, p0, Landroid/database/Observable;
-    ->mObservers:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroid/database/Observable;->mObservers:Ljava/util/ArrayList;
 
-    invoke-virtual {v0}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     move-result v0
 
@@ -215,18 +199,15 @@
     if-ltz v0, :cond_0
 
     .line 3
-    iget-object v1, p0, Landroid/database/Observable;
-    ->mObservers:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroid/database/Observable;->mObservers:Ljava/util/ArrayList;
 
-    invoke-virtual {v1, v0}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {v1, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;
 
-    invoke-virtual {v1, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;
-    ->onItemRangeChanged(IILjava/lang/Object;)V
+    invoke-virtual {v1, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;->onItemRangeChanged(IILjava/lang/Object;)V
 
     add-int/lit8 v0, v0, -0x1
 
@@ -240,13 +221,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroid/database/Observable;
-    ->mObservers:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroid/database/Observable;->mObservers:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     .line 4
     .line 5
@@ -263,13 +242,11 @@
 
     .line 10
     .line 11
-    iget-object v1, p0, Landroid/database/Observable;
-    ->mObservers:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroid/database/Observable;->mObservers:Ljava/util/ArrayList;
 
     .line 12
     .line 13
-    invoke-virtual {v1, v0}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {v1, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -281,8 +258,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {v1, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;
-    ->onItemRangeInserted(II)V
+    invoke-virtual {v1, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;->onItemRangeInserted(II)V
 
     .line 20
     .line 21
@@ -302,13 +278,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroid/database/Observable;
-    ->mObservers:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroid/database/Observable;->mObservers:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     .line 4
     .line 5
@@ -325,13 +299,11 @@
 
     .line 10
     .line 11
-    iget-object v1, p0, Landroid/database/Observable;
-    ->mObservers:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroid/database/Observable;->mObservers:Ljava/util/ArrayList;
 
     .line 12
     .line 13
-    invoke-virtual {v1, v0}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {v1, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -343,8 +315,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {v1, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;
-    ->onItemRangeRemoved(II)V
+    invoke-virtual {v1, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;->onItemRangeRemoved(II)V
 
     .line 20
     .line 21
@@ -364,13 +335,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroid/database/Observable;
-    ->mObservers:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroid/database/Observable;->mObservers:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     .line 4
     .line 5
@@ -387,13 +356,11 @@
 
     .line 10
     .line 11
-    iget-object v1, p0, Landroid/database/Observable;
-    ->mObservers:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroid/database/Observable;->mObservers:Ljava/util/ArrayList;
 
     .line 12
     .line 13
-    invoke-virtual {v1, v0}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {v1, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -405,8 +372,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;
-    ->onStateRestorationPolicyChanged()V
+    invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;->onStateRestorationPolicyChanged()V
 
     .line 20
     .line 21

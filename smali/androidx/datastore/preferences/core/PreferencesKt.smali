@@ -29,14 +29,12 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, p1, v1}, Landroidx/datastore/preferences/core/PreferencesKt$edit$2;
-    -><init>(Lp1/p;Lg1/d;)V
+    invoke-direct {v0, p1, v1}, Landroidx/datastore/preferences/core/PreferencesKt$edit$2;-><init>(Lp1/p;Lg1/d;)V
 
     .line 5
     .line 6
     .line 7
-    invoke-interface {p0, v0, p2}, Landroidx/datastore/core/DataStore;
-    ->updateData(Lp1/p;Lg1/d;)Ljava/lang/Object;
+    invoke-interface {p0, v0, p2}, Landroidx/datastore/core/DataStore;->updateData(Lp1/p;Lg1/d;)Ljava/lang/Object;
 
     .line 8
     .line 9

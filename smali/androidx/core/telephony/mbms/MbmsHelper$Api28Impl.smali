@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -36,8 +35,7 @@
     .locals 5
 
     .line 1
-    invoke-virtual {p1}, Landroid/telephony/mbms/ServiceInfo;
-    ->getNamedContentLocales()Ljava/util/Set;
+    invoke-virtual {p1}, Landroid/telephony/mbms/ServiceInfo;->getNamedContentLocales()Ljava/util/Set;
 
     .line 2
     .line 3
@@ -45,8 +43,7 @@
     move-result-object v0
 
     .line 5
-    invoke-interface {v0}, Ljava/util/Set;
-    ->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/Set;->isEmpty()Z
 
     .line 6
     .line 7
@@ -65,8 +62,7 @@
 
     .line 13
     :cond_0
-    invoke-interface {v0}, Ljava/util/Set;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/Set;->size()I
 
     .line 14
     .line 15
@@ -78,8 +74,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {p1}, Landroid/telephony/mbms/ServiceInfo;
-    ->getNamedContentLocales()Ljava/util/Set;
+    invoke-virtual {p1}, Landroid/telephony/mbms/ServiceInfo;->getNamedContentLocales()Ljava/util/Set;
 
     .line 20
     .line 21
@@ -87,8 +82,7 @@
     move-result-object v1
 
     .line 23
-    invoke-interface {v1}, Ljava/util/Set;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     .line 24
     .line 25
@@ -100,8 +94,7 @@
 
     .line 28
     :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
     .line 29
     .line 30
@@ -113,8 +106,7 @@
 
     .line 33
     .line 34
-    invoke-interface {v1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 35
     .line 36
@@ -126,8 +118,7 @@
 
     .line 39
     .line 40
-    invoke-virtual {v4}, Ljava/util/Locale;
-    ->toLanguageTag()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/util/Locale;->toLanguageTag()Ljava/lang/String;
 
     .line 41
     .line 42
@@ -147,8 +138,7 @@
 
     .line 49
     :cond_1
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     .line 50
     .line 51
@@ -156,8 +146,7 @@
     move-result-object p0
 
     .line 53
-    invoke-virtual {p0}, Landroid/content/res/Resources;
-    ->getConfiguration()Landroid/content/res/Configuration;
+    invoke-virtual {p0}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
 
     .line 54
     .line 55
@@ -165,8 +154,7 @@
     move-result-object p0
 
     .line 57
-    invoke-virtual {p0}, Landroid/content/res/Configuration;
-    ->getLocales()Landroid/os/LocaleList;
+    invoke-virtual {p0}, Landroid/content/res/Configuration;->getLocales()Landroid/os/LocaleList;
 
     .line 58
     .line 59
@@ -174,8 +162,7 @@
     move-result-object p0
 
     .line 61
-    invoke-virtual {p0, v0}, Landroid/os/LocaleList;
-    ->getFirstMatch([Ljava/lang/String;)Ljava/util/Locale;
+    invoke-virtual {p0, v0}, Landroid/os/LocaleList;->getFirstMatch([Ljava/lang/String;)Ljava/util/Locale;
 
     .line 62
     .line 63
@@ -191,8 +178,7 @@
 
     .line 68
     :cond_2
-    invoke-virtual {p1, p0}, Landroid/telephony/mbms/ServiceInfo;
-    ->getNameForLocale(Ljava/util/Locale;)Ljava/lang/CharSequence;
+    invoke-virtual {p1, p0}, Landroid/telephony/mbms/ServiceInfo;->getNameForLocale(Ljava/util/Locale;)Ljava/lang/CharSequence;
 
     .line 69
     .line 70

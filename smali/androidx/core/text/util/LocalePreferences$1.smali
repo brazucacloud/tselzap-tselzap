@@ -23,8 +23,7 @@
     .locals 3
 
     .line 1
-    invoke-static {}, Landroidx/activity/e;
-    ->p()[Landroid/icu/text/DateFormat$HourCycle;
+    invoke-static {}, Landroidx/activity/e;->p()[Landroid/icu/text/DateFormat$HourCycle;
 
     .line 2
     .line 3
@@ -39,20 +38,17 @@
 
     .line 7
     .line 8
-    sput-object v0, Landroidx/core/text/util/LocalePreferences$1;
-    ->$SwitchMap$android$icu$text$DateFormat$HourCycle:[I
+    sput-object v0, Landroidx/core/text/util/LocalePreferences$1;->$SwitchMap$android$icu$text$DateFormat$HourCycle:[I
 
     .line 9
     .line 10
     :try_start_0
-    invoke-static {}, Landroidx/activity/e;
-    ->b()Landroid/icu/text/DateFormat$HourCycle;
+    invoke-static {}, Landroidx/activity/e;->b()Landroid/icu/text/DateFormat$HourCycle;
 
     .line 11
     .line 12
     .line 13
-    invoke-static {}, Landroidx/activity/e;
-    ->a()I
+    invoke-static {}, Landroidx/activity/e;->a()I
 
     .line 14
     .line 15
@@ -71,19 +67,16 @@
     .line 20
     :catch_0
     :try_start_1
-    sget-object v0, Landroidx/core/text/util/LocalePreferences$1;
-    ->$SwitchMap$android$icu$text$DateFormat$HourCycle:[I
+    sget-object v0, Landroidx/core/text/util/LocalePreferences$1;->$SwitchMap$android$icu$text$DateFormat$HourCycle:[I
 
     .line 21
     .line 22
-    invoke-static {}, Landroidx/activity/e;
-    ->r()Landroid/icu/text/DateFormat$HourCycle;
+    invoke-static {}, Landroidx/activity/e;->r()Landroid/icu/text/DateFormat$HourCycle;
 
     .line 23
     .line 24
     .line 25
-    invoke-static {}, Landroidx/activity/e;
-    ->q()I
+    invoke-static {}, Landroidx/activity/e;->q()I
 
     .line 26
     .line 27
@@ -102,19 +95,16 @@
     .line 32
     :catch_1
     :try_start_2
-    sget-object v0, Landroidx/core/text/util/LocalePreferences$1;
-    ->$SwitchMap$android$icu$text$DateFormat$HourCycle:[I
+    sget-object v0, Landroidx/core/text/util/LocalePreferences$1;->$SwitchMap$android$icu$text$DateFormat$HourCycle:[I
 
     .line 33
     .line 34
-    invoke-static {}, Landroidx/activity/e;
-    ->t()Landroid/icu/text/DateFormat$HourCycle;
+    invoke-static {}, Landroidx/activity/e;->t()Landroid/icu/text/DateFormat$HourCycle;
 
     .line 35
     .line 36
     .line 37
-    invoke-static {}, Landroidx/activity/e;
-    ->s()I
+    invoke-static {}, Landroidx/activity/e;->s()I
 
     .line 38
     .line 39
@@ -133,19 +123,16 @@
     .line 44
     :catch_2
     :try_start_3
-    sget-object v0, Landroidx/core/text/util/LocalePreferences$1;
-    ->$SwitchMap$android$icu$text$DateFormat$HourCycle:[I
+    sget-object v0, Landroidx/core/text/util/LocalePreferences$1;->$SwitchMap$android$icu$text$DateFormat$HourCycle:[I
 
     .line 45
     .line 46
-    invoke-static {}, Landroidx/activity/e;
-    ->v()Landroid/icu/text/DateFormat$HourCycle;
+    invoke-static {}, Landroidx/activity/e;->v()Landroid/icu/text/DateFormat$HourCycle;
 
     .line 47
     .line 48
     .line 49
-    invoke-static {}, Landroidx/activity/e;
-    ->u()I
+    invoke-static {}, Landroidx/activity/e;->u()I
 
     .line 50
     .line 51

@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -50,8 +49,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1, p2}, Landroid/app/Notification$Action$Builder;
-    -><init>(Landroid/graphics/drawable/Icon;Ljava/lang/CharSequence;Landroid/app/PendingIntent;)V
+    invoke-direct {v0, p0, p1, p2}, Landroid/app/Notification$Action$Builder;-><init>(Landroid/graphics/drawable/Icon;Ljava/lang/CharSequence;Landroid/app/PendingIntent;)V
 
     .line 4
     .line 5
@@ -65,8 +63,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;
-    ->setLargeIcon(Landroid/graphics/drawable/Icon;)Landroid/app/Notification$Builder;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;->setLargeIcon(Landroid/graphics/drawable/Icon;)Landroid/app/Notification$Builder;
 
     .line 2
     .line 3

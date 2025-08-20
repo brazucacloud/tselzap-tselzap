@@ -23,8 +23,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -33,19 +32,16 @@
 
     .line 5
     .line 6
-    invoke-direct {v0, p0}, Lx/c;
-    -><init>(Lx/d;)V
+    invoke-direct {v0, p0}, Lx/c;-><init>(Lx/d;)V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Lx/d;
-    ->f:Lx/c;
+    iput-object v0, p0, Lx/d;->f:Lx/c;
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Landroid/content/Context;
-    ->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     .line 12
     .line 13
@@ -53,13 +49,11 @@
     move-result-object p1
 
     .line 15
-    iput-object p1, p0, Lx/d;
-    ->b:Landroid/content/Context;
+    iput-object p1, p0, Lx/d;->b:Landroid/content/Context;
 
     .line 16
     .line 17
-    iput-object p2, p0, Lx/d;
-    ->c:LA0/c;
+    iput-object p2, p0, Lx/d;->c:LA0/c;
 
     .line 18
     .line 19
@@ -74,8 +68,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Landroid/content/Context;
-    ->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -91,15 +84,13 @@
 
     .line 10
     .line 11
-    invoke-static {p0, v0}, LE/h;
-    ->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, LE/h;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 12
     .line 13
     .line 14
     :try_start_0
-    invoke-virtual {p0}, Landroid/net/ConnectivityManager;
-    ->getActiveNetworkInfo()Landroid/net/NetworkInfo;
+    invoke-virtual {p0}, Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
 
     .line 15
     .line 16
@@ -113,8 +104,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p0}, Landroid/net/NetworkInfo;
-    ->isConnected()Z
+    invoke-virtual {p0}, Landroid/net/NetworkInfo;->isConnected()Z
 
     .line 21
     .line 22
@@ -146,8 +136,7 @@
     const/4 v1, 0x5
 
     .line 33
-    invoke-static {v0, v1}, Landroid/util/Log;
-    ->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v0, v1}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     .line 34
     .line 35
@@ -163,8 +152,7 @@
 
     .line 40
     .line 41
-    invoke-static {v0, v1, p0}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, v1, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 42
     .line 43
@@ -188,8 +176,7 @@
     .locals 4
 
     .line 1
-    iget-boolean v0, p0, Lx/d;
-    ->e:Z
+    iget-boolean v0, p0, Lx/d;->e:Z
 
     .line 2
     .line 3
@@ -201,13 +188,11 @@
 
     .line 6
     :cond_0
-    iget-object v0, p0, Lx/d;
-    ->b:Landroid/content/Context;
+    iget-object v0, p0, Lx/d;->b:Landroid/content/Context;
 
     .line 7
     .line 8
-    invoke-static {v0}, Lx/d;
-    ->a(Landroid/content/Context;)Z
+    invoke-static {v0}, Lx/d;->a(Landroid/content/Context;)Z
 
     .line 9
     .line 10
@@ -215,14 +200,12 @@
     move-result v1
 
     .line 12
-    iput-boolean v1, p0, Lx/d;
-    ->d:Z
+    iput-boolean v1, p0, Lx/d;->d:Z
 
     .line 13
     .line 14
     :try_start_0
-    iget-object v1, p0, Lx/d;
-    ->f:Lx/c;
+    iget-object v1, p0, Lx/d;->f:Lx/c;
 
     .line 15
     .line 16
@@ -234,14 +217,12 @@
 
     .line 19
     .line 20
-    invoke-direct {v2, v3}, Landroid/content/IntentFilter;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v3}, Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
 
     .line 21
     .line 22
     .line 23
-    invoke-virtual {v0, v1, v2}, Landroid/content/Context;
-    ->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
+    invoke-virtual {v0, v1, v2}, Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver;Landroid/content/IntentFilter;)Landroid/content/Intent;
 
     .line 24
     .line 25
@@ -249,8 +230,7 @@
     const/4 v0, 0x1
 
     .line 27
-    iput-boolean v0, p0, Lx/d;
-    ->e:Z
+    iput-boolean v0, p0, Lx/d;->e:Z
     :try_end_0
     .catch Ljava/lang/SecurityException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -270,8 +250,7 @@
 
     .line 33
     .line 34
-    invoke-static {v2, v1}, Landroid/util/Log;
-    ->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v2, v1}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     .line 35
     .line 36
@@ -287,8 +266,7 @@
 
     .line 41
     .line 42
-    invoke-static {v2, v1, v0}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v2, v1, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 43
     .line 44
@@ -302,8 +280,7 @@
     .locals 2
 
     .line 1
-    iget-boolean v0, p0, Lx/d;
-    ->e:Z
+    iget-boolean v0, p0, Lx/d;->e:Z
 
     .line 2
     .line 3
@@ -315,18 +292,15 @@
 
     .line 6
     :cond_0
-    iget-object v0, p0, Lx/d;
-    ->f:Lx/c;
+    iget-object v0, p0, Lx/d;->f:Lx/c;
 
     .line 7
     .line 8
-    iget-object v1, p0, Lx/d;
-    ->b:Landroid/content/Context;
+    iget-object v1, p0, Lx/d;->b:Landroid/content/Context;
 
     .line 9
     .line 10
-    invoke-virtual {v1, v0}, Landroid/content/Context;
-    ->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
+    invoke-virtual {v1, v0}, Landroid/content/Context;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
 
     .line 11
     .line 12
@@ -334,8 +308,7 @@
     const/4 v0, 0x0
 
     .line 14
-    iput-boolean v0, p0, Lx/d;
-    ->e:Z
+    iput-boolean v0, p0, Lx/d;->e:Z
 
     .line 15
     .line 16

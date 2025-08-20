@@ -16,11 +16,9 @@
 
     new-instance v0, Lcom/google/android/gms/common/moduleinstall/internal/zab;
 
-    invoke-direct {v0}, Lcom/google/android/gms/common/moduleinstall/internal/zab;
-    -><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/common/moduleinstall/internal/zab;-><init>()V
 
-    sput-object v0, Lcom/google/android/gms/common/moduleinstall/internal/zab;
-    ->zaa:Lcom/google/android/gms/common/moduleinstall/internal/zab;
+    sput-object v0, Lcom/google/android/gms/common/moduleinstall/internal/zab;->zaa:Lcom/google/android/gms/common/moduleinstall/internal/zab;
 
     return-void
 .end method
@@ -28,8 +26,7 @@
 .method private synthetic constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -47,13 +44,11 @@
 
     .line 4
     .line 5
-    sget-object v0, Lcom/google/android/gms/common/moduleinstall/internal/ApiFeatureRequest;
-    ->CREATOR:Landroid/os/Parcelable$Creator;
+    sget-object v0, Lcom/google/android/gms/common/moduleinstall/internal/ApiFeatureRequest;->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Lcom/google/android/gms/common/Feature;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/google/android/gms/common/Feature;->getName()Ljava/lang/String;
 
     .line 8
     .line 9
@@ -61,8 +56,7 @@
     move-result-object v0
 
     .line 11
-    invoke-virtual {p2}, Lcom/google/android/gms/common/Feature;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/google/android/gms/common/Feature;->getName()Ljava/lang/String;
 
     .line 12
     .line 13
@@ -70,8 +64,7 @@
     move-result-object v1
 
     .line 15
-    invoke-virtual {v0, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 16
     .line 17
@@ -83,8 +76,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {p1}, Lcom/google/android/gms/common/Feature;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/google/android/gms/common/Feature;->getName()Ljava/lang/String;
 
     .line 22
     .line 23
@@ -92,8 +84,7 @@
     move-result-object p1
 
     .line 25
-    invoke-virtual {p2}, Lcom/google/android/gms/common/Feature;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/google/android/gms/common/Feature;->getName()Ljava/lang/String;
 
     .line 26
     .line 27
@@ -101,8 +92,7 @@
     move-result-object p2
 
     .line 29
-    invoke-virtual {p1, p2}, Ljava/lang/String;
-    ->compareTo(Ljava/lang/String;)I
+    invoke-virtual {p1, p2}, Ljava/lang/String;->compareTo(Ljava/lang/String;)I
 
     .line 30
     .line 31
@@ -113,8 +103,7 @@
 
     .line 34
     :cond_0
-    invoke-virtual {p1}, Lcom/google/android/gms/common/Feature;
-    ->getVersion()J
+    invoke-virtual {p1}, Lcom/google/android/gms/common/Feature;->getVersion()J
 
     .line 35
     .line 36
@@ -122,8 +111,7 @@
     move-result-wide v0
 
     .line 38
-    invoke-virtual {p2}, Lcom/google/android/gms/common/Feature;
-    ->getVersion()J
+    invoke-virtual {p2}, Lcom/google/android/gms/common/Feature;->getVersion()J
 
     .line 39
     .line 40

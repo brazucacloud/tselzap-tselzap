@@ -12,24 +12,19 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/net/Uri;
-    ->EMPTY:Landroid/net/Uri;
+    sget-object v0, Landroid/net/Uri;->EMPTY:Landroid/net/Uri;
 
-    invoke-direct {p0, v0, p2}, Lcom/google/android/gms/common/images/zag;
-    -><init>(Landroid/net/Uri;I)V
+    invoke-direct {p0, v0, p2}, Lcom/google/android/gms/common/images/zag;-><init>(Landroid/net/Uri;I)V
 
     .line 2
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/Asserts;
-    ->checkNotNull(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/Asserts;->checkNotNull(Ljava/lang/Object;)V
 
     new-instance p2, Ljava/lang/ref/WeakReference;
 
     .line 3
-    invoke-direct {p2, p1}, Ljava/lang/ref/WeakReference;
-    -><init>(Ljava/lang/Object;)V
+    invoke-direct {p2, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
-    iput-object p2, p0, Lcom/google/android/gms/common/images/zae;
-    ->zac:Ljava/lang/ref/WeakReference;
+    iput-object p2, p0, Lcom/google/android/gms/common/images/zae;->zac:Ljava/lang/ref/WeakReference;
 
     return-void
 .end method
@@ -40,21 +35,17 @@
     const/4 v0, 0x0
 
     .line 4
-    invoke-direct {p0, p2, v0}, Lcom/google/android/gms/common/images/zag;
-    -><init>(Landroid/net/Uri;I)V
+    invoke-direct {p0, p2, v0}, Lcom/google/android/gms/common/images/zag;-><init>(Landroid/net/Uri;I)V
 
     .line 5
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/Asserts;
-    ->checkNotNull(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/Asserts;->checkNotNull(Ljava/lang/Object;)V
 
     new-instance p2, Ljava/lang/ref/WeakReference;
 
     .line 6
-    invoke-direct {p2, p1}, Ljava/lang/ref/WeakReference;
-    -><init>(Ljava/lang/Object;)V
+    invoke-direct {p2, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
-    iput-object p2, p0, Lcom/google/android/gms/common/images/zae;
-    ->zac:Ljava/lang/ref/WeakReference;
+    iput-object p2, p0, Lcom/google/android/gms/common/images/zae;->zac:Ljava/lang/ref/WeakReference;
 
     return-void
 .end method
@@ -99,13 +90,11 @@
 
     .line 12
     .line 13
-    iget-object v1, p0, Lcom/google/android/gms/common/images/zae;
-    ->zac:Ljava/lang/ref/WeakReference;
+    iget-object v1, p0, Lcom/google/android/gms/common/images/zae;->zac:Ljava/lang/ref/WeakReference;
 
     .line 14
     .line 15
-    invoke-virtual {v1}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -117,13 +106,11 @@
 
     .line 20
     .line 21
-    iget-object p1, p1, Lcom/google/android/gms/common/images/zae;
-    ->zac:Ljava/lang/ref/WeakReference;
+    iget-object p1, p1, Lcom/google/android/gms/common/images/zae;->zac:Ljava/lang/ref/WeakReference;
 
     .line 22
     .line 23
-    invoke-virtual {p1}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {p1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 24
     .line 25
@@ -143,8 +130,7 @@
 
     .line 32
     .line 33
-    invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/Objects;
-    ->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/Objects;->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 34
     .line 35
@@ -179,13 +165,11 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/images/zae;
-    ->zac:Ljava/lang/ref/WeakReference;
+    iget-object v0, p0, Lcom/google/android/gms/common/images/zae;->zac:Ljava/lang/ref/WeakReference;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -257,8 +241,7 @@
 
     .line 32
     .line 33
-    invoke-virtual {v0}, Landroid/widget/ImageView;
-    ->getDrawable()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {v0}, Landroid/widget/ImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     .line 34
     .line 35
@@ -282,8 +265,7 @@
 
     .line 44
     .line 45
-    invoke-virtual {p2}, Lcom/google/android/gms/internal/base/zak;
-    ->zaa()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p2}, Lcom/google/android/gms/internal/base/zak;->zaa()Landroid/graphics/drawable/Drawable;
 
     .line 46
     .line 47
@@ -304,8 +286,7 @@
 
     .line 52
     .line 53
-    invoke-direct {p3, p2, p1}, Lcom/google/android/gms/internal/base/zak;
-    -><init>(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V
+    invoke-direct {p3, p2, p1}, Lcom/google/android/gms/internal/base/zak;-><init>(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V
 
     .line 54
     .line 55
@@ -314,8 +295,7 @@
 
     .line 57
     :cond_6
-    invoke-virtual {v0, p1}, Landroid/widget/ImageView;
-    ->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 58
     .line 59
@@ -344,8 +324,7 @@
 
     .line 71
     .line 72
-    invoke-virtual {p1, p2}, Lcom/google/android/gms/internal/base/zak;
-    ->zab(I)V
+    invoke-virtual {p1, p2}, Lcom/google/android/gms/internal/base/zak;->zab(I)V
 
     .line 73
     .line 74

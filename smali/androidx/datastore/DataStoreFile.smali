@@ -12,8 +12,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -22,8 +21,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -32,8 +30,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     .line 14
     .line 15
@@ -41,8 +38,7 @@
     move-result-object p0
 
     .line 17
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getFilesDir()Ljava/io/File;
+    invoke-virtual {p0}, Landroid/content/Context;->getFilesDir()Ljava/io/File;
 
     .line 18
     .line 19
@@ -54,8 +50,7 @@
 
     .line 22
     .line 23
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;
-    ->j(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->j(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;
 
     .line 24
     .line 25
@@ -63,8 +58,7 @@
     move-result-object p1
 
     .line 27
-    invoke-direct {v0, p0, p1}, Ljava/io/File;
-    -><init>(Ljava/io/File;Ljava/lang/String;)V
+    invoke-direct {v0, p0, p1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
     return-object v0
 .end method
 

@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/activity/ActivityViewModelLazyKt;
-    ->viewModels(Landroidx/activity/ComponentActivity;Lp1/a;Lp1/a;)Lc1/d;
+    value = Landroidx/activity/ActivityViewModelLazyKt;->viewModels(Landroidx/activity/ComponentActivity;Lp1/a;Lp1/a;)Lc1/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -50,21 +49,18 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/activity/ActivityViewModelLazyKt$viewModels$4;
-    ->$extrasProducer:Lp1/a;
+    iput-object p1, p0, Landroidx/activity/ActivityViewModelLazyKt$viewModels$4;->$extrasProducer:Lp1/a;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/activity/ActivityViewModelLazyKt$viewModels$4;
-    ->$this_viewModels:Landroidx/activity/ComponentActivity;
+    iput-object p2, p0, Landroidx/activity/ActivityViewModelLazyKt$viewModels$4;->$this_viewModels:Landroidx/activity/ComponentActivity;
 
     .line 4
     .line 5
     const/4 p1, 0x0
 
     .line 6
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
-    -><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
 return-void
 .end method
 
@@ -74,13 +70,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/ActivityViewModelLazyKt$viewModels$4;
-    ->$extrasProducer:Lp1/a;
+    iget-object v0, p0, Landroidx/activity/ActivityViewModelLazyKt$viewModels$4;->$extrasProducer:Lp1/a;
 
     if-eqz v0, :cond_1
 
-    invoke-interface {v0}, Lp1/a;
-    ->invoke()Ljava/lang/Object;
+    invoke-interface {v0}, Lp1/a;->invoke()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -95,11 +89,9 @@ return-void
 
     :cond_1
     :goto_0
-    iget-object v0, p0, Landroidx/activity/ActivityViewModelLazyKt$viewModels$4;
-    ->$this_viewModels:Landroidx/activity/ComponentActivity;
+    iget-object v0, p0, Landroidx/activity/ActivityViewModelLazyKt$viewModels$4;->$this_viewModels:Landroidx/activity/ComponentActivity;
 
-    invoke-virtual {v0}, Landroidx/activity/ComponentActivity;
-    ->getDefaultViewModelCreationExtras()Landroidx/lifecycle/viewmodel/CreationExtras;
+    invoke-virtual {v0}, Landroidx/activity/ComponentActivity;->getDefaultViewModelCreationExtras()Landroidx/lifecycle/viewmodel/CreationExtras;
 
     move-result-object v0
 
@@ -110,8 +102,7 @@ return-void
     .locals 1
 
     .line 2
-    invoke-virtual {p0}, Landroidx/activity/ActivityViewModelLazyKt$viewModels$4;
-    ->invoke()Landroidx/lifecycle/viewmodel/CreationExtras;
+    invoke-virtual {p0}, Landroidx/activity/ActivityViewModelLazyKt$viewModels$4;->invoke()Landroidx/lifecycle/viewmodel/CreationExtras;
 
     move-result-object v0
 

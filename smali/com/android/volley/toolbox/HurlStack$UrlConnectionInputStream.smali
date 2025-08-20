@@ -23,8 +23,7 @@
     .locals 1
 
     .line 1
-    invoke-static {p1}, Lcom/android/volley/toolbox/HurlStack;
-    ->access$000(Ljava/net/HttpURLConnection;)Ljava/io/InputStream;
+    invoke-static {p1}, Lcom/android/volley/toolbox/HurlStack;->access$000(Ljava/net/HttpURLConnection;)Ljava/io/InputStream;
 
     .line 2
     .line 3
@@ -32,14 +31,12 @@
     move-result-object v0
 
     .line 5
-    invoke-direct {p0, v0}, Ljava/io/FilterInputStream;
-    -><init>(Ljava/io/InputStream;)V
+    invoke-direct {p0, v0}, Ljava/io/FilterInputStream;-><init>(Ljava/io/InputStream;)V
 
     .line 6
     .line 7
     .line 8
-    iput-object p1, p0, Lcom/android/volley/toolbox/HurlStack$UrlConnectionInputStream;
-    ->mConnection:Ljava/net/HttpURLConnection;
+    iput-object p1, p0, Lcom/android/volley/toolbox/HurlStack$UrlConnectionInputStream;->mConnection:Ljava/net/HttpURLConnection;
 
     .line 9
     .line 10
@@ -52,19 +49,16 @@
     .locals 1
 
     .line 1
-    invoke-super {p0}, Ljava/io/FilterInputStream;
-    ->close()V
+    invoke-super {p0}, Ljava/io/FilterInputStream;->close()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lcom/android/volley/toolbox/HurlStack$UrlConnectionInputStream;
-    ->mConnection:Ljava/net/HttpURLConnection;
+    iget-object v0, p0, Lcom/android/volley/toolbox/HurlStack$UrlConnectionInputStream;->mConnection:Ljava/net/HttpURLConnection;
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Ljava/net/HttpURLConnection;
-    ->disconnect()V
+    invoke-virtual {v0}, Ljava/net/HttpURLConnection;->disconnect()V
 
     .line 7
     .line 8

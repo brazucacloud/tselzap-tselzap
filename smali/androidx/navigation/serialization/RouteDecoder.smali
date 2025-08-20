@@ -30,45 +30,36 @@
 
     const-string v0, "bundle"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "typeMap"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, -0x1
 
     .line 2
-    iput v0, p0, Landroidx/navigation/serialization/RouteDecoder;
-    ->elementIndex:I
+    iput v0, p0, Landroidx/navigation/serialization/RouteDecoder;->elementIndex:I
 
     .line 3
     const-string v0, ""
 
-    iput-object v0, p0, Landroidx/navigation/serialization/RouteDecoder;
-    ->elementName:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/navigation/serialization/RouteDecoder;->elementName:Ljava/lang/String;
 
     .line 4
-    sget-object v0, LO1/c;
-    ->a:LO1/a;
+    sget-object v0, LO1/c;->a:LO1/a;
 
-    iput-object v0, p0, Landroidx/navigation/serialization/RouteDecoder;
-    ->serializersModule:LO1/b;
+    iput-object v0, p0, Landroidx/navigation/serialization/RouteDecoder;->serializersModule:LO1/b;
 
     .line 5
     new-instance v0, Landroidx/navigation/serialization/BundleArgStore;
 
-    invoke-direct {v0, p1, p2}, Landroidx/navigation/serialization/BundleArgStore;
-    -><init>(Landroid/os/Bundle;Ljava/util/Map;)V
+    invoke-direct {v0, p1, p2}, Landroidx/navigation/serialization/BundleArgStore;-><init>(Landroid/os/Bundle;Ljava/util/Map;)V
 
-    iput-object v0, p0, Landroidx/navigation/serialization/RouteDecoder;
-    ->store:Landroidx/navigation/serialization/ArgStore;
+    iput-object v0, p0, Landroidx/navigation/serialization/RouteDecoder;->store:Landroidx/navigation/serialization/ArgStore;
 
     return-void
 .end method
@@ -89,45 +80,36 @@
 
     const-string v0, "handle"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "typeMap"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, -0x1
 
     .line 7
-    iput v0, p0, Landroidx/navigation/serialization/RouteDecoder;
-    ->elementIndex:I
+    iput v0, p0, Landroidx/navigation/serialization/RouteDecoder;->elementIndex:I
 
     .line 8
     const-string v0, ""
 
-    iput-object v0, p0, Landroidx/navigation/serialization/RouteDecoder;
-    ->elementName:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/navigation/serialization/RouteDecoder;->elementName:Ljava/lang/String;
 
     .line 9
-    sget-object v0, LO1/c;
-    ->a:LO1/a;
+    sget-object v0, LO1/c;->a:LO1/a;
 
-    iput-object v0, p0, Landroidx/navigation/serialization/RouteDecoder;
-    ->serializersModule:LO1/b;
+    iput-object v0, p0, Landroidx/navigation/serialization/RouteDecoder;->serializersModule:LO1/b;
 
     .line 10
     new-instance v0, Landroidx/navigation/serialization/SavedStateArgStore;
 
-    invoke-direct {v0, p1, p2}, Landroidx/navigation/serialization/SavedStateArgStore;
-    -><init>(Landroidx/lifecycle/SavedStateHandle;Ljava/util/Map;)V
+    invoke-direct {v0, p1, p2}, Landroidx/navigation/serialization/SavedStateArgStore;-><init>(Landroidx/lifecycle/SavedStateHandle;Ljava/util/Map;)V
 
-    iput-object v0, p0, Landroidx/navigation/serialization/RouteDecoder;
-    ->store:Landroidx/navigation/serialization/ArgStore;
+    iput-object v0, p0, Landroidx/navigation/serialization/RouteDecoder;->store:Landroidx/navigation/serialization/ArgStore;
 
     return-void
 .end method
@@ -142,18 +124,15 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/serialization/RouteDecoder;
-    ->store:Landroidx/navigation/serialization/ArgStore;
+    iget-object v0, p0, Landroidx/navigation/serialization/RouteDecoder;->store:Landroidx/navigation/serialization/ArgStore;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/navigation/serialization/RouteDecoder;
-    ->elementName:Ljava/lang/String;
+    iget-object v1, p0, Landroidx/navigation/serialization/RouteDecoder;->elementName:Ljava/lang/String;
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Landroidx/navigation/serialization/ArgStore;
-    ->get(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Landroidx/navigation/serialization/ArgStore;->get(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -173,25 +152,21 @@
 
     .line 15
     .line 16
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 17
     .line 18
     .line 19
-    iget-object v1, p0, Landroidx/navigation/serialization/RouteDecoder;
-    ->elementName:Ljava/lang/String;
+    iget-object v1, p0, Landroidx/navigation/serialization/RouteDecoder;->elementName:Ljava/lang/String;
 
     .line 20
     .line 21
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 22
     .line 23
     .line 24
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 25
     .line 26
@@ -203,8 +178,7 @@
 
     .line 29
     .line 30
-    invoke-virtual {v0}, Ljava/lang/Object;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     .line 31
     .line 32
@@ -212,8 +186,7 @@
     move-result-object v0
 
     .line 34
-    invoke-direct {v1, v0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 35
     .line 36
@@ -230,14 +203,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget v0, p0, Landroidx/navigation/serialization/RouteDecoder;
-    ->elementIndex:I
+    iget v0, p0, Landroidx/navigation/serialization/RouteDecoder;->elementIndex:I
 
     .line 7
     .line 8
@@ -246,8 +217,7 @@
 
     .line 9
     .line 10
-    invoke-interface {p1}, LL1/f;
-    ->b()I
+    invoke-interface {p1}, LL1/f;->b()I
 
     .line 11
     .line 12
@@ -265,8 +235,7 @@
 
     .line 18
     :cond_1
-    invoke-interface {p1, v0}, LL1/f;
-    ->c(I)Ljava/lang/String;
+    invoke-interface {p1, v0}, LL1/f;->c(I)Ljava/lang/String;
 
     .line 19
     .line 20
@@ -274,13 +243,11 @@
     move-result-object v1
 
     .line 22
-    iget-object v2, p0, Landroidx/navigation/serialization/RouteDecoder;
-    ->store:Landroidx/navigation/serialization/ArgStore;
+    iget-object v2, p0, Landroidx/navigation/serialization/RouteDecoder;->store:Landroidx/navigation/serialization/ArgStore;
 
     .line 23
     .line 24
-    invoke-virtual {v2, v1}, Landroidx/navigation/serialization/ArgStore;
-    ->contains(Ljava/lang/String;)Z
+    invoke-virtual {v2, v1}, Landroidx/navigation/serialization/ArgStore;->contains(Ljava/lang/String;)Z
 
     .line 25
     .line 26
@@ -292,13 +259,11 @@
 
     .line 29
     .line 30
-    iput v0, p0, Landroidx/navigation/serialization/RouteDecoder;
-    ->elementIndex:I
+    iput v0, p0, Landroidx/navigation/serialization/RouteDecoder;->elementIndex:I
 
     .line 31
     .line 32
-    iput-object v1, p0, Landroidx/navigation/serialization/RouteDecoder;
-    ->elementName:Ljava/lang/String;    
+    iput-object v1, p0, Landroidx/navigation/serialization/RouteDecoder;->elementName:Ljava/lang/String;
     return v0
 .end method
 
@@ -310,14 +275,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {p1}, Landroidx/navigation/serialization/RouteSerializerKt;
-    ->isValueClass(LL1/f;)Z
+    invoke-static {p1}, Landroidx/navigation/serialization/RouteSerializerKt;->isValueClass(LL1/f;)Z
 
     .line 7
     .line 8
@@ -332,8 +295,7 @@
     const/4 v0, 0x0
 
     .line 13
-    invoke-interface {p1, v0}, LL1/f;
-    ->c(I)Ljava/lang/String;
+    invoke-interface {p1, v0}, LL1/f;->c(I)Ljava/lang/String;
 
     .line 14
     .line 15
@@ -341,13 +303,11 @@
     move-result-object p1
 
     .line 17
-    iput-object p1, p0, Landroidx/navigation/serialization/RouteDecoder;
-    ->elementName:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/navigation/serialization/RouteDecoder;->elementName:Ljava/lang/String;
 
     .line 18
     .line 19
-    iput v0, p0, Landroidx/navigation/serialization/RouteDecoder;
-    ->elementIndex:I
+    iput v0, p0, Landroidx/navigation/serialization/RouteDecoder;->elementIndex:I
 
     .line 20
     .line 21
@@ -359,18 +319,15 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/serialization/RouteDecoder;
-    ->store:Landroidx/navigation/serialization/ArgStore;
+    iget-object v0, p0, Landroidx/navigation/serialization/RouteDecoder;->store:Landroidx/navigation/serialization/ArgStore;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/navigation/serialization/RouteDecoder;
-    ->elementName:Ljava/lang/String;
+    iget-object v1, p0, Landroidx/navigation/serialization/RouteDecoder;->elementName:Ljava/lang/String;
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Landroidx/navigation/serialization/ArgStore;
-    ->get(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Landroidx/navigation/serialization/ArgStore;->get(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -418,14 +375,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-interface {p1, p0}, LJ1/a;
-    ->b(Landroidx/navigation/serialization/RouteDecoder;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, LJ1/a;->b(Landroidx/navigation/serialization/RouteDecoder;)Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -452,14 +407,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Landroidx/navigation/serialization/RouteDecoder;
-    ->internalDecodeValue()Ljava/lang/Object;
+    invoke-direct {p0}, Landroidx/navigation/serialization/RouteDecoder;->internalDecodeValue()Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -473,8 +426,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroidx/navigation/serialization/RouteDecoder;
-    ->internalDecodeValue()Ljava/lang/Object;
+    invoke-direct {p0}, Landroidx/navigation/serialization/RouteDecoder;->internalDecodeValue()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -488,8 +440,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/serialization/RouteDecoder;
-    ->serializersModule:LO1/b;    return-object v0
+    iget-object v0, p0, Landroidx/navigation/serialization/RouteDecoder;->serializersModule:LO1/b;    return-object v0
 .end method
 
 .end class

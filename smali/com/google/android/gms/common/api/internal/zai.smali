@@ -11,11 +11,9 @@
 .method public constructor <init>(I)V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput p1, p0, Lcom/google/android/gms/common/api/internal/zai;
-    ->zac:I
+    iput p1, p0, Lcom/google/android/gms/common/api/internal/zai;->zac:I
 
     return-void
 .end method
@@ -28,14 +26,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/StringBuilder;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 7
     .line 8
@@ -43,8 +39,7 @@
     move-result-object v1
 
     .line 10
-    invoke-virtual {v1}, Ljava/lang/Class;
-    ->getSimpleName()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
     .line 11
     .line 12
@@ -52,8 +47,7 @@
     move-result-object v1
 
     .line 14
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 15
     .line 16
@@ -62,14 +56,12 @@
 
     .line 18
     .line 19
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {p0}, Ljava/lang/Throwable;
-    ->getLocalizedMessage()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/Throwable;->getLocalizedMessage()Ljava/lang/String;
 
     .line 23
     .line 24
@@ -77,14 +69,12 @@
     move-result-object p0
 
     .line 26
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 27
     .line 28
     .line 29
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 30
     .line 31
@@ -100,8 +90,7 @@
 
     .line 36
     .line 37
-    invoke-direct {v0, v1, p0}, Lcom/google/android/gms/common/api/Status;
-    -><init>(ILjava/lang/String;)V
+    invoke-direct {v0, v1, p0}, Lcom/google/android/gms/common/api/Status;-><init>(ILjava/lang/String;)V
 
     .line 38
     .line 39

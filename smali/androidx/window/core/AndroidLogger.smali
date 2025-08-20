@@ -16,11 +16,9 @@
 
     new-instance v0, Landroidx/window/core/AndroidLogger;
 
-    invoke-direct {v0}, Landroidx/window/core/AndroidLogger;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/window/core/AndroidLogger;-><init>()V
 
-    sput-object v0, Landroidx/window/core/AndroidLogger;
-    ->INSTANCE:Landroidx/window/core/AndroidLogger;
+    sput-object v0, Landroidx/window/core/AndroidLogger;->INSTANCE:Landroidx/window/core/AndroidLogger;
 
     return-void
 .end method
@@ -29,8 +27,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -48,8 +45,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -58,14 +54,12 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-static {p1, p2}, Landroid/util/Log;
-    ->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, p2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 12
     .line 13

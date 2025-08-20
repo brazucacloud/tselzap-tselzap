@@ -21,8 +21,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -31,14 +30,12 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/LinkedHashMap;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/lifecycle/ViewModelStore;
-    ->map:Ljava/util/Map;    
+    iput-object v0, p0, Landroidx/lifecycle/ViewModelStore;->map:Ljava/util/Map;
     return-void
 .end method
 
@@ -48,13 +45,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/ViewModelStore;
-    ->map:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/lifecycle/ViewModelStore;->map:Ljava/util/Map;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/Map;
-    ->values()Ljava/util/Collection;
+    invoke-interface {v0}, Ljava/util/Map;->values()Ljava/util/Collection;
 
     .line 4
     .line 5
@@ -62,8 +57,7 @@
     move-result-object v0
 
     .line 7
-    invoke-interface {v0}, Ljava/util/Collection;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     .line 8
     .line 9
@@ -72,8 +66,7 @@
 
     .line 11
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 12
     .line 13
@@ -85,8 +78,7 @@
 
     .line 16
     .line 17
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -98,8 +90,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {v1}, Landroidx/lifecycle/ViewModel;
-    ->clear$lifecycle_viewmodel_release()V
+    invoke-virtual {v1}, Landroidx/lifecycle/ViewModel;->clear$lifecycle_viewmodel_release()V
 
     .line 24
     .line 25
@@ -108,13 +99,11 @@
 
     .line 27
     :cond_0
-    iget-object v0, p0, Landroidx/lifecycle/ViewModelStore;
-    ->map:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/lifecycle/ViewModelStore;->map:Ljava/util/Map;
 
     .line 28
     .line 29
-    invoke-interface {v0}, Ljava/util/Map;
-    ->clear()V
+    invoke-interface {v0}, Ljava/util/Map;->clear()V
 return-void
 .end method
 
@@ -122,8 +111,7 @@ return-void
     .locals 1
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -132,19 +120,16 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/lifecycle/ViewModelStore;
-    ->map:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/lifecycle/ViewModelStore;->map:Ljava/util/Map;
 
     .line 7
     .line 8
-    invoke-interface {v0, p1}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -159,8 +144,7 @@ return-void
     .locals 2
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -178,13 +162,11 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/lifecycle/ViewModelStore;
-    ->map:Ljava/util/Map;
+    iget-object v1, p0, Landroidx/lifecycle/ViewModelStore;->map:Ljava/util/Map;
 
     .line 4
     .line 5
-    invoke-interface {v1}, Ljava/util/Map;
-    ->keySet()Ljava/util/Set;
+    invoke-interface {v1}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     .line 6
     .line 7
@@ -192,8 +174,7 @@ return-void
     move-result-object v1
 
     .line 9
-    invoke-direct {v0, v1}, Ljava/util/HashSet;
-    -><init>(Ljava/util/Collection;)V
+    invoke-direct {v0, v1}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
 return-object v0
 .end method
 
@@ -201,8 +182,7 @@ return-object v0
     .locals 1
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -211,8 +191,7 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -221,19 +200,16 @@ return-object v0
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/lifecycle/ViewModelStore;
-    ->map:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/lifecycle/ViewModelStore;->map:Ljava/util/Map;
 
     .line 12
     .line 13
-    invoke-interface {v0, p1, p2}, Ljava/util/Map;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -249,8 +225,7 @@ return-object v0
 
     .line 20
     .line 21
-    invoke-virtual {p1}, Landroidx/lifecycle/ViewModel;
-    ->clear$lifecycle_viewmodel_release()V
+    invoke-virtual {p1}, Landroidx/lifecycle/ViewModel;->clear$lifecycle_viewmodel_release()V
 
     .line 22
     .line 23

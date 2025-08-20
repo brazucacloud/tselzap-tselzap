@@ -17,14 +17,11 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Lo/b;
-    ->a:I
+    iput p2, p0, Lo/b;->a:I
 
-    iput-object p1, p0, Lo/b;
-    ->b:Ljava/lang/Object;
+    iput-object p1, p0, Lo/b;->b:Ljava/lang/Object;
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -34,8 +31,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lo/b;
-    ->a:I
+    iget v0, p0, Lo/b;->a:I
 
     .line 2
     .line 3
@@ -54,8 +50,7 @@
 
     .line 10
     :pswitch_0
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     .line 11
     .line 12
@@ -67,8 +62,7 @@
 
     .line 15
     .line 16
-    invoke-virtual {p1, v0}, Ljava/lang/String;
-    ->startsWith(Ljava/lang/String;)Z
+    invoke-virtual {p1, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     .line 17
     .line 18
@@ -101,8 +95,7 @@
     .locals 2
 
     .line 1
-    iget p2, p0, Lo/b;
-    ->a:I
+    iget p2, p0, Lo/b;->a:I
 
     .line 2
     .line 3
@@ -123,8 +116,7 @@
 
     .line 11
     .line 12
-    invoke-direct {p3, p1}, LD/b;
-    -><init>(Ljava/lang/Object;)V
+    invoke-direct {p3, p1}, LD/b;-><init>(Ljava/lang/Object;)V
 
     .line 13
     .line 14
@@ -133,8 +125,7 @@
 
     .line 16
     .line 17
-    iget-object v0, p0, Lo/b;
-    ->b:Ljava/lang/Object;
+    iget-object v0, p0, Lo/b;->b:Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -145,14 +136,12 @@
     const/4 v1, 0x2
 
     .line 22
-    invoke-direct {p4, v1, p1, v0}, Lj/b;
-    -><init>(ILjava/lang/Comparable;Ljava/lang/Object;)V
+    invoke-direct {p4, v1, p1, v0}, Lj/b;-><init>(ILjava/lang/Comparable;Ljava/lang/Object;)V
 
     .line 23
     .line 24
     .line 25
-    invoke-direct {p2, p3, p4}, Lo/n;
-    -><init>(Li/f;Lcom/bumptech/glide/load/data/e;)V
+    invoke-direct {p2, p3, p4}, Lo/n;-><init>(Li/f;Lcom/bumptech/glide/load/data/e;)V
 
     .line 26
     .line 27
@@ -169,8 +158,7 @@
 
     .line 32
     .line 33
-    invoke-direct {p3, p1}, LD/b;
-    -><init>(Ljava/lang/Object;)V
+    invoke-direct {p3, p1}, LD/b;-><init>(Ljava/lang/Object;)V
 
     .line 34
     .line 35
@@ -179,8 +167,7 @@
 
     .line 37
     .line 38
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     .line 39
     .line 40
@@ -188,8 +175,7 @@
     move-result-object p1
 
     .line 42
-    iget-object v0, p0, Lo/b;
-    ->b:Ljava/lang/Object;
+    iget-object v0, p0, Lo/b;->b:Ljava/lang/Object;
 
     .line 43
     .line 44
@@ -200,14 +186,12 @@
     const/4 v1, 0x1
 
     .line 47
-    invoke-direct {p4, v1, p1, v0}, Lj/b;
-    -><init>(ILjava/lang/Comparable;Ljava/lang/Object;)V
+    invoke-direct {p4, v1, p1, v0}, Lj/b;-><init>(ILjava/lang/Comparable;Ljava/lang/Object;)V
 
     .line 48
     .line 49
     .line 50
-    invoke-direct {p2, p3, p4}, Lo/n;
-    -><init>(Li/f;Lcom/bumptech/glide/load/data/e;)V
+    invoke-direct {p2, p3, p4}, Lo/n;-><init>(Li/f;Lcom/bumptech/glide/load/data/e;)V
 
     .line 51
     .line 52
@@ -228,8 +212,7 @@
 
     .line 59
     .line 60
-    invoke-direct {p3, p1}, LD/b;
-    -><init>(Ljava/lang/Object;)V
+    invoke-direct {p3, p1}, LD/b;-><init>(Ljava/lang/Object;)V
 
     .line 61
     .line 62
@@ -238,8 +221,7 @@
 
     .line 64
     .line 65
-    iget-object v0, p0, Lo/b;
-    ->b:Ljava/lang/Object;
+    iget-object v0, p0, Lo/b;->b:Ljava/lang/Object;
 
     .line 66
     .line 67
@@ -250,14 +232,12 @@
     const/4 v1, 0x1
 
     .line 70
-    invoke-direct {p4, v1, p1, v0}, Lo/j;
-    -><init>(ILjava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {p4, v1, p1, v0}, Lo/j;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
 
     .line 71
     .line 72
     .line 73
-    invoke-direct {p2, p3, p4}, Lo/n;
-    -><init>(Li/f;Lcom/bumptech/glide/load/data/e;)V
+    invoke-direct {p2, p3, p4}, Lo/n;-><init>(Li/f;Lcom/bumptech/glide/load/data/e;)V
 
     .line 74
     .line 75

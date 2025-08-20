@@ -19,8 +19,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -32,8 +31,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroid/support/v4/app/INotificationSideChannel$_Parcel;
-    ->readTypedObject(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Ljava/lang/Object;
+    invoke-static {p0, p1}, Landroid/support/v4/app/INotificationSideChannel$_Parcel;->readTypedObject(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -47,8 +45,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroid/support/v4/app/INotificationSideChannel$_Parcel;
-    ->writeTypedObject(Landroid/os/Parcel;Landroid/os/Parcelable;I)V
+    invoke-static {p0, p1, p2}, Landroid/support/v4/app/INotificationSideChannel$_Parcel;->writeTypedObject(Landroid/os/Parcel;Landroid/os/Parcelable;I)V
 
     .line 2
     .line 3
@@ -70,8 +67,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/os/Parcel;
-    ->readInt()I
+    invoke-virtual {p0}, Landroid/os/Parcel;->readInt()I
 
     .line 2
     .line 3
@@ -83,8 +79,7 @@
 
     .line 6
     .line 7
-    invoke-interface {p1, p0}, Landroid/os/Parcelable$Creator;
-    ->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+    invoke-interface {p1, p0}, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -120,14 +115,12 @@
     const/4 v0, 0x1
 
     .line 4
-    invoke-virtual {p0, v0}, Landroid/os/Parcel;
-    ->writeInt(I)V
+    invoke-virtual {p0, v0}, Landroid/os/Parcel;->writeInt(I)V
 
     .line 5
     .line 6
     .line 7
-    invoke-interface {p1, p0, p2}, Landroid/os/Parcelable;
-    ->writeToParcel(Landroid/os/Parcel;I)V
+    invoke-interface {p1, p0, p2}, Landroid/os/Parcelable;->writeToParcel(Landroid/os/Parcel;I)V
 
     .line 8
     .line 9
@@ -139,8 +132,7 @@
     const/4 p1, 0x0
 
     .line 12
-    invoke-virtual {p0, p1}, Landroid/os/Parcel;
-    ->writeInt(I)V
+    invoke-virtual {p0, p1}, Landroid/os/Parcel;->writeInt(I)V
 
     .line 13
     .line 14

@@ -22,8 +22,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/lifecycle/EmptyActivityLifecycleCallbacks;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/lifecycle/EmptyActivityLifecycleCallbacks;-><init>()V
     return-void
 .end method
 
@@ -37,19 +36,16 @@
 
     .line 2
     .line 3
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object p2, Landroidx/lifecycle/ReportFragment;
-    ->Companion:Landroidx/lifecycle/ReportFragment$Companion;
+    sget-object p2, Landroidx/lifecycle/ReportFragment;->Companion:Landroidx/lifecycle/ReportFragment$Companion;
 
     .line 7
     .line 8
-    invoke-virtual {p2, p1}, Landroidx/lifecycle/ReportFragment$Companion;
-    ->injectIfNeededIn(Landroid/app/Activity;)V
+    invoke-virtual {p2, p1}, Landroidx/lifecycle/ReportFragment$Companion;->injectIfNeededIn(Landroid/app/Activity;)V
 return-void
 .end method
 

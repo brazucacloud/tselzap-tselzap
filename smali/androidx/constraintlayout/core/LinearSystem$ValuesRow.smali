@@ -19,8 +19,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroidx/constraintlayout/core/ArrayRow;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/core/ArrayRow;-><init>()V
 
     .line 2
     .line 3
@@ -29,14 +28,12 @@
 
     .line 5
     .line 6
-    invoke-direct {v0, p0, p1}, Landroidx/constraintlayout/core/SolverVariableValues;
-    -><init>(Landroidx/constraintlayout/core/ArrayRow;Landroidx/constraintlayout/core/Cache;)V
+    invoke-direct {v0, p0, p1}, Landroidx/constraintlayout/core/SolverVariableValues;-><init>(Landroidx/constraintlayout/core/ArrayRow;Landroidx/constraintlayout/core/Cache;)V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/constraintlayout/core/ArrayRow;
-    ->variables:Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;    
+    iput-object v0, p0, Landroidx/constraintlayout/core/ArrayRow;->variables:Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;
     return-void
 .end method
 

@@ -24,8 +24,7 @@
 
     .line 3
     .line 4
-    invoke-static {}, Landroid/os/Binder;
-    ->clearCallingIdentity()J
+    invoke-static {}, Landroid/os/Binder;->clearCallingIdentity()J
 
     .line 5
     .line 6
@@ -34,8 +33,7 @@
 
     .line 8
     :try_start_0
-    invoke-interface {p0}, Lcom/google/android/gms/common/internal/IAccountAccessor;
-    ->zzb()Landroid/accounts/Account;
+    invoke-interface {p0}, Lcom/google/android/gms/common/internal/IAccountAccessor;->zzb()Landroid/accounts/Account;
 
     .line 9
     .line 10
@@ -46,8 +44,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 12
-    invoke-static {v1, v2}, Landroid/os/Binder;
-    ->restoreCallingIdentity(J)V
+    invoke-static {v1, v2}, Landroid/os/Binder;->restoreCallingIdentity(J)V
 
     .line 13
     .line 14
@@ -72,16 +69,14 @@
 
     .line 21
     .line 22
-    invoke-static {p0, v3}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, v3}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 23
     .line 24
     .line 25
-    invoke-static {v1, v2}, Landroid/os/Binder;
-    ->restoreCallingIdentity(J)V
+    invoke-static {v1, v2}, Landroid/os/Binder;->restoreCallingIdentity(J)V
 
     .line 26
     .line 27
@@ -90,8 +85,7 @@
 
     .line 29
     :goto_0
-    invoke-static {v1, v2}, Landroid/os/Binder;
-    ->restoreCallingIdentity(J)V
+    invoke-static {v1, v2}, Landroid/os/Binder;->restoreCallingIdentity(J)V
 
     .line 30
     .line 31

@@ -56,14 +56,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;
-    ->sExecutorLock:Ljava/lang/Object;    return-void
+    sput-object v0, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;->sExecutorLock:Ljava/lang/Object;    return-void
 .end method
 
 .method public constructor <init>(Landroidx/recyclerview/widget/DiffUtil$ItemCallback;)V
@@ -81,14 +79,12 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;
-    ->mDiffCallback:Landroidx/recyclerview/widget/DiffUtil$ItemCallback;    
+    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;->mDiffCallback:Landroidx/recyclerview/widget/DiffUtil$ItemCallback;
     return-void
 .end method
 
@@ -108,8 +104,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;
-    ->mBackgroundThreadExecutor:Ljava/util/concurrent/Executor;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;->mBackgroundThreadExecutor:Ljava/util/concurrent/Executor;
 
     .line 2
     .line 3
@@ -117,8 +112,7 @@
 
     .line 4
     .line 5
-    sget-object v0, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;
-    ->sExecutorLock:Ljava/lang/Object;
+    sget-object v0, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;->sExecutorLock:Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -126,8 +120,7 @@
 
     .line 8
     :try_start_0
-    sget-object v1, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;
-    ->sDiffExecutor:Ljava/util/concurrent/Executor;
+    sget-object v1, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;->sDiffExecutor:Ljava/util/concurrent/Executor;
 
     .line 9
     .line 10
@@ -138,8 +131,7 @@
     const/4 v1, 0x2
 
     .line 13
-    invoke-static {v1}, Ljava/util/concurrent/Executors;
-    ->newFixedThreadPool(I)Ljava/util/concurrent/ExecutorService;
+    invoke-static {v1}, Ljava/util/concurrent/Executors;->newFixedThreadPool(I)Ljava/util/concurrent/ExecutorService;
 
     .line 14
     .line 15
@@ -147,8 +139,7 @@
     move-result-object v1
 
     .line 17
-    sput-object v1, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;
-    ->sDiffExecutor:Ljava/util/concurrent/Executor;
+    sput-object v1, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;->sDiffExecutor:Ljava/util/concurrent/Executor;
 
     .line 18
     .line 19
@@ -169,13 +160,11 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 23
-    sget-object v0, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;
-    ->sDiffExecutor:Ljava/util/concurrent/Executor;
+    sget-object v0, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;->sDiffExecutor:Ljava/util/concurrent/Executor;
 
     .line 24
     .line 25
-    iput-object v0, p0, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;
-    ->mBackgroundThreadExecutor:Ljava/util/concurrent/Executor;
+    iput-object v0, p0, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;->mBackgroundThreadExecutor:Ljava/util/concurrent/Executor;
 
     .line 26
     .line 27
@@ -198,23 +187,19 @@
 
     .line 31
     .line 32
-    iget-object v1, p0, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;
-    ->mMainThreadExecutor:Ljava/util/concurrent/Executor;
+    iget-object v1, p0, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;->mMainThreadExecutor:Ljava/util/concurrent/Executor;
 
     .line 33
     .line 34
-    iget-object v2, p0, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;
-    ->mBackgroundThreadExecutor:Ljava/util/concurrent/Executor;
+    iget-object v2, p0, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;->mBackgroundThreadExecutor:Ljava/util/concurrent/Executor;
 
     .line 35
     .line 36
-    iget-object v3, p0, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;
-    ->mDiffCallback:Landroidx/recyclerview/widget/DiffUtil$ItemCallback;
+    iget-object v3, p0, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;->mDiffCallback:Landroidx/recyclerview/widget/DiffUtil$ItemCallback;
 
     .line 37
     .line 38
-    invoke-direct {v0, v1, v2, v3}, Landroidx/recyclerview/widget/AsyncDifferConfig;
-    -><init>(Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Landroidx/recyclerview/widget/DiffUtil$ItemCallback;)V
+    invoke-direct {v0, v1, v2, v3}, Landroidx/recyclerview/widget/AsyncDifferConfig;-><init>(Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;Landroidx/recyclerview/widget/DiffUtil$ItemCallback;)V
 return-object v0
 .end method
 
@@ -238,8 +223,7 @@ return-object v0
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;
-    ->mBackgroundThreadExecutor:Ljava/util/concurrent/Executor;    
+    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;->mBackgroundThreadExecutor:Ljava/util/concurrent/Executor;
     return-object p0
 .end method
 
@@ -254,8 +238,7 @@ return-object v0
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -270,8 +253,7 @@ return-object v0
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;
-    ->mMainThreadExecutor:Ljava/util/concurrent/Executor;    
+    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;->mMainThreadExecutor:Ljava/util/concurrent/Executor;
     return-object p0
 .end method
 

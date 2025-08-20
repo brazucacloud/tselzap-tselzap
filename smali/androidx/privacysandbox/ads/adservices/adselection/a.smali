@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/adselection/AdSelectionManager;
-    ->persistAdSelectionResult(Landroid/adservices/adselection/PersistAdSelectionResultRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
+    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/adselection/AdSelectionManager;->persistAdSelectionResult(Landroid/adservices/adselection/PersistAdSelectionResultRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
 return-void
 .end method
 
@@ -17,8 +16,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/adselection/AdSelectionManager;
-    ->reportEvent(Landroid/adservices/adselection/ReportEventRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
+    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/adselection/AdSelectionManager;->reportEvent(Landroid/adservices/adselection/ReportEventRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
 return-void
 .end method
 
@@ -26,8 +24,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/adselection/AdSelectionManager;
-    ->updateAdCounterHistogram(Landroid/adservices/adselection/UpdateAdCounterHistogramRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
+    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/adselection/AdSelectionManager;->updateAdCounterHistogram(Landroid/adservices/adselection/UpdateAdCounterHistogramRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
 return-void
 .end method
 
@@ -35,8 +32,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/adselection/GetAdSelectionDataOutcome;
-    ->getAdSelectionData()[B
+    invoke-virtual {p0}, Landroid/adservices/adselection/GetAdSelectionDataOutcome;->getAdSelectionData()[B
 
     move-result-object p0
 
@@ -47,8 +43,7 @@ return-void
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/adselection/GetAdSelectionDataOutcome;
-    ->getAdSelectionId()J
+    invoke-virtual {p0}, Landroid/adservices/adselection/GetAdSelectionDataOutcome;->getAdSelectionId()J
 
     move-result-wide v0
 
@@ -61,8 +56,7 @@ return-void
     .line 1
     new-instance v0, Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;
 
-    invoke-direct {v0}, Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;
-    -><init>()V
+    invoke-direct {v0}, Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;-><init>()V
     return-object v0
 .end method
 
@@ -70,8 +64,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;
-    ->setSelectionSignals(Landroid/adservices/common/AdSelectionSignals;)Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;->setSelectionSignals(Landroid/adservices/common/AdSelectionSignals;)Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;
 
     move-result-object p0
 
@@ -82,8 +75,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;
-    ->setSeller(Landroid/adservices/common/AdTechIdentifier;)Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;->setSeller(Landroid/adservices/common/AdTechIdentifier;)Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;
 
     move-result-object p0
 
@@ -94,8 +86,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;
-    ->setSelectionLogicUri(Landroid/net/Uri;)Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;->setSelectionLogicUri(Landroid/net/Uri;)Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;
 
     move-result-object p0
 
@@ -106,8 +97,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;
-    ->setAdSelectionIds(Ljava/util/List;)Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;->setAdSelectionIds(Ljava/util/List;)Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;
 
     move-result-object p0
 
@@ -118,8 +108,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;
-    ->build()Landroid/adservices/adselection/AdSelectionFromOutcomesConfig;
+    invoke-virtual {p0}, Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;->build()Landroid/adservices/adselection/AdSelectionFromOutcomesConfig;
 
     move-result-object p0
 
@@ -141,8 +130,7 @@ return-void
     .line 1
     new-instance v0, Landroid/adservices/adselection/GetAdSelectionDataRequest$Builder;
 
-    invoke-direct {v0}, Landroid/adservices/adselection/GetAdSelectionDataRequest$Builder;
-    -><init>()V
+    invoke-direct {v0}, Landroid/adservices/adselection/GetAdSelectionDataRequest$Builder;-><init>()V
     return-object v0
 .end method
 
@@ -150,8 +138,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/adselection/GetAdSelectionDataRequest$Builder;
-    ->setSeller(Landroid/adservices/common/AdTechIdentifier;)Landroid/adservices/adselection/GetAdSelectionDataRequest$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/adselection/GetAdSelectionDataRequest$Builder;->setSeller(Landroid/adservices/common/AdTechIdentifier;)Landroid/adservices/adselection/GetAdSelectionDataRequest$Builder;
 
     move-result-object p0
 
@@ -162,8 +149,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/adselection/GetAdSelectionDataRequest$Builder;
-    ->setCoordinatorOriginUri(Landroid/net/Uri;)Landroid/adservices/adselection/GetAdSelectionDataRequest$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/adselection/GetAdSelectionDataRequest$Builder;->setCoordinatorOriginUri(Landroid/net/Uri;)Landroid/adservices/adselection/GetAdSelectionDataRequest$Builder;
 
     move-result-object p0
 
@@ -174,8 +160,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/adselection/GetAdSelectionDataRequest$Builder;
-    ->build()Landroid/adservices/adselection/GetAdSelectionDataRequest;
+    invoke-virtual {p0}, Landroid/adservices/adselection/GetAdSelectionDataRequest$Builder;->build()Landroid/adservices/adselection/GetAdSelectionDataRequest;
 
     move-result-object p0
 
@@ -188,8 +173,7 @@ return-void
     .line 1
     new-instance v0, Landroid/adservices/adselection/PersistAdSelectionResultRequest$Builder;
 
-    invoke-direct {v0}, Landroid/adservices/adselection/PersistAdSelectionResultRequest$Builder;
-    -><init>()V
+    invoke-direct {v0}, Landroid/adservices/adselection/PersistAdSelectionResultRequest$Builder;-><init>()V
     return-object v0
 .end method
 
@@ -197,8 +181,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/adservices/adselection/PersistAdSelectionResultRequest$Builder;
-    ->setAdSelectionId(J)Landroid/adservices/adselection/PersistAdSelectionResultRequest$Builder;
+    invoke-virtual {p0, p1, p2}, Landroid/adservices/adselection/PersistAdSelectionResultRequest$Builder;->setAdSelectionId(J)Landroid/adservices/adselection/PersistAdSelectionResultRequest$Builder;
 
     move-result-object p0
 
@@ -209,8 +192,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/adselection/PersistAdSelectionResultRequest$Builder;
-    ->setSeller(Landroid/adservices/common/AdTechIdentifier;)Landroid/adservices/adselection/PersistAdSelectionResultRequest$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/adselection/PersistAdSelectionResultRequest$Builder;->setSeller(Landroid/adservices/common/AdTechIdentifier;)Landroid/adservices/adselection/PersistAdSelectionResultRequest$Builder;
 
     move-result-object p0
 
@@ -221,8 +203,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/adselection/PersistAdSelectionResultRequest$Builder;
-    ->setAdSelectionResult([B)Landroid/adservices/adselection/PersistAdSelectionResultRequest$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/adselection/PersistAdSelectionResultRequest$Builder;->setAdSelectionResult([B)Landroid/adservices/adselection/PersistAdSelectionResultRequest$Builder;
 
     move-result-object p0
 
@@ -233,8 +214,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/adselection/PersistAdSelectionResultRequest$Builder;
-    ->build()Landroid/adservices/adselection/PersistAdSelectionResultRequest;
+    invoke-virtual {p0}, Landroid/adservices/adselection/PersistAdSelectionResultRequest$Builder;->build()Landroid/adservices/adselection/PersistAdSelectionResultRequest;
 
     move-result-object p0
 
@@ -255,8 +235,7 @@ return-void
 
     move v5, p4
 
-    invoke-direct/range {v0 .. v5}, Landroid/adservices/adselection/ReportEventRequest$Builder;
-    -><init>(JLjava/lang/String;Ljava/lang/String;I)V
+    invoke-direct/range {v0 .. v5}, Landroid/adservices/adselection/ReportEventRequest$Builder;-><init>(JLjava/lang/String;Ljava/lang/String;I)V
     return-object v0
 .end method
 
@@ -264,8 +243,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/adselection/ReportEventRequest$Builder;
-    ->setInputEvent(Landroid/view/InputEvent;)Landroid/adservices/adselection/ReportEventRequest$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/adselection/ReportEventRequest$Builder;->setInputEvent(Landroid/view/InputEvent;)Landroid/adservices/adselection/ReportEventRequest$Builder;
 
     move-result-object p0
 
@@ -276,8 +254,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/adselection/ReportEventRequest$Builder;
-    ->build()Landroid/adservices/adselection/ReportEventRequest;
+    invoke-virtual {p0}, Landroid/adservices/adselection/ReportEventRequest$Builder;->build()Landroid/adservices/adselection/ReportEventRequest;
 
     move-result-object p0
 
@@ -290,8 +267,7 @@ return-void
     .line 1
     new-instance v0, Landroid/adservices/adselection/ReportImpressionRequest;
 
-    invoke-direct {v0, p0, p1}, Landroid/adservices/adselection/ReportImpressionRequest;
-    -><init>(J)V
+    invoke-direct {v0, p0, p1}, Landroid/adservices/adselection/ReportImpressionRequest;-><init>(J)V
     return-object v0
 .end method
 
@@ -301,8 +277,7 @@ return-void
     .line 1
     new-instance v0, Landroid/adservices/adselection/UpdateAdCounterHistogramRequest$Builder;
 
-    invoke-direct {v0, p0, p1, p2, p3}, Landroid/adservices/adselection/UpdateAdCounterHistogramRequest$Builder;
-    -><init>(JILandroid/adservices/common/AdTechIdentifier;)V
+    invoke-direct {v0, p0, p1, p2, p3}, Landroid/adservices/adselection/UpdateAdCounterHistogramRequest$Builder;-><init>(JILandroid/adservices/common/AdTechIdentifier;)V
 return-object v0
 .end method
 
@@ -310,8 +285,7 @@ return-object v0
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/adselection/UpdateAdCounterHistogramRequest$Builder;
-    ->build()Landroid/adservices/adselection/UpdateAdCounterHistogramRequest;
+    invoke-virtual {p0}, Landroid/adservices/adselection/UpdateAdCounterHistogramRequest$Builder;->build()Landroid/adservices/adselection/UpdateAdCounterHistogramRequest;
 
     move-result-object p0
 
@@ -331,8 +305,7 @@ return-object v0
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/adselection/AdSelectionManager;
-    ->selectAds(Landroid/adservices/adselection/AdSelectionFromOutcomesConfig;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
+    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/adselection/AdSelectionManager;->selectAds(Landroid/adservices/adselection/AdSelectionFromOutcomesConfig;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
 return-void
 .end method
 
@@ -340,8 +313,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/adselection/AdSelectionManager;
-    ->getAdSelectionData(Landroid/adservices/adselection/GetAdSelectionDataRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
+    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/adselection/AdSelectionManager;->getAdSelectionData(Landroid/adservices/adselection/GetAdSelectionDataRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
 return-void
 .end method
 

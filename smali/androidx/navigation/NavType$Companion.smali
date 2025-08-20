@@ -19,8 +19,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -28,8 +27,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/navigation/NavType$Companion;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/navigation/NavType$Companion;-><init>()V
     return-void
 .end method
 
@@ -49,13 +47,11 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/navigation/NavType;
-    ->IntType:Landroidx/navigation/NavType;
+    sget-object v0, Landroidx/navigation/NavType;->IntType:Landroidx/navigation/NavType;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/navigation/NavType;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v0}, Landroidx/navigation/NavType;->getName()Ljava/lang/String;
 
     .line 4
     .line 5
@@ -63,8 +59,7 @@
     move-result-object v1
 
     .line 7
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 8
     .line 9
@@ -76,13 +71,11 @@
 
     .line 14
     :cond_0
-    sget-object v0, Landroidx/navigation/NavType;
-    ->IntArrayType:Landroidx/navigation/NavType;
+    sget-object v0, Landroidx/navigation/NavType;->IntArrayType:Landroidx/navigation/NavType;
 
     .line 15
     .line 16
-    invoke-virtual {v0}, Landroidx/navigation/NavType;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v0}, Landroidx/navigation/NavType;->getName()Ljava/lang/String;
 
     .line 17
     .line 18
@@ -90,8 +83,7 @@
     move-result-object v1
 
     .line 20
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 21
     .line 22
@@ -103,13 +95,11 @@
 
     .line 27
     :cond_1
-    sget-object v0, Landroidx/navigation/NavType;
-    ->IntListType:Landroidx/navigation/NavType;
+    sget-object v0, Landroidx/navigation/NavType;->IntListType:Landroidx/navigation/NavType;
 
     .line 28
     .line 29
-    invoke-virtual {v0}, Landroidx/navigation/NavType;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v0}, Landroidx/navigation/NavType;->getName()Ljava/lang/String;
 
     .line 30
     .line 31
@@ -117,8 +107,7 @@
     move-result-object v1
 
     .line 33
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 34
     .line 35
@@ -130,13 +119,11 @@
 
     .line 40
     :cond_2
-    sget-object v0, Landroidx/navigation/NavType;
-    ->LongType:Landroidx/navigation/NavType;
+    sget-object v0, Landroidx/navigation/NavType;->LongType:Landroidx/navigation/NavType;
 
     .line 41
     .line 42
-    invoke-virtual {v0}, Landroidx/navigation/NavType;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v0}, Landroidx/navigation/NavType;->getName()Ljava/lang/String;
 
     .line 43
     .line 44
@@ -144,8 +131,7 @@
     move-result-object v1
 
     .line 46
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 47
     .line 48
@@ -157,13 +143,11 @@
 
     .line 53
     :cond_3
-    sget-object v0, Landroidx/navigation/NavType;
-    ->LongArrayType:Landroidx/navigation/NavType;
+    sget-object v0, Landroidx/navigation/NavType;->LongArrayType:Landroidx/navigation/NavType;
 
     .line 54
     .line 55
-    invoke-virtual {v0}, Landroidx/navigation/NavType;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v0}, Landroidx/navigation/NavType;->getName()Ljava/lang/String;
 
     .line 56
     .line 57
@@ -171,8 +155,7 @@
     move-result-object v1
 
     .line 59
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 60
     .line 61
@@ -184,13 +167,11 @@
 
     .line 66
     :cond_4
-    sget-object v0, Landroidx/navigation/NavType;
-    ->LongListType:Landroidx/navigation/NavType;
+    sget-object v0, Landroidx/navigation/NavType;->LongListType:Landroidx/navigation/NavType;
 
     .line 67
     .line 68
-    invoke-virtual {v0}, Landroidx/navigation/NavType;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v0}, Landroidx/navigation/NavType;->getName()Ljava/lang/String;
 
     .line 69
     .line 70
@@ -198,8 +179,7 @@
     move-result-object v1
 
     .line 72
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 73
     .line 74
@@ -211,13 +191,11 @@
 
     .line 79
     :cond_5
-    sget-object v0, Landroidx/navigation/NavType;
-    ->BoolType:Landroidx/navigation/NavType;
+    sget-object v0, Landroidx/navigation/NavType;->BoolType:Landroidx/navigation/NavType;
 
     .line 80
     .line 81
-    invoke-virtual {v0}, Landroidx/navigation/NavType;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v0}, Landroidx/navigation/NavType;->getName()Ljava/lang/String;
 
     .line 82
     .line 83
@@ -225,8 +203,7 @@
     move-result-object v1
 
     .line 85
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 86
     .line 87
@@ -238,13 +215,11 @@
 
     .line 92
     :cond_6
-    sget-object v0, Landroidx/navigation/NavType;
-    ->BoolArrayType:Landroidx/navigation/NavType;
+    sget-object v0, Landroidx/navigation/NavType;->BoolArrayType:Landroidx/navigation/NavType;
 
     .line 93
     .line 94
-    invoke-virtual {v0}, Landroidx/navigation/NavType;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v0}, Landroidx/navigation/NavType;->getName()Ljava/lang/String;
 
     .line 95
     .line 96
@@ -252,8 +227,7 @@
     move-result-object v1
 
     .line 98
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 99
     .line 100
@@ -265,13 +239,11 @@
 
     .line 105
     :cond_7
-    sget-object v0, Landroidx/navigation/NavType;
-    ->BoolListType:Landroidx/navigation/NavType;
+    sget-object v0, Landroidx/navigation/NavType;->BoolListType:Landroidx/navigation/NavType;
 
     .line 106
     .line 107
-    invoke-virtual {v0}, Landroidx/navigation/NavType;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v0}, Landroidx/navigation/NavType;->getName()Ljava/lang/String;
 
     .line 108
     .line 109
@@ -279,8 +251,7 @@
     move-result-object v1
 
     .line 111
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 112
     .line 113
@@ -292,13 +263,11 @@
 
     .line 118
     :cond_8
-    sget-object v0, Landroidx/navigation/NavType;
-    ->StringType:Landroidx/navigation/NavType;
+    sget-object v0, Landroidx/navigation/NavType;->StringType:Landroidx/navigation/NavType;
 
     .line 119
     .line 120
-    invoke-virtual {v0}, Landroidx/navigation/NavType;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v0}, Landroidx/navigation/NavType;->getName()Ljava/lang/String;
 
     .line 121
     .line 122
@@ -306,8 +275,7 @@
     move-result-object v1
 
     .line 124
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 125
     .line 126
@@ -324,13 +292,11 @@
     .line 131
     .line 132
     :cond_9
-    sget-object v1, Landroidx/navigation/NavType;
-    ->StringArrayType:Landroidx/navigation/NavType;
+    sget-object v1, Landroidx/navigation/NavType;->StringArrayType:Landroidx/navigation/NavType;
 
     .line 133
     .line 134
-    invoke-virtual {v1}, Landroidx/navigation/NavType;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v1}, Landroidx/navigation/NavType;->getName()Ljava/lang/String;
 
     .line 135
     .line 136
@@ -338,8 +304,7 @@
     move-result-object v2
 
     .line 138
-    invoke-static {v2, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 139
     .line 140
@@ -351,13 +316,11 @@
 
     .line 145
     :cond_a
-    sget-object v1, Landroidx/navigation/NavType;
-    ->StringListType:Landroidx/navigation/NavType;
+    sget-object v1, Landroidx/navigation/NavType;->StringListType:Landroidx/navigation/NavType;
 
     .line 146
     .line 147
-    invoke-virtual {v1}, Landroidx/navigation/NavType;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v1}, Landroidx/navigation/NavType;->getName()Ljava/lang/String;
 
     .line 148
     .line 149
@@ -365,8 +328,7 @@
     move-result-object v2
 
     .line 151
-    invoke-static {v2, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 152
     .line 153
@@ -378,13 +340,11 @@
 
     .line 158
     :cond_b
-    sget-object v1, Landroidx/navigation/NavType;
-    ->FloatType:Landroidx/navigation/NavType;
+    sget-object v1, Landroidx/navigation/NavType;->FloatType:Landroidx/navigation/NavType;
 
     .line 159
     .line 160
-    invoke-virtual {v1}, Landroidx/navigation/NavType;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v1}, Landroidx/navigation/NavType;->getName()Ljava/lang/String;
 
     .line 161
     .line 162
@@ -392,8 +352,7 @@
     move-result-object v2
 
     .line 164
-    invoke-static {v2, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 165
     .line 166
@@ -405,13 +364,11 @@
 
     .line 171
     :cond_c
-    sget-object v1, Landroidx/navigation/NavType;
-    ->FloatArrayType:Landroidx/navigation/NavType;
+    sget-object v1, Landroidx/navigation/NavType;->FloatArrayType:Landroidx/navigation/NavType;
 
     .line 172
     .line 173
-    invoke-virtual {v1}, Landroidx/navigation/NavType;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v1}, Landroidx/navigation/NavType;->getName()Ljava/lang/String;
 
     .line 174
     .line 175
@@ -419,8 +376,7 @@
     move-result-object v2
 
     .line 177
-    invoke-static {v2, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 178
     .line 179
@@ -432,13 +388,11 @@
 
     .line 184
     :cond_d
-    sget-object v1, Landroidx/navigation/NavType;
-    ->FloatListType:Landroidx/navigation/NavType;
+    sget-object v1, Landroidx/navigation/NavType;->FloatListType:Landroidx/navigation/NavType;
 
     .line 185
     .line 186
-    invoke-virtual {v1}, Landroidx/navigation/NavType;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v1}, Landroidx/navigation/NavType;->getName()Ljava/lang/String;
 
     .line 187
     .line 188
@@ -446,8 +400,7 @@
     move-result-object v2
 
     .line 190
-    invoke-static {v2, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 191
     .line 192
@@ -459,13 +412,11 @@
 
     .line 197
     :cond_e
-    sget-object v1, Landroidx/navigation/NavType;
-    ->ReferenceType:Landroidx/navigation/NavType;
+    sget-object v1, Landroidx/navigation/NavType;->ReferenceType:Landroidx/navigation/NavType;
 
     .line 198
     .line 199
-    invoke-virtual {v1}, Landroidx/navigation/NavType;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v1}, Landroidx/navigation/NavType;->getName()Ljava/lang/String;
 
     .line 200
     .line 201
@@ -473,8 +424,7 @@
     move-result-object v2
 
     .line 203
-    invoke-static {v2, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 204
     .line 205
@@ -490,8 +440,7 @@
 
     .line 211
     .line 212
-    invoke-virtual {p1}, Ljava/lang/String;
-    ->length()I
+    invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     .line 213
     .line 214
@@ -515,8 +464,7 @@
     const/4 v1, 0x0
 
     .line 222
-    invoke-static {p1, v0, v1}, Lx1/m;
-    ->n(Ljava/lang/String;Ljava/lang/String;Z)Z
+    invoke-static {p1, v0, v1}, Lx1/m;->n(Ljava/lang/String;Ljava/lang/String;Z)Z
 
     .line 223
     .line 224
@@ -532,8 +480,7 @@
 
     .line 229
     .line 230
-    invoke-virtual {p2, p1}, Ljava/lang/String;
-    ->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p2, p1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 231
     .line 232
@@ -560,8 +507,7 @@
 
     .line 239
     .line 240
-    invoke-static {p1, v0}, Lx1/m;
-    ->h(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-static {p1, v0}, Lx1/m;->h(Ljava/lang/String;Ljava/lang/String;)Z
 
     .line 241
     .line 242
@@ -573,8 +519,7 @@
 
     .line 245
     .line 246
-    invoke-virtual {p2}, Ljava/lang/String;
-    ->length()I
+    invoke-virtual {p2}, Ljava/lang/String;->length()I
 
     .line 247
     .line 248
@@ -586,8 +531,7 @@
 
     .line 251
     .line 252
-    invoke-virtual {p2, v1, v0}, Ljava/lang/String;
-    ->substring(II)Ljava/lang/String;
+    invoke-virtual {p2, v1, v0}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     .line 253
     .line 254
@@ -599,15 +543,13 @@
 
     .line 257
     .line 258
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 259
     .line 260
     .line 261
     :cond_12
-    invoke-static {p2}, Ljava/lang/Class;
-    ->forName(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {p2}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 262
     .line 263
@@ -615,8 +557,7 @@
     move-result-object v0
 
     .line 265
-    invoke-virtual {p0, v0, p1}, Landroidx/navigation/NavType$Companion;
-    ->parseSerializableOrParcelableType$navigation_common_release(Ljava/lang/Class;Z)Landroidx/navigation/NavType;
+    invoke-virtual {p0, v0, p1}, Landroidx/navigation/NavType$Companion;->parseSerializableOrParcelableType$navigation_common_release(Ljava/lang/Class;Z)Landroidx/navigation/NavType;
 
     .line 266
     .line 267
@@ -632,14 +573,12 @@
 
     .line 273
     .line 274
-    invoke-direct {p1}, Ljava/lang/StringBuilder;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 275
     .line 276
     .line 277
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 278
     .line 279
@@ -648,14 +587,12 @@
 
     .line 281
     .line 282
-    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 283
     .line 284
     .line 285
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 286
     .line 287
@@ -667,8 +604,7 @@
 
     .line 290
     .line 291
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     .line 292
     .line 293
@@ -676,8 +612,7 @@
     move-result-object p1
 
     .line 295
-    invoke-direct {p2, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 296
     .line 297
@@ -692,8 +627,7 @@
 
     .line 300
     .line 301
-    invoke-direct {p2, p1}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/Throwable;)V
+    invoke-direct {p2, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
 
     .line 302
     .line 303
@@ -710,8 +644,7 @@
     .locals 2
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -735,95 +668,80 @@
 
     .line 4
     .line 5
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
     :try_start_0
-    sget-object v1, Landroidx/navigation/NavType;
-    ->IntType:Landroidx/navigation/NavType;
+    sget-object v1, Landroidx/navigation/NavType;->IntType:Landroidx/navigation/NavType;
 
     .line 9
     .line 10
-    invoke-virtual {v1, p1}, Landroidx/navigation/NavType;
-    ->parseValue(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v1, p1}, Landroidx/navigation/NavType;->parseValue(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 11
     .line 12
     .line 13
-    invoke-static {v1, v0}, Lkotlin/jvm/internal/j;
-    ->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
     :try_end_0
     .catch Ljava/lang/IllegalArgumentException; {:try_start_0 .. :try_end_0} :catch_0    return-object v1
 
     .line 17
     :catch_0
     :try_start_1
-    sget-object v1, Landroidx/navigation/NavType;
-    ->LongType:Landroidx/navigation/NavType;
+    sget-object v1, Landroidx/navigation/NavType;->LongType:Landroidx/navigation/NavType;
 
     .line 18
     .line 19
-    invoke-virtual {v1, p1}, Landroidx/navigation/NavType;
-    ->parseValue(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v1, p1}, Landroidx/navigation/NavType;->parseValue(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 20
     .line 21
     .line 22
-    invoke-static {v1, v0}, Lkotlin/jvm/internal/j;
-    ->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
     :try_end_1
     .catch Ljava/lang/IllegalArgumentException; {:try_start_1 .. :try_end_1} :catch_1    return-object v1
 
     .line 26
     :catch_1
     :try_start_2
-    sget-object v1, Landroidx/navigation/NavType;
-    ->FloatType:Landroidx/navigation/NavType;
+    sget-object v1, Landroidx/navigation/NavType;->FloatType:Landroidx/navigation/NavType;
 
     .line 27
     .line 28
-    invoke-virtual {v1, p1}, Landroidx/navigation/NavType;
-    ->parseValue(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v1, p1}, Landroidx/navigation/NavType;->parseValue(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 29
     .line 30
     .line 31
-    invoke-static {v1, v0}, Lkotlin/jvm/internal/j;
-    ->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
     :try_end_2
     .catch Ljava/lang/IllegalArgumentException; {:try_start_2 .. :try_end_2} :catch_2    return-object v1
 
     .line 35
     :catch_2
     :try_start_3
-    sget-object v1, Landroidx/navigation/NavType;
-    ->BoolType:Landroidx/navigation/NavType;
+    sget-object v1, Landroidx/navigation/NavType;->BoolType:Landroidx/navigation/NavType;
 
     .line 36
     .line 37
-    invoke-virtual {v1, p1}, Landroidx/navigation/NavType;
-    ->parseValue(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v1, p1}, Landroidx/navigation/NavType;->parseValue(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 38
     .line 39
     .line 40
-    invoke-static {v1, v0}, Lkotlin/jvm/internal/j;
-    ->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
     :try_end_3
     .catch Ljava/lang/IllegalArgumentException; {:try_start_3 .. :try_end_3} :catch_3    return-object v1
 
     .line 44
     :catch_3
-    sget-object p1, Landroidx/navigation/NavType;
-    ->StringType:Landroidx/navigation/NavType;
+    sget-object p1, Landroidx/navigation/NavType;->StringType:Landroidx/navigation/NavType;
 
     .line 45
     .line 46
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 return-object p1
 .end method
 
@@ -831,8 +749,7 @@ return-object p1
     .locals 3
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -860,13 +777,11 @@ return-object p1
 
     .line 6
     .line 7
-    sget-object p1, Landroidx/navigation/NavType;
-    ->IntType:Landroidx/navigation/NavType;
+    sget-object p1, Landroidx/navigation/NavType;->IntType:Landroidx/navigation/NavType;
 
     .line 8
     .line 9
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;
-    ->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 return-object p1
 
     .line 13
@@ -879,13 +794,11 @@ return-object p1
 
     .line 16
     .line 17
-    sget-object p1, Landroidx/navigation/NavType;
-    ->IntArrayType:Landroidx/navigation/NavType;
+    sget-object p1, Landroidx/navigation/NavType;->IntArrayType:Landroidx/navigation/NavType;
 
     .line 18
     .line 19
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;
-    ->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 return-object p1
 
     .line 23
@@ -898,13 +811,11 @@ return-object p1
 
     .line 26
     .line 27
-    sget-object p1, Landroidx/navigation/NavType;
-    ->LongType:Landroidx/navigation/NavType;
+    sget-object p1, Landroidx/navigation/NavType;->LongType:Landroidx/navigation/NavType;
 
     .line 28
     .line 29
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;
-    ->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 return-object p1
 
     .line 33
@@ -917,13 +828,11 @@ return-object p1
 
     .line 36
     .line 37
-    sget-object p1, Landroidx/navigation/NavType;
-    ->LongArrayType:Landroidx/navigation/NavType;
+    sget-object p1, Landroidx/navigation/NavType;->LongArrayType:Landroidx/navigation/NavType;
 
     .line 38
     .line 39
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;
-    ->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 return-object p1
 
     .line 43
@@ -936,13 +845,11 @@ return-object p1
 
     .line 46
     .line 47
-    sget-object p1, Landroidx/navigation/NavType;
-    ->FloatType:Landroidx/navigation/NavType;
+    sget-object p1, Landroidx/navigation/NavType;->FloatType:Landroidx/navigation/NavType;
 
     .line 48
     .line 49
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;
-    ->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 return-object p1
 
     .line 53
@@ -955,13 +862,11 @@ return-object p1
 
     .line 56
     .line 57
-    sget-object p1, Landroidx/navigation/NavType;
-    ->FloatArrayType:Landroidx/navigation/NavType;
+    sget-object p1, Landroidx/navigation/NavType;->FloatArrayType:Landroidx/navigation/NavType;
 
     .line 58
     .line 59
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;
-    ->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 return-object p1
 
     .line 63
@@ -974,13 +879,11 @@ return-object p1
 
     .line 66
     .line 67
-    sget-object p1, Landroidx/navigation/NavType;
-    ->BoolType:Landroidx/navigation/NavType;
+    sget-object p1, Landroidx/navigation/NavType;->BoolType:Landroidx/navigation/NavType;
 
     .line 68
     .line 69
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;
-    ->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 return-object p1
 
     .line 73
@@ -993,13 +896,11 @@ return-object p1
 
     .line 76
     .line 77
-    sget-object p1, Landroidx/navigation/NavType;
-    ->BoolArrayType:Landroidx/navigation/NavType;
+    sget-object p1, Landroidx/navigation/NavType;->BoolArrayType:Landroidx/navigation/NavType;
 
     .line 78
     .line 79
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;
-    ->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 return-object p1
 
     .line 83
@@ -1044,19 +945,16 @@ return-object p1
 
     .line 101
     .line 102
-    sget-object p1, Landroidx/navigation/NavType;
-    ->StringArrayType:Landroidx/navigation/NavType;
+    sget-object p1, Landroidx/navigation/NavType;->StringArrayType:Landroidx/navigation/NavType;
 
     .line 103
     .line 104
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;
-    ->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 return-object p1
 
     .line 108
     :cond_9
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 109
     .line 110
@@ -1064,8 +962,7 @@ return-object p1
     move-result-object v0
 
     .line 112
-    invoke-virtual {v0}, Ljava/lang/Class;
-    ->isArray()Z
+    invoke-virtual {v0}, Ljava/lang/Class;->isArray()Z
 
     .line 113
     .line 114
@@ -1077,8 +974,7 @@ return-object p1
 
     .line 117
     .line 118
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 119
     .line 120
@@ -1086,8 +982,7 @@ return-object p1
     move-result-object v0
 
     .line 122
-    invoke-virtual {v0}, Ljava/lang/Class;
-    ->getComponentType()Ljava/lang/Class;
+    invoke-virtual {v0}, Ljava/lang/Class;->getComponentType()Ljava/lang/Class;
 
     .line 123
     .line 124
@@ -1095,8 +990,7 @@ return-object p1
     move-result-object v0
 
     .line 126
-    invoke-static {v0}, Lkotlin/jvm/internal/j;
-    ->c(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 127
     .line 128
@@ -1105,8 +999,7 @@ return-object p1
 
     .line 130
     .line 131
-    invoke-virtual {v1, v0}, Ljava/lang/Class;
-    ->isAssignableFrom(Ljava/lang/Class;)Z
+    invoke-virtual {v1, v0}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
     .line 132
     .line 133
@@ -1122,8 +1015,7 @@ return-object p1
 
     .line 138
     .line 139
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 140
     .line 141
@@ -1131,8 +1023,7 @@ return-object p1
     move-result-object p1
 
     .line 143
-    invoke-virtual {p1}, Ljava/lang/Class;
-    ->getComponentType()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Class;->getComponentType()Ljava/lang/Class;
 
     .line 144
     .line 145
@@ -1144,20 +1035,17 @@ return-object p1
 
     .line 148
     .line 149
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;
-    ->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 150
     .line 151
     .line 152
-    invoke-direct {v0, p1}, Landroidx/navigation/NavType$ParcelableArrayType;
-    -><init>(Ljava/lang/Class;)V
+    invoke-direct {v0, p1}, Landroidx/navigation/NavType$ParcelableArrayType;-><init>(Ljava/lang/Class;)V
 return-object v0
 
     .line 156
     :cond_a
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 157
     .line 158
@@ -1165,8 +1053,7 @@ return-object v0
     move-result-object v0
 
     .line 160
-    invoke-virtual {v0}, Ljava/lang/Class;
-    ->isArray()Z
+    invoke-virtual {v0}, Ljava/lang/Class;->isArray()Z
 
     .line 161
     .line 162
@@ -1178,8 +1065,7 @@ return-object v0
 
     .line 165
     .line 166
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 167
     .line 168
@@ -1187,8 +1073,7 @@ return-object v0
     move-result-object v0
 
     .line 170
-    invoke-virtual {v0}, Ljava/lang/Class;
-    ->getComponentType()Ljava/lang/Class;
+    invoke-virtual {v0}, Ljava/lang/Class;->getComponentType()Ljava/lang/Class;
 
     .line 171
     .line 172
@@ -1196,8 +1081,7 @@ return-object v0
     move-result-object v0
 
     .line 174
-    invoke-static {v0}, Lkotlin/jvm/internal/j;
-    ->c(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 175
     .line 176
@@ -1206,8 +1090,7 @@ return-object v0
 
     .line 178
     .line 179
-    invoke-virtual {v1, v0}, Ljava/lang/Class;
-    ->isAssignableFrom(Ljava/lang/Class;)Z
+    invoke-virtual {v1, v0}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
     .line 180
     .line 181
@@ -1223,8 +1106,7 @@ return-object v0
 
     .line 186
     .line 187
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 188
     .line 189
@@ -1232,8 +1114,7 @@ return-object v0
     move-result-object p1
 
     .line 191
-    invoke-virtual {p1}, Ljava/lang/Class;
-    ->getComponentType()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Class;->getComponentType()Ljava/lang/Class;
 
     .line 192
     .line 193
@@ -1245,14 +1126,12 @@ return-object v0
 
     .line 196
     .line 197
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;
-    ->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 198
     .line 199
     .line 200
-    invoke-direct {v0, p1}, Landroidx/navigation/NavType$SerializableArrayType;
-    -><init>(Ljava/lang/Class;)V
+    invoke-direct {v0, p1}, Landroidx/navigation/NavType$SerializableArrayType;-><init>(Ljava/lang/Class;)V
 return-object v0
 
     .line 204
@@ -1269,8 +1148,7 @@ return-object v0
 
     .line 209
     .line 210
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 211
     .line 212
@@ -1278,8 +1156,7 @@ return-object v0
     move-result-object p1
 
     .line 214
-    invoke-direct {v0, p1}, Landroidx/navigation/NavType$ParcelableType;
-    -><init>(Ljava/lang/Class;)V
+    invoke-direct {v0, p1}, Landroidx/navigation/NavType$ParcelableType;-><init>(Ljava/lang/Class;)V
     return-object v0
 
     .line 218
@@ -1296,8 +1173,7 @@ return-object v0
 
     .line 223
     .line 224
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 225
     .line 226
@@ -1305,8 +1181,7 @@ return-object v0
     move-result-object p1
 
     .line 228
-    invoke-direct {v0, p1}, Landroidx/navigation/NavType$EnumType;
-    -><init>(Ljava/lang/Class;)V
+    invoke-direct {v0, p1}, Landroidx/navigation/NavType$EnumType;-><init>(Ljava/lang/Class;)V
     return-object v0
 
     .line 232
@@ -1323,8 +1198,7 @@ return-object v0
 
     .line 237
     .line 238
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 239
     .line 240
@@ -1332,8 +1206,7 @@ return-object v0
     move-result-object p1
 
     .line 242
-    invoke-direct {v0, p1}, Landroidx/navigation/NavType$SerializableType;
-    -><init>(Ljava/lang/Class;)V
+    invoke-direct {v0, p1}, Landroidx/navigation/NavType$SerializableType;-><init>(Ljava/lang/Class;)V
     return-object v0
 
     .line 246
@@ -1350,14 +1223,12 @@ return-object v0
 
     .line 251
     .line 252
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 253
     .line 254
     .line 255
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 256
     .line 257
@@ -1365,8 +1236,7 @@ return-object v0
     move-result-object p1
 
     .line 259
-    invoke-virtual {p1}, Ljava/lang/Class;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     .line 260
     .line 261
@@ -1374,8 +1244,7 @@ return-object v0
     move-result-object p1
 
     .line 263
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 264
     .line 265
@@ -1384,14 +1253,12 @@ return-object v0
 
     .line 267
     .line 268
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 269
     .line 270
     .line 271
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 272
     .line 273
@@ -1399,8 +1266,7 @@ return-object v0
     move-result-object p1
 
     .line 275
-    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 276
     .line 277
@@ -1410,13 +1276,11 @@ return-object v0
     .line 279
     :cond_f
     :goto_0
-    sget-object p1, Landroidx/navigation/NavType;
-    ->StringType:Landroidx/navigation/NavType;
+    sget-object p1, Landroidx/navigation/NavType;->StringType:Landroidx/navigation/NavType;
 
     .line 280
     .line 281
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;
-    ->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 return-object p1
 .end method
 
@@ -1437,8 +1301,7 @@ return-object p1
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1447,8 +1310,7 @@ return-object p1
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Ljava/lang/Class;
-    ->isAssignableFrom(Ljava/lang/Class;)Z
+    invoke-virtual {v0, p1}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
     .line 9
     .line 10
@@ -1468,8 +1330,7 @@ return-object p1
 
     .line 17
     .line 18
-    invoke-direct {p2, p1}, Landroidx/navigation/NavType$ParcelableArrayType;
-    -><init>(Ljava/lang/Class;)V
+    invoke-direct {p2, p1}, Landroidx/navigation/NavType$ParcelableArrayType;-><init>(Ljava/lang/Class;)V
 return-object p2
 
     .line 22
@@ -1478,8 +1339,7 @@ return-object p2
 
     .line 23
     .line 24
-    invoke-direct {p2, p1}, Landroidx/navigation/NavType$ParcelableType;
-    -><init>(Ljava/lang/Class;)V
+    invoke-direct {p2, p1}, Landroidx/navigation/NavType$ParcelableType;-><init>(Ljava/lang/Class;)V
 return-object p2
 
     .line 28
@@ -1488,8 +1348,7 @@ return-object p2
 
     .line 29
     .line 30
-    invoke-virtual {v0, p1}, Ljava/lang/Class;
-    ->isAssignableFrom(Ljava/lang/Class;)Z
+    invoke-virtual {v0, p1}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
     .line 31
     .line 32
@@ -1509,8 +1368,7 @@ return-object p2
 
     .line 39
     .line 40
-    invoke-direct {p2, p1}, Landroidx/navigation/NavType$EnumType;
-    -><init>(Ljava/lang/Class;)V
+    invoke-direct {p2, p1}, Landroidx/navigation/NavType$EnumType;-><init>(Ljava/lang/Class;)V
 return-object p2
 
     .line 44
@@ -1519,8 +1377,7 @@ return-object p2
 
     .line 45
     .line 46
-    invoke-virtual {v0, p1}, Ljava/lang/Class;
-    ->isAssignableFrom(Ljava/lang/Class;)Z
+    invoke-virtual {v0, p1}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
     .line 47
     .line 48
@@ -1540,8 +1397,7 @@ return-object p2
 
     .line 55
     .line 56
-    invoke-direct {p2, p1}, Landroidx/navigation/NavType$SerializableArrayType;
-    -><init>(Ljava/lang/Class;)V
+    invoke-direct {p2, p1}, Landroidx/navigation/NavType$SerializableArrayType;-><init>(Ljava/lang/Class;)V
 return-object p2
 
     .line 60
@@ -1550,8 +1406,7 @@ return-object p2
 
     .line 61
     .line 62
-    invoke-direct {p2, p1}, Landroidx/navigation/NavType$SerializableType;
-    -><init>(Ljava/lang/Class;)V
+    invoke-direct {p2, p1}, Landroidx/navigation/NavType$SerializableType;-><init>(Ljava/lang/Class;)V
 return-object p2
 
     .line 66

@@ -17,8 +17,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -34,8 +33,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, p6}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p6}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -44,8 +42,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, p6}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p6}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -54,8 +51,7 @@
 
     .line 12
     .line 13
-    invoke-static {p3, p6}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p6}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -64,8 +60,7 @@
 
     .line 17
     .line 18
-    invoke-static {p4, p6}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, p6}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -73,14 +68,12 @@
     const/4 p6, 0x0
 
     .line 22
-    invoke-static {p3, p6}, Landroidx/core/view/WindowCompat;
-    ->setDecorFitsSystemWindows(Landroid/view/Window;Z)V
+    invoke-static {p3, p6}, Landroidx/core/view/WindowCompat;->setDecorFitsSystemWindows(Landroid/view/Window;Z)V
 
     .line 23
     .line 24
     .line 25
-    invoke-virtual {p1, p5}, Landroidx/activity/SystemBarStyle;
-    ->getScrim$activity_release(Z)I
+    invoke-virtual {p1, p5}, Landroidx/activity/SystemBarStyle;->getScrim$activity_release(Z)I
 
     .line 26
     .line 27
@@ -88,14 +81,12 @@
     move-result p1
 
     .line 29
-    invoke-virtual {p3, p1}, Landroid/view/Window;
-    ->setStatusBarColor(I)V
+    invoke-virtual {p3, p1}, Landroid/view/Window;->setStatusBarColor(I)V
 
     .line 30
     .line 31
     .line 32
-    invoke-virtual {p2}, Landroidx/activity/SystemBarStyle;
-    ->getDarkScrim$activity_release()I
+    invoke-virtual {p2}, Landroidx/activity/SystemBarStyle;->getDarkScrim$activity_release()I
 
     .line 33
     .line 34
@@ -103,8 +94,7 @@
     move-result p1
 
     .line 36
-    invoke-virtual {p3, p1}, Landroid/view/Window;
-    ->setNavigationBarColor(I)V
+    invoke-virtual {p3, p1}, Landroid/view/Window;->setNavigationBarColor(I)V
 
     .line 37
     .line 38
@@ -113,8 +103,7 @@
 
     .line 40
     .line 41
-    invoke-direct {p1, p3, p4}, Landroidx/core/view/WindowInsetsControllerCompat;
-    -><init>(Landroid/view/Window;Landroid/view/View;)V
+    invoke-direct {p1, p3, p4}, Landroidx/core/view/WindowInsetsControllerCompat;-><init>(Landroid/view/Window;Landroid/view/View;)V
 
     .line 42
     .line 43
@@ -123,8 +112,7 @@
 
     .line 45
     .line 46
-    invoke-virtual {p1, p2}, Landroidx/core/view/WindowInsetsControllerCompat;
-    ->setAppearanceLightStatusBars(Z)V
+    invoke-virtual {p1, p2}, Landroidx/core/view/WindowInsetsControllerCompat;->setAppearanceLightStatusBars(Z)V
 return-void
 .end method
 

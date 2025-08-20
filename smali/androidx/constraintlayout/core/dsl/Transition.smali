@@ -36,89 +36,71 @@
     .locals 5
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
     .line 2
-    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mOnSwipe:Landroidx/constraintlayout/core/dsl/OnSwipe;
+    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;->mOnSwipe:Landroidx/constraintlayout/core/dsl/OnSwipe;
 
     const/4 v1, -0x1
 
     .line 3
-    iput v1, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->UNSET:I
+    iput v1, p0, Landroidx/constraintlayout/core/dsl/Transition;->UNSET:I
 
     const/16 v2, 0x190
 
     .line 4
-    iput v2, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->DEFAULT_DURATION:I
+    iput v2, p0, Landroidx/constraintlayout/core/dsl/Transition;->DEFAULT_DURATION:I
 
     const/4 v3, 0x0
 
     .line 5
-    iput v3, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->DEFAULT_STAGGER:F
+    iput v3, p0, Landroidx/constraintlayout/core/dsl/Transition;->DEFAULT_STAGGER:F
 
     .line 6
-    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mId:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;->mId:Ljava/lang/String;
 
     .line 7
-    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mConstraintSetEnd:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;->mConstraintSetEnd:Ljava/lang/String;
 
     .line 8
-    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mConstraintSetStart:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;->mConstraintSetStart:Ljava/lang/String;
 
     const/4 v4, 0x0
 
     .line 9
-    iput v4, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mDefaultInterpolator:I
+    iput v4, p0, Landroidx/constraintlayout/core/dsl/Transition;->mDefaultInterpolator:I
 
     .line 10
-    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mDefaultInterpolatorString:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;->mDefaultInterpolatorString:Ljava/lang/String;
 
     .line 11
-    iput v1, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mDefaultInterpolatorID:I
+    iput v1, p0, Landroidx/constraintlayout/core/dsl/Transition;->mDefaultInterpolatorID:I
 
     .line 12
-    iput v2, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mDuration:I
+    iput v2, p0, Landroidx/constraintlayout/core/dsl/Transition;->mDuration:I
 
     .line 13
-    iput v3, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mStagger:F
+    iput v3, p0, Landroidx/constraintlayout/core/dsl/Transition;->mStagger:F
 
     .line 14
     new-instance v0, Landroidx/constraintlayout/core/dsl/KeyFrames;
 
-    invoke-direct {v0}, Landroidx/constraintlayout/core/dsl/KeyFrames;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/constraintlayout/core/dsl/KeyFrames;-><init>()V
 
-    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mKeyFrames:Landroidx/constraintlayout/core/dsl/KeyFrames;
+    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;->mKeyFrames:Landroidx/constraintlayout/core/dsl/KeyFrames;
 
     .line 15
     const-string v0, "default"
 
-    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mId:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;->mId:Ljava/lang/String;
 
     .line 16
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mConstraintSetStart:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Transition;->mConstraintSetStart:Ljava/lang/String;
 
     .line 17
-    iput-object p2, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mConstraintSetEnd:Ljava/lang/String;
+    iput-object p2, p0, Landroidx/constraintlayout/core/dsl/Transition;->mConstraintSetEnd:Ljava/lang/String;
 
     return-void
 .end method
@@ -127,87 +109,69 @@
     .locals 5
 
     .line 18
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
     .line 19
-    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mOnSwipe:Landroidx/constraintlayout/core/dsl/OnSwipe;
+    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;->mOnSwipe:Landroidx/constraintlayout/core/dsl/OnSwipe;
 
     const/4 v1, -0x1
 
     .line 20
-    iput v1, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->UNSET:I
+    iput v1, p0, Landroidx/constraintlayout/core/dsl/Transition;->UNSET:I
 
     const/16 v2, 0x190
 
     .line 21
-    iput v2, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->DEFAULT_DURATION:I
+    iput v2, p0, Landroidx/constraintlayout/core/dsl/Transition;->DEFAULT_DURATION:I
 
     const/4 v3, 0x0
 
     .line 22
-    iput v3, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->DEFAULT_STAGGER:F
+    iput v3, p0, Landroidx/constraintlayout/core/dsl/Transition;->DEFAULT_STAGGER:F
 
     .line 23
-    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mId:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;->mId:Ljava/lang/String;
 
     .line 24
-    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mConstraintSetEnd:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;->mConstraintSetEnd:Ljava/lang/String;
 
     .line 25
-    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mConstraintSetStart:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;->mConstraintSetStart:Ljava/lang/String;
 
     const/4 v4, 0x0
 
     .line 26
-    iput v4, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mDefaultInterpolator:I
+    iput v4, p0, Landroidx/constraintlayout/core/dsl/Transition;->mDefaultInterpolator:I
 
     .line 27
-    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mDefaultInterpolatorString:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;->mDefaultInterpolatorString:Ljava/lang/String;
 
     .line 28
-    iput v1, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mDefaultInterpolatorID:I
+    iput v1, p0, Landroidx/constraintlayout/core/dsl/Transition;->mDefaultInterpolatorID:I
 
     .line 29
-    iput v2, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mDuration:I
+    iput v2, p0, Landroidx/constraintlayout/core/dsl/Transition;->mDuration:I
 
     .line 30
-    iput v3, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mStagger:F
+    iput v3, p0, Landroidx/constraintlayout/core/dsl/Transition;->mStagger:F
 
     .line 31
     new-instance v0, Landroidx/constraintlayout/core/dsl/KeyFrames;
 
-    invoke-direct {v0}, Landroidx/constraintlayout/core/dsl/KeyFrames;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/constraintlayout/core/dsl/KeyFrames;-><init>()V
 
-    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mKeyFrames:Landroidx/constraintlayout/core/dsl/KeyFrames;
+    iput-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;->mKeyFrames:Landroidx/constraintlayout/core/dsl/KeyFrames;
 
     .line 32
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mId:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Transition;->mId:Ljava/lang/String;
 
     .line 33
-    iput-object p2, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mConstraintSetStart:Ljava/lang/String;
+    iput-object p2, p0, Landroidx/constraintlayout/core/dsl/Transition;->mConstraintSetStart:Ljava/lang/String;
 
     .line 34
-    iput-object p3, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mConstraintSetEnd:Ljava/lang/String;
+    iput-object p3, p0, Landroidx/constraintlayout/core/dsl/Transition;->mConstraintSetEnd:Ljava/lang/String;
 
     return-void
 .end method
@@ -218,16 +182,14 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mId:Ljava/lang/String;    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;->mId:Ljava/lang/String;    return-object v0
 .end method
 
 .method public setDuration(I)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mDuration:I    
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/Transition;->mDuration:I
     return-void
 .end method
 
@@ -235,8 +197,7 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mConstraintSetStart:Ljava/lang/String;    
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Transition;->mConstraintSetStart:Ljava/lang/String;
     return-void
 .end method
 
@@ -244,8 +205,7 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mId:Ljava/lang/String;    
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Transition;->mId:Ljava/lang/String;
     return-void
 .end method
 
@@ -253,13 +213,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mKeyFrames:Landroidx/constraintlayout/core/dsl/KeyFrames;
+    iget-object v0, p0, Landroidx/constraintlayout/core/dsl/Transition;->mKeyFrames:Landroidx/constraintlayout/core/dsl/KeyFrames;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/dsl/KeyFrames;
-    ->add(Landroidx/constraintlayout/core/dsl/Keys;)V
+    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/dsl/KeyFrames;->add(Landroidx/constraintlayout/core/dsl/Keys;)V
 return-void
 .end method
 
@@ -267,8 +225,7 @@ return-void
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mOnSwipe:Landroidx/constraintlayout/core/dsl/OnSwipe;    
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Transition;->mOnSwipe:Landroidx/constraintlayout/core/dsl/OnSwipe;
     return-void
 .end method
 
@@ -276,8 +233,7 @@ return-void
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mStagger:F    
+    iput p1, p0, Landroidx/constraintlayout/core/dsl/Transition;->mStagger:F
     return-void
 .end method
 
@@ -285,8 +241,7 @@ return-void
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mConstraintSetEnd:Ljava/lang/String;    
+    iput-object p1, p0, Landroidx/constraintlayout/core/dsl/Transition;->mConstraintSetEnd:Ljava/lang/String;
     return-void
 .end method
 
@@ -294,8 +249,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/dsl/Transition;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/dsl/Transition;->toString()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -313,19 +267,16 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/StringBuilder;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    iget-object v1, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mId:Ljava/lang/String;
+    iget-object v1, p0, Landroidx/constraintlayout/core/dsl/Transition;->mId:Ljava/lang/String;
 
     .line 7
     .line 8
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 9
     .line 10
@@ -334,19 +285,16 @@ return-void
 
     .line 12
     .line 13
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 14
     .line 15
     .line 16
-    iget-object v1, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mConstraintSetStart:Ljava/lang/String;
+    iget-object v1, p0, Landroidx/constraintlayout/core/dsl/Transition;->mConstraintSetStart:Ljava/lang/String;
 
     .line 17
     .line 18
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 19
     .line 20
@@ -355,14 +303,12 @@ return-void
 
     .line 22
     .line 23
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 24
     .line 25
     .line 26
-    iget-object v1, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mConstraintSetEnd:Ljava/lang/String;
+    iget-object v1, p0, Landroidx/constraintlayout/core/dsl/Transition;->mConstraintSetEnd:Ljava/lang/String;
 
     .line 27
     .line 28
@@ -370,8 +316,7 @@ return-void
 
     .line 29
     .line 30
-    invoke-static {v0, v1, v2}, LA/d;
-    ->k(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v2}, LA/d;->k(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 31
     .line 32
@@ -379,8 +324,7 @@ return-void
     move-result-object v0
 
     .line 34
-    iget v1, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mDuration:I
+    iget v1, p0, Landroidx/constraintlayout/core/dsl/Transition;->mDuration:I
 
     .line 35
     .line 36
@@ -400,8 +344,7 @@ return-void
 
     .line 43
     .line 44
-    invoke-static {v0, v1}, LA/d;
-    ->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, v1}, LA/d;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 45
     .line 46
@@ -409,13 +352,11 @@ return-void
     move-result-object v0
 
     .line 48
-    iget v1, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mDuration:I
+    iget v1, p0, Landroidx/constraintlayout/core/dsl/Transition;->mDuration:I
 
     .line 49
     .line 50
-    invoke-static {v0, v3, v1}, LA/d;
-    ->j(Ljava/lang/StringBuilder;Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v0, v3, v1}, LA/d;->j(Ljava/lang/StringBuilder;Ljava/lang/String;I)Ljava/lang/String;
 
     .line 51
     .line 52
@@ -424,8 +365,7 @@ return-void
 
     .line 54
     :cond_0
-    iget v1, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mStagger:F
+    iget v1, p0, Landroidx/constraintlayout/core/dsl/Transition;->mStagger:F
 
     .line 55
     .line 56
@@ -444,8 +384,7 @@ return-void
 
     .line 62
     .line 63
-    invoke-static {v0, v1}, LA/d;
-    ->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, v1}, LA/d;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 64
     .line 65
@@ -453,25 +392,21 @@ return-void
     move-result-object v0
 
     .line 67
-    iget v1, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mStagger:F
+    iget v1, p0, Landroidx/constraintlayout/core/dsl/Transition;->mStagger:F
 
     .line 68
     .line 69
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     .line 70
     .line 71
     .line 72
-    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 73
     .line 74
     .line 75
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 76
     .line 77
@@ -480,8 +415,7 @@ return-void
 
     .line 79
     :cond_1
-    iget-object v1, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mOnSwipe:Landroidx/constraintlayout/core/dsl/OnSwipe;
+    iget-object v1, p0, Landroidx/constraintlayout/core/dsl/Transition;->mOnSwipe:Landroidx/constraintlayout/core/dsl/OnSwipe;
 
     .line 80
     .line 81
@@ -489,8 +423,7 @@ return-void
 
     .line 82
     .line 83
-    invoke-static {v0}, LA/d;
-    ->o(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0}, LA/d;->o(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 84
     .line 85
@@ -498,13 +431,11 @@ return-void
     move-result-object v0
 
     .line 87
-    iget-object v1, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mOnSwipe:Landroidx/constraintlayout/core/dsl/OnSwipe;
+    iget-object v1, p0, Landroidx/constraintlayout/core/dsl/Transition;->mOnSwipe:Landroidx/constraintlayout/core/dsl/OnSwipe;
 
     .line 88
     .line 89
-    invoke-virtual {v1}, Landroidx/constraintlayout/core/dsl/OnSwipe;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Landroidx/constraintlayout/core/dsl/OnSwipe;->toString()Ljava/lang/String;
 
     .line 90
     .line 91
@@ -512,14 +443,12 @@ return-void
     move-result-object v1
 
     .line 93
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 94
     .line 95
     .line 96
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 97
     .line 98
@@ -528,8 +457,7 @@ return-void
 
     .line 100
     :cond_2
-    invoke-static {v0}, LA/d;
-    ->o(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0}, LA/d;->o(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 101
     .line 102
@@ -537,13 +465,11 @@ return-void
     move-result-object v0
 
     .line 104
-    iget-object v1, p0, Landroidx/constraintlayout/core/dsl/Transition;
-    ->mKeyFrames:Landroidx/constraintlayout/core/dsl/KeyFrames;
+    iget-object v1, p0, Landroidx/constraintlayout/core/dsl/Transition;->mKeyFrames:Landroidx/constraintlayout/core/dsl/KeyFrames;
 
     .line 105
     .line 106
-    invoke-virtual {v1}, Landroidx/constraintlayout/core/dsl/KeyFrames;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Landroidx/constraintlayout/core/dsl/KeyFrames;->toString()Ljava/lang/String;
 
     .line 107
     .line 108
@@ -551,14 +477,12 @@ return-void
     move-result-object v1
 
     .line 110
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 111
     .line 112
     .line 113
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 114
     .line 115
@@ -570,8 +494,7 @@ return-void
 
     .line 118
     .line 119
-    invoke-static {v0, v1}, LA/d;
-    ->f(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, LA/d;->f(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 120
     .line 121

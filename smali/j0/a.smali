@@ -8,8 +8,7 @@
     .locals 1
 
     .line 1
-    invoke-static {p0, p1}, Lr0/b;
-    ->a(Landroid/content/Context;I)Landroid/util/TypedValue;
+    invoke-static {p0, p1}, Lr0/b;->a(Landroid/content/Context;I)Landroid/util/TypedValue;
 
     .line 2
     .line 3
@@ -21,8 +20,7 @@
 
     .line 6
     .line 7
-    iget v0, p1, Landroid/util/TypedValue;
-    ->resourceId:I
+    iget v0, p1, Landroid/util/TypedValue;->resourceId:I
 
     .line 8
     .line 9
@@ -30,8 +28,7 @@
 
     .line 10
     .line 11
-    invoke-static {p0, v0}, Landroidx/core/content/ContextCompat;
-    ->getColor(Landroid/content/Context;I)I
+    invoke-static {p0, v0}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
 
     .line 12
     .line 13
@@ -43,14 +40,12 @@
 
     .line 16
     :cond_0
-    iget p0, p1, Landroid/util/TypedValue;
-    ->data:I
+    iget p0, p1, Landroid/util/TypedValue;->data:I
 
     .line 17
     .line 18
     :goto_0
-    invoke-static {p0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 19
     .line 20
@@ -70,8 +65,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {p0}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
 
     .line 27
     .line 28
@@ -89,8 +83,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 2
     .line 3
@@ -98,8 +91,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 6
     .line 7
@@ -107,8 +99,7 @@
     move-result-object v1
 
     .line 9
-    invoke-virtual {p0}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 10
     .line 11
@@ -116,8 +107,7 @@
     move-result-object p0
 
     .line 13
-    invoke-virtual {p0}, Ljava/lang/Class;
-    ->getCanonicalName()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/Class;->getCanonicalName()Ljava/lang/String;
 
     .line 14
     .line 15
@@ -125,8 +115,7 @@
     move-result-object p0
 
     .line 17
-    invoke-static {v1, p1, p0}, Lr0/b;
-    ->c(Landroid/content/Context;ILjava/lang/String;)Landroid/util/TypedValue;
+    invoke-static {v1, p1, p0}, Lr0/b;->c(Landroid/content/Context;ILjava/lang/String;)Landroid/util/TypedValue;
 
     .line 18
     .line 19
@@ -134,8 +123,7 @@
     move-result-object p0
 
     .line 21
-    iget p1, p0, Landroid/util/TypedValue;
-    ->resourceId:I
+    iget p1, p0, Landroid/util/TypedValue;->resourceId:I
 
     .line 22
     .line 23
@@ -143,8 +131,7 @@
 
     .line 24
     .line 25
-    invoke-static {v0, p1}, Landroidx/core/content/ContextCompat;
-    ->getColor(Landroid/content/Context;I)I
+    invoke-static {v0, p1}, Landroidx/core/content/ContextCompat;->getColor(Landroid/content/Context;I)I
 
     .line 26
     .line 27
@@ -155,8 +142,7 @@
 
     .line 30
     :cond_0
-    iget p0, p0, Landroid/util/TypedValue;
-    ->data:I
+    iget p0, p0, Landroid/util/TypedValue;->data:I
 
     .line 31
     .line 32
@@ -167,8 +153,7 @@
     .locals 1
 
     .line 1
-    invoke-static {p1}, Landroid/graphics/Color;
-    ->alpha(I)I
+    invoke-static {p1}, Landroid/graphics/Color;->alpha(I)I
 
     .line 2
     .line 3
@@ -183,8 +168,7 @@
 
     .line 7
     .line 8
-    invoke-static {v0}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v0}, Ljava/lang/Math;->round(F)I
 
     .line 9
     .line 10
@@ -192,8 +176,7 @@
     move-result p2
 
     .line 12
-    invoke-static {p1, p2}, Landroidx/core/graphics/ColorUtils;
-    ->setAlphaComponent(II)I
+    invoke-static {p1, p2}, Landroidx/core/graphics/ColorUtils;->setAlphaComponent(II)I
 
     .line 13
     .line 14
@@ -201,8 +184,7 @@
     move-result p1
 
     .line 16
-    invoke-static {p1, p0}, Landroidx/core/graphics/ColorUtils;
-    ->compositeColors(II)I
+    invoke-static {p1, p0}, Landroidx/core/graphics/ColorUtils;->compositeColors(II)I
 
     .line 17
     .line 18

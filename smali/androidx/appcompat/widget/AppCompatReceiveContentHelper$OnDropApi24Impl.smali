@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -46,14 +45,12 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p2, p0}, Landroid/app/Activity;
-    ->requestDragAndDropPermissions(Landroid/view/DragEvent;)Landroid/view/DragAndDropPermissions;
+    invoke-virtual {p2, p0}, Landroid/app/Activity;->requestDragAndDropPermissions(Landroid/view/DragEvent;)Landroid/view/DragAndDropPermissions;
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroid/view/DragEvent;
-    ->getX()F
+    invoke-virtual {p0}, Landroid/view/DragEvent;->getX()F
 
     .line 5
     .line 6
@@ -61,8 +58,7 @@
     move-result p2
 
     .line 8
-    invoke-virtual {p0}, Landroid/view/DragEvent;
-    ->getY()F
+    invoke-virtual {p0}, Landroid/view/DragEvent;->getY()F
 
     .line 9
     .line 10
@@ -70,8 +66,7 @@
     move-result v0
 
     .line 12
-    invoke-virtual {p1, p2, v0}, Landroid/widget/TextView;
-    ->getOffsetForPosition(FF)I
+    invoke-virtual {p1, p2, v0}, Landroid/widget/TextView;->getOffsetForPosition(FF)I
 
     .line 13
     .line 14
@@ -79,15 +74,13 @@
     move-result p2
 
     .line 16
-    invoke-virtual {p1}, Landroid/widget/TextView;
-    ->beginBatchEdit()V
+    invoke-virtual {p1}, Landroid/widget/TextView;->beginBatchEdit()V
 
     .line 17
     .line 18
     .line 19
     :try_start_0
-    invoke-virtual {p1}, Landroid/widget/TextView;
-    ->getText()Ljava/lang/CharSequence;
+    invoke-virtual {p1}, Landroid/widget/TextView;->getText()Ljava/lang/CharSequence;
 
     .line 20
     .line 21
@@ -99,8 +92,7 @@
 
     .line 24
     .line 25
-    invoke-static {v0, p2}, Landroid/text/Selection;
-    ->setSelection(Landroid/text/Spannable;I)V
+    invoke-static {v0, p2}, Landroid/text/Selection;->setSelection(Landroid/text/Spannable;I)V
 
     .line 26
     .line 27
@@ -109,8 +101,7 @@
 
     .line 29
     .line 30
-    invoke-virtual {p0}, Landroid/view/DragEvent;
-    ->getClipData()Landroid/content/ClipData;
+    invoke-virtual {p0}, Landroid/view/DragEvent;->getClipData()Landroid/content/ClipData;
 
     .line 31
     .line 32
@@ -121,14 +112,12 @@
     const/4 v0, 0x3
 
     .line 35
-    invoke-direct {p2, p0, v0}, Landroidx/core/view/ContentInfoCompat$Builder;
-    -><init>(Landroid/content/ClipData;I)V
+    invoke-direct {p2, p0, v0}, Landroidx/core/view/ContentInfoCompat$Builder;-><init>(Landroid/content/ClipData;I)V
 
     .line 36
     .line 37
     .line 38
-    invoke-virtual {p2}, Landroidx/core/view/ContentInfoCompat$Builder;
-    ->build()Landroidx/core/view/ContentInfoCompat;
+    invoke-virtual {p2}, Landroidx/core/view/ContentInfoCompat$Builder;->build()Landroidx/core/view/ContentInfoCompat;
 
     .line 39
     .line 40
@@ -136,16 +125,14 @@
     move-result-object p0
 
     .line 42
-    invoke-static {p1, p0}, Landroidx/core/view/ViewCompat;
-    ->performReceiveContent(Landroid/view/View;Landroidx/core/view/ContentInfoCompat;)Landroidx/core/view/ContentInfoCompat;
+    invoke-static {p1, p0}, Landroidx/core/view/ViewCompat;->performReceiveContent(Landroid/view/View;Landroidx/core/view/ContentInfoCompat;)Landroidx/core/view/ContentInfoCompat;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 43
     .line 44
     .line 45
-    invoke-virtual {p1}, Landroid/widget/TextView;
-    ->endBatchEdit()V
+    invoke-virtual {p1}, Landroid/widget/TextView;->endBatchEdit()V
 
     .line 46
     .line 47
@@ -159,8 +146,7 @@
     move-exception p0
 
     .line 51
-    invoke-virtual {p1}, Landroid/widget/TextView;
-    ->endBatchEdit()V
+    invoke-virtual {p1}, Landroid/widget/TextView;->endBatchEdit()V
 
     .line 52
     .line 53
@@ -185,8 +171,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p2, p0}, Landroid/app/Activity;
-    ->requestDragAndDropPermissions(Landroid/view/DragEvent;)Landroid/view/DragAndDropPermissions;
+    invoke-virtual {p2, p0}, Landroid/app/Activity;->requestDragAndDropPermissions(Landroid/view/DragEvent;)Landroid/view/DragAndDropPermissions;
 
     .line 2
     .line 3
@@ -195,8 +180,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/view/DragEvent;
-    ->getClipData()Landroid/content/ClipData;
+    invoke-virtual {p0}, Landroid/view/DragEvent;->getClipData()Landroid/content/ClipData;
 
     .line 7
     .line 8
@@ -207,14 +191,12 @@
     const/4 v0, 0x3
 
     .line 11
-    invoke-direct {p2, p0, v0}, Landroidx/core/view/ContentInfoCompat$Builder;
-    -><init>(Landroid/content/ClipData;I)V
+    invoke-direct {p2, p0, v0}, Landroidx/core/view/ContentInfoCompat$Builder;-><init>(Landroid/content/ClipData;I)V
 
     .line 12
     .line 13
     .line 14
-    invoke-virtual {p2}, Landroidx/core/view/ContentInfoCompat$Builder;
-    ->build()Landroidx/core/view/ContentInfoCompat;
+    invoke-virtual {p2}, Landroidx/core/view/ContentInfoCompat$Builder;->build()Landroidx/core/view/ContentInfoCompat;
 
     .line 15
     .line 16
@@ -222,8 +204,7 @@
     move-result-object p0
 
     .line 18
-    invoke-static {p1, p0}, Landroidx/core/view/ViewCompat;
-    ->performReceiveContent(Landroid/view/View;Landroidx/core/view/ContentInfoCompat;)Landroidx/core/view/ContentInfoCompat;
+    invoke-static {p1, p0}, Landroidx/core/view/ViewCompat;->performReceiveContent(Landroid/view/View;Landroidx/core/view/ContentInfoCompat;)Landroidx/core/view/ContentInfoCompat;
 
     .line 19
     .line 20

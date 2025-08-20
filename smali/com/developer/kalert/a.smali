@@ -15,11 +15,9 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/developer/kalert/a;
-    ->b:Lcom/developer/kalert/KAlertDialog$1;
+    iput-object p1, p0, Lcom/developer/kalert/a;->b:Lcom/developer/kalert/KAlertDialog$1;
 
     return-void
 .end method
@@ -30,11 +28,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/developer/kalert/a;
-    ->b:Lcom/developer/kalert/KAlertDialog$1;
+    iget-object v0, p0, Lcom/developer/kalert/a;->b:Lcom/developer/kalert/KAlertDialog$1;
 
-    invoke-static {v0}, Lcom/developer/kalert/KAlertDialog$1;
-    ->a(Lcom/developer/kalert/KAlertDialog$1;)V
+    invoke-static {v0}, Lcom/developer/kalert/KAlertDialog$1;->a(Lcom/developer/kalert/KAlertDialog$1;)V
 return-void
 .end method
 

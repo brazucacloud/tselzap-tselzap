@@ -10,8 +10,7 @@
     .line 1
     const-string v0, "android.permission.UPDATE_DEVICE_STATS"
 
-    invoke-virtual {p0, v0}, Landroid/content/Context;
-    ->checkSelfPermission(Ljava/lang/String;)I
+    invoke-virtual {p0, v0}, Landroid/content/Context;->checkSelfPermission(Ljava/lang/String;)I
 
     move-result p0
 
@@ -22,8 +21,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/TextView;
-    ->getBreakStrategy()I
+    invoke-virtual {p0}, Landroid/widget/TextView;->getBreakStrategy()I
 
     move-result p0
 
@@ -34,8 +32,7 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Landroid/security/NetworkSecurityPolicy;
-    ->getInstance()Landroid/security/NetworkSecurityPolicy;
+    invoke-static {}, Landroid/security/NetworkSecurityPolicy;->getInstance()Landroid/security/NetworkSecurityPolicy;
 
     move-result-object v0
 
@@ -48,8 +45,7 @@
     .line 1
     const/4 v0, 0x0
 
-    invoke-static {p0, v0, p1, p2, p3}, Landroid/text/StaticLayout$Builder;
-    ->obtain(Ljava/lang/CharSequence;IILandroid/text/TextPaint;I)Landroid/text/StaticLayout$Builder;
+    invoke-static {p0, v0, p1, p2, p3}, Landroid/text/StaticLayout$Builder;->obtain(Ljava/lang/CharSequence;IILandroid/text/TextPaint;I)Landroid/text/StaticLayout$Builder;
 
     move-result-object p0
 
@@ -60,8 +56,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/text/StaticLayout$Builder;
-    ->build()Landroid/text/StaticLayout;
+    invoke-virtual {p0}, Landroid/text/StaticLayout$Builder;->build()Landroid/text/StaticLayout;
 
     move-result-object p0
 
@@ -72,8 +67,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getRootWindowInsets()Landroid/view/WindowInsets;
+    invoke-virtual {p0}, Landroid/view/View;->getRootWindowInsets()Landroid/view/WindowInsets;
 
     move-result-object p0
 
@@ -84,8 +78,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/FrameLayout;
-    ->getRootWindowInsets()Landroid/view/WindowInsets;
+    invoke-virtual {p0}, Landroid/widget/FrameLayout;->getRootWindowInsets()Landroid/view/WindowInsets;
 
     move-result-object p0
 
@@ -98,8 +91,7 @@
     .line 1
     const-class v0, Landroid/os/UserManager;
 
-    invoke-virtual {p0, v0}, Landroid/content/Context;
-    ->getSystemService(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -110,8 +102,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/graphics/drawable/InsetDrawable;
-    ->setDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p0, p1}, Landroid/graphics/drawable/InsetDrawable;->setDrawable(Landroid/graphics/drawable/Drawable;)V
 return-void
 .end method
 
@@ -123,8 +114,7 @@ return-void
 
     const/16 v1, 0x11
 
-    invoke-virtual {p0, v0, v1}, Landroid/graphics/drawable/LayerDrawable;
-    ->setLayerGravity(II)V
+    invoke-virtual {p0, v0, v1}, Landroid/graphics/drawable/LayerDrawable;->setLayerGravity(II)V
 return-void
 .end method
 
@@ -134,8 +124,7 @@ return-void
     .line 1
     const/4 v0, 0x1
 
-    invoke-virtual {p0, v0, p1, p2}, Landroid/graphics/drawable/LayerDrawable;
-    ->setLayerSize(III)V
+    invoke-virtual {p0, v0, p1, p2}, Landroid/graphics/drawable/LayerDrawable;->setLayerSize(III)V
 return-void
 .end method
 
@@ -143,8 +132,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/media/MediaMetadataRetriever;
-    ->setDataSource(Landroid/media/MediaDataSource;)V
+    invoke-virtual {p0, p1}, Landroid/media/MediaMetadataRetriever;->setDataSource(Landroid/media/MediaDataSource;)V
 return-void
 .end method
 
@@ -152,8 +140,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/os/StrictMode$ThreadPolicy$Builder;
-    ->detectResourceMismatches()Landroid/os/StrictMode$ThreadPolicy$Builder;
+    invoke-virtual {p0}, Landroid/os/StrictMode$ThreadPolicy$Builder;->detectResourceMismatches()Landroid/os/StrictMode$ThreadPolicy$Builder;
 
     return-void
 .end method
@@ -162,8 +149,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/text/StaticLayout$Builder;
-    ->setLineSpacing(FF)Landroid/text/StaticLayout$Builder;
+    invoke-virtual {p0, p1, p2}, Landroid/text/StaticLayout$Builder;->setLineSpacing(FF)Landroid/text/StaticLayout$Builder;
 
     return-void
 .end method
@@ -172,8 +158,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/text/StaticLayout$Builder;
-    ->setMaxLines(I)Landroid/text/StaticLayout$Builder;
+    invoke-virtual {p0, p1}, Landroid/text/StaticLayout$Builder;->setMaxLines(I)Landroid/text/StaticLayout$Builder;
 
     return-void
 .end method
@@ -182,8 +167,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/text/StaticLayout$Builder;
-    ->setAlignment(Landroid/text/Layout$Alignment;)Landroid/text/StaticLayout$Builder;
+    invoke-virtual {p0, p1}, Landroid/text/StaticLayout$Builder;->setAlignment(Landroid/text/Layout$Alignment;)Landroid/text/StaticLayout$Builder;
 
     return-void
 .end method
@@ -192,8 +176,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/text/StaticLayout$Builder;
-    ->setEllipsize(Landroid/text/TextUtils$TruncateAt;)Landroid/text/StaticLayout$Builder;
+    invoke-virtual {p0, p1}, Landroid/text/StaticLayout$Builder;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)Landroid/text/StaticLayout$Builder;
 
     return-void
 .end method
@@ -202,8 +185,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/text/StaticLayout$Builder;
-    ->setIncludePad(Z)Landroid/text/StaticLayout$Builder;
+    invoke-virtual {p0, p1}, Landroid/text/StaticLayout$Builder;->setIncludePad(Z)Landroid/text/StaticLayout$Builder;
 
     return-void
 .end method
@@ -212,8 +194,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/os/Looper;
-    ->isCurrentThread()Z
+    invoke-virtual {p0}, Landroid/os/Looper;->isCurrentThread()Z
 
     move-result p0
 
@@ -224,8 +205,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/security/NetworkSecurityPolicy;
-    ->isCleartextTrafficPermitted()Z
+    invoke-virtual {p0}, Landroid/security/NetworkSecurityPolicy;->isCleartextTrafficPermitted()Z
 
     move-result p0
 
@@ -238,8 +218,7 @@ return-void
     .line 1
     const-string v0, "android.permission.ACCESS_MEDIA_LOCATION"
 
-    invoke-virtual {p0, v0}, Landroid/content/Context;
-    ->checkSelfPermission(Ljava/lang/String;)I
+    invoke-virtual {p0, v0}, Landroid/content/Context;->checkSelfPermission(Ljava/lang/String;)I
 
     move-result p0
 
@@ -250,8 +229,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/text/StaticLayout$Builder;
-    ->setHyphenationFrequency(I)Landroid/text/StaticLayout$Builder;
+    invoke-virtual {p0, p1}, Landroid/text/StaticLayout$Builder;->setHyphenationFrequency(I)Landroid/text/StaticLayout$Builder;
 
     return-void
 .end method
@@ -260,8 +238,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/text/StaticLayout$Builder;
-    ->setBreakStrategy(I)Landroid/text/StaticLayout$Builder;
+    invoke-virtual {p0, p1}, Landroid/text/StaticLayout$Builder;->setBreakStrategy(I)Landroid/text/StaticLayout$Builder;
 
     return-void
 .end method

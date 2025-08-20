@@ -40,8 +40,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -69,8 +68,7 @@
     .line 1
     check-cast p1, Ljava/util/List;
 
-    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->addAll(Ljava/lang/Iterable;Ljava/util/List;)V
+    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->addAll(Ljava/lang/Iterable;Ljava/util/List;)V
 return-void
 .end method
 
@@ -89,8 +87,7 @@ return-void
     .end annotation
 
     .line 2
-    invoke-static {p0}, Landroidx/datastore/preferences/protobuf/Internal;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Landroidx/datastore/preferences/protobuf/Internal;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 3
     instance-of v0, p0, Landroidx/datastore/preferences/protobuf/LazyStringList;
@@ -100,8 +97,7 @@ return-void
     .line 4
     check-cast p0, Landroidx/datastore/preferences/protobuf/LazyStringList;
 
-    invoke-interface {p0}, Landroidx/datastore/preferences/protobuf/LazyStringList;
-    ->getUnderlyingElements()Ljava/util/List;
+    invoke-interface {p0}, Landroidx/datastore/preferences/protobuf/LazyStringList;->getUnderlyingElements()Ljava/util/List;
 
     move-result-object p0
 
@@ -111,27 +107,23 @@ return-void
     check-cast v0, Landroidx/datastore/preferences/protobuf/LazyStringList;
 
     .line 6
-    invoke-interface {p1}, Ljava/util/List;
-    ->size()I
+    invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result p1
 
     .line 7
-    invoke-interface {p0}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
     :goto_0
-    invoke-interface {p0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v1
 
     if-eqz v1, :cond_3
 
-    invoke-interface {p0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -142,32 +134,26 @@ return-void
 
     const-string v1, "Element at index "
 
-    invoke-direct {p0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v1
 
     sub-int/2addr v1, p1
 
-    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     const-string v1, " is null."
 
-    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p0
 
     .line 9
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v1
 
@@ -177,8 +163,7 @@ return-void
     if-lt v1, p1, :cond_0
 
     .line 10
-    invoke-interface {v0, v1}, Ljava/util/List;
-    ->remove(I)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
     add-int/lit8 v1, v1, -0x1
 
@@ -188,8 +173,7 @@ return-void
     :cond_0
     new-instance p1, Ljava/lang/NullPointerException;
 
-    invoke-direct {p1, p0}, Ljava/lang/NullPointerException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p0}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     throw p1
 
@@ -202,8 +186,7 @@ return-void
     .line 13
     check-cast v1, Landroidx/datastore/preferences/protobuf/ByteString;
 
-    invoke-interface {v0, v1}, Landroidx/datastore/preferences/protobuf/LazyStringList;
-    ->add(Landroidx/datastore/preferences/protobuf/ByteString;)V
+    invoke-interface {v0, v1}, Landroidx/datastore/preferences/protobuf/LazyStringList;->add(Landroidx/datastore/preferences/protobuf/ByteString;)V
 
     goto :goto_0
 
@@ -211,8 +194,7 @@ return-void
     :cond_2
     check-cast v1, Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
@@ -228,15 +210,13 @@ return-void
     .line 16
     check-cast p0, Ljava/util/Collection;
 
-    invoke-interface {p1, p0}, Ljava/util/List;
-    ->addAll(Ljava/util/Collection;)Z
+    invoke-interface {p1, p0}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
     return-void
 
     .line 17
     :cond_5
-    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->addAllCheckingNulls(Ljava/lang/Iterable;Ljava/util/List;)V
+    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->addAllCheckingNulls(Ljava/lang/Iterable;Ljava/util/List;)V
 return-void
 .end method
 
@@ -278,8 +258,7 @@ return-void
 
     .line 11
     .line 12
-    invoke-interface {p1}, Ljava/util/List;
-    ->size()I
+    invoke-interface {p1}, Ljava/util/List;->size()I
 
     .line 13
     .line 14
@@ -294,8 +273,7 @@ return-void
 
     .line 18
     .line 19
-    invoke-interface {v2}, Ljava/util/Collection;
-    ->size()I
+    invoke-interface {v2}, Ljava/util/Collection;->size()I
 
     .line 20
     .line 21
@@ -306,15 +284,13 @@ return-void
     add-int/2addr v2, v1
 
     .line 24
-    invoke-virtual {v0, v2}, Ljava/util/ArrayList;
-    ->ensureCapacity(I)V
+    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->ensureCapacity(I)V
 
     .line 25
     .line 26
     .line 27
     :cond_0
-    invoke-interface {p1}, Ljava/util/List;
-    ->size()I
+    invoke-interface {p1}, Ljava/util/List;->size()I
 
     .line 28
     .line 29
@@ -322,8 +298,7 @@ return-void
     move-result v0
 
     .line 31
-    invoke-interface {p0}, Ljava/lang/Iterable;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     .line 32
     .line 33
@@ -332,8 +307,7 @@ return-void
 
     .line 35
     :goto_0
-    invoke-interface {p0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 36
     .line 37
@@ -345,8 +319,7 @@ return-void
 
     .line 40
     .line 41
-    invoke-interface {p0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 42
     .line 43
@@ -366,14 +339,12 @@ return-void
 
     .line 50
     .line 51
-    invoke-direct {p0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 52
     .line 53
     .line 54
-    invoke-interface {p1}, Ljava/util/List;
-    ->size()I
+    invoke-interface {p1}, Ljava/util/List;->size()I
 
     .line 55
     .line 56
@@ -384,8 +355,7 @@ return-void
     sub-int/2addr v1, v0
 
     .line 59
-    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 60
     .line 61
@@ -394,14 +364,12 @@ return-void
 
     .line 63
     .line 64
-    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 65
     .line 66
     .line 67
-    invoke-virtual {p0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 68
     .line 69
@@ -409,8 +377,7 @@ return-void
     move-result-object p0
 
     .line 71
-    invoke-interface {p1}, Ljava/util/List;
-    ->size()I
+    invoke-interface {p1}, Ljava/util/List;->size()I
 
     .line 72
     .line 73
@@ -427,8 +394,7 @@ return-void
 
     .line 78
     .line 79
-    invoke-interface {p1, v1}, Ljava/util/List;
-    ->remove(I)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
     .line 80
     .line 81
@@ -445,8 +411,7 @@ return-void
 
     .line 86
     .line 87
-    invoke-direct {p1, p0}, Ljava/lang/NullPointerException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p0}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     .line 88
     .line 89
@@ -455,8 +420,7 @@ return-void
 
     .line 91
     :cond_2
-    invoke-interface {p1, v1}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 92
     .line 93
@@ -480,14 +444,12 @@ return-void
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p0}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 9
     .line 10
@@ -495,8 +457,7 @@ return-void
     move-result-object v1
 
     .line 12
-    invoke-virtual {v1}, Ljava/lang/Class;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     .line 13
     .line 14
@@ -504,8 +465,7 @@ return-void
     move-result-object v1
 
     .line 16
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 17
     .line 18
@@ -514,14 +474,12 @@ return-void
 
     .line 20
     .line 21
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 22
     .line 23
     .line 24
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 25
     .line 26
@@ -530,14 +488,12 @@ return-void
 
     .line 28
     .line 29
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 30
     .line 31
     .line 32
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 33
     .line 34
@@ -555,8 +511,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/UninitializedMessageException;
-    -><init>(Landroidx/datastore/preferences/protobuf/MessageLite;)V
+    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/UninitializedMessageException;-><init>(Landroidx/datastore/preferences/protobuf/MessageLite;)V
 
     .line 4
     .line 5
@@ -578,8 +533,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->clone()Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->clone()Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
 
     move-result-object v0
 
@@ -590,8 +544,7 @@ return-void
     .locals 1
 
     .line 2
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->clone()Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->clone()Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
 
     move-result-object v0
 
@@ -610,13 +563,11 @@ return-void
     .locals 1
 
     .line 5
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    ->getEmptyRegistry()Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->getEmptyRegistry()Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
 
     move-result-object v0
 
-    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->mergeDelimitedFrom(Ljava/io/InputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Z
+    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->mergeDelimitedFrom(Ljava/io/InputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Z
 
     move-result p1
 
@@ -627,8 +578,7 @@ return-void
     .locals 2
 
     .line 1
-    invoke-virtual {p1}, Ljava/io/InputStream;
-    ->read()I
+    invoke-virtual {p1}, Ljava/io/InputStream;->read()I
 
     move-result v0
 
@@ -642,20 +592,17 @@ return-void
 
     .line 2
     :cond_0
-    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->readRawVarint32(ILjava/io/InputStream;)I
+    invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->readRawVarint32(ILjava/io/InputStream;)I
 
     move-result v0
 
     .line 3
     new-instance v1, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder$LimitedInputStream;
 
-    invoke-direct {v1, p1, v0}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder$LimitedInputStream;
-    -><init>(Ljava/io/InputStream;I)V
+    invoke-direct {v1, p1, v0}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder$LimitedInputStream;-><init>(Ljava/io/InputStream;I)V
 
     .line 4
-    invoke-virtual {p0, v1, p2}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->mergeFrom(Ljava/io/InputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
+    invoke-virtual {p0, v1, p2}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->mergeFrom(Ljava/io/InputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
 
     const/4 p1, 0x1
 
@@ -674,20 +621,17 @@ return-void
 
     .line 13
     :try_start_0
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->newCodedInput()Landroidx/datastore/preferences/protobuf/CodedInputStream;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;->newCodedInput()Landroidx/datastore/preferences/protobuf/CodedInputStream;
 
     move-result-object p1
 
     .line 14
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->mergeFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->mergeFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
 
     const/4 v0, 0x0
 
     .line 15
-    invoke-virtual {p1, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->checkLastTagWas(I)V
+    invoke-virtual {p1, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->checkLastTagWas(I)V
     :try_end_0
     .catch Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
@@ -710,13 +654,11 @@ return-void
 
     const-string v1, "ByteString"
 
-    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->getReadingExceptionMessage(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->getReadingExceptionMessage(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-direct {v0, v1, p1}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v0, v1, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     throw v0
 
@@ -738,20 +680,17 @@ return-void
 
     .line 18
     :try_start_0
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->newCodedInput()Landroidx/datastore/preferences/protobuf/CodedInputStream;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;->newCodedInput()Landroidx/datastore/preferences/protobuf/CodedInputStream;
 
     move-result-object p1
 
     .line 19
-    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->mergeFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
+    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->mergeFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
 
     const/4 p2, 0x0
 
     .line 20
-    invoke-virtual {p1, p2}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->checkLastTagWas(I)V
+    invoke-virtual {p1, p2}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->checkLastTagWas(I)V
     :try_end_0
     .catch Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
@@ -774,13 +713,11 @@ return-void
 
     const-string v0, "ByteString"
 
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->getReadingExceptionMessage(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->getReadingExceptionMessage(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-direct {p2, v0, p1}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p2, v0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     throw p2
 
@@ -800,13 +737,11 @@ return-void
     .end annotation
 
     .line 12
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
-    ->getEmptyRegistry()Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;->getEmptyRegistry()Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;
 
     move-result-object v0
 
-    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->mergeFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
+    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->mergeFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
 
     move-result-object p1
 
@@ -835,18 +770,15 @@ return-void
     .end annotation
 
     .line 41
-    invoke-interface {p0}, Landroidx/datastore/preferences/protobuf/MessageLiteOrBuilder;
-    ->getDefaultInstanceForType()Landroidx/datastore/preferences/protobuf/MessageLite;
+    invoke-interface {p0}, Landroidx/datastore/preferences/protobuf/MessageLiteOrBuilder;->getDefaultInstanceForType()Landroidx/datastore/preferences/protobuf/MessageLite;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Ljava/lang/Class;
-    ->isInstance(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/lang/Class;->isInstance(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -855,8 +787,7 @@ return-void
     .line 42
     check-cast p1, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;
 
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->internalMergeFrom(Landroidx/datastore/preferences/protobuf/AbstractMessageLite;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->internalMergeFrom(Landroidx/datastore/preferences/protobuf/AbstractMessageLite;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
 
     move-result-object p1
 
@@ -868,8 +799,7 @@ return-void
 
     const-string v0, "mergeFrom(MessageLite) can only merge messages of the same type."
 
-    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -885,20 +815,17 @@ return-void
     .end annotation
 
     .line 35
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->newInstance(Ljava/io/InputStream;)Landroidx/datastore/preferences/protobuf/CodedInputStream;
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->newInstance(Ljava/io/InputStream;)Landroidx/datastore/preferences/protobuf/CodedInputStream;
 
     move-result-object p1
 
     .line 36
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->mergeFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->mergeFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
 
     const/4 v0, 0x0
 
     .line 37
-    invoke-virtual {p1, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->checkLastTagWas(I)V
+    invoke-virtual {p1, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->checkLastTagWas(I)V
 return-object p0
 .end method
 
@@ -914,20 +841,17 @@ return-object p0
     .end annotation
 
     .line 38
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->newInstance(Ljava/io/InputStream;)Landroidx/datastore/preferences/protobuf/CodedInputStream;
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->newInstance(Ljava/io/InputStream;)Landroidx/datastore/preferences/protobuf/CodedInputStream;
 
     move-result-object p1
 
     .line 39
-    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->mergeFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
+    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->mergeFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
 
     const/4 p2, 0x0
 
     .line 40
-    invoke-virtual {p1, p2}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->checkLastTagWas(I)V
+    invoke-virtual {p1, p2}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->checkLastTagWas(I)V
 return-object p0
 .end method
 
@@ -944,8 +868,7 @@ return-object p0
 
     const/4 v1, 0x0
 
-    invoke-virtual {p0, p1, v1, v0}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->mergeFrom([BII)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
+    invoke-virtual {p0, p1, v1, v0}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->mergeFrom([BII)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
 
     move-result-object p1
 
@@ -962,20 +885,17 @@ return-object p0
 
     .line 24
     :try_start_0
-    invoke-static {p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->newInstance([BII)Landroidx/datastore/preferences/protobuf/CodedInputStream;
+    invoke-static {p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->newInstance([BII)Landroidx/datastore/preferences/protobuf/CodedInputStream;
 
     move-result-object p1
 
     .line 25
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->mergeFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->mergeFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
 
     const/4 p2, 0x0
 
     .line 26
-    invoke-virtual {p1, p2}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->checkLastTagWas(I)V
+    invoke-virtual {p1, p2}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->checkLastTagWas(I)V
     :try_end_0
     .catch Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
@@ -998,13 +918,11 @@ return-object p0
 
     const-string p3, "byte array"
 
-    invoke-direct {p0, p3}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->getReadingExceptionMessage(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, p3}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->getReadingExceptionMessage(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p3
 
-    invoke-direct {p2, p3, p1}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p2, p3, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     throw p2
 
@@ -1025,20 +943,17 @@ return-object p0
 
     .line 30
     :try_start_0
-    invoke-static {p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->newInstance([BII)Landroidx/datastore/preferences/protobuf/CodedInputStream;
+    invoke-static {p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->newInstance([BII)Landroidx/datastore/preferences/protobuf/CodedInputStream;
 
     move-result-object p1
 
     .line 31
-    invoke-virtual {p0, p1, p4}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->mergeFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
+    invoke-virtual {p0, p1, p4}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->mergeFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
 
     const/4 p2, 0x0
 
     .line 32
-    invoke-virtual {p1, p2}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->checkLastTagWas(I)V
+    invoke-virtual {p1, p2}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->checkLastTagWas(I)V
     :try_end_0
     .catch Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
@@ -1061,13 +976,11 @@ return-object p0
 
     const-string p3, "byte array"
 
-    invoke-direct {p0, p3}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->getReadingExceptionMessage(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, p3}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->getReadingExceptionMessage(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p3
 
-    invoke-direct {p2, p3, p1}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p2, p3, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     throw p2
 
@@ -1091,8 +1004,7 @@ return-object p0
 
     const/4 v1, 0x0
 
-    invoke-virtual {p0, p1, v1, v0, p2}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->mergeFrom([BIILandroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
+    invoke-virtual {p0, p1, v1, v0, p2}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->mergeFrom([BIILandroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
 
     move-result-object p1
 
@@ -1103,8 +1015,7 @@ return-object p0
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->mergeFrom(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->mergeFrom(Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
 
     move-result-object p1
 
@@ -1115,8 +1026,7 @@ return-object p0
     .locals 0
 
     .line 2
-    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->mergeFrom(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
+    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->mergeFrom(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
 
     move-result-object p1
 
@@ -1127,8 +1037,7 @@ return-object p0
     .locals 0
 
     .line 3
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->mergeFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->mergeFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
 
     move-result-object p1
 
@@ -1139,8 +1048,7 @@ return-object p0
     .locals 0
 
     .line 4
-    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->mergeFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
+    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->mergeFrom(Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
 
     move-result-object p1
 
@@ -1151,8 +1059,7 @@ return-object p0
     .locals 0
 
     .line 5
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->mergeFrom(Landroidx/datastore/preferences/protobuf/MessageLite;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->mergeFrom(Landroidx/datastore/preferences/protobuf/MessageLite;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
 
     move-result-object p1
 
@@ -1163,8 +1070,7 @@ return-object p0
     .locals 0
 
     .line 6
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->mergeFrom(Ljava/io/InputStream;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->mergeFrom(Ljava/io/InputStream;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
 
     move-result-object p1
 
@@ -1175,8 +1081,7 @@ return-object p0
     .locals 0
 
     .line 7
-    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->mergeFrom(Ljava/io/InputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
+    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->mergeFrom(Ljava/io/InputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
 
     move-result-object p1
 
@@ -1187,8 +1092,7 @@ return-object p0
     .locals 0
 
     .line 8
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->mergeFrom([B)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->mergeFrom([B)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
 
     move-result-object p1
 
@@ -1199,8 +1103,7 @@ return-object p0
     .locals 0
 
     .line 9
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->mergeFrom([BII)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->mergeFrom([BII)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
 
     move-result-object p1
 
@@ -1211,8 +1114,7 @@ return-object p0
     .locals 0
 
     .line 10
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->mergeFrom([BIILandroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->mergeFrom([BIILandroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
 
     move-result-object p1
 
@@ -1223,8 +1125,7 @@ return-object p0
     .locals 0
 
     .line 11
-    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
-    ->mergeFrom([BLandroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
+    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;->mergeFrom([BLandroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/AbstractMessageLite$Builder;
 
     move-result-object p1
 

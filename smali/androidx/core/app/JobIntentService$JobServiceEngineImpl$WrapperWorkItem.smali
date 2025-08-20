@@ -28,19 +28,16 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/core/app/JobIntentService$JobServiceEngineImpl$WrapperWorkItem;
-    ->this$0:Landroidx/core/app/JobIntentService$JobServiceEngineImpl;
+    iput-object p1, p0, Landroidx/core/app/JobIntentService$JobServiceEngineImpl$WrapperWorkItem;->this$0:Landroidx/core/app/JobIntentService$JobServiceEngineImpl;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/core/app/JobIntentService$JobServiceEngineImpl$WrapperWorkItem;
-    ->mJobWork:Landroid/app/job/JobWorkItem;
+    iput-object p2, p0, Landroidx/core/app/JobIntentService$JobServiceEngineImpl$WrapperWorkItem;->mJobWork:Landroid/app/job/JobWorkItem;
 
     .line 7
     .line 8
@@ -53,13 +50,11 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/JobIntentService$JobServiceEngineImpl$WrapperWorkItem;
-    ->this$0:Landroidx/core/app/JobIntentService$JobServiceEngineImpl;
+    iget-object v0, p0, Landroidx/core/app/JobIntentService$JobServiceEngineImpl$WrapperWorkItem;->this$0:Landroidx/core/app/JobIntentService$JobServiceEngineImpl;
 
     .line 2
     .line 3
-    iget-object v0, v0, Landroidx/core/app/JobIntentService$JobServiceEngineImpl;
-    ->mLock:Ljava/lang/Object;
+    iget-object v0, v0, Landroidx/core/app/JobIntentService$JobServiceEngineImpl;->mLock:Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -67,13 +62,11 @@
 
     .line 6
     :try_start_0
-    iget-object v1, p0, Landroidx/core/app/JobIntentService$JobServiceEngineImpl$WrapperWorkItem;
-    ->this$0:Landroidx/core/app/JobIntentService$JobServiceEngineImpl;
+    iget-object v1, p0, Landroidx/core/app/JobIntentService$JobServiceEngineImpl$WrapperWorkItem;->this$0:Landroidx/core/app/JobIntentService$JobServiceEngineImpl;
 
     .line 7
     .line 8
-    iget-object v1, v1, Landroidx/core/app/JobIntentService$JobServiceEngineImpl;
-    ->mParams:Landroid/app/job/JobParameters;
+    iget-object v1, v1, Landroidx/core/app/JobIntentService$JobServiceEngineImpl;->mParams:Landroid/app/job/JobParameters;
 
     .line 9
     .line 10
@@ -81,13 +74,11 @@
 
     .line 11
     .line 12
-    iget-object v2, p0, Landroidx/core/app/JobIntentService$JobServiceEngineImpl$WrapperWorkItem;
-    ->mJobWork:Landroid/app/job/JobWorkItem;
+    iget-object v2, p0, Landroidx/core/app/JobIntentService$JobServiceEngineImpl$WrapperWorkItem;->mJobWork:Landroid/app/job/JobWorkItem;
 
     .line 13
     .line 14
-    invoke-static {v1, v2}, LS1/b;
-    ->s(Landroid/app/job/JobParameters;Landroid/app/job/JobWorkItem;)V
+    invoke-static {v1, v2}, LS1/b;->s(Landroid/app/job/JobParameters;Landroid/app/job/JobWorkItem;)V
 
     .line 15
     .line 16
@@ -185,13 +176,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/JobIntentService$JobServiceEngineImpl$WrapperWorkItem;
-    ->mJobWork:Landroid/app/job/JobWorkItem;
+    iget-object v0, p0, Landroidx/core/app/JobIntentService$JobServiceEngineImpl$WrapperWorkItem;->mJobWork:Landroid/app/job/JobWorkItem;
 
     .line 2
     .line 3
-    invoke-static {v0}, LS1/b;
-    ->k(Landroid/app/job/JobWorkItem;)Landroid/content/Intent;
+    invoke-static {v0}, LS1/b;->k(Landroid/app/job/JobWorkItem;)Landroid/content/Intent;
 
     .line 4
     .line 5

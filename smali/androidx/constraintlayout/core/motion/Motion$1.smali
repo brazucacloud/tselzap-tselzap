@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/constraintlayout/core/motion/Motion;
-    ->getInterpolator(ILjava/lang/String;I)Landroidx/constraintlayout/core/motion/utils/DifferentialInterpolator;
+    value = Landroidx/constraintlayout/core/motion/Motion;->getInterpolator(ILjava/lang/String;I)Landroidx/constraintlayout/core/motion/utils/DifferentialInterpolator;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -34,13 +33,11 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/motion/Motion$1;
-    ->val$easing:Landroidx/constraintlayout/core/motion/utils/Easing;
+    iput-object p1, p0, Landroidx/constraintlayout/core/motion/Motion$1;->val$easing:Landroidx/constraintlayout/core/motion/utils/Easing;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -50,21 +47,18 @@
     .locals 3
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/motion/Motion$1;
-    ->mX:F
+    iput p1, p0, Landroidx/constraintlayout/core/motion/Motion$1;->mX:F
 
     .line 2
     .line 3
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/Motion$1;
-    ->val$easing:Landroidx/constraintlayout/core/motion/utils/Easing;
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/Motion$1;->val$easing:Landroidx/constraintlayout/core/motion/utils/Easing;
 
     .line 4
     .line 5
     float-to-double v1, p1
 
     .line 6
-    invoke-virtual {v0, v1, v2}, Landroidx/constraintlayout/core/motion/utils/Easing;
-    ->get(D)D
+    invoke-virtual {v0, v1, v2}, Landroidx/constraintlayout/core/motion/utils/Easing;->get(D)D
 
     .line 7
     .line 8
@@ -81,21 +75,18 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/Motion$1;
-    ->val$easing:Landroidx/constraintlayout/core/motion/utils/Easing;
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/Motion$1;->val$easing:Landroidx/constraintlayout/core/motion/utils/Easing;
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/constraintlayout/core/motion/Motion$1;
-    ->mX:F
+    iget v1, p0, Landroidx/constraintlayout/core/motion/Motion$1;->mX:F
 
     .line 4
     .line 5
     float-to-double v1, v1
 
     .line 6
-    invoke-virtual {v0, v1, v2}, Landroidx/constraintlayout/core/motion/utils/Easing;
-    ->getDiff(D)D
+    invoke-virtual {v0, v1, v2}, Landroidx/constraintlayout/core/motion/utils/Easing;->getDiff(D)D
 
     .line 7
     .line 8

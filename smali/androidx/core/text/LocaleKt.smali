@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/text/TextUtils;
-    ->getLayoutDirectionFromLocale(Ljava/util/Locale;)I
+    invoke-static {p0}, Landroid/text/TextUtils;->getLayoutDirectionFromLocale(Ljava/util/Locale;)I
 
     .line 2
     .line 3

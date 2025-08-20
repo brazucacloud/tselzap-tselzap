@@ -19,8 +19,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewOscillator;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewOscillator;-><init>()V
     return-void
 .end method
 
@@ -30,8 +29,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p2}, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator;
-    ->get(F)F
+    invoke-virtual {p0, p2}, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator;->get(F)F
 
     .line 2
     .line 3
@@ -39,8 +37,7 @@
     move-result p2
 
     .line 5
-    invoke-virtual {p1, p2}, Landroid/view/View;
-    ->setTranslationX(F)V    
+    invoke-virtual {p1, p2}, Landroid/view/View;->setTranslationX(F)V
     return-void
 .end method
 

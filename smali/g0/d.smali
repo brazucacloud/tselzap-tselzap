@@ -12,16 +12,14 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lg0/d;
-    ->b:Lcom/google/android/material/carousel/CarouselLayoutManager;
+    iput-object p1, p0, Lg0/d;->b:Lcom/google/android/material/carousel/CarouselLayoutManager;
 
     .line 2
     .line 3
     const/4 p1, 0x1
 
     .line 4
-    invoke-direct {p0, p1}, Lg0/f;
-    -><init>(I)V
+    invoke-direct {p0, p1}, Lg0/f;-><init>(I)V
 
     .line 5
     .line 6
@@ -35,13 +33,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lg0/d;
-    ->b:Lcom/google/android/material/carousel/CarouselLayoutManager;
+    iget-object v0, p0, Lg0/d;->b:Lcom/google/android/material/carousel/CarouselLayoutManager;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
-    ->getHeight()I
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getHeight()I
 
     .line 4
     .line 5
@@ -55,13 +51,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lg0/d;
-    ->b:Lcom/google/android/material/carousel/CarouselLayoutManager;
+    iget-object v0, p0, Lg0/d;->b:Lcom/google/android/material/carousel/CarouselLayoutManager;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
-    ->getPaddingLeft()I
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getPaddingLeft()I
 
     .line 4
     .line 5
@@ -75,13 +69,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lg0/d;
-    ->b:Lcom/google/android/material/carousel/CarouselLayoutManager;
+    iget-object v0, p0, Lg0/d;->b:Lcom/google/android/material/carousel/CarouselLayoutManager;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
-    ->getWidth()I
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getWidth()I
 
     .line 4
     .line 5
@@ -89,8 +81,7 @@
     move-result v1
 
     .line 7
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
-    ->getPaddingRight()I
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getPaddingRight()I
 
     .line 8
     .line 9

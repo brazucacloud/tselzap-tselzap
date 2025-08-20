@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -25,8 +24,7 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/content/ContextCompat;
-    ->getColorStateList(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
+    invoke-static {p0, p1}, Landroidx/core/content/ContextCompat;->getColorStateList(Landroid/content/Context;I)Landroid/content/res/ColorStateList;
 
     .line 2
     .line 3
@@ -50,8 +48,7 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Landroidx/appcompat/widget/ResourceManagerInternal;
-    ->get()Landroidx/appcompat/widget/ResourceManagerInternal;
+    invoke-static {}, Landroidx/appcompat/widget/ResourceManagerInternal;->get()Landroidx/appcompat/widget/ResourceManagerInternal;
 
     .line 2
     .line 3
@@ -59,8 +56,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p0, p1}, Landroidx/appcompat/widget/ResourceManagerInternal;
-    ->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
+    invoke-virtual {v0, p0, p1}, Landroidx/appcompat/widget/ResourceManagerInternal;->getDrawable(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
 
     .line 6
     .line 7

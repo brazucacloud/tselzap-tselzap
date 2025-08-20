@@ -17,8 +17,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -36,8 +35,7 @@
 
     .line 9
     .line 10
-    iget-object p2, p2, Lu0/b;
-    ->a:Lu0/d;
+    iget-object p2, p2, Lu0/b;->a:Lu0/d;
 
     .line 11
     .line 12
@@ -48,8 +46,7 @@
 
     .line 14
     .line 15
-    iget v0, v0, Lu0/b;
-    ->b:F
+    iget v0, v0, Lu0/b;->b:F
 
     .line 16
     .line 17
@@ -60,13 +57,11 @@
 
     .line 19
     :cond_0
-    iput-object p2, p0, Lu0/b;
-    ->a:Lu0/d;
+    iput-object p2, p0, Lu0/b;->a:Lu0/d;
 
     .line 20
     .line 21
-    iput p1, p0, Lu0/b;
-    ->b:F
+    iput p1, p0, Lu0/b;->b:F
 
     .line 22
     .line 23
@@ -79,13 +74,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lu0/b;
-    ->a:Lu0/d;
+    iget-object v0, p0, Lu0/b;->a:Lu0/d;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Lu0/d;
-    ->a(Landroid/graphics/RectF;)F
+    invoke-interface {v0, p1}, Lu0/d;->a(Landroid/graphics/RectF;)F
 
     .line 4
     .line 5
@@ -93,8 +86,7 @@
     move-result p1
 
     .line 7
-    iget v0, p0, Lu0/b;
-    ->b:F
+    iget v0, p0, Lu0/b;->b:F
 
     .line 8
     .line 9
@@ -104,8 +96,7 @@
     const/4 v0, 0x0
 
     .line 11
-    invoke-static {v0, p1}, Ljava/lang/Math;
-    ->max(FF)F
+    invoke-static {v0, p1}, Ljava/lang/Math;->max(FF)F
 
     .line 12
     .line 13
@@ -149,18 +140,15 @@
 
     .line 12
     .line 13
-    iget-object v1, p1, Lu0/b;
-    ->a:Lu0/d;
+    iget-object v1, p1, Lu0/b;->a:Lu0/d;
 
     .line 14
     .line 15
-    iget-object v3, p0, Lu0/b;
-    ->a:Lu0/d;
+    iget-object v3, p0, Lu0/b;->a:Lu0/d;
 
     .line 16
     .line 17
-    invoke-virtual {v3, v1}, Ljava/lang/Object;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     .line 18
     .line 19
@@ -172,13 +160,11 @@
 
     .line 22
     .line 23
-    iget v1, p0, Lu0/b;
-    ->b:F
+    iget v1, p0, Lu0/b;->b:F
 
     .line 24
     .line 25
-    iget p1, p1, Lu0/b;
-    ->b:F
+    iget p1, p1, Lu0/b;->b:F
 
     .line 26
     .line 27
@@ -201,13 +187,11 @@
     .locals 4
 
     .line 1
-    iget v0, p0, Lu0/b;
-    ->b:F
+    iget v0, p0, Lu0/b;->b:F
 
     .line 2
     .line 3
-    invoke-static {v0}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v0}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     .line 4
     .line 5
@@ -215,8 +199,7 @@
     move-result-object v0
 
     .line 7
-    iget-object v1, p0, Lu0/b;
-    ->a:Lu0/d;
+    iget-object v1, p0, Lu0/b;->a:Lu0/d;
 
     .line 8
     .line 9
@@ -241,8 +224,7 @@
 
     .line 17
     .line 18
-    invoke-static {v2}, Ljava/util/Arrays;
-    ->hashCode([Ljava/lang/Object;)I
+    invoke-static {v2}, Ljava/util/Arrays;->hashCode([Ljava/lang/Object;)I
 
     .line 19
     .line 20

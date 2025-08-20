@@ -31,8 +31,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -42,27 +41,23 @@
     .locals 2
 
     .line 2
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object p1
 
     check-cast p1, Landroidx/viewpager/widget/ViewPager$LayoutParams;
 
     .line 3
-    invoke-virtual {p2}, Landroid/view/View;
-    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p2}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object p2
 
     check-cast p2, Landroidx/viewpager/widget/ViewPager$LayoutParams;
 
     .line 4
-    iget-boolean v0, p1, Landroidx/viewpager/widget/ViewPager$LayoutParams;
-    ->isDecor:Z
+    iget-boolean v0, p1, Landroidx/viewpager/widget/ViewPager$LayoutParams;->isDecor:Z
 
-    iget-boolean v1, p2, Landroidx/viewpager/widget/ViewPager$LayoutParams;
-    ->isDecor:Z
+    iget-boolean v1, p2, Landroidx/viewpager/widget/ViewPager$LayoutParams;->isDecor:Z
 
     if-eq v0, v1, :cond_1
 
@@ -79,11 +74,9 @@
 
     .line 5
     :cond_1
-    iget p1, p1, Landroidx/viewpager/widget/ViewPager$LayoutParams;
-    ->position:I
+    iget p1, p1, Landroidx/viewpager/widget/ViewPager$LayoutParams;->position:I
 
-    iget p2, p2, Landroidx/viewpager/widget/ViewPager$LayoutParams;
-    ->position:I
+    iget p2, p2, Landroidx/viewpager/widget/ViewPager$LayoutParams;->position:I
 
     sub-int/2addr p1, p2
 
@@ -98,8 +91,7 @@
 
     check-cast p2, Landroid/view/View;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/viewpager/widget/ViewPager$ViewPositionComparator;
-    ->compare(Landroid/view/View;Landroid/view/View;)I
+    invoke-virtual {p0, p1, p2}, Landroidx/viewpager/widget/ViewPager$ViewPositionComparator;->compare(Landroid/view/View;Landroid/view/View;)I
 
     move-result p1
 

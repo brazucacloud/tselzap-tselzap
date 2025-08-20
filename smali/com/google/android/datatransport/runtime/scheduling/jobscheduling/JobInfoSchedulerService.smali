@@ -18,8 +18,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/app/job/JobService;
-    -><init>()V
+    invoke-direct {p0}, Landroid/app/job/JobService;-><init>()V
 
     .line 2
     .line 3
@@ -33,8 +32,7 @@
     .locals 6
 
     .line 1
-    invoke-virtual {p1}, Landroid/app/job/JobParameters;
-    ->getExtras()Landroid/os/PersistableBundle;
+    invoke-virtual {p1}, Landroid/app/job/JobParameters;->getExtras()Landroid/os/PersistableBundle;
 
     .line 2
     .line 3
@@ -46,8 +44,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1}, Landroid/os/BaseBundle;
-    ->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     .line 8
     .line 9
@@ -55,8 +52,7 @@
     move-result-object v0
 
     .line 11
-    invoke-virtual {p1}, Landroid/app/job/JobParameters;
-    ->getExtras()Landroid/os/PersistableBundle;
+    invoke-virtual {p1}, Landroid/app/job/JobParameters;->getExtras()Landroid/os/PersistableBundle;
 
     .line 12
     .line 13
@@ -68,8 +64,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {v1, v2}, Landroid/os/BaseBundle;
-    ->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     .line 18
     .line 19
@@ -77,8 +72,7 @@
     move-result-object v1
 
     .line 21
-    invoke-virtual {p1}, Landroid/app/job/JobParameters;
-    ->getExtras()Landroid/os/PersistableBundle;
+    invoke-virtual {p1}, Landroid/app/job/JobParameters;->getExtras()Landroid/os/PersistableBundle;
 
     .line 22
     .line 23
@@ -90,8 +84,7 @@
 
     .line 26
     .line 27
-    invoke-virtual {v2, v3}, Landroid/os/BaseBundle;
-    ->getInt(Ljava/lang/String;)I
+    invoke-virtual {v2, v3}, Landroid/os/BaseBundle;->getInt(Ljava/lang/String;)I
 
     .line 28
     .line 29
@@ -99,8 +92,7 @@
     move-result v2
 
     .line 31
-    invoke-virtual {p1}, Landroid/app/job/JobParameters;
-    ->getExtras()Landroid/os/PersistableBundle;
+    invoke-virtual {p1}, Landroid/app/job/JobParameters;->getExtras()Landroid/os/PersistableBundle;
 
     .line 32
     .line 33
@@ -112,8 +104,7 @@
 
     .line 36
     .line 37
-    invoke-virtual {v3, v4}, Landroid/os/BaseBundle;
-    ->getInt(Ljava/lang/String;)I
+    invoke-virtual {v3, v4}, Landroid/os/BaseBundle;->getInt(Ljava/lang/String;)I
 
     .line 38
     .line 39
@@ -121,8 +112,7 @@
     move-result v3
 
     .line 41
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     .line 42
     .line 43
@@ -130,8 +120,7 @@
     move-result-object v4
 
     .line 45
-    invoke-static {v4}, LN/x;
-    ->b(Landroid/content/Context;)V
+    invoke-static {v4}, LN/x;->b(Landroid/content/Context;)V
 
     .line 46
     .line 47
@@ -140,8 +129,7 @@
 
     .line 49
     .line 50
-    invoke-static {v2}, LX/a;
-    ->b(I)LK/c;
+    invoke-static {v2}, LX/a;->b(I)LK/c;
 
     .line 51
     .line 52
@@ -156,8 +144,7 @@
     const/4 v4, 0x0
 
     .line 57
-    invoke-static {v1, v4}, Landroid/util/Base64;
-    ->decode(Ljava/lang/String;I)[B
+    invoke-static {v1, v4}, Landroid/util/Base64;->decode(Ljava/lang/String;I)[B
 
     .line 58
     .line 59
@@ -173,8 +160,7 @@
 
     .line 63
     :goto_0
-    invoke-static {}, LN/x;
-    ->a()LN/x;
+    invoke-static {}, LN/x;->a()LN/x;
 
     .line 64
     .line 65
@@ -182,8 +168,7 @@
     move-result-object v4
 
     .line 67
-    iget-object v4, v4, LN/x;
-    ->d:LT/m;
+    iget-object v4, v4, LN/x;->d:LT/m;
 
     .line 68
     .line 69
@@ -191,8 +176,7 @@
 
     .line 70
     .line 71
-    invoke-direct {v5, v0, v1, v2}, LN/k;
-    -><init>(Ljava/lang/String;[BLK/c;)V
+    invoke-direct {v5, v0, v1, v2}, LN/k;-><init>(Ljava/lang/String;[BLK/c;)V
 
     .line 72
     .line 73
@@ -204,14 +188,12 @@
     const/4 v1, 0x0
 
     .line 77
-    invoke-direct {v0, v1, p0, p1}, LT/e;
-    -><init>(ILjava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v0, v1, p0, p1}, LT/e;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
 
     .line 78
     .line 79
     .line 80
-    invoke-virtual {v4}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v4}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 81
     .line 82
@@ -220,19 +202,16 @@
 
     .line 84
     .line 85
-    invoke-direct {p1, v4, v5, v3, v0}, LT/l;
-    -><init>(LT/m;LN/k;ILjava/lang/Runnable;)V
+    invoke-direct {p1, v4, v5, v3, v0}, LT/l;-><init>(LT/m;LN/k;ILjava/lang/Runnable;)V
 
     .line 86
     .line 87
     .line 88
-    iget-object v0, v4, LT/m;
-    ->e:Ljava/util/concurrent/Executor;
+    iget-object v0, v4, LT/m;->e:Ljava/util/concurrent/Executor;
 
     .line 89
     .line 90
-    invoke-interface {v0, p1}, Ljava/util/concurrent/Executor;
-    ->execute(Ljava/lang/Runnable;)V
+    invoke-interface {v0, p1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
 
     .line 91
     .line 92
@@ -251,8 +230,7 @@
 
     .line 98
     .line 99
-    invoke-direct {p1, v0}, Ljava/lang/NullPointerException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     .line 100
     .line 101

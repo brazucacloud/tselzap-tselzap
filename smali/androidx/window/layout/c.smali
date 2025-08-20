@@ -8,8 +8,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/window/layout/WindowMetricsCalculator;
-    ->Companion:Landroidx/window/layout/WindowMetricsCalculator$Companion;
+    sget-object v0, Landroidx/window/layout/WindowMetricsCalculator;->Companion:Landroidx/window/layout/WindowMetricsCalculator$Companion;
 
     return-void
 .end method
@@ -18,13 +17,11 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/window/layout/WindowMetricsCalculator;
-    ->Companion:Landroidx/window/layout/WindowMetricsCalculator$Companion;
+    sget-object v0, Landroidx/window/layout/WindowMetricsCalculator;->Companion:Landroidx/window/layout/WindowMetricsCalculator$Companion;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/window/layout/WindowMetricsCalculator$Companion;
-    ->getOrCreate()Landroidx/window/layout/WindowMetricsCalculator;
+    invoke-virtual {v0}, Landroidx/window/layout/WindowMetricsCalculator$Companion;->getOrCreate()Landroidx/window/layout/WindowMetricsCalculator;
 
     .line 4
     .line 5
@@ -38,13 +35,11 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/window/layout/WindowMetricsCalculator;
-    ->Companion:Landroidx/window/layout/WindowMetricsCalculator$Companion;
+    sget-object v0, Landroidx/window/layout/WindowMetricsCalculator;->Companion:Landroidx/window/layout/WindowMetricsCalculator$Companion;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0}, Landroidx/window/layout/WindowMetricsCalculator$Companion;
-    ->overrideDecorator(Landroidx/window/layout/WindowMetricsCalculatorDecorator;)V
+    invoke-virtual {v0, p0}, Landroidx/window/layout/WindowMetricsCalculator$Companion;->overrideDecorator(Landroidx/window/layout/WindowMetricsCalculatorDecorator;)V
 
     .line 4
     .line 5
@@ -56,13 +51,11 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/window/layout/WindowMetricsCalculator;
-    ->Companion:Landroidx/window/layout/WindowMetricsCalculator$Companion;
+    sget-object v0, Landroidx/window/layout/WindowMetricsCalculator;->Companion:Landroidx/window/layout/WindowMetricsCalculator$Companion;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/window/layout/WindowMetricsCalculator$Companion;
-    ->reset()V
+    invoke-virtual {v0}, Landroidx/window/layout/WindowMetricsCalculator$Companion;->reset()V
 
     .line 4
     .line 5

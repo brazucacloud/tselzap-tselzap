@@ -26,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/fragment/app/DialogFragment$3;
-    ->this$0:Landroidx/fragment/app/DialogFragment;
+    iput-object p1, p0, Landroidx/fragment/app/DialogFragment$3;->this$0:Landroidx/fragment/app/DialogFragment;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -51,13 +49,11 @@
     .end annotation
 
     .line 1
-    iget-object p1, p0, Landroidx/fragment/app/DialogFragment$3;
-    ->this$0:Landroidx/fragment/app/DialogFragment;
+    iget-object p1, p0, Landroidx/fragment/app/DialogFragment$3;->this$0:Landroidx/fragment/app/DialogFragment;
 
     .line 2
     .line 3
-    invoke-static {p1}, Landroidx/fragment/app/DialogFragment;
-    ->access$000(Landroidx/fragment/app/DialogFragment;)Landroid/app/Dialog;
+    invoke-static {p1}, Landroidx/fragment/app/DialogFragment;->access$000(Landroidx/fragment/app/DialogFragment;)Landroid/app/Dialog;
 
     .line 4
     .line 5
@@ -69,13 +65,11 @@
 
     .line 8
     .line 9
-    iget-object p1, p0, Landroidx/fragment/app/DialogFragment$3;
-    ->this$0:Landroidx/fragment/app/DialogFragment;
+    iget-object p1, p0, Landroidx/fragment/app/DialogFragment$3;->this$0:Landroidx/fragment/app/DialogFragment;
 
     .line 10
     .line 11
-    invoke-static {p1}, Landroidx/fragment/app/DialogFragment;
-    ->access$000(Landroidx/fragment/app/DialogFragment;)Landroid/app/Dialog;
+    invoke-static {p1}, Landroidx/fragment/app/DialogFragment;->access$000(Landroidx/fragment/app/DialogFragment;)Landroid/app/Dialog;
 
     .line 12
     .line 13
@@ -83,8 +77,7 @@
     move-result-object v0
 
     .line 15
-    invoke-virtual {p1, v0}, Landroidx/fragment/app/DialogFragment;
-    ->onDismiss(Landroid/content/DialogInterface;)V
+    invoke-virtual {p1, v0}, Landroidx/fragment/app/DialogFragment;->onDismiss(Landroid/content/DialogInterface;)V
 
     .line 16
     .line 17

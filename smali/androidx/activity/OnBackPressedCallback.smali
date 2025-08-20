@@ -30,14 +30,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-boolean p1, p0, Landroidx/activity/OnBackPressedCallback;
-    ->isEnabled:Z
+    iput-boolean p1, p0, Landroidx/activity/OnBackPressedCallback;->isEnabled:Z
 
     .line 5
     .line 6
@@ -45,14 +43,12 @@
 
     .line 7
     .line 8
-    invoke-direct {p1}, Ljava/util/concurrent/CopyOnWriteArrayList;
-    -><init>()V
+    invoke-direct {p1}, Ljava/util/concurrent/CopyOnWriteArrayList;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    iput-object p1, p0, Landroidx/activity/OnBackPressedCallback;
-    ->cancellables:Ljava/util/concurrent/CopyOnWriteArrayList;    
+    iput-object p1, p0, Landroidx/activity/OnBackPressedCallback;->cancellables:Ljava/util/concurrent/CopyOnWriteArrayList;
     return-void
 .end method
 
@@ -66,19 +62,16 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/activity/OnBackPressedCallback;
-    ->cancellables:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iget-object v0, p0, Landroidx/activity/OnBackPressedCallback;->cancellables:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->add(Ljava/lang/Object;)Z
 return-void
 .end method
 
@@ -92,8 +85,7 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/OnBackPressedCallback;
-    ->enabledChangedCallback:Lp1/a;    return-object v0
+    iget-object v0, p0, Landroidx/activity/OnBackPressedCallback;->enabledChangedCallback:Lp1/a;    return-object v0
 .end method
 
 .method public handleOnBackCancelled()V
@@ -116,8 +108,7 @@ return-void
 
     const-string v0, "backEvent"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 return-void
 .end method
 
@@ -128,8 +119,7 @@ return-void
 
     const-string v0, "backEvent"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 return-void
 .end method
 
@@ -139,8 +129,7 @@ return-void
     .end annotation
 
     .line 1
-    iget-boolean v0, p0, Landroidx/activity/OnBackPressedCallback;
-    ->isEnabled:Z    return v0
+    iget-boolean v0, p0, Landroidx/activity/OnBackPressedCallback;->isEnabled:Z    return v0
 .end method
 
 .method public final remove()V
@@ -149,13 +138,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/OnBackPressedCallback;
-    ->cancellables:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iget-object v0, p0, Landroidx/activity/OnBackPressedCallback;->cancellables:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/lang/Iterable;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     .line 4
     .line 5
@@ -164,8 +151,7 @@ return-void
 
     .line 7
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 8
     .line 9
@@ -177,8 +163,7 @@ return-void
 
     .line 12
     .line 13
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -190,8 +175,7 @@ return-void
 
     .line 18
     .line 19
-    invoke-interface {v1}, Landroidx/activity/Cancellable;
-    ->cancel()V
+    invoke-interface {v1}, Landroidx/activity/Cancellable;->cancel()V
 
     .line 20
     .line 21
@@ -211,19 +195,16 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/activity/OnBackPressedCallback;
-    ->cancellables:Ljava/util/concurrent/CopyOnWriteArrayList;
+    iget-object v0, p0, Landroidx/activity/OnBackPressedCallback;->cancellables:Ljava/util/concurrent/CopyOnWriteArrayList;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;
-    ->remove(Ljava/lang/Object;)Z    
+    invoke-virtual {v0, p1}, Ljava/util/concurrent/CopyOnWriteArrayList;->remove(Ljava/lang/Object;)Z
     return-void
 .end method
 
@@ -233,13 +214,11 @@ return-void
     .end annotation
 
     .line 1
-    iput-boolean p1, p0, Landroidx/activity/OnBackPressedCallback;
-    ->isEnabled:Z
+    iput-boolean p1, p0, Landroidx/activity/OnBackPressedCallback;->isEnabled:Z
 
     .line 2
     .line 3
-    iget-object p1, p0, Landroidx/activity/OnBackPressedCallback;
-    ->enabledChangedCallback:Lp1/a;
+    iget-object p1, p0, Landroidx/activity/OnBackPressedCallback;->enabledChangedCallback:Lp1/a;
 
     .line 4
     .line 5
@@ -247,8 +226,7 @@ return-void
 
     .line 6
     .line 7
-    invoke-interface {p1}, Lp1/a;
-    ->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lp1/a;->invoke()Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -268,8 +246,7 @@ return-void
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/activity/OnBackPressedCallback;
-    ->enabledChangedCallback:Lp1/a;    
+    iput-object p1, p0, Landroidx/activity/OnBackPressedCallback;->enabledChangedCallback:Lp1/a;
     return-void
 .end method
 

@@ -28,8 +28,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroid/util/Property;
-    -><init>(Ljava/lang/Class;Ljava/lang/String;)V
+    invoke-direct {p0, p1, p2}, Landroid/util/Property;-><init>(Ljava/lang/Class;Ljava/lang/String;)V
 return-void
 .end method
 
@@ -39,8 +38,7 @@ return-void
     .locals 0
 
     .line 2
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getClipBounds()Landroid/graphics/Rect;
+    invoke-virtual {p1}, Landroid/view/View;->getClipBounds()Landroid/graphics/Rect;
 
     move-result-object p1
 
@@ -53,8 +51,7 @@ return-void
     .line 1
     check-cast p1, Landroid/view/View;
 
-    invoke-virtual {p0, p1}, Landroidx/transition/ViewUtils$2;
-    ->get(Landroid/view/View;)Landroid/graphics/Rect;
+    invoke-virtual {p0, p1}, Landroidx/transition/ViewUtils$2;->get(Landroid/view/View;)Landroid/graphics/Rect;
 
     move-result-object p1
 
@@ -65,8 +62,7 @@ return-void
     .locals 0
 
     .line 2
-    invoke-virtual {p1, p2}, Landroid/view/View;
-    ->setClipBounds(Landroid/graphics/Rect;)V
+    invoke-virtual {p1, p2}, Landroid/view/View;->setClipBounds(Landroid/graphics/Rect;)V
 
     return-void
 .end method
@@ -79,8 +75,7 @@ return-void
 
     check-cast p2, Landroid/graphics/Rect;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/transition/ViewUtils$2;
-    ->set(Landroid/view/View;Landroid/graphics/Rect;)V
+    invoke-virtual {p0, p1, p2}, Landroidx/transition/ViewUtils$2;->set(Landroid/view/View;Landroid/graphics/Rect;)V
 
     return-void
 .end method

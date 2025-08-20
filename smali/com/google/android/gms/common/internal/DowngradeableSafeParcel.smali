@@ -25,11 +25,9 @@
 
     new-instance v0, Ljava/lang/Object;
 
-    invoke-direct {v0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
-    sput-object v0, Lcom/google/android/gms/common/internal/DowngradeableSafeParcel;
-    ->zza:Ljava/lang/Object;
+    sput-object v0, Lcom/google/android/gms/common/internal/DowngradeableSafeParcel;->zza:Ljava/lang/Object;
 
     return-void
 .end method
@@ -37,13 +35,11 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/google/android/gms/common/internal/DowngradeableSafeParcel;
-    ->zzb:Z
+    iput-boolean v0, p0, Lcom/google/android/gms/common/internal/DowngradeableSafeParcel;->zzb:Z
 return-void
 .end method
 
@@ -57,8 +53,7 @@ return-void
     .end annotation
 
     .line 1
-    sget-object p0, Lcom/google/android/gms/common/internal/DowngradeableSafeParcel;
-    ->zza:Ljava/lang/Object;
+    sget-object p0, Lcom/google/android/gms/common/internal/DowngradeableSafeParcel;->zza:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -113,8 +108,7 @@ return-void
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/google/android/gms/common/internal/DowngradeableSafeParcel;
-    ->zza:Ljava/lang/Object;
+    sget-object v0, Lcom/google/android/gms/common/internal/DowngradeableSafeParcel;->zza:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -167,8 +161,7 @@ return-void
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    iput-boolean p1, p0, Lcom/google/android/gms/common/internal/DowngradeableSafeParcel;
-    ->zzb:Z
+    iput-boolean p1, p0, Lcom/google/android/gms/common/internal/DowngradeableSafeParcel;->zzb:Z
 return-void
 .end method
 
@@ -177,8 +170,7 @@ return-void
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    iget-boolean v0, p0, Lcom/google/android/gms/common/internal/DowngradeableSafeParcel;
-    ->zzb:Z
+    iget-boolean v0, p0, Lcom/google/android/gms/common/internal/DowngradeableSafeParcel;->zzb:Z
 
     return v0
 .end method

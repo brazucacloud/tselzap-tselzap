@@ -20,8 +20,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroid/net/Uri;
-    ->parse(Ljava/lang/String;)Landroid/net/Uri;
+    invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     .line 4
     .line 5
@@ -29,13 +28,11 @@
     move-result-object v0
 
     .line 7
-    sput-object v0, Lcom/google/android/gms/common/internal/zzu;
-    ->zzb:Landroid/net/Uri;
+    sput-object v0, Lcom/google/android/gms/common/internal/zzu;->zzb:Landroid/net/Uri;
 
     .line 8
     .line 9
-    invoke-virtual {v0}, Landroid/net/Uri;
-    ->buildUpon()Landroid/net/Uri$Builder;
+    invoke-virtual {v0}, Landroid/net/Uri;->buildUpon()Landroid/net/Uri$Builder;
 
     .line 10
     .line 11
@@ -47,8 +44,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Landroid/net/Uri$Builder;
-    ->appendPath(Ljava/lang/String;)Landroid/net/Uri$Builder;
+    invoke-virtual {v0, v1}, Landroid/net/Uri$Builder;->appendPath(Ljava/lang/String;)Landroid/net/Uri$Builder;
 
     .line 16
     .line 17
@@ -60,8 +56,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {v0, v1}, Landroid/net/Uri$Builder;
-    ->appendPath(Ljava/lang/String;)Landroid/net/Uri$Builder;
+    invoke-virtual {v0, v1}, Landroid/net/Uri$Builder;->appendPath(Ljava/lang/String;)Landroid/net/Uri$Builder;
 
     .line 22
     .line 23
@@ -69,8 +64,7 @@
     move-result-object v0
 
     .line 25
-    invoke-virtual {v0}, Landroid/net/Uri$Builder;
-    ->build()Landroid/net/Uri;
+    invoke-virtual {v0}, Landroid/net/Uri$Builder;->build()Landroid/net/Uri;
 
     .line 26
     .line 27
@@ -78,8 +72,7 @@
     move-result-object v0
 
     .line 29
-    sput-object v0, Lcom/google/android/gms/common/internal/zzu;
-    ->zzc:Landroid/net/Uri;
+    sput-object v0, Lcom/google/android/gms/common/internal/zzu;->zzc:Landroid/net/Uri;
 
     .line 30
     .line 31

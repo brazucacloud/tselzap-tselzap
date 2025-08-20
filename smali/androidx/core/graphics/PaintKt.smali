@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/graphics/PaintCompat;
-    ->setBlendMode(Landroid/graphics/Paint;Landroidx/core/graphics/BlendModeCompat;)Z
+    invoke-static {p0, p1}, Landroidx/core/graphics/PaintCompat;->setBlendMode(Landroid/graphics/Paint;Landroidx/core/graphics/BlendModeCompat;)Z
 
     .line 2
     .line 3

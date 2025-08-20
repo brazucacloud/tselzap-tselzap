@@ -26,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/SearchView$5;
-    ->this$0:Landroidx/appcompat/widget/SearchView;
+    iput-object p1, p0, Landroidx/appcompat/widget/SearchView$5;->this$0:Landroidx/appcompat/widget/SearchView;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -42,13 +40,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/SearchView$5;
-    ->this$0:Landroidx/appcompat/widget/SearchView;
+    iget-object v0, p0, Landroidx/appcompat/widget/SearchView$5;->this$0:Landroidx/appcompat/widget/SearchView;
 
     .line 2
     .line 3
-    iget-object v1, v0, Landroidx/appcompat/widget/SearchView;
-    ->mSearchButton:Landroid/widget/ImageView;
+    iget-object v1, v0, Landroidx/appcompat/widget/SearchView;->mSearchButton:Landroid/widget/ImageView;
 
     .line 4
     .line 5
@@ -56,14 +52,12 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Landroidx/appcompat/widget/SearchView;
-    ->onSearchClicked()V
+    invoke-virtual {v0}, Landroidx/appcompat/widget/SearchView;->onSearchClicked()V
     return-void
 
     .line 11
     :cond_0
-    iget-object v1, v0, Landroidx/appcompat/widget/SearchView;
-    ->mCloseButton:Landroid/widget/ImageView;
+    iget-object v1, v0, Landroidx/appcompat/widget/SearchView;->mCloseButton:Landroid/widget/ImageView;
 
     .line 12
     .line 13
@@ -71,14 +65,12 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0}, Landroidx/appcompat/widget/SearchView;
-    ->onCloseClicked()V
+    invoke-virtual {v0}, Landroidx/appcompat/widget/SearchView;->onCloseClicked()V
     return-void
 
     .line 19
     :cond_1
-    iget-object v1, v0, Landroidx/appcompat/widget/SearchView;
-    ->mGoButton:Landroid/widget/ImageView;
+    iget-object v1, v0, Landroidx/appcompat/widget/SearchView;->mGoButton:Landroid/widget/ImageView;
 
     .line 20
     .line 21
@@ -86,14 +78,12 @@
 
     .line 22
     .line 23
-    invoke-virtual {v0}, Landroidx/appcompat/widget/SearchView;
-    ->onSubmitQuery()V
+    invoke-virtual {v0}, Landroidx/appcompat/widget/SearchView;->onSubmitQuery()V
     return-void
 
     .line 27
     :cond_2
-    iget-object v1, v0, Landroidx/appcompat/widget/SearchView;
-    ->mVoiceButton:Landroid/widget/ImageView;
+    iget-object v1, v0, Landroidx/appcompat/widget/SearchView;->mVoiceButton:Landroid/widget/ImageView;
 
     .line 28
     .line 29
@@ -101,14 +91,12 @@
 
     .line 30
     .line 31
-    invoke-virtual {v0}, Landroidx/appcompat/widget/SearchView;
-    ->onVoiceClicked()V
+    invoke-virtual {v0}, Landroidx/appcompat/widget/SearchView;->onVoiceClicked()V
     return-void
 
     .line 35
     :cond_3
-    iget-object v1, v0, Landroidx/appcompat/widget/SearchView;
-    ->mSearchSrcTextView:Landroidx/appcompat/widget/SearchView$SearchAutoComplete;
+    iget-object v1, v0, Landroidx/appcompat/widget/SearchView;->mSearchSrcTextView:Landroidx/appcompat/widget/SearchView$SearchAutoComplete;
 
     .line 36
     .line 37
@@ -116,8 +104,7 @@
 
     .line 38
     .line 39
-    invoke-virtual {v0}, Landroidx/appcompat/widget/SearchView;
-    ->forceSuggestionQuery()V
+    invoke-virtual {v0}, Landroidx/appcompat/widget/SearchView;->forceSuggestionQuery()V
 
     .line 40
     .line 41

@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/lifecycle/Transformations;
-    ->map(Landroidx/lifecycle/LiveData;Landroidx/arch/core/util/Function;)Landroidx/lifecycle/LiveData;
+    value = Landroidx/lifecycle/Transformations;->map(Landroidx/lifecycle/LiveData;Landroidx/arch/core/util/Function;)Landroidx/lifecycle/LiveData;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,16 +27,13 @@
 .method public constructor <init>(Landroidx/lifecycle/MediatorLiveData;Landroidx/arch/core/util/Function;)V
     .locals 0
 
-    iput-object p1, p0, Landroidx/lifecycle/Transformations$map$2;
-    ->$result:Landroidx/lifecycle/MediatorLiveData;
+    iput-object p1, p0, Landroidx/lifecycle/Transformations$map$2;->$result:Landroidx/lifecycle/MediatorLiveData;
 
-    iput-object p2, p0, Landroidx/lifecycle/Transformations$map$2;
-    ->$mapFunction:Landroidx/arch/core/util/Function;
+    iput-object p2, p0, Landroidx/lifecycle/Transformations$map$2;->$mapFunction:Landroidx/arch/core/util/Function;
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
-    -><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
 return-void
 .end method
 
@@ -47,11 +43,9 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/lifecycle/Transformations$map$2;
-    ->invoke(Ljava/lang/Object;)V
+    invoke-virtual {p0, p1}, Landroidx/lifecycle/Transformations$map$2;->invoke(Ljava/lang/Object;)V
 
-    sget-object p1, Lc1/v;
-    ->a:Lc1/v;
+    sget-object p1, Lc1/v;->a:Lc1/v;
 
     return-object p1
 .end method
@@ -60,19 +54,15 @@ return-void
     .locals 2
 
     .line 2
-    iget-object v0, p0, Landroidx/lifecycle/Transformations$map$2;
-    ->$result:Landroidx/lifecycle/MediatorLiveData;
+    iget-object v0, p0, Landroidx/lifecycle/Transformations$map$2;->$result:Landroidx/lifecycle/MediatorLiveData;
 
-    iget-object v1, p0, Landroidx/lifecycle/Transformations$map$2;
-    ->$mapFunction:Landroidx/arch/core/util/Function;
+    iget-object v1, p0, Landroidx/lifecycle/Transformations$map$2;->$mapFunction:Landroidx/arch/core/util/Function;
 
-    invoke-interface {v1, p1}, Landroidx/arch/core/util/Function;
-    ->apply(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, p1}, Landroidx/arch/core/util/Function;->apply(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
-    invoke-virtual {v0, p1}, Landroidx/lifecycle/MutableLiveData;
-    ->setValue(Ljava/lang/Object;)V
+    invoke-virtual {v0, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
     return-void
 .end method

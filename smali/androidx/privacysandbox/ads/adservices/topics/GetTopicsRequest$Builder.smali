@@ -25,8 +25,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -35,16 +34,14 @@
 
     .line 5
     .line 6
-    iput-object v0, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest$Builder;
-    ->adsSdkName:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest$Builder;->adsSdkName:Ljava/lang/String;
 
     .line 7
     .line 8
     const/4 v0, 0x1
 
     .line 9
-    iput-boolean v0, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest$Builder;
-    ->shouldRecordObservation:Z
+    iput-boolean v0, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest$Builder;->shouldRecordObservation:Z
 return-void
 .end method
 
@@ -58,18 +55,15 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest$Builder;
-    ->adsSdkName:Ljava/lang/String;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest$Builder;->adsSdkName:Ljava/lang/String;
 
     .line 4
     .line 5
-    iget-boolean v2, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest$Builder;
-    ->shouldRecordObservation:Z
+    iget-boolean v2, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest$Builder;->shouldRecordObservation:Z
 
     .line 6
     .line 7
-    invoke-direct {v0, v1, v2}, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest;
-    -><init>(Ljava/lang/String;Z)V
+    invoke-direct {v0, v1, v2}, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest;-><init>(Ljava/lang/String;Z)V
 return-object v0
 .end method
 
@@ -81,14 +75,12 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-interface {p1}, Ljava/lang/CharSequence;
-    ->length()I
+    invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     .line 7
     .line 8
@@ -100,8 +92,7 @@ return-object v0
 
     .line 11
     .line 12
-    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest$Builder;
-    ->adsSdkName:Ljava/lang/String;    
+    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest$Builder;->adsSdkName:Ljava/lang/String;
     return-object p0
 
     .line 15
@@ -114,8 +105,7 @@ return-object v0
 
     .line 18
     .line 19
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 20
     .line 21
@@ -126,8 +116,7 @@ return-object v0
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest$Builder;
-    ->shouldRecordObservation:Z
+    iput-boolean p1, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest$Builder;->shouldRecordObservation:Z
 return-object p0
 .end method
 

@@ -26,14 +26,12 @@
     .line 1
     const-string p1, "Message was missing required fields.  (Lite runtime could not determine which fields were missing)."
 
-    invoke-direct {p0, p1}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
     const/4 p1, 0x0
 
     .line 2
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/UninitializedMessageException;
-    ->missingFields:Ljava/util/List;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/UninitializedMessageException;->missingFields:Ljava/util/List;
 
     return-void
 .end method
@@ -50,17 +48,14 @@
     .end annotation
 
     .line 3
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/UninitializedMessageException;
-    ->buildDescription(Ljava/util/List;)Ljava/lang/String;
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/UninitializedMessageException;->buildDescription(Ljava/util/List;)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-direct {p0, v0}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
     .line 4
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/UninitializedMessageException;
-    ->missingFields:Ljava/util/List;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/UninitializedMessageException;->missingFields:Ljava/util/List;
 
     return-void
 .end method
@@ -86,14 +81,12 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-interface {p0}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 9
     .line 10
@@ -105,8 +98,7 @@
 
     .line 13
     :goto_0
-    invoke-interface {p0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 14
     .line 15
@@ -118,8 +110,7 @@
 
     .line 18
     .line 19
-    invoke-interface {p0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -146,15 +137,13 @@
 
     .line 30
     .line 31
-    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 32
     .line 33
     .line 34
     :goto_1
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 35
     .line 36
@@ -163,8 +152,7 @@
 
     .line 38
     :cond_1
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 39
     .line 40
@@ -184,8 +172,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Ljava/lang/Throwable;
-    ->getMessage()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     .line 4
     .line 5
@@ -193,8 +180,7 @@
     move-result-object v1
 
     .line 7
-    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;-><init>(Ljava/lang/String;)V
     return-object v0
 .end method
 
@@ -210,13 +196,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/UninitializedMessageException;
-    ->missingFields:Ljava/util/List;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/UninitializedMessageException;->missingFields:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-static {v0}, Ljava/util/Collections;
-    ->unmodifiableList(Ljava/util/List;)Ljava/util/List;
+    invoke-static {v0}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
     .line 4
     .line 5

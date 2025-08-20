@@ -14,11 +14,9 @@
 .method public synthetic constructor <init>(Lcom/google/android/gms/measurement/internal/zzmp;)V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzmr;
-    ->zza:Lcom/google/android/gms/measurement/internal/zzmp;
+    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzmr;->zza:Lcom/google/android/gms/measurement/internal/zzmp;
 
     return-void
 .end method
@@ -28,11 +26,9 @@
 .method public final run()V
     .locals 1
 
-    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzmr;
-    ->zza:Lcom/google/android/gms/measurement/internal/zzmp;
+    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzmr;->zza:Lcom/google/android/gms/measurement/internal/zzmp;
 
-    invoke-static {v0}, Lcom/google/android/gms/measurement/internal/zzmp;
-    ->zzd(Lcom/google/android/gms/measurement/internal/zzmp;)V
+    invoke-static {v0}, Lcom/google/android/gms/measurement/internal/zzmp;->zzd(Lcom/google/android/gms/measurement/internal/zzmp;)V
 return-void
 .end method
 

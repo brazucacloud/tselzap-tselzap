@@ -21,8 +21,7 @@
     double-to-float p0, p0
 
     .line 4
-    invoke-static {p0}, Landroidx/core/graphics/a;
-    ->l(F)Landroid/util/Half;
+    invoke-static {p0}, Landroidx/core/graphics/a;->l(F)Landroid/util/Half;
 
     move-result-object p0
 
@@ -36,8 +35,7 @@
     .end annotation
 
     .line 2
-    invoke-static {p0}, Landroidx/core/graphics/a;
-    ->l(F)Landroid/util/Half;
+    invoke-static {p0}, Landroidx/core/graphics/a;->l(F)Landroid/util/Half;
 
     move-result-object p0
 
@@ -51,8 +49,7 @@
     .end annotation
 
     .line 3
-    invoke-static {p0}, Landroidx/core/graphics/a;
-    ->m(Ljava/lang/String;)Landroid/util/Half;
+    invoke-static {p0}, Landroidx/core/graphics/a;->m(Ljava/lang/String;)Landroid/util/Half;
 
     move-result-object p0
 
@@ -66,8 +63,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/graphics/a;
-    ->n(S)Landroid/util/Half;
+    invoke-static {p0}, Landroidx/core/graphics/a;->n(S)Landroid/util/Half;
 
     move-result-object p0
 

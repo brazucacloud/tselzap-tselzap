@@ -39,11 +39,9 @@
 
     new-instance v0, Lcom/google/android/gms/common/internal/zzh;
 
-    invoke-direct {v0}, Lcom/google/android/gms/common/internal/zzh;
-    -><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/common/internal/zzh;-><init>()V
 
-    sput-object v0, Lcom/google/android/gms/common/internal/BinderWrapper;
-    ->CREATOR:Landroid/os/Parcelable$Creator;
+    sput-object v0, Lcom/google/android/gms/common/internal/BinderWrapper;->CREATOR:Landroid/os/Parcelable$Creator;
 
     return-void
 .end method
@@ -58,11 +56,9 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/internal/BinderWrapper;
-    ->zza:Landroid/os/IBinder;
+    iput-object p1, p0, Lcom/google/android/gms/common/internal/BinderWrapper;->zza:Landroid/os/IBinder;
 
     return-void
 .end method
@@ -71,16 +67,13 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    invoke-virtual {p1}, Landroid/os/Parcel;
-    ->readStrongBinder()Landroid/os/IBinder;
+    invoke-virtual {p1}, Landroid/os/Parcel;->readStrongBinder()Landroid/os/IBinder;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/google/android/gms/common/internal/BinderWrapper;
-    ->zza:Landroid/os/IBinder;
+    iput-object p1, p0, Lcom/google/android/gms/common/internal/BinderWrapper;->zza:Landroid/os/IBinder;
 
     return-void
 .end method
@@ -103,13 +96,11 @@
     .end param
 
     .line 1
-    iget-object p2, p0, Lcom/google/android/gms/common/internal/BinderWrapper;
-    ->zza:Landroid/os/IBinder;
+    iget-object p2, p0, Lcom/google/android/gms/common/internal/BinderWrapper;->zza:Landroid/os/IBinder;
 
     .line 2
     .line 3
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;
-    ->writeStrongBinder(Landroid/os/IBinder;)V
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeStrongBinder(Landroid/os/IBinder;)V
 
     .line 4
     .line 5

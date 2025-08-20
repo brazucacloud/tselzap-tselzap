@@ -31,29 +31,24 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo;
-    ->syntax:Landroidx/datastore/preferences/protobuf/ProtoSyntax;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo;->syntax:Landroidx/datastore/preferences/protobuf/ProtoSyntax;
 
     .line 5
     .line 6
-    iput-boolean p2, p0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo;
-    ->messageSetWireFormat:Z
+    iput-boolean p2, p0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo;->messageSetWireFormat:Z
 
     .line 7
     .line 8
-    iput-object p3, p0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo;
-    ->checkInitialized:[I
+    iput-object p3, p0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo;->checkInitialized:[I
 
     .line 9
     .line 10
-    iput-object p4, p0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo;
-    ->fields:[Landroidx/datastore/preferences/protobuf/FieldInfo;
+    iput-object p4, p0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo;->fields:[Landroidx/datastore/preferences/protobuf/FieldInfo;
 
     .line 11
     .line 12
@@ -61,8 +56,7 @@
 
     .line 13
     .line 14
-    invoke-static {p5, p1}, Landroidx/datastore/preferences/protobuf/Internal;
-    ->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {p5, p1}, Landroidx/datastore/preferences/protobuf/Internal;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -74,8 +68,7 @@
 
     .line 19
     .line 20
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo;
-    ->defaultInstance:Landroidx/datastore/preferences/protobuf/MessageLite;    
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo;->defaultInstance:Landroidx/datastore/preferences/protobuf/MessageLite;
     return-void
 .end method
 
@@ -85,8 +78,7 @@
     .line 1
     new-instance v0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo$Builder;
 
-    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo$Builder;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo$Builder;-><init>()V
     return-object v0
 .end method
 
@@ -96,8 +88,7 @@
     .line 2
     new-instance v0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo$Builder;
 
-    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo$Builder;
-    -><init>(I)V
+    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo$Builder;-><init>(I)V
 return-object v0
 .end method
 
@@ -107,40 +98,35 @@ return-object v0
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo;
-    ->checkInitialized:[I    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo;->checkInitialized:[I    return-object v0
 .end method
 
 .method public getDefaultInstance()Landroidx/datastore/preferences/protobuf/MessageLite;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo;
-    ->defaultInstance:Landroidx/datastore/preferences/protobuf/MessageLite;    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo;->defaultInstance:Landroidx/datastore/preferences/protobuf/MessageLite;    return-object v0
 .end method
 
 .method public getFields()[Landroidx/datastore/preferences/protobuf/FieldInfo;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo;
-    ->fields:[Landroidx/datastore/preferences/protobuf/FieldInfo;    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo;->fields:[Landroidx/datastore/preferences/protobuf/FieldInfo;    return-object v0
 .end method
 
 .method public getSyntax()Landroidx/datastore/preferences/protobuf/ProtoSyntax;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo;
-    ->syntax:Landroidx/datastore/preferences/protobuf/ProtoSyntax;    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo;->syntax:Landroidx/datastore/preferences/protobuf/ProtoSyntax;    return-object v0
 .end method
 
 .method public isMessageSetWireFormat()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo;
-    ->messageSetWireFormat:Z    return v0
+    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo;->messageSetWireFormat:Z    return v0
 .end method
 
 .end class

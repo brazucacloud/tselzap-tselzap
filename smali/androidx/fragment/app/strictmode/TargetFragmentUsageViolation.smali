@@ -9,12 +9,10 @@
 
     const-string v0, "fragment"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-direct {p0, p1, p2}, Landroidx/fragment/app/strictmode/Violation;
-    -><init>(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
+    invoke-direct {p0, p1, p2}, Landroidx/fragment/app/strictmode/Violation;-><init>(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -30,8 +28,7 @@
 
     .line 1
     :cond_0
-    invoke-direct {p0, p1, p2}, Landroidx/fragment/app/strictmode/TargetFragmentUsageViolation;
-    -><init>(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
+    invoke-direct {p0, p1, p2}, Landroidx/fragment/app/strictmode/TargetFragmentUsageViolation;-><init>(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
 
     return-void
 .end method

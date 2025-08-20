@@ -24,14 +24,12 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/core/view/ViewStructureCompat;
-    ->mWrappedObj:Ljava/lang/Object;
+    iput-object p1, p0, Landroidx/core/view/ViewStructureCompat;->mWrappedObj:Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -56,8 +54,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/core/view/ViewStructureCompat;
-    -><init>(Landroid/view/ViewStructure;)V
+    invoke-direct {v0, p0}, Landroidx/core/view/ViewStructureCompat;-><init>(Landroid/view/ViewStructure;)V
 
     .line 4
     .line 5
@@ -75,8 +72,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -88,13 +84,11 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/core/view/ViewStructureCompat;
-    ->mWrappedObj:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/core/view/ViewStructureCompat;->mWrappedObj:Ljava/lang/Object;
 
     .line 8
     .line 9
-    invoke-static {v0}, Landroidx/core/text/a;
-    ->h(Ljava/lang/Object;)Landroid/view/ViewStructure;
+    invoke-static {v0}, Landroidx/core/text/a;->h(Ljava/lang/Object;)Landroid/view/ViewStructure;
 
     .line 10
     .line 11
@@ -102,8 +96,7 @@
     move-result-object v0
 
     .line 13
-    invoke-static {v0, p1}, Landroidx/core/view/ViewStructureCompat$Api23Impl;
-    ->setClassName(Landroid/view/ViewStructure;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Landroidx/core/view/ViewStructureCompat$Api23Impl;->setClassName(Landroid/view/ViewStructure;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -120,8 +113,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -133,13 +125,11 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/core/view/ViewStructureCompat;
-    ->mWrappedObj:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/core/view/ViewStructureCompat;->mWrappedObj:Ljava/lang/Object;
 
     .line 8
     .line 9
-    invoke-static {v0}, Landroidx/core/text/a;
-    ->h(Ljava/lang/Object;)Landroid/view/ViewStructure;
+    invoke-static {v0}, Landroidx/core/text/a;->h(Ljava/lang/Object;)Landroid/view/ViewStructure;
 
     .line 10
     .line 11
@@ -147,8 +137,7 @@
     move-result-object v0
 
     .line 13
-    invoke-static {v0, p1}, Landroidx/core/view/ViewStructureCompat$Api23Impl;
-    ->setContentDescription(Landroid/view/ViewStructure;Ljava/lang/CharSequence;)V
+    invoke-static {v0, p1}, Landroidx/core/view/ViewStructureCompat$Api23Impl;->setContentDescription(Landroid/view/ViewStructure;Ljava/lang/CharSequence;)V
 
     .line 14
     .line 15
@@ -161,8 +150,7 @@
     .locals 8
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -174,13 +162,11 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/core/view/ViewStructureCompat;
-    ->mWrappedObj:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/core/view/ViewStructureCompat;->mWrappedObj:Ljava/lang/Object;
 
     .line 8
     .line 9
-    invoke-static {v0}, Landroidx/core/text/a;
-    ->h(Ljava/lang/Object;)Landroid/view/ViewStructure;
+    invoke-static {v0}, Landroidx/core/text/a;->h(Ljava/lang/Object;)Landroid/view/ViewStructure;
 
     .line 10
     .line 11
@@ -206,8 +192,7 @@
     move v7, p6
 
     .line 19
-    invoke-static/range {v1 .. v7}, Landroidx/core/view/ViewStructureCompat$Api23Impl;
-    ->setDimens(Landroid/view/ViewStructure;IIIIII)V
+    invoke-static/range {v1 .. v7}, Landroidx/core/view/ViewStructureCompat$Api23Impl;->setDimens(Landroid/view/ViewStructure;IIIIII)V
 
     .line 20
     .line 21
@@ -224,8 +209,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -237,13 +221,11 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/core/view/ViewStructureCompat;
-    ->mWrappedObj:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/core/view/ViewStructureCompat;->mWrappedObj:Ljava/lang/Object;
 
     .line 8
     .line 9
-    invoke-static {v0}, Landroidx/core/text/a;
-    ->h(Ljava/lang/Object;)Landroid/view/ViewStructure;
+    invoke-static {v0}, Landroidx/core/text/a;->h(Ljava/lang/Object;)Landroid/view/ViewStructure;
 
     .line 10
     .line 11
@@ -251,8 +233,7 @@
     move-result-object v0
 
     .line 13
-    invoke-static {v0, p1}, Landroidx/core/view/ViewStructureCompat$Api23Impl;
-    ->setText(Landroid/view/ViewStructure;Ljava/lang/CharSequence;)V
+    invoke-static {v0, p1}, Landroidx/core/view/ViewStructureCompat$Api23Impl;->setText(Landroid/view/ViewStructure;Ljava/lang/CharSequence;)V
 
     .line 14
     .line 15
@@ -271,13 +252,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/ViewStructureCompat;
-    ->mWrappedObj:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/core/view/ViewStructureCompat;->mWrappedObj:Ljava/lang/Object;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/core/text/a;
-    ->h(Ljava/lang/Object;)Landroid/view/ViewStructure;
+    invoke-static {v0}, Landroidx/core/text/a;->h(Ljava/lang/Object;)Landroid/view/ViewStructure;
 
     .line 4
     .line 5

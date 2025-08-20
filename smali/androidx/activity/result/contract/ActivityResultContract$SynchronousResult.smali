@@ -43,14 +43,12 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/activity/result/contract/ActivityResultContract$SynchronousResult;
-    ->value:Ljava/lang/Object;    
+    iput-object p1, p0, Landroidx/activity/result/contract/ActivityResultContract$SynchronousResult;->value:Ljava/lang/Object;
     return-void
 .end method
 
@@ -65,8 +63,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/result/contract/ActivityResultContract$SynchronousResult;
-    ->value:Ljava/lang/Object;    return-object v0
+    iget-object v0, p0, Landroidx/activity/result/contract/ActivityResultContract$SynchronousResult;->value:Ljava/lang/Object;    return-object v0
 .end method
 
 .end class

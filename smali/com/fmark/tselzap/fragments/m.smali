@@ -17,14 +17,11 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Lcom/fmark/tselzap/fragments/m;
-    ->a:I
+    iput p2, p0, Lcom/fmark/tselzap/fragments/m;->a:I
 
-    iput-object p1, p0, Lcom/fmark/tselzap/fragments/m;
-    ->b:Lcom/fmark/tselzap/fragments/Settings_coder;
+    iput-object p1, p0, Lcom/fmark/tselzap/fragments/m;->b:Lcom/fmark/tselzap/fragments/Settings_coder;
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -34,24 +31,19 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/fmark/tselzap/fragments/m;
-    ->a:I
+    iget v0, p0, Lcom/fmark/tselzap/fragments/m;->a:I
 
     packed-switch v0, :pswitch_data_0
 
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/m;
-    ->b:Lcom/fmark/tselzap/fragments/Settings_coder;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/m;->b:Lcom/fmark/tselzap/fragments/Settings_coder;
 
-    invoke-static {v0, p1, p2}, Lcom/fmark/tselzap/fragments/Settings_coder;
-    ->d(Lcom/fmark/tselzap/fragments/Settings_coder;Landroid/widget/CompoundButton;Z)V
+    invoke-static {v0, p1, p2}, Lcom/fmark/tselzap/fragments/Settings_coder;->d(Lcom/fmark/tselzap/fragments/Settings_coder;Landroid/widget/CompoundButton;Z)V
 return-void
 
     :pswitch_0
-    iget-object v0, p0, Lcom/fmark/tselzap/fragments/m;
-    ->b:Lcom/fmark/tselzap/fragments/Settings_coder;
+    iget-object v0, p0, Lcom/fmark/tselzap/fragments/m;->b:Lcom/fmark/tselzap/fragments/Settings_coder;
 
-    invoke-static {v0, p1, p2}, Lcom/fmark/tselzap/fragments/Settings_coder;
-    ->c(Lcom/fmark/tselzap/fragments/Settings_coder;Landroid/widget/CompoundButton;Z)V
+    invoke-static {v0, p1, p2}, Lcom/fmark/tselzap/fragments/Settings_coder;->c(Lcom/fmark/tselzap/fragments/Settings_coder;Landroid/widget/CompoundButton;Z)V
 return-void
 
     nop

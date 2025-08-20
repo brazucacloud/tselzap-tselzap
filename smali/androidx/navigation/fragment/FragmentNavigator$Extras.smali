@@ -54,14 +54,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 7
     .line 8
@@ -70,19 +68,16 @@
 
     .line 10
     .line 11
-    invoke-direct {v0}, Ljava/util/LinkedHashMap;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
     .line 12
     .line 13
     .line 14
-    iput-object v0, p0, Landroidx/navigation/fragment/FragmentNavigator$Extras;
-    ->_sharedElements:Ljava/util/LinkedHashMap;
+    iput-object v0, p0, Landroidx/navigation/fragment/FragmentNavigator$Extras;->_sharedElements:Ljava/util/LinkedHashMap;
 
     .line 15
     .line 16
-    invoke-virtual {v0, p1}, Ljava/util/AbstractMap;
-    ->putAll(Ljava/util/Map;)V
+    invoke-virtual {v0, p1}, Ljava/util/AbstractMap;->putAll(Ljava/util/Map;)V
 return-void
 .end method
 
@@ -101,13 +96,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/fragment/FragmentNavigator$Extras;
-    ->_sharedElements:Ljava/util/LinkedHashMap;
+    iget-object v0, p0, Landroidx/navigation/fragment/FragmentNavigator$Extras;->_sharedElements:Ljava/util/LinkedHashMap;
 
     .line 2
     .line 3
-    invoke-static {v0}, Ld1/B;
-    ->X(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {v0}, Ld1/B;->X(Ljava/util/Map;)Ljava/util/Map;
 
     .line 4
     .line 5

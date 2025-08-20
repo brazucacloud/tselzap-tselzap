@@ -17,14 +17,11 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Landroidx/core/widget/a;
-    ->b:I
+    iput p2, p0, Landroidx/core/widget/a;->b:I
 
-    iput-object p1, p0, Landroidx/core/widget/a;
-    ->c:Landroidx/core/widget/ContentLoadingProgressBar;
+    iput-object p1, p0, Landroidx/core/widget/a;->c:Landroidx/core/widget/ContentLoadingProgressBar;
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -34,40 +31,31 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/core/widget/a;
-    ->b:I
+    iget v0, p0, Landroidx/core/widget/a;->b:I
 
     packed-switch v0, :pswitch_data_0
 
-    iget-object v0, p0, Landroidx/core/widget/a;
-    ->c:Landroidx/core/widget/ContentLoadingProgressBar;
+    iget-object v0, p0, Landroidx/core/widget/a;->c:Landroidx/core/widget/ContentLoadingProgressBar;
 
-    invoke-static {v0}, Landroidx/core/widget/ContentLoadingProgressBar;
-    ->b(Landroidx/core/widget/ContentLoadingProgressBar;)V
+    invoke-static {v0}, Landroidx/core/widget/ContentLoadingProgressBar;->b(Landroidx/core/widget/ContentLoadingProgressBar;)V
 return-void
 
     :pswitch_0
-    iget-object v0, p0, Landroidx/core/widget/a;
-    ->c:Landroidx/core/widget/ContentLoadingProgressBar;
+    iget-object v0, p0, Landroidx/core/widget/a;->c:Landroidx/core/widget/ContentLoadingProgressBar;
 
-    invoke-static {v0}, Landroidx/core/widget/ContentLoadingProgressBar;
-    ->a(Landroidx/core/widget/ContentLoadingProgressBar;)V
+    invoke-static {v0}, Landroidx/core/widget/ContentLoadingProgressBar;->a(Landroidx/core/widget/ContentLoadingProgressBar;)V
 return-void
 
     :pswitch_1
-    iget-object v0, p0, Landroidx/core/widget/a;
-    ->c:Landroidx/core/widget/ContentLoadingProgressBar;
+    iget-object v0, p0, Landroidx/core/widget/a;->c:Landroidx/core/widget/ContentLoadingProgressBar;
 
-    invoke-static {v0}, Landroidx/core/widget/ContentLoadingProgressBar;
-    ->c(Landroidx/core/widget/ContentLoadingProgressBar;)V
+    invoke-static {v0}, Landroidx/core/widget/ContentLoadingProgressBar;->c(Landroidx/core/widget/ContentLoadingProgressBar;)V
 return-void
 
     :pswitch_2
-    iget-object v0, p0, Landroidx/core/widget/a;
-    ->c:Landroidx/core/widget/ContentLoadingProgressBar;
+    iget-object v0, p0, Landroidx/core/widget/a;->c:Landroidx/core/widget/ContentLoadingProgressBar;
 
-    invoke-static {v0}, Landroidx/core/widget/ContentLoadingProgressBar;
-    ->d(Landroidx/core/widget/ContentLoadingProgressBar;)V
+    invoke-static {v0}, Landroidx/core/widget/ContentLoadingProgressBar;->d(Landroidx/core/widget/ContentLoadingProgressBar;)V
 return-void
 
     nop

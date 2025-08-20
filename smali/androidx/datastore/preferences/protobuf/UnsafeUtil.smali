@@ -84,8 +84,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/Class;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     .line 4
     .line 5
@@ -93,8 +92,7 @@
     move-result-object v0
 
     .line 7
-    invoke-static {v0}, Ljava/util/logging/Logger;
-    ->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
 
     .line 8
     .line 9
@@ -102,13 +100,11 @@
     move-result-object v0
 
     .line 11
-    sput-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->logger:Ljava/util/logging/Logger;
+    sput-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->logger:Ljava/util/logging/Logger;
 
     .line 12
     .line 13
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getUnsafe()Lsun/misc/Unsafe;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getUnsafe()Lsun/misc/Unsafe;
 
     .line 14
     .line 15
@@ -116,13 +112,11 @@
     move-result-object v0
 
     .line 17
-    sput-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->UNSAFE:Lsun/misc/Unsafe;
+    sput-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->UNSAFE:Lsun/misc/Unsafe;
 
     .line 18
     .line 19
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/Android;
-    ->getMemoryClass()Ljava/lang/Class;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/Android;->getMemoryClass()Ljava/lang/Class;
 
     .line 20
     .line 21
@@ -130,18 +124,15 @@
     move-result-object v0
 
     .line 23
-    sput-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_CLASS:Ljava/lang/Class;
+    sput-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_CLASS:Ljava/lang/Class;
 
     .line 24
     .line 25
-    sget-object v0, Ljava/lang/Long;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v0, Ljava/lang/Long;->TYPE:Ljava/lang/Class;
 
     .line 26
     .line 27
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->determineAndroidSupportByAddressSize(Ljava/lang/Class;)Z
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->determineAndroidSupportByAddressSize(Ljava/lang/Class;)Z
 
     .line 28
     .line 29
@@ -149,18 +140,15 @@
     move-result v0
 
     .line 31
-    sput-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->IS_ANDROID_64:Z
+    sput-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->IS_ANDROID_64:Z
 
     .line 32
     .line 33
-    sget-object v0, Ljava/lang/Integer;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v0, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
 
     .line 34
     .line 35
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->determineAndroidSupportByAddressSize(Ljava/lang/Class;)Z
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->determineAndroidSupportByAddressSize(Ljava/lang/Class;)Z
 
     .line 36
     .line 37
@@ -168,13 +156,11 @@
     move-result v0
 
     .line 39
-    sput-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->IS_ANDROID_32:Z
+    sput-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->IS_ANDROID_32:Z
 
     .line 40
     .line 41
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getMemoryAccessor()Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getMemoryAccessor()Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
     .line 42
     .line 43
@@ -182,13 +168,11 @@
     move-result-object v0
 
     .line 45
-    sput-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sput-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
     .line 46
     .line 47
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->supportsUnsafeByteBufferOperations()Z
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->supportsUnsafeByteBufferOperations()Z
 
     .line 48
     .line 49
@@ -196,13 +180,11 @@
     move-result v0
 
     .line 51
-    sput-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->HAS_UNSAFE_BYTEBUFFER_OPERATIONS:Z
+    sput-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->HAS_UNSAFE_BYTEBUFFER_OPERATIONS:Z
 
     .line 52
     .line 53
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->supportsUnsafeArrayOperations()Z
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->supportsUnsafeArrayOperations()Z
 
     .line 54
     .line 55
@@ -210,8 +192,7 @@
     move-result v0
 
     .line 57
-    sput-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->HAS_UNSAFE_ARRAY_OPERATIONS:Z
+    sput-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->HAS_UNSAFE_ARRAY_OPERATIONS:Z
 
     .line 58
     .line 59
@@ -219,8 +200,7 @@
 
     .line 60
     .line 61
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->arrayBaseOffset(Ljava/lang/Class;)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->arrayBaseOffset(Ljava/lang/Class;)I
 
     .line 62
     .line 63
@@ -231,8 +211,7 @@
     int-to-long v0, v0
 
     .line 66
-    sput-wide v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->BYTE_ARRAY_BASE_OFFSET:J
+    sput-wide v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->BYTE_ARRAY_BASE_OFFSET:J
 
     .line 67
     .line 68
@@ -240,8 +219,7 @@
 
     .line 69
     .line 70
-    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->arrayBaseOffset(Ljava/lang/Class;)I
+    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->arrayBaseOffset(Ljava/lang/Class;)I
 
     .line 71
     .line 72
@@ -252,13 +230,11 @@
     int-to-long v3, v3
 
     .line 75
-    sput-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->BOOLEAN_ARRAY_BASE_OFFSET:J
+    sput-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->BOOLEAN_ARRAY_BASE_OFFSET:J
 
     .line 76
     .line 77
-    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->arrayIndexScale(Ljava/lang/Class;)I
+    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->arrayIndexScale(Ljava/lang/Class;)I
 
     .line 78
     .line 79
@@ -269,8 +245,7 @@
     int-to-long v2, v2
 
     .line 82
-    sput-wide v2, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->BOOLEAN_ARRAY_INDEX_SCALE:J
+    sput-wide v2, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->BOOLEAN_ARRAY_INDEX_SCALE:J
 
     .line 83
     .line 84
@@ -278,8 +253,7 @@
 
     .line 85
     .line 86
-    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->arrayBaseOffset(Ljava/lang/Class;)I
+    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->arrayBaseOffset(Ljava/lang/Class;)I
 
     .line 87
     .line 88
@@ -290,13 +264,11 @@
     int-to-long v3, v3
 
     .line 91
-    sput-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->INT_ARRAY_BASE_OFFSET:J
+    sput-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->INT_ARRAY_BASE_OFFSET:J
 
     .line 92
     .line 93
-    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->arrayIndexScale(Ljava/lang/Class;)I
+    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->arrayIndexScale(Ljava/lang/Class;)I
 
     .line 94
     .line 95
@@ -307,8 +279,7 @@
     int-to-long v2, v2
 
     .line 98
-    sput-wide v2, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->INT_ARRAY_INDEX_SCALE:J
+    sput-wide v2, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->INT_ARRAY_INDEX_SCALE:J
 
     .line 99
     .line 100
@@ -316,8 +287,7 @@
 
     .line 101
     .line 102
-    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->arrayBaseOffset(Ljava/lang/Class;)I
+    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->arrayBaseOffset(Ljava/lang/Class;)I
 
     .line 103
     .line 104
@@ -328,13 +298,11 @@
     int-to-long v3, v3
 
     .line 107
-    sput-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->LONG_ARRAY_BASE_OFFSET:J
+    sput-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->LONG_ARRAY_BASE_OFFSET:J
 
     .line 108
     .line 109
-    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->arrayIndexScale(Ljava/lang/Class;)I
+    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->arrayIndexScale(Ljava/lang/Class;)I
 
     .line 110
     .line 111
@@ -345,8 +313,7 @@
     int-to-long v2, v2
 
     .line 114
-    sput-wide v2, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->LONG_ARRAY_INDEX_SCALE:J
+    sput-wide v2, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->LONG_ARRAY_INDEX_SCALE:J
 
     .line 115
     .line 116
@@ -354,8 +321,7 @@
 
     .line 117
     .line 118
-    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->arrayBaseOffset(Ljava/lang/Class;)I
+    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->arrayBaseOffset(Ljava/lang/Class;)I
 
     .line 119
     .line 120
@@ -366,13 +332,11 @@
     int-to-long v3, v3
 
     .line 123
-    sput-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->FLOAT_ARRAY_BASE_OFFSET:J
+    sput-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->FLOAT_ARRAY_BASE_OFFSET:J
 
     .line 124
     .line 125
-    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->arrayIndexScale(Ljava/lang/Class;)I
+    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->arrayIndexScale(Ljava/lang/Class;)I
 
     .line 126
     .line 127
@@ -383,8 +347,7 @@
     int-to-long v2, v2
 
     .line 130
-    sput-wide v2, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->FLOAT_ARRAY_INDEX_SCALE:J
+    sput-wide v2, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->FLOAT_ARRAY_INDEX_SCALE:J
 
     .line 131
     .line 132
@@ -392,8 +355,7 @@
 
     .line 133
     .line 134
-    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->arrayBaseOffset(Ljava/lang/Class;)I
+    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->arrayBaseOffset(Ljava/lang/Class;)I
 
     .line 135
     .line 136
@@ -404,13 +366,11 @@
     int-to-long v3, v3
 
     .line 139
-    sput-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->DOUBLE_ARRAY_BASE_OFFSET:J
+    sput-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->DOUBLE_ARRAY_BASE_OFFSET:J
 
     .line 140
     .line 141
-    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->arrayIndexScale(Ljava/lang/Class;)I
+    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->arrayIndexScale(Ljava/lang/Class;)I
 
     .line 142
     .line 143
@@ -421,8 +381,7 @@
     int-to-long v2, v2
 
     .line 146
-    sput-wide v2, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->DOUBLE_ARRAY_INDEX_SCALE:J
+    sput-wide v2, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->DOUBLE_ARRAY_INDEX_SCALE:J
 
     .line 147
     .line 148
@@ -430,8 +389,7 @@
 
     .line 149
     .line 150
-    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->arrayBaseOffset(Ljava/lang/Class;)I
+    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->arrayBaseOffset(Ljava/lang/Class;)I
 
     .line 151
     .line 152
@@ -442,13 +400,11 @@
     int-to-long v3, v3
 
     .line 155
-    sput-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->OBJECT_ARRAY_BASE_OFFSET:J
+    sput-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->OBJECT_ARRAY_BASE_OFFSET:J
 
     .line 156
     .line 157
-    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->arrayIndexScale(Ljava/lang/Class;)I
+    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->arrayIndexScale(Ljava/lang/Class;)I
 
     .line 158
     .line 159
@@ -459,13 +415,11 @@
     int-to-long v2, v2
 
     .line 162
-    sput-wide v2, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->OBJECT_ARRAY_INDEX_SCALE:J
+    sput-wide v2, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->OBJECT_ARRAY_INDEX_SCALE:J
 
     .line 163
     .line 164
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->bufferAddressField()Ljava/lang/reflect/Field;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->bufferAddressField()Ljava/lang/reflect/Field;
 
     .line 165
     .line 166
@@ -473,8 +427,7 @@
     move-result-object v2
 
     .line 168
-    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->fieldOffset(Ljava/lang/reflect/Field;)J
+    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->fieldOffset(Ljava/lang/reflect/Field;)J
 
     .line 169
     .line 170
@@ -482,8 +435,7 @@
     move-result-wide v2
 
     .line 172
-    sput-wide v2, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->BUFFER_ADDRESS_OFFSET:J
+    sput-wide v2, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->BUFFER_ADDRESS_OFFSET:J
 
     .line 173
     .line 174
@@ -497,13 +449,11 @@
     long-to-int v1, v0
 
     .line 178
-    sput v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->BYTE_ARRAY_ALIGNMENT:I
+    sput v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->BYTE_ARRAY_ALIGNMENT:I
 
     .line 179
     .line 180
-    invoke-static {}, Ljava/nio/ByteOrder;
-    ->nativeOrder()Ljava/nio/ByteOrder;
+    invoke-static {}, Ljava/nio/ByteOrder;->nativeOrder()Ljava/nio/ByteOrder;
 
     .line 181
     .line 182
@@ -511,8 +461,7 @@
     move-result-object v0
 
     .line 184
-    sget-object v1, Ljava/nio/ByteOrder;
-    ->BIG_ENDIAN:Ljava/nio/ByteOrder;
+    sget-object v1, Ljava/nio/ByteOrder;->BIG_ENDIAN:Ljava/nio/ByteOrder;
 
     .line 185
     .line 186
@@ -531,16 +480,14 @@
 
     .line 191
     :goto_0
-    sput-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->IS_BIG_ENDIAN:Z    return-void
+    sput-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->IS_BIG_ENDIAN:Z    return-void
 .end method
 
 .method private constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -548,8 +495,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByteBigEndian(Ljava/lang/Object;J)B
+    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByteBigEndian(Ljava/lang/Object;J)B
 
     .line 2
     .line 3
@@ -563,8 +509,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByteLittleEndian(Ljava/lang/Object;J)B
+    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByteLittleEndian(Ljava/lang/Object;J)B
 
     .line 2
     .line 3
@@ -578,8 +523,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->putByteBigEndian(Ljava/lang/Object;JB)V
+    invoke-static {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByteBigEndian(Ljava/lang/Object;JB)V
 return-void
 .end method
 
@@ -587,8 +531,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->putByteLittleEndian(Ljava/lang/Object;JB)V
+    invoke-static {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByteLittleEndian(Ljava/lang/Object;JB)V
 return-void
 .end method
 
@@ -596,8 +539,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getBooleanBigEndian(Ljava/lang/Object;J)Z
+    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getBooleanBigEndian(Ljava/lang/Object;J)Z
 
     .line 2
     .line 3
@@ -611,8 +553,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getBooleanLittleEndian(Ljava/lang/Object;J)Z
+    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getBooleanLittleEndian(Ljava/lang/Object;J)Z
 
     .line 2
     .line 3
@@ -626,8 +567,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->putBooleanBigEndian(Ljava/lang/Object;JZ)V
+    invoke-static {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putBooleanBigEndian(Ljava/lang/Object;JZ)V
 return-void
 .end method
 
@@ -635,8 +575,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->putBooleanLittleEndian(Ljava/lang/Object;JZ)V
+    invoke-static {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putBooleanLittleEndian(Ljava/lang/Object;JZ)V
 return-void
 .end method
 
@@ -644,18 +583,15 @@ return-void
     .locals 3
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
     .line 2
     .line 3
-    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->BUFFER_ADDRESS_OFFSET:J
+    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->BUFFER_ADDRESS_OFFSET:J
 
     .line 4
     .line 5
-    invoke-virtual {v0, p0, v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->getLong(Ljava/lang/Object;J)J
+    invoke-virtual {v0, p0, v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->getLong(Ljava/lang/Object;J)J
 
     .line 6
     .line 7
@@ -679,13 +615,11 @@ return-void
 
     .line 1
     :try_start_0
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->UNSAFE:Lsun/misc/Unsafe;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->UNSAFE:Lsun/misc/Unsafe;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0}, Lsun/misc/Unsafe;
-    ->allocateInstance(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {v0, p0}, Lsun/misc/Unsafe;->allocateInstance(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -705,8 +639,7 @@ return-void
 
     .line 10
     .line 11
-    invoke-direct {v0, p0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v0, p0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/Throwable;)V
 
     .line 12
     .line 13
@@ -724,8 +657,7 @@ return-void
     .end annotation
 
     .line 1
-    sget-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->HAS_UNSAFE_ARRAY_OPERATIONS:Z
+    sget-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->HAS_UNSAFE_ARRAY_OPERATIONS:Z
 
     .line 2
     .line 3
@@ -733,13 +665,11 @@ return-void
 
     .line 4
     .line 5
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
     .line 6
     .line 7
-    invoke-virtual {v0, p0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->arrayBaseOffset(Ljava/lang/Class;)I
+    invoke-virtual {v0, p0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->arrayBaseOffset(Ljava/lang/Class;)I
 
     .line 8
     .line 9
@@ -766,8 +696,7 @@ return-void
     .end annotation
 
     .line 1
-    sget-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->HAS_UNSAFE_ARRAY_OPERATIONS:Z
+    sget-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->HAS_UNSAFE_ARRAY_OPERATIONS:Z
 
     .line 2
     .line 3
@@ -775,13 +704,11 @@ return-void
 
     .line 4
     .line 5
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
     .line 6
     .line 7
-    invoke-virtual {v0, p0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->arrayIndexScale(Ljava/lang/Class;)I
+    invoke-virtual {v0, p0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->arrayIndexScale(Ljava/lang/Class;)I
 
     .line 8
     .line 9
@@ -801,8 +728,7 @@ return-void
     .locals 3
 
     .line 1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/Android;
-    ->isOnAndroidDevice()Z
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/Android;->isOnAndroidDevice()Z
 
     .line 2
     .line 3
@@ -822,8 +748,7 @@ return-void
 
     .line 10
     .line 11
-    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->field(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->field(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 12
     .line 13
@@ -839,8 +764,7 @@ return-void
 
     .line 19
     .line 20
-    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->field(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->field(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 21
     .line 22
@@ -852,8 +776,7 @@ return-void
 
     .line 25
     .line 26
-    invoke-virtual {v0}, Ljava/lang/reflect/Field;
-    ->getType()Ljava/lang/Class;
+    invoke-virtual {v0}, Ljava/lang/reflect/Field;->getType()Ljava/lang/Class;
 
     .line 27
     .line 28
@@ -861,8 +784,7 @@ return-void
     move-result-object v1
 
     .line 30
-    sget-object v2, Ljava/lang/Long;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v2, Ljava/lang/Long;->TYPE:Ljava/lang/Class;
 
     .line 31
     .line 32
@@ -879,8 +801,7 @@ return-void
     .locals 8
 
     .line 2
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
     move-wide v1, p0
 
@@ -890,8 +811,7 @@ return-void
 
     move-wide v6, p5
 
-    invoke-virtual/range {v0 .. v7}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->copyMemory(J[BJJ)V
+    invoke-virtual/range {v0 .. v7}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->copyMemory(J[BJJ)V
 return-void
 .end method
 
@@ -899,8 +819,7 @@ return-void
     .locals 8
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
     move-object v1, p0
 
@@ -910,8 +829,7 @@ return-void
 
     move-wide v6, p5
 
-    invoke-virtual/range {v0 .. v7}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->copyMemory([BJJJ)V
+    invoke-virtual/range {v0 .. v7}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->copyMemory([BJJJ)V
 return-void
 .end method
 
@@ -925,8 +843,7 @@ return-void
     long-to-int p4, p6
 
     .line 3
-    invoke-static {p0, p2, p3, p1, p4}, Ljava/lang/System;
-    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {p0, p2, p3, p1, p4}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 return-void
 .end method
 
@@ -957,8 +874,7 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/Android;
-    ->isOnAndroidDevice()Z
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/Android;->isOnAndroidDevice()Z
 
     .line 8
     .line 9
@@ -974,8 +890,7 @@ return-void
     .line 15
     :cond_0
     :try_start_0
-    sget-object v5, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_CLASS:Ljava/lang/Class;
+    sget-object v5, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_CLASS:Ljava/lang/Class;
 
     .line 16
     .line 17
@@ -983,8 +898,7 @@ return-void
 
     .line 18
     .line 19
-    sget-object v8, Ljava/lang/Boolean;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v8, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
 
     .line 20
     .line 21
@@ -1000,8 +914,7 @@ return-void
 
     .line 26
     .line 27
-    invoke-virtual {v5, v7, v9}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v7, v9}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 28
     .line 29
@@ -1018,8 +931,7 @@ return-void
 
     .line 35
     .line 36
-    sget-object v10, Ljava/lang/Long;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v10, Ljava/lang/Long;->TYPE:Ljava/lang/Class;
 
     .line 37
     .line 38
@@ -1031,8 +943,7 @@ return-void
 
     .line 41
     .line 42
-    invoke-virtual {v5, v7, v9}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v7, v9}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 43
     .line 44
@@ -1041,8 +952,7 @@ return-void
 
     .line 46
     .line 47
-    sget-object v9, Ljava/lang/Integer;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v9, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
 
     .line 48
     .line 49
@@ -1062,8 +972,7 @@ return-void
 
     .line 56
     .line 57
-    invoke-virtual {v5, v7, v10}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v7, v10}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 58
     .line 59
@@ -1084,8 +993,7 @@ return-void
 
     .line 67
     .line 68
-    invoke-virtual {v5, v7, v10}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v7, v10}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 69
     .line 70
@@ -1102,8 +1010,7 @@ return-void
 
     .line 76
     .line 77
-    sget-object v10, Ljava/lang/Byte;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v10, Ljava/lang/Byte;->TYPE:Ljava/lang/Class;
 
     .line 78
     .line 79
@@ -1111,8 +1018,7 @@ return-void
 
     .line 80
     .line 81
-    invoke-virtual {v5, v7, v8}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v7, v8}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 82
     .line 83
@@ -1129,8 +1035,7 @@ return-void
 
     .line 89
     .line 90
-    invoke-virtual {v5, v7, v8}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v7, v8}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 91
     .line 92
@@ -1159,8 +1064,7 @@ return-void
 
     .line 104
     .line 105
-    invoke-virtual {v5, v7, v8}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v7, v8}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 106
     .line 107
@@ -1189,8 +1093,7 @@ return-void
 
     .line 119
     .line 120
-    invoke-virtual {v5, v7, v0}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v7, v0}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0    return v3
 
@@ -1214,8 +1117,7 @@ return-void
 
     .line 1
     :try_start_0
-    invoke-virtual {p0, p1}, Ljava/lang/Class;
-    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {p0, p1}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 2
     .line 3
@@ -1241,8 +1143,7 @@ return-void
 
     .line 2
     .line 3
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
     .line 4
     .line 5
@@ -1254,8 +1155,7 @@ return-void
 
     .line 8
     :cond_0
-    invoke-virtual {v0, p0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->objectFieldOffset(Ljava/lang/reflect/Field;)J
+    invoke-virtual {v0, p0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->objectFieldOffset(Ljava/lang/reflect/Field;)J
 
     .line 9
     .line 10
@@ -1274,8 +1174,7 @@ return-void
     .locals 1
 
     .line 1
-    sget-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->IS_BIG_ENDIAN:Z
+    sget-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->IS_BIG_ENDIAN:Z
 
     .line 2
     .line 3
@@ -1286,8 +1185,7 @@ return-void
     xor-long/2addr p0, p2
 
     .line 6
-    invoke-static {p0, p1}, Ljava/lang/Long;
-    ->numberOfLeadingZeros(J)I
+    invoke-static {p0, p1}, Ljava/lang/Long;->numberOfLeadingZeros(J)I
 
     .line 7
     .line 8
@@ -1302,8 +1200,7 @@ return-void
     xor-long/2addr p0, p2
 
     .line 12
-    invoke-static {p0, p1}, Ljava/lang/Long;
-    ->numberOfTrailingZeros(J)I
+    invoke-static {p0, p1}, Ljava/lang/Long;->numberOfTrailingZeros(J)I
 
     .line 13
     .line 14
@@ -1319,11 +1216,9 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->getBoolean(Ljava/lang/Object;J)Z
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->getBoolean(Ljava/lang/Object;J)Z
 
     move-result p0
 
@@ -1334,21 +1229,17 @@ return-void
     .locals 5
 
     .line 2
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->BOOLEAN_ARRAY_BASE_OFFSET:J
+    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->BOOLEAN_ARRAY_BASE_OFFSET:J
 
-    sget-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->BOOLEAN_ARRAY_INDEX_SCALE:J
+    sget-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->BOOLEAN_ARRAY_INDEX_SCALE:J
 
     mul-long p1, p1, v3
 
     add-long/2addr p1, v1
 
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->getBoolean(Ljava/lang/Object;J)Z
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->getBoolean(Ljava/lang/Object;J)Z
 
     move-result p0
 
@@ -1359,8 +1250,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByteBigEndian(Ljava/lang/Object;J)B
+    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByteBigEndian(Ljava/lang/Object;J)B
 
     .line 2
     .line 3
@@ -1387,8 +1277,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getByteLittleEndian(Ljava/lang/Object;J)B
+    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getByteLittleEndian(Ljava/lang/Object;J)B
 
     .line 2
     .line 3
@@ -1415,11 +1304,9 @@ return-void
     .locals 1
 
     .line 3
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    invoke-virtual {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->getByte(J)B
+    invoke-virtual {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->getByte(J)B
 
     move-result p0
 
@@ -1430,11 +1317,9 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->getByte(Ljava/lang/Object;J)B
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->getByte(Ljava/lang/Object;J)B
 
     move-result p0
 
@@ -1445,16 +1330,13 @@ return-void
     .locals 3
 
     .line 2
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->BYTE_ARRAY_BASE_OFFSET:J
+    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->BYTE_ARRAY_BASE_OFFSET:J
 
     add-long/2addr v1, p1
 
-    invoke-virtual {v0, p0, v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->getByte(Ljava/lang/Object;J)B
+    invoke-virtual {v0, p0, v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->getByte(Ljava/lang/Object;J)B
 
     move-result p0
 
@@ -1472,8 +1354,7 @@ return-void
     and-long/2addr v0, p1
 
     .line 4
-    invoke-static {p0, v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getInt(Ljava/lang/Object;J)I
+    invoke-static {p0, v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getInt(Ljava/lang/Object;J)I
 
     .line 5
     .line 6
@@ -1523,8 +1404,7 @@ return-void
     and-long/2addr v0, p1
 
     .line 4
-    invoke-static {p0, v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getInt(Ljava/lang/Object;J)I
+    invoke-static {p0, v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getInt(Ljava/lang/Object;J)I
 
     .line 5
     .line 6
@@ -1564,11 +1444,9 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->getDouble(Ljava/lang/Object;J)D
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->getDouble(Ljava/lang/Object;J)D
 
     move-result-wide p0
 
@@ -1579,21 +1457,17 @@ return-void
     .locals 5
 
     .line 2
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->DOUBLE_ARRAY_BASE_OFFSET:J
+    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->DOUBLE_ARRAY_BASE_OFFSET:J
 
-    sget-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->DOUBLE_ARRAY_INDEX_SCALE:J
+    sget-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->DOUBLE_ARRAY_INDEX_SCALE:J
 
     mul-long p1, p1, v3
 
     add-long/2addr p1, v1
 
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->getDouble(Ljava/lang/Object;J)D
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->getDouble(Ljava/lang/Object;J)D
 
     move-result-wide p0
 
@@ -1604,11 +1478,9 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->getFloat(Ljava/lang/Object;J)F
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->getFloat(Ljava/lang/Object;J)F
 
     move-result p0
 
@@ -1619,21 +1491,17 @@ return-void
     .locals 5
 
     .line 2
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->FLOAT_ARRAY_BASE_OFFSET:J
+    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->FLOAT_ARRAY_BASE_OFFSET:J
 
-    sget-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->FLOAT_ARRAY_INDEX_SCALE:J
+    sget-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->FLOAT_ARRAY_INDEX_SCALE:J
 
     mul-long p1, p1, v3
 
     add-long/2addr p1, v1
 
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->getFloat(Ljava/lang/Object;J)F
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->getFloat(Ljava/lang/Object;J)F
 
     move-result p0
 
@@ -1644,11 +1512,9 @@ return-void
     .locals 1
 
     .line 3
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    invoke-virtual {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->getInt(J)I
+    invoke-virtual {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->getInt(J)I
 
     move-result p0
 
@@ -1659,11 +1525,9 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->getInt(Ljava/lang/Object;J)I
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->getInt(Ljava/lang/Object;J)I
 
     move-result p0
 
@@ -1674,21 +1538,17 @@ return-void
     .locals 5
 
     .line 2
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->INT_ARRAY_BASE_OFFSET:J
+    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->INT_ARRAY_BASE_OFFSET:J
 
-    sget-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->INT_ARRAY_INDEX_SCALE:J
+    sget-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->INT_ARRAY_INDEX_SCALE:J
 
     mul-long p1, p1, v3
 
     add-long/2addr p1, v1
 
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->getInt(Ljava/lang/Object;J)I
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->getInt(Ljava/lang/Object;J)I
 
     move-result p0
 
@@ -1699,11 +1559,9 @@ return-void
     .locals 1
 
     .line 3
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    invoke-virtual {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->getLong(J)J
+    invoke-virtual {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->getLong(J)J
 
     move-result-wide p0
 
@@ -1714,11 +1572,9 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->getLong(Ljava/lang/Object;J)J
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->getLong(Ljava/lang/Object;J)J
 
     move-result-wide p0
 
@@ -1729,21 +1585,17 @@ return-void
     .locals 5
 
     .line 2
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->LONG_ARRAY_BASE_OFFSET:J
+    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->LONG_ARRAY_BASE_OFFSET:J
 
-    sget-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->LONG_ARRAY_INDEX_SCALE:J
+    sget-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->LONG_ARRAY_INDEX_SCALE:J
 
     mul-long p1, p1, v3
 
     add-long/2addr p1, v1
 
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->getLong(Ljava/lang/Object;J)J
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->getLong(Ljava/lang/Object;J)J
 
     move-result-wide p0
 
@@ -1754,8 +1606,7 @@ return-void
     .locals 3
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->UNSAFE:Lsun/misc/Unsafe;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->UNSAFE:Lsun/misc/Unsafe;
 
     .line 2
     .line 3
@@ -1766,8 +1617,7 @@ return-void
 
     .line 7
     :cond_0
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/Android;
-    ->isOnAndroidDevice()Z
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/Android;->isOnAndroidDevice()Z
 
     .line 8
     .line 9
@@ -1779,8 +1629,7 @@ return-void
 
     .line 12
     .line 13
-    sget-boolean v2, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->IS_ANDROID_64:Z
+    sget-boolean v2, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->IS_ANDROID_64:Z
 
     .line 14
     .line 15
@@ -1792,14 +1641,12 @@ return-void
 
     .line 18
     .line 19
-    invoke-direct {v1, v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$Android64MemoryAccessor;
-    -><init>(Lsun/misc/Unsafe;)V
+    invoke-direct {v1, v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$Android64MemoryAccessor;-><init>(Lsun/misc/Unsafe;)V
     return-object v1
 
     .line 23
     :cond_1
-    sget-boolean v2, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->IS_ANDROID_32:Z
+    sget-boolean v2, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->IS_ANDROID_32:Z
 
     .line 24
     .line 25
@@ -1811,8 +1658,7 @@ return-void
 
     .line 28
     .line 29
-    invoke-direct {v1, v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$Android32MemoryAccessor;
-    -><init>(Lsun/misc/Unsafe;)V
+    invoke-direct {v1, v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$Android32MemoryAccessor;-><init>(Lsun/misc/Unsafe;)V
 
     .line 30
     .line 31
@@ -1826,8 +1672,7 @@ return-void
 
     .line 34
     .line 35
-    invoke-direct {v1, v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$JvmMemoryAccessor;
-    -><init>(Lsun/misc/Unsafe;)V
+    invoke-direct {v1, v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$JvmMemoryAccessor;-><init>(Lsun/misc/Unsafe;)V
 return-object v1
 .end method
 
@@ -1835,11 +1680,9 @@ return-object v1
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->getObject(Ljava/lang/Object;J)Ljava/lang/Object;
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->getObject(Ljava/lang/Object;J)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -1850,21 +1693,17 @@ return-object v1
     .locals 5
 
     .line 2
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->OBJECT_ARRAY_BASE_OFFSET:J
+    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->OBJECT_ARRAY_BASE_OFFSET:J
 
-    sget-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->OBJECT_ARRAY_INDEX_SCALE:J
+    sget-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->OBJECT_ARRAY_INDEX_SCALE:J
 
     mul-long p1, p1, v3
 
     add-long/2addr p1, v1
 
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->getObject(Ljava/lang/Object;J)Ljava/lang/Object;
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->getObject(Ljava/lang/Object;J)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -1875,13 +1714,11 @@ return-object v1
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->getStaticObject(Ljava/lang/reflect/Field;)Ljava/lang/Object;
+    invoke-virtual {v0, p0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->getStaticObject(Ljava/lang/reflect/Field;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -1900,14 +1737,12 @@ return-object v1
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$1;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {v0}, Ljava/security/AccessController;
-    ->doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;
+    invoke-static {v0}, Ljava/security/AccessController;->doPrivileged(Ljava/security/PrivilegedExceptionAction;)Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -1930,24 +1765,21 @@ return-object v1
     .locals 1
 
     .line 1
-    sget-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->HAS_UNSAFE_ARRAY_OPERATIONS:Z    return v0
+    sget-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->HAS_UNSAFE_ARRAY_OPERATIONS:Z    return v0
 .end method
 
 .method public static hasUnsafeByteBufferOperations()Z
     .locals 1
 
     .line 1
-    sget-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->HAS_UNSAFE_BYTEBUFFER_OPERATIONS:Z    return v0
+    sget-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->HAS_UNSAFE_BYTEBUFFER_OPERATIONS:Z    return v0
 .end method
 
 .method public static isAndroid64()Z
     .locals 1
 
     .line 1
-    sget-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->IS_ANDROID_64:Z    return v0
+    sget-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->IS_ANDROID_64:Z    return v0
 .end method
 
 .method public static mismatch([BI[BII)I
@@ -1988,8 +1820,7 @@ return-object v1
 
     .line 16
     .line 17
-    sget-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->HAS_UNSAFE_ARRAY_OPERATIONS:Z
+    sget-boolean v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->HAS_UNSAFE_ARRAY_OPERATIONS:Z
 
     .line 18
     .line 19
@@ -2000,8 +1831,7 @@ return-object v1
 
     .line 21
     .line 22
-    sget v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->BYTE_ARRAY_ALIGNMENT:I
+    sget v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->BYTE_ARRAY_ALIGNMENT:I
 
     .line 23
     .line 24
@@ -2073,8 +1903,7 @@ return-object v1
 
     .line 55
     .line 56
-    sget-wide v2, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->BYTE_ARRAY_BASE_OFFSET:J
+    sget-wide v2, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->BYTE_ARRAY_BASE_OFFSET:J
 
     .line 57
     .line 58
@@ -2090,8 +1919,7 @@ return-object v1
     add-long/2addr v4, v6
 
     .line 62
-    invoke-static {p0, v4, v5}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getLong(Ljava/lang/Object;J)J
+    invoke-static {p0, v4, v5}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getLong(Ljava/lang/Object;J)J
 
     .line 63
     .line 64
@@ -2108,8 +1936,7 @@ return-object v1
     add-long/2addr v2, v6
 
     .line 69
-    invoke-static {p2, v2, v3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getLong(Ljava/lang/Object;J)J
+    invoke-static {p2, v2, v3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getLong(Ljava/lang/Object;J)J
 
     .line 70
     .line 71
@@ -2125,8 +1952,7 @@ return-object v1
 
     .line 76
     .line 77
-    invoke-static {v4, v5, v2, v3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->firstDifferingByteIndexNativeEndian(JJ)I
+    invoke-static {v4, v5, v2, v3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->firstDifferingByteIndexNativeEndian(JJ)I
 
     .line 78
     .line 79
@@ -2191,8 +2017,7 @@ return-object v1
 
     .line 105
     .line 106
-    invoke-direct {p0}, Ljava/lang/IndexOutOfBoundsException;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/IndexOutOfBoundsException;-><init>()V
 
     .line 107
     .line 108
@@ -2203,13 +2028,11 @@ return-object v1
     .locals 2
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->objectFieldOffset(Ljava/lang/reflect/Field;)J
+    invoke-virtual {v0, p0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->objectFieldOffset(Ljava/lang/reflect/Field;)J
 
     .line 4
     .line 5
@@ -2223,11 +2046,9 @@ return-object v1
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->putBoolean(Ljava/lang/Object;JZ)V
+    invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->putBoolean(Ljava/lang/Object;JZ)V
 return-void
 .end method
 
@@ -2235,21 +2056,17 @@ return-void
     .locals 5
 
     .line 2
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->BOOLEAN_ARRAY_BASE_OFFSET:J
+    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->BOOLEAN_ARRAY_BASE_OFFSET:J
 
-    sget-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->BOOLEAN_ARRAY_INDEX_SCALE:J
+    sget-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->BOOLEAN_ARRAY_INDEX_SCALE:J
 
     mul-long p1, p1, v3
 
     add-long/2addr p1, v1
 
-    invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->putBoolean(Ljava/lang/Object;JZ)V
+    invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->putBoolean(Ljava/lang/Object;JZ)V
 return-void
 .end method
 
@@ -2260,8 +2077,7 @@ return-void
     int-to-byte p3, p3
 
     .line 2
-    invoke-static {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->putByteBigEndian(Ljava/lang/Object;JB)V
+    invoke-static {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByteBigEndian(Ljava/lang/Object;JB)V
 return-void
 .end method
 
@@ -2272,8 +2088,7 @@ return-void
     int-to-byte p3, p3
 
     .line 2
-    invoke-static {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->putByteLittleEndian(Ljava/lang/Object;JB)V
+    invoke-static {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByteLittleEndian(Ljava/lang/Object;JB)V
 return-void
 .end method
 
@@ -2281,11 +2096,9 @@ return-void
     .locals 1
 
     .line 3
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->putByte(JB)V
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->putByte(JB)V
 return-void
 .end method
 
@@ -2293,11 +2106,9 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->putByte(Ljava/lang/Object;JB)V
+    invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->putByte(Ljava/lang/Object;JB)V
 return-void
 .end method
 
@@ -2305,16 +2116,13 @@ return-void
     .locals 3
 
     .line 2
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->BYTE_ARRAY_BASE_OFFSET:J
+    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->BYTE_ARRAY_BASE_OFFSET:J
 
     add-long/2addr v1, p1
 
-    invoke-virtual {v0, p0, v1, v2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->putByte(Ljava/lang/Object;JB)V
+    invoke-virtual {v0, p0, v1, v2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->putByte(Ljava/lang/Object;JB)V
 return-void
 .end method
 
@@ -2329,8 +2137,7 @@ return-void
     and-long/2addr v0, p1
 
     .line 4
-    invoke-static {p0, v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getInt(Ljava/lang/Object;J)I
+    invoke-static {p0, v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getInt(Ljava/lang/Object;J)I
 
     .line 5
     .line 6
@@ -2376,8 +2183,7 @@ return-void
     or-int/2addr p1, v2
 
     .line 24
-    invoke-static {p0, v0, v1, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->putInt(Ljava/lang/Object;JI)V
+    invoke-static {p0, v0, v1, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putInt(Ljava/lang/Object;JI)V
 return-void
 .end method
 
@@ -2392,8 +2198,7 @@ return-void
     and-long/2addr v0, p1
 
     .line 4
-    invoke-static {p0, v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getInt(Ljava/lang/Object;J)I
+    invoke-static {p0, v0, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getInt(Ljava/lang/Object;J)I
 
     .line 5
     .line 6
@@ -2436,8 +2241,7 @@ return-void
     or-int/2addr p1, v2
 
     .line 23
-    invoke-static {p0, v0, v1, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->putInt(Ljava/lang/Object;JI)V
+    invoke-static {p0, v0, v1, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putInt(Ljava/lang/Object;JI)V
 return-void
 .end method
 
@@ -2445,8 +2249,7 @@ return-void
     .locals 6
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
     move-object v1, p0
 
@@ -2454,8 +2257,7 @@ return-void
 
     move-wide v4, p3
 
-    invoke-virtual/range {v0 .. v5}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->putDouble(Ljava/lang/Object;JD)V
+    invoke-virtual/range {v0 .. v5}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->putDouble(Ljava/lang/Object;JD)V
 return-void
 .end method
 
@@ -2463,14 +2265,11 @@ return-void
     .locals 6
 
     .line 2
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->DOUBLE_ARRAY_BASE_OFFSET:J
+    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->DOUBLE_ARRAY_BASE_OFFSET:J
 
-    sget-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->DOUBLE_ARRAY_INDEX_SCALE:J
+    sget-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->DOUBLE_ARRAY_INDEX_SCALE:J
 
     mul-long p1, p1, v3
 
@@ -2482,8 +2281,7 @@ return-void
 
     move-wide v4, p3
 
-    invoke-virtual/range {v0 .. v5}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->putDouble(Ljava/lang/Object;JD)V
+    invoke-virtual/range {v0 .. v5}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->putDouble(Ljava/lang/Object;JD)V
 return-void
 .end method
 
@@ -2491,11 +2289,9 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->putFloat(Ljava/lang/Object;JF)V
+    invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->putFloat(Ljava/lang/Object;JF)V
 return-void
 .end method
 
@@ -2503,21 +2299,17 @@ return-void
     .locals 5
 
     .line 2
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->FLOAT_ARRAY_BASE_OFFSET:J
+    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->FLOAT_ARRAY_BASE_OFFSET:J
 
-    sget-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->FLOAT_ARRAY_INDEX_SCALE:J
+    sget-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->FLOAT_ARRAY_INDEX_SCALE:J
 
     mul-long p1, p1, v3
 
     add-long/2addr p1, v1
 
-    invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->putFloat(Ljava/lang/Object;JF)V
+    invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->putFloat(Ljava/lang/Object;JF)V
 return-void
 .end method
 
@@ -2525,11 +2317,9 @@ return-void
     .locals 1
 
     .line 3
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->putInt(JI)V
+    invoke-virtual {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->putInt(JI)V
 return-void
 .end method
 
@@ -2537,11 +2327,9 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->putInt(Ljava/lang/Object;JI)V
+    invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->putInt(Ljava/lang/Object;JI)V
 return-void
 .end method
 
@@ -2549,21 +2337,17 @@ return-void
     .locals 5
 
     .line 2
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->INT_ARRAY_BASE_OFFSET:J
+    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->INT_ARRAY_BASE_OFFSET:J
 
-    sget-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->INT_ARRAY_INDEX_SCALE:J
+    sget-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->INT_ARRAY_INDEX_SCALE:J
 
     mul-long p1, p1, v3
 
     add-long/2addr p1, v1
 
-    invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->putInt(Ljava/lang/Object;JI)V
+    invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->putInt(Ljava/lang/Object;JI)V
 return-void
 .end method
 
@@ -2571,11 +2355,9 @@ return-void
     .locals 1
 
     .line 3
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->putLong(JJ)V
+    invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->putLong(JJ)V
 return-void
 .end method
 
@@ -2583,8 +2365,7 @@ return-void
     .locals 6
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
     move-object v1, p0
 
@@ -2592,8 +2373,7 @@ return-void
 
     move-wide v4, p3
 
-    invoke-virtual/range {v0 .. v5}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->putLong(Ljava/lang/Object;JJ)V
+    invoke-virtual/range {v0 .. v5}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->putLong(Ljava/lang/Object;JJ)V
 return-void
 .end method
 
@@ -2601,14 +2381,11 @@ return-void
     .locals 6
 
     .line 2
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->LONG_ARRAY_BASE_OFFSET:J
+    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->LONG_ARRAY_BASE_OFFSET:J
 
-    sget-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->LONG_ARRAY_INDEX_SCALE:J
+    sget-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->LONG_ARRAY_INDEX_SCALE:J
 
     mul-long p1, p1, v3
 
@@ -2620,8 +2397,7 @@ return-void
 
     move-wide v4, p3
 
-    invoke-virtual/range {v0 .. v5}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->putLong(Ljava/lang/Object;JJ)V
+    invoke-virtual/range {v0 .. v5}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->putLong(Ljava/lang/Object;JJ)V
 return-void
 .end method
 
@@ -2629,11 +2405,9 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
+    invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
 return-void
 .end method
 
@@ -2641,21 +2415,17 @@ return-void
     .locals 5
 
     .line 2
-    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->MEMORY_ACCESSOR:Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
 
-    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->OBJECT_ARRAY_BASE_OFFSET:J
+    sget-wide v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->OBJECT_ARRAY_BASE_OFFSET:J
 
-    sget-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->OBJECT_ARRAY_INDEX_SCALE:J
+    sget-wide v3, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->OBJECT_ARRAY_INDEX_SCALE:J
 
     mul-long p1, p1, v3
 
     add-long/2addr p1, v1
 
-    invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;
-    ->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
+    invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$MemoryAccessor;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
 return-void
 .end method
 
@@ -2680,8 +2450,7 @@ return-void
 
     .line 7
     .line 8
-    sget-object v5, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->UNSAFE:Lsun/misc/Unsafe;
+    sget-object v5, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->UNSAFE:Lsun/misc/Unsafe;
 
     .line 9
     .line 10
@@ -2693,8 +2462,7 @@ return-void
     .line 14
     :cond_0
     :try_start_0
-    invoke-virtual {v5}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v5}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 15
     .line 16
@@ -2718,8 +2486,7 @@ return-void
 
     .line 25
     .line 26
-    invoke-virtual {v5, v7, v8}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v7, v8}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 27
     .line 28
@@ -2736,8 +2503,7 @@ return-void
 
     .line 34
     .line 35
-    invoke-virtual {v5, v7, v8}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v7, v8}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 36
     .line 37
@@ -2754,8 +2520,7 @@ return-void
 
     .line 43
     .line 44
-    invoke-virtual {v5, v7, v8}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v7, v8}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 45
     .line 46
@@ -2764,8 +2529,7 @@ return-void
 
     .line 48
     .line 49
-    sget-object v7, Ljava/lang/Long;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v7, Ljava/lang/Long;->TYPE:Ljava/lang/Class;
 
     .line 50
     .line 51
@@ -2781,8 +2545,7 @@ return-void
 
     .line 56
     .line 57
-    invoke-virtual {v5, v3, v8}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v3, v8}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 58
     .line 59
@@ -2803,8 +2566,7 @@ return-void
 
     .line 67
     .line 68
-    sget-object v9, Ljava/lang/Integer;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v9, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
 
     .line 69
     .line 70
@@ -2812,8 +2574,7 @@ return-void
 
     .line 71
     .line 72
-    invoke-virtual {v5, v3, v8}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v3, v8}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 73
     .line 74
@@ -2834,8 +2595,7 @@ return-void
 
     .line 82
     .line 83
-    invoke-virtual {v5, v3, v8}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v3, v8}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 84
     .line 85
@@ -2860,8 +2620,7 @@ return-void
 
     .line 95
     .line 96
-    invoke-virtual {v5, v3, v8}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v3, v8}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 97
     .line 98
@@ -2882,8 +2641,7 @@ return-void
 
     .line 106
     .line 107
-    invoke-virtual {v5, v3, v8}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v3, v8}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 108
     .line 109
@@ -2908,14 +2666,12 @@ return-void
 
     .line 119
     .line 120
-    invoke-virtual {v5, v3, v8}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v3, v8}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 121
     .line 122
     .line 123
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/Android;
-    ->isOnAndroidDevice()Z
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/Android;->isOnAndroidDevice()Z
 
     .line 124
     .line 125
@@ -2943,8 +2699,7 @@ return-void
 
     .line 137
     .line 138
-    invoke-virtual {v5, v3, v8}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v3, v8}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 139
     .line 140
@@ -2965,8 +2720,7 @@ return-void
 
     .line 148
     .line 149
-    sget-object v9, Ljava/lang/Byte;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v9, Ljava/lang/Byte;->TYPE:Ljava/lang/Class;
 
     .line 150
     .line 151
@@ -2974,8 +2728,7 @@ return-void
 
     .line 152
     .line 153
-    invoke-virtual {v5, v3, v8}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v3, v8}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 154
     .line 155
@@ -2996,8 +2749,7 @@ return-void
 
     .line 163
     .line 164
-    invoke-virtual {v5, v3, v8}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v3, v8}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 165
     .line 166
@@ -3018,8 +2770,7 @@ return-void
 
     .line 174
     .line 175
-    sget-object v9, Ljava/lang/Boolean;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v9, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
 
     .line 176
     .line 177
@@ -3027,8 +2778,7 @@ return-void
 
     .line 178
     .line 179
-    invoke-virtual {v5, v3, v8}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v3, v8}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 180
     .line 181
@@ -3049,8 +2799,7 @@ return-void
 
     .line 189
     .line 190
-    invoke-virtual {v5, v3, v8}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v3, v8}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 191
     .line 192
@@ -3071,8 +2820,7 @@ return-void
 
     .line 200
     .line 201
-    sget-object v9, Ljava/lang/Float;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v9, Ljava/lang/Float;->TYPE:Ljava/lang/Class;
 
     .line 202
     .line 203
@@ -3080,8 +2828,7 @@ return-void
 
     .line 204
     .line 205
-    invoke-virtual {v5, v3, v8}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v3, v8}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 206
     .line 207
@@ -3102,8 +2849,7 @@ return-void
 
     .line 215
     .line 216
-    invoke-virtual {v5, v3, v8}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v3, v8}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 217
     .line 218
@@ -3124,8 +2870,7 @@ return-void
 
     .line 226
     .line 227
-    sget-object v4, Ljava/lang/Double;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v4, Ljava/lang/Double;->TYPE:Ljava/lang/Class;
 
     .line 228
     .line 229
@@ -3133,8 +2878,7 @@ return-void
 
     .line 230
     .line 231
-    invoke-virtual {v5, v3, v0}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v3, v0}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0    return v2
 
@@ -3143,13 +2887,11 @@ return-void
     move-exception v0
 
     .line 236
-    sget-object v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->logger:Ljava/util/logging/Logger;
+    sget-object v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->logger:Ljava/util/logging/Logger;
 
     .line 237
     .line 238
-    sget-object v2, Ljava/util/logging/Level;
-    ->WARNING:Ljava/util/logging/Level;
+    sget-object v2, Ljava/util/logging/Level;->WARNING:Ljava/util/logging/Level;
 
     .line 239
     .line 240
@@ -3161,20 +2903,17 @@ return-void
 
     .line 243
     .line 244
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 245
     .line 246
     .line 247
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 248
     .line 249
     .line 250
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 251
     .line 252
@@ -3182,8 +2921,7 @@ return-void
     move-result-object v0
 
     .line 254
-    invoke-virtual {v1, v2, v0}, Ljava/util/logging/Logger;
-    ->log(Ljava/util/logging/Level;Ljava/lang/String;)V    
+    invoke-virtual {v1, v2, v0}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;)V
     return v6
 .end method
 
@@ -3212,8 +2950,7 @@ return-void
 
     .line 9
     .line 10
-    sget-object v6, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->UNSAFE:Lsun/misc/Unsafe;
+    sget-object v6, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->UNSAFE:Lsun/misc/Unsafe;
 
     .line 11
     .line 12
@@ -3225,8 +2962,7 @@ return-void
     .line 16
     :cond_0
     :try_start_0
-    invoke-virtual {v6}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v6}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 17
     .line 18
@@ -3250,14 +2986,12 @@ return-void
 
     .line 27
     .line 28
-    invoke-virtual {v6, v8, v9}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v6, v8, v9}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 29
     .line 30
     .line 31
-    sget-object v8, Ljava/lang/Long;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v8, Ljava/lang/Long;->TYPE:Ljava/lang/Class;
 
     .line 32
     .line 33
@@ -3273,14 +3007,12 @@ return-void
 
     .line 38
     .line 39
-    invoke-virtual {v6, v4, v9}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v6, v4, v9}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 40
     .line 41
     .line 42
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->bufferAddressField()Ljava/lang/reflect/Field;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->bufferAddressField()Ljava/lang/reflect/Field;
 
     .line 43
     .line 44
@@ -3292,8 +3024,7 @@ return-void
 
     .line 49
     :cond_1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/Android;
-    ->isOnAndroidDevice()Z
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/Android;->isOnAndroidDevice()Z
 
     .line 50
     .line 51
@@ -3317,8 +3048,7 @@ return-void
 
     .line 61
     .line 62
-    invoke-virtual {v6, v9, v10}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v6, v9, v10}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 63
     .line 64
@@ -3335,8 +3065,7 @@ return-void
 
     .line 70
     .line 71
-    sget-object v11, Ljava/lang/Byte;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v11, Ljava/lang/Byte;->TYPE:Ljava/lang/Class;
 
     .line 72
     .line 73
@@ -3344,8 +3073,7 @@ return-void
 
     .line 74
     .line 75
-    invoke-virtual {v6, v9, v10}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v6, v9, v10}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 76
     .line 77
@@ -3362,8 +3090,7 @@ return-void
 
     .line 83
     .line 84
-    invoke-virtual {v6, v9, v10}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v6, v9, v10}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 85
     .line 86
@@ -3380,8 +3107,7 @@ return-void
 
     .line 92
     .line 93
-    sget-object v11, Ljava/lang/Integer;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v11, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
 
     .line 94
     .line 95
@@ -3389,8 +3115,7 @@ return-void
 
     .line 96
     .line 97
-    invoke-virtual {v6, v9, v10}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v6, v9, v10}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 98
     .line 99
@@ -3403,8 +3128,7 @@ return-void
 
     .line 103
     .line 104
-    invoke-virtual {v6, v4, v9}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v6, v4, v9}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 105
     .line 106
@@ -3425,8 +3149,7 @@ return-void
 
     .line 114
     .line 115
-    invoke-virtual {v6, v4, v9}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v6, v4, v9}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 116
     .line 117
@@ -3447,8 +3170,7 @@ return-void
 
     .line 125
     .line 126
-    invoke-virtual {v6, v3, v4}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v6, v3, v4}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 127
     .line 128
@@ -3483,8 +3205,7 @@ return-void
 
     .line 142
     .line 143
-    invoke-virtual {v6, v3, v4}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v6, v3, v4}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0    return v2
 
@@ -3493,13 +3214,11 @@ return-void
     move-exception v0
 
     .line 148
-    sget-object v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->logger:Ljava/util/logging/Logger;
+    sget-object v1, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->logger:Ljava/util/logging/Logger;
 
     .line 149
     .line 150
-    sget-object v2, Ljava/util/logging/Level;
-    ->WARNING:Ljava/util/logging/Level;
+    sget-object v2, Ljava/util/logging/Level;->WARNING:Ljava/util/logging/Level;
 
     .line 151
     .line 152
@@ -3511,20 +3230,17 @@ return-void
 
     .line 155
     .line 156
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 157
     .line 158
     .line 159
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 160
     .line 161
     .line 162
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 163
     .line 164
@@ -3532,8 +3248,7 @@ return-void
     move-result-object v0
 
     .line 166
-    invoke-virtual {v1, v2, v0}, Ljava/util/logging/Logger;
-    ->log(Ljava/util/logging/Level;Ljava/lang/String;)V    
+    invoke-virtual {v1, v2, v0}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;)V
     return v7
 .end method
 

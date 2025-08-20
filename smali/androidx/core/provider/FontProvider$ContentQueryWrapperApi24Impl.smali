@@ -30,14 +30,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p1}, Landroid/content/Context;
-    ->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {p1}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     .line 5
     .line 6
@@ -45,8 +43,7 @@
     move-result-object p1
 
     .line 8
-    invoke-virtual {p1, p2}, Landroid/content/ContentResolver;
-    ->acquireUnstableContentProviderClient(Landroid/net/Uri;)Landroid/content/ContentProviderClient;
+    invoke-virtual {p1, p2}, Landroid/content/ContentResolver;->acquireUnstableContentProviderClient(Landroid/net/Uri;)Landroid/content/ContentProviderClient;
 
     .line 9
     .line 10
@@ -54,8 +51,7 @@
     move-result-object p1
 
     .line 12
-    iput-object p1, p0, Landroidx/core/provider/FontProvider$ContentQueryWrapperApi24Impl;
-    ->mClient:Landroid/content/ContentProviderClient;
+    iput-object p1, p0, Landroidx/core/provider/FontProvider$ContentQueryWrapperApi24Impl;->mClient:Landroid/content/ContentProviderClient;
 
     .line 13
     .line 14
@@ -68,8 +64,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/provider/FontProvider$ContentQueryWrapperApi24Impl;
-    ->mClient:Landroid/content/ContentProviderClient;
+    iget-object v0, p0, Landroidx/core/provider/FontProvider$ContentQueryWrapperApi24Impl;->mClient:Landroid/content/ContentProviderClient;
 
     .line 2
     .line 3
@@ -77,8 +72,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroid/content/ContentProviderClient;
-    ->release()Z
+    invoke-virtual {v0}, Landroid/content/ContentProviderClient;->release()Z
 
     .line 6
     .line 7
@@ -91,8 +85,7 @@
     .locals 8
 
     .line 1
-    iget-object v0, p0, Landroidx/core/provider/FontProvider$ContentQueryWrapperApi24Impl;
-    ->mClient:Landroid/content/ContentProviderClient;
+    iget-object v0, p0, Landroidx/core/provider/FontProvider$ContentQueryWrapperApi24Impl;->mClient:Landroid/content/ContentProviderClient;
 
     .line 2
     .line 3
@@ -126,8 +119,7 @@
 
     .line 13
     :try_start_0
-    invoke-virtual/range {v0 .. v6}, Landroid/content/ContentProviderClient;
-    ->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Landroid/os/CancellationSignal;)Landroid/database/Cursor;
+    invoke-virtual/range {v0 .. v6}, Landroid/content/ContentProviderClient;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Landroid/os/CancellationSignal;)Landroid/database/Cursor;
 
     .line 14
     .line 15
@@ -154,8 +146,7 @@
 
     .line 23
     .line 24
-    invoke-static {p2, p3, p1}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {p2, p3, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 25
     .line 26

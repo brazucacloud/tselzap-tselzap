@@ -18,14 +18,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/util/SparseArray;
-    -><init>()V
+    invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, LX/a;
-    ->a:Landroid/util/SparseArray;
+    sput-object v0, LX/a;->a:Landroid/util/SparseArray;
 
     .line 7
     .line 8
@@ -33,27 +31,23 @@
 
     .line 9
     .line 10
-    invoke-direct {v0}, Ljava/util/HashMap;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     .line 11
     .line 12
     .line 13
-    sput-object v0, LX/a;
-    ->b:Ljava/util/HashMap;
+    sput-object v0, LX/a;->b:Ljava/util/HashMap;
 
     .line 14
     .line 15
-    sget-object v1, LK/c;
-    ->b:LK/c;
+    sget-object v1, LK/c;->b:LK/c;
 
     .line 16
     .line 17
     const/4 v2, 0x0
 
     .line 18
-    invoke-static {v2}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 19
     .line 20
@@ -61,22 +55,19 @@
     move-result-object v2
 
     .line 22
-    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 23
     .line 24
     .line 25
-    sget-object v1, LK/c;
-    ->c:LK/c;
+    sget-object v1, LK/c;->c:LK/c;
 
     .line 26
     .line 27
     const/4 v2, 0x1
 
     .line 28
-    invoke-static {v2}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 29
     .line 30
@@ -84,22 +75,19 @@
     move-result-object v2
 
     .line 32
-    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 33
     .line 34
     .line 35
-    sget-object v1, LK/c;
-    ->d:LK/c;
+    sget-object v1, LK/c;->d:LK/c;
 
     .line 36
     .line 37
     const/4 v2, 0x2
 
     .line 38
-    invoke-static {v2}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 39
     .line 40
@@ -107,14 +95,12 @@
     move-result-object v2
 
     .line 42
-    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 43
     .line 44
     .line 45
-    invoke-virtual {v0}, Ljava/util/HashMap;
-    ->keySet()Ljava/util/Set;
+    invoke-virtual {v0}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
 
     .line 46
     .line 47
@@ -122,8 +108,7 @@
     move-result-object v0
 
     .line 49
-    invoke-interface {v0}, Ljava/util/Set;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     .line 50
     .line 51
@@ -132,8 +117,7 @@
 
     .line 53
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 54
     .line 55
@@ -145,8 +129,7 @@
 
     .line 58
     .line 59
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 60
     .line 61
@@ -158,18 +141,15 @@
 
     .line 64
     .line 65
-    sget-object v2, LX/a;
-    ->a:Landroid/util/SparseArray;
+    sget-object v2, LX/a;->a:Landroid/util/SparseArray;
 
     .line 66
     .line 67
-    sget-object v3, LX/a;
-    ->b:Ljava/util/HashMap;
+    sget-object v3, LX/a;->b:Ljava/util/HashMap;
 
     .line 68
     .line 69
-    invoke-virtual {v3, v1}, Ljava/util/HashMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 70
     .line 71
@@ -181,8 +161,7 @@
 
     .line 74
     .line 75
-    invoke-virtual {v3}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {v3}, Ljava/lang/Integer;->intValue()I
 
     .line 76
     .line 77
@@ -190,8 +169,7 @@
     move-result v3
 
     .line 79
-    invoke-virtual {v2, v3, v1}, Landroid/util/SparseArray;
-    ->append(ILjava/lang/Object;)V
+    invoke-virtual {v2, v3, v1}, Landroid/util/SparseArray;->append(ILjava/lang/Object;)V
 
     .line 80
     .line 81
@@ -207,13 +185,11 @@
     .locals 3
 
     .line 1
-    sget-object v0, LX/a;
-    ->b:Ljava/util/HashMap;
+    sget-object v0, LX/a;->b:Ljava/util/HashMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0}, Ljava/util/HashMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -229,8 +205,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {v0}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
 
     .line 12
     .line 13
@@ -253,20 +228,17 @@
 
     .line 21
     .line 22
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 23
     .line 24
     .line 25
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 26
     .line 27
     .line 28
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 29
     .line 30
@@ -274,8 +246,7 @@
     move-result-object p0
 
     .line 32
-    invoke-direct {v0, p0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 33
     .line 34
@@ -336,13 +307,11 @@
     .locals 2
 
     .line 1
-    sget-object v0, LX/a;
-    ->a:Landroid/util/SparseArray;
+    sget-object v0, LX/a;->a:Landroid/util/SparseArray;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0}, Landroid/util/SparseArray;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {v0, p0}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -370,8 +339,7 @@
 
     .line 15
     .line 16
-    invoke-static {p0, v1}, LA/d;
-    ->c(ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, v1}, LA/d;->c(ILjava/lang/String;)Ljava/lang/String;
 
     .line 17
     .line 18
@@ -379,8 +347,7 @@
     move-result-object p0
 
     .line 20
-    invoke-direct {v0, p0}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 21
     .line 22

@@ -13,8 +13,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/content/ContentProvider;
-    -><init>()V
+    invoke-direct {p0}, Landroid/content/ContentProvider;-><init>()V
 
     .line 2
     .line 3
@@ -36,8 +35,7 @@
     .end param
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroid/content/ContentProvider;
-    ->attachInfo(Landroid/content/Context;Landroid/content/pm/ProviderInfo;)V
+    invoke-super {p0, p1, p2}, Landroid/content/ContentProvider;->attachInfo(Landroid/content/Context;Landroid/content/pm/ProviderInfo;)V
 
     .line 2
     .line 3
@@ -46,13 +44,11 @@
 
     .line 5
     .line 6
-    iget-object p2, p2, Landroid/content/pm/ProviderInfo;
-    ->authority:Ljava/lang/String;
+    iget-object p2, p2, Landroid/content/pm/ProviderInfo;->authority:Ljava/lang/String;
 
     .line 7
     .line 8
-    invoke-virtual {p1, p2}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 9
     .line 10
@@ -76,8 +72,7 @@
 
     .line 18
     .line 19
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 20
     .line 21
@@ -170,8 +165,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/ContentProvider;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/ContentProvider;->getContext()Landroid/content/Context;
 
     .line 2
     .line 3
@@ -179,8 +173,7 @@
     move-result-object v0
 
     .line 5
-    invoke-static {v0}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -188,8 +181,7 @@
     const/4 v1, 0x0
 
     .line 9
-    invoke-static {v0, v1, v1}, Lcom/google/android/gms/measurement/internal/zzim;
-    ->zza(Landroid/content/Context;Lcom/google/android/gms/internal/measurement/zzdz;Ljava/lang/Long;)Lcom/google/android/gms/measurement/internal/zzim;
+    invoke-static {v0, v1, v1}, Lcom/google/android/gms/measurement/internal/zzim;->zza(Landroid/content/Context;Lcom/google/android/gms/internal/measurement/zzdz;Ljava/lang/Long;)Lcom/google/android/gms/measurement/internal/zzim;
 
     .line 10
     .line 11

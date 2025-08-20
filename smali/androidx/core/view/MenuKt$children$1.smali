@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/view/MenuKt;
-    ->getChildren(Landroid/view/Menu;)Lw1/h;
+    value = Landroidx/core/view/MenuKt;->getChildren(Landroid/view/Menu;)Lw1/h;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -34,13 +33,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/core/view/MenuKt$children$1;
-    ->$this_children:Landroid/view/Menu;
+    iput-object p1, p0, Landroidx/core/view/MenuKt$children$1;->$this_children:Landroid/view/Menu;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
@@ -62,13 +59,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/MenuKt$children$1;
-    ->$this_children:Landroid/view/Menu;
+    iget-object v0, p0, Landroidx/core/view/MenuKt$children$1;->$this_children:Landroid/view/Menu;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/core/view/MenuKt;
-    ->iterator(Landroid/view/Menu;)Ljava/util/Iterator;
+    invoke-static {v0}, Landroidx/core/view/MenuKt;->iterator(Landroid/view/Menu;)Ljava/util/Iterator;
 
     .line 4
     .line 5

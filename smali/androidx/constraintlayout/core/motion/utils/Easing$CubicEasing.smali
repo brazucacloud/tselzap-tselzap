@@ -35,12 +35,10 @@
     .locals 0
 
     .line 12
-    invoke-direct {p0}, Landroidx/constraintlayout/core/motion/utils/Easing;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/core/motion/utils/Easing;-><init>()V
 
     .line 13
-    invoke-virtual/range {p0 .. p8}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->setup(DDDD)V
+    invoke-virtual/range {p0 .. p8}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->setup(DDDD)V
 return-void
 .end method
 
@@ -48,132 +46,109 @@ return-void
     .locals 5
 
     .line 1
-    invoke-direct {p0}, Landroidx/constraintlayout/core/motion/utils/Easing;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/core/motion/utils/Easing;-><init>()V
 
     .line 2
-    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/Easing;
-    ->mStr:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/Easing;->mStr:Ljava/lang/String;
 
     const/16 v0, 0x28
 
     .line 3
-    invoke-virtual {p1, v0}, Ljava/lang/String;
-    ->indexOf(I)I
+    invoke-virtual {p1, v0}, Ljava/lang/String;->indexOf(I)I
 
     move-result v0
 
     const/16 v1, 0x2c
 
     .line 4
-    invoke-virtual {p1, v1, v0}, Ljava/lang/String;
-    ->indexOf(II)I
+    invoke-virtual {p1, v1, v0}, Ljava/lang/String;->indexOf(II)I
 
     move-result v2
 
     add-int/lit8 v0, v0, 0x1
 
     .line 5
-    invoke-virtual {p1, v0, v2}, Ljava/lang/String;
-    ->substring(II)Ljava/lang/String;
+    invoke-virtual {p1, v0, v2}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Ljava/lang/String;
-    ->trim()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v0}, Ljava/lang/Double;
-    ->parseDouble(Ljava/lang/String;)D
+    invoke-static {v0}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
 
     move-result-wide v3
 
-    iput-wide v3, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->mX1:D
+    iput-wide v3, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->mX1:D
 
     add-int/lit8 v2, v2, 0x1
 
     .line 6
-    invoke-virtual {p1, v1, v2}, Ljava/lang/String;
-    ->indexOf(II)I
+    invoke-virtual {p1, v1, v2}, Ljava/lang/String;->indexOf(II)I
 
     move-result v0
 
     .line 7
-    invoke-virtual {p1, v2, v0}, Ljava/lang/String;
-    ->substring(II)Ljava/lang/String;
+    invoke-virtual {p1, v2, v0}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Ljava/lang/String;
-    ->trim()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-static {v2}, Ljava/lang/Double;
-    ->parseDouble(Ljava/lang/String;)D
+    invoke-static {v2}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
 
     move-result-wide v2
 
-    iput-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->mY1:D
+    iput-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->mY1:D
 
     add-int/lit8 v0, v0, 0x1
 
     .line 8
-    invoke-virtual {p1, v1, v0}, Ljava/lang/String;
-    ->indexOf(II)I
+    invoke-virtual {p1, v1, v0}, Ljava/lang/String;->indexOf(II)I
 
     move-result v1
 
     .line 9
-    invoke-virtual {p1, v0, v1}, Ljava/lang/String;
-    ->substring(II)Ljava/lang/String;
+    invoke-virtual {p1, v0, v1}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Ljava/lang/String;
-    ->trim()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v0}, Ljava/lang/Double;
-    ->parseDouble(Ljava/lang/String;)D
+    invoke-static {v0}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
 
     move-result-wide v2
 
-    iput-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->mX2:D
+    iput-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->mX2:D
 
     add-int/lit8 v1, v1, 0x1
 
     const/16 v0, 0x29
 
     .line 10
-    invoke-virtual {p1, v0, v1}, Ljava/lang/String;
-    ->indexOf(II)I
+    invoke-virtual {p1, v0, v1}, Ljava/lang/String;->indexOf(II)I
 
     move-result v0
 
     .line 11
-    invoke-virtual {p1, v1, v0}, Ljava/lang/String;
-    ->substring(II)Ljava/lang/String;
+    invoke-virtual {p1, v1, v0}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Ljava/lang/String;
-    ->trim()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-static {p1}, Ljava/lang/Double;
-    ->parseDouble(Ljava/lang/String;)D
+    invoke-static {p1}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
 
     move-result-wide v0
 
-    iput-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->mY2:D
+    iput-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->mY2:D
 
     return-void
 .end method
@@ -202,8 +177,7 @@ return-void
 
     .line 10
     .line 11
-    iget-wide v8, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->mX1:D
+    iget-wide v8, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->mX1:D
 
     .line 12
     .line 13
@@ -223,8 +197,7 @@ return-void
 
     .line 20
     .line 21
-    iget-wide v10, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->mX2:D
+    iget-wide v10, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->mX2:D
 
     .line 22
     .line 23
@@ -283,8 +256,7 @@ return-void
 
     .line 10
     .line 11
-    iget-wide v8, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->mY1:D
+    iget-wide v8, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->mY1:D
 
     .line 12
     .line 13
@@ -304,8 +276,7 @@ return-void
 
     .line 20
     .line 21
-    iget-wide v10, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->mY2:D
+    iget-wide v10, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->mY2:D
 
     .line 22
     .line 23
@@ -383,8 +354,7 @@ return-void
 
     .line 19
     .line 20
-    iget-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->mX1:D
+    iget-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->mX1:D
 
     .line 21
     .line 22
@@ -392,8 +362,7 @@ return-void
 
     .line 23
     .line 24
-    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->mX2:D
+    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->mX2:D
 
     .line 25
     .line 26
@@ -452,8 +421,7 @@ return-void
 
     .line 19
     .line 20
-    iget-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->mY1:D
+    iget-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->mY1:D
 
     .line 21
     .line 22
@@ -461,8 +429,7 @@ return-void
 
     .line 23
     .line 24
-    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->mY2:D
+    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->mY2:D
 
     .line 25
     .line 26
@@ -519,8 +486,7 @@ return-void
 
     .line 19
     :goto_0
-    sget-wide v6, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->sError:D
+    sget-wide v6, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->sError:D
 
     .line 20
     .line 21
@@ -532,8 +498,7 @@ return-void
 
     .line 24
     .line 25
-    invoke-direct {p0, v4, v5}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->getX(D)D
+    invoke-direct {p0, v4, v5}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->getX(D)D
 
     .line 26
     .line 27
@@ -571,8 +536,7 @@ return-void
 
     .line 40
     .line 41
-    invoke-direct {p0, v0, v1}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->getX(D)D
+    invoke-direct {p0, v0, v1}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->getX(D)D
 
     .line 42
     .line 43
@@ -583,8 +547,7 @@ return-void
     add-double/2addr v4, v2
 
     .line 46
-    invoke-direct {p0, v4, v5}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->getX(D)D
+    invoke-direct {p0, v4, v5}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->getX(D)D
 
     .line 47
     .line 48
@@ -592,8 +555,7 @@ return-void
     move-result-wide v2
 
     .line 50
-    invoke-direct {p0, v0, v1}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->getY(D)D
+    invoke-direct {p0, v0, v1}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->getY(D)D
 
     .line 51
     .line 52
@@ -601,8 +563,7 @@ return-void
     move-result-wide v0
 
     .line 54
-    invoke-direct {p0, v4, v5}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->getY(D)D
+    invoke-direct {p0, v4, v5}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->getY(D)D
 
     .line 55
     .line 56
@@ -646,8 +607,7 @@ return-void
 
     .line 5
     :goto_0
-    sget-wide v6, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->sDError:D
+    sget-wide v6, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->sDError:D
 
     .line 6
     .line 7
@@ -659,8 +619,7 @@ return-void
 
     .line 10
     .line 11
-    invoke-direct {p0, v4, v5}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->getX(D)D
+    invoke-direct {p0, v4, v5}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->getX(D)D
 
     .line 12
     .line 13
@@ -698,8 +657,7 @@ return-void
 
     .line 26
     .line 27
-    invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->getX(D)D
+    invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->getX(D)D
 
     .line 28
     .line 29
@@ -710,8 +668,7 @@ return-void
     add-double/2addr v4, v2
 
     .line 32
-    invoke-direct {p0, v4, v5}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->getX(D)D
+    invoke-direct {p0, v4, v5}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->getX(D)D
 
     .line 33
     .line 34
@@ -719,8 +676,7 @@ return-void
     move-result-wide v2
 
     .line 36
-    invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->getY(D)D
+    invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->getY(D)D
 
     .line 37
     .line 38
@@ -728,8 +684,7 @@ return-void
     move-result-wide p1
 
     .line 40
-    invoke-direct {p0, v4, v5}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->getY(D)D
+    invoke-direct {p0, v4, v5}, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->getY(D)D
 
     .line 41
     .line 42
@@ -752,23 +707,19 @@ return-void
     .locals 0
 
     .line 1
-    iput-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->mX1:D
+    iput-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->mX1:D
 
     .line 2
     .line 3
-    iput-wide p3, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->mY1:D
+    iput-wide p3, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->mY1:D
 
     .line 4
     .line 5
-    iput-wide p5, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->mX2:D
+    iput-wide p5, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->mX2:D
 
     .line 6
     .line 7
-    iput-wide p7, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;
-    ->mY2:D    
+    iput-wide p7, p0, Landroidx/constraintlayout/core/motion/utils/Easing$CubicEasing;->mY2:D
     return-void
 .end method
 

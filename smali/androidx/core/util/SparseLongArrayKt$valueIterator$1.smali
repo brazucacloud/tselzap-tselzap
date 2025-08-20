@@ -5,8 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/util/SparseLongArrayKt;
-    ->valueIterator(Landroid/util/SparseLongArray;)Ld1/z;
+    value = Landroidx/core/util/SparseLongArrayKt;->valueIterator(Landroid/util/SparseLongArray;)Ld1/z;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,13 +25,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;
-    ->$this_valueIterator:Landroid/util/SparseLongArray;
+    iput-object p1, p0, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;->$this_valueIterator:Landroid/util/SparseLongArray;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
@@ -46,8 +43,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;
-    ->index:I
+    iget v0, p0, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;->index:I
 
     .line 2
     .line 3
@@ -58,18 +54,15 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;
-    ->index:I
+    iget v0, p0, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;->index:I
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;
-    ->$this_valueIterator:Landroid/util/SparseLongArray;
+    iget-object v1, p0, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;->$this_valueIterator:Landroid/util/SparseLongArray;
 
     .line 4
     .line 5
-    invoke-virtual {v1}, Landroid/util/SparseLongArray;
-    ->size()I
+    invoke-virtual {v1}, Landroid/util/SparseLongArray;->size()I
 
     .line 6
     .line 7
@@ -96,13 +89,11 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;
-    ->$this_valueIterator:Landroid/util/SparseLongArray;
+    iget-object v0, p0, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;->$this_valueIterator:Landroid/util/SparseLongArray;
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;
-    ->index:I
+    iget v1, p0, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;->index:I
 
     .line 4
     .line 5
@@ -110,13 +101,11 @@
 
     .line 6
     .line 7
-    iput v2, p0, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;
-    ->index:I
+    iput v2, p0, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;->index:I
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Landroid/util/SparseLongArray;
-    ->valueAt(I)J
+    invoke-virtual {v0, v1}, Landroid/util/SparseLongArray;->valueAt(I)J
 
     .line 10
     .line 11
@@ -130,8 +119,7 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;
-    ->index:I
+    iput p1, p0, Landroidx/core/util/SparseLongArrayKt$valueIterator$1;->index:I
 
     .line 2
     .line 3

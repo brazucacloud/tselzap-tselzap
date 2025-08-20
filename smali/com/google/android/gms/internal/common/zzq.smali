@@ -16,14 +16,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/google/android/gms/internal/common/zzq;
-    -><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/internal/common/zzq;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Lcom/google/android/gms/internal/common/zzq;
-    ->zza:Lcom/google/android/gms/internal/common/zzr;
+    sput-object v0, Lcom/google/android/gms/internal/common/zzq;->zza:Lcom/google/android/gms/internal/common/zzr;
 
     .line 7
     .line 8
@@ -38,8 +36,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, v0}, Lcom/google/android/gms/internal/common/zzp;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Lcom/google/android/gms/internal/common/zzp;-><init>(Ljava/lang/String;)V
 
     .line 4
     .line 5

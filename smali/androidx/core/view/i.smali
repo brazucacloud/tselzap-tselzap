@@ -15,11 +15,9 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/core/view/i;
-    ->a:Ljava/util/concurrent/atomic/AtomicBoolean;
+    iput-object p1, p0, Landroidx/core/view/i;->a:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     return-void
 .end method
@@ -30,11 +28,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/i;
-    ->a:Ljava/util/concurrent/atomic/AtomicBoolean;
+    iget-object v0, p0, Landroidx/core/view/i;->a:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    invoke-static {v0, p1, p2}, Landroidx/core/view/SoftwareKeyboardControllerCompat$Impl30;
-    ->b(Ljava/util/concurrent/atomic/AtomicBoolean;Landroid/view/WindowInsetsController;I)V
+    invoke-static {v0, p1, p2}, Landroidx/core/view/SoftwareKeyboardControllerCompat$Impl30;->b(Ljava/util/concurrent/atomic/AtomicBoolean;Landroid/view/WindowInsetsController;I)V
 return-void
 .end method
 

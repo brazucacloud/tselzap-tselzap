@@ -19,8 +19,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/graphics/Matrix;
-    -><init>()V
+    invoke-direct {p0}, Landroid/graphics/Matrix;-><init>()V
     return-void
 .end method
 
@@ -38,8 +37,7 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -50,8 +48,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
 
     .line 2
     .line 3
@@ -65,8 +62,7 @@
     .locals 0
 
     .line 2
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
 
     const/4 p1, 0x0
 
@@ -77,8 +73,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
 
     const/4 p1, 0x0
 
@@ -89,8 +84,7 @@
     .locals 0
 
     .line 2
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
 
     const/4 p1, 0x0
 
@@ -101,8 +95,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
 
     const/4 p1, 0x0
 
@@ -113,8 +106,7 @@
     .locals 0
 
     .line 2
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
 
     const/4 p1, 0x0
 
@@ -125,8 +117,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
 
     const/4 p1, 0x0
 
@@ -137,8 +128,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
 
     .line 2
     .line 3
@@ -152,8 +142,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
 
     .line 2
     .line 3
@@ -167,8 +156,7 @@
     .locals 0
 
     .line 2
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
 
     const/4 p1, 0x0
 
@@ -179,8 +167,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
 
     const/4 p1, 0x0
 
@@ -191,8 +178,7 @@
     .locals 0
 
     .line 2
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
 
     const/4 p1, 0x0
 
@@ -203,8 +189,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
 
     const/4 p1, 0x0
 
@@ -215,8 +200,7 @@
     .locals 0
 
     .line 2
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
 
     const/4 p1, 0x0
 
@@ -227,8 +211,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
 
     const/4 p1, 0x0
 
@@ -239,8 +222,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
 
     .line 2
     .line 3
@@ -254,8 +236,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
     return-void
 .end method
 
@@ -263,8 +244,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
     return-void
 .end method
 
@@ -272,8 +252,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
 
     .line 2
     .line 3
@@ -287,8 +266,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
 
     .line 2
     .line 3
@@ -302,8 +280,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
 
     .line 2
     .line 3
@@ -317,8 +294,7 @@
     .locals 0
 
     .line 2
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
     return-void
 .end method
 
@@ -326,8 +302,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
     return-void
 .end method
 
@@ -335,8 +310,7 @@
     .locals 0
 
     .line 2
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
     return-void
 .end method
 
@@ -344,8 +318,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
     return-void
 .end method
 
@@ -353,8 +326,7 @@
     .locals 0
 
     .line 2
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
     return-void
 .end method
 
@@ -362,8 +334,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
     return-void
 .end method
 
@@ -371,8 +342,7 @@
     .locals 0
 
     .line 2
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
     return-void
 .end method
 
@@ -380,8 +350,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
     return-void
 .end method
 
@@ -389,8 +358,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
     return-void
 .end method
 
@@ -398,8 +366,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;
-    ->oops()V
+    invoke-virtual {p0}, Landroidx/transition/MatrixUtils$1;->oops()V
     return-void
 .end method
 

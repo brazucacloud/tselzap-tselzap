@@ -10,8 +10,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -28,8 +27,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, p1, v1}, Lcom/google/android/gms/common/internal/BinderWrapper;
-    -><init>(Landroid/os/Parcel;Lcom/google/android/gms/common/internal/zzi;)V
+    invoke-direct {v0, p1, v1}, Lcom/google/android/gms/common/internal/BinderWrapper;-><init>(Landroid/os/Parcel;Lcom/google/android/gms/common/internal/zzi;)V
 
     .line 5
     .line 6

@@ -22,8 +22,7 @@
     .locals 3
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -35,14 +34,12 @@
     const/4 v1, 0x1
 
     .line 7
-    invoke-direct {v0, v1}, Landroid/text/TextPaint;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Landroid/text/TextPaint;-><init>(I)V
 
     .line 8
     .line 9
     .line 10
-    iput-object v0, p0, Lo0/A;
-    ->a:Landroid/text/TextPaint;
+    iput-object v0, p0, Lo0/A;->a:Landroid/text/TextPaint;
 
     .line 11
     .line 12
@@ -53,19 +50,16 @@
     const/4 v2, 0x1
 
     .line 15
-    invoke-direct {v0, p0, v2}, Li0/a;
-    -><init>(Ljava/lang/Object;I)V
+    invoke-direct {v0, p0, v2}, Li0/a;-><init>(Ljava/lang/Object;I)V
 
     .line 16
     .line 17
     .line 18
-    iput-object v0, p0, Lo0/A;
-    ->b:Li0/a;
+    iput-object v0, p0, Lo0/A;->b:Li0/a;
 
     .line 19
     .line 20
-    iput-boolean v1, p0, Lo0/A;
-    ->d:Z
+    iput-boolean v1, p0, Lo0/A;->d:Z
 
     .line 21
     .line 22
@@ -76,14 +70,12 @@
     const/4 v1, 0x0
 
     .line 25
-    invoke-direct {v0, v1}, Ljava/lang/ref/WeakReference;
-    -><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, v1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     .line 26
     .line 27
     .line 28
-    iput-object v0, p0, Lo0/A;
-    ->e:Ljava/lang/ref/WeakReference;
+    iput-object v0, p0, Lo0/A;->e:Ljava/lang/ref/WeakReference;
 
     .line 29
     .line 30
@@ -91,14 +83,12 @@
 
     .line 31
     .line 32
-    invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;
-    -><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     .line 33
     .line 34
     .line 35
-    iput-object v0, p0, Lo0/A;
-    ->e:Ljava/lang/ref/WeakReference;
+    iput-object v0, p0, Lo0/A;->e:Ljava/lang/ref/WeakReference;
 
     .line 36
     .line 37
@@ -111,8 +101,7 @@
     .locals 3
 
     .line 1
-    iget-boolean v0, p0, Lo0/A;
-    ->d:Z
+    iget-boolean v0, p0, Lo0/A;->d:Z
 
     .line 2
     .line 3
@@ -120,8 +109,7 @@
 
     .line 4
     .line 5
-    iget p1, p0, Lo0/A;
-    ->c:F
+    iget p1, p0, Lo0/A;->c:F
 
     .line 6
     .line 7
@@ -129,8 +117,7 @@
 
     .line 8
     :cond_0
-    iget-object v0, p0, Lo0/A;
-    ->a:Landroid/text/TextPaint;
+    iget-object v0, p0, Lo0/A;->a:Landroid/text/TextPaint;
 
     .line 9
     .line 10
@@ -148,8 +135,7 @@
 
     .line 15
     :cond_1
-    invoke-virtual {p1}, Ljava/lang/String;
-    ->length()I
+    invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     .line 16
     .line 17
@@ -157,8 +143,7 @@
     move-result v2
 
     .line 19
-    invoke-virtual {v0, p1, v1, v2}, Landroid/graphics/Paint;
-    ->measureText(Ljava/lang/CharSequence;II)F
+    invoke-virtual {v0, p1, v1, v2}, Landroid/graphics/Paint;->measureText(Ljava/lang/CharSequence;II)F
 
     .line 20
     .line 21
@@ -167,8 +152,7 @@
 
     .line 23
     :goto_0
-    iput v2, p0, Lo0/A;
-    ->c:F
+    iput v2, p0, Lo0/A;->c:F
 
     .line 24
     .line 25
@@ -180,8 +164,7 @@
 
     .line 28
     :cond_2
-    invoke-virtual {v0}, Landroid/graphics/Paint;
-    ->getFontMetrics()Landroid/graphics/Paint$FontMetrics;
+    invoke-virtual {v0}, Landroid/graphics/Paint;->getFontMetrics()Landroid/graphics/Paint$FontMetrics;
 
     .line 29
     .line 30
@@ -189,25 +172,21 @@
     move-result-object p1
 
     .line 32
-    iget p1, p1, Landroid/graphics/Paint$FontMetrics;
-    ->ascent:F
+    iget p1, p1, Landroid/graphics/Paint$FontMetrics;->ascent:F
 
     .line 33
     .line 34
-    invoke-static {p1}, Ljava/lang/Math;
-    ->abs(F)F
+    invoke-static {p1}, Ljava/lang/Math;->abs(F)F
 
     .line 35
     .line 36
     .line 37
     :goto_1
-    iput-boolean v1, p0, Lo0/A;
-    ->d:Z
+    iput-boolean v1, p0, Lo0/A;->d:Z
 
     .line 38
     .line 39
-    iget p1, p0, Lo0/A;
-    ->c:F
+    iget p1, p0, Lo0/A;->c:F
 
     .line 40
     .line 41

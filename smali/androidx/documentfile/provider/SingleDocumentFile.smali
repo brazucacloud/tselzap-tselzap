@@ -24,19 +24,16 @@
     .end param
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/documentfile/provider/DocumentFile;
-    -><init>(Landroidx/documentfile/provider/DocumentFile;)V
+    invoke-direct {p0, p1}, Landroidx/documentfile/provider/DocumentFile;-><init>(Landroidx/documentfile/provider/DocumentFile;)V
 
     .line 2
     .line 3
     .line 4
-    iput-object p2, p0, Landroidx/documentfile/provider/SingleDocumentFile;
-    ->mContext:Landroid/content/Context;
+    iput-object p2, p0, Landroidx/documentfile/provider/SingleDocumentFile;->mContext:Landroid/content/Context;
 
     .line 5
     .line 6
-    iput-object p3, p0, Landroidx/documentfile/provider/SingleDocumentFile;
-    ->mUri:Landroid/net/Uri;    
+    iput-object p3, p0, Landroidx/documentfile/provider/SingleDocumentFile;->mUri:Landroid/net/Uri;
     return-void
 .end method
 
@@ -46,18 +43,15 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/documentfile/provider/SingleDocumentFile;
-    ->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/documentfile/provider/SingleDocumentFile;->mContext:Landroid/content/Context;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/documentfile/provider/SingleDocumentFile;
-    ->mUri:Landroid/net/Uri;
+    iget-object v1, p0, Landroidx/documentfile/provider/SingleDocumentFile;->mUri:Landroid/net/Uri;
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Landroidx/documentfile/provider/DocumentsContractApi19;
-    ->canRead(Landroid/content/Context;Landroid/net/Uri;)Z
+    invoke-static {v0, v1}, Landroidx/documentfile/provider/DocumentsContractApi19;->canRead(Landroid/content/Context;Landroid/net/Uri;)Z
 
     .line 6
     .line 7
@@ -71,18 +65,15 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/documentfile/provider/SingleDocumentFile;
-    ->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/documentfile/provider/SingleDocumentFile;->mContext:Landroid/content/Context;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/documentfile/provider/SingleDocumentFile;
-    ->mUri:Landroid/net/Uri;
+    iget-object v1, p0, Landroidx/documentfile/provider/SingleDocumentFile;->mUri:Landroid/net/Uri;
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Landroidx/documentfile/provider/DocumentsContractApi19;
-    ->canWrite(Landroid/content/Context;Landroid/net/Uri;)Z
+    invoke-static {v0, v1}, Landroidx/documentfile/provider/DocumentsContractApi19;->canWrite(Landroid/content/Context;Landroid/net/Uri;)Z
 
     .line 6
     .line 7
@@ -100,8 +91,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     .line 4
     .line 5
@@ -116,8 +106,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     .line 4
     .line 5
@@ -129,13 +118,11 @@
 
     .line 1
     :try_start_0
-    iget-object v0, p0, Landroidx/documentfile/provider/SingleDocumentFile;
-    ->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/documentfile/provider/SingleDocumentFile;->mContext:Landroid/content/Context;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/content/Context;
-    ->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     .line 4
     .line 5
@@ -143,13 +130,11 @@
     move-result-object v0
 
     .line 7
-    iget-object v1, p0, Landroidx/documentfile/provider/SingleDocumentFile;
-    ->mUri:Landroid/net/Uri;
+    iget-object v1, p0, Landroidx/documentfile/provider/SingleDocumentFile;->mUri:Landroid/net/Uri;
 
     .line 8
     .line 9
-    invoke-static {v0, v1}, Landroid/provider/DocumentsContract;
-    ->deleteDocument(Landroid/content/ContentResolver;Landroid/net/Uri;)Z
+    invoke-static {v0, v1}, Landroid/provider/DocumentsContract;->deleteDocument(Landroid/content/ContentResolver;Landroid/net/Uri;)Z
 
     .line 10
     .line 11
@@ -171,18 +156,15 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/documentfile/provider/SingleDocumentFile;
-    ->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/documentfile/provider/SingleDocumentFile;->mContext:Landroid/content/Context;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/documentfile/provider/SingleDocumentFile;
-    ->mUri:Landroid/net/Uri;
+    iget-object v1, p0, Landroidx/documentfile/provider/SingleDocumentFile;->mUri:Landroid/net/Uri;
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Landroidx/documentfile/provider/DocumentsContractApi19;
-    ->exists(Landroid/content/Context;Landroid/net/Uri;)Z
+    invoke-static {v0, v1}, Landroidx/documentfile/provider/DocumentsContractApi19;->exists(Landroid/content/Context;Landroid/net/Uri;)Z
 
     .line 6
     .line 7
@@ -198,18 +180,15 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/documentfile/provider/SingleDocumentFile;
-    ->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/documentfile/provider/SingleDocumentFile;->mContext:Landroid/content/Context;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/documentfile/provider/SingleDocumentFile;
-    ->mUri:Landroid/net/Uri;
+    iget-object v1, p0, Landroidx/documentfile/provider/SingleDocumentFile;->mUri:Landroid/net/Uri;
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Landroidx/documentfile/provider/DocumentsContractApi19;
-    ->getName(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
+    invoke-static {v0, v1}, Landroidx/documentfile/provider/DocumentsContractApi19;->getName(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
 
     .line 6
     .line 7
@@ -225,18 +204,15 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/documentfile/provider/SingleDocumentFile;
-    ->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/documentfile/provider/SingleDocumentFile;->mContext:Landroid/content/Context;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/documentfile/provider/SingleDocumentFile;
-    ->mUri:Landroid/net/Uri;
+    iget-object v1, p0, Landroidx/documentfile/provider/SingleDocumentFile;->mUri:Landroid/net/Uri;
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Landroidx/documentfile/provider/DocumentsContractApi19;
-    ->getType(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
+    invoke-static {v0, v1}, Landroidx/documentfile/provider/DocumentsContractApi19;->getType(Landroid/content/Context;Landroid/net/Uri;)Ljava/lang/String;
 
     .line 6
     .line 7
@@ -250,26 +226,22 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/documentfile/provider/SingleDocumentFile;
-    ->mUri:Landroid/net/Uri;    return-object v0
+    iget-object v0, p0, Landroidx/documentfile/provider/SingleDocumentFile;->mUri:Landroid/net/Uri;    return-object v0
 .end method
 
 .method public isDirectory()Z
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/documentfile/provider/SingleDocumentFile;
-    ->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/documentfile/provider/SingleDocumentFile;->mContext:Landroid/content/Context;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/documentfile/provider/SingleDocumentFile;
-    ->mUri:Landroid/net/Uri;
+    iget-object v1, p0, Landroidx/documentfile/provider/SingleDocumentFile;->mUri:Landroid/net/Uri;
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Landroidx/documentfile/provider/DocumentsContractApi19;
-    ->isDirectory(Landroid/content/Context;Landroid/net/Uri;)Z
+    invoke-static {v0, v1}, Landroidx/documentfile/provider/DocumentsContractApi19;->isDirectory(Landroid/content/Context;Landroid/net/Uri;)Z
 
     .line 6
     .line 7
@@ -283,18 +255,15 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/documentfile/provider/SingleDocumentFile;
-    ->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/documentfile/provider/SingleDocumentFile;->mContext:Landroid/content/Context;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/documentfile/provider/SingleDocumentFile;
-    ->mUri:Landroid/net/Uri;
+    iget-object v1, p0, Landroidx/documentfile/provider/SingleDocumentFile;->mUri:Landroid/net/Uri;
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Landroidx/documentfile/provider/DocumentsContractApi19;
-    ->isFile(Landroid/content/Context;Landroid/net/Uri;)Z
+    invoke-static {v0, v1}, Landroidx/documentfile/provider/DocumentsContractApi19;->isFile(Landroid/content/Context;Landroid/net/Uri;)Z
 
     .line 6
     .line 7
@@ -308,18 +277,15 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/documentfile/provider/SingleDocumentFile;
-    ->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/documentfile/provider/SingleDocumentFile;->mContext:Landroid/content/Context;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/documentfile/provider/SingleDocumentFile;
-    ->mUri:Landroid/net/Uri;
+    iget-object v1, p0, Landroidx/documentfile/provider/SingleDocumentFile;->mUri:Landroid/net/Uri;
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Landroidx/documentfile/provider/DocumentsContractApi19;
-    ->isVirtual(Landroid/content/Context;Landroid/net/Uri;)Z
+    invoke-static {v0, v1}, Landroidx/documentfile/provider/DocumentsContractApi19;->isVirtual(Landroid/content/Context;Landroid/net/Uri;)Z
 
     .line 6
     .line 7
@@ -333,18 +299,15 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/documentfile/provider/SingleDocumentFile;
-    ->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/documentfile/provider/SingleDocumentFile;->mContext:Landroid/content/Context;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/documentfile/provider/SingleDocumentFile;
-    ->mUri:Landroid/net/Uri;
+    iget-object v1, p0, Landroidx/documentfile/provider/SingleDocumentFile;->mUri:Landroid/net/Uri;
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Landroidx/documentfile/provider/DocumentsContractApi19;
-    ->lastModified(Landroid/content/Context;Landroid/net/Uri;)J
+    invoke-static {v0, v1}, Landroidx/documentfile/provider/DocumentsContractApi19;->lastModified(Landroid/content/Context;Landroid/net/Uri;)J
 
     .line 6
     .line 7
@@ -358,18 +321,15 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/documentfile/provider/SingleDocumentFile;
-    ->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/documentfile/provider/SingleDocumentFile;->mContext:Landroid/content/Context;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/documentfile/provider/SingleDocumentFile;
-    ->mUri:Landroid/net/Uri;
+    iget-object v1, p0, Landroidx/documentfile/provider/SingleDocumentFile;->mUri:Landroid/net/Uri;
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Landroidx/documentfile/provider/DocumentsContractApi19;
-    ->length(Landroid/content/Context;Landroid/net/Uri;)J
+    invoke-static {v0, v1}, Landroidx/documentfile/provider/DocumentsContractApi19;->length(Landroid/content/Context;Landroid/net/Uri;)J
 
     .line 6
     .line 7
@@ -387,8 +347,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     .line 4
     .line 5
@@ -403,8 +362,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     .line 4
     .line 5

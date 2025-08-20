@@ -31,8 +31,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -42,14 +41,12 @@
     .locals 1
 
     .line 2
-    invoke-static {p1}, Landroidx/core/view/ViewCompat;
-    ->getZ(Landroid/view/View;)F
+    invoke-static {p1}, Landroidx/core/view/ViewCompat;->getZ(Landroid/view/View;)F
 
     move-result p1
 
     .line 3
-    invoke-static {p2}, Landroidx/core/view/ViewCompat;
-    ->getZ(Landroid/view/View;)F
+    invoke-static {p2}, Landroidx/core/view/ViewCompat;->getZ(Landroid/view/View;)F
 
     move-result p2
 
@@ -84,8 +81,7 @@
 
     check-cast p2, Landroid/view/View;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/coordinatorlayout/widget/CoordinatorLayout$ViewElevationComparator;
-    ->compare(Landroid/view/View;Landroid/view/View;)I
+    invoke-virtual {p0, p1, p2}, Landroidx/coordinatorlayout/widget/CoordinatorLayout$ViewElevationComparator;->compare(Landroid/view/View;Landroid/view/View;)I
 
     move-result p1
 

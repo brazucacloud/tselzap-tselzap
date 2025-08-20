@@ -43,8 +43,7 @@
     move-result-object v1
 
     .line 13
-    invoke-static {v1}, Ljava/util/Arrays;
-    ->asList([Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {v1}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     .line 14
     .line 15
@@ -52,14 +51,12 @@
     move-result-object v1
 
     .line 17
-    invoke-direct {v0, v1}, Ljava/util/HashSet;
-    -><init>(Ljava/util/Collection;)V
+    invoke-direct {v0, v1}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
 
     .line 18
     .line 19
     .line 20
-    invoke-static {v0}, Ljava/util/Collections;
-    ->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
+    invoke-static {v0}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
 
     .line 21
     .line 22
@@ -67,8 +64,7 @@
     move-result-object v0
 
     .line 24
-    sput-object v0, Lo/C;
-    ->b:Ljava/util/Set;
+    sput-object v0, Lo/C;->b:Ljava/util/Set;
 
     .line 25
     .line 26
@@ -79,14 +75,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lo/C;
-    ->a:Ljava/lang/Object;
+    iput-object p1, p0, Lo/C;->a:Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -103,13 +97,11 @@
 
     .line 2
     .line 3
-    sget-object v0, Lo/C;
-    ->b:Ljava/util/Set;
+    sget-object v0, Lo/C;->b:Ljava/util/Set;
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Landroid/net/Uri;
-    ->getScheme()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/net/Uri;->getScheme()Ljava/lang/String;
 
     .line 6
     .line 7
@@ -117,8 +109,7 @@
     move-result-object p1
 
     .line 9
-    invoke-interface {v0, p1}, Ljava/util/Set;
-    ->contains(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
 
     .line 10
     .line 11
@@ -144,14 +135,12 @@
 
     .line 6
     .line 7
-    invoke-direct {p3, p1}, LD/b;
-    -><init>(Ljava/lang/Object;)V
+    invoke-direct {p3, p1}, LD/b;-><init>(Ljava/lang/Object;)V
 
     .line 8
     .line 9
     .line 10
-    iget-object p4, p0, Lo/C;
-    ->a:Ljava/lang/Object;
+    iget-object p4, p0, Lo/C;->a:Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -159,8 +148,7 @@
 
     .line 13
     .line 14
-    iget v0, p4, Lo/B;
-    ->b:I
+    iget v0, p4, Lo/B;->b:I
 
     .line 15
     .line 16
@@ -173,16 +161,14 @@
 
     .line 20
     .line 21
-    iget-object p4, p4, Lo/B;
-    ->c:Landroid/content/ContentResolver;
+    iget-object p4, p4, Lo/B;->c:Landroid/content/ContentResolver;
 
     .line 22
     .line 23
     const/4 v1, 0x1
 
     .line 24
-    invoke-direct {v0, v1, p1, p4}, Lcom/bumptech/glide/load/data/b;
-    -><init>(ILjava/lang/Comparable;Ljava/lang/Object;)V
+    invoke-direct {v0, v1, p1, p4}, Lcom/bumptech/glide/load/data/b;-><init>(ILjava/lang/Comparable;Ljava/lang/Object;)V
 
     .line 25
     .line 26
@@ -195,16 +181,14 @@
 
     .line 29
     .line 30
-    iget-object p4, p4, Lo/B;
-    ->c:Landroid/content/ContentResolver;
+    iget-object p4, p4, Lo/B;->c:Landroid/content/ContentResolver;
 
     .line 31
     .line 32
     const/4 v1, 0x1
 
     .line 33
-    invoke-direct {v0, p4, p1, v1}, Lcom/bumptech/glide/load/data/a;
-    -><init>(Landroid/content/ContentResolver;Landroid/net/Uri;I)V
+    invoke-direct {v0, p4, p1, v1}, Lcom/bumptech/glide/load/data/a;-><init>(Landroid/content/ContentResolver;Landroid/net/Uri;I)V
 
     .line 34
     .line 35
@@ -217,23 +201,20 @@
 
     .line 38
     .line 39
-    iget-object p4, p4, Lo/B;
-    ->c:Landroid/content/ContentResolver;
+    iget-object p4, p4, Lo/B;->c:Landroid/content/ContentResolver;
 
     .line 40
     .line 41
     const/4 v1, 0x0
 
     .line 42
-    invoke-direct {v0, p4, p1, v1}, Lcom/bumptech/glide/load/data/a;
-    -><init>(Landroid/content/ContentResolver;Landroid/net/Uri;I)V
+    invoke-direct {v0, p4, p1, v1}, Lcom/bumptech/glide/load/data/a;-><init>(Landroid/content/ContentResolver;Landroid/net/Uri;I)V
 
     .line 43
     .line 44
     .line 45
     :goto_0
-    invoke-direct {p2, p3, v0}, Lo/n;
-    -><init>(Li/f;Lcom/bumptech/glide/load/data/e;)V
+    invoke-direct {p2, p3, v0}, Lo/n;-><init>(Li/f;Lcom/bumptech/glide/load/data/e;)V
 
     .line 46
     .line 47

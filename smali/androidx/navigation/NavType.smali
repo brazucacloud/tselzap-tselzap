@@ -209,14 +209,12 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/navigation/NavType$Companion;
-    -><init>(Lkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v1}, Landroidx/navigation/NavType$Companion;-><init>(Lkotlin/jvm/internal/e;)V
 
     .line 5
     .line 6
     .line 7
-    sput-object v0, Landroidx/navigation/NavType;
-    ->Companion:Landroidx/navigation/NavType$Companion;
+    sput-object v0, Landroidx/navigation/NavType;->Companion:Landroidx/navigation/NavType$Companion;
 
     .line 8
     .line 9
@@ -224,14 +222,12 @@
 
     .line 10
     .line 11
-    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$IntType$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$IntType$1;-><init>()V
 
     .line 12
     .line 13
     .line 14
-    sput-object v0, Landroidx/navigation/NavType;
-    ->IntType:Landroidx/navigation/NavType;
+    sput-object v0, Landroidx/navigation/NavType;->IntType:Landroidx/navigation/NavType;
 
     .line 15
     .line 16
@@ -239,14 +235,12 @@
 
     .line 17
     .line 18
-    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$ReferenceType$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$ReferenceType$1;-><init>()V
 
     .line 19
     .line 20
     .line 21
-    sput-object v0, Landroidx/navigation/NavType;
-    ->ReferenceType:Landroidx/navigation/NavType;
+    sput-object v0, Landroidx/navigation/NavType;->ReferenceType:Landroidx/navigation/NavType;
 
     .line 22
     .line 23
@@ -254,14 +248,12 @@
 
     .line 24
     .line 25
-    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$IntArrayType$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$IntArrayType$1;-><init>()V
 
     .line 26
     .line 27
     .line 28
-    sput-object v0, Landroidx/navigation/NavType;
-    ->IntArrayType:Landroidx/navigation/NavType;
+    sput-object v0, Landroidx/navigation/NavType;->IntArrayType:Landroidx/navigation/NavType;
 
     .line 29
     .line 30
@@ -269,14 +261,12 @@
 
     .line 31
     .line 32
-    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$IntListType$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$IntListType$1;-><init>()V
 
     .line 33
     .line 34
     .line 35
-    sput-object v0, Landroidx/navigation/NavType;
-    ->IntListType:Landroidx/navigation/NavType;
+    sput-object v0, Landroidx/navigation/NavType;->IntListType:Landroidx/navigation/NavType;
 
     .line 36
     .line 37
@@ -284,14 +274,12 @@
 
     .line 38
     .line 39
-    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$LongType$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$LongType$1;-><init>()V
 
     .line 40
     .line 41
     .line 42
-    sput-object v0, Landroidx/navigation/NavType;
-    ->LongType:Landroidx/navigation/NavType;
+    sput-object v0, Landroidx/navigation/NavType;->LongType:Landroidx/navigation/NavType;
 
     .line 43
     .line 44
@@ -299,14 +287,12 @@
 
     .line 45
     .line 46
-    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$LongArrayType$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$LongArrayType$1;-><init>()V
 
     .line 47
     .line 48
     .line 49
-    sput-object v0, Landroidx/navigation/NavType;
-    ->LongArrayType:Landroidx/navigation/NavType;
+    sput-object v0, Landroidx/navigation/NavType;->LongArrayType:Landroidx/navigation/NavType;
 
     .line 50
     .line 51
@@ -314,14 +300,12 @@
 
     .line 52
     .line 53
-    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$LongListType$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$LongListType$1;-><init>()V
 
     .line 54
     .line 55
     .line 56
-    sput-object v0, Landroidx/navigation/NavType;
-    ->LongListType:Landroidx/navigation/NavType;
+    sput-object v0, Landroidx/navigation/NavType;->LongListType:Landroidx/navigation/NavType;
 
     .line 57
     .line 58
@@ -329,14 +313,12 @@
 
     .line 59
     .line 60
-    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$FloatType$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$FloatType$1;-><init>()V
 
     .line 61
     .line 62
     .line 63
-    sput-object v0, Landroidx/navigation/NavType;
-    ->FloatType:Landroidx/navigation/NavType;
+    sput-object v0, Landroidx/navigation/NavType;->FloatType:Landroidx/navigation/NavType;
 
     .line 64
     .line 65
@@ -344,14 +326,12 @@
 
     .line 66
     .line 67
-    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$FloatArrayType$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$FloatArrayType$1;-><init>()V
 
     .line 68
     .line 69
     .line 70
-    sput-object v0, Landroidx/navigation/NavType;
-    ->FloatArrayType:Landroidx/navigation/NavType;
+    sput-object v0, Landroidx/navigation/NavType;->FloatArrayType:Landroidx/navigation/NavType;
 
     .line 71
     .line 72
@@ -359,14 +339,12 @@
 
     .line 73
     .line 74
-    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$FloatListType$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$FloatListType$1;-><init>()V
 
     .line 75
     .line 76
     .line 77
-    sput-object v0, Landroidx/navigation/NavType;
-    ->FloatListType:Landroidx/navigation/NavType;
+    sput-object v0, Landroidx/navigation/NavType;->FloatListType:Landroidx/navigation/NavType;
 
     .line 78
     .line 79
@@ -374,14 +352,12 @@
 
     .line 80
     .line 81
-    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$BoolType$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$BoolType$1;-><init>()V
 
     .line 82
     .line 83
     .line 84
-    sput-object v0, Landroidx/navigation/NavType;
-    ->BoolType:Landroidx/navigation/NavType;
+    sput-object v0, Landroidx/navigation/NavType;->BoolType:Landroidx/navigation/NavType;
 
     .line 85
     .line 86
@@ -389,14 +365,12 @@
 
     .line 87
     .line 88
-    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$BoolArrayType$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$BoolArrayType$1;-><init>()V
 
     .line 89
     .line 90
     .line 91
-    sput-object v0, Landroidx/navigation/NavType;
-    ->BoolArrayType:Landroidx/navigation/NavType;
+    sput-object v0, Landroidx/navigation/NavType;->BoolArrayType:Landroidx/navigation/NavType;
 
     .line 92
     .line 93
@@ -404,14 +378,12 @@
 
     .line 94
     .line 95
-    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$BoolListType$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$BoolListType$1;-><init>()V
 
     .line 96
     .line 97
     .line 98
-    sput-object v0, Landroidx/navigation/NavType;
-    ->BoolListType:Landroidx/navigation/NavType;
+    sput-object v0, Landroidx/navigation/NavType;->BoolListType:Landroidx/navigation/NavType;
 
     .line 99
     .line 100
@@ -419,14 +391,12 @@
 
     .line 101
     .line 102
-    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$StringType$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$StringType$1;-><init>()V
 
     .line 103
     .line 104
     .line 105
-    sput-object v0, Landroidx/navigation/NavType;
-    ->StringType:Landroidx/navigation/NavType;
+    sput-object v0, Landroidx/navigation/NavType;->StringType:Landroidx/navigation/NavType;
 
     .line 106
     .line 107
@@ -434,14 +404,12 @@
 
     .line 108
     .line 109
-    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$StringArrayType$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$StringArrayType$1;-><init>()V
 
     .line 110
     .line 111
     .line 112
-    sput-object v0, Landroidx/navigation/NavType;
-    ->StringArrayType:Landroidx/navigation/NavType;
+    sput-object v0, Landroidx/navigation/NavType;->StringArrayType:Landroidx/navigation/NavType;
 
     .line 113
     .line 114
@@ -449,28 +417,24 @@
 
     .line 115
     .line 116
-    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$StringListType$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/navigation/NavType$Companion$StringListType$1;-><init>()V
 
     .line 117
     .line 118
     .line 119
-    sput-object v0, Landroidx/navigation/NavType;
-    ->StringListType:Landroidx/navigation/NavType;    return-void
+    sput-object v0, Landroidx/navigation/NavType;->StringListType:Landroidx/navigation/NavType;    return-void
 .end method
 
 .method public constructor <init>(Z)V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-boolean p1, p0, Landroidx/navigation/NavType;
-    ->isNullableAllowed:Z
+    iput-boolean p1, p0, Landroidx/navigation/NavType;->isNullableAllowed:Z
 
     .line 5
     .line 6
@@ -478,8 +442,7 @@
 
     .line 7
     .line 8
-    iput-object p1, p0, Landroidx/navigation/NavType;
-    ->name:Ljava/lang/String;    
+    iput-object p1, p0, Landroidx/navigation/NavType;->name:Ljava/lang/String;
     return-void
 .end method
 
@@ -496,11 +459,9 @@
         }
     .end annotation
 
-    sget-object v0, Landroidx/navigation/NavType;
-    ->Companion:Landroidx/navigation/NavType$Companion;
+    sget-object v0, Landroidx/navigation/NavType;->Companion:Landroidx/navigation/NavType$Companion;
 
-    invoke-virtual {v0, p0, p1}, Landroidx/navigation/NavType$Companion;
-    ->fromArgType(Ljava/lang/String;Ljava/lang/String;)Landroidx/navigation/NavType;
+    invoke-virtual {v0, p0, p1}, Landroidx/navigation/NavType$Companion;->fromArgType(Ljava/lang/String;Ljava/lang/String;)Landroidx/navigation/NavType;
 
     move-result-object p0
 
@@ -511,8 +472,7 @@
     .locals 1
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -527,11 +487,9 @@
         }
     .end annotation
 
-    sget-object v0, Landroidx/navigation/NavType;
-    ->Companion:Landroidx/navigation/NavType$Companion;
+    sget-object v0, Landroidx/navigation/NavType;->Companion:Landroidx/navigation/NavType$Companion;
 
-    invoke-virtual {v0, p0}, Landroidx/navigation/NavType$Companion;
-    ->inferFromValue(Ljava/lang/String;)Landroidx/navigation/NavType;
+    invoke-virtual {v0, p0}, Landroidx/navigation/NavType$Companion;->inferFromValue(Ljava/lang/String;)Landroidx/navigation/NavType;
 
     move-result-object p0
 
@@ -542,8 +500,7 @@
     .locals 1
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -558,11 +515,9 @@
         }
     .end annotation
 
-    sget-object v0, Landroidx/navigation/NavType;
-    ->Companion:Landroidx/navigation/NavType$Companion;
+    sget-object v0, Landroidx/navigation/NavType;->Companion:Landroidx/navigation/NavType$Companion;
 
-    invoke-virtual {v0, p0}, Landroidx/navigation/NavType$Companion;
-    ->inferFromValueType(Ljava/lang/Object;)Landroidx/navigation/NavType;
+    invoke-virtual {v0, p0}, Landroidx/navigation/NavType$Companion;->inferFromValueType(Ljava/lang/Object;)Landroidx/navigation/NavType;
 
     move-result-object p0
 
@@ -586,24 +541,21 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavType;
-    ->name:Ljava/lang/String;    return-object v0
+    iget-object v0, p0, Landroidx/navigation/NavType;->name:Ljava/lang/String;    return-object v0
 .end method
 
 .method public isNullableAllowed()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/navigation/NavType;
-    ->isNullableAllowed:Z    return v0
+    iget-boolean v0, p0, Landroidx/navigation/NavType;->isNullableAllowed:Z    return v0
 .end method
 
 .method public final parseAndPut(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
     .locals 1
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -619,28 +571,23 @@
 
     const-string v0, "bundle"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "key"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "value"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p0, p3}, Landroidx/navigation/NavType;
-    ->parseValue(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, p3}, Landroidx/navigation/NavType;->parseValue(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p3
 
     .line 2
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/NavType;
-    ->put(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/NavType;->put(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/Object;)V
 return-object p3
 .end method
 
@@ -648,8 +595,7 @@ return-object p3
     .locals 1
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -665,17 +611,14 @@ return-object p3
 
     const-string v0, "bundle"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "key"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
-    invoke-virtual {p1, p2}, Landroid/os/BaseBundle;
-    ->containsKey(Ljava/lang/String;)Z
+    invoke-virtual {p1, p2}, Landroid/os/BaseBundle;->containsKey(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -684,14 +627,12 @@ return-object p3
     if-eqz p3, :cond_0
 
     .line 4
-    invoke-virtual {p0, p3, p4}, Landroidx/navigation/NavType;
-    ->parseValue(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, p3, p4}, Landroidx/navigation/NavType;->parseValue(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p3
 
     .line 5
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/NavType;
-    ->put(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/NavType;->put(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/Object;)V
 return-object p3
 
     :cond_0
@@ -703,8 +644,7 @@ return-object p3
 
     const-string p2, "There is no previous value in this bundle."
 
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -731,12 +671,10 @@ return-object p3
 
     const-string p2, "value"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/navigation/NavType;
-    ->parseValue(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Landroidx/navigation/NavType;->parseValue(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -764,8 +702,7 @@ return-object p3
     .end annotation
 
     .line 1
-    invoke-static {p1}, Ljava/lang/String;
-    ->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     .line 2
     .line 3
@@ -779,8 +716,7 @@ return-object p3
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/navigation/NavType;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/navigation/NavType;->getName()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -799,8 +735,7 @@ return-object p3
     .end annotation
 
     .line 1
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 2
     .line 3

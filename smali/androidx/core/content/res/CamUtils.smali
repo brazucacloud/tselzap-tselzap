@@ -73,8 +73,7 @@
 
     .line 27
     .line 28
-    sput-object v4, Landroidx/core/content/res/CamUtils;
-    ->XYZ_TO_CAM16RGB:[[F
+    sput-object v4, Landroidx/core/content/res/CamUtils;->XYZ_TO_CAM16RGB:[[F
 
     .line 29
     .line 30
@@ -121,8 +120,7 @@
 
     .line 52
     .line 53
-    sput-object v7, Landroidx/core/content/res/CamUtils;
-    ->CAM16RGB_TO_XYZ:[[F
+    sput-object v7, Landroidx/core/content/res/CamUtils;->CAM16RGB_TO_XYZ:[[F
 
     .line 54
     .line 55
@@ -135,8 +133,7 @@
     .line 58
     .line 59
     .line 60
-    sput-object v3, Landroidx/core/content/res/CamUtils;
-    ->WHITE_POINT_D65:[F
+    sput-object v3, Landroidx/core/content/res/CamUtils;->WHITE_POINT_D65:[F
 
     .line 61
     .line 62
@@ -183,8 +180,7 @@
 
     .line 84
     .line 85
-    sput-object v0, Landroidx/core/content/res/CamUtils;
-    ->SRGB_TO_XYZ:[[F
+    sput-object v0, Landroidx/core/content/res/CamUtils;->SRGB_TO_XYZ:[[F
 
     .line 86
     .line 87
@@ -521,8 +517,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -700,8 +695,7 @@
     .line 71
     .line 72
     :goto_3
-    sget-object v0, Landroidx/core/content/res/CamUtils;
-    ->WHITE_POINT_D65:[F
+    sget-object v0, Landroidx/core/content/res/CamUtils;->WHITE_POINT_D65:[F
 
     .line 73
     .line 74
@@ -741,8 +735,7 @@
     float-to-double v13, v3
 
     .line 90
-    invoke-static/range {v9 .. v14}, Landroidx/core/graphics/ColorUtils;
-    ->XYZToColor(DDD)I
+    invoke-static/range {v9 .. v14}, Landroidx/core/graphics/ColorUtils;->XYZToColor(DDD)I
 
     .line 91
     .line 92
@@ -756,8 +749,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/content/res/CamUtils;
-    ->yFromInt(I)F
+    invoke-static {p0}, Landroidx/core/content/res/CamUtils;->yFromInt(I)F
 
     .line 2
     .line 3
@@ -765,8 +757,7 @@
     move-result p0
 
     .line 5
-    invoke-static {p0}, Landroidx/core/content/res/CamUtils;
-    ->lStarFromY(F)F
+    invoke-static {p0}, Landroidx/core/content/res/CamUtils;->lStarFromY(F)F
 
     .line 6
     .line 7
@@ -816,8 +807,7 @@
     float-to-double v0, p0
 
     .line 18
-    invoke-static {v0, v1}, Ljava/lang/Math;
-    ->cbrt(D)D
+    invoke-static {v0, v1}, Ljava/lang/Math;->cbrt(D)D
 
     .line 19
     .line 20
@@ -849,8 +839,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p1, p0, p2, p0}, LA/d;
-    ->b(FFFF)F
+    invoke-static {p1, p0, p2, p0}, LA/d;->b(FFFF)F
 
     .line 2
     .line 3
@@ -934,8 +923,7 @@
     .line 33
     .line 34
     .line 35
-    invoke-static {v2, v3, v4, v5}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v2, v3, v4, v5}, Ljava/lang/Math;->pow(DD)D
 
     .line 36
     .line 37
@@ -1001,8 +989,7 @@
     .end param
 
     .line 1
-    invoke-static {p0}, Landroid/graphics/Color;
-    ->red(I)I
+    invoke-static {p0}, Landroid/graphics/Color;->red(I)I
 
     .line 2
     .line 3
@@ -1010,8 +997,7 @@
     move-result v0
 
     .line 5
-    invoke-static {v0}, Landroidx/core/content/res/CamUtils;
-    ->linearized(I)F
+    invoke-static {v0}, Landroidx/core/content/res/CamUtils;->linearized(I)F
 
     .line 6
     .line 7
@@ -1019,8 +1005,7 @@
     move-result v0
 
     .line 9
-    invoke-static {p0}, Landroid/graphics/Color;
-    ->green(I)I
+    invoke-static {p0}, Landroid/graphics/Color;->green(I)I
 
     .line 10
     .line 11
@@ -1028,8 +1013,7 @@
     move-result v1
 
     .line 13
-    invoke-static {v1}, Landroidx/core/content/res/CamUtils;
-    ->linearized(I)F
+    invoke-static {v1}, Landroidx/core/content/res/CamUtils;->linearized(I)F
 
     .line 14
     .line 15
@@ -1037,8 +1021,7 @@
     move-result v1
 
     .line 17
-    invoke-static {p0}, Landroid/graphics/Color;
-    ->blue(I)I
+    invoke-static {p0}, Landroid/graphics/Color;->blue(I)I
 
     .line 18
     .line 19
@@ -1046,8 +1029,7 @@
     move-result p0
 
     .line 21
-    invoke-static {p0}, Landroidx/core/content/res/CamUtils;
-    ->linearized(I)F
+    invoke-static {p0}, Landroidx/core/content/res/CamUtils;->linearized(I)F
 
     .line 22
     .line 23
@@ -1055,8 +1037,7 @@
     move-result p0
 
     .line 25
-    sget-object v2, Landroidx/core/content/res/CamUtils;
-    ->SRGB_TO_XYZ:[[F
+    sget-object v2, Landroidx/core/content/res/CamUtils;->SRGB_TO_XYZ:[[F
 
     .line 26
     .line 27
@@ -1190,8 +1171,7 @@
     .locals 5
 
     .line 1
-    invoke-static {p0}, Landroid/graphics/Color;
-    ->red(I)I
+    invoke-static {p0}, Landroid/graphics/Color;->red(I)I
 
     .line 2
     .line 3
@@ -1199,8 +1179,7 @@
     move-result v0
 
     .line 5
-    invoke-static {v0}, Landroidx/core/content/res/CamUtils;
-    ->linearized(I)F
+    invoke-static {v0}, Landroidx/core/content/res/CamUtils;->linearized(I)F
 
     .line 6
     .line 7
@@ -1208,8 +1187,7 @@
     move-result v0
 
     .line 9
-    invoke-static {p0}, Landroid/graphics/Color;
-    ->green(I)I
+    invoke-static {p0}, Landroid/graphics/Color;->green(I)I
 
     .line 10
     .line 11
@@ -1217,8 +1195,7 @@
     move-result v1
 
     .line 13
-    invoke-static {v1}, Landroidx/core/content/res/CamUtils;
-    ->linearized(I)F
+    invoke-static {v1}, Landroidx/core/content/res/CamUtils;->linearized(I)F
 
     .line 14
     .line 15
@@ -1226,8 +1203,7 @@
     move-result v1
 
     .line 17
-    invoke-static {p0}, Landroid/graphics/Color;
-    ->blue(I)I
+    invoke-static {p0}, Landroid/graphics/Color;->blue(I)I
 
     .line 18
     .line 19
@@ -1235,8 +1211,7 @@
     move-result p0
 
     .line 21
-    invoke-static {p0}, Landroidx/core/content/res/CamUtils;
-    ->linearized(I)F
+    invoke-static {p0}, Landroidx/core/content/res/CamUtils;->linearized(I)F
 
     .line 22
     .line 23
@@ -1244,8 +1219,7 @@
     move-result p0
 
     .line 25
-    sget-object v2, Landroidx/core/content/res/CamUtils;
-    ->SRGB_TO_XYZ:[[F
+    sget-object v2, Landroidx/core/content/res/CamUtils;->SRGB_TO_XYZ:[[F
 
     .line 26
     .line 27
@@ -1335,8 +1309,7 @@
 
     .line 17
     .line 18
-    invoke-static {v2, v3, v4, v5}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v2, v3, v4, v5}, Ljava/lang/Math;->pow(DD)D
 
     .line 19
     .line 20

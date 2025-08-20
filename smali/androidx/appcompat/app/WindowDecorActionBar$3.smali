@@ -26,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/app/WindowDecorActionBar$3;
-    ->this$0:Landroidx/appcompat/app/WindowDecorActionBar;
+    iput-object p1, p0, Landroidx/appcompat/app/WindowDecorActionBar$3;->this$0:Landroidx/appcompat/app/WindowDecorActionBar;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -42,18 +40,15 @@
     .locals 0
 
     .line 1
-    iget-object p1, p0, Landroidx/appcompat/app/WindowDecorActionBar$3;
-    ->this$0:Landroidx/appcompat/app/WindowDecorActionBar;
+    iget-object p1, p0, Landroidx/appcompat/app/WindowDecorActionBar$3;->this$0:Landroidx/appcompat/app/WindowDecorActionBar;
 
     .line 2
     .line 3
-    iget-object p1, p1, Landroidx/appcompat/app/WindowDecorActionBar;
-    ->mContainerView:Landroidx/appcompat/widget/ActionBarContainer;
+    iget-object p1, p1, Landroidx/appcompat/app/WindowDecorActionBar;->mContainerView:Landroidx/appcompat/widget/ActionBarContainer;
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getParent()Landroid/view/ViewParent;
+    invoke-virtual {p1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     .line 6
     .line 7
@@ -65,8 +60,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Landroid/view/View;
-    ->invalidate()V
+    invoke-virtual {p1}, Landroid/view/View;->invalidate()V
     return-void
 .end method
 

@@ -26,8 +26,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -36,8 +35,7 @@
 
     .line 5
     .line 6
-    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -49,13 +47,11 @@
 
     .line 11
     .line 12
-    iput-object p1, p0, Lcom/google/android/gms/common/api/BooleanResult;
-    ->zaa:Lcom/google/android/gms/common/api/Status;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/BooleanResult;->zaa:Lcom/google/android/gms/common/api/Status;
 
     .line 13
     .line 14
-    iput-boolean p2, p0, Lcom/google/android/gms/common/api/BooleanResult;
-    ->zab:Z
+    iput-boolean p2, p0, Lcom/google/android/gms/common/api/BooleanResult;->zab:Z
 
     .line 15
     .line 16
@@ -110,18 +106,15 @@
 
     .line 15
     .line 16
-    iget-object v2, p0, Lcom/google/android/gms/common/api/BooleanResult;
-    ->zaa:Lcom/google/android/gms/common/api/Status;
+    iget-object v2, p0, Lcom/google/android/gms/common/api/BooleanResult;->zaa:Lcom/google/android/gms/common/api/Status;
 
     .line 17
     .line 18
-    iget-object v3, p1, Lcom/google/android/gms/common/api/BooleanResult;
-    ->zaa:Lcom/google/android/gms/common/api/Status;
+    iget-object v3, p1, Lcom/google/android/gms/common/api/BooleanResult;->zaa:Lcom/google/android/gms/common/api/Status;
 
     .line 19
     .line 20
-    invoke-virtual {v2, v3}, Lcom/google/android/gms/common/api/Status;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v3}, Lcom/google/android/gms/common/api/Status;->equals(Ljava/lang/Object;)Z
 
     .line 21
     .line 22
@@ -133,13 +126,11 @@
 
     .line 25
     .line 26
-    iget-boolean v2, p0, Lcom/google/android/gms/common/api/BooleanResult;
-    ->zab:Z
+    iget-boolean v2, p0, Lcom/google/android/gms/common/api/BooleanResult;->zab:Z
 
     .line 27
     .line 28
-    iget-boolean p1, p1, Lcom/google/android/gms/common/api/BooleanResult;
-    ->zab:Z
+    iget-boolean p1, p1, Lcom/google/android/gms/common/api/BooleanResult;->zab:Z
 
     .line 29
     .line 30
@@ -159,8 +150,7 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    iget-object v0, p0, Lcom/google/android/gms/common/api/BooleanResult;
-    ->zaa:Lcom/google/android/gms/common/api/Status;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/BooleanResult;->zaa:Lcom/google/android/gms/common/api/Status;
 
     return-object v0
 .end method
@@ -168,8 +158,7 @@
 .method public getValue()Z
     .locals 1
 
-    iget-boolean v0, p0, Lcom/google/android/gms/common/api/BooleanResult;
-    ->zab:Z
+    iget-boolean v0, p0, Lcom/google/android/gms/common/api/BooleanResult;->zab:Z
 
     return v0
 .end method
@@ -178,13 +167,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/BooleanResult;
-    ->zaa:Lcom/google/android/gms/common/api/Status;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/BooleanResult;->zaa:Lcom/google/android/gms/common/api/Status;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/Status;
-    ->hashCode()I
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/Status;->hashCode()I
 
     .line 4
     .line 5
@@ -200,8 +187,7 @@
 
     .line 10
     .line 11
-    iget-boolean v1, p0, Lcom/google/android/gms/common/api/BooleanResult;
-    ->zab:Z
+    iget-boolean v1, p0, Lcom/google/android/gms/common/api/BooleanResult;->zab:Z
 
     .line 12
     .line 13

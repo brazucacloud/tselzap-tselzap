@@ -55,8 +55,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -65,8 +64,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -75,8 +73,7 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -85,25 +82,21 @@
 
     .line 17
     .line 18
-    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 19
     .line 20
     .line 21
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 22
     .line 23
     .line 24
-    iput-object p1, p0, Landroidx/datastore/core/SimpleActor;
-    ->scope:Lz1/v;
+    iput-object p1, p0, Landroidx/datastore/core/SimpleActor;->scope:Lz1/v;
 
     .line 25
     .line 26
-    iput-object p4, p0, Landroidx/datastore/core/SimpleActor;
-    ->consumeMessage:Lp1/p;
+    iput-object p4, p0, Landroidx/datastore/core/SimpleActor;->consumeMessage:Lp1/p;
 
     .line 27
     .line 28
@@ -118,8 +111,7 @@
     const/4 v1, 0x6
 
     .line 33
-    invoke-static {p4, v0, v1}, Lcom/bumptech/glide/b;
-    ->a(III)LB1/b;
+    invoke-static {p4, v0, v1}, Lcom/bumptech/glide/b;->a(III)LB1/b;
 
     .line 34
     .line 35
@@ -127,8 +119,7 @@
     move-result-object p4
 
     .line 37
-    iput-object p4, p0, Landroidx/datastore/core/SimpleActor;
-    ->messageQueue:LB1/f;
+    iput-object p4, p0, Landroidx/datastore/core/SimpleActor;->messageQueue:LB1/f;
 
     .line 38
     .line 39
@@ -136,19 +127,16 @@
 
     .line 40
     .line 41
-    invoke-direct {p4, v0}, Ljava/util/concurrent/atomic/AtomicInteger;
-    -><init>(I)V
+    invoke-direct {p4, v0}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>(I)V
 
     .line 42
     .line 43
     .line 44
-    iput-object p4, p0, Landroidx/datastore/core/SimpleActor;
-    ->remainingMessages:Ljava/util/concurrent/atomic/AtomicInteger;
+    iput-object p4, p0, Landroidx/datastore/core/SimpleActor;->remainingMessages:Ljava/util/concurrent/atomic/AtomicInteger;
 
     .line 45
     .line 46
-    invoke-interface {p1}, Lz1/v;
-    ->getCoroutineContext()Lg1/i;
+    invoke-interface {p1}, Lz1/v;->getCoroutineContext()Lg1/i;
 
     .line 47
     .line 48
@@ -156,13 +144,11 @@
     move-result-object p1
 
     .line 50
-    sget-object p4, Lz1/u;
-    ->c:Lz1/u;
+    sget-object p4, Lz1/u;->c:Lz1/u;
 
     .line 51
     .line 52
-    invoke-interface {p1, p4}, Lg1/i;
-    ->get(Lg1/h;)Lg1/g;
+    invoke-interface {p1, p4}, Lg1/i;->get(Lg1/h;)Lg1/g;
 
     .line 53
     .line 54
@@ -186,14 +172,12 @@
 
     .line 62
     .line 63
-    invoke-direct {p4, p2, p0, p3}, Landroidx/datastore/core/SimpleActor$1;
-    -><init>(Lp1/l;Landroidx/datastore/core/SimpleActor;Lp1/p;)V
+    invoke-direct {p4, p2, p0, p3}, Landroidx/datastore/core/SimpleActor$1;-><init>(Lp1/l;Landroidx/datastore/core/SimpleActor;Lp1/p;)V
 
     .line 64
     .line 65
     .line 66
-    invoke-interface {p1, p4}, Lz1/V;
-    ->o(Lp1/l;)Lz1/G;
+    invoke-interface {p1, p4}, Lz1/V;->o(Lp1/l;)Lz1/G;
 
     .line 67
     .line 68
@@ -205,8 +189,7 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/datastore/core/SimpleActor;
-    ->consumeMessage:Lp1/p;
+    iget-object p0, p0, Landroidx/datastore/core/SimpleActor;->consumeMessage:Lp1/p;
 
     .line 2
     .line 3
@@ -217,8 +200,7 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/datastore/core/SimpleActor;
-    ->messageQueue:LB1/f;
+    iget-object p0, p0, Landroidx/datastore/core/SimpleActor;->messageQueue:LB1/f;
 
     .line 2
     .line 3
@@ -229,8 +211,7 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/datastore/core/SimpleActor;
-    ->remainingMessages:Ljava/util/concurrent/atomic/AtomicInteger;
+    iget-object p0, p0, Landroidx/datastore/core/SimpleActor;->remainingMessages:Ljava/util/concurrent/atomic/AtomicInteger;
 
     .line 2
     .line 3
@@ -241,8 +222,7 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/datastore/core/SimpleActor;
-    ->scope:Lz1/v;
+    iget-object p0, p0, Landroidx/datastore/core/SimpleActor;->scope:Lz1/v;
 
     .line 2
     .line 3
@@ -260,13 +240,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/core/SimpleActor;
-    ->messageQueue:LB1/f;
+    iget-object v0, p0, Landroidx/datastore/core/SimpleActor;->messageQueue:LB1/f;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, LB1/t;
-    ->h(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, LB1/t;->h(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -309,8 +287,7 @@
 
     .line 21
     .line 22
-    iget-object v1, p1, LB1/g;
-    ->a:Ljava/lang/Throwable;
+    iget-object v1, p1, LB1/g;->a:Ljava/lang/Throwable;
 
     .line 23
     .line 24
@@ -327,8 +304,7 @@
 
     .line 29
     .line 30
-    invoke-direct {v1, p1}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 31
     .line 32
@@ -346,13 +322,11 @@
 
     .line 37
     .line 38
-    iget-object p1, p0, Landroidx/datastore/core/SimpleActor;
-    ->remainingMessages:Ljava/util/concurrent/atomic/AtomicInteger;
+    iget-object p1, p0, Landroidx/datastore/core/SimpleActor;->remainingMessages:Ljava/util/concurrent/atomic/AtomicInteger;
 
     .line 39
     .line 40
-    invoke-virtual {p1}, Ljava/util/concurrent/atomic/AtomicInteger;
-    ->getAndIncrement()I
+    invoke-virtual {p1}, Ljava/util/concurrent/atomic/AtomicInteger;->getAndIncrement()I
 
     .line 41
     .line 42
@@ -364,8 +338,7 @@
 
     .line 45
     .line 46
-    iget-object p1, p0, Landroidx/datastore/core/SimpleActor;
-    ->scope:Lz1/v;
+    iget-object p1, p0, Landroidx/datastore/core/SimpleActor;->scope:Lz1/v;
 
     .line 47
     .line 48
@@ -373,8 +346,7 @@
 
     .line 49
     .line 50
-    invoke-direct {v0, p0, v1}, Landroidx/datastore/core/SimpleActor$offer$2;
-    -><init>(Landroidx/datastore/core/SimpleActor;Lg1/d;)V
+    invoke-direct {v0, p0, v1}, Landroidx/datastore/core/SimpleActor$offer$2;-><init>(Landroidx/datastore/core/SimpleActor;Lg1/d;)V
 
     .line 51
     .line 52
@@ -382,8 +354,7 @@
     const/4 v2, 0x3
 
     .line 54
-    invoke-static {p1, v1, v0, v2}, Lz1/w;
-    ->l(Lz1/v;LA1/c;Lp1/p;I)Lz1/k0;
+    invoke-static {p1, v1, v0, v2}, Lz1/w;->l(Lz1/v;LA1/c;Lp1/p;I)Lz1/k0;
 
     .line 55
     .line 56
@@ -401,8 +372,7 @@
 
     .line 61
     .line 62
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 63
     .line 64

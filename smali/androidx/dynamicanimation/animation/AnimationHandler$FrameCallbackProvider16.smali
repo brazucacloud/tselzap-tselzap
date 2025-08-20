@@ -29,14 +29,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/dynamicanimation/animation/AnimationHandler$AnimationFrameCallbackProvider;
-    -><init>(Landroidx/dynamicanimation/animation/AnimationHandler$AnimationCallbackDispatcher;)V
+    invoke-direct {p0, p1}, Landroidx/dynamicanimation/animation/AnimationHandler$AnimationFrameCallbackProvider;-><init>(Landroidx/dynamicanimation/animation/AnimationHandler$AnimationCallbackDispatcher;)V
 
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Landroid/view/Choreographer;
-    ->getInstance()Landroid/view/Choreographer;
+    invoke-static {}, Landroid/view/Choreographer;->getInstance()Landroid/view/Choreographer;
 
     .line 5
     .line 6
@@ -44,8 +42,7 @@
     move-result-object p1
 
     .line 8
-    iput-object p1, p0, Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider16;
-    ->mChoreographer:Landroid/view/Choreographer;
+    iput-object p1, p0, Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider16;->mChoreographer:Landroid/view/Choreographer;
 
     .line 9
     .line 10
@@ -53,14 +50,12 @@
 
     .line 11
     .line 12
-    invoke-direct {p1, p0}, Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider16$1;
-    -><init>(Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider16;)V
+    invoke-direct {p1, p0}, Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider16$1;-><init>(Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider16;)V
 
     .line 13
     .line 14
     .line 15
-    iput-object p1, p0, Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider16;
-    ->mChoreographerCallback:Landroid/view/Choreographer$FrameCallback;    
+    iput-object p1, p0, Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider16;->mChoreographerCallback:Landroid/view/Choreographer$FrameCallback;
     return-void
 .end method
 
@@ -70,18 +65,15 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider16;
-    ->mChoreographer:Landroid/view/Choreographer;
+    iget-object v0, p0, Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider16;->mChoreographer:Landroid/view/Choreographer;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider16;
-    ->mChoreographerCallback:Landroid/view/Choreographer$FrameCallback;
+    iget-object v1, p0, Landroidx/dynamicanimation/animation/AnimationHandler$FrameCallbackProvider16;->mChoreographerCallback:Landroid/view/Choreographer$FrameCallback;
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Landroid/view/Choreographer;
-    ->postFrameCallback(Landroid/view/Choreographer$FrameCallback;)V
+    invoke-virtual {v0, v1}, Landroid/view/Choreographer;->postFrameCallback(Landroid/view/Choreographer$FrameCallback;)V
 return-void
 .end method
 

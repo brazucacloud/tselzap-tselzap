@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/navigation/ui/NavigationUI;
-    ->setupWithNavController(Lq0/c;Landroidx/navigation/NavController;)V
+    value = Landroidx/navigation/ui/NavigationUI;->setupWithNavController(Lq0/c;Landroidx/navigation/NavController;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -47,18 +46,15 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/navigation/ui/NavigationUI$setupWithNavController$9;
-    ->$weakReference:Ljava/lang/ref/WeakReference;
+    iput-object p1, p0, Landroidx/navigation/ui/NavigationUI$setupWithNavController$9;->$weakReference:Ljava/lang/ref/WeakReference;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/navigation/ui/NavigationUI$setupWithNavController$9;
-    ->$navController:Landroidx/navigation/NavController;
+    iput-object p2, p0, Landroidx/navigation/ui/NavigationUI$setupWithNavController$9;->$navController:Landroidx/navigation/NavController;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -72,8 +68,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -82,19 +77,16 @@
 
     .line 7
     .line 8
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    iget-object p1, p0, Landroidx/navigation/ui/NavigationUI$setupWithNavController$9;
-    ->$weakReference:Ljava/lang/ref/WeakReference;
+    iget-object p1, p0, Landroidx/navigation/ui/NavigationUI$setupWithNavController$9;->$weakReference:Ljava/lang/ref/WeakReference;
 
     .line 12
     .line 13
-    invoke-virtual {p1}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {p1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -106,13 +98,11 @@
 
     .line 18
     .line 19
-    iget-object p1, p0, Landroidx/navigation/ui/NavigationUI$setupWithNavController$9;
-    ->$navController:Landroidx/navigation/NavController;
+    iget-object p1, p0, Landroidx/navigation/ui/NavigationUI$setupWithNavController$9;->$navController:Landroidx/navigation/NavController;
 
     .line 20
     .line 21
-    invoke-virtual {p1, p0}, Landroidx/navigation/NavController;
-    ->removeOnDestinationChangedListener(Landroidx/navigation/NavController$OnDestinationChangedListener;)V
+    invoke-virtual {p1, p0}, Landroidx/navigation/NavController;->removeOnDestinationChangedListener(Landroidx/navigation/NavController$OnDestinationChangedListener;)V
     return-void
 
     .line 25
@@ -121,8 +111,7 @@
 
     .line 26
     .line 27
-    invoke-direct {p1}, Ljava/lang/ClassCastException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/ClassCastException;-><init>()V
 
     .line 28
     .line 29

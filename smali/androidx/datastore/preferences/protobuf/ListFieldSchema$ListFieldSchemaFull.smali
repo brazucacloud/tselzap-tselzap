@@ -30,13 +30,11 @@
     .locals 1
 
     .line 1
-    sget-object v0, Ljava/util/Collections;
-    ->EMPTY_LIST:Ljava/util/List;
+    sget-object v0, Ljava/util/Collections;->EMPTY_LIST:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-static {v0}, Ljava/util/Collections;
-    ->unmodifiableList(Ljava/util/List;)Ljava/util/List;
+    invoke-static {v0}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
     .line 4
     .line 5
@@ -44,8 +42,7 @@
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 8
     .line 9
@@ -53,8 +50,7 @@
     move-result-object v0
 
     .line 11
-    sput-object v0, Landroidx/datastore/preferences/protobuf/ListFieldSchema$ListFieldSchemaFull;
-    ->UNMODIFIABLE_LIST_CLASS:Ljava/lang/Class;    return-void
+    sput-object v0, Landroidx/datastore/preferences/protobuf/ListFieldSchema$ListFieldSchemaFull;->UNMODIFIABLE_LIST_CLASS:Ljava/lang/Class;    return-void
 .end method
 
 .method private constructor <init>()V
@@ -63,8 +59,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/ListFieldSchema;
-    -><init>(Landroidx/datastore/preferences/protobuf/ListFieldSchema$1;)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/ListFieldSchema;-><init>(Landroidx/datastore/preferences/protobuf/ListFieldSchema$1;)V
 return-void
 .end method
 
@@ -72,8 +67,7 @@ return-void
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/ListFieldSchema$ListFieldSchemaFull;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/ListFieldSchema$ListFieldSchemaFull;-><init>()V
     return-void
 .end method
 
@@ -92,8 +86,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getObject(Ljava/lang/Object;J)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getObject(Ljava/lang/Object;J)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -121,14 +114,12 @@ return-void
     .end annotation
 
     .line 2
-    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/ListFieldSchema$ListFieldSchemaFull;
-    ->getList(Ljava/lang/Object;J)Ljava/util/List;
+    invoke-static {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/ListFieldSchema$ListFieldSchemaFull;->getList(Ljava/lang/Object;J)Ljava/util/List;
 
     move-result-object v0
 
     .line 3
-    invoke-interface {v0}, Ljava/util/List;
-    ->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
 
     move-result v1
 
@@ -142,8 +133,7 @@ return-void
     .line 5
     new-instance v0, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;
 
-    invoke-direct {v0, p3}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;
-    -><init>(I)V
+    invoke-direct {v0, p3}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;-><init>(I)V
 
     goto :goto_0
 
@@ -160,8 +150,7 @@ return-void
     .line 7
     check-cast v0, Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
 
-    invoke-interface {v0, p3}, Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
-    ->mutableCopyWithCapacity(I)Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
+    invoke-interface {v0, p3}, Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;->mutableCopyWithCapacity(I)Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
 
     move-result-object v0
 
@@ -171,27 +160,22 @@ return-void
     :cond_1
     new-instance v0, Ljava/util/ArrayList;
 
-    invoke-direct {v0, p3}, Ljava/util/ArrayList;
-    -><init>(I)V
+    invoke-direct {v0, p3}, Ljava/util/ArrayList;-><init>(I)V
 
     .line 9
     :goto_0
-    invoke-static {p0, p1, p2, v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
+    invoke-static {p0, p1, p2, v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
 return-object v0
 
     .line 10
     :cond_2
-    sget-object v1, Landroidx/datastore/preferences/protobuf/ListFieldSchema$ListFieldSchemaFull;
-    ->UNMODIFIABLE_LIST_CLASS:Ljava/lang/Class;
+    sget-object v1, Landroidx/datastore/preferences/protobuf/ListFieldSchema$ListFieldSchemaFull;->UNMODIFIABLE_LIST_CLASS:Ljava/lang/Class;
 
-    invoke-virtual {v0}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Ljava/lang/Class;
-    ->isAssignableFrom(Ljava/lang/Class;)Z
+    invoke-virtual {v1, v2}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
     move-result v1
 
@@ -200,23 +184,19 @@ return-object v0
     .line 11
     new-instance v1, Ljava/util/ArrayList;
 
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v2
 
     add-int/2addr v2, p3
 
-    invoke-direct {v1, v2}, Ljava/util/ArrayList;
-    -><init>(I)V
+    invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(I)V
 
     .line 12
-    invoke-virtual {v1, v0}, Ljava/util/ArrayList;
-    ->addAll(Ljava/util/Collection;)Z
+    invoke-virtual {v1, v0}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
     .line 13
-    invoke-static {p0, p1, p2, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
+    invoke-static {p0, p1, p2, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
 return-object v1
 
     .line 14
@@ -228,25 +208,21 @@ return-object v1
     .line 15
     new-instance v1, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;
 
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v2
 
     add-int/2addr v2, p3
 
-    invoke-direct {v1, v2}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;
-    -><init>(I)V
+    invoke-direct {v1, v2}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;-><init>(I)V
 
     .line 16
     check-cast v0, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList;
 
-    invoke-virtual {v1, v0}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;
-    ->addAll(Ljava/util/Collection;)Z
+    invoke-virtual {v1, v0}, Landroidx/datastore/preferences/protobuf/LazyStringArrayList;->addAll(Ljava/util/Collection;)Z
 
     .line 17
-    invoke-static {p0, p1, p2, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
+    invoke-static {p0, p1, p2, v1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
 return-object v1
 
     .line 18
@@ -264,29 +240,25 @@ return-object v1
     check-cast v1, Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
 
     .line 19
-    invoke-interface {v1}, Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
-    ->isModifiable()Z
+    invoke-interface {v1}, Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;->isModifiable()Z
 
     move-result v2
 
     if-nez v2, :cond_5
 
     .line 20
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v0
 
     add-int/2addr v0, p3
 
-    invoke-interface {v1, v0}, Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
-    ->mutableCopyWithCapacity(I)Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
+    invoke-interface {v1, v0}, Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;->mutableCopyWithCapacity(I)Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
 
     move-result-object p3
 
     .line 21
-    invoke-static {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
+    invoke-static {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
 return-object p3
 
     :cond_5
@@ -299,8 +271,7 @@ return-object p3
     .locals 3
 
     .line 1
-    invoke-static {p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getObject(Ljava/lang/Object;J)Ljava/lang/Object;
+    invoke-static {p1, p2, p3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getObject(Ljava/lang/Object;J)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -324,8 +295,7 @@ return-object p3
 
     .line 12
     .line 13
-    invoke-interface {v0}, Landroidx/datastore/preferences/protobuf/LazyStringList;
-    ->getUnmodifiableView()Landroidx/datastore/preferences/protobuf/LazyStringList;
+    invoke-interface {v0}, Landroidx/datastore/preferences/protobuf/LazyStringList;->getUnmodifiableView()Landroidx/datastore/preferences/protobuf/LazyStringList;
 
     .line 14
     .line 15
@@ -337,13 +307,11 @@ return-object p3
 
     .line 18
     :cond_0
-    sget-object v1, Landroidx/datastore/preferences/protobuf/ListFieldSchema$ListFieldSchemaFull;
-    ->UNMODIFIABLE_LIST_CLASS:Ljava/lang/Class;
+    sget-object v1, Landroidx/datastore/preferences/protobuf/ListFieldSchema$ListFieldSchemaFull;->UNMODIFIABLE_LIST_CLASS:Ljava/lang/Class;
 
     .line 19
     .line 20
-    invoke-virtual {v0}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 21
     .line 22
@@ -351,8 +319,7 @@ return-object p3
     move-result-object v2
 
     .line 24
-    invoke-virtual {v1, v2}, Ljava/lang/Class;
-    ->isAssignableFrom(Ljava/lang/Class;)Z
+    invoke-virtual {v1, v2}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
     .line 25
     .line 26
@@ -388,8 +355,7 @@ return-object p3
 
     .line 40
     .line 41
-    invoke-interface {v0}, Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
-    ->isModifiable()Z
+    invoke-interface {v0}, Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;->isModifiable()Z
 
     .line 42
     .line 43
@@ -401,8 +367,7 @@ return-object p3
 
     .line 46
     .line 47
-    invoke-interface {v0}, Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
-    ->makeImmutable()V
+    invoke-interface {v0}, Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;->makeImmutable()V
 
     .line 48
     .line 49
@@ -413,8 +378,7 @@ return-object p3
 
     .line 51
     :cond_3
-    invoke-static {v0}, Ljava/util/Collections;
-    ->unmodifiableList(Ljava/util/List;)Ljava/util/List;
+    invoke-static {v0}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
     .line 52
     .line 53
@@ -423,8 +387,7 @@ return-object p3
 
     .line 55
     :goto_1
-    invoke-static {p1, p2, p3, v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
+    invoke-static {p1, p2, p3, v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
 return-void
 .end method
 
@@ -442,8 +405,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-static {p2, p3, p4}, Landroidx/datastore/preferences/protobuf/ListFieldSchema$ListFieldSchemaFull;
-    ->getList(Ljava/lang/Object;J)Ljava/util/List;
+    invoke-static {p2, p3, p4}, Landroidx/datastore/preferences/protobuf/ListFieldSchema$ListFieldSchemaFull;->getList(Ljava/lang/Object;J)Ljava/util/List;
 
     .line 2
     .line 3
@@ -451,8 +413,7 @@ return-void
     move-result-object p2
 
     .line 5
-    invoke-interface {p2}, Ljava/util/List;
-    ->size()I
+    invoke-interface {p2}, Ljava/util/List;->size()I
 
     .line 6
     .line 7
@@ -460,8 +421,7 @@ return-void
     move-result v0
 
     .line 9
-    invoke-static {p1, p3, p4, v0}, Landroidx/datastore/preferences/protobuf/ListFieldSchema$ListFieldSchemaFull;
-    ->mutableListAt(Ljava/lang/Object;JI)Ljava/util/List;
+    invoke-static {p1, p3, p4, v0}, Landroidx/datastore/preferences/protobuf/ListFieldSchema$ListFieldSchemaFull;->mutableListAt(Ljava/lang/Object;JI)Ljava/util/List;
 
     .line 10
     .line 11
@@ -469,8 +429,7 @@ return-void
     move-result-object v0
 
     .line 13
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     .line 14
     .line 15
@@ -478,8 +437,7 @@ return-void
     move-result v1
 
     .line 17
-    invoke-interface {p2}, Ljava/util/List;
-    ->size()I
+    invoke-interface {p2}, Ljava/util/List;->size()I
 
     .line 18
     .line 19
@@ -495,8 +453,7 @@ return-void
 
     .line 24
     .line 25
-    invoke-interface {v0, p2}, Ljava/util/List;
-    ->addAll(Ljava/util/Collection;)Z
+    invoke-interface {v0, p2}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
     .line 26
     .line 27
@@ -510,8 +467,7 @@ return-void
 
     .line 31
     :cond_1
-    invoke-static {p1, p3, p4, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
+    invoke-static {p1, p3, p4, p2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V
 return-void
 .end method
 
@@ -534,8 +490,7 @@ return-void
     const/16 v0, 0xa
 
     .line 1
-    invoke-static {p1, p2, p3, v0}, Landroidx/datastore/preferences/protobuf/ListFieldSchema$ListFieldSchemaFull;
-    ->mutableListAt(Ljava/lang/Object;JI)Ljava/util/List;
+    invoke-static {p1, p2, p3, v0}, Landroidx/datastore/preferences/protobuf/ListFieldSchema$ListFieldSchemaFull;->mutableListAt(Ljava/lang/Object;JI)Ljava/util/List;
 
     move-result-object p1
 

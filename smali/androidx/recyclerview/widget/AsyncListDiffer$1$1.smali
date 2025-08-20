@@ -5,8 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/recyclerview/widget/AsyncListDiffer$1;
-    ->run()V
+    value = Landroidx/recyclerview/widget/AsyncListDiffer$1;->run()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,13 +23,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncListDiffer$1$1;
-    ->this$1:Landroidx/recyclerview/widget/AsyncListDiffer$1;
+    iput-object p1, p0, Landroidx/recyclerview/widget/AsyncListDiffer$1$1;->this$1:Landroidx/recyclerview/widget/AsyncListDiffer$1;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/recyclerview/widget/DiffUtil$Callback;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/recyclerview/widget/DiffUtil$Callback;-><init>()V
     return-void
 .end method
 
@@ -40,18 +37,15 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer$1$1;
-    ->this$1:Landroidx/recyclerview/widget/AsyncListDiffer$1;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer$1$1;->this$1:Landroidx/recyclerview/widget/AsyncListDiffer$1;
 
     .line 2
     .line 3
-    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer$1;
-    ->val$oldList:Ljava/util/List;
+    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer$1;->val$oldList:Ljava/util/List;
 
     .line 4
     .line 5
-    invoke-interface {v0, p1}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -59,18 +53,15 @@
     move-result-object p1
 
     .line 9
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer$1$1;
-    ->this$1:Landroidx/recyclerview/widget/AsyncListDiffer$1;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer$1$1;->this$1:Landroidx/recyclerview/widget/AsyncListDiffer$1;
 
     .line 10
     .line 11
-    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer$1;
-    ->val$newList:Ljava/util/List;
+    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer$1;->val$newList:Ljava/util/List;
 
     .line 12
     .line 13
-    invoke-interface {v0, p2}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v0, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -86,23 +77,19 @@
 
     .line 20
     .line 21
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer$1$1;
-    ->this$1:Landroidx/recyclerview/widget/AsyncListDiffer$1;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer$1$1;->this$1:Landroidx/recyclerview/widget/AsyncListDiffer$1;
 
     .line 22
     .line 23
-    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer$1;
-    ->this$0:Landroidx/recyclerview/widget/AsyncListDiffer;
+    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer$1;->this$0:Landroidx/recyclerview/widget/AsyncListDiffer;
 
     .line 24
     .line 25
-    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer;
-    ->mConfig:Landroidx/recyclerview/widget/AsyncDifferConfig;
+    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer;->mConfig:Landroidx/recyclerview/widget/AsyncDifferConfig;
 
     .line 26
     .line 27
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/AsyncDifferConfig;
-    ->getDiffCallback()Landroidx/recyclerview/widget/DiffUtil$ItemCallback;
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/AsyncDifferConfig;->getDiffCallback()Landroidx/recyclerview/widget/DiffUtil$ItemCallback;
 
     .line 28
     .line 29
@@ -110,8 +97,7 @@
     move-result-object v0
 
     .line 31
-    invoke-virtual {v0, p1, p2}, Landroidx/recyclerview/widget/DiffUtil$ItemCallback;
-    ->areContentsTheSame(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1, p2}, Landroidx/recyclerview/widget/DiffUtil$ItemCallback;->areContentsTheSame(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 32
     .line 33
@@ -140,8 +126,7 @@
 
     .line 43
     .line 44
-    invoke-direct {p1}, Ljava/lang/AssertionError;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/AssertionError;-><init>()V
 
     .line 45
     .line 46
@@ -152,18 +137,15 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer$1$1;
-    ->this$1:Landroidx/recyclerview/widget/AsyncListDiffer$1;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer$1$1;->this$1:Landroidx/recyclerview/widget/AsyncListDiffer$1;
 
     .line 2
     .line 3
-    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer$1;
-    ->val$oldList:Ljava/util/List;
+    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer$1;->val$oldList:Ljava/util/List;
 
     .line 4
     .line 5
-    invoke-interface {v0, p1}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -171,18 +153,15 @@
     move-result-object p1
 
     .line 9
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer$1$1;
-    ->this$1:Landroidx/recyclerview/widget/AsyncListDiffer$1;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer$1$1;->this$1:Landroidx/recyclerview/widget/AsyncListDiffer$1;
 
     .line 10
     .line 11
-    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer$1;
-    ->val$newList:Ljava/util/List;
+    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer$1;->val$newList:Ljava/util/List;
 
     .line 12
     .line 13
-    invoke-interface {v0, p2}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v0, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -198,23 +177,19 @@
 
     .line 20
     .line 21
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer$1$1;
-    ->this$1:Landroidx/recyclerview/widget/AsyncListDiffer$1;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer$1$1;->this$1:Landroidx/recyclerview/widget/AsyncListDiffer$1;
 
     .line 22
     .line 23
-    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer$1;
-    ->this$0:Landroidx/recyclerview/widget/AsyncListDiffer;
+    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer$1;->this$0:Landroidx/recyclerview/widget/AsyncListDiffer;
 
     .line 24
     .line 25
-    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer;
-    ->mConfig:Landroidx/recyclerview/widget/AsyncDifferConfig;
+    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer;->mConfig:Landroidx/recyclerview/widget/AsyncDifferConfig;
 
     .line 26
     .line 27
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/AsyncDifferConfig;
-    ->getDiffCallback()Landroidx/recyclerview/widget/DiffUtil$ItemCallback;
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/AsyncDifferConfig;->getDiffCallback()Landroidx/recyclerview/widget/DiffUtil$ItemCallback;
 
     .line 28
     .line 29
@@ -222,8 +197,7 @@
     move-result-object v0
 
     .line 31
-    invoke-virtual {v0, p1, p2}, Landroidx/recyclerview/widget/DiffUtil$ItemCallback;
-    ->areItemsTheSame(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1, p2}, Landroidx/recyclerview/widget/DiffUtil$ItemCallback;->areItemsTheSame(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 32
     .line 33
@@ -259,18 +233,15 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer$1$1;
-    ->this$1:Landroidx/recyclerview/widget/AsyncListDiffer$1;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer$1$1;->this$1:Landroidx/recyclerview/widget/AsyncListDiffer$1;
 
     .line 2
     .line 3
-    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer$1;
-    ->val$oldList:Ljava/util/List;
+    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer$1;->val$oldList:Ljava/util/List;
 
     .line 4
     .line 5
-    invoke-interface {v0, p1}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -278,18 +249,15 @@
     move-result-object p1
 
     .line 9
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer$1$1;
-    ->this$1:Landroidx/recyclerview/widget/AsyncListDiffer$1;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer$1$1;->this$1:Landroidx/recyclerview/widget/AsyncListDiffer$1;
 
     .line 10
     .line 11
-    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer$1;
-    ->val$newList:Ljava/util/List;
+    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer$1;->val$newList:Ljava/util/List;
 
     .line 12
     .line 13
-    invoke-interface {v0, p2}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v0, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -305,23 +273,19 @@
 
     .line 20
     .line 21
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer$1$1;
-    ->this$1:Landroidx/recyclerview/widget/AsyncListDiffer$1;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer$1$1;->this$1:Landroidx/recyclerview/widget/AsyncListDiffer$1;
 
     .line 22
     .line 23
-    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer$1;
-    ->this$0:Landroidx/recyclerview/widget/AsyncListDiffer;
+    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer$1;->this$0:Landroidx/recyclerview/widget/AsyncListDiffer;
 
     .line 24
     .line 25
-    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer;
-    ->mConfig:Landroidx/recyclerview/widget/AsyncDifferConfig;
+    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer;->mConfig:Landroidx/recyclerview/widget/AsyncDifferConfig;
 
     .line 26
     .line 27
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/AsyncDifferConfig;
-    ->getDiffCallback()Landroidx/recyclerview/widget/DiffUtil$ItemCallback;
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/AsyncDifferConfig;->getDiffCallback()Landroidx/recyclerview/widget/DiffUtil$ItemCallback;
 
     .line 28
     .line 29
@@ -329,8 +293,7 @@
     move-result-object v0
 
     .line 31
-    invoke-virtual {v0, p1, p2}, Landroidx/recyclerview/widget/DiffUtil$ItemCallback;
-    ->getChangePayload(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, p2}, Landroidx/recyclerview/widget/DiffUtil$ItemCallback;->getChangePayload(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 32
     .line 33
@@ -345,8 +308,7 @@
 
     .line 37
     .line 38
-    invoke-direct {p1}, Ljava/lang/AssertionError;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/AssertionError;-><init>()V
 
     .line 39
     .line 40
@@ -357,18 +319,15 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer$1$1;
-    ->this$1:Landroidx/recyclerview/widget/AsyncListDiffer$1;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer$1$1;->this$1:Landroidx/recyclerview/widget/AsyncListDiffer$1;
 
     .line 2
     .line 3
-    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer$1;
-    ->val$newList:Ljava/util/List;
+    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer$1;->val$newList:Ljava/util/List;
 
     .line 4
     .line 5
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     .line 6
     .line 7
@@ -382,18 +341,15 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer$1$1;
-    ->this$1:Landroidx/recyclerview/widget/AsyncListDiffer$1;
+    iget-object v0, p0, Landroidx/recyclerview/widget/AsyncListDiffer$1$1;->this$1:Landroidx/recyclerview/widget/AsyncListDiffer$1;
 
     .line 2
     .line 3
-    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer$1;
-    ->val$oldList:Ljava/util/List;
+    iget-object v0, v0, Landroidx/recyclerview/widget/AsyncListDiffer$1;->val$oldList:Ljava/util/List;
 
     .line 4
     .line 5
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     .line 6
     .line 7

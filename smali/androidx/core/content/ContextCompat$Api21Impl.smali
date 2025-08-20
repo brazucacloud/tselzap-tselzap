@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -38,8 +37,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getCodeCacheDir()Ljava/io/File;
+    invoke-virtual {p0}, Landroid/content/Context;->getCodeCacheDir()Ljava/io/File;
 
     .line 2
     .line 3
@@ -55,8 +53,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/Context;
-    ->getDrawable(I)Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0, p1}, Landroid/content/Context;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     .line 2
     .line 3
@@ -72,8 +69,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getNoBackupFilesDir()Ljava/io/File;
+    invoke-virtual {p0}, Landroid/content/Context;->getNoBackupFilesDir()Ljava/io/File;
 
     .line 2
     .line 3

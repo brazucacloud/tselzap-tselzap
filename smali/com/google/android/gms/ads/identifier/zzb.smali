@@ -31,8 +31,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Thread;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Thread;-><init>()V
 
     .line 2
     .line 3
@@ -41,19 +40,16 @@
 
     .line 5
     .line 6
-    invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;
-    -><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Lcom/google/android/gms/ads/identifier/zzb;
-    ->zzc:Ljava/lang/ref/WeakReference;
+    iput-object v0, p0, Lcom/google/android/gms/ads/identifier/zzb;->zzc:Ljava/lang/ref/WeakReference;
 
     .line 10
     .line 11
-    iput-wide p2, p0, Lcom/google/android/gms/ads/identifier/zzb;
-    ->zzd:J
+    iput-wide p2, p0, Lcom/google/android/gms/ads/identifier/zzb;->zzd:J
 
     .line 12
     .line 13
@@ -64,27 +60,23 @@
     const/4 p2, 0x1
 
     .line 16
-    invoke-direct {p1, p2}, Ljava/util/concurrent/CountDownLatch;
-    -><init>(I)V
+    invoke-direct {p1, p2}, Ljava/util/concurrent/CountDownLatch;-><init>(I)V
 
     .line 17
     .line 18
     .line 19
-    iput-object p1, p0, Lcom/google/android/gms/ads/identifier/zzb;
-    ->zza:Ljava/util/concurrent/CountDownLatch;
+    iput-object p1, p0, Lcom/google/android/gms/ads/identifier/zzb;->zza:Ljava/util/concurrent/CountDownLatch;
 
     .line 20
     .line 21
     const/4 p1, 0x0
 
     .line 22
-    iput-boolean p1, p0, Lcom/google/android/gms/ads/identifier/zzb;
-    ->zzb:Z
+    iput-boolean p1, p0, Lcom/google/android/gms/ads/identifier/zzb;->zzb:Z
 
     .line 23
     .line 24
-    invoke-virtual {p0}, Ljava/lang/Thread;
-    ->start()V
+    invoke-virtual {p0}, Ljava/lang/Thread;->start()V
 
     .line 25
     .line 26
@@ -96,13 +88,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/ads/identifier/zzb;
-    ->zzc:Ljava/lang/ref/WeakReference;
+    iget-object v0, p0, Lcom/google/android/gms/ads/identifier/zzb;->zzc:Ljava/lang/ref/WeakReference;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -118,8 +108,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {v0}, Lcom/google/android/gms/ads/identifier/AdvertisingIdClient;
-    ->zza()V
+    invoke-virtual {v0}, Lcom/google/android/gms/ads/identifier/AdvertisingIdClient;->zza()V
 
     .line 12
     .line 13
@@ -127,8 +116,7 @@
     const/4 v0, 0x1
 
     .line 15
-    iput-boolean v0, p0, Lcom/google/android/gms/ads/identifier/zzb;
-    ->zzb:Z
+    iput-boolean v0, p0, Lcom/google/android/gms/ads/identifier/zzb;->zzb:Z
 
     .line 16
     .line 17
@@ -143,23 +131,19 @@
 
     .line 1
     :try_start_0
-    iget-object v0, p0, Lcom/google/android/gms/ads/identifier/zzb;
-    ->zza:Ljava/util/concurrent/CountDownLatch;
+    iget-object v0, p0, Lcom/google/android/gms/ads/identifier/zzb;->zza:Ljava/util/concurrent/CountDownLatch;
 
     .line 2
     .line 3
-    iget-wide v1, p0, Lcom/google/android/gms/ads/identifier/zzb;
-    ->zzd:J
+    iget-wide v1, p0, Lcom/google/android/gms/ads/identifier/zzb;->zzd:J
 
     .line 4
     .line 5
-    sget-object v3, Ljava/util/concurrent/TimeUnit;
-    ->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
+    sget-object v3, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1, v2, v3}, Ljava/util/concurrent/CountDownLatch;
-    ->await(JLjava/util/concurrent/TimeUnit;)Z
+    invoke-virtual {v0, v1, v2, v3}, Ljava/util/concurrent/CountDownLatch;->await(JLjava/util/concurrent/TimeUnit;)Z
 
     .line 8
     .line 9
@@ -171,8 +155,7 @@
 
     .line 12
     .line 13
-    invoke-direct {p0}, Lcom/google/android/gms/ads/identifier/zzb;
-    ->zza()V
+    invoke-direct {p0}, Lcom/google/android/gms/ads/identifier/zzb;->zza()V
     :try_end_0
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -184,8 +167,7 @@
 
     .line 17
     :catch_0
-    invoke-direct {p0}, Lcom/google/android/gms/ads/identifier/zzb;
-    ->zza()V
+    invoke-direct {p0}, Lcom/google/android/gms/ads/identifier/zzb;->zza()V
 
     .line 18
     .line 19

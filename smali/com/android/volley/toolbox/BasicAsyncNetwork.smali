@@ -24,16 +24,13 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lcom/android/volley/AsyncNetwork;
-    -><init>()V
+    invoke-direct {p0}, Lcom/android/volley/AsyncNetwork;-><init>()V
 
     .line 3
-    iput-object p1, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork;
-    ->mAsyncStack:Lcom/android/volley/toolbox/AsyncHttpStack;
+    iput-object p1, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork;->mAsyncStack:Lcom/android/volley/toolbox/AsyncHttpStack;
 
     .line 4
-    iput-object p2, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork;
-    ->mPool:Lcom/android/volley/toolbox/ByteArrayPool;
+    iput-object p2, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork;->mPool:Lcom/android/volley/toolbox/ByteArrayPool;
 
     return-void
 .end method
@@ -42,8 +39,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lcom/android/volley/toolbox/BasicAsyncNetwork;
-    -><init>(Lcom/android/volley/toolbox/AsyncHttpStack;Lcom/android/volley/toolbox/ByteArrayPool;)V
+    invoke-direct {p0, p1, p2}, Lcom/android/volley/toolbox/BasicAsyncNetwork;-><init>(Lcom/android/volley/toolbox/AsyncHttpStack;Lcom/android/volley/toolbox/ByteArrayPool;)V
 return-void
 .end method
 
@@ -51,8 +47,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct/range {p0 .. p5}, Lcom/android/volley/toolbox/BasicAsyncNetwork;
-    ->onRequestSucceeded(Lcom/android/volley/Request;JLcom/android/volley/toolbox/HttpResponse;Lcom/android/volley/AsyncNetwork$OnRequestComplete;)V
+    invoke-direct/range {p0 .. p5}, Lcom/android/volley/toolbox/BasicAsyncNetwork;->onRequestSucceeded(Lcom/android/volley/Request;JLcom/android/volley/toolbox/HttpResponse;Lcom/android/volley/AsyncNetwork$OnRequestComplete;)V
 
     .line 2
     .line 3
@@ -64,8 +59,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct/range {p0 .. p7}, Lcom/android/volley/toolbox/BasicAsyncNetwork;
-    ->onRequestFailed(Lcom/android/volley/Request;Lcom/android/volley/AsyncNetwork$OnRequestComplete;Ljava/io/IOException;JLcom/android/volley/toolbox/HttpResponse;[B)V
+    invoke-direct/range {p0 .. p7}, Lcom/android/volley/toolbox/BasicAsyncNetwork;->onRequestFailed(Lcom/android/volley/Request;Lcom/android/volley/AsyncNetwork$OnRequestComplete;Ljava/io/IOException;JLcom/android/volley/toolbox/HttpResponse;[B)V
 
     .line 2
     .line 3
@@ -77,8 +71,7 @@ return-void
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork;
-    ->mPool:Lcom/android/volley/toolbox/ByteArrayPool;
+    iget-object p0, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork;->mPool:Lcom/android/volley/toolbox/ByteArrayPool;
 
     .line 2
     .line 3
@@ -89,8 +82,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct/range {p0 .. p8}, Lcom/android/volley/toolbox/BasicAsyncNetwork;
-    ->onResponseRead(JILcom/android/volley/toolbox/HttpResponse;Lcom/android/volley/Request;Lcom/android/volley/AsyncNetwork$OnRequestComplete;Ljava/util/List;[B)V
+    invoke-direct/range {p0 .. p8}, Lcom/android/volley/toolbox/BasicAsyncNetwork;->onResponseRead(JILcom/android/volley/toolbox/HttpResponse;Lcom/android/volley/Request;Lcom/android/volley/AsyncNetwork$OnRequestComplete;Ljava/util/List;[B)V
 
     .line 2
     .line 3
@@ -138,8 +130,7 @@ return-void
 
     .line 6
     :try_start_0
-    invoke-static/range {v0 .. v5}, Lcom/android/volley/toolbox/NetworkUtility;
-    ->shouldRetryException(Lcom/android/volley/Request;Ljava/io/IOException;JLcom/android/volley/toolbox/HttpResponse;[B)Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;
+    invoke-static/range {v0 .. v5}, Lcom/android/volley/toolbox/NetworkUtility;->shouldRetryException(Lcom/android/volley/Request;Ljava/io/IOException;JLcom/android/volley/toolbox/HttpResponse;[B)Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;
 
     .line 7
     .line 8
@@ -147,8 +138,7 @@ return-void
     move-result-object p1
 
     .line 10
-    invoke-virtual {p0}, Lcom/android/volley/AsyncNetwork;
-    ->getBlockingExecutor()Ljava/util/concurrent/ExecutorService;
+    invoke-virtual {p0}, Lcom/android/volley/AsyncNetwork;->getBlockingExecutor()Ljava/util/concurrent/ExecutorService;
 
     .line 11
     .line 12
@@ -160,14 +150,12 @@ return-void
 
     .line 15
     .line 16
-    invoke-direct {p4, p0, v0, p1, p2}, Lcom/android/volley/toolbox/BasicAsyncNetwork$InvokeRetryPolicyTask;
-    -><init>(Lcom/android/volley/toolbox/BasicAsyncNetwork;Lcom/android/volley/Request;Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;Lcom/android/volley/AsyncNetwork$OnRequestComplete;)V
+    invoke-direct {p4, p0, v0, p1, p2}, Lcom/android/volley/toolbox/BasicAsyncNetwork$InvokeRetryPolicyTask;-><init>(Lcom/android/volley/toolbox/BasicAsyncNetwork;Lcom/android/volley/Request;Lcom/android/volley/toolbox/NetworkUtility$RetryInfo;Lcom/android/volley/AsyncNetwork$OnRequestComplete;)V
 
     .line 17
     .line 18
     .line 19
-    invoke-interface {p3, p4}, Ljava/util/concurrent/Executor;
-    ->execute(Ljava/lang/Runnable;)V
+    invoke-interface {p3, p4}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
     :try_end_0
     .catch Lcom/android/volley/VolleyError; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -184,8 +172,7 @@ return-void
     move-object p1, v0
 
     .line 25
-    invoke-interface {p2, p1}, Lcom/android/volley/AsyncNetwork$OnRequestComplete;
-    ->onError(Lcom/android/volley/VolleyError;)V
+    invoke-interface {p2, p1}, Lcom/android/volley/AsyncNetwork$OnRequestComplete;->onError(Lcom/android/volley/VolleyError;)V
 
     .line 26
     .line 27
@@ -207,8 +194,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p4}, Lcom/android/volley/toolbox/HttpResponse;
-    ->getStatusCode()I
+    invoke-virtual {p4}, Lcom/android/volley/toolbox/HttpResponse;->getStatusCode()I
 
     .line 2
     .line 3
@@ -216,8 +202,7 @@ return-void
     move-result v3
 
     .line 5
-    invoke-virtual {p4}, Lcom/android/volley/toolbox/HttpResponse;
-    ->getHeaders()Ljava/util/List;
+    invoke-virtual {p4}, Lcom/android/volley/toolbox/HttpResponse;->getHeaders()Ljava/util/List;
 
     .line 6
     .line 7
@@ -233,8 +218,7 @@ return-void
 
     .line 12
     .line 13
-    invoke-static {}, Landroid/os/SystemClock;
-    ->elapsedRealtime()J
+    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     .line 14
     .line 15
@@ -245,8 +229,7 @@ return-void
     sub-long/2addr v0, p2
 
     .line 18
-    invoke-static {p1, v0, v1, v7}, Lcom/android/volley/toolbox/NetworkUtility;
-    ->getNotModifiedNetworkResponse(Lcom/android/volley/Request;JLjava/util/List;)Lcom/android/volley/NetworkResponse;
+    invoke-static {p1, v0, v1, v7}, Lcom/android/volley/toolbox/NetworkUtility;->getNotModifiedNetworkResponse(Lcom/android/volley/Request;JLjava/util/List;)Lcom/android/volley/NetworkResponse;
 
     .line 19
     .line 20
@@ -254,8 +237,7 @@ return-void
     move-result-object p1
 
     .line 22
-    invoke-interface {p5, p1}, Lcom/android/volley/AsyncNetwork$OnRequestComplete;
-    ->onSuccess(Lcom/android/volley/NetworkResponse;)V
+    invoke-interface {p5, p1}, Lcom/android/volley/AsyncNetwork$OnRequestComplete;->onSuccess(Lcom/android/volley/NetworkResponse;)V
 
     .line 23
     .line 24
@@ -264,8 +246,7 @@ return-void
 
     .line 26
     :cond_0
-    invoke-virtual {p4}, Lcom/android/volley/toolbox/HttpResponse;
-    ->getContentBytes()[B
+    invoke-virtual {p4}, Lcom/android/volley/toolbox/HttpResponse;->getContentBytes()[B
 
     .line 27
     .line 28
@@ -277,8 +258,7 @@ return-void
 
     .line 31
     .line 32
-    invoke-virtual {p4}, Lcom/android/volley/toolbox/HttpResponse;
-    ->getContent()Ljava/io/InputStream;
+    invoke-virtual {p4}, Lcom/android/volley/toolbox/HttpResponse;->getContent()Ljava/io/InputStream;
 
     .line 33
     .line 34
@@ -320,8 +300,7 @@ return-void
     move-object v6, p5
 
     .line 49
-    invoke-direct/range {v0 .. v8}, Lcom/android/volley/toolbox/BasicAsyncNetwork;
-    ->onResponseRead(JILcom/android/volley/toolbox/HttpResponse;Lcom/android/volley/Request;Lcom/android/volley/AsyncNetwork$OnRequestComplete;Ljava/util/List;[B)V
+    invoke-direct/range {v0 .. v8}, Lcom/android/volley/toolbox/BasicAsyncNetwork;->onResponseRead(JILcom/android/volley/toolbox/HttpResponse;Lcom/android/volley/Request;Lcom/android/volley/AsyncNetwork$OnRequestComplete;Ljava/util/List;[B)V
 
     .line 50
     .line 51
@@ -345,8 +324,7 @@ return-void
     move-object v3, p4
 
     .line 58
-    invoke-virtual {v3}, Lcom/android/volley/toolbox/HttpResponse;
-    ->getContent()Ljava/io/InputStream;
+    invoke-virtual {v3}, Lcom/android/volley/toolbox/HttpResponse;->getContent()Ljava/io/InputStream;
 
     .line 59
     .line 60
@@ -354,8 +332,7 @@ return-void
     move-result-object p1
 
     .line 62
-    invoke-virtual {p0}, Lcom/android/volley/AsyncNetwork;
-    ->getBlockingExecutor()Ljava/util/concurrent/ExecutorService;
+    invoke-virtual {p0}, Lcom/android/volley/AsyncNetwork;->getBlockingExecutor()Ljava/util/concurrent/ExecutorService;
 
     .line 63
     .line 64
@@ -379,14 +356,12 @@ return-void
     move-object v2, p1
 
     .line 72
-    invoke-direct/range {v0 .. v9}, Lcom/android/volley/toolbox/BasicAsyncNetwork$ResponseParsingTask;
-    -><init>(Lcom/android/volley/toolbox/BasicAsyncNetwork;Ljava/io/InputStream;Lcom/android/volley/toolbox/HttpResponse;Lcom/android/volley/Request;Lcom/android/volley/AsyncNetwork$OnRequestComplete;JLjava/util/List;I)V
+    invoke-direct/range {v0 .. v9}, Lcom/android/volley/toolbox/BasicAsyncNetwork$ResponseParsingTask;-><init>(Lcom/android/volley/toolbox/BasicAsyncNetwork;Ljava/io/InputStream;Lcom/android/volley/toolbox/HttpResponse;Lcom/android/volley/Request;Lcom/android/volley/AsyncNetwork$OnRequestComplete;JLjava/util/List;I)V
 
     .line 73
     .line 74
     .line 75
-    invoke-interface {p2, v0}, Ljava/util/concurrent/Executor;
-    ->execute(Ljava/lang/Runnable;)V
+    invoke-interface {p2, v0}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
 
     .line 76
     .line 77
@@ -410,8 +385,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-static {}, Landroid/os/SystemClock;
-    ->elapsedRealtime()J
+    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     .line 2
     .line 3
@@ -426,8 +400,7 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {v0, v1, p5, v9, p3}, Lcom/android/volley/toolbox/NetworkUtility;
-    ->logSlowRequests(JLcom/android/volley/Request;[BI)V
+    invoke-static {v0, v1, p5, v9, p3}, Lcom/android/volley/toolbox/NetworkUtility;->logSlowRequests(JLcom/android/volley/Request;[BI)V
 
     .line 9
     .line 10
@@ -461,8 +434,7 @@ return-void
 
     .line 23
     .line 24
-    invoke-static {}, Landroid/os/SystemClock;
-    ->elapsedRealtime()J
+    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     .line 25
     .line 26
@@ -487,8 +459,7 @@ return-void
     move-object v4, v9
 
     .line 35
-    invoke-direct/range {v2 .. v8}, Lcom/android/volley/NetworkResponse;
-    -><init>(I[BZJLjava/util/List;)V
+    invoke-direct/range {v2 .. v8}, Lcom/android/volley/NetworkResponse;-><init>(I[BZJLjava/util/List;)V
 
     .line 36
     .line 37
@@ -497,8 +468,7 @@ return-void
 
     .line 39
     .line 40
-    invoke-interface {v4, v2}, Lcom/android/volley/AsyncNetwork$OnRequestComplete;
-    ->onSuccess(Lcom/android/volley/NetworkResponse;)V
+    invoke-interface {v4, v2}, Lcom/android/volley/AsyncNetwork$OnRequestComplete;->onSuccess(Lcom/android/volley/NetworkResponse;)V
 
     .line 41
     .line 42
@@ -511,8 +481,7 @@ return-void
 
     .line 45
     .line 46
-    invoke-direct {v5}, Ljava/io/IOException;
-    -><init>()V
+    invoke-direct {v5}, Ljava/io/IOException;-><init>()V
 
     .line 47
     .line 48
@@ -533,8 +502,7 @@ return-void
 
     .line 54
     .line 55
-    invoke-direct/range {v2 .. v9}, Lcom/android/volley/toolbox/BasicAsyncNetwork;
-    ->onRequestFailed(Lcom/android/volley/Request;Lcom/android/volley/AsyncNetwork$OnRequestComplete;Ljava/io/IOException;JLcom/android/volley/toolbox/HttpResponse;[B)V
+    invoke-direct/range {v2 .. v9}, Lcom/android/volley/toolbox/BasicAsyncNetwork;->onRequestFailed(Lcom/android/volley/Request;Lcom/android/volley/AsyncNetwork$OnRequestComplete;Ljava/io/IOException;JLcom/android/volley/toolbox/HttpResponse;[B)V
 
     .line 56
     .line 57
@@ -557,8 +525,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/android/volley/AsyncNetwork;
-    ->getBlockingExecutor()Ljava/util/concurrent/ExecutorService;
+    invoke-virtual {p0}, Lcom/android/volley/AsyncNetwork;->getBlockingExecutor()Ljava/util/concurrent/ExecutorService;
 
     .line 2
     .line 3
@@ -570,8 +537,7 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {}, Landroid/os/SystemClock;
-    ->elapsedRealtime()J
+    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     .line 8
     .line 9
@@ -579,8 +545,7 @@ return-void
     move-result-wide v4
 
     .line 11
-    invoke-virtual {p1}, Lcom/android/volley/Request;
-    ->getCacheEntry()Lcom/android/volley/Cache$Entry;
+    invoke-virtual {p1}, Lcom/android/volley/Request;->getCacheEntry()Lcom/android/volley/Cache$Entry;
 
     .line 12
     .line 13
@@ -588,8 +553,7 @@ return-void
     move-result-object v0
 
     .line 15
-    invoke-static {v0}, Lcom/android/volley/toolbox/HttpHeaderParser;
-    ->getCacheHeaders(Lcom/android/volley/Cache$Entry;)Ljava/util/Map;
+    invoke-static {v0}, Lcom/android/volley/toolbox/HttpHeaderParser;->getCacheHeaders(Lcom/android/volley/Cache$Entry;)Ljava/util/Map;
 
     .line 16
     .line 17
@@ -597,8 +561,7 @@ return-void
     move-result-object v0
 
     .line 19
-    iget-object v7, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork;
-    ->mAsyncStack:Lcom/android/volley/toolbox/AsyncHttpStack;
+    iget-object v7, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork;->mAsyncStack:Lcom/android/volley/toolbox/AsyncHttpStack;
 
     .line 20
     .line 21
@@ -615,14 +578,12 @@ return-void
     move-object v6, p2
 
     .line 26
-    invoke-direct/range {v1 .. v6}, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;
-    -><init>(Lcom/android/volley/toolbox/BasicAsyncNetwork;Lcom/android/volley/Request;JLcom/android/volley/AsyncNetwork$OnRequestComplete;)V
+    invoke-direct/range {v1 .. v6}, Lcom/android/volley/toolbox/BasicAsyncNetwork$1;-><init>(Lcom/android/volley/toolbox/BasicAsyncNetwork;Lcom/android/volley/Request;JLcom/android/volley/AsyncNetwork$OnRequestComplete;)V
 
     .line 27
     .line 28
     .line 29
-    invoke-virtual {v7, v3, v0, v1}, Lcom/android/volley/toolbox/AsyncHttpStack;
-    ->executeRequest(Lcom/android/volley/Request;Ljava/util/Map;Lcom/android/volley/toolbox/AsyncHttpStack$OnRequestComplete;)V
+    invoke-virtual {v7, v3, v0, v1}, Lcom/android/volley/toolbox/AsyncHttpStack;->executeRequest(Lcom/android/volley/Request;Ljava/util/Map;Lcom/android/volley/toolbox/AsyncHttpStack$OnRequestComplete;)V
 
     .line 30
     .line 31
@@ -639,8 +600,7 @@ return-void
 
     .line 36
     .line 37
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 38
     .line 39
@@ -663,25 +623,21 @@ return-void
     .locals 1
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    invoke-super {p0, p1}, Lcom/android/volley/AsyncNetwork;
-    ->setBlockingExecutor(Ljava/util/concurrent/ExecutorService;)V
+    invoke-super {p0, p1}, Lcom/android/volley/AsyncNetwork;->setBlockingExecutor(Ljava/util/concurrent/ExecutorService;)V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork;
-    ->mAsyncStack:Lcom/android/volley/toolbox/AsyncHttpStack;
+    iget-object v0, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork;->mAsyncStack:Lcom/android/volley/toolbox/AsyncHttpStack;
 
     .line 5
     .line 6
-    invoke-virtual {v0, p1}, Lcom/android/volley/toolbox/AsyncHttpStack;
-    ->setBlockingExecutor(Ljava/util/concurrent/ExecutorService;)V
+    invoke-virtual {v0, p1}, Lcom/android/volley/toolbox/AsyncHttpStack;->setBlockingExecutor(Ljava/util/concurrent/ExecutorService;)V
 
     .line 7
     .line 8
@@ -693,25 +649,21 @@ return-void
     .locals 1
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    invoke-super {p0, p1}, Lcom/android/volley/AsyncNetwork;
-    ->setNonBlockingExecutor(Ljava/util/concurrent/ExecutorService;)V
+    invoke-super {p0, p1}, Lcom/android/volley/AsyncNetwork;->setNonBlockingExecutor(Ljava/util/concurrent/ExecutorService;)V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork;
-    ->mAsyncStack:Lcom/android/volley/toolbox/AsyncHttpStack;
+    iget-object v0, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork;->mAsyncStack:Lcom/android/volley/toolbox/AsyncHttpStack;
 
     .line 5
     .line 6
-    invoke-virtual {v0, p1}, Lcom/android/volley/toolbox/AsyncHttpStack;
-    ->setNonBlockingExecutor(Ljava/util/concurrent/ExecutorService;)V
+    invoke-virtual {v0, p1}, Lcom/android/volley/toolbox/AsyncHttpStack;->setNonBlockingExecutor(Ljava/util/concurrent/ExecutorService;)V
 
     .line 7
     .line 8

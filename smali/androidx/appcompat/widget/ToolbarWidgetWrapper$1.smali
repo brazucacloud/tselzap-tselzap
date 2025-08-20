@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/appcompat/widget/ToolbarWidgetWrapper;
-    -><init>(Landroidx/appcompat/widget/Toolbar;ZII)V
+    value = Landroidx/appcompat/widget/ToolbarWidgetWrapper;-><init>(Landroidx/appcompat/widget/Toolbar;ZII)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -29,13 +28,11 @@
     .locals 7
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/ToolbarWidgetWrapper$1;
-    ->this$0:Landroidx/appcompat/widget/ToolbarWidgetWrapper;
+    iput-object p1, p0, Landroidx/appcompat/widget/ToolbarWidgetWrapper$1;->this$0:Landroidx/appcompat/widget/ToolbarWidgetWrapper;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
@@ -44,13 +41,11 @@
 
     .line 7
     .line 8
-    iget-object v1, p1, Landroidx/appcompat/widget/ToolbarWidgetWrapper;
-    ->mToolbar:Landroidx/appcompat/widget/Toolbar;
+    iget-object v1, p1, Landroidx/appcompat/widget/ToolbarWidgetWrapper;->mToolbar:Landroidx/appcompat/widget/Toolbar;
 
     .line 9
     .line 10
-    invoke-virtual {v1}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {v1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 11
     .line 12
@@ -61,8 +56,7 @@
     const/4 v5, 0x0
 
     .line 15
-    iget-object v6, p1, Landroidx/appcompat/widget/ToolbarWidgetWrapper;
-    ->mTitle:Ljava/lang/CharSequence;
+    iget-object v6, p1, Landroidx/appcompat/widget/ToolbarWidgetWrapper;->mTitle:Ljava/lang/CharSequence;
 
     .line 16
     .line 17
@@ -77,14 +71,12 @@
     const/4 v4, 0x0
 
     .line 22
-    invoke-direct/range {v0 .. v6}, Landroidx/appcompat/view/menu/ActionMenuItem;
-    -><init>(Landroid/content/Context;IIIILjava/lang/CharSequence;)V
+    invoke-direct/range {v0 .. v6}, Landroidx/appcompat/view/menu/ActionMenuItem;-><init>(Landroid/content/Context;IIIILjava/lang/CharSequence;)V
 
     .line 23
     .line 24
     .line 25
-    iput-object v0, p0, Landroidx/appcompat/widget/ToolbarWidgetWrapper$1;
-    ->mNavItem:Landroidx/appcompat/view/menu/ActionMenuItem;    
+    iput-object v0, p0, Landroidx/appcompat/widget/ToolbarWidgetWrapper$1;->mNavItem:Landroidx/appcompat/view/menu/ActionMenuItem;
     return-void
 .end method
 
@@ -94,13 +86,11 @@
     .locals 2
 
     .line 1
-    iget-object p1, p0, Landroidx/appcompat/widget/ToolbarWidgetWrapper$1;
-    ->this$0:Landroidx/appcompat/widget/ToolbarWidgetWrapper;
+    iget-object p1, p0, Landroidx/appcompat/widget/ToolbarWidgetWrapper$1;->this$0:Landroidx/appcompat/widget/ToolbarWidgetWrapper;
 
     .line 2
     .line 3
-    iget-object v0, p1, Landroidx/appcompat/widget/ToolbarWidgetWrapper;
-    ->mWindowCallback:Landroid/view/Window$Callback;
+    iget-object v0, p1, Landroidx/appcompat/widget/ToolbarWidgetWrapper;->mWindowCallback:Landroid/view/Window$Callback;
 
     .line 4
     .line 5
@@ -108,8 +98,7 @@
 
     .line 6
     .line 7
-    iget-boolean p1, p1, Landroidx/appcompat/widget/ToolbarWidgetWrapper;
-    ->mMenuPrepared:Z
+    iget-boolean p1, p1, Landroidx/appcompat/widget/ToolbarWidgetWrapper;->mMenuPrepared:Z
 
     .line 8
     .line 9
@@ -120,13 +109,11 @@
     const/4 p1, 0x0
 
     .line 12
-    iget-object v1, p0, Landroidx/appcompat/widget/ToolbarWidgetWrapper$1;
-    ->mNavItem:Landroidx/appcompat/view/menu/ActionMenuItem;
+    iget-object v1, p0, Landroidx/appcompat/widget/ToolbarWidgetWrapper$1;->mNavItem:Landroidx/appcompat/view/menu/ActionMenuItem;
 
     .line 13
     .line 14
-    invoke-interface {v0, p1, v1}, Landroid/view/Window$Callback;
-    ->onMenuItemSelected(ILandroid/view/MenuItem;)Z
+    invoke-interface {v0, p1, v1}, Landroid/view/Window$Callback;->onMenuItemSelected(ILandroid/view/MenuItem;)Z
 
     .line 15
     .line 16

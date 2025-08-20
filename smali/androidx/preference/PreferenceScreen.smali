@@ -20,14 +20,12 @@
     .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    sget v0, Landroidx/preference/R$attr;
-    ->preferenceScreenStyle:I
+    sget v0, Landroidx/preference/R$attr;->preferenceScreenStyle:I
 
     .line 2
     .line 3
@@ -36,8 +34,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-static {p1, v0, v1}, Landroidx/core/content/res/TypedArrayUtils;
-    ->getAttr(Landroid/content/Context;II)I
+    invoke-static {p1, v0, v1}, Landroidx/core/content/res/TypedArrayUtils;->getAttr(Landroid/content/Context;II)I
 
     .line 7
     .line 8
@@ -45,8 +42,7 @@
     move-result v0
 
     .line 10
-    invoke-direct {p0, p1, p2, v0}, Landroidx/preference/PreferenceGroup;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Landroidx/preference/PreferenceGroup;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 11
     .line 12
@@ -54,8 +50,7 @@
     const/4 p1, 0x1
 
     .line 14
-    iput-boolean p1, p0, Landroidx/preference/PreferenceScreen;
-    ->mShouldUseGeneratedIds:Z
+    iput-boolean p1, p0, Landroidx/preference/PreferenceScreen;->mShouldUseGeneratedIds:Z
 return-void
 .end method
 
@@ -73,8 +68,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/preference/Preference;
-    ->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Landroidx/preference/Preference;->getIntent()Landroid/content/Intent;
 
     .line 2
     .line 3
@@ -86,8 +80,7 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroidx/preference/Preference;
-    ->getFragment()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/preference/Preference;->getFragment()Ljava/lang/String;
 
     .line 8
     .line 9
@@ -99,8 +92,7 @@ return-void
 
     .line 12
     .line 13
-    invoke-virtual {p0}, Landroidx/preference/PreferenceGroup;
-    ->getPreferenceCount()I
+    invoke-virtual {p0}, Landroidx/preference/PreferenceGroup;->getPreferenceCount()I
 
     .line 14
     .line 15
@@ -116,8 +108,7 @@ return-void
 
     .line 20
     :cond_0
-    invoke-virtual {p0}, Landroidx/preference/Preference;
-    ->getPreferenceManager()Landroidx/preference/PreferenceManager;
+    invoke-virtual {p0}, Landroidx/preference/Preference;->getPreferenceManager()Landroidx/preference/PreferenceManager;
 
     .line 21
     .line 22
@@ -125,8 +116,7 @@ return-void
     move-result-object v0
 
     .line 24
-    invoke-virtual {v0}, Landroidx/preference/PreferenceManager;
-    ->getOnNavigateToScreenListener()Landroidx/preference/PreferenceManager$OnNavigateToScreenListener;
+    invoke-virtual {v0}, Landroidx/preference/PreferenceManager;->getOnNavigateToScreenListener()Landroidx/preference/PreferenceManager$OnNavigateToScreenListener;
 
     .line 25
     .line 26
@@ -138,8 +128,7 @@ return-void
 
     .line 29
     .line 30
-    invoke-interface {v0, p0}, Landroidx/preference/PreferenceManager$OnNavigateToScreenListener;
-    ->onNavigateToScreen(Landroidx/preference/PreferenceScreen;)V
+    invoke-interface {v0, p0}, Landroidx/preference/PreferenceManager$OnNavigateToScreenListener;->onNavigateToScreen(Landroidx/preference/PreferenceScreen;)V
 
     .line 31
     .line 32
@@ -153,8 +142,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/preference/PreferenceGroup;
-    ->isAttached()Z
+    invoke-virtual {p0}, Landroidx/preference/PreferenceGroup;->isAttached()Z
 
     .line 2
     .line 3
@@ -166,8 +154,7 @@ return-void
 
     .line 6
     .line 7
-    iput-boolean p1, p0, Landroidx/preference/PreferenceScreen;
-    ->mShouldUseGeneratedIds:Z
+    iput-boolean p1, p0, Landroidx/preference/PreferenceScreen;->mShouldUseGeneratedIds:Z
 return-void
 
     .line 10
@@ -180,8 +167,7 @@ return-void
 
     .line 13
     .line 14
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 15
     .line 16
@@ -192,8 +178,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/preference/PreferenceScreen;
-    ->mShouldUseGeneratedIds:Z    return v0
+    iget-boolean v0, p0, Landroidx/preference/PreferenceScreen;->mShouldUseGeneratedIds:Z    return v0
 .end method
 
 .end class

@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -38,8 +37,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/location/GnssStatus;
-    ->getBasebandCn0DbHz(I)F
+    invoke-virtual {p0, p1}, Landroid/location/GnssStatus;->getBasebandCn0DbHz(I)F
 
     .line 2
     .line 3
@@ -55,8 +53,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/location/GnssStatus;
-    ->hasBasebandCn0DbHz(I)Z
+    invoke-virtual {p0, p1}, Landroid/location/GnssStatus;->hasBasebandCn0DbHz(I)Z
 
     .line 2
     .line 3

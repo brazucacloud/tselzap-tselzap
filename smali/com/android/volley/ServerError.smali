@@ -8,8 +8,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lcom/android/volley/VolleyError;
-    -><init>()V
+    invoke-direct {p0}, Lcom/android/volley/VolleyError;-><init>()V
     return-void
 .end method
 
@@ -17,8 +16,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/android/volley/VolleyError;
-    -><init>(Lcom/android/volley/NetworkResponse;)V
+    invoke-direct {p0, p1}, Lcom/android/volley/VolleyError;-><init>(Lcom/android/volley/NetworkResponse;)V
 
     return-void
 .end method

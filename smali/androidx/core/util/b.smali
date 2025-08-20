@@ -17,14 +17,11 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Landroidx/core/util/b;
-    ->a:I
+    iput p2, p0, Landroidx/core/util/b;->a:I
 
-    iput-object p1, p0, Landroidx/core/util/b;
-    ->b:Ljava/lang/Object;
+    iput-object p1, p0, Landroidx/core/util/b;->b:Ljava/lang/Object;
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -34,11 +31,9 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/core/util/b;
-    ->a:I
+    iget v0, p0, Landroidx/core/util/b;->a:I
 
-    invoke-static {p0, p1}, Landroidx/core/util/c;
-    ->a(Landroidx/core/util/Predicate;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-static {p0, p1}, Landroidx/core/util/c;->a(Landroidx/core/util/Predicate;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     move-result-object p1
 
@@ -49,21 +44,18 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/core/util/b;
-    ->a:I
+    iget v0, p0, Landroidx/core/util/b;->a:I
 
     packed-switch v0, :pswitch_data_0
 
-    invoke-static {p0}, Landroidx/core/util/c;
-    ->b(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-static {p0}, Landroidx/core/util/c;->b(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     move-result-object v0
 
     return-object v0
 
     :pswitch_0
-    invoke-static {p0}, Landroidx/core/util/c;
-    ->b(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-static {p0}, Landroidx/core/util/c;->b(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     move-result-object v0
 
@@ -81,11 +73,9 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/core/util/b;
-    ->a:I
+    iget v0, p0, Landroidx/core/util/b;->a:I
 
-    invoke-static {p0, p1}, Landroidx/core/util/c;
-    ->c(Landroidx/core/util/Predicate;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-static {p0, p1}, Landroidx/core/util/c;->c(Landroidx/core/util/Predicate;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     move-result-object p1
 
@@ -96,29 +86,24 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/core/util/b;
-    ->a:I
+    iget v0, p0, Landroidx/core/util/b;->a:I
 
     packed-switch v0, :pswitch_data_0
 
-    iget-object v0, p0, Landroidx/core/util/b;
-    ->b:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/core/util/b;->b:Ljava/lang/Object;
 
     check-cast v0, Landroidx/core/util/Predicate;
 
-    invoke-static {v0, p1}, Landroidx/core/util/c;
-    ->e(Landroidx/core/util/Predicate;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Landroidx/core/util/c;->e(Landroidx/core/util/Predicate;Ljava/lang/Object;)Z
 
     move-result p1
 
     return p1
 
     :pswitch_0
-    iget-object v0, p0, Landroidx/core/util/b;
-    ->b:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/core/util/b;->b:Ljava/lang/Object;
 
-    invoke-static {v0, p1}, Landroidx/core/util/c;
-    ->i(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Landroidx/core/util/c;->i(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 

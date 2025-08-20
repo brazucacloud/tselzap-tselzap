@@ -19,11 +19,9 @@
 
     new-instance v0, Landroidx/core/os/BundleApi21ImplKt;
 
-    invoke-direct {v0}, Landroidx/core/os/BundleApi21ImplKt;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/core/os/BundleApi21ImplKt;-><init>()V
 
-    sput-object v0, Landroidx/core/os/BundleApi21ImplKt;
-    ->INSTANCE:Landroidx/core/os/BundleApi21ImplKt;
+    sput-object v0, Landroidx/core/os/BundleApi21ImplKt;->INSTANCE:Landroidx/core/os/BundleApi21ImplKt;
 
     return-void
 .end method
@@ -32,8 +30,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -47,8 +44,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/os/Bundle;
-    ->putSize(Ljava/lang/String;Landroid/util/Size;)V
+    invoke-virtual {p0, p1, p2}, Landroid/os/Bundle;->putSize(Ljava/lang/String;Landroid/util/Size;)V
 
     .line 2
     .line 3
@@ -62,8 +58,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/os/Bundle;
-    ->putSizeF(Ljava/lang/String;Landroid/util/SizeF;)V
+    invoke-virtual {p0, p1, p2}, Landroid/os/Bundle;->putSizeF(Ljava/lang/String;Landroid/util/SizeF;)V
 
     .line 2
     .line 3

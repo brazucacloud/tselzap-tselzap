@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -49,8 +48,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/NotificationManager;
-    ->getActiveNotifications()[Landroid/service/notification/StatusBarNotification;
+    invoke-virtual {p0}, Landroid/app/NotificationManager;->getActiveNotifications()[Landroid/service/notification/StatusBarNotification;
 
     .line 2
     .line 3
@@ -66,8 +64,7 @@
 
     .line 8
     .line 9
-    invoke-direct {p0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {p0}, Ljava/util/ArrayList;-><init>()V
 
     .line 10
     .line 11
@@ -76,8 +73,7 @@
 
     .line 13
     :cond_0
-    invoke-static {p0}, Ljava/util/Arrays;
-    ->asList([Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {p0}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     .line 14
     .line 15
@@ -93,8 +89,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/NotificationManager;
-    ->getCurrentInterruptionFilter()I
+    invoke-virtual {p0}, Landroid/app/NotificationManager;->getCurrentInterruptionFilter()I
 
     .line 2
     .line 3

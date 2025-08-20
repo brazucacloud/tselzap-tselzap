@@ -5,8 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/fragment/app/FragmentTransitionCompat21;
-    ->setEpicenter(Ljava/lang/Object;Landroid/view/View;)V
+    value = Landroidx/fragment/app/FragmentTransitionCompat21;->setEpicenter(Ljava/lang/Object;Landroid/view/View;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,18 +25,15 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/fragment/app/FragmentTransitionCompat21$1;
-    ->this$0:Landroidx/fragment/app/FragmentTransitionCompat21;
+    iput-object p1, p0, Landroidx/fragment/app/FragmentTransitionCompat21$1;->this$0:Landroidx/fragment/app/FragmentTransitionCompat21;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/fragment/app/FragmentTransitionCompat21$1;
-    ->val$epicenter:Landroid/graphics/Rect;
+    iput-object p2, p0, Landroidx/fragment/app/FragmentTransitionCompat21$1;->val$epicenter:Landroid/graphics/Rect;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Landroid/transition/Transition$EpicenterCallback;
-    -><init>()V
+    invoke-direct {p0}, Landroid/transition/Transition$EpicenterCallback;-><init>()V
     return-void
 .end method
 
@@ -47,8 +43,7 @@
     .locals 0
 
     .line 1
-    iget-object p1, p0, Landroidx/fragment/app/FragmentTransitionCompat21$1;
-    ->val$epicenter:Landroid/graphics/Rect;    return-object p1
+    iget-object p1, p0, Landroidx/fragment/app/FragmentTransitionCompat21$1;->val$epicenter:Landroid/graphics/Rect;    return-object p1
 .end method
 
 .end class

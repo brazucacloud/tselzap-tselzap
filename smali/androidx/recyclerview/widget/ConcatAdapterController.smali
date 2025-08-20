@@ -66,8 +66,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -76,14 +75,12 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mAttachedRecyclerViews:Ljava/util/List;
+    iput-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mAttachedRecyclerViews:Ljava/util/List;
 
     .line 10
     .line 11
@@ -91,14 +88,12 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Ljava/util/IdentityHashMap;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/IdentityHashMap;-><init>()V
 
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mBinderLookup:Ljava/util/IdentityHashMap;
+    iput-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mBinderLookup:Ljava/util/IdentityHashMap;
 
     .line 17
     .line 18
@@ -106,14 +101,12 @@
 
     .line 19
     .line 20
-    invoke-direct {v0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 21
     .line 22
     .line 23
-    iput-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mWrappers:Ljava/util/List;
+    iput-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mWrappers:Ljava/util/List;
 
     .line 24
     .line 25
@@ -121,24 +114,20 @@
 
     .line 26
     .line 27
-    invoke-direct {v0}, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;-><init>()V
 
     .line 28
     .line 29
     .line 30
-    iput-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mReusableHolder:Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
+    iput-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mReusableHolder:Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
 
     .line 31
     .line 32
-    iput-object p1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mConcatAdapter:Landroidx/recyclerview/widget/ConcatAdapter;
+    iput-object p1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mConcatAdapter:Landroidx/recyclerview/widget/ConcatAdapter;
 
     .line 33
     .line 34
-    iget-boolean p1, p2, Landroidx/recyclerview/widget/ConcatAdapter$Config;
-    ->isolateViewTypes:Z
+    iget-boolean p1, p2, Landroidx/recyclerview/widget/ConcatAdapter$Config;->isolateViewTypes:Z
 
     .line 35
     .line 36
@@ -150,14 +139,12 @@
 
     .line 39
     .line 40
-    invoke-direct {p1}, Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage;
-    -><init>()V
+    invoke-direct {p1}, Landroidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage;-><init>()V
 
     .line 41
     .line 42
     .line 43
-    iput-object p1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mViewTypeStorage:Landroidx/recyclerview/widget/ViewTypeStorage;
+    iput-object p1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mViewTypeStorage:Landroidx/recyclerview/widget/ViewTypeStorage;
 
     .line 44
     .line 45
@@ -169,30 +156,25 @@
 
     .line 47
     .line 48
-    invoke-direct {p1}, Landroidx/recyclerview/widget/ViewTypeStorage$SharedIdRangeViewTypeStorage;
-    -><init>()V
+    invoke-direct {p1}, Landroidx/recyclerview/widget/ViewTypeStorage$SharedIdRangeViewTypeStorage;-><init>()V
 
     .line 49
     .line 50
     .line 51
-    iput-object p1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mViewTypeStorage:Landroidx/recyclerview/widget/ViewTypeStorage;
+    iput-object p1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mViewTypeStorage:Landroidx/recyclerview/widget/ViewTypeStorage;
 
     .line 52
     .line 53
     :goto_0
-    iget-object p1, p2, Landroidx/recyclerview/widget/ConcatAdapter$Config;
-    ->stableIdMode:Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;
+    iget-object p1, p2, Landroidx/recyclerview/widget/ConcatAdapter$Config;->stableIdMode:Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;
 
     .line 54
     .line 55
-    iput-object p1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mStableIdMode:Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;
+    iput-object p1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mStableIdMode:Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;
 
     .line 56
     .line 57
-    sget-object p2, Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;
-    ->NO_STABLE_IDS:Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;
+    sget-object p2, Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;->NO_STABLE_IDS:Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;
 
     .line 58
     .line 59
@@ -204,20 +186,17 @@
 
     .line 62
     .line 63
-    invoke-direct {p1}, Landroidx/recyclerview/widget/StableIdStorage$NoStableIdStorage;
-    -><init>()V
+    invoke-direct {p1}, Landroidx/recyclerview/widget/StableIdStorage$NoStableIdStorage;-><init>()V
 
     .line 64
     .line 65
     .line 66
-    iput-object p1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mStableIdStorage:Landroidx/recyclerview/widget/StableIdStorage;    
+    iput-object p1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mStableIdStorage:Landroidx/recyclerview/widget/StableIdStorage;
     return-void
 
     .line 69
     :cond_1
-    sget-object p2, Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;
-    ->ISOLATED_STABLE_IDS:Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;
+    sget-object p2, Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;->ISOLATED_STABLE_IDS:Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;
 
     .line 70
     .line 71
@@ -229,20 +208,17 @@
 
     .line 74
     .line 75
-    invoke-direct {p1}, Landroidx/recyclerview/widget/StableIdStorage$IsolatedStableIdStorage;
-    -><init>()V
+    invoke-direct {p1}, Landroidx/recyclerview/widget/StableIdStorage$IsolatedStableIdStorage;-><init>()V
 
     .line 76
     .line 77
     .line 78
-    iput-object p1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mStableIdStorage:Landroidx/recyclerview/widget/StableIdStorage;    
+    iput-object p1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mStableIdStorage:Landroidx/recyclerview/widget/StableIdStorage;
     return-void
 
     .line 81
     :cond_2
-    sget-object p2, Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;
-    ->SHARED_STABLE_IDS:Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;
+    sget-object p2, Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;->SHARED_STABLE_IDS:Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;
 
     .line 82
     .line 83
@@ -254,14 +230,12 @@
 
     .line 86
     .line 87
-    invoke-direct {p1}, Landroidx/recyclerview/widget/StableIdStorage$SharedPoolStableIdStorage;
-    -><init>()V
+    invoke-direct {p1}, Landroidx/recyclerview/widget/StableIdStorage$SharedPoolStableIdStorage;-><init>()V
 
     .line 88
     .line 89
     .line 90
-    iput-object p1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mStableIdStorage:Landroidx/recyclerview/widget/StableIdStorage;    
+    iput-object p1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mStableIdStorage:Landroidx/recyclerview/widget/StableIdStorage;
     return-void
 
     .line 93
@@ -274,8 +248,7 @@
 
     .line 96
     .line 97
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 98
     .line 99
@@ -286,8 +259,7 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->computeStateRestorationPolicy()Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;
+    invoke-direct {p0}, Landroidx/recyclerview/widget/ConcatAdapterController;->computeStateRestorationPolicy()Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;
 
     .line 2
     .line 3
@@ -295,13 +267,11 @@
     move-result-object v0
 
     .line 5
-    iget-object v1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mConcatAdapter:Landroidx/recyclerview/widget/ConcatAdapter;
+    iget-object v1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mConcatAdapter:Landroidx/recyclerview/widget/ConcatAdapter;
 
     .line 6
     .line 7
-    invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->getStateRestorationPolicy()Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;
+    invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->getStateRestorationPolicy()Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;
 
     .line 8
     .line 9
@@ -313,13 +283,11 @@
 
     .line 12
     .line 13
-    iget-object v1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mConcatAdapter:Landroidx/recyclerview/widget/ConcatAdapter;
+    iget-object v1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mConcatAdapter:Landroidx/recyclerview/widget/ConcatAdapter;
 
     .line 14
     .line 15
-    invoke-virtual {v1, v0}, Landroidx/recyclerview/widget/ConcatAdapter;
-    ->internalSetStateRestorationPolicy(Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;)V
+    invoke-virtual {v1, v0}, Landroidx/recyclerview/widget/ConcatAdapter;->internalSetStateRestorationPolicy(Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;)V
 
     .line 16
     .line 17
@@ -332,13 +300,11 @@
     .locals 5
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mWrappers:Ljava/util/List;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mWrappers:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 4
     .line 5
@@ -347,8 +313,7 @@
 
     .line 7
     :cond_0
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 8
     .line 9
@@ -360,8 +325,7 @@
 
     .line 12
     .line 13
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -373,13 +337,11 @@
 
     .line 18
     .line 19
-    iget-object v2, v1, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
+    iget-object v2, v1, Landroidx/recyclerview/widget/NestedAdapterWrapper;->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     .line 20
     .line 21
-    invoke-virtual {v2}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->getStateRestorationPolicy()Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;
+    invoke-virtual {v2}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->getStateRestorationPolicy()Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;
 
     .line 22
     .line 23
@@ -387,8 +349,7 @@
     move-result-object v2
 
     .line 25
-    sget-object v3, Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;
-    ->PREVENT:Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;
+    sget-object v3, Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;->PREVENT:Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;
 
     .line 26
     .line 27
@@ -400,8 +361,7 @@
 
     .line 30
     :cond_1
-    sget-object v4, Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;
-    ->PREVENT_WHEN_EMPTY:Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;
+    sget-object v4, Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;->PREVENT_WHEN_EMPTY:Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;
 
     .line 31
     .line 32
@@ -409,8 +369,7 @@
 
     .line 33
     .line 34
-    invoke-virtual {v1}, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->getCachedItemCount()I
+    invoke-virtual {v1}, Landroidx/recyclerview/widget/NestedAdapterWrapper;->getCachedItemCount()I
 
     .line 35
     .line 36
@@ -427,21 +386,18 @@
 
     .line 41
     :cond_2
-    sget-object v0, Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;
-    ->ALLOW:Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;    return-object v0
+    sget-object v0, Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;->ALLOW:Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;    return-object v0
 .end method
 
 .method private countItemsBefore(Landroidx/recyclerview/widget/NestedAdapterWrapper;)I
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mWrappers:Ljava/util/List;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mWrappers:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 4
     .line 5
@@ -453,8 +409,7 @@
 
     .line 8
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 9
     .line 10
@@ -466,8 +421,7 @@
 
     .line 13
     .line 14
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -483,8 +437,7 @@
 
     .line 21
     .line 22
-    invoke-virtual {v2}, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->getCachedItemCount()I
+    invoke-virtual {v2}, Landroidx/recyclerview/widget/NestedAdapterWrapper;->getCachedItemCount()I
 
     .line 23
     .line 24
@@ -508,13 +461,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mReusableHolder:Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mReusableHolder:Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
 
     .line 2
     .line 3
-    iget-boolean v1, v0, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
-    ->mInUse:Z
+    iget-boolean v1, v0, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;->mInUse:Z
 
     .line 4
     .line 5
@@ -526,8 +477,7 @@
 
     .line 8
     .line 9
-    invoke-direct {v0}, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;-><init>()V
 
     .line 10
     .line 11
@@ -539,19 +489,16 @@
     const/4 v1, 0x1
 
     .line 14
-    iput-boolean v1, v0, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
-    ->mInUse:Z
+    iput-boolean v1, v0, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;->mInUse:Z
 
     .line 15
     .line 16
     :goto_0
-    iget-object v1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mWrappers:Ljava/util/List;
+    iget-object v1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mWrappers:Ljava/util/List;
 
     .line 17
     .line 18
-    invoke-interface {v1}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 19
     .line 20
@@ -563,8 +510,7 @@
 
     .line 23
     :goto_1
-    invoke-interface {v1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
     .line 24
     .line 25
@@ -576,8 +522,7 @@
 
     .line 28
     .line 29
-    invoke-interface {v1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 30
     .line 31
@@ -589,8 +534,7 @@
 
     .line 34
     .line 35
-    invoke-virtual {v3}, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->getCachedItemCount()I
+    invoke-virtual {v3}, Landroidx/recyclerview/widget/NestedAdapterWrapper;->getCachedItemCount()I
 
     .line 36
     .line 37
@@ -602,13 +546,11 @@
 
     .line 40
     .line 41
-    iput-object v3, v0, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
-    ->mWrapper:Landroidx/recyclerview/widget/NestedAdapterWrapper;
+    iput-object v3, v0, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;->mWrapper:Landroidx/recyclerview/widget/NestedAdapterWrapper;
 
     .line 42
     .line 43
-    iput v2, v0, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
-    ->mLocalPosition:I
+    iput v2, v0, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;->mLocalPosition:I
 
     .line 44
     .line 45
@@ -616,8 +558,7 @@
 
     .line 46
     :cond_1
-    invoke-virtual {v3}, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->getCachedItemCount()I
+    invoke-virtual {v3}, Landroidx/recyclerview/widget/NestedAdapterWrapper;->getCachedItemCount()I
 
     .line 47
     .line 48
@@ -633,8 +574,7 @@
     .line 52
     :cond_2
     :goto_2
-    iget-object v1, v0, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
-    ->mWrapper:Landroidx/recyclerview/widget/NestedAdapterWrapper;
+    iget-object v1, v0, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;->mWrapper:Landroidx/recyclerview/widget/NestedAdapterWrapper;
 
     .line 53
     .line 54
@@ -650,8 +590,7 @@
 
     .line 60
     .line 61
-    invoke-static {p1, v1}, LA/d;
-    ->c(ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v1}, LA/d;->c(ILjava/lang/String;)Ljava/lang/String;
 
     .line 62
     .line 63
@@ -659,8 +598,7 @@
     move-result-object p1
 
     .line 65
-    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 66
     .line 67
@@ -683,8 +621,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->indexOfWrapper(Landroidx/recyclerview/widget/RecyclerView$Adapter;)I
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;->indexOfWrapper(Landroidx/recyclerview/widget/RecyclerView$Adapter;)I
 
     .line 2
     .line 3
@@ -705,13 +642,11 @@
 
     .line 10
     :cond_0
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mWrappers:Ljava/util/List;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mWrappers:Ljava/util/List;
 
     .line 11
     .line 12
-    invoke-interface {v0, p1}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -728,13 +663,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mBinderLookup:Ljava/util/IdentityHashMap;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mBinderLookup:Ljava/util/IdentityHashMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/IdentityHashMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Ljava/util/IdentityHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -762,14 +695,12 @@
 
     .line 17
     .line 18
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 19
     .line 20
     .line 21
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 22
     .line 23
@@ -778,20 +709,17 @@
 
     .line 25
     .line 26
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 27
     .line 28
     .line 29
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 30
     .line 31
     .line 32
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 33
     .line 34
@@ -799,8 +727,7 @@
     move-result-object p1
 
     .line 36
-    invoke-direct {v0, p1}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 37
     .line 38
@@ -819,13 +746,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mWrappers:Ljava/util/List;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mWrappers:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     .line 4
     .line 5
@@ -841,13 +766,11 @@
 
     .line 9
     .line 10
-    iget-object v2, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mWrappers:Ljava/util/List;
+    iget-object v2, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mWrappers:Ljava/util/List;
 
     .line 11
     .line 12
-    invoke-interface {v2, v1}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v2, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -859,8 +782,7 @@
 
     .line 17
     .line 18
-    iget-object v2, v2, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
+    iget-object v2, v2, Landroidx/recyclerview/widget/NestedAdapterWrapper;->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     .line 19
     .line 20
@@ -885,13 +807,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mAttachedRecyclerViews:Ljava/util/List;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mAttachedRecyclerViews:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 4
     .line 5
@@ -900,8 +820,7 @@
 
     .line 7
     :cond_0
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 8
     .line 9
@@ -913,8 +832,7 @@
 
     .line 12
     .line 13
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -926,8 +844,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {v1}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -957,29 +874,25 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p1, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
-    ->mInUse:Z
+    iput-boolean v0, p1, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;->mInUse:Z
 
     .line 3
     .line 4
     const/4 v0, 0x0
 
     .line 5
-    iput-object v0, p1, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
-    ->mWrapper:Landroidx/recyclerview/widget/NestedAdapterWrapper;
+    iput-object v0, p1, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;->mWrapper:Landroidx/recyclerview/widget/NestedAdapterWrapper;
 
     .line 6
     .line 7
     const/4 v0, -0x1
 
     .line 8
-    iput v0, p1, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
-    ->mLocalPosition:I
+    iput v0, p1, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;->mLocalPosition:I
 
     .line 9
     .line 10
-    iput-object p1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mReusableHolder:Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;    
+    iput-object p1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mReusableHolder:Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
     return-void
 .end method
 
@@ -999,41 +912,35 @@
     if-ltz p1, :cond_6
 
     .line 2
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mWrappers:Ljava/util/List;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mWrappers:Ljava/util/List;
 
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v0
 
     if-gt p1, v0, :cond_6
 
     .line 3
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->hasStableIds()Z
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/ConcatAdapterController;->hasStableIds()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
     .line 4
-    invoke-virtual {p2}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->hasStableIds()Z
+    invoke-virtual {p2}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->hasStableIds()Z
 
     move-result v0
 
     const-string v1, "All sub adapters must have stable ids when stable id mode is ISOLATED_STABLE_IDS or SHARED_STABLE_IDS"
 
-    invoke-static {v0, v1}, Landroidx/core/util/Preconditions;
-    ->checkArgument(ZLjava/lang/Object;)V
+    invoke-static {v0, v1}, Landroidx/core/util/Preconditions;->checkArgument(ZLjava/lang/Object;)V
 
     goto :goto_0
 
     .line 5
     :cond_0
-    invoke-virtual {p2}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->hasStableIds()Z
+    invoke-virtual {p2}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->hasStableIds()Z
 
     move-result v0
 
@@ -1044,14 +951,12 @@
 
     const-string v1, "Stable ids in the adapter will be ignored as the ConcatAdapter is configured not to have stable ids"
 
-    invoke-static {v0, v1}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 7
     :cond_1
     :goto_0
-    invoke-direct {p0, p2}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->findWrapperFor(Landroidx/recyclerview/widget/RecyclerView$Adapter;)Landroidx/recyclerview/widget/NestedAdapterWrapper;
+    invoke-direct {p0, p2}, Landroidx/recyclerview/widget/ConcatAdapterController;->findWrapperFor(Landroidx/recyclerview/widget/RecyclerView$Adapter;)Landroidx/recyclerview/widget/NestedAdapterWrapper;
 
     move-result-object v0
 
@@ -1065,56 +970,45 @@
     :cond_2
     new-instance v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;
 
-    iget-object v1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mViewTypeStorage:Landroidx/recyclerview/widget/ViewTypeStorage;
+    iget-object v1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mViewTypeStorage:Landroidx/recyclerview/widget/ViewTypeStorage;
 
-    iget-object v2, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mStableIdStorage:Landroidx/recyclerview/widget/StableIdStorage;
+    iget-object v2, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mStableIdStorage:Landroidx/recyclerview/widget/StableIdStorage;
 
     .line 9
-    invoke-interface {v2}, Landroidx/recyclerview/widget/StableIdStorage;
-    ->createStableIdLookup()Landroidx/recyclerview/widget/StableIdStorage$StableIdLookup;
+    invoke-interface {v2}, Landroidx/recyclerview/widget/StableIdStorage;->createStableIdLookup()Landroidx/recyclerview/widget/StableIdStorage$StableIdLookup;
 
     move-result-object v2
 
-    invoke-direct {v0, p2, p0, v1, v2}, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    -><init>(Landroidx/recyclerview/widget/RecyclerView$Adapter;Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;Landroidx/recyclerview/widget/ViewTypeStorage;Landroidx/recyclerview/widget/StableIdStorage$StableIdLookup;)V
+    invoke-direct {v0, p2, p0, v1, v2}, Landroidx/recyclerview/widget/NestedAdapterWrapper;-><init>(Landroidx/recyclerview/widget/RecyclerView$Adapter;Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;Landroidx/recyclerview/widget/ViewTypeStorage;Landroidx/recyclerview/widget/StableIdStorage$StableIdLookup;)V
 
     .line 10
-    iget-object v1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mWrappers:Ljava/util/List;
+    iget-object v1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mWrappers:Ljava/util/List;
 
-    invoke-interface {v1, p1, v0}, Ljava/util/List;
-    ->add(ILjava/lang/Object;)V
+    invoke-interface {v1, p1, v0}, Ljava/util/List;->add(ILjava/lang/Object;)V
 
     .line 11
-    iget-object p1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mAttachedRecyclerViews:Ljava/util/List;
+    iget-object p1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mAttachedRecyclerViews:Ljava/util/List;
 
-    invoke-interface {p1}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
     :cond_3
     :goto_1
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v1
 
     if-eqz v1, :cond_4
 
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Ljava/lang/ref/WeakReference;
 
     .line 12
-    invoke-virtual {v1}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -1123,44 +1017,37 @@
     if-eqz v1, :cond_3
 
     .line 13
-    invoke-virtual {p2, v1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->onAttachedToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
+    invoke-virtual {p2, v1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->onAttachedToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
 
     goto :goto_1
 
     .line 14
     :cond_4
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->getCachedItemCount()I
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/NestedAdapterWrapper;->getCachedItemCount()I
 
     move-result p1
 
     if-lez p1, :cond_5
 
     .line 15
-    iget-object p1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mConcatAdapter:Landroidx/recyclerview/widget/ConcatAdapter;
+    iget-object p1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mConcatAdapter:Landroidx/recyclerview/widget/ConcatAdapter;
 
     .line 16
-    invoke-direct {p0, v0}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->countItemsBefore(Landroidx/recyclerview/widget/NestedAdapterWrapper;)I
+    invoke-direct {p0, v0}, Landroidx/recyclerview/widget/ConcatAdapterController;->countItemsBefore(Landroidx/recyclerview/widget/NestedAdapterWrapper;)I
 
     move-result p2
 
     .line 17
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->getCachedItemCount()I
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/NestedAdapterWrapper;->getCachedItemCount()I
 
     move-result v0
 
     .line 18
-    invoke-virtual {p1, p2, v0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->notifyItemRangeInserted(II)V
+    invoke-virtual {p1, p2, v0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyItemRangeInserted(II)V
 
     .line 19
     :cond_5
-    invoke-direct {p0}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->calculateAndUpdateStateRestorationPolicy()V
+    invoke-direct {p0}, Landroidx/recyclerview/widget/ConcatAdapterController;->calculateAndUpdateStateRestorationPolicy()V
 
     const/4 p1, 0x1
 
@@ -1174,36 +1061,28 @@
 
     const-string v1, "Index must be between 0 and "
 
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mWrappers:Ljava/util/List;
+    iget-object v1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mWrappers:Ljava/util/List;
 
     .line 21
-    invoke-interface {v1}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result v1
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     const-string v1, ". Given:"
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-direct {p2, p1}, Ljava/lang/IndexOutOfBoundsException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p1}, Ljava/lang/IndexOutOfBoundsException;-><init>(Ljava/lang/String;)V
 
     throw p2
 .end method
@@ -1220,16 +1099,13 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mWrappers:Ljava/util/List;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mWrappers:Ljava/util/List;
 
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v0
 
-    invoke-virtual {p0, v0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->addAdapter(ILandroidx/recyclerview/widget/RecyclerView$Adapter;)Z
+    invoke-virtual {p0, v0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;->addAdapter(ILandroidx/recyclerview/widget/RecyclerView$Adapter;)Z
 
     move-result p1
 
@@ -1240,13 +1116,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mWrappers:Ljava/util/List;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mWrappers:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 4
     .line 5
@@ -1255,8 +1129,7 @@
 
     .line 7
     :cond_0
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 8
     .line 9
@@ -1268,8 +1141,7 @@
 
     .line 12
     .line 13
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -1281,13 +1153,11 @@
 
     .line 18
     .line 19
-    iget-object v1, v1, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
+    iget-object v1, v1, Landroidx/recyclerview/widget/NestedAdapterWrapper;->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     .line 20
     .line 21
-    invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->canRestoreState()Z
+    invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->canRestoreState()Z
 
     .line 22
     .line 23
@@ -1328,13 +1198,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mBinderLookup:Ljava/util/IdentityHashMap;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mBinderLookup:Ljava/util/IdentityHashMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/IdentityHashMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Ljava/util/IdentityHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -1356,8 +1224,7 @@
 
     .line 13
     :cond_0
-    iget-object p1, p1, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;    return-object p1
+    iget-object p1, p1, Landroidx/recyclerview/widget/NestedAdapterWrapper;->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;    return-object p1
 .end method
 
 .method public getCopyOfAdapters()Ljava/util/List;
@@ -1374,13 +1241,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mWrappers:Ljava/util/List;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mWrappers:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/List;
-    ->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
 
     .line 4
     .line 5
@@ -1392,8 +1257,7 @@
 
     .line 8
     .line 9
-    sget-object v0, Ljava/util/Collections;
-    ->EMPTY_LIST:Ljava/util/List;    return-object v0
+    sget-object v0, Ljava/util/Collections;->EMPTY_LIST:Ljava/util/List;    return-object v0
 
     .line 12
     :cond_0
@@ -1401,13 +1265,11 @@
 
     .line 13
     .line 14
-    iget-object v1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mWrappers:Ljava/util/List;
+    iget-object v1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mWrappers:Ljava/util/List;
 
     .line 15
     .line 16
-    invoke-interface {v1}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v1}, Ljava/util/List;->size()I
 
     .line 17
     .line 18
@@ -1415,19 +1277,16 @@
     move-result v1
 
     .line 20
-    invoke-direct {v0, v1}, Ljava/util/ArrayList;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
     .line 21
     .line 22
     .line 23
-    iget-object v1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mWrappers:Ljava/util/List;
+    iget-object v1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mWrappers:Ljava/util/List;
 
     .line 24
     .line 25
-    invoke-interface {v1}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 26
     .line 27
@@ -1436,8 +1295,7 @@
 
     .line 29
     :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
     .line 30
     .line 31
@@ -1449,8 +1307,7 @@
 
     .line 34
     .line 35
-    invoke-interface {v1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 36
     .line 37
@@ -1462,13 +1319,11 @@
 
     .line 40
     .line 41
-    iget-object v2, v2, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
+    iget-object v2, v2, Landroidx/recyclerview/widget/NestedAdapterWrapper;->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     .line 42
     .line 43
-    invoke-virtual {v0, v2}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 44
     .line 45
@@ -1484,8 +1339,7 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->findWrapperAndLocalPosition(I)Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;->findWrapperAndLocalPosition(I)Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
 
     .line 2
     .line 3
@@ -1493,18 +1347,15 @@
     move-result-object p1
 
     .line 5
-    iget-object v0, p1, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
-    ->mWrapper:Landroidx/recyclerview/widget/NestedAdapterWrapper;
+    iget-object v0, p1, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;->mWrapper:Landroidx/recyclerview/widget/NestedAdapterWrapper;
 
     .line 6
     .line 7
-    iget v1, p1, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
-    ->mLocalPosition:I
+    iget v1, p1, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;->mLocalPosition:I
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->getItemId(I)J
+    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/NestedAdapterWrapper;->getItemId(I)J
 
     .line 10
     .line 11
@@ -1512,8 +1363,7 @@
     move-result-wide v0
 
     .line 13
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->releaseWrapperAndLocalPosition(Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;)V
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;->releaseWrapperAndLocalPosition(Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;)V
 return-wide v0
 .end method
 
@@ -1521,8 +1371,7 @@ return-wide v0
     .locals 2
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->findWrapperAndLocalPosition(I)Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;->findWrapperAndLocalPosition(I)Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
 
     .line 2
     .line 3
@@ -1530,18 +1379,15 @@ return-wide v0
     move-result-object p1
 
     .line 5
-    iget-object v0, p1, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
-    ->mWrapper:Landroidx/recyclerview/widget/NestedAdapterWrapper;
+    iget-object v0, p1, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;->mWrapper:Landroidx/recyclerview/widget/NestedAdapterWrapper;
 
     .line 6
     .line 7
-    iget v1, p1, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
-    ->mLocalPosition:I
+    iget v1, p1, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;->mLocalPosition:I
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->getItemViewType(I)I
+    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/NestedAdapterWrapper;->getItemViewType(I)I
 
     .line 10
     .line 11
@@ -1549,8 +1395,7 @@ return-wide v0
     move-result v0
 
     .line 13
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->releaseWrapperAndLocalPosition(Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;)V    
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;->releaseWrapperAndLocalPosition(Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;)V
     return v0
 .end method
 
@@ -1569,13 +1414,11 @@ return-wide v0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mBinderLookup:Ljava/util/IdentityHashMap;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mBinderLookup:Ljava/util/IdentityHashMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p2}, Ljava/util/IdentityHashMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p2}, Ljava/util/IdentityHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -1597,8 +1440,7 @@ return-wide v0
 
     .line 13
     :cond_0
-    invoke-direct {p0, v0}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->countItemsBefore(Landroidx/recyclerview/widget/NestedAdapterWrapper;)I
+    invoke-direct {p0, v0}, Landroidx/recyclerview/widget/ConcatAdapterController;->countItemsBefore(Landroidx/recyclerview/widget/NestedAdapterWrapper;)I
 
     .line 14
     .line 15
@@ -1609,13 +1451,11 @@ return-wide v0
     sub-int/2addr p3, v1
 
     .line 18
-    iget-object v1, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
+    iget-object v1, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     .line 19
     .line 20
-    invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->getItemCount()I
+    invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->getItemCount()I
 
     .line 21
     .line 22
@@ -1631,13 +1471,11 @@ return-wide v0
 
     .line 27
     .line 28
-    iget-object v0, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
+    iget-object v0, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     .line 29
     .line 30
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->findRelativeAdapterPositionIn(Landroidx/recyclerview/widget/RecyclerView$Adapter;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)I
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->findRelativeAdapterPositionIn(Landroidx/recyclerview/widget/RecyclerView$Adapter;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)I
 
     .line 31
     .line 32
@@ -1664,8 +1502,7 @@ return-wide v0
 
     .line 42
     .line 43
-    invoke-static {v2, p3, v3, v1, v4}, LA/d;
-    ->q(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2, p3, v3, v1, v4}, LA/d;->q(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 44
     .line 45
@@ -1673,8 +1510,7 @@ return-wide v0
     move-result-object p3
 
     .line 47
-    invoke-virtual {p3, p2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p3, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 48
     .line 49
@@ -1683,20 +1519,17 @@ return-wide v0
 
     .line 51
     .line 52
-    invoke-virtual {p3, p2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p3, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 53
     .line 54
     .line 55
-    invoke-virtual {p3, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 56
     .line 57
     .line 58
-    invoke-virtual {p3}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 59
     .line 60
@@ -1704,8 +1537,7 @@ return-wide v0
     move-result-object p1
 
     .line 62
-    invoke-direct {v0, p1}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 63
     .line 64
@@ -1716,13 +1548,11 @@ return-wide v0
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mWrappers:Ljava/util/List;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mWrappers:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 4
     .line 5
@@ -1734,8 +1564,7 @@ return-wide v0
 
     .line 8
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 9
     .line 10
@@ -1747,8 +1576,7 @@ return-wide v0
 
     .line 13
     .line 14
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -1760,8 +1588,7 @@ return-wide v0
 
     .line 19
     .line 20
-    invoke-virtual {v2}, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->getCachedItemCount()I
+    invoke-virtual {v2}, Landroidx/recyclerview/widget/NestedAdapterWrapper;->getCachedItemCount()I
 
     .line 21
     .line 22
@@ -1795,8 +1622,7 @@ return-wide v0
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->findWrapperAndLocalPosition(I)Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;->findWrapperAndLocalPosition(I)Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
 
     .line 2
     .line 3
@@ -1808,23 +1634,19 @@ return-wide v0
 
     .line 6
     .line 7
-    iget-object v1, p1, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
-    ->mWrapper:Landroidx/recyclerview/widget/NestedAdapterWrapper;
+    iget-object v1, p1, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;->mWrapper:Landroidx/recyclerview/widget/NestedAdapterWrapper;
 
     .line 8
     .line 9
-    iget-object v1, v1, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
+    iget-object v1, v1, Landroidx/recyclerview/widget/NestedAdapterWrapper;->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     .line 10
     .line 11
-    iget v2, p1, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
-    ->mLocalPosition:I
+    iget v2, p1, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;->mLocalPosition:I
 
     .line 12
     .line 13
-    invoke-static {v2}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 14
     .line 15
@@ -1832,14 +1654,12 @@ return-wide v0
     move-result-object v2
 
     .line 17
-    invoke-direct {v0, v1, v2}, Landroid/util/Pair;
-    -><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v0, v1, v2}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 18
     .line 19
     .line 20
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->releaseWrapperAndLocalPosition(Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;)V
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;->releaseWrapperAndLocalPosition(Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;)V
 return-object v0
 .end method
 
@@ -1847,13 +1667,11 @@ return-object v0
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mStableIdMode:Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mStableIdMode:Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;
 
     .line 2
     .line 3
-    sget-object v1, Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;
-    ->NO_STABLE_IDS:Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;
+    sget-object v1, Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;->NO_STABLE_IDS:Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;
 
     .line 4
     .line 5
@@ -1876,8 +1694,7 @@ return-object v0
     .locals 2
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->isAttachedTo(Landroidx/recyclerview/widget/RecyclerView;)Z
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;->isAttachedTo(Landroidx/recyclerview/widget/RecyclerView;)Z
 
     .line 2
     .line 3
@@ -1893,8 +1710,7 @@ return-object v0
 
     .line 8
     :cond_0
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mAttachedRecyclerViews:Ljava/util/List;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mAttachedRecyclerViews:Ljava/util/List;
 
     .line 9
     .line 10
@@ -1902,25 +1718,21 @@ return-object v0
 
     .line 11
     .line 12
-    invoke-direct {v1, p1}, Ljava/lang/ref/WeakReference;
-    -><init>(Ljava/lang/Object;)V
+    invoke-direct {v1, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     .line 13
     .line 14
     .line 15
-    invoke-interface {v0, v1}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 16
     .line 17
     .line 18
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mWrappers:Ljava/util/List;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mWrappers:Ljava/util/List;
 
     .line 19
     .line 20
-    invoke-interface {v0}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 21
     .line 22
@@ -1929,8 +1741,7 @@ return-object v0
 
     .line 24
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 25
     .line 26
@@ -1942,8 +1753,7 @@ return-object v0
 
     .line 29
     .line 30
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 31
     .line 32
@@ -1955,13 +1765,11 @@ return-object v0
 
     .line 35
     .line 36
-    iget-object v1, v1, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
+    iget-object v1, v1, Landroidx/recyclerview/widget/NestedAdapterWrapper;->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     .line 37
     .line 38
-    invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->onAttachedToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
+    invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->onAttachedToRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
 
     .line 39
     .line 40
@@ -1978,8 +1786,7 @@ return-object v0
     .locals 2
 
     .line 1
-    invoke-direct {p0, p2}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->findWrapperAndLocalPosition(I)Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
+    invoke-direct {p0, p2}, Landroidx/recyclerview/widget/ConcatAdapterController;->findWrapperAndLocalPosition(I)Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
 
     .line 2
     .line 3
@@ -1987,40 +1794,33 @@ return-object v0
     move-result-object p2
 
     .line 5
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mBinderLookup:Ljava/util/IdentityHashMap;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mBinderLookup:Ljava/util/IdentityHashMap;
 
     .line 6
     .line 7
-    iget-object v1, p2, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
-    ->mWrapper:Landroidx/recyclerview/widget/NestedAdapterWrapper;
+    iget-object v1, p2, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;->mWrapper:Landroidx/recyclerview/widget/NestedAdapterWrapper;
 
     .line 8
     .line 9
-    invoke-virtual {v0, p1, v1}, Ljava/util/IdentityHashMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, v1}, Ljava/util/IdentityHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 10
     .line 11
     .line 12
-    iget-object v0, p2, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
-    ->mWrapper:Landroidx/recyclerview/widget/NestedAdapterWrapper;
+    iget-object v0, p2, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;->mWrapper:Landroidx/recyclerview/widget/NestedAdapterWrapper;
 
     .line 13
     .line 14
-    iget v1, p2, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;
-    ->mLocalPosition:I
+    iget v1, p2, Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;->mLocalPosition:I
 
     .line 15
     .line 16
-    invoke-virtual {v0, p1, v1}, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V
+    invoke-virtual {v0, p1, v1}, Landroidx/recyclerview/widget/NestedAdapterWrapper;->onBindViewHolder(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)V
 
     .line 17
     .line 18
     .line 19
-    invoke-direct {p0, p2}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->releaseWrapperAndLocalPosition(Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;)V
+    invoke-direct {p0, p2}, Landroidx/recyclerview/widget/ConcatAdapterController;->releaseWrapperAndLocalPosition(Landroidx/recyclerview/widget/ConcatAdapterController$WrapperAndLocalPosition;)V
 return-void
 .end method
 
@@ -2032,19 +1832,16 @@ return-void
     .end param
 
     .line 1
-    iget-object p1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mConcatAdapter:Landroidx/recyclerview/widget/ConcatAdapter;
+    iget-object p1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mConcatAdapter:Landroidx/recyclerview/widget/ConcatAdapter;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->notifyDataSetChanged()V
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyDataSetChanged()V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->calculateAndUpdateStateRestorationPolicy()V
+    invoke-direct {p0}, Landroidx/recyclerview/widget/ConcatAdapterController;->calculateAndUpdateStateRestorationPolicy()V
     return-void
 .end method
 
@@ -2052,13 +1849,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mViewTypeStorage:Landroidx/recyclerview/widget/ViewTypeStorage;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mViewTypeStorage:Landroidx/recyclerview/widget/ViewTypeStorage;
 
     .line 2
     .line 3
-    invoke-interface {v0, p2}, Landroidx/recyclerview/widget/ViewTypeStorage;
-    ->getWrapperForGlobalType(I)Landroidx/recyclerview/widget/NestedAdapterWrapper;
+    invoke-interface {v0, p2}, Landroidx/recyclerview/widget/ViewTypeStorage;->getWrapperForGlobalType(I)Landroidx/recyclerview/widget/NestedAdapterWrapper;
 
     .line 4
     .line 5
@@ -2066,8 +1861,7 @@ return-void
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0, p1, p2}, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    invoke-virtual {v0, p1, p2}, Landroidx/recyclerview/widget/NestedAdapterWrapper;->onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
 
     .line 8
     .line 9
@@ -2081,13 +1875,11 @@ return-void
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mAttachedRecyclerViews:Ljava/util/List;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mAttachedRecyclerViews:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     .line 4
     .line 5
@@ -2104,13 +1896,11 @@ return-void
 
     .line 10
     .line 11
-    iget-object v1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mAttachedRecyclerViews:Ljava/util/List;
+    iget-object v1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mAttachedRecyclerViews:Ljava/util/List;
 
     .line 12
     .line 13
-    invoke-interface {v1, v0}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -2122,8 +1912,7 @@ return-void
 
     .line 18
     .line 19
-    invoke-virtual {v1}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -2135,13 +1924,11 @@ return-void
 
     .line 24
     .line 25
-    iget-object v1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mAttachedRecyclerViews:Ljava/util/List;
+    iget-object v1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mAttachedRecyclerViews:Ljava/util/List;
 
     .line 26
     .line 27
-    invoke-interface {v1, v0}, Ljava/util/List;
-    ->remove(I)Ljava/lang/Object;
+    invoke-interface {v1, v0}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -2150,8 +1937,7 @@ return-void
 
     .line 31
     :cond_0
-    invoke-virtual {v1}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 32
     .line 33
@@ -2163,13 +1949,11 @@ return-void
 
     .line 36
     .line 37
-    iget-object v1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mAttachedRecyclerViews:Ljava/util/List;
+    iget-object v1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mAttachedRecyclerViews:Ljava/util/List;
 
     .line 38
     .line 39
-    invoke-interface {v1, v0}, Ljava/util/List;
-    ->remove(I)Ljava/lang/Object;
+    invoke-interface {v1, v0}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
     .line 40
     .line 41
@@ -2188,13 +1972,11 @@ return-void
     .line 46
     :cond_2
     :goto_2
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mWrappers:Ljava/util/List;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mWrappers:Ljava/util/List;
 
     .line 47
     .line 48
-    invoke-interface {v0}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 49
     .line 50
@@ -2203,8 +1985,7 @@ return-void
 
     .line 52
     :goto_3
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 53
     .line 54
@@ -2216,8 +1997,7 @@ return-void
 
     .line 57
     .line 58
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 59
     .line 60
@@ -2229,13 +2009,11 @@ return-void
 
     .line 63
     .line 64
-    iget-object v1, v1, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
+    iget-object v1, v1, Landroidx/recyclerview/widget/NestedAdapterWrapper;->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     .line 65
     .line 66
-    invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->onDetachedFromRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
+    invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->onDetachedFromRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
 
     .line 67
     .line 68
@@ -2251,13 +2029,11 @@ return-void
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mBinderLookup:Ljava/util/IdentityHashMap;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mBinderLookup:Ljava/util/IdentityHashMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/IdentityHashMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Ljava/util/IdentityHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -2273,13 +2049,11 @@ return-void
 
     .line 10
     .line 11
-    iget-object v0, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
+    iget-object v0, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     .line 12
     .line 13
-    invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->onFailedToRecycleView(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)Z
+    invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->onFailedToRecycleView(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)Z
 
     .line 14
     .line 15
@@ -2287,13 +2061,11 @@ return-void
     move-result v0
 
     .line 17
-    iget-object v1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mBinderLookup:Ljava/util/IdentityHashMap;
+    iget-object v1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mBinderLookup:Ljava/util/IdentityHashMap;
 
     .line 18
     .line 19
-    invoke-virtual {v1, p1}, Ljava/util/IdentityHashMap;
-    ->remove(Ljava/lang/Object;)Ljava/lang/Object;    
+    invoke-virtual {v1, p1}, Ljava/util/IdentityHashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
     return v0
 
     .line 23
@@ -2310,14 +2082,12 @@ return-void
 
     .line 28
     .line 29
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 30
     .line 31
     .line 32
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 33
     .line 34
@@ -2326,20 +2096,17 @@ return-void
 
     .line 36
     .line 37
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 38
     .line 39
     .line 40
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 41
     .line 42
     .line 43
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 44
     .line 45
@@ -2347,8 +2114,7 @@ return-void
     move-result-object p1
 
     .line 47
-    invoke-direct {v0, p1}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 48
     .line 49
@@ -2363,19 +2129,16 @@ return-void
     .end param
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->countItemsBefore(Landroidx/recyclerview/widget/NestedAdapterWrapper;)I
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;->countItemsBefore(Landroidx/recyclerview/widget/NestedAdapterWrapper;)I
 
     move-result p1
 
     .line 2
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mConcatAdapter:Landroidx/recyclerview/widget/ConcatAdapter;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mConcatAdapter:Landroidx/recyclerview/widget/ConcatAdapter;
 
     add-int/2addr p2, p1
 
-    invoke-virtual {v0, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->notifyItemRangeChanged(II)V
+    invoke-virtual {v0, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyItemRangeChanged(II)V
 
     return-void
 .end method
@@ -2392,19 +2155,16 @@ return-void
     .end param
 
     .line 3
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->countItemsBefore(Landroidx/recyclerview/widget/NestedAdapterWrapper;)I
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;->countItemsBefore(Landroidx/recyclerview/widget/NestedAdapterWrapper;)I
 
     move-result p1
 
     .line 4
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mConcatAdapter:Landroidx/recyclerview/widget/ConcatAdapter;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mConcatAdapter:Landroidx/recyclerview/widget/ConcatAdapter;
 
     add-int/2addr p2, p1
 
-    invoke-virtual {v0, p2, p3, p4}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->notifyItemRangeChanged(IILjava/lang/Object;)V
+    invoke-virtual {v0, p2, p3, p4}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyItemRangeChanged(IILjava/lang/Object;)V
 
     return-void
 .end method
@@ -2417,8 +2177,7 @@ return-void
     .end param
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->countItemsBefore(Landroidx/recyclerview/widget/NestedAdapterWrapper;)I
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;->countItemsBefore(Landroidx/recyclerview/widget/NestedAdapterWrapper;)I
 
     .line 2
     .line 3
@@ -2426,16 +2185,14 @@ return-void
     move-result p1
 
     .line 5
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mConcatAdapter:Landroidx/recyclerview/widget/ConcatAdapter;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mConcatAdapter:Landroidx/recyclerview/widget/ConcatAdapter;
 
     .line 6
     .line 7
     add-int/2addr p2, p1
 
     .line 8
-    invoke-virtual {v0, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->notifyItemRangeInserted(II)V    
+    invoke-virtual {v0, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyItemRangeInserted(II)V
     return-void
 .end method
 
@@ -2447,8 +2204,7 @@ return-void
     .end param
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->countItemsBefore(Landroidx/recyclerview/widget/NestedAdapterWrapper;)I
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;->countItemsBefore(Landroidx/recyclerview/widget/NestedAdapterWrapper;)I
 
     .line 2
     .line 3
@@ -2456,8 +2212,7 @@ return-void
     move-result p1
 
     .line 5
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mConcatAdapter:Landroidx/recyclerview/widget/ConcatAdapter;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mConcatAdapter:Landroidx/recyclerview/widget/ConcatAdapter;
 
     .line 6
     .line 7
@@ -2467,8 +2222,7 @@ return-void
     add-int/2addr p3, p1
 
     .line 9
-    invoke-virtual {v0, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->notifyItemMoved(II)V    
+    invoke-virtual {v0, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyItemMoved(II)V
     return-void
 .end method
 
@@ -2480,8 +2234,7 @@ return-void
     .end param
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->countItemsBefore(Landroidx/recyclerview/widget/NestedAdapterWrapper;)I
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;->countItemsBefore(Landroidx/recyclerview/widget/NestedAdapterWrapper;)I
 
     .line 2
     .line 3
@@ -2489,16 +2242,14 @@ return-void
     move-result p1
 
     .line 5
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mConcatAdapter:Landroidx/recyclerview/widget/ConcatAdapter;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mConcatAdapter:Landroidx/recyclerview/widget/ConcatAdapter;
 
     .line 6
     .line 7
     add-int/2addr p2, p1
 
     .line 8
-    invoke-virtual {v0, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->notifyItemRangeRemoved(II)V    
+    invoke-virtual {v0, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyItemRangeRemoved(II)V
     return-void
 .end method
 
@@ -2506,8 +2257,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->calculateAndUpdateStateRestorationPolicy()V
+    invoke-direct {p0}, Landroidx/recyclerview/widget/ConcatAdapterController;->calculateAndUpdateStateRestorationPolicy()V
     return-void
 .end method
 
@@ -2515,8 +2265,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->getWrapper(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)Landroidx/recyclerview/widget/NestedAdapterWrapper;
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;->getWrapper(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)Landroidx/recyclerview/widget/NestedAdapterWrapper;
 
     .line 2
     .line 3
@@ -2524,13 +2273,11 @@ return-void
     move-result-object v0
 
     .line 5
-    iget-object v0, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
+    iget-object v0, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     .line 6
     .line 7
-    invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->onViewAttachedToWindow(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V    
+    invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->onViewAttachedToWindow(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
     return-void
 .end method
 
@@ -2538,8 +2285,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->getWrapper(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)Landroidx/recyclerview/widget/NestedAdapterWrapper;
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;->getWrapper(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)Landroidx/recyclerview/widget/NestedAdapterWrapper;
 
     .line 2
     .line 3
@@ -2547,13 +2293,11 @@ return-void
     move-result-object v0
 
     .line 5
-    iget-object v0, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
+    iget-object v0, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     .line 6
     .line 7
-    invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->onViewDetachedFromWindow(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V    
+    invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->onViewDetachedFromWindow(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
     return-void
 .end method
 
@@ -2561,13 +2305,11 @@ return-void
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mBinderLookup:Ljava/util/IdentityHashMap;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mBinderLookup:Ljava/util/IdentityHashMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/IdentityHashMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Ljava/util/IdentityHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -2583,24 +2325,20 @@ return-void
 
     .line 10
     .line 11
-    iget-object v0, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
+    iget-object v0, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     .line 12
     .line 13
-    invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->onViewRecycled(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
+    invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->onViewRecycled(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
 
     .line 14
     .line 15
     .line 16
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mBinderLookup:Ljava/util/IdentityHashMap;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mBinderLookup:Ljava/util/IdentityHashMap;
 
     .line 17
     .line 18
-    invoke-virtual {v0, p1}, Ljava/util/IdentityHashMap;
-    ->remove(Ljava/lang/Object;)Ljava/lang/Object;    
+    invoke-virtual {v0, p1}, Ljava/util/IdentityHashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
     return-void
 
     .line 22
@@ -2617,14 +2355,12 @@ return-void
 
     .line 27
     .line 28
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 29
     .line 30
     .line 31
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 32
     .line 33
@@ -2633,20 +2369,17 @@ return-void
 
     .line 35
     .line 36
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 37
     .line 38
     .line 39
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 40
     .line 41
     .line 42
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 43
     .line 44
@@ -2654,8 +2387,7 @@ return-void
     move-result-object p1
 
     .line 46
-    invoke-direct {v0, p1}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 47
     .line 48
@@ -2674,8 +2406,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->indexOfWrapper(Landroidx/recyclerview/widget/RecyclerView$Adapter;)I
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/ConcatAdapterController;->indexOfWrapper(Landroidx/recyclerview/widget/RecyclerView$Adapter;)I
 
     .line 2
     .line 3
@@ -2696,13 +2427,11 @@ return-void
 
     .line 10
     :cond_0
-    iget-object v1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mWrappers:Ljava/util/List;
+    iget-object v1, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mWrappers:Ljava/util/List;
 
     .line 11
     .line 12
-    invoke-interface {v1, v0}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -2714,8 +2443,7 @@ return-void
 
     .line 17
     .line 18
-    invoke-direct {p0, v1}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->countItemsBefore(Landroidx/recyclerview/widget/NestedAdapterWrapper;)I
+    invoke-direct {p0, v1}, Landroidx/recyclerview/widget/ConcatAdapterController;->countItemsBefore(Landroidx/recyclerview/widget/NestedAdapterWrapper;)I
 
     .line 19
     .line 20
@@ -2723,24 +2451,20 @@ return-void
     move-result v2
 
     .line 22
-    iget-object v3, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mWrappers:Ljava/util/List;
+    iget-object v3, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mWrappers:Ljava/util/List;
 
     .line 23
     .line 24
-    invoke-interface {v3, v0}, Ljava/util/List;
-    ->remove(I)Ljava/lang/Object;
+    invoke-interface {v3, v0}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
     .line 25
     .line 26
     .line 27
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mConcatAdapter:Landroidx/recyclerview/widget/ConcatAdapter;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mConcatAdapter:Landroidx/recyclerview/widget/ConcatAdapter;
 
     .line 28
     .line 29
-    invoke-virtual {v1}, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->getCachedItemCount()I
+    invoke-virtual {v1}, Landroidx/recyclerview/widget/NestedAdapterWrapper;->getCachedItemCount()I
 
     .line 30
     .line 31
@@ -2748,19 +2472,16 @@ return-void
     move-result v3
 
     .line 33
-    invoke-virtual {v0, v2, v3}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->notifyItemRangeRemoved(II)V
+    invoke-virtual {v0, v2, v3}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyItemRangeRemoved(II)V
 
     .line 34
     .line 35
     .line 36
-    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->mAttachedRecyclerViews:Ljava/util/List;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ConcatAdapterController;->mAttachedRecyclerViews:Ljava/util/List;
 
     .line 37
     .line 38
-    invoke-interface {v0}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 39
     .line 40
@@ -2770,8 +2491,7 @@ return-void
     .line 42
     :cond_1
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 43
     .line 44
@@ -2783,8 +2503,7 @@ return-void
 
     .line 47
     .line 48
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 49
     .line 50
@@ -2796,8 +2515,7 @@ return-void
 
     .line 53
     .line 54
-    invoke-virtual {v2}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v2}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 55
     .line 56
@@ -2813,8 +2531,7 @@ return-void
 
     .line 61
     .line 62
-    invoke-virtual {p1, v2}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->onDetachedFromRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
+    invoke-virtual {p1, v2}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->onDetachedFromRecyclerView(Landroidx/recyclerview/widget/RecyclerView;)V
 
     .line 63
     .line 64
@@ -2823,14 +2540,12 @@ return-void
 
     .line 66
     :cond_2
-    invoke-virtual {v1}, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->dispose()V
+    invoke-virtual {v1}, Landroidx/recyclerview/widget/NestedAdapterWrapper;->dispose()V
 
     .line 67
     .line 68
     .line 69
-    invoke-direct {p0}, Landroidx/recyclerview/widget/ConcatAdapterController;
-    ->calculateAndUpdateStateRestorationPolicy()V
+    invoke-direct {p0}, Landroidx/recyclerview/widget/ConcatAdapterController;->calculateAndUpdateStateRestorationPolicy()V
 
     .line 70
     .line 71

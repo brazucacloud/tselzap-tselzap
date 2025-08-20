@@ -37,8 +37,7 @@
     .locals 5
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -47,35 +46,30 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/constraintlayout/widget/StateSet$State;
-    ->mVariants:Ljava/util/ArrayList;
+    iput-object v0, p0, Landroidx/constraintlayout/widget/StateSet$State;->mVariants:Ljava/util/ArrayList;
 
     .line 10
     .line 11
     const/4 v0, -0x1
 
     .line 12
-    iput v0, p0, Landroidx/constraintlayout/widget/StateSet$State;
-    ->mConstraintID:I
+    iput v0, p0, Landroidx/constraintlayout/widget/StateSet$State;->mConstraintID:I
 
     .line 13
     .line 14
     const/4 v0, 0x0
 
     .line 15
-    iput-boolean v0, p0, Landroidx/constraintlayout/widget/StateSet$State;
-    ->mIsLayout:Z
+    iput-boolean v0, p0, Landroidx/constraintlayout/widget/StateSet$State;->mIsLayout:Z
 
     .line 16
     .line 17
-    invoke-static {p2}, Landroid/util/Xml;
-    ->asAttributeSet(Lorg/xmlpull/v1/XmlPullParser;)Landroid/util/AttributeSet;
+    invoke-static {p2}, Landroid/util/Xml;->asAttributeSet(Lorg/xmlpull/v1/XmlPullParser;)Landroid/util/AttributeSet;
 
     .line 18
     .line 19
@@ -83,13 +77,11 @@
     move-result-object p2
 
     .line 21
-    sget-object v1, Landroidx/constraintlayout/widget/R$styleable;
-    ->State:[I
+    sget-object v1, Landroidx/constraintlayout/widget/R$styleable;->State:[I
 
     .line 22
     .line 23
-    invoke-virtual {p1, p2, v1}, Landroid/content/Context;
-    ->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
+    invoke-virtual {p1, p2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     .line 24
     .line 25
@@ -97,8 +89,7 @@
     move-result-object p2
 
     .line 27
-    invoke-virtual {p2}, Landroid/content/res/TypedArray;
-    ->getIndexCount()I
+    invoke-virtual {p2}, Landroid/content/res/TypedArray;->getIndexCount()I
 
     .line 28
     .line 29
@@ -111,8 +102,7 @@
 
     .line 32
     .line 33
-    invoke-virtual {p2, v0}, Landroid/content/res/TypedArray;
-    ->getIndex(I)I
+    invoke-virtual {p2, v0}, Landroid/content/res/TypedArray;->getIndex(I)I
 
     .line 34
     .line 35
@@ -120,8 +110,7 @@
     move-result v2
 
     .line 37
-    sget v3, Landroidx/constraintlayout/widget/R$styleable;
-    ->State_android_id:I
+    sget v3, Landroidx/constraintlayout/widget/R$styleable;->State_android_id:I
 
     .line 38
     .line 39
@@ -129,13 +118,11 @@
 
     .line 40
     .line 41
-    iget v3, p0, Landroidx/constraintlayout/widget/StateSet$State;
-    ->mId:I
+    iget v3, p0, Landroidx/constraintlayout/widget/StateSet$State;->mId:I
 
     .line 42
     .line 43
-    invoke-virtual {p2, v2, v3}, Landroid/content/res/TypedArray;
-    ->getResourceId(II)I
+    invoke-virtual {p2, v2, v3}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     .line 44
     .line 45
@@ -143,8 +130,7 @@
     move-result v2
 
     .line 47
-    iput v2, p0, Landroidx/constraintlayout/widget/StateSet$State;
-    ->mId:I
+    iput v2, p0, Landroidx/constraintlayout/widget/StateSet$State;->mId:I
 
     .line 48
     .line 49
@@ -152,8 +138,7 @@
 
     .line 50
     :cond_0
-    sget v3, Landroidx/constraintlayout/widget/R$styleable;
-    ->State_constraints:I
+    sget v3, Landroidx/constraintlayout/widget/R$styleable;->State_constraints:I
 
     .line 51
     .line 52
@@ -161,13 +146,11 @@
 
     .line 53
     .line 54
-    iget v3, p0, Landroidx/constraintlayout/widget/StateSet$State;
-    ->mConstraintID:I
+    iget v3, p0, Landroidx/constraintlayout/widget/StateSet$State;->mConstraintID:I
 
     .line 55
     .line 56
-    invoke-virtual {p2, v2, v3}, Landroid/content/res/TypedArray;
-    ->getResourceId(II)I
+    invoke-virtual {p2, v2, v3}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     .line 57
     .line 58
@@ -175,13 +158,11 @@
     move-result v2
 
     .line 60
-    iput v2, p0, Landroidx/constraintlayout/widget/StateSet$State;
-    ->mConstraintID:I
+    iput v2, p0, Landroidx/constraintlayout/widget/StateSet$State;->mConstraintID:I
 
     .line 61
     .line 62
-    invoke-virtual {p1}, Landroid/content/Context;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     .line 63
     .line 64
@@ -189,13 +170,11 @@
     move-result-object v2
 
     .line 66
-    iget v3, p0, Landroidx/constraintlayout/widget/StateSet$State;
-    ->mConstraintID:I
+    iget v3, p0, Landroidx/constraintlayout/widget/StateSet$State;->mConstraintID:I
 
     .line 67
     .line 68
-    invoke-virtual {v2, v3}, Landroid/content/res/Resources;
-    ->getResourceTypeName(I)Ljava/lang/String;
+    invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getResourceTypeName(I)Ljava/lang/String;
 
     .line 69
     .line 70
@@ -203,8 +182,7 @@
     move-result-object v2
 
     .line 72
-    invoke-virtual {p1}, Landroid/content/Context;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     .line 73
     .line 74
@@ -212,13 +190,11 @@
     move-result-object v3
 
     .line 76
-    iget v4, p0, Landroidx/constraintlayout/widget/StateSet$State;
-    ->mConstraintID:I
+    iget v4, p0, Landroidx/constraintlayout/widget/StateSet$State;->mConstraintID:I
 
     .line 77
     .line 78
-    invoke-virtual {v3, v4}, Landroid/content/res/Resources;
-    ->getResourceName(I)Ljava/lang/String;
+    invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getResourceName(I)Ljava/lang/String;
 
     .line 79
     .line 80
@@ -227,8 +203,7 @@
 
     .line 82
     .line 83
-    invoke-virtual {v3, v2}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 84
     .line 85
@@ -243,8 +218,7 @@
     const/4 v2, 0x1
 
     .line 90
-    iput-boolean v2, p0, Landroidx/constraintlayout/widget/StateSet$State;
-    ->mIsLayout:Z
+    iput-boolean v2, p0, Landroidx/constraintlayout/widget/StateSet$State;->mIsLayout:Z
 
     .line 91
     .line 92
@@ -258,8 +232,7 @@
 
     .line 95
     :cond_2
-    invoke-virtual {p2}, Landroid/content/res/TypedArray;
-    ->recycle()V
+    invoke-virtual {p2}, Landroid/content/res/TypedArray;->recycle()V
     return-void
 .end method
 
@@ -269,13 +242,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/widget/StateSet$State;
-    ->mVariants:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/constraintlayout/widget/StateSet$State;->mVariants:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z    
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
     return-void
 .end method
 
@@ -287,13 +258,11 @@
 
     .line 2
     :goto_0
-    iget-object v1, p0, Landroidx/constraintlayout/widget/StateSet$State;
-    ->mVariants:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroidx/constraintlayout/widget/StateSet$State;->mVariants:Ljava/util/ArrayList;
 
     .line 3
     .line 4
-    invoke-virtual {v1}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
 
     .line 5
     .line 6
@@ -305,13 +274,11 @@
 
     .line 9
     .line 10
-    iget-object v1, p0, Landroidx/constraintlayout/widget/StateSet$State;
-    ->mVariants:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroidx/constraintlayout/widget/StateSet$State;->mVariants:Ljava/util/ArrayList;
 
     .line 11
     .line 12
-    invoke-virtual {v1, v0}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {v1, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -323,8 +290,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {v1, p1, p2}, Landroidx/constraintlayout/widget/StateSet$Variant;
-    ->match(FF)Z
+    invoke-virtual {v1, p1, p2}, Landroidx/constraintlayout/widget/StateSet$Variant;->match(FF)Z
 
     .line 19
     .line 20

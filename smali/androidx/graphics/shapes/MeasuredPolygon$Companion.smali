@@ -19,8 +19,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -28,8 +27,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/graphics/shapes/MeasuredPolygon$Companion;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/graphics/shapes/MeasuredPolygon$Companion;-><init>()V
     return-void
 .end method
 
@@ -43,8 +41,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -53,8 +50,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -63,8 +59,7 @@
 
     .line 12
     .line 13
-    invoke-direct {v4}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v4}, Ljava/util/ArrayList;-><init>()V
 
     .line 14
     .line 15
@@ -73,14 +68,12 @@
 
     .line 17
     .line 18
-    invoke-direct {v0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 19
     .line 20
     .line 21
-    invoke-virtual {p2}, Landroidx/graphics/shapes/RoundedPolygon;
-    ->getFeatures$graphics_shapes_release()Ljava/util/List;
+    invoke-virtual {p2}, Landroidx/graphics/shapes/RoundedPolygon;->getFeatures$graphics_shapes_release()Ljava/util/List;
 
     .line 22
     .line 23
@@ -88,8 +81,7 @@
     move-result-object v1
 
     .line 25
-    invoke-interface {v1}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v1}, Ljava/util/List;->size()I
 
     .line 26
     .line 27
@@ -111,8 +103,7 @@
 
     .line 33
     .line 34
-    invoke-virtual {p2}, Landroidx/graphics/shapes/RoundedPolygon;
-    ->getFeatures$graphics_shapes_release()Ljava/util/List;
+    invoke-virtual {p2}, Landroidx/graphics/shapes/RoundedPolygon;->getFeatures$graphics_shapes_release()Ljava/util/List;
 
     .line 35
     .line 36
@@ -120,8 +111,7 @@
     move-result-object v6
 
     .line 38
-    invoke-interface {v6, v3}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v6, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 39
     .line 40
@@ -133,8 +123,7 @@
 
     .line 43
     .line 44
-    invoke-virtual {v6}, Landroidx/graphics/shapes/Feature;
-    ->getCubics()Ljava/util/List;
+    invoke-virtual {v6}, Landroidx/graphics/shapes/Feature;->getCubics()Ljava/util/List;
 
     .line 45
     .line 46
@@ -142,8 +131,7 @@
     move-result-object v7
 
     .line 48
-    invoke-interface {v7}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v7}, Ljava/util/List;->size()I
 
     .line 49
     .line 50
@@ -167,8 +155,7 @@
 
     .line 58
     .line 59
-    invoke-virtual {v6}, Landroidx/graphics/shapes/Feature;
-    ->getCubics()Ljava/util/List;
+    invoke-virtual {v6}, Landroidx/graphics/shapes/Feature;->getCubics()Ljava/util/List;
 
     .line 60
     .line 61
@@ -176,8 +163,7 @@
     move-result-object v9
 
     .line 63
-    invoke-interface {v9}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v9}, Ljava/util/List;->size()I
 
     .line 64
     .line 65
@@ -192,8 +178,7 @@
 
     .line 69
     .line 70
-    invoke-virtual {v4}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {v4}, Ljava/util/ArrayList;->size()I
 
     .line 71
     .line 72
@@ -201,8 +186,7 @@
     move-result v9
 
     .line 74
-    invoke-static {v9}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v9}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 75
     .line 76
@@ -214,21 +198,18 @@
 
     .line 79
     .line 80
-    invoke-direct {v10, v6, v9}, Lc1/f;
-    -><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v10, v6, v9}, Lc1/f;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 81
     .line 82
     .line 83
-    invoke-virtual {v0, v10}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v10}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 84
     .line 85
     .line 86
     :cond_0
-    invoke-virtual {v6}, Landroidx/graphics/shapes/Feature;
-    ->getCubics()Ljava/util/List;
+    invoke-virtual {v6}, Landroidx/graphics/shapes/Feature;->getCubics()Ljava/util/List;
 
     .line 87
     .line 88
@@ -236,8 +217,7 @@
     move-result-object v9
 
     .line 90
-    invoke-interface {v9, v8}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v9, v8}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 91
     .line 92
@@ -245,8 +225,7 @@
     move-result-object v9
 
     .line 94
-    invoke-virtual {v4, v9}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v4, v9}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 95
     .line 96
@@ -270,8 +249,7 @@
     const/4 p2, 0x0
 
     .line 104
-    invoke-static {p2}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {p2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     .line 105
     .line 106
@@ -283,8 +261,7 @@
 
     .line 109
     .line 110
-    invoke-static {v4, v3}, Ld1/m;
-    ->j0(Ljava/lang/Iterable;I)I
+    invoke-static {v4, v3}, Ld1/m;->j0(Ljava/lang/Iterable;I)I
 
     .line 111
     .line 112
@@ -296,8 +273,7 @@
 
     .line 115
     .line 116
-    invoke-static {v1}, Lcom/bumptech/glide/b;
-    ->R(Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {v1}, Lcom/bumptech/glide/b;->R(Ljava/lang/Object;)Ljava/util/List;
 
     .line 117
     .line 118
@@ -317,20 +293,17 @@
 
     .line 124
     .line 125
-    invoke-direct {v6, v3}, Ljava/util/ArrayList;
-    -><init>(I)V
+    invoke-direct {v6, v3}, Ljava/util/ArrayList;-><init>(I)V
 
     .line 126
     .line 127
     .line 128
-    invoke-virtual {v6, v1}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v6, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 129
     .line 130
     .line 131
-    invoke-virtual {v4}, Ljava/util/ArrayList;
-    ->iterator()Ljava/util/Iterator;
+    invoke-virtual {v4}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     .line 132
     .line 133
@@ -339,8 +312,7 @@
 
     .line 135
     :goto_2
-    invoke-interface {v3}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v3}, Ljava/util/Iterator;->hasNext()Z
 
     .line 136
     .line 137
@@ -352,8 +324,7 @@
 
     .line 140
     .line 141
-    invoke-interface {v3}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 142
     .line 143
@@ -365,8 +336,7 @@
 
     .line 146
     .line 147
-    invoke-virtual {v1}, Ljava/lang/Number;
-    ->floatValue()F
+    invoke-virtual {v1}, Ljava/lang/Number;->floatValue()F
 
     .line 148
     .line 149
@@ -374,8 +344,7 @@
     move-result v1
 
     .line 151
-    invoke-interface {p1, v7}, Landroidx/graphics/shapes/Measurer;
-    ->measureCubic(Landroidx/graphics/shapes/Cubic;)F
+    invoke-interface {p1, v7}, Landroidx/graphics/shapes/Measurer;->measureCubic(Landroidx/graphics/shapes/Cubic;)F
 
     .line 152
     .line 153
@@ -394,8 +363,7 @@
     add-float/2addr v1, v7
 
     .line 160
-    invoke-static {v1}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     .line 161
     .line 162
@@ -403,8 +371,7 @@
     move-result-object v1
 
     .line 164
-    invoke-virtual {v6, v1}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v6, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 165
     .line 166
@@ -421,8 +388,7 @@
 
     .line 171
     .line 172
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 173
     .line 174
@@ -435,8 +401,7 @@
 
     .line 177
     :goto_3
-    invoke-static {p2}, Ld1/k;
-    ->w0(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {p2}, Ld1/k;->w0(Ljava/util/List;)Ljava/lang/Object;
 
     .line 178
     .line 179
@@ -448,8 +413,7 @@
 
     .line 182
     .line 183
-    invoke-virtual {v1}, Ljava/lang/Number;
-    ->floatValue()F
+    invoke-virtual {v1}, Ljava/lang/Number;->floatValue()F
 
     .line 184
     .line 185
@@ -464,8 +428,7 @@
 
     .line 189
     .line 190
-    invoke-interface {p2}, Ljava/util/List;
-    ->size()I
+    invoke-interface {p2}, Ljava/util/List;->size()I
 
     .line 191
     .line 192
@@ -473,14 +436,12 @@
     move-result v6
 
     .line 194
-    invoke-direct {v5, v6}, Landroidx/collection/MutableFloatList;
-    -><init>(I)V
+    invoke-direct {v5, v6}, Landroidx/collection/MutableFloatList;-><init>(I)V
 
     .line 195
     .line 196
     .line 197
-    invoke-interface {p2}, Ljava/util/List;
-    ->size()I
+    invoke-interface {p2}, Ljava/util/List;->size()I
 
     .line 198
     .line 199
@@ -496,8 +457,7 @@
 
     .line 203
     .line 204
-    invoke-interface {p2, v7}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {p2, v7}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 205
     .line 206
@@ -509,8 +469,7 @@
 
     .line 209
     .line 210
-    invoke-virtual {v8}, Ljava/lang/Number;
-    ->floatValue()F
+    invoke-virtual {v8}, Ljava/lang/Number;->floatValue()F
 
     .line 211
     .line 212
@@ -521,8 +480,7 @@
     div-float/2addr v8, v1
 
     .line 215
-    invoke-virtual {v5, v8}, Landroidx/collection/MutableFloatList;
-    ->add(F)Z
+    invoke-virtual {v5, v8}, Landroidx/collection/MutableFloatList;->add(F)Z
 
     .line 216
     .line 217
@@ -535,8 +493,7 @@
 
     .line 221
     :cond_6
-    invoke-static {}, Landroidx/graphics/shapes/PolygonMeasureKt;
-    ->access$getLOG_TAG$p()Ljava/lang/String;
+    invoke-static {}, Landroidx/graphics/shapes/PolygonMeasureKt;->access$getLOG_TAG$p()Ljava/lang/String;
 
     .line 222
     .line 223
@@ -545,14 +502,12 @@
 
     .line 225
     .line 226
-    invoke-direct {p2}, Le1/b;
-    -><init>()V
+    invoke-direct {p2}, Le1/b;-><init>()V
 
     .line 227
     .line 228
     .line 229
-    invoke-virtual {v0}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     .line 230
     .line 231
@@ -565,8 +520,7 @@
 
     .line 234
     .line 235
-    invoke-virtual {v0, v2}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 236
     .line 237
@@ -578,8 +532,7 @@
 
     .line 240
     .line 241
-    iget-object v6, v6, Lc1/f;
-    ->c:Ljava/lang/Object;
+    iget-object v6, v6, Lc1/f;->c:Ljava/lang/Object;
 
     .line 242
     .line 243
@@ -587,8 +540,7 @@
 
     .line 244
     .line 245
-    invoke-virtual {v6}, Ljava/lang/Number;
-    ->intValue()I
+    invoke-virtual {v6}, Ljava/lang/Number;->intValue()I
 
     .line 246
     .line 247
@@ -600,8 +552,7 @@
 
     .line 250
     .line 251
-    invoke-virtual {v5, v6}, Landroidx/collection/FloatList;
-    ->get(I)F
+    invoke-virtual {v5, v6}, Landroidx/collection/FloatList;->get(I)F
 
     .line 252
     .line 253
@@ -613,8 +564,7 @@
 
     .line 256
     .line 257
-    invoke-virtual {v5, v6}, Landroidx/collection/FloatList;
-    ->get(I)F
+    invoke-virtual {v5, v6}, Landroidx/collection/FloatList;->get(I)F
 
     .line 258
     .line 259
@@ -631,8 +581,7 @@
     div-float/2addr v6, v8
 
     .line 264
-    invoke-virtual {v0, v2}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 265
     .line 266
@@ -644,8 +593,7 @@
 
     .line 269
     .line 270
-    iget-object v8, v8, Lc1/f;
-    ->b:Ljava/lang/Object;
+    iget-object v8, v8, Lc1/f;->b:Ljava/lang/Object;
 
     .line 271
     .line 272
@@ -653,14 +601,12 @@
 
     .line 273
     .line 274
-    invoke-direct {v7, v6, v8}, Landroidx/graphics/shapes/ProgressableFeature;
-    -><init>(FLandroidx/graphics/shapes/Feature;)V
+    invoke-direct {v7, v6, v8}, Landroidx/graphics/shapes/ProgressableFeature;-><init>(FLandroidx/graphics/shapes/Feature;)V
 
     .line 275
     .line 276
     .line 277
-    invoke-virtual {p2, v7}, Le1/b;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {p2, v7}, Le1/b;->add(Ljava/lang/Object;)Z
 
     .line 278
     .line 279
@@ -673,8 +619,7 @@
 
     .line 283
     :cond_7
-    invoke-static {p2}, Lcom/bumptech/glide/b;
-    ->e(Le1/b;)Le1/b;
+    invoke-static {p2}, Lcom/bumptech/glide/b;->e(Le1/b;)Le1/b;
 
     .line 284
     .line 285
@@ -692,8 +637,7 @@
     move-object v2, p1
 
     .line 291
-    invoke-direct/range {v1 .. v6}, Landroidx/graphics/shapes/MeasuredPolygon;
-    -><init>(Landroidx/graphics/shapes/Measurer;Ljava/util/List;Ljava/util/List;Landroidx/collection/FloatList;Lkotlin/jvm/internal/e;)V
+    invoke-direct/range {v1 .. v6}, Landroidx/graphics/shapes/MeasuredPolygon;-><init>(Landroidx/graphics/shapes/Measurer;Ljava/util/List;Ljava/util/List;Landroidx/collection/FloatList;Lkotlin/jvm/internal/e;)V
 return-object v1
 .end method
 

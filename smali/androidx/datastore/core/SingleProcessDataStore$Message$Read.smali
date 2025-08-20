@@ -50,14 +50,12 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/datastore/core/SingleProcessDataStore$Message;
-    -><init>(Lkotlin/jvm/internal/e;)V
+    invoke-direct {p0, v0}, Landroidx/datastore/core/SingleProcessDataStore$Message;-><init>(Lkotlin/jvm/internal/e;)V
 
     .line 3
     .line 4
     .line 5
-    iput-object p1, p0, Landroidx/datastore/core/SingleProcessDataStore$Message$Read;
-    ->lastState:Landroidx/datastore/core/State;
+    iput-object p1, p0, Landroidx/datastore/core/SingleProcessDataStore$Message$Read;->lastState:Landroidx/datastore/core/State;
 
     .line 6
     .line 7
@@ -77,8 +75,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/core/SingleProcessDataStore$Message$Read;
-    ->lastState:Landroidx/datastore/core/State;
+    iget-object v0, p0, Landroidx/datastore/core/SingleProcessDataStore$Message$Read;->lastState:Landroidx/datastore/core/State;
 
     .line 2
     .line 3

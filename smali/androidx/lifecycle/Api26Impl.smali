@@ -19,11 +19,9 @@
 
     new-instance v0, Landroidx/lifecycle/Api26Impl;
 
-    invoke-direct {v0}, Landroidx/lifecycle/Api26Impl;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/lifecycle/Api26Impl;-><init>()V
 
-    sput-object v0, Landroidx/lifecycle/Api26Impl;
-    ->INSTANCE:Landroidx/lifecycle/Api26Impl;
+    sput-object v0, Landroidx/lifecycle/Api26Impl;->INSTANCE:Landroidx/lifecycle/Api26Impl;
 
     return-void
 .end method
@@ -32,8 +30,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -47,14 +44,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Ljava/time/Duration;
-    ->toMillis()J
+    invoke-virtual {p1}, Ljava/time/Duration;->toMillis()J
 
     .line 7
     .line 8

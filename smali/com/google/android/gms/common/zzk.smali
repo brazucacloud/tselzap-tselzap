@@ -19,8 +19,7 @@
 
     .line 3
     .line 4
-    invoke-static {p1, v0, v1}, Ljava/util/Arrays;
-    ->copyOfRange([BII)[B
+    invoke-static {p1, v0, v1}, Ljava/util/Arrays;->copyOfRange([BII)[B
 
     .line 5
     .line 6
@@ -28,14 +27,12 @@
     move-result-object v0
 
     .line 8
-    invoke-direct {p0, v0}, Lcom/google/android/gms/common/zzj;
-    -><init>([B)V
+    invoke-direct {p0, v0}, Lcom/google/android/gms/common/zzj;-><init>([B)V
 
     .line 9
     .line 10
     .line 11
-    iput-object p1, p0, Lcom/google/android/gms/common/zzk;
-    ->zza:[B
+    iput-object p1, p0, Lcom/google/android/gms/common/zzk;->zza:[B
 
     .line 12
     .line 13
@@ -47,8 +44,7 @@
 .method public final zzf()[B
     .locals 1
 
-    iget-object v0, p0, Lcom/google/android/gms/common/zzk;
-    ->zza:[B
+    iget-object v0, p0, Lcom/google/android/gms/common/zzk;->zza:[B
 
     return-object v0
 .end method

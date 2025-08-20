@@ -17,14 +17,11 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/activity/result/a;
-    ->a:I
+    iput p1, p0, Landroidx/activity/result/a;->a:I
 
-    iput-object p2, p0, Landroidx/activity/result/a;
-    ->b:Lp1/l;
+    iput-object p2, p0, Landroidx/activity/result/a;->b:Lp1/l;
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -34,24 +31,19 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/activity/result/a;
-    ->a:I
+    iget v0, p0, Landroidx/activity/result/a;->a:I
 
     packed-switch v0, :pswitch_data_0
 
-    iget-object v0, p0, Landroidx/activity/result/a;
-    ->b:Lp1/l;
+    iget-object v0, p0, Landroidx/activity/result/a;->b:Lp1/l;
 
-    invoke-static {p1, v0}, Landroidx/activity/result/ActivityResultCallerKt;
-    ->b(Ljava/lang/Object;Lp1/l;)V
+    invoke-static {p1, v0}, Landroidx/activity/result/ActivityResultCallerKt;->b(Ljava/lang/Object;Lp1/l;)V
 return-void
 
     :pswitch_0
-    iget-object v0, p0, Landroidx/activity/result/a;
-    ->b:Lp1/l;
+    iget-object v0, p0, Landroidx/activity/result/a;->b:Lp1/l;
 
-    invoke-static {p1, v0}, Landroidx/activity/result/ActivityResultCallerKt;
-    ->a(Ljava/lang/Object;Lp1/l;)V
+    invoke-static {p1, v0}, Landroidx/activity/result/ActivityResultCallerKt;->a(Ljava/lang/Object;Lp1/l;)V
 return-void
 
     nop

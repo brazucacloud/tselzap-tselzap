@@ -26,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/preference/SeekBarPreference$2;
-    ->this$0:Landroidx/preference/SeekBarPreference;
+    iput-object p1, p0, Landroidx/preference/SeekBarPreference$2;->this$0:Landroidx/preference/SeekBarPreference;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -42,8 +40,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p3}, Landroid/view/KeyEvent;
-    ->getAction()I
+    invoke-virtual {p3}, Landroid/view/KeyEvent;->getAction()I
 
     .line 2
     .line 3
@@ -58,13 +55,11 @@
 
     .line 9
     :cond_0
-    iget-object p1, p0, Landroidx/preference/SeekBarPreference$2;
-    ->this$0:Landroidx/preference/SeekBarPreference;
+    iget-object p1, p0, Landroidx/preference/SeekBarPreference$2;->this$0:Landroidx/preference/SeekBarPreference;
 
     .line 10
     .line 11
-    iget-boolean v1, p1, Landroidx/preference/SeekBarPreference;
-    ->mAdjustable:Z
+    iget-boolean v1, p1, Landroidx/preference/SeekBarPreference;->mAdjustable:Z
 
     .line 12
     .line 13
@@ -113,8 +108,7 @@
 
     .line 33
     :cond_3
-    iget-object p1, p1, Landroidx/preference/SeekBarPreference;
-    ->mSeekBar:Landroid/widget/SeekBar;
+    iget-object p1, p1, Landroidx/preference/SeekBarPreference;->mSeekBar:Landroid/widget/SeekBar;
 
     .line 34
     .line 35
@@ -130,14 +124,12 @@
 
     .line 40
     .line 41
-    invoke-static {p1, p2}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;)I    
+    invoke-static {p1, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
     return v0
 
     .line 45
     :cond_4
-    invoke-virtual {p1, p2, p3}, Landroid/view/View;
-    ->onKeyDown(ILandroid/view/KeyEvent;)Z
+    invoke-virtual {p1, p2, p3}, Landroid/view/View;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
     .line 46
     .line 47

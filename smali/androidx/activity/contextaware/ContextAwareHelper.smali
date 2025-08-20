@@ -22,8 +22,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -32,14 +31,12 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/concurrent/CopyOnWriteArraySet;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/concurrent/CopyOnWriteArraySet;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/activity/contextaware/ContextAwareHelper;
-    ->listeners:Ljava/util/Set;    
+    iput-object v0, p0, Landroidx/activity/contextaware/ContextAwareHelper;->listeners:Ljava/util/Set;
     return-void
 .end method
 
@@ -53,14 +50,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/activity/contextaware/ContextAwareHelper;
-    ->context:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/activity/contextaware/ContextAwareHelper;->context:Landroid/content/Context;
 
     .line 7
     .line 8
@@ -68,20 +63,17 @@
 
     .line 9
     .line 10
-    invoke-interface {p1, v0}, Landroidx/activity/contextaware/OnContextAvailableListener;
-    ->onContextAvailable(Landroid/content/Context;)V
+    invoke-interface {p1, v0}, Landroidx/activity/contextaware/OnContextAvailableListener;->onContextAvailable(Landroid/content/Context;)V
 
     .line 11
     .line 12
     .line 13
     :cond_0
-    iget-object v0, p0, Landroidx/activity/contextaware/ContextAwareHelper;
-    ->listeners:Ljava/util/Set;
+    iget-object v0, p0, Landroidx/activity/contextaware/ContextAwareHelper;->listeners:Ljava/util/Set;
 
     .line 14
     .line 15
-    invoke-interface {v0, p1}, Ljava/util/Set;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 return-void
 .end method
 
@@ -92,8 +84,7 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    iput-object v0, p0, Landroidx/activity/contextaware/ContextAwareHelper;
-    ->context:Landroid/content/Context;    
+    iput-object v0, p0, Landroidx/activity/contextaware/ContextAwareHelper;->context:Landroid/content/Context;
     return-void
 .end method
 
@@ -105,24 +96,20 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/activity/contextaware/ContextAwareHelper;
-    ->context:Landroid/content/Context;
+    iput-object p1, p0, Landroidx/activity/contextaware/ContextAwareHelper;->context:Landroid/content/Context;
 
     .line 7
     .line 8
-    iget-object v0, p0, Landroidx/activity/contextaware/ContextAwareHelper;
-    ->listeners:Ljava/util/Set;
+    iget-object v0, p0, Landroidx/activity/contextaware/ContextAwareHelper;->listeners:Ljava/util/Set;
 
     .line 9
     .line 10
-    invoke-interface {v0}, Ljava/util/Set;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     .line 11
     .line 12
@@ -131,8 +118,7 @@ return-void
 
     .line 14
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 15
     .line 16
@@ -144,8 +130,7 @@ return-void
 
     .line 19
     .line 20
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -157,8 +142,7 @@ return-void
 
     .line 25
     .line 26
-    invoke-interface {v1, p1}, Landroidx/activity/contextaware/OnContextAvailableListener;
-    ->onContextAvailable(Landroid/content/Context;)V
+    invoke-interface {v1, p1}, Landroidx/activity/contextaware/OnContextAvailableListener;->onContextAvailable(Landroid/content/Context;)V
 
     .line 27
     .line 28
@@ -174,8 +158,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/contextaware/ContextAwareHelper;
-    ->context:Landroid/content/Context;    return-object v0
+    iget-object v0, p0, Landroidx/activity/contextaware/ContextAwareHelper;->context:Landroid/content/Context;    return-object v0
 .end method
 
 .method public final removeOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V
@@ -186,19 +169,16 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/activity/contextaware/ContextAwareHelper;
-    ->listeners:Ljava/util/Set;
+    iget-object v0, p0, Landroidx/activity/contextaware/ContextAwareHelper;->listeners:Ljava/util/Set;
 
     .line 7
     .line 8
-    invoke-interface {v0, p1}, Ljava/util/Set;
-    ->remove(Ljava/lang/Object;)Z    
+    invoke-interface {v0, p1}, Ljava/util/Set;->remove(Ljava/lang/Object;)Z
     return-void
 .end method
 

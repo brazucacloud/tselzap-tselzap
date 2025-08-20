@@ -33,14 +33,12 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Landroidx/emoji2/viewsintegration/EmojiEditTextHelper$HelperInternal;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/emoji2/viewsintegration/EmojiEditTextHelper$HelperInternal;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/emoji2/viewsintegration/EmojiEditTextHelper$HelperInternal19;
-    ->mEditText:Landroid/widget/EditText;
+    iput-object p1, p0, Landroidx/emoji2/viewsintegration/EmojiEditTextHelper$HelperInternal19;->mEditText:Landroid/widget/EditText;
 
     .line 5
     .line 6
@@ -48,25 +46,21 @@
 
     .line 7
     .line 8
-    invoke-direct {v0, p1, p2}, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    -><init>(Landroid/widget/EditText;Z)V
+    invoke-direct {v0, p1, p2}, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;-><init>(Landroid/widget/EditText;Z)V
 
     .line 9
     .line 10
     .line 11
-    iput-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiEditTextHelper$HelperInternal19;
-    ->mTextWatcher:Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
+    iput-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiEditTextHelper$HelperInternal19;->mTextWatcher:Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
 
     .line 12
     .line 13
-    invoke-virtual {p1, v0}, Landroid/widget/TextView;
-    ->addTextChangedListener(Landroid/text/TextWatcher;)V
+    invoke-virtual {p1, v0}, Landroid/widget/TextView;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-static {}, Landroidx/emoji2/viewsintegration/EmojiEditableFactory;
-    ->getInstance()Landroid/text/Editable$Factory;
+    invoke-static {}, Landroidx/emoji2/viewsintegration/EmojiEditableFactory;->getInstance()Landroid/text/Editable$Factory;
 
     .line 17
     .line 18
@@ -74,8 +68,7 @@
     move-result-object p2
 
     .line 20
-    invoke-virtual {p1, p2}, Landroid/widget/TextView;
-    ->setEditableFactory(Landroid/text/Editable$Factory;)V
+    invoke-virtual {p1, p2}, Landroid/widget/TextView;->setEditableFactory(Landroid/text/Editable$Factory;)V
 
     .line 21
     .line 22
@@ -131,8 +124,7 @@
 
     .line 16
     .line 17
-    invoke-direct {v0, p1}, Landroidx/emoji2/viewsintegration/EmojiKeyListener;
-    -><init>(Landroid/text/method/KeyListener;)V
+    invoke-direct {v0, p1}, Landroidx/emoji2/viewsintegration/EmojiKeyListener;-><init>(Landroid/text/method/KeyListener;)V
 
     .line 18
     .line 19
@@ -144,13 +136,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiEditTextHelper$HelperInternal19;
-    ->mTextWatcher:Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
+    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiEditTextHelper$HelperInternal19;->mTextWatcher:Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->isEnabled()Z
+    invoke-virtual {v0}, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->isEnabled()Z
 
     .line 4
     .line 5
@@ -188,13 +178,11 @@
 
     .line 7
     .line 8
-    iget-object v1, p0, Landroidx/emoji2/viewsintegration/EmojiEditTextHelper$HelperInternal19;
-    ->mEditText:Landroid/widget/EditText;
+    iget-object v1, p0, Landroidx/emoji2/viewsintegration/EmojiEditTextHelper$HelperInternal19;->mEditText:Landroid/widget/EditText;
 
     .line 9
     .line 10
-    invoke-direct {v0, v1, p1, p2}, Landroidx/emoji2/viewsintegration/EmojiInputConnection;
-    -><init>(Landroid/widget/TextView;Landroid/view/inputmethod/InputConnection;Landroid/view/inputmethod/EditorInfo;)V
+    invoke-direct {v0, v1, p1, p2}, Landroidx/emoji2/viewsintegration/EmojiInputConnection;-><init>(Landroid/widget/TextView;Landroid/view/inputmethod/InputConnection;Landroid/view/inputmethod/EditorInfo;)V
 
     .line 11
     .line 12
@@ -206,13 +194,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiEditTextHelper$HelperInternal19;
-    ->mTextWatcher:Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
+    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiEditTextHelper$HelperInternal19;->mTextWatcher:Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->setEmojiReplaceStrategy(I)V
+    invoke-virtual {v0, p1}, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->setEmojiReplaceStrategy(I)V
 
     .line 4
     .line 5
@@ -224,13 +210,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiEditTextHelper$HelperInternal19;
-    ->mTextWatcher:Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
+    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiEditTextHelper$HelperInternal19;->mTextWatcher:Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->setEnabled(Z)V
+    invoke-virtual {v0, p1}, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->setEnabled(Z)V
 
     .line 4
     .line 5
@@ -242,13 +226,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiEditTextHelper$HelperInternal19;
-    ->mTextWatcher:Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
+    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiEditTextHelper$HelperInternal19;->mTextWatcher:Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;
-    ->setMaxEmojiCount(I)V
+    invoke-virtual {v0, p1}, Landroidx/emoji2/viewsintegration/EmojiTextWatcher;->setMaxEmojiCount(I)V
 
     .line 4
     .line 5

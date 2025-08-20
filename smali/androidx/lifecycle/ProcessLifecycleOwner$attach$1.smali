@@ -5,8 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/lifecycle/ProcessLifecycleOwner;
-    ->attach$lifecycle_process_release(Landroid/content/Context;)V
+    value = Landroidx/lifecycle/ProcessLifecycleOwner;->attach$lifecycle_process_release(Landroid/content/Context;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,13 +23,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/lifecycle/ProcessLifecycleOwner$attach$1;
-    ->this$0:Landroidx/lifecycle/ProcessLifecycleOwner;
+    iput-object p1, p0, Landroidx/lifecycle/ProcessLifecycleOwner$attach$1;->this$0:Landroidx/lifecycle/ProcessLifecycleOwner;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/lifecycle/EmptyActivityLifecycleCallbacks;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/lifecycle/EmptyActivityLifecycleCallbacks;-><init>()V
     return-void
 .end method
 
@@ -44,14 +41,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget p2, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget p2, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 7
     .line 8
@@ -63,13 +58,11 @@
 
     .line 11
     .line 12
-    sget-object p2, Landroidx/lifecycle/ReportFragment;
-    ->Companion:Landroidx/lifecycle/ReportFragment$Companion;
+    sget-object p2, Landroidx/lifecycle/ReportFragment;->Companion:Landroidx/lifecycle/ReportFragment$Companion;
 
     .line 13
     .line 14
-    invoke-virtual {p2, p1}, Landroidx/lifecycle/ReportFragment$Companion;
-    ->get(Landroid/app/Activity;)Landroidx/lifecycle/ReportFragment;
+    invoke-virtual {p2, p1}, Landroidx/lifecycle/ReportFragment$Companion;->get(Landroid/app/Activity;)Landroidx/lifecycle/ReportFragment;
 
     .line 15
     .line 16
@@ -77,13 +70,11 @@
     move-result-object p1
 
     .line 18
-    iget-object p2, p0, Landroidx/lifecycle/ProcessLifecycleOwner$attach$1;
-    ->this$0:Landroidx/lifecycle/ProcessLifecycleOwner;
+    iget-object p2, p0, Landroidx/lifecycle/ProcessLifecycleOwner$attach$1;->this$0:Landroidx/lifecycle/ProcessLifecycleOwner;
 
     .line 19
     .line 20
-    invoke-static {p2}, Landroidx/lifecycle/ProcessLifecycleOwner;
-    ->access$getInitializationListener$p(Landroidx/lifecycle/ProcessLifecycleOwner;)Landroidx/lifecycle/ReportFragment$ActivityInitializationListener;
+    invoke-static {p2}, Landroidx/lifecycle/ProcessLifecycleOwner;->access$getInitializationListener$p(Landroidx/lifecycle/ProcessLifecycleOwner;)Landroidx/lifecycle/ReportFragment$ActivityInitializationListener;
 
     .line 21
     .line 22
@@ -91,8 +82,7 @@
     move-result-object p2
 
     .line 24
-    invoke-virtual {p1, p2}, Landroidx/lifecycle/ReportFragment;
-    ->setProcessListener(Landroidx/lifecycle/ReportFragment$ActivityInitializationListener;)V
+    invoke-virtual {p1, p2}, Landroidx/lifecycle/ReportFragment;->setProcessListener(Landroidx/lifecycle/ReportFragment$ActivityInitializationListener;)V
 
     .line 25
     .line 26
@@ -109,19 +99,16 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object p1, p0, Landroidx/lifecycle/ProcessLifecycleOwner$attach$1;
-    ->this$0:Landroidx/lifecycle/ProcessLifecycleOwner;
+    iget-object p1, p0, Landroidx/lifecycle/ProcessLifecycleOwner$attach$1;->this$0:Landroidx/lifecycle/ProcessLifecycleOwner;
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Landroidx/lifecycle/ProcessLifecycleOwner;
-    ->activityPaused$lifecycle_process_release()V
+    invoke-virtual {p1}, Landroidx/lifecycle/ProcessLifecycleOwner;->activityPaused$lifecycle_process_release()V
     return-void
 .end method
 
@@ -136,8 +123,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -146,19 +132,16 @@
 
     .line 7
     .line 8
-    iget-object v0, p0, Landroidx/lifecycle/ProcessLifecycleOwner$attach$1;
-    ->this$0:Landroidx/lifecycle/ProcessLifecycleOwner;
+    iget-object v0, p0, Landroidx/lifecycle/ProcessLifecycleOwner$attach$1;->this$0:Landroidx/lifecycle/ProcessLifecycleOwner;
 
     .line 9
     .line 10
-    invoke-direct {p2, v0}, Landroidx/lifecycle/ProcessLifecycleOwner$attach$1$onActivityPreCreated$1;
-    -><init>(Landroidx/lifecycle/ProcessLifecycleOwner;)V
+    invoke-direct {p2, v0}, Landroidx/lifecycle/ProcessLifecycleOwner$attach$1$onActivityPreCreated$1;-><init>(Landroidx/lifecycle/ProcessLifecycleOwner;)V
 
     .line 11
     .line 12
     .line 13
-    invoke-static {p1, p2}, Landroidx/lifecycle/ProcessLifecycleOwner$Api29Impl;
-    ->registerActivityLifecycleCallbacks(Landroid/app/Activity;Landroid/app/Application$ActivityLifecycleCallbacks;)V
+    invoke-static {p1, p2}, Landroidx/lifecycle/ProcessLifecycleOwner$Api29Impl;->registerActivityLifecycleCallbacks(Landroid/app/Activity;Landroid/app/Application$ActivityLifecycleCallbacks;)V
 return-void
 .end method
 
@@ -170,19 +153,16 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object p1, p0, Landroidx/lifecycle/ProcessLifecycleOwner$attach$1;
-    ->this$0:Landroidx/lifecycle/ProcessLifecycleOwner;
+    iget-object p1, p0, Landroidx/lifecycle/ProcessLifecycleOwner$attach$1;->this$0:Landroidx/lifecycle/ProcessLifecycleOwner;
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Landroidx/lifecycle/ProcessLifecycleOwner;
-    ->activityStopped$lifecycle_process_release()V
+    invoke-virtual {p1}, Landroidx/lifecycle/ProcessLifecycleOwner;->activityStopped$lifecycle_process_release()V
     return-void
 .end method
 

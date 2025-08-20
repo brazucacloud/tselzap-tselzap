@@ -46,8 +46,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -56,25 +55,21 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 12
     .line 13
     .line 14
-    iput-object p1, p0, Landroidx/lifecycle/EmittedSource;
-    ->source:Landroidx/lifecycle/LiveData;
+    iput-object p1, p0, Landroidx/lifecycle/EmittedSource;->source:Landroidx/lifecycle/LiveData;
 
     .line 15
     .line 16
-    iput-object p2, p0, Landroidx/lifecycle/EmittedSource;
-    ->mediator:Landroidx/lifecycle/MediatorLiveData;    
+    iput-object p2, p0, Landroidx/lifecycle/EmittedSource;->mediator:Landroidx/lifecycle/MediatorLiveData;
     return-void
 .end method
 
@@ -82,8 +77,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/lifecycle/EmittedSource;
-    ->removeSource()V
+    invoke-direct {p0}, Landroidx/lifecycle/EmittedSource;->removeSource()V
     return-void
 .end method
 
@@ -93,8 +87,7 @@
     .end annotation
 
     .line 1
-    iget-boolean v0, p0, Landroidx/lifecycle/EmittedSource;
-    ->disposed:Z
+    iget-boolean v0, p0, Landroidx/lifecycle/EmittedSource;->disposed:Z
 
     .line 2
     .line 3
@@ -102,18 +95,15 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Landroidx/lifecycle/EmittedSource;
-    ->mediator:Landroidx/lifecycle/MediatorLiveData;
+    iget-object v0, p0, Landroidx/lifecycle/EmittedSource;->mediator:Landroidx/lifecycle/MediatorLiveData;
 
     .line 6
     .line 7
-    iget-object v1, p0, Landroidx/lifecycle/EmittedSource;
-    ->source:Landroidx/lifecycle/LiveData;
+    iget-object v1, p0, Landroidx/lifecycle/EmittedSource;->source:Landroidx/lifecycle/LiveData;
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/MediatorLiveData;
-    ->removeSource(Landroidx/lifecycle/LiveData;)V
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/MediatorLiveData;->removeSource(Landroidx/lifecycle/LiveData;)V
 
     .line 10
     .line 11
@@ -121,8 +111,7 @@
     const/4 v0, 0x1
 
     .line 13
-    iput-boolean v0, p0, Landroidx/lifecycle/EmittedSource;
-    ->disposed:Z
+    iput-boolean v0, p0, Landroidx/lifecycle/EmittedSource;->disposed:Z
 
     .line 14
     .line 15
@@ -136,23 +125,19 @@
     .locals 4
 
     .line 1
-    sget-object v0, Lz1/F;
-    ->a:LG1/d;
+    sget-object v0, Lz1/F;->a:LG1/d;
 
     .line 2
     .line 3
-    sget-object v0, LE1/o;
-    ->a:LA1/c;
+    sget-object v0, LE1/o;->a:LA1/c;
 
     .line 4
     .line 5
-    iget-object v0, v0, LA1/c;
-    ->d:LA1/c;
+    iget-object v0, v0, LA1/c;->d:LA1/c;
 
     .line 6
     .line 7
-    invoke-static {v0}, Lz1/w;
-    ->a(Lg1/i;)LE1/e;
+    invoke-static {v0}, Lz1/w;->a(Lg1/i;)LE1/e;
 
     .line 8
     .line 9
@@ -167,8 +152,7 @@
     const/4 v2, 0x0
 
     .line 14
-    invoke-direct {v1, p0, v2}, Landroidx/lifecycle/EmittedSource$dispose$1;
-    -><init>(Landroidx/lifecycle/EmittedSource;Lg1/d;)V
+    invoke-direct {v1, p0, v2}, Landroidx/lifecycle/EmittedSource$dispose$1;-><init>(Landroidx/lifecycle/EmittedSource;Lg1/d;)V
 
     .line 15
     .line 16
@@ -176,8 +160,7 @@
     const/4 v3, 0x3
 
     .line 18
-    invoke-static {v0, v2, v1, v3}, Lz1/w;
-    ->l(Lz1/v;LA1/c;Lp1/p;I)Lz1/k0;    
+    invoke-static {v0, v2, v1, v3}, Lz1/w;->l(Lz1/v;LA1/c;Lp1/p;I)Lz1/k0;
     return-void
 .end method
 
@@ -195,18 +178,15 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lz1/F;
-    ->a:LG1/d;
+    sget-object v0, Lz1/F;->a:LG1/d;
 
     .line 2
     .line 3
-    sget-object v0, LE1/o;
-    ->a:LA1/c;
+    sget-object v0, LE1/o;->a:LA1/c;
 
     .line 4
     .line 5
-    iget-object v0, v0, LA1/c;
-    ->d:LA1/c;
+    iget-object v0, v0, LA1/c;->d:LA1/c;
 
     .line 6
     .line 7
@@ -217,14 +197,12 @@
     const/4 v2, 0x0
 
     .line 10
-    invoke-direct {v1, p0, v2}, Landroidx/lifecycle/EmittedSource$disposeNow$2;
-    -><init>(Landroidx/lifecycle/EmittedSource;Lg1/d;)V
+    invoke-direct {v1, p0, v2}, Landroidx/lifecycle/EmittedSource$disposeNow$2;-><init>(Landroidx/lifecycle/EmittedSource;Lg1/d;)V
 
     .line 11
     .line 12
     .line 13
-    invoke-static {v1, v0, p1}, Lz1/w;
-    ->t(Lp1/p;Lg1/i;Lg1/d;)Ljava/lang/Object;
+    invoke-static {v1, v0, p1}, Lz1/w;->t(Lp1/p;Lg1/i;Lg1/d;)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -232,8 +210,7 @@
     move-result-object p1
 
     .line 17
-    sget-object v0, Lh1/a;
-    ->b:Lh1/a;
+    sget-object v0, Lh1/a;->b:Lh1/a;
 
     .line 18
     .line 19
@@ -241,8 +218,7 @@
 
     .line 22
     :cond_0
-    sget-object p1, Lc1/v;
-    ->a:Lc1/v;    return-object p1
+    sget-object p1, Lc1/v;->a:Lc1/v;    return-object p1
 .end method
 
 .end class

@@ -31,8 +31,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -42,11 +41,9 @@
     .locals 0
 
     .line 2
-    iget p1, p1, Landroidx/recyclerview/widget/DiffUtil$Diagonal;
-    ->x:I
+    iget p1, p1, Landroidx/recyclerview/widget/DiffUtil$Diagonal;->x:I
 
-    iget p2, p2, Landroidx/recyclerview/widget/DiffUtil$Diagonal;
-    ->x:I
+    iget p2, p2, Landroidx/recyclerview/widget/DiffUtil$Diagonal;->x:I
 
     sub-int/2addr p1, p2
 
@@ -61,8 +58,7 @@
 
     check-cast p2, Landroidx/recyclerview/widget/DiffUtil$Diagonal;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/recyclerview/widget/DiffUtil$1;
-    ->compare(Landroidx/recyclerview/widget/DiffUtil$Diagonal;Landroidx/recyclerview/widget/DiffUtil$Diagonal;)I
+    invoke-virtual {p0, p1, p2}, Landroidx/recyclerview/widget/DiffUtil$1;->compare(Landroidx/recyclerview/widget/DiffUtil$Diagonal;Landroidx/recyclerview/widget/DiffUtil$Diagonal;)I
 
     move-result p1
 

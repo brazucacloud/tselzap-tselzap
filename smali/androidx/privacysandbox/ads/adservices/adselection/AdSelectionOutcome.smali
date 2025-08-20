@@ -41,14 +41,12 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome$Companion;
-    -><init>(Lkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v1}, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome$Companion;-><init>(Lkotlin/jvm/internal/e;)V
 
     .line 5
     .line 6
     .line 7
-    sput-object v0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;
-    ->Companion:Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome$Companion;
+    sput-object v0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;->Companion:Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome$Companion;
 
     .line 8
     .line 9
@@ -56,8 +54,7 @@
 
     .line 10
     .line 11
-    sget-object v1, Landroid/net/Uri;
-    ->EMPTY:Landroid/net/Uri;
+    sget-object v1, Landroid/net/Uri;->EMPTY:Landroid/net/Uri;
 
     .line 12
     .line 13
@@ -65,8 +62,7 @@
 
     .line 14
     .line 15
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -75,14 +71,12 @@
 
     .line 19
     .line 20
-    invoke-direct {v0, v2, v3, v1}, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;
-    -><init>(JLandroid/net/Uri;)V
+    invoke-direct {v0, v2, v3, v1}, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;-><init>(JLandroid/net/Uri;)V
 
     .line 21
     .line 22
     .line 23
-    sput-object v0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;
-    ->NO_OUTCOME:Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;    return-void
+    sput-object v0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;->NO_OUTCOME:Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;    return-void
 .end method
 
 .method public constructor <init>(JLandroid/net/Uri;)V
@@ -90,19 +84,15 @@
 
     const-string v0, "renderUri"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
-    iput-wide p1, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;
-    ->adSelectionId:J
+    iput-wide p1, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;->adSelectionId:J
 
-    iput-object p3, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;
-    ->renderUri:Landroid/net/Uri;
+    iput-object p3, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;->renderUri:Landroid/net/Uri;
 
     return-void
 .end method
@@ -124,34 +114,28 @@
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     const-string v0, "response"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
-    invoke-static {p1}, LN1/p;
-    ->a(Landroid/adservices/adselection/AdSelectionOutcome;)J
+    invoke-static {p1}, LN1/p;->a(Landroid/adservices/adselection/AdSelectionOutcome;)J
 
     move-result-wide v0
 
-    invoke-static {p1}, LN1/p;
-    ->q(Landroid/adservices/adselection/AdSelectionOutcome;)Landroid/net/Uri;
+    invoke-static {p1}, LN1/p;->q(Landroid/adservices/adselection/AdSelectionOutcome;)Landroid/net/Uri;
 
     move-result-object p1
 
     const-string v2, "response.renderUri"
 
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-direct {p0, v0, v1, p1}, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;
-    -><init>(JLandroid/net/Uri;)V
+    invoke-direct {p0, v0, v1, p1}, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;-><init>(JLandroid/net/Uri;)V
 return-void
 .end method
 
@@ -179,8 +163,7 @@ return-void
 
     .line 11
     :cond_1
-    iget-wide v3, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;
-    ->adSelectionId:J
+    iget-wide v3, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;->adSelectionId:J
 
     .line 12
     .line 13
@@ -188,8 +171,7 @@ return-void
 
     .line 14
     .line 15
-    iget-wide v5, p1, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;
-    ->adSelectionId:J
+    iget-wide v5, p1, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;->adSelectionId:J
 
     .line 16
     .line 17
@@ -201,18 +183,15 @@ return-void
 
     .line 20
     .line 21
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;
-    ->renderUri:Landroid/net/Uri;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;->renderUri:Landroid/net/Uri;
 
     .line 22
     .line 23
-    iget-object p1, p1, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;
-    ->renderUri:Landroid/net/Uri;
+    iget-object p1, p1, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;->renderUri:Landroid/net/Uri;
 
     .line 24
     .line 25
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 26
     .line 27
@@ -231,16 +210,14 @@ return-void
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;
-    ->adSelectionId:J    return-wide v0
+    iget-wide v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;->adSelectionId:J    return-wide v0
 .end method
 
 .method public final getRenderUri()Landroid/net/Uri;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;
-    ->renderUri:Landroid/net/Uri;    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;->renderUri:Landroid/net/Uri;    return-object v0
 .end method
 
 .method public final hasOutcome()Z
@@ -249,13 +226,11 @@ return-void
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;
-    ->NO_OUTCOME:Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;
+    sget-object v0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;->NO_OUTCOME:Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v0}, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;->equals(Ljava/lang/Object;)Z
 
     .line 4
     .line 5
@@ -270,8 +245,7 @@ return-void
     .locals 4
 
     .line 1
-    iget-wide v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;
-    ->adSelectionId:J
+    iget-wide v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;->adSelectionId:J
 
     .line 2
     .line 3
@@ -293,13 +267,11 @@ return-void
 
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;
-    ->renderUri:Landroid/net/Uri;
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;->renderUri:Landroid/net/Uri;
 
     .line 12
     .line 13
-    invoke-virtual {v0}, Landroid/net/Uri;
-    ->hashCode()I
+    invoke-virtual {v0}, Landroid/net/Uri;->hashCode()I
 
     .line 14
     .line 15
@@ -324,19 +296,16 @@ return-void
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget-wide v1, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;
-    ->adSelectionId:J
+    iget-wide v1, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;->adSelectionId:J
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;
-    ->append(J)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
     .line 11
     .line 12
@@ -345,25 +314,21 @@ return-void
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 16
     .line 17
     .line 18
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;
-    ->renderUri:Landroid/net/Uri;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionOutcome;->renderUri:Landroid/net/Uri;
 
     .line 19
     .line 20
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 21
     .line 22
     .line 23
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 24
     .line 25

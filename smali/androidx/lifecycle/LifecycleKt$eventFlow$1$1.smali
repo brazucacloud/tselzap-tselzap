@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/lifecycle/LifecycleKt$eventFlow$1;
-    ->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    value = Landroidx/lifecycle/LifecycleKt$eventFlow$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,16 +34,13 @@
 .method public constructor <init>(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/LifecycleEventObserver;)V
     .locals 0
 
-    iput-object p1, p0, Landroidx/lifecycle/LifecycleKt$eventFlow$1$1;
-    ->$this_eventFlow:Landroidx/lifecycle/Lifecycle;
+    iput-object p1, p0, Landroidx/lifecycle/LifecycleKt$eventFlow$1$1;->$this_eventFlow:Landroidx/lifecycle/Lifecycle;
 
-    iput-object p2, p0, Landroidx/lifecycle/LifecycleKt$eventFlow$1$1;
-    ->$observer:Landroidx/lifecycle/LifecycleEventObserver;
+    iput-object p2, p0, Landroidx/lifecycle/LifecycleKt$eventFlow$1$1;->$observer:Landroidx/lifecycle/LifecycleEventObserver;
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
-    -><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
 return-void
 .end method
 
@@ -54,11 +50,9 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/lifecycle/LifecycleKt$eventFlow$1$1;
-    ->invoke()V
+    invoke-virtual {p0}, Landroidx/lifecycle/LifecycleKt$eventFlow$1$1;->invoke()V
 
-    sget-object v0, Lc1/v;
-    ->a:Lc1/v;
+    sget-object v0, Lc1/v;->a:Lc1/v;
 
     return-object v0
 .end method
@@ -67,14 +61,11 @@ return-void
     .locals 2
 
     .line 2
-    iget-object v0, p0, Landroidx/lifecycle/LifecycleKt$eventFlow$1$1;
-    ->$this_eventFlow:Landroidx/lifecycle/Lifecycle;
+    iget-object v0, p0, Landroidx/lifecycle/LifecycleKt$eventFlow$1$1;->$this_eventFlow:Landroidx/lifecycle/Lifecycle;
 
-    iget-object v1, p0, Landroidx/lifecycle/LifecycleKt$eventFlow$1$1;
-    ->$observer:Landroidx/lifecycle/LifecycleEventObserver;
+    iget-object v1, p0, Landroidx/lifecycle/LifecycleKt$eventFlow$1$1;->$observer:Landroidx/lifecycle/LifecycleEventObserver;
 
-    invoke-virtual {v0, v1}, Landroidx/lifecycle/Lifecycle;
-    ->removeObserver(Landroidx/lifecycle/LifecycleObserver;)V
+    invoke-virtual {v0, v1}, Landroidx/lifecycle/Lifecycle;->removeObserver(Landroidx/lifecycle/LifecycleObserver;)V
 return-void
 .end method
 

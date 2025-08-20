@@ -30,14 +30,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0, p1, p2}, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;
-    ->updateFrames(Landroid/graphics/drawable/AnimationDrawable;Z)I    
+    invoke-virtual {p0, p1, p2}, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;->updateFrames(Landroid/graphics/drawable/AnimationDrawable;Z)I
     return-void
 .end method
 
@@ -47,8 +45,7 @@
     .locals 4
 
     .line 1
-    iget v0, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;
-    ->mTotalDuration:I
+    iget v0, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;->mTotalDuration:I
 
     .line 2
     .line 3
@@ -69,13 +66,11 @@
     float-to-int p1, p1
 
     .line 10
-    iget v0, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;
-    ->mFrames:I
+    iget v0, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;->mFrames:I
 
     .line 11
     .line 12
-    iget-object v1, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;
-    ->mFrameTimes:[I
+    iget-object v1, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;->mFrameTimes:[I
 
     .line 13
     .line 14
@@ -113,8 +108,7 @@
     int-to-float p1, p1
 
     .line 28
-    iget v1, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;
-    ->mTotalDuration:I
+    iget v1, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;->mTotalDuration:I
 
     .line 29
     .line 30
@@ -150,16 +144,14 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;
-    ->mTotalDuration:I    return v0
+    iget v0, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;->mTotalDuration:I    return v0
 .end method
 
 .method public updateFrames(Landroid/graphics/drawable/AnimationDrawable;Z)I
     .locals 5
 
     .line 1
-    invoke-virtual {p1}, Landroid/graphics/drawable/AnimationDrawable;
-    ->getNumberOfFrames()I
+    invoke-virtual {p1}, Landroid/graphics/drawable/AnimationDrawable;->getNumberOfFrames()I
 
     .line 2
     .line 3
@@ -167,13 +159,11 @@
     move-result v0
 
     .line 5
-    iput v0, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;
-    ->mFrames:I
+    iput v0, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;->mFrames:I
 
     .line 6
     .line 7
-    iget-object v1, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;
-    ->mFrameTimes:[I
+    iget-object v1, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;->mFrameTimes:[I
 
     .line 8
     .line 9
@@ -193,14 +183,12 @@
 
     .line 15
     .line 16
-    iput-object v1, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;
-    ->mFrameTimes:[I
+    iput-object v1, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;->mFrameTimes:[I
 
     .line 17
     .line 18
     :cond_1
-    iget-object v1, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;
-    ->mFrameTimes:[I
+    iget-object v1, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;->mFrameTimes:[I
 
     .line 19
     .line 20
@@ -235,8 +223,7 @@
 
     .line 32
     :goto_1
-    invoke-virtual {p1, v4}, Landroid/graphics/drawable/AnimationDrawable;
-    ->getDuration(I)I
+    invoke-virtual {p1, v4}, Landroid/graphics/drawable/AnimationDrawable;->getDuration(I)I
 
     .line 33
     .line 34
@@ -259,8 +246,7 @@
 
     .line 42
     :cond_3
-    iput v3, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;
-    ->mTotalDuration:I    
+    iput v3, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;->mTotalDuration:I
     return v3
 .end method
 

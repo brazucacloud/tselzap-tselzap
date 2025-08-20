@@ -48,19 +48,15 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    sget-object v0, Lcom/google/android/gms/common/api/internal/zacj;
-    ->zaa:Lcom/google/android/gms/common/api/internal/zacj;
+    sget-object v0, Lcom/google/android/gms/common/api/internal/zacj;->zaa:Lcom/google/android/gms/common/api/internal/zacj;
 
-    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
-    ->zac:Ljava/lang/Runnable;
+    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;->zac:Ljava/lang/Runnable;
 
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
-    ->zaf:Z
+    iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;->zaf:Z
 return-void
 .end method
 
@@ -68,27 +64,22 @@ return-void
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    sget-object p1, Lcom/google/android/gms/common/api/internal/zacj;
-    ->zaa:Lcom/google/android/gms/common/api/internal/zacj;
+    sget-object p1, Lcom/google/android/gms/common/api/internal/zacj;->zaa:Lcom/google/android/gms/common/api/internal/zacj;
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
-    ->zac:Ljava/lang/Runnable;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;->zac:Ljava/lang/Runnable;
 
     const/4 p1, 0x1
 
-    iput-boolean p1, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
-    ->zaf:Z
+    iput-boolean p1, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;->zaf:Z
 return-void
 .end method
 
 .method public static bridge synthetic zaa(Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;)Lcom/google/android/gms/common/api/internal/RemoteCall;
     .locals 0
 
-    iget-object p0, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
-    ->zaa:Lcom/google/android/gms/common/api/internal/RemoteCall;
+    iget-object p0, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;->zaa:Lcom/google/android/gms/common/api/internal/RemoteCall;
 
     return-object p0
 .end method
@@ -96,8 +87,7 @@ return-void
 .method public static bridge synthetic zab(Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;)Lcom/google/android/gms/common/api/internal/RemoteCall;
     .locals 0
 
-    iget-object p0, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
-    ->zab:Lcom/google/android/gms/common/api/internal/RemoteCall;
+    iget-object p0, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;->zab:Lcom/google/android/gms/common/api/internal/RemoteCall;
 
     return-object p0
 .end method
@@ -123,8 +113,7 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
-    ->zaa:Lcom/google/android/gms/common/api/internal/RemoteCall;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;->zaa:Lcom/google/android/gms/common/api/internal/RemoteCall;
 
     .line 2
     .line 3
@@ -153,14 +142,12 @@ return-void
 
     .line 11
     .line 12
-    invoke-static {v0, v3}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkArgument(ZLjava/lang/Object;)V
+    invoke-static {v0, v3}, Lcom/google/android/gms/common/internal/Preconditions;->checkArgument(ZLjava/lang/Object;)V
 
     .line 13
     .line 14
     .line 15
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
-    ->zab:Lcom/google/android/gms/common/api/internal/RemoteCall;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;->zab:Lcom/google/android/gms/common/api/internal/RemoteCall;
 
     .line 16
     .line 17
@@ -183,14 +170,12 @@ return-void
 
     .line 23
     .line 24
-    invoke-static {v0, v3}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkArgument(ZLjava/lang/Object;)V
+    invoke-static {v0, v3}, Lcom/google/android/gms/common/internal/Preconditions;->checkArgument(ZLjava/lang/Object;)V
 
     .line 25
     .line 26
     .line 27
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
-    ->zad:Lcom/google/android/gms/common/api/internal/ListenerHolder;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;->zad:Lcom/google/android/gms/common/api/internal/ListenerHolder;
 
     .line 28
     .line 29
@@ -206,19 +191,16 @@ return-void
 
     .line 33
     .line 34
-    invoke-static {v1, v0}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkArgument(ZLjava/lang/Object;)V
+    invoke-static {v1, v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkArgument(ZLjava/lang/Object;)V
 
     .line 35
     .line 36
     .line 37
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
-    ->zad:Lcom/google/android/gms/common/api/internal/ListenerHolder;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;->zad:Lcom/google/android/gms/common/api/internal/ListenerHolder;
 
     .line 38
     .line 39
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/ListenerHolder;
-    ->getListenerKey()Lcom/google/android/gms/common/api/internal/ListenerHolder$ListenerKey;
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/ListenerHolder;->getListenerKey()Lcom/google/android/gms/common/api/internal/ListenerHolder$ListenerKey;
 
     .line 40
     .line 41
@@ -230,8 +212,7 @@ return-void
 
     .line 44
     .line 45
-    invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 46
     .line 47
@@ -251,31 +232,26 @@ return-void
 
     .line 54
     .line 55
-    iget-object v4, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
-    ->zad:Lcom/google/android/gms/common/api/internal/ListenerHolder;
+    iget-object v4, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;->zad:Lcom/google/android/gms/common/api/internal/ListenerHolder;
 
     .line 56
     .line 57
-    iget-object v5, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
-    ->zae:[Lcom/google/android/gms/common/Feature;
+    iget-object v5, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;->zae:[Lcom/google/android/gms/common/Feature;
 
     .line 58
     .line 59
-    iget-boolean v6, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
-    ->zaf:Z
+    iget-boolean v6, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;->zaf:Z
 
     .line 60
     .line 61
-    iget v7, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
-    ->zag:I
+    iget v7, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;->zag:I
 
     .line 62
     .line 63
     move-object v3, p0
 
     .line 64
-    invoke-direct/range {v2 .. v7}, Lcom/google/android/gms/common/api/internal/zack;
-    -><init>(Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;Lcom/google/android/gms/common/api/internal/ListenerHolder;[Lcom/google/android/gms/common/Feature;ZI)V
+    invoke-direct/range {v2 .. v7}, Lcom/google/android/gms/common/api/internal/zack;-><init>(Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;Lcom/google/android/gms/common/api/internal/ListenerHolder;[Lcom/google/android/gms/common/Feature;ZI)V
 
     .line 65
     .line 66
@@ -284,22 +260,19 @@ return-void
 
     .line 68
     .line 69
-    invoke-direct {v4, p0, v0}, Lcom/google/android/gms/common/api/internal/zacl;
-    -><init>(Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;Lcom/google/android/gms/common/api/internal/ListenerHolder$ListenerKey;)V
+    invoke-direct {v4, p0, v0}, Lcom/google/android/gms/common/api/internal/zacl;-><init>(Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;Lcom/google/android/gms/common/api/internal/ListenerHolder$ListenerKey;)V
 
     .line 70
     .line 71
     .line 72
-    iget-object v0, v3, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
-    ->zac:Ljava/lang/Runnable;
+    iget-object v0, v3, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;->zac:Ljava/lang/Runnable;
 
     .line 73
     .line 74
     const/4 v5, 0x0
 
     .line 75
-    invoke-direct {v1, v2, v4, v0, v5}, Lcom/google/android/gms/common/api/internal/RegistrationMethods;
-    -><init>(Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;Lcom/google/android/gms/common/api/internal/UnregisterListenerMethod;Ljava/lang/Runnable;Lcom/google/android/gms/common/api/internal/zacn;)V
+    invoke-direct {v1, v2, v4, v0, v5}, Lcom/google/android/gms/common/api/internal/RegistrationMethods;-><init>(Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;Lcom/google/android/gms/common/api/internal/UnregisterListenerMethod;Ljava/lang/Runnable;Lcom/google/android/gms/common/api/internal/zacn;)V
 
     .line 76
     .line 77
@@ -331,8 +304,7 @@ return-void
         }
     .end annotation
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
-    ->zac:Ljava/lang/Runnable;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;->zac:Ljava/lang/Runnable;
 
     return-object p0
 .end method
@@ -364,8 +336,7 @@ return-void
         }
     .end annotation
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
-    ->zaa:Lcom/google/android/gms/common/api/internal/RemoteCall;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;->zaa:Lcom/google/android/gms/common/api/internal/RemoteCall;
 
     return-object p0
 .end method
@@ -388,8 +359,7 @@ return-void
         }
     .end annotation
 
-    iput-boolean p1, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
-    ->zaf:Z
+    iput-boolean p1, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;->zaf:Z
 return-object p0
 .end method
 
@@ -417,8 +387,7 @@ return-object p0
         }
     .end annotation
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
-    ->zae:[Lcom/google/android/gms/common/Feature;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;->zae:[Lcom/google/android/gms/common/Feature;
 
     return-object p0
 .end method
@@ -441,8 +410,7 @@ return-object p0
         }
     .end annotation
 
-    iput p1, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
-    ->zag:I
+    iput p1, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;->zag:I
 
     return-object p0
 .end method
@@ -474,8 +442,7 @@ return-object p0
         }
     .end annotation
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
-    ->zab:Lcom/google/android/gms/common/api/internal/RemoteCall;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;->zab:Lcom/google/android/gms/common/api/internal/RemoteCall;
 
     return-object p0
 .end method
@@ -506,8 +473,7 @@ return-object p0
         }
     .end annotation
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
-    ->zad:Lcom/google/android/gms/common/api/internal/ListenerHolder;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;->zad:Lcom/google/android/gms/common/api/internal/ListenerHolder;
 
     return-object p0
 .end method

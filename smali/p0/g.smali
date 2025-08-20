@@ -16,14 +16,12 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 5
     .line 6
@@ -39,8 +37,7 @@
 
     .line 11
     .line 12
-    invoke-direct {v0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     .line 13
     .line 14
@@ -61,8 +58,7 @@
 
     .line 21
     .line 22
-    invoke-direct {v0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     .line 23
     .line 24
@@ -75,18 +71,15 @@
 
     .line 27
     :goto_0
-    iput-object v0, p0, Lp0/g;
-    ->a:Lp0/d;
+    iput-object v0, p0, Lp0/g;->a:Lp0/d;
 
     .line 28
     .line 29
-    iput-object p1, p0, Lp0/g;
-    ->b:Lp0/b;
+    iput-object p1, p0, Lp0/g;->b:Lp0/b;
 
     .line 30
     .line 31
-    iput-object p1, p0, Lp0/g;
-    ->c:Lcom/google/android/material/navigation/NavigationView;
+    iput-object p1, p0, Lp0/g;->c:Lcom/google/android/material/navigation/NavigationView;
 
     .line 32
     .line 33

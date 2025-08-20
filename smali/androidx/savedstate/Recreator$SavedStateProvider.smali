@@ -38,14 +38,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 7
     .line 8
@@ -54,14 +52,12 @@
 
     .line 10
     .line 11
-    invoke-direct {v0}, Ljava/util/LinkedHashSet;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/LinkedHashSet;-><init>()V
 
     .line 12
     .line 13
     .line 14
-    iput-object v0, p0, Landroidx/savedstate/Recreator$SavedStateProvider;
-    ->classes:Ljava/util/Set;
+    iput-object v0, p0, Landroidx/savedstate/Recreator$SavedStateProvider;->classes:Ljava/util/Set;
 
     .line 15
     .line 16
@@ -69,8 +65,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p1, v0, p0}, Landroidx/savedstate/SavedStateRegistry;
-    ->registerSavedStateProvider(Ljava/lang/String;Landroidx/savedstate/SavedStateRegistry$SavedStateProvider;)V
+    invoke-virtual {p1, v0, p0}, Landroidx/savedstate/SavedStateRegistry;->registerSavedStateProvider(Ljava/lang/String;Landroidx/savedstate/SavedStateRegistry$SavedStateProvider;)V
 return-void
 .end method
 
@@ -84,19 +79,16 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/savedstate/Recreator$SavedStateProvider;
-    ->classes:Ljava/util/Set;
+    iget-object v0, p0, Landroidx/savedstate/Recreator$SavedStateProvider;->classes:Ljava/util/Set;
 
     .line 7
     .line 8
-    invoke-interface {v0, p1}, Ljava/util/Set;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 return-void
 .end method
 
@@ -108,8 +100,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/os/Bundle;
-    -><init>()V
+    invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
 
     .line 4
     .line 5
@@ -118,13 +109,11 @@ return-void
 
     .line 7
     .line 8
-    iget-object v2, p0, Landroidx/savedstate/Recreator$SavedStateProvider;
-    ->classes:Ljava/util/Set;
+    iget-object v2, p0, Landroidx/savedstate/Recreator$SavedStateProvider;->classes:Ljava/util/Set;
 
     .line 9
     .line 10
-    invoke-direct {v1, v2}, Ljava/util/ArrayList;
-    -><init>(Ljava/util/Collection;)V
+    invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
     .line 11
     .line 12
@@ -133,8 +122,7 @@ return-void
 
     .line 14
     .line 15
-    invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;
-    ->putStringArrayList(Ljava/lang/String;Ljava/util/ArrayList;)V
+    invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putStringArrayList(Ljava/lang/String;Ljava/util/ArrayList;)V
 return-object v0
 .end method
 

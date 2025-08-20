@@ -31,8 +31,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -44,8 +43,7 @@
     const/4 v0, 0x0
 
     .line 6
-    invoke-virtual {p0, p1, v0}, Landroidx/customview/view/AbsSavedState$2;
-    ->createFromParcel(Landroid/os/Parcel;Ljava/lang/ClassLoader;)Landroidx/customview/view/AbsSavedState;
+    invoke-virtual {p0, p1, v0}, Landroidx/customview/view/AbsSavedState$2;->createFromParcel(Landroid/os/Parcel;Ljava/lang/ClassLoader;)Landroidx/customview/view/AbsSavedState;
 
     move-result-object p1
 
@@ -56,16 +54,14 @@
     .locals 0
 
     .line 3
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;
-    ->readParcelable(Ljava/lang/ClassLoader;)Landroid/os/Parcelable;
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->readParcelable(Ljava/lang/ClassLoader;)Landroid/os/Parcelable;
 
     move-result-object p1
 
     if-nez p1, :cond_0
 
     .line 4
-    sget-object p1, Landroidx/customview/view/AbsSavedState;
-    ->EMPTY_STATE:Landroidx/customview/view/AbsSavedState;
+    sget-object p1, Landroidx/customview/view/AbsSavedState;->EMPTY_STATE:Landroidx/customview/view/AbsSavedState;
 
     return-object p1
 
@@ -75,8 +71,7 @@
 
     const-string p2, "superState must be null"
 
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -85,8 +80,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/customview/view/AbsSavedState$2;
-    ->createFromParcel(Landroid/os/Parcel;)Landroidx/customview/view/AbsSavedState;
+    invoke-virtual {p0, p1}, Landroidx/customview/view/AbsSavedState$2;->createFromParcel(Landroid/os/Parcel;)Landroidx/customview/view/AbsSavedState;
 
     move-result-object p1
 
@@ -97,8 +91,7 @@
     .locals 0
 
     .line 2
-    invoke-virtual {p0, p1, p2}, Landroidx/customview/view/AbsSavedState$2;
-    ->createFromParcel(Landroid/os/Parcel;Ljava/lang/ClassLoader;)Landroidx/customview/view/AbsSavedState;
+    invoke-virtual {p0, p1, p2}, Landroidx/customview/view/AbsSavedState$2;->createFromParcel(Landroid/os/Parcel;Ljava/lang/ClassLoader;)Landroidx/customview/view/AbsSavedState;
 
     move-result-object p1
 
@@ -118,8 +111,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/customview/view/AbsSavedState$2;
-    ->newArray(I)[Landroidx/customview/view/AbsSavedState;
+    invoke-virtual {p0, p1}, Landroidx/customview/view/AbsSavedState$2;->newArray(I)[Landroidx/customview/view/AbsSavedState;
 
     move-result-object p1
 

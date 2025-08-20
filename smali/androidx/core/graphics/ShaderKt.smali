@@ -20,26 +20,22 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/graphics/Matrix;
-    -><init>()V
+    invoke-direct {v0}, Landroid/graphics/Matrix;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, v0}, Landroid/graphics/Shader;
-    ->getLocalMatrix(Landroid/graphics/Matrix;)Z
+    invoke-virtual {p0, v0}, Landroid/graphics/Shader;->getLocalMatrix(Landroid/graphics/Matrix;)Z
 
     .line 7
     .line 8
     .line 9
-    invoke-interface {p1, v0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 10
     .line 11
     .line 12
-    invoke-virtual {p0, v0}, Landroid/graphics/Shader;
-    ->setLocalMatrix(Landroid/graphics/Matrix;)V
+    invoke-virtual {p0, v0}, Landroid/graphics/Shader;->setLocalMatrix(Landroid/graphics/Matrix;)V
 
     .line 13
     .line 14

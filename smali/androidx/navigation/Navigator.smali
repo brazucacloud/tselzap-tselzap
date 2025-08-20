@@ -32,8 +32,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -51,8 +50,7 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/Navigator;
-    ->_state:Landroidx/navigation/NavigatorState;
+    iget-object v0, p0, Landroidx/navigation/Navigator;->_state:Landroidx/navigation/NavigatorState;
 
     .line 2
     .line 3
@@ -68,8 +66,7 @@
 
     .line 9
     .line 10
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 11
     .line 12
@@ -80,8 +77,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/navigation/Navigator;
-    ->isAttached:Z    return v0
+    iget-boolean v0, p0, Landroidx/navigation/Navigator;->isAttached:Z    return v0
 .end method
 
 .method public navigate(Landroidx/navigation/NavDestination;Landroid/os/Bundle;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)Landroidx/navigation/NavDestination;
@@ -100,8 +96,7 @@
     .line 1
     const-string p2, "destination"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 return-object p1
 .end method
 
@@ -121,8 +116,7 @@ return-object p1
 
     const-string v0, "entries"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     check-cast p1, Ljava/lang/Iterable;
@@ -132,17 +126,14 @@ return-object p1
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p1, v1}, Ld1/r;
-    -><init>(Ljava/lang/Object;I)V
+    invoke-direct {v0, p1, v1}, Ld1/r;-><init>(Ljava/lang/Object;I)V
 
     .line 4
     new-instance p1, Landroidx/navigation/Navigator$navigate$1;
 
-    invoke-direct {p1, p0, p2, p3}, Landroidx/navigation/Navigator$navigate$1;
-    -><init>(Landroidx/navigation/Navigator;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)V
+    invoke-direct {p1, p0, p2, p3}, Landroidx/navigation/Navigator$navigate$1;-><init>(Landroidx/navigation/Navigator;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)V
 
-    invoke-static {v0, p1}, Lw1/k;
-    ->Y(Lw1/h;Lp1/l;)Lw1/m;
+    invoke-static {v0, p1}, Lw1/k;->Y(Lw1/h;Lp1/l;)Lw1/m;
 
     move-result-object p1
 
@@ -151,39 +142,33 @@ return-object p1
 
     const/4 p3, 0x1
 
-    invoke-direct {p2, p1, p3}, Ld1/r;
-    -><init>(Ljava/lang/Object;I)V
+    invoke-direct {p2, p1, p3}, Ld1/r;-><init>(Ljava/lang/Object;I)V
 
     .line 6
     new-instance p1, Lw1/e;
 
-    invoke-direct {p1, p2}, Lw1/e;
-    -><init>(Ld1/r;)V
+    invoke-direct {p1, p2}, Lw1/e;-><init>(Ld1/r;)V
 
     .line 7
     :goto_0
-    invoke-virtual {p1}, Lw1/e;
-    ->hasNext()Z
+    invoke-virtual {p1}, Lw1/e;->hasNext()Z
 
     move-result p2
 
     if-eqz p2, :cond_0
 
-    invoke-virtual {p1}, Lw1/e;
-    ->next()Ljava/lang/Object;
+    invoke-virtual {p1}, Lw1/e;->next()Ljava/lang/Object;
 
     move-result-object p2
 
     check-cast p2, Landroidx/navigation/NavBackStackEntry;
 
     .line 8
-    invoke-virtual {p0}, Landroidx/navigation/Navigator;
-    ->getState()Landroidx/navigation/NavigatorState;
+    invoke-virtual {p0}, Landroidx/navigation/Navigator;->getState()Landroidx/navigation/NavigatorState;
 
     move-result-object p3
 
-    invoke-virtual {p3, p2}, Landroidx/navigation/NavigatorState;
-    ->push(Landroidx/navigation/NavBackStackEntry;)V
+    invoke-virtual {p3, p2}, Landroidx/navigation/NavigatorState;->push(Landroidx/navigation/NavBackStackEntry;)V
 
     goto :goto_0
 
@@ -201,22 +186,19 @@ return-object p1
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/navigation/Navigator;
-    ->_state:Landroidx/navigation/NavigatorState;
+    iput-object p1, p0, Landroidx/navigation/Navigator;->_state:Landroidx/navigation/NavigatorState;
 
     .line 7
     .line 8
     const/4 p1, 0x1
 
     .line 9
-    iput-boolean p1, p0, Landroidx/navigation/Navigator;
-    ->isAttached:Z
+    iput-boolean p1, p0, Landroidx/navigation/Navigator;->isAttached:Z
 return-void
 .end method
 
@@ -228,14 +210,12 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroidx/navigation/NavBackStackEntry;
-    ->getDestination()Landroidx/navigation/NavDestination;
+    invoke-virtual {p1}, Landroidx/navigation/NavBackStackEntry;->getDestination()Landroidx/navigation/NavDestination;
 
     .line 7
     .line 8
@@ -266,13 +246,11 @@ return-void
 
     .line 20
     :cond_1
-    sget-object v1, Landroidx/navigation/Navigator$onLaunchSingleTop$1;
-    ->INSTANCE:Landroidx/navigation/Navigator$onLaunchSingleTop$1;
+    sget-object v1, Landroidx/navigation/Navigator$onLaunchSingleTop$1;->INSTANCE:Landroidx/navigation/Navigator$onLaunchSingleTop$1;
 
     .line 21
     .line 22
-    invoke-static {v1}, Landroidx/navigation/NavOptionsBuilderKt;
-    ->navOptions(Lp1/l;)Landroidx/navigation/NavOptions;
+    invoke-static {v1}, Landroidx/navigation/NavOptionsBuilderKt;->navOptions(Lp1/l;)Landroidx/navigation/NavOptions;
 
     .line 23
     .line 24
@@ -280,14 +258,12 @@ return-void
     move-result-object v1
 
     .line 26
-    invoke-virtual {p0, v0, v2, v1, v2}, Landroidx/navigation/Navigator;
-    ->navigate(Landroidx/navigation/NavDestination;Landroid/os/Bundle;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)Landroidx/navigation/NavDestination;
+    invoke-virtual {p0, v0, v2, v1, v2}, Landroidx/navigation/Navigator;->navigate(Landroidx/navigation/NavDestination;Landroid/os/Bundle;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)Landroidx/navigation/NavDestination;
 
     .line 27
     .line 28
     .line 29
-    invoke-virtual {p0}, Landroidx/navigation/Navigator;
-    ->getState()Landroidx/navigation/NavigatorState;
+    invoke-virtual {p0}, Landroidx/navigation/Navigator;->getState()Landroidx/navigation/NavigatorState;
 
     .line 30
     .line 31
@@ -295,8 +271,7 @@ return-void
     move-result-object v0
 
     .line 33
-    invoke-virtual {v0, p1}, Landroidx/navigation/NavigatorState;
-    ->onLaunchSingleTop(Landroidx/navigation/NavBackStackEntry;)V
+    invoke-virtual {v0, p1}, Landroidx/navigation/NavigatorState;->onLaunchSingleTop(Landroidx/navigation/NavBackStackEntry;)V
     return-void
 .end method
 
@@ -305,8 +280,7 @@ return-void
 
     const-string v0, "savedState"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 return-void
 .end method
 
@@ -323,43 +297,36 @@ return-void
 
     const-string v0, "popUpTo"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-virtual {p0}, Landroidx/navigation/Navigator;
-    ->getState()Landroidx/navigation/NavigatorState;
+    invoke-virtual {p0}, Landroidx/navigation/Navigator;->getState()Landroidx/navigation/NavigatorState;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Landroidx/navigation/NavigatorState;
-    ->getBackStack()LC1/A;
+    invoke-virtual {v0}, Landroidx/navigation/NavigatorState;->getBackStack()LC1/A;
 
     move-result-object v0
 
-    invoke-interface {v0}, LC1/A;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, LC1/A;->getValue()Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/util/List;
 
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/List;
-    ->contains(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_3
 
     .line 4
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v1
 
-    invoke-interface {v0, v1}, Ljava/util/List;
-    ->listIterator(I)Ljava/util/ListIterator;
+    invoke-interface {v0, v1}, Ljava/util/List;->listIterator(I)Ljava/util/ListIterator;
 
     move-result-object v1
 
@@ -367,8 +334,7 @@ return-void
 
     .line 5
     :cond_0
-    invoke-virtual {p0}, Landroidx/navigation/Navigator;
-    ->popBackStack()Z
+    invoke-virtual {p0}, Landroidx/navigation/Navigator;->popBackStack()Z
 
     move-result v2
 
@@ -378,16 +344,14 @@ return-void
 
     .line 6
     :cond_1
-    invoke-interface {v1}, Ljava/util/ListIterator;
-    ->previous()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/ListIterator;->previous()Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Landroidx/navigation/NavBackStackEntry;
 
     .line 7
-    invoke-static {v0, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -397,13 +361,11 @@ return-void
     if-eqz v0, :cond_2
 
     .line 8
-    invoke-virtual {p0}, Landroidx/navigation/Navigator;
-    ->getState()Landroidx/navigation/NavigatorState;
+    invoke-virtual {p0}, Landroidx/navigation/Navigator;->getState()Landroidx/navigation/NavigatorState;
 
     move-result-object p1
 
-    invoke-virtual {p1, v0, p2}, Landroidx/navigation/NavigatorState;
-    ->pop(Landroidx/navigation/NavBackStackEntry;Z)V
+    invoke-virtual {p1, v0, p2}, Landroidx/navigation/NavigatorState;->pop(Landroidx/navigation/NavBackStackEntry;Z)V
 
     :cond_2
     return-void
@@ -414,35 +376,28 @@ return-void
 
     const-string v1, "popBackStack was called with "
 
-    invoke-direct {p2, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p2, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     const-string p1, " which does not exist in back stack "
 
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p1
 
     .line 10
     new-instance p2, Ljava/lang/IllegalStateException;
 
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-direct {p2, p1}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     throw p2
 .end method

@@ -16,8 +16,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/app/Service;
-    -><init>()V
+    invoke-direct {p0}, Landroid/app/Service;-><init>()V
     return-void
 .end method
 
@@ -31,8 +30,7 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -44,8 +42,7 @@
 
     .line 6
     .line 7
-    invoke-static {}, Landroidx/appcompat/app/AppLocalesMetadataHolderService$Api24Impl;
-    ->getDisabledComponentFlag()I
+    invoke-static {}, Landroidx/appcompat/app/AppLocalesMetadataHolderService$Api24Impl;->getDisabledComponentFlag()I
 
     .line 8
     .line 9
@@ -66,8 +63,7 @@
     .line 15
     .line 16
     :goto_0
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 17
     .line 18
@@ -83,14 +79,12 @@
 
     .line 23
     .line 24
-    invoke-direct {v2, p0, v3}, Landroid/content/ComponentName;
-    -><init>(Landroid/content/Context;Ljava/lang/Class;)V
+    invoke-direct {v2, p0, v3}, Landroid/content/ComponentName;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
     .line 25
     .line 26
     .line 27
-    invoke-virtual {v1, v2, v0}, Landroid/content/pm/PackageManager;
-    ->getServiceInfo(Landroid/content/ComponentName;I)Landroid/content/pm/ServiceInfo;
+    invoke-virtual {v1, v2, v0}, Landroid/content/pm/PackageManager;->getServiceInfo(Landroid/content/ComponentName;I)Landroid/content/pm/ServiceInfo;
 
     .line 28
     .line 29
@@ -116,8 +110,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     .line 4
     .line 5

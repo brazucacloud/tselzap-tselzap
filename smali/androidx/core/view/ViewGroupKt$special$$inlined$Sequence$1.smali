@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/view/ViewGroupKt;
-    ->getDescendants(Landroid/view/ViewGroup;)Lw1/h;
+    value = Landroidx/core/view/ViewGroupKt;->getDescendants(Landroid/view/ViewGroup;)Lw1/h;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -34,13 +33,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/core/view/ViewGroupKt$special$$inlined$Sequence$1;
-    ->$this_descendants$inlined:Landroid/view/ViewGroup;
+    iput-object p1, p0, Landroidx/core/view/ViewGroupKt$special$$inlined$Sequence$1;->$this_descendants$inlined:Landroid/view/ViewGroup;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
@@ -66,13 +63,11 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/core/view/ViewGroupKt$special$$inlined$Sequence$1;
-    ->$this_descendants$inlined:Landroid/view/ViewGroup;
+    iget-object v1, p0, Landroidx/core/view/ViewGroupKt$special$$inlined$Sequence$1;->$this_descendants$inlined:Landroid/view/ViewGroup;
 
     .line 4
     .line 5
-    invoke-static {v1}, Landroidx/core/view/ViewGroupKt;
-    ->getChildren(Landroid/view/ViewGroup;)Lw1/h;
+    invoke-static {v1}, Landroidx/core/view/ViewGroupKt;->getChildren(Landroid/view/ViewGroup;)Lw1/h;
 
     .line 6
     .line 7
@@ -80,8 +75,7 @@
     move-result-object v1
 
     .line 9
-    invoke-interface {v1}, Lw1/h;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Lw1/h;->iterator()Ljava/util/Iterator;
 
     .line 10
     .line 11
@@ -89,13 +83,11 @@
     move-result-object v1
 
     .line 13
-    sget-object v2, Landroidx/core/view/ViewGroupKt$descendants$1$1;
-    ->INSTANCE:Landroidx/core/view/ViewGroupKt$descendants$1$1;
+    sget-object v2, Landroidx/core/view/ViewGroupKt$descendants$1$1;->INSTANCE:Landroidx/core/view/ViewGroupKt$descendants$1$1;
 
     .line 14
     .line 15
-    invoke-direct {v0, v1, v2}, Landroidx/core/view/TreeIterator;
-    -><init>(Ljava/util/Iterator;Lp1/l;)V
+    invoke-direct {v0, v1, v2}, Landroidx/core/view/TreeIterator;-><init>(Ljava/util/Iterator;Lp1/l;)V
 
     .line 16
     .line 17

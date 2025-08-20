@@ -22,18 +22,15 @@
     .end annotation
 
     .line 1
-    iput-object p2, p0, Lcom/google/android/gms/measurement/internal/zzlk;
-    ->zza:Landroid/os/Bundle;
+    iput-object p2, p0, Lcom/google/android/gms/measurement/internal/zzlk;->zza:Landroid/os/Bundle;
 
     .line 2
     .line 3
-    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzlk;
-    ->zzb:Lcom/google/android/gms/measurement/internal/zzkf;
+    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzlk;->zzb:Lcom/google/android/gms/measurement/internal/zzkf;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 6
     .line 7
@@ -47,18 +44,15 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzlk;
-    ->zzb:Lcom/google/android/gms/measurement/internal/zzkf;
+    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzlk;->zzb:Lcom/google/android/gms/measurement/internal/zzkf;
 
     .line 2
     .line 3
-    iget-object v1, p0, Lcom/google/android/gms/measurement/internal/zzlk;
-    ->zza:Landroid/os/Bundle;
+    iget-object v1, p0, Lcom/google/android/gms/measurement/internal/zzlk;->zza:Landroid/os/Bundle;
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lcom/google/android/gms/measurement/internal/zzkf;
-    ->zzb(Lcom/google/android/gms/measurement/internal/zzkf;Landroid/os/Bundle;)V
+    invoke-static {v0, v1}, Lcom/google/android/gms/measurement/internal/zzkf;->zzb(Lcom/google/android/gms/measurement/internal/zzkf;Landroid/os/Bundle;)V
 
     .line 6
     .line 7

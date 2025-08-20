@@ -1082,8 +1082,7 @@
 
     fill-array-data v1, :array_0
 
-    sput-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->ActionBar:[I
+    sput-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->ActionBar:[I
 
     const v1, 0x10100b3
 
@@ -1091,8 +1090,7 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->ActionBarLayout:[I
+    sput-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->ActionBarLayout:[I
 
     const v2, 0x101013f
 
@@ -1100,15 +1098,13 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->ActionMenuItemView:[I
+    sput-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->ActionMenuItemView:[I
 
     const/4 v2, 0x0
 
     new-array v3, v2, [I
 
-    sput-object v3, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->ActionMenuView:[I
+    sput-object v3, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->ActionMenuView:[I
 
     const/4 v3, 0x6
 
@@ -1116,8 +1112,7 @@
 
     fill-array-data v4, :array_1
 
-    sput-object v4, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->ActionMode:[I
+    sput-object v4, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->ActionMode:[I
 
     const v4, 0x7f04023c
 
@@ -1127,8 +1122,7 @@
 
     move-result-object v4
 
-    sput-object v4, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->ActivityChooserView:[I
+    sput-object v4, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->ActivityChooserView:[I
 
     const/16 v4, 0x8
 
@@ -1136,15 +1130,13 @@
 
     fill-array-data v4, :array_2
 
-    sput-object v4, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->AlertDialog:[I
+    sput-object v4, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->AlertDialog:[I
 
     new-array v4, v3, [I
 
     fill-array-data v4, :array_3
 
-    sput-object v4, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->AnimatedStateListDrawableCompat:[I
+    sput-object v4, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->AnimatedStateListDrawableCompat:[I
 
     const v4, 0x10100d0
 
@@ -1154,8 +1146,7 @@
 
     move-result-object v6
 
-    sput-object v6, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->AnimatedStateListDrawableItem:[I
+    sput-object v6, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->AnimatedStateListDrawableItem:[I
 
     const v6, 0x101044a
 
@@ -1167,13 +1158,11 @@
 
     move-result-object v6
 
-    sput-object v6, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->AnimatedStateListDrawableTransition:[I
+    sput-object v6, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->AnimatedStateListDrawableTransition:[I
 
     new-array v2, v2, [I
 
-    sput-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->AppCompatEmojiHelper:[I
+    sput-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->AppCompatEmojiHelper:[I
 
     const v2, 0x7f0405fd
 
@@ -1187,8 +1176,7 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->AppCompatImageView:[I
+    sput-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->AppCompatImageView:[I
 
     const v2, 0x7f0405f7
 
@@ -1202,8 +1190,7 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->AppCompatSeekBar:[I
+    sput-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->AppCompatSeekBar:[I
 
     const/4 v2, 0x7
 
@@ -1211,8 +1198,7 @@
 
     fill-array-data v2, :array_4
 
-    sput-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->AppCompatTextHelper:[I
+    sput-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->AppCompatTextHelper:[I
 
     const/16 v2, 0x16
 
@@ -1220,8 +1206,7 @@
 
     fill-array-data v2, :array_5
 
-    sput-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->AppCompatTextView:[I
+    sput-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->AppCompatTextView:[I
 
     const/16 v2, 0x7f
 
@@ -1229,8 +1214,7 @@
 
     fill-array-data v2, :array_6
 
-    sput-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->AppCompatTheme:[I
+    sput-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->AppCompatTheme:[I
 
     const v2, 0x7f040039
 
@@ -1238,8 +1222,7 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->ButtonBarLayout:[I
+    sput-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->ButtonBarLayout:[I
 
     const v2, 0x7f040496
 
@@ -1249,8 +1232,7 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->Capability:[I
+    sput-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->Capability:[I
 
     const v2, 0x7f0400fe
 
@@ -1264,8 +1246,7 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->CheckedTextView:[I
+    sput-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->CheckedTextView:[I
 
     const v2, 0x7f04003a
 
@@ -1281,8 +1262,7 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->ColorStateListItem:[I
+    sput-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->ColorStateListItem:[I
 
     const v2, 0x7f0400b4
 
@@ -1296,8 +1276,7 @@
 
     move-result-object v2
 
-    sput-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->CompoundButton:[I
+    sput-object v2, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->CompoundButton:[I
 
     const/16 v2, 0xc
 
@@ -1305,8 +1284,7 @@
 
     fill-array-data v6, :array_7
 
-    sput-object v6, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->DragDropSwipeRecyclerView:[I
+    sput-object v6, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->DragDropSwipeRecyclerView:[I
 
     const/16 v6, 0x8
 
@@ -1314,8 +1292,7 @@
 
     fill-array-data v6, :array_8
 
-    sput-object v6, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->DrawerArrowToggle:[I
+    sput-object v6, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->DrawerArrowToggle:[I
 
     const/4 v6, 0x7
 
@@ -1323,8 +1300,7 @@
 
     fill-array-data v6, :array_9
 
-    sput-object v6, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->FontFamily:[I
+    sput-object v6, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->FontFamily:[I
 
     const/16 v6, 0xa
 
@@ -1332,8 +1308,7 @@
 
     fill-array-data v6, :array_a
 
-    sput-object v6, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->FontFamilyFont:[I
+    sput-object v6, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->FontFamilyFont:[I
 
     const v6, 0x1010003
 
@@ -1343,22 +1318,19 @@
 
     move-result-object v9
 
-    sput-object v9, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->Fragment:[I
+    sput-object v9, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->Fragment:[I
 
     filled-new-array {v6, v8}, [I
 
     move-result-object v6
 
-    sput-object v6, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->FragmentContainerView:[I
+    sput-object v6, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->FragmentContainerView:[I
 
     new-array v6, v2, [I
 
     fill-array-data v6, :array_b
 
-    sput-object v6, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->GradientColor:[I
+    sput-object v6, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->GradientColor:[I
 
     const v6, 0x1010514
 
@@ -1366,8 +1338,7 @@
 
     move-result-object v6
 
-    sput-object v6, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->GradientColorItem:[I
+    sput-object v6, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->GradientColorItem:[I
 
     const/16 v6, 0x9
 
@@ -1375,8 +1346,7 @@
 
     fill-array-data v6, :array_c
 
-    sput-object v6, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->LinearLayoutCompat:[I
+    sput-object v6, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->LinearLayoutCompat:[I
 
     const v6, 0x10100f5
 
@@ -1388,8 +1358,7 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->LinearLayoutCompat_Layout:[I
+    sput-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->LinearLayoutCompat_Layout:[I
 
     const v1, 0x10102ac
 
@@ -1399,15 +1368,13 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->ListPopupWindow:[I
+    sput-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->ListPopupWindow:[I
 
     new-array v1, v3, [I
 
     fill-array-data v1, :array_d
 
-    sput-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->MenuGroup:[I
+    sput-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->MenuGroup:[I
 
     const/16 v1, 0x17
 
@@ -1415,8 +1382,7 @@
 
     fill-array-data v1, :array_e
 
-    sput-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->MenuItem:[I
+    sput-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->MenuItem:[I
 
     const/16 v1, 0x9
 
@@ -1424,8 +1390,7 @@
 
     fill-array-data v1, :array_f
 
-    sput-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->MenuView:[I
+    sput-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->MenuView:[I
 
     const v1, 0x10102c9
 
@@ -1437,8 +1402,7 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->PopupWindow:[I
+    sput-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->PopupWindow:[I
 
     const v1, 0x7f040526
 
@@ -1446,8 +1410,7 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->PopupWindowBackgroundState:[I
+    sput-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->PopupWindowBackgroundState:[I
 
     const v1, 0x7f040453
 
@@ -1457,15 +1420,13 @@
 
     move-result-object v1
 
-    sput-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->RecycleListView:[I
+    sput-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->RecycleListView:[I
 
     new-array v1, v2, [I
 
     fill-array-data v1, :array_10
 
-    sput-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->RecyclerView:[I
+    sput-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->RecyclerView:[I
 
     const/16 v1, 0x1d
 
@@ -1473,8 +1434,7 @@
 
     fill-array-data v1, :array_11
 
-    sput-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->SearchView:[I
+    sput-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->SearchView:[I
 
     const v1, 0x1010262
 
@@ -1486,22 +1446,19 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->Spinner:[I
+    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->Spinner:[I
 
     new-array v0, v3, [I
 
     fill-array-data v0, :array_12
 
-    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->StateListDrawable:[I
+    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->StateListDrawable:[I
 
     filled-new-array {v5}, [I
 
     move-result-object v0
 
-    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->StateListDrawableItem:[I
+    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->StateListDrawableItem:[I
 
     const/16 v0, 0xe
 
@@ -1509,8 +1466,7 @@
 
     fill-array-data v0, :array_13
 
-    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->SwitchCompat:[I
+    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->SwitchCompat:[I
 
     const/16 v0, 0x10
 
@@ -1518,8 +1474,7 @@
 
     fill-array-data v0, :array_14
 
-    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->TextAppearance:[I
+    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->TextAppearance:[I
 
     const/16 v0, 0x1e
 
@@ -1527,8 +1482,7 @@
 
     fill-array-data v0, :array_15
 
-    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->Toolbar:[I
+    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->Toolbar:[I
 
     const v0, 0x7f040458
 
@@ -1544,8 +1498,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->View:[I
+    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->View:[I
 
     const v0, 0x7f040060
 
@@ -1557,8 +1510,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->ViewBackgroundHelper:[I
+    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->ViewBackgroundHelper:[I
 
     const v0, 0x10100f2
 
@@ -1568,8 +1520,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;
-    ->ViewStubCompat:[I
+    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/R$styleable;->ViewStubCompat:[I
 
     return-void
 
@@ -2075,8 +2026,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 

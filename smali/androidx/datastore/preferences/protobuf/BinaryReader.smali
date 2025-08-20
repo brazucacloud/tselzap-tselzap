@@ -25,8 +25,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -34,8 +33,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader;-><init>()V
     return-void
 .end method
 
@@ -43,8 +41,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Ljava/nio/ByteBuffer;
-    ->hasArray()Z
+    invoke-virtual {p0}, Ljava/nio/ByteBuffer;->hasArray()Z
 
     .line 2
     .line 3
@@ -60,8 +57,7 @@
 
     .line 8
     .line 9
-    invoke-direct {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    -><init>(Ljava/nio/ByteBuffer;Z)V
+    invoke-direct {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;-><init>(Ljava/nio/ByteBuffer;Z)V
     return-object v0
 
     .line 13
@@ -74,8 +70,7 @@
 
     .line 16
     .line 17
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 18
     .line 19

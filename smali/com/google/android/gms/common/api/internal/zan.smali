@@ -13,14 +13,11 @@
 .method public constructor <init>(Lcom/google/android/gms/common/api/internal/zao;Landroid/app/Dialog;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zan;
-    ->zab:Lcom/google/android/gms/common/api/internal/zao;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zan;->zab:Lcom/google/android/gms/common/api/internal/zao;
 
-    iput-object p2, p0, Lcom/google/android/gms/common/api/internal/zan;
-    ->zaa:Landroid/app/Dialog;
+    iput-object p2, p0, Lcom/google/android/gms/common/api/internal/zan;->zaa:Landroid/app/Dialog;
 
-    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/zabw;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/zabw;-><init>()V
     return-void
 .end method
 
@@ -30,29 +27,24 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zan;
-    ->zab:Lcom/google/android/gms/common/api/internal/zao;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zan;->zab:Lcom/google/android/gms/common/api/internal/zao;
 
     .line 2
     .line 3
-    iget-object v0, v0, Lcom/google/android/gms/common/api/internal/zao;
-    ->zaa:Lcom/google/android/gms/common/api/internal/zap;
+    iget-object v0, v0, Lcom/google/android/gms/common/api/internal/zao;->zaa:Lcom/google/android/gms/common/api/internal/zap;
 
     .line 4
     .line 5
-    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zap;
-    ->zag(Lcom/google/android/gms/common/api/internal/zap;)V
+    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zap;->zag(Lcom/google/android/gms/common/api/internal/zap;)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zan;
-    ->zaa:Landroid/app/Dialog;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zan;->zaa:Landroid/app/Dialog;
 
     .line 9
     .line 10
-    invoke-virtual {v0}, Landroid/app/Dialog;
-    ->isShowing()Z
+    invoke-virtual {v0}, Landroid/app/Dialog;->isShowing()Z
 
     .line 11
     .line 12
@@ -64,13 +56,11 @@
 
     .line 15
     .line 16
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zan;
-    ->zaa:Landroid/app/Dialog;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zan;->zaa:Landroid/app/Dialog;
 
     .line 17
     .line 18
-    invoke-virtual {v0}, Landroid/app/Dialog;
-    ->dismiss()V
+    invoke-virtual {v0}, Landroid/app/Dialog;->dismiss()V
 
     .line 19
     .line 20

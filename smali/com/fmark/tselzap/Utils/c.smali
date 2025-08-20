@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    iget p0, p0, Landroid/content/pm/ApplicationInfo;
-    ->minSdkVersion:I
+    iget p0, p0, Landroid/content/pm/ApplicationInfo;->minSdkVersion:I
 
     return p0
 .end method
@@ -18,8 +17,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/job/JobScheduler;
-    ->getPendingJob(I)Landroid/app/job/JobInfo;
+    invoke-virtual {p0, p1}, Landroid/app/job/JobScheduler;->getPendingJob(I)Landroid/app/job/JobInfo;
 
     move-result-object p0
 
@@ -30,8 +28,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroid/icu/text/DateFormat;
-    ->getInstanceForSkeleton(Ljava/lang/String;Ljava/util/Locale;)Landroid/icu/text/DateFormat;
+    invoke-static {p0, p1}, Landroid/icu/text/DateFormat;->getInstanceForSkeleton(Ljava/lang/String;Ljava/util/Locale;)Landroid/icu/text/DateFormat;
 
     move-result-object p0
 
@@ -42,8 +39,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/icu/text/DisplayContext;
-    ->CAPITALIZATION_FOR_STANDALONE:Landroid/icu/text/DisplayContext;
+    sget-object v0, Landroid/icu/text/DisplayContext;->CAPITALIZATION_FOR_STANDALONE:Landroid/icu/text/DisplayContext;
 
     return-object v0
 .end method
@@ -54,8 +50,7 @@
     .line 1
     const-string v0, "UTC"
 
-    invoke-static {v0}, Landroid/icu/util/TimeZone;
-    ->getTimeZone(Ljava/lang/String;)Landroid/icu/util/TimeZone;
+    invoke-static {v0}, Landroid/icu/util/TimeZone;->getTimeZone(Ljava/lang/String;)Landroid/icu/util/TimeZone;
 
     move-result-object v0
 
@@ -75,8 +70,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/icu/text/DateFormat;
-    ->format(Ljava/util/Date;)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Landroid/icu/text/DateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -87,8 +81,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Ljava/util/Comparator;
-    ->comparing(Ljava/util/function/Function;Ljava/util/Comparator;)Ljava/util/Comparator;
+    invoke-static {p0, p1}, Ljava/util/Comparator;->comparing(Ljava/util/function/Function;Ljava/util/Comparator;)Ljava/util/Comparator;
 
     move-result-object p0
 
@@ -99,8 +92,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Ljava/util/Optional;
-    ->ofNullable(Ljava/lang/Object;)Ljava/util/Optional;
+    invoke-static {p0}, Ljava/util/Optional;->ofNullable(Ljava/lang/Object;)Ljava/util/Optional;
 
     move-result-object p0
 
@@ -113,8 +105,7 @@
     .line 1
     new-instance v0, Ljava/util/PriorityQueue;
 
-    invoke-direct {v0, p0}, Ljava/util/PriorityQueue;
-    -><init>(Ljava/util/Comparator;)V
+    invoke-direct {v0, p0}, Ljava/util/PriorityQueue;-><init>(Ljava/util/Comparator;)V
 return-object v0
 .end method
 
@@ -124,8 +115,7 @@ return-object v0
     .line 1
     const/16 v0, 0x510
 
-    invoke-static {p0, v0}, Ljava/util/Spliterators;
-    ->spliterator(Ljava/util/Collection;I)Ljava/util/Spliterator;
+    invoke-static {p0, v0}, Ljava/util/Spliterators;->spliterator(Ljava/util/Collection;I)Ljava/util/Spliterator;
 
     move-result-object p0
 
@@ -136,8 +126,7 @@ return-object v0
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Ljava/util/concurrent/CompletableFuture;
-    ->runAsync(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;
+    invoke-static {p0, p1}, Ljava/util/concurrent/CompletableFuture;->runAsync(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;
 
     move-result-object p0
 
@@ -148,11 +137,9 @@ return-object v0
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/icu/text/DisplayContext;
-    ->CAPITALIZATION_FOR_STANDALONE:Landroid/icu/text/DisplayContext;
+    sget-object v0, Landroid/icu/text/DisplayContext;->CAPITALIZATION_FOR_STANDALONE:Landroid/icu/text/DisplayContext;
 
-    invoke-virtual {p0, v0}, Landroid/icu/text/DateFormat;
-    ->setContext(Landroid/icu/text/DisplayContext;)V
+    invoke-virtual {p0, v0}, Landroid/icu/text/DateFormat;->setContext(Landroid/icu/text/DisplayContext;)V
 return-void
 .end method
 
@@ -160,8 +147,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/icu/text/DateFormat;
-    ->setTimeZone(Landroid/icu/util/TimeZone;)V
+    invoke-virtual {p0, p1}, Landroid/icu/text/DateFormat;->setTimeZone(Landroid/icu/util/TimeZone;)V
 return-void
 .end method
 
@@ -169,8 +155,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/widget/EditText;
-    ->setImeHintLocales(Landroid/os/LocaleList;)V
+    invoke-virtual {p0, p1}, Landroid/widget/EditText;->setImeHintLocales(Landroid/os/LocaleList;)V
 return-void
 .end method
 
@@ -178,11 +163,9 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Ljava/util/concurrent/TimeUnit;
-    ->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
+    sget-object v0, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
-    invoke-virtual {p0, p1, p2, v0}, Ljava/util/concurrent/CompletableFuture;
-    ->get(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2, v0}, Ljava/util/concurrent/CompletableFuture;->get(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
 
     return-void
 .end method
@@ -191,8 +174,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Ljava/util/concurrent/CompletableFuture;
-    ->complete(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p1}, Ljava/util/concurrent/CompletableFuture;->complete(Ljava/lang/Object;)Z
 
     return-void
 .end method
@@ -201,8 +183,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Ljava/util/concurrent/CompletableFuture;
-    ->completeExceptionally(Ljava/lang/Throwable;)Z
+    invoke-virtual {p0, p1}, Ljava/util/concurrent/CompletableFuture;->completeExceptionally(Ljava/lang/Throwable;)Z
 
     return-void
 .end method
@@ -211,8 +192,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Ljava/util/concurrent/CompletableFuture;
-    ->completeExceptionally(Ljava/lang/Throwable;)Z
+    invoke-virtual {p0, p1}, Ljava/util/concurrent/CompletableFuture;->completeExceptionally(Ljava/lang/Throwable;)Z
 
     return-void
 .end method
@@ -221,8 +201,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Ljava/util/concurrent/CompletableFuture;
-    ->complete(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p1}, Ljava/util/concurrent/CompletableFuture;->complete(Ljava/lang/Object;)Z
 
     return-void
 .end method
@@ -231,8 +210,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->isDeviceProtectedStorage()Z
+    invoke-virtual {p0}, Landroid/content/Context;->isDeviceProtectedStorage()Z
 
     move-result p0
 
@@ -243,8 +221,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/os/UserManager;
-    ->isUserUnlocked()Z
+    invoke-virtual {p0}, Landroid/os/UserManager;->isUserUnlocked()Z
 
     move-result p0
 
@@ -255,8 +232,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/security/NetworkSecurityPolicy;
-    ->isCleartextTrafficPermitted(Ljava/lang/String;)Z
+    invoke-virtual {p0, p1}, Landroid/security/NetworkSecurityPolicy;->isCleartextTrafficPermitted(Ljava/lang/String;)Z
 
     move-result p0
 
@@ -267,8 +243,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Ljava/lang/reflect/Method;
-    ->isDefault()Z
+    invoke-virtual {p0}, Ljava/lang/reflect/Method;->isDefault()Z
 
     move-result p0
 

@@ -8,8 +8,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzda;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzda;-><init>()V
     return-void
 .end method
 
@@ -17,8 +16,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzcz;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzcz;-><init>()V
     return-void
 .end method
 
@@ -28,8 +26,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Ljava/net/URL;
-    ->openConnection()Ljava/net/URLConnection;
+    invoke-virtual {p1}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
 
     .line 2
     .line 3

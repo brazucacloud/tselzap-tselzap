@@ -17,8 +17,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -30,8 +29,7 @@
     .locals 2
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -43,8 +41,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/os/ProcessCompat$Api24Impl;
-    ->isApplicationUid(I)Z
+    invoke-static {p0}, Landroidx/core/os/ProcessCompat$Api24Impl;->isApplicationUid(I)Z
 
     .line 8
     .line 9
@@ -55,8 +52,7 @@
 
     .line 12
     :cond_0
-    invoke-static {p0}, Landroidx/core/os/ProcessCompat$Api19Impl;
-    ->isApplicationUid(I)Z
+    invoke-static {p0}, Landroidx/core/os/ProcessCompat$Api19Impl;->isApplicationUid(I)Z
 
     .line 13
     .line 14

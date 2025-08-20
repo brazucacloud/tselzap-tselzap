@@ -5,8 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/datastore/preferences/protobuf/AllocatedBuffer;
-    ->wrapNoCheck([BII)Landroidx/datastore/preferences/protobuf/AllocatedBuffer;
+    value = Landroidx/datastore/preferences/protobuf/AllocatedBuffer;->wrapNoCheck([BII)Landroidx/datastore/preferences/protobuf/AllocatedBuffer;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -30,23 +29,19 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;
-    ->val$bytes:[B
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;->val$bytes:[B
 
     .line 2
     .line 3
-    iput p2, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;
-    ->val$offset:I
+    iput p2, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;->val$offset:I
 
     .line 4
     .line 5
-    iput p3, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;
-    ->val$length:I
+    iput p3, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;->val$length:I
 
     .line 6
     .line 7
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/AllocatedBuffer;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/AllocatedBuffer;-><init>()V
     return-void
 .end method
 
@@ -56,16 +51,14 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;
-    ->val$bytes:[B    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;->val$bytes:[B    return-object v0
 .end method
 
 .method public arrayOffset()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;
-    ->val$offset:I    return v0
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;->val$offset:I    return v0
 .end method
 
 .method public hasArray()Z
@@ -88,8 +81,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;
-    ->val$length:I    return v0
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;->val$length:I    return v0
 .end method
 
 .method public nioBuffer()Ljava/nio/ByteBuffer;
@@ -100,8 +92,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     .line 4
     .line 5
@@ -112,8 +103,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;
-    ->position:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;->position:I
 
     return v0
 .end method
@@ -124,14 +114,12 @@
     if-ltz p1, :cond_0
 
     .line 2
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;
-    ->val$length:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;->val$length:I
 
     if-gt p1, v0, :cond_0
 
     .line 3
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;
-    ->position:I
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;->position:I
 
     return-object p0
 
@@ -142,14 +130,12 @@
     const-string v1, "Invalid position: "
 
     .line 5
-    invoke-static {p1, v1}, LA/d;
-    ->c(ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v1}, LA/d;->c(ILjava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
     .line 6
-    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     throw v0
 .end method
@@ -158,13 +144,11 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;
-    ->val$length:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;->val$length:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;
-    ->position:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/AllocatedBuffer$2;->position:I
 
     .line 4
     .line 5

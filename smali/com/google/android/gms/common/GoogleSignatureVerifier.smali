@@ -34,14 +34,12 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p1}, Landroid/content/Context;
-    ->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     .line 5
     .line 6
@@ -49,8 +47,7 @@
     move-result-object p1
 
     .line 8
-    iput-object p1, p0, Lcom/google/android/gms/common/GoogleSignatureVerifier;
-    ->zzd:Landroid/content/Context;
+    iput-object p1, p0, Lcom/google/android/gms/common/GoogleSignatureVerifier;->zzd:Landroid/content/Context;
 
     .line 9
     .line 10
@@ -70,8 +67,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -84,8 +80,7 @@
 
     .line 7
     :try_start_0
-    sget-object v1, Lcom/google/android/gms/common/GoogleSignatureVerifier;
-    ->zza:Lcom/google/android/gms/common/GoogleSignatureVerifier;
+    sget-object v1, Lcom/google/android/gms/common/GoogleSignatureVerifier;->zza:Lcom/google/android/gms/common/GoogleSignatureVerifier;
 
     .line 8
     .line 9
@@ -93,8 +88,7 @@
 
     .line 10
     .line 11
-    invoke-static {p0}, Lcom/google/android/gms/common/zzn;
-    ->zze(Landroid/content/Context;)V
+    invoke-static {p0}, Lcom/google/android/gms/common/zzn;->zze(Landroid/content/Context;)V
 
     .line 12
     .line 13
@@ -103,14 +97,12 @@
 
     .line 15
     .line 16
-    invoke-direct {v1, p0}, Lcom/google/android/gms/common/GoogleSignatureVerifier;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {v1, p0}, Lcom/google/android/gms/common/GoogleSignatureVerifier;-><init>(Landroid/content/Context;)V
 
     .line 17
     .line 18
     .line 19
-    sput-object v1, Lcom/google/android/gms/common/GoogleSignatureVerifier;
-    ->zza:Lcom/google/android/gms/common/GoogleSignatureVerifier;
+    sput-object v1, Lcom/google/android/gms/common/GoogleSignatureVerifier;->zza:Lcom/google/android/gms/common/GoogleSignatureVerifier;
 
     .line 20
     .line 21
@@ -131,8 +123,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 25
-    sget-object p0, Lcom/google/android/gms/common/GoogleSignatureVerifier;
-    ->zza:Lcom/google/android/gms/common/GoogleSignatureVerifier;
+    sget-object p0, Lcom/google/android/gms/common/GoogleSignatureVerifier;->zza:Lcom/google/android/gms/common/GoogleSignatureVerifier;
 
     .line 26
     .line 27
@@ -208,8 +199,7 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroid/content/pm/PackageInfo;
-    ->signatures:[Landroid/content/pm/Signature;
+    iget-object v0, p0, Landroid/content/pm/PackageInfo;->signatures:[Landroid/content/pm/Signature;
 
     .line 2
     .line 3
@@ -242,8 +232,7 @@
 
     .line 14
     .line 15
-    invoke-static {p0, p1}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 16
     .line 17
@@ -256,8 +245,7 @@
 
     .line 20
     .line 21
-    iget-object p0, p0, Landroid/content/pm/PackageInfo;
-    ->signatures:[Landroid/content/pm/Signature;
+    iget-object p0, p0, Landroid/content/pm/PackageInfo;->signatures:[Landroid/content/pm/Signature;
 
     .line 22
     .line 23
@@ -268,8 +256,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {p0}, Landroid/content/pm/Signature;
-    ->toByteArray()[B
+    invoke-virtual {p0}, Landroid/content/pm/Signature;->toByteArray()[B
 
     .line 27
     .line 28
@@ -277,8 +264,7 @@
     move-result-object p0
 
     .line 30
-    invoke-direct {v0, p0}, Lcom/google/android/gms/common/zzk;
-    -><init>([B)V
+    invoke-direct {v0, p0}, Lcom/google/android/gms/common/zzk;-><init>([B)V
 
     .line 31
     .line 32
@@ -295,8 +281,7 @@
 
     .line 37
     .line 38
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/zzj;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/common/zzj;->equals(Ljava/lang/Object;)Z
 
     .line 39
     .line 40
@@ -354,13 +339,11 @@
 
     .line 8
     .line 9
-    iget-object v3, p0, Landroid/content/pm/PackageInfo;
-    ->packageName:Ljava/lang/String;
+    iget-object v3, p0, Landroid/content/pm/PackageInfo;->packageName:Ljava/lang/String;
 
     .line 10
     .line 11
-    invoke-virtual {v2, v3}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -372,8 +355,7 @@
 
     .line 16
     .line 17
-    iget-object v2, p0, Landroid/content/pm/PackageInfo;
-    ->packageName:Ljava/lang/String;
+    iget-object v2, p0, Landroid/content/pm/PackageInfo;->packageName:Ljava/lang/String;
 
     .line 18
     .line 19
@@ -381,8 +363,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {v3, v2}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 22
     .line 23
@@ -395,8 +376,7 @@
     .line 26
     .line 27
     :cond_0
-    iget-object p1, p0, Landroid/content/pm/PackageInfo;
-    ->applicationInfo:Landroid/content/pm/ApplicationInfo;
+    iget-object p1, p0, Landroid/content/pm/PackageInfo;->applicationInfo:Landroid/content/pm/ApplicationInfo;
 
     .line 28
     .line 29
@@ -412,8 +392,7 @@
 
     .line 33
     :cond_2
-    iget p1, p1, Landroid/content/pm/ApplicationInfo;
-    ->flags:I
+    iget p1, p1, Landroid/content/pm/ApplicationInfo;->flags:I
 
     .line 34
     .line 35
@@ -445,8 +424,7 @@
 
     .line 44
     .line 45
-    iget-object p0, v2, Landroid/content/pm/PackageInfo;
-    ->signatures:[Landroid/content/pm/Signature;
+    iget-object p0, v2, Landroid/content/pm/PackageInfo;->signatures:[Landroid/content/pm/Signature;
 
     .line 46
     .line 47
@@ -458,13 +436,11 @@
 
     .line 50
     .line 51
-    sget-object p0, Lcom/google/android/gms/common/zzm;
-    ->zza:[Lcom/google/android/gms/common/zzj;
+    sget-object p0, Lcom/google/android/gms/common/zzm;->zza:[Lcom/google/android/gms/common/zzj;
 
     .line 52
     .line 53
-    invoke-static {v2, p0}, Lcom/google/android/gms/common/GoogleSignatureVerifier;
-    ->zza(Landroid/content/pm/PackageInfo;[Lcom/google/android/gms/common/zzj;)Lcom/google/android/gms/common/zzj;
+    invoke-static {v2, p0}, Lcom/google/android/gms/common/GoogleSignatureVerifier;->zza(Landroid/content/pm/PackageInfo;[Lcom/google/android/gms/common/zzj;)Lcom/google/android/gms/common/zzj;
 
     .line 54
     .line 55
@@ -476,8 +452,7 @@
 
     .line 58
     :cond_5
-    sget-object p0, Lcom/google/android/gms/common/zzm;
-    ->zza:[Lcom/google/android/gms/common/zzj;
+    sget-object p0, Lcom/google/android/gms/common/zzm;->zza:[Lcom/google/android/gms/common/zzj;
 
     .line 59
     .line 60
@@ -493,8 +468,7 @@
 
     .line 65
     .line 66
-    invoke-static {v2, p1}, Lcom/google/android/gms/common/GoogleSignatureVerifier;
-    ->zza(Landroid/content/pm/PackageInfo;[Lcom/google/android/gms/common/zzj;)Lcom/google/android/gms/common/zzj;
+    invoke-static {v2, p1}, Lcom/google/android/gms/common/GoogleSignatureVerifier;->zza(Landroid/content/pm/PackageInfo;[Lcom/google/android/gms/common/zzj;)Lcom/google/android/gms/common/zzj;
 
     .line 67
     .line 68
@@ -531,8 +505,7 @@
 
     .line 4
     .line 5
-    invoke-static {p2}, Lcom/google/android/gms/common/zzw;
-    ->zzc(Ljava/lang/String;)Lcom/google/android/gms/common/zzw;
+    invoke-static {p2}, Lcom/google/android/gms/common/zzw;->zzc(Ljava/lang/String;)Lcom/google/android/gms/common/zzw;
 
     .line 6
     .line 7
@@ -543,13 +516,11 @@
 
     .line 10
     :cond_0
-    iget-object p3, p0, Lcom/google/android/gms/common/GoogleSignatureVerifier;
-    ->zze:Ljava/lang/String;
+    iget-object p3, p0, Lcom/google/android/gms/common/GoogleSignatureVerifier;->zze:Ljava/lang/String;
 
     .line 11
     .line 12
-    invoke-virtual {p1, p3}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, p3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 13
     .line 14
@@ -561,8 +532,7 @@
 
     .line 17
     .line 18
-    invoke-static {}, Lcom/google/android/gms/common/zzn;
-    ->zzg()Z
+    invoke-static {}, Lcom/google/android/gms/common/zzn;->zzg()Z
 
     .line 19
     .line 20
@@ -577,13 +547,11 @@
 
     .line 24
     .line 25
-    iget-object p2, p0, Lcom/google/android/gms/common/GoogleSignatureVerifier;
-    ->zzd:Landroid/content/Context;
+    iget-object p2, p0, Lcom/google/android/gms/common/GoogleSignatureVerifier;->zzd:Landroid/content/Context;
 
     .line 26
     .line 27
-    invoke-static {p2}, Lcom/google/android/gms/common/GooglePlayServicesUtilLight;
-    ->honorsDebugCertificates(Landroid/content/Context;)Z
+    invoke-static {p2}, Lcom/google/android/gms/common/GooglePlayServicesUtilLight;->honorsDebugCertificates(Landroid/content/Context;)Z
 
     .line 28
     .line 29
@@ -591,8 +559,7 @@
     move-result p2
 
     .line 31
-    invoke-static {p1, p2, v0, v0}, Lcom/google/android/gms/common/zzn;
-    ->zzb(Ljava/lang/String;ZZZ)Lcom/google/android/gms/common/zzw;
+    invoke-static {p1, p2, v0, v0}, Lcom/google/android/gms/common/zzn;->zzb(Ljava/lang/String;ZZZ)Lcom/google/android/gms/common/zzw;
 
     .line 32
     .line 33
@@ -605,13 +572,11 @@
     .line 36
     :cond_1
     :try_start_0
-    iget-object p3, p0, Lcom/google/android/gms/common/GoogleSignatureVerifier;
-    ->zzd:Landroid/content/Context;
+    iget-object p3, p0, Lcom/google/android/gms/common/GoogleSignatureVerifier;->zzd:Landroid/content/Context;
 
     .line 37
     .line 38
-    invoke-virtual {p3}, Landroid/content/Context;
-    ->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p3}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 39
     .line 40
@@ -623,8 +588,7 @@
 
     .line 43
     .line 44
-    invoke-virtual {p3, p1, v1}, Landroid/content/pm/PackageManager;
-    ->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
+    invoke-virtual {p3, p1, v1}, Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
 
     .line 45
     .line 46
@@ -634,13 +598,11 @@
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 48
-    iget-object v1, p0, Lcom/google/android/gms/common/GoogleSignatureVerifier;
-    ->zzd:Landroid/content/Context;
+    iget-object v1, p0, Lcom/google/android/gms/common/GoogleSignatureVerifier;->zzd:Landroid/content/Context;
 
     .line 49
     .line 50
-    invoke-static {v1}, Lcom/google/android/gms/common/GooglePlayServicesUtilLight;
-    ->honorsDebugCertificates(Landroid/content/Context;)Z
+    invoke-static {v1}, Lcom/google/android/gms/common/GooglePlayServicesUtilLight;->honorsDebugCertificates(Landroid/content/Context;)Z
 
     .line 51
     .line 52
@@ -652,8 +614,7 @@
 
     .line 55
     .line 56
-    invoke-static {p2}, Lcom/google/android/gms/common/zzw;
-    ->zzc(Ljava/lang/String;)Lcom/google/android/gms/common/zzw;
+    invoke-static {p2}, Lcom/google/android/gms/common/zzw;->zzc(Ljava/lang/String;)Lcom/google/android/gms/common/zzw;
 
     .line 57
     .line 58
@@ -665,8 +626,7 @@
 
     .line 61
     :cond_2
-    iget-object p2, p3, Landroid/content/pm/PackageInfo;
-    ->signatures:[Landroid/content/pm/Signature;
+    iget-object p2, p3, Landroid/content/pm/PackageInfo;->signatures:[Landroid/content/pm/Signature;
 
     .line 62
     .line 63
@@ -692,8 +652,7 @@
 
     .line 71
     .line 72
-    iget-object v3, p3, Landroid/content/pm/PackageInfo;
-    ->signatures:[Landroid/content/pm/Signature;
+    iget-object v3, p3, Landroid/content/pm/PackageInfo;->signatures:[Landroid/content/pm/Signature;
 
     .line 73
     .line 74
@@ -701,8 +660,7 @@
 
     .line 75
     .line 76
-    invoke-virtual {v3}, Landroid/content/pm/Signature;
-    ->toByteArray()[B
+    invoke-virtual {v3}, Landroid/content/pm/Signature;->toByteArray()[B
 
     .line 77
     .line 78
@@ -710,19 +668,16 @@
     move-result-object v3
 
     .line 80
-    invoke-direct {p2, v3}, Lcom/google/android/gms/common/zzk;
-    -><init>([B)V
+    invoke-direct {p2, v3}, Lcom/google/android/gms/common/zzk;-><init>([B)V
 
     .line 81
     .line 82
     .line 83
-    iget-object v3, p3, Landroid/content/pm/PackageInfo;
-    ->packageName:Ljava/lang/String;
+    iget-object v3, p3, Landroid/content/pm/PackageInfo;->packageName:Ljava/lang/String;
 
     .line 84
     .line 85
-    invoke-static {v3, p2, v1, v0}, Lcom/google/android/gms/common/zzn;
-    ->zza(Ljava/lang/String;Lcom/google/android/gms/common/zzj;ZZ)Lcom/google/android/gms/common/zzw;
+    invoke-static {v3, p2, v1, v0}, Lcom/google/android/gms/common/zzn;->zza(Ljava/lang/String;Lcom/google/android/gms/common/zzj;ZZ)Lcom/google/android/gms/common/zzw;
 
     .line 86
     .line 87
@@ -730,8 +685,7 @@
     move-result-object v1
 
     .line 89
-    iget-boolean v4, v1, Lcom/google/android/gms/common/zzw;
-    ->zza:Z
+    iget-boolean v4, v1, Lcom/google/android/gms/common/zzw;->zza:Z
 
     .line 90
     .line 91
@@ -739,8 +693,7 @@
 
     .line 92
     .line 93
-    iget-object p3, p3, Landroid/content/pm/PackageInfo;
-    ->applicationInfo:Landroid/content/pm/ApplicationInfo;
+    iget-object p3, p3, Landroid/content/pm/PackageInfo;->applicationInfo:Landroid/content/pm/ApplicationInfo;
 
     .line 94
     .line 95
@@ -748,8 +701,7 @@
 
     .line 96
     .line 97
-    iget p3, p3, Landroid/content/pm/ApplicationInfo;
-    ->flags:I
+    iget p3, p3, Landroid/content/pm/ApplicationInfo;->flags:I
 
     .line 98
     .line 99
@@ -761,8 +713,7 @@
 
     .line 102
     .line 103
-    invoke-static {v3, p2, v0, v2}, Lcom/google/android/gms/common/zzn;
-    ->zza(Ljava/lang/String;Lcom/google/android/gms/common/zzj;ZZ)Lcom/google/android/gms/common/zzw;
+    invoke-static {v3, p2, v0, v2}, Lcom/google/android/gms/common/zzn;->zza(Ljava/lang/String;Lcom/google/android/gms/common/zzj;ZZ)Lcom/google/android/gms/common/zzw;
 
     .line 104
     .line 105
@@ -770,8 +721,7 @@
     move-result-object p2
 
     .line 107
-    iget-boolean p2, p2, Lcom/google/android/gms/common/zzw;
-    ->zza:Z
+    iget-boolean p2, p2, Lcom/google/android/gms/common/zzw;->zza:Z
 
     .line 108
     .line 109
@@ -783,8 +733,7 @@
 
     .line 112
     .line 113
-    invoke-static {p2}, Lcom/google/android/gms/common/zzw;
-    ->zzc(Ljava/lang/String;)Lcom/google/android/gms/common/zzw;
+    invoke-static {p2}, Lcom/google/android/gms/common/zzw;->zzc(Ljava/lang/String;)Lcom/google/android/gms/common/zzw;
 
     .line 114
     .line 115
@@ -808,8 +757,7 @@
 
     .line 121
     .line 122
-    invoke-static {p2}, Lcom/google/android/gms/common/zzw;
-    ->zzc(Ljava/lang/String;)Lcom/google/android/gms/common/zzw;
+    invoke-static {p2}, Lcom/google/android/gms/common/zzw;->zzc(Ljava/lang/String;)Lcom/google/android/gms/common/zzw;
 
     .line 123
     .line 124
@@ -818,8 +766,7 @@
 
     .line 126
     :goto_1
-    iget-boolean p3, p2, Lcom/google/android/gms/common/zzw;
-    ->zza:Z
+    iget-boolean p3, p2, Lcom/google/android/gms/common/zzw;->zza:Z
 
     .line 127
     .line 128
@@ -827,8 +774,7 @@
 
     .line 129
     .line 130
-    iput-object p1, p0, Lcom/google/android/gms/common/GoogleSignatureVerifier;
-    ->zze:Ljava/lang/String;
+    iput-object p1, p0, Lcom/google/android/gms/common/GoogleSignatureVerifier;->zze:Ljava/lang/String;
 
     .line 131
     .line 132
@@ -844,8 +790,7 @@
 
     .line 135
     .line 136
-    invoke-virtual {p3, p1}, Ljava/lang/String;
-    ->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p3, p1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 137
     .line 138
@@ -853,8 +798,7 @@
     move-result-object p1
 
     .line 140
-    invoke-static {p1, p2}, Lcom/google/android/gms/common/zzw;
-    ->zzd(Ljava/lang/String;Ljava/lang/Throwable;)Lcom/google/android/gms/common/zzw;
+    invoke-static {p1, p2}, Lcom/google/android/gms/common/zzw;->zzd(Ljava/lang/String;Ljava/lang/Throwable;)Lcom/google/android/gms/common/zzw;
 
     .line 141
     .line 142
@@ -865,8 +809,7 @@
 
     .line 145
     :cond_7
-    invoke-static {}, Lcom/google/android/gms/common/zzw;
-    ->zzb()Lcom/google/android/gms/common/zzw;
+    invoke-static {}, Lcom/google/android/gms/common/zzw;->zzb()Lcom/google/android/gms/common/zzw;
 
     .line 146
     .line 147
@@ -899,8 +842,7 @@
 
     .line 5
     :cond_0
-    invoke-static {p1, v0}, Lcom/google/android/gms/common/GoogleSignatureVerifier;
-    ->zzb(Landroid/content/pm/PackageInfo;Z)Z
+    invoke-static {p1, v0}, Lcom/google/android/gms/common/GoogleSignatureVerifier;->zzb(Landroid/content/pm/PackageInfo;Z)Z
 
     .line 6
     .line 7
@@ -919,8 +861,7 @@
 
     .line 13
     :cond_1
-    invoke-static {p1, v2}, Lcom/google/android/gms/common/GoogleSignatureVerifier;
-    ->zzb(Landroid/content/pm/PackageInfo;Z)Z
+    invoke-static {p1, v2}, Lcom/google/android/gms/common/GoogleSignatureVerifier;->zzb(Landroid/content/pm/PackageInfo;Z)Z
 
     .line 14
     .line 15
@@ -932,13 +873,11 @@
 
     .line 18
     .line 19
-    iget-object p1, p0, Lcom/google/android/gms/common/GoogleSignatureVerifier;
-    ->zzd:Landroid/content/Context;
+    iget-object p1, p0, Lcom/google/android/gms/common/GoogleSignatureVerifier;->zzd:Landroid/content/Context;
 
     .line 20
     .line 21
-    invoke-static {p1}, Lcom/google/android/gms/common/GooglePlayServicesUtilLight;
-    ->honorsDebugCertificates(Landroid/content/Context;)Z
+    invoke-static {p1}, Lcom/google/android/gms/common/GooglePlayServicesUtilLight;->honorsDebugCertificates(Landroid/content/Context;)Z
 
     .line 22
     .line 23
@@ -962,8 +901,7 @@
 
     .line 31
     .line 32
-    invoke-static {p1, v1}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 33
     .line 34
@@ -984,8 +922,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, p1, v0, v0}, Lcom/google/android/gms/common/GoogleSignatureVerifier;
-    ->zzc(Ljava/lang/String;ZZ)Lcom/google/android/gms/common/zzw;
+    invoke-direct {p0, p1, v0, v0}, Lcom/google/android/gms/common/GoogleSignatureVerifier;->zzc(Ljava/lang/String;ZZ)Lcom/google/android/gms/common/zzw;
 
     .line 3
     .line 4
@@ -993,14 +930,12 @@
     move-result-object p1
 
     .line 6
-    invoke-virtual {p1}, Lcom/google/android/gms/common/zzw;
-    ->zze()V
+    invoke-virtual {p1}, Lcom/google/android/gms/common/zzw;->zze()V
 
     .line 7
     .line 8
     .line 9
-    iget-boolean p1, p1, Lcom/google/android/gms/common/zzw;
-    ->zza:Z
+    iget-boolean p1, p1, Lcom/google/android/gms/common/zzw;->zza:Z
 
     .line 10
     .line 11
@@ -1016,13 +951,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/GoogleSignatureVerifier;
-    ->zzd:Landroid/content/Context;
+    iget-object v0, p0, Lcom/google/android/gms/common/GoogleSignatureVerifier;->zzd:Landroid/content/Context;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/content/Context;
-    ->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {v0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 4
     .line 5
@@ -1030,8 +963,7 @@
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0, p1}, Landroid/content/pm/PackageManager;
-    ->getPackagesForUid(I)[Ljava/lang/String;
+    invoke-virtual {v0, p1}, Landroid/content/pm/PackageManager;->getPackagesForUid(I)[Ljava/lang/String;
 
     .line 8
     .line 9
@@ -1072,8 +1004,7 @@
 
     .line 23
     .line 24
-    invoke-direct {p0, v2, v1, v1}, Lcom/google/android/gms/common/GoogleSignatureVerifier;
-    ->zzc(Ljava/lang/String;ZZ)Lcom/google/android/gms/common/zzw;
+    invoke-direct {p0, v2, v1, v1}, Lcom/google/android/gms/common/GoogleSignatureVerifier;->zzc(Ljava/lang/String;ZZ)Lcom/google/android/gms/common/zzw;
 
     .line 25
     .line 26
@@ -1081,8 +1012,7 @@
     move-result-object v2
 
     .line 28
-    iget-boolean v4, v2, Lcom/google/android/gms/common/zzw;
-    ->zza:Z
+    iget-boolean v4, v2, Lcom/google/android/gms/common/zzw;->zza:Z
 
     .line 29
     .line 30
@@ -1102,8 +1032,7 @@
 
     .line 36
     :cond_2
-    invoke-static {v2}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v2}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 37
     .line 38
@@ -1117,8 +1046,7 @@
 
     .line 41
     .line 42
-    invoke-static {p1}, Lcom/google/android/gms/common/zzw;
-    ->zzc(Ljava/lang/String;)Lcom/google/android/gms/common/zzw;
+    invoke-static {p1}, Lcom/google/android/gms/common/zzw;->zzc(Ljava/lang/String;)Lcom/google/android/gms/common/zzw;
 
     .line 43
     .line 44
@@ -1127,14 +1055,12 @@
 
     .line 46
     :goto_2
-    invoke-virtual {v2}, Lcom/google/android/gms/common/zzw;
-    ->zze()V
+    invoke-virtual {v2}, Lcom/google/android/gms/common/zzw;->zze()V
 
     .line 47
     .line 48
     .line 49
-    iget-boolean p1, v2, Lcom/google/android/gms/common/zzw;
-    ->zza:Z
+    iget-boolean p1, v2, Lcom/google/android/gms/common/zzw;->zza:Z
 
     .line 50
     .line 51

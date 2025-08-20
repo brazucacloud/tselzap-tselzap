@@ -8,8 +8,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zziz;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zziz;-><init>()V
     return-void
 .end method
 
@@ -17,8 +16,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzjh;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzjh;-><init>()V
     return-void
 .end method
 

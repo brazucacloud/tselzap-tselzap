@@ -45,14 +45,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p2}, Landroidx/core/text/PrecomputedTextCompat$PrecomputedTextFutureTask$PrecomputedTextCallback;
-    -><init>(Landroidx/core/text/PrecomputedTextCompat$Params;Ljava/lang/CharSequence;)V
+    invoke-direct {v0, p1, p2}, Landroidx/core/text/PrecomputedTextCompat$PrecomputedTextFutureTask$PrecomputedTextCallback;-><init>(Landroidx/core/text/PrecomputedTextCompat$Params;Ljava/lang/CharSequence;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0, v0}, Ljava/util/concurrent/FutureTask;
-    -><init>(Ljava/util/concurrent/Callable;)V
+    invoke-direct {p0, v0}, Ljava/util/concurrent/FutureTask;-><init>(Ljava/util/concurrent/Callable;)V
 
     .line 7
     .line 8

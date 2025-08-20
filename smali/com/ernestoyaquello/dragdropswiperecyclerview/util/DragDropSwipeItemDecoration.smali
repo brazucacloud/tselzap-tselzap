@@ -24,20 +24,17 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration;
-    ->divider:Landroid/graphics/drawable/Drawable;
+    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration;->divider:Landroid/graphics/drawable/Drawable;
 
     .line 10
     .line 11
@@ -48,8 +45,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;
-    ->getChildViewHolder(Landroid/view/View;)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+    invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildViewHolder(Landroid/view/View;)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
 
     .line 2
     .line 3
@@ -61,8 +57,7 @@
 
     .line 6
     .line 7
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
-    ->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -71,8 +66,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->isBeingDragged$drag_drop_swipe_recyclerview_release()Z
+    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->isBeingDragged$drag_drop_swipe_recyclerview_release()Z
 
     .line 13
     .line 14
@@ -84,8 +78,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->isBeingSwiped$drag_drop_swipe_recyclerview_release()Z
+    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->isBeingSwiped$drag_drop_swipe_recyclerview_release()Z
 
     .line 19
     .line 20
@@ -119,8 +112,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration;
-    ->divider:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration;->divider:Landroid/graphics/drawable/Drawable;
 
     .line 2
     .line 3
@@ -135,8 +127,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -145,8 +136,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -155,8 +145,7 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -165,14 +154,12 @@
 
     .line 17
     .line 18
-    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 19
     .line 20
     .line 21
-    invoke-super {p0, p1, p2, p3, p4}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;
-    ->getItemOffsets(Landroid/graphics/Rect;Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;)V
+    invoke-super {p0, p1, p2, p3, p4}, Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;->getItemOffsets(Landroid/graphics/Rect;Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;)V
 
     .line 22
     .line 23
@@ -185,8 +172,7 @@
 
     .line 27
     .line 28
-    invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/RecyclerView;
-    ->getChildAdapterPosition(Landroid/view/View;)I
+    invoke-virtual {p3, p2}, Landroidx/recyclerview/widget/RecyclerView;->getChildAdapterPosition(Landroid/view/View;)I
 
     .line 29
     .line 30
@@ -202,8 +188,7 @@
 
     .line 35
     .line 36
-    invoke-virtual {p3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
-    ->getOrientation()Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
+    invoke-virtual {p3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;->getOrientation()Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
 
     .line 37
     .line 38
@@ -222,13 +207,11 @@
 
     .line 44
     :cond_0
-    sget-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration$WhenMappings;
-    ->$EnumSwitchMapping$0:[I
+    sget-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration$WhenMappings;->$EnumSwitchMapping$0:[I
 
     .line 45
     .line 46
-    invoke-virtual {p4}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {p4}, Ljava/lang/Enum;->ordinal()I
 
     .line 47
     .line 48
@@ -250,8 +233,7 @@
 
     .line 56
     :pswitch_0
-    invoke-virtual {p3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
-    ->getNumOfColumnsPerRowInGridList()I
+    invoke-virtual {p3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;->getNumOfColumnsPerRowInGridList()I
 
     .line 57
     .line 58
@@ -263,13 +245,11 @@
 
     .line 61
     .line 62
-    iget-object p4, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration;
-    ->divider:Landroid/graphics/drawable/Drawable;
+    iget-object p4, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration;->divider:Landroid/graphics/drawable/Drawable;
 
     .line 63
     .line 64
-    invoke-virtual {p4}, Landroid/graphics/drawable/Drawable;
-    ->getIntrinsicHeight()I
+    invoke-virtual {p4}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
 
     .line 65
     .line 66
@@ -277,14 +257,12 @@
     move-result p4
 
     .line 68
-    iput p4, p1, Landroid/graphics/Rect;
-    ->top:I
+    iput p4, p1, Landroid/graphics/Rect;->top:I
 
     .line 69
     .line 70
     :cond_1
-    invoke-virtual {p3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
-    ->getNumOfRowsPerColumnInGridList()I
+    invoke-virtual {p3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;->getNumOfRowsPerColumnInGridList()I
 
     .line 71
     .line 72
@@ -296,13 +274,11 @@
 
     .line 75
     .line 76
-    iget-object p2, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration;
-    ->divider:Landroid/graphics/drawable/Drawable;
+    iget-object p2, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration;->divider:Landroid/graphics/drawable/Drawable;
 
     .line 77
     .line 78
-    invoke-virtual {p2}, Landroid/graphics/drawable/Drawable;
-    ->getIntrinsicWidth()I
+    invoke-virtual {p2}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
 
     .line 79
     .line 80
@@ -310,8 +286,7 @@
     move-result p2
 
     .line 82
-    iput p2, p1, Landroid/graphics/Rect;
-    ->left:I
+    iput p2, p1, Landroid/graphics/Rect;->left:I
 
     .line 83
     .line 84
@@ -319,13 +294,11 @@
 
     .line 85
     :pswitch_1
-    iget-object p2, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration;
-    ->divider:Landroid/graphics/drawable/Drawable;
+    iget-object p2, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration;->divider:Landroid/graphics/drawable/Drawable;
 
     .line 86
     .line 87
-    invoke-virtual {p2}, Landroid/graphics/drawable/Drawable;
-    ->getIntrinsicWidth()I
+    invoke-virtual {p2}, Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
 
     .line 88
     .line 89
@@ -333,8 +306,7 @@
     move-result p2
 
     .line 91
-    iput p2, p1, Landroid/graphics/Rect;
-    ->left:I
+    iput p2, p1, Landroid/graphics/Rect;->left:I
 
     .line 92
     .line 93
@@ -342,13 +314,11 @@
 
     .line 94
     :pswitch_2
-    iget-object p2, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration;
-    ->divider:Landroid/graphics/drawable/Drawable;
+    iget-object p2, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration;->divider:Landroid/graphics/drawable/Drawable;
 
     .line 95
     .line 96
-    invoke-virtual {p2}, Landroid/graphics/drawable/Drawable;
-    ->getIntrinsicHeight()I
+    invoke-virtual {p2}, Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
 
     .line 97
     .line 98
@@ -356,8 +326,7 @@
     move-result p2
 
     .line 100
-    iput p2, p1, Landroid/graphics/Rect;
-    ->top:I
+    iput p2, p1, Landroid/graphics/Rect;->top:I
 
     .line 101
     .line 102
@@ -375,8 +344,7 @@
 
     .line 106
     .line 107
-    invoke-direct {p1, p2}, Ljava/lang/ClassCastException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/ClassCastException;-><init>(Ljava/lang/String;)V
 
     .line 108
     .line 109
@@ -509,8 +477,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -519,8 +486,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -529,8 +495,7 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -550,8 +515,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {p3}, Landroid/view/ViewGroup;
-    ->getChildCount()I
+    invoke-virtual {p3}, Landroid/view/ViewGroup;->getChildCount()I
 
     .line 24
     .line 25
@@ -567,8 +531,7 @@
 
     .line 29
     .line 30
-    invoke-virtual {p2, v1}, Landroid/view/ViewGroup;
-    ->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p2, v1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     .line 31
     .line 32
@@ -576,14 +539,12 @@
     move-result-object v2
 
     .line 34
-    invoke-static {v2}, Lkotlin/jvm/internal/j;
-    ->c(Ljava/lang/Object;)V
+    invoke-static {v2}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 35
     .line 36
     .line 37
-    invoke-direct {p0, p2, v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration;
-    ->itemIsBeingMoved(Landroidx/recyclerview/widget/RecyclerView;Landroid/view/View;)Z
+    invoke-direct {p0, p2, v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration;->itemIsBeingMoved(Landroidx/recyclerview/widget/RecyclerView;Landroid/view/View;)Z
 
     .line 38
     .line 39
@@ -595,8 +556,7 @@
 
     .line 42
     .line 43
-    invoke-virtual {p3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;
-    ->getOrientation()Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
+    invoke-virtual {p3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView;->getOrientation()Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeRecyclerView$ListOrientation;
 
     .line 44
     .line 45
@@ -615,13 +575,11 @@
 
     .line 51
     :cond_0
-    sget-object v4, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration$WhenMappings;
-    ->$EnumSwitchMapping$0:[I
+    sget-object v4, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration$WhenMappings;->$EnumSwitchMapping$0:[I
 
     .line 52
     .line 53
-    invoke-virtual {v3}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v3}, Ljava/lang/Enum;->ordinal()I
 
     .line 54
     .line 55
@@ -647,8 +605,7 @@
 
     .line 64
     :pswitch_0
-    iget-object v4, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration;
-    ->divider:Landroid/graphics/drawable/Drawable;
+    iget-object v4, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration;->divider:Landroid/graphics/drawable/Drawable;
 
     .line 65
     .line 66
@@ -671,19 +628,16 @@
     move-object v3, p1
 
     .line 73
-    invoke-static/range {v2 .. v9}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DividerDrawingHelperKt;
-    ->drawHorizontalDividers$default(Landroid/view/View;Landroid/graphics/Canvas;Landroid/graphics/drawable/Drawable;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;ILjava/lang/Object;)V
+    invoke-static/range {v2 .. v9}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DividerDrawingHelperKt;->drawHorizontalDividers$default(Landroid/view/View;Landroid/graphics/Canvas;Landroid/graphics/drawable/Drawable;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;ILjava/lang/Object;)V
 
     .line 74
     .line 75
     .line 76
-    iget-object v4, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration;
-    ->divider:Landroid/graphics/drawable/Drawable;
+    iget-object v4, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration;->divider:Landroid/graphics/drawable/Drawable;
 
     .line 77
     .line 78
-    invoke-static/range {v2 .. v9}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DividerDrawingHelperKt;
-    ->drawVerticalDividers$default(Landroid/view/View;Landroid/graphics/Canvas;Landroid/graphics/drawable/Drawable;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;ILjava/lang/Object;)V
+    invoke-static/range {v2 .. v9}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DividerDrawingHelperKt;->drawVerticalDividers$default(Landroid/view/View;Landroid/graphics/Canvas;Landroid/graphics/drawable/Drawable;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;ILjava/lang/Object;)V
 
     .line 79
     .line 80
@@ -695,8 +649,7 @@
     move-object v3, p1
 
     .line 83
-    iget-object v4, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration;
-    ->divider:Landroid/graphics/drawable/Drawable;
+    iget-object v4, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration;->divider:Landroid/graphics/drawable/Drawable;
 
     .line 84
     .line 85
@@ -716,8 +669,7 @@
     const/4 v7, 0x0
 
     .line 91
-    invoke-static/range {v2 .. v9}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DividerDrawingHelperKt;
-    ->drawVerticalDividers$default(Landroid/view/View;Landroid/graphics/Canvas;Landroid/graphics/drawable/Drawable;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;ILjava/lang/Object;)V
+    invoke-static/range {v2 .. v9}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DividerDrawingHelperKt;->drawVerticalDividers$default(Landroid/view/View;Landroid/graphics/Canvas;Landroid/graphics/drawable/Drawable;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;ILjava/lang/Object;)V
 
     .line 92
     .line 93
@@ -729,8 +681,7 @@
     move-object v3, p1
 
     .line 96
-    iget-object v4, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration;
-    ->divider:Landroid/graphics/drawable/Drawable;
+    iget-object v4, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration;->divider:Landroid/graphics/drawable/Drawable;
 
     .line 97
     .line 98
@@ -750,8 +701,7 @@
     const/4 v7, 0x0
 
     .line 104
-    invoke-static/range {v2 .. v9}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DividerDrawingHelperKt;
-    ->drawHorizontalDividers$default(Landroid/view/View;Landroid/graphics/Canvas;Landroid/graphics/drawable/Drawable;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;ILjava/lang/Object;)V
+    invoke-static/range {v2 .. v9}, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DividerDrawingHelperKt;->drawHorizontalDividers$default(Landroid/view/View;Landroid/graphics/Canvas;Landroid/graphics/drawable/Drawable;Ljava/lang/Integer;Ljava/lang/Integer;Ljava/lang/Float;ILjava/lang/Object;)V
 
     .line 105
     .line 106
@@ -780,8 +730,7 @@
 
     .line 115
     .line 116
-    invoke-direct {p1, p2}, Ljava/lang/ClassCastException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/ClassCastException;-><init>(Ljava/lang/String;)V
 
     .line 117
     .line 118
@@ -1593,14 +1542,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration;
-    ->divider:Landroid/graphics/drawable/Drawable;
+    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/util/DragDropSwipeItemDecoration;->divider:Landroid/graphics/drawable/Drawable;
 
     .line 7
     .line 8

@@ -17,19 +17,16 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput p1, p0, Landroidx/graphics/shapes/AngleMeasurer;
-    ->centerX:F
+    iput p1, p0, Landroidx/graphics/shapes/AngleMeasurer;->centerX:F
 
     .line 5
     .line 6
-    iput p2, p0, Landroidx/graphics/shapes/AngleMeasurer;
-    ->centerY:F    
+    iput p2, p0, Landroidx/graphics/shapes/AngleMeasurer;->centerY:F
     return-void
 .end method
 
@@ -37,8 +34,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Landroidx/graphics/shapes/AngleMeasurer;
-    ->findCubicCutPoint$lambda$1(Landroidx/graphics/shapes/Cubic;Landroidx/graphics/shapes/AngleMeasurer;FFF)F
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/graphics/shapes/AngleMeasurer;->findCubicCutPoint$lambda$1(Landroidx/graphics/shapes/Cubic;Landroidx/graphics/shapes/AngleMeasurer;FFF)F
 
     move-result p0
 
@@ -53,8 +49,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -63,14 +58,12 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p0, p4}, Landroidx/graphics/shapes/Cubic;
-    ->pointOnCurve-OOQOV4g$graphics_shapes_release(F)J
+    invoke-virtual {p0, p4}, Landroidx/graphics/shapes/Cubic;->pointOnCurve-OOQOV4g$graphics_shapes_release(F)J
 
     .line 12
     .line 13
@@ -78,8 +71,7 @@
     move-result-wide v0
 
     .line 15
-    invoke-static {v0, v1}, Landroidx/graphics/shapes/PointKt;
-    ->getX-DnnuFBc(J)F
+    invoke-static {v0, v1}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
 
     .line 16
     .line 17
@@ -87,16 +79,14 @@
     move-result p0
 
     .line 19
-    iget p4, p1, Landroidx/graphics/shapes/AngleMeasurer;
-    ->centerX:F
+    iget p4, p1, Landroidx/graphics/shapes/AngleMeasurer;->centerX:F
 
     .line 20
     .line 21
     sub-float/2addr p0, p4
 
     .line 22
-    invoke-static {v0, v1}, Landroidx/graphics/shapes/PointKt;
-    ->getY-DnnuFBc(J)F
+    invoke-static {v0, v1}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
 
     .line 23
     .line 24
@@ -104,16 +94,14 @@
     move-result p4
 
     .line 26
-    iget p1, p1, Landroidx/graphics/shapes/AngleMeasurer;
-    ->centerY:F
+    iget p1, p1, Landroidx/graphics/shapes/AngleMeasurer;->centerY:F
 
     .line 27
     .line 28
     sub-float/2addr p4, p1
 
     .line 29
-    invoke-static {p0, p4}, Landroidx/graphics/shapes/Utils;
-    ->angle(FF)F
+    invoke-static {p0, p4}, Landroidx/graphics/shapes/Utils;->angle(FF)F
 
     .line 30
     .line 31
@@ -124,8 +112,7 @@
     sub-float/2addr p0, p2
 
     .line 34
-    invoke-static {}, Landroidx/graphics/shapes/Utils;
-    ->getTwoPi()F
+    invoke-static {}, Landroidx/graphics/shapes/Utils;->getTwoPi()F
 
     .line 35
     .line 36
@@ -133,8 +120,7 @@
     move-result p1
 
     .line 38
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/Utils;
-    ->positiveModulo(FF)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/Utils;->positiveModulo(FF)F
 
     .line 39
     .line 40
@@ -145,8 +131,7 @@
     sub-float/2addr p0, p3
 
     .line 43
-    invoke-static {p0}, Ljava/lang/Math;
-    ->abs(F)F
+    invoke-static {p0}, Ljava/lang/Math;->abs(F)F
 
     .line 44
     .line 45
@@ -166,14 +151,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroidx/graphics/shapes/Cubic;
-    ->getAnchor0X()F
+    invoke-virtual {p1}, Landroidx/graphics/shapes/Cubic;->getAnchor0X()F
 
     .line 7
     .line 8
@@ -181,16 +164,14 @@
     move-result v0
 
     .line 10
-    iget v1, p0, Landroidx/graphics/shapes/AngleMeasurer;
-    ->centerX:F
+    iget v1, p0, Landroidx/graphics/shapes/AngleMeasurer;->centerX:F
 
     .line 11
     .line 12
     sub-float/2addr v0, v1
 
     .line 13
-    invoke-virtual {p1}, Landroidx/graphics/shapes/Cubic;
-    ->getAnchor0Y()F
+    invoke-virtual {p1}, Landroidx/graphics/shapes/Cubic;->getAnchor0Y()F
 
     .line 14
     .line 15
@@ -198,16 +179,14 @@
     move-result v1
 
     .line 17
-    iget v2, p0, Landroidx/graphics/shapes/AngleMeasurer;
-    ->centerY:F
+    iget v2, p0, Landroidx/graphics/shapes/AngleMeasurer;->centerY:F
 
     .line 18
     .line 19
     sub-float/2addr v1, v2
 
     .line 20
-    invoke-static {v0, v1}, Landroidx/graphics/shapes/Utils;
-    ->angle(FF)F
+    invoke-static {v0, v1}, Landroidx/graphics/shapes/Utils;->angle(FF)F
 
     .line 21
     .line 22
@@ -219,8 +198,7 @@
 
     .line 25
     .line 26
-    invoke-direct {v1, p1, p0, v0, p2}, Landroidx/graphics/shapes/a;
-    -><init>(Landroidx/graphics/shapes/Cubic;Landroidx/graphics/shapes/AngleMeasurer;FF)V
+    invoke-direct {v1, p1, p0, v0, p2}, Landroidx/graphics/shapes/a;-><init>(Landroidx/graphics/shapes/Cubic;Landroidx/graphics/shapes/AngleMeasurer;FF)V
 
     .line 27
     .line 28
@@ -237,8 +215,7 @@
     const/4 v0, 0x0
 
     .line 35
-    invoke-static {v0, p1, p2, v1}, Landroidx/graphics/shapes/Utils;
-    ->findMinimum(FFFLandroidx/graphics/shapes/FindMinimumFunction;)F
+    invoke-static {v0, p1, p2, v1}, Landroidx/graphics/shapes/Utils;->findMinimum(FFFLandroidx/graphics/shapes/FindMinimumFunction;)F
 
     .line 36
     .line 37
@@ -252,16 +229,14 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/graphics/shapes/AngleMeasurer;
-    ->centerX:F    return v0
+    iget v0, p0, Landroidx/graphics/shapes/AngleMeasurer;->centerX:F    return v0
 .end method
 
 .method public final getCenterY()F
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/graphics/shapes/AngleMeasurer;
-    ->centerY:F    return v0
+    iget v0, p0, Landroidx/graphics/shapes/AngleMeasurer;->centerY:F    return v0
 .end method
 
 .method public measureCubic(Landroidx/graphics/shapes/Cubic;)F
@@ -272,14 +247,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroidx/graphics/shapes/Cubic;
-    ->getAnchor1X()F
+    invoke-virtual {p1}, Landroidx/graphics/shapes/Cubic;->getAnchor1X()F
 
     .line 7
     .line 8
@@ -287,16 +260,14 @@
     move-result v0
 
     .line 10
-    iget v1, p0, Landroidx/graphics/shapes/AngleMeasurer;
-    ->centerX:F
+    iget v1, p0, Landroidx/graphics/shapes/AngleMeasurer;->centerX:F
 
     .line 11
     .line 12
     sub-float/2addr v0, v1
 
     .line 13
-    invoke-virtual {p1}, Landroidx/graphics/shapes/Cubic;
-    ->getAnchor1Y()F
+    invoke-virtual {p1}, Landroidx/graphics/shapes/Cubic;->getAnchor1Y()F
 
     .line 14
     .line 15
@@ -304,16 +275,14 @@
     move-result v1
 
     .line 17
-    iget v2, p0, Landroidx/graphics/shapes/AngleMeasurer;
-    ->centerY:F
+    iget v2, p0, Landroidx/graphics/shapes/AngleMeasurer;->centerY:F
 
     .line 18
     .line 19
     sub-float/2addr v1, v2
 
     .line 20
-    invoke-static {v0, v1}, Landroidx/graphics/shapes/Utils;
-    ->angle(FF)F
+    invoke-static {v0, v1}, Landroidx/graphics/shapes/Utils;->angle(FF)F
 
     .line 21
     .line 22
@@ -321,8 +290,7 @@
     move-result v0
 
     .line 24
-    invoke-virtual {p1}, Landroidx/graphics/shapes/Cubic;
-    ->getAnchor0X()F
+    invoke-virtual {p1}, Landroidx/graphics/shapes/Cubic;->getAnchor0X()F
 
     .line 25
     .line 26
@@ -330,16 +298,14 @@
     move-result v1
 
     .line 28
-    iget v2, p0, Landroidx/graphics/shapes/AngleMeasurer;
-    ->centerX:F
+    iget v2, p0, Landroidx/graphics/shapes/AngleMeasurer;->centerX:F
 
     .line 29
     .line 30
     sub-float/2addr v1, v2
 
     .line 31
-    invoke-virtual {p1}, Landroidx/graphics/shapes/Cubic;
-    ->getAnchor0Y()F
+    invoke-virtual {p1}, Landroidx/graphics/shapes/Cubic;->getAnchor0Y()F
 
     .line 32
     .line 33
@@ -347,16 +313,14 @@
     move-result p1
 
     .line 35
-    iget v2, p0, Landroidx/graphics/shapes/AngleMeasurer;
-    ->centerY:F
+    iget v2, p0, Landroidx/graphics/shapes/AngleMeasurer;->centerY:F
 
     .line 36
     .line 37
     sub-float/2addr p1, v2
 
     .line 38
-    invoke-static {v1, p1}, Landroidx/graphics/shapes/Utils;
-    ->angle(FF)F
+    invoke-static {v1, p1}, Landroidx/graphics/shapes/Utils;->angle(FF)F
 
     .line 39
     .line 40
@@ -367,8 +331,7 @@
     sub-float/2addr v0, p1
 
     .line 43
-    invoke-static {}, Landroidx/graphics/shapes/Utils;
-    ->getTwoPi()F
+    invoke-static {}, Landroidx/graphics/shapes/Utils;->getTwoPi()F
 
     .line 44
     .line 45
@@ -376,8 +339,7 @@
     move-result p1
 
     .line 47
-    invoke-static {v0, p1}, Landroidx/graphics/shapes/Utils;
-    ->positiveModulo(FF)F
+    invoke-static {v0, p1}, Landroidx/graphics/shapes/Utils;->positiveModulo(FF)F
 
     .line 48
     .line 49
@@ -385,8 +347,7 @@
     move-result p1
 
     .line 51
-    invoke-static {}, Landroidx/graphics/shapes/Utils;
-    ->getTwoPi()F
+    invoke-static {}, Landroidx/graphics/shapes/Utils;->getTwoPi()F
 
     .line 52
     .line 53

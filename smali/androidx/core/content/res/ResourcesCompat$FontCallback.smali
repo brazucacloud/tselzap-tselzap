@@ -19,8 +19,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -32,8 +31,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/core/content/res/ResourcesCompat$FontCallback;
-    ->lambda$callbackSuccessAsync$0(Landroid/graphics/Typeface;)V
+    invoke-direct {p0, p1}, Landroidx/core/content/res/ResourcesCompat$FontCallback;->lambda$callbackSuccessAsync$0(Landroid/graphics/Typeface;)V
 return-void
 .end method
 
@@ -41,8 +39,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/core/content/res/ResourcesCompat$FontCallback;
-    ->lambda$callbackFailAsync$1(I)V
+    invoke-direct {p0, p1}, Landroidx/core/content/res/ResourcesCompat$FontCallback;->lambda$callbackFailAsync$1(I)V
 return-void
 .end method
 
@@ -57,8 +54,7 @@ return-void
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -71,8 +67,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-static {}, Landroid/os/Looper;
-    ->getMainLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     .line 6
     .line 7
@@ -80,8 +75,7 @@ return-void
     move-result-object v0
 
     .line 9
-    invoke-direct {p0, v0}, Landroid/os/Handler;
-    -><init>(Landroid/os/Looper;)V
+    invoke-direct {p0, v0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
     .line 10
     .line 11
@@ -94,8 +88,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/core/content/res/ResourcesCompat$FontCallback;
-    ->onFontRetrievalFailed(I)V
+    invoke-virtual {p0, p1}, Landroidx/core/content/res/ResourcesCompat$FontCallback;->onFontRetrievalFailed(I)V
 
     .line 2
     .line 3
@@ -107,8 +100,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/core/content/res/ResourcesCompat$FontCallback;
-    ->onFontRetrieved(Landroid/graphics/Typeface;)V
+    invoke-virtual {p0, p1}, Landroidx/core/content/res/ResourcesCompat$FontCallback;->onFontRetrieved(Landroid/graphics/Typeface;)V
 
     .line 2
     .line 3
@@ -126,14 +118,12 @@ return-void
     .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    invoke-static {p2}, Landroidx/core/content/res/ResourcesCompat$FontCallback;
-    ->getHandler(Landroid/os/Handler;)Landroid/os/Handler;
+    invoke-static {p2}, Landroidx/core/content/res/ResourcesCompat$FontCallback;->getHandler(Landroid/os/Handler;)Landroid/os/Handler;
 
     .line 2
     .line 3
@@ -148,14 +138,12 @@ return-void
     const/4 v1, 0x0
 
     .line 8
-    invoke-direct {v0, p0, p1, v1}, Landroidx/core/content/res/a;
-    -><init>(Ljava/lang/Object;II)V
+    invoke-direct {v0, p0, p1, v1}, Landroidx/core/content/res/a;-><init>(Ljava/lang/Object;II)V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p2, v0}, Landroid/os/Handler;
-    ->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p2, v0}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
     .line 12
     .line 13
@@ -175,14 +163,12 @@ return-void
     .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    invoke-static {p2}, Landroidx/core/content/res/ResourcesCompat$FontCallback;
-    ->getHandler(Landroid/os/Handler;)Landroid/os/Handler;
+    invoke-static {p2}, Landroidx/core/content/res/ResourcesCompat$FontCallback;->getHandler(Landroid/os/Handler;)Landroid/os/Handler;
 
     .line 2
     .line 3
@@ -197,14 +183,12 @@ return-void
     const/4 v1, 0x2
 
     .line 8
-    invoke-direct {v0, v1, p0, p1}, LT/e;
-    -><init>(ILjava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v0, v1, p0, p1}, LT/e;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p2, v0}, Landroid/os/Handler;
-    ->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p2, v0}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
     .line 12
     .line 13

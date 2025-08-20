@@ -23,14 +23,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/io/InputStream;
-    -><init>()V
+    invoke-direct {p0}, Ljava/io/InputStream;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder$ByteBufferBackedInputStream;
-    ->buf:Ljava/nio/ByteBuffer;
+    iput-object p1, p0, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder$ByteBufferBackedInputStream;->buf:Ljava/nio/ByteBuffer;
 
     .line 5
     .line 6
@@ -44,13 +42,11 @@
 
     .line 1
     :try_start_0
-    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder$ByteBufferBackedInputStream;
-    ->buf:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/emoji2/text/flatbuffer/FlatBufferBuilder$ByteBufferBackedInputStream;->buf:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/nio/ByteBuffer;
-    ->get()B
+    invoke-virtual {v0}, Ljava/nio/ByteBuffer;->get()B
 
     .line 4
     .line 5

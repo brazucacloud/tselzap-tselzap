@@ -16,24 +16,20 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/OneofInfo;
-    ->id:I
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/OneofInfo;->id:I
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/datastore/preferences/protobuf/OneofInfo;
-    ->caseField:Ljava/lang/reflect/Field;
+    iput-object p2, p0, Landroidx/datastore/preferences/protobuf/OneofInfo;->caseField:Ljava/lang/reflect/Field;
 
     .line 7
     .line 8
-    iput-object p3, p0, Landroidx/datastore/preferences/protobuf/OneofInfo;
-    ->valueField:Ljava/lang/reflect/Field;
+    iput-object p3, p0, Landroidx/datastore/preferences/protobuf/OneofInfo;->valueField:Ljava/lang/reflect/Field;
 
     .line 9
     .line 10
@@ -46,8 +42,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/OneofInfo;
-    ->caseField:Ljava/lang/reflect/Field;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/OneofInfo;->caseField:Ljava/lang/reflect/Field;
 
     .line 2
     .line 3
@@ -58,8 +53,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/OneofInfo;
-    ->id:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/OneofInfo;->id:I
 
     .line 2
     .line 3
@@ -70,8 +64,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/OneofInfo;
-    ->valueField:Ljava/lang/reflect/Field;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/OneofInfo;->valueField:Ljava/lang/reflect/Field;
 
     .line 2
     .line 3

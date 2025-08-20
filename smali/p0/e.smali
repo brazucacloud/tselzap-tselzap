@@ -17,19 +17,16 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lp0/e;
-    ->b:Lp0/f;
+    iput-object p1, p0, Lp0/e;->b:Lp0/f;
 
     .line 5
     .line 6
-    iput-object p2, p0, Lp0/e;
-    ->a:Lp0/b;
+    iput-object p2, p0, Lp0/e;->a:Lp0/b;
 
     .line 7
     .line 8
@@ -42,13 +39,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lp0/e;
-    ->b:Lp0/f;
+    iget-object v0, p0, Lp0/e;->b:Lp0/f;
 
     .line 2
     .line 3
-    iget-object v0, v0, Lp0/d;
-    ->a:Landroid/window/OnBackInvokedCallback;
+    iget-object v0, v0, Lp0/d;->a:Landroid/window/OnBackInvokedCallback;
 
     .line 4
     .line 5
@@ -56,13 +51,11 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Lp0/e;
-    ->a:Lp0/b;
+    iget-object v0, p0, Lp0/e;->a:Lp0/b;
 
     .line 8
     .line 9
-    invoke-interface {v0}, Lp0/b;
-    ->d()V
+    invoke-interface {v0}, Lp0/b;->d()V
 
     .line 10
     .line 11
@@ -75,13 +68,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lp0/e;
-    ->a:Lp0/b;
+    iget-object v0, p0, Lp0/e;->a:Lp0/b;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Lp0/b;
-    ->a()V
+    invoke-interface {v0}, Lp0/b;->a()V
 
     .line 4
     .line 5
@@ -93,13 +84,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lp0/e;
-    ->b:Lp0/f;
+    iget-object v0, p0, Lp0/e;->b:Lp0/f;
 
     .line 2
     .line 3
-    iget-object v0, v0, Lp0/d;
-    ->a:Landroid/window/OnBackInvokedCallback;
+    iget-object v0, v0, Lp0/d;->a:Landroid/window/OnBackInvokedCallback;
 
     .line 4
     .line 5
@@ -107,8 +96,7 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Lp0/e;
-    ->a:Lp0/b;
+    iget-object v0, p0, Lp0/e;->a:Lp0/b;
 
     .line 8
     .line 9
@@ -116,14 +104,12 @@
 
     .line 10
     .line 11
-    invoke-direct {v1, p1}, Landroidx/activity/BackEventCompat;
-    -><init>(Landroid/window/BackEvent;)V
+    invoke-direct {v1, p1}, Landroidx/activity/BackEventCompat;-><init>(Landroid/window/BackEvent;)V
 
     .line 12
     .line 13
     .line 14
-    invoke-interface {v0, v1}, Lp0/b;
-    ->c(Landroidx/activity/BackEventCompat;)V
+    invoke-interface {v0, v1}, Lp0/b;->c(Landroidx/activity/BackEventCompat;)V
 
     .line 15
     .line 16
@@ -136,13 +122,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lp0/e;
-    ->b:Lp0/f;
+    iget-object v0, p0, Lp0/e;->b:Lp0/f;
 
     .line 2
     .line 3
-    iget-object v0, v0, Lp0/d;
-    ->a:Landroid/window/OnBackInvokedCallback;
+    iget-object v0, v0, Lp0/d;->a:Landroid/window/OnBackInvokedCallback;
 
     .line 4
     .line 5
@@ -150,8 +134,7 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Lp0/e;
-    ->a:Lp0/b;
+    iget-object v0, p0, Lp0/e;->a:Lp0/b;
 
     .line 8
     .line 9
@@ -159,14 +142,12 @@
 
     .line 10
     .line 11
-    invoke-direct {v1, p1}, Landroidx/activity/BackEventCompat;
-    -><init>(Landroid/window/BackEvent;)V
+    invoke-direct {v1, p1}, Landroidx/activity/BackEventCompat;-><init>(Landroid/window/BackEvent;)V
 
     .line 12
     .line 13
     .line 14
-    invoke-interface {v0, v1}, Lp0/b;
-    ->b(Landroidx/activity/BackEventCompat;)V
+    invoke-interface {v0, v1}, Lp0/b;->b(Landroidx/activity/BackEventCompat;)V
 
     .line 15
     .line 16

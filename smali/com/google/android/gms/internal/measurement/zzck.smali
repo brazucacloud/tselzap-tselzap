@@ -10,8 +10,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -21,11 +20,9 @@
     .locals 1
 
     .line 3
-    sget-object v0, Lcom/google/android/gms/internal/measurement/zzco;
-    ->zza:Lcom/google/android/gms/internal/measurement/zzco;
+    sget-object v0, Lcom/google/android/gms/internal/measurement/zzco;->zza:Lcom/google/android/gms/internal/measurement/zzco;
 
-    invoke-interface {p0, p1, p2, v0}, Lcom/google/android/gms/internal/measurement/zzci;
-    ->zza(Ljava/io/File;Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzco;)Ljava/lang/String;
+    invoke-interface {p0, p1, p2, v0}, Lcom/google/android/gms/internal/measurement/zzci;->zza(Ljava/io/File;Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzco;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -38,16 +35,13 @@
     .line 5
     new-instance v0, Ljava/io/File;
 
-    invoke-direct {v0, p1, p2}, Ljava/io/File;
-    -><init>(Ljava/io/File;Ljava/lang/String;)V
+    invoke-direct {v0, p1, p2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    invoke-virtual {v0}, Ljava/io/File;
-    ->getPath()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/io/File;->getPath()Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-interface {p0, p1, p3}, Lcom/google/android/gms/internal/measurement/zzci;
-    ->zza(Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzco;)Ljava/lang/String;
+    invoke-interface {p0, p1, p3}, Lcom/google/android/gms/internal/measurement/zzci;->zza(Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzco;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -58,11 +52,9 @@
     .locals 1
 
     .line 2
-    sget-object v0, Lcom/google/android/gms/internal/measurement/zzco;
-    ->zza:Lcom/google/android/gms/internal/measurement/zzco;
+    sget-object v0, Lcom/google/android/gms/internal/measurement/zzco;->zza:Lcom/google/android/gms/internal/measurement/zzco;
 
-    invoke-interface {p0, p1, v0}, Lcom/google/android/gms/internal/measurement/zzci;
-    ->zza(Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzco;)Ljava/lang/String;
+    invoke-interface {p0, p1, v0}, Lcom/google/android/gms/internal/measurement/zzci;->zza(Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzco;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -73,11 +65,9 @@
     .locals 1
 
     .line 4
-    sget-object v0, Lcom/google/android/gms/internal/measurement/zzcl;
-    ->zza:Lcom/google/android/gms/internal/measurement/zzcl;
+    sget-object v0, Lcom/google/android/gms/internal/measurement/zzcl;->zza:Lcom/google/android/gms/internal/measurement/zzcl;
 
-    invoke-interface {p0, p1, p2, v0}, Lcom/google/android/gms/internal/measurement/zzci;
-    ->zzb(Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzco;Lcom/google/android/gms/internal/measurement/zzcl;)Ljava/lang/String;
+    invoke-interface {p0, p1, p2, v0}, Lcom/google/android/gms/internal/measurement/zzci;->zzb(Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzco;Lcom/google/android/gms/internal/measurement/zzcl;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -93,8 +83,7 @@
 .method public final synthetic zzb(Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzco;Lcom/google/android/gms/internal/measurement/zzcl;)Ljava/lang/String;
     .locals 0
 
-    invoke-static {p0, p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzch;
-    ->zza(Lcom/google/android/gms/internal/measurement/zzci;Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzco;Lcom/google/android/gms/internal/measurement/zzcl;)Ljava/lang/String;
+    invoke-static {p0, p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzch;->zza(Lcom/google/android/gms/internal/measurement/zzci;Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzco;Lcom/google/android/gms/internal/measurement/zzcl;)Ljava/lang/String;
 
     move-result-object p1
 

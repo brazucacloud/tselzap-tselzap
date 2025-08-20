@@ -13,13 +13,11 @@
 
     const-string v0, "\\\\u[0-9a-fA-F]{4}"
 
-    invoke-static {v0}, Ljava/util/regex/Pattern;
-    ->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+    invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     move-result-object v0
 
-    sput-object v0, Lcom/google/android/gms/common/util/zze;
-    ->zza:Ljava/util/regex/Pattern;
+    sput-object v0, Lcom/google/android/gms/common/util/zze;->zza:Ljava/util/regex/Pattern;
 
     return-void
 .end method
@@ -28,8 +26,7 @@
     .locals 7
 
     .line 1
-    invoke-static {p0}, Landroid/text/TextUtils;
-    ->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 2
     .line 3
@@ -41,13 +38,11 @@
 
     .line 6
     .line 7
-    sget-object v0, Lcom/google/android/gms/common/util/zze;
-    ->zza:Ljava/util/regex/Pattern;
+    sget-object v0, Lcom/google/android/gms/common/util/zze;->zza:Ljava/util/regex/Pattern;
 
     .line 8
     .line 9
-    invoke-virtual {v0, p0}, Ljava/util/regex/Pattern;
-    ->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+    invoke-virtual {v0, p0}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     .line 10
     .line 11
@@ -63,8 +58,7 @@
     .line 15
     :cond_0
     :goto_0
-    invoke-virtual {v0}, Ljava/util/regex/Matcher;
-    ->find()Z
+    invoke-virtual {v0}, Ljava/util/regex/Matcher;->find()Z
 
     .line 16
     .line 17
@@ -84,15 +78,13 @@
 
     .line 24
     .line 25
-    invoke-direct {v1}, Ljava/lang/StringBuilder;
-    -><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 26
     .line 27
     .line 28
     :cond_1
-    invoke-virtual {v0}, Ljava/util/regex/Matcher;
-    ->start()I
+    invoke-virtual {v0}, Ljava/util/regex/Matcher;->start()I
 
     .line 29
     .line 30
@@ -112,8 +104,7 @@
 
     .line 36
     .line 37
-    invoke-virtual {p0, v4}, Ljava/lang/String;
-    ->charAt(I)C
+    invoke-virtual {p0, v4}, Ljava/lang/String;->charAt(I)C
 
     .line 38
     .line 39
@@ -146,8 +137,7 @@
 
     .line 50
     .line 51
-    invoke-virtual {v0}, Ljava/util/regex/Matcher;
-    ->group()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/util/regex/Matcher;->group()Ljava/lang/String;
 
     .line 52
     .line 53
@@ -155,8 +145,7 @@
     move-result-object v3
 
     .line 55
-    invoke-virtual {v3, v4}, Ljava/lang/String;
-    ->substring(I)Ljava/lang/String;
+    invoke-virtual {v3, v4}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     .line 56
     .line 57
@@ -168,8 +157,7 @@
 
     .line 60
     .line 61
-    invoke-static {v3, v4}, Ljava/lang/Integer;
-    ->parseInt(Ljava/lang/String;I)I
+    invoke-static {v3, v4}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;I)I
 
     .line 62
     .line 63
@@ -177,8 +165,7 @@
     move-result v3
 
     .line 65
-    invoke-virtual {v0}, Ljava/util/regex/Matcher;
-    ->start()I
+    invoke-virtual {v0}, Ljava/util/regex/Matcher;->start()I
 
     .line 66
     .line 67
@@ -186,8 +173,7 @@
     move-result v4
 
     .line 69
-    invoke-virtual {v1, p0, v2, v4}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;II)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0, v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;II)Ljava/lang/StringBuilder;
 
     .line 70
     .line 71
@@ -200,8 +186,7 @@
 
     .line 75
     .line 76
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 77
     .line 78
@@ -210,8 +195,7 @@
 
     .line 80
     :cond_3
-    invoke-static {v3}, Ljava/lang/Character;
-    ->toChars(I)[C
+    invoke-static {v3}, Ljava/lang/Character;->toChars(I)[C
 
     .line 81
     .line 82
@@ -219,15 +203,13 @@
     move-result-object v2
 
     .line 84
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append([C)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append([C)Ljava/lang/StringBuilder;
 
     .line 85
     .line 86
     .line 87
     :goto_2
-    invoke-virtual {v0}, Ljava/util/regex/Matcher;
-    ->end()I
+    invoke-virtual {v0}, Ljava/util/regex/Matcher;->end()I
 
     .line 88
     .line 89
@@ -247,8 +229,7 @@
 
     .line 95
     :cond_5
-    invoke-virtual {v0}, Ljava/util/regex/Matcher;
-    ->regionEnd()I
+    invoke-virtual {v0}, Ljava/util/regex/Matcher;->regionEnd()I
 
     .line 96
     .line 97
@@ -260,8 +241,7 @@
 
     .line 100
     .line 101
-    invoke-virtual {v0}, Ljava/util/regex/Matcher;
-    ->regionEnd()I
+    invoke-virtual {v0}, Ljava/util/regex/Matcher;->regionEnd()I
 
     .line 102
     .line 103
@@ -269,15 +249,13 @@
     move-result v0
 
     .line 105
-    invoke-virtual {v1, p0, v2, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;II)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0, v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;II)Ljava/lang/StringBuilder;
 
     .line 106
     .line 107
     .line 108
     :cond_6
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 109
     .line 110

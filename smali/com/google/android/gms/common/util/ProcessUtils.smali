@@ -20,8 +20,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -38,8 +37,7 @@
 
     .line 2
     .line 3
-    sget-object v1, Lcom/google/android/gms/common/util/ProcessUtils;
-    ->zza:Ljava/lang/String;
+    sget-object v1, Lcom/google/android/gms/common/util/ProcessUtils;->zza:Ljava/lang/String;
 
     .line 4
     .line 5
@@ -47,8 +45,7 @@
 
     .line 6
     .line 7
-    sget v1, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 8
     .line 9
@@ -60,8 +57,7 @@
 
     .line 12
     .line 13
-    invoke-static {}, Landroidx/core/view/accessibility/a;
-    ->k()Ljava/lang/String;
+    invoke-static {}, Landroidx/core/view/accessibility/a;->k()Ljava/lang/String;
 
     .line 14
     .line 15
@@ -69,8 +65,7 @@
     move-result-object v0
 
     .line 17
-    sput-object v0, Lcom/google/android/gms/common/util/ProcessUtils;
-    ->zza:Ljava/lang/String;
+    sput-object v0, Lcom/google/android/gms/common/util/ProcessUtils;->zza:Ljava/lang/String;
 
     .line 18
     .line 19
@@ -78,8 +73,7 @@
 
     .line 20
     :cond_0
-    sget v1, Lcom/google/android/gms/common/util/ProcessUtils;
-    ->zzb:I
+    sget v1, Lcom/google/android/gms/common/util/ProcessUtils;->zzb:I
 
     .line 21
     .line 22
@@ -87,8 +81,7 @@
 
     .line 23
     .line 24
-    invoke-static {}, Landroid/os/Process;
-    ->myPid()I
+    invoke-static {}, Landroid/os/Process;->myPid()I
 
     .line 25
     .line 26
@@ -96,8 +89,7 @@
     move-result v1
 
     .line 28
-    sput v1, Lcom/google/android/gms/common/util/ProcessUtils;
-    ->zzb:I
+    sput v1, Lcom/google/android/gms/common/util/ProcessUtils;->zzb:I
 
     .line 29
     .line 30
@@ -118,14 +110,12 @@
 
     .line 35
     .line 36
-    invoke-direct {v3, v0}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 37
     .line 38
     .line 39
-    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 40
     .line 41
@@ -134,14 +124,12 @@
 
     .line 43
     .line 44
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 45
     .line 46
     .line 47
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 48
     .line 49
@@ -149,8 +137,7 @@
     move-result-object v0
 
     .line 51
-    invoke-static {}, Landroid/os/StrictMode;
-    ->allowThreadDiskReads()Landroid/os/StrictMode$ThreadPolicy;
+    invoke-static {}, Landroid/os/StrictMode;->allowThreadDiskReads()Landroid/os/StrictMode$ThreadPolicy;
 
     .line 52
     .line 53
@@ -170,14 +157,12 @@
 
     .line 58
     .line 59
-    invoke-direct {v4, v0}, Ljava/io/FileReader;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v4, v0}, Ljava/io/FileReader;-><init>(Ljava/lang/String;)V
 
     .line 60
     .line 61
     .line 62
-    invoke-direct {v3, v4}, Ljava/io/BufferedReader;
-    -><init>(Ljava/io/Reader;)V
+    invoke-direct {v3, v4}, Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_2
 
@@ -185,8 +170,7 @@
     .line 64
     .line 65
     :try_start_2
-    invoke-static {v1}, Landroid/os/StrictMode;
-    ->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
+    invoke-static {v1}, Landroid/os/StrictMode;->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_1
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
@@ -195,8 +179,7 @@
     .line 67
     .line 68
     :try_start_3
-    invoke-virtual {v3}, Ljava/io/BufferedReader;
-    ->readLine()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
     .line 69
     .line 70
@@ -204,14 +187,12 @@
     move-result-object v0
 
     .line 72
-    invoke-static {v0}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 73
     .line 74
     .line 75
-    invoke-virtual {v0}, Ljava/lang/String;
-    ->trim()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     .line 76
     .line 77
@@ -224,8 +205,7 @@
     .line 79
     :catch_0
     :goto_0
-    invoke-static {v3}, Lcom/google/android/gms/common/util/IOUtils;
-    ->closeQuietly(Ljava/io/Closeable;)V
+    invoke-static {v3}, Lcom/google/android/gms/common/util/IOUtils;->closeQuietly(Ljava/io/Closeable;)V
 
     .line 80
     .line 81
@@ -255,8 +235,7 @@
 
     .line 89
     :try_start_4
-    invoke-static {v1}, Landroid/os/StrictMode;
-    ->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
+    invoke-static {v1}, Landroid/os/StrictMode;->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
 
     .line 90
     .line 91
@@ -268,8 +247,7 @@
 
     .line 93
     :goto_1
-    invoke-static {v2}, Lcom/google/android/gms/common/util/IOUtils;
-    ->closeQuietly(Ljava/io/Closeable;)V
+    invoke-static {v2}, Lcom/google/android/gms/common/util/IOUtils;->closeQuietly(Ljava/io/Closeable;)V
 
     .line 94
     .line 95
@@ -285,15 +263,13 @@
 
     .line 99
     :goto_2
-    sput-object v2, Lcom/google/android/gms/common/util/ProcessUtils;
-    ->zza:Ljava/lang/String;
+    sput-object v2, Lcom/google/android/gms/common/util/ProcessUtils;->zza:Ljava/lang/String;
 
     .line 100
     .line 101
     :cond_3
     :goto_3
-    sget-object v0, Lcom/google/android/gms/common/util/ProcessUtils;
-    ->zza:Ljava/lang/String;
+    sget-object v0, Lcom/google/android/gms/common/util/ProcessUtils;->zza:Ljava/lang/String;
 
     .line 102
     .line 103
@@ -304,8 +280,7 @@
     .locals 4
 
     .line 1
-    sget-object v0, Lcom/google/android/gms/common/util/ProcessUtils;
-    ->zzc:Ljava/lang/Boolean;
+    sget-object v0, Lcom/google/android/gms/common/util/ProcessUtils;->zzc:Ljava/lang/Boolean;
 
     .line 2
     .line 3
@@ -313,8 +288,7 @@
 
     .line 4
     .line 5
-    invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;
-    ->isAtLeastP()Z
+    invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;->isAtLeastP()Z
 
     .line 6
     .line 7
@@ -326,8 +300,7 @@
 
     .line 10
     .line 11
-    invoke-static {}, Landroidx/core/view/accessibility/a;
-    ->t()Z
+    invoke-static {}, Landroidx/core/view/accessibility/a;->t()Z
 
     .line 12
     .line 13
@@ -335,8 +308,7 @@
     move-result v0
 
     .line 15
-    invoke-static {v0}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 16
     .line 17
@@ -364,8 +336,7 @@
 
     .line 26
     .line 27
-    invoke-static {v0, v1, v3}, Lcom/google/android/gms/internal/common/zzl;
-    ->zza(Ljava/lang/Class;Ljava/lang/String;[Lcom/google/android/gms/internal/common/zzj;)Ljava/lang/Object;
+    invoke-static {v0, v1, v3}, Lcom/google/android/gms/internal/common/zzl;->zza(Ljava/lang/Class;Ljava/lang/String;[Lcom/google/android/gms/internal/common/zzj;)Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -397,8 +368,7 @@
 
     .line 41
     .line 42
-    invoke-static {v2, v1}, Lcom/google/android/gms/internal/common/zzab;
-    ->zza(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v2, v1}, Lcom/google/android/gms/internal/common/zzab;->zza(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 43
     .line 44
@@ -406,8 +376,7 @@
     move-result-object v1
 
     .line 46
-    invoke-direct {v0, v1}, Lcom/google/android/gms/internal/common/zzac;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Lcom/google/android/gms/internal/common/zzac;-><init>(Ljava/lang/String;)V
 
     .line 47
     .line 48
@@ -418,20 +387,17 @@
 
     .line 50
     :catch_0
-    sget-object v0, Ljava/lang/Boolean;
-    ->FALSE:Ljava/lang/Boolean;
+    sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     .line 51
     .line 52
     :goto_0
-    sput-object v0, Lcom/google/android/gms/common/util/ProcessUtils;
-    ->zzc:Ljava/lang/Boolean;
+    sput-object v0, Lcom/google/android/gms/common/util/ProcessUtils;->zzc:Ljava/lang/Boolean;
 
     .line 53
     .line 54
     :cond_2
-    invoke-virtual {v0}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 55
     .line 56

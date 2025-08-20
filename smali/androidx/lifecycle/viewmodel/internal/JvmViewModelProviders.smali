@@ -13,11 +13,9 @@
 
     new-instance v0, Landroidx/lifecycle/viewmodel/internal/JvmViewModelProviders;
 
-    invoke-direct {v0}, Landroidx/lifecycle/viewmodel/internal/JvmViewModelProviders;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/lifecycle/viewmodel/internal/JvmViewModelProviders;-><init>()V
 
-    sput-object v0, Landroidx/lifecycle/viewmodel/internal/JvmViewModelProviders;
-    ->INSTANCE:Landroidx/lifecycle/viewmodel/internal/JvmViewModelProviders;
+    sput-object v0, Landroidx/lifecycle/viewmodel/internal/JvmViewModelProviders;->INSTANCE:Landroidx/lifecycle/viewmodel/internal/JvmViewModelProviders;
 
     return-void
 .end method
@@ -26,8 +24,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -54,8 +51,7 @@
 
     .line 4
     .line 5
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -68,8 +64,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1, v2}, Ljava/lang/Class;
-    ->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+    invoke-virtual {p1, v2}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     .line 12
     .line 13
@@ -81,8 +76,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {v2, v1}, Ljava/lang/reflect/Constructor;
-    ->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, v1}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -94,8 +88,7 @@
 
     .line 22
     .line 23
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -137,20 +130,17 @@
 
     .line 38
     .line 39
-    invoke-direct {v3, v0}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 40
     .line 41
     .line 42
-    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 43
     .line 44
     .line 45
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 46
     .line 47
@@ -158,8 +148,7 @@
     move-result-object p1
 
     .line 49
-    invoke-direct {v2, p1, v1}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v2, p1, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 50
     .line 51
@@ -176,20 +165,17 @@
 
     .line 56
     .line 57
-    invoke-direct {v3, v0}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 58
     .line 59
     .line 60
-    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 61
     .line 62
     .line 63
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 64
     .line 65
@@ -197,8 +183,7 @@
     move-result-object p1
 
     .line 67
-    invoke-direct {v2, p1, v1}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v2, p1, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 68
     .line 69
@@ -215,20 +200,17 @@
 
     .line 74
     .line 75
-    invoke-direct {v3, v0}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 76
     .line 77
     .line 78
-    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 79
     .line 80
     .line 81
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 82
     .line 83
@@ -236,8 +218,7 @@
     move-result-object p1
 
     .line 85
-    invoke-direct {v2, p1, v1}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v2, p1, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 86
     .line 87

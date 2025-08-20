@@ -27,8 +27,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/recyclerview/widget/DiffUtil$ItemCallback;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/recyclerview/widget/DiffUtil$ItemCallback;-><init>()V
 
     .line 2
     .line 3
@@ -54,8 +53,7 @@
 
     check-cast p2, Ljava/lang/String;
 
-    invoke-virtual {p0, p1, p2}, Lcom/fmark/tselzap/Adapters/LogAdapter$1;
-    ->areContentsTheSame(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-virtual {p0, p1, p2}, Lcom/fmark/tselzap/Adapters/LogAdapter$1;->areContentsTheSame(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result p1
 
@@ -74,8 +72,7 @@
     .end param
 
     .line 2
-    invoke-virtual {p1, p2}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
@@ -98,8 +95,7 @@
 
     check-cast p2, Ljava/lang/String;
 
-    invoke-virtual {p0, p1, p2}, Lcom/fmark/tselzap/Adapters/LogAdapter$1;
-    ->areItemsTheSame(Ljava/lang/String;Ljava/lang/String;)Z
+    invoke-virtual {p0, p1, p2}, Lcom/fmark/tselzap/Adapters/LogAdapter$1;->areItemsTheSame(Ljava/lang/String;Ljava/lang/String;)Z
 
     move-result p1
 
@@ -118,8 +114,7 @@
     .end param
 
     .line 2
-    invoke-virtual {p1, p2}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 

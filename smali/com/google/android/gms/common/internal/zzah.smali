@@ -22,11 +22,9 @@
 
     new-instance v0, Ljava/lang/Object;
 
-    invoke-direct {v0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
-    sput-object v0, Lcom/google/android/gms/common/internal/zzah;
-    ->zza:Ljava/lang/Object;
+    sput-object v0, Lcom/google/android/gms/common/internal/zzah;->zza:Ljava/lang/Object;
 
     return-void
 .end method
@@ -35,14 +33,12 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Lcom/google/android/gms/common/internal/zzah;
-    ->zzc(Landroid/content/Context;)V
+    invoke-static {p0}, Lcom/google/android/gms/common/internal/zzah;->zzc(Landroid/content/Context;)V
 
     .line 2
     .line 3
     .line 4
-    sget p0, Lcom/google/android/gms/common/internal/zzah;
-    ->zzd:I
+    sget p0, Lcom/google/android/gms/common/internal/zzah;->zzd:I
 
     .line 5
     .line 6
@@ -55,14 +51,12 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lcom/google/android/gms/common/internal/zzah;
-    ->zzc(Landroid/content/Context;)V
+    invoke-static {p0}, Lcom/google/android/gms/common/internal/zzah;->zzc(Landroid/content/Context;)V
 
     .line 2
     .line 3
     .line 4
-    sget-object p0, Lcom/google/android/gms/common/internal/zzah;
-    ->zzc:Ljava/lang/String;
+    sget-object p0, Lcom/google/android/gms/common/internal/zzah;->zzc:Ljava/lang/String;
 
     .line 5
     .line 6
@@ -73,8 +67,7 @@
     .locals 3
 
     .line 1
-    sget-object v0, Lcom/google/android/gms/common/internal/zzah;
-    ->zza:Ljava/lang/Object;
+    sget-object v0, Lcom/google/android/gms/common/internal/zzah;->zza:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -82,8 +75,7 @@
 
     .line 4
     :try_start_0
-    sget-boolean v1, Lcom/google/android/gms/common/internal/zzah;
-    ->zzb:Z
+    sget-boolean v1, Lcom/google/android/gms/common/internal/zzah;->zzb:Z
 
     .line 5
     .line 6
@@ -107,13 +99,11 @@
     const/4 v1, 0x1
 
     .line 13
-    sput-boolean v1, Lcom/google/android/gms/common/internal/zzah;
-    ->zzb:Z
+    sput-boolean v1, Lcom/google/android/gms/common/internal/zzah;->zzb:Z
 
     .line 14
     .line 15
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getPackageName()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     .line 16
     .line 17
@@ -121,8 +111,7 @@
     move-result-object v1
 
     .line 19
-    invoke-static {p0}, Lcom/google/android/gms/common/wrappers/Wrappers;
-    ->packageManager(Landroid/content/Context;)Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    invoke-static {p0}, Lcom/google/android/gms/common/wrappers/Wrappers;->packageManager(Landroid/content/Context;)Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
 
     .line 20
     .line 21
@@ -137,8 +126,7 @@
     .line 24
     .line 25
     :try_start_1
-    invoke-virtual {p0, v1, v2}, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
-    ->getApplicationInfo(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo;
+    invoke-virtual {p0, v1, v2}, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;->getApplicationInfo(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo;
 
     .line 26
     .line 27
@@ -146,8 +134,7 @@
     move-result-object p0
 
     .line 29
-    iget-object p0, p0, Landroid/content/pm/ApplicationInfo;
-    ->metaData:Landroid/os/Bundle;
+    iget-object p0, p0, Landroid/content/pm/ApplicationInfo;->metaData:Landroid/os/Bundle;
     :try_end_1
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -172,8 +159,7 @@
 
     .line 36
     .line 37
-    invoke-virtual {p0, v1}, Landroid/os/BaseBundle;
-    ->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v1}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     .line 38
     .line 39
@@ -181,8 +167,7 @@
     move-result-object v1
 
     .line 41
-    sput-object v1, Lcom/google/android/gms/common/internal/zzah;
-    ->zzc:Ljava/lang/String;
+    sput-object v1, Lcom/google/android/gms/common/internal/zzah;->zzc:Ljava/lang/String;
 
     .line 42
     .line 43
@@ -190,8 +175,7 @@
 
     .line 44
     .line 45
-    invoke-virtual {p0, v1}, Landroid/os/BaseBundle;
-    ->getInt(Ljava/lang/String;)I
+    invoke-virtual {p0, v1}, Landroid/os/BaseBundle;->getInt(Ljava/lang/String;)I
 
     .line 46
     .line 47
@@ -199,8 +183,7 @@
     move-result p0
 
     .line 49
-    sput p0, Lcom/google/android/gms/common/internal/zzah;
-    ->zzd:I
+    sput p0, Lcom/google/android/gms/common/internal/zzah;->zzd:I
     :try_end_3
     .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:try_start_3 .. :try_end_3} :catch_0
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
@@ -223,8 +206,7 @@
 
     .line 56
     .line 57
-    invoke-static {v1, v2, p0}, Landroid/util/Log;
-    ->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v2, p0}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 58
     .line 59

@@ -30,8 +30,7 @@
     .locals 0
 
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -39,12 +38,10 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->setup([[D)V
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->setup([[D)V
 return-void
 .end method
 
@@ -391,8 +388,7 @@ return-void
     move-wide v15, v5
 
     .line 157
-    invoke-direct/range {v14 .. v22}, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
-    -><init>(DDDD)V
+    invoke-direct/range {v14 .. v22}, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;-><init>(DDDD)V
 
     .line 158
     .line 159
@@ -470,8 +466,7 @@ return-void
 
     .line 23
     .line 24
-    invoke-virtual {v14, v5, v6}, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
-    ->eval(D)D
+    invoke-virtual {v14, v5, v6}, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;->eval(D)D
 
     .line 25
     .line 26
@@ -509,8 +504,7 @@ return-void
 
     .line 40
     .line 41
-    invoke-static {v10, v11}, Ljava/lang/Math;
-    ->sqrt(D)D
+    invoke-static {v10, v11}, Ljava/lang/Math;->sqrt(D)D
 
     .line 42
     .line 43
@@ -549,8 +543,7 @@ return-void
 
     .line 58
     .line 59
-    invoke-virtual {v12, v10, v11}, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
-    ->eval(D)D
+    invoke-virtual {v12, v10, v11}, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;->eval(D)D
 
     .line 60
     .line 61
@@ -580,8 +573,7 @@ return-void
 
     .line 72
     :cond_3
-    invoke-static {v3, v4}, Ljava/lang/Math;
-    ->sqrt(D)D
+    invoke-static {v3, v4}, Ljava/lang/Math;->sqrt(D)D
 
     .line 73
     .line 74
@@ -598,8 +590,7 @@ return-void
     .locals 5
 
     .line 9
-    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mTotalLength:D
+    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mTotalLength:D
 
     mul-double p1, p1, v0
 
@@ -607,8 +598,7 @@ return-void
 
     .line 10
     :goto_0
-    iget-object v1, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mCurveLength:[D
+    iget-object v1, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mCurveLength:[D
 
     array-length v2, v1
 
@@ -630,8 +620,7 @@ return-void
 
     .line 11
     :cond_0
-    iget-object v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mCurve:[[Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
+    iget-object v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mCurve:[[Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
 
     aget-object p3, v2, p3
 
@@ -641,8 +630,7 @@ return-void
 
     div-double/2addr p1, v0
 
-    invoke-virtual {p3, p1, p2}, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
-    ->eval(D)D
+    invoke-virtual {p3, p1, p2}, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;->eval(D)D
 
     move-result-wide p1
 
@@ -653,8 +641,7 @@ return-void
     .locals 6
 
     .line 1
-    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mTotalLength:D
+    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mTotalLength:D
 
     mul-double p1, p1, v0
 
@@ -664,8 +651,7 @@ return-void
 
     .line 2
     :goto_0
-    iget-object v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mCurveLength:[D
+    iget-object v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mCurveLength:[D
 
     array-length v3, v2
 
@@ -693,22 +679,19 @@ return-void
     if-ge v0, v2, :cond_1
 
     .line 4
-    iget-object v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mCurve:[[Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
+    iget-object v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mCurve:[[Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
 
     aget-object v2, v2, v0
 
     aget-object v2, v2, v1
 
-    iget-object v3, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mCurveLength:[D
+    iget-object v3, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mCurveLength:[D
 
     aget-wide v4, v3, v1
 
     div-double v3, p1, v4
 
-    invoke-virtual {v2, v3, v4}, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
-    ->eval(D)D
+    invoke-virtual {v2, v3, v4}, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;->eval(D)D
 
     move-result-wide v2
 
@@ -726,8 +709,7 @@ return-void
     .locals 6
 
     .line 5
-    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mTotalLength:D
+    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mTotalLength:D
 
     mul-double p1, p1, v0
 
@@ -737,8 +719,7 @@ return-void
 
     .line 6
     :goto_0
-    iget-object v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mCurveLength:[D
+    iget-object v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mCurveLength:[D
 
     array-length v3, v2
 
@@ -766,22 +747,19 @@ return-void
     if-ge v0, v2, :cond_1
 
     .line 8
-    iget-object v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mCurve:[[Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
+    iget-object v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mCurve:[[Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
 
     aget-object v2, v2, v0
 
     aget-object v2, v2, v1
 
-    iget-object v3, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mCurveLength:[D
+    iget-object v3, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mCurveLength:[D
 
     aget-wide v4, v3, v1
 
     div-double v3, p1, v4
 
-    invoke-virtual {v2, v3, v4}, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
-    ->eval(D)D
+    invoke-virtual {v2, v3, v4}, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;->eval(D)D
 
     move-result-wide v2
 
@@ -801,8 +779,7 @@ return-void
     .locals 6
 
     .line 1
-    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mTotalLength:D
+    iget-wide v0, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mTotalLength:D
 
     .line 2
     .line 3
@@ -817,8 +794,7 @@ return-void
 
     .line 7
     :goto_0
-    iget-object v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mCurveLength:[D
+    iget-object v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mCurveLength:[D
 
     .line 8
     .line 9
@@ -864,8 +840,7 @@ return-void
 
     .line 26
     .line 27
-    iget-object v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mCurve:[[Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
+    iget-object v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mCurve:[[Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
 
     .line 28
     .line 29
@@ -877,8 +852,7 @@ return-void
 
     .line 32
     .line 33
-    iget-object v3, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mCurveLength:[D
+    iget-object v3, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mCurveLength:[D
 
     .line 34
     .line 35
@@ -890,8 +864,7 @@ return-void
 
     .line 38
     .line 39
-    invoke-virtual {v2, v3, v4}, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
-    ->vel(D)D
+    invoke-virtual {v2, v3, v4}, Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;->vel(D)D
 
     .line 40
     .line 41
@@ -928,16 +901,14 @@ return-void
     array-length v1, v1
 
     .line 5
-    iput v1, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mDimensionality:I
+    iput v1, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mDimensionality:I
 
     .line 6
     .line 7
     array-length v2, p1
 
     .line 8
-    iput v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mPoints:I
+    iput v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mPoints:I
 
     .line 9
     .line 10
@@ -959,13 +930,11 @@ return-void
 
     .line 17
     .line 18
-    sget-object v1, Ljava/lang/Double;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v1, Ljava/lang/Double;->TYPE:Ljava/lang/Class;
 
     .line 19
     .line 20
-    invoke-static {v1, v3}, Ljava/lang/reflect/Array;
-    ->newInstance(Ljava/lang/Class;[I)Ljava/lang/Object;
+    invoke-static {v1, v3}, Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class;[I)Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -977,13 +946,11 @@ return-void
 
     .line 25
     .line 26
-    iput-object v1, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mCtl:[[D
+    iput-object v1, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mCtl:[[D
 
     .line 27
     .line 28
-    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mDimensionality:I
+    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mDimensionality:I
 
     .line 29
     .line 30
@@ -991,8 +958,7 @@ return-void
 
     .line 31
     .line 32
-    iput-object v1, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mCurve:[[Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
+    iput-object v1, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mCurve:[[Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
 
     .line 33
     .line 34
@@ -1000,8 +966,7 @@ return-void
 
     .line 35
     :goto_0
-    iget v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mDimensionality:I
+    iget v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mDimensionality:I
 
     .line 36
     .line 37
@@ -1013,8 +978,7 @@ return-void
 
     .line 40
     :goto_1
-    iget v3, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mPoints:I
+    iget v3, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mPoints:I
 
     .line 41
     .line 42
@@ -1022,8 +986,7 @@ return-void
 
     .line 43
     .line 44
-    iget-object v3, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mCtl:[[D
+    iget-object v3, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mCtl:[[D
 
     .line 45
     .line 46
@@ -1063,8 +1026,7 @@ return-void
 
     .line 61
     :goto_2
-    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mDimensionality:I
+    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mDimensionality:I
 
     .line 62
     .line 63
@@ -1072,13 +1034,11 @@ return-void
 
     .line 64
     .line 65
-    iget-object v1, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mCurve:[[Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
+    iget-object v1, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mCurve:[[Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
 
     .line 66
     .line 67
-    iget-object v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mCtl:[[D
+    iget-object v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mCtl:[[D
 
     .line 68
     .line 69
@@ -1089,8 +1049,7 @@ return-void
     array-length v3, v2
 
     .line 72
-    invoke-static {v3, v2}, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->calcNaturalCubic(I[D)[Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
+    invoke-static {v3, v2}, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->calcNaturalCubic(I[D)[Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
 
     .line 73
     .line 74
@@ -1110,8 +1069,7 @@ return-void
 
     .line 81
     :cond_2
-    iget p1, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mPoints:I
+    iget p1, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mPoints:I
 
     .line 82
     .line 83
@@ -1122,8 +1080,7 @@ return-void
 
     .line 85
     .line 86
-    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mCurveLength:[D
+    iput-object p1, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mCurveLength:[D
 
     .line 87
     .line 88
@@ -1131,8 +1088,7 @@ return-void
 
     .line 89
     .line 90
-    iput-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mTotalLength:D
+    iput-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mTotalLength:D
 
     .line 91
     .line 92
@@ -1144,8 +1100,7 @@ return-void
 
     .line 95
     :goto_3
-    iget-object v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mCurveLength:[D
+    iget-object v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mCurveLength:[D
 
     .line 96
     .line 97
@@ -1160,8 +1115,7 @@ return-void
 
     .line 101
     :goto_4
-    iget v3, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mDimensionality:I
+    iget v3, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mDimensionality:I
 
     .line 102
     .line 103
@@ -1169,8 +1123,7 @@ return-void
 
     .line 104
     .line 105
-    iget-object v3, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mCurve:[[Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
+    iget-object v3, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mCurve:[[Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;
 
     .line 106
     .line 107
@@ -1194,18 +1147,15 @@ return-void
 
     .line 116
     :cond_3
-    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mTotalLength:D
+    iget-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mTotalLength:D
 
     .line 117
     .line 118
-    iget-object v4, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mCurveLength:[D
+    iget-object v4, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mCurveLength:[D
 
     .line 119
     .line 120
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->approxLength([Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;)D
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->approxLength([Landroidx/constraintlayout/core/motion/utils/HyperSpline$Cubic;)D
 
     .line 121
     .line 122
@@ -1220,8 +1170,7 @@ return-void
     add-double/2addr v2, v5
 
     .line 127
-    iput-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;
-    ->mTotalLength:D
+    iput-wide v2, p0, Landroidx/constraintlayout/core/motion/utils/HyperSpline;->mTotalLength:D
 
     .line 128
     .line 129

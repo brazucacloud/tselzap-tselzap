@@ -14,14 +14,12 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     if-nez p1, :cond_0
 
     .line 3
-    invoke-static {}, Landroidx/collection/FloatSetKt;
-    ->getEmptyFloatArray()[F
+    invoke-static {}, Landroidx/collection/FloatSetKt;->getEmptyFloatArray()[F
 
     move-result-object p1
 
@@ -33,8 +31,7 @@
 
     .line 5
     :goto_0
-    iput-object p1, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iput-object p1, p0, Landroidx/collection/FloatList;->content:[F
 
     return-void
 .end method
@@ -43,8 +40,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/collection/FloatList;
-    -><init>(I)V
+    invoke-direct {p0, p1}, Landroidx/collection/FloatList;-><init>(I)V
 return-void
 .end method
 
@@ -118,8 +114,7 @@ return-void
     move-object p3, p1
 
     .line 4
-    invoke-virtual/range {p2 .. p7}, Landroidx/collection/FloatList;
-    ->joinToString(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;)Ljava/lang/String;
+    invoke-virtual/range {p2 .. p7}, Landroidx/collection/FloatList;->joinToString(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -130,8 +125,7 @@ return-void
 
     const-string p1, "Super calls with default arguments not supported in this target, function: joinToString"
 
-    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -184,36 +178,30 @@ return-void
     :cond_4
     const-string p7, "separator"
 
-    invoke-static {p1, p7}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p7}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p7, "prefix"
 
-    invoke-static {p2, p7}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p7}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p7, "postfix"
 
-    invoke-static {p3, p7}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p7}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p7, "truncated"
 
     const-string p8, "transform"
 
     .line 9
-    invoke-static {p5, p7, p6, p8, p2}, LA/d;
-    ->m(Ljava/lang/CharSequence;Ljava/lang/String;Lp1/l;Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-static {p5, p7, p6, p8, p2}, LA/d;->m(Ljava/lang/CharSequence;Ljava/lang/String;Lp1/l;Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     move-result-object p2
 
     .line 10
-    iget-object p7, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object p7, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 11
-    iget p0, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget p0, p0, Landroidx/collection/FloatList;->_size:I
 
     const/4 p8, 0x0
 
@@ -226,8 +214,7 @@ return-void
     if-ne p8, p4, :cond_5
 
     .line 13
-    invoke-virtual {p2, p5}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p5}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     goto :goto_1
 
@@ -235,25 +222,21 @@ return-void
     if-eqz p8, :cond_6
 
     .line 14
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 15
     :cond_6
-    invoke-static {v0}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v0}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object v0
 
-    invoke-interface {p6, v0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p6, v0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/lang/CharSequence;
 
-    invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     add-int/lit8 p8, p8, 0x1
 
@@ -261,20 +244,17 @@ return-void
 
     .line 16
     :cond_7
-    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 17
     :goto_1
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p0
 
     const-string p1, "StringBuilder().apply(builderAction).toString()"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
     return-object p0
 
     .line 18
@@ -283,8 +263,7 @@ return-void
 
     const-string p1, "Super calls with default arguments not supported in this target, function: joinToString"
 
-    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -295,8 +274,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/collection/FloatList;
-    ->isNotEmpty()Z
+    invoke-virtual {p0}, Landroidx/collection/FloatList;->isNotEmpty()Z
 
     move-result v0
 
@@ -315,16 +293,13 @@ return-void
 
     const-string v0, "predicate"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 3
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     const/4 v2, 0x0
 
@@ -337,20 +312,17 @@ return-void
     aget v4, v0, v3
 
     .line 5
-    invoke-static {v4}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v4}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object v4
 
-    invoke-interface {p1, v4}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v4}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
 
     check-cast v4, Ljava/lang/Boolean;
 
-    invoke-virtual {v4}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {v4}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v4
 
@@ -373,13 +345,11 @@ return-void
     .locals 5
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     .line 4
     .line 5
@@ -431,22 +401,19 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget v0, p1, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v0, p1, Landroidx/collection/FloatList;->_size:I
 
     .line 7
     .line 8
     const/4 v1, 0x0
 
     .line 9
-    invoke-static {v1, v0}, La/a;
-    ->T(II)Lu1/g;
+    invoke-static {v1, v0}, La/a;->T(II)Lu1/g;
 
     .line 10
     .line 11
@@ -454,13 +421,11 @@ return-void
     move-result-object v0
 
     .line 13
-    iget v2, v0, Lu1/e;
-    ->b:I
+    iget v2, v0, Lu1/e;->b:I
 
     .line 14
     .line 15
-    iget v0, v0, Lu1/e;
-    ->c:I
+    iget v0, v0, Lu1/e;->c:I
 
     .line 16
     .line 17
@@ -469,8 +434,7 @@ return-void
     .line 18
     .line 19
     :goto_0
-    invoke-virtual {p1, v2}, Landroidx/collection/FloatList;
-    ->get(I)F
+    invoke-virtual {p1, v2}, Landroidx/collection/FloatList;->get(I)F
 
     .line 20
     .line 21
@@ -478,8 +442,7 @@ return-void
     move-result v3
 
     .line 23
-    invoke-virtual {p0, v3}, Landroidx/collection/FloatList;
-    ->contains(F)Z
+    invoke-virtual {p0, v3}, Landroidx/collection/FloatList;->contains(F)Z
 
     .line 24
     .line 25
@@ -512,8 +475,7 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v0, p0, Landroidx/collection/FloatList;->_size:I
 
     return v0
 .end method
@@ -530,16 +492,13 @@ return-void
 
     const-string v0, "predicate"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 3
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     const/4 v2, 0x0
 
@@ -552,20 +511,17 @@ return-void
     aget v4, v0, v2
 
     .line 5
-    invoke-static {v4}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v4}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object v4
 
-    invoke-interface {p1, v4}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v4}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
 
     check-cast v4, Ljava/lang/Boolean;
 
-    invoke-virtual {v4}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {v4}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v4
 
@@ -595,8 +551,7 @@ return-void
 
     .line 2
     .line 3
-    iget v0, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v0, p0, Landroidx/collection/FloatList;->_size:I
 
     .line 4
     .line 5
@@ -604,8 +559,7 @@ return-void
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 8
     .line 9
@@ -625,8 +579,7 @@ return-void
 
     .line 17
     .line 18
-    invoke-static {v1, p1, v2}, LA/d;
-    ->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, p1, v2}, LA/d;->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 19
     .line 20
@@ -634,8 +587,7 @@ return-void
     move-result-object p1
 
     .line 22
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     .line 23
     .line 24
@@ -643,14 +595,12 @@ return-void
 
     .line 25
     .line 26
-    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 27
     .line 28
     .line 29
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 30
     .line 31
@@ -658,8 +608,7 @@ return-void
     move-result-object p1
 
     .line 33
-    invoke-direct {v0, p1}, Ljava/lang/IndexOutOfBoundsException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IndexOutOfBoundsException;-><init>(Ljava/lang/String;)V
 
     .line 34
     .line 35
@@ -686,8 +635,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -696,8 +644,7 @@ return-void
 
     .line 7
     .line 8
-    iget v0, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v0, p0, Landroidx/collection/FloatList;->_size:I
 
     .line 9
     .line 10
@@ -705,8 +652,7 @@ return-void
 
     .line 11
     .line 12
-    iget-object p2, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object p2, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 13
     .line 14
@@ -714,8 +660,7 @@ return-void
 
     .line 17
     :cond_0
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 18
     .line 19
@@ -723,8 +668,7 @@ return-void
     move-result-object p1
 
     .line 21
-    invoke-interface {p2, p1}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p1}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 22
     .line 23
@@ -736,8 +680,7 @@ return-void
 
     .line 26
     .line 27
-    invoke-virtual {p1}, Ljava/lang/Number;
-    ->floatValue()F
+    invoke-virtual {p1}, Ljava/lang/Number;->floatValue()F
 
     .line 28
     .line 29
@@ -766,13 +709,11 @@ return-void
 
     .line 7
     .line 8
-    iget v0, p1, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v0, p1, Landroidx/collection/FloatList;->_size:I
 
     .line 9
     .line 10
-    iget v2, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v2, p0, Landroidx/collection/FloatList;->_size:I
 
     .line 11
     .line 12
@@ -784,18 +725,15 @@ return-void
 
     .line 15
     :cond_0
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 16
     .line 17
-    iget-object p1, p1, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object p1, p1, Landroidx/collection/FloatList;->content:[F
 
     .line 18
     .line 19
-    invoke-static {v1, v2}, La/a;
-    ->T(II)Lu1/g;
+    invoke-static {v1, v2}, La/a;->T(II)Lu1/g;
 
     .line 20
     .line 21
@@ -803,13 +741,11 @@ return-void
     move-result-object v2
 
     .line 23
-    iget v3, v2, Lu1/e;
-    ->b:I
+    iget v3, v2, Lu1/e;->b:I
 
     .line 24
     .line 25
-    iget v2, v2, Lu1/e;
-    ->c:I
+    iget v2, v2, Lu1/e;->c:I
 
     .line 26
     .line 27
@@ -864,16 +800,14 @@ return-void
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroidx/collection/FloatList;
-    ->isEmpty()Z
+    invoke-virtual {p0}, Landroidx/collection/FloatList;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
     .line 2
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     const/4 v1, 0x0
 
@@ -887,8 +821,7 @@ return-void
 
     const-string v1, "FloatList is empty."
 
-    invoke-direct {v0, v1}, Ljava/util/NoSuchElementException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/util/NoSuchElementException;-><init>(Ljava/lang/String;)V
 
     throw v0
 .end method
@@ -905,16 +838,13 @@ return-void
 
     const-string v0, "predicate"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 5
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     const/4 v2, 0x0
 
@@ -925,20 +855,17 @@ return-void
     aget v3, v0, v2
 
     .line 7
-    invoke-static {v3}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v3}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object v4
 
-    invoke-interface {p1, v4}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v4}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
 
     check-cast v4, Ljava/lang/Boolean;
 
-    invoke-virtual {v4}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {v4}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v4
 
@@ -957,8 +884,7 @@ return-void
 
     const-string v0, "FloatList contains no element matching the predicate."
 
-    invoke-direct {p1, v0}, Ljava/util/NoSuchElementException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/util/NoSuchElementException;-><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -980,19 +906,16 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 7
     .line 8
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     .line 9
     .line 10
@@ -1008,8 +931,7 @@ return-void
 
     .line 14
     .line 15
-    invoke-static {v3}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v3}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     .line 16
     .line 17
@@ -1017,8 +939,7 @@ return-void
     move-result-object v3
 
     .line 19
-    invoke-interface {p2, p1, v3}, Lp1/p;
-    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, p1, v3}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -1054,19 +975,16 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 7
     .line 8
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     .line 9
     .line 10
@@ -1082,8 +1000,7 @@ return-void
 
     .line 14
     .line 15
-    invoke-static {v2}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 16
     .line 17
@@ -1091,8 +1008,7 @@ return-void
     move-result-object v4
 
     .line 19
-    invoke-static {v3}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v3}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     .line 20
     .line 21
@@ -1100,8 +1016,7 @@ return-void
     move-result-object v3
 
     .line 23
-    invoke-interface {p2, v4, p1, v3}, Lp1/q;
-    ->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v4, p1, v3}, Lp1/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 24
     .line 25
@@ -1137,19 +1052,16 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 7
     .line 8
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     .line 9
     .line 10
@@ -1169,8 +1081,7 @@ return-void
 
     .line 16
     .line 17
-    invoke-static {v2}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     .line 18
     .line 19
@@ -1178,8 +1089,7 @@ return-void
     move-result-object v2
 
     .line 21
-    invoke-interface {p2, v2, p1}, Lp1/p;
-    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v2, p1}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 22
     .line 23
@@ -1215,19 +1125,16 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 7
     .line 8
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     .line 9
     .line 10
@@ -1247,8 +1154,7 @@ return-void
 
     .line 16
     .line 17
-    invoke-static {v1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 18
     .line 19
@@ -1256,8 +1162,7 @@ return-void
     move-result-object v3
 
     .line 21
-    invoke-static {v2}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     .line 22
     .line 23
@@ -1265,8 +1170,7 @@ return-void
     move-result-object v2
 
     .line 25
-    invoke-interface {p2, v3, v2, p1}, Lp1/q;
-    ->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v3, v2, p1}, Lp1/q;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 26
     .line 27
@@ -1300,19 +1204,16 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 7
     .line 8
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     .line 9
     .line 10
@@ -1328,8 +1229,7 @@ return-void
 
     .line 14
     .line 15
-    invoke-static {v3}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v3}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     .line 16
     .line 17
@@ -1337,8 +1237,7 @@ return-void
     move-result-object v3
 
     .line 19
-    invoke-interface {p1, v3}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v3}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -1369,19 +1268,16 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 7
     .line 8
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     .line 9
     .line 10
@@ -1393,8 +1289,7 @@ return-void
 
     .line 12
     .line 13
-    invoke-static {v2}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 14
     .line 15
@@ -1406,8 +1301,7 @@ return-void
 
     .line 18
     .line 19
-    invoke-static {v4}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v4}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     .line 20
     .line 21
@@ -1415,8 +1309,7 @@ return-void
     move-result-object v4
 
     .line 23
-    invoke-interface {p1, v3, v4}, Lp1/p;
-    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v3, v4}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 24
     .line 25
@@ -1447,19 +1340,16 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 7
     .line 8
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     .line 9
     .line 10
@@ -1479,8 +1369,7 @@ return-void
 
     .line 16
     .line 17
-    invoke-static {v2}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     .line 18
     .line 19
@@ -1488,8 +1377,7 @@ return-void
     move-result-object v2
 
     .line 21
-    invoke-interface {p1, v2}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 22
     .line 23
@@ -1520,19 +1408,16 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 7
     .line 8
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     .line 9
     .line 10
@@ -1548,8 +1433,7 @@ return-void
 
     .line 14
     .line 15
-    invoke-static {v1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 16
     .line 17
@@ -1561,8 +1445,7 @@ return-void
 
     .line 20
     .line 21
-    invoke-static {v3}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v3}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     .line 22
     .line 23
@@ -1570,8 +1453,7 @@ return-void
     move-result-object v3
 
     .line 25
-    invoke-interface {p1, v2, v3}, Lp1/p;
-    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2, v3}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 26
     .line 27
@@ -1600,8 +1482,7 @@ return-void
 
     .line 2
     .line 3
-    iget v0, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v0, p0, Landroidx/collection/FloatList;->_size:I
 
     .line 4
     .line 5
@@ -1609,8 +1490,7 @@ return-void
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 8
     .line 9
@@ -1630,8 +1510,7 @@ return-void
 
     .line 17
     .line 18
-    invoke-static {v1, p1, v2}, LA/d;
-    ->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, p1, v2}, LA/d;->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 19
     .line 20
@@ -1639,8 +1518,7 @@ return-void
     move-result-object p1
 
     .line 22
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     .line 23
     .line 24
@@ -1648,14 +1526,12 @@ return-void
 
     .line 25
     .line 26
-    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 27
     .line 28
     .line 29
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 30
     .line 31
@@ -1663,8 +1539,7 @@ return-void
     move-result-object p1
 
     .line 33
-    invoke-direct {v0, p1}, Ljava/lang/IndexOutOfBoundsException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IndexOutOfBoundsException;-><init>(Ljava/lang/String;)V
 
     .line 34
     .line 35
@@ -1678,13 +1553,11 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     .line 3
     .line 4
-    invoke-static {v0, v1}, La/a;
-    ->T(II)Lu1/g;
+    invoke-static {v0, v1}, La/a;->T(II)Lu1/g;
 
     .line 5
     .line 6
@@ -1701,8 +1574,7 @@ return-void
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v0, p0, Landroidx/collection/FloatList;->_size:I
 
     .line 2
     .line 3
@@ -1716,21 +1588,18 @@ return-void
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/collection/FloatList;
-    ->_size:I    return v0
+    iget v0, p0, Landroidx/collection/FloatList;->_size:I    return v0
 .end method
 
 .method public hashCode()I
     .locals 5
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     .line 4
     .line 5
@@ -1749,8 +1618,7 @@ return-void
 
     .line 10
     .line 11
-    invoke-static {v4}, Ljava/lang/Float;
-    ->floatToIntBits(F)I
+    invoke-static {v4}, Ljava/lang/Float;->floatToIntBits(F)I
 
     .line 12
     .line 13
@@ -1780,13 +1648,11 @@ return-void
     .locals 4
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     .line 4
     .line 5
@@ -1838,19 +1704,16 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 7
     .line 8
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     .line 9
     .line 10
@@ -1866,8 +1729,7 @@ return-void
 
     .line 14
     .line 15
-    invoke-static {v3}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v3}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     .line 16
     .line 17
@@ -1875,8 +1737,7 @@ return-void
     move-result-object v3
 
     .line 19
-    invoke-interface {p1, v3}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v3}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -1888,8 +1749,7 @@ return-void
 
     .line 24
     .line 25
-    invoke-virtual {v3}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {v3}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 26
     .line 27
@@ -1929,19 +1789,16 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 7
     .line 8
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     .line 9
     .line 10
@@ -1961,8 +1818,7 @@ return-void
 
     .line 16
     .line 17
-    invoke-static {v2}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     .line 18
     .line 19
@@ -1970,8 +1826,7 @@ return-void
     move-result-object v2
 
     .line 21
-    invoke-interface {p1, v2}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 22
     .line 23
@@ -1983,8 +1838,7 @@ return-void
 
     .line 26
     .line 27
-    invoke-virtual {v2}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {v2}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 28
     .line 29
@@ -2011,8 +1865,7 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v0, p0, Landroidx/collection/FloatList;->_size:I
 
     .line 2
     .line 3
@@ -2035,8 +1888,7 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v0, p0, Landroidx/collection/FloatList;->_size:I
 
     .line 2
     .line 3
@@ -2075,8 +1927,7 @@ return-void
 
     move-object v0, p0
 
-    invoke-static/range {v0 .. v7}, Landroidx/collection/FloatList;
-    ->joinToString$default(Landroidx/collection/FloatList;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v0 .. v7}, Landroidx/collection/FloatList;->joinToString$default(Landroidx/collection/FloatList;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -2089,8 +1940,7 @@ return-void
     .line 2
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v7, 0x1e
 
@@ -2108,8 +1958,7 @@ return-void
 
     move-object v2, p1
 
-    invoke-static/range {v1 .. v8}, Landroidx/collection/FloatList;
-    ->joinToString$default(Landroidx/collection/FloatList;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v1 .. v8}, Landroidx/collection/FloatList;->joinToString$default(Landroidx/collection/FloatList;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -2122,13 +1971,11 @@ return-void
     .line 3
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "prefix"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v7, 0x1c
 
@@ -2146,8 +1993,7 @@ return-void
 
     move-object v3, p2
 
-    invoke-static/range {v1 .. v8}, Landroidx/collection/FloatList;
-    ->joinToString$default(Landroidx/collection/FloatList;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v1 .. v8}, Landroidx/collection/FloatList;->joinToString$default(Landroidx/collection/FloatList;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -2160,18 +2006,15 @@ return-void
     .line 4
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "prefix"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "postfix"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v7, 0x18
 
@@ -2189,8 +2032,7 @@ return-void
 
     move-object v4, p3
 
-    invoke-static/range {v1 .. v8}, Landroidx/collection/FloatList;
-    ->joinToString$default(Landroidx/collection/FloatList;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v1 .. v8}, Landroidx/collection/FloatList;->joinToString$default(Landroidx/collection/FloatList;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -2203,18 +2045,15 @@ return-void
     .line 5
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "prefix"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "postfix"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v7, 0x10
 
@@ -2232,8 +2071,7 @@ return-void
 
     move v5, p4
 
-    invoke-static/range {v1 .. v8}, Landroidx/collection/FloatList;
-    ->joinToString$default(Landroidx/collection/FloatList;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v1 .. v8}, Landroidx/collection/FloatList;->joinToString$default(Landroidx/collection/FloatList;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -2245,31 +2083,26 @@ return-void
 
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "prefix"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "postfix"
 
     const-string v1, "truncated"
 
     .line 6
-    invoke-static {p3, v0, p5, v1, p2}, LA/d;
-    ->l(Ljava/lang/CharSequence;Ljava/lang/String;Ljava/lang/CharSequence;Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-static {p3, v0, p5, v1, p2}, LA/d;->l(Ljava/lang/CharSequence;Ljava/lang/String;Ljava/lang/CharSequence;Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     move-result-object p2
 
     .line 7
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 8
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     const/4 v2, 0x0
 
@@ -2282,8 +2115,7 @@ return-void
     if-ne v2, p4, :cond_0
 
     .line 10
-    invoke-virtual {p2, p5}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p5}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     goto :goto_1
 
@@ -2291,13 +2123,11 @@ return-void
     if-eqz v2, :cond_1
 
     .line 11
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 12
     :cond_1
-    invoke-virtual {p2, v3}, Ljava/lang/StringBuilder;
-    ->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, v3}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     add-int/lit8 v2, v2, 0x1
 
@@ -2305,20 +2135,17 @@ return-void
 
     .line 13
     :cond_2
-    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 14
     :goto_1
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p1
 
     const-string p2, "StringBuilder().apply(builderAction).toString()"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
     return-object p1
 .end method
 
@@ -2340,36 +2167,30 @@ return-void
 
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "prefix"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "postfix"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "truncated"
 
     const-string v1, "transform"
 
     .line 20
-    invoke-static {p5, v0, p6, v1, p2}, LA/d;
-    ->m(Ljava/lang/CharSequence;Ljava/lang/String;Lp1/l;Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-static {p5, v0, p6, v1, p2}, LA/d;->m(Ljava/lang/CharSequence;Ljava/lang/String;Lp1/l;Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     move-result-object p2
 
     .line 21
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 22
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     const/4 v2, 0x0
 
@@ -2382,8 +2203,7 @@ return-void
     if-ne v2, p4, :cond_0
 
     .line 24
-    invoke-virtual {p2, p5}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p5}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     goto :goto_1
 
@@ -2391,25 +2211,21 @@ return-void
     if-eqz v2, :cond_1
 
     .line 25
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 26
     :cond_1
-    invoke-static {v3}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v3}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object v3
 
-    invoke-interface {p6, v3}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p6, v3}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Ljava/lang/CharSequence;
 
-    invoke-virtual {p2, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     add-int/lit8 v2, v2, 0x1
 
@@ -2417,20 +2233,17 @@ return-void
 
     .line 27
     :cond_2
-    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 28
     :goto_1
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p1
 
     const-string p2, "StringBuilder().apply(builderAction).toString()"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
     return-object p1
 .end method
 
@@ -2451,31 +2264,26 @@ return-void
 
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "prefix"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "postfix"
 
     const-string v1, "transform"
 
     .line 34
-    invoke-static {p3, v0, p5, v1, p2}, LA/d;
-    ->m(Ljava/lang/CharSequence;Ljava/lang/String;Lp1/l;Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-static {p3, v0, p5, v1, p2}, LA/d;->m(Ljava/lang/CharSequence;Ljava/lang/String;Lp1/l;Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     move-result-object p2
 
     .line 35
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 36
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     const/4 v2, 0x0
 
@@ -2490,8 +2298,7 @@ return-void
     .line 38
     const-string p1, "..."
 
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     goto :goto_1
 
@@ -2499,25 +2306,21 @@ return-void
     if-eqz v2, :cond_1
 
     .line 39
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 40
     :cond_1
-    invoke-static {v3}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v3}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object v3
 
-    invoke-interface {p5, v3}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p5, v3}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Ljava/lang/CharSequence;
 
-    invoke-virtual {p2, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     add-int/lit8 v2, v2, 0x1
 
@@ -2525,20 +2328,17 @@ return-void
 
     .line 41
     :cond_2
-    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 42
     :goto_1
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p1
 
     const-string p2, "StringBuilder().apply(builderAction).toString()"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
     return-object p1
 .end method
 
@@ -2558,31 +2358,26 @@ return-void
 
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "prefix"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "postfix"
 
     const-string v1, "transform"
 
     .line 48
-    invoke-static {p3, v0, p4, v1, p2}, LA/d;
-    ->m(Ljava/lang/CharSequence;Ljava/lang/String;Lp1/l;Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-static {p3, v0, p4, v1, p2}, LA/d;->m(Ljava/lang/CharSequence;Ljava/lang/String;Lp1/l;Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     move-result-object p2
 
     .line 49
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 50
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     const/4 v2, 0x0
 
@@ -2599,8 +2394,7 @@ return-void
     .line 52
     const-string p1, "..."
 
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     goto :goto_1
 
@@ -2608,25 +2402,21 @@ return-void
     if-eqz v2, :cond_1
 
     .line 53
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 54
     :cond_1
-    invoke-static {v3}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v3}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object v3
 
-    invoke-interface {p4, v3}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p4, v3}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Ljava/lang/CharSequence;
 
-    invoke-virtual {p2, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     add-int/lit8 v2, v2, 0x1
 
@@ -2634,20 +2424,17 @@ return-void
 
     .line 55
     :cond_2
-    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 56
     :goto_1
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p1
 
     const-string p2, "StringBuilder().apply(builderAction).toString()"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
     return-object p1
 .end method
 
@@ -2666,26 +2453,22 @@ return-void
 
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "prefix"
 
     const-string v1, "transform"
 
     .line 62
-    invoke-static {p2, v0, p3, v1, p2}, LA/d;
-    ->m(Ljava/lang/CharSequence;Ljava/lang/String;Lp1/l;Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-static {p2, v0, p3, v1, p2}, LA/d;->m(Ljava/lang/CharSequence;Ljava/lang/String;Lp1/l;Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     move-result-object p2
 
     .line 63
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 64
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     const/4 v2, 0x0
 
@@ -2702,8 +2485,7 @@ return-void
     .line 66
     const-string p1, "..."
 
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     goto :goto_1
 
@@ -2711,25 +2493,21 @@ return-void
     if-eqz v2, :cond_1
 
     .line 67
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 68
     :cond_1
-    invoke-static {v3}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v3}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object v3
 
-    invoke-interface {p3, v3}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, v3}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Ljava/lang/CharSequence;
 
-    invoke-virtual {p2, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     add-int/lit8 v2, v2, 0x1
 
@@ -2739,20 +2517,17 @@ return-void
     :cond_2
     const-string p1, ""
 
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 70
     :goto_1
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p1
 
     const-string p2, "StringBuilder().apply(builderAction).toString()"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
     return-object p1
 .end method
 
@@ -2770,29 +2545,24 @@ return-void
 
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "transform"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 76
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, ""
 
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 77
-    iget-object v2, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v2, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 78
-    iget v3, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v3, p0, Landroidx/collection/FloatList;->_size:I
 
     const/4 v4, 0x0
 
@@ -2809,8 +2579,7 @@ return-void
     .line 80
     const-string p1, "..."
 
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     goto :goto_1
 
@@ -2818,25 +2587,21 @@ return-void
     if-eqz v4, :cond_1
 
     .line 81
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 82
     :cond_1
-    invoke-static {v5}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v5}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object v5
 
-    invoke-interface {p2, v5}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v5}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
 
     check-cast v5, Ljava/lang/CharSequence;
 
-    invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     add-int/lit8 v4, v4, 0x1
 
@@ -2844,20 +2609,17 @@ return-void
 
     .line 83
     :cond_2
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 84
     :goto_1
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p1
 
     const-string p2, "StringBuilder().apply(builderAction).toString()"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
     return-object p1
 .end method
 
@@ -2874,24 +2636,20 @@ return-void
 
     const-string v0, "transform"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 85
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, ""
 
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 86
-    iget-object v2, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v2, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 87
-    iget v3, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v3, p0, Landroidx/collection/FloatList;->_size:I
 
     const/4 v4, 0x0
 
@@ -2908,8 +2666,7 @@ return-void
     .line 89
     const-string p1, "..."
 
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     goto :goto_1
 
@@ -2919,25 +2676,21 @@ return-void
     .line 90
     const-string v6, ", "
 
-    invoke-virtual {v0, v6}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 91
     :cond_1
-    invoke-static {v5}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v5}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object v5
 
-    invoke-interface {p1, v5}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v5}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v5
 
     check-cast v5, Ljava/lang/CharSequence;
 
-    invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     add-int/lit8 v4, v4, 0x1
 
@@ -2945,20 +2698,17 @@ return-void
 
     .line 92
     :cond_2
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 93
     :goto_1
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object p1
 
     const-string v0, "StringBuilder().apply(builderAction).toString()"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
     return-object p1
 .end method
 
@@ -2966,20 +2716,17 @@ return-void
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroidx/collection/FloatList;
-    ->isEmpty()Z
+    invoke-virtual {p0}, Landroidx/collection/FloatList;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
     .line 2
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 3
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     add-int/lit8 v1, v1, -0x1
 
@@ -2993,8 +2740,7 @@ return-void
 
     const-string v1, "FloatList is empty."
 
-    invoke-direct {v0, v1}, Ljava/util/NoSuchElementException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/util/NoSuchElementException;-><init>(Ljava/lang/String;)V
 
     throw v0
 .end method
@@ -3011,16 +2757,13 @@ return-void
 
     const-string v0, "predicate"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 6
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     add-int/lit8 v1, v1, -0x1
 
@@ -3033,20 +2776,17 @@ return-void
     aget v2, v0, v1
 
     .line 8
-    invoke-static {v2}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object v3
 
-    invoke-interface {p1, v3}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v3}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Ljava/lang/Boolean;
 
-    invoke-virtual {v3}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {v3}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v3
 
@@ -3065,8 +2805,7 @@ return-void
 
     const-string v0, "FloatList contains no element matching the predicate."
 
-    invoke-direct {p1, v0}, Ljava/util/NoSuchElementException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/util/NoSuchElementException;-><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -3075,13 +2814,11 @@ return-void
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     .line 4
     .line 5
@@ -3124,8 +2861,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/collection/FloatList;
-    ->isEmpty()Z
+    invoke-virtual {p0}, Landroidx/collection/FloatList;->isEmpty()Z
 
     .line 2
     .line 3
@@ -3150,19 +2886,16 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p0, Landroidx/collection/FloatList;->content:[F
 
     .line 7
     .line 8
-    iget v1, p0, Landroidx/collection/FloatList;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatList;->_size:I
 
     .line 9
     .line 10
@@ -3184,8 +2917,7 @@ return-void
 
     .line 16
     .line 17
-    invoke-static {v3}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v3}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     .line 18
     .line 19
@@ -3193,8 +2925,7 @@ return-void
     move-result-object v3
 
     .line 21
-    invoke-interface {p1, v3}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v3}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 22
     .line 23
@@ -3206,8 +2937,7 @@ return-void
 
     .line 26
     .line 27
-    invoke-virtual {v3}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {v3}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 28
     .line 29
@@ -3263,8 +2993,7 @@ return-void
     move-object v0, p0
 
     .line 12
-    invoke-static/range {v0 .. v7}, Landroidx/collection/FloatList;
-    ->joinToString$default(Landroidx/collection/FloatList;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v0 .. v7}, Landroidx/collection/FloatList;->joinToString$default(Landroidx/collection/FloatList;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;ILjava/lang/Object;)Ljava/lang/String;
 
     .line 13
     .line 14

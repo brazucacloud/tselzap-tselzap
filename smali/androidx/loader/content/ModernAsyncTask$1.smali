@@ -26,8 +26,7 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -39,14 +38,12 @@
     const/4 v1, 0x1
 
     .line 7
-    invoke-direct {v0, v1}, Ljava/util/concurrent/atomic/AtomicInteger;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>(I)V
 
     .line 8
     .line 9
     .line 10
-    iput-object v0, p0, Landroidx/loader/content/ModernAsyncTask$1;
-    ->mCount:Ljava/util/concurrent/atomic/AtomicInteger;    
+    iput-object v0, p0, Landroidx/loader/content/ModernAsyncTask$1;->mCount:Ljava/util/concurrent/atomic/AtomicInteger;
     return-void
 .end method
 
@@ -68,19 +65,16 @@
 
     .line 6
     .line 7
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    iget-object v2, p0, Landroidx/loader/content/ModernAsyncTask$1;
-    ->mCount:Ljava/util/concurrent/atomic/AtomicInteger;
+    iget-object v2, p0, Landroidx/loader/content/ModernAsyncTask$1;->mCount:Ljava/util/concurrent/atomic/AtomicInteger;
 
     .line 11
     .line 12
-    invoke-virtual {v2}, Ljava/util/concurrent/atomic/AtomicInteger;
-    ->getAndIncrement()I
+    invoke-virtual {v2}, Ljava/util/concurrent/atomic/AtomicInteger;->getAndIncrement()I
 
     .line 13
     .line 14
@@ -88,14 +82,12 @@
     move-result v2
 
     .line 16
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 17
     .line 18
     .line 19
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 20
     .line 21
@@ -103,8 +95,7 @@
     move-result-object v1
 
     .line 23
-    invoke-direct {v0, p1, v1}, Ljava/lang/Thread;
-    -><init>(Ljava/lang/Runnable;Ljava/lang/String;)V
+    invoke-direct {v0, p1, v1}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;Ljava/lang/String;)V
     return-object v0
 .end method
 

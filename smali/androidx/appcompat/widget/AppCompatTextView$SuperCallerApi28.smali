@@ -27,13 +27,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi28;
-    ->this$0:Landroidx/appcompat/widget/AppCompatTextView;
+    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi28;->this$0:Landroidx/appcompat/widget/AppCompatTextView;
 
     .line 2
     .line 3
-    invoke-direct {p0, p1}, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi26;
-    -><init>(Landroidx/appcompat/widget/AppCompatTextView;)V    
+    invoke-direct {p0, p1}, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi26;-><init>(Landroidx/appcompat/widget/AppCompatTextView;)V
     return-void
 .end method
 
@@ -47,13 +45,11 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi28;
-    ->this$0:Landroidx/appcompat/widget/AppCompatTextView;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi28;->this$0:Landroidx/appcompat/widget/AppCompatTextView;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Landroidx/appcompat/widget/AppCompatTextView;
-    ->access$1001(Landroidx/appcompat/widget/AppCompatTextView;I)V    
+    invoke-static {v0, p1}, Landroidx/appcompat/widget/AppCompatTextView;->access$1001(Landroidx/appcompat/widget/AppCompatTextView;I)V
     return-void
 .end method
 
@@ -65,13 +61,11 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi28;
-    ->this$0:Landroidx/appcompat/widget/AppCompatTextView;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi28;->this$0:Landroidx/appcompat/widget/AppCompatTextView;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Landroidx/appcompat/widget/AppCompatTextView;
-    ->access$1101(Landroidx/appcompat/widget/AppCompatTextView;I)V    
+    invoke-static {v0, p1}, Landroidx/appcompat/widget/AppCompatTextView;->access$1101(Landroidx/appcompat/widget/AppCompatTextView;I)V
     return-void
 .end method
 

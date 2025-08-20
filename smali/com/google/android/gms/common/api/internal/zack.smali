@@ -12,13 +12,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zack;
-    ->zaa:Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zack;->zaa:Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
 
     .line 2
     .line 3
-    invoke-direct {p0, p2, p3, p4, p5}, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;
-    -><init>(Lcom/google/android/gms/common/api/internal/ListenerHolder;[Lcom/google/android/gms/common/Feature;ZI)V
+    invoke-direct {p0, p2, p3, p4, p5}, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;-><init>(Lcom/google/android/gms/common/api/internal/ListenerHolder;[Lcom/google/android/gms/common/Feature;ZI)V
 
     .line 4
     .line 5
@@ -41,13 +39,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zack;
-    ->zaa:Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zack;->zaa:Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;
-    ->zaa(Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;)Lcom/google/android/gms/common/api/internal/RemoteCall;
+    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;->zaa(Lcom/google/android/gms/common/api/internal/RegistrationMethods$Builder;)Lcom/google/android/gms/common/api/internal/RemoteCall;
 
     .line 4
     .line 5
@@ -55,8 +51,7 @@
     move-result-object v0
 
     .line 7
-    invoke-interface {v0, p1, p2}, Lcom/google/android/gms/common/api/internal/RemoteCall;
-    ->accept(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-interface {v0, p1, p2}, Lcom/google/android/gms/common/api/internal/RemoteCall;->accept(Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 8
     .line 9

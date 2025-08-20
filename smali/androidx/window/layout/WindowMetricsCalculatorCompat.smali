@@ -21,14 +21,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/window/layout/WindowMetricsCalculatorCompat;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->INSTANCE:Landroidx/window/layout/WindowMetricsCalculatorCompat;
+    sput-object v0, Landroidx/window/layout/WindowMetricsCalculatorCompat;->INSTANCE:Landroidx/window/layout/WindowMetricsCalculatorCompat;
 
     .line 7
     .line 8
@@ -36,8 +34,7 @@
 
     .line 9
     .line 10
-    sput-object v0, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->TAG:Ljava/lang/String;
+    sput-object v0, Landroidx/window/layout/WindowMetricsCalculatorCompat;->TAG:Ljava/lang/String;
 
     .line 11
     .line 12
@@ -48,8 +45,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -81,8 +77,7 @@
 
     .line 4
     .line 5
-    invoke-static {v2}, Ljava/lang/Class;
-    ->forName(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v2}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 6
     .line 7
@@ -94,8 +89,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {v2, v3}, Ljava/lang/Class;
-    ->getConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+    invoke-virtual {v2, v3}, Ljava/lang/Class;->getConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     .line 12
     .line 13
@@ -103,8 +97,7 @@
     move-result-object v2
 
     .line 15
-    invoke-virtual {v2, v0}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v2, v0}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 16
     .line 17
@@ -113,8 +106,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {v2, v3}, Ljava/lang/reflect/Constructor;
-    ->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, v3}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -122,8 +114,7 @@
     move-result-object v2
 
     .line 24
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 25
     .line 26
@@ -135,8 +126,7 @@
 
     .line 29
     .line 30
-    invoke-virtual {v2}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 31
     .line 32
@@ -152,8 +142,7 @@
 
     .line 37
     .line 38
-    invoke-virtual {v3, v4, v6}, Ljava/lang/Class;
-    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v3, v4, v6}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 39
     .line 40
@@ -161,8 +150,7 @@
     move-result-object v3
 
     .line 42
-    invoke-virtual {v3, v0}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v3, v0}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 43
     .line 44
@@ -175,14 +163,12 @@
 
     .line 48
     .line 49
-    invoke-virtual {v3, p1, v4}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, p1, v4}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 50
     .line 51
     .line 52
-    invoke-virtual {v2}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 53
     .line 54
@@ -194,8 +180,7 @@
 
     .line 57
     .line 58
-    invoke-virtual {p1, v1}, Ljava/lang/Class;
-    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {p1, v1}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 59
     .line 60
@@ -203,14 +188,12 @@
     move-result-object p1
 
     .line 62
-    invoke-virtual {p1, v0}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {p1, v0}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 63
     .line 64
     .line 65
-    invoke-virtual {p1, v2}, Ljava/lang/reflect/Field;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, v2}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 66
     .line 67
@@ -218,8 +201,7 @@
     move-result-object p1
 
     .line 69
-    invoke-static {p1}, Landroidx/core/view/accessibility/a;
-    ->w(Ljava/lang/Object;)Z
+    invoke-static {p1}, Landroidx/core/view/accessibility/a;->w(Ljava/lang/Object;)Z
 
     .line 70
     .line 71
@@ -231,8 +213,7 @@
 
     .line 74
     .line 75
-    invoke-static {p1}, Landroidx/core/view/accessibility/a;
-    ->h(Ljava/lang/Object;)Landroid/view/DisplayCutout;
+    invoke-static {p1}, Landroidx/core/view/accessibility/a;->h(Ljava/lang/Object;)Landroid/view/DisplayCutout;
 
     .line 76
     .line 77
@@ -292,13 +273,11 @@
 
     .line 92
     :goto_0
-    sget-object v0, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->TAG:Ljava/lang/String;
+    sget-object v0, Landroidx/window/layout/WindowMetricsCalculatorCompat;->TAG:Ljava/lang/String;
 
     .line 93
     .line 94
-    invoke-static {v0, p1}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 95
     .line 96
@@ -307,13 +286,11 @@
 
     .line 98
     :goto_1
-    sget-object v0, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->TAG:Ljava/lang/String;
+    sget-object v0, Landroidx/window/layout/WindowMetricsCalculatorCompat;->TAG:Ljava/lang/String;
 
     .line 99
     .line 100
-    invoke-static {v0, p1}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 101
     .line 102
@@ -322,13 +299,11 @@
 
     .line 104
     :goto_2
-    sget-object v0, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->TAG:Ljava/lang/String;
+    sget-object v0, Landroidx/window/layout/WindowMetricsCalculatorCompat;->TAG:Ljava/lang/String;
 
     .line 105
     .line 106
-    invoke-static {v0, p1}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 107
     .line 108
@@ -337,13 +312,11 @@
 
     .line 110
     :goto_3
-    sget-object v0, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->TAG:Ljava/lang/String;
+    sget-object v0, Landroidx/window/layout/WindowMetricsCalculatorCompat;->TAG:Ljava/lang/String;
 
     .line 111
     .line 112
-    invoke-static {v0, p1}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 113
     .line 114
@@ -352,13 +325,11 @@
 
     .line 116
     :goto_4
-    sget-object v0, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->TAG:Ljava/lang/String;
+    sget-object v0, Landroidx/window/layout/WindowMetricsCalculatorCompat;->TAG:Ljava/lang/String;
 
     .line 117
     .line 118
-    invoke-static {v0, p1}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 119
     .line 120
@@ -367,13 +338,11 @@
 
     .line 122
     :goto_5
-    sget-object v0, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->TAG:Ljava/lang/String;
+    sget-object v0, Landroidx/window/layout/WindowMetricsCalculatorCompat;->TAG:Ljava/lang/String;
 
     .line 123
     .line 124
-    invoke-static {v0, p1}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 125
     .line 126
@@ -389,8 +358,7 @@
     .locals 3
 
     .line 1
-    invoke-virtual {p1}, Landroid/content/Context;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     .line 2
     .line 3
@@ -410,8 +378,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1, v2, v0, v1}, Landroid/content/res/Resources;
-    ->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+    invoke-virtual {p1, v2, v0, v1}, Landroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
 
     .line 12
     .line 13
@@ -423,8 +390,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p1, v0}, Landroid/content/res/Resources;
-    ->getDimensionPixelSize(I)I
+    invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDimensionPixelSize(I)I
 
     .line 18
     .line 19
@@ -444,8 +410,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Landroid/app/Activity;
-    ->getWindowManager()Landroid/view/WindowManager;
+    invoke-virtual {p1}, Landroid/app/Activity;->getWindowManager()Landroid/view/WindowManager;
 
     .line 2
     .line 3
@@ -453,8 +418,7 @@
     move-result-object p1
 
     .line 5
-    invoke-interface {p1}, Landroid/view/WindowManager;
-    ->getDefaultDisplay()Landroid/view/Display;
+    invoke-interface {p1}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
 
     .line 6
     .line 7
@@ -462,8 +426,7 @@
     move-result-object p1
 
     .line 9
-    invoke-virtual {p1, p2}, Landroid/view/Display;
-    ->getRectSize(Landroid/graphics/Rect;)V
+    invoke-virtual {p1, p2}, Landroid/view/Display;->getRectSize(Landroid/graphics/Rect;)V
 
     .line 10
     .line 11
@@ -481,14 +444,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 7
     .line 8
@@ -500,13 +461,11 @@
 
     .line 11
     .line 12
-    sget-object v0, Landroidx/window/layout/ActivityCompatHelperApi30;
-    ->INSTANCE:Landroidx/window/layout/ActivityCompatHelperApi30;
+    sget-object v0, Landroidx/window/layout/ActivityCompatHelperApi30;->INSTANCE:Landroidx/window/layout/ActivityCompatHelperApi30;
 
     .line 13
     .line 14
-    invoke-virtual {v0, p1}, Landroidx/window/layout/ActivityCompatHelperApi30;
-    ->currentWindowBounds(Landroid/app/Activity;)Landroid/graphics/Rect;
+    invoke-virtual {v0, p1}, Landroidx/window/layout/ActivityCompatHelperApi30;->currentWindowBounds(Landroid/app/Activity;)Landroid/graphics/Rect;
 
     .line 15
     .line 16
@@ -526,8 +485,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {p0, p1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->computeWindowBoundsQ$window_release(Landroid/app/Activity;)Landroid/graphics/Rect;
+    invoke-virtual {p0, p1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;->computeWindowBoundsQ$window_release(Landroid/app/Activity;)Landroid/graphics/Rect;
 
     .line 24
     .line 25
@@ -547,8 +505,7 @@
 
     .line 31
     .line 32
-    invoke-virtual {p0, p1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->computeWindowBoundsP$window_release(Landroid/app/Activity;)Landroid/graphics/Rect;
+    invoke-virtual {p0, p1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;->computeWindowBoundsP$window_release(Landroid/app/Activity;)Landroid/graphics/Rect;
 
     .line 33
     .line 34
@@ -568,8 +525,7 @@
 
     .line 40
     .line 41
-    invoke-virtual {p0, p1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->computeWindowBoundsN$window_release(Landroid/app/Activity;)Landroid/graphics/Rect;
+    invoke-virtual {p0, p1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;->computeWindowBoundsN$window_release(Landroid/app/Activity;)Landroid/graphics/Rect;
 
     .line 42
     .line 43
@@ -581,8 +537,7 @@
 
     .line 46
     :cond_3
-    invoke-virtual {p0, p1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->computeWindowBoundsIceCreamSandwich$window_release(Landroid/app/Activity;)Landroid/graphics/Rect;
+    invoke-virtual {p0, p1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;->computeWindowBoundsIceCreamSandwich$window_release(Landroid/app/Activity;)Landroid/graphics/Rect;
 
     .line 47
     .line 48
@@ -595,8 +550,7 @@
 
     .line 51
     .line 52
-    invoke-direct {v0, p1}, Landroidx/window/layout/WindowMetrics;
-    -><init>(Landroid/graphics/Rect;)V
+    invoke-direct {v0, p1}, Landroidx/window/layout/WindowMetrics;-><init>(Landroid/graphics/Rect;)V
 
     .line 53
     .line 54
@@ -612,14 +566,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 7
     .line 8
@@ -631,13 +583,11 @@
 
     .line 11
     .line 12
-    sget-object v0, Landroidx/window/layout/ActivityCompatHelperApi30;
-    ->INSTANCE:Landroidx/window/layout/ActivityCompatHelperApi30;
+    sget-object v0, Landroidx/window/layout/ActivityCompatHelperApi30;->INSTANCE:Landroidx/window/layout/ActivityCompatHelperApi30;
 
     .line 13
     .line 14
-    invoke-virtual {v0, p1}, Landroidx/window/layout/ActivityCompatHelperApi30;
-    ->maximumWindowBounds(Landroid/app/Activity;)Landroid/graphics/Rect;
+    invoke-virtual {v0, p1}, Landroidx/window/layout/ActivityCompatHelperApi30;->maximumWindowBounds(Landroid/app/Activity;)Landroid/graphics/Rect;
 
     .line 15
     .line 16
@@ -649,8 +599,7 @@
 
     .line 19
     :cond_0
-    invoke-virtual {p1}, Landroid/app/Activity;
-    ->getWindowManager()Landroid/view/WindowManager;
+    invoke-virtual {p1}, Landroid/app/Activity;->getWindowManager()Landroid/view/WindowManager;
 
     .line 20
     .line 21
@@ -658,8 +607,7 @@
     move-result-object p1
 
     .line 23
-    invoke-interface {p1}, Landroid/view/WindowManager;
-    ->getDefaultDisplay()Landroid/view/Display;
+    invoke-interface {p1}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
 
     .line 24
     .line 25
@@ -671,14 +619,12 @@
 
     .line 28
     .line 29
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 30
     .line 31
     .line 32
-    invoke-virtual {p0, p1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->getRealSizeForDisplay$window_release(Landroid/view/Display;)Landroid/graphics/Point;
+    invoke-virtual {p0, p1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;->getRealSizeForDisplay$window_release(Landroid/view/Display;)Landroid/graphics/Point;
 
     .line 33
     .line 34
@@ -690,21 +636,18 @@
 
     .line 37
     .line 38
-    iget v1, p1, Landroid/graphics/Point;
-    ->x:I
+    iget v1, p1, Landroid/graphics/Point;->x:I
 
     .line 39
     .line 40
-    iget p1, p1, Landroid/graphics/Point;
-    ->y:I
+    iget p1, p1, Landroid/graphics/Point;->y:I
 
     .line 41
     .line 42
     const/4 v2, 0x0
 
     .line 43
-    invoke-direct {v0, v2, v2, v1, p1}, Landroid/graphics/Rect;
-    -><init>(IIII)V
+    invoke-direct {v0, v2, v2, v1, p1}, Landroid/graphics/Rect;-><init>(IIII)V
 
     .line 44
     .line 45
@@ -717,8 +660,7 @@
 
     .line 48
     .line 49
-    invoke-direct {v0, p1}, Landroidx/window/layout/WindowMetrics;
-    -><init>(Landroid/graphics/Rect;)V
+    invoke-direct {v0, p1}, Landroidx/window/layout/WindowMetrics;-><init>(Landroid/graphics/Rect;)V
 
     .line 50
     .line 51
@@ -737,14 +679,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroid/app/Activity;
-    ->getWindowManager()Landroid/view/WindowManager;
+    invoke-virtual {p1}, Landroid/app/Activity;->getWindowManager()Landroid/view/WindowManager;
 
     .line 7
     .line 8
@@ -752,8 +692,7 @@
     move-result-object p1
 
     .line 10
-    invoke-interface {p1}, Landroid/view/WindowManager;
-    ->getDefaultDisplay()Landroid/view/Display;
+    invoke-interface {p1}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
 
     .line 11
     .line 12
@@ -765,14 +704,12 @@
 
     .line 15
     .line 16
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 17
     .line 18
     .line 19
-    invoke-virtual {p0, p1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->getRealSizeForDisplay$window_release(Landroid/view/Display;)Landroid/graphics/Point;
+    invoke-virtual {p0, p1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;->getRealSizeForDisplay$window_release(Landroid/view/Display;)Landroid/graphics/Point;
 
     .line 20
     .line 21
@@ -784,14 +721,12 @@
 
     .line 24
     .line 25
-    invoke-direct {v1}, Landroid/graphics/Rect;
-    -><init>()V
+    invoke-direct {v1}, Landroid/graphics/Rect;-><init>()V
 
     .line 26
     .line 27
     .line 28
-    iget v2, v0, Landroid/graphics/Point;
-    ->x:I
+    iget v2, v0, Landroid/graphics/Point;->x:I
 
     .line 29
     .line 30
@@ -799,8 +734,7 @@
 
     .line 31
     .line 32
-    iget v0, v0, Landroid/graphics/Point;
-    ->y:I
+    iget v0, v0, Landroid/graphics/Point;->y:I
 
     .line 33
     .line 34
@@ -812,13 +746,11 @@
 
     .line 37
     :cond_0
-    iput v2, v1, Landroid/graphics/Rect;
-    ->right:I
+    iput v2, v1, Landroid/graphics/Rect;->right:I
 
     .line 38
     .line 39
-    iput v0, v1, Landroid/graphics/Rect;
-    ->bottom:I
+    iput v0, v1, Landroid/graphics/Rect;->bottom:I
 
     .line 40
     .line 41
@@ -827,8 +759,7 @@
     .line 42
     :cond_1
     :goto_0
-    invoke-virtual {p1, v1}, Landroid/view/Display;
-    ->getRectSize(Landroid/graphics/Rect;)V
+    invoke-virtual {p1, v1}, Landroid/view/Display;->getRectSize(Landroid/graphics/Rect;)V
 
     .line 43
     .line 44
@@ -847,8 +778,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -857,14 +787,12 @@
 
     .line 7
     .line 8
-    invoke-direct {v0}, Landroid/graphics/Rect;
-    -><init>()V
+    invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p1}, Landroid/app/Activity;
-    ->getWindowManager()Landroid/view/WindowManager;
+    invoke-virtual {p1}, Landroid/app/Activity;->getWindowManager()Landroid/view/WindowManager;
 
     .line 12
     .line 13
@@ -872,8 +800,7 @@
     move-result-object v1
 
     .line 15
-    invoke-interface {v1}, Landroid/view/WindowManager;
-    ->getDefaultDisplay()Landroid/view/Display;
+    invoke-interface {v1}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
 
     .line 16
     .line 17
@@ -881,19 +808,16 @@
     move-result-object v1
 
     .line 19
-    invoke-virtual {v1, v0}, Landroid/view/Display;
-    ->getRectSize(Landroid/graphics/Rect;)V
+    invoke-virtual {v1, v0}, Landroid/view/Display;->getRectSize(Landroid/graphics/Rect;)V
 
     .line 20
     .line 21
     .line 22
-    sget-object v2, Landroidx/window/layout/ActivityCompatHelperApi24;
-    ->INSTANCE:Landroidx/window/layout/ActivityCompatHelperApi24;
+    sget-object v2, Landroidx/window/layout/ActivityCompatHelperApi24;->INSTANCE:Landroidx/window/layout/ActivityCompatHelperApi24;
 
     .line 23
     .line 24
-    invoke-virtual {v2, p1}, Landroidx/window/layout/ActivityCompatHelperApi24;
-    ->isInMultiWindowMode(Landroid/app/Activity;)Z
+    invoke-virtual {v2, p1}, Landroidx/window/layout/ActivityCompatHelperApi24;->isInMultiWindowMode(Landroid/app/Activity;)Z
 
     .line 25
     .line 26
@@ -905,8 +829,7 @@
 
     .line 29
     .line 30
-    invoke-virtual {p0, v1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->getRealSizeForDisplay$window_release(Landroid/view/Display;)Landroid/graphics/Point;
+    invoke-virtual {p0, v1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;->getRealSizeForDisplay$window_release(Landroid/view/Display;)Landroid/graphics/Point;
 
     .line 31
     .line 32
@@ -914,8 +837,7 @@
     move-result-object v1
 
     .line 34
-    invoke-direct {p0, p1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->getNavigationBarHeight(Landroid/content/Context;)I
+    invoke-direct {p0, p1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;->getNavigationBarHeight(Landroid/content/Context;)I
 
     .line 35
     .line 36
@@ -923,8 +845,7 @@
     move-result p1
 
     .line 38
-    iget v2, v0, Landroid/graphics/Rect;
-    ->bottom:I
+    iget v2, v0, Landroid/graphics/Rect;->bottom:I
 
     .line 39
     .line 40
@@ -932,8 +853,7 @@
 
     .line 41
     .line 42
-    iget v4, v1, Landroid/graphics/Point;
-    ->y:I
+    iget v4, v1, Landroid/graphics/Point;->y:I
 
     .line 43
     .line 44
@@ -944,8 +864,7 @@
     add-int/2addr v2, p1
 
     .line 47
-    iput v2, v0, Landroid/graphics/Rect;
-    ->bottom:I
+    iput v2, v0, Landroid/graphics/Rect;->bottom:I
 
     .line 48
     .line 49
@@ -953,8 +872,7 @@
 
     .line 50
     :cond_0
-    iget v2, v0, Landroid/graphics/Rect;
-    ->right:I
+    iget v2, v0, Landroid/graphics/Rect;->right:I
 
     .line 51
     .line 52
@@ -962,8 +880,7 @@
 
     .line 53
     .line 54
-    iget v1, v1, Landroid/graphics/Point;
-    ->x:I
+    iget v1, v1, Landroid/graphics/Point;->x:I
 
     .line 55
     .line 56
@@ -974,8 +891,7 @@
     add-int/2addr v2, p1
 
     .line 59
-    iput v2, v0, Landroid/graphics/Rect;
-    ->right:I
+    iput v2, v0, Landroid/graphics/Rect;->right:I
 
     .line 60
     .line 61
@@ -1001,8 +917,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1011,14 +926,12 @@
 
     .line 7
     .line 8
-    invoke-direct {v0}, Landroid/graphics/Rect;
-    -><init>()V
+    invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p1}, Landroid/content/Context;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     .line 12
     .line 13
@@ -1026,8 +939,7 @@
     move-result-object v1
 
     .line 15
-    invoke-virtual {v1}, Landroid/content/res/Resources;
-    ->getConfiguration()Landroid/content/res/Configuration;
+    invoke-virtual {v1}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
 
     .line 16
     .line 17
@@ -1047,8 +959,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {v3, v4}, Ljava/lang/Class;
-    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v3, v4}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 25
     .line 26
@@ -1059,14 +970,12 @@
     const/4 v4, 0x1
 
     .line 29
-    invoke-virtual {v3, v4}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v3, v4}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 30
     .line 31
     .line 32
-    invoke-virtual {v3, v1}, Ljava/lang/reflect/Field;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, v1}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 33
     .line 34
@@ -1074,13 +983,11 @@
     move-result-object v1
 
     .line 36
-    sget-object v3, Landroidx/window/layout/ActivityCompatHelperApi24;
-    ->INSTANCE:Landroidx/window/layout/ActivityCompatHelperApi24;
+    sget-object v3, Landroidx/window/layout/ActivityCompatHelperApi24;->INSTANCE:Landroidx/window/layout/ActivityCompatHelperApi24;
 
     .line 37
     .line 38
-    invoke-virtual {v3, p1}, Landroidx/window/layout/ActivityCompatHelperApi24;
-    ->isInMultiWindowMode(Landroid/app/Activity;)Z
+    invoke-virtual {v3, p1}, Landroidx/window/layout/ActivityCompatHelperApi24;->isInMultiWindowMode(Landroid/app/Activity;)Z
 
     .line 39
     .line 40
@@ -1102,8 +1009,7 @@
     .line 45
     .line 46
     :try_start_1
-    invoke-virtual {v1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 47
     .line 48
@@ -1119,8 +1025,7 @@
 
     .line 53
     .line 54
-    invoke-virtual {v3, v5, v6}, Ljava/lang/Class;
-    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v3, v5, v6}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 55
     .line 56
@@ -1132,8 +1037,7 @@
 
     .line 59
     .line 60
-    invoke-virtual {v3, v1, v5}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, v1, v5}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 61
     .line 62
@@ -1149,8 +1053,7 @@
 
     .line 67
     .line 68
-    invoke-virtual {v0, v1}, Landroid/graphics/Rect;
-    ->set(Landroid/graphics/Rect;)V
+    invoke-virtual {v0, v1}, Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V
 
     .line 69
     .line 70
@@ -1191,8 +1094,7 @@
 
     .line 81
     .line 82
-    invoke-direct {v1, v4}, Ljava/lang/NullPointerException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v4}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     .line 83
     .line 84
@@ -1201,8 +1103,7 @@
 
     .line 86
     :cond_1
-    invoke-virtual {v1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 87
     .line 88
@@ -1218,8 +1119,7 @@
 
     .line 93
     .line 94
-    invoke-virtual {v3, v5, v6}, Ljava/lang/Class;
-    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v3, v5, v6}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 95
     .line 96
@@ -1231,8 +1131,7 @@
 
     .line 99
     .line 100
-    invoke-virtual {v3, v1, v5}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, v1, v5}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 101
     .line 102
@@ -1248,8 +1147,7 @@
 
     .line 107
     .line 108
-    invoke-virtual {v0, v1}, Landroid/graphics/Rect;
-    ->set(Landroid/graphics/Rect;)V
+    invoke-virtual {v0, v1}, Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V
 
     .line 109
     .line 110
@@ -1262,8 +1160,7 @@
 
     .line 113
     .line 114
-    invoke-direct {v1, v4}, Ljava/lang/NullPointerException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v4}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     .line 115
     .line 116
@@ -1277,19 +1174,16 @@
 
     .line 118
     :goto_0
-    sget-object v3, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->TAG:Ljava/lang/String;
+    sget-object v3, Landroidx/window/layout/WindowMetricsCalculatorCompat;->TAG:Ljava/lang/String;
 
     .line 119
     .line 120
-    invoke-static {v3, v1}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v3, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 121
     .line 122
     .line 123
-    invoke-direct {p0, p1, v0}, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->getRectSizeFromDisplay(Landroid/app/Activity;Landroid/graphics/Rect;)V
+    invoke-direct {p0, p1, v0}, Landroidx/window/layout/WindowMetricsCalculatorCompat;->getRectSizeFromDisplay(Landroid/app/Activity;Landroid/graphics/Rect;)V
 
     .line 124
     .line 125
@@ -1298,19 +1192,16 @@
 
     .line 127
     :goto_1
-    sget-object v3, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->TAG:Ljava/lang/String;
+    sget-object v3, Landroidx/window/layout/WindowMetricsCalculatorCompat;->TAG:Ljava/lang/String;
 
     .line 128
     .line 129
-    invoke-static {v3, v1}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v3, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 130
     .line 131
     .line 132
-    invoke-direct {p0, p1, v0}, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->getRectSizeFromDisplay(Landroid/app/Activity;Landroid/graphics/Rect;)V
+    invoke-direct {p0, p1, v0}, Landroidx/window/layout/WindowMetricsCalculatorCompat;->getRectSizeFromDisplay(Landroid/app/Activity;Landroid/graphics/Rect;)V
 
     .line 133
     .line 134
@@ -1319,19 +1210,16 @@
 
     .line 136
     :goto_2
-    sget-object v3, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->TAG:Ljava/lang/String;
+    sget-object v3, Landroidx/window/layout/WindowMetricsCalculatorCompat;->TAG:Ljava/lang/String;
 
     .line 137
     .line 138
-    invoke-static {v3, v1}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v3, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 139
     .line 140
     .line 141
-    invoke-direct {p0, p1, v0}, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->getRectSizeFromDisplay(Landroid/app/Activity;Landroid/graphics/Rect;)V
+    invoke-direct {p0, p1, v0}, Landroidx/window/layout/WindowMetricsCalculatorCompat;->getRectSizeFromDisplay(Landroid/app/Activity;Landroid/graphics/Rect;)V
 
     .line 142
     .line 143
@@ -1340,26 +1228,22 @@
 
     .line 145
     :goto_3
-    sget-object v3, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->TAG:Ljava/lang/String;
+    sget-object v3, Landroidx/window/layout/WindowMetricsCalculatorCompat;->TAG:Ljava/lang/String;
 
     .line 146
     .line 147
-    invoke-static {v3, v1}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v3, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 148
     .line 149
     .line 150
-    invoke-direct {p0, p1, v0}, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->getRectSizeFromDisplay(Landroid/app/Activity;Landroid/graphics/Rect;)V
+    invoke-direct {p0, p1, v0}, Landroidx/window/layout/WindowMetricsCalculatorCompat;->getRectSizeFromDisplay(Landroid/app/Activity;Landroid/graphics/Rect;)V
 
     .line 151
     .line 152
     .line 153
     :goto_4
-    invoke-virtual {p1}, Landroid/app/Activity;
-    ->getWindowManager()Landroid/view/WindowManager;
+    invoke-virtual {p1}, Landroid/app/Activity;->getWindowManager()Landroid/view/WindowManager;
 
     .line 154
     .line 155
@@ -1367,8 +1251,7 @@
     move-result-object v1
 
     .line 157
-    invoke-interface {v1}, Landroid/view/WindowManager;
-    ->getDefaultDisplay()Landroid/view/Display;
+    invoke-interface {v1}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
 
     .line 158
     .line 159
@@ -1380,14 +1263,12 @@
 
     .line 162
     .line 163
-    invoke-direct {v3}, Landroid/graphics/Point;
-    -><init>()V
+    invoke-direct {v3}, Landroid/graphics/Point;-><init>()V
 
     .line 164
     .line 165
     .line 166
-    sget-object v4, Landroidx/window/layout/DisplayCompatHelperApi17;
-    ->INSTANCE:Landroidx/window/layout/DisplayCompatHelperApi17;
+    sget-object v4, Landroidx/window/layout/DisplayCompatHelperApi17;->INSTANCE:Landroidx/window/layout/DisplayCompatHelperApi17;
 
     .line 167
     .line 168
@@ -1395,25 +1276,21 @@
 
     .line 169
     .line 170
-    invoke-static {v1, v5}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v5}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 171
     .line 172
     .line 173
-    invoke-virtual {v4, v1, v3}, Landroidx/window/layout/DisplayCompatHelperApi17;
-    ->getRealSize(Landroid/view/Display;Landroid/graphics/Point;)V
+    invoke-virtual {v4, v1, v3}, Landroidx/window/layout/DisplayCompatHelperApi17;->getRealSize(Landroid/view/Display;Landroid/graphics/Point;)V
 
     .line 174
     .line 175
     .line 176
-    sget-object v4, Landroidx/window/layout/ActivityCompatHelperApi24;
-    ->INSTANCE:Landroidx/window/layout/ActivityCompatHelperApi24;
+    sget-object v4, Landroidx/window/layout/ActivityCompatHelperApi24;->INSTANCE:Landroidx/window/layout/ActivityCompatHelperApi24;
 
     .line 177
     .line 178
-    invoke-virtual {v4, p1}, Landroidx/window/layout/ActivityCompatHelperApi24;
-    ->isInMultiWindowMode(Landroid/app/Activity;)Z
+    invoke-virtual {v4, p1}, Landroidx/window/layout/ActivityCompatHelperApi24;->isInMultiWindowMode(Landroid/app/Activity;)Z
 
     .line 179
     .line 180
@@ -1425,8 +1302,7 @@
 
     .line 183
     .line 184
-    invoke-direct {p0, p1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->getNavigationBarHeight(Landroid/content/Context;)I
+    invoke-direct {p0, p1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;->getNavigationBarHeight(Landroid/content/Context;)I
 
     .line 185
     .line 186
@@ -1434,8 +1310,7 @@
     move-result v5
 
     .line 188
-    iget v6, v0, Landroid/graphics/Rect;
-    ->bottom:I
+    iget v6, v0, Landroid/graphics/Rect;->bottom:I
 
     .line 189
     .line 190
@@ -1443,8 +1318,7 @@
 
     .line 191
     .line 192
-    iget v8, v3, Landroid/graphics/Point;
-    ->y:I
+    iget v8, v3, Landroid/graphics/Point;->y:I
 
     .line 193
     .line 194
@@ -1455,8 +1329,7 @@
     add-int/2addr v6, v5
 
     .line 197
-    iput v6, v0, Landroid/graphics/Rect;
-    ->bottom:I
+    iput v6, v0, Landroid/graphics/Rect;->bottom:I
 
     .line 198
     .line 199
@@ -1464,8 +1337,7 @@
 
     .line 200
     :cond_3
-    iget v6, v0, Landroid/graphics/Rect;
-    ->right:I
+    iget v6, v0, Landroid/graphics/Rect;->right:I
 
     .line 201
     .line 202
@@ -1473,8 +1345,7 @@
 
     .line 203
     .line 204
-    iget v8, v3, Landroid/graphics/Point;
-    ->x:I
+    iget v8, v3, Landroid/graphics/Point;->x:I
 
     .line 205
     .line 206
@@ -1485,8 +1356,7 @@
     add-int/2addr v6, v5
 
     .line 209
-    iput v6, v0, Landroid/graphics/Rect;
-    ->right:I
+    iput v6, v0, Landroid/graphics/Rect;->right:I
 
     .line 210
     .line 211
@@ -1494,8 +1364,7 @@
 
     .line 212
     :cond_4
-    iget v6, v0, Landroid/graphics/Rect;
-    ->left:I
+    iget v6, v0, Landroid/graphics/Rect;->left:I
 
     .line 213
     .line 214
@@ -1503,15 +1372,13 @@
 
     .line 215
     .line 216
-    iput v2, v0, Landroid/graphics/Rect;
-    ->left:I
+    iput v2, v0, Landroid/graphics/Rect;->left:I
 
     .line 217
     .line 218
     :cond_5
     :goto_5
-    invoke-virtual {v0}, Landroid/graphics/Rect;
-    ->width()I
+    invoke-virtual {v0}, Landroid/graphics/Rect;->width()I
 
     .line 219
     .line 220
@@ -1519,8 +1386,7 @@
     move-result v5
 
     .line 222
-    iget v6, v3, Landroid/graphics/Point;
-    ->x:I
+    iget v6, v3, Landroid/graphics/Point;->x:I
 
     .line 223
     .line 224
@@ -1528,8 +1394,7 @@
 
     .line 225
     .line 226
-    invoke-virtual {v0}, Landroid/graphics/Rect;
-    ->height()I
+    invoke-virtual {v0}, Landroid/graphics/Rect;->height()I
 
     .line 227
     .line 228
@@ -1537,8 +1402,7 @@
     move-result v5
 
     .line 230
-    iget v6, v3, Landroid/graphics/Point;
-    ->y:I
+    iget v6, v3, Landroid/graphics/Point;->y:I
 
     .line 231
     .line 232
@@ -1547,8 +1411,7 @@
     .line 233
     .line 234
     :cond_6
-    invoke-virtual {v4, p1}, Landroidx/window/layout/ActivityCompatHelperApi24;
-    ->isInMultiWindowMode(Landroid/app/Activity;)Z
+    invoke-virtual {v4, p1}, Landroidx/window/layout/ActivityCompatHelperApi24;->isInMultiWindowMode(Landroid/app/Activity;)Z
 
     .line 235
     .line 236
@@ -1560,8 +1423,7 @@
 
     .line 239
     .line 240
-    invoke-direct {p0, v1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->getCutoutForDisplay(Landroid/view/Display;)Landroid/view/DisplayCutout;
+    invoke-direct {p0, v1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;->getCutoutForDisplay(Landroid/view/Display;)Landroid/view/DisplayCutout;
 
     .line 241
     .line 242
@@ -1573,18 +1435,15 @@
 
     .line 245
     .line 246
-    iget v1, v0, Landroid/graphics/Rect;
-    ->left:I
+    iget v1, v0, Landroid/graphics/Rect;->left:I
 
     .line 247
     .line 248
-    sget-object v4, Landroidx/window/layout/DisplayCompatHelperApi28;
-    ->INSTANCE:Landroidx/window/layout/DisplayCompatHelperApi28;
+    sget-object v4, Landroidx/window/layout/DisplayCompatHelperApi28;->INSTANCE:Landroidx/window/layout/DisplayCompatHelperApi28;
 
     .line 249
     .line 250
-    invoke-virtual {v4, p1}, Landroidx/window/layout/DisplayCompatHelperApi28;
-    ->safeInsetLeft(Landroid/view/DisplayCutout;)I
+    invoke-virtual {v4, p1}, Landroidx/window/layout/DisplayCompatHelperApi28;->safeInsetLeft(Landroid/view/DisplayCutout;)I
 
     .line 251
     .line 252
@@ -1596,27 +1455,23 @@
 
     .line 255
     .line 256
-    iput v2, v0, Landroid/graphics/Rect;
-    ->left:I
+    iput v2, v0, Landroid/graphics/Rect;->left:I
 
     .line 257
     .line 258
     :cond_7
-    iget v1, v3, Landroid/graphics/Point;
-    ->x:I
+    iget v1, v3, Landroid/graphics/Point;->x:I
 
     .line 259
     .line 260
-    iget v5, v0, Landroid/graphics/Rect;
-    ->right:I
+    iget v5, v0, Landroid/graphics/Rect;->right:I
 
     .line 261
     .line 262
     sub-int/2addr v1, v5
 
     .line 263
-    invoke-virtual {v4, p1}, Landroidx/window/layout/DisplayCompatHelperApi28;
-    ->safeInsetRight(Landroid/view/DisplayCutout;)I
+    invoke-virtual {v4, p1}, Landroidx/window/layout/DisplayCompatHelperApi28;->safeInsetRight(Landroid/view/DisplayCutout;)I
 
     .line 264
     .line 265
@@ -1628,13 +1483,11 @@
 
     .line 268
     .line 269
-    iget v1, v0, Landroid/graphics/Rect;
-    ->right:I
+    iget v1, v0, Landroid/graphics/Rect;->right:I
 
     .line 270
     .line 271
-    invoke-virtual {v4, p1}, Landroidx/window/layout/DisplayCompatHelperApi28;
-    ->safeInsetRight(Landroid/view/DisplayCutout;)I
+    invoke-virtual {v4, p1}, Landroidx/window/layout/DisplayCompatHelperApi28;->safeInsetRight(Landroid/view/DisplayCutout;)I
 
     .line 272
     .line 273
@@ -1645,19 +1498,16 @@
     add-int/2addr v5, v1
 
     .line 276
-    iput v5, v0, Landroid/graphics/Rect;
-    ->right:I
+    iput v5, v0, Landroid/graphics/Rect;->right:I
 
     .line 277
     .line 278
     :cond_8
-    iget v1, v0, Landroid/graphics/Rect;
-    ->top:I
+    iget v1, v0, Landroid/graphics/Rect;->top:I
 
     .line 279
     .line 280
-    invoke-virtual {v4, p1}, Landroidx/window/layout/DisplayCompatHelperApi28;
-    ->safeInsetTop(Landroid/view/DisplayCutout;)I
+    invoke-virtual {v4, p1}, Landroidx/window/layout/DisplayCompatHelperApi28;->safeInsetTop(Landroid/view/DisplayCutout;)I
 
     .line 281
     .line 282
@@ -1669,27 +1519,23 @@
 
     .line 285
     .line 286
-    iput v2, v0, Landroid/graphics/Rect;
-    ->top:I
+    iput v2, v0, Landroid/graphics/Rect;->top:I
 
     .line 287
     .line 288
     :cond_9
-    iget v1, v3, Landroid/graphics/Point;
-    ->y:I
+    iget v1, v3, Landroid/graphics/Point;->y:I
 
     .line 289
     .line 290
-    iget v2, v0, Landroid/graphics/Rect;
-    ->bottom:I
+    iget v2, v0, Landroid/graphics/Rect;->bottom:I
 
     .line 291
     .line 292
     sub-int/2addr v1, v2
 
     .line 293
-    invoke-virtual {v4, p1}, Landroidx/window/layout/DisplayCompatHelperApi28;
-    ->safeInsetBottom(Landroid/view/DisplayCutout;)I
+    invoke-virtual {v4, p1}, Landroidx/window/layout/DisplayCompatHelperApi28;->safeInsetBottom(Landroid/view/DisplayCutout;)I
 
     .line 294
     .line 295
@@ -1701,13 +1547,11 @@
 
     .line 298
     .line 299
-    iget v1, v0, Landroid/graphics/Rect;
-    ->bottom:I
+    iget v1, v0, Landroid/graphics/Rect;->bottom:I
 
     .line 300
     .line 301
-    invoke-virtual {v4, p1}, Landroidx/window/layout/DisplayCompatHelperApi28;
-    ->safeInsetBottom(Landroid/view/DisplayCutout;)I
+    invoke-virtual {v4, p1}, Landroidx/window/layout/DisplayCompatHelperApi28;->safeInsetBottom(Landroid/view/DisplayCutout;)I
 
     .line 302
     .line 303
@@ -1718,8 +1562,7 @@
     add-int/2addr p1, v1
 
     .line 306
-    iput p1, v0, Landroid/graphics/Rect;
-    ->bottom:I
+    iput p1, v0, Landroid/graphics/Rect;->bottom:I
 
     .line 307
     .line 308
@@ -1745,14 +1588,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroid/content/Context;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     .line 7
     .line 8
@@ -1760,8 +1601,7 @@
     move-result-object v0
 
     .line 10
-    invoke-virtual {v0}, Landroid/content/res/Resources;
-    ->getConfiguration()Landroid/content/res/Configuration;
+    invoke-virtual {v0}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
 
     .line 11
     .line 12
@@ -1778,8 +1618,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {v1, v2}, Ljava/lang/Class;
-    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v1, v2}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 19
     .line 20
@@ -1790,14 +1629,12 @@
     const/4 v2, 0x1
 
     .line 23
-    invoke-virtual {v1, v2}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v1, v2}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v1, v0}, Ljava/lang/reflect/Field;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 27
     .line 28
@@ -1805,8 +1642,7 @@
     move-result-object v0
 
     .line 30
-    invoke-virtual {v0}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 31
     .line 32
@@ -1825,8 +1661,7 @@
 
     .line 38
     .line 39
-    invoke-virtual {v1, v2, v4}, Ljava/lang/Class;
-    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v1, v2, v4}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 40
     .line 41
@@ -1842,8 +1677,7 @@
 
     .line 46
     .line 47
-    invoke-virtual {v1, v0, v3}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v0, v3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 48
     .line 49
@@ -1859,8 +1693,7 @@
 
     .line 54
     .line 55
-    invoke-direct {v2, v0}, Landroid/graphics/Rect;
-    -><init>(Landroid/graphics/Rect;)V
+    invoke-direct {v2, v0}, Landroid/graphics/Rect;-><init>(Landroid/graphics/Rect;)V
 
     .line 56
     .line 57
@@ -1905,8 +1738,7 @@
 
     .line 70
     .line 71
-    invoke-direct {v0, v1}, Ljava/lang/NullPointerException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     .line 72
     .line 73
@@ -1920,19 +1752,16 @@
 
     .line 75
     :goto_0
-    sget-object v1, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->TAG:Ljava/lang/String;
+    sget-object v1, Landroidx/window/layout/WindowMetricsCalculatorCompat;->TAG:Ljava/lang/String;
 
     .line 76
     .line 77
-    invoke-static {v1, v0}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 78
     .line 79
     .line 80
-    invoke-virtual {p0, p1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->computeWindowBoundsP$window_release(Landroid/app/Activity;)Landroid/graphics/Rect;
+    invoke-virtual {p0, p1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;->computeWindowBoundsP$window_release(Landroid/app/Activity;)Landroid/graphics/Rect;
 
     .line 81
     .line 82
@@ -1944,19 +1773,16 @@
 
     .line 85
     :goto_1
-    sget-object v1, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->TAG:Ljava/lang/String;
+    sget-object v1, Landroidx/window/layout/WindowMetricsCalculatorCompat;->TAG:Ljava/lang/String;
 
     .line 86
     .line 87
-    invoke-static {v1, v0}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 88
     .line 89
     .line 90
-    invoke-virtual {p0, p1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->computeWindowBoundsP$window_release(Landroid/app/Activity;)Landroid/graphics/Rect;
+    invoke-virtual {p0, p1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;->computeWindowBoundsP$window_release(Landroid/app/Activity;)Landroid/graphics/Rect;
 
     .line 91
     .line 92
@@ -1968,19 +1794,16 @@
 
     .line 95
     :goto_2
-    sget-object v1, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->TAG:Ljava/lang/String;
+    sget-object v1, Landroidx/window/layout/WindowMetricsCalculatorCompat;->TAG:Ljava/lang/String;
 
     .line 96
     .line 97
-    invoke-static {v1, v0}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 98
     .line 99
     .line 100
-    invoke-virtual {p0, p1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->computeWindowBoundsP$window_release(Landroid/app/Activity;)Landroid/graphics/Rect;
+    invoke-virtual {p0, p1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;->computeWindowBoundsP$window_release(Landroid/app/Activity;)Landroid/graphics/Rect;
 
     .line 101
     .line 102
@@ -1992,19 +1815,16 @@
 
     .line 105
     :goto_3
-    sget-object v1, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->TAG:Ljava/lang/String;
+    sget-object v1, Landroidx/window/layout/WindowMetricsCalculatorCompat;->TAG:Ljava/lang/String;
 
     .line 106
     .line 107
-    invoke-static {v1, v0}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 108
     .line 109
     .line 110
-    invoke-virtual {p0, p1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;
-    ->computeWindowBoundsP$window_release(Landroid/app/Activity;)Landroid/graphics/Rect;
+    invoke-virtual {p0, p1}, Landroidx/window/layout/WindowMetricsCalculatorCompat;->computeWindowBoundsP$window_release(Landroid/app/Activity;)Landroid/graphics/Rect;
 
     .line 111
     .line 112
@@ -2030,8 +1850,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2040,19 +1859,16 @@
 
     .line 7
     .line 8
-    invoke-direct {v0}, Landroid/graphics/Point;
-    -><init>()V
+    invoke-direct {v0}, Landroid/graphics/Point;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    sget-object v1, Landroidx/window/layout/DisplayCompatHelperApi17;
-    ->INSTANCE:Landroidx/window/layout/DisplayCompatHelperApi17;
+    sget-object v1, Landroidx/window/layout/DisplayCompatHelperApi17;->INSTANCE:Landroidx/window/layout/DisplayCompatHelperApi17;
 
     .line 12
     .line 13
-    invoke-virtual {v1, p1, v0}, Landroidx/window/layout/DisplayCompatHelperApi17;
-    ->getRealSize(Landroid/view/Display;Landroid/graphics/Point;)V
+    invoke-virtual {v1, p1, v0}, Landroidx/window/layout/DisplayCompatHelperApi17;->getRealSize(Landroid/view/Display;Landroid/graphics/Point;)V
 
     .line 14
     .line 15

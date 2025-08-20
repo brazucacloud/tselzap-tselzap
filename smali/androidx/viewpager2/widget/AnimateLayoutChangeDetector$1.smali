@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/viewpager2/widget/AnimateLayoutChangeDetector;
-    ->arePagesLaidOutContiguously()Z
+    value = Landroidx/viewpager2/widget/AnimateLayoutChangeDetector;->arePagesLaidOutContiguously()Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,13 +34,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/viewpager2/widget/AnimateLayoutChangeDetector$1;
-    ->this$0:Landroidx/viewpager2/widget/AnimateLayoutChangeDetector;
+    iput-object p1, p0, Landroidx/viewpager2/widget/AnimateLayoutChangeDetector$1;->this$0:Landroidx/viewpager2/widget/AnimateLayoutChangeDetector;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -55,8 +52,7 @@
 
     check-cast p2, [I
 
-    invoke-virtual {p0, p1, p2}, Landroidx/viewpager2/widget/AnimateLayoutChangeDetector$1;
-    ->compare([I[I)I
+    invoke-virtual {p0, p1, p2}, Landroidx/viewpager2/widget/AnimateLayoutChangeDetector$1;->compare([I[I)I
 
     move-result p1
 

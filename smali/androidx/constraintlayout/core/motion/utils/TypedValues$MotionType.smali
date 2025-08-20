@@ -137,8 +137,7 @@
     move-result-object v0
 
     .line 31
-    sput-object v0, Landroidx/constraintlayout/core/motion/utils/TypedValues$MotionType;
-    ->KEY_WORDS:[Ljava/lang/String;    return-void
+    sput-object v0, Landroidx/constraintlayout/core/motion/utils/TypedValues$MotionType;->KEY_WORDS:[Ljava/lang/String;    return-void
 .end method
 
 .end class

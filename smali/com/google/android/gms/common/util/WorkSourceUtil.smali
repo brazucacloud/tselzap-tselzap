@@ -56,8 +56,7 @@
 
     .line 7
     .line 8
-    sget-object v5, Ljava/lang/Integer;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v5, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
 
     .line 9
     .line 10
@@ -65,8 +64,7 @@
 
     .line 11
     .line 12
-    invoke-static {}, Landroid/os/Process;
-    ->myUid()I
+    invoke-static {}, Landroid/os/Process;->myUid()I
 
     .line 13
     .line 14
@@ -74,8 +72,7 @@
     move-result v7
 
     .line 16
-    sput v7, Lcom/google/android/gms/common/util/WorkSourceUtil;
-    ->zza:I
+    sput v7, Lcom/google/android/gms/common/util/WorkSourceUtil;->zza:I
 
     .line 17
     .line 18
@@ -91,8 +88,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {v6, v4, v8}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v6, v4, v8}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 24
     .line 25
@@ -110,8 +106,7 @@
 
     .line 29
     :goto_0
-    sput-object v8, Lcom/google/android/gms/common/util/WorkSourceUtil;
-    ->zzb:Ljava/lang/reflect/Method;
+    sput-object v8, Lcom/google/android/gms/common/util/WorkSourceUtil;->zzb:Ljava/lang/reflect/Method;
 
     .line 30
     .line 31
@@ -128,8 +123,7 @@
 
     .line 36
     .line 37
-    invoke-virtual {v6, v4, v8}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v6, v4, v8}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 38
     .line 39
@@ -147,8 +141,7 @@
 
     .line 43
     :goto_1
-    sput-object v4, Lcom/google/android/gms/common/util/WorkSourceUtil;
-    ->zzc:Ljava/lang/reflect/Method;
+    sput-object v4, Lcom/google/android/gms/common/util/WorkSourceUtil;->zzc:Ljava/lang/reflect/Method;
 
     .line 44
     .line 45
@@ -161,8 +154,7 @@
 
     .line 48
     .line 49
-    invoke-virtual {v6, v4, v8}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v6, v4, v8}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 50
     .line 51
@@ -180,8 +172,7 @@
 
     .line 55
     :goto_2
-    sput-object v4, Lcom/google/android/gms/common/util/WorkSourceUtil;
-    ->zzd:Ljava/lang/reflect/Method;
+    sput-object v4, Lcom/google/android/gms/common/util/WorkSourceUtil;->zzd:Ljava/lang/reflect/Method;
 
     .line 56
     .line 57
@@ -198,8 +189,7 @@
 
     .line 62
     .line 63
-    invoke-virtual {v6, v4, v8}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v6, v4, v8}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 64
     .line 65
@@ -217,8 +207,7 @@
 
     .line 69
     :goto_3
-    sput-object v4, Lcom/google/android/gms/common/util/WorkSourceUtil;
-    ->zze:Ljava/lang/reflect/Method;
+    sput-object v4, Lcom/google/android/gms/common/util/WorkSourceUtil;->zze:Ljava/lang/reflect/Method;
 
     .line 70
     .line 71
@@ -235,8 +224,7 @@
 
     .line 76
     .line 77
-    invoke-virtual {v6, v4, v8}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v6, v4, v8}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 78
     .line 79
@@ -257,13 +245,11 @@
 
     .line 84
     :goto_4
-    sput-object v4, Lcom/google/android/gms/common/util/WorkSourceUtil;
-    ->zzf:Ljava/lang/reflect/Method;
+    sput-object v4, Lcom/google/android/gms/common/util/WorkSourceUtil;->zzf:Ljava/lang/reflect/Method;
 
     .line 85
     .line 86
-    invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;
-    ->isAtLeastP()Z
+    invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;->isAtLeastP()Z
 
     .line 87
     .line 88
@@ -288,8 +274,7 @@
 
     .line 97
     .line 98
-    invoke-virtual {v6, v4, v9}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v6, v4, v9}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 99
     .line 100
@@ -310,8 +295,7 @@
 
     .line 105
     .line 106
-    invoke-static {v8, v9, v4}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v8, v9, v4}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 107
     .line 108
@@ -321,13 +305,11 @@
 
     .line 110
     :goto_5
-    sput-object v4, Lcom/google/android/gms/common/util/WorkSourceUtil;
-    ->zzg:Ljava/lang/reflect/Method;
+    sput-object v4, Lcom/google/android/gms/common/util/WorkSourceUtil;->zzg:Ljava/lang/reflect/Method;
 
     .line 111
     .line 112
-    invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;
-    ->isAtLeastP()Z
+    invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;->isAtLeastP()Z
 
     .line 113
     .line 114
@@ -344,8 +326,7 @@
 
     .line 119
     .line 120
-    invoke-static {v4}, Ljava/lang/Class;
-    ->forName(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v4}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 121
     .line 122
@@ -369,8 +350,7 @@
 
     .line 131
     .line 132
-    invoke-virtual {v4, v9, v0}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v4, v9, v0}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 133
     .line 134
@@ -391,8 +371,7 @@
 
     .line 139
     .line 140
-    invoke-static {v8, v3, v0}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v8, v3, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 141
     .line 142
@@ -402,13 +381,11 @@
 
     .line 144
     :goto_6
-    sput-object v0, Lcom/google/android/gms/common/util/WorkSourceUtil;
-    ->zzh:Ljava/lang/reflect/Method;
+    sput-object v0, Lcom/google/android/gms/common/util/WorkSourceUtil;->zzh:Ljava/lang/reflect/Method;
 
     .line 145
     .line 146
-    invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;
-    ->isAtLeastP()Z
+    invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;->isAtLeastP()Z
 
     .line 147
     .line 148
@@ -429,8 +406,7 @@
 
     .line 155
     .line 156
-    invoke-virtual {v6, v0, v1}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v6, v0, v1}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 157
     .line 158
@@ -441,8 +417,7 @@
 
     .line 160
     :try_start_8
-    invoke-virtual {v0, v2}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v0, v2}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
     :try_end_8
     .catch Ljava/lang/Exception; {:try_start_8 .. :try_end_8} :catch_8
 
@@ -459,13 +434,11 @@
     .line 165
     :catch_8
     :goto_7
-    sput-object v0, Lcom/google/android/gms/common/util/WorkSourceUtil;
-    ->zzi:Ljava/lang/reflect/Method;
+    sput-object v0, Lcom/google/android/gms/common/util/WorkSourceUtil;->zzi:Ljava/lang/reflect/Method;
 
     .line 166
     .line 167
-    sput-object v7, Lcom/google/android/gms/common/util/WorkSourceUtil;
-    ->zzj:Ljava/lang/Boolean;
+    sput-object v7, Lcom/google/android/gms/common/util/WorkSourceUtil;->zzj:Ljava/lang/Boolean;
 
     .line 168
     .line 169
@@ -475,8 +448,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -500,8 +472,7 @@
     const/4 v1, 0x0
 
     .line 3
-    sget-object v2, Lcom/google/android/gms/common/util/WorkSourceUtil;
-    ->zzc:Ljava/lang/reflect/Method;
+    sget-object v2, Lcom/google/android/gms/common/util/WorkSourceUtil;->zzc:Ljava/lang/reflect/Method;
 
     .line 4
     .line 5
@@ -527,8 +498,7 @@
     .line 15
     :cond_0
     :try_start_0
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 16
     .line 17
@@ -551,8 +521,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {v2, p0, v5}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, p0, v5}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -566,8 +535,7 @@
     move-exception p0
 
     .line 31
-    invoke-static {v4, v3, p0}, Landroid/util/Log;
-    ->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v4, v3, p0}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 32
     .line 33
@@ -576,8 +544,7 @@
 
     .line 35
     :cond_1
-    sget-object p2, Lcom/google/android/gms/common/util/WorkSourceUtil;
-    ->zzb:Ljava/lang/reflect/Method;
+    sget-object p2, Lcom/google/android/gms/common/util/WorkSourceUtil;->zzb:Ljava/lang/reflect/Method;
 
     .line 36
     .line 37
@@ -586,8 +553,7 @@
     .line 38
     .line 39
     :try_start_1
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 40
     .line 41
@@ -603,8 +569,7 @@
 
     .line 46
     .line 47
-    invoke-virtual {p2, p0, v0}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p2, p0, v0}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -618,8 +583,7 @@
     move-exception p0
 
     .line 52
-    invoke-static {v4, v3, p0}, Landroid/util/Log;
-    ->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v4, v3, p0}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 53
     .line 54
@@ -656,8 +620,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 7
     .line 8
@@ -674,8 +637,7 @@
     .line 13
     .line 14
     :try_start_0
-    invoke-static {p0}, Lcom/google/android/gms/common/wrappers/Wrappers;
-    ->packageManager(Landroid/content/Context;)Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    invoke-static {p0}, Lcom/google/android/gms/common/wrappers/Wrappers;->packageManager(Landroid/content/Context;)Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
 
     .line 15
     .line 16
@@ -686,8 +648,7 @@
     const/4 v2, 0x0
 
     .line 19
-    invoke-virtual {p0, p1, v2}, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
-    ->getApplicationInfo(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo;
+    invoke-virtual {p0, p1, v2}, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;->getApplicationInfo(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo;
 
     .line 20
     .line 21
@@ -705,8 +666,7 @@
 
     .line 26
     .line 27
-    invoke-virtual {p0, p1}, Ljava/lang/String;
-    ->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 28
     .line 29
@@ -714,8 +674,7 @@
     move-result-object p0
 
     .line 31
-    invoke-static {v0, p0}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 32
     .line 33
@@ -724,8 +683,7 @@
 
     .line 35
     :cond_0
-    iget p0, p0, Landroid/content/pm/ApplicationInfo;
-    ->uid:I
+    iget p0, p0, Landroid/content/pm/ApplicationInfo;->uid:I
 
     .line 36
     .line 37
@@ -733,14 +691,12 @@
 
     .line 38
     .line 39
-    invoke-direct {v0}, Landroid/os/WorkSource;
-    -><init>()V
+    invoke-direct {v0}, Landroid/os/WorkSource;-><init>()V
 
     .line 40
     .line 41
     .line 42
-    invoke-static {v0, p0, p1}, Lcom/google/android/gms/common/util/WorkSourceUtil;
-    ->add(Landroid/os/WorkSource;ILjava/lang/String;)V
+    invoke-static {v0, p0, p1}, Lcom/google/android/gms/common/util/WorkSourceUtil;->add(Landroid/os/WorkSource;ILjava/lang/String;)V
 
     .line 43
     .line 44
@@ -753,8 +709,7 @@
 
     .line 47
     .line 48
-    invoke-virtual {p0, p1}, Ljava/lang/String;
-    ->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 49
     .line 50
@@ -762,8 +717,7 @@
     move-result-object p0
 
     .line 52
-    invoke-static {v0, p0}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 53
     .line 54
@@ -813,8 +767,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 10
     .line 11
@@ -842,8 +795,7 @@
 
     .line 21
     :try_start_0
-    invoke-static {p0}, Lcom/google/android/gms/common/wrappers/Wrappers;
-    ->packageManager(Landroid/content/Context;)Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    invoke-static {p0}, Lcom/google/android/gms/common/wrappers/Wrappers;->packageManager(Landroid/content/Context;)Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
 
     .line 22
     .line 23
@@ -851,8 +803,7 @@
     move-result-object p0
 
     .line 25
-    invoke-virtual {p0, p1, v2}, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
-    ->getApplicationInfo(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo;
+    invoke-virtual {p0, p1, v2}, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;->getApplicationInfo(Ljava/lang/String;I)Landroid/content/pm/ApplicationInfo;
 
     .line 26
     .line 27
@@ -870,8 +821,7 @@
 
     .line 32
     .line 33
-    invoke-virtual {p0, p1}, Ljava/lang/String;
-    ->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 34
     .line 35
@@ -879,8 +829,7 @@
     move-result-object p0
 
     .line 37
-    invoke-static {v4, p0}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v4, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 38
     .line 39
@@ -889,8 +838,7 @@
 
     .line 41
     :cond_1
-    iget v5, p0, Landroid/content/pm/ApplicationInfo;
-    ->uid:I
+    iget v5, p0, Landroid/content/pm/ApplicationInfo;->uid:I
 
     .line 42
     .line 43
@@ -902,8 +850,7 @@
 
     .line 45
     .line 46
-    invoke-virtual {p0, p1}, Ljava/lang/String;
-    ->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 47
     .line 48
@@ -911,8 +858,7 @@
     move-result-object p0
 
     .line 50
-    invoke-static {v4, p0}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v4, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 51
     .line 52
@@ -930,14 +876,12 @@
 
     .line 57
     .line 58
-    invoke-direct {p0}, Landroid/os/WorkSource;
-    -><init>()V
+    invoke-direct {p0}, Landroid/os/WorkSource;-><init>()V
 
     .line 59
     .line 60
     .line 61
-    sget-object v3, Lcom/google/android/gms/common/util/WorkSourceUtil;
-    ->zzg:Ljava/lang/reflect/Method;
+    sget-object v3, Lcom/google/android/gms/common/util/WorkSourceUtil;->zzg:Ljava/lang/reflect/Method;
 
     .line 62
     .line 63
@@ -945,8 +889,7 @@
 
     .line 64
     .line 65
-    sget-object v6, Lcom/google/android/gms/common/util/WorkSourceUtil;
-    ->zzh:Ljava/lang/reflect/Method;
+    sget-object v6, Lcom/google/android/gms/common/util/WorkSourceUtil;->zzh:Ljava/lang/reflect/Method;
 
     .line 66
     .line 67
@@ -963,8 +906,7 @@
 
     .line 71
     .line 72
-    invoke-virtual {v3, p0, v7}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, p0, v7}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 73
     .line 74
@@ -972,8 +914,7 @@
     move-result-object v3
 
     .line 76
-    sget v7, Lcom/google/android/gms/common/util/WorkSourceUtil;
-    ->zza:I
+    sget v7, Lcom/google/android/gms/common/util/WorkSourceUtil;->zza:I
 
     .line 77
     .line 78
@@ -981,8 +922,7 @@
 
     .line 79
     .line 80
-    invoke-static {v5}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 81
     .line 82
@@ -1002,8 +942,7 @@
 
     .line 89
     .line 90
-    invoke-virtual {v6, v3, v8}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v6, v3, v8}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 91
     .line 92
@@ -1020,8 +959,7 @@
     .line 96
     :cond_4
     :goto_1
-    invoke-static {v7}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 97
     .line 98
@@ -1041,8 +979,7 @@
 
     .line 105
     .line 106
-    invoke-virtual {v6, v3, v1}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v6, v3, v1}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -1057,8 +994,7 @@
 
     .line 111
     .line 112
-    invoke-static {v4, p2, p1}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v4, p2, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 113
     .line 114
@@ -1068,8 +1004,7 @@
     .line 116
     :cond_5
     :goto_3
-    invoke-static {p0, v5, p1}, Lcom/google/android/gms/common/util/WorkSourceUtil;
-    ->add(Landroid/os/WorkSource;ILjava/lang/String;)V
+    invoke-static {p0, v5, p1}, Lcom/google/android/gms/common/util/WorkSourceUtil;->add(Landroid/os/WorkSource;ILjava/lang/String;)V
 
     .line 117
     .line 118
@@ -1084,8 +1019,7 @@
 
     .line 121
     .line 122
-    invoke-static {v4, p0}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v4, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 123
     .line 124
@@ -1106,8 +1040,7 @@
     const/4 v0, 0x0
 
     .line 2
-    sget-object v1, Lcom/google/android/gms/common/util/WorkSourceUtil;
-    ->zze:Ljava/lang/reflect/Method;
+    sget-object v1, Lcom/google/android/gms/common/util/WorkSourceUtil;->zze:Ljava/lang/reflect/Method;
 
     .line 3
     .line 4
@@ -1116,8 +1049,7 @@
     .line 5
     .line 6
     :try_start_0
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 7
     .line 8
@@ -1136,8 +1068,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {v1, p0, v2}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p0, v2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -1145,8 +1076,7 @@
     move-result-object p0
 
     .line 19
-    invoke-static {p0}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -1155,8 +1085,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {p0}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
 
     .line 25
     .line 26
@@ -1180,8 +1109,7 @@
 
     .line 33
     .line 34
-    invoke-static {p1, v1, p0}, Landroid/util/Log;
-    ->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {p1, v1, p0}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 35
     .line 36
@@ -1203,8 +1131,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/google/android/gms/common/util/WorkSourceUtil;
-    ->zzf:Ljava/lang/reflect/Method;
+    sget-object v0, Lcom/google/android/gms/common/util/WorkSourceUtil;->zzf:Ljava/lang/reflect/Method;
 
     .line 2
     .line 3
@@ -1213,8 +1140,7 @@
     .line 4
     .line 5
     :try_start_0
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 6
     .line 7
@@ -1236,8 +1162,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0, p0, v1}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0, v1}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -1266,8 +1191,7 @@
 
     .line 26
     .line 27
-    invoke-static {p1, v0, p0}, Landroid/util/Log;
-    ->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {p1, v0, p0}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 28
     .line 29
@@ -1306,8 +1230,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 4
     .line 5
@@ -1326,8 +1249,7 @@
 
     .line 11
     :cond_0
-    invoke-static {p0}, Lcom/google/android/gms/common/util/WorkSourceUtil;
-    ->size(Landroid/os/WorkSource;)I
+    invoke-static {p0}, Lcom/google/android/gms/common/util/WorkSourceUtil;->size(Landroid/os/WorkSource;)I
 
     .line 12
     .line 13
@@ -1345,8 +1267,7 @@
 
     .line 18
     .line 19
-    invoke-static {p0, v1}, Lcom/google/android/gms/common/util/WorkSourceUtil;
-    ->getName(Landroid/os/WorkSource;I)Ljava/lang/String;
+    invoke-static {p0, v1}, Lcom/google/android/gms/common/util/WorkSourceUtil;->getName(Landroid/os/WorkSource;I)Ljava/lang/String;
 
     .line 20
     .line 21
@@ -1354,8 +1275,7 @@
     move-result-object v3
 
     .line 23
-    invoke-static {v3}, Lcom/google/android/gms/common/util/Strings;
-    ->isEmptyOrWhitespace(Ljava/lang/String;)Z
+    invoke-static {v3}, Lcom/google/android/gms/common/util/Strings;->isEmptyOrWhitespace(Ljava/lang/String;)Z
 
     .line 24
     .line 25
@@ -1367,14 +1287,12 @@
 
     .line 28
     .line 29
-    invoke-static {v3}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v3}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 30
     .line 31
     .line 32
-    invoke-virtual {v0, v3}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 33
     .line 34
@@ -1409,8 +1327,7 @@
 
     .line 4
     :try_start_0
-    sget-object v1, Lcom/google/android/gms/common/util/WorkSourceUtil;
-    ->zzj:Ljava/lang/Boolean;
+    sget-object v1, Lcom/google/android/gms/common/util/WorkSourceUtil;->zzj:Ljava/lang/Boolean;
 
     .line 5
     .line 6
@@ -1418,8 +1335,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {v1}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {v1}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 9
     .line 10
@@ -1460,8 +1376,7 @@
 
     .line 22
     .line 23
-    invoke-static {p0, v2}, Landroidx/core/content/ContextCompat;
-    ->checkSelfPermission(Landroid/content/Context;Ljava/lang/String;)I
+    invoke-static {p0, v2}, Landroidx/core/content/ContextCompat;->checkSelfPermission(Landroid/content/Context;Ljava/lang/String;)I
 
     .line 24
     .line 25
@@ -1477,8 +1392,7 @@
 
     .line 30
     :cond_2
-    invoke-static {v1}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 31
     .line 32
@@ -1486,8 +1400,7 @@
     move-result-object p0
 
     .line 34
-    sput-object p0, Lcom/google/android/gms/common/util/WorkSourceUtil;
-    ->zzj:Ljava/lang/Boolean;
+    sput-object p0, Lcom/google/android/gms/common/util/WorkSourceUtil;->zzj:Ljava/lang/Boolean;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -1563,8 +1476,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/google/android/gms/common/util/WorkSourceUtil;
-    ->zzi:Ljava/lang/reflect/Method;
+    sget-object v0, Lcom/google/android/gms/common/util/WorkSourceUtil;->zzi:Ljava/lang/reflect/Method;
 
     .line 2
     .line 3
@@ -1580,8 +1492,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0, p0, v2}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0, v2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -1589,8 +1500,7 @@
     move-result-object v0
 
     .line 12
-    invoke-static {v0}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -1599,8 +1509,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {v0}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 18
     .line 19
@@ -1624,15 +1533,13 @@
 
     .line 26
     .line 27
-    invoke-static {v2, v3, v0}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v2, v3, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 28
     .line 29
     .line 30
     :cond_0
-    invoke-static {p0}, Lcom/google/android/gms/common/util/WorkSourceUtil;
-    ->size(Landroid/os/WorkSource;)I
+    invoke-static {p0}, Lcom/google/android/gms/common/util/WorkSourceUtil;->size(Landroid/os/WorkSource;)I
 
     .line 31
     .line 32
@@ -1663,8 +1570,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/google/android/gms/common/util/WorkSourceUtil;
-    ->zzd:Ljava/lang/reflect/Method;
+    sget-object v0, Lcom/google/android/gms/common/util/WorkSourceUtil;->zzd:Ljava/lang/reflect/Method;
 
     .line 2
     .line 3
@@ -1680,8 +1586,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0, p0, v2}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0, v2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -1689,8 +1594,7 @@
     move-result-object p0
 
     .line 12
-    invoke-static {p0}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -1699,8 +1603,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p0}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {p0}, Ljava/lang/Integer;->intValue()I
 
     .line 18
     .line 19
@@ -1724,8 +1627,7 @@
 
     .line 26
     .line 27
-    invoke-static {v0, v2, p0}, Landroid/util/Log;
-    ->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, v2, p0}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 28
     .line 29

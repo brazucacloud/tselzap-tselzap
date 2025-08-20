@@ -17,14 +17,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/content/BroadcastReceiver;
-    -><init>()V
+    invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zabx;
-    ->zab:Lcom/google/android/gms/common/api/internal/zabw;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zabx;->zab:Lcom/google/android/gms/common/api/internal/zabw;
 
     .line 5
     .line 6
@@ -37,8 +35,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p2}, Landroid/content/Intent;
-    ->getData()Landroid/net/Uri;
+    invoke-virtual {p2}, Landroid/content/Intent;->getData()Landroid/net/Uri;
 
     .line 2
     .line 3
@@ -50,8 +47,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Landroid/net/Uri;
-    ->getSchemeSpecificPart()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/net/Uri;->getSchemeSpecificPart()Ljava/lang/String;
 
     .line 8
     .line 9
@@ -71,8 +67,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {p2, p1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 16
     .line 17
@@ -84,19 +79,16 @@
 
     .line 20
     .line 21
-    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/zabx;
-    ->zab:Lcom/google/android/gms/common/api/internal/zabw;
+    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/zabx;->zab:Lcom/google/android/gms/common/api/internal/zabw;
 
     .line 22
     .line 23
-    invoke-virtual {p1}, Lcom/google/android/gms/common/api/internal/zabw;
-    ->zaa()V
+    invoke-virtual {p1}, Lcom/google/android/gms/common/api/internal/zabw;->zaa()V
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/zabx;
-    ->zab()V
+    invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/zabx;->zab()V
 
     .line 27
     .line 28
@@ -108,8 +100,7 @@
 .method public final zaa(Landroid/content/Context;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zabx;
-    ->zaa:Landroid/content/Context;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zabx;->zaa:Landroid/content/Context;
 
     return-void
 .end method
@@ -122,8 +113,7 @@
 
     .line 2
     :try_start_0
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zabx;
-    ->zaa:Landroid/content/Context;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zabx;->zaa:Landroid/content/Context;
 
     .line 3
     .line 4
@@ -131,8 +121,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {v0, p0}, Landroid/content/Context;
-    ->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
+    invoke-virtual {v0, p0}, Landroid/content/Context;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
 
     .line 7
     .line 8
@@ -152,8 +141,7 @@
     const/4 v0, 0x0
 
     .line 13
-    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/zabx;
-    ->zaa:Landroid/content/Context;
+    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/zabx;->zaa:Landroid/content/Context;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

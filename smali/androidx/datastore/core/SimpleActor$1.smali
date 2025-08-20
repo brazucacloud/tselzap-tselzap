@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/datastore/core/SimpleActor;
-    -><init>(Lz1/v;Lp1/l;Lp1/p;Lp1/p;)V
+    value = Landroidx/datastore/core/SimpleActor;-><init>(Lz1/v;Lp1/l;Lp1/p;Lp1/p;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -67,26 +66,22 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/datastore/core/SimpleActor$1;
-    ->$onComplete:Lp1/l;
+    iput-object p1, p0, Landroidx/datastore/core/SimpleActor$1;->$onComplete:Lp1/l;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/datastore/core/SimpleActor$1;
-    ->this$0:Landroidx/datastore/core/SimpleActor;
+    iput-object p2, p0, Landroidx/datastore/core/SimpleActor$1;->this$0:Landroidx/datastore/core/SimpleActor;
 
     .line 4
     .line 5
-    iput-object p3, p0, Landroidx/datastore/core/SimpleActor$1;
-    ->$onUndeliveredElement:Lp1/p;
+    iput-object p3, p0, Landroidx/datastore/core/SimpleActor$1;->$onUndeliveredElement:Lp1/p;
 
     .line 6
     .line 7
     const/4 p1, 0x1
 
     .line 8
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
-    -><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
 
     .line 9
     .line 10
@@ -102,11 +97,9 @@
     .line 1
     check-cast p1, Ljava/lang/Throwable;
 
-    invoke-virtual {p0, p1}, Landroidx/datastore/core/SimpleActor$1;
-    ->invoke(Ljava/lang/Throwable;)V
+    invoke-virtual {p0, p1}, Landroidx/datastore/core/SimpleActor$1;->invoke(Ljava/lang/Throwable;)V
 
-    sget-object p1, Lc1/v;
-    ->a:Lc1/v;
+    sget-object p1, Lc1/v;->a:Lc1/v;
 
     return-object p1
 .end method
@@ -115,36 +108,28 @@
     .locals 3
 
     .line 2
-    iget-object v0, p0, Landroidx/datastore/core/SimpleActor$1;
-    ->$onComplete:Lp1/l;
+    iget-object v0, p0, Landroidx/datastore/core/SimpleActor$1;->$onComplete:Lp1/l;
 
-    invoke-interface {v0, p1}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 3
-    iget-object v0, p0, Landroidx/datastore/core/SimpleActor$1;
-    ->this$0:Landroidx/datastore/core/SimpleActor;
+    iget-object v0, p0, Landroidx/datastore/core/SimpleActor$1;->this$0:Landroidx/datastore/core/SimpleActor;
 
-    invoke-static {v0}, Landroidx/datastore/core/SimpleActor;
-    ->access$getMessageQueue$p(Landroidx/datastore/core/SimpleActor;)LB1/f;
+    invoke-static {v0}, Landroidx/datastore/core/SimpleActor;->access$getMessageQueue$p(Landroidx/datastore/core/SimpleActor;)LB1/f;
 
     move-result-object v0
 
-    invoke-interface {v0, p1}, LB1/t;
-    ->b(Ljava/lang/Throwable;)Z
+    invoke-interface {v0, p1}, LB1/t;->b(Ljava/lang/Throwable;)Z
 
     .line 4
     :cond_0
-    iget-object v0, p0, Landroidx/datastore/core/SimpleActor$1;
-    ->this$0:Landroidx/datastore/core/SimpleActor;
+    iget-object v0, p0, Landroidx/datastore/core/SimpleActor$1;->this$0:Landroidx/datastore/core/SimpleActor;
 
-    invoke-static {v0}, Landroidx/datastore/core/SimpleActor;
-    ->access$getMessageQueue$p(Landroidx/datastore/core/SimpleActor;)LB1/f;
+    invoke-static {v0}, Landroidx/datastore/core/SimpleActor;->access$getMessageQueue$p(Landroidx/datastore/core/SimpleActor;)LB1/f;
 
     move-result-object v0
 
-    invoke-interface {v0}, LB1/s;
-    ->g()Ljava/lang/Object;
+    invoke-interface {v0}, LB1/s;->g()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -167,16 +152,13 @@
 
     .line 6
     :cond_2
-    iget-object v1, p0, Landroidx/datastore/core/SimpleActor$1;
-    ->$onUndeliveredElement:Lp1/p;
+    iget-object v1, p0, Landroidx/datastore/core/SimpleActor$1;->$onUndeliveredElement:Lp1/p;
 
     .line 7
-    invoke-interface {v1, v0, p1}, Lp1/p;
-    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v0, p1}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 8
-    sget-object v2, Lc1/v;
-    ->a:Lc1/v;
+    sget-object v2, Lc1/v;->a:Lc1/v;
 
     :goto_1
     if-nez v2, :cond_0

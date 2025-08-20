@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/lifecycle/FlowLiveDataConversions;
-    ->asFlow(Landroidx/lifecycle/LiveData;)LC1/g;
+    value = Landroidx/lifecycle/FlowLiveDataConversions;->asFlow(Landroidx/lifecycle/LiveData;)LC1/g;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -68,16 +67,14 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;
-    ->$this_asFlow:Landroidx/lifecycle/LiveData;
+    iput-object p1, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->$this_asFlow:Landroidx/lifecycle/LiveData;
 
     .line 2
     .line 3
     const/4 p1, 0x2
 
     .line 4
-    invoke-direct {p0, p1, p2}, Li1/i;
-    -><init>(ILg1/d;)V
+    invoke-direct {p0, p1, p2}, Li1/i;-><init>(ILg1/d;)V
 return-void
 .end method
 
@@ -85,8 +82,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;
-    ->invokeSuspend$lambda$0(LB1/r;Ljava/lang/Object;)V
+    invoke-static {p0, p1}, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->invokeSuspend$lambda$0(LB1/r;Ljava/lang/Object;)V
 return-void
 .end method
 
@@ -98,8 +94,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-virtual {p0, p1}, LB1/q;
-    ->h(Ljava/lang/Object;)Ljava/lang/Object;    
+    invoke-virtual {p0, p1}, LB1/q;->h(Ljava/lang/Object;)Ljava/lang/Object;
     return-void
 .end method
 
@@ -124,19 +119,16 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;
-    ->$this_asFlow:Landroidx/lifecycle/LiveData;
+    iget-object v1, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->$this_asFlow:Landroidx/lifecycle/LiveData;
 
     .line 4
     .line 5
-    invoke-direct {v0, v1, p2}, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;
-    -><init>(Landroidx/lifecycle/LiveData;Lg1/d;)V
+    invoke-direct {v0, v1, p2}, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;-><init>(Landroidx/lifecycle/LiveData;Lg1/d;)V
 
     .line 6
     .line 7
     .line 8
-    iput-object p1, v0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;
-    ->L$0:Ljava/lang/Object;    
+    iput-object p1, v0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->L$0:Ljava/lang/Object;
     return-object v0
 .end method
 
@@ -155,18 +147,15 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;
-    ->create(Ljava/lang/Object;Lg1/d;)Lg1/d;
+    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->create(Ljava/lang/Object;Lg1/d;)Lg1/d;
 
     move-result-object p1
 
     check-cast p1, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;
 
-    sget-object p2, Lc1/v;
-    ->a:Lc1/v;
+    sget-object p2, Lc1/v;->a:Lc1/v;
 
-    invoke-virtual {p1, p2}, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;
-    ->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -181,8 +170,7 @@ return-void
 
     check-cast p2, Lg1/d;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;
-    ->invoke(LB1/r;Lg1/d;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->invoke(LB1/r;Lg1/d;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -193,13 +181,11 @@ return-void
     .locals 9
 
     .line 1
-    sget-object v0, Lh1/a;
-    ->b:Lh1/a;
+    sget-object v0, Lh1/a;->b:Lh1/a;
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;
-    ->label:I
+    iget v1, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->label:I
 
     .line 4
     .line 5
@@ -246,8 +232,7 @@ return-void
 
     .line 23
     .line 24
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 25
     .line 26
@@ -256,8 +241,7 @@ return-void
 
     .line 28
     :cond_0
-    iget-object v0, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;
-    ->L$0:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->L$0:Ljava/lang/Object;
 
     .line 29
     .line 30
@@ -265,8 +249,7 @@ return-void
 
     .line 31
     .line 32
-    invoke-static {p1}, Lcom/bumptech/glide/b;
-    ->c0(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
 
     .line 33
     .line 34
@@ -276,8 +259,7 @@ return-void
     .line 36
     .line 37
     :cond_1
-    iget-object v1, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;
-    ->L$0:Ljava/lang/Object;
+    iget-object v1, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->L$0:Ljava/lang/Object;
 
     .line 38
     .line 39
@@ -286,8 +268,7 @@ return-void
     .line 40
     .line 41
     :try_start_0
-    invoke-static {p1}, Lcom/bumptech/glide/b;
-    ->c0(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
 
     .line 42
     .line 43
@@ -296,8 +277,7 @@ return-void
 
     .line 45
     .line 46
-    invoke-direct {p1}, Ljava/lang/RuntimeException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/RuntimeException;-><init>()V
 
     .line 47
     .line 48
@@ -315,8 +295,7 @@ return-void
 
     .line 52
     :cond_2
-    iget-object v1, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;
-    ->L$0:Ljava/lang/Object;
+    iget-object v1, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->L$0:Ljava/lang/Object;
 
     .line 53
     .line 54
@@ -325,8 +304,7 @@ return-void
     .line 55
     .line 56
     :try_start_1
-    invoke-static {p1}, Lcom/bumptech/glide/b;
-    ->c0(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -337,8 +315,7 @@ return-void
 
     .line 60
     :cond_3
-    iget-object v1, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;
-    ->L$0:Ljava/lang/Object;
+    iget-object v1, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->L$0:Ljava/lang/Object;
 
     .line 61
     .line 62
@@ -346,8 +323,7 @@ return-void
 
     .line 63
     .line 64
-    invoke-static {p1}, Lcom/bumptech/glide/b;
-    ->c0(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
 
     .line 65
     .line 66
@@ -356,14 +332,12 @@ return-void
 
     .line 68
     :cond_4
-    invoke-static {p1}, Lcom/bumptech/glide/b;
-    ->c0(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
 
     .line 69
     .line 70
     .line 71
-    iget-object p1, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;
-    ->L$0:Ljava/lang/Object;
+    iget-object p1, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->L$0:Ljava/lang/Object;
 
     .line 72
     .line 73
@@ -375,24 +349,20 @@ return-void
 
     .line 76
     .line 77
-    invoke-direct {v1, p1}, Landroidx/lifecycle/c;
-    -><init>(LB1/r;)V
+    invoke-direct {v1, p1}, Landroidx/lifecycle/c;-><init>(LB1/r;)V
 
     .line 78
     .line 79
     .line 80
-    sget-object p1, Lz1/F;
-    ->a:LG1/d;
+    sget-object p1, Lz1/F;->a:LG1/d;
 
     .line 81
     .line 82
-    sget-object p1, LE1/o;
-    ->a:LA1/c;
+    sget-object p1, LE1/o;->a:LA1/c;
 
     .line 83
     .line 84
-    iget-object p1, p1, LA1/c;
-    ->d:LA1/c;
+    iget-object p1, p1, LA1/c;->d:LA1/c;
 
     .line 85
     .line 86
@@ -400,29 +370,24 @@ return-void
 
     .line 87
     .line 88
-    iget-object v8, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;
-    ->$this_asFlow:Landroidx/lifecycle/LiveData;
+    iget-object v8, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->$this_asFlow:Landroidx/lifecycle/LiveData;
 
     .line 89
     .line 90
-    invoke-direct {v7, v8, v1, v6}, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1$1;
-    -><init>(Landroidx/lifecycle/LiveData;Landroidx/lifecycle/Observer;Lg1/d;)V
+    invoke-direct {v7, v8, v1, v6}, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1$1;-><init>(Landroidx/lifecycle/LiveData;Landroidx/lifecycle/Observer;Lg1/d;)V
 
     .line 91
     .line 92
     .line 93
-    iput-object v1, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;
-    ->L$0:Ljava/lang/Object;
+    iput-object v1, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->L$0:Ljava/lang/Object;
 
     .line 94
     .line 95
-    iput v5, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;
-    ->label:I
+    iput v5, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->label:I
 
     .line 96
     .line 97
-    invoke-static {v7, p1, p0}, Lz1/w;
-    ->t(Lp1/p;Lg1/i;Lg1/d;)Ljava/lang/Object;
+    invoke-static {v7, p1, p0}, Lz1/w;->t(Lp1/p;Lg1/i;Lg1/d;)Ljava/lang/Object;
 
     .line 98
     .line 99
@@ -440,18 +405,15 @@ return-void
     :cond_5
     :goto_0
     :try_start_2
-    sget-object p1, Lz1/F;
-    ->a:LG1/d;
+    sget-object p1, Lz1/F;->a:LG1/d;
 
     .line 105
     .line 106
-    sget-object p1, LE1/o;
-    ->a:LA1/c;
+    sget-object p1, LE1/o;->a:LA1/c;
 
     .line 107
     .line 108
-    iget-object p1, p1, LA1/c;
-    ->d:LA1/c;
+    iget-object p1, p1, LA1/c;->d:LA1/c;
 
     .line 109
     .line 110
@@ -459,29 +421,24 @@ return-void
 
     .line 111
     .line 112
-    iget-object v7, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;
-    ->$this_asFlow:Landroidx/lifecycle/LiveData;
+    iget-object v7, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->$this_asFlow:Landroidx/lifecycle/LiveData;
 
     .line 113
     .line 114
-    invoke-direct {v5, v7, v1, v6}, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1$2;
-    -><init>(Landroidx/lifecycle/LiveData;Landroidx/lifecycle/Observer;Lg1/d;)V
+    invoke-direct {v5, v7, v1, v6}, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1$2;-><init>(Landroidx/lifecycle/LiveData;Landroidx/lifecycle/Observer;Lg1/d;)V
 
     .line 115
     .line 116
     .line 117
-    iput-object v1, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;
-    ->L$0:Ljava/lang/Object;
+    iput-object v1, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->L$0:Ljava/lang/Object;
 
     .line 118
     .line 119
-    iput v4, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;
-    ->label:I
+    iput v4, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->label:I
 
     .line 120
     .line 121
-    invoke-static {v5, p1, p0}, Lz1/w;
-    ->t(Lp1/p;Lg1/i;Lg1/d;)Ljava/lang/Object;
+    invoke-static {v5, p1, p0}, Lz1/w;->t(Lp1/p;Lg1/i;Lg1/d;)Ljava/lang/Object;
 
     .line 122
     .line 123
@@ -498,45 +455,37 @@ return-void
     .line 128
     :cond_6
     :goto_1
-    iput-object v1, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;
-    ->L$0:Ljava/lang/Object;
+    iput-object v1, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->L$0:Ljava/lang/Object;
 
     .line 129
     .line 130
-    iput v3, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;
-    ->label:I
+    iput v3, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->label:I
 
     .line 131
     .line 132
-    invoke-static {p0}, Lz1/w;
-    ->d(Li1/c;)V
+    invoke-static {p0}, Lz1/w;->d(Li1/c;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0    return-object v0
 
     .line 136
     :goto_2
-    sget-object v3, Lz1/F;
-    ->a:LG1/d;
+    sget-object v3, Lz1/F;->a:LG1/d;
 
     .line 137
     .line 138
-    sget-object v3, LE1/o;
-    ->a:LA1/c;
+    sget-object v3, LE1/o;->a:LA1/c;
 
     .line 139
     .line 140
-    iget-object v3, v3, LA1/c;
-    ->d:LA1/c;
+    iget-object v3, v3, LA1/c;->d:LA1/c;
 
     .line 141
     .line 142
-    sget-object v4, Lz1/g0;
-    ->b:Lz1/g0;
+    sget-object v4, Lz1/g0;->b:Lz1/g0;
 
     .line 143
     .line 144
-    invoke-virtual {v3, v4}, Lg1/a;
-    ->plus(Lg1/i;)Lg1/i;
+    invoke-virtual {v3, v4}, Lg1/a;->plus(Lg1/i;)Lg1/i;
 
     .line 145
     .line 146
@@ -548,29 +497,24 @@ return-void
 
     .line 149
     .line 150
-    iget-object v5, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;
-    ->$this_asFlow:Landroidx/lifecycle/LiveData;
+    iget-object v5, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->$this_asFlow:Landroidx/lifecycle/LiveData;
 
     .line 151
     .line 152
-    invoke-direct {v4, v5, v1, v6}, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1$3;
-    -><init>(Landroidx/lifecycle/LiveData;Landroidx/lifecycle/Observer;Lg1/d;)V
+    invoke-direct {v4, v5, v1, v6}, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1$3;-><init>(Landroidx/lifecycle/LiveData;Landroidx/lifecycle/Observer;Lg1/d;)V
 
     .line 153
     .line 154
     .line 155
-    iput-object p1, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;
-    ->L$0:Ljava/lang/Object;
+    iput-object p1, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->L$0:Ljava/lang/Object;
 
     .line 156
     .line 157
-    iput v2, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;
-    ->label:I
+    iput v2, p0, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->label:I
 
     .line 158
     .line 159
-    invoke-static {v4, v3, p0}, Lz1/w;
-    ->t(Lp1/p;Lg1/i;Lg1/d;)Ljava/lang/Object;
+    invoke-static {v4, v3, p0}, Lz1/w;->t(Lp1/p;Lg1/i;Lg1/d;)Ljava/lang/Object;
 
     .line 160
     .line 161

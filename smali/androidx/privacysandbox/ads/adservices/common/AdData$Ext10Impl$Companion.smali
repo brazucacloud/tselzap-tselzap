@@ -19,8 +19,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -28,8 +27,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/privacysandbox/ads/adservices/common/AdData$Ext10Impl$Companion;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/privacysandbox/ads/adservices/common/AdData$Ext10Impl$Companion;-><init>()V
     return-void
 .end method
 
@@ -43,14 +41,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {}, Landroidx/privacysandbox/ads/adservices/appsetid/a;
-    ->d()Landroid/adservices/common/AdData$Builder;
+    invoke-static {}, Landroidx/privacysandbox/ads/adservices/appsetid/a;->d()Landroid/adservices/common/AdData$Builder;
 
     .line 7
     .line 8
@@ -58,8 +54,7 @@
     move-result-object v0
 
     .line 10
-    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/common/AdData;
-    ->getMetadata()Ljava/lang/String;
+    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/common/AdData;->getMetadata()Ljava/lang/String;
 
     .line 11
     .line 12
@@ -67,8 +62,7 @@
     move-result-object v1
 
     .line 14
-    invoke-static {v0, v1}, Landroidx/privacysandbox/ads/adservices/appsetid/a;
-    ->f(Landroid/adservices/common/AdData$Builder;Ljava/lang/String;)Landroid/adservices/common/AdData$Builder;
+    invoke-static {v0, v1}, Landroidx/privacysandbox/ads/adservices/appsetid/a;->f(Landroid/adservices/common/AdData$Builder;Ljava/lang/String;)Landroid/adservices/common/AdData$Builder;
 
     .line 15
     .line 16
@@ -76,8 +70,7 @@
     move-result-object v0
 
     .line 18
-    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/common/AdData;
-    ->getRenderUri()Landroid/net/Uri;
+    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/common/AdData;->getRenderUri()Landroid/net/Uri;
 
     .line 19
     .line 20
@@ -85,8 +78,7 @@
     move-result-object v1
 
     .line 22
-    invoke-static {v0, v1}, Landroidx/privacysandbox/ads/adservices/appsetid/a;
-    ->e(Landroid/adservices/common/AdData$Builder;Landroid/net/Uri;)Landroid/adservices/common/AdData$Builder;
+    invoke-static {v0, v1}, Landroidx/privacysandbox/ads/adservices/appsetid/a;->e(Landroid/adservices/common/AdData$Builder;Landroid/net/Uri;)Landroid/adservices/common/AdData$Builder;
 
     .line 23
     .line 24
@@ -94,8 +86,7 @@
     move-result-object v0
 
     .line 26
-    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/common/AdData;
-    ->getAdCounterKeys()Ljava/util/Set;
+    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/common/AdData;->getAdCounterKeys()Ljava/util/Set;
 
     .line 27
     .line 28
@@ -103,8 +94,7 @@
     move-result-object v1
 
     .line 30
-    invoke-static {v0, v1}, Landroidx/privacysandbox/ads/adservices/adselection/b;
-    ->c(Landroid/adservices/common/AdData$Builder;Ljava/util/Set;)Landroid/adservices/common/AdData$Builder;
+    invoke-static {v0, v1}, Landroidx/privacysandbox/ads/adservices/adselection/b;->c(Landroid/adservices/common/AdData$Builder;Ljava/util/Set;)Landroid/adservices/common/AdData$Builder;
 
     .line 31
     .line 32
@@ -112,8 +102,7 @@
     move-result-object v0
 
     .line 34
-    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/common/AdData;
-    ->getAdFilters()Landroidx/privacysandbox/ads/adservices/common/AdFilters;
+    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/common/AdData;->getAdFilters()Landroidx/privacysandbox/ads/adservices/common/AdFilters;
 
     .line 35
     .line 36
@@ -125,8 +114,7 @@
 
     .line 39
     .line 40
-    invoke-virtual {v1}, Landroidx/privacysandbox/ads/adservices/common/AdFilters;
-    ->convertToAdServices$ads_adservices_release()Landroid/adservices/common/AdFilters;
+    invoke-virtual {v1}, Landroidx/privacysandbox/ads/adservices/common/AdFilters;->convertToAdServices$ads_adservices_release()Landroid/adservices/common/AdFilters;
 
     .line 41
     .line 42
@@ -142,8 +130,7 @@
 
     .line 46
     :goto_0
-    invoke-static {v0, v1}, Landroidx/privacysandbox/ads/adservices/adselection/b;
-    ->a(Landroid/adservices/common/AdData$Builder;Landroid/adservices/common/AdFilters;)Landroid/adservices/common/AdData$Builder;
+    invoke-static {v0, v1}, Landroidx/privacysandbox/ads/adservices/adselection/b;->a(Landroid/adservices/common/AdData$Builder;Landroid/adservices/common/AdFilters;)Landroid/adservices/common/AdData$Builder;
 
     .line 47
     .line 48
@@ -151,8 +138,7 @@
     move-result-object v0
 
     .line 50
-    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/common/AdData;
-    ->getAdRenderId()Ljava/lang/String;
+    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/common/AdData;->getAdRenderId()Ljava/lang/String;
 
     .line 51
     .line 52
@@ -160,8 +146,7 @@
     move-result-object p1
 
     .line 54
-    invoke-static {v0, p1}, Landroidx/privacysandbox/ads/adservices/adselection/b;
-    ->b(Landroid/adservices/common/AdData$Builder;Ljava/lang/String;)Landroid/adservices/common/AdData$Builder;
+    invoke-static {v0, p1}, Landroidx/privacysandbox/ads/adservices/adselection/b;->b(Landroid/adservices/common/AdData$Builder;Ljava/lang/String;)Landroid/adservices/common/AdData$Builder;
 
     .line 55
     .line 56
@@ -169,8 +154,7 @@
     move-result-object p1
 
     .line 58
-    invoke-static {p1}, Landroidx/privacysandbox/ads/adservices/appsetid/a;
-    ->g(Landroid/adservices/common/AdData$Builder;)Landroid/adservices/common/AdData;
+    invoke-static {p1}, Landroidx/privacysandbox/ads/adservices/appsetid/a;->g(Landroid/adservices/common/AdData$Builder;)Landroid/adservices/common/AdData;
 
     .line 59
     .line 60
@@ -182,8 +166,7 @@
 
     .line 63
     .line 64
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
     return-object p1
 .end method
 

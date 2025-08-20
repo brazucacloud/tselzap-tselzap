@@ -26,22 +26,17 @@
         .end annotation
     .end param
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v0, Ljava/lang/Object;
 
-    invoke-direct {v0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
-    iput-object v0, p0, Lcom/google/android/gms/tasks/zzh;
-    ->zzb:Ljava/lang/Object;
+    iput-object v0, p0, Lcom/google/android/gms/tasks/zzh;->zzb:Ljava/lang/Object;
 
-    iput-object p1, p0, Lcom/google/android/gms/tasks/zzh;
-    ->zza:Ljava/util/concurrent/Executor;
+    iput-object p1, p0, Lcom/google/android/gms/tasks/zzh;->zza:Ljava/util/concurrent/Executor;
 
-    iput-object p2, p0, Lcom/google/android/gms/tasks/zzh;
-    ->zzc:Lcom/google/android/gms/tasks/OnCanceledListener;
+    iput-object p2, p0, Lcom/google/android/gms/tasks/zzh;->zzc:Lcom/google/android/gms/tasks/OnCanceledListener;
 
     return-void
 .end method
@@ -49,8 +44,7 @@
 .method public static bridge synthetic zza(Lcom/google/android/gms/tasks/zzh;)Lcom/google/android/gms/tasks/OnCanceledListener;
     .locals 0
 
-    iget-object p0, p0, Lcom/google/android/gms/tasks/zzh;
-    ->zzc:Lcom/google/android/gms/tasks/OnCanceledListener;
+    iget-object p0, p0, Lcom/google/android/gms/tasks/zzh;->zzc:Lcom/google/android/gms/tasks/OnCanceledListener;
 
     return-object p0
 .end method
@@ -58,8 +52,7 @@
 .method public static bridge synthetic zzb(Lcom/google/android/gms/tasks/zzh;)Ljava/lang/Object;
     .locals 0
 
-    iget-object p0, p0, Lcom/google/android/gms/tasks/zzh;
-    ->zzb:Ljava/lang/Object;
+    iget-object p0, p0, Lcom/google/android/gms/tasks/zzh;->zzb:Ljava/lang/Object;
 
     return-object p0
 .end method
@@ -70,8 +63,7 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/tasks/zzh;
-    ->zzb:Ljava/lang/Object;
+    iget-object v0, p0, Lcom/google/android/gms/tasks/zzh;->zzb:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -82,8 +74,7 @@
 
     .line 5
     :try_start_0
-    iput-object v1, p0, Lcom/google/android/gms/tasks/zzh;
-    ->zzc:Lcom/google/android/gms/tasks/OnCanceledListener;
+    iput-object v1, p0, Lcom/google/android/gms/tasks/zzh;->zzc:Lcom/google/android/gms/tasks/OnCanceledListener;
 
     .line 6
     .line 7
@@ -123,8 +114,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p1}, Lcom/google/android/gms/tasks/Task;
-    ->isCanceled()Z
+    invoke-virtual {p1}, Lcom/google/android/gms/tasks/Task;->isCanceled()Z
 
     .line 2
     .line 3
@@ -136,8 +126,7 @@
 
     .line 6
     .line 7
-    iget-object p1, p0, Lcom/google/android/gms/tasks/zzh;
-    ->zzb:Ljava/lang/Object;
+    iget-object p1, p0, Lcom/google/android/gms/tasks/zzh;->zzb:Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -145,8 +134,7 @@
 
     .line 10
     :try_start_0
-    iget-object v0, p0, Lcom/google/android/gms/tasks/zzh;
-    ->zzc:Lcom/google/android/gms/tasks/OnCanceledListener;
+    iget-object v0, p0, Lcom/google/android/gms/tasks/zzh;->zzc:Lcom/google/android/gms/tasks/OnCanceledListener;
 
     .line 11
     .line 12
@@ -172,8 +160,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 19
-    iget-object p1, p0, Lcom/google/android/gms/tasks/zzh;
-    ->zza:Ljava/util/concurrent/Executor;
+    iget-object p1, p0, Lcom/google/android/gms/tasks/zzh;->zza:Ljava/util/concurrent/Executor;
 
     .line 20
     .line 21
@@ -181,14 +168,12 @@
 
     .line 22
     .line 23
-    invoke-direct {v0, p0}, Lcom/google/android/gms/tasks/zzg;
-    -><init>(Lcom/google/android/gms/tasks/zzh;)V
+    invoke-direct {v0, p0}, Lcom/google/android/gms/tasks/zzg;-><init>(Lcom/google/android/gms/tasks/zzh;)V
 
     .line 24
     .line 25
     .line 26
-    invoke-interface {p1, v0}, Ljava/util/concurrent/Executor;
-    ->execute(Ljava/lang/Runnable;)V
+    invoke-interface {p1, v0}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
 
     .line 27
     .line 28

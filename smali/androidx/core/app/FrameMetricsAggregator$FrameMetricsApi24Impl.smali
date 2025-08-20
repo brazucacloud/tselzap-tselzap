@@ -52,8 +52,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsBaseImpl;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsBaseImpl;-><init>()V
 
     .line 2
     .line 3
@@ -66,8 +65,7 @@
 
     .line 7
     .line 8
-    iput-object v0, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;
-    ->mMetrics:[Landroid/util/SparseIntArray;
+    iput-object v0, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;->mMetrics:[Landroid/util/SparseIntArray;
 
     .line 9
     .line 10
@@ -75,14 +73,12 @@
 
     .line 11
     .line 12
-    invoke-direct {v0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 13
     .line 14
     .line 15
-    iput-object v0, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;
-    ->mActivities:Ljava/util/ArrayList;
+    iput-object v0, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;->mActivities:Ljava/util/ArrayList;
 
     .line 16
     .line 17
@@ -90,19 +86,16 @@
 
     .line 18
     .line 19
-    invoke-direct {v0, p0}, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl$1;
-    -><init>(Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;)V
+    invoke-direct {v0, p0}, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl$1;-><init>(Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;)V
 
     .line 20
     .line 21
     .line 22
-    iput-object v0, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;
-    ->mListener:Landroid/view/Window$OnFrameMetricsAvailableListener;
+    iput-object v0, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;->mListener:Landroid/view/Window$OnFrameMetricsAvailableListener;
 
     .line 23
     .line 24
-    iput p1, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;
-    ->mTrackingFlags:I
+    iput p1, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;->mTrackingFlags:I
 
     .line 25
     .line 26
@@ -115,8 +108,7 @@
     .locals 4
 
     .line 1
-    sget-object v0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;
-    ->sHandlerThread:Landroid/os/HandlerThread;
+    sget-object v0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;->sHandlerThread:Landroid/os/HandlerThread;
 
     .line 2
     .line 3
@@ -132,19 +124,16 @@
 
     .line 8
     .line 9
-    invoke-direct {v0, v1}, Landroid/os/HandlerThread;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Landroid/os/HandlerThread;-><init>(Ljava/lang/String;)V
 
     .line 10
     .line 11
     .line 12
-    sput-object v0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;
-    ->sHandlerThread:Landroid/os/HandlerThread;
+    sput-object v0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;->sHandlerThread:Landroid/os/HandlerThread;
 
     .line 13
     .line 14
-    invoke-virtual {v0}, Ljava/lang/Thread;
-    ->start()V
+    invoke-virtual {v0}, Ljava/lang/Thread;->start()V
 
     .line 15
     .line 16
@@ -153,13 +142,11 @@
 
     .line 18
     .line 19
-    sget-object v1, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;
-    ->sHandlerThread:Landroid/os/HandlerThread;
+    sget-object v1, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;->sHandlerThread:Landroid/os/HandlerThread;
 
     .line 20
     .line 21
-    invoke-virtual {v1}, Landroid/os/HandlerThread;
-    ->getLooper()Landroid/os/Looper;
+    invoke-virtual {v1}, Landroid/os/HandlerThread;->getLooper()Landroid/os/Looper;
 
     .line 22
     .line 23
@@ -167,14 +154,12 @@
     move-result-object v1
 
     .line 25
-    invoke-direct {v0, v1}, Landroid/os/Handler;
-    -><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
     .line 26
     .line 27
     .line 28
-    sput-object v0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;
-    ->sHandler:Landroid/os/Handler;
+    sput-object v0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;->sHandler:Landroid/os/Handler;
 
     .line 29
     .line 30
@@ -191,8 +176,7 @@
 
     .line 34
     .line 35
-    iget-object v1, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;
-    ->mMetrics:[Landroid/util/SparseIntArray;
+    iget-object v1, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;->mMetrics:[Landroid/util/SparseIntArray;
 
     .line 36
     .line 37
@@ -204,8 +188,7 @@
 
     .line 40
     .line 41
-    iget v2, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;
-    ->mTrackingFlags:I
+    iget v2, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;->mTrackingFlags:I
 
     .line 42
     .line 43
@@ -226,8 +209,7 @@
 
     .line 49
     .line 50
-    invoke-direct {v2}, Landroid/util/SparseIntArray;
-    -><init>()V
+    invoke-direct {v2}, Landroid/util/SparseIntArray;-><init>()V
 
     .line 51
     .line 52
@@ -245,8 +227,7 @@
 
     .line 58
     :cond_2
-    invoke-virtual {p1}, Landroid/app/Activity;
-    ->getWindow()Landroid/view/Window;
+    invoke-virtual {p1}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     .line 59
     .line 60
@@ -254,24 +235,20 @@
     move-result-object v0
 
     .line 62
-    iget-object v1, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;
-    ->mListener:Landroid/view/Window$OnFrameMetricsAvailableListener;
+    iget-object v1, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;->mListener:Landroid/view/Window$OnFrameMetricsAvailableListener;
 
     .line 63
     .line 64
-    sget-object v2, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;
-    ->sHandler:Landroid/os/Handler;
+    sget-object v2, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;->sHandler:Landroid/os/Handler;
 
     .line 65
     .line 66
-    invoke-virtual {v0, v1, v2}, Landroid/view/Window;
-    ->addOnFrameMetricsAvailableListener(Landroid/view/Window$OnFrameMetricsAvailableListener;Landroid/os/Handler;)V
+    invoke-virtual {v0, v1, v2}, Landroid/view/Window;->addOnFrameMetricsAvailableListener(Landroid/view/Window$OnFrameMetricsAvailableListener;Landroid/os/Handler;)V
 
     .line 67
     .line 68
     .line 69
-    iget-object v0, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;
-    ->mActivities:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;->mActivities:Ljava/util/ArrayList;
 
     .line 70
     .line 71
@@ -279,14 +256,12 @@
 
     .line 72
     .line 73
-    invoke-direct {v1, p1}, Ljava/lang/ref/WeakReference;
-    -><init>(Ljava/lang/Object;)V
+    invoke-direct {v1, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     .line 74
     .line 75
     .line 76
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 77
     .line 78
@@ -333,8 +308,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p1, v1}, Landroid/util/SparseIntArray;
-    ->get(I)I
+    invoke-virtual {p1, v1}, Landroid/util/SparseIntArray;->get(I)I
 
     .line 19
     .line 20
@@ -346,8 +320,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {p1, v1, p2}, Landroid/util/SparseIntArray;
-    ->put(II)V
+    invoke-virtual {p1, v1, p2}, Landroid/util/SparseIntArray;->put(II)V
 
     .line 25
     .line 26
@@ -360,8 +333,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;
-    ->mMetrics:[Landroid/util/SparseIntArray;
+    iget-object v0, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;->mMetrics:[Landroid/util/SparseIntArray;
 
     .line 2
     .line 3
@@ -372,13 +344,11 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;
-    ->mActivities:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;->mActivities:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;
-    ->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     .line 4
     .line 5
@@ -387,8 +357,7 @@
 
     .line 7
     :cond_0
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 8
     .line 9
@@ -400,8 +369,7 @@
 
     .line 12
     .line 13
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -413,8 +381,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {v1}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -426,20 +393,17 @@
 
     .line 24
     .line 25
-    iget-object v0, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;
-    ->mActivities:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;->mActivities:Ljava/util/ArrayList;
 
     .line 26
     .line 27
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;
-    ->remove(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 
     .line 28
     .line 29
     .line 30
     :cond_1
-    invoke-virtual {p1}, Landroid/app/Activity;
-    ->getWindow()Landroid/view/Window;
+    invoke-virtual {p1}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     .line 31
     .line 32
@@ -447,19 +411,16 @@
     move-result-object p1
 
     .line 34
-    iget-object v0, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;
-    ->mListener:Landroid/view/Window$OnFrameMetricsAvailableListener;
+    iget-object v0, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;->mListener:Landroid/view/Window$OnFrameMetricsAvailableListener;
 
     .line 35
     .line 36
-    invoke-virtual {p1, v0}, Landroid/view/Window;
-    ->removeOnFrameMetricsAvailableListener(Landroid/view/Window$OnFrameMetricsAvailableListener;)V
+    invoke-virtual {p1, v0}, Landroid/view/Window;->removeOnFrameMetricsAvailableListener(Landroid/view/Window$OnFrameMetricsAvailableListener;)V
 
     .line 37
     .line 38
     .line 39
-    iget-object p1, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;
-    ->mMetrics:[Landroid/util/SparseIntArray;
+    iget-object p1, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;->mMetrics:[Landroid/util/SparseIntArray;
 
     .line 40
     .line 41
@@ -470,8 +431,7 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;
-    ->mMetrics:[Landroid/util/SparseIntArray;
+    iget-object v0, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;->mMetrics:[Landroid/util/SparseIntArray;
 
     .line 2
     .line 3
@@ -483,8 +443,7 @@
 
     .line 6
     .line 7
-    iput-object v1, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;
-    ->mMetrics:[Landroid/util/SparseIntArray;
+    iput-object v1, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;->mMetrics:[Landroid/util/SparseIntArray;
 
     .line 8
     .line 9
@@ -495,13 +454,11 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;
-    ->mActivities:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;->mActivities:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     .line 4
     .line 5
@@ -518,13 +475,11 @@
 
     .line 10
     .line 11
-    iget-object v1, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;
-    ->mActivities:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;->mActivities:Ljava/util/ArrayList;
 
     .line 12
     .line 13
-    invoke-virtual {v1, v0}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {v1, v0}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -536,8 +491,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {v1}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -549,8 +503,7 @@
 
     .line 24
     .line 25
-    invoke-virtual {v1}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 26
     .line 27
@@ -562,8 +515,7 @@
 
     .line 30
     .line 31
-    invoke-virtual {v2}, Landroid/app/Activity;
-    ->getWindow()Landroid/view/Window;
+    invoke-virtual {v2}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     .line 32
     .line 33
@@ -571,24 +523,20 @@
     move-result-object v1
 
     .line 35
-    iget-object v2, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;
-    ->mListener:Landroid/view/Window$OnFrameMetricsAvailableListener;
+    iget-object v2, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;->mListener:Landroid/view/Window$OnFrameMetricsAvailableListener;
 
     .line 36
     .line 37
-    invoke-virtual {v1, v2}, Landroid/view/Window;
-    ->removeOnFrameMetricsAvailableListener(Landroid/view/Window$OnFrameMetricsAvailableListener;)V
+    invoke-virtual {v1, v2}, Landroid/view/Window;->removeOnFrameMetricsAvailableListener(Landroid/view/Window$OnFrameMetricsAvailableListener;)V
 
     .line 38
     .line 39
     .line 40
-    iget-object v1, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;
-    ->mActivities:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;->mActivities:Ljava/util/ArrayList;
 
     .line 41
     .line 42
-    invoke-virtual {v1, v0}, Ljava/util/ArrayList;
-    ->remove(I)Ljava/lang/Object;
+    invoke-virtual {v1, v0}, Ljava/util/ArrayList;->remove(I)Ljava/lang/Object;
 
     .line 43
     .line 44
@@ -602,8 +550,7 @@
 
     .line 48
     :cond_1
-    iget-object v0, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;
-    ->mMetrics:[Landroid/util/SparseIntArray;
+    iget-object v0, p0, Landroidx/core/app/FrameMetricsAggregator$FrameMetricsApi24Impl;->mMetrics:[Landroid/util/SparseIntArray;
 
     .line 49
     .line 50

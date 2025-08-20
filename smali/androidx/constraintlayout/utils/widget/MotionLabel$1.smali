@@ -5,8 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/constraintlayout/utils/widget/MotionLabel;
-    ->setRoundPercent(F)V
+    value = Landroidx/constraintlayout/utils/widget/MotionLabel;->setRoundPercent(F)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,13 +23,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/utils/widget/MotionLabel$1;
-    ->this$0:Landroidx/constraintlayout/utils/widget/MotionLabel;
+    iput-object p1, p0, Landroidx/constraintlayout/utils/widget/MotionLabel$1;->this$0:Landroidx/constraintlayout/utils/widget/MotionLabel;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroid/view/ViewOutlineProvider;
-    -><init>()V
+    invoke-direct {p0}, Landroid/view/ViewOutlineProvider;-><init>()V
     return-void
 .end method
 
@@ -40,13 +37,11 @@
     .locals 6
 
     .line 1
-    iget-object p1, p0, Landroidx/constraintlayout/utils/widget/MotionLabel$1;
-    ->this$0:Landroidx/constraintlayout/utils/widget/MotionLabel;
+    iget-object p1, p0, Landroidx/constraintlayout/utils/widget/MotionLabel$1;->this$0:Landroidx/constraintlayout/utils/widget/MotionLabel;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getWidth()I
+    invoke-virtual {p1}, Landroid/view/View;->getWidth()I
 
     .line 4
     .line 5
@@ -54,13 +49,11 @@
     move-result v3
 
     .line 7
-    iget-object p1, p0, Landroidx/constraintlayout/utils/widget/MotionLabel$1;
-    ->this$0:Landroidx/constraintlayout/utils/widget/MotionLabel;
+    iget-object p1, p0, Landroidx/constraintlayout/utils/widget/MotionLabel$1;->this$0:Landroidx/constraintlayout/utils/widget/MotionLabel;
 
     .line 8
     .line 9
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getHeight()I
+    invoke-virtual {p1}, Landroid/view/View;->getHeight()I
 
     .line 10
     .line 11
@@ -68,8 +61,7 @@
     move-result v4
 
     .line 13
-    invoke-static {v3, v4}, Ljava/lang/Math;
-    ->min(II)I
+    invoke-static {v3, v4}, Ljava/lang/Math;->min(II)I
 
     .line 14
     .line 15
@@ -80,13 +72,11 @@
     int-to-float p1, p1
 
     .line 18
-    iget-object v0, p0, Landroidx/constraintlayout/utils/widget/MotionLabel$1;
-    ->this$0:Landroidx/constraintlayout/utils/widget/MotionLabel;
+    iget-object v0, p0, Landroidx/constraintlayout/utils/widget/MotionLabel$1;->this$0:Landroidx/constraintlayout/utils/widget/MotionLabel;
 
     .line 19
     .line 20
-    invoke-static {v0}, Landroidx/constraintlayout/utils/widget/MotionLabel;
-    ->access$000(Landroidx/constraintlayout/utils/widget/MotionLabel;)F
+    invoke-static {v0}, Landroidx/constraintlayout/utils/widget/MotionLabel;->access$000(Landroidx/constraintlayout/utils/widget/MotionLabel;)F
 
     .line 21
     .line 22
@@ -115,8 +105,7 @@
     move-object v0, p2
 
     .line 33
-    invoke-virtual/range {v0 .. v5}, Landroid/graphics/Outline;
-    ->setRoundRect(IIIIF)V
+    invoke-virtual/range {v0 .. v5}, Landroid/graphics/Outline;->setRoundRect(IIIIF)V
     return-void
 .end method
 

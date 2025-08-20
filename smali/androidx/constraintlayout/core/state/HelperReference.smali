@@ -29,8 +29,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/state/ConstraintReference;
-    -><init>(Landroidx/constraintlayout/core/state/State;)V
+    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/state/ConstraintReference;-><init>(Landroidx/constraintlayout/core/state/State;)V
 
     .line 2
     .line 3
@@ -39,24 +38,20 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/constraintlayout/core/state/HelperReference;
-    ->mReferences:Ljava/util/ArrayList;
+    iput-object v0, p0, Landroidx/constraintlayout/core/state/HelperReference;->mReferences:Ljava/util/ArrayList;
 
     .line 10
     .line 11
-    iput-object p1, p0, Landroidx/constraintlayout/core/state/HelperReference;
-    ->mHelperState:Landroidx/constraintlayout/core/state/State;
+    iput-object p1, p0, Landroidx/constraintlayout/core/state/HelperReference;->mHelperState:Landroidx/constraintlayout/core/state/State;
 
     .line 12
     .line 13
-    iput-object p2, p0, Landroidx/constraintlayout/core/state/HelperReference;
-    ->mType:Landroidx/constraintlayout/core/state/State$Helper;    
+    iput-object p2, p0, Landroidx/constraintlayout/core/state/HelperReference;->mType:Landroidx/constraintlayout/core/state/State$Helper;
     return-void
 .end method
 
@@ -66,13 +61,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/state/HelperReference;
-    ->mReferences:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/constraintlayout/core/state/HelperReference;->mReferences:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Ljava/util/Collections;
-    ->addAll(Ljava/util/Collection;[Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Ljava/util/Collections;->addAll(Ljava/util/Collection;[Ljava/lang/Object;)Z
 return-object p0
 .end method
 
@@ -86,8 +79,7 @@ return-object p0
     .locals 0
 
     .line 1
-    invoke-super {p0}, Landroidx/constraintlayout/core/state/ConstraintReference;
-    ->apply()V
+    invoke-super {p0}, Landroidx/constraintlayout/core/state/ConstraintReference;->apply()V
 return-void
 .end method
 
@@ -95,8 +87,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/state/HelperReference;
-    ->getHelperWidget()Landroidx/constraintlayout/core/widgets/HelperWidget;
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/state/HelperReference;->getHelperWidget()Landroidx/constraintlayout/core/widgets/HelperWidget;
 
     .line 2
     .line 3
@@ -110,24 +101,21 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/state/HelperReference;
-    ->mHelperWidget:Landroidx/constraintlayout/core/widgets/HelperWidget;    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/state/HelperReference;->mHelperWidget:Landroidx/constraintlayout/core/widgets/HelperWidget;    return-object v0
 .end method
 
 .method public getType()Landroidx/constraintlayout/core/state/State$Helper;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/state/HelperReference;
-    ->mType:Landroidx/constraintlayout/core/state/State$Helper;    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/state/HelperReference;->mType:Landroidx/constraintlayout/core/state/State$Helper;    return-object v0
 .end method
 
 .method public setHelperWidget(Landroidx/constraintlayout/core/widgets/HelperWidget;)V
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/state/HelperReference;
-    ->mHelperWidget:Landroidx/constraintlayout/core/widgets/HelperWidget;    
+    iput-object p1, p0, Landroidx/constraintlayout/core/state/HelperReference;->mHelperWidget:Landroidx/constraintlayout/core/widgets/HelperWidget;
     return-void
 .end method
 

@@ -20,8 +20,7 @@
 
     .line 3
     .line 4
-    invoke-direct {p0, v0, v1}, Lcom/google/android/gms/common/GooglePlayServicesManifestException;
-    -><init>(ILjava/lang/String;)V
+    invoke-direct {p0, v0, v1}, Lcom/google/android/gms/common/GooglePlayServicesManifestException;-><init>(ILjava/lang/String;)V
 
     .line 5
     .line 6

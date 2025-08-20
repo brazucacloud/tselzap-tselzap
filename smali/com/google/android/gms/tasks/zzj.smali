@@ -26,22 +26,17 @@
         .end annotation
     .end param
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v0, Ljava/lang/Object;
 
-    invoke-direct {v0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
-    iput-object v0, p0, Lcom/google/android/gms/tasks/zzj;
-    ->zzb:Ljava/lang/Object;
+    iput-object v0, p0, Lcom/google/android/gms/tasks/zzj;->zzb:Ljava/lang/Object;
 
-    iput-object p1, p0, Lcom/google/android/gms/tasks/zzj;
-    ->zza:Ljava/util/concurrent/Executor;
+    iput-object p1, p0, Lcom/google/android/gms/tasks/zzj;->zza:Ljava/util/concurrent/Executor;
 
-    iput-object p2, p0, Lcom/google/android/gms/tasks/zzj;
-    ->zzc:Lcom/google/android/gms/tasks/OnCompleteListener;
+    iput-object p2, p0, Lcom/google/android/gms/tasks/zzj;->zzc:Lcom/google/android/gms/tasks/OnCompleteListener;
 
     return-void
 .end method
@@ -49,8 +44,7 @@
 .method public static bridge synthetic zza(Lcom/google/android/gms/tasks/zzj;)Lcom/google/android/gms/tasks/OnCompleteListener;
     .locals 0
 
-    iget-object p0, p0, Lcom/google/android/gms/tasks/zzj;
-    ->zzc:Lcom/google/android/gms/tasks/OnCompleteListener;
+    iget-object p0, p0, Lcom/google/android/gms/tasks/zzj;->zzc:Lcom/google/android/gms/tasks/OnCompleteListener;
 
     return-object p0
 .end method
@@ -58,8 +52,7 @@
 .method public static bridge synthetic zzb(Lcom/google/android/gms/tasks/zzj;)Ljava/lang/Object;
     .locals 0
 
-    iget-object p0, p0, Lcom/google/android/gms/tasks/zzj;
-    ->zzb:Ljava/lang/Object;
+    iget-object p0, p0, Lcom/google/android/gms/tasks/zzj;->zzb:Ljava/lang/Object;
 
     return-object p0
 .end method
@@ -70,8 +63,7 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/tasks/zzj;
-    ->zzb:Ljava/lang/Object;
+    iget-object v0, p0, Lcom/google/android/gms/tasks/zzj;->zzb:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -82,8 +74,7 @@
 
     .line 5
     :try_start_0
-    iput-object v1, p0, Lcom/google/android/gms/tasks/zzj;
-    ->zzc:Lcom/google/android/gms/tasks/OnCompleteListener;
+    iput-object v1, p0, Lcom/google/android/gms/tasks/zzj;->zzc:Lcom/google/android/gms/tasks/OnCompleteListener;
 
     .line 6
     .line 7
@@ -123,8 +114,7 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/tasks/zzj;
-    ->zzb:Ljava/lang/Object;
+    iget-object v0, p0, Lcom/google/android/gms/tasks/zzj;->zzb:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -132,8 +122,7 @@
 
     .line 4
     :try_start_0
-    iget-object v1, p0, Lcom/google/android/gms/tasks/zzj;
-    ->zzc:Lcom/google/android/gms/tasks/OnCompleteListener;
+    iget-object v1, p0, Lcom/google/android/gms/tasks/zzj;->zzc:Lcom/google/android/gms/tasks/OnCompleteListener;
 
     .line 5
     .line 6
@@ -159,8 +148,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 13
-    iget-object v0, p0, Lcom/google/android/gms/tasks/zzj;
-    ->zza:Ljava/util/concurrent/Executor;
+    iget-object v0, p0, Lcom/google/android/gms/tasks/zzj;->zza:Ljava/util/concurrent/Executor;
 
     .line 14
     .line 15
@@ -168,14 +156,12 @@
 
     .line 16
     .line 17
-    invoke-direct {v1, p0, p1}, Lcom/google/android/gms/tasks/zzi;
-    -><init>(Lcom/google/android/gms/tasks/zzj;Lcom/google/android/gms/tasks/Task;)V
+    invoke-direct {v1, p0, p1}, Lcom/google/android/gms/tasks/zzi;-><init>(Lcom/google/android/gms/tasks/zzj;Lcom/google/android/gms/tasks/Task;)V
 
     .line 18
     .line 19
     .line 20
-    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;
-    ->execute(Ljava/lang/Runnable;)V
+    invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
 
     .line 21
     .line 22

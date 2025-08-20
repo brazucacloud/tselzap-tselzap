@@ -5,8 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/developer/kalert/SuccessTickView;
-    ->startTickAnim()V
+    value = Lcom/developer/kalert/SuccessTickView;->startTickAnim()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,13 +23,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/developer/kalert/SuccessTickView$1;
-    ->this$0:Lcom/developer/kalert/SuccessTickView;
+    iput-object p1, p0, Lcom/developer/kalert/SuccessTickView$1;->this$0:Lcom/developer/kalert/SuccessTickView;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroid/view/animation/Animation;
-    -><init>()V
+    invoke-direct {p0}, Landroid/view/animation/Animation;-><init>()V
 
     .line 4
     .line 5
@@ -44,8 +41,7 @@
     .locals 11
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroid/view/animation/Animation;
-    ->applyTransformation(FLandroid/view/animation/Transformation;)V
+    invoke-super {p0, p1, p2}, Landroid/view/animation/Animation;->applyTransformation(FLandroid/view/animation/Transformation;)V
 
     .line 2
     .line 3
@@ -98,27 +94,23 @@
 
     .line 31
     .line 32
-    iget-object v4, p0, Lcom/developer/kalert/SuccessTickView$1;
-    ->this$0:Lcom/developer/kalert/SuccessTickView;
+    iget-object v4, p0, Lcom/developer/kalert/SuccessTickView$1;->this$0:Lcom/developer/kalert/SuccessTickView;
 
     .line 33
     .line 34
     const/4 v5, 0x1
 
     .line 35
-    invoke-static {v4, v5}, Lcom/developer/kalert/SuccessTickView;
-    ->access$002(Lcom/developer/kalert/SuccessTickView;Z)Z
+    invoke-static {v4, v5}, Lcom/developer/kalert/SuccessTickView;->access$002(Lcom/developer/kalert/SuccessTickView;Z)Z
 
     .line 36
     .line 37
     .line 38
-    iget-object v4, p0, Lcom/developer/kalert/SuccessTickView$1;
-    ->this$0:Lcom/developer/kalert/SuccessTickView;
+    iget-object v4, p0, Lcom/developer/kalert/SuccessTickView$1;->this$0:Lcom/developer/kalert/SuccessTickView;
 
     .line 39
     .line 40
-    invoke-static {v4}, Lcom/developer/kalert/SuccessTickView;
-    ->access$200(Lcom/developer/kalert/SuccessTickView;)F
+    invoke-static {v4}, Lcom/developer/kalert/SuccessTickView;->access$200(Lcom/developer/kalert/SuccessTickView;)F
 
     .line 41
     .line 42
@@ -142,8 +134,7 @@
 
     .line 51
     .line 52
-    invoke-static {v4, v6}, Lcom/developer/kalert/SuccessTickView;
-    ->access$102(Lcom/developer/kalert/SuccessTickView;F)F
+    invoke-static {v4, v6}, Lcom/developer/kalert/SuccessTickView;->access$102(Lcom/developer/kalert/SuccessTickView;F)F
 
     .line 53
     .line 54
@@ -163,13 +154,11 @@
 
     .line 63
     .line 64
-    iget-object v0, p0, Lcom/developer/kalert/SuccessTickView$1;
-    ->this$0:Lcom/developer/kalert/SuccessTickView;
+    iget-object v0, p0, Lcom/developer/kalert/SuccessTickView$1;->this$0:Lcom/developer/kalert/SuccessTickView;
 
     .line 65
     .line 66
-    invoke-static {v0}, Lcom/developer/kalert/SuccessTickView;
-    ->access$400(Lcom/developer/kalert/SuccessTickView;)F
+    invoke-static {v0}, Lcom/developer/kalert/SuccessTickView;->access$400(Lcom/developer/kalert/SuccessTickView;)F
 
     .line 67
     .line 68
@@ -187,20 +176,17 @@
 
     .line 73
     .line 74
-    invoke-static {v0, p1}, Lcom/developer/kalert/SuccessTickView;
-    ->access$302(Lcom/developer/kalert/SuccessTickView;F)F
+    invoke-static {v0, p1}, Lcom/developer/kalert/SuccessTickView;->access$302(Lcom/developer/kalert/SuccessTickView;F)F
 
     .line 75
     .line 76
     .line 77
     :cond_0
-    iget-object p1, p0, Lcom/developer/kalert/SuccessTickView$1;
-    ->this$0:Lcom/developer/kalert/SuccessTickView;
+    iget-object p1, p0, Lcom/developer/kalert/SuccessTickView$1;->this$0:Lcom/developer/kalert/SuccessTickView;
 
     .line 78
     .line 79
-    invoke-virtual {p1}, Landroid/view/View;
-    ->invalidate()V
+    invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
     .line 80
     .line 81
@@ -239,24 +225,20 @@
 
     .line 98
     .line 99
-    iget-object v0, p0, Lcom/developer/kalert/SuccessTickView$1;
-    ->this$0:Lcom/developer/kalert/SuccessTickView;
+    iget-object v0, p0, Lcom/developer/kalert/SuccessTickView$1;->this$0:Lcom/developer/kalert/SuccessTickView;
 
     .line 100
     .line 101
-    invoke-static {v0, v6}, Lcom/developer/kalert/SuccessTickView;
-    ->access$002(Lcom/developer/kalert/SuccessTickView;Z)Z
+    invoke-static {v0, v6}, Lcom/developer/kalert/SuccessTickView;->access$002(Lcom/developer/kalert/SuccessTickView;Z)Z
 
     .line 102
     .line 103
     .line 104
-    iget-object v0, p0, Lcom/developer/kalert/SuccessTickView$1;
-    ->this$0:Lcom/developer/kalert/SuccessTickView;
+    iget-object v0, p0, Lcom/developer/kalert/SuccessTickView$1;->this$0:Lcom/developer/kalert/SuccessTickView;
 
     .line 105
     .line 106
-    invoke-static {v0}, Lcom/developer/kalert/SuccessTickView;
-    ->access$200(Lcom/developer/kalert/SuccessTickView;)F
+    invoke-static {v0}, Lcom/developer/kalert/SuccessTickView;->access$200(Lcom/developer/kalert/SuccessTickView;)F
 
     .line 107
     .line 108
@@ -288,19 +270,16 @@
 
     .line 121
     .line 122
-    invoke-static {v0, v9}, Lcom/developer/kalert/SuccessTickView;
-    ->access$102(Lcom/developer/kalert/SuccessTickView;F)F
+    invoke-static {v0, v9}, Lcom/developer/kalert/SuccessTickView;->access$102(Lcom/developer/kalert/SuccessTickView;F)F
 
     .line 123
     .line 124
     .line 125
-    iget-object v0, p0, Lcom/developer/kalert/SuccessTickView$1;
-    ->this$0:Lcom/developer/kalert/SuccessTickView;
+    iget-object v0, p0, Lcom/developer/kalert/SuccessTickView$1;->this$0:Lcom/developer/kalert/SuccessTickView;
 
     .line 126
     .line 127
-    invoke-static {v0}, Lcom/developer/kalert/SuccessTickView;
-    ->access$100(Lcom/developer/kalert/SuccessTickView;)F
+    invoke-static {v0}, Lcom/developer/kalert/SuccessTickView;->access$100(Lcom/developer/kalert/SuccessTickView;)F
 
     .line 128
     .line 129
@@ -308,13 +287,11 @@
     move-result v1
 
     .line 131
-    iget-object v3, p0, Lcom/developer/kalert/SuccessTickView$1;
-    ->this$0:Lcom/developer/kalert/SuccessTickView;
+    iget-object v3, p0, Lcom/developer/kalert/SuccessTickView$1;->this$0:Lcom/developer/kalert/SuccessTickView;
 
     .line 132
     .line 133
-    invoke-static {v3}, Lcom/developer/kalert/SuccessTickView;
-    ->access$500(Lcom/developer/kalert/SuccessTickView;)F
+    invoke-static {v3}, Lcom/developer/kalert/SuccessTickView;->access$500(Lcom/developer/kalert/SuccessTickView;)F
 
     .line 134
     .line 135
@@ -322,8 +299,7 @@
     move-result v3
 
     .line 137
-    invoke-static {v1, v3}, Ljava/lang/Math;
-    ->max(FF)F
+    invoke-static {v1, v3}, Ljava/lang/Math;->max(FF)F
 
     .line 138
     .line 139
@@ -331,19 +307,16 @@
     move-result v1
 
     .line 141
-    invoke-static {v0, v1}, Lcom/developer/kalert/SuccessTickView;
-    ->access$102(Lcom/developer/kalert/SuccessTickView;F)F
+    invoke-static {v0, v1}, Lcom/developer/kalert/SuccessTickView;->access$102(Lcom/developer/kalert/SuccessTickView;F)F
 
     .line 142
     .line 143
     .line 144
-    iget-object v0, p0, Lcom/developer/kalert/SuccessTickView$1;
-    ->this$0:Lcom/developer/kalert/SuccessTickView;
+    iget-object v0, p0, Lcom/developer/kalert/SuccessTickView$1;->this$0:Lcom/developer/kalert/SuccessTickView;
 
     .line 145
     .line 146
-    invoke-static {v0}, Lcom/developer/kalert/SuccessTickView;
-    ->access$400(Lcom/developer/kalert/SuccessTickView;)F
+    invoke-static {v0}, Lcom/developer/kalert/SuccessTickView;->access$400(Lcom/developer/kalert/SuccessTickView;)F
 
     .line 147
     .line 148
@@ -361,19 +334,16 @@
 
     .line 153
     .line 154
-    invoke-static {v0, p1}, Lcom/developer/kalert/SuccessTickView;
-    ->access$302(Lcom/developer/kalert/SuccessTickView;F)F
+    invoke-static {v0, p1}, Lcom/developer/kalert/SuccessTickView;->access$302(Lcom/developer/kalert/SuccessTickView;F)F
 
     .line 155
     .line 156
     .line 157
-    iget-object p1, p0, Lcom/developer/kalert/SuccessTickView$1;
-    ->this$0:Lcom/developer/kalert/SuccessTickView;
+    iget-object p1, p0, Lcom/developer/kalert/SuccessTickView$1;->this$0:Lcom/developer/kalert/SuccessTickView;
 
     .line 158
     .line 159
-    invoke-virtual {p1}, Landroid/view/View;
-    ->invalidate()V
+    invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
     .line 160
     .line 161
@@ -398,24 +368,20 @@
 
     .line 170
     .line 171
-    iget-object p2, p0, Lcom/developer/kalert/SuccessTickView$1;
-    ->this$0:Lcom/developer/kalert/SuccessTickView;
+    iget-object p2, p0, Lcom/developer/kalert/SuccessTickView$1;->this$0:Lcom/developer/kalert/SuccessTickView;
 
     .line 172
     .line 173
-    invoke-static {p2, v6}, Lcom/developer/kalert/SuccessTickView;
-    ->access$002(Lcom/developer/kalert/SuccessTickView;Z)Z
+    invoke-static {p2, v6}, Lcom/developer/kalert/SuccessTickView;->access$002(Lcom/developer/kalert/SuccessTickView;Z)Z
 
     .line 174
     .line 175
     .line 176
-    iget-object p2, p0, Lcom/developer/kalert/SuccessTickView$1;
-    ->this$0:Lcom/developer/kalert/SuccessTickView;
+    iget-object p2, p0, Lcom/developer/kalert/SuccessTickView$1;->this$0:Lcom/developer/kalert/SuccessTickView;
 
     .line 177
     .line 178
-    invoke-static {p2}, Lcom/developer/kalert/SuccessTickView;
-    ->access$500(Lcom/developer/kalert/SuccessTickView;)F
+    invoke-static {p2}, Lcom/developer/kalert/SuccessTickView;->access$500(Lcom/developer/kalert/SuccessTickView;)F
 
     .line 179
     .line 180
@@ -423,13 +389,11 @@
     move-result v0
 
     .line 182
-    iget-object v1, p0, Lcom/developer/kalert/SuccessTickView$1;
-    ->this$0:Lcom/developer/kalert/SuccessTickView;
+    iget-object v1, p0, Lcom/developer/kalert/SuccessTickView$1;->this$0:Lcom/developer/kalert/SuccessTickView;
 
     .line 183
     .line 184
-    invoke-static {v1}, Lcom/developer/kalert/SuccessTickView;
-    ->access$600(Lcom/developer/kalert/SuccessTickView;)F
+    invoke-static {v1}, Lcom/developer/kalert/SuccessTickView;->access$600(Lcom/developer/kalert/SuccessTickView;)F
 
     .line 185
     .line 186
@@ -437,13 +401,11 @@
     move-result v1
 
     .line 188
-    iget-object v2, p0, Lcom/developer/kalert/SuccessTickView$1;
-    ->this$0:Lcom/developer/kalert/SuccessTickView;
+    iget-object v2, p0, Lcom/developer/kalert/SuccessTickView$1;->this$0:Lcom/developer/kalert/SuccessTickView;
 
     .line 189
     .line 190
-    invoke-static {v2}, Lcom/developer/kalert/SuccessTickView;
-    ->access$500(Lcom/developer/kalert/SuccessTickView;)F
+    invoke-static {v2}, Lcom/developer/kalert/SuccessTickView;->access$500(Lcom/developer/kalert/SuccessTickView;)F
 
     .line 191
     .line 192
@@ -472,19 +434,16 @@
     add-float/2addr v1, v0
 
     .line 203
-    invoke-static {p2, v1}, Lcom/developer/kalert/SuccessTickView;
-    ->access$102(Lcom/developer/kalert/SuccessTickView;F)F
+    invoke-static {p2, v1}, Lcom/developer/kalert/SuccessTickView;->access$102(Lcom/developer/kalert/SuccessTickView;F)F
 
     .line 204
     .line 205
     .line 206
-    iget-object p2, p0, Lcom/developer/kalert/SuccessTickView$1;
-    ->this$0:Lcom/developer/kalert/SuccessTickView;
+    iget-object p2, p0, Lcom/developer/kalert/SuccessTickView$1;->this$0:Lcom/developer/kalert/SuccessTickView;
 
     .line 207
     .line 208
-    invoke-static {p2}, Lcom/developer/kalert/SuccessTickView;
-    ->access$700(Lcom/developer/kalert/SuccessTickView;)F
+    invoke-static {p2}, Lcom/developer/kalert/SuccessTickView;->access$700(Lcom/developer/kalert/SuccessTickView;)F
 
     .line 209
     .line 210
@@ -492,13 +451,11 @@
     move-result v0
 
     .line 212
-    iget-object v1, p0, Lcom/developer/kalert/SuccessTickView$1;
-    ->this$0:Lcom/developer/kalert/SuccessTickView;
+    iget-object v1, p0, Lcom/developer/kalert/SuccessTickView$1;->this$0:Lcom/developer/kalert/SuccessTickView;
 
     .line 213
     .line 214
-    invoke-static {v1}, Lcom/developer/kalert/SuccessTickView;
-    ->access$400(Lcom/developer/kalert/SuccessTickView;)F
+    invoke-static {v1}, Lcom/developer/kalert/SuccessTickView;->access$400(Lcom/developer/kalert/SuccessTickView;)F
 
     .line 215
     .line 216
@@ -506,13 +463,11 @@
     move-result v1
 
     .line 218
-    iget-object v2, p0, Lcom/developer/kalert/SuccessTickView$1;
-    ->this$0:Lcom/developer/kalert/SuccessTickView;
+    iget-object v2, p0, Lcom/developer/kalert/SuccessTickView$1;->this$0:Lcom/developer/kalert/SuccessTickView;
 
     .line 219
     .line 220
-    invoke-static {v2}, Lcom/developer/kalert/SuccessTickView;
-    ->access$700(Lcom/developer/kalert/SuccessTickView;)F
+    invoke-static {v2}, Lcom/developer/kalert/SuccessTickView;->access$700(Lcom/developer/kalert/SuccessTickView;)F
 
     .line 221
     .line 222
@@ -533,19 +488,16 @@
     add-float/2addr v9, v0
 
     .line 229
-    invoke-static {p2, v9}, Lcom/developer/kalert/SuccessTickView;
-    ->access$302(Lcom/developer/kalert/SuccessTickView;F)F
+    invoke-static {p2, v9}, Lcom/developer/kalert/SuccessTickView;->access$302(Lcom/developer/kalert/SuccessTickView;F)F
 
     .line 230
     .line 231
     .line 232
-    iget-object p1, p0, Lcom/developer/kalert/SuccessTickView$1;
-    ->this$0:Lcom/developer/kalert/SuccessTickView;
+    iget-object p1, p0, Lcom/developer/kalert/SuccessTickView$1;->this$0:Lcom/developer/kalert/SuccessTickView;
 
     .line 233
     .line 234
-    invoke-virtual {p1}, Landroid/view/View;
-    ->invalidate()V
+    invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
     .line 235
     .line 236

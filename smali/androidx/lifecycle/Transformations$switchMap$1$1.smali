@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/lifecycle/Transformations$switchMap$1;
-    ->invoke(Ljava/lang/Object;)V
+    value = Landroidx/lifecycle/Transformations$switchMap$1;->invoke(Ljava/lang/Object;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -47,13 +46,11 @@
         }
     .end annotation
 
-    iput-object p1, p0, Landroidx/lifecycle/Transformations$switchMap$1$1;
-    ->$result:Landroidx/lifecycle/MediatorLiveData;
+    iput-object p1, p0, Landroidx/lifecycle/Transformations$switchMap$1$1;->$result:Landroidx/lifecycle/MediatorLiveData;
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
-    -><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
 return-void
 .end method
 
@@ -63,11 +60,9 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/lifecycle/Transformations$switchMap$1$1;
-    ->invoke(Ljava/lang/Object;)V
+    invoke-virtual {p0, p1}, Landroidx/lifecycle/Transformations$switchMap$1$1;->invoke(Ljava/lang/Object;)V
 
-    sget-object p1, Lc1/v;
-    ->a:Lc1/v;
+    sget-object p1, Lc1/v;->a:Lc1/v;
 
     return-object p1
 .end method
@@ -81,11 +76,9 @@ return-void
     .end annotation
 
     .line 2
-    iget-object v0, p0, Landroidx/lifecycle/Transformations$switchMap$1$1;
-    ->$result:Landroidx/lifecycle/MediatorLiveData;
+    iget-object v0, p0, Landroidx/lifecycle/Transformations$switchMap$1$1;->$result:Landroidx/lifecycle/MediatorLiveData;
 
-    invoke-virtual {v0, p1}, Landroidx/lifecycle/MutableLiveData;
-    ->setValue(Ljava/lang/Object;)V
+    invoke-virtual {v0, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
     return-void
 .end method

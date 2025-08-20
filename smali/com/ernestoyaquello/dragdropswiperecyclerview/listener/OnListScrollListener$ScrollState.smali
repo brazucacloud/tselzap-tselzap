@@ -42,22 +42,19 @@
 
     new-array v0, v0, [Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
 
-    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
-    ->IDLE:Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
+    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;->IDLE:Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
 
     const/4 v2, 0x0
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
-    ->DRAGGING:Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
+    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;->DRAGGING:Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
 
     const/4 v2, 0x1
 
     aput-object v1, v0, v2
 
-    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
-    ->SETTLING:Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
+    sget-object v1, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;->SETTLING:Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
 
     const/4 v2, 0x2
 
@@ -81,14 +78,12 @@
     const/4 v2, 0x0
 
     .line 6
-    invoke-direct {v0, v1, v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;-><init>(Ljava/lang/String;I)V
 
     .line 7
     .line 8
     .line 9
-    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
-    ->IDLE:Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
+    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;->IDLE:Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
 
     .line 10
     .line 11
@@ -103,14 +98,12 @@
     const/4 v2, 0x1
 
     .line 16
-    invoke-direct {v0, v1, v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;-><init>(Ljava/lang/String;I)V
 
     .line 17
     .line 18
     .line 19
-    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
-    ->DRAGGING:Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
+    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;->DRAGGING:Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
 
     .line 20
     .line 21
@@ -125,19 +118,16 @@
     const/4 v2, 0x2
 
     .line 26
-    invoke-direct {v0, v1, v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;-><init>(Ljava/lang/String;I)V
 
     .line 27
     .line 28
     .line 29
-    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
-    ->SETTLING:Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
+    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;->SETTLING:Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
 
     .line 30
     .line 31
-    invoke-static {}, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
-    ->$values()[Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
+    invoke-static {}, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;->$values()[Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
 
     .line 32
     .line 33
@@ -145,13 +135,11 @@
     move-result-object v0
 
     .line 35
-    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
-    ->$VALUES:[Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
+    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;->$VALUES:[Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
 
     .line 36
     .line 37
-    invoke-static {v0}, La/a;
-    ->o([Ljava/lang/Enum;)Lj1/b;
+    invoke-static {v0}, La/a;->o([Ljava/lang/Enum;)Lj1/b;
 
     .line 38
     .line 39
@@ -159,8 +147,7 @@
     move-result-object v0
 
     .line 41
-    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
-    ->$ENTRIES:Lj1/a;
+    sput-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;->$ENTRIES:Lj1/a;
 
     .line 42
     .line 43
@@ -176,8 +163,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     .line 2
     .line 3
@@ -195,8 +181,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
-    ->$ENTRIES:Lj1/a;
+    sget-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;->$ENTRIES:Lj1/a;
 
     .line 2
     .line 3
@@ -208,8 +193,7 @@
 
     const-class v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
 
-    invoke-static {v0, p0}, Ljava/lang/Enum;
-    ->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object p0
 
@@ -221,11 +205,9 @@
 .method public static values()[Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
     .locals 1
 
-    sget-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
-    ->$VALUES:[Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
+    sget-object v0, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;->$VALUES:[Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener$ScrollState;
 
-    invoke-virtual {v0}, [Ljava/lang/Object;
-    ->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
 

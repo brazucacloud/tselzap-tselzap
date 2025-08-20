@@ -9,8 +9,7 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -44,8 +43,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v2, v0, v1}, Ljava/lang/String;
-    ->replace(CC)Ljava/lang/String;
+    invoke-virtual {v2, v0, v1}, Ljava/lang/String;->replace(CC)Ljava/lang/String;
 
     .line 8
     .line 9
@@ -53,8 +51,7 @@
     move-result-object v0
 
     .line 11
-    sput-object v0, Landroid/support/v4/os/IResultReceiver;
-    ->DESCRIPTOR:Ljava/lang/String;
+    sput-object v0, Landroid/support/v4/os/IResultReceiver;->DESCRIPTOR:Ljava/lang/String;
 
     .line 12
     .line 13

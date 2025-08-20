@@ -8,8 +8,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lu0/z;
-    ->c:Lu0/n;
+    iget-object v0, p0, Lu0/z;->c:Lu0/n;
 
     .line 2
     .line 3
@@ -17,13 +16,11 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Lu0/z;
-    ->d:Landroid/graphics/RectF;
+    iget-object v0, p0, Lu0/z;->d:Landroid/graphics/RectF;
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Landroid/graphics/RectF;
-    ->isEmpty()Z
+    invoke-virtual {v0}, Landroid/graphics/RectF;->isEmpty()Z
 
     .line 8
     .line 9
@@ -39,8 +36,7 @@
 
     .line 14
     :cond_0
-    invoke-virtual {p1}, Landroid/view/View;
-    ->invalidate()V
+    invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
     .line 15
     .line 16

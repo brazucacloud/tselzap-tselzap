@@ -16,19 +16,16 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroidx/constraintlayout/motion/widget/Key;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/motion/widget/Key;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    sget v0, Landroidx/constraintlayout/motion/widget/Key;
-    ->UNSET:I
+    sget v0, Landroidx/constraintlayout/motion/widget/Key;->UNSET:I
 
     .line 5
     .line 6
-    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPositionBase;
-    ->mCurveFit:I    
+    iput v0, p0, Landroidx/constraintlayout/motion/widget/KeyPositionBase;->mCurveFit:I
     return-void
 .end method
 

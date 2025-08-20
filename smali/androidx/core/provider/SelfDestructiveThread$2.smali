@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/provider/SelfDestructiveThread;
-    ->postAndReply(Ljava/util/concurrent/Callable;Landroidx/core/provider/SelfDestructiveThread$ReplyCallback;)V
+    value = Landroidx/core/provider/SelfDestructiveThread;->postAndReply(Ljava/util/concurrent/Callable;Landroidx/core/provider/SelfDestructiveThread$ReplyCallback;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -38,28 +37,23 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/core/provider/SelfDestructiveThread$2;
-    ->this$0:Landroidx/core/provider/SelfDestructiveThread;
+    iput-object p1, p0, Landroidx/core/provider/SelfDestructiveThread$2;->this$0:Landroidx/core/provider/SelfDestructiveThread;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/core/provider/SelfDestructiveThread$2;
-    ->val$callable:Ljava/util/concurrent/Callable;
+    iput-object p2, p0, Landroidx/core/provider/SelfDestructiveThread$2;->val$callable:Ljava/util/concurrent/Callable;
 
     .line 4
     .line 5
-    iput-object p3, p0, Landroidx/core/provider/SelfDestructiveThread$2;
-    ->val$calleeHandler:Landroid/os/Handler;
+    iput-object p3, p0, Landroidx/core/provider/SelfDestructiveThread$2;->val$calleeHandler:Landroid/os/Handler;
 
     .line 6
     .line 7
-    iput-object p4, p0, Landroidx/core/provider/SelfDestructiveThread$2;
-    ->val$reply:Landroidx/core/provider/SelfDestructiveThread$ReplyCallback;
+    iput-object p4, p0, Landroidx/core/provider/SelfDestructiveThread$2;->val$reply:Landroidx/core/provider/SelfDestructiveThread$ReplyCallback;
 
     .line 8
     .line 9
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 10
     .line 11
@@ -74,13 +68,11 @@
 
     .line 1
     :try_start_0
-    iget-object v0, p0, Landroidx/core/provider/SelfDestructiveThread$2;
-    ->val$callable:Ljava/util/concurrent/Callable;
+    iget-object v0, p0, Landroidx/core/provider/SelfDestructiveThread$2;->val$callable:Ljava/util/concurrent/Callable;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/concurrent/Callable;
-    ->call()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/concurrent/Callable;->call()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -98,8 +90,7 @@
 
     .line 9
     :goto_0
-    iget-object v1, p0, Landroidx/core/provider/SelfDestructiveThread$2;
-    ->val$calleeHandler:Landroid/os/Handler;
+    iget-object v1, p0, Landroidx/core/provider/SelfDestructiveThread$2;->val$calleeHandler:Landroid/os/Handler;
 
     .line 10
     .line 11
@@ -107,14 +98,12 @@
 
     .line 12
     .line 13
-    invoke-direct {v2, p0, v0}, Landroidx/core/provider/SelfDestructiveThread$2$1;
-    -><init>(Landroidx/core/provider/SelfDestructiveThread$2;Ljava/lang/Object;)V
+    invoke-direct {v2, p0, v0}, Landroidx/core/provider/SelfDestructiveThread$2$1;-><init>(Landroidx/core/provider/SelfDestructiveThread$2;Ljava/lang/Object;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {v1, v2}, Landroid/os/Handler;
-    ->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
     .line 17
     .line 18

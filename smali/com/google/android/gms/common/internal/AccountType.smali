@@ -37,8 +37,7 @@
 
     move-result-object v0
 
-    sput-object v0, Lcom/google/android/gms/common/internal/AccountType;
-    ->zza:[Ljava/lang/String;
+    sput-object v0, Lcom/google/android/gms/common/internal/AccountType;->zza:[Ljava/lang/String;
 
     return-void
 .end method
@@ -46,8 +45,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 

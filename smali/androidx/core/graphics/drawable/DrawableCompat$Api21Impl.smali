@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -38,8 +37,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/graphics/drawable/Drawable;
-    ->applyTheme(Landroid/content/res/Resources$Theme;)V
+    invoke-virtual {p0, p1}, Landroid/graphics/drawable/Drawable;->applyTheme(Landroid/content/res/Resources$Theme;)V
 
     .line 2
     .line 3
@@ -53,8 +51,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;
-    ->canApplyTheme()Z
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->canApplyTheme()Z
 
     .line 2
     .line 3
@@ -70,8 +67,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;
-    ->getColorFilter()Landroid/graphics/ColorFilter;
+    invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->getColorFilter()Landroid/graphics/ColorFilter;
 
     .line 2
     .line 3
@@ -87,8 +83,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/graphics/drawable/Drawable;
-    ->inflate(Landroid/content/res/Resources;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroid/content/res/Resources$Theme;)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/graphics/drawable/Drawable;->inflate(Landroid/content/res/Resources;Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroid/content/res/Resources$Theme;)V
 
     .line 2
     .line 3
@@ -102,8 +97,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/graphics/drawable/Drawable;
-    ->setHotspot(FF)V
+    invoke-virtual {p0, p1, p2}, Landroid/graphics/drawable/Drawable;->setHotspot(FF)V
 
     .line 2
     .line 3
@@ -117,8 +111,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/graphics/drawable/Drawable;
-    ->setHotspotBounds(IIII)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/graphics/drawable/Drawable;->setHotspotBounds(IIII)V
 
     .line 2
     .line 3
@@ -132,8 +125,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/graphics/drawable/Drawable;
-    ->setTint(I)V
+    invoke-virtual {p0, p1}, Landroid/graphics/drawable/Drawable;->setTint(I)V
 
     .line 2
     .line 3
@@ -147,8 +139,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/graphics/drawable/Drawable;
-    ->setTintList(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {p0, p1}, Landroid/graphics/drawable/Drawable;->setTintList(Landroid/content/res/ColorStateList;)V
 
     .line 2
     .line 3
@@ -162,8 +153,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/graphics/drawable/Drawable;
-    ->setTintMode(Landroid/graphics/PorterDuff$Mode;)V
+    invoke-virtual {p0, p1}, Landroid/graphics/drawable/Drawable;->setTintMode(Landroid/graphics/PorterDuff$Mode;)V
 
     .line 2
     .line 3

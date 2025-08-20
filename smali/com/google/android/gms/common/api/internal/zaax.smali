@@ -14,11 +14,9 @@
 .method public constructor <init>(Lcom/google/android/gms/common/api/internal/zabi;)V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zaax;
-    ->zaa:Lcom/google/android/gms/common/api/internal/zabi;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zaax;->zaa:Lcom/google/android/gms/common/api/internal/zabi;
 
     return-void
 .end method
@@ -29,23 +27,19 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaax;
-    ->zaa:Lcom/google/android/gms/common/api/internal/zabi;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaax;->zaa:Lcom/google/android/gms/common/api/internal/zabi;
 
     .line 2
     .line 3
-    iget-object v0, v0, Lcom/google/android/gms/common/api/internal/zabi;
-    ->zag:Lcom/google/android/gms/common/api/internal/zabe;
+    iget-object v0, v0, Lcom/google/android/gms/common/api/internal/zabi;->zag:Lcom/google/android/gms/common/api/internal/zabe;
 
     .line 4
     .line 5
-    iget-object v0, v0, Lcom/google/android/gms/common/api/internal/zabe;
-    ->zaa:Ljava/util/Queue;
+    iget-object v0, v0, Lcom/google/android/gms/common/api/internal/zabe;->zaa:Ljava/util/Queue;
 
     .line 6
     .line 7
-    invoke-interface {v0, p1}, Ljava/util/Queue;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/Queue;->add(Ljava/lang/Object;)Z
 
     .line 8
     .line 9
@@ -65,8 +59,7 @@
 
     .line 4
     .line 5
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -97,18 +90,15 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaax;
-    ->zaa:Lcom/google/android/gms/common/api/internal/zabi;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaax;->zaa:Lcom/google/android/gms/common/api/internal/zabi;
 
     .line 2
     .line 3
-    iget-object v0, v0, Lcom/google/android/gms/common/api/internal/zabi;
-    ->zaa:Ljava/util/Map;
+    iget-object v0, v0, Lcom/google/android/gms/common/api/internal/zabi;->zaa:Ljava/util/Map;
 
     .line 4
     .line 5
-    invoke-interface {v0}, Ljava/util/Map;
-    ->values()Ljava/util/Collection;
+    invoke-interface {v0}, Ljava/util/Map;->values()Ljava/util/Collection;
 
     .line 6
     .line 7
@@ -116,8 +106,7 @@
     move-result-object v0
 
     .line 9
-    invoke-interface {v0}, Ljava/util/Collection;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     .line 10
     .line 11
@@ -126,8 +115,7 @@
 
     .line 13
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 14
     .line 15
@@ -139,8 +127,7 @@
 
     .line 18
     .line 19
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -152,8 +139,7 @@
 
     .line 24
     .line 25
-    invoke-interface {v1}, Lcom/google/android/gms/common/api/Api$Client;
-    ->disconnect()V
+    invoke-interface {v1}, Lcom/google/android/gms/common/api/Api$Client;->disconnect()V
 
     .line 26
     .line 27
@@ -162,23 +148,19 @@
 
     .line 29
     :cond_0
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaax;
-    ->zaa:Lcom/google/android/gms/common/api/internal/zabi;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaax;->zaa:Lcom/google/android/gms/common/api/internal/zabi;
 
     .line 30
     .line 31
-    iget-object v0, v0, Lcom/google/android/gms/common/api/internal/zabi;
-    ->zag:Lcom/google/android/gms/common/api/internal/zabe;
+    iget-object v0, v0, Lcom/google/android/gms/common/api/internal/zabi;->zag:Lcom/google/android/gms/common/api/internal/zabe;
 
     .line 32
     .line 33
-    sget-object v1, Ljava/util/Collections;
-    ->EMPTY_SET:Ljava/util/Set;
+    sget-object v1, Ljava/util/Collections;->EMPTY_SET:Ljava/util/Set;
 
     .line 34
     .line 35
-    iput-object v1, v0, Lcom/google/android/gms/common/api/internal/zabe;
-    ->zad:Ljava/util/Set;
+    iput-object v1, v0, Lcom/google/android/gms/common/api/internal/zabe;->zad:Ljava/util/Set;
 
     .line 36
     .line 37
@@ -189,13 +171,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaax;
-    ->zaa:Lcom/google/android/gms/common/api/internal/zabi;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaax;->zaa:Lcom/google/android/gms/common/api/internal/zabi;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zabi;
-    ->zaj()V
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/zabi;->zaj()V
 
     .line 4
     .line 5

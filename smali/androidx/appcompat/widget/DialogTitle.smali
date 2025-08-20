@@ -6,8 +6,7 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -21,8 +20,7 @@
     .end param
 
     .line 3
-    invoke-direct {p0, p1}, Landroidx/appcompat/widget/AppCompatTextView;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Landroidx/appcompat/widget/AppCompatTextView;-><init>(Landroid/content/Context;)V
 
     return-void
 .end method
@@ -39,8 +37,7 @@
     .end param
 
     .line 2
-    invoke-direct {p0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextView;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
 .end method
@@ -57,8 +54,7 @@
     .end param
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Landroidx/appcompat/widget/AppCompatTextView;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Landroidx/appcompat/widget/AppCompatTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
 .end method
@@ -69,14 +65,12 @@
     .locals 6
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextView;
-    ->onMeasure(II)V
+    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextView;->onMeasure(II)V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroid/widget/TextView;
-    ->getLayout()Landroid/text/Layout;
+    invoke-virtual {p0}, Landroid/widget/TextView;->getLayout()Landroid/text/Layout;
 
     .line 5
     .line 6
@@ -88,8 +82,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {v0}, Landroid/text/Layout;
-    ->getLineCount()I
+    invoke-virtual {v0}, Landroid/text/Layout;->getLineCount()I
 
     .line 11
     .line 12
@@ -105,8 +98,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {v0, v1}, Landroid/text/Layout;
-    ->getEllipsisCount(I)I
+    invoke-virtual {v0, v1}, Landroid/text/Layout;->getEllipsisCount(I)I
 
     .line 19
     .line 20
@@ -121,8 +113,7 @@
     const/4 v0, 0x0
 
     .line 25
-    invoke-virtual {p0, v0}, Landroid/widget/TextView;
-    ->setSingleLine(Z)V
+    invoke-virtual {p0, v0}, Landroid/widget/TextView;->setSingleLine(Z)V
 
     .line 26
     .line 27
@@ -130,14 +121,12 @@
     const/4 v1, 0x2
 
     .line 29
-    invoke-virtual {p0, v1}, Landroid/widget/TextView;
-    ->setMaxLines(I)V
+    invoke-virtual {p0, v1}, Landroid/widget/TextView;->setMaxLines(I)V
 
     .line 30
     .line 31
     .line 32
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 33
     .line 34
@@ -145,8 +134,7 @@
     move-result-object v1
 
     .line 36
-    sget-object v2, Landroidx/appcompat/R$styleable;
-    ->TextAppearance:[I
+    sget-object v2, Landroidx/appcompat/R$styleable;->TextAppearance:[I
 
     .line 37
     .line 38
@@ -163,8 +151,7 @@
     const/4 v5, 0x0
 
     .line 45
-    invoke-virtual {v1, v5, v2, v3, v4}, Landroid/content/Context;
-    ->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
+    invoke-virtual {v1, v5, v2, v3, v4}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
     .line 46
     .line 47
@@ -172,13 +159,11 @@
     move-result-object v1
 
     .line 49
-    sget v2, Landroidx/appcompat/R$styleable;
-    ->TextAppearance_android_textSize:I
+    sget v2, Landroidx/appcompat/R$styleable;->TextAppearance_android_textSize:I
 
     .line 50
     .line 51
-    invoke-virtual {v1, v2, v0}, Landroid/content/res/TypedArray;
-    ->getDimensionPixelSize(II)I
+    invoke-virtual {v1, v2, v0}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
     .line 52
     .line 53
@@ -193,21 +178,18 @@
     int-to-float v2, v2
 
     .line 58
-    invoke-virtual {p0, v0, v2}, Landroidx/appcompat/widget/AppCompatTextView;
-    ->setTextSize(IF)V
+    invoke-virtual {p0, v0, v2}, Landroidx/appcompat/widget/AppCompatTextView;->setTextSize(IF)V
 
     .line 59
     .line 60
     .line 61
     :cond_0
-    invoke-virtual {v1}, Landroid/content/res/TypedArray;
-    ->recycle()V
+    invoke-virtual {v1}, Landroid/content/res/TypedArray;->recycle()V
 
     .line 62
     .line 63
     .line 64
-    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextView;
-    ->onMeasure(II)V
+    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextView;->onMeasure(II)V
 
     .line 65
     .line 66

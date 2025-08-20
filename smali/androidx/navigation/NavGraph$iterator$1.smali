@@ -9,8 +9,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/navigation/NavGraph;
-    ->iterator()Ljava/util/Iterator;
+    value = Landroidx/navigation/NavGraph;->iterator()Ljava/util/Iterator;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -42,13 +41,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/navigation/NavGraph$iterator$1;
-    ->this$0:Landroidx/navigation/NavGraph;
+    iput-object p1, p0, Landroidx/navigation/NavGraph$iterator$1;->this$0:Landroidx/navigation/NavGraph;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
@@ -56,8 +53,7 @@
     const/4 p1, -0x1
 
     .line 7
-    iput p1, p0, Landroidx/navigation/NavGraph$iterator$1;
-    ->index:I    
+    iput p1, p0, Landroidx/navigation/NavGraph$iterator$1;->index:I
     return-void
 .end method
 
@@ -67,8 +63,7 @@
     .locals 3
 
     .line 1
-    iget v0, p0, Landroidx/navigation/NavGraph$iterator$1;
-    ->index:I
+    iget v0, p0, Landroidx/navigation/NavGraph$iterator$1;->index:I
 
     .line 2
     .line 3
@@ -78,13 +73,11 @@
     add-int/2addr v0, v1
 
     .line 5
-    iget-object v2, p0, Landroidx/navigation/NavGraph$iterator$1;
-    ->this$0:Landroidx/navigation/NavGraph;
+    iget-object v2, p0, Landroidx/navigation/NavGraph$iterator$1;->this$0:Landroidx/navigation/NavGraph;
 
     .line 6
     .line 7
-    invoke-virtual {v2}, Landroidx/navigation/NavGraph;
-    ->getNodes()Landroidx/collection/SparseArrayCompat;
+    invoke-virtual {v2}, Landroidx/navigation/NavGraph;->getNodes()Landroidx/collection/SparseArrayCompat;
 
     .line 8
     .line 9
@@ -92,8 +85,7 @@
     move-result-object v2
 
     .line 11
-    invoke-virtual {v2}, Landroidx/collection/SparseArrayCompat;
-    ->size()I
+    invoke-virtual {v2}, Landroidx/collection/SparseArrayCompat;->size()I
 
     .line 12
     .line 13
@@ -114,8 +106,7 @@
     .locals 3
 
     .line 2
-    invoke-virtual {p0}, Landroidx/navigation/NavGraph$iterator$1;
-    ->hasNext()Z
+    invoke-virtual {p0}, Landroidx/navigation/NavGraph$iterator$1;->hasNext()Z
 
     move-result v0
 
@@ -124,28 +115,22 @@
     const/4 v0, 0x1
 
     .line 3
-    iput-boolean v0, p0, Landroidx/navigation/NavGraph$iterator$1;
-    ->wentToNext:Z
+    iput-boolean v0, p0, Landroidx/navigation/NavGraph$iterator$1;->wentToNext:Z
 
     .line 4
-    iget-object v1, p0, Landroidx/navigation/NavGraph$iterator$1;
-    ->this$0:Landroidx/navigation/NavGraph;
+    iget-object v1, p0, Landroidx/navigation/NavGraph$iterator$1;->this$0:Landroidx/navigation/NavGraph;
 
-    invoke-virtual {v1}, Landroidx/navigation/NavGraph;
-    ->getNodes()Landroidx/collection/SparseArrayCompat;
+    invoke-virtual {v1}, Landroidx/navigation/NavGraph;->getNodes()Landroidx/collection/SparseArrayCompat;
 
     move-result-object v1
 
-    iget v2, p0, Landroidx/navigation/NavGraph$iterator$1;
-    ->index:I
+    iget v2, p0, Landroidx/navigation/NavGraph$iterator$1;->index:I
 
     add-int/2addr v2, v0
 
-    iput v2, p0, Landroidx/navigation/NavGraph$iterator$1;
-    ->index:I
+    iput v2, p0, Landroidx/navigation/NavGraph$iterator$1;->index:I
 
-    invoke-virtual {v1, v2}, Landroidx/collection/SparseArrayCompat;
-    ->valueAt(I)Ljava/lang/Object;
+    invoke-virtual {v1, v2}, Landroidx/collection/SparseArrayCompat;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -157,8 +142,7 @@
     :cond_0
     new-instance v0, Ljava/util/NoSuchElementException;
 
-    invoke-direct {v0}, Ljava/util/NoSuchElementException;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/NoSuchElementException;-><init>()V
 
     throw v0
 .end method
@@ -167,8 +151,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/navigation/NavGraph$iterator$1;
-    ->next()Landroidx/navigation/NavDestination;
+    invoke-virtual {p0}, Landroidx/navigation/NavGraph$iterator$1;->next()Landroidx/navigation/NavDestination;
 
     move-result-object v0
 
@@ -179,8 +162,7 @@
     .locals 3
 
     .line 1
-    iget-boolean v0, p0, Landroidx/navigation/NavGraph$iterator$1;
-    ->wentToNext:Z
+    iget-boolean v0, p0, Landroidx/navigation/NavGraph$iterator$1;->wentToNext:Z
 
     .line 2
     .line 3
@@ -188,13 +170,11 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Landroidx/navigation/NavGraph$iterator$1;
-    ->this$0:Landroidx/navigation/NavGraph;
+    iget-object v0, p0, Landroidx/navigation/NavGraph$iterator$1;->this$0:Landroidx/navigation/NavGraph;
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Landroidx/navigation/NavGraph;
-    ->getNodes()Landroidx/collection/SparseArrayCompat;
+    invoke-virtual {v0}, Landroidx/navigation/NavGraph;->getNodes()Landroidx/collection/SparseArrayCompat;
 
     .line 8
     .line 9
@@ -202,13 +182,11 @@
     move-result-object v0
 
     .line 11
-    iget v1, p0, Landroidx/navigation/NavGraph$iterator$1;
-    ->index:I
+    iget v1, p0, Landroidx/navigation/NavGraph$iterator$1;->index:I
 
     .line 12
     .line 13
-    invoke-virtual {v0, v1}, Landroidx/collection/SparseArrayCompat;
-    ->valueAt(I)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Landroidx/collection/SparseArrayCompat;->valueAt(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -223,25 +201,21 @@
     const/4 v2, 0x0
 
     .line 20
-    invoke-virtual {v1, v2}, Landroidx/navigation/NavDestination;
-    ->setParent(Landroidx/navigation/NavGraph;)V
+    invoke-virtual {v1, v2}, Landroidx/navigation/NavDestination;->setParent(Landroidx/navigation/NavGraph;)V
 
     .line 21
     .line 22
     .line 23
-    iget v1, p0, Landroidx/navigation/NavGraph$iterator$1;
-    ->index:I
+    iget v1, p0, Landroidx/navigation/NavGraph$iterator$1;->index:I
 
     .line 24
     .line 25
-    invoke-virtual {v0, v1}, Landroidx/collection/SparseArrayCompat;
-    ->removeAt(I)V
+    invoke-virtual {v0, v1}, Landroidx/collection/SparseArrayCompat;->removeAt(I)V
 
     .line 26
     .line 27
     .line 28
-    iget v0, p0, Landroidx/navigation/NavGraph$iterator$1;
-    ->index:I
+    iget v0, p0, Landroidx/navigation/NavGraph$iterator$1;->index:I
 
     .line 29
     .line 30
@@ -249,16 +223,14 @@
 
     .line 31
     .line 32
-    iput v0, p0, Landroidx/navigation/NavGraph$iterator$1;
-    ->index:I
+    iput v0, p0, Landroidx/navigation/NavGraph$iterator$1;->index:I
 
     .line 33
     .line 34
     const/4 v0, 0x0
 
     .line 35
-    iput-boolean v0, p0, Landroidx/navigation/NavGraph$iterator$1;
-    ->wentToNext:Z
+    iput-boolean v0, p0, Landroidx/navigation/NavGraph$iterator$1;->wentToNext:Z
 return-void
 
     .line 38
@@ -271,8 +243,7 @@ return-void
 
     .line 41
     .line 42
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 43
     .line 44

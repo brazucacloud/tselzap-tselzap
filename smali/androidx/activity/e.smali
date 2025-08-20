@@ -8,11 +8,9 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/icu/text/DateFormat$HourCycle;
-    ->HOUR_CYCLE_11:Landroid/icu/text/DateFormat$HourCycle;
+    sget-object v0, Landroid/icu/text/DateFormat$HourCycle;->HOUR_CYCLE_11:Landroid/icu/text/DateFormat$HourCycle;
 
-    invoke-virtual {v0}, Landroid/icu/text/DateFormat$HourCycle;
-    ->ordinal()I
+    invoke-virtual {v0}, Landroid/icu/text/DateFormat$HourCycle;->ordinal()I
 
     move-result v0
 
@@ -23,8 +21,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/icu/text/DateFormat$HourCycle;
-    ->HOUR_CYCLE_11:Landroid/icu/text/DateFormat$HourCycle;
+    sget-object v0, Landroid/icu/text/DateFormat$HourCycle;->HOUR_CYCLE_11:Landroid/icu/text/DateFormat$HourCycle;
 
     return-object v0
 .end method
@@ -33,8 +30,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
-    ->ACTION_SHOW_TEXT_SUGGESTIONS:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
+    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;->ACTION_SHOW_TEXT_SUGGESTIONS:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
 
     return-object v0
 .end method
@@ -52,8 +48,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Activity;
-    ->getOnBackInvokedDispatcher()Landroid/window/OnBackInvokedDispatcher;
+    invoke-virtual {p0}, Landroid/app/Activity;->getOnBackInvokedDispatcher()Landroid/window/OnBackInvokedDispatcher;
 
     move-result-object p0
 
@@ -64,8 +59,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;
-    ->findOnBackInvokedDispatcher()Landroid/window/OnBackInvokedDispatcher;
+    invoke-virtual {p0}, Landroid/view/View;->findOnBackInvokedDispatcher()Landroid/window/OnBackInvokedDispatcher;
 
     move-result-object p0
 
@@ -76,8 +70,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Dialog;
-    ->getOnBackInvokedDispatcher()Landroid/window/OnBackInvokedDispatcher;
+    invoke-virtual {p0}, Landroid/app/Dialog;->getOnBackInvokedDispatcher()Landroid/window/OnBackInvokedDispatcher;
 
     move-result-object p0
 
@@ -101,8 +94,7 @@
 
     const-class v1, Landroid/os/Messenger;
 
-    invoke-virtual {p0, v0, v1}, Landroid/content/Intent;
-    ->getParcelableExtra(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Landroid/content/Intent;->getParcelableExtra(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -117,8 +109,7 @@
 
     const-class v1, Landroid/os/Parcelable;
 
-    invoke-virtual {p0, v0, v1}, Landroid/os/Bundle;
-    ->getParcelable(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, v1}, Landroid/os/Bundle;->getParcelable(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -129,8 +120,7 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Landroid/os/Process;
-    ->myProcessName()Ljava/lang/String;
+    invoke-static {}, Landroid/os/Process;->myProcessName()Ljava/lang/String;
 
     move-result-object v0
 
@@ -141,8 +131,7 @@
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1, p2}, Landroid/window/OnBackInvokedDispatcher;
-    ->registerOnBackInvokedCallback(ILandroid/window/OnBackInvokedCallback;)V
+    invoke-interface {p0, p1, p2}, Landroid/window/OnBackInvokedDispatcher;->registerOnBackInvokedCallback(ILandroid/window/OnBackInvokedCallback;)V
 return-void
 .end method
 
@@ -150,8 +139,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1}, Landroid/window/OnBackInvokedDispatcher;
-    ->unregisterOnBackInvokedCallback(Landroid/window/OnBackInvokedCallback;)V
+    invoke-interface {p0, p1}, Landroid/window/OnBackInvokedDispatcher;->unregisterOnBackInvokedCallback(Landroid/window/OnBackInvokedCallback;)V
 return-void
 .end method
 
@@ -161,8 +149,7 @@ return-void
     .line 1
     const v0, 0xf4240
 
-    invoke-interface {p0, v0, p1}, Landroid/window/OnBackInvokedDispatcher;
-    ->registerOnBackInvokedCallback(ILandroid/window/OnBackInvokedCallback;)V
+    invoke-interface {p0, v0, p1}, Landroid/window/OnBackInvokedDispatcher;->registerOnBackInvokedCallback(ILandroid/window/OnBackInvokedCallback;)V
 return-void
 .end method
 
@@ -170,8 +157,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroid/os/LocaleList;
-    ->matchesLanguageAndScript(Ljava/util/Locale;Ljava/util/Locale;)Z
+    invoke-static {p0, p1}, Landroid/os/LocaleList;->matchesLanguageAndScript(Ljava/util/Locale;Ljava/util/Locale;)Z
 
     move-result p0
 
@@ -182,8 +168,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-static {}, Landroid/icu/text/DateFormat$HourCycle;
-    ->values()[Landroid/icu/text/DateFormat$HourCycle;
+    invoke-static {}, Landroid/icu/text/DateFormat$HourCycle;->values()[Landroid/icu/text/DateFormat$HourCycle;
 
     move-result-object v0
 
@@ -194,11 +179,9 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/icu/text/DateFormat$HourCycle;
-    ->HOUR_CYCLE_12:Landroid/icu/text/DateFormat$HourCycle;
+    sget-object v0, Landroid/icu/text/DateFormat$HourCycle;->HOUR_CYCLE_12:Landroid/icu/text/DateFormat$HourCycle;
 
-    invoke-virtual {v0}, Landroid/icu/text/DateFormat$HourCycle;
-    ->ordinal()I
+    invoke-virtual {v0}, Landroid/icu/text/DateFormat$HourCycle;->ordinal()I
 
     move-result v0
 
@@ -209,8 +192,7 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/icu/text/DateFormat$HourCycle;
-    ->HOUR_CYCLE_12:Landroid/icu/text/DateFormat$HourCycle;
+    sget-object v0, Landroid/icu/text/DateFormat$HourCycle;->HOUR_CYCLE_12:Landroid/icu/text/DateFormat$HourCycle;
 
     return-object v0
 .end method
@@ -219,11 +201,9 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/icu/text/DateFormat$HourCycle;
-    ->HOUR_CYCLE_23:Landroid/icu/text/DateFormat$HourCycle;
+    sget-object v0, Landroid/icu/text/DateFormat$HourCycle;->HOUR_CYCLE_23:Landroid/icu/text/DateFormat$HourCycle;
 
-    invoke-virtual {v0}, Landroid/icu/text/DateFormat$HourCycle;
-    ->ordinal()I
+    invoke-virtual {v0}, Landroid/icu/text/DateFormat$HourCycle;->ordinal()I
 
     move-result v0
 
@@ -234,8 +214,7 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/icu/text/DateFormat$HourCycle;
-    ->HOUR_CYCLE_23:Landroid/icu/text/DateFormat$HourCycle;
+    sget-object v0, Landroid/icu/text/DateFormat$HourCycle;->HOUR_CYCLE_23:Landroid/icu/text/DateFormat$HourCycle;
 
     return-object v0
 .end method
@@ -244,11 +223,9 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/icu/text/DateFormat$HourCycle;
-    ->HOUR_CYCLE_24:Landroid/icu/text/DateFormat$HourCycle;
+    sget-object v0, Landroid/icu/text/DateFormat$HourCycle;->HOUR_CYCLE_24:Landroid/icu/text/DateFormat$HourCycle;
 
-    invoke-virtual {v0}, Landroid/icu/text/DateFormat$HourCycle;
-    ->ordinal()I
+    invoke-virtual {v0}, Landroid/icu/text/DateFormat$HourCycle;->ordinal()I
 
     move-result v0
 
@@ -259,8 +236,7 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/icu/text/DateFormat$HourCycle;
-    ->HOUR_CYCLE_24:Landroid/icu/text/DateFormat$HourCycle;
+    sget-object v0, Landroid/icu/text/DateFormat$HourCycle;->HOUR_CYCLE_24:Landroid/icu/text/DateFormat$HourCycle;
 
     return-object v0
 .end method
@@ -269,8 +245,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-static {}, Landroid/provider/MediaStore;
-    ->getPickImagesMaxLimit()I
+    invoke-static {}, Landroid/provider/MediaStore;->getPickImagesMaxLimit()I
 
     move-result v0
 

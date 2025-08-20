@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/content/ContentProvider;
-    -><init>()V
+    invoke-direct {p0}, Landroid/content/ContentProvider;-><init>()V
     return-void
 .end method
 
@@ -39,8 +38,7 @@
 
     .line 4
     .line 5
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -65,8 +63,7 @@
 
     .line 4
     .line 5
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -95,8 +92,7 @@
 
     .line 4
     .line 5
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -107,8 +103,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/ContentProvider;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/ContentProvider;->getContext()Landroid/content/Context;
 
     .line 2
     .line 3
@@ -120,8 +115,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Landroid/content/Context;
-    ->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     .line 8
     .line 9
@@ -133,8 +127,7 @@
 
     .line 12
     .line 13
-    invoke-static {v0}, Landroidx/startup/AppInitializer;
-    ->getInstance(Landroid/content/Context;)Landroidx/startup/AppInitializer;
+    invoke-static {v0}, Landroidx/startup/AppInitializer;->getInstance(Landroid/content/Context;)Landroidx/startup/AppInitializer;
 
     .line 14
     .line 15
@@ -142,8 +135,7 @@
     move-result-object v0
 
     .line 17
-    invoke-virtual {v0}, Landroidx/startup/AppInitializer;
-    ->discoverAndInitialize()V
+    invoke-virtual {v0}, Landroidx/startup/AppInitializer;->discoverAndInitialize()V
 
     .line 18
     .line 19
@@ -163,8 +155,7 @@
 
     .line 25
     .line 26
-    invoke-direct {v0, v1}, Landroidx/startup/StartupException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Landroidx/startup/StartupException;-><init>(Ljava/lang/String;)V
 
     .line 27
     .line 28
@@ -205,8 +196,7 @@
 
     .line 4
     .line 5
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -241,8 +231,7 @@
 
     .line 4
     .line 5
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7

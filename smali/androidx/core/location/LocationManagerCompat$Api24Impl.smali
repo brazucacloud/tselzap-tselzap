@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -50,8 +49,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/location/LocationManager;
-    ->registerGnssMeasurementsCallback(Landroid/location/GnssMeasurementsEvent$Callback;)Z
+    invoke-virtual {p0, p1}, Landroid/location/LocationManager;->registerGnssMeasurementsCallback(Landroid/location/GnssMeasurementsEvent$Callback;)Z
 
     move-result p0
 
@@ -80,8 +78,7 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1, p2}, Landroid/location/LocationManager;
-    ->registerGnssMeasurementsCallback(Landroid/location/GnssMeasurementsEvent$Callback;Landroid/os/Handler;)Z
+    invoke-virtual {p0, p1, p2}, Landroid/location/LocationManager;->registerGnssMeasurementsCallback(Landroid/location/GnssMeasurementsEvent$Callback;Landroid/os/Handler;)Z
 
     move-result p0
 
@@ -122,14 +119,12 @@
 
     .line 8
     :goto_0
-    invoke-static {v2}, Landroidx/core/util/Preconditions;
-    ->checkArgument(Z)V
+    invoke-static {v2}, Landroidx/core/util/Preconditions;->checkArgument(Z)V
 
     .line 9
     .line 10
     .line 11
-    sget-object v2, Landroidx/core/location/LocationManagerCompat$GnssListenersHolder;
-    ->sGnssStatusListeners:Landroidx/collection/SimpleArrayMap;
+    sget-object v2, Landroidx/core/location/LocationManagerCompat$GnssListenersHolder;->sGnssStatusListeners:Landroidx/collection/SimpleArrayMap;
 
     .line 12
     .line 13
@@ -137,8 +132,7 @@
 
     .line 14
     :try_start_0
-    invoke-virtual {v2, p3}, Landroidx/collection/SimpleArrayMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, p3}, Landroidx/collection/SimpleArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -158,8 +152,7 @@
 
     .line 23
     .line 24
-    invoke-direct {v3, p3}, Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;
-    -><init>(Landroidx/core/location/GnssStatusCompat$Callback;)V
+    invoke-direct {v3, p3}, Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;-><init>(Landroidx/core/location/GnssStatusCompat$Callback;)V
 
     .line 25
     .line 26
@@ -175,21 +168,18 @@
 
     .line 30
     :cond_1
-    invoke-virtual {v3}, Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;
-    ->unregister()V
+    invoke-virtual {v3}, Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;->unregister()V
 
     .line 31
     .line 32
     .line 33
     :goto_1
-    invoke-virtual {v3, p2}, Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;
-    ->register(Ljava/util/concurrent/Executor;)V
+    invoke-virtual {v3, p2}, Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;->register(Ljava/util/concurrent/Executor;)V
 
     .line 34
     .line 35
     .line 36
-    invoke-virtual {p0, v3, p1}, Landroid/location/LocationManager;
-    ->registerGnssStatusCallback(Landroid/location/GnssStatus$Callback;Landroid/os/Handler;)Z
+    invoke-virtual {p0, v3, p1}, Landroid/location/LocationManager;->registerGnssStatusCallback(Landroid/location/GnssStatus$Callback;Landroid/os/Handler;)Z
 
     .line 37
     .line 38
@@ -201,8 +191,7 @@
 
     .line 41
     .line 42
-    invoke-virtual {v2, p3, v3}, Landroidx/collection/SimpleArrayMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, p3, v3}, Landroidx/collection/SimpleArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 43
     .line 44
@@ -408,8 +397,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/location/LocationManager;
-    ->unregisterGnssMeasurementsCallback(Landroid/location/GnssMeasurementsEvent$Callback;)V
+    invoke-virtual {p0, p1}, Landroid/location/LocationManager;->unregisterGnssMeasurementsCallback(Landroid/location/GnssMeasurementsEvent$Callback;)V
 
     .line 2
     .line 3
@@ -438,8 +426,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;
-    ->unregister()V
+    invoke-virtual {v0}, Landroidx/core/location/LocationManagerCompat$PreRGnssStatusTransport;->unregister()V
 
     .line 9
     .line 10
@@ -449,8 +436,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0, p1}, Landroid/location/LocationManager;
-    ->unregisterGnssStatusCallback(Landroid/location/GnssStatus$Callback;)V
+    invoke-virtual {p0, p1}, Landroid/location/LocationManager;->unregisterGnssStatusCallback(Landroid/location/GnssStatus$Callback;)V
 
     .line 14
     .line 15

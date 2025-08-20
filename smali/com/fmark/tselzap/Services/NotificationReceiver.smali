@@ -20,8 +20,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/service/notification/NotificationListenerService;
-    -><init>()V
+    invoke-direct {p0}, Landroid/service/notification/NotificationListenerService;-><init>()V
 
     .line 2
     .line 3
@@ -33,8 +32,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->lambda$onListenerDisconnected$6()V
+    invoke-direct {p0}, Lcom/fmark/tselzap/Services/NotificationReceiver;->lambda$onListenerDisconnected$6()V
     return-void
 .end method
 
@@ -55,8 +53,7 @@
     .line 6
     .line 7
     :try_start_0
-    invoke-direct {p0, p1}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->contactExists(Ljava/lang/String;)Z
+    invoke-direct {p0, p1}, Lcom/fmark/tselzap/Services/NotificationReceiver;->contactExists(Ljava/lang/String;)Z
 
     .line 8
     .line 9
@@ -68,8 +65,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     .line 14
     .line 15
@@ -77,8 +73,7 @@
     move-result-object v0
 
     .line 17
-    invoke-static {v0, p1}, Lcom/fmark/tselzap/Utils/Tools;
-    ->addContact(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-static {v0, p1}, Lcom/fmark/tselzap/Utils/Tools;->addContact(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 18
     .line 19
@@ -87,20 +82,17 @@
 
     .line 21
     .line 22
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 23
     .line 24
     .line 25
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 26
     .line 27
     .line 28
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 29
     .line 30
@@ -108,8 +100,7 @@
     move-result-object v0
 
     .line 32
-    invoke-static {p2, v0}, Landroid/util/Log;
-    ->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p2, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 33
     .line 34
@@ -129,20 +120,17 @@
 
     .line 39
     .line 40
-    invoke-direct {v1, v0}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 41
     .line 42
     .line 43
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 44
     .line 45
     .line 46
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 47
     .line 48
@@ -150,8 +138,7 @@
     move-result-object v0
 
     .line 50
-    invoke-static {p2, v0}, Landroid/util/Log;
-    ->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p2, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -170,20 +157,17 @@
 
     .line 57
     .line 58
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 59
     .line 60
     .line 61
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 62
     .line 63
     .line 64
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 65
     .line 66
@@ -191,8 +175,7 @@
     move-result-object p1
 
     .line 68
-    invoke-static {p2, p1, v0}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {p2, p1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 69
     .line 70
@@ -204,8 +187,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->lambda$sendToApi$2(Lcom/android/volley/VolleyError;)V
+    invoke-static {p0}, Lcom/fmark/tselzap/Services/NotificationReceiver;->lambda$sendToApi$2(Lcom/android/volley/VolleyError;)V
 
     return-void
 .end method
@@ -214,8 +196,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->lambda$onDestroy$5(Lcom/android/volley/Request;)Z
+    invoke-static {p0}, Lcom/fmark/tselzap/Services/NotificationReceiver;->lambda$onDestroy$5(Lcom/android/volley/Request;)Z
 
     move-result p0
 
@@ -245,13 +226,11 @@
     move-result-object v5
 
     .line 9
-    sget-object v0, Landroid/provider/ContactsContract$PhoneLookup;
-    ->CONTENT_FILTER_URI:Landroid/net/Uri;
+    sget-object v0, Landroid/provider/ContactsContract$PhoneLookup;->CONTENT_FILTER_URI:Landroid/net/Uri;
 
     .line 10
     .line 11
-    invoke-static {p1}, Landroid/net/Uri;
-    ->encode(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Landroid/net/Uri;->encode(Ljava/lang/String;)Ljava/lang/String;
 
     .line 12
     .line 13
@@ -259,8 +238,7 @@
     move-result-object p1
 
     .line 15
-    invoke-static {v0, p1}, Landroid/net/Uri;
-    ->withAppendedPath(Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
+    invoke-static {v0, p1}, Landroid/net/Uri;->withAppendedPath(Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
 
     .line 16
     .line 17
@@ -268,8 +246,7 @@
     move-result-object v4
 
     .line 19
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     .line 20
     .line 21
@@ -286,8 +263,7 @@
     const/4 v6, 0x0
 
     .line 26
-    invoke-virtual/range {v3 .. v8}, Landroid/content/ContentResolver;
-    ->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual/range {v3 .. v8}, Landroid/content/ContentResolver;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     .line 27
     .line 28
@@ -299,8 +275,7 @@
 
     .line 31
     .line 32
-    invoke-interface {v2}, Landroid/database/Cursor;
-    ->getCount()I
+    invoke-interface {v2}, Landroid/database/Cursor;->getCount()I
 
     .line 33
     .line 34
@@ -347,8 +322,7 @@
 
     .line 47
     .line 48
-    invoke-interface {v2}, Landroid/database/Cursor;
-    ->close()V
+    invoke-interface {v2}, Landroid/database/Cursor;->close()V
 
     .line 49
     .line 50
@@ -367,8 +341,7 @@
 
     .line 55
     .line 56
-    invoke-static {v0, v3, p1}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, v3, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -379,8 +352,7 @@
 
     .line 60
     .line 61
-    invoke-interface {v2}, Landroid/database/Cursor;
-    ->close()V
+    invoke-interface {v2}, Landroid/database/Cursor;->close()V
 
     .line 62
     .line 63
@@ -394,8 +366,7 @@
 
     .line 66
     .line 67
-    invoke-interface {v2}, Landroid/database/Cursor;
-    ->close()V
+    invoke-interface {v2}, Landroid/database/Cursor;->close()V
 
     .line 68
     .line 69
@@ -422,8 +393,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->lambda$sendToApi$1(Landroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;Lorg/json/JSONObject;)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lcom/fmark/tselzap/Services/NotificationReceiver;->lambda$sendToApi$1(Landroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;Lorg/json/JSONObject;)V
 return-void
 .end method
 
@@ -431,8 +401,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static/range {p0 .. p6}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->lambda$processMessageResponse$3(Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/List;I)V
+    invoke-static/range {p0 .. p6}, Lcom/fmark/tselzap/Services/NotificationReceiver;->lambda$processMessageResponse$3(Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/List;I)V
 return-void
 .end method
 
@@ -475,8 +444,7 @@ return-void
 
     .line 16
     .line 17
-    invoke-static {v2}, Ljava/util/regex/Pattern;
-    ->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+    invoke-static {v2}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
     .line 18
     .line 19
@@ -484,8 +452,7 @@ return-void
     move-result-object v2
 
     .line 21
-    invoke-virtual {v2, p1}, Ljava/util/regex/Pattern;
-    ->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+    invoke-virtual {v2, p1}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
     .line 22
     .line 23
@@ -493,8 +460,7 @@ return-void
     move-result-object v2
 
     .line 25
-    invoke-virtual {v2}, Ljava/util/regex/Matcher;
-    ->find()Z
+    invoke-virtual {v2}, Ljava/util/regex/Matcher;->find()Z
 
     .line 26
     .line 27
@@ -506,8 +472,7 @@ return-void
 
     .line 30
     .line 31
-    invoke-virtual {v2}, Ljava/util/regex/Matcher;
-    ->group()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/util/regex/Matcher;->group()Ljava/lang/String;
 
     .line 32
     .line 33
@@ -523,8 +488,7 @@ return-void
 
     .line 38
     .line 39
-    invoke-virtual {p1, v0, v1}, Ljava/lang/String;
-    ->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p1, v0, v1}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 40
     .line 41
@@ -556,8 +520,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-virtual {p2, v0}, Landroid/os/BaseBundle;
-    ->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p2, v0}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     .line 4
     .line 5
@@ -569,8 +532,7 @@ return-void
 
     .line 8
     .line 9
-    invoke-direct {p0, p2}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->isValidPhoneNumber(Ljava/lang/String;)Z
+    invoke-direct {p0, p2}, Lcom/fmark/tselzap/Services/NotificationReceiver;->isValidPhoneNumber(Ljava/lang/String;)Z
 
     .line 10
     .line 11
@@ -590,8 +552,7 @@ return-void
 
     .line 17
     .line 18
-    invoke-direct {p0, p1}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->isValidPhoneNumber(Ljava/lang/String;)Z
+    invoke-direct {p0, p1}, Lcom/fmark/tselzap/Services/NotificationReceiver;->isValidPhoneNumber(Ljava/lang/String;)Z
 
     .line 19
     .line 20
@@ -611,8 +572,7 @@ return-void
 
     .line 26
     .line 27
-    invoke-direct {p0, p1}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->extractNumberFromText(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, p1}, Lcom/fmark/tselzap/Services/NotificationReceiver;->extractNumberFromText(Ljava/lang/String;)Ljava/lang/String;
 
     .line 28
     .line 29
@@ -624,8 +584,7 @@ return-void
 
     .line 32
     .line 33
-    invoke-direct {p0, p1}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->isValidPhoneNumber(Ljava/lang/String;)Z
+    invoke-direct {p0, p1}, Lcom/fmark/tselzap/Services/NotificationReceiver;->isValidPhoneNumber(Ljava/lang/String;)Z
 
     .line 34
     .line 35
@@ -650,8 +609,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->lambda$processMessageResponse$4(Ljava/util/List;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/List;I)V
+    invoke-static {p0, p1, p2, p3}, Lcom/fmark/tselzap/Services/NotificationReceiver;->lambda$processMessageResponse$4(Ljava/util/List;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/List;I)V
 return-void
 .end method
 
@@ -663,14 +621,12 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/core/app/NotificationCompat$WearableExtender;
-    -><init>(Landroid/app/Notification;)V
+    invoke-direct {v0, p1}, Landroidx/core/app/NotificationCompat$WearableExtender;-><init>(Landroid/app/Notification;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {v0}, Landroidx/core/app/NotificationCompat$WearableExtender;
-    ->getActions()Ljava/util/List;
+    invoke-virtual {v0}, Landroidx/core/app/NotificationCompat$WearableExtender;->getActions()Ljava/util/List;
 
     .line 7
     .line 8
@@ -678,8 +634,7 @@ return-void
     move-result-object v0
 
     .line 10
-    invoke-interface {v0}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 11
     .line 12
@@ -688,8 +643,7 @@ return-void
 
     .line 14
     :cond_0
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 15
     .line 16
@@ -701,8 +655,7 @@ return-void
 
     .line 19
     .line 20
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -714,8 +667,7 @@ return-void
 
     .line 25
     .line 26
-    invoke-direct {p0, v1}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->hasAllowFreeFormInput(Landroidx/core/app/NotificationCompat$Action;)Z
+    invoke-direct {p0, v1}, Lcom/fmark/tselzap/Services/NotificationReceiver;->hasAllowFreeFormInput(Landroidx/core/app/NotificationCompat$Action;)Z
 
     .line 27
     .line 28
@@ -731,8 +683,7 @@ return-void
 
     .line 33
     :cond_1
-    iget-object v0, p1, Landroid/app/Notification;
-    ->actions:[Landroid/app/Notification$Action;
+    iget-object v0, p1, Landroid/app/Notification;->actions:[Landroid/app/Notification$Action;
 
     .line 34
     .line 35
@@ -744,8 +695,7 @@ return-void
 
     .line 38
     :goto_0
-    invoke-static {p1}, Landroidx/core/app/NotificationCompat;
-    ->getActionCount(Landroid/app/Notification;)I
+    invoke-static {p1}, Landroidx/core/app/NotificationCompat;->getActionCount(Landroid/app/Notification;)I
 
     .line 39
     .line 40
@@ -757,8 +707,7 @@ return-void
 
     .line 43
     .line 44
-    invoke-static {p1, v0}, Landroidx/core/app/NotificationCompat;
-    ->getAction(Landroid/app/Notification;I)Landroidx/core/app/NotificationCompat$Action;
+    invoke-static {p1, v0}, Landroidx/core/app/NotificationCompat;->getAction(Landroid/app/Notification;I)Landroidx/core/app/NotificationCompat$Action;
 
     .line 45
     .line 46
@@ -766,8 +715,7 @@ return-void
     move-result-object v1
 
     .line 48
-    invoke-direct {p0, v1}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->hasAllowFreeFormInput(Landroidx/core/app/NotificationCompat$Action;)Z
+    invoke-direct {p0, v1}, Lcom/fmark/tselzap/Services/NotificationReceiver;->hasAllowFreeFormInput(Landroidx/core/app/NotificationCompat$Action;)Z
 
     .line 49
     .line 50
@@ -800,8 +748,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->lambda$onNotificationPosted$0(Landroid/service/notification/StatusBarNotification;)V
+    invoke-direct {p0, p1}, Lcom/fmark/tselzap/Services/NotificationReceiver;->lambda$onNotificationPosted$0(Landroid/service/notification/StatusBarNotification;)V
 return-void
 .end method
 
@@ -826,8 +773,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 4
     .line 5
@@ -836,14 +782,12 @@ return-void
 
     .line 7
     .line 8
-    invoke-direct {v1, p1}, Landroidx/core/app/NotificationCompat$WearableExtender;
-    -><init>(Landroid/app/Notification;)V
+    invoke-direct {v1, p1}, Landroidx/core/app/NotificationCompat$WearableExtender;-><init>(Landroid/app/Notification;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {v1}, Landroidx/core/app/NotificationCompat$WearableExtender;
-    ->getActions()Ljava/util/List;
+    invoke-virtual {v1}, Landroidx/core/app/NotificationCompat$WearableExtender;->getActions()Ljava/util/List;
 
     .line 12
     .line 13
@@ -851,8 +795,7 @@ return-void
     move-result-object p1
 
     .line 15
-    invoke-interface {p1}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 16
     .line 17
@@ -862,8 +805,7 @@ return-void
     .line 19
     :cond_0
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
     .line 20
     .line 21
@@ -875,8 +817,7 @@ return-void
 
     .line 24
     .line 25
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 26
     .line 27
@@ -892,8 +833,7 @@ return-void
 
     .line 32
     .line 33
-    invoke-virtual {v1}, Landroidx/core/app/NotificationCompat$Action;
-    ->getRemoteInputs()[Landroidx/core/app/RemoteInput;
+    invoke-virtual {v1}, Landroidx/core/app/NotificationCompat$Action;->getRemoteInputs()[Landroidx/core/app/RemoteInput;
 
     .line 34
     .line 35
@@ -905,8 +845,7 @@ return-void
 
     .line 38
     .line 39
-    invoke-virtual {v1}, Landroidx/core/app/NotificationCompat$Action;
-    ->getRemoteInputs()[Landroidx/core/app/RemoteInput;
+    invoke-virtual {v1}, Landroidx/core/app/NotificationCompat$Action;->getRemoteInputs()[Landroidx/core/app/RemoteInput;
 
     .line 40
     .line 41
@@ -914,8 +853,7 @@ return-void
     move-result-object v1
 
     .line 43
-    invoke-static {v1}, Ljava/util/Arrays;
-    ->asList([Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {v1}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     .line 44
     .line 45
@@ -923,8 +861,7 @@ return-void
     move-result-object v1
 
     .line 47
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;
-    ->addAll(Ljava/util/Collection;)Z
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
 
     .line 48
     .line 49
@@ -940,8 +877,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p1, p2}, Landroid/os/BaseBundle;
-    ->get(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Landroid/os/BaseBundle;->get(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -953,8 +889,7 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     .line 8
     .line 9
@@ -990,8 +925,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-virtual {p2, v0}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 4
     .line 5
@@ -1007,8 +941,7 @@ return-void
 
     .line 10
     .line 11
-    invoke-direct {p0, p1, p3, p4, p5}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->sendReply(Ljava/lang/String;Landroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;)V
+    invoke-direct {p0, p1, p3, p4, p5}, Lcom/fmark/tselzap/Services/NotificationReceiver;->sendReply(Ljava/lang/String;Landroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;)V
 
     .line 12
     .line 13
@@ -1021,8 +954,7 @@ return-void
 
     .line 16
     .line 17
-    invoke-virtual {p1, v0}, Ljava/lang/String;
-    ->contains(Ljava/lang/CharSequence;)Z
+    invoke-virtual {p1, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     .line 18
     .line 19
@@ -1038,8 +970,7 @@ return-void
 
     .line 24
     .line 25
-    invoke-virtual {p1, v0}, Ljava/lang/String;
-    ->contains(Ljava/lang/CharSequence;)Z
+    invoke-virtual {p1, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     .line 26
     .line 27
@@ -1055,8 +986,7 @@ return-void
     const/4 p1, -0x1
 
     .line 32
-    invoke-virtual {p2}, Ljava/lang/String;
-    ->hashCode()I
+    invoke-virtual {p2}, Ljava/lang/String;->hashCode()I
 
     .line 33
     .line 34
@@ -1077,8 +1007,7 @@ return-void
 
     .line 41
     .line 42
-    invoke-virtual {p2, v0}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 43
     .line 44
@@ -1105,8 +1034,7 @@ return-void
 
     .line 52
     .line 53
-    invoke-virtual {p2, v0}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 54
     .line 55
@@ -1133,8 +1061,7 @@ return-void
 
     .line 63
     .line 64
-    invoke-virtual {p2, v0}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 65
     .line 66
@@ -1168,8 +1095,7 @@ return-void
 
     .line 77
     .line 78
-    invoke-direct {p0, p1, p3, p4, p5}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->sendReply(Ljava/lang/String;Landroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;)V
+    invoke-direct {p0, p1, p3, p4, p5}, Lcom/fmark/tselzap/Services/NotificationReceiver;->sendReply(Ljava/lang/String;Landroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;)V
 
     .line 79
     .line 80
@@ -1182,8 +1108,7 @@ return-void
 
     .line 83
     .line 84
-    invoke-direct {p0, p1, p3, p4, p5}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->sendReply(Ljava/lang/String;Landroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;)V
+    invoke-direct {p0, p1, p3, p4, p5}, Lcom/fmark/tselzap/Services/NotificationReceiver;->sendReply(Ljava/lang/String;Landroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;)V
 
     .line 85
     .line 86
@@ -1196,8 +1121,7 @@ return-void
 
     .line 89
     .line 90
-    invoke-direct {p0, p1, p3, p4, p5}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->sendReply(Ljava/lang/String;Landroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;)V
+    invoke-direct {p0, p1, p3, p4, p5}, Lcom/fmark/tselzap/Services/NotificationReceiver;->sendReply(Ljava/lang/String;Landroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;)V
 
     .line 91
     .line 92
@@ -1648,8 +1572,7 @@ return-void
 
     .line 2
     :try_start_0
-    invoke-virtual {p1}, Landroid/service/notification/StatusBarNotification;
-    ->getNotification()Landroid/app/Notification;
+    invoke-virtual {p1}, Landroid/service/notification/StatusBarNotification;->getNotification()Landroid/app/Notification;
 
     .line 3
     .line 4
@@ -1670,13 +1593,11 @@ return-void
     .line 10
     :cond_0
     :try_start_1
-    iget-object v5, v4, Landroid/app/Notification;
-    ->extras:Landroid/os/Bundle;
+    iget-object v5, v4, Landroid/app/Notification;->extras:Landroid/os/Bundle;
 
     .line 11
     .line 12
-    invoke-direct {p0, v4}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->getRemoteInputs(Landroid/app/Notification;)Ljava/util/ArrayList;
+    invoke-direct {p0, v4}, Lcom/fmark/tselzap/Services/NotificationReceiver;->getRemoteInputs(Landroid/app/Notification;)Ljava/util/ArrayList;
 
     .line 13
     .line 14
@@ -1688,8 +1609,7 @@ return-void
 
     .line 17
     .line 18
-    invoke-virtual {v6}, Ljava/util/ArrayList;
-    ->isEmpty()Z
+    invoke-virtual {v6}, Ljava/util/ArrayList;->isEmpty()Z
 
     .line 19
     .line 20
@@ -1710,8 +1630,7 @@ return-void
     .line 26
     .line 27
     :cond_2
-    sget-object p1, Ljava/lang/Boolean;
-    ->TRUE:Ljava/lang/Boolean;
+    sget-object p1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
 
     .line 28
     .line 29
@@ -1719,8 +1638,7 @@ return-void
 
     .line 30
     .line 31
-    invoke-virtual {v5, v0}, Landroid/os/BaseBundle;
-    ->get(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v5, v0}, Landroid/os/BaseBundle;->get(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 32
     .line 33
@@ -1728,8 +1646,7 @@ return-void
     move-result-object v0
 
     .line 35
-    invoke-virtual {p1, v0}, Ljava/lang/Boolean;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v0}, Ljava/lang/Boolean;->equals(Ljava/lang/Object;)Z
 
     .line 36
     .line 37
@@ -1748,8 +1665,7 @@ return-void
 
     .line 42
     .line 43
-    invoke-virtual {v5, p1}, Landroid/os/BaseBundle;
-    ->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v5, p1}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     .line 44
     .line 45
@@ -1792,8 +1708,7 @@ return-void
 
     .line 57
     .line 58
-    invoke-direct {p0, v5, v0}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->getString(Landroid/os/Bundle;Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, v5, v0}, Lcom/fmark/tselzap/Services/NotificationReceiver;->getString(Landroid/os/Bundle;Ljava/lang/String;)Ljava/lang/String;
 
     .line 59
     .line 60
@@ -1805,8 +1720,7 @@ return-void
 
     .line 63
     .line 64
-    invoke-direct {p0, v5, v0}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->getString(Landroid/os/Bundle;Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, v5, v0}, Lcom/fmark/tselzap/Services/NotificationReceiver;->getString(Landroid/os/Bundle;Ljava/lang/String;)Ljava/lang/String;
 
     .line 65
     .line 66
@@ -1830,8 +1744,7 @@ return-void
 
     .line 74
     :cond_5
-    invoke-direct {p0, v2, v5}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->extractPhoneNumber(Ljava/lang/String;Landroid/os/Bundle;)Ljava/lang/String;
+    invoke-direct {p0, v2, v5}, Lcom/fmark/tselzap/Services/NotificationReceiver;->extractPhoneNumber(Ljava/lang/String;Landroid/os/Bundle;)Ljava/lang/String;
 
     .line 75
     .line 76
@@ -1839,8 +1752,7 @@ return-void
     move-result-object v0
 
     .line 78
-    sget-boolean v1, Lcom/fmark/tselzap/Contants/Const;
-    ->AddContacts:Z
+    sget-boolean v1, Lcom/fmark/tselzap/Contants/Const;->AddContacts:Z
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_2
 
@@ -1859,8 +1771,7 @@ return-void
     .line 85
     .line 86
     :try_start_4
-    invoke-direct {p0, v0, v2}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->addContactIfNeeded(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {p0, v0, v2}, Lcom/fmark/tselzap/Services/NotificationReceiver;->addContactIfNeeded(Ljava/lang/String;Ljava/lang/String;)V
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
@@ -1869,8 +1780,7 @@ return-void
     .line 89
     :cond_6
     :try_start_5
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->settingsManager:Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;->settingsManager:Lcom/fmark/tselzap/Settings/BotSettingsManager;
 
     .line 90
     .line 91
@@ -1878,8 +1788,7 @@ return-void
 
     .line 92
     .line 93
-    invoke-virtual {v0, v1}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
-    ->getBool(Ljava/lang/String;)Z
+    invoke-virtual {v0, v1}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->getBool(Ljava/lang/String;)Z
 
     .line 94
     .line 95
@@ -1909,8 +1818,7 @@ return-void
 
     .line 104
     :try_start_6
-    invoke-direct/range {v1 .. v7}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->processLocalMessage(Ljava/lang/String;Ljava/lang/String;ZLandroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;)V
+    invoke-direct/range {v1 .. v7}, Lcom/fmark/tselzap/Services/NotificationReceiver;->processLocalMessage(Ljava/lang/String;Ljava/lang/String;ZLandroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;)V
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_0
 
@@ -1928,8 +1836,7 @@ return-void
 
     .line 110
     :try_start_7
-    invoke-direct/range {v1 .. v6}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->sendToApi(Ljava/lang/String;Ljava/lang/String;Landroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;)V
+    invoke-direct/range {v1 .. v6}, Lcom/fmark/tselzap/Services/NotificationReceiver;->sendToApi(Ljava/lang/String;Ljava/lang/String;Landroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;)V
     :try_end_7
     .catchall {:try_start_7 .. :try_end_7} :catchall_1
 
@@ -2106,8 +2013,7 @@ return-void
     .locals 4
 
     .line 1
-    invoke-virtual {p1}, Landroidx/core/app/NotificationCompat$Action;
-    ->getRemoteInputs()[Landroidx/core/app/RemoteInput;
+    invoke-virtual {p1}, Landroidx/core/app/NotificationCompat$Action;->getRemoteInputs()[Landroidx/core/app/RemoteInput;
 
     .line 2
     .line 3
@@ -2126,8 +2032,7 @@ return-void
 
     .line 9
     :cond_0
-    invoke-virtual {p1}, Landroidx/core/app/NotificationCompat$Action;
-    ->getRemoteInputs()[Landroidx/core/app/RemoteInput;
+    invoke-virtual {p1}, Landroidx/core/app/NotificationCompat$Action;->getRemoteInputs()[Landroidx/core/app/RemoteInput;
 
     .line 10
     .line 11
@@ -2150,8 +2055,7 @@ return-void
 
     .line 18
     .line 19
-    invoke-virtual {v3}, Landroidx/core/app/RemoteInput;
-    ->getAllowFreeFormInput()Z
+    invoke-virtual {v3}, Landroidx/core/app/RemoteInput;->getAllowFreeFormInput()Z
 
     .line 20
     .line 21
@@ -2184,8 +2088,7 @@ return-void
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     .line 2
     .line 3
@@ -2197,8 +2100,7 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {v0, v1}, Landroid/provider/Settings$Secure;
-    ->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Landroid/provider/Settings$Secure;->getString(Landroid/content/ContentResolver;Ljava/lang/String;)Ljava/lang/String;
 
     .line 8
     .line 9
@@ -2210,8 +2112,7 @@ return-void
 
     .line 12
     .line 13
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getPackageName()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     .line 14
     .line 15
@@ -2219,8 +2120,7 @@ return-void
     move-result-object v1
 
     .line 17
-    invoke-virtual {v0, v1}, Ljava/lang/String;
-    ->contains(Ljava/lang/CharSequence;)Z
+    invoke-virtual {v0, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     .line 18
     .line 19
@@ -2251,8 +2151,7 @@ return-void
 
     .line 2
     :try_start_0
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     .line 3
     .line 4
@@ -2264,8 +2163,7 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {v1, v2}, Landroid/provider/Settings$Secure;
-    ->getInt(Landroid/content/ContentResolver;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Landroid/provider/Settings$Secure;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;)I
 
     .line 9
     .line 10
@@ -2294,8 +2192,7 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->settingsManager:Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;->settingsManager:Lcom/fmark/tselzap/Settings/BotSettingsManager;
 
     .line 2
     .line 3
@@ -2303,8 +2200,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
-    ->getBool(Ljava/lang/String;)Z
+    invoke-virtual {v0, v1}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->getBool(Ljava/lang/String;)Z
 
     .line 6
     .line 7
@@ -2312,8 +2208,7 @@ return-void
     move-result v0
 
     .line 9
-    invoke-static {}, Lcom/fmark/tselzap/Utils/XiaomiUtils;
-    ->isXiaomiDevice()Z
+    invoke-static {}, Lcom/fmark/tselzap/Utils/XiaomiUtils;->isXiaomiDevice()Z
 
     .line 10
     .line 11
@@ -2329,8 +2224,7 @@ return-void
 
     .line 16
     .line 17
-    invoke-static {p0}, Lcom/fmark/tselzap/Utils/XiaomiUtils;
-    ->hasAutoStartPermission(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/fmark/tselzap/Utils/XiaomiUtils;->hasAutoStartPermission(Landroid/content/Context;)Z
 
     .line 18
     .line 19
@@ -2350,8 +2244,7 @@ return-void
 
     .line 26
     .line 27
-    invoke-static {v0, v1}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 28
     .line 29
@@ -2382,8 +2275,7 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {v0, p1}, Landroid/util/Log;
-    ->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 9
     .line 10
@@ -2392,8 +2284,7 @@ return-void
 
     .line 12
     :cond_0
-    invoke-virtual {p1}, Landroid/service/notification/StatusBarNotification;
-    ->isOngoing()Z
+    invoke-virtual {p1}, Landroid/service/notification/StatusBarNotification;->isOngoing()Z
 
     .line 13
     .line 14
@@ -2409,8 +2300,7 @@ return-void
 
     .line 19
     .line 20
-    invoke-static {v0, p1}, Landroid/util/Log;
-    ->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 21
     .line 22
@@ -2419,8 +2309,7 @@ return-void
 
     .line 24
     :cond_1
-    invoke-direct {p0}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->hasPermission()Z
+    invoke-direct {p0}, Lcom/fmark/tselzap/Services/NotificationReceiver;->hasPermission()Z
 
     .line 25
     .line 26
@@ -2436,8 +2325,7 @@ return-void
 
     .line 31
     .line 32
-    invoke-static {v0, p1}, Landroid/util/Log;
-    ->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 33
     .line 34
@@ -2446,8 +2334,7 @@ return-void
 
     .line 36
     :cond_2
-    invoke-direct {p0}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->isServiceEnabled()Z
+    invoke-direct {p0}, Lcom/fmark/tselzap/Services/NotificationReceiver;->isServiceEnabled()Z
 
     .line 37
     .line 38
@@ -2463,8 +2350,7 @@ return-void
 
     .line 43
     .line 44
-    invoke-static {v0, p1}, Landroid/util/Log;
-    ->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 45
     .line 46
@@ -2473,8 +2359,7 @@ return-void
 
     .line 48
     :cond_3
-    iget-object v2, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->settingsManager:Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    iget-object v2, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;->settingsManager:Lcom/fmark/tselzap/Settings/BotSettingsManager;
 
     .line 49
     .line 50
@@ -2482,8 +2367,7 @@ return-void
 
     .line 51
     .line 52
-    invoke-virtual {v2, v3}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
-    ->getStr(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v3}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->getStr(Ljava/lang/String;)Ljava/lang/String;
 
     .line 53
     .line 54
@@ -2495,8 +2379,7 @@ return-void
 
     .line 57
     .line 58
-    invoke-virtual {v2}, Ljava/lang/String;
-    ->isEmpty()Z
+    invoke-virtual {v2}, Ljava/lang/String;->isEmpty()Z
 
     .line 59
     .line 60
@@ -2517,8 +2400,7 @@ return-void
 
     .line 67
     .line 68
-    invoke-virtual {v2, v3}, Ljava/lang/String;
-    ->split(Ljava/lang/String;)[Ljava/lang/String;
+    invoke-virtual {v2, v3}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     .line 69
     .line 70
@@ -2526,8 +2408,7 @@ return-void
     move-result-object v3
 
     .line 72
-    sget v4, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v4, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 73
     .line 74
@@ -2554,8 +2435,7 @@ return-void
 
     .line 83
     .line 84
-    invoke-virtual {v6}, Ljava/lang/String;
-    ->trim()Ljava/lang/String;
+    invoke-virtual {v6}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     .line 85
     .line 86
@@ -2563,8 +2443,7 @@ return-void
     move-result-object v6
 
     .line 88
-    invoke-virtual {p1}, Landroid/service/notification/StatusBarNotification;
-    ->getPackageName()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/service/notification/StatusBarNotification;->getPackageName()Ljava/lang/String;
 
     .line 89
     .line 90
@@ -2572,8 +2451,7 @@ return-void
     move-result-object v7
 
     .line 92
-    invoke-virtual {v6, v7}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v6, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 93
     .line 94
@@ -2612,8 +2490,7 @@ return-void
 
     .line 107
     .line 108
-    invoke-virtual {v6}, Ljava/lang/String;
-    ->trim()Ljava/lang/String;
+    invoke-virtual {v6}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     .line 109
     .line 110
@@ -2621,8 +2498,7 @@ return-void
     move-result-object v6
 
     .line 112
-    invoke-virtual {p1}, Landroid/service/notification/StatusBarNotification;
-    ->getPackageName()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/service/notification/StatusBarNotification;->getPackageName()Ljava/lang/String;
 
     .line 113
     .line 114
@@ -2630,8 +2506,7 @@ return-void
     move-result-object v7
 
     .line 116
-    invoke-virtual {v6, v7}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v6, v7}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 117
     .line 118
@@ -2652,14 +2527,12 @@ return-void
 
     .line 125
     .line 126
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 127
     .line 128
     .line 129
-    invoke-virtual {p1}, Landroid/service/notification/StatusBarNotification;
-    ->getPackageName()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/service/notification/StatusBarNotification;->getPackageName()Ljava/lang/String;
 
     .line 130
     .line 131
@@ -2667,14 +2540,12 @@ return-void
     move-result-object p1
 
     .line 133
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 134
     .line 135
     .line 136
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 137
     .line 138
@@ -2682,8 +2553,7 @@ return-void
     move-result-object p1
 
     .line 140
-    invoke-static {v0, p1}, Landroid/util/Log;
-    ->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 141
     .line 142
@@ -2710,14 +2580,12 @@ return-void
 
     .line 151
     .line 152
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 153
     .line 154
     .line 155
-    invoke-virtual {p1}, Landroid/service/notification/StatusBarNotification;
-    ->getPackageName()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/service/notification/StatusBarNotification;->getPackageName()Ljava/lang/String;
 
     .line 156
     .line 157
@@ -2725,8 +2593,7 @@ return-void
     move-result-object p1
 
     .line 159
-    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 160
     .line 161
@@ -2735,14 +2602,12 @@ return-void
 
     .line 163
     .line 164
-    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 165
     .line 166
     .line 167
-    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 168
     .line 169
@@ -2751,14 +2616,12 @@ return-void
 
     .line 171
     .line 172
-    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 173
     .line 174
     .line 175
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 176
     .line 177
@@ -2766,8 +2629,7 @@ return-void
     move-result-object p1
 
     .line 179
-    invoke-static {v0, p1}, Landroid/util/Log;
-    ->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 180
     .line 181
@@ -2781,8 +2643,7 @@ return-void
 
     .line 184
     .line 185
-    invoke-static {v0, p1}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 186
     .line 187
@@ -2798,8 +2659,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Ljava/lang/String;
-    ->isEmpty()Z
+    invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
 
     .line 4
     .line 5
@@ -2823,8 +2683,7 @@ return-void
 
     .line 13
     .line 14
-    invoke-virtual {p1, v0, v1}, Ljava/lang/String;
-    ->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p1, v0, v1}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 15
     .line 16
@@ -2836,8 +2695,7 @@ return-void
 
     .line 19
     .line 20
-    invoke-virtual {p1, v0}, Ljava/lang/String;
-    ->matches(Ljava/lang/String;)Z
+    invoke-virtual {p1, v0}, Ljava/lang/String;->matches(Ljava/lang/String;)Z
 
     .line 21
     .line 22
@@ -2866,8 +2724,7 @@ return-void
     .locals 2
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -2887,14 +2744,12 @@ return-void
 
     .line 10
     .line 11
-    invoke-direct {v0, p0, v1}, Landroid/content/ComponentName;
-    -><init>(Landroid/content/Context;Ljava/lang/Class;)V
+    invoke-direct {v0, p0, v1}, Landroid/content/ComponentName;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
     .line 12
     .line 13
     .line 14
-    invoke-static {v0}, Landroidx/core/os/a;
-    ->t(Landroid/content/ComponentName;)V
+    invoke-static {v0}, Landroidx/core/os/a;->t(Landroid/content/ComponentName;)V
 
     .line 15
     .line 16
@@ -2908,8 +2763,7 @@ return-void
 
     .line 1
     :try_start_0
-    invoke-direct {p0, p1}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->handleNotification(Landroid/service/notification/StatusBarNotification;)V
+    invoke-direct {p0, p1}, Lcom/fmark/tselzap/Services/NotificationReceiver;->handleNotification(Landroid/service/notification/StatusBarNotification;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -2931,8 +2785,7 @@ return-void
 
     .line 9
     .line 10
-    invoke-static {v0, v1, p1}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, v1, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 11
     .line 12
@@ -2944,8 +2797,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p0, p6}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {p0, p6}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -2957,8 +2809,7 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 8
     .line 9
@@ -2966,8 +2817,7 @@ return-void
     move-result p0
 
     .line 11
-    invoke-interface {p1, p6}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {p1, p6}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -2979,8 +2829,7 @@ return-void
 
     .line 16
     .line 17
-    invoke-virtual {p1}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 18
     .line 19
@@ -2988,8 +2837,7 @@ return-void
     move-result p1
 
     .line 21
-    invoke-interface {p2, p6}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {p2, p6}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 22
     .line 23
@@ -3005,8 +2853,7 @@ return-void
 
     .line 28
     .line 29
-    invoke-virtual {p3, p2}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p3, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 30
     .line 31
@@ -3023,8 +2870,7 @@ return-void
 
     .line 36
     .line 37
-    invoke-virtual {p3, p2}, Ljava/lang/String;
-    ->contains(Ljava/lang/CharSequence;)Z
+    invoke-virtual {p3, p2}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     .line 38
     .line 39
@@ -3037,8 +2883,7 @@ return-void
     .line 42
     .line 43
     :cond_1
-    invoke-interface {p5, p6}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {p5, p6}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 44
     .line 45
@@ -3050,8 +2895,7 @@ return-void
 
     .line 48
     .line 49
-    invoke-virtual {p4, p0}, Ljava/util/concurrent/atomic/AtomicReference;
-    ->set(Ljava/lang/Object;)V
+    invoke-virtual {p4, p0}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
 
     .line 50
     .line 51
@@ -3064,8 +2908,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-interface {p0, p3}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {p0, p3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -3077,8 +2920,7 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 8
     .line 9
@@ -3090,8 +2932,7 @@ return-void
 
     .line 12
     .line 13
-    invoke-interface {p2, p3}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {p2, p3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -3103,8 +2944,7 @@ return-void
 
     .line 18
     .line 19
-    invoke-virtual {p1, p0}, Ljava/util/concurrent/atomic/AtomicReference;
-    ->set(Ljava/lang/Object;)V
+    invoke-virtual {p1, p0}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
 
     .line 20
     .line 21
@@ -3117,8 +2957,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p4, p1, p2, p3}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->processApiResponse(Lorg/json/JSONObject;Landroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;)V
+    invoke-direct {p0, p4, p1, p2, p3}, Lcom/fmark/tselzap/Services/NotificationReceiver;->processApiResponse(Lorg/json/JSONObject;Landroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;)V
 
     .line 2
     .line 3
@@ -3138,8 +2977,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-static {v0, v1, p0}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, v1, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 6
     .line 7
@@ -3164,14 +3002,12 @@ return-void
 
     .line 6
     .line 7
-    invoke-direct {v2, p1}, Ljava/net/URL;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v2, p1}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    invoke-virtual {v2}, Ljava/net/URL;
-    ->openConnection()Ljava/net/URLConnection;
+    invoke-virtual {v2}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
 
     .line 11
     .line 12
@@ -3187,8 +3023,7 @@ return-void
 
     .line 17
     .line 18
-    invoke-virtual {p1, v2, v1}, Ljava/net/URLConnection;
-    ->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, v1}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -3197,8 +3032,7 @@ return-void
 
     .line 22
     .line 23
-    invoke-virtual {p1, v2, v1}, Ljava/net/URLConnection;
-    ->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v2, v1}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -3207,8 +3041,7 @@ return-void
 
     .line 27
     .line 28
-    invoke-virtual {p1, v1}, Ljava/net/HttpURLConnection;
-    ->setRequestMethod(Ljava/lang/String;)V
+    invoke-virtual {p1, v1}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
 
     .line 29
     .line 30
@@ -3216,14 +3049,12 @@ return-void
     const/4 v1, 0x1
 
     .line 32
-    invoke-virtual {p1, v1}, Ljava/net/URLConnection;
-    ->setDoInput(Z)V
+    invoke-virtual {p1, v1}, Ljava/net/URLConnection;->setDoInput(Z)V
 
     .line 33
     .line 34
     .line 35
-    invoke-virtual {p1, v1}, Ljava/net/URLConnection;
-    ->setDoOutput(Z)V
+    invoke-virtual {p1, v1}, Ljava/net/URLConnection;->setDoOutput(Z)V
 
     .line 36
     .line 37
@@ -3232,20 +3063,17 @@ return-void
 
     .line 39
     .line 40
-    invoke-virtual {p1, v1}, Ljava/net/URLConnection;
-    ->setConnectTimeout(I)V
+    invoke-virtual {p1, v1}, Ljava/net/URLConnection;->setConnectTimeout(I)V
 
     .line 41
     .line 42
     .line 43
-    invoke-virtual {p1, v1}, Ljava/net/URLConnection;
-    ->setReadTimeout(I)V
+    invoke-virtual {p1, v1}, Ljava/net/URLConnection;->setReadTimeout(I)V
 
     .line 44
     .line 45
     .line 46
-    invoke-virtual {p1}, Ljava/net/URLConnection;
-    ->getOutputStream()Ljava/io/OutputStream;
+    invoke-virtual {p1}, Ljava/net/URLConnection;->getOutputStream()Ljava/io/OutputStream;
 
     .line 47
     .line 48
@@ -3264,14 +3092,12 @@ return-void
 
     .line 53
     .line 54
-    invoke-direct {v3, v1, v0}, Ljava/io/OutputStreamWriter;
-    -><init>(Ljava/io/OutputStream;Ljava/lang/String;)V
+    invoke-direct {v3, v1, v0}, Ljava/io/OutputStreamWriter;-><init>(Ljava/io/OutputStream;Ljava/lang/String;)V
 
     .line 55
     .line 56
     .line 57
-    invoke-direct {v2, v3}, Ljava/io/BufferedWriter;
-    -><init>(Ljava/io/Writer;)V
+    invoke-direct {v2, v3}, Ljava/io/BufferedWriter;-><init>(Ljava/io/Writer;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_4
 
@@ -3279,8 +3105,7 @@ return-void
     .line 59
     .line 60
     :try_start_2
-    invoke-virtual {p0}, Lorg/json/JSONObject;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
     .line 61
     .line 62
@@ -3288,14 +3113,12 @@ return-void
     move-result-object p0
 
     .line 64
-    invoke-virtual {v2, p0}, Ljava/io/Writer;
-    ->write(Ljava/lang/String;)V
+    invoke-virtual {v2, p0}, Ljava/io/Writer;->write(Ljava/lang/String;)V
 
     .line 65
     .line 66
     .line 67
-    invoke-virtual {v2}, Ljava/io/BufferedWriter;
-    ->flush()V
+    invoke-virtual {v2}, Ljava/io/BufferedWriter;->flush()V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_5
 
@@ -3303,8 +3126,7 @@ return-void
     .line 69
     .line 70
     :try_start_3
-    invoke-virtual {v2}, Ljava/io/BufferedWriter;
-    ->close()V
+    invoke-virtual {v2}, Ljava/io/BufferedWriter;->close()V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_4
 
@@ -3316,21 +3138,18 @@ return-void
     .line 74
     .line 75
     :try_start_4
-    invoke-virtual {v1}, Ljava/io/OutputStream;
-    ->close()V
+    invoke-virtual {v1}, Ljava/io/OutputStream;->close()V
 
     .line 76
     .line 77
     .line 78
     :cond_0
-    invoke-virtual {p1}, Ljava/net/URLConnection;
-    ->connect()V
+    invoke-virtual {p1}, Ljava/net/URLConnection;->connect()V
 
     .line 79
     .line 80
     .line 81
-    invoke-virtual {p1}, Ljava/net/URLConnection;
-    ->getInputStream()Ljava/io/InputStream;
+    invoke-virtual {p1}, Ljava/net/URLConnection;->getInputStream()Ljava/io/InputStream;
 
     .line 82
     .line 83
@@ -3345,8 +3164,7 @@ return-void
 
     .line 86
     .line 87
-    invoke-direct {p1, p0, v0}, Ljava/util/Scanner;
-    -><init>(Ljava/io/InputStream;Ljava/lang/String;)V
+    invoke-direct {p1, p0, v0}, Ljava/util/Scanner;-><init>(Ljava/io/InputStream;Ljava/lang/String;)V
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_1
 
@@ -3354,8 +3172,7 @@ return-void
     .line 89
     .line 90
     :try_start_6
-    invoke-virtual {p1}, Ljava/util/Scanner;
-    ->hasNext()Z
+    invoke-virtual {p1}, Ljava/util/Scanner;->hasNext()Z
 
     .line 91
     .line 92
@@ -3371,8 +3188,7 @@ return-void
 
     .line 97
     .line 98
-    invoke-virtual {p1, v0}, Ljava/util/Scanner;
-    ->useDelimiter(Ljava/lang/String;)Ljava/util/Scanner;
+    invoke-virtual {p1, v0}, Ljava/util/Scanner;->useDelimiter(Ljava/lang/String;)Ljava/util/Scanner;
 
     .line 99
     .line 100
@@ -3380,8 +3196,7 @@ return-void
     move-result-object v0
 
     .line 102
-    invoke-virtual {v0}, Ljava/util/Scanner;
-    ->next()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/util/Scanner;->next()Ljava/lang/String;
 
     .line 103
     .line 104
@@ -3408,8 +3223,7 @@ return-void
     .line 111
     :goto_0
     :try_start_7
-    invoke-virtual {p1}, Ljava/util/Scanner;
-    ->close()V
+    invoke-virtual {p1}, Ljava/util/Scanner;->close()V
     :try_end_7
     .catchall {:try_start_7 .. :try_end_7} :catchall_1
 
@@ -3421,8 +3235,7 @@ return-void
     .line 115
     .line 116
     :try_start_8
-    invoke-virtual {p0}, Ljava/io/InputStream;
-    ->close()V
+    invoke-virtual {p0}, Ljava/io/InputStream;->close()V
     :try_end_8
     .catch Ljava/lang/Exception; {:try_start_8 .. :try_end_8} :catch_0
 
@@ -3442,8 +3255,7 @@ return-void
     .line 122
     :goto_1
     :try_start_9
-    invoke-virtual {p1}, Ljava/util/Scanner;
-    ->close()V
+    invoke-virtual {p1}, Ljava/util/Scanner;->close()V
     :try_end_9
     .catchall {:try_start_9 .. :try_end_9} :catchall_2
 
@@ -3458,8 +3270,7 @@ return-void
 
     .line 127
     :try_start_a
-    invoke-virtual {v0, p1}, Ljava/lang/Throwable;
-    ->addSuppressed(Ljava/lang/Throwable;)V
+    invoke-virtual {v0, p1}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
 
     .line 128
     .line 129
@@ -3476,8 +3287,7 @@ return-void
     .line 132
     .line 133
     :try_start_b
-    invoke-virtual {p0}, Ljava/io/InputStream;
-    ->close()V
+    invoke-virtual {p0}, Ljava/io/InputStream;->close()V
     :try_end_b
     .catchall {:try_start_b .. :try_end_b} :catchall_3
 
@@ -3492,8 +3302,7 @@ return-void
 
     .line 138
     :try_start_c
-    invoke-virtual {p1, p0}, Ljava/lang/Throwable;
-    ->addSuppressed(Ljava/lang/Throwable;)V
+    invoke-virtual {p1, p0}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
 
     .line 139
     .line 140
@@ -3517,8 +3326,7 @@ return-void
 
     .line 145
     :try_start_d
-    invoke-virtual {v2}, Ljava/io/BufferedWriter;
-    ->close()V
+    invoke-virtual {v2}, Ljava/io/BufferedWriter;->close()V
     :try_end_d
     .catchall {:try_start_d .. :try_end_d} :catchall_6
 
@@ -3533,8 +3341,7 @@ return-void
 
     .line 150
     :try_start_e
-    invoke-virtual {p0, p1}, Ljava/lang/Throwable;
-    ->addSuppressed(Ljava/lang/Throwable;)V
+    invoke-virtual {p0, p1}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
 
     .line 151
     .line 152
@@ -3551,8 +3358,7 @@ return-void
     .line 155
     .line 156
     :try_start_f
-    invoke-virtual {v1}, Ljava/io/OutputStream;
-    ->close()V
+    invoke-virtual {v1}, Ljava/io/OutputStream;->close()V
     :try_end_f
     .catchall {:try_start_f .. :try_end_f} :catchall_7
 
@@ -3567,8 +3373,7 @@ return-void
 
     .line 161
     :try_start_10
-    invoke-virtual {p0, p1}, Ljava/lang/Throwable;
-    ->addSuppressed(Ljava/lang/Throwable;)V
+    invoke-virtual {p0, p1}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
 
     .line 162
     .line 163
@@ -3592,8 +3397,7 @@ return-void
 
     .line 169
     .line 170
-    invoke-static {p1, v0, p0}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {p1, v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 171
     .line 172
@@ -3631,20 +3435,17 @@ return-void
 
     .line 6
     .line 7
-    invoke-direct {v2, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 11
     .line 12
     .line 13
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 14
     .line 15
@@ -3652,8 +3453,7 @@ return-void
     move-result-object v1
 
     .line 17
-    invoke-static {v0, v1}, Landroid/util/Log;
-    ->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 18
     .line 19
@@ -3670,8 +3470,7 @@ return-void
 
     .line 24
     .line 25
-    invoke-virtual {p1, v1}, Lorg/json/JSONObject;
-    ->getJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
+    invoke-virtual {p1, v1}, Lorg/json/JSONObject;->getJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
 
     .line 26
     .line 27
@@ -3683,8 +3482,7 @@ return-void
 
     .line 30
     :goto_0
-    invoke-virtual {p1}, Lorg/json/JSONArray;
-    ->length()I
+    invoke-virtual {p1}, Lorg/json/JSONArray;->length()I
 
     .line 31
     .line 32
@@ -3696,8 +3494,7 @@ return-void
 
     .line 35
     .line 36
-    invoke-virtual {p1, v1}, Lorg/json/JSONArray;
-    ->getJSONObject(I)Lorg/json/JSONObject;
+    invoke-virtual {p1, v1}, Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
 
     .line 37
     .line 38
@@ -3709,8 +3506,7 @@ return-void
 
     .line 41
     .line 42
-    invoke-virtual {v2, v3}, Lorg/json/JSONObject;
-    ->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v2, v3}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     .line 43
     .line 44
@@ -3718,8 +3514,7 @@ return-void
     move-result-object v2
 
     .line 46
-    invoke-direct {p0, v2, p2, p3, p4}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->sendReply(Ljava/lang/String;Landroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;)V
+    invoke-direct {p0, v2, p2, p3, p4}, Lcom/fmark/tselzap/Services/NotificationReceiver;->sendReply(Ljava/lang/String;Landroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;)V
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -3741,8 +3536,7 @@ return-void
 
     .line 54
     .line 55
-    invoke-static {v0, p2, p1}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, p2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 56
     .line 57
@@ -3773,8 +3567,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {p0, p2, p4, p5, p6}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->processMessageResponse(Ljava/lang/String;Landroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;)V
+    invoke-direct {p0, p2, p4, p5, p6}, Lcom/fmark/tselzap/Services/NotificationReceiver;->processMessageResponse(Ljava/lang/String;Landroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;)V
 
     .line 4
     .line 5
@@ -3793,8 +3586,7 @@ return-void
     move-object p1, p0
 
     .line 11
-    invoke-direct/range {p1 .. p6}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->handleGroupMessage(Ljava/lang/String;Ljava/lang/String;Landroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;)V
+    invoke-direct/range {p1 .. p6}, Lcom/fmark/tselzap/Services/NotificationReceiver;->handleGroupMessage(Ljava/lang/String;Ljava/lang/String;Landroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;)V
 
     .line 12
     .line 13
@@ -3818,24 +3610,20 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->settingsManager:Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;->settingsManager:Lcom/fmark/tselzap/Settings/BotSettingsManager;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
-    ->loadPatterns()V
+    invoke-virtual {v0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->loadPatterns()V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->settingsManager:Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;->settingsManager:Lcom/fmark/tselzap/Settings/BotSettingsManager;
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
-    ->getPatterns()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->getPatterns()Ljava/util/List;
 
     .line 9
     .line 10
@@ -3843,13 +3631,11 @@ return-void
     move-result-object v4
 
     .line 12
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->settingsManager:Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;->settingsManager:Lcom/fmark/tselzap/Settings/BotSettingsManager;
 
     .line 13
     .line 14
-    invoke-virtual {v0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
-    ->getResponses()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->getResponses()Ljava/util/List;
 
     .line 15
     .line 16
@@ -3857,13 +3643,11 @@ return-void
     move-result-object v7
 
     .line 18
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->settingsManager:Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;->settingsManager:Lcom/fmark/tselzap/Settings/BotSettingsManager;
 
     .line 19
     .line 20
-    invoke-virtual {v0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
-    ->getExactMatches()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->getExactMatches()Ljava/util/List;
 
     .line 21
     .line 22
@@ -3871,13 +3655,11 @@ return-void
     move-result-object v2
 
     .line 24
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->settingsManager:Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;->settingsManager:Lcom/fmark/tselzap/Settings/BotSettingsManager;
 
     .line 25
     .line 26
-    invoke-virtual {v0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
-    ->getContainsMatches()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->getContainsMatches()Ljava/util/List;
 
     .line 27
     .line 28
@@ -3885,13 +3667,11 @@ return-void
     move-result-object v3
 
     .line 30
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->settingsManager:Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;->settingsManager:Lcom/fmark/tselzap/Settings/BotSettingsManager;
 
     .line 31
     .line 32
-    invoke-virtual {v0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
-    ->getDefaultFlags()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->getDefaultFlags()Ljava/util/List;
 
     .line 33
     .line 34
@@ -3899,8 +3679,7 @@ return-void
     move-result-object v0
 
     .line 36
-    invoke-interface {v4}, Ljava/util/List;
-    ->isEmpty()Z
+    invoke-interface {v4}, Ljava/util/List;->isEmpty()Z
 
     .line 37
     .line 38
@@ -3912,8 +3691,7 @@ return-void
 
     .line 41
     .line 42
-    invoke-interface {v7}, Ljava/util/List;
-    ->isEmpty()Z
+    invoke-interface {v7}, Ljava/util/List;->isEmpty()Z
 
     .line 43
     .line 44
@@ -3925,8 +3703,7 @@ return-void
 
     .line 47
     .line 48
-    invoke-interface {v2}, Ljava/util/List;
-    ->isEmpty()Z
+    invoke-interface {v2}, Ljava/util/List;->isEmpty()Z
 
     .line 49
     .line 50
@@ -3938,8 +3715,7 @@ return-void
 
     .line 53
     .line 54
-    invoke-interface {v3}, Ljava/util/List;
-    ->isEmpty()Z
+    invoke-interface {v3}, Ljava/util/List;->isEmpty()Z
 
     .line 55
     .line 56
@@ -3951,8 +3727,7 @@ return-void
 
     .line 59
     .line 60
-    invoke-interface {v0}, Ljava/util/List;
-    ->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
 
     .line 61
     .line 62
@@ -3964,8 +3739,7 @@ return-void
 
     .line 65
     .line 66
-    invoke-interface {v4}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v4}, Ljava/util/List;->size()I
 
     .line 67
     .line 68
@@ -3973,8 +3747,7 @@ return-void
     move-result v1
 
     .line 70
-    invoke-interface {v7}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v7}, Ljava/util/List;->size()I
 
     .line 71
     .line 72
@@ -3986,8 +3759,7 @@ return-void
 
     .line 75
     .line 76
-    invoke-interface {v4}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v4}, Ljava/util/List;->size()I
 
     .line 77
     .line 78
@@ -3995,8 +3767,7 @@ return-void
     move-result v1
 
     .line 80
-    invoke-interface {v2}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v2}, Ljava/util/List;->size()I
 
     .line 81
     .line 82
@@ -4008,8 +3779,7 @@ return-void
 
     .line 85
     .line 86
-    invoke-interface {v4}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v4}, Ljava/util/List;->size()I
 
     .line 87
     .line 88
@@ -4017,8 +3787,7 @@ return-void
     move-result v1
 
     .line 90
-    invoke-interface {v3}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v3}, Ljava/util/List;->size()I
 
     .line 91
     .line 92
@@ -4030,8 +3799,7 @@ return-void
 
     .line 95
     .line 96
-    invoke-interface {v4}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v4}, Ljava/util/List;->size()I
 
     .line 97
     .line 98
@@ -4039,8 +3807,7 @@ return-void
     move-result v1
 
     .line 100
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     .line 101
     .line 102
@@ -4063,14 +3830,12 @@ return-void
     const/4 v1, 0x0
 
     .line 110
-    invoke-direct {v6, v1}, Ljava/util/concurrent/atomic/AtomicReference;
-    -><init>(Ljava/lang/Object;)V
+    invoke-direct {v6, v1}, Ljava/util/concurrent/atomic/AtomicReference;-><init>(Ljava/lang/Object;)V
 
     .line 111
     .line 112
     .line 113
-    sget v1, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 114
     .line 115
@@ -4082,8 +3847,7 @@ return-void
 
     .line 118
     .line 119
-    invoke-interface {v4}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v4}, Ljava/util/List;->size()I
 
     .line 120
     .line 121
@@ -4091,8 +3855,7 @@ return-void
     move-result v1
 
     .line 123
-    invoke-static {v1}, Landroidx/core/os/a;
-    ->q(I)Ljava/util/stream/IntStream;
+    invoke-static {v1}, Landroidx/core/os/a;->q(I)Ljava/util/stream/IntStream;
 
     .line 124
     .line 125
@@ -4107,20 +3870,17 @@ return-void
     move-object v5, p1
 
     .line 130
-    invoke-direct/range {v1 .. v7}, Lcom/fmark/tselzap/Services/d;
-    -><init>(Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/List;)V
+    invoke-direct/range {v1 .. v7}, Lcom/fmark/tselzap/Services/d;-><init>(Ljava/util/List;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/List;)V
 
     .line 131
     .line 132
     .line 133
-    invoke-static {v8, v1}, Landroidx/core/os/a;
-    ->x(Ljava/util/stream/IntStream;Lcom/fmark/tselzap/Services/d;)V
+    invoke-static {v8, v1}, Landroidx/core/os/a;->x(Ljava/util/stream/IntStream;Lcom/fmark/tselzap/Services/d;)V
 
     .line 134
     .line 135
     .line 136
-    invoke-virtual {v6}, Ljava/util/concurrent/atomic/AtomicReference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v6}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
 
     .line 137
     .line 138
@@ -4132,8 +3892,7 @@ return-void
 
     .line 141
     .line 142
-    invoke-interface {v4}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v4}, Ljava/util/List;->size()I
 
     .line 143
     .line 144
@@ -4141,8 +3900,7 @@ return-void
     move-result p1
 
     .line 146
-    invoke-static {p1}, Landroidx/core/os/a;
-    ->q(I)Ljava/util/stream/IntStream;
+    invoke-static {p1}, Landroidx/core/os/a;->q(I)Ljava/util/stream/IntStream;
 
     .line 147
     .line 148
@@ -4154,21 +3912,18 @@ return-void
 
     .line 151
     .line 152
-    invoke-direct {v1, v0, v6, v7}, Lcom/fmark/tselzap/Services/e;
-    -><init>(Ljava/util/List;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/List;)V
+    invoke-direct {v1, v0, v6, v7}, Lcom/fmark/tselzap/Services/e;-><init>(Ljava/util/List;Ljava/util/concurrent/atomic/AtomicReference;Ljava/util/List;)V
 
     .line 153
     .line 154
     .line 155
-    invoke-static {p1, v1}, Landroidx/core/os/a;
-    ->y(Ljava/util/stream/IntStream;Lcom/fmark/tselzap/Services/e;)V
+    invoke-static {p1, v1}, Landroidx/core/os/a;->y(Ljava/util/stream/IntStream;Lcom/fmark/tselzap/Services/e;)V
 
     .line 156
     .line 157
     .line 158
     :cond_1
-    invoke-virtual {v6}, Ljava/util/concurrent/atomic/AtomicReference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v6}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
 
     .line 159
     .line 160
@@ -4180,8 +3935,7 @@ return-void
 
     .line 163
     .line 164
-    invoke-virtual {v6}, Ljava/util/concurrent/atomic/AtomicReference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v6}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
 
     .line 165
     .line 166
@@ -4193,8 +3947,7 @@ return-void
 
     .line 169
     .line 170
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->sendReply(Ljava/lang/String;Landroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lcom/fmark/tselzap/Services/NotificationReceiver;->sendReply(Ljava/lang/String;Landroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;)V
 
     .line 171
     .line 172
@@ -4213,8 +3966,7 @@ return-void
 
     .line 177
     .line 178
-    invoke-static {p1, p2}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 179
     .line 180
@@ -4245,8 +3997,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {p4}, Ljava/util/ArrayList;
-    ->isEmpty()Z
+    invoke-virtual {p4}, Ljava/util/ArrayList;->isEmpty()Z
 
     .line 6
     .line 7
@@ -4262,8 +4013,7 @@ return-void
 
     .line 12
     :cond_0
-    invoke-virtual {p4}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {p4}, Ljava/util/ArrayList;->size()I
 
     .line 13
     .line 14
@@ -4279,8 +4029,7 @@ return-void
 
     .line 19
     .line 20
-    invoke-direct {v2}, Landroid/content/Intent;
-    -><init>()V
+    invoke-direct {v2}, Landroid/content/Intent;-><init>()V
 
     .line 21
     .line 22
@@ -4290,8 +4039,7 @@ return-void
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v2, v3}, Landroid/content/Intent;
-    ->addFlags(I)Landroid/content/Intent;
+    invoke-virtual {v2, v3}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     .line 27
     .line 28
@@ -4300,8 +4048,7 @@ return-void
 
     .line 30
     .line 31
-    invoke-direct {v3, p3}, Landroid/os/Bundle;
-    -><init>(Landroid/os/Bundle;)V
+    invoke-direct {v3, p3}, Landroid/os/Bundle;-><init>(Landroid/os/Bundle;)V
 
     .line 32
     .line 33
@@ -4313,8 +4060,7 @@ return-void
 
     .line 36
     :goto_0
-    invoke-virtual {p4}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {p4}, Ljava/util/ArrayList;->size()I
 
     .line 37
     .line 38
@@ -4326,8 +4072,7 @@ return-void
 
     .line 41
     .line 42
-    invoke-virtual {p4, v4}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {p4, v4}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 43
     .line 44
@@ -4343,8 +4088,7 @@ return-void
 
     .line 49
     .line 50
-    invoke-virtual {v5}, Landroidx/core/app/RemoteInput;
-    ->getResultKey()Ljava/lang/String;
+    invoke-virtual {v5}, Landroidx/core/app/RemoteInput;->getResultKey()Ljava/lang/String;
 
     .line 51
     .line 52
@@ -4352,8 +4096,7 @@ return-void
     move-result-object v5
 
     .line 54
-    invoke-virtual {v3, v5, p1}, Landroid/os/Bundle;
-    ->putCharSequence(Ljava/lang/String;Ljava/lang/CharSequence;)V
+    invoke-virtual {v3, v5, p1}, Landroid/os/Bundle;->putCharSequence(Ljava/lang/String;Ljava/lang/CharSequence;)V
 
     .line 55
     .line 56
@@ -4366,15 +4109,13 @@ return-void
 
     .line 60
     :cond_1
-    invoke-static {v1, v2, v3}, Landroidx/core/app/RemoteInput;
-    ->addResultsToIntent([Landroidx/core/app/RemoteInput;Landroid/content/Intent;Landroid/os/Bundle;)V
+    invoke-static {v1, v2, v3}, Landroidx/core/app/RemoteInput;->addResultsToIntent([Landroidx/core/app/RemoteInput;Landroid/content/Intent;Landroid/os/Bundle;)V
 
     .line 61
     .line 62
     .line 63
     :try_start_0
-    invoke-direct {p0, p2}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->findReplyAction(Landroid/app/Notification;)Landroidx/core/app/NotificationCompat$Action;
+    invoke-direct {p0, p2}, Lcom/fmark/tselzap/Services/NotificationReceiver;->findReplyAction(Landroid/app/Notification;)Landroidx/core/app/NotificationCompat$Action;
 
     .line 64
     .line 65
@@ -4386,8 +4127,7 @@ return-void
 
     .line 68
     .line 69
-    iget-object p1, p1, Landroidx/core/app/NotificationCompat$Action;
-    ->actionIntent:Landroid/app/PendingIntent;
+    iget-object p1, p1, Landroidx/core/app/NotificationCompat$Action;->actionIntent:Landroid/app/PendingIntent;
 
     .line 70
     .line 71
@@ -4395,8 +4135,7 @@ return-void
 
     .line 72
     .line 73
-    invoke-virtual {p1, p0, p3, v2}, Landroid/app/PendingIntent;
-    ->send(Landroid/content/Context;ILandroid/content/Intent;)V
+    invoke-virtual {p1, p0, p3, v2}, Landroid/app/PendingIntent;->send(Landroid/content/Context;ILandroid/content/Intent;)V
 
     .line 74
     .line 75
@@ -4416,8 +4155,7 @@ return-void
 
     .line 80
     .line 81
-    invoke-static {v0, p1}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
     :try_end_0
     .catch Landroid/app/PendingIntent$CanceledException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -4432,8 +4170,7 @@ return-void
 
     .line 86
     .line 87
-    invoke-static {v0, p2, p1}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, p2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 88
     .line 89
@@ -4459,8 +4196,7 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->settingsManager:Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;->settingsManager:Lcom/fmark/tselzap/Settings/BotSettingsManager;
 
     .line 2
     .line 3
@@ -4468,8 +4204,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
-    ->getStr(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->getStr(Ljava/lang/String;)Ljava/lang/String;
 
     .line 6
     .line 7
@@ -4477,8 +4212,7 @@ return-void
     move-result-object v4
 
     .line 9
-    invoke-virtual {v4}, Ljava/lang/String;
-    ->isEmpty()Z
+    invoke-virtual {v4}, Ljava/lang/String;->isEmpty()Z
 
     .line 10
     .line 11
@@ -4499,8 +4233,7 @@ return-void
 
     .line 17
     .line 18
-    invoke-direct {v5}, Lorg/json/JSONObject;
-    -><init>()V
+    invoke-direct {v5}, Lorg/json/JSONObject;-><init>()V
 
     .line 19
     .line 20
@@ -4513,8 +4246,7 @@ return-void
 
     .line 24
     .line 25
-    invoke-virtual {v5, v0, v1}, Lorg/json/JSONObject;
-    ->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    invoke-virtual {v5, v0, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     .line 26
     .line 27
@@ -4523,8 +4255,7 @@ return-void
 
     .line 29
     .line 30
-    iget-object v1, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->settingsManager:Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    iget-object v1, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;->settingsManager:Lcom/fmark/tselzap/Settings/BotSettingsManager;
 
     .line 31
     .line 32
@@ -4532,8 +4263,7 @@ return-void
 
     .line 33
     .line 34
-    invoke-virtual {v1, v2}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
-    ->getStr(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->getStr(Ljava/lang/String;)Ljava/lang/String;
 
     .line 35
     .line 36
@@ -4541,8 +4271,7 @@ return-void
     move-result-object v1
 
     .line 38
-    invoke-virtual {v5, v0, v1}, Lorg/json/JSONObject;
-    ->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    invoke-virtual {v5, v0, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     .line 39
     .line 40
@@ -4555,8 +4284,7 @@ return-void
 
     .line 44
     .line 45
-    invoke-direct {v1}, Lorg/json/JSONObject;
-    -><init>()V
+    invoke-direct {v1}, Lorg/json/JSONObject;-><init>()V
 
     .line 46
     .line 47
@@ -4565,8 +4293,7 @@ return-void
 
     .line 49
     .line 50
-    invoke-virtual {v1, v2, p1}, Lorg/json/JSONObject;
-    ->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    invoke-virtual {v1, v2, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     .line 51
     .line 52
@@ -4578,8 +4305,7 @@ return-void
 
     .line 55
     .line 56
-    invoke-virtual {p1, v1, p2}, Lorg/json/JSONObject;
-    ->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    invoke-virtual {p1, v1, p2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     .line 57
     .line 58
@@ -4594,8 +4320,7 @@ return-void
     const/4 v1, 0x0
 
     .line 63
-    invoke-virtual {p1, p2, v1}, Lorg/json/JSONObject;
-    ->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
+    invoke-virtual {p1, p2, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Z)Lorg/json/JSONObject;
 
     .line 64
     .line 65
@@ -4610,8 +4335,7 @@ return-void
     const/4 v1, 0x1
 
     .line 70
-    invoke-virtual {p1, p2, v1}, Lorg/json/JSONObject;
-    ->put(Ljava/lang/String;I)Lorg/json/JSONObject;
+    invoke-virtual {p1, p2, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
     .line 71
     .line 72
@@ -4619,8 +4343,7 @@ return-void
     move-result-object p1
 
     .line 74
-    invoke-virtual {v5, v0, p1}, Lorg/json/JSONObject;
-    ->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    invoke-virtual {v5, v0, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     .line 75
     .line 76
@@ -4633,8 +4356,7 @@ return-void
 
     .line 80
     .line 81
-    invoke-direct {v6, p0, p3, p4, p5}, Lcom/fmark/tselzap/Services/f;
-    -><init>(Lcom/fmark/tselzap/Services/NotificationReceiver;Landroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;)V
+    invoke-direct {v6, p0, p3, p4, p5}, Lcom/fmark/tselzap/Services/f;-><init>(Lcom/fmark/tselzap/Services/NotificationReceiver;Landroid/app/Notification;Landroid/os/Bundle;Ljava/util/ArrayList;)V
 
     .line 82
     .line 83
@@ -4647,8 +4369,7 @@ return-void
 
     .line 87
     .line 88
-    invoke-direct {v7, p1}, LN/v;
-    -><init>(I)V
+    invoke-direct {v7, p1}, LN/v;-><init>(I)V
 
     .line 89
     .line 90
@@ -4656,19 +4377,16 @@ return-void
     const/4 v3, 0x1
 
     .line 92
-    invoke-direct/range {v2 .. v7}, Lcom/android/volley/toolbox/JsonObjectRequest;
-    -><init>(ILjava/lang/String;Lorg/json/JSONObject;Lcom/android/volley/Response$Listener;Lcom/android/volley/Response$ErrorListener;)V
+    invoke-direct/range {v2 .. v7}, Lcom/android/volley/toolbox/JsonObjectRequest;-><init>(ILjava/lang/String;Lorg/json/JSONObject;Lcom/android/volley/Response$Listener;Lcom/android/volley/Response$ErrorListener;)V
 
     .line 93
     .line 94
     .line 95
-    iget-object p1, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->requestQueue:Lcom/android/volley/RequestQueue;
+    iget-object p1, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;->requestQueue:Lcom/android/volley/RequestQueue;
 
     .line 96
     .line 97
-    invoke-virtual {p1, v2}, Lcom/android/volley/RequestQueue;
-    ->add(Lcom/android/volley/Request;)Lcom/android/volley/Request;
+    invoke-virtual {p1, v2}, Lcom/android/volley/RequestQueue;->add(Lcom/android/volley/Request;)Lcom/android/volley/Request;
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -4693,8 +4411,7 @@ return-void
 
     .line 106
     .line 107
-    invoke-static {p2, p3, p1}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {p2, p3, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 108
     .line 109
@@ -4709,14 +4426,12 @@ return-void
     .locals 2
 
     .line 1
-    invoke-super {p0}, Landroid/service/notification/NotificationListenerService;
-    ->onCreate()V
+    invoke-super {p0}, Landroid/service/notification/NotificationListenerService;->onCreate()V
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p0}, Lcom/android/volley/toolbox/Volley;
-    ->newRequestQueue(Landroid/content/Context;)Lcom/android/volley/RequestQueue;
+    invoke-static {p0}, Lcom/android/volley/toolbox/Volley;->newRequestQueue(Landroid/content/Context;)Lcom/android/volley/RequestQueue;
 
     .line 5
     .line 6
@@ -4724,16 +4439,14 @@ return-void
     move-result-object v0
 
     .line 8
-    iput-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->requestQueue:Lcom/android/volley/RequestQueue;
+    iput-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;->requestQueue:Lcom/android/volley/RequestQueue;
 
     .line 9
     .line 10
     const/4 v0, 0x5
 
     .line 11
-    invoke-static {v0}, Ljava/util/concurrent/Executors;
-    ->newFixedThreadPool(I)Ljava/util/concurrent/ExecutorService;
+    invoke-static {v0}, Ljava/util/concurrent/Executors;->newFixedThreadPool(I)Ljava/util/concurrent/ExecutorService;
 
     .line 12
     .line 13
@@ -4741,13 +4454,11 @@ return-void
     move-result-object v0
 
     .line 15
-    iput-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->executorService:Ljava/util/concurrent/ExecutorService;
+    iput-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;->executorService:Ljava/util/concurrent/ExecutorService;
 
     .line 16
     .line 17
-    invoke-static {}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
-    ->getInstance()Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    invoke-static {}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->getInstance()Lcom/fmark/tselzap/Settings/BotSettingsManager;
 
     .line 18
     .line 19
@@ -4755,13 +4466,11 @@ return-void
     move-result-object v0
 
     .line 21
-    iput-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->settingsManager:Lcom/fmark/tselzap/Settings/BotSettingsManager;
+    iput-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;->settingsManager:Lcom/fmark/tselzap/Settings/BotSettingsManager;
 
     .line 22
     .line 23
-    invoke-virtual {v0, p0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;
-    ->initialize(Landroid/content/Context;)V
+    invoke-virtual {v0, p0}, Lcom/fmark/tselzap/Settings/BotSettingsManager;->initialize(Landroid/content/Context;)V
 
     .line 24
     .line 25
@@ -4774,8 +4483,7 @@ return-void
 
     .line 29
     .line 30
-    invoke-static {v0, v1}, Landroid/util/Log;
-    ->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 31
     .line 32
@@ -4788,8 +4496,7 @@ return-void
 
     .line 1
     :try_start_0
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->executorService:Ljava/util/concurrent/ExecutorService;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;->executorService:Ljava/util/concurrent/ExecutorService;
 
     .line 2
     .line 3
@@ -4797,8 +4504,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;
-    ->shutdown()V
+    invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;->shutdown()V
 
     .line 6
     .line 7
@@ -4815,8 +4521,7 @@ return-void
     .line 11
     :cond_0
     :goto_0
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->requestQueue:Lcom/android/volley/RequestQueue;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;->requestQueue:Lcom/android/volley/RequestQueue;
 
     .line 12
     .line 13
@@ -4832,14 +4537,12 @@ return-void
 
     .line 18
     .line 19
-    invoke-direct {v1, v2}, LN/v;
-    -><init>(I)V
+    invoke-direct {v1, v2}, LN/v;-><init>(I)V
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {v0, v1}, Lcom/android/volley/RequestQueue;
-    ->cancelAll(Lcom/android/volley/RequestQueue$RequestFilter;)V
+    invoke-virtual {v0, v1}, Lcom/android/volley/RequestQueue;->cancelAll(Lcom/android/volley/RequestQueue$RequestFilter;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -4847,8 +4550,7 @@ return-void
     .line 24
     .line 25
     :cond_1
-    invoke-super {p0}, Landroid/service/notification/NotificationListenerService;
-    ->onDestroy()V
+    invoke-super {p0}, Landroid/service/notification/NotificationListenerService;->onDestroy()V
 
     .line 26
     .line 27
@@ -4857,8 +4559,7 @@ return-void
 
     .line 29
     :goto_1
-    invoke-super {p0}, Landroid/service/notification/NotificationListenerService;
-    ->onDestroy()V
+    invoke-super {p0}, Landroid/service/notification/NotificationListenerService;->onDestroy()V
 
     .line 30
     .line 31
@@ -4924,8 +4625,7 @@ return-void
     .locals 3
 
     .line 1
-    invoke-super {p0}, Landroid/service/notification/NotificationListenerService;
-    ->onListenerConnected()V
+    invoke-super {p0}, Landroid/service/notification/NotificationListenerService;->onListenerConnected()V
 
     .line 2
     .line 3
@@ -4938,14 +4638,12 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {v0, v1}, Landroid/util/Log;
-    ->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     .line 12
     .line 13
@@ -4953,8 +4651,7 @@ return-void
     move-result-object v0
 
     .line 15
-    invoke-static {v0}, Lcom/fmark/tselzap/Utils/NotificationUtils;
-    ->isNotificationServiceEnabled(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/fmark/tselzap/Utils/NotificationUtils;->isNotificationServiceEnabled(Landroid/content/Context;)Z
 
     .line 16
     .line 17
@@ -4966,8 +4663,7 @@ return-void
 
     .line 20
     .line 21
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     .line 22
     .line 23
@@ -4975,15 +4671,13 @@ return-void
     move-result-object v0
 
     .line 25
-    invoke-static {v0}, Lcom/fmark/tselzap/Utils/NotificationUtils;
-    ->redirectToNotificationSettings(Landroid/content/Context;)V
+    invoke-static {v0}, Lcom/fmark/tselzap/Utils/NotificationUtils;->redirectToNotificationSettings(Landroid/content/Context;)V
 
     .line 26
     .line 27
     .line 28
     :cond_0
-    invoke-static {}, Lcom/fmark/tselzap/Utils/XiaomiUtils;
-    ->isXiaomiDevice()Z
+    invoke-static {}, Lcom/fmark/tselzap/Utils/XiaomiUtils;->isXiaomiDevice()Z
 
     .line 29
     .line 30
@@ -4995,8 +4689,7 @@ return-void
 
     .line 33
     .line 34
-    invoke-direct {p0}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->isMiuiNotificationAllowed()Z
+    invoke-direct {p0}, Lcom/fmark/tselzap/Services/NotificationReceiver;->isMiuiNotificationAllowed()Z
 
     .line 35
     .line 36
@@ -5012,8 +4705,7 @@ return-void
 
     .line 41
     .line 42
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     .line 43
     .line 44
@@ -5025,8 +4717,7 @@ return-void
 
     .line 47
     .line 48
-    invoke-direct {v0, v1, v2}, Landroid/content/Intent;
-    -><init>(Landroid/content/Context;Ljava/lang/Class;)V
+    invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
     .line 49
     .line 50
@@ -5035,14 +4726,12 @@ return-void
 
     .line 52
     .line 53
-    invoke-virtual {v0, v1}, Landroid/content/Intent;
-    ->addFlags(I)Landroid/content/Intent;
+    invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
 
     .line 54
     .line 55
     .line 56
-    invoke-virtual {p0, v0}, Landroid/content/Context;
-    ->startActivity(Landroid/content/Intent;)V
+    invoke-virtual {p0, v0}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
     .line 57
     .line 58
@@ -5055,8 +4744,7 @@ return-void
     .locals 4
 
     .line 1
-    invoke-super {p0}, Landroid/service/notification/NotificationListenerService;
-    ->onListenerDisconnected()V
+    invoke-super {p0}, Landroid/service/notification/NotificationListenerService;->onListenerDisconnected()V
 
     .line 2
     .line 3
@@ -5069,8 +4757,7 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {v0, v1}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 9
     .line 10
@@ -5079,8 +4766,7 @@ return-void
 
     .line 12
     .line 13
-    invoke-static {}, Landroid/os/Looper;
-    ->getMainLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     .line 14
     .line 15
@@ -5088,8 +4774,7 @@ return-void
     move-result-object v1
 
     .line 17
-    invoke-direct {v0, v1}, Landroid/os/Handler;
-    -><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
     .line 18
     .line 19
@@ -5101,8 +4786,7 @@ return-void
     const/4 v2, 0x4
 
     .line 23
-    invoke-direct {v1, p0, v2}, LT/o;
-    -><init>(Ljava/lang/Object;I)V
+    invoke-direct {v1, p0, v2}, LT/o;-><init>(Ljava/lang/Object;I)V
 
     .line 24
     .line 25
@@ -5111,8 +4795,7 @@ return-void
 
     .line 27
     .line 28
-    invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;
-    ->postDelayed(Ljava/lang/Runnable;J)Z
+    invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
     .line 29
     .line 30
@@ -5132,14 +4815,12 @@ return-void
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Landroid/util/Log;
-    ->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 6
     .line 7
     .line 8
-    invoke-direct {p0, p1}, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->isValidNotification(Landroid/service/notification/StatusBarNotification;)Z
+    invoke-direct {p0, p1}, Lcom/fmark/tselzap/Services/NotificationReceiver;->isValidNotification(Landroid/service/notification/StatusBarNotification;)Z
 
     .line 9
     .line 10
@@ -5155,8 +4836,7 @@ return-void
 
     .line 15
     :cond_0
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;
-    ->executorService:Ljava/util/concurrent/ExecutorService;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/NotificationReceiver;->executorService:Ljava/util/concurrent/ExecutorService;
 
     .line 16
     .line 17
@@ -5168,14 +4848,12 @@ return-void
 
     .line 20
     .line 21
-    invoke-direct {v1, v2, p0, p1}, LT/e;
-    -><init>(ILjava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v1, v2, p0, p1}, LT/e;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
 
     .line 22
     .line 23
     .line 24
-    invoke-interface {v0, v1}, Ljava/util/concurrent/ExecutorService;
-    ->submit(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;
+    invoke-interface {v0, v1}, Ljava/util/concurrent/ExecutorService;->submit(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;
 
     .line 25
     .line 26

@@ -5,8 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/fmark/tselzap/Services/BackgroundApiService;
-    ->makeApiRequest()V
+    value = Lcom/fmark/tselzap/Services/BackgroundApiService;->makeApiRequest()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -28,23 +27,19 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/fmark/tselzap/Services/BackgroundApiService$3;
-    ->this$0:Lcom/fmark/tselzap/Services/BackgroundApiService;
+    iput-object p1, p0, Lcom/fmark/tselzap/Services/BackgroundApiService$3;->this$0:Lcom/fmark/tselzap/Services/BackgroundApiService;
 
     .line 2
     .line 3
-    iput-object p6, p0, Lcom/fmark/tselzap/Services/BackgroundApiService$3;
-    ->val$jsonRequest:Lorg/json/JSONObject;
+    iput-object p6, p0, Lcom/fmark/tselzap/Services/BackgroundApiService$3;->val$jsonRequest:Lorg/json/JSONObject;
 
     .line 4
     .line 5
-    iput-object p7, p0, Lcom/fmark/tselzap/Services/BackgroundApiService$3;
-    ->val$key_authority:Ljava/lang/String;
+    iput-object p7, p0, Lcom/fmark/tselzap/Services/BackgroundApiService$3;->val$key_authority:Ljava/lang/String;
 
     .line 6
     .line 7
-    invoke-direct {p0, p2, p3, p4, p5}, Lcom/android/volley/toolbox/StringRequest;
-    -><init>(ILjava/lang/String;Lcom/android/volley/Response$Listener;Lcom/android/volley/Response$ErrorListener;)V
+    invoke-direct {p0, p2, p3, p4, p5}, Lcom/android/volley/toolbox/StringRequest;-><init>(ILjava/lang/String;Lcom/android/volley/Response$Listener;Lcom/android/volley/Response$ErrorListener;)V
 
     .line 8
     .line 9
@@ -58,13 +53,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundApiService$3;
-    ->val$jsonRequest:Lorg/json/JSONObject;
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/BackgroundApiService$3;->val$jsonRequest:Lorg/json/JSONObject;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lorg/json/JSONObject;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
     .line 4
     .line 5
@@ -72,13 +65,11 @@
     move-result-object v0
 
     .line 7
-    sget-object v1, Ljava/nio/charset/StandardCharsets;
-    ->UTF_8:Ljava/nio/charset/Charset;
+    sget-object v1, Ljava/nio/charset/StandardCharsets;->UTF_8:Ljava/nio/charset/Charset;
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Ljava/lang/String;
-    ->getBytes(Ljava/nio/charset/Charset;)[B
+    invoke-virtual {v0, v1}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
 
     .line 10
     .line 11
@@ -116,8 +107,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/HashMap;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     .line 4
     .line 5
@@ -126,24 +116,20 @@
 
     .line 7
     .line 8
-    iget-object v2, p0, Lcom/fmark/tselzap/Services/BackgroundApiService$3;
-    ->val$key_authority:Ljava/lang/String;
+    iget-object v2, p0, Lcom/fmark/tselzap/Services/BackgroundApiService$3;->val$key_authority:Ljava/lang/String;
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
     .line 12
     .line 13
-    iget-object v1, p0, Lcom/fmark/tselzap/Services/BackgroundApiService$3;
-    ->this$0:Lcom/fmark/tselzap/Services/BackgroundApiService;
+    iget-object v1, p0, Lcom/fmark/tselzap/Services/BackgroundApiService$3;->this$0:Lcom/fmark/tselzap/Services/BackgroundApiService;
 
     .line 14
     .line 15
-    invoke-virtual {v1}, Landroid/content/Context;
-    ->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     .line 16
     .line 17
@@ -151,8 +137,7 @@
     move-result-object v1
 
     .line 19
-    invoke-static {v1}, Lcom/fmark/tselzap/Utils/Tools;
-    ->getHWID(Landroid/content/Context;)Ljava/lang/String;
+    invoke-static {v1}, Lcom/fmark/tselzap/Utils/Tools;->getHWID(Landroid/content/Context;)Ljava/lang/String;
 
     .line 20
     .line 21
@@ -164,14 +149,12 @@
 
     .line 24
     .line 25
-    invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 26
     .line 27
     .line 28
-    invoke-static {}, Lcom/fmark/tselzap/Storage/DataStorage;
-    ->getInstance()Lcom/fmark/tselzap/Storage/DataStorage;
+    invoke-static {}, Lcom/fmark/tselzap/Storage/DataStorage;->getInstance()Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 29
     .line 30
@@ -183,8 +166,7 @@
 
     .line 33
     .line 34
-    invoke-virtual {v1, v2}, Lcom/fmark/tselzap/Storage/DataStorage;
-    ->getStr(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Lcom/fmark/tselzap/Storage/DataStorage;->getStr(Ljava/lang/String;)Ljava/lang/String;
 
     .line 35
     .line 36
@@ -192,8 +174,7 @@
     move-result-object v1
 
     .line 38
-    invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v2, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 39
     .line 40
@@ -219,24 +200,20 @@
 
     .line 2
     .line 3
-    iget-object v1, p1, Lcom/android/volley/NetworkResponse;
-    ->data:[B
+    iget-object v1, p1, Lcom/android/volley/NetworkResponse;->data:[B
 
     .line 4
     .line 5
-    sget-object v2, Ljava/nio/charset/StandardCharsets;
-    ->UTF_8:Ljava/nio/charset/Charset;
+    sget-object v2, Ljava/nio/charset/StandardCharsets;->UTF_8:Ljava/nio/charset/Charset;
 
     .line 6
     .line 7
-    invoke-direct {v0, v1, v2}, Ljava/lang/String;
-    -><init>([BLjava/nio/charset/Charset;)V
+    invoke-direct {v0, v1, v2}, Ljava/lang/String;-><init>([BLjava/nio/charset/Charset;)V
 
     .line 8
     .line 9
     .line 10
-    invoke-static {p1}, Lcom/android/volley/toolbox/HttpHeaderParser;
-    ->parseCacheHeaders(Lcom/android/volley/NetworkResponse;)Lcom/android/volley/Cache$Entry;
+    invoke-static {p1}, Lcom/android/volley/toolbox/HttpHeaderParser;->parseCacheHeaders(Lcom/android/volley/NetworkResponse;)Lcom/android/volley/Cache$Entry;
 
     .line 11
     .line 12
@@ -244,8 +221,7 @@
     move-result-object p1
 
     .line 14
-    invoke-static {v0, p1}, Lcom/android/volley/Response;
-    ->success(Ljava/lang/Object;Lcom/android/volley/Cache$Entry;)Lcom/android/volley/Response;
+    invoke-static {v0, p1}, Lcom/android/volley/Response;->success(Ljava/lang/Object;Lcom/android/volley/Cache$Entry;)Lcom/android/volley/Response;
 
     .line 15
     .line 16

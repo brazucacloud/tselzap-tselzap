@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -17,8 +16,7 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/BooleanArrayList;
-    ->emptyList()Landroidx/datastore/preferences/protobuf/BooleanArrayList;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/BooleanArrayList;->emptyList()Landroidx/datastore/preferences/protobuf/BooleanArrayList;
 
     .line 2
     .line 3
@@ -32,8 +30,7 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/DoubleArrayList;
-    ->emptyList()Landroidx/datastore/preferences/protobuf/DoubleArrayList;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/DoubleArrayList;->emptyList()Landroidx/datastore/preferences/protobuf/DoubleArrayList;
 
     .line 2
     .line 3
@@ -47,8 +44,7 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/FloatArrayList;
-    ->emptyList()Landroidx/datastore/preferences/protobuf/FloatArrayList;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/FloatArrayList;->emptyList()Landroidx/datastore/preferences/protobuf/FloatArrayList;
 
     .line 2
     .line 3
@@ -62,8 +58,7 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/IntArrayList;
-    ->emptyList()Landroidx/datastore/preferences/protobuf/IntArrayList;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/IntArrayList;->emptyList()Landroidx/datastore/preferences/protobuf/IntArrayList;
 
     .line 2
     .line 3
@@ -77,8 +72,7 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/LongArrayList;
-    ->emptyList()Landroidx/datastore/preferences/protobuf/LongArrayList;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/LongArrayList;->emptyList()Landroidx/datastore/preferences/protobuf/LongArrayList;
 
     .line 2
     .line 3
@@ -101,8 +95,7 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/ProtobufArrayList;
-    ->emptyList()Landroidx/datastore/preferences/protobuf/ProtobufArrayList;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/ProtobufArrayList;->emptyList()Landroidx/datastore/preferences/protobuf/ProtobufArrayList;
 
     .line 2
     .line 3
@@ -127,8 +120,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {p0}, Ljava/util/List;->size()I
 
     .line 2
     .line 3
@@ -153,8 +145,7 @@
     .line 11
     .line 12
     :goto_0
-    invoke-interface {p0, v0}, Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
-    ->mutableCopyWithCapacity(I)Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
+    invoke-interface {p0, v0}, Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;->mutableCopyWithCapacity(I)Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
 
     .line 13
     .line 14
@@ -172,8 +163,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/BooleanArrayList;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/BooleanArrayList;-><init>()V
     return-object v0
 .end method
 
@@ -185,8 +175,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/DoubleArrayList;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/DoubleArrayList;-><init>()V
     return-object v0
 .end method
 
@@ -198,8 +187,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/FloatArrayList;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/FloatArrayList;-><init>()V
     return-object v0
 .end method
 
@@ -211,8 +199,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/IntArrayList;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/IntArrayList;-><init>()V
     return-object v0
 .end method
 
@@ -224,8 +211,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/LongArrayList;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/LongArrayList;-><init>()V
     return-object v0
 .end method
 

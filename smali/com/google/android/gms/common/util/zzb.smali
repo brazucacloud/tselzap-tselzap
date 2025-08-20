@@ -16,8 +16,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/app/d;
-    ->i(Landroid/os/StrictMode$VmPolicy$Builder;)Landroid/os/StrictMode$VmPolicy$Builder;
+    invoke-static {p0}, Landroidx/core/app/d;->i(Landroid/os/StrictMode$VmPolicy$Builder;)Landroid/os/StrictMode$VmPolicy$Builder;
 
     .line 2
     .line 3

@@ -26,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/Toolbar$1;
-    ->this$0:Landroidx/appcompat/widget/Toolbar;
+    iput-object p1, p0, Landroidx/appcompat/widget/Toolbar$1;->this$0:Landroidx/appcompat/widget/Toolbar;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -42,18 +40,15 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/Toolbar$1;
-    ->this$0:Landroidx/appcompat/widget/Toolbar;
+    iget-object v0, p0, Landroidx/appcompat/widget/Toolbar$1;->this$0:Landroidx/appcompat/widget/Toolbar;
 
     .line 2
     .line 3
-    iget-object v0, v0, Landroidx/appcompat/widget/Toolbar;
-    ->mMenuHostHelper:Landroidx/core/view/MenuHostHelper;
+    iget-object v0, v0, Landroidx/appcompat/widget/Toolbar;->mMenuHostHelper:Landroidx/core/view/MenuHostHelper;
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Landroidx/core/view/MenuHostHelper;
-    ->onMenuItemSelected(Landroid/view/MenuItem;)Z
+    invoke-virtual {v0, p1}, Landroidx/core/view/MenuHostHelper;->onMenuItemSelected(Landroid/view/MenuItem;)Z
 
     .line 6
     .line 7
@@ -71,13 +66,11 @@
 
     .line 13
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/widget/Toolbar$1;
-    ->this$0:Landroidx/appcompat/widget/Toolbar;
+    iget-object v0, p0, Landroidx/appcompat/widget/Toolbar$1;->this$0:Landroidx/appcompat/widget/Toolbar;
 
     .line 14
     .line 15
-    iget-object v0, v0, Landroidx/appcompat/widget/Toolbar;
-    ->mOnMenuItemClickListener:Landroidx/appcompat/widget/Toolbar$OnMenuItemClickListener;
+    iget-object v0, v0, Landroidx/appcompat/widget/Toolbar;->mOnMenuItemClickListener:Landroidx/appcompat/widget/Toolbar$OnMenuItemClickListener;
 
     .line 16
     .line 17
@@ -85,8 +78,7 @@
 
     .line 18
     .line 19
-    invoke-interface {v0, p1}, Landroidx/appcompat/widget/Toolbar$OnMenuItemClickListener;
-    ->onMenuItemClick(Landroid/view/MenuItem;)Z
+    invoke-interface {v0, p1}, Landroidx/appcompat/widget/Toolbar$OnMenuItemClickListener;->onMenuItemClick(Landroid/view/MenuItem;)Z
 
     .line 20
     .line 21

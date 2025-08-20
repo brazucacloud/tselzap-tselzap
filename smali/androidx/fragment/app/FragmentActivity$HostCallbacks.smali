@@ -53,13 +53,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iput-object p1, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     .line 2
     .line 3
-    invoke-direct {p0, p1}, Landroidx/fragment/app/FragmentHostCallback;
-    -><init>(Landroidx/fragment/app/FragmentActivity;)V
+    invoke-direct {p0, p1}, Landroidx/fragment/app/FragmentHostCallback;-><init>(Landroidx/fragment/app/FragmentActivity;)V
 return-void
 .end method
 
@@ -73,11 +71,9 @@ return-void
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
-    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;
-    ->addMenuProvider(Landroidx/core/view/MenuProvider;)V
+    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->addMenuProvider(Landroidx/core/view/MenuProvider;)V
 return-void
 .end method
 
@@ -93,11 +89,9 @@ return-void
     .end param
 
     .line 2
-    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
-    invoke-virtual {v0, p1, p2}, Landroidx/activity/ComponentActivity;
-    ->addMenuProvider(Landroidx/core/view/MenuProvider;Landroidx/lifecycle/LifecycleOwner;)V
+    invoke-virtual {v0, p1, p2}, Landroidx/activity/ComponentActivity;->addMenuProvider(Landroidx/core/view/MenuProvider;Landroidx/lifecycle/LifecycleOwner;)V
 return-void
 .end method
 
@@ -117,11 +111,9 @@ return-void
     .end param
 
     .line 3
-    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/activity/ComponentActivity;
-    ->addMenuProvider(Landroidx/core/view/MenuProvider;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$State;)V
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/activity/ComponentActivity;->addMenuProvider(Landroidx/core/view/MenuProvider;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$State;)V
 return-void
 .end method
 
@@ -141,13 +133,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;
-    ->addOnConfigurationChangedListener(Landroidx/core/util/Consumer;)V
+    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->addOnConfigurationChangedListener(Landroidx/core/util/Consumer;)V
 return-void
 .end method
 
@@ -167,13 +157,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;
-    ->addOnMultiWindowModeChangedListener(Landroidx/core/util/Consumer;)V
+    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->addOnMultiWindowModeChangedListener(Landroidx/core/util/Consumer;)V
 return-void
 .end method
 
@@ -193,13 +181,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;
-    ->addOnPictureInPictureModeChangedListener(Landroidx/core/util/Consumer;)V
+    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->addOnPictureInPictureModeChangedListener(Landroidx/core/util/Consumer;)V
 return-void
 .end method
 
@@ -219,13 +205,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;
-    ->addOnTrimMemoryListener(Landroidx/core/util/Consumer;)V
+    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->addOnTrimMemoryListener(Landroidx/core/util/Consumer;)V
 return-void
 .end method
 
@@ -235,13 +219,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/activity/ComponentActivity;
-    ->getActivityResultRegistry()Landroidx/activity/result/ActivityResultRegistry;
+    invoke-virtual {v0}, Landroidx/activity/ComponentActivity;->getActivityResultRegistry()Landroidx/activity/result/ActivityResultRegistry;
 
     .line 4
     .line 5
@@ -257,13 +239,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     .line 2
     .line 3
-    iget-object v0, v0, Landroidx/fragment/app/FragmentActivity;
-    ->mFragmentLifecycleRegistry:Landroidx/lifecycle/LifecycleRegistry;    return-object v0
+    iget-object v0, v0, Landroidx/fragment/app/FragmentActivity;->mFragmentLifecycleRegistry:Landroidx/lifecycle/LifecycleRegistry;    return-object v0
 .end method
 
 .method public getOnBackPressedDispatcher()Landroidx/activity/OnBackPressedDispatcher;
@@ -272,13 +252,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/activity/ComponentActivity;
-    ->getOnBackPressedDispatcher()Landroidx/activity/OnBackPressedDispatcher;
+    invoke-virtual {v0}, Landroidx/activity/ComponentActivity;->getOnBackPressedDispatcher()Landroidx/activity/OnBackPressedDispatcher;
 
     .line 4
     .line 5
@@ -294,13 +272,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/activity/ComponentActivity;
-    ->getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
+    invoke-virtual {v0}, Landroidx/activity/ComponentActivity;->getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
 
     .line 4
     .line 5
@@ -316,13 +292,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/activity/ComponentActivity;
-    ->getViewModelStore()Landroidx/lifecycle/ViewModelStore;
+    invoke-virtual {v0}, Landroidx/activity/ComponentActivity;->getViewModelStore()Landroidx/lifecycle/ViewModelStore;
 
     .line 4
     .line 5
@@ -336,13 +310,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/activity/ComponentActivity;
-    ->invalidateMenu()V
+    invoke-virtual {v0}, Landroidx/activity/ComponentActivity;->invalidateMenu()V
     return-void
 .end method
 
@@ -358,13 +330,11 @@ return-void
     .end param
 
     .line 1
-    iget-object p1, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object p1, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     .line 2
     .line 3
-    invoke-virtual {p1, p2}, Landroidx/fragment/app/FragmentActivity;
-    ->onAttachFragment(Landroidx/fragment/app/Fragment;)V
+    invoke-virtual {p1, p2}, Landroidx/fragment/app/FragmentActivity;->onAttachFragment(Landroidx/fragment/app/Fragment;)V
 return-void
 .end method
 
@@ -388,13 +358,11 @@ return-void
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3, p4}, Landroidx/fragment/app/FragmentActivity;
-    ->dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
+    invoke-virtual {v0, p1, p2, p3, p4}, Landroidx/fragment/app/FragmentActivity;->dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
 return-void
 .end method
 
@@ -404,13 +372,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroid/app/Activity;
-    ->findViewById(I)Landroid/view/View;
+    invoke-virtual {v0, p1}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
     .line 4
     .line 5
@@ -424,8 +390,7 @@ return-void
     .locals 1
 
     .line 2
-    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     return-object v0
 .end method
@@ -434,8 +399,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->onGetHost()Landroidx/fragment/app/FragmentActivity;
+    invoke-virtual {p0}, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->onGetHost()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v0
 
@@ -448,13 +412,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/app/Activity;
-    ->getLayoutInflater()Landroid/view/LayoutInflater;
+    invoke-virtual {v0}, Landroid/app/Activity;->getLayoutInflater()Landroid/view/LayoutInflater;
 
     .line 4
     .line 5
@@ -462,13 +424,11 @@ return-void
     move-result-object v0
 
     .line 7
-    iget-object v1, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object v1, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Landroid/view/LayoutInflater;
-    ->cloneInContext(Landroid/content/Context;)Landroid/view/LayoutInflater;
+    invoke-virtual {v0, v1}, Landroid/view/LayoutInflater;->cloneInContext(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     .line 10
     .line 11
@@ -482,13 +442,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/app/Activity;
-    ->getWindow()Landroid/view/Window;
+    invoke-virtual {v0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     .line 4
     .line 5
@@ -506,8 +464,7 @@ return-void
 
     .line 11
     :cond_0
-    invoke-virtual {v0}, Landroid/view/Window;
-    ->getAttributes()Landroid/view/WindowManager$LayoutParams;
+    invoke-virtual {v0}, Landroid/view/Window;->getAttributes()Landroid/view/WindowManager$LayoutParams;
 
     .line 12
     .line 13
@@ -515,21 +472,18 @@ return-void
     move-result-object v0
 
     .line 15
-    iget v0, v0, Landroid/view/WindowManager$LayoutParams;
-    ->windowAnimations:I    return v0
+    iget v0, v0, Landroid/view/WindowManager$LayoutParams;->windowAnimations:I    return v0
 .end method
 
 .method public onHasView()Z
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/app/Activity;
-    ->getWindow()Landroid/view/Window;
+    invoke-virtual {v0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     .line 4
     .line 5
@@ -541,8 +495,7 @@ return-void
 
     .line 8
     .line 9
-    invoke-virtual {v0}, Landroid/view/Window;
-    ->peekDecorView()Landroid/view/View;
+    invoke-virtual {v0}, Landroid/view/Window;->peekDecorView()Landroid/view/View;
 
     .line 10
     .line 11
@@ -569,13 +522,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/app/Activity;
-    ->getWindow()Landroid/view/Window;
+    invoke-virtual {v0}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     .line 4
     .line 5
@@ -606,13 +557,11 @@ return-void
     .end param
 
     .line 1
-    iget-object p1, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object p1, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroid/app/Activity;
-    ->isFinishing()Z
+    invoke-virtual {p1}, Landroid/app/Activity;->isFinishing()Z
 
     .line 4
     .line 5
@@ -631,13 +580,11 @@ return-void
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Landroidx/core/app/ActivityCompat;
-    ->shouldShowRequestPermissionRationale(Landroid/app/Activity;Ljava/lang/String;)Z
+    invoke-static {v0, p1}, Landroidx/core/app/ActivityCompat;->shouldShowRequestPermissionRationale(Landroid/app/Activity;Ljava/lang/String;)Z
 
     .line 4
     .line 5
@@ -651,8 +598,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->invalidateMenu()V
+    invoke-virtual {p0}, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->invalidateMenu()V
     return-void
 .end method
 
@@ -664,13 +610,11 @@ return-void
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;
-    ->removeMenuProvider(Landroidx/core/view/MenuProvider;)V
+    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->removeMenuProvider(Landroidx/core/view/MenuProvider;)V
 return-void
 .end method
 
@@ -690,13 +634,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;
-    ->removeOnConfigurationChangedListener(Landroidx/core/util/Consumer;)V
+    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->removeOnConfigurationChangedListener(Landroidx/core/util/Consumer;)V
 return-void
 .end method
 
@@ -716,13 +658,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;
-    ->removeOnMultiWindowModeChangedListener(Landroidx/core/util/Consumer;)V
+    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->removeOnMultiWindowModeChangedListener(Landroidx/core/util/Consumer;)V
 return-void
 .end method
 
@@ -742,13 +682,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;
-    ->removeOnPictureInPictureModeChangedListener(Landroidx/core/util/Consumer;)V
+    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->removeOnPictureInPictureModeChangedListener(Landroidx/core/util/Consumer;)V
 return-void
 .end method
 
@@ -768,13 +706,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;
-    ->this$0:Landroidx/fragment/app/FragmentActivity;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->this$0:Landroidx/fragment/app/FragmentActivity;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;
-    ->removeOnTrimMemoryListener(Landroidx/core/util/Consumer;)V
+    invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->removeOnTrimMemoryListener(Landroidx/core/util/Consumer;)V
 return-void
 .end method
 

@@ -63,8 +63,7 @@
     move-result-object v0
 
     .line 17
-    sput-object v0, Landroidx/core/text/util/LocalePreferences;
-    ->WEATHER_FAHRENHEIT_COUNTRIES:[Ljava/lang/String;
+    sput-object v0, Landroidx/core/text/util/LocalePreferences;->WEATHER_FAHRENHEIT_COUNTRIES:[Ljava/lang/String;
 
     .line 18
     .line 19
@@ -75,8 +74,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -92,8 +90,7 @@
     .end param
 
     .line 1
-    invoke-static {p0}, Ljava/util/Calendar;
-    ->getInstance(Ljava/util/Locale;)Ljava/util/Calendar;
+    invoke-static {p0}, Ljava/util/Calendar;->getInstance(Ljava/util/Locale;)Ljava/util/Calendar;
 
     .line 2
     .line 3
@@ -101,8 +98,7 @@
     move-result-object p0
 
     .line 5
-    invoke-virtual {p0}, Ljava/util/Calendar;
-    ->getFirstDayOfWeek()I
+    invoke-virtual {p0}, Ljava/util/Calendar;->getFirstDayOfWeek()I
 
     .line 6
     .line 7
@@ -110,8 +106,7 @@
     move-result p0
 
     .line 9
-    invoke-static {p0}, Landroidx/core/text/util/LocalePreferences;
-    ->getStringOfFirstDayOfWeek(I)Ljava/lang/String;
+    invoke-static {p0}, Landroidx/core/text/util/LocalePreferences;->getStringOfFirstDayOfWeek(I)Ljava/lang/String;
 
     .line 10
     .line 11
@@ -133,8 +128,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Landroid/text/format/DateFormat;
-    ->getBestDateTimePattern(Ljava/util/Locale;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, v0}, Landroid/text/format/DateFormat;->getBestDateTimePattern(Ljava/util/Locale;Ljava/lang/String;)Ljava/lang/String;
 
     .line 4
     .line 5
@@ -146,8 +140,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0, v0}, Ljava/lang/String;
-    ->contains(Ljava/lang/CharSequence;)Z
+    invoke-virtual {p0, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     .line 10
     .line 11
@@ -182,8 +175,7 @@
     const/4 v0, 0x1
 
     .line 1
-    invoke-static {v0}, Landroidx/core/text/util/LocalePreferences;
-    ->getCalendarType(Z)Ljava/lang/String;
+    invoke-static {v0}, Landroidx/core/text/util/LocalePreferences;->getCalendarType(Z)Ljava/lang/String;
 
     move-result-object v0
 
@@ -202,8 +194,7 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-static {p0, v0}, Landroidx/core/text/util/LocalePreferences;
-    ->getCalendarType(Ljava/util/Locale;Z)Ljava/lang/String;
+    invoke-static {p0, v0}, Landroidx/core/text/util/LocalePreferences;->getCalendarType(Ljava/util/Locale;Z)Ljava/lang/String;
 
     move-result-object p0
 
@@ -224,8 +215,7 @@
 
     const-string v1, ""
 
-    invoke-static {v0, v1, p0, p1}, Landroidx/core/text/util/LocalePreferences;
-    ->getUnicodeLocaleType(Ljava/lang/String;Ljava/lang/String;Ljava/util/Locale;Z)Ljava/lang/String;
+    invoke-static {v0, v1, p0, p1}, Landroidx/core/text/util/LocalePreferences;->getUnicodeLocaleType(Ljava/lang/String;Ljava/lang/String;Ljava/util/Locale;Z)Ljava/lang/String;
 
     move-result-object v0
 
@@ -235,16 +225,14 @@
 
     .line 8
     :cond_0
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x18
 
     if-lt v0, v2, :cond_1
 
     .line 9
-    invoke-static {p0}, Landroidx/core/text/util/LocalePreferences$Api24Impl;
-    ->getCalendarType(Ljava/util/Locale;)Ljava/lang/String;
+    invoke-static {p0}, Landroidx/core/text/util/LocalePreferences$Api24Impl;->getCalendarType(Ljava/util/Locale;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -268,16 +256,14 @@
     .end annotation
 
     .line 3
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x18
 
     if-lt v0, v1, :cond_0
 
     .line 4
-    invoke-static {}, Landroidx/core/text/util/LocalePreferences$Api24Impl;
-    ->getDefaultLocale()Ljava/util/Locale;
+    invoke-static {}, Landroidx/core/text/util/LocalePreferences$Api24Impl;->getDefaultLocale()Ljava/util/Locale;
 
     move-result-object v0
 
@@ -285,15 +271,13 @@
 
     .line 5
     :cond_0
-    invoke-static {}, Landroidx/core/text/util/LocalePreferences;
-    ->getDefaultLocale()Ljava/util/Locale;
+    invoke-static {}, Landroidx/core/text/util/LocalePreferences;->getDefaultLocale()Ljava/util/Locale;
 
     move-result-object v0
 
     .line 6
     :goto_0
-    invoke-static {v0, p0}, Landroidx/core/text/util/LocalePreferences;
-    ->getCalendarType(Ljava/util/Locale;Z)Ljava/lang/String;
+    invoke-static {v0, p0}, Landroidx/core/text/util/LocalePreferences;->getCalendarType(Ljava/util/Locale;Z)Ljava/lang/String;
 
     move-result-object p0
 
@@ -304,8 +288,7 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Ljava/util/Locale;
-    ->getDefault()Ljava/util/Locale;
+    invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
     .line 2
     .line 3
@@ -323,8 +306,7 @@
     const/4 v0, 0x1
 
     .line 1
-    invoke-static {v0}, Landroidx/core/text/util/LocalePreferences;
-    ->getFirstDayOfWeek(Z)Ljava/lang/String;
+    invoke-static {v0}, Landroidx/core/text/util/LocalePreferences;->getFirstDayOfWeek(Z)Ljava/lang/String;
 
     move-result-object v0
 
@@ -343,8 +325,7 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-static {p0, v0}, Landroidx/core/text/util/LocalePreferences;
-    ->getFirstDayOfWeek(Ljava/util/Locale;Z)Ljava/lang/String;
+    invoke-static {p0, v0}, Landroidx/core/text/util/LocalePreferences;->getFirstDayOfWeek(Ljava/util/Locale;Z)Ljava/lang/String;
 
     move-result-object p0
 
@@ -365,8 +346,7 @@
 
     const-string v1, ""
 
-    invoke-static {v0, v1, p0, p1}, Landroidx/core/text/util/LocalePreferences;
-    ->getUnicodeLocaleType(Ljava/lang/String;Ljava/lang/String;Ljava/util/Locale;Z)Ljava/lang/String;
+    invoke-static {v0, v1, p0, p1}, Landroidx/core/text/util/LocalePreferences;->getUnicodeLocaleType(Ljava/lang/String;Ljava/lang/String;Ljava/util/Locale;Z)Ljava/lang/String;
 
     move-result-object p1
 
@@ -376,8 +356,7 @@
 
     .line 8
     :cond_0
-    invoke-static {p0}, Landroidx/core/text/util/LocalePreferences;
-    ->getBaseFirstDayOfWeek(Ljava/util/Locale;)Ljava/lang/String;
+    invoke-static {p0}, Landroidx/core/text/util/LocalePreferences;->getBaseFirstDayOfWeek(Ljava/util/Locale;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -390,16 +369,14 @@
     .end annotation
 
     .line 3
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x18
 
     if-lt v0, v1, :cond_0
 
     .line 4
-    invoke-static {}, Landroidx/core/text/util/LocalePreferences$Api24Impl;
-    ->getDefaultLocale()Ljava/util/Locale;
+    invoke-static {}, Landroidx/core/text/util/LocalePreferences$Api24Impl;->getDefaultLocale()Ljava/util/Locale;
 
     move-result-object v0
 
@@ -407,15 +384,13 @@
 
     .line 5
     :cond_0
-    invoke-static {}, Landroidx/core/text/util/LocalePreferences;
-    ->getDefaultLocale()Ljava/util/Locale;
+    invoke-static {}, Landroidx/core/text/util/LocalePreferences;->getDefaultLocale()Ljava/util/Locale;
 
     move-result-object v0
 
     .line 6
     :goto_0
-    invoke-static {v0, p0}, Landroidx/core/text/util/LocalePreferences;
-    ->getFirstDayOfWeek(Ljava/util/Locale;Z)Ljava/lang/String;
+    invoke-static {v0, p0}, Landroidx/core/text/util/LocalePreferences;->getFirstDayOfWeek(Ljava/util/Locale;Z)Ljava/lang/String;
 
     move-result-object p0
 
@@ -430,8 +405,7 @@
     const/4 v0, 0x1
 
     .line 1
-    invoke-static {v0}, Landroidx/core/text/util/LocalePreferences;
-    ->getHourCycle(Z)Ljava/lang/String;
+    invoke-static {v0}, Landroidx/core/text/util/LocalePreferences;->getHourCycle(Z)Ljava/lang/String;
 
     move-result-object v0
 
@@ -450,8 +424,7 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-static {p0, v0}, Landroidx/core/text/util/LocalePreferences;
-    ->getHourCycle(Ljava/util/Locale;Z)Ljava/lang/String;
+    invoke-static {p0, v0}, Landroidx/core/text/util/LocalePreferences;->getHourCycle(Ljava/util/Locale;Z)Ljava/lang/String;
 
     move-result-object p0
 
@@ -472,8 +445,7 @@
 
     const-string v1, ""
 
-    invoke-static {v0, v1, p0, p1}, Landroidx/core/text/util/LocalePreferences;
-    ->getUnicodeLocaleType(Ljava/lang/String;Ljava/lang/String;Ljava/util/Locale;Z)Ljava/lang/String;
+    invoke-static {v0, v1, p0, p1}, Landroidx/core/text/util/LocalePreferences;->getUnicodeLocaleType(Ljava/lang/String;Ljava/lang/String;Ljava/util/Locale;Z)Ljava/lang/String;
 
     move-result-object p1
 
@@ -483,16 +455,14 @@
 
     .line 8
     :cond_0
-    sget p1, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget p1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v0, 0x21
 
     if-lt p1, v0, :cond_1
 
     .line 9
-    invoke-static {p0}, Landroidx/core/text/util/LocalePreferences$Api33Impl;
-    ->getHourCycle(Ljava/util/Locale;)Ljava/lang/String;
+    invoke-static {p0}, Landroidx/core/text/util/LocalePreferences$Api33Impl;->getHourCycle(Ljava/util/Locale;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -500,8 +470,7 @@
 
     .line 10
     :cond_1
-    invoke-static {p0}, Landroidx/core/text/util/LocalePreferences;
-    ->getBaseHourCycle(Ljava/util/Locale;)Ljava/lang/String;
+    invoke-static {p0}, Landroidx/core/text/util/LocalePreferences;->getBaseHourCycle(Ljava/util/Locale;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -514,16 +483,14 @@
     .end annotation
 
     .line 3
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x18
 
     if-lt v0, v1, :cond_0
 
     .line 4
-    invoke-static {}, Landroidx/core/text/util/LocalePreferences$Api24Impl;
-    ->getDefaultLocale()Ljava/util/Locale;
+    invoke-static {}, Landroidx/core/text/util/LocalePreferences$Api24Impl;->getDefaultLocale()Ljava/util/Locale;
 
     move-result-object v0
 
@@ -531,15 +498,13 @@
 
     .line 5
     :cond_0
-    invoke-static {}, Landroidx/core/text/util/LocalePreferences;
-    ->getDefaultLocale()Ljava/util/Locale;
+    invoke-static {}, Landroidx/core/text/util/LocalePreferences;->getDefaultLocale()Ljava/util/Locale;
 
     move-result-object v0
 
     .line 6
     :goto_0
-    invoke-static {v0, p0}, Landroidx/core/text/util/LocalePreferences;
-    ->getHourCycle(Ljava/util/Locale;Z)Ljava/lang/String;
+    invoke-static {v0, p0}, Landroidx/core/text/util/LocalePreferences;->getHourCycle(Ljava/util/Locale;Z)Ljava/lang/String;
 
     move-result-object p0
 
@@ -622,13 +587,11 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/core/text/util/LocalePreferences;
-    ->WEATHER_FAHRENHEIT_COUNTRIES:[Ljava/lang/String;
+    sget-object v0, Landroidx/core/text/util/LocalePreferences;->WEATHER_FAHRENHEIT_COUNTRIES:[Ljava/lang/String;
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Ljava/util/Locale;
-    ->getCountry()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/util/Locale;->getCountry()Ljava/lang/String;
 
     .line 4
     .line 5
@@ -636,8 +599,7 @@
     move-result-object p0
 
     .line 7
-    invoke-static {v0, p0}, Ljava/util/Arrays;
-    ->binarySearch([Ljava/lang/Object;Ljava/lang/Object;)I
+    invoke-static {v0, p0}, Ljava/util/Arrays;->binarySearch([Ljava/lang/Object;Ljava/lang/Object;)I
 
     .line 8
     .line 9
@@ -672,8 +634,7 @@
     const/4 v0, 0x1
 
     .line 1
-    invoke-static {v0}, Landroidx/core/text/util/LocalePreferences;
-    ->getTemperatureUnit(Z)Ljava/lang/String;
+    invoke-static {v0}, Landroidx/core/text/util/LocalePreferences;->getTemperatureUnit(Z)Ljava/lang/String;
 
     move-result-object v0
 
@@ -692,8 +653,7 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-static {p0, v0}, Landroidx/core/text/util/LocalePreferences;
-    ->getTemperatureUnit(Ljava/util/Locale;Z)Ljava/lang/String;
+    invoke-static {p0, v0}, Landroidx/core/text/util/LocalePreferences;->getTemperatureUnit(Ljava/util/Locale;Z)Ljava/lang/String;
 
     move-result-object p0
 
@@ -714,8 +674,7 @@
 
     const-string v1, ""
 
-    invoke-static {v0, v1, p0, p1}, Landroidx/core/text/util/LocalePreferences;
-    ->getUnicodeLocaleType(Ljava/lang/String;Ljava/lang/String;Ljava/util/Locale;Z)Ljava/lang/String;
+    invoke-static {v0, v1, p0, p1}, Landroidx/core/text/util/LocalePreferences;->getUnicodeLocaleType(Ljava/lang/String;Ljava/lang/String;Ljava/util/Locale;Z)Ljava/lang/String;
 
     move-result-object p1
 
@@ -725,16 +684,14 @@
 
     .line 8
     :cond_0
-    sget p1, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget p1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v0, 0x21
 
     if-lt p1, v0, :cond_1
 
     .line 9
-    invoke-static {p0}, Landroidx/core/text/util/LocalePreferences$Api33Impl;
-    ->getResolvedTemperatureUnit(Ljava/util/Locale;)Ljava/lang/String;
+    invoke-static {p0}, Landroidx/core/text/util/LocalePreferences$Api33Impl;->getResolvedTemperatureUnit(Ljava/util/Locale;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -742,8 +699,7 @@
 
     .line 10
     :cond_1
-    invoke-static {p0}, Landroidx/core/text/util/LocalePreferences;
-    ->getTemperatureHardCoded(Ljava/util/Locale;)Ljava/lang/String;
+    invoke-static {p0}, Landroidx/core/text/util/LocalePreferences;->getTemperatureHardCoded(Ljava/util/Locale;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -756,16 +712,14 @@
     .end annotation
 
     .line 3
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x18
 
     if-lt v0, v1, :cond_0
 
     .line 4
-    invoke-static {}, Landroidx/core/text/util/LocalePreferences$Api24Impl;
-    ->getDefaultLocale()Ljava/util/Locale;
+    invoke-static {}, Landroidx/core/text/util/LocalePreferences$Api24Impl;->getDefaultLocale()Ljava/util/Locale;
 
     move-result-object v0
 
@@ -773,15 +727,13 @@
 
     .line 5
     :cond_0
-    invoke-static {}, Landroidx/core/text/util/LocalePreferences;
-    ->getDefaultLocale()Ljava/util/Locale;
+    invoke-static {}, Landroidx/core/text/util/LocalePreferences;->getDefaultLocale()Ljava/util/Locale;
 
     move-result-object v0
 
     .line 6
     :goto_0
-    invoke-static {v0, p0}, Landroidx/core/text/util/LocalePreferences;
-    ->getTemperatureUnit(Ljava/util/Locale;Z)Ljava/lang/String;
+    invoke-static {v0, p0}, Landroidx/core/text/util/LocalePreferences;->getTemperatureUnit(Ljava/util/Locale;Z)Ljava/lang/String;
 
     move-result-object p0
 
@@ -792,8 +744,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p2, p0}, Ljava/util/Locale;
-    ->getUnicodeLocaleType(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p2, p0}, Ljava/util/Locale;->getUnicodeLocaleType(Ljava/lang/String;)Ljava/lang/String;
 
     .line 2
     .line 3

@@ -24,8 +24,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -62,8 +61,7 @@
 
     .line 12
     .line 13
-    invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/core/motion/utils/LinearCurveFit;
-    -><init>([D[[D)V
+    invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/core/motion/utils/LinearCurveFit;-><init>([D[[D)V
 return-object p0
 
     .line 17
@@ -83,8 +81,7 @@ return-object p0
 
     .line 23
     .line 24
-    invoke-direct {p0, v1, v2, p1}, Landroidx/constraintlayout/core/motion/utils/CurveFit$Constant;
-    -><init>(D[D)V
+    invoke-direct {p0, v1, v2, p1}, Landroidx/constraintlayout/core/motion/utils/CurveFit$Constant;-><init>(D[D)V
 return-object p0
 
     .line 28
@@ -93,8 +90,7 @@ return-object p0
 
     .line 29
     .line 30
-    invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    -><init>([D[[D)V
+    invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;-><init>([D[[D)V
 return-object p0
 .end method
 
@@ -106,8 +102,7 @@ return-object p0
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1, p2}, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit;
-    -><init>([I[D[[D)V
+    invoke-direct {v0, p0, p1, p2}, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit;-><init>([I[D[[D)V
 return-object v0
 .end method
 

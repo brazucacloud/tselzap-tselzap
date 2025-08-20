@@ -6,8 +6,7 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -17,8 +16,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Lw0/h;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lw0/h;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 2
     .line 3
@@ -32,14 +30,12 @@
     .locals 5
 
     .line 1
-    invoke-super {p0, p1, p2}, Lw0/h;
-    ->onMeasure(II)V
+    invoke-super {p0, p1, p2}, Lw0/h;->onMeasure(II)V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroid/view/ViewGroup;
-    ->getChildCount()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
 
     .line 5
     .line 6
@@ -47,8 +43,7 @@
     move-result p1
 
     .line 8
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getMeasuredWidth()I
+    invoke-virtual {p0}, Landroid/view/View;->getMeasuredWidth()I
 
     .line 9
     .line 10
@@ -56,8 +51,7 @@
     move-result p2
 
     .line 12
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     .line 13
     .line 14
@@ -68,8 +62,7 @@
     sub-int/2addr p2, v0
 
     .line 17
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getPaddingRight()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingRight()I
 
     .line 18
     .line 19
@@ -88,8 +81,7 @@
 
     .line 24
     .line 25
-    invoke-virtual {p0, v0}, Landroid/view/ViewGroup;
-    ->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     .line 26
     .line 27
@@ -97,8 +89,7 @@
     move-result-object v1
 
     .line 29
-    invoke-virtual {v1}, Landroid/view/View;
-    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 30
     .line 31
@@ -106,8 +97,7 @@
     move-result-object v2
 
     .line 33
-    iget v2, v2, Landroid/view/ViewGroup$LayoutParams;
-    ->width:I
+    iget v2, v2, Landroid/view/ViewGroup$LayoutParams;->width:I
 
     .line 34
     .line 35
@@ -122,8 +112,7 @@
 
     .line 39
     .line 40
-    invoke-static {p2, v2}, Landroid/view/View$MeasureSpec;
-    ->makeMeasureSpec(II)I
+    invoke-static {p2, v2}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
     .line 41
     .line 42
@@ -131,8 +120,7 @@
     move-result v3
 
     .line 44
-    invoke-virtual {v1}, Landroid/view/View;
-    ->getMeasuredHeight()I
+    invoke-virtual {v1}, Landroid/view/View;->getMeasuredHeight()I
 
     .line 45
     .line 46
@@ -140,8 +128,7 @@
     move-result v4
 
     .line 48
-    invoke-static {v4, v2}, Landroid/view/View$MeasureSpec;
-    ->makeMeasureSpec(II)I
+    invoke-static {v4, v2}, Landroid/view/View$MeasureSpec;->makeMeasureSpec(II)I
 
     .line 49
     .line 50
@@ -149,8 +136,7 @@
     move-result v2
 
     .line 52
-    invoke-virtual {v1, v3, v2}, Landroid/view/View;
-    ->measure(II)V
+    invoke-virtual {v1, v3, v2}, Landroid/view/View;->measure(II)V
 
     .line 53
     .line 54
@@ -175,8 +161,7 @@
     .end param
 
     .line 1
-    invoke-super {p0, p1}, Lw0/h;
-    ->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-super {p0, p1}, Lw0/h;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     .line 2
     .line 3
@@ -192,8 +177,7 @@
     .end param
 
     .line 1
-    invoke-super {p0, p1}, Lw0/h;
-    ->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-super {p0, p1}, Lw0/h;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 2
     .line 3
@@ -209,8 +193,7 @@
     .end param
 
     .line 1
-    invoke-super {p0, p1}, Lw0/h;
-    ->setBackgroundTintList(Landroid/content/res/ColorStateList;)V
+    invoke-super {p0, p1}, Lw0/h;->setBackgroundTintList(Landroid/content/res/ColorStateList;)V
 
     .line 2
     .line 3
@@ -226,8 +209,7 @@
     .end param
 
     .line 1
-    invoke-super {p0, p1}, Lw0/h;
-    ->setBackgroundTintMode(Landroid/graphics/PorterDuff$Mode;)V
+    invoke-super {p0, p1}, Lw0/h;->setBackgroundTintMode(Landroid/graphics/PorterDuff$Mode;)V
 
     .line 2
     .line 3
@@ -239,8 +221,7 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Lw0/h;
-    ->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-super {p0, p1}, Lw0/h;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 2
     .line 3
@@ -256,8 +237,7 @@
     .end param
 
     .line 1
-    invoke-super {p0, p1}, Lw0/h;
-    ->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-super {p0, p1}, Lw0/h;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 2
     .line 3

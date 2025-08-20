@@ -22,8 +22,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/core/util/ContinuationRunnable;
-    -><init>(Lg1/d;)V
+    invoke-direct {v0, p0}, Landroidx/core/util/ContinuationRunnable;-><init>(Lg1/d;)V
 
     .line 4
     .line 5

@@ -6,8 +6,7 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -31,8 +30,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroid/widget/BaseAdapter;
-    -><init>()V
+    invoke-direct {p0}, Landroid/widget/BaseAdapter;-><init>()V
 
     .line 2
     .line 3
@@ -40,33 +38,27 @@
     const/4 v0, -0x1
 
     .line 5
-    iput v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->mExpandedIndex:I
+    iput v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mExpandedIndex:I
 
     .line 6
     .line 7
-    iput-boolean p3, p0, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->mOverflowOnly:Z
+    iput-boolean p3, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mOverflowOnly:Z
 
     .line 8
     .line 9
-    iput-object p2, p0, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->mInflater:Landroid/view/LayoutInflater;
+    iput-object p2, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mInflater:Landroid/view/LayoutInflater;
 
     .line 10
     .line 11
-    iput-object p1, p0, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->mAdapterMenu:Landroidx/appcompat/view/menu/MenuBuilder;
+    iput-object p1, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mAdapterMenu:Landroidx/appcompat/view/menu/MenuBuilder;
 
     .line 12
     .line 13
-    iput p4, p0, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->mItemLayoutRes:I
+    iput p4, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mItemLayoutRes:I
 
     .line 14
     .line 15
-    invoke-virtual {p0}, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->findExpandedIndex()V
+    invoke-virtual {p0}, Landroidx/appcompat/view/menu/MenuAdapter;->findExpandedIndex()V
     return-void
 .end method
 
@@ -76,13 +68,11 @@
     .locals 5
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->mAdapterMenu:Landroidx/appcompat/view/menu/MenuBuilder;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mAdapterMenu:Landroidx/appcompat/view/menu/MenuBuilder;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuBuilder;
-    ->getExpandedItem()Landroidx/appcompat/view/menu/MenuItemImpl;
+    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuBuilder;->getExpandedItem()Landroidx/appcompat/view/menu/MenuItemImpl;
 
     .line 4
     .line 5
@@ -94,13 +84,11 @@
 
     .line 8
     .line 9
-    iget-object v1, p0, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->mAdapterMenu:Landroidx/appcompat/view/menu/MenuBuilder;
+    iget-object v1, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mAdapterMenu:Landroidx/appcompat/view/menu/MenuBuilder;
 
     .line 10
     .line 11
-    invoke-virtual {v1}, Landroidx/appcompat/view/menu/MenuBuilder;
-    ->getNonActionItems()Ljava/util/ArrayList;
+    invoke-virtual {v1}, Landroidx/appcompat/view/menu/MenuBuilder;->getNonActionItems()Ljava/util/ArrayList;
 
     .line 12
     .line 13
@@ -108,8 +96,7 @@
     move-result-object v1
 
     .line 15
-    invoke-virtual {v1}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
 
     .line 16
     .line 17
@@ -125,8 +112,7 @@
 
     .line 21
     .line 22
-    invoke-virtual {v1, v3}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {v1, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 23
     .line 24
@@ -142,8 +128,7 @@
 
     .line 29
     .line 30
-    iput v3, p0, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->mExpandedIndex:I    
+    iput v3, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mExpandedIndex:I
     return-void
 
     .line 33
@@ -159,8 +144,7 @@
     const/4 v0, -0x1
 
     .line 37
-    iput v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->mExpandedIndex:I    
+    iput v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mExpandedIndex:I
     return-void
 .end method
 
@@ -168,16 +152,14 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->mAdapterMenu:Landroidx/appcompat/view/menu/MenuBuilder;    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mAdapterMenu:Landroidx/appcompat/view/menu/MenuBuilder;    return-object v0
 .end method
 
 .method public getCount()I
     .locals 2
 
     .line 1
-    iget-boolean v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->mOverflowOnly:Z
+    iget-boolean v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mOverflowOnly:Z
 
     .line 2
     .line 3
@@ -185,13 +167,11 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->mAdapterMenu:Landroidx/appcompat/view/menu/MenuBuilder;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mAdapterMenu:Landroidx/appcompat/view/menu/MenuBuilder;
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuBuilder;
-    ->getNonActionItems()Ljava/util/ArrayList;
+    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuBuilder;->getNonActionItems()Ljava/util/ArrayList;
 
     .line 8
     .line 9
@@ -203,13 +183,11 @@
 
     .line 12
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->mAdapterMenu:Landroidx/appcompat/view/menu/MenuBuilder;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mAdapterMenu:Landroidx/appcompat/view/menu/MenuBuilder;
 
     .line 13
     .line 14
-    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuBuilder;
-    ->getVisibleItems()Ljava/util/ArrayList;
+    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuBuilder;->getVisibleItems()Ljava/util/ArrayList;
 
     .line 15
     .line 16
@@ -218,8 +196,7 @@
 
     .line 18
     :goto_0
-    iget v1, p0, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->mExpandedIndex:I
+    iget v1, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mExpandedIndex:I
 
     .line 19
     .line 20
@@ -227,8 +204,7 @@
 
     .line 21
     .line 22
-    invoke-virtual {v0}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     .line 23
     .line 24
@@ -239,8 +215,7 @@
 
     .line 27
     :cond_1
-    invoke-virtual {v0}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     .line 28
     .line 29
@@ -255,43 +230,36 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->mForceShowIcon:Z    return v0
+    iget-boolean v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mForceShowIcon:Z    return v0
 .end method
 
 .method public getItem(I)Landroidx/appcompat/view/menu/MenuItemImpl;
     .locals 2
 
     .line 2
-    iget-boolean v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->mOverflowOnly:Z
+    iget-boolean v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mOverflowOnly:Z
 
     if-eqz v0, :cond_0
 
     .line 3
-    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->mAdapterMenu:Landroidx/appcompat/view/menu/MenuBuilder;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mAdapterMenu:Landroidx/appcompat/view/menu/MenuBuilder;
 
-    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuBuilder;
-    ->getNonActionItems()Ljava/util/ArrayList;
+    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuBuilder;->getNonActionItems()Ljava/util/ArrayList;
 
     move-result-object v0
 
     goto :goto_0
 
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->mAdapterMenu:Landroidx/appcompat/view/menu/MenuBuilder;
+    iget-object v0, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mAdapterMenu:Landroidx/appcompat/view/menu/MenuBuilder;
 
-    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuBuilder;
-    ->getVisibleItems()Ljava/util/ArrayList;
+    invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuBuilder;->getVisibleItems()Ljava/util/ArrayList;
 
     move-result-object v0
 
     .line 4
     :goto_0
-    iget v1, p0, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->mExpandedIndex:I
+    iget v1, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mExpandedIndex:I
 
     if-ltz v1, :cond_1
 
@@ -301,8 +269,7 @@
 
     .line 5
     :cond_1
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -315,8 +282,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->getItem(I)Landroidx/appcompat/view/menu/MenuItemImpl;
+    invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/MenuAdapter;->getItem(I)Landroidx/appcompat/view/menu/MenuItemImpl;
 
     move-result-object p1
 
@@ -342,18 +308,15 @@
 
     .line 3
     .line 4
-    iget-object p2, p0, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->mInflater:Landroid/view/LayoutInflater;
+    iget-object p2, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mInflater:Landroid/view/LayoutInflater;
 
     .line 5
     .line 6
-    iget v1, p0, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->mItemLayoutRes:I
+    iget v1, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mItemLayoutRes:I
 
     .line 7
     .line 8
-    invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;
-    ->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    invoke-virtual {p2, v1, p3, v0}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     .line 9
     .line 10
@@ -362,8 +325,7 @@
 
     .line 12
     :cond_0
-    invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->getItem(I)Landroidx/appcompat/view/menu/MenuItemImpl;
+    invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/MenuAdapter;->getItem(I)Landroidx/appcompat/view/menu/MenuItemImpl;
 
     .line 13
     .line 14
@@ -371,8 +333,7 @@
     move-result-object p3
 
     .line 16
-    invoke-virtual {p3}, Landroidx/appcompat/view/menu/MenuItemImpl;
-    ->getGroupId()I
+    invoke-virtual {p3}, Landroidx/appcompat/view/menu/MenuItemImpl;->getGroupId()I
 
     .line 17
     .line 18
@@ -388,8 +349,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {p0, v1}, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->getItem(I)Landroidx/appcompat/view/menu/MenuItemImpl;
+    invoke-virtual {p0, v1}, Landroidx/appcompat/view/menu/MenuAdapter;->getItem(I)Landroidx/appcompat/view/menu/MenuItemImpl;
 
     .line 25
     .line 26
@@ -397,8 +357,7 @@
     move-result-object v1
 
     .line 28
-    invoke-virtual {v1}, Landroidx/appcompat/view/menu/MenuItemImpl;
-    ->getGroupId()I
+    invoke-virtual {v1}, Landroidx/appcompat/view/menu/MenuItemImpl;->getGroupId()I
 
     .line 29
     .line 30
@@ -421,13 +380,11 @@
 
     .line 36
     .line 37
-    iget-object v3, p0, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->mAdapterMenu:Landroidx/appcompat/view/menu/MenuBuilder;
+    iget-object v3, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mAdapterMenu:Landroidx/appcompat/view/menu/MenuBuilder;
 
     .line 38
     .line 39
-    invoke-virtual {v3}, Landroidx/appcompat/view/menu/MenuBuilder;
-    ->isGroupDividerEnabled()Z
+    invoke-virtual {v3}, Landroidx/appcompat/view/menu/MenuBuilder;->isGroupDividerEnabled()Z
 
     .line 40
     .line 41
@@ -457,8 +414,7 @@
 
     .line 51
     :goto_1
-    invoke-virtual {v2, p3}, Landroidx/appcompat/view/menu/ListMenuItemView;
-    ->setGroupDividerEnabled(Z)V
+    invoke-virtual {v2, p3}, Landroidx/appcompat/view/menu/ListMenuItemView;->setGroupDividerEnabled(Z)V
 
     .line 52
     .line 53
@@ -470,8 +426,7 @@
 
     .line 56
     .line 57
-    iget-boolean v1, p0, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->mForceShowIcon:Z
+    iget-boolean v1, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mForceShowIcon:Z
 
     .line 58
     .line 59
@@ -479,15 +434,13 @@
 
     .line 60
     .line 61
-    invoke-virtual {v2, v4}, Landroidx/appcompat/view/menu/ListMenuItemView;
-    ->setForceShowIcon(Z)V
+    invoke-virtual {v2, v4}, Landroidx/appcompat/view/menu/ListMenuItemView;->setForceShowIcon(Z)V
 
     .line 62
     .line 63
     .line 64
     :cond_3
-    invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->getItem(I)Landroidx/appcompat/view/menu/MenuItemImpl;
+    invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/MenuAdapter;->getItem(I)Landroidx/appcompat/view/menu/MenuItemImpl;
 
     .line 65
     .line 66
@@ -495,8 +448,7 @@
     move-result-object p1
 
     .line 68
-    invoke-interface {p3, p1, v0}, Landroidx/appcompat/view/menu/MenuView$ItemView;
-    ->initialize(Landroidx/appcompat/view/menu/MenuItemImpl;I)V    
+    invoke-interface {p3, p1, v0}, Landroidx/appcompat/view/menu/MenuView$ItemView;->initialize(Landroidx/appcompat/view/menu/MenuItemImpl;I)V
     return-object p2
 .end method
 
@@ -504,14 +456,12 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->findExpandedIndex()V
+    invoke-virtual {p0}, Landroidx/appcompat/view/menu/MenuAdapter;->findExpandedIndex()V
 
     .line 2
     .line 3
     .line 4
-    invoke-super {p0}, Landroid/widget/BaseAdapter;
-    ->notifyDataSetChanged()V
+    invoke-super {p0}, Landroid/widget/BaseAdapter;->notifyDataSetChanged()V
 return-void
 .end method
 
@@ -519,8 +469,7 @@ return-void
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/appcompat/view/menu/MenuAdapter;
-    ->mForceShowIcon:Z
+    iput-boolean p1, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mForceShowIcon:Z
 return-void
 .end method
 

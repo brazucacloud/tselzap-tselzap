@@ -22,15 +22,12 @@
     .locals 1
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 3
-    sget v0, Lcom/google/android/gms/internal/measurement/zzjl;
-    ->zzd:I
+    sget v0, Lcom/google/android/gms/internal/measurement/zzjl;->zzd:I
 
-    iput v0, p0, Lcom/google/android/gms/internal/measurement/zzjl;
-    ->zze:I
+    iput v0, p0, Lcom/google/android/gms/internal/measurement/zzjl;->zze:I
 
     return-void
 .end method
@@ -39,8 +36,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzjl;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzjl;-><init>()V
     return-void
 .end method
 
@@ -94,13 +90,11 @@
 
     move v3, p2
 
-    invoke-direct/range {v0 .. v5}, Lcom/google/android/gms/internal/measurement/zzjo;
-    -><init>([BIIZLcom/google/android/gms/internal/measurement/zzjn;)V
+    invoke-direct/range {v0 .. v5}, Lcom/google/android/gms/internal/measurement/zzjo;-><init>([BIIZLcom/google/android/gms/internal/measurement/zzjn;)V
 
     .line 4
     :try_start_0
-    invoke-virtual {v0, v3}, Lcom/google/android/gms/internal/measurement/zzjo;
-    ->zzb(I)I
+    invoke-virtual {v0, v3}, Lcom/google/android/gms/internal/measurement/zzjo;->zzb(I)I
     :try_end_0
     .catch Lcom/google/android/gms/internal/measurement/zzkq; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -114,8 +108,7 @@
     .line 5
     new-instance p1, Ljava/lang/IllegalArgumentException;
 
-    invoke-direct {p1, p0}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/Throwable;)V
+    invoke-direct {p1, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/Throwable;)V
 
     throw p1
 .end method
@@ -195,21 +188,18 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzjl;
-    ->zza:I
+    iget v0, p0, Lcom/google/android/gms/internal/measurement/zzjl;->zza:I
 
     .line 2
     .line 3
-    iget v1, p0, Lcom/google/android/gms/internal/measurement/zzjl;
-    ->zzb:I
+    iget v1, p0, Lcom/google/android/gms/internal/measurement/zzjl;->zzb:I
 
     .line 4
     .line 5
     add-int/2addr v0, v1
 
     .line 6
-    iget v1, p0, Lcom/google/android/gms/internal/measurement/zzjl;
-    ->zze:I
+    iget v1, p0, Lcom/google/android/gms/internal/measurement/zzjl;->zze:I
 
     .line 7
     .line 8
@@ -221,8 +211,7 @@
 
     .line 11
     :cond_0
-    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzkq;
-    ->zzh()Lcom/google/android/gms/internal/measurement/zzkq;
+    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzkq;->zzh()Lcom/google/android/gms/internal/measurement/zzkq;
 
     .line 12
     .line 13

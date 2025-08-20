@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/lifecycle/Transformations;
-    ->distinctUntilChanged(Landroidx/lifecycle/LiveData;)Landroidx/lifecycle/LiveData;
+    value = Landroidx/lifecycle/Transformations;->distinctUntilChanged(Landroidx/lifecycle/LiveData;)Landroidx/lifecycle/LiveData;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -51,16 +50,13 @@
         }
     .end annotation
 
-    iput-object p1, p0, Landroidx/lifecycle/Transformations$distinctUntilChanged$1;
-    ->$outputLiveData:Landroidx/lifecycle/MediatorLiveData;
+    iput-object p1, p0, Landroidx/lifecycle/Transformations$distinctUntilChanged$1;->$outputLiveData:Landroidx/lifecycle/MediatorLiveData;
 
-    iput-object p2, p0, Landroidx/lifecycle/Transformations$distinctUntilChanged$1;
-    ->$firstTime:Lkotlin/jvm/internal/q;
+    iput-object p2, p0, Landroidx/lifecycle/Transformations$distinctUntilChanged$1;->$firstTime:Lkotlin/jvm/internal/q;
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
-    -><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
 return-void
 .end method
 
@@ -70,11 +66,9 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/lifecycle/Transformations$distinctUntilChanged$1;
-    ->invoke(Ljava/lang/Object;)V
+    invoke-virtual {p0, p1}, Landroidx/lifecycle/Transformations$distinctUntilChanged$1;->invoke(Ljava/lang/Object;)V
 
-    sget-object p1, Lc1/v;
-    ->a:Lc1/v;
+    sget-object p1, Lc1/v;->a:Lc1/v;
 
     return-object p1
 .end method
@@ -88,20 +82,16 @@ return-void
     .end annotation
 
     .line 2
-    iget-object v0, p0, Landroidx/lifecycle/Transformations$distinctUntilChanged$1;
-    ->$outputLiveData:Landroidx/lifecycle/MediatorLiveData;
+    iget-object v0, p0, Landroidx/lifecycle/Transformations$distinctUntilChanged$1;->$outputLiveData:Landroidx/lifecycle/MediatorLiveData;
 
-    invoke-virtual {v0}, Landroidx/lifecycle/LiveData;
-    ->getValue()Ljava/lang/Object;
+    invoke-virtual {v0}, Landroidx/lifecycle/LiveData;->getValue()Ljava/lang/Object;
 
     move-result-object v0
 
     .line 3
-    iget-object v1, p0, Landroidx/lifecycle/Transformations$distinctUntilChanged$1;
-    ->$firstTime:Lkotlin/jvm/internal/q;
+    iget-object v1, p0, Landroidx/lifecycle/Transformations$distinctUntilChanged$1;->$firstTime:Lkotlin/jvm/internal/q;
 
-    iget-boolean v1, v1, Lkotlin/jvm/internal/q;
-    ->b:Z
+    iget-boolean v1, v1, Lkotlin/jvm/internal/q;->b:Z
 
     if-nez v1, :cond_2
 
@@ -113,8 +103,7 @@ return-void
     if-eqz v0, :cond_1
 
     .line 4
-    invoke-virtual {v0, p1}, Ljava/lang/Object;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -128,20 +117,16 @@ return-void
     .line 5
     :cond_2
     :goto_0
-    iget-object v0, p0, Landroidx/lifecycle/Transformations$distinctUntilChanged$1;
-    ->$firstTime:Lkotlin/jvm/internal/q;
+    iget-object v0, p0, Landroidx/lifecycle/Transformations$distinctUntilChanged$1;->$firstTime:Lkotlin/jvm/internal/q;
 
     const/4 v1, 0x0
 
-    iput-boolean v1, v0, Lkotlin/jvm/internal/q;
-    ->b:Z
+    iput-boolean v1, v0, Lkotlin/jvm/internal/q;->b:Z
 
     .line 6
-    iget-object v0, p0, Landroidx/lifecycle/Transformations$distinctUntilChanged$1;
-    ->$outputLiveData:Landroidx/lifecycle/MediatorLiveData;
+    iget-object v0, p0, Landroidx/lifecycle/Transformations$distinctUntilChanged$1;->$outputLiveData:Landroidx/lifecycle/MediatorLiveData;
 
-    invoke-virtual {v0, p1}, Landroidx/lifecycle/MutableLiveData;
-    ->setValue(Ljava/lang/Object;)V
+    invoke-virtual {v0, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
     return-void
 .end method

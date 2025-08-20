@@ -23,14 +23,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/emoji2/text/EmojiCompat$CompatInternal;
-    ->mEmojiCompat:Landroidx/emoji2/text/EmojiCompat;
+    iput-object p1, p0, Landroidx/emoji2/text/EmojiCompat$CompatInternal;->mEmojiCompat:Landroidx/emoji2/text/EmojiCompat;
 
     .line 5
     .line 6
@@ -122,13 +120,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/EmojiCompat$CompatInternal;
-    ->mEmojiCompat:Landroidx/emoji2/text/EmojiCompat;
+    iget-object v0, p0, Landroidx/emoji2/text/EmojiCompat$CompatInternal;->mEmojiCompat:Landroidx/emoji2/text/EmojiCompat;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/emoji2/text/EmojiCompat;
-    ->onMetadataLoadSuccess()V
+    invoke-virtual {v0}, Landroidx/emoji2/text/EmojiCompat;->onMetadataLoadSuccess()V
 
     .line 4
     .line 5

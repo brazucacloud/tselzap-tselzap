@@ -23,11 +23,9 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManager$Companion;
-    -><init>(Lkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v1}, Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManager$Companion;-><init>(Lkotlin/jvm/internal/e;)V
 
-    sput-object v0, Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManager;
-    ->Companion:Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManager$Companion;
+    sput-object v0, Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManager;->Companion:Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManager$Companion;
 
     return-void
 .end method
@@ -36,8 +34,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -50,11 +47,9 @@
         }
     .end annotation
 
-    sget-object v0, Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManager;
-    ->Companion:Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManager$Companion;
+    sget-object v0, Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManager;->Companion:Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManager$Companion;
 
-    invoke-virtual {v0, p0}, Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManager$Companion;
-    ->obtain(Landroid/content/Context;)Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManager;
+    invoke-virtual {v0, p0}, Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManager$Companion;->obtain(Landroid/content/Context;)Landroidx/privacysandbox/ads/adservices/appsetid/AppSetIdManager;
 
     move-result-object p0
 

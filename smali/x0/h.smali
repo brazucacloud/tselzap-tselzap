@@ -15,11 +15,9 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lx0/h;
-    ->b:Lx0/k;
+    iput-object p1, p0, Lx0/h;->b:Lx0/k;
 
     return-void
 .end method
@@ -30,19 +28,16 @@
     .locals 6
 
     .line 1
-    iget-object p1, p0, Lx0/h;
-    ->b:Lx0/k;
+    iget-object p1, p0, Lx0/h;->b:Lx0/k;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p2}, Landroid/view/MotionEvent;
-    ->getAction()I
+    invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
 
     .line 7
     .line 8
@@ -60,8 +55,7 @@
 
     .line 13
     .line 14
-    invoke-static {}, Landroid/os/SystemClock;
-    ->uptimeMillis()J
+    invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
 
     .line 15
     .line 16
@@ -69,8 +63,7 @@
     move-result-wide v2
 
     .line 18
-    iget-wide v4, p1, Lx0/k;
-    ->o:J
+    iget-wide v4, p1, Lx0/k;->o:J
 
     .line 19
     .line 20
@@ -121,25 +114,21 @@
 
     .line 38
     .line 39
-    iput-boolean v0, p1, Lx0/k;
-    ->m:Z
+    iput-boolean v0, p1, Lx0/k;->m:Z
 
     .line 40
     .line 41
     :cond_2
-    invoke-virtual {p1}, Lx0/k;
-    ->u()V
+    invoke-virtual {p1}, Lx0/k;->u()V
 
     .line 42
     .line 43
     .line 44
-    iput-boolean v1, p1, Lx0/k;
-    ->m:Z
+    iput-boolean v1, p1, Lx0/k;->m:Z
 
     .line 45
     .line 46
-    invoke-static {}, Landroid/os/SystemClock;
-    ->uptimeMillis()J
+    invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
 
     .line 47
     .line 48
@@ -147,8 +136,7 @@
     move-result-wide v1
 
     .line 50
-    iput-wide v1, p1, Lx0/k;
-    ->o:J
+    iput-wide v1, p1, Lx0/k;->o:J
 
     .line 51
     .line 52

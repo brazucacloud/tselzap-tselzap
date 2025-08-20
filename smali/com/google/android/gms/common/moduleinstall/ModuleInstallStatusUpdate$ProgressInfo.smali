@@ -25,25 +25,21 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p3, p4}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotZero(J)J
+    invoke-static {p3, p4}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotZero(J)J
 
     .line 5
     .line 6
     .line 7
-    iput-wide p1, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$ProgressInfo;
-    ->zaa:J
+    iput-wide p1, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$ProgressInfo;->zaa:J
 
     .line 8
     .line 9
-    iput-wide p3, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$ProgressInfo;
-    ->zab:J
+    iput-wide p3, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$ProgressInfo;->zab:J
 
     .line 10
     .line 11
@@ -55,8 +51,7 @@
 .method public getBytesDownloaded()J
     .locals 2
 
-    iget-wide v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$ProgressInfo;
-    ->zaa:J
+    iget-wide v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$ProgressInfo;->zaa:J
 
     return-wide v0
 .end method
@@ -64,8 +59,7 @@
 .method public getTotalBytesToDownload()J
     .locals 2
 
-    iget-wide v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$ProgressInfo;
-    ->zab:J
+    iget-wide v0, p0, Lcom/google/android/gms/common/moduleinstall/ModuleInstallStatusUpdate$ProgressInfo;->zab:J
 
     return-wide v0
 .end method

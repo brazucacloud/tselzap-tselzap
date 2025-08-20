@@ -22,8 +22,7 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    invoke-static {}, Landroidx/lifecycle/Lifecycle$Event;
-    ->values()[Landroidx/lifecycle/Lifecycle$Event;
+    invoke-static {}, Landroidx/lifecycle/Lifecycle$Event;->values()[Landroidx/lifecycle/Lifecycle$Event;
 
     move-result-object v0
 
@@ -32,11 +31,9 @@
     new-array v0, v0, [I
 
     :try_start_0
-    sget-object v1, Landroidx/lifecycle/Lifecycle$Event;
-    ->ON_CREATE:Landroidx/lifecycle/Lifecycle$Event;
+    sget-object v1, Landroidx/lifecycle/Lifecycle$Event;->ON_CREATE:Landroidx/lifecycle/Lifecycle$Event;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -48,11 +45,9 @@
 
     :catch_0
     :try_start_1
-    sget-object v1, Landroidx/lifecycle/Lifecycle$Event;
-    ->ON_START:Landroidx/lifecycle/Lifecycle$Event;
+    sget-object v1, Landroidx/lifecycle/Lifecycle$Event;->ON_START:Landroidx/lifecycle/Lifecycle$Event;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -64,11 +59,9 @@
 
     :catch_1
     :try_start_2
-    sget-object v1, Landroidx/lifecycle/Lifecycle$Event;
-    ->ON_RESUME:Landroidx/lifecycle/Lifecycle$Event;
+    sget-object v1, Landroidx/lifecycle/Lifecycle$Event;->ON_RESUME:Landroidx/lifecycle/Lifecycle$Event;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -80,11 +73,9 @@
 
     :catch_2
     :try_start_3
-    sget-object v1, Landroidx/lifecycle/Lifecycle$Event;
-    ->ON_PAUSE:Landroidx/lifecycle/Lifecycle$Event;
+    sget-object v1, Landroidx/lifecycle/Lifecycle$Event;->ON_PAUSE:Landroidx/lifecycle/Lifecycle$Event;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -96,11 +87,9 @@
 
     :catch_3
     :try_start_4
-    sget-object v1, Landroidx/lifecycle/Lifecycle$Event;
-    ->ON_STOP:Landroidx/lifecycle/Lifecycle$Event;
+    sget-object v1, Landroidx/lifecycle/Lifecycle$Event;->ON_STOP:Landroidx/lifecycle/Lifecycle$Event;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -112,11 +101,9 @@
 
     :catch_4
     :try_start_5
-    sget-object v1, Landroidx/lifecycle/Lifecycle$Event;
-    ->ON_DESTROY:Landroidx/lifecycle/Lifecycle$Event;
+    sget-object v1, Landroidx/lifecycle/Lifecycle$Event;->ON_DESTROY:Landroidx/lifecycle/Lifecycle$Event;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -128,11 +115,9 @@
 
     :catch_5
     :try_start_6
-    sget-object v1, Landroidx/lifecycle/Lifecycle$Event;
-    ->ON_ANY:Landroidx/lifecycle/Lifecycle$Event;
+    sget-object v1, Landroidx/lifecycle/Lifecycle$Event;->ON_ANY:Landroidx/lifecycle/Lifecycle$Event;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -143,8 +128,7 @@
     .catch Ljava/lang/NoSuchFieldError; {:try_start_6 .. :try_end_6} :catch_6
 
     :catch_6
-    sput-object v0, Landroidx/lifecycle/DefaultLifecycleObserverAdapter$WhenMappings;
-    ->$EnumSwitchMapping$0:[I
+    sput-object v0, Landroidx/lifecycle/DefaultLifecycleObserverAdapter$WhenMappings;->$EnumSwitchMapping$0:[I
 
     return-void
 .end method

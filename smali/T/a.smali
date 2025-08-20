@@ -15,11 +15,9 @@
     .locals 0
 
     .line 1
-    iput p1, p0, LT/a;
-    ->b:I
+    iput p1, p0, LT/a;->b:I
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -29,18 +27,15 @@
     .locals 1
 
     .line 1
-    iget v0, p0, LT/a;
-    ->b:I
+    iget v0, p0, LT/a;->b:I
 
     packed-switch v0, :pswitch_data_0
 
-    invoke-static {}, Lcom/google/firebase/crashlytics/internal/concurrency/CrashlyticsWorker;
-    ->c()V
+    invoke-static {}, Lcom/google/firebase/crashlytics/internal/concurrency/CrashlyticsWorker;->c()V
     return-void
 
     :pswitch_0
-    sget v0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/AlarmManagerSchedulerBroadcastReceiver;
-    ->a:I
+    sget v0, Lcom/google/android/datatransport/runtime/scheduling/jobscheduling/AlarmManagerSchedulerBroadcastReceiver;->a:I
 
     return-void
 

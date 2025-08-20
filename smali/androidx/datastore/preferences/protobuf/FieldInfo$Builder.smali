@@ -52,8 +52,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -61,8 +60,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;-><init>()V
     return-void
 .end method
 
@@ -72,8 +70,7 @@
     .locals 8
 
     .line 1
-    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->oneof:Landroidx/datastore/preferences/protobuf/OneofInfo;
+    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->oneof:Landroidx/datastore/preferences/protobuf/OneofInfo;
 
     .line 2
     .line 3
@@ -81,33 +78,27 @@
 
     .line 4
     .line 5
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->fieldNumber:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->fieldNumber:I
 
     .line 6
     .line 7
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->type:Landroidx/datastore/preferences/protobuf/FieldType;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->type:Landroidx/datastore/preferences/protobuf/FieldType;
 
     .line 8
     .line 9
-    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->oneofStoredType:Ljava/lang/Class;
+    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->oneofStoredType:Ljava/lang/Class;
 
     .line 10
     .line 11
-    iget-boolean v4, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->enforceUtf8:Z
+    iget-boolean v4, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->enforceUtf8:Z
 
     .line 12
     .line 13
-    iget-object v5, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->enumVerifier:Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;
+    iget-object v5, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->enumVerifier:Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;
 
     .line 14
     .line 15
-    invoke-static/range {v0 .. v5}, Landroidx/datastore/preferences/protobuf/FieldInfo;
-    ->forOneofMemberField(ILandroidx/datastore/preferences/protobuf/FieldType;Landroidx/datastore/preferences/protobuf/OneofInfo;Ljava/lang/Class;ZLandroidx/datastore/preferences/protobuf/Internal$EnumVerifier;)Landroidx/datastore/preferences/protobuf/FieldInfo;
+    invoke-static/range {v0 .. v5}, Landroidx/datastore/preferences/protobuf/FieldInfo;->forOneofMemberField(ILandroidx/datastore/preferences/protobuf/FieldType;Landroidx/datastore/preferences/protobuf/OneofInfo;Ljava/lang/Class;ZLandroidx/datastore/preferences/protobuf/Internal$EnumVerifier;)Landroidx/datastore/preferences/protobuf/FieldInfo;
 
     .line 16
     .line 17
@@ -118,8 +109,7 @@
 
     .line 20
     :cond_0
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->mapDefaultEntry:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->mapDefaultEntry:Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -127,23 +117,19 @@
 
     .line 23
     .line 24
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->field:Ljava/lang/reflect/Field;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->field:Ljava/lang/reflect/Field;
 
     .line 25
     .line 26
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->fieldNumber:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->fieldNumber:I
 
     .line 27
     .line 28
-    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->enumVerifier:Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;
+    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->enumVerifier:Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;
 
     .line 29
     .line 30
-    invoke-static {v1, v2, v0, v3}, Landroidx/datastore/preferences/protobuf/FieldInfo;
-    ->forMapField(Ljava/lang/reflect/Field;ILjava/lang/Object;Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;)Landroidx/datastore/preferences/protobuf/FieldInfo;
+    invoke-static {v1, v2, v0, v3}, Landroidx/datastore/preferences/protobuf/FieldInfo;->forMapField(Ljava/lang/reflect/Field;ILjava/lang/Object;Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;)Landroidx/datastore/preferences/protobuf/FieldInfo;
 
     .line 31
     .line 32
@@ -154,8 +140,7 @@
 
     .line 35
     :cond_1
-    iget-object v4, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->presenceField:Ljava/lang/reflect/Field;
+    iget-object v4, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->presenceField:Ljava/lang/reflect/Field;
 
     .line 36
     .line 37
@@ -163,8 +148,7 @@
 
     .line 38
     .line 39
-    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->required:Z
+    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->required:Z
 
     .line 40
     .line 41
@@ -172,38 +156,31 @@
 
     .line 42
     .line 43
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->field:Ljava/lang/reflect/Field;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->field:Ljava/lang/reflect/Field;
 
     .line 44
     .line 45
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->fieldNumber:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->fieldNumber:I
 
     .line 46
     .line 47
-    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->type:Landroidx/datastore/preferences/protobuf/FieldType;
+    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->type:Landroidx/datastore/preferences/protobuf/FieldType;
 
     .line 48
     .line 49
-    iget v5, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->presenceMask:I
+    iget v5, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->presenceMask:I
 
     .line 50
     .line 51
-    iget-boolean v6, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->enforceUtf8:Z
+    iget-boolean v6, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->enforceUtf8:Z
 
     .line 52
     .line 53
-    iget-object v7, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->enumVerifier:Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;
+    iget-object v7, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->enumVerifier:Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;
 
     .line 54
     .line 55
-    invoke-static/range {v1 .. v7}, Landroidx/datastore/preferences/protobuf/FieldInfo;
-    ->forProto2RequiredField(Ljava/lang/reflect/Field;ILandroidx/datastore/preferences/protobuf/FieldType;Ljava/lang/reflect/Field;IZLandroidx/datastore/preferences/protobuf/Internal$EnumVerifier;)Landroidx/datastore/preferences/protobuf/FieldInfo;
+    invoke-static/range {v1 .. v7}, Landroidx/datastore/preferences/protobuf/FieldInfo;->forProto2RequiredField(Ljava/lang/reflect/Field;ILandroidx/datastore/preferences/protobuf/FieldType;Ljava/lang/reflect/Field;IZLandroidx/datastore/preferences/protobuf/Internal$EnumVerifier;)Landroidx/datastore/preferences/protobuf/FieldInfo;
 
     .line 56
     .line 57
@@ -214,38 +191,31 @@
 
     .line 60
     :cond_2
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->field:Ljava/lang/reflect/Field;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->field:Ljava/lang/reflect/Field;
 
     .line 61
     .line 62
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->fieldNumber:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->fieldNumber:I
 
     .line 63
     .line 64
-    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->type:Landroidx/datastore/preferences/protobuf/FieldType;
+    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->type:Landroidx/datastore/preferences/protobuf/FieldType;
 
     .line 65
     .line 66
-    iget v5, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->presenceMask:I
+    iget v5, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->presenceMask:I
 
     .line 67
     .line 68
-    iget-boolean v6, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->enforceUtf8:Z
+    iget-boolean v6, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->enforceUtf8:Z
 
     .line 69
     .line 70
-    iget-object v7, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->enumVerifier:Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;
+    iget-object v7, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->enumVerifier:Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;
 
     .line 71
     .line 72
-    invoke-static/range {v1 .. v7}, Landroidx/datastore/preferences/protobuf/FieldInfo;
-    ->forProto2OptionalField(Ljava/lang/reflect/Field;ILandroidx/datastore/preferences/protobuf/FieldType;Ljava/lang/reflect/Field;IZLandroidx/datastore/preferences/protobuf/Internal$EnumVerifier;)Landroidx/datastore/preferences/protobuf/FieldInfo;
+    invoke-static/range {v1 .. v7}, Landroidx/datastore/preferences/protobuf/FieldInfo;->forProto2OptionalField(Ljava/lang/reflect/Field;ILandroidx/datastore/preferences/protobuf/FieldType;Ljava/lang/reflect/Field;IZLandroidx/datastore/preferences/protobuf/Internal$EnumVerifier;)Landroidx/datastore/preferences/protobuf/FieldInfo;
 
     .line 73
     .line 74
@@ -256,8 +226,7 @@
 
     .line 77
     :cond_3
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->enumVerifier:Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->enumVerifier:Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;
 
     .line 78
     .line 79
@@ -265,8 +234,7 @@
 
     .line 80
     .line 81
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->cachedSizeField:Ljava/lang/reflect/Field;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->cachedSizeField:Ljava/lang/reflect/Field;
 
     .line 82
     .line 83
@@ -274,23 +242,19 @@
 
     .line 84
     .line 85
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->field:Ljava/lang/reflect/Field;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->field:Ljava/lang/reflect/Field;
 
     .line 86
     .line 87
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->fieldNumber:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->fieldNumber:I
 
     .line 88
     .line 89
-    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->type:Landroidx/datastore/preferences/protobuf/FieldType;
+    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->type:Landroidx/datastore/preferences/protobuf/FieldType;
 
     .line 90
     .line 91
-    invoke-static {v1, v2, v3, v0}, Landroidx/datastore/preferences/protobuf/FieldInfo;
-    ->forFieldWithEnumVerifier(Ljava/lang/reflect/Field;ILandroidx/datastore/preferences/protobuf/FieldType;Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;)Landroidx/datastore/preferences/protobuf/FieldInfo;
+    invoke-static {v1, v2, v3, v0}, Landroidx/datastore/preferences/protobuf/FieldInfo;->forFieldWithEnumVerifier(Ljava/lang/reflect/Field;ILandroidx/datastore/preferences/protobuf/FieldType;Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;)Landroidx/datastore/preferences/protobuf/FieldInfo;
 
     .line 92
     .line 93
@@ -301,23 +265,19 @@
 
     .line 96
     :cond_4
-    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->field:Ljava/lang/reflect/Field;
+    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->field:Ljava/lang/reflect/Field;
 
     .line 97
     .line 98
-    iget v3, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->fieldNumber:I
+    iget v3, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->fieldNumber:I
 
     .line 99
     .line 100
-    iget-object v4, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->type:Landroidx/datastore/preferences/protobuf/FieldType;
+    iget-object v4, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->type:Landroidx/datastore/preferences/protobuf/FieldType;
 
     .line 101
     .line 102
-    invoke-static {v2, v3, v4, v0, v1}, Landroidx/datastore/preferences/protobuf/FieldInfo;
-    ->forPackedFieldWithEnumVerifier(Ljava/lang/reflect/Field;ILandroidx/datastore/preferences/protobuf/FieldType;Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;Ljava/lang/reflect/Field;)Landroidx/datastore/preferences/protobuf/FieldInfo;
+    invoke-static {v2, v3, v4, v0, v1}, Landroidx/datastore/preferences/protobuf/FieldInfo;->forPackedFieldWithEnumVerifier(Ljava/lang/reflect/Field;ILandroidx/datastore/preferences/protobuf/FieldType;Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;Ljava/lang/reflect/Field;)Landroidx/datastore/preferences/protobuf/FieldInfo;
 
     .line 103
     .line 104
@@ -328,8 +288,7 @@
 
     .line 107
     :cond_5
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->cachedSizeField:Ljava/lang/reflect/Field;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->cachedSizeField:Ljava/lang/reflect/Field;
 
     .line 108
     .line 109
@@ -337,28 +296,23 @@
 
     .line 110
     .line 111
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->field:Ljava/lang/reflect/Field;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->field:Ljava/lang/reflect/Field;
 
     .line 112
     .line 113
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->fieldNumber:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->fieldNumber:I
 
     .line 114
     .line 115
-    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->type:Landroidx/datastore/preferences/protobuf/FieldType;
+    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->type:Landroidx/datastore/preferences/protobuf/FieldType;
 
     .line 116
     .line 117
-    iget-boolean v3, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->enforceUtf8:Z
+    iget-boolean v3, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->enforceUtf8:Z
 
     .line 118
     .line 119
-    invoke-static {v0, v1, v2, v3}, Landroidx/datastore/preferences/protobuf/FieldInfo;
-    ->forField(Ljava/lang/reflect/Field;ILandroidx/datastore/preferences/protobuf/FieldType;Z)Landroidx/datastore/preferences/protobuf/FieldInfo;
+    invoke-static {v0, v1, v2, v3}, Landroidx/datastore/preferences/protobuf/FieldInfo;->forField(Ljava/lang/reflect/Field;ILandroidx/datastore/preferences/protobuf/FieldType;Z)Landroidx/datastore/preferences/protobuf/FieldInfo;
 
     .line 120
     .line 121
@@ -369,23 +323,19 @@
 
     .line 124
     :cond_6
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->field:Ljava/lang/reflect/Field;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->field:Ljava/lang/reflect/Field;
 
     .line 125
     .line 126
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->fieldNumber:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->fieldNumber:I
 
     .line 127
     .line 128
-    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->type:Landroidx/datastore/preferences/protobuf/FieldType;
+    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->type:Landroidx/datastore/preferences/protobuf/FieldType;
 
     .line 129
     .line 130
-    invoke-static {v1, v2, v3, v0}, Landroidx/datastore/preferences/protobuf/FieldInfo;
-    ->forPackedField(Ljava/lang/reflect/Field;ILandroidx/datastore/preferences/protobuf/FieldType;Ljava/lang/reflect/Field;)Landroidx/datastore/preferences/protobuf/FieldInfo;
+    invoke-static {v1, v2, v3, v0}, Landroidx/datastore/preferences/protobuf/FieldInfo;->forPackedField(Ljava/lang/reflect/Field;ILandroidx/datastore/preferences/protobuf/FieldType;Ljava/lang/reflect/Field;)Landroidx/datastore/preferences/protobuf/FieldInfo;
 
     .line 131
     .line 132
@@ -399,8 +349,7 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->cachedSizeField:Ljava/lang/reflect/Field;    
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->cachedSizeField:Ljava/lang/reflect/Field;
     return-object p0
 .end method
 
@@ -408,8 +357,7 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->enforceUtf8:Z
+    iput-boolean p1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->enforceUtf8:Z
 return-object p0
 .end method
 
@@ -417,8 +365,7 @@ return-object p0
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->enumVerifier:Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;    
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->enumVerifier:Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;
     return-object p0
 .end method
 
@@ -426,8 +373,7 @@ return-object p0
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->oneof:Landroidx/datastore/preferences/protobuf/OneofInfo;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->oneof:Landroidx/datastore/preferences/protobuf/OneofInfo;
 
     .line 2
     .line 3
@@ -435,8 +381,7 @@ return-object p0
 
     .line 4
     .line 5
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->field:Ljava/lang/reflect/Field;    
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->field:Ljava/lang/reflect/Field;
     return-object p0
 
     .line 8
@@ -449,8 +394,7 @@ return-object p0
 
     .line 11
     .line 12
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 13
     .line 14
@@ -461,8 +405,7 @@ return-object p0
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->fieldNumber:I    
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->fieldNumber:I
     return-object p0
 .end method
 
@@ -470,8 +413,7 @@ return-object p0
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->mapDefaultEntry:Ljava/lang/Object;    
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->mapDefaultEntry:Ljava/lang/Object;
     return-object p0
 .end method
 
@@ -488,8 +430,7 @@ return-object p0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->field:Ljava/lang/reflect/Field;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->field:Ljava/lang/reflect/Field;
 
     .line 2
     .line 3
@@ -497,8 +438,7 @@ return-object p0
 
     .line 4
     .line 5
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->presenceField:Ljava/lang/reflect/Field;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->presenceField:Ljava/lang/reflect/Field;
 
     .line 6
     .line 7
@@ -506,13 +446,11 @@ return-object p0
 
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->oneof:Landroidx/datastore/preferences/protobuf/OneofInfo;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->oneof:Landroidx/datastore/preferences/protobuf/OneofInfo;
 
     .line 10
     .line 11
-    iput-object p2, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->oneofStoredType:Ljava/lang/Class;    
+    iput-object p2, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->oneofStoredType:Ljava/lang/Class;
     return-object p0
 
     .line 14
@@ -525,8 +463,7 @@ return-object p0
 
     .line 17
     .line 18
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -541,8 +478,7 @@ return-object p0
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Landroidx/datastore/preferences/protobuf/Internal;
-    ->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {p1, v0}, Landroidx/datastore/preferences/protobuf/Internal;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -554,13 +490,11 @@ return-object p0
 
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->presenceField:Ljava/lang/reflect/Field;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->presenceField:Ljava/lang/reflect/Field;
 
     .line 10
     .line 11
-    iput p2, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->presenceMask:I    
+    iput p2, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->presenceMask:I
     return-object p0
 .end method
 
@@ -568,8 +502,7 @@ return-object p0
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->required:Z
+    iput-boolean p1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->required:Z
 return-object p0
 .end method
 
@@ -577,8 +510,7 @@ return-object p0
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;
-    ->type:Landroidx/datastore/preferences/protobuf/FieldType;    
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->type:Landroidx/datastore/preferences/protobuf/FieldType;
     return-object p0
 .end method
 

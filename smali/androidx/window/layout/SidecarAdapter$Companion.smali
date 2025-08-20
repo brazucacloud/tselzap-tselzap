@@ -19,8 +19,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -28,8 +27,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/window/layout/SidecarAdapter$Companion;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/window/layout/SidecarAdapter$Companion;-><init>()V
     return-void
 .end method
 
@@ -51,15 +49,13 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
     :try_start_0
-    iget p1, p1, Landroidx/window/sidecar/SidecarDeviceState;
-    ->posture:I
+    iget p1, p1, Landroidx/window/sidecar/SidecarDeviceState;->posture:I
     :try_end_0
     .catch Ljava/lang/NoSuchFieldError; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -85,8 +81,7 @@
 
     .line 15
     .line 16
-    invoke-virtual {v1, v2, v3}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v1, v2, v3}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 17
     .line 18
@@ -98,8 +93,7 @@
 
     .line 21
     .line 22
-    invoke-virtual {v1, p1, v2}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1, v2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 23
     .line 24
@@ -115,8 +109,7 @@
 
     .line 29
     .line 30
-    invoke-virtual {p1}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     .line 31
     .line 32
@@ -135,8 +128,7 @@
 
     .line 38
     .line 39
-    invoke-direct {p1, v1}, Ljava/lang/NullPointerException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v1}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     .line 40
     .line 41
@@ -160,14 +152,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, p1}, Landroidx/window/layout/SidecarAdapter$Companion;
-    ->getRawSidecarDevicePosture(Landroidx/window/sidecar/SidecarDeviceState;)I
+    invoke-virtual {p0, p1}, Landroidx/window/layout/SidecarAdapter$Companion;->getRawSidecarDevicePosture(Landroidx/window/sidecar/SidecarDeviceState;)I
 
     .line 7
     .line 8
@@ -223,8 +213,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Ld1/t;
-    ->b:Ld1/t;
+    sget-object v0, Ld1/t;->b:Ld1/t;
 
     .line 2
     .line 3
@@ -232,15 +221,13 @@
 
     .line 4
     .line 5
-    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
     :try_start_0
-    iget-object p1, p1, Landroidx/window/sidecar/SidecarWindowLayoutInfo;
-    ->displayFeatures:Ljava/util/List;
+    iget-object p1, p1, Landroidx/window/sidecar/SidecarWindowLayoutInfo;->displayFeatures:Ljava/util/List;
     :try_end_0
     .catch Ljava/lang/NoSuchFieldError; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -274,8 +261,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {v1, v2, v4}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v1, v2, v4}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 22
     .line 23
@@ -287,8 +273,7 @@
 
     .line 26
     .line 27
-    invoke-virtual {v1, p1, v2}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1, v2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -316,8 +301,7 @@
 
     .line 39
     .line 40
-    invoke-direct {p1, v1}, Ljava/lang/NullPointerException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v1}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     .line 41
     .line 42
@@ -355,15 +339,13 @@
 
     .line 4
     .line 5
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
     :try_start_0
-    iput p2, p1, Landroidx/window/sidecar/SidecarDeviceState;
-    ->posture:I
+    iput p2, p1, Landroidx/window/sidecar/SidecarDeviceState;->posture:I
     :try_end_0
     .catch Ljava/lang/NoSuchFieldError; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -386,8 +368,7 @@
 
     .line 16
     .line 17
-    sget-object v5, Ljava/lang/Integer;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v5, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
 
     .line 18
     .line 19
@@ -395,8 +376,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {v2, v3, v4}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v2, v3, v4}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 22
     .line 23
@@ -404,8 +384,7 @@
     move-result-object v2
 
     .line 25
-    invoke-static {p2}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 26
     .line 27
@@ -421,8 +400,7 @@
 
     .line 32
     .line 33
-    invoke-virtual {v2, p1, v1}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, p1, v1}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_1
     .catch Ljava/lang/NoSuchMethodException; {:try_start_1 .. :try_end_1} :catch_1
     .catch Ljava/lang/IllegalAccessException; {:try_start_1 .. :try_end_1} :catch_1
@@ -467,8 +445,7 @@
 
     .line 4
     .line 5
-    invoke-static {p1, v2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -477,15 +454,13 @@
 
     .line 9
     .line 10
-    invoke-static {p2, v2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 11
     .line 12
     .line 13
     :try_start_0
-    iput-object p2, p1, Landroidx/window/sidecar/SidecarWindowLayoutInfo;
-    ->displayFeatures:Ljava/util/List;
+    iput-object p2, p1, Landroidx/window/sidecar/SidecarWindowLayoutInfo;->displayFeatures:Ljava/util/List;
     :try_end_0
     .catch Ljava/lang/NoSuchFieldError; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -516,8 +491,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {v2, v3, v4}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v2, v3, v4}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 27
     .line 28
@@ -533,8 +507,7 @@
 
     .line 33
     .line 34
-    invoke-virtual {v2, p1, v1}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, p1, v1}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_1
     .catch Ljava/lang/NoSuchMethodException; {:try_start_1 .. :try_end_1} :catch_1
     .catch Ljava/lang/IllegalAccessException; {:try_start_1 .. :try_end_1} :catch_1

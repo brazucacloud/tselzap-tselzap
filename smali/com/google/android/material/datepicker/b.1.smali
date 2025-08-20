@@ -23,8 +23,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-static {v0, v1}, Lcom/google/android/material/datepicker/t;
-    ->a(II)Lcom/google/android/material/datepicker/t;
+    invoke-static {v0, v1}, Lcom/google/android/material/datepicker/t;->a(II)Lcom/google/android/material/datepicker/t;
 
     .line 5
     .line 6
@@ -35,8 +34,7 @@
     const/4 v1, 0x0
 
     .line 9
-    invoke-static {v1}, Lcom/google/android/material/datepicker/C;
-    ->c(Ljava/util/Calendar;)Ljava/util/Calendar;
+    invoke-static {v1}, Lcom/google/android/material/datepicker/C;->c(Ljava/util/Calendar;)Ljava/util/Calendar;
 
     .line 10
     .line 11
@@ -44,19 +42,16 @@
     move-result-object v2
 
     .line 13
-    iget-wide v3, v0, Lcom/google/android/material/datepicker/t;
-    ->g:J
+    iget-wide v3, v0, Lcom/google/android/material/datepicker/t;->g:J
 
     .line 14
     .line 15
-    invoke-virtual {v2, v3, v4}, Ljava/util/Calendar;
-    ->setTimeInMillis(J)V
+    invoke-virtual {v2, v3, v4}, Ljava/util/Calendar;->setTimeInMillis(J)V
 
     .line 16
     .line 17
     .line 18
-    invoke-static {v2}, Lcom/google/android/material/datepicker/C;
-    ->a(Ljava/util/Calendar;)Ljava/util/Calendar;
+    invoke-static {v2}, Lcom/google/android/material/datepicker/C;->a(Ljava/util/Calendar;)Ljava/util/Calendar;
 
     .line 19
     .line 20
@@ -64,8 +59,7 @@
     move-result-object v0
 
     .line 22
-    invoke-virtual {v0}, Ljava/util/Calendar;
-    ->getTimeInMillis()J
+    invoke-virtual {v0}, Ljava/util/Calendar;->getTimeInMillis()J
 
     .line 23
     .line 24
@@ -78,8 +72,7 @@
 
     .line 28
     .line 29
-    invoke-static {v0, v2}, Lcom/google/android/material/datepicker/t;
-    ->a(II)Lcom/google/android/material/datepicker/t;
+    invoke-static {v0, v2}, Lcom/google/android/material/datepicker/t;->a(II)Lcom/google/android/material/datepicker/t;
 
     .line 30
     .line 31
@@ -87,8 +80,7 @@
     move-result-object v0
 
     .line 33
-    invoke-static {v1}, Lcom/google/android/material/datepicker/C;
-    ->c(Ljava/util/Calendar;)Ljava/util/Calendar;
+    invoke-static {v1}, Lcom/google/android/material/datepicker/C;->c(Ljava/util/Calendar;)Ljava/util/Calendar;
 
     .line 34
     .line 35
@@ -96,19 +88,16 @@
     move-result-object v1
 
     .line 37
-    iget-wide v2, v0, Lcom/google/android/material/datepicker/t;
-    ->g:J
+    iget-wide v2, v0, Lcom/google/android/material/datepicker/t;->g:J
 
     .line 38
     .line 39
-    invoke-virtual {v1, v2, v3}, Ljava/util/Calendar;
-    ->setTimeInMillis(J)V
+    invoke-virtual {v1, v2, v3}, Ljava/util/Calendar;->setTimeInMillis(J)V
 
     .line 40
     .line 41
     .line 42
-    invoke-static {v1}, Lcom/google/android/material/datepicker/C;
-    ->a(Ljava/util/Calendar;)Ljava/util/Calendar;
+    invoke-static {v1}, Lcom/google/android/material/datepicker/C;->a(Ljava/util/Calendar;)Ljava/util/Calendar;
 
     .line 43
     .line 44
@@ -116,8 +105,7 @@
     move-result-object v0
 
     .line 46
-    invoke-virtual {v0}, Ljava/util/Calendar;
-    ->getTimeInMillis()J
+    invoke-virtual {v0}, Ljava/util/Calendar;->getTimeInMillis()J
 
     .line 47
     .line 48

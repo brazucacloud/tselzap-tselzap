@@ -22,8 +22,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/concurrent/futures/AbstractResolvableFuture$AtomicHelper;
-    -><init>(Landroidx/concurrent/futures/AbstractResolvableFuture$1;)V
+    invoke-direct {p0, v0}, Landroidx/concurrent/futures/AbstractResolvableFuture$AtomicHelper;-><init>(Landroidx/concurrent/futures/AbstractResolvableFuture$1;)V
 return-void
 .end method
 
@@ -47,8 +46,7 @@ return-void
 
     .line 2
     :try_start_0
-    iget-object v0, p1, Landroidx/concurrent/futures/AbstractResolvableFuture;
-    ->listeners:Landroidx/concurrent/futures/AbstractResolvableFuture$Listener;
+    iget-object v0, p1, Landroidx/concurrent/futures/AbstractResolvableFuture;->listeners:Landroidx/concurrent/futures/AbstractResolvableFuture$Listener;
 
     .line 3
     .line 4
@@ -56,8 +54,7 @@ return-void
 
     .line 5
     .line 6
-    iput-object p3, p1, Landroidx/concurrent/futures/AbstractResolvableFuture;
-    ->listeners:Landroidx/concurrent/futures/AbstractResolvableFuture$Listener;
+    iput-object p3, p1, Landroidx/concurrent/futures/AbstractResolvableFuture;->listeners:Landroidx/concurrent/futures/AbstractResolvableFuture$Listener;
 
     .line 7
     .line 8
@@ -111,8 +108,7 @@ return-void
 
     .line 2
     :try_start_0
-    iget-object v0, p1, Landroidx/concurrent/futures/AbstractResolvableFuture;
-    ->value:Ljava/lang/Object;
+    iget-object v0, p1, Landroidx/concurrent/futures/AbstractResolvableFuture;->value:Ljava/lang/Object;
 
     .line 3
     .line 4
@@ -120,8 +116,7 @@ return-void
 
     .line 5
     .line 6
-    iput-object p3, p1, Landroidx/concurrent/futures/AbstractResolvableFuture;
-    ->value:Ljava/lang/Object;
+    iput-object p3, p1, Landroidx/concurrent/futures/AbstractResolvableFuture;->value:Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -175,8 +170,7 @@ return-void
 
     .line 2
     :try_start_0
-    iget-object v0, p1, Landroidx/concurrent/futures/AbstractResolvableFuture;
-    ->waiters:Landroidx/concurrent/futures/AbstractResolvableFuture$Waiter;
+    iget-object v0, p1, Landroidx/concurrent/futures/AbstractResolvableFuture;->waiters:Landroidx/concurrent/futures/AbstractResolvableFuture$Waiter;
 
     .line 3
     .line 4
@@ -184,8 +178,7 @@ return-void
 
     .line 5
     .line 6
-    iput-object p3, p1, Landroidx/concurrent/futures/AbstractResolvableFuture;
-    ->waiters:Landroidx/concurrent/futures/AbstractResolvableFuture$Waiter;
+    iput-object p3, p1, Landroidx/concurrent/futures/AbstractResolvableFuture;->waiters:Landroidx/concurrent/futures/AbstractResolvableFuture$Waiter;
 
     .line 7
     .line 8
@@ -225,8 +218,7 @@ return-void
     .locals 0
 
     .line 1
-    iput-object p2, p1, Landroidx/concurrent/futures/AbstractResolvableFuture$Waiter;
-    ->next:Landroidx/concurrent/futures/AbstractResolvableFuture$Waiter;    
+    iput-object p2, p1, Landroidx/concurrent/futures/AbstractResolvableFuture$Waiter;->next:Landroidx/concurrent/futures/AbstractResolvableFuture$Waiter;
     return-void
 .end method
 
@@ -234,8 +226,7 @@ return-void
     .locals 0
 
     .line 1
-    iput-object p2, p1, Landroidx/concurrent/futures/AbstractResolvableFuture$Waiter;
-    ->thread:Ljava/lang/Thread;    
+    iput-object p2, p1, Landroidx/concurrent/futures/AbstractResolvableFuture$Waiter;->thread:Ljava/lang/Thread;
     return-void
 .end method
 

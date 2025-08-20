@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -50,8 +49,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroid/app/Notification$CallStyle;
-    ->forIncomingCall(Landroid/app/Person;Landroid/app/PendingIntent;Landroid/app/PendingIntent;)Landroid/app/Notification$CallStyle;
+    invoke-static {p0, p1, p2}, Landroid/app/Notification$CallStyle;->forIncomingCall(Landroid/app/Person;Landroid/app/PendingIntent;Landroid/app/PendingIntent;)Landroid/app/Notification$CallStyle;
 
     .line 2
     .line 3
@@ -75,8 +73,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroid/app/Notification$CallStyle;
-    ->forOngoingCall(Landroid/app/Person;Landroid/app/PendingIntent;)Landroid/app/Notification$CallStyle;
+    invoke-static {p0, p1}, Landroid/app/Notification$CallStyle;->forOngoingCall(Landroid/app/Person;Landroid/app/PendingIntent;)Landroid/app/Notification$CallStyle;
 
     .line 2
     .line 3
@@ -104,8 +101,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroid/app/Notification$CallStyle;
-    ->forScreeningCall(Landroid/app/Person;Landroid/app/PendingIntent;Landroid/app/PendingIntent;)Landroid/app/Notification$CallStyle;
+    invoke-static {p0, p1, p2}, Landroid/app/Notification$CallStyle;->forScreeningCall(Landroid/app/Person;Landroid/app/PendingIntent;Landroid/app/PendingIntent;)Landroid/app/Notification$CallStyle;
 
     .line 2
     .line 3
@@ -125,8 +121,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$CallStyle;
-    ->setAnswerButtonColorHint(I)Landroid/app/Notification$CallStyle;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$CallStyle;->setAnswerButtonColorHint(I)Landroid/app/Notification$CallStyle;
 
     .line 2
     .line 3
@@ -142,8 +137,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$Action$Builder;
-    ->setAuthenticationRequired(Z)Landroid/app/Notification$Action$Builder;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$Action$Builder;->setAuthenticationRequired(Z)Landroid/app/Notification$Action$Builder;
 
     .line 2
     .line 3
@@ -163,8 +157,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$CallStyle;
-    ->setDeclineButtonColorHint(I)Landroid/app/Notification$CallStyle;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$CallStyle;->setDeclineButtonColorHint(I)Landroid/app/Notification$CallStyle;
 
     .line 2
     .line 3
@@ -180,8 +173,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$CallStyle;
-    ->setIsVideo(Z)Landroid/app/Notification$CallStyle;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$CallStyle;->setIsVideo(Z)Landroid/app/Notification$CallStyle;
 
     .line 2
     .line 3
@@ -201,8 +193,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$CallStyle;
-    ->setVerificationIcon(Landroid/graphics/drawable/Icon;)Landroid/app/Notification$CallStyle;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$CallStyle;->setVerificationIcon(Landroid/graphics/drawable/Icon;)Landroid/app/Notification$CallStyle;
 
     .line 2
     .line 3
@@ -222,8 +213,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$CallStyle;
-    ->setVerificationText(Ljava/lang/CharSequence;)Landroid/app/Notification$CallStyle;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$CallStyle;->setVerificationText(Ljava/lang/CharSequence;)Landroid/app/Notification$CallStyle;
 
     .line 2
     .line 3

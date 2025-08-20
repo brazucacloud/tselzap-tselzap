@@ -19,8 +19,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -28,8 +27,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/privacysandbox/ads/adservices/adselection/ReportEventRequest$Ext8Impl$Companion;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/privacysandbox/ads/adservices/adselection/ReportEventRequest$Ext8Impl$Companion;-><init>()V
     return-void
 .end method
 
@@ -43,14 +41,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/adselection/ReportEventRequest;
-    ->getInputEvent()Landroid/view/InputEvent;
+    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/adselection/ReportEventRequest;->getInputEvent()Landroid/view/InputEvent;
 
     .line 7
     .line 8
@@ -70,21 +66,18 @@
 
     .line 15
     .line 16
-    invoke-static {v0, v1}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 17
     .line 18
     .line 19
     :cond_0
-    invoke-static {}, Landroidx/privacysandbox/ads/adservices/adselection/a;
-    ->x()V
+    invoke-static {}, Landroidx/privacysandbox/ads/adservices/adselection/a;->x()V
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/adselection/ReportEventRequest;
-    ->getAdSelectionId()J
+    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/adselection/ReportEventRequest;->getAdSelectionId()J
 
     .line 23
     .line 24
@@ -92,8 +85,7 @@
     move-result-wide v0
 
     .line 26
-    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/adselection/ReportEventRequest;
-    ->getEventKey()Ljava/lang/String;
+    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/adselection/ReportEventRequest;->getEventKey()Ljava/lang/String;
 
     .line 27
     .line 28
@@ -101,8 +93,7 @@
     move-result-object v2
 
     .line 30
-    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/adselection/ReportEventRequest;
-    ->getEventData()Ljava/lang/String;
+    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/adselection/ReportEventRequest;->getEventData()Ljava/lang/String;
 
     .line 31
     .line 32
@@ -110,8 +101,7 @@
     move-result-object v3
 
     .line 34
-    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/adselection/ReportEventRequest;
-    ->getReportingDestinations()I
+    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/adselection/ReportEventRequest;->getReportingDestinations()I
 
     .line 35
     .line 36
@@ -119,8 +109,7 @@
     move-result p1
 
     .line 38
-    invoke-static {v0, v1, v2, v3, p1}, Landroidx/privacysandbox/ads/adservices/adselection/a;
-    ->r(JLjava/lang/String;Ljava/lang/String;I)Landroid/adservices/adselection/ReportEventRequest$Builder;
+    invoke-static {v0, v1, v2, v3, p1}, Landroidx/privacysandbox/ads/adservices/adselection/a;->r(JLjava/lang/String;Ljava/lang/String;I)Landroid/adservices/adselection/ReportEventRequest$Builder;
 
     .line 39
     .line 40
@@ -128,8 +117,7 @@
     move-result-object p1
 
     .line 42
-    invoke-static {p1}, Landroidx/privacysandbox/ads/adservices/adselection/a;
-    ->t(Landroid/adservices/adselection/ReportEventRequest$Builder;)Landroid/adservices/adselection/ReportEventRequest;
+    invoke-static {p1}, Landroidx/privacysandbox/ads/adservices/adselection/a;->t(Landroid/adservices/adselection/ReportEventRequest$Builder;)Landroid/adservices/adselection/ReportEventRequest;
 
     .line 43
     .line 44
@@ -141,8 +129,7 @@
 
     .line 47
     .line 48
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
     return-object p1
 .end method
 

@@ -19,14 +19,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, LN/e;
-    ->a:LN/e;
+    sput-object v0, LN/e;->a:LN/e;
 
     .line 7
     .line 8
@@ -34,8 +32,7 @@
 
     .line 9
     .line 10
-    invoke-static {v0}, Lcom/google/firebase/encoders/FieldDescriptor;
-    ->of(Ljava/lang/String;)Lcom/google/firebase/encoders/FieldDescriptor;
+    invoke-static {v0}, Lcom/google/firebase/encoders/FieldDescriptor;->of(Ljava/lang/String;)Lcom/google/firebase/encoders/FieldDescriptor;
 
     .line 11
     .line 12
@@ -68,8 +65,7 @@
 
     .line 8
     .line 9
-    invoke-direct {p1}, Ljava/lang/ClassCastException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/ClassCastException;-><init>()V
 
     .line 10
     .line 11

@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -17,8 +16,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p4}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
-    ->getChildCount()I
+    invoke-virtual {p4}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getChildCount()I
 
     .line 2
     .line 3
@@ -30,8 +28,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$State;
-    ->getItemCount()I
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$State;->getItemCount()I
 
     .line 8
     .line 9
@@ -59,8 +56,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p4, p2}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
-    ->getPosition(Landroid/view/View;)I
+    invoke-virtual {p4, p2}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getPosition(Landroid/view/View;)I
 
     .line 21
     .line 22
@@ -68,8 +64,7 @@
     move-result p0
 
     .line 24
-    invoke-virtual {p4, p3}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
-    ->getPosition(Landroid/view/View;)I
+    invoke-virtual {p4, p3}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getPosition(Landroid/view/View;)I
 
     .line 25
     .line 26
@@ -80,8 +75,7 @@
     sub-int/2addr p0, p1
 
     .line 29
-    invoke-static {p0}, Ljava/lang/Math;
-    ->abs(I)I
+    invoke-static {p0}, Ljava/lang/Math;->abs(I)I
 
     .line 30
     .line 31
@@ -93,8 +87,7 @@
 
     .line 36
     :cond_1
-    invoke-virtual {p1, p3}, Landroidx/recyclerview/widget/OrientationHelper;
-    ->getDecoratedEnd(Landroid/view/View;)I
+    invoke-virtual {p1, p3}, Landroidx/recyclerview/widget/OrientationHelper;->getDecoratedEnd(Landroid/view/View;)I
 
     .line 37
     .line 38
@@ -102,8 +95,7 @@
     move-result p0
 
     .line 40
-    invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/OrientationHelper;
-    ->getDecoratedStart(Landroid/view/View;)I
+    invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/OrientationHelper;->getDecoratedStart(Landroid/view/View;)I
 
     .line 41
     .line 42
@@ -114,8 +106,7 @@
     sub-int/2addr p0, p2
 
     .line 45
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/OrientationHelper;
-    ->getTotalSpace()I
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/OrientationHelper;->getTotalSpace()I
 
     .line 46
     .line 47
@@ -123,8 +114,7 @@
     move-result p1
 
     .line 49
-    invoke-static {p1, p0}, Ljava/lang/Math;
-    ->min(II)I
+    invoke-static {p1, p0}, Ljava/lang/Math;->min(II)I
 
     .line 50
     .line 51
@@ -145,8 +135,7 @@
     .locals 4
 
     .line 1
-    invoke-virtual {p4}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
-    ->getChildCount()I
+    invoke-virtual {p4}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getChildCount()I
 
     .line 2
     .line 3
@@ -161,8 +150,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$State;
-    ->getItemCount()I
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$State;->getItemCount()I
 
     .line 9
     .line 10
@@ -186,8 +174,7 @@
 
     .line 19
     :cond_0
-    invoke-virtual {p4, p2}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
-    ->getPosition(Landroid/view/View;)I
+    invoke-virtual {p4, p2}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getPosition(Landroid/view/View;)I
 
     .line 20
     .line 21
@@ -195,8 +182,7 @@
     move-result v0
 
     .line 23
-    invoke-virtual {p4, p3}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
-    ->getPosition(Landroid/view/View;)I
+    invoke-virtual {p4, p3}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getPosition(Landroid/view/View;)I
 
     .line 24
     .line 25
@@ -204,8 +190,7 @@
     move-result v2
 
     .line 27
-    invoke-static {v0, v2}, Ljava/lang/Math;
-    ->min(II)I
+    invoke-static {v0, v2}, Ljava/lang/Math;->min(II)I
 
     .line 28
     .line 29
@@ -213,8 +198,7 @@
     move-result v0
 
     .line 31
-    invoke-virtual {p4, p2}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
-    ->getPosition(Landroid/view/View;)I
+    invoke-virtual {p4, p2}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getPosition(Landroid/view/View;)I
 
     .line 32
     .line 33
@@ -222,8 +206,7 @@
     move-result v2
 
     .line 35
-    invoke-virtual {p4, p3}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
-    ->getPosition(Landroid/view/View;)I
+    invoke-virtual {p4, p3}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getPosition(Landroid/view/View;)I
 
     .line 36
     .line 37
@@ -231,8 +214,7 @@
     move-result v3
 
     .line 39
-    invoke-static {v2, v3}, Ljava/lang/Math;
-    ->max(II)I
+    invoke-static {v2, v3}, Ljava/lang/Math;->max(II)I
 
     .line 40
     .line 41
@@ -244,8 +226,7 @@
 
     .line 44
     .line 45
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$State;
-    ->getItemCount()I
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$State;->getItemCount()I
 
     .line 46
     .line 47
@@ -260,8 +241,7 @@
 
     .line 51
     .line 52
-    invoke-static {v1, p0}, Ljava/lang/Math;
-    ->max(II)I
+    invoke-static {v1, p0}, Ljava/lang/Math;->max(II)I
 
     .line 53
     .line 54
@@ -273,8 +253,7 @@
 
     .line 57
     :cond_1
-    invoke-static {v1, v0}, Ljava/lang/Math;
-    ->max(II)I
+    invoke-static {v1, v0}, Ljava/lang/Math;->max(II)I
 
     .line 58
     .line 59
@@ -287,8 +266,7 @@
 
     .line 64
     :cond_2
-    invoke-virtual {p1, p3}, Landroidx/recyclerview/widget/OrientationHelper;
-    ->getDecoratedEnd(Landroid/view/View;)I
+    invoke-virtual {p1, p3}, Landroidx/recyclerview/widget/OrientationHelper;->getDecoratedEnd(Landroid/view/View;)I
 
     .line 65
     .line 66
@@ -296,8 +274,7 @@
     move-result p5
 
     .line 68
-    invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/OrientationHelper;
-    ->getDecoratedStart(Landroid/view/View;)I
+    invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/OrientationHelper;->getDecoratedStart(Landroid/view/View;)I
 
     .line 69
     .line 70
@@ -308,8 +285,7 @@
     sub-int/2addr p5, p6
 
     .line 73
-    invoke-static {p5}, Ljava/lang/Math;
-    ->abs(I)I
+    invoke-static {p5}, Ljava/lang/Math;->abs(I)I
 
     .line 74
     .line 75
@@ -317,8 +293,7 @@
     move-result p5
 
     .line 77
-    invoke-virtual {p4, p2}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
-    ->getPosition(Landroid/view/View;)I
+    invoke-virtual {p4, p2}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getPosition(Landroid/view/View;)I
 
     .line 78
     .line 79
@@ -326,8 +301,7 @@
     move-result p6
 
     .line 81
-    invoke-virtual {p4, p3}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
-    ->getPosition(Landroid/view/View;)I
+    invoke-virtual {p4, p3}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getPosition(Landroid/view/View;)I
 
     .line 82
     .line 83
@@ -338,8 +312,7 @@
     sub-int/2addr p6, p3
 
     .line 86
-    invoke-static {p6}, Ljava/lang/Math;
-    ->abs(I)I
+    invoke-static {p6}, Ljava/lang/Math;->abs(I)I
 
     .line 87
     .line 88
@@ -367,8 +340,7 @@
 
     .line 97
     .line 98
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/OrientationHelper;
-    ->getStartAfterPadding()I
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/OrientationHelper;->getStartAfterPadding()I
 
     .line 99
     .line 100
@@ -376,8 +348,7 @@
     move-result p3
 
     .line 102
-    invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/OrientationHelper;
-    ->getDecoratedStart(Landroid/view/View;)I
+    invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/OrientationHelper;->getDecoratedStart(Landroid/view/View;)I
 
     .line 103
     .line 104
@@ -394,8 +365,7 @@
     add-float/2addr p0, p1
 
     .line 109
-    invoke-static {p0}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {p0}, Ljava/lang/Math;->round(F)I
 
     .line 110
     .line 111
@@ -414,8 +384,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p4}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
-    ->getChildCount()I
+    invoke-virtual {p4}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getChildCount()I
 
     .line 2
     .line 3
@@ -427,8 +396,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$State;
-    ->getItemCount()I
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$State;->getItemCount()I
 
     .line 8
     .line 9
@@ -456,8 +424,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$State;
-    ->getItemCount()I
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$State;->getItemCount()I
 
     .line 21
     .line 22
@@ -468,8 +435,7 @@
 
     .line 25
     :cond_1
-    invoke-virtual {p1, p3}, Landroidx/recyclerview/widget/OrientationHelper;
-    ->getDecoratedEnd(Landroid/view/View;)I
+    invoke-virtual {p1, p3}, Landroidx/recyclerview/widget/OrientationHelper;->getDecoratedEnd(Landroid/view/View;)I
 
     .line 26
     .line 27
@@ -477,8 +443,7 @@
     move-result p5
 
     .line 29
-    invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/OrientationHelper;
-    ->getDecoratedStart(Landroid/view/View;)I
+    invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/OrientationHelper;->getDecoratedStart(Landroid/view/View;)I
 
     .line 30
     .line 31
@@ -489,8 +454,7 @@
     sub-int/2addr p5, p1
 
     .line 34
-    invoke-virtual {p4, p2}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
-    ->getPosition(Landroid/view/View;)I
+    invoke-virtual {p4, p2}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getPosition(Landroid/view/View;)I
 
     .line 35
     .line 36
@@ -498,8 +462,7 @@
     move-result p1
 
     .line 38
-    invoke-virtual {p4, p3}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
-    ->getPosition(Landroid/view/View;)I
+    invoke-virtual {p4, p3}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getPosition(Landroid/view/View;)I
 
     .line 39
     .line 40
@@ -510,8 +473,7 @@
     sub-int/2addr p1, p2
 
     .line 43
-    invoke-static {p1}, Ljava/lang/Math;
-    ->abs(I)I
+    invoke-static {p1}, Ljava/lang/Math;->abs(I)I
 
     .line 44
     .line 45
@@ -532,8 +494,7 @@
     div-float/2addr p2, p1
 
     .line 52
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$State;
-    ->getItemCount()I
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$State;->getItemCount()I
 
     .line 53
     .line 54

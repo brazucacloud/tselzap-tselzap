@@ -31,8 +31,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-static {v0, v1}, Ljava/lang/Math;
-    ->round(D)J
+    invoke-static {v0, v1}, Ljava/lang/Math;->round(D)J
 
     .line 7
     .line 8
@@ -43,8 +42,7 @@
     long-to-int v1, v0
 
     .line 11
-    sput v1, Lm0/a;
-    ->f:I
+    sput v1, Lm0/a;->f:I
 
     .line 12
     .line 13
@@ -63,8 +61,7 @@
     const/4 v1, 0x0
 
     .line 5
-    invoke-static {p1, v0, v1}, Lr0/b;
-    ->b(Landroid/content/Context;IZ)Z
+    invoke-static {p1, v0, v1}, Lr0/b;->b(Landroid/content/Context;IZ)Z
 
     .line 6
     .line 7
@@ -77,8 +74,7 @@
     .line 10
     .line 11
     .line 12
-    invoke-static {p1, v2, v1}, Lj0/a;
-    ->a(Landroid/content/Context;II)I
+    invoke-static {p1, v2, v1}, Lj0/a;->a(Landroid/content/Context;II)I
 
     .line 13
     .line 14
@@ -91,8 +87,7 @@
     .line 17
     .line 18
     .line 19
-    invoke-static {p1, v3, v1}, Lj0/a;
-    ->a(Landroid/content/Context;II)I
+    invoke-static {p1, v3, v1}, Lj0/a;->a(Landroid/content/Context;II)I
 
     .line 20
     .line 21
@@ -105,8 +100,7 @@
     .line 24
     .line 25
     .line 26
-    invoke-static {p1, v4, v1}, Lj0/a;
-    ->a(Landroid/content/Context;II)I
+    invoke-static {p1, v4, v1}, Lj0/a;->a(Landroid/content/Context;II)I
 
     .line 27
     .line 28
@@ -114,8 +108,7 @@
     move-result v1
 
     .line 30
-    invoke-virtual {p1}, Landroid/content/Context;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     .line 31
     .line 32
@@ -123,8 +116,7 @@
     move-result-object p1
 
     .line 34
-    invoke-virtual {p1}, Landroid/content/res/Resources;
-    ->getDisplayMetrics()Landroid/util/DisplayMetrics;
+    invoke-virtual {p1}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
 
     .line 35
     .line 36
@@ -132,39 +124,32 @@
     move-result-object p1
 
     .line 38
-    iget p1, p1, Landroid/util/DisplayMetrics;
-    ->density:F
+    iget p1, p1, Landroid/util/DisplayMetrics;->density:F
 
     .line 39
     .line 40
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 41
     .line 42
     .line 43
-    iput-boolean v0, p0, Lm0/a;
-    ->a:Z
+    iput-boolean v0, p0, Lm0/a;->a:Z
 
     .line 44
     .line 45
-    iput v2, p0, Lm0/a;
-    ->b:I
+    iput v2, p0, Lm0/a;->b:I
 
     .line 46
     .line 47
-    iput v3, p0, Lm0/a;
-    ->c:I
+    iput v3, p0, Lm0/a;->c:I
 
     .line 48
     .line 49
-    iput v1, p0, Lm0/a;
-    ->d:I
+    iput v1, p0, Lm0/a;->d:I
 
     .line 50
     .line 51
-    iput p1, p0, Lm0/a;
-    ->e:F
+    iput p1, p0, Lm0/a;->e:F
 
     .line 52
     .line 53
@@ -177,8 +162,7 @@
     .locals 4
 
     .line 1
-    iget-boolean v0, p0, Lm0/a;
-    ->a:Z
+    iget-boolean v0, p0, Lm0/a;->a:Z
 
     .line 2
     .line 3
@@ -190,8 +174,7 @@
 
     .line 6
     .line 7
-    invoke-static {p1, v0}, Landroidx/core/graphics/ColorUtils;
-    ->setAlphaComponent(II)I
+    invoke-static {p1, v0}, Landroidx/core/graphics/ColorUtils;->setAlphaComponent(II)I
 
     .line 8
     .line 9
@@ -199,8 +182,7 @@
     move-result v1
 
     .line 11
-    iget v2, p0, Lm0/a;
-    ->d:I
+    iget v2, p0, Lm0/a;->d:I
 
     .line 12
     .line 13
@@ -211,8 +193,7 @@
     const/4 v1, 0x0
 
     .line 16
-    iget v2, p0, Lm0/a;
-    ->e:F
+    iget v2, p0, Lm0/a;->e:F
 
     .line 17
     .line 18
@@ -242,8 +223,7 @@
     float-to-double v2, p2
 
     .line 29
-    invoke-static {v2, v3}, Ljava/lang/Math;
-    ->log1p(D)D
+    invoke-static {v2, v3}, Ljava/lang/Math;->log1p(D)D
 
     .line 30
     .line 31
@@ -280,8 +260,7 @@
 
     .line 45
     .line 46
-    invoke-static {p2, v2}, Ljava/lang/Math;
-    ->min(FF)F
+    invoke-static {p2, v2}, Ljava/lang/Math;->min(FF)F
 
     .line 47
     .line 48
@@ -298,8 +277,7 @@
 
     .line 52
     :goto_1
-    invoke-static {p1}, Landroid/graphics/Color;
-    ->alpha(I)I
+    invoke-static {p1}, Landroid/graphics/Color;->alpha(I)I
 
     .line 53
     .line 54
@@ -307,8 +285,7 @@
     move-result v2
 
     .line 56
-    invoke-static {p1, v0}, Landroidx/core/graphics/ColorUtils;
-    ->setAlphaComponent(II)I
+    invoke-static {p1, v0}, Landroidx/core/graphics/ColorUtils;->setAlphaComponent(II)I
 
     .line 57
     .line 58
@@ -316,13 +293,11 @@
     move-result p1
 
     .line 60
-    iget v0, p0, Lm0/a;
-    ->b:I
+    iget v0, p0, Lm0/a;->b:I
 
     .line 61
     .line 62
-    invoke-static {p1, v0, p2}, Lj0/a;
-    ->c(IIF)I
+    invoke-static {p1, v0, p2}, Lj0/a;->c(IIF)I
 
     .line 63
     .line 64
@@ -338,8 +313,7 @@
 
     .line 69
     .line 70
-    iget p2, p0, Lm0/a;
-    ->c:I
+    iget p2, p0, Lm0/a;->c:I
 
     .line 71
     .line 72
@@ -347,13 +321,11 @@
 
     .line 73
     .line 74
-    sget v0, Lm0/a;
-    ->f:I
+    sget v0, Lm0/a;->f:I
 
     .line 75
     .line 76
-    invoke-static {p2, v0}, Landroidx/core/graphics/ColorUtils;
-    ->setAlphaComponent(II)I
+    invoke-static {p2, v0}, Landroidx/core/graphics/ColorUtils;->setAlphaComponent(II)I
 
     .line 77
     .line 78
@@ -361,8 +333,7 @@
     move-result p2
 
     .line 80
-    invoke-static {p2, p1}, Landroidx/core/graphics/ColorUtils;
-    ->compositeColors(II)I
+    invoke-static {p2, p1}, Landroidx/core/graphics/ColorUtils;->compositeColors(II)I
 
     .line 81
     .line 82
@@ -371,8 +342,7 @@
 
     .line 84
     :cond_2
-    invoke-static {p1, v2}, Landroidx/core/graphics/ColorUtils;
-    ->setAlphaComponent(II)I
+    invoke-static {p1, v2}, Landroidx/core/graphics/ColorUtils;->setAlphaComponent(II)I
 
     .line 85
     .line 86

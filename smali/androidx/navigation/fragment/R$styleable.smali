@@ -38,15 +38,13 @@
 
     move-result-object v1
 
-    sput-object v1, Landroidx/navigation/fragment/R$styleable;
-    ->DialogFragmentNavigator:[I
+    sput-object v1, Landroidx/navigation/fragment/R$styleable;->DialogFragmentNavigator:[I
 
     filled-new-array {v0}, [I
 
     move-result-object v0
 
-    sput-object v0, Landroidx/navigation/fragment/R$styleable;
-    ->FragmentNavigator:[I
+    sput-object v0, Landroidx/navigation/fragment/R$styleable;->FragmentNavigator:[I
 
     const v0, 0x7f0401e2
 
@@ -54,8 +52,7 @@
 
     move-result-object v0
 
-    sput-object v0, Landroidx/navigation/fragment/R$styleable;
-    ->NavHostFragment:[I
+    sput-object v0, Landroidx/navigation/fragment/R$styleable;->NavHostFragment:[I
 
     return-void
 .end method
@@ -63,8 +60,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 

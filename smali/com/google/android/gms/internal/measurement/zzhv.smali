@@ -29,14 +29,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/collection/ArrayMap;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/collection/ArrayMap;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Lcom/google/android/gms/internal/measurement/zzhv;
-    ->zza:Landroidx/collection/ArrayMap;
+    sput-object v0, Lcom/google/android/gms/internal/measurement/zzhv;->zza:Landroidx/collection/ArrayMap;
 
     .line 7
     .line 8
@@ -52,11 +50,9 @@
 
     .line 1
     :try_start_0
-    sget-object v1, Lcom/google/android/gms/internal/measurement/zzhv;
-    ->zza:Landroidx/collection/ArrayMap;
+    sget-object v1, Lcom/google/android/gms/internal/measurement/zzhv;->zza:Landroidx/collection/ArrayMap;
 
-    invoke-virtual {v1, p0}, Landroidx/collection/ArrayMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p0}, Landroidx/collection/ArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -65,8 +61,7 @@
     if-nez v2, :cond_0
 
     .line 2
-    invoke-static {p0}, Landroid/net/Uri;
-    ->encode(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0}, Landroid/net/Uri;->encode(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -74,25 +69,20 @@
 
     const-string v4, "content://com.google.android.gms.phenotype/"
 
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-static {v2}, Landroid/net/Uri;
-    ->parse(Ljava/lang/String;)Landroid/net/Uri;
+    invoke-static {v2}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v2
 
     .line 3
-    invoke-virtual {v1, p0, v2}, Landroidx/collection/SimpleArrayMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p0, v2}, Landroidx/collection/SimpleArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -125,22 +115,19 @@
     .line 5
     const-string v0, "#"
 
-    invoke-virtual {p1, v0}, Ljava/lang/String;
-    ->contains(Ljava/lang/CharSequence;)Z
+    invoke-virtual {p1, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
     .line 6
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getPackageName()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object p0
 
     .line 7
-    invoke-static {p1, v0, p0}, LA/d;
-    ->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v0, p0}, LA/d;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -152,13 +139,11 @@
 
     const-string v0, "The passed in package cannot already have a subpackage: "
 
-    invoke-virtual {v0, p1}, Ljava/lang/String;
-    ->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, p1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -169,8 +154,7 @@
     .line 15
     const-string v0, "eng"
 
-    invoke-virtual {p0, v0}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
 
@@ -178,8 +162,7 @@
 
     const-string v0, "userdebug"
 
-    invoke-virtual {p0, v0}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p0
 
@@ -189,8 +172,7 @@
     const-string p0, "dev-keys"
 
     .line 16
-    invoke-virtual {p1, p0}, Ljava/lang/String;
-    ->contains(Ljava/lang/CharSequence;)Z
+    invoke-virtual {p1, p0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result p0
 
@@ -198,8 +180,7 @@
 
     const-string p0, "test-keys"
 
-    invoke-virtual {p1, p0}, Ljava/lang/String;
-    ->contains(Ljava/lang/CharSequence;)Z
+    invoke-virtual {p1, p0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result p0
 

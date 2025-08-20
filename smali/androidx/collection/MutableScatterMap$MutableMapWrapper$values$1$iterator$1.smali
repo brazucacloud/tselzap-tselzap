@@ -9,8 +9,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/collection/MutableScatterMap$MutableMapWrapper$values$1;
-    ->iterator()Ljava/util/Iterator;
+    value = Landroidx/collection/MutableScatterMap$MutableMapWrapper$values$1;->iterator()Ljava/util/Iterator;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -63,13 +62,11 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/collection/MutableScatterMap$MutableMapWrapper$values$1$iterator$1;
-    ->this$0:Landroidx/collection/MutableScatterMap;
+    iput-object p1, p0, Landroidx/collection/MutableScatterMap$MutableMapWrapper$values$1$iterator$1;->this$0:Landroidx/collection/MutableScatterMap;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
@@ -81,14 +78,12 @@
     const/4 v1, 0x0
 
     .line 9
-    invoke-direct {v0, p1, v1}, Landroidx/collection/MutableScatterMap$MutableMapWrapper$values$1$iterator$1$iterator$1;
-    -><init>(Landroidx/collection/MutableScatterMap;Lg1/d;)V
+    invoke-direct {v0, p1, v1}, Landroidx/collection/MutableScatterMap$MutableMapWrapper$values$1$iterator$1$iterator$1;-><init>(Landroidx/collection/MutableScatterMap;Lg1/d;)V
 
     .line 10
     .line 11
     .line 12
-    invoke-static {v0}, La/a;
-    ->A(Lp1/p;)Lw1/i;
+    invoke-static {v0}, La/a;->A(Lp1/p;)Lw1/i;
 
     .line 13
     .line 14
@@ -96,16 +91,14 @@
     move-result-object p1
 
     .line 16
-    iput-object p1, p0, Landroidx/collection/MutableScatterMap$MutableMapWrapper$values$1$iterator$1;
-    ->iterator:Ljava/util/Iterator;
+    iput-object p1, p0, Landroidx/collection/MutableScatterMap$MutableMapWrapper$values$1$iterator$1;->iterator:Ljava/util/Iterator;
 
     .line 17
     .line 18
     const/4 p1, -0x1
 
     .line 19
-    iput p1, p0, Landroidx/collection/MutableScatterMap$MutableMapWrapper$values$1$iterator$1;
-    ->current:I    
+    iput p1, p0, Landroidx/collection/MutableScatterMap$MutableMapWrapper$values$1$iterator$1;->current:I
     return-void
 .end method
 
@@ -115,13 +108,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/MutableScatterMap$MutableMapWrapper$values$1$iterator$1;
-    ->iterator:Ljava/util/Iterator;
+    iget-object v0, p0, Landroidx/collection/MutableScatterMap$MutableMapWrapper$values$1$iterator$1;->iterator:Ljava/util/Iterator;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 4
     .line 5
@@ -140,13 +131,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/MutableScatterMap$MutableMapWrapper$values$1$iterator$1;
-    ->iterator:Ljava/util/Iterator;
+    iget-object v0, p0, Landroidx/collection/MutableScatterMap$MutableMapWrapper$values$1$iterator$1;->iterator:Ljava/util/Iterator;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -158,8 +147,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {v0}, Ljava/lang/Number;
-    ->intValue()I
+    invoke-virtual {v0}, Ljava/lang/Number;->intValue()I
 
     .line 10
     .line 11
@@ -167,18 +155,15 @@
     move-result v0
 
     .line 13
-    iput v0, p0, Landroidx/collection/MutableScatterMap$MutableMapWrapper$values$1$iterator$1;
-    ->current:I
+    iput v0, p0, Landroidx/collection/MutableScatterMap$MutableMapWrapper$values$1$iterator$1;->current:I
 
     .line 14
     .line 15
-    iget-object v1, p0, Landroidx/collection/MutableScatterMap$MutableMapWrapper$values$1$iterator$1;
-    ->this$0:Landroidx/collection/MutableScatterMap;
+    iget-object v1, p0, Landroidx/collection/MutableScatterMap$MutableMapWrapper$values$1$iterator$1;->this$0:Landroidx/collection/MutableScatterMap;
 
     .line 16
     .line 17
-    iget-object v1, v1, Landroidx/collection/ScatterMap;
-    ->values:[Ljava/lang/Object;
+    iget-object v1, v1, Landroidx/collection/ScatterMap;->values:[Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -189,8 +174,7 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/collection/MutableScatterMap$MutableMapWrapper$values$1$iterator$1;
-    ->current:I
+    iget v0, p0, Landroidx/collection/MutableScatterMap$MutableMapWrapper$values$1$iterator$1;->current:I
 
     .line 2
     .line 3
@@ -198,13 +182,11 @@
 
     .line 4
     .line 5
-    iget-object v1, p0, Landroidx/collection/MutableScatterMap$MutableMapWrapper$values$1$iterator$1;
-    ->this$0:Landroidx/collection/MutableScatterMap;
+    iget-object v1, p0, Landroidx/collection/MutableScatterMap$MutableMapWrapper$values$1$iterator$1;->this$0:Landroidx/collection/MutableScatterMap;
 
     .line 6
     .line 7
-    invoke-virtual {v1, v0}, Landroidx/collection/MutableScatterMap;
-    ->removeValueAt(I)Ljava/lang/Object;
+    invoke-virtual {v1, v0}, Landroidx/collection/MutableScatterMap;->removeValueAt(I)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -212,8 +194,7 @@
     const/4 v0, -0x1
 
     .line 11
-    iput v0, p0, Landroidx/collection/MutableScatterMap$MutableMapWrapper$values$1$iterator$1;
-    ->current:I
+    iput v0, p0, Landroidx/collection/MutableScatterMap$MutableMapWrapper$values$1$iterator$1;->current:I
 
     .line 12
     .line 13

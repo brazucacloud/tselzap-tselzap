@@ -44,11 +44,9 @@
 
     new-instance v0, Ljava/lang/Object;
 
-    invoke-direct {v0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
-    sput-object v0, Lcom/google/android/gms/common/config/GservicesValue;
-    ->zzc:Ljava/lang/Object;
+    sput-object v0, Lcom/google/android/gms/common/config/GservicesValue;->zzc:Ljava/lang/Object;
 
     return-void
 .end method
@@ -64,19 +62,15 @@
         .end annotation
     .end param
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/google/android/gms/common/config/GservicesValue;
-    ->zzd:Ljava/lang/Object;
+    iput-object v0, p0, Lcom/google/android/gms/common/config/GservicesValue;->zzd:Ljava/lang/Object;
 
-    iput-object p1, p0, Lcom/google/android/gms/common/config/GservicesValue;
-    ->zza:Ljava/lang/String;
+    iput-object p1, p0, Lcom/google/android/gms/common/config/GservicesValue;->zza:Ljava/lang/String;
 
-    iput-object p2, p0, Lcom/google/android/gms/common/config/GservicesValue;
-    ->zzb:Ljava/lang/Object;
+    iput-object p2, p0, Lcom/google/android/gms/common/config/GservicesValue;->zzb:Ljava/lang/Object;
 
     return-void
 .end method
@@ -87,8 +81,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/google/android/gms/common/config/GservicesValue;
-    ->zzc:Ljava/lang/Object;
+    sget-object v0, Lcom/google/android/gms/common/config/GservicesValue;->zzc:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -160,8 +153,7 @@
     .line 1
     new-instance v0, Lcom/google/android/gms/common/config/zzd;
 
-    invoke-direct {v0, p0, p1}, Lcom/google/android/gms/common/config/zzd;
-    -><init>(Ljava/lang/String;Ljava/lang/Float;)V
+    invoke-direct {v0, p0, p1}, Lcom/google/android/gms/common/config/zzd;-><init>(Ljava/lang/String;Ljava/lang/Float;)V
 return-object v0
 .end method
 
@@ -196,8 +188,7 @@ return-object v0
     .line 2
     new-instance v0, Lcom/google/android/gms/common/config/zzc;
 
-    invoke-direct {v0, p0, p1}, Lcom/google/android/gms/common/config/zzc;
-    -><init>(Ljava/lang/String;Ljava/lang/Integer;)V
+    invoke-direct {v0, p0, p1}, Lcom/google/android/gms/common/config/zzc;-><init>(Ljava/lang/String;Ljava/lang/Integer;)V
 return-object v0
 .end method
 
@@ -232,8 +223,7 @@ return-object v0
     .line 3
     new-instance v0, Lcom/google/android/gms/common/config/zzb;
 
-    invoke-direct {v0, p0, p1}, Lcom/google/android/gms/common/config/zzb;
-    -><init>(Ljava/lang/String;Ljava/lang/Long;)V
+    invoke-direct {v0, p0, p1}, Lcom/google/android/gms/common/config/zzb;-><init>(Ljava/lang/String;Ljava/lang/Long;)V
 return-object v0
 .end method
 
@@ -268,8 +258,7 @@ return-object v0
     .line 4
     new-instance v0, Lcom/google/android/gms/common/config/zze;
 
-    invoke-direct {v0, p0, p1}, Lcom/google/android/gms/common/config/zze;
-    -><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v0, p0, p1}, Lcom/google/android/gms/common/config/zze;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 return-object v0
 .end method
 
@@ -299,13 +288,11 @@ return-object v0
     .line 5
     new-instance v0, Lcom/google/android/gms/common/config/zza;
 
-    invoke-static {p1}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p1
 
-    invoke-direct {v0, p0, p1}, Lcom/google/android/gms/common/config/zza;
-    -><init>(Ljava/lang/String;Ljava/lang/Boolean;)V
+    invoke-direct {v0, p0, p1}, Lcom/google/android/gms/common/config/zza;-><init>(Ljava/lang/String;Ljava/lang/Boolean;)V
 return-object v0
 .end method
 
@@ -326,8 +313,7 @@ return-object v0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/config/GservicesValue;
-    ->zzd:Ljava/lang/Object;
+    iget-object v0, p0, Lcom/google/android/gms/common/config/GservicesValue;->zzd:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -339,8 +325,7 @@ return-object v0
 
     .line 6
     :cond_0
-    invoke-static {}, Landroid/os/StrictMode;
-    ->allowThreadDiskReads()Landroid/os/StrictMode$ThreadPolicy;
+    invoke-static {}, Landroid/os/StrictMode;->allowThreadDiskReads()Landroid/os/StrictMode$ThreadPolicy;
 
     .line 7
     .line 8
@@ -348,8 +333,7 @@ return-object v0
     move-result-object v0
 
     .line 10
-    sget-object v1, Lcom/google/android/gms/common/config/GservicesValue;
-    ->zzc:Ljava/lang/Object;
+    sget-object v1, Lcom/google/android/gms/common/config/GservicesValue;->zzc:Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -372,13 +356,11 @@ return-object v0
 
     .line 16
     :try_start_2
-    iget-object v1, p0, Lcom/google/android/gms/common/config/GservicesValue;
-    ->zza:Ljava/lang/String;
+    iget-object v1, p0, Lcom/google/android/gms/common/config/GservicesValue;->zza:Ljava/lang/String;
 
     .line 17
     .line 18
-    invoke-virtual {p0, v1}, Lcom/google/android/gms/common/config/GservicesValue;
-    ->zza(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, v1}, Lcom/google/android/gms/common/config/GservicesValue;->zza(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -401,8 +383,7 @@ return-object v0
     .line 25
     :catch_0
     :try_start_3
-    invoke-static {}, Landroid/os/Binder;
-    ->clearCallingIdentity()J
+    invoke-static {}, Landroid/os/Binder;->clearCallingIdentity()J
 
     .line 26
     .line 27
@@ -413,13 +394,11 @@ return-object v0
 
     .line 29
     :try_start_4
-    iget-object v3, p0, Lcom/google/android/gms/common/config/GservicesValue;
-    ->zza:Ljava/lang/String;
+    iget-object v3, p0, Lcom/google/android/gms/common/config/GservicesValue;->zza:Ljava/lang/String;
 
     .line 30
     .line 31
-    invoke-virtual {p0, v3}, Lcom/google/android/gms/common/config/GservicesValue;
-    ->zza(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, v3}, Lcom/google/android/gms/common/config/GservicesValue;->zza(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 32
     .line 33
@@ -430,8 +409,7 @@ return-object v0
 
     .line 35
     :try_start_5
-    invoke-static {v1, v2}, Landroid/os/Binder;
-    ->restoreCallingIdentity(J)V
+    invoke-static {v1, v2}, Landroid/os/Binder;->restoreCallingIdentity(J)V
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_0
 
@@ -442,8 +420,7 @@ return-object v0
 
     .line 39
     :goto_0
-    invoke-static {v0}, Landroid/os/StrictMode;
-    ->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
+    invoke-static {v0}, Landroid/os/StrictMode;->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
 
     .line 40
     .line 41
@@ -456,8 +433,7 @@ return-object v0
 
     .line 44
     :try_start_6
-    invoke-static {v1, v2}, Landroid/os/Binder;
-    ->restoreCallingIdentity(J)V
+    invoke-static {v1, v2}, Landroid/os/Binder;->restoreCallingIdentity(J)V
 
     .line 45
     .line 46
@@ -468,8 +444,7 @@ return-object v0
 
     .line 48
     :goto_1
-    invoke-static {v0}, Landroid/os/StrictMode;
-    ->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
+    invoke-static {v0}, Landroid/os/StrictMode;->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
 
     .line 49
     .line 50
@@ -550,8 +525,7 @@ return-object v0
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/android/gms/common/config/GservicesValue;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/config/GservicesValue;->get()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -588,19 +562,16 @@ return-object v0
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 6
     .line 7
     .line 8
-    iput-object p1, p0, Lcom/google/android/gms/common/config/GservicesValue;
-    ->zzd:Ljava/lang/Object;
+    iput-object p1, p0, Lcom/google/android/gms/common/config/GservicesValue;->zzd:Ljava/lang/Object;
 
     .line 9
     .line 10
-    sget-object p1, Lcom/google/android/gms/common/config/GservicesValue;
-    ->zzc:Ljava/lang/Object;
+    sget-object p1, Lcom/google/android/gms/common/config/GservicesValue;->zzc:Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -671,8 +642,7 @@ return-object v0
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/google/android/gms/common/config/GservicesValue;
-    ->zzd:Ljava/lang/Object;
+    iput-object v0, p0, Lcom/google/android/gms/common/config/GservicesValue;->zzd:Ljava/lang/Object;
 
     return-void
 .end method

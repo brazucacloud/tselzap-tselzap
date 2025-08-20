@@ -31,8 +31,7 @@
     move-result-object v0
 
     .line 10
-    sput-object v0, Lz0/a;
-    ->a:[I
+    sput-object v0, Lz0/a;->a:[I
 
     .line 11
     .line 12
@@ -49,8 +48,7 @@
     move-result-object v0
 
     .line 19
-    sput-object v0, Lz0/a;
-    ->b:[I
+    sput-object v0, Lz0/a;->b:[I
 
     .line 20
     .line 21
@@ -68,8 +66,7 @@
 
     .line 3
     .line 4
-    invoke-static {p0, p1, v0, p2, p3}, Lz0/a;
-    ->b(Landroid/content/Context;Landroid/util/AttributeSet;[III)Landroid/content/Context;
+    invoke-static {p0, p1, v0, p2, p3}, Lz0/a;->b(Landroid/content/Context;Landroid/util/AttributeSet;[III)Landroid/content/Context;
 
     .line 5
     .line 6
@@ -83,8 +80,7 @@
     .locals 6
 
     .line 1
-    sget-object v0, Lz0/a;
-    ->b:[I
+    sget-object v0, Lz0/a;->b:[I
 
     .line 2
     .line 3
@@ -95,8 +91,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {p0, p1, v0, p3, p4}, Landroid/content/Context;
-    ->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
+    invoke-virtual {p0, p1, v0, p3, p4}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
     .line 7
     .line 8
@@ -107,8 +102,7 @@
     const/4 v3, 0x0
 
     .line 11
-    invoke-virtual {v0, v3, v3}, Landroid/content/res/TypedArray;
-    ->getResourceId(II)I
+    invoke-virtual {v0, v3, v3}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     .line 12
     .line 13
@@ -120,8 +114,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {v0}, Landroid/content/res/TypedArray;
-    ->recycle()V
+    invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
 
     .line 18
     .line 19
@@ -145,8 +138,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {v2}, Landroidx/appcompat/view/ContextThemeWrapper;
-    ->getThemeResId()I
+    invoke-virtual {v2}, Landroidx/appcompat/view/ContextThemeWrapper;->getThemeResId()I
 
     .line 30
     .line 31
@@ -185,8 +177,7 @@
 
     .line 44
     .line 45
-    invoke-direct {v2, p0, v0}, Landroidx/appcompat/view/ContextThemeWrapper;
-    -><init>(Landroid/content/Context;I)V
+    invoke-direct {v2, p0, v0}, Landroidx/appcompat/view/ContextThemeWrapper;-><init>(Landroid/content/Context;I)V
 
     .line 46
     .line 47
@@ -205,8 +196,7 @@
 
     .line 53
     .line 54
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/content/Context;
-    ->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
     .line 55
     .line 56
@@ -225,8 +215,7 @@
 
     .line 61
     .line 62
-    invoke-virtual {p3, p4, v3}, Landroid/content/res/TypedArray;
-    ->getResourceId(II)I
+    invoke-virtual {p3, p4, v3}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     .line 63
     .line 64
@@ -246,8 +235,7 @@
 
     .line 71
     :cond_2
-    invoke-virtual {p3}, Landroid/content/res/TypedArray;
-    ->recycle()V
+    invoke-virtual {p3}, Landroid/content/res/TypedArray;->recycle()V
 
     .line 72
     .line 73
@@ -273,8 +261,7 @@
 
     .line 82
     .line 83
-    invoke-direct {p4, v2, p3}, Landroidx/appcompat/view/ContextThemeWrapper;
-    -><init>(Landroid/content/Context;I)V
+    invoke-direct {p4, v2, p3}, Landroidx/appcompat/view/ContextThemeWrapper;-><init>(Landroid/content/Context;I)V
 
     .line 84
     .line 85
@@ -291,13 +278,11 @@
 
     .line 90
     :cond_5
-    sget-object p2, Lz0/a;
-    ->a:[I
+    sget-object p2, Lz0/a;->a:[I
 
     .line 91
     .line 92
-    invoke-virtual {p0, p1, p2}, Landroid/content/Context;
-    ->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
+    invoke-virtual {p0, p1, p2}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     .line 93
     .line 94
@@ -305,8 +290,7 @@
     move-result-object p0
 
     .line 96
-    invoke-virtual {p0, v3, v3}, Landroid/content/res/TypedArray;
-    ->getResourceId(II)I
+    invoke-virtual {p0, v3, v3}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     .line 97
     .line 98
@@ -314,8 +298,7 @@
     move-result p1
 
     .line 100
-    invoke-virtual {p0, v1, v3}, Landroid/content/res/TypedArray;
-    ->getResourceId(II)I
+    invoke-virtual {p0, v1, v3}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     .line 101
     .line 102
@@ -323,8 +306,7 @@
     move-result p2
 
     .line 104
-    invoke-virtual {p0}, Landroid/content/res/TypedArray;
-    ->recycle()V
+    invoke-virtual {p0}, Landroid/content/res/TypedArray;->recycle()V
 
     .line 105
     .line 106
@@ -345,8 +327,7 @@
 
     .line 112
     .line 113
-    invoke-virtual {v2}, Landroidx/appcompat/view/ContextThemeWrapper;
-    ->getTheme()Landroid/content/res/Resources$Theme;
+    invoke-virtual {v2}, Landroidx/appcompat/view/ContextThemeWrapper;->getTheme()Landroid/content/res/Resources$Theme;
 
     .line 114
     .line 115
@@ -354,8 +335,7 @@
     move-result-object p0
 
     .line 117
-    invoke-virtual {p0, p1, v1}, Landroid/content/res/Resources$Theme;
-    ->applyStyle(IZ)V
+    invoke-virtual {p0, p1, v1}, Landroid/content/res/Resources$Theme;->applyStyle(IZ)V
 
     .line 118
     .line 119

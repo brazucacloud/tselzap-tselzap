@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -53,8 +52,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Landroid/view/DisplayCutout;
-    -><init>(Landroid/graphics/Rect;Ljava/util/List;)V
+    invoke-direct {v0, p0, p1}, Landroid/view/DisplayCutout;-><init>(Landroid/graphics/Rect;Ljava/util/List;)V
 
     .line 4
     .line 5
@@ -79,8 +77,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/DisplayCutout;
-    ->getBoundingRects()Ljava/util/List;
+    invoke-virtual {p0}, Landroid/view/DisplayCutout;->getBoundingRects()Ljava/util/List;
 
     .line 2
     .line 3
@@ -96,8 +93,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/DisplayCutout;
-    ->getSafeInsetBottom()I
+    invoke-virtual {p0}, Landroid/view/DisplayCutout;->getSafeInsetBottom()I
 
     .line 2
     .line 3
@@ -113,8 +109,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/DisplayCutout;
-    ->getSafeInsetLeft()I
+    invoke-virtual {p0}, Landroid/view/DisplayCutout;->getSafeInsetLeft()I
 
     .line 2
     .line 3
@@ -130,8 +125,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/DisplayCutout;
-    ->getSafeInsetRight()I
+    invoke-virtual {p0}, Landroid/view/DisplayCutout;->getSafeInsetRight()I
 
     .line 2
     .line 3
@@ -147,8 +141,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/DisplayCutout;
-    ->getSafeInsetTop()I
+    invoke-virtual {p0}, Landroid/view/DisplayCutout;->getSafeInsetTop()I
 
     .line 2
     .line 3

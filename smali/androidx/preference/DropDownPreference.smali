@@ -24,8 +24,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-direct {p0, p1, v0}, Landroidx/preference/DropDownPreference;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Landroidx/preference/DropDownPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 return-void
 .end method
 
@@ -41,11 +40,9 @@ return-void
     .end param
 
     .line 2
-    sget v0, Landroidx/preference/R$attr;
-    ->dropdownPreferenceStyle:I
+    sget v0, Landroidx/preference/R$attr;->dropdownPreferenceStyle:I
 
-    invoke-direct {p0, p1, p2, v0}, Landroidx/preference/DropDownPreference;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Landroidx/preference/DropDownPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 return-void
 .end method
 
@@ -63,8 +60,7 @@ return-void
     const/4 v0, 0x0
 
     .line 3
-    invoke-direct {p0, p1, p2, p3, v0}, Landroidx/preference/DropDownPreference;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
+    invoke-direct {p0, p1, p2, p3, v0}, Landroidx/preference/DropDownPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 return-void
 .end method
 
@@ -80,34 +76,27 @@ return-void
     .end param
 
     .line 4
-    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/preference/ListPreference;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
+    invoke-direct {p0, p1, p2, p3, p4}, Landroidx/preference/ListPreference;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
     .line 5
     new-instance p2, Landroidx/preference/DropDownPreference$1;
 
-    invoke-direct {p2, p0}, Landroidx/preference/DropDownPreference$1;
-    -><init>(Landroidx/preference/DropDownPreference;)V
+    invoke-direct {p2, p0}, Landroidx/preference/DropDownPreference$1;-><init>(Landroidx/preference/DropDownPreference;)V
 
-    iput-object p2, p0, Landroidx/preference/DropDownPreference;
-    ->mItemSelectedListener:Landroid/widget/AdapterView$OnItemSelectedListener;
+    iput-object p2, p0, Landroidx/preference/DropDownPreference;->mItemSelectedListener:Landroid/widget/AdapterView$OnItemSelectedListener;
 
     .line 6
-    iput-object p1, p0, Landroidx/preference/DropDownPreference;
-    ->mContext:Landroid/content/Context;
+    iput-object p1, p0, Landroidx/preference/DropDownPreference;->mContext:Landroid/content/Context;
 
     .line 7
-    invoke-virtual {p0}, Landroidx/preference/DropDownPreference;
-    ->createAdapter()Landroid/widget/ArrayAdapter;
+    invoke-virtual {p0}, Landroidx/preference/DropDownPreference;->createAdapter()Landroid/widget/ArrayAdapter;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/preference/DropDownPreference;
-    ->mAdapter:Landroid/widget/ArrayAdapter;
+    iput-object p1, p0, Landroidx/preference/DropDownPreference;->mAdapter:Landroid/widget/ArrayAdapter;
 
     .line 8
-    invoke-direct {p0}, Landroidx/preference/DropDownPreference;
-    ->updateEntries()V
+    invoke-direct {p0}, Landroidx/preference/DropDownPreference;->updateEntries()V
     return-void
 .end method
 
@@ -115,8 +104,7 @@ return-void
     .locals 3
 
     .line 1
-    invoke-virtual {p0}, Landroidx/preference/ListPreference;
-    ->getEntryValues()[Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroidx/preference/ListPreference;->getEntryValues()[Ljava/lang/CharSequence;
 
     .line 2
     .line 3
@@ -148,8 +136,7 @@ return-void
 
     .line 15
     .line 16
-    invoke-interface {v2}, Ljava/lang/CharSequence;
-    ->toString()Ljava/lang/String;
+    invoke-interface {v2}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
     .line 17
     .line 18
@@ -157,8 +144,7 @@ return-void
     move-result-object v2
 
     .line 20
-    invoke-static {v2, p1}, Landroid/text/TextUtils;
-    ->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+    invoke-static {v2, p1}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
     .line 21
     .line 22
@@ -187,19 +173,16 @@ return-void
     .locals 5
 
     .line 1
-    iget-object v0, p0, Landroidx/preference/DropDownPreference;
-    ->mAdapter:Landroid/widget/ArrayAdapter;
+    iget-object v0, p0, Landroidx/preference/DropDownPreference;->mAdapter:Landroid/widget/ArrayAdapter;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/widget/ArrayAdapter;
-    ->clear()V
+    invoke-virtual {v0}, Landroid/widget/ArrayAdapter;->clear()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroidx/preference/ListPreference;
-    ->getEntries()[Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroidx/preference/ListPreference;->getEntries()[Ljava/lang/CharSequence;
 
     .line 7
     .line 8
@@ -211,8 +194,7 @@ return-void
 
     .line 11
     .line 12
-    invoke-virtual {p0}, Landroidx/preference/ListPreference;
-    ->getEntries()[Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroidx/preference/ListPreference;->getEntries()[Ljava/lang/CharSequence;
 
     .line 13
     .line 14
@@ -235,13 +217,11 @@ return-void
 
     .line 21
     .line 22
-    iget-object v4, p0, Landroidx/preference/DropDownPreference;
-    ->mAdapter:Landroid/widget/ArrayAdapter;
+    iget-object v4, p0, Landroidx/preference/DropDownPreference;->mAdapter:Landroid/widget/ArrayAdapter;
 
     .line 23
     .line 24
-    invoke-interface {v3}, Ljava/lang/CharSequence;
-    ->toString()Ljava/lang/String;
+    invoke-interface {v3}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
     .line 25
     .line 26
@@ -249,8 +229,7 @@ return-void
     move-result-object v3
 
     .line 28
-    invoke-virtual {v4, v3}, Landroid/widget/ArrayAdapter;
-    ->add(Ljava/lang/Object;)V
+    invoke-virtual {v4, v3}, Landroid/widget/ArrayAdapter;->add(Ljava/lang/Object;)V
 
     .line 29
     .line 30
@@ -278,8 +257,7 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/preference/DropDownPreference;
-    ->mContext:Landroid/content/Context;
+    iget-object v1, p0, Landroidx/preference/DropDownPreference;->mContext:Landroid/content/Context;
 
     .line 4
     .line 5
@@ -288,8 +266,7 @@ return-void
     .line 6
     .line 7
     .line 8
-    invoke-direct {v0, v1, v2}, Landroid/widget/ArrayAdapter;
-    -><init>(Landroid/content/Context;I)V
+    invoke-direct {v0, v1, v2}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;I)V
 return-object v0
 .end method
 
@@ -297,14 +274,12 @@ return-object v0
     .locals 1
 
     .line 1
-    invoke-super {p0}, Landroidx/preference/Preference;
-    ->notifyChanged()V
+    invoke-super {p0}, Landroidx/preference/Preference;->notifyChanged()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/preference/DropDownPreference;
-    ->mAdapter:Landroid/widget/ArrayAdapter;
+    iget-object v0, p0, Landroidx/preference/DropDownPreference;->mAdapter:Landroid/widget/ArrayAdapter;
 
     .line 5
     .line 6
@@ -312,8 +287,7 @@ return-object v0
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroid/widget/ArrayAdapter;
-    ->notifyDataSetChanged()V
+    invoke-virtual {v0}, Landroid/widget/ArrayAdapter;->notifyDataSetChanged()V
 
     .line 9
     .line 10
@@ -330,18 +304,15 @@ return-object v0
     .end param
 
     .line 1
-    iget-object v0, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->itemView:Landroid/view/View;
+    iget-object v0, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     .line 2
     .line 3
-    sget v1, Landroidx/preference/R$id;
-    ->spinner:I
+    sget v1, Landroidx/preference/R$id;->spinner:I
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Landroid/view/View;
-    ->findViewById(I)Landroid/view/View;
+    invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     .line 6
     .line 7
@@ -353,45 +324,37 @@ return-object v0
 
     .line 10
     .line 11
-    iput-object v0, p0, Landroidx/preference/DropDownPreference;
-    ->mSpinner:Landroid/widget/Spinner;
+    iput-object v0, p0, Landroidx/preference/DropDownPreference;->mSpinner:Landroid/widget/Spinner;
 
     .line 12
     .line 13
-    iget-object v1, p0, Landroidx/preference/DropDownPreference;
-    ->mAdapter:Landroid/widget/ArrayAdapter;
+    iget-object v1, p0, Landroidx/preference/DropDownPreference;->mAdapter:Landroid/widget/ArrayAdapter;
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Landroid/widget/Spinner;
-    ->setAdapter(Landroid/widget/SpinnerAdapter;)V
+    invoke-virtual {v0, v1}, Landroid/widget/Spinner;->setAdapter(Landroid/widget/SpinnerAdapter;)V
 
     .line 16
     .line 17
     .line 18
-    iget-object v0, p0, Landroidx/preference/DropDownPreference;
-    ->mSpinner:Landroid/widget/Spinner;
+    iget-object v0, p0, Landroidx/preference/DropDownPreference;->mSpinner:Landroid/widget/Spinner;
 
     .line 19
     .line 20
-    iget-object v1, p0, Landroidx/preference/DropDownPreference;
-    ->mItemSelectedListener:Landroid/widget/AdapterView$OnItemSelectedListener;
+    iget-object v1, p0, Landroidx/preference/DropDownPreference;->mItemSelectedListener:Landroid/widget/AdapterView$OnItemSelectedListener;
 
     .line 21
     .line 22
-    invoke-virtual {v0, v1}, Landroid/widget/AdapterView;
-    ->setOnItemSelectedListener(Landroid/widget/AdapterView$OnItemSelectedListener;)V
+    invoke-virtual {v0, v1}, Landroid/widget/AdapterView;->setOnItemSelectedListener(Landroid/widget/AdapterView$OnItemSelectedListener;)V
 
     .line 23
     .line 24
     .line 25
-    iget-object v0, p0, Landroidx/preference/DropDownPreference;
-    ->mSpinner:Landroid/widget/Spinner;
+    iget-object v0, p0, Landroidx/preference/DropDownPreference;->mSpinner:Landroid/widget/Spinner;
 
     .line 26
     .line 27
-    invoke-virtual {p0}, Landroidx/preference/ListPreference;
-    ->getValue()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/preference/ListPreference;->getValue()Ljava/lang/String;
 
     .line 28
     .line 29
@@ -399,8 +362,7 @@ return-object v0
     move-result-object v1
 
     .line 31
-    invoke-direct {p0, v1}, Landroidx/preference/DropDownPreference;
-    ->findSpinnerIndexOfValue(Ljava/lang/String;)I
+    invoke-direct {p0, v1}, Landroidx/preference/DropDownPreference;->findSpinnerIndexOfValue(Ljava/lang/String;)I
 
     .line 32
     .line 33
@@ -408,14 +370,12 @@ return-object v0
     move-result v1
 
     .line 35
-    invoke-virtual {v0, v1}, Landroid/widget/AdapterView;
-    ->setSelection(I)V
+    invoke-virtual {v0, v1}, Landroid/widget/AdapterView;->setSelection(I)V
 
     .line 36
     .line 37
     .line 38
-    invoke-super {p0, p1}, Landroidx/preference/Preference;
-    ->onBindViewHolder(Landroidx/preference/PreferenceViewHolder;)V    
+    invoke-super {p0, p1}, Landroidx/preference/Preference;->onBindViewHolder(Landroidx/preference/PreferenceViewHolder;)V
     return-void
 .end method
 
@@ -423,13 +383,11 @@ return-object v0
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/preference/DropDownPreference;
-    ->mSpinner:Landroid/widget/Spinner;
+    iget-object v0, p0, Landroidx/preference/DropDownPreference;->mSpinner:Landroid/widget/Spinner;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/widget/Spinner;
-    ->performClick()Z
+    invoke-virtual {v0}, Landroid/widget/Spinner;->performClick()Z
 return-void
 .end method
 
@@ -441,14 +399,12 @@ return-void
     .end param
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/preference/ListPreference;
-    ->setEntries([Ljava/lang/CharSequence;)V
+    invoke-super {p0, p1}, Landroidx/preference/ListPreference;->setEntries([Ljava/lang/CharSequence;)V
 
     .line 2
     .line 3
     .line 4
-    invoke-direct {p0}, Landroidx/preference/DropDownPreference;
-    ->updateEntries()V
+    invoke-direct {p0}, Landroidx/preference/DropDownPreference;->updateEntries()V
     return-void
 .end method
 
@@ -456,8 +412,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/preference/ListPreference;
-    ->getEntryValues()[Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroidx/preference/ListPreference;->getEntryValues()[Ljava/lang/CharSequence;
 
     .line 2
     .line 3
@@ -469,8 +424,7 @@ return-void
 
     .line 6
     .line 7
-    invoke-interface {p1}, Ljava/lang/CharSequence;
-    ->toString()Ljava/lang/String;
+    invoke-interface {p1}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
     .line 8
     .line 9
@@ -478,8 +432,7 @@ return-void
     move-result-object p1
 
     .line 11
-    invoke-virtual {p0, p1}, Landroidx/preference/ListPreference;
-    ->setValue(Ljava/lang/String;)V    
+    invoke-virtual {p0, p1}, Landroidx/preference/ListPreference;->setValue(Ljava/lang/String;)V
     return-void
 .end method
 

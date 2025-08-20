@@ -28,8 +28,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/transition/ViewUtilsApi19;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/transition/ViewUtilsApi19;-><init>()V
     return-void
 .end method
 
@@ -52,8 +51,7 @@
     .end annotation
 
     .line 1
-    sget-boolean v0, Landroidx/transition/ViewUtilsApi21;
-    ->sTryHiddenSetAnimationMatrix:Z
+    sget-boolean v0, Landroidx/transition/ViewUtilsApi21;->sTryHiddenSetAnimationMatrix:Z
 
     .line 2
     .line 3
@@ -62,8 +60,7 @@
     .line 4
     .line 5
     :try_start_0
-    invoke-static {p1, p2}, Landroidx/transition/ViewUtilsApi21$Api29Impl;
-    ->setAnimationMatrix(Landroid/view/View;Landroid/graphics/Matrix;)V
+    invoke-static {p1, p2}, Landroidx/transition/ViewUtilsApi21$Api29Impl;->setAnimationMatrix(Landroid/view/View;Landroid/graphics/Matrix;)V
     :try_end_0
     .catch Ljava/lang/NoSuchMethodError; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
@@ -72,8 +69,7 @@
     const/4 p1, 0x0
 
     .line 10
-    sput-boolean p1, Landroidx/transition/ViewUtilsApi21;
-    ->sTryHiddenSetAnimationMatrix:Z
+    sput-boolean p1, Landroidx/transition/ViewUtilsApi21;->sTryHiddenSetAnimationMatrix:Z
 
     .line 11
     .line 12
@@ -98,8 +94,7 @@
     .end annotation
 
     .line 1
-    sget-boolean v0, Landroidx/transition/ViewUtilsApi21;
-    ->sTryHiddenTransformMatrixToGlobal:Z
+    sget-boolean v0, Landroidx/transition/ViewUtilsApi21;->sTryHiddenTransformMatrixToGlobal:Z
 
     .line 2
     .line 3
@@ -108,8 +103,7 @@
     .line 4
     .line 5
     :try_start_0
-    invoke-static {p1, p2}, Landroidx/transition/ViewUtilsApi21$Api29Impl;
-    ->transformMatrixToGlobal(Landroid/view/View;Landroid/graphics/Matrix;)V
+    invoke-static {p1, p2}, Landroidx/transition/ViewUtilsApi21$Api29Impl;->transformMatrixToGlobal(Landroid/view/View;Landroid/graphics/Matrix;)V
     :try_end_0
     .catch Ljava/lang/NoSuchMethodError; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
@@ -118,8 +112,7 @@
     const/4 p1, 0x0
 
     .line 10
-    sput-boolean p1, Landroidx/transition/ViewUtilsApi21;
-    ->sTryHiddenTransformMatrixToGlobal:Z
+    sput-boolean p1, Landroidx/transition/ViewUtilsApi21;->sTryHiddenTransformMatrixToGlobal:Z
 
     .line 11
     .line 12
@@ -144,8 +137,7 @@
     .end annotation
 
     .line 1
-    sget-boolean v0, Landroidx/transition/ViewUtilsApi21;
-    ->sTryHiddenTransformMatrixToLocal:Z
+    sget-boolean v0, Landroidx/transition/ViewUtilsApi21;->sTryHiddenTransformMatrixToLocal:Z
 
     .line 2
     .line 3
@@ -154,8 +146,7 @@
     .line 4
     .line 5
     :try_start_0
-    invoke-static {p1, p2}, Landroidx/transition/ViewUtilsApi21$Api29Impl;
-    ->transformMatrixToLocal(Landroid/view/View;Landroid/graphics/Matrix;)V
+    invoke-static {p1, p2}, Landroidx/transition/ViewUtilsApi21$Api29Impl;->transformMatrixToLocal(Landroid/view/View;Landroid/graphics/Matrix;)V
     :try_end_0
     .catch Ljava/lang/NoSuchMethodError; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
@@ -164,8 +155,7 @@
     const/4 p1, 0x0
 
     .line 10
-    sput-boolean p1, Landroidx/transition/ViewUtilsApi21;
-    ->sTryHiddenTransformMatrixToLocal:Z
+    sput-boolean p1, Landroidx/transition/ViewUtilsApi21;->sTryHiddenTransformMatrixToLocal:Z
 
     .line 11
     .line 12

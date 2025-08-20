@@ -19,8 +19,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -44,8 +43,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lcom/google/android/gms/common/wrappers/Wrappers;
-    ->packageManager(Landroid/content/Context;)Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
+    invoke-static {p0}, Lcom/google/android/gms/common/wrappers/Wrappers;->packageManager(Landroid/content/Context;)Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
 
     .line 2
     .line 3
@@ -57,8 +55,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0, p1, v0}, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;
-    ->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
+    invoke-virtual {p0, p1, v0}, Lcom/google/android/gms/common/wrappers/PackageManagerWrapper;->getPackageInfo(Ljava/lang/String;I)Landroid/content/pm/PackageInfo;
 
     .line 8
     .line 9
@@ -66,8 +63,7 @@
     move-result-object p0
 
     .line 11
-    iget-object p1, p0, Landroid/content/pm/PackageInfo;
-    ->signatures:[Landroid/content/pm/Signature;
+    iget-object p1, p0, Landroid/content/pm/PackageInfo;->signatures:[Landroid/content/pm/Signature;
 
     .line 12
     .line 13
@@ -89,8 +85,7 @@
 
     .line 20
     .line 21
-    invoke-static {p1}, Lcom/google/android/gms/common/util/AndroidUtilsLight;
-    ->zza(Ljava/lang/String;)Ljava/security/MessageDigest;
+    invoke-static {p1}, Lcom/google/android/gms/common/util/AndroidUtilsLight;->zza(Ljava/lang/String;)Ljava/security/MessageDigest;
 
     .line 22
     .line 23
@@ -106,8 +101,7 @@
 
     .line 28
     :cond_0
-    iget-object p0, p0, Landroid/content/pm/PackageInfo;
-    ->signatures:[Landroid/content/pm/Signature;
+    iget-object p0, p0, Landroid/content/pm/PackageInfo;->signatures:[Landroid/content/pm/Signature;
 
     .line 29
     .line 30
@@ -118,8 +112,7 @@
 
     .line 32
     .line 33
-    invoke-virtual {p0}, Landroid/content/pm/Signature;
-    ->toByteArray()[B
+    invoke-virtual {p0}, Landroid/content/pm/Signature;->toByteArray()[B
 
     .line 34
     .line 35
@@ -127,8 +120,7 @@
     move-result-object p0
 
     .line 37
-    invoke-virtual {p1, p0}, Ljava/security/MessageDigest;
-    ->digest([B)[B
+    invoke-virtual {p1, p0}, Ljava/security/MessageDigest;->digest([B)[B
 
     .line 38
     .line 39
@@ -167,8 +159,7 @@
     .line 4
     .line 5
     :try_start_0
-    invoke-static {p0}, Ljava/security/MessageDigest;
-    ->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+    invoke-static {p0}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
 
     .line 6
     .line 7

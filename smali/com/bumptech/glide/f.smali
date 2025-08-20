@@ -40,14 +40,12 @@
 
     .line 8
     .line 9
-    invoke-direct {v4, v5, v3}, Ljava/lang/Enum;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v4, v5, v3}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     .line 10
     .line 11
     .line 12
-    sput-object v4, Lcom/bumptech/glide/f;
-    ->b:Lcom/bumptech/glide/f;
+    sput-object v4, Lcom/bumptech/glide/f;->b:Lcom/bumptech/glide/f;
 
     .line 13
     .line 14
@@ -59,14 +57,12 @@
 
     .line 17
     .line 18
-    invoke-direct {v5, v6, v2}, Ljava/lang/Enum;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v5, v6, v2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     .line 19
     .line 20
     .line 21
-    sput-object v5, Lcom/bumptech/glide/f;
-    ->c:Lcom/bumptech/glide/f;
+    sput-object v5, Lcom/bumptech/glide/f;->c:Lcom/bumptech/glide/f;
 
     .line 22
     .line 23
@@ -78,14 +74,12 @@
 
     .line 26
     .line 27
-    invoke-direct {v6, v7, v1}, Ljava/lang/Enum;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v6, v7, v1}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     .line 28
     .line 29
     .line 30
-    sput-object v6, Lcom/bumptech/glide/f;
-    ->d:Lcom/bumptech/glide/f;
+    sput-object v6, Lcom/bumptech/glide/f;->d:Lcom/bumptech/glide/f;
 
     .line 31
     .line 32
@@ -97,14 +91,12 @@
 
     .line 35
     .line 36
-    invoke-direct {v7, v8, v0}, Ljava/lang/Enum;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v7, v8, v0}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     .line 37
     .line 38
     .line 39
-    sput-object v7, Lcom/bumptech/glide/f;
-    ->e:Lcom/bumptech/glide/f;
+    sput-object v7, Lcom/bumptech/glide/f;->e:Lcom/bumptech/glide/f;
 
     .line 40
     .line 41
@@ -131,8 +123,7 @@
 
     .line 51
     .line 52
-    sput-object v8, Lcom/bumptech/glide/f;
-    ->f:[Lcom/bumptech/glide/f;
+    sput-object v8, Lcom/bumptech/glide/f;->f:[Lcom/bumptech/glide/f;
 
     .line 53
     .line 54
@@ -147,8 +138,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p0}, Ljava/lang/Enum;
-    ->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     .line 4
     .line 5
@@ -167,13 +157,11 @@
     .locals 1
 
     .line 1
-    sget-object v0, Lcom/bumptech/glide/f;
-    ->f:[Lcom/bumptech/glide/f;
+    sget-object v0, Lcom/bumptech/glide/f;->f:[Lcom/bumptech/glide/f;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, [Lcom/bumptech/glide/f;
-    ->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Lcom/bumptech/glide/f;->clone()Ljava/lang/Object;
 
     .line 4
     .line 5

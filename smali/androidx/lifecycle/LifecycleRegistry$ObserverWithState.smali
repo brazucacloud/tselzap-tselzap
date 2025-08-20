@@ -29,26 +29,22 @@
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    invoke-static {p1}, Lkotlin/jvm/internal/j;
-    ->c(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 10
     .line 11
     .line 12
-    invoke-static {p1}, Landroidx/lifecycle/Lifecycling;
-    ->lifecycleEventObserver(Ljava/lang/Object;)Landroidx/lifecycle/LifecycleEventObserver;
+    invoke-static {p1}, Landroidx/lifecycle/Lifecycling;->lifecycleEventObserver(Ljava/lang/Object;)Landroidx/lifecycle/LifecycleEventObserver;
 
     .line 13
     .line 14
@@ -56,13 +52,11 @@
     move-result-object p1
 
     .line 16
-    iput-object p1, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;
-    ->lifecycleObserver:Landroidx/lifecycle/LifecycleEventObserver;
+    iput-object p1, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;->lifecycleObserver:Landroidx/lifecycle/LifecycleEventObserver;
 
     .line 17
     .line 18
-    iput-object p2, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;
-    ->state:Landroidx/lifecycle/Lifecycle$State;    
+    iput-object p2, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;->state:Landroidx/lifecycle/Lifecycle$State;
     return-void
 .end method
 
@@ -76,14 +70,12 @@
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p2}, Landroidx/lifecycle/Lifecycle$Event;
-    ->getTargetState()Landroidx/lifecycle/Lifecycle$State;
+    invoke-virtual {p2}, Landroidx/lifecycle/Lifecycle$Event;->getTargetState()Landroidx/lifecycle/Lifecycle$State;
 
     .line 7
     .line 8
@@ -91,18 +83,15 @@
     move-result-object v0
 
     .line 10
-    sget-object v1, Landroidx/lifecycle/LifecycleRegistry;
-    ->Companion:Landroidx/lifecycle/LifecycleRegistry$Companion;
+    sget-object v1, Landroidx/lifecycle/LifecycleRegistry;->Companion:Landroidx/lifecycle/LifecycleRegistry$Companion;
 
     .line 11
     .line 12
-    iget-object v2, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;
-    ->state:Landroidx/lifecycle/Lifecycle$State;
+    iget-object v2, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;->state:Landroidx/lifecycle/Lifecycle$State;
 
     .line 13
     .line 14
-    invoke-virtual {v1, v2, v0}, Landroidx/lifecycle/LifecycleRegistry$Companion;
-    ->min$lifecycle_runtime_release(Landroidx/lifecycle/Lifecycle$State;Landroidx/lifecycle/Lifecycle$State;)Landroidx/lifecycle/Lifecycle$State;
+    invoke-virtual {v1, v2, v0}, Landroidx/lifecycle/LifecycleRegistry$Companion;->min$lifecycle_runtime_release(Landroidx/lifecycle/Lifecycle$State;Landroidx/lifecycle/Lifecycle$State;)Landroidx/lifecycle/Lifecycle$State;
 
     .line 15
     .line 16
@@ -110,30 +99,25 @@
     move-result-object v1
 
     .line 18
-    iput-object v1, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;
-    ->state:Landroidx/lifecycle/Lifecycle$State;
+    iput-object v1, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;->state:Landroidx/lifecycle/Lifecycle$State;
 
     .line 19
     .line 20
-    iget-object v1, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;
-    ->lifecycleObserver:Landroidx/lifecycle/LifecycleEventObserver;
+    iget-object v1, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;->lifecycleObserver:Landroidx/lifecycle/LifecycleEventObserver;
 
     .line 21
     .line 22
-    invoke-static {p1}, Lkotlin/jvm/internal/j;
-    ->c(Ljava/lang/Object;)V
+    invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 23
     .line 24
     .line 25
-    invoke-interface {v1, p1, p2}, Landroidx/lifecycle/LifecycleEventObserver;
-    ->onStateChanged(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
+    invoke-interface {v1, p1, p2}, Landroidx/lifecycle/LifecycleEventObserver;->onStateChanged(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
 
     .line 26
     .line 27
     .line 28
-    iput-object v0, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;
-    ->state:Landroidx/lifecycle/Lifecycle$State;    
+    iput-object v0, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;->state:Landroidx/lifecycle/Lifecycle$State;
     return-void
 .end method
 
@@ -141,16 +125,14 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;
-    ->lifecycleObserver:Landroidx/lifecycle/LifecycleEventObserver;    return-object v0
+    iget-object v0, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;->lifecycleObserver:Landroidx/lifecycle/LifecycleEventObserver;    return-object v0
 .end method
 
 .method public final getState()Landroidx/lifecycle/Lifecycle$State;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;
-    ->state:Landroidx/lifecycle/Lifecycle$State;    return-object v0
+    iget-object v0, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;->state:Landroidx/lifecycle/Lifecycle$State;    return-object v0
 .end method
 
 .method public final setLifecycleObserver(Landroidx/lifecycle/LifecycleEventObserver;)V
@@ -161,14 +143,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;
-    ->lifecycleObserver:Landroidx/lifecycle/LifecycleEventObserver;    
+    iput-object p1, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;->lifecycleObserver:Landroidx/lifecycle/LifecycleEventObserver;
     return-void
 .end method
 
@@ -180,14 +160,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;
-    ->state:Landroidx/lifecycle/Lifecycle$State;    
+    iput-object p1, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;->state:Landroidx/lifecycle/Lifecycle$State;
     return-void
 .end method
 

@@ -15,11 +15,9 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/emoji2/text/b;
-    ->a:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/emoji2/text/b;->a:Ljava/lang/String;
 
     return-void
 .end method
@@ -30,11 +28,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/b;
-    ->a:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/emoji2/text/b;->a:Ljava/lang/String;
 
-    invoke-static {v0, p1}, Landroidx/emoji2/text/ConcurrencyHelpers;
-    ->a(Ljava/lang/String;Ljava/lang/Runnable;)Ljava/lang/Thread;
+    invoke-static {v0, p1}, Landroidx/emoji2/text/ConcurrencyHelpers;->a(Ljava/lang/String;Ljava/lang/Runnable;)Ljava/lang/Thread;
 
     move-result-object p1
 

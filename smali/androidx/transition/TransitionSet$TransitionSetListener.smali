@@ -23,14 +23,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/transition/TransitionListenerAdapter;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/transition/TransitionListenerAdapter;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/transition/TransitionSet$TransitionSetListener;
-    ->mTransitionSet:Landroidx/transition/TransitionSet;    
+    iput-object p1, p0, Landroidx/transition/TransitionSet$TransitionSetListener;->mTransitionSet:Landroidx/transition/TransitionSet;
     return-void
 .end method
 
@@ -44,13 +42,11 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/transition/TransitionSet$TransitionSetListener;
-    ->mTransitionSet:Landroidx/transition/TransitionSet;
+    iget-object v0, p0, Landroidx/transition/TransitionSet$TransitionSetListener;->mTransitionSet:Landroidx/transition/TransitionSet;
 
     .line 2
     .line 3
-    iget v1, v0, Landroidx/transition/TransitionSet;
-    ->mCurrentListeners:I
+    iget v1, v0, Landroidx/transition/TransitionSet;->mCurrentListeners:I
 
     .line 4
     .line 5
@@ -58,8 +54,7 @@
 
     .line 6
     .line 7
-    iput v1, v0, Landroidx/transition/TransitionSet;
-    ->mCurrentListeners:I
+    iput v1, v0, Landroidx/transition/TransitionSet;->mCurrentListeners:I
 
     .line 8
     .line 9
@@ -70,20 +65,17 @@
     const/4 v1, 0x0
 
     .line 12
-    iput-boolean v1, v0, Landroidx/transition/TransitionSet;
-    ->mStarted:Z
+    iput-boolean v1, v0, Landroidx/transition/TransitionSet;->mStarted:Z
 
     .line 13
     .line 14
-    invoke-virtual {v0}, Landroidx/transition/Transition;
-    ->end()V
+    invoke-virtual {v0}, Landroidx/transition/Transition;->end()V
 
     .line 15
     .line 16
     .line 17
     :cond_0
-    invoke-virtual {p1, p0}, Landroidx/transition/Transition;
-    ->removeListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;    
+    invoke-virtual {p1, p0}, Landroidx/transition/Transition;->removeListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;
     return-void
 .end method
 
@@ -95,13 +87,11 @@
     .end param
 
     .line 1
-    iget-object p1, p0, Landroidx/transition/TransitionSet$TransitionSetListener;
-    ->mTransitionSet:Landroidx/transition/TransitionSet;
+    iget-object p1, p0, Landroidx/transition/TransitionSet$TransitionSetListener;->mTransitionSet:Landroidx/transition/TransitionSet;
 
     .line 2
     .line 3
-    iget-boolean v0, p1, Landroidx/transition/TransitionSet;
-    ->mStarted:Z
+    iget-boolean v0, p1, Landroidx/transition/TransitionSet;->mStarted:Z
 
     .line 4
     .line 5
@@ -109,22 +99,19 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Landroidx/transition/Transition;
-    ->start()V
+    invoke-virtual {p1}, Landroidx/transition/Transition;->start()V
 
     .line 8
     .line 9
     .line 10
-    iget-object p1, p0, Landroidx/transition/TransitionSet$TransitionSetListener;
-    ->mTransitionSet:Landroidx/transition/TransitionSet;
+    iget-object p1, p0, Landroidx/transition/TransitionSet$TransitionSetListener;->mTransitionSet:Landroidx/transition/TransitionSet;
 
     .line 11
     .line 12
     const/4 v0, 0x1
 
     .line 13
-    iput-boolean v0, p1, Landroidx/transition/TransitionSet;
-    ->mStarted:Z
+    iput-boolean v0, p1, Landroidx/transition/TransitionSet;->mStarted:Z
 
     .line 14
     .line 15

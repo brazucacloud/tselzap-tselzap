@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -42,8 +41,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroid/icu/util/Calendar;
-    ->getInstance(Ljava/util/Locale;)Landroid/icu/util/Calendar;
+    invoke-static {p0}, Landroid/icu/util/Calendar;->getInstance(Ljava/util/Locale;)Landroid/icu/util/Calendar;
 
     .line 2
     .line 3
@@ -51,8 +49,7 @@
     move-result-object p0
 
     .line 5
-    invoke-virtual {p0}, Landroid/icu/util/Calendar;
-    ->getType()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/icu/util/Calendar;->getType()Ljava/lang/String;
 
     .line 6
     .line 7
@@ -68,13 +65,11 @@
     .end annotation
 
     .line 1
-    sget-object v0, Ljava/util/Locale$Category;
-    ->FORMAT:Ljava/util/Locale$Category;
+    sget-object v0, Ljava/util/Locale$Category;->FORMAT:Ljava/util/Locale$Category;
 
     .line 2
     .line 3
-    invoke-static {v0}, Ljava/util/Locale;
-    ->getDefault(Ljava/util/Locale$Category;)Ljava/util/Locale;
+    invoke-static {v0}, Ljava/util/Locale;->getDefault(Ljava/util/Locale$Category;)Ljava/util/Locale;
 
     .line 4
     .line 5

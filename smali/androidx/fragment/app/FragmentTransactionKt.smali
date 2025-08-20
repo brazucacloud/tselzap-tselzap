@@ -26,12 +26,10 @@
 
     const-string p1, "<this>"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {}, Lkotlin/jvm/internal/j;
-    ->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
 
     const/4 p0, 0x0
 
@@ -55,17 +53,14 @@
 
     const-string p2, "<this>"
 
-    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p0, "tag"
 
-    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-static {}, Lkotlin/jvm/internal/j;
-    ->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
 
     const/4 p0, 0x0
 
@@ -78,12 +73,10 @@
     .line 1
     const-string p1, "<this>"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-static {}, Lkotlin/jvm/internal/j;
-    ->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
 
     const/4 p0, 0x0
 
@@ -96,17 +89,14 @@
     .line 3
     const-string p2, "<this>"
 
-    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p0, "tag"
 
-    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
-    invoke-static {}, Lkotlin/jvm/internal/j;
-    ->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
 
     const/4 p0, 0x0
 
@@ -138,14 +128,12 @@
 
     .line 2
     .line 3
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {}, Lkotlin/jvm/internal/j;
-    ->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
 
     .line 7
     .line 8
@@ -163,14 +151,12 @@
 
     .line 2
     .line 3
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {}, Lkotlin/jvm/internal/j;
-    ->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
 
     .line 7
     .line 8

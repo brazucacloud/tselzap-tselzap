@@ -15,11 +15,9 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/core/content/f;
-    ->b:Landroidx/core/content/UnusedAppRestrictionsBackportServiceConnection;
+    iput-object p1, p0, Landroidx/core/content/f;->b:Landroidx/core/content/UnusedAppRestrictionsBackportServiceConnection;
 
     return-void
 .end method
@@ -30,11 +28,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/content/f;
-    ->b:Landroidx/core/content/UnusedAppRestrictionsBackportServiceConnection;
+    iget-object v0, p0, Landroidx/core/content/f;->b:Landroidx/core/content/UnusedAppRestrictionsBackportServiceConnection;
 
-    invoke-virtual {v0}, Landroidx/core/content/UnusedAppRestrictionsBackportServiceConnection;
-    ->disconnectFromService()V
+    invoke-virtual {v0}, Landroidx/core/content/UnusedAppRestrictionsBackportServiceConnection;->disconnectFromService()V
     return-void
 .end method
 

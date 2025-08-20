@@ -12,13 +12,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zabc;
-    ->zaa:Lcom/google/android/gms/common/api/internal/zabe;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zabc;->zaa:Lcom/google/android/gms/common/api/internal/zabe;
 
     .line 2
     .line 3
-    invoke-direct {p0, p2}, Lcom/google/android/gms/internal/base/zau;
-    -><init>(Landroid/os/Looper;)V
+    invoke-direct {p0, p2}, Lcom/google/android/gms/internal/base/zau;-><init>(Landroid/os/Looper;)V
 
     .line 4
     .line 5
@@ -32,8 +30,7 @@
     .locals 2
 
     .line 1
-    iget p1, p1, Landroid/os/Message;
-    ->what:I
+    iget p1, p1, Landroid/os/Message;->what:I
 
     .line 2
     .line 3
@@ -59,20 +56,17 @@
 
     .line 12
     .line 13
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 17
     .line 18
     .line 19
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 20
     .line 21
@@ -84,8 +78,7 @@
 
     .line 24
     .line 25
-    invoke-static {v0, p1}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 26
     .line 27
@@ -94,13 +87,11 @@
 
     .line 29
     :cond_0
-    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/zabc;
-    ->zaa:Lcom/google/android/gms/common/api/internal/zabe;
+    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/zabc;->zaa:Lcom/google/android/gms/common/api/internal/zabe;
 
     .line 30
     .line 31
-    invoke-static {p1}, Lcom/google/android/gms/common/api/internal/zabe;
-    ->zai(Lcom/google/android/gms/common/api/internal/zabe;)V
+    invoke-static {p1}, Lcom/google/android/gms/common/api/internal/zabe;->zai(Lcom/google/android/gms/common/api/internal/zabe;)V
 
     .line 32
     .line 33
@@ -109,13 +100,11 @@
 
     .line 35
     :cond_1
-    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/zabc;
-    ->zaa:Lcom/google/android/gms/common/api/internal/zabe;
+    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/zabc;->zaa:Lcom/google/android/gms/common/api/internal/zabe;
 
     .line 36
     .line 37
-    invoke-static {p1}, Lcom/google/android/gms/common/api/internal/zabe;
-    ->zaj(Lcom/google/android/gms/common/api/internal/zabe;)V
+    invoke-static {p1}, Lcom/google/android/gms/common/api/internal/zabe;->zaj(Lcom/google/android/gms/common/api/internal/zabe;)V
 
     .line 38
     .line 39

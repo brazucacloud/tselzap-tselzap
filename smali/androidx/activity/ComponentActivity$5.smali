@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/activity/ComponentActivity;
-    ->getOnBackPressedDispatcher()Landroidx/activity/OnBackPressedDispatcher;
+    value = Landroidx/activity/ComponentActivity;->getOnBackPressedDispatcher()Landroidx/activity/OnBackPressedDispatcher;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/activity/ComponentActivity$5;
-    ->this$0:Landroidx/activity/ComponentActivity;
+    iput-object p1, p0, Landroidx/activity/ComponentActivity$5;->this$0:Landroidx/activity/ComponentActivity;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -44,13 +41,11 @@
 
     .line 1
     :try_start_0
-    iget-object v0, p0, Landroidx/activity/ComponentActivity$5;
-    ->this$0:Landroidx/activity/ComponentActivity;
+    iget-object v0, p0, Landroidx/activity/ComponentActivity$5;->this$0:Landroidx/activity/ComponentActivity;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/activity/ComponentActivity;
-    ->access$001(Landroidx/activity/ComponentActivity;)V
+    invoke-static {v0}, Landroidx/activity/ComponentActivity;->access$001(Landroidx/activity/ComponentActivity;)V
     :try_end_0
     .catch Ljava/lang/IllegalStateException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/NullPointerException; {:try_start_0 .. :try_end_0} :catch_0    return-void
@@ -71,8 +66,7 @@
 
     .line 11
     :goto_0
-    invoke-virtual {v0}, Ljava/lang/Throwable;
-    ->getMessage()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     .line 12
     .line 13
@@ -84,8 +78,7 @@
 
     .line 16
     .line 17
-    invoke-static {v1, v2}, Landroid/text/TextUtils;
-    ->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+    invoke-static {v1, v2}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
     .line 18
     .line 19
@@ -105,8 +98,7 @@
 
     .line 25
     :goto_1
-    invoke-virtual {v0}, Ljava/lang/Throwable;
-    ->getMessage()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     .line 26
     .line 27
@@ -118,8 +110,7 @@
 
     .line 30
     .line 31
-    invoke-static {v1, v2}, Landroid/text/TextUtils;
-    ->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+    invoke-static {v1, v2}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
     .line 32
     .line 33

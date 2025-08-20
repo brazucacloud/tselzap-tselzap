@@ -22,8 +22,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1, v2, v3}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v0, v1, v2, v3}, Ljava/lang/Math;->pow(DD)D
 
     .line 6
     .line 7
@@ -38,8 +37,7 @@
     div-double/2addr v2, v0
 
     .line 12
-    sput-wide v2, LE/i;
-    ->a:D
+    sput-wide v2, LE/i;->a:D
 
     .line 13
     .line 14
@@ -50,8 +48,7 @@
     .locals 2
 
     .line 1
-    invoke-static {}, Landroid/os/SystemClock;
-    ->elapsedRealtimeNanos()J
+    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtimeNanos()J
 
     .line 2
     .line 3
@@ -65,8 +62,7 @@
     long-to-double p0, v0
 
     .line 7
-    sget-wide v0, LE/i;
-    ->a:D
+    sget-wide v0, LE/i;->a:D
 
     .line 8
     .line 9

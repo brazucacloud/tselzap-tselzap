@@ -64,14 +64,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/core/app/NotificationCompatJellybean;
-    ->sExtrasLock:Ljava/lang/Object;
+    sput-object v0, Landroidx/core/app/NotificationCompatJellybean;->sExtrasLock:Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -79,14 +77,12 @@
 
     .line 9
     .line 10
-    invoke-direct {v0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     .line 11
     .line 12
     .line 13
-    sput-object v0, Landroidx/core/app/NotificationCompatJellybean;
-    ->sActionsLock:Ljava/lang/Object;
+    sput-object v0, Landroidx/core/app/NotificationCompatJellybean;->sActionsLock:Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -97,8 +93,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -121,8 +116,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {p0}, Ljava/util/List;->size()I
 
     .line 2
     .line 3
@@ -141,8 +135,7 @@
 
     .line 8
     .line 9
-    invoke-interface {p0, v2}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {p0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -166,15 +159,13 @@
 
     .line 20
     .line 21
-    invoke-direct {v1}, Landroid/util/SparseArray;
-    -><init>()V
+    invoke-direct {v1}, Landroid/util/SparseArray;-><init>()V
 
     .line 22
     .line 23
     .line 24
     :cond_0
-    invoke-virtual {v1, v2, v3}, Landroid/util/SparseArray;
-    ->put(ILjava/lang/Object;)V
+    invoke-virtual {v1, v2, v3}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 25
     .line 26
@@ -203,8 +194,7 @@
 
     .line 4
     .line 5
-    sget-boolean v2, Landroidx/core/app/NotificationCompatJellybean;
-    ->sActionsAccessFailed:Z
+    sget-boolean v2, Landroidx/core/app/NotificationCompatJellybean;->sActionsAccessFailed:Z
 
     .line 6
     .line 7
@@ -222,8 +212,7 @@
 
     .line 12
     :try_start_0
-    sget-object v3, Landroidx/core/app/NotificationCompatJellybean;
-    ->sActionsField:Ljava/lang/reflect/Field;
+    sget-object v3, Landroidx/core/app/NotificationCompatJellybean;->sActionsField:Ljava/lang/reflect/Field;
 
     .line 13
     .line 14
@@ -235,8 +224,7 @@
 
     .line 17
     .line 18
-    invoke-static {v3}, Ljava/lang/Class;
-    ->forName(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v3}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 19
     .line 20
@@ -248,8 +236,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {v3, v4}, Ljava/lang/Class;
-    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v3, v4}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 25
     .line 26
@@ -257,8 +244,7 @@
     move-result-object v4
 
     .line 28
-    sput-object v4, Landroidx/core/app/NotificationCompatJellybean;
-    ->sActionIconField:Ljava/lang/reflect/Field;
+    sput-object v4, Landroidx/core/app/NotificationCompatJellybean;->sActionIconField:Ljava/lang/reflect/Field;
 
     .line 29
     .line 30
@@ -266,8 +252,7 @@
 
     .line 31
     .line 32
-    invoke-virtual {v3, v4}, Ljava/lang/Class;
-    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v3, v4}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 33
     .line 34
@@ -275,8 +260,7 @@
     move-result-object v4
 
     .line 36
-    sput-object v4, Landroidx/core/app/NotificationCompatJellybean;
-    ->sActionTitleField:Ljava/lang/reflect/Field;
+    sput-object v4, Landroidx/core/app/NotificationCompatJellybean;->sActionTitleField:Ljava/lang/reflect/Field;
 
     .line 37
     .line 38
@@ -284,8 +268,7 @@
 
     .line 39
     .line 40
-    invoke-virtual {v3, v4}, Ljava/lang/Class;
-    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v3, v4}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 41
     .line 42
@@ -293,8 +276,7 @@
     move-result-object v3
 
     .line 44
-    sput-object v3, Landroidx/core/app/NotificationCompatJellybean;
-    ->sActionIntentField:Ljava/lang/reflect/Field;
+    sput-object v3, Landroidx/core/app/NotificationCompatJellybean;->sActionIntentField:Ljava/lang/reflect/Field;
 
     .line 45
     .line 46
@@ -306,8 +288,7 @@
 
     .line 49
     .line 50
-    invoke-virtual {v3, v4}, Ljava/lang/Class;
-    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v3, v4}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 51
     .line 52
@@ -315,13 +296,11 @@
     move-result-object v3
 
     .line 54
-    sput-object v3, Landroidx/core/app/NotificationCompatJellybean;
-    ->sActionsField:Ljava/lang/reflect/Field;
+    sput-object v3, Landroidx/core/app/NotificationCompatJellybean;->sActionsField:Ljava/lang/reflect/Field;
 
     .line 55
     .line 56
-    invoke-virtual {v3, v2}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v3, v2}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
     :try_end_0
     .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/NoSuchFieldException; {:try_start_0 .. :try_end_0} :catch_0
@@ -347,14 +326,12 @@
 
     .line 64
     :goto_0
-    invoke-static {v1, v0, v3}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v0, v3}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 65
     .line 66
     .line 67
-    sput-boolean v2, Landroidx/core/app/NotificationCompatJellybean;
-    ->sActionsAccessFailed:Z
+    sput-boolean v2, Landroidx/core/app/NotificationCompatJellybean;->sActionsAccessFailed:Z
 
     .line 68
     .line 69
@@ -362,21 +339,18 @@
 
     .line 70
     :goto_1
-    invoke-static {v1, v0, v3}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v0, v3}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 71
     .line 72
     .line 73
-    sput-boolean v2, Landroidx/core/app/NotificationCompatJellybean;
-    ->sActionsAccessFailed:Z
+    sput-boolean v2, Landroidx/core/app/NotificationCompatJellybean;->sActionsAccessFailed:Z
 
     .line 74
     .line 75
     :cond_1
     :goto_2
-    sget-boolean v0, Landroidx/core/app/NotificationCompatJellybean;
-    ->sActionsAccessFailed:Z
+    sget-boolean v0, Landroidx/core/app/NotificationCompatJellybean;->sActionsAccessFailed:Z
 
     .line 76
     .line 77
@@ -393,8 +367,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Landroid/os/Bundle;
-    ->getStringArrayList(Ljava/lang/String;)Ljava/util/ArrayList;
+    invoke-virtual {p0, v0}, Landroid/os/Bundle;->getStringArrayList(Ljava/lang/String;)Ljava/util/ArrayList;
 
     .line 4
     .line 5
@@ -406,8 +379,7 @@
 
     .line 8
     .line 9
-    invoke-direct {v8}, Ljava/util/HashSet;
-    -><init>()V
+    invoke-direct {v8}, Ljava/util/HashSet;-><init>()V
 
     .line 10
     .line 11
@@ -416,8 +388,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {v0}, Ljava/util/ArrayList;
-    ->iterator()Ljava/util/Iterator;
+    invoke-virtual {v0}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     .line 15
     .line 16
@@ -426,8 +397,7 @@
 
     .line 18
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 19
     .line 20
@@ -439,8 +409,7 @@
 
     .line 23
     .line 24
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 25
     .line 26
@@ -452,8 +421,7 @@
 
     .line 29
     .line 30
-    invoke-virtual {v8, v1}, Ljava/util/HashSet;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v8, v1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
     .line 31
     .line 32
@@ -470,8 +438,7 @@
 
     .line 37
     .line 38
-    invoke-virtual {p0, v0}, Landroid/os/BaseBundle;
-    ->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     .line 39
     .line 40
@@ -483,8 +450,7 @@
 
     .line 43
     .line 44
-    invoke-virtual {p0, v0}, Landroid/os/Bundle;
-    ->getCharSequence(Ljava/lang/String;)Ljava/lang/CharSequence;
+    invoke-virtual {p0, v0}, Landroid/os/Bundle;->getCharSequence(Ljava/lang/String;)Ljava/lang/CharSequence;
 
     .line 45
     .line 46
@@ -496,8 +462,7 @@
 
     .line 49
     .line 50
-    invoke-virtual {p0, v0}, Landroid/os/Bundle;
-    ->getCharSequenceArray(Ljava/lang/String;)[Ljava/lang/CharSequence;
+    invoke-virtual {p0, v0}, Landroid/os/Bundle;->getCharSequenceArray(Ljava/lang/String;)[Ljava/lang/CharSequence;
 
     .line 51
     .line 52
@@ -509,8 +474,7 @@
 
     .line 55
     .line 56
-    invoke-virtual {p0, v0}, Landroid/os/Bundle;
-    ->getBoolean(Ljava/lang/String;)Z
+    invoke-virtual {p0, v0}, Landroid/os/Bundle;->getBoolean(Ljava/lang/String;)Z
 
     .line 57
     .line 58
@@ -522,8 +486,7 @@
 
     .line 61
     .line 62
-    invoke-virtual {p0, v0}, Landroid/os/Bundle;
-    ->getBundle(Ljava/lang/String;)Landroid/os/Bundle;
+    invoke-virtual {p0, v0}, Landroid/os/Bundle;->getBundle(Ljava/lang/String;)Landroid/os/Bundle;
 
     .line 63
     .line 64
@@ -534,8 +497,7 @@
     const/4 v6, 0x0
 
     .line 67
-    invoke-direct/range {v1 .. v8}, Landroidx/core/app/RemoteInput;
-    -><init>(Ljava/lang/String;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;ZILandroid/os/Bundle;Ljava/util/Set;)V
+    invoke-direct/range {v1 .. v8}, Landroidx/core/app/RemoteInput;-><init>(Ljava/lang/String;Ljava/lang/CharSequence;[Ljava/lang/CharSequence;ZILandroid/os/Bundle;Ljava/util/Set;)V
 
     .line 68
     .line 69
@@ -579,8 +541,7 @@
 
     .line 13
     .line 14
-    invoke-static {v2}, Landroidx/core/app/NotificationCompatJellybean;
-    ->fromBundle(Landroid/os/Bundle;)Landroidx/core/app/RemoteInput;
+    invoke-static {v2}, Landroidx/core/app/NotificationCompatJellybean;->fromBundle(Landroid/os/Bundle;)Landroidx/core/app/RemoteInput;
 
     .line 15
     .line 16
@@ -607,8 +568,7 @@
     .locals 5
 
     .line 1
-    sget-object v0, Landroidx/core/app/NotificationCompatJellybean;
-    ->sActionsLock:Ljava/lang/Object;
+    sget-object v0, Landroidx/core/app/NotificationCompatJellybean;->sActionsLock:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -619,8 +579,7 @@
 
     .line 5
     :try_start_0
-    invoke-static {p0}, Landroidx/core/app/NotificationCompatJellybean;
-    ->getActionObjectsLocked(Landroid/app/Notification;)[Ljava/lang/Object;
+    invoke-static {p0}, Landroidx/core/app/NotificationCompatJellybean;->getActionObjectsLocked(Landroid/app/Notification;)[Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -636,8 +595,7 @@
 
     .line 12
     .line 13
-    invoke-static {p0}, Landroidx/core/app/NotificationCompatJellybean;
-    ->getExtras(Landroid/app/Notification;)Landroid/os/Bundle;
+    invoke-static {p0}, Landroidx/core/app/NotificationCompatJellybean;->getExtras(Landroid/app/Notification;)Landroid/os/Bundle;
 
     .line 14
     .line 15
@@ -653,8 +611,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {p0, v3}, Landroid/os/Bundle;
-    ->getSparseParcelableArray(Ljava/lang/String;)Landroid/util/SparseArray;
+    invoke-virtual {p0, v3}, Landroid/os/Bundle;->getSparseParcelableArray(Ljava/lang/String;)Landroid/util/SparseArray;
 
     .line 22
     .line 23
@@ -666,8 +623,7 @@
 
     .line 26
     .line 27
-    invoke-virtual {p0, p1}, Landroid/util/SparseArray;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -701,13 +657,11 @@
 
     .line 39
     :goto_0
-    sget-object p1, Landroidx/core/app/NotificationCompatJellybean;
-    ->sActionIconField:Ljava/lang/reflect/Field;
+    sget-object p1, Landroidx/core/app/NotificationCompatJellybean;->sActionIconField:Ljava/lang/reflect/Field;
 
     .line 40
     .line 41
-    invoke-virtual {p1, v2}, Ljava/lang/reflect/Field;
-    ->getInt(Ljava/lang/Object;)I
+    invoke-virtual {p1, v2}, Ljava/lang/reflect/Field;->getInt(Ljava/lang/Object;)I
 
     .line 42
     .line 43
@@ -715,13 +669,11 @@
     move-result p1
 
     .line 45
-    sget-object v3, Landroidx/core/app/NotificationCompatJellybean;
-    ->sActionTitleField:Ljava/lang/reflect/Field;
+    sget-object v3, Landroidx/core/app/NotificationCompatJellybean;->sActionTitleField:Ljava/lang/reflect/Field;
 
     .line 46
     .line 47
-    invoke-virtual {v3, v2}, Ljava/lang/reflect/Field;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, v2}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 48
     .line 49
@@ -733,13 +685,11 @@
 
     .line 52
     .line 53
-    sget-object v4, Landroidx/core/app/NotificationCompatJellybean;
-    ->sActionIntentField:Ljava/lang/reflect/Field;
+    sget-object v4, Landroidx/core/app/NotificationCompatJellybean;->sActionIntentField:Ljava/lang/reflect/Field;
 
     .line 54
     .line 55
-    invoke-virtual {v4, v2}, Ljava/lang/reflect/Field;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v4, v2}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 56
     .line 57
@@ -751,8 +701,7 @@
 
     .line 60
     .line 61
-    invoke-static {p1, v3, v2, p0}, Landroidx/core/app/NotificationCompatJellybean;
-    ->readAction(ILjava/lang/CharSequence;Landroid/app/PendingIntent;Landroid/os/Bundle;)Landroidx/core/app/NotificationCompat$Action;
+    invoke-static {p1, v3, v2, p0}, Landroidx/core/app/NotificationCompatJellybean;->readAction(ILjava/lang/CharSequence;Landroid/app/PendingIntent;Landroid/os/Bundle;)Landroidx/core/app/NotificationCompat$Action;
 
     .line 62
     .line 63
@@ -778,8 +727,7 @@
 
     .line 70
     .line 71
-    invoke-static {p1, v2, p0}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {p1, v2, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 72
     .line 73
@@ -787,8 +735,7 @@
     const/4 p0, 0x1
 
     .line 75
-    sput-boolean p0, Landroidx/core/app/NotificationCompatJellybean;
-    ->sActionsAccessFailed:Z
+    sput-boolean p0, Landroidx/core/app/NotificationCompatJellybean;->sActionsAccessFailed:Z
 
     .line 76
     .line 77
@@ -969,8 +916,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/core/app/NotificationCompatJellybean;
-    ->sActionsLock:Ljava/lang/Object;
+    sget-object v0, Landroidx/core/app/NotificationCompatJellybean;->sActionsLock:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -978,8 +924,7 @@
 
     .line 4
     :try_start_0
-    invoke-static {p0}, Landroidx/core/app/NotificationCompatJellybean;
-    ->getActionObjectsLocked(Landroid/app/Notification;)[Ljava/lang/Object;
+    invoke-static {p0}, Landroidx/core/app/NotificationCompatJellybean;->getActionObjectsLocked(Landroid/app/Notification;)[Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -1040,8 +985,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Landroid/os/Bundle;
-    ->getBundle(Ljava/lang/String;)Landroid/os/Bundle;
+    invoke-virtual {p0, v0}, Landroid/os/Bundle;->getBundle(Ljava/lang/String;)Landroid/os/Bundle;
 
     .line 4
     .line 5
@@ -1060,8 +1004,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {v1, v3, v2}, Landroid/os/Bundle;
-    ->getBoolean(Ljava/lang/String;Z)Z
+    invoke-virtual {v1, v3, v2}, Landroid/os/Bundle;->getBoolean(Ljava/lang/String;Z)Z
 
     .line 13
     .line 14
@@ -1088,8 +1031,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {p0, v1}, Landroid/os/BaseBundle;
-    ->getInt(Ljava/lang/String;)I
+    invoke-virtual {p0, v1}, Landroid/os/BaseBundle;->getInt(Ljava/lang/String;)I
 
     .line 24
     .line 25
@@ -1101,8 +1043,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {p0, v1}, Landroid/os/Bundle;
-    ->getCharSequence(Ljava/lang/String;)Ljava/lang/CharSequence;
+    invoke-virtual {p0, v1}, Landroid/os/Bundle;->getCharSequence(Ljava/lang/String;)Ljava/lang/CharSequence;
 
     .line 30
     .line 31
@@ -1114,8 +1055,7 @@
 
     .line 34
     .line 35
-    invoke-virtual {p0, v1}, Landroid/os/Bundle;
-    ->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
+    invoke-virtual {p0, v1}, Landroid/os/Bundle;->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
 
     .line 36
     .line 37
@@ -1130,8 +1070,7 @@
 
     .line 41
     .line 42
-    invoke-virtual {p0, v0}, Landroid/os/Bundle;
-    ->getBundle(Ljava/lang/String;)Landroid/os/Bundle;
+    invoke-virtual {p0, v0}, Landroid/os/Bundle;->getBundle(Ljava/lang/String;)Landroid/os/Bundle;
 
     .line 43
     .line 44
@@ -1143,8 +1082,7 @@
 
     .line 47
     .line 48
-    invoke-static {p0, v0}, Landroidx/core/app/NotificationCompatJellybean;
-    ->getBundleArrayFromBundle(Landroid/os/Bundle;Ljava/lang/String;)[Landroid/os/Bundle;
+    invoke-static {p0, v0}, Landroidx/core/app/NotificationCompatJellybean;->getBundleArrayFromBundle(Landroid/os/Bundle;Ljava/lang/String;)[Landroid/os/Bundle;
 
     .line 49
     .line 50
@@ -1152,8 +1090,7 @@
     move-result-object v0
 
     .line 52
-    invoke-static {v0}, Landroidx/core/app/NotificationCompatJellybean;
-    ->fromBundleArray([Landroid/os/Bundle;)[Landroidx/core/app/RemoteInput;
+    invoke-static {v0}, Landroidx/core/app/NotificationCompatJellybean;->fromBundleArray([Landroid/os/Bundle;)[Landroidx/core/app/RemoteInput;
 
     .line 53
     .line 54
@@ -1165,8 +1102,7 @@
 
     .line 57
     .line 58
-    invoke-static {p0, v0}, Landroidx/core/app/NotificationCompatJellybean;
-    ->getBundleArrayFromBundle(Landroid/os/Bundle;Ljava/lang/String;)[Landroid/os/Bundle;
+    invoke-static {p0, v0}, Landroidx/core/app/NotificationCompatJellybean;->getBundleArrayFromBundle(Landroid/os/Bundle;Ljava/lang/String;)[Landroid/os/Bundle;
 
     .line 59
     .line 60
@@ -1174,8 +1110,7 @@
     move-result-object v0
 
     .line 62
-    invoke-static {v0}, Landroidx/core/app/NotificationCompatJellybean;
-    ->fromBundleArray([Landroid/os/Bundle;)[Landroidx/core/app/RemoteInput;
+    invoke-static {v0}, Landroidx/core/app/NotificationCompatJellybean;->fromBundleArray([Landroid/os/Bundle;)[Landroidx/core/app/RemoteInput;
 
     .line 63
     .line 64
@@ -1187,8 +1122,7 @@
 
     .line 67
     .line 68
-    invoke-virtual {p0, v0}, Landroid/os/BaseBundle;
-    ->getInt(Ljava/lang/String;)I
+    invoke-virtual {p0, v0}, Landroid/os/BaseBundle;->getInt(Ljava/lang/String;)I
 
     .line 69
     .line 70
@@ -1200,8 +1134,7 @@
 
     .line 73
     .line 74
-    invoke-virtual {p0, v0}, Landroid/os/Bundle;
-    ->getBoolean(Ljava/lang/String;)Z
+    invoke-virtual {p0, v0}, Landroid/os/Bundle;->getBoolean(Ljava/lang/String;)Z
 
     .line 75
     .line 76
@@ -1215,8 +1148,7 @@
     const/4 v14, 0x0
 
     .line 80
-    invoke-direct/range {v3 .. v14}, Landroidx/core/app/NotificationCompat$Action;
-    -><init>(ILjava/lang/CharSequence;Landroid/app/PendingIntent;Landroid/os/Bundle;[Landroidx/core/app/RemoteInput;[Landroidx/core/app/RemoteInput;ZIZZZ)V
+    invoke-direct/range {v3 .. v14}, Landroidx/core/app/NotificationCompat$Action;-><init>(ILjava/lang/CharSequence;Landroid/app/PendingIntent;Landroid/os/Bundle;[Landroidx/core/app/RemoteInput;[Landroidx/core/app/RemoteInput;ZIZZZ)V
 
     .line 81
     .line 82
@@ -1228,8 +1160,7 @@
     .locals 4
 
     .line 1
-    sget-object v0, Landroidx/core/app/NotificationCompatJellybean;
-    ->sActionsLock:Ljava/lang/Object;
+    sget-object v0, Landroidx/core/app/NotificationCompatJellybean;->sActionsLock:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -1237,8 +1168,7 @@
 
     .line 4
     :try_start_0
-    invoke-static {}, Landroidx/core/app/NotificationCompatJellybean;
-    ->ensureActionReflectionReadyLocked()Z
+    invoke-static {}, Landroidx/core/app/NotificationCompatJellybean;->ensureActionReflectionReadyLocked()Z
 
     .line 5
     .line 6
@@ -1269,13 +1199,11 @@
     .line 15
     :cond_0
     :try_start_1
-    sget-object v1, Landroidx/core/app/NotificationCompatJellybean;
-    ->sActionsField:Ljava/lang/reflect/Field;
+    sget-object v1, Landroidx/core/app/NotificationCompatJellybean;->sActionsField:Ljava/lang/reflect/Field;
 
     .line 16
     .line 17
-    invoke-virtual {v1, p0}, Ljava/lang/reflect/Field;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -1308,8 +1236,7 @@
 
     .line 29
     .line 30
-    invoke-static {v1, v3, p0}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v3, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 31
     .line 32
@@ -1317,8 +1244,7 @@
     const/4 p0, 0x1
 
     .line 34
-    sput-boolean p0, Landroidx/core/app/NotificationCompatJellybean;
-    ->sActionsAccessFailed:Z
+    sput-boolean p0, Landroidx/core/app/NotificationCompatJellybean;->sActionsAccessFailed:Z
 
     .line 35
     .line 36
@@ -1385,8 +1311,7 @@
     .locals 3
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/os/Bundle;
-    ->getParcelableArray(Ljava/lang/String;)[Landroid/os/Parcelable;
+    invoke-virtual {p0, p1}, Landroid/os/Bundle;->getParcelableArray(Ljava/lang/String;)[Landroid/os/Parcelable;
 
     .line 2
     .line 3
@@ -1417,8 +1342,7 @@
 
     .line 14
     .line 15
-    invoke-static {v0, v1, v2}, Ljava/util/Arrays;
-    ->copyOf([Ljava/lang/Object;ILjava/lang/Class;)[Ljava/lang/Object;
+    invoke-static {v0, v1, v2}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;ILjava/lang/Class;)[Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -1430,8 +1354,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {p0, p1, v0}, Landroid/os/Bundle;
-    ->putParcelableArray(Ljava/lang/String;[Landroid/os/Parcelable;)V
+    invoke-virtual {p0, p1, v0}, Landroid/os/Bundle;->putParcelableArray(Ljava/lang/String;[Landroid/os/Parcelable;)V
 
     .line 22
     .line 23
@@ -1456,14 +1379,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/os/Bundle;
-    -><init>()V
+    invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;
-    ->getIconCompat()Landroidx/core/graphics/drawable/IconCompat;
+    invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;->getIconCompat()Landroidx/core/graphics/drawable/IconCompat;
 
     .line 7
     .line 8
@@ -1475,8 +1396,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {v1}, Landroidx/core/graphics/drawable/IconCompat;
-    ->getResId()I
+    invoke-virtual {v1}, Landroidx/core/graphics/drawable/IconCompat;->getResId()I
 
     .line 13
     .line 14
@@ -1496,8 +1416,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {v0, v2, v1}, Landroid/os/BaseBundle;
-    ->putInt(Ljava/lang/String;I)V
+    invoke-virtual {v0, v2, v1}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
 
     .line 21
     .line 22
@@ -1506,8 +1425,7 @@
 
     .line 24
     .line 25
-    invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;
-    ->getTitle()Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;->getTitle()Ljava/lang/CharSequence;
 
     .line 26
     .line 27
@@ -1515,8 +1433,7 @@
     move-result-object v2
 
     .line 29
-    invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;
-    ->putCharSequence(Ljava/lang/String;Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;->putCharSequence(Ljava/lang/String;Ljava/lang/CharSequence;)V
 
     .line 30
     .line 31
@@ -1525,8 +1442,7 @@
 
     .line 33
     .line 34
-    invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;
-    ->getActionIntent()Landroid/app/PendingIntent;
+    invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;->getActionIntent()Landroid/app/PendingIntent;
 
     .line 35
     .line 36
@@ -1534,14 +1450,12 @@
     move-result-object v2
 
     .line 38
-    invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;
-    ->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
+    invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
 
     .line 39
     .line 40
     .line 41
-    invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;
-    ->getExtras()Landroid/os/Bundle;
+    invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;->getExtras()Landroid/os/Bundle;
 
     .line 42
     .line 43
@@ -1557,8 +1471,7 @@
 
     .line 48
     .line 49
-    invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;
-    ->getExtras()Landroid/os/Bundle;
+    invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;->getExtras()Landroid/os/Bundle;
 
     .line 50
     .line 51
@@ -1566,8 +1479,7 @@
     move-result-object v2
 
     .line 53
-    invoke-direct {v1, v2}, Landroid/os/Bundle;
-    -><init>(Landroid/os/Bundle;)V
+    invoke-direct {v1, v2}, Landroid/os/Bundle;-><init>(Landroid/os/Bundle;)V
 
     .line 54
     .line 55
@@ -1580,8 +1492,7 @@
 
     .line 58
     .line 59
-    invoke-direct {v1}, Landroid/os/Bundle;
-    -><init>()V
+    invoke-direct {v1}, Landroid/os/Bundle;-><init>()V
 
     .line 60
     .line 61
@@ -1591,8 +1502,7 @@
 
     .line 63
     .line 64
-    invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;
-    ->getAllowGeneratedReplies()Z
+    invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;->getAllowGeneratedReplies()Z
 
     .line 65
     .line 66
@@ -1600,8 +1510,7 @@
     move-result v3
 
     .line 68
-    invoke-virtual {v1, v2, v3}, Landroid/os/Bundle;
-    ->putBoolean(Ljava/lang/String;Z)V
+    invoke-virtual {v1, v2, v3}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
     .line 69
     .line 70
@@ -1610,14 +1519,12 @@
 
     .line 72
     .line 73
-    invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;
-    ->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
+    invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
 
     .line 74
     .line 75
     .line 76
-    invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;
-    ->getRemoteInputs()[Landroidx/core/app/RemoteInput;
+    invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;->getRemoteInputs()[Landroidx/core/app/RemoteInput;
 
     .line 77
     .line 78
@@ -1625,8 +1532,7 @@
     move-result-object v1
 
     .line 80
-    invoke-static {v1}, Landroidx/core/app/NotificationCompatJellybean;
-    ->toBundleArray([Landroidx/core/app/RemoteInput;)[Landroid/os/Bundle;
+    invoke-static {v1}, Landroidx/core/app/NotificationCompatJellybean;->toBundleArray([Landroidx/core/app/RemoteInput;)[Landroid/os/Bundle;
 
     .line 81
     .line 82
@@ -1638,8 +1544,7 @@
 
     .line 85
     .line 86
-    invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;
-    ->putParcelableArray(Ljava/lang/String;[Landroid/os/Parcelable;)V
+    invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putParcelableArray(Ljava/lang/String;[Landroid/os/Parcelable;)V
 
     .line 87
     .line 88
@@ -1648,8 +1553,7 @@
 
     .line 90
     .line 91
-    invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;
-    ->getShowsUserInterface()Z
+    invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;->getShowsUserInterface()Z
 
     .line 92
     .line 93
@@ -1657,8 +1561,7 @@
     move-result v2
 
     .line 95
-    invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;
-    ->putBoolean(Ljava/lang/String;Z)V
+    invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
     .line 96
     .line 97
@@ -1667,8 +1570,7 @@
 
     .line 99
     .line 100
-    invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;
-    ->getSemanticAction()I
+    invoke-virtual {p0}, Landroidx/core/app/NotificationCompat$Action;->getSemanticAction()I
 
     .line 101
     .line 102
@@ -1676,8 +1578,7 @@
     move-result p0
 
     .line 104
-    invoke-virtual {v0, v1, p0}, Landroid/os/BaseBundle;
-    ->putInt(Ljava/lang/String;I)V
+    invoke-virtual {v0, v1, p0}, Landroid/os/BaseBundle;->putInt(Ljava/lang/String;I)V
 
     .line 105
     .line 106
@@ -1689,8 +1590,7 @@
     .locals 6
 
     .line 1
-    sget-object v0, Landroidx/core/app/NotificationCompatJellybean;
-    ->sExtrasLock:Ljava/lang/Object;
+    sget-object v0, Landroidx/core/app/NotificationCompatJellybean;->sExtrasLock:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -1698,8 +1598,7 @@
 
     .line 4
     :try_start_0
-    sget-boolean v1, Landroidx/core/app/NotificationCompatJellybean;
-    ->sExtrasFieldAccessFailed:Z
+    sget-boolean v1, Landroidx/core/app/NotificationCompatJellybean;->sExtrasFieldAccessFailed:Z
 
     .line 5
     .line 6
@@ -1729,8 +1628,7 @@
 
     .line 14
     :try_start_1
-    sget-object v3, Landroidx/core/app/NotificationCompatJellybean;
-    ->sExtrasField:Ljava/lang/reflect/Field;
+    sget-object v3, Landroidx/core/app/NotificationCompatJellybean;->sExtrasField:Ljava/lang/reflect/Field;
 
     .line 15
     .line 16
@@ -1746,8 +1644,7 @@
 
     .line 21
     .line 22
-    invoke-virtual {v3, v4}, Ljava/lang/Class;
-    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v3, v4}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 23
     .line 24
@@ -1759,8 +1656,7 @@
 
     .line 27
     .line 28
-    invoke-virtual {v3}, Ljava/lang/reflect/Field;
-    ->getType()Ljava/lang/Class;
+    invoke-virtual {v3}, Ljava/lang/reflect/Field;->getType()Ljava/lang/Class;
 
     .line 29
     .line 30
@@ -1768,8 +1664,7 @@
     move-result-object v5
 
     .line 32
-    invoke-virtual {v4, v5}, Ljava/lang/Class;
-    ->isAssignableFrom(Ljava/lang/Class;)Z
+    invoke-virtual {v4, v5}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
     .line 33
     .line 34
@@ -1789,14 +1684,12 @@
 
     .line 41
     .line 42
-    invoke-static {p0, v3}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, v3}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 43
     .line 44
     .line 45
-    sput-boolean v1, Landroidx/core/app/NotificationCompatJellybean;
-    ->sExtrasFieldAccessFailed:Z
+    sput-boolean v1, Landroidx/core/app/NotificationCompatJellybean;->sExtrasFieldAccessFailed:Z
     :try_end_1
     .catch Ljava/lang/IllegalAccessException; {:try_start_1 .. :try_end_1} :catch_1
     .catch Ljava/lang/NoSuchFieldException; {:try_start_1 .. :try_end_1} :catch_0
@@ -1828,25 +1721,21 @@
     .line 53
     :cond_1
     :try_start_3
-    invoke-virtual {v3, v1}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v3, v1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 54
     .line 55
     .line 56
-    sput-object v3, Landroidx/core/app/NotificationCompatJellybean;
-    ->sExtrasField:Ljava/lang/reflect/Field;
+    sput-object v3, Landroidx/core/app/NotificationCompatJellybean;->sExtrasField:Ljava/lang/reflect/Field;
 
     .line 57
     .line 58
     :cond_2
-    sget-object v3, Landroidx/core/app/NotificationCompatJellybean;
-    ->sExtrasField:Ljava/lang/reflect/Field;
+    sget-object v3, Landroidx/core/app/NotificationCompatJellybean;->sExtrasField:Ljava/lang/reflect/Field;
 
     .line 59
     .line 60
-    invoke-virtual {v3, p0}, Ljava/lang/reflect/Field;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 61
     .line 62
@@ -1866,19 +1755,16 @@
 
     .line 69
     .line 70
-    invoke-direct {v3}, Landroid/os/Bundle;
-    -><init>()V
+    invoke-direct {v3}, Landroid/os/Bundle;-><init>()V
 
     .line 71
     .line 72
     .line 73
-    sget-object v4, Landroidx/core/app/NotificationCompatJellybean;
-    ->sExtrasField:Ljava/lang/reflect/Field;
+    sget-object v4, Landroidx/core/app/NotificationCompatJellybean;->sExtrasField:Ljava/lang/reflect/Field;
 
     .line 74
     .line 75
-    invoke-virtual {v4, p0, v3}, Ljava/lang/reflect/Field;
-    ->set(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-virtual {v4, p0, v3}, Ljava/lang/reflect/Field;->set(Ljava/lang/Object;Ljava/lang/Object;)V
     :try_end_3
     .catch Ljava/lang/IllegalAccessException; {:try_start_3 .. :try_end_3} :catch_1
     .catch Ljava/lang/NoSuchFieldException; {:try_start_3 .. :try_end_3} :catch_0
@@ -1903,8 +1789,7 @@
 
     .line 83
     .line 84
-    invoke-static {v3, v4, p0}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v3, v4, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 85
     .line 86
@@ -1921,15 +1806,13 @@
 
     .line 91
     .line 92
-    invoke-static {v3, v4, p0}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v3, v4, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 93
     .line 94
     .line 95
     :goto_2
-    sput-boolean v1, Landroidx/core/app/NotificationCompatJellybean;
-    ->sExtrasFieldAccessFailed:Z
+    sput-boolean v1, Landroidx/core/app/NotificationCompatJellybean;->sExtrasFieldAccessFailed:Z
 
     .line 96
     .line 97
@@ -2102,8 +1985,7 @@
 
     .line 4
     .line 5
-    invoke-static {p3, v0}, Landroidx/core/app/NotificationCompatJellybean;
-    ->getBundleArrayFromBundle(Landroid/os/Bundle;Ljava/lang/String;)[Landroid/os/Bundle;
+    invoke-static {p3, v0}, Landroidx/core/app/NotificationCompatJellybean;->getBundleArrayFromBundle(Landroid/os/Bundle;Ljava/lang/String;)[Landroid/os/Bundle;
 
     .line 6
     .line 7
@@ -2111,8 +1993,7 @@
     move-result-object v0
 
     .line 9
-    invoke-static {v0}, Landroidx/core/app/NotificationCompatJellybean;
-    ->fromBundleArray([Landroid/os/Bundle;)[Landroidx/core/app/RemoteInput;
+    invoke-static {v0}, Landroidx/core/app/NotificationCompatJellybean;->fromBundleArray([Landroid/os/Bundle;)[Landroidx/core/app/RemoteInput;
 
     .line 10
     .line 11
@@ -2124,8 +2005,7 @@
 
     .line 14
     .line 15
-    invoke-static {p3, v1}, Landroidx/core/app/NotificationCompatJellybean;
-    ->getBundleArrayFromBundle(Landroid/os/Bundle;Ljava/lang/String;)[Landroid/os/Bundle;
+    invoke-static {p3, v1}, Landroidx/core/app/NotificationCompatJellybean;->getBundleArrayFromBundle(Landroid/os/Bundle;Ljava/lang/String;)[Landroid/os/Bundle;
 
     .line 16
     .line 17
@@ -2133,8 +2013,7 @@
     move-result-object v1
 
     .line 19
-    invoke-static {v1}, Landroidx/core/app/NotificationCompatJellybean;
-    ->fromBundleArray([Landroid/os/Bundle;)[Landroidx/core/app/RemoteInput;
+    invoke-static {v1}, Landroidx/core/app/NotificationCompatJellybean;->fromBundleArray([Landroid/os/Bundle;)[Landroidx/core/app/RemoteInput;
 
     .line 20
     .line 21
@@ -2146,8 +2025,7 @@
 
     .line 24
     .line 25
-    invoke-virtual {p3, v2}, Landroid/os/Bundle;
-    ->getBoolean(Ljava/lang/String;)Z
+    invoke-virtual {p3, v2}, Landroid/os/Bundle;->getBoolean(Ljava/lang/String;)Z
 
     .line 26
     .line 27
@@ -2212,8 +2090,7 @@
     move-object v4, p3
 
     .line 48
-    invoke-direct/range {v0 .. v11}, Landroidx/core/app/NotificationCompat$Action;
-    -><init>(ILjava/lang/CharSequence;Landroid/app/PendingIntent;Landroid/os/Bundle;[Landroidx/core/app/RemoteInput;[Landroidx/core/app/RemoteInput;ZIZZZ)V
+    invoke-direct/range {v0 .. v11}, Landroidx/core/app/NotificationCompat$Action;-><init>(ILjava/lang/CharSequence;Landroid/app/PendingIntent;Landroid/os/Bundle;[Landroidx/core/app/RemoteInput;[Landroidx/core/app/RemoteInput;ZIZZZ)V
 
     .line 49
     .line 50
@@ -2229,14 +2106,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/os/Bundle;
-    -><init>()V
+    invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;
-    ->getResultKey()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;->getResultKey()Ljava/lang/String;
 
     .line 7
     .line 8
@@ -2248,8 +2123,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {v0, v2, v1}, Landroid/os/BaseBundle;
-    ->putString(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v2, v1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 13
     .line 14
@@ -2258,8 +2132,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;
-    ->getLabel()Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;->getLabel()Ljava/lang/CharSequence;
 
     .line 18
     .line 19
@@ -2267,8 +2140,7 @@
     move-result-object v2
 
     .line 21
-    invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;
-    ->putCharSequence(Ljava/lang/String;Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;->putCharSequence(Ljava/lang/String;Ljava/lang/CharSequence;)V
 
     .line 22
     .line 23
@@ -2277,8 +2149,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;
-    ->getChoices()[Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;->getChoices()[Ljava/lang/CharSequence;
 
     .line 27
     .line 28
@@ -2286,8 +2157,7 @@
     move-result-object v2
 
     .line 30
-    invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;
-    ->putCharSequenceArray(Ljava/lang/String;[Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;->putCharSequenceArray(Ljava/lang/String;[Ljava/lang/CharSequence;)V
 
     .line 31
     .line 32
@@ -2296,8 +2166,7 @@
 
     .line 34
     .line 35
-    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;
-    ->getAllowFreeFormInput()Z
+    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;->getAllowFreeFormInput()Z
 
     .line 36
     .line 37
@@ -2305,8 +2174,7 @@
     move-result v2
 
     .line 39
-    invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;
-    ->putBoolean(Ljava/lang/String;Z)V
+    invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
     .line 40
     .line 41
@@ -2315,8 +2183,7 @@
 
     .line 43
     .line 44
-    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;
-    ->getExtras()Landroid/os/Bundle;
+    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;->getExtras()Landroid/os/Bundle;
 
     .line 45
     .line 46
@@ -2324,14 +2191,12 @@
     move-result-object v2
 
     .line 48
-    invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;
-    ->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
+    invoke-virtual {v0, v1, v2}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
 
     .line 49
     .line 50
     .line 51
-    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;
-    ->getAllowedDataTypes()Ljava/util/Set;
+    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;->getAllowedDataTypes()Ljava/util/Set;
 
     .line 52
     .line 53
@@ -2343,8 +2208,7 @@
 
     .line 56
     .line 57
-    invoke-interface {p0}, Ljava/util/Set;
-    ->isEmpty()Z
+    invoke-interface {p0}, Ljava/util/Set;->isEmpty()Z
 
     .line 58
     .line 59
@@ -2360,8 +2224,7 @@
 
     .line 64
     .line 65
-    invoke-interface {p0}, Ljava/util/Set;
-    ->size()I
+    invoke-interface {p0}, Ljava/util/Set;->size()I
 
     .line 66
     .line 67
@@ -2369,14 +2232,12 @@
     move-result v2
 
     .line 69
-    invoke-direct {v1, v2}, Ljava/util/ArrayList;
-    -><init>(I)V
+    invoke-direct {v1, v2}, Ljava/util/ArrayList;-><init>(I)V
 
     .line 70
     .line 71
     .line 72
-    invoke-interface {p0}, Ljava/util/Set;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     .line 73
     .line 74
@@ -2385,8 +2246,7 @@
 
     .line 76
     :goto_0
-    invoke-interface {p0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 77
     .line 78
@@ -2398,8 +2258,7 @@
 
     .line 81
     .line 82
-    invoke-interface {p0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 83
     .line 84
@@ -2411,8 +2270,7 @@
 
     .line 87
     .line 88
-    invoke-virtual {v1, v2}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 89
     .line 90
@@ -2425,8 +2283,7 @@
 
     .line 93
     .line 94
-    invoke-virtual {v0, p0, v1}, Landroid/os/Bundle;
-    ->putStringArrayList(Ljava/lang/String;Ljava/util/ArrayList;)V
+    invoke-virtual {v0, p0, v1}, Landroid/os/Bundle;->putStringArrayList(Ljava/lang/String;Ljava/util/ArrayList;)V
 
     .line 95
     .line 96
@@ -2471,8 +2328,7 @@
 
     .line 13
     .line 14
-    invoke-static {v2}, Landroidx/core/app/NotificationCompatJellybean;
-    ->toBundle(Landroidx/core/app/RemoteInput;)Landroid/os/Bundle;
+    invoke-static {v2}, Landroidx/core/app/NotificationCompatJellybean;->toBundle(Landroidx/core/app/RemoteInput;)Landroid/os/Bundle;
 
     .line 15
     .line 16
@@ -2499,8 +2355,7 @@
     .locals 3
 
     .line 1
-    invoke-virtual {p1}, Landroidx/core/app/NotificationCompat$Action;
-    ->getIconCompat()Landroidx/core/graphics/drawable/IconCompat;
+    invoke-virtual {p1}, Landroidx/core/app/NotificationCompat$Action;->getIconCompat()Landroidx/core/graphics/drawable/IconCompat;
 
     .line 2
     .line 3
@@ -2512,8 +2367,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v0}, Landroidx/core/graphics/drawable/IconCompat;
-    ->getResId()I
+    invoke-virtual {v0}, Landroidx/core/graphics/drawable/IconCompat;->getResId()I
 
     .line 8
     .line 9
@@ -2529,8 +2383,7 @@
 
     .line 13
     :goto_0
-    invoke-virtual {p1}, Landroidx/core/app/NotificationCompat$Action;
-    ->getTitle()Ljava/lang/CharSequence;
+    invoke-virtual {p1}, Landroidx/core/app/NotificationCompat$Action;->getTitle()Ljava/lang/CharSequence;
 
     .line 14
     .line 15
@@ -2538,8 +2391,7 @@
     move-result-object v1
 
     .line 17
-    invoke-virtual {p1}, Landroidx/core/app/NotificationCompat$Action;
-    ->getActionIntent()Landroid/app/PendingIntent;
+    invoke-virtual {p1}, Landroidx/core/app/NotificationCompat$Action;->getActionIntent()Landroid/app/PendingIntent;
 
     .line 18
     .line 19
@@ -2547,8 +2399,7 @@
     move-result-object v2
 
     .line 21
-    invoke-virtual {p0, v0, v1, v2}, Landroid/app/Notification$Builder;
-    ->addAction(ILjava/lang/CharSequence;Landroid/app/PendingIntent;)Landroid/app/Notification$Builder;
+    invoke-virtual {p0, v0, v1, v2}, Landroid/app/Notification$Builder;->addAction(ILjava/lang/CharSequence;Landroid/app/PendingIntent;)Landroid/app/Notification$Builder;
 
     .line 22
     .line 23
@@ -2557,8 +2408,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {p1}, Landroidx/core/app/NotificationCompat$Action;
-    ->getExtras()Landroid/os/Bundle;
+    invoke-virtual {p1}, Landroidx/core/app/NotificationCompat$Action;->getExtras()Landroid/os/Bundle;
 
     .line 27
     .line 28
@@ -2566,14 +2416,12 @@
     move-result-object v0
 
     .line 30
-    invoke-direct {p0, v0}, Landroid/os/Bundle;
-    -><init>(Landroid/os/Bundle;)V
+    invoke-direct {p0, v0}, Landroid/os/Bundle;-><init>(Landroid/os/Bundle;)V
 
     .line 31
     .line 32
     .line 33
-    invoke-virtual {p1}, Landroidx/core/app/NotificationCompat$Action;
-    ->getRemoteInputs()[Landroidx/core/app/RemoteInput;
+    invoke-virtual {p1}, Landroidx/core/app/NotificationCompat$Action;->getRemoteInputs()[Landroidx/core/app/RemoteInput;
 
     .line 34
     .line 35
@@ -2585,8 +2433,7 @@
 
     .line 38
     .line 39
-    invoke-virtual {p1}, Landroidx/core/app/NotificationCompat$Action;
-    ->getRemoteInputs()[Landroidx/core/app/RemoteInput;
+    invoke-virtual {p1}, Landroidx/core/app/NotificationCompat$Action;->getRemoteInputs()[Landroidx/core/app/RemoteInput;
 
     .line 40
     .line 41
@@ -2594,8 +2441,7 @@
     move-result-object v0
 
     .line 43
-    invoke-static {v0}, Landroidx/core/app/NotificationCompatJellybean;
-    ->toBundleArray([Landroidx/core/app/RemoteInput;)[Landroid/os/Bundle;
+    invoke-static {v0}, Landroidx/core/app/NotificationCompatJellybean;->toBundleArray([Landroidx/core/app/RemoteInput;)[Landroid/os/Bundle;
 
     .line 44
     .line 45
@@ -2607,15 +2453,13 @@
 
     .line 48
     .line 49
-    invoke-virtual {p0, v1, v0}, Landroid/os/Bundle;
-    ->putParcelableArray(Ljava/lang/String;[Landroid/os/Parcelable;)V
+    invoke-virtual {p0, v1, v0}, Landroid/os/Bundle;->putParcelableArray(Ljava/lang/String;[Landroid/os/Parcelable;)V
 
     .line 50
     .line 51
     .line 52
     :cond_1
-    invoke-virtual {p1}, Landroidx/core/app/NotificationCompat$Action;
-    ->getDataOnlyRemoteInputs()[Landroidx/core/app/RemoteInput;
+    invoke-virtual {p1}, Landroidx/core/app/NotificationCompat$Action;->getDataOnlyRemoteInputs()[Landroidx/core/app/RemoteInput;
 
     .line 53
     .line 54
@@ -2627,8 +2471,7 @@
 
     .line 57
     .line 58
-    invoke-virtual {p1}, Landroidx/core/app/NotificationCompat$Action;
-    ->getDataOnlyRemoteInputs()[Landroidx/core/app/RemoteInput;
+    invoke-virtual {p1}, Landroidx/core/app/NotificationCompat$Action;->getDataOnlyRemoteInputs()[Landroidx/core/app/RemoteInput;
 
     .line 59
     .line 60
@@ -2636,8 +2479,7 @@
     move-result-object v0
 
     .line 62
-    invoke-static {v0}, Landroidx/core/app/NotificationCompatJellybean;
-    ->toBundleArray([Landroidx/core/app/RemoteInput;)[Landroid/os/Bundle;
+    invoke-static {v0}, Landroidx/core/app/NotificationCompatJellybean;->toBundleArray([Landroidx/core/app/RemoteInput;)[Landroid/os/Bundle;
 
     .line 63
     .line 64
@@ -2649,8 +2491,7 @@
 
     .line 67
     .line 68
-    invoke-virtual {p0, v1, v0}, Landroid/os/Bundle;
-    ->putParcelableArray(Ljava/lang/String;[Landroid/os/Parcelable;)V
+    invoke-virtual {p0, v1, v0}, Landroid/os/Bundle;->putParcelableArray(Ljava/lang/String;[Landroid/os/Parcelable;)V
 
     .line 69
     .line 70
@@ -2660,8 +2501,7 @@
 
     .line 72
     .line 73
-    invoke-virtual {p1}, Landroidx/core/app/NotificationCompat$Action;
-    ->getAllowGeneratedReplies()Z
+    invoke-virtual {p1}, Landroidx/core/app/NotificationCompat$Action;->getAllowGeneratedReplies()Z
 
     .line 74
     .line 75
@@ -2669,8 +2509,7 @@
     move-result p1
 
     .line 77
-    invoke-virtual {p0, v0, p1}, Landroid/os/Bundle;
-    ->putBoolean(Ljava/lang/String;Z)V
+    invoke-virtual {p0, v0, p1}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 
     .line 78
     .line 79

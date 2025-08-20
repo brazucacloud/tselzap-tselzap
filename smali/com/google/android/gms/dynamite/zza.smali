@@ -12,8 +12,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, p1, p2}, Ljava/lang/Thread;
-    -><init>(Ljava/lang/ThreadGroup;Ljava/lang/String;)V
+    invoke-direct {p0, p1, p2}, Ljava/lang/Thread;-><init>(Ljava/lang/ThreadGroup;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -31,8 +30,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroid/os/Process;
-    ->setThreadPriority(I)V
+    invoke-static {v0}, Landroid/os/Process;->setThreadPriority(I)V
 
     .line 4
     .line 5
@@ -42,8 +40,7 @@
     .line 7
     :goto_0
     :try_start_0
-    invoke-virtual {p0}, Ljava/lang/Object;
-    ->wait()V
+    invoke-virtual {p0}, Ljava/lang/Object;->wait()V
     :try_end_0
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0

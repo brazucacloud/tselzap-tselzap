@@ -12,8 +12,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;
-    -><init>(Landroidx/constraintlayout/core/widgets/analyzer/WidgetRun;)V
+    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;-><init>(Landroidx/constraintlayout/core/widgets/analyzer/WidgetRun;)V
 
     .line 2
     .line 3
@@ -26,24 +25,20 @@
 
     .line 7
     .line 8
-    sget-object p1, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode$Type;
-    ->HORIZONTAL_DIMENSION:Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode$Type;
+    sget-object p1, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode$Type;->HORIZONTAL_DIMENSION:Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode$Type;
 
     .line 9
     .line 10
-    iput-object p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;
-    ->mType:Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode$Type;    
+    iput-object p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->mType:Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode$Type;
     return-void
 
     .line 13
     :cond_0
-    sget-object p1, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode$Type;
-    ->VERTICAL_DIMENSION:Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode$Type;
+    sget-object p1, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode$Type;->VERTICAL_DIMENSION:Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode$Type;
 
     .line 14
     .line 15
-    iput-object p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;
-    ->mType:Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode$Type;    
+    iput-object p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->mType:Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode$Type;
     return-void
 .end method
 
@@ -53,8 +48,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;
-    ->resolved:Z
+    iget-boolean v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->resolved:Z
 
     .line 2
     .line 3
@@ -69,23 +63,19 @@
     const/4 v0, 0x1
 
     .line 7
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;
-    ->resolved:Z
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->resolved:Z
 
     .line 8
     .line 9
-    iput p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;
-    ->value:I
+    iput p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->value:I
 
     .line 10
     .line 11
-    iget-object p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;
-    ->mDependencies:Ljava/util/List;
+    iget-object p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->mDependencies:Ljava/util/List;
 
     .line 12
     .line 13
-    invoke-interface {p1}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 14
     .line 15
@@ -94,8 +84,7 @@
 
     .line 17
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
     .line 18
     .line 19
@@ -107,8 +96,7 @@
 
     .line 22
     .line 23
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 24
     .line 25
@@ -120,8 +108,7 @@
 
     .line 28
     .line 29
-    invoke-interface {v0, v0}, Landroidx/constraintlayout/core/widgets/analyzer/Dependency;
-    ->update(Landroidx/constraintlayout/core/widgets/analyzer/Dependency;)V
+    invoke-interface {v0, v0}, Landroidx/constraintlayout/core/widgets/analyzer/Dependency;->update(Landroidx/constraintlayout/core/widgets/analyzer/Dependency;)V
 
     .line 30
     .line 31

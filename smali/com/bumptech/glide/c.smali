@@ -38,14 +38,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/bumptech/glide/GenericTransitionOptions;
-    -><init>()V
+    invoke-direct {v0}, Lcom/bumptech/glide/GenericTransitionOptions;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Lcom/bumptech/glide/c;
-    ->k:Lcom/bumptech/glide/GenericTransitionOptions;
+    sput-object v0, Lcom/bumptech/glide/c;->k:Lcom/bumptech/glide/GenericTransitionOptions;
 
     .line 7
     .line 8
@@ -56,8 +54,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Landroid/content/Context;
-    ->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     .line 2
     .line 3
@@ -65,57 +62,47 @@
     move-result-object p1
 
     .line 5
-    invoke-direct {p0, p1}, Landroid/content/ContextWrapper;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Landroid/content/ContextWrapper;-><init>(Landroid/content/Context;)V
 
     .line 6
     .line 7
     .line 8
-    iput-object p2, p0, Lcom/bumptech/glide/c;
-    ->a:Ll/f;
+    iput-object p2, p0, Lcom/bumptech/glide/c;->a:Ll/f;
 
     .line 9
     .line 10
-    iput-object p3, p0, Lcom/bumptech/glide/c;
-    ->b:Lcom/bumptech/glide/h;
+    iput-object p3, p0, Lcom/bumptech/glide/c;->b:Lcom/bumptech/glide/h;
 
     .line 11
     .line 12
-    iput-object p4, p0, Lcom/bumptech/glide/c;
-    ->c:Lu0/f;
+    iput-object p4, p0, Lcom/bumptech/glide/c;->c:Lu0/f;
 
     .line 13
     .line 14
-    iput-object p5, p0, Lcom/bumptech/glide/c;
-    ->d:Lu0/f;
+    iput-object p5, p0, Lcom/bumptech/glide/c;->d:Lu0/f;
 
     .line 15
     .line 16
-    iput-object p7, p0, Lcom/bumptech/glide/c;
-    ->e:Ljava/util/List;
+    iput-object p7, p0, Lcom/bumptech/glide/c;->e:Ljava/util/List;
 
     .line 17
     .line 18
-    iput-object p6, p0, Lcom/bumptech/glide/c;
-    ->f:Landroidx/collection/ArrayMap;
+    iput-object p6, p0, Lcom/bumptech/glide/c;->f:Landroidx/collection/ArrayMap;
 
     .line 19
     .line 20
-    iput-object p8, p0, Lcom/bumptech/glide/c;
-    ->g:Lk/q;
+    iput-object p8, p0, Lcom/bumptech/glide/c;->g:Lk/q;
 
     .line 21
     .line 22
-    iput-object p9, p0, Lcom/bumptech/glide/c;
-    ->h:LC1/s;
+    iput-object p9, p0, Lcom/bumptech/glide/c;->h:LC1/s;
 
     .line 23
     .line 24
     const/4 p1, 0x4
 
     .line 25
-    iput p1, p0, Lcom/bumptech/glide/c;
-    ->i:I
+    iput p1, p0, Lcom/bumptech/glide/c;->i:I
 
     .line 26
     .line 27

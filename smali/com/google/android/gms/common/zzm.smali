@@ -24,8 +24,7 @@
 
     .line 3
     .line 4
-    sget-object v1, Lcom/google/android/gms/common/zzn;
-    ->zzc:Lcom/google/android/gms/common/zzl;
+    sget-object v1, Lcom/google/android/gms/common/zzn;->zzc:Lcom/google/android/gms/common/zzl;
 
     .line 5
     .line 6
@@ -36,8 +35,7 @@
 
     .line 8
     .line 9
-    sget-object v1, Lcom/google/android/gms/common/zzn;
-    ->zzd:Lcom/google/android/gms/common/zzl;
+    sget-object v1, Lcom/google/android/gms/common/zzn;->zzd:Lcom/google/android/gms/common/zzl;
 
     .line 10
     .line 11
@@ -48,8 +46,7 @@
 
     .line 13
     .line 14
-    sput-object v0, Lcom/google/android/gms/common/zzm;
-    ->zza:[Lcom/google/android/gms/common/zzj;
+    sput-object v0, Lcom/google/android/gms/common/zzm;->zza:[Lcom/google/android/gms/common/zzj;
 
     .line 15
     .line 16

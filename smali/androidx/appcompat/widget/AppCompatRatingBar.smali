@@ -18,8 +18,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-direct {p0, p1, v0}, Landroidx/appcompat/widget/AppCompatRatingBar;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Landroidx/appcompat/widget/AppCompatRatingBar;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 return-void
 .end method
 
@@ -35,11 +34,9 @@ return-void
     .end param
 
     .line 2
-    sget v0, Landroidx/appcompat/R$attr;
-    ->ratingBarStyle:I
+    sget v0, Landroidx/appcompat/R$attr;->ratingBarStyle:I
 
-    invoke-direct {p0, p1, p2, v0}, Landroidx/appcompat/widget/AppCompatRatingBar;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Landroidx/appcompat/widget/AppCompatRatingBar;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 return-void
 .end method
 
@@ -55,30 +52,24 @@ return-void
     .end param
 
     .line 3
-    invoke-direct {p0, p1, p2, p3}, Landroid/widget/RatingBar;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Landroid/widget/RatingBar;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 4
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object p1
 
-    invoke-static {p0, p1}, Landroidx/appcompat/widget/ThemeUtils;
-    ->checkAppCompatTheme(Landroid/view/View;Landroid/content/Context;)V
+    invoke-static {p0, p1}, Landroidx/appcompat/widget/ThemeUtils;->checkAppCompatTheme(Landroid/view/View;Landroid/content/Context;)V
 
     .line 5
     new-instance p1, Landroidx/appcompat/widget/AppCompatProgressBarHelper;
 
-    invoke-direct {p1, p0}, Landroidx/appcompat/widget/AppCompatProgressBarHelper;
-    -><init>(Landroid/widget/ProgressBar;)V
+    invoke-direct {p1, p0}, Landroidx/appcompat/widget/AppCompatProgressBarHelper;-><init>(Landroid/widget/ProgressBar;)V
 
-    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatRatingBar;
-    ->mAppCompatProgressBarHelper:Landroidx/appcompat/widget/AppCompatProgressBarHelper;
+    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatRatingBar;->mAppCompatProgressBarHelper:Landroidx/appcompat/widget/AppCompatProgressBarHelper;
 
     .line 6
-    invoke-virtual {p1, p2, p3}, Landroidx/appcompat/widget/AppCompatProgressBarHelper;
-    ->loadFromAttributes(Landroid/util/AttributeSet;I)V
+    invoke-virtual {p1, p2, p3}, Landroidx/appcompat/widget/AppCompatProgressBarHelper;->loadFromAttributes(Landroid/util/AttributeSet;I)V
 return-void
 .end method
 
@@ -92,19 +83,16 @@ return-void
 
     .line 2
     :try_start_0
-    invoke-super {p0, p1, p2}, Landroid/widget/RatingBar;
-    ->onMeasure(II)V
+    invoke-super {p0, p1, p2}, Landroid/widget/RatingBar;->onMeasure(II)V
 
     .line 3
     .line 4
     .line 5
-    iget-object p2, p0, Landroidx/appcompat/widget/AppCompatRatingBar;
-    ->mAppCompatProgressBarHelper:Landroidx/appcompat/widget/AppCompatProgressBarHelper;
+    iget-object p2, p0, Landroidx/appcompat/widget/AppCompatRatingBar;->mAppCompatProgressBarHelper:Landroidx/appcompat/widget/AppCompatProgressBarHelper;
 
     .line 6
     .line 7
-    invoke-virtual {p2}, Landroidx/appcompat/widget/AppCompatProgressBarHelper;
-    ->getSampleTile()Landroid/graphics/Bitmap;
+    invoke-virtual {p2}, Landroidx/appcompat/widget/AppCompatProgressBarHelper;->getSampleTile()Landroid/graphics/Bitmap;
 
     .line 8
     .line 9
@@ -116,8 +104,7 @@ return-void
 
     .line 12
     .line 13
-    invoke-virtual {p2}, Landroid/graphics/Bitmap;
-    ->getWidth()I
+    invoke-virtual {p2}, Landroid/graphics/Bitmap;->getWidth()I
 
     .line 14
     .line 15
@@ -125,8 +112,7 @@ return-void
     move-result p2
 
     .line 17
-    invoke-virtual {p0}, Landroid/widget/RatingBar;
-    ->getNumStars()I
+    invoke-virtual {p0}, Landroid/widget/RatingBar;->getNumStars()I
 
     .line 18
     .line 19
@@ -141,8 +127,7 @@ return-void
     const/4 v0, 0x0
 
     .line 24
-    invoke-static {p2, p1, v0}, Landroid/view/View;
-    ->resolveSizeAndState(III)I
+    invoke-static {p2, p1, v0}, Landroid/view/View;->resolveSizeAndState(III)I
 
     .line 25
     .line 26
@@ -150,8 +135,7 @@ return-void
     move-result p1
 
     .line 28
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getMeasuredHeight()I
+    invoke-virtual {p0}, Landroid/view/View;->getMeasuredHeight()I
 
     .line 29
     .line 30
@@ -159,8 +143,7 @@ return-void
     move-result p2
 
     .line 32
-    invoke-virtual {p0, p1, p2}, Landroid/view/View;
-    ->setMeasuredDimension(II)V
+    invoke-virtual {p0, p1, p2}, Landroid/view/View;->setMeasuredDimension(II)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

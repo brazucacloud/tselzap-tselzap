@@ -31,8 +31,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -48,8 +47,7 @@
     .line 2
     new-instance v0, Lcom/fmark/tselzap/Config/BotConfig;
 
-    invoke-direct {v0, p1}, Lcom/fmark/tselzap/Config/BotConfig;
-    -><init>(Landroid/os/Parcel;)V
+    invoke-direct {v0, p1}, Lcom/fmark/tselzap/Config/BotConfig;-><init>(Landroid/os/Parcel;)V
 return-object v0
 .end method
 
@@ -57,8 +55,7 @@ return-object v0
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lcom/fmark/tselzap/Config/BotConfig$1;
-    ->createFromParcel(Landroid/os/Parcel;)Lcom/fmark/tselzap/Config/BotConfig;
+    invoke-virtual {p0, p1}, Lcom/fmark/tselzap/Config/BotConfig$1;->createFromParcel(Landroid/os/Parcel;)Lcom/fmark/tselzap/Config/BotConfig;
 
     move-result-object p1
 
@@ -78,8 +75,7 @@ return-object v0
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Lcom/fmark/tselzap/Config/BotConfig$1;
-    ->newArray(I)[Lcom/fmark/tselzap/Config/BotConfig;
+    invoke-virtual {p0, p1}, Lcom/fmark/tselzap/Config/BotConfig$1;->newArray(I)[Lcom/fmark/tselzap/Config/BotConfig;
 
     move-result-object p1
 

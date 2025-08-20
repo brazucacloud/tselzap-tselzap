@@ -16,24 +16,20 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/google/firebase/StartupTime;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/firebase/StartupTime;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-wide p1, p0, Lcom/google/firebase/AutoValue_StartupTime;
-    ->epochMillis:J
+    iput-wide p1, p0, Lcom/google/firebase/AutoValue_StartupTime;->epochMillis:J
 
     .line 5
     .line 6
-    iput-wide p3, p0, Lcom/google/firebase/AutoValue_StartupTime;
-    ->elapsedRealtime:J
+    iput-wide p3, p0, Lcom/google/firebase/AutoValue_StartupTime;->elapsedRealtime:J
 
     .line 7
     .line 8
-    iput-wide p5, p0, Lcom/google/firebase/AutoValue_StartupTime;
-    ->uptimeMillis:J
+    iput-wide p5, p0, Lcom/google/firebase/AutoValue_StartupTime;->uptimeMillis:J
 
     .line 9
     .line 10
@@ -72,13 +68,11 @@
 
     .line 11
     .line 12
-    iget-wide v3, p0, Lcom/google/firebase/AutoValue_StartupTime;
-    ->epochMillis:J
+    iget-wide v3, p0, Lcom/google/firebase/AutoValue_StartupTime;->epochMillis:J
 
     .line 13
     .line 14
-    invoke-virtual {p1}, Lcom/google/firebase/StartupTime;
-    ->getEpochMillis()J
+    invoke-virtual {p1}, Lcom/google/firebase/StartupTime;->getEpochMillis()J
 
     .line 15
     .line 16
@@ -94,13 +88,11 @@
 
     .line 21
     .line 22
-    iget-wide v3, p0, Lcom/google/firebase/AutoValue_StartupTime;
-    ->elapsedRealtime:J
+    iget-wide v3, p0, Lcom/google/firebase/AutoValue_StartupTime;->elapsedRealtime:J
 
     .line 23
     .line 24
-    invoke-virtual {p1}, Lcom/google/firebase/StartupTime;
-    ->getElapsedRealtime()J
+    invoke-virtual {p1}, Lcom/google/firebase/StartupTime;->getElapsedRealtime()J
 
     .line 25
     .line 26
@@ -116,13 +108,11 @@
 
     .line 31
     .line 32
-    iget-wide v3, p0, Lcom/google/firebase/AutoValue_StartupTime;
-    ->uptimeMillis:J
+    iget-wide v3, p0, Lcom/google/firebase/AutoValue_StartupTime;->uptimeMillis:J
 
     .line 33
     .line 34
-    invoke-virtual {p1}, Lcom/google/firebase/StartupTime;
-    ->getUptimeMillis()J
+    invoke-virtual {p1}, Lcom/google/firebase/StartupTime;->getUptimeMillis()J
 
     .line 35
     .line 36
@@ -149,8 +139,7 @@
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Lcom/google/firebase/AutoValue_StartupTime;
-    ->elapsedRealtime:J
+    iget-wide v0, p0, Lcom/google/firebase/AutoValue_StartupTime;->elapsedRealtime:J
 
     .line 2
     .line 3
@@ -161,8 +150,7 @@
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Lcom/google/firebase/AutoValue_StartupTime;
-    ->epochMillis:J
+    iget-wide v0, p0, Lcom/google/firebase/AutoValue_StartupTime;->epochMillis:J
 
     .line 2
     .line 3
@@ -173,8 +161,7 @@
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Lcom/google/firebase/AutoValue_StartupTime;
-    ->uptimeMillis:J
+    iget-wide v0, p0, Lcom/google/firebase/AutoValue_StartupTime;->uptimeMillis:J
 
     .line 2
     .line 3
@@ -185,8 +172,7 @@
     .locals 7
 
     .line 1
-    iget-wide v0, p0, Lcom/google/firebase/AutoValue_StartupTime;
-    ->epochMillis:J
+    iget-wide v0, p0, Lcom/google/firebase/AutoValue_StartupTime;->epochMillis:J
 
     .line 2
     .line 3
@@ -216,8 +202,7 @@
 
     .line 14
     .line 15
-    iget-wide v3, p0, Lcom/google/firebase/AutoValue_StartupTime;
-    ->elapsedRealtime:J
+    iget-wide v3, p0, Lcom/google/firebase/AutoValue_StartupTime;->elapsedRealtime:J
 
     .line 16
     .line 17
@@ -238,8 +223,7 @@
 
     .line 23
     .line 24
-    iget-wide v3, p0, Lcom/google/firebase/AutoValue_StartupTime;
-    ->uptimeMillis:J
+    iget-wide v3, p0, Lcom/google/firebase/AutoValue_StartupTime;->uptimeMillis:J
 
     .line 25
     .line 26
@@ -270,19 +254,16 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget-wide v1, p0, Lcom/google/firebase/AutoValue_StartupTime;
-    ->epochMillis:J
+    iget-wide v1, p0, Lcom/google/firebase/AutoValue_StartupTime;->epochMillis:J
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;
-    ->append(J)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
     .line 11
     .line 12
@@ -291,19 +272,16 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 16
     .line 17
     .line 18
-    iget-wide v1, p0, Lcom/google/firebase/AutoValue_StartupTime;
-    ->elapsedRealtime:J
+    iget-wide v1, p0, Lcom/google/firebase/AutoValue_StartupTime;->elapsedRealtime:J
 
     .line 19
     .line 20
-    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;
-    ->append(J)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
     .line 21
     .line 22
@@ -312,14 +290,12 @@
 
     .line 24
     .line 25
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 26
     .line 27
     .line 28
-    iget-wide v1, p0, Lcom/google/firebase/AutoValue_StartupTime;
-    ->uptimeMillis:J
+    iget-wide v1, p0, Lcom/google/firebase/AutoValue_StartupTime;->uptimeMillis:J
 
     .line 29
     .line 30
@@ -327,8 +303,7 @@
 
     .line 31
     .line 32
-    invoke-static {v0, v1, v2, v3}, LA/d;
-    ->i(Ljava/lang/StringBuilder;JLjava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1, v2, v3}, LA/d;->i(Ljava/lang/StringBuilder;JLjava/lang/String;)Ljava/lang/String;
 
     .line 33
     .line 34

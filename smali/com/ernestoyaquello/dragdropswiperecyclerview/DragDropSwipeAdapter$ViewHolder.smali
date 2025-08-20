@@ -57,14 +57,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    -><init>(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
 
     .line 7
     .line 8
@@ -78,8 +76,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->behindSwipedItemLayout:Landroid/view/View;
+    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->behindSwipedItemLayout:Landroid/view/View;
 
     .line 2
     .line 3
@@ -90,8 +87,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->behindSwipedItemSecondaryLayout:Landroid/view/View;
+    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->behindSwipedItemSecondaryLayout:Landroid/view/View;
 
     .line 2
     .line 3
@@ -108,8 +104,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->canBeDragged:Lp1/a;
+    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->canBeDragged:Lp1/a;
 
     .line 2
     .line 3
@@ -126,8 +121,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->canBeDroppedOver:Lp1/a;
+    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->canBeDroppedOver:Lp1/a;
 
     .line 2
     .line 3
@@ -144,8 +138,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->canBeSwiped:Lp1/a;
+    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->canBeSwiped:Lp1/a;
 
     .line 2
     .line 3
@@ -156,8 +149,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->isBeingDragged:Z
+    iget-boolean v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->isBeingDragged:Z
 
     .line 2
     .line 3
@@ -168,8 +160,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->isBeingSwiped:Z
+    iget-boolean v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->isBeingSwiped:Z
 
     .line 2
     .line 3
@@ -180,8 +171,7 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->behindSwipedItemLayout:Landroid/view/View;
+    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->behindSwipedItemLayout:Landroid/view/View;
 
     .line 2
     .line 3
@@ -192,8 +182,7 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->behindSwipedItemSecondaryLayout:Landroid/view/View;
+    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->behindSwipedItemSecondaryLayout:Landroid/view/View;
 
     .line 2
     .line 3
@@ -204,8 +193,7 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->isBeingDragged:Z
+    iput-boolean p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->isBeingDragged:Z
 
     .line 2
     .line 3
@@ -216,8 +204,7 @@
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->isBeingSwiped:Z
+    iput-boolean p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->isBeingSwiped:Z
 
     .line 2
     .line 3
@@ -235,8 +222,7 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->canBeDragged:Lp1/a;
+    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->canBeDragged:Lp1/a;
 
     .line 2
     .line 3
@@ -254,8 +240,7 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->canBeDroppedOver:Lp1/a;
+    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->canBeDroppedOver:Lp1/a;
 
     .line 2
     .line 3
@@ -273,8 +258,7 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->canBeSwiped:Lp1/a;
+    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->canBeSwiped:Lp1/a;
 
     .line 2
     .line 3

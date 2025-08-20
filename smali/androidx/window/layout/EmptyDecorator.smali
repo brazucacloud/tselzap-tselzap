@@ -16,11 +16,9 @@
 
     new-instance v0, Landroidx/window/layout/EmptyDecorator;
 
-    invoke-direct {v0}, Landroidx/window/layout/EmptyDecorator;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/window/layout/EmptyDecorator;-><init>()V
 
-    sput-object v0, Landroidx/window/layout/EmptyDecorator;
-    ->INSTANCE:Landroidx/window/layout/EmptyDecorator;
+    sput-object v0, Landroidx/window/layout/EmptyDecorator;->INSTANCE:Landroidx/window/layout/EmptyDecorator;
 
     return-void
 .end method
@@ -29,8 +27,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -45,8 +42,7 @@
 
     const-string v0, "tracker"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 return-object p1
 .end method
 

@@ -27,20 +27,17 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LeafByteString;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LeafByteString;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 5
     .line 6
     .line 7
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->bytes:[B    
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->bytes:[B
     return-void
 .end method
 
@@ -50,13 +47,11 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->bytes:[B
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->bytes:[B
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->getOffsetIntoBytes()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->getOffsetIntoBytes()I
 
     .line 4
     .line 5
@@ -64,8 +59,7 @@
     move-result v1
 
     .line 7
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->size()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->size()I
 
     .line 8
     .line 9
@@ -73,8 +67,7 @@
     move-result v2
 
     .line 11
-    invoke-static {v0, v1, v2}, Ljava/nio/ByteBuffer;
-    ->wrap([BII)Ljava/nio/ByteBuffer;
+    invoke-static {v0, v1, v2}, Ljava/nio/ByteBuffer;->wrap([BII)Ljava/nio/ByteBuffer;
 
     .line 12
     .line 13
@@ -82,8 +75,7 @@
     move-result-object v0
 
     .line 15
-    invoke-virtual {v0}, Ljava/nio/ByteBuffer;
-    ->asReadOnlyBuffer()Ljava/nio/ByteBuffer;
+    invoke-virtual {v0}, Ljava/nio/ByteBuffer;->asReadOnlyBuffer()Ljava/nio/ByteBuffer;
 
     .line 16
     .line 17
@@ -105,8 +97,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->asReadOnlyByteBuffer()Ljava/nio/ByteBuffer;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->asReadOnlyByteBuffer()Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
@@ -114,8 +105,7 @@
     move-result-object v0
 
     .line 5
-    invoke-static {v0}, Ljava/util/Collections;
-    ->singletonList(Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {v0}, Ljava/util/Collections;->singletonList(Ljava/lang/Object;)Ljava/util/List;
 
     .line 6
     .line 7
@@ -129,8 +119,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->bytes:[B
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->bytes:[B
 
     .line 2
     .line 3
@@ -141,13 +130,11 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->bytes:[B
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->bytes:[B
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->getOffsetIntoBytes()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->getOffsetIntoBytes()I
 
     .line 4
     .line 5
@@ -155,8 +142,7 @@
     move-result v1
 
     .line 7
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->size()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->size()I
 
     .line 8
     .line 9
@@ -164,8 +150,7 @@
     move-result v2
 
     .line 11
-    invoke-virtual {p1, v0, v1, v2}, Ljava/nio/ByteBuffer;
-    ->put([BII)Ljava/nio/ByteBuffer;    
+    invoke-virtual {p1, v0, v1, v2}, Ljava/nio/ByteBuffer;->put([BII)Ljava/nio/ByteBuffer;
     return-void
 .end method
 
@@ -173,13 +158,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->bytes:[B
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->bytes:[B
 
     .line 2
     .line 3
-    invoke-static {v0, p2, p1, p3, p4}, Ljava/lang/System;
-    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {v0, p2, p1, p3, p4}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 return-void
 .end method
 
@@ -205,8 +188,7 @@ return-void
 
     .line 11
     :cond_1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->size()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->size()I
 
     .line 12
     .line 13
@@ -221,8 +203,7 @@ return-void
 
     .line 17
     .line 18
-    invoke-virtual {v3}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->size()I
+    invoke-virtual {v3}, Landroidx/datastore/preferences/protobuf/ByteString;->size()I
 
     .line 19
     .line 20
@@ -234,8 +215,7 @@ return-void
 
     .line 25
     :cond_2
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->size()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->size()I
 
     .line 26
     .line 27
@@ -259,8 +239,7 @@ return-void
 
     .line 37
     .line 38
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->peekCachedHashCode()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString;->peekCachedHashCode()I
 
     .line 39
     .line 40
@@ -268,8 +247,7 @@ return-void
     move-result v0
 
     .line 42
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->peekCachedHashCode()I
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;->peekCachedHashCode()I
 
     .line 43
     .line 44
@@ -289,8 +267,7 @@ return-void
 
     .line 53
     :cond_4
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->size()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->size()I
 
     .line 54
     .line 55
@@ -298,8 +275,7 @@ return-void
     move-result v0
 
     .line 57
-    invoke-virtual {p0, p1, v2, v0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->equalsRange(Landroidx/datastore/preferences/protobuf/ByteString;II)Z
+    invoke-virtual {p0, p1, v2, v0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->equalsRange(Landroidx/datastore/preferences/protobuf/ByteString;II)Z
 
     .line 58
     .line 59
@@ -310,8 +286,7 @@ return-void
 
     .line 62
     :cond_5
-    invoke-virtual {p1, p0}, Ljava/lang/Object;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, p0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     .line 63
     .line 64
@@ -325,8 +300,7 @@ return-void
     .locals 5
 
     .line 1
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->size()I
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;->size()I
 
     .line 2
     .line 3
@@ -342,8 +316,7 @@ return-void
 
     .line 8
     .line 9
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->size()I
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;->size()I
 
     .line 10
     .line 11
@@ -370,18 +343,15 @@ return-void
 
     .line 21
     .line 22
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->bytes:[B
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->bytes:[B
 
     .line 23
     .line 24
-    iget-object v1, p1, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->bytes:[B
+    iget-object v1, p1, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->bytes:[B
 
     .line 25
     .line 26
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->getOffsetIntoBytes()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->getOffsetIntoBytes()I
 
     .line 27
     .line 28
@@ -392,8 +362,7 @@ return-void
     add-int/2addr v3, p3
 
     .line 31
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->getOffsetIntoBytes()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->getOffsetIntoBytes()I
 
     .line 32
     .line 33
@@ -401,8 +370,7 @@ return-void
     move-result p3
 
     .line 35
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->getOffsetIntoBytes()I
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->getOffsetIntoBytes()I
 
     .line 36
     .line 37
@@ -448,8 +416,7 @@ return-void
 
     .line 56
     :cond_2
-    invoke-virtual {p1, p2, v0}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->substring(II)Landroidx/datastore/preferences/protobuf/ByteString;
+    invoke-virtual {p1, p2, v0}, Landroidx/datastore/preferences/protobuf/ByteString;->substring(II)Landroidx/datastore/preferences/protobuf/ByteString;
 
     .line 57
     .line 58
@@ -457,8 +424,7 @@ return-void
     move-result-object p1
 
     .line 60
-    invoke-virtual {p0, v2, p3}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->substring(II)Landroidx/datastore/preferences/protobuf/ByteString;
+    invoke-virtual {p0, v2, p3}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->substring(II)Landroidx/datastore/preferences/protobuf/ByteString;
 
     .line 61
     .line 62
@@ -466,8 +432,7 @@ return-void
     move-result-object p2
 
     .line 64
-    invoke-virtual {p1, p2}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, p2}, Landroidx/datastore/preferences/protobuf/ByteString;->equals(Ljava/lang/Object;)Z
 
     .line 65
     .line 66
@@ -490,8 +455,7 @@ return-void
 
     .line 74
     .line 75
-    invoke-static {v1, p2, v2, p3, v2}, LA/d;
-    ->q(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, p2, v2, p3, v2}, LA/d;->q(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 76
     .line 77
@@ -499,8 +463,7 @@ return-void
     move-result-object p2
 
     .line 79
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->size()I
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;->size()I
 
     .line 80
     .line 81
@@ -508,14 +471,12 @@ return-void
     move-result p1
 
     .line 83
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 84
     .line 85
     .line 86
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 87
     .line 88
@@ -523,8 +484,7 @@ return-void
     move-result-object p1
 
     .line 90
-    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 91
     .line 92
@@ -545,20 +505,17 @@ return-void
 
     .line 99
     .line 100
-    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 101
     .line 102
     .line 103
-    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 104
     .line 105
     .line 106
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->size()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->size()I
 
     .line 107
     .line 108
@@ -566,14 +523,12 @@ return-void
     move-result p3
 
     .line 110
-    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 111
     .line 112
     .line 113
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 114
     .line 115
@@ -581,8 +536,7 @@ return-void
     move-result-object p2
 
     .line 117
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 118
     .line 119
@@ -601,8 +555,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->bytes:[B
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->bytes:[B
 
     .line 2
     .line 3
@@ -613,8 +566,7 @@ return-void
     .locals 3
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->getOffsetIntoBytes()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->getOffsetIntoBytes()I
 
     .line 2
     .line 3
@@ -622,13 +574,11 @@ return-void
     move-result v0
 
     .line 5
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->bytes:[B
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->bytes:[B
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->size()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->size()I
 
     .line 8
     .line 9
@@ -639,8 +589,7 @@ return-void
     add-int/2addr v2, v0
 
     .line 12
-    invoke-static {v1, v0, v2}, Landroidx/datastore/preferences/protobuf/Utf8;
-    ->isValidUtf8([BII)Z
+    invoke-static {v1, v0, v2}, Landroidx/datastore/preferences/protobuf/Utf8;->isValidUtf8([BII)Z
 
     .line 13
     .line 14
@@ -654,13 +603,11 @@ return-void
     .locals 4
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->bytes:[B
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->bytes:[B
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->getOffsetIntoBytes()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->getOffsetIntoBytes()I
 
     .line 4
     .line 5
@@ -668,8 +615,7 @@ return-void
     move-result v1
 
     .line 7
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->size()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->size()I
 
     .line 8
     .line 9
@@ -680,8 +626,7 @@ return-void
     const/4 v3, 0x1
 
     .line 12
-    invoke-static {v0, v1, v2, v3}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->newInstance([BIIZ)Landroidx/datastore/preferences/protobuf/CodedInputStream;
+    invoke-static {v0, v1, v2, v3}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->newInstance([BIIZ)Landroidx/datastore/preferences/protobuf/CodedInputStream;
 
     .line 13
     .line 14
@@ -699,13 +644,11 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->bytes:[B
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->bytes:[B
 
     .line 4
     .line 5
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->getOffsetIntoBytes()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->getOffsetIntoBytes()I
 
     .line 6
     .line 7
@@ -713,8 +656,7 @@ return-void
     move-result v2
 
     .line 9
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->size()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->size()I
 
     .line 10
     .line 11
@@ -722,8 +664,7 @@ return-void
     move-result v3
 
     .line 13
-    invoke-direct {v0, v1, v2, v3}, Ljava/io/ByteArrayInputStream;
-    -><init>([BII)V
+    invoke-direct {v0, v1, v2, v3}, Ljava/io/ByteArrayInputStream;-><init>([BII)V
     return-object v0
 .end method
 
@@ -731,13 +672,11 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->bytes:[B
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->bytes:[B
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->getOffsetIntoBytes()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->getOffsetIntoBytes()I
 
     .line 4
     .line 5
@@ -748,8 +687,7 @@ return-void
     add-int/2addr v1, p2
 
     .line 8
-    invoke-static {p1, v0, v1, p3}, Landroidx/datastore/preferences/protobuf/Internal;
-    ->partialHash(I[BII)I
+    invoke-static {p1, v0, v1, p3}, Landroidx/datastore/preferences/protobuf/Internal;->partialHash(I[BII)I
 
     .line 9
     .line 10
@@ -763,8 +701,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->getOffsetIntoBytes()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->getOffsetIntoBytes()I
 
     .line 2
     .line 3
@@ -775,16 +712,14 @@ return-void
     add-int/2addr v0, p2
 
     .line 6
-    iget-object p2, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->bytes:[B
+    iget-object p2, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->bytes:[B
 
     .line 7
     .line 8
     add-int/2addr p3, v0
 
     .line 9
-    invoke-static {p1, p2, v0, p3}, Landroidx/datastore/preferences/protobuf/Utf8;
-    ->partialIsValidUtf8(I[BII)I
+    invoke-static {p1, p2, v0, p3}, Landroidx/datastore/preferences/protobuf/Utf8;->partialIsValidUtf8(I[BII)I
 
     .line 10
     .line 11
@@ -798,8 +733,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->bytes:[B
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->bytes:[B
 
     .line 2
     .line 3
@@ -812,8 +746,7 @@ return-void
     .locals 3
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->size()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->size()I
 
     .line 2
     .line 3
@@ -821,8 +754,7 @@ return-void
     move-result v0
 
     .line 5
-    invoke-static {p1, p2, v0}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->checkRange(III)I
+    invoke-static {p1, p2, v0}, Landroidx/datastore/preferences/protobuf/ByteString;->checkRange(III)I
 
     .line 6
     .line 7
@@ -834,8 +766,7 @@ return-void
 
     .line 10
     .line 11
-    sget-object p1, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->EMPTY:Landroidx/datastore/preferences/protobuf/ByteString;    return-object p1
+    sget-object p1, Landroidx/datastore/preferences/protobuf/ByteString;->EMPTY:Landroidx/datastore/preferences/protobuf/ByteString;    return-object p1
 
     .line 14
     :cond_0
@@ -843,13 +774,11 @@ return-void
 
     .line 15
     .line 16
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->bytes:[B
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->bytes:[B
 
     .line 17
     .line 18
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->getOffsetIntoBytes()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->getOffsetIntoBytes()I
 
     .line 19
     .line 20
@@ -860,8 +789,7 @@ return-void
     add-int/2addr v2, p1
 
     .line 23
-    invoke-direct {v0, v1, v2, p2}, Landroidx/datastore/preferences/protobuf/ByteString$BoundedByteString;
-    -><init>([BII)V
+    invoke-direct {v0, v1, v2, p2}, Landroidx/datastore/preferences/protobuf/ByteString$BoundedByteString;-><init>([BII)V
     return-object v0
 .end method
 
@@ -873,13 +801,11 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->bytes:[B
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->bytes:[B
 
     .line 4
     .line 5
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->getOffsetIntoBytes()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->getOffsetIntoBytes()I
 
     .line 6
     .line 7
@@ -887,8 +813,7 @@ return-void
     move-result v2
 
     .line 9
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->size()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->size()I
 
     .line 10
     .line 11
@@ -896,8 +821,7 @@ return-void
     move-result v3
 
     .line 13
-    invoke-direct {v0, v1, v2, v3, p1}, Ljava/lang/String;
-    -><init>([BIILjava/nio/charset/Charset;)V
+    invoke-direct {v0, v1, v2, v3, p1}, Ljava/lang/String;-><init>([BIILjava/nio/charset/Charset;)V
     return-object v0
 .end method
 
@@ -905,21 +829,17 @@ return-void
     .locals 3
 
     .line 2
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->bytes:[B
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->bytes:[B
 
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->getOffsetIntoBytes()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->getOffsetIntoBytes()I
 
     move-result v1
 
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->size()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->size()I
 
     move-result v2
 
-    invoke-virtual {p1, v0, v1, v2}, Landroidx/datastore/preferences/protobuf/ByteOutput;
-    ->writeLazy([BII)V
+    invoke-virtual {p1, v0, v1, v2}, Landroidx/datastore/preferences/protobuf/ByteOutput;->writeLazy([BII)V
     return-void
 .end method
 
@@ -927,13 +847,11 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->toByteArray()[B
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString;->toByteArray()[B
 
     move-result-object v0
 
-    invoke-virtual {p1, v0}, Ljava/io/OutputStream;
-    ->write([B)V
+    invoke-virtual {p1, v0}, Ljava/io/OutputStream;->write([B)V
     return-void
 .end method
 
@@ -941,13 +859,11 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->bytes:[B
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->bytes:[B
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;
-    ->getOffsetIntoBytes()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$LiteralByteString;->getOffsetIntoBytes()I
 
     .line 4
     .line 5
@@ -958,8 +874,7 @@ return-void
     add-int/2addr v1, p2
 
     .line 8
-    invoke-virtual {p1, v0, v1, p3}, Ljava/io/OutputStream;
-    ->write([BII)V
+    invoke-virtual {p1, v0, v1, p3}, Ljava/io/OutputStream;->write([BII)V
     return-void
 .end method
 

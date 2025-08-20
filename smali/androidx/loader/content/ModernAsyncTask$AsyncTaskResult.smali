@@ -47,19 +47,16 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/loader/content/ModernAsyncTask$AsyncTaskResult;
-    ->mTask:Landroidx/loader/content/ModernAsyncTask;
+    iput-object p1, p0, Landroidx/loader/content/ModernAsyncTask$AsyncTaskResult;->mTask:Landroidx/loader/content/ModernAsyncTask;
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/loader/content/ModernAsyncTask$AsyncTaskResult;
-    ->mData:[Ljava/lang/Object;    
+    iput-object p2, p0, Landroidx/loader/content/ModernAsyncTask$AsyncTaskResult;->mData:[Ljava/lang/Object;
     return-void
 .end method
 

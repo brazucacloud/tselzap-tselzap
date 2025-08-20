@@ -9,8 +9,7 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -56,19 +55,16 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;
-    ->mContext:Landroid/content/Context;
+    iput-object p1, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;->mContext:Landroid/content/Context;
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;
-    ->mWrappedCallback:Landroid/view/ActionMode$Callback;
+    iput-object p2, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;->mWrappedCallback:Landroid/view/ActionMode$Callback;
 
     .line 7
     .line 8
@@ -76,14 +72,12 @@
 
     .line 9
     .line 10
-    invoke-direct {p1}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     .line 11
     .line 12
     .line 13
-    iput-object p1, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;
-    ->mActionModes:Ljava/util/ArrayList;
+    iput-object p1, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;->mActionModes:Ljava/util/ArrayList;
 
     .line 14
     .line 15
@@ -91,14 +85,12 @@
 
     .line 16
     .line 17
-    invoke-direct {p1}, Landroidx/collection/SimpleArrayMap;
-    -><init>()V
+    invoke-direct {p1}, Landroidx/collection/SimpleArrayMap;-><init>()V
 
     .line 18
     .line 19
     .line 20
-    iput-object p1, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;
-    ->mMenus:Landroidx/collection/SimpleArrayMap;    
+    iput-object p1, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;->mMenus:Landroidx/collection/SimpleArrayMap;
     return-void
 .end method
 
@@ -106,13 +98,11 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;
-    ->mMenus:Landroidx/collection/SimpleArrayMap;
+    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;->mMenus:Landroidx/collection/SimpleArrayMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/collection/SimpleArrayMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Landroidx/collection/SimpleArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -132,8 +122,7 @@
 
     .line 12
     .line 13
-    iget-object v1, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;
-    ->mContext:Landroid/content/Context;
+    iget-object v1, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;->mContext:Landroid/content/Context;
 
     .line 14
     .line 15
@@ -144,19 +133,16 @@
 
     .line 17
     .line 18
-    invoke-direct {v0, v1, v2}, Landroidx/appcompat/view/menu/MenuWrapperICS;
-    -><init>(Landroid/content/Context;Landroidx/core/internal/view/SupportMenu;)V
+    invoke-direct {v0, v1, v2}, Landroidx/appcompat/view/menu/MenuWrapperICS;-><init>(Landroid/content/Context;Landroidx/core/internal/view/SupportMenu;)V
 
     .line 19
     .line 20
     .line 21
-    iget-object v1, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;
-    ->mMenus:Landroidx/collection/SimpleArrayMap;
+    iget-object v1, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;->mMenus:Landroidx/collection/SimpleArrayMap;
 
     .line 22
     .line 23
-    invoke-virtual {v1, p1, v0}, Landroidx/collection/SimpleArrayMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1, v0}, Landroidx/collection/SimpleArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 24
     .line 25
@@ -171,13 +157,11 @@
     .locals 4
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;
-    ->mActionModes:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;->mActionModes:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     .line 4
     .line 5
@@ -193,13 +177,11 @@
 
     .line 9
     .line 10
-    iget-object v2, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;
-    ->mActionModes:Ljava/util/ArrayList;
+    iget-object v2, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;->mActionModes:Ljava/util/ArrayList;
 
     .line 11
     .line 12
-    invoke-virtual {v2, v1}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {v2, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -215,8 +197,7 @@
 
     .line 19
     .line 20
-    iget-object v3, v2, Landroidx/appcompat/view/SupportActionModeWrapper;
-    ->mWrappedObject:Landroidx/appcompat/view/ActionMode;
+    iget-object v3, v2, Landroidx/appcompat/view/SupportActionModeWrapper;->mWrappedObject:Landroidx/appcompat/view/ActionMode;
 
     .line 21
     .line 22
@@ -236,24 +217,20 @@
 
     .line 29
     .line 30
-    iget-object v1, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;
-    ->mContext:Landroid/content/Context;
+    iget-object v1, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;->mContext:Landroid/content/Context;
 
     .line 31
     .line 32
-    invoke-direct {v0, v1, p1}, Landroidx/appcompat/view/SupportActionModeWrapper;
-    -><init>(Landroid/content/Context;Landroidx/appcompat/view/ActionMode;)V
+    invoke-direct {v0, v1, p1}, Landroidx/appcompat/view/SupportActionModeWrapper;-><init>(Landroid/content/Context;Landroidx/appcompat/view/ActionMode;)V
 
     .line 33
     .line 34
     .line 35
-    iget-object p1, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;
-    ->mActionModes:Ljava/util/ArrayList;
+    iget-object p1, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;->mActionModes:Ljava/util/ArrayList;
 
     .line 36
     .line 37
-    invoke-virtual {p1, v0}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v0}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 return-object v0
 .end method
 
@@ -261,13 +238,11 @@ return-object v0
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;
-    ->mWrappedCallback:Landroid/view/ActionMode$Callback;
+    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;->mWrappedCallback:Landroid/view/ActionMode$Callback;
 
     .line 2
     .line 3
-    invoke-virtual {p0, p1}, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;
-    ->getActionModeWrapper(Landroidx/appcompat/view/ActionMode;)Landroid/view/ActionMode;
+    invoke-virtual {p0, p1}, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;->getActionModeWrapper(Landroidx/appcompat/view/ActionMode;)Landroid/view/ActionMode;
 
     .line 4
     .line 5
@@ -279,8 +254,7 @@ return-object v0
 
     .line 8
     .line 9
-    iget-object v2, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;
-    ->mContext:Landroid/content/Context;
+    iget-object v2, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;->mContext:Landroid/content/Context;
 
     .line 10
     .line 11
@@ -288,14 +262,12 @@ return-object v0
 
     .line 12
     .line 13
-    invoke-direct {v1, v2, p2}, Landroidx/appcompat/view/menu/MenuItemWrapperICS;
-    -><init>(Landroid/content/Context;Landroidx/core/internal/view/SupportMenuItem;)V
+    invoke-direct {v1, v2, p2}, Landroidx/appcompat/view/menu/MenuItemWrapperICS;-><init>(Landroid/content/Context;Landroidx/core/internal/view/SupportMenuItem;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-interface {v0, p1, v1}, Landroid/view/ActionMode$Callback;
-    ->onActionItemClicked(Landroid/view/ActionMode;Landroid/view/MenuItem;)Z
+    invoke-interface {v0, p1, v1}, Landroid/view/ActionMode$Callback;->onActionItemClicked(Landroid/view/ActionMode;Landroid/view/MenuItem;)Z
 
     .line 17
     .line 18
@@ -309,13 +281,11 @@ return-object v0
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;
-    ->mWrappedCallback:Landroid/view/ActionMode$Callback;
+    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;->mWrappedCallback:Landroid/view/ActionMode$Callback;
 
     .line 2
     .line 3
-    invoke-virtual {p0, p1}, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;
-    ->getActionModeWrapper(Landroidx/appcompat/view/ActionMode;)Landroid/view/ActionMode;
+    invoke-virtual {p0, p1}, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;->getActionModeWrapper(Landroidx/appcompat/view/ActionMode;)Landroid/view/ActionMode;
 
     .line 4
     .line 5
@@ -323,8 +293,7 @@ return-object v0
     move-result-object p1
 
     .line 7
-    invoke-direct {p0, p2}, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;
-    ->getMenuWrapper(Landroid/view/Menu;)Landroid/view/Menu;
+    invoke-direct {p0, p2}, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;->getMenuWrapper(Landroid/view/Menu;)Landroid/view/Menu;
 
     .line 8
     .line 9
@@ -332,8 +301,7 @@ return-object v0
     move-result-object p2
 
     .line 11
-    invoke-interface {v0, p1, p2}, Landroid/view/ActionMode$Callback;
-    ->onCreateActionMode(Landroid/view/ActionMode;Landroid/view/Menu;)Z
+    invoke-interface {v0, p1, p2}, Landroid/view/ActionMode$Callback;->onCreateActionMode(Landroid/view/ActionMode;Landroid/view/Menu;)Z
 
     .line 12
     .line 13
@@ -347,13 +315,11 @@ return-object v0
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;
-    ->mWrappedCallback:Landroid/view/ActionMode$Callback;
+    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;->mWrappedCallback:Landroid/view/ActionMode$Callback;
 
     .line 2
     .line 3
-    invoke-virtual {p0, p1}, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;
-    ->getActionModeWrapper(Landroidx/appcompat/view/ActionMode;)Landroid/view/ActionMode;
+    invoke-virtual {p0, p1}, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;->getActionModeWrapper(Landroidx/appcompat/view/ActionMode;)Landroid/view/ActionMode;
 
     .line 4
     .line 5
@@ -361,8 +327,7 @@ return-object v0
     move-result-object p1
 
     .line 7
-    invoke-interface {v0, p1}, Landroid/view/ActionMode$Callback;
-    ->onDestroyActionMode(Landroid/view/ActionMode;)V
+    invoke-interface {v0, p1}, Landroid/view/ActionMode$Callback;->onDestroyActionMode(Landroid/view/ActionMode;)V
 return-void
 .end method
 
@@ -370,13 +335,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;
-    ->mWrappedCallback:Landroid/view/ActionMode$Callback;
+    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;->mWrappedCallback:Landroid/view/ActionMode$Callback;
 
     .line 2
     .line 3
-    invoke-virtual {p0, p1}, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;
-    ->getActionModeWrapper(Landroidx/appcompat/view/ActionMode;)Landroid/view/ActionMode;
+    invoke-virtual {p0, p1}, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;->getActionModeWrapper(Landroidx/appcompat/view/ActionMode;)Landroid/view/ActionMode;
 
     .line 4
     .line 5
@@ -384,8 +347,7 @@ return-void
     move-result-object p1
 
     .line 7
-    invoke-direct {p0, p2}, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;
-    ->getMenuWrapper(Landroid/view/Menu;)Landroid/view/Menu;
+    invoke-direct {p0, p2}, Landroidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper;->getMenuWrapper(Landroid/view/Menu;)Landroid/view/Menu;
 
     .line 8
     .line 9
@@ -393,8 +355,7 @@ return-void
     move-result-object p2
 
     .line 11
-    invoke-interface {v0, p1, p2}, Landroid/view/ActionMode$Callback;
-    ->onPrepareActionMode(Landroid/view/ActionMode;Landroid/view/Menu;)Z
+    invoke-interface {v0, p1, p2}, Landroid/view/ActionMode$Callback;->onPrepareActionMode(Landroid/view/ActionMode;Landroid/view/Menu;)Z
 
     .line 12
     .line 13

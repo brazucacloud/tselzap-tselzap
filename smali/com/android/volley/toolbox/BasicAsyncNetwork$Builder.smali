@@ -36,22 +36,19 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$Builder;
-    ->mAsyncStack:Lcom/android/volley/toolbox/AsyncHttpStack;
+    iput-object p1, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$Builder;->mAsyncStack:Lcom/android/volley/toolbox/AsyncHttpStack;
 
     .line 5
     .line 6
     const/4 p1, 0x0
 
     .line 7
-    iput-object p1, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$Builder;
-    ->mPool:Lcom/android/volley/toolbox/ByteArrayPool;
+    iput-object p1, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$Builder;->mPool:Lcom/android/volley/toolbox/ByteArrayPool;
 
     .line 8
     .line 9
@@ -64,8 +61,7 @@
     .locals 4
 
     .line 1
-    iget-object v0, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$Builder;
-    ->mPool:Lcom/android/volley/toolbox/ByteArrayPool;
+    iget-object v0, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$Builder;->mPool:Lcom/android/volley/toolbox/ByteArrayPool;
 
     .line 2
     .line 3
@@ -81,14 +77,12 @@
 
     .line 8
     .line 9
-    invoke-direct {v0, v1}, Lcom/android/volley/toolbox/ByteArrayPool;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Lcom/android/volley/toolbox/ByteArrayPool;-><init>(I)V
 
     .line 10
     .line 11
     .line 12
-    iput-object v0, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$Builder;
-    ->mPool:Lcom/android/volley/toolbox/ByteArrayPool;
+    iput-object v0, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$Builder;->mPool:Lcom/android/volley/toolbox/ByteArrayPool;
 
     .line 13
     .line 14
@@ -97,21 +91,18 @@
 
     .line 15
     .line 16
-    iget-object v1, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$Builder;
-    ->mAsyncStack:Lcom/android/volley/toolbox/AsyncHttpStack;
+    iget-object v1, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$Builder;->mAsyncStack:Lcom/android/volley/toolbox/AsyncHttpStack;
 
     .line 17
     .line 18
-    iget-object v2, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$Builder;
-    ->mPool:Lcom/android/volley/toolbox/ByteArrayPool;
+    iget-object v2, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$Builder;->mPool:Lcom/android/volley/toolbox/ByteArrayPool;
 
     .line 19
     .line 20
     const/4 v3, 0x0
 
     .line 21
-    invoke-direct {v0, v1, v2, v3}, Lcom/android/volley/toolbox/BasicAsyncNetwork;
-    -><init>(Lcom/android/volley/toolbox/AsyncHttpStack;Lcom/android/volley/toolbox/ByteArrayPool;Lcom/android/volley/toolbox/BasicAsyncNetwork$1;)V
+    invoke-direct {v0, v1, v2, v3}, Lcom/android/volley/toolbox/BasicAsyncNetwork;-><init>(Lcom/android/volley/toolbox/AsyncHttpStack;Lcom/android/volley/toolbox/ByteArrayPool;Lcom/android/volley/toolbox/BasicAsyncNetwork$1;)V
 
     .line 22
     .line 23
@@ -123,8 +114,7 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$Builder;
-    ->mPool:Lcom/android/volley/toolbox/ByteArrayPool;
+    iput-object p1, p0, Lcom/android/volley/toolbox/BasicAsyncNetwork$Builder;->mPool:Lcom/android/volley/toolbox/ByteArrayPool;
 
     .line 2
     .line 3

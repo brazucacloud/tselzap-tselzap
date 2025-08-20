@@ -40,8 +40,7 @@
 
     const/4 v3, 0x0
 
-    invoke-direct {p0, v2, v3, v0, v1}, Landroidx/collection/internal/LruHashMap;
-    -><init>(IFILkotlin/jvm/internal/e;)V
+    invoke-direct {p0, v2, v3, v0, v1}, Landroidx/collection/internal/LruHashMap;-><init>(IFILkotlin/jvm/internal/e;)V
 return-void
 .end method
 
@@ -49,19 +48,16 @@ return-void
     .locals 2
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 3
     new-instance v0, Ljava/util/LinkedHashMap;
 
     const/4 v1, 0x1
 
-    invoke-direct {v0, p1, p2, v1}, Ljava/util/LinkedHashMap;
-    -><init>(IFZ)V
+    invoke-direct {v0, p1, p2, v1}, Ljava/util/LinkedHashMap;-><init>(IFZ)V
 
-    iput-object v0, p0, Landroidx/collection/internal/LruHashMap;
-    ->map:Ljava/util/LinkedHashMap;
+    iput-object v0, p0, Landroidx/collection/internal/LruHashMap;->map:Ljava/util/LinkedHashMap;
 
     return-void
 .end method
@@ -84,8 +80,7 @@ return-void
 
     .line 4
     :cond_1
-    invoke-direct {p0, p1, p2}, Landroidx/collection/internal/LruHashMap;
-    -><init>(IF)V
+    invoke-direct {p0, p1, p2}, Landroidx/collection/internal/LruHashMap;-><init>(IF)V
 return-void
 .end method
 
@@ -101,8 +96,7 @@ return-void
 
     const-string v0, "original"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x3
 
@@ -113,48 +107,40 @@ return-void
     const/4 v3, 0x0
 
     .line 5
-    invoke-direct {p0, v2, v3, v0, v1}, Landroidx/collection/internal/LruHashMap;
-    -><init>(IFILkotlin/jvm/internal/e;)V
+    invoke-direct {p0, v2, v3, v0, v1}, Landroidx/collection/internal/LruHashMap;-><init>(IFILkotlin/jvm/internal/e;)V
 
     .line 6
-    invoke-virtual {p1}, Landroidx/collection/internal/LruHashMap;
-    ->getEntries()Ljava/util/Set;
+    invoke-virtual {p1}, Landroidx/collection/internal/LruHashMap;->getEntries()Ljava/util/Set;
 
     move-result-object p1
 
-    invoke-interface {p1}, Ljava/util/Set;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/util/Map$Entry;
 
-    invoke-interface {v0}, Ljava/util/Map$Entry;
-    ->getKey()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v1
 
-    invoke-interface {v0}, Ljava/util/Map$Entry;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v0
 
     .line 7
-    invoke-virtual {p0, v1, v0}, Landroidx/collection/internal/LruHashMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v1, v0}, Landroidx/collection/internal/LruHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
@@ -177,19 +163,16 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/collection/internal/LruHashMap;
-    ->map:Ljava/util/LinkedHashMap;
+    iget-object v0, p0, Landroidx/collection/internal/LruHashMap;->map:Ljava/util/LinkedHashMap;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Ljava/util/LinkedHashMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Ljava/util/LinkedHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -211,13 +194,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/internal/LruHashMap;
-    ->map:Ljava/util/LinkedHashMap;
+    iget-object v0, p0, Landroidx/collection/internal/LruHashMap;->map:Ljava/util/LinkedHashMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/LinkedHashMap;
-    ->entrySet()Ljava/util/Set;
+    invoke-virtual {v0}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
 
     .line 4
     .line 5
@@ -229,8 +210,7 @@ return-void
 
     .line 8
     .line 9
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
     return-object v0
 .end method
 
@@ -238,13 +218,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/internal/LruHashMap;
-    ->map:Ljava/util/LinkedHashMap;
+    iget-object v0, p0, Landroidx/collection/internal/LruHashMap;->map:Ljava/util/LinkedHashMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/AbstractMap;
-    ->isEmpty()Z
+    invoke-virtual {v0}, Ljava/util/AbstractMap;->isEmpty()Z
 
     .line 4
     .line 5
@@ -267,8 +245,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -277,19 +254,16 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/collection/internal/LruHashMap;
-    ->map:Ljava/util/LinkedHashMap;
+    iget-object v0, p0, Landroidx/collection/internal/LruHashMap;->map:Ljava/util/LinkedHashMap;
 
     .line 12
     .line 13
-    invoke-virtual {v0, p1, p2}, Ljava/util/AbstractMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, p2}, Ljava/util/AbstractMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -312,19 +286,16 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/collection/internal/LruHashMap;
-    ->map:Ljava/util/LinkedHashMap;
+    iget-object v0, p0, Landroidx/collection/internal/LruHashMap;->map:Ljava/util/LinkedHashMap;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Ljava/util/AbstractMap;
-    ->remove(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Ljava/util/AbstractMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 9
     .line 10

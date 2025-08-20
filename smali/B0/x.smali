@@ -33,8 +33,7 @@
 
     .line 3
     .line 4
-    sput-object v5, LB0/x;
-    ->j:[Ljava/lang/Object;
+    sput-object v5, LB0/x;->j:[Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -54,14 +53,12 @@
     move-object v6, v5
 
     .line 12
-    invoke-direct/range {v1 .. v6}, LB0/x;
-    -><init>(III[Ljava/lang/Object;[Ljava/lang/Object;)V
+    invoke-direct/range {v1 .. v6}, LB0/x;-><init>(III[Ljava/lang/Object;[Ljava/lang/Object;)V
 
     .line 13
     .line 14
     .line 15
-    sput-object v1, LB0/x;
-    ->k:LB0/x;
+    sput-object v1, LB0/x;->k:LB0/x;
 
     .line 16
     .line 17
@@ -72,34 +69,28 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/util/AbstractCollection;
-    -><init>()V
+    invoke-direct {p0}, Ljava/util/AbstractCollection;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p4, p0, LB0/x;
-    ->e:[Ljava/lang/Object;
+    iput-object p4, p0, LB0/x;->e:[Ljava/lang/Object;
 
     .line 5
     .line 6
-    iput p1, p0, LB0/x;
-    ->f:I
+    iput p1, p0, LB0/x;->f:I
 
     .line 7
     .line 8
-    iput-object p5, p0, LB0/x;
-    ->g:[Ljava/lang/Object;
+    iput-object p5, p0, LB0/x;->g:[Ljava/lang/Object;
 
     .line 9
     .line 10
-    iput p2, p0, LB0/x;
-    ->h:I
+    iput p2, p0, LB0/x;->h:I
 
     .line 11
     .line 12
-    iput p3, p0, LB0/x;
-    ->i:I
+    iput p3, p0, LB0/x;->i:I
 
     .line 13
     .line 14
@@ -112,21 +103,18 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, LB0/x;
-    ->e:[Ljava/lang/Object;
+    iget-object v0, p0, LB0/x;->e:[Ljava/lang/Object;
 
     .line 2
     .line 3
     const/4 v1, 0x0
 
     .line 4
-    iget v2, p0, LB0/x;
-    ->i:I
+    iget v2, p0, LB0/x;->i:I
 
     .line 5
     .line 6
-    invoke-static {v0, v1, p1, v1, v2}, Ljava/lang/System;
-    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {v0, v1, p1, v1, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 7
     .line 8
@@ -138,8 +126,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, LB0/x;
-    ->e:[Ljava/lang/Object;
+    iget-object v0, p0, LB0/x;->e:[Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -150,8 +137,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, LB0/x;
-    ->i:I
+    iget v0, p0, LB0/x;->i:I
 
     .line 2
     .line 3
@@ -169,8 +155,7 @@
 
     .line 3
     .line 4
-    iget-object v1, p0, LB0/x;
-    ->g:[Ljava/lang/Object;
+    iget-object v1, p0, LB0/x;->g:[Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -185,8 +170,7 @@
 
     .line 10
     :cond_0
-    invoke-static {p1}, La/a;
-    ->P(Ljava/lang/Object;)I
+    invoke-static {p1}, La/a;->P(Ljava/lang/Object;)I
 
     .line 11
     .line 12
@@ -195,8 +179,7 @@
 
     .line 14
     :goto_0
-    iget v3, p0, LB0/x;
-    ->h:I
+    iget v3, p0, LB0/x;->h:I
 
     .line 15
     .line 16
@@ -215,8 +198,7 @@
 
     .line 22
     :cond_1
-    invoke-virtual {v3, p1}, Ljava/lang/Object;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v3, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     .line 23
     .line 24
@@ -268,8 +250,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, LB0/x;
-    ->f:I
+    iget v0, p0, LB0/x;->f:I
 
     .line 2
     .line 3
@@ -280,18 +261,15 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, LB0/x;
-    ->e:[Ljava/lang/Object;
+    iget-object v0, p0, LB0/x;->e:[Ljava/lang/Object;
 
     .line 2
     .line 3
-    iget v1, p0, LB0/x;
-    ->i:I
+    iget v1, p0, LB0/x;->i:I
 
     .line 4
     .line 5
-    invoke-static {v1, v0}, LB0/k;
-    ->f(I[Ljava/lang/Object;)LB0/r;
+    invoke-static {v1, v0}, LB0/k;->f(I[Ljava/lang/Object;)LB0/r;
 
     .line 6
     .line 7
@@ -305,8 +283,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, LB0/o;
-    ->f()LB0/k;
+    invoke-virtual {p0}, LB0/o;->f()LB0/k;
 
     .line 2
     .line 3
@@ -317,8 +294,7 @@
     const/4 v1, 0x0
 
     .line 6
-    invoke-virtual {v0, v1}, LB0/k;
-    ->g(I)LB0/i;
+    invoke-virtual {v0, v1}, LB0/k;->g(I)LB0/i;
 
     .line 7
     .line 8
@@ -332,8 +308,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, LB0/x;
-    ->i:I
+    iget v0, p0, LB0/x;->i:I
 
     .line 2
     .line 3

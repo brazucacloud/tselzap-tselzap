@@ -15,16 +15,13 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v0, Ljava/lang/Object;
 
-    invoke-direct {v0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
-    iput-object v0, p0, Lcom/google/android/gms/tasks/zzr;
-    ->zza:Ljava/lang/Object;
+    iput-object v0, p0, Lcom/google/android/gms/tasks/zzr;->zza:Ljava/lang/Object;
 
     return-void
 .end method
@@ -39,8 +36,7 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/tasks/zzr;
-    ->zza:Ljava/lang/Object;
+    iget-object v0, p0, Lcom/google/android/gms/tasks/zzr;->zza:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -48,8 +44,7 @@
 
     .line 4
     :try_start_0
-    iget-object v1, p0, Lcom/google/android/gms/tasks/zzr;
-    ->zzb:Ljava/util/Queue;
+    iget-object v1, p0, Lcom/google/android/gms/tasks/zzr;->zzb:Ljava/util/Queue;
 
     .line 5
     .line 6
@@ -61,14 +56,12 @@
 
     .line 9
     .line 10
-    invoke-direct {v1}, Ljava/util/ArrayDeque;
-    -><init>()V
+    invoke-direct {v1}, Ljava/util/ArrayDeque;-><init>()V
 
     .line 11
     .line 12
     .line 13
-    iput-object v1, p0, Lcom/google/android/gms/tasks/zzr;
-    ->zzb:Ljava/util/Queue;
+    iput-object v1, p0, Lcom/google/android/gms/tasks/zzr;->zzb:Ljava/util/Queue;
 
     .line 14
     .line 15
@@ -84,13 +77,11 @@
     .line 18
     :cond_0
     :goto_0
-    iget-object v1, p0, Lcom/google/android/gms/tasks/zzr;
-    ->zzb:Ljava/util/Queue;
+    iget-object v1, p0, Lcom/google/android/gms/tasks/zzr;->zzb:Ljava/util/Queue;
 
     .line 19
     .line 20
-    invoke-interface {v1, p1}, Ljava/util/Queue;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v1, p1}, Ljava/util/Queue;->add(Ljava/lang/Object;)Z
 
     .line 21
     .line 22
@@ -118,8 +109,7 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/tasks/zzr;
-    ->zza:Ljava/lang/Object;
+    iget-object v0, p0, Lcom/google/android/gms/tasks/zzr;->zza:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -127,8 +117,7 @@
 
     .line 4
     :try_start_0
-    iget-object v1, p0, Lcom/google/android/gms/tasks/zzr;
-    ->zzb:Ljava/util/Queue;
+    iget-object v1, p0, Lcom/google/android/gms/tasks/zzr;->zzb:Ljava/util/Queue;
 
     .line 5
     .line 6
@@ -136,8 +125,7 @@
 
     .line 7
     .line 8
-    iget-boolean v1, p0, Lcom/google/android/gms/tasks/zzr;
-    ->zzc:Z
+    iget-boolean v1, p0, Lcom/google/android/gms/tasks/zzr;->zzc:Z
 
     .line 9
     .line 10
@@ -152,8 +140,7 @@
     const/4 v1, 0x1
 
     .line 14
-    iput-boolean v1, p0, Lcom/google/android/gms/tasks/zzr;
-    ->zzc:Z
+    iput-boolean v1, p0, Lcom/google/android/gms/tasks/zzr;->zzc:Z
 
     .line 15
     .line 16
@@ -163,8 +150,7 @@
 
     .line 17
     :goto_0
-    iget-object v1, p0, Lcom/google/android/gms/tasks/zzr;
-    ->zza:Ljava/lang/Object;
+    iget-object v1, p0, Lcom/google/android/gms/tasks/zzr;->zza:Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -172,13 +158,11 @@
 
     .line 20
     :try_start_1
-    iget-object v0, p0, Lcom/google/android/gms/tasks/zzr;
-    ->zzb:Ljava/util/Queue;
+    iget-object v0, p0, Lcom/google/android/gms/tasks/zzr;->zzb:Ljava/util/Queue;
 
     .line 21
     .line 22
-    invoke-interface {v0}, Ljava/util/Queue;
-    ->poll()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Queue;->poll()Ljava/lang/Object;
 
     .line 23
     .line 24
@@ -197,8 +181,7 @@
     const/4 p1, 0x0
 
     .line 31
-    iput-boolean p1, p0, Lcom/google/android/gms/tasks/zzr;
-    ->zzc:Z
+    iput-boolean p1, p0, Lcom/google/android/gms/tasks/zzr;->zzc:Z
 
     .line 32
     .line 33
@@ -220,8 +203,7 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 38
-    invoke-interface {v0, p1}, Lcom/google/android/gms/tasks/zzq;
-    ->zzd(Lcom/google/android/gms/tasks/Task;)V
+    invoke-interface {v0, p1}, Lcom/google/android/gms/tasks/zzq;->zzd(Lcom/google/android/gms/tasks/Task;)V
 
     .line 39
     .line 40

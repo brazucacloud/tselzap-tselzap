@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Landroid/animation/Animator;
-    ->end()V
+    invoke-virtual {p1}, Landroid/animation/Animator;->end()V
 
     .line 2
     .line 3

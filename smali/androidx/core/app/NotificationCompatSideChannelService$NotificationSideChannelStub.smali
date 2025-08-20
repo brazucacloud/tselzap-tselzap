@@ -23,13 +23,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/core/app/NotificationCompatSideChannelService$NotificationSideChannelStub;
-    ->this$0:Landroidx/core/app/NotificationCompatSideChannelService;
+    iput-object p1, p0, Landroidx/core/app/NotificationCompatSideChannelService$NotificationSideChannelStub;->this$0:Landroidx/core/app/NotificationCompatSideChannelService;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroid/support/v4/app/INotificationSideChannel$Stub;
-    -><init>()V
+    invoke-direct {p0}, Landroid/support/v4/app/INotificationSideChannel$Stub;-><init>()V
 
     .line 4
     .line 5
@@ -43,13 +41,11 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/NotificationCompatSideChannelService$NotificationSideChannelStub;
-    ->this$0:Landroidx/core/app/NotificationCompatSideChannelService;
+    iget-object v0, p0, Landroidx/core/app/NotificationCompatSideChannelService$NotificationSideChannelStub;->this$0:Landroidx/core/app/NotificationCompatSideChannelService;
 
     .line 2
     .line 3
-    invoke-static {}, Landroid/os/Binder;
-    ->getCallingUid()I
+    invoke-static {}, Landroid/os/Binder;->getCallingUid()I
 
     .line 4
     .line 5
@@ -57,14 +53,12 @@
     move-result v1
 
     .line 7
-    invoke-virtual {v0, v1, p1}, Landroidx/core/app/NotificationCompatSideChannelService;
-    ->checkPermission(ILjava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Landroidx/core/app/NotificationCompatSideChannelService;->checkPermission(ILjava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    invoke-static {}, Landroid/os/Binder;
-    ->clearCallingIdentity()J
+    invoke-static {}, Landroid/os/Binder;->clearCallingIdentity()J
 
     .line 11
     .line 12
@@ -73,21 +67,18 @@
 
     .line 14
     :try_start_0
-    iget-object v2, p0, Landroidx/core/app/NotificationCompatSideChannelService$NotificationSideChannelStub;
-    ->this$0:Landroidx/core/app/NotificationCompatSideChannelService;
+    iget-object v2, p0, Landroidx/core/app/NotificationCompatSideChannelService$NotificationSideChannelStub;->this$0:Landroidx/core/app/NotificationCompatSideChannelService;
 
     .line 15
     .line 16
-    invoke-virtual {v2, p1, p2, p3}, Landroidx/core/app/NotificationCompatSideChannelService;
-    ->cancel(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-virtual {v2, p1, p2, p3}, Landroidx/core/app/NotificationCompatSideChannelService;->cancel(Ljava/lang/String;ILjava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 17
     .line 18
     .line 19
-    invoke-static {v0, v1}, Landroid/os/Binder;
-    ->restoreCallingIdentity(J)V
+    invoke-static {v0, v1}, Landroid/os/Binder;->restoreCallingIdentity(J)V
 
     .line 20
     .line 21
@@ -99,8 +90,7 @@
     move-exception p1
 
     .line 24
-    invoke-static {v0, v1}, Landroid/os/Binder;
-    ->restoreCallingIdentity(J)V
+    invoke-static {v0, v1}, Landroid/os/Binder;->restoreCallingIdentity(J)V
 
     .line 25
     .line 26
@@ -202,13 +192,11 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/NotificationCompatSideChannelService$NotificationSideChannelStub;
-    ->this$0:Landroidx/core/app/NotificationCompatSideChannelService;
+    iget-object v0, p0, Landroidx/core/app/NotificationCompatSideChannelService$NotificationSideChannelStub;->this$0:Landroidx/core/app/NotificationCompatSideChannelService;
 
     .line 2
     .line 3
-    invoke-static {}, Landroid/os/Binder;
-    ->getCallingUid()I
+    invoke-static {}, Landroid/os/Binder;->getCallingUid()I
 
     .line 4
     .line 5
@@ -216,14 +204,12 @@
     move-result v1
 
     .line 7
-    invoke-virtual {v0, v1, p1}, Landroidx/core/app/NotificationCompatSideChannelService;
-    ->checkPermission(ILjava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Landroidx/core/app/NotificationCompatSideChannelService;->checkPermission(ILjava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    invoke-static {}, Landroid/os/Binder;
-    ->clearCallingIdentity()J
+    invoke-static {}, Landroid/os/Binder;->clearCallingIdentity()J
 
     .line 11
     .line 12
@@ -232,21 +218,18 @@
 
     .line 14
     :try_start_0
-    iget-object v2, p0, Landroidx/core/app/NotificationCompatSideChannelService$NotificationSideChannelStub;
-    ->this$0:Landroidx/core/app/NotificationCompatSideChannelService;
+    iget-object v2, p0, Landroidx/core/app/NotificationCompatSideChannelService$NotificationSideChannelStub;->this$0:Landroidx/core/app/NotificationCompatSideChannelService;
 
     .line 15
     .line 16
-    invoke-virtual {v2, p1}, Landroidx/core/app/NotificationCompatSideChannelService;
-    ->cancelAll(Ljava/lang/String;)V
+    invoke-virtual {v2, p1}, Landroidx/core/app/NotificationCompatSideChannelService;->cancelAll(Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 17
     .line 18
     .line 19
-    invoke-static {v0, v1}, Landroid/os/Binder;
-    ->restoreCallingIdentity(J)V
+    invoke-static {v0, v1}, Landroid/os/Binder;->restoreCallingIdentity(J)V
 
     .line 20
     .line 21
@@ -258,8 +241,7 @@
     move-exception p1
 
     .line 24
-    invoke-static {v0, v1}, Landroid/os/Binder;
-    ->restoreCallingIdentity(J)V
+    invoke-static {v0, v1}, Landroid/os/Binder;->restoreCallingIdentity(J)V
 
     .line 25
     .line 26
@@ -271,13 +253,11 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/NotificationCompatSideChannelService$NotificationSideChannelStub;
-    ->this$0:Landroidx/core/app/NotificationCompatSideChannelService;
+    iget-object v0, p0, Landroidx/core/app/NotificationCompatSideChannelService$NotificationSideChannelStub;->this$0:Landroidx/core/app/NotificationCompatSideChannelService;
 
     .line 2
     .line 3
-    invoke-static {}, Landroid/os/Binder;
-    ->getCallingUid()I
+    invoke-static {}, Landroid/os/Binder;->getCallingUid()I
 
     .line 4
     .line 5
@@ -285,14 +265,12 @@
     move-result v1
 
     .line 7
-    invoke-virtual {v0, v1, p1}, Landroidx/core/app/NotificationCompatSideChannelService;
-    ->checkPermission(ILjava/lang/String;)V
+    invoke-virtual {v0, v1, p1}, Landroidx/core/app/NotificationCompatSideChannelService;->checkPermission(ILjava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    invoke-static {}, Landroid/os/Binder;
-    ->clearCallingIdentity()J
+    invoke-static {}, Landroid/os/Binder;->clearCallingIdentity()J
 
     .line 11
     .line 12
@@ -301,21 +279,18 @@
 
     .line 14
     :try_start_0
-    iget-object v2, p0, Landroidx/core/app/NotificationCompatSideChannelService$NotificationSideChannelStub;
-    ->this$0:Landroidx/core/app/NotificationCompatSideChannelService;
+    iget-object v2, p0, Landroidx/core/app/NotificationCompatSideChannelService$NotificationSideChannelStub;->this$0:Landroidx/core/app/NotificationCompatSideChannelService;
 
     .line 15
     .line 16
-    invoke-virtual {v2, p1, p2, p3, p4}, Landroidx/core/app/NotificationCompatSideChannelService;
-    ->notify(Ljava/lang/String;ILjava/lang/String;Landroid/app/Notification;)V
+    invoke-virtual {v2, p1, p2, p3, p4}, Landroidx/core/app/NotificationCompatSideChannelService;->notify(Ljava/lang/String;ILjava/lang/String;Landroid/app/Notification;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 17
     .line 18
     .line 19
-    invoke-static {v0, v1}, Landroid/os/Binder;
-    ->restoreCallingIdentity(J)V
+    invoke-static {v0, v1}, Landroid/os/Binder;->restoreCallingIdentity(J)V
 
     .line 20
     .line 21
@@ -327,8 +302,7 @@
     move-exception p1
 
     .line 24
-    invoke-static {v0, v1}, Landroid/os/Binder;
-    ->restoreCallingIdentity(J)V
+    invoke-static {v0, v1}, Landroid/os/Binder;->restoreCallingIdentity(J)V
 
     .line 25
     .line 26

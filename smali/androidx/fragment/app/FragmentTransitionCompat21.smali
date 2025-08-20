@@ -14,8 +14,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/fragment/app/FragmentTransitionImpl;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/fragment/app/FragmentTransitionImpl;-><init>()V
     return-void
 .end method
 
@@ -23,8 +22,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroid/transition/Transition;
-    ->getTargetIds()Ljava/util/List;
+    invoke-virtual {p0}, Landroid/transition/Transition;->getTargetIds()Ljava/util/List;
 
     .line 2
     .line 3
@@ -32,8 +30,7 @@
     move-result-object v0
 
     .line 5
-    invoke-static {v0}, Landroidx/fragment/app/FragmentTransitionImpl;
-    ->isNullOrEmpty(Ljava/util/List;)Z
+    invoke-static {v0}, Landroidx/fragment/app/FragmentTransitionImpl;->isNullOrEmpty(Ljava/util/List;)Z
 
     .line 6
     .line 7
@@ -45,8 +42,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p0}, Landroid/transition/Transition;
-    ->getTargetNames()Ljava/util/List;
+    invoke-virtual {p0}, Landroid/transition/Transition;->getTargetNames()Ljava/util/List;
 
     .line 12
     .line 13
@@ -54,8 +50,7 @@
     move-result-object v0
 
     .line 15
-    invoke-static {v0}, Landroidx/fragment/app/FragmentTransitionImpl;
-    ->isNullOrEmpty(Ljava/util/List;)Z
+    invoke-static {v0}, Landroidx/fragment/app/FragmentTransitionImpl;->isNullOrEmpty(Ljava/util/List;)Z
 
     .line 16
     .line 17
@@ -67,8 +62,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {p0}, Landroid/transition/Transition;
-    ->getTargetTypes()Ljava/util/List;
+    invoke-virtual {p0}, Landroid/transition/Transition;->getTargetTypes()Ljava/util/List;
 
     .line 22
     .line 23
@@ -76,8 +70,7 @@
     move-result-object p0
 
     .line 25
-    invoke-static {p0}, Landroidx/fragment/app/FragmentTransitionImpl;
-    ->isNullOrEmpty(Ljava/util/List;)Z
+    invoke-static {p0}, Landroidx/fragment/app/FragmentTransitionImpl;->isNullOrEmpty(Ljava/util/List;)Z
 
     .line 26
     .line 27
@@ -127,8 +120,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p1, p2}, Landroid/transition/Transition;
-    ->addTarget(Landroid/view/View;)Landroid/transition/Transition;
+    invoke-virtual {p1, p2}, Landroid/transition/Transition;->addTarget(Landroid/view/View;)Landroid/transition/Transition;
 
     .line 6
     .line 7
@@ -185,8 +177,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {p1}, Landroid/transition/TransitionSet;
-    ->getTransitionCount()I
+    invoke-virtual {p1}, Landroid/transition/TransitionSet;->getTransitionCount()I
 
     .line 14
     .line 15
@@ -199,8 +190,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {p1, v1}, Landroid/transition/TransitionSet;
-    ->getTransitionAt(I)Landroid/transition/Transition;
+    invoke-virtual {p1, v1}, Landroid/transition/TransitionSet;->getTransitionAt(I)Landroid/transition/Transition;
 
     .line 20
     .line 21
@@ -208,8 +198,7 @@
     move-result-object v2
 
     .line 23
-    invoke-virtual {p0, v2, p2}, Landroidx/fragment/app/FragmentTransitionCompat21;
-    ->addTargets(Ljava/lang/Object;Ljava/util/ArrayList;)V
+    invoke-virtual {p0, v2, p2}, Landroidx/fragment/app/FragmentTransitionCompat21;->addTargets(Ljava/lang/Object;Ljava/util/ArrayList;)V
 
     .line 24
     .line 25
@@ -222,8 +211,7 @@
 
     .line 29
     :cond_1
-    invoke-static {p1}, Landroidx/fragment/app/FragmentTransitionCompat21;
-    ->hasSimpleTarget(Landroid/transition/Transition;)Z
+    invoke-static {p1}, Landroidx/fragment/app/FragmentTransitionCompat21;->hasSimpleTarget(Landroid/transition/Transition;)Z
 
     .line 30
     .line 31
@@ -235,8 +223,7 @@
 
     .line 34
     .line 35
-    invoke-virtual {p1}, Landroid/transition/Transition;
-    ->getTargets()Ljava/util/List;
+    invoke-virtual {p1}, Landroid/transition/Transition;->getTargets()Ljava/util/List;
 
     .line 36
     .line 37
@@ -244,8 +231,7 @@
     move-result-object v0
 
     .line 39
-    invoke-static {v0}, Landroidx/fragment/app/FragmentTransitionImpl;
-    ->isNullOrEmpty(Ljava/util/List;)Z
+    invoke-static {v0}, Landroidx/fragment/app/FragmentTransitionImpl;->isNullOrEmpty(Ljava/util/List;)Z
 
     .line 40
     .line 41
@@ -257,8 +243,7 @@
 
     .line 44
     .line 45
-    invoke-virtual {p2}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {p2}, Ljava/util/ArrayList;->size()I
 
     .line 46
     .line 47
@@ -271,8 +256,7 @@
 
     .line 50
     .line 51
-    invoke-virtual {p2, v1}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {p2, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 52
     .line 53
@@ -284,8 +268,7 @@
 
     .line 56
     .line 57
-    invoke-virtual {p1, v2}, Landroid/transition/Transition;
-    ->addTarget(Landroid/view/View;)Landroid/transition/Transition;
+    invoke-virtual {p1, v2}, Landroid/transition/Transition;->addTarget(Landroid/view/View;)Landroid/transition/Transition;
 
     .line 58
     .line 59
@@ -318,8 +301,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, p2}, Landroid/transition/TransitionManager;
-    ->beginDelayedTransition(Landroid/view/ViewGroup;Landroid/transition/Transition;)V    
+    invoke-static {p1, p2}, Landroid/transition/TransitionManager;->beginDelayedTransition(Landroid/view/ViewGroup;Landroid/transition/Transition;)V
     return-void
 .end method
 
@@ -350,8 +332,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Landroid/transition/Transition;
-    ->clone()Landroid/transition/Transition;
+    invoke-virtual {p1}, Landroid/transition/Transition;->clone()Landroid/transition/Transition;
 
     .line 6
     .line 7
@@ -407,14 +388,12 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Landroid/transition/TransitionSet;
-    -><init>()V
+    invoke-direct {v0}, Landroid/transition/TransitionSet;-><init>()V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {v0, p1}, Landroid/transition/TransitionSet;
-    ->addTransition(Landroid/transition/Transition;)Landroid/transition/TransitionSet;
+    invoke-virtual {v0, p1}, Landroid/transition/TransitionSet;->addTransition(Landroid/transition/Transition;)Landroid/transition/TransitionSet;
 
     .line 17
     .line 18
@@ -422,8 +401,7 @@
     move-result-object p1
 
     .line 20
-    invoke-virtual {p1, p2}, Landroid/transition/TransitionSet;
-    ->addTransition(Landroid/transition/Transition;)Landroid/transition/TransitionSet;
+    invoke-virtual {p1, p2}, Landroid/transition/TransitionSet;->addTransition(Landroid/transition/Transition;)Landroid/transition/TransitionSet;
 
     .line 21
     .line 22
@@ -434,8 +412,7 @@
     const/4 p2, 0x1
 
     .line 25
-    invoke-virtual {p1, p2}, Landroid/transition/TransitionSet;
-    ->setOrdering(I)Landroid/transition/TransitionSet;
+    invoke-virtual {p1, p2}, Landroid/transition/TransitionSet;->setOrdering(I)Landroid/transition/TransitionSet;
 
     .line 26
     .line 27
@@ -478,8 +455,7 @@
 
     .line 41
     .line 42
-    invoke-direct {p2}, Landroid/transition/TransitionSet;
-    -><init>()V
+    invoke-direct {p2}, Landroid/transition/TransitionSet;-><init>()V
 
     .line 43
     .line 44
@@ -488,15 +464,13 @@
 
     .line 46
     .line 47
-    invoke-virtual {p2, p1}, Landroid/transition/TransitionSet;
-    ->addTransition(Landroid/transition/Transition;)Landroid/transition/TransitionSet;
+    invoke-virtual {p2, p1}, Landroid/transition/TransitionSet;->addTransition(Landroid/transition/Transition;)Landroid/transition/TransitionSet;
 
     .line 48
     .line 49
     .line 50
     :cond_3
-    invoke-virtual {p2, p3}, Landroid/transition/TransitionSet;
-    ->addTransition(Landroid/transition/Transition;)Landroid/transition/TransitionSet;    
+    invoke-virtual {p2, p3}, Landroid/transition/TransitionSet;->addTransition(Landroid/transition/Transition;)Landroid/transition/TransitionSet;
     return-object p2
 
     .line 54
@@ -524,8 +498,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/transition/TransitionSet;
-    -><init>()V
+    invoke-direct {v0}, Landroid/transition/TransitionSet;-><init>()V
 
     .line 4
     .line 5
@@ -538,8 +511,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {v0, p1}, Landroid/transition/TransitionSet;
-    ->addTransition(Landroid/transition/Transition;)Landroid/transition/TransitionSet;
+    invoke-virtual {v0, p1}, Landroid/transition/TransitionSet;->addTransition(Landroid/transition/Transition;)Landroid/transition/TransitionSet;
 
     .line 11
     .line 12
@@ -553,8 +525,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {v0, p2}, Landroid/transition/TransitionSet;
-    ->addTransition(Landroid/transition/Transition;)Landroid/transition/TransitionSet;
+    invoke-virtual {v0, p2}, Landroid/transition/TransitionSet;->addTransition(Landroid/transition/Transition;)Landroid/transition/TransitionSet;
 
     .line 18
     .line 19
@@ -568,8 +539,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {v0, p3}, Landroid/transition/TransitionSet;
-    ->addTransition(Landroid/transition/Transition;)Landroid/transition/TransitionSet;
+    invoke-virtual {v0, p3}, Landroid/transition/TransitionSet;->addTransition(Landroid/transition/Transition;)Landroid/transition/TransitionSet;
 
     .line 25
     .line 26
@@ -598,8 +568,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p1, p2}, Landroid/transition/Transition;
-    ->removeTarget(Landroid/view/View;)Landroid/transition/Transition;
+    invoke-virtual {p1, p2}, Landroid/transition/Transition;->removeTarget(Landroid/view/View;)Landroid/transition/Transition;
 
     .line 6
     .line 7
@@ -661,8 +630,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {p1}, Landroid/transition/TransitionSet;
-    ->getTransitionCount()I
+    invoke-virtual {p1}, Landroid/transition/TransitionSet;->getTransitionCount()I
 
     .line 11
     .line 12
@@ -675,8 +643,7 @@
 
     .line 15
     .line 16
-    invoke-virtual {p1, v1}, Landroid/transition/TransitionSet;
-    ->getTransitionAt(I)Landroid/transition/Transition;
+    invoke-virtual {p1, v1}, Landroid/transition/TransitionSet;->getTransitionAt(I)Landroid/transition/Transition;
 
     .line 17
     .line 18
@@ -684,8 +651,7 @@
     move-result-object v2
 
     .line 20
-    invoke-virtual {p0, v2, p2, p3}, Landroidx/fragment/app/FragmentTransitionCompat21;
-    ->replaceTargets(Ljava/lang/Object;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
+    invoke-virtual {p0, v2, p2, p3}, Landroidx/fragment/app/FragmentTransitionCompat21;->replaceTargets(Ljava/lang/Object;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
 
     .line 21
     .line 22
@@ -698,8 +664,7 @@
 
     .line 26
     :cond_0
-    invoke-static {p1}, Landroidx/fragment/app/FragmentTransitionCompat21;
-    ->hasSimpleTarget(Landroid/transition/Transition;)Z
+    invoke-static {p1}, Landroidx/fragment/app/FragmentTransitionCompat21;->hasSimpleTarget(Landroid/transition/Transition;)Z
 
     .line 27
     .line 28
@@ -711,8 +676,7 @@
 
     .line 31
     .line 32
-    invoke-virtual {p1}, Landroid/transition/Transition;
-    ->getTargets()Ljava/util/List;
+    invoke-virtual {p1}, Landroid/transition/Transition;->getTargets()Ljava/util/List;
 
     .line 33
     .line 34
@@ -724,8 +688,7 @@
 
     .line 37
     .line 38
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     .line 39
     .line 40
@@ -733,8 +696,7 @@
     move-result v2
 
     .line 42
-    invoke-virtual {p2}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {p2}, Ljava/util/ArrayList;->size()I
 
     .line 43
     .line 44
@@ -746,8 +708,7 @@
 
     .line 47
     .line 48
-    invoke-interface {v0, p2}, Ljava/util/List;
-    ->containsAll(Ljava/util/Collection;)Z
+    invoke-interface {v0, p2}, Ljava/util/List;->containsAll(Ljava/util/Collection;)Z
 
     .line 49
     .line 50
@@ -770,8 +731,7 @@
 
     .line 58
     :cond_1
-    invoke-virtual {p3}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {p3}, Ljava/util/ArrayList;->size()I
 
     .line 59
     .line 60
@@ -784,8 +744,7 @@
 
     .line 63
     .line 64
-    invoke-virtual {p3, v1}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {p3, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 65
     .line 66
@@ -797,8 +756,7 @@
 
     .line 69
     .line 70
-    invoke-virtual {p1, v2}, Landroid/transition/Transition;
-    ->addTarget(Landroid/view/View;)Landroid/transition/Transition;
+    invoke-virtual {p1, v2}, Landroid/transition/Transition;->addTarget(Landroid/view/View;)Landroid/transition/Transition;
 
     .line 71
     .line 72
@@ -811,8 +769,7 @@
 
     .line 76
     :cond_2
-    invoke-virtual {p2}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {p2}, Ljava/util/ArrayList;->size()I
 
     .line 77
     .line 78
@@ -829,8 +786,7 @@
 
     .line 83
     .line 84
-    invoke-virtual {p2, p3}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {p2, p3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 85
     .line 86
@@ -842,8 +798,7 @@
 
     .line 89
     .line 90
-    invoke-virtual {p1, v0}, Landroid/transition/Transition;
-    ->removeTarget(Landroid/view/View;)Landroid/transition/Transition;
+    invoke-virtual {p1, v0}, Landroid/transition/Transition;->removeTarget(Landroid/view/View;)Landroid/transition/Transition;
 
     .line 91
     .line 92
@@ -893,14 +848,12 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, p0, p2, p3}, Landroidx/fragment/app/FragmentTransitionCompat21$2;
-    -><init>(Landroidx/fragment/app/FragmentTransitionCompat21;Landroid/view/View;Ljava/util/ArrayList;)V
+    invoke-direct {v0, p0, p2, p3}, Landroidx/fragment/app/FragmentTransitionCompat21$2;-><init>(Landroidx/fragment/app/FragmentTransitionCompat21;Landroid/view/View;Ljava/util/ArrayList;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p1, v0}, Landroid/transition/Transition;
-    ->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;    
+    invoke-virtual {p1, v0}, Landroid/transition/Transition;->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;
     return-void
 .end method
 
@@ -983,14 +936,12 @@
     move-object v7, p7
 
     .line 12
-    invoke-direct/range {v0 .. v7}, Landroidx/fragment/app/FragmentTransitionCompat21$3;
-    -><init>(Landroidx/fragment/app/FragmentTransitionCompat21;Ljava/lang/Object;Ljava/util/ArrayList;Ljava/lang/Object;Ljava/util/ArrayList;Ljava/lang/Object;Ljava/util/ArrayList;)V
+    invoke-direct/range {v0 .. v7}, Landroidx/fragment/app/FragmentTransitionCompat21$3;-><init>(Landroidx/fragment/app/FragmentTransitionCompat21;Ljava/lang/Object;Ljava/util/ArrayList;Ljava/lang/Object;Ljava/util/ArrayList;Ljava/lang/Object;Ljava/util/ArrayList;)V
 
     .line 13
     .line 14
     .line 15
-    invoke-virtual {p1, v0}, Landroid/transition/Transition;
-    ->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;    
+    invoke-virtual {p1, v0}, Landroid/transition/Transition;->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;
     return-void
 .end method
 
@@ -1013,11 +964,9 @@
     .line 6
     new-instance v0, Landroidx/fragment/app/FragmentTransitionCompat21$5;
 
-    invoke-direct {v0, p0, p2}, Landroidx/fragment/app/FragmentTransitionCompat21$5;
-    -><init>(Landroidx/fragment/app/FragmentTransitionCompat21;Landroid/graphics/Rect;)V
+    invoke-direct {v0, p0, p2}, Landroidx/fragment/app/FragmentTransitionCompat21$5;-><init>(Landroidx/fragment/app/FragmentTransitionCompat21;Landroid/graphics/Rect;)V
 
-    invoke-virtual {p1, v0}, Landroid/transition/Transition;
-    ->setEpicenterCallback(Landroid/transition/Transition$EpicenterCallback;)V
+    invoke-virtual {p1, v0}, Landroid/transition/Transition;->setEpicenterCallback(Landroid/transition/Transition$EpicenterCallback;)V
 
     :cond_0
     return-void
@@ -1042,21 +991,17 @@
     .line 2
     new-instance v0, Landroid/graphics/Rect;
 
-    invoke-direct {v0}, Landroid/graphics/Rect;
-    -><init>()V
+    invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
 
     .line 3
-    invoke-virtual {p0, p2, v0}, Landroidx/fragment/app/FragmentTransitionImpl;
-    ->getBoundsOnScreen(Landroid/view/View;Landroid/graphics/Rect;)V
+    invoke-virtual {p0, p2, v0}, Landroidx/fragment/app/FragmentTransitionImpl;->getBoundsOnScreen(Landroid/view/View;Landroid/graphics/Rect;)V
 
     .line 4
     new-instance p2, Landroidx/fragment/app/FragmentTransitionCompat21$1;
 
-    invoke-direct {p2, p0, v0}, Landroidx/fragment/app/FragmentTransitionCompat21$1;
-    -><init>(Landroidx/fragment/app/FragmentTransitionCompat21;Landroid/graphics/Rect;)V
+    invoke-direct {p2, p0, v0}, Landroidx/fragment/app/FragmentTransitionCompat21$1;-><init>(Landroidx/fragment/app/FragmentTransitionCompat21;Landroid/graphics/Rect;)V
 
-    invoke-virtual {p1, p2}, Landroid/transition/Transition;
-    ->setEpicenterCallback(Landroid/transition/Transition$EpicenterCallback;)V
+    invoke-virtual {p1, p2}, Landroid/transition/Transition;->setEpicenterCallback(Landroid/transition/Transition$EpicenterCallback;)V
 
     :cond_0
     return-void
@@ -1090,14 +1035,12 @@
 
     .line 4
     .line 5
-    invoke-direct {p1, p0, p4}, Landroidx/fragment/app/FragmentTransitionCompat21$4;
-    -><init>(Landroidx/fragment/app/FragmentTransitionCompat21;Ljava/lang/Runnable;)V
+    invoke-direct {p1, p0, p4}, Landroidx/fragment/app/FragmentTransitionCompat21$4;-><init>(Landroidx/fragment/app/FragmentTransitionCompat21;Ljava/lang/Runnable;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p2, p1}, Landroid/transition/Transition;
-    ->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;    
+    invoke-virtual {p2, p1}, Landroid/transition/Transition;->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;
     return-void
 .end method
 
@@ -1131,8 +1074,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroid/transition/Transition;
-    ->getTargets()Ljava/util/List;
+    invoke-virtual {p1}, Landroid/transition/Transition;->getTargets()Ljava/util/List;
 
     .line 4
     .line 5
@@ -1140,14 +1082,12 @@
     move-result-object v0
 
     .line 7
-    invoke-interface {v0}, Ljava/util/List;
-    ->clear()V
+    invoke-interface {v0}, Ljava/util/List;->clear()V
 
     .line 8
     .line 9
     .line 10
-    invoke-virtual {p3}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {p3}, Ljava/util/ArrayList;->size()I
 
     .line 11
     .line 12
@@ -1163,8 +1103,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p3, v2}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {p3, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -1176,8 +1115,7 @@
 
     .line 22
     .line 23
-    invoke-static {v0, v3}, Landroidx/fragment/app/FragmentTransitionImpl;
-    ->bfsAddViewChildren(Ljava/util/List;Landroid/view/View;)V
+    invoke-static {v0, v3}, Landroidx/fragment/app/FragmentTransitionImpl;->bfsAddViewChildren(Ljava/util/List;Landroid/view/View;)V
 
     .line 24
     .line 25
@@ -1190,20 +1128,17 @@
 
     .line 29
     :cond_0
-    invoke-interface {v0, p2}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 30
     .line 31
     .line 32
-    invoke-virtual {p3, p2}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {p3, p2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 33
     .line 34
     .line 35
-    invoke-virtual {p0, p1, p3}, Landroidx/fragment/app/FragmentTransitionCompat21;
-    ->addTargets(Ljava/lang/Object;Ljava/util/ArrayList;)V
+    invoke-virtual {p0, p1, p3}, Landroidx/fragment/app/FragmentTransitionCompat21;->addTargets(Ljava/lang/Object;Ljava/util/ArrayList;)V
 return-void
 .end method
 
@@ -1243,8 +1178,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Landroid/transition/Transition;
-    ->getTargets()Ljava/util/List;
+    invoke-virtual {p1}, Landroid/transition/Transition;->getTargets()Ljava/util/List;
 
     .line 6
     .line 7
@@ -1252,14 +1186,12 @@ return-void
     move-result-object v0
 
     .line 9
-    invoke-interface {v0}, Ljava/util/List;
-    ->clear()V
+    invoke-interface {v0}, Ljava/util/List;->clear()V
 
     .line 10
     .line 11
     .line 12
-    invoke-virtual {p1}, Landroid/transition/Transition;
-    ->getTargets()Ljava/util/List;
+    invoke-virtual {p1}, Landroid/transition/Transition;->getTargets()Ljava/util/List;
 
     .line 13
     .line 14
@@ -1267,14 +1199,12 @@ return-void
     move-result-object v0
 
     .line 16
-    invoke-interface {v0, p3}, Ljava/util/List;
-    ->addAll(Ljava/util/Collection;)Z
+    invoke-interface {v0, p3}, Ljava/util/List;->addAll(Ljava/util/Collection;)Z
 
     .line 17
     .line 18
     .line 19
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/fragment/app/FragmentTransitionCompat21;
-    ->replaceTargets(Ljava/lang/Object;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/fragment/app/FragmentTransitionCompat21;->replaceTargets(Ljava/lang/Object;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
 
     .line 20
     .line 21
@@ -1305,8 +1235,7 @@ return-void
 
     .line 6
     .line 7
-    invoke-direct {v0}, Landroid/transition/TransitionSet;
-    -><init>()V
+    invoke-direct {v0}, Landroid/transition/TransitionSet;-><init>()V
 
     .line 8
     .line 9
@@ -1315,8 +1244,7 @@ return-void
 
     .line 11
     .line 12
-    invoke-virtual {v0, p1}, Landroid/transition/TransitionSet;
-    ->addTransition(Landroid/transition/Transition;)Landroid/transition/TransitionSet;    
+    invoke-virtual {v0, p1}, Landroid/transition/TransitionSet;->addTransition(Landroid/transition/Transition;)Landroid/transition/TransitionSet;
     return-object v0
 .end method
 

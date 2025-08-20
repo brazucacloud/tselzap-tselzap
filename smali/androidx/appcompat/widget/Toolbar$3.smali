@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/appcompat/widget/Toolbar;
-    ->ensureMenuView()V
+    value = Landroidx/appcompat/widget/Toolbar;->ensureMenuView()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/Toolbar$3;
-    ->this$0:Landroidx/appcompat/widget/Toolbar;
+    iput-object p1, p0, Landroidx/appcompat/widget/Toolbar$3;->this$0:Landroidx/appcompat/widget/Toolbar;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -51,13 +48,11 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/Toolbar$3;
-    ->this$0:Landroidx/appcompat/widget/Toolbar;
+    iget-object v0, p0, Landroidx/appcompat/widget/Toolbar$3;->this$0:Landroidx/appcompat/widget/Toolbar;
 
     .line 2
     .line 3
-    iget-object v0, v0, Landroidx/appcompat/widget/Toolbar;
-    ->mMenuBuilderCallback:Landroidx/appcompat/view/menu/MenuBuilder$Callback;
+    iget-object v0, v0, Landroidx/appcompat/widget/Toolbar;->mMenuBuilderCallback:Landroidx/appcompat/view/menu/MenuBuilder$Callback;
 
     .line 4
     .line 5
@@ -65,8 +60,7 @@
 
     .line 6
     .line 7
-    invoke-interface {v0, p1, p2}, Landroidx/appcompat/view/menu/MenuBuilder$Callback;
-    ->onMenuItemSelected(Landroidx/appcompat/view/menu/MenuBuilder;Landroid/view/MenuItem;)Z
+    invoke-interface {v0, p1, p2}, Landroidx/appcompat/view/menu/MenuBuilder$Callback;->onMenuItemSelected(Landroidx/appcompat/view/menu/MenuBuilder;Landroid/view/MenuItem;)Z
 
     .line 8
     .line 9
@@ -97,18 +91,15 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/Toolbar$3;
-    ->this$0:Landroidx/appcompat/widget/Toolbar;
+    iget-object v0, p0, Landroidx/appcompat/widget/Toolbar$3;->this$0:Landroidx/appcompat/widget/Toolbar;
 
     .line 2
     .line 3
-    iget-object v0, v0, Landroidx/appcompat/widget/Toolbar;
-    ->mMenuView:Landroidx/appcompat/widget/ActionMenuView;
+    iget-object v0, v0, Landroidx/appcompat/widget/Toolbar;->mMenuView:Landroidx/appcompat/widget/ActionMenuView;
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroidx/appcompat/widget/ActionMenuView;
-    ->isOverflowMenuShowing()Z
+    invoke-virtual {v0}, Landroidx/appcompat/widget/ActionMenuView;->isOverflowMenuShowing()Z
 
     .line 6
     .line 7
@@ -120,30 +111,25 @@
 
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/appcompat/widget/Toolbar$3;
-    ->this$0:Landroidx/appcompat/widget/Toolbar;
+    iget-object v0, p0, Landroidx/appcompat/widget/Toolbar$3;->this$0:Landroidx/appcompat/widget/Toolbar;
 
     .line 12
     .line 13
-    iget-object v0, v0, Landroidx/appcompat/widget/Toolbar;
-    ->mMenuHostHelper:Landroidx/core/view/MenuHostHelper;
+    iget-object v0, v0, Landroidx/appcompat/widget/Toolbar;->mMenuHostHelper:Landroidx/core/view/MenuHostHelper;
 
     .line 14
     .line 15
-    invoke-virtual {v0, p1}, Landroidx/core/view/MenuHostHelper;
-    ->onPrepareMenu(Landroid/view/Menu;)V
+    invoke-virtual {v0, p1}, Landroidx/core/view/MenuHostHelper;->onPrepareMenu(Landroid/view/Menu;)V
 
     .line 16
     .line 17
     .line 18
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/widget/Toolbar$3;
-    ->this$0:Landroidx/appcompat/widget/Toolbar;
+    iget-object v0, p0, Landroidx/appcompat/widget/Toolbar$3;->this$0:Landroidx/appcompat/widget/Toolbar;
 
     .line 19
     .line 20
-    iget-object v0, v0, Landroidx/appcompat/widget/Toolbar;
-    ->mMenuBuilderCallback:Landroidx/appcompat/view/menu/MenuBuilder$Callback;
+    iget-object v0, v0, Landroidx/appcompat/widget/Toolbar;->mMenuBuilderCallback:Landroidx/appcompat/view/menu/MenuBuilder$Callback;
 
     .line 21
     .line 22
@@ -151,8 +137,7 @@
 
     .line 23
     .line 24
-    invoke-interface {v0, p1}, Landroidx/appcompat/view/menu/MenuBuilder$Callback;
-    ->onMenuModeChange(Landroidx/appcompat/view/menu/MenuBuilder;)V
+    invoke-interface {v0, p1}, Landroidx/appcompat/view/menu/MenuBuilder$Callback;->onMenuModeChange(Landroidx/appcompat/view/menu/MenuBuilder;)V
 
     .line 25
     .line 26

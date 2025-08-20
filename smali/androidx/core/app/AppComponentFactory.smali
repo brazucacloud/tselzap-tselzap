@@ -14,8 +14,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/app/AppComponentFactory;
-    -><init>()V
+    invoke-direct {p0}, Landroid/app/AppComponentFactory;-><init>()V
 
     .line 2
     .line 3
@@ -43,8 +42,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/core/app/AppComponentFactory;
-    ->instantiateActivityCompat(Ljava/lang/ClassLoader;Ljava/lang/String;Landroid/content/Intent;)Landroid/app/Activity;
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/core/app/AppComponentFactory;->instantiateActivityCompat(Ljava/lang/ClassLoader;Ljava/lang/String;Landroid/content/Intent;)Landroid/app/Activity;
 
     .line 2
     .line 3
@@ -52,8 +50,7 @@
     move-result-object p1
 
     .line 5
-    invoke-static {p1}, Landroidx/core/app/CoreComponentFactory;
-    ->checkCompatWrapper(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/app/CoreComponentFactory;->checkCompatWrapper(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -90,8 +87,7 @@
 
     .line 2
     :try_start_0
-    invoke-static {p2, p3, p1}, Ljava/lang/Class;
-    ->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
+    invoke-static {p2, p3, p1}, Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
 
     .line 3
     .line 4
@@ -103,8 +99,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1, p2}, Ljava/lang/Class;
-    ->asSubclass(Ljava/lang/Class;)Ljava/lang/Class;
+    invoke-virtual {p1, p2}, Ljava/lang/Class;->asSubclass(Ljava/lang/Class;)Ljava/lang/Class;
 
     .line 9
     .line 10
@@ -116,8 +111,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {p1, p2}, Ljava/lang/Class;
-    ->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+    invoke-virtual {p1, p2}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     .line 15
     .line 16
@@ -129,8 +123,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p1, p2}, Ljava/lang/reflect/Constructor;
-    ->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -168,8 +161,7 @@
 
     .line 33
     .line 34
-    invoke-direct {p2, p3, p1}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p2, p3, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 35
     .line 36
@@ -271,8 +263,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroidx/core/app/AppComponentFactory;
-    ->instantiateApplicationCompat(Ljava/lang/ClassLoader;Ljava/lang/String;)Landroid/app/Application;
+    invoke-virtual {p0, p1, p2}, Landroidx/core/app/AppComponentFactory;->instantiateApplicationCompat(Ljava/lang/ClassLoader;Ljava/lang/String;)Landroid/app/Application;
 
     .line 2
     .line 3
@@ -280,8 +271,7 @@
     move-result-object p1
 
     .line 5
-    invoke-static {p1}, Landroidx/core/app/CoreComponentFactory;
-    ->checkCompatWrapper(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/app/CoreComponentFactory;->checkCompatWrapper(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -314,8 +304,7 @@
 
     .line 2
     :try_start_0
-    invoke-static {p2, v0, p1}, Ljava/lang/Class;
-    ->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
+    invoke-static {p2, v0, p1}, Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
 
     .line 3
     .line 4
@@ -327,8 +316,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1, p2}, Ljava/lang/Class;
-    ->asSubclass(Ljava/lang/Class;)Ljava/lang/Class;
+    invoke-virtual {p1, p2}, Ljava/lang/Class;->asSubclass(Ljava/lang/Class;)Ljava/lang/Class;
 
     .line 9
     .line 10
@@ -340,8 +328,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {p1, p2}, Ljava/lang/Class;
-    ->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+    invoke-virtual {p1, p2}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     .line 15
     .line 16
@@ -353,8 +340,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p1, p2}, Ljava/lang/reflect/Constructor;
-    ->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -392,8 +378,7 @@
 
     .line 33
     .line 34
-    invoke-direct {p2, v0, p1}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p2, v0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 35
     .line 36
@@ -429,8 +414,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroidx/core/app/AppComponentFactory;
-    ->instantiateProviderCompat(Ljava/lang/ClassLoader;Ljava/lang/String;)Landroid/content/ContentProvider;
+    invoke-virtual {p0, p1, p2}, Landroidx/core/app/AppComponentFactory;->instantiateProviderCompat(Ljava/lang/ClassLoader;Ljava/lang/String;)Landroid/content/ContentProvider;
 
     .line 2
     .line 3
@@ -438,8 +422,7 @@
     move-result-object p1
 
     .line 5
-    invoke-static {p1}, Landroidx/core/app/CoreComponentFactory;
-    ->checkCompatWrapper(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/app/CoreComponentFactory;->checkCompatWrapper(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -472,8 +455,7 @@
 
     .line 2
     :try_start_0
-    invoke-static {p2, v0, p1}, Ljava/lang/Class;
-    ->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
+    invoke-static {p2, v0, p1}, Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
 
     .line 3
     .line 4
@@ -485,8 +467,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1, p2}, Ljava/lang/Class;
-    ->asSubclass(Ljava/lang/Class;)Ljava/lang/Class;
+    invoke-virtual {p1, p2}, Ljava/lang/Class;->asSubclass(Ljava/lang/Class;)Ljava/lang/Class;
 
     .line 9
     .line 10
@@ -498,8 +479,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {p1, p2}, Ljava/lang/Class;
-    ->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+    invoke-virtual {p1, p2}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     .line 15
     .line 16
@@ -511,8 +491,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p1, p2}, Ljava/lang/reflect/Constructor;
-    ->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -550,8 +529,7 @@
 
     .line 33
     .line 34
-    invoke-direct {p2, v0, p1}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p2, v0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 35
     .line 36
@@ -591,8 +569,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/core/app/AppComponentFactory;
-    ->instantiateReceiverCompat(Ljava/lang/ClassLoader;Ljava/lang/String;Landroid/content/Intent;)Landroid/content/BroadcastReceiver;
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/core/app/AppComponentFactory;->instantiateReceiverCompat(Ljava/lang/ClassLoader;Ljava/lang/String;Landroid/content/Intent;)Landroid/content/BroadcastReceiver;
 
     .line 2
     .line 3
@@ -600,8 +577,7 @@
     move-result-object p1
 
     .line 5
-    invoke-static {p1}, Landroidx/core/app/CoreComponentFactory;
-    ->checkCompatWrapper(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/app/CoreComponentFactory;->checkCompatWrapper(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -638,8 +614,7 @@
 
     .line 2
     :try_start_0
-    invoke-static {p2, p3, p1}, Ljava/lang/Class;
-    ->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
+    invoke-static {p2, p3, p1}, Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
 
     .line 3
     .line 4
@@ -651,8 +626,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1, p2}, Ljava/lang/Class;
-    ->asSubclass(Ljava/lang/Class;)Ljava/lang/Class;
+    invoke-virtual {p1, p2}, Ljava/lang/Class;->asSubclass(Ljava/lang/Class;)Ljava/lang/Class;
 
     .line 9
     .line 10
@@ -664,8 +638,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {p1, p2}, Ljava/lang/Class;
-    ->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+    invoke-virtual {p1, p2}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     .line 15
     .line 16
@@ -677,8 +650,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p1, p2}, Ljava/lang/reflect/Constructor;
-    ->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -716,8 +688,7 @@
 
     .line 33
     .line 34
-    invoke-direct {p2, p3, p1}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p2, p3, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 35
     .line 36
@@ -823,8 +794,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/core/app/AppComponentFactory;
-    ->instantiateServiceCompat(Ljava/lang/ClassLoader;Ljava/lang/String;Landroid/content/Intent;)Landroid/app/Service;
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/core/app/AppComponentFactory;->instantiateServiceCompat(Ljava/lang/ClassLoader;Ljava/lang/String;Landroid/content/Intent;)Landroid/app/Service;
 
     .line 2
     .line 3
@@ -832,8 +802,7 @@
     move-result-object p1
 
     .line 5
-    invoke-static {p1}, Landroidx/core/app/CoreComponentFactory;
-    ->checkCompatWrapper(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/app/CoreComponentFactory;->checkCompatWrapper(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -870,8 +839,7 @@
 
     .line 2
     :try_start_0
-    invoke-static {p2, p3, p1}, Ljava/lang/Class;
-    ->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
+    invoke-static {p2, p3, p1}, Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
 
     .line 3
     .line 4
@@ -883,8 +851,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1, p2}, Ljava/lang/Class;
-    ->asSubclass(Ljava/lang/Class;)Ljava/lang/Class;
+    invoke-virtual {p1, p2}, Ljava/lang/Class;->asSubclass(Ljava/lang/Class;)Ljava/lang/Class;
 
     .line 9
     .line 10
@@ -896,8 +863,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {p1, p2}, Ljava/lang/Class;
-    ->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+    invoke-virtual {p1, p2}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     .line 15
     .line 16
@@ -909,8 +875,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p1, p2}, Ljava/lang/reflect/Constructor;
-    ->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -948,8 +913,7 @@
 
     .line 33
     .line 34
-    invoke-direct {p2, p3, p1}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p2, p3, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 35
     .line 36

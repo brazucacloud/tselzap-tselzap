@@ -20,11 +20,9 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v0, v1, v2}, Lcom/google/android/gms/internal/stats/zzb;
-    -><init>(ZLcom/google/android/gms/internal/stats/zzd;)V
+    invoke-direct {v0, v1, v2}, Lcom/google/android/gms/internal/stats/zzb;-><init>(ZLcom/google/android/gms/internal/stats/zzd;)V
 
-    sput-object v0, Lcom/google/android/gms/internal/stats/zzb;
-    ->zza:Lcom/google/android/gms/internal/stats/zzb;
+    sput-object v0, Lcom/google/android/gms/internal/stats/zzb;->zza:Lcom/google/android/gms/internal/stats/zzb;
 
     return-void
 .end method
@@ -36,8 +34,7 @@
         .end annotation
     .end param
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -48,8 +45,7 @@
         .end annotation
     .end param
 
-    sget-object p0, Lcom/google/android/gms/internal/stats/zzb;
-    ->zza:Lcom/google/android/gms/internal/stats/zzb;
+    sget-object p0, Lcom/google/android/gms/internal/stats/zzb;->zza:Lcom/google/android/gms/internal/stats/zzb;
 
     return-object p0
 .end method

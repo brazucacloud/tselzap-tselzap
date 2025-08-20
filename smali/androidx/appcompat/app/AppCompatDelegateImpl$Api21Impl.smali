@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -34,8 +33,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/os/PowerManager;
-    ->isPowerSaveMode()Z
+    invoke-virtual {p0}, Landroid/os/PowerManager;->isPowerSaveMode()Z
 
     .line 2
     .line 3
@@ -51,8 +49,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Ljava/util/Locale;
-    ->toLanguageTag()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/util/Locale;->toLanguageTag()Ljava/lang/String;
 
     .line 2
     .line 3

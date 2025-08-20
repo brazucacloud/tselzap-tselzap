@@ -66,8 +66,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -76,8 +75,7 @@
 
     .line 5
     .line 6
-    invoke-static {p2, v0}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p2, v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -86,24 +84,20 @@
 
     .line 10
     .line 11
-    invoke-static {p3, v0}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p3, v0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 12
     .line 13
     .line 14
-    iput-object p1, p0, Lcom/google/android/gms/common/api/Api;
-    ->zac:Ljava/lang/String;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/Api;->zac:Ljava/lang/String;
 
     .line 15
     .line 16
-    iput-object p2, p0, Lcom/google/android/gms/common/api/Api;
-    ->zaa:Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;
+    iput-object p2, p0, Lcom/google/android/gms/common/api/Api;->zaa:Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;
 
     .line 17
     .line 18
-    iput-object p3, p0, Lcom/google/android/gms/common/api/Api;
-    ->zab:Lcom/google/android/gms/common/api/Api$ClientKey;
+    iput-object p3, p0, Lcom/google/android/gms/common/api/Api;->zab:Lcom/google/android/gms/common/api/Api$ClientKey;
 
     .line 19
     .line 20
@@ -117,8 +111,7 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    iget-object v0, p0, Lcom/google/android/gms/common/api/Api;
-    ->zaa:Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/Api;->zaa:Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;
 
     return-object v0
 .end method
@@ -128,8 +121,7 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    iget-object v0, p0, Lcom/google/android/gms/common/api/Api;
-    ->zab:Lcom/google/android/gms/common/api/Api$ClientKey;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/Api;->zab:Lcom/google/android/gms/common/api/Api$ClientKey;
 
     return-object v0
 .end method
@@ -139,8 +131,7 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    iget-object v0, p0, Lcom/google/android/gms/common/api/Api;
-    ->zaa:Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/Api;->zaa:Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;
 
     return-object v0
 .end method
@@ -150,8 +141,7 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    iget-object v0, p0, Lcom/google/android/gms/common/api/Api;
-    ->zac:Ljava/lang/String;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/Api;->zac:Ljava/lang/String;
 
     return-object v0
 .end method

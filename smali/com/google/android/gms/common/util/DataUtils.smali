@@ -12,8 +12,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -31,8 +30,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroid/text/TextUtils;
-    ->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 2
     .line 3
@@ -47,8 +45,7 @@
 
     .line 7
     .line 8
-    iput v1, p1, Landroid/database/CharArrayBuffer;
-    ->sizeCopied:I
+    iput v1, p1, Landroid/database/CharArrayBuffer;->sizeCopied:I
 
     .line 9
     .line 10
@@ -56,8 +53,7 @@
 
     .line 11
     :cond_0
-    iget-object v0, p1, Landroid/database/CharArrayBuffer;
-    ->data:[C
+    iget-object v0, p1, Landroid/database/CharArrayBuffer;->data:[C
 
     .line 12
     .line 13
@@ -68,8 +64,7 @@
     array-length v0, v0
 
     .line 16
-    invoke-virtual {p0}, Ljava/lang/String;
-    ->length()I
+    invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     .line 17
     .line 18
@@ -85,8 +80,7 @@
 
     .line 23
     :cond_1
-    invoke-virtual {p0}, Ljava/lang/String;
-    ->length()I
+    invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     .line 24
     .line 25
@@ -94,13 +88,11 @@
     move-result v0
 
     .line 27
-    iget-object v2, p1, Landroid/database/CharArrayBuffer;
-    ->data:[C
+    iget-object v2, p1, Landroid/database/CharArrayBuffer;->data:[C
 
     .line 28
     .line 29
-    invoke-virtual {p0, v1, v0, v2, v1}, Ljava/lang/String;
-    ->getChars(II[CI)V
+    invoke-virtual {p0, v1, v0, v2, v1}, Ljava/lang/String;->getChars(II[CI)V
 
     .line 30
     .line 31
@@ -110,8 +102,7 @@
     .line 33
     :cond_2
     :goto_0
-    invoke-virtual {p0}, Ljava/lang/String;
-    ->toCharArray()[C
+    invoke-virtual {p0}, Ljava/lang/String;->toCharArray()[C
 
     .line 34
     .line 35
@@ -119,14 +110,12 @@
     move-result-object v0
 
     .line 37
-    iput-object v0, p1, Landroid/database/CharArrayBuffer;
-    ->data:[C
+    iput-object v0, p1, Landroid/database/CharArrayBuffer;->data:[C
 
     .line 38
     .line 39
     :goto_1
-    invoke-virtual {p0}, Ljava/lang/String;
-    ->length()I
+    invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     .line 40
     .line 41
@@ -134,8 +123,7 @@
     move-result p0
 
     .line 43
-    iput p0, p1, Landroid/database/CharArrayBuffer;
-    ->sizeCopied:I
+    iput p0, p1, Landroid/database/CharArrayBuffer;->sizeCopied:I
 
     .line 44
     .line 45
@@ -159,14 +147,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/io/ByteArrayOutputStream;
-    -><init>()V
+    invoke-direct {v0}, Ljava/io/ByteArrayOutputStream;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sget-object v1, Landroid/graphics/Bitmap$CompressFormat;
-    ->JPEG:Landroid/graphics/Bitmap$CompressFormat;
+    sget-object v1, Landroid/graphics/Bitmap$CompressFormat;->JPEG:Landroid/graphics/Bitmap$CompressFormat;
 
     .line 7
     .line 8
@@ -174,14 +160,12 @@
 
     .line 9
     .line 10
-    invoke-virtual {p0, v1, v2, v0}, Landroid/graphics/Bitmap;
-    ->compress(Landroid/graphics/Bitmap$CompressFormat;ILjava/io/OutputStream;)Z
+    invoke-virtual {p0, v1, v2, v0}, Landroid/graphics/Bitmap;->compress(Landroid/graphics/Bitmap$CompressFormat;ILjava/io/OutputStream;)Z
 
     .line 11
     .line 12
     .line 13
-    invoke-virtual {v0}, Ljava/io/ByteArrayOutputStream;
-    ->toByteArray()[B
+    invoke-virtual {v0}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
 
     .line 14
     .line 15

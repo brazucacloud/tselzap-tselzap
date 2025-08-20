@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -38,8 +37,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Activity;
-    ->finishAfterTransition()V
+    invoke-virtual {p0}, Landroid/app/Activity;->finishAfterTransition()V
 
     .line 2
     .line 3
@@ -53,8 +51,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Activity;
-    ->postponeEnterTransition()V
+    invoke-virtual {p0}, Landroid/app/Activity;->postponeEnterTransition()V
 
     .line 2
     .line 3
@@ -68,8 +65,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Activity;
-    ->setEnterSharedElementCallback(Landroid/app/SharedElementCallback;)V
+    invoke-virtual {p0, p1}, Landroid/app/Activity;->setEnterSharedElementCallback(Landroid/app/SharedElementCallback;)V
 
     .line 2
     .line 3
@@ -83,8 +79,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Activity;
-    ->setExitSharedElementCallback(Landroid/app/SharedElementCallback;)V
+    invoke-virtual {p0, p1}, Landroid/app/Activity;->setExitSharedElementCallback(Landroid/app/SharedElementCallback;)V
 
     .line 2
     .line 3
@@ -98,8 +93,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Activity;
-    ->startPostponedEnterTransition()V
+    invoke-virtual {p0}, Landroid/app/Activity;->startPostponedEnterTransition()V
 
     .line 2
     .line 3

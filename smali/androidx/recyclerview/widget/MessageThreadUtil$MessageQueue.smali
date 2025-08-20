@@ -25,8 +25,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -35,14 +34,12 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/recyclerview/widget/MessageThreadUtil$MessageQueue;
-    ->mLock:Ljava/lang/Object;    
+    iput-object v0, p0, Landroidx/recyclerview/widget/MessageThreadUtil$MessageQueue;->mLock:Ljava/lang/Object;
     return-void
 .end method
 
@@ -52,8 +49,7 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/MessageThreadUtil$MessageQueue;
-    ->mLock:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/recyclerview/widget/MessageThreadUtil$MessageQueue;->mLock:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -61,8 +57,7 @@
 
     .line 4
     :try_start_0
-    iget-object v1, p0, Landroidx/recyclerview/widget/MessageThreadUtil$MessageQueue;
-    ->mRoot:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
+    iget-object v1, p0, Landroidx/recyclerview/widget/MessageThreadUtil$MessageQueue;->mRoot:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
 
     .line 5
     .line 6
@@ -86,13 +81,11 @@
 
     .line 13
     :cond_0
-    iget-object v2, v1, Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
-    ->next:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
+    iget-object v2, v1, Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;->next:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
 
     .line 14
     .line 15
-    iput-object v2, p0, Landroidx/recyclerview/widget/MessageThreadUtil$MessageQueue;
-    ->mRoot:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
+    iput-object v2, p0, Landroidx/recyclerview/widget/MessageThreadUtil$MessageQueue;->mRoot:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
 
     .line 16
     .line 17
@@ -113,8 +106,7 @@
     .locals 5
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/MessageThreadUtil$MessageQueue;
-    ->mLock:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/recyclerview/widget/MessageThreadUtil$MessageQueue;->mLock:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -123,8 +115,7 @@
     .line 4
     :goto_0
     :try_start_0
-    iget-object v1, p0, Landroidx/recyclerview/widget/MessageThreadUtil$MessageQueue;
-    ->mRoot:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
+    iget-object v1, p0, Landroidx/recyclerview/widget/MessageThreadUtil$MessageQueue;->mRoot:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
 
     .line 5
     .line 6
@@ -132,8 +123,7 @@
 
     .line 7
     .line 8
-    iget v2, v1, Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
-    ->what:I
+    iget v2, v1, Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;->what:I
 
     .line 9
     .line 10
@@ -141,18 +131,15 @@
 
     .line 11
     .line 12
-    iget-object v2, v1, Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
-    ->next:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
+    iget-object v2, v1, Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;->next:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
 
     .line 13
     .line 14
-    iput-object v2, p0, Landroidx/recyclerview/widget/MessageThreadUtil$MessageQueue;
-    ->mRoot:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
+    iput-object v2, p0, Landroidx/recyclerview/widget/MessageThreadUtil$MessageQueue;->mRoot:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
 
     .line 15
     .line 16
-    invoke-virtual {v1}, Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
-    ->recycle()V
+    invoke-virtual {v1}, Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;->recycle()V
 
     .line 17
     .line 18
@@ -172,8 +159,7 @@
 
     .line 23
     .line 24
-    iget-object v2, v1, Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
-    ->next:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
+    iget-object v2, v1, Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;->next:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
 
     .line 25
     .line 26
@@ -182,13 +168,11 @@
 
     .line 27
     .line 28
-    iget-object v3, v2, Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
-    ->next:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
+    iget-object v3, v2, Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;->next:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
 
     .line 29
     .line 30
-    iget v4, v2, Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
-    ->what:I
+    iget v4, v2, Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;->what:I
 
     .line 31
     .line 32
@@ -196,13 +180,11 @@
 
     .line 33
     .line 34
-    iput-object v3, v1, Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
-    ->next:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
+    iput-object v3, v1, Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;->next:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
 
     .line 35
     .line 36
-    invoke-virtual {v2}, Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
-    ->recycle()V
+    invoke-virtual {v2}, Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;->recycle()V
 
     .line 37
     .line 38
@@ -239,8 +221,7 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/MessageThreadUtil$MessageQueue;
-    ->mLock:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/recyclerview/widget/MessageThreadUtil$MessageQueue;->mLock:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -248,8 +229,7 @@
 
     .line 4
     :try_start_0
-    iget-object v1, p0, Landroidx/recyclerview/widget/MessageThreadUtil$MessageQueue;
-    ->mRoot:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
+    iget-object v1, p0, Landroidx/recyclerview/widget/MessageThreadUtil$MessageQueue;->mRoot:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
 
     .line 5
     .line 6
@@ -257,8 +237,7 @@
 
     .line 7
     .line 8
-    iput-object p1, p0, Landroidx/recyclerview/widget/MessageThreadUtil$MessageQueue;
-    ->mRoot:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
+    iput-object p1, p0, Landroidx/recyclerview/widget/MessageThreadUtil$MessageQueue;->mRoot:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
 
     .line 9
     .line 10
@@ -276,8 +255,7 @@
     .line 14
     :cond_0
     :goto_0
-    iget-object v2, v1, Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
-    ->next:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
+    iget-object v2, v1, Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;->next:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
 
     .line 15
     .line 16
@@ -292,8 +270,7 @@
 
     .line 20
     :cond_1
-    iput-object p1, v1, Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
-    ->next:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
+    iput-object p1, v1, Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;->next:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
 
     .line 21
     .line 22
@@ -314,8 +291,7 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/MessageThreadUtil$MessageQueue;
-    ->mLock:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/recyclerview/widget/MessageThreadUtil$MessageQueue;->mLock:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -323,18 +299,15 @@
 
     .line 4
     :try_start_0
-    iget-object v1, p0, Landroidx/recyclerview/widget/MessageThreadUtil$MessageQueue;
-    ->mRoot:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
+    iget-object v1, p0, Landroidx/recyclerview/widget/MessageThreadUtil$MessageQueue;->mRoot:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
 
     .line 5
     .line 6
-    iput-object v1, p1, Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
-    ->next:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
+    iput-object v1, p1, Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;->next:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
 
     .line 7
     .line 8
-    iput-object p1, p0, Landroidx/recyclerview/widget/MessageThreadUtil$MessageQueue;
-    ->mRoot:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
+    iput-object p1, p0, Landroidx/recyclerview/widget/MessageThreadUtil$MessageQueue;->mRoot:Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;
 
     .line 9
     .line 10

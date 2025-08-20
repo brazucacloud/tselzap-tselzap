@@ -20,8 +20,7 @@
     move-object v3, p3
 
     .line 2
-    invoke-direct/range {v0 .. v5}, Lcom/google/android/gms/internal/measurement/zznh;
-    -><init>(Ljava/lang/String;ILcom/google/android/gms/internal/measurement/zzno;ILcom/google/android/gms/internal/measurement/zznn;)V
+    invoke-direct/range {v0 .. v5}, Lcom/google/android/gms/internal/measurement/zznh;-><init>(Ljava/lang/String;ILcom/google/android/gms/internal/measurement/zzno;ILcom/google/android/gms/internal/measurement/zznn;)V
 return-void
 .end method
 
@@ -33,8 +32,7 @@ return-void
 
     const/4 p4, 0x2
 
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/google/android/gms/internal/measurement/zznm;
-    -><init>(Ljava/lang/String;ILcom/google/android/gms/internal/measurement/zzno;I)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lcom/google/android/gms/internal/measurement/zznm;-><init>(Ljava/lang/String;ILcom/google/android/gms/internal/measurement/zzno;I)V
 return-void
 .end method
 

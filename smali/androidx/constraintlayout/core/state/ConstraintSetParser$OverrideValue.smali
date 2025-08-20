@@ -26,14 +26,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput p1, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$OverrideValue;
-    ->mValue:F    
+    iput p1, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$OverrideValue;->mValue:F
     return-void
 .end method
 
@@ -43,8 +41,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$OverrideValue;
-    ->mValue:F    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$OverrideValue;->mValue:F    return v0
 .end method
 
 .end class

@@ -12,14 +12,12 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
     .line 2
-    iput v0, p0, Landroidx/dynamicanimation/animation/FloatValueHolder;
-    ->mValue:F
+    iput v0, p0, Landroidx/dynamicanimation/animation/FloatValueHolder;->mValue:F
 
     return-void
 .end method
@@ -28,18 +26,15 @@
     .locals 1
 
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
     .line 4
-    iput v0, p0, Landroidx/dynamicanimation/animation/FloatValueHolder;
-    ->mValue:F
+    iput v0, p0, Landroidx/dynamicanimation/animation/FloatValueHolder;->mValue:F
 
     .line 5
-    invoke-virtual {p0, p1}, Landroidx/dynamicanimation/animation/FloatValueHolder;
-    ->setValue(F)V
+    invoke-virtual {p0, p1}, Landroidx/dynamicanimation/animation/FloatValueHolder;->setValue(F)V
 
     return-void
 .end method
@@ -50,16 +45,14 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/dynamicanimation/animation/FloatValueHolder;
-    ->mValue:F    return v0
+    iget v0, p0, Landroidx/dynamicanimation/animation/FloatValueHolder;->mValue:F    return v0
 .end method
 
 .method public setValue(F)V
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/dynamicanimation/animation/FloatValueHolder;
-    ->mValue:F    
+    iput p1, p0, Landroidx/dynamicanimation/animation/FloatValueHolder;->mValue:F
     return-void
 .end method
 

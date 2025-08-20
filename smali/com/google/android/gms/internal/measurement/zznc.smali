@@ -21,8 +21,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -36,8 +35,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/Class;
-    ->getDeclaredFields()[Ljava/lang/reflect/Field;
+    invoke-virtual {v0}, Ljava/lang/Class;->getDeclaredFields()[Ljava/lang/reflect/Field;
 
     .line 4
     .line 5
@@ -66,14 +64,12 @@
     const/4 v6, 0x1
 
     .line 15
-    invoke-virtual {v5, v6}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v5, v6}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 16
     .line 17
     .line 18
-    invoke-virtual {v5, v4}, Ljava/lang/reflect/Field;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v5, v4}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -81,8 +77,7 @@
     move-result-object v4
 
     .line 22
-    invoke-virtual {v0, v4}, Ljava/lang/Class;
-    ->isInstance(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v4}, Ljava/lang/Class;->isInstance(Ljava/lang/Object;)Z
 
     .line 23
     .line 24
@@ -94,8 +89,7 @@
 
     .line 27
     .line 28
-    invoke-virtual {v0, v4}, Ljava/lang/Class;
-    ->cast(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v4}, Ljava/lang/Class;->cast(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 29
     .line 30

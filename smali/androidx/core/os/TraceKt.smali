@@ -18,15 +18,13 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroid/os/Trace;
-    ->beginSection(Ljava/lang/String;)V
+    invoke-static {p0}, Landroid/os/Trace;->beginSection(Ljava/lang/String;)V
 
     .line 2
     .line 3
     .line 4
     :try_start_0
-    invoke-interface {p1}, Lp1/a;
-    ->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lp1/a;->invoke()Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -36,8 +34,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 8
-    invoke-static {}, Landroid/os/Trace;
-    ->endSection()V
+    invoke-static {}, Landroid/os/Trace;->endSection()V
 
     .line 9
     .line 10
@@ -49,8 +46,7 @@
     move-exception p0
 
     .line 13
-    invoke-static {}, Landroid/os/Trace;
-    ->endSection()V
+    invoke-static {}, Landroid/os/Trace;->endSection()V
 
     .line 14
     .line 15

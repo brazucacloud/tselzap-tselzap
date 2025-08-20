@@ -12,11 +12,9 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lu0/g;
-    ->a:Lu0/j;
+    iput-object p1, p0, Lu0/g;->a:Lu0/j;
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -42,13 +40,11 @@
 
     .line 7
     .line 8
-    iget-object v1, p0, Lu0/g;
-    ->a:Lu0/j;
+    iget-object v1, p0, Lu0/g;->a:Lu0/j;
 
     .line 9
     .line 10
-    invoke-virtual {v1}, Lu0/j;
-    ->h()F
+    invoke-virtual {v1}, Lu0/j;->h()F
 
     .line 11
     .line 12
@@ -59,8 +55,7 @@
     neg-float v1, v1
 
     .line 15
-    invoke-direct {v0, v1, p1}, Lu0/b;
-    -><init>(FLu0/d;)V
+    invoke-direct {v0, v1, p1}, Lu0/b;-><init>(FLu0/d;)V
 
     .line 16
     .line 17

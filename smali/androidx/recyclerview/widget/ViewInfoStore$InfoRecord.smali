@@ -67,22 +67,19 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/core/util/Pools$SimplePool;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/core/util/Pools$SimplePool;-><init>(I)V
 
     .line 6
     .line 7
     .line 8
-    sput-object v0, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;
-    ->sPool:Landroidx/core/util/Pools$Pool;    return-void
+    sput-object v0, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;->sPool:Landroidx/core/util/Pools$Pool;    return-void
 .end method
 
 .method private constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -91,13 +88,11 @@
 
     .line 1
     :goto_0
-    sget-object v0, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;
-    ->sPool:Landroidx/core/util/Pools$Pool;
+    sget-object v0, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;->sPool:Landroidx/core/util/Pools$Pool;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Landroidx/core/util/Pools$Pool;
-    ->acquire()Ljava/lang/Object;
+    invoke-interface {v0}, Landroidx/core/util/Pools$Pool;->acquire()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -120,13 +115,11 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;
-    ->sPool:Landroidx/core/util/Pools$Pool;
+    sget-object v0, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;->sPool:Landroidx/core/util/Pools$Pool;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Landroidx/core/util/Pools$Pool;
-    ->acquire()Ljava/lang/Object;
+    invoke-interface {v0}, Landroidx/core/util/Pools$Pool;->acquire()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -146,8 +139,7 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;-><init>()V
 
     .line 14
     .line 15
@@ -163,31 +155,26 @@
     const/4 v0, 0x0
 
     .line 2
-    iput v0, p0, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;
-    ->flags:I
+    iput v0, p0, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;->flags:I
 
     .line 3
     .line 4
     const/4 v0, 0x0
 
     .line 5
-    iput-object v0, p0, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;
-    ->preInfo:Landroidx/recyclerview/widget/RecyclerView$ItemAnimator$ItemHolderInfo;
+    iput-object v0, p0, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;->preInfo:Landroidx/recyclerview/widget/RecyclerView$ItemAnimator$ItemHolderInfo;
 
     .line 6
     .line 7
-    iput-object v0, p0, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;
-    ->postInfo:Landroidx/recyclerview/widget/RecyclerView$ItemAnimator$ItemHolderInfo;
+    iput-object v0, p0, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;->postInfo:Landroidx/recyclerview/widget/RecyclerView$ItemAnimator$ItemHolderInfo;
 
     .line 8
     .line 9
-    sget-object v0, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;
-    ->sPool:Landroidx/core/util/Pools$Pool;
+    sget-object v0, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;->sPool:Landroidx/core/util/Pools$Pool;
 
     .line 10
     .line 11
-    invoke-interface {v0, p0}, Landroidx/core/util/Pools$Pool;
-    ->release(Ljava/lang/Object;)Z
+    invoke-interface {v0, p0}, Landroidx/core/util/Pools$Pool;->release(Ljava/lang/Object;)Z
 return-void
 .end method
 

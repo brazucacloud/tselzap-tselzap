@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -38,8 +37,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Notification;
-    ->getBadgeIconType()I
+    invoke-virtual {p0}, Landroid/app/Notification;->getBadgeIconType()I
 
     .line 2
     .line 3
@@ -55,8 +53,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Notification;
-    ->getChannelId()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/app/Notification;->getChannelId()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -72,8 +69,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Notification;
-    ->getGroupAlertBehavior()I
+    invoke-virtual {p0}, Landroid/app/Notification;->getGroupAlertBehavior()I
 
     .line 2
     .line 3
@@ -89,8 +85,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Notification;
-    ->getSettingsText()Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroid/app/Notification;->getSettingsText()Ljava/lang/CharSequence;
 
     .line 2
     .line 3
@@ -106,8 +101,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Notification;
-    ->getShortcutId()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/app/Notification;->getShortcutId()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -123,8 +117,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Notification;
-    ->getTimeoutAfter()J
+    invoke-virtual {p0}, Landroid/app/Notification;->getTimeoutAfter()J
 
     .line 2
     .line 3

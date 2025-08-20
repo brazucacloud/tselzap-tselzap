@@ -23,13 +23,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/recyclerview/widget/NestedAdapterWrapper$1;
-    ->this$0:Landroidx/recyclerview/widget/NestedAdapterWrapper;
+    iput-object p1, p0, Landroidx/recyclerview/widget/NestedAdapterWrapper$1;->this$0:Landroidx/recyclerview/widget/NestedAdapterWrapper;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;-><init>()V
     return-void
 .end method
 
@@ -39,18 +37,15 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/NestedAdapterWrapper$1;
-    ->this$0:Landroidx/recyclerview/widget/NestedAdapterWrapper;
+    iget-object v0, p0, Landroidx/recyclerview/widget/NestedAdapterWrapper$1;->this$0:Landroidx/recyclerview/widget/NestedAdapterWrapper;
 
     .line 2
     .line 3
-    iget-object v1, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
+    iget-object v1, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     .line 4
     .line 5
-    invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->getItemCount()I
+    invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->getItemCount()I
 
     .line 6
     .line 7
@@ -58,23 +53,19 @@
     move-result v1
 
     .line 9
-    iput v1, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->mCachedItemCount:I
+    iput v1, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;->mCachedItemCount:I
 
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/recyclerview/widget/NestedAdapterWrapper$1;
-    ->this$0:Landroidx/recyclerview/widget/NestedAdapterWrapper;
+    iget-object v0, p0, Landroidx/recyclerview/widget/NestedAdapterWrapper$1;->this$0:Landroidx/recyclerview/widget/NestedAdapterWrapper;
 
     .line 12
     .line 13
-    iget-object v1, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->mCallback:Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;
+    iget-object v1, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;->mCallback:Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;
 
     .line 14
     .line 15
-    invoke-interface {v1, v0}, Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;
-    ->onChanged(Landroidx/recyclerview/widget/NestedAdapterWrapper;)V
+    invoke-interface {v1, v0}, Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;->onChanged(Landroidx/recyclerview/widget/NestedAdapterWrapper;)V
     return-void
 .end method
 
@@ -82,16 +73,13 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/NestedAdapterWrapper$1;
-    ->this$0:Landroidx/recyclerview/widget/NestedAdapterWrapper;
+    iget-object v0, p0, Landroidx/recyclerview/widget/NestedAdapterWrapper$1;->this$0:Landroidx/recyclerview/widget/NestedAdapterWrapper;
 
-    iget-object v1, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->mCallback:Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;
+    iget-object v1, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;->mCallback:Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;
 
     const/4 v2, 0x0
 
-    invoke-interface {v1, v0, p1, p2, v2}, Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;
-    ->onItemRangeChanged(Landroidx/recyclerview/widget/NestedAdapterWrapper;IILjava/lang/Object;)V
+    invoke-interface {v1, v0, p1, p2, v2}, Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;->onItemRangeChanged(Landroidx/recyclerview/widget/NestedAdapterWrapper;IILjava/lang/Object;)V
 return-void
 .end method
 
@@ -103,14 +91,11 @@ return-void
     .end param
 
     .line 2
-    iget-object v0, p0, Landroidx/recyclerview/widget/NestedAdapterWrapper$1;
-    ->this$0:Landroidx/recyclerview/widget/NestedAdapterWrapper;
+    iget-object v0, p0, Landroidx/recyclerview/widget/NestedAdapterWrapper$1;->this$0:Landroidx/recyclerview/widget/NestedAdapterWrapper;
 
-    iget-object v1, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->mCallback:Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;
+    iget-object v1, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;->mCallback:Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;
 
-    invoke-interface {v1, v0, p1, p2, p3}, Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;
-    ->onItemRangeChanged(Landroidx/recyclerview/widget/NestedAdapterWrapper;IILjava/lang/Object;)V
+    invoke-interface {v1, v0, p1, p2, p3}, Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;->onItemRangeChanged(Landroidx/recyclerview/widget/NestedAdapterWrapper;IILjava/lang/Object;)V
 return-void
 .end method
 
@@ -118,42 +103,35 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/NestedAdapterWrapper$1;
-    ->this$0:Landroidx/recyclerview/widget/NestedAdapterWrapper;
+    iget-object v0, p0, Landroidx/recyclerview/widget/NestedAdapterWrapper$1;->this$0:Landroidx/recyclerview/widget/NestedAdapterWrapper;
 
     .line 2
     .line 3
-    iget v1, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->mCachedItemCount:I
+    iget v1, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;->mCachedItemCount:I
 
     .line 4
     .line 5
     add-int/2addr v1, p2
 
     .line 6
-    iput v1, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->mCachedItemCount:I
+    iput v1, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;->mCachedItemCount:I
 
     .line 7
     .line 8
-    iget-object v1, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->mCallback:Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;
+    iget-object v1, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;->mCallback:Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;
 
     .line 9
     .line 10
-    invoke-interface {v1, v0, p1, p2}, Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;
-    ->onItemRangeInserted(Landroidx/recyclerview/widget/NestedAdapterWrapper;II)V
+    invoke-interface {v1, v0, p1, p2}, Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;->onItemRangeInserted(Landroidx/recyclerview/widget/NestedAdapterWrapper;II)V
 
     .line 11
     .line 12
     .line 13
-    iget-object p1, p0, Landroidx/recyclerview/widget/NestedAdapterWrapper$1;
-    ->this$0:Landroidx/recyclerview/widget/NestedAdapterWrapper;
+    iget-object p1, p0, Landroidx/recyclerview/widget/NestedAdapterWrapper$1;->this$0:Landroidx/recyclerview/widget/NestedAdapterWrapper;
 
     .line 14
     .line 15
-    iget p2, p1, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->mCachedItemCount:I
+    iget p2, p1, Landroidx/recyclerview/widget/NestedAdapterWrapper;->mCachedItemCount:I
 
     .line 16
     .line 17
@@ -161,13 +139,11 @@ return-void
 
     .line 18
     .line 19
-    iget-object p1, p1, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
+    iget-object p1, p1, Landroidx/recyclerview/widget/NestedAdapterWrapper;->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     .line 20
     .line 21
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->getStateRestorationPolicy()Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->getStateRestorationPolicy()Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;
 
     .line 22
     .line 23
@@ -175,8 +151,7 @@ return-void
     move-result-object p1
 
     .line 25
-    sget-object p2, Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;
-    ->PREVENT_WHEN_EMPTY:Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;
+    sget-object p2, Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;->PREVENT_WHEN_EMPTY:Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;
 
     .line 26
     .line 27
@@ -184,18 +159,15 @@ return-void
 
     .line 28
     .line 29
-    iget-object p1, p0, Landroidx/recyclerview/widget/NestedAdapterWrapper$1;
-    ->this$0:Landroidx/recyclerview/widget/NestedAdapterWrapper;
+    iget-object p1, p0, Landroidx/recyclerview/widget/NestedAdapterWrapper$1;->this$0:Landroidx/recyclerview/widget/NestedAdapterWrapper;
 
     .line 30
     .line 31
-    iget-object p2, p1, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->mCallback:Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;
+    iget-object p2, p1, Landroidx/recyclerview/widget/NestedAdapterWrapper;->mCallback:Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;
 
     .line 32
     .line 33
-    invoke-interface {p2, p1}, Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;
-    ->onStateRestorationPolicyChanged(Landroidx/recyclerview/widget/NestedAdapterWrapper;)V
+    invoke-interface {p2, p1}, Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;->onStateRestorationPolicyChanged(Landroidx/recyclerview/widget/NestedAdapterWrapper;)V
 
     .line 34
     .line 35
@@ -227,24 +199,20 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {v0, p3}, Landroidx/core/util/Preconditions;
-    ->checkArgument(ZLjava/lang/Object;)V
+    invoke-static {v0, p3}, Landroidx/core/util/Preconditions;->checkArgument(ZLjava/lang/Object;)V
 
     .line 9
     .line 10
     .line 11
-    iget-object p3, p0, Landroidx/recyclerview/widget/NestedAdapterWrapper$1;
-    ->this$0:Landroidx/recyclerview/widget/NestedAdapterWrapper;
+    iget-object p3, p0, Landroidx/recyclerview/widget/NestedAdapterWrapper$1;->this$0:Landroidx/recyclerview/widget/NestedAdapterWrapper;
 
     .line 12
     .line 13
-    iget-object v0, p3, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->mCallback:Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;
+    iget-object v0, p3, Landroidx/recyclerview/widget/NestedAdapterWrapper;->mCallback:Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;
 
     .line 14
     .line 15
-    invoke-interface {v0, p3, p1, p2}, Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;
-    ->onItemRangeMoved(Landroidx/recyclerview/widget/NestedAdapterWrapper;II)V
+    invoke-interface {v0, p3, p1, p2}, Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;->onItemRangeMoved(Landroidx/recyclerview/widget/NestedAdapterWrapper;II)V
 return-void
 .end method
 
@@ -252,42 +220,35 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/NestedAdapterWrapper$1;
-    ->this$0:Landroidx/recyclerview/widget/NestedAdapterWrapper;
+    iget-object v0, p0, Landroidx/recyclerview/widget/NestedAdapterWrapper$1;->this$0:Landroidx/recyclerview/widget/NestedAdapterWrapper;
 
     .line 2
     .line 3
-    iget v1, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->mCachedItemCount:I
+    iget v1, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;->mCachedItemCount:I
 
     .line 4
     .line 5
     sub-int/2addr v1, p2
 
     .line 6
-    iput v1, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->mCachedItemCount:I
+    iput v1, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;->mCachedItemCount:I
 
     .line 7
     .line 8
-    iget-object v1, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->mCallback:Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;
+    iget-object v1, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;->mCallback:Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;
 
     .line 9
     .line 10
-    invoke-interface {v1, v0, p1, p2}, Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;
-    ->onItemRangeRemoved(Landroidx/recyclerview/widget/NestedAdapterWrapper;II)V
+    invoke-interface {v1, v0, p1, p2}, Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;->onItemRangeRemoved(Landroidx/recyclerview/widget/NestedAdapterWrapper;II)V
 
     .line 11
     .line 12
     .line 13
-    iget-object p1, p0, Landroidx/recyclerview/widget/NestedAdapterWrapper$1;
-    ->this$0:Landroidx/recyclerview/widget/NestedAdapterWrapper;
+    iget-object p1, p0, Landroidx/recyclerview/widget/NestedAdapterWrapper$1;->this$0:Landroidx/recyclerview/widget/NestedAdapterWrapper;
 
     .line 14
     .line 15
-    iget p2, p1, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->mCachedItemCount:I
+    iget p2, p1, Landroidx/recyclerview/widget/NestedAdapterWrapper;->mCachedItemCount:I
 
     .line 16
     .line 17
@@ -298,13 +259,11 @@ return-void
 
     .line 19
     .line 20
-    iget-object p1, p1, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
+    iget-object p1, p1, Landroidx/recyclerview/widget/NestedAdapterWrapper;->adapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     .line 21
     .line 22
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->getStateRestorationPolicy()Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->getStateRestorationPolicy()Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;
 
     .line 23
     .line 24
@@ -312,8 +271,7 @@ return-void
     move-result-object p1
 
     .line 26
-    sget-object p2, Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;
-    ->PREVENT_WHEN_EMPTY:Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;
+    sget-object p2, Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;->PREVENT_WHEN_EMPTY:Landroidx/recyclerview/widget/RecyclerView$Adapter$StateRestorationPolicy;
 
     .line 27
     .line 28
@@ -321,18 +279,15 @@ return-void
 
     .line 29
     .line 30
-    iget-object p1, p0, Landroidx/recyclerview/widget/NestedAdapterWrapper$1;
-    ->this$0:Landroidx/recyclerview/widget/NestedAdapterWrapper;
+    iget-object p1, p0, Landroidx/recyclerview/widget/NestedAdapterWrapper$1;->this$0:Landroidx/recyclerview/widget/NestedAdapterWrapper;
 
     .line 31
     .line 32
-    iget-object p2, p1, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->mCallback:Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;
+    iget-object p2, p1, Landroidx/recyclerview/widget/NestedAdapterWrapper;->mCallback:Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;
 
     .line 33
     .line 34
-    invoke-interface {p2, p1}, Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;
-    ->onStateRestorationPolicyChanged(Landroidx/recyclerview/widget/NestedAdapterWrapper;)V
+    invoke-interface {p2, p1}, Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;->onStateRestorationPolicyChanged(Landroidx/recyclerview/widget/NestedAdapterWrapper;)V
 
     .line 35
     .line 36
@@ -345,18 +300,15 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/NestedAdapterWrapper$1;
-    ->this$0:Landroidx/recyclerview/widget/NestedAdapterWrapper;
+    iget-object v0, p0, Landroidx/recyclerview/widget/NestedAdapterWrapper$1;->this$0:Landroidx/recyclerview/widget/NestedAdapterWrapper;
 
     .line 2
     .line 3
-    iget-object v1, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;
-    ->mCallback:Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;
+    iget-object v1, v0, Landroidx/recyclerview/widget/NestedAdapterWrapper;->mCallback:Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;
 
     .line 4
     .line 5
-    invoke-interface {v1, v0}, Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;
-    ->onStateRestorationPolicyChanged(Landroidx/recyclerview/widget/NestedAdapterWrapper;)V
+    invoke-interface {v1, v0}, Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;->onStateRestorationPolicyChanged(Landroidx/recyclerview/widget/NestedAdapterWrapper;)V
 return-void
 .end method
 

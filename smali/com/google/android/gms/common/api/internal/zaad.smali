@@ -14,8 +14,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -24,14 +23,12 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/WeakHashMap;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/WeakHashMap;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    invoke-static {v0}, Ljava/util/Collections;
-    ->synchronizedMap(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {v0}, Ljava/util/Collections;->synchronizedMap(Ljava/util/Map;)Ljava/util/Map;
 
     .line 10
     .line 11
@@ -39,8 +36,7 @@
     move-result-object v0
 
     .line 13
-    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/zaad;
-    ->zaa:Ljava/util/Map;
+    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/zaad;->zaa:Ljava/util/Map;
 
     .line 14
     .line 15
@@ -48,14 +44,12 @@
 
     .line 16
     .line 17
-    invoke-direct {v0}, Ljava/util/WeakHashMap;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/WeakHashMap;-><init>()V
 
     .line 18
     .line 19
     .line 20
-    invoke-static {v0}, Ljava/util/Collections;
-    ->synchronizedMap(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {v0}, Ljava/util/Collections;->synchronizedMap(Ljava/util/Map;)Ljava/util/Map;
 
     .line 21
     .line 22
@@ -63,8 +57,7 @@
     move-result-object v0
 
     .line 24
-    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/zaad;
-    ->zab:Ljava/util/Map;
+    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/zaad;->zab:Ljava/util/Map;
 
     .line 25
     .line 26
@@ -74,8 +67,7 @@
 .method public static bridge synthetic zaa(Lcom/google/android/gms/common/api/internal/zaad;)Ljava/util/Map;
     .locals 0
 
-    iget-object p0, p0, Lcom/google/android/gms/common/api/internal/zaad;
-    ->zaa:Ljava/util/Map;
+    iget-object p0, p0, Lcom/google/android/gms/common/api/internal/zaad;->zaa:Ljava/util/Map;
 
     return-object p0
 .end method
@@ -83,8 +75,7 @@
 .method public static bridge synthetic zab(Lcom/google/android/gms/common/api/internal/zaad;)Ljava/util/Map;
     .locals 0
 
-    iget-object p0, p0, Lcom/google/android/gms/common/api/internal/zaad;
-    ->zab:Ljava/util/Map;
+    iget-object p0, p0, Lcom/google/android/gms/common/api/internal/zaad;->zab:Ljava/util/Map;
 
     return-object p0
 .end method
@@ -93,8 +84,7 @@
     .locals 4
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaad;
-    ->zaa:Ljava/util/Map;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaad;->zaa:Ljava/util/Map;
 
     .line 2
     .line 3
@@ -106,13 +96,11 @@
 
     .line 5
     .line 6
-    iget-object v2, p0, Lcom/google/android/gms/common/api/internal/zaad;
-    ->zaa:Ljava/util/Map;
+    iget-object v2, p0, Lcom/google/android/gms/common/api/internal/zaad;->zaa:Ljava/util/Map;
 
     .line 7
     .line 8
-    invoke-direct {v1, v2}, Ljava/util/HashMap;
-    -><init>(Ljava/util/Map;)V
+    invoke-direct {v1, v2}, Ljava/util/HashMap;-><init>(Ljava/util/Map;)V
 
     .line 9
     .line 10
@@ -122,8 +110,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
     .line 12
-    iget-object v2, p0, Lcom/google/android/gms/common/api/internal/zaad;
-    ->zab:Ljava/util/Map;
+    iget-object v2, p0, Lcom/google/android/gms/common/api/internal/zaad;->zab:Ljava/util/Map;
 
     .line 13
     .line 14
@@ -135,13 +122,11 @@
 
     .line 16
     .line 17
-    iget-object v3, p0, Lcom/google/android/gms/common/api/internal/zaad;
-    ->zab:Ljava/util/Map;
+    iget-object v3, p0, Lcom/google/android/gms/common/api/internal/zaad;->zab:Ljava/util/Map;
 
     .line 18
     .line 19
-    invoke-direct {v0, v3}, Ljava/util/HashMap;
-    -><init>(Ljava/util/Map;)V
+    invoke-direct {v0, v3}, Ljava/util/HashMap;-><init>(Ljava/util/Map;)V
 
     .line 20
     .line 21
@@ -151,8 +136,7 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 23
-    invoke-virtual {v1}, Ljava/util/HashMap;
-    ->entrySet()Ljava/util/Set;
+    invoke-virtual {v1}, Ljava/util/HashMap;->entrySet()Ljava/util/Set;
 
     .line 24
     .line 25
@@ -160,8 +144,7 @@
     move-result-object v1
 
     .line 27
-    invoke-interface {v1}, Ljava/util/Set;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     .line 28
     .line 29
@@ -171,8 +154,7 @@
     .line 31
     :cond_0
     :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
     .line 32
     .line 33
@@ -184,8 +166,7 @@
 
     .line 36
     .line 37
-    invoke-interface {v1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 38
     .line 39
@@ -201,8 +182,7 @@
 
     .line 44
     .line 45
-    invoke-interface {v2}, Ljava/util/Map$Entry;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     .line 46
     .line 47
@@ -214,8 +194,7 @@
 
     .line 50
     .line 51
-    invoke-virtual {v3}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {v3}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 52
     .line 53
@@ -228,8 +207,7 @@
     .line 56
     .line 57
     :cond_1
-    invoke-interface {v2}, Ljava/util/Map$Entry;
-    ->getKey()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     .line 58
     .line 59
@@ -241,8 +219,7 @@
 
     .line 62
     .line 63
-    invoke-virtual {v2, p2}, Lcom/google/android/gms/common/api/internal/BasePendingResult;
-    ->forceFailureUnlessReady(Lcom/google/android/gms/common/api/Status;)V
+    invoke-virtual {v2, p2}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->forceFailureUnlessReady(Lcom/google/android/gms/common/api/Status;)V
 
     .line 64
     .line 65
@@ -251,8 +228,7 @@
 
     .line 67
     :cond_2
-    invoke-virtual {v0}, Ljava/util/HashMap;
-    ->entrySet()Ljava/util/Set;
+    invoke-virtual {v0}, Ljava/util/HashMap;->entrySet()Ljava/util/Set;
 
     .line 68
     .line 69
@@ -260,8 +236,7 @@
     move-result-object v0
 
     .line 71
-    invoke-interface {v0}, Ljava/util/Set;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     .line 72
     .line 73
@@ -271,8 +246,7 @@
     .line 75
     :cond_3
     :goto_1
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 76
     .line 77
@@ -284,8 +258,7 @@
 
     .line 80
     .line 81
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 82
     .line 83
@@ -301,8 +274,7 @@
 
     .line 88
     .line 89
-    invoke-interface {v1}, Ljava/util/Map$Entry;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     .line 90
     .line 91
@@ -314,8 +286,7 @@
 
     .line 94
     .line 95
-    invoke-virtual {v2}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {v2}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 96
     .line 97
@@ -328,8 +299,7 @@
     .line 100
     .line 101
     :cond_4
-    invoke-interface {v1}, Ljava/util/Map$Entry;
-    ->getKey()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     .line 102
     .line 103
@@ -345,14 +315,12 @@
 
     .line 108
     .line 109
-    invoke-direct {v2, p2}, Lcom/google/android/gms/common/api/ApiException;
-    -><init>(Lcom/google/android/gms/common/api/Status;)V
+    invoke-direct {v2, p2}, Lcom/google/android/gms/common/api/ApiException;-><init>(Lcom/google/android/gms/common/api/Status;)V
 
     .line 110
     .line 111
     .line 112
-    invoke-virtual {v1, v2}, Lcom/google/android/gms/tasks/TaskCompletionSource;
-    ->trySetException(Ljava/lang/Exception;)Z
+    invoke-virtual {v1, v2}, Lcom/google/android/gms/tasks/TaskCompletionSource;->trySetException(Ljava/lang/Exception;)Z
 
     .line 113
     .line 114
@@ -512,8 +480,7 @@
     .locals 1
 
     .line 1
-    invoke-static {p2}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 2
     .line 3
@@ -521,13 +488,11 @@
     move-result-object p2
 
     .line 5
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaad;
-    ->zaa:Ljava/util/Map;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaad;->zaa:Ljava/util/Map;
 
     .line 6
     .line 7
-    invoke-interface {v0, p1, p2}, Ljava/util/Map;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -536,14 +501,12 @@
 
     .line 11
     .line 12
-    invoke-direct {p2, p0, p1}, Lcom/google/android/gms/common/api/internal/zaab;
-    -><init>(Lcom/google/android/gms/common/api/internal/zaad;Lcom/google/android/gms/common/api/internal/BasePendingResult;)V
+    invoke-direct {p2, p0, p1}, Lcom/google/android/gms/common/api/internal/zaab;-><init>(Lcom/google/android/gms/common/api/internal/zaad;Lcom/google/android/gms/common/api/internal/BasePendingResult;)V
 
     .line 13
     .line 14
     .line 15
-    invoke-virtual {p1, p2}, Lcom/google/android/gms/common/api/internal/BasePendingResult;
-    ->addStatusListener(Lcom/google/android/gms/common/api/PendingResult$StatusListener;)V
+    invoke-virtual {p1, p2}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->addStatusListener(Lcom/google/android/gms/common/api/PendingResult$StatusListener;)V
 
     .line 16
     .line 17
@@ -555,8 +518,7 @@
     .locals 1
 
     .line 1
-    invoke-static {p2}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 2
     .line 3
@@ -564,19 +526,16 @@
     move-result-object p2
 
     .line 5
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaad;
-    ->zab:Ljava/util/Map;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaad;->zab:Ljava/util/Map;
 
     .line 6
     .line 7
-    invoke-interface {v0, p1, p2}, Ljava/util/Map;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 8
     .line 9
     .line 10
-    invoke-virtual {p1}, Lcom/google/android/gms/tasks/TaskCompletionSource;
-    ->getTask()Lcom/google/android/gms/tasks/Task;
+    invoke-virtual {p1}, Lcom/google/android/gms/tasks/TaskCompletionSource;->getTask()Lcom/google/android/gms/tasks/Task;
 
     .line 11
     .line 12
@@ -588,14 +547,12 @@
 
     .line 15
     .line 16
-    invoke-direct {v0, p0, p1}, Lcom/google/android/gms/common/api/internal/zaac;
-    -><init>(Lcom/google/android/gms/common/api/internal/zaad;Lcom/google/android/gms/tasks/TaskCompletionSource;)V
+    invoke-direct {v0, p0, p1}, Lcom/google/android/gms/common/api/internal/zaac;-><init>(Lcom/google/android/gms/common/api/internal/zaad;Lcom/google/android/gms/tasks/TaskCompletionSource;)V
 
     .line 17
     .line 18
     .line 19
-    invoke-virtual {p2, v0}, Lcom/google/android/gms/tasks/Task;
-    ->addOnCompleteListener(Lcom/google/android/gms/tasks/OnCompleteListener;)Lcom/google/android/gms/tasks/Task;
+    invoke-virtual {p2, v0}, Lcom/google/android/gms/tasks/Task;->addOnCompleteListener(Lcom/google/android/gms/tasks/OnCompleteListener;)Lcom/google/android/gms/tasks/Task;
 
     .line 20
     .line 21
@@ -619,8 +576,7 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
@@ -636,8 +592,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 14
     .line 15
@@ -657,8 +612,7 @@
 
     .line 21
     .line 22
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 23
     .line 24
@@ -673,21 +627,18 @@
 
     .line 28
     .line 29
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 30
     .line 31
     .line 32
-    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 33
     .line 34
     .line 35
     :cond_2
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 36
     .line 37
@@ -703,14 +654,12 @@
 
     .line 42
     .line 43
-    invoke-direct {p2, v0, p1}, Lcom/google/android/gms/common/api/Status;
-    -><init>(ILjava/lang/String;)V
+    invoke-direct {p2, v0, p1}, Lcom/google/android/gms/common/api/Status;-><init>(ILjava/lang/String;)V
 
     .line 44
     .line 45
     .line 46
-    invoke-direct {p0, v1, p2}, Lcom/google/android/gms/common/api/internal/zaad;
-    ->zah(ZLcom/google/android/gms/common/api/Status;)V
+    invoke-direct {p0, v1, p2}, Lcom/google/android/gms/common/api/internal/zaad;->zah(ZLcom/google/android/gms/common/api/Status;)V
 
     .line 47
     .line 48
@@ -725,13 +674,11 @@
     const/4 v0, 0x0
 
     .line 2
-    sget-object v1, Lcom/google/android/gms/common/api/internal/GoogleApiManager;
-    ->zaa:Lcom/google/android/gms/common/api/Status;
+    sget-object v1, Lcom/google/android/gms/common/api/internal/GoogleApiManager;->zaa:Lcom/google/android/gms/common/api/Status;
 
     .line 3
     .line 4
-    invoke-direct {p0, v0, v1}, Lcom/google/android/gms/common/api/internal/zaad;
-    ->zah(ZLcom/google/android/gms/common/api/Status;)V
+    invoke-direct {p0, v0, v1}, Lcom/google/android/gms/common/api/internal/zaad;->zah(ZLcom/google/android/gms/common/api/Status;)V
 
     .line 5
     .line 6
@@ -743,13 +690,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaad;
-    ->zaa:Ljava/util/Map;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaad;->zaa:Ljava/util/Map;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/Map;
-    ->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/Map;->isEmpty()Z
 
     .line 4
     .line 5
@@ -761,13 +706,11 @@
 
     .line 8
     .line 9
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaad;
-    ->zab:Ljava/util/Map;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaad;->zab:Ljava/util/Map;
 
     .line 10
     .line 11
-    invoke-interface {v0}, Ljava/util/Map;
-    ->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/Map;->isEmpty()Z
 
     .line 12
     .line 13

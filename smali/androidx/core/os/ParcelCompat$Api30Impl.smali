@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -57,8 +56,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/os/Parcel;
-    ->readParcelableCreator(Ljava/lang/ClassLoader;)Landroid/os/Parcelable$Creator;
+    invoke-virtual {p0, p1}, Landroid/os/Parcel;->readParcelableCreator(Ljava/lang/ClassLoader;)Landroid/os/Parcelable$Creator;
 
     .line 2
     .line 3

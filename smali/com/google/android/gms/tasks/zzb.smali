@@ -11,16 +11,13 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct {p0}, Lcom/google/android/gms/tasks/CancellationToken;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/tasks/CancellationToken;-><init>()V
 
     new-instance v0, Lcom/google/android/gms/tasks/zzw;
 
-    invoke-direct {v0}, Lcom/google/android/gms/tasks/zzw;
-    -><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/tasks/zzw;-><init>()V
 
-    iput-object v0, p0, Lcom/google/android/gms/tasks/zzb;
-    ->zza:Lcom/google/android/gms/tasks/zzw;
+    iput-object v0, p0, Lcom/google/android/gms/tasks/zzb;->zza:Lcom/google/android/gms/tasks/zzw;
 
     return-void
 .end method
@@ -31,13 +28,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/tasks/zzb;
-    ->zza:Lcom/google/android/gms/tasks/zzw;
+    iget-object v0, p0, Lcom/google/android/gms/tasks/zzb;->zza:Lcom/google/android/gms/tasks/zzw;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/google/android/gms/tasks/zzw;
-    ->isComplete()Z
+    invoke-virtual {v0}, Lcom/google/android/gms/tasks/zzw;->isComplete()Z
 
     .line 4
     .line 5
@@ -59,24 +54,20 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Lcom/google/android/gms/tasks/zza;
-    -><init>(Lcom/google/android/gms/tasks/zzb;Lcom/google/android/gms/tasks/OnTokenCanceledListener;)V
+    invoke-direct {v0, p0, p1}, Lcom/google/android/gms/tasks/zza;-><init>(Lcom/google/android/gms/tasks/zzb;Lcom/google/android/gms/tasks/OnTokenCanceledListener;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object p1, p0, Lcom/google/android/gms/tasks/zzb;
-    ->zza:Lcom/google/android/gms/tasks/zzw;
+    iget-object p1, p0, Lcom/google/android/gms/tasks/zzb;->zza:Lcom/google/android/gms/tasks/zzw;
 
     .line 7
     .line 8
-    sget-object v1, Lcom/google/android/gms/tasks/TaskExecutors;
-    ->MAIN_THREAD:Ljava/util/concurrent/Executor;
+    sget-object v1, Lcom/google/android/gms/tasks/TaskExecutors;->MAIN_THREAD:Ljava/util/concurrent/Executor;
 
     .line 9
     .line 10
-    invoke-virtual {p1, v1, v0}, Lcom/google/android/gms/tasks/zzw;
-    ->addOnSuccessListener(Ljava/util/concurrent/Executor;Lcom/google/android/gms/tasks/OnSuccessListener;)Lcom/google/android/gms/tasks/Task;
+    invoke-virtual {p1, v1, v0}, Lcom/google/android/gms/tasks/zzw;->addOnSuccessListener(Ljava/util/concurrent/Executor;Lcom/google/android/gms/tasks/OnSuccessListener;)Lcom/google/android/gms/tasks/Task;
 
     .line 11
     .line 12
@@ -88,16 +79,14 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/tasks/zzb;
-    ->zza:Lcom/google/android/gms/tasks/zzw;
+    iget-object v0, p0, Lcom/google/android/gms/tasks/zzb;->zza:Lcom/google/android/gms/tasks/zzw;
 
     .line 2
     .line 3
     const/4 v1, 0x0
 
     .line 4
-    invoke-virtual {v0, v1}, Lcom/google/android/gms/tasks/zzw;
-    ->zze(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Lcom/google/android/gms/tasks/zzw;->zze(Ljava/lang/Object;)Z
 
     .line 5
     .line 6

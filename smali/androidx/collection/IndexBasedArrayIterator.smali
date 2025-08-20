@@ -34,14 +34,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput p1, p0, Landroidx/collection/IndexBasedArrayIterator;
-    ->size:I    
+    iput p1, p0, Landroidx/collection/IndexBasedArrayIterator;->size:I
     return-void
 .end method
 
@@ -59,13 +57,11 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/collection/IndexBasedArrayIterator;
-    ->index:I
+    iget v0, p0, Landroidx/collection/IndexBasedArrayIterator;->index:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/collection/IndexBasedArrayIterator;
-    ->size:I
+    iget v1, p0, Landroidx/collection/IndexBasedArrayIterator;->size:I
 
     .line 4
     .line 5
@@ -93,8 +89,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/collection/IndexBasedArrayIterator;
-    ->hasNext()Z
+    invoke-virtual {p0}, Landroidx/collection/IndexBasedArrayIterator;->hasNext()Z
 
     .line 2
     .line 3
@@ -106,13 +101,11 @@
 
     .line 6
     .line 7
-    iget v0, p0, Landroidx/collection/IndexBasedArrayIterator;
-    ->index:I
+    iget v0, p0, Landroidx/collection/IndexBasedArrayIterator;->index:I
 
     .line 8
     .line 9
-    invoke-virtual {p0, v0}, Landroidx/collection/IndexBasedArrayIterator;
-    ->elementAt(I)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroidx/collection/IndexBasedArrayIterator;->elementAt(I)Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -120,8 +113,7 @@
     move-result-object v0
 
     .line 13
-    iget v1, p0, Landroidx/collection/IndexBasedArrayIterator;
-    ->index:I
+    iget v1, p0, Landroidx/collection/IndexBasedArrayIterator;->index:I
 
     .line 14
     .line 15
@@ -131,13 +123,11 @@
     add-int/2addr v1, v2
 
     .line 17
-    iput v1, p0, Landroidx/collection/IndexBasedArrayIterator;
-    ->index:I
+    iput v1, p0, Landroidx/collection/IndexBasedArrayIterator;->index:I
 
     .line 18
     .line 19
-    iput-boolean v2, p0, Landroidx/collection/IndexBasedArrayIterator;
-    ->canRemove:Z
+    iput-boolean v2, p0, Landroidx/collection/IndexBasedArrayIterator;->canRemove:Z
 return-object v0
 
     .line 22
@@ -146,8 +136,7 @@ return-object v0
 
     .line 23
     .line 24
-    invoke-direct {v0}, Ljava/util/NoSuchElementException;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/NoSuchElementException;-><init>()V
 
     .line 25
     .line 26
@@ -158,8 +147,7 @@ return-object v0
     .locals 2
 
     .line 1
-    iget-boolean v0, p0, Landroidx/collection/IndexBasedArrayIterator;
-    ->canRemove:Z
+    iget-boolean v0, p0, Landroidx/collection/IndexBasedArrayIterator;->canRemove:Z
 
     .line 2
     .line 3
@@ -167,8 +155,7 @@ return-object v0
 
     .line 4
     .line 5
-    iget v0, p0, Landroidx/collection/IndexBasedArrayIterator;
-    ->index:I
+    iget v0, p0, Landroidx/collection/IndexBasedArrayIterator;->index:I
 
     .line 6
     .line 7
@@ -176,19 +163,16 @@ return-object v0
 
     .line 8
     .line 9
-    iput v0, p0, Landroidx/collection/IndexBasedArrayIterator;
-    ->index:I
+    iput v0, p0, Landroidx/collection/IndexBasedArrayIterator;->index:I
 
     .line 10
     .line 11
-    invoke-virtual {p0, v0}, Landroidx/collection/IndexBasedArrayIterator;
-    ->removeAt(I)V
+    invoke-virtual {p0, v0}, Landroidx/collection/IndexBasedArrayIterator;->removeAt(I)V
 
     .line 12
     .line 13
     .line 14
-    iget v0, p0, Landroidx/collection/IndexBasedArrayIterator;
-    ->size:I
+    iget v0, p0, Landroidx/collection/IndexBasedArrayIterator;->size:I
 
     .line 15
     .line 16
@@ -196,16 +180,14 @@ return-object v0
 
     .line 17
     .line 18
-    iput v0, p0, Landroidx/collection/IndexBasedArrayIterator;
-    ->size:I
+    iput v0, p0, Landroidx/collection/IndexBasedArrayIterator;->size:I
 
     .line 19
     .line 20
     const/4 v0, 0x0
 
     .line 21
-    iput-boolean v0, p0, Landroidx/collection/IndexBasedArrayIterator;
-    ->canRemove:Z
+    iput-boolean v0, p0, Landroidx/collection/IndexBasedArrayIterator;->canRemove:Z
 return-void
 
     .line 24
@@ -218,8 +200,7 @@ return-void
 
     .line 27
     .line 28
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 29
     .line 30

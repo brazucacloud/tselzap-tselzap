@@ -5,8 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2;
-    ->invoke()Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1;
+    value = Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2;->invoke()Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -46,13 +45,11 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1;
-    ->this$0:Landroidx/activity/result/ActivityResultCallerLauncher;
+    iput-object p1, p0, Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1;->this$0:Landroidx/activity/result/ActivityResultCallerLauncher;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/activity/result/contract/ActivityResultContract;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/activity/result/contract/ActivityResultContract;-><init>()V
     return-void
 .end method
 
@@ -62,24 +59,19 @@
     .locals 1
 
     .line 2
-    iget-object p2, p0, Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1;
-    ->this$0:Landroidx/activity/result/ActivityResultCallerLauncher;
+    iget-object p2, p0, Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1;->this$0:Landroidx/activity/result/ActivityResultCallerLauncher;
 
-    invoke-virtual {p2}, Landroidx/activity/result/ActivityResultCallerLauncher;
-    ->getCallerContract()Landroidx/activity/result/contract/ActivityResultContract;
+    invoke-virtual {p2}, Landroidx/activity/result/ActivityResultCallerLauncher;->getCallerContract()Landroidx/activity/result/contract/ActivityResultContract;
 
     move-result-object p2
 
-    iget-object v0, p0, Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1;
-    ->this$0:Landroidx/activity/result/ActivityResultCallerLauncher;
+    iget-object v0, p0, Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1;->this$0:Landroidx/activity/result/ActivityResultCallerLauncher;
 
-    invoke-virtual {v0}, Landroidx/activity/result/ActivityResultCallerLauncher;
-    ->getCallerInput()Ljava/lang/Object;
+    invoke-virtual {v0}, Landroidx/activity/result/ActivityResultCallerLauncher;->getCallerInput()Ljava/lang/Object;
 
     move-result-object v0
 
-    invoke-virtual {p2, p1, v0}, Landroidx/activity/result/contract/ActivityResultContract;
-    ->createIntent(Landroid/content/Context;Ljava/lang/Object;)Landroid/content/Intent;
+    invoke-virtual {p2, p1, v0}, Landroidx/activity/result/contract/ActivityResultContract;->createIntent(Landroid/content/Context;Ljava/lang/Object;)Landroid/content/Intent;
 
     move-result-object p1
 
@@ -92,8 +84,7 @@
     .line 1
     check-cast p2, Lc1/v;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1;
-    ->createIntent(Landroid/content/Context;Lc1/v;)Landroid/content/Intent;
+    invoke-virtual {p0, p1, p2}, Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1;->createIntent(Landroid/content/Context;Lc1/v;)Landroid/content/Intent;
 
     move-result-object p1
 
@@ -111,13 +102,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1;
-    ->this$0:Landroidx/activity/result/ActivityResultCallerLauncher;
+    iget-object v0, p0, Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1;->this$0:Landroidx/activity/result/ActivityResultCallerLauncher;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/activity/result/ActivityResultCallerLauncher;
-    ->getCallerContract()Landroidx/activity/result/contract/ActivityResultContract;
+    invoke-virtual {v0}, Landroidx/activity/result/ActivityResultCallerLauncher;->getCallerContract()Landroidx/activity/result/contract/ActivityResultContract;
 
     .line 4
     .line 5
@@ -125,8 +114,7 @@
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0, p1, p2}, Landroidx/activity/result/contract/ActivityResultContract;
-    ->parseResult(ILandroid/content/Intent;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, p2}, Landroidx/activity/result/contract/ActivityResultContract;->parseResult(ILandroid/content/Intent;)Ljava/lang/Object;
 
     .line 8
     .line 9

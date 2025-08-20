@@ -10,8 +10,7 @@
 
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -32,14 +31,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/core/location/GnssStatusCompat;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/core/location/GnssStatusCompat;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Landroidx/appcompat/app/c;
-    ->h(Ljava/lang/Object;)Landroid/location/GnssStatus;
+    invoke-static {p1}, Landroidx/appcompat/app/c;->h(Ljava/lang/Object;)Landroid/location/GnssStatus;
 
     .line 5
     .line 6
@@ -47,8 +44,7 @@
     move-result-object p1
 
     .line 8
-    invoke-static {p1}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -56,8 +52,7 @@
     move-result-object p1
 
     .line 12
-    invoke-static {p1}, Landroidx/appcompat/app/c;
-    ->h(Ljava/lang/Object;)Landroid/location/GnssStatus;
+    invoke-static {p1}, Landroidx/appcompat/app/c;->h(Ljava/lang/Object;)Landroid/location/GnssStatus;
 
     .line 13
     .line 14
@@ -65,8 +60,7 @@
     move-result-object p1
 
     .line 16
-    iput-object p1, p0, Landroidx/core/location/GnssStatusWrapper;
-    ->mWrapped:Landroid/location/GnssStatus;
+    iput-object p1, p0, Landroidx/core/location/GnssStatusWrapper;->mWrapped:Landroid/location/GnssStatus;
 
     .line 17
     .line 18
@@ -107,18 +101,15 @@
 
     .line 12
     .line 13
-    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;
-    ->mWrapped:Landroid/location/GnssStatus;
+    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;->mWrapped:Landroid/location/GnssStatus;
 
     .line 14
     .line 15
-    iget-object p1, p1, Landroidx/core/location/GnssStatusWrapper;
-    ->mWrapped:Landroid/location/GnssStatus;
+    iget-object p1, p1, Landroidx/core/location/GnssStatusWrapper;->mWrapped:Landroid/location/GnssStatus;
 
     .line 16
     .line 17
-    invoke-static {v0, p1}, Landroidx/appcompat/app/c;
-    ->t(Landroid/location/GnssStatus;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Landroidx/appcompat/app/c;->t(Landroid/location/GnssStatus;Ljava/lang/Object;)Z
 
     .line 18
     .line 19
@@ -132,13 +123,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;
-    ->mWrapped:Landroid/location/GnssStatus;
+    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;->mWrapped:Landroid/location/GnssStatus;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Landroidx/appcompat/app/c;
-    ->w(Landroid/location/GnssStatus;I)F
+    invoke-static {v0, p1}, Landroidx/appcompat/app/c;->w(Landroid/location/GnssStatus;I)F
 
     .line 4
     .line 5
@@ -152,8 +141,7 @@
     .locals 2
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -165,13 +153,11 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;
-    ->mWrapped:Landroid/location/GnssStatus;
+    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;->mWrapped:Landroid/location/GnssStatus;
 
     .line 8
     .line 9
-    invoke-static {v0, p1}, Landroidx/core/location/GnssStatusWrapper$Api30Impl;
-    ->getBasebandCn0DbHz(Landroid/location/GnssStatus;I)F
+    invoke-static {v0, p1}, Landroidx/core/location/GnssStatusWrapper$Api30Impl;->getBasebandCn0DbHz(Landroid/location/GnssStatus;I)F
 
     .line 10
     .line 11
@@ -186,8 +172,7 @@
 
     .line 15
     .line 16
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     .line 17
     .line 18
@@ -207,8 +192,7 @@
     .locals 2
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -220,13 +204,11 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;
-    ->mWrapped:Landroid/location/GnssStatus;
+    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;->mWrapped:Landroid/location/GnssStatus;
 
     .line 8
     .line 9
-    invoke-static {v0, p1}, Landroidx/core/location/GnssStatusWrapper$Api26Impl;
-    ->getCarrierFrequencyHz(Landroid/location/GnssStatus;I)F
+    invoke-static {v0, p1}, Landroidx/core/location/GnssStatusWrapper$Api26Impl;->getCarrierFrequencyHz(Landroid/location/GnssStatus;I)F
 
     .line 10
     .line 11
@@ -241,8 +223,7 @@
 
     .line 15
     .line 16
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     .line 17
     .line 18
@@ -262,13 +243,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;
-    ->mWrapped:Landroid/location/GnssStatus;
+    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;->mWrapped:Landroid/location/GnssStatus;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Landroidx/appcompat/app/c;
-    ->b(Landroid/location/GnssStatus;I)F
+    invoke-static {v0, p1}, Landroidx/appcompat/app/c;->b(Landroid/location/GnssStatus;I)F
 
     .line 4
     .line 5
@@ -282,13 +261,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;
-    ->mWrapped:Landroid/location/GnssStatus;
+    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;->mWrapped:Landroid/location/GnssStatus;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Landroidx/appcompat/app/c;
-    ->y(Landroid/location/GnssStatus;I)I
+    invoke-static {v0, p1}, Landroidx/appcompat/app/c;->y(Landroid/location/GnssStatus;I)I
 
     .line 4
     .line 5
@@ -302,13 +279,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;
-    ->mWrapped:Landroid/location/GnssStatus;
+    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;->mWrapped:Landroid/location/GnssStatus;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Landroidx/appcompat/app/c;
-    ->B(Landroid/location/GnssStatus;I)F
+    invoke-static {v0, p1}, Landroidx/appcompat/app/c;->B(Landroid/location/GnssStatus;I)F
 
     .line 4
     .line 5
@@ -322,13 +297,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;
-    ->mWrapped:Landroid/location/GnssStatus;
+    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;->mWrapped:Landroid/location/GnssStatus;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/appcompat/app/c;
-    ->x(Landroid/location/GnssStatus;)I
+    invoke-static {v0}, Landroidx/appcompat/app/c;->x(Landroid/location/GnssStatus;)I
 
     .line 4
     .line 5
@@ -342,13 +315,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;
-    ->mWrapped:Landroid/location/GnssStatus;
+    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;->mWrapped:Landroid/location/GnssStatus;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Landroidx/appcompat/app/c;
-    ->d(Landroid/location/GnssStatus;I)I
+    invoke-static {v0, p1}, Landroidx/appcompat/app/c;->d(Landroid/location/GnssStatus;I)I
 
     .line 4
     .line 5
@@ -362,13 +333,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;
-    ->mWrapped:Landroid/location/GnssStatus;
+    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;->mWrapped:Landroid/location/GnssStatus;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Landroidx/appcompat/app/c;
-    ->A(Landroid/location/GnssStatus;I)Z
+    invoke-static {v0, p1}, Landroidx/appcompat/app/c;->A(Landroid/location/GnssStatus;I)Z
 
     .line 4
     .line 5
@@ -382,8 +351,7 @@
     .locals 2
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -395,13 +363,11 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;
-    ->mWrapped:Landroid/location/GnssStatus;
+    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;->mWrapped:Landroid/location/GnssStatus;
 
     .line 8
     .line 9
-    invoke-static {v0, p1}, Landroidx/core/location/GnssStatusWrapper$Api30Impl;
-    ->hasBasebandCn0DbHz(Landroid/location/GnssStatus;I)Z
+    invoke-static {v0, p1}, Landroidx/core/location/GnssStatusWrapper$Api30Impl;->hasBasebandCn0DbHz(Landroid/location/GnssStatus;I)Z
 
     .line 10
     .line 11
@@ -421,8 +387,7 @@
     .locals 2
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -434,13 +399,11 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;
-    ->mWrapped:Landroid/location/GnssStatus;
+    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;->mWrapped:Landroid/location/GnssStatus;
 
     .line 8
     .line 9
-    invoke-static {v0, p1}, Landroidx/core/location/GnssStatusWrapper$Api26Impl;
-    ->hasCarrierFrequencyHz(Landroid/location/GnssStatus;I)Z
+    invoke-static {v0, p1}, Landroidx/core/location/GnssStatusWrapper$Api26Impl;->hasCarrierFrequencyHz(Landroid/location/GnssStatus;I)Z
 
     .line 10
     .line 11
@@ -460,13 +423,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;
-    ->mWrapped:Landroid/location/GnssStatus;
+    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;->mWrapped:Landroid/location/GnssStatus;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Landroidx/appcompat/app/c;
-    ->s(Landroid/location/GnssStatus;I)Z
+    invoke-static {v0, p1}, Landroidx/appcompat/app/c;->s(Landroid/location/GnssStatus;I)Z
 
     .line 4
     .line 5
@@ -480,13 +441,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;
-    ->mWrapped:Landroid/location/GnssStatus;
+    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;->mWrapped:Landroid/location/GnssStatus;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/appcompat/app/c;
-    ->c(Landroid/location/GnssStatus;)I
+    invoke-static {v0}, Landroidx/appcompat/app/c;->c(Landroid/location/GnssStatus;)I
 
     .line 4
     .line 5
@@ -500,13 +459,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;
-    ->mWrapped:Landroid/location/GnssStatus;
+    iget-object v0, p0, Landroidx/core/location/GnssStatusWrapper;->mWrapped:Landroid/location/GnssStatus;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Landroidx/appcompat/app/c;
-    ->D(Landroid/location/GnssStatus;I)Z
+    invoke-static {v0, p1}, Landroidx/appcompat/app/c;->D(Landroid/location/GnssStatus;I)Z
 
     .line 4
     .line 5

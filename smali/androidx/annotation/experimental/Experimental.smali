@@ -9,8 +9,7 @@
 # annotations
 .annotation system Ldalvik/annotation/AnnotationDefault;
     value = .subannotation Landroidx/annotation/experimental/Experimental;
-        level = .enum Landroidx/annotation/experimental/Experimental$Level;
-    ->ERROR:Landroidx/annotation/experimental/Experimental$Level;
+        level = .enum Landroidx/annotation/experimental/Experimental$Level;->ERROR:Landroidx/annotation/experimental/Experimental$Level;
     .end subannotation
 .end annotation
 
@@ -21,14 +20,12 @@
 .end annotation
 
 .annotation runtime Ljava/lang/annotation/Retention;
-    value = .enum Ljava/lang/annotation/RetentionPolicy;
-    ->CLASS:Ljava/lang/annotation/RetentionPolicy;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;->CLASS:Ljava/lang/annotation/RetentionPolicy;
 .end annotation
 
 .annotation runtime Ljava/lang/annotation/Target;
     value = {
-        .enum Ljava/lang/annotation/ElementType;
-    ->ANNOTATION_TYPE:Ljava/lang/annotation/ElementType;
+        .enum Ljava/lang/annotation/ElementType;->ANNOTATION_TYPE:Ljava/lang/annotation/ElementType;
     }
 .end annotation
 

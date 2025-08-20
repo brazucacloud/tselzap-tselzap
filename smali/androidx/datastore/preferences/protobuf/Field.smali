@@ -99,14 +99,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/Field;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/Field;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/datastore/preferences/protobuf/Field;
-    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
+    sput-object v0, Landroidx/datastore/preferences/protobuf/Field;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
 
     .line 7
     .line 8
@@ -114,8 +112,7 @@
 
     .line 9
     .line 10
-    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
-    ->registerDefaultInstance(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
+    invoke-static {v1, v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->registerDefaultInstance(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
 return-void
 .end method
 
@@ -123,8 +120,7 @@ return-void
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;-><init>()V
 
     .line 2
     .line 3
@@ -133,18 +129,15 @@ return-void
 
     .line 5
     .line 6
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->name_:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->name_:Ljava/lang/String;
 
     .line 7
     .line 8
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->typeUrl_:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->typeUrl_:Ljava/lang/String;
 
     .line 9
     .line 10
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
-    ->emptyProtobufList()Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->emptyProtobufList()Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
 
     .line 11
     .line 12
@@ -152,18 +145,15 @@ return-void
     move-result-object v1
 
     .line 14
-    iput-object v1, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
+    iput-object v1, p0, Landroidx/datastore/preferences/protobuf/Field;->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
 
     .line 15
     .line 16
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->jsonName_:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->jsonName_:Ljava/lang/String;
 
     .line 17
     .line 18
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->defaultValue_:Ljava/lang/String;    
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->defaultValue_:Ljava/lang/String;
     return-void
 .end method
 
@@ -171,16 +161,14 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;
-    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;    return-object v0
 .end method
 
 .method public static synthetic access$100(Landroidx/datastore/preferences/protobuf/Field;I)V
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;
-    ->setKindValue(I)V    
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;->setKindValue(I)V
     return-void
 .end method
 
@@ -188,8 +176,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;
-    ->clearName()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->clearName()V
     return-void
 .end method
 
@@ -197,8 +184,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;
-    ->setNameBytes(Landroidx/datastore/preferences/protobuf/ByteString;)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;->setNameBytes(Landroidx/datastore/preferences/protobuf/ByteString;)V
 return-void
 .end method
 
@@ -206,8 +192,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;
-    ->setTypeUrl(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;->setTypeUrl(Ljava/lang/String;)V
 return-void
 .end method
 
@@ -215,8 +200,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;
-    ->clearTypeUrl()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->clearTypeUrl()V
     return-void
 .end method
 
@@ -224,8 +208,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;
-    ->setTypeUrlBytes(Landroidx/datastore/preferences/protobuf/ByteString;)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;->setTypeUrlBytes(Landroidx/datastore/preferences/protobuf/ByteString;)V
 return-void
 .end method
 
@@ -233,8 +216,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;
-    ->setOneofIndex(I)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;->setOneofIndex(I)V
 return-void
 .end method
 
@@ -242,8 +224,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;
-    ->clearOneofIndex()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->clearOneofIndex()V
     return-void
 .end method
 
@@ -251,8 +232,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;
-    ->setPacked(Z)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;->setPacked(Z)V
 return-void
 .end method
 
@@ -260,8 +240,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;
-    ->clearPacked()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->clearPacked()V
     return-void
 .end method
 
@@ -269,8 +248,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Field;
-    ->setOptions(ILandroidx/datastore/preferences/protobuf/Option;)V
+    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Field;->setOptions(ILandroidx/datastore/preferences/protobuf/Option;)V
 return-void
 .end method
 
@@ -278,8 +256,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;
-    ->setKind(Landroidx/datastore/preferences/protobuf/Field$Kind;)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;->setKind(Landroidx/datastore/preferences/protobuf/Field$Kind;)V
 return-void
 .end method
 
@@ -287,8 +264,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Field;
-    ->setOptions(ILandroidx/datastore/preferences/protobuf/Option$Builder;)V
+    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Field;->setOptions(ILandroidx/datastore/preferences/protobuf/Option$Builder;)V
 return-void
 .end method
 
@@ -296,8 +272,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;
-    ->addOptions(Landroidx/datastore/preferences/protobuf/Option;)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;->addOptions(Landroidx/datastore/preferences/protobuf/Option;)V
 return-void
 .end method
 
@@ -305,8 +280,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Field;
-    ->addOptions(ILandroidx/datastore/preferences/protobuf/Option;)V
+    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Field;->addOptions(ILandroidx/datastore/preferences/protobuf/Option;)V
 return-void
 .end method
 
@@ -314,8 +288,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;
-    ->addOptions(Landroidx/datastore/preferences/protobuf/Option$Builder;)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;->addOptions(Landroidx/datastore/preferences/protobuf/Option$Builder;)V
 return-void
 .end method
 
@@ -323,8 +296,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Field;
-    ->addOptions(ILandroidx/datastore/preferences/protobuf/Option$Builder;)V
+    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Field;->addOptions(ILandroidx/datastore/preferences/protobuf/Option$Builder;)V
 return-void
 .end method
 
@@ -332,8 +304,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;
-    ->addAllOptions(Ljava/lang/Iterable;)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;->addAllOptions(Ljava/lang/Iterable;)V
 return-void
 .end method
 
@@ -341,8 +312,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;
-    ->clearOptions()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->clearOptions()V
     return-void
 .end method
 
@@ -350,8 +320,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;
-    ->removeOptions(I)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;->removeOptions(I)V
 return-void
 .end method
 
@@ -359,8 +328,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;
-    ->setJsonName(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;->setJsonName(Ljava/lang/String;)V
 return-void
 .end method
 
@@ -368,8 +336,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;
-    ->clearJsonName()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->clearJsonName()V
     return-void
 .end method
 
@@ -377,8 +344,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;
-    ->clearKind()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->clearKind()V
     return-void
 .end method
 
@@ -386,8 +352,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;
-    ->setJsonNameBytes(Landroidx/datastore/preferences/protobuf/ByteString;)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;->setJsonNameBytes(Landroidx/datastore/preferences/protobuf/ByteString;)V
 return-void
 .end method
 
@@ -395,8 +360,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;
-    ->setDefaultValue(Ljava/lang/String;)V    
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;->setDefaultValue(Ljava/lang/String;)V
     return-void
 .end method
 
@@ -404,8 +368,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;
-    ->clearDefaultValue()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->clearDefaultValue()V
     return-void
 .end method
 
@@ -413,8 +376,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;
-    ->setDefaultValueBytes(Landroidx/datastore/preferences/protobuf/ByteString;)V    
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;->setDefaultValueBytes(Landroidx/datastore/preferences/protobuf/ByteString;)V
     return-void
 .end method
 
@@ -422,8 +384,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;
-    ->setCardinalityValue(I)V    
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;->setCardinalityValue(I)V
     return-void
 .end method
 
@@ -431,8 +392,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;
-    ->setCardinality(Landroidx/datastore/preferences/protobuf/Field$Cardinality;)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;->setCardinality(Landroidx/datastore/preferences/protobuf/Field$Cardinality;)V
 return-void
 .end method
 
@@ -440,8 +400,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;
-    ->clearCardinality()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->clearCardinality()V
     return-void
 .end method
 
@@ -449,8 +408,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;
-    ->setNumber(I)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;->setNumber(I)V
 return-void
 .end method
 
@@ -458,8 +416,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;
-    ->clearNumber()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->clearNumber()V
     return-void
 .end method
 
@@ -467,8 +424,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;
-    ->setName(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/Field;->setName(Ljava/lang/String;)V
 return-void
 .end method
 
@@ -485,19 +441,16 @@ return-void
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;
-    ->ensureOptionsIsMutable()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->ensureOptionsIsMutable()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
 
     .line 5
     .line 6
-    invoke-static {p1, v0}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;
-    ->addAll(Ljava/lang/Iterable;Ljava/util/List;)V
+    invoke-static {p1, v0}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;->addAll(Ljava/lang/Iterable;Ljava/util/List;)V
 return-void
 .end method
 
@@ -505,20 +458,16 @@ return-void
     .locals 1
 
     .line 9
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;
-    ->ensureOptionsIsMutable()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->ensureOptionsIsMutable()V
 
     .line 10
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
 
-    invoke-virtual {p2}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
-    ->build()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-virtual {p2}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->build()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p2
 
-    invoke-interface {v0, p1, p2}, Ljava/util/List;
-    ->add(ILjava/lang/Object;)V
+    invoke-interface {v0, p1, p2}, Ljava/util/List;->add(ILjava/lang/Object;)V
     return-void
 .end method
 
@@ -526,19 +475,15 @@ return-void
     .locals 1
 
     .line 4
-    invoke-virtual {p2}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 5
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;
-    ->ensureOptionsIsMutable()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->ensureOptionsIsMutable()V
 
     .line 6
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
 
-    invoke-interface {v0, p1, p2}, Ljava/util/List;
-    ->add(ILjava/lang/Object;)V
+    invoke-interface {v0, p1, p2}, Ljava/util/List;->add(ILjava/lang/Object;)V
 return-void
 .end method
 
@@ -546,20 +491,16 @@ return-void
     .locals 1
 
     .line 7
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;
-    ->ensureOptionsIsMutable()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->ensureOptionsIsMutable()V
 
     .line 8
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
 
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
-    ->build()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->build()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p1
 
-    invoke-interface {v0, p1}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     return-void
 .end method
@@ -568,19 +509,15 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 2
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;
-    ->ensureOptionsIsMutable()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->ensureOptionsIsMutable()V
 
     .line 3
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
 
-    invoke-interface {v0, p1}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     return-void
 .end method
@@ -592,8 +529,7 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->cardinality_:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/Field;->cardinality_:I
     return-void
 .end method
 
@@ -601,8 +537,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/Field;
-    ->getDefaultInstance()Landroidx/datastore/preferences/protobuf/Field;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/Field;->getDefaultInstance()Landroidx/datastore/preferences/protobuf/Field;
 
     .line 2
     .line 3
@@ -610,8 +545,7 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/Field;
-    ->getDefaultValue()Ljava/lang/String;
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/Field;->getDefaultValue()Ljava/lang/String;
 
     .line 6
     .line 7
@@ -619,8 +553,7 @@ return-void
     move-result-object v0
 
     .line 9
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->defaultValue_:Ljava/lang/String;    
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->defaultValue_:Ljava/lang/String;
     return-void
 .end method
 
@@ -628,8 +561,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/Field;
-    ->getDefaultInstance()Landroidx/datastore/preferences/protobuf/Field;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/Field;->getDefaultInstance()Landroidx/datastore/preferences/protobuf/Field;
 
     .line 2
     .line 3
@@ -637,8 +569,7 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/Field;
-    ->getJsonName()Ljava/lang/String;
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/Field;->getJsonName()Ljava/lang/String;
 
     .line 6
     .line 7
@@ -646,8 +577,7 @@ return-void
     move-result-object v0
 
     .line 9
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->jsonName_:Ljava/lang/String;    
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->jsonName_:Ljava/lang/String;
     return-void
 .end method
 
@@ -658,8 +588,7 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->kind_:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/Field;->kind_:I
     return-void
 .end method
 
@@ -667,8 +596,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/Field;
-    ->getDefaultInstance()Landroidx/datastore/preferences/protobuf/Field;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/Field;->getDefaultInstance()Landroidx/datastore/preferences/protobuf/Field;
 
     .line 2
     .line 3
@@ -676,8 +604,7 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/Field;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/Field;->getName()Ljava/lang/String;
 
     .line 6
     .line 7
@@ -685,8 +612,7 @@ return-void
     move-result-object v0
 
     .line 9
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->name_:Ljava/lang/String;    
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->name_:Ljava/lang/String;
     return-void
 .end method
 
@@ -697,8 +623,7 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->number_:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/Field;->number_:I
     return-void
 .end method
 
@@ -709,8 +634,7 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->oneofIndex_:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/Field;->oneofIndex_:I
     return-void
 .end method
 
@@ -718,8 +642,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
-    ->emptyProtobufList()Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->emptyProtobufList()Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
 
     .line 2
     .line 3
@@ -727,8 +650,7 @@ return-void
     move-result-object v0
 
     .line 5
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;    
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
     return-void
 .end method
 
@@ -739,8 +661,7 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->packed_:Z
+    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/Field;->packed_:Z
 return-void
 .end method
 
@@ -748,8 +669,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/Field;
-    ->getDefaultInstance()Landroidx/datastore/preferences/protobuf/Field;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/Field;->getDefaultInstance()Landroidx/datastore/preferences/protobuf/Field;
 
     .line 2
     .line 3
@@ -757,8 +677,7 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/Field;
-    ->getTypeUrl()Ljava/lang/String;
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/Field;->getTypeUrl()Ljava/lang/String;
 
     .line 6
     .line 7
@@ -766,8 +685,7 @@ return-void
     move-result-object v0
 
     .line 9
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->typeUrl_:Ljava/lang/String;    
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->typeUrl_:Ljava/lang/String;
     return-void
 .end method
 
@@ -775,13 +693,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
-    ->isModifiable()Z
+    invoke-interface {v0}, Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;->isModifiable()Z
 
     .line 4
     .line 5
@@ -793,13 +709,11 @@ return-void
 
     .line 8
     .line 9
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
 
     .line 10
     .line 11
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
-    ->mutableCopy(Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;)Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->mutableCopy(Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;)Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
 
     .line 12
     .line 13
@@ -807,8 +721,7 @@ return-void
     move-result-object v0
 
     .line 15
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
 
     .line 16
     .line 17
@@ -820,19 +733,16 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;
-    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;    return-object v0
 .end method
 
 .method public static newBuilder()Landroidx/datastore/preferences/protobuf/Field$Builder;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;
-    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
 
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
-    ->createBuilder()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->createBuilder()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
 
     move-result-object v0
 
@@ -845,11 +755,9 @@ return-void
     .locals 1
 
     .line 2
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;
-    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
 
-    invoke-virtual {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
-    ->createBuilder(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
+    invoke-virtual {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->createBuilder(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
 
     move-result-object p0
 
@@ -862,11 +770,9 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;
-    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
 
-    invoke-static {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
-    ->parseDelimitedFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/io/InputStream;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-static {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->parseDelimitedFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/io/InputStream;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p0
 
@@ -879,11 +785,9 @@ return-void
     .locals 1
 
     .line 2
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;
-    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
 
-    invoke-static {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
-    ->parseDelimitedFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/io/InputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-static {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->parseDelimitedFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/io/InputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p0
 
@@ -896,11 +800,9 @@ return-void
     .locals 1
 
     .line 3
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;
-    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
 
-    invoke-static {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
-    ->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-static {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Landroidx/datastore/preferences/protobuf/ByteString;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p0
 
@@ -913,11 +815,9 @@ return-void
     .locals 1
 
     .line 4
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;
-    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
 
-    invoke-static {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
-    ->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-static {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p0
 
@@ -930,11 +830,9 @@ return-void
     .locals 1
 
     .line 9
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;
-    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
 
-    invoke-static {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
-    ->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Landroidx/datastore/preferences/protobuf/CodedInputStream;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-static {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Landroidx/datastore/preferences/protobuf/CodedInputStream;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p0
 
@@ -947,11 +845,9 @@ return-void
     .locals 1
 
     .line 10
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;
-    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
 
-    invoke-static {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
-    ->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-static {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p0
 
@@ -964,11 +860,9 @@ return-void
     .locals 1
 
     .line 7
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;
-    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
 
-    invoke-static {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
-    ->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/io/InputStream;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-static {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/io/InputStream;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p0
 
@@ -981,11 +875,9 @@ return-void
     .locals 1
 
     .line 8
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;
-    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
 
-    invoke-static {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
-    ->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/io/InputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-static {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/io/InputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p0
 
@@ -998,11 +890,9 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;
-    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
 
-    invoke-static {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
-    ->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/nio/ByteBuffer;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-static {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/nio/ByteBuffer;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p0
 
@@ -1015,11 +905,9 @@ return-void
     .locals 1
 
     .line 2
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;
-    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
 
-    invoke-static {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
-    ->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/nio/ByteBuffer;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-static {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;Ljava/nio/ByteBuffer;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p0
 
@@ -1032,11 +920,9 @@ return-void
     .locals 1
 
     .line 5
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;
-    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
 
-    invoke-static {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
-    ->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;[B)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-static {v0, p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;[B)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p0
 
@@ -1049,11 +935,9 @@ return-void
     .locals 1
 
     .line 6
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;
-    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
 
-    invoke-static {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
-    ->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;[BLandroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-static {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->parseFrom(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;[BLandroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p0
 
@@ -1074,13 +958,11 @@ return-void
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;
-    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Field;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
-    ->getParserForType()Landroidx/datastore/preferences/protobuf/Parser;
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->getParserForType()Landroidx/datastore/preferences/protobuf/Parser;
 
     .line 4
     .line 5
@@ -1094,19 +976,16 @@ return-void
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;
-    ->ensureOptionsIsMutable()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->ensureOptionsIsMutable()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
 
     .line 5
     .line 6
-    invoke-interface {v0, p1}, Ljava/util/List;
-    ->remove(I)Ljava/lang/Object;    
+    invoke-interface {v0, p1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
     return-void
 .end method
 
@@ -1114,14 +993,12 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/Field$Cardinality;
-    ->getNumber()I
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/Field$Cardinality;->getNumber()I
 
     .line 5
     .line 6
@@ -1129,8 +1006,7 @@ return-void
     move-result p1
 
     .line 8
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->cardinality_:I    
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/Field;->cardinality_:I
     return-void
 .end method
 
@@ -1138,8 +1014,7 @@ return-void
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->cardinality_:I    
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/Field;->cardinality_:I
     return-void
 .end method
 
@@ -1147,14 +1022,12 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->defaultValue_:Ljava/lang/String;    
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Field;->defaultValue_:Ljava/lang/String;
     return-void
 .end method
 
@@ -1162,20 +1035,17 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;
-    ->checkByteStringIsUtf8(Landroidx/datastore/preferences/protobuf/ByteString;)V
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;->checkByteStringIsUtf8(Landroidx/datastore/preferences/protobuf/ByteString;)V
 
     .line 5
     .line 6
     .line 7
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->toStringUtf8()Ljava/lang/String;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;->toStringUtf8()Ljava/lang/String;
 
     .line 8
     .line 9
@@ -1183,8 +1053,7 @@ return-void
     move-result-object p1
 
     .line 11
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->defaultValue_:Ljava/lang/String;    
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Field;->defaultValue_:Ljava/lang/String;
     return-void
 .end method
 
@@ -1192,14 +1061,12 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->jsonName_:Ljava/lang/String;    
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Field;->jsonName_:Ljava/lang/String;
     return-void
 .end method
 
@@ -1207,20 +1074,17 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;
-    ->checkByteStringIsUtf8(Landroidx/datastore/preferences/protobuf/ByteString;)V
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;->checkByteStringIsUtf8(Landroidx/datastore/preferences/protobuf/ByteString;)V
 
     .line 5
     .line 6
     .line 7
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->toStringUtf8()Ljava/lang/String;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;->toStringUtf8()Ljava/lang/String;
 
     .line 8
     .line 9
@@ -1228,8 +1092,7 @@ return-void
     move-result-object p1
 
     .line 11
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->jsonName_:Ljava/lang/String;    
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Field;->jsonName_:Ljava/lang/String;
     return-void
 .end method
 
@@ -1237,14 +1100,12 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/Field$Kind;
-    ->getNumber()I
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/Field$Kind;->getNumber()I
 
     .line 5
     .line 6
@@ -1252,8 +1113,7 @@ return-void
     move-result p1
 
     .line 8
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->kind_:I    
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/Field;->kind_:I
     return-void
 .end method
 
@@ -1261,8 +1121,7 @@ return-void
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->kind_:I    
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/Field;->kind_:I
     return-void
 .end method
 
@@ -1270,14 +1129,12 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->name_:Ljava/lang/String;    
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Field;->name_:Ljava/lang/String;
     return-void
 .end method
 
@@ -1285,20 +1142,17 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;
-    ->checkByteStringIsUtf8(Landroidx/datastore/preferences/protobuf/ByteString;)V
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;->checkByteStringIsUtf8(Landroidx/datastore/preferences/protobuf/ByteString;)V
 
     .line 5
     .line 6
     .line 7
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->toStringUtf8()Ljava/lang/String;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;->toStringUtf8()Ljava/lang/String;
 
     .line 8
     .line 9
@@ -1306,8 +1160,7 @@ return-void
     move-result-object p1
 
     .line 11
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->name_:Ljava/lang/String;    
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Field;->name_:Ljava/lang/String;
     return-void
 .end method
 
@@ -1315,8 +1168,7 @@ return-void
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->number_:I    
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/Field;->number_:I
     return-void
 .end method
 
@@ -1324,8 +1176,7 @@ return-void
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->oneofIndex_:I    
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/Field;->oneofIndex_:I
     return-void
 .end method
 
@@ -1333,20 +1184,16 @@ return-void
     .locals 1
 
     .line 4
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;
-    ->ensureOptionsIsMutable()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->ensureOptionsIsMutable()V
 
     .line 5
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
 
-    invoke-virtual {p2}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;
-    ->build()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
+    invoke-virtual {p2}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$Builder;->build()Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
 
     move-result-object p2
 
-    invoke-interface {v0, p1, p2}, Ljava/util/List;
-    ->set(ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
     return-void
 .end method
@@ -1355,19 +1202,15 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p2}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 2
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;
-    ->ensureOptionsIsMutable()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->ensureOptionsIsMutable()V
 
     .line 3
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
 
-    invoke-interface {v0, p1, p2}, Ljava/util/List;
-    ->set(ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
     return-void
 .end method
@@ -1376,8 +1219,7 @@ return-void
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->packed_:Z
+    iput-boolean p1, p0, Landroidx/datastore/preferences/protobuf/Field;->packed_:Z
 return-void
 .end method
 
@@ -1385,14 +1227,12 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->typeUrl_:Ljava/lang/String;    
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Field;->typeUrl_:Ljava/lang/String;
     return-void
 .end method
 
@@ -1400,20 +1240,17 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;
-    ->checkByteStringIsUtf8(Landroidx/datastore/preferences/protobuf/ByteString;)V
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;->checkByteStringIsUtf8(Landroidx/datastore/preferences/protobuf/ByteString;)V
 
     .line 5
     .line 6
     .line 7
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->toStringUtf8()Ljava/lang/String;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;->toStringUtf8()Ljava/lang/String;
 
     .line 8
     .line 9
@@ -1421,8 +1258,7 @@ return-void
     move-result-object p1
 
     .line 11
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->typeUrl_:Ljava/lang/String;    
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Field;->typeUrl_:Ljava/lang/String;
     return-void
 .end method
 
@@ -1435,13 +1271,11 @@ return-void
     const/4 p2, 0x1
 
     .line 2
-    sget-object p3, Landroidx/datastore/preferences/protobuf/Field$1;
-    ->$SwitchMap$com$google$protobuf$GeneratedMessageLite$MethodToInvoke:[I
+    sget-object p3, Landroidx/datastore/preferences/protobuf/Field$1;->$SwitchMap$com$google$protobuf$GeneratedMessageLite$MethodToInvoke:[I
 
     .line 3
     .line 4
-    invoke-virtual {p1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
 
     .line 5
     .line 6
@@ -1465,8 +1299,7 @@ return-void
 
     .line 15
     .line 16
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     .line 17
     .line 18
@@ -1479,8 +1312,7 @@ return-void
 
     .line 21
     :pswitch_1
-    invoke-static {p2}, Ljava/lang/Byte;
-    ->valueOf(B)Ljava/lang/Byte;
+    invoke-static {p2}, Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
 
     .line 22
     .line 23
@@ -1491,8 +1323,7 @@ return-void
 
     .line 26
     :pswitch_2
-    sget-object p1, Landroidx/datastore/preferences/protobuf/Field;
-    ->PARSER:Landroidx/datastore/preferences/protobuf/Parser;
+    sget-object p1, Landroidx/datastore/preferences/protobuf/Field;->PARSER:Landroidx/datastore/preferences/protobuf/Parser;
 
     .line 27
     .line 28
@@ -1508,8 +1339,7 @@ return-void
 
     .line 33
     :try_start_0
-    sget-object p1, Landroidx/datastore/preferences/protobuf/Field;
-    ->PARSER:Landroidx/datastore/preferences/protobuf/Parser;
+    sget-object p1, Landroidx/datastore/preferences/protobuf/Field;->PARSER:Landroidx/datastore/preferences/protobuf/Parser;
 
     .line 34
     .line 35
@@ -1521,19 +1351,16 @@ return-void
 
     .line 38
     .line 39
-    sget-object p3, Landroidx/datastore/preferences/protobuf/Field;
-    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
+    sget-object p3, Landroidx/datastore/preferences/protobuf/Field;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
 
     .line 40
     .line 41
-    invoke-direct {p1, p3}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$DefaultInstanceBasedParser;
-    -><init>(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
+    invoke-direct {p1, p3}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$DefaultInstanceBasedParser;-><init>(Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;)V
 
     .line 42
     .line 43
     .line 44
-    sput-object p1, Landroidx/datastore/preferences/protobuf/Field;
-    ->PARSER:Landroidx/datastore/preferences/protobuf/Parser;
+    sput-object p1, Landroidx/datastore/preferences/protobuf/Field;->PARSER:Landroidx/datastore/preferences/protobuf/Parser;
 
     .line 45
     .line 46
@@ -1568,8 +1395,7 @@ return-void
 
     .line 54
     :pswitch_3
-    sget-object p1, Landroidx/datastore/preferences/protobuf/Field;
-    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;    return-object p1
+    sget-object p1, Landroidx/datastore/preferences/protobuf/Field;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;    return-object p1
 
     .line 57
     :pswitch_4
@@ -1706,13 +1532,11 @@ return-void
 
     .line 119
     .line 120
-    sget-object p3, Landroidx/datastore/preferences/protobuf/Field;
-    ->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
+    sget-object p3, Landroidx/datastore/preferences/protobuf/Field;->DEFAULT_INSTANCE:Landroidx/datastore/preferences/protobuf/Field;
 
     .line 121
     .line 122
-    invoke-static {p3, p2, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;
-    ->newMessageInfo(Landroidx/datastore/preferences/protobuf/MessageLite;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p3, p2, p1}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;->newMessageInfo(Landroidx/datastore/preferences/protobuf/MessageLite;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 123
     .line 124
@@ -1727,8 +1551,7 @@ return-void
 
     .line 128
     .line 129
-    invoke-direct {p1, p3}, Landroidx/datastore/preferences/protobuf/Field$Builder;
-    -><init>(Landroidx/datastore/preferences/protobuf/Field$1;)V
+    invoke-direct {p1, p3}, Landroidx/datastore/preferences/protobuf/Field$Builder;-><init>(Landroidx/datastore/preferences/protobuf/Field$1;)V
 return-object p1
 
     .line 133
@@ -1737,8 +1560,7 @@ return-object p1
 
     .line 134
     .line 135
-    invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/Field;
-    -><init>()V
+    invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/Field;-><init>()V
     return-object p1
 
     .line 139
@@ -1758,13 +1580,11 @@ return-object p1
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->cardinality_:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/Field;->cardinality_:I
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Field$Cardinality;
-    ->forNumber(I)Landroidx/datastore/preferences/protobuf/Field$Cardinality;
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Field$Cardinality;->forNumber(I)Landroidx/datastore/preferences/protobuf/Field$Cardinality;
 
     .line 4
     .line 5
@@ -1776,8 +1596,7 @@ return-object p1
 
     .line 8
     .line 9
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Field$Cardinality;
-    ->UNRECOGNIZED:Landroidx/datastore/preferences/protobuf/Field$Cardinality;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Field$Cardinality;->UNRECOGNIZED:Landroidx/datastore/preferences/protobuf/Field$Cardinality;
 
     .line 10
     .line 11
@@ -1789,29 +1608,25 @@ return-object p1
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->cardinality_:I    return v0
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/Field;->cardinality_:I    return v0
 .end method
 
 .method public getDefaultValue()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->defaultValue_:Ljava/lang/String;    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->defaultValue_:Ljava/lang/String;    return-object v0
 .end method
 
 .method public getDefaultValueBytes()Landroidx/datastore/preferences/protobuf/ByteString;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->defaultValue_:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->defaultValue_:Ljava/lang/String;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->copyFromUtf8(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/ByteString;
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/ByteString;->copyFromUtf8(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/ByteString;
 
     .line 4
     .line 5
@@ -1825,21 +1640,18 @@ return-object p1
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->jsonName_:Ljava/lang/String;    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->jsonName_:Ljava/lang/String;    return-object v0
 .end method
 
 .method public getJsonNameBytes()Landroidx/datastore/preferences/protobuf/ByteString;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->jsonName_:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->jsonName_:Ljava/lang/String;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->copyFromUtf8(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/ByteString;
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/ByteString;->copyFromUtf8(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/ByteString;
 
     .line 4
     .line 5
@@ -1853,13 +1665,11 @@ return-object p1
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->kind_:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/Field;->kind_:I
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Field$Kind;
-    ->forNumber(I)Landroidx/datastore/preferences/protobuf/Field$Kind;
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Field$Kind;->forNumber(I)Landroidx/datastore/preferences/protobuf/Field$Kind;
 
     .line 4
     .line 5
@@ -1871,8 +1681,7 @@ return-object p1
 
     .line 8
     .line 9
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Field$Kind;
-    ->UNRECOGNIZED:Landroidx/datastore/preferences/protobuf/Field$Kind;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Field$Kind;->UNRECOGNIZED:Landroidx/datastore/preferences/protobuf/Field$Kind;
 
     .line 10
     .line 11
@@ -1884,29 +1693,25 @@ return-object p1
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->kind_:I    return v0
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/Field;->kind_:I    return v0
 .end method
 
 .method public getName()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->name_:Ljava/lang/String;    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->name_:Ljava/lang/String;    return-object v0
 .end method
 
 .method public getNameBytes()Landroidx/datastore/preferences/protobuf/ByteString;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->name_:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->name_:Ljava/lang/String;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->copyFromUtf8(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/ByteString;
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/ByteString;->copyFromUtf8(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/ByteString;
 
     .line 4
     .line 5
@@ -1920,29 +1725,25 @@ return-object p1
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->number_:I    return v0
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/Field;->number_:I    return v0
 .end method
 
 .method public getOneofIndex()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->oneofIndex_:I    return v0
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/Field;->oneofIndex_:I    return v0
 .end method
 
 .method public getOptions(I)Landroidx/datastore/preferences/protobuf/Option;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -1957,13 +1758,11 @@ return-object p1
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     .line 4
     .line 5
@@ -1985,21 +1784,18 @@ return-object p1
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;    return-object v0
 .end method
 
 .method public getOptionsOrBuilder(I)Landroidx/datastore/preferences/protobuf/OptionOrBuilder;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -2023,37 +1819,32 @@ return-object p1
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->options_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;    return-object v0
 .end method
 
 .method public getPacked()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->packed_:Z    return v0
+    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/Field;->packed_:Z    return v0
 .end method
 
 .method public getTypeUrl()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->typeUrl_:Ljava/lang/String;    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->typeUrl_:Ljava/lang/String;    return-object v0
 .end method
 
 .method public getTypeUrlBytes()Landroidx/datastore/preferences/protobuf/ByteString;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;
-    ->typeUrl_:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Field;->typeUrl_:Ljava/lang/String;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->copyFromUtf8(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/ByteString;
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/ByteString;->copyFromUtf8(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/ByteString;
 
     .line 4
     .line 5

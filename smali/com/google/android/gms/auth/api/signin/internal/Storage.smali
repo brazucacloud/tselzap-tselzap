@@ -32,14 +32,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/concurrent/locks/ReentrantLock;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/concurrent/locks/ReentrantLock;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zaa:Ljava/util/concurrent/locks/Lock;
+    sput-object v0, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zaa:Ljava/util/concurrent/locks/Lock;
 
     .line 7
     .line 8
@@ -52,8 +50,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -62,14 +59,12 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/concurrent/locks/ReentrantLock;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/concurrent/locks/ReentrantLock;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zac:Ljava/util/concurrent/locks/Lock;
+    iput-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zac:Ljava/util/concurrent/locks/Lock;
 
     .line 10
     .line 11
@@ -80,8 +75,7 @@
     const/4 v1, 0x0
 
     .line 14
-    invoke-virtual {p1, v0, v1}, Landroid/content/Context;
-    ->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    invoke-virtual {p1, v0, v1}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
 
     .line 15
     .line 16
@@ -89,8 +83,7 @@
     move-result-object p1
 
     .line 18
-    iput-object p1, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zad:Landroid/content/SharedPreferences;
+    iput-object p1, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zad:Landroid/content/SharedPreferences;
 
     .line 19
     .line 20
@@ -110,26 +103,22 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
     .line 4
-    sget-object v0, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zaa:Ljava/util/concurrent/locks/Lock;
+    sget-object v0, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zaa:Ljava/util/concurrent/locks/Lock;
 
     .line 5
     .line 6
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
-    ->lock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
 
     .line 7
     .line 8
     .line 9
     :try_start_0
-    sget-object v1, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zab:Lcom/google/android/gms/auth/api/signin/internal/Storage;
+    sget-object v1, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zab:Lcom/google/android/gms/auth/api/signin/internal/Storage;
 
     .line 10
     .line 11
@@ -141,8 +130,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     .line 16
     .line 17
@@ -150,27 +138,23 @@
     move-result-object p0
 
     .line 19
-    invoke-direct {v1, p0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {v1, p0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;-><init>(Landroid/content/Context;)V
 
     .line 20
     .line 21
     .line 22
-    sput-object v1, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zab:Lcom/google/android/gms/auth/api/signin/internal/Storage;
+    sput-object v1, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zab:Lcom/google/android/gms/auth/api/signin/internal/Storage;
 
     .line 23
     .line 24
     :cond_0
-    sget-object p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zab:Lcom/google/android/gms/auth/api/signin/internal/Storage;
+    sget-object p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zab:Lcom/google/android/gms/auth/api/signin/internal/Storage;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 25
     .line 26
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
-    ->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
     .line 27
     .line 28
@@ -182,13 +166,11 @@
     move-exception p0
 
     .line 31
-    sget-object v0, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zaa:Ljava/util/concurrent/locks/Lock;
+    sget-object v0, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zaa:Ljava/util/concurrent/locks/Lock;
 
     .line 32
     .line 33
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
-    ->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
     .line 34
     .line 35
@@ -252,8 +234,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0, p1}, LA/d;
-    ->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, v0, p1}, LA/d;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 4
     .line 5
@@ -271,25 +252,21 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zac:Ljava/util/concurrent/locks/Lock;
+    iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zac:Ljava/util/concurrent/locks/Lock;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
-    ->lock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
 
     .line 4
     .line 5
     .line 6
     :try_start_0
-    iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zad:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zad:Landroid/content/SharedPreferences;
 
     .line 7
     .line 8
-    invoke-interface {v0}, Landroid/content/SharedPreferences;
-    ->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 9
     .line 10
@@ -297,8 +274,7 @@
     move-result-object v0
 
     .line 12
-    invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;
-    ->clear()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->clear()Landroid/content/SharedPreferences$Editor;
 
     .line 13
     .line 14
@@ -306,21 +282,18 @@
     move-result-object v0
 
     .line 16
-    invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;
-    ->apply()V
+    invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 17
     .line 18
     .line 19
-    iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zac:Ljava/util/concurrent/locks/Lock;
+    iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zac:Ljava/util/concurrent/locks/Lock;
 
     .line 20
     .line 21
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
-    ->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
     .line 22
     .line 23
@@ -332,13 +305,11 @@
     move-exception v0
 
     .line 26
-    iget-object v1, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zac:Ljava/util/concurrent/locks/Lock;
+    iget-object v1, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zac:Ljava/util/concurrent/locks/Lock;
 
     .line 27
     .line 28
-    invoke-interface {v1}, Ljava/util/concurrent/locks/Lock;
-    ->unlock()V
+    invoke-interface {v1}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
     .line 29
     .line 30
@@ -414,8 +385,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zaa(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zaa(Ljava/lang/String;)Ljava/lang/String;
 
     .line 4
     .line 5
@@ -423,8 +393,7 @@
     move-result-object v0
 
     .line 7
-    invoke-static {v0}, Landroid/text/TextUtils;
-    ->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 8
     .line 9
@@ -447,8 +416,7 @@
 
     .line 16
     .line 17
-    invoke-static {v1, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zae(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zae(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 18
     .line 19
@@ -456,8 +424,7 @@
     move-result-object v0
 
     .line 21
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zaa(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zaa(Ljava/lang/String;)Ljava/lang/String;
 
     .line 22
     .line 23
@@ -470,8 +437,7 @@
     .line 26
     .line 27
     :try_start_0
-    invoke-static {v0}, Lcom/google/android/gms/auth/api/signin/GoogleSignInAccount;
-    ->zab(Ljava/lang/String;)Lcom/google/android/gms/auth/api/signin/GoogleSignInAccount;
+    invoke-static {v0}, Lcom/google/android/gms/auth/api/signin/GoogleSignInAccount;->zab(Ljava/lang/String;)Lcom/google/android/gms/auth/api/signin/GoogleSignInAccount;
 
     .line 28
     .line 29
@@ -501,8 +467,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zaa(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zaa(Ljava/lang/String;)Ljava/lang/String;
 
     .line 4
     .line 5
@@ -510,8 +475,7 @@
     move-result-object v0
 
     .line 7
-    invoke-static {v0}, Landroid/text/TextUtils;
-    ->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 8
     .line 9
@@ -534,8 +498,7 @@
 
     .line 16
     .line 17
-    invoke-static {v1, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zae(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zae(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 18
     .line 19
@@ -543,8 +506,7 @@
     move-result-object v0
 
     .line 21
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zaa(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zaa(Ljava/lang/String;)Ljava/lang/String;
 
     .line 22
     .line 23
@@ -557,8 +519,7 @@
     .line 26
     .line 27
     :try_start_0
-    invoke-static {v0}, Lcom/google/android/gms/auth/api/signin/GoogleSignInOptions;
-    ->zab(Ljava/lang/String;)Lcom/google/android/gms/auth/api/signin/GoogleSignInOptions;
+    invoke-static {v0}, Lcom/google/android/gms/auth/api/signin/GoogleSignInOptions;->zab(Ljava/lang/String;)Lcom/google/android/gms/auth/api/signin/GoogleSignInOptions;
 
     .line 28
     .line 29
@@ -588,8 +549,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zaa(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zaa(Ljava/lang/String;)Ljava/lang/String;
 
     .line 4
     .line 5
@@ -613,20 +573,17 @@
     .end annotation
 
     .line 1
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p2}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p2}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
     .line 7
-    invoke-virtual {p1}, Lcom/google/android/gms/auth/api/signin/GoogleSignInAccount;
-    ->zac()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/google/android/gms/auth/api/signin/GoogleSignInAccount;->zac()Ljava/lang/String;
 
     .line 8
     .line 9
@@ -638,26 +595,22 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0, v1, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zad(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v1, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zad(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 17
     .line 18
     .line 19
-    invoke-static {p2}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p2}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {p1}, Lcom/google/android/gms/auth/api/signin/GoogleSignInAccount;
-    ->zac()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/google/android/gms/auth/api/signin/GoogleSignInAccount;->zac()Ljava/lang/String;
 
     .line 23
     .line 24
@@ -669,8 +622,7 @@
 
     .line 27
     .line 28
-    invoke-static {v1, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zae(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zae(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 29
     .line 30
@@ -678,8 +630,7 @@
     move-result-object v1
 
     .line 32
-    invoke-virtual {p1}, Lcom/google/android/gms/auth/api/signin/GoogleSignInAccount;
-    ->zad()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/google/android/gms/auth/api/signin/GoogleSignInAccount;->zad()Ljava/lang/String;
 
     .line 33
     .line 34
@@ -687,8 +638,7 @@
     move-result-object p1
 
     .line 36
-    invoke-virtual {p0, v1, p1}, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zad(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, v1, p1}, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zad(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 37
     .line 38
@@ -697,8 +647,7 @@
 
     .line 40
     .line 41
-    invoke-static {p1, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zae(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zae(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 42
     .line 43
@@ -706,8 +655,7 @@
     move-result-object p1
 
     .line 45
-    invoke-virtual {p2}, Lcom/google/android/gms/auth/api/signin/GoogleSignInOptions;
-    ->zaf()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/google/android/gms/auth/api/signin/GoogleSignInOptions;->zaf()Ljava/lang/String;
 
     .line 46
     .line 47
@@ -715,8 +663,7 @@
     move-result-object p2
 
     .line 49
-    invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zad(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zad(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 50
     .line 51
@@ -734,28 +681,24 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zac:Ljava/util/concurrent/locks/Lock;
+    iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zac:Ljava/util/concurrent/locks/Lock;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
-    ->lock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
 
     .line 4
     .line 5
     .line 6
     :try_start_0
-    iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zad:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zad:Landroid/content/SharedPreferences;
 
     .line 7
     .line 8
     const/4 v1, 0x0
 
     .line 9
-    invoke-interface {v0, p1, v1}, Landroid/content/SharedPreferences;
-    ->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, p1, v1}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 10
     .line 11
@@ -765,13 +708,11 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 13
-    iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zac:Ljava/util/concurrent/locks/Lock;
+    iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zac:Ljava/util/concurrent/locks/Lock;
 
     .line 14
     .line 15
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
-    ->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
     .line 16
     .line 17
@@ -783,13 +724,11 @@
     move-exception p1
 
     .line 20
-    iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zac:Ljava/util/concurrent/locks/Lock;
+    iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zac:Ljava/util/concurrent/locks/Lock;
 
     .line 21
     .line 22
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
-    ->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
     .line 23
     .line 24
@@ -807,25 +746,21 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zac:Ljava/util/concurrent/locks/Lock;
+    iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zac:Ljava/util/concurrent/locks/Lock;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
-    ->lock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
 
     .line 4
     .line 5
     .line 6
     :try_start_0
-    iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zad:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zad:Landroid/content/SharedPreferences;
 
     .line 7
     .line 8
-    invoke-interface {v0}, Landroid/content/SharedPreferences;
-    ->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 9
     .line 10
@@ -833,8 +768,7 @@
     move-result-object v0
 
     .line 12
-    invoke-interface {v0, p1}, Landroid/content/SharedPreferences$Editor;
-    ->remove(Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v0, p1}, Landroid/content/SharedPreferences$Editor;->remove(Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
     .line 13
     .line 14
@@ -842,21 +776,18 @@
     move-result-object p1
 
     .line 16
-    invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;
-    ->apply()V
+    invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->apply()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 17
     .line 18
     .line 19
-    iget-object p1, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zac:Ljava/util/concurrent/locks/Lock;
+    iget-object p1, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zac:Ljava/util/concurrent/locks/Lock;
 
     .line 20
     .line 21
-    invoke-interface {p1}, Ljava/util/concurrent/locks/Lock;
-    ->unlock()V
+    invoke-interface {p1}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
     .line 22
     .line 23
@@ -868,13 +799,11 @@
     move-exception p1
 
     .line 26
-    iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zac:Ljava/util/concurrent/locks/Lock;
+    iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zac:Ljava/util/concurrent/locks/Lock;
 
     .line 27
     .line 28
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
-    ->unlock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
     .line 29
     .line 30
@@ -943,8 +872,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zaa(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zaa(Ljava/lang/String;)Ljava/lang/String;
 
     .line 4
     .line 5
@@ -952,14 +880,12 @@
     move-result-object v1
 
     .line 7
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zab(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zab(Ljava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    invoke-static {v1}, Landroid/text/TextUtils;
-    ->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 11
     .line 12
@@ -979,8 +905,7 @@
 
     .line 18
     .line 19
-    invoke-static {v0, v1}, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zae(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zae(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 20
     .line 21
@@ -988,8 +913,7 @@
     move-result-object v0
 
     .line 23
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zab(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zab(Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -998,8 +922,7 @@
 
     .line 27
     .line 28
-    invoke-static {v0, v1}, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zae(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v1}, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zae(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 29
     .line 30
@@ -1007,8 +930,7 @@
     move-result-object v0
 
     .line 32
-    invoke-virtual {p0, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zab(Ljava/lang/String;)V
+    invoke-virtual {p0, v0}, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zab(Ljava/lang/String;)V
 
     .line 33
     .line 34
@@ -1028,25 +950,21 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zac:Ljava/util/concurrent/locks/Lock;
+    iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zac:Ljava/util/concurrent/locks/Lock;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;
-    ->lock()V
+    invoke-interface {v0}, Ljava/util/concurrent/locks/Lock;->lock()V
 
     .line 4
     .line 5
     .line 6
     :try_start_0
-    iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zad:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zad:Landroid/content/SharedPreferences;
 
     .line 7
     .line 8
-    invoke-interface {v0}, Landroid/content/SharedPreferences;
-    ->edit()Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v0}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
     .line 9
     .line 10
@@ -1054,8 +972,7 @@
     move-result-object v0
 
     .line 12
-    invoke-interface {v0, p1, p2}, Landroid/content/SharedPreferences$Editor;
-    ->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+    invoke-interface {v0, p1, p2}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
     .line 13
     .line 14
@@ -1063,21 +980,18 @@
     move-result-object p1
 
     .line 16
-    invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;
-    ->apply()V
+    invoke-interface {p1}, Landroid/content/SharedPreferences$Editor;->apply()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 17
     .line 18
     .line 19
-    iget-object p1, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zac:Ljava/util/concurrent/locks/Lock;
+    iget-object p1, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zac:Ljava/util/concurrent/locks/Lock;
 
     .line 20
     .line 21
-    invoke-interface {p1}, Ljava/util/concurrent/locks/Lock;
-    ->unlock()V
+    invoke-interface {p1}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
     .line 22
     .line 23
@@ -1089,13 +1003,11 @@
     move-exception p1
 
     .line 26
-    iget-object p2, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;
-    ->zac:Ljava/util/concurrent/locks/Lock;
+    iget-object p2, p0, Lcom/google/android/gms/auth/api/signin/internal/Storage;->zac:Ljava/util/concurrent/locks/Lock;
 
     .line 27
     .line 28
-    invoke-interface {p2}, Ljava/util/concurrent/locks/Lock;
-    ->unlock()V
+    invoke-interface {p2}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
     .line 29
     .line 30

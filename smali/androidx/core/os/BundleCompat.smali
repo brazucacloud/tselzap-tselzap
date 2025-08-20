@@ -16,8 +16,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -42,8 +41,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/os/Bundle;
-    ->getBinder(Ljava/lang/String;)Landroid/os/IBinder;
+    invoke-virtual {p0, p1}, Landroid/os/Bundle;->getBinder(Ljava/lang/String;)Landroid/os/IBinder;
 
     .line 2
     .line 3
@@ -83,8 +81,7 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -96,8 +93,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1, p2}, Landroidx/core/os/BundleCompat$Api33Impl;
-    ->getParcelable(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Landroidx/core/os/BundleCompat$Api33Impl;->getParcelable(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -108,8 +104,7 @@
 
     .line 12
     :cond_0
-    invoke-virtual {p0, p1}, Landroid/os/Bundle;
-    ->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
+    invoke-virtual {p0, p1}, Landroid/os/Bundle;->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
 
     .line 13
     .line 14
@@ -117,8 +112,7 @@
     move-result-object p0
 
     .line 16
-    invoke-virtual {p2, p0}, Ljava/lang/Class;
-    ->isInstance(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p0}, Ljava/lang/Class;->isInstance(Ljava/lang/Object;)Z
 
     .line 17
     .line 18
@@ -177,8 +171,7 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -190,8 +183,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1, p2}, Landroidx/core/os/BundleCompat$Api33Impl;
-    ->getParcelableArray(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/Class;)[Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Landroidx/core/os/BundleCompat$Api33Impl;->getParcelableArray(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/Class;)[Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -207,8 +199,7 @@
 
     .line 14
     :cond_0
-    invoke-virtual {p0, p1}, Landroid/os/Bundle;
-    ->getParcelableArray(Ljava/lang/String;)[Landroid/os/Parcelable;
+    invoke-virtual {p0, p1}, Landroid/os/Bundle;->getParcelableArray(Ljava/lang/String;)[Landroid/os/Parcelable;
 
     .line 15
     .line 16
@@ -257,8 +248,7 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -270,8 +260,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1, p2}, Landroidx/core/os/BundleCompat$Api33Impl;
-    ->getParcelableArrayList(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/Class;)Ljava/util/ArrayList;
+    invoke-static {p0, p1, p2}, Landroidx/core/os/BundleCompat$Api33Impl;->getParcelableArrayList(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/Class;)Ljava/util/ArrayList;
 
     .line 8
     .line 9
@@ -282,8 +271,7 @@
 
     .line 12
     :cond_0
-    invoke-virtual {p0, p1}, Landroid/os/Bundle;
-    ->getParcelableArrayList(Ljava/lang/String;)Ljava/util/ArrayList;
+    invoke-virtual {p0, p1}, Landroid/os/Bundle;->getParcelableArrayList(Ljava/lang/String;)Ljava/util/ArrayList;
 
     .line 13
     .line 14
@@ -323,8 +311,7 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -336,8 +323,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1, p2}, Landroidx/core/os/BundleCompat$Api33Impl;
-    ->getSerializable(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/Class;)Ljava/io/Serializable;
+    invoke-static {p0, p1, p2}, Landroidx/core/os/BundleCompat$Api33Impl;->getSerializable(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/Class;)Ljava/io/Serializable;
 
     .line 8
     .line 9
@@ -348,8 +334,7 @@
 
     .line 12
     :cond_0
-    invoke-virtual {p0, p1}, Landroid/os/Bundle;
-    ->getSerializable(Ljava/lang/String;)Ljava/io/Serializable;
+    invoke-virtual {p0, p1}, Landroid/os/Bundle;->getSerializable(Ljava/lang/String;)Ljava/io/Serializable;
 
     .line 13
     .line 14
@@ -357,8 +342,7 @@
     move-result-object p0
 
     .line 16
-    invoke-virtual {p2, p0}, Ljava/lang/Class;
-    ->isInstance(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p0}, Ljava/lang/Class;->isInstance(Ljava/lang/Object;)Z
 
     .line 17
     .line 18
@@ -411,8 +395,7 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -424,8 +407,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1, p2}, Landroidx/core/os/BundleCompat$Api33Impl;
-    ->getSparseParcelableArray(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/Class;)Landroid/util/SparseArray;
+    invoke-static {p0, p1, p2}, Landroidx/core/os/BundleCompat$Api33Impl;->getSparseParcelableArray(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/Class;)Landroid/util/SparseArray;
 
     .line 8
     .line 9
@@ -436,8 +418,7 @@
 
     .line 12
     :cond_0
-    invoke-virtual {p0, p1}, Landroid/os/Bundle;
-    ->getSparseParcelableArray(Ljava/lang/String;)Landroid/util/SparseArray;
+    invoke-virtual {p0, p1}, Landroid/os/Bundle;->getSparseParcelableArray(Ljava/lang/String;)Landroid/util/SparseArray;
 
     .line 13
     .line 14
@@ -465,8 +446,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/os/Bundle;
-    ->putBinder(Ljava/lang/String;Landroid/os/IBinder;)V
+    invoke-virtual {p0, p1, p2}, Landroid/os/Bundle;->putBinder(Ljava/lang/String;Landroid/os/IBinder;)V
 
     .line 2
     .line 3

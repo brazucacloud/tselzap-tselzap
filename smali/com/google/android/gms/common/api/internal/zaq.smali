@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/ThreadLocal;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/ThreadLocal;-><init>()V
 
     .line 2
     .line 3
@@ -23,8 +22,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Ljava/lang/Boolean;
-    ->FALSE:Ljava/lang/Boolean;
+    sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     .line 2
     .line 3

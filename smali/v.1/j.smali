@@ -19,24 +19,20 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lv/j;
-    ->a:Ljava/util/ArrayList;
+    iput-object p1, p0, Lv/j;->a:Ljava/util/ArrayList;
 
     .line 5
     .line 6
-    iput-object p2, p0, Lv/j;
-    ->b:Lv/a;
+    iput-object p2, p0, Lv/j;->b:Lv/a;
 
     .line 7
     .line 8
-    iput-object p3, p0, Lv/j;
-    ->c:Ll/f;
+    iput-object p3, p0, Lv/j;->c:Ll/f;
 
     .line 9
     .line 10
@@ -61,8 +57,7 @@
 
     .line 6
     .line 7
-    invoke-direct {v0, v1}, Ljava/io/ByteArrayOutputStream;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Ljava/io/ByteArrayOutputStream;-><init>(I)V
 
     .line 8
     .line 9
@@ -76,8 +71,7 @@
     .line 12
     .line 13
     :goto_0
-    invoke-virtual {p1, v1}, Ljava/io/InputStream;
-    ->read([B)I
+    invoke-virtual {p1, v1}, Ljava/io/InputStream;->read([B)I
 
     .line 14
     .line 15
@@ -95,8 +89,7 @@
     const/4 v4, 0x0
 
     .line 21
-    invoke-virtual {v0, v1, v4, v3}, Ljava/io/ByteArrayOutputStream;
-    ->write([BII)V
+    invoke-virtual {v0, v1, v4, v3}, Ljava/io/ByteArrayOutputStream;->write([BII)V
 
     .line 22
     .line 23
@@ -112,16 +105,14 @@
 
     .line 27
     :cond_0
-    invoke-virtual {v0}, Ljava/io/OutputStream;
-    ->flush()V
+    invoke-virtual {v0}, Ljava/io/OutputStream;->flush()V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 28
     .line 29
     .line 30
-    invoke-virtual {v0}, Ljava/io/ByteArrayOutputStream;
-    ->toByteArray()[B
+    invoke-virtual {v0}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
 
     .line 31
     .line 32
@@ -140,8 +131,7 @@
     const/4 v1, 0x5
 
     .line 38
-    invoke-static {v0, v1}, Landroid/util/Log;
-    ->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v0, v1}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     .line 39
     .line 40
@@ -157,8 +147,7 @@
 
     .line 45
     .line 46
-    invoke-static {v0, v1, p1}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, v1, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 47
     .line 48
@@ -176,8 +165,7 @@
 
     .line 53
     :cond_2
-    invoke-static {p1}, Ljava/nio/ByteBuffer;
-    ->wrap([B)Ljava/nio/ByteBuffer;
+    invoke-static {p1}, Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
 
     .line 54
     .line 55
@@ -185,13 +173,11 @@
     move-result-object p1
 
     .line 57
-    iget-object v0, p0, Lv/j;
-    ->b:Lv/a;
+    iget-object v0, p0, Lv/j;->b:Lv/a;
 
     .line 58
     .line 59
-    invoke-virtual {v0, p1, p2, p3, p4}, Lv/a;
-    ->a(Ljava/lang/Object;IILi/i;)Lk/C;
+    invoke-virtual {v0, p1, p2, p3, p4}, Lv/a;->a(Ljava/lang/Object;IILi/i;)Lk/C;
 
     .line 60
     .line 61
@@ -211,13 +197,11 @@
 
     .line 2
     .line 3
-    sget-object v0, Lv/i;
-    ->b:Li/h;
+    sget-object v0, Lv/i;->b:Li/h;
 
     .line 4
     .line 5
-    invoke-virtual {p2, v0}, Li/i;
-    ->c(Li/h;)Ljava/lang/Object;
+    invoke-virtual {p2, v0}, Li/i;->c(Li/h;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -229,8 +213,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p2}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 12
     .line 13
@@ -242,18 +225,15 @@
 
     .line 16
     .line 17
-    iget-object p2, p0, Lv/j;
-    ->a:Ljava/util/ArrayList;
+    iget-object p2, p0, Lv/j;->a:Ljava/util/ArrayList;
 
     .line 18
     .line 19
-    iget-object v0, p0, Lv/j;
-    ->c:Ll/f;
+    iget-object v0, p0, Lv/j;->c:Ll/f;
 
     .line 20
     .line 21
-    invoke-static {p1, p2, v0}, La/a;
-    ->w(Ljava/io/InputStream;Ljava/util/ArrayList;Ll/f;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    invoke-static {p1, p2, v0}, La/a;->w(Ljava/io/InputStream;Ljava/util/ArrayList;Ll/f;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
     .line 22
     .line 23
@@ -261,8 +241,7 @@
     move-result-object p1
 
     .line 25
-    sget-object p2, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
-    ->GIF:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    sget-object p2, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;->GIF:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
     .line 26
     .line 27

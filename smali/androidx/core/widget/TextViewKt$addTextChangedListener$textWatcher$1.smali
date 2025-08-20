@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/widget/TextViewKt;
-    ->addTextChangedListener(Landroid/widget/TextView;Lp1/r;Lp1/r;Lp1/l;)Landroid/text/TextWatcher;
+    value = Landroidx/core/widget/TextViewKt;->addTextChangedListener(Landroid/widget/TextView;Lp1/r;Lp1/r;Lp1/l;)Landroid/text/TextWatcher;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -58,23 +57,19 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;
-    ->$afterTextChanged:Lp1/l;
+    iput-object p1, p0, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;->$afterTextChanged:Lp1/l;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;
-    ->$beforeTextChanged:Lp1/r;
+    iput-object p2, p0, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;->$beforeTextChanged:Lp1/r;
 
     .line 4
     .line 5
-    iput-object p3, p0, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;
-    ->$onTextChanged:Lp1/r;
+    iput-object p3, p0, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;->$onTextChanged:Lp1/r;
 
     .line 6
     .line 7
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 8
     .line 9
@@ -88,13 +83,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;
-    ->$afterTextChanged:Lp1/l;
+    iget-object v0, p0, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;->$afterTextChanged:Lp1/l;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -106,13 +99,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;
-    ->$beforeTextChanged:Lp1/r;
+    iget-object v0, p0, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;->$beforeTextChanged:Lp1/r;
 
     .line 2
     .line 3
-    invoke-static {p2}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 4
     .line 5
@@ -120,8 +111,7 @@
     move-result-object p2
 
     .line 7
-    invoke-static {p3}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 8
     .line 9
@@ -129,8 +119,7 @@
     move-result-object p3
 
     .line 11
-    invoke-static {p4}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 12
     .line 13
@@ -138,8 +127,7 @@
     move-result-object p4
 
     .line 15
-    invoke-interface {v0, p1, p2, p3, p4}, Lp1/r;
-    ->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2, p3, p4}, Lp1/r;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -151,13 +139,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;
-    ->$onTextChanged:Lp1/r;
+    iget-object v0, p0, Landroidx/core/widget/TextViewKt$addTextChangedListener$textWatcher$1;->$onTextChanged:Lp1/r;
 
     .line 2
     .line 3
-    invoke-static {p2}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 4
     .line 5
@@ -165,8 +151,7 @@
     move-result-object p2
 
     .line 7
-    invoke-static {p3}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 8
     .line 9
@@ -174,8 +159,7 @@
     move-result-object p3
 
     .line 11
-    invoke-static {p4}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p4}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 12
     .line 13
@@ -183,8 +167,7 @@
     move-result-object p4
 
     .line 15
-    invoke-interface {v0, p1, p2, p3, p4}, Lp1/r;
-    ->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2, p3, p4}, Lp1/r;->invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 16
     .line 17

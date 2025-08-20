@@ -12,8 +12,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -34,8 +33,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0}, Lcom/google/android/gms/common/api/internal/zaa;
-    ->zaa(Landroid/app/Activity;)Lcom/google/android/gms/common/api/internal/zaa;
+    invoke-static {p0}, Lcom/google/android/gms/common/api/internal/zaa;->zaa(Landroid/app/Activity;)Lcom/google/android/gms/common/api/internal/zaa;
 
     .line 4
     .line 5
@@ -43,8 +41,7 @@
     move-result-object p0
 
     .line 7
-    invoke-direct {v0, p0}, Lcom/google/android/gms/common/api/internal/zab;
-    -><init>(Lcom/google/android/gms/common/api/internal/zaa;)V
+    invoke-direct {v0, p0}, Lcom/google/android/gms/common/api/internal/zab;-><init>(Lcom/google/android/gms/common/api/internal/zaa;)V
 
     .line 8
     .line 9

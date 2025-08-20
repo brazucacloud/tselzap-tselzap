@@ -16,14 +16,11 @@
 .method public synthetic constructor <init>(Lcom/google/android/gms/common/moduleinstall/internal/zay;Lcom/google/android/gms/common/moduleinstall/internal/zaab;)V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/moduleinstall/internal/zaj;
-    ->zaa:Lcom/google/android/gms/common/moduleinstall/internal/zay;
+    iput-object p1, p0, Lcom/google/android/gms/common/moduleinstall/internal/zaj;->zaa:Lcom/google/android/gms/common/moduleinstall/internal/zay;
 
-    iput-object p2, p0, Lcom/google/android/gms/common/moduleinstall/internal/zaj;
-    ->zab:Lcom/google/android/gms/common/moduleinstall/internal/zaab;
+    iput-object p2, p0, Lcom/google/android/gms/common/moduleinstall/internal/zaj;->zab:Lcom/google/android/gms/common/moduleinstall/internal/zaab;
 
     return-void
 .end method
@@ -46,19 +43,16 @@
 
     .line 6
     .line 7
-    iget-object v1, p0, Lcom/google/android/gms/common/moduleinstall/internal/zaj;
-    ->zaa:Lcom/google/android/gms/common/moduleinstall/internal/zay;
+    iget-object v1, p0, Lcom/google/android/gms/common/moduleinstall/internal/zaj;->zaa:Lcom/google/android/gms/common/moduleinstall/internal/zay;
 
     .line 8
     .line 9
-    invoke-direct {v0, v1, p2}, Lcom/google/android/gms/common/moduleinstall/internal/zav;
-    -><init>(Lcom/google/android/gms/common/moduleinstall/internal/zay;Lcom/google/android/gms/tasks/TaskCompletionSource;)V
+    invoke-direct {v0, v1, p2}, Lcom/google/android/gms/common/moduleinstall/internal/zav;-><init>(Lcom/google/android/gms/common/moduleinstall/internal/zay;Lcom/google/android/gms/tasks/TaskCompletionSource;)V
 
     .line 10
     .line 11
     .line 12
-    invoke-virtual {p1}, Lcom/google/android/gms/common/internal/BaseGmsClient;
-    ->getService()Landroid/os/IInterface;
+    invoke-virtual {p1}, Lcom/google/android/gms/common/internal/BaseGmsClient;->getService()Landroid/os/IInterface;
 
     .line 13
     .line 14
@@ -70,13 +64,11 @@
 
     .line 17
     .line 18
-    iget-object p2, p0, Lcom/google/android/gms/common/moduleinstall/internal/zaj;
-    ->zab:Lcom/google/android/gms/common/moduleinstall/internal/zaab;
+    iget-object p2, p0, Lcom/google/android/gms/common/moduleinstall/internal/zaj;->zab:Lcom/google/android/gms/common/moduleinstall/internal/zaab;
 
     .line 19
     .line 20
-    invoke-virtual {p1, v0, p2}, Lcom/google/android/gms/common/moduleinstall/internal/zaf;
-    ->zai(Lcom/google/android/gms/common/api/internal/IStatusCallback;Lcom/google/android/gms/common/moduleinstall/internal/zah;)V
+    invoke-virtual {p1, v0, p2}, Lcom/google/android/gms/common/moduleinstall/internal/zaf;->zai(Lcom/google/android/gms/common/api/internal/IStatusCallback;Lcom/google/android/gms/common/moduleinstall/internal/zah;)V
 
     .line 21
     .line 22

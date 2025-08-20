@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/constraintlayout/motion/widget/TouchResponse;
-    ->setupTouch()V
+    value = Landroidx/constraintlayout/motion/widget/TouchResponse;->setupTouch()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/motion/widget/TouchResponse$1;
-    ->this$0:Landroidx/constraintlayout/motion/widget/TouchResponse;
+    iput-object p1, p0, Landroidx/constraintlayout/motion/widget/TouchResponse$1;->this$0:Landroidx/constraintlayout/motion/widget/TouchResponse;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 

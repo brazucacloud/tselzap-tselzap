@@ -45,17 +45,14 @@
     .end param
 
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     new-instance v0, Landroid/view/inputmethod/InputContentInfo;
 
-    invoke-direct {v0, p1, p2, p3}, Landroid/view/inputmethod/InputContentInfo;
-    -><init>(Landroid/net/Uri;Landroid/content/ClipDescription;Landroid/net/Uri;)V
+    invoke-direct {v0, p1, p2, p3}, Landroid/view/inputmethod/InputContentInfo;-><init>(Landroid/net/Uri;Landroid/content/ClipDescription;Landroid/net/Uri;)V
 
-    iput-object v0, p0, Landroidx/core/view/inputmethod/InputContentInfoCompat$InputContentInfoCompatApi25Impl;
-    ->mObject:Landroid/view/inputmethod/InputContentInfo;
+    iput-object v0, p0, Landroidx/core/view/inputmethod/InputContentInfoCompat$InputContentInfoCompatApi25Impl;->mObject:Landroid/view/inputmethod/InputContentInfo;
 
     return-void
 .end method
@@ -68,14 +65,12 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     check-cast p1, Landroid/view/inputmethod/InputContentInfo;
 
-    iput-object p1, p0, Landroidx/core/view/inputmethod/InputContentInfoCompat$InputContentInfoCompatApi25Impl;
-    ->mObject:Landroid/view/inputmethod/InputContentInfo;
+    iput-object p1, p0, Landroidx/core/view/inputmethod/InputContentInfoCompat$InputContentInfoCompatApi25Impl;->mObject:Landroid/view/inputmethod/InputContentInfo;
 
     return-void
 .end method
@@ -88,13 +83,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/inputmethod/InputContentInfoCompat$InputContentInfoCompatApi25Impl;
-    ->mObject:Landroid/view/inputmethod/InputContentInfo;
+    iget-object v0, p0, Landroidx/core/view/inputmethod/InputContentInfoCompat$InputContentInfoCompatApi25Impl;->mObject:Landroid/view/inputmethod/InputContentInfo;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/inputmethod/InputContentInfo;
-    ->getContentUri()Landroid/net/Uri;
+    invoke-virtual {v0}, Landroid/view/inputmethod/InputContentInfo;->getContentUri()Landroid/net/Uri;
 
     .line 4
     .line 5
@@ -110,13 +103,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/inputmethod/InputContentInfoCompat$InputContentInfoCompatApi25Impl;
-    ->mObject:Landroid/view/inputmethod/InputContentInfo;
+    iget-object v0, p0, Landroidx/core/view/inputmethod/InputContentInfoCompat$InputContentInfoCompatApi25Impl;->mObject:Landroid/view/inputmethod/InputContentInfo;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/inputmethod/InputContentInfo;
-    ->getDescription()Landroid/content/ClipDescription;
+    invoke-virtual {v0}, Landroid/view/inputmethod/InputContentInfo;->getDescription()Landroid/content/ClipDescription;
 
     .line 4
     .line 5
@@ -132,8 +123,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/inputmethod/InputContentInfoCompat$InputContentInfoCompatApi25Impl;
-    ->mObject:Landroid/view/inputmethod/InputContentInfo;
+    iget-object v0, p0, Landroidx/core/view/inputmethod/InputContentInfoCompat$InputContentInfoCompatApi25Impl;->mObject:Landroid/view/inputmethod/InputContentInfo;
 
     .line 2
     .line 3
@@ -146,13 +136,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/inputmethod/InputContentInfoCompat$InputContentInfoCompatApi25Impl;
-    ->mObject:Landroid/view/inputmethod/InputContentInfo;
+    iget-object v0, p0, Landroidx/core/view/inputmethod/InputContentInfoCompat$InputContentInfoCompatApi25Impl;->mObject:Landroid/view/inputmethod/InputContentInfo;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/inputmethod/InputContentInfo;
-    ->getLinkUri()Landroid/net/Uri;
+    invoke-virtual {v0}, Landroid/view/inputmethod/InputContentInfo;->getLinkUri()Landroid/net/Uri;
 
     .line 4
     .line 5
@@ -166,13 +154,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/inputmethod/InputContentInfoCompat$InputContentInfoCompatApi25Impl;
-    ->mObject:Landroid/view/inputmethod/InputContentInfo;
+    iget-object v0, p0, Landroidx/core/view/inputmethod/InputContentInfoCompat$InputContentInfoCompatApi25Impl;->mObject:Landroid/view/inputmethod/InputContentInfo;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/inputmethod/InputContentInfo;
-    ->releasePermission()V
+    invoke-virtual {v0}, Landroid/view/inputmethod/InputContentInfo;->releasePermission()V
 
     .line 4
     .line 5
@@ -184,13 +170,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/inputmethod/InputContentInfoCompat$InputContentInfoCompatApi25Impl;
-    ->mObject:Landroid/view/inputmethod/InputContentInfo;
+    iget-object v0, p0, Landroidx/core/view/inputmethod/InputContentInfoCompat$InputContentInfoCompatApi25Impl;->mObject:Landroid/view/inputmethod/InputContentInfo;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/inputmethod/InputContentInfo;
-    ->requestPermission()V
+    invoke-virtual {v0}, Landroid/view/inputmethod/InputContentInfo;->requestPermission()V
 
     .line 4
     .line 5

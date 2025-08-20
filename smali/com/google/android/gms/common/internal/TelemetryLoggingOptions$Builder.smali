@@ -29,8 +29,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -38,8 +37,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -55,13 +53,11 @@
 
     new-instance v0, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;
 
-    iget-object v1, p0, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions$Builder;
-    ->zaa:Ljava/lang/String;
+    iget-object v1, p0, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions$Builder;->zaa:Ljava/lang/String;
 
     const/4 v2, 0x0
 
-    invoke-direct {v0, v1, v2}, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;
-    -><init>(Ljava/lang/String;Lcom/google/android/gms/common/internal/zaad;)V
+    invoke-direct {v0, v1, v2}, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions;-><init>(Ljava/lang/String;Lcom/google/android/gms/common/internal/zaad;)V
 return-object v0
 .end method
 
@@ -77,8 +73,7 @@ return-object v0
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    iput-object p1, p0, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions$Builder;
-    ->zaa:Ljava/lang/String;
+    iput-object p1, p0, Lcom/google/android/gms/common/internal/TelemetryLoggingOptions$Builder;->zaa:Ljava/lang/String;
 
     return-object p0
 .end method

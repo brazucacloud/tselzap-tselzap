@@ -62,29 +62,24 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput p1, p0, Landroidx/profileinstaller/ProfileVerifier$CompilationStatus;
-    ->mResultCode:I
+    iput p1, p0, Landroidx/profileinstaller/ProfileVerifier$CompilationStatus;->mResultCode:I
 
     .line 5
     .line 6
-    iput-boolean p3, p0, Landroidx/profileinstaller/ProfileVerifier$CompilationStatus;
-    ->mHasCurrentProfile:Z
+    iput-boolean p3, p0, Landroidx/profileinstaller/ProfileVerifier$CompilationStatus;->mHasCurrentProfile:Z
 
     .line 7
     .line 8
-    iput-boolean p2, p0, Landroidx/profileinstaller/ProfileVerifier$CompilationStatus;
-    ->mHasReferenceProfile:Z
+    iput-boolean p2, p0, Landroidx/profileinstaller/ProfileVerifier$CompilationStatus;->mHasReferenceProfile:Z
 
     .line 9
     .line 10
-    iput-boolean p4, p0, Landroidx/profileinstaller/ProfileVerifier$CompilationStatus;
-    ->mHasEmbeddedProfile:Z
+    iput-boolean p4, p0, Landroidx/profileinstaller/ProfileVerifier$CompilationStatus;->mHasEmbeddedProfile:Z
 
     .line 11
     .line 12
@@ -97,8 +92,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/profileinstaller/ProfileVerifier$CompilationStatus;
-    ->mHasEmbeddedProfile:Z
+    iget-boolean v0, p0, Landroidx/profileinstaller/ProfileVerifier$CompilationStatus;->mHasEmbeddedProfile:Z
 
     .line 2
     .line 3
@@ -109,8 +103,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/profileinstaller/ProfileVerifier$CompilationStatus;
-    ->mResultCode:I
+    iget v0, p0, Landroidx/profileinstaller/ProfileVerifier$CompilationStatus;->mResultCode:I
 
     .line 2
     .line 3
@@ -121,8 +114,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/profileinstaller/ProfileVerifier$CompilationStatus;
-    ->mHasCurrentProfile:Z
+    iget-boolean v0, p0, Landroidx/profileinstaller/ProfileVerifier$CompilationStatus;->mHasCurrentProfile:Z
 
     .line 2
     .line 3
@@ -133,8 +125,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/profileinstaller/ProfileVerifier$CompilationStatus;
-    ->mHasReferenceProfile:Z
+    iget-boolean v0, p0, Landroidx/profileinstaller/ProfileVerifier$CompilationStatus;->mHasReferenceProfile:Z
 
     .line 2
     .line 3

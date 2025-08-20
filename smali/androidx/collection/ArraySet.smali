@@ -49,8 +49,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {p0, v2, v0, v1}, Landroidx/collection/ArraySet;
-    -><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {p0, v2, v0, v1}, Landroidx/collection/ArraySet;-><init>(IILkotlin/jvm/internal/e;)V
 return-void
 .end method
 
@@ -58,28 +57,22 @@ return-void
     .locals 1
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 3
-    sget-object v0, Landroidx/collection/internal/ContainerHelpersKt;
-    ->EMPTY_INTS:[I
+    sget-object v0, Landroidx/collection/internal/ContainerHelpersKt;->EMPTY_INTS:[I
 
-    iput-object v0, p0, Landroidx/collection/ArraySet;
-    ->hashes:[I
+    iput-object v0, p0, Landroidx/collection/ArraySet;->hashes:[I
 
     .line 4
-    sget-object v0, Landroidx/collection/internal/ContainerHelpersKt;
-    ->EMPTY_OBJECTS:[Ljava/lang/Object;
+    sget-object v0, Landroidx/collection/internal/ContainerHelpersKt;->EMPTY_OBJECTS:[Ljava/lang/Object;
 
-    iput-object v0, p0, Landroidx/collection/ArraySet;
-    ->array:[Ljava/lang/Object;
+    iput-object v0, p0, Landroidx/collection/ArraySet;->array:[Ljava/lang/Object;
 
     if-lez p1, :cond_0
 
     .line 5
-    invoke-static {p0, p1}, Landroidx/collection/ArraySetKt;
-    ->allocArrays(Landroidx/collection/ArraySet;I)V
+    invoke-static {p0, p1}, Landroidx/collection/ArraySetKt;->allocArrays(Landroidx/collection/ArraySet;I)V
 
     :cond_0
     return-void
@@ -96,8 +89,7 @@ return-void
 
     .line 6
     :cond_0
-    invoke-direct {p0, p1}, Landroidx/collection/ArraySet;
-    -><init>(I)V
+    invoke-direct {p0, p1}, Landroidx/collection/ArraySet;-><init>(I)V
 return-void
 .end method
 
@@ -114,14 +106,12 @@ return-void
     const/4 v0, 0x0
 
     .line 7
-    invoke-direct {p0, v0}, Landroidx/collection/ArraySet;
-    -><init>(I)V
+    invoke-direct {p0, v0}, Landroidx/collection/ArraySet;-><init>(I)V
 
     if-eqz p1, :cond_0
 
     .line 8
-    invoke-virtual {p0, p1}, Landroidx/collection/ArraySet;
-    ->addAll(Landroidx/collection/ArraySet;)V
+    invoke-virtual {p0, p1}, Landroidx/collection/ArraySet;->addAll(Landroidx/collection/ArraySet;)V
 
     :cond_0
     return-void
@@ -140,14 +130,12 @@ return-void
     const/4 v0, 0x0
 
     .line 9
-    invoke-direct {p0, v0}, Landroidx/collection/ArraySet;
-    -><init>(I)V
+    invoke-direct {p0, v0}, Landroidx/collection/ArraySet;-><init>(I)V
 
     if-eqz p1, :cond_0
 
     .line 10
-    invoke-virtual {p0, p1}, Landroidx/collection/ArraySet;
-    ->addAll(Ljava/util/Collection;)Z
+    invoke-virtual {p0, p1}, Landroidx/collection/ArraySet;->addAll(Ljava/util/Collection;)Z
 
     :cond_0
     return-void
@@ -164,33 +152,28 @@ return-void
     const/4 v0, 0x0
 
     .line 11
-    invoke-direct {p0, v0}, Landroidx/collection/ArraySet;
-    -><init>(I)V
+    invoke-direct {p0, v0}, Landroidx/collection/ArraySet;-><init>(I)V
 
     if-eqz p1, :cond_0
 
     .line 12
-    invoke-static {p1}, Lkotlin/jvm/internal/v;
-    ->e([Ljava/lang/Object;)LL1/h;
+    invoke-static {p1}, Lkotlin/jvm/internal/v;->e([Ljava/lang/Object;)LL1/h;
 
     move-result-object p1
 
     :goto_0
-    invoke-virtual {p1}, LL1/h;
-    ->hasNext()Z
+    invoke-virtual {p1}, LL1/h;->hasNext()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p1}, LL1/h;
-    ->next()Ljava/lang/Object;
+    invoke-virtual {p1}, LL1/h;->next()Ljava/lang/Object;
 
     move-result-object v0
 
     .line 13
-    invoke-virtual {p0, v0}, Landroidx/collection/ArraySet;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v0}, Landroidx/collection/ArraySet;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
@@ -209,8 +192,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     .line 2
     .line 3
@@ -225,8 +207,7 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {p0}, Landroidx/collection/ArraySetKt;
-    ->indexOfNull(Landroidx/collection/ArraySet;)I
+    invoke-static {p0}, Landroidx/collection/ArraySetKt;->indexOfNull(Landroidx/collection/ArraySet;)I
 
     .line 9
     .line 10
@@ -241,8 +222,7 @@ return-void
 
     .line 14
     :cond_0
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->hashCode()I
+    invoke-virtual {p1}, Ljava/lang/Object;->hashCode()I
 
     .line 15
     .line 16
@@ -250,8 +230,7 @@ return-void
     move-result v2
 
     .line 18
-    invoke-static {p0, p1, v2}, Landroidx/collection/ArraySetKt;
-    ->indexOf(Landroidx/collection/ArraySet;Ljava/lang/Object;I)I
+    invoke-static {p0, p1, v2}, Landroidx/collection/ArraySetKt;->indexOf(Landroidx/collection/ArraySet;Ljava/lang/Object;I)I
 
     .line 19
     .line 20
@@ -276,8 +255,7 @@ return-void
     not-int v2, v2
 
     .line 29
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getHashes$collection()[I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getHashes$collection()[I
 
     .line 30
     .line 31
@@ -326,8 +304,7 @@ return-void
 
     .line 49
     :goto_1
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getHashes$collection()[I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getHashes$collection()[I
 
     .line 50
     .line 51
@@ -335,8 +312,7 @@ return-void
     move-result-object v5
 
     .line 53
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getArray$collection()[Ljava/lang/Object;
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getArray$collection()[Ljava/lang/Object;
 
     .line 54
     .line 55
@@ -344,14 +320,12 @@ return-void
     move-result-object v6
 
     .line 57
-    invoke-static {p0, v4}, Landroidx/collection/ArraySetKt;
-    ->allocArrays(Landroidx/collection/ArraySet;I)V
+    invoke-static {p0, v4}, Landroidx/collection/ArraySetKt;->allocArrays(Landroidx/collection/ArraySet;I)V
 
     .line 58
     .line 59
     .line 60
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     .line 61
     .line 62
@@ -363,8 +337,7 @@ return-void
 
     .line 65
     .line 66
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getHashes$collection()[I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getHashes$collection()[I
 
     .line 67
     .line 68
@@ -383,8 +356,7 @@ return-void
 
     .line 74
     :cond_4
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getHashes$collection()[I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getHashes$collection()[I
 
     .line 75
     .line 76
@@ -398,14 +370,12 @@ return-void
     const/4 v8, 0x6
 
     .line 80
-    invoke-static {v1, v7, v5, v4, v8}, Ld1/i;
-    ->b0(II[I[II)V
+    invoke-static {v1, v7, v5, v4, v8}, Ld1/i;->b0(II[I[II)V
 
     .line 81
     .line 82
     .line 83
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getArray$collection()[Ljava/lang/Object;
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getArray$collection()[Ljava/lang/Object;
 
     .line 84
     .line 85
@@ -425,8 +395,7 @@ return-void
     const/4 v11, 0x6
 
     .line 91
-    invoke-static/range {v6 .. v11}, Ld1/i;
-    ->c0([Ljava/lang/Object;[Ljava/lang/Object;IIII)V
+    invoke-static/range {v6 .. v11}, Ld1/i;->c0([Ljava/lang/Object;[Ljava/lang/Object;IIII)V
 
     .line 92
     .line 93
@@ -439,8 +408,7 @@ return-void
 
     .line 96
     .line 97
-    invoke-direct {p1}, Ljava/util/ConcurrentModificationException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/util/ConcurrentModificationException;-><init>()V
 
     .line 98
     .line 99
@@ -454,8 +422,7 @@ return-void
 
     .line 102
     .line 103
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getHashes$collection()[I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getHashes$collection()[I
 
     .line 104
     .line 105
@@ -463,8 +430,7 @@ return-void
     move-result-object v1
 
     .line 107
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getHashes$collection()[I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getHashes$collection()[I
 
     .line 108
     .line 109
@@ -476,14 +442,12 @@ return-void
 
     .line 112
     .line 113
-    invoke-static {v5, v2, v1, v4, v0}, Ld1/i;
-    ->X(II[I[II)V
+    invoke-static {v5, v2, v1, v4, v0}, Ld1/i;->X(II[I[II)V
 
     .line 114
     .line 115
     .line 116
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getArray$collection()[Ljava/lang/Object;
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getArray$collection()[Ljava/lang/Object;
 
     .line 117
     .line 118
@@ -491,8 +455,7 @@ return-void
     move-result-object v1
 
     .line 120
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getArray$collection()[Ljava/lang/Object;
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getArray$collection()[Ljava/lang/Object;
 
     .line 121
     .line 122
@@ -500,15 +463,13 @@ return-void
     move-result-object v4
 
     .line 124
-    invoke-static {v5, v2, v0, v1, v4}, Ld1/i;
-    ->W(III[Ljava/lang/Object;[Ljava/lang/Object;)V
+    invoke-static {v5, v2, v0, v1, v4}, Ld1/i;->W(III[Ljava/lang/Object;[Ljava/lang/Object;)V
 
     .line 125
     .line 126
     .line 127
     :cond_7
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     .line 128
     .line 129
@@ -520,8 +481,7 @@ return-void
 
     .line 132
     .line 133
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getHashes$collection()[I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getHashes$collection()[I
 
     .line 134
     .line 135
@@ -536,8 +496,7 @@ return-void
 
     .line 139
     .line 140
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getHashes$collection()[I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getHashes$collection()[I
 
     .line 141
     .line 142
@@ -549,8 +508,7 @@ return-void
 
     .line 145
     .line 146
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getArray$collection()[Ljava/lang/Object;
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getArray$collection()[Ljava/lang/Object;
 
     .line 147
     .line 148
@@ -562,8 +520,7 @@ return-void
 
     .line 151
     .line 152
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     .line 153
     .line 154
@@ -577,8 +534,7 @@ return-void
     add-int/2addr p1, v0
 
     .line 158
-    invoke-virtual {p0, p1}, Landroidx/collection/ArraySet;
-    ->set_size$collection(I)V    
+    invoke-virtual {p0, p1}, Landroidx/collection/ArraySet;->set_size$collection(I)V
     return v0
 
     .line 162
@@ -587,8 +543,7 @@ return-void
 
     .line 163
     .line 164
-    invoke-direct {p1}, Ljava/util/ConcurrentModificationException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/util/ConcurrentModificationException;-><init>()V
 
     .line 165
     .line 166
@@ -607,29 +562,24 @@ return-void
 
     const-string v0, "array"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p1}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p1}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     move-result v5
 
     .line 2
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     move-result v0
 
     add-int/2addr v0, v5
 
-    invoke-virtual {p0, v0}, Landroidx/collection/ArraySet;
-    ->ensureCapacity(I)V
+    invoke-virtual {p0, v0}, Landroidx/collection/ArraySet;->ensureCapacity(I)V
 
     .line 3
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     move-result v0
 
@@ -640,29 +590,24 @@ return-void
     if-lez v5, :cond_2
 
     .line 4
-    invoke-virtual {p1}, Landroidx/collection/ArraySet;
-    ->getHashes$collection()[I
+    invoke-virtual {p1}, Landroidx/collection/ArraySet;->getHashes$collection()[I
 
     move-result-object v0
 
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getHashes$collection()[I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getHashes$collection()[I
 
     move-result-object v2
 
     const/4 v3, 0x6
 
-    invoke-static {v1, v5, v0, v2, v3}, Ld1/i;
-    ->b0(II[I[II)V
+    invoke-static {v1, v5, v0, v2, v3}, Ld1/i;->b0(II[I[II)V
 
     .line 5
-    invoke-virtual {p1}, Landroidx/collection/ArraySet;
-    ->getArray$collection()[Ljava/lang/Object;
+    invoke-virtual {p1}, Landroidx/collection/ArraySet;->getArray$collection()[Ljava/lang/Object;
 
     move-result-object v1
 
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getArray$collection()[Ljava/lang/Object;
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getArray$collection()[Ljava/lang/Object;
 
     move-result-object v2
 
@@ -672,28 +617,24 @@ return-void
 
     const/4 v6, 0x6
 
-    invoke-static/range {v1 .. v6}, Ld1/i;
-    ->c0([Ljava/lang/Object;[Ljava/lang/Object;IIII)V
+    invoke-static/range {v1 .. v6}, Ld1/i;->c0([Ljava/lang/Object;[Ljava/lang/Object;IIII)V
 
     .line 6
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     move-result p1
 
     if-nez p1, :cond_0
 
     .line 7
-    invoke-virtual {p0, v5}, Landroidx/collection/ArraySet;
-    ->set_size$collection(I)V
+    invoke-virtual {p0, v5}, Landroidx/collection/ArraySet;->set_size$collection(I)V
     return-void
 
     .line 8
     :cond_0
     new-instance p1, Ljava/util/ConcurrentModificationException;
 
-    invoke-direct {p1}, Ljava/util/ConcurrentModificationException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/util/ConcurrentModificationException;-><init>()V
 
     throw p1
 
@@ -702,13 +643,11 @@ return-void
     if-ge v1, v5, :cond_2
 
     .line 9
-    invoke-virtual {p1, v1}, Landroidx/collection/ArraySet;
-    ->valueAt(I)Ljava/lang/Object;
+    invoke-virtual {p1, v1}, Landroidx/collection/ArraySet;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v0
 
-    invoke-virtual {p0, v0}, Landroidx/collection/ArraySet;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v0}, Landroidx/collection/ArraySet;->add(Ljava/lang/Object;)Z
 
     add-int/lit8 v1, v1, 0x1
 
@@ -730,49 +669,41 @@ return-void
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     move-result v0
 
-    invoke-interface {p1}, Ljava/util/Collection;
-    ->size()I
+    invoke-interface {p1}, Ljava/util/Collection;->size()I
 
     move-result v1
 
     add-int/2addr v1, v0
 
-    invoke-virtual {p0, v1}, Landroidx/collection/ArraySet;
-    ->ensureCapacity(I)V
+    invoke-virtual {p0, v1}, Landroidx/collection/ArraySet;->ensureCapacity(I)V
 
     .line 11
-    invoke-interface {p1}, Ljava/util/Collection;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
     const/4 v0, 0x0
 
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
     .line 12
-    invoke-virtual {p0, v1}, Landroidx/collection/ArraySet;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Landroidx/collection/ArraySet;->add(Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -788,8 +719,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     .line 2
     .line 3
@@ -801,24 +731,20 @@ return-void
 
     .line 6
     .line 7
-    sget-object v0, Landroidx/collection/internal/ContainerHelpersKt;
-    ->EMPTY_INTS:[I
+    sget-object v0, Landroidx/collection/internal/ContainerHelpersKt;->EMPTY_INTS:[I
 
     .line 8
     .line 9
-    invoke-virtual {p0, v0}, Landroidx/collection/ArraySet;
-    ->setHashes$collection([I)V
+    invoke-virtual {p0, v0}, Landroidx/collection/ArraySet;->setHashes$collection([I)V
 
     .line 10
     .line 11
     .line 12
-    sget-object v0, Landroidx/collection/internal/ContainerHelpersKt;
-    ->EMPTY_OBJECTS:[Ljava/lang/Object;
+    sget-object v0, Landroidx/collection/internal/ContainerHelpersKt;->EMPTY_OBJECTS:[Ljava/lang/Object;
 
     .line 13
     .line 14
-    invoke-virtual {p0, v0}, Landroidx/collection/ArraySet;
-    ->setArray$collection([Ljava/lang/Object;)V
+    invoke-virtual {p0, v0}, Landroidx/collection/ArraySet;->setArray$collection([Ljava/lang/Object;)V
 
     .line 15
     .line 16
@@ -826,15 +752,13 @@ return-void
     const/4 v0, 0x0
 
     .line 18
-    invoke-virtual {p0, v0}, Landroidx/collection/ArraySet;
-    ->set_size$collection(I)V
+    invoke-virtual {p0, v0}, Landroidx/collection/ArraySet;->set_size$collection(I)V
 
     .line 19
     .line 20
     .line 21
     :cond_0
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     .line 22
     .line 23
@@ -850,8 +774,7 @@ return-void
 
     .line 29
     .line 30
-    invoke-direct {v0}, Ljava/util/ConcurrentModificationException;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ConcurrentModificationException;-><init>()V
 
     .line 31
     .line 32
@@ -862,8 +785,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/collection/ArraySet;
-    ->indexOf(Ljava/lang/Object;)I
+    invoke-virtual {p0, p1}, Landroidx/collection/ArraySet;->indexOf(Ljava/lang/Object;)I
 
     .line 2
     .line 3
@@ -903,14 +825,12 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-interface {p1}, Ljava/util/Collection;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     .line 7
     .line 8
@@ -919,8 +839,7 @@ return-void
 
     .line 10
     :cond_0
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
     .line 11
     .line 12
@@ -932,8 +851,7 @@ return-void
 
     .line 15
     .line 16
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -941,8 +859,7 @@ return-void
     move-result-object v0
 
     .line 20
-    invoke-virtual {p0, v0}, Landroidx/collection/ArraySet;
-    ->contains(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v0}, Landroidx/collection/ArraySet;->contains(Ljava/lang/Object;)Z
 
     .line 21
     .line 22
@@ -969,8 +886,7 @@ return-void
     .locals 8
 
     .line 1
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     .line 2
     .line 3
@@ -978,8 +894,7 @@ return-void
     move-result v0
 
     .line 5
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getHashes$collection()[I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getHashes$collection()[I
 
     .line 6
     .line 7
@@ -994,8 +909,7 @@ return-void
 
     .line 11
     .line 12
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getHashes$collection()[I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getHashes$collection()[I
 
     .line 13
     .line 14
@@ -1003,8 +917,7 @@ return-void
     move-result-object v1
 
     .line 16
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getArray$collection()[Ljava/lang/Object;
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getArray$collection()[Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -1012,14 +925,12 @@ return-void
     move-result-object v2
 
     .line 20
-    invoke-static {p0, p1}, Landroidx/collection/ArraySetKt;
-    ->allocArrays(Landroidx/collection/ArraySet;I)V
+    invoke-static {p0, p1}, Landroidx/collection/ArraySetKt;->allocArrays(Landroidx/collection/ArraySet;I)V
 
     .line 21
     .line 22
     .line 23
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     .line 24
     .line 25
@@ -1031,8 +942,7 @@ return-void
 
     .line 28
     .line 29
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getHashes$collection()[I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getHashes$collection()[I
 
     .line 30
     .line 31
@@ -1040,8 +950,7 @@ return-void
     move-result-object p1
 
     .line 33
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     .line 34
     .line 35
@@ -1055,14 +964,12 @@ return-void
     const/4 v5, 0x0
 
     .line 39
-    invoke-static {v5, v3, v1, p1, v4}, Ld1/i;
-    ->b0(II[I[II)V
+    invoke-static {v5, v3, v1, p1, v4}, Ld1/i;->b0(II[I[II)V
 
     .line 40
     .line 41
     .line 42
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getArray$collection()[Ljava/lang/Object;
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getArray$collection()[Ljava/lang/Object;
 
     .line 43
     .line 44
@@ -1070,8 +977,7 @@ return-void
     move-result-object v3
 
     .line 46
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     .line 47
     .line 48
@@ -1085,15 +991,13 @@ return-void
     const/4 v7, 0x6
 
     .line 52
-    invoke-static/range {v2 .. v7}, Ld1/i;
-    ->c0([Ljava/lang/Object;[Ljava/lang/Object;IIII)V
+    invoke-static/range {v2 .. v7}, Ld1/i;->c0([Ljava/lang/Object;[Ljava/lang/Object;IIII)V
 
     .line 53
     .line 54
     .line 55
     :cond_0
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     .line 56
     .line 57
@@ -1109,8 +1013,7 @@ return-void
 
     .line 63
     .line 64
-    invoke-direct {p1}, Ljava/util/ConcurrentModificationException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/util/ConcurrentModificationException;-><init>()V
 
     .line 65
     .line 66
@@ -1139,8 +1042,7 @@ return-void
 
     .line 9
     .line 10
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->size()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->size()I
 
     .line 11
     .line 12
@@ -1155,8 +1057,7 @@ return-void
 
     .line 16
     .line 17
-    invoke-interface {v3}, Ljava/util/Set;
-    ->size()I
+    invoke-interface {v3}, Ljava/util/Set;->size()I
 
     .line 18
     .line 19
@@ -1169,8 +1070,7 @@ return-void
     .line 24
     :cond_1
     :try_start_0
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     .line 25
     .line 26
@@ -1186,8 +1086,7 @@ return-void
 
     .line 30
     .line 31
-    invoke-virtual {p0, v3}, Landroidx/collection/ArraySet;
-    ->valueAt(I)Ljava/lang/Object;
+    invoke-virtual {p0, v3}, Landroidx/collection/ArraySet;->valueAt(I)Ljava/lang/Object;
 
     .line 32
     .line 33
@@ -1202,8 +1101,7 @@ return-void
 
     .line 37
     .line 38
-    invoke-interface {v5, v4}, Ljava/util/Set;
-    ->contains(Ljava/lang/Object;)Z
+    invoke-interface {v5, v4}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
 
     .line 39
     .line 40
@@ -1238,40 +1136,35 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/ArraySet;
-    ->array:[Ljava/lang/Object;    return-object v0
+    iget-object v0, p0, Landroidx/collection/ArraySet;->array:[Ljava/lang/Object;    return-object v0
 .end method
 
 .method public final getHashes$collection()[I
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/ArraySet;
-    ->hashes:[I    return-object v0
+    iget-object v0, p0, Landroidx/collection/ArraySet;->hashes:[I    return-object v0
 .end method
 
 .method public getSize()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/collection/ArraySet;
-    ->_size:I    return v0
+    iget v0, p0, Landroidx/collection/ArraySet;->_size:I    return v0
 .end method
 
 .method public final get_size$collection()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/collection/ArraySet;
-    ->_size:I    return v0
+    iget v0, p0, Landroidx/collection/ArraySet;->_size:I    return v0
 .end method
 
 .method public hashCode()I
     .locals 5
 
     .line 1
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getHashes$collection()[I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getHashes$collection()[I
 
     .line 2
     .line 3
@@ -1279,8 +1172,7 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     .line 6
     .line 7
@@ -1325,8 +1217,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p0}, Landroidx/collection/ArraySetKt;
-    ->indexOfNull(Landroidx/collection/ArraySet;)I
+    invoke-static {p0}, Landroidx/collection/ArraySetKt;->indexOfNull(Landroidx/collection/ArraySet;)I
 
     .line 4
     .line 5
@@ -1337,8 +1228,7 @@ return-void
 
     .line 8
     :cond_0
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->hashCode()I
+    invoke-virtual {p1}, Ljava/lang/Object;->hashCode()I
 
     .line 9
     .line 10
@@ -1346,8 +1236,7 @@ return-void
     move-result v0
 
     .line 12
-    invoke-static {p0, p1, v0}, Landroidx/collection/ArraySetKt;
-    ->indexOf(Landroidx/collection/ArraySet;Ljava/lang/Object;I)I
+    invoke-static {p0, p1, v0}, Landroidx/collection/ArraySetKt;->indexOf(Landroidx/collection/ArraySet;Ljava/lang/Object;I)I
 
     .line 13
     .line 14
@@ -1361,8 +1250,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     .line 2
     .line 3
@@ -1400,8 +1288,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/collection/ArraySet$ElementIterator;
-    -><init>(Landroidx/collection/ArraySet;)V
+    invoke-direct {v0, p0}, Landroidx/collection/ArraySet$ElementIterator;-><init>(Landroidx/collection/ArraySet;)V
     return-object v0
 .end method
 
@@ -1409,8 +1296,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/collection/ArraySet;
-    ->indexOf(Ljava/lang/Object;)I
+    invoke-virtual {p0, p1}, Landroidx/collection/ArraySet;->indexOf(Ljava/lang/Object;)I
 
     .line 2
     .line 3
@@ -1422,8 +1308,7 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {p0, p1}, Landroidx/collection/ArraySet;
-    ->removeAt(I)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Landroidx/collection/ArraySet;->removeAt(I)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -1451,18 +1336,15 @@ return-void
 
     const-string v0, "array"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p1}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p1}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     move-result v0
 
     .line 2
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     move-result v1
 
@@ -1474,13 +1356,11 @@ return-void
     if-ge v3, v0, :cond_0
 
     .line 3
-    invoke-virtual {p1, v3}, Landroidx/collection/ArraySet;
-    ->valueAt(I)Ljava/lang/Object;
+    invoke-virtual {p1, v3}, Landroidx/collection/ArraySet;->valueAt(I)Ljava/lang/Object;
 
     move-result-object v4
 
-    invoke-virtual {p0, v4}, Landroidx/collection/ArraySet;
-    ->remove(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v4}, Landroidx/collection/ArraySet;->remove(Ljava/lang/Object;)Z
 
     add-int/lit8 v3, v3, 0x1
 
@@ -1488,8 +1368,7 @@ return-void
 
     .line 4
     :cond_0
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     move-result p1
 
@@ -1517,33 +1396,28 @@ return-void
 
     const-string v0, "elements"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
-    invoke-interface {p1}, Ljava/util/Collection;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
     const/4 v0, 0x0
 
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
     .line 6
-    invoke-virtual {p0, v1}, Landroidx/collection/ArraySet;
-    ->remove(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Landroidx/collection/ArraySet;->remove(Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -1564,8 +1438,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     .line 2
     .line 3
@@ -1573,8 +1446,7 @@ return-void
     move-result v0
 
     .line 5
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getArray$collection()[Ljava/lang/Object;
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getArray$collection()[Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -1593,8 +1465,7 @@ return-void
 
     .line 13
     .line 14
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->clear()V
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->clear()V
     return-object v1
 
     .line 18
@@ -1603,8 +1474,7 @@ return-void
 
     .line 19
     .line 20
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getHashes$collection()[I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getHashes$collection()[I
 
     .line 21
     .line 22
@@ -1623,8 +1493,7 @@ return-void
 
     .line 28
     .line 29
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     .line 30
     .line 31
@@ -1632,8 +1501,7 @@ return-void
     move-result v4
 
     .line 33
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getHashes$collection()[I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getHashes$collection()[I
 
     .line 34
     .line 35
@@ -1652,8 +1520,7 @@ return-void
 
     .line 41
     .line 42
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     .line 43
     .line 44
@@ -1665,8 +1532,7 @@ return-void
 
     .line 47
     .line 48
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     .line 49
     .line 50
@@ -1674,8 +1540,7 @@ return-void
     move-result v4
 
     .line 52
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     .line 53
     .line 54
@@ -1692,8 +1557,7 @@ return-void
     .line 59
     .line 60
     :cond_1
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getHashes$collection()[I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getHashes$collection()[I
 
     .line 61
     .line 62
@@ -1701,8 +1565,7 @@ return-void
     move-result-object v2
 
     .line 64
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getArray$collection()[Ljava/lang/Object;
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getArray$collection()[Ljava/lang/Object;
 
     .line 65
     .line 66
@@ -1710,8 +1573,7 @@ return-void
     move-result-object v6
 
     .line 68
-    invoke-static {p0, v5}, Landroidx/collection/ArraySetKt;
-    ->allocArrays(Landroidx/collection/ArraySet;I)V
+    invoke-static {p0, v5}, Landroidx/collection/ArraySetKt;->allocArrays(Landroidx/collection/ArraySet;I)V
 
     .line 69
     .line 70
@@ -1720,8 +1582,7 @@ return-void
 
     .line 72
     .line 73
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getHashes$collection()[I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getHashes$collection()[I
 
     .line 74
     .line 75
@@ -1735,14 +1596,12 @@ return-void
     const/4 v7, 0x0
 
     .line 79
-    invoke-static {v7, p1, v2, v4, v5}, Ld1/i;
-    ->b0(II[I[II)V
+    invoke-static {v7, p1, v2, v4, v5}, Ld1/i;->b0(II[I[II)V
 
     .line 80
     .line 81
     .line 82
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getArray$collection()[Ljava/lang/Object;
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getArray$collection()[Ljava/lang/Object;
 
     .line 83
     .line 84
@@ -1762,8 +1621,7 @@ return-void
     move v10, p1
 
     .line 90
-    invoke-static/range {v6 .. v11}, Ld1/i;
-    ->c0([Ljava/lang/Object;[Ljava/lang/Object;IIII)V
+    invoke-static/range {v6 .. v11}, Ld1/i;->c0([Ljava/lang/Object;[Ljava/lang/Object;IIII)V
 
     .line 91
     .line 92
@@ -1780,8 +1638,7 @@ return-void
 
     .line 96
     .line 97
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getHashes$collection()[I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getHashes$collection()[I
 
     .line 98
     .line 99
@@ -1793,14 +1650,12 @@ return-void
 
     .line 102
     .line 103
-    invoke-static {v10, v4, v2, p1, v0}, Ld1/i;
-    ->X(II[I[II)V
+    invoke-static {v10, v4, v2, p1, v0}, Ld1/i;->X(II[I[II)V
 
     .line 104
     .line 105
     .line 106
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getArray$collection()[Ljava/lang/Object;
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getArray$collection()[Ljava/lang/Object;
 
     .line 107
     .line 108
@@ -1808,8 +1663,7 @@ return-void
     move-result-object p1
 
     .line 110
-    invoke-static {v10, v4, v0, v6, p1}, Ld1/i;
-    ->W(III[Ljava/lang/Object;[Ljava/lang/Object;)V
+    invoke-static {v10, v4, v0, v6, p1}, Ld1/i;->W(III[Ljava/lang/Object;[Ljava/lang/Object;)V
 
     .line 111
     .line 112
@@ -1825,8 +1679,7 @@ return-void
 
     .line 116
     .line 117
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getHashes$collection()[I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getHashes$collection()[I
 
     .line 118
     .line 119
@@ -1834,8 +1687,7 @@ return-void
     move-result-object p1
 
     .line 121
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getHashes$collection()[I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getHashes$collection()[I
 
     .line 122
     .line 123
@@ -1847,14 +1699,12 @@ return-void
 
     .line 126
     .line 127
-    invoke-static {v10, v4, p1, v2, v0}, Ld1/i;
-    ->X(II[I[II)V
+    invoke-static {v10, v4, p1, v2, v0}, Ld1/i;->X(II[I[II)V
 
     .line 128
     .line 129
     .line 130
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getArray$collection()[Ljava/lang/Object;
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getArray$collection()[Ljava/lang/Object;
 
     .line 131
     .line 132
@@ -1862,8 +1712,7 @@ return-void
     move-result-object p1
 
     .line 134
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getArray$collection()[Ljava/lang/Object;
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getArray$collection()[Ljava/lang/Object;
 
     .line 135
     .line 136
@@ -1871,15 +1720,13 @@ return-void
     move-result-object v2
 
     .line 138
-    invoke-static {v10, v4, v0, p1, v2}, Ld1/i;
-    ->W(III[Ljava/lang/Object;[Ljava/lang/Object;)V
+    invoke-static {v10, v4, v0, p1, v2}, Ld1/i;->W(III[Ljava/lang/Object;[Ljava/lang/Object;)V
 
     .line 139
     .line 140
     .line 141
     :cond_4
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getArray$collection()[Ljava/lang/Object;
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getArray$collection()[Ljava/lang/Object;
 
     .line 142
     .line 143
@@ -1896,8 +1743,7 @@ return-void
     .line 148
     :cond_5
     :goto_1
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     .line 149
     .line 150
@@ -1909,8 +1755,7 @@ return-void
 
     .line 153
     .line 154
-    invoke-virtual {p0, v3}, Landroidx/collection/ArraySet;
-    ->set_size$collection(I)V
+    invoke-virtual {p0, v3}, Landroidx/collection/ArraySet;->set_size$collection(I)V
     return-object v1
 
     .line 158
@@ -1919,8 +1764,7 @@ return-void
 
     .line 159
     .line 160
-    invoke-direct {p1}, Ljava/util/ConcurrentModificationException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/util/ConcurrentModificationException;-><init>()V
 
     .line 161
     .line 162
@@ -1944,14 +1788,12 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     .line 7
     .line 8
@@ -1983,8 +1825,7 @@ return-void
 
     .line 18
     .line 19
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getArray$collection()[Ljava/lang/Object;
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getArray$collection()[Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -1996,8 +1837,7 @@ return-void
 
     .line 24
     .line 25
-    invoke-static {v3, v4}, Ld1/k;
-    ->o0(Ljava/lang/Iterable;Ljava/lang/Object;)Z
+    invoke-static {v3, v4}, Ld1/k;->o0(Ljava/lang/Iterable;Ljava/lang/Object;)Z
 
     .line 26
     .line 27
@@ -2009,8 +1849,7 @@ return-void
 
     .line 30
     .line 31
-    invoke-virtual {p0, v0}, Landroidx/collection/ArraySet;
-    ->removeAt(I)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroidx/collection/ArraySet;->removeAt(I)Ljava/lang/Object;
 
     .line 32
     .line 33
@@ -2038,14 +1877,12 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/collection/ArraySet;
-    ->array:[Ljava/lang/Object;    
+    iput-object p1, p0, Landroidx/collection/ArraySet;->array:[Ljava/lang/Object;
     return-void
 .end method
 
@@ -2057,14 +1894,12 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/collection/ArraySet;
-    ->hashes:[I    
+    iput-object p1, p0, Landroidx/collection/ArraySet;->hashes:[I
     return-void
 .end method
 
@@ -2072,8 +1907,7 @@ return-void
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/collection/ArraySet;
-    ->_size:I    
+    iput p1, p0, Landroidx/collection/ArraySet;->_size:I
     return-void
 .end method
 
@@ -2081,8 +1915,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getSize()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getSize()I
 
     .line 2
     .line 3
@@ -2096,36 +1929,30 @@ return-void
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/ArraySet;
-    ->array:[Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/collection/ArraySet;->array:[Ljava/lang/Object;
 
-    iget v1, p0, Landroidx/collection/ArraySet;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/ArraySet;->_size:I
 
     .line 2
     const-string v2, "<this>"
 
-    invoke-static {v0, v2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
     array-length v2, v0
 
-    invoke-static {v1, v2}, La/a;
-    ->m(II)V
+    invoke-static {v1, v2}, La/a;->m(II)V
 
     const/4 v2, 0x0
 
     .line 4
-    invoke-static {v0, v2, v1}, Ljava/util/Arrays;
-    ->copyOfRange([Ljava/lang/Object;II)[Ljava/lang/Object;
+    invoke-static {v0, v2, v1}, Ljava/util/Arrays;->copyOfRange([Ljava/lang/Object;II)[Ljava/lang/Object;
 
     move-result-object v0
 
     const-string v1, "copyOfRange(...)"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 return-object v0
 .end method
 
@@ -2141,29 +1968,23 @@ return-object v0
 
     const-string v0, "array"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
-    iget v0, p0, Landroidx/collection/ArraySet;
-    ->_size:I
+    iget v0, p0, Landroidx/collection/ArraySet;->_size:I
 
-    invoke-static {p1, v0}, Landroidx/collection/ArraySetJvmUtil;
-    ->resizeForToArray([Ljava/lang/Object;I)[Ljava/lang/Object;
+    invoke-static {p1, v0}, Landroidx/collection/ArraySetJvmUtil;->resizeForToArray([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     move-result-object p1
 
     .line 6
-    iget-object v0, p0, Landroidx/collection/ArraySet;
-    ->array:[Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/collection/ArraySet;->array:[Ljava/lang/Object;
 
     const/4 v1, 0x0
 
-    iget v2, p0, Landroidx/collection/ArraySet;
-    ->_size:I
+    iget v2, p0, Landroidx/collection/ArraySet;->_size:I
 
-    invoke-static {v1, v1, v2, v0, p1}, Ld1/i;
-    ->W(III[Ljava/lang/Object;[Ljava/lang/Object;)V
+    invoke-static {v1, v1, v2, v0, p1}, Ld1/i;->W(III[Ljava/lang/Object;[Ljava/lang/Object;)V
 return-object p1
 .end method
 
@@ -2171,8 +1992,7 @@ return-object p1
     .locals 4
 
     .line 1
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->isEmpty()Z
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->isEmpty()Z
 
     .line 2
     .line 3
@@ -2188,8 +2008,7 @@ return-object p1
 
     .line 10
     :cond_0
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     .line 11
     .line 12
@@ -2205,8 +2024,7 @@ return-object p1
 
     .line 17
     .line 18
-    invoke-direct {v1, v0}, Ljava/lang/StringBuilder;
-    -><init>(I)V
+    invoke-direct {v1, v0}, Ljava/lang/StringBuilder;-><init>(I)V
 
     .line 19
     .line 20
@@ -2215,14 +2033,12 @@ return-object p1
 
     .line 22
     .line 23
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;
-    ->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->get_size$collection()I
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->get_size$collection()I
 
     .line 27
     .line 28
@@ -2246,15 +2062,13 @@ return-object p1
 
     .line 36
     .line 37
-    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 38
     .line 39
     .line 40
     :cond_1
-    invoke-virtual {p0, v2}, Landroidx/collection/ArraySet;
-    ->valueAt(I)Ljava/lang/Object;
+    invoke-virtual {p0, v2}, Landroidx/collection/ArraySet;->valueAt(I)Ljava/lang/Object;
 
     .line 41
     .line 42
@@ -2266,8 +2080,7 @@ return-object p1
 
     .line 45
     .line 46
-    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 47
     .line 48
@@ -2280,8 +2093,7 @@ return-object p1
 
     .line 51
     .line 52
-    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 53
     .line 54
@@ -2303,8 +2115,7 @@ return-object p1
 
     .line 61
     .line 62
-    invoke-static {v1, v0, v2}, LA/d;
-    ->h(Ljava/lang/StringBuilder;CLjava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v0, v2}, LA/d;->h(Ljava/lang/StringBuilder;CLjava/lang/String;)Ljava/lang/String;
 
     .line 63
     .line 64
@@ -2323,8 +2134,7 @@ return-object p1
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/collection/ArraySet;
-    ->getArray$collection()[Ljava/lang/Object;
+    invoke-virtual {p0}, Landroidx/collection/ArraySet;->getArray$collection()[Ljava/lang/Object;
 
     .line 2
     .line 3

@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -31,8 +30,7 @@
 
     .line 3
     .line 4
-    invoke-virtual {p0}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 5
     .line 6
@@ -40,8 +38,7 @@
     move-result-object p0
 
     .line 8
-    invoke-virtual {p0}, Ljava/lang/Class;
-    ->getComponentType()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Class;->getComponentType()Ljava/lang/Class;
 
     .line 9
     .line 10
@@ -49,8 +46,7 @@
     move-result-object p0
 
     .line 12
-    invoke-static {p0, p1}, Ljava/lang/reflect/Array;
-    ->newInstance(Ljava/lang/Class;I)Ljava/lang/Object;
+    invoke-static {p0, p1}, Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class;I)Ljava/lang/Object;
 
     .line 13
     .line 14

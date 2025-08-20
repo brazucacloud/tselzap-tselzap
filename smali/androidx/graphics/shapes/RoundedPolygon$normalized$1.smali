@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/graphics/shapes/RoundedPolygon;
-    ->normalized()Landroidx/graphics/shapes/RoundedPolygon;
+    value = Landroidx/graphics/shapes/RoundedPolygon;->normalized()Landroidx/graphics/shapes/RoundedPolygon;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -30,17 +29,13 @@
 .method public constructor <init>(FFF)V
     .locals 0
 
-    iput p1, p0, Landroidx/graphics/shapes/RoundedPolygon$normalized$1;
-    ->$offsetX:F
+    iput p1, p0, Landroidx/graphics/shapes/RoundedPolygon$normalized$1;->$offsetX:F
 
-    iput p2, p0, Landroidx/graphics/shapes/RoundedPolygon$normalized$1;
-    ->$side:F
+    iput p2, p0, Landroidx/graphics/shapes/RoundedPolygon$normalized$1;->$side:F
 
-    iput p3, p0, Landroidx/graphics/shapes/RoundedPolygon$normalized$1;
-    ->$offsetY:F
+    iput p3, p0, Landroidx/graphics/shapes/RoundedPolygon$normalized$1;->$offsetY:F
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -50,24 +45,21 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/graphics/shapes/RoundedPolygon$normalized$1;
-    ->$offsetX:F
+    iget v0, p0, Landroidx/graphics/shapes/RoundedPolygon$normalized$1;->$offsetX:F
 
     .line 2
     .line 3
     add-float/2addr p1, v0
 
     .line 4
-    iget v0, p0, Landroidx/graphics/shapes/RoundedPolygon$normalized$1;
-    ->$side:F
+    iget v0, p0, Landroidx/graphics/shapes/RoundedPolygon$normalized$1;->$side:F
 
     .line 5
     .line 6
     div-float/2addr p1, v0
 
     .line 7
-    iget v1, p0, Landroidx/graphics/shapes/RoundedPolygon$normalized$1;
-    ->$offsetY:F
+    iget v1, p0, Landroidx/graphics/shapes/RoundedPolygon$normalized$1;->$offsetY:F
 
     .line 8
     .line 9
@@ -77,8 +69,7 @@
     div-float/2addr p2, v0
 
     .line 11
-    invoke-static {p1, p2}, Landroidx/collection/FloatFloatPair;
-    ->constructor-impl(FF)J
+    invoke-static {p1, p2}, Landroidx/collection/FloatFloatPair;->constructor-impl(FF)J
 
     .line 12
     .line 13

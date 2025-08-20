@@ -24,8 +24,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -41,8 +40,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -54,8 +52,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/transition/ImageViewUtils$Api29Impl;
-    ->animateTransform(Landroid/widget/ImageView;Landroid/graphics/Matrix;)V    
+    invoke-static {p0, p1}, Landroidx/transition/ImageViewUtils$Api29Impl;->animateTransform(Landroid/widget/ImageView;Landroid/graphics/Matrix;)V
     return-void
 
     .line 11
@@ -64,8 +61,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0}, Landroid/widget/ImageView;
-    ->getDrawable()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0}, Landroid/widget/ImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
     .line 14
     .line 15
@@ -77,8 +73,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getWidth()I
+    invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     .line 20
     .line 21
@@ -86,8 +81,7 @@
     move-result v0
 
     .line 23
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     .line 24
     .line 25
@@ -98,8 +92,7 @@
     sub-int/2addr v0, v1
 
     .line 28
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getPaddingRight()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingRight()I
 
     .line 29
     .line 30
@@ -110,8 +103,7 @@
     sub-int/2addr v0, v1
 
     .line 33
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getHeight()I
+    invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     .line 34
     .line 35
@@ -119,8 +111,7 @@
     move-result v1
 
     .line 37
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
 
     .line 38
     .line 39
@@ -131,8 +122,7 @@
     sub-int/2addr v1, v2
 
     .line 42
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getPaddingBottom()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingBottom()I
 
     .line 43
     .line 44
@@ -146,14 +136,12 @@
     const/4 v2, 0x0
 
     .line 48
-    invoke-virtual {p1, v2, v2, v0, v1}, Landroid/graphics/drawable/Drawable;
-    ->setBounds(IIII)V
+    invoke-virtual {p1, v2, v2, v0, v1}, Landroid/graphics/drawable/Drawable;->setBounds(IIII)V
 
     .line 49
     .line 50
     .line 51
-    invoke-virtual {p0}, Landroid/view/View;
-    ->invalidate()V
+    invoke-virtual {p0}, Landroid/view/View;->invalidate()V
 
     .line 52
     .line 53
@@ -163,8 +151,7 @@
 
     .line 55
     :cond_2
-    invoke-static {p0, p1}, Landroidx/transition/ImageViewUtils;
-    ->hiddenAnimateTransform(Landroid/widget/ImageView;Landroid/graphics/Matrix;)V    
+    invoke-static {p0, p1}, Landroidx/transition/ImageViewUtils;->hiddenAnimateTransform(Landroid/widget/ImageView;Landroid/graphics/Matrix;)V
     return-void
 .end method
 
@@ -177,8 +164,7 @@
     .end annotation
 
     .line 1
-    sget-boolean v0, Landroidx/transition/ImageViewUtils;
-    ->sDrawMatrixFieldFetched:Z
+    sget-boolean v0, Landroidx/transition/ImageViewUtils;->sDrawMatrixFieldFetched:Z
 
     .line 2
     .line 3
@@ -198,8 +184,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {v1, v2}, Ljava/lang/Class;
-    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v1, v2}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 11
     .line 12
@@ -207,13 +192,11 @@
     move-result-object v1
 
     .line 14
-    sput-object v1, Landroidx/transition/ImageViewUtils;
-    ->sDrawMatrixField:Ljava/lang/reflect/Field;
+    sput-object v1, Landroidx/transition/ImageViewUtils;->sDrawMatrixField:Ljava/lang/reflect/Field;
 
     .line 15
     .line 16
-    invoke-virtual {v1, v0}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v1, v0}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
     :try_end_0
     .catch Ljava/lang/NoSuchFieldException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -221,8 +204,7 @@
     .line 18
     .line 19
     :catch_0
-    sput-boolean v0, Landroidx/transition/ImageViewUtils;
-    ->sDrawMatrixFieldFetched:Z
+    sput-boolean v0, Landroidx/transition/ImageViewUtils;->sDrawMatrixFieldFetched:Z
 
     .line 20
     .line 21
@@ -251,8 +233,7 @@
     .end annotation
 
     .line 1
-    sget-boolean v0, Landroidx/transition/ImageViewUtils;
-    ->sTryHiddenAnimateTransform:Z
+    sget-boolean v0, Landroidx/transition/ImageViewUtils;->sTryHiddenAnimateTransform:Z
 
     .line 2
     .line 3
@@ -261,8 +242,7 @@
     .line 4
     .line 5
     :try_start_0
-    invoke-static {p0, p1}, Landroidx/transition/ImageViewUtils$Api29Impl;
-    ->animateTransform(Landroid/widget/ImageView;Landroid/graphics/Matrix;)V
+    invoke-static {p0, p1}, Landroidx/transition/ImageViewUtils$Api29Impl;->animateTransform(Landroid/widget/ImageView;Landroid/graphics/Matrix;)V
     :try_end_0
     .catch Ljava/lang/NoSuchMethodError; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
@@ -271,8 +251,7 @@
     const/4 p0, 0x0
 
     .line 10
-    sput-boolean p0, Landroidx/transition/ImageViewUtils;
-    ->sTryHiddenAnimateTransform:Z
+    sput-boolean p0, Landroidx/transition/ImageViewUtils;->sTryHiddenAnimateTransform:Z
 
     .line 11
     .line 12

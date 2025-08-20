@@ -9,8 +9,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/util/LongSparseArrayKt;
-    ->valueIterator(Landroid/util/LongSparseArray;)Ljava/util/Iterator;
+    value = Landroidx/core/util/LongSparseArrayKt;->valueIterator(Landroid/util/LongSparseArray;)Ljava/util/Iterator;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -53,13 +52,11 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/core/util/LongSparseArrayKt$valueIterator$1;
-    ->$this_valueIterator:Landroid/util/LongSparseArray;
+    iput-object p1, p0, Landroidx/core/util/LongSparseArrayKt$valueIterator$1;->$this_valueIterator:Landroid/util/LongSparseArray;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
@@ -73,8 +70,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/core/util/LongSparseArrayKt$valueIterator$1;
-    ->index:I
+    iget v0, p0, Landroidx/core/util/LongSparseArrayKt$valueIterator$1;->index:I
 
     .line 2
     .line 3
@@ -85,18 +81,15 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/core/util/LongSparseArrayKt$valueIterator$1;
-    ->index:I
+    iget v0, p0, Landroidx/core/util/LongSparseArrayKt$valueIterator$1;->index:I
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/core/util/LongSparseArrayKt$valueIterator$1;
-    ->$this_valueIterator:Landroid/util/LongSparseArray;
+    iget-object v1, p0, Landroidx/core/util/LongSparseArrayKt$valueIterator$1;->$this_valueIterator:Landroid/util/LongSparseArray;
 
     .line 4
     .line 5
-    invoke-virtual {v1}, Landroid/util/LongSparseArray;
-    ->size()I
+    invoke-virtual {v1}, Landroid/util/LongSparseArray;->size()I
 
     .line 6
     .line 7
@@ -128,13 +121,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/util/LongSparseArrayKt$valueIterator$1;
-    ->$this_valueIterator:Landroid/util/LongSparseArray;
+    iget-object v0, p0, Landroidx/core/util/LongSparseArrayKt$valueIterator$1;->$this_valueIterator:Landroid/util/LongSparseArray;
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/core/util/LongSparseArrayKt$valueIterator$1;
-    ->index:I
+    iget v1, p0, Landroidx/core/util/LongSparseArrayKt$valueIterator$1;->index:I
 
     .line 4
     .line 5
@@ -142,13 +133,11 @@
 
     .line 6
     .line 7
-    iput v2, p0, Landroidx/core/util/LongSparseArrayKt$valueIterator$1;
-    ->index:I
+    iput v2, p0, Landroidx/core/util/LongSparseArrayKt$valueIterator$1;->index:I
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Landroid/util/LongSparseArray;
-    ->valueAt(I)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Landroid/util/LongSparseArray;->valueAt(I)Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -165,8 +154,7 @@
 
     const-string v1, "Operation is not supported for read-only collection"
 
-    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
 
     throw v0
 .end method
@@ -175,8 +163,7 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/core/util/LongSparseArrayKt$valueIterator$1;
-    ->index:I
+    iput p1, p0, Landroidx/core/util/LongSparseArrayKt$valueIterator$1;->index:I
 
     .line 2
     .line 3

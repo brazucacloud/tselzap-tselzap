@@ -31,14 +31,12 @@
     const/4 v1, 0x4
 
     .line 4
-    invoke-direct {v0, v1}, Ld0/f;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Ld0/f;-><init>(I)V
 
     .line 5
     .line 6
     .line 7
-    sput-object v0, Lq0/g;
-    ->CREATOR:Landroid/os/Parcelable$Creator;
+    sput-object v0, Lq0/g;->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 8
     .line 9
@@ -49,14 +47,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/customview/view/AbsSavedState;
-    -><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
+    invoke-direct {p0, p1, p2}, Landroidx/customview/view/AbsSavedState;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;
-    ->readBundle(Ljava/lang/ClassLoader;)Landroid/os/Bundle;
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->readBundle(Ljava/lang/ClassLoader;)Landroid/os/Bundle;
 
     .line 5
     .line 6
@@ -64,8 +60,7 @@
     move-result-object p1
 
     .line 8
-    iput-object p1, p0, Lq0/g;
-    ->b:Landroid/os/Bundle;
+    iput-object p1, p0, Lq0/g;->b:Landroid/os/Bundle;
 
     .line 9
     .line 10
@@ -78,19 +73,16 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/customview/view/AbsSavedState;
-    ->writeToParcel(Landroid/os/Parcel;I)V
+    invoke-super {p0, p1, p2}, Landroidx/customview/view/AbsSavedState;->writeToParcel(Landroid/os/Parcel;I)V
 
     .line 2
     .line 3
     .line 4
-    iget-object p2, p0, Lq0/g;
-    ->b:Landroid/os/Bundle;
+    iget-object p2, p0, Lq0/g;->b:Landroid/os/Bundle;
 
     .line 5
     .line 6
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;
-    ->writeBundle(Landroid/os/Bundle;)V
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeBundle(Landroid/os/Bundle;)V
 
     .line 7
     .line 8

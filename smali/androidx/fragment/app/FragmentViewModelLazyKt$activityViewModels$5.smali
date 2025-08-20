@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/fragment/app/FragmentViewModelLazyKt;
-    ->activityViewModels(Landroidx/fragment/app/Fragment;Lp1/a;Lp1/a;)Lc1/d;
+    value = Landroidx/fragment/app/FragmentViewModelLazyKt;->activityViewModels(Landroidx/fragment/app/Fragment;Lp1/a;Lp1/a;)Lc1/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -50,21 +49,18 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$5;
-    ->$extrasProducer:Lp1/a;
+    iput-object p1, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$5;->$extrasProducer:Lp1/a;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$5;
-    ->$this_activityViewModels:Landroidx/fragment/app/Fragment;
+    iput-object p2, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$5;->$this_activityViewModels:Landroidx/fragment/app/Fragment;
 
     .line 4
     .line 5
     const/4 p1, 0x0
 
     .line 6
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
-    -><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
 return-void
 .end method
 
@@ -74,13 +70,11 @@ return-void
     .locals 2
 
     .line 2
-    iget-object v0, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$5;
-    ->$extrasProducer:Lp1/a;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$5;->$extrasProducer:Lp1/a;
 
     if-eqz v0, :cond_1
 
-    invoke-interface {v0}, Lp1/a;
-    ->invoke()Ljava/lang/Object;
+    invoke-interface {v0}, Lp1/a;->invoke()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -95,23 +89,19 @@ return-void
 
     :cond_1
     :goto_0
-    iget-object v0, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$5;
-    ->$this_activityViewModels:Landroidx/fragment/app/Fragment;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$5;->$this_activityViewModels:Landroidx/fragment/app/Fragment;
 
-    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;
-    ->requireActivity()Landroidx/fragment/app/FragmentActivity;
+    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->requireActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Landroidx/activity/ComponentActivity;
-    ->getDefaultViewModelCreationExtras()Landroidx/lifecycle/viewmodel/CreationExtras;
+    invoke-virtual {v0}, Landroidx/activity/ComponentActivity;->getDefaultViewModelCreationExtras()Landroidx/lifecycle/viewmodel/CreationExtras;
 
     move-result-object v0
 
     const-string v1, "requireActivity().defaultViewModelCreationExtras"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 return-object v0
 .end method
 
@@ -119,8 +109,7 @@ return-object v0
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$5;
-    ->invoke()Landroidx/lifecycle/viewmodel/CreationExtras;
+    invoke-virtual {p0}, Landroidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$5;->invoke()Landroidx/lifecycle/viewmodel/CreationExtras;
 
     move-result-object v0
 

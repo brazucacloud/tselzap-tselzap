@@ -31,24 +31,20 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Lcom/google/android/gms/internal/measurement/zzhn;
-    ->zzd:Z
+    iput-boolean v0, p0, Lcom/google/android/gms/internal/measurement/zzhn;->zzd:Z
 
     const/4 v0, 0x0
 
     .line 3
-    iput-object v0, p0, Lcom/google/android/gms/internal/measurement/zzhn;
-    ->zzb:Landroid/content/Context;
+    iput-object v0, p0, Lcom/google/android/gms/internal/measurement/zzhn;->zzb:Landroid/content/Context;
 
     .line 4
-    iput-object v0, p0, Lcom/google/android/gms/internal/measurement/zzhn;
-    ->zzc:Landroid/database/ContentObserver;
+    iput-object v0, p0, Lcom/google/android/gms/internal/measurement/zzhn;->zzc:Landroid/database/ContentObserver;
 
     return-void
 .end method
@@ -57,29 +53,24 @@
     .locals 1
 
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
 
     .line 6
-    iput-boolean v0, p0, Lcom/google/android/gms/internal/measurement/zzhn;
-    ->zzd:Z
+    iput-boolean v0, p0, Lcom/google/android/gms/internal/measurement/zzhn;->zzd:Z
 
     .line 7
-    iput-object p1, p0, Lcom/google/android/gms/internal/measurement/zzhn;
-    ->zzb:Landroid/content/Context;
+    iput-object p1, p0, Lcom/google/android/gms/internal/measurement/zzhn;->zzb:Landroid/content/Context;
 
     .line 8
     new-instance p1, Lcom/google/android/gms/internal/measurement/zzhp;
 
     const/4 v0, 0x0
 
-    invoke-direct {p1, p0, v0}, Lcom/google/android/gms/internal/measurement/zzhp;
-    -><init>(Lcom/google/android/gms/internal/measurement/zzhn;Landroid/os/Handler;)V
+    invoke-direct {p1, p0, v0}, Lcom/google/android/gms/internal/measurement/zzhp;-><init>(Lcom/google/android/gms/internal/measurement/zzhn;Landroid/os/Handler;)V
 
-    iput-object p1, p0, Lcom/google/android/gms/internal/measurement/zzhn;
-    ->zzc:Landroid/database/ContentObserver;
+    iput-object p1, p0, Lcom/google/android/gms/internal/measurement/zzhn;->zzc:Landroid/database/ContentObserver;
 
     return-void
 .end method
@@ -94,8 +85,7 @@
 
     .line 2
     :try_start_0
-    sget-object v1, Lcom/google/android/gms/internal/measurement/zzhn;
-    ->zza:Lcom/google/android/gms/internal/measurement/zzhn;
+    sget-object v1, Lcom/google/android/gms/internal/measurement/zzhn;->zza:Lcom/google/android/gms/internal/measurement/zzhn;
 
     if-nez v1, :cond_1
 
@@ -103,8 +93,7 @@
     const-string v1, "com.google.android.providers.gsf.permission.READ_GSERVICES"
 
     .line 4
-    invoke-static {p0, v1}, Landroidx/core/content/PermissionChecker;
-    ->checkSelfPermission(Landroid/content/Context;Ljava/lang/String;)I
+    invoke-static {p0, v1}, Landroidx/core/content/PermissionChecker;->checkSelfPermission(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result v1
 
@@ -113,8 +102,7 @@
     .line 5
     new-instance v1, Lcom/google/android/gms/internal/measurement/zzhn;
 
-    invoke-direct {v1, p0}, Lcom/google/android/gms/internal/measurement/zzhn;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {v1, p0}, Lcom/google/android/gms/internal/measurement/zzhn;-><init>(Landroid/content/Context;)V
 
     goto :goto_0
 
@@ -126,27 +114,22 @@
     :cond_0
     new-instance v1, Lcom/google/android/gms/internal/measurement/zzhn;
 
-    invoke-direct {v1}, Lcom/google/android/gms/internal/measurement/zzhn;
-    -><init>()V
+    invoke-direct {v1}, Lcom/google/android/gms/internal/measurement/zzhn;-><init>()V
 
     :goto_0
-    sput-object v1, Lcom/google/android/gms/internal/measurement/zzhn;
-    ->zza:Lcom/google/android/gms/internal/measurement/zzhn;
+    sput-object v1, Lcom/google/android/gms/internal/measurement/zzhn;->zza:Lcom/google/android/gms/internal/measurement/zzhn;
 
     .line 6
     :cond_1
-    sget-object v1, Lcom/google/android/gms/internal/measurement/zzhn;
-    ->zza:Lcom/google/android/gms/internal/measurement/zzhn;
+    sget-object v1, Lcom/google/android/gms/internal/measurement/zzhn;->zza:Lcom/google/android/gms/internal/measurement/zzhn;
 
     if-eqz v1, :cond_2
 
-    iget-object v2, v1, Lcom/google/android/gms/internal/measurement/zzhn;
-    ->zzc:Landroid/database/ContentObserver;
+    iget-object v2, v1, Lcom/google/android/gms/internal/measurement/zzhn;->zzc:Landroid/database/ContentObserver;
 
     if-eqz v2, :cond_2
 
-    iget-boolean v1, v1, Lcom/google/android/gms/internal/measurement/zzhn;
-    ->zzd:Z
+    iget-boolean v1, v1, Lcom/google/android/gms/internal/measurement/zzhn;->zzd:Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -154,37 +137,29 @@
 
     .line 7
     :try_start_1
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object p0
 
-    sget-object v1, Lcom/google/android/gms/internal/measurement/zzgt;
-    ->zza:Landroid/net/Uri;
+    sget-object v1, Lcom/google/android/gms/internal/measurement/zzgt;->zza:Landroid/net/Uri;
 
-    sget-object v2, Lcom/google/android/gms/internal/measurement/zzhn;
-    ->zza:Lcom/google/android/gms/internal/measurement/zzhn;
+    sget-object v2, Lcom/google/android/gms/internal/measurement/zzhn;->zza:Lcom/google/android/gms/internal/measurement/zzhn;
 
-    iget-object v2, v2, Lcom/google/android/gms/internal/measurement/zzhn;
-    ->zzc:Landroid/database/ContentObserver;
+    iget-object v2, v2, Lcom/google/android/gms/internal/measurement/zzhn;->zzc:Landroid/database/ContentObserver;
 
     const/4 v3, 0x1
 
     .line 8
-    invoke-virtual {p0, v1, v3, v2}, Landroid/content/ContentResolver;
-    ->registerContentObserver(Landroid/net/Uri;ZLandroid/database/ContentObserver;)V
+    invoke-virtual {p0, v1, v3, v2}, Landroid/content/ContentResolver;->registerContentObserver(Landroid/net/Uri;ZLandroid/database/ContentObserver;)V
 
     .line 9
-    sget-object p0, Lcom/google/android/gms/internal/measurement/zzhn;
-    ->zza:Lcom/google/android/gms/internal/measurement/zzhn;
+    sget-object p0, Lcom/google/android/gms/internal/measurement/zzhn;->zza:Lcom/google/android/gms/internal/measurement/zzhn;
 
     .line 10
-    invoke-virtual {p0}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 11
-    iput-boolean v3, p0, Lcom/google/android/gms/internal/measurement/zzhn;
-    ->zzd:Z
+    iput-boolean v3, p0, Lcom/google/android/gms/internal/measurement/zzhn;->zzd:Z
     :try_end_1
     .catch Ljava/lang/SecurityException; {:try_start_1 .. :try_end_1} :catch_0
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -200,18 +175,15 @@
 
     const-string v2, "Unable to register Gservices content observer"
 
-    invoke-static {v1, v2, p0}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v2, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 13
     :cond_2
     :goto_1
-    sget-object p0, Lcom/google/android/gms/internal/measurement/zzhn;
-    ->zza:Lcom/google/android/gms/internal/measurement/zzhn;
+    sget-object p0, Lcom/google/android/gms/internal/measurement/zzhn;->zza:Lcom/google/android/gms/internal/measurement/zzhn;
 
     .line 14
-    invoke-virtual {p0}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 15
     monitor-exit v0
@@ -231,23 +203,19 @@
     .locals 1
 
     .line 18
-    iget-object p0, p0, Lcom/google/android/gms/internal/measurement/zzhn;
-    ->zzb:Landroid/content/Context;
+    iget-object p0, p0, Lcom/google/android/gms/internal/measurement/zzhn;->zzb:Landroid/content/Context;
 
     .line 19
-    invoke-virtual {p0}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 20
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object p0
 
     const/4 v0, 0x0
 
-    invoke-static {p0, p1, v0}, Lcom/google/android/gms/internal/measurement/zzgu;
-    ->zza(Landroid/content/ContentResolver;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p1, v0}, Lcom/google/android/gms/internal/measurement/zzgu;->zza(Landroid/content/ContentResolver;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -263,40 +231,32 @@
 
     .line 21
     :try_start_0
-    sget-object v1, Lcom/google/android/gms/internal/measurement/zzhn;
-    ->zza:Lcom/google/android/gms/internal/measurement/zzhn;
+    sget-object v1, Lcom/google/android/gms/internal/measurement/zzhn;->zza:Lcom/google/android/gms/internal/measurement/zzhn;
 
     if-eqz v1, :cond_0
 
-    iget-object v2, v1, Lcom/google/android/gms/internal/measurement/zzhn;
-    ->zzb:Landroid/content/Context;
+    iget-object v2, v1, Lcom/google/android/gms/internal/measurement/zzhn;->zzb:Landroid/content/Context;
 
     if-eqz v2, :cond_0
 
-    iget-object v3, v1, Lcom/google/android/gms/internal/measurement/zzhn;
-    ->zzc:Landroid/database/ContentObserver;
+    iget-object v3, v1, Lcom/google/android/gms/internal/measurement/zzhn;->zzc:Landroid/database/ContentObserver;
 
     if-eqz v3, :cond_0
 
-    iget-boolean v1, v1, Lcom/google/android/gms/internal/measurement/zzhn;
-    ->zzd:Z
+    iget-boolean v1, v1, Lcom/google/android/gms/internal/measurement/zzhn;->zzd:Z
 
     if-eqz v1, :cond_0
 
     .line 22
-    invoke-virtual {v2}, Landroid/content/Context;
-    ->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {v2}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     move-result-object v1
 
-    sget-object v2, Lcom/google/android/gms/internal/measurement/zzhn;
-    ->zza:Lcom/google/android/gms/internal/measurement/zzhn;
+    sget-object v2, Lcom/google/android/gms/internal/measurement/zzhn;->zza:Lcom/google/android/gms/internal/measurement/zzhn;
 
-    iget-object v2, v2, Lcom/google/android/gms/internal/measurement/zzhn;
-    ->zzc:Landroid/database/ContentObserver;
+    iget-object v2, v2, Lcom/google/android/gms/internal/measurement/zzhn;->zzc:Landroid/database/ContentObserver;
 
-    invoke-virtual {v1, v2}, Landroid/content/ContentResolver;
-    ->unregisterContentObserver(Landroid/database/ContentObserver;)V
+    invoke-virtual {v1, v2}, Landroid/content/ContentResolver;->unregisterContentObserver(Landroid/database/ContentObserver;)V
 
     goto :goto_0
 
@@ -310,8 +270,7 @@
     const/4 v1, 0x0
 
     .line 23
-    sput-object v1, Lcom/google/android/gms/internal/measurement/zzhn;
-    ->zza:Lcom/google/android/gms/internal/measurement/zzhn;
+    sput-object v1, Lcom/google/android/gms/internal/measurement/zzhn;->zza:Lcom/google/android/gms/internal/measurement/zzhn;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -333,8 +292,7 @@
     .locals 4
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzhn;
-    ->zzb:Landroid/content/Context;
+    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzhn;->zzb:Landroid/content/Context;
 
     .line 2
     .line 3
@@ -345,8 +303,7 @@
 
     .line 5
     .line 6
-    invoke-static {v0}, Lcom/google/android/gms/internal/measurement/zzhd;
-    ->zza(Landroid/content/Context;)Z
+    invoke-static {v0}, Lcom/google/android/gms/internal/measurement/zzhd;->zza(Landroid/content/Context;)Z
 
     .line 7
     .line 8
@@ -367,14 +324,12 @@
 
     .line 14
     .line 15
-    invoke-direct {v0, p0, p1}, Lcom/google/android/gms/internal/measurement/zzhq;
-    -><init>(Lcom/google/android/gms/internal/measurement/zzhn;Ljava/lang/String;)V
+    invoke-direct {v0, p0, p1}, Lcom/google/android/gms/internal/measurement/zzhq;-><init>(Lcom/google/android/gms/internal/measurement/zzhn;Ljava/lang/String;)V
 
     .line 16
     .line 17
     .line 18
-    invoke-static {v0}, Lcom/google/android/gms/internal/measurement/zzhl;
-    ->zza(Lcom/google/android/gms/internal/measurement/zzho;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/google/android/gms/internal/measurement/zzhl;->zza(Lcom/google/android/gms/internal/measurement/zzho;)Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -420,20 +375,17 @@
 
     .line 33
     .line 34
-    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 35
     .line 36
     .line 37
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 38
     .line 39
     .line 40
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 41
     .line 42
@@ -445,8 +397,7 @@
 
     .line 45
     .line 46
-    invoke-static {v2, p1, v0}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v2, p1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 47
     .line 48
@@ -462,8 +413,7 @@
     .locals 0
 
     .line 17
-    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/zzhn;
-    ->zzb(Ljava/lang/String;)Ljava/lang/String;
+    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/measurement/zzhn;->zzb(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 

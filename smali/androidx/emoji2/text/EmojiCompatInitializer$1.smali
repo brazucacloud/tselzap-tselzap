@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/emoji2/text/EmojiCompatInitializer;
-    ->delayUntilFirstResume(Landroid/content/Context;)V
+    value = Landroidx/emoji2/text/EmojiCompatInitializer;->delayUntilFirstResume(Landroid/content/Context;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -34,18 +33,15 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/emoji2/text/EmojiCompatInitializer$1;
-    ->this$0:Landroidx/emoji2/text/EmojiCompatInitializer;
+    iput-object p1, p0, Landroidx/emoji2/text/EmojiCompatInitializer$1;->this$0:Landroidx/emoji2/text/EmojiCompatInitializer;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/emoji2/text/EmojiCompatInitializer$1;
-    ->val$lifecycle:Landroidx/lifecycle/Lifecycle;
+    iput-object p2, p0, Landroidx/emoji2/text/EmojiCompatInitializer$1;->val$lifecycle:Landroidx/lifecycle/Lifecycle;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 6
     .line 7
@@ -59,8 +55,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/lifecycle/b;
-    ->a(Landroidx/lifecycle/DefaultLifecycleObserver;Landroidx/lifecycle/LifecycleOwner;)V
+    invoke-static {p0, p1}, Landroidx/lifecycle/b;->a(Landroidx/lifecycle/DefaultLifecycleObserver;Landroidx/lifecycle/LifecycleOwner;)V
 return-void
 .end method
 
@@ -68,8 +63,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/lifecycle/b;
-    ->b(Landroidx/lifecycle/DefaultLifecycleObserver;Landroidx/lifecycle/LifecycleOwner;)V
+    invoke-static {p0, p1}, Landroidx/lifecycle/b;->b(Landroidx/lifecycle/DefaultLifecycleObserver;Landroidx/lifecycle/LifecycleOwner;)V
 return-void
 .end method
 
@@ -77,8 +71,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/lifecycle/b;
-    ->c(Landroidx/lifecycle/DefaultLifecycleObserver;Landroidx/lifecycle/LifecycleOwner;)V
+    invoke-static {p0, p1}, Landroidx/lifecycle/b;->c(Landroidx/lifecycle/DefaultLifecycleObserver;Landroidx/lifecycle/LifecycleOwner;)V
 return-void
 .end method
 
@@ -90,24 +83,20 @@ return-void
     .end param
 
     .line 1
-    iget-object p1, p0, Landroidx/emoji2/text/EmojiCompatInitializer$1;
-    ->this$0:Landroidx/emoji2/text/EmojiCompatInitializer;
+    iget-object p1, p0, Landroidx/emoji2/text/EmojiCompatInitializer$1;->this$0:Landroidx/emoji2/text/EmojiCompatInitializer;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroidx/emoji2/text/EmojiCompatInitializer;
-    ->loadEmojiCompatAfterDelay()V
+    invoke-virtual {p1}, Landroidx/emoji2/text/EmojiCompatInitializer;->loadEmojiCompatAfterDelay()V
 
     .line 4
     .line 5
     .line 6
-    iget-object p1, p0, Landroidx/emoji2/text/EmojiCompatInitializer$1;
-    ->val$lifecycle:Landroidx/lifecycle/Lifecycle;
+    iget-object p1, p0, Landroidx/emoji2/text/EmojiCompatInitializer$1;->val$lifecycle:Landroidx/lifecycle/Lifecycle;
 
     .line 7
     .line 8
-    invoke-virtual {p1, p0}, Landroidx/lifecycle/Lifecycle;
-    ->removeObserver(Landroidx/lifecycle/LifecycleObserver;)V
+    invoke-virtual {p1, p0}, Landroidx/lifecycle/Lifecycle;->removeObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
     .line 9
     .line 10
@@ -119,8 +108,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/lifecycle/b;
-    ->e(Landroidx/lifecycle/DefaultLifecycleObserver;Landroidx/lifecycle/LifecycleOwner;)V
+    invoke-static {p0, p1}, Landroidx/lifecycle/b;->e(Landroidx/lifecycle/DefaultLifecycleObserver;Landroidx/lifecycle/LifecycleOwner;)V
 return-void
 .end method
 
@@ -128,8 +116,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/lifecycle/b;
-    ->f(Landroidx/lifecycle/DefaultLifecycleObserver;Landroidx/lifecycle/LifecycleOwner;)V
+    invoke-static {p0, p1}, Landroidx/lifecycle/b;->f(Landroidx/lifecycle/DefaultLifecycleObserver;Landroidx/lifecycle/LifecycleOwner;)V
 return-void
 .end method
 

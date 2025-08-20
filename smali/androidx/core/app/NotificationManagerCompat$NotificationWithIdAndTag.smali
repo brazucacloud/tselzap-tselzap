@@ -33,8 +33,7 @@
     const/4 v0, 0x0
 
     .line 5
-    invoke-direct {p0, v0, p1, p2}, Landroidx/core/app/NotificationManagerCompat$NotificationWithIdAndTag;
-    -><init>(Ljava/lang/String;ILandroid/app/Notification;)V
+    invoke-direct {p0, v0, p1, p2}, Landroidx/core/app/NotificationManagerCompat$NotificationWithIdAndTag;-><init>(Ljava/lang/String;ILandroid/app/Notification;)V
 return-void
 .end method
 
@@ -50,20 +49,16 @@ return-void
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
-    iput-object p1, p0, Landroidx/core/app/NotificationManagerCompat$NotificationWithIdAndTag;
-    ->mTag:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/core/app/NotificationManagerCompat$NotificationWithIdAndTag;->mTag:Ljava/lang/String;
 
     .line 3
-    iput p2, p0, Landroidx/core/app/NotificationManagerCompat$NotificationWithIdAndTag;
-    ->mId:I
+    iput p2, p0, Landroidx/core/app/NotificationManagerCompat$NotificationWithIdAndTag;->mId:I
 
     .line 4
-    iput-object p3, p0, Landroidx/core/app/NotificationManagerCompat$NotificationWithIdAndTag;
-    ->mNotification:Landroid/app/Notification;
+    iput-object p3, p0, Landroidx/core/app/NotificationManagerCompat$NotificationWithIdAndTag;->mNotification:Landroid/app/Notification;
 
     return-void
 .end method

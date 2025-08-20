@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/provider/FontRequestWorker;
-    ->requestFontSync(Landroid/content/Context;Landroidx/core/provider/FontRequest;Landroidx/core/provider/CallbackWithHandler;II)Landroid/graphics/Typeface;
+    value = Landroidx/core/provider/FontRequestWorker;->requestFontSync(Landroid/content/Context;Landroidx/core/provider/FontRequest;Landroidx/core/provider/CallbackWithHandler;II)Landroid/graphics/Typeface;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -47,28 +46,23 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/core/provider/FontRequestWorker$1;
-    ->val$id:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/core/provider/FontRequestWorker$1;->val$id:Ljava/lang/String;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/core/provider/FontRequestWorker$1;
-    ->val$context:Landroid/content/Context;
+    iput-object p2, p0, Landroidx/core/provider/FontRequestWorker$1;->val$context:Landroid/content/Context;
 
     .line 4
     .line 5
-    iput-object p3, p0, Landroidx/core/provider/FontRequestWorker$1;
-    ->val$request:Landroidx/core/provider/FontRequest;
+    iput-object p3, p0, Landroidx/core/provider/FontRequestWorker$1;->val$request:Landroidx/core/provider/FontRequest;
 
     .line 6
     .line 7
-    iput p4, p0, Landroidx/core/provider/FontRequestWorker$1;
-    ->val$style:I
+    iput p4, p0, Landroidx/core/provider/FontRequestWorker$1;->val$style:I
 
     .line 8
     .line 9
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 10
     .line 11
@@ -82,20 +76,15 @@
     .locals 4
 
     .line 2
-    iget-object v0, p0, Landroidx/core/provider/FontRequestWorker$1;
-    ->val$id:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/core/provider/FontRequestWorker$1;->val$id:Ljava/lang/String;
 
-    iget-object v1, p0, Landroidx/core/provider/FontRequestWorker$1;
-    ->val$context:Landroid/content/Context;
+    iget-object v1, p0, Landroidx/core/provider/FontRequestWorker$1;->val$context:Landroid/content/Context;
 
-    iget-object v2, p0, Landroidx/core/provider/FontRequestWorker$1;
-    ->val$request:Landroidx/core/provider/FontRequest;
+    iget-object v2, p0, Landroidx/core/provider/FontRequestWorker$1;->val$request:Landroidx/core/provider/FontRequest;
 
-    iget v3, p0, Landroidx/core/provider/FontRequestWorker$1;
-    ->val$style:I
+    iget v3, p0, Landroidx/core/provider/FontRequestWorker$1;->val$style:I
 
-    invoke-static {v0, v1, v2, v3}, Landroidx/core/provider/FontRequestWorker;
-    ->getFontSync(Ljava/lang/String;Landroid/content/Context;Landroidx/core/provider/FontRequest;I)Landroidx/core/provider/FontRequestWorker$TypefaceResult;
+    invoke-static {v0, v1, v2, v3}, Landroidx/core/provider/FontRequestWorker;->getFontSync(Ljava/lang/String;Landroid/content/Context;Landroidx/core/provider/FontRequest;I)Landroidx/core/provider/FontRequestWorker$TypefaceResult;
 
     move-result-object v0
 
@@ -106,8 +95,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/core/provider/FontRequestWorker$1;
-    ->call()Landroidx/core/provider/FontRequestWorker$TypefaceResult;
+    invoke-virtual {p0}, Landroidx/core/provider/FontRequestWorker$1;->call()Landroidx/core/provider/FontRequestWorker$TypefaceResult;
 
     move-result-object v0
 

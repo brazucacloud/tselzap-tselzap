@@ -57,8 +57,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -67,14 +66,12 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Landroid/graphics/Rect;
-    -><init>()V
+    invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/customview/widget/FocusStrategy$SequentialComparator;
-    ->mTemp1:Landroid/graphics/Rect;
+    iput-object v0, p0, Landroidx/customview/widget/FocusStrategy$SequentialComparator;->mTemp1:Landroid/graphics/Rect;
 
     .line 10
     .line 11
@@ -82,24 +79,20 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Landroid/graphics/Rect;
-    -><init>()V
+    invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
 
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, Landroidx/customview/widget/FocusStrategy$SequentialComparator;
-    ->mTemp2:Landroid/graphics/Rect;
+    iput-object v0, p0, Landroidx/customview/widget/FocusStrategy$SequentialComparator;->mTemp2:Landroid/graphics/Rect;
 
     .line 17
     .line 18
-    iput-boolean p1, p0, Landroidx/customview/widget/FocusStrategy$SequentialComparator;
-    ->mIsLayoutRtl:Z
+    iput-boolean p1, p0, Landroidx/customview/widget/FocusStrategy$SequentialComparator;->mIsLayoutRtl:Z
 
     .line 19
     .line 20
-    iput-object p2, p0, Landroidx/customview/widget/FocusStrategy$SequentialComparator;
-    ->mAdapter:Landroidx/customview/widget/FocusStrategy$BoundsAdapter;    
+    iput-object p2, p0, Landroidx/customview/widget/FocusStrategy$SequentialComparator;->mAdapter:Landroidx/customview/widget/FocusStrategy$BoundsAdapter;
     return-void
 .end method
 
@@ -114,45 +107,37 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/customview/widget/FocusStrategy$SequentialComparator;
-    ->mTemp1:Landroid/graphics/Rect;
+    iget-object v0, p0, Landroidx/customview/widget/FocusStrategy$SequentialComparator;->mTemp1:Landroid/graphics/Rect;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/customview/widget/FocusStrategy$SequentialComparator;
-    ->mTemp2:Landroid/graphics/Rect;
+    iget-object v1, p0, Landroidx/customview/widget/FocusStrategy$SequentialComparator;->mTemp2:Landroid/graphics/Rect;
 
     .line 4
     .line 5
-    iget-object v2, p0, Landroidx/customview/widget/FocusStrategy$SequentialComparator;
-    ->mAdapter:Landroidx/customview/widget/FocusStrategy$BoundsAdapter;
+    iget-object v2, p0, Landroidx/customview/widget/FocusStrategy$SequentialComparator;->mAdapter:Landroidx/customview/widget/FocusStrategy$BoundsAdapter;
 
     .line 6
     .line 7
-    invoke-interface {v2, p1, v0}, Landroidx/customview/widget/FocusStrategy$BoundsAdapter;
-    ->obtainBounds(Ljava/lang/Object;Landroid/graphics/Rect;)V
+    invoke-interface {v2, p1, v0}, Landroidx/customview/widget/FocusStrategy$BoundsAdapter;->obtainBounds(Ljava/lang/Object;Landroid/graphics/Rect;)V
 
     .line 8
     .line 9
     .line 10
-    iget-object p1, p0, Landroidx/customview/widget/FocusStrategy$SequentialComparator;
-    ->mAdapter:Landroidx/customview/widget/FocusStrategy$BoundsAdapter;
+    iget-object p1, p0, Landroidx/customview/widget/FocusStrategy$SequentialComparator;->mAdapter:Landroidx/customview/widget/FocusStrategy$BoundsAdapter;
 
     .line 11
     .line 12
-    invoke-interface {p1, p2, v1}, Landroidx/customview/widget/FocusStrategy$BoundsAdapter;
-    ->obtainBounds(Ljava/lang/Object;Landroid/graphics/Rect;)V
+    invoke-interface {p1, p2, v1}, Landroidx/customview/widget/FocusStrategy$BoundsAdapter;->obtainBounds(Ljava/lang/Object;Landroid/graphics/Rect;)V
 
     .line 13
     .line 14
     .line 15
-    iget p1, v0, Landroid/graphics/Rect;
-    ->top:I
+    iget p1, v0, Landroid/graphics/Rect;->top:I
 
     .line 16
     .line 17
-    iget p2, v1, Landroid/graphics/Rect;
-    ->top:I
+    iget p2, v1, Landroid/graphics/Rect;->top:I
 
     .line 18
     .line 19
@@ -170,13 +155,11 @@
 
     .line 27
     :cond_1
-    iget p1, v0, Landroid/graphics/Rect;
-    ->left:I
+    iget p1, v0, Landroid/graphics/Rect;->left:I
 
     .line 28
     .line 29
-    iget p2, v1, Landroid/graphics/Rect;
-    ->left:I
+    iget p2, v1, Landroid/graphics/Rect;->left:I
 
     .line 30
     .line 31
@@ -184,8 +167,7 @@
 
     .line 32
     .line 33
-    iget-boolean p1, p0, Landroidx/customview/widget/FocusStrategy$SequentialComparator;
-    ->mIsLayoutRtl:Z
+    iget-boolean p1, p0, Landroidx/customview/widget/FocusStrategy$SequentialComparator;->mIsLayoutRtl:Z
 
     .line 34
     .line 35
@@ -201,8 +183,7 @@
 
     .line 40
     .line 41
-    iget-boolean p1, p0, Landroidx/customview/widget/FocusStrategy$SequentialComparator;
-    ->mIsLayoutRtl:Z
+    iget-boolean p1, p0, Landroidx/customview/widget/FocusStrategy$SequentialComparator;->mIsLayoutRtl:Z
 
     .line 42
     .line 43
@@ -214,13 +195,11 @@
 
     .line 47
     :cond_5
-    iget p1, v0, Landroid/graphics/Rect;
-    ->bottom:I
+    iget p1, v0, Landroid/graphics/Rect;->bottom:I
 
     .line 48
     .line 49
-    iget p2, v1, Landroid/graphics/Rect;
-    ->bottom:I
+    iget p2, v1, Landroid/graphics/Rect;->bottom:I
 
     .line 50
     .line 51
@@ -232,13 +211,11 @@
 
     .line 57
     :cond_7
-    iget p1, v0, Landroid/graphics/Rect;
-    ->right:I
+    iget p1, v0, Landroid/graphics/Rect;->right:I
 
     .line 58
     .line 59
-    iget p2, v1, Landroid/graphics/Rect;
-    ->right:I
+    iget p2, v1, Landroid/graphics/Rect;->right:I
 
     .line 60
     .line 61
@@ -246,8 +223,7 @@
 
     .line 62
     .line 63
-    iget-boolean p1, p0, Landroidx/customview/widget/FocusStrategy$SequentialComparator;
-    ->mIsLayoutRtl:Z
+    iget-boolean p1, p0, Landroidx/customview/widget/FocusStrategy$SequentialComparator;->mIsLayoutRtl:Z
 
     .line 64
     .line 65
@@ -263,8 +239,7 @@
 
     .line 70
     .line 71
-    iget-boolean p1, p0, Landroidx/customview/widget/FocusStrategy$SequentialComparator;
-    ->mIsLayoutRtl:Z
+    iget-boolean p1, p0, Landroidx/customview/widget/FocusStrategy$SequentialComparator;->mIsLayoutRtl:Z
 
     .line 72
     .line 73

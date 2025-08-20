@@ -19,8 +19,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -53,8 +52,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Ljava/lang/Class;
-    ->forName(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 4
     .line 5
@@ -73,8 +71,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {v0, v1, v3}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v0, v1, v3}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 13
     .line 14
@@ -89,8 +86,7 @@
     const/4 v2, 0x0
 
     .line 19
-    invoke-virtual {v0, v2, v1}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v2, v1}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -102,8 +98,7 @@
 
     .line 24
     .line 25
-    sget-object v0, Ljava/util/Collections;
-    ->EMPTY_SET:Ljava/util/Set;
+    sget-object v0, Ljava/util/Collections;->EMPTY_SET:Ljava/util/Set;
 
     .line 26
     .line 27
@@ -115,8 +110,7 @@
 
     .line 29
     .line 30
-    invoke-interface {v0}, Ljava/util/Set;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     .line 31
     .line 32
@@ -125,8 +119,7 @@
 
     .line 34
     :cond_1
-    invoke-interface {v1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
     .line 35
     .line 36
@@ -138,8 +131,7 @@
 
     .line 39
     .line 40
-    invoke-interface {v1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 41
     .line 42
@@ -155,8 +147,7 @@
 
     .line 47
     .line 48
-    sget-object v0, Ljava/util/Collections;
-    ->EMPTY_SET:Ljava/util/Set;
+    sget-object v0, Ljava/util/Collections;->EMPTY_SET:Ljava/util/Set;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -167,8 +158,7 @@
 
     .line 51
     :catchall_0
-    sget-object v0, Ljava/util/Collections;
-    ->EMPTY_SET:Ljava/util/Set;
+    sget-object v0, Ljava/util/Collections;->EMPTY_SET:Ljava/util/Set;
 
     .line 52
     .line 53

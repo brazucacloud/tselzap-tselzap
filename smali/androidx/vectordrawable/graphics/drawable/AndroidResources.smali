@@ -190,8 +190,7 @@
     .line 9
     .line 10
     .line 11
-    sput-object v1, Landroidx/vectordrawable/graphics/drawable/AndroidResources;
-    ->STYLEABLE_VECTOR_DRAWABLE_TYPE_ARRAY:[I
+    sput-object v1, Landroidx/vectordrawable/graphics/drawable/AndroidResources;->STYLEABLE_VECTOR_DRAWABLE_TYPE_ARRAY:[I
 
     .line 12
     .line 13
@@ -208,8 +207,7 @@
     .line 18
     .line 19
     .line 20
-    sput-object v2, Landroidx/vectordrawable/graphics/drawable/AndroidResources;
-    ->STYLEABLE_VECTOR_DRAWABLE_GROUP:[I
+    sput-object v2, Landroidx/vectordrawable/graphics/drawable/AndroidResources;->STYLEABLE_VECTOR_DRAWABLE_GROUP:[I
 
     .line 21
     .line 22
@@ -236,8 +234,7 @@
     .line 33
     .line 34
     .line 35
-    sput-object v4, Landroidx/vectordrawable/graphics/drawable/AndroidResources;
-    ->STYLEABLE_VECTOR_DRAWABLE_PATH:[I
+    sput-object v4, Landroidx/vectordrawable/graphics/drawable/AndroidResources;->STYLEABLE_VECTOR_DRAWABLE_PATH:[I
 
     .line 36
     .line 37
@@ -249,8 +246,7 @@
     move-result-object v2
 
     .line 41
-    sput-object v2, Landroidx/vectordrawable/graphics/drawable/AndroidResources;
-    ->STYLEABLE_VECTOR_DRAWABLE_CLIP_PATH:[I
+    sput-object v2, Landroidx/vectordrawable/graphics/drawable/AndroidResources;->STYLEABLE_VECTOR_DRAWABLE_CLIP_PATH:[I
 
     .line 42
     .line 43
@@ -267,8 +263,7 @@
     move-result-object v2
 
     .line 50
-    sput-object v2, Landroidx/vectordrawable/graphics/drawable/AndroidResources;
-    ->STYLEABLE_ANIMATED_VECTOR_DRAWABLE:[I
+    sput-object v2, Landroidx/vectordrawable/graphics/drawable/AndroidResources;->STYLEABLE_ANIMATED_VECTOR_DRAWABLE:[I
 
     .line 51
     .line 52
@@ -285,8 +280,7 @@
     move-result-object v0
 
     .line 59
-    sput-object v0, Landroidx/vectordrawable/graphics/drawable/AndroidResources;
-    ->STYLEABLE_ANIMATED_VECTOR_DRAWABLE_TARGET:[I
+    sput-object v0, Landroidx/vectordrawable/graphics/drawable/AndroidResources;->STYLEABLE_ANIMATED_VECTOR_DRAWABLE_TARGET:[I
 
     .line 60
     .line 61
@@ -319,8 +313,7 @@
     .line 76
     .line 77
     .line 78
-    sput-object v1, Landroidx/vectordrawable/graphics/drawable/AndroidResources;
-    ->STYLEABLE_ANIMATOR:[I
+    sput-object v1, Landroidx/vectordrawable/graphics/drawable/AndroidResources;->STYLEABLE_ANIMATOR:[I
 
     .line 79
     .line 80
@@ -337,8 +330,7 @@
     move-result-object v1
 
     .line 87
-    sput-object v1, Landroidx/vectordrawable/graphics/drawable/AndroidResources;
-    ->STYLEABLE_ANIMATOR_SET:[I
+    sput-object v1, Landroidx/vectordrawable/graphics/drawable/AndroidResources;->STYLEABLE_ANIMATOR_SET:[I
 
     .line 88
     .line 89
@@ -355,8 +347,7 @@
     move-result-object v0
 
     .line 96
-    sput-object v0, Landroidx/vectordrawable/graphics/drawable/AndroidResources;
-    ->STYLEABLE_PROPERTY_VALUES_HOLDER:[I
+    sput-object v0, Landroidx/vectordrawable/graphics/drawable/AndroidResources;->STYLEABLE_PROPERTY_VALUES_HOLDER:[I
 
     .line 97
     .line 98
@@ -378,8 +369,7 @@
     move-result-object v0
 
     .line 108
-    sput-object v0, Landroidx/vectordrawable/graphics/drawable/AndroidResources;
-    ->STYLEABLE_KEYFRAME:[I
+    sput-object v0, Landroidx/vectordrawable/graphics/drawable/AndroidResources;->STYLEABLE_KEYFRAME:[I
 
     .line 109
     .line 110
@@ -401,8 +391,7 @@
     move-result-object v0
 
     .line 120
-    sput-object v0, Landroidx/vectordrawable/graphics/drawable/AndroidResources;
-    ->STYLEABLE_PROPERTY_ANIMATOR:[I
+    sput-object v0, Landroidx/vectordrawable/graphics/drawable/AndroidResources;->STYLEABLE_PROPERTY_ANIMATOR:[I
 
     .line 121
     .line 122
@@ -434,8 +423,7 @@
     move-result-object v0
 
     .line 138
-    sput-object v0, Landroidx/vectordrawable/graphics/drawable/AndroidResources;
-    ->STYLEABLE_PATH_INTERPOLATOR:[I    return-void
+    sput-object v0, Landroidx/vectordrawable/graphics/drawable/AndroidResources;->STYLEABLE_PATH_INTERPOLATOR:[I    return-void
 
     .line 141
     :array_0
@@ -571,8 +559,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 

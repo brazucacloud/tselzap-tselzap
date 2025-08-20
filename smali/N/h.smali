@@ -20,14 +20,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, LN/h;
-    ->b:LN/h;
+    sput-object v0, LN/h;->b:LN/h;
 
     .line 7
     .line 8
@@ -40,8 +38,7 @@
     .locals 2
 
     .line 1
-    sget-object v0, LN/e;
-    ->a:LN/e;
+    sget-object v0, LN/e;->a:LN/e;
 
     .line 2
     .line 3
@@ -49,14 +46,12 @@
 
     .line 4
     .line 5
-    invoke-interface {p1, v1, v0}, Lcom/google/firebase/encoders/config/EncoderConfig;
-    ->registerEncoder(Ljava/lang/Class;Lcom/google/firebase/encoders/ObjectEncoder;)Lcom/google/firebase/encoders/config/EncoderConfig;
+    invoke-interface {p1, v1, v0}, Lcom/google/firebase/encoders/config/EncoderConfig;->registerEncoder(Ljava/lang/Class;Lcom/google/firebase/encoders/ObjectEncoder;)Lcom/google/firebase/encoders/config/EncoderConfig;
 
     .line 6
     .line 7
     .line 8
-    sget-object v0, LN/a;
-    ->a:LN/a;
+    sget-object v0, LN/a;->a:LN/a;
 
     .line 9
     .line 10
@@ -64,14 +59,12 @@
 
     .line 11
     .line 12
-    invoke-interface {p1, v1, v0}, Lcom/google/firebase/encoders/config/EncoderConfig;
-    ->registerEncoder(Ljava/lang/Class;Lcom/google/firebase/encoders/ObjectEncoder;)Lcom/google/firebase/encoders/config/EncoderConfig;
+    invoke-interface {p1, v1, v0}, Lcom/google/firebase/encoders/config/EncoderConfig;->registerEncoder(Ljava/lang/Class;Lcom/google/firebase/encoders/ObjectEncoder;)Lcom/google/firebase/encoders/config/EncoderConfig;
 
     .line 13
     .line 14
     .line 15
-    sget-object v0, LN/g;
-    ->a:LN/g;
+    sget-object v0, LN/g;->a:LN/g;
 
     .line 16
     .line 17
@@ -79,14 +72,12 @@
 
     .line 18
     .line 19
-    invoke-interface {p1, v1, v0}, Lcom/google/firebase/encoders/config/EncoderConfig;
-    ->registerEncoder(Ljava/lang/Class;Lcom/google/firebase/encoders/ObjectEncoder;)Lcom/google/firebase/encoders/config/EncoderConfig;
+    invoke-interface {p1, v1, v0}, Lcom/google/firebase/encoders/config/EncoderConfig;->registerEncoder(Ljava/lang/Class;Lcom/google/firebase/encoders/ObjectEncoder;)Lcom/google/firebase/encoders/config/EncoderConfig;
 
     .line 20
     .line 21
     .line 22
-    sget-object v0, LN/d;
-    ->a:LN/d;
+    sget-object v0, LN/d;->a:LN/d;
 
     .line 23
     .line 24
@@ -94,14 +85,12 @@
 
     .line 25
     .line 26
-    invoke-interface {p1, v1, v0}, Lcom/google/firebase/encoders/config/EncoderConfig;
-    ->registerEncoder(Ljava/lang/Class;Lcom/google/firebase/encoders/ObjectEncoder;)Lcom/google/firebase/encoders/config/EncoderConfig;
+    invoke-interface {p1, v1, v0}, Lcom/google/firebase/encoders/config/EncoderConfig;->registerEncoder(Ljava/lang/Class;Lcom/google/firebase/encoders/ObjectEncoder;)Lcom/google/firebase/encoders/config/EncoderConfig;
 
     .line 27
     .line 28
     .line 29
-    sget-object v0, LN/c;
-    ->a:LN/c;
+    sget-object v0, LN/c;->a:LN/c;
 
     .line 30
     .line 31
@@ -109,14 +98,12 @@
 
     .line 32
     .line 33
-    invoke-interface {p1, v1, v0}, Lcom/google/firebase/encoders/config/EncoderConfig;
-    ->registerEncoder(Ljava/lang/Class;Lcom/google/firebase/encoders/ObjectEncoder;)Lcom/google/firebase/encoders/config/EncoderConfig;
+    invoke-interface {p1, v1, v0}, Lcom/google/firebase/encoders/config/EncoderConfig;->registerEncoder(Ljava/lang/Class;Lcom/google/firebase/encoders/ObjectEncoder;)Lcom/google/firebase/encoders/config/EncoderConfig;
 
     .line 34
     .line 35
     .line 36
-    sget-object v0, LN/b;
-    ->a:LN/b;
+    sget-object v0, LN/b;->a:LN/b;
 
     .line 37
     .line 38
@@ -124,14 +111,12 @@
 
     .line 39
     .line 40
-    invoke-interface {p1, v1, v0}, Lcom/google/firebase/encoders/config/EncoderConfig;
-    ->registerEncoder(Ljava/lang/Class;Lcom/google/firebase/encoders/ObjectEncoder;)Lcom/google/firebase/encoders/config/EncoderConfig;
+    invoke-interface {p1, v1, v0}, Lcom/google/firebase/encoders/config/EncoderConfig;->registerEncoder(Ljava/lang/Class;Lcom/google/firebase/encoders/ObjectEncoder;)Lcom/google/firebase/encoders/config/EncoderConfig;
 
     .line 41
     .line 42
     .line 43
-    sget-object v0, LN/f;
-    ->a:LN/f;
+    sget-object v0, LN/f;->a:LN/f;
 
     .line 44
     .line 45
@@ -139,8 +124,7 @@
 
     .line 46
     .line 47
-    invoke-interface {p1, v1, v0}, Lcom/google/firebase/encoders/config/EncoderConfig;
-    ->registerEncoder(Ljava/lang/Class;Lcom/google/firebase/encoders/ObjectEncoder;)Lcom/google/firebase/encoders/config/EncoderConfig;
+    invoke-interface {p1, v1, v0}, Lcom/google/firebase/encoders/config/EncoderConfig;->registerEncoder(Ljava/lang/Class;Lcom/google/firebase/encoders/ObjectEncoder;)Lcom/google/firebase/encoders/config/EncoderConfig;
 
     .line 48
     .line 49
@@ -156,8 +140,7 @@
 
     .line 2
     .line 3
-    invoke-static {}, Ljava/util/concurrent/Executors;
-    ->newSingleThreadExecutor()Ljava/util/concurrent/ExecutorService;
+    invoke-static {}, Ljava/util/concurrent/Executors;->newSingleThreadExecutor()Ljava/util/concurrent/ExecutorService;
 
     .line 4
     .line 5
@@ -165,8 +148,7 @@
     move-result-object v1
 
     .line 7
-    invoke-direct {v0, v1}, LN/s;
-    -><init>(Ljava/util/concurrent/ExecutorService;)V
+    invoke-direct {v0, v1}, LN/s;-><init>(Ljava/util/concurrent/ExecutorService;)V
 
     .line 8
     .line 9

@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/android/volley/toolbox/DiskBasedCache;
-    -><init>(Ljava/io/File;I)V
+    value = Lcom/android/volley/toolbox/DiskBasedCache;-><init>(Ljava/io/File;I)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -29,18 +28,15 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/android/volley/toolbox/DiskBasedCache$1;
-    ->this$0:Lcom/android/volley/toolbox/DiskBasedCache;
+    iput-object p1, p0, Lcom/android/volley/toolbox/DiskBasedCache$1;->this$0:Lcom/android/volley/toolbox/DiskBasedCache;
 
     .line 2
     .line 3
-    iput-object p2, p0, Lcom/android/volley/toolbox/DiskBasedCache$1;
-    ->val$rootDirectory:Ljava/io/File;
+    iput-object p2, p0, Lcom/android/volley/toolbox/DiskBasedCache$1;->val$rootDirectory:Ljava/io/File;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 6
     .line 7
@@ -54,8 +50,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/android/volley/toolbox/DiskBasedCache$1;
-    ->val$rootDirectory:Ljava/io/File;
+    iget-object v0, p0, Lcom/android/volley/toolbox/DiskBasedCache$1;->val$rootDirectory:Ljava/io/File;
 
     .line 2
     .line 3

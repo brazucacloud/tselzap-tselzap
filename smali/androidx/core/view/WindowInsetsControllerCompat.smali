@@ -49,18 +49,15 @@
     .end param
 
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     new-instance v0, Landroidx/core/view/SoftwareKeyboardControllerCompat;
 
-    invoke-direct {v0, p2}, Landroidx/core/view/SoftwareKeyboardControllerCompat;
-    -><init>(Landroid/view/View;)V
+    invoke-direct {v0, p2}, Landroidx/core/view/SoftwareKeyboardControllerCompat;-><init>(Landroid/view/View;)V
 
     .line 5
-    sget p2, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget p2, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x1e
 
@@ -69,11 +66,9 @@
     .line 6
     new-instance p2, Landroidx/core/view/WindowInsetsControllerCompat$Impl30;
 
-    invoke-direct {p2, p1, p0, v0}, Landroidx/core/view/WindowInsetsControllerCompat$Impl30;
-    -><init>(Landroid/view/Window;Landroidx/core/view/WindowInsetsControllerCompat;Landroidx/core/view/SoftwareKeyboardControllerCompat;)V
+    invoke-direct {p2, p1, p0, v0}, Landroidx/core/view/WindowInsetsControllerCompat$Impl30;-><init>(Landroid/view/Window;Landroidx/core/view/WindowInsetsControllerCompat;Landroidx/core/view/SoftwareKeyboardControllerCompat;)V
 
-    iput-object p2, p0, Landroidx/core/view/WindowInsetsControllerCompat;
-    ->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
+    iput-object p2, p0, Landroidx/core/view/WindowInsetsControllerCompat;->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
 
     return-void
 
@@ -85,11 +80,9 @@
     .line 7
     new-instance p2, Landroidx/core/view/WindowInsetsControllerCompat$Impl26;
 
-    invoke-direct {p2, p1, v0}, Landroidx/core/view/WindowInsetsControllerCompat$Impl26;
-    -><init>(Landroid/view/Window;Landroidx/core/view/SoftwareKeyboardControllerCompat;)V
+    invoke-direct {p2, p1, v0}, Landroidx/core/view/WindowInsetsControllerCompat$Impl26;-><init>(Landroid/view/Window;Landroidx/core/view/SoftwareKeyboardControllerCompat;)V
 
-    iput-object p2, p0, Landroidx/core/view/WindowInsetsControllerCompat;
-    ->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
+    iput-object p2, p0, Landroidx/core/view/WindowInsetsControllerCompat;->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
 
     return-void
 
@@ -101,11 +94,9 @@
     .line 8
     new-instance p2, Landroidx/core/view/WindowInsetsControllerCompat$Impl23;
 
-    invoke-direct {p2, p1, v0}, Landroidx/core/view/WindowInsetsControllerCompat$Impl23;
-    -><init>(Landroid/view/Window;Landroidx/core/view/SoftwareKeyboardControllerCompat;)V
+    invoke-direct {p2, p1, v0}, Landroidx/core/view/WindowInsetsControllerCompat$Impl23;-><init>(Landroid/view/Window;Landroidx/core/view/SoftwareKeyboardControllerCompat;)V
 
-    iput-object p2, p0, Landroidx/core/view/WindowInsetsControllerCompat;
-    ->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
+    iput-object p2, p0, Landroidx/core/view/WindowInsetsControllerCompat;->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
 
     return-void
 
@@ -113,11 +104,9 @@
     :cond_2
     new-instance p2, Landroidx/core/view/WindowInsetsControllerCompat$Impl20;
 
-    invoke-direct {p2, p1, v0}, Landroidx/core/view/WindowInsetsControllerCompat$Impl20;
-    -><init>(Landroid/view/Window;Landroidx/core/view/SoftwareKeyboardControllerCompat;)V
+    invoke-direct {p2, p1, v0}, Landroidx/core/view/WindowInsetsControllerCompat$Impl20;-><init>(Landroid/view/Window;Landroidx/core/view/SoftwareKeyboardControllerCompat;)V
 
-    iput-object p2, p0, Landroidx/core/view/WindowInsetsControllerCompat;
-    ->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
+    iput-object p2, p0, Landroidx/core/view/WindowInsetsControllerCompat;->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
 
     return-void
 .end method
@@ -136,22 +125,18 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     new-instance v0, Landroidx/core/view/WindowInsetsControllerCompat$Impl30;
 
     new-instance v1, Landroidx/core/view/SoftwareKeyboardControllerCompat;
 
-    invoke-direct {v1, p1}, Landroidx/core/view/SoftwareKeyboardControllerCompat;
-    -><init>(Landroid/view/WindowInsetsController;)V
+    invoke-direct {v1, p1}, Landroidx/core/view/SoftwareKeyboardControllerCompat;-><init>(Landroid/view/WindowInsetsController;)V
 
-    invoke-direct {v0, p1, p0, v1}, Landroidx/core/view/WindowInsetsControllerCompat$Impl30;
-    -><init>(Landroid/view/WindowInsetsController;Landroidx/core/view/WindowInsetsControllerCompat;Landroidx/core/view/SoftwareKeyboardControllerCompat;)V
+    invoke-direct {v0, p1, p0, v1}, Landroidx/core/view/WindowInsetsControllerCompat$Impl30;-><init>(Landroid/view/WindowInsetsController;Landroidx/core/view/WindowInsetsControllerCompat;Landroidx/core/view/SoftwareKeyboardControllerCompat;)V
 
-    iput-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat;
-    ->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
+    iput-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat;->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
 
     return-void
 .end method
@@ -177,8 +162,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/core/view/WindowInsetsControllerCompat;
-    -><init>(Landroid/view/WindowInsetsController;)V
+    invoke-direct {v0, p0}, Landroidx/core/view/WindowInsetsControllerCompat;-><init>(Landroid/view/WindowInsetsController;)V
 
     .line 4
     .line 5
@@ -196,13 +180,11 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat;
-    ->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat;->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/core/view/WindowInsetsControllerCompat$Impl;
-    ->addOnControllableInsetsChangedListener(Landroidx/core/view/WindowInsetsControllerCompat$OnControllableInsetsChangedListener;)V
+    invoke-virtual {v0, p1}, Landroidx/core/view/WindowInsetsControllerCompat$Impl;->addOnControllableInsetsChangedListener(Landroidx/core/view/WindowInsetsControllerCompat$OnControllableInsetsChangedListener;)V
 
     .line 4
     .line 5
@@ -226,8 +208,7 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat;
-    ->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat;->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
 
     .line 2
     .line 3
@@ -246,8 +227,7 @@
     move-object v6, p6
 
     .line 8
-    invoke-virtual/range {v0 .. v6}, Landroidx/core/view/WindowInsetsControllerCompat$Impl;
-    ->controlWindowInsetsAnimation(IJLandroid/view/animation/Interpolator;Landroid/os/CancellationSignal;Landroidx/core/view/WindowInsetsAnimationControlListenerCompat;)V
+    invoke-virtual/range {v0 .. v6}, Landroidx/core/view/WindowInsetsControllerCompat$Impl;->controlWindowInsetsAnimation(IJLandroid/view/animation/Interpolator;Landroid/os/CancellationSignal;Landroidx/core/view/WindowInsetsAnimationControlListenerCompat;)V
 
     .line 9
     .line 10
@@ -264,13 +244,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat;
-    ->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat;->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/core/view/WindowInsetsControllerCompat$Impl;
-    ->getSystemBarsBehavior()I
+    invoke-virtual {v0}, Landroidx/core/view/WindowInsetsControllerCompat$Impl;->getSystemBarsBehavior()I
 
     .line 4
     .line 5
@@ -284,13 +262,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat;
-    ->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat;->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/core/view/WindowInsetsControllerCompat$Impl;
-    ->hide(I)V
+    invoke-virtual {v0, p1}, Landroidx/core/view/WindowInsetsControllerCompat$Impl;->hide(I)V
 
     .line 4
     .line 5
@@ -302,13 +278,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat;
-    ->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat;->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/core/view/WindowInsetsControllerCompat$Impl;
-    ->isAppearanceLightNavigationBars()Z
+    invoke-virtual {v0}, Landroidx/core/view/WindowInsetsControllerCompat$Impl;->isAppearanceLightNavigationBars()Z
 
     .line 4
     .line 5
@@ -322,13 +296,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat;
-    ->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat;->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/core/view/WindowInsetsControllerCompat$Impl;
-    ->isAppearanceLightStatusBars()Z
+    invoke-virtual {v0}, Landroidx/core/view/WindowInsetsControllerCompat$Impl;->isAppearanceLightStatusBars()Z
 
     .line 4
     .line 5
@@ -346,13 +318,11 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat;
-    ->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat;->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/core/view/WindowInsetsControllerCompat$Impl;
-    ->removeOnControllableInsetsChangedListener(Landroidx/core/view/WindowInsetsControllerCompat$OnControllableInsetsChangedListener;)V
+    invoke-virtual {v0, p1}, Landroidx/core/view/WindowInsetsControllerCompat$Impl;->removeOnControllableInsetsChangedListener(Landroidx/core/view/WindowInsetsControllerCompat$OnControllableInsetsChangedListener;)V
 
     .line 4
     .line 5
@@ -364,13 +334,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat;
-    ->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat;->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/core/view/WindowInsetsControllerCompat$Impl;
-    ->setAppearanceLightNavigationBars(Z)V
+    invoke-virtual {v0, p1}, Landroidx/core/view/WindowInsetsControllerCompat$Impl;->setAppearanceLightNavigationBars(Z)V
 
     .line 4
     .line 5
@@ -382,13 +350,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat;
-    ->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat;->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/core/view/WindowInsetsControllerCompat$Impl;
-    ->setAppearanceLightStatusBars(Z)V
+    invoke-virtual {v0, p1}, Landroidx/core/view/WindowInsetsControllerCompat$Impl;->setAppearanceLightStatusBars(Z)V
 
     .line 4
     .line 5
@@ -400,13 +366,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat;
-    ->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat;->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/core/view/WindowInsetsControllerCompat$Impl;
-    ->setSystemBarsBehavior(I)V
+    invoke-virtual {v0, p1}, Landroidx/core/view/WindowInsetsControllerCompat$Impl;->setSystemBarsBehavior(I)V
 
     .line 4
     .line 5
@@ -418,13 +382,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat;
-    ->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsControllerCompat;->mImpl:Landroidx/core/view/WindowInsetsControllerCompat$Impl;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/core/view/WindowInsetsControllerCompat$Impl;
-    ->show(I)V
+    invoke-virtual {v0, p1}, Landroidx/core/view/WindowInsetsControllerCompat$Impl;->show(I)V
 
     .line 4
     .line 5

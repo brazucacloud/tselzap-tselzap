@@ -12,8 +12,7 @@
     .end param
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    -><init>(Landroid/view/View;)V    
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;-><init>(Landroid/view/View;)V
     return-void
 .end method
 
@@ -31,8 +30,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 4
     .line 5
@@ -40,8 +38,7 @@
     move-result-object p0
 
     .line 7
-    invoke-direct {v0, p0}, Landroid/widget/FrameLayout;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p0}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
     .line 8
     .line 9
@@ -53,20 +50,17 @@
     const/4 v1, -0x1
 
     .line 13
-    invoke-direct {p0, v1, v1}, Landroid/view/ViewGroup$LayoutParams;
-    -><init>(II)V
+    invoke-direct {p0, v1, v1}, Landroid/view/ViewGroup$LayoutParams;-><init>(II)V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {v0, p0}, Landroid/view/View;
-    ->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v0, p0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 17
     .line 18
     .line 19
-    invoke-static {}, Landroidx/core/view/ViewCompat;
-    ->generateViewId()I
+    invoke-static {}, Landroidx/core/view/ViewCompat;->generateViewId()I
 
     .line 20
     .line 21
@@ -74,8 +68,7 @@
     move-result p0
 
     .line 23
-    invoke-virtual {v0, p0}, Landroid/view/View;
-    ->setId(I)V
+    invoke-virtual {v0, p0}, Landroid/view/View;->setId(I)V
 
     .line 24
     .line 25
@@ -83,8 +76,7 @@
     const/4 p0, 0x0
 
     .line 27
-    invoke-virtual {v0, p0}, Landroid/view/View;
-    ->setSaveEnabled(Z)V
+    invoke-virtual {v0, p0}, Landroid/view/View;->setSaveEnabled(Z)V
 
     .line 28
     .line 29
@@ -93,8 +85,7 @@
 
     .line 31
     .line 32
-    invoke-direct {p0, v0}, Landroidx/viewpager2/adapter/FragmentViewHolder;
-    -><init>(Landroid/widget/FrameLayout;)V    
+    invoke-direct {p0, v0}, Landroidx/viewpager2/adapter/FragmentViewHolder;-><init>(Landroid/widget/FrameLayout;)V
     return-object p0
 .end method
 
@@ -106,8 +97,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->itemView:Landroid/view/View;
+    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     .line 2
     .line 3

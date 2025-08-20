@@ -5,8 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/viewpager2/widget/ViewPager2;
-    ->initialize(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    value = Landroidx/viewpager2/widget/ViewPager2;->initialize(Landroid/content/Context;Landroid/util/AttributeSet;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,13 +23,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/viewpager2/widget/ViewPager2$2;
-    ->this$0:Landroidx/viewpager2/widget/ViewPager2;
+    iput-object p1, p0, Landroidx/viewpager2/widget/ViewPager2$2;->this$0:Landroidx/viewpager2/widget/ViewPager2;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/viewpager2/widget/ViewPager2$OnPageChangeCallback;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/viewpager2/widget/ViewPager2$OnPageChangeCallback;-><init>()V
     return-void
 .end method
 
@@ -44,13 +41,11 @@
 
     .line 2
     .line 3
-    iget-object p1, p0, Landroidx/viewpager2/widget/ViewPager2$2;
-    ->this$0:Landroidx/viewpager2/widget/ViewPager2;
+    iget-object p1, p0, Landroidx/viewpager2/widget/ViewPager2$2;->this$0:Landroidx/viewpager2/widget/ViewPager2;
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Landroidx/viewpager2/widget/ViewPager2;
-    ->updateCurrentItem()V
+    invoke-virtual {p1}, Landroidx/viewpager2/widget/ViewPager2;->updateCurrentItem()V
 
     .line 6
     .line 7
@@ -63,13 +58,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/viewpager2/widget/ViewPager2$2;
-    ->this$0:Landroidx/viewpager2/widget/ViewPager2;
+    iget-object v0, p0, Landroidx/viewpager2/widget/ViewPager2$2;->this$0:Landroidx/viewpager2/widget/ViewPager2;
 
     .line 2
     .line 3
-    iget v1, v0, Landroidx/viewpager2/widget/ViewPager2;
-    ->mCurrentItem:I
+    iget v1, v0, Landroidx/viewpager2/widget/ViewPager2;->mCurrentItem:I
 
     .line 4
     .line 5
@@ -77,18 +70,15 @@
 
     .line 6
     .line 7
-    iput p1, v0, Landroidx/viewpager2/widget/ViewPager2;
-    ->mCurrentItem:I
+    iput p1, v0, Landroidx/viewpager2/widget/ViewPager2;->mCurrentItem:I
 
     .line 8
     .line 9
-    iget-object p1, v0, Landroidx/viewpager2/widget/ViewPager2;
-    ->mAccessibilityProvider:Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;
+    iget-object p1, v0, Landroidx/viewpager2/widget/ViewPager2;->mAccessibilityProvider:Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;
-    ->onSetNewCurrentItem()V
+    invoke-virtual {p1}, Landroidx/viewpager2/widget/ViewPager2$AccessibilityProvider;->onSetNewCurrentItem()V
 
     .line 12
     .line 13

@@ -15,8 +15,7 @@
 
     check-cast p2, [B
 
-    invoke-static {p1, p2}, Landroidx/core/provider/FontProvider;
-    ->a([B[B)I
+    invoke-static {p1, p2}, Landroidx/core/provider/FontProvider;->a([B[B)I
 
     move-result p1
 

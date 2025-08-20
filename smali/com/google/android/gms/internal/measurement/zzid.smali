@@ -36,8 +36,7 @@
     move-object v3, p3
 
     .line 7
-    invoke-direct/range {v0 .. v5}, Lcom/google/android/gms/internal/measurement/zzhu;
-    -><init>(Lcom/google/android/gms/internal/measurement/zzic;Ljava/lang/String;Ljava/lang/Object;ZLcom/google/android/gms/internal/measurement/zzie;)V
+    invoke-direct/range {v0 .. v5}, Lcom/google/android/gms/internal/measurement/zzhu;-><init>(Lcom/google/android/gms/internal/measurement/zzic;Ljava/lang/String;Ljava/lang/Object;ZLcom/google/android/gms/internal/measurement/zzie;)V
 
     .line 8
     .line 9

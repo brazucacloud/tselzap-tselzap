@@ -39,34 +39,29 @@
 
     .line 6
     .line 7
-    invoke-direct {v1, v2}, Landroidx/concurrent/futures/AbstractResolvableFuture$Failure$1;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Landroidx/concurrent/futures/AbstractResolvableFuture$Failure$1;-><init>(Ljava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    invoke-direct {v0, v1}, Landroidx/concurrent/futures/AbstractResolvableFuture$Failure;
-    -><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v0, v1}, Landroidx/concurrent/futures/AbstractResolvableFuture$Failure;-><init>(Ljava/lang/Throwable;)V
 
     .line 11
     .line 12
     .line 13
-    sput-object v0, Landroidx/concurrent/futures/AbstractResolvableFuture$Failure;
-    ->FALLBACK_INSTANCE:Landroidx/concurrent/futures/AbstractResolvableFuture$Failure;    return-void
+    sput-object v0, Landroidx/concurrent/futures/AbstractResolvableFuture$Failure;->FALLBACK_INSTANCE:Landroidx/concurrent/futures/AbstractResolvableFuture$Failure;    return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/Throwable;)V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Landroidx/concurrent/futures/AbstractResolvableFuture;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/concurrent/futures/AbstractResolvableFuture;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -78,8 +73,7 @@
 
     .line 9
     .line 10
-    iput-object p1, p0, Landroidx/concurrent/futures/AbstractResolvableFuture$Failure;
-    ->exception:Ljava/lang/Throwable;    
+    iput-object p1, p0, Landroidx/concurrent/futures/AbstractResolvableFuture$Failure;->exception:Ljava/lang/Throwable;
     return-void
 .end method
 

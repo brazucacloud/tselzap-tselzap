@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -42,8 +41,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0}, Landroid/widget/ThemedSpinnerAdapter;
-    ->getDropDownViewTheme()Landroid/content/res/Resources$Theme;
+    invoke-interface {p0}, Landroid/widget/ThemedSpinnerAdapter;->getDropDownViewTheme()Landroid/content/res/Resources$Theme;
 
     .line 2
     .line 3
@@ -51,8 +49,7 @@
     move-result-object v0
 
     .line 5
-    invoke-static {v0, p1}, Landroidx/core/util/ObjectsCompat;
-    ->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Landroidx/core/util/ObjectsCompat;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 6
     .line 7
@@ -64,8 +61,7 @@
 
     .line 10
     .line 11
-    invoke-interface {p0, p1}, Landroid/widget/ThemedSpinnerAdapter;
-    ->setDropDownViewTheme(Landroid/content/res/Resources$Theme;)V
+    invoke-interface {p0, p1}, Landroid/widget/ThemedSpinnerAdapter;->setDropDownViewTheme(Landroid/content/res/Resources$Theme;)V
 
     .line 12
     .line 13

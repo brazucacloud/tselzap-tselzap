@@ -6,8 +6,7 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -17,8 +16,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/core/app/RemoteActionCompatParcelizer;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/core/app/RemoteActionCompatParcelizer;-><init>()V
 
     .line 2
     .line 3
@@ -30,8 +28,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/app/RemoteActionCompatParcelizer;
-    ->read(Landroidx/versionedparcelable/VersionedParcel;)Landroidx/core/app/RemoteActionCompat;
+    invoke-static {p0}, Landroidx/core/app/RemoteActionCompatParcelizer;->read(Landroidx/versionedparcelable/VersionedParcel;)Landroidx/core/app/RemoteActionCompat;
 
     .line 2
     .line 3
@@ -45,8 +42,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/app/RemoteActionCompatParcelizer;
-    ->write(Landroidx/core/app/RemoteActionCompat;Landroidx/versionedparcelable/VersionedParcel;)V
+    invoke-static {p0, p1}, Landroidx/core/app/RemoteActionCompatParcelizer;->write(Landroidx/core/app/RemoteActionCompat;Landroidx/versionedparcelable/VersionedParcel;)V
 
     .line 2
     .line 3

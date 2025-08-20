@@ -16,13 +16,11 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x2
 
-    iput v0, p0, Lcom/google/android/gms/internal/common/zzm;
-    ->zzb:I
+    iput v0, p0, Lcom/google/android/gms/internal/common/zzm;->zzb:I
 
     return-void
 .end method
@@ -33,8 +31,7 @@
     .locals 5
 
     .line 1
-    iget v0, p0, Lcom/google/android/gms/internal/common/zzm;
-    ->zzb:I
+    iget v0, p0, Lcom/google/android/gms/internal/common/zzm;->zzb:I
 
     .line 2
     .line 3
@@ -70,13 +67,11 @@
 
     .line 16
     .line 17
-    iput v1, p0, Lcom/google/android/gms/internal/common/zzm;
-    ->zzb:I
+    iput v1, p0, Lcom/google/android/gms/internal/common/zzm;->zzb:I
 
     .line 18
     .line 19
-    invoke-virtual {p0}, Lcom/google/android/gms/internal/common/zzm;
-    ->zza()Ljava/lang/Object;
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/common/zzm;->zza()Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -84,13 +79,11 @@
     move-result-object v1
 
     .line 23
-    iput-object v1, p0, Lcom/google/android/gms/internal/common/zzm;
-    ->zza:Ljava/lang/Object;
+    iput-object v1, p0, Lcom/google/android/gms/internal/common/zzm;->zza:Ljava/lang/Object;
 
     .line 24
     .line 25
-    iget v1, p0, Lcom/google/android/gms/internal/common/zzm;
-    ->zzb:I
+    iget v1, p0, Lcom/google/android/gms/internal/common/zzm;->zzb:I
 
     .line 26
     .line 27
@@ -101,8 +94,7 @@
 
     .line 29
     .line 30
-    iput v0, p0, Lcom/google/android/gms/internal/common/zzm;
-    ->zzb:I
+    iput v0, p0, Lcom/google/android/gms/internal/common/zzm;->zzb:I
 
     .line 31
     .line 32
@@ -129,8 +121,7 @@
 
     .line 38
     .line 39
-    invoke-direct {v0}, Ljava/lang/IllegalStateException;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/IllegalStateException;-><init>()V
 
     .line 40
     .line 41
@@ -186,8 +177,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/android/gms/internal/common/zzm;
-    ->hasNext()Z
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/common/zzm;->hasNext()Z
 
     .line 2
     .line 3
@@ -202,21 +192,18 @@
     const/4 v0, 0x2
 
     .line 8
-    iput v0, p0, Lcom/google/android/gms/internal/common/zzm;
-    ->zzb:I
+    iput v0, p0, Lcom/google/android/gms/internal/common/zzm;->zzb:I
 
     .line 9
     .line 10
-    iget-object v0, p0, Lcom/google/android/gms/internal/common/zzm;
-    ->zza:Ljava/lang/Object;
+    iget-object v0, p0, Lcom/google/android/gms/internal/common/zzm;->zza:Ljava/lang/Object;
 
     .line 11
     .line 12
     const/4 v1, 0x0
 
     .line 13
-    iput-object v1, p0, Lcom/google/android/gms/internal/common/zzm;
-    ->zza:Ljava/lang/Object;
+    iput-object v1, p0, Lcom/google/android/gms/internal/common/zzm;->zza:Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -228,8 +215,7 @@
 
     .line 17
     .line 18
-    invoke-direct {v0}, Ljava/util/NoSuchElementException;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/NoSuchElementException;-><init>()V
 
     .line 19
     .line 20
@@ -246,8 +232,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     .line 4
     .line 5
@@ -279,8 +264,7 @@
 
     const/4 v0, 0x3
 
-    iput v0, p0, Lcom/google/android/gms/internal/common/zzm;
-    ->zzb:I
+    iput v0, p0, Lcom/google/android/gms/internal/common/zzm;->zzb:I
 
     const/4 v0, 0x0
 

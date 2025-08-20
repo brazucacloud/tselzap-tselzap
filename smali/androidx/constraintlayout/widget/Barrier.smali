@@ -30,14 +30,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/constraintlayout/widget/ConstraintHelper;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Landroidx/constraintlayout/widget/ConstraintHelper;-><init>(Landroid/content/Context;)V
 
     const/16 p1, 0x8
 
     .line 2
-    invoke-super {p0, p1}, Landroid/view/View;
-    ->setVisibility(I)V
+    invoke-super {p0, p1}, Landroid/view/View;->setVisibility(I)V
 
     return-void
 .end method
@@ -46,14 +44,12 @@
     .locals 0
 
     .line 3
-    invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/widget/ConstraintHelper;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Landroidx/constraintlayout/widget/ConstraintHelper;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     const/16 p1, 0x8
 
     .line 4
-    invoke-super {p0, p1}, Landroid/view/View;
-    ->setVisibility(I)V
+    invoke-super {p0, p1}, Landroid/view/View;->setVisibility(I)V
 
     return-void
 .end method
@@ -62,14 +58,12 @@
     .locals 0
 
     .line 5
-    invoke-direct {p0, p1, p2, p3}, Landroidx/constraintlayout/widget/ConstraintHelper;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Landroidx/constraintlayout/widget/ConstraintHelper;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     const/16 p1, 0x8
 
     .line 6
-    invoke-super {p0, p1}, Landroid/view/View;
-    ->setVisibility(I)V
+    invoke-super {p0, p1}, Landroid/view/View;->setVisibility(I)V
 
     return-void
 .end method
@@ -78,8 +72,7 @@
     .locals 3
 
     .line 1
-    iput p2, p0, Landroidx/constraintlayout/widget/Barrier;
-    ->mResolvedType:I
+    iput p2, p0, Landroidx/constraintlayout/widget/Barrier;->mResolvedType:I
 
     .line 2
     .line 3
@@ -99,8 +92,7 @@
 
     .line 8
     .line 9
-    iget p3, p0, Landroidx/constraintlayout/widget/Barrier;
-    ->mIndicatedType:I
+    iget p3, p0, Landroidx/constraintlayout/widget/Barrier;->mIndicatedType:I
 
     .line 10
     .line 11
@@ -108,8 +100,7 @@
 
     .line 12
     .line 13
-    iput v1, p0, Landroidx/constraintlayout/widget/Barrier;
-    ->mResolvedType:I
+    iput v1, p0, Landroidx/constraintlayout/widget/Barrier;->mResolvedType:I
 
     .line 14
     .line 15
@@ -121,8 +112,7 @@
 
     .line 17
     .line 18
-    iput p2, p0, Landroidx/constraintlayout/widget/Barrier;
-    ->mResolvedType:I
+    iput p2, p0, Landroidx/constraintlayout/widget/Barrier;->mResolvedType:I
 
     .line 19
     .line 20
@@ -130,8 +120,7 @@
 
     .line 21
     :cond_1
-    iget p3, p0, Landroidx/constraintlayout/widget/Barrier;
-    ->mIndicatedType:I
+    iget p3, p0, Landroidx/constraintlayout/widget/Barrier;->mIndicatedType:I
 
     .line 22
     .line 23
@@ -139,8 +128,7 @@
 
     .line 24
     .line 25
-    iput p2, p0, Landroidx/constraintlayout/widget/Barrier;
-    ->mResolvedType:I
+    iput p2, p0, Landroidx/constraintlayout/widget/Barrier;->mResolvedType:I
 
     .line 26
     .line 27
@@ -152,8 +140,7 @@
 
     .line 29
     .line 30
-    iput v1, p0, Landroidx/constraintlayout/widget/Barrier;
-    ->mResolvedType:I
+    iput v1, p0, Landroidx/constraintlayout/widget/Barrier;->mResolvedType:I
 
     .line 31
     .line 32
@@ -171,13 +158,11 @@
 
     .line 37
     .line 38
-    iget p2, p0, Landroidx/constraintlayout/widget/Barrier;
-    ->mResolvedType:I
+    iget p2, p0, Landroidx/constraintlayout/widget/Barrier;->mResolvedType:I
 
     .line 39
     .line 40
-    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/widgets/Barrier;
-    ->setBarrierType(I)V
+    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/widgets/Barrier;->setBarrierType(I)V
 
     .line 41
     .line 42
@@ -194,13 +179,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/widget/Barrier;
-    ->mBarrier:Landroidx/constraintlayout/core/widgets/Barrier;
+    iget-object v0, p0, Landroidx/constraintlayout/widget/Barrier;->mBarrier:Landroidx/constraintlayout/core/widgets/Barrier;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/constraintlayout/core/widgets/Barrier;
-    ->getAllowsGoneWidget()Z
+    invoke-virtual {v0}, Landroidx/constraintlayout/core/widgets/Barrier;->getAllowsGoneWidget()Z
 
     .line 4
     .line 5
@@ -214,13 +197,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/widget/Barrier;
-    ->mBarrier:Landroidx/constraintlayout/core/widgets/Barrier;
+    iget-object v0, p0, Landroidx/constraintlayout/widget/Barrier;->mBarrier:Landroidx/constraintlayout/core/widgets/Barrier;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/constraintlayout/core/widgets/Barrier;
-    ->getAllowsGoneWidget()Z
+    invoke-virtual {v0}, Landroidx/constraintlayout/core/widgets/Barrier;->getAllowsGoneWidget()Z
 
     .line 4
     .line 5
@@ -234,13 +215,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/widget/Barrier;
-    ->mBarrier:Landroidx/constraintlayout/core/widgets/Barrier;
+    iget-object v0, p0, Landroidx/constraintlayout/widget/Barrier;->mBarrier:Landroidx/constraintlayout/core/widgets/Barrier;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/constraintlayout/core/widgets/Barrier;
-    ->getMargin()I
+    invoke-virtual {v0}, Landroidx/constraintlayout/core/widgets/Barrier;->getMargin()I
 
     .line 4
     .line 5
@@ -254,16 +233,14 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/widget/Barrier;
-    ->mIndicatedType:I    return v0
+    iget v0, p0, Landroidx/constraintlayout/widget/Barrier;->mIndicatedType:I    return v0
 .end method
 
 .method public init(Landroid/util/AttributeSet;)V
     .locals 6
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/constraintlayout/widget/ConstraintHelper;
-    ->init(Landroid/util/AttributeSet;)V
+    invoke-super {p0, p1}, Landroidx/constraintlayout/widget/ConstraintHelper;->init(Landroid/util/AttributeSet;)V
 
     .line 2
     .line 3
@@ -272,14 +249,12 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Landroidx/constraintlayout/core/widgets/Barrier;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/constraintlayout/core/widgets/Barrier;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/constraintlayout/widget/Barrier;
-    ->mBarrier:Landroidx/constraintlayout/core/widgets/Barrier;
+    iput-object v0, p0, Landroidx/constraintlayout/widget/Barrier;->mBarrier:Landroidx/constraintlayout/core/widgets/Barrier;
 
     .line 10
     .line 11
@@ -287,8 +262,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 14
     .line 15
@@ -296,13 +270,11 @@
     move-result-object v0
 
     .line 17
-    sget-object v1, Landroidx/constraintlayout/widget/R$styleable;
-    ->ConstraintLayout_Layout:[I
+    sget-object v1, Landroidx/constraintlayout/widget/R$styleable;->ConstraintLayout_Layout:[I
 
     .line 18
     .line 19
-    invoke-virtual {v0, p1, v1}, Landroid/content/Context;
-    ->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
+    invoke-virtual {v0, p1, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     .line 20
     .line 21
@@ -310,8 +282,7 @@
     move-result-object p1
 
     .line 23
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;
-    ->getIndexCount()I
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->getIndexCount()I
 
     .line 24
     .line 25
@@ -330,8 +301,7 @@
 
     .line 30
     .line 31
-    invoke-virtual {p1, v2}, Landroid/content/res/TypedArray;
-    ->getIndex(I)I
+    invoke-virtual {p1, v2}, Landroid/content/res/TypedArray;->getIndex(I)I
 
     .line 32
     .line 33
@@ -339,8 +309,7 @@
     move-result v3
 
     .line 35
-    sget v4, Landroidx/constraintlayout/widget/R$styleable;
-    ->ConstraintLayout_Layout_barrierDirection:I
+    sget v4, Landroidx/constraintlayout/widget/R$styleable;->ConstraintLayout_Layout_barrierDirection:I
 
     .line 36
     .line 37
@@ -348,8 +317,7 @@
 
     .line 38
     .line 39
-    invoke-virtual {p1, v3, v1}, Landroid/content/res/TypedArray;
-    ->getInt(II)I
+    invoke-virtual {p1, v3, v1}, Landroid/content/res/TypedArray;->getInt(II)I
 
     .line 40
     .line 41
@@ -357,8 +325,7 @@
     move-result v3
 
     .line 43
-    invoke-virtual {p0, v3}, Landroidx/constraintlayout/widget/Barrier;
-    ->setType(I)V
+    invoke-virtual {p0, v3}, Landroidx/constraintlayout/widget/Barrier;->setType(I)V
 
     .line 44
     .line 45
@@ -367,8 +334,7 @@
 
     .line 47
     :cond_0
-    sget v4, Landroidx/constraintlayout/widget/R$styleable;
-    ->ConstraintLayout_Layout_barrierAllowsGoneWidgets:I
+    sget v4, Landroidx/constraintlayout/widget/R$styleable;->ConstraintLayout_Layout_barrierAllowsGoneWidgets:I
 
     .line 48
     .line 49
@@ -376,16 +342,14 @@
 
     .line 50
     .line 51
-    iget-object v4, p0, Landroidx/constraintlayout/widget/Barrier;
-    ->mBarrier:Landroidx/constraintlayout/core/widgets/Barrier;
+    iget-object v4, p0, Landroidx/constraintlayout/widget/Barrier;->mBarrier:Landroidx/constraintlayout/core/widgets/Barrier;
 
     .line 52
     .line 53
     const/4 v5, 0x1
 
     .line 54
-    invoke-virtual {p1, v3, v5}, Landroid/content/res/TypedArray;
-    ->getBoolean(IZ)Z
+    invoke-virtual {p1, v3, v5}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     .line 55
     .line 56
@@ -393,8 +357,7 @@
     move-result v3
 
     .line 58
-    invoke-virtual {v4, v3}, Landroidx/constraintlayout/core/widgets/Barrier;
-    ->setAllowsGoneWidget(Z)V
+    invoke-virtual {v4, v3}, Landroidx/constraintlayout/core/widgets/Barrier;->setAllowsGoneWidget(Z)V
 
     .line 59
     .line 60
@@ -403,8 +366,7 @@
 
     .line 62
     :cond_1
-    sget v4, Landroidx/constraintlayout/widget/R$styleable;
-    ->ConstraintLayout_Layout_barrierMargin:I
+    sget v4, Landroidx/constraintlayout/widget/R$styleable;->ConstraintLayout_Layout_barrierMargin:I
 
     .line 63
     .line 64
@@ -412,8 +374,7 @@
 
     .line 65
     .line 66
-    invoke-virtual {p1, v3, v1}, Landroid/content/res/TypedArray;
-    ->getDimensionPixelSize(II)I
+    invoke-virtual {p1, v3, v1}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
     .line 67
     .line 68
@@ -421,13 +382,11 @@
     move-result v3
 
     .line 70
-    iget-object v4, p0, Landroidx/constraintlayout/widget/Barrier;
-    ->mBarrier:Landroidx/constraintlayout/core/widgets/Barrier;
+    iget-object v4, p0, Landroidx/constraintlayout/widget/Barrier;->mBarrier:Landroidx/constraintlayout/core/widgets/Barrier;
 
     .line 71
     .line 72
-    invoke-virtual {v4, v3}, Landroidx/constraintlayout/core/widgets/Barrier;
-    ->setMargin(I)V
+    invoke-virtual {v4, v3}, Landroidx/constraintlayout/core/widgets/Barrier;->setMargin(I)V
 
     .line 73
     .line 74
@@ -442,25 +401,21 @@
 
     .line 78
     :cond_3
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;
-    ->recycle()V
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
     .line 79
     .line 80
     .line 81
     :cond_4
-    iget-object p1, p0, Landroidx/constraintlayout/widget/Barrier;
-    ->mBarrier:Landroidx/constraintlayout/core/widgets/Barrier;
+    iget-object p1, p0, Landroidx/constraintlayout/widget/Barrier;->mBarrier:Landroidx/constraintlayout/core/widgets/Barrier;
 
     .line 82
     .line 83
-    iput-object p1, p0, Landroidx/constraintlayout/widget/ConstraintHelper;
-    ->mHelperWidget:Landroidx/constraintlayout/core/widgets/Helper;
+    iput-object p1, p0, Landroidx/constraintlayout/widget/ConstraintHelper;->mHelperWidget:Landroidx/constraintlayout/core/widgets/Helper;
 
     .line 84
     .line 85
-    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintHelper;
-    ->validateParams()V
+    invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintHelper;->validateParams()V
     return-void
 .end method
 
@@ -479,8 +434,7 @@
     .end annotation
 
     .line 1
-    invoke-super {p0, p1, p2, p3, p4}, Landroidx/constraintlayout/widget/ConstraintHelper;
-    ->loadParameters(Landroidx/constraintlayout/widget/ConstraintSet$Constraint;Landroidx/constraintlayout/core/widgets/HelperWidget;Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;Landroid/util/SparseArray;)V
+    invoke-super {p0, p1, p2, p3, p4}, Landroidx/constraintlayout/widget/ConstraintHelper;->loadParameters(Landroidx/constraintlayout/widget/ConstraintSet$Constraint;Landroidx/constraintlayout/core/widgets/HelperWidget;Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;Landroid/util/SparseArray;)V
 
     .line 2
     .line 3
@@ -500,8 +454,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p2}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;
-    ->getParent()Landroidx/constraintlayout/core/widgets/ConstraintWidget;
+    invoke-virtual {p2}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->getParent()Landroidx/constraintlayout/core/widgets/ConstraintWidget;
 
     .line 12
     .line 13
@@ -513,8 +466,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p2}, Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;
-    ->isRtl()Z
+    invoke-virtual {p2}, Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;->isRtl()Z
 
     .line 18
     .line 19
@@ -522,50 +474,41 @@
     move-result p2
 
     .line 21
-    iget-object p4, p1, Landroidx/constraintlayout/widget/ConstraintSet$Constraint;
-    ->layout:Landroidx/constraintlayout/widget/ConstraintSet$Layout;
+    iget-object p4, p1, Landroidx/constraintlayout/widget/ConstraintSet$Constraint;->layout:Landroidx/constraintlayout/widget/ConstraintSet$Layout;
 
     .line 22
     .line 23
-    iget p4, p4, Landroidx/constraintlayout/widget/ConstraintSet$Layout;
-    ->mBarrierDirection:I
+    iget p4, p4, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->mBarrierDirection:I
 
     .line 24
     .line 25
-    invoke-direct {p0, p3, p4, p2}, Landroidx/constraintlayout/widget/Barrier;
-    ->updateType(Landroidx/constraintlayout/core/widgets/ConstraintWidget;IZ)V
+    invoke-direct {p0, p3, p4, p2}, Landroidx/constraintlayout/widget/Barrier;->updateType(Landroidx/constraintlayout/core/widgets/ConstraintWidget;IZ)V
 
     .line 26
     .line 27
     .line 28
-    iget-object p2, p1, Landroidx/constraintlayout/widget/ConstraintSet$Constraint;
-    ->layout:Landroidx/constraintlayout/widget/ConstraintSet$Layout;
+    iget-object p2, p1, Landroidx/constraintlayout/widget/ConstraintSet$Constraint;->layout:Landroidx/constraintlayout/widget/ConstraintSet$Layout;
 
     .line 29
     .line 30
-    iget-boolean p2, p2, Landroidx/constraintlayout/widget/ConstraintSet$Layout;
-    ->mBarrierAllowsGoneWidgets:Z
+    iget-boolean p2, p2, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->mBarrierAllowsGoneWidgets:Z
 
     .line 31
     .line 32
-    invoke-virtual {p3, p2}, Landroidx/constraintlayout/core/widgets/Barrier;
-    ->setAllowsGoneWidget(Z)V
+    invoke-virtual {p3, p2}, Landroidx/constraintlayout/core/widgets/Barrier;->setAllowsGoneWidget(Z)V
 
     .line 33
     .line 34
     .line 35
-    iget-object p1, p1, Landroidx/constraintlayout/widget/ConstraintSet$Constraint;
-    ->layout:Landroidx/constraintlayout/widget/ConstraintSet$Layout;
+    iget-object p1, p1, Landroidx/constraintlayout/widget/ConstraintSet$Constraint;->layout:Landroidx/constraintlayout/widget/ConstraintSet$Layout;
 
     .line 36
     .line 37
-    iget p1, p1, Landroidx/constraintlayout/widget/ConstraintSet$Layout;
-    ->mBarrierMargin:I
+    iget p1, p1, Landroidx/constraintlayout/widget/ConstraintSet$Layout;->mBarrierMargin:I
 
     .line 38
     .line 39
-    invoke-virtual {p3, p1}, Landroidx/constraintlayout/core/widgets/Barrier;
-    ->setMargin(I)V
+    invoke-virtual {p3, p1}, Landroidx/constraintlayout/core/widgets/Barrier;->setMargin(I)V
 
     .line 40
     .line 41
@@ -578,13 +521,11 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/widget/Barrier;
-    ->mIndicatedType:I
+    iget v0, p0, Landroidx/constraintlayout/widget/Barrier;->mIndicatedType:I
 
     .line 2
     .line 3
-    invoke-direct {p0, p1, v0, p2}, Landroidx/constraintlayout/widget/Barrier;
-    ->updateType(Landroidx/constraintlayout/core/widgets/ConstraintWidget;IZ)V
+    invoke-direct {p0, p1, v0, p2}, Landroidx/constraintlayout/widget/Barrier;->updateType(Landroidx/constraintlayout/core/widgets/ConstraintWidget;IZ)V
 return-void
 .end method
 
@@ -592,13 +533,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/widget/Barrier;
-    ->mBarrier:Landroidx/constraintlayout/core/widgets/Barrier;
+    iget-object v0, p0, Landroidx/constraintlayout/widget/Barrier;->mBarrier:Landroidx/constraintlayout/core/widgets/Barrier;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/Barrier;
-    ->setAllowsGoneWidget(Z)V
+    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/Barrier;->setAllowsGoneWidget(Z)V
 return-void
 .end method
 
@@ -606,8 +545,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     .line 2
     .line 3
@@ -615,8 +553,7 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Landroid/content/res/Resources;
-    ->getDisplayMetrics()Landroid/util/DisplayMetrics;
+    invoke-virtual {v0}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
 
     .line 6
     .line 7
@@ -624,8 +561,7 @@ return-void
     move-result-object v0
 
     .line 9
-    iget v0, v0, Landroid/util/DisplayMetrics;
-    ->density:F
+    iget v0, v0, Landroid/util/DisplayMetrics;->density:F
 
     .line 10
     .line 11
@@ -646,13 +582,11 @@ return-void
     float-to-int p1, p1
 
     .line 18
-    iget-object v0, p0, Landroidx/constraintlayout/widget/Barrier;
-    ->mBarrier:Landroidx/constraintlayout/core/widgets/Barrier;
+    iget-object v0, p0, Landroidx/constraintlayout/widget/Barrier;->mBarrier:Landroidx/constraintlayout/core/widgets/Barrier;
 
     .line 19
     .line 20
-    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/Barrier;
-    ->setMargin(I)V
+    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/Barrier;->setMargin(I)V
     return-void
 .end method
 
@@ -660,13 +594,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/widget/Barrier;
-    ->mBarrier:Landroidx/constraintlayout/core/widgets/Barrier;
+    iget-object v0, p0, Landroidx/constraintlayout/widget/Barrier;->mBarrier:Landroidx/constraintlayout/core/widgets/Barrier;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/Barrier;
-    ->setMargin(I)V
+    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/Barrier;->setMargin(I)V
 return-void
 .end method
 
@@ -674,8 +606,7 @@ return-void
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/widget/Barrier;
-    ->mIndicatedType:I    
+    iput p1, p0, Landroidx/constraintlayout/widget/Barrier;->mIndicatedType:I
     return-void
 .end method
 

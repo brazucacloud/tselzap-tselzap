@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -34,8 +33,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/TextView;
-    ->getAutoSizeStepGranularity()I
+    invoke-virtual {p0}, Landroid/widget/TextView;->getAutoSizeStepGranularity()I
 
     .line 2
     .line 3
@@ -51,8 +49,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/widget/TextView;
-    ->setAutoSizeTextTypeUniformWithConfiguration(IIII)V    
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/widget/TextView;->setAutoSizeTextTypeUniformWithConfiguration(IIII)V
     return-void
 .end method
 
@@ -62,8 +59,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/widget/TextView;
-    ->setAutoSizeTextTypeUniformWithPresetSizes([II)V    
+    invoke-virtual {p0, p1, p2}, Landroid/widget/TextView;->setAutoSizeTextTypeUniformWithPresetSizes([II)V
     return-void
 .end method
 
@@ -73,8 +69,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/widget/TextView;
-    ->setFontVariationSettings(Ljava/lang/String;)Z
+    invoke-virtual {p0, p1}, Landroid/widget/TextView;->setFontVariationSettings(Ljava/lang/String;)Z
 
     .line 2
     .line 3

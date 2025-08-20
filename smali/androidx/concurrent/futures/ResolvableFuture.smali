@@ -6,8 +6,7 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -27,8 +26,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/concurrent/futures/AbstractResolvableFuture;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/concurrent/futures/AbstractResolvableFuture;-><init>()V
     return-void
 .end method
 
@@ -49,8 +47,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/concurrent/futures/ResolvableFuture;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/concurrent/futures/ResolvableFuture;-><init>()V
     return-object v0
 .end method
 
@@ -69,8 +66,7 @@
     .end annotation
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/concurrent/futures/AbstractResolvableFuture;
-    ->set(Ljava/lang/Object;)Z
+    invoke-super {p0, p1}, Landroidx/concurrent/futures/AbstractResolvableFuture;->set(Ljava/lang/Object;)Z
 
     .line 2
     .line 3
@@ -84,8 +80,7 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/concurrent/futures/AbstractResolvableFuture;
-    ->setException(Ljava/lang/Throwable;)Z
+    invoke-super {p0, p1}, Landroidx/concurrent/futures/AbstractResolvableFuture;->setException(Ljava/lang/Throwable;)Z
 
     .line 2
     .line 3
@@ -106,8 +101,7 @@
     .end annotation
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/concurrent/futures/AbstractResolvableFuture;
-    ->setFuture(LD0/c;)Z
+    invoke-super {p0, p1}, Landroidx/concurrent/futures/AbstractResolvableFuture;->setFuture(LD0/c;)Z
 
     .line 2
     .line 3

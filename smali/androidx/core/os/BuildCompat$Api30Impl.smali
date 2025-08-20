@@ -28,11 +28,9 @@
 
     new-instance v0, Landroidx/core/os/BuildCompat$Api30Impl;
 
-    invoke-direct {v0}, Landroidx/core/os/BuildCompat$Api30Impl;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/core/os/BuildCompat$Api30Impl;-><init>()V
 
-    sput-object v0, Landroidx/core/os/BuildCompat$Api30Impl;
-    ->INSTANCE:Landroidx/core/os/BuildCompat$Api30Impl;
+    sput-object v0, Landroidx/core/os/BuildCompat$Api30Impl;->INSTANCE:Landroidx/core/os/BuildCompat$Api30Impl;
 
     return-void
 .end method
@@ -41,8 +39,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -58,8 +55,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p1}, Landroid/os/ext/SdkExtensions;
-    ->getExtensionVersion(I)I
+    invoke-static {p1}, Landroid/os/ext/SdkExtensions;->getExtensionVersion(I)I
 
     .line 2
     .line 3

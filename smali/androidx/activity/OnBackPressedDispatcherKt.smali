@@ -23,8 +23,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -33,8 +32,7 @@
 
     .line 7
     .line 8
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -43,8 +41,7 @@
 
     .line 12
     .line 13
-    invoke-direct {v0, p2, p3}, Landroidx/activity/OnBackPressedDispatcherKt$addCallback$callback$1;
-    -><init>(ZLp1/l;)V
+    invoke-direct {v0, p2, p3}, Landroidx/activity/OnBackPressedDispatcherKt$addCallback$callback$1;-><init>(ZLp1/l;)V
 
     .line 14
     .line 15
@@ -53,14 +50,12 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0, p1, v0}, Landroidx/activity/OnBackPressedDispatcher;
-    ->addCallback(Landroidx/lifecycle/LifecycleOwner;Landroidx/activity/OnBackPressedCallback;)V
+    invoke-virtual {p0, p1, v0}, Landroidx/activity/OnBackPressedDispatcher;->addCallback(Landroidx/lifecycle/LifecycleOwner;Landroidx/activity/OnBackPressedCallback;)V
 return-object v0
 
     .line 22
     :cond_0
-    invoke-virtual {p0, v0}, Landroidx/activity/OnBackPressedDispatcher;
-    ->addCallback(Landroidx/activity/OnBackPressedCallback;)V
+    invoke-virtual {p0, v0}, Landroidx/activity/OnBackPressedDispatcher;->addCallback(Landroidx/activity/OnBackPressedCallback;)V
 return-object v0
 .end method
 
@@ -92,8 +87,7 @@ return-object v0
 
     .line 11
     :cond_1
-    invoke-static {p0, p1, p2, p3}, Landroidx/activity/OnBackPressedDispatcherKt;
-    ->addCallback(Landroidx/activity/OnBackPressedDispatcher;Landroidx/lifecycle/LifecycleOwner;ZLp1/l;)Landroidx/activity/OnBackPressedCallback;
+    invoke-static {p0, p1, p2, p3}, Landroidx/activity/OnBackPressedDispatcherKt;->addCallback(Landroidx/activity/OnBackPressedDispatcher;Landroidx/lifecycle/LifecycleOwner;ZLp1/l;)Landroidx/activity/OnBackPressedCallback;
 
     .line 12
     .line 13

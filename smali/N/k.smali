@@ -16,24 +16,20 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, LN/k;
-    ->a:Ljava/lang/String;
+    iput-object p1, p0, LN/k;->a:Ljava/lang/String;
 
     .line 5
     .line 6
-    iput-object p2, p0, LN/k;
-    ->b:[B
+    iput-object p2, p0, LN/k;->b:[B
 
     .line 7
     .line 8
-    iput-object p3, p0, LN/k;
-    ->c:LK/c;
+    iput-object p3, p0, LN/k;->c:LK/c;
 
     .line 9
     .line 10
@@ -79,18 +75,15 @@
 
     .line 14
     .line 15
-    iget-object v1, v1, LN/k;
-    ->a:Ljava/lang/String;
+    iget-object v1, v1, LN/k;->a:Ljava/lang/String;
 
     .line 16
     .line 17
-    iget-object v3, p0, LN/k;
-    ->a:Ljava/lang/String;
+    iget-object v3, p0, LN/k;->a:Ljava/lang/String;
 
     .line 18
     .line 19
-    invoke-virtual {v3, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v3, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 20
     .line 21
@@ -118,8 +111,7 @@
     .line 31
     .line 32
     :goto_0
-    iget-object v1, v1, LN/k;
-    ->b:[B
+    iget-object v1, v1, LN/k;->b:[B
 
     .line 33
     .line 34
@@ -138,13 +130,11 @@
 
     .line 39
     :goto_1
-    iget-object v3, p0, LN/k;
-    ->b:[B
+    iget-object v3, p0, LN/k;->b:[B
 
     .line 40
     .line 41
-    invoke-static {v3, v1}, Ljava/util/Arrays;
-    ->equals([B[B)Z
+    invoke-static {v3, v1}, Ljava/util/Arrays;->equals([B[B)Z
 
     .line 42
     .line 43
@@ -160,18 +150,15 @@
 
     .line 48
     .line 49
-    iget-object v1, p0, LN/k;
-    ->c:LK/c;
+    iget-object v1, p0, LN/k;->c:LK/c;
 
     .line 50
     .line 51
-    iget-object p1, p1, LN/k;
-    ->c:LK/c;
+    iget-object p1, p1, LN/k;->c:LK/c;
 
     .line 52
     .line 53
-    invoke-virtual {v1, p1}, Ljava/lang/Object;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     .line 54
     .line 55
@@ -194,13 +181,11 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, LN/k;
-    ->a:Ljava/lang/String;
+    iget-object v0, p0, LN/k;->a:Ljava/lang/String;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/String;
-    ->hashCode()I
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
 
     .line 4
     .line 5
@@ -220,13 +205,11 @@
 
     .line 12
     .line 13
-    iget-object v2, p0, LN/k;
-    ->b:[B
+    iget-object v2, p0, LN/k;->b:[B
 
     .line 14
     .line 15
-    invoke-static {v2}, Ljava/util/Arrays;
-    ->hashCode([B)I
+    invoke-static {v2}, Ljava/util/Arrays;->hashCode([B)I
 
     .line 16
     .line 17
@@ -241,13 +224,11 @@
 
     .line 21
     .line 22
-    iget-object v1, p0, LN/k;
-    ->c:LK/c;
+    iget-object v1, p0, LN/k;->c:LK/c;
 
     .line 23
     .line 24
-    invoke-virtual {v1}, Ljava/lang/Object;
-    ->hashCode()I
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
 
     .line 25
     .line 26

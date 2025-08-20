@@ -86,8 +86,7 @@
 
     .line 13
     .line 14
-    sput-object v0, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->sConstructorSignature:[Ljava/lang/Class;
+    sput-object v0, Landroidx/appcompat/app/AppCompatViewInflater;->sConstructorSignature:[Ljava/lang/Class;
 
     .line 15
     .line 16
@@ -104,8 +103,7 @@
     move-result-object v0
 
     .line 23
-    sput-object v0, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->sOnClickAttrs:[I
+    sput-object v0, Landroidx/appcompat/app/AppCompatViewInflater;->sOnClickAttrs:[I
 
     .line 24
     .line 25
@@ -122,8 +120,7 @@
     move-result-object v0
 
     .line 32
-    sput-object v0, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->sAccessibilityHeading:[I
+    sput-object v0, Landroidx/appcompat/app/AppCompatViewInflater;->sAccessibilityHeading:[I
 
     .line 33
     .line 34
@@ -140,8 +137,7 @@
     move-result-object v0
 
     .line 41
-    sput-object v0, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->sAccessibilityPaneTitle:[I
+    sput-object v0, Landroidx/appcompat/app/AppCompatViewInflater;->sAccessibilityPaneTitle:[I
 
     .line 42
     .line 43
@@ -158,8 +154,7 @@
     move-result-object v0
 
     .line 50
-    sput-object v0, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->sScreenReaderFocusable:[I
+    sput-object v0, Landroidx/appcompat/app/AppCompatViewInflater;->sScreenReaderFocusable:[I
 
     .line 51
     .line 52
@@ -183,8 +178,7 @@
     move-result-object v0
 
     .line 62
-    sput-object v0, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->sClassPrefixList:[Ljava/lang/String;
+    sput-object v0, Landroidx/appcompat/app/AppCompatViewInflater;->sClassPrefixList:[Ljava/lang/String;
 
     .line 63
     .line 64
@@ -192,22 +186,19 @@
 
     .line 65
     .line 66
-    invoke-direct {v0}, Landroidx/collection/SimpleArrayMap;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/collection/SimpleArrayMap;-><init>()V
 
     .line 67
     .line 68
     .line 69
-    sput-object v0, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->sConstructorMap:Landroidx/collection/SimpleArrayMap;    return-void
+    sput-object v0, Landroidx/appcompat/app/AppCompatViewInflater;->sConstructorMap:Landroidx/collection/SimpleArrayMap;    return-void
 .end method
 
 .method public constructor <init>()V
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -219,8 +210,7 @@
 
     .line 6
     .line 7
-    iput-object v0, p0, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->mConstructorArgs:[Ljava/lang/Object;    
+    iput-object v0, p0, Landroidx/appcompat/app/AppCompatViewInflater;->mConstructorArgs:[Ljava/lang/Object;
     return-void
 .end method
 
@@ -240,8 +230,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -253,13 +242,11 @@
 
     .line 8
     :cond_0
-    sget-object v0, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->sAccessibilityHeading:[I
+    sget-object v0, Landroidx/appcompat/app/AppCompatViewInflater;->sAccessibilityHeading:[I
 
     .line 9
     .line 10
-    invoke-virtual {p1, p3, v0}, Landroid/content/Context;
-    ->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
+    invoke-virtual {p1, p3, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     .line 11
     .line 12
@@ -270,8 +257,7 @@
     const/4 v1, 0x0
 
     .line 15
-    invoke-virtual {v0, v1}, Landroid/content/res/TypedArray;
-    ->hasValue(I)Z
+    invoke-virtual {v0, v1}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
     .line 16
     .line 17
@@ -283,8 +269,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {v0, v1, v1}, Landroid/content/res/TypedArray;
-    ->getBoolean(IZ)Z
+    invoke-virtual {v0, v1, v1}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     .line 22
     .line 23
@@ -292,26 +277,22 @@
     move-result v2
 
     .line 25
-    invoke-static {p2, v2}, Landroidx/core/view/ViewCompat;
-    ->setAccessibilityHeading(Landroid/view/View;Z)V
+    invoke-static {p2, v2}, Landroidx/core/view/ViewCompat;->setAccessibilityHeading(Landroid/view/View;Z)V
 
     .line 26
     .line 27
     .line 28
     :cond_1
-    invoke-virtual {v0}, Landroid/content/res/TypedArray;
-    ->recycle()V
+    invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
 
     .line 29
     .line 30
     .line 31
-    sget-object v0, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->sAccessibilityPaneTitle:[I
+    sget-object v0, Landroidx/appcompat/app/AppCompatViewInflater;->sAccessibilityPaneTitle:[I
 
     .line 32
     .line 33
-    invoke-virtual {p1, p3, v0}, Landroid/content/Context;
-    ->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
+    invoke-virtual {p1, p3, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     .line 34
     .line 35
@@ -319,8 +300,7 @@
     move-result-object v0
 
     .line 37
-    invoke-virtual {v0, v1}, Landroid/content/res/TypedArray;
-    ->hasValue(I)Z
+    invoke-virtual {v0, v1}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
     .line 38
     .line 39
@@ -332,8 +312,7 @@
 
     .line 42
     .line 43
-    invoke-virtual {v0, v1}, Landroid/content/res/TypedArray;
-    ->getString(I)Ljava/lang/String;
+    invoke-virtual {v0, v1}, Landroid/content/res/TypedArray;->getString(I)Ljava/lang/String;
 
     .line 44
     .line 45
@@ -341,26 +320,22 @@
     move-result-object v2
 
     .line 47
-    invoke-static {p2, v2}, Landroidx/core/view/ViewCompat;
-    ->setAccessibilityPaneTitle(Landroid/view/View;Ljava/lang/CharSequence;)V
+    invoke-static {p2, v2}, Landroidx/core/view/ViewCompat;->setAccessibilityPaneTitle(Landroid/view/View;Ljava/lang/CharSequence;)V
 
     .line 48
     .line 49
     .line 50
     :cond_2
-    invoke-virtual {v0}, Landroid/content/res/TypedArray;
-    ->recycle()V
+    invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
 
     .line 51
     .line 52
     .line 53
-    sget-object v0, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->sScreenReaderFocusable:[I
+    sget-object v0, Landroidx/appcompat/app/AppCompatViewInflater;->sScreenReaderFocusable:[I
 
     .line 54
     .line 55
-    invoke-virtual {p1, p3, v0}, Landroid/content/Context;
-    ->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
+    invoke-virtual {p1, p3, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     .line 56
     .line 57
@@ -368,8 +343,7 @@
     move-result-object p1
 
     .line 59
-    invoke-virtual {p1, v1}, Landroid/content/res/TypedArray;
-    ->hasValue(I)Z
+    invoke-virtual {p1, v1}, Landroid/content/res/TypedArray;->hasValue(I)Z
 
     .line 60
     .line 61
@@ -381,8 +355,7 @@
 
     .line 64
     .line 65
-    invoke-virtual {p1, v1, v1}, Landroid/content/res/TypedArray;
-    ->getBoolean(IZ)Z
+    invoke-virtual {p1, v1, v1}, Landroid/content/res/TypedArray;->getBoolean(IZ)Z
 
     .line 66
     .line 67
@@ -390,15 +363,13 @@
     move-result p3
 
     .line 69
-    invoke-static {p2, p3}, Landroidx/core/view/ViewCompat;
-    ->setScreenReaderFocusable(Landroid/view/View;Z)V
+    invoke-static {p2, p3}, Landroidx/core/view/ViewCompat;->setScreenReaderFocusable(Landroid/view/View;Z)V
 
     .line 70
     .line 71
     .line 72
     :cond_3
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;
-    ->recycle()V
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
     return-void
 .end method
 
@@ -406,8 +377,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 2
     .line 3
@@ -423,8 +393,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p1}, Landroid/view/View;
-    ->hasOnClickListeners()Z
+    invoke-virtual {p1}, Landroid/view/View;->hasOnClickListeners()Z
 
     .line 10
     .line 11
@@ -440,13 +409,11 @@
 
     .line 16
     :cond_0
-    sget-object v1, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->sOnClickAttrs:[I
+    sget-object v1, Landroidx/appcompat/app/AppCompatViewInflater;->sOnClickAttrs:[I
 
     .line 17
     .line 18
-    invoke-virtual {v0, p2, v1}, Landroid/content/Context;
-    ->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
+    invoke-virtual {v0, p2, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     .line 19
     .line 20
@@ -457,8 +424,7 @@
     const/4 v0, 0x0
 
     .line 23
-    invoke-virtual {p2, v0}, Landroid/content/res/TypedArray;
-    ->getString(I)Ljava/lang/String;
+    invoke-virtual {p2, v0}, Landroid/content/res/TypedArray;->getString(I)Ljava/lang/String;
 
     .line 24
     .line 25
@@ -474,21 +440,18 @@
 
     .line 30
     .line 31
-    invoke-direct {v1, p1, v0}, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;
-    -><init>(Landroid/view/View;Ljava/lang/String;)V
+    invoke-direct {v1, p1, v0}, Landroidx/appcompat/app/AppCompatViewInflater$DeclaredOnClickListener;-><init>(Landroid/view/View;Ljava/lang/String;)V
 
     .line 32
     .line 33
     .line 34
-    invoke-virtual {p1, v1}, Landroid/view/View;
-    ->setOnClickListener(Landroid/view/View$OnClickListener;)V
+    invoke-virtual {p1, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 35
     .line 36
     .line 37
     :cond_1
-    invoke-virtual {p2}, Landroid/content/res/TypedArray;
-    ->recycle()V
+    invoke-virtual {p2}, Landroid/content/res/TypedArray;->recycle()V
 
     .line 38
     .line 39
@@ -502,13 +465,11 @@
     .locals 2
 
     .line 1
-    sget-object v0, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->sConstructorMap:Landroidx/collection/SimpleArrayMap;
+    sget-object v0, Landroidx/appcompat/app/AppCompatViewInflater;->sConstructorMap:Landroidx/collection/SimpleArrayMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p2}, Landroidx/collection/SimpleArrayMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p2}, Landroidx/collection/SimpleArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -533,26 +494,22 @@
 
     .line 14
     .line 15
-    invoke-direct {v1}, Ljava/lang/StringBuilder;
-    -><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 16
     .line 17
     .line 18
-    invoke-virtual {v1, p3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 19
     .line 20
     .line 21
-    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 22
     .line 23
     .line 24
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 25
     .line 26
@@ -568,8 +525,7 @@
 
     .line 30
     :goto_0
-    invoke-virtual {p1}, Landroid/content/Context;
-    ->getClassLoader()Ljava/lang/ClassLoader;
+    invoke-virtual {p1}, Landroid/content/Context;->getClassLoader()Ljava/lang/ClassLoader;
 
     .line 31
     .line 32
@@ -580,8 +536,7 @@
     const/4 v1, 0x0
 
     .line 35
-    invoke-static {p3, v1, p1}, Ljava/lang/Class;
-    ->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
+    invoke-static {p3, v1, p1}, Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
 
     .line 36
     .line 37
@@ -593,8 +548,7 @@
 
     .line 40
     .line 41
-    invoke-virtual {p1, p3}, Ljava/lang/Class;
-    ->asSubclass(Ljava/lang/Class;)Ljava/lang/Class;
+    invoke-virtual {p1, p3}, Ljava/lang/Class;->asSubclass(Ljava/lang/Class;)Ljava/lang/Class;
 
     .line 42
     .line 43
@@ -602,13 +556,11 @@
     move-result-object p1
 
     .line 45
-    sget-object p3, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->sConstructorSignature:[Ljava/lang/Class;
+    sget-object p3, Landroidx/appcompat/app/AppCompatViewInflater;->sConstructorSignature:[Ljava/lang/Class;
 
     .line 46
     .line 47
-    invoke-virtual {p1, p3}, Ljava/lang/Class;
-    ->getConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+    invoke-virtual {p1, p3}, Ljava/lang/Class;->getConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     .line 48
     .line 49
@@ -616,8 +568,7 @@
     move-result-object v1
 
     .line 51
-    invoke-virtual {v0, p2, v1}, Landroidx/collection/SimpleArrayMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p2, v1}, Landroidx/collection/SimpleArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 52
     .line 53
@@ -626,19 +577,16 @@
     const/4 p1, 0x1
 
     .line 55
-    invoke-virtual {v1, p1}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v1, p1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 56
     .line 57
     .line 58
-    iget-object p1, p0, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->mConstructorArgs:[Ljava/lang/Object;
+    iget-object p1, p0, Landroidx/appcompat/app/AppCompatViewInflater;->mConstructorArgs:[Ljava/lang/Object;
 
     .line 59
     .line 60
-    invoke-virtual {v1, p1}, Ljava/lang/reflect/Constructor;
-    ->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 61
     .line 62
@@ -665,8 +613,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p2, v0}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 4
     .line 5
@@ -685,8 +632,7 @@
 
     .line 11
     .line 12
-    invoke-interface {p3, v1, p2}, Landroid/util/AttributeSet;
-    ->getAttributeValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p3, v1, p2}, Landroid/util/AttributeSet;->getAttributeValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 13
     .line 14
@@ -702,8 +648,7 @@
 
     .line 18
     :try_start_0
-    iget-object v3, p0, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->mConstructorArgs:[Ljava/lang/Object;
+    iget-object v3, p0, Landroidx/appcompat/app/AppCompatViewInflater;->mConstructorArgs:[Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -719,8 +664,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {p2, p3}, Ljava/lang/String;
-    ->indexOf(I)I
+    invoke-virtual {p2, p3}, Ljava/lang/String;->indexOf(I)I
 
     .line 27
     .line 28
@@ -739,8 +683,7 @@
 
     .line 34
     :goto_0
-    sget-object v3, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->sClassPrefixList:[Ljava/lang/String;
+    sget-object v3, Landroidx/appcompat/app/AppCompatViewInflater;->sClassPrefixList:[Ljava/lang/String;
 
     .line 35
     .line 36
@@ -755,8 +698,7 @@
 
     .line 40
     .line 41
-    invoke-direct {p0, p1, p2, v3}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->createViewByPrefix(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/view/View;
+    invoke-direct {p0, p1, p2, v3}, Landroidx/appcompat/app/AppCompatViewInflater;->createViewByPrefix(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/view/View;
 
     .line 42
     .line 43
@@ -771,8 +713,7 @@
 
     .line 46
     .line 47
-    iget-object p1, p0, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->mConstructorArgs:[Ljava/lang/Object;
+    iget-object p1, p0, Landroidx/appcompat/app/AppCompatViewInflater;->mConstructorArgs:[Ljava/lang/Object;
 
     .line 48
     .line 49
@@ -799,8 +740,7 @@
 
     .line 59
     :cond_2
-    iget-object p1, p0, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->mConstructorArgs:[Ljava/lang/Object;
+    iget-object p1, p0, Landroidx/appcompat/app/AppCompatViewInflater;->mConstructorArgs:[Ljava/lang/Object;
 
     .line 60
     .line 61
@@ -813,8 +753,7 @@
     .line 66
     :cond_3
     :try_start_1
-    invoke-direct {p0, p1, p2, v1}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->createViewByPrefix(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/view/View;
+    invoke-direct {p0, p1, p2, v1}, Landroidx/appcompat/app/AppCompatViewInflater;->createViewByPrefix(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Landroid/view/View;
 
     .line 67
     .line 68
@@ -825,8 +764,7 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 70
-    iget-object p2, p0, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->mConstructorArgs:[Ljava/lang/Object;
+    iget-object p2, p0, Landroidx/appcompat/app/AppCompatViewInflater;->mConstructorArgs:[Ljava/lang/Object;
 
     .line 71
     .line 72
@@ -838,8 +776,7 @@
 
     .line 77
     :goto_1
-    iget-object p2, p0, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->mConstructorArgs:[Ljava/lang/Object;
+    iget-object p2, p0, Landroidx/appcompat/app/AppCompatViewInflater;->mConstructorArgs:[Ljava/lang/Object;
 
     .line 78
     .line 79
@@ -855,8 +792,7 @@
 
     .line 84
     :catch_0
-    iget-object p1, p0, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->mConstructorArgs:[Ljava/lang/Object;
+    iget-object p1, p0, Landroidx/appcompat/app/AppCompatViewInflater;->mConstructorArgs:[Ljava/lang/Object;
 
     .line 85
     .line 86
@@ -871,16 +807,14 @@
     .locals 2
 
     .line 1
-    sget-object v0, Landroidx/appcompat/R$styleable;
-    ->View:[I
+    sget-object v0, Landroidx/appcompat/R$styleable;->View:[I
 
     .line 2
     .line 3
     const/4 v1, 0x0
 
     .line 4
-    invoke-virtual {p0, p1, v0, v1, v1}, Landroid/content/Context;
-    ->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
+    invoke-virtual {p0, p1, v0, v1, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
     .line 5
     .line 6
@@ -892,13 +826,11 @@
 
     .line 9
     .line 10
-    sget p2, Landroidx/appcompat/R$styleable;
-    ->View_android_theme:I
+    sget p2, Landroidx/appcompat/R$styleable;->View_android_theme:I
 
     .line 11
     .line 12
-    invoke-virtual {p1, p2, v1}, Landroid/content/res/TypedArray;
-    ->getResourceId(II)I
+    invoke-virtual {p1, p2, v1}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     .line 13
     .line 14
@@ -922,13 +854,11 @@
 
     .line 21
     .line 22
-    sget p2, Landroidx/appcompat/R$styleable;
-    ->View_theme:I
+    sget p2, Landroidx/appcompat/R$styleable;->View_theme:I
 
     .line 23
     .line 24
-    invoke-virtual {p1, p2, v1}, Landroid/content/res/TypedArray;
-    ->getResourceId(II)I
+    invoke-virtual {p1, p2, v1}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     .line 25
     .line 26
@@ -948,15 +878,13 @@
 
     .line 33
     .line 34
-    invoke-static {p3, v0}, Landroid/util/Log;
-    ->i(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p3, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 35
     .line 36
     .line 37
     :cond_1
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;
-    ->recycle()V
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
     .line 38
     .line 39
@@ -980,8 +908,7 @@
 
     .line 48
     .line 49
-    invoke-virtual {p1}, Landroidx/appcompat/view/ContextThemeWrapper;
-    ->getThemeResId()I
+    invoke-virtual {p1}, Landroidx/appcompat/view/ContextThemeWrapper;->getThemeResId()I
 
     .line 50
     .line 51
@@ -998,8 +925,7 @@
 
     .line 56
     .line 57
-    invoke-direct {p1, p0, p2}, Landroidx/appcompat/view/ContextThemeWrapper;
-    -><init>(Landroid/content/Context;I)V
+    invoke-direct {p1, p0, p2}, Landroidx/appcompat/view/ContextThemeWrapper;-><init>(Landroid/content/Context;I)V
     return-object p1
 
     .line 61
@@ -1023,14 +949,12 @@
 
     .line 7
     .line 8
-    invoke-direct {v0}, Ljava/lang/StringBuilder;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p0}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 12
     .line 13
@@ -1038,8 +962,7 @@
     move-result-object v1
 
     .line 15
-    invoke-virtual {v1}, Ljava/lang/Class;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     .line 16
     .line 17
@@ -1047,8 +970,7 @@
     move-result-object v1
 
     .line 19
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 20
     .line 21
@@ -1057,14 +979,12 @@
 
     .line 23
     .line 24
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 25
     .line 26
     .line 27
-    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 28
     .line 29
@@ -1073,14 +993,12 @@
 
     .line 31
     .line 32
-    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 33
     .line 34
     .line 35
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 36
     .line 37
@@ -1088,8 +1006,7 @@
     move-result-object p2
 
     .line 39
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 40
     .line 41
@@ -1108,8 +1025,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatAutoCompleteTextView;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V    
+    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatAutoCompleteTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     return-object v0
 .end method
 
@@ -1123,8 +1039,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatButton;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatButton;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 return-object v0
 .end method
 
@@ -1138,8 +1053,7 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatCheckBox;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatCheckBox;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 return-object v0
 .end method
 
@@ -1153,8 +1067,7 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatCheckedTextView;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V    
+    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatCheckedTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     return-object v0
 .end method
 
@@ -1168,8 +1081,7 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatEditText;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatEditText;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 return-object v0
 .end method
 
@@ -1183,8 +1095,7 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatImageButton;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatImageButton;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 return-object v0
 .end method
 
@@ -1198,8 +1109,7 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatImageView;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V    
+    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     return-object v0
 .end method
 
@@ -1213,8 +1123,7 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatMultiAutoCompleteTextView;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V    
+    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatMultiAutoCompleteTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     return-object v0
 .end method
 
@@ -1228,8 +1137,7 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatRadioButton;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatRadioButton;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 return-object v0
 .end method
 
@@ -1243,8 +1151,7 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatRatingBar;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatRatingBar;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 return-object v0
 .end method
 
@@ -1258,8 +1165,7 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatSeekBar;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatSeekBar;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 return-object v0
 .end method
 
@@ -1273,8 +1179,7 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatSpinner;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatSpinner;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 return-object v0
 .end method
 
@@ -1288,8 +1193,7 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextView;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V    
+    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     return-object v0
 .end method
 
@@ -1303,8 +1207,7 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatToggleButton;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatToggleButton;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 return-object v0
 .end method
 
@@ -1345,8 +1248,7 @@ return-object v0
     if-eqz p1, :cond_0
 
     .line 2
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object p1
 
@@ -1362,8 +1264,7 @@ return-object v0
 
     .line 3
     :cond_1
-    invoke-static {p1, p4, p6, p7}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->themifyContext(Landroid/content/Context;Landroid/util/AttributeSet;ZZ)Landroid/content/Context;
+    invoke-static {p1, p4, p6, p7}, Landroidx/appcompat/app/AppCompatViewInflater;->themifyContext(Landroid/content/Context;Landroid/util/AttributeSet;ZZ)Landroid/content/Context;
 
     move-result-object p1
 
@@ -1371,20 +1272,17 @@ return-object v0
     if-eqz p8, :cond_3
 
     .line 4
-    invoke-static {p1}, Landroidx/appcompat/widget/TintContextWrapper;
-    ->wrap(Landroid/content/Context;)Landroid/content/Context;
+    invoke-static {p1}, Landroidx/appcompat/widget/TintContextWrapper;->wrap(Landroid/content/Context;)Landroid/content/Context;
 
     move-result-object p1
 
     .line 5
     :cond_3
-    invoke-virtual {p2}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     const/4 p5, -0x1
 
-    invoke-virtual {p2}, Ljava/lang/String;
-    ->hashCode()I
+    invoke-virtual {p2}, Ljava/lang/String;->hashCode()I
 
     move-result p6
 
@@ -1395,8 +1293,7 @@ return-object v0
     :sswitch_0
     const-string p6, "Button"
 
-    invoke-virtual {p2, p6}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p6
 
@@ -1412,8 +1309,7 @@ return-object v0
     :sswitch_1
     const-string p6, "EditText"
 
-    invoke-virtual {p2, p6}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p6
 
@@ -1429,8 +1325,7 @@ return-object v0
     :sswitch_2
     const-string p6, "CheckBox"
 
-    invoke-virtual {p2, p6}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p6
 
@@ -1446,8 +1341,7 @@ return-object v0
     :sswitch_3
     const-string p6, "AutoCompleteTextView"
 
-    invoke-virtual {p2, p6}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p6
 
@@ -1463,8 +1357,7 @@ return-object v0
     :sswitch_4
     const-string p6, "ImageView"
 
-    invoke-virtual {p2, p6}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p6
 
@@ -1480,8 +1373,7 @@ return-object v0
     :sswitch_5
     const-string p6, "ToggleButton"
 
-    invoke-virtual {p2, p6}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p6
 
@@ -1497,8 +1389,7 @@ return-object v0
     :sswitch_6
     const-string p6, "RadioButton"
 
-    invoke-virtual {p2, p6}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p6
 
@@ -1514,8 +1405,7 @@ return-object v0
     :sswitch_7
     const-string p6, "Spinner"
 
-    invoke-virtual {p2, p6}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p6
 
@@ -1531,8 +1421,7 @@ return-object v0
     :sswitch_8
     const-string p6, "SeekBar"
 
-    invoke-virtual {p2, p6}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p6
 
@@ -1548,8 +1437,7 @@ return-object v0
     :sswitch_9
     const-string p6, "ImageButton"
 
-    invoke-virtual {p2, p6}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p6
 
@@ -1565,8 +1453,7 @@ return-object v0
     :sswitch_a
     const-string p6, "TextView"
 
-    invoke-virtual {p2, p6}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p6
 
@@ -1582,8 +1469,7 @@ return-object v0
     :sswitch_b
     const-string p6, "MultiAutoCompleteTextView"
 
-    invoke-virtual {p2, p6}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p6
 
@@ -1599,8 +1485,7 @@ return-object v0
     :sswitch_c
     const-string p6, "CheckedTextView"
 
-    invoke-virtual {p2, p6}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p6
 
@@ -1616,8 +1501,7 @@ return-object v0
     :sswitch_d
     const-string p6, "RatingBar"
 
-    invoke-virtual {p2, p6}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p6
 
@@ -1632,8 +1516,7 @@ return-object v0
     packed-switch p5, :pswitch_data_0
 
     .line 6
-    invoke-virtual {p0, p1, p2, p4}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->createView(Landroid/content/Context;Ljava/lang/String;Landroid/util/AttributeSet;)Landroid/view/View;
+    invoke-virtual {p0, p1, p2, p4}, Landroidx/appcompat/app/AppCompatViewInflater;->createView(Landroid/content/Context;Ljava/lang/String;Landroid/util/AttributeSet;)Landroid/view/View;
 
     move-result-object p5
 
@@ -1641,183 +1524,155 @@ return-object v0
 
     .line 7
     :pswitch_0
-    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->createButton(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatButton;
+    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;->createButton(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatButton;
 
     move-result-object p5
 
     .line 8
-    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
+    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
 
     goto/16 :goto_2
 
     .line 9
     :pswitch_1
-    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->createEditText(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatEditText;
+    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;->createEditText(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatEditText;
 
     move-result-object p5
 
     .line 10
-    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
+    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
 
     goto :goto_2
 
     .line 11
     :pswitch_2
-    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->createCheckBox(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatCheckBox;
+    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;->createCheckBox(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatCheckBox;
 
     move-result-object p5
 
     .line 12
-    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
+    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
 
     goto :goto_2
 
     .line 13
     :pswitch_3
-    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->createAutoCompleteTextView(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatAutoCompleteTextView;
+    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;->createAutoCompleteTextView(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatAutoCompleteTextView;
 
     move-result-object p5
 
     .line 14
-    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
+    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
 
     goto :goto_2
 
     .line 15
     :pswitch_4
-    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->createImageView(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatImageView;
+    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;->createImageView(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatImageView;
 
     move-result-object p5
 
     .line 16
-    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
+    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
 
     goto :goto_2
 
     .line 17
     :pswitch_5
-    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->createToggleButton(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatToggleButton;
+    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;->createToggleButton(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatToggleButton;
 
     move-result-object p5
 
     .line 18
-    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
+    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
 
     goto :goto_2
 
     .line 19
     :pswitch_6
-    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->createRadioButton(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatRadioButton;
+    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;->createRadioButton(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatRadioButton;
 
     move-result-object p5
 
     .line 20
-    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
+    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
 
     goto :goto_2
 
     .line 21
     :pswitch_7
-    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->createSpinner(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatSpinner;
+    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;->createSpinner(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatSpinner;
 
     move-result-object p5
 
     .line 22
-    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
+    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
 
     goto :goto_2
 
     .line 23
     :pswitch_8
-    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->createSeekBar(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatSeekBar;
+    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;->createSeekBar(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatSeekBar;
 
     move-result-object p5
 
     .line 24
-    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
+    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
 
     goto :goto_2
 
     .line 25
     :pswitch_9
-    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->createImageButton(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatImageButton;
+    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;->createImageButton(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatImageButton;
 
     move-result-object p5
 
     .line 26
-    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
+    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
 
     goto :goto_2
 
     .line 27
     :pswitch_a
-    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->createTextView(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatTextView;
+    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;->createTextView(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatTextView;
 
     move-result-object p5
 
     .line 28
-    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
+    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
 
     goto :goto_2
 
     .line 29
     :pswitch_b
-    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->createMultiAutoCompleteTextView(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatMultiAutoCompleteTextView;
+    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;->createMultiAutoCompleteTextView(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatMultiAutoCompleteTextView;
 
     move-result-object p5
 
     .line 30
-    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
+    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
 
     goto :goto_2
 
     .line 31
     :pswitch_c
-    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->createCheckedTextView(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatCheckedTextView;
+    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;->createCheckedTextView(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatCheckedTextView;
 
     move-result-object p5
 
     .line 32
-    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
+    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
 
     goto :goto_2
 
     .line 33
     :pswitch_d
-    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->createRatingBar(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatRatingBar;
+    invoke-virtual {p0, p1, p4}, Landroidx/appcompat/app/AppCompatViewInflater;->createRatingBar(Landroid/content/Context;Landroid/util/AttributeSet;)Landroidx/appcompat/widget/AppCompatRatingBar;
 
     move-result-object p5
 
     .line 34
-    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
+    invoke-direct {p0, p5, p2}, Landroidx/appcompat/app/AppCompatViewInflater;->verifyNotNull(Landroid/view/View;Ljava/lang/String;)V
 
     :goto_2
     if-nez p5, :cond_12
@@ -1825,8 +1680,7 @@ return-object v0
     if-eq p3, p1, :cond_12
 
     .line 35
-    invoke-direct {p0, p1, p2, p4}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->createViewFromTag(Landroid/content/Context;Ljava/lang/String;Landroid/util/AttributeSet;)Landroid/view/View;
+    invoke-direct {p0, p1, p2, p4}, Landroidx/appcompat/app/AppCompatViewInflater;->createViewFromTag(Landroid/content/Context;Ljava/lang/String;Landroid/util/AttributeSet;)Landroid/view/View;
 
     move-result-object p5
 
@@ -1834,12 +1688,10 @@ return-object v0
     if-eqz p5, :cond_13
 
     .line 36
-    invoke-direct {p0, p5, p4}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->checkOnClickListener(Landroid/view/View;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p5, p4}, Landroidx/appcompat/app/AppCompatViewInflater;->checkOnClickListener(Landroid/view/View;Landroid/util/AttributeSet;)V
 
     .line 37
-    invoke-direct {p0, p1, p5, p4}, Landroidx/appcompat/app/AppCompatViewInflater;
-    ->backportAccessibilityAttributes(Landroid/content/Context;Landroid/view/View;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p5, p4}, Landroidx/appcompat/app/AppCompatViewInflater;->backportAccessibilityAttributes(Landroid/content/Context;Landroid/view/View;Landroid/util/AttributeSet;)V
 
     :cond_13
     return-object p5

@@ -19,14 +19,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Ll/k;
-    ->a:Ll/e;
+    iput-object p1, p0, Ll/k;->a:Ll/e;
 
     .line 5
     .line 6
@@ -39,13 +37,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Ll/k;
-    ->a:Ll/e;
+    iget-object v0, p0, Ll/k;->a:Ll/e;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0}, LR0/c;
-    ->c(Ll/i;)V
+    invoke-virtual {v0, p0}, LR0/c;->c(Ll/i;)V
 
     .line 4
     .line 5
@@ -72,13 +68,11 @@
 
     .line 7
     .line 8
-    iget v0, p0, Ll/k;
-    ->b:I
+    iget v0, p0, Ll/k;->b:I
 
     .line 9
     .line 10
-    iget v2, p1, Ll/k;
-    ->b:I
+    iget v2, p1, Ll/k;->b:I
 
     .line 11
     .line 12
@@ -86,18 +80,15 @@
 
     .line 13
     .line 14
-    iget-object v0, p0, Ll/k;
-    ->c:Landroid/graphics/Bitmap$Config;
+    iget-object v0, p0, Ll/k;->c:Landroid/graphics/Bitmap$Config;
 
     .line 15
     .line 16
-    iget-object p1, p1, Ll/k;
-    ->c:Landroid/graphics/Bitmap$Config;
+    iget-object p1, p1, Ll/k;->c:Landroid/graphics/Bitmap$Config;
 
     .line 17
     .line 18
-    invoke-static {v0, p1}, LE/o;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, LE/o;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 19
     .line 20
@@ -122,8 +113,7 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Ll/k;
-    ->b:I
+    iget v0, p0, Ll/k;->b:I
 
     .line 2
     .line 3
@@ -131,8 +121,7 @@
 
     .line 4
     .line 5
-    iget-object v1, p0, Ll/k;
-    ->c:Landroid/graphics/Bitmap$Config;
+    iget-object v1, p0, Ll/k;->c:Landroid/graphics/Bitmap$Config;
 
     .line 6
     .line 7
@@ -140,8 +129,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {v1}, Ljava/lang/Object;
-    ->hashCode()I
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
 
     .line 10
     .line 11
@@ -166,18 +154,15 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Ll/k;
-    ->b:I
+    iget v0, p0, Ll/k;->b:I
 
     .line 2
     .line 3
-    iget-object v1, p0, Ll/k;
-    ->c:Landroid/graphics/Bitmap$Config;
+    iget-object v1, p0, Ll/k;->c:Landroid/graphics/Bitmap$Config;
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Ll/l;
-    ->c(ILandroid/graphics/Bitmap$Config;)Ljava/lang/String;
+    invoke-static {v0, v1}, Ll/l;->c(ILandroid/graphics/Bitmap$Config;)Ljava/lang/String;
 
     .line 6
     .line 7

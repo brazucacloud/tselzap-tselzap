@@ -27,14 +27,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, LN/a;
-    ->a:LN/a;
+    sput-object v0, LN/a;->a:LN/a;
 
     .line 7
     .line 8
@@ -42,8 +40,7 @@
 
     .line 9
     .line 10
-    invoke-static {v0}, Lcom/google/firebase/encoders/FieldDescriptor;
-    ->builder(Ljava/lang/String;)Lcom/google/firebase/encoders/FieldDescriptor$Builder;
+    invoke-static {v0}, Lcom/google/firebase/encoders/FieldDescriptor;->builder(Ljava/lang/String;)Lcom/google/firebase/encoders/FieldDescriptor$Builder;
 
     .line 11
     .line 12
@@ -51,8 +48,7 @@
     move-result-object v0
 
     .line 14
-    invoke-static {}, Lcom/google/firebase/encoders/proto/AtProtobuf;
-    ->builder()Lcom/google/firebase/encoders/proto/AtProtobuf;
+    invoke-static {}, Lcom/google/firebase/encoders/proto/AtProtobuf;->builder()Lcom/google/firebase/encoders/proto/AtProtobuf;
 
     .line 15
     .line 16
@@ -63,8 +59,7 @@
     const/4 v2, 0x1
 
     .line 19
-    invoke-virtual {v1, v2}, Lcom/google/firebase/encoders/proto/AtProtobuf;
-    ->tag(I)Lcom/google/firebase/encoders/proto/AtProtobuf;
+    invoke-virtual {v1, v2}, Lcom/google/firebase/encoders/proto/AtProtobuf;->tag(I)Lcom/google/firebase/encoders/proto/AtProtobuf;
 
     .line 20
     .line 21
@@ -72,8 +67,7 @@
     move-result-object v1
 
     .line 23
-    invoke-virtual {v1}, Lcom/google/firebase/encoders/proto/AtProtobuf;
-    ->build()Lcom/google/firebase/encoders/proto/Protobuf;
+    invoke-virtual {v1}, Lcom/google/firebase/encoders/proto/AtProtobuf;->build()Lcom/google/firebase/encoders/proto/Protobuf;
 
     .line 24
     .line 25
@@ -81,8 +75,7 @@
     move-result-object v1
 
     .line 27
-    invoke-virtual {v0, v1}, Lcom/google/firebase/encoders/FieldDescriptor$Builder;
-    ->withProperty(Ljava/lang/annotation/Annotation;)Lcom/google/firebase/encoders/FieldDescriptor$Builder;
+    invoke-virtual {v0, v1}, Lcom/google/firebase/encoders/FieldDescriptor$Builder;->withProperty(Ljava/lang/annotation/Annotation;)Lcom/google/firebase/encoders/FieldDescriptor$Builder;
 
     .line 28
     .line 29
@@ -90,8 +83,7 @@
     move-result-object v0
 
     .line 31
-    invoke-virtual {v0}, Lcom/google/firebase/encoders/FieldDescriptor$Builder;
-    ->build()Lcom/google/firebase/encoders/FieldDescriptor;
+    invoke-virtual {v0}, Lcom/google/firebase/encoders/FieldDescriptor$Builder;->build()Lcom/google/firebase/encoders/FieldDescriptor;
 
     .line 32
     .line 33
@@ -99,8 +91,7 @@
     move-result-object v0
 
     .line 35
-    sput-object v0, LN/a;
-    ->b:Lcom/google/firebase/encoders/FieldDescriptor;
+    sput-object v0, LN/a;->b:Lcom/google/firebase/encoders/FieldDescriptor;
 
     .line 36
     .line 37
@@ -108,8 +99,7 @@
 
     .line 38
     .line 39
-    invoke-static {v0}, Lcom/google/firebase/encoders/FieldDescriptor;
-    ->builder(Ljava/lang/String;)Lcom/google/firebase/encoders/FieldDescriptor$Builder;
+    invoke-static {v0}, Lcom/google/firebase/encoders/FieldDescriptor;->builder(Ljava/lang/String;)Lcom/google/firebase/encoders/FieldDescriptor$Builder;
 
     .line 40
     .line 41
@@ -117,8 +107,7 @@
     move-result-object v0
 
     .line 43
-    invoke-static {}, Lcom/google/firebase/encoders/proto/AtProtobuf;
-    ->builder()Lcom/google/firebase/encoders/proto/AtProtobuf;
+    invoke-static {}, Lcom/google/firebase/encoders/proto/AtProtobuf;->builder()Lcom/google/firebase/encoders/proto/AtProtobuf;
 
     .line 44
     .line 45
@@ -129,8 +118,7 @@
     const/4 v2, 0x2
 
     .line 48
-    invoke-virtual {v1, v2}, Lcom/google/firebase/encoders/proto/AtProtobuf;
-    ->tag(I)Lcom/google/firebase/encoders/proto/AtProtobuf;
+    invoke-virtual {v1, v2}, Lcom/google/firebase/encoders/proto/AtProtobuf;->tag(I)Lcom/google/firebase/encoders/proto/AtProtobuf;
 
     .line 49
     .line 50
@@ -138,8 +126,7 @@
     move-result-object v1
 
     .line 52
-    invoke-virtual {v1}, Lcom/google/firebase/encoders/proto/AtProtobuf;
-    ->build()Lcom/google/firebase/encoders/proto/Protobuf;
+    invoke-virtual {v1}, Lcom/google/firebase/encoders/proto/AtProtobuf;->build()Lcom/google/firebase/encoders/proto/Protobuf;
 
     .line 53
     .line 54
@@ -147,8 +134,7 @@
     move-result-object v1
 
     .line 56
-    invoke-virtual {v0, v1}, Lcom/google/firebase/encoders/FieldDescriptor$Builder;
-    ->withProperty(Ljava/lang/annotation/Annotation;)Lcom/google/firebase/encoders/FieldDescriptor$Builder;
+    invoke-virtual {v0, v1}, Lcom/google/firebase/encoders/FieldDescriptor$Builder;->withProperty(Ljava/lang/annotation/Annotation;)Lcom/google/firebase/encoders/FieldDescriptor$Builder;
 
     .line 57
     .line 58
@@ -156,8 +142,7 @@
     move-result-object v0
 
     .line 60
-    invoke-virtual {v0}, Lcom/google/firebase/encoders/FieldDescriptor$Builder;
-    ->build()Lcom/google/firebase/encoders/FieldDescriptor;
+    invoke-virtual {v0}, Lcom/google/firebase/encoders/FieldDescriptor$Builder;->build()Lcom/google/firebase/encoders/FieldDescriptor;
 
     .line 61
     .line 62
@@ -165,8 +150,7 @@
     move-result-object v0
 
     .line 64
-    sput-object v0, LN/a;
-    ->c:Lcom/google/firebase/encoders/FieldDescriptor;
+    sput-object v0, LN/a;->c:Lcom/google/firebase/encoders/FieldDescriptor;
 
     .line 65
     .line 66
@@ -174,8 +158,7 @@
 
     .line 67
     .line 68
-    invoke-static {v0}, Lcom/google/firebase/encoders/FieldDescriptor;
-    ->builder(Ljava/lang/String;)Lcom/google/firebase/encoders/FieldDescriptor$Builder;
+    invoke-static {v0}, Lcom/google/firebase/encoders/FieldDescriptor;->builder(Ljava/lang/String;)Lcom/google/firebase/encoders/FieldDescriptor$Builder;
 
     .line 69
     .line 70
@@ -183,8 +166,7 @@
     move-result-object v0
 
     .line 72
-    invoke-static {}, Lcom/google/firebase/encoders/proto/AtProtobuf;
-    ->builder()Lcom/google/firebase/encoders/proto/AtProtobuf;
+    invoke-static {}, Lcom/google/firebase/encoders/proto/AtProtobuf;->builder()Lcom/google/firebase/encoders/proto/AtProtobuf;
 
     .line 73
     .line 74
@@ -195,8 +177,7 @@
     const/4 v2, 0x3
 
     .line 77
-    invoke-virtual {v1, v2}, Lcom/google/firebase/encoders/proto/AtProtobuf;
-    ->tag(I)Lcom/google/firebase/encoders/proto/AtProtobuf;
+    invoke-virtual {v1, v2}, Lcom/google/firebase/encoders/proto/AtProtobuf;->tag(I)Lcom/google/firebase/encoders/proto/AtProtobuf;
 
     .line 78
     .line 79
@@ -204,8 +185,7 @@
     move-result-object v1
 
     .line 81
-    invoke-virtual {v1}, Lcom/google/firebase/encoders/proto/AtProtobuf;
-    ->build()Lcom/google/firebase/encoders/proto/Protobuf;
+    invoke-virtual {v1}, Lcom/google/firebase/encoders/proto/AtProtobuf;->build()Lcom/google/firebase/encoders/proto/Protobuf;
 
     .line 82
     .line 83
@@ -213,8 +193,7 @@
     move-result-object v1
 
     .line 85
-    invoke-virtual {v0, v1}, Lcom/google/firebase/encoders/FieldDescriptor$Builder;
-    ->withProperty(Ljava/lang/annotation/Annotation;)Lcom/google/firebase/encoders/FieldDescriptor$Builder;
+    invoke-virtual {v0, v1}, Lcom/google/firebase/encoders/FieldDescriptor$Builder;->withProperty(Ljava/lang/annotation/Annotation;)Lcom/google/firebase/encoders/FieldDescriptor$Builder;
 
     .line 86
     .line 87
@@ -222,8 +201,7 @@
     move-result-object v0
 
     .line 89
-    invoke-virtual {v0}, Lcom/google/firebase/encoders/FieldDescriptor$Builder;
-    ->build()Lcom/google/firebase/encoders/FieldDescriptor;
+    invoke-virtual {v0}, Lcom/google/firebase/encoders/FieldDescriptor$Builder;->build()Lcom/google/firebase/encoders/FieldDescriptor;
 
     .line 90
     .line 91
@@ -231,8 +209,7 @@
     move-result-object v0
 
     .line 93
-    sput-object v0, LN/a;
-    ->d:Lcom/google/firebase/encoders/FieldDescriptor;
+    sput-object v0, LN/a;->d:Lcom/google/firebase/encoders/FieldDescriptor;
 
     .line 94
     .line 95
@@ -240,8 +217,7 @@
 
     .line 96
     .line 97
-    invoke-static {v0}, Lcom/google/firebase/encoders/FieldDescriptor;
-    ->builder(Ljava/lang/String;)Lcom/google/firebase/encoders/FieldDescriptor$Builder;
+    invoke-static {v0}, Lcom/google/firebase/encoders/FieldDescriptor;->builder(Ljava/lang/String;)Lcom/google/firebase/encoders/FieldDescriptor$Builder;
 
     .line 98
     .line 99
@@ -249,8 +225,7 @@
     move-result-object v0
 
     .line 101
-    invoke-static {}, Lcom/google/firebase/encoders/proto/AtProtobuf;
-    ->builder()Lcom/google/firebase/encoders/proto/AtProtobuf;
+    invoke-static {}, Lcom/google/firebase/encoders/proto/AtProtobuf;->builder()Lcom/google/firebase/encoders/proto/AtProtobuf;
 
     .line 102
     .line 103
@@ -261,8 +236,7 @@
     const/4 v2, 0x4
 
     .line 106
-    invoke-virtual {v1, v2}, Lcom/google/firebase/encoders/proto/AtProtobuf;
-    ->tag(I)Lcom/google/firebase/encoders/proto/AtProtobuf;
+    invoke-virtual {v1, v2}, Lcom/google/firebase/encoders/proto/AtProtobuf;->tag(I)Lcom/google/firebase/encoders/proto/AtProtobuf;
 
     .line 107
     .line 108
@@ -270,8 +244,7 @@
     move-result-object v1
 
     .line 110
-    invoke-virtual {v1}, Lcom/google/firebase/encoders/proto/AtProtobuf;
-    ->build()Lcom/google/firebase/encoders/proto/Protobuf;
+    invoke-virtual {v1}, Lcom/google/firebase/encoders/proto/AtProtobuf;->build()Lcom/google/firebase/encoders/proto/Protobuf;
 
     .line 111
     .line 112
@@ -279,8 +252,7 @@
     move-result-object v1
 
     .line 114
-    invoke-virtual {v0, v1}, Lcom/google/firebase/encoders/FieldDescriptor$Builder;
-    ->withProperty(Ljava/lang/annotation/Annotation;)Lcom/google/firebase/encoders/FieldDescriptor$Builder;
+    invoke-virtual {v0, v1}, Lcom/google/firebase/encoders/FieldDescriptor$Builder;->withProperty(Ljava/lang/annotation/Annotation;)Lcom/google/firebase/encoders/FieldDescriptor$Builder;
 
     .line 115
     .line 116
@@ -288,8 +260,7 @@
     move-result-object v0
 
     .line 118
-    invoke-virtual {v0}, Lcom/google/firebase/encoders/FieldDescriptor$Builder;
-    ->build()Lcom/google/firebase/encoders/FieldDescriptor;
+    invoke-virtual {v0}, Lcom/google/firebase/encoders/FieldDescriptor$Builder;->build()Lcom/google/firebase/encoders/FieldDescriptor;
 
     .line 119
     .line 120
@@ -297,8 +268,7 @@
     move-result-object v0
 
     .line 122
-    sput-object v0, LN/a;
-    ->e:Lcom/google/firebase/encoders/FieldDescriptor;
+    sput-object v0, LN/a;->e:Lcom/google/firebase/encoders/FieldDescriptor;
 
     .line 123
     .line 124
@@ -319,66 +289,54 @@
 
     .line 4
     .line 5
-    iget-object v0, p1, LQ/a;
-    ->a:LQ/g;
+    iget-object v0, p1, LQ/a;->a:LQ/g;
 
     .line 6
     .line 7
-    sget-object v1, LN/a;
-    ->b:Lcom/google/firebase/encoders/FieldDescriptor;
+    sget-object v1, LN/a;->b:Lcom/google/firebase/encoders/FieldDescriptor;
 
     .line 8
     .line 9
-    invoke-interface {p2, v1, v0}, Lcom/google/firebase/encoders/ObjectEncoderContext;
-    ->add(Lcom/google/firebase/encoders/FieldDescriptor;Ljava/lang/Object;)Lcom/google/firebase/encoders/ObjectEncoderContext;
+    invoke-interface {p2, v1, v0}, Lcom/google/firebase/encoders/ObjectEncoderContext;->add(Lcom/google/firebase/encoders/FieldDescriptor;Ljava/lang/Object;)Lcom/google/firebase/encoders/ObjectEncoderContext;
 
     .line 10
     .line 11
     .line 12
-    sget-object v0, LN/a;
-    ->c:Lcom/google/firebase/encoders/FieldDescriptor;
+    sget-object v0, LN/a;->c:Lcom/google/firebase/encoders/FieldDescriptor;
 
     .line 13
     .line 14
-    iget-object v1, p1, LQ/a;
-    ->b:Ljava/util/List;
+    iget-object v1, p1, LQ/a;->b:Ljava/util/List;
 
     .line 15
     .line 16
-    invoke-interface {p2, v0, v1}, Lcom/google/firebase/encoders/ObjectEncoderContext;
-    ->add(Lcom/google/firebase/encoders/FieldDescriptor;Ljava/lang/Object;)Lcom/google/firebase/encoders/ObjectEncoderContext;
+    invoke-interface {p2, v0, v1}, Lcom/google/firebase/encoders/ObjectEncoderContext;->add(Lcom/google/firebase/encoders/FieldDescriptor;Ljava/lang/Object;)Lcom/google/firebase/encoders/ObjectEncoderContext;
 
     .line 17
     .line 18
     .line 19
-    sget-object v0, LN/a;
-    ->d:Lcom/google/firebase/encoders/FieldDescriptor;
+    sget-object v0, LN/a;->d:Lcom/google/firebase/encoders/FieldDescriptor;
 
     .line 20
     .line 21
-    iget-object v1, p1, LQ/a;
-    ->c:LQ/b;
+    iget-object v1, p1, LQ/a;->c:LQ/b;
 
     .line 22
     .line 23
-    invoke-interface {p2, v0, v1}, Lcom/google/firebase/encoders/ObjectEncoderContext;
-    ->add(Lcom/google/firebase/encoders/FieldDescriptor;Ljava/lang/Object;)Lcom/google/firebase/encoders/ObjectEncoderContext;
+    invoke-interface {p2, v0, v1}, Lcom/google/firebase/encoders/ObjectEncoderContext;->add(Lcom/google/firebase/encoders/FieldDescriptor;Ljava/lang/Object;)Lcom/google/firebase/encoders/ObjectEncoderContext;
 
     .line 24
     .line 25
     .line 26
-    sget-object v0, LN/a;
-    ->e:Lcom/google/firebase/encoders/FieldDescriptor;
+    sget-object v0, LN/a;->e:Lcom/google/firebase/encoders/FieldDescriptor;
 
     .line 27
     .line 28
-    iget-object p1, p1, LQ/a;
-    ->d:Ljava/lang/String;
+    iget-object p1, p1, LQ/a;->d:Ljava/lang/String;
 
     .line 29
     .line 30
-    invoke-interface {p2, v0, p1}, Lcom/google/firebase/encoders/ObjectEncoderContext;
-    ->add(Lcom/google/firebase/encoders/FieldDescriptor;Ljava/lang/Object;)Lcom/google/firebase/encoders/ObjectEncoderContext;
+    invoke-interface {p2, v0, p1}, Lcom/google/firebase/encoders/ObjectEncoderContext;->add(Lcom/google/firebase/encoders/FieldDescriptor;Ljava/lang/Object;)Lcom/google/firebase/encoders/ObjectEncoderContext;
 
     .line 31
     .line 32

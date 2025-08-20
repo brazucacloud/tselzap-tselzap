@@ -31,26 +31,21 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, -0x1
 
-    iput v0, p0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;
-    ->zza:I
+    iput v0, p0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;->zza:I
 
-    iput v0, p0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;
-    ->zzb:I
+    iput v0, p0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;->zzb:I
 
     const/4 v0, 0x0
 
-    iput v0, p0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;
-    ->zzc:I
+    iput v0, p0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;->zzc:I
 
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;
-    ->zzd:Z
+    iput-boolean v0, p0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;->zzd:Z
 return-void
 .end method
 
@@ -69,28 +64,23 @@ return-void
 
     .line 2
     .line 3
-    iget v1, p0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;
-    ->zza:I
+    iget v1, p0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;->zza:I
 
     .line 4
     .line 5
-    iget v2, p0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;
-    ->zzb:I
+    iget v2, p0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;->zzb:I
 
     .line 6
     .line 7
-    iget v3, p0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;
-    ->zzc:I
+    iget v3, p0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;->zzc:I
 
     .line 8
     .line 9
-    iget-boolean v4, p0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;
-    ->zzd:Z
+    iget-boolean v4, p0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;->zzd:Z
 
     .line 10
     .line 11
-    invoke-direct {v0, v1, v2, v3, v4}, Lcom/google/android/gms/common/api/ComplianceOptions;
-    -><init>(IIIZ)V
+    invoke-direct {v0, v1, v2, v3, v4}, Lcom/google/android/gms/common/api/ComplianceOptions;-><init>(IIIZ)V
 
     .line 12
     .line 13
@@ -106,8 +96,7 @@ return-void
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    iput p1, p0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;
-    ->zza:I
+    iput p1, p0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;->zza:I
 
     return-object p0
 .end method
@@ -120,8 +109,7 @@ return-void
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    iput p1, p0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;
-    ->zzb:I
+    iput p1, p0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;->zzb:I
 
     return-object p0
 .end method
@@ -134,8 +122,7 @@ return-void
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    iput-boolean p1, p0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;
-    ->zzd:Z
+    iput-boolean p1, p0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;->zzd:Z
 return-object p0
 .end method
 
@@ -147,8 +134,7 @@ return-object p0
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    iput p1, p0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;
-    ->zzc:I
+    iput p1, p0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;->zzc:I
 
     return-object p0
 .end method

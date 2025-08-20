@@ -66,8 +66,7 @@
     const/4 v1, 0x3
 
     .line 3
-    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->makeTag(II)I
+    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/WireFormat;->makeTag(II)I
 
     .line 4
     .line 5
@@ -75,16 +74,14 @@
     move-result v2
 
     .line 7
-    sput v2, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->MESSAGE_SET_ITEM_TAG:I
+    sput v2, Landroidx/datastore/preferences/protobuf/WireFormat;->MESSAGE_SET_ITEM_TAG:I
 
     .line 8
     .line 9
     const/4 v2, 0x4
 
     .line 10
-    invoke-static {v0, v2}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->makeTag(II)I
+    invoke-static {v0, v2}, Landroidx/datastore/preferences/protobuf/WireFormat;->makeTag(II)I
 
     .line 11
     .line 12
@@ -92,8 +89,7 @@
     move-result v0
 
     .line 14
-    sput v0, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->MESSAGE_SET_ITEM_END_TAG:I
+    sput v0, Landroidx/datastore/preferences/protobuf/WireFormat;->MESSAGE_SET_ITEM_END_TAG:I
 
     .line 15
     .line 16
@@ -103,8 +99,7 @@
     const/4 v2, 0x2
 
     .line 18
-    invoke-static {v2, v0}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->makeTag(II)I
+    invoke-static {v2, v0}, Landroidx/datastore/preferences/protobuf/WireFormat;->makeTag(II)I
 
     .line 19
     .line 20
@@ -112,13 +107,11 @@
     move-result v0
 
     .line 22
-    sput v0, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->MESSAGE_SET_TYPE_ID_TAG:I
+    sput v0, Landroidx/datastore/preferences/protobuf/WireFormat;->MESSAGE_SET_TYPE_ID_TAG:I
 
     .line 23
     .line 24
-    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->makeTag(II)I
+    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/WireFormat;->makeTag(II)I
 
     .line 25
     .line 26
@@ -126,16 +119,14 @@
     move-result v0
 
     .line 28
-    sput v0, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->MESSAGE_SET_MESSAGE_TAG:I    return-void
+    sput v0, Landroidx/datastore/preferences/protobuf/WireFormat;->MESSAGE_SET_MESSAGE_TAG:I    return-void
 .end method
 
 .method private constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -169,13 +160,11 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/WireFormat$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
+    sget-object v0, Landroidx/datastore/preferences/protobuf/WireFormat$1;->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
 
     .line 4
     .line 5
@@ -200,8 +189,7 @@
 
     .line 15
     .line 16
-    invoke-direct {p0, p1}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
     .line 17
     .line 18
@@ -218,8 +206,7 @@
 
     .line 23
     .line 24
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 25
     .line 26
@@ -236,8 +223,7 @@
 
     .line 31
     .line 32
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 33
     .line 34
@@ -254,8 +240,7 @@
 
     .line 39
     .line 40
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 41
     .line 42
@@ -264,8 +249,7 @@
 
     .line 44
     :pswitch_3
-    invoke-virtual {p2, p0}, Landroidx/datastore/preferences/protobuf/WireFormat$Utf8Validation;
-    ->readString(Landroidx/datastore/preferences/protobuf/CodedInputStream;)Ljava/lang/Object;
+    invoke-virtual {p2, p0}, Landroidx/datastore/preferences/protobuf/WireFormat$Utf8Validation;->readString(Landroidx/datastore/preferences/protobuf/CodedInputStream;)Ljava/lang/Object;
 
     .line 45
     .line 46
@@ -276,8 +260,7 @@
 
     .line 49
     :pswitch_4
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->readSInt64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->readSInt64()J
 
     .line 50
     .line 51
@@ -285,8 +268,7 @@
     move-result-wide p0
 
     .line 53
-    invoke-static {p0, p1}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {p0, p1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 54
     .line 55
@@ -297,8 +279,7 @@
 
     .line 58
     :pswitch_5
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->readSInt32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->readSInt32()I
 
     .line 59
     .line 60
@@ -306,8 +287,7 @@
     move-result p0
 
     .line 62
-    invoke-static {p0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 63
     .line 64
@@ -318,8 +298,7 @@
 
     .line 67
     :pswitch_6
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->readSFixed64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->readSFixed64()J
 
     .line 68
     .line 69
@@ -327,8 +306,7 @@
     move-result-wide p0
 
     .line 71
-    invoke-static {p0, p1}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {p0, p1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 72
     .line 73
@@ -339,8 +317,7 @@
 
     .line 76
     :pswitch_7
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->readSFixed32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->readSFixed32()I
 
     .line 77
     .line 78
@@ -348,8 +325,7 @@
     move-result p0
 
     .line 80
-    invoke-static {p0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 81
     .line 82
@@ -360,8 +336,7 @@
 
     .line 85
     :pswitch_8
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->readUInt32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->readUInt32()I
 
     .line 86
     .line 87
@@ -369,8 +344,7 @@
     move-result p0
 
     .line 89
-    invoke-static {p0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 90
     .line 91
@@ -381,8 +355,7 @@
 
     .line 94
     :pswitch_9
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->readBytes()Landroidx/datastore/preferences/protobuf/ByteString;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->readBytes()Landroidx/datastore/preferences/protobuf/ByteString;
 
     .line 95
     .line 96
@@ -393,8 +366,7 @@
 
     .line 99
     :pswitch_a
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->readBool()Z
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->readBool()Z
 
     .line 100
     .line 101
@@ -402,8 +374,7 @@
     move-result p0
 
     .line 103
-    invoke-static {p0}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 104
     .line 105
@@ -414,8 +385,7 @@
 
     .line 108
     :pswitch_b
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->readFixed32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->readFixed32()I
 
     .line 109
     .line 110
@@ -423,8 +393,7 @@
     move-result p0
 
     .line 112
-    invoke-static {p0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 113
     .line 114
@@ -435,8 +404,7 @@
 
     .line 117
     :pswitch_c
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->readFixed64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->readFixed64()J
 
     .line 118
     .line 119
@@ -444,8 +412,7 @@
     move-result-wide p0
 
     .line 121
-    invoke-static {p0, p1}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {p0, p1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 122
     .line 123
@@ -456,8 +423,7 @@
 
     .line 126
     :pswitch_d
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->readInt32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->readInt32()I
 
     .line 127
     .line 128
@@ -465,8 +431,7 @@
     move-result p0
 
     .line 130
-    invoke-static {p0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 131
     .line 132
@@ -477,8 +442,7 @@
 
     .line 135
     :pswitch_e
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->readUInt64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->readUInt64()J
 
     .line 136
     .line 137
@@ -486,8 +450,7 @@
     move-result-wide p0
 
     .line 139
-    invoke-static {p0, p1}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {p0, p1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 140
     .line 141
@@ -498,8 +461,7 @@
 
     .line 144
     :pswitch_f
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->readInt64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->readInt64()J
 
     .line 145
     .line 146
@@ -507,8 +469,7 @@
     move-result-wide p0
 
     .line 148
-    invoke-static {p0, p1}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {p0, p1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 149
     .line 150
@@ -519,8 +480,7 @@
 
     .line 153
     :pswitch_10
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->readFloat()F
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->readFloat()F
 
     .line 154
     .line 155
@@ -528,8 +488,7 @@
     move-result p0
 
     .line 157
-    invoke-static {p0}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {p0}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     .line 158
     .line 159
@@ -540,8 +499,7 @@
 
     .line 162
     :pswitch_11
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->readDouble()D
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->readDouble()D
 
     .line 163
     .line 164
@@ -549,8 +507,7 @@
     move-result-wide p0
 
     .line 166
-    invoke-static {p0, p1}, Ljava/lang/Double;
-    ->valueOf(D)Ljava/lang/Double;
+    invoke-static {p0, p1}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     .line 167
     .line 168

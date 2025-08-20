@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/fragment/app/FragmentViewModelLazyKt;
-    ->viewModels$lambda-0(Lc1/d;)Landroidx/lifecycle/ViewModelStoreOwner;
+    invoke-static {p0}, Landroidx/fragment/app/FragmentViewModelLazyKt;->viewModels$lambda-0(Lc1/d;)Landroidx/lifecycle/ViewModelStoreOwner;
 
     .line 2
     .line 3
@@ -23,8 +22,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/fragment/app/FragmentViewModelLazyKt;
-    ->viewModels$lambda-1(Lc1/d;)Landroidx/lifecycle/ViewModelStoreOwner;
+    invoke-static {p0}, Landroidx/fragment/app/FragmentViewModelLazyKt;->viewModels$lambda-1(Lc1/d;)Landroidx/lifecycle/ViewModelStoreOwner;
 
     .line 2
     .line 3
@@ -53,12 +51,10 @@
 
     const-string p1, "<this>"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-static {}, Lkotlin/jvm/internal/j;
-    ->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
 
     const/4 p0, 0x0
 
@@ -85,12 +81,10 @@
 
     const-string p1, "<this>"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-static {}, Lkotlin/jvm/internal/j;
-    ->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
 
     const/4 p0, 0x0
 
@@ -103,12 +97,10 @@
     .line 1
     const-string p1, "<this>"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-static {}, Lkotlin/jvm/internal/j;
-    ->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
 
     const/4 p0, 0x0
 
@@ -121,12 +113,10 @@
     .line 3
     const-string p1, "<this>"
 
-    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
-    invoke-static {}, Lkotlin/jvm/internal/j;
-    ->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
 
     const/4 p0, 0x0
 
@@ -140,27 +130,22 @@
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "viewModelClass"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "storeProducer"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance v0, Landroidx/fragment/app/FragmentViewModelLazyKt$createViewModelLazy$1;
 
-    invoke-direct {v0, p0}, Landroidx/fragment/app/FragmentViewModelLazyKt$createViewModelLazy$1;
-    -><init>(Landroidx/fragment/app/Fragment;)V
+    invoke-direct {v0, p0}, Landroidx/fragment/app/FragmentViewModelLazyKt$createViewModelLazy$1;-><init>(Landroidx/fragment/app/Fragment;)V
 
-    invoke-static {p0, p1, p2, v0, p3}, Landroidx/fragment/app/FragmentViewModelLazyKt;
-    ->createViewModelLazy(Landroidx/fragment/app/Fragment;Lv1/c;Lp1/a;Lp1/a;Lp1/a;)Lc1/d;
+    invoke-static {p0, p1, p2, v0, p3}, Landroidx/fragment/app/FragmentViewModelLazyKt;->createViewModelLazy(Landroidx/fragment/app/Fragment;Lv1/c;Lp1/a;Lp1/a;Lp1/a;)Lc1/d;
 
     move-result-object p0
 
@@ -189,38 +174,32 @@
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "viewModelClass"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "storeProducer"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "extrasProducer"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-nez p4, :cond_0
 
     .line 2
     new-instance p4, Landroidx/fragment/app/FragmentViewModelLazyKt$createViewModelLazy$factoryPromise$1;
 
-    invoke-direct {p4, p0}, Landroidx/fragment/app/FragmentViewModelLazyKt$createViewModelLazy$factoryPromise$1;
-    -><init>(Landroidx/fragment/app/Fragment;)V
+    invoke-direct {p4, p0}, Landroidx/fragment/app/FragmentViewModelLazyKt$createViewModelLazy$factoryPromise$1;-><init>(Landroidx/fragment/app/Fragment;)V
 
     .line 3
     :cond_0
     new-instance p0, Landroidx/lifecycle/ViewModelLazy;
 
-    invoke-direct {p0, p1, p2, p4, p3}, Landroidx/lifecycle/ViewModelLazy;
-    -><init>(Lv1/c;Lp1/a;Lp1/a;Lp1/a;)V
+    invoke-direct {p0, p1, p2, p4, p3}, Landroidx/lifecycle/ViewModelLazy;-><init>(Lv1/c;Lp1/a;Lp1/a;Lp1/a;)V
 
     return-object p0
 .end method
@@ -236,8 +215,7 @@
 
     .line 1
     :cond_0
-    invoke-static {p0, p1, p2, p3}, Landroidx/fragment/app/FragmentViewModelLazyKt;
-    ->createViewModelLazy(Landroidx/fragment/app/Fragment;Lv1/c;Lp1/a;Lp1/a;)Lc1/d;
+    invoke-static {p0, p1, p2, p3}, Landroidx/fragment/app/FragmentViewModelLazyKt;->createViewModelLazy(Landroidx/fragment/app/Fragment;Lv1/c;Lp1/a;Lp1/a;)Lc1/d;
 
     move-result-object p0
 
@@ -254,8 +232,7 @@
     .line 2
     new-instance p3, Landroidx/fragment/app/FragmentViewModelLazyKt$createViewModelLazy$2;
 
-    invoke-direct {p3, p0}, Landroidx/fragment/app/FragmentViewModelLazyKt$createViewModelLazy$2;
-    -><init>(Landroidx/fragment/app/Fragment;)V
+    invoke-direct {p3, p0}, Landroidx/fragment/app/FragmentViewModelLazyKt$createViewModelLazy$2;-><init>(Landroidx/fragment/app/Fragment;)V
 
     :cond_0
     and-int/lit8 p5, p5, 0x8
@@ -266,8 +243,7 @@
 
     .line 3
     :cond_1
-    invoke-static {p0, p1, p2, p3, p4}, Landroidx/fragment/app/FragmentViewModelLazyKt;
-    ->createViewModelLazy(Landroidx/fragment/app/Fragment;Lv1/c;Lp1/a;Lp1/a;Lp1/a;)Lc1/d;
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/fragment/app/FragmentViewModelLazyKt;->createViewModelLazy(Landroidx/fragment/app/Fragment;Lv1/c;Lp1/a;Lp1/a;Lp1/a;)Lc1/d;
 
     move-result-object p0
 
@@ -294,29 +270,23 @@
 
     const-string p2, "<this>"
 
-    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p0, "ownerProducer"
 
-    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    sget-object p0, Lc1/e;
-    ->c:Lc1/e;
+    sget-object p0, Lc1/e;->c:Lc1/e;
 
     new-instance p2, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$owner$2;
 
-    invoke-direct {p2, p1}, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$owner$2;
-    -><init>(Lp1/a;)V
+    invoke-direct {p2, p1}, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$owner$2;-><init>(Lp1/a;)V
 
-    invoke-static {p0, p2}, La/a;
-    ->B(Lc1/e;Lp1/a;)Lc1/d;
+    invoke-static {p0, p2}, La/a;->B(Lc1/e;Lp1/a;)Lc1/d;
 
     .line 2
-    invoke-static {}, Lkotlin/jvm/internal/j;
-    ->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
 
     const/4 p0, 0x0
 
@@ -344,29 +314,23 @@
 
     const-string p2, "<this>"
 
-    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p0, "ownerProducer"
 
-    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
-    sget-object p0, Lc1/e;
-    ->c:Lc1/e;
+    sget-object p0, Lc1/e;->c:Lc1/e;
 
     new-instance p2, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$owner$4;
 
-    invoke-direct {p2, p1}, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$owner$4;
-    -><init>(Lp1/a;)V
+    invoke-direct {p2, p1}, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$owner$4;-><init>(Lp1/a;)V
 
-    invoke-static {p0, p2}, La/a;
-    ->B(Lc1/e;Lp1/a;)Lc1/d;
+    invoke-static {p0, p2}, La/a;->B(Lc1/e;Lp1/a;)Lc1/d;
 
     .line 4
-    invoke-static {}, Lkotlin/jvm/internal/j;
-    ->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
 
     const/4 p0, 0x0
 
@@ -383,36 +347,29 @@
     .line 1
     new-instance p1, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$1;
 
-    invoke-direct {p1, p0}, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$1;
-    -><init>(Landroidx/fragment/app/Fragment;)V
+    invoke-direct {p1, p0}, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$1;-><init>(Landroidx/fragment/app/Fragment;)V
 
     .line 2
     :cond_0
     const-string p2, "<this>"
 
-    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p0, "ownerProducer"
 
-    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
-    sget-object p0, Lc1/e;
-    ->c:Lc1/e;
+    sget-object p0, Lc1/e;->c:Lc1/e;
 
     new-instance p2, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$owner$2;
 
-    invoke-direct {p2, p1}, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$owner$2;
-    -><init>(Lp1/a;)V
+    invoke-direct {p2, p1}, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$owner$2;-><init>(Lp1/a;)V
 
-    invoke-static {p0, p2}, La/a;
-    ->B(Lc1/e;Lp1/a;)Lc1/d;
+    invoke-static {p0, p2}, La/a;->B(Lc1/e;Lp1/a;)Lc1/d;
 
     .line 4
-    invoke-static {}, Lkotlin/jvm/internal/j;
-    ->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
 
     const/4 p0, 0x0
 
@@ -429,36 +386,29 @@
     .line 5
     new-instance p1, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$5;
 
-    invoke-direct {p1, p0}, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$5;
-    -><init>(Landroidx/fragment/app/Fragment;)V
+    invoke-direct {p1, p0}, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$5;-><init>(Landroidx/fragment/app/Fragment;)V
 
     .line 6
     :cond_0
     const-string p2, "<this>"
 
-    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p0, "ownerProducer"
 
-    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 7
-    sget-object p0, Lc1/e;
-    ->c:Lc1/e;
+    sget-object p0, Lc1/e;->c:Lc1/e;
 
     new-instance p2, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$owner$4;
 
-    invoke-direct {p2, p1}, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$owner$4;
-    -><init>(Lp1/a;)V
+    invoke-direct {p2, p1}, Landroidx/fragment/app/FragmentViewModelLazyKt$viewModels$owner$4;-><init>(Lp1/a;)V
 
-    invoke-static {p0, p2}, La/a;
-    ->B(Lc1/e;Lp1/a;)Lc1/d;
+    invoke-static {p0, p2}, La/a;->B(Lc1/e;Lp1/a;)Lc1/d;
 
     .line 8
-    invoke-static {}, Lkotlin/jvm/internal/j;
-    ->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
 
     const/4 p0, 0x0
 
@@ -477,8 +427,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0}, Lc1/d;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {p0}, Lc1/d;->getValue()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -501,8 +450,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0}, Lc1/d;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {p0}, Lc1/d;->getValue()Ljava/lang/Object;
 
     .line 2
     .line 3

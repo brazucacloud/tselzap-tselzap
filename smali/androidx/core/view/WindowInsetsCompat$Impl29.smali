@@ -39,22 +39,18 @@
     .end param
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/core/view/WindowInsetsCompat$Impl28;
-    -><init>(Landroidx/core/view/WindowInsetsCompat;Landroid/view/WindowInsets;)V
+    invoke-direct {p0, p1, p2}, Landroidx/core/view/WindowInsetsCompat$Impl28;-><init>(Landroidx/core/view/WindowInsetsCompat;Landroid/view/WindowInsets;)V
 
     const/4 p1, 0x0
 
     .line 2
-    iput-object p1, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;
-    ->mSystemGestureInsets:Landroidx/core/graphics/Insets;
+    iput-object p1, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;->mSystemGestureInsets:Landroidx/core/graphics/Insets;
 
     .line 3
-    iput-object p1, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;
-    ->mMandatorySystemGestureInsets:Landroidx/core/graphics/Insets;
+    iput-object p1, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;->mMandatorySystemGestureInsets:Landroidx/core/graphics/Insets;
 
     .line 4
-    iput-object p1, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;
-    ->mTappableElementInsets:Landroidx/core/graphics/Insets;
+    iput-object p1, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;->mTappableElementInsets:Landroidx/core/graphics/Insets;
 
     return-void
 .end method
@@ -71,22 +67,18 @@
     .end param
 
     .line 5
-    invoke-direct {p0, p1, p2}, Landroidx/core/view/WindowInsetsCompat$Impl28;
-    -><init>(Landroidx/core/view/WindowInsetsCompat;Landroidx/core/view/WindowInsetsCompat$Impl28;)V
+    invoke-direct {p0, p1, p2}, Landroidx/core/view/WindowInsetsCompat$Impl28;-><init>(Landroidx/core/view/WindowInsetsCompat;Landroidx/core/view/WindowInsetsCompat$Impl28;)V
 
     const/4 p1, 0x0
 
     .line 6
-    iput-object p1, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;
-    ->mSystemGestureInsets:Landroidx/core/graphics/Insets;
+    iput-object p1, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;->mSystemGestureInsets:Landroidx/core/graphics/Insets;
 
     .line 7
-    iput-object p1, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;
-    ->mMandatorySystemGestureInsets:Landroidx/core/graphics/Insets;
+    iput-object p1, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;->mMandatorySystemGestureInsets:Landroidx/core/graphics/Insets;
 
     .line 8
-    iput-object p1, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;
-    ->mTappableElementInsets:Landroidx/core/graphics/Insets;
+    iput-object p1, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;->mTappableElementInsets:Landroidx/core/graphics/Insets;
 
     return-void
 .end method
@@ -99,8 +91,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;
-    ->mMandatorySystemGestureInsets:Landroidx/core/graphics/Insets;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;->mMandatorySystemGestureInsets:Landroidx/core/graphics/Insets;
 
     .line 2
     .line 3
@@ -108,13 +99,11 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsCompat$Impl20;
-    ->mPlatformInsets:Landroid/view/WindowInsets;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsCompat$Impl20;->mPlatformInsets:Landroid/view/WindowInsets;
 
     .line 6
     .line 7
-    invoke-static {v0}, Landroidx/core/view/o;
-    ->x(Landroid/view/WindowInsets;)Landroid/graphics/Insets;
+    invoke-static {v0}, Landroidx/core/view/o;->x(Landroid/view/WindowInsets;)Landroid/graphics/Insets;
 
     .line 8
     .line 9
@@ -122,8 +111,7 @@
     move-result-object v0
 
     .line 11
-    invoke-static {v0}, Landroidx/core/graphics/Insets;
-    ->toCompatInsets(Landroid/graphics/Insets;)Landroidx/core/graphics/Insets;
+    invoke-static {v0}, Landroidx/core/graphics/Insets;->toCompatInsets(Landroid/graphics/Insets;)Landroidx/core/graphics/Insets;
 
     .line 12
     .line 13
@@ -131,14 +119,12 @@
     move-result-object v0
 
     .line 15
-    iput-object v0, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;
-    ->mMandatorySystemGestureInsets:Landroidx/core/graphics/Insets;
+    iput-object v0, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;->mMandatorySystemGestureInsets:Landroidx/core/graphics/Insets;
 
     .line 16
     .line 17
     :cond_0
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;
-    ->mMandatorySystemGestureInsets:Landroidx/core/graphics/Insets;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;->mMandatorySystemGestureInsets:Landroidx/core/graphics/Insets;
 
     .line 18
     .line 19
@@ -151,8 +137,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;
-    ->mSystemGestureInsets:Landroidx/core/graphics/Insets;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;->mSystemGestureInsets:Landroidx/core/graphics/Insets;
 
     .line 2
     .line 3
@@ -160,13 +145,11 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsCompat$Impl20;
-    ->mPlatformInsets:Landroid/view/WindowInsets;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsCompat$Impl20;->mPlatformInsets:Landroid/view/WindowInsets;
 
     .line 6
     .line 7
-    invoke-static {v0}, Landroidx/core/view/o;
-    ->A(Landroid/view/WindowInsets;)Landroid/graphics/Insets;
+    invoke-static {v0}, Landroidx/core/view/o;->A(Landroid/view/WindowInsets;)Landroid/graphics/Insets;
 
     .line 8
     .line 9
@@ -174,8 +157,7 @@
     move-result-object v0
 
     .line 11
-    invoke-static {v0}, Landroidx/core/graphics/Insets;
-    ->toCompatInsets(Landroid/graphics/Insets;)Landroidx/core/graphics/Insets;
+    invoke-static {v0}, Landroidx/core/graphics/Insets;->toCompatInsets(Landroid/graphics/Insets;)Landroidx/core/graphics/Insets;
 
     .line 12
     .line 13
@@ -183,14 +165,12 @@
     move-result-object v0
 
     .line 15
-    iput-object v0, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;
-    ->mSystemGestureInsets:Landroidx/core/graphics/Insets;
+    iput-object v0, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;->mSystemGestureInsets:Landroidx/core/graphics/Insets;
 
     .line 16
     .line 17
     :cond_0
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;
-    ->mSystemGestureInsets:Landroidx/core/graphics/Insets;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;->mSystemGestureInsets:Landroidx/core/graphics/Insets;
 
     .line 18
     .line 19
@@ -203,8 +183,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;
-    ->mTappableElementInsets:Landroidx/core/graphics/Insets;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;->mTappableElementInsets:Landroidx/core/graphics/Insets;
 
     .line 2
     .line 3
@@ -212,13 +191,11 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsCompat$Impl20;
-    ->mPlatformInsets:Landroid/view/WindowInsets;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsCompat$Impl20;->mPlatformInsets:Landroid/view/WindowInsets;
 
     .line 6
     .line 7
-    invoke-static {v0}, Landroidx/core/view/o;
-    ->c(Landroid/view/WindowInsets;)Landroid/graphics/Insets;
+    invoke-static {v0}, Landroidx/core/view/o;->c(Landroid/view/WindowInsets;)Landroid/graphics/Insets;
 
     .line 8
     .line 9
@@ -226,8 +203,7 @@
     move-result-object v0
 
     .line 11
-    invoke-static {v0}, Landroidx/core/graphics/Insets;
-    ->toCompatInsets(Landroid/graphics/Insets;)Landroidx/core/graphics/Insets;
+    invoke-static {v0}, Landroidx/core/graphics/Insets;->toCompatInsets(Landroid/graphics/Insets;)Landroidx/core/graphics/Insets;
 
     .line 12
     .line 13
@@ -235,14 +211,12 @@
     move-result-object v0
 
     .line 15
-    iput-object v0, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;
-    ->mTappableElementInsets:Landroidx/core/graphics/Insets;
+    iput-object v0, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;->mTappableElementInsets:Landroidx/core/graphics/Insets;
 
     .line 16
     .line 17
     :cond_0
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;
-    ->mTappableElementInsets:Landroidx/core/graphics/Insets;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsCompat$Impl29;->mTappableElementInsets:Landroidx/core/graphics/Insets;
 
     .line 18
     .line 19
@@ -255,13 +229,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/WindowInsetsCompat$Impl20;
-    ->mPlatformInsets:Landroid/view/WindowInsets;
+    iget-object v0, p0, Landroidx/core/view/WindowInsetsCompat$Impl20;->mPlatformInsets:Landroid/view/WindowInsets;
 
     .line 2
     .line 3
-    invoke-static {v0, p1, p2, p3, p4}, Landroidx/core/view/o;
-    ->g(Landroid/view/WindowInsets;IIII)Landroid/view/WindowInsets;
+    invoke-static {v0, p1, p2, p3, p4}, Landroidx/core/view/o;->g(Landroid/view/WindowInsets;IIII)Landroid/view/WindowInsets;
 
     .line 4
     .line 5
@@ -269,8 +241,7 @@
     move-result-object p1
 
     .line 7
-    invoke-static {p1}, Landroidx/core/view/WindowInsetsCompat;
-    ->toWindowInsetsCompat(Landroid/view/WindowInsets;)Landroidx/core/view/WindowInsetsCompat;
+    invoke-static {p1}, Landroidx/core/view/WindowInsetsCompat;->toWindowInsetsCompat(Landroid/view/WindowInsets;)Landroidx/core/view/WindowInsetsCompat;
 
     .line 8
     .line 9

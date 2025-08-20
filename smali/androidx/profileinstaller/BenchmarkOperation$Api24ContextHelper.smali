@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -36,8 +35,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/os/a;
-    ->e(Landroid/content/Context;)Landroid/content/Context;
+    invoke-static {p0}, Landroidx/core/os/a;->e(Landroid/content/Context;)Landroid/content/Context;
 
     .line 2
     .line 3

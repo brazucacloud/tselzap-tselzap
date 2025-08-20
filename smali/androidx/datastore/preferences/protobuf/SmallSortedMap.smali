@@ -85,30 +85,23 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/util/AbstractMap;
-    -><init>()V
+    invoke-direct {p0}, Ljava/util/AbstractMap;-><init>()V
 
     .line 3
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->maxArraySize:I
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->maxArraySize:I
 
     .line 4
-    sget-object p1, Ljava/util/Collections;
-    ->EMPTY_LIST:Ljava/util/List;
+    sget-object p1, Ljava/util/Collections;->EMPTY_LIST:Ljava/util/List;
 
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->entryList:Ljava/util/List;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->entryList:Ljava/util/List;
 
     .line 5
-    sget-object p1, Ljava/util/Collections;
-    ->EMPTY_MAP:Ljava/util/Map;
+    sget-object p1, Ljava/util/Collections;->EMPTY_MAP:Ljava/util/Map;
 
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntries:Ljava/util/Map;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntries:Ljava/util/Map;
 
     .line 6
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntriesDescending:Ljava/util/Map;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntriesDescending:Ljava/util/Map;
 
     return-void
 .end method
@@ -117,8 +110,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    -><init>(I)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;-><init>(I)V
 return-void
 .end method
 
@@ -126,8 +118,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->checkMutable()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->checkMutable()V
     return-void
 .end method
 
@@ -135,24 +126,21 @@ return-void
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->entryList:Ljava/util/List;    return-object p0
+    iget-object p0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->entryList:Ljava/util/List;    return-object p0
 .end method
 
 .method public static synthetic access$700(Landroidx/datastore/preferences/protobuf/SmallSortedMap;)Ljava/util/Map;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntries:Ljava/util/Map;    return-object p0
+    iget-object p0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntries:Ljava/util/Map;    return-object p0
 .end method
 
 .method public static synthetic access$800(Landroidx/datastore/preferences/protobuf/SmallSortedMap;I)Ljava/lang/Object;
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->removeArrayEntryAt(I)Ljava/lang/Object;
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->removeArrayEntryAt(I)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -166,8 +154,7 @@ return-void
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntriesDescending:Ljava/util/Map;    return-object p0
+    iget-object p0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntriesDescending:Ljava/util/Map;    return-object p0
 .end method
 
 .method private binarySearchInArray(Ljava/lang/Comparable;)I
@@ -179,13 +166,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->entryList:Ljava/util/List;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->entryList:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     .line 4
     .line 5
@@ -201,13 +186,11 @@ return-void
 
     .line 10
     .line 11
-    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->entryList:Ljava/util/List;
+    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->entryList:Ljava/util/List;
 
     .line 12
     .line 13
-    invoke-interface {v2, v1}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v2, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -219,8 +202,7 @@ return-void
 
     .line 18
     .line 19
-    invoke-virtual {v2}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
-    ->getKey()Ljava/lang/Comparable;
+    invoke-virtual {v2}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->getKey()Ljava/lang/Comparable;
 
     .line 20
     .line 21
@@ -228,8 +210,7 @@ return-void
     move-result-object v2
 
     .line 23
-    invoke-interface {p1, v2}, Ljava/lang/Comparable;
-    ->compareTo(Ljava/lang/Object;)I
+    invoke-interface {p1, v2}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
 
     .line 24
     .line 25
@@ -272,13 +253,11 @@ return-void
 
     .line 42
     .line 43
-    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->entryList:Ljava/util/List;
+    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->entryList:Ljava/util/List;
 
     .line 44
     .line 45
-    invoke-interface {v3, v2}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v3, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 46
     .line 47
@@ -290,8 +269,7 @@ return-void
 
     .line 50
     .line 51
-    invoke-virtual {v3}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
-    ->getKey()Ljava/lang/Comparable;
+    invoke-virtual {v3}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->getKey()Ljava/lang/Comparable;
 
     .line 52
     .line 53
@@ -299,8 +277,7 @@ return-void
     move-result-object v3
 
     .line 55
-    invoke-interface {p1, v3}, Ljava/lang/Comparable;
-    ->compareTo(Ljava/lang/Object;)I
+    invoke-interface {p1, v3}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
 
     .line 56
     .line 57
@@ -352,8 +329,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->isImmutable:Z
+    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->isImmutable:Z
 
     .line 2
     .line 3
@@ -365,8 +341,7 @@ return-void
 
     .line 7
     .line 8
-    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     .line 9
     .line 10
@@ -377,19 +352,16 @@ return-void
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->checkMutable()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->checkMutable()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->entryList:Ljava/util/List;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->entryList:Ljava/util/List;
 
     .line 5
     .line 6
-    invoke-interface {v0}, Ljava/util/List;
-    ->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
 
     .line 7
     .line 8
@@ -401,8 +373,7 @@ return-void
 
     .line 11
     .line 12
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->entryList:Ljava/util/List;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->entryList:Ljava/util/List;
 
     .line 13
     .line 14
@@ -418,19 +389,16 @@ return-void
 
     .line 19
     .line 20
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->maxArraySize:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->maxArraySize:I
 
     .line 21
     .line 22
-    invoke-direct {v0, v1}, Ljava/util/ArrayList;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
     .line 23
     .line 24
     .line 25
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->entryList:Ljava/util/List;
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->entryList:Ljava/util/List;
 
     .line 26
     .line 27
@@ -449,19 +417,16 @@ return-void
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->checkMutable()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->checkMutable()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntries:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntries:Ljava/util/Map;
 
     .line 5
     .line 6
-    invoke-interface {v0}, Ljava/util/Map;
-    ->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/Map;->isEmpty()Z
 
     .line 7
     .line 8
@@ -473,8 +438,7 @@ return-void
 
     .line 11
     .line 12
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntries:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntries:Ljava/util/Map;
 
     .line 13
     .line 14
@@ -490,19 +454,16 @@ return-void
 
     .line 19
     .line 20
-    invoke-direct {v0}, Ljava/util/TreeMap;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/TreeMap;-><init>()V
 
     .line 21
     .line 22
     .line 23
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntries:Ljava/util/Map;
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntries:Ljava/util/Map;
 
     .line 24
     .line 25
-    invoke-virtual {v0}, Ljava/util/TreeMap;
-    ->descendingMap()Ljava/util/NavigableMap;
+    invoke-virtual {v0}, Ljava/util/TreeMap;->descendingMap()Ljava/util/NavigableMap;
 
     .line 26
     .line 27
@@ -510,14 +471,12 @@ return-void
     move-result-object v0
 
     .line 29
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntriesDescending:Ljava/util/Map;
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntriesDescending:Ljava/util/Map;
 
     .line 30
     .line 31
     :cond_0
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntries:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntries:Ljava/util/Map;
 
     .line 32
     .line 33
@@ -543,8 +502,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$1;
-    -><init>(I)V
+    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$1;-><init>(I)V
     return-object v0
 .end method
 
@@ -567,8 +525,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    -><init>(I)V
+    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;-><init>(I)V
 return-object v0
 .end method
 
@@ -581,19 +538,16 @@ return-object v0
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->checkMutable()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->checkMutable()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->entryList:Ljava/util/List;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->entryList:Ljava/util/List;
 
     .line 5
     .line 6
-    invoke-interface {v0, p1}, Ljava/util/List;
-    ->remove(I)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -605,8 +559,7 @@ return-object v0
 
     .line 11
     .line 12
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
-    ->getValue()Ljava/lang/Object;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->getValue()Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -614,13 +567,11 @@ return-object v0
     move-result-object p1
 
     .line 16
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntries:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntries:Ljava/util/Map;
 
     .line 17
     .line 18
-    invoke-interface {v0}, Ljava/util/Map;
-    ->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/Map;->isEmpty()Z
 
     .line 19
     .line 20
@@ -632,8 +583,7 @@ return-object v0
 
     .line 23
     .line 24
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->getOverflowEntriesMutable()Ljava/util/SortedMap;
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->getOverflowEntriesMutable()Ljava/util/SortedMap;
 
     .line 25
     .line 26
@@ -641,8 +591,7 @@ return-object v0
     move-result-object v0
 
     .line 28
-    invoke-interface {v0}, Ljava/util/SortedMap;
-    ->entrySet()Ljava/util/Set;
+    invoke-interface {v0}, Ljava/util/SortedMap;->entrySet()Ljava/util/Set;
 
     .line 29
     .line 30
@@ -650,8 +599,7 @@ return-object v0
     move-result-object v0
 
     .line 32
-    invoke-interface {v0}, Ljava/util/Set;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     .line 33
     .line 34
@@ -659,8 +607,7 @@ return-object v0
     move-result-object v0
 
     .line 36
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->entryList:Ljava/util/List;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->entryList:Ljava/util/List;
 
     .line 37
     .line 38
@@ -668,8 +615,7 @@ return-object v0
 
     .line 39
     .line 40
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 41
     .line 42
@@ -681,20 +627,17 @@ return-object v0
 
     .line 45
     .line 46
-    invoke-direct {v2, p0, v3}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
-    -><init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Ljava/util/Map$Entry;)V
+    invoke-direct {v2, p0, v3}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;-><init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Ljava/util/Map$Entry;)V
 
     .line 47
     .line 48
     .line 49
-    invoke-interface {v1, v2}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 50
     .line 51
     .line 52
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->remove()V
+    invoke-interface {v0}, Ljava/util/Iterator;->remove()V
 
     .line 53
     .line 54
@@ -709,19 +652,16 @@ return-object v0
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->checkMutable()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->checkMutable()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->entryList:Ljava/util/List;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->entryList:Ljava/util/List;
 
     .line 5
     .line 6
-    invoke-interface {v0}, Ljava/util/List;
-    ->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
 
     .line 7
     .line 8
@@ -733,25 +673,21 @@ return-object v0
 
     .line 11
     .line 12
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->entryList:Ljava/util/List;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->entryList:Ljava/util/List;
 
     .line 13
     .line 14
-    invoke-interface {v0}, Ljava/util/List;
-    ->clear()V
+    invoke-interface {v0}, Ljava/util/List;->clear()V
 
     .line 15
     .line 16
     .line 17
     :cond_0
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntries:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntries:Ljava/util/Map;
 
     .line 18
     .line 19
-    invoke-interface {v0}, Ljava/util/Map;
-    ->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/Map;->isEmpty()Z
 
     .line 20
     .line 21
@@ -763,13 +699,11 @@ return-object v0
 
     .line 24
     .line 25
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntries:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntries:Ljava/util/Map;
 
     .line 26
     .line 27
-    invoke-interface {v0}, Ljava/util/Map;
-    ->clear()V
+    invoke-interface {v0}, Ljava/util/Map;->clear()V
 
     .line 28
     .line 29
@@ -786,8 +720,7 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->binarySearchInArray(Ljava/lang/Comparable;)I
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->binarySearchInArray(Ljava/lang/Comparable;)I
 
     .line 4
     .line 5
@@ -799,13 +732,11 @@ return-object v0
 
     .line 8
     .line 9
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntries:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntries:Ljava/util/Map;
 
     .line 10
     .line 11
-    invoke-interface {v0, p1}, Ljava/util/Map;
-    ->containsKey(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -845,8 +776,7 @@ return-object v0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->lazyDescendingEntrySet:Landroidx/datastore/preferences/protobuf/SmallSortedMap$DescendingEntrySet;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->lazyDescendingEntrySet:Landroidx/datastore/preferences/protobuf/SmallSortedMap$DescendingEntrySet;
 
     .line 2
     .line 3
@@ -861,20 +791,17 @@ return-object v0
     const/4 v1, 0x0
 
     .line 8
-    invoke-direct {v0, p0, v1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$DescendingEntrySet;
-    -><init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Landroidx/datastore/preferences/protobuf/SmallSortedMap$1;)V
+    invoke-direct {v0, p0, v1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$DescendingEntrySet;-><init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Landroidx/datastore/preferences/protobuf/SmallSortedMap$1;)V
 
     .line 9
     .line 10
     .line 11
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->lazyDescendingEntrySet:Landroidx/datastore/preferences/protobuf/SmallSortedMap$DescendingEntrySet;
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->lazyDescendingEntrySet:Landroidx/datastore/preferences/protobuf/SmallSortedMap$DescendingEntrySet;
 
     .line 12
     .line 13
     :cond_0
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->lazyDescendingEntrySet:Landroidx/datastore/preferences/protobuf/SmallSortedMap$DescendingEntrySet;    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->lazyDescendingEntrySet:Landroidx/datastore/preferences/protobuf/SmallSortedMap$DescendingEntrySet;    return-object v0
 .end method
 
 .method public entrySet()Ljava/util/Set;
@@ -889,8 +816,7 @@ return-object v0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->lazyEntrySet:Landroidx/datastore/preferences/protobuf/SmallSortedMap$EntrySet;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->lazyEntrySet:Landroidx/datastore/preferences/protobuf/SmallSortedMap$EntrySet;
 
     .line 2
     .line 3
@@ -905,20 +831,17 @@ return-object v0
     const/4 v1, 0x0
 
     .line 8
-    invoke-direct {v0, p0, v1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$EntrySet;
-    -><init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Landroidx/datastore/preferences/protobuf/SmallSortedMap$1;)V
+    invoke-direct {v0, p0, v1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$EntrySet;-><init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Landroidx/datastore/preferences/protobuf/SmallSortedMap$1;)V
 
     .line 9
     .line 10
     .line 11
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->lazyEntrySet:Landroidx/datastore/preferences/protobuf/SmallSortedMap$EntrySet;
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->lazyEntrySet:Landroidx/datastore/preferences/protobuf/SmallSortedMap$EntrySet;
 
     .line 12
     .line 13
     :cond_0
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->lazyEntrySet:Landroidx/datastore/preferences/protobuf/SmallSortedMap$EntrySet;    return-object v0
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->lazyEntrySet:Landroidx/datastore/preferences/protobuf/SmallSortedMap$EntrySet;    return-object v0
 .end method
 
 .method public equals(Ljava/lang/Object;)Z
@@ -940,8 +863,7 @@ return-object v0
 
     .line 8
     .line 9
-    invoke-super {p0, p1}, Ljava/util/AbstractMap;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-super {p0, p1}, Ljava/util/AbstractMap;->equals(Ljava/lang/Object;)Z
 
     .line 10
     .line 11
@@ -956,8 +878,7 @@ return-object v0
 
     .line 15
     .line 16
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->size()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->size()I
 
     .line 17
     .line 18
@@ -965,8 +886,7 @@ return-object v0
     move-result v1
 
     .line 20
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->size()I
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->size()I
 
     .line 21
     .line 22
@@ -981,8 +901,7 @@ return-object v0
 
     .line 28
     :cond_2
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->getNumArrayEntries()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->getNumArrayEntries()I
 
     .line 29
     .line 30
@@ -990,8 +909,7 @@ return-object v0
     move-result v2
 
     .line 32
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->getNumArrayEntries()I
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->getNumArrayEntries()I
 
     .line 33
     .line 34
@@ -1003,8 +921,7 @@ return-object v0
 
     .line 37
     .line 38
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->entrySet()Ljava/util/Set;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->entrySet()Ljava/util/Set;
 
     .line 39
     .line 40
@@ -1012,8 +929,7 @@ return-object v0
     move-result-object v0
 
     .line 42
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->entrySet()Ljava/util/Set;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->entrySet()Ljava/util/Set;
 
     .line 43
     .line 44
@@ -1021,8 +937,7 @@ return-object v0
     move-result-object p1
 
     .line 46
-    invoke-interface {v0, p1}, Ljava/util/Set;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/Set;->equals(Ljava/lang/Object;)Z
 
     .line 47
     .line 48
@@ -1041,8 +956,7 @@ return-object v0
 
     .line 53
     .line 54
-    invoke-virtual {p0, v4}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->getArrayEntryAt(I)Ljava/util/Map$Entry;
+    invoke-virtual {p0, v4}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->getArrayEntryAt(I)Ljava/util/Map$Entry;
 
     .line 55
     .line 56
@@ -1050,8 +964,7 @@ return-object v0
     move-result-object v5
 
     .line 58
-    invoke-virtual {p1, v4}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->getArrayEntryAt(I)Ljava/util/Map$Entry;
+    invoke-virtual {p1, v4}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->getArrayEntryAt(I)Ljava/util/Map$Entry;
 
     .line 59
     .line 60
@@ -1059,8 +972,7 @@ return-object v0
     move-result-object v6
 
     .line 62
-    invoke-interface {v5, v6}, Ljava/util/Map$Entry;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-interface {v5, v6}, Ljava/util/Map$Entry;->equals(Ljava/lang/Object;)Z
 
     .line 63
     .line 64
@@ -1084,18 +996,15 @@ return-object v0
 
     .line 73
     .line 74
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntries:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntries:Ljava/util/Map;
 
     .line 75
     .line 76
-    iget-object p1, p1, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntries:Ljava/util/Map;
+    iget-object p1, p1, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntries:Ljava/util/Map;
 
     .line 77
     .line 78
-    invoke-interface {v0, p1}, Ljava/util/Map;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/Map;->equals(Ljava/lang/Object;)Z
 
     .line 79
     .line 80
@@ -1124,8 +1033,7 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->binarySearchInArray(Ljava/lang/Comparable;)I
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->binarySearchInArray(Ljava/lang/Comparable;)I
 
     .line 4
     .line 5
@@ -1137,13 +1045,11 @@ return-object v0
 
     .line 8
     .line 9
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->entryList:Ljava/util/List;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->entryList:Ljava/util/List;
 
     .line 10
     .line 11
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -1155,8 +1061,7 @@ return-object v0
 
     .line 16
     .line 17
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
-    ->getValue()Ljava/lang/Object;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->getValue()Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -1167,13 +1072,11 @@ return-object v0
 
     .line 22
     :cond_0
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntries:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntries:Ljava/util/Map;
 
     .line 23
     .line 24
-    invoke-interface {v0, p1}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 25
     .line 26
@@ -1194,13 +1097,11 @@ return-object v0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->entryList:Ljava/util/List;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->entryList:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -1215,13 +1116,11 @@ return-object v0
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->entryList:Ljava/util/List;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->entryList:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     .line 4
     .line 5
@@ -1235,13 +1134,11 @@ return-object v0
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntries:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntries:Ljava/util/Map;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/Map;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/Map;->size()I
 
     .line 4
     .line 5
@@ -1263,13 +1160,11 @@ return-object v0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntries:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntries:Ljava/util/Map;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/Map;
-    ->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/Map;->isEmpty()Z
 
     .line 4
     .line 5
@@ -1281,8 +1176,7 @@ return-object v0
 
     .line 8
     .line 9
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$EmptySet;
-    ->iterable()Ljava/lang/Iterable;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$EmptySet;->iterable()Ljava/lang/Iterable;
 
     .line 10
     .line 11
@@ -1293,13 +1187,11 @@ return-object v0
 
     .line 14
     :cond_0
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntries:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntries:Ljava/util/Map;
 
     .line 15
     .line 16
-    invoke-interface {v0}, Ljava/util/Map;
-    ->entrySet()Ljava/util/Set;
+    invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     .line 17
     .line 18
@@ -1321,13 +1213,11 @@ return-object v0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntriesDescending:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntriesDescending:Ljava/util/Map;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/Map;
-    ->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/Map;->isEmpty()Z
 
     .line 4
     .line 5
@@ -1339,8 +1229,7 @@ return-object v0
 
     .line 8
     .line 9
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$EmptySet;
-    ->iterable()Ljava/lang/Iterable;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$EmptySet;->iterable()Ljava/lang/Iterable;
 
     .line 10
     .line 11
@@ -1351,13 +1240,11 @@ return-object v0
 
     .line 14
     :cond_0
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntriesDescending:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntriesDescending:Ljava/util/Map;
 
     .line 15
     .line 16
-    invoke-interface {v0}, Ljava/util/Map;
-    ->entrySet()Ljava/util/Set;
+    invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     .line 17
     .line 18
@@ -1371,8 +1258,7 @@ return-object v0
     .locals 4
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->getNumArrayEntries()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->getNumArrayEntries()I
 
     .line 2
     .line 3
@@ -1391,13 +1277,11 @@ return-object v0
 
     .line 8
     .line 9
-    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->entryList:Ljava/util/List;
+    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->entryList:Ljava/util/List;
 
     .line 10
     .line 11
-    invoke-interface {v3, v1}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v3, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -1409,8 +1293,7 @@ return-object v0
 
     .line 16
     .line 17
-    invoke-virtual {v3}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
-    ->hashCode()I
+    invoke-virtual {v3}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->hashCode()I
 
     .line 18
     .line 19
@@ -1429,8 +1312,7 @@ return-object v0
 
     .line 25
     :cond_0
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->getNumOverflowEntries()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->getNumOverflowEntries()I
 
     .line 26
     .line 27
@@ -1442,13 +1324,11 @@ return-object v0
 
     .line 30
     .line 31
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntries:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntries:Ljava/util/Map;
 
     .line 32
     .line 33
-    invoke-interface {v0}, Ljava/util/Map;
-    ->hashCode()I
+    invoke-interface {v0}, Ljava/util/Map;->hashCode()I
 
     .line 34
     .line 35
@@ -1469,16 +1349,14 @@ return-object v0
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->isImmutable:Z    return v0
+    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->isImmutable:Z    return v0
 .end method
 
 .method public makeImmutable()V
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->isImmutable:Z
+    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->isImmutable:Z
 
     .line 2
     .line 3
@@ -1486,13 +1364,11 @@ return-object v0
 
     .line 4
     .line 5
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntries:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntries:Ljava/util/Map;
 
     .line 6
     .line 7
-    invoke-interface {v0}, Ljava/util/Map;
-    ->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/Map;->isEmpty()Z
 
     .line 8
     .line 9
@@ -1504,8 +1380,7 @@ return-object v0
 
     .line 12
     .line 13
-    sget-object v0, Ljava/util/Collections;
-    ->EMPTY_MAP:Ljava/util/Map;
+    sget-object v0, Ljava/util/Collections;->EMPTY_MAP:Ljava/util/Map;
 
     .line 14
     .line 15
@@ -1513,13 +1388,11 @@ return-object v0
 
     .line 16
     :cond_0
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntries:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntries:Ljava/util/Map;
 
     .line 17
     .line 18
-    invoke-static {v0}, Ljava/util/Collections;
-    ->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
     .line 19
     .line 20
@@ -1528,18 +1401,15 @@ return-object v0
 
     .line 22
     :goto_0
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntries:Ljava/util/Map;
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntries:Ljava/util/Map;
 
     .line 23
     .line 24
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntriesDescending:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntriesDescending:Ljava/util/Map;
 
     .line 25
     .line 26
-    invoke-interface {v0}, Ljava/util/Map;
-    ->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/Map;->isEmpty()Z
 
     .line 27
     .line 28
@@ -1551,8 +1421,7 @@ return-object v0
 
     .line 31
     .line 32
-    sget-object v0, Ljava/util/Collections;
-    ->EMPTY_MAP:Ljava/util/Map;
+    sget-object v0, Ljava/util/Collections;->EMPTY_MAP:Ljava/util/Map;
 
     .line 33
     .line 34
@@ -1560,13 +1429,11 @@ return-object v0
 
     .line 35
     :cond_1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntriesDescending:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntriesDescending:Ljava/util/Map;
 
     .line 36
     .line 37
-    invoke-static {v0}, Ljava/util/Collections;
-    ->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
 
     .line 38
     .line 39
@@ -1575,16 +1442,14 @@ return-object v0
 
     .line 41
     :goto_1
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntriesDescending:Ljava/util/Map;
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntriesDescending:Ljava/util/Map;
 
     .line 42
     .line 43
     const/4 v0, 0x1
 
     .line 44
-    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->isImmutable:Z
+    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->isImmutable:Z
 
     .line 45
     .line 46
@@ -1601,30 +1466,25 @@ return-object v0
     .end annotation
 
     .line 2
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->checkMutable()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->checkMutable()V
 
     .line 3
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->binarySearchInArray(Ljava/lang/Comparable;)I
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->binarySearchInArray(Ljava/lang/Comparable;)I
 
     move-result v0
 
     if-ltz v0, :cond_0
 
     .line 4
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->entryList:Ljava/util/List;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->entryList:Ljava/util/List;
 
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object p1
 
     check-cast p1, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
 
-    invoke-virtual {p1, p2}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
-    ->setValue(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->setValue(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -1632,27 +1492,23 @@ return-object v0
 
     .line 5
     :cond_0
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->ensureEntryArrayMutable()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->ensureEntryArrayMutable()V
 
     add-int/lit8 v0, v0, 0x1
 
     neg-int v0, v0
 
     .line 6
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->maxArraySize:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->maxArraySize:I
 
     if-lt v0, v1, :cond_1
 
     .line 7
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->getOverflowEntriesMutable()Ljava/util/SortedMap;
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->getOverflowEntriesMutable()Ljava/util/SortedMap;
 
     move-result-object v0
 
-    invoke-interface {v0, p1, p2}, Ljava/util/Map;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -1660,63 +1516,51 @@ return-object v0
 
     .line 8
     :cond_1
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->entryList:Ljava/util/List;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->entryList:Ljava/util/List;
 
-    invoke-interface {v1}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result v1
 
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->maxArraySize:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->maxArraySize:I
 
     if-ne v1, v2, :cond_2
 
     .line 9
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->entryList:Ljava/util/List;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->entryList:Ljava/util/List;
 
     add-int/lit8 v2, v2, -0x1
 
-    invoke-interface {v1, v2}, Ljava/util/List;
-    ->remove(I)Ljava/lang/Object;
+    invoke-interface {v1, v2}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
 
     .line 10
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->getOverflowEntriesMutable()Ljava/util/SortedMap;
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->getOverflowEntriesMutable()Ljava/util/SortedMap;
 
     move-result-object v2
 
-    invoke-virtual {v1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
-    ->getKey()Ljava/lang/Comparable;
+    invoke-virtual {v1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->getKey()Ljava/lang/Comparable;
 
     move-result-object v3
 
-    invoke-virtual {v1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
-    ->getValue()Ljava/lang/Object;
+    invoke-virtual {v1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
-    invoke-interface {v2, v3, v1}, Ljava/util/Map;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v2, v3, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
     :cond_2
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->entryList:Ljava/util/List;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->entryList:Ljava/util/List;
 
     new-instance v2, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
 
-    invoke-direct {v2, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;
-    -><init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Ljava/lang/Comparable;Ljava/lang/Object;)V
+    invoke-direct {v2, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$Entry;-><init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Ljava/lang/Comparable;Ljava/lang/Object;)V
 
-    invoke-interface {v1, v0, v2}, Ljava/util/List;
-    ->add(ILjava/lang/Object;)V
+    invoke-interface {v1, v0, v2}, Ljava/util/List;->add(ILjava/lang/Object;)V
 
     const/4 p1, 0x0
 
@@ -1729,8 +1573,7 @@ return-object v0
     .line 1
     check-cast p1, Ljava/lang/Comparable;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->put(Ljava/lang/Comparable;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->put(Ljava/lang/Comparable;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -1748,8 +1591,7 @@ return-object v0
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->checkMutable()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->checkMutable()V
 
     .line 2
     .line 3
@@ -1758,8 +1600,7 @@ return-object v0
 
     .line 5
     .line 6
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->binarySearchInArray(Ljava/lang/Comparable;)I
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->binarySearchInArray(Ljava/lang/Comparable;)I
 
     .line 7
     .line 8
@@ -1771,8 +1612,7 @@ return-object v0
 
     .line 11
     .line 12
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->removeArrayEntryAt(I)Ljava/lang/Object;
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->removeArrayEntryAt(I)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -1783,13 +1623,11 @@ return-object v0
 
     .line 17
     :cond_0
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntries:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntries:Ljava/util/Map;
 
     .line 18
     .line 19
-    invoke-interface {v0}, Ljava/util/Map;
-    ->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/Map;->isEmpty()Z
 
     .line 20
     .line 21
@@ -1807,13 +1645,11 @@ return-object v0
 
     .line 27
     :cond_1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntries:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntries:Ljava/util/Map;
 
     .line 28
     .line 29
-    invoke-interface {v0, p1}, Ljava/util/Map;
-    ->remove(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 30
     .line 31
@@ -1827,13 +1663,11 @@ return-object v0
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->entryList:Ljava/util/List;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->entryList:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     .line 4
     .line 5
@@ -1841,13 +1675,11 @@ return-object v0
     move-result v0
 
     .line 7
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;
-    ->overflowEntries:Ljava/util/Map;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->overflowEntries:Ljava/util/Map;
 
     .line 8
     .line 9
-    invoke-interface {v1}, Ljava/util/Map;
-    ->size()I
+    invoke-interface {v1}, Ljava/util/Map;->size()I
 
     .line 10
     .line 11

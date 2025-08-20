@@ -30,8 +30,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -40,25 +39,21 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 12
     .line 13
     .line 14
-    iput-object p1, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;
-    ->windowInfoTracker:Landroidx/window/layout/WindowInfoTracker;
+    iput-object p1, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;->windowInfoTracker:Landroidx/window/layout/WindowInfoTracker;
 
     .line 15
     .line 16
-    iput-object p2, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;
-    ->executor:Ljava/util/concurrent/Executor;    
+    iput-object p2, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;->executor:Ljava/util/concurrent/Executor;
     return-void
 .end method
 
@@ -66,8 +61,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;
-    ->getFoldingFeature(Landroidx/window/layout/WindowLayoutInfo;)Landroidx/window/layout/FoldingFeature;
+    invoke-direct {p0, p1}, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;->getFoldingFeature(Landroidx/window/layout/WindowLayoutInfo;)Landroidx/window/layout/FoldingFeature;
 
     .line 2
     .line 3
@@ -81,24 +75,21 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;
-    ->onFoldingFeatureChangeListener:Landroidx/slidingpanelayout/widget/FoldingFeatureObserver$OnFoldingFeatureChangeListener;    return-object p0
+    iget-object p0, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;->onFoldingFeatureChangeListener:Landroidx/slidingpanelayout/widget/FoldingFeatureObserver$OnFoldingFeatureChangeListener;    return-object p0
 .end method
 
 .method public static final synthetic access$getWindowInfoTracker$p(Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;)Landroidx/window/layout/WindowInfoTracker;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;
-    ->windowInfoTracker:Landroidx/window/layout/WindowInfoTracker;    return-object p0
+    iget-object p0, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;->windowInfoTracker:Landroidx/window/layout/WindowInfoTracker;    return-object p0
 .end method
 
 .method private final getFoldingFeature(Landroidx/window/layout/WindowLayoutInfo;)Landroidx/window/layout/FoldingFeature;
     .locals 3
 
     .line 1
-    invoke-virtual {p1}, Landroidx/window/layout/WindowLayoutInfo;
-    ->getDisplayFeatures()Ljava/util/List;
+    invoke-virtual {p1}, Landroidx/window/layout/WindowLayoutInfo;->getDisplayFeatures()Ljava/util/List;
 
     .line 2
     .line 3
@@ -110,8 +101,7 @@
 
     .line 6
     .line 7
-    invoke-interface {p1}, Ljava/lang/Iterable;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     .line 8
     .line 9
@@ -120,8 +110,7 @@
 
     .line 11
     :cond_0
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
     .line 12
     .line 13
@@ -136,8 +125,7 @@
 
     .line 17
     .line 18
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -193,14 +181,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;
-    ->job:Lz1/V;
+    iget-object v0, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;->job:Lz1/V;
 
     .line 7
     .line 8
@@ -215,15 +201,13 @@
 
     .line 12
     :cond_0
-    invoke-interface {v0, v1}, Lz1/V;
-    ->c(Ljava/util/concurrent/CancellationException;)V
+    invoke-interface {v0, v1}, Lz1/V;->c(Ljava/util/concurrent/CancellationException;)V
 
     .line 13
     .line 14
     .line 15
     :goto_0
-    iget-object v0, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;
-    ->executor:Ljava/util/concurrent/Executor;
+    iget-object v0, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;->executor:Ljava/util/concurrent/Executor;
 
     .line 16
     .line 17
@@ -231,14 +215,12 @@
 
     .line 18
     .line 19
-    invoke-direct {v2, v0}, Lz1/O;
-    -><init>(Ljava/util/concurrent/Executor;)V
+    invoke-direct {v2, v0}, Lz1/O;-><init>(Ljava/util/concurrent/Executor;)V
 
     .line 20
     .line 21
     .line 22
-    invoke-static {v2}, Lz1/w;
-    ->a(Lg1/i;)LE1/e;
+    invoke-static {v2}, Lz1/w;->a(Lg1/i;)LE1/e;
 
     .line 23
     .line 24
@@ -250,8 +232,7 @@
 
     .line 27
     .line 28
-    invoke-direct {v2, p0, p1, v1}, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver$registerLayoutStateChangeCallback$1;
-    -><init>(Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;Landroid/app/Activity;Lg1/d;)V
+    invoke-direct {v2, p0, p1, v1}, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver$registerLayoutStateChangeCallback$1;-><init>(Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;Landroid/app/Activity;Lg1/d;)V
 
     .line 29
     .line 30
@@ -259,8 +240,7 @@
     const/4 p1, 0x3
 
     .line 32
-    invoke-static {v0, v1, v2, p1}, Lz1/w;
-    ->l(Lz1/v;LA1/c;Lp1/p;I)Lz1/k0;
+    invoke-static {v0, v1, v2, p1}, Lz1/w;->l(Lz1/v;LA1/c;Lp1/p;I)Lz1/k0;
 
     .line 33
     .line 34
@@ -268,8 +248,7 @@
     move-result-object p1
 
     .line 36
-    iput-object p1, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;
-    ->job:Lz1/V;    
+    iput-object p1, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;->job:Lz1/V;
     return-void
 .end method
 
@@ -281,14 +260,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;
-    ->onFoldingFeatureChangeListener:Landroidx/slidingpanelayout/widget/FoldingFeatureObserver$OnFoldingFeatureChangeListener;    
+    iput-object p1, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;->onFoldingFeatureChangeListener:Landroidx/slidingpanelayout/widget/FoldingFeatureObserver$OnFoldingFeatureChangeListener;
     return-void
 .end method
 
@@ -296,8 +273,7 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;
-    ->job:Lz1/V;
+    iget-object v0, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;->job:Lz1/V;
 
     .line 2
     .line 3
@@ -308,8 +284,7 @@
     const/4 v1, 0x0
 
     .line 7
-    invoke-interface {v0, v1}, Lz1/V;
-    ->c(Ljava/util/concurrent/CancellationException;)V    
+    invoke-interface {v0, v1}, Lz1/V;->c(Ljava/util/concurrent/CancellationException;)V
     return-void
 .end method
 

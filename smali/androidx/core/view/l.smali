@@ -17,14 +17,11 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Landroidx/core/view/l;
-    ->a:I
+    iput p2, p0, Landroidx/core/view/l;->a:I
 
-    iput-object p1, p0, Landroidx/core/view/l;
-    ->b:Landroid/view/ViewConfiguration;
+    iput-object p1, p0, Landroidx/core/view/l;->b:Landroid/view/ViewConfiguration;
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -34,37 +31,30 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/core/view/l;
-    ->a:I
+    iget v0, p0, Landroidx/core/view/l;->a:I
 
     packed-switch v0, :pswitch_data_0
 
-    iget-object v0, p0, Landroidx/core/view/l;
-    ->b:Landroid/view/ViewConfiguration;
+    iget-object v0, p0, Landroidx/core/view/l;->b:Landroid/view/ViewConfiguration;
 
-    invoke-virtual {v0}, Landroid/view/ViewConfiguration;
-    ->getScaledMinimumFlingVelocity()I
+    invoke-virtual {v0}, Landroid/view/ViewConfiguration;->getScaledMinimumFlingVelocity()I
 
     move-result v0
 
-    invoke-static {v0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
 
     return-object v0
 
     :pswitch_0
-    iget-object v0, p0, Landroidx/core/view/l;
-    ->b:Landroid/view/ViewConfiguration;
+    iget-object v0, p0, Landroidx/core/view/l;->b:Landroid/view/ViewConfiguration;
 
-    invoke-virtual {v0}, Landroid/view/ViewConfiguration;
-    ->getScaledMaximumFlingVelocity()I
+    invoke-virtual {v0}, Landroid/view/ViewConfiguration;->getScaledMaximumFlingVelocity()I
 
     move-result v0
 
-    invoke-static {v0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
 

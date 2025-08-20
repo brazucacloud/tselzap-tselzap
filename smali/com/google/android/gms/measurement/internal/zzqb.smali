@@ -22,8 +22,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -41,8 +40,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;
-    ->validateObjectHeader(Landroid/os/Parcel;)I
+    invoke-static {v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->validateObjectHeader(Landroid/os/Parcel;)I
 
     .line 4
     .line 5
@@ -85,8 +83,7 @@
 
     .line 19
     :goto_0
-    invoke-virtual {v0}, Landroid/os/Parcel;
-    ->dataPosition()I
+    invoke-virtual {v0}, Landroid/os/Parcel;->dataPosition()I
 
     .line 20
     .line 21
@@ -98,8 +95,7 @@
 
     .line 24
     .line 25
-    invoke-static {v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;
-    ->readHeader(Landroid/os/Parcel;)I
+    invoke-static {v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->readHeader(Landroid/os/Parcel;)I
 
     .line 26
     .line 27
@@ -107,8 +103,7 @@
     move-result v2
 
     .line 29
-    invoke-static {v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;
-    ->getFieldId(I)I
+    invoke-static {v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->getFieldId(I)I
 
     .line 30
     .line 31
@@ -121,8 +116,7 @@
     .line 34
     .line 35
     .line 36
-    invoke-static {v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;
-    ->skipUnknownField(Landroid/os/Parcel;I)V
+    invoke-static {v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->skipUnknownField(Landroid/os/Parcel;I)V
 
     .line 37
     .line 38
@@ -131,8 +125,7 @@
 
     .line 40
     :pswitch_0
-    invoke-static {v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;
-    ->readDoubleObject(Landroid/os/Parcel;I)Ljava/lang/Double;
+    invoke-static {v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->readDoubleObject(Landroid/os/Parcel;I)Ljava/lang/Double;
 
     .line 41
     .line 42
@@ -144,8 +137,7 @@
 
     .line 45
     :pswitch_1
-    invoke-static {v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;
-    ->createString(Landroid/os/Parcel;I)Ljava/lang/String;
+    invoke-static {v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->createString(Landroid/os/Parcel;I)Ljava/lang/String;
 
     .line 46
     .line 47
@@ -157,8 +149,7 @@
 
     .line 50
     :pswitch_2
-    invoke-static {v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;
-    ->createString(Landroid/os/Parcel;I)Ljava/lang/String;
+    invoke-static {v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->createString(Landroid/os/Parcel;I)Ljava/lang/String;
 
     .line 51
     .line 52
@@ -170,8 +161,7 @@
 
     .line 55
     :pswitch_3
-    invoke-static {v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;
-    ->readFloatObject(Landroid/os/Parcel;I)Ljava/lang/Float;
+    invoke-static {v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->readFloatObject(Landroid/os/Parcel;I)Ljava/lang/Float;
 
     .line 56
     .line 57
@@ -183,8 +173,7 @@
 
     .line 60
     :pswitch_4
-    invoke-static {v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;
-    ->readLongObject(Landroid/os/Parcel;I)Ljava/lang/Long;
+    invoke-static {v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->readLongObject(Landroid/os/Parcel;I)Ljava/lang/Long;
 
     .line 61
     .line 62
@@ -196,8 +185,7 @@
 
     .line 65
     :pswitch_5
-    invoke-static {v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;
-    ->readLong(Landroid/os/Parcel;I)J
+    invoke-static {v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->readLong(Landroid/os/Parcel;I)J
 
     .line 66
     .line 67
@@ -209,8 +197,7 @@
 
     .line 70
     :pswitch_6
-    invoke-static {v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;
-    ->createString(Landroid/os/Parcel;I)Ljava/lang/String;
+    invoke-static {v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->createString(Landroid/os/Parcel;I)Ljava/lang/String;
 
     .line 71
     .line 72
@@ -222,8 +209,7 @@
 
     .line 75
     :pswitch_7
-    invoke-static {v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;
-    ->readInt(Landroid/os/Parcel;I)I
+    invoke-static {v0, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->readInt(Landroid/os/Parcel;I)I
 
     .line 76
     .line 77
@@ -235,8 +221,7 @@
 
     .line 80
     :cond_0
-    invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;
-    ->ensureAtEnd(Landroid/os/Parcel;I)V
+    invoke-static {v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelReader;->ensureAtEnd(Landroid/os/Parcel;I)V
 
     .line 81
     .line 82
@@ -245,8 +230,7 @@
 
     .line 84
     .line 85
-    invoke-direct/range {v6 .. v15}, Lcom/google/android/gms/measurement/internal/zzpy;
-    -><init>(ILjava/lang/String;JLjava/lang/Long;Ljava/lang/Float;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Double;)V
+    invoke-direct/range {v6 .. v15}, Lcom/google/android/gms/measurement/internal/zzpy;-><init>(ILjava/lang/String;JLjava/lang/Long;Ljava/lang/Float;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Double;)V
 
     .line 86
     .line 87

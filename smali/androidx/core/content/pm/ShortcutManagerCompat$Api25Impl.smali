@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -49,8 +48,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 2
     .line 3
@@ -66,8 +64,7 @@
     .line 7
     :cond_0
     :goto_0
-    invoke-interface {p0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 8
     .line 9
@@ -79,8 +76,7 @@
 
     .line 12
     .line 13
-    invoke-interface {p0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -92,8 +88,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {v2}, Landroid/content/pm/ShortcutInfo;
-    ->getRank()I
+    invoke-virtual {v2}, Landroid/content/pm/ShortcutInfo;->getRank()I
 
     .line 20
     .line 21
@@ -105,8 +100,7 @@
 
     .line 24
     .line 25
-    invoke-virtual {v2}, Landroid/content/pm/ShortcutInfo;
-    ->getId()Ljava/lang/String;
+    invoke-virtual {v2}, Landroid/content/pm/ShortcutInfo;->getId()Ljava/lang/String;
 
     .line 26
     .line 27
@@ -114,8 +108,7 @@
     move-result-object v0
 
     .line 29
-    invoke-virtual {v2}, Landroid/content/pm/ShortcutInfo;
-    ->getRank()I
+    invoke-virtual {v2}, Landroid/content/pm/ShortcutInfo;->getRank()I
 
     .line 30
     .line 31

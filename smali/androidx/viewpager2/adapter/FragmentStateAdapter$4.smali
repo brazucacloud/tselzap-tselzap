@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/viewpager2/adapter/FragmentStateAdapter;
-    ->scheduleGracePeriodEnd()V
+    value = Landroidx/viewpager2/adapter/FragmentStateAdapter;->scheduleGracePeriodEnd()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -36,23 +35,19 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$4;
-    ->this$0:Landroidx/viewpager2/adapter/FragmentStateAdapter;
+    iput-object p1, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$4;->this$0:Landroidx/viewpager2/adapter/FragmentStateAdapter;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$4;
-    ->val$handler:Landroid/os/Handler;
+    iput-object p2, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$4;->val$handler:Landroid/os/Handler;
 
     .line 4
     .line 5
-    iput-object p3, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$4;
-    ->val$runnable:Ljava/lang/Runnable;
+    iput-object p3, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$4;->val$runnable:Ljava/lang/Runnable;
 
     .line 6
     .line 7
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -70,8 +65,7 @@
     .end param
 
     .line 1
-    sget-object v0, Landroidx/lifecycle/Lifecycle$Event;
-    ->ON_DESTROY:Landroidx/lifecycle/Lifecycle$Event;
+    sget-object v0, Landroidx/lifecycle/Lifecycle$Event;->ON_DESTROY:Landroidx/lifecycle/Lifecycle$Event;
 
     .line 2
     .line 3
@@ -79,24 +73,20 @@
 
     .line 4
     .line 5
-    iget-object p2, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$4;
-    ->val$handler:Landroid/os/Handler;
+    iget-object p2, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$4;->val$handler:Landroid/os/Handler;
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$4;
-    ->val$runnable:Ljava/lang/Runnable;
+    iget-object v0, p0, Landroidx/viewpager2/adapter/FragmentStateAdapter$4;->val$runnable:Ljava/lang/Runnable;
 
     .line 8
     .line 9
-    invoke-virtual {p2, v0}, Landroid/os/Handler;
-    ->removeCallbacks(Ljava/lang/Runnable;)V
+    invoke-virtual {p2, v0}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
     .line 10
     .line 11
     .line 12
-    invoke-interface {p1}, Landroidx/lifecycle/LifecycleOwner;
-    ->getLifecycle()Landroidx/lifecycle/Lifecycle;
+    invoke-interface {p1}, Landroidx/lifecycle/LifecycleOwner;->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     .line 13
     .line 14
@@ -104,8 +94,7 @@
     move-result-object p1
 
     .line 16
-    invoke-virtual {p1, p0}, Landroidx/lifecycle/Lifecycle;
-    ->removeObserver(Landroidx/lifecycle/LifecycleObserver;)V
+    invoke-virtual {p1, p0}, Landroidx/lifecycle/Lifecycle;->removeObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
     .line 17
     .line 18

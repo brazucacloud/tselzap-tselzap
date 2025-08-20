@@ -38,19 +38,16 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader;
-    -><init>(Landroidx/datastore/preferences/protobuf/BinaryReader$1;)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader;-><init>(Landroidx/datastore/preferences/protobuf/BinaryReader$1;)V
 
     .line 3
     .line 4
     .line 5
-    iput-boolean p2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->bufferIsImmutable:Z
+    iput-boolean p2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->bufferIsImmutable:Z
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Ljava/nio/ByteBuffer;
-    ->array()[B
+    invoke-virtual {p1}, Ljava/nio/ByteBuffer;->array()[B
 
     .line 8
     .line 9
@@ -58,13 +55,11 @@
     move-result-object p2
 
     .line 11
-    iput-object p2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->buffer:[B
+    iput-object p2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->buffer:[B
 
     .line 12
     .line 13
-    invoke-virtual {p1}, Ljava/nio/ByteBuffer;
-    ->arrayOffset()I
+    invoke-virtual {p1}, Ljava/nio/ByteBuffer;->arrayOffset()I
 
     .line 14
     .line 15
@@ -72,8 +67,7 @@
     move-result p2
 
     .line 17
-    invoke-virtual {p1}, Ljava/nio/Buffer;
-    ->position()I
+    invoke-virtual {p1}, Ljava/nio/Buffer;->position()I
 
     .line 18
     .line 19
@@ -84,18 +78,15 @@
     add-int/2addr v0, p2
 
     .line 22
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 23
     .line 24
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->initialPos:I
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->initialPos:I
 
     .line 25
     .line 26
-    invoke-virtual {p1}, Ljava/nio/ByteBuffer;
-    ->arrayOffset()I
+    invoke-virtual {p1}, Ljava/nio/ByteBuffer;->arrayOffset()I
 
     .line 27
     .line 28
@@ -103,8 +94,7 @@
     move-result p2
 
     .line 30
-    invoke-virtual {p1}, Ljava/nio/Buffer;
-    ->limit()I
+    invoke-virtual {p1}, Ljava/nio/Buffer;->limit()I
 
     .line 31
     .line 32
@@ -115,8 +105,7 @@
     add-int/2addr p1, p2
 
     .line 35
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->limit:I    
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->limit:I
     return-void
 .end method
 
@@ -124,13 +113,11 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->limit:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->limit:I
 
     .line 4
     .line 5
@@ -153,13 +140,11 @@
     .locals 3
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->limit:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->limit:I
 
     .line 4
     .line 5
@@ -167,8 +152,7 @@
 
     .line 6
     .line 7
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->buffer:[B
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->buffer:[B
 
     .line 8
     .line 9
@@ -176,8 +160,7 @@
 
     .line 10
     .line 11
-    iput v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iput v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 12
     .line 13
@@ -185,8 +168,7 @@
 
     .line 16
     :cond_0
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 17
     .line 18
@@ -211,13 +193,11 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/BinaryReader$1;
-    ->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
+    sget-object v0, Landroidx/datastore/preferences/protobuf/BinaryReader$1;->$SwitchMap$com$google$protobuf$WireFormat$FieldType:[I
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
 
     .line 4
     .line 5
@@ -242,8 +222,7 @@
 
     .line 15
     .line 16
-    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
     .line 17
     .line 18
@@ -252,8 +231,7 @@
 
     .line 20
     :pswitch_0
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readUInt64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readUInt64()J
 
     .line 21
     .line 22
@@ -261,8 +239,7 @@
     move-result-wide p1
 
     .line 24
-    invoke-static {p1, p2}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 25
     .line 26
@@ -273,8 +250,7 @@
 
     .line 29
     :pswitch_1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readUInt32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readUInt32()I
 
     .line 30
     .line 31
@@ -282,8 +258,7 @@
     move-result p1
 
     .line 33
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 34
     .line 35
@@ -294,8 +269,7 @@
 
     .line 38
     :pswitch_2
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readStringRequireUtf8()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readStringRequireUtf8()Ljava/lang/String;
 
     .line 39
     .line 40
@@ -306,8 +280,7 @@
 
     .line 43
     :pswitch_3
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readSInt64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readSInt64()J
 
     .line 44
     .line 45
@@ -315,8 +288,7 @@
     move-result-wide p1
 
     .line 47
-    invoke-static {p1, p2}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 48
     .line 49
@@ -327,8 +299,7 @@
 
     .line 52
     :pswitch_4
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readSInt32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readSInt32()I
 
     .line 53
     .line 54
@@ -336,8 +307,7 @@
     move-result p1
 
     .line 56
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 57
     .line 58
@@ -348,8 +318,7 @@
 
     .line 61
     :pswitch_5
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readSFixed64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readSFixed64()J
 
     .line 62
     .line 63
@@ -357,8 +326,7 @@
     move-result-wide p1
 
     .line 65
-    invoke-static {p1, p2}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 66
     .line 67
@@ -369,8 +337,7 @@
 
     .line 70
     :pswitch_6
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readSFixed32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readSFixed32()I
 
     .line 71
     .line 72
@@ -378,8 +345,7 @@
     move-result p1
 
     .line 74
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 75
     .line 76
@@ -390,8 +356,7 @@
 
     .line 79
     :pswitch_7
-    invoke-virtual {p0, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readMessage(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Ljava/lang/Object;
+    invoke-virtual {p0, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readMessage(Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Ljava/lang/Object;
 
     .line 80
     .line 81
@@ -402,8 +367,7 @@
 
     .line 84
     :pswitch_8
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readInt64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readInt64()J
 
     .line 85
     .line 86
@@ -411,8 +375,7 @@
     move-result-wide p1
 
     .line 88
-    invoke-static {p1, p2}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 89
     .line 90
@@ -423,8 +386,7 @@
 
     .line 93
     :pswitch_9
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readInt32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readInt32()I
 
     .line 94
     .line 95
@@ -432,8 +394,7 @@
     move-result p1
 
     .line 97
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 98
     .line 99
@@ -444,8 +405,7 @@
 
     .line 102
     :pswitch_a
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readFloat()F
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readFloat()F
 
     .line 103
     .line 104
@@ -453,8 +413,7 @@
     move-result p1
 
     .line 106
-    invoke-static {p1}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {p1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     .line 107
     .line 108
@@ -465,8 +424,7 @@
 
     .line 111
     :pswitch_b
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readFixed64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readFixed64()J
 
     .line 112
     .line 113
@@ -474,8 +432,7 @@
     move-result-wide p1
 
     .line 115
-    invoke-static {p1, p2}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 116
     .line 117
@@ -486,8 +443,7 @@
 
     .line 120
     :pswitch_c
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readFixed32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readFixed32()I
 
     .line 121
     .line 122
@@ -495,8 +451,7 @@
     move-result p1
 
     .line 124
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 125
     .line 126
@@ -507,8 +462,7 @@
 
     .line 129
     :pswitch_d
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readEnum()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readEnum()I
 
     .line 130
     .line 131
@@ -516,8 +470,7 @@
     move-result p1
 
     .line 133
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 134
     .line 135
@@ -528,8 +481,7 @@
 
     .line 138
     :pswitch_e
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readDouble()D
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readDouble()D
 
     .line 139
     .line 140
@@ -537,8 +489,7 @@
     move-result-wide p1
 
     .line 142
-    invoke-static {p1, p2}, Ljava/lang/Double;
-    ->valueOf(D)Ljava/lang/Double;
+    invoke-static {p1, p2}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     .line 143
     .line 144
@@ -549,8 +500,7 @@
 
     .line 147
     :pswitch_f
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readBytes()Landroidx/datastore/preferences/protobuf/ByteString;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readBytes()Landroidx/datastore/preferences/protobuf/ByteString;
 
     .line 148
     .line 149
@@ -561,8 +511,7 @@
 
     .line 152
     :pswitch_10
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readBool()Z
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readBool()Z
 
     .line 153
     .line 154
@@ -570,8 +519,7 @@
     move-result p1
 
     .line 156
-    invoke-static {p1}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 157
     .line 158
@@ -618,65 +566,53 @@
     .end annotation
 
     .line 3
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->endGroupTag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->endGroupTag:I
 
     .line 4
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
-    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagFieldNumber(I)I
+    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagFieldNumber(I)I
 
     move-result v1
 
     const/4 v2, 0x4
 
-    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->makeTag(II)I
+    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/WireFormat;->makeTag(II)I
 
     move-result v1
 
-    iput v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->endGroupTag:I
+    iput v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->endGroupTag:I
 
     .line 5
     :try_start_0
-    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/Schema;
-    ->newInstance()Ljava/lang/Object;
+    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/Schema;->newInstance()Ljava/lang/Object;
 
     move-result-object v1
 
     .line 6
-    invoke-interface {p1, v1, p0, p2}, Landroidx/datastore/preferences/protobuf/Schema;
-    ->mergeFrom(Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/Reader;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
+    invoke-interface {p1, v1, p0, p2}, Landroidx/datastore/preferences/protobuf/Schema;->mergeFrom(Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/Reader;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
 
     .line 7
-    invoke-interface {p1, v1}, Landroidx/datastore/preferences/protobuf/Schema;
-    ->makeImmutable(Ljava/lang/Object;)V
+    invoke-interface {p1, v1}, Landroidx/datastore/preferences/protobuf/Schema;->makeImmutable(Ljava/lang/Object;)V
 
     .line 8
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
-    iget p2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->endGroupTag:I
+    iget p2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->endGroupTag:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     if-ne p1, p2, :cond_0
 
     .line 9
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->endGroupTag:I
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->endGroupTag:I
 
     return-object v1
 
     .line 10
     :cond_0
     :try_start_1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->parseFailure()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->parseFailure()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     move-result-object p1
 
@@ -688,8 +624,7 @@
     move-exception p1
 
     .line 11
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->endGroupTag:I
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->endGroupTag:I
 
     .line 12
     throw p1
@@ -702,14 +637,12 @@
     const/4 v0, 0x4
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireBytes(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireBytes(I)V
 
     .line 3
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readLittleEndian32_NoCheck()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readLittleEndian32_NoCheck()I
 
     .line 6
     .line 7
@@ -723,13 +656,11 @@
     .locals 4
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->buffer:[B
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->buffer:[B
 
     .line 4
     .line 5
@@ -737,8 +668,7 @@
 
     .line 6
     .line 7
-    iput v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iput v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 8
     .line 9
@@ -817,14 +747,12 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireBytes(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireBytes(I)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readLittleEndian64_NoCheck()J
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readLittleEndian64_NoCheck()J
 
     .line 7
     .line 8
@@ -838,13 +766,11 @@
     .locals 9
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->buffer:[B
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->buffer:[B
 
     .line 4
     .line 5
@@ -852,8 +778,7 @@
 
     .line 6
     .line 7
-    iput v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iput v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 8
     .line 9
@@ -1056,63 +981,52 @@
     .end annotation
 
     .line 3
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     move-result v0
 
     .line 4
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireBytes(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireBytes(I)V
 
     .line 5
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->limit:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->limit:I
 
     .line 6
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     add-int/2addr v2, v0
 
     .line 7
-    iput v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->limit:I
+    iput v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->limit:I
 
     .line 8
     :try_start_0
-    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/Schema;
-    ->newInstance()Ljava/lang/Object;
+    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/Schema;->newInstance()Ljava/lang/Object;
 
     move-result-object v0
 
     .line 9
-    invoke-interface {p1, v0, p0, p2}, Landroidx/datastore/preferences/protobuf/Schema;
-    ->mergeFrom(Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/Reader;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
+    invoke-interface {p1, v0, p0, p2}, Landroidx/datastore/preferences/protobuf/Schema;->mergeFrom(Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/Reader;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
 
     .line 10
-    invoke-interface {p1, v0}, Landroidx/datastore/preferences/protobuf/Schema;
-    ->makeImmutable(Ljava/lang/Object;)V
+    invoke-interface {p1, v0}, Landroidx/datastore/preferences/protobuf/Schema;->makeImmutable(Ljava/lang/Object;)V
 
     .line 11
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     if-ne p1, v2, :cond_0
 
     .line 12
-    iput v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->limit:I
+    iput v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->limit:I
 
     return-object v0
 
     .line 13
     :cond_0
     :try_start_1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->parseFailure()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->parseFailure()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     move-result-object p1
 
@@ -1124,8 +1038,7 @@
     move-exception p1
 
     .line 14
-    iput v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->limit:I
+    iput v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->limit:I
 
     .line 15
     throw p1
@@ -1135,13 +1048,11 @@
     .locals 7
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->limit:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->limit:I
 
     .line 4
     .line 5
@@ -1149,8 +1060,7 @@
 
     .line 6
     .line 7
-    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->buffer:[B
+    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->buffer:[B
 
     .line 8
     .line 9
@@ -1166,8 +1076,7 @@
 
     .line 14
     .line 15
-    iput v3, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput v3, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return v4
 
     .line 18
@@ -1183,8 +1092,7 @@
 
     .line 22
     .line 23
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint64SlowPath()J
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint64SlowPath()J
 
     .line 24
     .line 25
@@ -1391,8 +1299,7 @@
 
     .line 116
     :cond_5
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->malformedVarint()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->malformedVarint()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 117
     .line 118
@@ -1418,14 +1325,12 @@
 
     .line 125
     :goto_2
-    iput v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return v0
 
     .line 128
     :cond_8
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 129
     .line 130
@@ -1455,8 +1360,7 @@
 
     .line 7
     .line 8
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readByte()B
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readByte()B
 
     .line 9
     .line 10
@@ -1493,8 +1397,7 @@
 
     .line 25
     :cond_1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->malformedVarint()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->malformedVarint()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 26
     .line 27
@@ -1512,13 +1415,11 @@
 
     .line 2
     .line 3
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->limit:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->limit:I
 
     .line 4
     .line 5
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 6
     .line 7
@@ -1529,8 +1430,7 @@
 
     .line 11
     :cond_0
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 12
     .line 13
@@ -1544,8 +1444,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 2
     .line 3
@@ -1553,8 +1452,7 @@
 
     .line 6
     :cond_0
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 7
     .line 8
@@ -1568,13 +1466,11 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 4
     .line 5
@@ -1586,8 +1482,7 @@
 
     .line 10
     :cond_0
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 11
     .line 12
@@ -1601,22 +1496,19 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireBytes(I)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireBytes(I)V
 
     .line 2
     .line 3
     .line 4
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 5
     .line 6
     add-int/2addr v0, p1
 
     .line 7
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 .end method
 
@@ -1624,18 +1516,15 @@
     .locals 3
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->endGroupTag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->endGroupTag:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 4
     .line 5
-    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagFieldNumber(I)I
+    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagFieldNumber(I)I
 
     .line 6
     .line 7
@@ -1646,8 +1535,7 @@
     const/4 v2, 0x4
 
     .line 10
-    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->makeTag(II)I
+    invoke-static {v1, v2}, Landroidx/datastore/preferences/protobuf/WireFormat;->makeTag(II)I
 
     .line 11
     .line 12
@@ -1655,14 +1543,12 @@
     move-result v1
 
     .line 14
-    iput v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->endGroupTag:I
+    iput v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->endGroupTag:I
 
     .line 15
     .line 16
     :cond_0
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->getFieldNumber()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->getFieldNumber()I
 
     .line 17
     .line 18
@@ -1679,8 +1565,7 @@
 
     .line 24
     .line 25
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->skipField()Z
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->skipField()Z
 
     .line 26
     .line 27
@@ -1693,13 +1578,11 @@
     .line 30
     .line 31
     :cond_1
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 32
     .line 33
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->endGroupTag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->endGroupTag:I
 
     .line 34
     .line 35
@@ -1707,14 +1590,12 @@
 
     .line 36
     .line 37
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->endGroupTag:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->endGroupTag:I
     return-void
 
     .line 40
     :cond_2
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->parseFailure()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->parseFailure()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 41
     .line 42
@@ -1728,13 +1609,11 @@
     .locals 5
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->limit:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->limit:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 4
     .line 5
@@ -1749,8 +1628,7 @@
 
     .line 9
     .line 10
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->buffer:[B
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->buffer:[B
 
     .line 11
     .line 12
@@ -1774,8 +1652,7 @@
 
     .line 20
     .line 21
-    iput v4, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput v4, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 
     .line 24
@@ -1791,8 +1668,7 @@
 
     .line 28
     :cond_1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->skipVarintSlowPath()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->skipVarintSlowPath()V
     return-void
 .end method
 
@@ -1812,8 +1688,7 @@
 
     .line 5
     .line 6
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readByte()B
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readByte()B
 
     .line 7
     .line 8
@@ -1833,8 +1708,7 @@
 
     .line 16
     :cond_1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->malformedVarint()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->malformedVarint()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 17
     .line 18
@@ -1848,8 +1722,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireBytes(I)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireBytes(I)V
 
     .line 2
     .line 3
@@ -1862,8 +1735,7 @@
 
     .line 9
     :cond_0
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->parseFailure()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->parseFailure()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 10
     .line 11
@@ -1877,8 +1749,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireBytes(I)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireBytes(I)V
 
     .line 2
     .line 3
@@ -1891,8 +1762,7 @@
 
     .line 9
     :cond_0
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->parseFailure()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->parseFailure()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 10
     .line 11
@@ -1908,8 +1778,7 @@
     .locals 3
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 2
     .line 3
@@ -1926,8 +1795,7 @@
 
     .line 11
     :cond_0
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 12
     .line 13
@@ -1935,13 +1803,11 @@
     move-result v0
 
     .line 15
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 16
     .line 17
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->endGroupTag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->endGroupTag:I
 
     .line 18
     .line 19
@@ -1949,8 +1815,7 @@
 
     .line 22
     :cond_1
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagFieldNumber(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagFieldNumber(I)I
 
     .line 23
     .line 24
@@ -1964,21 +1829,18 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I    return v0
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I    return v0
 .end method
 
 .method public getTotalBytesRead()I
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->initialPos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->initialPos:I
 
     .line 4
     .line 5
@@ -1994,14 +1856,12 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireWireType(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireWireType(I)V
 
     .line 3
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 6
     .line 7
@@ -2056,13 +1916,11 @@
 
     .line 10
     .line 11
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 12
     .line 13
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 14
     .line 15
@@ -2078,8 +1936,7 @@
 
     .line 20
     .line 21
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 22
     .line 23
@@ -2087,8 +1944,7 @@
     move-result p1
 
     .line 25
-    iget v3, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v3, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 26
     .line 27
@@ -2096,8 +1952,7 @@
 
     .line 28
     :goto_0
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 29
     .line 30
@@ -2105,8 +1960,7 @@
 
     .line 31
     .line 32
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 33
     .line 34
@@ -2129,8 +1983,7 @@
 
     .line 41
     :goto_1
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/BooleanArrayList;
-    ->addBoolean(Z)V
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/BooleanArrayList;->addBoolean(Z)V
 
     .line 42
     .line 43
@@ -2139,14 +1992,12 @@
 
     .line 45
     :cond_1
-    invoke-direct {p0, v3}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requirePosition(I)V
+    invoke-direct {p0, v3}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requirePosition(I)V
 return-void
 
     .line 49
     :cond_2
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 50
     .line 51
@@ -2158,8 +2009,7 @@ return-void
 
     .line 54
     :cond_3
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readBool()Z
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readBool()Z
 
     .line 55
     .line 56
@@ -2167,14 +2017,12 @@ return-void
     move-result p1
 
     .line 58
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/BooleanArrayList;
-    ->addBoolean(Z)V
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/BooleanArrayList;->addBoolean(Z)V
 
     .line 59
     .line 60
     .line 61
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 62
     .line 63
@@ -2190,13 +2038,11 @@ return-void
 
     .line 68
     :cond_4
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 69
     .line 70
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 71
     .line 72
@@ -2204,8 +2050,7 @@ return-void
     move-result v1
 
     .line 74
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 75
     .line 76
@@ -2213,19 +2058,16 @@ return-void
 
     .line 77
     .line 78
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 
     .line 81
     :cond_5
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 82
     .line 83
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 84
     .line 85
@@ -2241,8 +2083,7 @@ return-void
 
     .line 90
     .line 91
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 92
     .line 93
@@ -2250,8 +2091,7 @@ return-void
     move-result v0
 
     .line 95
-    iget v3, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v3, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 96
     .line 97
@@ -2259,8 +2099,7 @@ return-void
 
     .line 98
     :goto_2
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 99
     .line 100
@@ -2268,8 +2107,7 @@ return-void
 
     .line 101
     .line 102
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 103
     .line 104
@@ -2292,8 +2130,7 @@ return-void
 
     .line 111
     :goto_3
-    invoke-static {v0}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 112
     .line 113
@@ -2301,8 +2138,7 @@ return-void
     move-result-object v0
 
     .line 115
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 116
     .line 117
@@ -2311,14 +2147,12 @@ return-void
 
     .line 119
     :cond_7
-    invoke-direct {p0, v3}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requirePosition(I)V
+    invoke-direct {p0, v3}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requirePosition(I)V
     return-void
 
     .line 123
     :cond_8
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 124
     .line 125
@@ -2330,8 +2164,7 @@ return-void
 
     .line 128
     :cond_9
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readBool()Z
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readBool()Z
 
     .line 129
     .line 130
@@ -2339,8 +2172,7 @@ return-void
     move-result v0
 
     .line 132
-    invoke-static {v0}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 133
     .line 134
@@ -2348,14 +2180,12 @@ return-void
     move-result-object v0
 
     .line 136
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 137
     .line 138
     .line 139
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 140
     .line 141
@@ -2372,13 +2202,11 @@ return-void
 
     .line 146
     :cond_a
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 147
     .line 148
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 149
     .line 150
@@ -2386,8 +2214,7 @@ return-void
     move-result v1
 
     .line 152
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 153
     .line 154
@@ -2395,8 +2222,7 @@ return-void
 
     .line 155
     .line 156
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 .end method
 
@@ -2407,14 +2233,12 @@ return-void
     const/4 v0, 0x2
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireWireType(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireWireType(I)V
 
     .line 3
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 6
     .line 7
@@ -2426,19 +2250,16 @@ return-void
 
     .line 10
     .line 11
-    sget-object v0, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->EMPTY:Landroidx/datastore/preferences/protobuf/ByteString;    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/ByteString;->EMPTY:Landroidx/datastore/preferences/protobuf/ByteString;    return-object v0
 
     .line 14
     :cond_0
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireBytes(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireBytes(I)V
 
     .line 15
     .line 16
     .line 17
-    iget-boolean v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->bufferIsImmutable:Z
+    iget-boolean v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->bufferIsImmutable:Z
 
     .line 18
     .line 19
@@ -2446,18 +2267,15 @@ return-void
 
     .line 20
     .line 21
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->buffer:[B
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->buffer:[B
 
     .line 22
     .line 23
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 24
     .line 25
-    invoke-static {v1, v2, v0}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->wrap([BII)Landroidx/datastore/preferences/protobuf/ByteString;
+    invoke-static {v1, v2, v0}, Landroidx/datastore/preferences/protobuf/ByteString;->wrap([BII)Landroidx/datastore/preferences/protobuf/ByteString;
 
     .line 26
     .line 27
@@ -2469,18 +2287,15 @@ return-void
 
     .line 30
     :cond_1
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->buffer:[B
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->buffer:[B
 
     .line 31
     .line 32
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 33
     .line 34
-    invoke-static {v1, v2, v0}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->copyFrom([BII)Landroidx/datastore/preferences/protobuf/ByteString;
+    invoke-static {v1, v2, v0}, Landroidx/datastore/preferences/protobuf/ByteString;->copyFrom([BII)Landroidx/datastore/preferences/protobuf/ByteString;
 
     .line 35
     .line 36
@@ -2489,16 +2304,14 @@ return-void
 
     .line 38
     :goto_0
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 39
     .line 40
     add-int/2addr v2, v0
 
     .line 41
-    iput v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-object v1
 .end method
 
@@ -2514,13 +2327,11 @@ return-void
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 4
     .line 5
@@ -2536,8 +2347,7 @@ return-void
     .line 9
     .line 10
     :cond_0
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readBytes()Landroidx/datastore/preferences/protobuf/ByteString;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readBytes()Landroidx/datastore/preferences/protobuf/ByteString;
 
     .line 11
     .line 12
@@ -2545,14 +2355,12 @@ return-void
     move-result-object v0
 
     .line 14
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 15
     .line 16
     .line 17
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 18
     .line 19
@@ -2564,13 +2372,11 @@ return-void
 
     .line 24
     :cond_1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 25
     .line 26
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 27
     .line 28
@@ -2578,8 +2384,7 @@ return-void
     move-result v1
 
     .line 30
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 31
     .line 32
@@ -2587,14 +2392,12 @@ return-void
 
     .line 33
     .line 34
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 
     .line 37
     :cond_2
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 38
     .line 39
@@ -2611,14 +2414,12 @@ return-void
     const/4 v0, 0x1
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireWireType(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireWireType(I)V
 
     .line 3
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readLittleEndian64()J
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readLittleEndian64()J
 
     .line 6
     .line 7
@@ -2626,8 +2427,7 @@ return-void
     move-result-wide v0
 
     .line 9
-    invoke-static {v0, v1}, Ljava/lang/Double;
-    ->longBitsToDouble(J)D
+    invoke-static {v0, v1}, Ljava/lang/Double;->longBitsToDouble(J)D
 
     .line 10
     .line 11
@@ -2670,13 +2470,11 @@ return-void
 
     .line 9
     .line 10
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 11
     .line 12
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 13
     .line 14
@@ -2692,8 +2490,7 @@ return-void
 
     .line 19
     .line 20
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 21
     .line 22
@@ -2701,14 +2498,12 @@ return-void
     move-result p1
 
     .line 24
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->verifyPackedFixed64Length(I)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->verifyPackedFixed64Length(I)V
 
     .line 25
     .line 26
     .line 27
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 28
     .line 29
@@ -2716,8 +2511,7 @@ return-void
 
     .line 30
     :goto_0
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 31
     .line 32
@@ -2725,8 +2519,7 @@ return-void
 
     .line 33
     .line 34
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readLittleEndian64_NoCheck()J
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readLittleEndian64_NoCheck()J
 
     .line 35
     .line 36
@@ -2734,8 +2527,7 @@ return-void
     move-result-wide v2
 
     .line 38
-    invoke-static {v2, v3}, Ljava/lang/Double;
-    ->longBitsToDouble(J)D
+    invoke-static {v2, v3}, Ljava/lang/Double;->longBitsToDouble(J)D
 
     .line 39
     .line 40
@@ -2743,8 +2535,7 @@ return-void
     move-result-wide v2
 
     .line 42
-    invoke-virtual {v0, v2, v3}, Landroidx/datastore/preferences/protobuf/DoubleArrayList;
-    ->addDouble(D)V
+    invoke-virtual {v0, v2, v3}, Landroidx/datastore/preferences/protobuf/DoubleArrayList;->addDouble(D)V
 
     .line 43
     .line 44
@@ -2753,8 +2544,7 @@ return-void
 
     .line 46
     :cond_0
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 47
     .line 48
@@ -2766,8 +2556,7 @@ return-void
 
     .line 51
     :cond_1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readDouble()D
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readDouble()D
 
     .line 52
     .line 53
@@ -2775,14 +2564,12 @@ return-void
     move-result-wide v1
 
     .line 55
-    invoke-virtual {v0, v1, v2}, Landroidx/datastore/preferences/protobuf/DoubleArrayList;
-    ->addDouble(D)V
+    invoke-virtual {v0, v1, v2}, Landroidx/datastore/preferences/protobuf/DoubleArrayList;->addDouble(D)V
 
     .line 56
     .line 57
     .line 58
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 59
     .line 60
@@ -2798,13 +2585,11 @@ return-void
 
     .line 65
     :cond_2
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 66
     .line 67
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 68
     .line 69
@@ -2812,8 +2597,7 @@ return-void
     move-result v1
 
     .line 71
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 72
     .line 73
@@ -2821,19 +2605,16 @@ return-void
 
     .line 74
     .line 75
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 
     .line 78
     :cond_3
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 79
     .line 80
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 81
     .line 82
@@ -2849,8 +2630,7 @@ return-void
 
     .line 87
     .line 88
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 89
     .line 90
@@ -2858,14 +2638,12 @@ return-void
     move-result v0
 
     .line 92
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->verifyPackedFixed64Length(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->verifyPackedFixed64Length(I)V
 
     .line 93
     .line 94
     .line 95
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 96
     .line 97
@@ -2873,8 +2651,7 @@ return-void
 
     .line 98
     :goto_1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 99
     .line 100
@@ -2882,8 +2659,7 @@ return-void
 
     .line 101
     .line 102
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readLittleEndian64_NoCheck()J
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readLittleEndian64_NoCheck()J
 
     .line 103
     .line 104
@@ -2891,8 +2667,7 @@ return-void
     move-result-wide v2
 
     .line 106
-    invoke-static {v2, v3}, Ljava/lang/Double;
-    ->longBitsToDouble(J)D
+    invoke-static {v2, v3}, Ljava/lang/Double;->longBitsToDouble(J)D
 
     .line 107
     .line 108
@@ -2900,8 +2675,7 @@ return-void
     move-result-wide v2
 
     .line 110
-    invoke-static {v2, v3}, Ljava/lang/Double;
-    ->valueOf(D)Ljava/lang/Double;
+    invoke-static {v2, v3}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     .line 111
     .line 112
@@ -2909,8 +2683,7 @@ return-void
     move-result-object v0
 
     .line 114
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 115
     .line 116
@@ -2919,8 +2692,7 @@ return-void
 
     .line 118
     :cond_4
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 119
     .line 120
@@ -2932,8 +2704,7 @@ return-void
 
     .line 123
     :cond_5
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readDouble()D
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readDouble()D
 
     .line 124
     .line 125
@@ -2941,8 +2712,7 @@ return-void
     move-result-wide v0
 
     .line 127
-    invoke-static {v0, v1}, Ljava/lang/Double;
-    ->valueOf(D)Ljava/lang/Double;
+    invoke-static {v0, v1}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     .line 128
     .line 129
@@ -2950,14 +2720,12 @@ return-void
     move-result-object v0
 
     .line 131
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 132
     .line 133
     .line 134
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 135
     .line 136
@@ -2975,13 +2743,11 @@ return-void
 
     .line 141
     :cond_7
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 142
     .line 143
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 144
     .line 145
@@ -2989,8 +2755,7 @@ return-void
     move-result v1
 
     .line 147
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 148
     .line 149
@@ -2998,8 +2763,7 @@ return-void
 
     .line 150
     .line 151
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 .end method
 
@@ -3010,14 +2774,12 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireWireType(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireWireType(I)V
 
     .line 3
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 6
     .line 7
@@ -3057,13 +2819,11 @@ return-void
 
     .line 8
     .line 9
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 10
     .line 11
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 12
     .line 13
@@ -3079,8 +2839,7 @@ return-void
 
     .line 18
     .line 19
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 20
     .line 21
@@ -3088,8 +2847,7 @@ return-void
     move-result p1
 
     .line 23
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 24
     .line 25
@@ -3097,8 +2855,7 @@ return-void
 
     .line 26
     :goto_0
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 27
     .line 28
@@ -3106,8 +2863,7 @@ return-void
 
     .line 29
     .line 30
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 31
     .line 32
@@ -3115,8 +2871,7 @@ return-void
     move-result p1
 
     .line 34
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/IntArrayList;
-    ->addInt(I)V
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/IntArrayList;->addInt(I)V
 
     .line 35
     .line 36
@@ -3125,8 +2880,7 @@ return-void
 
     .line 38
     :cond_0
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 39
     .line 40
@@ -3138,8 +2892,7 @@ return-void
 
     .line 43
     :cond_1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readEnum()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readEnum()I
 
     .line 44
     .line 45
@@ -3147,14 +2900,12 @@ return-void
     move-result p1
 
     .line 47
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/IntArrayList;
-    ->addInt(I)V
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/IntArrayList;->addInt(I)V
 
     .line 48
     .line 49
     .line 50
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 51
     .line 52
@@ -3170,13 +2921,11 @@ return-void
 
     .line 57
     :cond_2
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 58
     .line 59
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 60
     .line 61
@@ -3184,8 +2933,7 @@ return-void
     move-result v1
 
     .line 63
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 64
     .line 65
@@ -3193,19 +2941,16 @@ return-void
 
     .line 66
     .line 67
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 
     .line 70
     :cond_3
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 71
     .line 72
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 73
     .line 74
@@ -3221,8 +2966,7 @@ return-void
 
     .line 79
     .line 80
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 81
     .line 82
@@ -3230,8 +2974,7 @@ return-void
     move-result v0
 
     .line 84
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 85
     .line 86
@@ -3239,8 +2982,7 @@ return-void
 
     .line 87
     :goto_1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 88
     .line 89
@@ -3248,8 +2990,7 @@ return-void
 
     .line 90
     .line 91
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 92
     .line 93
@@ -3257,8 +2998,7 @@ return-void
     move-result v0
 
     .line 95
-    invoke-static {v0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 96
     .line 97
@@ -3266,8 +3006,7 @@ return-void
     move-result-object v0
 
     .line 99
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 100
     .line 101
@@ -3276,8 +3015,7 @@ return-void
 
     .line 103
     :cond_4
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 104
     .line 105
@@ -3289,8 +3027,7 @@ return-void
 
     .line 108
     :cond_5
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readEnum()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readEnum()I
 
     .line 109
     .line 110
@@ -3298,8 +3035,7 @@ return-void
     move-result v0
 
     .line 112
-    invoke-static {v0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 113
     .line 114
@@ -3307,14 +3043,12 @@ return-void
     move-result-object v0
 
     .line 116
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 117
     .line 118
     .line 119
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 120
     .line 121
@@ -3332,13 +3066,11 @@ return-void
 
     .line 126
     :cond_7
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 127
     .line 128
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 129
     .line 130
@@ -3346,8 +3078,7 @@ return-void
     move-result v1
 
     .line 132
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 133
     .line 134
@@ -3355,8 +3086,7 @@ return-void
 
     .line 135
     .line 136
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 .end method
 
@@ -3367,14 +3097,12 @@ return-void
     const/4 v0, 0x5
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireWireType(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireWireType(I)V
 
     .line 3
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readLittleEndian32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readLittleEndian32()I
 
     .line 6
     .line 7
@@ -3414,13 +3142,11 @@ return-void
 
     .line 8
     .line 9
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 10
     .line 11
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 12
     .line 13
@@ -3437,8 +3163,7 @@ return-void
     .line 18
     .line 19
     :cond_0
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readFixed32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readFixed32()I
 
     .line 20
     .line 21
@@ -3446,14 +3171,12 @@ return-void
     move-result v0
 
     .line 23
-    invoke-virtual {p1, v0}, Landroidx/datastore/preferences/protobuf/IntArrayList;
-    ->addInt(I)V
+    invoke-virtual {p1, v0}, Landroidx/datastore/preferences/protobuf/IntArrayList;->addInt(I)V
 
     .line 24
     .line 25
     .line 26
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 27
     .line 28
@@ -3470,13 +3193,11 @@ return-void
     .line 33
     .line 34
     :cond_1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 35
     .line 36
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 37
     .line 38
@@ -3484,8 +3205,7 @@ return-void
     move-result v1
 
     .line 40
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 41
     .line 42
@@ -3493,14 +3213,12 @@ return-void
 
     .line 43
     .line 44
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 
     .line 47
     :cond_2
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 48
     .line 49
@@ -3512,8 +3230,7 @@ return-void
 
     .line 52
     :cond_3
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 53
     .line 54
@@ -3521,14 +3238,12 @@ return-void
     move-result v0
 
     .line 56
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->verifyPackedFixed32Length(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->verifyPackedFixed32Length(I)V
 
     .line 57
     .line 58
     .line 59
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 60
     .line 61
@@ -3536,8 +3251,7 @@ return-void
 
     .line 62
     :goto_0
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 63
     .line 64
@@ -3545,8 +3259,7 @@ return-void
 
     .line 65
     .line 66
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readLittleEndian32_NoCheck()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readLittleEndian32_NoCheck()I
 
     .line 67
     .line 68
@@ -3554,8 +3267,7 @@ return-void
     move-result v0
 
     .line 70
-    invoke-virtual {p1, v0}, Landroidx/datastore/preferences/protobuf/IntArrayList;
-    ->addInt(I)V
+    invoke-virtual {p1, v0}, Landroidx/datastore/preferences/protobuf/IntArrayList;->addInt(I)V
 
     .line 71
     .line 72
@@ -3564,13 +3276,11 @@ return-void
 
     .line 74
     :cond_4
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 75
     .line 76
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 77
     .line 78
@@ -3587,8 +3297,7 @@ return-void
     .line 83
     .line 84
     :cond_5
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readFixed32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readFixed32()I
 
     .line 85
     .line 86
@@ -3596,8 +3305,7 @@ return-void
     move-result v0
 
     .line 88
-    invoke-static {v0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 89
     .line 90
@@ -3605,14 +3313,12 @@ return-void
     move-result-object v0
 
     .line 92
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 93
     .line 94
     .line 95
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 96
     .line 97
@@ -3628,13 +3334,11 @@ return-void
 
     .line 102
     :cond_6
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 103
     .line 104
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 105
     .line 106
@@ -3642,8 +3346,7 @@ return-void
     move-result v1
 
     .line 108
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 109
     .line 110
@@ -3651,14 +3354,12 @@ return-void
 
     .line 111
     .line 112
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 
     .line 115
     :cond_7
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 116
     .line 117
@@ -3670,8 +3371,7 @@ return-void
 
     .line 120
     :cond_8
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 121
     .line 122
@@ -3679,14 +3379,12 @@ return-void
     move-result v0
 
     .line 124
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->verifyPackedFixed32Length(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->verifyPackedFixed32Length(I)V
 
     .line 125
     .line 126
     .line 127
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 128
     .line 129
@@ -3694,8 +3392,7 @@ return-void
 
     .line 130
     :goto_1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 131
     .line 132
@@ -3703,8 +3400,7 @@ return-void
 
     .line 133
     .line 134
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readLittleEndian32_NoCheck()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readLittleEndian32_NoCheck()I
 
     .line 135
     .line 136
@@ -3712,8 +3408,7 @@ return-void
     move-result v0
 
     .line 138
-    invoke-static {v0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 139
     .line 140
@@ -3721,8 +3416,7 @@ return-void
     move-result-object v0
 
     .line 142
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 143
     .line 144
@@ -3742,14 +3436,12 @@ return-void
     const/4 v0, 0x1
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireWireType(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireWireType(I)V
 
     .line 3
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readLittleEndian64()J
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readLittleEndian64()J
 
     .line 6
     .line 7
@@ -3792,13 +3484,11 @@ return-void
 
     .line 9
     .line 10
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 11
     .line 12
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 13
     .line 14
@@ -3814,8 +3504,7 @@ return-void
 
     .line 19
     .line 20
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 21
     .line 22
@@ -3823,14 +3512,12 @@ return-void
     move-result p1
 
     .line 24
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->verifyPackedFixed64Length(I)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->verifyPackedFixed64Length(I)V
 
     .line 25
     .line 26
     .line 27
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 28
     .line 29
@@ -3838,8 +3525,7 @@ return-void
 
     .line 30
     :goto_0
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 31
     .line 32
@@ -3847,8 +3533,7 @@ return-void
 
     .line 33
     .line 34
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readLittleEndian64_NoCheck()J
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readLittleEndian64_NoCheck()J
 
     .line 35
     .line 36
@@ -3856,8 +3541,7 @@ return-void
     move-result-wide v2
 
     .line 38
-    invoke-virtual {v0, v2, v3}, Landroidx/datastore/preferences/protobuf/LongArrayList;
-    ->addLong(J)V
+    invoke-virtual {v0, v2, v3}, Landroidx/datastore/preferences/protobuf/LongArrayList;->addLong(J)V
 
     .line 39
     .line 40
@@ -3866,8 +3550,7 @@ return-void
 
     .line 42
     :cond_0
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 43
     .line 44
@@ -3879,8 +3562,7 @@ return-void
 
     .line 47
     :cond_1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readFixed64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readFixed64()J
 
     .line 48
     .line 49
@@ -3888,14 +3570,12 @@ return-void
     move-result-wide v1
 
     .line 51
-    invoke-virtual {v0, v1, v2}, Landroidx/datastore/preferences/protobuf/LongArrayList;
-    ->addLong(J)V
+    invoke-virtual {v0, v1, v2}, Landroidx/datastore/preferences/protobuf/LongArrayList;->addLong(J)V
 
     .line 52
     .line 53
     .line 54
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 55
     .line 56
@@ -3911,13 +3591,11 @@ return-void
 
     .line 61
     :cond_2
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 62
     .line 63
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 64
     .line 65
@@ -3925,8 +3603,7 @@ return-void
     move-result v1
 
     .line 67
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 68
     .line 69
@@ -3934,19 +3611,16 @@ return-void
 
     .line 70
     .line 71
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 
     .line 74
     :cond_3
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 75
     .line 76
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 77
     .line 78
@@ -3962,8 +3636,7 @@ return-void
 
     .line 83
     .line 84
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 85
     .line 86
@@ -3971,14 +3644,12 @@ return-void
     move-result v0
 
     .line 88
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->verifyPackedFixed64Length(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->verifyPackedFixed64Length(I)V
 
     .line 89
     .line 90
     .line 91
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 92
     .line 93
@@ -3986,8 +3657,7 @@ return-void
 
     .line 94
     :goto_1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 95
     .line 96
@@ -3995,8 +3665,7 @@ return-void
 
     .line 97
     .line 98
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readLittleEndian64_NoCheck()J
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readLittleEndian64_NoCheck()J
 
     .line 99
     .line 100
@@ -4004,8 +3673,7 @@ return-void
     move-result-wide v2
 
     .line 102
-    invoke-static {v2, v3}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 103
     .line 104
@@ -4013,8 +3681,7 @@ return-void
     move-result-object v0
 
     .line 106
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 107
     .line 108
@@ -4023,8 +3690,7 @@ return-void
 
     .line 110
     :cond_4
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 111
     .line 112
@@ -4036,8 +3702,7 @@ return-void
 
     .line 115
     :cond_5
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readFixed64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readFixed64()J
 
     .line 116
     .line 117
@@ -4045,8 +3710,7 @@ return-void
     move-result-wide v0
 
     .line 119
-    invoke-static {v0, v1}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 120
     .line 121
@@ -4054,14 +3718,12 @@ return-void
     move-result-object v0
 
     .line 123
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 124
     .line 125
     .line 126
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 127
     .line 128
@@ -4079,13 +3741,11 @@ return-void
 
     .line 133
     :cond_7
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 134
     .line 135
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 136
     .line 137
@@ -4093,8 +3753,7 @@ return-void
     move-result v1
 
     .line 139
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 140
     .line 141
@@ -4102,8 +3761,7 @@ return-void
 
     .line 142
     .line 143
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 .end method
 
@@ -4114,14 +3772,12 @@ return-void
     const/4 v0, 0x5
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireWireType(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireWireType(I)V
 
     .line 3
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readLittleEndian32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readLittleEndian32()I
 
     .line 6
     .line 7
@@ -4129,8 +3785,7 @@ return-void
     move-result v0
 
     .line 9
-    invoke-static {v0}, Ljava/lang/Float;
-    ->intBitsToFloat(I)F
+    invoke-static {v0}, Ljava/lang/Float;->intBitsToFloat(I)F
 
     .line 10
     .line 11
@@ -4170,13 +3825,11 @@ return-void
 
     .line 8
     .line 9
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 10
     .line 11
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 12
     .line 13
@@ -4193,8 +3846,7 @@ return-void
     .line 18
     .line 19
     :cond_0
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readFloat()F
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readFloat()F
 
     .line 20
     .line 21
@@ -4202,14 +3854,12 @@ return-void
     move-result v0
 
     .line 23
-    invoke-virtual {p1, v0}, Landroidx/datastore/preferences/protobuf/FloatArrayList;
-    ->addFloat(F)V
+    invoke-virtual {p1, v0}, Landroidx/datastore/preferences/protobuf/FloatArrayList;->addFloat(F)V
 
     .line 24
     .line 25
     .line 26
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 27
     .line 28
@@ -4226,13 +3876,11 @@ return-void
     .line 33
     .line 34
     :cond_1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 35
     .line 36
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 37
     .line 38
@@ -4240,8 +3888,7 @@ return-void
     move-result v1
 
     .line 40
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 41
     .line 42
@@ -4249,14 +3896,12 @@ return-void
 
     .line 43
     .line 44
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 
     .line 47
     :cond_2
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 48
     .line 49
@@ -4268,8 +3913,7 @@ return-void
 
     .line 52
     :cond_3
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 53
     .line 54
@@ -4277,14 +3921,12 @@ return-void
     move-result v0
 
     .line 56
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->verifyPackedFixed32Length(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->verifyPackedFixed32Length(I)V
 
     .line 57
     .line 58
     .line 59
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 60
     .line 61
@@ -4292,8 +3934,7 @@ return-void
 
     .line 62
     :goto_0
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 63
     .line 64
@@ -4301,8 +3942,7 @@ return-void
 
     .line 65
     .line 66
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readLittleEndian32_NoCheck()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readLittleEndian32_NoCheck()I
 
     .line 67
     .line 68
@@ -4310,8 +3950,7 @@ return-void
     move-result v0
 
     .line 70
-    invoke-static {v0}, Ljava/lang/Float;
-    ->intBitsToFloat(I)F
+    invoke-static {v0}, Ljava/lang/Float;->intBitsToFloat(I)F
 
     .line 71
     .line 72
@@ -4319,8 +3958,7 @@ return-void
     move-result v0
 
     .line 74
-    invoke-virtual {p1, v0}, Landroidx/datastore/preferences/protobuf/FloatArrayList;
-    ->addFloat(F)V
+    invoke-virtual {p1, v0}, Landroidx/datastore/preferences/protobuf/FloatArrayList;->addFloat(F)V
 
     .line 75
     .line 76
@@ -4329,13 +3967,11 @@ return-void
 
     .line 78
     :cond_4
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 79
     .line 80
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 81
     .line 82
@@ -4352,8 +3988,7 @@ return-void
     .line 87
     .line 88
     :cond_5
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readFloat()F
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readFloat()F
 
     .line 89
     .line 90
@@ -4361,8 +3996,7 @@ return-void
     move-result v0
 
     .line 92
-    invoke-static {v0}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v0}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     .line 93
     .line 94
@@ -4370,14 +4004,12 @@ return-void
     move-result-object v0
 
     .line 96
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 97
     .line 98
     .line 99
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 100
     .line 101
@@ -4393,13 +4025,11 @@ return-void
 
     .line 106
     :cond_6
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 107
     .line 108
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 109
     .line 110
@@ -4407,8 +4037,7 @@ return-void
     move-result v1
 
     .line 112
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 113
     .line 114
@@ -4416,14 +4045,12 @@ return-void
 
     .line 115
     .line 116
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 
     .line 119
     :cond_7
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 120
     .line 121
@@ -4435,8 +4062,7 @@ return-void
 
     .line 124
     :cond_8
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 125
     .line 126
@@ -4444,14 +4070,12 @@ return-void
     move-result v0
 
     .line 128
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->verifyPackedFixed32Length(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->verifyPackedFixed32Length(I)V
 
     .line 129
     .line 130
     .line 131
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 132
     .line 133
@@ -4459,8 +4083,7 @@ return-void
 
     .line 134
     :goto_1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 135
     .line 136
@@ -4468,8 +4091,7 @@ return-void
 
     .line 137
     .line 138
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readLittleEndian32_NoCheck()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readLittleEndian32_NoCheck()I
 
     .line 139
     .line 140
@@ -4477,8 +4099,7 @@ return-void
     move-result v0
 
     .line 142
-    invoke-static {v0}, Ljava/lang/Float;
-    ->intBitsToFloat(I)F
+    invoke-static {v0}, Ljava/lang/Float;->intBitsToFloat(I)F
 
     .line 143
     .line 144
@@ -4486,8 +4107,7 @@ return-void
     move-result v0
 
     .line 146
-    invoke-static {v0}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v0}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     .line 147
     .line 148
@@ -4495,8 +4115,7 @@ return-void
     move-result-object v0
 
     .line 150
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 151
     .line 152
@@ -4526,22 +4145,18 @@ return-void
     const/4 v0, 0x3
 
     .line 1
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireWireType(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireWireType(I)V
 
     .line 2
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/Protobuf;
-    ->getInstance()Landroidx/datastore/preferences/protobuf/Protobuf;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/Protobuf;->getInstance()Landroidx/datastore/preferences/protobuf/Protobuf;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/Protobuf;
-    ->schemaFor(Ljava/lang/Class;)Landroidx/datastore/preferences/protobuf/Schema;
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/Protobuf;->schemaFor(Ljava/lang/Class;)Landroidx/datastore/preferences/protobuf/Schema;
 
     move-result-object p1
 
-    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readGroup(Landroidx/datastore/preferences/protobuf/Schema;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Ljava/lang/Object;
+    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readGroup(Landroidx/datastore/preferences/protobuf/Schema;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -4566,14 +4181,12 @@ return-void
     const/4 v0, 0x3
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireWireType(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireWireType(I)V
 
     .line 3
     .line 4
     .line 5
-    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readGroup(Landroidx/datastore/preferences/protobuf/Schema;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Ljava/lang/Object;
+    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readGroup(Landroidx/datastore/preferences/protobuf/Schema;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -4600,11 +4213,9 @@ return-void
     .end annotation
 
     .line 3
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     move-result v0
 
@@ -4613,22 +4224,18 @@ return-void
     if-ne v0, v1, :cond_2
 
     .line 4
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 5
     :cond_0
-    invoke-direct {p0, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readGroup(Landroidx/datastore/preferences/protobuf/Schema;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Ljava/lang/Object;
+    invoke-direct {p0, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readGroup(Landroidx/datastore/preferences/protobuf/Schema;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Ljava/lang/Object;
 
     move-result-object v1
 
-    invoke-interface {p1, v1}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 6
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     move-result v1
 
@@ -4638,27 +4245,23 @@ return-void
 
     .line 7
     :cond_1
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 8
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     move-result v2
 
     if-eq v2, v0, :cond_0
 
     .line 9
-    iput v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iput v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     return-void
 
     .line 10
     :cond_2
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     move-result-object p1
 
@@ -4682,19 +4285,16 @@ return-void
     .end annotation
 
     .line 1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/Protobuf;
-    ->getInstance()Landroidx/datastore/preferences/protobuf/Protobuf;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/Protobuf;->getInstance()Landroidx/datastore/preferences/protobuf/Protobuf;
 
     move-result-object v0
 
-    invoke-virtual {v0, p2}, Landroidx/datastore/preferences/protobuf/Protobuf;
-    ->schemaFor(Ljava/lang/Class;)Landroidx/datastore/preferences/protobuf/Schema;
+    invoke-virtual {v0, p2}, Landroidx/datastore/preferences/protobuf/Protobuf;->schemaFor(Ljava/lang/Class;)Landroidx/datastore/preferences/protobuf/Schema;
 
     move-result-object p2
 
     .line 2
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readGroupList(Ljava/util/List;Landroidx/datastore/preferences/protobuf/Schema;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readGroupList(Ljava/util/List;Landroidx/datastore/preferences/protobuf/Schema;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
     return-void
 .end method
 
@@ -4705,14 +4305,12 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireWireType(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireWireType(I)V
 
     .line 3
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 6
     .line 7
@@ -4752,13 +4350,11 @@ return-void
 
     .line 8
     .line 9
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 10
     .line 11
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 12
     .line 13
@@ -4774,8 +4370,7 @@ return-void
 
     .line 18
     .line 19
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 20
     .line 21
@@ -4783,8 +4378,7 @@ return-void
     move-result p1
 
     .line 23
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 24
     .line 25
@@ -4792,8 +4386,7 @@ return-void
 
     .line 26
     :goto_0
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 27
     .line 28
@@ -4801,8 +4394,7 @@ return-void
 
     .line 29
     .line 30
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 31
     .line 32
@@ -4810,8 +4402,7 @@ return-void
     move-result p1
 
     .line 34
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/IntArrayList;
-    ->addInt(I)V
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/IntArrayList;->addInt(I)V
 
     .line 35
     .line 36
@@ -4820,14 +4411,12 @@ return-void
 
     .line 38
     :cond_0
-    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requirePosition(I)V
+    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requirePosition(I)V
 return-void
 
     .line 42
     :cond_1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 43
     .line 44
@@ -4839,8 +4428,7 @@ return-void
 
     .line 47
     :cond_2
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readInt32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readInt32()I
 
     .line 48
     .line 49
@@ -4848,14 +4436,12 @@ return-void
     move-result p1
 
     .line 51
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/IntArrayList;
-    ->addInt(I)V
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/IntArrayList;->addInt(I)V
 
     .line 52
     .line 53
     .line 54
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 55
     .line 56
@@ -4871,13 +4457,11 @@ return-void
 
     .line 61
     :cond_3
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 62
     .line 63
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 64
     .line 65
@@ -4885,8 +4469,7 @@ return-void
     move-result v1
 
     .line 67
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 68
     .line 69
@@ -4894,19 +4477,16 @@ return-void
 
     .line 70
     .line 71
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 
     .line 74
     :cond_4
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 75
     .line 76
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 77
     .line 78
@@ -4922,8 +4502,7 @@ return-void
 
     .line 83
     .line 84
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 85
     .line 86
@@ -4931,8 +4510,7 @@ return-void
     move-result v0
 
     .line 88
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 89
     .line 90
@@ -4940,8 +4518,7 @@ return-void
 
     .line 91
     :goto_1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 92
     .line 93
@@ -4949,8 +4526,7 @@ return-void
 
     .line 94
     .line 95
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 96
     .line 97
@@ -4958,8 +4534,7 @@ return-void
     move-result v0
 
     .line 99
-    invoke-static {v0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 100
     .line 101
@@ -4967,8 +4542,7 @@ return-void
     move-result-object v0
 
     .line 103
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 104
     .line 105
@@ -4977,14 +4551,12 @@ return-void
 
     .line 107
     :cond_5
-    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requirePosition(I)V
+    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requirePosition(I)V
     return-void
 
     .line 111
     :cond_6
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 112
     .line 113
@@ -4996,8 +4568,7 @@ return-void
 
     .line 116
     :cond_7
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readInt32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readInt32()I
 
     .line 117
     .line 118
@@ -5005,8 +4576,7 @@ return-void
     move-result v0
 
     .line 120
-    invoke-static {v0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 121
     .line 122
@@ -5014,14 +4584,12 @@ return-void
     move-result-object v0
 
     .line 124
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 125
     .line 126
     .line 127
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 128
     .line 129
@@ -5038,13 +4606,11 @@ return-void
 
     .line 134
     :cond_8
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 135
     .line 136
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 137
     .line 138
@@ -5052,8 +4618,7 @@ return-void
     move-result v1
 
     .line 140
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 141
     .line 142
@@ -5061,8 +4626,7 @@ return-void
 
     .line 143
     .line 144
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 .end method
 
@@ -5073,14 +4637,12 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireWireType(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireWireType(I)V
 
     .line 3
     .line 4
     .line 5
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint64()J
 
     .line 6
     .line 7
@@ -5120,13 +4682,11 @@ return-void
 
     .line 8
     .line 9
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 10
     .line 11
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 12
     .line 13
@@ -5142,8 +4702,7 @@ return-void
 
     .line 18
     .line 19
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 20
     .line 21
@@ -5151,8 +4710,7 @@ return-void
     move-result p1
 
     .line 23
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 24
     .line 25
@@ -5160,8 +4718,7 @@ return-void
 
     .line 26
     :goto_0
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 27
     .line 28
@@ -5169,8 +4726,7 @@ return-void
 
     .line 29
     .line 30
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint64()J
 
     .line 31
     .line 32
@@ -5178,8 +4734,7 @@ return-void
     move-result-wide v2
 
     .line 34
-    invoke-virtual {v0, v2, v3}, Landroidx/datastore/preferences/protobuf/LongArrayList;
-    ->addLong(J)V
+    invoke-virtual {v0, v2, v3}, Landroidx/datastore/preferences/protobuf/LongArrayList;->addLong(J)V
 
     .line 35
     .line 36
@@ -5188,14 +4743,12 @@ return-void
 
     .line 38
     :cond_0
-    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requirePosition(I)V
+    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requirePosition(I)V
 return-void
 
     .line 42
     :cond_1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 43
     .line 44
@@ -5207,8 +4760,7 @@ return-void
 
     .line 47
     :cond_2
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readInt64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readInt64()J
 
     .line 48
     .line 49
@@ -5216,14 +4768,12 @@ return-void
     move-result-wide v1
 
     .line 51
-    invoke-virtual {v0, v1, v2}, Landroidx/datastore/preferences/protobuf/LongArrayList;
-    ->addLong(J)V
+    invoke-virtual {v0, v1, v2}, Landroidx/datastore/preferences/protobuf/LongArrayList;->addLong(J)V
 
     .line 52
     .line 53
     .line 54
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 55
     .line 56
@@ -5239,13 +4789,11 @@ return-void
 
     .line 61
     :cond_3
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 62
     .line 63
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 64
     .line 65
@@ -5253,8 +4801,7 @@ return-void
     move-result v1
 
     .line 67
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 68
     .line 69
@@ -5262,19 +4809,16 @@ return-void
 
     .line 70
     .line 71
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 
     .line 74
     :cond_4
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 75
     .line 76
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 77
     .line 78
@@ -5290,8 +4834,7 @@ return-void
 
     .line 83
     .line 84
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 85
     .line 86
@@ -5299,8 +4842,7 @@ return-void
     move-result v0
 
     .line 88
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 89
     .line 90
@@ -5308,8 +4850,7 @@ return-void
 
     .line 91
     :goto_1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 92
     .line 93
@@ -5317,8 +4858,7 @@ return-void
 
     .line 94
     .line 95
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint64()J
 
     .line 96
     .line 97
@@ -5326,8 +4866,7 @@ return-void
     move-result-wide v2
 
     .line 99
-    invoke-static {v2, v3}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 100
     .line 101
@@ -5335,8 +4874,7 @@ return-void
     move-result-object v0
 
     .line 103
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 104
     .line 105
@@ -5345,14 +4883,12 @@ return-void
 
     .line 107
     :cond_5
-    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requirePosition(I)V
+    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requirePosition(I)V
     return-void
 
     .line 111
     :cond_6
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 112
     .line 113
@@ -5364,8 +4900,7 @@ return-void
 
     .line 116
     :cond_7
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readInt64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readInt64()J
 
     .line 117
     .line 118
@@ -5373,8 +4908,7 @@ return-void
     move-result-wide v0
 
     .line 120
-    invoke-static {v0, v1}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 121
     .line 122
@@ -5382,14 +4916,12 @@ return-void
     move-result-object v0
 
     .line 124
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 125
     .line 126
     .line 127
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 128
     .line 129
@@ -5406,13 +4938,11 @@ return-void
 
     .line 134
     :cond_8
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 135
     .line 136
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 137
     .line 138
@@ -5420,8 +4950,7 @@ return-void
     move-result v1
 
     .line 140
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 141
     .line 142
@@ -5429,8 +4958,7 @@ return-void
 
     .line 143
     .line 144
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 .end method
 
@@ -5456,14 +4984,12 @@ return-void
     const/4 v0, 0x2
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireWireType(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireWireType(I)V
 
     .line 3
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 6
     .line 7
@@ -5471,44 +4997,37 @@ return-void
     move-result v1
 
     .line 9
-    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireBytes(I)V
+    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireBytes(I)V
 
     .line 10
     .line 11
     .line 12
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->limit:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->limit:I
 
     .line 13
     .line 14
-    iget v3, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v3, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 15
     .line 16
     add-int/2addr v3, v1
 
     .line 17
-    iput v3, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->limit:I
+    iput v3, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->limit:I
 
     .line 18
     .line 19
     :try_start_0
-    iget-object v1, p2, Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;
-    ->defaultKey:Ljava/lang/Object;
+    iget-object v1, p2, Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;->defaultKey:Ljava/lang/Object;
 
     .line 20
     .line 21
-    iget-object v3, p2, Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;
-    ->defaultValue:Ljava/lang/Object;
+    iget-object v3, p2, Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;->defaultValue:Ljava/lang/Object;
 
     .line 22
     .line 23
     :goto_0
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->getFieldNumber()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->getFieldNumber()I
 
     .line 24
     .line 25
@@ -5525,16 +5044,14 @@ return-void
 
     .line 31
     .line 32
-    invoke-interface {p1, v1, v3}, Ljava/util/Map;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1, v3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 33
     .line 34
     .line 35
-    iput v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->limit:I    
+    iput v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->limit:I
     return-void
 
     .line 38
@@ -5562,8 +5079,7 @@ return-void
     .line 46
     .line 47
     :try_start_1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->skipField()Z
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->skipField()Z
 
     .line 48
     .line 49
@@ -5583,8 +5099,7 @@ return-void
 
     .line 55
     .line 56
-    invoke-direct {v4, v6}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v4, v6}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;-><init>(Ljava/lang/String;)V
 
     .line 57
     .line 58
@@ -5593,18 +5108,15 @@ return-void
 
     .line 60
     :cond_2
-    iget-object v4, p2, Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;
-    ->valueType:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    iget-object v4, p2, Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;->valueType:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 61
     .line 62
-    iget-object v5, p2, Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;
-    ->defaultValue:Ljava/lang/Object;
+    iget-object v5, p2, Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;->defaultValue:Ljava/lang/Object;
 
     .line 63
     .line 64
-    invoke-virtual {v5}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v5}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 65
     .line 66
@@ -5612,8 +5124,7 @@ return-void
     move-result-object v5
 
     .line 68
-    invoke-direct {p0, v4, v5, p3}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readField(Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Ljava/lang/Object;
+    invoke-direct {p0, v4, v5, p3}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readField(Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Ljava/lang/Object;
 
     .line 69
     .line 70
@@ -5625,16 +5136,14 @@ return-void
 
     .line 73
     :cond_3
-    iget-object v4, p2, Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;
-    ->keyType:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
+    iget-object v4, p2, Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;->keyType:Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;
 
     .line 74
     .line 75
     const/4 v5, 0x0
 
     .line 76
-    invoke-direct {p0, v4, v5, v5}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readField(Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Ljava/lang/Object;
+    invoke-direct {p0, v4, v5, v5}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readField(Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;Ljava/lang/Class;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Ljava/lang/Object;
 
     .line 77
     .line 78
@@ -5650,8 +5159,7 @@ return-void
     .line 81
     :catch_0
     :try_start_2
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->skipField()Z
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->skipField()Z
 
     .line 82
     .line 83
@@ -5671,8 +5179,7 @@ return-void
 
     .line 89
     .line 90
-    invoke-direct {p1, v6}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v6}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;-><init>(Ljava/lang/String;)V
 
     .line 91
     .line 92
@@ -5683,8 +5190,7 @@ return-void
 
     .line 94
     :goto_1
-    iput v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->limit:I
+    iput v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->limit:I
 
     .line 95
     .line 96
@@ -5707,22 +5213,18 @@ return-void
     const/4 v0, 0x2
 
     .line 1
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireWireType(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireWireType(I)V
 
     .line 2
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/Protobuf;
-    ->getInstance()Landroidx/datastore/preferences/protobuf/Protobuf;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/Protobuf;->getInstance()Landroidx/datastore/preferences/protobuf/Protobuf;
 
     move-result-object v0
 
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/Protobuf;
-    ->schemaFor(Ljava/lang/Class;)Landroidx/datastore/preferences/protobuf/Schema;
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/Protobuf;->schemaFor(Ljava/lang/Class;)Landroidx/datastore/preferences/protobuf/Schema;
 
     move-result-object p1
 
-    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readMessage(Landroidx/datastore/preferences/protobuf/Schema;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Ljava/lang/Object;
+    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readMessage(Landroidx/datastore/preferences/protobuf/Schema;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -5747,14 +5249,12 @@ return-void
     const/4 v0, 0x2
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireWireType(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireWireType(I)V
 
     .line 3
     .line 4
     .line 5
-    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readMessage(Landroidx/datastore/preferences/protobuf/Schema;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Ljava/lang/Object;
+    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readMessage(Landroidx/datastore/preferences/protobuf/Schema;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -5781,11 +5281,9 @@ return-void
     .end annotation
 
     .line 3
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     move-result v0
 
@@ -5794,22 +5292,18 @@ return-void
     if-ne v0, v1, :cond_2
 
     .line 4
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 5
     :cond_0
-    invoke-direct {p0, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readMessage(Landroidx/datastore/preferences/protobuf/Schema;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Ljava/lang/Object;
+    invoke-direct {p0, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readMessage(Landroidx/datastore/preferences/protobuf/Schema;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Ljava/lang/Object;
 
     move-result-object v1
 
-    invoke-interface {p1, v1}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 6
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     move-result v1
 
@@ -5819,27 +5313,23 @@ return-void
 
     .line 7
     :cond_1
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 8
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     move-result v2
 
     if-eq v2, v0, :cond_0
 
     .line 9
-    iput v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iput v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     return-void
 
     .line 10
     :cond_2
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     move-result-object p1
 
@@ -5863,19 +5353,16 @@ return-void
     .end annotation
 
     .line 1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/Protobuf;
-    ->getInstance()Landroidx/datastore/preferences/protobuf/Protobuf;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/Protobuf;->getInstance()Landroidx/datastore/preferences/protobuf/Protobuf;
 
     move-result-object v0
 
-    invoke-virtual {v0, p2}, Landroidx/datastore/preferences/protobuf/Protobuf;
-    ->schemaFor(Ljava/lang/Class;)Landroidx/datastore/preferences/protobuf/Schema;
+    invoke-virtual {v0, p2}, Landroidx/datastore/preferences/protobuf/Protobuf;->schemaFor(Ljava/lang/Class;)Landroidx/datastore/preferences/protobuf/Schema;
 
     move-result-object p2
 
     .line 2
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readMessageList(Ljava/util/List;Landroidx/datastore/preferences/protobuf/Schema;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readMessageList(Ljava/util/List;Landroidx/datastore/preferences/protobuf/Schema;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
     return-void
 .end method
 
@@ -5886,14 +5373,12 @@ return-void
     const/4 v0, 0x5
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireWireType(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireWireType(I)V
 
     .line 3
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readLittleEndian32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readLittleEndian32()I
 
     .line 6
     .line 7
@@ -5933,13 +5418,11 @@ return-void
 
     .line 8
     .line 9
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 10
     .line 11
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 12
     .line 13
@@ -5956,8 +5439,7 @@ return-void
     .line 18
     .line 19
     :cond_0
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readSFixed32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readSFixed32()I
 
     .line 20
     .line 21
@@ -5965,14 +5447,12 @@ return-void
     move-result v0
 
     .line 23
-    invoke-virtual {p1, v0}, Landroidx/datastore/preferences/protobuf/IntArrayList;
-    ->addInt(I)V
+    invoke-virtual {p1, v0}, Landroidx/datastore/preferences/protobuf/IntArrayList;->addInt(I)V
 
     .line 24
     .line 25
     .line 26
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 27
     .line 28
@@ -5989,13 +5469,11 @@ return-void
     .line 33
     .line 34
     :cond_1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 35
     .line 36
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 37
     .line 38
@@ -6003,8 +5481,7 @@ return-void
     move-result v1
 
     .line 40
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 41
     .line 42
@@ -6012,14 +5489,12 @@ return-void
 
     .line 43
     .line 44
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 
     .line 47
     :cond_2
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 48
     .line 49
@@ -6031,8 +5506,7 @@ return-void
 
     .line 52
     :cond_3
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 53
     .line 54
@@ -6040,14 +5514,12 @@ return-void
     move-result v0
 
     .line 56
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->verifyPackedFixed32Length(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->verifyPackedFixed32Length(I)V
 
     .line 57
     .line 58
     .line 59
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 60
     .line 61
@@ -6055,8 +5527,7 @@ return-void
 
     .line 62
     :goto_0
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 63
     .line 64
@@ -6064,8 +5535,7 @@ return-void
 
     .line 65
     .line 66
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readLittleEndian32_NoCheck()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readLittleEndian32_NoCheck()I
 
     .line 67
     .line 68
@@ -6073,8 +5543,7 @@ return-void
     move-result v0
 
     .line 70
-    invoke-virtual {p1, v0}, Landroidx/datastore/preferences/protobuf/IntArrayList;
-    ->addInt(I)V
+    invoke-virtual {p1, v0}, Landroidx/datastore/preferences/protobuf/IntArrayList;->addInt(I)V
 
     .line 71
     .line 72
@@ -6083,13 +5552,11 @@ return-void
 
     .line 74
     :cond_4
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 75
     .line 76
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 77
     .line 78
@@ -6106,8 +5573,7 @@ return-void
     .line 83
     .line 84
     :cond_5
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readSFixed32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readSFixed32()I
 
     .line 85
     .line 86
@@ -6115,8 +5581,7 @@ return-void
     move-result v0
 
     .line 88
-    invoke-static {v0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 89
     .line 90
@@ -6124,14 +5589,12 @@ return-void
     move-result-object v0
 
     .line 92
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 93
     .line 94
     .line 95
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 96
     .line 97
@@ -6147,13 +5610,11 @@ return-void
 
     .line 102
     :cond_6
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 103
     .line 104
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 105
     .line 106
@@ -6161,8 +5622,7 @@ return-void
     move-result v1
 
     .line 108
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 109
     .line 110
@@ -6170,14 +5630,12 @@ return-void
 
     .line 111
     .line 112
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 
     .line 115
     :cond_7
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 116
     .line 117
@@ -6189,8 +5647,7 @@ return-void
 
     .line 120
     :cond_8
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 121
     .line 122
@@ -6198,14 +5655,12 @@ return-void
     move-result v0
 
     .line 124
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->verifyPackedFixed32Length(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->verifyPackedFixed32Length(I)V
 
     .line 125
     .line 126
     .line 127
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 128
     .line 129
@@ -6213,8 +5668,7 @@ return-void
 
     .line 130
     :goto_1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 131
     .line 132
@@ -6222,8 +5676,7 @@ return-void
 
     .line 133
     .line 134
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readLittleEndian32_NoCheck()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readLittleEndian32_NoCheck()I
 
     .line 135
     .line 136
@@ -6231,8 +5684,7 @@ return-void
     move-result v0
 
     .line 138
-    invoke-static {v0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 139
     .line 140
@@ -6240,8 +5692,7 @@ return-void
     move-result-object v0
 
     .line 142
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 143
     .line 144
@@ -6261,14 +5712,12 @@ return-void
     const/4 v0, 0x1
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireWireType(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireWireType(I)V
 
     .line 3
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readLittleEndian64()J
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readLittleEndian64()J
 
     .line 6
     .line 7
@@ -6311,13 +5760,11 @@ return-void
 
     .line 9
     .line 10
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 11
     .line 12
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 13
     .line 14
@@ -6333,8 +5780,7 @@ return-void
 
     .line 19
     .line 20
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 21
     .line 22
@@ -6342,14 +5788,12 @@ return-void
     move-result p1
 
     .line 24
-    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->verifyPackedFixed64Length(I)V
+    invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->verifyPackedFixed64Length(I)V
 
     .line 25
     .line 26
     .line 27
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 28
     .line 29
@@ -6357,8 +5801,7 @@ return-void
 
     .line 30
     :goto_0
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 31
     .line 32
@@ -6366,8 +5809,7 @@ return-void
 
     .line 33
     .line 34
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readLittleEndian64_NoCheck()J
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readLittleEndian64_NoCheck()J
 
     .line 35
     .line 36
@@ -6375,8 +5817,7 @@ return-void
     move-result-wide v2
 
     .line 38
-    invoke-virtual {v0, v2, v3}, Landroidx/datastore/preferences/protobuf/LongArrayList;
-    ->addLong(J)V
+    invoke-virtual {v0, v2, v3}, Landroidx/datastore/preferences/protobuf/LongArrayList;->addLong(J)V
 
     .line 39
     .line 40
@@ -6385,8 +5826,7 @@ return-void
 
     .line 42
     :cond_0
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 43
     .line 44
@@ -6398,8 +5838,7 @@ return-void
 
     .line 47
     :cond_1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readSFixed64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readSFixed64()J
 
     .line 48
     .line 49
@@ -6407,14 +5846,12 @@ return-void
     move-result-wide v1
 
     .line 51
-    invoke-virtual {v0, v1, v2}, Landroidx/datastore/preferences/protobuf/LongArrayList;
-    ->addLong(J)V
+    invoke-virtual {v0, v1, v2}, Landroidx/datastore/preferences/protobuf/LongArrayList;->addLong(J)V
 
     .line 52
     .line 53
     .line 54
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 55
     .line 56
@@ -6430,13 +5867,11 @@ return-void
 
     .line 61
     :cond_2
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 62
     .line 63
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 64
     .line 65
@@ -6444,8 +5879,7 @@ return-void
     move-result v1
 
     .line 67
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 68
     .line 69
@@ -6453,19 +5887,16 @@ return-void
 
     .line 70
     .line 71
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 
     .line 74
     :cond_3
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 75
     .line 76
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 77
     .line 78
@@ -6481,8 +5912,7 @@ return-void
 
     .line 83
     .line 84
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 85
     .line 86
@@ -6490,14 +5920,12 @@ return-void
     move-result v0
 
     .line 88
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->verifyPackedFixed64Length(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->verifyPackedFixed64Length(I)V
 
     .line 89
     .line 90
     .line 91
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 92
     .line 93
@@ -6505,8 +5933,7 @@ return-void
 
     .line 94
     :goto_1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 95
     .line 96
@@ -6514,8 +5941,7 @@ return-void
 
     .line 97
     .line 98
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readLittleEndian64_NoCheck()J
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readLittleEndian64_NoCheck()J
 
     .line 99
     .line 100
@@ -6523,8 +5949,7 @@ return-void
     move-result-wide v2
 
     .line 102
-    invoke-static {v2, v3}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 103
     .line 104
@@ -6532,8 +5957,7 @@ return-void
     move-result-object v0
 
     .line 106
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 107
     .line 108
@@ -6542,8 +5966,7 @@ return-void
 
     .line 110
     :cond_4
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 111
     .line 112
@@ -6555,8 +5978,7 @@ return-void
 
     .line 115
     :cond_5
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readSFixed64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readSFixed64()J
 
     .line 116
     .line 117
@@ -6564,8 +5986,7 @@ return-void
     move-result-wide v0
 
     .line 119
-    invoke-static {v0, v1}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 120
     .line 121
@@ -6573,14 +5994,12 @@ return-void
     move-result-object v0
 
     .line 123
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 124
     .line 125
     .line 126
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 127
     .line 128
@@ -6598,13 +6017,11 @@ return-void
 
     .line 133
     :cond_7
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 134
     .line 135
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 136
     .line 137
@@ -6612,8 +6029,7 @@ return-void
     move-result v1
 
     .line 139
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 140
     .line 141
@@ -6621,8 +6037,7 @@ return-void
 
     .line 142
     .line 143
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 .end method
 
@@ -6633,14 +6048,12 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireWireType(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireWireType(I)V
 
     .line 3
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 6
     .line 7
@@ -6648,8 +6061,7 @@ return-void
     move-result v0
 
     .line 9
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->decodeZigZag32(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->decodeZigZag32(I)I
 
     .line 10
     .line 11
@@ -6689,13 +6101,11 @@ return-void
 
     .line 8
     .line 9
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 10
     .line 11
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 12
     .line 13
@@ -6711,8 +6121,7 @@ return-void
 
     .line 18
     .line 19
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 20
     .line 21
@@ -6720,8 +6129,7 @@ return-void
     move-result p1
 
     .line 23
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 24
     .line 25
@@ -6729,8 +6137,7 @@ return-void
 
     .line 26
     :goto_0
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 27
     .line 28
@@ -6738,8 +6145,7 @@ return-void
 
     .line 29
     .line 30
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 31
     .line 32
@@ -6747,8 +6153,7 @@ return-void
     move-result p1
 
     .line 34
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->decodeZigZag32(I)I
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->decodeZigZag32(I)I
 
     .line 35
     .line 36
@@ -6756,8 +6161,7 @@ return-void
     move-result p1
 
     .line 38
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/IntArrayList;
-    ->addInt(I)V
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/IntArrayList;->addInt(I)V
 
     .line 39
     .line 40
@@ -6766,8 +6170,7 @@ return-void
 
     .line 42
     :cond_0
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 43
     .line 44
@@ -6779,8 +6182,7 @@ return-void
 
     .line 47
     :cond_1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readSInt32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readSInt32()I
 
     .line 48
     .line 49
@@ -6788,14 +6190,12 @@ return-void
     move-result p1
 
     .line 51
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/IntArrayList;
-    ->addInt(I)V
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/IntArrayList;->addInt(I)V
 
     .line 52
     .line 53
     .line 54
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 55
     .line 56
@@ -6811,13 +6211,11 @@ return-void
 
     .line 61
     :cond_2
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 62
     .line 63
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 64
     .line 65
@@ -6825,8 +6223,7 @@ return-void
     move-result v1
 
     .line 67
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 68
     .line 69
@@ -6834,19 +6231,16 @@ return-void
 
     .line 70
     .line 71
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 
     .line 74
     :cond_3
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 75
     .line 76
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 77
     .line 78
@@ -6862,8 +6256,7 @@ return-void
 
     .line 83
     .line 84
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 85
     .line 86
@@ -6871,8 +6264,7 @@ return-void
     move-result v0
 
     .line 88
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 89
     .line 90
@@ -6880,8 +6272,7 @@ return-void
 
     .line 91
     :goto_1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 92
     .line 93
@@ -6889,8 +6280,7 @@ return-void
 
     .line 94
     .line 95
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 96
     .line 97
@@ -6898,8 +6288,7 @@ return-void
     move-result v0
 
     .line 99
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->decodeZigZag32(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->decodeZigZag32(I)I
 
     .line 100
     .line 101
@@ -6907,8 +6296,7 @@ return-void
     move-result v0
 
     .line 103
-    invoke-static {v0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 104
     .line 105
@@ -6916,8 +6304,7 @@ return-void
     move-result-object v0
 
     .line 107
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 108
     .line 109
@@ -6926,8 +6313,7 @@ return-void
 
     .line 111
     :cond_4
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 112
     .line 113
@@ -6939,8 +6325,7 @@ return-void
 
     .line 116
     :cond_5
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readSInt32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readSInt32()I
 
     .line 117
     .line 118
@@ -6948,8 +6333,7 @@ return-void
     move-result v0
 
     .line 120
-    invoke-static {v0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 121
     .line 122
@@ -6957,14 +6341,12 @@ return-void
     move-result-object v0
 
     .line 124
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 125
     .line 126
     .line 127
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 128
     .line 129
@@ -6982,13 +6364,11 @@ return-void
 
     .line 134
     :cond_7
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 135
     .line 136
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 137
     .line 138
@@ -6996,8 +6376,7 @@ return-void
     move-result v1
 
     .line 140
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 141
     .line 142
@@ -7005,8 +6384,7 @@ return-void
 
     .line 143
     .line 144
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 .end method
 
@@ -7017,14 +6395,12 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireWireType(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireWireType(I)V
 
     .line 3
     .line 4
     .line 5
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint64()J
 
     .line 6
     .line 7
@@ -7032,8 +6408,7 @@ return-void
     move-result-wide v0
 
     .line 9
-    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->decodeZigZag64(J)J
+    invoke-static {v0, v1}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->decodeZigZag64(J)J
 
     .line 10
     .line 11
@@ -7073,13 +6448,11 @@ return-void
 
     .line 8
     .line 9
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 10
     .line 11
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 12
     .line 13
@@ -7095,8 +6468,7 @@ return-void
 
     .line 18
     .line 19
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 20
     .line 21
@@ -7104,8 +6476,7 @@ return-void
     move-result p1
 
     .line 23
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 24
     .line 25
@@ -7113,8 +6484,7 @@ return-void
 
     .line 26
     :goto_0
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 27
     .line 28
@@ -7122,8 +6492,7 @@ return-void
 
     .line 29
     .line 30
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint64()J
 
     .line 31
     .line 32
@@ -7131,8 +6500,7 @@ return-void
     move-result-wide v2
 
     .line 34
-    invoke-static {v2, v3}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->decodeZigZag64(J)J
+    invoke-static {v2, v3}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->decodeZigZag64(J)J
 
     .line 35
     .line 36
@@ -7140,8 +6508,7 @@ return-void
     move-result-wide v2
 
     .line 38
-    invoke-virtual {v0, v2, v3}, Landroidx/datastore/preferences/protobuf/LongArrayList;
-    ->addLong(J)V
+    invoke-virtual {v0, v2, v3}, Landroidx/datastore/preferences/protobuf/LongArrayList;->addLong(J)V
 
     .line 39
     .line 40
@@ -7150,8 +6517,7 @@ return-void
 
     .line 42
     :cond_0
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 43
     .line 44
@@ -7163,8 +6529,7 @@ return-void
 
     .line 47
     :cond_1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readSInt64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readSInt64()J
 
     .line 48
     .line 49
@@ -7172,14 +6537,12 @@ return-void
     move-result-wide v1
 
     .line 51
-    invoke-virtual {v0, v1, v2}, Landroidx/datastore/preferences/protobuf/LongArrayList;
-    ->addLong(J)V
+    invoke-virtual {v0, v1, v2}, Landroidx/datastore/preferences/protobuf/LongArrayList;->addLong(J)V
 
     .line 52
     .line 53
     .line 54
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 55
     .line 56
@@ -7195,13 +6558,11 @@ return-void
 
     .line 61
     :cond_2
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 62
     .line 63
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 64
     .line 65
@@ -7209,8 +6570,7 @@ return-void
     move-result v1
 
     .line 67
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 68
     .line 69
@@ -7218,19 +6578,16 @@ return-void
 
     .line 70
     .line 71
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 
     .line 74
     :cond_3
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 75
     .line 76
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 77
     .line 78
@@ -7246,8 +6603,7 @@ return-void
 
     .line 83
     .line 84
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 85
     .line 86
@@ -7255,8 +6611,7 @@ return-void
     move-result v0
 
     .line 88
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 89
     .line 90
@@ -7264,8 +6619,7 @@ return-void
 
     .line 91
     :goto_1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 92
     .line 93
@@ -7273,8 +6627,7 @@ return-void
 
     .line 94
     .line 95
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint64()J
 
     .line 96
     .line 97
@@ -7282,8 +6635,7 @@ return-void
     move-result-wide v2
 
     .line 99
-    invoke-static {v2, v3}, Landroidx/datastore/preferences/protobuf/CodedInputStream;
-    ->decodeZigZag64(J)J
+    invoke-static {v2, v3}, Landroidx/datastore/preferences/protobuf/CodedInputStream;->decodeZigZag64(J)J
 
     .line 100
     .line 101
@@ -7291,8 +6643,7 @@ return-void
     move-result-wide v2
 
     .line 103
-    invoke-static {v2, v3}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 104
     .line 105
@@ -7300,8 +6651,7 @@ return-void
     move-result-object v0
 
     .line 107
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 108
     .line 109
@@ -7310,8 +6660,7 @@ return-void
 
     .line 111
     :cond_4
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 112
     .line 113
@@ -7323,8 +6672,7 @@ return-void
 
     .line 116
     :cond_5
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readSInt64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readSInt64()J
 
     .line 117
     .line 118
@@ -7332,8 +6680,7 @@ return-void
     move-result-wide v0
 
     .line 120
-    invoke-static {v0, v1}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 121
     .line 122
@@ -7341,14 +6688,12 @@ return-void
     move-result-object v0
 
     .line 124
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 125
     .line 126
     .line 127
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 128
     .line 129
@@ -7366,13 +6711,11 @@ return-void
 
     .line 134
     :cond_7
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 135
     .line 136
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 137
     .line 138
@@ -7380,8 +6723,7 @@ return-void
     move-result v1
 
     .line 140
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 141
     .line 142
@@ -7389,8 +6731,7 @@ return-void
 
     .line 143
     .line 144
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 .end method
 
@@ -7401,8 +6742,7 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readStringInternal(Z)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readStringInternal(Z)Ljava/lang/String;
 
     .line 3
     .line 4
@@ -7419,14 +6759,12 @@ return-void
     const/4 v0, 0x2
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireWireType(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireWireType(I)V
 
     .line 3
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 6
     .line 7
@@ -7442,8 +6780,7 @@ return-void
 
     .line 14
     :cond_0
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireBytes(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireBytes(I)V
 
     .line 15
     .line 16
@@ -7452,13 +6789,11 @@ return-void
 
     .line 18
     .line 19
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->buffer:[B
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->buffer:[B
 
     .line 20
     .line 21
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 22
     .line 23
@@ -7466,8 +6801,7 @@ return-void
 
     .line 24
     .line 25
-    invoke-static {p1, v1, v2}, Landroidx/datastore/preferences/protobuf/Utf8;
-    ->isValidUtf8([BII)Z
+    invoke-static {p1, v1, v2}, Landroidx/datastore/preferences/protobuf/Utf8;->isValidUtf8([BII)Z
 
     .line 26
     .line 27
@@ -7483,8 +6817,7 @@ return-void
 
     .line 32
     :cond_1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidUtf8()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidUtf8()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 33
     .line 34
@@ -7501,37 +6834,31 @@ return-void
 
     .line 38
     .line 39
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->buffer:[B
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->buffer:[B
 
     .line 40
     .line 41
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 42
     .line 43
-    sget-object v3, Landroidx/datastore/preferences/protobuf/Internal;
-    ->UTF_8:Ljava/nio/charset/Charset;
+    sget-object v3, Landroidx/datastore/preferences/protobuf/Internal;->UTF_8:Ljava/nio/charset/Charset;
 
     .line 44
     .line 45
-    invoke-direct {p1, v1, v2, v0, v3}, Ljava/lang/String;
-    -><init>([BIILjava/nio/charset/Charset;)V
+    invoke-direct {p1, v1, v2, v0, v3}, Ljava/lang/String;-><init>([BIILjava/nio/charset/Charset;)V
 
     .line 46
     .line 47
     .line 48
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 49
     .line 50
     add-int/2addr v1, v0
 
     .line 51
-    iput v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-object p1
 .end method
 
@@ -7550,8 +6877,7 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readStringListInternal(Ljava/util/List;Z)V
+    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readStringListInternal(Ljava/util/List;Z)V
 return-void
 .end method
 
@@ -7567,13 +6893,11 @@ return-void
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 4
     .line 5
@@ -7608,8 +6932,7 @@ return-void
     .line 18
     .line 19
     :cond_0
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readBytes()Landroidx/datastore/preferences/protobuf/ByteString;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readBytes()Landroidx/datastore/preferences/protobuf/ByteString;
 
     .line 20
     .line 21
@@ -7617,14 +6940,12 @@ return-void
     move-result-object p1
 
     .line 23
-    invoke-interface {v0, p1}, Landroidx/datastore/preferences/protobuf/LazyStringList;
-    ->add(Landroidx/datastore/preferences/protobuf/ByteString;)V
+    invoke-interface {v0, p1}, Landroidx/datastore/preferences/protobuf/LazyStringList;->add(Landroidx/datastore/preferences/protobuf/ByteString;)V
 
     .line 24
     .line 25
     .line 26
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 27
     .line 28
@@ -7640,13 +6961,11 @@ return-void
 
     .line 33
     :cond_1
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 34
     .line 35
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 36
     .line 37
@@ -7654,8 +6973,7 @@ return-void
     move-result p2
 
     .line 39
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 40
     .line 41
@@ -7663,14 +6981,12 @@ return-void
 
     .line 42
     .line 43
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 
     .line 46
     :cond_2
-    invoke-virtual {p0, p2}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readStringInternal(Z)Ljava/lang/String;
+    invoke-virtual {p0, p2}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readStringInternal(Z)Ljava/lang/String;
 
     .line 47
     .line 48
@@ -7678,14 +6994,12 @@ return-void
     move-result-object v0
 
     .line 50
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 51
     .line 52
     .line 53
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 54
     .line 55
@@ -7702,13 +7016,11 @@ return-void
 
     .line 60
     :cond_3
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 61
     .line 62
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 63
     .line 64
@@ -7716,8 +7028,7 @@ return-void
     move-result v1
 
     .line 66
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 67
     .line 68
@@ -7725,14 +7036,12 @@ return-void
 
     .line 69
     .line 70
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 
     .line 73
     :cond_4
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 74
     .line 75
@@ -7757,8 +7066,7 @@ return-void
     const/4 v0, 0x1
 
     .line 2
-    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readStringListInternal(Ljava/util/List;Z)V
+    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readStringListInternal(Ljava/util/List;Z)V
 return-void
 .end method
 
@@ -7769,8 +7077,7 @@ return-void
     const/4 v0, 0x1
 
     .line 2
-    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readStringInternal(Z)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readStringInternal(Z)Ljava/lang/String;
 
     .line 3
     .line 4
@@ -7787,14 +7094,12 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireWireType(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireWireType(I)V
 
     .line 3
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 6
     .line 7
@@ -7834,13 +7139,11 @@ return-void
 
     .line 8
     .line 9
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 10
     .line 11
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 12
     .line 13
@@ -7856,8 +7159,7 @@ return-void
 
     .line 18
     .line 19
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 20
     .line 21
@@ -7865,8 +7167,7 @@ return-void
     move-result p1
 
     .line 23
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 24
     .line 25
@@ -7874,8 +7175,7 @@ return-void
 
     .line 26
     :goto_0
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 27
     .line 28
@@ -7883,8 +7183,7 @@ return-void
 
     .line 29
     .line 30
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 31
     .line 32
@@ -7892,8 +7191,7 @@ return-void
     move-result p1
 
     .line 34
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/IntArrayList;
-    ->addInt(I)V
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/IntArrayList;->addInt(I)V
 
     .line 35
     .line 36
@@ -7902,8 +7200,7 @@ return-void
 
     .line 38
     :cond_0
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 39
     .line 40
@@ -7915,8 +7212,7 @@ return-void
 
     .line 43
     :cond_1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readUInt32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readUInt32()I
 
     .line 44
     .line 45
@@ -7924,14 +7220,12 @@ return-void
     move-result p1
 
     .line 47
-    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/IntArrayList;
-    ->addInt(I)V
+    invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/IntArrayList;->addInt(I)V
 
     .line 48
     .line 49
     .line 50
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 51
     .line 52
@@ -7947,13 +7241,11 @@ return-void
 
     .line 57
     :cond_2
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 58
     .line 59
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 60
     .line 61
@@ -7961,8 +7253,7 @@ return-void
     move-result v1
 
     .line 63
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 64
     .line 65
@@ -7970,19 +7261,16 @@ return-void
 
     .line 66
     .line 67
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 
     .line 70
     :cond_3
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 71
     .line 72
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 73
     .line 74
@@ -7998,8 +7286,7 @@ return-void
 
     .line 79
     .line 80
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 81
     .line 82
@@ -8007,8 +7294,7 @@ return-void
     move-result v0
 
     .line 84
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 85
     .line 86
@@ -8016,8 +7302,7 @@ return-void
 
     .line 87
     :goto_1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 88
     .line 89
@@ -8025,8 +7310,7 @@ return-void
 
     .line 90
     .line 91
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 92
     .line 93
@@ -8034,8 +7318,7 @@ return-void
     move-result v0
 
     .line 95
-    invoke-static {v0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 96
     .line 97
@@ -8043,8 +7326,7 @@ return-void
     move-result-object v0
 
     .line 99
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 100
     .line 101
@@ -8053,8 +7335,7 @@ return-void
 
     .line 103
     :cond_4
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 104
     .line 105
@@ -8066,8 +7347,7 @@ return-void
 
     .line 108
     :cond_5
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readUInt32()I
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readUInt32()I
 
     .line 109
     .line 110
@@ -8075,8 +7355,7 @@ return-void
     move-result v0
 
     .line 112
-    invoke-static {v0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 113
     .line 114
@@ -8084,14 +7363,12 @@ return-void
     move-result-object v0
 
     .line 116
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 117
     .line 118
     .line 119
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 120
     .line 121
@@ -8109,13 +7386,11 @@ return-void
 
     .line 126
     :cond_7
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 127
     .line 128
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 129
     .line 130
@@ -8123,8 +7398,7 @@ return-void
     move-result v1
 
     .line 132
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 133
     .line 134
@@ -8132,8 +7406,7 @@ return-void
 
     .line 135
     .line 136
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 .end method
 
@@ -8144,14 +7417,12 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requireWireType(I)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requireWireType(I)V
 
     .line 3
     .line 4
     .line 5
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint64()J
 
     .line 6
     .line 7
@@ -8191,13 +7462,11 @@ return-void
 
     .line 8
     .line 9
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 10
     .line 11
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 12
     .line 13
@@ -8213,8 +7482,7 @@ return-void
 
     .line 18
     .line 19
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 20
     .line 21
@@ -8222,8 +7490,7 @@ return-void
     move-result p1
 
     .line 23
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 24
     .line 25
@@ -8231,8 +7498,7 @@ return-void
 
     .line 26
     :goto_0
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 27
     .line 28
@@ -8240,8 +7506,7 @@ return-void
 
     .line 29
     .line 30
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint64()J
 
     .line 31
     .line 32
@@ -8249,8 +7514,7 @@ return-void
     move-result-wide v2
 
     .line 34
-    invoke-virtual {v0, v2, v3}, Landroidx/datastore/preferences/protobuf/LongArrayList;
-    ->addLong(J)V
+    invoke-virtual {v0, v2, v3}, Landroidx/datastore/preferences/protobuf/LongArrayList;->addLong(J)V
 
     .line 35
     .line 36
@@ -8259,14 +7523,12 @@ return-void
 
     .line 38
     :cond_0
-    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requirePosition(I)V
+    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requirePosition(I)V
 return-void
 
     .line 42
     :cond_1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 43
     .line 44
@@ -8278,8 +7540,7 @@ return-void
 
     .line 47
     :cond_2
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readUInt64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readUInt64()J
 
     .line 48
     .line 49
@@ -8287,14 +7548,12 @@ return-void
     move-result-wide v1
 
     .line 51
-    invoke-virtual {v0, v1, v2}, Landroidx/datastore/preferences/protobuf/LongArrayList;
-    ->addLong(J)V
+    invoke-virtual {v0, v1, v2}, Landroidx/datastore/preferences/protobuf/LongArrayList;->addLong(J)V
 
     .line 52
     .line 53
     .line 54
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 55
     .line 56
@@ -8310,13 +7569,11 @@ return-void
 
     .line 61
     :cond_3
-    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 62
     .line 63
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 64
     .line 65
@@ -8324,8 +7581,7 @@ return-void
     move-result v1
 
     .line 67
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 68
     .line 69
@@ -8333,19 +7589,16 @@ return-void
 
     .line 70
     .line 71
-    iput p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput p1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 
     .line 74
     :cond_4
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 75
     .line 76
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 77
     .line 78
@@ -8361,8 +7614,7 @@ return-void
 
     .line 83
     .line 84
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 85
     .line 86
@@ -8370,8 +7622,7 @@ return-void
     move-result v0
 
     .line 88
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 89
     .line 90
@@ -8379,8 +7630,7 @@ return-void
 
     .line 91
     :goto_1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 92
     .line 93
@@ -8388,8 +7638,7 @@ return-void
 
     .line 94
     .line 95
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint64()J
 
     .line 96
     .line 97
@@ -8397,8 +7646,7 @@ return-void
     move-result-wide v2
 
     .line 99
-    invoke-static {v2, v3}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 100
     .line 101
@@ -8406,8 +7654,7 @@ return-void
     move-result-object v0
 
     .line 103
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 104
     .line 105
@@ -8416,14 +7663,12 @@ return-void
 
     .line 107
     :cond_5
-    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->requirePosition(I)V
+    invoke-direct {p0, v1}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->requirePosition(I)V
     return-void
 
     .line 111
     :cond_6
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 112
     .line 113
@@ -8435,8 +7680,7 @@ return-void
 
     .line 116
     :cond_7
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readUInt64()J
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readUInt64()J
 
     .line 117
     .line 118
@@ -8444,8 +7688,7 @@ return-void
     move-result-wide v0
 
     .line 120
-    invoke-static {v0, v1}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 121
     .line 122
@@ -8453,14 +7696,12 @@ return-void
     move-result-object v0
 
     .line 124
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     .line 125
     .line 126
     .line 127
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 128
     .line 129
@@ -8477,13 +7718,11 @@ return-void
 
     .line 134
     :cond_8
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 135
     .line 136
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 137
     .line 138
@@ -8491,8 +7730,7 @@ return-void
     move-result v1
 
     .line 140
-    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 141
     .line 142
@@ -8500,8 +7738,7 @@ return-void
 
     .line 143
     .line 144
-    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-void
 .end method
 
@@ -8509,13 +7746,11 @@ return-void
     .locals 12
 
     .line 1
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->limit:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->limit:I
 
     .line 4
     .line 5
@@ -8523,8 +7758,7 @@ return-void
 
     .line 6
     .line 7
-    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->buffer:[B
+    iget-object v2, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->buffer:[B
 
     .line 8
     .line 9
@@ -8540,8 +7774,7 @@ return-void
 
     .line 14
     .line 15
-    iput v3, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I
+    iput v3, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
 
     .line 16
     .line 17
@@ -8562,8 +7795,7 @@ return-void
 
     .line 23
     .line 24
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint64SlowPath()J
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint64SlowPath()J
 
     .line 25
     .line 26
@@ -8926,8 +8158,7 @@ return-void
 
     .line 187
     :cond_a
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->malformedVarint()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->malformedVarint()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 188
     .line 189
@@ -8939,14 +8170,12 @@ return-void
 
     .line 192
     :goto_3
-    iput v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->pos:I    
+    iput v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->pos:I
     return-wide v2
 
     .line 195
     :cond_b
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->truncatedMessage()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
 
     .line 196
     .line 197
@@ -8960,8 +8189,7 @@ return-void
     .locals 3
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->isAtEnd()Z
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->isAtEnd()Z
 
     .line 2
     .line 3
@@ -8973,13 +8201,11 @@ return-void
 
     .line 6
     .line 7
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->tag:I
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->tag:I
 
     .line 8
     .line 9
-    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->endGroupTag:I
+    iget v1, p0, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->endGroupTag:I
 
     .line 10
     .line 11
@@ -8991,8 +8217,7 @@ return-void
 
     .line 14
     :cond_0
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->getTagWireType(I)I
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/WireFormat;->getTagWireType(I)I
 
     .line 15
     .line 16
@@ -9035,14 +8260,12 @@ return-void
     const/4 v0, 0x4
 
     .line 33
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->skipBytes(I)V    
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->skipBytes(I)V
     return v1
 
     .line 37
     :cond_1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;
-    ->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;->invalidWireType()Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException$InvalidWireTypeException;
 
     .line 38
     .line 39
@@ -9054,14 +8277,12 @@ return-void
 
     .line 42
     :cond_2
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->skipGroup()V    
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->skipGroup()V
     return v1
 
     .line 46
     :cond_3
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->readVarint32()I
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->readVarint32()I
 
     .line 47
     .line 48
@@ -9069,8 +8290,7 @@ return-void
     move-result v0
 
     .line 50
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->skipBytes(I)V    
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->skipBytes(I)V
     return v1
 
     .line 54
@@ -9079,14 +8299,12 @@ return-void
 
     .line 55
     .line 56
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->skipBytes(I)V    
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->skipBytes(I)V
     return v1
 
     .line 60
     :cond_5
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;
-    ->skipVarint()V    
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryReader$SafeHeapReader;->skipVarint()V
     return v1
 
     .line 64

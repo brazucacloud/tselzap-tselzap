@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -34,8 +33,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0, p1}, Landroid/view/Window$Callback;
-    ->onSearchRequested(Landroid/view/SearchEvent;)Z
+    invoke-interface {p0, p1}, Landroid/view/Window$Callback;->onSearchRequested(Landroid/view/SearchEvent;)Z
 
     .line 2
     .line 3
@@ -51,8 +49,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0, p1, p2}, Landroid/view/Window$Callback;
-    ->onWindowStartingActionMode(Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+    invoke-interface {p0, p1, p2}, Landroid/view/Window$Callback;->onWindowStartingActionMode(Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
 
     .line 2
     .line 3

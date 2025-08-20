@@ -6,8 +6,7 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -26,8 +25,7 @@
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 .end field
@@ -44,8 +42,7 @@
     .locals 2
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -68,16 +65,14 @@
 
     .line 10
     :goto_0
-    sput-boolean v0, Landroidx/appcompat/widget/ViewUtils;
-    ->SDK_LEVEL_SUPPORTS_AUTOSIZE:Z    return-void
+    sput-boolean v0, Landroidx/appcompat/widget/ViewUtils;->SDK_LEVEL_SUPPORTS_AUTOSIZE:Z    return-void
 .end method
 
 .method private constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -106,8 +101,7 @@
     const/4 v2, 0x1
 
     .line 4
-    sget v3, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 5
     .line 6
@@ -119,14 +113,12 @@
 
     .line 9
     .line 10
-    invoke-static {p0, p1, p2}, Landroidx/appcompat/widget/ViewUtils$Api29Impl;
-    ->computeFitSystemWindows(Landroid/view/View;Landroid/graphics/Rect;Landroid/graphics/Rect;)V    
+    invoke-static {p0, p1, p2}, Landroidx/appcompat/widget/ViewUtils$Api29Impl;->computeFitSystemWindows(Landroid/view/View;Landroid/graphics/Rect;Landroid/graphics/Rect;)V
     return-void
 
     .line 14
     :cond_0
-    sget-boolean v3, Landroidx/appcompat/widget/ViewUtils;
-    ->sInitComputeFitSystemWindowsMethod:Z
+    sget-boolean v3, Landroidx/appcompat/widget/ViewUtils;->sInitComputeFitSystemWindowsMethod:Z
 
     .line 15
     .line 16
@@ -138,8 +130,7 @@
 
     .line 19
     .line 20
-    sput-boolean v2, Landroidx/appcompat/widget/ViewUtils;
-    ->sInitComputeFitSystemWindowsMethod:Z
+    sput-boolean v2, Landroidx/appcompat/widget/ViewUtils;->sInitComputeFitSystemWindowsMethod:Z
 
     .line 21
     .line 22
@@ -168,8 +159,7 @@
 
     .line 33
     .line 34
-    invoke-virtual {v3, v5, v6}, Ljava/lang/Class;
-    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v3, v5, v6}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 35
     .line 36
@@ -177,13 +167,11 @@
     move-result-object v3
 
     .line 38
-    sput-object v3, Landroidx/appcompat/widget/ViewUtils;
-    ->sComputeFitSystemWindowsMethod:Ljava/lang/reflect/Method;
+    sput-object v3, Landroidx/appcompat/widget/ViewUtils;->sComputeFitSystemWindowsMethod:Ljava/lang/reflect/Method;
 
     .line 39
     .line 40
-    invoke-virtual {v3}, Ljava/lang/reflect/AccessibleObject;
-    ->isAccessible()Z
+    invoke-virtual {v3}, Ljava/lang/reflect/AccessibleObject;->isAccessible()Z
 
     .line 41
     .line 42
@@ -195,13 +183,11 @@
 
     .line 45
     .line 46
-    sget-object v3, Landroidx/appcompat/widget/ViewUtils;
-    ->sComputeFitSystemWindowsMethod:Ljava/lang/reflect/Method;
+    sget-object v3, Landroidx/appcompat/widget/ViewUtils;->sComputeFitSystemWindowsMethod:Ljava/lang/reflect/Method;
 
     .line 47
     .line 48
-    invoke-virtual {v3, v2}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v3, v2}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
     :try_end_0
     .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -216,16 +202,14 @@
 
     .line 53
     .line 54
-    invoke-static {v4, v3}, Landroid/util/Log;
-    ->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v4, v3}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 55
     .line 56
     .line 57
     :cond_1
     :goto_0
-    sget-object v3, Landroidx/appcompat/widget/ViewUtils;
-    ->sComputeFitSystemWindowsMethod:Ljava/lang/reflect/Method;
+    sget-object v3, Landroidx/appcompat/widget/ViewUtils;->sComputeFitSystemWindowsMethod:Ljava/lang/reflect/Method;
 
     .line 58
     .line 59
@@ -246,8 +230,7 @@
 
     .line 66
     .line 67
-    invoke-virtual {v3, p0, v1}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, p0, v1}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -265,8 +248,7 @@
 
     .line 73
     .line 74
-    invoke-static {v4, p1, p0}, Landroid/util/Log;
-    ->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v4, p1, p0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 75
     .line 76
@@ -280,8 +262,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getLayoutDirection()I
+    invoke-virtual {p0}, Landroid/view/View;->getLayoutDirection()I
 
     .line 2
     .line 3
@@ -319,8 +300,7 @@
     .line 4
     .line 5
     :try_start_0
-    invoke-virtual {p0}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 6
     .line 7
@@ -339,8 +319,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {v2, v3, v5}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v2, v3, v5}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 15
     .line 16
@@ -348,8 +327,7 @@
     move-result-object v2
 
     .line 18
-    invoke-virtual {v2}, Ljava/lang/reflect/AccessibleObject;
-    ->isAccessible()Z
+    invoke-virtual {v2}, Ljava/lang/reflect/AccessibleObject;->isAccessible()Z
 
     .line 19
     .line 20
@@ -364,8 +342,7 @@
     const/4 v3, 0x1
 
     .line 25
-    invoke-virtual {v2, v3}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v2, v3}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 26
     .line 27
@@ -393,8 +370,7 @@
 
     .line 34
     .line 35
-    invoke-virtual {v2, p0, v3}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, p0, v3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_2
     .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_0 .. :try_end_0} :catch_1
@@ -402,8 +378,7 @@
 
     .line 39
     :goto_1
-    invoke-static {v1, v0, p0}, Landroid/util/Log;
-    ->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v0, p0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 40
     .line 41
@@ -412,8 +387,7 @@
 
     .line 43
     :goto_2
-    invoke-static {v1, v0, p0}, Landroid/util/Log;
-    ->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v0, p0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 44
     .line 45
@@ -426,8 +400,7 @@
 
     .line 48
     .line 49
-    invoke-static {v1, p0}, Landroid/util/Log;
-    ->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, p0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 50
     .line 51

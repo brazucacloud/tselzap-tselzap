@@ -31,8 +31,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/Class;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     .line 4
     .line 5
@@ -40,8 +39,7 @@
     move-result-object v0
 
     .line 7
-    invoke-static {v0}, Ljava/util/logging/Logger;
-    ->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+    invoke-static {v0}, Ljava/util/logging/Logger;->getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
 
     .line 8
     .line 9
@@ -49,13 +47,11 @@
     move-result-object v0
 
     .line 11
-    sput-object v0, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzb:Ljava/util/logging/Logger;
+    sput-object v0, Lcom/google/android/gms/internal/measurement/zzjr;->zzb:Ljava/util/logging/Logger;
 
     .line 12
     .line 13
-    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzna;
-    ->zzc()Z
+    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzna;->zzc()Z
 
     .line 14
     .line 15
@@ -63,8 +59,7 @@
     move-result v0
 
     .line 17
-    sput-boolean v0, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzc:Z
+    sput-boolean v0, Lcom/google/android/gms/internal/measurement/zzjr;->zzc:Z
 
     .line 18
     .line 19
@@ -75,8 +70,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzja;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzja;-><init>()V
     return-void
 .end method
 
@@ -84,8 +78,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzjr;-><init>()V
     return-void
 .end method
 
@@ -113,8 +106,7 @@
     shl-int/lit8 p0, p0, 0x3
 
     .line 6
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result p0
 
@@ -129,8 +121,7 @@
     shl-int/lit8 p0, p0, 0x3
 
     .line 7
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result p0
 
@@ -145,8 +136,7 @@
     const/16 v0, 0x8
 
     .line 8
-    invoke-static {v0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {v0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result v0
 
@@ -155,8 +145,7 @@
     const/4 v1, 0x2
 
     .line 9
-    invoke-static {v1, p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(II)I
+    invoke-static {v1, p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(II)I
 
     move-result p0
 
@@ -165,8 +154,7 @@
     const/4 v0, 0x3
 
     .line 10
-    invoke-static {v0, p1}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzb(ILcom/google/android/gms/internal/measurement/zzkz;)I
+    invoke-static {v0, p1}, Lcom/google/android/gms/internal/measurement/zzjr;->zzb(ILcom/google/android/gms/internal/measurement/zzkz;)I
 
     move-result p1
 
@@ -179,14 +167,12 @@
     .locals 1
 
     .line 11
-    invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/zzkz;
-    ->zza()I
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/zzkz;->zza()I
 
     move-result p0
 
     .line 12
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result v0
 
@@ -201,14 +187,12 @@
     .line 13
     check-cast p0, Lcom/google/android/gms/internal/measurement/zziq;
 
-    invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/measurement/zziq;
-    ->zza(Lcom/google/android/gms/internal/measurement/zzmj;)I
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/measurement/zziq;->zza(Lcom/google/android/gms/internal/measurement/zzmj;)I
 
     move-result p0
 
     .line 14
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result p1
 
@@ -233,8 +217,7 @@
     array-length p0, p0
 
     .line 5
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result v0
 
@@ -249,20 +232,17 @@
     shl-int/lit8 p0, p0, 0x3
 
     .line 7
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result p0
 
     .line 8
-    invoke-virtual {p1}, Lcom/google/android/gms/internal/measurement/zzkz;
-    ->zza()I
+    invoke-virtual {p1}, Lcom/google/android/gms/internal/measurement/zzkz;->zza()I
 
     move-result p1
 
     .line 9
-    invoke-static {p1}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p1}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result v0
 
@@ -279,8 +259,7 @@
     const/16 v0, 0x8
 
     .line 10
-    invoke-static {v0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {v0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result v0
 
@@ -289,8 +268,7 @@
     const/4 v1, 0x2
 
     .line 11
-    invoke-static {v1, p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(II)I
+    invoke-static {v1, p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(II)I
 
     move-result p0
 
@@ -299,14 +277,12 @@
     const/16 v0, 0x18
 
     .line 12
-    invoke-static {v0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {v0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result v0
 
     .line 13
-    invoke-static {p1}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzc(Lcom/google/android/gms/internal/measurement/zzlr;)I
+    invoke-static {p1}, Lcom/google/android/gms/internal/measurement/zzjr;->zzc(Lcom/google/android/gms/internal/measurement/zzlr;)I
 
     move-result p1
 
@@ -325,8 +301,7 @@
     shl-int/lit8 p0, p0, 0x3
 
     .line 4
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result p0
 
@@ -335,8 +310,7 @@
     .line 5
     check-cast p1, Lcom/google/android/gms/internal/measurement/zziq;
 
-    invoke-virtual {p1, p2}, Lcom/google/android/gms/internal/measurement/zziq;
-    ->zza(Lcom/google/android/gms/internal/measurement/zzmj;)I
+    invoke-virtual {p1, p2}, Lcom/google/android/gms/internal/measurement/zziq;->zza(Lcom/google/android/gms/internal/measurement/zzmj;)I
 
     move-result p1
 
@@ -351,14 +325,12 @@
     shl-int/lit8 p0, p0, 0x3
 
     .line 14
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result p0
 
     .line 15
-    invoke-static {p1}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzb(Ljava/lang/String;)I
+    invoke-static {p1}, Lcom/google/android/gms/internal/measurement/zzjr;->zzb(Ljava/lang/String;)I
 
     move-result p1
 
@@ -373,8 +345,7 @@
     shl-int/lit8 p0, p0, 0x3
 
     .line 1
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result p0
 
@@ -387,14 +358,12 @@
     .locals 1
 
     .line 2
-    invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/zziz;
-    ->zzb()I
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/zziz;->zzb()I
 
     move-result p0
 
     .line 3
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result v0
 
@@ -409,8 +378,7 @@
     .end annotation
 
     .line 6
-    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzlr;
-    ->zzcf()I
+    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzlr;->zzcf()I
 
     move-result p0
 
@@ -422,8 +390,7 @@
 
     .line 16
     :try_start_0
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzne;
-    ->zza(Ljava/lang/String;)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzne;->zza(Ljava/lang/String;)I
 
     move-result p0
     :try_end_0
@@ -433,11 +400,9 @@
 
     .line 17
     :catch_0
-    sget-object v0, Lcom/google/android/gms/internal/measurement/zzkk;
-    ->zza:Ljava/nio/charset/Charset;
+    sget-object v0, Lcom/google/android/gms/internal/measurement/zzkk;->zza:Ljava/nio/charset/Charset;
 
-    invoke-virtual {p0, v0}, Ljava/lang/String;
-    ->getBytes(Ljava/nio/charset/Charset;)[B
+    invoke-virtual {p0, v0}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
 
     move-result-object p0
 
@@ -446,8 +411,7 @@
 
     .line 19
     :goto_0
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result v0
 
@@ -467,8 +431,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, p0, v2, v0}, Lcom/google/android/gms/internal/measurement/zzjr$zza;
-    -><init>([BII)V
+    invoke-direct {v1, p0, v2, v0}, Lcom/google/android/gms/internal/measurement/zzjr$zza;-><init>([BII)V
     return-object v1
 .end method
 
@@ -478,8 +441,7 @@
     shl-int/lit8 p0, p0, 0x3
 
     .line 6
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result p0
 
@@ -494,20 +456,17 @@
     shl-int/lit8 p0, p0, 0x3
 
     .line 3
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result p0
 
     .line 4
-    invoke-virtual {p1}, Lcom/google/android/gms/internal/measurement/zziz;
-    ->zzb()I
+    invoke-virtual {p1}, Lcom/google/android/gms/internal/measurement/zziz;->zzb()I
 
     move-result p1
 
     .line 5
-    invoke-static {p1}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p1}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result v0
 
@@ -524,14 +483,12 @@
     shl-int/lit8 p0, p0, 0x3
 
     .line 7
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result p0
 
     .line 8
-    invoke-static {p1, p2}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zza(Lcom/google/android/gms/internal/measurement/zzlr;Lcom/google/android/gms/internal/measurement/zzmj;)I
+    invoke-static {p1, p2}, Lcom/google/android/gms/internal/measurement/zzjr;->zza(Lcom/google/android/gms/internal/measurement/zzlr;Lcom/google/android/gms/internal/measurement/zzmj;)I
 
     move-result p1
 
@@ -553,14 +510,12 @@
     .locals 1
 
     .line 9
-    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzlr;
-    ->zzcf()I
+    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzlr;->zzcf()I
 
     move-result p0
 
     .line 10
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result v0
 
@@ -573,8 +528,7 @@
     .locals 1
 
     .line 2
-    sget-boolean v0, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzc:Z
+    sget-boolean v0, Lcom/google/android/gms/internal/measurement/zzjr;->zzc:Z
 
     return v0
 .end method
@@ -585,8 +539,7 @@
     int-to-long v0, p0
 
     .line 1
-    invoke-static {v0, v1}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzg(J)I
+    invoke-static {v0, v1}, Lcom/google/android/gms/internal/measurement/zzjr;->zzg(J)I
 
     move-result p0
 
@@ -599,14 +552,12 @@
     shl-int/lit8 p0, p0, 0x3
 
     .line 2
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result p0
 
     .line 3
-    invoke-static {p1, p2}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzg(J)I
+    invoke-static {p1, p2}, Lcom/google/android/gms/internal/measurement/zzjr;->zzg(J)I
 
     move-result p1
 
@@ -621,8 +572,7 @@
     const/16 v0, 0x8
 
     .line 5
-    invoke-static {v0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {v0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result v0
 
@@ -631,8 +581,7 @@
     const/4 v1, 0x2
 
     .line 6
-    invoke-static {v1, p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(II)I
+    invoke-static {v1, p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(II)I
 
     move-result p0
 
@@ -641,8 +590,7 @@
     const/4 v0, 0x3
 
     .line 7
-    invoke-static {v0, p1}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzc(ILcom/google/android/gms/internal/measurement/zziz;)I
+    invoke-static {v0, p1}, Lcom/google/android/gms/internal/measurement/zzjr;->zzc(ILcom/google/android/gms/internal/measurement/zziz;)I
 
     move-result p1
 
@@ -655,8 +603,7 @@
     .locals 0
 
     .line 4
-    invoke-static {p0, p1}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzg(J)I
+    invoke-static {p0, p1}, Lcom/google/android/gms/internal/measurement/zzjr;->zzg(J)I
 
     move-result p0
 
@@ -678,16 +625,14 @@
     shl-int/lit8 p0, p0, 0x3
 
     .line 3
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result p0
 
     int-to-long v0, p1
 
     .line 4
-    invoke-static {v0, v1}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzg(J)I
+    invoke-static {v0, v1}, Lcom/google/android/gms/internal/measurement/zzjr;->zzg(J)I
 
     move-result p1
 
@@ -702,8 +647,7 @@
     shl-int/lit8 p0, p0, 0x3
 
     .line 5
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result p0
 
@@ -727,8 +671,7 @@
     int-to-long v0, p0
 
     .line 2
-    invoke-static {v0, v1}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzg(J)I
+    invoke-static {v0, v1}, Lcom/google/android/gms/internal/measurement/zzjr;->zzg(J)I
 
     move-result p0
 
@@ -741,8 +684,7 @@
     shl-int/lit8 p0, p0, 0x3
 
     .line 1
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result p0
 
@@ -757,19 +699,16 @@
     shl-int/lit8 p0, p0, 0x3
 
     .line 3
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result p0
 
     .line 4
-    invoke-static {p1, p2}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzi(J)J
+    invoke-static {p1, p2}, Lcom/google/android/gms/internal/measurement/zzjr;->zzi(J)J
 
     move-result-wide p1
 
-    invoke-static {p1, p2}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzg(J)I
+    invoke-static {p1, p2}, Lcom/google/android/gms/internal/measurement/zzjr;->zzg(J)I
 
     move-result p1
 
@@ -782,13 +721,11 @@
     .locals 0
 
     .line 5
-    invoke-static {p0, p1}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzi(J)J
+    invoke-static {p0, p1}, Lcom/google/android/gms/internal/measurement/zzjr;->zzi(J)J
 
     move-result-wide p0
 
-    invoke-static {p0, p1}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzg(J)I
+    invoke-static {p0, p1}, Lcom/google/android/gms/internal/measurement/zzjr;->zzg(J)I
 
     move-result p0
 
@@ -810,16 +747,14 @@
     shl-int/lit8 p0, p0, 0x3
 
     .line 2
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result p0
 
     int-to-long v0, p1
 
     .line 3
-    invoke-static {v0, v1}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzg(J)I
+    invoke-static {v0, v1}, Lcom/google/android/gms/internal/measurement/zzjr;->zzg(J)I
 
     move-result p1
 
@@ -834,14 +769,12 @@
     shl-int/lit8 p0, p0, 0x3
 
     .line 4
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result p0
 
     .line 5
-    invoke-static {p1, p2}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzg(J)I
+    invoke-static {p1, p2}, Lcom/google/android/gms/internal/measurement/zzjr;->zzg(J)I
 
     move-result p1
 
@@ -854,8 +787,7 @@
     .locals 0
 
     .line 6
-    invoke-static {p0, p1}, Ljava/lang/Long;
-    ->numberOfLeadingZeros(J)I
+    invoke-static {p0, p1}, Ljava/lang/Long;->numberOfLeadingZeros(J)I
 
     move-result p0
 
@@ -872,13 +804,11 @@
     .locals 0
 
     .line 2
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzl(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzl(I)I
 
     move-result p0
 
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result p0
 
@@ -891,8 +821,7 @@
     shl-int/lit8 p0, p0, 0x3
 
     .line 1
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result p0
 
@@ -907,8 +836,7 @@
     shl-int/lit8 p0, p0, 0x3
 
     .line 4
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result p0
 
@@ -921,19 +849,16 @@
     shl-int/lit8 p0, p0, 0x3
 
     .line 2
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result p0
 
     .line 3
-    invoke-static {p1}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzl(I)I
+    invoke-static {p1}, Lcom/google/android/gms/internal/measurement/zzjr;->zzl(I)I
 
     move-result p1
 
-    invoke-static {p1}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p1}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result p1
 
@@ -963,8 +888,7 @@
     .locals 0
 
     .line 3
-    invoke-static {p0}, Ljava/lang/Integer;
-    ->numberOfLeadingZeros(I)I
+    invoke-static {p0}, Ljava/lang/Integer;->numberOfLeadingZeros(I)I
 
     move-result p0
 
@@ -983,14 +907,12 @@
     shl-int/lit8 p0, p0, 0x3
 
     .line 1
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result p0
 
     .line 2
-    invoke-static {p1}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzj(I)I
+    invoke-static {p1}, Lcom/google/android/gms/internal/measurement/zzjr;->zzj(I)I
 
     move-result p1
 
@@ -1059,11 +981,9 @@
     .locals 6
 
     .line 15
-    sget-object v0, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzb:Ljava/util/logging/Logger;
+    sget-object v0, Lcom/google/android/gms/internal/measurement/zzjr;->zzb:Ljava/util/logging/Logger;
 
-    sget-object v1, Ljava/util/logging/Level;
-    ->WARNING:Ljava/util/logging/Level;
+    sget-object v1, Ljava/util/logging/Level;->WARNING:Ljava/util/logging/Level;
 
     const-string v3, "inefficientWriteStringNoTag"
 
@@ -1073,15 +993,12 @@
 
     move-object v5, p2
 
-    invoke-virtual/range {v0 .. v5}, Ljava/util/logging/Logger;
-    ->logp(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-virtual/range {v0 .. v5}, Ljava/util/logging/Logger;->logp(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 16
-    sget-object p2, Lcom/google/android/gms/internal/measurement/zzkk;
-    ->zza:Ljava/nio/charset/Charset;
+    sget-object p2, Lcom/google/android/gms/internal/measurement/zzkk;->zza:Ljava/nio/charset/Charset;
 
-    invoke-virtual {p1, p2}, Ljava/lang/String;
-    ->getBytes(Ljava/nio/charset/Charset;)[B
+    invoke-virtual {p1, p2}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
 
     move-result-object p1
 
@@ -1089,16 +1006,14 @@
     :try_start_0
     array-length p2, p1
 
-    invoke-virtual {p0, p2}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzc(I)V
+    invoke-virtual {p0, p2}, Lcom/google/android/gms/internal/measurement/zzjr;->zzc(I)V
 
     .line 18
     array-length p2, p1
 
     const/4 v0, 0x0
 
-    invoke-virtual {p0, p1, v0, p2}, Lcom/google/android/gms/internal/measurement/zzja;
-    ->zza([BII)V
+    invoke-virtual {p0, p1, v0, p2}, Lcom/google/android/gms/internal/measurement/zzja;->zza([BII)V
     :try_end_0
     .catch Ljava/lang/IndexOutOfBoundsException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1112,8 +1027,7 @@
     .line 19
     new-instance p2, Lcom/google/android/gms/internal/measurement/zzjr$zzb;
 
-    invoke-direct {p2, p1}, Lcom/google/android/gms/internal/measurement/zzjr$zzb;
-    -><init>(Ljava/lang/Throwable;)V
+    invoke-direct {p2, p1}, Lcom/google/android/gms/internal/measurement/zzjr$zzb;-><init>(Ljava/lang/Throwable;)V
 
     throw p2
 .end method
@@ -1122,8 +1036,7 @@
     .locals 2
 
     .line 22
-    invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zza()I
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/zzjr;->zza()I
 
     move-result v0
 
@@ -1137,8 +1050,7 @@
 
     const-string v1, "Did not write as much data as expected."
 
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     throw v0
 .end method
@@ -1147,13 +1059,11 @@
     .locals 0
 
     .line 26
-    invoke-static {p1, p2}, Ljava/lang/Double;
-    ->doubleToRawLongBits(D)J
+    invoke-static {p1, p2}, Ljava/lang/Double;->doubleToRawLongBits(D)J
 
     move-result-wide p1
 
-    invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zza(J)V
+    invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzjr;->zza(J)V
 return-void
 .end method
 
@@ -1161,13 +1071,11 @@ return-void
     .locals 0
 
     .line 28
-    invoke-static {p1}, Ljava/lang/Float;
-    ->floatToRawIntBits(F)I
+    invoke-static {p1}, Ljava/lang/Float;->floatToRawIntBits(F)I
 
     move-result p1
 
-    invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zza(I)V
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/measurement/zzjr;->zza(I)V
 return-void
 .end method
 
@@ -1178,13 +1086,11 @@ return-void
     .locals 0
 
     .line 25
-    invoke-static {p2, p3}, Ljava/lang/Double;
-    ->doubleToRawLongBits(D)J
+    invoke-static {p2, p3}, Ljava/lang/Double;->doubleToRawLongBits(D)J
 
     move-result-wide p2
 
-    invoke-virtual {p0, p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zza(IJ)V
+    invoke-virtual {p0, p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzjr;->zza(IJ)V
 return-void
 .end method
 
@@ -1192,13 +1098,11 @@ return-void
     .locals 0
 
     .line 27
-    invoke-static {p2}, Ljava/lang/Float;
-    ->floatToRawIntBits(F)I
+    invoke-static {p2}, Ljava/lang/Float;->floatToRawIntBits(F)I
 
     move-result p2
 
-    invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zza(II)V
+    invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzjr;->zza(II)V
 return-void
 .end method
 
@@ -1220,8 +1124,7 @@ return-void
     int-to-byte p1, p1
 
     .line 24
-    invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zza(B)V
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/measurement/zzjr;->zza(B)V
 return-void
 .end method
 
@@ -1241,13 +1144,11 @@ return-void
     .locals 0
 
     .line 3
-    invoke-static {p2, p3}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzi(J)J
+    invoke-static {p2, p3}, Lcom/google/android/gms/internal/measurement/zzjr;->zzi(J)J
 
     move-result-wide p2
 
-    invoke-virtual {p0, p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzb(IJ)V
+    invoke-virtual {p0, p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzjr;->zzb(IJ)V
 return-void
 .end method
 
@@ -1255,13 +1156,11 @@ return-void
     .locals 0
 
     .line 4
-    invoke-static {p1, p2}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzi(J)J
+    invoke-static {p1, p2}, Lcom/google/android/gms/internal/measurement/zzjr;->zzi(J)J
 
     move-result-wide p1
 
-    invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzb(J)V
+    invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzjr;->zzb(J)V
 return-void
 .end method
 
@@ -1269,13 +1168,11 @@ return-void
     .locals 0
 
     .line 2
-    invoke-static {p1}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzl(I)I
+    invoke-static {p1}, Lcom/google/android/gms/internal/measurement/zzjr;->zzl(I)I
 
     move-result p1
 
-    invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzc(I)V
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/internal/measurement/zzjr;->zzc(I)V
 return-void
 .end method
 
@@ -1283,13 +1180,11 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p2}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzl(I)I
+    invoke-static {p2}, Lcom/google/android/gms/internal/measurement/zzjr;->zzl(I)I
 
     move-result p2
 
-    invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzjr;
-    ->zzd(II)V
+    invoke-virtual {p0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzjr;->zzd(II)V
 return-void
 .end method
 

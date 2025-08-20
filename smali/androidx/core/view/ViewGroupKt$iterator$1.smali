@@ -9,8 +9,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/view/ViewGroupKt;
-    ->iterator(Landroid/view/ViewGroup;)Ljava/util/Iterator;
+    value = Landroidx/core/view/ViewGroupKt;->iterator(Landroid/view/ViewGroup;)Ljava/util/Iterator;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -40,13 +39,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/core/view/ViewGroupKt$iterator$1;
-    ->$this_iterator:Landroid/view/ViewGroup;
+    iput-object p1, p0, Landroidx/core/view/ViewGroupKt$iterator$1;->$this_iterator:Landroid/view/ViewGroup;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
@@ -60,18 +57,15 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/core/view/ViewGroupKt$iterator$1;
-    ->index:I
+    iget v0, p0, Landroidx/core/view/ViewGroupKt$iterator$1;->index:I
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/core/view/ViewGroupKt$iterator$1;
-    ->$this_iterator:Landroid/view/ViewGroup;
+    iget-object v1, p0, Landroidx/core/view/ViewGroupKt$iterator$1;->$this_iterator:Landroid/view/ViewGroup;
 
     .line 4
     .line 5
-    invoke-virtual {v1}, Landroid/view/ViewGroup;
-    ->getChildCount()I
+    invoke-virtual {v1}, Landroid/view/ViewGroup;->getChildCount()I
 
     .line 6
     .line 7
@@ -98,19 +92,15 @@
     .locals 3
 
     .line 2
-    iget-object v0, p0, Landroidx/core/view/ViewGroupKt$iterator$1;
-    ->$this_iterator:Landroid/view/ViewGroup;
+    iget-object v0, p0, Landroidx/core/view/ViewGroupKt$iterator$1;->$this_iterator:Landroid/view/ViewGroup;
 
-    iget v1, p0, Landroidx/core/view/ViewGroupKt$iterator$1;
-    ->index:I
+    iget v1, p0, Landroidx/core/view/ViewGroupKt$iterator$1;->index:I
 
     add-int/lit8 v2, v1, 0x1
 
-    iput v2, p0, Landroidx/core/view/ViewGroupKt$iterator$1;
-    ->index:I
+    iput v2, p0, Landroidx/core/view/ViewGroupKt$iterator$1;->index:I
 
-    invoke-virtual {v0, v1}, Landroid/view/ViewGroup;
-    ->getChildAt(I)Landroid/view/View;
+    invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v0
 
@@ -121,8 +111,7 @@
     :cond_0
     new-instance v0, Ljava/lang/IndexOutOfBoundsException;
 
-    invoke-direct {v0}, Ljava/lang/IndexOutOfBoundsException;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/IndexOutOfBoundsException;-><init>()V
 
     throw v0
 .end method
@@ -131,8 +120,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/core/view/ViewGroupKt$iterator$1;
-    ->next()Landroid/view/View;
+    invoke-virtual {p0}, Landroidx/core/view/ViewGroupKt$iterator$1;->next()Landroid/view/View;
 
     move-result-object v0
 
@@ -143,13 +131,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/ViewGroupKt$iterator$1;
-    ->$this_iterator:Landroid/view/ViewGroup;
+    iget-object v0, p0, Landroidx/core/view/ViewGroupKt$iterator$1;->$this_iterator:Landroid/view/ViewGroup;
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/core/view/ViewGroupKt$iterator$1;
-    ->index:I
+    iget v1, p0, Landroidx/core/view/ViewGroupKt$iterator$1;->index:I
 
     .line 4
     .line 5
@@ -157,13 +143,11 @@
 
     .line 6
     .line 7
-    iput v1, p0, Landroidx/core/view/ViewGroupKt$iterator$1;
-    ->index:I
+    iput v1, p0, Landroidx/core/view/ViewGroupKt$iterator$1;->index:I
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Landroid/view/ViewGroup;
-    ->removeViewAt(I)V
+    invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->removeViewAt(I)V
 
     .line 10
     .line 11

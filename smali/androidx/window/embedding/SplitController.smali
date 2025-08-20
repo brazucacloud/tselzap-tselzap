@@ -51,14 +51,12 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/window/embedding/SplitController$Companion;
-    -><init>(Lkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v1}, Landroidx/window/embedding/SplitController$Companion;-><init>(Lkotlin/jvm/internal/e;)V
 
     .line 5
     .line 6
     .line 7
-    sput-object v0, Landroidx/window/embedding/SplitController;
-    ->Companion:Landroidx/window/embedding/SplitController$Companion;
+    sput-object v0, Landroidx/window/embedding/SplitController;->Companion:Landroidx/window/embedding/SplitController$Companion;
 
     .line 8
     .line 9
@@ -66,14 +64,12 @@
 
     .line 10
     .line 11
-    invoke-direct {v0}, Ljava/util/concurrent/locks/ReentrantLock;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/concurrent/locks/ReentrantLock;-><init>()V
 
     .line 12
     .line 13
     .line 14
-    sput-object v0, Landroidx/window/embedding/SplitController;
-    ->globalLock:Ljava/util/concurrent/locks/ReentrantLock;
+    sput-object v0, Landroidx/window/embedding/SplitController;->globalLock:Ljava/util/concurrent/locks/ReentrantLock;
 
     .line 15
     .line 16
@@ -84,27 +80,21 @@
     .locals 1
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 3
-    sget-object v0, Landroidx/window/embedding/ExtensionEmbeddingBackend;
-    ->Companion:Landroidx/window/embedding/ExtensionEmbeddingBackend$Companion;
+    sget-object v0, Landroidx/window/embedding/ExtensionEmbeddingBackend;->Companion:Landroidx/window/embedding/ExtensionEmbeddingBackend$Companion;
 
-    invoke-virtual {v0}, Landroidx/window/embedding/ExtensionEmbeddingBackend$Companion;
-    ->getInstance()Landroidx/window/embedding/ExtensionEmbeddingBackend;
+    invoke-virtual {v0}, Landroidx/window/embedding/ExtensionEmbeddingBackend$Companion;->getInstance()Landroidx/window/embedding/ExtensionEmbeddingBackend;
 
     move-result-object v0
 
-    iput-object v0, p0, Landroidx/window/embedding/SplitController;
-    ->embeddingBackend:Landroidx/window/embedding/EmbeddingBackend;
+    iput-object v0, p0, Landroidx/window/embedding/SplitController;->embeddingBackend:Landroidx/window/embedding/EmbeddingBackend;
 
     .line 4
-    sget-object v0, Ld1/v;
-    ->b:Ld1/v;
+    sget-object v0, Ld1/v;->b:Ld1/v;
 
-    iput-object v0, p0, Landroidx/window/embedding/SplitController;
-    ->staticSplitRules:Ljava/util/Set;
+    iput-object v0, p0, Landroidx/window/embedding/SplitController;->staticSplitRules:Ljava/util/Set;
 
     return-void
 .end method
@@ -113,8 +103,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/window/embedding/SplitController;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/window/embedding/SplitController;-><init>()V
     return-void
 .end method
 
@@ -122,8 +111,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/window/embedding/SplitController;
-    ->globalInstance:Landroidx/window/embedding/SplitController;
+    sget-object v0, Landroidx/window/embedding/SplitController;->globalInstance:Landroidx/window/embedding/SplitController;
 
     .line 2
     .line 3
@@ -134,8 +122,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/window/embedding/SplitController;
-    ->globalLock:Ljava/util/concurrent/locks/ReentrantLock;
+    sget-object v0, Landroidx/window/embedding/SplitController;->globalLock:Ljava/util/concurrent/locks/ReentrantLock;
 
     .line 2
     .line 3
@@ -146,8 +133,7 @@
     .locals 0
 
     .line 1
-    sput-object p0, Landroidx/window/embedding/SplitController;
-    ->globalInstance:Landroidx/window/embedding/SplitController;
+    sput-object p0, Landroidx/window/embedding/SplitController;->globalInstance:Landroidx/window/embedding/SplitController;
 
     .line 2
     .line 3
@@ -158,8 +144,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/window/embedding/SplitController;
-    ->setStaticSplitRules(Ljava/util/Set;)V
+    invoke-direct {p0, p1}, Landroidx/window/embedding/SplitController;->setStaticSplitRules(Ljava/util/Set;)V
 
     .line 2
     .line 3
@@ -170,11 +155,9 @@
 .method public static final getInstance()Landroidx/window/embedding/SplitController;
     .locals 1
 
-    sget-object v0, Landroidx/window/embedding/SplitController;
-    ->Companion:Landroidx/window/embedding/SplitController$Companion;
+    sget-object v0, Landroidx/window/embedding/SplitController;->Companion:Landroidx/window/embedding/SplitController$Companion;
 
-    invoke-virtual {v0}, Landroidx/window/embedding/SplitController$Companion;
-    ->getInstance()Landroidx/window/embedding/SplitController;
+    invoke-virtual {v0}, Landroidx/window/embedding/SplitController$Companion;->getInstance()Landroidx/window/embedding/SplitController;
 
     move-result-object v0
 
@@ -184,11 +167,9 @@
 .method public static final initialize(Landroid/content/Context;I)V
     .locals 1
 
-    sget-object v0, Landroidx/window/embedding/SplitController;
-    ->Companion:Landroidx/window/embedding/SplitController$Companion;
+    sget-object v0, Landroidx/window/embedding/SplitController;->Companion:Landroidx/window/embedding/SplitController$Companion;
 
-    invoke-virtual {v0, p0, p1}, Landroidx/window/embedding/SplitController$Companion;
-    ->initialize(Landroid/content/Context;I)V
+    invoke-virtual {v0, p0, p1}, Landroidx/window/embedding/SplitController$Companion;->initialize(Landroid/content/Context;I)V
 return-void
 .end method
 
@@ -205,18 +186,15 @@ return-void
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/window/embedding/SplitController;
-    ->staticSplitRules:Ljava/util/Set;
+    iput-object p1, p0, Landroidx/window/embedding/SplitController;->staticSplitRules:Ljava/util/Set;
 
     .line 2
     .line 3
-    iget-object v0, p0, Landroidx/window/embedding/SplitController;
-    ->embeddingBackend:Landroidx/window/embedding/EmbeddingBackend;
+    iget-object v0, p0, Landroidx/window/embedding/SplitController;->embeddingBackend:Landroidx/window/embedding/EmbeddingBackend;
 
     .line 4
     .line 5
-    invoke-interface {v0, p1}, Landroidx/window/embedding/EmbeddingBackend;
-    ->setSplitRules(Ljava/util/Set;)V
+    invoke-interface {v0, p1}, Landroidx/window/embedding/EmbeddingBackend;->setSplitRules(Ljava/util/Set;)V
 
     .line 6
     .line 7
@@ -245,8 +223,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -255,8 +232,7 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -265,19 +241,16 @@ return-void
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
     .line 16
-    iget-object v0, p0, Landroidx/window/embedding/SplitController;
-    ->embeddingBackend:Landroidx/window/embedding/EmbeddingBackend;
+    iget-object v0, p0, Landroidx/window/embedding/SplitController;->embeddingBackend:Landroidx/window/embedding/EmbeddingBackend;
 
     .line 17
     .line 18
-    invoke-interface {v0, p1, p2, p3}, Landroidx/window/embedding/EmbeddingBackend;
-    ->registerSplitListenerForActivity(Landroid/app/Activity;Ljava/util/concurrent/Executor;Landroidx/core/util/Consumer;)V
+    invoke-interface {v0, p1, p2, p3}, Landroidx/window/embedding/EmbeddingBackend;->registerSplitListenerForActivity(Landroid/app/Activity;Ljava/util/concurrent/Executor;Landroidx/core/util/Consumer;)V
 
     .line 19
     .line 20
@@ -289,18 +262,15 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/window/embedding/SplitController;
-    ->embeddingBackend:Landroidx/window/embedding/EmbeddingBackend;
+    iget-object v0, p0, Landroidx/window/embedding/SplitController;->embeddingBackend:Landroidx/window/embedding/EmbeddingBackend;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/window/embedding/SplitController;
-    ->staticSplitRules:Ljava/util/Set;
+    iget-object v1, p0, Landroidx/window/embedding/SplitController;->staticSplitRules:Ljava/util/Set;
 
     .line 4
     .line 5
-    invoke-interface {v0, v1}, Landroidx/window/embedding/EmbeddingBackend;
-    ->setSplitRules(Ljava/util/Set;)V
+    invoke-interface {v0, v1}, Landroidx/window/embedding/EmbeddingBackend;->setSplitRules(Ljava/util/Set;)V
 
     .line 6
     .line 7
@@ -320,13 +290,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/window/embedding/SplitController;
-    ->embeddingBackend:Landroidx/window/embedding/EmbeddingBackend;
+    iget-object v0, p0, Landroidx/window/embedding/SplitController;->embeddingBackend:Landroidx/window/embedding/EmbeddingBackend;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Landroidx/window/embedding/EmbeddingBackend;
-    ->getSplitRules()Ljava/util/Set;
+    invoke-interface {v0}, Landroidx/window/embedding/EmbeddingBackend;->getSplitRules()Ljava/util/Set;
 
     .line 4
     .line 5
@@ -334,8 +302,7 @@ return-void
     move-result-object v0
 
     .line 7
-    invoke-static {v0}, Ld1/k;
-    ->J0(Ljava/lang/Iterable;)Ljava/util/Set;
+    invoke-static {v0}, Ld1/k;->J0(Ljava/lang/Iterable;)Ljava/util/Set;
 
     .line 8
     .line 9
@@ -349,13 +316,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/window/embedding/SplitController;
-    ->embeddingBackend:Landroidx/window/embedding/EmbeddingBackend;
+    iget-object v0, p0, Landroidx/window/embedding/SplitController;->embeddingBackend:Landroidx/window/embedding/EmbeddingBackend;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Landroidx/window/embedding/EmbeddingBackend;
-    ->isSplitSupported()Z
+    invoke-interface {v0}, Landroidx/window/embedding/EmbeddingBackend;->isSplitSupported()Z
 
     .line 4
     .line 5
@@ -373,19 +338,16 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/window/embedding/SplitController;
-    ->embeddingBackend:Landroidx/window/embedding/EmbeddingBackend;
+    iget-object v0, p0, Landroidx/window/embedding/SplitController;->embeddingBackend:Landroidx/window/embedding/EmbeddingBackend;
 
     .line 7
     .line 8
-    invoke-interface {v0, p1}, Landroidx/window/embedding/EmbeddingBackend;
-    ->registerRule(Landroidx/window/embedding/EmbeddingRule;)V
+    invoke-interface {v0, p1}, Landroidx/window/embedding/EmbeddingBackend;->registerRule(Landroidx/window/embedding/EmbeddingRule;)V
 
     .line 9
     .line 10
@@ -410,19 +372,16 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/window/embedding/SplitController;
-    ->embeddingBackend:Landroidx/window/embedding/EmbeddingBackend;
+    iget-object v0, p0, Landroidx/window/embedding/SplitController;->embeddingBackend:Landroidx/window/embedding/EmbeddingBackend;
 
     .line 7
     .line 8
-    invoke-interface {v0, p1}, Landroidx/window/embedding/EmbeddingBackend;
-    ->unregisterSplitListenerForActivity(Landroidx/core/util/Consumer;)V
+    invoke-interface {v0, p1}, Landroidx/window/embedding/EmbeddingBackend;->unregisterSplitListenerForActivity(Landroidx/core/util/Consumer;)V
 
     .line 9
     .line 10
@@ -438,19 +397,16 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/window/embedding/SplitController;
-    ->embeddingBackend:Landroidx/window/embedding/EmbeddingBackend;
+    iget-object v0, p0, Landroidx/window/embedding/SplitController;->embeddingBackend:Landroidx/window/embedding/EmbeddingBackend;
 
     .line 7
     .line 8
-    invoke-interface {v0, p1}, Landroidx/window/embedding/EmbeddingBackend;
-    ->unregisterRule(Landroidx/window/embedding/EmbeddingRule;)V
+    invoke-interface {v0, p1}, Landroidx/window/embedding/EmbeddingBackend;->unregisterRule(Landroidx/window/embedding/EmbeddingRule;)V
 
     .line 9
     .line 10

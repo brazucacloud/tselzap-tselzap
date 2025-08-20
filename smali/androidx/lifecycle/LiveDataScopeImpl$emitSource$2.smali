@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/lifecycle/LiveDataScopeImpl;
-    ->emitSource(Landroidx/lifecycle/LiveData;Lg1/d;)Ljava/lang/Object;
+    value = Landroidx/lifecycle/LiveDataScopeImpl;->emitSource(Landroidx/lifecycle/LiveData;Lg1/d;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -74,21 +73,18 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/lifecycle/LiveDataScopeImpl$emitSource$2;
-    ->this$0:Landroidx/lifecycle/LiveDataScopeImpl;
+    iput-object p1, p0, Landroidx/lifecycle/LiveDataScopeImpl$emitSource$2;->this$0:Landroidx/lifecycle/LiveDataScopeImpl;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/lifecycle/LiveDataScopeImpl$emitSource$2;
-    ->$source:Landroidx/lifecycle/LiveData;
+    iput-object p2, p0, Landroidx/lifecycle/LiveDataScopeImpl$emitSource$2;->$source:Landroidx/lifecycle/LiveData;
 
     .line 4
     .line 5
     const/4 p1, 0x2
 
     .line 6
-    invoke-direct {p0, p1, p3}, Li1/i;
-    -><init>(ILg1/d;)V
+    invoke-direct {p0, p1, p3}, Li1/i;-><init>(ILg1/d;)V
 return-void
 .end method
 
@@ -113,18 +109,15 @@ return-void
 
     .line 2
     .line 3
-    iget-object v0, p0, Landroidx/lifecycle/LiveDataScopeImpl$emitSource$2;
-    ->this$0:Landroidx/lifecycle/LiveDataScopeImpl;
+    iget-object v0, p0, Landroidx/lifecycle/LiveDataScopeImpl$emitSource$2;->this$0:Landroidx/lifecycle/LiveDataScopeImpl;
 
     .line 4
     .line 5
-    iget-object v1, p0, Landroidx/lifecycle/LiveDataScopeImpl$emitSource$2;
-    ->$source:Landroidx/lifecycle/LiveData;
+    iget-object v1, p0, Landroidx/lifecycle/LiveDataScopeImpl$emitSource$2;->$source:Landroidx/lifecycle/LiveData;
 
     .line 6
     .line 7
-    invoke-direct {p1, v0, v1, p2}, Landroidx/lifecycle/LiveDataScopeImpl$emitSource$2;
-    -><init>(Landroidx/lifecycle/LiveDataScopeImpl;Landroidx/lifecycle/LiveData;Lg1/d;)V
+    invoke-direct {p1, v0, v1, p2}, Landroidx/lifecycle/LiveDataScopeImpl$emitSource$2;-><init>(Landroidx/lifecycle/LiveDataScopeImpl;Landroidx/lifecycle/LiveData;Lg1/d;)V
 return-object p1
 .end method
 
@@ -136,8 +129,7 @@ return-object p1
 
     check-cast p2, Lg1/d;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/LiveDataScopeImpl$emitSource$2;
-    ->invoke(Lz1/v;Lg1/d;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/LiveDataScopeImpl$emitSource$2;->invoke(Lz1/v;Lg1/d;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -159,18 +151,15 @@ return-object p1
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/LiveDataScopeImpl$emitSource$2;
-    ->create(Ljava/lang/Object;Lg1/d;)Lg1/d;
+    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/LiveDataScopeImpl$emitSource$2;->create(Ljava/lang/Object;Lg1/d;)Lg1/d;
 
     move-result-object p1
 
     check-cast p1, Landroidx/lifecycle/LiveDataScopeImpl$emitSource$2;
 
-    sget-object p2, Lc1/v;
-    ->a:Lc1/v;
+    sget-object p2, Lc1/v;->a:Lc1/v;
 
-    invoke-virtual {p1, p2}, Landroidx/lifecycle/LiveDataScopeImpl$emitSource$2;
-    ->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Landroidx/lifecycle/LiveDataScopeImpl$emitSource$2;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -181,13 +170,11 @@ return-object p1
     .locals 3
 
     .line 1
-    sget-object v0, Lh1/a;
-    ->b:Lh1/a;
+    sget-object v0, Lh1/a;->b:Lh1/a;
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/lifecycle/LiveDataScopeImpl$emitSource$2;
-    ->label:I
+    iget v1, p0, Landroidx/lifecycle/LiveDataScopeImpl$emitSource$2;->label:I
 
     .line 4
     .line 5
@@ -202,8 +189,7 @@ return-object p1
 
     .line 9
     .line 10
-    invoke-static {p1}, Lcom/bumptech/glide/b;
-    ->c0(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
 return-object p1
 
     .line 14
@@ -216,8 +202,7 @@ return-object p1
 
     .line 17
     .line 18
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -226,19 +211,16 @@ return-object p1
 
     .line 22
     :cond_1
-    invoke-static {p1}, Lcom/bumptech/glide/b;
-    ->c0(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
 
     .line 23
     .line 24
     .line 25
-    iget-object p1, p0, Landroidx/lifecycle/LiveDataScopeImpl$emitSource$2;
-    ->this$0:Landroidx/lifecycle/LiveDataScopeImpl;
+    iget-object p1, p0, Landroidx/lifecycle/LiveDataScopeImpl$emitSource$2;->this$0:Landroidx/lifecycle/LiveDataScopeImpl;
 
     .line 26
     .line 27
-    invoke-virtual {p1}, Landroidx/lifecycle/LiveDataScopeImpl;
-    ->getTarget$lifecycle_livedata_release()Landroidx/lifecycle/CoroutineLiveData;
+    invoke-virtual {p1}, Landroidx/lifecycle/LiveDataScopeImpl;->getTarget$lifecycle_livedata_release()Landroidx/lifecycle/CoroutineLiveData;
 
     .line 28
     .line 29
@@ -246,18 +228,15 @@ return-object p1
     move-result-object p1
 
     .line 31
-    iget-object v1, p0, Landroidx/lifecycle/LiveDataScopeImpl$emitSource$2;
-    ->$source:Landroidx/lifecycle/LiveData;
+    iget-object v1, p0, Landroidx/lifecycle/LiveDataScopeImpl$emitSource$2;->$source:Landroidx/lifecycle/LiveData;
 
     .line 32
     .line 33
-    iput v2, p0, Landroidx/lifecycle/LiveDataScopeImpl$emitSource$2;
-    ->label:I
+    iput v2, p0, Landroidx/lifecycle/LiveDataScopeImpl$emitSource$2;->label:I
 
     .line 34
     .line 35
-    invoke-virtual {p1, v1, p0}, Landroidx/lifecycle/CoroutineLiveData;
-    ->emitSource$lifecycle_livedata_release(Landroidx/lifecycle/LiveData;Lg1/d;)Ljava/lang/Object;
+    invoke-virtual {p1, v1, p0}, Landroidx/lifecycle/CoroutineLiveData;->emitSource$lifecycle_livedata_release(Landroidx/lifecycle/LiveData;Lg1/d;)Ljava/lang/Object;
 
     .line 36
     .line 37

@@ -23,14 +23,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/dynamicanimation/animation/FloatPropertyCompat;
-    ->mPropertyName:Ljava/lang/String;    
+    iput-object p1, p0, Landroidx/dynamicanimation/animation/FloatPropertyCompat;->mPropertyName:Ljava/lang/String;
     return-void
 .end method
 
@@ -57,8 +55,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0}, Landroidx/core/os/a;
-    ->n(Landroid/util/FloatProperty;)Ljava/lang/String;
+    invoke-static {p0}, Landroidx/core/os/a;->n(Landroid/util/FloatProperty;)Ljava/lang/String;
 
     .line 4
     .line 5
@@ -66,8 +63,7 @@
     move-result-object v1
 
     .line 7
-    invoke-direct {v0, v1, p0}, Landroidx/dynamicanimation/animation/FloatPropertyCompat$1;
-    -><init>(Ljava/lang/String;Landroid/util/FloatProperty;)V
+    invoke-direct {v0, v1, p0}, Landroidx/dynamicanimation/animation/FloatPropertyCompat$1;-><init>(Ljava/lang/String;Landroid/util/FloatProperty;)V
 return-object v0
 .end method
 

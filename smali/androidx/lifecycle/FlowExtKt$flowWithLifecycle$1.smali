@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/lifecycle/FlowExtKt;
-    ->flowWithLifecycle(LC1/g;Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;)LC1/g;
+    value = Landroidx/lifecycle/FlowExtKt;->flowWithLifecycle(LC1/g;Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;)LC1/g;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -69,26 +68,22 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;
-    ->$lifecycle:Landroidx/lifecycle/Lifecycle;
+    iput-object p1, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;->$lifecycle:Landroidx/lifecycle/Lifecycle;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;
-    ->$minActiveState:Landroidx/lifecycle/Lifecycle$State;
+    iput-object p2, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;->$minActiveState:Landroidx/lifecycle/Lifecycle$State;
 
     .line 4
     .line 5
-    iput-object p3, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;
-    ->$this_flowWithLifecycle:LC1/g;
+    iput-object p3, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;->$this_flowWithLifecycle:LC1/g;
 
     .line 6
     .line 7
     const/4 p1, 0x2
 
     .line 8
-    invoke-direct {p0, p1, p4}, Li1/i;
-    -><init>(ILg1/d;)V
+    invoke-direct {p0, p1, p4}, Li1/i;-><init>(ILg1/d;)V
 return-void
 .end method
 
@@ -113,29 +108,24 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;
-    ->$lifecycle:Landroidx/lifecycle/Lifecycle;
+    iget-object v1, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;->$lifecycle:Landroidx/lifecycle/Lifecycle;
 
     .line 4
     .line 5
-    iget-object v2, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;
-    ->$minActiveState:Landroidx/lifecycle/Lifecycle$State;
+    iget-object v2, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;->$minActiveState:Landroidx/lifecycle/Lifecycle$State;
 
     .line 6
     .line 7
-    iget-object v3, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;
-    ->$this_flowWithLifecycle:LC1/g;
+    iget-object v3, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;->$this_flowWithLifecycle:LC1/g;
 
     .line 8
     .line 9
-    invoke-direct {v0, v1, v2, v3, p2}, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;
-    -><init>(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;LC1/g;Lg1/d;)V
+    invoke-direct {v0, v1, v2, v3, p2}, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;-><init>(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;LC1/g;Lg1/d;)V
 
     .line 10
     .line 11
     .line 12
-    iput-object p1, v0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;
-    ->L$0:Ljava/lang/Object;    
+    iput-object p1, v0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;->L$0:Ljava/lang/Object;
     return-object v0
 .end method
 
@@ -154,18 +144,15 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;
-    ->create(Ljava/lang/Object;Lg1/d;)Lg1/d;
+    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;->create(Ljava/lang/Object;Lg1/d;)Lg1/d;
 
     move-result-object p1
 
     check-cast p1, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;
 
-    sget-object p2, Lc1/v;
-    ->a:Lc1/v;
+    sget-object p2, Lc1/v;->a:Lc1/v;
 
-    invoke-virtual {p1, p2}, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;
-    ->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -180,8 +167,7 @@ return-void
 
     check-cast p2, Lg1/d;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;
-    ->invoke(LB1/r;Lg1/d;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;->invoke(LB1/r;Lg1/d;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -192,13 +178,11 @@ return-void
     .locals 7
 
     .line 1
-    sget-object v0, Lh1/a;
-    ->b:Lh1/a;
+    sget-object v0, Lh1/a;->b:Lh1/a;
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;
-    ->label:I
+    iget v1, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;->label:I
 
     .line 4
     .line 5
@@ -216,8 +200,7 @@ return-void
 
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;
-    ->L$0:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;->L$0:Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -225,8 +208,7 @@ return-void
 
     .line 14
     .line 15
-    invoke-static {p1}, Lcom/bumptech/glide/b;
-    ->c0(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
 
     .line 16
     .line 17
@@ -243,8 +225,7 @@ return-void
 
     .line 22
     .line 23
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -253,14 +234,12 @@ return-void
 
     .line 27
     :cond_1
-    invoke-static {p1}, Lcom/bumptech/glide/b;
-    ->c0(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
 
     .line 28
     .line 29
     .line 30
-    iget-object p1, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;
-    ->L$0:Ljava/lang/Object;
+    iget-object p1, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;->L$0:Ljava/lang/Object;
 
     .line 31
     .line 32
@@ -268,13 +247,11 @@ return-void
 
     .line 33
     .line 34
-    iget-object v1, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;
-    ->$lifecycle:Landroidx/lifecycle/Lifecycle;
+    iget-object v1, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;->$lifecycle:Landroidx/lifecycle/Lifecycle;
 
     .line 35
     .line 36
-    iget-object v4, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;
-    ->$minActiveState:Landroidx/lifecycle/Lifecycle$State;
+    iget-object v4, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;->$minActiveState:Landroidx/lifecycle/Lifecycle$State;
 
     .line 37
     .line 38
@@ -282,29 +259,24 @@ return-void
 
     .line 39
     .line 40
-    iget-object v6, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;
-    ->$this_flowWithLifecycle:LC1/g;
+    iget-object v6, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;->$this_flowWithLifecycle:LC1/g;
 
     .line 41
     .line 42
-    invoke-direct {v5, v6, p1, v2}, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1$1;
-    -><init>(LC1/g;LB1/r;Lg1/d;)V
+    invoke-direct {v5, v6, p1, v2}, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1$1;-><init>(LC1/g;LB1/r;Lg1/d;)V
 
     .line 43
     .line 44
     .line 45
-    iput-object p1, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;
-    ->L$0:Ljava/lang/Object;
+    iput-object p1, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;->L$0:Ljava/lang/Object;
 
     .line 46
     .line 47
-    iput v3, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;
-    ->label:I
+    iput v3, p0, Landroidx/lifecycle/FlowExtKt$flowWithLifecycle$1;->label:I
 
     .line 48
     .line 49
-    invoke-static {v1, v4, v5, p0}, Landroidx/lifecycle/RepeatOnLifecycleKt;
-    ->repeatOnLifecycle(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;Lp1/p;Lg1/d;)Ljava/lang/Object;
+    invoke-static {v1, v4, v5, p0}, Landroidx/lifecycle/RepeatOnLifecycleKt;->repeatOnLifecycle(Landroidx/lifecycle/Lifecycle;Landroidx/lifecycle/Lifecycle$State;Lp1/p;Lg1/d;)Ljava/lang/Object;
 
     .line 50
     .line 51
@@ -324,14 +296,12 @@ return-void
 
     .line 58
     .line 59
-    invoke-virtual {v0, v2}, LB1/q;
-    ->b(Ljava/lang/Throwable;)Z
+    invoke-virtual {v0, v2}, LB1/q;->b(Ljava/lang/Throwable;)Z
 
     .line 60
     .line 61
     .line 62
-    sget-object p1, Lc1/v;
-    ->a:Lc1/v;    return-object p1
+    sget-object p1, Lc1/v;->a:Lc1/v;    return-object p1
 .end method
 
 .end class

@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -38,8 +37,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Notification$Builder;
-    ->createHeadsUpContentView()Landroid/widget/RemoteViews;
+    invoke-virtual {p0}, Landroid/app/Notification$Builder;->createHeadsUpContentView()Landroid/widget/RemoteViews;
 
     .line 2
     .line 3
@@ -55,8 +53,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Notification$Builder;
-    ->createContentView()Landroid/widget/RemoteViews;
+    invoke-virtual {p0}, Landroid/app/Notification$Builder;->createContentView()Landroid/widget/RemoteViews;
 
     .line 2
     .line 3
@@ -72,8 +69,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/Notification$Builder;
-    ->createHeadsUpContentView()Landroid/widget/RemoteViews;
+    invoke-virtual {p0}, Landroid/app/Notification$Builder;->createHeadsUpContentView()Landroid/widget/RemoteViews;
 
     .line 2
     .line 3
@@ -89,8 +85,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroid/app/Notification$Builder;
-    ->recoverBuilder(Landroid/content/Context;Landroid/app/Notification;)Landroid/app/Notification$Builder;
+    invoke-static {p0, p1}, Landroid/app/Notification$Builder;->recoverBuilder(Landroid/content/Context;Landroid/app/Notification;)Landroid/app/Notification$Builder;
 
     .line 2
     .line 3

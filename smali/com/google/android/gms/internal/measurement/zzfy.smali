@@ -19,14 +19,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/google/android/gms/internal/measurement/zzfy;
-    -><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/internal/measurement/zzfy;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Lcom/google/android/gms/internal/measurement/zzfy;
-    ->zza:Lcom/google/android/gms/internal/measurement/zzkm;
+    sput-object v0, Lcom/google/android/gms/internal/measurement/zzfy;->zza:Lcom/google/android/gms/internal/measurement/zzkm;
 
     .line 7
     .line 8
@@ -36,8 +34,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -47,8 +44,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p1}, Lcom/google/android/gms/internal/measurement/zzfw$zzf$zzb;
-    ->zza(I)Lcom/google/android/gms/internal/measurement/zzfw$zzf$zzb;
+    invoke-static {p1}, Lcom/google/android/gms/internal/measurement/zzfw$zzf$zzb;->zza(I)Lcom/google/android/gms/internal/measurement/zzfw$zzf$zzb;
 
     .line 2
     .line 3

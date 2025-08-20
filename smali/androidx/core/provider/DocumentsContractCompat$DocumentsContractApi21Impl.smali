@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -38,8 +37,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroid/provider/DocumentsContract;
-    ->buildChildDocumentsUri(Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri;
+    invoke-static {p0, p1}, Landroid/provider/DocumentsContract;->buildChildDocumentsUri(Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri;
 
     .line 2
     .line 3
@@ -55,8 +53,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroid/provider/DocumentsContract;
-    ->buildChildDocumentsUriUsingTree(Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
+    invoke-static {p0, p1}, Landroid/provider/DocumentsContract;->buildChildDocumentsUriUsingTree(Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
 
     .line 2
     .line 3
@@ -72,8 +69,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroid/provider/DocumentsContract;
-    ->buildDocumentUriUsingTree(Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
+    invoke-static {p0, p1}, Landroid/provider/DocumentsContract;->buildDocumentUriUsingTree(Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
 
     .line 2
     .line 3
@@ -89,8 +85,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroid/provider/DocumentsContract;
-    ->buildTreeDocumentUri(Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri;
+    invoke-static {p0, p1}, Landroid/provider/DocumentsContract;->buildTreeDocumentUri(Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri;
 
     .line 2
     .line 3
@@ -106,8 +101,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Landroid/provider/DocumentsContract;
-    ->createDocument(Landroid/content/ContentResolver;Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri;
+    invoke-static {p0, p1, p2, p3}, Landroid/provider/DocumentsContract;->createDocument(Landroid/content/ContentResolver;Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;)Landroid/net/Uri;
 
     .line 2
     .line 3
@@ -123,8 +117,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroid/provider/DocumentsContract;
-    ->getTreeDocumentId(Landroid/net/Uri;)Ljava/lang/String;
+    invoke-static {p0}, Landroid/provider/DocumentsContract;->getTreeDocumentId(Landroid/net/Uri;)Ljava/lang/String;
 
     .line 2
     .line 3
@@ -152,8 +145,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroid/provider/DocumentsContract;
-    ->renameDocument(Landroid/content/ContentResolver;Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
+    invoke-static {p0, p1, p2}, Landroid/provider/DocumentsContract;->renameDocument(Landroid/content/ContentResolver;Landroid/net/Uri;Ljava/lang/String;)Landroid/net/Uri;
 
     .line 2
     .line 3

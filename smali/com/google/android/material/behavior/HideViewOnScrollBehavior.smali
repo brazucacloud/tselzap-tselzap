@@ -40,29 +40,24 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroidx/coordinatorlayout/widget/CoordinatorLayout$Behavior;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/coordinatorlayout/widget/CoordinatorLayout$Behavior;-><init>()V
 
     .line 2
     new-instance v0, Ljava/util/LinkedHashSet;
 
-    invoke-direct {v0}, Ljava/util/LinkedHashSet;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/LinkedHashSet;-><init>()V
 
-    iput-object v0, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->c:Ljava/util/LinkedHashSet;
+    iput-object v0, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->c:Ljava/util/LinkedHashSet;
 
     const/4 v0, 0x0
 
     .line 3
-    iput v0, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->h:I
+    iput v0, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->h:I
 
     const/4 v0, 0x2
 
     .line 4
-    iput v0, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->i:I
+    iput v0, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->i:I
 
     return-void
 .end method
@@ -79,29 +74,24 @@
     .end param
 
     .line 5
-    invoke-direct {p0, p1, p2}, Landroidx/coordinatorlayout/widget/CoordinatorLayout$Behavior;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Landroidx/coordinatorlayout/widget/CoordinatorLayout$Behavior;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 6
     new-instance p1, Ljava/util/LinkedHashSet;
 
-    invoke-direct {p1}, Ljava/util/LinkedHashSet;
-    -><init>()V
+    invoke-direct {p1}, Ljava/util/LinkedHashSet;-><init>()V
 
-    iput-object p1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->c:Ljava/util/LinkedHashSet;
+    iput-object p1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->c:Ljava/util/LinkedHashSet;
 
     const/4 p1, 0x0
 
     .line 7
-    iput p1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->h:I
+    iput p1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->h:I
 
     const/4 p1, 0x2
 
     .line 8
-    iput p1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->i:I
+    iput p1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->i:I
 
     return-void
 .end method
@@ -112,8 +102,7 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->b:La/a;
+    iget-object v0, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->b:La/a;
 
     .line 2
     .line 3
@@ -121,8 +110,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0}, La/a;
-    ->x()I
+    invoke-virtual {v0}, La/a;->x()I
 
     .line 6
     .line 7
@@ -168,14 +156,12 @@
     const/4 v0, 0x1
 
     .line 24
-    invoke-direct {p1, v0}, Lb0/b;
-    -><init>(I)V
+    invoke-direct {p1, v0}, Lb0/b;-><init>(I)V
 
     .line 25
     .line 26
     .line 27
-    iput-object p1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->b:La/a;
+    iput-object p1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->b:La/a;
 
     .line 28
     .line 29
@@ -195,8 +181,7 @@
 
     .line 35
     .line 36
-    invoke-static {v1, p1, v2}, LA/d;
-    ->d(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, p1, v2}, LA/d;->d(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
 
     .line 37
     .line 38
@@ -204,8 +189,7 @@
     move-result-object p1
 
     .line 40
-    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 41
     .line 42
@@ -221,14 +205,12 @@
     const/4 v0, 0x0
 
     .line 47
-    invoke-direct {p1, v0}, Lb0/b;
-    -><init>(I)V
+    invoke-direct {p1, v0}, Lb0/b;-><init>(I)V
 
     .line 48
     .line 49
     .line 50
-    iput-object p1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->b:La/a;
+    iput-object p1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->b:La/a;
 
     .line 51
     .line 52
@@ -243,14 +225,12 @@
     const/4 v0, 0x2
 
     .line 56
-    invoke-direct {p1, v0}, Lb0/b;
-    -><init>(I)V
+    invoke-direct {p1, v0}, Lb0/b;-><init>(I)V
 
     .line 57
     .line 58
     .line 59
-    iput-object p1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->b:La/a;
+    iput-object p1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->b:La/a;
 
     .line 60
     .line 61
@@ -261,8 +241,7 @@
     .locals 3
 
     .line 1
-    invoke-virtual {p2}, Landroid/view/View;
-    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p2}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 2
     .line 3
@@ -274,8 +253,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p2}, Landroid/view/View;
-    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p2}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 8
     .line 9
@@ -287,8 +265,7 @@
 
     .line 12
     .line 13
-    iget v1, v1, Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;
-    ->gravity:I
+    iget v1, v1, Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;->gravity:I
 
     .line 14
     .line 15
@@ -312,8 +289,7 @@
 
     .line 24
     :cond_0
-    invoke-static {v1, p3}, Landroid/view/Gravity;
-    ->getAbsoluteGravity(II)I
+    invoke-static {v1, p3}, Landroid/view/Gravity;->getAbsoluteGravity(II)I
 
     .line 25
     .line 26
@@ -352,8 +328,7 @@
 
     .line 39
     :goto_1
-    invoke-virtual {p0, v1}, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->e(I)V
+    invoke-virtual {p0, v1}, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->e(I)V
 
     .line 40
     .line 41
@@ -366,20 +341,17 @@
     const/4 v1, 0x1
 
     .line 44
-    invoke-virtual {p0, v1}, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->e(I)V
+    invoke-virtual {p0, v1}, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->e(I)V
 
     .line 45
     .line 46
     .line 47
     :goto_3
-    iget-object v1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->b:La/a;
+    iget-object v1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->b:La/a;
 
     .line 48
     .line 49
-    invoke-virtual {v1, p2, v0}, La/a;
-    ->v(Landroid/view/View;Landroid/view/ViewGroup$MarginLayoutParams;)I
+    invoke-virtual {v1, p2, v0}, La/a;->v(Landroid/view/View;Landroid/view/ViewGroup$MarginLayoutParams;)I
 
     .line 50
     .line 51
@@ -387,13 +359,11 @@
     move-result v0
 
     .line 53
-    iput v0, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->h:I
+    iput v0, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->h:I
 
     .line 54
     .line 55
-    invoke-virtual {p2}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p2}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 56
     .line 57
@@ -410,8 +380,7 @@
 
     .line 63
     .line 64
-    invoke-static {v0, v1, v2}, La/a;
-    ->I(Landroid/content/Context;II)I
+    invoke-static {v0, v1, v2}, La/a;->I(Landroid/content/Context;II)I
 
     .line 65
     .line 66
@@ -419,13 +388,11 @@
     move-result v0
 
     .line 68
-    iput v0, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->d:I
+    iput v0, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->d:I
 
     .line 69
     .line 70
-    invoke-virtual {p2}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p2}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 71
     .line 72
@@ -442,8 +409,7 @@
 
     .line 78
     .line 79
-    invoke-static {v0, v1, v2}, La/a;
-    ->I(Landroid/content/Context;II)I
+    invoke-static {v0, v1, v2}, La/a;->I(Landroid/content/Context;II)I
 
     .line 80
     .line 81
@@ -451,13 +417,11 @@
     move-result v0
 
     .line 83
-    iput v0, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->e:I
+    iput v0, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->e:I
 
     .line 84
     .line 85
-    invoke-virtual {p2}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p2}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 86
     .line 87
@@ -465,8 +429,7 @@
     move-result-object v0
 
     .line 89
-    sget-object v1, LZ/a;
-    ->d:Landroidx/interpolator/view/animation/LinearOutSlowInInterpolator;
+    sget-object v1, LZ/a;->d:Landroidx/interpolator/view/animation/LinearOutSlowInInterpolator;
 
     .line 90
     .line 91
@@ -475,8 +438,7 @@
     .line 92
     .line 93
     .line 94
-    invoke-static {v0, v2, v1}, La/a;
-    ->J(Landroid/content/Context;ILandroid/view/animation/Interpolator;)Landroid/animation/TimeInterpolator;
+    invoke-static {v0, v2, v1}, La/a;->J(Landroid/content/Context;ILandroid/view/animation/Interpolator;)Landroid/animation/TimeInterpolator;
 
     .line 95
     .line 96
@@ -484,13 +446,11 @@
     move-result-object v0
 
     .line 98
-    iput-object v0, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->f:Landroid/animation/TimeInterpolator;
+    iput-object v0, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->f:Landroid/animation/TimeInterpolator;
 
     .line 99
     .line 100
-    invoke-virtual {p2}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p2}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 101
     .line 102
@@ -498,13 +458,11 @@
     move-result-object v0
 
     .line 104
-    sget-object v1, LZ/a;
-    ->c:Landroidx/interpolator/view/animation/FastOutLinearInInterpolator;
+    sget-object v1, LZ/a;->c:Landroidx/interpolator/view/animation/FastOutLinearInInterpolator;
 
     .line 105
     .line 106
-    invoke-static {v0, v2, v1}, La/a;
-    ->J(Landroid/content/Context;ILandroid/view/animation/Interpolator;)Landroid/animation/TimeInterpolator;
+    invoke-static {v0, v2, v1}, La/a;->J(Landroid/content/Context;ILandroid/view/animation/Interpolator;)Landroid/animation/TimeInterpolator;
 
     .line 107
     .line 108
@@ -512,13 +470,11 @@
     move-result-object v0
 
     .line 110
-    iput-object v0, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->g:Landroid/animation/TimeInterpolator;
+    iput-object v0, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->g:Landroid/animation/TimeInterpolator;
 
     .line 111
     .line 112
-    invoke-super {p0, p1, p2, p3}, Landroidx/coordinatorlayout/widget/CoordinatorLayout$Behavior;
-    ->onLayoutChild(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)Z
+    invoke-super {p0, p1, p2, p3}, Landroidx/coordinatorlayout/widget/CoordinatorLayout$Behavior;->onLayoutChild(Landroidx/coordinatorlayout/widget/CoordinatorLayout;Landroid/view/View;I)Z
 
     .line 113
     .line 114
@@ -532,8 +488,7 @@
     .locals 0
 
     .line 1
-    iget-object p1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->c:Ljava/util/LinkedHashSet;
+    iget-object p1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->c:Ljava/util/LinkedHashSet;
 
     .line 2
     .line 3
@@ -541,8 +496,7 @@
 
     .line 4
     .line 5
-    iget p3, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->i:I
+    iget p3, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->i:I
 
     .line 6
     .line 7
@@ -558,8 +512,7 @@
     .line 11
     .line 12
     :cond_0
-    iget-object p3, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->j:Landroid/view/ViewPropertyAnimator;
+    iget-object p3, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->j:Landroid/view/ViewPropertyAnimator;
 
     .line 13
     .line 14
@@ -567,26 +520,22 @@
 
     .line 15
     .line 16
-    invoke-virtual {p3}, Landroid/view/ViewPropertyAnimator;
-    ->cancel()V
+    invoke-virtual {p3}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
     .line 17
     .line 18
     .line 19
-    invoke-virtual {p2}, Landroid/view/View;
-    ->clearAnimation()V
+    invoke-virtual {p2}, Landroid/view/View;->clearAnimation()V
 
     .line 20
     .line 21
     .line 22
     :cond_1
-    iput p4, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->i:I
+    iput p4, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->i:I
 
     .line 23
     .line 24
-    invoke-virtual {p1}, Ljava/util/AbstractCollection;
-    ->iterator()Ljava/util/Iterator;
+    invoke-virtual {p1}, Ljava/util/AbstractCollection;->iterator()Ljava/util/Iterator;
 
     .line 25
     .line 26
@@ -594,8 +543,7 @@
     move-result-object p1
 
     .line 28
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
     .line 29
     .line 30
@@ -607,31 +555,26 @@
 
     .line 33
     .line 34
-    iget p1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->h:I
+    iget p1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->h:I
 
     .line 35
     .line 36
-    iget p3, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->e:I
+    iget p3, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->e:I
 
     .line 37
     .line 38
     int-to-long p3, p3
 
     .line 39
-    iget-object p5, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->g:Landroid/animation/TimeInterpolator;
+    iget-object p5, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->g:Landroid/animation/TimeInterpolator;
 
     .line 40
     .line 41
-    iget-object p6, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->b:La/a;
+    iget-object p6, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->b:La/a;
 
     .line 42
     .line 43
-    invoke-virtual {p6, p2, p1}, La/a;
-    ->y(Landroid/view/View;I)Landroid/view/ViewPropertyAnimator;
+    invoke-virtual {p6, p2, p1}, La/a;->y(Landroid/view/View;I)Landroid/view/ViewPropertyAnimator;
 
     .line 44
     .line 45
@@ -639,8 +582,7 @@
     move-result-object p1
 
     .line 47
-    invoke-virtual {p1, p5}, Landroid/view/ViewPropertyAnimator;
-    ->setInterpolator(Landroid/animation/TimeInterpolator;)Landroid/view/ViewPropertyAnimator;
+    invoke-virtual {p1, p5}, Landroid/view/ViewPropertyAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)Landroid/view/ViewPropertyAnimator;
 
     .line 48
     .line 49
@@ -648,8 +590,7 @@
     move-result-object p1
 
     .line 51
-    invoke-virtual {p1, p3, p4}, Landroid/view/ViewPropertyAnimator;
-    ->setDuration(J)Landroid/view/ViewPropertyAnimator;
+    invoke-virtual {p1, p3, p4}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     .line 52
     .line 53
@@ -664,14 +605,12 @@
     const/4 p3, 0x1
 
     .line 58
-    invoke-direct {p2, p0, p3}, Lb0/a;
-    -><init>(Ljava/lang/Object;I)V
+    invoke-direct {p2, p0, p3}, Lb0/a;-><init>(Ljava/lang/Object;I)V
 
     .line 59
     .line 60
     .line 61
-    invoke-virtual {p1, p2}, Landroid/view/ViewPropertyAnimator;
-    ->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
+    invoke-virtual {p1, p2}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
 
     .line 62
     .line 63
@@ -679,8 +618,7 @@
     move-result-object p1
 
     .line 65
-    iput-object p1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->j:Landroid/view/ViewPropertyAnimator;
+    iput-object p1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->j:Landroid/view/ViewPropertyAnimator;
 
     .line 66
     .line 67
@@ -688,8 +626,7 @@
 
     .line 68
     :cond_2
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 69
     .line 70
@@ -697,8 +634,7 @@
     move-result-object p1
 
     .line 72
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 73
     .line 74
@@ -707,8 +643,7 @@
 
     .line 76
     .line 77
-    invoke-direct {p1}, Ljava/lang/ClassCastException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/ClassCastException;-><init>()V
 
     .line 78
     .line 79
@@ -721,8 +656,7 @@
 
     .line 82
     .line 83
-    iget p3, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->i:I
+    iget p3, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->i:I
 
     .line 84
     .line 85
@@ -737,8 +671,7 @@
 
     .line 89
     :cond_4
-    iget-object p3, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->j:Landroid/view/ViewPropertyAnimator;
+    iget-object p3, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->j:Landroid/view/ViewPropertyAnimator;
 
     .line 90
     .line 91
@@ -746,26 +679,22 @@
 
     .line 92
     .line 93
-    invoke-virtual {p3}, Landroid/view/ViewPropertyAnimator;
-    ->cancel()V
+    invoke-virtual {p3}, Landroid/view/ViewPropertyAnimator;->cancel()V
 
     .line 94
     .line 95
     .line 96
-    invoke-virtual {p2}, Landroid/view/View;
-    ->clearAnimation()V
+    invoke-virtual {p2}, Landroid/view/View;->clearAnimation()V
 
     .line 97
     .line 98
     .line 99
     :cond_5
-    iput p4, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->i:I
+    iput p4, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->i:I
 
     .line 100
     .line 101
-    invoke-virtual {p1}, Ljava/util/AbstractCollection;
-    ->iterator()Ljava/util/Iterator;
+    invoke-virtual {p1}, Ljava/util/AbstractCollection;->iterator()Ljava/util/Iterator;
 
     .line 102
     .line 103
@@ -773,8 +702,7 @@
     move-result-object p1
 
     .line 105
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
     .line 106
     .line 107
@@ -786,40 +714,34 @@
 
     .line 110
     .line 111
-    iget-object p1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->b:La/a;
+    iget-object p1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->b:La/a;
 
     .line 112
     .line 113
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 114
     .line 115
     .line 116
-    iget p1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->d:I
+    iget p1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->d:I
 
     .line 117
     .line 118
     int-to-long p3, p1
 
     .line 119
-    iget-object p1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->f:Landroid/animation/TimeInterpolator;
+    iget-object p1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->f:Landroid/animation/TimeInterpolator;
 
     .line 120
     .line 121
-    iget-object p5, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->b:La/a;
+    iget-object p5, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->b:La/a;
 
     .line 122
     .line 123
     const/4 p6, 0x0
 
     .line 124
-    invoke-virtual {p5, p2, p6}, La/a;
-    ->y(Landroid/view/View;I)Landroid/view/ViewPropertyAnimator;
+    invoke-virtual {p5, p2, p6}, La/a;->y(Landroid/view/View;I)Landroid/view/ViewPropertyAnimator;
 
     .line 125
     .line 126
@@ -827,8 +749,7 @@
     move-result-object p2
 
     .line 128
-    invoke-virtual {p2, p1}, Landroid/view/ViewPropertyAnimator;
-    ->setInterpolator(Landroid/animation/TimeInterpolator;)Landroid/view/ViewPropertyAnimator;
+    invoke-virtual {p2, p1}, Landroid/view/ViewPropertyAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)Landroid/view/ViewPropertyAnimator;
 
     .line 129
     .line 130
@@ -836,8 +757,7 @@
     move-result-object p1
 
     .line 132
-    invoke-virtual {p1, p3, p4}, Landroid/view/ViewPropertyAnimator;
-    ->setDuration(J)Landroid/view/ViewPropertyAnimator;
+    invoke-virtual {p1, p3, p4}, Landroid/view/ViewPropertyAnimator;->setDuration(J)Landroid/view/ViewPropertyAnimator;
 
     .line 133
     .line 134
@@ -852,14 +772,12 @@
     const/4 p3, 0x1
 
     .line 139
-    invoke-direct {p2, p0, p3}, Lb0/a;
-    -><init>(Ljava/lang/Object;I)V
+    invoke-direct {p2, p0, p3}, Lb0/a;-><init>(Ljava/lang/Object;I)V
 
     .line 140
     .line 141
     .line 142
-    invoke-virtual {p1, p2}, Landroid/view/ViewPropertyAnimator;
-    ->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
+    invoke-virtual {p1, p2}, Landroid/view/ViewPropertyAnimator;->setListener(Landroid/animation/Animator$AnimatorListener;)Landroid/view/ViewPropertyAnimator;
 
     .line 143
     .line 144
@@ -867,8 +785,7 @@
     move-result-object p1
 
     .line 146
-    iput-object p1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;
-    ->j:Landroid/view/ViewPropertyAnimator;
+    iput-object p1, p0, Lcom/google/android/material/behavior/HideViewOnScrollBehavior;->j:Landroid/view/ViewPropertyAnimator;
 
     .line 147
     .line 148
@@ -876,8 +793,7 @@
 
     .line 149
     :cond_6
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 150
     .line 151
@@ -885,8 +801,7 @@
     move-result-object p1
 
     .line 153
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 154
     .line 155
@@ -895,8 +810,7 @@
 
     .line 157
     .line 158
-    invoke-direct {p1}, Ljava/lang/ClassCastException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/ClassCastException;-><init>()V
 
     .line 159
     .line 160

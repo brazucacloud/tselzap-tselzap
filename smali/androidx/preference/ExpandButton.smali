@@ -25,20 +25,17 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/preference/Preference;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Landroidx/preference/Preference;-><init>(Landroid/content/Context;)V
 
     .line 2
     .line 3
     .line 4
-    invoke-direct {p0}, Landroidx/preference/ExpandButton;
-    ->initLayout()V
+    invoke-direct {p0}, Landroidx/preference/ExpandButton;->initLayout()V
 
     .line 5
     .line 6
     .line 7
-    invoke-direct {p0, p2}, Landroidx/preference/ExpandButton;
-    ->setSummary(Ljava/util/List;)V
+    invoke-direct {p0, p2}, Landroidx/preference/ExpandButton;->setSummary(Ljava/util/List;)V
 
     .line 8
     .line 9
@@ -51,8 +48,7 @@
     add-long/2addr p3, p1
 
     .line 14
-    iput-wide p3, p0, Landroidx/preference/ExpandButton;
-    ->mId:J    
+    iput-wide p3, p0, Landroidx/preference/ExpandButton;->mId:J
     return-void
 .end method
 
@@ -60,35 +56,29 @@
     .locals 1
 
     .line 1
-    sget v0, Landroidx/preference/R$layout;
-    ->expand_button:I
+    sget v0, Landroidx/preference/R$layout;->expand_button:I
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Landroidx/preference/Preference;
-    ->setLayoutResource(I)V
+    invoke-virtual {p0, v0}, Landroidx/preference/Preference;->setLayoutResource(I)V
 
     .line 4
     .line 5
     .line 6
-    sget v0, Landroidx/preference/R$drawable;
-    ->ic_arrow_down_24dp:I
+    sget v0, Landroidx/preference/R$drawable;->ic_arrow_down_24dp:I
 
     .line 7
     .line 8
-    invoke-virtual {p0, v0}, Landroidx/preference/Preference;
-    ->setIcon(I)V
+    invoke-virtual {p0, v0}, Landroidx/preference/Preference;->setIcon(I)V
 
     .line 9
     .line 10
     .line 11
-    sget v0, Landroidx/preference/R$string;
-    ->expand_button_title:I
+    sget v0, Landroidx/preference/R$string;->expand_button_title:I
 
     .line 12
     .line 13
-    invoke-virtual {p0, v0}, Landroidx/preference/Preference;
-    ->setTitle(I)V
+    invoke-virtual {p0, v0}, Landroidx/preference/Preference;->setTitle(I)V
 
     .line 14
     .line 15
@@ -97,8 +87,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0, v0}, Landroidx/preference/Preference;
-    ->setOrder(I)V
+    invoke-virtual {p0, v0}, Landroidx/preference/Preference;->setOrder(I)V
 return-void
 .end method
 
@@ -118,14 +107,12 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-interface {p1}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 7
     .line 8
@@ -138,8 +125,7 @@ return-void
     .line 11
     :cond_0
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
     .line 12
     .line 13
@@ -151,8 +137,7 @@ return-void
 
     .line 16
     .line 17
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -164,8 +149,7 @@ return-void
 
     .line 22
     .line 23
-    invoke-virtual {v2}, Landroidx/preference/Preference;
-    ->getTitle()Ljava/lang/CharSequence;
+    invoke-virtual {v2}, Landroidx/preference/Preference;->getTitle()Ljava/lang/CharSequence;
 
     .line 24
     .line 25
@@ -181,8 +165,7 @@ return-void
 
     .line 30
     .line 31
-    invoke-static {v3}, Landroid/text/TextUtils;
-    ->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 32
     .line 33
@@ -201,15 +184,13 @@ return-void
 
     .line 39
     .line 40
-    invoke-virtual {v0, v5}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 41
     .line 42
     .line 43
     :cond_1
-    invoke-virtual {v2}, Landroidx/preference/Preference;
-    ->getParent()Landroidx/preference/PreferenceGroup;
+    invoke-virtual {v2}, Landroidx/preference/Preference;->getParent()Landroidx/preference/PreferenceGroup;
 
     .line 44
     .line 45
@@ -217,8 +198,7 @@ return-void
     move-result-object v5
 
     .line 47
-    invoke-virtual {v0, v5}, Ljava/util/ArrayList;
-    ->contains(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v5}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
 
     .line 48
     .line 49
@@ -238,8 +218,7 @@ return-void
 
     .line 56
     .line 57
-    invoke-virtual {v0, v2}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 58
     .line 59
@@ -248,8 +227,7 @@ return-void
 
     .line 61
     :cond_2
-    invoke-static {v3}, Landroid/text/TextUtils;
-    ->isEmpty(Ljava/lang/CharSequence;)Z
+    invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     .line 62
     .line 63
@@ -272,8 +250,7 @@ return-void
 
     .line 71
     :cond_3
-    invoke-virtual {p0}, Landroidx/preference/Preference;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/preference/Preference;->getContext()Landroid/content/Context;
 
     .line 72
     .line 73
@@ -281,8 +258,7 @@ return-void
     move-result-object v2
 
     .line 75
-    sget v4, Landroidx/preference/R$string;
-    ->summary_collapsed_preference_list:I
+    sget v4, Landroidx/preference/R$string;->summary_collapsed_preference_list:I
 
     .line 76
     .line 77
@@ -307,8 +283,7 @@ return-void
 
     .line 85
     .line 86
-    invoke-virtual {v2, v4, v5}, Landroid/content/Context;
-    ->getString(I[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-virtual {v2, v4, v5}, Landroid/content/Context;->getString(I[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 87
     .line 88
@@ -320,8 +295,7 @@ return-void
 
     .line 91
     :cond_4
-    invoke-virtual {p0, v1}, Landroidx/preference/Preference;
-    ->setSummary(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, v1}, Landroidx/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
     return-void
 .end method
 
@@ -331,8 +305,7 @@ return-void
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/preference/ExpandButton;
-    ->mId:J    return-wide v0
+    iget-wide v0, p0, Landroidx/preference/ExpandButton;->mId:J    return-wide v0
 .end method
 
 .method public onBindViewHolder(Landroidx/preference/PreferenceViewHolder;)V
@@ -343,8 +316,7 @@ return-void
     .end param
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/preference/Preference;
-    ->onBindViewHolder(Landroidx/preference/PreferenceViewHolder;)V
+    invoke-super {p0, p1}, Landroidx/preference/Preference;->onBindViewHolder(Landroidx/preference/PreferenceViewHolder;)V
 
     .line 2
     .line 3
@@ -352,8 +324,7 @@ return-void
     const/4 v0, 0x0
 
     .line 5
-    invoke-virtual {p1, v0}, Landroidx/preference/PreferenceViewHolder;
-    ->setDividerAllowedAbove(Z)V    
+    invoke-virtual {p1, v0}, Landroidx/preference/PreferenceViewHolder;->setDividerAllowedAbove(Z)V
     return-void
 .end method
 

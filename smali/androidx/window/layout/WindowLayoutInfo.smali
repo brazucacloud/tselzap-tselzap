@@ -20,8 +20,7 @@
     .locals 1
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->TESTS:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->TESTS:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -40,20 +39,17 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/window/layout/WindowLayoutInfo;
-    ->displayFeatures:Ljava/util/List;
+    iput-object p1, p0, Landroidx/window/layout/WindowLayoutInfo;->displayFeatures:Ljava/util/List;
 
     .line 10
     .line 11
@@ -80,8 +76,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 8
     .line 9
@@ -93,8 +88,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {v1, v0}, Ljava/lang/Object;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     .line 14
     .line 15
@@ -114,18 +108,15 @@
 
     .line 21
     .line 22
-    iget-object v0, p0, Landroidx/window/layout/WindowLayoutInfo;
-    ->displayFeatures:Ljava/util/List;
+    iget-object v0, p0, Landroidx/window/layout/WindowLayoutInfo;->displayFeatures:Ljava/util/List;
 
     .line 23
     .line 24
-    iget-object p1, p1, Landroidx/window/layout/WindowLayoutInfo;
-    ->displayFeatures:Ljava/util/List;
+    iget-object p1, p1, Landroidx/window/layout/WindowLayoutInfo;->displayFeatures:Ljava/util/List;
 
     .line 25
     .line 26
-    invoke-static {v0, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 27
     .line 28
@@ -154,8 +145,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/window/layout/WindowLayoutInfo;
-    ->displayFeatures:Ljava/util/List;
+    iget-object v0, p0, Landroidx/window/layout/WindowLayoutInfo;->displayFeatures:Ljava/util/List;
 
     .line 2
     .line 3
@@ -166,13 +156,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/window/layout/WindowLayoutInfo;
-    ->displayFeatures:Ljava/util/List;
+    iget-object v0, p0, Landroidx/window/layout/WindowLayoutInfo;->displayFeatures:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/Object;
-    ->hashCode()I
+    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
 
     .line 4
     .line 5
@@ -186,8 +174,7 @@
     .locals 7
 
     .line 1
-    iget-object v0, p0, Landroidx/window/layout/WindowLayoutInfo;
-    ->displayFeatures:Ljava/util/List;
+    iget-object v0, p0, Landroidx/window/layout/WindowLayoutInfo;->displayFeatures:Ljava/util/List;
 
     .line 2
     .line 3
@@ -217,8 +204,7 @@
 
     .line 14
     .line 15
-    invoke-static/range {v1 .. v6}, Ld1/k;
-    ->v0(Ljava/lang/Iterable;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lp1/l;I)Ljava/lang/String;
+    invoke-static/range {v1 .. v6}, Ld1/k;->v0(Ljava/lang/Iterable;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lp1/l;I)Ljava/lang/String;
 
     .line 16
     .line 17

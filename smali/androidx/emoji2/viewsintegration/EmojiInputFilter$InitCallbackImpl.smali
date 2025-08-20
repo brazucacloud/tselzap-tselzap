@@ -45,8 +45,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroidx/emoji2/text/EmojiCompat$InitCallback;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/emoji2/text/EmojiCompat$InitCallback;-><init>()V
 
     .line 2
     .line 3
@@ -55,14 +54,12 @@
 
     .line 5
     .line 6
-    invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;
-    -><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiInputFilter$InitCallbackImpl;
-    ->mViewRef:Ljava/lang/ref/Reference;
+    iput-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiInputFilter$InitCallbackImpl;->mViewRef:Ljava/lang/ref/Reference;
 
     .line 10
     .line 11
@@ -70,14 +67,12 @@
 
     .line 12
     .line 13
-    invoke-direct {p1, p2}, Ljava/lang/ref/WeakReference;
-    -><init>(Ljava/lang/Object;)V
+    invoke-direct {p1, p2}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     .line 14
     .line 15
     .line 16
-    iput-object p1, p0, Landroidx/emoji2/viewsintegration/EmojiInputFilter$InitCallbackImpl;
-    ->mEmojiInputFilterReference:Ljava/lang/ref/Reference;
+    iput-object p1, p0, Landroidx/emoji2/viewsintegration/EmojiInputFilter$InitCallbackImpl;->mEmojiInputFilterReference:Ljava/lang/ref/Reference;
 
     .line 17
     .line 18
@@ -111,8 +106,7 @@
 
     .line 7
     :cond_0
-    invoke-virtual {p1}, Landroid/widget/TextView;
-    ->getFilters()[Landroid/text/InputFilter;
+    invoke-virtual {p1}, Landroid/widget/TextView;->getFilters()[Landroid/text/InputFilter;
 
     .line 8
     .line 9
@@ -171,19 +165,16 @@
     .locals 4
 
     .line 1
-    invoke-super {p0}, Landroidx/emoji2/text/EmojiCompat$InitCallback;
-    ->onInitialized()V
+    invoke-super {p0}, Landroidx/emoji2/text/EmojiCompat$InitCallback;->onInitialized()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiInputFilter$InitCallbackImpl;
-    ->mViewRef:Ljava/lang/ref/Reference;
+    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiInputFilter$InitCallbackImpl;->mViewRef:Ljava/lang/ref/Reference;
 
     .line 5
     .line 6
-    invoke-virtual {v0}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -195,13 +186,11 @@
 
     .line 11
     .line 12
-    iget-object v1, p0, Landroidx/emoji2/viewsintegration/EmojiInputFilter$InitCallbackImpl;
-    ->mEmojiInputFilterReference:Ljava/lang/ref/Reference;
+    iget-object v1, p0, Landroidx/emoji2/viewsintegration/EmojiInputFilter$InitCallbackImpl;->mEmojiInputFilterReference:Ljava/lang/ref/Reference;
 
     .line 13
     .line 14
-    invoke-virtual {v1}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -213,8 +202,7 @@
 
     .line 19
     .line 20
-    invoke-direct {p0, v0, v1}, Landroidx/emoji2/viewsintegration/EmojiInputFilter$InitCallbackImpl;
-    ->isInputFilterCurrentlyRegisteredOnTextView(Landroid/widget/TextView;Landroid/text/InputFilter;)Z
+    invoke-direct {p0, v0, v1}, Landroidx/emoji2/viewsintegration/EmojiInputFilter$InitCallbackImpl;->isInputFilterCurrentlyRegisteredOnTextView(Landroid/widget/TextView;Landroid/text/InputFilter;)Z
 
     .line 21
     .line 22
@@ -230,8 +218,7 @@
 
     .line 27
     :cond_0
-    invoke-virtual {v0}, Landroid/view/View;
-    ->isAttachedToWindow()Z
+    invoke-virtual {v0}, Landroid/view/View;->isAttachedToWindow()Z
 
     .line 28
     .line 29
@@ -243,8 +230,7 @@
 
     .line 32
     .line 33
-    invoke-virtual {v0}, Landroid/widget/TextView;
-    ->getText()Ljava/lang/CharSequence;
+    invoke-virtual {v0}, Landroid/widget/TextView;->getText()Ljava/lang/CharSequence;
 
     .line 34
     .line 35
@@ -252,8 +238,7 @@
     move-result-object v1
 
     .line 37
-    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;
-    ->get()Landroidx/emoji2/text/EmojiCompat;
+    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;->get()Landroidx/emoji2/text/EmojiCompat;
 
     .line 38
     .line 39
@@ -261,8 +246,7 @@
     move-result-object v2
 
     .line 41
-    invoke-virtual {v2, v1}, Landroidx/emoji2/text/EmojiCompat;
-    ->process(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+    invoke-virtual {v2, v1}, Landroidx/emoji2/text/EmojiCompat;->process(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
 
     .line 42
     .line 43
@@ -278,8 +262,7 @@
 
     .line 48
     :cond_1
-    invoke-static {v2}, Landroid/text/Selection;
-    ->getSelectionStart(Ljava/lang/CharSequence;)I
+    invoke-static {v2}, Landroid/text/Selection;->getSelectionStart(Ljava/lang/CharSequence;)I
 
     .line 49
     .line 50
@@ -287,8 +270,7 @@
     move-result v1
 
     .line 52
-    invoke-static {v2}, Landroid/text/Selection;
-    ->getSelectionEnd(Ljava/lang/CharSequence;)I
+    invoke-static {v2}, Landroid/text/Selection;->getSelectionEnd(Ljava/lang/CharSequence;)I
 
     .line 53
     .line 54
@@ -296,8 +278,7 @@
     move-result v3
 
     .line 56
-    invoke-virtual {v0, v2}, Landroid/widget/TextView;
-    ->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 57
     .line 58
@@ -314,8 +295,7 @@
 
     .line 64
     .line 65
-    invoke-static {v2, v1, v3}, Landroidx/emoji2/viewsintegration/EmojiInputFilter;
-    ->updateSelection(Landroid/text/Spannable;II)V
+    invoke-static {v2, v1, v3}, Landroidx/emoji2/viewsintegration/EmojiInputFilter;->updateSelection(Landroid/text/Spannable;II)V
 
     .line 66
     .line 67

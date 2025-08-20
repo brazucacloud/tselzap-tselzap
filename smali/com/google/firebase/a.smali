@@ -21,17 +21,13 @@
     .line 1
     const/4 v0, 0x1
 
-    iput v0, p0, Lcom/google/firebase/a;
-    ->a:I
+    iput v0, p0, Lcom/google/firebase/a;->a:I
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/google/firebase/a;
-    ->b:Landroid/content/Context;
+    iput-object p1, p0, Lcom/google/firebase/a;->b:Landroid/content/Context;
 
-    iput-object p2, p0, Lcom/google/firebase/a;
-    ->c:Ljava/lang/Object;
+    iput-object p2, p0, Lcom/google/firebase/a;->c:Ljava/lang/Object;
 
     return-void
 .end method
@@ -42,17 +38,13 @@
     .line 2
     const/4 v0, 0x0
 
-    iput v0, p0, Lcom/google/firebase/a;
-    ->a:I
+    iput v0, p0, Lcom/google/firebase/a;->a:I
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/google/firebase/a;
-    ->c:Ljava/lang/Object;
+    iput-object p1, p0, Lcom/google/firebase/a;->c:Ljava/lang/Object;
 
-    iput-object p2, p0, Lcom/google/firebase/a;
-    ->b:Landroid/content/Context;
+    iput-object p2, p0, Lcom/google/firebase/a;->b:Landroid/content/Context;
 
     return-void
 .end method
@@ -63,37 +55,30 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Lcom/google/firebase/a;
-    ->a:I
+    iget v0, p0, Lcom/google/firebase/a;->a:I
 
     packed-switch v0, :pswitch_data_0
 
-    iget-object v0, p0, Lcom/google/firebase/a;
-    ->b:Landroid/content/Context;
+    iget-object v0, p0, Lcom/google/firebase/a;->b:Landroid/content/Context;
 
-    iget-object v1, p0, Lcom/google/firebase/a;
-    ->c:Ljava/lang/Object;
+    iget-object v1, p0, Lcom/google/firebase/a;->c:Ljava/lang/Object;
 
     check-cast v1, Ljava/lang/String;
 
-    invoke-static {v0, v1}, Lcom/google/firebase/heartbeatinfo/DefaultHeartBeatController;
-    ->b(Landroid/content/Context;Ljava/lang/String;)Lcom/google/firebase/heartbeatinfo/HeartBeatInfoStorage;
+    invoke-static {v0, v1}, Lcom/google/firebase/heartbeatinfo/DefaultHeartBeatController;->b(Landroid/content/Context;Ljava/lang/String;)Lcom/google/firebase/heartbeatinfo/HeartBeatInfoStorage;
 
     move-result-object v0
 
     return-object v0
 
     :pswitch_0
-    iget-object v0, p0, Lcom/google/firebase/a;
-    ->c:Ljava/lang/Object;
+    iget-object v0, p0, Lcom/google/firebase/a;->c:Ljava/lang/Object;
 
     check-cast v0, Lcom/google/firebase/FirebaseApp;
 
-    iget-object v1, p0, Lcom/google/firebase/a;
-    ->b:Landroid/content/Context;
+    iget-object v1, p0, Lcom/google/firebase/a;->b:Landroid/content/Context;
 
-    invoke-static {v0, v1}, Lcom/google/firebase/FirebaseApp;
-    ->b(Lcom/google/firebase/FirebaseApp;Landroid/content/Context;)Lcom/google/firebase/internal/DataCollectionConfigStorage;
+    invoke-static {v0, v1}, Lcom/google/firebase/FirebaseApp;->b(Lcom/google/firebase/FirebaseApp;Landroid/content/Context;)Lcom/google/firebase/internal/DataCollectionConfigStorage;
 
     move-result-object v0
 

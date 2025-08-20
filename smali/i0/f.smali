@@ -15,11 +15,9 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Li0/f;
-    ->a:Lcom/google/android/material/chip/ChipGroup;
+    iput-object p1, p0, Li0/f;->a:Lcom/google/android/material/chip/ChipGroup;
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 

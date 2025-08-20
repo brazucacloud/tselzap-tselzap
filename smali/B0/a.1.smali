@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -56,18 +55,15 @@
 
     .line 15
     .line 16
-    iget-object p1, p1, LB0/p;
-    ->b:LB0/w;
+    iget-object p1, p1, LB0/p;->b:LB0/w;
 
     .line 17
     .line 18
-    iget-object v0, v0, LB0/p;
-    ->b:LB0/w;
+    iget-object v0, v0, LB0/p;->b:LB0/w;
 
     .line 19
     .line 20
-    invoke-virtual {v0, p1}, LB0/n;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, LB0/n;->equals(Ljava/lang/Object;)Z
 
     .line 21
     .line 22
@@ -94,13 +90,11 @@
 
     .line 3
     .line 4
-    iget-object v0, v0, LB0/p;
-    ->b:LB0/w;
+    iget-object v0, v0, LB0/p;->b:LB0/w;
 
     .line 5
     .line 6
-    invoke-virtual {v0}, LB0/n;
-    ->hashCode()I
+    invoke-virtual {v0}, LB0/n;->hashCode()I
 
     .line 7
     .line 8
@@ -121,13 +115,11 @@
 
     .line 3
     .line 4
-    iget-object v0, v0, LB0/p;
-    ->b:LB0/w;
+    iget-object v0, v0, LB0/p;->b:LB0/w;
 
     .line 5
     .line 6
-    invoke-virtual {v0}, LB0/n;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, LB0/n;->toString()Ljava/lang/String;
 
     .line 7
     .line 8

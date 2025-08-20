@@ -15,11 +15,9 @@
     .locals 0
 
     .line 1
-    iput p1, p0, LE/g;
-    ->b:I
+    iput p1, p0, LE/g;->b:I
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -29,8 +27,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, LE/g;
-    ->b:I
+    iget v0, p0, LE/g;->b:I
 
     .line 2
     .line 3
@@ -39,8 +36,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-interface {p1}, Ljava/lang/Runnable;
-    ->run()V
+    invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
     .line 7
     .line 8
@@ -49,8 +45,7 @@
 
     .line 10
     :pswitch_0
-    invoke-static {}, LE/o;
-    ->e()Landroid/os/Handler;
+    invoke-static {}, LE/o;->e()Landroid/os/Handler;
 
     .line 11
     .line 12
@@ -58,8 +53,7 @@
     move-result-object v0
 
     .line 14
-    invoke-virtual {v0, p1}, Landroid/os/Handler;
-    ->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, p1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
     .line 15
     .line 16

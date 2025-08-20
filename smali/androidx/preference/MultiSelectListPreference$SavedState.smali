@@ -47,51 +47,42 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/preference/MultiSelectListPreference$SavedState$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/preference/MultiSelectListPreference$SavedState$1;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/preference/MultiSelectListPreference$SavedState;
-    ->CREATOR:Landroid/os/Parcelable$Creator;    return-void
+    sput-object v0, Landroidx/preference/MultiSelectListPreference$SavedState;->CREATOR:Landroid/os/Parcelable$Creator;    return-void
 .end method
 
 .method public constructor <init>(Landroid/os/Parcel;)V
     .locals 2
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/preference/Preference$BaseSavedState;
-    -><init>(Landroid/os/Parcel;)V
+    invoke-direct {p0, p1}, Landroidx/preference/Preference$BaseSavedState;-><init>(Landroid/os/Parcel;)V
 
     .line 2
-    invoke-virtual {p1}, Landroid/os/Parcel;
-    ->readInt()I
+    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     .line 3
     new-instance v1, Ljava/util/HashSet;
 
-    invoke-direct {v1}, Ljava/util/HashSet;
-    -><init>()V
+    invoke-direct {v1}, Ljava/util/HashSet;-><init>()V
 
-    iput-object v1, p0, Landroidx/preference/MultiSelectListPreference$SavedState;
-    ->mValues:Ljava/util/Set;
+    iput-object v1, p0, Landroidx/preference/MultiSelectListPreference$SavedState;->mValues:Ljava/util/Set;
 
     .line 4
     new-array v0, v0, [Ljava/lang/String;
 
     .line 5
-    invoke-virtual {p1, v0}, Landroid/os/Parcel;
-    ->readStringArray([Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->readStringArray([Ljava/lang/String;)V
 
     .line 6
-    iget-object p1, p0, Landroidx/preference/MultiSelectListPreference$SavedState;
-    ->mValues:Ljava/util/Set;
+    iget-object p1, p0, Landroidx/preference/MultiSelectListPreference$SavedState;->mValues:Ljava/util/Set;
 
-    invoke-static {p1, v0}, Ljava/util/Collections;
-    ->addAll(Ljava/util/Collection;[Ljava/lang/Object;)Z
+    invoke-static {p1, v0}, Ljava/util/Collections;->addAll(Ljava/util/Collection;[Ljava/lang/Object;)Z
 return-void
 .end method
 
@@ -99,8 +90,7 @@ return-void
     .locals 0
 
     .line 7
-    invoke-direct {p0, p1}, Landroidx/preference/Preference$BaseSavedState;
-    -><init>(Landroid/os/Parcelable;)V
+    invoke-direct {p0, p1}, Landroidx/preference/Preference$BaseSavedState;-><init>(Landroid/os/Parcelable;)V
 return-void
 .end method
 
@@ -114,19 +104,16 @@ return-void
     .end param
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroid/view/AbsSavedState;
-    ->writeToParcel(Landroid/os/Parcel;I)V
+    invoke-super {p0, p1, p2}, Landroid/view/AbsSavedState;->writeToParcel(Landroid/os/Parcel;I)V
 
     .line 2
     .line 3
     .line 4
-    iget-object p2, p0, Landroidx/preference/MultiSelectListPreference$SavedState;
-    ->mValues:Ljava/util/Set;
+    iget-object p2, p0, Landroidx/preference/MultiSelectListPreference$SavedState;->mValues:Ljava/util/Set;
 
     .line 5
     .line 6
-    invoke-interface {p2}, Ljava/util/Set;
-    ->size()I
+    invoke-interface {p2}, Ljava/util/Set;->size()I
 
     .line 7
     .line 8
@@ -134,19 +121,16 @@ return-void
     move-result p2
 
     .line 10
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;
-    ->writeInt(I)V
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
 
     .line 11
     .line 12
     .line 13
-    iget-object p2, p0, Landroidx/preference/MultiSelectListPreference$SavedState;
-    ->mValues:Ljava/util/Set;
+    iget-object p2, p0, Landroidx/preference/MultiSelectListPreference$SavedState;->mValues:Ljava/util/Set;
 
     .line 14
     .line 15
-    invoke-interface {p2}, Ljava/util/Set;
-    ->size()I
+    invoke-interface {p2}, Ljava/util/Set;->size()I
 
     .line 16
     .line 17
@@ -158,8 +142,7 @@ return-void
 
     .line 20
     .line 21
-    invoke-interface {p2, v0}, Ljava/util/Set;
-    ->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-interface {p2, v0}, Ljava/util/Set;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     .line 22
     .line 23
@@ -171,8 +154,7 @@ return-void
 
     .line 26
     .line 27
-    invoke-virtual {p1, p2}, Landroid/os/Parcel;
-    ->writeStringArray([Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeStringArray([Ljava/lang/String;)V
 return-void
 .end method
 

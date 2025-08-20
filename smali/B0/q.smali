@@ -14,14 +14,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, LB0/q;
-    ->c:Ljava/lang/Object;
+    iput-object p1, p0, LB0/q;->c:Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -34,8 +32,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, LB0/q;
-    ->b:Z
+    iget-boolean v0, p0, LB0/q;->b:Z
 
     .line 2
     .line 3
@@ -50,8 +47,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, LB0/q;
-    ->b:Z
+    iget-boolean v0, p0, LB0/q;->b:Z
 
     .line 2
     .line 3
@@ -62,13 +58,11 @@
     const/4 v0, 0x1
 
     .line 6
-    iput-boolean v0, p0, LB0/q;
-    ->b:Z
+    iput-boolean v0, p0, LB0/q;->b:Z
 
     .line 7
     .line 8
-    iget-object v0, p0, LB0/q;
-    ->c:Ljava/lang/Object;
+    iget-object v0, p0, LB0/q;->c:Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -80,8 +74,7 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Ljava/util/NoSuchElementException;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/NoSuchElementException;-><init>()V
 
     .line 14
     .line 15

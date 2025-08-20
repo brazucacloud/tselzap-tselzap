@@ -31,8 +31,7 @@
     const/4 v1, 0x2
 
     .line 4
-    invoke-static {v0, v1}, Landroid/util/Log;
-    ->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v0, v1}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     .line 5
     .line 6
@@ -40,8 +39,7 @@
     move-result v0
 
     .line 8
-    sput-boolean v0, Lcom/android/volley/VolleyLog;
-    ->DEBUG:Z
+    sput-boolean v0, Lcom/android/volley/VolleyLog;->DEBUG:Z
 
     .line 9
     .line 10
@@ -49,8 +47,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {v0}, Ljava/lang/Class;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     .line 13
     .line 14
@@ -58,8 +55,7 @@
     move-result-object v0
 
     .line 16
-    sput-object v0, Lcom/android/volley/VolleyLog;
-    ->CLASS_NAME:Ljava/lang/String;
+    sput-object v0, Lcom/android/volley/VolleyLog;->CLASS_NAME:Ljava/lang/String;
 
     .line 17
     .line 18
@@ -70,8 +66,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -91,13 +86,11 @@
 
     .line 4
     :cond_0
-    sget-object v0, Ljava/util/Locale;
-    ->US:Ljava/util/Locale;
+    sget-object v0, Ljava/util/Locale;->US:Ljava/util/Locale;
 
     .line 5
     .line 6
-    invoke-static {v0, p0, p1}, Ljava/lang/String;
-    ->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v0, p0, p1}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 7
     .line 8
@@ -110,14 +103,12 @@
 
     .line 11
     .line 12
-    invoke-direct {p1}, Ljava/lang/Throwable;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/Throwable;-><init>()V
 
     .line 13
     .line 14
     .line 15
-    invoke-virtual {p1}, Ljava/lang/Throwable;
-    ->fillInStackTrace()Ljava/lang/Throwable;
+    invoke-virtual {p1}, Ljava/lang/Throwable;->fillInStackTrace()Ljava/lang/Throwable;
 
     .line 16
     .line 17
@@ -125,8 +116,7 @@
     move-result-object p1
 
     .line 19
-    invoke-virtual {p1}, Ljava/lang/Throwable;
-    ->getStackTrace()[Ljava/lang/StackTraceElement;
+    invoke-virtual {p1}, Ljava/lang/Throwable;->getStackTrace()[Ljava/lang/StackTraceElement;
 
     .line 20
     .line 21
@@ -149,8 +139,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {v1}, Ljava/lang/StackTraceElement;
-    ->getClassName()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StackTraceElement;->getClassName()Ljava/lang/String;
 
     .line 30
     .line 31
@@ -158,13 +147,11 @@
     move-result-object v1
 
     .line 33
-    sget-object v2, Lcom/android/volley/VolleyLog;
-    ->CLASS_NAME:Ljava/lang/String;
+    sget-object v2, Lcom/android/volley/VolleyLog;->CLASS_NAME:Ljava/lang/String;
 
     .line 34
     .line 35
-    invoke-virtual {v1, v2}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 36
     .line 37
@@ -180,8 +167,7 @@
 
     .line 42
     .line 43
-    invoke-virtual {v1}, Ljava/lang/StackTraceElement;
-    ->getClassName()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StackTraceElement;->getClassName()Ljava/lang/String;
 
     .line 44
     .line 45
@@ -193,8 +179,7 @@
 
     .line 48
     .line 49
-    invoke-virtual {v1, v2}, Ljava/lang/String;
-    ->lastIndexOf(I)I
+    invoke-virtual {v1, v2}, Ljava/lang/String;->lastIndexOf(I)I
 
     .line 50
     .line 51
@@ -206,8 +191,7 @@
 
     .line 54
     .line 55
-    invoke-virtual {v1, v2}, Ljava/lang/String;
-    ->substring(I)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     .line 56
     .line 57
@@ -219,8 +203,7 @@
 
     .line 60
     .line 61
-    invoke-virtual {v1, v2}, Ljava/lang/String;
-    ->lastIndexOf(I)I
+    invoke-virtual {v1, v2}, Ljava/lang/String;->lastIndexOf(I)I
 
     .line 62
     .line 63
@@ -232,8 +215,7 @@
 
     .line 66
     .line 67
-    invoke-virtual {v1, v2}, Ljava/lang/String;
-    ->substring(I)Ljava/lang/String;
+    invoke-virtual {v1, v2}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     .line 68
     .line 69
@@ -245,8 +227,7 @@
 
     .line 72
     .line 73
-    invoke-static {v1, v2}, LA/d;
-    ->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, v2}, LA/d;->r(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 74
     .line 75
@@ -258,8 +239,7 @@
 
     .line 78
     .line 79
-    invoke-virtual {p1}, Ljava/lang/StackTraceElement;
-    ->getMethodName()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/StackTraceElement;->getMethodName()Ljava/lang/String;
 
     .line 80
     .line 81
@@ -267,14 +247,12 @@
     move-result-object p1
 
     .line 83
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 84
     .line 85
     .line 86
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 87
     .line 88
@@ -299,13 +277,11 @@
     .line 95
     .line 96
     :goto_2
-    sget-object v0, Ljava/util/Locale;
-    ->US:Ljava/util/Locale;
+    sget-object v0, Ljava/util/Locale;->US:Ljava/util/Locale;
 
     .line 97
     .line 98
-    invoke-static {}, Ljava/lang/Thread;
-    ->currentThread()Ljava/lang/Thread;
+    invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     .line 99
     .line 100
@@ -313,8 +289,7 @@
     move-result-object v0
 
     .line 102
-    invoke-virtual {v0}, Ljava/lang/Thread;
-    ->getId()J
+    invoke-virtual {v0}, Ljava/lang/Thread;->getId()J
 
     .line 103
     .line 104
@@ -330,14 +305,12 @@
 
     .line 109
     .line 110
-    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 111
     .line 112
     .line 113
-    invoke-virtual {v2, v0, v1}, Ljava/lang/StringBuilder;
-    ->append(J)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0, v1}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
     .line 114
     .line 115
@@ -346,14 +319,12 @@
 
     .line 117
     .line 118
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 119
     .line 120
     .line 121
-    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 122
     .line 123
@@ -362,8 +333,7 @@
 
     .line 125
     .line 126
-    invoke-static {v2, p1, p0}, LA/d;
-    ->k(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2, p1, p0}, LA/d;->k(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 127
     .line 128
@@ -377,13 +347,11 @@
     .locals 1
 
     .line 1
-    sget-object v0, Lcom/android/volley/VolleyLog;
-    ->TAG:Ljava/lang/String;
+    sget-object v0, Lcom/android/volley/VolleyLog;->TAG:Ljava/lang/String;
 
     .line 2
     .line 3
-    invoke-static {p0, p1}, Lcom/android/volley/VolleyLog;
-    ->buildMessage(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcom/android/volley/VolleyLog;->buildMessage(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 4
     .line 5
@@ -391,8 +359,7 @@
     move-result-object p0
 
     .line 7
-    invoke-static {v0, p0}, Landroid/util/Log;
-    ->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, p0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 8
     .line 9
@@ -404,16 +371,13 @@
     .locals 1
 
     .line 1
-    sget-object v0, Lcom/android/volley/VolleyLog;
-    ->TAG:Ljava/lang/String;
+    sget-object v0, Lcom/android/volley/VolleyLog;->TAG:Ljava/lang/String;
 
-    invoke-static {p0, p1}, Lcom/android/volley/VolleyLog;
-    ->buildMessage(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcom/android/volley/VolleyLog;->buildMessage(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
 
-    invoke-static {v0, p0}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     return-void
 .end method
@@ -422,16 +386,13 @@
     .locals 1
 
     .line 2
-    sget-object v0, Lcom/android/volley/VolleyLog;
-    ->TAG:Ljava/lang/String;
+    sget-object v0, Lcom/android/volley/VolleyLog;->TAG:Ljava/lang/String;
 
-    invoke-static {p1, p2}, Lcom/android/volley/VolleyLog;
-    ->buildMessage(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1, p2}, Lcom/android/volley/VolleyLog;->buildMessage(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-static {v0, p1, p0}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, p1, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     return-void
 .end method
@@ -458,22 +419,19 @@
 
     .line 8
     .line 9
-    invoke-static {v0, v1}, Lcom/android/volley/VolleyLog;
-    ->d(Ljava/lang/String;[Ljava/lang/Object;)V
+    invoke-static {v0, v1}, Lcom/android/volley/VolleyLog;->d(Ljava/lang/String;[Ljava/lang/Object;)V
 
     .line 10
     .line 11
     .line 12
-    sput-object p0, Lcom/android/volley/VolleyLog;
-    ->TAG:Ljava/lang/String;
+    sput-object p0, Lcom/android/volley/VolleyLog;->TAG:Ljava/lang/String;
 
     .line 13
     .line 14
     const/4 v0, 0x2
 
     .line 15
-    invoke-static {p0, v0}, Landroid/util/Log;
-    ->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {p0, v0}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     .line 16
     .line 17
@@ -481,8 +439,7 @@
     move-result p0
 
     .line 19
-    sput-boolean p0, Lcom/android/volley/VolleyLog;
-    ->DEBUG:Z
+    sput-boolean p0, Lcom/android/volley/VolleyLog;->DEBUG:Z
 
     .line 20
     .line 21
@@ -493,8 +450,7 @@
     .locals 1
 
     .line 1
-    sget-boolean v0, Lcom/android/volley/VolleyLog;
-    ->DEBUG:Z
+    sget-boolean v0, Lcom/android/volley/VolleyLog;->DEBUG:Z
 
     .line 2
     .line 3
@@ -502,13 +458,11 @@
 
     .line 4
     .line 5
-    sget-object v0, Lcom/android/volley/VolleyLog;
-    ->TAG:Ljava/lang/String;
+    sget-object v0, Lcom/android/volley/VolleyLog;->TAG:Ljava/lang/String;
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Lcom/android/volley/VolleyLog;
-    ->buildMessage(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcom/android/volley/VolleyLog;->buildMessage(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 8
     .line 9
@@ -516,8 +470,7 @@
     move-result-object p0
 
     .line 11
-    invoke-static {v0, p0}, Landroid/util/Log;
-    ->v(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, p0}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 12
     .line 13
@@ -530,16 +483,13 @@
     .locals 1
 
     .line 1
-    sget-object v0, Lcom/android/volley/VolleyLog;
-    ->TAG:Ljava/lang/String;
+    sget-object v0, Lcom/android/volley/VolleyLog;->TAG:Ljava/lang/String;
 
-    invoke-static {p0, p1}, Lcom/android/volley/VolleyLog;
-    ->buildMessage(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcom/android/volley/VolleyLog;->buildMessage(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
 
-    invoke-static {v0, p0}, Landroid/util/Log;
-    ->wtf(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v0, p0}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/String;)I
 
     return-void
 .end method
@@ -548,16 +498,13 @@
     .locals 1
 
     .line 2
-    sget-object v0, Lcom/android/volley/VolleyLog;
-    ->TAG:Ljava/lang/String;
+    sget-object v0, Lcom/android/volley/VolleyLog;->TAG:Ljava/lang/String;
 
-    invoke-static {p1, p2}, Lcom/android/volley/VolleyLog;
-    ->buildMessage(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1, p2}, Lcom/android/volley/VolleyLog;->buildMessage(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
-    invoke-static {v0, p1, p0}, Landroid/util/Log;
-    ->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, p1, p0}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     return-void
 .end method

@@ -37,24 +37,19 @@
 
     const-string v0, "cubics"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
-    invoke-direct {p0, p1}, Landroidx/graphics/shapes/Feature;
-    -><init>(Ljava/util/List;)V
+    invoke-direct {p0, p1}, Landroidx/graphics/shapes/Feature;-><init>(Ljava/util/List;)V
 
     .line 4
-    iput-wide p2, p0, Landroidx/graphics/shapes/Feature$Corner;
-    ->vertex:J
+    iput-wide p2, p0, Landroidx/graphics/shapes/Feature$Corner;->vertex:J
 
     .line 5
-    iput-wide p4, p0, Landroidx/graphics/shapes/Feature$Corner;
-    ->roundedCenter:J
+    iput-wide p4, p0, Landroidx/graphics/shapes/Feature$Corner;->roundedCenter:J
 
     .line 6
-    iput-boolean p6, p0, Landroidx/graphics/shapes/Feature$Corner;
-    ->convex:Z
+    iput-boolean p6, p0, Landroidx/graphics/shapes/Feature$Corner;->convex:Z
 return-void
 .end method
 
@@ -86,8 +81,7 @@ return-void
     move-wide v4, p4
 
     .line 2
-    invoke-direct/range {v0 .. v7}, Landroidx/graphics/shapes/Feature$Corner;
-    -><init>(Ljava/util/List;JJZLkotlin/jvm/internal/e;)V
+    invoke-direct/range {v0 .. v7}, Landroidx/graphics/shapes/Feature$Corner;-><init>(Ljava/util/List;JJZLkotlin/jvm/internal/e;)V
 return-void
 .end method
 
@@ -95,8 +89,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct/range {p0 .. p6}, Landroidx/graphics/shapes/Feature$Corner;
-    -><init>(Ljava/util/List;JJZ)V
+    invoke-direct/range {p0 .. p6}, Landroidx/graphics/shapes/Feature$Corner;-><init>(Ljava/util/List;JJZ)V
 return-void
 .end method
 
@@ -106,24 +99,21 @@ return-void
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/graphics/shapes/Feature$Corner;
-    ->convex:Z    return v0
+    iget-boolean v0, p0, Landroidx/graphics/shapes/Feature$Corner;->convex:Z    return v0
 .end method
 
 .method public final getRoundedCenter-1ufDz9w()J
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/graphics/shapes/Feature$Corner;
-    ->roundedCenter:J    return-wide v0
+    iget-wide v0, p0, Landroidx/graphics/shapes/Feature$Corner;->roundedCenter:J    return-wide v0
 .end method
 
 .method public final getVertex-1ufDz9w()J
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/graphics/shapes/Feature$Corner;
-    ->vertex:J    return-wide v0
+    iget-wide v0, p0, Landroidx/graphics/shapes/Feature$Corner;->vertex:J    return-wide v0
 .end method
 
 .method public toString()Ljava/lang/String;
@@ -138,19 +128,16 @@ return-void
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget-wide v1, p0, Landroidx/graphics/shapes/Feature$Corner;
-    ->vertex:J
+    iget-wide v1, p0, Landroidx/graphics/shapes/Feature$Corner;->vertex:J
 
     .line 9
     .line 10
-    invoke-static {v1, v2}, Landroidx/collection/FloatFloatPair;
-    ->toString-impl(J)Ljava/lang/String;
+    invoke-static {v1, v2}, Landroidx/collection/FloatFloatPair;->toString-impl(J)Ljava/lang/String;
 
     .line 11
     .line 12
@@ -158,8 +145,7 @@ return-void
     move-result-object v1
 
     .line 14
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 15
     .line 16
@@ -168,19 +154,16 @@ return-void
 
     .line 18
     .line 19
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 20
     .line 21
     .line 22
-    iget-wide v1, p0, Landroidx/graphics/shapes/Feature$Corner;
-    ->roundedCenter:J
+    iget-wide v1, p0, Landroidx/graphics/shapes/Feature$Corner;->roundedCenter:J
 
     .line 23
     .line 24
-    invoke-static {v1, v2}, Landroidx/collection/FloatFloatPair;
-    ->toString-impl(J)Ljava/lang/String;
+    invoke-static {v1, v2}, Landroidx/collection/FloatFloatPair;->toString-impl(J)Ljava/lang/String;
 
     .line 25
     .line 26
@@ -188,8 +171,7 @@ return-void
     move-result-object v1
 
     .line 28
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 29
     .line 30
@@ -198,25 +180,21 @@ return-void
 
     .line 32
     .line 33
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 34
     .line 35
     .line 36
-    iget-boolean v1, p0, Landroidx/graphics/shapes/Feature$Corner;
-    ->convex:Z
+    iget-boolean v1, p0, Landroidx/graphics/shapes/Feature$Corner;->convex:Z
 
     .line 37
     .line 38
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Z)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
 
     .line 39
     .line 40
     .line 41
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 42
     .line 43
@@ -234,8 +212,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -244,14 +221,12 @@ return-void
 
     .line 7
     .line 8
-    invoke-direct {v0}, Le1/b;
-    -><init>()V
+    invoke-direct {v0}, Le1/b;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Feature;
-    ->getCubics()Ljava/util/List;
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Feature;->getCubics()Ljava/util/List;
 
     .line 12
     .line 13
@@ -259,8 +234,7 @@ return-void
     move-result-object v1
 
     .line 15
-    invoke-interface {v1}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v1}, Ljava/util/List;->size()I
 
     .line 16
     .line 17
@@ -276,8 +250,7 @@ return-void
 
     .line 21
     .line 22
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Feature;
-    ->getCubics()Ljava/util/List;
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Feature;->getCubics()Ljava/util/List;
 
     .line 23
     .line 24
@@ -285,8 +258,7 @@ return-void
     move-result-object v3
 
     .line 26
-    invoke-interface {v3, v2}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v3, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 27
     .line 28
@@ -298,8 +270,7 @@ return-void
 
     .line 31
     .line 32
-    invoke-virtual {v3, p1}, Landroidx/graphics/shapes/Cubic;
-    ->transformed(Landroidx/graphics/shapes/PointTransformer;)Landroidx/graphics/shapes/Cubic;
+    invoke-virtual {v3, p1}, Landroidx/graphics/shapes/Cubic;->transformed(Landroidx/graphics/shapes/PointTransformer;)Landroidx/graphics/shapes/Cubic;
 
     .line 33
     .line 34
@@ -307,8 +278,7 @@ return-void
     move-result-object v3
 
     .line 36
-    invoke-virtual {v0, v3}, Le1/b;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v3}, Le1/b;->add(Ljava/lang/Object;)Z
 
     .line 37
     .line 38
@@ -321,8 +291,7 @@ return-void
 
     .line 42
     :cond_0
-    invoke-static {v0}, Lcom/bumptech/glide/b;
-    ->e(Le1/b;)Le1/b;
+    invoke-static {v0}, Lcom/bumptech/glide/b;->e(Le1/b;)Le1/b;
 
     .line 43
     .line 44
@@ -330,13 +299,11 @@ return-void
     move-result-object v4
 
     .line 46
-    iget-wide v0, p0, Landroidx/graphics/shapes/Feature$Corner;
-    ->vertex:J
+    iget-wide v0, p0, Landroidx/graphics/shapes/Feature$Corner;->vertex:J
 
     .line 47
     .line 48
-    invoke-static {v0, v1, p1}, Landroidx/graphics/shapes/PointKt;
-    ->transformed-so9K2fw(JLandroidx/graphics/shapes/PointTransformer;)J
+    invoke-static {v0, v1, p1}, Landroidx/graphics/shapes/PointKt;->transformed-so9K2fw(JLandroidx/graphics/shapes/PointTransformer;)J
 
     .line 49
     .line 50
@@ -344,13 +311,11 @@ return-void
     move-result-wide v5
 
     .line 52
-    iget-wide v0, p0, Landroidx/graphics/shapes/Feature$Corner;
-    ->roundedCenter:J
+    iget-wide v0, p0, Landroidx/graphics/shapes/Feature$Corner;->roundedCenter:J
 
     .line 53
     .line 54
-    invoke-static {v0, v1, p1}, Landroidx/graphics/shapes/PointKt;
-    ->transformed-so9K2fw(JLandroidx/graphics/shapes/PointTransformer;)J
+    invoke-static {v0, v1, p1}, Landroidx/graphics/shapes/PointKt;->transformed-so9K2fw(JLandroidx/graphics/shapes/PointTransformer;)J
 
     .line 55
     .line 56
@@ -358,8 +323,7 @@ return-void
     move-result-wide v7
 
     .line 58
-    iget-boolean v9, p0, Landroidx/graphics/shapes/Feature$Corner;
-    ->convex:Z
+    iget-boolean v9, p0, Landroidx/graphics/shapes/Feature$Corner;->convex:Z
 
     .line 59
     .line 60
@@ -370,8 +334,7 @@ return-void
     const/4 v10, 0x0
 
     .line 63
-    invoke-direct/range {v3 .. v10}, Landroidx/graphics/shapes/Feature$Corner;
-    -><init>(Ljava/util/List;JJZLkotlin/jvm/internal/e;)V
+    invoke-direct/range {v3 .. v10}, Landroidx/graphics/shapes/Feature$Corner;-><init>(Ljava/util/List;JJZLkotlin/jvm/internal/e;)V
     return-object v3
 .end method
 

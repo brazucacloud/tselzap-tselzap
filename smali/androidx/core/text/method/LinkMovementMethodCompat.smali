@@ -12,8 +12,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/text/method/LinkMovementMethod;
-    -><init>()V
+    invoke-direct {p0}, Landroid/text/method/LinkMovementMethod;-><init>()V
 
     .line 2
     .line 3
@@ -27,8 +26,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/core/text/method/LinkMovementMethodCompat;
-    ->sInstance:Landroidx/core/text/method/LinkMovementMethodCompat;
+    sget-object v0, Landroidx/core/text/method/LinkMovementMethodCompat;->sInstance:Landroidx/core/text/method/LinkMovementMethodCompat;
 
     .line 2
     .line 3
@@ -40,20 +38,17 @@
 
     .line 6
     .line 7
-    invoke-direct {v0}, Landroidx/core/text/method/LinkMovementMethodCompat;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/core/text/method/LinkMovementMethodCompat;-><init>()V
 
     .line 8
     .line 9
     .line 10
-    sput-object v0, Landroidx/core/text/method/LinkMovementMethodCompat;
-    ->sInstance:Landroidx/core/text/method/LinkMovementMethodCompat;
+    sput-object v0, Landroidx/core/text/method/LinkMovementMethodCompat;->sInstance:Landroidx/core/text/method/LinkMovementMethodCompat;
 
     .line 11
     .line 12
     :cond_0
-    sget-object v0, Landroidx/core/text/method/LinkMovementMethodCompat;
-    ->sInstance:Landroidx/core/text/method/LinkMovementMethodCompat;
+    sget-object v0, Landroidx/core/text/method/LinkMovementMethodCompat;->sInstance:Landroidx/core/text/method/LinkMovementMethodCompat;
 
     .line 13
     .line 14
@@ -83,8 +78,7 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Landroidx/core/os/BuildCompat;
-    ->isAtLeastV()Z
+    invoke-static {}, Landroidx/core/os/BuildCompat;->isAtLeastV()Z
 
     .line 2
     .line 3
@@ -96,8 +90,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p3}, Landroid/view/MotionEvent;
-    ->getAction()I
+    invoke-virtual {p3}, Landroid/view/MotionEvent;->getAction()I
 
     .line 8
     .line 9
@@ -117,8 +110,7 @@
     .line 15
     .line 16
     :cond_0
-    invoke-virtual {p3}, Landroid/view/MotionEvent;
-    ->getX()F
+    invoke-virtual {p3}, Landroid/view/MotionEvent;->getX()F
 
     .line 17
     .line 18
@@ -129,8 +121,7 @@
     float-to-int v0, v0
 
     .line 21
-    invoke-virtual {p3}, Landroid/view/MotionEvent;
-    ->getY()F
+    invoke-virtual {p3}, Landroid/view/MotionEvent;->getY()F
 
     .line 22
     .line 23
@@ -141,8 +132,7 @@
     float-to-int v1, v1
 
     .line 26
-    invoke-virtual {p1}, Landroid/widget/TextView;
-    ->getTotalPaddingLeft()I
+    invoke-virtual {p1}, Landroid/widget/TextView;->getTotalPaddingLeft()I
 
     .line 27
     .line 28
@@ -153,8 +143,7 @@
     sub-int/2addr v0, v2
 
     .line 31
-    invoke-virtual {p1}, Landroid/widget/TextView;
-    ->getTotalPaddingTop()I
+    invoke-virtual {p1}, Landroid/widget/TextView;->getTotalPaddingTop()I
 
     .line 32
     .line 33
@@ -165,8 +154,7 @@
     sub-int/2addr v1, v2
 
     .line 36
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getScrollX()I
+    invoke-virtual {p1}, Landroid/view/View;->getScrollX()I
 
     .line 37
     .line 38
@@ -177,8 +165,7 @@
     add-int/2addr v2, v0
 
     .line 41
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getScrollY()I
+    invoke-virtual {p1}, Landroid/view/View;->getScrollY()I
 
     .line 42
     .line 43
@@ -189,8 +176,7 @@
     add-int/2addr v0, v1
 
     .line 46
-    invoke-virtual {p1}, Landroid/widget/TextView;
-    ->getLayout()Landroid/text/Layout;
+    invoke-virtual {p1}, Landroid/widget/TextView;->getLayout()Landroid/text/Layout;
 
     .line 47
     .line 48
@@ -202,8 +188,7 @@
 
     .line 51
     .line 52
-    invoke-virtual {v1}, Landroid/text/Layout;
-    ->getHeight()I
+    invoke-virtual {v1}, Landroid/text/Layout;->getHeight()I
 
     .line 53
     .line 54
@@ -219,8 +204,7 @@
 
     .line 59
     :cond_1
-    invoke-virtual {v1, v0}, Landroid/text/Layout;
-    ->getLineForVertical(I)I
+    invoke-virtual {v1, v0}, Landroid/text/Layout;->getLineForVertical(I)I
 
     .line 60
     .line 61
@@ -231,8 +215,7 @@
     int-to-float v2, v2
 
     .line 64
-    invoke-virtual {v1, v0}, Landroid/text/Layout;
-    ->getLineLeft(I)F
+    invoke-virtual {v1, v0}, Landroid/text/Layout;->getLineLeft(I)F
 
     .line 65
     .line 66
@@ -248,8 +231,7 @@
 
     .line 71
     .line 72
-    invoke-virtual {v1, v0}, Landroid/text/Layout;
-    ->getLineRight(I)F
+    invoke-virtual {v1, v0}, Landroid/text/Layout;->getLineRight(I)F
 
     .line 73
     .line 74
@@ -267,14 +249,12 @@
     .line 80
     :cond_2
     :goto_0
-    invoke-static {p2}, Landroid/text/Selection;
-    ->removeSelection(Landroid/text/Spannable;)V
+    invoke-static {p2}, Landroid/text/Selection;->removeSelection(Landroid/text/Spannable;)V
 
     .line 81
     .line 82
     .line 83
-    invoke-static {p1, p2, p3}, Landroid/text/method/Touch;
-    ->onTouchEvent(Landroid/widget/TextView;Landroid/text/Spannable;Landroid/view/MotionEvent;)Z
+    invoke-static {p1, p2, p3}, Landroid/text/method/Touch;->onTouchEvent(Landroid/widget/TextView;Landroid/text/Spannable;Landroid/view/MotionEvent;)Z
 
     .line 84
     .line 85
@@ -285,8 +265,7 @@
 
     .line 88
     :cond_3
-    invoke-super {p0, p1, p2, p3}, Landroid/text/method/LinkMovementMethod;
-    ->onTouchEvent(Landroid/widget/TextView;Landroid/text/Spannable;Landroid/view/MotionEvent;)Z
+    invoke-super {p0, p1, p2, p3}, Landroid/text/method/LinkMovementMethod;->onTouchEvent(Landroid/widget/TextView;Landroid/text/Spannable;Landroid/view/MotionEvent;)Z
 
     .line 89
     .line 90

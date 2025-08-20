@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/util/RangeKt;
-    ->toClosedRange(Landroid/util/Range;)Lu1/d;
+    value = Landroidx/core/util/RangeKt;->toClosedRange(Landroid/util/Range;)Lu1/d;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -48,13 +47,11 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/core/util/RangeKt$toClosedRange$1;
-    ->$this_toClosedRange:Landroid/util/Range;
+    iput-object p1, p0, Landroidx/core/util/RangeKt$toClosedRange$1;->$this_toClosedRange:Landroid/util/Range;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
@@ -77,14 +74,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-interface {p0}, Lu1/d;
-    ->getStart()Ljava/lang/Comparable;
+    invoke-interface {p0}, Lu1/d;->getStart()Ljava/lang/Comparable;
 
     .line 7
     .line 8
@@ -92,8 +87,7 @@
     move-result-object v0
 
     .line 10
-    invoke-interface {p1, v0}, Ljava/lang/Comparable;
-    ->compareTo(Ljava/lang/Object;)I
+    invoke-interface {p1, v0}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
 
     .line 11
     .line 12
@@ -105,8 +99,7 @@
 
     .line 15
     .line 16
-    invoke-interface {p0}, Lu1/d;
-    ->getEndInclusive()Ljava/lang/Comparable;
+    invoke-interface {p0}, Lu1/d;->getEndInclusive()Ljava/lang/Comparable;
 
     .line 17
     .line 18
@@ -114,8 +107,7 @@
     move-result-object v0
 
     .line 20
-    invoke-interface {p1, v0}, Ljava/lang/Comparable;
-    ->compareTo(Ljava/lang/Object;)I
+    invoke-interface {p1, v0}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
 
     .line 21
     .line 22
@@ -147,13 +139,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/util/RangeKt$toClosedRange$1;
-    ->$this_toClosedRange:Landroid/util/Range;
+    iget-object v0, p0, Landroidx/core/util/RangeKt$toClosedRange$1;->$this_toClosedRange:Landroid/util/Range;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/util/Range;
-    ->getUpper()Ljava/lang/Comparable;
+    invoke-virtual {v0}, Landroid/util/Range;->getUpper()Ljava/lang/Comparable;
 
     .line 4
     .line 5
@@ -172,13 +162,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/util/RangeKt$toClosedRange$1;
-    ->$this_toClosedRange:Landroid/util/Range;
+    iget-object v0, p0, Landroidx/core/util/RangeKt$toClosedRange$1;->$this_toClosedRange:Landroid/util/Range;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/util/Range;
-    ->getLower()Ljava/lang/Comparable;
+    invoke-virtual {v0}, Landroid/util/Range;->getLower()Ljava/lang/Comparable;
 
     .line 4
     .line 5
@@ -192,8 +180,7 @@
     .locals 2
 
     .line 1
-    invoke-interface {p0}, Lu1/d;
-    ->getStart()Ljava/lang/Comparable;
+    invoke-interface {p0}, Lu1/d;->getStart()Ljava/lang/Comparable;
 
     .line 2
     .line 3
@@ -201,8 +188,7 @@
     move-result-object v0
 
     .line 5
-    invoke-interface {p0}, Lu1/d;
-    ->getEndInclusive()Ljava/lang/Comparable;
+    invoke-interface {p0}, Lu1/d;->getEndInclusive()Ljava/lang/Comparable;
 
     .line 6
     .line 7
@@ -210,8 +196,7 @@
     move-result-object v1
 
     .line 9
-    invoke-interface {v0, v1}, Ljava/lang/Comparable;
-    ->compareTo(Ljava/lang/Object;)I
+    invoke-interface {v0, v1}, Ljava/lang/Comparable;->compareTo(Ljava/lang/Object;)I
 
     .line 10
     .line 11

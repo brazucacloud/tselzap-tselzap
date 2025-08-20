@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/app/ActivityRecreator;
-    ->recreate(Landroid/app/Activity;)Z
+    value = Landroidx/core/app/ActivityRecreator;->recreate(Landroid/app/Activity;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -34,18 +33,15 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/core/app/ActivityRecreator$1;
-    ->val$callbacks:Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;
+    iput-object p1, p0, Landroidx/core/app/ActivityRecreator$1;->val$callbacks:Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/core/app/ActivityRecreator$1;
-    ->val$token:Ljava/lang/Object;
+    iput-object p2, p0, Landroidx/core/app/ActivityRecreator$1;->val$token:Ljava/lang/Object;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 6
     .line 7
@@ -59,18 +55,15 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/ActivityRecreator$1;
-    ->val$callbacks:Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;
+    iget-object v0, p0, Landroidx/core/app/ActivityRecreator$1;->val$callbacks:Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/core/app/ActivityRecreator$1;
-    ->val$token:Ljava/lang/Object;
+    iget-object v1, p0, Landroidx/core/app/ActivityRecreator$1;->val$token:Ljava/lang/Object;
 
     .line 4
     .line 5
-    iput-object v1, v0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;
-    ->currentlyRecreatingToken:Ljava/lang/Object;
+    iput-object v1, v0, Landroidx/core/app/ActivityRecreator$LifecycleCheckCallbacks;->currentlyRecreatingToken:Ljava/lang/Object;
 
     .line 6
     .line 7

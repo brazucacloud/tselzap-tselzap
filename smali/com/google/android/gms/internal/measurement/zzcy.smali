@@ -12,8 +12,7 @@
     .locals 2
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -37,8 +36,7 @@
 
     .line 11
     :goto_0
-    sput v0, Lcom/google/android/gms/internal/measurement/zzcy;
-    ->zza:I
+    sput v0, Lcom/google/android/gms/internal/measurement/zzcy;->zza:I
 
     .line 12
     .line 13
@@ -52,8 +50,7 @@
     const/4 p1, 0x0
 
     .line 2
-    invoke-static {p0, p1, p2, p3}, Landroid/app/PendingIntent;
-    ->getBroadcast(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
+    invoke-static {p0, p1, p2, p3}, Landroid/app/PendingIntent;->getBroadcast(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
 
     .line 3
     .line 4

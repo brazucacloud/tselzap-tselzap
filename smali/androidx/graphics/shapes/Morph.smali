@@ -39,11 +39,9 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/graphics/shapes/Morph$Companion;
-    -><init>(Lkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v1}, Landroidx/graphics/shapes/Morph$Companion;-><init>(Lkotlin/jvm/internal/e;)V
 
-    sput-object v0, Landroidx/graphics/shapes/Morph;
-    ->Companion:Landroidx/graphics/shapes/Morph$Companion;
+    sput-object v0, Landroidx/graphics/shapes/Morph;->Companion:Landroidx/graphics/shapes/Morph$Companion;
 
     return-void
 .end method
@@ -56,8 +54,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -66,35 +63,29 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 12
     .line 13
     .line 14
-    iput-object p1, p0, Landroidx/graphics/shapes/Morph;
-    ->start:Landroidx/graphics/shapes/RoundedPolygon;
+    iput-object p1, p0, Landroidx/graphics/shapes/Morph;->start:Landroidx/graphics/shapes/RoundedPolygon;
 
     .line 15
     .line 16
-    iput-object p2, p0, Landroidx/graphics/shapes/Morph;
-    ->end:Landroidx/graphics/shapes/RoundedPolygon;
+    iput-object p2, p0, Landroidx/graphics/shapes/Morph;->end:Landroidx/graphics/shapes/RoundedPolygon;
 
     .line 17
     .line 18
-    sget-object v0, Landroidx/graphics/shapes/Morph;
-    ->Companion:Landroidx/graphics/shapes/Morph$Companion;
+    sget-object v0, Landroidx/graphics/shapes/Morph;->Companion:Landroidx/graphics/shapes/Morph$Companion;
 
     .line 19
     .line 20
-    invoke-virtual {v0, p1, p2}, Landroidx/graphics/shapes/Morph$Companion;
-    ->match$graphics_shapes_release(Landroidx/graphics/shapes/RoundedPolygon;Landroidx/graphics/shapes/RoundedPolygon;)Ljava/util/List;
+    invoke-virtual {v0, p1, p2}, Landroidx/graphics/shapes/Morph$Companion;->match$graphics_shapes_release(Landroidx/graphics/shapes/RoundedPolygon;Landroidx/graphics/shapes/RoundedPolygon;)Ljava/util/List;
 
     .line 21
     .line 22
@@ -102,8 +93,7 @@
     move-result-object p1
 
     .line 24
-    iput-object p1, p0, Landroidx/graphics/shapes/Morph;
-    ->_morphMatch:Ljava/util/List;    
+    iput-object p1, p0, Landroidx/graphics/shapes/Morph;->_morphMatch:Ljava/util/List;
     return-void
 .end method
 
@@ -139,8 +129,7 @@
 
     .line 13
     :cond_1
-    invoke-virtual {p0, p1, p2}, Landroidx/graphics/shapes/Morph;
-    ->calculateBounds([FZ)[F
+    invoke-virtual {p0, p1, p2}, Landroidx/graphics/shapes/Morph;->calculateBounds([FZ)[F
 
     .line 14
     .line 15
@@ -170,8 +159,7 @@
     .line 7
     .line 8
     :cond_0
-    invoke-virtual {p0, p1}, Landroidx/graphics/shapes/Morph;
-    ->calculateMaxBounds([F)[F
+    invoke-virtual {p0, p1}, Landroidx/graphics/shapes/Morph;->calculateMaxBounds([F)[F
 
     .line 9
     .line 10
@@ -197,8 +185,7 @@
 
     .line 6
     .line 7
-    invoke-direct {p2}, Landroidx/graphics/shapes/MutableCubic;
-    -><init>()V
+    invoke-direct {p2}, Landroidx/graphics/shapes/MutableCubic;-><init>()V
 
     .line 8
     .line 9
@@ -208,8 +195,7 @@
 
     .line 11
     .line 12
-    invoke-static {p2, p4}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p4}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 13
     .line 14
@@ -218,14 +204,12 @@
 
     .line 16
     .line 17
-    invoke-static {p3, p4}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p4}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 18
     .line 19
     .line 20
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Morph;
-    ->getMorphMatch()Ljava/util/List;
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Morph;->getMorphMatch()Ljava/util/List;
 
     .line 21
     .line 22
@@ -233,8 +217,7 @@
     move-result-object p4
 
     .line 24
-    invoke-interface {p4}, Ljava/util/List;
-    ->size()I
+    invoke-interface {p4}, Ljava/util/List;->size()I
 
     .line 25
     .line 26
@@ -250,8 +233,7 @@
 
     .line 30
     .line 31
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Morph;
-    ->getMorphMatch()Ljava/util/List;
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Morph;->getMorphMatch()Ljava/util/List;
 
     .line 32
     .line 33
@@ -259,8 +241,7 @@
     move-result-object v0
 
     .line 35
-    invoke-interface {v0, p5}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v0, p5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 36
     .line 37
@@ -272,8 +253,7 @@
 
     .line 40
     .line 41
-    iget-object v0, v0, Lc1/f;
-    ->b:Ljava/lang/Object;
+    iget-object v0, v0, Lc1/f;->b:Ljava/lang/Object;
 
     .line 42
     .line 43
@@ -281,8 +261,7 @@
 
     .line 44
     .line 45
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Morph;
-    ->getMorphMatch()Ljava/util/List;
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Morph;->getMorphMatch()Ljava/util/List;
 
     .line 46
     .line 47
@@ -290,8 +269,7 @@
     move-result-object v1
 
     .line 49
-    invoke-interface {v1, p5}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v1, p5}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 50
     .line 51
@@ -303,8 +281,7 @@
 
     .line 54
     .line 55
-    iget-object v1, v1, Lc1/f;
-    ->c:Ljava/lang/Object;
+    iget-object v1, v1, Lc1/f;->c:Ljava/lang/Object;
 
     .line 56
     .line 57
@@ -312,14 +289,12 @@
 
     .line 58
     .line 59
-    invoke-virtual {p2, v0, v1, p1}, Landroidx/graphics/shapes/MutableCubic;
-    ->interpolate(Landroidx/graphics/shapes/Cubic;Landroidx/graphics/shapes/Cubic;F)V
+    invoke-virtual {p2, v0, v1, p1}, Landroidx/graphics/shapes/MutableCubic;->interpolate(Landroidx/graphics/shapes/Cubic;Landroidx/graphics/shapes/Cubic;F)V
 
     .line 60
     .line 61
     .line 62
-    invoke-interface {p3, p2}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, p2}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 63
     .line 64
@@ -355,11 +330,9 @@
         }
     .end annotation
 
-    sget-object v0, Landroidx/graphics/shapes/Morph;
-    ->Companion:Landroidx/graphics/shapes/Morph$Companion;
+    sget-object v0, Landroidx/graphics/shapes/Morph;->Companion:Landroidx/graphics/shapes/Morph$Companion;
 
-    invoke-virtual {v0, p0, p1}, Landroidx/graphics/shapes/Morph$Companion;
-    ->match$graphics_shapes_release(Landroidx/graphics/shapes/RoundedPolygon;Landroidx/graphics/shapes/RoundedPolygon;)Ljava/util/List;
+    invoke-virtual {v0, p0, p1}, Landroidx/graphics/shapes/Morph$Companion;->match$graphics_shapes_release(Landroidx/graphics/shapes/RoundedPolygon;Landroidx/graphics/shapes/RoundedPolygon;)Ljava/util/List;
 
     move-result-object p0
 
@@ -388,19 +361,16 @@
 
     .line 4
     .line 5
-    invoke-direct {v1}, Le1/b;
-    -><init>()V
+    invoke-direct {v1}, Le1/b;-><init>()V
 
     .line 6
     .line 7
     .line 8
-    iget-object v2, v0, Landroidx/graphics/shapes/Morph;
-    ->_morphMatch:Ljava/util/List;
+    iget-object v2, v0, Landroidx/graphics/shapes/Morph;->_morphMatch:Ljava/util/List;
 
     .line 9
     .line 10
-    invoke-interface {v2}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v2}, Ljava/util/List;->size()I
 
     .line 11
     .line 12
@@ -441,13 +411,11 @@
 
     .line 26
     .line 27
-    iget-object v10, v0, Landroidx/graphics/shapes/Morph;
-    ->_morphMatch:Ljava/util/List;
+    iget-object v10, v0, Landroidx/graphics/shapes/Morph;->_morphMatch:Ljava/util/List;
 
     .line 28
     .line 29
-    invoke-interface {v10, v6}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v10, v6}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 30
     .line 31
@@ -459,8 +427,7 @@
 
     .line 34
     .line 35
-    iget-object v10, v10, Lc1/f;
-    ->b:Ljava/lang/Object;
+    iget-object v10, v10, Lc1/f;->b:Ljava/lang/Object;
 
     .line 36
     .line 37
@@ -468,8 +435,7 @@
 
     .line 38
     .line 39
-    invoke-virtual {v10}, Landroidx/graphics/shapes/Cubic;
-    ->getPoints$graphics_shapes_release()[F
+    invoke-virtual {v10}, Landroidx/graphics/shapes/Cubic;->getPoints$graphics_shapes_release()[F
 
     .line 40
     .line 41
@@ -481,13 +447,11 @@
 
     .line 44
     .line 45
-    iget-object v11, v0, Landroidx/graphics/shapes/Morph;
-    ->_morphMatch:Ljava/util/List;
+    iget-object v11, v0, Landroidx/graphics/shapes/Morph;->_morphMatch:Ljava/util/List;
 
     .line 46
     .line 47
-    invoke-interface {v11, v6}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v11, v6}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 48
     .line 49
@@ -499,8 +463,7 @@
 
     .line 52
     .line 53
-    iget-object v11, v11, Lc1/f;
-    ->c:Ljava/lang/Object;
+    iget-object v11, v11, Lc1/f;->c:Ljava/lang/Object;
 
     .line 54
     .line 55
@@ -508,8 +471,7 @@
 
     .line 56
     .line 57
-    invoke-virtual {v11}, Landroidx/graphics/shapes/Cubic;
-    ->getPoints$graphics_shapes_release()[F
+    invoke-virtual {v11}, Landroidx/graphics/shapes/Cubic;->getPoints$graphics_shapes_release()[F
 
     .line 58
     .line 59
@@ -525,8 +487,7 @@
 
     .line 64
     .line 65
-    invoke-static {v10, v11, v12}, Landroidx/graphics/shapes/Utils;
-    ->interpolate(FFF)F
+    invoke-static {v10, v11, v12}, Landroidx/graphics/shapes/Utils;->interpolate(FFF)F
 
     .line 66
     .line 67
@@ -554,8 +515,7 @@
 
     .line 77
     .line 78
-    invoke-direct {v7, v8}, Landroidx/graphics/shapes/Cubic;
-    -><init>([F)V
+    invoke-direct {v7, v8}, Landroidx/graphics/shapes/Cubic;-><init>([F)V
 
     .line 79
     .line 80
@@ -572,8 +532,7 @@
 
     .line 85
     .line 86
-    invoke-virtual {v1, v4}, Le1/b;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v4}, Le1/b;->add(Ljava/lang/Object;)Z
 
     .line 87
     .line 88
@@ -598,8 +557,7 @@
 
     .line 96
     .line 97
-    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;
-    ->getAnchor0X()F
+    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;->getAnchor0X()F
 
     .line 98
     .line 99
@@ -607,8 +565,7 @@
     move-result v8
 
     .line 101
-    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;
-    ->getAnchor0Y()F
+    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;->getAnchor0Y()F
 
     .line 102
     .line 103
@@ -616,8 +573,7 @@
     move-result v9
 
     .line 105
-    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;
-    ->getControl0X()F
+    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;->getControl0X()F
 
     .line 106
     .line 107
@@ -625,8 +581,7 @@
     move-result v10
 
     .line 109
-    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;
-    ->getControl0Y()F
+    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;->getControl0Y()F
 
     .line 110
     .line 111
@@ -634,8 +589,7 @@
     move-result v11
 
     .line 113
-    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;
-    ->getControl1X()F
+    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;->getControl1X()F
 
     .line 114
     .line 115
@@ -643,8 +597,7 @@
     move-result v12
 
     .line 117
-    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;
-    ->getControl1Y()F
+    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;->getControl1Y()F
 
     .line 118
     .line 119
@@ -652,8 +605,7 @@
     move-result v13
 
     .line 121
-    invoke-virtual {v5}, Landroidx/graphics/shapes/Cubic;
-    ->getAnchor0X()F
+    invoke-virtual {v5}, Landroidx/graphics/shapes/Cubic;->getAnchor0X()F
 
     .line 122
     .line 123
@@ -661,8 +613,7 @@
     move-result v14
 
     .line 125
-    invoke-virtual {v5}, Landroidx/graphics/shapes/Cubic;
-    ->getAnchor0Y()F
+    invoke-virtual {v5}, Landroidx/graphics/shapes/Cubic;->getAnchor0Y()F
 
     .line 126
     .line 127
@@ -670,8 +621,7 @@
     move-result v15
 
     .line 129
-    invoke-static/range {v8 .. v15}, Landroidx/graphics/shapes/CubicKt;
-    ->Cubic(FFFFFFFF)Landroidx/graphics/shapes/Cubic;
+    invoke-static/range {v8 .. v15}, Landroidx/graphics/shapes/CubicKt;->Cubic(FFFFFFFF)Landroidx/graphics/shapes/Cubic;
 
     .line 130
     .line 131
@@ -679,15 +629,13 @@
     move-result-object v2
 
     .line 133
-    invoke-virtual {v1, v2}, Le1/b;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v2}, Le1/b;->add(Ljava/lang/Object;)Z
 
     .line 134
     .line 135
     .line 136
     :cond_4
-    invoke-static {v1}, Lcom/bumptech/glide/b;
-    ->e(Le1/b;)Le1/b;
+    invoke-static {v1}, Lcom/bumptech/glide/b;->e(Le1/b;)Le1/b;
 
     .line 137
     .line 138
@@ -707,8 +655,7 @@
 
     const/4 v2, 0x0
 
-    invoke-static {p0, v2, v0, v1, v2}, Landroidx/graphics/shapes/Morph;
-    ->calculateBounds$default(Landroidx/graphics/shapes/Morph;[FZILjava/lang/Object;)[F
+    invoke-static {p0, v2, v0, v1, v2}, Landroidx/graphics/shapes/Morph;->calculateBounds$default(Landroidx/graphics/shapes/Morph;[FZILjava/lang/Object;)[F
 
     move-result-object v0
 
@@ -721,8 +668,7 @@
     .line 2
     const-string v0, "bounds"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x2
 
@@ -730,8 +676,7 @@
 
     const/4 v2, 0x0
 
-    invoke-static {p0, p1, v2, v0, v1}, Landroidx/graphics/shapes/Morph;
-    ->calculateBounds$default(Landroidx/graphics/shapes/Morph;[FZILjava/lang/Object;)[F
+    invoke-static {p0, p1, v2, v0, v1}, Landroidx/graphics/shapes/Morph;->calculateBounds$default(Landroidx/graphics/shapes/Morph;[FZILjava/lang/Object;)[F
 
     move-result-object p1
 
@@ -743,15 +688,12 @@
 
     const-string v0, "bounds"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
-    iget-object v0, p0, Landroidx/graphics/shapes/Morph;
-    ->start:Landroidx/graphics/shapes/RoundedPolygon;
+    iget-object v0, p0, Landroidx/graphics/shapes/Morph;->start:Landroidx/graphics/shapes/RoundedPolygon;
 
-    invoke-virtual {v0, p1, p2}, Landroidx/graphics/shapes/RoundedPolygon;
-    ->calculateBounds([FZ)[F
+    invoke-virtual {v0, p1, p2}, Landroidx/graphics/shapes/RoundedPolygon;->calculateBounds([FZ)[F
 
     const/4 v0, 0x0
 
@@ -774,17 +716,14 @@
     aget v7, p1, v6
 
     .line 8
-    iget-object v8, p0, Landroidx/graphics/shapes/Morph;
-    ->end:Landroidx/graphics/shapes/RoundedPolygon;
+    iget-object v8, p0, Landroidx/graphics/shapes/Morph;->end:Landroidx/graphics/shapes/RoundedPolygon;
 
-    invoke-virtual {v8, p1, p2}, Landroidx/graphics/shapes/RoundedPolygon;
-    ->calculateBounds([FZ)[F
+    invoke-virtual {v8, p1, p2}, Landroidx/graphics/shapes/RoundedPolygon;->calculateBounds([FZ)[F
 
     .line 9
     aget p2, p1, v0
 
-    invoke-static {v1, p2}, Ljava/lang/Math;
-    ->min(FF)F
+    invoke-static {v1, p2}, Ljava/lang/Math;->min(FF)F
 
     move-result p2
 
@@ -793,8 +732,7 @@
     .line 10
     aget p2, p1, v2
 
-    invoke-static {v3, p2}, Ljava/lang/Math;
-    ->min(FF)F
+    invoke-static {v3, p2}, Ljava/lang/Math;->min(FF)F
 
     move-result p2
 
@@ -803,8 +741,7 @@
     .line 11
     aget p2, p1, v4
 
-    invoke-static {v5, p2}, Ljava/lang/Math;
-    ->max(FF)F
+    invoke-static {v5, p2}, Ljava/lang/Math;->max(FF)F
 
     move-result p2
 
@@ -813,8 +750,7 @@
     .line 12
     aget p2, p1, v6
 
-    invoke-static {v7, p2}, Ljava/lang/Math;
-    ->max(FF)F
+    invoke-static {v7, p2}, Ljava/lang/Math;->max(FF)F
 
     move-result p2
 
@@ -831,19 +767,16 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/graphics/shapes/Morph;
-    ->start:Landroidx/graphics/shapes/RoundedPolygon;
+    iget-object v0, p0, Landroidx/graphics/shapes/Morph;->start:Landroidx/graphics/shapes/RoundedPolygon;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Landroidx/graphics/shapes/RoundedPolygon;
-    ->calculateMaxBounds([F)[F
+    invoke-virtual {v0, p1}, Landroidx/graphics/shapes/RoundedPolygon;->calculateMaxBounds([F)[F
 
     .line 9
     .line 10
@@ -876,13 +809,11 @@
 
     .line 22
     .line 23
-    iget-object v8, p0, Landroidx/graphics/shapes/Morph;
-    ->end:Landroidx/graphics/shapes/RoundedPolygon;
+    iget-object v8, p0, Landroidx/graphics/shapes/Morph;->end:Landroidx/graphics/shapes/RoundedPolygon;
 
     .line 24
     .line 25
-    invoke-virtual {v8, p1}, Landroidx/graphics/shapes/RoundedPolygon;
-    ->calculateMaxBounds([F)[F
+    invoke-virtual {v8, p1}, Landroidx/graphics/shapes/RoundedPolygon;->calculateMaxBounds([F)[F
 
     .line 26
     .line 27
@@ -891,8 +822,7 @@
 
     .line 29
     .line 30
-    invoke-static {v1, v8}, Ljava/lang/Math;
-    ->min(FF)F
+    invoke-static {v1, v8}, Ljava/lang/Math;->min(FF)F
 
     .line 31
     .line 32
@@ -908,8 +838,7 @@
 
     .line 37
     .line 38
-    invoke-static {v3, v0}, Ljava/lang/Math;
-    ->min(FF)F
+    invoke-static {v3, v0}, Ljava/lang/Math;->min(FF)F
 
     .line 39
     .line 40
@@ -925,8 +854,7 @@
 
     .line 45
     .line 46
-    invoke-static {v5, v0}, Ljava/lang/Math;
-    ->max(FF)F
+    invoke-static {v5, v0}, Ljava/lang/Math;->max(FF)F
 
     .line 47
     .line 48
@@ -942,8 +870,7 @@
 
     .line 53
     .line 54
-    invoke-static {v7, v0}, Ljava/lang/Math;
-    ->max(FF)F
+    invoke-static {v7, v0}, Ljava/lang/Math;->max(FF)F
 
     .line 55
     .line 56
@@ -967,22 +894,18 @@
 
     const-string v0, "mutableCubic"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "callback"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Morph;
-    ->getMorphMatch()Ljava/util/List;
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Morph;->getMorphMatch()Ljava/util/List;
 
     move-result-object v0
 
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     move-result v0
 
@@ -992,50 +915,42 @@
     if-ge v1, v0, :cond_0
 
     .line 2
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Morph;
-    ->getMorphMatch()Ljava/util/List;
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Morph;->getMorphMatch()Ljava/util/List;
 
     move-result-object v2
 
-    invoke-interface {v2, v1}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v2, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lc1/f;
 
     .line 3
-    iget-object v2, v2, Lc1/f;
-    ->b:Ljava/lang/Object;
+    iget-object v2, v2, Lc1/f;->b:Ljava/lang/Object;
 
     .line 4
     check-cast v2, Landroidx/graphics/shapes/Cubic;
 
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Morph;
-    ->getMorphMatch()Ljava/util/List;
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Morph;->getMorphMatch()Ljava/util/List;
 
     move-result-object v3
 
-    invoke-interface {v3, v1}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v3, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lc1/f;
 
     .line 5
-    iget-object v3, v3, Lc1/f;
-    ->c:Ljava/lang/Object;
+    iget-object v3, v3, Lc1/f;->c:Ljava/lang/Object;
 
     .line 6
     check-cast v3, Landroidx/graphics/shapes/Cubic;
 
-    invoke-virtual {p2, v2, v3, p1}, Landroidx/graphics/shapes/MutableCubic;
-    ->interpolate(Landroidx/graphics/shapes/Cubic;Landroidx/graphics/shapes/Cubic;F)V
+    invoke-virtual {p2, v2, v3, p1}, Landroidx/graphics/shapes/MutableCubic;->interpolate(Landroidx/graphics/shapes/Cubic;Landroidx/graphics/shapes/Cubic;F)V
 
     .line 7
-    invoke-interface {p3, p2}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, p2}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     add-int/lit8 v1, v1, 0x1
 
@@ -1057,23 +972,19 @@
 
     const-string v0, "callback"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     new-instance v0, Landroidx/graphics/shapes/MutableCubic;
 
-    invoke-direct {v0}, Landroidx/graphics/shapes/MutableCubic;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/graphics/shapes/MutableCubic;-><init>()V
 
     .line 9
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Morph;
-    ->getMorphMatch()Ljava/util/List;
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Morph;->getMorphMatch()Ljava/util/List;
 
     move-result-object v1
 
-    invoke-interface {v1}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v1}, Ljava/util/List;->size()I
 
     move-result v1
 
@@ -1083,50 +994,42 @@
     if-ge v2, v1, :cond_0
 
     .line 10
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Morph;
-    ->getMorphMatch()Ljava/util/List;
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Morph;->getMorphMatch()Ljava/util/List;
 
     move-result-object v3
 
-    invoke-interface {v3, v2}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v3, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Lc1/f;
 
     .line 11
-    iget-object v3, v3, Lc1/f;
-    ->b:Ljava/lang/Object;
+    iget-object v3, v3, Lc1/f;->b:Ljava/lang/Object;
 
     .line 12
     check-cast v3, Landroidx/graphics/shapes/Cubic;
 
-    invoke-virtual {p0}, Landroidx/graphics/shapes/Morph;
-    ->getMorphMatch()Ljava/util/List;
+    invoke-virtual {p0}, Landroidx/graphics/shapes/Morph;->getMorphMatch()Ljava/util/List;
 
     move-result-object v4
 
-    invoke-interface {v4, v2}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v4, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v4
 
     check-cast v4, Lc1/f;
 
     .line 13
-    iget-object v4, v4, Lc1/f;
-    ->c:Ljava/lang/Object;
+    iget-object v4, v4, Lc1/f;->c:Ljava/lang/Object;
 
     .line 14
     check-cast v4, Landroidx/graphics/shapes/Cubic;
 
-    invoke-virtual {v0, v3, v4, p1}, Landroidx/graphics/shapes/MutableCubic;
-    ->interpolate(Landroidx/graphics/shapes/Cubic;Landroidx/graphics/shapes/Cubic;F)V
+    invoke-virtual {v0, v3, v4, p1}, Landroidx/graphics/shapes/MutableCubic;->interpolate(Landroidx/graphics/shapes/Cubic;Landroidx/graphics/shapes/Cubic;F)V
 
     .line 15
-    invoke-interface {p2, v0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     add-int/lit8 v2, v2, 0x1
 
@@ -1148,8 +1051,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/graphics/shapes/Morph;
-    ->_morphMatch:Ljava/util/List;    return-object v0
+    iget-object v0, p0, Landroidx/graphics/shapes/Morph;->_morphMatch:Ljava/util/List;    return-object v0
 .end method
 
 .end class

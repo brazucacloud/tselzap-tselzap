@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/fragment/app/FragmentLayoutInflaterFactory;
-    ->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
+    value = Landroidx/fragment/app/FragmentLayoutInflaterFactory;->onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -34,18 +33,15 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/fragment/app/FragmentLayoutInflaterFactory$1;
-    ->this$0:Landroidx/fragment/app/FragmentLayoutInflaterFactory;
+    iput-object p1, p0, Landroidx/fragment/app/FragmentLayoutInflaterFactory$1;->this$0:Landroidx/fragment/app/FragmentLayoutInflaterFactory;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/fragment/app/FragmentLayoutInflaterFactory$1;
-    ->val$fragmentStateManager:Landroidx/fragment/app/FragmentStateManager;
+    iput-object p2, p0, Landroidx/fragment/app/FragmentLayoutInflaterFactory$1;->val$fragmentStateManager:Landroidx/fragment/app/FragmentStateManager;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -55,13 +51,11 @@
     .locals 1
 
     .line 1
-    iget-object p1, p0, Landroidx/fragment/app/FragmentLayoutInflaterFactory$1;
-    ->val$fragmentStateManager:Landroidx/fragment/app/FragmentStateManager;
+    iget-object p1, p0, Landroidx/fragment/app/FragmentLayoutInflaterFactory$1;->val$fragmentStateManager:Landroidx/fragment/app/FragmentStateManager;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroidx/fragment/app/FragmentStateManager;
-    ->getFragment()Landroidx/fragment/app/Fragment;
+    invoke-virtual {p1}, Landroidx/fragment/app/FragmentStateManager;->getFragment()Landroidx/fragment/app/Fragment;
 
     .line 4
     .line 5
@@ -69,24 +63,20 @@
     move-result-object p1
 
     .line 7
-    iget-object v0, p0, Landroidx/fragment/app/FragmentLayoutInflaterFactory$1;
-    ->val$fragmentStateManager:Landroidx/fragment/app/FragmentStateManager;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentLayoutInflaterFactory$1;->val$fragmentStateManager:Landroidx/fragment/app/FragmentStateManager;
 
     .line 8
     .line 9
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentStateManager;
-    ->moveToExpectedState()V
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentStateManager;->moveToExpectedState()V
 
     .line 10
     .line 11
     .line 12
-    iget-object p1, p1, Landroidx/fragment/app/Fragment;
-    ->mView:Landroid/view/View;
+    iget-object p1, p1, Landroidx/fragment/app/Fragment;->mView:Landroid/view/View;
 
     .line 13
     .line 14
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getParent()Landroid/view/ViewParent;
+    invoke-virtual {p1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     .line 15
     .line 16
@@ -98,18 +88,15 @@
 
     .line 19
     .line 20
-    iget-object v0, p0, Landroidx/fragment/app/FragmentLayoutInflaterFactory$1;
-    ->this$0:Landroidx/fragment/app/FragmentLayoutInflaterFactory;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentLayoutInflaterFactory$1;->this$0:Landroidx/fragment/app/FragmentLayoutInflaterFactory;
 
     .line 21
     .line 22
-    iget-object v0, v0, Landroidx/fragment/app/FragmentLayoutInflaterFactory;
-    ->mFragmentManager:Landroidx/fragment/app/FragmentManager;
+    iget-object v0, v0, Landroidx/fragment/app/FragmentLayoutInflaterFactory;->mFragmentManager:Landroidx/fragment/app/FragmentManager;
 
     .line 23
     .line 24
-    invoke-static {p1, v0}, Landroidx/fragment/app/SpecialEffectsController;
-    ->getOrCreateController(Landroid/view/ViewGroup;Landroidx/fragment/app/FragmentManager;)Landroidx/fragment/app/SpecialEffectsController;
+    invoke-static {p1, v0}, Landroidx/fragment/app/SpecialEffectsController;->getOrCreateController(Landroid/view/ViewGroup;Landroidx/fragment/app/FragmentManager;)Landroidx/fragment/app/SpecialEffectsController;
 
     .line 25
     .line 26
@@ -117,8 +104,7 @@
     move-result-object p1
 
     .line 28
-    invoke-virtual {p1}, Landroidx/fragment/app/SpecialEffectsController;
-    ->forceCompleteAllOperations()V
+    invoke-virtual {p1}, Landroidx/fragment/app/SpecialEffectsController;->forceCompleteAllOperations()V
     return-void
 .end method
 

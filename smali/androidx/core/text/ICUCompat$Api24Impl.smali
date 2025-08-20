@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -42,8 +41,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0}, Landroid/icu/util/ULocale;
-    ->addLikelySubtags(Landroid/icu/util/ULocale;)Landroid/icu/util/ULocale;
+    invoke-static {p0}, Landroid/icu/util/ULocale;->addLikelySubtags(Landroid/icu/util/ULocale;)Landroid/icu/util/ULocale;
 
     .line 4
     .line 5
@@ -59,8 +57,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroid/icu/util/ULocale;
-    ->forLocale(Ljava/util/Locale;)Landroid/icu/util/ULocale;
+    invoke-static {p0}, Landroid/icu/util/ULocale;->forLocale(Ljava/util/Locale;)Landroid/icu/util/ULocale;
 
     .line 2
     .line 3
@@ -80,8 +77,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/icu/util/ULocale;
-    ->getScript()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/icu/util/ULocale;->getScript()Ljava/lang/String;
 
     .line 4
     .line 5

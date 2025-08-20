@@ -18,8 +18,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;
-    -><init>(Lcom/google/android/gms/common/api/internal/LifecycleFragment;)V
+    invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;-><init>(Lcom/google/android/gms/common/api/internal/LifecycleFragment;)V
 
     .line 2
     .line 3
@@ -28,19 +27,16 @@
 
     .line 5
     .line 6
-    invoke-direct {p1}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zaa;
-    ->zaa:Ljava/util/List;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zaa;->zaa:Ljava/util/List;
 
     .line 10
     .line 11
-    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/LifecycleCallback;
-    ->mLifecycleFragment:Lcom/google/android/gms/common/api/internal/LifecycleFragment;
+    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->mLifecycleFragment:Lcom/google/android/gms/common/api/internal/LifecycleFragment;
 
     .line 12
     .line 13
@@ -48,8 +44,7 @@
 
     .line 14
     .line 15
-    invoke-interface {p1, v0, p0}, Lcom/google/android/gms/common/api/internal/LifecycleFragment;
-    ->addCallback(Ljava/lang/String;Lcom/google/android/gms/common/api/internal/LifecycleCallback;)V
+    invoke-interface {p1, v0, p0}, Lcom/google/android/gms/common/api/internal/LifecycleFragment;->addCallback(Ljava/lang/String;Lcom/google/android/gms/common/api/internal/LifecycleCallback;)V
 
     .line 16
     .line 17
@@ -65,8 +60,7 @@
 
     .line 2
     :try_start_0
-    invoke-static {p0}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;
-    ->getFragment(Landroid/app/Activity;)Lcom/google/android/gms/common/api/internal/LifecycleFragment;
+    invoke-static {p0}, Lcom/google/android/gms/common/api/internal/LifecycleCallback;->getFragment(Landroid/app/Activity;)Lcom/google/android/gms/common/api/internal/LifecycleFragment;
 
     .line 3
     .line 4
@@ -82,8 +76,7 @@
 
     .line 9
     .line 10
-    invoke-interface {v0, v1, v2}, Lcom/google/android/gms/common/api/internal/LifecycleFragment;
-    ->getCallbackOrNull(Ljava/lang/String;Ljava/lang/Class;)Lcom/google/android/gms/common/api/internal/LifecycleCallback;
+    invoke-interface {v0, v1, v2}, Lcom/google/android/gms/common/api/internal/LifecycleFragment;->getCallbackOrNull(Ljava/lang/String;Ljava/lang/Class;)Lcom/google/android/gms/common/api/internal/LifecycleCallback;
 
     .line 11
     .line 12
@@ -103,8 +96,7 @@
 
     .line 19
     .line 20
-    invoke-direct {v1, v0}, Lcom/google/android/gms/common/api/internal/zaa;
-    -><init>(Lcom/google/android/gms/common/api/internal/LifecycleFragment;)V
+    invoke-direct {v1, v0}, Lcom/google/android/gms/common/api/internal/zaa;-><init>(Lcom/google/android/gms/common/api/internal/LifecycleFragment;)V
 
     .line 21
     .line 22
@@ -193,8 +185,7 @@
 .method public static bridge synthetic zab(Lcom/google/android/gms/common/api/internal/zaa;Ljava/lang/Runnable;)V
     .locals 0
 
-    invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/zaa;
-    ->zac(Ljava/lang/Runnable;)V
+    invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/zaa;->zac(Ljava/lang/Runnable;)V
 return-void
 .end method
 
@@ -206,13 +197,11 @@ return-void
 
     .line 2
     :try_start_0
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaa;
-    ->zaa:Ljava/util/List;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaa;->zaa:Ljava/util/List;
 
     .line 3
     .line 4
-    invoke-interface {v0, p1}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -265,8 +254,7 @@ return-void
 
     .line 2
     :try_start_0
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaa;
-    ->zaa:Ljava/util/List;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaa;->zaa:Ljava/util/List;
 
     .line 3
     .line 4
@@ -274,14 +262,12 @@ return-void
 
     .line 5
     .line 6
-    invoke-direct {v1}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v1, p0, Lcom/google/android/gms/common/api/internal/zaa;
-    ->zaa:Ljava/util/List;
+    iput-object v1, p0, Lcom/google/android/gms/common/api/internal/zaa;->zaa:Ljava/util/List;
 
     .line 10
     .line 11
@@ -290,8 +276,7 @@ return-void
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 12
-    invoke-interface {v0}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 13
     .line 14
@@ -300,8 +285,7 @@ return-void
 
     .line 16
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 17
     .line 18
@@ -313,8 +297,7 @@ return-void
 
     .line 21
     .line 22
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 23
     .line 24
@@ -326,8 +309,7 @@ return-void
 
     .line 27
     .line 28
-    invoke-interface {v1}, Ljava/lang/Runnable;
-    ->run()V
+    invoke-interface {v1}, Ljava/lang/Runnable;->run()V
 
     .line 29
     .line 30

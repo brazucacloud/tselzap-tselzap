@@ -19,8 +19,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -28,8 +27,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/fragment/app/SpecialEffectsController$Operation$State$Companion;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/fragment/app/SpecialEffectsController$Operation$State$Companion;-><init>()V
     return-void
 .end method
 
@@ -43,14 +41,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getAlpha()F
+    invoke-virtual {p1}, Landroid/view/View;->getAlpha()F
 
     .line 7
     .line 8
@@ -69,8 +65,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getVisibility()I
+    invoke-virtual {p1}, Landroid/view/View;->getVisibility()I
 
     .line 16
     .line 17
@@ -82,13 +77,11 @@
 
     .line 20
     .line 21
-    sget-object p1, Landroidx/fragment/app/SpecialEffectsController$Operation$State;
-    ->INVISIBLE:Landroidx/fragment/app/SpecialEffectsController$Operation$State;    return-object p1
+    sget-object p1, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->INVISIBLE:Landroidx/fragment/app/SpecialEffectsController$Operation$State;    return-object p1
 
     .line 24
     :cond_0
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getVisibility()I
+    invoke-virtual {p1}, Landroid/view/View;->getVisibility()I
 
     .line 25
     .line 26
@@ -96,8 +89,7 @@
     move-result p1
 
     .line 28
-    invoke-virtual {p0, p1}, Landroidx/fragment/app/SpecialEffectsController$Operation$State$Companion;
-    ->from(I)Landroidx/fragment/app/SpecialEffectsController$Operation$State;
+    invoke-virtual {p0, p1}, Landroidx/fragment/app/SpecialEffectsController$Operation$State$Companion;->from(I)Landroidx/fragment/app/SpecialEffectsController$Operation$State;
 
     .line 29
     .line 30
@@ -130,8 +122,7 @@
 
     .line 9
     .line 10
-    sget-object p1, Landroidx/fragment/app/SpecialEffectsController$Operation$State;
-    ->GONE:Landroidx/fragment/app/SpecialEffectsController$Operation$State;    return-object p1
+    sget-object p1, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->GONE:Landroidx/fragment/app/SpecialEffectsController$Operation$State;    return-object p1
 
     .line 13
     :cond_0
@@ -143,8 +134,7 @@
 
     .line 16
     .line 17
-    invoke-static {p1, v1}, LA/d;
-    ->c(ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {p1, v1}, LA/d;->c(ILjava/lang/String;)Ljava/lang/String;
 
     .line 18
     .line 19
@@ -152,8 +142,7 @@
     move-result-object p1
 
     .line 21
-    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 22
     .line 23
@@ -162,13 +151,11 @@
 
     .line 25
     :cond_1
-    sget-object p1, Landroidx/fragment/app/SpecialEffectsController$Operation$State;
-    ->INVISIBLE:Landroidx/fragment/app/SpecialEffectsController$Operation$State;    return-object p1
+    sget-object p1, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->INVISIBLE:Landroidx/fragment/app/SpecialEffectsController$Operation$State;    return-object p1
 
     .line 28
     :cond_2
-    sget-object p1, Landroidx/fragment/app/SpecialEffectsController$Operation$State;
-    ->VISIBLE:Landroidx/fragment/app/SpecialEffectsController$Operation$State;    return-object p1
+    sget-object p1, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->VISIBLE:Landroidx/fragment/app/SpecialEffectsController$Operation$State;    return-object p1
 .end method
 
 .end class

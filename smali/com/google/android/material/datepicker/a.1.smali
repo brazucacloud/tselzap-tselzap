@@ -15,11 +15,9 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Lcom/google/android/material/datepicker/a;
-    ->a:I
+    iput p1, p0, Lcom/google/android/material/datepicker/a;->a:I
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -29,8 +27,7 @@
     .locals 8
 
     .line 1
-    iget v0, p0, Lcom/google/android/material/datepicker/a;
-    ->a:I
+    iget v0, p0, Lcom/google/android/material/datepicker/a;->a:I
 
     .line 2
     .line 3
@@ -43,8 +40,7 @@
 
     .line 7
     .line 8
-    invoke-direct {v0, p1}, Landroid/view/View$BaseSavedState;
-    -><init>(Landroid/os/Parcel;)V
+    invoke-direct {v0, p1}, Landroid/view/View$BaseSavedState;-><init>(Landroid/os/Parcel;)V
 
     .line 9
     .line 10
@@ -53,8 +49,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {v1}, Ljava/lang/Class;
-    ->getClassLoader()Ljava/lang/ClassLoader;
+    invoke-virtual {v1}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
 
     .line 14
     .line 15
@@ -62,8 +57,7 @@
     move-result-object v1
 
     .line 17
-    invoke-virtual {p1, v1}, Landroid/os/Parcel;
-    ->readValue(Ljava/lang/ClassLoader;)Ljava/lang/Object;
+    invoke-virtual {p1, v1}, Landroid/os/Parcel;->readValue(Ljava/lang/ClassLoader;)Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -75,8 +69,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {p1}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     .line 24
     .line 25
@@ -84,8 +77,7 @@
     move-result p1
 
     .line 27
-    iput p1, v0, Lh0/b;
-    ->b:I
+    iput p1, v0, Lh0/b;->b:I
 
     .line 28
     .line 29
@@ -93,8 +85,7 @@
 
     .line 30
     :pswitch_0
-    invoke-virtual {p1}, Landroid/os/Parcel;
-    ->readInt()I
+    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     .line 31
     .line 32
@@ -102,8 +93,7 @@
     move-result v0
 
     .line 34
-    invoke-virtual {p1}, Landroid/os/Parcel;
-    ->readInt()I
+    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     .line 35
     .line 36
@@ -111,8 +101,7 @@
     move-result p1
 
     .line 38
-    invoke-static {v0, p1}, Lcom/google/android/material/datepicker/t;
-    ->a(II)Lcom/google/android/material/datepicker/t;
+    invoke-static {v0, p1}, Lcom/google/android/material/datepicker/t;->a(II)Lcom/google/android/material/datepicker/t;
 
     .line 39
     .line 40
@@ -127,8 +116,7 @@
 
     .line 44
     .line 45
-    invoke-virtual {p1}, Landroid/os/Parcel;
-    ->readLong()J
+    invoke-virtual {p1}, Landroid/os/Parcel;->readLong()J
 
     .line 46
     .line 47
@@ -136,8 +124,7 @@
     move-result-wide v1
 
     .line 49
-    invoke-direct {v0, v1, v2}, Lcom/google/android/material/datepicker/e;
-    -><init>(J)V
+    invoke-direct {v0, v1, v2}, Lcom/google/android/material/datepicker/e;-><init>(J)V
 
     .line 50
     .line 51
@@ -150,8 +137,7 @@
 
     .line 54
     .line 55
-    invoke-virtual {v0}, Ljava/lang/Class;
-    ->getClassLoader()Ljava/lang/ClassLoader;
+    invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
 
     .line 56
     .line 57
@@ -159,8 +145,7 @@
     move-result-object v1
 
     .line 59
-    invoke-virtual {p1, v1}, Landroid/os/Parcel;
-    ->readParcelable(Ljava/lang/ClassLoader;)Landroid/os/Parcelable;
+    invoke-virtual {p1, v1}, Landroid/os/Parcel;->readParcelable(Ljava/lang/ClassLoader;)Landroid/os/Parcelable;
 
     .line 60
     .line 61
@@ -175,8 +160,7 @@
 
     .line 65
     .line 66
-    invoke-virtual {v0}, Ljava/lang/Class;
-    ->getClassLoader()Ljava/lang/ClassLoader;
+    invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
 
     .line 67
     .line 68
@@ -184,8 +168,7 @@
     move-result-object v1
 
     .line 70
-    invoke-virtual {p1, v1}, Landroid/os/Parcel;
-    ->readParcelable(Ljava/lang/ClassLoader;)Landroid/os/Parcelable;
+    invoke-virtual {p1, v1}, Landroid/os/Parcel;->readParcelable(Ljava/lang/ClassLoader;)Landroid/os/Parcelable;
 
     .line 71
     .line 72
@@ -200,8 +183,7 @@
 
     .line 76
     .line 77
-    invoke-virtual {v0}, Ljava/lang/Class;
-    ->getClassLoader()Ljava/lang/ClassLoader;
+    invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
 
     .line 78
     .line 79
@@ -209,8 +191,7 @@
     move-result-object v0
 
     .line 81
-    invoke-virtual {p1, v0}, Landroid/os/Parcel;
-    ->readParcelable(Ljava/lang/ClassLoader;)Landroid/os/Parcelable;
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->readParcelable(Ljava/lang/ClassLoader;)Landroid/os/Parcelable;
 
     .line 82
     .line 83
@@ -229,8 +210,7 @@
 
     .line 89
     .line 90
-    invoke-virtual {v0}, Ljava/lang/Class;
-    ->getClassLoader()Ljava/lang/ClassLoader;
+    invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
 
     .line 91
     .line 92
@@ -238,8 +218,7 @@
     move-result-object v0
 
     .line 94
-    invoke-virtual {p1, v0}, Landroid/os/Parcel;
-    ->readParcelable(Ljava/lang/ClassLoader;)Landroid/os/Parcelable;
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->readParcelable(Ljava/lang/ClassLoader;)Landroid/os/Parcelable;
 
     .line 95
     .line 96
@@ -254,8 +233,7 @@
 
     .line 100
     .line 101
-    invoke-virtual {p1}, Landroid/os/Parcel;
-    ->readInt()I
+    invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     .line 102
     .line 103
@@ -267,8 +245,7 @@
 
     .line 106
     .line 107
-    invoke-direct/range {v2 .. v7}, Lcom/google/android/material/datepicker/c;
-    -><init>(Lcom/google/android/material/datepicker/t;Lcom/google/android/material/datepicker/t;Lcom/google/android/material/datepicker/e;Lcom/google/android/material/datepicker/t;I)V
+    invoke-direct/range {v2 .. v7}, Lcom/google/android/material/datepicker/c;-><init>(Lcom/google/android/material/datepicker/t;Lcom/google/android/material/datepicker/t;Lcom/google/android/material/datepicker/e;Lcom/google/android/material/datepicker/t;I)V
 
     .line 108
     .line 109
@@ -420,8 +397,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/google/android/material/datepicker/a;
-    ->a:I
+    iget v0, p0, Lcom/google/android/material/datepicker/a;->a:I
 
     .line 2
     .line 3

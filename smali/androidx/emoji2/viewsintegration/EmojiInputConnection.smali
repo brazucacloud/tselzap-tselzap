@@ -10,8 +10,7 @@
 
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -47,11 +46,9 @@
     .line 1
     new-instance v0, Landroidx/emoji2/viewsintegration/EmojiInputConnection$EmojiCompatDeleteHelper;
 
-    invoke-direct {v0}, Landroidx/emoji2/viewsintegration/EmojiInputConnection$EmojiCompatDeleteHelper;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/emoji2/viewsintegration/EmojiInputConnection$EmojiCompatDeleteHelper;-><init>()V
 
-    invoke-direct {p0, p1, p2, p3, v0}, Landroidx/emoji2/viewsintegration/EmojiInputConnection;
-    -><init>(Landroid/widget/TextView;Landroid/view/inputmethod/InputConnection;Landroid/view/inputmethod/EditorInfo;Landroidx/emoji2/viewsintegration/EmojiInputConnection$EmojiCompatDeleteHelper;)V
+    invoke-direct {p0, p1, p2, p3, v0}, Landroidx/emoji2/viewsintegration/EmojiInputConnection;-><init>(Landroid/widget/TextView;Landroid/view/inputmethod/InputConnection;Landroid/view/inputmethod/EditorInfo;Landroidx/emoji2/viewsintegration/EmojiInputConnection$EmojiCompatDeleteHelper;)V
 
     return-void
 .end method
@@ -78,20 +75,16 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, p2, v0}, Landroid/view/inputmethod/InputConnectionWrapper;
-    -><init>(Landroid/view/inputmethod/InputConnection;Z)V
+    invoke-direct {p0, p2, v0}, Landroid/view/inputmethod/InputConnectionWrapper;-><init>(Landroid/view/inputmethod/InputConnection;Z)V
 
     .line 3
-    iput-object p1, p0, Landroidx/emoji2/viewsintegration/EmojiInputConnection;
-    ->mTextView:Landroid/widget/TextView;
+    iput-object p1, p0, Landroidx/emoji2/viewsintegration/EmojiInputConnection;->mTextView:Landroid/widget/TextView;
 
     .line 4
-    iput-object p4, p0, Landroidx/emoji2/viewsintegration/EmojiInputConnection;
-    ->mEmojiCompatDeleteHelper:Landroidx/emoji2/viewsintegration/EmojiInputConnection$EmojiCompatDeleteHelper;
+    iput-object p4, p0, Landroidx/emoji2/viewsintegration/EmojiInputConnection;->mEmojiCompatDeleteHelper:Landroidx/emoji2/viewsintegration/EmojiInputConnection$EmojiCompatDeleteHelper;
 
     .line 5
-    invoke-virtual {p4, p3}, Landroidx/emoji2/viewsintegration/EmojiInputConnection$EmojiCompatDeleteHelper;
-    ->updateEditorInfoAttrs(Landroid/view/inputmethod/EditorInfo;)V
+    invoke-virtual {p4, p3}, Landroidx/emoji2/viewsintegration/EmojiInputConnection$EmojiCompatDeleteHelper;->updateEditorInfoAttrs(Landroid/view/inputmethod/EditorInfo;)V
 return-void
 .end method
 
@@ -99,13 +92,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiInputConnection;
-    ->mTextView:Landroid/widget/TextView;
+    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiInputConnection;->mTextView:Landroid/widget/TextView;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/widget/TextView;
-    ->getEditableText()Landroid/text/Editable;
+    invoke-virtual {v0}, Landroid/widget/TextView;->getEditableText()Landroid/text/Editable;
 
     .line 4
     .line 5
@@ -121,13 +112,11 @@ return-void
     .locals 6
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiInputConnection;
-    ->mEmojiCompatDeleteHelper:Landroidx/emoji2/viewsintegration/EmojiInputConnection$EmojiCompatDeleteHelper;
+    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiInputConnection;->mEmojiCompatDeleteHelper:Landroidx/emoji2/viewsintegration/EmojiInputConnection$EmojiCompatDeleteHelper;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/emoji2/viewsintegration/EmojiInputConnection;
-    ->getEditable()Landroid/text/Editable;
+    invoke-direct {p0}, Landroidx/emoji2/viewsintegration/EmojiInputConnection;->getEditable()Landroid/text/Editable;
 
     .line 4
     .line 5
@@ -147,8 +136,7 @@ return-void
     move v4, p2
 
     .line 11
-    invoke-virtual/range {v0 .. v5}, Landroidx/emoji2/viewsintegration/EmojiInputConnection$EmojiCompatDeleteHelper;
-    ->handleDeleteSurroundingText(Landroid/view/inputmethod/InputConnection;Landroid/text/Editable;IIZ)Z
+    invoke-virtual/range {v0 .. v5}, Landroidx/emoji2/viewsintegration/EmojiInputConnection$EmojiCompatDeleteHelper;->handleDeleteSurroundingText(Landroid/view/inputmethod/InputConnection;Landroid/text/Editable;IIZ)Z
 
     .line 12
     .line 13
@@ -160,8 +148,7 @@ return-void
 
     .line 16
     .line 17
-    invoke-super {p0, v3, v4}, Landroid/view/inputmethod/InputConnectionWrapper;
-    ->deleteSurroundingText(II)Z
+    invoke-super {p0, v3, v4}, Landroid/view/inputmethod/InputConnectionWrapper;->deleteSurroundingText(II)Z
 
     .line 18
     .line 19
@@ -193,13 +180,11 @@ return-void
     .locals 6
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiInputConnection;
-    ->mEmojiCompatDeleteHelper:Landroidx/emoji2/viewsintegration/EmojiInputConnection$EmojiCompatDeleteHelper;
+    iget-object v0, p0, Landroidx/emoji2/viewsintegration/EmojiInputConnection;->mEmojiCompatDeleteHelper:Landroidx/emoji2/viewsintegration/EmojiInputConnection$EmojiCompatDeleteHelper;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/emoji2/viewsintegration/EmojiInputConnection;
-    ->getEditable()Landroid/text/Editable;
+    invoke-direct {p0}, Landroidx/emoji2/viewsintegration/EmojiInputConnection;->getEditable()Landroid/text/Editable;
 
     .line 4
     .line 5
@@ -219,8 +204,7 @@ return-void
     move v4, p2
 
     .line 11
-    invoke-virtual/range {v0 .. v5}, Landroidx/emoji2/viewsintegration/EmojiInputConnection$EmojiCompatDeleteHelper;
-    ->handleDeleteSurroundingText(Landroid/view/inputmethod/InputConnection;Landroid/text/Editable;IIZ)Z
+    invoke-virtual/range {v0 .. v5}, Landroidx/emoji2/viewsintegration/EmojiInputConnection$EmojiCompatDeleteHelper;->handleDeleteSurroundingText(Landroid/view/inputmethod/InputConnection;Landroid/text/Editable;IIZ)Z
 
     .line 12
     .line 13
@@ -232,8 +216,7 @@ return-void
 
     .line 16
     .line 17
-    invoke-super {p0, v3, v4}, Landroid/view/inputmethod/InputConnectionWrapper;
-    ->deleteSurroundingTextInCodePoints(II)Z
+    invoke-super {p0, v3, v4}, Landroid/view/inputmethod/InputConnectionWrapper;->deleteSurroundingTextInCodePoints(II)Z
 
     .line 18
     .line 19

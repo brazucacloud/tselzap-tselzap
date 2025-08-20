@@ -14,20 +14,17 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
     .line 7
-    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzot;
-    ->zza:Lcom/google/android/gms/common/util/Clock;
+    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzot;->zza:Lcom/google/android/gms/common/util/Clock;
 
     .line 8
     .line 9
@@ -42,8 +39,7 @@
     const-wide/16 v0, 0x0
 
     .line 1
-    iput-wide v0, p0, Lcom/google/android/gms/measurement/internal/zzot;
-    ->zzb:J
+    iput-wide v0, p0, Lcom/google/android/gms/measurement/internal/zzot;->zzb:J
 
     return-void
 .end method
@@ -52,8 +48,7 @@
     .locals 4
 
     .line 2
-    iget-wide p1, p0, Lcom/google/android/gms/measurement/internal/zzot;
-    ->zzb:J
+    iget-wide p1, p0, Lcom/google/android/gms/measurement/internal/zzot;->zzb:J
 
     const-wide/16 v0, 0x0
 
@@ -67,16 +62,13 @@
 
     .line 3
     :cond_0
-    iget-object p1, p0, Lcom/google/android/gms/measurement/internal/zzot;
-    ->zza:Lcom/google/android/gms/common/util/Clock;
+    iget-object p1, p0, Lcom/google/android/gms/measurement/internal/zzot;->zza:Lcom/google/android/gms/common/util/Clock;
 
-    invoke-interface {p1}, Lcom/google/android/gms/common/util/Clock;
-    ->elapsedRealtime()J
+    invoke-interface {p1}, Lcom/google/android/gms/common/util/Clock;->elapsedRealtime()J
 
     move-result-wide p1
 
-    iget-wide v0, p0, Lcom/google/android/gms/measurement/internal/zzot;
-    ->zzb:J
+    iget-wide v0, p0, Lcom/google/android/gms/measurement/internal/zzot;->zzb:J
 
     sub-long/2addr p1, v0
 
@@ -98,13 +90,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzot;
-    ->zza:Lcom/google/android/gms/common/util/Clock;
+    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzot;->zza:Lcom/google/android/gms/common/util/Clock;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Lcom/google/android/gms/common/util/Clock;
-    ->elapsedRealtime()J
+    invoke-interface {v0}, Lcom/google/android/gms/common/util/Clock;->elapsedRealtime()J
 
     .line 4
     .line 5
@@ -112,8 +102,7 @@
     move-result-wide v0
 
     .line 7
-    iput-wide v0, p0, Lcom/google/android/gms/measurement/internal/zzot;
-    ->zzb:J
+    iput-wide v0, p0, Lcom/google/android/gms/measurement/internal/zzot;->zzb:J
 
     .line 8
     .line 9

@@ -20,20 +20,15 @@
 .method public synthetic constructor <init>(Lcom/google/android/gms/measurement/internal/zzoc;ILcom/google/android/gms/measurement/internal/zzhc;Landroid/content/Intent;)V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzoe;
-    ->zza:Lcom/google/android/gms/measurement/internal/zzoc;
+    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzoe;->zza:Lcom/google/android/gms/measurement/internal/zzoc;
 
-    iput p2, p0, Lcom/google/android/gms/measurement/internal/zzoe;
-    ->zzb:I
+    iput p2, p0, Lcom/google/android/gms/measurement/internal/zzoe;->zzb:I
 
-    iput-object p3, p0, Lcom/google/android/gms/measurement/internal/zzoe;
-    ->zzc:Lcom/google/android/gms/measurement/internal/zzhc;
+    iput-object p3, p0, Lcom/google/android/gms/measurement/internal/zzoe;->zzc:Lcom/google/android/gms/measurement/internal/zzhc;
 
-    iput-object p4, p0, Lcom/google/android/gms/measurement/internal/zzoe;
-    ->zzd:Landroid/content/Intent;
+    iput-object p4, p0, Lcom/google/android/gms/measurement/internal/zzoe;->zzd:Landroid/content/Intent;
 
     return-void
 .end method
@@ -43,20 +38,15 @@
 .method public final run()V
     .locals 4
 
-    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzoe;
-    ->zza:Lcom/google/android/gms/measurement/internal/zzoc;
+    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzoe;->zza:Lcom/google/android/gms/measurement/internal/zzoc;
 
-    iget v1, p0, Lcom/google/android/gms/measurement/internal/zzoe;
-    ->zzb:I
+    iget v1, p0, Lcom/google/android/gms/measurement/internal/zzoe;->zzb:I
 
-    iget-object v2, p0, Lcom/google/android/gms/measurement/internal/zzoe;
-    ->zzc:Lcom/google/android/gms/measurement/internal/zzhc;
+    iget-object v2, p0, Lcom/google/android/gms/measurement/internal/zzoe;->zzc:Lcom/google/android/gms/measurement/internal/zzhc;
 
-    iget-object v3, p0, Lcom/google/android/gms/measurement/internal/zzoe;
-    ->zzd:Landroid/content/Intent;
+    iget-object v3, p0, Lcom/google/android/gms/measurement/internal/zzoe;->zzd:Landroid/content/Intent;
 
-    invoke-static {v0, v1, v2, v3}, Lcom/google/android/gms/measurement/internal/zzoc;
-    ->zza(Lcom/google/android/gms/measurement/internal/zzoc;ILcom/google/android/gms/measurement/internal/zzhc;Landroid/content/Intent;)V
+    invoke-static {v0, v1, v2, v3}, Lcom/google/android/gms/measurement/internal/zzoc;->zza(Lcom/google/android/gms/measurement/internal/zzoc;ILcom/google/android/gms/measurement/internal/zzhc;Landroid/content/Intent;)V
 return-void
 .end method
 

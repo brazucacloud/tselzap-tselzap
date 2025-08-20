@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -38,8 +37,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/ContextWrapper;
-    ->getDisplay()Landroid/view/Display;
+    invoke-virtual {p0}, Landroid/content/ContextWrapper;->getDisplay()Landroid/view/Display;
 
     .line 2
     .line 3
@@ -78,8 +76,7 @@
 
     .line 5
     :cond_0
-    invoke-virtual {p1}, Landroidx/core/content/LocusIdCompat;
-    ->toLocusId()Landroid/content/LocusId;
+    invoke-virtual {p1}, Landroidx/core/content/LocusIdCompat;->toLocusId()Landroid/content/LocusId;
 
     .line 6
     .line 7
@@ -88,8 +85,7 @@
 
     .line 9
     :goto_0
-    invoke-virtual {p0, p1, p2}, Landroid/app/Activity;
-    ->setLocusContext(Landroid/content/LocusId;Landroid/os/Bundle;)V
+    invoke-virtual {p0, p1, p2}, Landroid/app/Activity;->setLocusContext(Landroid/content/LocusId;Landroid/os/Bundle;)V
 
     .line 10
     .line 11

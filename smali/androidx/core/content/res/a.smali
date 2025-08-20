@@ -19,17 +19,13 @@
     .locals 0
 
     .line 1
-    iput p3, p0, Landroidx/core/content/res/a;
-    ->b:I
+    iput p3, p0, Landroidx/core/content/res/a;->b:I
 
-    iput-object p1, p0, Landroidx/core/content/res/a;
-    ->d:Ljava/lang/Object;
+    iput-object p1, p0, Landroidx/core/content/res/a;->d:Ljava/lang/Object;
 
-    iput p2, p0, Landroidx/core/content/res/a;
-    ->c:I
+    iput p2, p0, Landroidx/core/content/res/a;->c:I
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -39,8 +35,7 @@
     .locals 4
 
     .line 1
-    iget v0, p0, Landroidx/core/content/res/a;
-    ->b:I
+    iget v0, p0, Landroidx/core/content/res/a;->b:I
 
     .line 2
     .line 3
@@ -49,8 +44,7 @@
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/core/content/res/a;
-    ->d:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/core/content/res/a;->d:Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -58,13 +52,11 @@
 
     .line 9
     .line 10
-    iget-object v1, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;
-    ->q:Ljava/lang/ref/WeakReference;
+    iget-object v1, v0, Lcom/google/android/material/sidesheet/SideSheetBehavior;->q:Ljava/lang/ref/WeakReference;
 
     .line 11
     .line 12
-    invoke-virtual {v1}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -83,13 +75,11 @@
     const/4 v2, 0x0
 
     .line 21
-    iget v3, p0, Landroidx/core/content/res/a;
-    ->c:I
+    iget v3, p0, Landroidx/core/content/res/a;->c:I
 
     .line 22
     .line 23
-    invoke-virtual {v0, v1, v3, v2}, Lcom/google/android/material/sidesheet/SideSheetBehavior;
-    ->h(Landroid/view/View;IZ)V
+    invoke-virtual {v0, v1, v3, v2}, Lcom/google/android/material/sidesheet/SideSheetBehavior;->h(Landroid/view/View;IZ)V
 
     .line 24
     .line 25
@@ -99,8 +89,7 @@
 
     .line 27
     :pswitch_0
-    iget-object v0, p0, Landroidx/core/content/res/a;
-    ->d:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/core/content/res/a;->d:Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -108,13 +97,11 @@
 
     .line 30
     .line 31
-    iget v1, p0, Landroidx/core/content/res/a;
-    ->c:I
+    iget v1, p0, Landroidx/core/content/res/a;->c:I
 
     .line 32
     .line 33
-    invoke-static {v0, v1}, Landroidx/core/content/res/ResourcesCompat$FontCallback;
-    ->b(Landroidx/core/content/res/ResourcesCompat$FontCallback;I)V
+    invoke-static {v0, v1}, Landroidx/core/content/res/ResourcesCompat$FontCallback;->b(Landroidx/core/content/res/ResourcesCompat$FontCallback;I)V
 
     .line 34
     .line 35

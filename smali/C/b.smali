@@ -21,14 +21,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, LC/b;
-    ->a:LC/b;
+    sput-object v0, LC/b;->a:LC/b;
 
     .line 7
     .line 8
@@ -36,14 +34,12 @@
 
     .line 9
     .line 10
-    invoke-direct {v0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     .line 11
     .line 12
     .line 13
-    sput-object v0, LC/b;
-    ->b:LC/a;
+    sput-object v0, LC/b;->b:LC/a;
 
     .line 14
     .line 15

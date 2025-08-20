@@ -30,13 +30,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/AbsActionBarView$VisibilityAnimListener;
-    ->this$0:Landroidx/appcompat/widget/AbsActionBarView;
+    iput-object p1, p0, Landroidx/appcompat/widget/AbsActionBarView$VisibilityAnimListener;->this$0:Landroidx/appcompat/widget/AbsActionBarView;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
@@ -44,8 +42,7 @@
     const/4 p1, 0x0
 
     .line 7
-    iput-boolean p1, p0, Landroidx/appcompat/widget/AbsActionBarView$VisibilityAnimListener;
-    ->mCanceled:Z
+    iput-boolean p1, p0, Landroidx/appcompat/widget/AbsActionBarView$VisibilityAnimListener;->mCanceled:Z
 return-void
 .end method
 
@@ -58,8 +55,7 @@ return-void
     const/4 p1, 0x1
 
     .line 2
-    iput-boolean p1, p0, Landroidx/appcompat/widget/AbsActionBarView$VisibilityAnimListener;
-    ->mCanceled:Z
+    iput-boolean p1, p0, Landroidx/appcompat/widget/AbsActionBarView$VisibilityAnimListener;->mCanceled:Z
 return-void
 .end method
 
@@ -67,8 +63,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-boolean p1, p0, Landroidx/appcompat/widget/AbsActionBarView$VisibilityAnimListener;
-    ->mCanceled:Z
+    iget-boolean p1, p0, Landroidx/appcompat/widget/AbsActionBarView$VisibilityAnimListener;->mCanceled:Z
 
     .line 2
     .line 3
@@ -76,26 +71,22 @@ return-void
 
     .line 6
     :cond_0
-    iget-object p1, p0, Landroidx/appcompat/widget/AbsActionBarView$VisibilityAnimListener;
-    ->this$0:Landroidx/appcompat/widget/AbsActionBarView;
+    iget-object p1, p0, Landroidx/appcompat/widget/AbsActionBarView$VisibilityAnimListener;->this$0:Landroidx/appcompat/widget/AbsActionBarView;
 
     .line 7
     .line 8
     const/4 v0, 0x0
 
     .line 9
-    iput-object v0, p1, Landroidx/appcompat/widget/AbsActionBarView;
-    ->mVisibilityAnim:Landroidx/core/view/ViewPropertyAnimatorCompat;
+    iput-object v0, p1, Landroidx/appcompat/widget/AbsActionBarView;->mVisibilityAnim:Landroidx/core/view/ViewPropertyAnimatorCompat;
 
     .line 10
     .line 11
-    iget v0, p0, Landroidx/appcompat/widget/AbsActionBarView$VisibilityAnimListener;
-    ->mFinalVisibility:I
+    iget v0, p0, Landroidx/appcompat/widget/AbsActionBarView$VisibilityAnimListener;->mFinalVisibility:I
 
     .line 12
     .line 13
-    invoke-static {p1, v0}, Landroidx/appcompat/widget/AbsActionBarView;
-    ->access$101(Landroidx/appcompat/widget/AbsActionBarView;I)V    
+    invoke-static {p1, v0}, Landroidx/appcompat/widget/AbsActionBarView;->access$101(Landroidx/appcompat/widget/AbsActionBarView;I)V
     return-void
 .end method
 
@@ -103,22 +94,19 @@ return-void
     .locals 1
 
     .line 1
-    iget-object p1, p0, Landroidx/appcompat/widget/AbsActionBarView$VisibilityAnimListener;
-    ->this$0:Landroidx/appcompat/widget/AbsActionBarView;
+    iget-object p1, p0, Landroidx/appcompat/widget/AbsActionBarView$VisibilityAnimListener;->this$0:Landroidx/appcompat/widget/AbsActionBarView;
 
     .line 2
     .line 3
     const/4 v0, 0x0
 
     .line 4
-    invoke-static {p1, v0}, Landroidx/appcompat/widget/AbsActionBarView;
-    ->access$001(Landroidx/appcompat/widget/AbsActionBarView;I)V
+    invoke-static {p1, v0}, Landroidx/appcompat/widget/AbsActionBarView;->access$001(Landroidx/appcompat/widget/AbsActionBarView;I)V
 
     .line 5
     .line 6
     .line 7
-    iput-boolean v0, p0, Landroidx/appcompat/widget/AbsActionBarView$VisibilityAnimListener;
-    ->mCanceled:Z
+    iput-boolean v0, p0, Landroidx/appcompat/widget/AbsActionBarView$VisibilityAnimListener;->mCanceled:Z
 return-void
 .end method
 
@@ -126,18 +114,15 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AbsActionBarView$VisibilityAnimListener;
-    ->this$0:Landroidx/appcompat/widget/AbsActionBarView;
+    iget-object v0, p0, Landroidx/appcompat/widget/AbsActionBarView$VisibilityAnimListener;->this$0:Landroidx/appcompat/widget/AbsActionBarView;
 
     .line 2
     .line 3
-    iput-object p1, v0, Landroidx/appcompat/widget/AbsActionBarView;
-    ->mVisibilityAnim:Landroidx/core/view/ViewPropertyAnimatorCompat;
+    iput-object p1, v0, Landroidx/appcompat/widget/AbsActionBarView;->mVisibilityAnim:Landroidx/core/view/ViewPropertyAnimatorCompat;
 
     .line 4
     .line 5
-    iput p2, p0, Landroidx/appcompat/widget/AbsActionBarView$VisibilityAnimListener;
-    ->mFinalVisibility:I    
+    iput p2, p0, Landroidx/appcompat/widget/AbsActionBarView$VisibilityAnimListener;->mFinalVisibility:I
     return-object p0
 .end method
 

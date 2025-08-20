@@ -22,8 +22,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -37,14 +36,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Ljava/lang/Thread;
-    -><init>(Ljava/lang/Runnable;)V
+    invoke-direct {v0, p1}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {v0}, Ljava/lang/Thread;
-    ->start()V
+    invoke-virtual {v0}, Ljava/lang/Thread;->start()V
     return-void
 .end method
 

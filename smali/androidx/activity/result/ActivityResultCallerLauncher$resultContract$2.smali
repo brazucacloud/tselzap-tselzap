@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/activity/result/ActivityResultCallerLauncher;
-    -><init>(Landroidx/activity/result/ActivityResultLauncher;Landroidx/activity/result/contract/ActivityResultContract;Ljava/lang/Object;)V
+    value = Landroidx/activity/result/ActivityResultCallerLauncher;-><init>(Landroidx/activity/result/ActivityResultLauncher;Landroidx/activity/result/contract/ActivityResultContract;Ljava/lang/Object;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -40,13 +39,11 @@
         }
     .end annotation
 
-    iput-object p1, p0, Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2;
-    ->this$0:Landroidx/activity/result/ActivityResultCallerLauncher;
+    iput-object p1, p0, Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2;->this$0:Landroidx/activity/result/ActivityResultCallerLauncher;
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
-    -><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
 return-void
 .end method
 
@@ -58,11 +55,9 @@ return-void
     .line 2
     new-instance v0, Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1;
 
-    iget-object v1, p0, Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2;
-    ->this$0:Landroidx/activity/result/ActivityResultCallerLauncher;
+    iget-object v1, p0, Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2;->this$0:Landroidx/activity/result/ActivityResultCallerLauncher;
 
-    invoke-direct {v0, v1}, Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1;
-    -><init>(Landroidx/activity/result/ActivityResultCallerLauncher;)V
+    invoke-direct {v0, v1}, Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1;-><init>(Landroidx/activity/result/ActivityResultCallerLauncher;)V
 return-object v0
 .end method
 
@@ -70,8 +65,7 @@ return-object v0
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2;
-    ->invoke()Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1;
+    invoke-virtual {p0}, Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2;->invoke()Landroidx/activity/result/ActivityResultCallerLauncher$resultContract$2$1;
 
     move-result-object v0
 

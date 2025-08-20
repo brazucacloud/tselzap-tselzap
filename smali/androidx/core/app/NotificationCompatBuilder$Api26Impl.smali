@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -42,8 +41,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Landroid/app/Notification$Builder;
-    -><init>(Landroid/content/Context;Ljava/lang/String;)V
+    invoke-direct {v0, p0, p1}, Landroid/app/Notification$Builder;-><init>(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -57,8 +55,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;
-    ->setBadgeIconType(I)Landroid/app/Notification$Builder;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;->setBadgeIconType(I)Landroid/app/Notification$Builder;
 
     .line 2
     .line 3
@@ -74,8 +71,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;
-    ->setColorized(Z)Landroid/app/Notification$Builder;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;->setColorized(Z)Landroid/app/Notification$Builder;
 
     .line 2
     .line 3
@@ -91,8 +87,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;
-    ->setGroupAlertBehavior(I)Landroid/app/Notification$Builder;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;->setGroupAlertBehavior(I)Landroid/app/Notification$Builder;
 
     .line 2
     .line 3
@@ -108,8 +103,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;
-    ->setSettingsText(Ljava/lang/CharSequence;)Landroid/app/Notification$Builder;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;->setSettingsText(Ljava/lang/CharSequence;)Landroid/app/Notification$Builder;
 
     .line 2
     .line 3
@@ -125,8 +119,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;
-    ->setShortcutId(Ljava/lang/String;)Landroid/app/Notification$Builder;
+    invoke-virtual {p0, p1}, Landroid/app/Notification$Builder;->setShortcutId(Ljava/lang/String;)Landroid/app/Notification$Builder;
 
     .line 2
     .line 3
@@ -142,8 +135,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/app/Notification$Builder;
-    ->setTimeoutAfter(J)Landroid/app/Notification$Builder;
+    invoke-virtual {p0, p1, p2}, Landroid/app/Notification$Builder;->setTimeoutAfter(J)Landroid/app/Notification$Builder;
 
     .line 2
     .line 3

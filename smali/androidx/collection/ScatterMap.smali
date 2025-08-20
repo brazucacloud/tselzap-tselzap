@@ -39,26 +39,20 @@
     .locals 1
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 3
-    sget-object v0, Landroidx/collection/ScatterMapKt;
-    ->EmptyGroup:[J
+    sget-object v0, Landroidx/collection/ScatterMapKt;->EmptyGroup:[J
 
-    iput-object v0, p0, Landroidx/collection/ScatterMap;
-    ->metadata:[J
+    iput-object v0, p0, Landroidx/collection/ScatterMap;->metadata:[J
 
     .line 4
-    sget-object v0, Landroidx/collection/internal/ContainerHelpersKt;
-    ->EMPTY_OBJECTS:[Ljava/lang/Object;
+    sget-object v0, Landroidx/collection/internal/ContainerHelpersKt;->EMPTY_OBJECTS:[Ljava/lang/Object;
 
-    iput-object v0, p0, Landroidx/collection/ScatterMap;
-    ->keys:[Ljava/lang/Object;
+    iput-object v0, p0, Landroidx/collection/ScatterMap;->keys:[Ljava/lang/Object;
 
     .line 5
-    iput-object v0, p0, Landroidx/collection/ScatterMap;
-    ->values:[Ljava/lang/Object;
+    iput-object v0, p0, Landroidx/collection/ScatterMap;->values:[Ljava/lang/Object;
 
     return-void
 .end method
@@ -67,8 +61,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/collection/ScatterMap;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/collection/ScatterMap;-><init>()V
     return-void
 .end method
 
@@ -197,8 +190,7 @@
     move-object p2, p0
 
     .line 44
-    invoke-virtual/range {p2 .. p8}, Landroidx/collection/ScatterMap;
-    ->joinToString(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lp1/p;)Ljava/lang/String;
+    invoke-virtual/range {p2 .. p8}, Landroidx/collection/ScatterMap;->joinToString(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lp1/p;)Ljava/lang/String;
 
     .line 45
     .line 46
@@ -217,8 +209,7 @@
 
     .line 52
     .line 53
-    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
 
     .line 54
     .line 55
@@ -250,24 +241,20 @@
 
     .line 6
     .line 7
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    iget-object v2, v0, Landroidx/collection/ScatterMap;
-    ->keys:[Ljava/lang/Object;
+    iget-object v2, v0, Landroidx/collection/ScatterMap;->keys:[Ljava/lang/Object;
 
     .line 11
     .line 12
-    iget-object v3, v0, Landroidx/collection/ScatterMap;
-    ->values:[Ljava/lang/Object;
+    iget-object v3, v0, Landroidx/collection/ScatterMap;->values:[Ljava/lang/Object;
 
     .line 13
     .line 14
-    iget-object v4, v0, Landroidx/collection/ScatterMap;
-    ->metadata:[J
+    iget-object v4, v0, Landroidx/collection/ScatterMap;->metadata:[J
 
     .line 15
     .line 16
@@ -384,8 +371,7 @@
 
     .line 66
     .line 67
-    invoke-interface {v1, v14, v13}, Lp1/p;
-    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v14, v13}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 68
     .line 69
@@ -397,8 +383,7 @@
 
     .line 72
     .line 73
-    invoke-virtual {v13}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {v13}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 74
     .line 75
@@ -447,8 +432,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/collection/ScatterMap;
-    ->_size:I
+    iget v0, p0, Landroidx/collection/ScatterMap;->_size:I
 
     if-eqz v0, :cond_0
 
@@ -478,20 +462,16 @@
 
     const-string v2, "predicate"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    iget-object v2, v0, Landroidx/collection/ScatterMap;
-    ->keys:[Ljava/lang/Object;
+    iget-object v2, v0, Landroidx/collection/ScatterMap;->keys:[Ljava/lang/Object;
 
     .line 3
-    iget-object v3, v0, Landroidx/collection/ScatterMap;
-    ->values:[Ljava/lang/Object;
+    iget-object v3, v0, Landroidx/collection/ScatterMap;->values:[Ljava/lang/Object;
 
     .line 4
-    iget-object v4, v0, Landroidx/collection/ScatterMap;
-    ->metadata:[J
+    iget-object v4, v0, Landroidx/collection/ScatterMap;->metadata:[J
 
     .line 5
     array-length v5, v4
@@ -559,15 +539,13 @@
     aget-object v13, v3, v13
 
     .line 8
-    invoke-interface {v1, v14, v13}, Lp1/p;
-    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v14, v13}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v13
 
     check-cast v13, Ljava/lang/Boolean;
 
-    invoke-virtual {v13}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {v13}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v13
 
@@ -610,14 +588,12 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p0}, Landroidx/collection/ScatterMap;
-    ->getCapacity()I
+    invoke-virtual {p0}, Landroidx/collection/ScatterMap;->getCapacity()I
 
     .line 9
     .line 10
@@ -640,8 +616,7 @@
 
     .line 17
     .line 18
-    iget-object v5, p0, Landroidx/collection/ScatterMap;
-    ->metadata:[J
+    iget-object v5, p0, Landroidx/collection/ScatterMap;->metadata:[J
 
     .line 19
     .line 20
@@ -688,8 +663,7 @@
 
     .line 40
     .line 41
-    invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 42
     .line 43
@@ -714,8 +688,7 @@
 
     .line 52
     .line 53
-    invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 54
     .line 55
@@ -724,15 +697,13 @@
 
     .line 57
     :cond_1
-    invoke-virtual {v0, v5, v6}, Ljava/lang/StringBuilder;
-    ->append(J)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v5, v6}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
     .line 58
     .line 59
     .line 60
     :goto_1
-    invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 61
     .line 62
@@ -749,14 +720,12 @@
 
     .line 67
     .line 68
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 69
     .line 70
     .line 71
-    iget-object v1, p0, Landroidx/collection/ScatterMap;
-    ->keys:[Ljava/lang/Object;
+    iget-object v1, p0, Landroidx/collection/ScatterMap;->keys:[Ljava/lang/Object;
 
     .line 72
     .line 73
@@ -771,8 +740,7 @@
 
     .line 76
     .line 77
-    iget-object v5, p0, Landroidx/collection/ScatterMap;
-    ->keys:[Ljava/lang/Object;
+    iget-object v5, p0, Landroidx/collection/ScatterMap;->keys:[Ljava/lang/Object;
 
     .line 78
     .line 79
@@ -780,14 +748,12 @@
 
     .line 80
     .line 81
-    invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 82
     .line 83
     .line 84
-    invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 85
     .line 86
@@ -804,14 +770,12 @@
 
     .line 91
     .line 92
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 93
     .line 94
     .line 95
-    iget-object v1, p0, Landroidx/collection/ScatterMap;
-    ->values:[Ljava/lang/Object;
+    iget-object v1, p0, Landroidx/collection/ScatterMap;->values:[Ljava/lang/Object;
 
     .line 96
     .line 97
@@ -823,8 +787,7 @@
 
     .line 99
     .line 100
-    iget-object v3, p0, Landroidx/collection/ScatterMap;
-    ->values:[Ljava/lang/Object;
+    iget-object v3, p0, Landroidx/collection/ScatterMap;->values:[Ljava/lang/Object;
 
     .line 101
     .line 102
@@ -832,14 +795,12 @@
 
     .line 103
     .line 104
-    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 105
     .line 106
     .line 107
-    invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 108
     .line 109
@@ -856,14 +817,12 @@
 
     .line 114
     .line 115
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 116
     .line 117
     .line 118
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 119
     .line 120
@@ -875,8 +834,7 @@
 
     .line 123
     .line 124
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
     return-object v0
 .end method
 
@@ -895,8 +853,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/collection/ScatterMap$MapWrapper;
-    -><init>(Landroidx/collection/ScatterMap;)V
+    invoke-direct {v0, p0}, Landroidx/collection/ScatterMap$MapWrapper;-><init>(Landroidx/collection/ScatterMap;)V
 return-object v0
 .end method
 
@@ -924,8 +881,7 @@ return-object v0
 
     .line 7
     .line 8
-    invoke-virtual {v1}, Ljava/lang/Object;
-    ->hashCode()I
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
 
     .line 9
     .line 10
@@ -961,8 +917,7 @@ return-object v0
 
     .line 23
     .line 24
-    iget v5, v0, Landroidx/collection/ScatterMap;
-    ->_capacity:I
+    iget v5, v0, Landroidx/collection/ScatterMap;->_capacity:I
 
     .line 25
     .line 26
@@ -977,8 +932,7 @@ return-object v0
 
     .line 30
     :goto_1
-    iget-object v7, v0, Landroidx/collection/ScatterMap;
-    ->metadata:[J
+    iget-object v7, v0, Landroidx/collection/ScatterMap;->metadata:[J
 
     .line 31
     .line 32
@@ -1088,8 +1042,7 @@ return-object v0
 
     .line 80
     .line 81
-    invoke-static {v9, v10}, Ljava/lang/Long;
-    ->numberOfTrailingZeros(J)I
+    invoke-static {v9, v10}, Ljava/lang/Long;->numberOfTrailingZeros(J)I
 
     .line 82
     .line 83
@@ -1107,8 +1060,7 @@ return-object v0
     and-int/2addr v11, v5
 
     .line 89
-    iget-object v15, v0, Landroidx/collection/ScatterMap;
-    ->keys:[Ljava/lang/Object;
+    iget-object v15, v0, Landroidx/collection/ScatterMap;->keys:[Ljava/lang/Object;
 
     .line 90
     .line 91
@@ -1116,8 +1068,7 @@ return-object v0
 
     .line 92
     .line 93
-    invoke-static {v15, v1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v15, v1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 94
     .line 95
@@ -1219,8 +1170,7 @@ return-object v0
 
     .line 7
     .line 8
-    invoke-virtual {v1}, Ljava/lang/Object;
-    ->hashCode()I
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
 
     .line 9
     .line 10
@@ -1256,8 +1206,7 @@ return-object v0
 
     .line 23
     .line 24
-    iget v5, v0, Landroidx/collection/ScatterMap;
-    ->_capacity:I
+    iget v5, v0, Landroidx/collection/ScatterMap;->_capacity:I
 
     .line 25
     .line 26
@@ -1272,8 +1221,7 @@ return-object v0
 
     .line 30
     :goto_1
-    iget-object v7, v0, Landroidx/collection/ScatterMap;
-    ->metadata:[J
+    iget-object v7, v0, Landroidx/collection/ScatterMap;->metadata:[J
 
     .line 31
     .line 32
@@ -1383,8 +1331,7 @@ return-object v0
 
     .line 80
     .line 81
-    invoke-static {v9, v10}, Ljava/lang/Long;
-    ->numberOfTrailingZeros(J)I
+    invoke-static {v9, v10}, Ljava/lang/Long;->numberOfTrailingZeros(J)I
 
     .line 82
     .line 83
@@ -1402,8 +1349,7 @@ return-object v0
     and-int/2addr v11, v5
 
     .line 89
-    iget-object v15, v0, Landroidx/collection/ScatterMap;
-    ->keys:[Ljava/lang/Object;
+    iget-object v15, v0, Landroidx/collection/ScatterMap;->keys:[Ljava/lang/Object;
 
     .line 90
     .line 91
@@ -1411,8 +1357,7 @@ return-object v0
 
     .line 92
     .line 93
-    invoke-static {v15, v1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v15, v1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 94
     .line 95
@@ -1503,13 +1448,11 @@ return-object v0
 
     .line 2
     .line 3
-    iget-object v1, v0, Landroidx/collection/ScatterMap;
-    ->values:[Ljava/lang/Object;
+    iget-object v1, v0, Landroidx/collection/ScatterMap;->values:[Ljava/lang/Object;
 
     .line 4
     .line 5
-    iget-object v2, v0, Landroidx/collection/ScatterMap;
-    ->metadata:[J
+    iget-object v2, v0, Landroidx/collection/ScatterMap;->metadata:[J
 
     .line 6
     .line 7
@@ -1626,8 +1569,7 @@ return-object v0
 
     .line 57
     .line 58
-    invoke-static {v12, v11}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v12, v11}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 59
     .line 60
@@ -1697,8 +1639,7 @@ return-object v0
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/collection/ScatterMap;
-    ->getSize()I
+    invoke-virtual {p0}, Landroidx/collection/ScatterMap;->getSize()I
 
     move-result v0
 
@@ -1721,20 +1662,16 @@ return-object v0
 
     const-string v2, "predicate"
 
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    iget-object v2, v0, Landroidx/collection/ScatterMap;
-    ->keys:[Ljava/lang/Object;
+    iget-object v2, v0, Landroidx/collection/ScatterMap;->keys:[Ljava/lang/Object;
 
     .line 3
-    iget-object v3, v0, Landroidx/collection/ScatterMap;
-    ->values:[Ljava/lang/Object;
+    iget-object v3, v0, Landroidx/collection/ScatterMap;->values:[Ljava/lang/Object;
 
     .line 4
-    iget-object v4, v0, Landroidx/collection/ScatterMap;
-    ->metadata:[J
+    iget-object v4, v0, Landroidx/collection/ScatterMap;->metadata:[J
 
     .line 5
     array-length v5, v4
@@ -1804,15 +1741,13 @@ return-object v0
     aget-object v14, v3, v14
 
     .line 8
-    invoke-interface {v1, v15, v14}, Lp1/p;
-    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v15, v14}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v14
 
     check-cast v14, Ljava/lang/Boolean;
 
-    invoke-virtual {v14}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {v14}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result v14
 
@@ -1884,8 +1819,7 @@ return-object v0
 
     .line 16
     .line 17
-    invoke-virtual {v1}, Landroidx/collection/ScatterMap;
-    ->getSize()I
+    invoke-virtual {v1}, Landroidx/collection/ScatterMap;->getSize()I
 
     .line 18
     .line 19
@@ -1893,8 +1827,7 @@ return-object v0
     move-result v3
 
     .line 21
-    invoke-virtual {v0}, Landroidx/collection/ScatterMap;
-    ->getSize()I
+    invoke-virtual {v0}, Landroidx/collection/ScatterMap;->getSize()I
 
     .line 22
     .line 23
@@ -1906,18 +1839,15 @@ return-object v0
 
     .line 28
     :cond_2
-    iget-object v3, v0, Landroidx/collection/ScatterMap;
-    ->keys:[Ljava/lang/Object;
+    iget-object v3, v0, Landroidx/collection/ScatterMap;->keys:[Ljava/lang/Object;
 
     .line 29
     .line 30
-    iget-object v5, v0, Landroidx/collection/ScatterMap;
-    ->values:[Ljava/lang/Object;
+    iget-object v5, v0, Landroidx/collection/ScatterMap;->values:[Ljava/lang/Object;
 
     .line 31
     .line 32
-    iget-object v6, v0, Landroidx/collection/ScatterMap;
-    ->metadata:[J
+    iget-object v6, v0, Landroidx/collection/ScatterMap;->metadata:[J
 
     .line 33
     .line 34
@@ -2035,8 +1965,7 @@ return-object v0
 
     .line 85
     .line 86
-    invoke-virtual {v1, v15}, Landroidx/collection/ScatterMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v15}, Landroidx/collection/ScatterMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 87
     .line 88
@@ -2048,8 +1977,7 @@ return-object v0
 
     .line 91
     .line 92
-    invoke-virtual {v1, v15}, Landroidx/collection/ScatterMap;
-    ->containsKey(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v15}, Landroidx/collection/ScatterMap;->containsKey(Ljava/lang/Object;)Z
 
     .line 93
     .line 94
@@ -2066,8 +1994,7 @@ return-object v0
 
     .line 99
     :cond_4
-    invoke-virtual {v1, v15}, Landroidx/collection/ScatterMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v15}, Landroidx/collection/ScatterMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 100
     .line 101
@@ -2075,8 +2002,7 @@ return-object v0
     move-result-object v15
 
     .line 103
-    invoke-virtual {v14, v15}, Ljava/lang/Object;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v14, v15}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     .line 104
     .line 105
@@ -2135,8 +2061,7 @@ return-object v0
 
     .line 3
     .line 4
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->hashCode()I
+    invoke-virtual {p1}, Ljava/lang/Object;->hashCode()I
 
     .line 5
     .line 6
@@ -2172,8 +2097,7 @@ return-object v0
 
     .line 19
     .line 20
-    iget v3, p0, Landroidx/collection/ScatterMap;
-    ->_capacity:I
+    iget v3, p0, Landroidx/collection/ScatterMap;->_capacity:I
 
     .line 21
     .line 22
@@ -2185,8 +2109,7 @@ return-object v0
     and-int/2addr v1, v3
 
     .line 25
-    iget-object v4, p0, Landroidx/collection/ScatterMap;
-    ->metadata:[J
+    iget-object v4, p0, Landroidx/collection/ScatterMap;->metadata:[J
 
     .line 26
     .line 27
@@ -2294,8 +2217,7 @@ return-object v0
 
     .line 75
     .line 76
-    invoke-static {v6, v7}, Ljava/lang/Long;
-    ->numberOfTrailingZeros(J)I
+    invoke-static {v6, v7}, Ljava/lang/Long;->numberOfTrailingZeros(J)I
 
     .line 77
     .line 78
@@ -2313,8 +2235,7 @@ return-object v0
     and-int/2addr v10, v3
 
     .line 84
-    iget-object v11, p0, Landroidx/collection/ScatterMap;
-    ->keys:[Ljava/lang/Object;
+    iget-object v11, p0, Landroidx/collection/ScatterMap;->keys:[Ljava/lang/Object;
 
     .line 85
     .line 86
@@ -2322,8 +2243,7 @@ return-object v0
 
     .line 87
     .line 88
-    invoke-static {v11, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v11, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 89
     .line 90
@@ -2411,24 +2331,20 @@ return-object v0
 
     .line 6
     .line 7
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    iget-object v2, v0, Landroidx/collection/ScatterMap;
-    ->keys:[Ljava/lang/Object;
+    iget-object v2, v0, Landroidx/collection/ScatterMap;->keys:[Ljava/lang/Object;
 
     .line 11
     .line 12
-    iget-object v3, v0, Landroidx/collection/ScatterMap;
-    ->values:[Ljava/lang/Object;
+    iget-object v3, v0, Landroidx/collection/ScatterMap;->values:[Ljava/lang/Object;
 
     .line 13
     .line 14
-    iget-object v4, v0, Landroidx/collection/ScatterMap;
-    ->metadata:[J
+    iget-object v4, v0, Landroidx/collection/ScatterMap;->metadata:[J
 
     .line 15
     .line 16
@@ -2545,8 +2461,7 @@ return-object v0
 
     .line 66
     .line 67
-    invoke-interface {v1, v14, v13}, Lp1/p;
-    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v14, v13}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 68
     .line 69
@@ -2598,14 +2513,12 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/collection/ScatterMap;
-    ->metadata:[J
+    iget-object v0, p0, Landroidx/collection/ScatterMap;->metadata:[J
 
     .line 7
     .line 8
@@ -2711,8 +2624,7 @@ return-object v0
 
     .line 53
     .line 54
-    invoke-static {v9, v8, p1}, LA/d;
-    ->u(IILp1/l;)V
+    invoke-static {v9, v8, p1}, LA/d;->u(IILp1/l;)V
 
     .line 55
     .line 56
@@ -2776,19 +2688,16 @@ return-object v0
 
     .line 6
     .line 7
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    iget-object v2, v0, Landroidx/collection/ScatterMap;
-    ->keys:[Ljava/lang/Object;
+    iget-object v2, v0, Landroidx/collection/ScatterMap;->keys:[Ljava/lang/Object;
 
     .line 11
     .line 12
-    iget-object v3, v0, Landroidx/collection/ScatterMap;
-    ->metadata:[J
+    iget-object v3, v0, Landroidx/collection/ScatterMap;->metadata:[J
 
     .line 13
     .line 14
@@ -2901,8 +2810,7 @@ return-object v0
 
     .line 62
     .line 63
-    invoke-interface {v1, v12}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v12}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 64
     .line 65
@@ -2962,19 +2870,16 @@ return-object v0
 
     .line 6
     .line 7
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    iget-object v2, v0, Landroidx/collection/ScatterMap;
-    ->values:[Ljava/lang/Object;
+    iget-object v2, v0, Landroidx/collection/ScatterMap;->values:[Ljava/lang/Object;
 
     .line 11
     .line 12
-    iget-object v3, v0, Landroidx/collection/ScatterMap;
-    ->metadata:[J
+    iget-object v3, v0, Landroidx/collection/ScatterMap;->metadata:[J
 
     .line 13
     .line 14
@@ -3087,8 +2992,7 @@ return-object v0
 
     .line 62
     .line 63
-    invoke-interface {v1, v12}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v12}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 64
     .line 65
@@ -3141,8 +3045,7 @@ return-object v0
 
     .line 3
     .line 4
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->hashCode()I
+    invoke-virtual {p1}, Ljava/lang/Object;->hashCode()I
 
     .line 5
     .line 6
@@ -3178,8 +3081,7 @@ return-object v0
 
     .line 19
     .line 20
-    iget v3, p0, Landroidx/collection/ScatterMap;
-    ->_capacity:I
+    iget v3, p0, Landroidx/collection/ScatterMap;->_capacity:I
 
     .line 21
     .line 22
@@ -3191,8 +3093,7 @@ return-object v0
     and-int/2addr v1, v3
 
     .line 25
-    iget-object v4, p0, Landroidx/collection/ScatterMap;
-    ->metadata:[J
+    iget-object v4, p0, Landroidx/collection/ScatterMap;->metadata:[J
 
     .line 26
     .line 27
@@ -3300,8 +3201,7 @@ return-object v0
 
     .line 75
     .line 76
-    invoke-static {v6, v7}, Ljava/lang/Long;
-    ->numberOfTrailingZeros(J)I
+    invoke-static {v6, v7}, Ljava/lang/Long;->numberOfTrailingZeros(J)I
 
     .line 77
     .line 78
@@ -3319,8 +3219,7 @@ return-object v0
     and-int/2addr v10, v3
 
     .line 84
-    iget-object v11, p0, Landroidx/collection/ScatterMap;
-    ->keys:[Ljava/lang/Object;
+    iget-object v11, p0, Landroidx/collection/ScatterMap;->keys:[Ljava/lang/Object;
 
     .line 85
     .line 86
@@ -3328,8 +3227,7 @@ return-object v0
 
     .line 87
     .line 88
-    invoke-static {v11, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v11, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 89
     .line 90
@@ -3391,8 +3289,7 @@ return-object v0
 
     .line 112
     .line 113
-    iget-object p1, p0, Landroidx/collection/ScatterMap;
-    ->values:[Ljava/lang/Object;
+    iget-object p1, p0, Landroidx/collection/ScatterMap;->values:[Ljava/lang/Object;
 
     .line 114
     .line 115
@@ -3419,8 +3316,7 @@ return-object v0
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/collection/ScatterMap;
-    ->_capacity:I    return v0
+    iget v0, p0, Landroidx/collection/ScatterMap;->_capacity:I    return v0
 .end method
 
 .method public final getOrDefault(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -3439,8 +3335,7 @@ return-object v0
 
     .line 3
     .line 4
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->hashCode()I
+    invoke-virtual {p1}, Ljava/lang/Object;->hashCode()I
 
     .line 5
     .line 6
@@ -3476,8 +3371,7 @@ return-object v0
 
     .line 19
     .line 20
-    iget v3, p0, Landroidx/collection/ScatterMap;
-    ->_capacity:I
+    iget v3, p0, Landroidx/collection/ScatterMap;->_capacity:I
 
     .line 21
     .line 22
@@ -3489,8 +3383,7 @@ return-object v0
     and-int/2addr v1, v3
 
     .line 25
-    iget-object v4, p0, Landroidx/collection/ScatterMap;
-    ->metadata:[J
+    iget-object v4, p0, Landroidx/collection/ScatterMap;->metadata:[J
 
     .line 26
     .line 27
@@ -3598,8 +3491,7 @@ return-object v0
 
     .line 75
     .line 76
-    invoke-static {v6, v7}, Ljava/lang/Long;
-    ->numberOfTrailingZeros(J)I
+    invoke-static {v6, v7}, Ljava/lang/Long;->numberOfTrailingZeros(J)I
 
     .line 77
     .line 78
@@ -3617,8 +3509,7 @@ return-object v0
     and-int/2addr v10, v3
 
     .line 84
-    iget-object v11, p0, Landroidx/collection/ScatterMap;
-    ->keys:[Ljava/lang/Object;
+    iget-object v11, p0, Landroidx/collection/ScatterMap;->keys:[Ljava/lang/Object;
 
     .line 85
     .line 86
@@ -3626,8 +3517,7 @@ return-object v0
 
     .line 87
     .line 88
-    invoke-static {v11, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v11, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 89
     .line 90
@@ -3689,8 +3579,7 @@ return-object v0
 
     .line 112
     .line 113
-    iget-object p1, p0, Landroidx/collection/ScatterMap;
-    ->values:[Ljava/lang/Object;
+    iget-object p1, p0, Landroidx/collection/ScatterMap;->values:[Ljava/lang/Object;
 
     .line 114
     .line 115
@@ -3726,14 +3615,12 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, p1}, Landroidx/collection/ScatterMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Landroidx/collection/ScatterMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -3745,8 +3632,7 @@ return-object v0
 
     .line 11
     .line 12
-    invoke-interface {p2}, Lp1/a;
-    ->invoke()Ljava/lang/Object;
+    invoke-interface {p2}, Lp1/a;->invoke()Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -3762,8 +3648,7 @@ return-object v0
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/collection/ScatterMap;
-    ->_size:I    return v0
+    iget v0, p0, Landroidx/collection/ScatterMap;->_size:I    return v0
 .end method
 
 .method public hashCode()I
@@ -3774,18 +3659,15 @@ return-object v0
 
     .line 2
     .line 3
-    iget-object v1, v0, Landroidx/collection/ScatterMap;
-    ->keys:[Ljava/lang/Object;
+    iget-object v1, v0, Landroidx/collection/ScatterMap;->keys:[Ljava/lang/Object;
 
     .line 4
     .line 5
-    iget-object v2, v0, Landroidx/collection/ScatterMap;
-    ->values:[Ljava/lang/Object;
+    iget-object v2, v0, Landroidx/collection/ScatterMap;->values:[Ljava/lang/Object;
 
     .line 6
     .line 7
-    iget-object v3, v0, Landroidx/collection/ScatterMap;
-    ->metadata:[J
+    iget-object v3, v0, Landroidx/collection/ScatterMap;->metadata:[J
 
     .line 8
     .line 9
@@ -3909,8 +3791,7 @@ return-object v0
 
     .line 62
     .line 63
-    invoke-virtual {v14}, Ljava/lang/Object;
-    ->hashCode()I
+    invoke-virtual {v14}, Ljava/lang/Object;->hashCode()I
 
     .line 64
     .line 65
@@ -3930,8 +3811,7 @@ return-object v0
 
     .line 70
     .line 71
-    invoke-virtual {v13}, Ljava/lang/Object;
-    ->hashCode()I
+    invoke-virtual {v13}, Ljava/lang/Object;->hashCode()I
 
     .line 72
     .line 73
@@ -4001,8 +3881,7 @@ return-object v0
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/collection/ScatterMap;
-    ->_size:I
+    iget v0, p0, Landroidx/collection/ScatterMap;->_size:I
 
     .line 2
     .line 3
@@ -4025,8 +3904,7 @@ return-object v0
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/collection/ScatterMap;
-    ->_size:I
+    iget v0, p0, Landroidx/collection/ScatterMap;->_size:I
 
     .line 2
     .line 3
@@ -4067,8 +3945,7 @@ return-object v0
 
     move-object v0, p0
 
-    invoke-static/range {v0 .. v8}, Landroidx/collection/ScatterMap;
-    ->joinToString$default(Landroidx/collection/ScatterMap;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lp1/p;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v0 .. v8}, Landroidx/collection/ScatterMap;->joinToString$default(Landroidx/collection/ScatterMap;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lp1/p;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -4081,8 +3958,7 @@ return-object v0
     .line 2
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v8, 0x3e
 
@@ -4102,8 +3978,7 @@ return-object v0
 
     move-object v2, p1
 
-    invoke-static/range {v1 .. v9}, Landroidx/collection/ScatterMap;
-    ->joinToString$default(Landroidx/collection/ScatterMap;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lp1/p;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v1 .. v9}, Landroidx/collection/ScatterMap;->joinToString$default(Landroidx/collection/ScatterMap;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lp1/p;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -4116,13 +3991,11 @@ return-object v0
     .line 3
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "prefix"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v8, 0x3c
 
@@ -4142,8 +4015,7 @@ return-object v0
 
     move-object v3, p2
 
-    invoke-static/range {v1 .. v9}, Landroidx/collection/ScatterMap;
-    ->joinToString$default(Landroidx/collection/ScatterMap;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lp1/p;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v1 .. v9}, Landroidx/collection/ScatterMap;->joinToString$default(Landroidx/collection/ScatterMap;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lp1/p;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -4156,18 +4028,15 @@ return-object v0
     .line 4
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "prefix"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "postfix"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v8, 0x38
 
@@ -4187,8 +4056,7 @@ return-object v0
 
     move-object v4, p3
 
-    invoke-static/range {v1 .. v9}, Landroidx/collection/ScatterMap;
-    ->joinToString$default(Landroidx/collection/ScatterMap;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lp1/p;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v1 .. v9}, Landroidx/collection/ScatterMap;->joinToString$default(Landroidx/collection/ScatterMap;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lp1/p;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -4201,18 +4069,15 @@ return-object v0
     .line 5
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "prefix"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "postfix"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v8, 0x30
 
@@ -4232,8 +4097,7 @@ return-object v0
 
     move v5, p4
 
-    invoke-static/range {v1 .. v9}, Landroidx/collection/ScatterMap;
-    ->joinToString$default(Landroidx/collection/ScatterMap;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lp1/p;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v1 .. v9}, Landroidx/collection/ScatterMap;->joinToString$default(Landroidx/collection/ScatterMap;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lp1/p;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -4246,23 +4110,19 @@ return-object v0
     .line 6
     const-string v0, "separator"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "prefix"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "postfix"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "truncated"
 
-    invoke-static {p5, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p5, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v8, 0x20
 
@@ -4282,8 +4142,7 @@ return-object v0
 
     move-object v6, p5
 
-    invoke-static/range {v1 .. v9}, Landroidx/collection/ScatterMap;
-    ->joinToString$default(Landroidx/collection/ScatterMap;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lp1/p;ILjava/lang/Object;)Ljava/lang/String;
+    invoke-static/range {v1 .. v9}, Landroidx/collection/ScatterMap;->joinToString$default(Landroidx/collection/ScatterMap;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lp1/p;ILjava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -4320,35 +4179,29 @@ return-object v0
 
     const-string v6, "separator"
 
-    invoke-static {v1, v6}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v6}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v6, "prefix"
 
-    invoke-static {v2, v6}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v2, v6}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v6, "postfix"
 
     const-string v7, "truncated"
 
     .line 7
-    invoke-static {v3, v6, v4, v7, v2}, LA/d;
-    ->l(Ljava/lang/CharSequence;Ljava/lang/String;Ljava/lang/CharSequence;Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-static {v3, v6, v4, v7, v2}, LA/d;->l(Ljava/lang/CharSequence;Ljava/lang/String;Ljava/lang/CharSequence;Ljava/lang/String;Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     move-result-object v2
 
     .line 8
-    iget-object v6, v0, Landroidx/collection/ScatterMap;
-    ->keys:[Ljava/lang/Object;
+    iget-object v6, v0, Landroidx/collection/ScatterMap;->keys:[Ljava/lang/Object;
 
     .line 9
-    iget-object v7, v0, Landroidx/collection/ScatterMap;
-    ->values:[Ljava/lang/Object;
+    iget-object v7, v0, Landroidx/collection/ScatterMap;->values:[Ljava/lang/Object;
 
     .line 10
-    iget-object v8, v0, Landroidx/collection/ScatterMap;
-    ->metadata:[J
+    iget-object v8, v0, Landroidx/collection/ScatterMap;->metadata:[J
 
     .line 11
     array-length v9, v8
@@ -4428,8 +4281,7 @@ return-object v0
     if-ne v12, v7, :cond_0
 
     .line 14
-    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     goto :goto_5
 
@@ -4437,39 +4289,33 @@ return-object v0
     if-eqz v12, :cond_1
 
     .line 15
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     :cond_1
     if-nez v5, :cond_2
 
     .line 16
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     const/16 v0, 0x3d
 
     .line 17
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
-    ->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     .line 18
-    invoke-virtual {v2, v6}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     goto :goto_2
 
     .line 19
     :cond_2
-    invoke-interface {v5, v0, v6}, Lp1/p;
-    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v5, v0, v6}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/lang/CharSequence;
 
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     :goto_2
     add-int/lit8 v12, v12, 0x1
@@ -4531,20 +4377,17 @@ return-object v0
 
     .line 20
     :cond_6
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence;)Ljava/lang/StringBuilder;
 
     .line 21
     :goto_5
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
 
     const-string v1, "StringBuilder().apply(builderAction).toString()"
 
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
     return-object v0
 .end method
 
@@ -4552,8 +4395,7 @@ return-object v0
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/collection/ScatterMap;
-    ->_size:I
+    iget v0, p0, Landroidx/collection/ScatterMap;->_size:I
 
     .line 2
     .line 3
@@ -4580,8 +4422,7 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/collection/ScatterMap;
-    ->isEmpty()Z
+    invoke-virtual {v0}, Landroidx/collection/ScatterMap;->isEmpty()Z
 
     .line 4
     .line 5
@@ -4605,24 +4446,20 @@ return-object v0
 
     .line 15
     .line 16
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 17
     .line 18
     .line 19
-    iget-object v2, v0, Landroidx/collection/ScatterMap;
-    ->keys:[Ljava/lang/Object;
+    iget-object v2, v0, Landroidx/collection/ScatterMap;->keys:[Ljava/lang/Object;
 
     .line 20
     .line 21
-    iget-object v3, v0, Landroidx/collection/ScatterMap;
-    ->values:[Ljava/lang/Object;
+    iget-object v3, v0, Landroidx/collection/ScatterMap;->values:[Ljava/lang/Object;
 
     .line 22
     .line 23
-    iget-object v4, v0, Landroidx/collection/ScatterMap;
-    ->metadata:[J
+    iget-object v4, v0, Landroidx/collection/ScatterMap;->metadata:[J
 
     .line 24
     .line 25
@@ -4755,8 +4592,7 @@ return-object v0
     .line 82
     .line 83
     :cond_1
-    invoke-virtual {v1, v15}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v15}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 84
     .line 85
@@ -4765,8 +4601,7 @@ return-object v0
 
     .line 87
     .line 88
-    invoke-virtual {v1, v15}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v15}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 89
     .line 90
@@ -4780,8 +4615,7 @@ return-object v0
     .line 94
     .line 95
     :cond_2
-    invoke-virtual {v1, v14}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v14}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 96
     .line 97
@@ -4790,8 +4624,7 @@ return-object v0
 
     .line 99
     .line 100
-    iget v14, v0, Landroidx/collection/ScatterMap;
-    ->_size:I
+    iget v14, v0, Landroidx/collection/ScatterMap;->_size:I
 
     .line 101
     .line 102
@@ -4803,8 +4636,7 @@ return-object v0
 
     .line 105
     .line 106
-    invoke-virtual {v1, v14}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v14}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 107
     .line 108
@@ -4846,8 +4678,7 @@ return-object v0
 
     .line 123
     .line 124
-    invoke-static {v1, v2, v3}, LA/d;
-    ->h(Ljava/lang/StringBuilder;CLjava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v2, v3}, LA/d;->h(Ljava/lang/StringBuilder;CLjava/lang/String;)Ljava/lang/String;
 
     .line 125
     .line 126

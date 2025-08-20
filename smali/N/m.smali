@@ -25,13 +25,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, LN/m;
-    ->f:Lb1/a;
+    iget-object v0, p0, LN/m;->f:Lb1/a;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Lb1/a;
-    ->get()Ljava/lang/Object;
+    invoke-interface {v0}, Lb1/a;->get()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -47,8 +45,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {v0}, LU/h;
-    ->close()V
+    invoke-virtual {v0}, LU/h;->close()V
 
     .line 12
     .line 13

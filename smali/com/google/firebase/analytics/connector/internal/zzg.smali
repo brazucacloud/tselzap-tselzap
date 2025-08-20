@@ -19,19 +19,16 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p2, p0, Lcom/google/firebase/analytics/connector/internal/zzg;
-    ->zza:Lcom/google/firebase/analytics/connector/AnalyticsConnector$AnalyticsConnectorListener;
+    iput-object p2, p0, Lcom/google/firebase/analytics/connector/internal/zzg;->zza:Lcom/google/firebase/analytics/connector/AnalyticsConnector$AnalyticsConnectorListener;
 
     .line 5
     .line 6
-    iput-object p1, p0, Lcom/google/firebase/analytics/connector/internal/zzg;
-    ->zzb:Lcom/google/android/gms/measurement/api/AppMeasurementSdk;
+    iput-object p1, p0, Lcom/google/firebase/analytics/connector/internal/zzg;->zzb:Lcom/google/android/gms/measurement/api/AppMeasurementSdk;
 
     .line 7
     .line 8
@@ -39,24 +36,20 @@
 
     .line 9
     .line 10
-    invoke-direct {p1, p0}, Lcom/google/firebase/analytics/connector/internal/zzf;
-    -><init>(Lcom/google/firebase/analytics/connector/internal/zzg;)V
+    invoke-direct {p1, p0}, Lcom/google/firebase/analytics/connector/internal/zzf;-><init>(Lcom/google/firebase/analytics/connector/internal/zzg;)V
 
     .line 11
     .line 12
     .line 13
-    iput-object p1, p0, Lcom/google/firebase/analytics/connector/internal/zzg;
-    ->zzc:Lcom/google/firebase/analytics/connector/internal/zzf;
+    iput-object p1, p0, Lcom/google/firebase/analytics/connector/internal/zzg;->zzc:Lcom/google/firebase/analytics/connector/internal/zzf;
 
     .line 14
     .line 15
-    iget-object p2, p0, Lcom/google/firebase/analytics/connector/internal/zzg;
-    ->zzb:Lcom/google/android/gms/measurement/api/AppMeasurementSdk;
+    iget-object p2, p0, Lcom/google/firebase/analytics/connector/internal/zzg;->zzb:Lcom/google/android/gms/measurement/api/AppMeasurementSdk;
 
     .line 16
     .line 17
-    invoke-virtual {p2, p1}, Lcom/google/android/gms/measurement/api/AppMeasurementSdk;
-    ->registerOnMeasurementEventListener(Lcom/google/android/gms/measurement/api/AppMeasurementSdk$OnEventListener;)V
+    invoke-virtual {p2, p1}, Lcom/google/android/gms/measurement/api/AppMeasurementSdk;->registerOnMeasurementEventListener(Lcom/google/android/gms/measurement/api/AppMeasurementSdk$OnEventListener;)V
 
     .line 18
     .line 19
@@ -68,8 +61,7 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lcom/google/firebase/analytics/connector/internal/zzg;
-    ->zza:Lcom/google/firebase/analytics/connector/AnalyticsConnector$AnalyticsConnectorListener;
+    iget-object p0, p0, Lcom/google/firebase/analytics/connector/internal/zzg;->zza:Lcom/google/firebase/analytics/connector/AnalyticsConnector$AnalyticsConnectorListener;
 
     return-object p0
 .end method
@@ -80,8 +72,7 @@
     .locals 1
 
     .line 3
-    iget-object v0, p0, Lcom/google/firebase/analytics/connector/internal/zzg;
-    ->zza:Lcom/google/firebase/analytics/connector/AnalyticsConnector$AnalyticsConnectorListener;
+    iget-object v0, p0, Lcom/google/firebase/analytics/connector/internal/zzg;->zza:Lcom/google/firebase/analytics/connector/AnalyticsConnector$AnalyticsConnectorListener;
 
     return-object v0
 .end method

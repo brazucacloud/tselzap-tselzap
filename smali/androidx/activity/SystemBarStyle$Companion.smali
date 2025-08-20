@@ -19,8 +19,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -28,8 +27,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/activity/SystemBarStyle$Companion;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/activity/SystemBarStyle$Companion;-><init>()V
     return-void
 .end method
 
@@ -45,14 +43,12 @@
 
     .line 4
     .line 5
-    sget-object p3, Landroidx/activity/SystemBarStyle$Companion$auto$1;
-    ->INSTANCE:Landroidx/activity/SystemBarStyle$Companion$auto$1;
+    sget-object p3, Landroidx/activity/SystemBarStyle$Companion$auto$1;->INSTANCE:Landroidx/activity/SystemBarStyle$Companion$auto$1;
 
     .line 6
     .line 7
     :cond_0
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/activity/SystemBarStyle$Companion;
-    ->auto(IILp1/l;)Landroidx/activity/SystemBarStyle;
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/activity/SystemBarStyle$Companion;->auto(IILp1/l;)Landroidx/activity/SystemBarStyle;
 
     .line 8
     .line 9
@@ -88,8 +84,7 @@
 
     move v2, p2
 
-    invoke-static/range {v0 .. v5}, Landroidx/activity/SystemBarStyle$Companion;
-    ->auto$default(Landroidx/activity/SystemBarStyle$Companion;IILp1/l;ILjava/lang/Object;)Landroidx/activity/SystemBarStyle;
+    invoke-static/range {v0 .. v5}, Landroidx/activity/SystemBarStyle$Companion;->auto$default(Landroidx/activity/SystemBarStyle$Companion;IILp1/l;ILjava/lang/Object;)Landroidx/activity/SystemBarStyle;
 
     move-result-object p1
 
@@ -117,8 +112,7 @@
 
     const-string v0, "detectDarkMode"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     new-instance v1, Landroidx/activity/SystemBarStyle;
@@ -133,8 +127,7 @@
 
     move-object v5, p3
 
-    invoke-direct/range {v1 .. v6}, Landroidx/activity/SystemBarStyle;
-    -><init>(IIILp1/l;Lkotlin/jvm/internal/e;)V
+    invoke-direct/range {v1 .. v6}, Landroidx/activity/SystemBarStyle;-><init>(IIILp1/l;Lkotlin/jvm/internal/e;)V
 return-object v1
 .end method
 
@@ -150,8 +143,7 @@ return-object v1
 
     .line 2
     .line 3
-    sget-object v4, Landroidx/activity/SystemBarStyle$Companion$dark$1;
-    ->INSTANCE:Landroidx/activity/SystemBarStyle$Companion$dark$1;
+    sget-object v4, Landroidx/activity/SystemBarStyle$Companion$dark$1;->INSTANCE:Landroidx/activity/SystemBarStyle$Companion$dark$1;
 
     .line 4
     .line 5
@@ -167,8 +159,7 @@ return-object v1
     move v1, p1
 
     .line 9
-    invoke-direct/range {v0 .. v5}, Landroidx/activity/SystemBarStyle;
-    -><init>(IIILp1/l;Lkotlin/jvm/internal/e;)V
+    invoke-direct/range {v0 .. v5}, Landroidx/activity/SystemBarStyle;-><init>(IIILp1/l;Lkotlin/jvm/internal/e;)V
 return-object v0
 .end method
 
@@ -188,8 +179,7 @@ return-object v0
 
     .line 2
     .line 3
-    sget-object v4, Landroidx/activity/SystemBarStyle$Companion$light$1;
-    ->INSTANCE:Landroidx/activity/SystemBarStyle$Companion$light$1;
+    sget-object v4, Landroidx/activity/SystemBarStyle$Companion$light$1;->INSTANCE:Landroidx/activity/SystemBarStyle$Companion$light$1;
 
     .line 4
     .line 5
@@ -205,8 +195,7 @@ return-object v0
     move v2, p2
 
     .line 9
-    invoke-direct/range {v0 .. v5}, Landroidx/activity/SystemBarStyle;
-    -><init>(IIILp1/l;Lkotlin/jvm/internal/e;)V
+    invoke-direct/range {v0 .. v5}, Landroidx/activity/SystemBarStyle;-><init>(IIILp1/l;Lkotlin/jvm/internal/e;)V
 return-object v0
 .end method
 

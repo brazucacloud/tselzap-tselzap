@@ -18,13 +18,11 @@
     .locals 0
 
     .line 1
-    iput p2, p0, LB/b;
-    ->e:I
+    iput p2, p0, LB/b;->e:I
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
@@ -33,14 +31,12 @@
 
     .line 7
     .line 8
-    invoke-static {p1, p2}, LE/h;
-    ->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, LE/h;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    iput-object p1, p0, LB/b;
-    ->b:Landroid/widget/ImageView;
+    iput-object p1, p0, LB/b;->b:Landroid/widget/ImageView;
 
     .line 12
     .line 13
@@ -48,14 +44,12 @@
 
     .line 14
     .line 15
-    invoke-direct {p2, p1}, LB/g;
-    -><init>(Landroid/widget/ImageView;)V
+    invoke-direct {p2, p1}, LB/g;-><init>(Landroid/widget/ImageView;)V
 
     .line 16
     .line 17
     .line 18
-    iput-object p2, p0, LB/b;
-    ->c:LB/g;
+    iput-object p2, p0, LB/b;->c:LB/g;
 
     .line 19
     .line 20
@@ -68,8 +62,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, LB/b;
-    ->e:I
+    iget v0, p0, LB/b;->e:I
 
     .line 2
     .line 3
@@ -82,13 +75,11 @@
 
     .line 7
     .line 8
-    iget-object v0, p0, LB/b;
-    ->b:Landroid/widget/ImageView;
+    iget-object v0, p0, LB/b;->b:Landroid/widget/ImageView;
 
     .line 9
     .line 10
-    invoke-virtual {v0, p1}, Landroid/widget/ImageView;
-    ->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 11
     .line 12
@@ -101,13 +92,11 @@
 
     .line 15
     .line 16
-    iget-object v0, p0, LB/b;
-    ->b:Landroid/widget/ImageView;
+    iget-object v0, p0, LB/b;->b:Landroid/widget/ImageView;
 
     .line 17
     .line 18
-    invoke-virtual {v0, p1}, Landroid/widget/ImageView;
-    ->setImageBitmap(Landroid/graphics/Bitmap;)V
+    invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     .line 19
     .line 20
@@ -132,8 +121,7 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, LB/b;
-    ->b:Landroid/widget/ImageView;
+    iget-object v0, p0, LB/b;->b:Landroid/widget/ImageView;
 
     .line 2
     .line 3
@@ -142,8 +130,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {v0, v1}, Landroid/view/View;
-    ->getTag(I)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -179,8 +166,7 @@
 
     .line 22
     .line 23
-    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -198,18 +184,15 @@
     .locals 6
 
     .line 1
-    iget-object v0, p0, LB/b;
-    ->c:LB/g;
+    iget-object v0, p0, LB/b;->c:LB/g;
 
     .line 2
     .line 3
-    iget-object v1, v0, LB/g;
-    ->a:Landroid/widget/ImageView;
+    iget-object v1, v0, LB/g;->a:Landroid/widget/ImageView;
 
     .line 4
     .line 5
-    invoke-virtual {v1}, Landroid/view/View;
-    ->getPaddingLeft()I
+    invoke-virtual {v1}, Landroid/view/View;->getPaddingLeft()I
 
     .line 6
     .line 7
@@ -217,8 +200,7 @@
     move-result v2
 
     .line 9
-    invoke-virtual {v1}, Landroid/view/View;
-    ->getPaddingRight()I
+    invoke-virtual {v1}, Landroid/view/View;->getPaddingRight()I
 
     .line 10
     .line 11
@@ -229,8 +211,7 @@
     add-int/2addr v3, v2
 
     .line 14
-    invoke-virtual {v1}, Landroid/view/View;
-    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 15
     .line 16
@@ -245,8 +226,7 @@
 
     .line 20
     .line 21
-    iget v2, v2, Landroid/view/ViewGroup$LayoutParams;
-    ->width:I
+    iget v2, v2, Landroid/view/ViewGroup$LayoutParams;->width:I
 
     .line 22
     .line 23
@@ -258,8 +238,7 @@
 
     .line 25
     :goto_0
-    invoke-virtual {v1}, Landroid/view/View;
-    ->getWidth()I
+    invoke-virtual {v1}, Landroid/view/View;->getWidth()I
 
     .line 26
     .line 27
@@ -267,8 +246,7 @@
     move-result v1
 
     .line 29
-    invoke-virtual {v0, v1, v2, v3}, LB/g;
-    ->a(III)I
+    invoke-virtual {v0, v1, v2, v3}, LB/g;->a(III)I
 
     .line 30
     .line 31
@@ -276,13 +254,11 @@
     move-result v1
 
     .line 33
-    iget-object v2, v0, LB/g;
-    ->a:Landroid/widget/ImageView;
+    iget-object v2, v0, LB/g;->a:Landroid/widget/ImageView;
 
     .line 34
     .line 35
-    invoke-virtual {v2}, Landroid/view/View;
-    ->getPaddingTop()I
+    invoke-virtual {v2}, Landroid/view/View;->getPaddingTop()I
 
     .line 36
     .line 37
@@ -290,8 +266,7 @@
     move-result v3
 
     .line 39
-    invoke-virtual {v2}, Landroid/view/View;
-    ->getPaddingBottom()I
+    invoke-virtual {v2}, Landroid/view/View;->getPaddingBottom()I
 
     .line 40
     .line 41
@@ -302,8 +277,7 @@
     add-int/2addr v5, v3
 
     .line 44
-    invoke-virtual {v2}, Landroid/view/View;
-    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v2}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 45
     .line 46
@@ -315,14 +289,12 @@
 
     .line 49
     .line 50
-    iget v4, v3, Landroid/view/ViewGroup$LayoutParams;
-    ->height:I
+    iget v4, v3, Landroid/view/ViewGroup$LayoutParams;->height:I
 
     .line 51
     .line 52
     :cond_1
-    invoke-virtual {v2}, Landroid/view/View;
-    ->getHeight()I
+    invoke-virtual {v2}, Landroid/view/View;->getHeight()I
 
     .line 53
     .line 54
@@ -330,8 +302,7 @@
     move-result v3
 
     .line 56
-    invoke-virtual {v0, v3, v4, v5}, LB/g;
-    ->a(III)I
+    invoke-virtual {v0, v3, v4, v5}, LB/g;->a(III)I
 
     .line 57
     .line 58
@@ -364,13 +335,11 @@
 
     .line 71
     :cond_3
-    iget-object v1, v0, LB/g;
-    ->b:Ljava/util/ArrayList;
+    iget-object v1, v0, LB/g;->b:Ljava/util/ArrayList;
 
     .line 72
     .line 73
-    invoke-virtual {v1, p1}, Ljava/util/ArrayList;
-    ->contains(Ljava/lang/Object;)Z
+    invoke-virtual {v1, p1}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
 
     .line 74
     .line 75
@@ -382,15 +351,13 @@
 
     .line 78
     .line 79
-    invoke-virtual {v1, p1}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v1, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 80
     .line 81
     .line 82
     :cond_4
-    iget-object p1, v0, LB/g;
-    ->c:LB/f;
+    iget-object p1, v0, LB/g;->c:LB/f;
 
     .line 83
     .line 84
@@ -398,8 +365,7 @@
 
     .line 85
     .line 86
-    invoke-virtual {v2}, Landroid/view/View;
-    ->getViewTreeObserver()Landroid/view/ViewTreeObserver;
+    invoke-virtual {v2}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
 
     .line 87
     .line 88
@@ -411,19 +377,16 @@
 
     .line 91
     .line 92
-    invoke-direct {v1, v0}, LB/f;
-    -><init>(LB/g;)V
+    invoke-direct {v1, v0}, LB/f;-><init>(LB/g;)V
 
     .line 93
     .line 94
     .line 95
-    iput-object v1, v0, LB/g;
-    ->c:LB/f;
+    iput-object v1, v0, LB/g;->c:LB/f;
 
     .line 96
     .line 97
-    invoke-virtual {p1, v1}, Landroid/view/ViewTreeObserver;
-    ->addOnPreDrawListener(Landroid/view/ViewTreeObserver$OnPreDrawListener;)V
+    invoke-virtual {p1, v1}, Landroid/view/ViewTreeObserver;->addOnPreDrawListener(Landroid/view/ViewTreeObserver$OnPreDrawListener;)V
 
     .line 98
     .line 99
@@ -438,8 +401,7 @@
 
     .line 102
     .line 103
-    invoke-virtual {p1, v1, v3}, LA/h;
-    ->b(II)V
+    invoke-virtual {p1, v1, v3}, LA/h;->b(II)V
 
     .line 104
     .line 105
@@ -451,24 +413,20 @@
     .locals 3
 
     .line 1
-    invoke-super {p0, p1}, LB/a;
-    ->onLoadCleared(Landroid/graphics/drawable/Drawable;)V
+    invoke-super {p0, p1}, LB/a;->onLoadCleared(Landroid/graphics/drawable/Drawable;)V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, LB/b;
-    ->c:LB/g;
+    iget-object v0, p0, LB/b;->c:LB/g;
 
     .line 5
     .line 6
-    iget-object v1, v0, LB/g;
-    ->a:Landroid/widget/ImageView;
+    iget-object v1, v0, LB/g;->a:Landroid/widget/ImageView;
 
     .line 7
     .line 8
-    invoke-virtual {v1}, Landroid/view/View;
-    ->getViewTreeObserver()Landroid/view/ViewTreeObserver;
+    invoke-virtual {v1}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
 
     .line 9
     .line 10
@@ -476,8 +434,7 @@
     move-result-object v1
 
     .line 12
-    invoke-virtual {v1}, Landroid/view/ViewTreeObserver;
-    ->isAlive()Z
+    invoke-virtual {v1}, Landroid/view/ViewTreeObserver;->isAlive()Z
 
     .line 13
     .line 14
@@ -489,13 +446,11 @@
 
     .line 17
     .line 18
-    iget-object v2, v0, LB/g;
-    ->c:LB/f;
+    iget-object v2, v0, LB/g;->c:LB/f;
 
     .line 19
     .line 20
-    invoke-virtual {v1, v2}, Landroid/view/ViewTreeObserver;
-    ->removeOnPreDrawListener(Landroid/view/ViewTreeObserver$OnPreDrawListener;)V
+    invoke-virtual {v1, v2}, Landroid/view/ViewTreeObserver;->removeOnPreDrawListener(Landroid/view/ViewTreeObserver$OnPreDrawListener;)V
 
     .line 21
     .line 22
@@ -504,24 +459,20 @@
     const/4 v1, 0x0
 
     .line 24
-    iput-object v1, v0, LB/g;
-    ->c:LB/f;
+    iput-object v1, v0, LB/g;->c:LB/f;
 
     .line 25
     .line 26
-    iget-object v0, v0, LB/g;
-    ->b:Ljava/util/ArrayList;
+    iget-object v0, v0, LB/g;->b:Ljava/util/ArrayList;
 
     .line 27
     .line 28
-    invoke-virtual {v0}, Ljava/util/ArrayList;
-    ->clear()V
+    invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
 
     .line 29
     .line 30
     .line 31
-    iget-object v0, p0, LB/b;
-    ->d:Landroid/graphics/drawable/Animatable;
+    iget-object v0, p0, LB/b;->d:Landroid/graphics/drawable/Animatable;
 
     .line 32
     .line 33
@@ -529,31 +480,26 @@
 
     .line 34
     .line 35
-    invoke-interface {v0}, Landroid/graphics/drawable/Animatable;
-    ->stop()V
+    invoke-interface {v0}, Landroid/graphics/drawable/Animatable;->stop()V
 
     .line 36
     .line 37
     .line 38
     :cond_1
-    invoke-virtual {p0, v1}, LB/b;
-    ->a(Ljava/lang/Object;)V
+    invoke-virtual {p0, v1}, LB/b;->a(Ljava/lang/Object;)V
 
     .line 39
     .line 40
     .line 41
-    iput-object v1, p0, LB/b;
-    ->d:Landroid/graphics/drawable/Animatable;
+    iput-object v1, p0, LB/b;->d:Landroid/graphics/drawable/Animatable;
 
     .line 42
     .line 43
-    iget-object v0, p0, LB/b;
-    ->b:Landroid/widget/ImageView;
+    iget-object v0, p0, LB/b;->b:Landroid/widget/ImageView;
 
     .line 44
     .line 45
-    invoke-virtual {v0, p1}, Landroid/widget/ImageView;
-    ->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 46
     .line 47
@@ -565,8 +511,7 @@
     .locals 1
 
     .line 1
-    invoke-super {p0, p1}, LB/a;
-    ->onLoadFailed(Landroid/graphics/drawable/Drawable;)V
+    invoke-super {p0, p1}, LB/a;->onLoadFailed(Landroid/graphics/drawable/Drawable;)V
 
     .line 2
     .line 3
@@ -574,24 +519,20 @@
     const/4 v0, 0x0
 
     .line 5
-    invoke-virtual {p0, v0}, LB/b;
-    ->a(Ljava/lang/Object;)V
+    invoke-virtual {p0, v0}, LB/b;->a(Ljava/lang/Object;)V
 
     .line 6
     .line 7
     .line 8
-    iput-object v0, p0, LB/b;
-    ->d:Landroid/graphics/drawable/Animatable;
+    iput-object v0, p0, LB/b;->d:Landroid/graphics/drawable/Animatable;
 
     .line 9
     .line 10
-    iget-object v0, p0, LB/b;
-    ->b:Landroid/widget/ImageView;
+    iget-object v0, p0, LB/b;->b:Landroid/widget/ImageView;
 
     .line 11
     .line 12
-    invoke-virtual {v0, p1}, Landroid/widget/ImageView;
-    ->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 13
     .line 14
@@ -603,8 +544,7 @@
     .locals 1
 
     .line 1
-    invoke-super {p0, p1}, LB/a;
-    ->onLoadStarted(Landroid/graphics/drawable/Drawable;)V
+    invoke-super {p0, p1}, LB/a;->onLoadStarted(Landroid/graphics/drawable/Drawable;)V
 
     .line 2
     .line 3
@@ -612,24 +552,20 @@
     const/4 v0, 0x0
 
     .line 5
-    invoke-virtual {p0, v0}, LB/b;
-    ->a(Ljava/lang/Object;)V
+    invoke-virtual {p0, v0}, LB/b;->a(Ljava/lang/Object;)V
 
     .line 6
     .line 7
     .line 8
-    iput-object v0, p0, LB/b;
-    ->d:Landroid/graphics/drawable/Animatable;
+    iput-object v0, p0, LB/b;->d:Landroid/graphics/drawable/Animatable;
 
     .line 9
     .line 10
-    iget-object v0, p0, LB/b;
-    ->b:Landroid/widget/ImageView;
+    iget-object v0, p0, LB/b;->b:Landroid/widget/ImageView;
 
     .line 11
     .line 12
-    invoke-virtual {v0, p1}, Landroid/widget/ImageView;
-    ->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 13
     .line 14
@@ -641,8 +577,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, LB/b;
-    ->a(Ljava/lang/Object;)V
+    invoke-virtual {p0, p1}, LB/b;->a(Ljava/lang/Object;)V
 
     .line 2
     .line 3
@@ -659,13 +594,11 @@
 
     .line 9
     .line 10
-    iput-object p1, p0, LB/b;
-    ->d:Landroid/graphics/drawable/Animatable;
+    iput-object p1, p0, LB/b;->d:Landroid/graphics/drawable/Animatable;
 
     .line 11
     .line 12
-    invoke-interface {p1}, Landroid/graphics/drawable/Animatable;
-    ->start()V
+    invoke-interface {p1}, Landroid/graphics/drawable/Animatable;->start()V
 
     .line 13
     .line 14
@@ -677,8 +610,7 @@
     const/4 p1, 0x0
 
     .line 17
-    iput-object p1, p0, LB/b;
-    ->d:Landroid/graphics/drawable/Animatable;
+    iput-object p1, p0, LB/b;->d:Landroid/graphics/drawable/Animatable;
 
     .line 18
     .line 19
@@ -689,8 +621,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, LB/b;
-    ->d:Landroid/graphics/drawable/Animatable;
+    iget-object v0, p0, LB/b;->d:Landroid/graphics/drawable/Animatable;
 
     .line 2
     .line 3
@@ -698,8 +629,7 @@
 
     .line 4
     .line 5
-    invoke-interface {v0}, Landroid/graphics/drawable/Animatable;
-    ->start()V
+    invoke-interface {v0}, Landroid/graphics/drawable/Animatable;->start()V
 
     .line 6
     .line 7
@@ -712,8 +642,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, LB/b;
-    ->d:Landroid/graphics/drawable/Animatable;
+    iget-object v0, p0, LB/b;->d:Landroid/graphics/drawable/Animatable;
 
     .line 2
     .line 3
@@ -721,8 +650,7 @@
 
     .line 4
     .line 5
-    invoke-interface {v0}, Landroid/graphics/drawable/Animatable;
-    ->stop()V
+    invoke-interface {v0}, Landroid/graphics/drawable/Animatable;->stop()V
 
     .line 6
     .line 7
@@ -735,18 +663,15 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, LB/b;
-    ->c:LB/g;
+    iget-object v0, p0, LB/b;->c:LB/g;
 
     .line 2
     .line 3
-    iget-object v0, v0, LB/g;
-    ->b:Ljava/util/ArrayList;
+    iget-object v0, v0, LB/g;->b:Ljava/util/ArrayList;
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
-    ->remove(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 
     .line 6
     .line 7
@@ -758,8 +683,7 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, LB/b;
-    ->b:Landroid/widget/ImageView;
+    iget-object v0, p0, LB/b;->b:Landroid/widget/ImageView;
 
     .line 2
     .line 3
@@ -768,8 +692,7 @@
     .line 4
     .line 5
     .line 6
-    invoke-virtual {v0, v1, p1}, Landroid/view/View;
-    ->setTag(ILjava/lang/Object;)V
+    invoke-virtual {v0, v1, p1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
     .line 7
     .line 8
@@ -789,25 +712,21 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v1, p0, LB/b;
-    ->b:Landroid/widget/ImageView;
+    iget-object v1, p0, LB/b;->b:Landroid/widget/ImageView;
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 11
     .line 12
     .line 13
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 14
     .line 15

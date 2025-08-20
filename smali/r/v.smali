@@ -16,13 +16,11 @@
 
     .line 2
     .line 3
-    sget-object v1, Li/f;
-    ->a:Ljava/nio/charset/Charset;
+    sget-object v1, Li/f;->a:Ljava/nio/charset/Charset;
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Ljava/lang/String;
-    ->getBytes(Ljava/nio/charset/Charset;)[B
+    invoke-virtual {v0, v1}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
 
     .line 6
     .line 7
@@ -30,8 +28,7 @@
     move-result-object v0
 
     .line 9
-    sput-object v0, Lr/v;
-    ->b:[B
+    sput-object v0, Lr/v;->b:[B
 
     .line 10
     .line 11
@@ -44,13 +41,11 @@
     .locals 1
 
     .line 1
-    sget-object v0, Lr/v;
-    ->b:[B
+    sget-object v0, Lr/v;->b:[B
 
     .line 2
     .line 3
-    invoke-virtual {p1, v0}, Ljava/security/MessageDigest;
-    ->update([B)V
+    invoke-virtual {p1, v0}, Ljava/security/MessageDigest;->update([B)V
 
     .line 4
     .line 5
@@ -62,8 +57,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p1, p2, p3, p4}, Lr/z;
-    ->b(Ll/a;Landroid/graphics/Bitmap;II)Landroid/graphics/Bitmap;
+    invoke-static {p1, p2, p3, p4}, Lr/z;->b(Ll/a;Landroid/graphics/Bitmap;II)Landroid/graphics/Bitmap;
 
     .line 2
     .line 3

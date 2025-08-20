@@ -12,8 +12,7 @@
     .locals 2
 
     .line 1
-    iget-boolean v0, p0, LF/h;
-    ->a:Z
+    iget-boolean v0, p0, LF/h;->a:Z
 
     .line 2
     .line 3
@@ -33,8 +32,7 @@
 
     .line 9
     .line 10
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 11
     .line 12

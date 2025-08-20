@@ -52,8 +52,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -61,8 +60,7 @@
     const/4 v0, 0x1
 
     .line 7
-    invoke-direct {p0, v0}, Landroidx/navigation/CollectionNavType;
-    -><init>(Z)V
+    invoke-direct {p0, v0}, Landroidx/navigation/CollectionNavType;-><init>(Z)V
 
     .line 8
     .line 9
@@ -71,14 +69,12 @@
 
     .line 11
     .line 12
-    invoke-direct {v0, p1}, Landroidx/navigation/NavType$EnumType;
-    -><init>(Ljava/lang/Class;)V
+    invoke-direct {v0, p1}, Landroidx/navigation/NavType$EnumType;-><init>(Ljava/lang/Class;)V
 
     .line 13
     .line 14
     .line 15
-    iput-object v0, p0, Landroidx/navigation/serialization/InternalNavType$EnumListType;
-    ->enumNavType:Landroidx/navigation/NavType$EnumType;    
+    iput-object v0, p0, Landroidx/navigation/serialization/InternalNavType$EnumListType;->enumNavType:Landroidx/navigation/NavType$EnumType;
     return-void
 .end method
 
@@ -88,8 +84,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/navigation/serialization/InternalNavType$EnumListType;
-    ->emptyCollection()Ljava/util/List;
+    invoke-virtual {p0}, Landroidx/navigation/serialization/InternalNavType$EnumListType;->emptyCollection()Ljava/util/List;
 
     move-result-object v0
 
@@ -107,8 +102,7 @@
     .end annotation
 
     .line 2
-    sget-object v0, Ld1/t;
-    ->b:Ld1/t;
+    sget-object v0, Ld1/t;->b:Ld1/t;
 
     return-object v0
 .end method
@@ -141,8 +135,7 @@
 
     .line 11
     :cond_1
-    iget-object v0, p0, Landroidx/navigation/serialization/InternalNavType$EnumListType;
-    ->enumNavType:Landroidx/navigation/NavType$EnumType;
+    iget-object v0, p0, Landroidx/navigation/serialization/InternalNavType$EnumListType;->enumNavType:Landroidx/navigation/NavType$EnumType;
 
     .line 12
     .line 13
@@ -150,13 +143,11 @@
 
     .line 14
     .line 15
-    iget-object p1, p1, Landroidx/navigation/serialization/InternalNavType$EnumListType;
-    ->enumNavType:Landroidx/navigation/NavType$EnumType;
+    iget-object p1, p1, Landroidx/navigation/serialization/InternalNavType$EnumListType;->enumNavType:Landroidx/navigation/NavType$EnumType;
 
     .line 16
     .line 17
-    invoke-static {v0, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 18
     .line 19
@@ -170,8 +161,7 @@
     .locals 0
 
     .line 6
-    invoke-virtual {p0, p1, p2}, Landroidx/navigation/serialization/InternalNavType$EnumListType;
-    ->get(Landroid/os/Bundle;Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p0, p1, p2}, Landroidx/navigation/serialization/InternalNavType$EnumListType;->get(Landroid/os/Bundle;Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p1
 
@@ -196,8 +186,7 @@
     const-string v1, "key"
 
     .line 1
-    invoke-static {p1, v0, p2, v1, p2}, Landroidx/constraintlayout/core/parser/a;
-    ->c(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {p1, v0, p2, v1, p2}, Landroidx/constraintlayout/core/parser/a;->c(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -228,19 +217,16 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v1, p0, Landroidx/navigation/serialization/InternalNavType$EnumListType;
-    ->enumNavType:Landroidx/navigation/NavType$EnumType;
+    iget-object v1, p0, Landroidx/navigation/serialization/InternalNavType$EnumListType;->enumNavType:Landroidx/navigation/NavType$EnumType;
 
     .line 9
     .line 10
-    invoke-virtual {v1}, Landroidx/navigation/NavType$EnumType;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v1}, Landroidx/navigation/NavType$EnumType;->getName()Ljava/lang/String;
 
     .line 11
     .line 12
@@ -248,8 +234,7 @@
     move-result-object v1
 
     .line 14
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 15
     .line 16
@@ -258,14 +243,12 @@
 
     .line 18
     .line 19
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 23
     .line 24
@@ -279,13 +262,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/serialization/InternalNavType$EnumListType;
-    ->enumNavType:Landroidx/navigation/NavType$EnumType;
+    iget-object v0, p0, Landroidx/navigation/serialization/InternalNavType$EnumListType;->enumNavType:Landroidx/navigation/NavType$EnumType;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/navigation/NavType$SerializableType;
-    ->hashCode()I
+    invoke-virtual {v0}, Landroidx/navigation/NavType$SerializableType;->hashCode()I
 
     .line 4
     .line 5
@@ -299,8 +280,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/navigation/serialization/InternalNavType$EnumListType;
-    ->parseValue(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p0, p1}, Landroidx/navigation/serialization/InternalNavType$EnumListType;->parseValue(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p1
 
@@ -313,8 +293,7 @@
     .line 2
     check-cast p2, Ljava/util/List;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/navigation/serialization/InternalNavType$EnumListType;
-    ->parseValue(Ljava/lang/String;Ljava/util/List;)Ljava/util/List;
+    invoke-virtual {p0, p1, p2}, Landroidx/navigation/serialization/InternalNavType$EnumListType;->parseValue(Ljava/lang/String;Ljava/util/List;)Ljava/util/List;
 
     move-result-object p1
 
@@ -335,20 +314,16 @@
 
     const-string v0, "value"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
-    iget-object v0, p0, Landroidx/navigation/serialization/InternalNavType$EnumListType;
-    ->enumNavType:Landroidx/navigation/NavType$EnumType;
+    iget-object v0, p0, Landroidx/navigation/serialization/InternalNavType$EnumListType;->enumNavType:Landroidx/navigation/NavType$EnumType;
 
-    invoke-virtual {v0, p1}, Landroidx/navigation/NavType$EnumType;
-    ->parseValue(Ljava/lang/String;)Ljava/lang/Enum;
+    invoke-virtual {v0, p1}, Landroidx/navigation/NavType$EnumType;->parseValue(Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object p1
 
-    invoke-static {p1}, Lcom/bumptech/glide/b;
-    ->R(Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {p1}, Lcom/bumptech/glide/b;->R(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object p1
 
@@ -370,31 +345,27 @@
 
     const-string v0, "value"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz p2, :cond_0
 
     .line 4
     check-cast p2, Ljava/util/Collection;
 
-    invoke-virtual {p0, p1}, Landroidx/navigation/serialization/InternalNavType$EnumListType;
-    ->parseValue(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p0, p1}, Landroidx/navigation/serialization/InternalNavType$EnumListType;->parseValue(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p1
 
     check-cast p1, Ljava/lang/Iterable;
 
-    invoke-static {p1, p2}, Ld1/k;
-    ->z0(Ljava/lang/Iterable;Ljava/util/Collection;)Ljava/util/ArrayList;
+    invoke-static {p1, p2}, Ld1/k;->z0(Ljava/lang/Iterable;Ljava/util/Collection;)Ljava/util/ArrayList;
 
     move-result-object p1
 
     return-object p1
 
     :cond_0
-    invoke-virtual {p0, p1}, Landroidx/navigation/serialization/InternalNavType$EnumListType;
-    ->parseValue(Ljava/lang/String;)Ljava/util/List;
+    invoke-virtual {p0, p1}, Landroidx/navigation/serialization/InternalNavType$EnumListType;->parseValue(Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p1
 
@@ -407,8 +378,7 @@
     .line 1
     check-cast p3, Ljava/util/List;
 
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/serialization/InternalNavType$EnumListType;
-    ->put(Landroid/os/Bundle;Ljava/lang/String;Ljava/util/List;)V
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/serialization/InternalNavType$EnumListType;->put(Landroid/os/Bundle;Ljava/lang/String;Ljava/util/List;)V
 return-void
 .end method
 
@@ -426,13 +396,11 @@ return-void
 
     const-string v0, "bundle"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "key"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz p3, :cond_0
 
@@ -441,8 +409,7 @@ return-void
 
     check-cast p3, Ljava/util/Collection;
 
-    invoke-direct {v0, p3}, Ljava/util/ArrayList;
-    -><init>(Ljava/util/Collection;)V
+    invoke-direct {v0, p3}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
     goto :goto_0
 
@@ -450,8 +417,7 @@ return-void
     const/4 v0, 0x0
 
     :goto_0
-    invoke-virtual {p1, p2, v0}, Landroid/os/Bundle;
-    ->putSerializable(Ljava/lang/String;Ljava/io/Serializable;)V
+    invoke-virtual {p1, p2, v0}, Landroid/os/Bundle;->putSerializable(Ljava/lang/String;Ljava/io/Serializable;)V
 return-void
 .end method
 
@@ -461,8 +427,7 @@ return-void
     .line 1
     check-cast p1, Ljava/util/List;
 
-    invoke-virtual {p0, p1}, Landroidx/navigation/serialization/InternalNavType$EnumListType;
-    ->serializeAsValues(Ljava/util/List;)Ljava/util/List;
+    invoke-virtual {p0, p1}, Landroidx/navigation/serialization/InternalNavType$EnumListType;->serializeAsValues(Ljava/util/List;)Ljava/util/List;
 
     move-result-object p1
 
@@ -492,30 +457,25 @@ return-void
 
     const/16 v1, 0xa
 
-    invoke-static {p1, v1}, Ld1/m;
-    ->j0(Ljava/lang/Iterable;I)I
+    invoke-static {p1, v1}, Ld1/m;->j0(Ljava/lang/Iterable;I)I
 
     move-result v1
 
-    invoke-direct {v0, v1}, Ljava/util/ArrayList;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
     .line 4
-    invoke-interface {p1}, Ljava/lang/Iterable;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
@@ -523,14 +483,12 @@ return-void
     check-cast v1, Ljava/lang/Enum;
 
     .line 6
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/Enum;->toString()Ljava/lang/String;
 
     move-result-object v1
 
     .line 7
-    invoke-interface {v0, v1}, Ljava/util/Collection;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, v1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     goto :goto_0
 
@@ -539,8 +497,7 @@ return-void
 
     .line 8
     :cond_1
-    sget-object p1, Ld1/t;
-    ->b:Ld1/t;
+    sget-object p1, Ld1/t;->b:Ld1/t;
 
     return-object p1
 .end method
@@ -553,8 +510,7 @@ return-void
 
     check-cast p2, Ljava/util/List;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/navigation/serialization/InternalNavType$EnumListType;
-    ->valueEquals(Ljava/util/List;Ljava/util/List;)Z
+    invoke-virtual {p0, p1, p2}, Landroidx/navigation/serialization/InternalNavType$EnumListType;->valueEquals(Ljava/util/List;Ljava/util/List;)Z
 
     move-result p1
 
@@ -582,8 +538,7 @@ return-void
 
     check-cast p1, Ljava/util/Collection;
 
-    invoke-direct {v1, p1}, Ljava/util/ArrayList;
-    -><init>(Ljava/util/Collection;)V
+    invoke-direct {v1, p1}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
     goto :goto_0
 
@@ -598,13 +553,11 @@ return-void
 
     check-cast p2, Ljava/util/Collection;
 
-    invoke-direct {v0, p2}, Ljava/util/ArrayList;
-    -><init>(Ljava/util/Collection;)V
+    invoke-direct {v0, p2}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
     .line 4
     :cond_1
-    invoke-static {v1, v0}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v0}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 

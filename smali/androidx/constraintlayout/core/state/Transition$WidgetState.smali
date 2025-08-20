@@ -43,8 +43,7 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -52,8 +51,7 @@
     const/4 v0, 0x1
 
     .line 5
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mNeedSetup:Z
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mNeedSetup:Z
 
     .line 6
     .line 7
@@ -61,27 +59,23 @@
 
     .line 8
     .line 9
-    invoke-direct {v0}, Landroidx/constraintlayout/core/motion/utils/KeyCache;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/constraintlayout/core/motion/utils/KeyCache;-><init>()V
 
     .line 10
     .line 11
     .line 12
-    iput-object v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mKeyCache:Landroidx/constraintlayout/core/motion/utils/KeyCache;
+    iput-object v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mKeyCache:Landroidx/constraintlayout/core/motion/utils/KeyCache;
 
     .line 13
     .line 14
     const/4 v0, -0x1
 
     .line 15
-    iput v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mParentHeight:I
+    iput v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mParentHeight:I
 
     .line 16
     .line 17
-    iput v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mParentWidth:I
+    iput v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mParentWidth:I
 
     .line 18
     .line 19
@@ -89,14 +83,12 @@
 
     .line 20
     .line 21
-    invoke-direct {v0}, Landroidx/constraintlayout/core/state/WidgetFrame;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/constraintlayout/core/state/WidgetFrame;-><init>()V
 
     .line 22
     .line 23
     .line 24
-    iput-object v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mStart:Landroidx/constraintlayout/core/state/WidgetFrame;
+    iput-object v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mStart:Landroidx/constraintlayout/core/state/WidgetFrame;
 
     .line 25
     .line 26
@@ -104,14 +96,12 @@
 
     .line 27
     .line 28
-    invoke-direct {v0}, Landroidx/constraintlayout/core/state/WidgetFrame;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/constraintlayout/core/state/WidgetFrame;-><init>()V
 
     .line 29
     .line 30
     .line 31
-    iput-object v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mEnd:Landroidx/constraintlayout/core/state/WidgetFrame;
+    iput-object v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mEnd:Landroidx/constraintlayout/core/state/WidgetFrame;
 
     .line 32
     .line 33
@@ -119,14 +109,12 @@
 
     .line 34
     .line 35
-    invoke-direct {v0}, Landroidx/constraintlayout/core/state/WidgetFrame;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/constraintlayout/core/state/WidgetFrame;-><init>()V
 
     .line 36
     .line 37
     .line 38
-    iput-object v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mInterpolated:Landroidx/constraintlayout/core/state/WidgetFrame;
+    iput-object v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mInterpolated:Landroidx/constraintlayout/core/state/WidgetFrame;
 
     .line 39
     .line 40
@@ -134,19 +122,16 @@
 
     .line 41
     .line 42
-    iget-object v1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mStart:Landroidx/constraintlayout/core/state/WidgetFrame;
+    iget-object v1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mStart:Landroidx/constraintlayout/core/state/WidgetFrame;
 
     .line 43
     .line 44
-    invoke-direct {v0, v1}, Landroidx/constraintlayout/core/motion/MotionWidget;
-    -><init>(Landroidx/constraintlayout/core/state/WidgetFrame;)V
+    invoke-direct {v0, v1}, Landroidx/constraintlayout/core/motion/MotionWidget;-><init>(Landroidx/constraintlayout/core/state/WidgetFrame;)V
 
     .line 45
     .line 46
     .line 47
-    iput-object v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mMotionWidgetStart:Landroidx/constraintlayout/core/motion/MotionWidget;
+    iput-object v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionWidgetStart:Landroidx/constraintlayout/core/motion/MotionWidget;
 
     .line 48
     .line 49
@@ -154,19 +139,16 @@
 
     .line 50
     .line 51
-    iget-object v1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mEnd:Landroidx/constraintlayout/core/state/WidgetFrame;
+    iget-object v1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mEnd:Landroidx/constraintlayout/core/state/WidgetFrame;
 
     .line 52
     .line 53
-    invoke-direct {v0, v1}, Landroidx/constraintlayout/core/motion/MotionWidget;
-    -><init>(Landroidx/constraintlayout/core/state/WidgetFrame;)V
+    invoke-direct {v0, v1}, Landroidx/constraintlayout/core/motion/MotionWidget;-><init>(Landroidx/constraintlayout/core/state/WidgetFrame;)V
 
     .line 54
     .line 55
     .line 56
-    iput-object v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mMotionWidgetEnd:Landroidx/constraintlayout/core/motion/MotionWidget;
+    iput-object v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionWidgetEnd:Landroidx/constraintlayout/core/motion/MotionWidget;
 
     .line 57
     .line 58
@@ -174,19 +156,16 @@
 
     .line 59
     .line 60
-    iget-object v1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mInterpolated:Landroidx/constraintlayout/core/state/WidgetFrame;
+    iget-object v1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mInterpolated:Landroidx/constraintlayout/core/state/WidgetFrame;
 
     .line 61
     .line 62
-    invoke-direct {v0, v1}, Landroidx/constraintlayout/core/motion/MotionWidget;
-    -><init>(Landroidx/constraintlayout/core/state/WidgetFrame;)V
+    invoke-direct {v0, v1}, Landroidx/constraintlayout/core/motion/MotionWidget;-><init>(Landroidx/constraintlayout/core/state/WidgetFrame;)V
 
     .line 63
     .line 64
     .line 65
-    iput-object v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mMotionWidgetInterpolated:Landroidx/constraintlayout/core/motion/MotionWidget;
+    iput-object v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionWidgetInterpolated:Landroidx/constraintlayout/core/motion/MotionWidget;
 
     .line 66
     .line 67
@@ -194,45 +173,37 @@
 
     .line 68
     .line 69
-    iget-object v1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mMotionWidgetStart:Landroidx/constraintlayout/core/motion/MotionWidget;
+    iget-object v1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionWidgetStart:Landroidx/constraintlayout/core/motion/MotionWidget;
 
     .line 70
     .line 71
-    invoke-direct {v0, v1}, Landroidx/constraintlayout/core/motion/Motion;
-    -><init>(Landroidx/constraintlayout/core/motion/MotionWidget;)V
+    invoke-direct {v0, v1}, Landroidx/constraintlayout/core/motion/Motion;-><init>(Landroidx/constraintlayout/core/motion/MotionWidget;)V
 
     .line 72
     .line 73
     .line 74
-    iput-object v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
+    iput-object v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
 
     .line 75
     .line 76
-    iget-object v1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mMotionWidgetStart:Landroidx/constraintlayout/core/motion/MotionWidget;
+    iget-object v1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionWidgetStart:Landroidx/constraintlayout/core/motion/MotionWidget;
 
     .line 77
     .line 78
-    invoke-virtual {v0, v1}, Landroidx/constraintlayout/core/motion/Motion;
-    ->setStart(Landroidx/constraintlayout/core/motion/MotionWidget;)V
+    invoke-virtual {v0, v1}, Landroidx/constraintlayout/core/motion/Motion;->setStart(Landroidx/constraintlayout/core/motion/MotionWidget;)V
 
     .line 79
     .line 80
     .line 81
-    iget-object v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
+    iget-object v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
 
     .line 82
     .line 83
-    iget-object v1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mMotionWidgetEnd:Landroidx/constraintlayout/core/motion/MotionWidget;
+    iget-object v1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionWidgetEnd:Landroidx/constraintlayout/core/motion/MotionWidget;
 
     .line 84
     .line 85
-    invoke-virtual {v0, v1}, Landroidx/constraintlayout/core/motion/Motion;
-    ->setEnd(Landroidx/constraintlayout/core/motion/MotionWidget;)V
+    invoke-virtual {v0, v1}, Landroidx/constraintlayout/core/motion/Motion;->setEnd(Landroidx/constraintlayout/core/motion/MotionWidget;)V
 return-void
 .end method
 
@@ -246,8 +217,7 @@ return-void
 
     .line 2
     .line 3
-    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mStart:Landroidx/constraintlayout/core/state/WidgetFrame;    return-object p1
+    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mStart:Landroidx/constraintlayout/core/state/WidgetFrame;    return-object p1
 
     .line 6
     :cond_0
@@ -258,26 +228,22 @@ return-void
 
     .line 8
     .line 9
-    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mEnd:Landroidx/constraintlayout/core/state/WidgetFrame;    return-object p1
+    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mEnd:Landroidx/constraintlayout/core/state/WidgetFrame;    return-object p1
 
     .line 12
     :cond_1
-    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mInterpolated:Landroidx/constraintlayout/core/state/WidgetFrame;    return-object p1
+    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mInterpolated:Landroidx/constraintlayout/core/state/WidgetFrame;    return-object p1
 .end method
 
 .method public getPathRelativeId()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
+    iget-object v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/constraintlayout/core/motion/Motion;
-    ->getAnimateRelativeTo()Ljava/lang/String;
+    invoke-virtual {v0}, Landroidx/constraintlayout/core/motion/Motion;->getAnimateRelativeTo()Ljava/lang/String;
 
     .line 4
     .line 5
@@ -291,18 +257,15 @@ return-void
     .locals 11
 
     .line 1
-    iput p2, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mParentHeight:I
+    iput p2, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mParentHeight:I
 
     .line 2
     .line 3
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mParentWidth:I
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mParentWidth:I
 
     .line 4
     .line 5
-    iget-boolean v2, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mNeedSetup:Z
+    iget-boolean v2, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mNeedSetup:Z
 
     .line 6
     .line 7
@@ -310,8 +273,7 @@ return-void
 
     .line 8
     .line 9
-    iget-object v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
+    iget-object v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
 
     .line 10
     .line 11
@@ -319,8 +281,7 @@ return-void
 
     .line 12
     .line 13
-    invoke-static {}, Ljava/lang/System;
-    ->nanoTime()J
+    invoke-static {}, Ljava/lang/System;->nanoTime()J
 
     .line 14
     .line 15
@@ -334,8 +295,7 @@ return-void
     move v2, p2
 
     .line 19
-    invoke-virtual/range {v0 .. v5}, Landroidx/constraintlayout/core/motion/Motion;
-    ->setup(IIFJ)V
+    invoke-virtual/range {v0 .. v5}, Landroidx/constraintlayout/core/motion/Motion;->setup(IIFJ)V
 
     .line 20
     .line 21
@@ -343,24 +303,20 @@ return-void
     const/4 v0, 0x0
 
     .line 23
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mNeedSetup:Z
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mNeedSetup:Z
 
     .line 24
     .line 25
     :cond_0
-    iget-object v2, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mInterpolated:Landroidx/constraintlayout/core/state/WidgetFrame;
+    iget-object v2, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mInterpolated:Landroidx/constraintlayout/core/state/WidgetFrame;
 
     .line 26
     .line 27
-    iget-object v3, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mStart:Landroidx/constraintlayout/core/state/WidgetFrame;
+    iget-object v3, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mStart:Landroidx/constraintlayout/core/state/WidgetFrame;
 
     .line 28
     .line 29
-    iget-object v4, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mEnd:Landroidx/constraintlayout/core/state/WidgetFrame;
+    iget-object v4, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mEnd:Landroidx/constraintlayout/core/state/WidgetFrame;
 
     .line 30
     .line 31
@@ -376,34 +332,28 @@ return-void
     move-object v5, p4
 
     .line 35
-    invoke-static/range {v0 .. v6}, Landroidx/constraintlayout/core/state/WidgetFrame;
-    ->interpolate(IILandroidx/constraintlayout/core/state/WidgetFrame;Landroidx/constraintlayout/core/state/WidgetFrame;Landroidx/constraintlayout/core/state/WidgetFrame;Landroidx/constraintlayout/core/state/Transition;F)V
+    invoke-static/range {v0 .. v6}, Landroidx/constraintlayout/core/state/WidgetFrame;->interpolate(IILandroidx/constraintlayout/core/state/WidgetFrame;Landroidx/constraintlayout/core/state/WidgetFrame;Landroidx/constraintlayout/core/state/WidgetFrame;Landroidx/constraintlayout/core/state/Transition;F)V
 
     .line 36
     .line 37
     .line 38
-    iget-object v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mInterpolated:Landroidx/constraintlayout/core/state/WidgetFrame;
+    iget-object v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mInterpolated:Landroidx/constraintlayout/core/state/WidgetFrame;
 
     .line 39
     .line 40
-    iput p3, v0, Landroidx/constraintlayout/core/state/WidgetFrame;
-    ->interpolatedPos:F
+    iput p3, v0, Landroidx/constraintlayout/core/state/WidgetFrame;->interpolatedPos:F
 
     .line 41
     .line 42
-    iget-object v5, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
+    iget-object v5, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
 
     .line 43
     .line 44
-    iget-object v6, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mMotionWidgetInterpolated:Landroidx/constraintlayout/core/motion/MotionWidget;
+    iget-object v6, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionWidgetInterpolated:Landroidx/constraintlayout/core/motion/MotionWidget;
 
     .line 45
     .line 46
-    invoke-static {}, Ljava/lang/System;
-    ->nanoTime()J
+    invoke-static {}, Ljava/lang/System;->nanoTime()J
 
     .line 47
     .line 48
@@ -411,16 +361,14 @@ return-void
     move-result-wide v8
 
     .line 50
-    iget-object v10, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mKeyCache:Landroidx/constraintlayout/core/motion/utils/KeyCache;
+    iget-object v10, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mKeyCache:Landroidx/constraintlayout/core/motion/utils/KeyCache;
 
     .line 51
     .line 52
     move v7, p3
 
     .line 53
-    invoke-virtual/range {v5 .. v10}, Landroidx/constraintlayout/core/motion/Motion;
-    ->interpolate(Landroidx/constraintlayout/core/motion/MotionWidget;FJLandroidx/constraintlayout/core/motion/utils/KeyCache;)Z
+    invoke-virtual/range {v5 .. v10}, Landroidx/constraintlayout/core/motion/Motion;->interpolate(Landroidx/constraintlayout/core/motion/MotionWidget;FJLandroidx/constraintlayout/core/motion/utils/KeyCache;)Z
 return-void
 .end method
 
@@ -430,19 +378,15 @@ return-void
     .line 1
     new-instance v0, Landroidx/constraintlayout/core/motion/key/MotionKeyAttributes;
 
-    invoke-direct {v0}, Landroidx/constraintlayout/core/motion/key/MotionKeyAttributes;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/constraintlayout/core/motion/key/MotionKeyAttributes;-><init>()V
 
     .line 2
-    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/motion/utils/TypedBundle;
-    ->applyDelta(Landroidx/constraintlayout/core/motion/utils/TypedValues;)V
+    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/motion/utils/TypedBundle;->applyDelta(Landroidx/constraintlayout/core/motion/utils/TypedValues;)V
 
     .line 3
-    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
+    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
 
-    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/motion/Motion;
-    ->addKey(Landroidx/constraintlayout/core/motion/key/MotionKey;)V
+    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/motion/Motion;->addKey(Landroidx/constraintlayout/core/motion/key/MotionKey;)V
 return-void
 .end method
 
@@ -452,12 +396,10 @@ return-void
     .line 4
     new-instance v0, Landroidx/constraintlayout/core/motion/key/MotionKeyAttributes;
 
-    invoke-direct {v0}, Landroidx/constraintlayout/core/motion/key/MotionKeyAttributes;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/constraintlayout/core/motion/key/MotionKeyAttributes;-><init>()V
 
     .line 5
-    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/motion/utils/TypedBundle;
-    ->applyDelta(Landroidx/constraintlayout/core/motion/utils/TypedValues;)V
+    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/motion/utils/TypedBundle;->applyDelta(Landroidx/constraintlayout/core/motion/utils/TypedValues;)V
 
     if-eqz p2, :cond_0
 
@@ -470,20 +412,17 @@ return-void
     if-ge p1, v1, :cond_0
 
     .line 7
-    iget-object v1, v0, Landroidx/constraintlayout/core/motion/key/MotionKey;
-    ->mCustom:Ljava/util/HashMap;
+    iget-object v1, v0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mCustom:Ljava/util/HashMap;
 
     aget-object v2, p2, p1
 
-    invoke-virtual {v2}, Landroidx/constraintlayout/core/motion/CustomVariable;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v2}, Landroidx/constraintlayout/core/motion/CustomVariable;->getName()Ljava/lang/String;
 
     move-result-object v2
 
     aget-object v3, p2, p1
 
-    invoke-virtual {v1, v2, v3}, Ljava/util/HashMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v2, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     add-int/lit8 p1, p1, 0x1
 
@@ -491,11 +430,9 @@ return-void
 
     .line 8
     :cond_0
-    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
+    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
 
-    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/motion/Motion;
-    ->addKey(Landroidx/constraintlayout/core/motion/key/MotionKey;)V
+    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/motion/Motion;->addKey(Landroidx/constraintlayout/core/motion/key/MotionKey;)V
     return-void
 .end method
 
@@ -507,25 +444,21 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/motion/utils/TypedBundle;
-    ->applyDelta(Landroidx/constraintlayout/core/motion/utils/TypedValues;)V
+    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/motion/utils/TypedBundle;->applyDelta(Landroidx/constraintlayout/core/motion/utils/TypedValues;)V
 
     .line 7
     .line 8
     .line 9
-    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
+    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
 
     .line 10
     .line 11
-    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/motion/Motion;
-    ->addKey(Landroidx/constraintlayout/core/motion/key/MotionKey;)V
+    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/motion/Motion;->addKey(Landroidx/constraintlayout/core/motion/key/MotionKey;)V
 return-void
 .end method
 
@@ -537,25 +470,21 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/constraintlayout/core/motion/key/MotionKeyPosition;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/constraintlayout/core/motion/key/MotionKeyPosition;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/motion/utils/TypedBundle;
-    ->applyDelta(Landroidx/constraintlayout/core/motion/utils/TypedValues;)V
+    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/motion/utils/TypedBundle;->applyDelta(Landroidx/constraintlayout/core/motion/utils/TypedValues;)V
 
     .line 7
     .line 8
     .line 9
-    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
+    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
 
     .line 10
     .line 11
-    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/motion/Motion;
-    ->addKey(Landroidx/constraintlayout/core/motion/key/MotionKey;)V
+    invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/motion/Motion;->addKey(Landroidx/constraintlayout/core/motion/key/MotionKey;)V
 return-void
 .end method
 
@@ -563,18 +492,15 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
+    iget-object v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
 
     .line 2
     .line 3
-    iget-object p1, p1, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
+    iget-object p1, p1, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/motion/Motion;
-    ->setupRelative(Landroidx/constraintlayout/core/motion/Motion;)V
+    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/motion/Motion;->setupRelative(Landroidx/constraintlayout/core/motion/Motion;)V
 return-void
 .end method
 
@@ -589,46 +515,38 @@ return-void
 
     .line 3
     .line 4
-    iget-object p2, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mStart:Landroidx/constraintlayout/core/state/WidgetFrame;
+    iget-object p2, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mStart:Landroidx/constraintlayout/core/state/WidgetFrame;
 
     .line 5
     .line 6
-    invoke-virtual {p2, p1}, Landroidx/constraintlayout/core/state/WidgetFrame;
-    ->update(Landroidx/constraintlayout/core/widgets/ConstraintWidget;)Landroidx/constraintlayout/core/state/WidgetFrame;
+    invoke-virtual {p2, p1}, Landroidx/constraintlayout/core/state/WidgetFrame;->update(Landroidx/constraintlayout/core/widgets/ConstraintWidget;)Landroidx/constraintlayout/core/state/WidgetFrame;
 
     .line 7
     .line 8
     .line 9
-    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mMotionWidgetStart:Landroidx/constraintlayout/core/motion/MotionWidget;
+    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionWidgetStart:Landroidx/constraintlayout/core/motion/MotionWidget;
 
     .line 10
     .line 11
-    invoke-virtual {p1, p1}, Landroidx/constraintlayout/core/motion/MotionWidget;
-    ->updateMotion(Landroidx/constraintlayout/core/motion/utils/TypedValues;)V
+    invoke-virtual {p1, p1}, Landroidx/constraintlayout/core/motion/MotionWidget;->updateMotion(Landroidx/constraintlayout/core/motion/utils/TypedValues;)V
 
     .line 12
     .line 13
     .line 14
-    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
+    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
 
     .line 15
     .line 16
-    iget-object p2, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mMotionWidgetStart:Landroidx/constraintlayout/core/motion/MotionWidget;
+    iget-object p2, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionWidgetStart:Landroidx/constraintlayout/core/motion/MotionWidget;
 
     .line 17
     .line 18
-    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/motion/Motion;
-    ->setStart(Landroidx/constraintlayout/core/motion/MotionWidget;)V
+    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/motion/Motion;->setStart(Landroidx/constraintlayout/core/motion/MotionWidget;)V
 
     .line 19
     .line 20
     .line 21
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mNeedSetup:Z
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mNeedSetup:Z
 
     .line 22
     .line 23
@@ -640,35 +558,29 @@ return-void
 
     .line 25
     .line 26
-    iget-object p2, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mEnd:Landroidx/constraintlayout/core/state/WidgetFrame;
+    iget-object p2, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mEnd:Landroidx/constraintlayout/core/state/WidgetFrame;
 
     .line 27
     .line 28
-    invoke-virtual {p2, p1}, Landroidx/constraintlayout/core/state/WidgetFrame;
-    ->update(Landroidx/constraintlayout/core/widgets/ConstraintWidget;)Landroidx/constraintlayout/core/state/WidgetFrame;
+    invoke-virtual {p2, p1}, Landroidx/constraintlayout/core/state/WidgetFrame;->update(Landroidx/constraintlayout/core/widgets/ConstraintWidget;)Landroidx/constraintlayout/core/state/WidgetFrame;
 
     .line 29
     .line 30
     .line 31
-    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
+    iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
 
     .line 32
     .line 33
-    iget-object p2, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mMotionWidgetEnd:Landroidx/constraintlayout/core/motion/MotionWidget;
+    iget-object p2, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionWidgetEnd:Landroidx/constraintlayout/core/motion/MotionWidget;
 
     .line 34
     .line 35
-    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/motion/Motion;
-    ->setEnd(Landroidx/constraintlayout/core/motion/MotionWidget;)V
+    invoke-virtual {p1, p2}, Landroidx/constraintlayout/core/motion/Motion;->setEnd(Landroidx/constraintlayout/core/motion/MotionWidget;)V
 
     .line 36
     .line 37
     .line 38
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mNeedSetup:Z
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mNeedSetup:Z
 
     .line 39
     .line 40
@@ -677,8 +589,7 @@ return-void
     const/4 p1, -0x1
 
     .line 41
-    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;
-    ->mParentWidth:I    
+    iput p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mParentWidth:I
     return-void
 .end method
 

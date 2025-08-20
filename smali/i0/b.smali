@@ -14,14 +14,11 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Li0/b;
-    ->a:I
+    iput p2, p0, Li0/b;->a:I
 
-    iput-object p1, p0, Li0/b;
-    ->b:Ljava/lang/Object;
+    iput-object p1, p0, Li0/b;->b:Ljava/lang/Object;
 
-    invoke-direct {p0}, Landroid/view/ViewOutlineProvider;
-    -><init>()V
+    invoke-direct {p0}, Landroid/view/ViewOutlineProvider;-><init>()V
     return-void
 .end method
 
@@ -31,8 +28,7 @@
     .locals 8
 
     .line 1
-    iget p1, p0, Li0/b;
-    ->a:I
+    iget p1, p0, Li0/b;->a:I
 
     .line 2
     .line 3
@@ -41,8 +37,7 @@
     .line 4
     .line 5
     .line 6
-    iget-object p1, p0, Li0/b;
-    ->b:Ljava/lang/Object;
+    iget-object p1, p0, Li0/b;->b:Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -50,13 +45,11 @@
 
     .line 9
     .line 10
-    iget-object p1, p1, Lu0/z;
-    ->e:Landroid/graphics/Path;
+    iget-object p1, p1, Lu0/z;->e:Landroid/graphics/Path;
 
     .line 11
     .line 12
-    invoke-virtual {p1}, Landroid/graphics/Path;
-    ->isEmpty()Z
+    invoke-virtual {p1}, Landroid/graphics/Path;->isEmpty()Z
 
     .line 13
     .line 14
@@ -68,8 +61,7 @@
 
     .line 17
     .line 18
-    invoke-static {p2, p1}, Landroidx/core/view/p;
-    ->l(Landroid/graphics/Outline;Landroid/graphics/Path;)V
+    invoke-static {p2, p1}, Landroidx/core/view/p;->l(Landroid/graphics/Outline;Landroid/graphics/Path;)V
 
     .line 19
     .line 20
@@ -79,8 +71,7 @@
 
     .line 22
     :pswitch_0
-    iget-object p1, p0, Li0/b;
-    ->b:Ljava/lang/Object;
+    iget-object p1, p0, Li0/b;->b:Ljava/lang/Object;
 
     .line 23
     .line 24
@@ -88,8 +79,7 @@
 
     .line 25
     .line 26
-    iget-object v0, p1, Lu0/z;
-    ->c:Lu0/n;
+    iget-object v0, p1, Lu0/z;->c:Lu0/n;
 
     .line 27
     .line 28
@@ -97,13 +87,11 @@
 
     .line 29
     .line 30
-    iget-object v0, p1, Lu0/z;
-    ->d:Landroid/graphics/RectF;
+    iget-object v0, p1, Lu0/z;->d:Landroid/graphics/RectF;
 
     .line 31
     .line 32
-    invoke-virtual {v0}, Landroid/graphics/RectF;
-    ->isEmpty()Z
+    invoke-virtual {v0}, Landroid/graphics/RectF;->isEmpty()Z
 
     .line 33
     .line 34
@@ -115,53 +103,46 @@
 
     .line 37
     .line 38
-    iget-object v0, p1, Lu0/z;
-    ->d:Landroid/graphics/RectF;
+    iget-object v0, p1, Lu0/z;->d:Landroid/graphics/RectF;
 
     .line 39
     .line 40
-    iget v1, v0, Landroid/graphics/RectF;
-    ->left:F
+    iget v1, v0, Landroid/graphics/RectF;->left:F
 
     .line 41
     .line 42
     float-to-int v3, v1
 
     .line 43
-    iget v1, v0, Landroid/graphics/RectF;
-    ->top:F
+    iget v1, v0, Landroid/graphics/RectF;->top:F
 
     .line 44
     .line 45
     float-to-int v4, v1
 
     .line 46
-    iget v1, v0, Landroid/graphics/RectF;
-    ->right:F
+    iget v1, v0, Landroid/graphics/RectF;->right:F
 
     .line 47
     .line 48
     float-to-int v5, v1
 
     .line 49
-    iget v0, v0, Landroid/graphics/RectF;
-    ->bottom:F
+    iget v0, v0, Landroid/graphics/RectF;->bottom:F
 
     .line 50
     .line 51
     float-to-int v6, v0
 
     .line 52
-    iget v7, p1, Lu0/B;
-    ->g:F
+    iget v7, p1, Lu0/B;->g:F
 
     .line 53
     .line 54
     move-object v2, p2
 
     .line 55
-    invoke-virtual/range {v2 .. v7}, Landroid/graphics/Outline;
-    ->setRoundRect(IIIIF)V
+    invoke-virtual/range {v2 .. v7}, Landroid/graphics/Outline;->setRoundRect(IIIIF)V
 
     .line 56
     .line 57
@@ -174,8 +155,7 @@
     move-object v2, p2
 
     .line 60
-    iget-object p1, p0, Li0/b;
-    ->b:Ljava/lang/Object;
+    iget-object p1, p0, Li0/b;->b:Ljava/lang/Object;
 
     .line 61
     .line 62
@@ -183,8 +163,7 @@
 
     .line 63
     .line 64
-    iget-object p1, p1, Lcom/google/android/material/chip/Chip;
-    ->b:Li0/e;
+    iget-object p1, p1, Lcom/google/android/material/chip/Chip;->b:Li0/e;
 
     .line 65
     .line 66
@@ -192,8 +171,7 @@
 
     .line 67
     .line 68
-    invoke-virtual {p1, v2}, Li0/e;
-    ->getOutline(Landroid/graphics/Outline;)V
+    invoke-virtual {p1, v2}, Li0/e;->getOutline(Landroid/graphics/Outline;)V
 
     .line 69
     .line 70
@@ -205,8 +183,7 @@
     const/4 p1, 0x0
 
     .line 73
-    invoke-virtual {v2, p1}, Landroid/graphics/Outline;
-    ->setAlpha(F)V
+    invoke-virtual {v2, p1}, Landroid/graphics/Outline;->setAlpha(F)V
 
     .line 74
     .line 75

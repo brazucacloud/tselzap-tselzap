@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -40,8 +39,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 2
     .line 3
@@ -49,8 +47,7 @@
     move-result-object p0
 
     .line 5
-    invoke-virtual {p0}, Landroid/content/pm/PackageManager;
-    ->isAutoRevokeWhitelisted()Z
+    invoke-virtual {p0}, Landroid/content/pm/PackageManager;->isAutoRevokeWhitelisted()Z
 
     .line 6
     .line 7

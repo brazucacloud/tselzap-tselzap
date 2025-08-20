@@ -15,11 +15,9 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lx0/i;
-    ->a:Lx0/k;
+    iput-object p1, p0, Lx0/i;->a:Lx0/k;
 
     return-void
 .end method
@@ -33,18 +31,15 @@
     const/4 v0, 0x1
 
     .line 2
-    iget-object v1, p0, Lx0/i;
-    ->a:Lx0/k;
+    iget-object v1, p0, Lx0/i;->a:Lx0/k;
 
     .line 3
     .line 4
-    iput-boolean v0, v1, Lx0/k;
-    ->m:Z
+    iput-boolean v0, v1, Lx0/k;->m:Z
 
     .line 5
     .line 6
-    invoke-static {}, Landroid/os/SystemClock;
-    ->uptimeMillis()J
+    invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
 
     .line 7
     .line 8
@@ -52,16 +47,14 @@
     move-result-wide v2
 
     .line 10
-    iput-wide v2, v1, Lx0/k;
-    ->o:J
+    iput-wide v2, v1, Lx0/k;->o:J
 
     .line 11
     .line 12
     const/4 v0, 0x0
 
     .line 13
-    invoke-virtual {v1, v0}, Lx0/k;
-    ->t(Z)V
+    invoke-virtual {v1, v0}, Lx0/k;->t(Z)V
 
     .line 14
     .line 15

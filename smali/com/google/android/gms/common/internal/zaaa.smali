@@ -20,8 +20,7 @@
     .line 3
     .line 4
     .line 5
-    invoke-direct {p0, p1, p2, v0}, Landroid/widget/Button;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, v0}, Landroid/widget/Button;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 6
     .line 7
@@ -63,8 +62,7 @@
 
     .line 13
     .line 14
-    invoke-static {p0, p2}, LA/d;
-    ->c(ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p2}, LA/d;->c(ILjava/lang/String;)Ljava/lang/String;
 
     .line 15
     .line 16
@@ -72,8 +70,7 @@
     move-result-object p0
 
     .line 18
-    invoke-direct {p1, p0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -95,13 +92,11 @@
     .locals 5
 
     .line 1
-    sget-object v0, Landroid/graphics/Typeface;
-    ->DEFAULT_BOLD:Landroid/graphics/Typeface;
+    sget-object v0, Landroid/graphics/Typeface;->DEFAULT_BOLD:Landroid/graphics/Typeface;
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Landroid/widget/TextView;
-    ->setTypeface(Landroid/graphics/Typeface;)V
+    invoke-virtual {p0, v0}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;)V
 
     .line 4
     .line 5
@@ -110,14 +105,12 @@
 
     .line 7
     .line 8
-    invoke-virtual {p0, v0}, Landroid/widget/TextView;
-    ->setTextSize(F)V
+    invoke-virtual {p0, v0}, Landroid/widget/TextView;->setTextSize(F)V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p1}, Landroid/content/res/Resources;
-    ->getDisplayMetrics()Landroid/util/DisplayMetrics;
+    invoke-virtual {p1}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
 
     .line 12
     .line 13
@@ -125,8 +118,7 @@
     move-result-object v0
 
     .line 15
-    iget v0, v0, Landroid/util/DisplayMetrics;
-    ->density:F
+    iget v0, v0, Landroid/util/DisplayMetrics;->density:F
 
     .line 16
     .line 17
@@ -148,30 +140,25 @@
     float-to-int v0, v0
 
     .line 25
-    invoke-virtual {p0, v0}, Landroid/widget/TextView;
-    ->setMinHeight(I)V
+    invoke-virtual {p0, v0}, Landroid/widget/TextView;->setMinHeight(I)V
 
     .line 26
     .line 27
     .line 28
-    invoke-virtual {p0, v0}, Landroid/widget/TextView;
-    ->setMinWidth(I)V
+    invoke-virtual {p0, v0}, Landroid/widget/TextView;->setMinWidth(I)V
 
     .line 29
     .line 30
     .line 31
-    sget v0, Lcom/google/android/gms/base/R$drawable;
-    ->common_google_signin_btn_icon_dark:I
+    sget v0, Lcom/google/android/gms/base/R$drawable;->common_google_signin_btn_icon_dark:I
 
     .line 32
     .line 33
-    sget v1, Lcom/google/android/gms/base/R$drawable;
-    ->common_google_signin_btn_icon_light:I
+    sget v1, Lcom/google/android/gms/base/R$drawable;->common_google_signin_btn_icon_light:I
 
     .line 34
     .line 35
-    invoke-static {p3, v0, v1, v1}, Lcom/google/android/gms/common/internal/zaaa;
-    ->zab(IIII)I
+    invoke-static {p3, v0, v1, v1}, Lcom/google/android/gms/common/internal/zaaa;->zab(IIII)I
 
     .line 36
     .line 37
@@ -179,18 +166,15 @@
     move-result v0
 
     .line 39
-    sget v1, Lcom/google/android/gms/base/R$drawable;
-    ->common_google_signin_btn_text_dark:I
+    sget v1, Lcom/google/android/gms/base/R$drawable;->common_google_signin_btn_text_dark:I
 
     .line 40
     .line 41
-    sget v2, Lcom/google/android/gms/base/R$drawable;
-    ->common_google_signin_btn_text_light:I
+    sget v2, Lcom/google/android/gms/base/R$drawable;->common_google_signin_btn_text_light:I
 
     .line 42
     .line 43
-    invoke-static {p3, v1, v2, v2}, Lcom/google/android/gms/common/internal/zaaa;
-    ->zab(IIII)I
+    invoke-static {p3, v1, v2, v2}, Lcom/google/android/gms/common/internal/zaaa;->zab(IIII)I
 
     .line 44
     .line 45
@@ -228,8 +212,7 @@
 
     .line 59
     .line 60
-    invoke-static {p2, v2}, LA/d;
-    ->c(ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {p2, v2}, LA/d;->c(ILjava/lang/String;)Ljava/lang/String;
 
     .line 61
     .line 62
@@ -237,8 +220,7 @@
     move-result-object p2
 
     .line 64
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 65
     .line 66
@@ -251,8 +233,7 @@
 
     .line 69
     :goto_0
-    invoke-virtual {p1, v0}, Landroid/content/res/Resources;
-    ->getDrawable(I)Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p1, v0}, Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
 
     .line 70
     .line 71
@@ -260,8 +241,7 @@
     move-result-object v0
 
     .line 73
-    invoke-static {v0}, Landroidx/core/graphics/drawable/DrawableCompat;
-    ->wrap(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
+    invoke-static {v0}, Landroidx/core/graphics/drawable/DrawableCompat;->wrap(Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/Drawable;
 
     .line 74
     .line 75
@@ -269,13 +249,11 @@
     move-result-object v0
 
     .line 77
-    sget v1, Lcom/google/android/gms/base/R$color;
-    ->common_google_signin_btn_tint:I
+    sget v1, Lcom/google/android/gms/base/R$color;->common_google_signin_btn_tint:I
 
     .line 78
     .line 79
-    invoke-virtual {p1, v1}, Landroid/content/res/Resources;
-    ->getColorStateList(I)Landroid/content/res/ColorStateList;
+    invoke-virtual {p1, v1}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
     .line 80
     .line 81
@@ -283,41 +261,34 @@
     move-result-object v1
 
     .line 83
-    invoke-static {v0, v1}, Landroidx/core/graphics/drawable/DrawableCompat;
-    ->setTintList(Landroid/graphics/drawable/Drawable;Landroid/content/res/ColorStateList;)V
+    invoke-static {v0, v1}, Landroidx/core/graphics/drawable/DrawableCompat;->setTintList(Landroid/graphics/drawable/Drawable;Landroid/content/res/ColorStateList;)V
 
     .line 84
     .line 85
     .line 86
-    sget-object v1, Landroid/graphics/PorterDuff$Mode;
-    ->SRC_ATOP:Landroid/graphics/PorterDuff$Mode;
+    sget-object v1, Landroid/graphics/PorterDuff$Mode;->SRC_ATOP:Landroid/graphics/PorterDuff$Mode;
 
     .line 87
     .line 88
-    invoke-static {v0, v1}, Landroidx/core/graphics/drawable/DrawableCompat;
-    ->setTintMode(Landroid/graphics/drawable/Drawable;Landroid/graphics/PorterDuff$Mode;)V
+    invoke-static {v0, v1}, Landroidx/core/graphics/drawable/DrawableCompat;->setTintMode(Landroid/graphics/drawable/Drawable;Landroid/graphics/PorterDuff$Mode;)V
 
     .line 89
     .line 90
     .line 91
-    invoke-virtual {p0, v0}, Landroid/view/View;
-    ->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p0, v0}, Landroid/view/View;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
     .line 92
     .line 93
     .line 94
-    sget v0, Lcom/google/android/gms/base/R$color;
-    ->common_google_signin_btn_text_dark:I
+    sget v0, Lcom/google/android/gms/base/R$color;->common_google_signin_btn_text_dark:I
 
     .line 95
     .line 96
-    sget v1, Lcom/google/android/gms/base/R$color;
-    ->common_google_signin_btn_text_light:I
+    sget v1, Lcom/google/android/gms/base/R$color;->common_google_signin_btn_text_light:I
 
     .line 97
     .line 98
-    invoke-static {p3, v0, v1, v1}, Lcom/google/android/gms/common/internal/zaaa;
-    ->zab(IIII)I
+    invoke-static {p3, v0, v1, v1}, Lcom/google/android/gms/common/internal/zaaa;->zab(IIII)I
 
     .line 99
     .line 100
@@ -325,8 +296,7 @@
     move-result p3
 
     .line 102
-    invoke-virtual {p1, p3}, Landroid/content/res/Resources;
-    ->getColorStateList(I)Landroid/content/res/ColorStateList;
+    invoke-virtual {p1, p3}, Landroid/content/res/Resources;->getColorStateList(I)Landroid/content/res/ColorStateList;
 
     .line 103
     .line 104
@@ -334,8 +304,7 @@
     move-result-object p3
 
     .line 106
-    invoke-static {p3}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p3}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 107
     .line 108
@@ -347,8 +316,7 @@
 
     .line 111
     .line 112
-    invoke-virtual {p0, p3}, Landroid/widget/TextView;
-    ->setTextColor(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {p0, p3}, Landroid/widget/TextView;->setTextColor(Landroid/content/res/ColorStateList;)V
 
     .line 113
     .line 114
@@ -368,8 +336,7 @@
 
     .line 121
     .line 122
-    invoke-virtual {p0, p3}, Landroid/widget/TextView;
-    ->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, p3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 123
     .line 124
@@ -382,8 +349,7 @@
 
     .line 127
     .line 128
-    invoke-static {p2, v2}, LA/d;
-    ->c(ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {p2, v2}, LA/d;->c(ILjava/lang/String;)Ljava/lang/String;
 
     .line 129
     .line 130
@@ -391,8 +357,7 @@
     move-result-object p2
 
     .line 132
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 133
     .line 134
@@ -401,13 +366,11 @@
 
     .line 136
     :cond_3
-    sget p2, Lcom/google/android/gms/base/R$string;
-    ->common_signin_button_text_long:I
+    sget p2, Lcom/google/android/gms/base/R$string;->common_signin_button_text_long:I
 
     .line 137
     .line 138
-    invoke-virtual {p1, p2}, Landroid/content/res/Resources;
-    ->getString(I)Ljava/lang/String;
+    invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     .line 139
     .line 140
@@ -415,8 +378,7 @@
     move-result-object p1
 
     .line 142
-    invoke-virtual {p0, p1}, Landroid/widget/TextView;
-    ->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 143
     .line 144
@@ -425,13 +387,11 @@
 
     .line 146
     :cond_4
-    sget p2, Lcom/google/android/gms/base/R$string;
-    ->common_signin_button_text:I
+    sget p2, Lcom/google/android/gms/base/R$string;->common_signin_button_text:I
 
     .line 147
     .line 148
-    invoke-virtual {p1, p2}, Landroid/content/res/Resources;
-    ->getString(I)Ljava/lang/String;
+    invoke-virtual {p1, p2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
     .line 149
     .line 150
@@ -439,21 +399,18 @@
     move-result-object p1
 
     .line 152
-    invoke-virtual {p0, p1}, Landroid/widget/TextView;
-    ->setText(Ljava/lang/CharSequence;)V
+    invoke-virtual {p0, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 153
     .line 154
     .line 155
     :goto_1
-    invoke-virtual {p0, p3}, Landroid/widget/TextView;
-    ->setTransformationMethod(Landroid/text/method/TransformationMethod;)V
+    invoke-virtual {p0, p3}, Landroid/widget/TextView;->setTransformationMethod(Landroid/text/method/TransformationMethod;)V
 
     .line 156
     .line 157
     .line 158
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 159
     .line 160
@@ -461,8 +418,7 @@
     move-result-object p1
 
     .line 162
-    invoke-static {p1}, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->isWearable(Landroid/content/Context;)Z
+    invoke-static {p1}, Lcom/google/android/gms/common/util/DeviceProperties;->isWearable(Landroid/content/Context;)Z
 
     .line 163
     .line 164
@@ -478,8 +434,7 @@
 
     .line 169
     .line 170
-    invoke-virtual {p0, p1}, Landroid/widget/TextView;
-    ->setGravity(I)V
+    invoke-virtual {p0, p1}, Landroid/widget/TextView;->setGravity(I)V
 
     .line 171
     .line 172

@@ -23,14 +23,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/google/android/gms/internal/measurement/zzjz;
-    -><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/internal/measurement/zzjz;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Lcom/google/android/gms/internal/measurement/zzjy;
-    ->zza:Lcom/google/android/gms/internal/measurement/zzjx;
+    sput-object v0, Lcom/google/android/gms/internal/measurement/zzjy;->zza:Lcom/google/android/gms/internal/measurement/zzjx;
 
     .line 7
     .line 8
@@ -48,8 +46,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/google/android/gms/internal/measurement/zzjy;
-    ->zza:Lcom/google/android/gms/internal/measurement/zzjx;
+    sget-object v0, Lcom/google/android/gms/internal/measurement/zzjy;->zza:Lcom/google/android/gms/internal/measurement/zzjx;
 
     .line 2
     .line 3

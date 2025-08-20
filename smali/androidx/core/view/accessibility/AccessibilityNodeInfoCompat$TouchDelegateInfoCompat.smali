@@ -27,12 +27,10 @@
     .end param
 
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 6
-    iput-object p1, p0, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$TouchDelegateInfoCompat;
-    ->mInfo:Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;
+    iput-object p1, p0, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$TouchDelegateInfoCompat;->mInfo:Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;
 
     return-void
 .end method
@@ -54,25 +52,21 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x1d
 
     if-lt v0, v1, :cond_0
 
     .line 3
-    invoke-static {p1}, Landroidx/core/view/o;
-    ->j(Ljava/util/Map;)Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;
+    invoke-static {p1}, Landroidx/core/view/o;->j(Ljava/util/Map;)Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$TouchDelegateInfoCompat;
-    ->mInfo:Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;
+    iput-object p1, p0, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$TouchDelegateInfoCompat;->mInfo:Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;
 
     return-void
 
@@ -80,8 +74,7 @@
     const/4 p1, 0x0
 
     .line 4
-    iput-object p1, p0, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$TouchDelegateInfoCompat;
-    ->mInfo:Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;
+    iput-object p1, p0, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$TouchDelegateInfoCompat;->mInfo:Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;
 
     return-void
 .end method
@@ -99,8 +92,7 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -112,13 +104,11 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$TouchDelegateInfoCompat;
-    ->mInfo:Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$TouchDelegateInfoCompat;->mInfo:Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;
 
     .line 8
     .line 9
-    invoke-static {v0, p1}, Landroidx/core/view/o;
-    ->d(Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;I)Landroid/graphics/Region;
+    invoke-static {v0, p1}, Landroidx/core/view/o;->d(Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;I)Landroid/graphics/Region;
 
     .line 10
     .line 11
@@ -141,8 +131,7 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -154,13 +143,11 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$TouchDelegateInfoCompat;
-    ->mInfo:Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$TouchDelegateInfoCompat;->mInfo:Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;
 
     .line 8
     .line 9
-    invoke-static {v0}, Landroidx/core/view/o;
-    ->b(Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;)I
+    invoke-static {v0}, Landroidx/core/view/o;->b(Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;)I
 
     .line 10
     .line 11
@@ -186,8 +173,7 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -199,13 +185,11 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$TouchDelegateInfoCompat;
-    ->mInfo:Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;
+    iget-object v0, p0, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat$TouchDelegateInfoCompat;->mInfo:Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;
 
     .line 8
     .line 9
-    invoke-static {v0, p1}, Landroidx/core/view/o;
-    ->k(Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;Landroid/graphics/Region;)Landroid/view/accessibility/AccessibilityNodeInfo;
+    invoke-static {v0, p1}, Landroidx/core/view/o;->k(Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;Landroid/graphics/Region;)Landroid/view/accessibility/AccessibilityNodeInfo;
 
     .line 10
     .line 11
@@ -217,8 +201,7 @@
 
     .line 14
     .line 15
-    invoke-static {p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
-    ->wrap(Landroid/view/accessibility/AccessibilityNodeInfo;)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
+    invoke-static {p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->wrap(Landroid/view/accessibility/AccessibilityNodeInfo;)Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
 
     .line 16
     .line 17

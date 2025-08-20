@@ -34,19 +34,16 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->EMPTY_MAP_FIELD:Landroidx/datastore/preferences/protobuf/MapFieldLite;
+    sput-object v0, Landroidx/datastore/preferences/protobuf/MapFieldLite;->EMPTY_MAP_FIELD:Landroidx/datastore/preferences/protobuf/MapFieldLite;
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->makeImmutable()V
+    invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->makeImmutable()V
     return-void
 .end method
 
@@ -54,14 +51,12 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/util/LinkedHashMap;
-    -><init>()V
+    invoke-direct {p0}, Ljava/util/LinkedHashMap;-><init>()V
 
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->isMutable:Z
+    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/MapFieldLite;->isMutable:Z
 return-void
 .end method
 
@@ -76,14 +71,12 @@ return-void
     .end annotation
 
     .line 3
-    invoke-direct {p0, p1}, Ljava/util/LinkedHashMap;
-    -><init>(Ljava/util/Map;)V
+    invoke-direct {p0, p1}, Ljava/util/LinkedHashMap;-><init>(Ljava/util/Map;)V
 
     const/4 p1, 0x1
 
     .line 4
-    iput-boolean p1, p0, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->isMutable:Z
+    iput-boolean p1, p0, Landroidx/datastore/preferences/protobuf/MapFieldLite;->isMutable:Z
 return-void
 .end method
 
@@ -102,8 +95,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-interface {p0}, Ljava/util/Map;
-    ->entrySet()Ljava/util/Set;
+    invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     .line 2
     .line 3
@@ -111,8 +103,7 @@ return-void
     move-result-object p0
 
     .line 5
-    invoke-interface {p0}, Ljava/util/Set;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     .line 6
     .line 7
@@ -124,8 +115,7 @@ return-void
 
     .line 10
     :goto_0
-    invoke-interface {p0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 11
     .line 12
@@ -137,8 +127,7 @@ return-void
 
     .line 15
     .line 16
-    invoke-interface {p0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -150,8 +139,7 @@ return-void
 
     .line 21
     .line 22
-    invoke-interface {v1}, Ljava/util/Map$Entry;
-    ->getKey()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     .line 23
     .line 24
@@ -159,8 +147,7 @@ return-void
     move-result-object v2
 
     .line 26
-    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->calculateHashCodeForObject(Ljava/lang/Object;)I
+    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->calculateHashCodeForObject(Ljava/lang/Object;)I
 
     .line 27
     .line 28
@@ -168,8 +155,7 @@ return-void
     move-result v2
 
     .line 30
-    invoke-interface {v1}, Ljava/util/Map$Entry;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     .line 31
     .line 32
@@ -177,8 +163,7 @@ return-void
     move-result-object v1
 
     .line 34
-    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->calculateHashCodeForObject(Ljava/lang/Object;)I
+    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->calculateHashCodeForObject(Ljava/lang/Object;)I
 
     .line 35
     .line 36
@@ -215,8 +200,7 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/datastore/preferences/protobuf/Internal;
-    ->hashCode([B)I
+    invoke-static {p0}, Landroidx/datastore/preferences/protobuf/Internal;->hashCode([B)I
 
     .line 8
     .line 9
@@ -235,8 +219,7 @@ return-void
 
     .line 15
     .line 16
-    invoke-virtual {p0}, Ljava/lang/Object;
-    ->hashCode()I
+    invoke-virtual {p0}, Ljava/lang/Object;->hashCode()I
 
     .line 17
     .line 18
@@ -251,8 +234,7 @@ return-void
 
     .line 22
     .line 23
-    invoke-direct {p0}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     .line 24
     .line 25
@@ -270,8 +252,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-interface {p0}, Ljava/util/Map;
-    ->keySet()Ljava/util/Set;
+    invoke-interface {p0}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     .line 2
     .line 3
@@ -279,8 +260,7 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-interface {v0}, Ljava/util/Set;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     .line 6
     .line 7
@@ -289,8 +269,7 @@ return-void
 
     .line 9
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 10
     .line 11
@@ -302,8 +281,7 @@ return-void
 
     .line 14
     .line 15
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -311,14 +289,12 @@ return-void
     move-result-object v1
 
     .line 19
-    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/Internal;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/Internal;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 20
     .line 21
     .line 22
-    invoke-interface {p0, v1}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 23
     .line 24
@@ -326,8 +302,7 @@ return-void
     move-result-object v1
 
     .line 26
-    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/Internal;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/Internal;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 27
     .line 28
@@ -353,8 +328,7 @@ return-void
     .line 3
     array-length v0, p0
 
-    invoke-static {p0, v0}, Ljava/util/Arrays;
-    ->copyOf([BI)[B
+    invoke-static {p0, v0}, Ljava/util/Arrays;->copyOf([BI)[B
 
     move-result-object p0
 
@@ -381,53 +355,44 @@ return-void
     .line 4
     new-instance v0, Ljava/util/LinkedHashMap;
 
-    invoke-direct {v0}, Ljava/util/LinkedHashMap;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
 
     .line 5
-    invoke-interface {p0}, Ljava/util/Map;
-    ->entrySet()Ljava/util/Set;
+    invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p0
 
-    invoke-interface {p0}, Ljava/util/Set;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
     :goto_0
-    invoke-interface {p0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    invoke-interface {p0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Ljava/util/Map$Entry;
 
     .line 6
-    invoke-interface {v1}, Ljava/util/Map$Entry;
-    ->getKey()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
 
-    invoke-interface {v1}, Ljava/util/Map$Entry;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
-    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->copy(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->copy(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
-    invoke-interface {v0, v2, v1}, Ljava/util/Map;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
@@ -450,16 +415,14 @@ return-void
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->EMPTY_MAP_FIELD:Landroidx/datastore/preferences/protobuf/MapFieldLite;    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/MapFieldLite;->EMPTY_MAP_FIELD:Landroidx/datastore/preferences/protobuf/MapFieldLite;    return-object v0
 .end method
 
 .method private ensureMutable()V
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->isMutable()Z
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->isMutable()Z
 
     .line 2
     .line 3
@@ -475,8 +438,7 @@ return-void
 
     .line 9
     .line 10
-    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     .line 11
     .line 12
@@ -500,8 +462,7 @@ return-void
 
     check-cast p1, [B
 
-    invoke-static {p0, p1}, Ljava/util/Arrays;
-    ->equals([B[B)Z
+    invoke-static {p0, p1}, Ljava/util/Arrays;->equals([B[B)Z
 
     move-result p0
 
@@ -509,8 +470,7 @@ return-void
 
     .line 3
     :cond_0
-    invoke-virtual {p0, p1}, Ljava/lang/Object;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result p0
 
@@ -541,13 +501,11 @@ return-void
 
     .line 4
     :cond_0
-    invoke-interface {p0}, Ljava/util/Map;
-    ->size()I
+    invoke-interface {p0}, Ljava/util/Map;->size()I
 
     move-result v1
 
-    invoke-interface {p1}, Ljava/util/Map;
-    ->size()I
+    invoke-interface {p1}, Ljava/util/Map;->size()I
 
     move-result v2
 
@@ -559,39 +517,33 @@ return-void
 
     .line 5
     :cond_1
-    invoke-interface {p0}, Ljava/util/Map;
-    ->entrySet()Ljava/util/Set;
+    invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     move-result-object p0
 
-    invoke-interface {p0}, Ljava/util/Set;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object p0
 
     :cond_2
-    invoke-interface {p0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v1
 
     if-eqz v1, :cond_4
 
-    invoke-interface {p0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Ljava/util/Map$Entry;
 
     .line 6
-    invoke-interface {v1}, Ljava/util/Map$Entry;
-    ->getKey()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
 
-    invoke-interface {p1, v2}, Ljava/util/Map;
-    ->containsKey(Ljava/lang/Object;)Z
+    invoke-interface {p1, v2}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v2
 
@@ -601,23 +553,19 @@ return-void
 
     .line 7
     :cond_3
-    invoke-interface {v1}, Ljava/util/Map$Entry;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
 
-    invoke-interface {v1}, Ljava/util/Map$Entry;
-    ->getKey()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v1
 
-    invoke-interface {p1, v1}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
-    invoke-static {v2, v1}, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v1}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->equals(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 
@@ -635,14 +583,12 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->ensureMutable()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->ensureMutable()V
 
     .line 2
     .line 3
     .line 4
-    invoke-super {p0}, Ljava/util/LinkedHashMap;
-    ->clear()V
+    invoke-super {p0}, Ljava/util/LinkedHashMap;->clear()V
 return-void
 .end method
 
@@ -658,8 +604,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Ljava/util/AbstractMap;
-    ->isEmpty()Z
+    invoke-virtual {p0}, Ljava/util/AbstractMap;->isEmpty()Z
 
     .line 2
     .line 3
@@ -671,13 +616,11 @@ return-void
 
     .line 6
     .line 7
-    sget-object v0, Ljava/util/Collections;
-    ->EMPTY_SET:Ljava/util/Set;    return-object v0
+    sget-object v0, Ljava/util/Collections;->EMPTY_SET:Ljava/util/Set;    return-object v0
 
     .line 10
     :cond_0
-    invoke-super {p0}, Ljava/util/LinkedHashMap;
-    ->entrySet()Ljava/util/Set;
+    invoke-super {p0}, Ljava/util/LinkedHashMap;->entrySet()Ljava/util/Set;
 
     .line 11
     .line 12
@@ -697,8 +640,7 @@ return-void
 
     check-cast p1, Ljava/util/Map;
 
-    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->equals(Ljava/util/Map;Ljava/util/Map;)Z
+    invoke-static {p0, p1}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->equals(Ljava/util/Map;Ljava/util/Map;)Z
 
     move-result p1
 
@@ -718,8 +660,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-static {p0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->calculateHashCodeForMap(Ljava/util/Map;)I
+    invoke-static {p0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->calculateHashCodeForMap(Ljava/util/Map;)I
 
     .line 2
     .line 3
@@ -733,8 +674,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->isMutable:Z    return v0
+    iget-boolean v0, p0, Landroidx/datastore/preferences/protobuf/MapFieldLite;->isMutable:Z    return v0
 .end method
 
 .method public makeImmutable()V
@@ -744,8 +684,7 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->isMutable:Z
+    iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/MapFieldLite;->isMutable:Z
 return-void
 .end method
 
@@ -760,14 +699,12 @@ return-void
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->ensureMutable()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->ensureMutable()V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p1}, Ljava/util/AbstractMap;
-    ->isEmpty()Z
+    invoke-virtual {p1}, Ljava/util/AbstractMap;->isEmpty()Z
 
     .line 5
     .line 6
@@ -779,8 +716,7 @@ return-void
 
     .line 9
     .line 10
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->putAll(Ljava/util/Map;)V
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->putAll(Ljava/util/Map;)V
 
     .line 11
     .line 12
@@ -800,8 +736,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Ljava/util/AbstractMap;
-    ->isEmpty()Z
+    invoke-virtual {p0}, Ljava/util/AbstractMap;->isEmpty()Z
 
     .line 2
     .line 3
@@ -817,8 +752,7 @@ return-void
 
     .line 8
     .line 9
-    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;-><init>()V
     return-object v0
 
     .line 13
@@ -827,8 +761,7 @@ return-void
 
     .line 14
     .line 15
-    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    -><init>(Ljava/util/Map;)V
+    invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;-><init>(Ljava/util/Map;)V
 return-object v0
 .end method
 
@@ -841,20 +774,16 @@ return-object v0
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->ensureMutable()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->ensureMutable()V
 
     .line 2
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/Internal;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/Internal;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 3
-    invoke-static {p2}, Landroidx/datastore/preferences/protobuf/Internal;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p2}, Landroidx/datastore/preferences/protobuf/Internal;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
-    invoke-super {p0, p1, p2}, Ljava/util/LinkedHashMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-super {p0, p1, p2}, Ljava/util/LinkedHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -872,18 +801,15 @@ return-object v0
     .end annotation
 
     .line 5
-    invoke-interface {p1}, Ljava/util/Map$Entry;
-    ->getKey()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v0
 
-    invoke-interface {p1}, Ljava/util/Map$Entry;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object p1
 
-    invoke-virtual {p0, v0, p1}, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, v0, p1}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -901,20 +827,17 @@ return-object v0
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->ensureMutable()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->ensureMutable()V
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->checkForNullKeysAndValues(Ljava/util/Map;)V
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->checkForNullKeysAndValues(Ljava/util/Map;)V
 
     .line 5
     .line 6
     .line 7
-    invoke-super {p0, p1}, Ljava/util/LinkedHashMap;
-    ->putAll(Ljava/util/Map;)V
+    invoke-super {p0, p1}, Ljava/util/LinkedHashMap;->putAll(Ljava/util/Map;)V
 return-void
 .end method
 
@@ -929,14 +852,12 @@ return-void
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;
-    ->ensureMutable()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->ensureMutable()V
 
     .line 2
     .line 3
     .line 4
-    invoke-super {p0, p1}, Ljava/util/LinkedHashMap;
-    ->remove(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-super {p0, p1}, Ljava/util/LinkedHashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6

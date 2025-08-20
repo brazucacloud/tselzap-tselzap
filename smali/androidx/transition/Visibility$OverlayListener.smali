@@ -34,13 +34,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/transition/Visibility$OverlayListener;
-    ->this$0:Landroidx/transition/Visibility;
+    iput-object p1, p0, Landroidx/transition/Visibility$OverlayListener;->this$0:Landroidx/transition/Visibility;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;
-    -><init>()V
+    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
     .line 4
     .line 5
@@ -48,23 +46,19 @@
     const/4 p1, 0x1
 
     .line 7
-    iput-boolean p1, p0, Landroidx/transition/Visibility$OverlayListener;
-    ->mHasOverlay:Z
+    iput-boolean p1, p0, Landroidx/transition/Visibility$OverlayListener;->mHasOverlay:Z
 
     .line 8
     .line 9
-    iput-object p2, p0, Landroidx/transition/Visibility$OverlayListener;
-    ->mOverlayHost:Landroid/view/ViewGroup;
+    iput-object p2, p0, Landroidx/transition/Visibility$OverlayListener;->mOverlayHost:Landroid/view/ViewGroup;
 
     .line 10
     .line 11
-    iput-object p3, p0, Landroidx/transition/Visibility$OverlayListener;
-    ->mOverlayView:Landroid/view/View;
+    iput-object p3, p0, Landroidx/transition/Visibility$OverlayListener;->mOverlayView:Landroid/view/View;
 
     .line 12
     .line 13
-    iput-object p4, p0, Landroidx/transition/Visibility$OverlayListener;
-    ->mStartView:Landroid/view/View;    
+    iput-object p4, p0, Landroidx/transition/Visibility$OverlayListener;->mStartView:Landroid/view/View;
     return-void
 .end method
 
@@ -72,32 +66,27 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/transition/Visibility$OverlayListener;
-    ->mStartView:Landroid/view/View;
+    iget-object v0, p0, Landroidx/transition/Visibility$OverlayListener;->mStartView:Landroid/view/View;
 
     .line 2
     .line 3
-    sget v1, Landroidx/transition/R$id;
-    ->save_overlay_view:I
+    sget v1, Landroidx/transition/R$id;->save_overlay_view:I
 
     .line 4
     .line 5
     const/4 v2, 0x0
 
     .line 6
-    invoke-virtual {v0, v1, v2}, Landroid/view/View;
-    ->setTag(ILjava/lang/Object;)V
+    invoke-virtual {v0, v1, v2}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
     .line 7
     .line 8
     .line 9
-    iget-object v0, p0, Landroidx/transition/Visibility$OverlayListener;
-    ->mOverlayHost:Landroid/view/ViewGroup;
+    iget-object v0, p0, Landroidx/transition/Visibility$OverlayListener;->mOverlayHost:Landroid/view/ViewGroup;
 
     .line 10
     .line 11
-    invoke-virtual {v0}, Landroid/view/ViewGroup;
-    ->getOverlay()Landroid/view/ViewGroupOverlay;
+    invoke-virtual {v0}, Landroid/view/ViewGroup;->getOverlay()Landroid/view/ViewGroupOverlay;
 
     .line 12
     .line 13
@@ -105,13 +94,11 @@
     move-result-object v0
 
     .line 15
-    iget-object v1, p0, Landroidx/transition/Visibility$OverlayListener;
-    ->mOverlayView:Landroid/view/View;
+    iget-object v1, p0, Landroidx/transition/Visibility$OverlayListener;->mOverlayView:Landroid/view/View;
 
     .line 16
     .line 17
-    invoke-virtual {v0, v1}, Landroid/view/ViewGroupOverlay;
-    ->remove(Landroid/view/View;)V
+    invoke-virtual {v0, v1}, Landroid/view/ViewGroupOverlay;->remove(Landroid/view/View;)V
 
     .line 18
     .line 19
@@ -119,8 +106,7 @@
     const/4 v0, 0x0
 
     .line 21
-    iput-boolean v0, p0, Landroidx/transition/Visibility$OverlayListener;
-    ->mHasOverlay:Z
+    iput-boolean v0, p0, Landroidx/transition/Visibility$OverlayListener;->mHasOverlay:Z
 return-void
 .end method
 
@@ -130,8 +116,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/transition/Visibility$OverlayListener;
-    ->removeFromOverlay()V
+    invoke-direct {p0}, Landroidx/transition/Visibility$OverlayListener;->removeFromOverlay()V
     return-void
 .end method
 
@@ -145,8 +130,7 @@ return-void
     if-nez p2, :cond_0
 
     .line 2
-    invoke-direct {p0}, Landroidx/transition/Visibility$OverlayListener;
-    ->removeFromOverlay()V
+    invoke-direct {p0}, Landroidx/transition/Visibility$OverlayListener;->removeFromOverlay()V
 
     :cond_0
     return-void
@@ -156,13 +140,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object p1, p0, Landroidx/transition/Visibility$OverlayListener;
-    ->mOverlayHost:Landroid/view/ViewGroup;
+    iget-object p1, p0, Landroidx/transition/Visibility$OverlayListener;->mOverlayHost:Landroid/view/ViewGroup;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroid/view/ViewGroup;
-    ->getOverlay()Landroid/view/ViewGroupOverlay;
+    invoke-virtual {p1}, Landroid/view/ViewGroup;->getOverlay()Landroid/view/ViewGroupOverlay;
 
     .line 4
     .line 5
@@ -170,13 +152,11 @@ return-void
     move-result-object p1
 
     .line 7
-    iget-object v0, p0, Landroidx/transition/Visibility$OverlayListener;
-    ->mOverlayView:Landroid/view/View;
+    iget-object v0, p0, Landroidx/transition/Visibility$OverlayListener;->mOverlayView:Landroid/view/View;
 
     .line 8
     .line 9
-    invoke-virtual {p1, v0}, Landroid/view/ViewGroupOverlay;
-    ->remove(Landroid/view/View;)V    
+    invoke-virtual {p1, v0}, Landroid/view/ViewGroupOverlay;->remove(Landroid/view/View;)V
     return-void
 .end method
 
@@ -184,13 +164,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object p1, p0, Landroidx/transition/Visibility$OverlayListener;
-    ->mOverlayView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/Visibility$OverlayListener;->mOverlayView:Landroid/view/View;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getParent()Landroid/view/ViewParent;
+    invoke-virtual {p1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     .line 4
     .line 5
@@ -202,13 +180,11 @@ return-void
 
     .line 8
     .line 9
-    iget-object p1, p0, Landroidx/transition/Visibility$OverlayListener;
-    ->mOverlayHost:Landroid/view/ViewGroup;
+    iget-object p1, p0, Landroidx/transition/Visibility$OverlayListener;->mOverlayHost:Landroid/view/ViewGroup;
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Landroid/view/ViewGroup;
-    ->getOverlay()Landroid/view/ViewGroupOverlay;
+    invoke-virtual {p1}, Landroid/view/ViewGroup;->getOverlay()Landroid/view/ViewGroupOverlay;
 
     .line 12
     .line 13
@@ -216,24 +192,20 @@ return-void
     move-result-object p1
 
     .line 15
-    iget-object v0, p0, Landroidx/transition/Visibility$OverlayListener;
-    ->mOverlayView:Landroid/view/View;
+    iget-object v0, p0, Landroidx/transition/Visibility$OverlayListener;->mOverlayView:Landroid/view/View;
 
     .line 16
     .line 17
-    invoke-virtual {p1, v0}, Landroid/view/ViewGroupOverlay;
-    ->add(Landroid/view/View;)V    
+    invoke-virtual {p1, v0}, Landroid/view/ViewGroupOverlay;->add(Landroid/view/View;)V
     return-void
 
     .line 21
     :cond_0
-    iget-object p1, p0, Landroidx/transition/Visibility$OverlayListener;
-    ->this$0:Landroidx/transition/Visibility;
+    iget-object p1, p0, Landroidx/transition/Visibility$OverlayListener;->this$0:Landroidx/transition/Visibility;
 
     .line 22
     .line 23
-    invoke-virtual {p1}, Landroidx/transition/Transition;
-    ->cancel()V
+    invoke-virtual {p1}, Landroidx/transition/Transition;->cancel()V
     return-void
 .end method
 
@@ -249,34 +221,28 @@ return-void
 
     .line 2
     .line 3
-    iget-object p1, p0, Landroidx/transition/Visibility$OverlayListener;
-    ->mStartView:Landroid/view/View;
+    iget-object p1, p0, Landroidx/transition/Visibility$OverlayListener;->mStartView:Landroid/view/View;
 
     .line 4
     .line 5
-    sget p2, Landroidx/transition/R$id;
-    ->save_overlay_view:I
+    sget p2, Landroidx/transition/R$id;->save_overlay_view:I
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/transition/Visibility$OverlayListener;
-    ->mOverlayView:Landroid/view/View;
+    iget-object v0, p0, Landroidx/transition/Visibility$OverlayListener;->mOverlayView:Landroid/view/View;
 
     .line 8
     .line 9
-    invoke-virtual {p1, p2, v0}, Landroid/view/View;
-    ->setTag(ILjava/lang/Object;)V
+    invoke-virtual {p1, p2, v0}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
     .line 10
     .line 11
     .line 12
-    iget-object p1, p0, Landroidx/transition/Visibility$OverlayListener;
-    ->mOverlayHost:Landroid/view/ViewGroup;
+    iget-object p1, p0, Landroidx/transition/Visibility$OverlayListener;->mOverlayHost:Landroid/view/ViewGroup;
 
     .line 13
     .line 14
-    invoke-virtual {p1}, Landroid/view/ViewGroup;
-    ->getOverlay()Landroid/view/ViewGroupOverlay;
+    invoke-virtual {p1}, Landroid/view/ViewGroup;->getOverlay()Landroid/view/ViewGroupOverlay;
 
     .line 15
     .line 16
@@ -284,13 +250,11 @@ return-void
     move-result-object p1
 
     .line 18
-    iget-object p2, p0, Landroidx/transition/Visibility$OverlayListener;
-    ->mOverlayView:Landroid/view/View;
+    iget-object p2, p0, Landroidx/transition/Visibility$OverlayListener;->mOverlayView:Landroid/view/View;
 
     .line 19
     .line 20
-    invoke-virtual {p1, p2}, Landroid/view/ViewGroupOverlay;
-    ->add(Landroid/view/View;)V
+    invoke-virtual {p1, p2}, Landroid/view/ViewGroupOverlay;->add(Landroid/view/View;)V
 
     .line 21
     .line 22
@@ -298,8 +262,7 @@ return-void
     const/4 p1, 0x1
 
     .line 24
-    iput-boolean p1, p0, Landroidx/transition/Visibility$OverlayListener;
-    ->mHasOverlay:Z
+    iput-boolean p1, p0, Landroidx/transition/Visibility$OverlayListener;->mHasOverlay:Z
 
     .line 25
     .line 26
@@ -315,8 +278,7 @@ return-void
     .end param
 
     .line 1
-    iget-boolean p1, p0, Landroidx/transition/Visibility$OverlayListener;
-    ->mHasOverlay:Z
+    iget-boolean p1, p0, Landroidx/transition/Visibility$OverlayListener;->mHasOverlay:Z
 
     .line 2
     .line 3
@@ -324,8 +286,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/transition/Visibility$OverlayListener;
-    ->removeFromOverlay()V
+    invoke-direct {p0}, Landroidx/transition/Visibility$OverlayListener;->removeFromOverlay()V
 
     .line 6
     .line 7
@@ -342,8 +303,7 @@ return-void
     .end param
 
     .line 2
-    invoke-virtual {p1, p0}, Landroidx/transition/Transition;
-    ->removeListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;
+    invoke-virtual {p1, p0}, Landroidx/transition/Transition;->removeListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;
 
     return-void
 .end method
@@ -352,8 +312,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/transition/b;
-    ->a(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
+    invoke-static {p0, p1, p2}, Landroidx/transition/b;->a(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
 return-void
 .end method
 
@@ -391,8 +350,7 @@ return-void
     .locals 0
 
     .line 2
-    invoke-static {p0, p1, p2}, Landroidx/transition/b;
-    ->b(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
+    invoke-static {p0, p1, p2}, Landroidx/transition/b;->b(Landroidx/transition/Transition$TransitionListener;Landroidx/transition/Transition;Z)V
 return-void
 .end method
 

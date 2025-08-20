@@ -19,8 +19,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/core/view/AccessibilityDelegateCompat;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/core/view/AccessibilityDelegateCompat;-><init>()V
     return-void
 .end method
 
@@ -30,14 +29,12 @@
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/core/view/AccessibilityDelegateCompat;
-    ->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V
+    invoke-super {p0, p1, p2}, Landroidx/core/view/AccessibilityDelegateCompat;->onInitializeAccessibilityNodeInfo(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Landroidx/drawerlayout/widget/DrawerLayout;
-    ->includeChildForAccessibility(Landroid/view/View;)Z
+    invoke-static {p1}, Landroidx/drawerlayout/widget/DrawerLayout;->includeChildForAccessibility(Landroid/view/View;)Z
 
     .line 5
     .line 6
@@ -52,8 +49,7 @@
     const/4 p1, 0x0
 
     .line 11
-    invoke-virtual {p2, p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;
-    ->setParent(Landroid/view/View;)V
+    invoke-virtual {p2, p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setParent(Landroid/view/View;)V
 
     .line 12
     .line 13

@@ -27,14 +27,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Landroidx/emoji2/text/EmojiCompatInitializer$BackgroundDefaultLoader;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p1}, Landroidx/emoji2/text/EmojiCompatInitializer$BackgroundDefaultLoader;-><init>(Landroid/content/Context;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0, v0}, Landroidx/emoji2/text/EmojiCompat$Config;
-    -><init>(Landroidx/emoji2/text/EmojiCompat$MetadataRepoLoader;)V
+    invoke-direct {p0, v0}, Landroidx/emoji2/text/EmojiCompat$Config;-><init>(Landroidx/emoji2/text/EmojiCompat$MetadataRepoLoader;)V
 
     .line 7
     .line 8
@@ -42,8 +40,7 @@
     const/4 p1, 0x1
 
     .line 10
-    invoke-virtual {p0, p1}, Landroidx/emoji2/text/EmojiCompat$Config;
-    ->setMetadataLoadStrategy(I)Landroidx/emoji2/text/EmojiCompat$Config;
+    invoke-virtual {p0, p1}, Landroidx/emoji2/text/EmojiCompat$Config;->setMetadataLoadStrategy(I)Landroidx/emoji2/text/EmojiCompat$Config;
 
     .line 11
     .line 12

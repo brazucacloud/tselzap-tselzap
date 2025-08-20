@@ -16,8 +16,7 @@
     .line 1
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v5, 0x6
 
@@ -31,8 +30,7 @@
 
     move-object v2, p1
 
-    invoke-direct/range {v1 .. v6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/ScrollAwareRecyclerView;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/e;)V
+    invoke-direct/range {v1 .. v6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/ScrollAwareRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/e;)V
 
     return-void
 .end method
@@ -43,8 +41,7 @@
     .line 2
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v5, 0x4
 
@@ -58,8 +55,7 @@
 
     move-object v3, p2
 
-    invoke-direct/range {v1 .. v6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/ScrollAwareRecyclerView;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/e;)V
+    invoke-direct/range {v1 .. v6}, Lcom/ernestoyaquello/dragdropswiperecyclerview/ScrollAwareRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/e;)V
 
     return-void
 .end method
@@ -69,25 +65,20 @@
 
     const-string v0, "context"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
-    invoke-direct {p0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 5
     new-instance p1, Lcom/ernestoyaquello/dragdropswiperecyclerview/ScrollAwareRecyclerView$internalListScrollListener$1;
 
-    invoke-direct {p1, p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/ScrollAwareRecyclerView$internalListScrollListener$1;
-    -><init>(Lcom/ernestoyaquello/dragdropswiperecyclerview/ScrollAwareRecyclerView;)V
+    invoke-direct {p1, p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/ScrollAwareRecyclerView$internalListScrollListener$1;-><init>(Lcom/ernestoyaquello/dragdropswiperecyclerview/ScrollAwareRecyclerView;)V
 
-    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/ScrollAwareRecyclerView;
-    ->internalListScrollListener:Lcom/ernestoyaquello/dragdropswiperecyclerview/ScrollAwareRecyclerView$internalListScrollListener$1;
+    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/ScrollAwareRecyclerView;->internalListScrollListener:Lcom/ernestoyaquello/dragdropswiperecyclerview/ScrollAwareRecyclerView$internalListScrollListener$1;
 
     .line 6
-    invoke-super {p0, p1}, Landroidx/recyclerview/widget/RecyclerView;
-    ->addOnScrollListener(Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;)V
+    invoke-super {p0, p1}, Landroidx/recyclerview/widget/RecyclerView;->addOnScrollListener(Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;)V
 
     return-void
 .end method
@@ -110,8 +101,7 @@
 
     .line 3
     :cond_1
-    invoke-direct {p0, p1, p2, p3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/ScrollAwareRecyclerView;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    invoke-direct {p0, p1, p2, p3}, Lcom/ernestoyaquello/dragdropswiperecyclerview/ScrollAwareRecyclerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
 .end method
@@ -126,8 +116,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -140,8 +129,7 @@
 
     .line 9
     .line 10
-    invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
 
     .line 11
     .line 12
@@ -167,8 +155,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/ScrollAwareRecyclerView;
-    ->scrollListener:Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener;
+    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/ScrollAwareRecyclerView;->scrollListener:Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener;
 
     .line 2
     .line 3
@@ -179,8 +166,7 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/ScrollAwareRecyclerView;
-    ->scrollListener:Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener;
+    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/ScrollAwareRecyclerView;->scrollListener:Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnListScrollListener;
 
     .line 2
     .line 3

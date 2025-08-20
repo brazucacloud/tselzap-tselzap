@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -31,8 +30,7 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1}, Landroid/widget/ListPopupWindow;
-    ->createDragToOpenListener(Landroid/view/View;)Landroid/view/View$OnTouchListener;
+    invoke-virtual {p0, p1}, Landroid/widget/ListPopupWindow;->createDragToOpenListener(Landroid/view/View;)Landroid/view/View$OnTouchListener;
 
     move-result-object p0
 
@@ -47,8 +45,7 @@
     .line 1
     check-cast p0, Landroid/widget/ListPopupWindow;
 
-    invoke-static {p0, p1}, Landroidx/core/widget/ListPopupWindowCompat;
-    ->createDragToOpenListener(Landroid/widget/ListPopupWindow;Landroid/view/View;)Landroid/view/View$OnTouchListener;
+    invoke-static {p0, p1}, Landroidx/core/widget/ListPopupWindowCompat;->createDragToOpenListener(Landroid/widget/ListPopupWindow;Landroid/view/View;)Landroid/view/View$OnTouchListener;
 
     move-result-object p0
 

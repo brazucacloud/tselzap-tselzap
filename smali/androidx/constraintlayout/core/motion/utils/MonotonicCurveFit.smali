@@ -36,8 +36,7 @@
 
     .line 6
     .line 7
-    invoke-direct {v0}, Landroidx/constraintlayout/core/motion/utils/CurveFit;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/constraintlayout/core/motion/utils/CurveFit;-><init>()V
 
     .line 8
     .line 9
@@ -45,8 +44,7 @@
     const/4 v3, 0x1
 
     .line 11
-    iput-boolean v3, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mExtrapolate:Z
+    iput-boolean v3, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mExtrapolate:Z
 
     .line 12
     .line 13
@@ -67,8 +65,7 @@
 
     .line 19
     .line 20
-    iput-object v7, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mSlopeTemp:[D
+    iput-object v7, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mSlopeTemp:[D
 
     .line 21
     .line 22
@@ -91,13 +88,11 @@
 
     .line 30
     .line 31
-    sget-object v10, Ljava/lang/Double;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v10, Ljava/lang/Double;->TYPE:Ljava/lang/Class;
 
     .line 32
     .line 33
-    invoke-static {v10, v9}, Ljava/lang/reflect/Array;
-    ->newInstance(Ljava/lang/Class;[I)Ljava/lang/Object;
+    invoke-static {v10, v9}, Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class;[I)Ljava/lang/Object;
 
     .line 34
     .line 35
@@ -121,8 +116,7 @@
 
     .line 44
     .line 45
-    invoke-static {v10, v11}, Ljava/lang/reflect/Array;
-    ->newInstance(Ljava/lang/Class;[I)Ljava/lang/Object;
+    invoke-static {v10, v11}, Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class;[I)Ljava/lang/Object;
 
     .line 46
     .line 47
@@ -368,8 +362,7 @@
 
     .line 157
     .line 158
-    invoke-static {v13, v14, v11, v12}, Ljava/lang/Math;
-    ->hypot(DD)D
+    invoke-static {v13, v14, v11, v12}, Ljava/lang/Math;->hypot(DD)D
 
     .line 159
     .line 160
@@ -459,18 +452,15 @@
 
     .line 200
     :cond_6
-    iput-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mT:[D
+    iput-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mT:[D
 
     .line 201
     .line 202
-    iput-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mY:[[D
+    iput-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mY:[[D
 
     .line 203
     .line 204
-    iput-object v3, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mTangent:[[D    
+    iput-object v3, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mTangent:[[D
     return-void
 .end method
 
@@ -478,8 +468,7 @@
     .locals 8
 
     .line 1
-    invoke-virtual {p0}, Ljava/lang/String;
-    ->length()I
+    invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v0
 
@@ -490,8 +479,7 @@
     const/16 v1, 0x28
 
     .line 2
-    invoke-virtual {p0, v1}, Ljava/lang/String;
-    ->indexOf(I)I
+    invoke-virtual {p0, v1}, Ljava/lang/String;->indexOf(I)I
 
     move-result v1
 
@@ -500,8 +488,7 @@
     const/16 v2, 0x2c
 
     .line 3
-    invoke-virtual {p0, v2, v1}, Ljava/lang/String;
-    ->indexOf(II)I
+    invoke-virtual {p0, v2, v1}, Ljava/lang/String;->indexOf(II)I
 
     move-result v3
 
@@ -513,21 +500,18 @@
     if-eq v3, v5, :cond_0
 
     .line 4
-    invoke-virtual {p0, v1, v3}, Ljava/lang/String;
-    ->substring(II)Ljava/lang/String;
+    invoke-virtual {p0, v1, v3}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Ljava/lang/String;
-    ->trim()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v1
 
     add-int/lit8 v5, v4, 0x1
 
     .line 5
-    invoke-static {v1}, Ljava/lang/Double;
-    ->parseDouble(Ljava/lang/String;)D
+    invoke-static {v1}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
 
     move-result-wide v6
 
@@ -536,8 +520,7 @@
     add-int/lit8 v1, v3, 0x1
 
     .line 6
-    invoke-virtual {p0, v2, v1}, Ljava/lang/String;
-    ->indexOf(II)I
+    invoke-virtual {p0, v2, v1}, Ljava/lang/String;->indexOf(II)I
 
     move-result v3
 
@@ -549,40 +532,34 @@
     const/16 v2, 0x29
 
     .line 7
-    invoke-virtual {p0, v2, v1}, Ljava/lang/String;
-    ->indexOf(II)I
+    invoke-virtual {p0, v2, v1}, Ljava/lang/String;->indexOf(II)I
 
     move-result v2
 
     .line 8
-    invoke-virtual {p0, v1, v2}, Ljava/lang/String;
-    ->substring(II)Ljava/lang/String;
+    invoke-virtual {p0, v1, v2}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object p0
 
-    invoke-virtual {p0}, Ljava/lang/String;
-    ->trim()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object p0
 
     add-int/lit8 v1, v4, 0x1
 
     .line 9
-    invoke-static {p0}, Ljava/lang/Double;
-    ->parseDouble(Ljava/lang/String;)D
+    invoke-static {p0}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
 
     move-result-wide v2
 
     aput-wide v2, v0, v4
 
     .line 10
-    invoke-static {v0, v1}, Ljava/util/Arrays;
-    ->copyOf([DI)[D
+    invoke-static {v0, v1}, Ljava/util/Arrays;->copyOf([DI)[D
 
     move-result-object p0
 
-    invoke-static {p0}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->buildWave([D)Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
+    invoke-static {p0}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->buildWave([D)Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
 
     move-result-object p0
 
@@ -625,11 +602,9 @@
 
     aput v1, v2, v4
 
-    sget-object v9, Ljava/lang/Double;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v9, Ljava/lang/Double;->TYPE:Ljava/lang/Class;
 
-    invoke-static {v9, v2}, Ljava/lang/reflect/Array;
-    ->newInstance(Ljava/lang/Class;[I)Ljava/lang/Object;
+    invoke-static {v9, v2}, Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class;[I)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -710,8 +685,7 @@
     :cond_1
     new-instance v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
 
-    invoke-direct {v0, v1, v2}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    -><init>([D[[D)V
+    invoke-direct {v0, v1, v2}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;-><init>([D[[D)V
     return-object v0
 .end method
 
@@ -863,14 +837,12 @@
     move/from16 v1, p3
 
     .line 45
-    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mT:[D
+    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mT:[D
 
     array-length v3, v2
 
     .line 46
-    iget-boolean v4, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mExtrapolate:Z
+    iget-boolean v4, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mExtrapolate:Z
 
     const/4 v5, 0x0
 
@@ -884,8 +856,7 @@
     if-gtz v4, :cond_0
 
     .line 48
-    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mY:[[D
+    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mY:[[D
 
     aget-object v2, v2, v5
 
@@ -893,8 +864,7 @@
 
     sub-double v8, p1, v6
 
-    invoke-virtual {v0, v6, v7, v1}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->getSlope(DI)D
+    invoke-virtual {v0, v6, v7, v1}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->getSlope(DI)D
 
     move-result-wide v1
 
@@ -915,8 +885,7 @@
     if-ltz v2, :cond_3
 
     .line 50
-    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mY:[[D
+    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mY:[[D
 
     aget-object v2, v2, v4
 
@@ -924,8 +893,7 @@
 
     sub-double v8, p1, v6
 
-    invoke-virtual {v0, v6, v7, v1}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->getSlope(DI)D
+    invoke-virtual {v0, v6, v7, v1}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->getSlope(DI)D
 
     move-result-wide v1
 
@@ -944,8 +912,7 @@
     if-gtz v4, :cond_2
 
     .line 52
-    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mY:[[D
+    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mY:[[D
 
     aget-object v2, v2, v5
 
@@ -964,8 +931,7 @@
     if-ltz v2, :cond_3
 
     .line 54
-    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mY:[[D
+    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mY:[[D
 
     aget-object v2, v2, v4
 
@@ -980,8 +946,7 @@
     if-ge v5, v2, :cond_6
 
     .line 55
-    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mT:[D
+    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mT:[D
 
     aget-wide v6, v2, v5
 
@@ -990,8 +955,7 @@
     if-nez v4, :cond_4
 
     .line 56
-    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mY:[[D
+    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mY:[[D
 
     aget-object v2, v2, v5
 
@@ -1016,8 +980,7 @@
     div-double v12, v2, v10
 
     .line 58
-    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mY:[[D
+    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mY:[[D
 
     aget-object v3, v2, v5
 
@@ -1029,8 +992,7 @@
     aget-wide v16, v2, v1
 
     .line 60
-    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mTangent:[[D
+    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mTangent:[[D
 
     aget-object v3, v2, v5
 
@@ -1042,8 +1004,7 @@
     aget-wide v20, v2, v1
 
     .line 62
-    invoke-static/range {v10 .. v21}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->interpolate(DDDDDD)D
+    invoke-static/range {v10 .. v21}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->interpolate(DDDDDD)D
 
     move-result-wide v1
 
@@ -1066,14 +1027,12 @@
     move-object/from16 v0, p0
 
     .line 1
-    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mT:[D
+    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mT:[D
 
     array-length v2, v1
 
     .line 2
-    iget-object v3, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mY:[[D
+    iget-object v3, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mY:[[D
 
     const/4 v4, 0x0
 
@@ -1082,8 +1041,7 @@
     array-length v3, v3
 
     .line 3
-    iget-boolean v5, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mExtrapolate:Z
+    iget-boolean v5, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mExtrapolate:Z
 
     if-eqz v5, :cond_1
 
@@ -1095,11 +1053,9 @@
     if-gtz v7, :cond_0
 
     .line 5
-    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mSlopeTemp:[D
+    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mSlopeTemp:[D
 
-    invoke-virtual {v0, v5, v6, v1}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->getSlope(D[D)V
+    invoke-virtual {v0, v5, v6, v1}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->getSlope(D[D)V
 
     const/4 v1, 0x0
 
@@ -1107,22 +1063,19 @@
     if-ge v1, v3, :cond_6
 
     .line 6
-    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mY:[[D
+    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mY:[[D
 
     aget-object v2, v2, v4
 
     aget-wide v5, v2, v1
 
-    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mT:[D
+    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mT:[D
 
     aget-wide v7, v2, v4
 
     sub-double v7, p1, v7
 
-    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mSlopeTemp:[D
+    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mSlopeTemp:[D
 
     aget-wide v9, v2, v1
 
@@ -1147,32 +1100,27 @@
     if-ltz v1, :cond_3
 
     .line 8
-    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mSlopeTemp:[D
+    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mSlopeTemp:[D
 
-    invoke-virtual {v0, v6, v7, v1}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->getSlope(D[D)V
+    invoke-virtual {v0, v6, v7, v1}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->getSlope(D[D)V
 
     :goto_1
     if-ge v4, v3, :cond_6
 
     .line 9
-    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mY:[[D
+    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mY:[[D
 
     aget-object v1, v1, v5
 
     aget-wide v6, v1, v4
 
-    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mT:[D
+    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mT:[D
 
     aget-wide v8, v1, v5
 
     sub-double v1, p1, v8
 
-    iget-object v8, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mSlopeTemp:[D
+    iget-object v8, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mSlopeTemp:[D
 
     aget-wide v9, v8, v4
 
@@ -1200,8 +1148,7 @@
     if-ge v1, v3, :cond_6
 
     .line 11
-    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mY:[[D
+    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mY:[[D
 
     aget-object v2, v2, v4
 
@@ -1227,8 +1174,7 @@
     if-ge v4, v3, :cond_6
 
     .line 13
-    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mY:[[D
+    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mY:[[D
 
     aget-object v1, v1, v5
 
@@ -1249,8 +1195,7 @@
     if-ge v1, v5, :cond_6
 
     .line 14
-    iget-object v5, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mT:[D
+    iget-object v5, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mT:[D
 
     aget-wide v6, v5, v1
 
@@ -1264,8 +1209,7 @@
     if-ge v5, v3, :cond_4
 
     .line 15
-    iget-object v6, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mY:[[D
+    iget-object v6, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mY:[[D
 
     aget-object v6, v6, v1
 
@@ -1279,8 +1223,7 @@
 
     .line 16
     :cond_4
-    iget-object v5, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mT:[D
+    iget-object v5, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mT:[D
 
     add-int/lit8 v6, v1, 0x1
 
@@ -1303,8 +1246,7 @@
     if-ge v4, v3, :cond_6
 
     .line 18
-    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mY:[[D
+    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mY:[[D
 
     aget-object v5, v2, v1
 
@@ -1316,8 +1258,7 @@
     aget-wide v17, v2, v4
 
     .line 20
-    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mTangent:[[D
+    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mTangent:[[D
 
     aget-object v5, v2, v1
 
@@ -1329,8 +1270,7 @@
     aget-wide v21, v2, v4
 
     .line 22
-    invoke-static/range {v11 .. v22}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->interpolate(DDDDDD)D
+    invoke-static/range {v11 .. v22}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->interpolate(DDDDDD)D
 
     move-result-wide v7
 
@@ -1355,14 +1295,12 @@
     move-object/from16 v0, p0
 
     .line 23
-    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mT:[D
+    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mT:[D
 
     array-length v2, v1
 
     .line 24
-    iget-object v3, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mY:[[D
+    iget-object v3, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mY:[[D
 
     const/4 v4, 0x0
 
@@ -1371,8 +1309,7 @@
     array-length v3, v3
 
     .line 25
-    iget-boolean v5, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mExtrapolate:Z
+    iget-boolean v5, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mExtrapolate:Z
 
     if-eqz v5, :cond_1
 
@@ -1384,11 +1321,9 @@
     if-gtz v7, :cond_0
 
     .line 27
-    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mSlopeTemp:[D
+    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mSlopeTemp:[D
 
-    invoke-virtual {v0, v5, v6, v1}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->getSlope(D[D)V
+    invoke-virtual {v0, v5, v6, v1}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->getSlope(D[D)V
 
     const/4 v1, 0x0
 
@@ -1396,22 +1331,19 @@
     if-ge v1, v3, :cond_6
 
     .line 28
-    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mY:[[D
+    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mY:[[D
 
     aget-object v2, v2, v4
 
     aget-wide v5, v2, v1
 
-    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mT:[D
+    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mT:[D
 
     aget-wide v7, v2, v4
 
     sub-double v7, p1, v7
 
-    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mSlopeTemp:[D
+    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mSlopeTemp:[D
 
     aget-wide v9, v2, v1
 
@@ -1438,32 +1370,27 @@
     if-ltz v1, :cond_3
 
     .line 30
-    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mSlopeTemp:[D
+    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mSlopeTemp:[D
 
-    invoke-virtual {v0, v6, v7, v1}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->getSlope(D[D)V
+    invoke-virtual {v0, v6, v7, v1}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->getSlope(D[D)V
 
     :goto_1
     if-ge v4, v3, :cond_6
 
     .line 31
-    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mY:[[D
+    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mY:[[D
 
     aget-object v1, v1, v5
 
     aget-wide v6, v1, v4
 
-    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mT:[D
+    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mT:[D
 
     aget-wide v8, v1, v5
 
     sub-double v1, p1, v8
 
-    iget-object v8, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mSlopeTemp:[D
+    iget-object v8, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mSlopeTemp:[D
 
     aget-wide v9, v8, v4
 
@@ -1493,8 +1420,7 @@
     if-ge v1, v3, :cond_6
 
     .line 33
-    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mY:[[D
+    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mY:[[D
 
     aget-object v2, v2, v4
 
@@ -1522,8 +1448,7 @@
     if-ge v4, v3, :cond_6
 
     .line 35
-    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mY:[[D
+    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mY:[[D
 
     aget-object v1, v1, v5
 
@@ -1546,8 +1471,7 @@
     if-ge v1, v5, :cond_6
 
     .line 36
-    iget-object v5, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mT:[D
+    iget-object v5, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mT:[D
 
     aget-wide v6, v5, v1
 
@@ -1561,8 +1485,7 @@
     if-ge v5, v3, :cond_4
 
     .line 37
-    iget-object v6, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mY:[[D
+    iget-object v6, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mY:[[D
 
     aget-object v6, v6, v1
 
@@ -1578,8 +1501,7 @@
 
     .line 38
     :cond_4
-    iget-object v5, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mT:[D
+    iget-object v5, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mT:[D
 
     add-int/lit8 v6, v1, 0x1
 
@@ -1602,8 +1524,7 @@
     if-ge v4, v3, :cond_6
 
     .line 40
-    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mY:[[D
+    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mY:[[D
 
     aget-object v5, v2, v1
 
@@ -1615,8 +1536,7 @@
     aget-wide v17, v2, v4
 
     .line 42
-    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mTangent:[[D
+    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mTangent:[[D
 
     aget-object v5, v2, v1
 
@@ -1628,8 +1548,7 @@
     aget-wide v21, v2, v4
 
     .line 44
-    invoke-static/range {v11 .. v22}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->interpolate(DDDDDD)D
+    invoke-static/range {v11 .. v22}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->interpolate(DDDDDD)D
 
     move-result-wide v7
 
@@ -1656,8 +1575,7 @@
     move-object/from16 v0, p0
 
     .line 12
-    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mT:[D
+    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mT:[D
 
     array-length v2, v1
 
@@ -1693,8 +1611,7 @@
     if-ge v3, v1, :cond_3
 
     .line 15
-    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mT:[D
+    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mT:[D
 
     add-int/lit8 v6, v3, 0x1
 
@@ -1714,8 +1631,7 @@
     div-double v13, v4, v11
 
     .line 17
-    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mY:[[D
+    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mY:[[D
 
     aget-object v2, v1, v3
 
@@ -1727,8 +1643,7 @@
     aget-wide v17, v1, p3
 
     .line 19
-    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mTangent:[[D
+    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mTangent:[[D
 
     aget-object v2, v1, v3
 
@@ -1740,8 +1655,7 @@
     aget-wide v21, v1, p3
 
     .line 21
-    invoke-static/range {v11 .. v22}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->diff(DDDDDD)D
+    invoke-static/range {v11 .. v22}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->diff(DDDDDD)D
 
     move-result-wide v1
 
@@ -1766,14 +1680,12 @@
     move-object/from16 v0, p0
 
     .line 1
-    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mT:[D
+    iget-object v1, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mT:[D
 
     array-length v2, v1
 
     .line 2
-    iget-object v3, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mY:[[D
+    iget-object v3, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mY:[[D
 
     const/4 v4, 0x0
 
@@ -1814,8 +1726,7 @@
     if-ge v1, v7, :cond_3
 
     .line 5
-    iget-object v7, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mT:[D
+    iget-object v7, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mT:[D
 
     add-int/lit8 v8, v1, 0x1
 
@@ -1838,8 +1749,7 @@
     if-ge v4, v3, :cond_3
 
     .line 7
-    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mY:[[D
+    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mY:[[D
 
     aget-object v5, v2, v1
 
@@ -1851,8 +1761,7 @@
     aget-wide v19, v2, v4
 
     .line 9
-    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mTangent:[[D
+    iget-object v2, v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mTangent:[[D
 
     aget-object v5, v2, v1
 
@@ -1864,8 +1773,7 @@
     aget-wide v23, v2, v4
 
     .line 11
-    invoke-static/range {v13 .. v24}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->diff(DDDDDD)D
+    invoke-static/range {v13 .. v24}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->diff(DDDDDD)D
 
     move-result-wide v5
 
@@ -1890,8 +1798,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
-    ->mT:[D    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mT:[D    return-object v0
 .end method
 
 .end class

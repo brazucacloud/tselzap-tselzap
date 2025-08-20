@@ -16,8 +16,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -37,8 +36,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/transition/PropertyValuesHolderUtils$Api21Impl;
-    ->ofObject(Landroid/util/Property;Landroid/graphics/Path;)Landroid/animation/PropertyValuesHolder;
+    invoke-static {p0, p1}, Landroidx/transition/PropertyValuesHolderUtils$Api21Impl;->ofObject(Landroid/util/Property;Landroid/graphics/Path;)Landroid/animation/PropertyValuesHolder;
 
     .line 2
     .line 3

@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -42,8 +41,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1, p2, p3}, Landroid/app/RemoteAction;
-    -><init>(Landroid/graphics/drawable/Icon;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Landroid/app/PendingIntent;)V
+    invoke-direct {v0, p0, p1, p2, p3}, Landroid/app/RemoteAction;-><init>(Landroid/graphics/drawable/Icon;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Landroid/app/PendingIntent;)V
 
     .line 4
     .line 5
@@ -57,8 +55,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/RemoteAction;
-    ->getActionIntent()Landroid/app/PendingIntent;
+    invoke-virtual {p0}, Landroid/app/RemoteAction;->getActionIntent()Landroid/app/PendingIntent;
 
     .line 2
     .line 3
@@ -74,8 +71,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/RemoteAction;
-    ->getContentDescription()Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroid/app/RemoteAction;->getContentDescription()Ljava/lang/CharSequence;
 
     .line 2
     .line 3
@@ -91,8 +87,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/RemoteAction;
-    ->getIcon()Landroid/graphics/drawable/Icon;
+    invoke-virtual {p0}, Landroid/app/RemoteAction;->getIcon()Landroid/graphics/drawable/Icon;
 
     .line 2
     .line 3
@@ -108,8 +103,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/RemoteAction;
-    ->getTitle()Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroid/app/RemoteAction;->getTitle()Ljava/lang/CharSequence;
 
     .line 2
     .line 3
@@ -125,8 +119,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/RemoteAction;
-    ->isEnabled()Z
+    invoke-virtual {p0}, Landroid/app/RemoteAction;->isEnabled()Z
 
     .line 2
     .line 3
@@ -142,8 +135,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/RemoteAction;
-    ->setEnabled(Z)V
+    invoke-virtual {p0, p1}, Landroid/app/RemoteAction;->setEnabled(Z)V
 
     .line 2
     .line 3

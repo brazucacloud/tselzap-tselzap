@@ -5,8 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1;
-    ->updateData(Lp1/p;Lg1/d;)Ljava/lang/Object;
+    value = Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1;->updateData(Lp1/p;Lg1/d;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -59,13 +58,11 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
-    ->this$0:Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1;
+    iput-object p1, p0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->this$0:Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1;
 
     .line 2
     .line 3
-    invoke-direct {p0, p2}, Li1/c;
-    -><init>(Lg1/d;)V
+    invoke-direct {p0, p2}, Li1/c;-><init>(Lg1/d;)V
 
     .line 4
     .line 5
@@ -78,26 +75,21 @@
 .method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 1
 
-    iput-object p1, p0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
-    ->result:Ljava/lang/Object;
+    iput-object p1, p0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->result:Ljava/lang/Object;
 
-    iget p1, p0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
-    ->label:I
+    iget p1, p0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->label:I
 
     const/high16 v0, -0x80000000
 
     or-int/2addr p1, v0
 
-    iput p1, p0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
-    ->label:I
+    iput p1, p0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->label:I
 
-    iget-object p1, p0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;
-    ->this$0:Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1;
+    iget-object p1, p0, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1$updateData$1;->this$0:Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1;
 
     const/4 v0, 0x0
 
-    invoke-virtual {p1, v0, p0}, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1;
-    ->updateData(Lp1/p;Lg1/d;)Ljava/lang/Object;
+    invoke-virtual {p1, v0, p0}, Landroidx/datastore/core/SingleProcessDataStore$readAndInit$api$1;->updateData(Lp1/p;Lg1/d;)Ljava/lang/Object;
 
     move-result-object p1
 

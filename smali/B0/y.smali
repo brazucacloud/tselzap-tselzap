@@ -20,32 +20,27 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, LB0/y;
-    ->f:LB0/z;
+    iput-object p1, p0, LB0/y;->f:LB0/z;
 
     .line 5
     .line 6
     const/4 v0, 0x2
 
     .line 7
-    iput v0, p0, LB0/y;
-    ->b:I
+    iput v0, p0, LB0/y;->b:I
 
     .line 8
     .line 9
-    iget-object v0, p1, LB0/z;
-    ->b:Ljava/util/Set;
+    iget-object v0, p1, LB0/z;->b:Ljava/util/Set;
 
     .line 10
     .line 11
-    invoke-interface {v0}, Ljava/util/Set;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     .line 12
     .line 13
@@ -53,18 +48,15 @@
     move-result-object v0
 
     .line 15
-    iput-object v0, p0, LB0/y;
-    ->d:Ljava/util/Iterator;
+    iput-object v0, p0, LB0/y;->d:Ljava/util/Iterator;
 
     .line 16
     .line 17
-    iget-object p1, p1, LB0/z;
-    ->c:Ljava/util/Set;
+    iget-object p1, p1, LB0/z;->c:Ljava/util/Set;
 
     .line 18
     .line 19
-    invoke-interface {p1}, Ljava/util/Set;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     .line 20
     .line 21
@@ -72,8 +64,7 @@
     move-result-object p1
 
     .line 23
-    iput-object p1, p0, LB0/y;
-    ->e:Ljava/util/Iterator;
+    iput-object p1, p0, LB0/y;->e:Ljava/util/Iterator;
 
     .line 24
     .line 25
@@ -86,8 +77,7 @@
     .locals 4
 
     .line 1
-    iget v0, p0, LB0/y;
-    ->b:I
+    iget v0, p0, LB0/y;->b:I
 
     .line 2
     .line 3
@@ -98,8 +88,7 @@
 
     .line 5
     .line 6
-    invoke-static {v0}, Lcom/bumptech/glide/e;
-    ->a(I)I
+    invoke-static {v0}, Lcom/bumptech/glide/e;->a(I)I
 
     .line 7
     .line 8
@@ -121,18 +110,15 @@
 
     .line 15
     .line 16
-    iput v1, p0, LB0/y;
-    ->b:I
+    iput v1, p0, LB0/y;->b:I
 
     .line 17
     .line 18
-    iget-object v0, p0, LB0/y;
-    ->d:Ljava/util/Iterator;
+    iget-object v0, p0, LB0/y;->d:Ljava/util/Iterator;
 
     .line 19
     .line 20
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 21
     .line 22
@@ -147,8 +133,7 @@
 
     .line 26
     .line 27
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -160,13 +145,11 @@
 
     .line 32
     :cond_0
-    iget-object v0, p0, LB0/y;
-    ->e:Ljava/util/Iterator;
+    iget-object v0, p0, LB0/y;->e:Ljava/util/Iterator;
 
     .line 33
     .line 34
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 35
     .line 36
@@ -178,8 +161,7 @@
 
     .line 39
     .line 40
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 41
     .line 42
@@ -187,18 +169,15 @@
     move-result-object v0
 
     .line 44
-    iget-object v1, p0, LB0/y;
-    ->f:LB0/z;
+    iget-object v1, p0, LB0/y;->f:LB0/z;
 
     .line 45
     .line 46
-    iget-object v1, v1, LB0/z;
-    ->b:Ljava/util/Set;
+    iget-object v1, v1, LB0/z;->b:Ljava/util/Set;
 
     .line 47
     .line 48
-    invoke-interface {v1, v0}, Ljava/util/Set;
-    ->contains(Ljava/lang/Object;)Z
+    invoke-interface {v1, v0}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
 
     .line 49
     .line 50
@@ -214,8 +193,7 @@
 
     .line 55
     :cond_1
-    iput v3, p0, LB0/y;
-    ->b:I
+    iput v3, p0, LB0/y;->b:I
 
     .line 56
     .line 57
@@ -223,13 +201,11 @@
 
     .line 58
     :goto_0
-    iput-object v0, p0, LB0/y;
-    ->c:Ljava/lang/Object;
+    iput-object v0, p0, LB0/y;->c:Ljava/lang/Object;
 
     .line 59
     .line 60
-    iget v0, p0, LB0/y;
-    ->b:I
+    iget v0, p0, LB0/y;->b:I
 
     .line 61
     .line 62
@@ -237,8 +213,7 @@
 
     .line 63
     .line 64
-    iput v2, p0, LB0/y;
-    ->b:I
+    iput v2, p0, LB0/y;->b:I
 
     .line 65
     .line 66
@@ -260,8 +235,7 @@
 
     .line 71
     .line 72
-    invoke-direct {v0}, Ljava/lang/IllegalStateException;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/IllegalStateException;-><init>()V
 
     .line 73
     .line 74
@@ -284,8 +258,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, LB0/y;
-    ->hasNext()Z
+    invoke-virtual {p0}, LB0/y;->hasNext()Z
 
     .line 2
     .line 3
@@ -300,21 +273,18 @@
     const/4 v0, 0x2
 
     .line 8
-    iput v0, p0, LB0/y;
-    ->b:I
+    iput v0, p0, LB0/y;->b:I
 
     .line 9
     .line 10
-    iget-object v0, p0, LB0/y;
-    ->c:Ljava/lang/Object;
+    iget-object v0, p0, LB0/y;->c:Ljava/lang/Object;
 
     .line 11
     .line 12
     const/4 v1, 0x0
 
     .line 13
-    iput-object v1, p0, LB0/y;
-    ->c:Ljava/lang/Object;
+    iput-object v1, p0, LB0/y;->c:Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -326,8 +296,7 @@
 
     .line 17
     .line 18
-    invoke-direct {v0}, Ljava/util/NoSuchElementException;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/NoSuchElementException;-><init>()V
 
     .line 19
     .line 20

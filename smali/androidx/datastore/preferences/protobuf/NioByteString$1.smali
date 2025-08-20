@@ -5,8 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/datastore/preferences/protobuf/NioByteString;
-    ->newInput()Ljava/io/InputStream;
+    value = Landroidx/datastore/preferences/protobuf/NioByteString;->newInput()Ljava/io/InputStream;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,19 +25,16 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/NioByteString$1;
-    ->this$0:Landroidx/datastore/preferences/protobuf/NioByteString;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/NioByteString$1;->this$0:Landroidx/datastore/preferences/protobuf/NioByteString;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/io/InputStream;
-    -><init>()V
+    invoke-direct {p0}, Ljava/io/InputStream;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/NioByteString;
-    ->access$000(Landroidx/datastore/preferences/protobuf/NioByteString;)Ljava/nio/ByteBuffer;
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/NioByteString;->access$000(Landroidx/datastore/preferences/protobuf/NioByteString;)Ljava/nio/ByteBuffer;
 
     .line 7
     .line 8
@@ -46,8 +42,7 @@
     move-result-object p1
 
     .line 10
-    invoke-virtual {p1}, Ljava/nio/ByteBuffer;
-    ->slice()Ljava/nio/ByteBuffer;
+    invoke-virtual {p1}, Ljava/nio/ByteBuffer;->slice()Ljava/nio/ByteBuffer;
 
     .line 11
     .line 12
@@ -55,8 +50,7 @@
     move-result-object p1
 
     .line 14
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/NioByteString$1;
-    ->buf:Ljava/nio/ByteBuffer;    
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/NioByteString$1;->buf:Ljava/nio/ByteBuffer;
     return-void
 .end method
 
@@ -66,13 +60,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/NioByteString$1;
-    ->buf:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/NioByteString$1;->buf:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/nio/Buffer;
-    ->remaining()I
+    invoke-virtual {v0}, Ljava/nio/Buffer;->remaining()I
 
     .line 4
     .line 5
@@ -86,13 +78,11 @@
     .locals 0
 
     .line 1
-    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/NioByteString$1;
-    ->buf:Ljava/nio/ByteBuffer;
+    iget-object p1, p0, Landroidx/datastore/preferences/protobuf/NioByteString$1;->buf:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Ljava/nio/ByteBuffer;
-    ->mark()Ljava/nio/Buffer;    
+    invoke-virtual {p1}, Ljava/nio/ByteBuffer;->mark()Ljava/nio/Buffer;
     return-void
 .end method
 
@@ -108,11 +98,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/NioByteString$1;
-    ->buf:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/NioByteString$1;->buf:Ljava/nio/ByteBuffer;
 
-    invoke-virtual {v0}, Ljava/nio/Buffer;
-    ->hasRemaining()Z
+    invoke-virtual {v0}, Ljava/nio/Buffer;->hasRemaining()Z
 
     move-result v0
 
@@ -124,11 +112,9 @@
 
     .line 2
     :cond_0
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/NioByteString$1;
-    ->buf:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/NioByteString$1;->buf:Ljava/nio/ByteBuffer;
 
-    invoke-virtual {v0}, Ljava/nio/ByteBuffer;
-    ->get()B
+    invoke-virtual {v0}, Ljava/nio/ByteBuffer;->get()B
 
     move-result v0
 
@@ -141,11 +127,9 @@
     .locals 1
 
     .line 3
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/NioByteString$1;
-    ->buf:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/NioByteString$1;->buf:Ljava/nio/ByteBuffer;
 
-    invoke-virtual {v0}, Ljava/nio/Buffer;
-    ->hasRemaining()Z
+    invoke-virtual {v0}, Ljava/nio/Buffer;->hasRemaining()Z
 
     move-result v0
 
@@ -157,25 +141,20 @@
 
     .line 4
     :cond_0
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/NioByteString$1;
-    ->buf:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/NioByteString$1;->buf:Ljava/nio/ByteBuffer;
 
-    invoke-virtual {v0}, Ljava/nio/Buffer;
-    ->remaining()I
+    invoke-virtual {v0}, Ljava/nio/Buffer;->remaining()I
 
     move-result v0
 
-    invoke-static {p3, v0}, Ljava/lang/Math;
-    ->min(II)I
+    invoke-static {p3, v0}, Ljava/lang/Math;->min(II)I
 
     move-result p3
 
     .line 5
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/NioByteString$1;
-    ->buf:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/NioByteString$1;->buf:Ljava/nio/ByteBuffer;
 
-    invoke-virtual {v0, p1, p2, p3}, Ljava/nio/ByteBuffer;
-    ->get([BII)Ljava/nio/ByteBuffer;
+    invoke-virtual {v0, p1, p2, p3}, Ljava/nio/ByteBuffer;->get([BII)Ljava/nio/ByteBuffer;
 
     return p3
 .end method
@@ -185,13 +164,11 @@
 
     .line 1
     :try_start_0
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/NioByteString$1;
-    ->buf:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/NioByteString$1;->buf:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/nio/ByteBuffer;
-    ->reset()Ljava/nio/Buffer;
+    invoke-virtual {v0}, Ljava/nio/ByteBuffer;->reset()Ljava/nio/Buffer;
     :try_end_0
     .catch Ljava/nio/InvalidMarkException; {:try_start_0 .. :try_end_0} :catch_0    return-void
 
@@ -204,8 +181,7 @@
 
     .line 9
     .line 10
-    invoke-direct {v1, v0}, Ljava/io/IOException;
-    -><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v1, v0}, Ljava/io/IOException;-><init>(Ljava/lang/Throwable;)V
 
     .line 11
     .line 12

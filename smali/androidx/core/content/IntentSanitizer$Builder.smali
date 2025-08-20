@@ -133,8 +133,7 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -146,14 +145,12 @@
     const/4 v1, 0x2
 
     .line 7
-    invoke-direct {v0, v1}, Landroidx/core/content/e;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/core/content/e;-><init>(I)V
 
     .line 8
     .line 9
     .line 10
-    iput-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedActions:Landroidx/core/util/Predicate;
+    iput-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedActions:Landroidx/core/util/Predicate;
 
     .line 11
     .line 12
@@ -164,14 +161,12 @@
     const/4 v1, 0x3
 
     .line 15
-    invoke-direct {v0, v1}, Landroidx/core/content/e;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/core/content/e;-><init>(I)V
 
     .line 16
     .line 17
     .line 18
-    iput-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedData:Landroidx/core/util/Predicate;
+    iput-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedData:Landroidx/core/util/Predicate;
 
     .line 19
     .line 20
@@ -182,14 +177,12 @@
     const/4 v1, 0x4
 
     .line 23
-    invoke-direct {v0, v1}, Landroidx/core/content/e;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/core/content/e;-><init>(I)V
 
     .line 24
     .line 25
     .line 26
-    iput-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedTypes:Landroidx/core/util/Predicate;
+    iput-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedTypes:Landroidx/core/util/Predicate;
 
     .line 27
     .line 28
@@ -200,14 +193,12 @@
     const/4 v1, 0x5
 
     .line 31
-    invoke-direct {v0, v1}, Landroidx/core/content/e;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/core/content/e;-><init>(I)V
 
     .line 32
     .line 33
     .line 34
-    iput-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedCategories:Landroidx/core/util/Predicate;
+    iput-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedCategories:Landroidx/core/util/Predicate;
 
     .line 35
     .line 36
@@ -218,14 +209,12 @@
     const/4 v1, 0x6
 
     .line 39
-    invoke-direct {v0, v1}, Landroidx/core/content/e;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/core/content/e;-><init>(I)V
 
     .line 40
     .line 41
     .line 42
-    iput-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedPackages:Landroidx/core/util/Predicate;
+    iput-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedPackages:Landroidx/core/util/Predicate;
 
     .line 43
     .line 44
@@ -236,14 +225,12 @@
     const/4 v1, 0x7
 
     .line 47
-    invoke-direct {v0, v1}, Landroidx/core/content/e;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/core/content/e;-><init>(I)V
 
     .line 48
     .line 49
     .line 50
-    iput-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedComponents:Landroidx/core/util/Predicate;
+    iput-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedComponents:Landroidx/core/util/Predicate;
 
     .line 51
     .line 52
@@ -251,22 +238,19 @@
 
     .line 53
     .line 54
-    invoke-direct {v0}, Ljava/util/HashMap;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     .line 55
     .line 56
     .line 57
-    iput-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedExtras:Ljava/util/Map;
+    iput-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedExtras:Ljava/util/Map;
 
     .line 58
     .line 59
     const/4 v0, 0x0
 
     .line 60
-    iput-boolean v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowClipDataText:Z
+    iput-boolean v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowClipDataText:Z
 
     .line 61
     .line 62
@@ -278,14 +262,12 @@
 
     .line 65
     .line 66
-    invoke-direct {v0, v1}, Landroidx/core/content/e;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/core/content/e;-><init>(I)V
 
     .line 67
     .line 68
     .line 69
-    iput-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedClipDataUri:Landroidx/core/util/Predicate;
+    iput-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedClipDataUri:Landroidx/core/util/Predicate;
 
     .line 70
     .line 71
@@ -297,14 +279,12 @@
 
     .line 74
     .line 75
-    invoke-direct {v0, v1}, Landroidx/core/content/e;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/core/content/e;-><init>(I)V
 
     .line 76
     .line 77
     .line 78
-    iput-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedClipData:Landroidx/core/util/Predicate;
+    iput-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedClipData:Landroidx/core/util/Predicate;
 
     .line 79
     .line 80
@@ -315,8 +295,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->lambda$new$5(Landroid/content/ComponentName;)Z
+    invoke-static {p0}, Landroidx/core/content/IntentSanitizer$Builder;->lambda$new$5(Landroid/content/ComponentName;)Z
 
     move-result p0
 
@@ -327,8 +306,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->lambda$new$2(Ljava/lang/String;)Z
+    invoke-static {p0}, Landroidx/core/content/IntentSanitizer$Builder;->lambda$new$2(Ljava/lang/String;)Z
 
     move-result p0
 
@@ -339,8 +317,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->lambda$allowComponentWithPackage$9(Ljava/lang/String;Landroid/content/ComponentName;)Z
+    invoke-static {p0, p1}, Landroidx/core/content/IntentSanitizer$Builder;->lambda$allowComponentWithPackage$9(Ljava/lang/String;Landroid/content/ComponentName;)Z
 
     move-result p0
 
@@ -351,8 +328,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->lambda$allowClipDataUriWithAuthority$11(Ljava/lang/String;Landroid/net/Uri;)Z
+    invoke-static {p0, p1}, Landroidx/core/content/IntentSanitizer$Builder;->lambda$allowClipDataUriWithAuthority$11(Ljava/lang/String;Landroid/net/Uri;)Z
 
     move-result p0
 
@@ -363,8 +339,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->lambda$allowExtra$13(Ljava/lang/Class;Landroidx/core/util/Predicate;Ljava/lang/Object;)Z
+    invoke-static {p0, p1, p2}, Landroidx/core/content/IntentSanitizer$Builder;->lambda$allowExtra$13(Ljava/lang/Class;Landroidx/core/util/Predicate;Ljava/lang/Object;)Z
 
     move-result p0
 
@@ -375,8 +350,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->lambda$new$4(Ljava/lang/String;)Z
+    invoke-static {p0}, Landroidx/core/content/IntentSanitizer$Builder;->lambda$new$4(Ljava/lang/String;)Z
 
     move-result p0
 
@@ -387,8 +361,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->lambda$allowExtraOutput$16(Ljava/lang/String;Landroid/net/Uri;)Z
+    invoke-static {p0, p1}, Landroidx/core/content/IntentSanitizer$Builder;->lambda$allowExtraOutput$16(Ljava/lang/String;Landroid/net/Uri;)Z
 
     move-result p0
 
@@ -399,8 +372,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->lambda$allowExtraStreamUriWithAuthority$15(Ljava/lang/String;Landroid/net/Uri;)Z
+    invoke-static {p0, p1}, Landroidx/core/content/IntentSanitizer$Builder;->lambda$allowExtraStreamUriWithAuthority$15(Ljava/lang/String;Landroid/net/Uri;)Z
 
     move-result p0
 
@@ -411,8 +383,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->lambda$allowExtra$14(Ljava/lang/Object;)Z
+    invoke-static {p0}, Landroidx/core/content/IntentSanitizer$Builder;->lambda$allowExtra$14(Ljava/lang/Object;)Z
 
     move-result p0
 
@@ -423,8 +394,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->lambda$allowAnyComponent$10(Landroid/content/ComponentName;)Z
+    invoke-static {p0}, Landroidx/core/content/IntentSanitizer$Builder;->lambda$allowAnyComponent$10(Landroid/content/ComponentName;)Z
 
     move-result p0
 
@@ -435,8 +405,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->lambda$new$3(Ljava/lang/String;)Z
+    invoke-static {p0}, Landroidx/core/content/IntentSanitizer$Builder;->lambda$new$3(Ljava/lang/String;)Z
 
     move-result p0
 
@@ -447,8 +416,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->lambda$new$1(Landroid/net/Uri;)Z
+    invoke-static {p0}, Landroidx/core/content/IntentSanitizer$Builder;->lambda$new$1(Landroid/net/Uri;)Z
 
     move-result p0
 
@@ -467,8 +435,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Landroid/net/Uri;
-    ->getAuthority()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/net/Uri;->getAuthority()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -476,8 +443,7 @@
     move-result-object p1
 
     .line 5
-    invoke-virtual {p0, p1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 6
     .line 7
@@ -491,8 +457,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Landroid/content/ComponentName;
-    ->getPackageName()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/content/ComponentName;->getPackageName()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -500,8 +465,7 @@
     move-result-object p1
 
     .line 5
-    invoke-virtual {p0, p1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 6
     .line 7
@@ -515,8 +479,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Landroid/net/Uri;
-    ->getAuthority()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/net/Uri;->getAuthority()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -524,8 +487,7 @@
     move-result-object p1
 
     .line 5
-    invoke-virtual {p0, p1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 6
     .line 7
@@ -547,8 +509,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0, p2}, Ljava/lang/Class;
-    ->isInstance(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p2}, Ljava/lang/Class;->isInstance(Ljava/lang/Object;)Z
 
     .line 2
     .line 3
@@ -560,8 +521,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0, p2}, Ljava/lang/Class;
-    ->cast(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, p2}, Ljava/lang/Class;->cast(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -569,8 +529,7 @@
     move-result-object p0
 
     .line 11
-    invoke-interface {p1, p0}, Landroidx/core/util/Predicate;
-    ->test(Ljava/lang/Object;)Z
+    invoke-interface {p1, p0}, Landroidx/core/util/Predicate;->test(Ljava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -605,8 +564,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Landroid/net/Uri;
-    ->getAuthority()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/net/Uri;->getAuthority()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -614,8 +572,7 @@
     move-result-object p1
 
     .line 5
-    invoke-virtual {p0, p1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 6
     .line 7
@@ -629,8 +586,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p1}, Landroid/net/Uri;
-    ->getAuthority()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/net/Uri;->getAuthority()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -638,8 +594,7 @@
     move-result-object p1
 
     .line 5
-    invoke-virtual {p0, p1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 6
     .line 7
@@ -717,8 +672,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->lambda$new$6(Landroid/net/Uri;)Z
+    invoke-static {p0}, Landroidx/core/content/IntentSanitizer$Builder;->lambda$new$6(Landroid/net/Uri;)Z
 
     move-result p0
 
@@ -729,8 +683,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->lambda$allowDataWithAuthority$8(Ljava/lang/String;Landroid/net/Uri;)Z
+    invoke-static {p0, p1}, Landroidx/core/content/IntentSanitizer$Builder;->lambda$allowDataWithAuthority$8(Ljava/lang/String;Landroid/net/Uri;)Z
 
     move-result p0
 
@@ -741,8 +694,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->lambda$allowExtra$12(Ljava/lang/Object;)Z
+    invoke-static {p0}, Landroidx/core/content/IntentSanitizer$Builder;->lambda$allowExtra$12(Ljava/lang/Object;)Z
 
     move-result p0
 
@@ -753,8 +705,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->lambda$new$0(Ljava/lang/String;)Z
+    invoke-static {p0}, Landroidx/core/content/IntentSanitizer$Builder;->lambda$new$0(Ljava/lang/String;)Z
 
     move-result p0
 
@@ -765,8 +716,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->lambda$new$7(Landroid/content/ClipData;)Z
+    invoke-static {p0}, Landroidx/core/content/IntentSanitizer$Builder;->lambda$new$7(Landroid/content/ClipData;)Z
 
     move-result p0
 
@@ -801,20 +751,16 @@
     .end annotation
 
     .line 3
-    invoke-static {p1}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
-    iget-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedActions:Landroidx/core/util/Predicate;
+    iget-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedActions:Landroidx/core/util/Predicate;
 
-    invoke-interface {v0, p1}, Landroidx/core/util/Predicate;
-    ->or(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-interface {v0, p1}, Landroidx/core/util/Predicate;->or(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedActions:Landroidx/core/util/Predicate;
+    iput-object p1, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedActions:Landroidx/core/util/Predicate;
 
     return-object p0
 .end method
@@ -835,22 +781,18 @@
     .end annotation
 
     .line 1
-    invoke-static {p1}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
-    invoke-static {p1}, Ljava/util/Objects;
-    ->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     new-instance v0, Landroidx/core/content/c;
 
     const/4 v1, 0x1
 
-    invoke-direct {v0, p1, v1}, Landroidx/core/content/c;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, p1, v1}, Landroidx/core/content/c;-><init>(Ljava/lang/String;I)V
 
-    invoke-virtual {p0, v0}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->allowAction(Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
+    invoke-virtual {p0, v0}, Landroidx/core/content/IntentSanitizer$Builder;->allowAction(Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
 
     return-object p0
 .end method
@@ -870,8 +812,7 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowAnyComponent:Z
+    iput-boolean v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowAnyComponent:Z
 
     .line 3
     .line 4
@@ -882,14 +823,12 @@
     const/4 v1, 0x0
 
     .line 7
-    invoke-direct {v0, v1}, Landroidx/core/content/e;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/core/content/e;-><init>(I)V
 
     .line 8
     .line 9
     .line 10
-    iput-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedComponents:Landroidx/core/util/Predicate;
+    iput-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedComponents:Landroidx/core/util/Predicate;
 
     .line 11
     .line 12
@@ -922,20 +861,16 @@
     .end annotation
 
     .line 3
-    invoke-static {p1}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
-    iget-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedCategories:Landroidx/core/util/Predicate;
+    iget-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedCategories:Landroidx/core/util/Predicate;
 
-    invoke-interface {v0, p1}, Landroidx/core/util/Predicate;
-    ->or(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-interface {v0, p1}, Landroidx/core/util/Predicate;->or(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedCategories:Landroidx/core/util/Predicate;
+    iput-object p1, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedCategories:Landroidx/core/util/Predicate;
 
     return-object p0
 .end method
@@ -956,22 +891,18 @@
     .end annotation
 
     .line 1
-    invoke-static {p1}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
-    invoke-static {p1}, Ljava/util/Objects;
-    ->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     new-instance v0, Landroidx/core/content/c;
 
     const/4 v1, 0x1
 
-    invoke-direct {v0, p1, v1}, Landroidx/core/content/c;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, p1, v1}, Landroidx/core/content/c;-><init>(Ljava/lang/String;I)V
 
-    invoke-virtual {p0, v0}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->allowCategory(Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
+    invoke-virtual {p0, v0}, Landroidx/core/content/IntentSanitizer$Builder;->allowCategory(Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
 
     move-result-object p1
 
@@ -1004,19 +935,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p1}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedClipData:Landroidx/core/util/Predicate;
+    iget-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedClipData:Landroidx/core/util/Predicate;
 
     .line 5
     .line 6
-    invoke-interface {v0, p1}, Landroidx/core/util/Predicate;
-    ->or(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-interface {v0, p1}, Landroidx/core/util/Predicate;->or(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     .line 7
     .line 8
@@ -1024,8 +952,7 @@
     move-result-object p1
 
     .line 10
-    iput-object p1, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedClipData:Landroidx/core/util/Predicate;
+    iput-object p1, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedClipData:Landroidx/core/util/Predicate;
 
     .line 11
     .line 12
@@ -1047,8 +974,7 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowClipDataText:Z
+    iput-boolean v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowClipDataText:Z
 
     .line 3
     .line 4
@@ -1081,19 +1007,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p1}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedClipDataUri:Landroidx/core/util/Predicate;
+    iget-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedClipDataUri:Landroidx/core/util/Predicate;
 
     .line 5
     .line 6
-    invoke-interface {v0, p1}, Landroidx/core/util/Predicate;
-    ->or(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-interface {v0, p1}, Landroidx/core/util/Predicate;->or(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     .line 7
     .line 8
@@ -1101,8 +1024,7 @@
     move-result-object p1
 
     .line 10
-    iput-object p1, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedClipDataUri:Landroidx/core/util/Predicate;
+    iput-object p1, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedClipDataUri:Landroidx/core/util/Predicate;
 
     .line 11
     .line 12
@@ -1125,8 +1047,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p1}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -1138,14 +1059,12 @@
     const/4 v1, 0x4
 
     .line 7
-    invoke-direct {v0, p1, v1}, Landroidx/core/content/c;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, p1, v1}, Landroidx/core/content/c;-><init>(Ljava/lang/String;I)V
 
     .line 8
     .line 9
     .line 10
-    invoke-virtual {p0, v0}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->allowClipDataUri(Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
+    invoke-virtual {p0, v0}, Landroidx/core/content/IntentSanitizer$Builder;->allowClipDataUri(Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
 
     .line 11
     .line 12
@@ -1171,22 +1090,18 @@
     .end annotation
 
     .line 1
-    invoke-static {p1}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
-    invoke-static {p1}, Ljava/util/Objects;
-    ->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     new-instance v0, Landroidx/core/content/d;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p1, v1}, Landroidx/core/content/d;
-    -><init>(Ljava/lang/Object;I)V
+    invoke-direct {v0, p1, v1}, Landroidx/core/content/d;-><init>(Ljava/lang/Object;I)V
 
-    invoke-virtual {p0, v0}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->allowComponent(Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
+    invoke-virtual {p0, v0}, Landroidx/core/content/IntentSanitizer$Builder;->allowComponent(Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
 
     move-result-object p1
 
@@ -1219,26 +1134,21 @@
     .end annotation
 
     .line 3
-    invoke-static {p1}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     const/4 v0, 0x1
 
     .line 4
-    iput-boolean v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowSomeComponents:Z
+    iput-boolean v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowSomeComponents:Z
 
     .line 5
-    iget-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedComponents:Landroidx/core/util/Predicate;
+    iget-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedComponents:Landroidx/core/util/Predicate;
 
-    invoke-interface {v0, p1}, Landroidx/core/util/Predicate;
-    ->or(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-interface {v0, p1}, Landroidx/core/util/Predicate;->or(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedComponents:Landroidx/core/util/Predicate;
+    iput-object p1, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedComponents:Landroidx/core/util/Predicate;
 
     return-object p0
 .end method
@@ -1259,8 +1169,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p1}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -1272,14 +1181,12 @@
     const/4 v1, 0x2
 
     .line 7
-    invoke-direct {v0, p1, v1}, Landroidx/core/content/c;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, p1, v1}, Landroidx/core/content/c;-><init>(Ljava/lang/String;I)V
 
     .line 8
     .line 9
     .line 10
-    invoke-virtual {p0, v0}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->allowComponent(Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
+    invoke-virtual {p0, v0}, Landroidx/core/content/IntentSanitizer$Builder;->allowComponent(Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
 
     .line 11
     .line 12
@@ -1315,19 +1222,16 @@
     .end annotation
 
     .line 1
-    invoke-static {p1}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedData:Landroidx/core/util/Predicate;
+    iget-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedData:Landroidx/core/util/Predicate;
 
     .line 5
     .line 6
-    invoke-interface {v0, p1}, Landroidx/core/util/Predicate;
-    ->or(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-interface {v0, p1}, Landroidx/core/util/Predicate;->or(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     .line 7
     .line 8
@@ -1335,8 +1239,7 @@
     move-result-object p1
 
     .line 10
-    iput-object p1, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedData:Landroidx/core/util/Predicate;
+    iput-object p1, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedData:Landroidx/core/util/Predicate;
 
     .line 11
     .line 12
@@ -1359,8 +1262,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p1}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -1372,14 +1274,12 @@
     const/4 v1, 0x3
 
     .line 7
-    invoke-direct {v0, p1, v1}, Landroidx/core/content/c;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, p1, v1}, Landroidx/core/content/c;-><init>(Ljava/lang/String;I)V
 
     .line 8
     .line 9
     .line 10
-    invoke-virtual {p0, v0}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->allowData(Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
+    invoke-virtual {p0, v0}, Landroidx/core/content/IntentSanitizer$Builder;->allowData(Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
 
     .line 11
     .line 12
@@ -1418,19 +1318,15 @@
     .end annotation
 
     .line 6
-    invoke-static {p1}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 7
-    invoke-static {p2}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p2}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 8
-    iget-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedExtras:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedExtras:Ljava/util/Map;
 
-    invoke-interface {v0, p1}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -1443,22 +1339,18 @@
 
     const/4 v1, 0x1
 
-    invoke-direct {v0, v1}, Landroidx/core/content/e;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/core/content/e;-><init>(I)V
 
     .line 10
     :cond_0
-    invoke-interface {v0, p2}, Landroidx/core/util/Predicate;
-    ->or(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-interface {v0, p2}, Landroidx/core/util/Predicate;->or(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     move-result-object p2
 
     .line 11
-    iget-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedExtras:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedExtras:Ljava/util/Map;
 
-    invoke-interface {v0, p1, p2}, Ljava/util/Map;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-object p0
 .end method
@@ -1497,11 +1389,9 @@
 
     const/16 v1, 0xa
 
-    invoke-direct {v0, v1}, Landroidx/core/content/e;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/core/content/e;-><init>(I)V
 
-    invoke-virtual {p0, p1, p2, v0}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->allowExtra(Ljava/lang/String;Ljava/lang/Class;Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
+    invoke-virtual {p0, p1, p2, v0}, Landroidx/core/content/IntentSanitizer$Builder;->allowExtra(Ljava/lang/String;Ljava/lang/Class;Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
 
     move-result-object p1
 
@@ -1546,25 +1436,20 @@
     .end annotation
 
     .line 2
-    invoke-static {p1}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 3
-    invoke-static {p2}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p2}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
-    invoke-static {p3}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p3}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     new-instance v0, Landroidx/core/util/a;
 
-    invoke-direct {v0, p2, p3}, Landroidx/core/util/a;
-    -><init>(Ljava/lang/Class;Landroidx/core/util/Predicate;)V
+    invoke-direct {v0, p2, p3}, Landroidx/core/util/a;-><init>(Ljava/lang/Class;Landroidx/core/util/Predicate;)V
 
-    invoke-virtual {p0, p1, v0}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->allowExtra(Ljava/lang/String;Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
+    invoke-virtual {p0, p1, v0}, Landroidx/core/content/IntentSanitizer$Builder;->allowExtra(Ljava/lang/String;Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
 
     move-result-object p1
 
@@ -1601,8 +1486,7 @@
 
     const-class v1, Landroid/net/Uri;
 
-    invoke-virtual {p0, v0, v1, p1}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->allowExtra(Ljava/lang/String;Ljava/lang/Class;Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
+    invoke-virtual {p0, v0, v1, p1}, Landroidx/core/content/IntentSanitizer$Builder;->allowExtra(Ljava/lang/String;Ljava/lang/Class;Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
 
     return-object p0
 .end method
@@ -1627,15 +1511,13 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p1, v1}, Landroidx/core/content/c;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, p1, v1}, Landroidx/core/content/c;-><init>(Ljava/lang/String;I)V
 
     const-string p1, "output"
 
     const-class v1, Landroid/net/Uri;
 
-    invoke-virtual {p0, p1, v1, v0}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->allowExtra(Ljava/lang/String;Ljava/lang/Class;Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
+    invoke-virtual {p0, p1, v1, v0}, Landroidx/core/content/IntentSanitizer$Builder;->allowExtra(Ljava/lang/String;Ljava/lang/Class;Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
 
     return-object p0
 .end method
@@ -1674,8 +1556,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0, v0, v1, p1}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->allowExtra(Ljava/lang/String;Ljava/lang/Class;Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
+    invoke-virtual {p0, v0, v1, p1}, Landroidx/core/content/IntentSanitizer$Builder;->allowExtra(Ljava/lang/String;Ljava/lang/Class;Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
 
     .line 6
     .line 7
@@ -1699,8 +1580,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p1}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -1712,8 +1592,7 @@
     const/4 v1, 0x5
 
     .line 7
-    invoke-direct {v0, p1, v1}, Landroidx/core/content/c;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, p1, v1}, Landroidx/core/content/c;-><init>(Ljava/lang/String;I)V
 
     .line 8
     .line 9
@@ -1726,8 +1605,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {p0, p1, v1, v0}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->allowExtra(Ljava/lang/String;Ljava/lang/Class;Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
+    invoke-virtual {p0, p1, v1, v0}, Landroidx/core/content/IntentSanitizer$Builder;->allowExtra(Ljava/lang/String;Ljava/lang/Class;Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
 
     .line 15
     .line 16
@@ -1747,16 +1625,14 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedFlags:I
+    iget v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedFlags:I
 
     .line 2
     .line 3
     or-int/2addr p1, v0
 
     .line 4
-    iput p1, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedFlags:I
+    iput p1, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedFlags:I
 
     .line 5
     .line 6
@@ -1775,8 +1651,7 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedFlags:I
+    iget v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedFlags:I
 
     .line 2
     .line 3
@@ -1788,8 +1663,7 @@
     or-int/2addr v0, v1
 
     .line 7
-    iput v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedFlags:I
+    iput v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedFlags:I
 
     .line 8
     .line 9
@@ -1811,8 +1685,7 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowIdentifier:Z
+    iput-boolean v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowIdentifier:Z
 
     .line 3
     .line 4
@@ -1845,20 +1718,16 @@
     .end annotation
 
     .line 3
-    invoke-static {p1}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
-    iget-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedPackages:Landroidx/core/util/Predicate;
+    iget-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedPackages:Landroidx/core/util/Predicate;
 
-    invoke-interface {v0, p1}, Landroidx/core/util/Predicate;
-    ->or(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-interface {v0, p1}, Landroidx/core/util/Predicate;->or(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedPackages:Landroidx/core/util/Predicate;
+    iput-object p1, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedPackages:Landroidx/core/util/Predicate;
 
     return-object p0
 .end method
@@ -1879,22 +1748,18 @@
     .end annotation
 
     .line 1
-    invoke-static {p1}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
-    invoke-static {p1}, Ljava/util/Objects;
-    ->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     new-instance v0, Landroidx/core/content/c;
 
     const/4 v1, 0x1
 
-    invoke-direct {v0, p1, v1}, Landroidx/core/content/c;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, p1, v1}, Landroidx/core/content/c;-><init>(Ljava/lang/String;I)V
 
-    invoke-virtual {p0, v0}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->allowPackage(Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
+    invoke-virtual {p0, v0}, Landroidx/core/content/IntentSanitizer$Builder;->allowPackage(Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
 
     move-result-object p1
 
@@ -1913,8 +1778,7 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedFlags:I
+    iget v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedFlags:I
 
     .line 2
     .line 3
@@ -1925,8 +1789,7 @@
     or-int/2addr v0, v1
 
     .line 6
-    iput v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedFlags:I
+    iput v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedFlags:I
 
     .line 7
     .line 8
@@ -1948,8 +1811,7 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowSelector:Z
+    iput-boolean v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowSelector:Z
 
     .line 3
     .line 4
@@ -1971,8 +1833,7 @@
     const/4 v0, 0x1
 
     .line 2
-    iput-boolean v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowSourceBounds:Z
+    iput-boolean v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowSourceBounds:Z
 
     .line 3
     .line 4
@@ -2005,20 +1866,16 @@
     .end annotation
 
     .line 3
-    invoke-static {p1}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
-    iget-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedTypes:Landroidx/core/util/Predicate;
+    iget-object v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedTypes:Landroidx/core/util/Predicate;
 
-    invoke-interface {v0, p1}, Landroidx/core/util/Predicate;
-    ->or(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-interface {v0, p1}, Landroidx/core/util/Predicate;->or(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedTypes:Landroidx/core/util/Predicate;
+    iput-object p1, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedTypes:Landroidx/core/util/Predicate;
 
     return-object p0
 .end method
@@ -2039,22 +1896,18 @@
     .end annotation
 
     .line 1
-    invoke-static {p1}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
-    invoke-static {p1}, Ljava/util/Objects;
-    ->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     new-instance v0, Landroidx/core/content/c;
 
     const/4 v1, 0x1
 
-    invoke-direct {v0, p1, v1}, Landroidx/core/content/c;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, p1, v1}, Landroidx/core/content/c;-><init>(Ljava/lang/String;I)V
 
-    invoke-virtual {p0, v0}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->allowType(Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
+    invoke-virtual {p0, v0}, Landroidx/core/content/IntentSanitizer$Builder;->allowType(Landroidx/core/util/Predicate;)Landroidx/core/content/IntentSanitizer$Builder;
 
     move-result-object p1
 
@@ -2067,8 +1920,7 @@
     .end annotation
 
     .line 1
-    iget-boolean v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowAnyComponent:Z
+    iget-boolean v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowAnyComponent:Z
 
     .line 2
     .line 3
@@ -2076,8 +1928,7 @@
 
     .line 4
     .line 5
-    iget-boolean v1, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowSomeComponents:Z
+    iget-boolean v1, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowSomeComponents:Z
 
     .line 6
     .line 7
@@ -2090,8 +1941,7 @@
 
     .line 10
     .line 11
-    iget-boolean v0, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowSomeComponents:Z
+    iget-boolean v0, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowSomeComponents:Z
 
     .line 12
     .line 13
@@ -2111,8 +1961,7 @@
 
     .line 19
     .line 20
-    invoke-direct {v0, v1}, Ljava/lang/SecurityException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/SecurityException;-><init>(Ljava/lang/String;)V
 
     .line 21
     .line 22
@@ -2129,173 +1978,142 @@
     const/4 v1, 0x0
 
     .line 27
-    invoke-direct {v0, v1}, Landroidx/core/content/IntentSanitizer;
-    -><init>(Landroidx/core/content/IntentSanitizer$1;)V
+    invoke-direct {v0, v1}, Landroidx/core/content/IntentSanitizer;-><init>(Landroidx/core/content/IntentSanitizer$1;)V
 
     .line 28
     .line 29
     .line 30
-    iget v1, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedFlags:I
+    iget v1, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedFlags:I
 
     .line 31
     .line 32
-    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;
-    ->access$102(Landroidx/core/content/IntentSanitizer;I)I
+    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;->access$102(Landroidx/core/content/IntentSanitizer;I)I
 
     .line 33
     .line 34
     .line 35
-    iget-object v1, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedActions:Landroidx/core/util/Predicate;
+    iget-object v1, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedActions:Landroidx/core/util/Predicate;
 
     .line 36
     .line 37
-    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;
-    ->access$202(Landroidx/core/content/IntentSanitizer;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;->access$202(Landroidx/core/content/IntentSanitizer;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     .line 38
     .line 39
     .line 40
-    iget-object v1, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedData:Landroidx/core/util/Predicate;
+    iget-object v1, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedData:Landroidx/core/util/Predicate;
 
     .line 41
     .line 42
-    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;
-    ->access$302(Landroidx/core/content/IntentSanitizer;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;->access$302(Landroidx/core/content/IntentSanitizer;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     .line 43
     .line 44
     .line 45
-    iget-object v1, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedTypes:Landroidx/core/util/Predicate;
+    iget-object v1, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedTypes:Landroidx/core/util/Predicate;
 
     .line 46
     .line 47
-    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;
-    ->access$402(Landroidx/core/content/IntentSanitizer;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;->access$402(Landroidx/core/content/IntentSanitizer;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     .line 48
     .line 49
     .line 50
-    iget-object v1, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedCategories:Landroidx/core/util/Predicate;
+    iget-object v1, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedCategories:Landroidx/core/util/Predicate;
 
     .line 51
     .line 52
-    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;
-    ->access$502(Landroidx/core/content/IntentSanitizer;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;->access$502(Landroidx/core/content/IntentSanitizer;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     .line 53
     .line 54
     .line 55
-    iget-object v1, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedPackages:Landroidx/core/util/Predicate;
+    iget-object v1, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedPackages:Landroidx/core/util/Predicate;
 
     .line 56
     .line 57
-    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;
-    ->access$602(Landroidx/core/content/IntentSanitizer;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;->access$602(Landroidx/core/content/IntentSanitizer;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     .line 58
     .line 59
     .line 60
-    iget-boolean v1, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowAnyComponent:Z
+    iget-boolean v1, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowAnyComponent:Z
 
     .line 61
     .line 62
-    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;
-    ->access$702(Landroidx/core/content/IntentSanitizer;Z)Z
+    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;->access$702(Landroidx/core/content/IntentSanitizer;Z)Z
 
     .line 63
     .line 64
     .line 65
-    iget-object v1, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedComponents:Landroidx/core/util/Predicate;
+    iget-object v1, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedComponents:Landroidx/core/util/Predicate;
 
     .line 66
     .line 67
-    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;
-    ->access$802(Landroidx/core/content/IntentSanitizer;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;->access$802(Landroidx/core/content/IntentSanitizer;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     .line 68
     .line 69
     .line 70
-    iget-object v1, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedExtras:Ljava/util/Map;
+    iget-object v1, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedExtras:Ljava/util/Map;
 
     .line 71
     .line 72
-    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;
-    ->access$902(Landroidx/core/content/IntentSanitizer;Ljava/util/Map;)Ljava/util/Map;
+    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;->access$902(Landroidx/core/content/IntentSanitizer;Ljava/util/Map;)Ljava/util/Map;
 
     .line 73
     .line 74
     .line 75
-    iget-boolean v1, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowClipDataText:Z
+    iget-boolean v1, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowClipDataText:Z
 
     .line 76
     .line 77
-    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;
-    ->access$1002(Landroidx/core/content/IntentSanitizer;Z)Z
+    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;->access$1002(Landroidx/core/content/IntentSanitizer;Z)Z
 
     .line 78
     .line 79
     .line 80
-    iget-object v1, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedClipDataUri:Landroidx/core/util/Predicate;
+    iget-object v1, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedClipDataUri:Landroidx/core/util/Predicate;
 
     .line 81
     .line 82
-    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;
-    ->access$1102(Landroidx/core/content/IntentSanitizer;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;->access$1102(Landroidx/core/content/IntentSanitizer;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     .line 83
     .line 84
     .line 85
-    iget-object v1, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowedClipData:Landroidx/core/util/Predicate;
+    iget-object v1, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowedClipData:Landroidx/core/util/Predicate;
 
     .line 86
     .line 87
-    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;
-    ->access$1202(Landroidx/core/content/IntentSanitizer;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;->access$1202(Landroidx/core/content/IntentSanitizer;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     .line 88
     .line 89
     .line 90
-    iget-boolean v1, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowIdentifier:Z
+    iget-boolean v1, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowIdentifier:Z
 
     .line 91
     .line 92
-    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;
-    ->access$1302(Landroidx/core/content/IntentSanitizer;Z)Z
+    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;->access$1302(Landroidx/core/content/IntentSanitizer;Z)Z
 
     .line 93
     .line 94
     .line 95
-    iget-boolean v1, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowSelector:Z
+    iget-boolean v1, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowSelector:Z
 
     .line 96
     .line 97
-    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;
-    ->access$1402(Landroidx/core/content/IntentSanitizer;Z)Z
+    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;->access$1402(Landroidx/core/content/IntentSanitizer;Z)Z
 
     .line 98
     .line 99
     .line 100
-    iget-boolean v1, p0, Landroidx/core/content/IntentSanitizer$Builder;
-    ->mAllowSourceBounds:Z
+    iget-boolean v1, p0, Landroidx/core/content/IntentSanitizer$Builder;->mAllowSourceBounds:Z
 
     .line 101
     .line 102
-    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;
-    ->access$1502(Landroidx/core/content/IntentSanitizer;Z)Z
+    invoke-static {v0, v1}, Landroidx/core/content/IntentSanitizer;->access$1502(Landroidx/core/content/IntentSanitizer;Z)Z
 
     .line 103
     .line 104

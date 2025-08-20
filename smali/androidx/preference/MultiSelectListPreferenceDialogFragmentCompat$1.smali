@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;
-    ->onPrepareDialogBuilder(Landroidx/appcompat/app/AlertDialog$Builder;)V
+    value = Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;->onPrepareDialogBuilder(Landroidx/appcompat/app/AlertDialog$Builder;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat$1;
-    ->this$0:Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;
+    iput-object p1, p0, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat$1;->this$0:Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -47,23 +44,19 @@
 
     .line 2
     .line 3
-    iget-object p1, p0, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat$1;
-    ->this$0:Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;
+    iget-object p1, p0, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat$1;->this$0:Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;
 
     .line 4
     .line 5
-    iget-boolean p3, p1, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;
-    ->mPreferenceChanged:Z
+    iget-boolean p3, p1, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;->mPreferenceChanged:Z
 
     .line 6
     .line 7
-    iget-object v0, p1, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;
-    ->mNewValues:Ljava/util/Set;
+    iget-object v0, p1, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;->mNewValues:Ljava/util/Set;
 
     .line 8
     .line 9
-    iget-object v1, p1, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;
-    ->mEntryValues:[Ljava/lang/CharSequence;
+    iget-object v1, p1, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;->mEntryValues:[Ljava/lang/CharSequence;
 
     .line 10
     .line 11
@@ -71,8 +64,7 @@
 
     .line 12
     .line 13
-    invoke-interface {p2}, Ljava/lang/CharSequence;
-    ->toString()Ljava/lang/String;
+    invoke-interface {p2}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
     .line 14
     .line 15
@@ -80,8 +72,7 @@
     move-result-object p2
 
     .line 17
-    invoke-interface {v0, p2}, Ljava/util/Set;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, p2}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
     .line 18
     .line 19
@@ -92,29 +83,24 @@
     or-int/2addr p2, p3
 
     .line 22
-    iput-boolean p2, p1, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;
-    ->mPreferenceChanged:Z
+    iput-boolean p2, p1, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;->mPreferenceChanged:Z
 return-void
 
     .line 25
     :cond_0
-    iget-object p1, p0, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat$1;
-    ->this$0:Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;
+    iget-object p1, p0, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat$1;->this$0:Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;
 
     .line 26
     .line 27
-    iget-boolean p3, p1, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;
-    ->mPreferenceChanged:Z
+    iget-boolean p3, p1, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;->mPreferenceChanged:Z
 
     .line 28
     .line 29
-    iget-object v0, p1, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;
-    ->mNewValues:Ljava/util/Set;
+    iget-object v0, p1, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;->mNewValues:Ljava/util/Set;
 
     .line 30
     .line 31
-    iget-object v1, p1, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;
-    ->mEntryValues:[Ljava/lang/CharSequence;
+    iget-object v1, p1, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;->mEntryValues:[Ljava/lang/CharSequence;
 
     .line 32
     .line 33
@@ -122,8 +108,7 @@ return-void
 
     .line 34
     .line 35
-    invoke-interface {p2}, Ljava/lang/CharSequence;
-    ->toString()Ljava/lang/String;
+    invoke-interface {p2}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
     .line 36
     .line 37
@@ -131,8 +116,7 @@ return-void
     move-result-object p2
 
     .line 39
-    invoke-interface {v0, p2}, Ljava/util/Set;
-    ->remove(Ljava/lang/Object;)Z
+    invoke-interface {v0, p2}, Ljava/util/Set;->remove(Ljava/lang/Object;)Z
 
     .line 40
     .line 41
@@ -143,8 +127,7 @@ return-void
     or-int/2addr p2, p3
 
     .line 44
-    iput-boolean p2, p1, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;
-    ->mPreferenceChanged:Z
+    iput-boolean p2, p1, Landroidx/preference/MultiSelectListPreferenceDialogFragmentCompat;->mPreferenceChanged:Z
 return-void
 .end method
 

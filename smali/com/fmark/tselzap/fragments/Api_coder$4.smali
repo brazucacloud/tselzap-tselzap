@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/fmark/tselzap/fragments/Api_coder;
-    ->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    value = Lcom/fmark/tselzap/fragments/Api_coder;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/fmark/tselzap/fragments/Api_coder$4;
-    ->this$0:Lcom/fmark/tselzap/fragments/Api_coder;
+    iput-object p1, p0, Lcom/fmark/tselzap/fragments/Api_coder$4;->this$0:Lcom/fmark/tselzap/fragments/Api_coder;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
@@ -56,13 +53,11 @@
     .end annotation
 
     .line 1
-    iget-object p1, p0, Lcom/fmark/tselzap/fragments/Api_coder$4;
-    ->this$0:Lcom/fmark/tselzap/fragments/Api_coder;
+    iget-object p1, p0, Lcom/fmark/tselzap/fragments/Api_coder$4;->this$0:Lcom/fmark/tselzap/fragments/Api_coder;
 
     .line 2
     .line 3
-    invoke-static {p1}, Lcom/fmark/tselzap/fragments/Api_coder;
-    ->l(Lcom/fmark/tselzap/fragments/Api_coder;)Ljava/util/List;
+    invoke-static {p1}, Lcom/fmark/tselzap/fragments/Api_coder;->l(Lcom/fmark/tselzap/fragments/Api_coder;)Ljava/util/List;
 
     .line 4
     .line 5
@@ -70,8 +65,7 @@
     move-result-object p1
 
     .line 7
-    invoke-interface {p1, p3}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {p1, p3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -83,13 +77,11 @@
 
     .line 12
     .line 13
-    iget-object p2, p0, Lcom/fmark/tselzap/fragments/Api_coder$4;
-    ->this$0:Lcom/fmark/tselzap/fragments/Api_coder;
+    iget-object p2, p0, Lcom/fmark/tselzap/fragments/Api_coder$4;->this$0:Lcom/fmark/tselzap/fragments/Api_coder;
 
     .line 14
     .line 15
-    invoke-static {p2}, Lcom/fmark/tselzap/fragments/Api_coder;
-    ->k(Lcom/fmark/tselzap/fragments/Api_coder;)Ljava/util/Map;
+    invoke-static {p2}, Lcom/fmark/tselzap/fragments/Api_coder;->k(Lcom/fmark/tselzap/fragments/Api_coder;)Ljava/util/Map;
 
     .line 16
     .line 17
@@ -97,8 +89,7 @@
     move-result-object p4
 
     .line 19
-    invoke-interface {p4, p1}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p4, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -110,19 +101,16 @@
 
     .line 24
     .line 25
-    invoke-static {p2, p1}, Lcom/fmark/tselzap/fragments/Api_coder;
-    ->p(Lcom/fmark/tselzap/fragments/Api_coder;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lcom/fmark/tselzap/fragments/Api_coder;->p(Lcom/fmark/tselzap/fragments/Api_coder;Ljava/lang/String;)V
 
     .line 26
     .line 27
     .line 28
-    iget-object p1, p0, Lcom/fmark/tselzap/fragments/Api_coder$4;
-    ->this$0:Lcom/fmark/tselzap/fragments/Api_coder;
+    iget-object p1, p0, Lcom/fmark/tselzap/fragments/Api_coder$4;->this$0:Lcom/fmark/tselzap/fragments/Api_coder;
 
     .line 29
     .line 30
-    invoke-static {p1}, Lcom/fmark/tselzap/fragments/Api_coder;
-    ->f(Lcom/fmark/tselzap/fragments/Api_coder;)Ljava/lang/String;
+    invoke-static {p1}, Lcom/fmark/tselzap/fragments/Api_coder;->f(Lcom/fmark/tselzap/fragments/Api_coder;)Ljava/lang/String;
 
     .line 31
     .line 32
@@ -130,13 +118,11 @@
     move-result-object p1
 
     .line 34
-    iget-object p2, p0, Lcom/fmark/tselzap/fragments/Api_coder$4;
-    ->this$0:Lcom/fmark/tselzap/fragments/Api_coder;
+    iget-object p2, p0, Lcom/fmark/tselzap/fragments/Api_coder$4;->this$0:Lcom/fmark/tselzap/fragments/Api_coder;
 
     .line 35
     .line 36
-    invoke-static {p2}, Lcom/fmark/tselzap/fragments/Api_coder;
-    ->j(Lcom/fmark/tselzap/fragments/Api_coder;)Ljava/lang/String;
+    invoke-static {p2}, Lcom/fmark/tselzap/fragments/Api_coder;->j(Lcom/fmark/tselzap/fragments/Api_coder;)Ljava/lang/String;
 
     .line 37
     .line 38
@@ -144,19 +130,16 @@
     move-result-object p2
 
     .line 40
-    invoke-static {p1, p2}, Landroid/util/Log;
-    ->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, p2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 41
     .line 42
     .line 43
-    iget-object p1, p0, Lcom/fmark/tselzap/fragments/Api_coder$4;
-    ->this$0:Lcom/fmark/tselzap/fragments/Api_coder;
+    iget-object p1, p0, Lcom/fmark/tselzap/fragments/Api_coder$4;->this$0:Lcom/fmark/tselzap/fragments/Api_coder;
 
     .line 44
     .line 45
-    invoke-static {p1}, Lcom/fmark/tselzap/fragments/Api_coder;
-    ->g(Lcom/fmark/tselzap/fragments/Api_coder;)Lcom/fmark/tselzap/Storage/DataStorage;
+    invoke-static {p1}, Lcom/fmark/tselzap/fragments/Api_coder;->g(Lcom/fmark/tselzap/fragments/Api_coder;)Lcom/fmark/tselzap/Storage/DataStorage;
 
     .line 46
     .line 47
@@ -168,8 +151,7 @@
 
     .line 50
     .line 51
-    invoke-virtual {p1, p2, p3}, Lcom/fmark/tselzap/Storage/DataStorage;
-    ->setInt(Ljava/lang/String;I)V
+    invoke-virtual {p1, p2, p3}, Lcom/fmark/tselzap/Storage/DataStorage;->setInt(Ljava/lang/String;I)V
 
     .line 52
     .line 53

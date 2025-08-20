@@ -26,8 +26,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -53,8 +52,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Landroidx/core/view/WindowInsetsControllerCompat;
-    -><init>(Landroid/view/Window;Landroid/view/View;)V
+    invoke-direct {v0, p0, p1}, Landroidx/core/view/WindowInsetsControllerCompat;-><init>(Landroid/view/Window;Landroid/view/View;)V
 
     .line 4
     .line 5
@@ -86,8 +84,7 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -99,8 +96,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/view/WindowCompat$Api28Impl;
-    ->requireViewById(Landroid/view/Window;I)Ljava/lang/Object;
+    invoke-static {p0, p1}, Landroidx/core/view/WindowCompat$Api28Impl;->requireViewById(Landroid/view/Window;I)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -116,8 +112,7 @@
 
     .line 14
     :cond_0
-    invoke-virtual {p0, p1}, Landroid/view/Window;
-    ->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, p1}, Landroid/view/Window;->findViewById(I)Landroid/view/View;
 
     .line 15
     .line 16
@@ -141,8 +136,7 @@
 
     .line 24
     .line 25
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 26
     .line 27
@@ -181,8 +175,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -194,8 +187,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/view/WindowCompat$Api30Impl;
-    ->setDecorFitsSystemWindows(Landroid/view/Window;Z)V
+    invoke-static {p0, p1}, Landroidx/core/view/WindowCompat$Api30Impl;->setDecorFitsSystemWindows(Landroid/view/Window;Z)V
 
     .line 8
     .line 9
@@ -204,8 +196,7 @@
 
     .line 11
     :cond_0
-    invoke-static {p0, p1}, Landroidx/core/view/WindowCompat$Api16Impl;
-    ->setDecorFitsSystemWindows(Landroid/view/Window;Z)V
+    invoke-static {p0, p1}, Landroidx/core/view/WindowCompat$Api16Impl;->setDecorFitsSystemWindows(Landroid/view/Window;Z)V
 
     .line 12
     .line 13

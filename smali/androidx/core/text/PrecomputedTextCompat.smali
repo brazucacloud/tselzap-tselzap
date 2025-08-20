@@ -62,14 +62,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/core/text/PrecomputedTextCompat;
-    ->sLock:Ljava/lang/Object;
+    sput-object v0, Landroidx/core/text/PrecomputedTextCompat;->sLock:Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -91,31 +89,25 @@
     .end annotation
 
     .line 6
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 7
-    invoke-static {p1}, Landroidx/core/text/PrecomputedTextCompat$Api28Impl;
-    ->castToSpannable(Landroid/text/PrecomputedText;)Landroid/text/Spannable;
+    invoke-static {p1}, Landroidx/core/text/PrecomputedTextCompat$Api28Impl;->castToSpannable(Landroid/text/PrecomputedText;)Landroid/text/Spannable;
 
     move-result-object v0
 
-    iput-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mText:Landroid/text/Spannable;
+    iput-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;->mText:Landroid/text/Spannable;
 
     .line 8
-    iput-object p2, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mParams:Landroidx/core/text/PrecomputedTextCompat$Params;
+    iput-object p2, p0, Landroidx/core/text/PrecomputedTextCompat;->mParams:Landroidx/core/text/PrecomputedTextCompat$Params;
 
     const/4 p2, 0x0
 
     .line 9
-    iput-object p2, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mParagraphEnds:[I
+    iput-object p2, p0, Landroidx/core/text/PrecomputedTextCompat;->mParagraphEnds:[I
 
     .line 10
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x1d
 
@@ -127,8 +119,7 @@
     move-object p1, p2
 
     :goto_0
-    iput-object p1, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mWrapped:Landroid/text/PrecomputedText;
+    iput-object p1, p0, Landroidx/core/text/PrecomputedTextCompat;->mWrapped:Landroid/text/PrecomputedText;
 
     return-void
 .end method
@@ -149,31 +140,25 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     new-instance v0, Landroid/text/SpannableString;
 
-    invoke-direct {v0, p1}, Landroid/text/SpannableString;
-    -><init>(Ljava/lang/CharSequence;)V
+    invoke-direct {v0, p1}, Landroid/text/SpannableString;-><init>(Ljava/lang/CharSequence;)V
 
-    iput-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mText:Landroid/text/Spannable;
+    iput-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;->mText:Landroid/text/Spannable;
 
     .line 3
-    iput-object p2, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mParams:Landroidx/core/text/PrecomputedTextCompat$Params;
+    iput-object p2, p0, Landroidx/core/text/PrecomputedTextCompat;->mParams:Landroidx/core/text/PrecomputedTextCompat$Params;
 
     .line 4
-    iput-object p3, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mParagraphEnds:[I
+    iput-object p3, p0, Landroidx/core/text/PrecomputedTextCompat;->mParagraphEnds:[I
 
     const/4 p1, 0x0
 
     .line 5
-    iput-object p1, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mWrapped:Landroid/text/PrecomputedText;
+    iput-object p1, p0, Landroidx/core/text/PrecomputedTextCompat;->mWrapped:Landroid/text/PrecomputedText;
 
     return-void
 .end method
@@ -195,14 +180,12 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -212,14 +195,12 @@
 
     .line 8
     .line 9
-    invoke-static {v0}, Landroid/os/Trace;
-    ->beginSection(Ljava/lang/String;)V
+    invoke-static {v0}, Landroid/os/Trace;->beginSection(Ljava/lang/String;)V
 
     .line 10
     .line 11
     .line 12
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 13
     .line 14
@@ -231,8 +212,7 @@
 
     .line 17
     .line 18
-    iget-object v0, p1, Landroidx/core/text/PrecomputedTextCompat$Params;
-    ->mWrapped:Landroid/text/PrecomputedText$Params;
+    iget-object v0, p1, Landroidx/core/text/PrecomputedTextCompat$Params;->mWrapped:Landroid/text/PrecomputedText$Params;
 
     .line 19
     .line 20
@@ -244,8 +224,7 @@
 
     .line 23
     .line 24
-    invoke-static {p0, v0}, Landroidx/core/app/c;
-    ->o(Ljava/lang/CharSequence;Landroid/text/PrecomputedText$Params;)Landroid/text/PrecomputedText;
+    invoke-static {p0, v0}, Landroidx/core/app/c;->o(Ljava/lang/CharSequence;Landroid/text/PrecomputedText$Params;)Landroid/text/PrecomputedText;
 
     .line 25
     .line 26
@@ -253,16 +232,14 @@
     move-result-object p0
 
     .line 28
-    invoke-direct {v1, p0, p1}, Landroidx/core/text/PrecomputedTextCompat;
-    -><init>(Landroid/text/PrecomputedText;Landroidx/core/text/PrecomputedTextCompat$Params;)V
+    invoke-direct {v1, p0, p1}, Landroidx/core/text/PrecomputedTextCompat;-><init>(Landroid/text/PrecomputedText;Landroidx/core/text/PrecomputedTextCompat$Params;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 29
     .line 30
     .line 31
-    invoke-static {}, Landroid/os/Trace;
-    ->endSection()V
+    invoke-static {}, Landroid/os/Trace;->endSection()V
 
     .line 32
     .line 33
@@ -276,14 +253,12 @@
 
     .line 36
     .line 37
-    invoke-direct {v0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 38
     .line 39
     .line 40
-    invoke-interface {p0}, Ljava/lang/CharSequence;
-    ->length()I
+    invoke-interface {p0}, Ljava/lang/CharSequence;->length()I
 
     .line 41
     .line 42
@@ -306,8 +281,7 @@
 
     .line 49
     .line 50
-    invoke-static {p0, v4, v3, v1}, Landroid/text/TextUtils;
-    ->indexOf(Ljava/lang/CharSequence;CII)I
+    invoke-static {p0, v4, v3, v1}, Landroid/text/TextUtils;->indexOf(Ljava/lang/CharSequence;CII)I
 
     .line 51
     .line 52
@@ -331,8 +305,7 @@
     .line 59
     .line 60
     :goto_1
-    invoke-static {v3}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 61
     .line 62
@@ -340,8 +313,7 @@
     move-result-object v4
 
     .line 64
-    invoke-virtual {v0, v4}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 65
     .line 66
@@ -350,8 +322,7 @@
 
     .line 68
     :cond_2
-    invoke-virtual {v0}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     .line 69
     .line 70
@@ -364,8 +335,7 @@
     .line 73
     .line 74
     :goto_2
-    invoke-virtual {v0}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     .line 75
     .line 76
@@ -377,8 +347,7 @@
 
     .line 79
     .line 80
-    invoke-virtual {v0, v2}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 81
     .line 82
@@ -390,8 +359,7 @@
 
     .line 85
     .line 86
-    invoke-virtual {v3}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {v3}, Ljava/lang/Integer;->intValue()I
 
     .line 87
     .line 88
@@ -411,8 +379,7 @@
 
     .line 95
     :cond_3
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 96
     .line 97
@@ -424,8 +391,7 @@
 
     .line 100
     .line 101
-    invoke-interface {p0}, Ljava/lang/CharSequence;
-    ->length()I
+    invoke-interface {p0}, Ljava/lang/CharSequence;->length()I
 
     .line 102
     .line 103
@@ -433,8 +399,7 @@
     move-result v0
 
     .line 105
-    invoke-virtual {p1}, Landroidx/core/text/PrecomputedTextCompat$Params;
-    ->getTextPaint()Landroid/text/TextPaint;
+    invoke-virtual {p1}, Landroidx/core/text/PrecomputedTextCompat$Params;->getTextPaint()Landroid/text/TextPaint;
 
     .line 106
     .line 107
@@ -442,8 +407,7 @@
     move-result-object v2
 
     .line 109
-    invoke-static {v0, v2, p0}, La0/c;
-    ->y(ILandroid/text/TextPaint;Ljava/lang/CharSequence;)Landroid/text/StaticLayout$Builder;
+    invoke-static {v0, v2, p0}, La0/c;->y(ILandroid/text/TextPaint;Ljava/lang/CharSequence;)Landroid/text/StaticLayout$Builder;
 
     .line 110
     .line 111
@@ -451,8 +415,7 @@
     move-result-object v0
 
     .line 113
-    invoke-virtual {p1}, Landroidx/core/text/PrecomputedTextCompat$Params;
-    ->getBreakStrategy()I
+    invoke-virtual {p1}, Landroidx/core/text/PrecomputedTextCompat$Params;->getBreakStrategy()I
 
     .line 114
     .line 115
@@ -460,8 +423,7 @@
     move-result v2
 
     .line 117
-    invoke-static {v0, v2}, Landroidx/core/text/a;
-    ->f(Landroid/text/StaticLayout$Builder;I)Landroid/text/StaticLayout$Builder;
+    invoke-static {v0, v2}, Landroidx/core/text/a;->f(Landroid/text/StaticLayout$Builder;I)Landroid/text/StaticLayout$Builder;
 
     .line 118
     .line 119
@@ -469,8 +431,7 @@
     move-result-object v0
 
     .line 121
-    invoke-virtual {p1}, Landroidx/core/text/PrecomputedTextCompat$Params;
-    ->getHyphenationFrequency()I
+    invoke-virtual {p1}, Landroidx/core/text/PrecomputedTextCompat$Params;->getHyphenationFrequency()I
 
     .line 122
     .line 123
@@ -478,8 +439,7 @@
     move-result v2
 
     .line 125
-    invoke-static {v0, v2}, Landroidx/core/text/a;
-    ->x(Landroid/text/StaticLayout$Builder;I)Landroid/text/StaticLayout$Builder;
+    invoke-static {v0, v2}, Landroidx/core/text/a;->x(Landroid/text/StaticLayout$Builder;I)Landroid/text/StaticLayout$Builder;
 
     .line 126
     .line 127
@@ -487,8 +447,7 @@
     move-result-object v0
 
     .line 129
-    invoke-virtual {p1}, Landroidx/core/text/PrecomputedTextCompat$Params;
-    ->getTextDirection()Landroid/text/TextDirectionHeuristic;
+    invoke-virtual {p1}, Landroidx/core/text/PrecomputedTextCompat$Params;->getTextDirection()Landroid/text/TextDirectionHeuristic;
 
     .line 130
     .line 131
@@ -496,8 +455,7 @@
     move-result-object v2
 
     .line 133
-    invoke-static {v0, v2}, Landroidx/core/text/a;
-    ->g(Landroid/text/StaticLayout$Builder;Landroid/text/TextDirectionHeuristic;)Landroid/text/StaticLayout$Builder;
+    invoke-static {v0, v2}, Landroidx/core/text/a;->g(Landroid/text/StaticLayout$Builder;Landroid/text/TextDirectionHeuristic;)Landroid/text/StaticLayout$Builder;
 
     .line 134
     .line 135
@@ -505,8 +463,7 @@
     move-result-object v0
 
     .line 137
-    invoke-static {v0}, Landroidx/core/text/a;
-    ->q(Landroid/text/StaticLayout$Builder;)V
+    invoke-static {v0}, Landroidx/core/text/a;->q(Landroid/text/StaticLayout$Builder;)V
 
     .line 138
     .line 139
@@ -522,8 +479,7 @@
 
     .line 143
     .line 144
-    invoke-virtual {p1}, Landroidx/core/text/PrecomputedTextCompat$Params;
-    ->getTextPaint()Landroid/text/TextPaint;
+    invoke-virtual {p1}, Landroidx/core/text/PrecomputedTextCompat$Params;->getTextPaint()Landroid/text/TextPaint;
 
     .line 145
     .line 146
@@ -531,8 +487,7 @@
     move-result-object v4
 
     .line 148
-    sget-object v6, Landroid/text/Layout$Alignment;
-    ->ALIGN_NORMAL:Landroid/text/Layout$Alignment;
+    sget-object v6, Landroid/text/Layout$Alignment;->ALIGN_NORMAL:Landroid/text/Layout$Alignment;
 
     .line 149
     .line 150
@@ -554,8 +509,7 @@
     move-object v3, p0
 
     .line 158
-    invoke-direct/range {v2 .. v9}, Landroid/text/StaticLayout;
-    -><init>(Ljava/lang/CharSequence;Landroid/text/TextPaint;ILandroid/text/Layout$Alignment;FFZ)V
+    invoke-direct/range {v2 .. v9}, Landroid/text/StaticLayout;-><init>(Ljava/lang/CharSequence;Landroid/text/TextPaint;ILandroid/text/Layout$Alignment;FFZ)V
 
     .line 159
     .line 160
@@ -565,16 +519,14 @@
 
     .line 162
     .line 163
-    invoke-direct {p0, v3, p1, v1}, Landroidx/core/text/PrecomputedTextCompat;
-    -><init>(Ljava/lang/CharSequence;Landroidx/core/text/PrecomputedTextCompat$Params;[I)V
+    invoke-direct {p0, v3, p1, v1}, Landroidx/core/text/PrecomputedTextCompat;-><init>(Ljava/lang/CharSequence;Landroidx/core/text/PrecomputedTextCompat$Params;[I)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 164
     .line 165
     .line 166
-    invoke-static {}, Landroid/os/Trace;
-    ->endSection()V
+    invoke-static {}, Landroid/os/Trace;->endSection()V
 
     .line 167
     .line 168
@@ -589,8 +541,7 @@
     move-object p0, v0
 
     .line 172
-    invoke-static {}, Landroid/os/Trace;
-    ->endSection()V
+    invoke-static {}, Landroid/os/Trace;->endSection()V
 
     .line 173
     .line 174
@@ -696,8 +647,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1, p0}, Landroidx/core/text/PrecomputedTextCompat$PrecomputedTextFutureTask;
-    -><init>(Landroidx/core/text/PrecomputedTextCompat$Params;Ljava/lang/CharSequence;)V
+    invoke-direct {v0, p1, p0}, Landroidx/core/text/PrecomputedTextCompat$PrecomputedTextFutureTask;-><init>(Landroidx/core/text/PrecomputedTextCompat$Params;Ljava/lang/CharSequence;)V
 
     .line 4
     .line 5
@@ -706,8 +656,7 @@
 
     .line 7
     .line 8
-    sget-object p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->sLock:Ljava/lang/Object;
+    sget-object p0, Landroidx/core/text/PrecomputedTextCompat;->sLock:Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -715,8 +664,7 @@
 
     .line 11
     :try_start_0
-    sget-object p1, Landroidx/core/text/PrecomputedTextCompat;
-    ->sExecutor:Ljava/util/concurrent/Executor;
+    sget-object p1, Landroidx/core/text/PrecomputedTextCompat;->sExecutor:Ljava/util/concurrent/Executor;
 
     .line 12
     .line 13
@@ -727,8 +675,7 @@
     const/4 p1, 0x1
 
     .line 16
-    invoke-static {p1}, Ljava/util/concurrent/Executors;
-    ->newFixedThreadPool(I)Ljava/util/concurrent/ExecutorService;
+    invoke-static {p1}, Ljava/util/concurrent/Executors;->newFixedThreadPool(I)Ljava/util/concurrent/ExecutorService;
 
     .line 17
     .line 18
@@ -736,8 +683,7 @@
     move-result-object p1
 
     .line 20
-    sput-object p1, Landroidx/core/text/PrecomputedTextCompat;
-    ->sExecutor:Ljava/util/concurrent/Executor;
+    sput-object p1, Landroidx/core/text/PrecomputedTextCompat;->sExecutor:Ljava/util/concurrent/Executor;
 
     .line 21
     .line 22
@@ -753,8 +699,7 @@
     .line 25
     :cond_0
     :goto_0
-    sget-object p2, Landroidx/core/text/PrecomputedTextCompat;
-    ->sExecutor:Ljava/util/concurrent/Executor;
+    sget-object p2, Landroidx/core/text/PrecomputedTextCompat;->sExecutor:Ljava/util/concurrent/Executor;
 
     .line 26
     .line 27
@@ -775,8 +720,7 @@
     .line 31
     :cond_1
     :goto_2
-    invoke-interface {p2, v0}, Ljava/util/concurrent/Executor;
-    ->execute(Ljava/lang/Runnable;)V
+    invoke-interface {p2, v0}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
 
     .line 32
     .line 33
@@ -790,13 +734,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mText:Landroid/text/Spannable;
+    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;->mText:Landroid/text/Spannable;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/lang/CharSequence;
-    ->charAt(I)C
+    invoke-interface {v0, p1}, Ljava/lang/CharSequence;->charAt(I)C
 
     .line 4
     .line 5
@@ -813,8 +755,7 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -826,13 +767,11 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mWrapped:Landroid/text/PrecomputedText;
+    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;->mWrapped:Landroid/text/PrecomputedText;
 
     .line 8
     .line 9
-    invoke-static {v0}, Landroidx/core/app/c;
-    ->c(Landroid/text/PrecomputedText;)I
+    invoke-static {v0}, Landroidx/core/app/c;->c(Landroid/text/PrecomputedText;)I
 
     .line 10
     .line 11
@@ -843,8 +782,7 @@
 
     .line 14
     :cond_0
-    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mParagraphEnds:[I
+    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;->mParagraphEnds:[I
 
     .line 15
     .line 16
@@ -865,8 +803,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/core/text/PrecomputedTextCompat;
-    ->getParagraphCount()I
+    invoke-virtual {p0}, Landroidx/core/text/PrecomputedTextCompat;->getParagraphCount()I
 
     .line 2
     .line 3
@@ -881,14 +818,12 @@
     const/4 v2, 0x0
 
     .line 8
-    invoke-static {p1, v2, v0, v1}, Landroidx/core/util/Preconditions;
-    ->checkArgumentInRange(IIILjava/lang/String;)I
+    invoke-static {p1, v2, v0, v1}, Landroidx/core/util/Preconditions;->checkArgumentInRange(IIILjava/lang/String;)I
 
     .line 9
     .line 10
     .line 11
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 12
     .line 13
@@ -900,13 +835,11 @@
 
     .line 16
     .line 17
-    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mWrapped:Landroid/text/PrecomputedText;
+    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;->mWrapped:Landroid/text/PrecomputedText;
 
     .line 18
     .line 19
-    invoke-static {v0, p1}, Landroidx/core/app/c;
-    ->d(Landroid/text/PrecomputedText;I)I
+    invoke-static {v0, p1}, Landroidx/core/app/c;->d(Landroid/text/PrecomputedText;I)I
 
     .line 20
     .line 21
@@ -917,8 +850,7 @@
 
     .line 24
     :cond_0
-    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mParagraphEnds:[I
+    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;->mParagraphEnds:[I
 
     .line 25
     .line 26
@@ -941,8 +873,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/core/text/PrecomputedTextCompat;
-    ->getParagraphCount()I
+    invoke-virtual {p0}, Landroidx/core/text/PrecomputedTextCompat;->getParagraphCount()I
 
     .line 2
     .line 3
@@ -957,14 +888,12 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v1, v0, v2}, Landroidx/core/util/Preconditions;
-    ->checkArgumentInRange(IIILjava/lang/String;)I
+    invoke-static {p1, v1, v0, v2}, Landroidx/core/util/Preconditions;->checkArgumentInRange(IIILjava/lang/String;)I
 
     .line 9
     .line 10
     .line 11
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 12
     .line 13
@@ -976,13 +905,11 @@
 
     .line 16
     .line 17
-    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mWrapped:Landroid/text/PrecomputedText;
+    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;->mWrapped:Landroid/text/PrecomputedText;
 
     .line 18
     .line 19
-    invoke-static {v0, p1}, Landroidx/core/app/c;
-    ->C(Landroid/text/PrecomputedText;I)I
+    invoke-static {v0, p1}, Landroidx/core/app/c;->C(Landroid/text/PrecomputedText;I)I
 
     .line 20
     .line 21
@@ -1001,8 +928,7 @@
 
     .line 27
     :cond_1
-    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mParagraphEnds:[I
+    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;->mParagraphEnds:[I
 
     .line 28
     .line 29
@@ -1023,8 +949,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mParams:Landroidx/core/text/PrecomputedTextCompat$Params;
+    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;->mParams:Landroidx/core/text/PrecomputedTextCompat$Params;
 
     .line 2
     .line 3
@@ -1042,19 +967,16 @@
 
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mText:Landroid/text/Spannable;
+    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;->mText:Landroid/text/Spannable;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/core/app/c;
-    ->z(Ljava/lang/Object;)Z
+    invoke-static {v0}, Landroidx/core/app/c;->z(Ljava/lang/Object;)Z
 
     .line 4
     .line 5
@@ -1066,13 +988,11 @@
 
     .line 8
     .line 9
-    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mText:Landroid/text/Spannable;
+    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;->mText:Landroid/text/Spannable;
 
     .line 10
     .line 11
-    invoke-static {v0}, Landroidx/core/app/c;
-    ->p(Ljava/lang/Object;)Landroid/text/PrecomputedText;
+    invoke-static {v0}, Landroidx/core/app/c;->p(Ljava/lang/Object;)Landroid/text/PrecomputedText;
 
     .line 12
     .line 13
@@ -1092,13 +1012,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mText:Landroid/text/Spannable;
+    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;->mText:Landroid/text/Spannable;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroid/text/Spanned;
-    ->getSpanEnd(Ljava/lang/Object;)I
+    invoke-interface {v0, p1}, Landroid/text/Spanned;->getSpanEnd(Ljava/lang/Object;)I
 
     .line 4
     .line 5
@@ -1112,13 +1030,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mText:Landroid/text/Spannable;
+    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;->mText:Landroid/text/Spannable;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroid/text/Spanned;
-    ->getSpanFlags(Ljava/lang/Object;)I
+    invoke-interface {v0, p1}, Landroid/text/Spanned;->getSpanFlags(Ljava/lang/Object;)I
 
     .line 4
     .line 5
@@ -1132,13 +1048,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mText:Landroid/text/Spannable;
+    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;->mText:Landroid/text/Spannable;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroid/text/Spanned;
-    ->getSpanStart(Ljava/lang/Object;)I
+    invoke-interface {v0, p1}, Landroid/text/Spanned;->getSpanStart(Ljava/lang/Object;)I
 
     .line 4
     .line 5
@@ -1161,8 +1075,7 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -1174,13 +1087,11 @@
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mWrapped:Landroid/text/PrecomputedText;
+    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;->mWrapped:Landroid/text/PrecomputedText;
 
     .line 8
     .line 9
-    invoke-static {v0, p1, p2, p3}, Landroidx/core/app/c;
-    ->A(Landroid/text/PrecomputedText;IILjava/lang/Class;)[Ljava/lang/Object;
+    invoke-static {v0, p1, p2, p3}, Landroidx/core/app/c;->A(Landroid/text/PrecomputedText;IILjava/lang/Class;)[Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -1191,13 +1102,11 @@
 
     .line 14
     :cond_0
-    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mText:Landroid/text/Spannable;
+    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;->mText:Landroid/text/Spannable;
 
     .line 15
     .line 16
-    invoke-interface {v0, p1, p2, p3}, Landroid/text/Spanned;
-    ->getSpans(IILjava/lang/Class;)[Ljava/lang/Object;
+    invoke-interface {v0, p1, p2, p3}, Landroid/text/Spanned;->getSpans(IILjava/lang/Class;)[Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -1211,13 +1120,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mText:Landroid/text/Spannable;
+    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;->mText:Landroid/text/Spannable;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/lang/CharSequence;
-    ->length()I
+    invoke-interface {v0}, Ljava/lang/CharSequence;->length()I
 
     .line 4
     .line 5
@@ -1231,13 +1138,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mText:Landroid/text/Spannable;
+    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;->mText:Landroid/text/Spannable;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1, p2, p3}, Landroid/text/Spanned;
-    ->nextSpanTransition(IILjava/lang/Class;)I
+    invoke-interface {v0, p1, p2, p3}, Landroid/text/Spanned;->nextSpanTransition(IILjava/lang/Class;)I
 
     .line 4
     .line 5
@@ -1259,8 +1164,7 @@
 
     .line 4
     .line 5
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 6
     .line 7
@@ -1272,13 +1176,11 @@
 
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mWrapped:Landroid/text/PrecomputedText;
+    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;->mWrapped:Landroid/text/PrecomputedText;
 
     .line 12
     .line 13
-    invoke-static {v0, p1}, Landroidx/core/app/c;
-    ->u(Landroid/text/PrecomputedText;Ljava/lang/Object;)V
+    invoke-static {v0, p1}, Landroidx/core/app/c;->u(Landroid/text/PrecomputedText;Ljava/lang/Object;)V
 
     .line 14
     .line 15
@@ -1287,13 +1189,11 @@
 
     .line 17
     :cond_0
-    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mText:Landroid/text/Spannable;
+    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;->mText:Landroid/text/Spannable;
 
     .line 18
     .line 19
-    invoke-interface {v0, p1}, Landroid/text/Spannable;
-    ->removeSpan(Ljava/lang/Object;)V
+    invoke-interface {v0, p1}, Landroid/text/Spannable;->removeSpan(Ljava/lang/Object;)V
 
     .line 20
     .line 21
@@ -1310,8 +1210,7 @@
 
     .line 26
     .line 27
-    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 28
     .line 29
@@ -1385,8 +1284,7 @@
 
     .line 4
     .line 5
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 6
     .line 7
@@ -1398,13 +1296,11 @@
 
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mWrapped:Landroid/text/PrecomputedText;
+    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;->mWrapped:Landroid/text/PrecomputedText;
 
     .line 12
     .line 13
-    invoke-static {v0, p1, p2, p3, p4}, Landroidx/core/app/c;
-    ->v(Landroid/text/PrecomputedText;Ljava/lang/Object;III)V
+    invoke-static {v0, p1, p2, p3, p4}, Landroidx/core/app/c;->v(Landroid/text/PrecomputedText;Ljava/lang/Object;III)V
 
     .line 14
     .line 15
@@ -1413,13 +1309,11 @@
 
     .line 17
     :cond_0
-    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mText:Landroid/text/Spannable;
+    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;->mText:Landroid/text/Spannable;
 
     .line 18
     .line 19
-    invoke-interface {v0, p1, p2, p3, p4}, Landroid/text/Spannable;
-    ->setSpan(Ljava/lang/Object;III)V
+    invoke-interface {v0, p1, p2, p3, p4}, Landroid/text/Spannable;->setSpan(Ljava/lang/Object;III)V
 
     .line 20
     .line 21
@@ -1436,8 +1330,7 @@
 
     .line 26
     .line 27
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 28
     .line 29
@@ -1636,13 +1529,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mText:Landroid/text/Spannable;
+    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;->mText:Landroid/text/Spannable;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1, p2}, Ljava/lang/CharSequence;
-    ->subSequence(II)Ljava/lang/CharSequence;
+    invoke-interface {v0, p1, p2}, Ljava/lang/CharSequence;->subSequence(II)Ljava/lang/CharSequence;
 
     .line 4
     .line 5
@@ -1658,13 +1549,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;
-    ->mText:Landroid/text/Spannable;
+    iget-object v0, p0, Landroidx/core/text/PrecomputedTextCompat;->mText:Landroid/text/Spannable;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/Object;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     .line 4
     .line 5

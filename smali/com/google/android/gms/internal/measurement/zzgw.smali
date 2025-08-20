@@ -24,19 +24,16 @@
 
     .line 1
     :try_start_0
-    sget-object v1, Lcom/google/android/gms/internal/measurement/zzgw;
-    ->zza:Lcom/google/android/gms/internal/measurement/zzgv;
+    sget-object v1, Lcom/google/android/gms/internal/measurement/zzgw;->zza:Lcom/google/android/gms/internal/measurement/zzgv;
 
     if-nez v1, :cond_0
 
     .line 2
     new-instance v1, Lcom/google/android/gms/internal/measurement/zzgy;
 
-    invoke-direct {v1}, Lcom/google/android/gms/internal/measurement/zzgy;
-    -><init>()V
+    invoke-direct {v1}, Lcom/google/android/gms/internal/measurement/zzgy;-><init>()V
 
-    invoke-static {v1}, Lcom/google/android/gms/internal/measurement/zzgw;
-    ->zza(Lcom/google/android/gms/internal/measurement/zzgv;)V
+    invoke-static {v1}, Lcom/google/android/gms/internal/measurement/zzgw;->zza(Lcom/google/android/gms/internal/measurement/zzgv;)V
 
     goto :goto_0
 
@@ -48,8 +45,7 @@
     .line 3
     :cond_0
     :goto_0
-    sget-object v1, Lcom/google/android/gms/internal/measurement/zzgw;
-    ->zza:Lcom/google/android/gms/internal/measurement/zzgv;
+    sget-object v1, Lcom/google/android/gms/internal/measurement/zzgw;->zza:Lcom/google/android/gms/internal/measurement/zzgv;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -75,14 +71,12 @@
 
     .line 4
     :try_start_0
-    sget-object v1, Lcom/google/android/gms/internal/measurement/zzgw;
-    ->zza:Lcom/google/android/gms/internal/measurement/zzgv;
+    sget-object v1, Lcom/google/android/gms/internal/measurement/zzgw;->zza:Lcom/google/android/gms/internal/measurement/zzgv;
 
     if-nez v1, :cond_0
 
     .line 5
-    sput-object p0, Lcom/google/android/gms/internal/measurement/zzgw;
-    ->zza:Lcom/google/android/gms/internal/measurement/zzgv;
+    sput-object p0, Lcom/google/android/gms/internal/measurement/zzgw;->zza:Lcom/google/android/gms/internal/measurement/zzgv;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -103,8 +97,7 @@
 
     const-string v1, "init() already called"
 
-    invoke-direct {p0, v1}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     throw p0
 

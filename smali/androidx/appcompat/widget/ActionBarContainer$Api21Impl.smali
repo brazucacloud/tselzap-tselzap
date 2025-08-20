@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -32,8 +31,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/View;
-    ->invalidateOutline()V
+    invoke-virtual {p0}, Landroid/view/View;->invalidateOutline()V
     return-void
 .end method
 

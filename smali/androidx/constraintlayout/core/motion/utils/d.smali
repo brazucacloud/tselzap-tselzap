@@ -8,8 +8,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
@@ -18,8 +17,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {p0, v0}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 7
     .line 8
@@ -35,8 +33,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {p0, v0}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 15
     .line 16

@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroidx/appcompat/view/menu/MenuBuilder;
-    ->addInternal(IIILjava/lang/CharSequence;)Landroid/view/MenuItem;
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroidx/appcompat/view/menu/MenuBuilder;->addInternal(IIILjava/lang/CharSequence;)Landroid/view/MenuItem;
 
     .line 2
     .line 3
@@ -25,8 +24,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0}, Landroidx/appcompat/view/menu/MenuBuilder;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroidx/appcompat/view/menu/MenuBuilder;->getContext()Landroid/content/Context;
 
     .line 10
     .line 11
@@ -34,14 +32,12 @@
     move-result-object p3
 
     .line 13
-    invoke-direct {p2, p3, p0, p1}, Landroidx/appcompat/view/menu/SubMenuBuilder;
-    -><init>(Landroid/content/Context;Landroidx/appcompat/view/menu/MenuBuilder;Landroidx/appcompat/view/menu/MenuItemImpl;)V
+    invoke-direct {p2, p3, p0, p1}, Landroidx/appcompat/view/menu/SubMenuBuilder;-><init>(Landroid/content/Context;Landroidx/appcompat/view/menu/MenuBuilder;Landroidx/appcompat/view/menu/MenuItemImpl;)V
 
     .line 14
     .line 15
     .line 16
-    invoke-virtual {p1, p2}, Landroidx/appcompat/view/menu/MenuItemImpl;
-    ->setSubMenu(Landroidx/appcompat/view/menu/SubMenuBuilder;)V
+    invoke-virtual {p1, p2}, Landroidx/appcompat/view/menu/MenuItemImpl;->setSubMenu(Landroidx/appcompat/view/menu/SubMenuBuilder;)V
 
     .line 17
     .line 18

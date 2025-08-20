@@ -8,8 +8,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
-    ->ACTION_SCROLL_LEFT:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
+    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;->ACTION_SCROLL_LEFT:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
 
     return-object v0
 .end method
@@ -18,8 +17,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
-    ->ACTION_SCROLL_DOWN:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
+    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;->ACTION_SCROLL_DOWN:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
 
     return-object v0
 .end method
@@ -28,8 +26,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
-    ->ACTION_SCROLL_RIGHT:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
+    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;->ACTION_SCROLL_RIGHT:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
 
     return-object v0
 .end method
@@ -38,8 +35,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
-    ->ACTION_CONTEXT_CLICK:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
+    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;->ACTION_CONTEXT_CLICK:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
 
     return-object v0
 .end method
@@ -48,8 +44,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/Context;
-    ->checkSelfPermission(Ljava/lang/String;)I
+    invoke-virtual {p0, p1}, Landroid/content/Context;->checkSelfPermission(Ljava/lang/String;)I
 
     move-result p0
 
@@ -60,8 +55,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/content/res/Resources;
-    ->getColor(ILandroid/content/res/Resources$Theme;)I
+    invoke-virtual {p0, p1, p2}, Landroid/content/res/Resources;->getColor(ILandroid/content/res/Resources$Theme;)I
 
     move-result p0
 
@@ -72,8 +66,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/print/PrintAttributes;
-    ->getDuplexMode()I
+    invoke-virtual {p0}, Landroid/print/PrintAttributes;->getDuplexMode()I
 
     move-result p0
 
@@ -86,8 +79,7 @@
     .line 1
     const v0, 0x7f060029
 
-    invoke-virtual {p0, v0}, Landroid/app/Activity;
-    ->getColor(I)I
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->getColor(I)I
 
     move-result p0
 
@@ -98,8 +90,7 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Landroid/app/ActivityOptions;
-    ->makeBasic()Landroid/app/ActivityOptions;
+    invoke-static {}, Landroid/app/ActivityOptions;->makeBasic()Landroid/app/ActivityOptions;
 
     move-result-object v0
 
@@ -110,8 +101,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/text/StaticLayout$Builder;
-    ->setBreakStrategy(I)Landroid/text/StaticLayout$Builder;
+    invoke-virtual {p0, p1}, Landroid/text/StaticLayout$Builder;->setBreakStrategy(I)Landroid/text/StaticLayout$Builder;
 
     move-result-object p0
 
@@ -122,8 +112,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/text/StaticLayout$Builder;
-    ->setTextDirection(Landroid/text/TextDirectionHeuristic;)Landroid/text/StaticLayout$Builder;
+    invoke-virtual {p0, p1}, Landroid/text/StaticLayout$Builder;->setTextDirection(Landroid/text/TextDirectionHeuristic;)Landroid/text/StaticLayout$Builder;
 
     move-result-object p0
 
@@ -143,8 +132,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
-    ->ACTION_SHOW_ON_SCREEN:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
+    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;->ACTION_SHOW_ON_SCREEN:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
 
     return-object v0
 .end method
@@ -155,8 +143,7 @@
     .line 1
     const-class v0, Landroid/app/NotificationManager;
 
-    invoke-virtual {p0, v0}, Landroid/app/Service;
-    ->getSystemService(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroid/app/Service;->getSystemService(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -169,8 +156,7 @@
     .line 1
     const-class v0, Landroid/app/NotificationManager;
 
-    invoke-virtual {p0, v0}, Landroid/app/Service;
-    ->getSystemService(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroid/app/Service;->getSystemService(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -183,8 +169,7 @@
     .line 1
     const/4 v0, 0x0
 
-    invoke-virtual {p0, v0, p1, p2, p3}, Landroid/app/AlarmManager;
-    ->setExactAndAllowWhileIdle(IJLandroid/app/PendingIntent;)V
+    invoke-virtual {p0, v0, p1, p2, p3}, Landroid/app/AlarmManager;->setExactAndAllowWhileIdle(IJLandroid/app/PendingIntent;)V
 return-void
 .end method
 
@@ -192,8 +177,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/drawable/AnimatedVectorDrawable;
-    ->clearAnimationCallbacks()V
+    invoke-virtual {p0}, Landroid/graphics/drawable/AnimatedVectorDrawable;->clearAnimationCallbacks()V
     return-void
 .end method
 
@@ -201,8 +185,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/graphics/drawable/AnimatedVectorDrawable;
-    ->registerAnimationCallback(Landroid/graphics/drawable/Animatable2$AnimationCallback;)V
+    invoke-virtual {p0, p1}, Landroid/graphics/drawable/AnimatedVectorDrawable;->registerAnimationCallback(Landroid/graphics/drawable/Animatable2$AnimationCallback;)V
 
     return-void
 .end method
@@ -211,8 +194,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/media/MediaMetadataRetriever;
-    ->setDataSource(Landroid/media/MediaDataSource;)V
+    invoke-virtual {p0, p1}, Landroid/media/MediaMetadataRetriever;->setDataSource(Landroid/media/MediaDataSource;)V
 return-void
 .end method
 
@@ -220,8 +202,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/print/PrintAttributes$Builder;
-    ->setDuplexMode(I)Landroid/print/PrintAttributes$Builder;
+    invoke-virtual {p0, p1}, Landroid/print/PrintAttributes$Builder;->setDuplexMode(I)Landroid/print/PrintAttributes$Builder;
 
     return-void
 .end method
@@ -230,8 +211,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/text/StaticLayout$Builder;
-    ->build()Landroid/text/StaticLayout;
+    invoke-virtual {p0}, Landroid/text/StaticLayout$Builder;->build()Landroid/text/StaticLayout;
 
     return-void
 .end method
@@ -240,8 +220,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;
-    ->setContextClickable(Z)V
+    invoke-virtual {p0, p1}, Landroid/view/accessibility/AccessibilityNodeInfo;->setContextClickable(Z)V
 return-void
 .end method
 
@@ -249,8 +228,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/widget/TextView;
-    ->setTextAppearance(I)V
+    invoke-virtual {p0, p1}, Landroid/widget/TextView;->setTextAppearance(I)V
 
     return-void
 .end method
@@ -259,8 +237,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/provider/Settings;
-    ->canDrawOverlays(Landroid/content/Context;)Z
+    invoke-static {p0}, Landroid/provider/Settings;->canDrawOverlays(Landroid/content/Context;)Z
 
     move-result p0
 
@@ -271,8 +248,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/graphics/drawable/AnimatedVectorDrawable;
-    ->unregisterAnimationCallback(Landroid/graphics/drawable/Animatable2$AnimationCallback;)Z
+    invoke-virtual {p0, p1}, Landroid/graphics/drawable/AnimatedVectorDrawable;->unregisterAnimationCallback(Landroid/graphics/drawable/Animatable2$AnimationCallback;)Z
 
     move-result p0
 
@@ -283,8 +259,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityNodeInfo;
-    ->isContextClickable()Z
+    invoke-virtual {p0}, Landroid/view/accessibility/AccessibilityNodeInfo;->isContextClickable()Z
 
     move-result p0
 
@@ -297,8 +272,7 @@ return-void
     .line 1
     const-string v0, "android.permission.READ_CONTACTS"
 
-    invoke-virtual {p0, v0}, Landroid/app/Activity;
-    ->checkSelfPermission(Ljava/lang/String;)I
+    invoke-virtual {p0, v0}, Landroid/app/Activity;->checkSelfPermission(Ljava/lang/String;)I
 
     move-result p0
 
@@ -309,8 +283,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/text/StaticLayout$Builder;
-    ->setHyphenationFrequency(I)Landroid/text/StaticLayout$Builder;
+    invoke-virtual {p0, p1}, Landroid/text/StaticLayout$Builder;->setHyphenationFrequency(I)Landroid/text/StaticLayout$Builder;
 
     move-result-object p0
 
@@ -321,8 +294,7 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
-    ->ACTION_SCROLL_TO_POSITION:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
+    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;->ACTION_SCROLL_TO_POSITION:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
 
     return-object v0
 .end method
@@ -331,8 +303,7 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
-    ->ACTION_SCROLL_UP:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
+    sget-object v0, Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;->ACTION_SCROLL_UP:Landroid/view/accessibility/AccessibilityNodeInfo$AccessibilityAction;
 
     return-object v0
 .end method

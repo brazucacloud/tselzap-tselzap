@@ -48,14 +48,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/lifecycle/SavedStateHandleSupport$SAVED_STATE_REGISTRY_OWNER_KEY$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/lifecycle/SavedStateHandleSupport$SAVED_STATE_REGISTRY_OWNER_KEY$1;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/lifecycle/SavedStateHandleSupport;
-    ->SAVED_STATE_REGISTRY_OWNER_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
+    sput-object v0, Landroidx/lifecycle/SavedStateHandleSupport;->SAVED_STATE_REGISTRY_OWNER_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
 
     .line 7
     .line 8
@@ -63,14 +61,12 @@
 
     .line 9
     .line 10
-    invoke-direct {v0}, Landroidx/lifecycle/SavedStateHandleSupport$VIEW_MODEL_STORE_OWNER_KEY$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/lifecycle/SavedStateHandleSupport$VIEW_MODEL_STORE_OWNER_KEY$1;-><init>()V
 
     .line 11
     .line 12
     .line 13
-    sput-object v0, Landroidx/lifecycle/SavedStateHandleSupport;
-    ->VIEW_MODEL_STORE_OWNER_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
+    sput-object v0, Landroidx/lifecycle/SavedStateHandleSupport;->VIEW_MODEL_STORE_OWNER_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
 
     .line 14
     .line 15
@@ -78,14 +74,12 @@
 
     .line 16
     .line 17
-    invoke-direct {v0}, Landroidx/lifecycle/SavedStateHandleSupport$DEFAULT_ARGS_KEY$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/lifecycle/SavedStateHandleSupport$DEFAULT_ARGS_KEY$1;-><init>()V
 
     .line 18
     .line 19
     .line 20
-    sput-object v0, Landroidx/lifecycle/SavedStateHandleSupport;
-    ->DEFAULT_ARGS_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;    return-void
+    sput-object v0, Landroidx/lifecycle/SavedStateHandleSupport;->DEFAULT_ARGS_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;    return-void
 .end method
 
 .method public static final createSavedStateHandle(Landroidx/lifecycle/viewmodel/CreationExtras;)Landroidx/lifecycle/SavedStateHandle;
@@ -95,15 +89,12 @@
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 7
-    sget-object v0, Landroidx/lifecycle/SavedStateHandleSupport;
-    ->SAVED_STATE_REGISTRY_OWNER_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
+    sget-object v0, Landroidx/lifecycle/SavedStateHandleSupport;->SAVED_STATE_REGISTRY_OWNER_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
 
-    invoke-virtual {p0, v0}, Landroidx/lifecycle/viewmodel/CreationExtras;
-    ->get(Landroidx/lifecycle/viewmodel/CreationExtras$Key;)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroidx/lifecycle/viewmodel/CreationExtras;->get(Landroidx/lifecycle/viewmodel/CreationExtras$Key;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -112,11 +103,9 @@
     if-eqz v0, :cond_2
 
     .line 8
-    sget-object v1, Landroidx/lifecycle/SavedStateHandleSupport;
-    ->VIEW_MODEL_STORE_OWNER_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
+    sget-object v1, Landroidx/lifecycle/SavedStateHandleSupport;->VIEW_MODEL_STORE_OWNER_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
 
-    invoke-virtual {p0, v1}, Landroidx/lifecycle/viewmodel/CreationExtras;
-    ->get(Landroidx/lifecycle/viewmodel/CreationExtras$Key;)Ljava/lang/Object;
+    invoke-virtual {p0, v1}, Landroidx/lifecycle/viewmodel/CreationExtras;->get(Landroidx/lifecycle/viewmodel/CreationExtras$Key;)Ljava/lang/Object;
 
     move-result-object v1
 
@@ -125,22 +114,18 @@
     if-eqz v1, :cond_1
 
     .line 9
-    sget-object v2, Landroidx/lifecycle/SavedStateHandleSupport;
-    ->DEFAULT_ARGS_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
+    sget-object v2, Landroidx/lifecycle/SavedStateHandleSupport;->DEFAULT_ARGS_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
 
-    invoke-virtual {p0, v2}, Landroidx/lifecycle/viewmodel/CreationExtras;
-    ->get(Landroidx/lifecycle/viewmodel/CreationExtras$Key;)Ljava/lang/Object;
+    invoke-virtual {p0, v2}, Landroidx/lifecycle/viewmodel/CreationExtras;->get(Landroidx/lifecycle/viewmodel/CreationExtras$Key;)Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Landroid/os/Bundle;
 
     .line 10
-    sget-object v3, Landroidx/lifecycle/ViewModelProvider$NewInstanceFactory;
-    ->VIEW_MODEL_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
+    sget-object v3, Landroidx/lifecycle/ViewModelProvider$NewInstanceFactory;->VIEW_MODEL_KEY:Landroidx/lifecycle/viewmodel/CreationExtras$Key;
 
-    invoke-virtual {p0, v3}, Landroidx/lifecycle/viewmodel/CreationExtras;
-    ->get(Landroidx/lifecycle/viewmodel/CreationExtras$Key;)Ljava/lang/Object;
+    invoke-virtual {p0, v3}, Landroidx/lifecycle/viewmodel/CreationExtras;->get(Landroidx/lifecycle/viewmodel/CreationExtras$Key;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -149,8 +134,7 @@
     if-eqz p0, :cond_0
 
     .line 11
-    invoke-static {v0, v1, p0, v2}, Landroidx/lifecycle/SavedStateHandleSupport;
-    ->createSavedStateHandle(Landroidx/savedstate/SavedStateRegistryOwner;Landroidx/lifecycle/ViewModelStoreOwner;Ljava/lang/String;Landroid/os/Bundle;)Landroidx/lifecycle/SavedStateHandle;
+    invoke-static {v0, v1, p0, v2}, Landroidx/lifecycle/SavedStateHandleSupport;->createSavedStateHandle(Landroidx/savedstate/SavedStateRegistryOwner;Landroidx/lifecycle/ViewModelStoreOwner;Ljava/lang/String;Landroid/os/Bundle;)Landroidx/lifecycle/SavedStateHandle;
 
     move-result-object p0
 
@@ -164,8 +148,7 @@
     const-string v0, "CreationExtras must have a value by `VIEW_MODEL_KEY`"
 
     .line 14
-    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     throw p0
 
@@ -177,8 +160,7 @@
     const-string v0, "CreationExtras must have a value by `VIEW_MODEL_STORE_OWNER_KEY`"
 
     .line 17
-    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     throw p0
 
@@ -190,8 +172,7 @@
     const-string v0, "CreationExtras must have a value by `SAVED_STATE_REGISTRY_OWNER_KEY`"
 
     .line 20
-    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -200,25 +181,21 @@
     .locals 1
 
     .line 1
-    invoke-static {p0}, Landroidx/lifecycle/SavedStateHandleSupport;
-    ->getSavedStateHandlesProvider(Landroidx/savedstate/SavedStateRegistryOwner;)Landroidx/lifecycle/SavedStateHandlesProvider;
+    invoke-static {p0}, Landroidx/lifecycle/SavedStateHandleSupport;->getSavedStateHandlesProvider(Landroidx/savedstate/SavedStateRegistryOwner;)Landroidx/lifecycle/SavedStateHandlesProvider;
 
     move-result-object p0
 
     .line 2
-    invoke-static {p1}, Landroidx/lifecycle/SavedStateHandleSupport;
-    ->getSavedStateHandlesVM(Landroidx/lifecycle/ViewModelStoreOwner;)Landroidx/lifecycle/SavedStateHandlesVM;
+    invoke-static {p1}, Landroidx/lifecycle/SavedStateHandleSupport;->getSavedStateHandlesVM(Landroidx/lifecycle/ViewModelStoreOwner;)Landroidx/lifecycle/SavedStateHandlesVM;
 
     move-result-object p1
 
     .line 3
-    invoke-virtual {p1}, Landroidx/lifecycle/SavedStateHandlesVM;
-    ->getHandles()Ljava/util/Map;
+    invoke-virtual {p1}, Landroidx/lifecycle/SavedStateHandlesVM;->getHandles()Ljava/util/Map;
 
     move-result-object v0
 
-    invoke-interface {v0, p2}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -226,29 +203,24 @@
 
     if-nez v0, :cond_0
 
-    sget-object v0, Landroidx/lifecycle/SavedStateHandle;
-    ->Companion:Landroidx/lifecycle/SavedStateHandle$Companion;
+    sget-object v0, Landroidx/lifecycle/SavedStateHandle;->Companion:Landroidx/lifecycle/SavedStateHandle$Companion;
 
     .line 4
-    invoke-virtual {p0, p2}, Landroidx/lifecycle/SavedStateHandlesProvider;
-    ->consumeRestoredStateForKey(Ljava/lang/String;)Landroid/os/Bundle;
+    invoke-virtual {p0, p2}, Landroidx/lifecycle/SavedStateHandlesProvider;->consumeRestoredStateForKey(Ljava/lang/String;)Landroid/os/Bundle;
 
     move-result-object p0
 
     .line 5
-    invoke-virtual {v0, p0, p3}, Landroidx/lifecycle/SavedStateHandle$Companion;
-    ->createHandle(Landroid/os/Bundle;Landroid/os/Bundle;)Landroidx/lifecycle/SavedStateHandle;
+    invoke-virtual {v0, p0, p3}, Landroidx/lifecycle/SavedStateHandle$Companion;->createHandle(Landroid/os/Bundle;Landroid/os/Bundle;)Landroidx/lifecycle/SavedStateHandle;
 
     move-result-object p0
 
     .line 6
-    invoke-virtual {p1}, Landroidx/lifecycle/SavedStateHandlesVM;
-    ->getHandles()Ljava/util/Map;
+    invoke-virtual {p1}, Landroidx/lifecycle/SavedStateHandlesVM;->getHandles()Ljava/util/Map;
 
     move-result-object p1
 
-    invoke-interface {p1, p2, p0}, Ljava/util/Map;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p2, p0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     return-object p0
 
@@ -276,14 +248,12 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-interface {p0}, Landroidx/lifecycle/LifecycleOwner;
-    ->getLifecycle()Landroidx/lifecycle/Lifecycle;
+    invoke-interface {p0}, Landroidx/lifecycle/LifecycleOwner;->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     .line 7
     .line 8
@@ -291,8 +261,7 @@
     move-result-object v0
 
     .line 10
-    invoke-virtual {v0}, Landroidx/lifecycle/Lifecycle;
-    ->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
+    invoke-virtual {v0}, Landroidx/lifecycle/Lifecycle;->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
 
     .line 11
     .line 12
@@ -300,8 +269,7 @@
     move-result-object v0
 
     .line 14
-    sget-object v1, Landroidx/lifecycle/Lifecycle$State;
-    ->INITIALIZED:Landroidx/lifecycle/Lifecycle$State;
+    sget-object v1, Landroidx/lifecycle/Lifecycle$State;->INITIALIZED:Landroidx/lifecycle/Lifecycle$State;
 
     .line 15
     .line 16
@@ -309,8 +277,7 @@
 
     .line 17
     .line 18
-    sget-object v1, Landroidx/lifecycle/Lifecycle$State;
-    ->CREATED:Landroidx/lifecycle/Lifecycle$State;
+    sget-object v1, Landroidx/lifecycle/Lifecycle$State;->CREATED:Landroidx/lifecycle/Lifecycle$State;
 
     .line 19
     .line 20
@@ -330,8 +297,7 @@
 
     .line 26
     .line 27
-    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 28
     .line 29
@@ -341,8 +307,7 @@
     .line 31
     :cond_1
     :goto_0
-    invoke-interface {p0}, Landroidx/savedstate/SavedStateRegistryOwner;
-    ->getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
+    invoke-interface {p0}, Landroidx/savedstate/SavedStateRegistryOwner;->getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
 
     .line 32
     .line 33
@@ -354,8 +319,7 @@
 
     .line 36
     .line 37
-    invoke-virtual {v0, v1}, Landroidx/savedstate/SavedStateRegistry;
-    ->getSavedStateProvider(Ljava/lang/String;)Landroidx/savedstate/SavedStateRegistry$SavedStateProvider;
+    invoke-virtual {v0, v1}, Landroidx/savedstate/SavedStateRegistry;->getSavedStateProvider(Ljava/lang/String;)Landroidx/savedstate/SavedStateRegistry$SavedStateProvider;
 
     .line 38
     .line 39
@@ -371,8 +335,7 @@
 
     .line 44
     .line 45
-    invoke-interface {p0}, Landroidx/savedstate/SavedStateRegistryOwner;
-    ->getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
+    invoke-interface {p0}, Landroidx/savedstate/SavedStateRegistryOwner;->getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
 
     .line 46
     .line 47
@@ -387,14 +350,12 @@
 
     .line 51
     .line 52
-    invoke-direct {v0, v2, v3}, Landroidx/lifecycle/SavedStateHandlesProvider;
-    -><init>(Landroidx/savedstate/SavedStateRegistry;Landroidx/lifecycle/ViewModelStoreOwner;)V
+    invoke-direct {v0, v2, v3}, Landroidx/lifecycle/SavedStateHandlesProvider;-><init>(Landroidx/savedstate/SavedStateRegistry;Landroidx/lifecycle/ViewModelStoreOwner;)V
 
     .line 53
     .line 54
     .line 55
-    invoke-interface {p0}, Landroidx/savedstate/SavedStateRegistryOwner;
-    ->getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
+    invoke-interface {p0}, Landroidx/savedstate/SavedStateRegistryOwner;->getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
 
     .line 56
     .line 57
@@ -402,14 +363,12 @@
     move-result-object v2
 
     .line 59
-    invoke-virtual {v2, v1, v0}, Landroidx/savedstate/SavedStateRegistry;
-    ->registerSavedStateProvider(Ljava/lang/String;Landroidx/savedstate/SavedStateRegistry$SavedStateProvider;)V
+    invoke-virtual {v2, v1, v0}, Landroidx/savedstate/SavedStateRegistry;->registerSavedStateProvider(Ljava/lang/String;Landroidx/savedstate/SavedStateRegistry$SavedStateProvider;)V
 
     .line 60
     .line 61
     .line 62
-    invoke-interface {p0}, Landroidx/lifecycle/LifecycleOwner;
-    ->getLifecycle()Landroidx/lifecycle/Lifecycle;
+    invoke-interface {p0}, Landroidx/lifecycle/LifecycleOwner;->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     .line 63
     .line 64
@@ -421,14 +380,12 @@
 
     .line 67
     .line 68
-    invoke-direct {v1, v0}, Landroidx/lifecycle/SavedStateHandleAttacher;
-    -><init>(Landroidx/lifecycle/SavedStateHandlesProvider;)V
+    invoke-direct {v1, v0}, Landroidx/lifecycle/SavedStateHandleAttacher;-><init>(Landroidx/lifecycle/SavedStateHandlesProvider;)V
 
     .line 69
     .line 70
     .line 71
-    invoke-virtual {p0, v1}, Landroidx/lifecycle/Lifecycle;
-    ->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
+    invoke-virtual {p0, v1}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
     .line 72
     .line 73
@@ -445,14 +402,12 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-interface {p0}, Landroidx/savedstate/SavedStateRegistryOwner;
-    ->getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
+    invoke-interface {p0}, Landroidx/savedstate/SavedStateRegistryOwner;->getSavedStateRegistry()Landroidx/savedstate/SavedStateRegistry;
 
     .line 7
     .line 8
@@ -464,8 +419,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {p0, v0}, Landroidx/savedstate/SavedStateRegistry;
-    ->getSavedStateProvider(Ljava/lang/String;)Landroidx/savedstate/SavedStateRegistry$SavedStateProvider;
+    invoke-virtual {p0, v0}, Landroidx/savedstate/SavedStateRegistry;->getSavedStateProvider(Ljava/lang/String;)Landroidx/savedstate/SavedStateRegistry$SavedStateProvider;
 
     .line 13
     .line 14
@@ -505,8 +459,7 @@
 
     .line 30
     .line 31
-    invoke-direct {p0, v0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 32
     .line 33
@@ -521,8 +474,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -535,14 +487,12 @@
 
     .line 9
     .line 10
-    invoke-direct {v1}, Landroidx/lifecycle/SavedStateHandleSupport$savedStateHandlesVM$1;
-    -><init>()V
+    invoke-direct {v1}, Landroidx/lifecycle/SavedStateHandleSupport$savedStateHandlesVM$1;-><init>()V
 
     .line 11
     .line 12
     .line 13
-    invoke-direct {v0, p0, v1}, Landroidx/lifecycle/ViewModelProvider;
-    -><init>(Landroidx/lifecycle/ViewModelStoreOwner;Landroidx/lifecycle/ViewModelProvider$Factory;)V
+    invoke-direct {v0, p0, v1}, Landroidx/lifecycle/ViewModelProvider;-><init>(Landroidx/lifecycle/ViewModelStoreOwner;Landroidx/lifecycle/ViewModelProvider$Factory;)V
 
     .line 14
     .line 15
@@ -555,8 +505,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {v0, p0, v1}, Landroidx/lifecycle/ViewModelProvider;
-    ->get(Ljava/lang/String;Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
+    invoke-virtual {v0, p0, v1}, Landroidx/lifecycle/ViewModelProvider;->get(Ljava/lang/String;Ljava/lang/Class;)Landroidx/lifecycle/ViewModel;
 
     .line 21
     .line 22

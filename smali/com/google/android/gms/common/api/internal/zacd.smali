@@ -32,23 +32,17 @@
     .annotation build Landroidx/annotation/VisibleForTesting;
     .end annotation
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zacd;
-    ->zaa:Lcom/google/android/gms/common/api/internal/GoogleApiManager;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zacd;->zaa:Lcom/google/android/gms/common/api/internal/GoogleApiManager;
 
-    iput p2, p0, Lcom/google/android/gms/common/api/internal/zacd;
-    ->zab:I
+    iput p2, p0, Lcom/google/android/gms/common/api/internal/zacd;->zab:I
 
-    iput-object p3, p0, Lcom/google/android/gms/common/api/internal/zacd;
-    ->zac:Lcom/google/android/gms/common/api/internal/ApiKey;
+    iput-object p3, p0, Lcom/google/android/gms/common/api/internal/zacd;->zac:Lcom/google/android/gms/common/api/internal/ApiKey;
 
-    iput-wide p4, p0, Lcom/google/android/gms/common/api/internal/zacd;
-    ->zad:J
+    iput-wide p4, p0, Lcom/google/android/gms/common/api/internal/zacd;->zad:J
 
-    iput-wide p6, p0, Lcom/google/android/gms/common/api/internal/zacd;
-    ->zae:J
+    iput-wide p6, p0, Lcom/google/android/gms/common/api/internal/zacd;->zae:J
 
     return-void
 .end method
@@ -59,8 +53,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/GoogleApiManager;
-    ->zaD()Z
+    invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/GoogleApiManager;->zaD()Z
 
     .line 2
     .line 3
@@ -76,8 +69,7 @@
 
     .line 8
     :cond_0
-    invoke-static {}, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;
-    ->getInstance()Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;
+    invoke-static {}, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;->getInstance()Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;
 
     .line 9
     .line 10
@@ -85,8 +77,7 @@
     move-result-object v0
 
     .line 12
-    invoke-virtual {v0}, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;
-    ->getConfig()Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
+    invoke-virtual {v0}, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;->getConfig()Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
 
     .line 13
     .line 14
@@ -98,8 +89,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {v0}, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
-    ->getMethodInvocationTelemetryEnabled()Z
+    invoke-virtual {v0}, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;->getMethodInvocationTelemetryEnabled()Z
 
     .line 19
     .line 20
@@ -111,8 +101,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {v0}, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
-    ->getMethodTimingTelemetryEnabled()Z
+    invoke-virtual {v0}, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;->getMethodTimingTelemetryEnabled()Z
 
     .line 25
     .line 26
@@ -120,8 +109,7 @@
     move-result v0
 
     .line 28
-    invoke-virtual {p0, p2}, Lcom/google/android/gms/common/api/internal/GoogleApiManager;
-    ->zai(Lcom/google/android/gms/common/api/internal/ApiKey;)Lcom/google/android/gms/common/api/internal/zabq;
+    invoke-virtual {p0, p2}, Lcom/google/android/gms/common/api/internal/GoogleApiManager;->zai(Lcom/google/android/gms/common/api/internal/ApiKey;)Lcom/google/android/gms/common/api/internal/zabq;
 
     .line 29
     .line 30
@@ -133,8 +121,7 @@
 
     .line 33
     .line 34
-    invoke-virtual {v1}, Lcom/google/android/gms/common/api/internal/zabq;
-    ->zaf()Lcom/google/android/gms/common/api/Api$Client;
+    invoke-virtual {v1}, Lcom/google/android/gms/common/api/internal/zabq;->zaf()Lcom/google/android/gms/common/api/Api$Client;
 
     .line 35
     .line 36
@@ -150,8 +137,7 @@
 
     .line 41
     .line 42
-    invoke-virtual {v1}, Lcom/google/android/gms/common/api/internal/zabq;
-    ->zaf()Lcom/google/android/gms/common/api/Api$Client;
+    invoke-virtual {v1}, Lcom/google/android/gms/common/api/internal/zabq;->zaf()Lcom/google/android/gms/common/api/Api$Client;
 
     .line 43
     .line 44
@@ -163,8 +149,7 @@
 
     .line 47
     .line 48
-    invoke-virtual {v2}, Lcom/google/android/gms/common/internal/BaseGmsClient;
-    ->hasConnectionInfo()Z
+    invoke-virtual {v2}, Lcom/google/android/gms/common/internal/BaseGmsClient;->hasConnectionInfo()Z
 
     .line 49
     .line 50
@@ -176,8 +161,7 @@
 
     .line 53
     .line 54
-    invoke-virtual {v2}, Lcom/google/android/gms/common/internal/BaseGmsClient;
-    ->isConnecting()Z
+    invoke-virtual {v2}, Lcom/google/android/gms/common/internal/BaseGmsClient;->isConnecting()Z
 
     .line 55
     .line 56
@@ -189,8 +173,7 @@
 
     .line 59
     .line 60
-    invoke-static {v1, v2, p1}, Lcom/google/android/gms/common/api/internal/zacd;
-    ->zab(Lcom/google/android/gms/common/api/internal/zabq;Lcom/google/android/gms/common/internal/BaseGmsClient;I)Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
+    invoke-static {v1, v2, p1}, Lcom/google/android/gms/common/api/internal/zacd;->zab(Lcom/google/android/gms/common/api/internal/zabq;Lcom/google/android/gms/common/internal/BaseGmsClient;I)Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
 
     .line 61
     .line 62
@@ -202,14 +185,12 @@
 
     .line 65
     .line 66
-    invoke-virtual {v1}, Lcom/google/android/gms/common/api/internal/zabq;
-    ->zaq()V
+    invoke-virtual {v1}, Lcom/google/android/gms/common/api/internal/zabq;->zaq()V
 
     .line 67
     .line 68
     .line 69
-    invoke-virtual {v0}, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
-    ->getMethodTimingTelemetryEnabled()Z
+    invoke-virtual {v0}, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;->getMethodTimingTelemetryEnabled()Z
 
     .line 70
     .line 71
@@ -245,8 +226,7 @@
 
     .line 82
     .line 83
-    invoke-static {}, Ljava/lang/System;
-    ->currentTimeMillis()J
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     .line 84
     .line 85
@@ -269,8 +249,7 @@
 
     .line 91
     .line 92
-    invoke-static {}, Landroid/os/SystemClock;
-    ->elapsedRealtime()J
+    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     .line 93
     .line 94
@@ -297,8 +276,7 @@
     move-object v4, p2
 
     .line 102
-    invoke-direct/range {v1 .. v10}, Lcom/google/android/gms/common/api/internal/zacd;
-    -><init>(Lcom/google/android/gms/common/api/internal/GoogleApiManager;ILcom/google/android/gms/common/api/internal/ApiKey;JJLjava/lang/String;Ljava/lang/String;)V
+    invoke-direct/range {v1 .. v10}, Lcom/google/android/gms/common/api/internal/zacd;-><init>(Lcom/google/android/gms/common/api/internal/GoogleApiManager;ILcom/google/android/gms/common/api/internal/ApiKey;JJLjava/lang/String;Ljava/lang/String;)V
 
     .line 103
     .line 104
@@ -312,8 +290,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/google/android/gms/common/internal/BaseGmsClient;
-    ->getTelemetryConfiguration()Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
+    invoke-virtual {p1}, Lcom/google/android/gms/common/internal/BaseGmsClient;->getTelemetryConfiguration()Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
 
     .line 2
     .line 3
@@ -328,8 +305,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
-    ->getMethodInvocationTelemetryEnabled()Z
+    invoke-virtual {p1}, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;->getMethodInvocationTelemetryEnabled()Z
 
     .line 9
     .line 10
@@ -341,8 +317,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {p1}, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
-    ->getMethodInvocationMethodKeyAllowlist()[I
+    invoke-virtual {p1}, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;->getMethodInvocationMethodKeyAllowlist()[I
 
     .line 15
     .line 16
@@ -354,8 +329,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p1}, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
-    ->getMethodInvocationMethodKeyDisallowlist()[I
+    invoke-virtual {p1}, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;->getMethodInvocationMethodKeyDisallowlist()[I
 
     .line 21
     .line 22
@@ -371,8 +345,7 @@
 
     .line 27
     :cond_0
-    invoke-static {v1, p2}, Lcom/google/android/gms/common/util/ArrayUtils;
-    ->contains([II)Z
+    invoke-static {v1, p2}, Lcom/google/android/gms/common/util/ArrayUtils;->contains([II)Z
 
     .line 28
     .line 29
@@ -388,8 +361,7 @@
 
     .line 34
     :cond_1
-    invoke-static {v1, p2}, Lcom/google/android/gms/common/util/ArrayUtils;
-    ->contains([II)Z
+    invoke-static {v1, p2}, Lcom/google/android/gms/common/util/ArrayUtils;->contains([II)Z
 
     .line 35
     .line 36
@@ -406,8 +378,7 @@
     .line 41
     :cond_2
     :goto_0
-    invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/zabq;
-    ->zac()I
+    invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/zabq;->zac()I
 
     .line 42
     .line 43
@@ -415,8 +386,7 @@
     move-result p0
 
     .line 45
-    invoke-virtual {p1}, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
-    ->getMaxMethodInvocationsLogged()I
+    invoke-virtual {p1}, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;->getMaxMethodInvocationsLogged()I
 
     .line 46
     .line 47
@@ -452,13 +422,11 @@
 
     .line 2
     .line 3
-    iget-object v1, v0, Lcom/google/android/gms/common/api/internal/zacd;
-    ->zaa:Lcom/google/android/gms/common/api/internal/GoogleApiManager;
+    iget-object v1, v0, Lcom/google/android/gms/common/api/internal/zacd;->zaa:Lcom/google/android/gms/common/api/internal/GoogleApiManager;
 
     .line 4
     .line 5
-    invoke-virtual {v1}, Lcom/google/android/gms/common/api/internal/GoogleApiManager;
-    ->zaD()Z
+    invoke-virtual {v1}, Lcom/google/android/gms/common/api/internal/GoogleApiManager;->zaD()Z
 
     .line 6
     .line 7
@@ -475,8 +443,7 @@
     .line 12
     .line 13
     :cond_0
-    invoke-static {}, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;
-    ->getInstance()Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;
+    invoke-static {}, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;->getInstance()Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;
 
     .line 14
     .line 15
@@ -484,8 +451,7 @@
     move-result-object v1
 
     .line 17
-    invoke-virtual {v1}, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;
-    ->getConfig()Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
+    invoke-virtual {v1}, Lcom/google/android/gms/common/internal/RootTelemetryConfigManager;->getConfig()Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
 
     .line 18
     .line 19
@@ -497,8 +463,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {v1}, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
-    ->getMethodInvocationTelemetryEnabled()Z
+    invoke-virtual {v1}, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;->getMethodInvocationTelemetryEnabled()Z
 
     .line 24
     .line 25
@@ -511,18 +476,15 @@
     .line 28
     .line 29
     :cond_1
-    iget-object v2, v0, Lcom/google/android/gms/common/api/internal/zacd;
-    ->zaa:Lcom/google/android/gms/common/api/internal/GoogleApiManager;
+    iget-object v2, v0, Lcom/google/android/gms/common/api/internal/zacd;->zaa:Lcom/google/android/gms/common/api/internal/GoogleApiManager;
 
     .line 30
     .line 31
-    iget-object v3, v0, Lcom/google/android/gms/common/api/internal/zacd;
-    ->zac:Lcom/google/android/gms/common/api/internal/ApiKey;
+    iget-object v3, v0, Lcom/google/android/gms/common/api/internal/zacd;->zac:Lcom/google/android/gms/common/api/internal/ApiKey;
 
     .line 32
     .line 33
-    invoke-virtual {v2, v3}, Lcom/google/android/gms/common/api/internal/GoogleApiManager;
-    ->zai(Lcom/google/android/gms/common/api/internal/ApiKey;)Lcom/google/android/gms/common/api/internal/zabq;
+    invoke-virtual {v2, v3}, Lcom/google/android/gms/common/api/internal/GoogleApiManager;->zai(Lcom/google/android/gms/common/api/internal/ApiKey;)Lcom/google/android/gms/common/api/internal/zabq;
 
     .line 34
     .line 35
@@ -534,8 +496,7 @@
 
     .line 38
     .line 39
-    invoke-virtual {v2}, Lcom/google/android/gms/common/api/internal/zabq;
-    ->zaf()Lcom/google/android/gms/common/api/Api$Client;
+    invoke-virtual {v2}, Lcom/google/android/gms/common/api/internal/zabq;->zaf()Lcom/google/android/gms/common/api/Api$Client;
 
     .line 40
     .line 41
@@ -551,8 +512,7 @@
 
     .line 46
     .line 47
-    invoke-virtual {v2}, Lcom/google/android/gms/common/api/internal/zabq;
-    ->zaf()Lcom/google/android/gms/common/api/Api$Client;
+    invoke-virtual {v2}, Lcom/google/android/gms/common/api/internal/zabq;->zaf()Lcom/google/android/gms/common/api/Api$Client;
 
     .line 48
     .line 49
@@ -564,8 +524,7 @@
 
     .line 52
     .line 53
-    iget-wide v4, v0, Lcom/google/android/gms/common/api/internal/zacd;
-    ->zad:J
+    iget-wide v4, v0, Lcom/google/android/gms/common/api/internal/zacd;->zad:J
 
     .line 54
     .line 55
@@ -598,8 +557,7 @@
 
     .line 66
     :goto_0
-    invoke-virtual {v3}, Lcom/google/android/gms/common/internal/BaseGmsClient;
-    ->getGCoreServiceId()I
+    invoke-virtual {v3}, Lcom/google/android/gms/common/internal/BaseGmsClient;->getGCoreServiceId()I
 
     .line 67
     .line 68
@@ -615,8 +573,7 @@
 
     .line 73
     .line 74
-    invoke-virtual {v1}, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
-    ->getMethodTimingTelemetryEnabled()Z
+    invoke-virtual {v1}, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;->getMethodTimingTelemetryEnabled()Z
 
     .line 75
     .line 76
@@ -627,8 +584,7 @@
     and-int/2addr v4, v10
 
     .line 79
-    invoke-virtual {v1}, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
-    ->getBatchPeriodMillis()I
+    invoke-virtual {v1}, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;->getBatchPeriodMillis()I
 
     .line 80
     .line 81
@@ -636,8 +592,7 @@
     move-result v10
 
     .line 83
-    invoke-virtual {v1}, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
-    ->getMaxMethodInvocationsInBatch()I
+    invoke-virtual {v1}, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;->getMaxMethodInvocationsInBatch()I
 
     .line 84
     .line 85
@@ -645,8 +600,7 @@
     move-result v11
 
     .line 87
-    invoke-virtual {v1}, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;
-    ->getVersion()I
+    invoke-virtual {v1}, Lcom/google/android/gms/common/internal/RootTelemetryConfiguration;->getVersion()I
 
     .line 88
     .line 89
@@ -654,8 +608,7 @@
     move-result v1
 
     .line 91
-    invoke-virtual {v3}, Lcom/google/android/gms/common/internal/BaseGmsClient;
-    ->hasConnectionInfo()Z
+    invoke-virtual {v3}, Lcom/google/android/gms/common/internal/BaseGmsClient;->hasConnectionInfo()Z
 
     .line 92
     .line 93
@@ -667,8 +620,7 @@
 
     .line 96
     .line 97
-    invoke-virtual {v3}, Lcom/google/android/gms/common/internal/BaseGmsClient;
-    ->isConnecting()Z
+    invoke-virtual {v3}, Lcom/google/android/gms/common/internal/BaseGmsClient;->isConnecting()Z
 
     .line 98
     .line 99
@@ -680,13 +632,11 @@
 
     .line 102
     .line 103
-    iget v4, v0, Lcom/google/android/gms/common/api/internal/zacd;
-    ->zab:I
+    iget v4, v0, Lcom/google/android/gms/common/api/internal/zacd;->zab:I
 
     .line 104
     .line 105
-    invoke-static {v2, v3, v4}, Lcom/google/android/gms/common/api/internal/zacd;
-    ->zab(Lcom/google/android/gms/common/api/internal/zabq;Lcom/google/android/gms/common/internal/BaseGmsClient;I)Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
+    invoke-static {v2, v3, v4}, Lcom/google/android/gms/common/api/internal/zacd;->zab(Lcom/google/android/gms/common/api/internal/zabq;Lcom/google/android/gms/common/internal/BaseGmsClient;I)Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
 
     .line 106
     .line 107
@@ -698,8 +648,7 @@
 
     .line 110
     .line 111
-    invoke-virtual {v2}, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
-    ->getMethodTimingTelemetryEnabled()Z
+    invoke-virtual {v2}, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;->getMethodTimingTelemetryEnabled()Z
 
     .line 112
     .line 113
@@ -711,8 +660,7 @@
 
     .line 116
     .line 117
-    iget-wide v3, v0, Lcom/google/android/gms/common/api/internal/zacd;
-    ->zad:J
+    iget-wide v3, v0, Lcom/google/android/gms/common/api/internal/zacd;->zad:J
 
     .line 118
     .line 119
@@ -732,8 +680,7 @@
 
     .line 125
     :goto_1
-    invoke-virtual {v2}, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;
-    ->getMaxMethodInvocationsLogged()I
+    invoke-virtual {v2}, Lcom/google/android/gms/common/internal/ConnectionTelemetryConfiguration;->getMaxMethodInvocationsLogged()I
 
     .line 126
     .line 127
@@ -771,13 +718,11 @@
     .line 139
     .line 140
     :goto_2
-    iget-object v6, v0, Lcom/google/android/gms/common/api/internal/zacd;
-    ->zaa:Lcom/google/android/gms/common/api/internal/GoogleApiManager;
+    iget-object v6, v0, Lcom/google/android/gms/common/api/internal/zacd;->zaa:Lcom/google/android/gms/common/api/internal/GoogleApiManager;
 
     .line 141
     .line 142
-    invoke-virtual/range {p1 .. p1}, Lcom/google/android/gms/tasks/Task;
-    ->isSuccessful()Z
+    invoke-virtual/range {p1 .. p1}, Lcom/google/android/gms/tasks/Task;->isSuccessful()Z
 
     .line 143
     .line 144
@@ -802,8 +747,7 @@
 
     .line 152
     :cond_6
-    invoke-virtual/range {p1 .. p1}, Lcom/google/android/gms/tasks/Task;
-    ->isCanceled()Z
+    invoke-virtual/range {p1 .. p1}, Lcom/google/android/gms/tasks/Task;->isCanceled()Z
 
     .line 153
     .line 154
@@ -827,8 +771,7 @@
 
     .line 162
     :cond_7
-    invoke-virtual/range {p1 .. p1}, Lcom/google/android/gms/tasks/Task;
-    ->getException()Ljava/lang/Exception;
+    invoke-virtual/range {p1 .. p1}, Lcom/google/android/gms/tasks/Task;->getException()Ljava/lang/Exception;
 
     .line 163
     .line 164
@@ -848,8 +791,7 @@
 
     .line 171
     .line 172
-    invoke-virtual {v5}, Lcom/google/android/gms/common/api/ApiException;
-    ->getStatus()Lcom/google/android/gms/common/api/Status;
+    invoke-virtual {v5}, Lcom/google/android/gms/common/api/ApiException;->getStatus()Lcom/google/android/gms/common/api/Status;
 
     .line 173
     .line 174
@@ -857,8 +799,7 @@
     move-result-object v5
 
     .line 176
-    invoke-virtual {v5}, Lcom/google/android/gms/common/api/Status;
-    ->getStatusCode()I
+    invoke-virtual {v5}, Lcom/google/android/gms/common/api/Status;->getStatusCode()I
 
     .line 177
     .line 178
@@ -866,8 +807,7 @@
     move-result v9
 
     .line 180
-    invoke-virtual {v5}, Lcom/google/android/gms/common/api/Status;
-    ->getConnectionResult()Lcom/google/android/gms/common/ConnectionResult;
+    invoke-virtual {v5}, Lcom/google/android/gms/common/api/Status;->getConnectionResult()Lcom/google/android/gms/common/ConnectionResult;
 
     .line 181
     .line 182
@@ -886,8 +826,7 @@
 
     .line 188
     :cond_8
-    invoke-virtual {v5}, Lcom/google/android/gms/common/ConnectionResult;
-    ->getErrorCode()I
+    invoke-virtual {v5}, Lcom/google/android/gms/common/ConnectionResult;->getErrorCode()I
 
     .line 189
     .line 190
@@ -921,18 +860,15 @@
 
     .line 201
     .line 202
-    iget-wide v7, v0, Lcom/google/android/gms/common/api/internal/zacd;
-    ->zad:J
+    iget-wide v7, v0, Lcom/google/android/gms/common/api/internal/zacd;->zad:J
 
     .line 203
     .line 204
-    iget-wide v4, v0, Lcom/google/android/gms/common/api/internal/zacd;
-    ->zae:J
+    iget-wide v4, v0, Lcom/google/android/gms/common/api/internal/zacd;->zae:J
 
     .line 205
     .line 206
-    invoke-static {}, Ljava/lang/System;
-    ->currentTimeMillis()J
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     .line 207
     .line 208
@@ -940,8 +876,7 @@
     move-result-wide v9
 
     .line 210
-    invoke-static {}, Landroid/os/SystemClock;
-    ->elapsedRealtime()J
+    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     .line 211
     .line 212
@@ -982,8 +917,7 @@
     .line 226
     .line 227
     :goto_5
-    iget v11, v0, Lcom/google/android/gms/common/api/internal/zacd;
-    ->zab:I
+    iget v11, v0, Lcom/google/android/gms/common/api/internal/zacd;->zab:I
 
     .line 228
     .line 229
@@ -999,8 +933,7 @@
 
     .line 234
     .line 235
-    invoke-direct/range {v10 .. v21}, Lcom/google/android/gms/common/internal/MethodInvocation;
-    -><init>(IIIJJLjava/lang/String;Ljava/lang/String;II)V
+    invoke-direct/range {v10 .. v21}, Lcom/google/android/gms/common/internal/MethodInvocation;-><init>(IIIJJLjava/lang/String;Ljava/lang/String;II)V
 
     .line 236
     .line 237
@@ -1021,8 +954,7 @@
     move-object v12, v10
 
     .line 244
-    invoke-virtual/range {v11 .. v16}, Lcom/google/android/gms/common/api/internal/GoogleApiManager;
-    ->zaw(Lcom/google/android/gms/common/internal/MethodInvocation;IJI)V
+    invoke-virtual/range {v11 .. v16}, Lcom/google/android/gms/common/api/internal/GoogleApiManager;->zaw(Lcom/google/android/gms/common/internal/MethodInvocation;IJI)V
 
     .line 245
     .line 246

@@ -14,14 +14,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Ljava/io/FilterInputStream;
-    -><init>(Ljava/io/InputStream;)V
+    invoke-direct {p0, p1}, Ljava/io/FilterInputStream;-><init>(Ljava/io/InputStream;)V
 
     .line 2
     .line 3
     .line 4
-    iput-wide p2, p0, LE/e;
-    ->b:J
+    iput-wide p2, p0, LE/e;->b:J
 
     .line 5
     .line 6
@@ -38,16 +36,14 @@
 
     .line 2
     .line 3
-    iget v0, p0, LE/e;
-    ->c:I
+    iget v0, p0, LE/e;->c:I
 
     .line 4
     .line 5
     add-int/2addr v0, p1
 
     .line 6
-    iput v0, p0, LE/e;
-    ->c:I
+    iput v0, p0, LE/e;->c:I
 
     .line 7
     .line 8
@@ -55,16 +51,14 @@
 
     .line 9
     :cond_0
-    iget p1, p0, LE/e;
-    ->c:I
+    iget p1, p0, LE/e;->c:I
 
     .line 10
     .line 11
     int-to-long v0, p1
 
     .line 12
-    iget-wide v2, p0, LE/e;
-    ->b:J
+    iget-wide v2, p0, LE/e;->b:J
 
     .line 13
     .line 14
@@ -100,14 +94,12 @@
 
     .line 28
     .line 29
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 30
     .line 31
     .line 32
-    invoke-virtual {v0, v2, v3}, Ljava/lang/StringBuilder;
-    ->append(J)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2, v3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
     .line 33
     .line 34
@@ -116,25 +108,21 @@
 
     .line 36
     .line 37
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 38
     .line 39
     .line 40
-    iget v1, p0, LE/e;
-    ->c:I
+    iget v1, p0, LE/e;->c:I
 
     .line 41
     .line 42
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 43
     .line 44
     .line 45
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 46
     .line 47
@@ -142,8 +130,7 @@
     move-result-object v0
 
     .line 49
-    invoke-direct {p1, v0}, Ljava/io/IOException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
 
     .line 50
     .line 51
@@ -191,13 +178,11 @@
 
     .line 2
     :try_start_0
-    iget-wide v0, p0, LE/e;
-    ->b:J
+    iget-wide v0, p0, LE/e;->b:J
 
     .line 3
     .line 4
-    iget v2, p0, LE/e;
-    ->c:I
+    iget v2, p0, LE/e;->c:I
 
     .line 5
     .line 6
@@ -207,13 +192,11 @@
     sub-long/2addr v0, v2
 
     .line 8
-    iget-object v2, p0, Ljava/io/FilterInputStream;
-    ->in:Ljava/io/InputStream;
+    iget-object v2, p0, Ljava/io/FilterInputStream;->in:Ljava/io/InputStream;
 
     .line 9
     .line 10
-    invoke-virtual {v2}, Ljava/io/InputStream;
-    ->available()I
+    invoke-virtual {v2}, Ljava/io/InputStream;->available()I
 
     .line 11
     .line 12
@@ -224,8 +207,7 @@
     int-to-long v2, v2
 
     .line 15
-    invoke-static {v0, v1, v2, v3}, Ljava/lang/Math;
-    ->max(JJ)J
+    invoke-static {v0, v1, v2, v3}, Ljava/lang/Math;->max(JJ)J
 
     .line 16
     .line 17
@@ -325,8 +307,7 @@
 
     .line 1
     :try_start_0
-    invoke-super {p0}, Ljava/io/FilterInputStream;
-    ->read()I
+    invoke-super {p0}, Ljava/io/FilterInputStream;->read()I
 
     move-result v0
 
@@ -341,8 +322,7 @@
 
     .line 2
     :goto_0
-    invoke-virtual {p0, v1}, LE/e;
-    ->a(I)V
+    invoke-virtual {p0, v1}, LE/e;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -370,8 +350,7 @@
 
     const/4 v1, 0x0
 
-    invoke-virtual {p0, p1, v1, v0}, LE/e;
-    ->read([BII)I
+    invoke-virtual {p0, p1, v1, v0}, LE/e;->read([BII)I
 
     move-result p1
 
@@ -385,13 +364,11 @@
 
     .line 5
     :try_start_0
-    invoke-super {p0, p1, p2, p3}, Ljava/io/FilterInputStream;
-    ->read([BII)I
+    invoke-super {p0, p1, p2, p3}, Ljava/io/FilterInputStream;->read([BII)I
 
     move-result p1
 
-    invoke-virtual {p0, p1}, LE/e;
-    ->a(I)V
+    invoke-virtual {p0, p1}, LE/e;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

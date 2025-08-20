@@ -10,8 +10,7 @@
     .line 1
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v6, 0xf
 
@@ -27,8 +26,7 @@
 
     move-object v1, p0
 
-    invoke-static/range {v1 .. v7}, Landroidx/graphics/shapes/ShapesKt;
-    ->circle$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;IFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v1 .. v7}, Landroidx/graphics/shapes/ShapesKt;->circle$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;IFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -46,8 +44,7 @@
     .line 2
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v6, 0xe
 
@@ -63,8 +60,7 @@
 
     move v2, p1
 
-    invoke-static/range {v1 .. v7}, Landroidx/graphics/shapes/ShapesKt;
-    ->circle$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;IFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v1 .. v7}, Landroidx/graphics/shapes/ShapesKt;->circle$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;IFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -82,8 +78,7 @@
     .line 3
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v6, 0xc
 
@@ -99,8 +94,7 @@
 
     move v3, p2
 
-    invoke-static/range {v1 .. v7}, Landroidx/graphics/shapes/ShapesKt;
-    ->circle$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;IFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v1 .. v7}, Landroidx/graphics/shapes/ShapesKt;->circle$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;IFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -118,8 +112,7 @@
     .line 4
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v6, 0x8
 
@@ -135,8 +128,7 @@
 
     move v4, p3
 
-    invoke-static/range {v1 .. v7}, Landroidx/graphics/shapes/ShapesKt;
-    ->circle$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;IFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v1 .. v7}, Landroidx/graphics/shapes/ShapesKt;->circle$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;IFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -153,16 +145,14 @@
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p0, 0x3
 
     if-lt p1, p0, :cond_0
 
     .line 5
-    invoke-static {}, Landroidx/graphics/shapes/Utils;
-    ->getFloatPi()F
+    invoke-static {}, Landroidx/graphics/shapes/Utils;->getFloatPi()F
 
     move-result p0
 
@@ -173,8 +163,7 @@
     float-to-double v0, p0
 
     .line 6
-    invoke-static {v0, v1}, Ljava/lang/Math;
-    ->cos(D)D
+    invoke-static {v0, v1}, Ljava/lang/Math;->cos(D)D
 
     move-result-wide v0
 
@@ -191,8 +180,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v4, p2, v2, p0, v0}, Landroidx/graphics/shapes/CornerRounding;
-    -><init>(FFILkotlin/jvm/internal/e;)V
+    invoke-direct {v4, p2, v2, p0, v0}, Landroidx/graphics/shapes/CornerRounding;-><init>(FFILkotlin/jvm/internal/e;)V
 
     const/16 v6, 0x20
 
@@ -207,8 +195,7 @@
     move v3, p4
 
     .line 8
-    invoke-static/range {v0 .. v7}, Landroidx/graphics/shapes/RoundedPolygonKt;
-    ->RoundedPolygon$default(IFFFLandroidx/graphics/shapes/CornerRounding;Ljava/util/List;ILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v0 .. v7}, Landroidx/graphics/shapes/RoundedPolygonKt;->RoundedPolygon$default(IFFFLandroidx/graphics/shapes/CornerRounding;Ljava/util/List;ILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -220,8 +207,7 @@
 
     const-string p1, "Circle must have at least three vertices"
 
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -286,8 +272,7 @@
 
     .line 25
     :cond_3
-    invoke-static {p0, p1, p2, p3, p4}, Landroidx/graphics/shapes/ShapesKt;
-    ->circle(Landroidx/graphics/shapes/RoundedPolygon$Companion;IFFF)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/graphics/shapes/ShapesKt;->circle(Landroidx/graphics/shapes/RoundedPolygon$Companion;IFFF)Landroidx/graphics/shapes/RoundedPolygon;
 
     .line 26
     .line 27
@@ -303,8 +288,7 @@
     .line 1
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v7, 0x1f
 
@@ -322,8 +306,7 @@
 
     move-object v1, p0
 
-    invoke-static/range {v1 .. v8}, Landroidx/graphics/shapes/ShapesKt;
-    ->pill$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v1 .. v8}, Landroidx/graphics/shapes/ShapesKt;->pill$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -336,8 +319,7 @@
     .line 2
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v7, 0x1e
 
@@ -355,8 +337,7 @@
 
     move v2, p1
 
-    invoke-static/range {v1 .. v8}, Landroidx/graphics/shapes/ShapesKt;
-    ->pill$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v1 .. v8}, Landroidx/graphics/shapes/ShapesKt;->pill$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -369,8 +350,7 @@
     .line 3
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v7, 0x1c
 
@@ -388,8 +368,7 @@
 
     move v3, p2
 
-    invoke-static/range {v1 .. v8}, Landroidx/graphics/shapes/ShapesKt;
-    ->pill$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v1 .. v8}, Landroidx/graphics/shapes/ShapesKt;->pill$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -402,8 +381,7 @@
     .line 4
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v7, 0x18
 
@@ -421,8 +399,7 @@
 
     move v4, p3
 
-    invoke-static/range {v1 .. v8}, Landroidx/graphics/shapes/ShapesKt;
-    ->pill$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v1 .. v8}, Landroidx/graphics/shapes/ShapesKt;->pill$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -435,8 +412,7 @@
     .line 5
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v7, 0x10
 
@@ -454,8 +430,7 @@
 
     move v5, p4
 
-    invoke-static/range {v1 .. v8}, Landroidx/graphics/shapes/ShapesKt;
-    ->pill$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v1 .. v8}, Landroidx/graphics/shapes/ShapesKt;->pill$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -469,8 +444,7 @@
 
     const-string v1, "<this>"
 
-    invoke-static {p0, v1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p0, 0x0
 
@@ -538,15 +512,13 @@
     .line 7
     new-instance v8, Landroidx/graphics/shapes/CornerRounding;
 
-    invoke-static {v1, p0}, Ljava/lang/Math;
-    ->min(FF)F
+    invoke-static {v1, p0}, Ljava/lang/Math;->min(FF)F
 
     move-result p0
 
     move/from16 v0, p3
 
-    invoke-direct {v8, p0, v0}, Landroidx/graphics/shapes/CornerRounding;
-    -><init>(FF)V
+    invoke-direct {v8, p0, v0}, Landroidx/graphics/shapes/CornerRounding;-><init>(FF)V
 
     const/4 v12, 0x4
 
@@ -559,8 +531,7 @@
     move/from16 v11, p5
 
     .line 8
-    invoke-static/range {v7 .. v13}, Landroidx/graphics/shapes/RoundedPolygonKt;
-    ->RoundedPolygon$default([FLandroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v7 .. v13}, Landroidx/graphics/shapes/RoundedPolygonKt;->RoundedPolygon$default([FLandroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -572,8 +543,7 @@
 
     const-string v0, "Pill shapes must have positive width and height"
 
-    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -684,8 +654,7 @@
 
     .line 41
     :goto_0
-    invoke-static/range {p2 .. p7}, Landroidx/graphics/shapes/ShapesKt;
-    ->pill(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFFFF)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {p2 .. p7}, Landroidx/graphics/shapes/ShapesKt;->pill(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFFFF)Landroidx/graphics/shapes/RoundedPolygon;
 
     .line 42
     .line 43
@@ -701,8 +670,7 @@
     .line 1
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v13, 0x7ff
 
@@ -732,8 +700,7 @@
 
     move-object v1, p0
 
-    invoke-static/range {v1 .. v14}, Landroidx/graphics/shapes/ShapesKt;
-    ->pillStar$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFIFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v1 .. v14}, Landroidx/graphics/shapes/ShapesKt;->pillStar$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFIFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -746,8 +713,7 @@
     .line 2
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v13, 0x7fe
 
@@ -777,8 +743,7 @@
 
     move/from16 v2, p1
 
-    invoke-static/range {v1 .. v14}, Landroidx/graphics/shapes/ShapesKt;
-    ->pillStar$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFIFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v1 .. v14}, Landroidx/graphics/shapes/ShapesKt;->pillStar$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFIFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -791,8 +756,7 @@
     .line 3
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v13, 0x7fc
 
@@ -822,8 +786,7 @@
 
     move/from16 v3, p2
 
-    invoke-static/range {v1 .. v14}, Landroidx/graphics/shapes/ShapesKt;
-    ->pillStar$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFIFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v1 .. v14}, Landroidx/graphics/shapes/ShapesKt;->pillStar$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFIFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -836,8 +799,7 @@
     .line 4
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v13, 0x7f8
 
@@ -867,8 +829,7 @@
 
     move/from16 v4, p3
 
-    invoke-static/range {v1 .. v14}, Landroidx/graphics/shapes/ShapesKt;
-    ->pillStar$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFIFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v1 .. v14}, Landroidx/graphics/shapes/ShapesKt;->pillStar$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFIFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -889,8 +850,7 @@
     .line 5
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v13, 0x7f0
 
@@ -920,8 +880,7 @@
 
     move/from16 v5, p4
 
-    invoke-static/range {v1 .. v14}, Landroidx/graphics/shapes/ShapesKt;
-    ->pillStar$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFIFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v1 .. v14}, Landroidx/graphics/shapes/ShapesKt;->pillStar$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFIFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -942,15 +901,13 @@
     .line 6
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "rounding"
 
     move-object/from16 v6, p5
 
-    invoke-static {v6, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v13, 0x7e0
 
@@ -978,8 +935,7 @@
 
     move/from16 v5, p4
 
-    invoke-static/range {v1 .. v14}, Landroidx/graphics/shapes/ShapesKt;
-    ->pillStar$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFIFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v1 .. v14}, Landroidx/graphics/shapes/ShapesKt;->pillStar$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFIFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -1000,15 +956,13 @@
     .line 7
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "rounding"
 
     move-object/from16 v6, p5
 
-    invoke-static {v6, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v13, 0x7c0
 
@@ -1036,8 +990,7 @@
 
     move-object/from16 v7, p6
 
-    invoke-static/range {v1 .. v14}, Landroidx/graphics/shapes/ShapesKt;
-    ->pillStar$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFIFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v1 .. v14}, Landroidx/graphics/shapes/ShapesKt;->pillStar$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFIFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -1071,15 +1024,13 @@
     .line 8
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "rounding"
 
     move-object/from16 v6, p5
 
-    invoke-static {v6, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v13, 0x780
 
@@ -1107,8 +1058,7 @@
 
     move-object/from16 v8, p7
 
-    invoke-static/range {v1 .. v14}, Landroidx/graphics/shapes/ShapesKt;
-    ->pillStar$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFIFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v1 .. v14}, Landroidx/graphics/shapes/ShapesKt;->pillStar$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFIFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -1148,15 +1098,13 @@
     .line 9
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "rounding"
 
     move-object/from16 v6, p5
 
-    invoke-static {v6, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v13, 0x700
 
@@ -1184,8 +1132,7 @@
 
     move/from16 v9, p8
 
-    invoke-static/range {v1 .. v14}, Landroidx/graphics/shapes/ShapesKt;
-    ->pillStar$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFIFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v1 .. v14}, Landroidx/graphics/shapes/ShapesKt;->pillStar$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFIFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -1231,15 +1178,13 @@
     .line 10
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "rounding"
 
     move-object/from16 v6, p5
 
-    invoke-static {v6, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v13, 0x600
 
@@ -1267,8 +1212,7 @@
 
     move/from16 v10, p9
 
-    invoke-static/range {v1 .. v14}, Landroidx/graphics/shapes/ShapesKt;
-    ->pillStar$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFIFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v1 .. v14}, Landroidx/graphics/shapes/ShapesKt;->pillStar$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFIFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -1314,15 +1258,13 @@
     .line 11
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "rounding"
 
     move-object/from16 v6, p5
 
-    invoke-static {v6, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v6, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v13, 0x400
 
@@ -1350,8 +1292,7 @@
 
     move/from16 v11, p10
 
-    invoke-static/range {v1 .. v14}, Landroidx/graphics/shapes/ShapesKt;
-    ->pillStar$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFIFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v1 .. v14}, Landroidx/graphics/shapes/ShapesKt;->pillStar$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFIFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFFFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -1400,13 +1341,11 @@
 
     const-string v2, "<this>"
 
-    invoke-static {p0, v2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p0, "rounding"
 
-    invoke-static {v0, p0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, p0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p0, 0x0
 
@@ -1433,33 +1372,28 @@
     if-eqz p6, :cond_1
 
     .line 12
-    invoke-static {v1, p3}, La/a;
-    ->T(II)Lu1/g;
+    invoke-static {v1, p3}, La/a;->T(II)Lu1/g;
 
     move-result-object p0
 
     .line 13
     new-instance v2, Ljava/util/ArrayList;
 
-    invoke-direct {v2}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
     .line 14
-    invoke-virtual {p0}, Lu1/e;
-    ->b()Lu1/f;
+    invoke-virtual {p0}, Lu1/e;->b()Lu1/f;
 
     move-result-object p0
 
     .line 15
     :goto_0
-    iget-boolean v3, p0, Lu1/f;
-    ->d:Z
+    iget-boolean v3, p0, Lu1/f;->d:Z
 
     if-eqz v3, :cond_0
 
     .line 16
-    invoke-virtual {p0}, Ld1/y;
-    ->nextInt()I
+    invoke-virtual {p0}, Ld1/y;->nextInt()I
 
     const/4 v3, 0x2
 
@@ -1472,8 +1406,7 @@
 
     aput-object p6, v3, v4
 
-    invoke-static {v3}, Ld1/l;
-    ->g0([Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {v3}, Ld1/l;->g0([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v3
 
@@ -1481,8 +1414,7 @@
     check-cast v3, Ljava/lang/Iterable;
 
     .line 19
-    invoke-static {v3, v2}, Ld1/q;
-    ->k0(Ljava/lang/Iterable;Ljava/util/Collection;)V
+    invoke-static {v3, v2}, Ld1/q;->k0(Ljava/lang/Iterable;Ljava/util/Collection;)V
 
     goto :goto_0
 
@@ -1513,14 +1445,12 @@
 
     .line 20
     :goto_2
-    invoke-static/range {v3 .. v10}, Landroidx/graphics/shapes/ShapesKt;
-    ->pillStarVerticesFromNumVerts(IFFFFFFF)[F
+    invoke-static/range {v3 .. v10}, Landroidx/graphics/shapes/ShapesKt;->pillStarVerticesFromNumVerts(IFFFFFFF)[F
 
     move-result-object p0
 
     .line 21
-    invoke-static {p0, v0, v2, v9, v10}, Landroidx/graphics/shapes/RoundedPolygonKt;
-    ->RoundedPolygon([FLandroidx/graphics/shapes/CornerRounding;Ljava/util/List;FF)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static {p0, v0, v2, v9, v10}, Landroidx/graphics/shapes/RoundedPolygonKt;->RoundedPolygon([FLandroidx/graphics/shapes/CornerRounding;Ljava/util/List;FF)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -1532,8 +1462,7 @@
 
     const-string p1, "innerRadius must be between 0 and 1"
 
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     throw p0
 
@@ -1543,8 +1472,7 @@
 
     const-string p1, "Pill shapes must have positive width and height"
 
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -1617,8 +1545,7 @@
 
     .line 30
     .line 31
-    sget-object p5, Landroidx/graphics/shapes/CornerRounding;
-    ->Unrounded:Landroidx/graphics/shapes/CornerRounding;
+    sget-object p5, Landroidx/graphics/shapes/CornerRounding;->Unrounded:Landroidx/graphics/shapes/CornerRounding;
 
     .line 32
     .line 33
@@ -1775,8 +1702,7 @@
 
     .line 90
     :goto_0
-    invoke-static/range {p2 .. p13}, Landroidx/graphics/shapes/ShapesKt;
-    ->pillStar(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFIFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFFF)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {p2 .. p13}, Landroidx/graphics/shapes/ShapesKt;->pillStar(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFIFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFFF)Landroidx/graphics/shapes/RoundedPolygon;
 
     .line 91
     .line 92
@@ -1794,8 +1720,7 @@
 
     .line 2
     .line 3
-    invoke-static/range {p1 .. p2}, Ljava/lang/Math;
-    ->min(FF)F
+    invoke-static/range {p1 .. p2}, Ljava/lang/Math;->min(FF)F
 
     .line 4
     .line 5
@@ -1852,8 +1777,7 @@
 
     .line 27
     .line 28
-    invoke-static {}, Landroidx/graphics/shapes/Utils;
-    ->getTwoPi()F
+    invoke-static {}, Landroidx/graphics/shapes/Utils;->getTwoPi()F
 
     .line 29
     .line 30
@@ -1873,8 +1797,7 @@
 
     .line 37
     .line 38
-    invoke-static {v0, v10, v11}, Landroidx/graphics/shapes/Utils;
-    ->interpolate(FFF)F
+    invoke-static {v0, v10, v11}, Landroidx/graphics/shapes/Utils;->interpolate(FFF)F
 
     .line 39
     .line 40
@@ -2047,8 +1970,7 @@
 
     .line 116
     .line 117
-    invoke-static {v8, v7}, Landroidx/collection/FloatFloatPair;
-    ->constructor-impl(FF)J
+    invoke-static {v8, v7}, Landroidx/collection/FloatFloatPair;->constructor-impl(FF)J
 
     .line 118
     .line 119
@@ -2067,8 +1989,7 @@
 
     .line 125
     .line 126
-    invoke-static {v5, v7}, Landroidx/collection/FloatFloatPair;
-    ->constructor-impl(FF)J
+    invoke-static {v5, v7}, Landroidx/collection/FloatFloatPair;->constructor-impl(FF)J
 
     .line 127
     .line 128
@@ -2087,8 +2008,7 @@
 
     .line 134
     .line 135
-    invoke-static {v5, v9}, Landroidx/collection/FloatFloatPair;
-    ->constructor-impl(FF)J
+    invoke-static {v5, v9}, Landroidx/collection/FloatFloatPair;->constructor-impl(FF)J
 
     .line 136
     .line 137
@@ -2104,8 +2024,7 @@
 
     .line 142
     .line 143
-    invoke-static {v8, v9}, Landroidx/collection/FloatFloatPair;
-    ->constructor-impl(FF)J
+    invoke-static {v8, v9}, Landroidx/collection/FloatFloatPair;->constructor-impl(FF)J
 
     .line 144
     .line 145
@@ -2269,8 +2188,7 @@
 
     .line 220
     .line 221
-    invoke-static {v2, v7}, Landroidx/collection/FloatFloatPair;
-    ->constructor-impl(FF)J
+    invoke-static {v2, v7}, Landroidx/collection/FloatFloatPair;->constructor-impl(FF)J
 
     .line 222
     .line 223
@@ -2290,8 +2208,7 @@
 
     .line 229
     .line 230
-    invoke-static {}, Landroidx/graphics/shapes/Utils;
-    ->getFloatPi()F
+    invoke-static {}, Landroidx/graphics/shapes/Utils;->getFloatPi()F
 
     .line 231
     .line 232
@@ -2307,8 +2224,7 @@
 
     .line 237
     .line 238
-    invoke-static {}, Landroidx/graphics/shapes/Utils;
-    ->getFloatPi()F
+    invoke-static {}, Landroidx/graphics/shapes/Utils;->getFloatPi()F
 
     .line 239
     .line 240
@@ -2347,8 +2263,7 @@
     move v2, v8
 
     .line 257
-    invoke-static/range {v28 .. v33}, Landroidx/graphics/shapes/Utils;
-    ->radialToCartesian-L6JJ3z0$default(FFJILjava/lang/Object;)J
+    invoke-static/range {v28 .. v33}, Landroidx/graphics/shapes/Utils;->radialToCartesian-L6JJ3z0$default(FFJILjava/lang/Object;)J
 
     .line 258
     .line 259
@@ -2356,8 +2271,7 @@
     move-result-wide v7
 
     .line 261
-    invoke-static {v7, v8, v5, v6}, Landroidx/graphics/shapes/PointKt;
-    ->plus-ybeJwSQ(JJ)J
+    invoke-static {v7, v8, v5, v6}, Landroidx/graphics/shapes/PointKt;->plus-ybeJwSQ(JJ)J
 
     .line 262
     .line 263
@@ -2391,8 +2305,7 @@
     neg-float v7, v7
 
     .line 276
-    invoke-static {v8, v7}, Landroidx/collection/FloatFloatPair;
-    ->constructor-impl(FF)J
+    invoke-static {v8, v7}, Landroidx/collection/FloatFloatPair;->constructor-impl(FF)J
 
     .line 277
     .line 278
@@ -2415,8 +2328,7 @@
     move v2, v8
 
     .line 286
-    invoke-static {}, Landroidx/graphics/shapes/Utils;
-    ->getFloatPi()F
+    invoke-static {}, Landroidx/graphics/shapes/Utils;->getFloatPi()F
 
     .line 287
     .line 288
@@ -2424,8 +2336,7 @@
     move-result v8
 
     .line 290
-    invoke-static {}, Landroidx/graphics/shapes/Utils;
-    ->getFloatPi()F
+    invoke-static {}, Landroidx/graphics/shapes/Utils;->getFloatPi()F
 
     .line 291
     .line 292
@@ -2461,8 +2372,7 @@
 
     .line 307
     .line 308
-    invoke-static/range {v28 .. v33}, Landroidx/graphics/shapes/Utils;
-    ->radialToCartesian-L6JJ3z0$default(FFJILjava/lang/Object;)J
+    invoke-static/range {v28 .. v33}, Landroidx/graphics/shapes/Utils;->radialToCartesian-L6JJ3z0$default(FFJILjava/lang/Object;)J
 
     .line 309
     .line 310
@@ -2470,8 +2380,7 @@
     move-result-wide v7
 
     .line 312
-    invoke-static {v7, v8, v0, v1}, Landroidx/graphics/shapes/PointKt;
-    ->plus-ybeJwSQ(JJ)J
+    invoke-static {v7, v8, v0, v1}, Landroidx/graphics/shapes/PointKt;->plus-ybeJwSQ(JJ)J
 
     .line 313
     .line 314
@@ -2505,8 +2414,7 @@
 
     .line 326
     .line 327
-    invoke-static {v7, v8}, Landroidx/collection/FloatFloatPair;
-    ->constructor-impl(FF)J
+    invoke-static {v7, v8}, Landroidx/collection/FloatFloatPair;->constructor-impl(FF)J
 
     .line 328
     .line 329
@@ -2528,8 +2436,7 @@
     move v2, v8
 
     .line 336
-    invoke-static {}, Landroidx/graphics/shapes/Utils;
-    ->getFloatPi()F
+    invoke-static {}, Landroidx/graphics/shapes/Utils;->getFloatPi()F
 
     .line 337
     .line 338
@@ -2541,8 +2448,7 @@
 
     .line 341
     .line 342
-    invoke-static {}, Landroidx/graphics/shapes/Utils;
-    ->getFloatPi()F
+    invoke-static {}, Landroidx/graphics/shapes/Utils;->getFloatPi()F
 
     .line 343
     .line 344
@@ -2578,8 +2484,7 @@
 
     .line 359
     .line 360
-    invoke-static/range {v28 .. v33}, Landroidx/graphics/shapes/Utils;
-    ->radialToCartesian-L6JJ3z0$default(FFJILjava/lang/Object;)J
+    invoke-static/range {v28 .. v33}, Landroidx/graphics/shapes/Utils;->radialToCartesian-L6JJ3z0$default(FFJILjava/lang/Object;)J
 
     .line 361
     .line 362
@@ -2587,8 +2492,7 @@
     move-result-wide v7
 
     .line 364
-    invoke-static {v7, v8, v13, v14}, Landroidx/graphics/shapes/PointKt;
-    ->plus-ybeJwSQ(JJ)J
+    invoke-static {v7, v8, v13, v14}, Landroidx/graphics/shapes/PointKt;->plus-ybeJwSQ(JJ)J
 
     .line 365
     .line 366
@@ -2618,8 +2522,7 @@
 
     .line 376
     .line 377
-    invoke-static {v8, v7}, Landroidx/collection/FloatFloatPair;
-    ->constructor-impl(FF)J
+    invoke-static {v8, v7}, Landroidx/collection/FloatFloatPair;->constructor-impl(FF)J
 
     .line 378
     .line 379
@@ -2641,8 +2544,7 @@
     move v2, v8
 
     .line 386
-    invoke-static {}, Landroidx/graphics/shapes/Utils;
-    ->getFloatPi()F
+    invoke-static {}, Landroidx/graphics/shapes/Utils;->getFloatPi()F
 
     .line 387
     .line 388
@@ -2674,8 +2576,7 @@
 
     .line 401
     .line 402
-    invoke-static/range {v28 .. v33}, Landroidx/graphics/shapes/Utils;
-    ->radialToCartesian-L6JJ3z0$default(FFJILjava/lang/Object;)J
+    invoke-static/range {v28 .. v33}, Landroidx/graphics/shapes/Utils;->radialToCartesian-L6JJ3z0$default(FFJILjava/lang/Object;)J
 
     .line 403
     .line 404
@@ -2683,8 +2584,7 @@
     move-result-wide v7
 
     .line 406
-    invoke-static {v7, v8, v3, v4}, Landroidx/graphics/shapes/PointKt;
-    ->plus-ybeJwSQ(JJ)J
+    invoke-static {v7, v8, v3, v4}, Landroidx/graphics/shapes/PointKt;->plus-ybeJwSQ(JJ)J
 
     .line 407
     .line 408
@@ -2710,8 +2610,7 @@
 
     .line 416
     .line 417
-    invoke-static {v7, v8}, Landroidx/collection/FloatFloatPair;
-    ->constructor-impl(FF)J
+    invoke-static {v7, v8}, Landroidx/collection/FloatFloatPair;->constructor-impl(FF)J
 
     .line 418
     .line 419
@@ -2724,8 +2623,7 @@
 
     .line 422
     .line 423
-    invoke-static/range {v28 .. v29}, Landroidx/graphics/shapes/PointKt;
-    ->getX-DnnuFBc(J)F
+    invoke-static/range {v28 .. v29}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
 
     .line 424
     .line 425
@@ -2745,8 +2643,7 @@
 
     .line 432
     .line 433
-    invoke-static/range {v28 .. v29}, Landroidx/graphics/shapes/PointKt;
-    ->getY-DnnuFBc(J)F
+    invoke-static/range {v28 .. v29}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
 
     .line 434
     .line 435
@@ -2828,8 +2725,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -2838,8 +2734,7 @@
 
     .line 7
     .line 8
-    invoke-static {p3, p0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, p0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -2931,8 +2826,7 @@
 
     .line 47
     .line 48
-    invoke-static {v2, p3, p4, p5, p6}, Landroidx/graphics/shapes/RoundedPolygonKt;
-    ->RoundedPolygon([FLandroidx/graphics/shapes/CornerRounding;Ljava/util/List;FF)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static {v2, p3, p4, p5, p6}, Landroidx/graphics/shapes/RoundedPolygonKt;->RoundedPolygon([FLandroidx/graphics/shapes/CornerRounding;Ljava/util/List;FF)Landroidx/graphics/shapes/RoundedPolygon;
 
     .line 49
     .line 50
@@ -2984,8 +2878,7 @@
 
     .line 18
     .line 19
-    sget-object p3, Landroidx/graphics/shapes/CornerRounding;
-    ->Unrounded:Landroidx/graphics/shapes/CornerRounding;
+    sget-object p3, Landroidx/graphics/shapes/CornerRounding;->Unrounded:Landroidx/graphics/shapes/CornerRounding;
 
     .line 20
     .line 21
@@ -3029,8 +2922,7 @@
 
     .line 37
     :cond_5
-    invoke-static/range {p0 .. p6}, Landroidx/graphics/shapes/ShapesKt;
-    ->rectangle(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFLandroidx/graphics/shapes/CornerRounding;Ljava/util/List;FF)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {p0 .. p6}, Landroidx/graphics/shapes/ShapesKt;->rectangle(Landroidx/graphics/shapes/RoundedPolygon$Companion;FFLandroidx/graphics/shapes/CornerRounding;Ljava/util/List;FF)Landroidx/graphics/shapes/RoundedPolygon;
 
     .line 38
     .line 39
@@ -3046,8 +2938,7 @@
     .line 1
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v10, 0xfe
 
@@ -3071,8 +2962,7 @@
 
     move v2, p1
 
-    invoke-static/range {v1 .. v11}, Landroidx/graphics/shapes/ShapesKt;
-    ->star$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;IFFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v1 .. v11}, Landroidx/graphics/shapes/ShapesKt;->star$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;IFFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -3085,8 +2975,7 @@
     .line 2
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v10, 0xfc
 
@@ -3110,8 +2999,7 @@
 
     move v3, p2
 
-    invoke-static/range {v1 .. v11}, Landroidx/graphics/shapes/ShapesKt;
-    ->star$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;IFFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v1 .. v11}, Landroidx/graphics/shapes/ShapesKt;->star$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;IFFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -3124,8 +3012,7 @@
     .line 3
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v10, 0xf8
 
@@ -3149,8 +3036,7 @@
 
     move v4, p3
 
-    invoke-static/range {v1 .. v11}, Landroidx/graphics/shapes/ShapesKt;
-    ->star$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;IFFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v1 .. v11}, Landroidx/graphics/shapes/ShapesKt;->star$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;IFFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -3163,15 +3049,13 @@
     .line 4
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "rounding"
 
     move-object/from16 v5, p4
 
-    invoke-static {v5, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v10, 0xf0
 
@@ -3193,8 +3077,7 @@
 
     move v4, p3
 
-    invoke-static/range {v1 .. v11}, Landroidx/graphics/shapes/ShapesKt;
-    ->star$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;IFFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v1 .. v11}, Landroidx/graphics/shapes/ShapesKt;->star$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;IFFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -3207,15 +3090,13 @@
     .line 5
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "rounding"
 
     move-object/from16 v5, p4
 
-    invoke-static {v5, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v10, 0xe0
 
@@ -3237,8 +3118,7 @@
 
     move-object/from16 v6, p5
 
-    invoke-static/range {v1 .. v11}, Landroidx/graphics/shapes/ShapesKt;
-    ->star$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;IFFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v1 .. v11}, Landroidx/graphics/shapes/ShapesKt;->star$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;IFFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -3264,15 +3144,13 @@
     .line 6
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "rounding"
 
     move-object/from16 v5, p4
 
-    invoke-static {v5, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v10, 0xc0
 
@@ -3294,8 +3172,7 @@
 
     move-object/from16 v7, p6
 
-    invoke-static/range {v1 .. v11}, Landroidx/graphics/shapes/ShapesKt;
-    ->star$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;IFFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v1 .. v11}, Landroidx/graphics/shapes/ShapesKt;->star$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;IFFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -3321,15 +3198,13 @@
     .line 7
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "rounding"
 
     move-object/from16 v5, p4
 
-    invoke-static {v5, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v5, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v10, 0x80
 
@@ -3351,8 +3226,7 @@
 
     move/from16 v8, p7
 
-    invoke-static/range {v1 .. v11}, Landroidx/graphics/shapes/ShapesKt;
-    ->star$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;IFFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {v1 .. v11}, Landroidx/graphics/shapes/ShapesKt;->star$default(Landroidx/graphics/shapes/RoundedPolygon$Companion;IFFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FFILjava/lang/Object;)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -3379,13 +3253,11 @@
 
     const-string v1, "<this>"
 
-    invoke-static {p0, v1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p0, "rounding"
 
-    invoke-static {p4, p0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, p0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 p0, 0x0
 
@@ -3406,33 +3278,28 @@
     if-eqz p5, :cond_0
 
     .line 8
-    invoke-static {v0, p1}, La/a;
-    ->T(II)Lu1/g;
+    invoke-static {v0, p1}, La/a;->T(II)Lu1/g;
 
     move-result-object p0
 
     .line 9
     new-instance p6, Ljava/util/ArrayList;
 
-    invoke-direct {p6}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {p6}, Ljava/util/ArrayList;-><init>()V
 
     .line 10
-    invoke-virtual {p0}, Lu1/e;
-    ->b()Lu1/f;
+    invoke-virtual {p0}, Lu1/e;->b()Lu1/f;
 
     move-result-object p0
 
     .line 11
     :goto_0
-    iget-boolean v1, p0, Lu1/f;
-    ->d:Z
+    iget-boolean v1, p0, Lu1/f;->d:Z
 
     if-eqz v1, :cond_0
 
     .line 12
-    invoke-virtual {p0}, Ld1/y;
-    ->nextInt()I
+    invoke-virtual {p0}, Ld1/y;->nextInt()I
 
     const/4 v1, 0x2
 
@@ -3445,8 +3312,7 @@
 
     aput-object p5, v1, v2
 
-    invoke-static {v1}, Ld1/l;
-    ->g0([Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {v1}, Ld1/l;->g0([Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v1
 
@@ -3454,21 +3320,18 @@
     check-cast v1, Ljava/lang/Iterable;
 
     .line 15
-    invoke-static {v1, p6}, Ld1/q;
-    ->k0(Ljava/lang/Iterable;Ljava/util/Collection;)V
+    invoke-static {v1, p6}, Ld1/q;->k0(Ljava/lang/Iterable;Ljava/util/Collection;)V
 
     goto :goto_0
 
     .line 16
     :cond_0
-    invoke-static {p1, p2, p3, p7, p8}, Landroidx/graphics/shapes/ShapesKt;
-    ->starVerticesFromNumVerts(IFFFF)[F
+    invoke-static {p1, p2, p3, p7, p8}, Landroidx/graphics/shapes/ShapesKt;->starVerticesFromNumVerts(IFFFF)[F
 
     move-result-object p0
 
     .line 17
-    invoke-static {p0, p4, p6, p7, p8}, Landroidx/graphics/shapes/RoundedPolygonKt;
-    ->RoundedPolygon([FLandroidx/graphics/shapes/CornerRounding;Ljava/util/List;FF)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static {p0, p4, p6, p7, p8}, Landroidx/graphics/shapes/RoundedPolygonKt;->RoundedPolygon([FLandroidx/graphics/shapes/CornerRounding;Ljava/util/List;FF)Landroidx/graphics/shapes/RoundedPolygon;
 
     move-result-object p0
 
@@ -3480,8 +3343,7 @@
 
     const-string p1, "innerRadius must be less than radius"
 
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     throw p0
 
@@ -3491,8 +3353,7 @@
 
     const-string p1, "Star radii must both be greater than 0"
 
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -3553,8 +3414,7 @@
 
     .line 22
     .line 23
-    sget-object v3, Landroidx/graphics/shapes/CornerRounding;
-    ->Unrounded:Landroidx/graphics/shapes/CornerRounding;
+    sget-object v3, Landroidx/graphics/shapes/CornerRounding;->Unrounded:Landroidx/graphics/shapes/CornerRounding;
 
     .line 24
     .line 25
@@ -3677,8 +3537,7 @@
 
     .line 69
     :goto_7
-    invoke-static/range {p2 .. p10}, Landroidx/graphics/shapes/ShapesKt;
-    ->star(Landroidx/graphics/shapes/RoundedPolygon$Companion;IFFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FF)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-static/range {p2 .. p10}, Landroidx/graphics/shapes/ShapesKt;->star(Landroidx/graphics/shapes/RoundedPolygon$Companion;IFFLandroidx/graphics/shapes/CornerRounding;Landroidx/graphics/shapes/CornerRounding;Ljava/util/List;FF)Landroidx/graphics/shapes/RoundedPolygon;
 
     .line 70
     .line 71
@@ -3711,8 +3570,7 @@
 
     .line 8
     .line 9
-    invoke-static {}, Landroidx/graphics/shapes/Utils;
-    ->getFloatPi()F
+    invoke-static {}, Landroidx/graphics/shapes/Utils;->getFloatPi()F
 
     .line 10
     .line 11
@@ -3756,8 +3614,7 @@
     move v6, p1
 
     .line 27
-    invoke-static/range {v6 .. v11}, Landroidx/graphics/shapes/Utils;
-    ->radialToCartesian-L6JJ3z0$default(FFJILjava/lang/Object;)J
+    invoke-static/range {v6 .. v11}, Landroidx/graphics/shapes/Utils;->radialToCartesian-L6JJ3z0$default(FFJILjava/lang/Object;)J
 
     .line 28
     .line 29
@@ -3769,8 +3626,7 @@
 
     .line 32
     .line 33
-    invoke-static {v7, v8}, Landroidx/graphics/shapes/PointKt;
-    ->getX-DnnuFBc(J)F
+    invoke-static {v7, v8}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
 
     .line 34
     .line 35
@@ -3789,8 +3645,7 @@
 
     .line 41
     .line 42
-    invoke-static {v7, v8}, Landroidx/graphics/shapes/PointKt;
-    ->getY-DnnuFBc(J)F
+    invoke-static {v7, v8}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
 
     .line 43
     .line 44
@@ -3806,8 +3661,7 @@
 
     .line 49
     .line 50
-    invoke-static {}, Landroidx/graphics/shapes/Utils;
-    ->getFloatPi()F
+    invoke-static {}, Landroidx/graphics/shapes/Utils;->getFloatPi()F
 
     .line 51
     .line 52
@@ -3840,8 +3694,7 @@
     move v6, p2
 
     .line 65
-    invoke-static/range {v6 .. v11}, Landroidx/graphics/shapes/Utils;
-    ->radialToCartesian-L6JJ3z0$default(FFJILjava/lang/Object;)J
+    invoke-static/range {v6 .. v11}, Landroidx/graphics/shapes/Utils;->radialToCartesian-L6JJ3z0$default(FFJILjava/lang/Object;)J
 
     .line 66
     .line 67
@@ -3853,8 +3706,7 @@
 
     .line 70
     .line 71
-    invoke-static {v3, v4}, Landroidx/graphics/shapes/PointKt;
-    ->getX-DnnuFBc(J)F
+    invoke-static {v3, v4}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
 
     .line 72
     .line 73
@@ -3873,8 +3725,7 @@
 
     .line 79
     .line 80
-    invoke-static {v3, v4}, Landroidx/graphics/shapes/PointKt;
-    ->getY-DnnuFBc(J)F
+    invoke-static {v3, v4}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
 
     .line 81
     .line 82

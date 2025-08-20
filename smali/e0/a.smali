@@ -12,8 +12,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1}, Lcom/google/android/material/button/MaterialButton;
-    ->a(Lcom/google/android/material/button/MaterialButton;)F
+    invoke-static {p1}, Lcom/google/android/material/button/MaterialButton;->a(Lcom/google/android/material/button/MaterialButton;)F
 
     .line 4
     .line 5
@@ -31,8 +30,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, p2}, Lcom/google/android/material/button/MaterialButton;
-    ->b(Lcom/google/android/material/button/MaterialButton;F)V
+    invoke-static {p1, p2}, Lcom/google/android/material/button/MaterialButton;->b(Lcom/google/android/material/button/MaterialButton;F)V
 
     .line 4
     .line 5

@@ -12,8 +12,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -84,8 +83,7 @@
 
     .line 18
     .line 19
-    invoke-static {v0, v2}, Ljava/util/Arrays;
-    ->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
+    invoke-static {v0, v2}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -118,8 +116,7 @@
     array-length v5, v4
 
     .line 33
-    invoke-static {v4, v1, v0, v2, v5}, Ljava/lang/System;
-    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {v4, v1, v0, v2, v5}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 34
     .line 35
@@ -139,8 +136,7 @@
 
     .line 41
     :cond_2
-    invoke-virtual {p0}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 42
     .line 43
@@ -148,8 +144,7 @@
     move-result-object p0
 
     .line 45
-    invoke-static {p0, v1}, Ljava/lang/reflect/Array;
-    ->newInstance(Ljava/lang/Class;I)Ljava/lang/Object;
+    invoke-static {p0, v1}, Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class;I)Ljava/lang/Object;
 
     .line 46
     .line 47
@@ -223,8 +218,7 @@
 
     .line 18
     .line 19
-    invoke-static {v0, v2}, Ljava/util/Arrays;
-    ->copyOf([BI)[B
+    invoke-static {v0, v2}, Ljava/util/Arrays;->copyOf([BI)[B
 
     .line 20
     .line 21
@@ -257,8 +251,7 @@
     array-length v5, v4
 
     .line 33
-    invoke-static {v4, v1, v0, v2, v5}, Ljava/lang/System;
-    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {v4, v1, v0, v2, v5}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 34
     .line 35
@@ -364,8 +357,7 @@
     .line 2
     aget-object v3, p0, v2
 
-    invoke-static {v3, p1}, Lcom/google/android/gms/common/internal/Objects;
-    ->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v3, p1}, Lcom/google/android/gms/common/internal/Objects;->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v3
 
@@ -409,8 +401,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 4
     .line 5
@@ -469,8 +460,7 @@
 
     .line 11
     :cond_1
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 12
     .line 13
@@ -481,8 +471,7 @@
     array-length v3, p0
 
     .line 16
-    invoke-virtual {v2}, Ljava/lang/Class;
-    ->getComponentType()Ljava/lang/Class;
+    invoke-virtual {v2}, Ljava/lang/Class;->getComponentType()Ljava/lang/Class;
 
     .line 17
     .line 18
@@ -490,8 +479,7 @@
     move-result-object v2
 
     .line 20
-    invoke-static {v2, v3}, Ljava/lang/reflect/Array;
-    ->newInstance(Ljava/lang/Class;I)Ljava/lang/Object;
+    invoke-static {v2, v3}, Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class;I)Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -532,8 +520,7 @@
 
     .line 37
     .line 38
-    invoke-static {v7, v6}, Lcom/google/android/gms/common/internal/Objects;
-    ->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v7, v6}, Lcom/google/android/gms/common/internal/Objects;->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 39
     .line 40
@@ -577,8 +564,7 @@
 
     .line 56
     .line 57
-    invoke-static {p1, v5}, Lcom/google/android/gms/common/util/ArrayUtils;
-    ->contains([Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p1, v5}, Lcom/google/android/gms/common/util/ArrayUtils;->contains([Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 58
     .line 59
@@ -633,8 +619,7 @@
 
     .line 79
     :cond_8
-    invoke-static {v2, v5}, Ljava/util/Arrays;
-    ->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
+    invoke-static {v2, v5}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     .line 80
     .line 81
@@ -649,8 +634,7 @@
     array-length p1, p0
 
     .line 85
-    invoke-static {p0, p1}, Ljava/util/Arrays;
-    ->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
+    invoke-static {p0, p1}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     .line 86
     .line 87
@@ -690,8 +674,7 @@
 
     .line 3
     .line 4
-    invoke-direct {v1, v0}, Ljava/util/ArrayList;
-    -><init>(I)V
+    invoke-direct {v1, v0}, Ljava/util/ArrayList;-><init>(I)V
 
     .line 5
     .line 6
@@ -708,8 +691,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {v1, v3}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v3}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 13
     .line 14
@@ -754,8 +736,7 @@
 
     .line 3
     .line 4
-    invoke-interface {p0}, Ljava/util/Collection;
-    ->isEmpty()Z
+    invoke-interface {p0}, Ljava/util/Collection;->isEmpty()Z
 
     .line 5
     .line 6
@@ -771,8 +752,7 @@
 
     .line 11
     :cond_0
-    invoke-interface {p0}, Ljava/util/Collection;
-    ->size()I
+    invoke-interface {p0}, Ljava/util/Collection;->size()I
 
     .line 12
     .line 13
@@ -784,8 +764,7 @@
 
     .line 16
     .line 17
-    invoke-interface {p0}, Ljava/util/Collection;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     .line 18
     .line 19
@@ -794,8 +773,7 @@
 
     .line 21
     :goto_0
-    invoke-interface {p0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 22
     .line 23
@@ -807,8 +785,7 @@
 
     .line 26
     .line 27
-    invoke-interface {p0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -824,8 +801,7 @@
 
     .line 34
     .line 35
-    invoke-virtual {v2}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
 
     .line 36
     .line 37
@@ -898,8 +874,7 @@
 
     .line 12
     .line 13
-    invoke-static {v3}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 14
     .line 15
@@ -948,15 +923,13 @@
     const-string v2, ","
 
     .line 2
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 3
     :cond_0
     aget-wide v2, p1, v1
 
-    invoke-virtual {p0, v2, v3}, Ljava/lang/StringBuilder;
-    ->append(D)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v2, v3}, Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
 
     add-int/lit8 v1, v1, 0x1
 
@@ -992,15 +965,13 @@
     const-string v2, ","
 
     .line 5
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 6
     :cond_0
     aget v2, p1, v1
 
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;
-    ->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     add-int/lit8 v1, v1, 0x1
 
@@ -1036,15 +1007,13 @@
     const-string v2, ","
 
     .line 8
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 9
     :cond_0
     aget v2, p1, v1
 
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     add-int/lit8 v1, v1, 0x1
 
@@ -1080,15 +1049,13 @@
     const-string v2, ","
 
     .line 11
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 12
     :cond_0
     aget-wide v2, p1, v1
 
-    invoke-virtual {p0, v2, v3}, Ljava/lang/StringBuilder;
-    ->append(J)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v2, v3}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
     add-int/lit8 v1, v1, 0x1
 
@@ -1134,15 +1101,13 @@
     const-string v2, ","
 
     .line 14
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 15
     :cond_0
     aget-object v2, p1, v1
 
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     add-int/lit8 v1, v1, 0x1
 
@@ -1178,15 +1143,13 @@
     const-string v2, ","
 
     .line 17
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 18
     :cond_0
     aget-boolean v2, p1, v1
 
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;
-    ->append(Z)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
 
     add-int/lit8 v1, v1, 0x1
 
@@ -1229,8 +1192,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 10
     .line 11
@@ -1240,8 +1202,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 15
     .line 16
@@ -1250,14 +1211,12 @@
 
     .line 18
     .line 19
-    invoke-virtual {p0, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 23
     .line 24

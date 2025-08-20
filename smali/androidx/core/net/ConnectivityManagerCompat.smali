@@ -25,8 +25,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -62,8 +61,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1, v0}, Landroid/content/Intent;
-    ->getParcelableExtra(Ljava/lang/String;)Landroid/os/Parcelable;
+    invoke-virtual {p1, v0}, Landroid/content/Intent;->getParcelableExtra(Ljava/lang/String;)Landroid/os/Parcelable;
 
     .line 4
     .line 5
@@ -79,8 +77,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Landroid/net/NetworkInfo;
-    ->getType()I
+    invoke-virtual {p1}, Landroid/net/NetworkInfo;->getType()I
 
     .line 12
     .line 13
@@ -88,8 +85,7 @@
     move-result p1
 
     .line 15
-    invoke-virtual {p0, p1}, Landroid/net/ConnectivityManager;
-    ->getNetworkInfo(I)Landroid/net/NetworkInfo;
+    invoke-virtual {p0, p1}, Landroid/net/ConnectivityManager;->getNetworkInfo(I)Landroid/net/NetworkInfo;
 
     .line 16
     .line 17
@@ -113,8 +109,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -126,8 +121,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/net/ConnectivityManagerCompat$Api24Impl;
-    ->getRestrictBackgroundStatus(Landroid/net/ConnectivityManager;)I
+    invoke-static {p0}, Landroidx/core/net/ConnectivityManagerCompat$Api24Impl;->getRestrictBackgroundStatus(Landroid/net/ConnectivityManager;)I
 
     .line 8
     .line 9
@@ -154,8 +148,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/net/ConnectivityManager;
-    ->isActiveNetworkMetered()Z
+    invoke-virtual {p0}, Landroid/net/ConnectivityManager;->isActiveNetworkMetered()Z
 
     .line 2
     .line 3

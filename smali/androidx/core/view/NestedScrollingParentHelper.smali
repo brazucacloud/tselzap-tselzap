@@ -18,8 +18,7 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -33,13 +32,11 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/core/view/NestedScrollingParentHelper;
-    ->mNestedScrollAxesTouch:I
+    iget v0, p0, Landroidx/core/view/NestedScrollingParentHelper;->mNestedScrollAxesTouch:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/core/view/NestedScrollingParentHelper;
-    ->mNestedScrollAxesNonTouch:I
+    iget v1, p0, Landroidx/core/view/NestedScrollingParentHelper;->mNestedScrollAxesNonTouch:I
 
     .line 4
     .line 5
@@ -62,8 +59,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3, v0}, Landroidx/core/view/NestedScrollingParentHelper;
-    ->onNestedScrollAccepted(Landroid/view/View;Landroid/view/View;II)V
+    invoke-virtual {p0, p1, p2, p3, v0}, Landroidx/core/view/NestedScrollingParentHelper;->onNestedScrollAccepted(Landroid/view/View;Landroid/view/View;II)V
 
     return-void
 .end method
@@ -84,15 +80,13 @@
     if-ne p4, p1, :cond_0
 
     .line 2
-    iput p3, p0, Landroidx/core/view/NestedScrollingParentHelper;
-    ->mNestedScrollAxesNonTouch:I
+    iput p3, p0, Landroidx/core/view/NestedScrollingParentHelper;->mNestedScrollAxesNonTouch:I
 
     return-void
 
     .line 3
     :cond_0
-    iput p3, p0, Landroidx/core/view/NestedScrollingParentHelper;
-    ->mNestedScrollAxesTouch:I
+    iput p3, p0, Landroidx/core/view/NestedScrollingParentHelper;->mNestedScrollAxesTouch:I
 
     return-void
 .end method
@@ -107,8 +101,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-virtual {p0, p1, v0}, Landroidx/core/view/NestedScrollingParentHelper;
-    ->onStopNestedScroll(Landroid/view/View;I)V
+    invoke-virtual {p0, p1, v0}, Landroidx/core/view/NestedScrollingParentHelper;->onStopNestedScroll(Landroid/view/View;I)V
 
     return-void
 .end method
@@ -127,15 +120,13 @@
     if-ne p2, p1, :cond_0
 
     .line 2
-    iput v0, p0, Landroidx/core/view/NestedScrollingParentHelper;
-    ->mNestedScrollAxesNonTouch:I
+    iput v0, p0, Landroidx/core/view/NestedScrollingParentHelper;->mNestedScrollAxesNonTouch:I
 
     return-void
 
     .line 3
     :cond_0
-    iput v0, p0, Landroidx/core/view/NestedScrollingParentHelper;
-    ->mNestedScrollAxesTouch:I
+    iput v0, p0, Landroidx/core/view/NestedScrollingParentHelper;->mNestedScrollAxesTouch:I
 
     return-void
 .end method

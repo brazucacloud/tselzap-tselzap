@@ -19,8 +19,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -28,8 +27,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/core/DataMigrationInitializer$Companion;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/datastore/core/DataMigrationInitializer$Companion;-><init>()V
     return-void
 .end method
 
@@ -37,8 +35,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/core/DataMigrationInitializer$Companion;
-    ->runMigrations(Ljava/util/List;Landroidx/datastore/core/InitializerApi;Lg1/d;)Ljava/lang/Object;
+    invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/core/DataMigrationInitializer$Companion;->runMigrations(Ljava/util/List;Landroidx/datastore/core/InitializerApi;Lg1/d;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -85,8 +82,7 @@
 
     .line 7
     .line 8
-    iget v1, v0, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$1;
-    ->label:I
+    iget v1, v0, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$1;->label:I
 
     .line 9
     .line 10
@@ -105,8 +101,7 @@
     sub-int/2addr v1, v2
 
     .line 17
-    iput v1, v0, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$1;
-    ->label:I
+    iput v1, v0, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$1;->label:I
 
     .line 18
     .line 19
@@ -118,25 +113,21 @@
 
     .line 21
     .line 22
-    invoke-direct {v0, p0, p3}, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$1;
-    -><init>(Landroidx/datastore/core/DataMigrationInitializer$Companion;Lg1/d;)V
+    invoke-direct {v0, p0, p3}, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$1;-><init>(Landroidx/datastore/core/DataMigrationInitializer$Companion;Lg1/d;)V
 
     .line 23
     .line 24
     .line 25
     :goto_0
-    iget-object p3, v0, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$1;
-    ->result:Ljava/lang/Object;
+    iget-object p3, v0, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$1;->result:Ljava/lang/Object;
 
     .line 26
     .line 27
-    sget-object v1, Lh1/a;
-    ->b:Lh1/a;
+    sget-object v1, Lh1/a;->b:Lh1/a;
 
     .line 28
     .line 29
-    iget v2, v0, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$1;
-    ->label:I
+    iget v2, v0, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$1;->label:I
 
     .line 30
     .line 31
@@ -158,8 +149,7 @@
 
     .line 38
     .line 39
-    iget-object p1, v0, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$1;
-    ->L$1:Ljava/lang/Object;
+    iget-object p1, v0, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$1;->L$1:Ljava/lang/Object;
 
     .line 40
     .line 41
@@ -167,8 +157,7 @@
 
     .line 42
     .line 43
-    iget-object p2, v0, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$1;
-    ->L$0:Ljava/lang/Object;
+    iget-object p2, v0, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$1;->L$0:Ljava/lang/Object;
 
     .line 44
     .line 45
@@ -177,8 +166,7 @@
     .line 46
     .line 47
     :try_start_0
-    invoke-static {p3}, Lcom/bumptech/glide/b;
-    ->c0(Ljava/lang/Object;)V
+    invoke-static {p3}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -204,8 +192,7 @@
 
     .line 56
     .line 57
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 58
     .line 59
@@ -214,8 +201,7 @@
 
     .line 61
     :cond_2
-    iget-object p1, v0, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$1;
-    ->L$0:Ljava/lang/Object;
+    iget-object p1, v0, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$1;->L$0:Ljava/lang/Object;
 
     .line 62
     .line 63
@@ -223,8 +209,7 @@
 
     .line 64
     .line 65
-    invoke-static {p3}, Lcom/bumptech/glide/b;
-    ->c0(Ljava/lang/Object;)V
+    invoke-static {p3}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
 
     .line 66
     .line 67
@@ -233,8 +218,7 @@
 
     .line 69
     :cond_3
-    invoke-static {p3}, Lcom/bumptech/glide/b;
-    ->c0(Ljava/lang/Object;)V
+    invoke-static {p3}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
 
     .line 70
     .line 71
@@ -243,8 +227,7 @@
 
     .line 73
     .line 74
-    invoke-direct {p3}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {p3}, Ljava/util/ArrayList;-><init>()V
 
     .line 75
     .line 76
@@ -256,24 +239,20 @@
     const/4 v5, 0x0
 
     .line 80
-    invoke-direct {v2, p1, p3, v5}, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$2;
-    -><init>(Ljava/util/List;Ljava/util/List;Lg1/d;)V
+    invoke-direct {v2, p1, p3, v5}, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$2;-><init>(Ljava/util/List;Ljava/util/List;Lg1/d;)V
 
     .line 81
     .line 82
     .line 83
-    iput-object p3, v0, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$1;
-    ->L$0:Ljava/lang/Object;
+    iput-object p3, v0, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$1;->L$0:Ljava/lang/Object;
 
     .line 84
     .line 85
-    iput v4, v0, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$1;
-    ->label:I
+    iput v4, v0, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$1;->label:I
 
     .line 86
     .line 87
-    invoke-interface {p2, v2, v0}, Landroidx/datastore/core/InitializerApi;
-    ->updateData(Lp1/p;Lg1/d;)Ljava/lang/Object;
+    invoke-interface {p2, v2, v0}, Landroidx/datastore/core/InitializerApi;->updateData(Lp1/p;Lg1/d;)Ljava/lang/Object;
 
     .line 88
     .line 89
@@ -297,8 +276,7 @@
 
     .line 96
     .line 97
-    invoke-direct {p2}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p2}, Ljava/lang/Object;-><init>()V
 
     .line 98
     .line 99
@@ -307,8 +285,7 @@
 
     .line 101
     .line 102
-    invoke-interface {p1}, Ljava/lang/Iterable;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     .line 103
     .line 104
@@ -318,8 +295,7 @@
     .line 106
     :cond_5
     :goto_2
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
     .line 107
     .line 108
@@ -331,8 +307,7 @@
 
     .line 111
     .line 112
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 113
     .line 114
@@ -345,23 +320,19 @@
     .line 117
     .line 118
     :try_start_1
-    iput-object p2, v0, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$1;
-    ->L$0:Ljava/lang/Object;
+    iput-object p2, v0, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$1;->L$0:Ljava/lang/Object;
 
     .line 119
     .line 120
-    iput-object p1, v0, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$1;
-    ->L$1:Ljava/lang/Object;
+    iput-object p1, v0, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$1;->L$1:Ljava/lang/Object;
 
     .line 121
     .line 122
-    iput v3, v0, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$1;
-    ->label:I
+    iput v3, v0, Landroidx/datastore/core/DataMigrationInitializer$Companion$runMigrations$1;->label:I
 
     .line 123
     .line 124
-    invoke-interface {p3, v0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, v0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 125
     .line 126
@@ -380,8 +351,7 @@
 
     .line 131
     :goto_4
-    iget-object v2, p2, Lkotlin/jvm/internal/s;
-    ->b:Ljava/lang/Object;
+    iget-object v2, p2, Lkotlin/jvm/internal/s;->b:Ljava/lang/Object;
 
     .line 132
     .line 133
@@ -389,8 +359,7 @@
 
     .line 134
     .line 135
-    iput-object p3, p2, Lkotlin/jvm/internal/s;
-    ->b:Ljava/lang/Object;
+    iput-object p3, p2, Lkotlin/jvm/internal/s;->b:Ljava/lang/Object;
 
     .line 136
     .line 137
@@ -398,14 +367,12 @@
 
     .line 138
     :cond_6
-    invoke-static {v2}, Lkotlin/jvm/internal/j;
-    ->c(Ljava/lang/Object;)V
+    invoke-static {v2}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 139
     .line 140
     .line 141
-    iget-object v2, p2, Lkotlin/jvm/internal/s;
-    ->b:Ljava/lang/Object;
+    iget-object v2, p2, Lkotlin/jvm/internal/s;->b:Ljava/lang/Object;
 
     .line 142
     .line 143
@@ -413,8 +380,7 @@
 
     .line 144
     .line 145
-    invoke-static {v2, p3}, Lcom/bumptech/glide/b;
-    ->b(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
+    invoke-static {v2, p3}, Lcom/bumptech/glide/b;->b(Ljava/lang/Throwable;Ljava/lang/Throwable;)V
 
     .line 146
     .line 147
@@ -423,8 +389,7 @@
 
     .line 149
     :cond_7
-    iget-object p1, p2, Lkotlin/jvm/internal/s;
-    ->b:Ljava/lang/Object;
+    iget-object p1, p2, Lkotlin/jvm/internal/s;->b:Ljava/lang/Object;
 
     .line 150
     .line 151
@@ -436,8 +401,7 @@
 
     .line 154
     .line 155
-    sget-object p1, Lc1/v;
-    ->a:Lc1/v;
+    sget-object p1, Lc1/v;->a:Lc1/v;
 
     .line 156
     .line 157
@@ -1215,8 +1179,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1228,8 +1191,7 @@
     const/4 v1, 0x0
 
     .line 9
-    invoke-direct {v0, p1, v1}, Landroidx/datastore/core/DataMigrationInitializer$Companion$getInitializer$1;
-    -><init>(Ljava/util/List;Lg1/d;)V
+    invoke-direct {v0, p1, v1}, Landroidx/datastore/core/DataMigrationInitializer$Companion$getInitializer$1;-><init>(Ljava/util/List;Lg1/d;)V
 
     .line 10
     .line 11

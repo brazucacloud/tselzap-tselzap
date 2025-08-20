@@ -19,19 +19,16 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Ln/b;
-    ->a:Ljava/lang/String;
+    iput-object p1, p0, Ln/b;->a:Ljava/lang/String;
 
     .line 5
     .line 6
-    iput-boolean p2, p0, Ln/b;
-    ->b:Z
+    iput-boolean p2, p0, Ln/b;->b:Z
 
     .line 7
     .line 8
@@ -60,19 +57,16 @@
 
     .line 7
     .line 8
-    invoke-direct {v2, v0}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    iget-object v0, p0, Ln/b;
-    ->a:Ljava/lang/String;
+    iget-object v0, p0, Ln/b;->a:Ljava/lang/String;
 
     .line 12
     .line 13
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 14
     .line 15
@@ -81,25 +75,21 @@
 
     .line 17
     .line 18
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 19
     .line 20
     .line 21
-    iget v0, p0, Ln/b;
-    ->c:I
+    iget v0, p0, Ln/b;->c:I
 
     .line 22
     .line 23
-    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 27
     .line 28
@@ -107,14 +97,12 @@
     move-result-object v0
 
     .line 30
-    invoke-direct {v1, p0, p1, v0}, Ln/a;
-    -><init>(Ln/b;Ljava/lang/Runnable;Ljava/lang/String;)V
+    invoke-direct {v1, p0, p1, v0}, Ln/a;-><init>(Ln/b;Ljava/lang/Runnable;Ljava/lang/String;)V
 
     .line 31
     .line 32
     .line 33
-    iget p1, p0, Ln/b;
-    ->c:I
+    iget p1, p0, Ln/b;->c:I
 
     .line 34
     .line 35
@@ -122,8 +110,7 @@
 
     .line 36
     .line 37
-    iput p1, p0, Ln/b;
-    ->c:I
+    iput p1, p0, Ln/b;->c:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

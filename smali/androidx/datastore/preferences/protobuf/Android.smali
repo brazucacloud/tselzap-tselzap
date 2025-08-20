@@ -25,8 +25,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Android;
-    ->getClassForName(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Android;->getClassForName(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 4
     .line 5
@@ -34,8 +33,7 @@
     move-result-object v0
 
     .line 7
-    sput-object v0, Landroidx/datastore/preferences/protobuf/Android;
-    ->MEMORY_CLASS:Ljava/lang/Class;
+    sput-object v0, Landroidx/datastore/preferences/protobuf/Android;->MEMORY_CLASS:Ljava/lang/Class;
 
     .line 8
     .line 9
@@ -43,8 +41,7 @@
 
     .line 10
     .line 11
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Android;
-    ->getClassForName(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Android;->getClassForName(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 12
     .line 13
@@ -67,16 +64,14 @@
 
     .line 20
     :goto_0
-    sput-boolean v0, Landroidx/datastore/preferences/protobuf/Android;
-    ->IS_ROBOLECTRIC:Z    return-void
+    sput-boolean v0, Landroidx/datastore/preferences/protobuf/Android;->IS_ROBOLECTRIC:Z    return-void
 .end method
 
 .method public constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -96,8 +91,7 @@
 
     .line 1
     :try_start_0
-    invoke-static {p0}, Ljava/lang/Class;
-    ->forName(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {p0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 2
     .line 3
@@ -126,16 +120,14 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Android;
-    ->MEMORY_CLASS:Ljava/lang/Class;    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Android;->MEMORY_CLASS:Ljava/lang/Class;    return-object v0
 .end method
 
 .method public static isOnAndroidDevice()Z
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/Android;
-    ->MEMORY_CLASS:Ljava/lang/Class;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/Android;->MEMORY_CLASS:Ljava/lang/Class;
 
     .line 2
     .line 3
@@ -143,8 +135,7 @@
 
     .line 4
     .line 5
-    sget-boolean v0, Landroidx/datastore/preferences/protobuf/Android;
-    ->IS_ROBOLECTRIC:Z
+    sget-boolean v0, Landroidx/datastore/preferences/protobuf/Android;->IS_ROBOLECTRIC:Z
 
     .line 6
     .line 7

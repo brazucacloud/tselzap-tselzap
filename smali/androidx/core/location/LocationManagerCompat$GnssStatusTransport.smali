@@ -27,8 +27,7 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Landroid/location/GnssStatus$Callback;
-    -><init>()V
+    invoke-direct {p0}, Landroid/location/GnssStatus$Callback;-><init>()V
 
     .line 2
     .line 3
@@ -52,14 +51,12 @@
 
     .line 10
     .line 11
-    invoke-static {v0, v1}, Landroidx/core/util/Preconditions;
-    ->checkArgument(ZLjava/lang/Object;)V
+    invoke-static {v0, v1}, Landroidx/core/util/Preconditions;->checkArgument(ZLjava/lang/Object;)V
 
     .line 12
     .line 13
     .line 14
-    iput-object p1, p0, Landroidx/core/location/LocationManagerCompat$GnssStatusTransport;
-    ->mCallback:Landroidx/core/location/GnssStatusCompat$Callback;
+    iput-object p1, p0, Landroidx/core/location/LocationManagerCompat$GnssStatusTransport;->mCallback:Landroidx/core/location/GnssStatusCompat$Callback;
 
     .line 15
     .line 16
@@ -72,13 +69,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$GnssStatusTransport;
-    ->mCallback:Landroidx/core/location/GnssStatusCompat$Callback;
+    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$GnssStatusTransport;->mCallback:Landroidx/core/location/GnssStatusCompat$Callback;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/core/location/GnssStatusCompat$Callback;
-    ->onFirstFix(I)V
+    invoke-virtual {v0, p1}, Landroidx/core/location/GnssStatusCompat$Callback;->onFirstFix(I)V
 
     .line 4
     .line 5
@@ -90,13 +85,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$GnssStatusTransport;
-    ->mCallback:Landroidx/core/location/GnssStatusCompat$Callback;
+    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$GnssStatusTransport;->mCallback:Landroidx/core/location/GnssStatusCompat$Callback;
 
     .line 2
     .line 3
-    invoke-static {p1}, Landroidx/core/location/GnssStatusCompat;
-    ->wrap(Landroid/location/GnssStatus;)Landroidx/core/location/GnssStatusCompat;
+    invoke-static {p1}, Landroidx/core/location/GnssStatusCompat;->wrap(Landroid/location/GnssStatus;)Landroidx/core/location/GnssStatusCompat;
 
     .line 4
     .line 5
@@ -104,8 +97,7 @@
     move-result-object p1
 
     .line 7
-    invoke-virtual {v0, p1}, Landroidx/core/location/GnssStatusCompat$Callback;
-    ->onSatelliteStatusChanged(Landroidx/core/location/GnssStatusCompat;)V
+    invoke-virtual {v0, p1}, Landroidx/core/location/GnssStatusCompat$Callback;->onSatelliteStatusChanged(Landroidx/core/location/GnssStatusCompat;)V
 
     .line 8
     .line 9
@@ -117,13 +109,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$GnssStatusTransport;
-    ->mCallback:Landroidx/core/location/GnssStatusCompat$Callback;
+    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$GnssStatusTransport;->mCallback:Landroidx/core/location/GnssStatusCompat$Callback;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/core/location/GnssStatusCompat$Callback;
-    ->onStarted()V
+    invoke-virtual {v0}, Landroidx/core/location/GnssStatusCompat$Callback;->onStarted()V
 
     .line 4
     .line 5
@@ -135,13 +125,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$GnssStatusTransport;
-    ->mCallback:Landroidx/core/location/GnssStatusCompat$Callback;
+    iget-object v0, p0, Landroidx/core/location/LocationManagerCompat$GnssStatusTransport;->mCallback:Landroidx/core/location/GnssStatusCompat$Callback;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/core/location/GnssStatusCompat$Callback;
-    ->onStopped()V
+    invoke-virtual {v0}, Landroidx/core/location/GnssStatusCompat$Callback;->onStopped()V
 
     .line 4
     .line 5

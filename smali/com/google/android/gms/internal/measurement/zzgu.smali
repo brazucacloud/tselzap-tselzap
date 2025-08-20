@@ -12,8 +12,7 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzgw;
-    ->zza()Lcom/google/android/gms/internal/measurement/zzgv;
+    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzgw;->zza()Lcom/google/android/gms/internal/measurement/zzgv;
 
     .line 2
     .line 3
@@ -21,8 +20,7 @@
     move-result-object v0
 
     .line 5
-    sput-object v0, Lcom/google/android/gms/internal/measurement/zzgu;
-    ->zza:Lcom/google/android/gms/internal/measurement/zzgv;
+    sput-object v0, Lcom/google/android/gms/internal/measurement/zzgu;->zza:Lcom/google/android/gms/internal/measurement/zzgv;
 
     .line 6
     .line 7
@@ -33,16 +31,14 @@
     .locals 1
 
     .line 1
-    sget-object p2, Lcom/google/android/gms/internal/measurement/zzgu;
-    ->zza:Lcom/google/android/gms/internal/measurement/zzgv;
+    sget-object p2, Lcom/google/android/gms/internal/measurement/zzgu;->zza:Lcom/google/android/gms/internal/measurement/zzgv;
 
     .line 2
     .line 3
     const/4 v0, 0x0
 
     .line 4
-    invoke-interface {p2, p0, p1, v0}, Lcom/google/android/gms/internal/measurement/zzgv;
-    ->zza(Landroid/content/ContentResolver;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p2, p0, p1, v0}, Lcom/google/android/gms/internal/measurement/zzgv;->zza(Landroid/content/ContentResolver;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 5
     .line 6

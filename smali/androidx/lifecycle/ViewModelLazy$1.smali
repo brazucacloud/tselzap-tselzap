@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/lifecycle/ViewModelLazy;
-    -><init>(Lv1/c;Lp1/a;Lp1/a;Lp1/a;ILkotlin/jvm/internal/e;)V
+    value = Landroidx/lifecycle/ViewModelLazy;-><init>(Lv1/c;Lp1/a;Lp1/a;Lp1/a;ILkotlin/jvm/internal/e;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,11 +34,9 @@
 
     new-instance v0, Landroidx/lifecycle/ViewModelLazy$1;
 
-    invoke-direct {v0}, Landroidx/lifecycle/ViewModelLazy$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/lifecycle/ViewModelLazy$1;-><init>()V
 
-    sput-object v0, Landroidx/lifecycle/ViewModelLazy$1;
-    ->INSTANCE:Landroidx/lifecycle/ViewModelLazy$1;
+    sput-object v0, Landroidx/lifecycle/ViewModelLazy$1;->INSTANCE:Landroidx/lifecycle/ViewModelLazy$1;
 
     return-void
 .end method
@@ -49,8 +46,7 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;
-    -><init>(I)V
+    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;-><init>(I)V
 return-void
 .end method
 
@@ -60,8 +56,7 @@ return-void
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/lifecycle/viewmodel/CreationExtras$Empty;
-    ->INSTANCE:Landroidx/lifecycle/viewmodel/CreationExtras$Empty;
+    sget-object v0, Landroidx/lifecycle/viewmodel/CreationExtras$Empty;->INSTANCE:Landroidx/lifecycle/viewmodel/CreationExtras$Empty;
 
     return-object v0
 .end method
@@ -70,8 +65,7 @@ return-void
     .locals 1
 
     .line 2
-    invoke-virtual {p0}, Landroidx/lifecycle/ViewModelLazy$1;
-    ->invoke()Landroidx/lifecycle/viewmodel/CreationExtras$Empty;
+    invoke-virtual {p0}, Landroidx/lifecycle/ViewModelLazy$1;->invoke()Landroidx/lifecycle/viewmodel/CreationExtras$Empty;
 
     move-result-object v0
 

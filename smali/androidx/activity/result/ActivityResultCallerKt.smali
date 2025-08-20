@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p1, p0}, Landroidx/activity/result/ActivityResultCallerKt;
-    ->registerForActivityResult$lambda$0(Lp1/l;Ljava/lang/Object;)V
+    invoke-static {p1, p0}, Landroidx/activity/result/ActivityResultCallerKt;->registerForActivityResult$lambda$0(Lp1/l;Ljava/lang/Object;)V
 return-void
 .end method
 
@@ -17,8 +16,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p1, p0}, Landroidx/activity/result/ActivityResultCallerKt;
-    ->registerForActivityResult$lambda$1(Lp1/l;Ljava/lang/Object;)V
+    invoke-static {p1, p0}, Landroidx/activity/result/ActivityResultCallerKt;->registerForActivityResult$lambda$1(Lp1/l;Ljava/lang/Object;)V
 return-void
 .end method
 
@@ -48,19 +46,16 @@ return-void
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1, p4}, Landroidx/activity/result/a;
-    -><init>(ILp1/l;)V
+    invoke-direct {v0, v1, p4}, Landroidx/activity/result/a;-><init>(ILp1/l;)V
 
-    invoke-interface {p0, p1, p3, v0}, Landroidx/activity/result/ActivityResultCaller;
-    ->registerForActivityResult(Landroidx/activity/result/contract/ActivityResultContract;Landroidx/activity/result/ActivityResultRegistry;Landroidx/activity/result/ActivityResultCallback;)Landroidx/activity/result/ActivityResultLauncher;
+    invoke-interface {p0, p1, p3, v0}, Landroidx/activity/result/ActivityResultCaller;->registerForActivityResult(Landroidx/activity/result/contract/ActivityResultContract;Landroidx/activity/result/ActivityResultRegistry;Landroidx/activity/result/ActivityResultCallback;)Landroidx/activity/result/ActivityResultLauncher;
 
     move-result-object p0
 
     .line 2
     new-instance p3, Landroidx/activity/result/ActivityResultCallerLauncher;
 
-    invoke-direct {p3, p0, p1, p2}, Landroidx/activity/result/ActivityResultCallerLauncher;
-    -><init>(Landroidx/activity/result/ActivityResultLauncher;Landroidx/activity/result/contract/ActivityResultContract;Ljava/lang/Object;)V
+    invoke-direct {p3, p0, p1, p2}, Landroidx/activity/result/ActivityResultCallerLauncher;-><init>(Landroidx/activity/result/ActivityResultLauncher;Landroidx/activity/result/contract/ActivityResultContract;Ljava/lang/Object;)V
 return-object p3
 .end method
 
@@ -89,19 +84,16 @@ return-object p3
 
     const/4 v1, 0x1
 
-    invoke-direct {v0, v1, p3}, Landroidx/activity/result/a;
-    -><init>(ILp1/l;)V
+    invoke-direct {v0, v1, p3}, Landroidx/activity/result/a;-><init>(ILp1/l;)V
 
-    invoke-interface {p0, p1, v0}, Landroidx/activity/result/ActivityResultCaller;
-    ->registerForActivityResult(Landroidx/activity/result/contract/ActivityResultContract;Landroidx/activity/result/ActivityResultCallback;)Landroidx/activity/result/ActivityResultLauncher;
+    invoke-interface {p0, p1, v0}, Landroidx/activity/result/ActivityResultCaller;->registerForActivityResult(Landroidx/activity/result/contract/ActivityResultContract;Landroidx/activity/result/ActivityResultCallback;)Landroidx/activity/result/ActivityResultLauncher;
 
     move-result-object p0
 
     .line 4
     new-instance p3, Landroidx/activity/result/ActivityResultCallerLauncher;
 
-    invoke-direct {p3, p0, p1, p2}, Landroidx/activity/result/ActivityResultCallerLauncher;
-    -><init>(Landroidx/activity/result/ActivityResultLauncher;Landroidx/activity/result/contract/ActivityResultContract;Ljava/lang/Object;)V
+    invoke-direct {p3, p0, p1, p2}, Landroidx/activity/result/ActivityResultCallerLauncher;-><init>(Landroidx/activity/result/ActivityResultLauncher;Landroidx/activity/result/contract/ActivityResultContract;Ljava/lang/Object;)V
 return-object p3
 .end method
 
@@ -109,8 +101,7 @@ return-object p3
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;    
+    invoke-interface {p0, p1}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     return-void
 .end method
 
@@ -118,8 +109,7 @@ return-object p3
     .locals 0
 
     .line 1
-    invoke-interface {p0, p1}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;    
+    invoke-interface {p0, p1}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
     return-void
 .end method
 

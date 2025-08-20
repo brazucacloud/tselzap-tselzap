@@ -10,8 +10,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -21,8 +20,7 @@
     .locals 1
 
     .line 1
-    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzjf;
-    ->zza()B
+    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzjf;->zza()B
 
     .line 2
     .line 3
@@ -30,8 +28,7 @@
     move-result v0
 
     .line 5
-    invoke-static {v0}, Ljava/lang/Byte;
-    ->valueOf(B)Ljava/lang/Byte;
+    invoke-static {v0}, Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
 
     .line 6
     .line 7
@@ -49,8 +46,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     .line 4
     .line 5

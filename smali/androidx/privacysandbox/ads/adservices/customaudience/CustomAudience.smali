@@ -62,68 +62,53 @@
 
     const-string v0, "buyer"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "name"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "dailyUpdateUri"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "biddingLogicUri"
 
-    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "ads"
 
-    invoke-static {p5, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p5, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
-    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->buyer:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
+    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->buyer:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
 
     .line 3
-    iput-object p2, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->name:Ljava/lang/String;
+    iput-object p2, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->name:Ljava/lang/String;
 
     .line 4
-    iput-object p3, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->dailyUpdateUri:Landroid/net/Uri;
+    iput-object p3, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->dailyUpdateUri:Landroid/net/Uri;
 
     .line 5
-    iput-object p4, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->biddingLogicUri:Landroid/net/Uri;
+    iput-object p4, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->biddingLogicUri:Landroid/net/Uri;
 
     .line 6
-    iput-object p5, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->ads:Ljava/util/List;
+    iput-object p5, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->ads:Ljava/util/List;
 
     .line 7
-    iput-object p6, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->activationTime:Ljava/time/Instant;
+    iput-object p6, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->activationTime:Ljava/time/Instant;
 
     .line 8
-    iput-object p7, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->expirationTime:Ljava/time/Instant;
+    iput-object p7, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->expirationTime:Ljava/time/Instant;
 
     .line 9
-    iput-object p8, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->userBiddingSignals:Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;
+    iput-object p8, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->userBiddingSignals:Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;
 
     .line 10
-    iput-object p9, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->trustedBiddingSignals:Landroidx/privacysandbox/ads/adservices/customaudience/TrustedBiddingData;
+    iput-object p9, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->trustedBiddingSignals:Landroidx/privacysandbox/ads/adservices/customaudience/TrustedBiddingData;
 
     return-void
 .end method
@@ -188,8 +173,7 @@
 
     .line 11
     :goto_1
-    invoke-direct/range {p1 .. p10}, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    -><init>(Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;Ljava/lang/String;Landroid/net/Uri;Landroid/net/Uri;Ljava/util/List;Ljava/time/Instant;Ljava/time/Instant;Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;Landroidx/privacysandbox/ads/adservices/customaudience/TrustedBiddingData;)V
+    invoke-direct/range {p1 .. p10}, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;-><init>(Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;Ljava/lang/String;Landroid/net/Uri;Landroid/net/Uri;Ljava/util/List;Ljava/time/Instant;Ljava/time/Instant;Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;Landroidx/privacysandbox/ads/adservices/customaudience/TrustedBiddingData;)V
 return-void
 .end method
 
@@ -217,8 +201,7 @@ return-void
 
     .line 11
     :cond_1
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->buyer:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->buyer:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
 
     .line 12
     .line 13
@@ -226,13 +209,11 @@ return-void
 
     .line 14
     .line 15
-    iget-object v3, p1, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->buyer:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
+    iget-object v3, p1, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->buyer:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
 
     .line 16
     .line 17
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 18
     .line 19
@@ -244,18 +225,15 @@ return-void
 
     .line 22
     .line 23
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->name:Ljava/lang/String;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->name:Ljava/lang/String;
 
     .line 24
     .line 25
-    iget-object v3, p1, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->name:Ljava/lang/String;
+    iget-object v3, p1, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->name:Ljava/lang/String;
 
     .line 26
     .line 27
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 28
     .line 29
@@ -267,18 +245,15 @@ return-void
 
     .line 32
     .line 33
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->activationTime:Ljava/time/Instant;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->activationTime:Ljava/time/Instant;
 
     .line 34
     .line 35
-    iget-object v3, p1, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->activationTime:Ljava/time/Instant;
+    iget-object v3, p1, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->activationTime:Ljava/time/Instant;
 
     .line 36
     .line 37
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 38
     .line 39
@@ -290,18 +265,15 @@ return-void
 
     .line 42
     .line 43
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->expirationTime:Ljava/time/Instant;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->expirationTime:Ljava/time/Instant;
 
     .line 44
     .line 45
-    iget-object v3, p1, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->expirationTime:Ljava/time/Instant;
+    iget-object v3, p1, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->expirationTime:Ljava/time/Instant;
 
     .line 46
     .line 47
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 48
     .line 49
@@ -313,18 +285,15 @@ return-void
 
     .line 52
     .line 53
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->dailyUpdateUri:Landroid/net/Uri;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->dailyUpdateUri:Landroid/net/Uri;
 
     .line 54
     .line 55
-    iget-object v3, p1, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->dailyUpdateUri:Landroid/net/Uri;
+    iget-object v3, p1, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->dailyUpdateUri:Landroid/net/Uri;
 
     .line 56
     .line 57
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 58
     .line 59
@@ -336,18 +305,15 @@ return-void
 
     .line 62
     .line 63
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->userBiddingSignals:Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->userBiddingSignals:Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;
 
     .line 64
     .line 65
-    iget-object v3, p1, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->userBiddingSignals:Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;
+    iget-object v3, p1, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->userBiddingSignals:Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;
 
     .line 66
     .line 67
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 68
     .line 69
@@ -359,18 +325,15 @@ return-void
 
     .line 72
     .line 73
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->trustedBiddingSignals:Landroidx/privacysandbox/ads/adservices/customaudience/TrustedBiddingData;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->trustedBiddingSignals:Landroidx/privacysandbox/ads/adservices/customaudience/TrustedBiddingData;
 
     .line 74
     .line 75
-    iget-object v3, p1, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->trustedBiddingSignals:Landroidx/privacysandbox/ads/adservices/customaudience/TrustedBiddingData;
+    iget-object v3, p1, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->trustedBiddingSignals:Landroidx/privacysandbox/ads/adservices/customaudience/TrustedBiddingData;
 
     .line 76
     .line 77
-    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 78
     .line 79
@@ -382,18 +345,15 @@ return-void
 
     .line 82
     .line 83
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->ads:Ljava/util/List;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->ads:Ljava/util/List;
 
     .line 84
     .line 85
-    iget-object p1, p1, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->ads:Ljava/util/List;
+    iget-object p1, p1, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->ads:Ljava/util/List;
 
     .line 86
     .line 87
-    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 88
     .line 89
@@ -412,8 +372,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->activationTime:Ljava/time/Instant;    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->activationTime:Ljava/time/Instant;    return-object v0
 .end method
 
 .method public final getAds()Ljava/util/List;
@@ -428,77 +387,67 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->ads:Ljava/util/List;    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->ads:Ljava/util/List;    return-object v0
 .end method
 
 .method public final getBiddingLogicUri()Landroid/net/Uri;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->biddingLogicUri:Landroid/net/Uri;    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->biddingLogicUri:Landroid/net/Uri;    return-object v0
 .end method
 
 .method public final getBuyer()Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->buyer:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->buyer:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;    return-object v0
 .end method
 
 .method public final getDailyUpdateUri()Landroid/net/Uri;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->dailyUpdateUri:Landroid/net/Uri;    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->dailyUpdateUri:Landroid/net/Uri;    return-object v0
 .end method
 
 .method public final getExpirationTime()Ljava/time/Instant;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->expirationTime:Ljava/time/Instant;    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->expirationTime:Ljava/time/Instant;    return-object v0
 .end method
 
 .method public final getName()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->name:Ljava/lang/String;    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->name:Ljava/lang/String;    return-object v0
 .end method
 
 .method public final getTrustedBiddingSignals()Landroidx/privacysandbox/ads/adservices/customaudience/TrustedBiddingData;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->trustedBiddingSignals:Landroidx/privacysandbox/ads/adservices/customaudience/TrustedBiddingData;    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->trustedBiddingSignals:Landroidx/privacysandbox/ads/adservices/customaudience/TrustedBiddingData;    return-object v0
 .end method
 
 .method public final getUserBiddingSignals()Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->userBiddingSignals:Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;    return-object v0
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->userBiddingSignals:Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;    return-object v0
 .end method
 
 .method public hashCode()I
     .locals 4
 
     .line 1
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->buyer:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->buyer:Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;
-    ->hashCode()I
+    invoke-virtual {v0}, Landroidx/privacysandbox/ads/adservices/common/AdTechIdentifier;->hashCode()I
 
     .line 4
     .line 5
@@ -514,13 +463,11 @@ return-void
 
     .line 10
     .line 11
-    iget-object v2, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->name:Ljava/lang/String;
+    iget-object v2, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->name:Ljava/lang/String;
 
     .line 12
     .line 13
-    invoke-static {v0, v1, v2}, Landroidx/constraintlayout/core/parser/a;
-    ->b(IILjava/lang/String;)I
+    invoke-static {v0, v1, v2}, Landroidx/constraintlayout/core/parser/a;->b(IILjava/lang/String;)I
 
     .line 14
     .line 15
@@ -528,8 +475,7 @@ return-void
     move-result v0
 
     .line 17
-    iget-object v2, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->activationTime:Ljava/time/Instant;
+    iget-object v2, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->activationTime:Ljava/time/Instant;
 
     .line 18
     .line 19
@@ -540,8 +486,7 @@ return-void
 
     .line 21
     .line 22
-    invoke-virtual {v2}, Ljava/lang/Object;
-    ->hashCode()I
+    invoke-virtual {v2}, Ljava/lang/Object;->hashCode()I
 
     .line 23
     .line 24
@@ -564,8 +509,7 @@ return-void
 
     .line 30
     .line 31
-    iget-object v2, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->expirationTime:Ljava/time/Instant;
+    iget-object v2, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->expirationTime:Ljava/time/Instant;
 
     .line 32
     .line 33
@@ -573,8 +517,7 @@ return-void
 
     .line 34
     .line 35
-    invoke-virtual {v2}, Ljava/lang/Object;
-    ->hashCode()I
+    invoke-virtual {v2}, Ljava/lang/Object;->hashCode()I
 
     .line 36
     .line 37
@@ -597,13 +540,11 @@ return-void
 
     .line 43
     .line 44
-    iget-object v2, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->dailyUpdateUri:Landroid/net/Uri;
+    iget-object v2, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->dailyUpdateUri:Landroid/net/Uri;
 
     .line 45
     .line 46
-    invoke-virtual {v2}, Landroid/net/Uri;
-    ->hashCode()I
+    invoke-virtual {v2}, Landroid/net/Uri;->hashCode()I
 
     .line 47
     .line 48
@@ -618,8 +559,7 @@ return-void
 
     .line 52
     .line 53
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->userBiddingSignals:Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->userBiddingSignals:Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;
 
     .line 54
     .line 55
@@ -627,8 +567,7 @@ return-void
 
     .line 56
     .line 57
-    invoke-virtual {v0}, Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;
-    ->hashCode()I
+    invoke-virtual {v0}, Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;->hashCode()I
 
     .line 58
     .line 59
@@ -651,8 +590,7 @@ return-void
 
     .line 65
     .line 66
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->trustedBiddingSignals:Landroidx/privacysandbox/ads/adservices/customaudience/TrustedBiddingData;
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->trustedBiddingSignals:Landroidx/privacysandbox/ads/adservices/customaudience/TrustedBiddingData;
 
     .line 67
     .line 68
@@ -660,8 +598,7 @@ return-void
 
     .line 69
     .line 70
-    invoke-virtual {v0}, Landroidx/privacysandbox/ads/adservices/customaudience/TrustedBiddingData;
-    ->hashCode()I
+    invoke-virtual {v0}, Landroidx/privacysandbox/ads/adservices/customaudience/TrustedBiddingData;->hashCode()I
 
     .line 71
     .line 72
@@ -677,13 +614,11 @@ return-void
 
     .line 76
     .line 77
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->biddingLogicUri:Landroid/net/Uri;
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->biddingLogicUri:Landroid/net/Uri;
 
     .line 78
     .line 79
-    invoke-virtual {v0}, Landroid/net/Uri;
-    ->hashCode()I
+    invoke-virtual {v0}, Landroid/net/Uri;->hashCode()I
 
     .line 80
     .line 81
@@ -698,13 +633,11 @@ return-void
 
     .line 85
     .line 86
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->ads:Ljava/util/List;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->ads:Ljava/util/List;
 
     .line 87
     .line 88
-    invoke-virtual {v1}, Ljava/lang/Object;
-    ->hashCode()I
+    invoke-virtual {v1}, Ljava/lang/Object;->hashCode()I
 
     .line 89
     .line 90
@@ -729,19 +662,16 @@ return-void
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->biddingLogicUri:Landroid/net/Uri;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->biddingLogicUri:Landroid/net/Uri;
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 11
     .line 12
@@ -750,19 +680,16 @@ return-void
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 16
     .line 17
     .line 18
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->name:Ljava/lang/String;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->name:Ljava/lang/String;
 
     .line 19
     .line 20
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 21
     .line 22
@@ -771,19 +698,16 @@ return-void
 
     .line 24
     .line 25
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 26
     .line 27
     .line 28
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->activationTime:Ljava/time/Instant;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->activationTime:Ljava/time/Instant;
 
     .line 29
     .line 30
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 31
     .line 32
@@ -792,19 +716,16 @@ return-void
 
     .line 34
     .line 35
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 36
     .line 37
     .line 38
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->expirationTime:Ljava/time/Instant;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->expirationTime:Ljava/time/Instant;
 
     .line 39
     .line 40
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 41
     .line 42
@@ -813,19 +734,16 @@ return-void
 
     .line 44
     .line 45
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 46
     .line 47
     .line 48
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->dailyUpdateUri:Landroid/net/Uri;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->dailyUpdateUri:Landroid/net/Uri;
 
     .line 49
     .line 50
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 51
     .line 52
@@ -834,19 +752,16 @@ return-void
 
     .line 54
     .line 55
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 56
     .line 57
     .line 58
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->userBiddingSignals:Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->userBiddingSignals:Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;
 
     .line 59
     .line 60
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 61
     .line 62
@@ -855,19 +770,16 @@ return-void
 
     .line 64
     .line 65
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 66
     .line 67
     .line 68
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->trustedBiddingSignals:Landroidx/privacysandbox/ads/adservices/customaudience/TrustedBiddingData;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->trustedBiddingSignals:Landroidx/privacysandbox/ads/adservices/customaudience/TrustedBiddingData;
 
     .line 69
     .line 70
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 71
     .line 72
@@ -876,19 +788,16 @@ return-void
 
     .line 74
     .line 75
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 76
     .line 77
     .line 78
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->biddingLogicUri:Landroid/net/Uri;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->biddingLogicUri:Landroid/net/Uri;
 
     .line 79
     .line 80
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 81
     .line 82
@@ -897,25 +806,21 @@ return-void
 
     .line 84
     .line 85
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 86
     .line 87
     .line 88
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;
-    ->ads:Ljava/util/List;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience;->ads:Ljava/util/List;
 
     .line 89
     .line 90
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 91
     .line 92
     .line 93
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 94
     .line 95

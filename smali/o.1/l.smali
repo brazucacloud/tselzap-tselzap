@@ -12,14 +12,12 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 4
     .line 5
     .line 6
-    sget-object p2, Lo/m;
-    ->b:Ljava/util/ArrayDeque;
+    sget-object p2, Lo/m;->b:Ljava/util/ArrayDeque;
 
     .line 7
     .line 8
@@ -27,8 +25,7 @@
 
     .line 9
     :try_start_0
-    invoke-virtual {p2, p1}, Ljava/util/ArrayDeque;
-    ->offer(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p1}, Ljava/util/ArrayDeque;->offer(Ljava/lang/Object;)Z
 
     .line 10
     .line 11

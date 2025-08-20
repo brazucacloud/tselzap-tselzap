@@ -18,8 +18,7 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {p0, v2, v0, v1}, Landroidx/collection/MutableFloatFloatMap;
-    -><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {p0, v2, v0, v1}, Landroidx/collection/MutableFloatFloatMap;-><init>(IILkotlin/jvm/internal/e;)V
 return-void
 .end method
 
@@ -29,19 +28,16 @@ return-void
     const/4 v0, 0x0
 
     .line 3
-    invoke-direct {p0, v0}, Landroidx/collection/FloatFloatMap;
-    -><init>(Lkotlin/jvm/internal/e;)V
+    invoke-direct {p0, v0}, Landroidx/collection/FloatFloatMap;-><init>(Lkotlin/jvm/internal/e;)V
 
     if-ltz p1, :cond_0
 
     .line 4
-    invoke-static {p1}, Landroidx/collection/ScatterMapKt;
-    ->unloadedCapacity(I)I
+    invoke-static {p1}, Landroidx/collection/ScatterMapKt;->unloadedCapacity(I)I
 
     move-result p1
 
-    invoke-direct {p0, p1}, Landroidx/collection/MutableFloatFloatMap;
-    ->initializeStorage(I)V
+    invoke-direct {p0, p1}, Landroidx/collection/MutableFloatFloatMap;->initializeStorage(I)V
 return-void
 
     .line 5
@@ -50,8 +46,7 @@ return-void
 
     const-string v0, "Capacity must be a positive value."
 
-    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -67,8 +62,7 @@ return-void
 
     .line 2
     :cond_0
-    invoke-direct {p0, p1}, Landroidx/collection/MutableFloatFloatMap;
-    -><init>(I)V
+    invoke-direct {p0, p1}, Landroidx/collection/MutableFloatFloatMap;-><init>(I)V
 return-void
 .end method
 
@@ -76,8 +70,7 @@ return-void
     .locals 7
 
     .line 1
-    iget v0, p0, Landroidx/collection/FloatFloatMap;
-    ->_capacity:I
+    iget v0, p0, Landroidx/collection/FloatFloatMap;->_capacity:I
 
     .line 2
     .line 3
@@ -89,8 +82,7 @@ return-void
 
     .line 6
     .line 7
-    iget v1, p0, Landroidx/collection/FloatFloatMap;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatFloatMap;->_size:I
 
     .line 8
     .line 9
@@ -126,8 +118,7 @@ return-void
     xor-long/2addr v3, v5
 
     .line 23
-    invoke-static {v1, v2, v3, v4}, Ljava/lang/Long;
-    ->compare(JJ)I
+    invoke-static {v1, v2, v3, v4}, Ljava/lang/Long;->compare(JJ)I
 
     .line 24
     .line 25
@@ -139,19 +130,16 @@ return-void
 
     .line 28
     .line 29
-    invoke-direct {p0}, Landroidx/collection/MutableFloatFloatMap;
-    ->removeDeletedMarkers()V
+    invoke-direct {p0}, Landroidx/collection/MutableFloatFloatMap;->removeDeletedMarkers()V
     return-void
 
     .line 33
     :cond_0
-    iget v0, p0, Landroidx/collection/FloatFloatMap;
-    ->_capacity:I
+    iget v0, p0, Landroidx/collection/FloatFloatMap;->_capacity:I
 
     .line 34
     .line 35
-    invoke-static {v0}, Landroidx/collection/ScatterMapKt;
-    ->nextCapacity(I)I
+    invoke-static {v0}, Landroidx/collection/ScatterMapKt;->nextCapacity(I)I
 
     .line 36
     .line 37
@@ -159,8 +147,7 @@ return-void
     move-result v0
 
     .line 39
-    invoke-direct {p0, v0}, Landroidx/collection/MutableFloatFloatMap;
-    ->resizeStorage(I)V
+    invoke-direct {p0, v0}, Landroidx/collection/MutableFloatFloatMap;->resizeStorage(I)V
 return-void
 .end method
 
@@ -168,8 +155,7 @@ return-void
     .locals 9
 
     .line 1
-    iget v0, p0, Landroidx/collection/FloatFloatMap;
-    ->_capacity:I
+    iget v0, p0, Landroidx/collection/FloatFloatMap;->_capacity:I
 
     .line 2
     .line 3
@@ -180,8 +166,7 @@ return-void
 
     .line 5
     :goto_0
-    iget-object v2, p0, Landroidx/collection/FloatFloatMap;
-    ->metadata:[J
+    iget-object v2, p0, Landroidx/collection/FloatFloatMap;->metadata:[J
 
     .line 6
     .line 7
@@ -273,8 +258,7 @@ return-void
 
     .line 46
     .line 47
-    invoke-static {v2, v3}, Ljava/lang/Long;
-    ->numberOfTrailingZeros(J)I
+    invoke-static {v2, v3}, Ljava/lang/Long;->numberOfTrailingZeros(J)I
 
     .line 48
     .line 49
@@ -315,8 +299,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-static/range {p1 .. p1}, Ljava/lang/Float;
-    ->floatToIntBits(F)I
+    invoke-static/range {p1 .. p1}, Ljava/lang/Float;->floatToIntBits(F)I
 
     .line 4
     .line 5
@@ -348,8 +331,7 @@ return-void
 
     .line 18
     .line 19
-    iget v3, v0, Landroidx/collection/FloatFloatMap;
-    ->_capacity:I
+    iget v3, v0, Landroidx/collection/FloatFloatMap;->_capacity:I
 
     .line 20
     .line 21
@@ -361,8 +343,7 @@ return-void
 
     .line 24
     :goto_0
-    iget-object v7, v0, Landroidx/collection/FloatFloatMap;
-    ->metadata:[J
+    iget-object v7, v0, Landroidx/collection/FloatFloatMap;->metadata:[J
 
     .line 25
     .line 26
@@ -477,8 +458,7 @@ return-void
 
     .line 77
     .line 78
-    invoke-static {v5, v6}, Ljava/lang/Long;
-    ->numberOfTrailingZeros(J)I
+    invoke-static {v5, v6}, Ljava/lang/Long;->numberOfTrailingZeros(J)I
 
     .line 79
     .line 80
@@ -496,8 +476,7 @@ return-void
     and-int/2addr v15, v3
 
     .line 86
-    iget-object v11, v0, Landroidx/collection/FloatFloatMap;
-    ->keys:[F
+    iget-object v11, v0, Landroidx/collection/FloatFloatMap;->keys:[F
 
     .line 87
     .line 88
@@ -551,8 +530,7 @@ return-void
 
     .line 109
     .line 110
-    invoke-direct {v0, v2}, Landroidx/collection/MutableFloatFloatMap;
-    ->findFirstAvailableSlot(I)I
+    invoke-direct {v0, v2}, Landroidx/collection/MutableFloatFloatMap;->findFirstAvailableSlot(I)I
 
     .line 111
     .line 112
@@ -560,8 +538,7 @@ return-void
     move-result v1
 
     .line 114
-    iget v3, v0, Landroidx/collection/MutableFloatFloatMap;
-    ->growthLimit:I
+    iget v3, v0, Landroidx/collection/MutableFloatFloatMap;->growthLimit:I
 
     .line 115
     .line 116
@@ -573,8 +550,7 @@ return-void
 
     .line 119
     .line 120
-    iget-object v3, v0, Landroidx/collection/FloatFloatMap;
-    ->metadata:[J
+    iget-object v3, v0, Landroidx/collection/FloatFloatMap;->metadata:[J
 
     .line 121
     .line 122
@@ -616,14 +592,12 @@ return-void
 
     .line 139
     :cond_2
-    invoke-direct {v0}, Landroidx/collection/MutableFloatFloatMap;
-    ->adjustStorage()V
+    invoke-direct {v0}, Landroidx/collection/MutableFloatFloatMap;->adjustStorage()V
 
     .line 140
     .line 141
     .line 142
-    invoke-direct {v0, v2}, Landroidx/collection/MutableFloatFloatMap;
-    ->findFirstAvailableSlot(I)I
+    invoke-direct {v0, v2}, Landroidx/collection/MutableFloatFloatMap;->findFirstAvailableSlot(I)I
 
     .line 143
     .line 144
@@ -633,26 +607,22 @@ return-void
     .line 146
     :cond_3
     :goto_2
-    iget v2, v0, Landroidx/collection/FloatFloatMap;
-    ->_size:I
+    iget v2, v0, Landroidx/collection/FloatFloatMap;->_size:I
 
     .line 147
     .line 148
     add-int/2addr v2, v12
 
     .line 149
-    iput v2, v0, Landroidx/collection/FloatFloatMap;
-    ->_size:I
+    iput v2, v0, Landroidx/collection/FloatFloatMap;->_size:I
 
     .line 150
     .line 151
-    iget v2, v0, Landroidx/collection/MutableFloatFloatMap;
-    ->growthLimit:I
+    iget v2, v0, Landroidx/collection/MutableFloatFloatMap;->growthLimit:I
 
     .line 152
     .line 153
-    iget-object v3, v0, Landroidx/collection/FloatFloatMap;
-    ->metadata:[J
+    iget-object v3, v0, Landroidx/collection/FloatFloatMap;->metadata:[J
 
     .line 154
     .line 155
@@ -708,8 +678,7 @@ return-void
 
     .line 178
     .line 179
-    iput v2, v0, Landroidx/collection/MutableFloatFloatMap;
-    ->growthLimit:I
+    iput v2, v0, Landroidx/collection/MutableFloatFloatMap;->growthLimit:I
 
     .line 180
     .line 181
@@ -734,8 +703,7 @@ return-void
 
     .line 189
     .line 190
-    iget v2, v0, Landroidx/collection/FloatFloatMap;
-    ->_capacity:I
+    iget v2, v0, Landroidx/collection/FloatFloatMap;->_capacity:I
 
     .line 191
     .line 192
@@ -811,8 +779,7 @@ return-void
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroidx/collection/FloatFloatMap;
-    ->getCapacity()I
+    invoke-virtual {p0}, Landroidx/collection/FloatFloatMap;->getCapacity()I
 
     .line 2
     .line 3
@@ -820,8 +787,7 @@ return-void
     move-result v0
 
     .line 5
-    invoke-static {v0}, Landroidx/collection/ScatterMapKt;
-    ->loadedCapacity(I)I
+    invoke-static {v0}, Landroidx/collection/ScatterMapKt;->loadedCapacity(I)I
 
     .line 6
     .line 7
@@ -829,16 +795,14 @@ return-void
     move-result v0
 
     .line 9
-    iget v1, p0, Landroidx/collection/FloatFloatMap;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatFloatMap;->_size:I
 
     .line 10
     .line 11
     sub-int/2addr v0, v1
 
     .line 12
-    iput v0, p0, Landroidx/collection/MutableFloatFloatMap;
-    ->growthLimit:I    
+    iput v0, p0, Landroidx/collection/MutableFloatFloatMap;->growthLimit:I
     return-void
 .end method
 
@@ -850,8 +814,7 @@ return-void
 
     .line 2
     .line 3
-    sget-object v0, Landroidx/collection/ScatterMapKt;
-    ->EmptyGroup:[J
+    sget-object v0, Landroidx/collection/ScatterMapKt;->EmptyGroup:[J
 
     .line 4
     .line 5
@@ -875,15 +838,13 @@ return-void
 
     .line 13
     .line 14
-    invoke-static {v0}, Ld1/i;
-    ->e0([J)V
+    invoke-static {v0}, Ld1/i;->e0([J)V
 
     .line 15
     .line 16
     .line 17
     :goto_0
-    iput-object v0, p0, Landroidx/collection/FloatFloatMap;
-    ->metadata:[J
+    iput-object v0, p0, Landroidx/collection/FloatFloatMap;->metadata:[J
 
     .line 18
     .line 19
@@ -923,8 +884,7 @@ return-void
 
     .line 34
     .line 35
-    invoke-direct {p0}, Landroidx/collection/MutableFloatFloatMap;
-    ->initializeGrowth()V
+    invoke-direct {p0}, Landroidx/collection/MutableFloatFloatMap;->initializeGrowth()V
     return-void
 .end method
 
@@ -939,8 +899,7 @@ return-void
     const/4 v0, 0x7
 
     .line 4
-    invoke-static {p1}, Landroidx/collection/ScatterMapKt;
-    ->normalizeCapacity(I)I
+    invoke-static {p1}, Landroidx/collection/ScatterMapKt;->normalizeCapacity(I)I
 
     .line 5
     .line 6
@@ -948,8 +907,7 @@ return-void
     move-result p1
 
     .line 8
-    invoke-static {v0, p1}, Ljava/lang/Math;
-    ->max(II)I
+    invoke-static {v0, p1}, Ljava/lang/Math;->max(II)I
 
     .line 9
     .line 10
@@ -965,13 +923,11 @@ return-void
 
     .line 14
     :goto_0
-    iput p1, p0, Landroidx/collection/FloatFloatMap;
-    ->_capacity:I
+    iput p1, p0, Landroidx/collection/FloatFloatMap;->_capacity:I
 
     .line 15
     .line 16
-    invoke-direct {p0, p1}, Landroidx/collection/MutableFloatFloatMap;
-    ->initializeMetadata(I)V
+    invoke-direct {p0, p1}, Landroidx/collection/MutableFloatFloatMap;->initializeMetadata(I)V
 
     .line 17
     .line 18
@@ -980,8 +936,7 @@ return-void
 
     .line 20
     .line 21
-    iput-object v0, p0, Landroidx/collection/FloatFloatMap;
-    ->keys:[F
+    iput-object v0, p0, Landroidx/collection/FloatFloatMap;->keys:[F
 
     .line 22
     .line 23
@@ -989,8 +944,7 @@ return-void
 
     .line 24
     .line 25
-    iput-object p1, p0, Landroidx/collection/FloatFloatMap;
-    ->values:[F    
+    iput-object p1, p0, Landroidx/collection/FloatFloatMap;->values:[F
     return-void
 .end method
 
@@ -998,13 +952,11 @@ return-void
     .locals 14
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/FloatFloatMap;
-    ->metadata:[J
+    iget-object v0, p0, Landroidx/collection/FloatFloatMap;->metadata:[J
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/collection/FloatFloatMap;
-    ->_capacity:I
+    iget v1, p0, Landroidx/collection/FloatFloatMap;->_capacity:I
 
     .line 4
     .line 5
@@ -1057,8 +1009,7 @@ return-void
 
     .line 26
     .line 27
-    iget-object v5, p0, Landroidx/collection/FloatFloatMap;
-    ->metadata:[J
+    iget-object v5, p0, Landroidx/collection/FloatFloatMap;->metadata:[J
 
     .line 28
     .line 29
@@ -1091,8 +1042,7 @@ return-void
 
     .line 41
     .line 42
-    iget v4, p0, Landroidx/collection/FloatFloatMap;
-    ->_capacity:I
+    iget v4, p0, Landroidx/collection/FloatFloatMap;->_capacity:I
 
     .line 43
     .line 44
@@ -1160,16 +1110,14 @@ return-void
 
     .line 72
     :cond_1
-    iget v0, p0, Landroidx/collection/MutableFloatFloatMap;
-    ->growthLimit:I
+    iget v0, p0, Landroidx/collection/MutableFloatFloatMap;->growthLimit:I
 
     .line 73
     .line 74
     add-int/2addr v0, v3
 
     .line 75
-    iput v0, p0, Landroidx/collection/MutableFloatFloatMap;
-    ->growthLimit:I    
+    iput v0, p0, Landroidx/collection/MutableFloatFloatMap;->growthLimit:I
     return-void
 .end method
 
@@ -1181,39 +1129,32 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, v0, Landroidx/collection/FloatFloatMap;
-    ->metadata:[J
+    iget-object v1, v0, Landroidx/collection/FloatFloatMap;->metadata:[J
 
     .line 4
     .line 5
-    iget-object v2, v0, Landroidx/collection/FloatFloatMap;
-    ->keys:[F
+    iget-object v2, v0, Landroidx/collection/FloatFloatMap;->keys:[F
 
     .line 6
     .line 7
-    iget-object v3, v0, Landroidx/collection/FloatFloatMap;
-    ->values:[F
+    iget-object v3, v0, Landroidx/collection/FloatFloatMap;->values:[F
 
     .line 8
     .line 9
-    iget v4, v0, Landroidx/collection/FloatFloatMap;
-    ->_capacity:I
+    iget v4, v0, Landroidx/collection/FloatFloatMap;->_capacity:I
 
     .line 10
     .line 11
-    invoke-direct/range {p0 .. p1}, Landroidx/collection/MutableFloatFloatMap;
-    ->initializeStorage(I)V
+    invoke-direct/range {p0 .. p1}, Landroidx/collection/MutableFloatFloatMap;->initializeStorage(I)V
 
     .line 12
     .line 13
     .line 14
-    iget-object v5, v0, Landroidx/collection/FloatFloatMap;
-    ->keys:[F
+    iget-object v5, v0, Landroidx/collection/FloatFloatMap;->keys:[F
 
     .line 15
     .line 16
-    iget-object v6, v0, Landroidx/collection/FloatFloatMap;
-    ->values:[F
+    iget-object v6, v0, Landroidx/collection/FloatFloatMap;->values:[F
 
     .line 17
     .line 18
@@ -1267,8 +1208,7 @@ return-void
 
     .line 40
     .line 41
-    invoke-static {v8}, Ljava/lang/Float;
-    ->floatToIntBits(F)I
+    invoke-static {v8}, Ljava/lang/Float;->floatToIntBits(F)I
 
     .line 42
     .line 43
@@ -1296,8 +1236,7 @@ return-void
 
     .line 54
     .line 55
-    invoke-direct {v0, v12}, Landroidx/collection/MutableFloatFloatMap;
-    ->findFirstAvailableSlot(I)I
+    invoke-direct {v0, v12}, Landroidx/collection/MutableFloatFloatMap;->findFirstAvailableSlot(I)I
 
     .line 56
     .line 57
@@ -1312,8 +1251,7 @@ return-void
     int-to-long v13, v9
 
     .line 62
-    iget-object v9, v0, Landroidx/collection/FloatFloatMap;
-    ->metadata:[J
+    iget-object v9, v0, Landroidx/collection/FloatFloatMap;->metadata:[J
 
     .line 63
     .line 64
@@ -1360,8 +1298,7 @@ return-void
 
     .line 84
     .line 85
-    iget v10, v0, Landroidx/collection/FloatFloatMap;
-    ->_capacity:I
+    iget v10, v0, Landroidx/collection/FloatFloatMap;->_capacity:I
 
     .line 86
     .line 87
@@ -1463,8 +1400,7 @@ return-void
     .locals 9
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/FloatFloatMap;
-    ->metadata:[J
+    iget-object v0, p0, Landroidx/collection/FloatFloatMap;->metadata:[J
 
     .line 2
     .line 3
@@ -1509,8 +1445,7 @@ return-void
 
     .line 21
     .line 22
-    iget v1, p0, Landroidx/collection/FloatFloatMap;
-    ->_capacity:I
+    iget v1, p0, Landroidx/collection/FloatFloatMap;->_capacity:I
 
     .line 23
     .line 24
@@ -1573,18 +1508,15 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    iput v0, p0, Landroidx/collection/FloatFloatMap;
-    ->_size:I
+    iput v0, p0, Landroidx/collection/FloatFloatMap;->_size:I
 
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/collection/FloatFloatMap;
-    ->metadata:[J
+    iget-object v0, p0, Landroidx/collection/FloatFloatMap;->metadata:[J
 
     .line 5
     .line 6
-    sget-object v1, Landroidx/collection/ScatterMapKt;
-    ->EmptyGroup:[J
+    sget-object v1, Landroidx/collection/ScatterMapKt;->EmptyGroup:[J
 
     .line 7
     .line 8
@@ -1592,19 +1524,16 @@ return-void
 
     .line 9
     .line 10
-    invoke-static {v0}, Ld1/i;
-    ->e0([J)V
+    invoke-static {v0}, Ld1/i;->e0([J)V
 
     .line 11
     .line 12
     .line 13
-    iget-object v0, p0, Landroidx/collection/FloatFloatMap;
-    ->metadata:[J
+    iget-object v0, p0, Landroidx/collection/FloatFloatMap;->metadata:[J
 
     .line 14
     .line 15
-    iget v1, p0, Landroidx/collection/FloatFloatMap;
-    ->_capacity:I
+    iget v1, p0, Landroidx/collection/FloatFloatMap;->_capacity:I
 
     .line 16
     .line 17
@@ -1645,8 +1574,7 @@ return-void
     .line 32
     .line 33
     :cond_0
-    invoke-direct {p0}, Landroidx/collection/MutableFloatFloatMap;
-    ->initializeGrowth()V
+    invoke-direct {p0}, Landroidx/collection/MutableFloatFloatMap;->initializeGrowth()V
     return-void
 .end method
 
@@ -1665,14 +1593,12 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, p1}, Landroidx/collection/FloatFloatMap;
-    ->findKeyIndex(F)I
+    invoke-virtual {p0, p1}, Landroidx/collection/FloatFloatMap;->findKeyIndex(F)I
 
     .line 7
     .line 8
@@ -1684,8 +1610,7 @@ return-void
 
     .line 11
     .line 12
-    invoke-interface {p2}, Lp1/a;
-    ->invoke()Ljava/lang/Object;
+    invoke-interface {p2}, Lp1/a;->invoke()Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -1697,8 +1622,7 @@ return-void
 
     .line 17
     .line 18
-    invoke-virtual {p2}, Ljava/lang/Number;
-    ->floatValue()F
+    invoke-virtual {p2}, Ljava/lang/Number;->floatValue()F
 
     .line 19
     .line 20
@@ -1706,14 +1630,12 @@ return-void
     move-result p2
 
     .line 22
-    invoke-virtual {p0, p1, p2}, Landroidx/collection/MutableFloatFloatMap;
-    ->put(FF)V    
+    invoke-virtual {p0, p1, p2}, Landroidx/collection/MutableFloatFloatMap;->put(FF)V
     return p2
 
     .line 26
     :cond_0
-    iget-object p1, p0, Landroidx/collection/FloatFloatMap;
-    ->values:[F
+    iget-object p1, p0, Landroidx/collection/FloatFloatMap;->values:[F
 
     .line 27
     .line 28
@@ -1724,8 +1646,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/collection/MutableFloatFloatMap;
-    ->remove(F)V
+    invoke-virtual {p0, p1}, Landroidx/collection/MutableFloatFloatMap;->remove(F)V
 return-void
 .end method
 
@@ -1734,16 +1655,13 @@ return-void
 
     const-string v0, "keys"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
-    iget-object v0, p1, Landroidx/collection/FloatList;
-    ->content:[F
+    iget-object v0, p1, Landroidx/collection/FloatList;->content:[F
 
     .line 11
-    iget p1, p1, Landroidx/collection/FloatList;
-    ->_size:I
+    iget p1, p1, Landroidx/collection/FloatList;->_size:I
 
     const/4 v1, 0x0
 
@@ -1754,8 +1672,7 @@ return-void
     aget v2, v0, v1
 
     .line 13
-    invoke-virtual {p0, v2}, Landroidx/collection/MutableFloatFloatMap;
-    ->remove(F)V
+    invoke-virtual {p0, v2}, Landroidx/collection/MutableFloatFloatMap;->remove(F)V
 
     add-int/lit8 v1, v1, 0x1
 
@@ -1770,16 +1687,13 @@ return-void
 
     const-string v0, "keys"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
-    iget-object v0, p1, Landroidx/collection/FloatSet;
-    ->elements:[F
+    iget-object v0, p1, Landroidx/collection/FloatSet;->elements:[F
 
     .line 5
-    iget-object p1, p1, Landroidx/collection/FloatSet;
-    ->metadata:[J
+    iget-object p1, p1, Landroidx/collection/FloatSet;->metadata:[J
 
     .line 6
     array-length v1, p1
@@ -1845,8 +1759,7 @@ return-void
     aget v9, v0, v9
 
     .line 9
-    invoke-virtual {p0, v9}, Landroidx/collection/MutableFloatFloatMap;
-    ->remove(F)V
+    invoke-virtual {p0, v9}, Landroidx/collection/MutableFloatFloatMap;->remove(F)V
 
     :cond_0
     shr-long/2addr v4, v7
@@ -1874,8 +1787,7 @@ return-void
 
     const-string v0, "keys"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     array-length v0, p1
@@ -1888,8 +1800,7 @@ return-void
     aget v2, p1, v1
 
     .line 3
-    invoke-virtual {p0, v2}, Landroidx/collection/MutableFloatFloatMap;
-    ->remove(F)V
+    invoke-virtual {p0, v2}, Landroidx/collection/MutableFloatFloatMap;->remove(F)V
 
     add-int/lit8 v1, v1, 0x1
 
@@ -1907,14 +1818,12 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, p1}, Landroidx/collection/MutableFloatFloatMap;
-    ->putAll(Landroidx/collection/FloatFloatMap;)V
+    invoke-virtual {p0, p1}, Landroidx/collection/MutableFloatFloatMap;->putAll(Landroidx/collection/FloatFloatMap;)V
 return-void
 .end method
 
@@ -1922,8 +1831,7 @@ return-void
     .locals 2
 
     .line 2
-    invoke-direct {p0, p1}, Landroidx/collection/MutableFloatFloatMap;
-    ->findInsertIndex(F)I
+    invoke-direct {p0, p1}, Landroidx/collection/MutableFloatFloatMap;->findInsertIndex(F)I
 
     move-result v0
 
@@ -1935,21 +1843,18 @@ return-void
 
     .line 3
     :cond_0
-    iget-object p3, p0, Landroidx/collection/FloatFloatMap;
-    ->values:[F
+    iget-object p3, p0, Landroidx/collection/FloatFloatMap;->values:[F
 
     aget p3, p3, v0
 
     .line 4
     :goto_0
-    iget-object v1, p0, Landroidx/collection/FloatFloatMap;
-    ->keys:[F
+    iget-object v1, p0, Landroidx/collection/FloatFloatMap;->keys:[F
 
     aput p1, v1, v0
 
     .line 5
-    iget-object p1, p0, Landroidx/collection/FloatFloatMap;
-    ->values:[F
+    iget-object p1, p0, Landroidx/collection/FloatFloatMap;->values:[F
 
     aput p2, p1, v0
 
@@ -1960,8 +1865,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroidx/collection/MutableFloatFloatMap;
-    ->set(FF)V
+    invoke-virtual {p0, p1, p2}, Landroidx/collection/MutableFloatFloatMap;->set(FF)V
 return-void
 .end method
 
@@ -1977,24 +1881,20 @@ return-void
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v1, v0, Landroidx/collection/FloatFloatMap;
-    ->keys:[F
+    iget-object v1, v0, Landroidx/collection/FloatFloatMap;->keys:[F
 
     .line 9
     .line 10
-    iget-object v2, v0, Landroidx/collection/FloatFloatMap;
-    ->values:[F
+    iget-object v2, v0, Landroidx/collection/FloatFloatMap;->values:[F
 
     .line 11
     .line 12
-    iget-object v0, v0, Landroidx/collection/FloatFloatMap;
-    ->metadata:[J
+    iget-object v0, v0, Landroidx/collection/FloatFloatMap;->metadata:[J
 
     .line 13
     .line 14
@@ -2115,8 +2015,7 @@ return-void
 
     .line 66
     .line 67
-    invoke-virtual {v13, v12, v11}, Landroidx/collection/MutableFloatFloatMap;
-    ->set(FF)V
+    invoke-virtual {v13, v12, v11}, Landroidx/collection/MutableFloatFloatMap;->set(FF)V
 
     .line 68
     .line 69
@@ -2182,16 +2081,14 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/collection/FloatFloatMap;
-    ->findKeyIndex(F)I
+    invoke-virtual {p0, p1}, Landroidx/collection/FloatFloatMap;->findKeyIndex(F)I
 
     move-result p1
 
     if-ltz p1, :cond_0
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/collection/MutableFloatFloatMap;
-    ->removeValueAt(I)V
+    invoke-virtual {p0, p1}, Landroidx/collection/MutableFloatFloatMap;->removeValueAt(I)V
 
     :cond_0
     return-void
@@ -2201,16 +2098,14 @@ return-void
     .locals 1
 
     .line 3
-    invoke-virtual {p0, p1}, Landroidx/collection/FloatFloatMap;
-    ->findKeyIndex(F)I
+    invoke-virtual {p0, p1}, Landroidx/collection/FloatFloatMap;->findKeyIndex(F)I
 
     move-result p1
 
     if-ltz p1, :cond_0
 
     .line 4
-    iget-object v0, p0, Landroidx/collection/FloatFloatMap;
-    ->values:[F
+    iget-object v0, p0, Landroidx/collection/FloatFloatMap;->values:[F
 
     aget v0, v0, p1
 
@@ -2219,8 +2114,7 @@ return-void
     if-nez p2, :cond_0
 
     .line 5
-    invoke-virtual {p0, p1}, Landroidx/collection/MutableFloatFloatMap;
-    ->removeValueAt(I)V
+    invoke-virtual {p0, p1}, Landroidx/collection/MutableFloatFloatMap;->removeValueAt(I)V
 
     const/4 p1, 0x1
 
@@ -2247,14 +2141,12 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/collection/FloatFloatMap;
-    ->metadata:[J
+    iget-object v0, p0, Landroidx/collection/FloatFloatMap;->metadata:[J
 
     .line 7
     .line 8
@@ -2363,8 +2255,7 @@ return-void
     add-int/2addr v9, v8
 
     .line 55
-    iget-object v10, p0, Landroidx/collection/FloatFloatMap;
-    ->keys:[F
+    iget-object v10, p0, Landroidx/collection/FloatFloatMap;->keys:[F
 
     .line 56
     .line 57
@@ -2372,8 +2263,7 @@ return-void
 
     .line 58
     .line 59
-    invoke-static {v10}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v10}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     .line 60
     .line 61
@@ -2381,8 +2271,7 @@ return-void
     move-result-object v10
 
     .line 63
-    iget-object v11, p0, Landroidx/collection/FloatFloatMap;
-    ->values:[F
+    iget-object v11, p0, Landroidx/collection/FloatFloatMap;->values:[F
 
     .line 64
     .line 65
@@ -2390,8 +2279,7 @@ return-void
 
     .line 66
     .line 67
-    invoke-static {v11}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v11}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     .line 68
     .line 69
@@ -2399,8 +2287,7 @@ return-void
     move-result-object v11
 
     .line 71
-    invoke-interface {p1, v10, v11}, Lp1/p;
-    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v10, v11}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 72
     .line 73
@@ -2412,8 +2299,7 @@ return-void
 
     .line 76
     .line 77
-    invoke-virtual {v10}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {v10}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 78
     .line 79
@@ -2425,8 +2311,7 @@ return-void
 
     .line 82
     .line 83
-    invoke-virtual {p0, v9}, Landroidx/collection/MutableFloatFloatMap;
-    ->removeValueAt(I)V
+    invoke-virtual {p0, v9}, Landroidx/collection/MutableFloatFloatMap;->removeValueAt(I)V
 
     .line 84
     .line 85
@@ -2467,8 +2352,7 @@ return-void
     .locals 11
 
     .line 1
-    iget v0, p0, Landroidx/collection/FloatFloatMap;
-    ->_size:I
+    iget v0, p0, Landroidx/collection/FloatFloatMap;->_size:I
 
     .line 2
     .line 3
@@ -2476,13 +2360,11 @@ return-void
 
     .line 4
     .line 5
-    iput v0, p0, Landroidx/collection/FloatFloatMap;
-    ->_size:I
+    iput v0, p0, Landroidx/collection/FloatFloatMap;->_size:I
 
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/collection/FloatFloatMap;
-    ->metadata:[J
+    iget-object v0, p0, Landroidx/collection/FloatFloatMap;->metadata:[J
 
     .line 8
     .line 9
@@ -2531,8 +2413,7 @@ return-void
 
     .line 29
     .line 30
-    iget v1, p0, Landroidx/collection/FloatFloatMap;
-    ->_capacity:I
+    iget v1, p0, Landroidx/collection/FloatFloatMap;->_capacity:I
 
     .line 31
     .line 32
@@ -2590,8 +2471,7 @@ return-void
     .locals 2
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/collection/MutableFloatFloatMap;
-    ->findInsertIndex(F)I
+    invoke-direct {p0, p1}, Landroidx/collection/MutableFloatFloatMap;->findInsertIndex(F)I
 
     .line 2
     .line 3
@@ -2607,8 +2487,7 @@ return-void
 
     .line 8
     :cond_0
-    iget-object v1, p0, Landroidx/collection/FloatFloatMap;
-    ->keys:[F
+    iget-object v1, p0, Landroidx/collection/FloatFloatMap;->keys:[F
 
     .line 9
     .line 10
@@ -2616,8 +2495,7 @@ return-void
 
     .line 11
     .line 12
-    iget-object p1, p0, Landroidx/collection/FloatFloatMap;
-    ->values:[F
+    iget-object p1, p0, Landroidx/collection/FloatFloatMap;->values:[F
 
     .line 13
     .line 14
@@ -2628,18 +2506,15 @@ return-void
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/collection/FloatFloatMap;
-    ->_capacity:I
+    iget v0, p0, Landroidx/collection/FloatFloatMap;->_capacity:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/collection/FloatFloatMap;
-    ->_size:I
+    iget v1, p0, Landroidx/collection/FloatFloatMap;->_size:I
 
     .line 4
     .line 5
-    invoke-static {v1}, Landroidx/collection/ScatterMapKt;
-    ->unloadedCapacity(I)I
+    invoke-static {v1}, Landroidx/collection/ScatterMapKt;->unloadedCapacity(I)I
 
     .line 6
     .line 7
@@ -2647,8 +2522,7 @@ return-void
     move-result v1
 
     .line 9
-    invoke-static {v1}, Landroidx/collection/ScatterMapKt;
-    ->normalizeCapacity(I)I
+    invoke-static {v1}, Landroidx/collection/ScatterMapKt;->normalizeCapacity(I)I
 
     .line 10
     .line 11
@@ -2660,14 +2534,12 @@ return-void
 
     .line 14
     .line 15
-    invoke-direct {p0, v1}, Landroidx/collection/MutableFloatFloatMap;
-    ->resizeStorage(I)V
+    invoke-direct {p0, v1}, Landroidx/collection/MutableFloatFloatMap;->resizeStorage(I)V
 
     .line 16
     .line 17
     .line 18
-    iget v1, p0, Landroidx/collection/FloatFloatMap;
-    ->_capacity:I
+    iget v1, p0, Landroidx/collection/FloatFloatMap;->_capacity:I
 
     .line 19
     .line 20

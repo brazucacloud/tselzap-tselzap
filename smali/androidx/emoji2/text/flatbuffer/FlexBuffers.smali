@@ -106,14 +106,12 @@
 
     .line 8
     .line 9
-    invoke-direct {v2, v3, v1}, Landroidx/emoji2/text/flatbuffer/ArrayReadWriteBuf;
-    -><init>([BI)V
+    invoke-direct {v2, v3, v1}, Landroidx/emoji2/text/flatbuffer/ArrayReadWriteBuf;-><init>([BI)V
 
     .line 10
     .line 11
     .line 12
-    sput-object v2, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
-    ->EMPTY_BB:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    sput-object v2, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->EMPTY_BB:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 13
     .line 14
@@ -124,8 +122,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -137,8 +134,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
-    ->EMPTY_BB:Landroidx/emoji2/text/flatbuffer/ReadBuf;
+    sget-object v0, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->EMPTY_BB:Landroidx/emoji2/text/flatbuffer/ReadBuf;
 
     .line 2
     .line 3
@@ -149,8 +145,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
-    ->readInt(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {p0, p1, p2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->readInt(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 2
     .line 3
@@ -164,8 +159,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
-    ->indirect(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
+    invoke-static {p0, p1, p2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->indirect(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)I
 
     .line 2
     .line 3
@@ -179,8 +173,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
-    ->readUInt(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
+    invoke-static {p0, p1, p2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->readUInt(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
 
     .line 2
     .line 3
@@ -194,8 +187,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
-    ->readDouble(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)D
+    invoke-static {p0, p1, p2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->readDouble(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)D
 
     .line 2
     .line 3
@@ -209,8 +201,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
-    ->readLong(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
+    invoke-static {p0, p1, p2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->readLong(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
 
     .line 2
     .line 3
@@ -224,29 +215,25 @@
     .locals 4
 
     .line 2
-    invoke-interface {p0}, Landroidx/emoji2/text/flatbuffer/ReadBuf;
-    ->limit()I
+    invoke-interface {p0}, Landroidx/emoji2/text/flatbuffer/ReadBuf;->limit()I
 
     move-result v0
 
     add-int/lit8 v1, v0, -0x1
 
     .line 3
-    invoke-interface {p0, v1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;
-    ->get(I)B
+    invoke-interface {p0, v1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;->get(I)B
 
     move-result v1
 
     add-int/lit8 v0, v0, -0x2
 
     .line 4
-    invoke-interface {p0, v0}, Landroidx/emoji2/text/flatbuffer/ReadBuf;
-    ->get(I)B
+    invoke-interface {p0, v0}, Landroidx/emoji2/text/flatbuffer/ReadBuf;->get(I)B
 
     move-result v2
 
-    invoke-static {v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Unsigned;
-    ->byteToUnsignedInt(B)I
+    invoke-static {v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Unsigned;->byteToUnsignedInt(B)I
 
     move-result v2
 
@@ -255,8 +242,7 @@
     .line 5
     new-instance v3, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
 
-    invoke-direct {v3, p0, v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
-    -><init>(Landroidx/emoji2/text/flatbuffer/ReadBuf;III)V
+    invoke-direct {v3, p0, v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;-><init>(Landroidx/emoji2/text/flatbuffer/ReadBuf;III)V
 return-object v3
 .end method
 
@@ -266,8 +252,7 @@ return-object v3
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Ljava/nio/ByteBuffer;
-    ->hasArray()Z
+    invoke-virtual {p0}, Ljava/nio/ByteBuffer;->hasArray()Z
 
     move-result v0
 
@@ -275,30 +260,25 @@ return-object v3
 
     new-instance v0, Landroidx/emoji2/text/flatbuffer/ArrayReadWriteBuf;
 
-    invoke-virtual {p0}, Ljava/nio/ByteBuffer;
-    ->array()[B
+    invoke-virtual {p0}, Ljava/nio/ByteBuffer;->array()[B
 
     move-result-object v1
 
-    invoke-virtual {p0}, Ljava/nio/Buffer;
-    ->limit()I
+    invoke-virtual {p0}, Ljava/nio/Buffer;->limit()I
 
     move-result p0
 
-    invoke-direct {v0, v1, p0}, Landroidx/emoji2/text/flatbuffer/ArrayReadWriteBuf;
-    -><init>([BI)V
+    invoke-direct {v0, v1, p0}, Landroidx/emoji2/text/flatbuffer/ArrayReadWriteBuf;-><init>([BI)V
 
     goto :goto_0
 
     :cond_0
     new-instance v0, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
 
-    invoke-direct {v0, p0}, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;
-    -><init>(Ljava/nio/ByteBuffer;)V
+    invoke-direct {v0, p0}, Landroidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf;-><init>(Ljava/nio/ByteBuffer;)V
 
     :goto_0
-    invoke-static {v0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
-    ->getRoot(Landroidx/emoji2/text/flatbuffer/ReadBuf;)Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
+    invoke-static {v0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->getRoot(Landroidx/emoji2/text/flatbuffer/ReadBuf;)Landroidx/emoji2/text/flatbuffer/FlexBuffers$Reference;
 
     move-result-object p0
 
@@ -312,8 +292,7 @@ return-object v3
     int-to-long v0, p1
 
     .line 2
-    invoke-static {p0, p1, p2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
-    ->readUInt(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
+    invoke-static {p0, p1, p2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->readUInt(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
 
     .line 3
     .line 4
@@ -433,8 +412,7 @@ return-object v3
 
     .line 11
     :cond_0
-    invoke-interface {p0, p1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;
-    ->getDouble(I)D
+    invoke-interface {p0, p1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;->getDouble(I)D
 
     .line 12
     .line 13
@@ -445,8 +423,7 @@ return-object v3
 
     .line 16
     :cond_1
-    invoke-interface {p0, p1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;
-    ->getFloat(I)F
+    invoke-interface {p0, p1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;->getFloat(I)F
 
     .line 17
     .line 18
@@ -463,8 +440,7 @@ return-object v3
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;
-    ->readLong(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
+    invoke-static {p0, p1, p2}, Landroidx/emoji2/text/flatbuffer/FlexBuffers;->readLong(Landroidx/emoji2/text/flatbuffer/ReadBuf;II)J
 
     .line 2
     .line 3
@@ -518,8 +494,7 @@ return-object v3
 
     .line 17
     :cond_0
-    invoke-interface {p0, p1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;
-    ->getLong(I)J
+    invoke-interface {p0, p1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;->getLong(I)J
 
     .line 18
     .line 19
@@ -530,8 +505,7 @@ return-object v3
 
     .line 22
     :cond_1
-    invoke-interface {p0, p1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;
-    ->getInt(I)I
+    invoke-interface {p0, p1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;->getInt(I)I
 
     .line 23
     .line 24
@@ -546,8 +520,7 @@ return-object v3
 
     .line 28
     :cond_2
-    invoke-interface {p0, p1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;
-    ->getShort(I)S
+    invoke-interface {p0, p1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;->getShort(I)S
 
     .line 29
     .line 30
@@ -559,8 +532,7 @@ return-object v3
 
     .line 33
     :cond_3
-    invoke-interface {p0, p1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;
-    ->get(I)B
+    invoke-interface {p0, p1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;->get(I)B
 
     .line 34
     .line 35
@@ -692,8 +664,7 @@ return-object v3
 
     .line 17
     :cond_0
-    invoke-interface {p0, p1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;
-    ->getLong(I)J
+    invoke-interface {p0, p1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;->getLong(I)J
 
     .line 18
     .line 19
@@ -704,8 +675,7 @@ return-object v3
 
     .line 22
     :cond_1
-    invoke-interface {p0, p1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;
-    ->getInt(I)I
+    invoke-interface {p0, p1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;->getInt(I)I
 
     .line 23
     .line 24
@@ -713,8 +683,7 @@ return-object v3
     move-result p0
 
     .line 26
-    invoke-static {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Unsigned;
-    ->intToUnsignedLong(I)J
+    invoke-static {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Unsigned;->intToUnsignedLong(I)J
 
     .line 27
     .line 28
@@ -725,8 +694,7 @@ return-object v3
 
     .line 31
     :cond_2
-    invoke-interface {p0, p1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;
-    ->getShort(I)S
+    invoke-interface {p0, p1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;->getShort(I)S
 
     .line 32
     .line 33
@@ -734,8 +702,7 @@ return-object v3
     move-result p0
 
     .line 35
-    invoke-static {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Unsigned;
-    ->shortToUnsignedInt(S)I
+    invoke-static {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Unsigned;->shortToUnsignedInt(S)I
 
     .line 36
     .line 37
@@ -749,8 +716,7 @@ return-object v3
 
     .line 41
     :cond_3
-    invoke-interface {p0, p1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;
-    ->get(I)B
+    invoke-interface {p0, p1}, Landroidx/emoji2/text/flatbuffer/ReadBuf;->get(I)B
 
     .line 42
     .line 43
@@ -758,8 +724,7 @@ return-object v3
     move-result p0
 
     .line 45
-    invoke-static {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Unsigned;
-    ->byteToUnsignedInt(B)I
+    invoke-static {p0}, Landroidx/emoji2/text/flatbuffer/FlexBuffers$Unsigned;->byteToUnsignedInt(B)I
 
     .line 46
     .line 47

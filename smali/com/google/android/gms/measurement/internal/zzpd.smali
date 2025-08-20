@@ -46,14 +46,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/google/android/gms/measurement/internal/zzpg;
-    -><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/measurement/internal/zzpg;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Lcom/google/android/gms/measurement/internal/zzpd;
-    ->CREATOR:Landroid/os/Parcelable$Creator;
+    sput-object v0, Lcom/google/android/gms/measurement/internal/zzpd;->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 7
     .line 8
@@ -80,14 +78,12 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzpd;
-    ->zza:Ljava/util/List;
+    iput-object p1, p0, Lcom/google/android/gms/measurement/internal/zzpd;->zza:Ljava/util/List;
 
     .line 5
     .line 6
@@ -100,8 +96,7 @@
     .locals 3
 
     .line 1
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
-    ->beginObjectHeader(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->beginObjectHeader(Landroid/os/Parcel;)I
 
     .line 2
     .line 3
@@ -109,8 +104,7 @@
     move-result p2
 
     .line 5
-    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzpd;
-    ->zza:Ljava/util/List;
+    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzpd;->zza:Ljava/util/List;
 
     .line 6
     .line 7
@@ -120,14 +114,12 @@
     const/4 v2, 0x1
 
     .line 9
-    invoke-static {p1, v2, v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
-    ->writeTypedList(Landroid/os/Parcel;ILjava/util/List;Z)V
+    invoke-static {p1, v2, v0, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeTypedList(Landroid/os/Parcel;ILjava/util/List;Z)V
 
     .line 10
     .line 11
     .line 12
-    invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
-    ->finishObjectHeader(Landroid/os/Parcel;I)V
+    invoke-static {p1, p2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->finishObjectHeader(Landroid/os/Parcel;I)V
 
     .line 13
     .line 14

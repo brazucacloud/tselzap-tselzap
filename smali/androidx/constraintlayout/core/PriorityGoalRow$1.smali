@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/constraintlayout/core/PriorityGoalRow;
-    ->addToGoal(Landroidx/constraintlayout/core/SolverVariable;)V
+    value = Landroidx/constraintlayout/core/PriorityGoalRow;->addToGoal(Landroidx/constraintlayout/core/SolverVariable;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -36,13 +35,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/PriorityGoalRow$1;
-    ->this$0:Landroidx/constraintlayout/core/PriorityGoalRow;
+    iput-object p1, p0, Landroidx/constraintlayout/core/PriorityGoalRow$1;->this$0:Landroidx/constraintlayout/core/PriorityGoalRow;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -52,11 +49,9 @@
     .locals 0
 
     .line 2
-    iget p1, p1, Landroidx/constraintlayout/core/SolverVariable;
-    ->id:I
+    iget p1, p1, Landroidx/constraintlayout/core/SolverVariable;->id:I
 
-    iget p2, p2, Landroidx/constraintlayout/core/SolverVariable;
-    ->id:I
+    iget p2, p2, Landroidx/constraintlayout/core/SolverVariable;->id:I
 
     sub-int/2addr p1, p2
 
@@ -71,8 +66,7 @@
 
     check-cast p2, Landroidx/constraintlayout/core/SolverVariable;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/constraintlayout/core/PriorityGoalRow$1;
-    ->compare(Landroidx/constraintlayout/core/SolverVariable;Landroidx/constraintlayout/core/SolverVariable;)I
+    invoke-virtual {p0, p1, p2}, Landroidx/constraintlayout/core/PriorityGoalRow$1;->compare(Landroidx/constraintlayout/core/SolverVariable;Landroidx/constraintlayout/core/SolverVariable;)I
 
     move-result p1
 

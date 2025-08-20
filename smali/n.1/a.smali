@@ -12,13 +12,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Ln/a;
-    ->b:Ln/b;
+    iput-object p1, p0, Ln/a;->b:Ln/b;
 
     .line 2
     .line 3
-    invoke-direct {p0, p2, p3}, Ljava/lang/Thread;
-    -><init>(Ljava/lang/Runnable;Ljava/lang/String;)V
+    invoke-direct {p0, p2, p3}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -36,19 +34,16 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroid/os/Process;
-    ->setThreadPriority(I)V
+    invoke-static {v0}, Landroid/os/Process;->setThreadPriority(I)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Ln/a;
-    ->b:Ln/b;
+    iget-object v0, p0, Ln/a;->b:Ln/b;
 
     .line 7
     .line 8
-    iget-boolean v0, v0, Ln/b;
-    ->b:Z
+    iget-boolean v0, v0, Ln/b;->b:Z
 
     .line 9
     .line 10
@@ -60,14 +55,12 @@
 
     .line 13
     .line 14
-    invoke-direct {v0}, Landroid/os/StrictMode$ThreadPolicy$Builder;
-    -><init>()V
+    invoke-direct {v0}, Landroid/os/StrictMode$ThreadPolicy$Builder;-><init>()V
 
     .line 15
     .line 16
     .line 17
-    invoke-virtual {v0}, Landroid/os/StrictMode$ThreadPolicy$Builder;
-    ->detectNetwork()Landroid/os/StrictMode$ThreadPolicy$Builder;
+    invoke-virtual {v0}, Landroid/os/StrictMode$ThreadPolicy$Builder;->detectNetwork()Landroid/os/StrictMode$ThreadPolicy$Builder;
 
     .line 18
     .line 19
@@ -75,8 +68,7 @@
     move-result-object v0
 
     .line 21
-    invoke-virtual {v0}, Landroid/os/StrictMode$ThreadPolicy$Builder;
-    ->penaltyDeath()Landroid/os/StrictMode$ThreadPolicy$Builder;
+    invoke-virtual {v0}, Landroid/os/StrictMode$ThreadPolicy$Builder;->penaltyDeath()Landroid/os/StrictMode$ThreadPolicy$Builder;
 
     .line 22
     .line 23
@@ -84,8 +76,7 @@
     move-result-object v0
 
     .line 25
-    invoke-virtual {v0}, Landroid/os/StrictMode$ThreadPolicy$Builder;
-    ->build()Landroid/os/StrictMode$ThreadPolicy;
+    invoke-virtual {v0}, Landroid/os/StrictMode$ThreadPolicy$Builder;->build()Landroid/os/StrictMode$ThreadPolicy;
 
     .line 26
     .line 27
@@ -93,16 +84,14 @@
     move-result-object v0
 
     .line 29
-    invoke-static {v0}, Landroid/os/StrictMode;
-    ->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
+    invoke-static {v0}, Landroid/os/StrictMode;->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
 
     .line 30
     .line 31
     .line 32
     :cond_0
     :try_start_0
-    invoke-super {p0}, Ljava/lang/Thread;
-    ->run()V
+    invoke-super {p0}, Ljava/lang/Thread;->run()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -123,8 +112,7 @@
 
     .line 39
     .line 40
-    invoke-static {v2, v1}, Landroid/util/Log;
-    ->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v2, v1}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     .line 41
     .line 42
@@ -140,8 +128,7 @@
 
     .line 47
     .line 48
-    invoke-static {v2, v1, v0}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v2, v1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 49
     .line 50

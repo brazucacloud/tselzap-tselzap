@@ -50,14 +50,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/google/android/gms/common/api/Api$ClientKey;
-    -><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/common/api/Api$ClientKey;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Lcom/google/android/gms/common/internal/service/Common;
-    ->CLIENT_KEY:Lcom/google/android/gms/common/api/Api$ClientKey;
+    sput-object v0, Lcom/google/android/gms/common/internal/service/Common;->CLIENT_KEY:Lcom/google/android/gms/common/api/Api$ClientKey;
 
     .line 7
     .line 8
@@ -65,14 +63,12 @@
 
     .line 9
     .line 10
-    invoke-direct {v1}, Lcom/google/android/gms/common/internal/service/zab;
-    -><init>()V
+    invoke-direct {v1}, Lcom/google/android/gms/common/internal/service/zab;-><init>()V
 
     .line 11
     .line 12
     .line 13
-    sput-object v1, Lcom/google/android/gms/common/internal/service/Common;
-    ->zab:Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;
+    sput-object v1, Lcom/google/android/gms/common/internal/service/Common;->zab:Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;
 
     .line 14
     .line 15
@@ -84,14 +80,12 @@
 
     .line 18
     .line 19
-    invoke-direct {v2, v3, v1, v0}, Lcom/google/android/gms/common/api/Api;
-    -><init>(Ljava/lang/String;Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;Lcom/google/android/gms/common/api/Api$ClientKey;)V
+    invoke-direct {v2, v3, v1, v0}, Lcom/google/android/gms/common/api/Api;-><init>(Ljava/lang/String;Lcom/google/android/gms/common/api/Api$AbstractClientBuilder;Lcom/google/android/gms/common/api/Api$ClientKey;)V
 
     .line 20
     .line 21
     .line 22
-    sput-object v2, Lcom/google/android/gms/common/internal/service/Common;
-    ->API:Lcom/google/android/gms/common/api/Api;
+    sput-object v2, Lcom/google/android/gms/common/internal/service/Common;->API:Lcom/google/android/gms/common/api/Api;
 
     .line 23
     .line 24
@@ -99,14 +93,12 @@
 
     .line 25
     .line 26
-    invoke-direct {v0}, Lcom/google/android/gms/common/internal/service/zae;
-    -><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/common/internal/service/zae;-><init>()V
 
     .line 27
     .line 28
     .line 29
-    sput-object v0, Lcom/google/android/gms/common/internal/service/Common;
-    ->zaa:Lcom/google/android/gms/common/internal/service/zae;
+    sput-object v0, Lcom/google/android/gms/common/internal/service/Common;->zaa:Lcom/google/android/gms/common/internal/service/zae;
 
     .line 30
     .line 31
@@ -116,8 +108,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 

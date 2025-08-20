@@ -5,8 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/lifecycle/ProcessLifecycleOwner$attach$1;
-    ->onActivityPreCreated(Landroid/app/Activity;Landroid/os/Bundle;)V
+    value = Landroidx/lifecycle/ProcessLifecycleOwner$attach$1;->onActivityPreCreated(Landroid/app/Activity;Landroid/os/Bundle;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,13 +23,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/lifecycle/ProcessLifecycleOwner$attach$1$onActivityPreCreated$1;
-    ->this$0:Landroidx/lifecycle/ProcessLifecycleOwner;
+    iput-object p1, p0, Landroidx/lifecycle/ProcessLifecycleOwner$attach$1$onActivityPreCreated$1;->this$0:Landroidx/lifecycle/ProcessLifecycleOwner;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/lifecycle/EmptyActivityLifecycleCallbacks;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/lifecycle/EmptyActivityLifecycleCallbacks;-><init>()V
     return-void
 .end method
 
@@ -44,19 +41,16 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object p1, p0, Landroidx/lifecycle/ProcessLifecycleOwner$attach$1$onActivityPreCreated$1;
-    ->this$0:Landroidx/lifecycle/ProcessLifecycleOwner;
+    iget-object p1, p0, Landroidx/lifecycle/ProcessLifecycleOwner$attach$1$onActivityPreCreated$1;->this$0:Landroidx/lifecycle/ProcessLifecycleOwner;
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Landroidx/lifecycle/ProcessLifecycleOwner;
-    ->activityResumed$lifecycle_process_release()V
+    invoke-virtual {p1}, Landroidx/lifecycle/ProcessLifecycleOwner;->activityResumed$lifecycle_process_release()V
     return-void
 .end method
 
@@ -68,19 +62,16 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object p1, p0, Landroidx/lifecycle/ProcessLifecycleOwner$attach$1$onActivityPreCreated$1;
-    ->this$0:Landroidx/lifecycle/ProcessLifecycleOwner;
+    iget-object p1, p0, Landroidx/lifecycle/ProcessLifecycleOwner$attach$1$onActivityPreCreated$1;->this$0:Landroidx/lifecycle/ProcessLifecycleOwner;
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Landroidx/lifecycle/ProcessLifecycleOwner;
-    ->activityStarted$lifecycle_process_release()V
+    invoke-virtual {p1}, Landroidx/lifecycle/ProcessLifecycleOwner;->activityStarted$lifecycle_process_release()V
     return-void
 .end method
 

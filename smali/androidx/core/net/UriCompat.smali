@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -27,8 +26,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/net/Uri;
-    ->getScheme()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/net/Uri;->getScheme()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -36,8 +34,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {p0}, Landroid/net/Uri;
-    ->getSchemeSpecificPart()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/net/Uri;->getSchemeSpecificPart()Ljava/lang/String;
 
     .line 6
     .line 7
@@ -61,8 +58,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {v0, v4}, Ljava/lang/String;
-    ->equalsIgnoreCase(Ljava/lang/String;)Z
+    invoke-virtual {v0, v4}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     .line 18
     .line 19
@@ -78,8 +74,7 @@
 
     .line 24
     .line 25
-    invoke-virtual {v0, v4}, Ljava/lang/String;
-    ->equalsIgnoreCase(Ljava/lang/String;)Z
+    invoke-virtual {v0, v4}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     .line 26
     .line 27
@@ -95,8 +90,7 @@
 
     .line 32
     .line 33
-    invoke-virtual {v0, v4}, Ljava/lang/String;
-    ->equalsIgnoreCase(Ljava/lang/String;)Z
+    invoke-virtual {v0, v4}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     .line 34
     .line 35
@@ -112,8 +106,7 @@
 
     .line 40
     .line 41
-    invoke-virtual {v0, v4}, Ljava/lang/String;
-    ->equalsIgnoreCase(Ljava/lang/String;)Z
+    invoke-virtual {v0, v4}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     .line 42
     .line 43
@@ -129,8 +122,7 @@
 
     .line 48
     .line 49
-    invoke-virtual {v0, v4}, Ljava/lang/String;
-    ->equalsIgnoreCase(Ljava/lang/String;)Z
+    invoke-virtual {v0, v4}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     .line 50
     .line 51
@@ -146,8 +138,7 @@
 
     .line 56
     .line 57
-    invoke-virtual {v0, v4}, Ljava/lang/String;
-    ->equalsIgnoreCase(Ljava/lang/String;)Z
+    invoke-virtual {v0, v4}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     .line 58
     .line 59
@@ -167,8 +158,7 @@
 
     .line 65
     .line 66
-    invoke-virtual {v0, v4}, Ljava/lang/String;
-    ->equalsIgnoreCase(Ljava/lang/String;)Z
+    invoke-virtual {v0, v4}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     .line 67
     .line 68
@@ -184,8 +174,7 @@
 
     .line 73
     .line 74
-    invoke-virtual {v0, v4}, Ljava/lang/String;
-    ->equalsIgnoreCase(Ljava/lang/String;)Z
+    invoke-virtual {v0, v4}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     .line 75
     .line 76
@@ -201,8 +190,7 @@
 
     .line 81
     .line 82
-    invoke-virtual {v0, v4}, Ljava/lang/String;
-    ->equalsIgnoreCase(Ljava/lang/String;)Z
+    invoke-virtual {v0, v4}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     .line 83
     .line 84
@@ -218,8 +206,7 @@
 
     .line 89
     .line 90
-    invoke-virtual {v0, v4}, Ljava/lang/String;
-    ->equalsIgnoreCase(Ljava/lang/String;)Z
+    invoke-virtual {v0, v4}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     .line 91
     .line 92
@@ -240,14 +227,12 @@
 
     .line 99
     .line 100
-    invoke-direct {v1, v4}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 101
     .line 102
     .line 103
-    invoke-virtual {p0}, Landroid/net/Uri;
-    ->getHost()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/net/Uri;->getHost()Ljava/lang/String;
 
     .line 104
     .line 105
@@ -263,8 +248,7 @@
 
     .line 110
     .line 111
-    invoke-virtual {p0}, Landroid/net/Uri;
-    ->getHost()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/net/Uri;->getHost()Ljava/lang/String;
 
     .line 112
     .line 113
@@ -280,14 +264,12 @@
 
     .line 117
     :goto_0
-    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 118
     .line 119
     .line 120
-    invoke-virtual {p0}, Landroid/net/Uri;
-    ->getPort()I
+    invoke-virtual {p0}, Landroid/net/Uri;->getPort()I
 
     .line 121
     .line 122
@@ -310,14 +292,12 @@
 
     .line 130
     .line 131
-    invoke-direct {v4, v5}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v4, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 132
     .line 133
     .line 134
-    invoke-virtual {p0}, Landroid/net/Uri;
-    ->getPort()I
+    invoke-virtual {p0}, Landroid/net/Uri;->getPort()I
 
     .line 135
     .line 136
@@ -325,14 +305,12 @@
     move-result p0
 
     .line 138
-    invoke-virtual {v4, p0}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, p0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 139
     .line 140
     .line 141
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 142
     .line 143
@@ -345,8 +323,7 @@
 
     .line 146
     .line 147
-    invoke-static {v1, v5, p0}, LA/d;
-    ->k(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v5, p0}, LA/d;->k(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 148
     .line 149
@@ -363,20 +340,17 @@
 
     .line 153
     .line 154
-    invoke-direct {p0, v3}, Ljava/lang/StringBuilder;
-    -><init>(I)V
+    invoke-direct {p0, v3}, Ljava/lang/StringBuilder;-><init>(I)V
 
     .line 155
     .line 156
     .line 157
-    invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 158
     .line 159
     .line 160
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;
-    ->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     .line 161
     .line 162
@@ -389,8 +363,7 @@
 
     .line 166
     :goto_2
-    invoke-virtual {v1}, Ljava/lang/String;
-    ->length()I
+    invoke-virtual {v1}, Ljava/lang/String;->length()I
 
     .line 167
     .line 168
@@ -402,8 +375,7 @@
 
     .line 171
     .line 172
-    invoke-virtual {v1, v0}, Ljava/lang/String;
-    ->charAt(I)C
+    invoke-virtual {v1, v0}, Ljava/lang/String;->charAt(I)C
 
     .line 173
     .line 174
@@ -439,8 +411,7 @@
 
     .line 188
     .line 189
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;
-    ->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     .line 190
     .line 191
@@ -450,8 +421,7 @@
     .line 193
     :cond_6
     :goto_3
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;
-    ->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     .line 194
     .line 195
@@ -465,8 +435,7 @@
 
     .line 199
     :cond_7
-    invoke-virtual {p0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 200
     .line 201
@@ -482,8 +451,7 @@
 
     .line 205
     .line 206
-    invoke-direct {p0, v3}, Ljava/lang/StringBuilder;
-    -><init>(I)V
+    invoke-direct {p0, v3}, Ljava/lang/StringBuilder;-><init>(I)V
 
     .line 207
     .line 208
@@ -492,14 +460,12 @@
 
     .line 210
     .line 211
-    invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 212
     .line 213
     .line 214
-    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;
-    ->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     .line 215
     .line 216
@@ -509,15 +475,13 @@
 
     .line 218
     .line 219
-    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 220
     .line 221
     .line 222
     :cond_a
-    invoke-virtual {p0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 223
     .line 224

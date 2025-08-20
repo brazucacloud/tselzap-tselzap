@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/navigation/ui/NavigationUI;
-    ->setupWithNavController(Lcom/google/android/material/navigation/NavigationView;Landroidx/navigation/NavController;Z)V
+    value = Landroidx/navigation/ui/NavigationUI;->setupWithNavController(Lcom/google/android/material/navigation/NavigationView;Landroidx/navigation/NavController;Z)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -47,18 +46,15 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/navigation/ui/NavigationUI$setupWithNavController$7;
-    ->$weakReference:Ljava/lang/ref/WeakReference;
+    iput-object p1, p0, Landroidx/navigation/ui/NavigationUI$setupWithNavController$7;->$weakReference:Ljava/lang/ref/WeakReference;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/navigation/ui/NavigationUI$setupWithNavController$7;
-    ->$navController:Landroidx/navigation/NavController;
+    iput-object p2, p0, Landroidx/navigation/ui/NavigationUI$setupWithNavController$7;->$navController:Landroidx/navigation/NavController;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -72,8 +68,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -82,19 +77,16 @@
 
     .line 7
     .line 8
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    iget-object p1, p0, Landroidx/navigation/ui/NavigationUI$setupWithNavController$7;
-    ->$weakReference:Ljava/lang/ref/WeakReference;
+    iget-object p1, p0, Landroidx/navigation/ui/NavigationUI$setupWithNavController$7;->$weakReference:Ljava/lang/ref/WeakReference;
 
     .line 12
     .line 13
-    invoke-virtual {p1}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {p1}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -110,13 +102,11 @@
 
     .line 20
     .line 21
-    iget-object p1, p0, Landroidx/navigation/ui/NavigationUI$setupWithNavController$7;
-    ->$navController:Landroidx/navigation/NavController;
+    iget-object p1, p0, Landroidx/navigation/ui/NavigationUI$setupWithNavController$7;->$navController:Landroidx/navigation/NavController;
 
     .line 22
     .line 23
-    invoke-virtual {p1, p0}, Landroidx/navigation/NavController;
-    ->removeOnDestinationChangedListener(Landroidx/navigation/NavController$OnDestinationChangedListener;)V
+    invoke-virtual {p1, p0}, Landroidx/navigation/NavController;->removeOnDestinationChangedListener(Landroidx/navigation/NavController$OnDestinationChangedListener;)V
 return-void
 
     .line 27
@@ -133,8 +123,7 @@ return-void
 
     .line 32
     :cond_1
-    invoke-virtual {p1}, Lcom/google/android/material/navigation/NavigationView;
-    ->getMenu()Landroid/view/Menu;
+    invoke-virtual {p1}, Lcom/google/android/material/navigation/NavigationView;->getMenu()Landroid/view/Menu;
 
     .line 33
     .line 34
@@ -146,14 +135,12 @@ return-void
 
     .line 37
     .line 38
-    invoke-static {p1, p3}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p3}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 39
     .line 40
     .line 41
-    invoke-interface {p1}, Landroid/view/Menu;
-    ->size()I
+    invoke-interface {p1}, Landroid/view/Menu;->size()I
 
     .line 42
     .line 43
@@ -169,8 +156,7 @@ return-void
 
     .line 47
     .line 48
-    invoke-interface {p1, v0}, Landroid/view/Menu;
-    ->getItem(I)Landroid/view/MenuItem;
+    invoke-interface {p1, v0}, Landroid/view/Menu;->getItem(I)Landroid/view/MenuItem;
 
     .line 49
     .line 50
@@ -182,14 +168,12 @@ return-void
 
     .line 53
     .line 54
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
-    ->b(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->b(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 55
     .line 56
     .line 57
-    invoke-interface {v1}, Landroid/view/MenuItem;
-    ->getItemId()I
+    invoke-interface {v1}, Landroid/view/MenuItem;->getItemId()I
 
     .line 58
     .line 59
@@ -197,8 +181,7 @@ return-void
     move-result v2
 
     .line 61
-    invoke-static {p2, v2}, Landroidx/navigation/ui/NavigationUI;
-    ->matchDestination$navigation_ui_release(Landroidx/navigation/NavDestination;I)Z
+    invoke-static {p2, v2}, Landroidx/navigation/ui/NavigationUI;->matchDestination$navigation_ui_release(Landroidx/navigation/NavDestination;I)Z
 
     .line 62
     .line 63
@@ -206,8 +189,7 @@ return-void
     move-result v2
 
     .line 65
-    invoke-interface {v1, v2}, Landroid/view/MenuItem;
-    ->setChecked(Z)Landroid/view/MenuItem;
+    invoke-interface {v1, v2}, Landroid/view/MenuItem;->setChecked(Z)Landroid/view/MenuItem;
 
     .line 66
     .line 67

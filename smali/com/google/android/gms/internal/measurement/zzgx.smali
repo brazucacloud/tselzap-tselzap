@@ -10,8 +10,7 @@
 .method public synthetic constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -29,8 +28,7 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, p1, v1}, Ljava/util/HashMap;
-    -><init>(IF)V
+    invoke-direct {v0, p1, v1}, Ljava/util/HashMap;-><init>(IF)V
 
     .line 6
     .line 7

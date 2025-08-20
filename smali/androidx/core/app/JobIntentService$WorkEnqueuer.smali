@@ -27,14 +27,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/core/app/JobIntentService$WorkEnqueuer;
-    ->mComponentName:Landroid/content/ComponentName;
+    iput-object p1, p0, Landroidx/core/app/JobIntentService$WorkEnqueuer;->mComponentName:Landroid/content/ComponentName;
 
     .line 5
     .line 6
@@ -50,8 +48,7 @@
     .locals 3
 
     .line 1
-    iget-boolean v0, p0, Landroidx/core/app/JobIntentService$WorkEnqueuer;
-    ->mHasJobId:Z
+    iget-boolean v0, p0, Landroidx/core/app/JobIntentService$WorkEnqueuer;->mHasJobId:Z
 
     .line 2
     .line 3
@@ -62,13 +59,11 @@
     const/4 v0, 0x1
 
     .line 6
-    iput-boolean v0, p0, Landroidx/core/app/JobIntentService$WorkEnqueuer;
-    ->mHasJobId:Z
+    iput-boolean v0, p0, Landroidx/core/app/JobIntentService$WorkEnqueuer;->mHasJobId:Z
 
     .line 7
     .line 8
-    iput p1, p0, Landroidx/core/app/JobIntentService$WorkEnqueuer;
-    ->mJobId:I
+    iput p1, p0, Landroidx/core/app/JobIntentService$WorkEnqueuer;->mJobId:I
 
     .line 9
     .line 10
@@ -76,8 +71,7 @@
 
     .line 11
     :cond_0
-    iget v0, p0, Landroidx/core/app/JobIntentService$WorkEnqueuer;
-    ->mJobId:I
+    iget v0, p0, Landroidx/core/app/JobIntentService$WorkEnqueuer;->mJobId:I
 
     .line 12
     .line 13
@@ -101,8 +95,7 @@
 
     .line 21
     .line 22
-    invoke-static {v1, p1, v2}, LA/d;
-    ->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, p1, v2}, LA/d;->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 23
     .line 24
@@ -110,19 +103,16 @@
     move-result-object p1
 
     .line 26
-    iget v1, p0, Landroidx/core/app/JobIntentService$WorkEnqueuer;
-    ->mJobId:I
+    iget v1, p0, Landroidx/core/app/JobIntentService$WorkEnqueuer;->mJobId:I
 
     .line 27
     .line 28
-    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 29
     .line 30
     .line 31
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 32
     .line 33
@@ -130,8 +120,7 @@
     move-result-object p1
 
     .line 35
-    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 36
     .line 37

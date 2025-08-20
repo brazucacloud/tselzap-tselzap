@@ -5,8 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->setItemDragAndDropWithLongPress(Landroid/view/View;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;)V
+    value = Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->setItemDragAndDropWithLongPress(Landroid/view/View;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -46,18 +45,15 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$setItemDragAndDropWithLongPress$longPressGestureListener$1;
-    ->$holder:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
+    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$setItemDragAndDropWithLongPress$longPressGestureListener$1;->$holder:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
 
     .line 2
     .line 3
-    iput-object p2, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$setItemDragAndDropWithLongPress$longPressGestureListener$1;
-    ->this$0:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
+    iput-object p2, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$setItemDragAndDropWithLongPress$longPressGestureListener$1;->this$0:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Landroid/view/GestureDetector$SimpleOnGestureListener;
-    -><init>()V
+    invoke-direct {p0}, Landroid/view/GestureDetector$SimpleOnGestureListener;-><init>()V
 
     .line 6
     .line 7
@@ -75,19 +71,16 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$setItemDragAndDropWithLongPress$longPressGestureListener$1;
-    ->$holder:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
+    iget-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$setItemDragAndDropWithLongPress$longPressGestureListener$1;->$holder:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->isBeingSwiped$drag_drop_swipe_recyclerview_release()Z
+    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->isBeingSwiped$drag_drop_swipe_recyclerview_release()Z
 
     .line 9
     .line 10
@@ -99,13 +92,11 @@
 
     .line 13
     .line 14
-    iget-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$setItemDragAndDropWithLongPress$longPressGestureListener$1;
-    ->$holder:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
+    iget-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$setItemDragAndDropWithLongPress$longPressGestureListener$1;->$holder:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
 
     .line 15
     .line 16
-    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
-    ->isBeingDragged$drag_drop_swipe_recyclerview_release()Z
+    invoke-virtual {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;->isBeingDragged$drag_drop_swipe_recyclerview_release()Z
 
     .line 17
     .line 18
@@ -136,19 +127,16 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$setItemDragAndDropWithLongPress$longPressGestureListener$1;
-    ->this$0:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
+    iget-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$setItemDragAndDropWithLongPress$longPressGestureListener$1;->this$0:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
 
     .line 7
     .line 8
-    invoke-static {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->access$getItemTouchHelper$p(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;)Landroidx/recyclerview/widget/ItemTouchHelper;
+    invoke-static {p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->access$getItemTouchHelper$p(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;)Landroidx/recyclerview/widget/ItemTouchHelper;
 
     .line 9
     .line 10
@@ -156,13 +144,11 @@
     move-result-object p1
 
     .line 12
-    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$setItemDragAndDropWithLongPress$longPressGestureListener$1;
-    ->$holder:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
+    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$setItemDragAndDropWithLongPress$longPressGestureListener$1;->$holder:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
 
     .line 13
     .line 14
-    invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/ItemTouchHelper;
-    ->startDrag(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
+    invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/ItemTouchHelper;->startDrag(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
 
     .line 15
     .line 16

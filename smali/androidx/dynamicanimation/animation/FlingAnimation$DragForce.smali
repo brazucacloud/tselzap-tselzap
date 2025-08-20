@@ -36,8 +36,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -47,8 +46,7 @@
     .line 5
     .line 6
     .line 7
-    iput v0, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;
-    ->mFriction:F
+    iput v0, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->mFriction:F
 
     .line 8
     .line 9
@@ -56,14 +54,12 @@
 
     .line 10
     .line 11
-    invoke-direct {v0}, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;-><init>()V
 
     .line 12
     .line 13
     .line 14
-    iput-object v0, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;
-    ->mMassState:Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;    
+    iput-object v0, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->mMassState:Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
     return-void
 .end method
 
@@ -73,8 +69,7 @@
     .locals 0
 
     .line 1
-    iget p1, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;
-    ->mFriction:F
+    iget p1, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->mFriction:F
 
     .line 2
     .line 3
@@ -85,8 +80,7 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;
-    ->mFriction:F
+    iget v0, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->mFriction:F
 
     .line 2
     .line 3
@@ -104,8 +98,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p2}, Ljava/lang/Math;
-    ->abs(F)F
+    invoke-static {p2}, Ljava/lang/Math;->abs(F)F
 
     .line 2
     .line 3
@@ -113,8 +106,7 @@
     move-result p1
 
     .line 5
-    iget p2, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;
-    ->mVelocityThreshold:F
+    iget p2, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->mVelocityThreshold:F
 
     .line 6
     .line 7
@@ -150,8 +142,7 @@
 
     .line 5
     .line 6
-    iput p1, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;
-    ->mFriction:F    
+    iput p1, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->mFriction:F
     return-void
 .end method
 
@@ -167,8 +158,7 @@
 
     .line 4
     .line 5
-    iput p1, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;
-    ->mVelocityThreshold:F    
+    iput p1, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->mVelocityThreshold:F
     return-void
 .end method
 
@@ -176,8 +166,7 @@
     .locals 5
 
     .line 1
-    iget-object v0, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;
-    ->mMassState:Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
+    iget-object v0, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->mMassState:Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
 
     .line 2
     .line 3
@@ -195,8 +184,7 @@
 
     .line 8
     .line 9
-    iget v4, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;
-    ->mFriction:F
+    iget v4, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->mFriction:F
 
     .line 10
     .line 11
@@ -207,8 +195,7 @@
     float-to-double v3, v3
 
     .line 14
-    invoke-static {v3, v4}, Ljava/lang/Math;
-    ->exp(D)D
+    invoke-static {v3, v4}, Ljava/lang/Math;->exp(D)D
 
     .line 15
     .line 16
@@ -223,18 +210,15 @@
     double-to-float v1, v3
 
     .line 21
-    iput v1, v0, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
-    ->mVelocity:F
+    iput v1, v0, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;->mVelocity:F
 
     .line 22
     .line 23
-    iget-object v0, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;
-    ->mMassState:Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
+    iget-object v0, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->mMassState:Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
 
     .line 24
     .line 25
-    iget v1, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;
-    ->mFriction:F
+    iget v1, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->mFriction:F
 
     .line 26
     .line 27
@@ -264,8 +248,7 @@
     float-to-double p3, v1
 
     .line 37
-    invoke-static {p3, p4}, Ljava/lang/Math;
-    ->exp(D)D
+    invoke-static {p3, p4}, Ljava/lang/Math;->exp(D)D
 
     .line 38
     .line 39
@@ -283,28 +266,23 @@
     double-to-float p1, p3
 
     .line 45
-    iput p1, v0, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
-    ->mValue:F
+    iput p1, v0, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;->mValue:F
 
     .line 46
     .line 47
-    iget-object p1, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;
-    ->mMassState:Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
+    iget-object p1, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->mMassState:Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
 
     .line 48
     .line 49
-    iget p2, p1, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
-    ->mValue:F
+    iget p2, p1, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;->mValue:F
 
     .line 50
     .line 51
-    iget p1, p1, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
-    ->mVelocity:F
+    iget p1, p1, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;->mVelocity:F
 
     .line 52
     .line 53
-    invoke-virtual {p0, p2, p1}, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;
-    ->isAtEquilibrium(FF)Z
+    invoke-virtual {p0, p2, p1}, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->isAtEquilibrium(FF)Z
 
     .line 54
     .line 55
@@ -316,22 +294,19 @@
 
     .line 58
     .line 59
-    iget-object p1, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;
-    ->mMassState:Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
+    iget-object p1, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->mMassState:Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
 
     .line 60
     .line 61
     const/4 p2, 0x0
 
     .line 62
-    iput p2, p1, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;
-    ->mVelocity:F
+    iput p2, p1, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;->mVelocity:F
 
     .line 63
     .line 64
     :cond_0
-    iget-object p1, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;
-    ->mMassState:Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;    return-object p1
+    iget-object p1, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->mMassState:Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;    return-object p1
 .end method
 
 .end class

@@ -14,11 +14,9 @@
 .method public constructor <init>(Lcom/google/android/gms/common/api/internal/zabe;Lcom/google/android/gms/common/api/internal/StatusPendingResult;)V
     .locals 0
 
-    iput-object p2, p0, Lcom/google/android/gms/common/api/internal/zaba;
-    ->zaa:Lcom/google/android/gms/common/api/internal/StatusPendingResult;
+    iput-object p2, p0, Lcom/google/android/gms/common/api/internal/zaba;->zaa:Lcom/google/android/gms/common/api/internal/StatusPendingResult;
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -40,19 +38,16 @@
 
     .line 4
     .line 5
-    invoke-direct {p1, v0}, Lcom/google/android/gms/common/api/Status;
-    -><init>(I)V
+    invoke-direct {p1, v0}, Lcom/google/android/gms/common/api/Status;-><init>(I)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaba;
-    ->zaa:Lcom/google/android/gms/common/api/internal/StatusPendingResult;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zaba;->zaa:Lcom/google/android/gms/common/api/internal/StatusPendingResult;
 
     .line 9
     .line 10
-    invoke-virtual {v0, p1}, Lcom/google/android/gms/common/api/internal/BasePendingResult;
-    ->setResult(Lcom/google/android/gms/common/api/Result;)V
+    invoke-virtual {v0, p1}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->setResult(Lcom/google/android/gms/common/api/Result;)V
 
     .line 11
     .line 12

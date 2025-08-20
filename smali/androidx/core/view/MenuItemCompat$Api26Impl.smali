@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -38,8 +37,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0}, Landroid/view/MenuItem;
-    ->getAlphabeticModifiers()I
+    invoke-interface {p0}, Landroid/view/MenuItem;->getAlphabeticModifiers()I
 
     .line 2
     .line 3
@@ -55,8 +53,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0}, Landroid/view/MenuItem;
-    ->getContentDescription()Ljava/lang/CharSequence;
+    invoke-interface {p0}, Landroid/view/MenuItem;->getContentDescription()Ljava/lang/CharSequence;
 
     .line 2
     .line 3
@@ -72,8 +69,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0}, Landroid/view/MenuItem;
-    ->getIconTintList()Landroid/content/res/ColorStateList;
+    invoke-interface {p0}, Landroid/view/MenuItem;->getIconTintList()Landroid/content/res/ColorStateList;
 
     .line 2
     .line 3
@@ -89,8 +85,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0}, Landroid/view/MenuItem;
-    ->getIconTintMode()Landroid/graphics/PorterDuff$Mode;
+    invoke-interface {p0}, Landroid/view/MenuItem;->getIconTintMode()Landroid/graphics/PorterDuff$Mode;
 
     .line 2
     .line 3
@@ -106,8 +101,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0}, Landroid/view/MenuItem;
-    ->getNumericModifiers()I
+    invoke-interface {p0}, Landroid/view/MenuItem;->getNumericModifiers()I
 
     .line 2
     .line 3
@@ -123,8 +117,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0}, Landroid/view/MenuItem;
-    ->getTooltipText()Ljava/lang/CharSequence;
+    invoke-interface {p0}, Landroid/view/MenuItem;->getTooltipText()Ljava/lang/CharSequence;
 
     .line 2
     .line 3
@@ -140,8 +133,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0, p1, p2}, Landroid/view/MenuItem;
-    ->setAlphabeticShortcut(CI)Landroid/view/MenuItem;
+    invoke-interface {p0, p1, p2}, Landroid/view/MenuItem;->setAlphabeticShortcut(CI)Landroid/view/MenuItem;
 
     .line 2
     .line 3
@@ -157,8 +149,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0, p1}, Landroid/view/MenuItem;
-    ->setContentDescription(Ljava/lang/CharSequence;)Landroid/view/MenuItem;
+    invoke-interface {p0, p1}, Landroid/view/MenuItem;->setContentDescription(Ljava/lang/CharSequence;)Landroid/view/MenuItem;
 
     .line 2
     .line 3
@@ -174,8 +165,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0, p1}, Landroid/view/MenuItem;
-    ->setIconTintList(Landroid/content/res/ColorStateList;)Landroid/view/MenuItem;
+    invoke-interface {p0, p1}, Landroid/view/MenuItem;->setIconTintList(Landroid/content/res/ColorStateList;)Landroid/view/MenuItem;
 
     .line 2
     .line 3
@@ -191,8 +181,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0, p1}, Landroid/view/MenuItem;
-    ->setIconTintMode(Landroid/graphics/PorterDuff$Mode;)Landroid/view/MenuItem;
+    invoke-interface {p0, p1}, Landroid/view/MenuItem;->setIconTintMode(Landroid/graphics/PorterDuff$Mode;)Landroid/view/MenuItem;
 
     .line 2
     .line 3
@@ -208,8 +197,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0, p1, p2}, Landroid/view/MenuItem;
-    ->setNumericShortcut(CI)Landroid/view/MenuItem;
+    invoke-interface {p0, p1, p2}, Landroid/view/MenuItem;->setNumericShortcut(CI)Landroid/view/MenuItem;
 
     .line 2
     .line 3
@@ -225,8 +213,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0, p1, p2, p3, p4}, Landroid/view/MenuItem;
-    ->setShortcut(CCII)Landroid/view/MenuItem;
+    invoke-interface {p0, p1, p2, p3, p4}, Landroid/view/MenuItem;->setShortcut(CCII)Landroid/view/MenuItem;
 
     .line 2
     .line 3
@@ -242,8 +229,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0, p1}, Landroid/view/MenuItem;
-    ->setTooltipText(Ljava/lang/CharSequence;)Landroid/view/MenuItem;
+    invoke-interface {p0, p1}, Landroid/view/MenuItem;->setTooltipText(Ljava/lang/CharSequence;)Landroid/view/MenuItem;
 
     .line 2
     .line 3

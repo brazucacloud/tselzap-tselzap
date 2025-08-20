@@ -16,14 +16,11 @@
 .method public synthetic constructor <init>(Lcom/google/android/gms/common/moduleinstall/internal/zay;Lcom/google/android/gms/common/moduleinstall/internal/ApiFeatureRequest;)V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/moduleinstall/internal/zan;
-    ->zaa:Lcom/google/android/gms/common/moduleinstall/internal/zay;
+    iput-object p1, p0, Lcom/google/android/gms/common/moduleinstall/internal/zan;->zaa:Lcom/google/android/gms/common/moduleinstall/internal/zay;
 
-    iput-object p2, p0, Lcom/google/android/gms/common/moduleinstall/internal/zan;
-    ->zab:Lcom/google/android/gms/common/moduleinstall/internal/ApiFeatureRequest;
+    iput-object p2, p0, Lcom/google/android/gms/common/moduleinstall/internal/zan;->zab:Lcom/google/android/gms/common/moduleinstall/internal/ApiFeatureRequest;
 
     return-void
 .end method
@@ -46,19 +43,16 @@
 
     .line 6
     .line 7
-    iget-object v1, p0, Lcom/google/android/gms/common/moduleinstall/internal/zan;
-    ->zaa:Lcom/google/android/gms/common/moduleinstall/internal/zay;
+    iget-object v1, p0, Lcom/google/android/gms/common/moduleinstall/internal/zan;->zaa:Lcom/google/android/gms/common/moduleinstall/internal/zay;
 
     .line 8
     .line 9
-    invoke-direct {v0, v1, p2}, Lcom/google/android/gms/common/moduleinstall/internal/zaw;
-    -><init>(Lcom/google/android/gms/common/moduleinstall/internal/zay;Lcom/google/android/gms/tasks/TaskCompletionSource;)V
+    invoke-direct {v0, v1, p2}, Lcom/google/android/gms/common/moduleinstall/internal/zaw;-><init>(Lcom/google/android/gms/common/moduleinstall/internal/zay;Lcom/google/android/gms/tasks/TaskCompletionSource;)V
 
     .line 10
     .line 11
     .line 12
-    invoke-virtual {p1}, Lcom/google/android/gms/common/internal/BaseGmsClient;
-    ->getService()Landroid/os/IInterface;
+    invoke-virtual {p1}, Lcom/google/android/gms/common/internal/BaseGmsClient;->getService()Landroid/os/IInterface;
 
     .line 13
     .line 14
@@ -70,13 +64,11 @@
 
     .line 17
     .line 18
-    iget-object p2, p0, Lcom/google/android/gms/common/moduleinstall/internal/zan;
-    ->zab:Lcom/google/android/gms/common/moduleinstall/internal/ApiFeatureRequest;
+    iget-object p2, p0, Lcom/google/android/gms/common/moduleinstall/internal/zan;->zab:Lcom/google/android/gms/common/moduleinstall/internal/ApiFeatureRequest;
 
     .line 19
     .line 20
-    invoke-virtual {p1, v0, p2}, Lcom/google/android/gms/common/moduleinstall/internal/zaf;
-    ->zaf(Lcom/google/android/gms/common/moduleinstall/internal/zae;Lcom/google/android/gms/common/moduleinstall/internal/ApiFeatureRequest;)V
+    invoke-virtual {p1, v0, p2}, Lcom/google/android/gms/common/moduleinstall/internal/zaf;->zaf(Lcom/google/android/gms/common/moduleinstall/internal/zae;Lcom/google/android/gms/common/moduleinstall/internal/ApiFeatureRequest;)V
 
     .line 21
     .line 22

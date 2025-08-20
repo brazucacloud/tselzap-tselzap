@@ -36,8 +36,7 @@
     .locals 3
 
     .line 1
-    sget-object v0, Li/b;
-    ->d:Li/b;
+    sget-object v0, Li/b;->d:Li/b;
 
     .line 2
     .line 3
@@ -45,8 +44,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Li/h;
-    ->a(Ljava/lang/Object;Ljava/lang/String;)Li/h;
+    invoke-static {v0, v1}, Li/h;->a(Ljava/lang/Object;Ljava/lang/String;)Li/h;
 
     .line 6
     .line 7
@@ -54,13 +52,11 @@
     move-result-object v0
 
     .line 9
-    sput-object v0, Lr/q;
-    ->f:Li/h;
+    sput-object v0, Lr/q;->f:Li/h;
 
     .line 10
     .line 11
-    sget-object v0, Li/j;
-    ->b:Li/j;
+    sget-object v0, Li/j;->b:Li/j;
 
     .line 12
     .line 13
@@ -68,8 +64,7 @@
 
     .line 14
     .line 15
-    invoke-static {v0, v1}, Li/h;
-    ->a(Ljava/lang/Object;Ljava/lang/String;)Li/h;
+    invoke-static {v0, v1}, Li/h;->a(Ljava/lang/Object;Ljava/lang/String;)Li/h;
 
     .line 16
     .line 17
@@ -77,18 +72,15 @@
     move-result-object v0
 
     .line 19
-    sput-object v0, Lr/q;
-    ->g:Li/h;
+    sput-object v0, Lr/q;->g:Li/h;
 
     .line 20
     .line 21
-    sget-object v0, Lr/o;
-    ->b:Lr/o;
+    sget-object v0, Lr/o;->b:Lr/o;
 
     .line 22
     .line 23
-    sget-object v0, Ljava/lang/Boolean;
-    ->FALSE:Ljava/lang/Boolean;
+    sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     .line 24
     .line 25
@@ -96,8 +88,7 @@
 
     .line 26
     .line 27
-    invoke-static {v0, v1}, Li/h;
-    ->a(Ljava/lang/Object;Ljava/lang/String;)Li/h;
+    invoke-static {v0, v1}, Li/h;->a(Ljava/lang/Object;Ljava/lang/String;)Li/h;
 
     .line 28
     .line 29
@@ -105,8 +96,7 @@
     move-result-object v1
 
     .line 31
-    sput-object v1, Lr/q;
-    ->h:Li/h;
+    sput-object v1, Lr/q;->h:Li/h;
 
     .line 32
     .line 33
@@ -114,8 +104,7 @@
 
     .line 34
     .line 35
-    invoke-static {v0, v1}, Li/h;
-    ->a(Ljava/lang/Object;Ljava/lang/String;)Li/h;
+    invoke-static {v0, v1}, Li/h;->a(Ljava/lang/Object;Ljava/lang/String;)Li/h;
 
     .line 36
     .line 37
@@ -123,8 +112,7 @@
     move-result-object v0
 
     .line 39
-    sput-object v0, Lr/q;
-    ->i:Li/h;
+    sput-object v0, Lr/q;->i:Li/h;
 
     .line 40
     .line 41
@@ -148,8 +136,7 @@
     move-result-object v1
 
     .line 51
-    invoke-static {v1}, Ljava/util/Arrays;
-    ->asList([Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {v1}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
     .line 52
     .line 53
@@ -157,14 +144,12 @@
     move-result-object v1
 
     .line 55
-    invoke-direct {v0, v1}, Ljava/util/HashSet;
-    -><init>(Ljava/util/Collection;)V
+    invoke-direct {v0, v1}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
 
     .line 56
     .line 57
     .line 58
-    invoke-static {v0}, Ljava/util/Collections;
-    ->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
+    invoke-static {v0}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
 
     .line 59
     .line 60
@@ -172,8 +157,7 @@
     move-result-object v0
 
     .line 62
-    sput-object v0, Lr/q;
-    ->j:Ljava/util/Set;
+    sput-object v0, Lr/q;->j:Ljava/util/Set;
 
     .line 63
     .line 64
@@ -185,34 +169,28 @@
 
     .line 67
     .line 68
-    invoke-direct {v0, v1}, Lu0/f;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Lu0/f;-><init>(I)V
 
     .line 69
     .line 70
     .line 71
-    sput-object v0, Lr/q;
-    ->k:Lu0/f;
+    sput-object v0, Lr/q;->k:Lu0/f;
 
     .line 72
     .line 73
-    sget-object v0, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
-    ->JPEG:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    sget-object v0, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;->JPEG:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
     .line 74
     .line 75
-    sget-object v1, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
-    ->PNG_A:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    sget-object v1, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;->PNG_A:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
     .line 76
     .line 77
-    sget-object v2, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
-    ->PNG:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    sget-object v2, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;->PNG:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
     .line 78
     .line 79
-    invoke-static {v0, v1, v2}, Ljava/util/EnumSet;
-    ->of(Ljava/lang/Enum;Ljava/lang/Enum;Ljava/lang/Enum;)Ljava/util/EnumSet;
+    invoke-static {v0, v1, v2}, Ljava/util/EnumSet;->of(Ljava/lang/Enum;Ljava/lang/Enum;Ljava/lang/Enum;)Ljava/util/EnumSet;
 
     .line 80
     .line 81
@@ -220,14 +198,12 @@
     move-result-object v0
 
     .line 83
-    invoke-static {v0}, Ljava/util/Collections;
-    ->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
+    invoke-static {v0}, Ljava/util/Collections;->unmodifiableSet(Ljava/util/Set;)Ljava/util/Set;
 
     .line 84
     .line 85
     .line 86
-    sget-object v0, LE/o;
-    ->a:[C
+    sget-object v0, LE/o;->a:[C
 
     .line 87
     .line 88
@@ -238,14 +214,12 @@
     const/4 v1, 0x0
 
     .line 91
-    invoke-direct {v0, v1}, Ljava/util/ArrayDeque;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Ljava/util/ArrayDeque;-><init>(I)V
 
     .line 92
     .line 93
     .line 94
-    sput-object v0, Lr/q;
-    ->l:Ljava/util/ArrayDeque;
+    sput-object v0, Lr/q;->l:Ljava/util/ArrayDeque;
 
     .line 95
     .line 96
@@ -256,14 +230,12 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-static {}, Lr/w;
-    ->a()Lr/w;
+    invoke-static {}, Lr/w;->a()Lr/w;
 
     .line 5
     .line 6
@@ -271,13 +243,11 @@
     move-result-object v0
 
     .line 8
-    iput-object v0, p0, Lr/q;
-    ->e:Lr/w;
+    iput-object v0, p0, Lr/q;->e:Lr/w;
 
     .line 9
     .line 10
-    iput-object p1, p0, Lr/q;
-    ->d:Ljava/util/ArrayList;
+    iput-object p1, p0, Lr/q;->d:Ljava/util/ArrayList;
 
     .line 11
     .line 12
@@ -285,24 +255,20 @@
 
     .line 13
     .line 14
-    invoke-static {p2, p1}, LE/h;
-    ->c(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, LE/h;->c(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 15
     .line 16
     .line 17
-    iput-object p2, p0, Lr/q;
-    ->b:Landroid/util/DisplayMetrics;
+    iput-object p2, p0, Lr/q;->b:Landroid/util/DisplayMetrics;
 
     .line 18
     .line 19
-    iput-object p3, p0, Lr/q;
-    ->a:Ll/a;
+    iput-object p3, p0, Lr/q;->a:Ll/a;
 
     .line 20
     .line 21
-    iput-object p4, p0, Lr/q;
-    ->c:Ll/f;
+    iput-object p4, p0, Lr/q;->c:Ll/f;
 
     .line 22
     .line 23
@@ -317,8 +283,7 @@
 
     .line 2
     .line 3
-    iget-boolean v1, p1, Landroid/graphics/BitmapFactory$Options;
-    ->inJustDecodeBounds:Z
+    iget-boolean v1, p1, Landroid/graphics/BitmapFactory$Options;->inJustDecodeBounds:Z
 
     .line 4
     .line 5
@@ -326,14 +291,12 @@
 
     .line 6
     .line 7
-    invoke-interface {p2}, Lr/p;
-    ->q()V
+    invoke-interface {p2}, Lr/p;->q()V
 
     .line 8
     .line 9
     .line 10
-    iget v1, p0, LA0/d;
-    ->b:I
+    iget v1, p0, LA0/d;->b:I
 
     .line 11
     .line 12
@@ -346,8 +309,7 @@
 
     .line 16
     :pswitch_0
-    iget-object v1, p0, LA0/d;
-    ->c:Ljava/lang/Object;
+    iget-object v1, p0, LA0/d;->c:Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -355,8 +317,7 @@
 
     .line 19
     .line 20
-    iget-object v1, v1, Lcom/bumptech/glide/load/data/i;
-    ->c:Ljava/lang/Object;
+    iget-object v1, v1, Lcom/bumptech/glide/load/data/i;->c:Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -368,16 +329,14 @@
 
     .line 25
     :try_start_0
-    iget-object v2, v1, Lr/x;
-    ->b:[B
+    iget-object v2, v1, Lr/x;->b:[B
 
     .line 26
     .line 27
     array-length v2, v2
 
     .line 28
-    iput v2, v1, Lr/x;
-    ->d:I
+    iput v2, v1, Lr/x;->d:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -404,35 +363,29 @@
     .line 35
     :cond_0
     :goto_0
-    iget v1, p1, Landroid/graphics/BitmapFactory$Options;
-    ->outWidth:I
+    iget v1, p1, Landroid/graphics/BitmapFactory$Options;->outWidth:I
 
     .line 36
     .line 37
-    iget v2, p1, Landroid/graphics/BitmapFactory$Options;
-    ->outHeight:I
+    iget v2, p1, Landroid/graphics/BitmapFactory$Options;->outHeight:I
 
     .line 38
     .line 39
-    iget-object v3, p1, Landroid/graphics/BitmapFactory$Options;
-    ->outMimeType:Ljava/lang/String;
+    iget-object v3, p1, Landroid/graphics/BitmapFactory$Options;->outMimeType:Ljava/lang/String;
 
     .line 40
     .line 41
-    sget-object v4, Lr/z;
-    ->d:Ljava/util/concurrent/locks/Lock;
+    sget-object v4, Lr/z;->d:Ljava/util/concurrent/locks/Lock;
 
     .line 42
     .line 43
-    invoke-interface {v4}, Ljava/util/concurrent/locks/Lock;
-    ->lock()V
+    invoke-interface {v4}, Ljava/util/concurrent/locks/Lock;->lock()V
 
     .line 44
     .line 45
     .line 46
     :try_start_2
-    invoke-virtual {p0, p1}, LA0/d;
-    ->c(Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
+    invoke-virtual {p0, p1}, LA0/d;->c(Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
 
     .line 47
     .line 48
@@ -443,8 +396,7 @@
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
     .line 50
-    invoke-interface {v4}, Ljava/util/concurrent/locks/Lock;
-    ->unlock()V
+    invoke-interface {v4}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
     .line 51
     .line 52
@@ -473,8 +425,7 @@
 
     .line 62
     .line 63
-    invoke-static {v6, v1, v7, v2, v8}, LA/d;
-    ->q(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v6, v1, v7, v2, v8}, LA/d;->q(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 64
     .line 65
@@ -482,8 +433,7 @@
     move-result-object v1
 
     .line 67
-    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 68
     .line 69
@@ -492,19 +442,16 @@
 
     .line 71
     .line 72
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 73
     .line 74
     .line 75
-    iget-object v2, p1, Landroid/graphics/BitmapFactory$Options;
-    ->inBitmap:Landroid/graphics/Bitmap;
+    iget-object v2, p1, Landroid/graphics/BitmapFactory$Options;->inBitmap:Landroid/graphics/Bitmap;
 
     .line 76
     .line 77
-    invoke-static {v2}, Lr/q;
-    ->d(Landroid/graphics/Bitmap;)Ljava/lang/String;
+    invoke-static {v2}, Lr/q;->d(Landroid/graphics/Bitmap;)Ljava/lang/String;
 
     .line 78
     .line 79
@@ -512,14 +459,12 @@
     move-result-object v2
 
     .line 81
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 82
     .line 83
     .line 84
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 85
     .line 86
@@ -527,8 +472,7 @@
     move-result-object v1
 
     .line 88
-    invoke-direct {v5, v1, v4}, Ljava/io/IOException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v5, v1, v4}, Ljava/io/IOException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 89
     .line 90
@@ -536,8 +480,7 @@
     const/4 v1, 0x3
 
     .line 92
-    invoke-static {v0, v1}, Landroid/util/Log;
-    ->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v0, v1}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     .line 93
     .line 94
@@ -553,15 +496,13 @@
 
     .line 99
     .line 100
-    invoke-static {v0, v1, v5}, Landroid/util/Log;
-    ->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v0, v1, v5}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 101
     .line 102
     .line 103
     :cond_1
-    iget-object v0, p1, Landroid/graphics/BitmapFactory$Options;
-    ->inBitmap:Landroid/graphics/Bitmap;
+    iget-object v0, p1, Landroid/graphics/BitmapFactory$Options;->inBitmap:Landroid/graphics/Bitmap;
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
@@ -572,8 +513,7 @@
     .line 106
     .line 107
     :try_start_4
-    invoke-interface {p3, v0}, Ll/a;
-    ->i(Landroid/graphics/Bitmap;)V
+    invoke-interface {p3, v0}, Ll/a;->i(Landroid/graphics/Bitmap;)V
 
     .line 108
     .line 109
@@ -581,13 +521,11 @@
     const/4 v0, 0x0
 
     .line 111
-    iput-object v0, p1, Landroid/graphics/BitmapFactory$Options;
-    ->inBitmap:Landroid/graphics/Bitmap;
+    iput-object v0, p1, Landroid/graphics/BitmapFactory$Options;->inBitmap:Landroid/graphics/Bitmap;
 
     .line 112
     .line 113
-    invoke-static {p0, p1, p2, p3}, Lr/q;
-    ->c(LA0/d;Landroid/graphics/BitmapFactory$Options;Lr/p;Ll/a;)Landroid/graphics/Bitmap;
+    invoke-static {p0, p1, p2, p3}, Lr/q;->c(LA0/d;Landroid/graphics/BitmapFactory$Options;Lr/p;Ll/a;)Landroid/graphics/Bitmap;
 
     .line 114
     .line 115
@@ -598,13 +536,11 @@
     .catchall {:try_start_4 .. :try_end_4} :catchall_1
 
     .line 117
-    sget-object p1, Lr/z;
-    ->d:Ljava/util/concurrent/locks/Lock;
+    sget-object p1, Lr/z;->d:Ljava/util/concurrent/locks/Lock;
 
     .line 118
     .line 119
-    invoke-interface {p1}, Ljava/util/concurrent/locks/Lock;
-    ->unlock()V
+    invoke-interface {p1}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
     .line 120
     .line 121
@@ -627,13 +563,11 @@
     move-exception p0
 
     .line 126
-    sget-object p1, Lr/z;
-    ->d:Ljava/util/concurrent/locks/Lock;
+    sget-object p1, Lr/z;->d:Ljava/util/concurrent/locks/Lock;
 
     .line 127
     .line 128
-    invoke-interface {p1}, Ljava/util/concurrent/locks/Lock;
-    ->unlock()V
+    invoke-interface {p1}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
     .line 129
     .line 130
@@ -756,14 +690,12 @@
 
     .line 8
     .line 9
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 10
     .line 11
     .line 12
-    invoke-virtual {p0}, Landroid/graphics/Bitmap;
-    ->getAllocationByteCount()I
+    invoke-virtual {p0}, Landroid/graphics/Bitmap;->getAllocationByteCount()I
 
     .line 13
     .line 14
@@ -771,8 +703,7 @@
     move-result v1
 
     .line 16
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 17
     .line 18
@@ -781,14 +712,12 @@
 
     .line 20
     .line 21
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 22
     .line 23
     .line 24
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 25
     .line 26
@@ -804,14 +733,12 @@
 
     .line 31
     .line 32
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 33
     .line 34
     .line 35
-    invoke-virtual {p0}, Landroid/graphics/Bitmap;
-    ->getWidth()I
+    invoke-virtual {p0}, Landroid/graphics/Bitmap;->getWidth()I
 
     .line 36
     .line 37
@@ -819,8 +746,7 @@
     move-result v2
 
     .line 39
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 40
     .line 41
@@ -829,14 +755,12 @@
 
     .line 43
     .line 44
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 45
     .line 46
     .line 47
-    invoke-virtual {p0}, Landroid/graphics/Bitmap;
-    ->getHeight()I
+    invoke-virtual {p0}, Landroid/graphics/Bitmap;->getHeight()I
 
     .line 48
     .line 49
@@ -844,8 +768,7 @@
     move-result v2
 
     .line 51
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 52
     .line 53
@@ -854,14 +777,12 @@
 
     .line 55
     .line 56
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 57
     .line 58
     .line 59
-    invoke-virtual {p0}, Landroid/graphics/Bitmap;
-    ->getConfig()Landroid/graphics/Bitmap$Config;
+    invoke-virtual {p0}, Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;
 
     .line 60
     .line 61
@@ -869,20 +790,17 @@
     move-result-object p0
 
     .line 63
-    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 64
     .line 65
     .line 66
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 67
     .line 68
     .line 69
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 70
     .line 71
@@ -896,14 +814,12 @@
     .locals 1
 
     .line 1
-    invoke-static {p0}, Lr/q;
-    ->f(Landroid/graphics/BitmapFactory$Options;)V
+    invoke-static {p0}, Lr/q;->f(Landroid/graphics/BitmapFactory$Options;)V
 
     .line 2
     .line 3
     .line 4
-    sget-object v0, Lr/q;
-    ->l:Ljava/util/ArrayDeque;
+    sget-object v0, Lr/q;->l:Ljava/util/ArrayDeque;
 
     .line 5
     .line 6
@@ -911,8 +827,7 @@
 
     .line 7
     :try_start_0
-    invoke-virtual {v0, p0}, Ljava/util/ArrayDeque;
-    ->offer(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p0}, Ljava/util/ArrayDeque;->offer(Ljava/lang/Object;)Z
 
     .line 8
     .line 9
@@ -954,54 +869,45 @@
     const/4 v0, 0x0
 
     .line 2
-    iput-object v0, p0, Landroid/graphics/BitmapFactory$Options;
-    ->inTempStorage:[B
+    iput-object v0, p0, Landroid/graphics/BitmapFactory$Options;->inTempStorage:[B
 
     .line 3
     .line 4
     const/4 v1, 0x0
 
     .line 5
-    iput-boolean v1, p0, Landroid/graphics/BitmapFactory$Options;
-    ->inDither:Z
+    iput-boolean v1, p0, Landroid/graphics/BitmapFactory$Options;->inDither:Z
 
     .line 6
     .line 7
-    iput-boolean v1, p0, Landroid/graphics/BitmapFactory$Options;
-    ->inScaled:Z
+    iput-boolean v1, p0, Landroid/graphics/BitmapFactory$Options;->inScaled:Z
 
     .line 8
     .line 9
     const/4 v2, 0x1
 
     .line 10
-    iput v2, p0, Landroid/graphics/BitmapFactory$Options;
-    ->inSampleSize:I
+    iput v2, p0, Landroid/graphics/BitmapFactory$Options;->inSampleSize:I
 
     .line 11
     .line 12
-    iput-object v0, p0, Landroid/graphics/BitmapFactory$Options;
-    ->inPreferredConfig:Landroid/graphics/Bitmap$Config;
+    iput-object v0, p0, Landroid/graphics/BitmapFactory$Options;->inPreferredConfig:Landroid/graphics/Bitmap$Config;
 
     .line 13
     .line 14
-    iput-boolean v1, p0, Landroid/graphics/BitmapFactory$Options;
-    ->inJustDecodeBounds:Z
+    iput-boolean v1, p0, Landroid/graphics/BitmapFactory$Options;->inJustDecodeBounds:Z
 
     .line 15
     .line 16
-    iput v1, p0, Landroid/graphics/BitmapFactory$Options;
-    ->inDensity:I
+    iput v1, p0, Landroid/graphics/BitmapFactory$Options;->inDensity:I
 
     .line 17
     .line 18
-    iput v1, p0, Landroid/graphics/BitmapFactory$Options;
-    ->inTargetDensity:I
+    iput v1, p0, Landroid/graphics/BitmapFactory$Options;->inTargetDensity:I
 
     .line 19
     .line 20
-    sget v3, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v3, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 21
     .line 22
@@ -1013,47 +919,39 @@
 
     .line 25
     .line 26
-    invoke-static {p0}, Ll/g;
-    ->m(Landroid/graphics/BitmapFactory$Options;)V
+    invoke-static {p0}, Ll/g;->m(Landroid/graphics/BitmapFactory$Options;)V
 
     .line 27
     .line 28
     .line 29
-    invoke-static {p0}, Ll/g;
-    ->v(Landroid/graphics/BitmapFactory$Options;)V
+    invoke-static {p0}, Ll/g;->v(Landroid/graphics/BitmapFactory$Options;)V
 
     .line 30
     .line 31
     .line 32
-    invoke-static {p0}, Ll/g;
-    ->w(Landroid/graphics/BitmapFactory$Options;)V
+    invoke-static {p0}, Ll/g;->w(Landroid/graphics/BitmapFactory$Options;)V
 
     .line 33
     .line 34
     .line 35
     :cond_0
-    iput v1, p0, Landroid/graphics/BitmapFactory$Options;
-    ->outWidth:I
+    iput v1, p0, Landroid/graphics/BitmapFactory$Options;->outWidth:I
 
     .line 36
     .line 37
-    iput v1, p0, Landroid/graphics/BitmapFactory$Options;
-    ->outHeight:I
+    iput v1, p0, Landroid/graphics/BitmapFactory$Options;->outHeight:I
 
     .line 38
     .line 39
-    iput-object v0, p0, Landroid/graphics/BitmapFactory$Options;
-    ->outMimeType:Ljava/lang/String;
+    iput-object v0, p0, Landroid/graphics/BitmapFactory$Options;->outMimeType:Ljava/lang/String;
 
     .line 40
     .line 41
-    iput-object v0, p0, Landroid/graphics/BitmapFactory$Options;
-    ->inBitmap:Landroid/graphics/Bitmap;
+    iput-object v0, p0, Landroid/graphics/BitmapFactory$Options;->inBitmap:Landroid/graphics/Bitmap;
 
     .line 42
     .line 43
-    iput-boolean v2, p0, Landroid/graphics/BitmapFactory$Options;
-    ->inMutable:Z
+    iput-boolean v2, p0, Landroid/graphics/BitmapFactory$Options;->inMutable:Z
 
     .line 44
     .line 45
@@ -1070,8 +968,7 @@
 
     .line 2
     .line 3
-    iget-object v2, p0, Lr/q;
-    ->c:Ll/f;
+    iget-object v2, p0, Lr/q;->c:Ll/f;
 
     .line 4
     .line 5
@@ -1083,8 +980,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {v2, v4, v3}, Ll/f;
-    ->d(Ljava/lang/Class;I)Ljava/lang/Object;
+    invoke-virtual {v2, v4, v3}, Ll/f;->d(Ljava/lang/Class;I)Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -1107,8 +1003,7 @@
 
     .line 19
     :try_start_0
-    sget-object v3, Lr/q;
-    ->l:Ljava/util/ArrayDeque;
+    sget-object v3, Lr/q;->l:Ljava/util/ArrayDeque;
 
     .line 20
     .line 21
@@ -1118,8 +1013,7 @@
 
     .line 22
     :try_start_1
-    invoke-virtual {v3}, Ljava/util/ArrayDeque;
-    ->poll()Ljava/lang/Object;
+    invoke-virtual {v3}, Ljava/util/ArrayDeque;->poll()Ljava/lang/Object;
 
     .line 23
     .line 24
@@ -1145,14 +1039,12 @@
 
     .line 32
     .line 33
-    invoke-direct {v4}, Landroid/graphics/BitmapFactory$Options;
-    -><init>()V
+    invoke-direct {v4}, Landroid/graphics/BitmapFactory$Options;-><init>()V
 
     .line 34
     .line 35
     .line 36
-    invoke-static {v4}, Lr/q;
-    ->f(Landroid/graphics/BitmapFactory$Options;)V
+    invoke-static {v4}, Lr/q;->f(Landroid/graphics/BitmapFactory$Options;)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
@@ -1177,18 +1069,15 @@
     monitor-exit v2
 
     .line 44
-    iput-object v12, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inTempStorage:[B
+    iput-object v12, v3, Landroid/graphics/BitmapFactory$Options;->inTempStorage:[B
 
     .line 45
     .line 46
-    sget-object v2, Lr/q;
-    ->f:Li/h;
+    sget-object v2, Lr/q;->f:Li/h;
 
     .line 47
     .line 48
-    invoke-virtual {v0, v2}, Li/i;
-    ->c(Li/h;)Ljava/lang/Object;
+    invoke-virtual {v0, v2}, Li/i;->c(Li/h;)Ljava/lang/Object;
 
     .line 49
     .line 50
@@ -1203,13 +1092,11 @@
 
     .line 54
     .line 55
-    sget-object v2, Lr/q;
-    ->g:Li/h;
+    sget-object v2, Lr/q;->g:Li/h;
 
     .line 56
     .line 57
-    invoke-virtual {v0, v2}, Li/i;
-    ->c(Li/h;)Ljava/lang/Object;
+    invoke-virtual {v0, v2}, Li/i;->c(Li/h;)Ljava/lang/Object;
 
     .line 58
     .line 59
@@ -1224,13 +1111,11 @@
 
     .line 63
     .line 64
-    sget-object v2, Lr/o;
-    ->g:Li/h;
+    sget-object v2, Lr/o;->g:Li/h;
 
     .line 65
     .line 66
-    invoke-virtual {v0, v2}, Li/i;
-    ->c(Li/h;)Ljava/lang/Object;
+    invoke-virtual {v0, v2}, Li/i;->c(Li/h;)Ljava/lang/Object;
 
     .line 67
     .line 68
@@ -1245,13 +1130,11 @@
 
     .line 72
     .line 73
-    sget-object v2, Lr/q;
-    ->h:Li/h;
+    sget-object v2, Lr/q;->h:Li/h;
 
     .line 74
     .line 75
-    invoke-virtual {v0, v2}, Li/i;
-    ->c(Li/h;)Ljava/lang/Object;
+    invoke-virtual {v0, v2}, Li/i;->c(Li/h;)Ljava/lang/Object;
 
     .line 76
     .line 77
@@ -1263,8 +1146,7 @@
 
     .line 80
     .line 81
-    invoke-virtual {v2}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {v2}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 82
     .line 83
@@ -1272,13 +1154,11 @@
     move-result v10
 
     .line 85
-    sget-object v2, Lr/q;
-    ->i:Li/h;
+    sget-object v2, Lr/q;->i:Li/h;
 
     .line 86
     .line 87
-    invoke-virtual {v0, v2}, Li/i;
-    ->c(Li/h;)Ljava/lang/Object;
+    invoke-virtual {v0, v2}, Li/i;->c(Li/h;)Ljava/lang/Object;
 
     .line 88
     .line 89
@@ -1290,8 +1170,7 @@
 
     .line 92
     .line 93
-    invoke-virtual {v0, v2}, Li/i;
-    ->c(Li/h;)Ljava/lang/Object;
+    invoke-virtual {v0, v2}, Li/i;->c(Li/h;)Ljava/lang/Object;
 
     .line 94
     .line 95
@@ -1303,8 +1182,7 @@
 
     .line 98
     .line 99
-    invoke-virtual {v0}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 100
     .line 101
@@ -1355,8 +1233,7 @@
     .line 118
     :goto_2
     :try_start_3
-    invoke-virtual/range {v1 .. v11}, Lr/q;
-    ->b(LA0/d;Landroid/graphics/BitmapFactory$Options;Lr/o;Li/b;Li/j;ZIIZLr/p;)Landroid/graphics/Bitmap;
+    invoke-virtual/range {v1 .. v11}, Lr/q;->b(LA0/d;Landroid/graphics/BitmapFactory$Options;Lr/o;Li/b;Li/j;ZIIZLr/p;)Landroid/graphics/Bitmap;
 
     .line 119
     .line 120
@@ -1364,13 +1241,11 @@
     move-result-object v0
 
     .line 122
-    iget-object v2, p0, Lr/q;
-    ->a:Ll/a;
+    iget-object v2, p0, Lr/q;->a:Ll/a;
 
     .line 123
     .line 124
-    invoke-static {v0, v2}, Lr/c;
-    ->a(Landroid/graphics/Bitmap;Ll/a;)Lr/c;
+    invoke-static {v0, v2}, Lr/c;->a(Landroid/graphics/Bitmap;Ll/a;)Lr/c;
 
     .line 125
     .line 126
@@ -1380,19 +1255,16 @@
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
     .line 128
-    invoke-static {v3}, Lr/q;
-    ->e(Landroid/graphics/BitmapFactory$Options;)V
+    invoke-static {v3}, Lr/q;->e(Landroid/graphics/BitmapFactory$Options;)V
 
     .line 129
     .line 130
     .line 131
-    iget-object v2, p0, Lr/q;
-    ->c:Ll/f;
+    iget-object v2, p0, Lr/q;->c:Ll/f;
 
     .line 132
     .line 133
-    invoke-virtual {v2, v12}, Ll/f;
-    ->h(Ljava/lang/Object;)V
+    invoke-virtual {v2, v12}, Ll/f;->h(Ljava/lang/Object;)V
 
     .line 134
     .line 135
@@ -1404,19 +1276,16 @@
     move-exception v0
 
     .line 138
-    invoke-static {v3}, Lr/q;
-    ->e(Landroid/graphics/BitmapFactory$Options;)V
+    invoke-static {v3}, Lr/q;->e(Landroid/graphics/BitmapFactory$Options;)V
 
     .line 139
     .line 140
     .line 141
-    iget-object v2, p0, Lr/q;
-    ->c:Ll/f;
+    iget-object v2, p0, Lr/q;->c:Ll/f;
 
     .line 142
     .line 143
-    invoke-virtual {v2, v12}, Ll/f;
-    ->h(Ljava/lang/Object;)V
+    invoke-virtual {v2, v12}, Ll/f;->h(Ljava/lang/Object;)V
 
     .line 144
     .line 145
@@ -1828,38 +1697,30 @@
     const/4 v12, 0x1
 
     .line 1
-    sget v13, LE/i;
-    ->b:I
+    sget v13, LE/i;->b:I
 
     .line 2
-    invoke-static {}, Landroid/os/SystemClock;
-    ->elapsedRealtimeNanos()J
+    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtimeNanos()J
 
     move-result-wide v13
 
     .line 3
-    iput-boolean v12, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inJustDecodeBounds:Z
+    iput-boolean v12, v3, Landroid/graphics/BitmapFactory$Options;->inJustDecodeBounds:Z
 
     .line 4
-    iget-object v15, v1, Lr/q;
-    ->a:Ll/a;
+    iget-object v15, v1, Lr/q;->a:Ll/a;
 
-    invoke-static {v2, v3, v7, v15}, Lr/q;
-    ->c(LA0/d;Landroid/graphics/BitmapFactory$Options;Lr/p;Ll/a;)Landroid/graphics/Bitmap;
+    invoke-static {v2, v3, v7, v15}, Lr/q;->c(LA0/d;Landroid/graphics/BitmapFactory$Options;Lr/p;Ll/a;)Landroid/graphics/Bitmap;
 
     .line 5
-    iput-boolean v11, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inJustDecodeBounds:Z
+    iput-boolean v11, v3, Landroid/graphics/BitmapFactory$Options;->inJustDecodeBounds:Z
 
     .line 6
-    iget v9, v3, Landroid/graphics/BitmapFactory$Options;
-    ->outWidth:I
+    iget v9, v3, Landroid/graphics/BitmapFactory$Options;->outWidth:I
 
     const/16 v16, 0x0
 
-    iget v11, v3, Landroid/graphics/BitmapFactory$Options;
-    ->outHeight:I
+    iget v11, v3, Landroid/graphics/BitmapFactory$Options;->outHeight:I
 
     filled-new-array {v9, v11}, [I
 
@@ -1872,8 +1733,7 @@
     aget v9, v9, v12
 
     .line 9
-    iget-object v8, v3, Landroid/graphics/BitmapFactory$Options;
-    ->outMimeType:Ljava/lang/String;
+    iget-object v8, v3, Landroid/graphics/BitmapFactory$Options;->outMimeType:Ljava/lang/String;
 
     if-eq v11, v10, :cond_1
 
@@ -1897,34 +1757,29 @@
 
     .line 10
     :goto_2
-    iget v12, v2, LA0/d;
-    ->b:I
+    iget v12, v2, LA0/d;->b:I
 
     packed-switch v12, :pswitch_data_0
 
     .line 11
-    iget-object v12, v2, LA0/d;
-    ->e:Ljava/lang/Object;
+    iget-object v12, v2, LA0/d;->e:Ljava/lang/Object;
 
     check-cast v12, Lcom/bumptech/glide/load/data/i;
 
-    iget-object v10, v2, LA0/d;
-    ->c:Ljava/lang/Object;
+    iget-object v10, v2, LA0/d;->c:Ljava/lang/Object;
 
     check-cast v10, Ll/f;
 
     move-object/from16 p6, v12
 
-    iget-object v12, v2, LA0/d;
-    ->d:Ljava/lang/Object;
+    iget-object v12, v2, LA0/d;->d:Ljava/lang/Object;
 
     check-cast v12, Ljava/util/ArrayList;
 
     move-wide/from16 v21, v13
 
     .line 12
-    invoke-virtual {v12}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {v12}, Ljava/util/ArrayList;->size()I
 
     move-result v13
 
@@ -1934,8 +1789,7 @@
     if-ge v14, v13, :cond_4
 
     .line 13
-    invoke-virtual {v12, v14}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {v12, v14}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     move-result-object v23
 
@@ -1956,30 +1810,25 @@
     new-instance v14, Ljava/io/FileInputStream;
 
     .line 15
-    invoke-virtual/range {p6 .. p6}, Lcom/bumptech/glide/load/data/i;
-    ->e()Landroid/os/ParcelFileDescriptor;
+    invoke-virtual/range {p6 .. p6}, Lcom/bumptech/glide/load/data/i;->e()Landroid/os/ParcelFileDescriptor;
 
     move-result-object v26
 
     move-object/from16 v27, v8
 
-    invoke-virtual/range {v26 .. v26}, Landroid/os/ParcelFileDescriptor;
-    ->getFileDescriptor()Ljava/io/FileDescriptor;
+    invoke-virtual/range {v26 .. v26}, Landroid/os/ParcelFileDescriptor;->getFileDescriptor()Ljava/io/FileDescriptor;
 
     move-result-object v8
 
-    invoke-direct {v14, v8}, Ljava/io/FileInputStream;
-    -><init>(Ljava/io/FileDescriptor;)V
+    invoke-direct {v14, v8}, Ljava/io/FileInputStream;-><init>(Ljava/io/FileDescriptor;)V
 
-    invoke-direct {v13, v14, v10}, Lr/x;
-    -><init>(Ljava/io/InputStream;Ll/f;)V
+    invoke-direct {v13, v14, v10}, Lr/x;-><init>(Ljava/io/InputStream;Ll/f;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
     .line 16
     :try_start_1
-    invoke-interface {v12, v13, v10}, Li/e;
-    ->b(Ljava/io/InputStream;Ll/f;)I
+    invoke-interface {v12, v13, v10}, Li/e;->b(Ljava/io/InputStream;Ll/f;)I
 
     move-result v8
     :try_end_1
@@ -1987,15 +1836,13 @@
 
     .line 17
     :try_start_2
-    invoke-virtual {v13}, Lr/x;
-    ->close()V
+    invoke-virtual {v13}, Lr/x;->close()V
     :try_end_2
     .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
 
     .line 18
     :catch_0
-    invoke-virtual/range {p6 .. p6}, Lcom/bumptech/glide/load/data/i;
-    ->e()Landroid/os/ParcelFileDescriptor;
+    invoke-virtual/range {p6 .. p6}, Lcom/bumptech/glide/load/data/i;->e()Landroid/os/ParcelFileDescriptor;
 
     const/4 v12, -0x1
 
@@ -2033,16 +1880,14 @@
 
     .line 19
     :try_start_3
-    invoke-virtual {v9}, Lr/x;
-    ->close()V
+    invoke-virtual {v9}, Lr/x;->close()V
     :try_end_3
     .catch Ljava/io/IOException; {:try_start_3 .. :try_end_3} :catch_1
 
     .line 20
     :catch_1
     :cond_3
-    invoke-virtual/range {p6 .. p6}, Lcom/bumptech/glide/load/data/i;
-    ->e()Landroid/os/ParcelFileDescriptor;
+    invoke-virtual/range {p6 .. p6}, Lcom/bumptech/glide/load/data/i;->e()Landroid/os/ParcelFileDescriptor;
 
     throw v0
 
@@ -2061,33 +1906,27 @@
     move-wide/from16 v21, v13
 
     .line 21
-    iget-object v8, v2, LA0/d;
-    ->c:Ljava/lang/Object;
+    iget-object v8, v2, LA0/d;->c:Ljava/lang/Object;
 
     check-cast v8, Lcom/bumptech/glide/load/data/i;
 
-    iget-object v8, v8, Lcom/bumptech/glide/load/data/i;
-    ->c:Ljava/lang/Object;
+    iget-object v8, v8, Lcom/bumptech/glide/load/data/i;->c:Ljava/lang/Object;
 
     check-cast v8, Lr/x;
 
     .line 22
-    invoke-virtual {v8}, Lr/x;
-    ->reset()V
+    invoke-virtual {v8}, Lr/x;->reset()V
 
     .line 23
-    iget-object v10, v2, LA0/d;
-    ->e:Ljava/lang/Object;
+    iget-object v10, v2, LA0/d;->e:Ljava/lang/Object;
 
     check-cast v10, Ljava/util/ArrayList;
 
-    iget-object v12, v2, LA0/d;
-    ->d:Ljava/lang/Object;
+    iget-object v12, v2, LA0/d;->d:Ljava/lang/Object;
 
     check-cast v12, Ll/f;
 
-    invoke-static {v8, v10, v12}, La/a;
-    ->u(Ljava/io/InputStream;Ljava/util/ArrayList;Ll/f;)I
+    invoke-static {v8, v10, v12}, La/a;->u(Ljava/io/InputStream;Ljava/util/ArrayList;Ll/f;)I
 
     move-result v10
 
@@ -2181,8 +2020,7 @@
 
     .line 24
     :goto_b
-    invoke-virtual {v2}, LA0/d;
-    ->e()Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    invoke-virtual {v2}, LA0/d;->e()Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
     move-result-object v12
 
@@ -2269,8 +2107,7 @@
 
     .line 26
     :goto_e
-    invoke-virtual {v0, v14, v6, v1, v8}, Lr/o;
-    ->b(IIII)F
+    invoke-virtual {v0, v14, v6, v1, v8}, Lr/o;->b(IIII)F
 
     move-result v10
 
@@ -2281,8 +2118,7 @@
     move/from16 v31, v10
 
     .line 27
-    invoke-virtual {v0, v14, v6, v1, v8}, Lr/o;
-    ->a(IIII)I
+    invoke-virtual {v0, v14, v6, v1, v8}, Lr/o;->a(IIII)I
 
     move-result v10
 
@@ -2333,8 +2169,7 @@
     if-ne v10, v13, :cond_f
 
     .line 30
-    invoke-static {v14, v6}, Ljava/lang/Math;
-    ->max(II)I
+    invoke-static {v14, v6}, Ljava/lang/Math;->max(II)I
 
     move-result v6
 
@@ -2342,31 +2177,26 @@
 
     .line 31
     :cond_f
-    invoke-static {v14, v6}, Ljava/lang/Math;
-    ->min(II)I
+    invoke-static {v14, v6}, Ljava/lang/Math;->min(II)I
 
     move-result v6
 
     .line 32
     :goto_f
-    sget v13, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v13, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v14, 0x17
 
     if-gt v13, v14, :cond_10
 
-    sget-object v14, Lr/q;
-    ->j:Ljava/util/Set;
+    sget-object v14, Lr/q;->j:Ljava/util/Set;
 
     move/from16 v37, v6
 
-    iget-object v6, v3, Landroid/graphics/BitmapFactory$Options;
-    ->outMimeType:Ljava/lang/String;
+    iget-object v6, v3, Landroid/graphics/BitmapFactory$Options;->outMimeType:Ljava/lang/String;
 
     .line 33
-    invoke-interface {v14, v6}, Ljava/util/Set;
-    ->contains(Ljava/lang/Object;)Z
+    invoke-interface {v14, v6}, Ljava/util/Set;->contains(Ljava/lang/Object;)Z
 
     move-result v6
 
@@ -2381,15 +2211,13 @@
 
     .line 34
     :cond_11
-    invoke-static/range {v37 .. v37}, Ljava/lang/Integer;
-    ->highestOneBit(I)I
+    invoke-static/range {v37 .. v37}, Ljava/lang/Integer;->highestOneBit(I)I
 
     move-result v6
 
     const/4 v14, 0x1
 
-    invoke-static {v14, v6}, Ljava/lang/Math;
-    ->max(II)I
+    invoke-static {v14, v6}, Ljava/lang/Math;->max(II)I
 
     move-result v6
 
@@ -2408,20 +2236,17 @@
     .line 35
     :cond_12
     :goto_10
-    iput v6, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inSampleSize:I
+    iput v6, v3, Landroid/graphics/BitmapFactory$Options;->inSampleSize:I
 
     .line 36
-    sget-object v10, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
-    ->JPEG:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    sget-object v10, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;->JPEG:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
     if-ne v12, v10, :cond_13
 
     const/16 v10, 0x8
 
     .line 37
-    invoke-static {v6, v10}, Ljava/lang/Math;
-    ->min(II)I
+    invoke-static {v6, v10}, Ljava/lang/Math;->min(II)I
 
     move-result v12
 
@@ -2432,8 +2257,7 @@
     float-to-double v13, v13
 
     .line 38
-    invoke-static {v13, v14}, Ljava/lang/Math;
-    ->ceil(D)D
+    invoke-static {v13, v14}, Ljava/lang/Math;->ceil(D)D
 
     move-result-wide v13
 
@@ -2448,8 +2272,7 @@
     float-to-double v10, v14
 
     .line 39
-    invoke-static {v10, v11}, Ljava/lang/Math;
-    ->ceil(D)D
+    invoke-static {v10, v11}, Ljava/lang/Math;->ceil(D)D
 
     move-result-wide v10
 
@@ -2472,13 +2295,11 @@
     move/from16 v17, v11
 
     .line 43
-    sget-object v10, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
-    ->PNG:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    sget-object v10, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;->PNG:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
     if-eq v12, v10, :cond_1a
 
-    sget-object v10, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
-    ->PNG_A:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    sget-object v10, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;->PNG_A:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
     if-ne v12, v10, :cond_14
 
@@ -2486,13 +2307,11 @@
 
     .line 44
     :cond_14
-    sget-object v10, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
-    ->WEBP:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    sget-object v10, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;->WEBP:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
     if-eq v12, v10, :cond_18
 
-    sget-object v10, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
-    ->WEBP_A:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    sget-object v10, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;->WEBP_A:Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
     if-ne v12, v10, :cond_15
 
@@ -2524,25 +2343,20 @@
 
     .line 48
     :goto_11
-    iput-boolean v13, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inJustDecodeBounds:Z
+    iput-boolean v13, v3, Landroid/graphics/BitmapFactory$Options;->inJustDecodeBounds:Z
 
     .line 49
-    invoke-static {v2, v3, v7, v15}, Lr/q;
-    ->c(LA0/d;Landroid/graphics/BitmapFactory$Options;Lr/p;Ll/a;)Landroid/graphics/Bitmap;
+    invoke-static {v2, v3, v7, v15}, Lr/q;->c(LA0/d;Landroid/graphics/BitmapFactory$Options;Lr/p;Ll/a;)Landroid/graphics/Bitmap;
 
     const/4 v10, 0x0
 
     .line 50
-    iput-boolean v10, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inJustDecodeBounds:Z
+    iput-boolean v10, v3, Landroid/graphics/BitmapFactory$Options;->inJustDecodeBounds:Z
 
     .line 51
-    iget v11, v3, Landroid/graphics/BitmapFactory$Options;
-    ->outWidth:I
+    iget v11, v3, Landroid/graphics/BitmapFactory$Options;->outWidth:I
 
-    iget v12, v3, Landroid/graphics/BitmapFactory$Options;
-    ->outHeight:I
+    iget v12, v3, Landroid/graphics/BitmapFactory$Options;->outHeight:I
 
     filled-new-array {v11, v12}, [I
 
@@ -2569,16 +2383,14 @@
     div-float v13, p6, v10
 
     .line 54
-    invoke-static {v13}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v13}, Ljava/lang/Math;->round(F)I
 
     move-result v13
 
     div-float v14, v38, v10
 
     .line 55
-    invoke-static {v14}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v14}, Ljava/lang/Math;->round(F)I
 
     move-result v10
 
@@ -2592,8 +2404,7 @@
     float-to-double v11, v13
 
     .line 56
-    invoke-static {v11, v12}, Ljava/lang/Math;
-    ->floor(D)D
+    invoke-static {v11, v12}, Ljava/lang/Math;->floor(D)D
 
     move-result-wide v11
 
@@ -2604,8 +2415,7 @@
     float-to-double v10, v14
 
     .line 57
-    invoke-static {v10, v11}, Ljava/lang/Math;
-    ->floor(D)D
+    invoke-static {v10, v11}, Ljava/lang/Math;->floor(D)D
 
     move-result-wide v10
 
@@ -2623,8 +2433,7 @@
     float-to-double v11, v13
 
     .line 58
-    invoke-static {v11, v12}, Ljava/lang/Math;
-    ->floor(D)D
+    invoke-static {v11, v12}, Ljava/lang/Math;->floor(D)D
 
     move-result-wide v11
 
@@ -2635,8 +2444,7 @@
     float-to-double v10, v14
 
     .line 59
-    invoke-static {v10, v11}, Ljava/lang/Math;
-    ->floor(D)D
+    invoke-static {v10, v11}, Ljava/lang/Math;->floor(D)D
 
     move-result-wide v10
 
@@ -2645,8 +2453,7 @@
     .line 60
     :cond_1b
     :goto_15
-    invoke-virtual {v0, v13, v10, v1, v8}, Lr/o;
-    ->b(IIII)F
+    invoke-virtual {v0, v13, v10, v1, v8}, Lr/o;->b(IIII)F
 
     move-result v0
 
@@ -2673,8 +2480,7 @@
     move-object/from16 v33, v15
 
     .line 61
-    invoke-static/range {v38 .. v39}, Ljava/lang/Math;
-    ->round(D)J
+    invoke-static/range {v38 .. v39}, Ljava/lang/Math;->round(D)J
 
     move-result-wide v14
 
@@ -2709,8 +2515,7 @@
     double-to-int v11, v14
 
     .line 62
-    iput v11, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inTargetDensity:I
+    iput v11, v3, Landroid/graphics/BitmapFactory$Options;->inTargetDensity:I
 
     if-gtz v0, :cond_1d
 
@@ -2725,20 +2530,17 @@
     mul-double v36, v36, v40
 
     .line 63
-    invoke-static/range {v36 .. v37}, Ljava/lang/Math;
-    ->round(D)J
+    invoke-static/range {v36 .. v37}, Ljava/lang/Math;->round(D)J
 
     move-result-wide v11
 
     long-to-int v0, v11
 
     .line 64
-    iput v0, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inDensity:I
+    iput v0, v3, Landroid/graphics/BitmapFactory$Options;->inDensity:I
 
     .line 65
-    iget v11, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inTargetDensity:I
+    iget v11, v3, Landroid/graphics/BitmapFactory$Options;->inTargetDensity:I
 
     if-lez v11, :cond_1e
 
@@ -2749,8 +2551,7 @@
     const/4 v14, 0x1
 
     .line 66
-    iput-boolean v14, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inScaled:Z
+    iput-boolean v14, v3, Landroid/graphics/BitmapFactory$Options;->inScaled:Z
 
     :goto_18
     const/4 v11, 0x2
@@ -2761,18 +2562,15 @@
     const/4 v11, 0x0
 
     .line 67
-    iput v11, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inTargetDensity:I
+    iput v11, v3, Landroid/graphics/BitmapFactory$Options;->inTargetDensity:I
 
-    iput v11, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inDensity:I
+    iput v11, v3, Landroid/graphics/BitmapFactory$Options;->inDensity:I
 
     goto :goto_18
 
     .line 68
     :goto_19
-    invoke-static {v4, v11}, Landroid/util/Log;
-    ->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v4, v11}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     move-result v0
 
@@ -2786,102 +2584,78 @@
     move/from16 v14, v17
 
     .line 70
-    invoke-static {v0, v14, v5, v9, v11}, LA/d;
-    ->q(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, v14, v5, v9, v11}, LA/d;->q(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
     move/from16 v12, v32
 
     .line 71
-    invoke-virtual {v0, v12}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v12}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     const-string v11, ", target: ["
 
-    invoke-virtual {v0, v11}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v11}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v0, v8}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v8}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     const-string v11, "], power of two scaled: ["
 
-    invoke-virtual {v0, v11}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v11}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v0, v13}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v13}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v0, v10}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v10}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     const-string v10, "], exact scale factor: "
 
-    invoke-virtual {v0, v10}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move/from16 v10, v31
 
-    invoke-virtual {v0, v10}, Ljava/lang/StringBuilder;
-    ->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v10}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     const-string v10, ", power of 2 sample size: "
 
-    invoke-virtual {v0, v10}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v0, v6}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v6}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     const-string v6, ", adjusted scale factor: "
 
-    invoke-virtual {v0, v6}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-wide/from16 v10, v38
 
-    invoke-virtual {v0, v10, v11}, Ljava/lang/StringBuilder;
-    ->append(D)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v10, v11}, Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
 
     move-object/from16 v6, v28
 
-    invoke-virtual {v0, v6}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget v10, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inTargetDensity:I
+    iget v10, v3, Landroid/graphics/BitmapFactory$Options;->inTargetDensity:I
 
-    invoke-virtual {v0, v10}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v10}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     move-object/from16 v10, v20
 
-    invoke-virtual {v0, v10}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget v11, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inDensity:I
+    iget v11, v3, Landroid/graphics/BitmapFactory$Options;->inDensity:I
 
-    invoke-virtual {v0, v11}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v11}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v4, v0}, Landroid/util/Log;
-    ->v(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v4, v0}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_1f
     :goto_1a
@@ -2904,8 +2678,7 @@
 
     const-string v1, "Cannot round with null rounding"
 
-    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     throw v0
 
@@ -2919,67 +2692,51 @@
 
     const-string v4, "Cannot scale with factor: "
 
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {v3, v10}, Ljava/lang/StringBuilder;
-    ->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v10}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     const-string v4, " from: "
 
-    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     const-string v0, ", source: ["
 
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v3, v14}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v14}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v3, v5}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v3, v9}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v9}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     const-string v0, "], target: ["
 
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v3, v5}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v3, v8}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v8}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     move-object/from16 v0, p6
 
-    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v3, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-direct {v2, v0}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     throw v2
 
     .line 74
     :goto_1b
-    invoke-static {v4, v11}, Landroid/util/Log;
-    ->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v4, v11}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     move-result v13
 
@@ -2990,69 +2747,55 @@
 
     const-string v13, "Unable to determine dimensions for: "
 
-    invoke-direct {v11, v13}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v11, v13}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {v11, v12}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v11, v12}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     const-string v12, " with target ["
 
-    invoke-virtual {v11, v12}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v11, v12}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v11, v1}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v11, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v11, v5}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v11, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v11, v8}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v11, v8}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v11, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v11, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v11}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v11}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v4, v0}, Landroid/util/Log;
-    ->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v4, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_1a
 
     .line 76
     :goto_1c
-    iget-object v0, v11, Lr/q;
-    ->e:Lr/w;
+    iget-object v0, v11, Lr/q;->e:Lr/w;
 
     move/from16 v12, v18
 
     move/from16 v13, v30
 
-    invoke-virtual {v0, v1, v8, v12, v13}, Lr/w;
-    ->b(IIZZ)Z
+    invoke-virtual {v0, v1, v8, v12, v13}, Lr/w;->b(IIZZ)Z
 
     move-result v0
 
     if-eqz v0, :cond_23
 
     .line 77
-    invoke-static {}, Ll/g;
-    ->b()Landroid/graphics/Bitmap$Config;
+    invoke-static {}, Ll/g;->b()Landroid/graphics/Bitmap$Config;
 
     move-result-object v12
 
-    iput-object v12, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inPreferredConfig:Landroid/graphics/Bitmap$Config;
+    iput-object v12, v3, Landroid/graphics/BitmapFactory$Options;->inPreferredConfig:Landroid/graphics/Bitmap$Config;
 
     const/4 v13, 0x0
 
     .line 78
-    iput-boolean v13, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inMutable:Z
+    iput-boolean v13, v3, Landroid/graphics/BitmapFactory$Options;->inMutable:Z
 
     goto :goto_1d
 
@@ -3069,8 +2812,7 @@
 
     .line 79
     :cond_25
-    sget-object v0, Li/b;
-    ->b:Li/b;
+    sget-object v0, Li/b;->b:Li/b;
 
     move-object/from16 v12, p4
 
@@ -3078,13 +2820,11 @@
 
     .line 80
     :try_start_4
-    invoke-virtual {v2}, LA0/d;
-    ->e()Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
+    invoke-virtual {v2}, LA0/d;->e()Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
-    ->hasAlpha()Z
+    invoke-virtual {v0}, Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;->hasAlpha()Z
 
     move-result v0
     :try_end_4
@@ -3098,8 +2838,7 @@
     const/4 v15, 0x3
 
     .line 81
-    invoke-static {v4, v15}, Landroid/util/Log;
-    ->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v4, v15}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     move-result v15
 
@@ -3110,19 +2849,15 @@
 
     const-string v13, "Cannot determine whether the image has alpha or not from header, format "
 
-    invoke-direct {v15, v13}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v15, v13}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {v15, v12}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v15, v12}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v15}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v15}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v12
 
-    invoke-static {v4, v12, v0}, Landroid/util/Log;
-    ->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v4, v12, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     :cond_26
     const/4 v0, 0x0
@@ -3131,30 +2866,25 @@
     if-eqz v0, :cond_27
 
     .line 83
-    sget-object v0, Landroid/graphics/Bitmap$Config;
-    ->ARGB_8888:Landroid/graphics/Bitmap$Config;
+    sget-object v0, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     goto :goto_1f
 
     :cond_27
-    sget-object v0, Landroid/graphics/Bitmap$Config;
-    ->RGB_565:Landroid/graphics/Bitmap$Config;
+    sget-object v0, Landroid/graphics/Bitmap$Config;->RGB_565:Landroid/graphics/Bitmap$Config;
 
     :goto_1f
-    iput-object v0, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inPreferredConfig:Landroid/graphics/Bitmap$Config;
+    iput-object v0, v3, Landroid/graphics/BitmapFactory$Options;->inPreferredConfig:Landroid/graphics/Bitmap$Config;
 
     .line 84
-    sget-object v12, Landroid/graphics/Bitmap$Config;
-    ->RGB_565:Landroid/graphics/Bitmap$Config;
+    sget-object v12, Landroid/graphics/Bitmap$Config;->RGB_565:Landroid/graphics/Bitmap$Config;
 
     if-ne v0, v12, :cond_24
 
     const/4 v13, 0x1
 
     .line 85
-    iput-boolean v13, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inDither:Z
+    iput-boolean v13, v3, Landroid/graphics/BitmapFactory$Options;->inDither:Z
 
     goto :goto_20
 
@@ -3162,16 +2892,13 @@
     const/4 v13, 0x1
 
     .line 86
-    sget-object v0, Landroid/graphics/Bitmap$Config;
-    ->ARGB_8888:Landroid/graphics/Bitmap$Config;
+    sget-object v0, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
-    iput-object v0, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inPreferredConfig:Landroid/graphics/Bitmap$Config;
+    iput-object v0, v3, Landroid/graphics/BitmapFactory$Options;->inPreferredConfig:Landroid/graphics/Bitmap$Config;
 
     .line 87
     :goto_20
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     if-ltz v14, :cond_29
 
@@ -3185,13 +2912,11 @@
 
     .line 88
     :cond_29
-    iget v1, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inTargetDensity:I
+    iget v1, v3, Landroid/graphics/BitmapFactory$Options;->inTargetDensity:I
 
     if-lez v1, :cond_2a
 
-    iget v8, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inDensity:I
+    iget v8, v3, Landroid/graphics/BitmapFactory$Options;->inDensity:I
 
     if-lez v8, :cond_2a
 
@@ -3210,8 +2935,7 @@
     int-to-float v1, v1
 
     .line 89
-    iget v8, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inDensity:I
+    iget v8, v3, Landroid/graphics/BitmapFactory$Options;->inDensity:I
 
     int-to-float v8, v8
 
@@ -3224,8 +2948,7 @@
 
     .line 90
     :goto_22
-    iget v8, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inSampleSize:I
+    iget v8, v3, Landroid/graphics/BitmapFactory$Options;->inSampleSize:I
 
     int-to-float v12, v14
 
@@ -3238,8 +2961,7 @@
     float-to-double v13, v12
 
     .line 91
-    invoke-static {v13, v14}, Ljava/lang/Math;
-    ->ceil(D)D
+    invoke-static {v13, v14}, Ljava/lang/Math;->ceil(D)D
 
     move-result-wide v12
 
@@ -3252,8 +2974,7 @@
     float-to-double v13, v13
 
     .line 92
-    invoke-static {v13, v14}, Ljava/lang/Math;
-    ->ceil(D)D
+    invoke-static {v13, v14}, Ljava/lang/Math;->ceil(D)D
 
     move-result-wide v13
 
@@ -3264,8 +2985,7 @@
     mul-float v12, v12, v1
 
     .line 93
-    invoke-static {v12}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v12}, Ljava/lang/Math;->round(F)I
 
     move-result v12
 
@@ -3274,16 +2994,14 @@
     mul-float v13, v13, v1
 
     .line 94
-    invoke-static {v13}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v13}, Ljava/lang/Math;->round(F)I
 
     move-result v13
 
     const/4 v14, 0x2
 
     .line 95
-    invoke-static {v4, v14}, Landroid/util/Log;
-    ->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v4, v14}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     move-result v15
 
@@ -3295,68 +3013,52 @@
     const-string v15, "] for source ["
 
     .line 97
-    invoke-static {v14, v12, v5, v13, v15}, LA/d;
-    ->q(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v14, v12, v5, v13, v15}, LA/d;->q(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v14
 
     move/from16 v15, v17
 
     .line 98
-    invoke-virtual {v14, v15}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v14, v15}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v14, v5}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v14, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v14, v9}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v14, v9}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     move/from16 p3, v12
 
     const-string v12, "], sampleSize: "
 
-    invoke-virtual {v14, v12}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v14, v12}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v14, v8}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v14, v8}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     const-string v8, ", targetDensity: "
 
-    invoke-virtual {v14, v8}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v14, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget v8, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inTargetDensity:I
+    iget v8, v3, Landroid/graphics/BitmapFactory$Options;->inTargetDensity:I
 
-    invoke-virtual {v14, v8}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v14, v8}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v14, v10}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v14, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget v8, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inDensity:I
+    iget v8, v3, Landroid/graphics/BitmapFactory$Options;->inDensity:I
 
-    invoke-virtual {v14, v8}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v14, v8}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     const-string v8, ", density multiplier: "
 
-    invoke-virtual {v14, v8}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v14, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v14, v1}, Ljava/lang/StringBuilder;
-    ->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v14, v1}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v14}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v14}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-static {v4, v1}, Landroid/util/Log;
-    ->v(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v4, v1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_23
 
@@ -3380,11 +3082,9 @@
     if-lt v0, v12, :cond_2e
 
     .line 99
-    iget-object v13, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inPreferredConfig:Landroid/graphics/Bitmap$Config;
+    iget-object v13, v3, Landroid/graphics/BitmapFactory$Options;->inPreferredConfig:Landroid/graphics/Bitmap$Config;
 
-    invoke-static {}, Ll/g;
-    ->b()Landroid/graphics/Bitmap$Config;
+    invoke-static {}, Ll/g;->b()Landroid/graphics/Bitmap$Config;
 
     move-result-object v14
 
@@ -3394,8 +3094,7 @@
 
     .line 100
     :cond_2d
-    invoke-static {v3}, Ll/g;
-    ->c(Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap$Config;
+    invoke-static {v3}, Ll/g;->c(Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap$Config;
 
     move-result-object v13
 
@@ -3408,20 +3107,17 @@
     if-nez v13, :cond_2f
 
     .line 101
-    iget-object v13, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inPreferredConfig:Landroid/graphics/Bitmap$Config;
+    iget-object v13, v3, Landroid/graphics/BitmapFactory$Options;->inPreferredConfig:Landroid/graphics/Bitmap$Config;
 
     :cond_2f
     move-object/from16 v14, v33
 
     .line 102
-    invoke-interface {v14, v1, v8, v13}, Ll/a;
-    ->g(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+    invoke-interface {v14, v1, v8, v13}, Ll/a;->g(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
 
     move-result-object v1
 
-    iput-object v1, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inBitmap:Landroid/graphics/Bitmap;
+    iput-object v1, v3, Landroid/graphics/BitmapFactory$Options;->inBitmap:Landroid/graphics/Bitmap;
 
     goto :goto_27
 
@@ -3435,28 +3131,24 @@
     if-lt v0, v1, :cond_33
 
     .line 103
-    sget-object v0, Li/j;
-    ->c:Li/j;
+    sget-object v0, Li/j;->c:Li/j;
 
     move-object/from16 v1, p5
 
     if-ne v1, v0, :cond_31
 
-    invoke-static {v3}, Ll/g;
-    ->e(Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/ColorSpace;
+    invoke-static {v3}, Ll/g;->e(Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/ColorSpace;
 
     move-result-object v0
 
     if-eqz v0, :cond_31
 
-    invoke-static {v3}, Ll/g;
-    ->e(Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/ColorSpace;
+    invoke-static {v3}, Ll/g;->e(Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/ColorSpace;
 
     move-result-object v0
 
     .line 104
-    invoke-static {v0}, Ll/g;
-    ->r(Landroid/graphics/ColorSpace;)Z
+    invoke-static {v0}, Ll/g;->r(Landroid/graphics/ColorSpace;)Z
 
     move-result v0
 
@@ -3473,27 +3165,23 @@
     if-eqz v16, :cond_32
 
     .line 105
-    invoke-static {}, Ll/g;
-    ->d()Landroid/graphics/ColorSpace$Named;
+    invoke-static {}, Ll/g;->d()Landroid/graphics/ColorSpace$Named;
 
     move-result-object v0
 
     goto :goto_29
 
     :cond_32
-    invoke-static {}, LS1/b;
-    ->o()Landroid/graphics/ColorSpace$Named;
+    invoke-static {}, LS1/b;->o()Landroid/graphics/ColorSpace$Named;
 
     move-result-object v0
 
     :goto_29
-    invoke-static {v0}, Landroidx/core/graphics/a;
-    ->j(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
+    invoke-static {v0}, Landroidx/core/graphics/a;->j(Landroid/graphics/ColorSpace$Named;)Landroid/graphics/ColorSpace;
 
     move-result-object v0
 
-    invoke-static {v3, v0}, Ll/g;
-    ->n(Landroid/graphics/BitmapFactory$Options;Landroid/graphics/ColorSpace;)V
+    invoke-static {v3, v0}, Ll/g;->n(Landroid/graphics/BitmapFactory$Options;Landroid/graphics/ColorSpace;)V
 
     goto :goto_2a
 
@@ -3501,34 +3189,28 @@
     if-lt v0, v12, :cond_34
 
     .line 106
-    invoke-static {}, LS1/b;
-    ->o()Landroid/graphics/ColorSpace$Named;
+    invoke-static {}, LS1/b;->o()Landroid/graphics/ColorSpace$Named;
 
-    invoke-static {}, LS1/b;
-    ->p()Landroid/graphics/ColorSpace;
+    invoke-static {}, LS1/b;->p()Landroid/graphics/ColorSpace;
 
     move-result-object v0
 
-    invoke-static {v3, v0}, Ll/g;
-    ->n(Landroid/graphics/BitmapFactory$Options;Landroid/graphics/ColorSpace;)V
+    invoke-static {v3, v0}, Ll/g;->n(Landroid/graphics/BitmapFactory$Options;Landroid/graphics/ColorSpace;)V
 
     .line 107
     :cond_34
     :goto_2a
-    invoke-static {v2, v3, v7, v14}, Lr/q;
-    ->c(LA0/d;Landroid/graphics/BitmapFactory$Options;Lr/p;Ll/a;)Landroid/graphics/Bitmap;
+    invoke-static {v2, v3, v7, v14}, Lr/q;->c(LA0/d;Landroid/graphics/BitmapFactory$Options;Lr/p;Ll/a;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
     .line 108
-    invoke-interface {v7, v0, v14}, Lr/p;
-    ->k(Landroid/graphics/Bitmap;Ll/a;)V
+    invoke-interface {v7, v0, v14}, Lr/p;->k(Landroid/graphics/Bitmap;Ll/a;)V
 
     const/4 v1, 0x2
 
     .line 109
-    invoke-static {v4, v1}, Landroid/util/Log;
-    ->isLoggable(Ljava/lang/String;I)Z
+    invoke-static {v4, v1}, Landroid/util/Log;->isLoggable(Ljava/lang/String;I)Z
 
     move-result v1
 
@@ -3539,161 +3221,123 @@
 
     const-string v2, "Decoded "
 
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 111
-    invoke-static {v0}, Lr/q;
-    ->d(Landroid/graphics/Bitmap;)Ljava/lang/String;
+    invoke-static {v0}, Lr/q;->d(Landroid/graphics/Bitmap;)Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, " from ["
 
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v1, v15}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v15}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v1, v5}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v1, v9}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v9}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     const-string v2, "] "
 
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-object/from16 v2, v27
 
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, " with inBitmap "
 
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 112
-    iget-object v2, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inBitmap:Landroid/graphics/Bitmap;
+    iget-object v2, v3, Landroid/graphics/BitmapFactory$Options;->inBitmap:Landroid/graphics/Bitmap;
 
-    invoke-static {v2}, Lr/q;
-    ->d(Landroid/graphics/Bitmap;)Ljava/lang/String;
+    invoke-static {v2}, Lr/q;->d(Landroid/graphics/Bitmap;)Ljava/lang/String;
 
     move-result-object v2
 
     .line 113
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, " for ["
 
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move/from16 v2, p7
 
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v1, v5}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move/from16 v2, p8
 
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     const-string v2, "], sample size: "
 
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget v2, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inSampleSize:I
+    iget v2, v3, Landroid/graphics/BitmapFactory$Options;->inSampleSize:I
 
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v1, v10}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget v2, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inDensity:I
+    iget v2, v3, Landroid/graphics/BitmapFactory$Options;->inDensity:I
 
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v1, v6}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget v2, v3, Landroid/graphics/BitmapFactory$Options;
-    ->inTargetDensity:I
+    iget v2, v3, Landroid/graphics/BitmapFactory$Options;->inTargetDensity:I
 
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     const-string v2, ", thread: "
 
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 114
-    invoke-static {}, Ljava/lang/Thread;
-    ->currentThread()Ljava/lang/Thread;
+    invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v2
 
-    invoke-virtual {v2}, Ljava/lang/Thread;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/Thread;->getName()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     const-string v2, ", duration: "
 
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 115
-    invoke-static/range {v21 .. v22}, LE/i;
-    ->a(J)D
+    invoke-static/range {v21 .. v22}, LE/i;->a(J)D
 
     move-result-wide v2
 
-    invoke-virtual {v1, v2, v3}, Ljava/lang/StringBuilder;
-    ->append(D)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2, v3}, Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
 
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v1
 
     .line 116
-    invoke-static {v4, v1}, Landroid/util/Log;
-    ->v(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v4, v1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_35
     if-eqz v0, :cond_37
 
     .line 117
-    iget-object v1, v11, Lr/q;
-    ->b:Landroid/util/DisplayMetrics;
+    iget-object v1, v11, Lr/q;->b:Landroid/util/DisplayMetrics;
 
-    iget v1, v1, Landroid/util/DisplayMetrics;
-    ->densityDpi:I
+    iget v1, v1, Landroid/util/DisplayMetrics;->densityDpi:I
 
-    invoke-virtual {v0, v1}, Landroid/graphics/Bitmap;
-    ->setDensity(I)V
+    invoke-virtual {v0, v1}, Landroid/graphics/Bitmap;->setDensity(I)V
 
     packed-switch v23, :pswitch_data_3
 
@@ -3705,8 +3349,7 @@
     :pswitch_5
     new-instance v1, Landroid/graphics/Matrix;
 
-    invoke-direct {v1}, Landroid/graphics/Matrix;
-    -><init>()V
+    invoke-direct {v1}, Landroid/graphics/Matrix;-><init>()V
 
     const/high16 v2, 0x43340000    # 180.0f
 
@@ -3722,28 +3365,24 @@
 
     .line 119
     :pswitch_6
-    invoke-virtual {v1, v4}, Landroid/graphics/Matrix;
-    ->setRotate(F)V
+    invoke-virtual {v1, v4}, Landroid/graphics/Matrix;->setRotate(F)V
 
     goto :goto_2b
 
     .line 120
     :pswitch_7
-    invoke-virtual {v1, v4}, Landroid/graphics/Matrix;
-    ->setRotate(F)V
+    invoke-virtual {v1, v4}, Landroid/graphics/Matrix;->setRotate(F)V
 
     const/high16 v4, 0x3f800000    # 1.0f
 
     .line 121
-    invoke-virtual {v1, v5, v4}, Landroid/graphics/Matrix;
-    ->postScale(FF)Z
+    invoke-virtual {v1, v5, v4}, Landroid/graphics/Matrix;->postScale(FF)Z
 
     goto :goto_2b
 
     .line 122
     :pswitch_8
-    invoke-virtual {v1, v3}, Landroid/graphics/Matrix;
-    ->setRotate(F)V
+    invoke-virtual {v1, v3}, Landroid/graphics/Matrix;->setRotate(F)V
 
     goto :goto_2b
 
@@ -3751,12 +3390,10 @@
     const/high16 v4, 0x3f800000    # 1.0f
 
     .line 123
-    invoke-virtual {v1, v3}, Landroid/graphics/Matrix;
-    ->setRotate(F)V
+    invoke-virtual {v1, v3}, Landroid/graphics/Matrix;->setRotate(F)V
 
     .line 124
-    invoke-virtual {v1, v5, v4}, Landroid/graphics/Matrix;
-    ->postScale(FF)Z
+    invoke-virtual {v1, v5, v4}, Landroid/graphics/Matrix;->postScale(FF)Z
 
     goto :goto_2b
 
@@ -3764,19 +3401,16 @@
     const/high16 v4, 0x3f800000    # 1.0f
 
     .line 125
-    invoke-virtual {v1, v2}, Landroid/graphics/Matrix;
-    ->setRotate(F)V
+    invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->setRotate(F)V
 
     .line 126
-    invoke-virtual {v1, v5, v4}, Landroid/graphics/Matrix;
-    ->postScale(FF)Z
+    invoke-virtual {v1, v5, v4}, Landroid/graphics/Matrix;->postScale(FF)Z
 
     goto :goto_2b
 
     .line 127
     :pswitch_b
-    invoke-virtual {v1, v2}, Landroid/graphics/Matrix;
-    ->setRotate(F)V
+    invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->setRotate(F)V
 
     goto :goto_2b
 
@@ -3784,22 +3418,19 @@
     const/high16 v4, 0x3f800000    # 1.0f
 
     .line 128
-    invoke-virtual {v1, v5, v4}, Landroid/graphics/Matrix;
-    ->setScale(FF)V
+    invoke-virtual {v1, v5, v4}, Landroid/graphics/Matrix;->setScale(FF)V
 
     .line 129
     :goto_2b
     new-instance v2, Landroid/graphics/RectF;
 
-    invoke-virtual {v0}, Landroid/graphics/Bitmap;
-    ->getWidth()I
+    invoke-virtual {v0}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v3
 
     int-to-float v3, v3
 
-    invoke-virtual {v0}, Landroid/graphics/Bitmap;
-    ->getHeight()I
+    invoke-virtual {v0}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v4
 
@@ -3807,102 +3438,84 @@
 
     const/4 v5, 0x0
 
-    invoke-direct {v2, v5, v5, v3, v4}, Landroid/graphics/RectF;
-    -><init>(FFFF)V
+    invoke-direct {v2, v5, v5, v3, v4}, Landroid/graphics/RectF;-><init>(FFFF)V
 
     .line 130
-    invoke-virtual {v1, v2}, Landroid/graphics/Matrix;
-    ->mapRect(Landroid/graphics/RectF;)Z
+    invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
     .line 131
-    invoke-virtual {v2}, Landroid/graphics/RectF;
-    ->width()F
+    invoke-virtual {v2}, Landroid/graphics/RectF;->width()F
 
     move-result v3
 
-    invoke-static {v3}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v3}, Ljava/lang/Math;->round(F)I
 
     move-result v3
 
     .line 132
-    invoke-virtual {v2}, Landroid/graphics/RectF;
-    ->height()F
+    invoke-virtual {v2}, Landroid/graphics/RectF;->height()F
 
     move-result v4
 
-    invoke-static {v4}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v4}, Ljava/lang/Math;->round(F)I
 
     move-result v4
 
     .line 133
-    invoke-virtual {v0}, Landroid/graphics/Bitmap;
-    ->getConfig()Landroid/graphics/Bitmap$Config;
+    invoke-virtual {v0}, Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;
 
     move-result-object v5
 
     if-eqz v5, :cond_36
 
-    invoke-virtual {v0}, Landroid/graphics/Bitmap;
-    ->getConfig()Landroid/graphics/Bitmap$Config;
+    invoke-virtual {v0}, Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;
 
     move-result-object v5
 
     goto :goto_2c
 
     :cond_36
-    sget-object v5, Landroid/graphics/Bitmap$Config;
-    ->ARGB_8888:Landroid/graphics/Bitmap$Config;
+    sget-object v5, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     .line 134
     :goto_2c
-    invoke-interface {v14, v3, v4, v5}, Ll/a;
-    ->h(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+    invoke-interface {v14, v3, v4, v5}, Ll/a;->h(IILandroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
 
     move-result-object v3
 
     .line 135
-    iget v4, v2, Landroid/graphics/RectF;
-    ->left:F
+    iget v4, v2, Landroid/graphics/RectF;->left:F
 
     neg-float v4, v4
 
-    iget v2, v2, Landroid/graphics/RectF;
-    ->top:F
+    iget v2, v2, Landroid/graphics/RectF;->top:F
 
     neg-float v2, v2
 
-    invoke-virtual {v1, v4, v2}, Landroid/graphics/Matrix;
-    ->postTranslate(FF)Z
+    invoke-virtual {v1, v4, v2}, Landroid/graphics/Matrix;->postTranslate(FF)Z
 
     .line 136
-    invoke-virtual {v0}, Landroid/graphics/Bitmap;
-    ->hasAlpha()Z
+    invoke-virtual {v0}, Landroid/graphics/Bitmap;->hasAlpha()Z
 
     move-result v2
 
-    invoke-virtual {v3, v2}, Landroid/graphics/Bitmap;
-    ->setHasAlpha(Z)V
+    invoke-virtual {v3, v2}, Landroid/graphics/Bitmap;->setHasAlpha(Z)V
 
     .line 137
-    invoke-static {v0, v3, v1}, Lr/z;
-    ->a(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;Landroid/graphics/Matrix;)V
+    invoke-static {v0, v3, v1}, Lr/z;->a(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;Landroid/graphics/Matrix;)V
 
     move-object v9, v3
 
     .line 138
     :goto_2d
-    invoke-virtual {v0, v9}, Ljava/lang/Object;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v9}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-nez v1, :cond_38
 
     .line 139
-    invoke-interface {v14, v0}, Ll/a;
-    ->i(Landroid/graphics/Bitmap;)V
+    invoke-interface {v14, v0}, Ll/a;->i(Landroid/graphics/Bitmap;)V
 
     goto :goto_2e
 

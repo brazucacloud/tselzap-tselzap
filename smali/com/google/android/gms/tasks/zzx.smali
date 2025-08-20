@@ -14,11 +14,9 @@
 .method public synthetic constructor <init>(Lcom/google/android/gms/tasks/TaskCompletionSource;)V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/tasks/zzx;
-    ->zza:Lcom/google/android/gms/tasks/TaskCompletionSource;
+    iput-object p1, p0, Lcom/google/android/gms/tasks/zzx;->zza:Lcom/google/android/gms/tasks/TaskCompletionSource;
 
     return-void
 .end method
@@ -33,19 +31,16 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/concurrent/TimeoutException;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/concurrent/TimeoutException;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    iget-object v1, p0, Lcom/google/android/gms/tasks/zzx;
-    ->zza:Lcom/google/android/gms/tasks/TaskCompletionSource;
+    iget-object v1, p0, Lcom/google/android/gms/tasks/zzx;->zza:Lcom/google/android/gms/tasks/TaskCompletionSource;
 
     .line 7
     .line 8
-    invoke-virtual {v1, v0}, Lcom/google/android/gms/tasks/TaskCompletionSource;
-    ->trySetException(Ljava/lang/Exception;)Z
+    invoke-virtual {v1, v0}, Lcom/google/android/gms/tasks/TaskCompletionSource;->trySetException(Ljava/lang/Exception;)Z
 
     .line 9
     .line 10

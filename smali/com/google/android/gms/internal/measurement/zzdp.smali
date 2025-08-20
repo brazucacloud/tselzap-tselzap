@@ -15,8 +15,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, v0}, Lcom/google/android/gms/internal/measurement/zzbx;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Lcom/google/android/gms/internal/measurement/zzbx;-><init>(Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -37,13 +36,11 @@
 
     .line 3
     .line 4
-    sget-object p1, Landroid/os/Bundle;
-    ->CREATOR:Landroid/os/Parcelable$Creator;
+    sget-object p1, Landroid/os/Bundle;->CREATOR:Landroid/os/Parcelable$Creator;
 
     .line 5
     .line 6
-    invoke-static {p2, p1}, Lcom/google/android/gms/internal/measurement/zzbw;
-    ->zza(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Landroid/os/Parcelable;
+    invoke-static {p2, p1}, Lcom/google/android/gms/internal/measurement/zzbw;->zza(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Landroid/os/Parcelable;
 
     .line 7
     .line 8
@@ -55,20 +52,17 @@
 
     .line 11
     .line 12
-    invoke-static {p2}, Lcom/google/android/gms/internal/measurement/zzbw;
-    ->zzb(Landroid/os/Parcel;)V
+    invoke-static {p2}, Lcom/google/android/gms/internal/measurement/zzbw;->zzb(Landroid/os/Parcel;)V
 
     .line 13
     .line 14
     .line 15
-    invoke-interface {p0, p1}, Lcom/google/android/gms/internal/measurement/zzdq;
-    ->zza(Landroid/os/Bundle;)V
+    invoke-interface {p0, p1}, Lcom/google/android/gms/internal/measurement/zzdq;->zza(Landroid/os/Bundle;)V
 
     .line 16
     .line 17
     .line 18
-    invoke-virtual {p3}, Landroid/os/Parcel;
-    ->writeNoException()V
+    invoke-virtual {p3}, Landroid/os/Parcel;->writeNoException()V
 
     .line 19
     .line 20

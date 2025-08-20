@@ -14,11 +14,9 @@
 .method public constructor <init>(Lcom/google/android/gms/common/api/internal/zabq;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zabm;
-    ->zaa:Lcom/google/android/gms/common/api/internal/zabq;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/zabm;->zaa:Lcom/google/android/gms/common/api/internal/zabq;
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -28,13 +26,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zabm;
-    ->zaa:Lcom/google/android/gms/common/api/internal/zabq;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/zabm;->zaa:Lcom/google/android/gms/common/api/internal/zabq;
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zabq;
-    ->zaj(Lcom/google/android/gms/common/api/internal/zabq;)V
+    invoke-static {v0}, Lcom/google/android/gms/common/api/internal/zabq;->zaj(Lcom/google/android/gms/common/api/internal/zabq;)V
 
     .line 4
     .line 5

@@ -26,12 +26,10 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x1e
 
@@ -40,11 +38,9 @@
     .line 3
     new-instance v0, Landroidx/core/view/SoftwareKeyboardControllerCompat$Impl30;
 
-    invoke-direct {v0, p1}, Landroidx/core/view/SoftwareKeyboardControllerCompat$Impl30;
-    -><init>(Landroid/view/View;)V
+    invoke-direct {v0, p1}, Landroidx/core/view/SoftwareKeyboardControllerCompat$Impl30;-><init>(Landroid/view/View;)V
 
-    iput-object v0, p0, Landroidx/core/view/SoftwareKeyboardControllerCompat;
-    ->mImpl:Landroidx/core/view/SoftwareKeyboardControllerCompat$Impl;
+    iput-object v0, p0, Landroidx/core/view/SoftwareKeyboardControllerCompat;->mImpl:Landroidx/core/view/SoftwareKeyboardControllerCompat$Impl;
 
     return-void
 
@@ -52,11 +48,9 @@
     :cond_0
     new-instance v0, Landroidx/core/view/SoftwareKeyboardControllerCompat$Impl20;
 
-    invoke-direct {v0, p1}, Landroidx/core/view/SoftwareKeyboardControllerCompat$Impl20;
-    -><init>(Landroid/view/View;)V
+    invoke-direct {v0, p1}, Landroidx/core/view/SoftwareKeyboardControllerCompat$Impl20;-><init>(Landroid/view/View;)V
 
-    iput-object v0, p0, Landroidx/core/view/SoftwareKeyboardControllerCompat;
-    ->mImpl:Landroidx/core/view/SoftwareKeyboardControllerCompat$Impl;
+    iput-object v0, p0, Landroidx/core/view/SoftwareKeyboardControllerCompat;->mImpl:Landroidx/core/view/SoftwareKeyboardControllerCompat$Impl;
 
     return-void
 .end method
@@ -75,17 +69,14 @@
     .end annotation
 
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 6
     new-instance v0, Landroidx/core/view/SoftwareKeyboardControllerCompat$Impl30;
 
-    invoke-direct {v0, p1}, Landroidx/core/view/SoftwareKeyboardControllerCompat$Impl30;
-    -><init>(Landroid/view/WindowInsetsController;)V
+    invoke-direct {v0, p1}, Landroidx/core/view/SoftwareKeyboardControllerCompat$Impl30;-><init>(Landroid/view/WindowInsetsController;)V
 
-    iput-object v0, p0, Landroidx/core/view/SoftwareKeyboardControllerCompat;
-    ->mImpl:Landroidx/core/view/SoftwareKeyboardControllerCompat$Impl;
+    iput-object v0, p0, Landroidx/core/view/SoftwareKeyboardControllerCompat;->mImpl:Landroidx/core/view/SoftwareKeyboardControllerCompat$Impl;
 
     return-void
 .end method
@@ -96,13 +87,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/SoftwareKeyboardControllerCompat;
-    ->mImpl:Landroidx/core/view/SoftwareKeyboardControllerCompat$Impl;
+    iget-object v0, p0, Landroidx/core/view/SoftwareKeyboardControllerCompat;->mImpl:Landroidx/core/view/SoftwareKeyboardControllerCompat$Impl;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/core/view/SoftwareKeyboardControllerCompat$Impl;
-    ->hide()V
+    invoke-virtual {v0}, Landroidx/core/view/SoftwareKeyboardControllerCompat$Impl;->hide()V
 
     .line 4
     .line 5
@@ -114,13 +103,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/SoftwareKeyboardControllerCompat;
-    ->mImpl:Landroidx/core/view/SoftwareKeyboardControllerCompat$Impl;
+    iget-object v0, p0, Landroidx/core/view/SoftwareKeyboardControllerCompat;->mImpl:Landroidx/core/view/SoftwareKeyboardControllerCompat$Impl;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/core/view/SoftwareKeyboardControllerCompat$Impl;
-    ->show()V
+    invoke-virtual {v0}, Landroidx/core/view/SoftwareKeyboardControllerCompat$Impl;->show()V
 
     .line 4
     .line 5

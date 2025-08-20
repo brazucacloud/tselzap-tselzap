@@ -28,8 +28,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroid/util/Property;
-    -><init>(Ljava/lang/Class;Ljava/lang/String;)V
+    invoke-direct {p0, p1, p2}, Landroid/util/Property;-><init>(Ljava/lang/Class;Ljava/lang/String;)V
 return-void
 .end method
 
@@ -39,13 +38,11 @@ return-void
     .locals 0
 
     .line 2
-    invoke-static {p1}, Landroidx/transition/ViewUtils;
-    ->getTransitionAlpha(Landroid/view/View;)F
+    invoke-static {p1}, Landroidx/transition/ViewUtils;->getTransitionAlpha(Landroid/view/View;)F
 
     move-result p1
 
-    invoke-static {p1}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {p1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     move-result-object p1
 
@@ -58,8 +55,7 @@ return-void
     .line 1
     check-cast p1, Landroid/view/View;
 
-    invoke-virtual {p0, p1}, Landroidx/transition/ViewUtils$1;
-    ->get(Landroid/view/View;)Ljava/lang/Float;
+    invoke-virtual {p0, p1}, Landroidx/transition/ViewUtils$1;->get(Landroid/view/View;)Ljava/lang/Float;
 
     move-result-object p1
 
@@ -70,13 +66,11 @@ return-void
     .locals 0
 
     .line 2
-    invoke-virtual {p2}, Ljava/lang/Float;
-    ->floatValue()F
+    invoke-virtual {p2}, Ljava/lang/Float;->floatValue()F
 
     move-result p2
 
-    invoke-static {p1, p2}, Landroidx/transition/ViewUtils;
-    ->setTransitionAlpha(Landroid/view/View;F)V
+    invoke-static {p1, p2}, Landroidx/transition/ViewUtils;->setTransitionAlpha(Landroid/view/View;F)V
 
     return-void
 .end method
@@ -89,8 +83,7 @@ return-void
 
     check-cast p2, Ljava/lang/Float;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/transition/ViewUtils$1;
-    ->set(Landroid/view/View;Ljava/lang/Float;)V
+    invoke-virtual {p0, p1, p2}, Landroidx/transition/ViewUtils$1;->set(Landroid/view/View;Ljava/lang/Float;)V
 
     return-void
 .end method

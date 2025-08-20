@@ -17,8 +17,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, LB/a;
-    ->request:LA/c;
+    iget-object v0, p0, LB/a;->request:LA/c;
 
     .line 2
     .line 3
@@ -81,8 +80,7 @@
     .end param
 
     .line 1
-    iput-object p1, p0, LB/a;
-    ->request:LA/c;
+    iput-object p1, p0, LB/a;->request:LA/c;
 
     .line 2
     .line 3

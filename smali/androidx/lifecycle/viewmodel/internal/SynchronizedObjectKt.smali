@@ -22,8 +22,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -32,8 +31,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -42,8 +40,7 @@
 
     .line 12
     :try_start_0
-    invoke-interface {p1}, Lp1/a;
-    ->invoke()Ljava/lang/Object;
+    invoke-interface {p1}, Lp1/a;->invoke()Ljava/lang/Object;
 
     .line 13
     .line 14

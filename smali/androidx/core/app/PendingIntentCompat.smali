@@ -19,8 +19,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -36,8 +35,7 @@
 
     .line 2
     .line 3
-    sget p0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget p0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 4
     .line 5
@@ -60,8 +58,7 @@
 
     .line 13
     :cond_0
-    sget p0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget p0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 14
     .line 15
@@ -108,14 +105,12 @@
     .end annotation
 
     .line 1
-    invoke-static {p5, p3}, Landroidx/core/app/PendingIntentCompat;
-    ->addMutabilityFlags(ZI)I
+    invoke-static {p5, p3}, Landroidx/core/app/PendingIntentCompat;->addMutabilityFlags(ZI)I
 
     move-result p3
 
     .line 2
-    invoke-static {p0, p1, p2, p3, p4}, Landroid/app/PendingIntent;
-    ->getActivities(Landroid/content/Context;I[Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/PendingIntent;
+    invoke-static {p0, p1, p2, p3, p4}, Landroid/app/PendingIntent;->getActivities(Landroid/content/Context;I[Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/PendingIntent;
 
     move-result-object p0
 
@@ -142,14 +137,12 @@
     .end annotation
 
     .line 3
-    invoke-static {p4, p3}, Landroidx/core/app/PendingIntentCompat;
-    ->addMutabilityFlags(ZI)I
+    invoke-static {p4, p3}, Landroidx/core/app/PendingIntentCompat;->addMutabilityFlags(ZI)I
 
     move-result p3
 
     .line 4
-    invoke-static {p0, p1, p2, p3}, Landroid/app/PendingIntent;
-    ->getActivities(Landroid/content/Context;I[Landroid/content/Intent;I)Landroid/app/PendingIntent;
+    invoke-static {p0, p1, p2, p3}, Landroid/app/PendingIntent;->getActivities(Landroid/content/Context;I[Landroid/content/Intent;I)Landroid/app/PendingIntent;
 
     move-result-object p0
 
@@ -174,14 +167,12 @@
     .end annotation
 
     .line 3
-    invoke-static {p5, p3}, Landroidx/core/app/PendingIntentCompat;
-    ->addMutabilityFlags(ZI)I
+    invoke-static {p5, p3}, Landroidx/core/app/PendingIntentCompat;->addMutabilityFlags(ZI)I
 
     move-result p3
 
     .line 4
-    invoke-static {p0, p1, p2, p3, p4}, Landroid/app/PendingIntent;
-    ->getActivity(Landroid/content/Context;ILandroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/PendingIntent;
+    invoke-static {p0, p1, p2, p3, p4}, Landroid/app/PendingIntent;->getActivity(Landroid/content/Context;ILandroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/PendingIntent;
 
     move-result-object p0
 
@@ -202,14 +193,12 @@
     .end annotation
 
     .line 1
-    invoke-static {p4, p3}, Landroidx/core/app/PendingIntentCompat;
-    ->addMutabilityFlags(ZI)I
+    invoke-static {p4, p3}, Landroidx/core/app/PendingIntentCompat;->addMutabilityFlags(ZI)I
 
     move-result p3
 
     .line 2
-    invoke-static {p0, p1, p2, p3}, Landroid/app/PendingIntent;
-    ->getActivity(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
+    invoke-static {p0, p1, p2, p3}, Landroid/app/PendingIntent;->getActivity(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
 
     move-result-object p0
 
@@ -230,8 +219,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p4, p3}, Landroidx/core/app/PendingIntentCompat;
-    ->addMutabilityFlags(ZI)I
+    invoke-static {p4, p3}, Landroidx/core/app/PendingIntentCompat;->addMutabilityFlags(ZI)I
 
     .line 2
     .line 3
@@ -239,8 +227,7 @@
     move-result p3
 
     .line 5
-    invoke-static {p0, p1, p2, p3}, Landroid/app/PendingIntent;
-    ->getBroadcast(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
+    invoke-static {p0, p1, p2, p3}, Landroid/app/PendingIntent;->getBroadcast(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
 
     .line 6
     .line 7
@@ -268,8 +255,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p4, p3}, Landroidx/core/app/PendingIntentCompat;
-    ->addMutabilityFlags(ZI)I
+    invoke-static {p4, p3}, Landroidx/core/app/PendingIntentCompat;->addMutabilityFlags(ZI)I
 
     .line 2
     .line 3
@@ -277,8 +263,7 @@
     move-result p3
 
     .line 5
-    invoke-static {p0, p1, p2, p3}, Landroidx/core/app/PendingIntentCompat$Api26Impl;
-    ->getForegroundService(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
+    invoke-static {p0, p1, p2, p3}, Landroidx/core/app/PendingIntentCompat$Api26Impl;->getForegroundService(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
 
     .line 6
     .line 7
@@ -302,8 +287,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p4, p3}, Landroidx/core/app/PendingIntentCompat;
-    ->addMutabilityFlags(ZI)I
+    invoke-static {p4, p3}, Landroidx/core/app/PendingIntentCompat;->addMutabilityFlags(ZI)I
 
     .line 2
     .line 3
@@ -311,8 +295,7 @@
     move-result p3
 
     .line 5
-    invoke-static {p0, p1, p2, p3}, Landroid/app/PendingIntent;
-    ->getService(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
+    invoke-static {p0, p1, p2, p3}, Landroid/app/PendingIntent;->getService(Landroid/content/Context;ILandroid/content/Intent;I)Landroid/app/PendingIntent;
 
     .line 6
     .line 7
@@ -345,28 +328,23 @@
     .line 1
     new-instance v0, Landroidx/core/app/PendingIntentCompat$GatedCallback;
 
-    invoke-direct {v0, p2}, Landroidx/core/app/PendingIntentCompat$GatedCallback;
-    -><init>(Landroid/app/PendingIntent$OnFinished;)V
+    invoke-direct {v0, p2}, Landroidx/core/app/PendingIntentCompat$GatedCallback;-><init>(Landroid/app/PendingIntent$OnFinished;)V
 
     .line 2
     :try_start_0
-    invoke-virtual {v0}, Landroidx/core/app/PendingIntentCompat$GatedCallback;
-    ->getCallback()Landroid/app/PendingIntent$OnFinished;
+    invoke-virtual {v0}, Landroidx/core/app/PendingIntentCompat$GatedCallback;->getCallback()Landroid/app/PendingIntent$OnFinished;
 
     move-result-object p2
 
-    invoke-virtual {p0, p1, p2, p3}, Landroid/app/PendingIntent;
-    ->send(ILandroid/app/PendingIntent$OnFinished;Landroid/os/Handler;)V
+    invoke-virtual {p0, p1, p2, p3}, Landroid/app/PendingIntent;->send(ILandroid/app/PendingIntent$OnFinished;Landroid/os/Handler;)V
 
     .line 3
-    invoke-virtual {v0}, Landroidx/core/app/PendingIntentCompat$GatedCallback;
-    ->complete()V
+    invoke-virtual {v0}, Landroidx/core/app/PendingIntentCompat$GatedCallback;->complete()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 4
-    invoke-virtual {v0}, Landroidx/core/app/PendingIntentCompat$GatedCallback;
-    ->close()V
+    invoke-virtual {v0}, Landroidx/core/app/PendingIntentCompat$GatedCallback;->close()V
     return-void
 
     :catchall_0
@@ -374,8 +352,7 @@
 
     .line 5
     :try_start_1
-    invoke-virtual {v0}, Landroidx/core/app/PendingIntentCompat$GatedCallback;
-    ->close()V
+    invoke-virtual {v0}, Landroidx/core/app/PendingIntentCompat$GatedCallback;->close()V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
@@ -384,8 +361,7 @@
     :catchall_1
     move-exception p1
 
-    invoke-virtual {p0, p1}, Ljava/lang/Throwable;
-    ->addSuppressed(Ljava/lang/Throwable;)V
+    invoke-virtual {p0, p1}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
 
     :goto_0
     throw p0
@@ -442,8 +418,7 @@
     move-object v5, p5
 
     .line 6
-    invoke-static/range {v0 .. v7}, Landroidx/core/app/PendingIntentCompat;
-    ->send(Landroid/app/PendingIntent;Landroid/content/Context;ILandroid/content/Intent;Landroid/app/PendingIntent$OnFinished;Landroid/os/Handler;Ljava/lang/String;Landroid/os/Bundle;)V
+    invoke-static/range {v0 .. v7}, Landroidx/core/app/PendingIntentCompat;->send(Landroid/app/PendingIntent;Landroid/content/Context;ILandroid/content/Intent;Landroid/app/PendingIntent$OnFinished;Landroid/os/Handler;Ljava/lang/String;Landroid/os/Bundle;)V
 return-void
 .end method
 
@@ -492,21 +467,18 @@ return-void
     .line 7
     new-instance v1, Landroidx/core/app/PendingIntentCompat$GatedCallback;
 
-    invoke-direct {v1, p4}, Landroidx/core/app/PendingIntentCompat$GatedCallback;
-    -><init>(Landroid/app/PendingIntent$OnFinished;)V
+    invoke-direct {v1, p4}, Landroidx/core/app/PendingIntentCompat$GatedCallback;-><init>(Landroid/app/PendingIntent$OnFinished;)V
 
     .line 8
     :try_start_0
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x17
 
     if-lt v0, v2, :cond_0
 
     .line 9
-    invoke-static/range {p0 .. p7}, Landroidx/core/app/PendingIntentCompat$Api23Impl;
-    ->send(Landroid/app/PendingIntent;Landroid/content/Context;ILandroid/content/Intent;Landroid/app/PendingIntent$OnFinished;Landroid/os/Handler;Ljava/lang/String;Landroid/os/Bundle;)V
+    invoke-static/range {p0 .. p7}, Landroidx/core/app/PendingIntentCompat$Api23Impl;->send(Landroid/app/PendingIntent;Landroid/content/Context;ILandroid/content/Intent;Landroid/app/PendingIntent$OnFinished;Landroid/os/Handler;Ljava/lang/String;Landroid/os/Bundle;)V
 
     goto :goto_0
 
@@ -519,31 +491,26 @@ return-void
 
     .line 10
     :cond_0
-    invoke-virtual {v1}, Landroidx/core/app/PendingIntentCompat$GatedCallback;
-    ->getCallback()Landroid/app/PendingIntent$OnFinished;
+    invoke-virtual {v1}, Landroidx/core/app/PendingIntentCompat$GatedCallback;->getCallback()Landroid/app/PendingIntent$OnFinished;
 
     move-result-object p4
 
-    invoke-virtual/range {p0 .. p6}, Landroid/app/PendingIntent;
-    ->send(Landroid/content/Context;ILandroid/content/Intent;Landroid/app/PendingIntent$OnFinished;Landroid/os/Handler;Ljava/lang/String;)V
+    invoke-virtual/range {p0 .. p6}, Landroid/app/PendingIntent;->send(Landroid/content/Context;ILandroid/content/Intent;Landroid/app/PendingIntent$OnFinished;Landroid/os/Handler;Ljava/lang/String;)V
 
     .line 11
     :goto_0
-    invoke-virtual {v1}, Landroidx/core/app/PendingIntentCompat$GatedCallback;
-    ->complete()V
+    invoke-virtual {v1}, Landroidx/core/app/PendingIntentCompat$GatedCallback;->complete()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 12
-    invoke-virtual {v1}, Landroidx/core/app/PendingIntentCompat$GatedCallback;
-    ->close()V
+    invoke-virtual {v1}, Landroidx/core/app/PendingIntentCompat$GatedCallback;->close()V
     return-void
 
     .line 13
     :goto_1
     :try_start_1
-    invoke-virtual {v1}, Landroidx/core/app/PendingIntentCompat$GatedCallback;
-    ->close()V
+    invoke-virtual {v1}, Landroidx/core/app/PendingIntentCompat$GatedCallback;->close()V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
@@ -554,8 +521,7 @@ return-void
 
     move-object p1, v0
 
-    invoke-virtual {p0, p1}, Ljava/lang/Throwable;
-    ->addSuppressed(Ljava/lang/Throwable;)V
+    invoke-virtual {p0, p1}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
 
     :goto_2
     throw p0

@@ -71,8 +71,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -80,34 +79,29 @@
     const/4 v0, 0x1
 
     .line 5
-    iput-boolean v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->mRecycle:Z
+    iput-boolean v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mRecycle:Z
 
     .line 6
     .line 7
     const/4 v0, 0x0
 
     .line 8
-    iput v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->mExtraFillSpace:I
+    iput v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mExtraFillSpace:I
 
     .line 9
     .line 10
-    iput v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->mNoRecycleSpace:I
+    iput v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mNoRecycleSpace:I
 
     .line 11
     .line 12
-    iput-boolean v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->mIsPreLayout:Z
+    iput-boolean v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mIsPreLayout:Z
 
     .line 13
     .line 14
     const/4 v0, 0x0
 
     .line 15
-    iput-object v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->mScrapList:Ljava/util/List;    
+    iput-object v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mScrapList:Ljava/util/List;
     return-void
 .end method
 
@@ -115,13 +109,11 @@
     .locals 5
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->mScrapList:Ljava/util/List;
+    iget-object v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mScrapList:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     .line 4
     .line 5
@@ -137,13 +129,11 @@
 
     .line 9
     .line 10
-    iget-object v2, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->mScrapList:Ljava/util/List;
+    iget-object v2, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mScrapList:Ljava/util/List;
 
     .line 11
     .line 12
-    invoke-interface {v2, v1}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v2, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -155,13 +145,11 @@
 
     .line 17
     .line 18
-    iget-object v2, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->itemView:Landroid/view/View;
+    iget-object v2, v2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     .line 19
     .line 20
-    invoke-virtual {v2}, Landroid/view/View;
-    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v2}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 21
     .line 22
@@ -173,8 +161,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {v3}, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;
-    ->isItemRemoved()Z
+    invoke-virtual {v3}, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;->isItemRemoved()Z
 
     .line 27
     .line 28
@@ -190,13 +177,11 @@
 
     .line 33
     :cond_0
-    iget v4, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->mCurrentPosition:I
+    iget v4, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mCurrentPosition:I
 
     .line 34
     .line 35
-    invoke-virtual {v3}, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;
-    ->getViewLayoutPosition()I
+    invoke-virtual {v3}, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;->getViewLayoutPosition()I
 
     .line 36
     .line 37
@@ -208,8 +193,7 @@
 
     .line 40
     .line 41
-    invoke-virtual {p0, v2}, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->assignPositionFromScrapList(Landroid/view/View;)V    
+    invoke-virtual {p0, v2}, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->assignPositionFromScrapList(Landroid/view/View;)V
     return-object v2
 
     .line 45
@@ -236,8 +220,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->assignPositionFromScrapList(Landroid/view/View;)V
+    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->assignPositionFromScrapList(Landroid/view/View;)V
 
     return-void
 .end method
@@ -246,8 +229,7 @@
     .locals 0
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->nextViewInLimitedList(Landroid/view/View;)Landroid/view/View;
+    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->nextViewInLimitedList(Landroid/view/View;)Landroid/view/View;
 
     move-result-object p1
 
@@ -256,28 +238,24 @@
     const/4 p1, -0x1
 
     .line 3
-    iput p1, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->mCurrentPosition:I
+    iput p1, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mCurrentPosition:I
 
     return-void
 
     .line 4
     :cond_0
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object p1
 
     check-cast p1, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;
 
     .line 5
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;
-    ->getViewLayoutPosition()I
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;->getViewLayoutPosition()I
 
     move-result p1
 
-    iput p1, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->mCurrentPosition:I
+    iput p1, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mCurrentPosition:I
 
     return-void
 .end method
@@ -286,8 +264,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->mCurrentPosition:I
+    iget v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mCurrentPosition:I
 
     .line 2
     .line 3
@@ -295,8 +272,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$State;
-    ->getItemCount()I
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$State;->getItemCount()I
 
     .line 6
     .line 7
@@ -331,19 +307,16 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    iget v1, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->mAvailable:I
+    iget v1, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mAvailable:I
 
     .line 9
     .line 10
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 11
     .line 12
@@ -352,19 +325,16 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 16
     .line 17
     .line 18
-    iget v1, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->mCurrentPosition:I
+    iget v1, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mCurrentPosition:I
 
     .line 19
     .line 20
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 21
     .line 22
@@ -373,19 +343,16 @@
 
     .line 24
     .line 25
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 26
     .line 27
     .line 28
-    iget v1, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->mItemDirection:I
+    iget v1, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mItemDirection:I
 
     .line 29
     .line 30
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 31
     .line 32
@@ -394,19 +361,16 @@
 
     .line 34
     .line 35
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 36
     .line 37
     .line 38
-    iget v1, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->mOffset:I
+    iget v1, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mOffset:I
 
     .line 39
     .line 40
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 41
     .line 42
@@ -415,25 +379,21 @@
 
     .line 44
     .line 45
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 46
     .line 47
     .line 48
-    iget v1, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->mLayoutDirection:I
+    iget v1, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mLayoutDirection:I
 
     .line 49
     .line 50
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 51
     .line 52
     .line 53
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 54
     .line 55
@@ -445,8 +405,7 @@
 
     .line 58
     .line 59
-    invoke-static {v1, v0}, Landroid/util/Log;
-    ->d(Ljava/lang/String;Ljava/lang/String;)I    
+    invoke-static {v1, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
     return-void
 .end method
 
@@ -454,8 +413,7 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->mScrapList:Ljava/util/List;
+    iget-object v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mScrapList:Ljava/util/List;
 
     .line 2
     .line 3
@@ -463,8 +421,7 @@
 
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->nextViewFromScrapList()Landroid/view/View;
+    invoke-direct {p0}, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->nextViewFromScrapList()Landroid/view/View;
 
     .line 6
     .line 7
@@ -475,13 +432,11 @@
 
     .line 10
     :cond_0
-    iget v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->mCurrentPosition:I
+    iget v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mCurrentPosition:I
 
     .line 11
     .line 12
-    invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView$Recycler;
-    ->getViewForPosition(I)Landroid/view/View;
+    invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->getViewForPosition(I)Landroid/view/View;
 
     .line 13
     .line 14
@@ -489,21 +444,18 @@
     move-result-object p1
 
     .line 16
-    iget v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->mCurrentPosition:I
+    iget v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mCurrentPosition:I
 
     .line 17
     .line 18
-    iget v1, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->mItemDirection:I
+    iget v1, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mItemDirection:I
 
     .line 19
     .line 20
     add-int/2addr v0, v1
 
     .line 21
-    iput v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->mCurrentPosition:I    
+    iput v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mCurrentPosition:I
     return-object p1
 .end method
 
@@ -511,13 +463,11 @@
     .locals 7
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->mScrapList:Ljava/util/List;
+    iget-object v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mScrapList:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     .line 4
     .line 5
@@ -541,13 +491,11 @@
 
     .line 13
     .line 14
-    iget-object v4, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->mScrapList:Ljava/util/List;
+    iget-object v4, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mScrapList:Ljava/util/List;
 
     .line 15
     .line 16
-    invoke-interface {v4, v3}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v4, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -559,13 +507,11 @@
 
     .line 21
     .line 22
-    iget-object v4, v4, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->itemView:Landroid/view/View;
+    iget-object v4, v4, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     .line 23
     .line 24
-    invoke-virtual {v4}, Landroid/view/View;
-    ->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+    invoke-virtual {v4}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     .line 25
     .line 26
@@ -581,8 +527,7 @@
 
     .line 31
     .line 32
-    invoke-virtual {v5}, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;
-    ->isItemRemoved()Z
+    invoke-virtual {v5}, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;->isItemRemoved()Z
 
     .line 33
     .line 34
@@ -598,8 +543,7 @@
 
     .line 39
     :cond_0
-    invoke-virtual {v5}, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;
-    ->getViewLayoutPosition()I
+    invoke-virtual {v5}, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;->getViewLayoutPosition()I
 
     .line 40
     .line 41
@@ -607,16 +551,14 @@
     move-result v5
 
     .line 43
-    iget v6, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->mCurrentPosition:I
+    iget v6, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mCurrentPosition:I
 
     .line 44
     .line 45
     sub-int/2addr v5, v6
 
     .line 46
-    iget v6, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;
-    ->mItemDirection:I
+    iget v6, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;->mItemDirection:I
 
     .line 47
     .line 48

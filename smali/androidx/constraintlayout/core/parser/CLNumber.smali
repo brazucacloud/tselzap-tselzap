@@ -14,12 +14,10 @@
     const/4 v0, 0x0
 
     .line 3
-    invoke-direct {p0, v0}, Landroidx/constraintlayout/core/parser/CLElement;
-    -><init>([C)V
+    invoke-direct {p0, v0}, Landroidx/constraintlayout/core/parser/CLElement;-><init>([C)V
 
     .line 4
-    iput p1, p0, Landroidx/constraintlayout/core/parser/CLNumber;
-    ->mValue:F
+    iput p1, p0, Landroidx/constraintlayout/core/parser/CLNumber;->mValue:F
 
     return-void
 .end method
@@ -28,14 +26,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/parser/CLElement;
-    -><init>([C)V
+    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/parser/CLElement;-><init>([C)V
 
     const/high16 p1, 0x7fc00000    # Float.NaN
 
     .line 2
-    iput p1, p0, Landroidx/constraintlayout/core/parser/CLNumber;
-    ->mValue:F
+    iput p1, p0, Landroidx/constraintlayout/core/parser/CLNumber;->mValue:F
 
     return-void
 .end method
@@ -48,8 +44,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/constraintlayout/core/parser/CLNumber;
-    -><init>([C)V
+    invoke-direct {v0, p0}, Landroidx/constraintlayout/core/parser/CLNumber;-><init>([C)V
 return-object v0
 .end method
 
@@ -77,8 +72,7 @@ return-object v0
 
     .line 9
     .line 10
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/parser/CLNumber;
-    ->getFloat()F
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/parser/CLNumber;->getFloat()F
 
     .line 11
     .line 12
@@ -90,8 +84,7 @@ return-object v0
 
     .line 15
     .line 16
-    invoke-virtual {p1}, Landroidx/constraintlayout/core/parser/CLNumber;
-    ->getFloat()F
+    invoke-virtual {p1}, Landroidx/constraintlayout/core/parser/CLNumber;->getFloat()F
 
     .line 17
     .line 18
@@ -99,8 +92,7 @@ return-object v0
     move-result p1
 
     .line 20
-    invoke-static {v1}, Ljava/lang/Float;
-    ->isNaN(F)Z
+    invoke-static {v1}, Ljava/lang/Float;->isNaN(F)Z
 
     .line 21
     .line 22
@@ -112,8 +104,7 @@ return-object v0
 
     .line 25
     .line 26
-    invoke-static {p1}, Ljava/lang/Float;
-    ->isNaN(F)Z
+    invoke-static {p1}, Ljava/lang/Float;->isNaN(F)Z
 
     .line 27
     .line 28
@@ -140,13 +131,11 @@ return-object v0
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/parser/CLNumber;
-    ->mValue:F
+    iget v0, p0, Landroidx/constraintlayout/core/parser/CLNumber;->mValue:F
 
     .line 2
     .line 3
-    invoke-static {v0}, Ljava/lang/Float;
-    ->isNaN(F)Z
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
 
     .line 4
     .line 5
@@ -158,8 +147,7 @@ return-object v0
 
     .line 8
     .line 9
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/parser/CLElement;
-    ->hasContent()Z
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/parser/CLElement;->hasContent()Z
 
     .line 10
     .line 11
@@ -171,8 +159,7 @@ return-object v0
 
     .line 14
     .line 15
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/parser/CLElement;
-    ->content()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/parser/CLElement;->content()Ljava/lang/String;
 
     .line 16
     .line 17
@@ -180,8 +167,7 @@ return-object v0
     move-result-object v0
 
     .line 19
-    invoke-static {v0}, Ljava/lang/Float;
-    ->parseFloat(Ljava/lang/String;)F
+    invoke-static {v0}, Ljava/lang/Float;->parseFloat(Ljava/lang/String;)F
 
     .line 20
     .line 21
@@ -189,27 +175,23 @@ return-object v0
     move-result v0
 
     .line 23
-    iput v0, p0, Landroidx/constraintlayout/core/parser/CLNumber;
-    ->mValue:F
+    iput v0, p0, Landroidx/constraintlayout/core/parser/CLNumber;->mValue:F
 
     .line 24
     .line 25
     :cond_0
-    iget v0, p0, Landroidx/constraintlayout/core/parser/CLNumber;
-    ->mValue:F    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/parser/CLNumber;->mValue:F    return v0
 .end method
 
 .method public getInt()I
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/parser/CLNumber;
-    ->mValue:F
+    iget v0, p0, Landroidx/constraintlayout/core/parser/CLNumber;->mValue:F
 
     .line 2
     .line 3
-    invoke-static {v0}, Ljava/lang/Float;
-    ->isNaN(F)Z
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
 
     .line 4
     .line 5
@@ -221,8 +203,7 @@ return-object v0
 
     .line 8
     .line 9
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/parser/CLElement;
-    ->hasContent()Z
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/parser/CLElement;->hasContent()Z
 
     .line 10
     .line 11
@@ -234,8 +215,7 @@ return-object v0
 
     .line 14
     .line 15
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/parser/CLElement;
-    ->content()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/parser/CLElement;->content()Ljava/lang/String;
 
     .line 16
     .line 17
@@ -243,8 +223,7 @@ return-object v0
     move-result-object v0
 
     .line 19
-    invoke-static {v0}, Ljava/lang/Integer;
-    ->parseInt(Ljava/lang/String;)I
+    invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     .line 20
     .line 21
@@ -255,14 +234,12 @@ return-object v0
     int-to-float v0, v0
 
     .line 24
-    iput v0, p0, Landroidx/constraintlayout/core/parser/CLNumber;
-    ->mValue:F
+    iput v0, p0, Landroidx/constraintlayout/core/parser/CLNumber;->mValue:F
 
     .line 25
     .line 26
     :cond_0
-    iget v0, p0, Landroidx/constraintlayout/core/parser/CLNumber;
-    ->mValue:F
+    iget v0, p0, Landroidx/constraintlayout/core/parser/CLNumber;->mValue:F
 
     .line 27
     .line 28
@@ -275,8 +252,7 @@ return-object v0
     .locals 3
 
     .line 1
-    invoke-super {p0}, Landroidx/constraintlayout/core/parser/CLElement;
-    ->hashCode()I
+    invoke-super {p0}, Landroidx/constraintlayout/core/parser/CLElement;->hashCode()I
 
     .line 2
     .line 3
@@ -288,8 +264,7 @@ return-object v0
 
     .line 6
     .line 7
-    iget v1, p0, Landroidx/constraintlayout/core/parser/CLNumber;
-    ->mValue:F
+    iget v1, p0, Landroidx/constraintlayout/core/parser/CLNumber;->mValue:F
 
     .line 8
     .line 9
@@ -304,8 +279,7 @@ return-object v0
 
     .line 13
     .line 14
-    invoke-static {v1}, Ljava/lang/Float;
-    ->floatToIntBits(F)I
+    invoke-static {v1}, Ljava/lang/Float;->floatToIntBits(F)I
 
     .line 15
     .line 16
@@ -330,8 +304,7 @@ return-object v0
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/parser/CLNumber;
-    ->getFloat()F
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/parser/CLNumber;->getFloat()F
 
     .line 2
     .line 3
@@ -368,8 +341,7 @@ return-object v0
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/constraintlayout/core/parser/CLNumber;
-    ->mValue:F    
+    iput p1, p0, Landroidx/constraintlayout/core/parser/CLNumber;->mValue:F
     return-void
 .end method
 
@@ -381,20 +353,17 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-direct {p2}, Ljava/lang/StringBuilder;
-    -><init>()V
+    invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, p2, p1}, Landroidx/constraintlayout/core/parser/CLElement;
-    ->addIndent(Ljava/lang/StringBuilder;I)V
+    invoke-virtual {p0, p2, p1}, Landroidx/constraintlayout/core/parser/CLElement;->addIndent(Ljava/lang/StringBuilder;I)V
 
     .line 7
     .line 8
     .line 9
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/parser/CLNumber;
-    ->getFloat()F
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/parser/CLNumber;->getFloat()F
 
     .line 10
     .line 11
@@ -416,8 +385,7 @@ return-object v0
 
     .line 18
     .line 19
-    invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 20
     .line 21
@@ -426,15 +394,13 @@ return-object v0
 
     .line 23
     :cond_0
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
-    ->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     .line 24
     .line 25
     .line 26
     :goto_0
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 27
     .line 28
@@ -448,8 +414,7 @@ return-object v0
     .locals 4
 
     .line 1
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/parser/CLNumber;
-    ->getFloat()F
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/parser/CLNumber;->getFloat()F
 
     .line 2
     .line 3
@@ -475,8 +440,7 @@ return-object v0
 
     .line 12
     .line 13
-    invoke-static {v1, v3}, LA/d;
-    ->c(ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {v1, v3}, LA/d;->c(ILjava/lang/String;)Ljava/lang/String;
 
     .line 14
     .line 15
@@ -491,20 +455,17 @@ return-object v0
 
     .line 19
     .line 20
-    invoke-direct {v1, v3}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 21
     .line 22
     .line 23
-    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;
-    ->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 27
     .line 28

@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/graphics/drawable/Drawable$ConstantState;
-    -><init>()V
+    invoke-direct {p0}, Landroid/graphics/drawable/Drawable$ConstantState;-><init>()V
     return-void
 .end method
 
@@ -17,8 +16,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Landroid/graphics/drawable/Drawable$ConstantState;
-    -><init>()V
+    invoke-direct {p0}, Landroid/graphics/drawable/Drawable$ConstantState;-><init>()V
     return-void
 .end method
 
@@ -36,8 +34,7 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Lcom/google/android/gms/internal/base/zai;
-    ->zaa()Lcom/google/android/gms/internal/base/zai;
+    invoke-static {}, Lcom/google/android/gms/internal/base/zai;->zaa()Lcom/google/android/gms/internal/base/zai;
 
     .line 2
     .line 3

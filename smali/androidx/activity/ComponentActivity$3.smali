@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/activity/ComponentActivity;
-    -><init>()V
+    value = Landroidx/activity/ComponentActivity;-><init>()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/activity/ComponentActivity$3;
-    ->this$0:Landroidx/activity/ComponentActivity;
+    iput-object p1, p0, Landroidx/activity/ComponentActivity$3;->this$0:Landroidx/activity/ComponentActivity;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -51,8 +48,7 @@
     .end param
 
     .line 1
-    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;
-    ->ON_DESTROY:Landroidx/lifecycle/Lifecycle$Event;
+    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;->ON_DESTROY:Landroidx/lifecycle/Lifecycle$Event;
 
     .line 2
     .line 3
@@ -60,29 +56,24 @@
 
     .line 4
     .line 5
-    iget-object p1, p0, Landroidx/activity/ComponentActivity$3;
-    ->this$0:Landroidx/activity/ComponentActivity;
+    iget-object p1, p0, Landroidx/activity/ComponentActivity$3;->this$0:Landroidx/activity/ComponentActivity;
 
     .line 6
     .line 7
-    iget-object p1, p1, Landroidx/activity/ComponentActivity;
-    ->mContextAwareHelper:Landroidx/activity/contextaware/ContextAwareHelper;
+    iget-object p1, p1, Landroidx/activity/ComponentActivity;->mContextAwareHelper:Landroidx/activity/contextaware/ContextAwareHelper;
 
     .line 8
     .line 9
-    invoke-virtual {p1}, Landroidx/activity/contextaware/ContextAwareHelper;
-    ->clearAvailableContext()V
+    invoke-virtual {p1}, Landroidx/activity/contextaware/ContextAwareHelper;->clearAvailableContext()V
 
     .line 10
     .line 11
     .line 12
-    iget-object p1, p0, Landroidx/activity/ComponentActivity$3;
-    ->this$0:Landroidx/activity/ComponentActivity;
+    iget-object p1, p0, Landroidx/activity/ComponentActivity$3;->this$0:Landroidx/activity/ComponentActivity;
 
     .line 13
     .line 14
-    invoke-virtual {p1}, Landroid/app/Activity;
-    ->isChangingConfigurations()Z
+    invoke-virtual {p1}, Landroid/app/Activity;->isChangingConfigurations()Z
 
     .line 15
     .line 16
@@ -94,13 +85,11 @@
 
     .line 19
     .line 20
-    iget-object p1, p0, Landroidx/activity/ComponentActivity$3;
-    ->this$0:Landroidx/activity/ComponentActivity;
+    iget-object p1, p0, Landroidx/activity/ComponentActivity$3;->this$0:Landroidx/activity/ComponentActivity;
 
     .line 21
     .line 22
-    invoke-virtual {p1}, Landroidx/activity/ComponentActivity;
-    ->getViewModelStore()Landroidx/lifecycle/ViewModelStore;
+    invoke-virtual {p1}, Landroidx/activity/ComponentActivity;->getViewModelStore()Landroidx/lifecycle/ViewModelStore;
 
     .line 23
     .line 24
@@ -108,25 +97,21 @@
     move-result-object p1
 
     .line 26
-    invoke-virtual {p1}, Landroidx/lifecycle/ViewModelStore;
-    ->clear()V
+    invoke-virtual {p1}, Landroidx/lifecycle/ViewModelStore;->clear()V
 
     .line 27
     .line 28
     .line 29
     :cond_0
-    iget-object p1, p0, Landroidx/activity/ComponentActivity$3;
-    ->this$0:Landroidx/activity/ComponentActivity;
+    iget-object p1, p0, Landroidx/activity/ComponentActivity$3;->this$0:Landroidx/activity/ComponentActivity;
 
     .line 30
     .line 31
-    iget-object p1, p1, Landroidx/activity/ComponentActivity;
-    ->mReportFullyDrawnExecutor:Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutor;
+    iget-object p1, p1, Landroidx/activity/ComponentActivity;->mReportFullyDrawnExecutor:Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutor;
 
     .line 32
     .line 33
-    invoke-interface {p1}, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutor;
-    ->activityDestroyed()V
+    invoke-interface {p1}, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutor;->activityDestroyed()V
 
     .line 34
     .line 35

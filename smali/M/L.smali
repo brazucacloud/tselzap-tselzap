@@ -40,14 +40,12 @@
 
     .line 10
     .line 11
-    invoke-direct {v6, v7, v5}, Ljava/lang/Enum;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v6, v7, v5}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     .line 12
     .line 13
     .line 14
-    sput-object v6, LM/L;
-    ->b:LM/L;
+    sput-object v6, LM/L;->b:LM/L;
 
     .line 15
     .line 16
@@ -59,8 +57,7 @@
 
     .line 19
     .line 20
-    invoke-direct {v7, v8, v4}, Ljava/lang/Enum;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v7, v8, v4}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     .line 21
     .line 22
@@ -73,8 +70,7 @@
 
     .line 26
     .line 27
-    invoke-direct {v8, v9, v3}, Ljava/lang/Enum;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v8, v9, v3}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     .line 28
     .line 29
@@ -87,8 +83,7 @@
 
     .line 33
     .line 34
-    invoke-direct {v9, v10, v2}, Ljava/lang/Enum;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v9, v10, v2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     .line 35
     .line 36
@@ -101,8 +96,7 @@
 
     .line 40
     .line 41
-    invoke-direct {v10, v11, v1}, Ljava/lang/Enum;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v10, v11, v1}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     .line 42
     .line 43
@@ -115,8 +109,7 @@
 
     .line 47
     .line 48
-    invoke-direct {v11, v12, v0}, Ljava/lang/Enum;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v11, v12, v0}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     .line 49
     .line 50
@@ -152,8 +145,7 @@
 
     .line 65
     .line 66
-    sput-object v12, LM/L;
-    ->c:[LM/L;
+    sput-object v12, LM/L;->c:[LM/L;
 
     .line 67
     .line 68
@@ -161,38 +153,32 @@
 
     .line 69
     .line 70
-    invoke-direct {v0}, Landroid/util/SparseArray;
-    -><init>()V
+    invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
 
     .line 71
     .line 72
     .line 73
-    invoke-virtual {v0, v5, v6}, Landroid/util/SparseArray;
-    ->put(ILjava/lang/Object;)V
+    invoke-virtual {v0, v5, v6}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 74
     .line 75
     .line 76
-    invoke-virtual {v0, v4, v7}, Landroid/util/SparseArray;
-    ->put(ILjava/lang/Object;)V
+    invoke-virtual {v0, v4, v7}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 77
     .line 78
     .line 79
-    invoke-virtual {v0, v3, v8}, Landroid/util/SparseArray;
-    ->put(ILjava/lang/Object;)V
+    invoke-virtual {v0, v3, v8}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 80
     .line 81
     .line 82
-    invoke-virtual {v0, v2, v9}, Landroid/util/SparseArray;
-    ->put(ILjava/lang/Object;)V
+    invoke-virtual {v0, v2, v9}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 83
     .line 84
     .line 85
-    invoke-virtual {v0, v1, v10}, Landroid/util/SparseArray;
-    ->put(ILjava/lang/Object;)V
+    invoke-virtual {v0, v1, v10}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 86
     .line 87
@@ -200,8 +186,7 @@
     const/4 v1, -0x1
 
     .line 89
-    invoke-virtual {v0, v1, v11}, Landroid/util/SparseArray;
-    ->put(ILjava/lang/Object;)V
+    invoke-virtual {v0, v1, v11}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 90
     .line 91
@@ -217,8 +202,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p0}, Ljava/lang/Enum;
-    ->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     .line 4
     .line 5
@@ -237,13 +221,11 @@
     .locals 1
 
     .line 1
-    sget-object v0, LM/L;
-    ->c:[LM/L;
+    sget-object v0, LM/L;->c:[LM/L;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, [LM/L;
-    ->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [LM/L;->clone()Ljava/lang/Object;
 
     .line 4
     .line 5

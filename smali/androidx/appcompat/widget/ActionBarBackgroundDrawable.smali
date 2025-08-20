@@ -20,14 +20,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/graphics/drawable/Drawable;
-    -><init>()V
+    invoke-direct {p0}, Landroid/graphics/drawable/Drawable;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/appcompat/widget/ActionBarBackgroundDrawable;
-    ->mContainer:Landroidx/appcompat/widget/ActionBarContainer;    
+    iput-object p1, p0, Landroidx/appcompat/widget/ActionBarBackgroundDrawable;->mContainer:Landroidx/appcompat/widget/ActionBarContainer;
     return-void
 .end method
 
@@ -41,13 +39,11 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/ActionBarBackgroundDrawable;
-    ->mContainer:Landroidx/appcompat/widget/ActionBarContainer;
+    iget-object v0, p0, Landroidx/appcompat/widget/ActionBarBackgroundDrawable;->mContainer:Landroidx/appcompat/widget/ActionBarContainer;
 
     .line 2
     .line 3
-    iget-boolean v1, v0, Landroidx/appcompat/widget/ActionBarContainer;
-    ->mIsSplit:Z
+    iget-boolean v1, v0, Landroidx/appcompat/widget/ActionBarContainer;->mIsSplit:Z
 
     .line 4
     .line 5
@@ -55,8 +51,7 @@
 
     .line 6
     .line 7
-    iget-object v0, v0, Landroidx/appcompat/widget/ActionBarContainer;
-    ->mSplitBackground:Landroid/graphics/drawable/Drawable;
+    iget-object v0, v0, Landroidx/appcompat/widget/ActionBarContainer;->mSplitBackground:Landroid/graphics/drawable/Drawable;
 
     .line 8
     .line 9
@@ -64,14 +59,12 @@
 
     .line 10
     .line 11
-    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;
-    ->draw(Landroid/graphics/Canvas;)V
+    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
 return-void
 
     .line 15
     :cond_0
-    iget-object v0, v0, Landroidx/appcompat/widget/ActionBarContainer;
-    ->mBackground:Landroid/graphics/drawable/Drawable;
+    iget-object v0, v0, Landroidx/appcompat/widget/ActionBarContainer;->mBackground:Landroid/graphics/drawable/Drawable;
 
     .line 16
     .line 17
@@ -79,20 +72,17 @@ return-void
 
     .line 18
     .line 19
-    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;
-    ->draw(Landroid/graphics/Canvas;)V
+    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
 
     .line 20
     .line 21
     .line 22
     :cond_1
-    iget-object v0, p0, Landroidx/appcompat/widget/ActionBarBackgroundDrawable;
-    ->mContainer:Landroidx/appcompat/widget/ActionBarContainer;
+    iget-object v0, p0, Landroidx/appcompat/widget/ActionBarBackgroundDrawable;->mContainer:Landroidx/appcompat/widget/ActionBarContainer;
 
     .line 23
     .line 24
-    iget-object v1, v0, Landroidx/appcompat/widget/ActionBarContainer;
-    ->mStackedBackground:Landroid/graphics/drawable/Drawable;
+    iget-object v1, v0, Landroidx/appcompat/widget/ActionBarContainer;->mStackedBackground:Landroid/graphics/drawable/Drawable;
 
     .line 25
     .line 26
@@ -100,8 +90,7 @@ return-void
 
     .line 27
     .line 28
-    iget-boolean v0, v0, Landroidx/appcompat/widget/ActionBarContainer;
-    ->mIsStacked:Z
+    iget-boolean v0, v0, Landroidx/appcompat/widget/ActionBarContainer;->mIsStacked:Z
 
     .line 29
     .line 30
@@ -109,8 +98,7 @@ return-void
 
     .line 31
     .line 32
-    invoke-virtual {v1, p1}, Landroid/graphics/drawable/Drawable;
-    ->draw(Landroid/graphics/Canvas;)V
+    invoke-virtual {v1, p1}, Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
 
     .line 33
     .line 34
@@ -138,13 +126,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/ActionBarBackgroundDrawable;
-    ->mContainer:Landroidx/appcompat/widget/ActionBarContainer;
+    iget-object v0, p0, Landroidx/appcompat/widget/ActionBarBackgroundDrawable;->mContainer:Landroidx/appcompat/widget/ActionBarContainer;
 
     .line 2
     .line 3
-    iget-boolean v1, v0, Landroidx/appcompat/widget/ActionBarContainer;
-    ->mIsSplit:Z
+    iget-boolean v1, v0, Landroidx/appcompat/widget/ActionBarContainer;->mIsSplit:Z
 
     .line 4
     .line 5
@@ -152,8 +138,7 @@ return-void
 
     .line 6
     .line 7
-    iget-object v1, v0, Landroidx/appcompat/widget/ActionBarContainer;
-    ->mSplitBackground:Landroid/graphics/drawable/Drawable;
+    iget-object v1, v0, Landroidx/appcompat/widget/ActionBarContainer;->mSplitBackground:Landroid/graphics/drawable/Drawable;
 
     .line 8
     .line 9
@@ -161,19 +146,16 @@ return-void
 
     .line 10
     .line 11
-    iget-object v0, v0, Landroidx/appcompat/widget/ActionBarContainer;
-    ->mBackground:Landroid/graphics/drawable/Drawable;
+    iget-object v0, v0, Landroidx/appcompat/widget/ActionBarContainer;->mBackground:Landroid/graphics/drawable/Drawable;
 
     .line 12
     .line 13
-    invoke-static {v0, p1}, Landroidx/appcompat/widget/ActionBarBackgroundDrawable$Api21Impl;
-    ->getOutline(Landroid/graphics/drawable/Drawable;Landroid/graphics/Outline;)V
+    invoke-static {v0, p1}, Landroidx/appcompat/widget/ActionBarBackgroundDrawable$Api21Impl;->getOutline(Landroid/graphics/drawable/Drawable;Landroid/graphics/Outline;)V
 return-void
 
     .line 17
     :cond_0
-    iget-object v0, v0, Landroidx/appcompat/widget/ActionBarContainer;
-    ->mBackground:Landroid/graphics/drawable/Drawable;
+    iget-object v0, v0, Landroidx/appcompat/widget/ActionBarContainer;->mBackground:Landroid/graphics/drawable/Drawable;
 
     .line 18
     .line 19
@@ -181,8 +163,7 @@ return-void
 
     .line 20
     .line 21
-    invoke-static {v0, p1}, Landroidx/appcompat/widget/ActionBarBackgroundDrawable$Api21Impl;
-    ->getOutline(Landroid/graphics/drawable/Drawable;Landroid/graphics/Outline;)V
+    invoke-static {v0, p1}, Landroidx/appcompat/widget/ActionBarBackgroundDrawable$Api21Impl;->getOutline(Landroid/graphics/drawable/Drawable;Landroid/graphics/Outline;)V
 
     .line 22
     .line 23

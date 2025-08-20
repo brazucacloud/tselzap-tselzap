@@ -25,13 +25,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/recyclerview/widget/SnapHelper$1;
-    ->this$0:Landroidx/recyclerview/widget/SnapHelper;
+    iput-object p1, p0, Landroidx/recyclerview/widget/SnapHelper$1;->this$0:Landroidx/recyclerview/widget/SnapHelper;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;-><init>()V
 
     .line 4
     .line 5
@@ -39,8 +37,7 @@
     const/4 p1, 0x0
 
     .line 7
-    iput-boolean p1, p0, Landroidx/recyclerview/widget/SnapHelper$1;
-    ->mScrolled:Z
+    iput-boolean p1, p0, Landroidx/recyclerview/widget/SnapHelper$1;->mScrolled:Z
 return-void
 .end method
 
@@ -50,8 +47,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;
-    ->onScrollStateChanged(Landroidx/recyclerview/widget/RecyclerView;I)V
+    invoke-super {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;->onScrollStateChanged(Landroidx/recyclerview/widget/RecyclerView;I)V
 
     .line 2
     .line 3
@@ -60,8 +56,7 @@ return-void
 
     .line 5
     .line 6
-    iget-boolean p1, p0, Landroidx/recyclerview/widget/SnapHelper$1;
-    ->mScrolled:Z
+    iget-boolean p1, p0, Landroidx/recyclerview/widget/SnapHelper$1;->mScrolled:Z
 
     .line 7
     .line 8
@@ -72,18 +67,15 @@ return-void
     const/4 p1, 0x0
 
     .line 11
-    iput-boolean p1, p0, Landroidx/recyclerview/widget/SnapHelper$1;
-    ->mScrolled:Z
+    iput-boolean p1, p0, Landroidx/recyclerview/widget/SnapHelper$1;->mScrolled:Z
 
     .line 12
     .line 13
-    iget-object p1, p0, Landroidx/recyclerview/widget/SnapHelper$1;
-    ->this$0:Landroidx/recyclerview/widget/SnapHelper;
+    iget-object p1, p0, Landroidx/recyclerview/widget/SnapHelper$1;->this$0:Landroidx/recyclerview/widget/SnapHelper;
 
     .line 14
     .line 15
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/SnapHelper;
-    ->snapToTargetExistingView()V
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/SnapHelper;->snapToTargetExistingView()V
 
     .line 16
     .line 17
@@ -116,8 +108,7 @@ return-void
     const/4 p1, 0x1
 
     .line 8
-    iput-boolean p1, p0, Landroidx/recyclerview/widget/SnapHelper$1;
-    ->mScrolled:Z
+    iput-boolean p1, p0, Landroidx/recyclerview/widget/SnapHelper$1;->mScrolled:Z
 return-void
 .end method
 

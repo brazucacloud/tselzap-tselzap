@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/android/volley/RequestQueue;
-    ->cancelAll(Ljava/lang/Object;)V
+    value = Lcom/android/volley/RequestQueue;->cancelAll(Ljava/lang/Object;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -29,18 +28,15 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/android/volley/RequestQueue$1;
-    ->this$0:Lcom/android/volley/RequestQueue;
+    iput-object p1, p0, Lcom/android/volley/RequestQueue$1;->this$0:Lcom/android/volley/RequestQueue;
 
     .line 2
     .line 3
-    iput-object p2, p0, Lcom/android/volley/RequestQueue$1;
-    ->val$tag:Ljava/lang/Object;
+    iput-object p2, p0, Lcom/android/volley/RequestQueue$1;->val$tag:Ljava/lang/Object;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 6
     .line 7
@@ -61,8 +57,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/android/volley/Request;
-    ->getTag()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/android/volley/Request;->getTag()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -70,8 +65,7 @@
     move-result-object p1
 
     .line 5
-    iget-object v0, p0, Lcom/android/volley/RequestQueue$1;
-    ->val$tag:Ljava/lang/Object;
+    iget-object v0, p0, Lcom/android/volley/RequestQueue$1;->val$tag:Ljava/lang/Object;
 
     .line 6
     .line 7

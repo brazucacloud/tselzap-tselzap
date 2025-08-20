@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/location/GnssStatus;
-    ->hasAlmanacData(I)Z
+    invoke-virtual {p0, p1}, Landroid/location/GnssStatus;->hasAlmanacData(I)Z
 
     move-result p0
 
@@ -20,8 +19,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/location/GnssStatus;
-    ->getElevationDegrees(I)F
+    invoke-virtual {p0, p1}, Landroid/location/GnssStatus;->getElevationDegrees(I)F
 
     move-result p0
 
@@ -41,8 +39,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/location/GnssStatus;
-    ->usedInFix(I)Z
+    invoke-virtual {p0, p1}, Landroid/location/GnssStatus;->usedInFix(I)Z
 
     move-result p0
 
@@ -53,8 +50,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/graphics/Color;
-    ->luminance(I)F
+    invoke-static {p0}, Landroid/graphics/Color;->luminance(I)F
 
     move-result p0
 
@@ -65,8 +61,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/location/GnssStatus;
-    ->getCn0DbHz(I)F
+    invoke-virtual {p0, p1}, Landroid/location/GnssStatus;->getCn0DbHz(I)F
 
     move-result p0
 
@@ -77,8 +72,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/location/GnssStatus;
-    ->hashCode()I
+    invoke-virtual {p0}, Landroid/location/GnssStatus;->hashCode()I
 
     move-result p0
 
@@ -89,8 +83,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/location/GnssStatus;
-    ->getSvid(I)I
+    invoke-virtual {p0, p1}, Landroid/location/GnssStatus;->getSvid(I)I
 
     move-result p0
 
@@ -101,8 +94,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/os/LocaleList;
-    ->size()I
+    invoke-virtual {p0}, Landroid/os/LocaleList;->size()I
 
     move-result p0
 
@@ -140,8 +132,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/res/Configuration;
-    ->getLocales()Landroid/os/LocaleList;
+    invoke-virtual {p0}, Landroid/content/res/Configuration;->getLocales()Landroid/os/LocaleList;
 
     move-result-object p0
 
@@ -161,8 +152,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/os/LocaleList;
-    ->forLanguageTags(Ljava/lang/String;)Landroid/os/LocaleList;
+    invoke-static {p0}, Landroid/os/LocaleList;->forLanguageTags(Ljava/lang/String;)Landroid/os/LocaleList;
 
     move-result-object p0
 
@@ -182,8 +172,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/os/LocaleList;
-    ->toLanguageTags()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/os/LocaleList;->toLanguageTags()Ljava/lang/String;
 
     move-result-object p0
 
@@ -194,8 +183,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/os/LocaleList;
-    ->getFirstMatch([Ljava/lang/String;)Ljava/util/Locale;
+    invoke-virtual {p0, p1}, Landroid/os/LocaleList;->getFirstMatch([Ljava/lang/String;)Ljava/util/Locale;
 
     move-result-object p0
 
@@ -206,8 +194,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/res/Configuration;
-    ->setLocales(Landroid/os/LocaleList;)V
+    invoke-virtual {p0, p1}, Landroid/content/res/Configuration;->setLocales(Landroid/os/LocaleList;)V
 return-void
 .end method
 
@@ -215,8 +202,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/location/GnssMeasurementsEvent$Callback;
-    ->onStatusChanged(I)V
+    invoke-virtual {p0, p1}, Landroid/location/GnssMeasurementsEvent$Callback;->onStatusChanged(I)V
 return-void
 .end method
 
@@ -224,8 +210,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/location/GnssMeasurementsEvent$Callback;
-    ->onGnssMeasurementsReceived(Landroid/location/GnssMeasurementsEvent;)V
+    invoke-virtual {p0, p1}, Landroid/location/GnssMeasurementsEvent$Callback;->onGnssMeasurementsReceived(Landroid/location/GnssMeasurementsEvent;)V
 return-void
 .end method
 
@@ -233,8 +218,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/os/LocaleList;
-    ->setDefault(Landroid/os/LocaleList;)V
+    invoke-static {p0}, Landroid/os/LocaleList;->setDefault(Landroid/os/LocaleList;)V
 return-void
 .end method
 
@@ -242,8 +226,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/location/GnssStatus;
-    ->hasEphemerisData(I)Z
+    invoke-virtual {p0, p1}, Landroid/location/GnssStatus;->hasEphemerisData(I)Z
 
     move-result p0
 
@@ -254,8 +237,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/location/GnssStatus;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p1}, Landroid/location/GnssStatus;->equals(Ljava/lang/Object;)Z
 
     move-result p0
 
@@ -266,8 +248,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/os/LocaleList;
-    ->isEmpty()Z
+    invoke-virtual {p0}, Landroid/os/LocaleList;->isEmpty()Z
 
     move-result p0
 
@@ -278,8 +259,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p1, p0}, Landroid/os/LocaleList;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, p0}, Landroid/os/LocaleList;->equals(Ljava/lang/Object;)Z
 
     move-result p0
 
@@ -290,8 +270,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/location/GnssStatus;
-    ->getAzimuthDegrees(I)F
+    invoke-virtual {p0, p1}, Landroid/location/GnssStatus;->getAzimuthDegrees(I)F
 
     move-result p0
 
@@ -302,8 +281,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/location/GnssStatus;
-    ->getSatelliteCount()I
+    invoke-virtual {p0}, Landroid/location/GnssStatus;->getSatelliteCount()I
 
     move-result p0
 
@@ -314,8 +292,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/location/GnssStatus;
-    ->getConstellationType(I)I
+    invoke-virtual {p0, p1}, Landroid/location/GnssStatus;->getConstellationType(I)I
 
     move-result p0
 

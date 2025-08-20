@@ -63,14 +63,12 @@
     const/4 v2, 0x0
 
     .line 6
-    invoke-direct {v0, v1, v2, v2}, Landroidx/datastore/preferences/protobuf/NullValue;
-    -><init>(Ljava/lang/String;II)V
+    invoke-direct {v0, v1, v2, v2}, Landroidx/datastore/preferences/protobuf/NullValue;-><init>(Ljava/lang/String;II)V
 
     .line 7
     .line 8
     .line 9
-    sput-object v0, Landroidx/datastore/preferences/protobuf/NullValue;
-    ->NULL_VALUE:Landroidx/datastore/preferences/protobuf/NullValue;
+    sput-object v0, Landroidx/datastore/preferences/protobuf/NullValue;->NULL_VALUE:Landroidx/datastore/preferences/protobuf/NullValue;
 
     .line 10
     .line 11
@@ -88,14 +86,12 @@
 
     .line 16
     .line 17
-    invoke-direct {v1, v5, v3, v4}, Landroidx/datastore/preferences/protobuf/NullValue;
-    -><init>(Ljava/lang/String;II)V
+    invoke-direct {v1, v5, v3, v4}, Landroidx/datastore/preferences/protobuf/NullValue;-><init>(Ljava/lang/String;II)V
 
     .line 18
     .line 19
     .line 20
-    sput-object v1, Landroidx/datastore/preferences/protobuf/NullValue;
-    ->UNRECOGNIZED:Landroidx/datastore/preferences/protobuf/NullValue;
+    sput-object v1, Landroidx/datastore/preferences/protobuf/NullValue;->UNRECOGNIZED:Landroidx/datastore/preferences/protobuf/NullValue;
 
     .line 21
     .line 22
@@ -114,8 +110,7 @@
 
     .line 28
     .line 29
-    sput-object v4, Landroidx/datastore/preferences/protobuf/NullValue;
-    ->$VALUES:[Landroidx/datastore/preferences/protobuf/NullValue;
+    sput-object v4, Landroidx/datastore/preferences/protobuf/NullValue;->$VALUES:[Landroidx/datastore/preferences/protobuf/NullValue;
 
     .line 30
     .line 31
@@ -123,14 +118,12 @@
 
     .line 32
     .line 33
-    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/NullValue$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/NullValue$1;-><init>()V
 
     .line 34
     .line 35
     .line 36
-    sput-object v0, Landroidx/datastore/preferences/protobuf/NullValue;
-    ->internalValueMap:Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;    return-void
+    sput-object v0, Landroidx/datastore/preferences/protobuf/NullValue;->internalValueMap:Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;    return-void
 .end method
 
 .method private constructor <init>(Ljava/lang/String;II)V
@@ -142,14 +135,12 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     .line 2
     .line 3
     .line 4
-    iput p3, p0, Landroidx/datastore/preferences/protobuf/NullValue;
-    ->value:I    
+    iput p3, p0, Landroidx/datastore/preferences/protobuf/NullValue;->value:I
     return-void
 .end method
 
@@ -167,8 +158,7 @@
 
     .line 5
     :cond_0
-    sget-object p0, Landroidx/datastore/preferences/protobuf/NullValue;
-    ->NULL_VALUE:Landroidx/datastore/preferences/protobuf/NullValue;    return-object p0
+    sget-object p0, Landroidx/datastore/preferences/protobuf/NullValue;->NULL_VALUE:Landroidx/datastore/preferences/protobuf/NullValue;    return-object p0
 .end method
 
 .method public static internalGetValueMap()Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;
@@ -183,16 +173,14 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/NullValue;
-    ->internalValueMap:Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/NullValue;->internalValueMap:Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;    return-object v0
 .end method
 
 .method public static internalGetVerifier()Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/NullValue$NullValueVerifier;
-    ->INSTANCE:Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/NullValue$NullValueVerifier;->INSTANCE:Landroidx/datastore/preferences/protobuf/Internal$EnumVerifier;    return-object v0
 .end method
 
 .method public static valueOf(I)Landroidx/datastore/preferences/protobuf/NullValue;
@@ -201,8 +189,7 @@
     .end annotation
 
     .line 2
-    invoke-static {p0}, Landroidx/datastore/preferences/protobuf/NullValue;
-    ->forNumber(I)Landroidx/datastore/preferences/protobuf/NullValue;
+    invoke-static {p0}, Landroidx/datastore/preferences/protobuf/NullValue;->forNumber(I)Landroidx/datastore/preferences/protobuf/NullValue;
 
     move-result-object p0
 
@@ -215,8 +202,7 @@
     .line 1
     const-class v0, Landroidx/datastore/preferences/protobuf/NullValue;
 
-    invoke-static {v0, p0}, Ljava/lang/Enum;
-    ->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object p0
 
@@ -229,13 +215,11 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/NullValue;
-    ->$VALUES:[Landroidx/datastore/preferences/protobuf/NullValue;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/NullValue;->$VALUES:[Landroidx/datastore/preferences/protobuf/NullValue;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, [Landroidx/datastore/preferences/protobuf/NullValue;
-    ->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [Landroidx/datastore/preferences/protobuf/NullValue;->clone()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -252,8 +236,7 @@
     .locals 2
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/NullValue;
-    ->UNRECOGNIZED:Landroidx/datastore/preferences/protobuf/NullValue;
+    sget-object v0, Landroidx/datastore/preferences/protobuf/NullValue;->UNRECOGNIZED:Landroidx/datastore/preferences/protobuf/NullValue;
 
     .line 2
     .line 3
@@ -261,8 +244,7 @@
 
     .line 4
     .line 5
-    iget v0, p0, Landroidx/datastore/preferences/protobuf/NullValue;
-    ->value:I    return v0
+    iget v0, p0, Landroidx/datastore/preferences/protobuf/NullValue;->value:I    return v0
 
     .line 8
     :cond_0
@@ -274,8 +256,7 @@
 
     .line 11
     .line 12
-    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 13
     .line 14

@@ -16,14 +16,11 @@
 .method public constructor <init>(Lcom/google/android/gms/tasks/zzn;Lcom/google/android/gms/tasks/Task;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/google/android/gms/tasks/zzm;
-    ->zzb:Lcom/google/android/gms/tasks/zzn;
+    iput-object p1, p0, Lcom/google/android/gms/tasks/zzm;->zzb:Lcom/google/android/gms/tasks/zzn;
 
-    iput-object p2, p0, Lcom/google/android/gms/tasks/zzm;
-    ->zza:Lcom/google/android/gms/tasks/Task;
+    iput-object p2, p0, Lcom/google/android/gms/tasks/zzm;->zza:Lcom/google/android/gms/tasks/Task;
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -33,13 +30,11 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/tasks/zzm;
-    ->zzb:Lcom/google/android/gms/tasks/zzn;
+    iget-object v0, p0, Lcom/google/android/gms/tasks/zzm;->zzb:Lcom/google/android/gms/tasks/zzn;
 
     .line 2
     .line 3
-    invoke-static {v0}, Lcom/google/android/gms/tasks/zzn;
-    ->zzb(Lcom/google/android/gms/tasks/zzn;)Ljava/lang/Object;
+    invoke-static {v0}, Lcom/google/android/gms/tasks/zzn;->zzb(Lcom/google/android/gms/tasks/zzn;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -51,13 +46,11 @@
 
     .line 8
     :try_start_0
-    iget-object v1, p0, Lcom/google/android/gms/tasks/zzm;
-    ->zzb:Lcom/google/android/gms/tasks/zzn;
+    iget-object v1, p0, Lcom/google/android/gms/tasks/zzm;->zzb:Lcom/google/android/gms/tasks/zzn;
 
     .line 9
     .line 10
-    invoke-static {v1}, Lcom/google/android/gms/tasks/zzn;
-    ->zza(Lcom/google/android/gms/tasks/zzn;)Lcom/google/android/gms/tasks/OnSuccessListener;
+    invoke-static {v1}, Lcom/google/android/gms/tasks/zzn;->zza(Lcom/google/android/gms/tasks/zzn;)Lcom/google/android/gms/tasks/OnSuccessListener;
 
     .line 11
     .line 12
@@ -69,8 +62,7 @@
 
     .line 15
     .line 16
-    invoke-static {v1}, Lcom/google/android/gms/tasks/zzn;
-    ->zza(Lcom/google/android/gms/tasks/zzn;)Lcom/google/android/gms/tasks/OnSuccessListener;
+    invoke-static {v1}, Lcom/google/android/gms/tasks/zzn;->zza(Lcom/google/android/gms/tasks/zzn;)Lcom/google/android/gms/tasks/OnSuccessListener;
 
     .line 17
     .line 18
@@ -78,13 +70,11 @@
     move-result-object v1
 
     .line 20
-    iget-object v2, p0, Lcom/google/android/gms/tasks/zzm;
-    ->zza:Lcom/google/android/gms/tasks/Task;
+    iget-object v2, p0, Lcom/google/android/gms/tasks/zzm;->zza:Lcom/google/android/gms/tasks/Task;
 
     .line 21
     .line 22
-    invoke-virtual {v2}, Lcom/google/android/gms/tasks/Task;
-    ->getResult()Ljava/lang/Object;
+    invoke-virtual {v2}, Lcom/google/android/gms/tasks/Task;->getResult()Ljava/lang/Object;
 
     .line 23
     .line 24
@@ -92,8 +82,7 @@
     move-result-object v2
 
     .line 26
-    invoke-interface {v1, v2}, Lcom/google/android/gms/tasks/OnSuccessListener;
-    ->onSuccess(Ljava/lang/Object;)V
+    invoke-interface {v1, v2}, Lcom/google/android/gms/tasks/OnSuccessListener;->onSuccess(Ljava/lang/Object;)V
 
     .line 27
     .line 28

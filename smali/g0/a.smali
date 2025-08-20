@@ -15,11 +15,9 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lg0/a;
-    ->a:Lcom/google/android/material/carousel/CarouselLayoutManager;
+    iput-object p1, p0, Lg0/a;->a:Lcom/google/android/material/carousel/CarouselLayoutManager;
 
     return-void
 .end method
@@ -30,8 +28,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lg0/a;
-    ->a:Lcom/google/android/material/carousel/CarouselLayoutManager;
+    iget-object v0, p0, Lg0/a;->a:Lcom/google/android/material/carousel/CarouselLayoutManager;
 
     .line 2
     .line 3
@@ -71,14 +68,12 @@
     const/4 p3, 0x7
 
     .line 16
-    invoke-direct {p2, v0, p3}, LT/o;
-    -><init>(Ljava/lang/Object;I)V
+    invoke-direct {p2, v0, p3}, LT/o;-><init>(Ljava/lang/Object;I)V
 
     .line 17
     .line 18
     .line 19
-    invoke-virtual {p1, p2}, Landroid/view/View;
-    ->post(Ljava/lang/Runnable;)Z
+    invoke-virtual {p1, p2}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
     .line 20
     .line 21

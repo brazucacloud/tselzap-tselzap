@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/navigation/NavGraphViewModelLazyKt;
-    ->navGraphViewModels$lambda-0(Lc1/d;)Landroidx/navigation/NavBackStackEntry;
+    invoke-static {p0}, Landroidx/navigation/NavGraphViewModelLazyKt;->navGraphViewModels$lambda-0(Lc1/d;)Landroidx/navigation/NavBackStackEntry;
 
     .line 2
     .line 3
@@ -23,8 +22,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/navigation/NavGraphViewModelLazyKt;
-    ->navGraphViewModels$lambda-1(Lc1/d;)Landroidx/navigation/NavBackStackEntry;
+    invoke-static {p0}, Landroidx/navigation/NavGraphViewModelLazyKt;->navGraphViewModels$lambda-1(Lc1/d;)Landroidx/navigation/NavBackStackEntry;
 
     .line 2
     .line 3
@@ -38,8 +36,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/navigation/NavGraphViewModelLazyKt;
-    ->navGraphViewModels$lambda-2(Lc1/d;)Landroidx/navigation/NavBackStackEntry;
+    invoke-static {p0}, Landroidx/navigation/NavGraphViewModelLazyKt;->navGraphViewModels$lambda-2(Lc1/d;)Landroidx/navigation/NavBackStackEntry;
 
     .line 2
     .line 3
@@ -53,8 +50,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroidx/navigation/NavGraphViewModelLazyKt;
-    ->navGraphViewModels$lambda-3(Lc1/d;)Landroidx/navigation/NavBackStackEntry;
+    invoke-static {p0}, Landroidx/navigation/NavGraphViewModelLazyKt;->navGraphViewModels$lambda-3(Lc1/d;)Landroidx/navigation/NavBackStackEntry;
 
     .line 2
     .line 3
@@ -88,29 +84,24 @@
 
     const-string p2, "<this>"
 
-    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
     new-instance p2, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$backStackEntry$2;
 
-    invoke-direct {p2, p0, p1}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$backStackEntry$2;
-    -><init>(Landroidx/fragment/app/Fragment;I)V
+    invoke-direct {p2, p0, p1}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$backStackEntry$2;-><init>(Landroidx/fragment/app/Fragment;I)V
 
-    invoke-static {p2}, La/a;
-    ->C(Lp1/a;)Lc1/j;
+    invoke-static {p2}, La/a;->C(Lp1/a;)Lc1/j;
 
     move-result-object p0
 
     .line 2
     new-instance p1, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$storeProducer$1;
 
-    invoke-direct {p1, p0}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$storeProducer$1;
-    -><init>(Lc1/d;)V
+    invoke-direct {p1, p0}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$storeProducer$1;-><init>(Lc1/d;)V
 
     .line 3
-    invoke-static {}, Lkotlin/jvm/internal/j;
-    ->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
 
     const/4 p0, 0x0
 
@@ -142,29 +133,24 @@
 
     const-string p2, "<this>"
 
-    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     new-instance p2, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$backStackEntry$4;
 
-    invoke-direct {p2, p0, p1}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$backStackEntry$4;
-    -><init>(Landroidx/fragment/app/Fragment;I)V
+    invoke-direct {p2, p0, p1}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$backStackEntry$4;-><init>(Landroidx/fragment/app/Fragment;I)V
 
-    invoke-static {p2}, La/a;
-    ->C(Lp1/a;)Lc1/j;
+    invoke-static {p2}, La/a;->C(Lp1/a;)Lc1/j;
 
     move-result-object p0
 
     .line 5
     new-instance p1, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$storeProducer$2;
 
-    invoke-direct {p1, p0}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$storeProducer$2;
-    -><init>(Lc1/d;)V
+    invoke-direct {p1, p0}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$storeProducer$2;-><init>(Lc1/d;)V
 
     .line 6
-    invoke-static {}, Lkotlin/jvm/internal/j;
-    ->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
 
     const/4 p0, 0x0
 
@@ -191,34 +177,28 @@
 
     const-string p2, "<this>"
 
-    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p2, "navGraphRoute"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 7
     new-instance p2, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$backStackEntry$6;
 
-    invoke-direct {p2, p0, p1}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$backStackEntry$6;
-    -><init>(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
+    invoke-direct {p2, p0, p1}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$backStackEntry$6;-><init>(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
 
-    invoke-static {p2}, La/a;
-    ->C(Lp1/a;)Lc1/j;
+    invoke-static {p2}, La/a;->C(Lp1/a;)Lc1/j;
 
     move-result-object p0
 
     .line 8
     new-instance p1, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$storeProducer$3;
 
-    invoke-direct {p1, p0}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$storeProducer$3;
-    -><init>(Lc1/d;)V
+    invoke-direct {p1, p0}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$storeProducer$3;-><init>(Lc1/d;)V
 
     .line 9
-    invoke-static {}, Lkotlin/jvm/internal/j;
-    ->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
 
     const/4 p0, 0x0
 
@@ -246,34 +226,28 @@
 
     const-string p2, "<this>"
 
-    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p2, "navGraphRoute"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
     new-instance p2, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$backStackEntry$8;
 
-    invoke-direct {p2, p0, p1}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$backStackEntry$8;
-    -><init>(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
+    invoke-direct {p2, p0, p1}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$backStackEntry$8;-><init>(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
 
-    invoke-static {p2}, La/a;
-    ->C(Lp1/a;)Lc1/j;
+    invoke-static {p2}, La/a;->C(Lp1/a;)Lc1/j;
 
     move-result-object p0
 
     .line 11
     new-instance p1, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$storeProducer$4;
 
-    invoke-direct {p1, p0}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$storeProducer$4;
-    -><init>(Lc1/d;)V
+    invoke-direct {p1, p0}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$storeProducer$4;-><init>(Lc1/d;)V
 
     .line 12
-    invoke-static {}, Lkotlin/jvm/internal/j;
-    ->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
 
     const/4 p0, 0x0
 
@@ -286,29 +260,24 @@
     .line 1
     const-string p2, "<this>"
 
-    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
     new-instance p2, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$backStackEntry$2;
 
-    invoke-direct {p2, p0, p1}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$backStackEntry$2;
-    -><init>(Landroidx/fragment/app/Fragment;I)V
+    invoke-direct {p2, p0, p1}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$backStackEntry$2;-><init>(Landroidx/fragment/app/Fragment;I)V
 
-    invoke-static {p2}, La/a;
-    ->C(Lp1/a;)Lc1/j;
+    invoke-static {p2}, La/a;->C(Lp1/a;)Lc1/j;
 
     move-result-object p0
 
     .line 3
     new-instance p1, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$storeProducer$1;
 
-    invoke-direct {p1, p0}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$storeProducer$1;
-    -><init>(Lc1/d;)V
+    invoke-direct {p1, p0}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$storeProducer$1;-><init>(Lc1/d;)V
 
     .line 4
-    invoke-static {}, Lkotlin/jvm/internal/j;
-    ->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
 
     const/4 p0, 0x0
 
@@ -321,29 +290,24 @@
     .line 5
     const-string p2, "<this>"
 
-    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 6
     new-instance p2, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$backStackEntry$4;
 
-    invoke-direct {p2, p0, p1}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$backStackEntry$4;
-    -><init>(Landroidx/fragment/app/Fragment;I)V
+    invoke-direct {p2, p0, p1}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$backStackEntry$4;-><init>(Landroidx/fragment/app/Fragment;I)V
 
-    invoke-static {p2}, La/a;
-    ->C(Lp1/a;)Lc1/j;
+    invoke-static {p2}, La/a;->C(Lp1/a;)Lc1/j;
 
     move-result-object p0
 
     .line 7
     new-instance p1, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$storeProducer$2;
 
-    invoke-direct {p1, p0}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$storeProducer$2;
-    -><init>(Lc1/d;)V
+    invoke-direct {p1, p0}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$storeProducer$2;-><init>(Lc1/d;)V
 
     .line 8
-    invoke-static {}, Lkotlin/jvm/internal/j;
-    ->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
 
     const/4 p0, 0x0
 
@@ -356,34 +320,28 @@
     .line 9
     const-string p2, "<this>"
 
-    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p2, "navGraphRoute"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 10
     new-instance p2, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$backStackEntry$6;
 
-    invoke-direct {p2, p0, p1}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$backStackEntry$6;
-    -><init>(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
+    invoke-direct {p2, p0, p1}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$backStackEntry$6;-><init>(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
 
-    invoke-static {p2}, La/a;
-    ->C(Lp1/a;)Lc1/j;
+    invoke-static {p2}, La/a;->C(Lp1/a;)Lc1/j;
 
     move-result-object p0
 
     .line 11
     new-instance p1, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$storeProducer$3;
 
-    invoke-direct {p1, p0}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$storeProducer$3;
-    -><init>(Lc1/d;)V
+    invoke-direct {p1, p0}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$storeProducer$3;-><init>(Lc1/d;)V
 
     .line 12
-    invoke-static {}, Lkotlin/jvm/internal/j;
-    ->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
 
     const/4 p0, 0x0
 
@@ -396,34 +354,28 @@
     .line 13
     const-string p2, "<this>"
 
-    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p2, "navGraphRoute"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     new-instance p2, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$backStackEntry$8;
 
-    invoke-direct {p2, p0, p1}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$backStackEntry$8;
-    -><init>(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
+    invoke-direct {p2, p0, p1}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$backStackEntry$8;-><init>(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
 
-    invoke-static {p2}, La/a;
-    ->C(Lp1/a;)Lc1/j;
+    invoke-static {p2}, La/a;->C(Lp1/a;)Lc1/j;
 
     move-result-object p0
 
     .line 15
     new-instance p1, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$storeProducer$4;
 
-    invoke-direct {p1, p0}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$storeProducer$4;
-    -><init>(Lc1/d;)V
+    invoke-direct {p1, p0}, Landroidx/navigation/NavGraphViewModelLazyKt$navGraphViewModels$storeProducer$4;-><init>(Lc1/d;)V
 
     .line 16
-    invoke-static {}, Lkotlin/jvm/internal/j;
-    ->k()V
+    invoke-static {}, Lkotlin/jvm/internal/j;->k()V
 
     const/4 p0, 0x0
 
@@ -442,8 +394,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0}, Lc1/d;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {p0}, Lc1/d;->getValue()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -466,8 +417,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0}, Lc1/d;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {p0}, Lc1/d;->getValue()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -490,8 +440,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0}, Lc1/d;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {p0}, Lc1/d;->getValue()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -514,8 +463,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p0}, Lc1/d;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {p0}, Lc1/d;->getValue()Ljava/lang/Object;
 
     .line 2
     .line 3

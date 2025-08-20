@@ -31,8 +31,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -50,8 +49,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-virtual {p0, p1, v0}, Landroidx/recyclerview/widget/RecyclerView$ItemAnimator$ItemHolderInfo;
-    ->setFrom(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)Landroidx/recyclerview/widget/RecyclerView$ItemAnimator$ItemHolderInfo;
+    invoke-virtual {p0, p1, v0}, Landroidx/recyclerview/widget/RecyclerView$ItemAnimator$ItemHolderInfo;->setFrom(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;I)Landroidx/recyclerview/widget/RecyclerView$ItemAnimator$ItemHolderInfo;
 
     move-result-object p1
 
@@ -68,44 +66,35 @@
     .end annotation
 
     .line 2
-    iget-object p1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->itemView:Landroid/view/View;
+    iget-object p1, p1, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
 
     .line 3
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getLeft()I
+    invoke-virtual {p1}, Landroid/view/View;->getLeft()I
 
     move-result p2
 
-    iput p2, p0, Landroidx/recyclerview/widget/RecyclerView$ItemAnimator$ItemHolderInfo;
-    ->left:I
+    iput p2, p0, Landroidx/recyclerview/widget/RecyclerView$ItemAnimator$ItemHolderInfo;->left:I
 
     .line 4
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getTop()I
+    invoke-virtual {p1}, Landroid/view/View;->getTop()I
 
     move-result p2
 
-    iput p2, p0, Landroidx/recyclerview/widget/RecyclerView$ItemAnimator$ItemHolderInfo;
-    ->top:I
+    iput p2, p0, Landroidx/recyclerview/widget/RecyclerView$ItemAnimator$ItemHolderInfo;->top:I
 
     .line 5
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getRight()I
+    invoke-virtual {p1}, Landroid/view/View;->getRight()I
 
     move-result p2
 
-    iput p2, p0, Landroidx/recyclerview/widget/RecyclerView$ItemAnimator$ItemHolderInfo;
-    ->right:I
+    iput p2, p0, Landroidx/recyclerview/widget/RecyclerView$ItemAnimator$ItemHolderInfo;->right:I
 
     .line 6
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getBottom()I
+    invoke-virtual {p1}, Landroid/view/View;->getBottom()I
 
     move-result p1
 
-    iput p1, p0, Landroidx/recyclerview/widget/RecyclerView$ItemAnimator$ItemHolderInfo;
-    ->bottom:I
+    iput p1, p0, Landroidx/recyclerview/widget/RecyclerView$ItemAnimator$ItemHolderInfo;->bottom:I
 
     return-object p0
 .end method

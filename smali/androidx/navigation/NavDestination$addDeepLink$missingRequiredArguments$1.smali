@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/navigation/NavDestination;
-    ->addDeepLink(Landroidx/navigation/NavDeepLink;)V
+    value = Landroidx/navigation/NavDestination;->addDeepLink(Landroidx/navigation/NavDeepLink;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -33,13 +32,11 @@
 .method public constructor <init>(Landroidx/navigation/NavDeepLink;)V
     .locals 0
 
-    iput-object p1, p0, Landroidx/navigation/NavDestination$addDeepLink$missingRequiredArguments$1;
-    ->$navDeepLink:Landroidx/navigation/NavDeepLink;
+    iput-object p1, p0, Landroidx/navigation/NavDestination$addDeepLink$missingRequiredArguments$1;->$navDeepLink:Landroidx/navigation/NavDeepLink;
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
-    -><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
 return-void
 .end method
 
@@ -50,27 +47,22 @@ return-void
 
     const-string v0, "key"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/NavDestination$addDeepLink$missingRequiredArguments$1;
-    ->$navDeepLink:Landroidx/navigation/NavDeepLink;
+    iget-object v0, p0, Landroidx/navigation/NavDestination$addDeepLink$missingRequiredArguments$1;->$navDeepLink:Landroidx/navigation/NavDeepLink;
 
-    invoke-virtual {v0}, Landroidx/navigation/NavDeepLink;
-    ->getArgumentsNames$navigation_common_release()Ljava/util/List;
+    invoke-virtual {v0}, Landroidx/navigation/NavDeepLink;->getArgumentsNames$navigation_common_release()Ljava/util/List;
 
     move-result-object v0
 
-    invoke-interface {v0, p1}, Ljava/util/List;
-    ->contains(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
     move-result p1
 
     xor-int/lit8 p1, p1, 0x1
 
-    invoke-static {p1}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p1
 
@@ -83,8 +75,7 @@ return-void
     .line 2
     check-cast p1, Ljava/lang/String;
 
-    invoke-virtual {p0, p1}, Landroidx/navigation/NavDestination$addDeepLink$missingRequiredArguments$1;
-    ->invoke(Ljava/lang/String;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1}, Landroidx/navigation/NavDestination$addDeepLink$missingRequiredArguments$1;->invoke(Ljava/lang/String;)Ljava/lang/Boolean;
 
     move-result-object p1
 

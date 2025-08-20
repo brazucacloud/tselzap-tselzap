@@ -30,19 +30,16 @@
     const/4 v1, 0x0
 
     .line 3
-    invoke-direct {p0, v0, v1, v1}, Lcom/android/volley/Request;
-    -><init>(ILjava/lang/String;Lcom/android/volley/Response$ErrorListener;)V
+    invoke-direct {p0, v0, v1, v1}, Lcom/android/volley/Request;-><init>(ILjava/lang/String;Lcom/android/volley/Response$ErrorListener;)V
 
     .line 4
     .line 5
     .line 6
-    iput-object p1, p0, Lcom/android/volley/toolbox/ClearCacheRequest;
-    ->mCache:Lcom/android/volley/Cache;
+    iput-object p1, p0, Lcom/android/volley/toolbox/ClearCacheRequest;->mCache:Lcom/android/volley/Cache;
 
     .line 7
     .line 8
-    iput-object p2, p0, Lcom/android/volley/toolbox/ClearCacheRequest;
-    ->mCallback:Ljava/lang/Runnable;
+    iput-object p2, p0, Lcom/android/volley/toolbox/ClearCacheRequest;->mCallback:Ljava/lang/Runnable;
 
     .line 9
     .line 10
@@ -61,8 +58,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Lcom/android/volley/Request$Priority;
-    ->IMMEDIATE:Lcom/android/volley/Request$Priority;
+    sget-object v0, Lcom/android/volley/Request$Priority;->IMMEDIATE:Lcom/android/volley/Request$Priority;
 
     .line 2
     .line 3
@@ -73,19 +69,16 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/android/volley/toolbox/ClearCacheRequest;
-    ->mCache:Lcom/android/volley/Cache;
+    iget-object v0, p0, Lcom/android/volley/toolbox/ClearCacheRequest;->mCache:Lcom/android/volley/Cache;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Lcom/android/volley/Cache;
-    ->clear()V
+    invoke-interface {v0}, Lcom/android/volley/Cache;->clear()V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Lcom/android/volley/toolbox/ClearCacheRequest;
-    ->mCallback:Ljava/lang/Runnable;
+    iget-object v0, p0, Lcom/android/volley/toolbox/ClearCacheRequest;->mCallback:Ljava/lang/Runnable;
 
     .line 7
     .line 8
@@ -97,8 +90,7 @@
 
     .line 11
     .line 12
-    invoke-static {}, Landroid/os/Looper;
-    ->getMainLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     .line 13
     .line 14
@@ -106,19 +98,16 @@
     move-result-object v1
 
     .line 16
-    invoke-direct {v0, v1}, Landroid/os/Handler;
-    -><init>(Landroid/os/Looper;)V
+    invoke-direct {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
     .line 17
     .line 18
     .line 19
-    iget-object v1, p0, Lcom/android/volley/toolbox/ClearCacheRequest;
-    ->mCallback:Ljava/lang/Runnable;
+    iget-object v1, p0, Lcom/android/volley/toolbox/ClearCacheRequest;->mCallback:Ljava/lang/Runnable;
 
     .line 20
     .line 21
-    invoke-virtual {v0, v1}, Landroid/os/Handler;
-    ->postAtFrontOfQueue(Ljava/lang/Runnable;)Z
+    invoke-virtual {v0, v1}, Landroid/os/Handler;->postAtFrontOfQueue(Ljava/lang/Runnable;)Z
 
     .line 22
     .line 23

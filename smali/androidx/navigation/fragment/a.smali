@@ -15,11 +15,9 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/navigation/fragment/a;
-    ->b:Landroidx/navigation/fragment/DialogFragmentNavigator;
+    iput-object p1, p0, Landroidx/navigation/fragment/a;->b:Landroidx/navigation/fragment/DialogFragmentNavigator;
 
     return-void
 .end method
@@ -30,11 +28,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/navigation/fragment/a;
-    ->b:Landroidx/navigation/fragment/DialogFragmentNavigator;
+    iget-object v0, p0, Landroidx/navigation/fragment/a;->b:Landroidx/navigation/fragment/DialogFragmentNavigator;
 
-    invoke-static {v0, p1, p2}, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->a(Landroidx/navigation/fragment/DialogFragmentNavigator;Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;)V
+    invoke-static {v0, p1, p2}, Landroidx/navigation/fragment/DialogFragmentNavigator;->a(Landroidx/navigation/fragment/DialogFragmentNavigator;Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;)V
 return-void
 .end method
 

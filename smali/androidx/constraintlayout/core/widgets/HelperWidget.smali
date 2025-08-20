@@ -17,8 +17,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;-><init>()V
 
     .line 2
     .line 3
@@ -30,16 +29,14 @@
 
     .line 6
     .line 7
-    iput-object v0, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;
-    ->mWidgets:[Landroidx/constraintlayout/core/widgets/ConstraintWidget;
+    iput-object v0, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;->mWidgets:[Landroidx/constraintlayout/core/widgets/ConstraintWidget;
 
     .line 8
     .line 9
     const/4 v0, 0x0
 
     .line 10
-    iput v0, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;
-    ->mWidgetsCount:I    
+    iput v0, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;->mWidgetsCount:I
     return-void
 .end method
 
@@ -61,8 +58,7 @@
 
     .line 6
     :cond_0
-    iget v0, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;
-    ->mWidgetsCount:I
+    iget v0, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;->mWidgetsCount:I
 
     .line 7
     .line 8
@@ -70,8 +66,7 @@
 
     .line 9
     .line 10
-    iget-object v1, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;
-    ->mWidgets:[Landroidx/constraintlayout/core/widgets/ConstraintWidget;
+    iget-object v1, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;->mWidgets:[Landroidx/constraintlayout/core/widgets/ConstraintWidget;
 
     .line 11
     .line 12
@@ -89,8 +84,7 @@
 
     .line 17
     .line 18
-    invoke-static {v1, v0}, Ljava/util/Arrays;
-    ->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
+    invoke-static {v1, v0}, Ljava/util/Arrays;->copyOf([Ljava/lang/Object;I)[Ljava/lang/Object;
 
     .line 19
     .line 20
@@ -102,19 +96,16 @@
 
     .line 23
     .line 24
-    iput-object v0, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;
-    ->mWidgets:[Landroidx/constraintlayout/core/widgets/ConstraintWidget;
+    iput-object v0, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;->mWidgets:[Landroidx/constraintlayout/core/widgets/ConstraintWidget;
 
     .line 25
     .line 26
     :cond_1
-    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;
-    ->mWidgets:[Landroidx/constraintlayout/core/widgets/ConstraintWidget;
+    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;->mWidgets:[Landroidx/constraintlayout/core/widgets/ConstraintWidget;
 
     .line 27
     .line 28
-    iget v1, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;
-    ->mWidgetsCount:I
+    iget v1, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;->mWidgetsCount:I
 
     .line 29
     .line 30
@@ -126,8 +117,7 @@
 
     .line 33
     .line 34
-    iput v1, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;
-    ->mWidgetsCount:I
+    iput v1, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;->mWidgetsCount:I
 
     .line 35
     .line 36
@@ -157,8 +147,7 @@
 
     .line 3
     :goto_0
-    iget v2, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;
-    ->mWidgetsCount:I
+    iget v2, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;->mWidgetsCount:I
 
     .line 4
     .line 5
@@ -166,8 +155,7 @@
 
     .line 6
     .line 7
-    iget-object v2, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;
-    ->mWidgets:[Landroidx/constraintlayout/core/widgets/ConstraintWidget;
+    iget-object v2, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;->mWidgets:[Landroidx/constraintlayout/core/widgets/ConstraintWidget;
 
     .line 8
     .line 9
@@ -175,8 +163,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p3, v2}, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
-    ->add(Landroidx/constraintlayout/core/widgets/ConstraintWidget;)Z
+    invoke-virtual {p3, v2}, Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;->add(Landroidx/constraintlayout/core/widgets/ConstraintWidget;)Z
 
     .line 12
     .line 13
@@ -190,8 +177,7 @@
     .line 17
     :cond_0
     :goto_1
-    iget v1, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;
-    ->mWidgetsCount:I
+    iget v1, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;->mWidgetsCount:I
 
     .line 18
     .line 19
@@ -199,8 +185,7 @@
 
     .line 20
     .line 21
-    iget-object v1, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;
-    ->mWidgets:[Landroidx/constraintlayout/core/widgets/ConstraintWidget;
+    iget-object v1, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;->mWidgets:[Landroidx/constraintlayout/core/widgets/ConstraintWidget;
 
     .line 22
     .line 23
@@ -208,8 +193,7 @@
 
     .line 24
     .line 25
-    invoke-static {v1, p2, p1, p3}, Landroidx/constraintlayout/core/widgets/analyzer/Grouping;
-    ->findDependents(Landroidx/constraintlayout/core/widgets/ConstraintWidget;ILjava/util/ArrayList;Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;)Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
+    invoke-static {v1, p2, p1, p3}, Landroidx/constraintlayout/core/widgets/analyzer/Grouping;->findDependents(Landroidx/constraintlayout/core/widgets/ConstraintWidget;ILjava/util/ArrayList;Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;)Landroidx/constraintlayout/core/widgets/analyzer/WidgetGroup;
 
     .line 26
     .line 27
@@ -239,8 +223,7 @@
     .end annotation
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;
-    ->copy(Landroidx/constraintlayout/core/widgets/ConstraintWidget;Ljava/util/HashMap;)V
+    invoke-super {p0, p1, p2}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->copy(Landroidx/constraintlayout/core/widgets/ConstraintWidget;Ljava/util/HashMap;)V
 
     .line 2
     .line 3
@@ -252,13 +235,11 @@
     const/4 v0, 0x0
 
     .line 7
-    iput v0, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;
-    ->mWidgetsCount:I
+    iput v0, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;->mWidgetsCount:I
 
     .line 8
     .line 9
-    iget v1, p1, Landroidx/constraintlayout/core/widgets/HelperWidget;
-    ->mWidgetsCount:I
+    iget v1, p1, Landroidx/constraintlayout/core/widgets/HelperWidget;->mWidgetsCount:I
 
     .line 10
     .line 11
@@ -267,8 +248,7 @@
 
     .line 12
     .line 13
-    iget-object v2, p1, Landroidx/constraintlayout/core/widgets/HelperWidget;
-    ->mWidgets:[Landroidx/constraintlayout/core/widgets/ConstraintWidget;
+    iget-object v2, p1, Landroidx/constraintlayout/core/widgets/HelperWidget;->mWidgets:[Landroidx/constraintlayout/core/widgets/ConstraintWidget;
 
     .line 14
     .line 15
@@ -276,8 +256,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p2, v2}, Ljava/util/HashMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p2, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -289,8 +268,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {p0, v2}, Landroidx/constraintlayout/core/widgets/HelperWidget;
-    ->add(Landroidx/constraintlayout/core/widgets/ConstraintWidget;)V
+    invoke-virtual {p0, v2}, Landroidx/constraintlayout/core/widgets/HelperWidget;->add(Landroidx/constraintlayout/core/widgets/ConstraintWidget;)V
 
     .line 24
     .line 25
@@ -314,8 +292,7 @@
 
     .line 2
     :goto_0
-    iget v1, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;
-    ->mWidgetsCount:I
+    iget v1, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;->mWidgetsCount:I
 
     .line 3
     .line 4
@@ -326,8 +303,7 @@
 
     .line 6
     .line 7
-    iget-object v1, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;
-    ->mWidgets:[Landroidx/constraintlayout/core/widgets/ConstraintWidget;
+    iget-object v1, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;->mWidgets:[Landroidx/constraintlayout/core/widgets/ConstraintWidget;
 
     .line 8
     .line 9
@@ -339,8 +315,7 @@
 
     .line 12
     .line 13
-    iget v3, v1, Landroidx/constraintlayout/core/widgets/ConstraintWidget;
-    ->horizontalGroup:I
+    iget v3, v1, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->horizontalGroup:I
 
     .line 14
     .line 15
@@ -355,8 +330,7 @@
 
     .line 20
     .line 21
-    iget v1, v1, Landroidx/constraintlayout/core/widgets/ConstraintWidget;
-    ->verticalGroup:I
+    iget v1, v1, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->verticalGroup:I
 
     .line 22
     .line 23
@@ -382,21 +356,18 @@
     const/4 v0, 0x0
 
     .line 2
-    iput v0, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;
-    ->mWidgetsCount:I
+    iput v0, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;->mWidgetsCount:I
 
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;
-    ->mWidgets:[Landroidx/constraintlayout/core/widgets/ConstraintWidget;
+    iget-object v0, p0, Landroidx/constraintlayout/core/widgets/HelperWidget;->mWidgets:[Landroidx/constraintlayout/core/widgets/ConstraintWidget;
 
     .line 5
     .line 6
     const/4 v1, 0x0
 
     .line 7
-    invoke-static {v0, v1}, Ljava/util/Arrays;
-    ->fill([Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-static {v0, v1}, Ljava/util/Arrays;->fill([Ljava/lang/Object;Ljava/lang/Object;)V
 return-void
 .end method
 

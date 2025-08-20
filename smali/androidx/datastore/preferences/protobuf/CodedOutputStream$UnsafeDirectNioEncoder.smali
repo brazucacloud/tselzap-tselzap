@@ -38,19 +38,16 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
-    -><init>(Landroidx/datastore/preferences/protobuf/CodedOutputStream$1;)V
+    invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;-><init>(Landroidx/datastore/preferences/protobuf/CodedOutputStream$1;)V
 
     .line 3
     .line 4
     .line 5
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->originalBuffer:Ljava/nio/ByteBuffer;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->originalBuffer:Ljava/nio/ByteBuffer;
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Ljava/nio/ByteBuffer;
-    ->duplicate()Ljava/nio/ByteBuffer;
+    invoke-virtual {p1}, Ljava/nio/ByteBuffer;->duplicate()Ljava/nio/ByteBuffer;
 
     .line 8
     .line 9
@@ -58,13 +55,11 @@
     move-result-object v0
 
     .line 11
-    sget-object v1, Ljava/nio/ByteOrder;
-    ->LITTLE_ENDIAN:Ljava/nio/ByteOrder;
+    sget-object v1, Ljava/nio/ByteOrder;->LITTLE_ENDIAN:Ljava/nio/ByteOrder;
 
     .line 12
     .line 13
-    invoke-virtual {v0, v1}, Ljava/nio/ByteBuffer;
-    ->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
+    invoke-virtual {v0, v1}, Ljava/nio/ByteBuffer;->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
 
     .line 14
     .line 15
@@ -72,13 +67,11 @@
     move-result-object v0
 
     .line 17
-    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->buffer:Ljava/nio/ByteBuffer;
+    iput-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->buffer:Ljava/nio/ByteBuffer;
 
     .line 18
     .line 19
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->addressOffset(Ljava/nio/ByteBuffer;)J
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->addressOffset(Ljava/nio/ByteBuffer;)J
 
     .line 20
     .line 21
@@ -86,13 +79,11 @@
     move-result-wide v0
 
     .line 23
-    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->address:J
+    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->address:J
 
     .line 24
     .line 25
-    invoke-virtual {p1}, Ljava/nio/Buffer;
-    ->position()I
+    invoke-virtual {p1}, Ljava/nio/Buffer;->position()I
 
     .line 26
     .line 27
@@ -106,13 +97,11 @@
     add-long/2addr v2, v0
 
     .line 31
-    iput-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->initialPosition:J
+    iput-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->initialPosition:J
 
     .line 32
     .line 33
-    invoke-virtual {p1}, Ljava/nio/Buffer;
-    ->limit()I
+    invoke-virtual {p1}, Ljava/nio/Buffer;->limit()I
 
     .line 34
     .line 35
@@ -126,8 +115,7 @@
     add-long/2addr v0, v4
 
     .line 39
-    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->limit:J
+    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->limit:J
 
     .line 40
     .line 41
@@ -138,13 +126,11 @@
     sub-long/2addr v0, v4
 
     .line 44
-    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->oneVarintLimit:J
+    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->oneVarintLimit:J
 
     .line 45
     .line 46
-    iput-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J    
+    iput-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
     return-void
 .end method
 
@@ -152,8 +138,7 @@
     .locals 2
 
     .line 1
-    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->address:J
+    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->address:J
 
     .line 2
     .line 3
@@ -169,8 +154,7 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->hasUnsafeByteBufferOperations()Z
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->hasUnsafeByteBufferOperations()Z
 
     .line 2
     .line 3
@@ -184,13 +168,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->buffer:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->bufferPos(J)I
+    invoke-direct {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->bufferPos(J)I
 
     .line 4
     .line 5
@@ -198,8 +180,7 @@
     move-result p1
 
     .line 7
-    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;
-    ->position(I)Ljava/nio/Buffer;    
+    invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
     return-void
 .end method
 
@@ -209,18 +190,15 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->originalBuffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->originalBuffer:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 4
     .line 5
-    invoke-direct {p0, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->bufferPos(J)I
+    invoke-direct {p0, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->bufferPos(J)I
 
     .line 6
     .line 7
@@ -228,8 +206,7 @@
     move-result v1
 
     .line 9
-    invoke-virtual {v0, v1}, Ljava/nio/ByteBuffer;
-    ->position(I)Ljava/nio/Buffer;    
+    invoke-virtual {v0, v1}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
     return-void
 .end method
 
@@ -237,13 +214,11 @@
     .locals 4
 
     .line 1
-    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 2
     .line 3
-    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->initialPosition:J
+    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->initialPosition:J
 
     .line 4
     .line 5
@@ -259,13 +234,11 @@
     .locals 4
 
     .line 1
-    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->limit:J
+    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->limit:J
 
     .line 2
     .line 3
-    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 4
     .line 5
@@ -283,11 +256,9 @@
     const/4 v0, 0x1
 
     .line 1
-    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
-    iget-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->limit:J
+    iget-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->limit:J
 
     cmp-long v5, v1, v3
 
@@ -298,36 +269,29 @@
     add-long/2addr v3, v1
 
     .line 2
-    iput-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iput-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
-    invoke-static {v1, v2, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->putByte(JB)V
+    invoke-static {v1, v2, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte(JB)V
 return-void
 
     .line 3
     :cond_0
     new-instance p1, Landroidx/datastore/preferences/protobuf/CodedOutputStream$OutOfSpaceException;
 
-    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 4
-    invoke-static {v1, v2}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v1
 
-    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->limit:J
+    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->limit:J
 
-    invoke-static {v2, v3}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v2
 
-    invoke-static {v0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v3
 
@@ -347,13 +311,11 @@ return-void
 
     const-string v0, "Pos: %d, limit: %d, len: %d"
 
-    invoke-static {v0, v4}, Ljava/lang/String;
-    ->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v0, v4}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-direct {p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$OutOfSpaceException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$OutOfSpaceException;-><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -363,35 +325,28 @@ return-void
 
     .line 11
     :try_start_0
-    invoke-virtual {p1}, Ljava/nio/Buffer;
-    ->remaining()I
+    invoke-virtual {p1}, Ljava/nio/Buffer;->remaining()I
 
     move-result v0
 
     .line 12
-    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
-    invoke-direct {p0, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->repositionBuffer(J)V
+    invoke-direct {p0, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->repositionBuffer(J)V
 
     .line 13
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->buffer:Ljava/nio/ByteBuffer;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->buffer:Ljava/nio/ByteBuffer;
 
-    invoke-virtual {v1, p1}, Ljava/nio/ByteBuffer;
-    ->put(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
+    invoke-virtual {v1, p1}, Ljava/nio/ByteBuffer;->put(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
 
     .line 14
-    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     int-to-long v3, v0
 
     add-long/2addr v1, v3
 
-    iput-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iput-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
     :try_end_0
     .catch Ljava/nio/BufferOverflowException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -403,8 +358,7 @@ return-void
     .line 15
     new-instance v0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$OutOfSpaceException;
 
-    invoke-direct {v0, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$OutOfSpaceException;
-    -><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v0, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$OutOfSpaceException;-><init>(Ljava/lang/Throwable;)V
 
     throw v0
 .end method
@@ -425,15 +379,13 @@ return-void
 
     if-lt v0, p2, :cond_0
 
-    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->limit:J
+    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->limit:J
 
     int-to-long v7, p3
 
     sub-long/2addr v0, v7
 
-    iget-wide v5, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide v5, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     cmp-long v2, v0, v5
 
@@ -450,17 +402,14 @@ return-void
     move-object v2, p1
 
     .line 6
-    invoke-static/range {v2 .. v8}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->copyMemory([BJJJ)V
+    invoke-static/range {v2 .. v8}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->copyMemory([BJJJ)V
 
     .line 7
-    iget-wide p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     add-long/2addr p1, v7
 
-    iput-wide p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iput-wide p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     return-void
 
@@ -472,8 +421,7 @@ return-void
 
     const-string p2, "value"
 
-    invoke-direct {p1, p2}, Ljava/lang/NullPointerException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     throw p1
 
@@ -481,25 +429,20 @@ return-void
     :cond_2
     new-instance p1, Landroidx/datastore/preferences/protobuf/CodedOutputStream$OutOfSpaceException;
 
-    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 10
-    invoke-static {v0, v1}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p2
 
-    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->limit:J
+    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->limit:J
 
-    invoke-static {v0, v1}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object v0
 
-    invoke-static {p3}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p3
 
@@ -521,13 +464,11 @@ return-void
 
     const-string p2, "Pos: %d, limit: %d, len: %d"
 
-    invoke-static {p2, v1}, Ljava/lang/String;
-    ->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p2, v1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p2
 
-    invoke-direct {p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$OutOfSpaceException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$OutOfSpaceException;-><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -539,8 +480,7 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeTag(II)V
+    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeTag(II)V
 
     .line 3
     .line 4
@@ -548,8 +488,7 @@ return-void
     int-to-byte p1, p2
 
     .line 6
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->write(B)V
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->write(B)V
 return-void
 .end method
 
@@ -561,8 +500,7 @@ return-void
 
     const/4 v1, 0x0
 
-    invoke-virtual {p0, p1, p2, v1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeByteArray(I[BII)V
+    invoke-virtual {p0, p1, p2, v1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeByteArray(I[BII)V
 return-void
 .end method
 
@@ -572,12 +510,10 @@ return-void
     const/4 v0, 0x2
 
     .line 2
-    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeTag(II)V
+    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeTag(II)V
 
     .line 3
-    invoke-virtual {p0, p2, p3, p4}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeByteArrayNoTag([BII)V
+    invoke-virtual {p0, p2, p3, p4}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeByteArrayNoTag([BII)V
 return-void
 .end method
 
@@ -585,14 +521,12 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeUInt32NoTag(I)V
+    invoke-virtual {p0, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeUInt32NoTag(I)V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->write([BII)V
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->write([BII)V
 return-void
 .end method
 
@@ -603,14 +537,12 @@ return-void
     const/4 v0, 0x2
 
     .line 2
-    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeTag(II)V
+    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeTag(II)V
 
     .line 3
     .line 4
     .line 5
-    invoke-virtual {p2}, Ljava/nio/Buffer;
-    ->capacity()I
+    invoke-virtual {p2}, Ljava/nio/Buffer;->capacity()I
 
     .line 6
     .line 7
@@ -618,14 +550,12 @@ return-void
     move-result p1
 
     .line 9
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeUInt32NoTag(I)V
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeUInt32NoTag(I)V
 
     .line 10
     .line 11
     .line 12
-    invoke-virtual {p0, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeRawBytes(Ljava/nio/ByteBuffer;)V
+    invoke-virtual {p0, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeRawBytes(Ljava/nio/ByteBuffer;)V
 return-void
 .end method
 
@@ -636,14 +566,12 @@ return-void
     const/4 v0, 0x2
 
     .line 2
-    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeTag(II)V
+    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeTag(II)V
 
     .line 3
     .line 4
     .line 5
-    invoke-virtual {p0, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeBytesNoTag(Landroidx/datastore/preferences/protobuf/ByteString;)V
+    invoke-virtual {p0, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeBytesNoTag(Landroidx/datastore/preferences/protobuf/ByteString;)V
 return-void
 .end method
 
@@ -651,8 +579,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->size()I
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;->size()I
 
     .line 2
     .line 3
@@ -660,14 +587,12 @@ return-void
     move-result v0
 
     .line 5
-    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeUInt32NoTag(I)V
+    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeUInt32NoTag(I)V
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p1, p0}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->writeTo(Landroidx/datastore/preferences/protobuf/ByteOutput;)V
+    invoke-virtual {p1, p0}, Landroidx/datastore/preferences/protobuf/ByteString;->writeTo(Landroidx/datastore/preferences/protobuf/ByteOutput;)V
 return-void
 .end method
 
@@ -678,14 +603,12 @@ return-void
     const/4 v0, 0x5
 
     .line 2
-    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeTag(II)V
+    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeTag(II)V
 
     .line 3
     .line 4
     .line 5
-    invoke-virtual {p0, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeFixed32NoTag(I)V
+    invoke-virtual {p0, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeFixed32NoTag(I)V
 return-void
 .end method
 
@@ -693,18 +616,15 @@ return-void
     .locals 4
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->buffer:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 4
     .line 5
-    invoke-direct {p0, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->bufferPos(J)I
+    invoke-direct {p0, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->bufferPos(J)I
 
     .line 6
     .line 7
@@ -712,14 +632,12 @@ return-void
     move-result v1
 
     .line 9
-    invoke-virtual {v0, v1, p1}, Ljava/nio/ByteBuffer;
-    ->putInt(II)Ljava/nio/ByteBuffer;
+    invoke-virtual {v0, v1, p1}, Ljava/nio/ByteBuffer;->putInt(II)Ljava/nio/ByteBuffer;
 
     .line 10
     .line 11
     .line 12
-    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 13
     .line 14
@@ -730,8 +648,7 @@ return-void
     add-long/2addr v0, v2
 
     .line 17
-    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J    
+    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
     return-void
 .end method
 
@@ -742,14 +659,12 @@ return-void
     const/4 v0, 0x1
 
     .line 2
-    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeTag(II)V
+    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeTag(II)V
 
     .line 3
     .line 4
     .line 5
-    invoke-virtual {p0, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeFixed64NoTag(J)V
+    invoke-virtual {p0, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeFixed64NoTag(J)V
 return-void
 .end method
 
@@ -757,18 +672,15 @@ return-void
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->buffer:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->buffer:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 4
     .line 5
-    invoke-direct {p0, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->bufferPos(J)I
+    invoke-direct {p0, v1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->bufferPos(J)I
 
     .line 6
     .line 7
@@ -776,14 +688,12 @@ return-void
     move-result v1
 
     .line 9
-    invoke-virtual {v0, v1, p1, p2}, Ljava/nio/ByteBuffer;
-    ->putLong(IJ)Ljava/nio/ByteBuffer;
+    invoke-virtual {v0, v1, p1, p2}, Ljava/nio/ByteBuffer;->putLong(IJ)Ljava/nio/ByteBuffer;
 
     .line 10
     .line 11
     .line 12
-    iget-wide p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 13
     .line 14
@@ -794,8 +704,7 @@ return-void
     add-long/2addr p1, v0
 
     .line 17
-    iput-wide p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J    
+    iput-wide p1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
     return-void
 .end method
 
@@ -806,14 +715,12 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeTag(II)V
+    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeTag(II)V
 
     .line 3
     .line 4
     .line 5
-    invoke-virtual {p0, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeInt32NoTag(I)V
+    invoke-virtual {p0, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeInt32NoTag(I)V
 return-void
 .end method
 
@@ -825,8 +732,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeUInt32NoTag(I)V
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeUInt32NoTag(I)V
 return-void
 
     .line 7
@@ -834,8 +740,7 @@ return-void
     int-to-long v0, p1
 
     .line 8
-    invoke-virtual {p0, v0, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeUInt64NoTag(J)V
+    invoke-virtual {p0, v0, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeUInt64NoTag(J)V
 return-void
 .end method
 
@@ -843,8 +748,7 @@ return-void
     .locals 0
 
     .line 2
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->write(Ljava/nio/ByteBuffer;)V
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->write(Ljava/nio/ByteBuffer;)V
 return-void
 .end method
 
@@ -852,8 +756,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->write([BII)V
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->write([BII)V
 return-void
 .end method
 
@@ -863,12 +766,10 @@ return-void
     const/4 v0, 0x2
 
     .line 1
-    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeTag(II)V
+    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeTag(II)V
 
     .line 2
-    invoke-virtual {p0, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeMessageNoTag(Landroidx/datastore/preferences/protobuf/MessageLite;)V
+    invoke-virtual {p0, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeMessageNoTag(Landroidx/datastore/preferences/protobuf/MessageLite;)V
 return-void
 .end method
 
@@ -878,12 +779,10 @@ return-void
     const/4 v0, 0x2
 
     .line 3
-    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeTag(II)V
+    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeTag(II)V
 
     .line 4
-    invoke-virtual {p0, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeMessageNoTag(Landroidx/datastore/preferences/protobuf/MessageLite;Landroidx/datastore/preferences/protobuf/Schema;)V
+    invoke-virtual {p0, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeMessageNoTag(Landroidx/datastore/preferences/protobuf/MessageLite;Landroidx/datastore/preferences/protobuf/Schema;)V
 return-void
 .end method
 
@@ -891,17 +790,14 @@ return-void
     .locals 1
 
     .line 1
-    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/MessageLite;
-    ->getSerializedSize()I
+    invoke-interface {p1}, Landroidx/datastore/preferences/protobuf/MessageLite;->getSerializedSize()I
 
     move-result v0
 
-    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeUInt32NoTag(I)V
+    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeUInt32NoTag(I)V
 
     .line 2
-    invoke-interface {p1, p0}, Landroidx/datastore/preferences/protobuf/MessageLite;
-    ->writeTo(Landroidx/datastore/preferences/protobuf/CodedOutputStream;)V
+    invoke-interface {p1, p0}, Landroidx/datastore/preferences/protobuf/MessageLite;->writeTo(Landroidx/datastore/preferences/protobuf/CodedOutputStream;)V
 return-void
 .end method
 
@@ -913,20 +809,16 @@ return-void
 
     check-cast v0, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;
 
-    invoke-virtual {v0, p2}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;
-    ->getSerializedSize(Landroidx/datastore/preferences/protobuf/Schema;)I
+    invoke-virtual {v0, p2}, Landroidx/datastore/preferences/protobuf/AbstractMessageLite;->getSerializedSize(Landroidx/datastore/preferences/protobuf/Schema;)I
 
     move-result v0
 
-    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeUInt32NoTag(I)V
+    invoke-virtual {p0, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeUInt32NoTag(I)V
 
     .line 4
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
-    ->wrapper:Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->wrapper:Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;
 
-    invoke-interface {p2, p1, v0}, Landroidx/datastore/preferences/protobuf/Schema;
-    ->writeTo(Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/Writer;)V
+    invoke-interface {p2, p1, v0}, Landroidx/datastore/preferences/protobuf/Schema;->writeTo(Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/Writer;)V
 return-void
 .end method
 
@@ -940,8 +832,7 @@ return-void
     const/4 v1, 0x3
 
     .line 3
-    invoke-virtual {p0, v0, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeTag(II)V
+    invoke-virtual {p0, v0, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeTag(II)V
 
     .line 4
     .line 5
@@ -949,14 +840,12 @@ return-void
     const/4 v2, 0x2
 
     .line 7
-    invoke-virtual {p0, v2, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeUInt32(II)V
+    invoke-virtual {p0, v2, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeUInt32(II)V
 
     .line 8
     .line 9
     .line 10
-    invoke-virtual {p0, v1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeMessage(ILandroidx/datastore/preferences/protobuf/MessageLite;)V
+    invoke-virtual {p0, v1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeMessage(ILandroidx/datastore/preferences/protobuf/MessageLite;)V
 
     .line 11
     .line 12
@@ -964,8 +853,7 @@ return-void
     const/4 p1, 0x4
 
     .line 14
-    invoke-virtual {p0, v0, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeTag(II)V
+    invoke-virtual {p0, v0, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeTag(II)V
 return-void
 .end method
 
@@ -973,8 +861,7 @@ return-void
     .locals 2
 
     .line 1
-    invoke-virtual {p1}, Ljava/nio/ByteBuffer;
-    ->hasArray()Z
+    invoke-virtual {p1}, Ljava/nio/ByteBuffer;->hasArray()Z
 
     .line 2
     .line 3
@@ -986,8 +873,7 @@ return-void
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Ljava/nio/ByteBuffer;
-    ->array()[B
+    invoke-virtual {p1}, Ljava/nio/ByteBuffer;->array()[B
 
     .line 8
     .line 9
@@ -995,8 +881,7 @@ return-void
     move-result-object v0
 
     .line 11
-    invoke-virtual {p1}, Ljava/nio/ByteBuffer;
-    ->arrayOffset()I
+    invoke-virtual {p1}, Ljava/nio/ByteBuffer;->arrayOffset()I
 
     .line 12
     .line 13
@@ -1004,8 +889,7 @@ return-void
     move-result v1
 
     .line 15
-    invoke-virtual {p1}, Ljava/nio/Buffer;
-    ->capacity()I
+    invoke-virtual {p1}, Ljava/nio/Buffer;->capacity()I
 
     .line 16
     .line 17
@@ -1013,14 +897,12 @@ return-void
     move-result p1
 
     .line 19
-    invoke-virtual {p0, v0, v1, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->write([BII)V
+    invoke-virtual {p0, v0, v1, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->write([BII)V
     return-void
 
     .line 23
     :cond_0
-    invoke-virtual {p1}, Ljava/nio/ByteBuffer;
-    ->duplicate()Ljava/nio/ByteBuffer;
+    invoke-virtual {p1}, Ljava/nio/ByteBuffer;->duplicate()Ljava/nio/ByteBuffer;
 
     .line 24
     .line 25
@@ -1028,14 +910,12 @@ return-void
     move-result-object p1
 
     .line 27
-    invoke-virtual {p1}, Ljava/nio/ByteBuffer;
-    ->clear()Ljava/nio/Buffer;
+    invoke-virtual {p1}, Ljava/nio/ByteBuffer;->clear()Ljava/nio/Buffer;
 
     .line 28
     .line 29
     .line 30
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->write(Ljava/nio/ByteBuffer;)V
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->write(Ljava/nio/ByteBuffer;)V
     return-void
 .end method
 
@@ -1049,8 +929,7 @@ return-void
     const/4 v1, 0x3
 
     .line 3
-    invoke-virtual {p0, v0, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeTag(II)V
+    invoke-virtual {p0, v0, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeTag(II)V
 
     .line 4
     .line 5
@@ -1058,14 +937,12 @@ return-void
     const/4 v2, 0x2
 
     .line 7
-    invoke-virtual {p0, v2, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeUInt32(II)V
+    invoke-virtual {p0, v2, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeUInt32(II)V
 
     .line 8
     .line 9
     .line 10
-    invoke-virtual {p0, v1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeBytes(ILandroidx/datastore/preferences/protobuf/ByteString;)V
+    invoke-virtual {p0, v1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeBytes(ILandroidx/datastore/preferences/protobuf/ByteString;)V
 
     .line 11
     .line 12
@@ -1073,8 +950,7 @@ return-void
     const/4 p1, 0x4
 
     .line 14
-    invoke-virtual {p0, v0, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeTag(II)V
+    invoke-virtual {p0, v0, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeTag(II)V
 return-void
 .end method
 
@@ -1085,14 +961,12 @@ return-void
     const/4 v0, 0x2
 
     .line 2
-    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeTag(II)V
+    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeTag(II)V
 
     .line 3
     .line 4
     .line 5
-    invoke-virtual {p0, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeStringNoTag(Ljava/lang/String;)V
+    invoke-virtual {p0, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeStringNoTag(Ljava/lang/String;)V
 return-void
 .end method
 
@@ -1100,14 +974,12 @@ return-void
     .locals 7
 
     .line 1
-    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 2
     .line 3
     :try_start_0
-    invoke-virtual {p1}, Ljava/lang/String;
-    ->length()I
+    invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     .line 4
     .line 5
@@ -1119,8 +991,7 @@ return-void
 
     .line 8
     .line 9
-    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
-    ->computeUInt32SizeNoTag(I)I
+    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeUInt32SizeNoTag(I)I
 
     .line 10
     .line 11
@@ -1128,8 +999,7 @@ return-void
     move-result v2
 
     .line 13
-    invoke-virtual {p1}, Ljava/lang/String;
-    ->length()I
+    invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     .line 14
     .line 15
@@ -1137,8 +1007,7 @@ return-void
     move-result v3
 
     .line 17
-    invoke-static {v3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
-    ->computeUInt32SizeNoTag(I)I
+    invoke-static {v3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->computeUInt32SizeNoTag(I)I
 
     .line 18
     .line 19
@@ -1150,13 +1019,11 @@ return-void
 
     .line 22
     .line 23
-    iget-wide v4, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide v4, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 24
     .line 25
-    invoke-direct {p0, v4, v5}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->bufferPos(J)I
+    invoke-direct {p0, v4, v5}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->bufferPos(J)I
 
     .line 26
     .line 27
@@ -1167,35 +1034,29 @@ return-void
     add-int/2addr v2, v3
 
     .line 30
-    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->buffer:Ljava/nio/ByteBuffer;
+    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->buffer:Ljava/nio/ByteBuffer;
 
     .line 31
     .line 32
-    invoke-virtual {v3, v2}, Ljava/nio/ByteBuffer;
-    ->position(I)Ljava/nio/Buffer;
+    invoke-virtual {v3, v2}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
     .line 33
     .line 34
     .line 35
-    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->buffer:Ljava/nio/ByteBuffer;
+    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->buffer:Ljava/nio/ByteBuffer;
 
     .line 36
     .line 37
-    invoke-static {p1, v3}, Landroidx/datastore/preferences/protobuf/Utf8;
-    ->encodeUtf8(Ljava/lang/CharSequence;Ljava/nio/ByteBuffer;)V
+    invoke-static {p1, v3}, Landroidx/datastore/preferences/protobuf/Utf8;->encodeUtf8(Ljava/lang/CharSequence;Ljava/nio/ByteBuffer;)V
 
     .line 38
     .line 39
     .line 40
-    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->buffer:Ljava/nio/ByteBuffer;
+    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->buffer:Ljava/nio/ByteBuffer;
 
     .line 41
     .line 42
-    invoke-virtual {v3}, Ljava/nio/Buffer;
-    ->position()I
+    invoke-virtual {v3}, Ljava/nio/Buffer;->position()I
 
     .line 43
     .line 44
@@ -1206,14 +1067,12 @@ return-void
     sub-int/2addr v3, v2
 
     .line 47
-    invoke-virtual {p0, v3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeUInt32NoTag(I)V
+    invoke-virtual {p0, v3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeUInt32NoTag(I)V
 
     .line 48
     .line 49
     .line 50
-    iget-wide v4, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide v4, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 51
     .line 52
@@ -1223,8 +1082,7 @@ return-void
     add-long/2addr v4, v2
 
     .line 54
-    iput-wide v4, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J    
+    iput-wide v4, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
     return-void
 
     .line 57
@@ -1250,8 +1108,7 @@ return-void
 
     .line 63
     :cond_0
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/Utf8;
-    ->encodedLength(Ljava/lang/CharSequence;)I
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/Utf8;->encodedLength(Ljava/lang/CharSequence;)I
 
     .line 64
     .line 65
@@ -1259,36 +1116,30 @@ return-void
     move-result v2
 
     .line 67
-    invoke-virtual {p0, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeUInt32NoTag(I)V
+    invoke-virtual {p0, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeUInt32NoTag(I)V
 
     .line 68
     .line 69
     .line 70
-    iget-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 71
     .line 72
-    invoke-direct {p0, v3, v4}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->repositionBuffer(J)V
+    invoke-direct {p0, v3, v4}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->repositionBuffer(J)V
 
     .line 73
     .line 74
     .line 75
-    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->buffer:Ljava/nio/ByteBuffer;
+    iget-object v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->buffer:Ljava/nio/ByteBuffer;
 
     .line 76
     .line 77
-    invoke-static {p1, v3}, Landroidx/datastore/preferences/protobuf/Utf8;
-    ->encodeUtf8(Ljava/lang/CharSequence;Ljava/nio/ByteBuffer;)V
+    invoke-static {p1, v3}, Landroidx/datastore/preferences/protobuf/Utf8;->encodeUtf8(Ljava/lang/CharSequence;Ljava/nio/ByteBuffer;)V
 
     .line 78
     .line 79
     .line 80
-    iget-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 81
     .line 82
@@ -1298,8 +1149,7 @@ return-void
     add-long/2addr v3, v5
 
     .line 84
-    iput-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iput-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
     :try_end_0
     .catch Landroidx/datastore/preferences/protobuf/Utf8$UnpairedSurrogateException; {:try_start_0 .. :try_end_0} :catch_2
     .catch Ljava/lang/IllegalArgumentException; {:try_start_0 .. :try_end_0} :catch_1
@@ -1311,8 +1161,7 @@ return-void
 
     .line 88
     .line 89
-    invoke-direct {v0, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$OutOfSpaceException;
-    -><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v0, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$OutOfSpaceException;-><init>(Ljava/lang/Throwable;)V
 
     .line 90
     .line 91
@@ -1325,8 +1174,7 @@ return-void
 
     .line 94
     .line 95
-    invoke-direct {v0, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$OutOfSpaceException;
-    -><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v0, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$OutOfSpaceException;-><init>(Ljava/lang/Throwable;)V
 
     .line 96
     .line 97
@@ -1335,19 +1183,16 @@ return-void
 
     .line 99
     :goto_2
-    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iput-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 100
     .line 101
-    invoke-direct {p0, v0, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->repositionBuffer(J)V
+    invoke-direct {p0, v0, v1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->repositionBuffer(J)V
 
     .line 102
     .line 103
     .line 104
-    invoke-virtual {p0, p1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;
-    ->inefficientWriteStringNoTag(Ljava/lang/String;Landroidx/datastore/preferences/protobuf/Utf8$UnpairedSurrogateException;)V
+    invoke-virtual {p0, p1, v2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->inefficientWriteStringNoTag(Ljava/lang/String;Landroidx/datastore/preferences/protobuf/Utf8$UnpairedSurrogateException;)V
 return-void
 .end method
 
@@ -1355,8 +1200,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p1, p2}, Landroidx/datastore/preferences/protobuf/WireFormat;
-    ->makeTag(II)I
+    invoke-static {p1, p2}, Landroidx/datastore/preferences/protobuf/WireFormat;->makeTag(II)I
 
     .line 2
     .line 3
@@ -1364,8 +1208,7 @@ return-void
     move-result p1
 
     .line 5
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeUInt32NoTag(I)V
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeUInt32NoTag(I)V
 return-void
 .end method
 
@@ -1376,14 +1219,12 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeTag(II)V
+    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeTag(II)V
 
     .line 3
     .line 4
     .line 5
-    invoke-virtual {p0, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeUInt32NoTag(I)V
+    invoke-virtual {p0, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeUInt32NoTag(I)V
 return-void
 .end method
 
@@ -1394,13 +1235,11 @@ return-void
     const/4 v0, 0x1
 
     .line 2
-    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 3
     .line 4
-    iget-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->oneVarintLimit:J
+    iget-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->oneVarintLimit:J
 
     .line 5
     .line 6
@@ -1425,30 +1264,26 @@ return-void
 
     .line 15
     .line 16
-    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 17
     .line 18
     add-long/2addr v5, v0
 
     .line 19
-    iput-wide v5, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iput-wide v5, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 20
     .line 21
     int-to-byte p1, p1
 
     .line 22
-    invoke-static {v0, v1, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->putByte(JB)V
+    invoke-static {v0, v1, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte(JB)V
 return-void
 
     .line 26
     :cond_0
-    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 27
     .line 28
@@ -1456,8 +1291,7 @@ return-void
 
     .line 29
     .line 30
-    iput-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iput-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 31
     .line 32
@@ -1472,8 +1306,7 @@ return-void
     int-to-byte v2, v2
 
     .line 37
-    invoke-static {v0, v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->putByte(JB)V
+    invoke-static {v0, v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte(JB)V
 
     .line 38
     .line 39
@@ -1487,13 +1320,11 @@ return-void
     .line 43
     :cond_1
     :goto_1
-    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 44
     .line 45
-    iget-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->limit:J
+    iget-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->limit:J
 
     .line 46
     .line 47
@@ -1516,16 +1347,14 @@ return-void
     add-long/2addr v5, v1
 
     .line 56
-    iput-wide v5, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iput-wide v5, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 57
     .line 58
     int-to-byte p1, p1
 
     .line 59
-    invoke-static {v1, v2, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->putByte(JB)V
+    invoke-static {v1, v2, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte(JB)V
 return-void
 
     .line 63
@@ -1534,8 +1363,7 @@ return-void
 
     .line 64
     .line 65
-    iput-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iput-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 66
     .line 67
@@ -1550,8 +1378,7 @@ return-void
     int-to-byte v3, v3
 
     .line 72
-    invoke-static {v1, v2, v3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->putByte(JB)V
+    invoke-static {v1, v2, v3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte(JB)V
 
     .line 73
     .line 74
@@ -1568,13 +1395,11 @@ return-void
 
     .line 79
     .line 80
-    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 81
     .line 82
-    invoke-static {v1, v2}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 83
     .line 84
@@ -1582,13 +1407,11 @@ return-void
     move-result-object v1
 
     .line 86
-    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->limit:J
+    iget-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->limit:J
 
     .line 87
     .line 88
-    invoke-static {v2, v3}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 89
     .line 90
@@ -1596,8 +1419,7 @@ return-void
     move-result-object v2
 
     .line 92
-    invoke-static {v0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 93
     .line 94
@@ -1634,8 +1456,7 @@ return-void
 
     .line 108
     .line 109
-    invoke-static {v0, v4}, Ljava/lang/String;
-    ->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {v0, v4}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 110
     .line 111
@@ -1643,8 +1464,7 @@ return-void
     move-result-object v0
 
     .line 113
-    invoke-direct {p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$OutOfSpaceException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$OutOfSpaceException;-><init>(Ljava/lang/String;)V
 
     .line 114
     .line 115
@@ -1658,14 +1478,12 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeTag(II)V
+    invoke-virtual {p0, p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeTag(II)V
 
     .line 3
     .line 4
     .line 5
-    invoke-virtual {p0, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->writeUInt64NoTag(J)V
+    invoke-virtual {p0, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->writeUInt64NoTag(J)V
 return-void
 .end method
 
@@ -1676,13 +1494,11 @@ return-void
     const/4 v0, 0x1
 
     .line 2
-    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 3
     .line 4
-    iget-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->oneVarintLimit:J
+    iget-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->oneVarintLimit:J
 
     .line 5
     .line 6
@@ -1722,16 +1538,14 @@ return-void
 
     .line 22
     .line 23
-    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 24
     .line 25
     add-long/2addr v10, v0
 
     .line 26
-    iput-wide v10, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iput-wide v10, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 27
     .line 28
@@ -1741,14 +1555,12 @@ return-void
     int-to-byte p1, p2
 
     .line 30
-    invoke-static {v0, v1, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->putByte(JB)V
+    invoke-static {v0, v1, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte(JB)V
 return-void
 
     .line 34
     :cond_0
-    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 35
     .line 36
@@ -1756,8 +1568,7 @@ return-void
 
     .line 37
     .line 38
-    iput-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iput-wide v2, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 39
     .line 40
@@ -1775,8 +1586,7 @@ return-void
     int-to-byte v2, v2
 
     .line 46
-    invoke-static {v0, v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->putByte(JB)V
+    invoke-static {v0, v1, v2}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte(JB)V
 
     .line 47
     .line 48
@@ -1789,13 +1599,11 @@ return-void
     .line 51
     :cond_1
     :goto_1
-    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 52
     .line 53
-    iget-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->limit:J
+    iget-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->limit:J
 
     .line 54
     .line 55
@@ -1822,8 +1630,7 @@ return-void
     add-long/2addr v10, v1
 
     .line 66
-    iput-wide v10, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iput-wide v10, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 67
     .line 68
@@ -1833,8 +1640,7 @@ return-void
     int-to-byte p1, p2
 
     .line 70
-    invoke-static {v1, v2, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->putByte(JB)V
+    invoke-static {v1, v2, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte(JB)V
 return-void
 
     .line 74
@@ -1843,8 +1649,7 @@ return-void
 
     .line 75
     .line 76
-    iput-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iput-wide v3, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 77
     .line 78
@@ -1862,8 +1667,7 @@ return-void
     int-to-byte v3, v3
 
     .line 84
-    invoke-static {v1, v2, v3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->putByte(JB)V
+    invoke-static {v1, v2, v3}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte(JB)V
 
     .line 85
     .line 86
@@ -1879,13 +1683,11 @@ return-void
 
     .line 90
     .line 91
-    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->position:J
+    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->position:J
 
     .line 92
     .line 93
-    invoke-static {v1, v2}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 94
     .line 95
@@ -1893,13 +1695,11 @@ return-void
     move-result-object p2
 
     .line 97
-    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;
-    ->limit:J
+    iget-wide v1, p0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->limit:J
 
     .line 98
     .line 99
-    invoke-static {v1, v2}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 100
     .line 101
@@ -1907,8 +1707,7 @@ return-void
     move-result-object v1
 
     .line 103
-    invoke-static {v0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 104
     .line 105
@@ -1945,8 +1744,7 @@ return-void
 
     .line 119
     .line 120
-    invoke-static {p2, v3}, Ljava/lang/String;
-    ->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p2, v3}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 121
     .line 122
@@ -1954,8 +1752,7 @@ return-void
     move-result-object p2
 
     .line 124
-    invoke-direct {p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$OutOfSpaceException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$OutOfSpaceException;-><init>(Ljava/lang/String;)V
 
     .line 125
     .line 126

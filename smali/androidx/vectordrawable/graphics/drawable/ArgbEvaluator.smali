@@ -9,8 +9,7 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -28,22 +27,19 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/vectordrawable/graphics/drawable/ArgbEvaluator;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/vectordrawable/graphics/drawable/ArgbEvaluator;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/vectordrawable/graphics/drawable/ArgbEvaluator;
-    ->sInstance:Landroidx/vectordrawable/graphics/drawable/ArgbEvaluator;    return-void
+    sput-object v0, Landroidx/vectordrawable/graphics/drawable/ArgbEvaluator;->sInstance:Landroidx/vectordrawable/graphics/drawable/ArgbEvaluator;    return-void
 .end method
 
 .method public constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -51,8 +47,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/vectordrawable/graphics/drawable/ArgbEvaluator;
-    ->sInstance:Landroidx/vectordrawable/graphics/drawable/ArgbEvaluator;    return-object v0
+    sget-object v0, Landroidx/vectordrawable/graphics/drawable/ArgbEvaluator;->sInstance:Landroidx/vectordrawable/graphics/drawable/ArgbEvaluator;    return-object v0
 .end method
 
 
@@ -65,8 +60,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p2}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
 
     .line 4
     .line 5
@@ -134,8 +128,7 @@
 
     .line 32
     .line 33
-    invoke-virtual {p3}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {p3}, Ljava/lang/Integer;->intValue()I
 
     .line 34
     .line 35
@@ -205,8 +198,7 @@
     .line 63
     .line 64
     .line 65
-    invoke-static {v7, v8, v9, v10}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v7, v8, v9, v10}, Ljava/lang/Math;->pow(DD)D
 
     .line 66
     .line 67
@@ -220,8 +212,7 @@
     float-to-double v7, v3
 
     .line 71
-    invoke-static {v7, v8, v9, v10}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v7, v8, v9, v10}, Ljava/lang/Math;->pow(DD)D
 
     .line 72
     .line 73
@@ -235,8 +226,7 @@
     float-to-double v7, p2
 
     .line 77
-    invoke-static {v7, v8, v9, v10}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v7, v8, v9, v10}, Ljava/lang/Math;->pow(DD)D
 
     .line 78
     .line 79
@@ -250,8 +240,7 @@
     float-to-double v7, v5
 
     .line 83
-    invoke-static {v7, v8, v9, v10}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v7, v8, v9, v10}, Ljava/lang/Math;->pow(DD)D
 
     .line 84
     .line 85
@@ -265,8 +254,7 @@
     float-to-double v6, v6
 
     .line 89
-    invoke-static {v6, v7, v9, v10}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v6, v7, v9, v10}, Ljava/lang/Math;->pow(DD)D
 
     .line 90
     .line 91
@@ -280,8 +268,7 @@
     float-to-double v7, p3
 
     .line 95
-    invoke-static {v7, v8, v9, v10}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v7, v8, v9, v10}, Ljava/lang/Math;->pow(DD)D
 
     .line 96
     .line 97
@@ -292,8 +279,7 @@
     double-to-float p3, v7
 
     .line 100
-    invoke-static {v4, v0, p1, v0}, LA/d;
-    ->b(FFFF)F
+    invoke-static {v4, v0, p1, v0}, LA/d;->b(FFFF)F
 
     .line 101
     .line 102
@@ -301,8 +287,7 @@
     move-result v0
 
     .line 104
-    invoke-static {v5, v2, p1, v2}, LA/d;
-    ->b(FFFF)F
+    invoke-static {v5, v2, p1, v2}, LA/d;->b(FFFF)F
 
     .line 105
     .line 106
@@ -310,8 +295,7 @@
     move-result v2
 
     .line 108
-    invoke-static {v6, v3, p1, v3}, LA/d;
-    ->b(FFFF)F
+    invoke-static {v6, v3, p1, v3}, LA/d;->b(FFFF)F
 
     .line 109
     .line 110
@@ -319,8 +303,7 @@
     move-result v3
 
     .line 112
-    invoke-static {p3, p2, p1, p2}, LA/d;
-    ->b(FFFF)F
+    invoke-static {p3, p2, p1, p2}, LA/d;->b(FFFF)F
 
     .line 113
     .line 114
@@ -342,8 +325,7 @@
     .line 122
     .line 123
     .line 124
-    invoke-static {p2, p3, v4, v5}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {p2, p3, v4, v5}, Ljava/lang/Math;->pow(DD)D
 
     .line 125
     .line 126
@@ -361,8 +343,7 @@
     float-to-double v2, v3
 
     .line 132
-    invoke-static {v2, v3, v4, v5}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v2, v3, v4, v5}, Ljava/lang/Math;->pow(DD)D
 
     .line 133
     .line 134
@@ -380,8 +361,7 @@
     float-to-double v2, p1
 
     .line 140
-    invoke-static {v2, v3, v4, v5}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v2, v3, v4, v5}, Ljava/lang/Math;->pow(DD)D
 
     .line 141
     .line 142
@@ -396,8 +376,7 @@
 
     .line 146
     .line 147
-    invoke-static {v0}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v0}, Ljava/lang/Math;->round(F)I
 
     .line 148
     .line 149
@@ -409,8 +388,7 @@
 
     .line 152
     .line 153
-    invoke-static {p2}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {p2}, Ljava/lang/Math;->round(F)I
 
     .line 154
     .line 155
@@ -425,8 +403,7 @@
     or-int/2addr p2, v0
 
     .line 160
-    invoke-static {p3}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {p3}, Ljava/lang/Math;->round(F)I
 
     .line 161
     .line 162
@@ -441,8 +418,7 @@
     or-int/2addr p2, p3
 
     .line 167
-    invoke-static {p1}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {p1}, Ljava/lang/Math;->round(F)I
 
     .line 168
     .line 169
@@ -453,8 +429,7 @@
     or-int/2addr p1, p2
 
     .line 172
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 173
     .line 174

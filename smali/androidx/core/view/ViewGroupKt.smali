@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;
-    ->indexOfChild(Landroid/view/View;)I
+    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->indexOfChild(Landroid/view/View;)I
 
     .line 2
     .line 3
@@ -47,8 +46,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/ViewGroup;
-    ->getChildCount()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
 
     .line 2
     .line 3
@@ -64,8 +62,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {p0, v1}, Landroid/view/ViewGroup;
-    ->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p0, v1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     .line 9
     .line 10
@@ -73,8 +70,7 @@
     move-result-object v2
 
     .line 12
-    invoke-interface {p1, v2}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -102,8 +98,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/ViewGroup;
-    ->getChildCount()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
 
     .line 2
     .line 3
@@ -119,8 +114,7 @@
 
     .line 7
     .line 8
-    invoke-static {v1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 9
     .line 10
@@ -128,8 +122,7 @@
     move-result-object v2
 
     .line 12
-    invoke-virtual {p0, v1}, Landroid/view/ViewGroup;
-    ->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p0, v1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     .line 13
     .line 14
@@ -137,8 +130,7 @@
     move-result-object v3
 
     .line 16
-    invoke-interface {p1, v2, v3}, Lp1/p;
-    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2, v3}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -158,8 +150,7 @@
     .locals 3
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;
-    ->getChildAt(I)Landroid/view/View;
+    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     .line 2
     .line 3
@@ -187,8 +178,7 @@
 
     .line 13
     .line 14
-    invoke-static {v1, p1, v2}, LA/d;
-    ->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v1, p1, v2}, LA/d;->p(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 15
     .line 16
@@ -196,8 +186,7 @@
     move-result-object p1
 
     .line 18
-    invoke-virtual {p0}, Landroid/view/ViewGroup;
-    ->getChildCount()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
 
     .line 19
     .line 20
@@ -205,14 +194,12 @@
     move-result p0
 
     .line 22
-    invoke-virtual {p1, p0}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, p0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 23
     .line 24
     .line 25
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 26
     .line 27
@@ -220,8 +207,7 @@
     move-result-object p0
 
     .line 29
-    invoke-direct {v0, p0}, Ljava/lang/IndexOutOfBoundsException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Ljava/lang/IndexOutOfBoundsException;-><init>(Ljava/lang/String;)V
 
     .line 30
     .line 31
@@ -264,8 +250,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/core/view/ViewGroupKt$children$1;
-    -><init>(Landroid/view/ViewGroup;)V
+    invoke-direct {v0, p0}, Landroidx/core/view/ViewGroupKt$children$1;-><init>(Landroid/view/ViewGroup;)V
 
     .line 4
     .line 5
@@ -289,8 +274,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/core/view/ViewGroupKt$special$$inlined$Sequence$1;
-    -><init>(Landroid/view/ViewGroup;)V
+    invoke-direct {v0, p0}, Landroidx/core/view/ViewGroupKt$special$$inlined$Sequence$1;-><init>(Landroid/view/ViewGroup;)V
 
     .line 4
     .line 5
@@ -305,8 +289,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-virtual {p0}, Landroid/view/ViewGroup;
-    ->getChildCount()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
 
     .line 3
     .line 4
@@ -314,8 +297,7 @@
     move-result p0
 
     .line 6
-    invoke-static {v0, p0}, La/a;
-    ->T(II)Lu1/g;
+    invoke-static {v0, p0}, La/a;->T(II)Lu1/g;
 
     .line 7
     .line 8
@@ -329,8 +311,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/ViewGroup;
-    ->getChildCount()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
 
     .line 2
     .line 3
@@ -344,8 +325,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/ViewGroup;
-    ->getChildCount()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
 
     .line 2
     .line 3
@@ -372,8 +352,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/ViewGroup;
-    ->getChildCount()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
 
     .line 2
     .line 3
@@ -414,8 +393,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/core/view/ViewGroupKt$iterator$1;
-    -><init>(Landroid/view/ViewGroup;)V
+    invoke-direct {v0, p0}, Landroidx/core/view/ViewGroupKt$iterator$1;-><init>(Landroid/view/ViewGroup;)V
 
     .line 4
     .line 5
@@ -427,8 +405,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;
-    ->removeView(Landroid/view/View;)V
+    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
 
     .line 2
     .line 3
@@ -440,8 +417,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;
-    ->addView(Landroid/view/View;)V
+    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     .line 2
     .line 3
@@ -457,8 +433,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0, p1, p1, p1, p1}, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->setMargins(IIII)V
+    invoke-virtual {p0, p1, p1, p1, p1}, Landroid/view/ViewGroup$MarginLayoutParams;->setMargins(IIII)V
 
     .line 2
     .line 3
@@ -486,8 +461,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->setMargins(IIII)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/view/ViewGroup$MarginLayoutParams;->setMargins(IIII)V
 
     .line 2
     .line 3
@@ -507,8 +481,7 @@
 
     .line 4
     .line 5
-    iget p1, p0, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->leftMargin:I
+    iget p1, p0, Landroid/view/ViewGroup$MarginLayoutParams;->leftMargin:I
 
     .line 6
     .line 7
@@ -521,8 +494,7 @@
 
     .line 10
     .line 11
-    iget p2, p0, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->topMargin:I
+    iget p2, p0, Landroid/view/ViewGroup$MarginLayoutParams;->topMargin:I
 
     .line 12
     .line 13
@@ -535,8 +507,7 @@
 
     .line 16
     .line 17
-    iget p3, p0, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->rightMargin:I
+    iget p3, p0, Landroid/view/ViewGroup$MarginLayoutParams;->rightMargin:I
 
     .line 18
     .line 19
@@ -549,14 +520,12 @@
 
     .line 22
     .line 23
-    iget p4, p0, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->bottomMargin:I
+    iget p4, p0, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
 
     .line 24
     .line 25
     :cond_3
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->setMargins(IIII)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/view/ViewGroup$MarginLayoutParams;->setMargins(IIII)V
 
     .line 26
     .line 27
@@ -584,25 +553,21 @@
     .end param
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->setMarginStart(I)V
+    invoke-virtual {p0, p1}, Landroid/view/ViewGroup$MarginLayoutParams;->setMarginStart(I)V
 
     .line 2
     .line 3
     .line 4
-    iput p2, p0, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->topMargin:I
+    iput p2, p0, Landroid/view/ViewGroup$MarginLayoutParams;->topMargin:I
 
     .line 5
     .line 6
-    invoke-virtual {p0, p3}, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->setMarginEnd(I)V
+    invoke-virtual {p0, p3}, Landroid/view/ViewGroup$MarginLayoutParams;->setMarginEnd(I)V
 
     .line 7
     .line 8
     .line 9
-    iput p4, p0, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->bottomMargin:I
+    iput p4, p0, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
 
     .line 10
     .line 11
@@ -621,8 +586,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0}, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->getMarginStart()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup$MarginLayoutParams;->getMarginStart()I
 
     .line 6
     .line 7
@@ -639,8 +603,7 @@
 
     .line 12
     .line 13
-    iget p2, p0, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->topMargin:I
+    iget p2, p0, Landroid/view/ViewGroup$MarginLayoutParams;->topMargin:I
 
     .line 14
     .line 15
@@ -653,8 +616,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {p0}, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->getMarginEnd()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup$MarginLayoutParams;->getMarginEnd()I
 
     .line 20
     .line 21
@@ -671,31 +633,26 @@
 
     .line 26
     .line 27
-    iget p4, p0, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->bottomMargin:I
+    iget p4, p0, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
 
     .line 28
     .line 29
     :cond_3
-    invoke-virtual {p0, p1}, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->setMarginStart(I)V
+    invoke-virtual {p0, p1}, Landroid/view/ViewGroup$MarginLayoutParams;->setMarginStart(I)V
 
     .line 30
     .line 31
     .line 32
-    iput p2, p0, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->topMargin:I
+    iput p2, p0, Landroid/view/ViewGroup$MarginLayoutParams;->topMargin:I
 
     .line 33
     .line 34
-    invoke-virtual {p0, p3}, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->setMarginEnd(I)V
+    invoke-virtual {p0, p3}, Landroid/view/ViewGroup$MarginLayoutParams;->setMarginEnd(I)V
 
     .line 35
     .line 36
     .line 37
-    iput p4, p0, Landroid/view/ViewGroup$MarginLayoutParams;
-    ->bottomMargin:I
+    iput p4, p0, Landroid/view/ViewGroup$MarginLayoutParams;->bottomMargin:I
 
     .line 38
     .line 39

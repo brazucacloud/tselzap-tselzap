@@ -14,8 +14,7 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/NewInstanceSchemas;
-    ->loadSchemaForFullRuntime()Landroidx/datastore/preferences/protobuf/NewInstanceSchema;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/NewInstanceSchemas;->loadSchemaForFullRuntime()Landroidx/datastore/preferences/protobuf/NewInstanceSchema;
 
     .line 2
     .line 3
@@ -23,8 +22,7 @@
     move-result-object v0
 
     .line 5
-    sput-object v0, Landroidx/datastore/preferences/protobuf/NewInstanceSchemas;
-    ->FULL_SCHEMA:Landroidx/datastore/preferences/protobuf/NewInstanceSchema;
+    sput-object v0, Landroidx/datastore/preferences/protobuf/NewInstanceSchemas;->FULL_SCHEMA:Landroidx/datastore/preferences/protobuf/NewInstanceSchema;
 
     .line 6
     .line 7
@@ -32,22 +30,19 @@
 
     .line 8
     .line 9
-    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/NewInstanceSchemaLite;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/NewInstanceSchemaLite;-><init>()V
 
     .line 10
     .line 11
     .line 12
-    sput-object v0, Landroidx/datastore/preferences/protobuf/NewInstanceSchemas;
-    ->LITE_SCHEMA:Landroidx/datastore/preferences/protobuf/NewInstanceSchema;    return-void
+    sput-object v0, Landroidx/datastore/preferences/protobuf/NewInstanceSchemas;->LITE_SCHEMA:Landroidx/datastore/preferences/protobuf/NewInstanceSchema;    return-void
 .end method
 
 .method public constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -55,16 +50,14 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/NewInstanceSchemas;
-    ->FULL_SCHEMA:Landroidx/datastore/preferences/protobuf/NewInstanceSchema;    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/NewInstanceSchemas;->FULL_SCHEMA:Landroidx/datastore/preferences/protobuf/NewInstanceSchema;    return-object v0
 .end method
 
 .method public static lite()Landroidx/datastore/preferences/protobuf/NewInstanceSchema;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/datastore/preferences/protobuf/NewInstanceSchemas;
-    ->LITE_SCHEMA:Landroidx/datastore/preferences/protobuf/NewInstanceSchema;    return-object v0
+    sget-object v0, Landroidx/datastore/preferences/protobuf/NewInstanceSchemas;->LITE_SCHEMA:Landroidx/datastore/preferences/protobuf/NewInstanceSchema;    return-object v0
 .end method
 
 .method private static loadSchemaForFullRuntime()Landroidx/datastore/preferences/protobuf/NewInstanceSchema;
@@ -76,8 +69,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Ljava/lang/Class;
-    ->forName(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 4
     .line 5
@@ -92,8 +84,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {v0, v2}, Ljava/lang/Class;
-    ->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+    invoke-virtual {v0, v2}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     .line 11
     .line 12
@@ -105,8 +96,7 @@
 
     .line 15
     .line 16
-    invoke-virtual {v0, v1}, Ljava/lang/reflect/Constructor;
-    ->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 17
     .line 18

@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1;
-    ->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    value = Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -70,43 +69,35 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;
-    ->$startWorkEvent:Landroidx/lifecycle/Lifecycle$Event;
+    iput-object p1, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;->$startWorkEvent:Landroidx/lifecycle/Lifecycle$Event;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;
-    ->$launchedJob:Lkotlin/jvm/internal/s;
+    iput-object p2, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;->$launchedJob:Lkotlin/jvm/internal/s;
 
     .line 4
     .line 5
-    iput-object p3, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;
-    ->$$this$coroutineScope:Lz1/v;
+    iput-object p3, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;->$$this$coroutineScope:Lz1/v;
 
     .line 6
     .line 7
-    iput-object p4, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;
-    ->$cancelWorkEvent:Landroidx/lifecycle/Lifecycle$Event;
+    iput-object p4, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;->$cancelWorkEvent:Landroidx/lifecycle/Lifecycle$Event;
 
     .line 8
     .line 9
-    iput-object p5, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;
-    ->$cont:Lz1/f;
+    iput-object p5, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;->$cont:Lz1/f;
 
     .line 10
     .line 11
-    iput-object p6, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;
-    ->$mutex:LH1/a;
+    iput-object p6, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;->$mutex:LH1/a;
 
     .line 12
     .line 13
-    iput-object p7, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;
-    ->$block:Lp1/p;
+    iput-object p7, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;->$block:Lp1/p;
 
     .line 14
     .line 15
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -120,8 +111,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -130,14 +120,12 @@
 
     .line 7
     .line 8
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    iget-object p1, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;
-    ->$startWorkEvent:Landroidx/lifecycle/Lifecycle$Event;
+    iget-object p1, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;->$startWorkEvent:Landroidx/lifecycle/Lifecycle$Event;
 
     .line 12
     .line 13
@@ -148,13 +136,11 @@
 
     .line 15
     .line 16
-    iget-object p1, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;
-    ->$launchedJob:Lkotlin/jvm/internal/s;
+    iget-object p1, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;->$launchedJob:Lkotlin/jvm/internal/s;
 
     .line 17
     .line 18
-    iget-object p2, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;
-    ->$$this$coroutineScope:Lz1/v;
+    iget-object p2, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;->$$this$coroutineScope:Lz1/v;
 
     .line 19
     .line 20
@@ -162,18 +148,15 @@
 
     .line 21
     .line 22
-    iget-object v2, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;
-    ->$mutex:LH1/a;
+    iget-object v2, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;->$mutex:LH1/a;
 
     .line 23
     .line 24
-    iget-object v3, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;
-    ->$block:Lp1/p;
+    iget-object v3, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;->$block:Lp1/p;
 
     .line 25
     .line 26
-    invoke-direct {v1, v2, v3, v0}, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1$1;
-    -><init>(LH1/a;Lp1/p;Lg1/d;)V
+    invoke-direct {v1, v2, v3, v0}, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1$1;-><init>(LH1/a;Lp1/p;Lg1/d;)V
 
     .line 27
     .line 28
@@ -181,8 +164,7 @@
     const/4 v2, 0x3
 
     .line 30
-    invoke-static {p2, v0, v1, v2}, Lz1/w;
-    ->l(Lz1/v;LA1/c;Lp1/p;I)Lz1/k0;
+    invoke-static {p2, v0, v1, v2}, Lz1/w;->l(Lz1/v;LA1/c;Lp1/p;I)Lz1/k0;
 
     .line 31
     .line 32
@@ -190,14 +172,12 @@
     move-result-object p2
 
     .line 34
-    iput-object p2, p1, Lkotlin/jvm/internal/s;
-    ->b:Ljava/lang/Object;    
+    iput-object p2, p1, Lkotlin/jvm/internal/s;->b:Ljava/lang/Object;
     return-void
 
     .line 37
     :cond_0
-    iget-object p1, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;
-    ->$cancelWorkEvent:Landroidx/lifecycle/Lifecycle$Event;
+    iget-object p1, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;->$cancelWorkEvent:Landroidx/lifecycle/Lifecycle$Event;
 
     .line 38
     .line 39
@@ -205,13 +185,11 @@
 
     .line 40
     .line 41
-    iget-object p1, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;
-    ->$launchedJob:Lkotlin/jvm/internal/s;
+    iget-object p1, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;->$launchedJob:Lkotlin/jvm/internal/s;
 
     .line 42
     .line 43
-    iget-object p1, p1, Lkotlin/jvm/internal/s;
-    ->b:Ljava/lang/Object;
+    iget-object p1, p1, Lkotlin/jvm/internal/s;->b:Ljava/lang/Object;
 
     .line 44
     .line 45
@@ -223,26 +201,22 @@
 
     .line 48
     .line 49
-    invoke-interface {p1, v0}, Lz1/V;
-    ->c(Ljava/util/concurrent/CancellationException;)V
+    invoke-interface {p1, v0}, Lz1/V;->c(Ljava/util/concurrent/CancellationException;)V
 
     .line 50
     .line 51
     .line 52
     :cond_1
-    iget-object p1, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;
-    ->$launchedJob:Lkotlin/jvm/internal/s;
+    iget-object p1, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;->$launchedJob:Lkotlin/jvm/internal/s;
 
     .line 53
     .line 54
-    iput-object v0, p1, Lkotlin/jvm/internal/s;
-    ->b:Ljava/lang/Object;
+    iput-object v0, p1, Lkotlin/jvm/internal/s;->b:Ljava/lang/Object;
 
     .line 55
     .line 56
     :cond_2
-    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;
-    ->ON_DESTROY:Landroidx/lifecycle/Lifecycle$Event;
+    sget-object p1, Landroidx/lifecycle/Lifecycle$Event;->ON_DESTROY:Landroidx/lifecycle/Lifecycle$Event;
 
     .line 57
     .line 58
@@ -250,18 +224,15 @@
 
     .line 59
     .line 60
-    iget-object p1, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;
-    ->$cont:Lz1/f;
+    iget-object p1, p0, Landroidx/lifecycle/RepeatOnLifecycleKt$repeatOnLifecycle$3$1$1$1;->$cont:Lz1/f;
 
     .line 61
     .line 62
-    sget-object p2, Lc1/v;
-    ->a:Lc1/v;
+    sget-object p2, Lc1/v;->a:Lc1/v;
 
     .line 63
     .line 64
-    invoke-interface {p1, p2}, Lg1/d;
-    ->resumeWith(Ljava/lang/Object;)V
+    invoke-interface {p1, p2}, Lg1/d;->resumeWith(Ljava/lang/Object;)V
 
     .line 65
     .line 66

@@ -18,29 +18,24 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p1, Lx0/p;
-    ->b:Lcom/google/android/material/textfield/TextInputLayout;
+    iget-object v0, p1, Lx0/p;->b:Lcom/google/android/material/textfield/TextInputLayout;
 
     .line 5
     .line 6
-    iput-object v0, p0, Lx0/q;
-    ->a:Lcom/google/android/material/textfield/TextInputLayout;
+    iput-object v0, p0, Lx0/q;->a:Lcom/google/android/material/textfield/TextInputLayout;
 
     .line 7
     .line 8
-    iput-object p1, p0, Lx0/q;
-    ->b:Lx0/p;
+    iput-object p1, p0, Lx0/q;->b:Lx0/p;
 
     .line 9
     .line 10
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 11
     .line 12
@@ -48,18 +43,15 @@
     move-result-object v0
 
     .line 14
-    iput-object v0, p0, Lx0/q;
-    ->c:Landroid/content/Context;
+    iput-object v0, p0, Lx0/q;->c:Landroid/content/Context;
 
     .line 15
     .line 16
-    iget-object p1, p1, Lx0/p;
-    ->h:Lcom/google/android/material/internal/CheckableImageButton;
+    iget-object p1, p1, Lx0/p;->h:Lcom/google/android/material/internal/CheckableImageButton;
 
     .line 17
     .line 18
-    iput-object p1, p0, Lx0/q;
-    ->d:Lcom/google/android/material/internal/CheckableImageButton;
+    iput-object p1, p0, Lx0/q;->d:Lcom/google/android/material/internal/CheckableImageButton;
 
     .line 19
     .line 20
@@ -200,16 +192,14 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lx0/q;
-    ->b:Lx0/p;
+    iget-object v0, p0, Lx0/q;->b:Lx0/p;
 
     .line 2
     .line 3
     const/4 v1, 0x0
 
     .line 4
-    invoke-virtual {v0, v1}, Lx0/p;
-    ->f(Z)V
+    invoke-virtual {v0, v1}, Lx0/p;->f(Z)V
 
     .line 5
     .line 6

@@ -23,8 +23,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroidx/viewpager2/widget/ViewPager2$OnPageChangeCallback;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/viewpager2/widget/ViewPager2$OnPageChangeCallback;-><init>()V
 
     .line 2
     .line 3
@@ -33,14 +32,12 @@
 
     .line 5
     .line 6
-    invoke-direct {v0, p1}, Ljava/util/ArrayList;
-    -><init>(I)V
+    invoke-direct {v0, p1}, Ljava/util/ArrayList;-><init>(I)V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/viewpager2/widget/CompositeOnPageChangeCallback;
-    ->mCallbacks:Ljava/util/List;    
+    iput-object v0, p0, Landroidx/viewpager2/widget/CompositeOnPageChangeCallback;->mCallbacks:Ljava/util/List;
     return-void
 .end method
 
@@ -56,8 +53,7 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1, p1}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v0, v1, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 6
     .line 7
@@ -70,13 +66,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/viewpager2/widget/CompositeOnPageChangeCallback;
-    ->mCallbacks:Ljava/util/List;
+    iget-object v0, p0, Landroidx/viewpager2/widget/CompositeOnPageChangeCallback;->mCallbacks:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/List;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 return-void
 .end method
 
@@ -85,13 +79,11 @@ return-void
 
     .line 1
     :try_start_0
-    iget-object v0, p0, Landroidx/viewpager2/widget/CompositeOnPageChangeCallback;
-    ->mCallbacks:Ljava/util/List;
+    iget-object v0, p0, Landroidx/viewpager2/widget/CompositeOnPageChangeCallback;->mCallbacks:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 4
     .line 5
@@ -100,8 +92,7 @@ return-void
 
     .line 7
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 8
     .line 9
@@ -113,8 +104,7 @@ return-void
 
     .line 12
     .line 13
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -126,8 +116,7 @@ return-void
 
     .line 18
     .line 19
-    invoke-virtual {v1, p1}, Landroidx/viewpager2/widget/ViewPager2$OnPageChangeCallback;
-    ->onPageScrollStateChanged(I)V
+    invoke-virtual {v1, p1}, Landroidx/viewpager2/widget/ViewPager2$OnPageChangeCallback;->onPageScrollStateChanged(I)V
     :try_end_0
     .catch Ljava/util/ConcurrentModificationException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -141,8 +130,7 @@ return-void
     move-exception p1
 
     .line 24
-    invoke-direct {p0, p1}, Landroidx/viewpager2/widget/CompositeOnPageChangeCallback;
-    ->throwCallbackListModifiedWhileInUse(Ljava/util/ConcurrentModificationException;)V
+    invoke-direct {p0, p1}, Landroidx/viewpager2/widget/CompositeOnPageChangeCallback;->throwCallbackListModifiedWhileInUse(Ljava/util/ConcurrentModificationException;)V
 
     .line 25
     .line 26
@@ -160,13 +148,11 @@ return-void
 
     .line 1
     :try_start_0
-    iget-object v0, p0, Landroidx/viewpager2/widget/CompositeOnPageChangeCallback;
-    ->mCallbacks:Ljava/util/List;
+    iget-object v0, p0, Landroidx/viewpager2/widget/CompositeOnPageChangeCallback;->mCallbacks:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 4
     .line 5
@@ -175,8 +161,7 @@ return-void
 
     .line 7
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 8
     .line 9
@@ -188,8 +173,7 @@ return-void
 
     .line 12
     .line 13
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -201,8 +185,7 @@ return-void
 
     .line 18
     .line 19
-    invoke-virtual {v1, p1, p2, p3}, Landroidx/viewpager2/widget/ViewPager2$OnPageChangeCallback;
-    ->onPageScrolled(IFI)V
+    invoke-virtual {v1, p1, p2, p3}, Landroidx/viewpager2/widget/ViewPager2$OnPageChangeCallback;->onPageScrolled(IFI)V
     :try_end_0
     .catch Ljava/util/ConcurrentModificationException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -216,8 +199,7 @@ return-void
     move-exception p1
 
     .line 24
-    invoke-direct {p0, p1}, Landroidx/viewpager2/widget/CompositeOnPageChangeCallback;
-    ->throwCallbackListModifiedWhileInUse(Ljava/util/ConcurrentModificationException;)V
+    invoke-direct {p0, p1}, Landroidx/viewpager2/widget/CompositeOnPageChangeCallback;->throwCallbackListModifiedWhileInUse(Ljava/util/ConcurrentModificationException;)V
 
     .line 25
     .line 26
@@ -231,13 +213,11 @@ return-void
 
     .line 1
     :try_start_0
-    iget-object v0, p0, Landroidx/viewpager2/widget/CompositeOnPageChangeCallback;
-    ->mCallbacks:Ljava/util/List;
+    iget-object v0, p0, Landroidx/viewpager2/widget/CompositeOnPageChangeCallback;->mCallbacks:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 4
     .line 5
@@ -246,8 +226,7 @@ return-void
 
     .line 7
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 8
     .line 9
@@ -259,8 +238,7 @@ return-void
 
     .line 12
     .line 13
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -272,8 +250,7 @@ return-void
 
     .line 18
     .line 19
-    invoke-virtual {v1, p1}, Landroidx/viewpager2/widget/ViewPager2$OnPageChangeCallback;
-    ->onPageSelected(I)V
+    invoke-virtual {v1, p1}, Landroidx/viewpager2/widget/ViewPager2$OnPageChangeCallback;->onPageSelected(I)V
     :try_end_0
     .catch Ljava/util/ConcurrentModificationException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -287,8 +264,7 @@ return-void
     move-exception p1
 
     .line 24
-    invoke-direct {p0, p1}, Landroidx/viewpager2/widget/CompositeOnPageChangeCallback;
-    ->throwCallbackListModifiedWhileInUse(Ljava/util/ConcurrentModificationException;)V
+    invoke-direct {p0, p1}, Landroidx/viewpager2/widget/CompositeOnPageChangeCallback;->throwCallbackListModifiedWhileInUse(Ljava/util/ConcurrentModificationException;)V
 
     .line 25
     .line 26
@@ -301,13 +277,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/viewpager2/widget/CompositeOnPageChangeCallback;
-    ->mCallbacks:Ljava/util/List;
+    iget-object v0, p0, Landroidx/viewpager2/widget/CompositeOnPageChangeCallback;->mCallbacks:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/List;
-    ->remove(Ljava/lang/Object;)Z    
+    invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
     return-void
 .end method
 

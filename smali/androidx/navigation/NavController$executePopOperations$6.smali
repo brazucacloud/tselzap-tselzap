@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/navigation/NavController;
-    ->executePopOperations(Ljava/util/List;Landroidx/navigation/NavDestination;ZZ)Z
+    value = Landroidx/navigation/NavController;->executePopOperations(Ljava/util/List;Landroidx/navigation/NavDestination;ZZ)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -33,13 +32,11 @@
 .method public constructor <init>(Landroidx/navigation/NavController;)V
     .locals 0
 
-    iput-object p1, p0, Landroidx/navigation/NavController$executePopOperations$6;
-    ->this$0:Landroidx/navigation/NavController;
+    iput-object p1, p0, Landroidx/navigation/NavController$executePopOperations$6;->this$0:Landroidx/navigation/NavController;
 
     const/4 p1, 0x1
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
-    -><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
 return-void
 .end method
 
@@ -50,37 +47,30 @@ return-void
 
     const-string v0, "destination"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    iget-object v0, p0, Landroidx/navigation/NavController$executePopOperations$6;
-    ->this$0:Landroidx/navigation/NavController;
+    iget-object v0, p0, Landroidx/navigation/NavController$executePopOperations$6;->this$0:Landroidx/navigation/NavController;
 
-    invoke-static {v0}, Landroidx/navigation/NavController;
-    ->access$getBackStackMap$p(Landroidx/navigation/NavController;)Ljava/util/Map;
+    invoke-static {v0}, Landroidx/navigation/NavController;->access$getBackStackMap$p(Landroidx/navigation/NavController;)Ljava/util/Map;
 
     move-result-object v0
 
-    invoke-virtual {p1}, Landroidx/navigation/NavDestination;
-    ->getId()I
+    invoke-virtual {p1}, Landroidx/navigation/NavDestination;->getId()I
 
     move-result p1
 
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
 
-    invoke-interface {v0, p1}, Ljava/util/Map;
-    ->containsKey(Ljava/lang/Object;)Z
+    invoke-interface {v0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result p1
 
     xor-int/lit8 p1, p1, 0x1
 
-    invoke-static {p1}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p1
 
@@ -93,8 +83,7 @@ return-void
     .line 1
     check-cast p1, Landroidx/navigation/NavDestination;
 
-    invoke-virtual {p0, p1}, Landroidx/navigation/NavController$executePopOperations$6;
-    ->invoke(Landroidx/navigation/NavDestination;)Ljava/lang/Boolean;
+    invoke-virtual {p0, p1}, Landroidx/navigation/NavController$executePopOperations$6;->invoke(Landroidx/navigation/NavDestination;)Ljava/lang/Boolean;
 
     move-result-object p1
 

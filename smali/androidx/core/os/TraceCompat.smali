@@ -53,8 +53,7 @@
 
     .line 8
     .line 9
-    sget v6, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v6, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 10
     .line 11
@@ -71,8 +70,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {v5, v6}, Ljava/lang/Class;
-    ->getField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v5, v6}, Ljava/lang/Class;->getField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 18
     .line 19
@@ -83,8 +81,7 @@
     const/4 v7, 0x0
 
     .line 22
-    invoke-virtual {v6, v7}, Ljava/lang/reflect/Field;
-    ->getLong(Ljava/lang/Object;)J
+    invoke-virtual {v6, v7}, Ljava/lang/reflect/Field;->getLong(Ljava/lang/Object;)J
 
     .line 23
     .line 24
@@ -92,8 +89,7 @@
     move-result-wide v6
 
     .line 26
-    sput-wide v6, Landroidx/core/os/TraceCompat;
-    ->sTraceTagApp:J
+    sput-wide v6, Landroidx/core/os/TraceCompat;->sTraceTagApp:J
 
     .line 27
     .line 28
@@ -101,8 +97,7 @@
 
     .line 29
     .line 30
-    sget-object v7, Ljava/lang/Long;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v7, Ljava/lang/Long;->TYPE:Ljava/lang/Class;
 
     .line 31
     .line 32
@@ -114,8 +109,7 @@
 
     .line 35
     .line 36
-    invoke-virtual {v5, v6, v8}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v6, v8}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 37
     .line 38
@@ -123,8 +117,7 @@
     move-result-object v6
 
     .line 40
-    sput-object v6, Landroidx/core/os/TraceCompat;
-    ->sIsTagEnabledMethod:Ljava/lang/reflect/Method;
+    sput-object v6, Landroidx/core/os/TraceCompat;->sIsTagEnabledMethod:Ljava/lang/reflect/Method;
 
     .line 41
     .line 42
@@ -132,8 +125,7 @@
 
     .line 43
     .line 44
-    sget-object v8, Ljava/lang/Integer;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v8, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
 
     .line 45
     .line 46
@@ -153,8 +145,7 @@
 
     .line 53
     .line 54
-    invoke-virtual {v5, v6, v9}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v6, v9}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 55
     .line 56
@@ -162,8 +153,7 @@
     move-result-object v6
 
     .line 58
-    sput-object v6, Landroidx/core/os/TraceCompat;
-    ->sAsyncTraceBeginMethod:Ljava/lang/reflect/Method;
+    sput-object v6, Landroidx/core/os/TraceCompat;->sAsyncTraceBeginMethod:Ljava/lang/reflect/Method;
 
     .line 59
     .line 60
@@ -187,8 +177,7 @@
 
     .line 69
     .line 70
-    invoke-virtual {v5, v6, v9}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v6, v9}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 71
     .line 72
@@ -196,8 +185,7 @@
     move-result-object v6
 
     .line 74
-    sput-object v6, Landroidx/core/os/TraceCompat;
-    ->sAsyncTraceEndMethod:Ljava/lang/reflect/Method;
+    sput-object v6, Landroidx/core/os/TraceCompat;->sAsyncTraceEndMethod:Ljava/lang/reflect/Method;
 
     .line 75
     .line 76
@@ -221,8 +209,7 @@
 
     .line 85
     .line 86
-    invoke-virtual {v5, v6, v1}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v5, v6, v1}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 87
     .line 88
@@ -230,8 +217,7 @@
     move-result-object v0
 
     .line 90
-    sput-object v0, Landroidx/core/os/TraceCompat;
-    ->sTraceCounterMethod:Ljava/lang/reflect/Method;
+    sput-object v0, Landroidx/core/os/TraceCompat;->sTraceCounterMethod:Ljava/lang/reflect/Method;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -252,8 +238,7 @@
 
     .line 97
     .line 98
-    invoke-static {v1, v2, v0}, Landroid/util/Log;
-    ->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v2, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 99
     .line 100
@@ -266,8 +251,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -283,8 +267,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -296,8 +279,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/os/TraceCompat$Api29Impl;
-    ->beginAsyncSection(Ljava/lang/String;I)V
+    invoke-static {p0, p1}, Landroidx/core/os/TraceCompat$Api29Impl;->beginAsyncSection(Ljava/lang/String;I)V
 
     .line 8
     .line 9
@@ -307,18 +289,15 @@
     .line 11
     :cond_0
     :try_start_0
-    sget-object v0, Landroidx/core/os/TraceCompat;
-    ->sAsyncTraceBeginMethod:Ljava/lang/reflect/Method;
+    sget-object v0, Landroidx/core/os/TraceCompat;->sAsyncTraceBeginMethod:Ljava/lang/reflect/Method;
 
     .line 12
     .line 13
-    sget-wide v1, Landroidx/core/os/TraceCompat;
-    ->sTraceTagApp:J
+    sget-wide v1, Landroidx/core/os/TraceCompat;->sTraceTagApp:J
 
     .line 14
     .line 15
-    invoke-static {v1, v2}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 16
     .line 17
@@ -326,8 +305,7 @@
     move-result-object v1
 
     .line 19
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 20
     .line 21
@@ -366,8 +344,7 @@
     const/4 p0, 0x0
 
     .line 36
-    invoke-virtual {v0, p0, v2}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0, v2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -386,8 +363,7 @@
 
     .line 43
     .line 44
-    invoke-static {p0, p1}, Landroid/util/Log;
-    ->v(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 45
     .line 46
@@ -403,8 +379,7 @@
     .end param
 
     .line 1
-    invoke-static {p0}, Landroid/os/Trace;
-    ->beginSection(Ljava/lang/String;)V
+    invoke-static {p0}, Landroid/os/Trace;->beginSection(Ljava/lang/String;)V
 
     .line 2
     .line 3
@@ -420,8 +395,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -433,8 +407,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/os/TraceCompat$Api29Impl;
-    ->endAsyncSection(Ljava/lang/String;I)V
+    invoke-static {p0, p1}, Landroidx/core/os/TraceCompat$Api29Impl;->endAsyncSection(Ljava/lang/String;I)V
 
     .line 8
     .line 9
@@ -444,18 +417,15 @@
     .line 11
     :cond_0
     :try_start_0
-    sget-object v0, Landroidx/core/os/TraceCompat;
-    ->sAsyncTraceEndMethod:Ljava/lang/reflect/Method;
+    sget-object v0, Landroidx/core/os/TraceCompat;->sAsyncTraceEndMethod:Ljava/lang/reflect/Method;
 
     .line 12
     .line 13
-    sget-wide v1, Landroidx/core/os/TraceCompat;
-    ->sTraceTagApp:J
+    sget-wide v1, Landroidx/core/os/TraceCompat;->sTraceTagApp:J
 
     .line 14
     .line 15
-    invoke-static {v1, v2}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 16
     .line 17
@@ -463,8 +433,7 @@
     move-result-object v1
 
     .line 19
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 20
     .line 21
@@ -503,8 +472,7 @@
     const/4 p0, 0x0
 
     .line 36
-    invoke-virtual {v0, p0, v2}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0, v2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -523,8 +491,7 @@
 
     .line 43
     .line 44
-    invoke-static {p0, p1}, Landroid/util/Log;
-    ->v(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 45
     .line 46
@@ -536,8 +503,7 @@
     .locals 0
 
     .line 1
-    invoke-static {}, Landroid/os/Trace;
-    ->endSection()V
+    invoke-static {}, Landroid/os/Trace;->endSection()V
 
     .line 2
     .line 3
@@ -552,8 +518,7 @@
     const/4 v0, 0x0
 
     .line 2
-    sget v1, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 3
     .line 4
@@ -565,8 +530,7 @@
 
     .line 7
     .line 8
-    invoke-static {}, Landroidx/core/os/TraceCompat$Api29Impl;
-    ->isEnabled()Z
+    invoke-static {}, Landroidx/core/os/TraceCompat$Api29Impl;->isEnabled()Z
 
     .line 9
     .line 10
@@ -578,18 +542,15 @@
     .line 13
     :cond_0
     :try_start_0
-    sget-object v1, Landroidx/core/os/TraceCompat;
-    ->sIsTagEnabledMethod:Ljava/lang/reflect/Method;
+    sget-object v1, Landroidx/core/os/TraceCompat;->sIsTagEnabledMethod:Ljava/lang/reflect/Method;
 
     .line 14
     .line 15
-    sget-wide v2, Landroidx/core/os/TraceCompat;
-    ->sTraceTagApp:J
+    sget-wide v2, Landroidx/core/os/TraceCompat;->sTraceTagApp:J
 
     .line 16
     .line 17
-    invoke-static {v2, v3}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 18
     .line 19
@@ -611,8 +572,7 @@
     const/4 v2, 0x0
 
     .line 27
-    invoke-virtual {v1, v2, v3}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v2, v3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -624,8 +584,7 @@
 
     .line 32
     .line 33
-    invoke-virtual {v1}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {v1}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 34
     .line 35
@@ -646,8 +605,7 @@
 
     .line 41
     .line 42
-    invoke-static {v1, v2}, Landroid/util/Log;
-    ->v(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 43
     .line 44
@@ -663,8 +621,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -679,8 +636,7 @@
     int-to-long v0, p1
 
     .line 8
-    invoke-static {p0, v0, v1}, Landroidx/core/os/TraceCompat$Api29Impl;
-    ->setCounter(Ljava/lang/String;J)V
+    invoke-static {p0, v0, v1}, Landroidx/core/os/TraceCompat$Api29Impl;->setCounter(Ljava/lang/String;J)V
 
     .line 9
     .line 10
@@ -690,18 +646,15 @@
     .line 12
     :cond_0
     :try_start_0
-    sget-object v0, Landroidx/core/os/TraceCompat;
-    ->sTraceCounterMethod:Ljava/lang/reflect/Method;
+    sget-object v0, Landroidx/core/os/TraceCompat;->sTraceCounterMethod:Ljava/lang/reflect/Method;
 
     .line 13
     .line 14
-    sget-wide v1, Landroidx/core/os/TraceCompat;
-    ->sTraceTagApp:J
+    sget-wide v1, Landroidx/core/os/TraceCompat;->sTraceTagApp:J
 
     .line 15
     .line 16
-    invoke-static {v1, v2}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v1, v2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 17
     .line 18
@@ -709,8 +662,7 @@
     move-result-object v1
 
     .line 20
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 21
     .line 22
@@ -749,8 +701,7 @@
     const/4 p0, 0x0
 
     .line 37
-    invoke-virtual {v0, p0, v2}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0, v2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -769,8 +720,7 @@
 
     .line 44
     .line 45
-    invoke-static {p0, p1}, Landroid/util/Log;
-    ->v(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p0, p1}, Landroid/util/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 46
     .line 47

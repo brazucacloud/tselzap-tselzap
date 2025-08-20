@@ -15,11 +15,9 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Landroidx/core/view/d;
-    ->b:Landroidx/core/view/DragStartHelper;
+    iput-object p1, p0, Landroidx/core/view/d;->b:Landroidx/core/view/DragStartHelper;
 
     return-void
 .end method
@@ -30,11 +28,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/d;
-    ->b:Landroidx/core/view/DragStartHelper;
+    iget-object v0, p0, Landroidx/core/view/d;->b:Landroidx/core/view/DragStartHelper;
 
-    invoke-virtual {v0, p1, p2}, Landroidx/core/view/DragStartHelper;
-    ->onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z
+    invoke-virtual {v0, p1, p2}, Landroidx/core/view/DragStartHelper;->onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z
 
     move-result p1
 

@@ -19,8 +19,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -28,8 +27,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/window/core/SpecificationComputer$Companion;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/window/core/SpecificationComputer$Companion;-><init>()V
     return-void
 .end method
 
@@ -45,13 +43,11 @@
 
     .line 4
     .line 5
-    sget-object p3, Landroidx/window/core/BuildConfig;
-    ->INSTANCE:Landroidx/window/core/BuildConfig;
+    sget-object p3, Landroidx/window/core/BuildConfig;->INSTANCE:Landroidx/window/core/BuildConfig;
 
     .line 6
     .line 7
-    invoke-virtual {p3}, Landroidx/window/core/BuildConfig;
-    ->getVerificationMode()Landroidx/window/core/SpecificationComputer$VerificationMode;
+    invoke-virtual {p3}, Landroidx/window/core/BuildConfig;->getVerificationMode()Landroidx/window/core/SpecificationComputer$VerificationMode;
 
     .line 8
     .line 9
@@ -68,14 +64,12 @@
 
     .line 14
     .line 15
-    sget-object p4, Landroidx/window/core/AndroidLogger;
-    ->INSTANCE:Landroidx/window/core/AndroidLogger;
+    sget-object p4, Landroidx/window/core/AndroidLogger;->INSTANCE:Landroidx/window/core/AndroidLogger;
 
     .line 16
     .line 17
     :cond_1
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroidx/window/core/SpecificationComputer$Companion;
-    ->startSpecification(Ljava/lang/Object;Ljava/lang/String;Landroidx/window/core/SpecificationComputer$VerificationMode;Landroidx/window/core/Logger;)Landroidx/window/core/SpecificationComputer;
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroidx/window/core/SpecificationComputer$Companion;->startSpecification(Ljava/lang/Object;Ljava/lang/String;Landroidx/window/core/SpecificationComputer$VerificationMode;Landroidx/window/core/Logger;)Landroidx/window/core/SpecificationComputer;
 
     .line 18
     .line 19
@@ -108,8 +102,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -118,8 +111,7 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -128,8 +120,7 @@
 
     .line 12
     .line 13
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -138,8 +129,7 @@
 
     .line 17
     .line 18
-    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 19
     .line 20
@@ -148,8 +138,7 @@
 
     .line 22
     .line 23
-    invoke-direct {v0, p1, p2, p3, p4}, Landroidx/window/core/ValidSpecification;
-    -><init>(Ljava/lang/Object;Ljava/lang/String;Landroidx/window/core/SpecificationComputer$VerificationMode;Landroidx/window/core/Logger;)V
+    invoke-direct {v0, p1, p2, p3, p4}, Landroidx/window/core/ValidSpecification;-><init>(Ljava/lang/Object;Ljava/lang/String;Landroidx/window/core/SpecificationComputer$VerificationMode;Landroidx/window/core/Logger;)V
 
     .line 24
     .line 25

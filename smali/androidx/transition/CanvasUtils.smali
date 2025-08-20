@@ -24,8 +24,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -46,8 +45,7 @@
 
     .line 2
     .line 3
-    sget v1, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 4
     .line 5
@@ -63,14 +61,12 @@
 
     .line 10
     .line 11
-    invoke-static {p0}, Landroidx/transition/CanvasUtils$Api29Impl;
-    ->enableZ(Landroid/graphics/Canvas;)V
+    invoke-static {p0}, Landroidx/transition/CanvasUtils$Api29Impl;->enableZ(Landroid/graphics/Canvas;)V
 return-void
 
     .line 15
     :cond_0
-    invoke-static {p0}, Landroidx/transition/CanvasUtils$Api29Impl;
-    ->disableZ(Landroid/graphics/Canvas;)V
+    invoke-static {p0}, Landroidx/transition/CanvasUtils$Api29Impl;->disableZ(Landroid/graphics/Canvas;)V
 return-void
 
     .line 19
@@ -83,8 +79,7 @@ return-void
 
     .line 22
     .line 23
-    sget-boolean v1, Landroidx/transition/CanvasUtils;
-    ->sOrderMethodsFetched:Z
+    sget-boolean v1, Landroidx/transition/CanvasUtils;->sOrderMethodsFetched:Z
 
     .line 24
     .line 25
@@ -107,8 +102,7 @@ return-void
 
     .line 32
     .line 33
-    invoke-virtual {v0, v3, v4}, Ljava/lang/Class;
-    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v0, v3, v4}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 34
     .line 35
@@ -116,13 +110,11 @@ return-void
     move-result-object v3
 
     .line 37
-    sput-object v3, Landroidx/transition/CanvasUtils;
-    ->sReorderBarrierMethod:Ljava/lang/reflect/Method;
+    sput-object v3, Landroidx/transition/CanvasUtils;->sReorderBarrierMethod:Ljava/lang/reflect/Method;
 
     .line 38
     .line 39
-    invoke-virtual {v3, v1}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v3, v1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 40
     .line 41
@@ -135,8 +127,7 @@ return-void
 
     .line 45
     .line 46
-    invoke-virtual {v0, v3, v4}, Ljava/lang/Class;
-    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v0, v3, v4}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 47
     .line 48
@@ -144,13 +135,11 @@ return-void
     move-result-object v0
 
     .line 50
-    sput-object v0, Landroidx/transition/CanvasUtils;
-    ->sInorderBarrierMethod:Ljava/lang/reflect/Method;
+    sput-object v0, Landroidx/transition/CanvasUtils;->sInorderBarrierMethod:Ljava/lang/reflect/Method;
 
     .line 51
     .line 52
-    invoke-virtual {v0, v1}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v0, v1}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
     :try_end_0
     .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -158,8 +147,7 @@ return-void
     .line 54
     .line 55
     :catch_0
-    sput-boolean v1, Landroidx/transition/CanvasUtils;
-    ->sOrderMethodsFetched:Z
+    sput-boolean v1, Landroidx/transition/CanvasUtils;->sOrderMethodsFetched:Z
 
     .line 56
     .line 57
@@ -169,8 +157,7 @@ return-void
     .line 58
     .line 59
     :try_start_1
-    sget-object v0, Landroidx/transition/CanvasUtils;
-    ->sReorderBarrierMethod:Ljava/lang/reflect/Method;
+    sget-object v0, Landroidx/transition/CanvasUtils;->sReorderBarrierMethod:Ljava/lang/reflect/Method;
 
     .line 60
     .line 61
@@ -182,8 +169,7 @@ return-void
 
     .line 64
     .line 65
-    invoke-virtual {v0, p0, v1}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0, v1}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 66
     .line 67
@@ -193,8 +179,7 @@ return-void
 
     .line 69
     .line 70
-    sget-object p1, Landroidx/transition/CanvasUtils;
-    ->sInorderBarrierMethod:Ljava/lang/reflect/Method;
+    sget-object p1, Landroidx/transition/CanvasUtils;->sInorderBarrierMethod:Ljava/lang/reflect/Method;
 
     .line 71
     .line 72
@@ -206,8 +191,7 @@ return-void
 
     .line 75
     .line 76
-    invoke-virtual {p1, p0, v0}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p0, v0}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_1
     .catch Ljava/lang/IllegalAccessException; {:try_start_1 .. :try_end_1} :catch_2
     .catch Ljava/lang/reflect/InvocationTargetException; {:try_start_1 .. :try_end_1} :catch_1
@@ -226,8 +210,7 @@ return-void
 
     .line 82
     .line 83
-    invoke-virtual {p0}, Ljava/lang/reflect/InvocationTargetException;
-    ->getCause()Ljava/lang/Throwable;
+    invoke-virtual {p0}, Ljava/lang/reflect/InvocationTargetException;->getCause()Ljava/lang/Throwable;
 
     .line 84
     .line 85
@@ -235,8 +218,7 @@ return-void
     move-result-object p0
 
     .line 87
-    invoke-direct {p1, p0}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/Throwable;)V
+    invoke-direct {p1, p0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
 
     .line 88
     .line 89
@@ -259,8 +241,7 @@ return-void
 
     .line 95
     .line 96
-    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 97
     .line 98

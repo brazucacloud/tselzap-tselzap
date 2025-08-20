@@ -36,20 +36,17 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/datastore/preferences/core/Preferences$Key;
-    ->name:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/datastore/preferences/core/Preferences$Key;->name:Ljava/lang/String;
 
     .line 10
     .line 11
@@ -70,8 +67,7 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Landroidx/datastore/preferences/core/Preferences$Key;
-    ->name:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/datastore/preferences/core/Preferences$Key;->name:Ljava/lang/String;
 
     .line 6
     .line 7
@@ -79,13 +75,11 @@
 
     .line 8
     .line 9
-    iget-object p1, p1, Landroidx/datastore/preferences/core/Preferences$Key;
-    ->name:Ljava/lang/String;
+    iget-object p1, p1, Landroidx/datastore/preferences/core/Preferences$Key;->name:Ljava/lang/String;
 
     .line 10
     .line 11
-    invoke-static {v0, p1}, Lkotlin/jvm/internal/j;
-    ->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Lkotlin/jvm/internal/j;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -105,8 +99,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/core/Preferences$Key;
-    ->name:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/datastore/preferences/core/Preferences$Key;->name:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -117,13 +110,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/core/Preferences$Key;
-    ->name:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/datastore/preferences/core/Preferences$Key;->name:Ljava/lang/String;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/String;
-    ->hashCode()I
+    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
 
     .line 4
     .line 5
@@ -148,8 +139,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Landroidx/datastore/preferences/core/Preferences$Pair;
-    -><init>(Landroidx/datastore/preferences/core/Preferences$Key;Ljava/lang/Object;)V
+    invoke-direct {v0, p0, p1}, Landroidx/datastore/preferences/core/Preferences$Pair;-><init>(Landroidx/datastore/preferences/core/Preferences$Key;Ljava/lang/Object;)V
 
     .line 4
     .line 5
@@ -161,8 +151,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/core/Preferences$Key;
-    ->name:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/datastore/preferences/core/Preferences$Key;->name:Ljava/lang/String;
 
     .line 2
     .line 3

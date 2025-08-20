@@ -25,13 +25,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorListener;
-    ->this$0:Landroidx/recyclerview/widget/FastScroller;
+    iput-object p1, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorListener;->this$0:Landroidx/recyclerview/widget/FastScroller;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;
-    -><init>()V
+    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
 
     .line 4
     .line 5
@@ -39,8 +37,7 @@
     const/4 p1, 0x0
 
     .line 7
-    iput-boolean p1, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorListener;
-    ->mCanceled:Z
+    iput-boolean p1, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorListener;->mCanceled:Z
 return-void
 .end method
 
@@ -53,8 +50,7 @@ return-void
     const/4 p1, 0x1
 
     .line 2
-    iput-boolean p1, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorListener;
-    ->mCanceled:Z
+    iput-boolean p1, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorListener;->mCanceled:Z
 return-void
 .end method
 
@@ -62,8 +58,7 @@ return-void
     .locals 2
 
     .line 1
-    iget-boolean p1, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorListener;
-    ->mCanceled:Z
+    iget-boolean p1, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorListener;->mCanceled:Z
 
     .line 2
     .line 3
@@ -74,24 +69,20 @@ return-void
 
     .line 5
     .line 6
-    iput-boolean v0, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorListener;
-    ->mCanceled:Z
+    iput-boolean v0, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorListener;->mCanceled:Z
 return-void
 
     .line 9
     :cond_0
-    iget-object p1, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorListener;
-    ->this$0:Landroidx/recyclerview/widget/FastScroller;
+    iget-object p1, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorListener;->this$0:Landroidx/recyclerview/widget/FastScroller;
 
     .line 10
     .line 11
-    iget-object p1, p1, Landroidx/recyclerview/widget/FastScroller;
-    ->mShowHideAnimator:Landroid/animation/ValueAnimator;
+    iget-object p1, p1, Landroidx/recyclerview/widget/FastScroller;->mShowHideAnimator:Landroid/animation/ValueAnimator;
 
     .line 12
     .line 13
-    invoke-virtual {p1}, Landroid/animation/ValueAnimator;
-    ->getAnimatedValue()Ljava/lang/Object;
+    invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -103,8 +94,7 @@ return-void
 
     .line 18
     .line 19
-    invoke-virtual {p1}, Ljava/lang/Float;
-    ->floatValue()F
+    invoke-virtual {p1}, Ljava/lang/Float;->floatValue()F
 
     .line 20
     .line 21
@@ -123,37 +113,31 @@ return-void
 
     .line 27
     .line 28
-    iget-object p1, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorListener;
-    ->this$0:Landroidx/recyclerview/widget/FastScroller;
+    iget-object p1, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorListener;->this$0:Landroidx/recyclerview/widget/FastScroller;
 
     .line 29
     .line 30
-    iput v0, p1, Landroidx/recyclerview/widget/FastScroller;
-    ->mAnimationState:I
+    iput v0, p1, Landroidx/recyclerview/widget/FastScroller;->mAnimationState:I
 
     .line 31
     .line 32
-    invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/FastScroller;
-    ->setState(I)V
+    invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/FastScroller;->setState(I)V
     return-void
 
     .line 36
     :cond_1
-    iget-object p1, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorListener;
-    ->this$0:Landroidx/recyclerview/widget/FastScroller;
+    iget-object p1, p0, Landroidx/recyclerview/widget/FastScroller$AnimatorListener;->this$0:Landroidx/recyclerview/widget/FastScroller;
 
     .line 37
     .line 38
     const/4 v0, 0x2
 
     .line 39
-    iput v0, p1, Landroidx/recyclerview/widget/FastScroller;
-    ->mAnimationState:I
+    iput v0, p1, Landroidx/recyclerview/widget/FastScroller;->mAnimationState:I
 
     .line 40
     .line 41
-    invoke-virtual {p1}, Landroidx/recyclerview/widget/FastScroller;
-    ->requestRedraw()V
+    invoke-virtual {p1}, Landroidx/recyclerview/widget/FastScroller;->requestRedraw()V
     return-void
 .end method
 

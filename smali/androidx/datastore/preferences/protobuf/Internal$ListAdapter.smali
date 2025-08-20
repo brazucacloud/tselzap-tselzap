@@ -66,19 +66,16 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/util/AbstractList;
-    -><init>()V
+    invoke-direct {p0}, Ljava/util/AbstractList;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Internal$ListAdapter;
-    ->fromList:Ljava/util/List;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Internal$ListAdapter;->fromList:Ljava/util/List;
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/datastore/preferences/protobuf/Internal$ListAdapter;
-    ->converter:Landroidx/datastore/preferences/protobuf/Internal$ListAdapter$Converter;    
+    iput-object p2, p0, Landroidx/datastore/preferences/protobuf/Internal$ListAdapter;->converter:Landroidx/datastore/preferences/protobuf/Internal$ListAdapter$Converter;
     return-void
 .end method
 
@@ -93,18 +90,15 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Internal$ListAdapter;
-    ->converter:Landroidx/datastore/preferences/protobuf/Internal$ListAdapter$Converter;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Internal$ListAdapter;->converter:Landroidx/datastore/preferences/protobuf/Internal$ListAdapter$Converter;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/Internal$ListAdapter;
-    ->fromList:Ljava/util/List;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/Internal$ListAdapter;->fromList:Ljava/util/List;
 
     .line 4
     .line 5
-    invoke-interface {v1, p1}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v1, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -112,8 +106,7 @@
     move-result-object p1
 
     .line 9
-    invoke-interface {v0, p1}, Landroidx/datastore/preferences/protobuf/Internal$ListAdapter$Converter;
-    ->convert(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Landroidx/datastore/preferences/protobuf/Internal$ListAdapter$Converter;->convert(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -127,13 +120,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Internal$ListAdapter;
-    ->fromList:Ljava/util/List;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Internal$ListAdapter;->fromList:Ljava/util/List;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     .line 4
     .line 5

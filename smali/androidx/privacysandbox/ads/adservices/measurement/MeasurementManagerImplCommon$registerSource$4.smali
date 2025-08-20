@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon;
-    ->registerSource$suspendImpl(Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon;Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest;Lg1/d;)Ljava/lang/Object;
+    value = Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon;->registerSource$suspendImpl(Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon;Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest;Lg1/d;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -58,21 +57,18 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;
-    ->$request:Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest;
+    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;->$request:Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;
-    ->this$0:Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon;
+    iput-object p2, p0, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;->this$0:Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon;
 
     .line 4
     .line 5
     const/4 p1, 0x2
 
     .line 6
-    invoke-direct {p0, p1, p3}, Li1/i;
-    -><init>(ILg1/d;)V
+    invoke-direct {p0, p1, p3}, Li1/i;-><init>(ILg1/d;)V
 return-void
 .end method
 
@@ -97,24 +93,20 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;
-    ->$request:Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;->$request:Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest;
 
     .line 4
     .line 5
-    iget-object v2, p0, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;
-    ->this$0:Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon;
+    iget-object v2, p0, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;->this$0:Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon;
 
     .line 6
     .line 7
-    invoke-direct {v0, v1, v2, p2}, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;
-    -><init>(Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest;Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon;Lg1/d;)V
+    invoke-direct {v0, v1, v2, p2}, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;-><init>(Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest;Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon;Lg1/d;)V
 
     .line 8
     .line 9
     .line 10
-    iput-object p1, v0, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;
-    ->L$0:Ljava/lang/Object;    
+    iput-object p1, v0, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;->L$0:Ljava/lang/Object;
     return-object v0
 .end method
 
@@ -126,8 +118,7 @@ return-void
 
     check-cast p2, Lg1/d;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;
-    ->invoke(Lz1/v;Lg1/d;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;->invoke(Lz1/v;Lg1/d;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -149,18 +140,15 @@ return-void
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1, p2}, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;
-    ->create(Ljava/lang/Object;Lg1/d;)Lg1/d;
+    invoke-virtual {p0, p1, p2}, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;->create(Ljava/lang/Object;Lg1/d;)Lg1/d;
 
     move-result-object p1
 
     check-cast p1, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;
 
-    sget-object p2, Lc1/v;
-    ->a:Lc1/v;
+    sget-object p2, Lc1/v;->a:Lc1/v;
 
-    invoke-virtual {p1, p2}, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;
-    ->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -171,13 +159,11 @@ return-void
     .locals 6
 
     .line 1
-    sget-object v0, Lh1/a;
-    ->b:Lh1/a;
+    sget-object v0, Lh1/a;->b:Lh1/a;
 
     .line 2
     .line 3
-    iget v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;
-    ->label:I
+    iget v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;->label:I
 
     .line 4
     .line 5
@@ -185,14 +171,12 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p1}, Lcom/bumptech/glide/b;
-    ->c0(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
 
     .line 8
     .line 9
     .line 10
-    iget-object p1, p0, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;
-    ->L$0:Ljava/lang/Object;
+    iget-object p1, p0, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;->L$0:Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -200,13 +184,11 @@ return-void
 
     .line 13
     .line 14
-    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;
-    ->$request:Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest;
+    iget-object v0, p0, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;->$request:Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest;
 
     .line 15
     .line 16
-    invoke-virtual {v0}, Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest;
-    ->getRegistrationUris()Ljava/util/List;
+    invoke-virtual {v0}, Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest;->getRegistrationUris()Ljava/util/List;
 
     .line 17
     .line 18
@@ -218,18 +200,15 @@ return-void
 
     .line 21
     .line 22
-    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;
-    ->this$0:Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon;
+    iget-object v1, p0, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;->this$0:Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon;
 
     .line 23
     .line 24
-    iget-object v2, p0, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;
-    ->$request:Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest;
+    iget-object v2, p0, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4;->$request:Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest;
 
     .line 25
     .line 26
-    invoke-interface {v0}, Ljava/lang/Iterable;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     .line 27
     .line 28
@@ -238,8 +217,7 @@ return-void
 
     .line 30
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 31
     .line 32
@@ -251,8 +229,7 @@ return-void
 
     .line 35
     .line 36
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 37
     .line 38
@@ -271,8 +248,7 @@ return-void
     const/4 v5, 0x0
 
     .line 45
-    invoke-direct {v4, v1, v3, v2, v5}, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4$1$1;
-    -><init>(Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon;Landroid/net/Uri;Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest;Lg1/d;)V
+    invoke-direct {v4, v1, v3, v2, v5}, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon$registerSource$4$1$1;-><init>(Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon;Landroid/net/Uri;Landroidx/privacysandbox/ads/adservices/measurement/SourceRegistrationRequest;Lg1/d;)V
 
     .line 46
     .line 47
@@ -280,8 +256,7 @@ return-void
     const/4 v3, 0x3
 
     .line 49
-    invoke-static {p1, v5, v4, v3}, Lz1/w;
-    ->l(Lz1/v;LA1/c;Lp1/p;I)Lz1/k0;
+    invoke-static {p1, v5, v4, v3}, Lz1/w;->l(Lz1/v;LA1/c;Lp1/p;I)Lz1/k0;
 
     .line 50
     .line 51
@@ -290,8 +265,7 @@ return-void
 
     .line 53
     :cond_0
-    sget-object p1, Lc1/v;
-    ->a:Lc1/v;    return-object p1
+    sget-object p1, Lc1/v;->a:Lc1/v;    return-object p1
 
     .line 56
     :cond_1
@@ -303,8 +277,7 @@ return-void
 
     .line 59
     .line 60
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 61
     .line 62

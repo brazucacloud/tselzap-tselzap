@@ -10,8 +10,7 @@
 .method public synthetic constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -24,8 +23,7 @@
 
     check-cast p2, Ljava/lang/Long;
 
-    invoke-static {p1, p2}, Lcom/google/android/gms/measurement/internal/zzkf;
-    ->zza(Ljava/lang/Long;Ljava/lang/Long;)I
+    invoke-static {p1, p2}, Lcom/google/android/gms/measurement/internal/zzkf;->zza(Ljava/lang/Long;Ljava/lang/Long;)I
 
     move-result p1
 

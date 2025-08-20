@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -38,8 +37,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/res/Configuration;
-    ->getLocales()Landroid/os/LocaleList;
+    invoke-virtual {p0}, Landroid/content/res/Configuration;->getLocales()Landroid/os/LocaleList;
 
     .line 2
     .line 3
@@ -63,8 +61,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Landroidx/core/os/LocaleListCompat;
-    ->unwrap()Ljava/lang/Object;
+    invoke-virtual {p1}, Landroidx/core/os/LocaleListCompat;->unwrap()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -76,8 +73,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0, p1}, Landroid/content/res/Configuration;
-    ->setLocales(Landroid/os/LocaleList;)V
+    invoke-virtual {p0, p1}, Landroid/content/res/Configuration;->setLocales(Landroid/os/LocaleList;)V
 
     .line 8
     .line 9

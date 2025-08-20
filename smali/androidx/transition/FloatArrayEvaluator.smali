@@ -25,14 +25,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/transition/FloatArrayEvaluator;
-    ->mArray:[F    
+    iput-object p1, p0, Landroidx/transition/FloatArrayEvaluator;->mArray:[F
     return-void
 .end method
 
@@ -46,8 +44,7 @@
 
     check-cast p3, [F
 
-    invoke-virtual {p0, p1, p2, p3}, Landroidx/transition/FloatArrayEvaluator;
-    ->evaluate(F[F[F)[F
+    invoke-virtual {p0, p1, p2, p3}, Landroidx/transition/FloatArrayEvaluator;->evaluate(F[F[F)[F
 
     move-result-object p1
 
@@ -58,8 +55,7 @@
     .locals 4
 
     .line 2
-    iget-object v0, p0, Landroidx/transition/FloatArrayEvaluator;
-    ->mArray:[F
+    iget-object v0, p0, Landroidx/transition/FloatArrayEvaluator;->mArray:[F
 
     if-nez v0, :cond_0
 
@@ -83,8 +79,7 @@
     .line 6
     aget v3, p3, v1
 
-    invoke-static {v3, v2, p1, v2}, LA/d;
-    ->b(FFFF)F
+    invoke-static {v3, v2, p1, v2}, LA/d;->b(FFFF)F
 
     move-result v2
 

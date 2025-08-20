@@ -24,14 +24,12 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/core/util/AtomicFile;
-    ->mBaseName:Ljava/io/File;
+    iput-object p1, p0, Landroidx/core/util/AtomicFile;->mBaseName:Ljava/io/File;
 
     .line 5
     .line 6
@@ -43,14 +41,12 @@
 
     .line 9
     .line 10
-    invoke-direct {v1}, Ljava/lang/StringBuilder;
-    -><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 11
     .line 12
     .line 13
-    invoke-virtual {p1}, Ljava/io/File;
-    ->getPath()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/io/File;->getPath()Ljava/lang/String;
 
     .line 14
     .line 15
@@ -58,8 +54,7 @@
     move-result-object v2
 
     .line 17
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 18
     .line 19
@@ -68,14 +63,12 @@
 
     .line 21
     .line 22
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 23
     .line 24
     .line 25
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 26
     .line 27
@@ -83,14 +76,12 @@
     move-result-object v1
 
     .line 29
-    invoke-direct {v0, v1}, Ljava/io/File;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
     .line 30
     .line 31
     .line 32
-    iput-object v0, p0, Landroidx/core/util/AtomicFile;
-    ->mNewName:Ljava/io/File;
+    iput-object v0, p0, Landroidx/core/util/AtomicFile;->mNewName:Ljava/io/File;
 
     .line 33
     .line 34
@@ -102,14 +93,12 @@
 
     .line 37
     .line 38
-    invoke-direct {v1}, Ljava/lang/StringBuilder;
-    -><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 39
     .line 40
     .line 41
-    invoke-virtual {p1}, Ljava/io/File;
-    ->getPath()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/io/File;->getPath()Ljava/lang/String;
 
     .line 42
     .line 43
@@ -117,8 +106,7 @@
     move-result-object p1
 
     .line 45
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 46
     .line 47
@@ -127,14 +115,12 @@
 
     .line 49
     .line 50
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 51
     .line 52
     .line 53
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 54
     .line 55
@@ -142,14 +128,12 @@
     move-result-object p1
 
     .line 57
-    invoke-direct {v0, p1}, Ljava/io/File;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
     .line 58
     .line 59
     .line 60
-    iput-object v0, p0, Landroidx/core/util/AtomicFile;
-    ->mLegacyBackupName:Ljava/io/File;
+    iput-object v0, p0, Landroidx/core/util/AtomicFile;->mLegacyBackupName:Ljava/io/File;
 
     .line 61
     .line 62
@@ -168,8 +152,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p1}, Ljava/io/File;
-    ->isDirectory()Z
+    invoke-virtual {p1}, Ljava/io/File;->isDirectory()Z
 
     .line 2
     .line 3
@@ -185,8 +168,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p1}, Ljava/io/File;
-    ->delete()Z
+    invoke-virtual {p1}, Ljava/io/File;->delete()Z
 
     .line 10
     .line 11
@@ -206,20 +188,17 @@
 
     .line 18
     .line 19
-    invoke-direct {v0, v2}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 23
     .line 24
     .line 25
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 26
     .line 27
@@ -227,15 +206,13 @@
     move-result-object v0
 
     .line 29
-    invoke-static {v1, v0}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 30
     .line 31
     .line 32
     :cond_0
-    invoke-virtual {p0, p1}, Ljava/io/File;
-    ->renameTo(Ljava/io/File;)Z
+    invoke-virtual {p0, p1}, Ljava/io/File;->renameTo(Ljava/io/File;)Z
 
     .line 33
     .line 34
@@ -255,14 +232,12 @@
 
     .line 41
     .line 42
-    invoke-direct {v0, v2}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 43
     .line 44
     .line 45
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 46
     .line 47
@@ -271,20 +246,17 @@
 
     .line 49
     .line 50
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 51
     .line 52
     .line 53
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 54
     .line 55
     .line 56
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 57
     .line 58
@@ -292,8 +264,7 @@
     move-result-object p0
 
     .line 60
-    invoke-static {v1, p0}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, p0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 61
     .line 62
@@ -311,8 +282,7 @@
 
     .line 1
     :try_start_0
-    invoke-virtual {p0}, Ljava/io/FileOutputStream;
-    ->getFD()Ljava/io/FileDescriptor;
+    invoke-virtual {p0}, Ljava/io/FileOutputStream;->getFD()Ljava/io/FileDescriptor;
 
     .line 2
     .line 3
@@ -320,8 +290,7 @@
     move-result-object p0
 
     .line 5
-    invoke-virtual {p0}, Ljava/io/FileDescriptor;
-    ->sync()V
+    invoke-virtual {p0}, Ljava/io/FileDescriptor;->sync()V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -345,35 +314,29 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/util/AtomicFile;
-    ->mBaseName:Ljava/io/File;
+    iget-object v0, p0, Landroidx/core/util/AtomicFile;->mBaseName:Ljava/io/File;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/io/File;
-    ->delete()Z
+    invoke-virtual {v0}, Ljava/io/File;->delete()Z
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/core/util/AtomicFile;
-    ->mNewName:Ljava/io/File;
+    iget-object v0, p0, Landroidx/core/util/AtomicFile;->mNewName:Ljava/io/File;
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Ljava/io/File;
-    ->delete()Z
+    invoke-virtual {v0}, Ljava/io/File;->delete()Z
 
     .line 9
     .line 10
     .line 11
-    iget-object v0, p0, Landroidx/core/util/AtomicFile;
-    ->mLegacyBackupName:Ljava/io/File;
+    iget-object v0, p0, Landroidx/core/util/AtomicFile;->mLegacyBackupName:Ljava/io/File;
 
     .line 12
     .line 13
-    invoke-virtual {v0}, Ljava/io/File;
-    ->delete()Z
+    invoke-virtual {v0}, Ljava/io/File;->delete()Z
 
     .line 14
     .line 15
@@ -397,8 +360,7 @@
 
     .line 4
     :cond_0
-    invoke-static {p1}, Landroidx/core/util/AtomicFile;
-    ->sync(Ljava/io/FileOutputStream;)Z
+    invoke-static {p1}, Landroidx/core/util/AtomicFile;->sync(Ljava/io/FileOutputStream;)Z
 
     .line 5
     .line 6
@@ -418,16 +380,14 @@
 
     .line 13
     .line 14
-    invoke-static {v1, v0}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 15
     .line 16
     .line 17
     :cond_1
     :try_start_0
-    invoke-virtual {p1}, Ljava/io/FileOutputStream;
-    ->close()V
+    invoke-virtual {p1}, Ljava/io/FileOutputStream;->close()V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -445,20 +405,17 @@
 
     .line 23
     .line 24
-    invoke-static {v1, v0, p1}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 25
     .line 26
     .line 27
     :goto_0
-    iget-object p1, p0, Landroidx/core/util/AtomicFile;
-    ->mNewName:Ljava/io/File;
+    iget-object p1, p0, Landroidx/core/util/AtomicFile;->mNewName:Ljava/io/File;
 
     .line 28
     .line 29
-    invoke-virtual {p1}, Ljava/io/File;
-    ->delete()Z
+    invoke-virtual {p1}, Ljava/io/File;->delete()Z
 
     .line 30
     .line 31
@@ -478,25 +435,21 @@
 
     .line 38
     .line 39
-    invoke-direct {p1, v0}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 40
     .line 41
     .line 42
-    iget-object v0, p0, Landroidx/core/util/AtomicFile;
-    ->mNewName:Ljava/io/File;
+    iget-object v0, p0, Landroidx/core/util/AtomicFile;->mNewName:Ljava/io/File;
 
     .line 43
     .line 44
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 45
     .line 46
     .line 47
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 48
     .line 49
@@ -504,8 +457,7 @@
     move-result-object p1
 
     .line 51
-    invoke-static {v1, p1}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 52
     .line 53
@@ -531,8 +483,7 @@
 
     .line 4
     :cond_0
-    invoke-static {p1}, Landroidx/core/util/AtomicFile;
-    ->sync(Ljava/io/FileOutputStream;)Z
+    invoke-static {p1}, Landroidx/core/util/AtomicFile;->sync(Ljava/io/FileOutputStream;)Z
 
     .line 5
     .line 6
@@ -552,16 +503,14 @@
 
     .line 13
     .line 14
-    invoke-static {v1, v0}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 15
     .line 16
     .line 17
     :cond_1
     :try_start_0
-    invoke-virtual {p1}, Ljava/io/FileOutputStream;
-    ->close()V
+    invoke-virtual {p1}, Ljava/io/FileOutputStream;->close()V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -579,25 +528,21 @@
 
     .line 23
     .line 24
-    invoke-static {v1, v0, p1}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v0, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 25
     .line 26
     .line 27
     :goto_0
-    iget-object p1, p0, Landroidx/core/util/AtomicFile;
-    ->mNewName:Ljava/io/File;
+    iget-object p1, p0, Landroidx/core/util/AtomicFile;->mNewName:Ljava/io/File;
 
     .line 28
     .line 29
-    iget-object v0, p0, Landroidx/core/util/AtomicFile;
-    ->mBaseName:Ljava/io/File;
+    iget-object v0, p0, Landroidx/core/util/AtomicFile;->mBaseName:Ljava/io/File;
 
     .line 30
     .line 31
-    invoke-static {p1, v0}, Landroidx/core/util/AtomicFile;
-    ->rename(Ljava/io/File;Ljava/io/File;)V
+    invoke-static {p1, v0}, Landroidx/core/util/AtomicFile;->rename(Ljava/io/File;Ljava/io/File;)V
 
     .line 32
     .line 33
@@ -611,8 +556,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/util/AtomicFile;
-    ->mBaseName:Ljava/io/File;
+    iget-object v0, p0, Landroidx/core/util/AtomicFile;->mBaseName:Ljava/io/File;
 
     .line 2
     .line 3
@@ -625,13 +569,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/util/AtomicFile;
-    ->mLegacyBackupName:Ljava/io/File;
+    iget-object v0, p0, Landroidx/core/util/AtomicFile;->mLegacyBackupName:Ljava/io/File;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/io/File;
-    ->exists()Z
+    invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
     .line 4
     .line 5
@@ -643,30 +585,25 @@
 
     .line 8
     .line 9
-    iget-object v0, p0, Landroidx/core/util/AtomicFile;
-    ->mLegacyBackupName:Ljava/io/File;
+    iget-object v0, p0, Landroidx/core/util/AtomicFile;->mLegacyBackupName:Ljava/io/File;
 
     .line 10
     .line 11
-    iget-object v1, p0, Landroidx/core/util/AtomicFile;
-    ->mBaseName:Ljava/io/File;
+    iget-object v1, p0, Landroidx/core/util/AtomicFile;->mBaseName:Ljava/io/File;
 
     .line 12
     .line 13
-    invoke-static {v0, v1}, Landroidx/core/util/AtomicFile;
-    ->rename(Ljava/io/File;Ljava/io/File;)V
+    invoke-static {v0, v1}, Landroidx/core/util/AtomicFile;->rename(Ljava/io/File;Ljava/io/File;)V
 
     .line 14
     .line 15
     .line 16
     :cond_0
-    iget-object v0, p0, Landroidx/core/util/AtomicFile;
-    ->mNewName:Ljava/io/File;
+    iget-object v0, p0, Landroidx/core/util/AtomicFile;->mNewName:Ljava/io/File;
 
     .line 17
     .line 18
-    invoke-virtual {v0}, Ljava/io/File;
-    ->exists()Z
+    invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
     .line 19
     .line 20
@@ -678,13 +615,11 @@
 
     .line 23
     .line 24
-    iget-object v0, p0, Landroidx/core/util/AtomicFile;
-    ->mBaseName:Ljava/io/File;
+    iget-object v0, p0, Landroidx/core/util/AtomicFile;->mBaseName:Ljava/io/File;
 
     .line 25
     .line 26
-    invoke-virtual {v0}, Ljava/io/File;
-    ->exists()Z
+    invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
     .line 27
     .line 28
@@ -696,13 +631,11 @@
 
     .line 31
     .line 32
-    iget-object v0, p0, Landroidx/core/util/AtomicFile;
-    ->mNewName:Ljava/io/File;
+    iget-object v0, p0, Landroidx/core/util/AtomicFile;->mNewName:Ljava/io/File;
 
     .line 33
     .line 34
-    invoke-virtual {v0}, Ljava/io/File;
-    ->delete()Z
+    invoke-virtual {v0}, Ljava/io/File;->delete()Z
 
     .line 35
     .line 36
@@ -722,25 +655,21 @@
 
     .line 43
     .line 44
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 45
     .line 46
     .line 47
-    iget-object v1, p0, Landroidx/core/util/AtomicFile;
-    ->mNewName:Ljava/io/File;
+    iget-object v1, p0, Landroidx/core/util/AtomicFile;->mNewName:Ljava/io/File;
 
     .line 48
     .line 49
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 50
     .line 51
     .line 52
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 53
     .line 54
@@ -752,8 +681,7 @@
 
     .line 57
     .line 58
-    invoke-static {v1, v0}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 59
     .line 60
@@ -763,13 +691,11 @@
 
     .line 62
     .line 63
-    iget-object v1, p0, Landroidx/core/util/AtomicFile;
-    ->mBaseName:Ljava/io/File;
+    iget-object v1, p0, Landroidx/core/util/AtomicFile;->mBaseName:Ljava/io/File;
 
     .line 64
     .line 65
-    invoke-direct {v0, v1}, Ljava/io/FileInputStream;
-    -><init>(Ljava/io/File;)V
+    invoke-direct {v0, v1}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
 
     .line 66
     .line 67
@@ -783,8 +709,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/core/util/AtomicFile;
-    ->openRead()Ljava/io/FileInputStream;
+    invoke-virtual {p0}, Landroidx/core/util/AtomicFile;->openRead()Ljava/io/FileInputStream;
 
     .line 2
     .line 3
@@ -793,8 +718,7 @@
 
     .line 5
     :try_start_0
-    invoke-virtual {v0}, Ljava/io/FileInputStream;
-    ->available()I
+    invoke-virtual {v0}, Ljava/io/FileInputStream;->available()I
 
     .line 6
     .line 7
@@ -820,8 +744,7 @@
     sub-int/2addr v4, v3
 
     .line 15
-    invoke-virtual {v0, v1, v3, v4}, Ljava/io/FileInputStream;
-    ->read([BII)I
+    invoke-virtual {v0, v1, v3, v4}, Ljava/io/FileInputStream;->read([BII)I
 
     .line 16
     .line 17
@@ -835,8 +758,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {v0}, Ljava/io/FileInputStream;
-    ->close()V
+    invoke-virtual {v0}, Ljava/io/FileInputStream;->close()V
 
     .line 22
     .line 23
@@ -849,8 +771,7 @@
 
     .line 26
     :try_start_1
-    invoke-virtual {v0}, Ljava/io/FileInputStream;
-    ->available()I
+    invoke-virtual {v0}, Ljava/io/FileInputStream;->available()I
 
     .line 27
     .line 28
@@ -875,8 +796,7 @@
 
     .line 36
     .line 37
-    invoke-static {v1, v2, v4, v2, v3}, Ljava/lang/System;
-    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {v1, v2, v4, v2, v3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -893,8 +813,7 @@
     move-exception v1
 
     .line 43
-    invoke-virtual {v0}, Ljava/io/FileInputStream;
-    ->close()V
+    invoke-virtual {v0}, Ljava/io/FileInputStream;->close()V
 
     .line 44
     .line 45
@@ -948,13 +867,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/util/AtomicFile;
-    ->mLegacyBackupName:Ljava/io/File;
+    iget-object v0, p0, Landroidx/core/util/AtomicFile;->mLegacyBackupName:Ljava/io/File;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/io/File;
-    ->exists()Z
+    invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
     .line 4
     .line 5
@@ -966,18 +883,15 @@
 
     .line 8
     .line 9
-    iget-object v0, p0, Landroidx/core/util/AtomicFile;
-    ->mLegacyBackupName:Ljava/io/File;
+    iget-object v0, p0, Landroidx/core/util/AtomicFile;->mLegacyBackupName:Ljava/io/File;
 
     .line 10
     .line 11
-    iget-object v1, p0, Landroidx/core/util/AtomicFile;
-    ->mBaseName:Ljava/io/File;
+    iget-object v1, p0, Landroidx/core/util/AtomicFile;->mBaseName:Ljava/io/File;
 
     .line 12
     .line 13
-    invoke-static {v0, v1}, Landroidx/core/util/AtomicFile;
-    ->rename(Ljava/io/File;Ljava/io/File;)V
+    invoke-static {v0, v1}, Landroidx/core/util/AtomicFile;->rename(Ljava/io/File;Ljava/io/File;)V
 
     .line 14
     .line 15
@@ -988,13 +902,11 @@
 
     .line 17
     .line 18
-    iget-object v1, p0, Landroidx/core/util/AtomicFile;
-    ->mNewName:Ljava/io/File;
+    iget-object v1, p0, Landroidx/core/util/AtomicFile;->mNewName:Ljava/io/File;
 
     .line 19
     .line 20
-    invoke-direct {v0, v1}, Ljava/io/FileOutputStream;
-    -><init>(Ljava/io/File;)V
+    invoke-direct {v0, v1}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
     :try_end_0
     .catch Ljava/io/FileNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1008,13 +920,11 @@
     nop
 
     .line 25
-    iget-object v0, p0, Landroidx/core/util/AtomicFile;
-    ->mNewName:Ljava/io/File;
+    iget-object v0, p0, Landroidx/core/util/AtomicFile;->mNewName:Ljava/io/File;
 
     .line 26
     .line 27
-    invoke-virtual {v0}, Ljava/io/File;
-    ->getParentFile()Ljava/io/File;
+    invoke-virtual {v0}, Ljava/io/File;->getParentFile()Ljava/io/File;
 
     .line 28
     .line 29
@@ -1022,8 +932,7 @@
     move-result-object v0
 
     .line 31
-    invoke-virtual {v0}, Ljava/io/File;
-    ->mkdirs()Z
+    invoke-virtual {v0}, Ljava/io/File;->mkdirs()Z
 
     .line 32
     .line 33
@@ -1040,13 +949,11 @@
 
     .line 38
     .line 39
-    iget-object v1, p0, Landroidx/core/util/AtomicFile;
-    ->mNewName:Ljava/io/File;
+    iget-object v1, p0, Landroidx/core/util/AtomicFile;->mNewName:Ljava/io/File;
 
     .line 40
     .line 41
-    invoke-direct {v0, v1}, Ljava/io/FileOutputStream;
-    -><init>(Ljava/io/File;)V
+    invoke-direct {v0, v1}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
     :try_end_1
     .catch Ljava/io/FileNotFoundException; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -1072,25 +979,21 @@
 
     .line 51
     .line 52
-    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 53
     .line 54
     .line 55
-    iget-object v3, p0, Landroidx/core/util/AtomicFile;
-    ->mNewName:Ljava/io/File;
+    iget-object v3, p0, Landroidx/core/util/AtomicFile;->mNewName:Ljava/io/File;
 
     .line 56
     .line 57
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 58
     .line 59
     .line 60
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 61
     .line 62
@@ -1098,8 +1001,7 @@
     move-result-object v2
 
     .line 64
-    invoke-direct {v1, v2, v0}, Ljava/io/IOException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v1, v2, v0}, Ljava/io/IOException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 65
     .line 66
@@ -1120,25 +1022,21 @@
 
     .line 73
     .line 74
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 75
     .line 76
     .line 77
-    iget-object v2, p0, Landroidx/core/util/AtomicFile;
-    ->mNewName:Ljava/io/File;
+    iget-object v2, p0, Landroidx/core/util/AtomicFile;->mNewName:Ljava/io/File;
 
     .line 78
     .line 79
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 80
     .line 81
     .line 82
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 83
     .line 84
@@ -1146,8 +1044,7 @@
     move-result-object v1
 
     .line 86
-    invoke-direct {v0, v1}, Ljava/io/IOException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
 
     .line 87
     .line 88

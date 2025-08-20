@@ -27,8 +27,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-direct {p0, p1, v0}, Landroidx/appcompat/app/AlertController$RecycleListView;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Landroidx/appcompat/app/AlertController$RecycleListView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
 .end method
@@ -37,43 +36,34 @@
     .locals 1
 
     .line 2
-    invoke-direct {p0, p1, p2}, Landroid/widget/ListView;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Landroid/widget/ListView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 3
-    sget-object v0, Landroidx/appcompat/R$styleable;
-    ->RecycleListView:[I
+    sget-object v0, Landroidx/appcompat/R$styleable;->RecycleListView:[I
 
-    invoke-virtual {p1, p2, v0}, Landroid/content/Context;
-    ->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
+    invoke-virtual {p1, p2, v0}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     move-result-object p1
 
     .line 4
-    sget p2, Landroidx/appcompat/R$styleable;
-    ->RecycleListView_paddingBottomNoButtons:I
+    sget p2, Landroidx/appcompat/R$styleable;->RecycleListView_paddingBottomNoButtons:I
 
     const/4 v0, -0x1
 
-    invoke-virtual {p1, p2, v0}, Landroid/content/res/TypedArray;
-    ->getDimensionPixelOffset(II)I
+    invoke-virtual {p1, p2, v0}, Landroid/content/res/TypedArray;->getDimensionPixelOffset(II)I
 
     move-result p2
 
-    iput p2, p0, Landroidx/appcompat/app/AlertController$RecycleListView;
-    ->mPaddingBottomNoButtons:I
+    iput p2, p0, Landroidx/appcompat/app/AlertController$RecycleListView;->mPaddingBottomNoButtons:I
 
     .line 5
-    sget p2, Landroidx/appcompat/R$styleable;
-    ->RecycleListView_paddingTopNoTitle:I
+    sget p2, Landroidx/appcompat/R$styleable;->RecycleListView_paddingTopNoTitle:I
 
-    invoke-virtual {p1, p2, v0}, Landroid/content/res/TypedArray;
-    ->getDimensionPixelOffset(II)I
+    invoke-virtual {p1, p2, v0}, Landroid/content/res/TypedArray;->getDimensionPixelOffset(II)I
 
     move-result p1
 
-    iput p1, p0, Landroidx/appcompat/app/AlertController$RecycleListView;
-    ->mPaddingTopNoTitle:I
+    iput p1, p0, Landroidx/appcompat/app/AlertController$RecycleListView;->mPaddingTopNoTitle:I
 
     return-void
 .end method
@@ -101,8 +91,7 @@
     .line 7
     :cond_1
     :goto_0
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getPaddingLeft()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingLeft()I
 
     .line 8
     .line 9
@@ -114,8 +103,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getPaddingTop()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingTop()I
 
     .line 14
     .line 15
@@ -127,14 +115,12 @@
 
     .line 18
     :cond_2
-    iget p1, p0, Landroidx/appcompat/app/AlertController$RecycleListView;
-    ->mPaddingTopNoTitle:I
+    iget p1, p0, Landroidx/appcompat/app/AlertController$RecycleListView;->mPaddingTopNoTitle:I
 
     .line 19
     .line 20
     :goto_1
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getPaddingRight()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingRight()I
 
     .line 21
     .line 22
@@ -146,8 +132,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getPaddingBottom()I
+    invoke-virtual {p0}, Landroid/view/View;->getPaddingBottom()I
 
     .line 27
     .line 28
@@ -159,14 +144,12 @@
 
     .line 31
     :cond_3
-    iget p2, p0, Landroidx/appcompat/app/AlertController$RecycleListView;
-    ->mPaddingBottomNoButtons:I
+    iget p2, p0, Landroidx/appcompat/app/AlertController$RecycleListView;->mPaddingBottomNoButtons:I
 
     .line 32
     .line 33
     :goto_2
-    invoke-virtual {p0, v0, p1, v1, p2}, Landroid/view/View;
-    ->setPadding(IIII)V    
+    invoke-virtual {p0, v0, p1, v1, p2}, Landroid/view/View;->setPadding(IIII)V
     return-void
 .end method
 

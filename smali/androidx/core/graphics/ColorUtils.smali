@@ -45,14 +45,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/ThreadLocal;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/ThreadLocal;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Landroidx/core/graphics/ColorUtils;
-    ->TEMP_ARRAY:Ljava/lang/ThreadLocal;
+    sput-object v0, Landroidx/core/graphics/ColorUtils;->TEMP_ARRAY:Ljava/lang/ThreadLocal;
 
     .line 7
     .line 8
@@ -63,8 +61,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -118,8 +115,7 @@
     sub-float/2addr v4, v5
 
     .line 17
-    invoke-static {v4}, Ljava/lang/Math;
-    ->abs(F)F
+    invoke-static {v4}, Ljava/lang/Math;->abs(F)F
 
     .line 18
     .line 19
@@ -160,8 +156,7 @@
     sub-float/2addr v2, v5
 
     .line 36
-    invoke-static {v2}, Ljava/lang/Math;
-    ->abs(F)F
+    invoke-static {v2}, Ljava/lang/Math;->abs(F)F
 
     .line 37
     .line 38
@@ -213,8 +208,7 @@
 
     .line 58
     .line 59
-    invoke-static {v4}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v4}, Ljava/lang/Math;->round(F)I
 
     .line 60
     .line 61
@@ -226,8 +220,7 @@
 
     .line 64
     .line 65
-    invoke-static {v3}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v3}, Ljava/lang/Math;->round(F)I
 
     .line 66
     .line 67
@@ -242,8 +235,7 @@
 
     .line 71
     .line 72
-    invoke-static {v5}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v5}, Ljava/lang/Math;->round(F)I
 
     .line 73
     .line 74
@@ -262,8 +254,7 @@
 
     .line 79
     .line 80
-    invoke-static {v5}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v5}, Ljava/lang/Math;->round(F)I
 
     .line 81
     .line 82
@@ -275,8 +266,7 @@
 
     .line 85
     .line 86
-    invoke-static {v3}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v3}, Ljava/lang/Math;->round(F)I
 
     .line 87
     .line 88
@@ -291,8 +281,7 @@
 
     .line 92
     .line 93
-    invoke-static {v4}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v4}, Ljava/lang/Math;->round(F)I
 
     .line 94
     .line 95
@@ -308,8 +297,7 @@
 
     .line 99
     .line 100
-    invoke-static {v1}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v1}, Ljava/lang/Math;->round(F)I
 
     .line 101
     .line 102
@@ -324,8 +312,7 @@
 
     .line 106
     .line 107
-    invoke-static {v5}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v5}, Ljava/lang/Math;->round(F)I
 
     .line 108
     .line 109
@@ -340,8 +327,7 @@
 
     .line 113
     .line 114
-    invoke-static {v4}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v4}, Ljava/lang/Math;->round(F)I
 
     .line 115
     .line 116
@@ -357,8 +343,7 @@
 
     .line 120
     .line 121
-    invoke-static {v1}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v1}, Ljava/lang/Math;->round(F)I
 
     .line 122
     .line 123
@@ -373,8 +358,7 @@
 
     .line 127
     .line 128
-    invoke-static {v4}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v4}, Ljava/lang/Math;->round(F)I
 
     .line 129
     .line 130
@@ -389,8 +373,7 @@
 
     .line 134
     .line 135
-    invoke-static {v5}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v5}, Ljava/lang/Math;->round(F)I
 
     .line 136
     .line 137
@@ -409,8 +392,7 @@
 
     .line 142
     .line 143
-    invoke-static {v5}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v5}, Ljava/lang/Math;->round(F)I
 
     .line 144
     .line 145
@@ -425,8 +407,7 @@
 
     .line 149
     .line 150
-    invoke-static {v4}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v4}, Ljava/lang/Math;->round(F)I
 
     .line 151
     .line 152
@@ -438,8 +419,7 @@
 
     .line 155
     .line 156
-    invoke-static {p0}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {p0}, Ljava/lang/Math;->round(F)I
 
     .line 157
     .line 158
@@ -458,8 +438,7 @@
 
     .line 163
     .line 164
-    invoke-static {v4}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v4}, Ljava/lang/Math;->round(F)I
 
     .line 165
     .line 166
@@ -474,8 +453,7 @@
 
     .line 170
     .line 171
-    invoke-static {v5}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v5}, Ljava/lang/Math;->round(F)I
 
     .line 172
     .line 173
@@ -487,8 +465,7 @@
 
     .line 176
     .line 177
-    invoke-static {p0}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {p0}, Ljava/lang/Math;->round(F)I
 
     .line 178
     .line 179
@@ -501,8 +478,7 @@
 
     .line 182
     .line 183
-    invoke-static {v1, v0, v2}, Landroidx/core/graphics/ColorUtils;
-    ->constrain(III)I
+    invoke-static {v1, v0, v2}, Landroidx/core/graphics/ColorUtils;->constrain(III)I
 
     .line 184
     .line 185
@@ -510,8 +486,7 @@
     move-result v1
 
     .line 187
-    invoke-static {v3, v0, v2}, Landroidx/core/graphics/ColorUtils;
-    ->constrain(III)I
+    invoke-static {v3, v0, v2}, Landroidx/core/graphics/ColorUtils;->constrain(III)I
 
     .line 188
     .line 189
@@ -519,8 +494,7 @@
     move-result v3
 
     .line 191
-    invoke-static {p0, v0, v2}, Landroidx/core/graphics/ColorUtils;
-    ->constrain(III)I
+    invoke-static {p0, v0, v2}, Landroidx/core/graphics/ColorUtils;->constrain(III)I
 
     .line 192
     .line 193
@@ -528,8 +502,7 @@
     move-result p0
 
     .line 195
-    invoke-static {v1, v3, p0}, Landroid/graphics/Color;
-    ->rgb(III)I
+    invoke-static {v1, v3, p0}, Landroid/graphics/Color;->rgb(III)I
 
     .line 196
     .line 197
@@ -620,8 +593,7 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Landroidx/core/graphics/ColorUtils;
-    ->getTempDouble3Array()[D
+    invoke-static {}, Landroidx/core/graphics/ColorUtils;->getTempDouble3Array()[D
 
     .line 2
     .line 3
@@ -638,8 +610,7 @@
     move-wide v4, p4
 
     .line 8
-    invoke-static/range {v0 .. v6}, Landroidx/core/graphics/ColorUtils;
-    ->LABToXYZ(DDD[D)V
+    invoke-static/range {v0 .. v6}, Landroidx/core/graphics/ColorUtils;->LABToXYZ(DDD[D)V
 
     .line 9
     .line 10
@@ -665,8 +636,7 @@
 
     .line 19
     .line 20
-    invoke-static/range {v0 .. v5}, Landroidx/core/graphics/ColorUtils;
-    ->XYZToColor(DDD)I
+    invoke-static/range {v0 .. v5}, Landroidx/core/graphics/ColorUtils;->XYZToColor(DDD)I
 
     .line 21
     .line 22
@@ -747,8 +717,7 @@
 
     .line 23
     .line 24
-    invoke-static {v6, v7, v10, v11}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v6, v7, v10, v11}, Ljava/lang/Math;->pow(DD)D
 
     .line 25
     .line 26
@@ -809,8 +778,7 @@
 
     .line 56
     .line 57
-    invoke-static {v2, v3, v10, v11}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v2, v3, v10, v11}, Ljava/lang/Math;->pow(DD)D
 
     .line 58
     .line 59
@@ -827,8 +795,7 @@
     .line 63
     .line 64
     :goto_1
-    invoke-static {v8, v9, v10, v11}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v8, v9, v10, v11}, Ljava/lang/Math;->pow(DD)D
 
     .line 65
     .line 66
@@ -940,8 +907,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/core/content/res/CamColor;
-    ->toColor(FFF)I
+    invoke-static {p0, p1, p2}, Landroidx/core/content/res/CamColor;->toColor(FFF)I
 
     .line 2
     .line 3
@@ -999,8 +965,7 @@
     div-float/2addr p2, v0
 
     .line 9
-    invoke-static {p1, p2}, Ljava/lang/Math;
-    ->max(FF)F
+    invoke-static {p1, p2}, Ljava/lang/Math;->max(FF)F
 
     .line 10
     .line 11
@@ -1008,8 +973,7 @@
     move-result v0
 
     .line 13
-    invoke-static {p0, v0}, Ljava/lang/Math;
-    ->max(FF)F
+    invoke-static {p0, v0}, Ljava/lang/Math;->max(FF)F
 
     .line 14
     .line 15
@@ -1017,8 +981,7 @@
     move-result v0
 
     .line 17
-    invoke-static {p1, p2}, Ljava/lang/Math;
-    ->min(FF)F
+    invoke-static {p1, p2}, Ljava/lang/Math;->min(FF)F
 
     .line 18
     .line 19
@@ -1026,8 +989,7 @@
     move-result v1
 
     .line 21
-    invoke-static {p0, v1}, Ljava/lang/Math;
-    ->min(FF)F
+    invoke-static {p0, v1}, Ljava/lang/Math;->min(FF)F
 
     .line 22
     .line 23
@@ -1143,8 +1105,7 @@
     sub-float/2addr v4, v5
 
     .line 69
-    invoke-static {v4}, Ljava/lang/Math;
-    ->abs(F)F
+    invoke-static {v4}, Ljava/lang/Math;->abs(F)F
 
     .line 70
     .line 71
@@ -1190,8 +1151,7 @@
     const/4 p2, 0x0
 
     .line 89
-    invoke-static {p1, v6, p0}, Landroidx/core/graphics/ColorUtils;
-    ->constrain(FFF)F
+    invoke-static {p1, v6, p0}, Landroidx/core/graphics/ColorUtils;->constrain(FFF)F
 
     .line 90
     .line 91
@@ -1206,8 +1166,7 @@
     const/4 p0, 0x1
 
     .line 96
-    invoke-static {v2, v6, v5}, Landroidx/core/graphics/ColorUtils;
-    ->constrain(FFF)F
+    invoke-static {v2, v6, v5}, Landroidx/core/graphics/ColorUtils;->constrain(FFF)F
 
     .line 97
     .line 98
@@ -1222,8 +1181,7 @@
     const/4 p0, 0x2
 
     .line 103
-    invoke-static {v3, v6, v5}, Landroidx/core/graphics/ColorUtils;
-    ->constrain(FFF)F
+    invoke-static {v3, v6, v5}, Landroidx/core/graphics/ColorUtils;->constrain(FFF)F
 
     .line 104
     .line 105
@@ -1264,8 +1222,7 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1, p2, p3}, Landroidx/core/graphics/ColorUtils;
-    ->RGBToXYZ(III[D)V
+    invoke-static {p0, p1, p2, p3}, Landroidx/core/graphics/ColorUtils;->RGBToXYZ(III[D)V
 
     .line 2
     .line 3
@@ -1294,8 +1251,7 @@
     move-object v6, p3
 
     .line 14
-    invoke-static/range {v0 .. v6}, Landroidx/core/graphics/ColorUtils;
-    ->XYZToLAB(DDD[D)V
+    invoke-static/range {v0 .. v6}, Landroidx/core/graphics/ColorUtils;->XYZToLAB(DDD[D)V
 
     .line 15
     .line 16
@@ -1425,8 +1381,7 @@
     div-double/2addr v1, v7
 
     .line 53
-    invoke-static {v1, v2, v5, v6}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v1, v2, v5, v6}, Ljava/lang/Math;->pow(DD)D
 
     .line 54
     .line 55
@@ -1475,8 +1430,7 @@
     div-double/2addr v3, v7
 
     .line 73
-    invoke-static {v3, v4, v5, v6}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v3, v4, v5, v6}, Ljava/lang/Math;->pow(DD)D
 
     .line 74
     .line 75
@@ -1517,8 +1471,7 @@
 
     .line 89
     .line 90
-    invoke-static {v7, v8, v5, v6}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v7, v8, v5, v6}, Ljava/lang/Math;->pow(DD)D
 
     .line 91
     .line 92
@@ -1693,8 +1646,7 @@
 
     .line 184
     .line 185
-    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 186
     .line 187
@@ -1928,8 +1880,7 @@
 
     .line 103
     .line 104
-    invoke-static {v0, v1, v10, v11}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v0, v1, v10, v11}, Ljava/lang/Math;->pow(DD)D
 
     .line 105
     .line 106
@@ -1961,8 +1912,7 @@
 
     .line 117
     .line 118
-    invoke-static {v4, v5, v10, v11}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v4, v5, v10, v11}, Ljava/lang/Math;->pow(DD)D
 
     .line 119
     .line 120
@@ -1994,8 +1944,7 @@
 
     .line 131
     .line 132
-    invoke-static {v6, v7, v10, v11}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v6, v7, v10, v11}, Ljava/lang/Math;->pow(DD)D
 
     .line 133
     .line 134
@@ -2030,8 +1979,7 @@
 
     .line 148
     .line 149
-    invoke-static {v0, v1}, Ljava/lang/Math;
-    ->round(D)J
+    invoke-static {v0, v1}, Ljava/lang/Math;->round(D)J
 
     .line 150
     .line 151
@@ -2049,8 +1997,7 @@
 
     .line 156
     .line 157
-    invoke-static {v1, v0, v8}, Landroidx/core/graphics/ColorUtils;
-    ->constrain(III)I
+    invoke-static {v1, v0, v8}, Landroidx/core/graphics/ColorUtils;->constrain(III)I
 
     .line 158
     .line 159
@@ -2062,8 +2009,7 @@
 
     .line 162
     .line 163
-    invoke-static {v4, v5}, Ljava/lang/Math;
-    ->round(D)J
+    invoke-static {v4, v5}, Ljava/lang/Math;->round(D)J
 
     .line 164
     .line 165
@@ -2074,8 +2020,7 @@
     long-to-int v5, v4
 
     .line 168
-    invoke-static {v5, v0, v8}, Landroidx/core/graphics/ColorUtils;
-    ->constrain(III)I
+    invoke-static {v5, v0, v8}, Landroidx/core/graphics/ColorUtils;->constrain(III)I
 
     .line 169
     .line 170
@@ -2087,8 +2032,7 @@
 
     .line 173
     .line 174
-    invoke-static {v2, v3}, Ljava/lang/Math;
-    ->round(D)J
+    invoke-static {v2, v3}, Ljava/lang/Math;->round(D)J
 
     .line 175
     .line 176
@@ -2099,8 +2043,7 @@
     long-to-int v3, v2
 
     .line 179
-    invoke-static {v3, v0, v8}, Landroidx/core/graphics/ColorUtils;
-    ->constrain(III)I
+    invoke-static {v3, v0, v8}, Landroidx/core/graphics/ColorUtils;->constrain(III)I
 
     .line 180
     .line 181
@@ -2108,8 +2051,7 @@
     move-result v0
 
     .line 183
-    invoke-static {v1, v4, v0}, Landroid/graphics/Color;
-    ->rgb(III)I
+    invoke-static {v1, v4, v0}, Landroid/graphics/Color;->rgb(III)I
 
     .line 184
     .line 185
@@ -2165,8 +2107,7 @@
     div-double/2addr p0, v0
 
     .line 11
-    invoke-static {p0, p1}, Landroidx/core/graphics/ColorUtils;
-    ->pivotXyzComponent(D)D
+    invoke-static {p0, p1}, Landroidx/core/graphics/ColorUtils;->pivotXyzComponent(D)D
 
     .line 12
     .line 13
@@ -2181,8 +2122,7 @@
     div-double/2addr p2, v0
 
     .line 18
-    invoke-static {p2, p3}, Landroidx/core/graphics/ColorUtils;
-    ->pivotXyzComponent(D)D
+    invoke-static {p2, p3}, Landroidx/core/graphics/ColorUtils;->pivotXyzComponent(D)D
 
     .line 19
     .line 20
@@ -2200,8 +2140,7 @@
     div-double/2addr p4, v0
 
     .line 28
-    invoke-static {p4, p5}, Landroidx/core/graphics/ColorUtils;
-    ->pivotXyzComponent(D)D
+    invoke-static {p4, p5}, Landroidx/core/graphics/ColorUtils;->pivotXyzComponent(D)D
 
     .line 29
     .line 30
@@ -2228,8 +2167,7 @@
 
     .line 40
     .line 41
-    invoke-static {v2, v3, v0, v1}, Ljava/lang/Math;
-    ->max(DD)D
+    invoke-static {v2, v3, v0, v1}, Ljava/lang/Math;->max(DD)D
 
     .line 42
     .line 43
@@ -2295,8 +2233,7 @@
 
     .line 71
     .line 72
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 73
     .line 74
@@ -2473,8 +2410,7 @@
     sub-float/2addr v0, p2
 
     .line 4
-    invoke-static {p0}, Landroid/graphics/Color;
-    ->alpha(I)I
+    invoke-static {p0}, Landroid/graphics/Color;->alpha(I)I
 
     .line 5
     .line 6
@@ -2489,8 +2425,7 @@
 
     .line 10
     .line 11
-    invoke-static {p1}, Landroid/graphics/Color;
-    ->alpha(I)I
+    invoke-static {p1}, Landroid/graphics/Color;->alpha(I)I
 
     .line 12
     .line 13
@@ -2508,8 +2443,7 @@
     add-float/2addr v2, v1
 
     .line 19
-    invoke-static {p0}, Landroid/graphics/Color;
-    ->red(I)I
+    invoke-static {p0}, Landroid/graphics/Color;->red(I)I
 
     .line 20
     .line 21
@@ -2524,8 +2458,7 @@
 
     .line 25
     .line 26
-    invoke-static {p1}, Landroid/graphics/Color;
-    ->red(I)I
+    invoke-static {p1}, Landroid/graphics/Color;->red(I)I
 
     .line 27
     .line 28
@@ -2543,8 +2476,7 @@
     add-float/2addr v3, v1
 
     .line 34
-    invoke-static {p0}, Landroid/graphics/Color;
-    ->green(I)I
+    invoke-static {p0}, Landroid/graphics/Color;->green(I)I
 
     .line 35
     .line 36
@@ -2559,8 +2491,7 @@
 
     .line 40
     .line 41
-    invoke-static {p1}, Landroid/graphics/Color;
-    ->green(I)I
+    invoke-static {p1}, Landroid/graphics/Color;->green(I)I
 
     .line 42
     .line 43
@@ -2578,8 +2509,7 @@
     add-float/2addr v4, v1
 
     .line 49
-    invoke-static {p0}, Landroid/graphics/Color;
-    ->blue(I)I
+    invoke-static {p0}, Landroid/graphics/Color;->blue(I)I
 
     .line 50
     .line 51
@@ -2594,8 +2524,7 @@
 
     .line 55
     .line 56
-    invoke-static {p1}, Landroid/graphics/Color;
-    ->blue(I)I
+    invoke-static {p1}, Landroid/graphics/Color;->blue(I)I
 
     .line 57
     .line 58
@@ -2625,8 +2554,7 @@
     float-to-int p1, p1
 
     .line 68
-    invoke-static {p0, p2, v0, p1}, Landroid/graphics/Color;
-    ->argb(IIII)I
+    invoke-static {p0, p2, v0, p1}, Landroid/graphics/Color;->argb(IIII)I
 
     .line 69
     .line 70
@@ -2686,8 +2614,7 @@
 
     .line 12
     .line 13
-    invoke-static {v2, v3, p2}, Landroidx/core/graphics/ColorUtils;
-    ->circularInterpolate(FFF)F
+    invoke-static {v2, v3, p2}, Landroidx/core/graphics/ColorUtils;->circularInterpolate(FFF)F
 
     .line 14
     .line 15
@@ -2763,8 +2690,7 @@
 
     .line 47
     .line 48
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 49
     .line 50
@@ -3067,8 +2993,7 @@
 
     .line 48
     .line 49
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 50
     .line 51
@@ -3253,8 +3178,7 @@
     .end param
 
     .line 1
-    invoke-static {p1}, Landroid/graphics/Color;
-    ->alpha(I)I
+    invoke-static {p1}, Landroid/graphics/Color;->alpha(I)I
 
     .line 2
     .line 3
@@ -3270,8 +3194,7 @@
 
     .line 8
     .line 9
-    invoke-static {p0}, Landroid/graphics/Color;
-    ->alpha(I)I
+    invoke-static {p0}, Landroid/graphics/Color;->alpha(I)I
 
     .line 10
     .line 11
@@ -3283,8 +3206,7 @@
 
     .line 14
     .line 15
-    invoke-static {p0, p1}, Landroidx/core/graphics/ColorUtils;
-    ->compositeColors(II)I
+    invoke-static {p0, p1}, Landroidx/core/graphics/ColorUtils;->compositeColors(II)I
 
     .line 16
     .line 17
@@ -3293,8 +3215,7 @@
 
     .line 19
     :cond_0
-    invoke-static {p0}, Landroidx/core/graphics/ColorUtils;
-    ->calculateLuminance(I)D
+    invoke-static {p0}, Landroidx/core/graphics/ColorUtils;->calculateLuminance(I)D
 
     .line 20
     .line 21
@@ -3312,8 +3233,7 @@
     add-double/2addr v0, v2
 
     .line 29
-    invoke-static {p1}, Landroidx/core/graphics/ColorUtils;
-    ->calculateLuminance(I)D
+    invoke-static {p1}, Landroidx/core/graphics/ColorUtils;->calculateLuminance(I)D
 
     .line 30
     .line 31
@@ -3324,8 +3244,7 @@
     add-double/2addr p0, v2
 
     .line 34
-    invoke-static {v0, v1, p0, p1}, Ljava/lang/Math;
-    ->max(DD)D
+    invoke-static {v0, v1, p0, p1}, Ljava/lang/Math;->max(DD)D
 
     .line 35
     .line 36
@@ -3333,8 +3252,7 @@
     move-result-wide v2
 
     .line 38
-    invoke-static {v0, v1, p0, p1}, Ljava/lang/Math;
-    ->min(DD)D
+    invoke-static {v0, v1, p0, p1}, Ljava/lang/Math;->min(DD)D
 
     .line 39
     .line 40
@@ -3360,14 +3278,12 @@
 
     .line 49
     .line 50
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 51
     .line 52
     .line 53
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->toHexString(I)Ljava/lang/String;
+    invoke-static {p1}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
 
     .line 54
     .line 55
@@ -3375,14 +3291,12 @@
     move-result-object p1
 
     .line 57
-    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 58
     .line 59
     .line 60
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 61
     .line 62
@@ -3390,8 +3304,7 @@
     move-result-object p1
 
     .line 64
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 65
     .line 66
@@ -3582,8 +3495,7 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Landroidx/core/graphics/ColorUtils;
-    ->getTempDouble3Array()[D
+    invoke-static {}, Landroidx/core/graphics/ColorUtils;->getTempDouble3Array()[D
 
     .line 2
     .line 3
@@ -3591,8 +3503,7 @@
     move-result-object v0
 
     .line 5
-    invoke-static {p0, v0}, Landroidx/core/graphics/ColorUtils;
-    ->colorToXYZ(I[D)V
+    invoke-static {p0, v0}, Landroidx/core/graphics/ColorUtils;->colorToXYZ(I[D)V
 
     .line 6
     .line 7
@@ -3625,8 +3536,7 @@
     .end param
 
     .line 1
-    invoke-static {p1}, Landroid/graphics/Color;
-    ->alpha(I)I
+    invoke-static {p1}, Landroid/graphics/Color;->alpha(I)I
 
     .line 2
     .line 3
@@ -3642,8 +3552,7 @@
 
     .line 8
     .line 9
-    invoke-static {p0, v1}, Landroidx/core/graphics/ColorUtils;
-    ->setAlphaComponent(II)I
+    invoke-static {p0, v1}, Landroidx/core/graphics/ColorUtils;->setAlphaComponent(II)I
 
     .line 10
     .line 11
@@ -3651,8 +3560,7 @@
     move-result v0
 
     .line 13
-    invoke-static {v0, p1}, Landroidx/core/graphics/ColorUtils;
-    ->calculateContrast(II)D
+    invoke-static {v0, p1}, Landroidx/core/graphics/ColorUtils;->calculateContrast(II)D
 
     .line 14
     .line 15
@@ -3711,8 +3619,7 @@
 
     .line 38
     .line 39
-    invoke-static {p0, v2}, Landroidx/core/graphics/ColorUtils;
-    ->setAlphaComponent(II)I
+    invoke-static {p0, v2}, Landroidx/core/graphics/ColorUtils;->setAlphaComponent(II)I
 
     .line 40
     .line 41
@@ -3720,8 +3627,7 @@
     move-result v3
 
     .line 43
-    invoke-static {v3, p1}, Landroidx/core/graphics/ColorUtils;
-    ->calculateContrast(II)D
+    invoke-static {v3, p1}, Landroidx/core/graphics/ColorUtils;->calculateContrast(II)D
 
     .line 44
     .line 45
@@ -3772,14 +3678,12 @@
 
     .line 63
     .line 64
-    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 65
     .line 66
     .line 67
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->toHexString(I)Ljava/lang/String;
+    invoke-static {p1}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
 
     .line 68
     .line 69
@@ -3787,14 +3691,12 @@
     move-result-object p1
 
     .line 71
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 72
     .line 73
     .line 74
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 75
     .line 76
@@ -3802,8 +3704,7 @@
     move-result-object p1
 
     .line 78
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 79
     .line 80
@@ -3857,8 +3758,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0}, Ljava/lang/Math;
-    ->abs(F)F
+    invoke-static {v0}, Ljava/lang/Math;->abs(F)F
 
     .line 4
     .line 5
@@ -3929,8 +3829,7 @@
     .end param
 
     .line 1
-    invoke-static {p0}, Landroid/graphics/Color;
-    ->red(I)I
+    invoke-static {p0}, Landroid/graphics/Color;->red(I)I
 
     .line 2
     .line 3
@@ -3938,8 +3837,7 @@
     move-result v0
 
     .line 5
-    invoke-static {p0}, Landroid/graphics/Color;
-    ->green(I)I
+    invoke-static {p0}, Landroid/graphics/Color;->green(I)I
 
     .line 6
     .line 7
@@ -3947,8 +3845,7 @@
     move-result v1
 
     .line 9
-    invoke-static {p0}, Landroid/graphics/Color;
-    ->blue(I)I
+    invoke-static {p0}, Landroid/graphics/Color;->blue(I)I
 
     .line 10
     .line 11
@@ -3956,8 +3853,7 @@
     move-result p0
 
     .line 13
-    invoke-static {v0, v1, p0, p1}, Landroidx/core/graphics/ColorUtils;
-    ->RGBToHSL(III[F)V
+    invoke-static {v0, v1, p0, p1}, Landroidx/core/graphics/ColorUtils;->RGBToHSL(III[F)V
 
     .line 14
     .line 15
@@ -3977,8 +3873,7 @@
     .end param
 
     .line 1
-    invoke-static {p0}, Landroid/graphics/Color;
-    ->red(I)I
+    invoke-static {p0}, Landroid/graphics/Color;->red(I)I
 
     .line 2
     .line 3
@@ -3986,8 +3881,7 @@
     move-result v0
 
     .line 5
-    invoke-static {p0}, Landroid/graphics/Color;
-    ->green(I)I
+    invoke-static {p0}, Landroid/graphics/Color;->green(I)I
 
     .line 6
     .line 7
@@ -3995,8 +3889,7 @@
     move-result v1
 
     .line 9
-    invoke-static {p0}, Landroid/graphics/Color;
-    ->blue(I)I
+    invoke-static {p0}, Landroid/graphics/Color;->blue(I)I
 
     .line 10
     .line 11
@@ -4004,8 +3897,7 @@
     move-result p0
 
     .line 13
-    invoke-static {v0, v1, p0, p1}, Landroidx/core/graphics/ColorUtils;
-    ->RGBToLAB(III[D)V
+    invoke-static {v0, v1, p0, p1}, Landroidx/core/graphics/ColorUtils;->RGBToLAB(III[D)V
 
     .line 14
     .line 15
@@ -4029,8 +3921,7 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/content/res/CamColor;
-    ->getM3HCTfromColor(I[F)V
+    invoke-static {p0, p1}, Landroidx/core/content/res/CamColor;->getM3HCTfromColor(I[F)V
 
     .line 2
     .line 3
@@ -4050,8 +3941,7 @@
     .end param
 
     .line 1
-    invoke-static {p0}, Landroid/graphics/Color;
-    ->red(I)I
+    invoke-static {p0}, Landroid/graphics/Color;->red(I)I
 
     .line 2
     .line 3
@@ -4059,8 +3949,7 @@
     move-result v0
 
     .line 5
-    invoke-static {p0}, Landroid/graphics/Color;
-    ->green(I)I
+    invoke-static {p0}, Landroid/graphics/Color;->green(I)I
 
     .line 6
     .line 7
@@ -4068,8 +3957,7 @@
     move-result v1
 
     .line 9
-    invoke-static {p0}, Landroid/graphics/Color;
-    ->blue(I)I
+    invoke-static {p0}, Landroid/graphics/Color;->blue(I)I
 
     .line 10
     .line 11
@@ -4077,8 +3965,7 @@
     move-result p0
 
     .line 13
-    invoke-static {v0, v1, p0, p1}, Landroidx/core/graphics/ColorUtils;
-    ->RGBToXYZ(III[D)V
+    invoke-static {v0, v1, p0, p1}, Landroidx/core/graphics/ColorUtils;->RGBToXYZ(III[D)V
 
     .line 14
     .line 15
@@ -4125,80 +4012,67 @@
     .end param
 
     .line 1
-    invoke-static {p1}, Landroid/graphics/Color;
-    ->alpha(I)I
+    invoke-static {p1}, Landroid/graphics/Color;->alpha(I)I
 
     move-result v0
 
     .line 2
-    invoke-static {p0}, Landroid/graphics/Color;
-    ->alpha(I)I
+    invoke-static {p0}, Landroid/graphics/Color;->alpha(I)I
 
     move-result v1
 
     .line 3
-    invoke-static {v1, v0}, Landroidx/core/graphics/ColorUtils;
-    ->compositeAlpha(II)I
+    invoke-static {v1, v0}, Landroidx/core/graphics/ColorUtils;->compositeAlpha(II)I
 
     move-result v2
 
     .line 4
-    invoke-static {p0}, Landroid/graphics/Color;
-    ->red(I)I
+    invoke-static {p0}, Landroid/graphics/Color;->red(I)I
 
     move-result v3
 
     .line 5
-    invoke-static {p1}, Landroid/graphics/Color;
-    ->red(I)I
+    invoke-static {p1}, Landroid/graphics/Color;->red(I)I
 
     move-result v4
 
     .line 6
-    invoke-static {v3, v1, v4, v0, v2}, Landroidx/core/graphics/ColorUtils;
-    ->compositeComponent(IIIII)I
+    invoke-static {v3, v1, v4, v0, v2}, Landroidx/core/graphics/ColorUtils;->compositeComponent(IIIII)I
 
     move-result v3
 
     .line 7
-    invoke-static {p0}, Landroid/graphics/Color;
-    ->green(I)I
+    invoke-static {p0}, Landroid/graphics/Color;->green(I)I
 
     move-result v4
 
     .line 8
-    invoke-static {p1}, Landroid/graphics/Color;
-    ->green(I)I
+    invoke-static {p1}, Landroid/graphics/Color;->green(I)I
 
     move-result v5
 
     .line 9
-    invoke-static {v4, v1, v5, v0, v2}, Landroidx/core/graphics/ColorUtils;
-    ->compositeComponent(IIIII)I
+    invoke-static {v4, v1, v5, v0, v2}, Landroidx/core/graphics/ColorUtils;->compositeComponent(IIIII)I
 
     move-result v4
 
     .line 10
-    invoke-static {p0}, Landroid/graphics/Color;
-    ->blue(I)I
+    invoke-static {p0}, Landroid/graphics/Color;->blue(I)I
 
     move-result p0
 
     .line 11
-    invoke-static {p1}, Landroid/graphics/Color;
-    ->blue(I)I
+    invoke-static {p1}, Landroid/graphics/Color;->blue(I)I
 
     move-result p1
 
     .line 12
-    invoke-static {p0, v1, p1, v0, v2}, Landroidx/core/graphics/ColorUtils;
-    ->compositeComponent(IIIII)I
+    invoke-static {p0, v1, p1, v0, v2}, Landroidx/core/graphics/ColorUtils;->compositeComponent(IIIII)I
 
     move-result p0
 
     .line 13
-    invoke-static {v2, v3, v4, p0}, Landroid/graphics/Color;
-    ->argb(IIII)I
+    invoke-static {v2, v3, v4, p0}, Landroid/graphics/Color;->argb(IIII)I
 
     move-result p0
 
@@ -4223,8 +4097,7 @@
     .end annotation
 
     .line 14
-    invoke-static {p0, p1}, Landroidx/core/graphics/ColorUtils$Api26Impl;
-    ->compositeColors(Landroid/graphics/Color;Landroid/graphics/Color;)Landroid/graphics/Color;
+    invoke-static {p0, p1}, Landroidx/core/graphics/ColorUtils$Api26Impl;->compositeColors(Landroid/graphics/Color;Landroid/graphics/Color;)Landroid/graphics/Color;
 
     move-result-object p0
 
@@ -4288,8 +4161,7 @@
 
     .line 1
     :cond_0
-    invoke-static {p0, p2}, Ljava/lang/Math;
-    ->min(FF)F
+    invoke-static {p0, p2}, Ljava/lang/Math;->min(FF)F
 
     move-result p0
 
@@ -4305,8 +4177,7 @@
 
     .line 2
     :cond_0
-    invoke-static {p0, p2}, Ljava/lang/Math;
-    ->min(II)I
+    invoke-static {p0, p2}, Ljava/lang/Math;->min(II)I
 
     move-result p0
 
@@ -4343,8 +4214,7 @@
 
     .line 8
     .line 9
-    invoke-static {v1, v2, v3, v4}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v1, v2, v3, v4}, Ljava/lang/Math;->pow(DD)D
 
     .line 10
     .line 11
@@ -4366,8 +4236,7 @@
     sub-double/2addr v5, v7
 
     .line 19
-    invoke-static {v5, v6, v3, v4}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v5, v6, v3, v4}, Ljava/lang/Math;->pow(DD)D
 
     .line 20
     .line 21
@@ -4392,8 +4261,7 @@
     sub-double/2addr v1, p0
 
     .line 30
-    invoke-static {v1, v2, v3, v4}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v1, v2, v3, v4}, Ljava/lang/Math;->pow(DD)D
 
     .line 31
     .line 32
@@ -4404,8 +4272,7 @@
     add-double/2addr p0, v5
 
     .line 35
-    invoke-static {p0, p1}, Ljava/lang/Math;
-    ->sqrt(D)D
+    invoke-static {p0, p1}, Ljava/lang/Math;->sqrt(D)D
 
     .line 36
     .line 37
@@ -4419,13 +4286,11 @@
     .locals 2
 
     .line 1
-    sget-object v0, Landroidx/core/graphics/ColorUtils;
-    ->TEMP_ARRAY:Ljava/lang/ThreadLocal;
+    sget-object v0, Landroidx/core/graphics/ColorUtils;->TEMP_ARRAY:Ljava/lang/ThreadLocal;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/ThreadLocal;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -4448,8 +4313,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {v0, v1}, Ljava/lang/ThreadLocal;
-    ->set(Ljava/lang/Object;)V
+    invoke-virtual {v0, v1}, Ljava/lang/ThreadLocal;->set(Ljava/lang/Object;)V
 
     .line 15
     .line 16
@@ -4484,8 +4348,7 @@
     .line 13
     .line 14
     .line 15
-    invoke-static {p0, p1, v0, v1}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {p0, p1, v0, v1}, Ljava/lang/Math;->pow(DD)D
 
     .line 16
     .line 17
@@ -4577,8 +4440,7 @@
 
     .line 18
     .line 19
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 20
     .line 21

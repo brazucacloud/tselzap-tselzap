@@ -16,14 +16,12 @@
     .end param
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/documentfile/provider/DocumentFile;
-    -><init>(Landroidx/documentfile/provider/DocumentFile;)V
+    invoke-direct {p0, p1}, Landroidx/documentfile/provider/DocumentFile;-><init>(Landroidx/documentfile/provider/DocumentFile;)V
 
     .line 2
     .line 3
     .line 4
-    iput-object p2, p0, Landroidx/documentfile/provider/RawDocumentFile;
-    ->mFile:Ljava/io/File;    
+    iput-object p2, p0, Landroidx/documentfile/provider/RawDocumentFile;->mFile:Ljava/io/File;
     return-void
 .end method
 
@@ -31,8 +29,7 @@
     .locals 6
 
     .line 1
-    invoke-virtual {p0}, Ljava/io/File;
-    ->listFiles()[Ljava/io/File;
+    invoke-virtual {p0}, Ljava/io/File;->listFiles()[Ljava/io/File;
 
     .line 2
     .line 3
@@ -65,8 +62,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {v4}, Ljava/io/File;
-    ->isDirectory()Z
+    invoke-virtual {v4}, Ljava/io/File;->isDirectory()Z
 
     .line 16
     .line 17
@@ -78,8 +74,7 @@
 
     .line 20
     .line 21
-    invoke-static {v4}, Landroidx/documentfile/provider/RawDocumentFile;
-    ->deleteContents(Ljava/io/File;)Z
+    invoke-static {v4}, Landroidx/documentfile/provider/RawDocumentFile;->deleteContents(Ljava/io/File;)Z
 
     .line 22
     .line 23
@@ -91,8 +86,7 @@
 
     .line 26
     :cond_0
-    invoke-virtual {v4}, Ljava/io/File;
-    ->delete()Z
+    invoke-virtual {v4}, Ljava/io/File;->delete()Z
 
     .line 27
     .line 28
@@ -112,20 +106,17 @@
 
     .line 35
     .line 36
-    invoke-direct {v0, v5}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 37
     .line 38
     .line 39
-    invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 40
     .line 41
     .line 42
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 43
     .line 44
@@ -137,8 +128,7 @@
 
     .line 47
     .line 48
-    invoke-static {v4, v0}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v4, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 49
     .line 50
@@ -166,8 +156,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Ljava/lang/String;
-    ->lastIndexOf(I)I
+    invoke-virtual {p0, v0}, Ljava/lang/String;->lastIndexOf(I)I
 
     .line 4
     .line 5
@@ -183,8 +172,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p0, v0}, Ljava/lang/String;
-    ->substring(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     .line 12
     .line 13
@@ -192,8 +180,7 @@
     move-result-object p0
 
     .line 15
-    invoke-virtual {p0}, Ljava/lang/String;
-    ->toLowerCase()Ljava/lang/String;
+    invoke-virtual {p0}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     .line 16
     .line 17
@@ -201,8 +188,7 @@
     move-result-object p0
 
     .line 19
-    invoke-static {}, Landroid/webkit/MimeTypeMap;
-    ->getSingleton()Landroid/webkit/MimeTypeMap;
+    invoke-static {}, Landroid/webkit/MimeTypeMap;->getSingleton()Landroid/webkit/MimeTypeMap;
 
     .line 20
     .line 21
@@ -210,8 +196,7 @@
     move-result-object v0
 
     .line 23
-    invoke-virtual {v0, p0}, Landroid/webkit/MimeTypeMap;
-    ->getMimeTypeFromExtension(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, p0}, Landroid/webkit/MimeTypeMap;->getMimeTypeFromExtension(Ljava/lang/String;)Ljava/lang/String;
 
     .line 24
     .line 25
@@ -232,13 +217,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;
-    ->mFile:Ljava/io/File;
+    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;->mFile:Ljava/io/File;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/io/File;
-    ->canRead()Z
+    invoke-virtual {v0}, Ljava/io/File;->canRead()Z
 
     .line 4
     .line 5
@@ -252,13 +235,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;
-    ->mFile:Ljava/io/File;
+    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;->mFile:Ljava/io/File;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/io/File;
-    ->canWrite()Z
+    invoke-virtual {v0}, Ljava/io/File;->canWrite()Z
 
     .line 4
     .line 5
@@ -278,19 +259,16 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/documentfile/provider/RawDocumentFile;
-    ->mFile:Ljava/io/File;
+    iget-object v1, p0, Landroidx/documentfile/provider/RawDocumentFile;->mFile:Ljava/io/File;
 
     .line 4
     .line 5
-    invoke-direct {v0, v1, p1}, Ljava/io/File;
-    -><init>(Ljava/io/File;Ljava/lang/String;)V
+    invoke-direct {v0, v1, p1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {v0}, Ljava/io/File;
-    ->isDirectory()Z
+    invoke-virtual {v0}, Ljava/io/File;->isDirectory()Z
 
     .line 9
     .line 10
@@ -302,8 +280,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {v0}, Ljava/io/File;
-    ->mkdir()Z
+    invoke-virtual {v0}, Ljava/io/File;->mkdir()Z
 
     .line 15
     .line 16
@@ -330,8 +307,7 @@
 
     .line 24
     .line 25
-    invoke-direct {p1, p0, v0}, Landroidx/documentfile/provider/RawDocumentFile;
-    -><init>(Landroidx/documentfile/provider/DocumentFile;Ljava/io/File;)V
+    invoke-direct {p1, p0, v0}, Landroidx/documentfile/provider/RawDocumentFile;-><init>(Landroidx/documentfile/provider/DocumentFile;Ljava/io/File;)V
     return-object p1
 .end method
 
@@ -341,8 +317,7 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Landroid/webkit/MimeTypeMap;
-    ->getSingleton()Landroid/webkit/MimeTypeMap;
+    invoke-static {}, Landroid/webkit/MimeTypeMap;->getSingleton()Landroid/webkit/MimeTypeMap;
 
     .line 2
     .line 3
@@ -350,8 +325,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p1}, Landroid/webkit/MimeTypeMap;
-    ->getExtensionFromMimeType(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, p1}, Landroid/webkit/MimeTypeMap;->getExtensionFromMimeType(Ljava/lang/String;)Ljava/lang/String;
 
     .line 6
     .line 7
@@ -367,8 +341,7 @@
 
     .line 12
     .line 13
-    invoke-static {p2, v0, p1}, LA/d;
-    ->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2, v0, p1}, LA/d;->g(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 14
     .line 15
@@ -381,20 +354,17 @@
 
     .line 18
     .line 19
-    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;
-    ->mFile:Ljava/io/File;
+    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;->mFile:Ljava/io/File;
 
     .line 20
     .line 21
-    invoke-direct {p1, v0, p2}, Ljava/io/File;
-    -><init>(Ljava/io/File;Ljava/lang/String;)V
+    invoke-direct {p1, v0, p2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
     .line 22
     .line 23
     .line 24
     :try_start_0
-    invoke-virtual {p1}, Ljava/io/File;
-    ->createNewFile()Z
+    invoke-virtual {p1}, Ljava/io/File;->createNewFile()Z
 
     .line 25
     .line 26
@@ -403,8 +373,7 @@
 
     .line 28
     .line 29
-    invoke-direct {p2, p0, p1}, Landroidx/documentfile/provider/RawDocumentFile;
-    -><init>(Landroidx/documentfile/provider/DocumentFile;Ljava/io/File;)V
+    invoke-direct {p2, p0, p1}, Landroidx/documentfile/provider/RawDocumentFile;-><init>(Landroidx/documentfile/provider/DocumentFile;Ljava/io/File;)V
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0    return-object p2
 
@@ -421,20 +390,17 @@
 
     .line 37
     .line 38
-    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 39
     .line 40
     .line 41
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 42
     .line 43
     .line 44
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 45
     .line 46
@@ -446,8 +412,7 @@
 
     .line 49
     .line 50
-    invoke-static {p2, p1}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p2, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 51
     .line 52
@@ -461,24 +426,20 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;
-    ->mFile:Ljava/io/File;
+    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;->mFile:Ljava/io/File;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/documentfile/provider/RawDocumentFile;
-    ->deleteContents(Ljava/io/File;)Z
+    invoke-static {v0}, Landroidx/documentfile/provider/RawDocumentFile;->deleteContents(Ljava/io/File;)Z
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;
-    ->mFile:Ljava/io/File;
+    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;->mFile:Ljava/io/File;
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Ljava/io/File;
-    ->delete()Z
+    invoke-virtual {v0}, Ljava/io/File;->delete()Z
 
     .line 9
     .line 10
@@ -492,13 +453,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;
-    ->mFile:Ljava/io/File;
+    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;->mFile:Ljava/io/File;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/io/File;
-    ->exists()Z
+    invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
     .line 4
     .line 5
@@ -512,13 +471,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;
-    ->mFile:Ljava/io/File;
+    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;->mFile:Ljava/io/File;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/io/File;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/io/File;->getName()Ljava/lang/String;
 
     .line 4
     .line 5
@@ -534,13 +491,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;
-    ->mFile:Ljava/io/File;
+    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;->mFile:Ljava/io/File;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/io/File;
-    ->isDirectory()Z
+    invoke-virtual {v0}, Ljava/io/File;->isDirectory()Z
 
     .line 4
     .line 5
@@ -558,13 +513,11 @@
 
     .line 11
     :cond_0
-    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;
-    ->mFile:Ljava/io/File;
+    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;->mFile:Ljava/io/File;
 
     .line 12
     .line 13
-    invoke-virtual {v0}, Ljava/io/File;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/io/File;->getName()Ljava/lang/String;
 
     .line 14
     .line 15
@@ -572,8 +525,7 @@
     move-result-object v0
 
     .line 17
-    invoke-static {v0}, Landroidx/documentfile/provider/RawDocumentFile;
-    ->getTypeForName(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0}, Landroidx/documentfile/provider/RawDocumentFile;->getTypeForName(Ljava/lang/String;)Ljava/lang/String;
 
     .line 18
     .line 19
@@ -587,13 +539,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;
-    ->mFile:Ljava/io/File;
+    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;->mFile:Ljava/io/File;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroid/net/Uri;
-    ->fromFile(Ljava/io/File;)Landroid/net/Uri;
+    invoke-static {v0}, Landroid/net/Uri;->fromFile(Ljava/io/File;)Landroid/net/Uri;
 
     .line 4
     .line 5
@@ -607,13 +557,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;
-    ->mFile:Ljava/io/File;
+    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;->mFile:Ljava/io/File;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/io/File;
-    ->isDirectory()Z
+    invoke-virtual {v0}, Ljava/io/File;->isDirectory()Z
 
     .line 4
     .line 5
@@ -627,13 +575,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;
-    ->mFile:Ljava/io/File;
+    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;->mFile:Ljava/io/File;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/io/File;
-    ->isFile()Z
+    invoke-virtual {v0}, Ljava/io/File;->isFile()Z
 
     .line 4
     .line 5
@@ -655,13 +601,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;
-    ->mFile:Ljava/io/File;
+    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;->mFile:Ljava/io/File;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/io/File;
-    ->lastModified()J
+    invoke-virtual {v0}, Ljava/io/File;->lastModified()J
 
     .line 4
     .line 5
@@ -675,13 +619,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;
-    ->mFile:Ljava/io/File;
+    iget-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;->mFile:Ljava/io/File;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/io/File;
-    ->length()J
+    invoke-virtual {v0}, Ljava/io/File;->length()J
 
     .line 4
     .line 5
@@ -699,19 +641,16 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    iget-object v1, p0, Landroidx/documentfile/provider/RawDocumentFile;
-    ->mFile:Ljava/io/File;
+    iget-object v1, p0, Landroidx/documentfile/provider/RawDocumentFile;->mFile:Ljava/io/File;
 
     .line 7
     .line 8
-    invoke-virtual {v1}, Ljava/io/File;
-    ->listFiles()[Ljava/io/File;
+    invoke-virtual {v1}, Ljava/io/File;->listFiles()[Ljava/io/File;
 
     .line 9
     .line 10
@@ -742,14 +681,12 @@
 
     .line 21
     .line 22
-    invoke-direct {v5, p0, v4}, Landroidx/documentfile/provider/RawDocumentFile;
-    -><init>(Landroidx/documentfile/provider/DocumentFile;Ljava/io/File;)V
+    invoke-direct {v5, p0, v4}, Landroidx/documentfile/provider/RawDocumentFile;-><init>(Landroidx/documentfile/provider/DocumentFile;Ljava/io/File;)V
 
     .line 23
     .line 24
     .line 25
-    invoke-virtual {v0, v5}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v5}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 26
     .line 27
@@ -762,8 +699,7 @@
 
     .line 31
     :cond_0
-    invoke-virtual {v0}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     .line 32
     .line 33
@@ -775,8 +711,7 @@
 
     .line 36
     .line 37
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;
-    ->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     .line 38
     .line 39
@@ -795,13 +730,11 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/documentfile/provider/RawDocumentFile;
-    ->mFile:Ljava/io/File;
+    iget-object v1, p0, Landroidx/documentfile/provider/RawDocumentFile;->mFile:Ljava/io/File;
 
     .line 4
     .line 5
-    invoke-virtual {v1}, Ljava/io/File;
-    ->getParentFile()Ljava/io/File;
+    invoke-virtual {v1}, Ljava/io/File;->getParentFile()Ljava/io/File;
 
     .line 6
     .line 7
@@ -809,19 +742,16 @@
     move-result-object v1
 
     .line 9
-    invoke-direct {v0, v1, p1}, Ljava/io/File;
-    -><init>(Ljava/io/File;Ljava/lang/String;)V
+    invoke-direct {v0, v1, p1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
     .line 10
     .line 11
     .line 12
-    iget-object p1, p0, Landroidx/documentfile/provider/RawDocumentFile;
-    ->mFile:Ljava/io/File;
+    iget-object p1, p0, Landroidx/documentfile/provider/RawDocumentFile;->mFile:Ljava/io/File;
 
     .line 13
     .line 14
-    invoke-virtual {p1, v0}, Ljava/io/File;
-    ->renameTo(Ljava/io/File;)Z
+    invoke-virtual {p1, v0}, Ljava/io/File;->renameTo(Ljava/io/File;)Z
 
     .line 15
     .line 16
@@ -833,8 +763,7 @@
 
     .line 19
     .line 20
-    iput-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;
-    ->mFile:Ljava/io/File;
+    iput-object v0, p0, Landroidx/documentfile/provider/RawDocumentFile;->mFile:Ljava/io/File;
 
     .line 21
     .line 22

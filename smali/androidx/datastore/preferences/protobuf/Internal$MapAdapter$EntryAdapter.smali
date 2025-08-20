@@ -50,19 +50,16 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter;
-    ->this$0:Landroidx/datastore/preferences/protobuf/Internal$MapAdapter;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter;->this$0:Landroidx/datastore/preferences/protobuf/Internal$MapAdapter;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter;
-    ->realEntry:Ljava/util/Map$Entry;    
+    iput-object p2, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter;->realEntry:Ljava/util/Map$Entry;
     return-void
 .end method
 
@@ -94,8 +91,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter;
-    ->getKey()Ljava/lang/Object;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter;->getKey()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -103,8 +99,7 @@
     move-result-object v1
 
     .line 17
-    invoke-interface {p1}, Ljava/util/Map$Entry;
-    ->getKey()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -112,8 +107,7 @@
     move-result-object p1
 
     .line 21
-    invoke-virtual {v1, p1}, Ljava/lang/Object;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     .line 22
     .line 23
@@ -125,8 +119,7 @@
 
     .line 26
     .line 27
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter;
-    ->getValue()Ljava/lang/Object;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter;->getValue()Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -134,8 +127,7 @@
     move-result-object p1
 
     .line 31
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter;
-    ->getValue()Ljava/lang/Object;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter;->getValue()Ljava/lang/Object;
 
     .line 32
     .line 33
@@ -143,8 +135,7 @@
     move-result-object v1
 
     .line 35
-    invoke-virtual {p1, v1}, Ljava/lang/Object;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     .line 36
     .line 37
@@ -168,13 +159,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter;
-    ->realEntry:Ljava/util/Map$Entry;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter;->realEntry:Ljava/util/Map$Entry;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/Map$Entry;
-    ->getKey()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -193,13 +182,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter;
-    ->this$0:Landroidx/datastore/preferences/protobuf/Internal$MapAdapter;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter;->this$0:Landroidx/datastore/preferences/protobuf/Internal$MapAdapter;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter;
-    ->access$000(Landroidx/datastore/preferences/protobuf/Internal$MapAdapter;)Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$Converter;
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter;->access$000(Landroidx/datastore/preferences/protobuf/Internal$MapAdapter;)Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$Converter;
 
     .line 4
     .line 5
@@ -207,13 +194,11 @@
     move-result-object v0
 
     .line 7
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter;
-    ->realEntry:Ljava/util/Map$Entry;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter;->realEntry:Ljava/util/Map$Entry;
 
     .line 8
     .line 9
-    invoke-interface {v1}, Ljava/util/Map$Entry;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -221,8 +206,7 @@
     move-result-object v1
 
     .line 13
-    invoke-interface {v0, v1}, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$Converter;
-    ->doForward(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$Converter;->doForward(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -236,13 +220,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter;
-    ->realEntry:Ljava/util/Map$Entry;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter;->realEntry:Ljava/util/Map$Entry;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/Map$Entry;
-    ->hashCode()I
+    invoke-interface {v0}, Ljava/util/Map$Entry;->hashCode()I
 
     .line 4
     .line 5
@@ -261,18 +243,15 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter;
-    ->realEntry:Ljava/util/Map$Entry;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter;->realEntry:Ljava/util/Map$Entry;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter;
-    ->this$0:Landroidx/datastore/preferences/protobuf/Internal$MapAdapter;
+    iget-object v1, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter;->this$0:Landroidx/datastore/preferences/protobuf/Internal$MapAdapter;
 
     .line 4
     .line 5
-    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter;
-    ->access$000(Landroidx/datastore/preferences/protobuf/Internal$MapAdapter;)Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$Converter;
+    invoke-static {v1}, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter;->access$000(Landroidx/datastore/preferences/protobuf/Internal$MapAdapter;)Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$Converter;
 
     .line 6
     .line 7
@@ -280,8 +259,7 @@
     move-result-object v1
 
     .line 9
-    invoke-interface {v1, p1}, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$Converter;
-    ->doBackward(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, p1}, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$Converter;->doBackward(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -289,8 +267,7 @@
     move-result-object p1
 
     .line 13
-    invoke-interface {v0, p1}, Ljava/util/Map$Entry;
-    ->setValue(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/Map$Entry;->setValue(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -308,13 +285,11 @@
 
     .line 21
     :cond_0
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter;
-    ->this$0:Landroidx/datastore/preferences/protobuf/Internal$MapAdapter;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$EntryAdapter;->this$0:Landroidx/datastore/preferences/protobuf/Internal$MapAdapter;
 
     .line 22
     .line 23
-    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter;
-    ->access$000(Landroidx/datastore/preferences/protobuf/Internal$MapAdapter;)Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$Converter;
+    invoke-static {v0}, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter;->access$000(Landroidx/datastore/preferences/protobuf/Internal$MapAdapter;)Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$Converter;
 
     .line 24
     .line 25
@@ -322,8 +297,7 @@
     move-result-object v0
 
     .line 27
-    invoke-interface {v0, p1}, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$Converter;
-    ->doForward(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Landroidx/datastore/preferences/protobuf/Internal$MapAdapter$Converter;->doForward(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 28
     .line 29

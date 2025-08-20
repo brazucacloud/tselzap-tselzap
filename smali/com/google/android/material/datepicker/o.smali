@@ -17,19 +17,16 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/google/android/material/datepicker/o;
-    ->c:Lcom/google/android/material/datepicker/p;
+    iput-object p1, p0, Lcom/google/android/material/datepicker/o;->c:Lcom/google/android/material/datepicker/p;
 
     .line 5
     .line 6
-    iput-object p2, p0, Lcom/google/android/material/datepicker/o;
-    ->b:Lcom/google/android/material/datepicker/x;
+    iput-object p2, p0, Lcom/google/android/material/datepicker/o;->b:Lcom/google/android/material/datepicker/x;
 
     .line 7
     .line 8
@@ -42,18 +39,15 @@
     .locals 3
 
     .line 1
-    iget-object p1, p0, Lcom/google/android/material/datepicker/o;
-    ->c:Lcom/google/android/material/datepicker/p;
+    iget-object p1, p0, Lcom/google/android/material/datepicker/o;->c:Lcom/google/android/material/datepicker/p;
 
     .line 2
     .line 3
-    iget-object v0, p1, Lcom/google/android/material/datepicker/p;
-    ->i:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, p1, Lcom/google/android/material/datepicker/p;->i:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;
-    ->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     .line 6
     .line 7
@@ -65,8 +59,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/LinearLayoutManager;
-    ->findFirstVisibleItemPosition()I
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/LinearLayoutManager;->findFirstVisibleItemPosition()I
 
     .line 12
     .line 13
@@ -78,13 +71,11 @@
 
     .line 16
     .line 17
-    iget-object v1, p1, Lcom/google/android/material/datepicker/p;
-    ->i:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v1, p1, Lcom/google/android/material/datepicker/p;->i:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 18
     .line 19
-    invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView;
-    ->getAdapter()Landroidx/recyclerview/widget/RecyclerView$Adapter;
+    invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView;->getAdapter()Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     .line 20
     .line 21
@@ -92,8 +83,7 @@
     move-result-object v1
 
     .line 23
-    invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->getItemCount()I
+    invoke-virtual {v1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->getItemCount()I
 
     .line 24
     .line 25
@@ -105,28 +95,23 @@
 
     .line 28
     .line 29
-    iget-object v1, p0, Lcom/google/android/material/datepicker/o;
-    ->b:Lcom/google/android/material/datepicker/x;
+    iget-object v1, p0, Lcom/google/android/material/datepicker/o;->b:Lcom/google/android/material/datepicker/x;
 
     .line 30
     .line 31
-    iget-object v1, v1, Lcom/google/android/material/datepicker/x;
-    ->a:Lcom/google/android/material/datepicker/c;
+    iget-object v1, v1, Lcom/google/android/material/datepicker/x;->a:Lcom/google/android/material/datepicker/c;
 
     .line 32
     .line 33
-    iget-object v1, v1, Lcom/google/android/material/datepicker/c;
-    ->b:Lcom/google/android/material/datepicker/t;
+    iget-object v1, v1, Lcom/google/android/material/datepicker/c;->b:Lcom/google/android/material/datepicker/t;
 
     .line 34
     .line 35
-    iget-object v1, v1, Lcom/google/android/material/datepicker/t;
-    ->b:Ljava/util/Calendar;
+    iget-object v1, v1, Lcom/google/android/material/datepicker/t;->b:Ljava/util/Calendar;
 
     .line 36
     .line 37
-    invoke-static {v1}, Lcom/google/android/material/datepicker/C;
-    ->a(Ljava/util/Calendar;)Ljava/util/Calendar;
+    invoke-static {v1}, Lcom/google/android/material/datepicker/C;->a(Ljava/util/Calendar;)Ljava/util/Calendar;
 
     .line 38
     .line 39
@@ -137,8 +122,7 @@
     const/4 v2, 0x2
 
     .line 42
-    invoke-virtual {v1, v2, v0}, Ljava/util/Calendar;
-    ->add(II)V
+    invoke-virtual {v1, v2, v0}, Ljava/util/Calendar;->add(II)V
 
     .line 43
     .line 44
@@ -147,14 +131,12 @@
 
     .line 46
     .line 47
-    invoke-direct {v0, v1}, Lcom/google/android/material/datepicker/t;
-    -><init>(Ljava/util/Calendar;)V
+    invoke-direct {v0, v1}, Lcom/google/android/material/datepicker/t;-><init>(Ljava/util/Calendar;)V
 
     .line 48
     .line 49
     .line 50
-    invoke-virtual {p1, v0}, Lcom/google/android/material/datepicker/p;
-    ->b(Lcom/google/android/material/datepicker/t;)V
+    invoke-virtual {p1, v0}, Lcom/google/android/material/datepicker/p;->b(Lcom/google/android/material/datepicker/t;)V
 
     .line 51
     .line 52

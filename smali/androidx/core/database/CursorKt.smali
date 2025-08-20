@@ -8,8 +8,7 @@
     .locals 1
 
     .line 1
-    invoke-interface {p0, p1}, Landroid/database/Cursor;
-    ->isNull(I)Z
+    invoke-interface {p0, p1}, Landroid/database/Cursor;->isNull(I)Z
 
     .line 2
     .line 3
@@ -27,8 +26,7 @@
 
     .line 9
     :cond_0
-    invoke-interface {p0, p1}, Landroid/database/Cursor;
-    ->getBlob(I)[B
+    invoke-interface {p0, p1}, Landroid/database/Cursor;->getBlob(I)[B
 
     .line 10
     .line 11
@@ -42,8 +40,7 @@
     .locals 1
 
     .line 1
-    invoke-interface {p0, p1}, Landroid/database/Cursor;
-    ->isNull(I)Z
+    invoke-interface {p0, p1}, Landroid/database/Cursor;->isNull(I)Z
 
     .line 2
     .line 3
@@ -61,8 +58,7 @@
 
     .line 9
     :cond_0
-    invoke-interface {p0, p1}, Landroid/database/Cursor;
-    ->getDouble(I)D
+    invoke-interface {p0, p1}, Landroid/database/Cursor;->getDouble(I)D
 
     .line 10
     .line 11
@@ -70,8 +66,7 @@
     move-result-wide p0
 
     .line 13
-    invoke-static {p0, p1}, Ljava/lang/Double;
-    ->valueOf(D)Ljava/lang/Double;
+    invoke-static {p0, p1}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
 
     .line 14
     .line 15
@@ -85,8 +80,7 @@
     .locals 1
 
     .line 1
-    invoke-interface {p0, p1}, Landroid/database/Cursor;
-    ->isNull(I)Z
+    invoke-interface {p0, p1}, Landroid/database/Cursor;->isNull(I)Z
 
     .line 2
     .line 3
@@ -104,8 +98,7 @@
 
     .line 9
     :cond_0
-    invoke-interface {p0, p1}, Landroid/database/Cursor;
-    ->getFloat(I)F
+    invoke-interface {p0, p1}, Landroid/database/Cursor;->getFloat(I)F
 
     .line 10
     .line 11
@@ -113,8 +106,7 @@
     move-result p0
 
     .line 13
-    invoke-static {p0}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {p0}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     .line 14
     .line 15
@@ -128,8 +120,7 @@
     .locals 1
 
     .line 1
-    invoke-interface {p0, p1}, Landroid/database/Cursor;
-    ->isNull(I)Z
+    invoke-interface {p0, p1}, Landroid/database/Cursor;->isNull(I)Z
 
     .line 2
     .line 3
@@ -147,8 +138,7 @@
 
     .line 9
     :cond_0
-    invoke-interface {p0, p1}, Landroid/database/Cursor;
-    ->getInt(I)I
+    invoke-interface {p0, p1}, Landroid/database/Cursor;->getInt(I)I
 
     .line 10
     .line 11
@@ -156,8 +146,7 @@
     move-result p0
 
     .line 13
-    invoke-static {p0}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 14
     .line 15
@@ -171,8 +160,7 @@
     .locals 1
 
     .line 1
-    invoke-interface {p0, p1}, Landroid/database/Cursor;
-    ->isNull(I)Z
+    invoke-interface {p0, p1}, Landroid/database/Cursor;->isNull(I)Z
 
     .line 2
     .line 3
@@ -190,8 +178,7 @@
 
     .line 9
     :cond_0
-    invoke-interface {p0, p1}, Landroid/database/Cursor;
-    ->getLong(I)J
+    invoke-interface {p0, p1}, Landroid/database/Cursor;->getLong(I)J
 
     .line 10
     .line 11
@@ -199,8 +186,7 @@
     move-result-wide p0
 
     .line 13
-    invoke-static {p0, p1}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {p0, p1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 14
     .line 15
@@ -214,8 +200,7 @@
     .locals 1
 
     .line 1
-    invoke-interface {p0, p1}, Landroid/database/Cursor;
-    ->isNull(I)Z
+    invoke-interface {p0, p1}, Landroid/database/Cursor;->isNull(I)Z
 
     .line 2
     .line 3
@@ -233,8 +218,7 @@
 
     .line 9
     :cond_0
-    invoke-interface {p0, p1}, Landroid/database/Cursor;
-    ->getShort(I)S
+    invoke-interface {p0, p1}, Landroid/database/Cursor;->getShort(I)S
 
     .line 10
     .line 11
@@ -242,8 +226,7 @@
     move-result p0
 
     .line 13
-    invoke-static {p0}, Ljava/lang/Short;
-    ->valueOf(S)Ljava/lang/Short;
+    invoke-static {p0}, Ljava/lang/Short;->valueOf(S)Ljava/lang/Short;
 
     .line 14
     .line 15
@@ -257,8 +240,7 @@
     .locals 1
 
     .line 1
-    invoke-interface {p0, p1}, Landroid/database/Cursor;
-    ->isNull(I)Z
+    invoke-interface {p0, p1}, Landroid/database/Cursor;->isNull(I)Z
 
     .line 2
     .line 3
@@ -276,8 +258,7 @@
 
     .line 9
     :cond_0
-    invoke-interface {p0, p1}, Landroid/database/Cursor;
-    ->getString(I)Ljava/lang/String;
+    invoke-interface {p0, p1}, Landroid/database/Cursor;->getString(I)Ljava/lang/String;
 
     .line 10
     .line 11

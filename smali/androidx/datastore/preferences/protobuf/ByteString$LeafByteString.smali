@@ -19,8 +19,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/ByteString;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/ByteString;-><init>()V
     return-void
 .end method
 
@@ -49,8 +48,7 @@
     .locals 1
 
     .line 1
-    invoke-super {p0}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->iterator()Landroidx/datastore/preferences/protobuf/ByteString$ByteIterator;
+    invoke-super {p0}, Landroidx/datastore/preferences/protobuf/ByteString;->iterator()Landroidx/datastore/preferences/protobuf/ByteString$ByteIterator;
 
     .line 2
     .line 3
@@ -64,8 +62,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->writeTo(Landroidx/datastore/preferences/protobuf/ByteOutput;)V
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/ByteString;->writeTo(Landroidx/datastore/preferences/protobuf/ByteOutput;)V
 return-void
 .end method
 

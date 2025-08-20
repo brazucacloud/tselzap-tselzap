@@ -6,8 +6,7 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -29,19 +28,16 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/view/ActionMode;
-    -><init>()V
+    invoke-direct {p0}, Landroid/view/ActionMode;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/appcompat/view/SupportActionModeWrapper;
-    ->mContext:Landroid/content/Context;
+    iput-object p1, p0, Landroidx/appcompat/view/SupportActionModeWrapper;->mContext:Landroid/content/Context;
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/appcompat/view/SupportActionModeWrapper;
-    ->mWrappedObject:Landroidx/appcompat/view/ActionMode;    
+    iput-object p2, p0, Landroidx/appcompat/view/SupportActionModeWrapper;->mWrappedObject:Landroidx/appcompat/view/ActionMode;
     return-void
 .end method
 
@@ -51,13 +47,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;
-    ->mWrappedObject:Landroidx/appcompat/view/ActionMode;
+    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;->mWrappedObject:Landroidx/appcompat/view/ActionMode;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/view/ActionMode;
-    ->finish()V
+    invoke-virtual {v0}, Landroidx/appcompat/view/ActionMode;->finish()V
     return-void
 .end method
 
@@ -65,13 +59,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;
-    ->mWrappedObject:Landroidx/appcompat/view/ActionMode;
+    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;->mWrappedObject:Landroidx/appcompat/view/ActionMode;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/view/ActionMode;
-    ->getCustomView()Landroid/view/View;
+    invoke-virtual {v0}, Landroidx/appcompat/view/ActionMode;->getCustomView()Landroid/view/View;
 
     .line 4
     .line 5
@@ -89,18 +81,15 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/appcompat/view/SupportActionModeWrapper;
-    ->mContext:Landroid/content/Context;
+    iget-object v1, p0, Landroidx/appcompat/view/SupportActionModeWrapper;->mContext:Landroid/content/Context;
 
     .line 4
     .line 5
-    iget-object v2, p0, Landroidx/appcompat/view/SupportActionModeWrapper;
-    ->mWrappedObject:Landroidx/appcompat/view/ActionMode;
+    iget-object v2, p0, Landroidx/appcompat/view/SupportActionModeWrapper;->mWrappedObject:Landroidx/appcompat/view/ActionMode;
 
     .line 6
     .line 7
-    invoke-virtual {v2}, Landroidx/appcompat/view/ActionMode;
-    ->getMenu()Landroid/view/Menu;
+    invoke-virtual {v2}, Landroidx/appcompat/view/ActionMode;->getMenu()Landroid/view/Menu;
 
     .line 8
     .line 9
@@ -112,8 +101,7 @@
 
     .line 12
     .line 13
-    invoke-direct {v0, v1, v2}, Landroidx/appcompat/view/menu/MenuWrapperICS;
-    -><init>(Landroid/content/Context;Landroidx/core/internal/view/SupportMenu;)V
+    invoke-direct {v0, v1, v2}, Landroidx/appcompat/view/menu/MenuWrapperICS;-><init>(Landroid/content/Context;Landroidx/core/internal/view/SupportMenu;)V
     return-object v0
 .end method
 
@@ -121,13 +109,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;
-    ->mWrappedObject:Landroidx/appcompat/view/ActionMode;
+    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;->mWrappedObject:Landroidx/appcompat/view/ActionMode;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/view/ActionMode;
-    ->getMenuInflater()Landroid/view/MenuInflater;
+    invoke-virtual {v0}, Landroidx/appcompat/view/ActionMode;->getMenuInflater()Landroid/view/MenuInflater;
 
     .line 4
     .line 5
@@ -141,13 +127,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;
-    ->mWrappedObject:Landroidx/appcompat/view/ActionMode;
+    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;->mWrappedObject:Landroidx/appcompat/view/ActionMode;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/view/ActionMode;
-    ->getSubtitle()Ljava/lang/CharSequence;
+    invoke-virtual {v0}, Landroidx/appcompat/view/ActionMode;->getSubtitle()Ljava/lang/CharSequence;
 
     .line 4
     .line 5
@@ -161,13 +145,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;
-    ->mWrappedObject:Landroidx/appcompat/view/ActionMode;
+    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;->mWrappedObject:Landroidx/appcompat/view/ActionMode;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/view/ActionMode;
-    ->getTag()Ljava/lang/Object;
+    invoke-virtual {v0}, Landroidx/appcompat/view/ActionMode;->getTag()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -181,13 +163,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;
-    ->mWrappedObject:Landroidx/appcompat/view/ActionMode;
+    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;->mWrappedObject:Landroidx/appcompat/view/ActionMode;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/view/ActionMode;
-    ->getTitle()Ljava/lang/CharSequence;
+    invoke-virtual {v0}, Landroidx/appcompat/view/ActionMode;->getTitle()Ljava/lang/CharSequence;
 
     .line 4
     .line 5
@@ -201,13 +181,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;
-    ->mWrappedObject:Landroidx/appcompat/view/ActionMode;
+    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;->mWrappedObject:Landroidx/appcompat/view/ActionMode;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/view/ActionMode;
-    ->getTitleOptionalHint()Z
+    invoke-virtual {v0}, Landroidx/appcompat/view/ActionMode;->getTitleOptionalHint()Z
 
     .line 4
     .line 5
@@ -221,13 +199,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;
-    ->mWrappedObject:Landroidx/appcompat/view/ActionMode;
+    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;->mWrappedObject:Landroidx/appcompat/view/ActionMode;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/view/ActionMode;
-    ->invalidate()V
+    invoke-virtual {v0}, Landroidx/appcompat/view/ActionMode;->invalidate()V
     return-void
 .end method
 
@@ -235,13 +211,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;
-    ->mWrappedObject:Landroidx/appcompat/view/ActionMode;
+    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;->mWrappedObject:Landroidx/appcompat/view/ActionMode;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/appcompat/view/ActionMode;
-    ->isTitleOptional()Z
+    invoke-virtual {v0}, Landroidx/appcompat/view/ActionMode;->isTitleOptional()Z
 
     .line 4
     .line 5
@@ -255,13 +229,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;
-    ->mWrappedObject:Landroidx/appcompat/view/ActionMode;
+    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;->mWrappedObject:Landroidx/appcompat/view/ActionMode;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/appcompat/view/ActionMode;
-    ->setCustomView(Landroid/view/View;)V    
+    invoke-virtual {v0, p1}, Landroidx/appcompat/view/ActionMode;->setCustomView(Landroid/view/View;)V
     return-void
 .end method
 
@@ -269,11 +241,9 @@
     .locals 1
 
     .line 2
-    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;
-    ->mWrappedObject:Landroidx/appcompat/view/ActionMode;
+    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;->mWrappedObject:Landroidx/appcompat/view/ActionMode;
 
-    invoke-virtual {v0, p1}, Landroidx/appcompat/view/ActionMode;
-    ->setSubtitle(I)V
+    invoke-virtual {v0, p1}, Landroidx/appcompat/view/ActionMode;->setSubtitle(I)V
 return-void
 .end method
 
@@ -281,11 +251,9 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;
-    ->mWrappedObject:Landroidx/appcompat/view/ActionMode;
+    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;->mWrappedObject:Landroidx/appcompat/view/ActionMode;
 
-    invoke-virtual {v0, p1}, Landroidx/appcompat/view/ActionMode;
-    ->setSubtitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, p1}, Landroidx/appcompat/view/ActionMode;->setSubtitle(Ljava/lang/CharSequence;)V
 return-void
 .end method
 
@@ -293,13 +261,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;
-    ->mWrappedObject:Landroidx/appcompat/view/ActionMode;
+    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;->mWrappedObject:Landroidx/appcompat/view/ActionMode;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/appcompat/view/ActionMode;
-    ->setTag(Ljava/lang/Object;)V
+    invoke-virtual {v0, p1}, Landroidx/appcompat/view/ActionMode;->setTag(Ljava/lang/Object;)V
 return-void
 .end method
 
@@ -307,11 +273,9 @@ return-void
     .locals 1
 
     .line 2
-    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;
-    ->mWrappedObject:Landroidx/appcompat/view/ActionMode;
+    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;->mWrappedObject:Landroidx/appcompat/view/ActionMode;
 
-    invoke-virtual {v0, p1}, Landroidx/appcompat/view/ActionMode;
-    ->setTitle(I)V
+    invoke-virtual {v0, p1}, Landroidx/appcompat/view/ActionMode;->setTitle(I)V
 return-void
 .end method
 
@@ -319,11 +283,9 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;
-    ->mWrappedObject:Landroidx/appcompat/view/ActionMode;
+    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;->mWrappedObject:Landroidx/appcompat/view/ActionMode;
 
-    invoke-virtual {v0, p1}, Landroidx/appcompat/view/ActionMode;
-    ->setTitle(Ljava/lang/CharSequence;)V
+    invoke-virtual {v0, p1}, Landroidx/appcompat/view/ActionMode;->setTitle(Ljava/lang/CharSequence;)V
 return-void
 .end method
 
@@ -331,13 +293,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;
-    ->mWrappedObject:Landroidx/appcompat/view/ActionMode;
+    iget-object v0, p0, Landroidx/appcompat/view/SupportActionModeWrapper;->mWrappedObject:Landroidx/appcompat/view/ActionMode;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/appcompat/view/ActionMode;
-    ->setTitleOptionalHint(Z)V
+    invoke-virtual {v0, p1}, Landroidx/appcompat/view/ActionMode;->setTitleOptionalHint(Z)V
 return-void
 .end method
 

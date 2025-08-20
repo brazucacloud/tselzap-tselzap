@@ -21,14 +21,11 @@
         .end annotation
     .end param
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/zzab;
-    ->zza:Ljava/lang/String;
+    iput-object p1, p0, Lcom/google/android/gms/common/zzab;->zza:Ljava/lang/String;
 
-    iput-object p2, p0, Lcom/google/android/gms/common/zzab;
-    ->zzb:Lcom/google/android/gms/common/PackageVerificationResult;
+    iput-object p2, p0, Lcom/google/android/gms/common/zzab;->zzb:Lcom/google/android/gms/common/PackageVerificationResult;
 
     return-void
 .end method
@@ -36,8 +33,7 @@
 .method public static bridge synthetic zza(Lcom/google/android/gms/common/zzab;)Lcom/google/android/gms/common/PackageVerificationResult;
     .locals 0
 
-    iget-object p0, p0, Lcom/google/android/gms/common/zzab;
-    ->zzb:Lcom/google/android/gms/common/PackageVerificationResult;
+    iget-object p0, p0, Lcom/google/android/gms/common/zzab;->zzb:Lcom/google/android/gms/common/PackageVerificationResult;
 
     return-object p0
 .end method
@@ -45,8 +41,7 @@
 .method public static bridge synthetic zzb(Lcom/google/android/gms/common/zzab;)Ljava/lang/String;
     .locals 0
 
-    iget-object p0, p0, Lcom/google/android/gms/common/zzab;
-    ->zza:Ljava/lang/String;
+    iget-object p0, p0, Lcom/google/android/gms/common/zzab;->zza:Ljava/lang/String;
 
     return-object p0
 .end method

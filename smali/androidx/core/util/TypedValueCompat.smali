@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -40,8 +39,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -53,8 +51,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1, p2}, Landroidx/core/util/TypedValueCompat$Api34Impl;
-    ->deriveDimension(IFLandroid/util/DisplayMetrics;)F
+    invoke-static {p0, p1, p2}, Landroidx/core/util/TypedValueCompat$Api34Impl;->deriveDimension(IFLandroid/util/DisplayMetrics;)F
 
     .line 8
     .line 9
@@ -107,8 +104,7 @@
 
     .line 29
     .line 30
-    iget p0, p2, Landroid/util/DisplayMetrics;
-    ->xdpi:F
+    iget p0, p2, Landroid/util/DisplayMetrics;->xdpi:F
 
     .line 31
     .line 32
@@ -147,8 +143,7 @@
 
     .line 46
     .line 47
-    invoke-static {p0, p2}, LA/d;
-    ->c(ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p2}, LA/d;->c(ILjava/lang/String;)Ljava/lang/String;
 
     .line 48
     .line 49
@@ -156,8 +151,7 @@
     move-result-object p0
 
     .line 51
-    invoke-direct {p1, p0}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 52
     .line 53
@@ -166,8 +160,7 @@
 
     .line 55
     :cond_3
-    iget p0, p2, Landroid/util/DisplayMetrics;
-    ->xdpi:F
+    iget p0, p2, Landroid/util/DisplayMetrics;->xdpi:F
 
     .line 56
     .line 57
@@ -189,8 +182,7 @@
 
     .line 64
     :cond_5
-    iget p0, p2, Landroid/util/DisplayMetrics;
-    ->xdpi:F
+    iget p0, p2, Landroid/util/DisplayMetrics;->xdpi:F
 
     .line 65
     .line 66
@@ -218,8 +210,7 @@
 
     .line 76
     :cond_7
-    iget p0, p2, Landroid/util/DisplayMetrics;
-    ->scaledDensity:F
+    iget p0, p2, Landroid/util/DisplayMetrics;->scaledDensity:F
 
     .line 77
     .line 78
@@ -241,8 +232,7 @@
 
     .line 85
     :cond_9
-    iget p0, p2, Landroid/util/DisplayMetrics;
-    ->density:F
+    iget p0, p2, Landroid/util/DisplayMetrics;->density:F
 
     .line 86
     .line 87
@@ -276,8 +266,7 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-static {v0, p0, p1}, Landroid/util/TypedValue;
-    ->applyDimension(IFLandroid/util/DisplayMetrics;)F
+    invoke-static {v0, p0, p1}, Landroid/util/TypedValue;->applyDimension(IFLandroid/util/DisplayMetrics;)F
 
     .line 3
     .line 4
@@ -311,8 +300,7 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-static {v0, p0, p1}, Landroidx/core/util/TypedValueCompat;
-    ->deriveDimension(IFLandroid/util/DisplayMetrics;)F
+    invoke-static {v0, p0, p1}, Landroidx/core/util/TypedValueCompat;->deriveDimension(IFLandroid/util/DisplayMetrics;)F
 
     .line 3
     .line 4
@@ -333,8 +321,7 @@
     const/4 v0, 0x2
 
     .line 2
-    invoke-static {v0, p0, p1}, Landroidx/core/util/TypedValueCompat;
-    ->deriveDimension(IFLandroid/util/DisplayMetrics;)F
+    invoke-static {v0, p0, p1}, Landroidx/core/util/TypedValueCompat;->deriveDimension(IFLandroid/util/DisplayMetrics;)F
 
     .line 3
     .line 4
@@ -355,8 +342,7 @@
     const/4 v0, 0x2
 
     .line 2
-    invoke-static {v0, p0, p1}, Landroid/util/TypedValue;
-    ->applyDimension(IFLandroid/util/DisplayMetrics;)F
+    invoke-static {v0, p0, p1}, Landroid/util/TypedValue;->applyDimension(IFLandroid/util/DisplayMetrics;)F
 
     .line 3
     .line 4

@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/appcompat/app/AlertController;
-    ->setScrollIndicators(Landroid/view/ViewGroup;Landroid/view/View;II)V
+    value = Landroidx/appcompat/app/AlertController;->setScrollIndicators(Landroid/view/ViewGroup;Landroid/view/View;II)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -36,23 +35,19 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/app/AlertController$5;
-    ->this$0:Landroidx/appcompat/app/AlertController;
+    iput-object p1, p0, Landroidx/appcompat/app/AlertController$5;->this$0:Landroidx/appcompat/app/AlertController;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/appcompat/app/AlertController$5;
-    ->val$top:Landroid/view/View;
+    iput-object p2, p0, Landroidx/appcompat/app/AlertController$5;->val$top:Landroid/view/View;
 
     .line 4
     .line 5
-    iput-object p3, p0, Landroidx/appcompat/app/AlertController$5;
-    ->val$bottom:Landroid/view/View;
+    iput-object p3, p0, Landroidx/appcompat/app/AlertController$5;->val$bottom:Landroid/view/View;
 
     .line 6
     .line 7
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -62,28 +57,23 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/app/AlertController$5;
-    ->this$0:Landroidx/appcompat/app/AlertController;
+    iget-object v0, p0, Landroidx/appcompat/app/AlertController$5;->this$0:Landroidx/appcompat/app/AlertController;
 
     .line 2
     .line 3
-    iget-object v0, v0, Landroidx/appcompat/app/AlertController;
-    ->mListView:Landroid/widget/ListView;
+    iget-object v0, v0, Landroidx/appcompat/app/AlertController;->mListView:Landroid/widget/ListView;
 
     .line 4
     .line 5
-    iget-object v1, p0, Landroidx/appcompat/app/AlertController$5;
-    ->val$top:Landroid/view/View;
+    iget-object v1, p0, Landroidx/appcompat/app/AlertController$5;->val$top:Landroid/view/View;
 
     .line 6
     .line 7
-    iget-object v2, p0, Landroidx/appcompat/app/AlertController$5;
-    ->val$bottom:Landroid/view/View;
+    iget-object v2, p0, Landroidx/appcompat/app/AlertController$5;->val$bottom:Landroid/view/View;
 
     .line 8
     .line 9
-    invoke-static {v0, v1, v2}, Landroidx/appcompat/app/AlertController;
-    ->manageScrollIndicators(Landroid/view/View;Landroid/view/View;Landroid/view/View;)V    
+    invoke-static {v0, v1, v2}, Landroidx/appcompat/app/AlertController;->manageScrollIndicators(Landroid/view/View;Landroid/view/View;Landroid/view/View;)V
     return-void
 .end method
 

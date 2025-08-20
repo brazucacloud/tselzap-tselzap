@@ -8,8 +8,7 @@
     .locals 2
 
     .line 1
-    invoke-static {}, Landroid/os/Looper;
-    ->getMainLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     .line 2
     .line 3
@@ -17,8 +16,7 @@
     move-result-object v0
 
     .line 5
-    invoke-static {}, Landroid/os/Looper;
-    ->myLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
     .line 6
     .line 7

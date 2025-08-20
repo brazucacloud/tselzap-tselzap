@@ -41,14 +41,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    -><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/common/api/internal/BackgroundDetector;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    ->zza:Lcom/google/android/gms/common/api/internal/BackgroundDetector;
+    sput-object v0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;->zza:Lcom/google/android/gms/common/api/internal/BackgroundDetector;
 
     .line 7
     .line 8
@@ -61,8 +59,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -71,14 +68,12 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    ->zzb:Ljava/util/concurrent/atomic/AtomicBoolean;
+    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;->zzb:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     .line 10
     .line 11
@@ -86,14 +81,12 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>()V
 
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    ->zzc:Ljava/util/concurrent/atomic/AtomicBoolean;
+    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;->zzc:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     .line 17
     .line 18
@@ -101,22 +94,19 @@
 
     .line 19
     .line 20
-    invoke-direct {v0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 21
     .line 22
     .line 23
-    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    ->zzd:Ljava/util/ArrayList;
+    iput-object v0, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;->zzd:Ljava/util/ArrayList;
 
     .line 24
     .line 25
     const/4 v0, 0x0
 
     .line 26
-    iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    ->zze:Z
+    iput-boolean v0, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;->zze:Z
 
     .line 27
     .line 28
@@ -131,8 +121,7 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    sget-object v0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    ->zza:Lcom/google/android/gms/common/api/internal/BackgroundDetector;
+    sget-object v0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;->zza:Lcom/google/android/gms/common/api/internal/BackgroundDetector;
 
     return-object v0
 .end method
@@ -147,8 +136,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    ->zza:Lcom/google/android/gms/common/api/internal/BackgroundDetector;
+    sget-object v0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;->zza:Lcom/google/android/gms/common/api/internal/BackgroundDetector;
 
     .line 2
     .line 3
@@ -156,8 +144,7 @@
 
     .line 4
     :try_start_0
-    iget-boolean v1, v0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    ->zze:Z
+    iget-boolean v1, v0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;->zze:Z
 
     .line 5
     .line 6
@@ -165,14 +152,12 @@
 
     .line 7
     .line 8
-    invoke-virtual {p0, v0}, Landroid/app/Application;
-    ->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
+    invoke-virtual {p0, v0}, Landroid/app/Application;->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p0, v0}, Landroid/app/Application;
-    ->registerComponentCallbacks(Landroid/content/ComponentCallbacks;)V
+    invoke-virtual {p0, v0}, Landroid/app/Application;->registerComponentCallbacks(Landroid/content/ComponentCallbacks;)V
 
     .line 12
     .line 13
@@ -180,8 +165,7 @@
     const/4 p0, 0x1
 
     .line 15
-    iput-boolean p0, v0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    ->zze:Z
+    iput-boolean p0, v0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;->zze:Z
 
     .line 16
     .line 17
@@ -219,8 +203,7 @@
     .locals 3
 
     .line 1
-    sget-object v0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    ->zza:Lcom/google/android/gms/common/api/internal/BackgroundDetector;
+    sget-object v0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;->zza:Lcom/google/android/gms/common/api/internal/BackgroundDetector;
 
     .line 2
     .line 3
@@ -228,13 +211,11 @@
 
     .line 4
     :try_start_0
-    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    ->zzd:Ljava/util/ArrayList;
+    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;->zzd:Ljava/util/ArrayList;
 
     .line 5
     .line 6
-    invoke-virtual {v1}, Ljava/util/ArrayList;
-    ->iterator()Ljava/util/Iterator;
+    invoke-virtual {v1}, Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
 
     .line 7
     .line 8
@@ -243,8 +224,7 @@
 
     .line 10
     :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
     .line 11
     .line 12
@@ -256,8 +236,7 @@
 
     .line 15
     .line 16
-    invoke-interface {v1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -269,8 +248,7 @@
 
     .line 21
     .line 22
-    invoke-interface {v2, p1}, Lcom/google/android/gms/common/api/internal/BackgroundDetector$BackgroundStateChangeListener;
-    ->onBackgroundStateChanged(Z)V
+    invoke-interface {v2, p1}, Lcom/google/android/gms/common/api/internal/BackgroundDetector$BackgroundStateChangeListener;->onBackgroundStateChanged(Z)V
 
     .line 23
     .line 24
@@ -365,8 +343,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    ->zza:Lcom/google/android/gms/common/api/internal/BackgroundDetector;
+    sget-object v0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;->zza:Lcom/google/android/gms/common/api/internal/BackgroundDetector;
 
     .line 2
     .line 3
@@ -374,13 +351,11 @@
 
     .line 4
     :try_start_0
-    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    ->zzd:Ljava/util/ArrayList;
+    iget-object v1, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;->zzd:Ljava/util/ArrayList;
 
     .line 5
     .line 6
-    invoke-virtual {v1, p1}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v1, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 7
     .line 8
@@ -422,13 +397,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    ->zzb:Ljava/util/concurrent/atomic/AtomicBoolean;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;->zzb:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;
-    ->get()Z
+    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
 
     .line 4
     .line 5
@@ -450,13 +423,11 @@
     .end param
 
     .line 1
-    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    ->zzc:Ljava/util/concurrent/atomic/AtomicBoolean;
+    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;->zzc:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     .line 2
     .line 3
-    iget-object p2, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    ->zzb:Ljava/util/concurrent/atomic/AtomicBoolean;
+    iget-object p2, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;->zzb:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     .line 4
     .line 5
@@ -466,8 +437,7 @@
     const/4 v1, 0x0
 
     .line 7
-    invoke-virtual {p2, v0, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;
-    ->compareAndSet(ZZ)Z
+    invoke-virtual {p2, v0, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->compareAndSet(ZZ)Z
 
     .line 8
     .line 9
@@ -475,8 +445,7 @@
     move-result p2
 
     .line 11
-    invoke-virtual {p1, v0}, Ljava/util/concurrent/atomic/AtomicBoolean;
-    ->set(Z)V
+    invoke-virtual {p1, v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
 
     .line 12
     .line 13
@@ -485,8 +454,7 @@
 
     .line 15
     .line 16
-    invoke-direct {p0, v1}, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    ->zza(Z)V
+    invoke-direct {p0, v1}, Lcom/google/android/gms/common/api/internal/BackgroundDetector;->zza(Z)V
 
     .line 17
     .line 18
@@ -523,13 +491,11 @@
     .end param
 
     .line 1
-    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    ->zzc:Ljava/util/concurrent/atomic/AtomicBoolean;
+    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;->zzc:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     .line 2
     .line 3
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    ->zzb:Ljava/util/concurrent/atomic/AtomicBoolean;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;->zzb:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     .line 4
     .line 5
@@ -539,8 +505,7 @@
     const/4 v2, 0x0
 
     .line 7
-    invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/atomic/AtomicBoolean;
-    ->compareAndSet(ZZ)Z
+    invoke-virtual {v0, v1, v2}, Ljava/util/concurrent/atomic/AtomicBoolean;->compareAndSet(ZZ)Z
 
     .line 8
     .line 9
@@ -548,8 +513,7 @@
     move-result v0
 
     .line 11
-    invoke-virtual {p1, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;
-    ->set(Z)V
+    invoke-virtual {p1, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
 
     .line 12
     .line 13
@@ -558,8 +522,7 @@
 
     .line 15
     .line 16
-    invoke-direct {p0, v2}, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    ->zza(Z)V
+    invoke-direct {p0, v2}, Lcom/google/android/gms/common/api/internal/BackgroundDetector;->zza(Z)V
 
     .line 17
     .line 18
@@ -630,8 +593,7 @@
 
     .line 4
     .line 5
-    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    ->zzb:Ljava/util/concurrent/atomic/AtomicBoolean;
+    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;->zzb:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     .line 6
     .line 7
@@ -641,8 +603,7 @@
     const/4 v1, 0x1
 
     .line 9
-    invoke-virtual {p1, v0, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;
-    ->compareAndSet(ZZ)Z
+    invoke-virtual {p1, v0, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->compareAndSet(ZZ)Z
 
     .line 10
     .line 11
@@ -654,19 +615,16 @@
 
     .line 14
     .line 15
-    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    ->zzc:Ljava/util/concurrent/atomic/AtomicBoolean;
+    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;->zzc:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     .line 16
     .line 17
-    invoke-virtual {p1, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;
-    ->set(Z)V
+    invoke-virtual {p1, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
 
     .line 18
     .line 19
     .line 20
-    invoke-direct {p0, v1}, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    ->zza(Z)V
+    invoke-direct {p0, v1}, Lcom/google/android/gms/common/api/internal/BackgroundDetector;->zza(Z)V
 
     .line 21
     .line 22
@@ -681,13 +639,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    ->zzc:Ljava/util/concurrent/atomic/AtomicBoolean;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;->zzc:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;
-    ->get()Z
+    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
 
     .line 4
     .line 5
@@ -699,8 +655,7 @@
 
     .line 8
     .line 9
-    invoke-static {}, Lcom/google/android/gms/common/util/ProcessUtils;
-    ->zza()Z
+    invoke-static {}, Lcom/google/android/gms/common/util/ProcessUtils;->zza()Z
 
     .line 10
     .line 11
@@ -716,28 +671,24 @@
 
     .line 16
     .line 17
-    invoke-direct {p1}, Landroid/app/ActivityManager$RunningAppProcessInfo;
-    -><init>()V
+    invoke-direct {p1}, Landroid/app/ActivityManager$RunningAppProcessInfo;-><init>()V
 
     .line 18
     .line 19
     .line 20
-    invoke-static {p1}, Landroid/app/ActivityManager;
-    ->getMyMemoryState(Landroid/app/ActivityManager$RunningAppProcessInfo;)V
+    invoke-static {p1}, Landroid/app/ActivityManager;->getMyMemoryState(Landroid/app/ActivityManager$RunningAppProcessInfo;)V
 
     .line 21
     .line 22
     .line 23
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    ->zzc:Ljava/util/concurrent/atomic/AtomicBoolean;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;->zzc:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     .line 24
     .line 25
     const/4 v1, 0x1
 
     .line 26
-    invoke-virtual {v0, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;
-    ->getAndSet(Z)Z
+    invoke-virtual {v0, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->getAndSet(Z)Z
 
     .line 27
     .line 28
@@ -749,8 +700,7 @@
 
     .line 31
     .line 32
-    iget p1, p1, Landroid/app/ActivityManager$RunningAppProcessInfo;
-    ->importance:I
+    iget p1, p1, Landroid/app/ActivityManager$RunningAppProcessInfo;->importance:I
 
     .line 33
     .line 34
@@ -762,13 +712,11 @@
 
     .line 37
     .line 38
-    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    ->zzb:Ljava/util/concurrent/atomic/AtomicBoolean;
+    iget-object p1, p0, Lcom/google/android/gms/common/api/internal/BackgroundDetector;->zzb:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     .line 39
     .line 40
-    invoke-virtual {p1, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;
-    ->set(Z)V
+    invoke-virtual {p1, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
 
     .line 41
     .line 42
@@ -782,8 +730,7 @@
     .line 45
     :cond_1
     :goto_0
-    invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/BackgroundDetector;
-    ->isInBackground()Z
+    invoke-virtual {p0}, Lcom/google/android/gms/common/api/internal/BackgroundDetector;->isInBackground()Z
 
     .line 46
     .line 47

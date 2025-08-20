@@ -17,14 +17,11 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Landroidx/core/content/c;
-    ->a:I
+    iput p2, p0, Landroidx/core/content/c;->a:I
 
-    iput-object p1, p0, Landroidx/core/content/c;
-    ->b:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/core/content/c;->b:Ljava/lang/String;
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -34,11 +31,9 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/core/content/c;
-    ->a:I
+    iget v0, p0, Landroidx/core/content/c;->a:I
 
-    invoke-static {p0, p1}, Landroidx/core/util/c;
-    ->a(Landroidx/core/util/Predicate;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-static {p0, p1}, Landroidx/core/util/c;->a(Landroidx/core/util/Predicate;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     move-result-object p1
 
@@ -49,53 +44,46 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/core/content/c;
-    ->a:I
+    iget v0, p0, Landroidx/core/content/c;->a:I
 
     packed-switch v0, :pswitch_data_0
 
-    invoke-static {p0}, Landroidx/core/util/c;
-    ->b(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-static {p0}, Landroidx/core/util/c;->b(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     move-result-object v0
 
     return-object v0
 
     :pswitch_0
-    invoke-static {p0}, Landroidx/core/util/c;
-    ->b(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-static {p0}, Landroidx/core/util/c;->b(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     move-result-object v0
 
     return-object v0
 
     :pswitch_1
-    invoke-static {p0}, Landroidx/core/util/c;
-    ->b(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-static {p0}, Landroidx/core/util/c;->b(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     move-result-object v0
 
     return-object v0
 
     :pswitch_2
-    invoke-static {p0}, Landroidx/core/util/c;
-    ->b(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-static {p0}, Landroidx/core/util/c;->b(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     move-result-object v0
 
     return-object v0
 
     :pswitch_3
-    invoke-static {p0}, Landroidx/core/util/c;
-    ->b(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-static {p0}, Landroidx/core/util/c;->b(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     move-result-object v0
 
     return-object v0
 
     :pswitch_4
-    invoke-static {p0}, Landroidx/core/util/c;
-    ->b(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-static {p0}, Landroidx/core/util/c;->b(Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     move-result-object v0
 
@@ -117,11 +105,9 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/core/content/c;
-    ->a:I
+    iget v0, p0, Landroidx/core/content/c;->a:I
 
-    invoke-static {p0, p1}, Landroidx/core/util/c;
-    ->c(Landroidx/core/util/Predicate;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
+    invoke-static {p0, p1}, Landroidx/core/util/c;->c(Landroidx/core/util/Predicate;Landroidx/core/util/Predicate;)Landroidx/core/util/Predicate;
 
     move-result-object p1
 
@@ -132,83 +118,70 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/core/content/c;
-    ->a:I
+    iget v0, p0, Landroidx/core/content/c;->a:I
 
     packed-switch v0, :pswitch_data_0
 
-    iget-object v0, p0, Landroidx/core/content/c;
-    ->b:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/core/content/c;->b:Ljava/lang/String;
 
     check-cast p1, Landroid/net/Uri;
 
-    invoke-static {v0, p1}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->h(Ljava/lang/String;Landroid/net/Uri;)Z
+    invoke-static {v0, p1}, Landroidx/core/content/IntentSanitizer$Builder;->h(Ljava/lang/String;Landroid/net/Uri;)Z
 
     move-result p1
 
     return p1
 
     :pswitch_0
-    iget-object v0, p0, Landroidx/core/content/c;
-    ->b:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/core/content/c;->b:Ljava/lang/String;
 
     check-cast p1, Landroid/net/Uri;
 
-    invoke-static {v0, p1}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->d(Ljava/lang/String;Landroid/net/Uri;)Z
+    invoke-static {v0, p1}, Landroidx/core/content/IntentSanitizer$Builder;->d(Ljava/lang/String;Landroid/net/Uri;)Z
 
     move-result p1
 
     return p1
 
     :pswitch_1
-    iget-object v0, p0, Landroidx/core/content/c;
-    ->b:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/core/content/c;->b:Ljava/lang/String;
 
     check-cast p1, Landroid/net/Uri;
 
-    invoke-static {v0, p1}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->n(Ljava/lang/String;Landroid/net/Uri;)Z
+    invoke-static {v0, p1}, Landroidx/core/content/IntentSanitizer$Builder;->n(Ljava/lang/String;Landroid/net/Uri;)Z
 
     move-result p1
 
     return p1
 
     :pswitch_2
-    iget-object v0, p0, Landroidx/core/content/c;
-    ->b:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/core/content/c;->b:Ljava/lang/String;
 
     check-cast p1, Landroid/content/ComponentName;
 
-    invoke-static {v0, p1}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->c(Ljava/lang/String;Landroid/content/ComponentName;)Z
+    invoke-static {v0, p1}, Landroidx/core/content/IntentSanitizer$Builder;->c(Ljava/lang/String;Landroid/content/ComponentName;)Z
 
     move-result p1
 
     return p1
 
     :pswitch_3
-    iget-object v0, p0, Landroidx/core/content/c;
-    ->b:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/core/content/c;->b:Ljava/lang/String;
 
     check-cast p1, Ljava/lang/String;
 
-    invoke-virtual {v0, p1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result p1
 
     return p1
 
     :pswitch_4
-    iget-object v0, p0, Landroidx/core/content/c;
-    ->b:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/core/content/c;->b:Ljava/lang/String;
 
     check-cast p1, Landroid/net/Uri;
 
-    invoke-static {v0, p1}, Landroidx/core/content/IntentSanitizer$Builder;
-    ->g(Ljava/lang/String;Landroid/net/Uri;)Z
+    invoke-static {v0, p1}, Landroidx/core/content/IntentSanitizer$Builder;->g(Ljava/lang/String;Landroid/net/Uri;)Z
 
     move-result p1
 

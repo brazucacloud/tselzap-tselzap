@@ -33,14 +33,11 @@
 .method public constructor <init>()V
     .locals 1
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    sget-object v0, Lcom/google/android/gms/signin/SignInOptions;
-    ->zaa:Lcom/google/android/gms/signin/SignInOptions;
+    sget-object v0, Lcom/google/android/gms/signin/SignInOptions;->zaa:Lcom/google/android/gms/signin/SignInOptions;
 
-    iput-object v0, p0, Lcom/google/android/gms/common/internal/ClientSettings$Builder;
-    ->zae:Lcom/google/android/gms/signin/SignInOptions;
+    iput-object v0, p0, Lcom/google/android/gms/common/internal/ClientSettings$Builder;->zae:Lcom/google/android/gms/signin/SignInOptions;
 
     return-void
 .end method
@@ -60,28 +57,23 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Lcom/google/android/gms/common/internal/ClientSettings$Builder;
-    ->zaa:Landroid/accounts/Account;
+    iget-object v1, p0, Lcom/google/android/gms/common/internal/ClientSettings$Builder;->zaa:Landroid/accounts/Account;
 
     .line 4
     .line 5
-    iget-object v2, p0, Lcom/google/android/gms/common/internal/ClientSettings$Builder;
-    ->zab:Landroidx/collection/ArraySet;
+    iget-object v2, p0, Lcom/google/android/gms/common/internal/ClientSettings$Builder;->zab:Landroidx/collection/ArraySet;
 
     .line 6
     .line 7
-    iget-object v6, p0, Lcom/google/android/gms/common/internal/ClientSettings$Builder;
-    ->zac:Ljava/lang/String;
+    iget-object v6, p0, Lcom/google/android/gms/common/internal/ClientSettings$Builder;->zac:Ljava/lang/String;
 
     .line 8
     .line 9
-    iget-object v7, p0, Lcom/google/android/gms/common/internal/ClientSettings$Builder;
-    ->zad:Ljava/lang/String;
+    iget-object v7, p0, Lcom/google/android/gms/common/internal/ClientSettings$Builder;->zad:Ljava/lang/String;
 
     .line 10
     .line 11
-    iget-object v8, p0, Lcom/google/android/gms/common/internal/ClientSettings$Builder;
-    ->zae:Lcom/google/android/gms/signin/SignInOptions;
+    iget-object v8, p0, Lcom/google/android/gms/common/internal/ClientSettings$Builder;->zae:Lcom/google/android/gms/signin/SignInOptions;
 
     .line 12
     .line 13
@@ -97,8 +89,7 @@
     const/4 v5, 0x0
 
     .line 17
-    invoke-direct/range {v0 .. v9}, Lcom/google/android/gms/common/internal/ClientSettings;
-    -><init>(Landroid/accounts/Account;Ljava/util/Set;Ljava/util/Map;ILandroid/view/View;Ljava/lang/String;Ljava/lang/String;Lcom/google/android/gms/signin/SignInOptions;Z)V
+    invoke-direct/range {v0 .. v9}, Lcom/google/android/gms/common/internal/ClientSettings;-><init>(Landroid/accounts/Account;Ljava/util/Set;Ljava/util/Map;ILandroid/view/View;Ljava/lang/String;Ljava/lang/String;Lcom/google/android/gms/signin/SignInOptions;Z)V
 
     .line 18
     .line 19
@@ -118,8 +109,7 @@
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    iput-object p1, p0, Lcom/google/android/gms/common/internal/ClientSettings$Builder;
-    ->zac:Ljava/lang/String;
+    iput-object p1, p0, Lcom/google/android/gms/common/internal/ClientSettings$Builder;->zac:Ljava/lang/String;
 
     return-object p0
 .end method
@@ -134,8 +124,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/ClientSettings$Builder;
-    ->zab:Landroidx/collection/ArraySet;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/ClientSettings$Builder;->zab:Landroidx/collection/ArraySet;
 
     .line 2
     .line 3
@@ -147,25 +136,21 @@
 
     .line 6
     .line 7
-    invoke-direct {v0}, Landroidx/collection/ArraySet;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/collection/ArraySet;-><init>()V
 
     .line 8
     .line 9
     .line 10
-    iput-object v0, p0, Lcom/google/android/gms/common/internal/ClientSettings$Builder;
-    ->zab:Landroidx/collection/ArraySet;
+    iput-object v0, p0, Lcom/google/android/gms/common/internal/ClientSettings$Builder;->zab:Landroidx/collection/ArraySet;
 
     .line 11
     .line 12
     :cond_0
-    iget-object v0, p0, Lcom/google/android/gms/common/internal/ClientSettings$Builder;
-    ->zab:Landroidx/collection/ArraySet;
+    iget-object v0, p0, Lcom/google/android/gms/common/internal/ClientSettings$Builder;->zab:Landroidx/collection/ArraySet;
 
     .line 13
     .line 14
-    invoke-virtual {v0, p1}, Landroidx/collection/ArraySet;
-    ->addAll(Ljava/util/Collection;)Z
+    invoke-virtual {v0, p1}, Landroidx/collection/ArraySet;->addAll(Ljava/util/Collection;)Z
 
     .line 15
     .line 16
@@ -178,8 +163,7 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    iput-object p1, p0, Lcom/google/android/gms/common/internal/ClientSettings$Builder;
-    ->zaa:Landroid/accounts/Account;
+    iput-object p1, p0, Lcom/google/android/gms/common/internal/ClientSettings$Builder;->zaa:Landroid/accounts/Account;
 
     return-object p0
 .end method
@@ -193,8 +177,7 @@
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    iput-object p1, p0, Lcom/google/android/gms/common/internal/ClientSettings$Builder;
-    ->zad:Ljava/lang/String;
+    iput-object p1, p0, Lcom/google/android/gms/common/internal/ClientSettings$Builder;->zad:Ljava/lang/String;
 
     return-object p0
 .end method

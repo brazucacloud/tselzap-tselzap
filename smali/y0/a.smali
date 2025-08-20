@@ -40,14 +40,12 @@
 
     .line 13
     .line 14
-    invoke-direct {v4}, Landroid/util/TypedValue;
-    -><init>()V
+    invoke-direct {v4}, Landroid/util/TypedValue;-><init>()V
 
     .line 15
     .line 16
     .line 17
-    invoke-virtual {p1, v3, v4}, Landroid/content/res/TypedArray;
-    ->getValue(ILandroid/util/TypedValue;)Z
+    invoke-virtual {p1, v3, v4}, Landroid/content/res/TypedArray;->getValue(ILandroid/util/TypedValue;)Z
 
     .line 18
     .line 19
@@ -59,8 +57,7 @@
 
     .line 22
     .line 23
-    iget v5, v4, Landroid/util/TypedValue;
-    ->type:I
+    iget v5, v4, Landroid/util/TypedValue;->type:I
 
     .line 24
     .line 25
@@ -75,8 +72,7 @@
 
     .line 29
     :cond_0
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getTheme()Landroid/content/res/Resources$Theme;
+    invoke-virtual {p0}, Landroid/content/Context;->getTheme()Landroid/content/res/Resources$Theme;
 
     .line 30
     .line 31
@@ -84,8 +80,7 @@
     move-result-object v3
 
     .line 33
-    iget v4, v4, Landroid/util/TypedValue;
-    ->data:I
+    iget v4, v4, Landroid/util/TypedValue;->data:I
 
     .line 34
     .line 35
@@ -97,8 +92,7 @@
     move-result-object v4
 
     .line 39
-    invoke-virtual {v3, v4}, Landroid/content/res/Resources$Theme;
-    ->obtainStyledAttributes([I)Landroid/content/res/TypedArray;
+    invoke-virtual {v3, v4}, Landroid/content/res/Resources$Theme;->obtainStyledAttributes([I)Landroid/content/res/TypedArray;
 
     .line 40
     .line 41
@@ -106,8 +100,7 @@
     move-result-object v3
 
     .line 43
-    invoke-virtual {v3, v1, v0}, Landroid/content/res/TypedArray;
-    ->getDimensionPixelSize(II)I
+    invoke-virtual {v3, v1, v0}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
     .line 44
     .line 45
@@ -115,8 +108,7 @@
     move-result v4
 
     .line 47
-    invoke-virtual {v3}, Landroid/content/res/TypedArray;
-    ->recycle()V
+    invoke-virtual {v3}, Landroid/content/res/TypedArray;->recycle()V
 
     .line 48
     .line 49
@@ -129,8 +121,7 @@
     .line 52
     :cond_1
     :goto_1
-    invoke-virtual {p1, v3, v0}, Landroid/content/res/TypedArray;
-    ->getDimensionPixelSize(II)I
+    invoke-virtual {p1, v3, v0}, Landroid/content/res/TypedArray;->getDimensionPixelSize(II)I
 
     .line 53
     .line 54
@@ -156,8 +147,7 @@
     .locals 2
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextView;
-    ->setTextAppearance(Landroid/content/Context;I)V
+    invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextView;->setTextAppearance(Landroid/content/Context;I)V
 
     .line 2
     .line 3
@@ -170,8 +160,7 @@
     const/4 v1, 0x1
 
     .line 8
-    invoke-static {p1, v0, v1}, Lr0/b;
-    ->b(Landroid/content/Context;IZ)Z
+    invoke-static {p1, v0, v1}, Lr0/b;->b(Landroid/content/Context;IZ)Z
 
     .line 9
     .line 10
@@ -183,8 +172,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {p1}, Landroid/content/Context;
-    ->getTheme()Landroid/content/res/Resources$Theme;
+    invoke-virtual {p1}, Landroid/content/Context;->getTheme()Landroid/content/res/Resources$Theme;
 
     .line 15
     .line 16
@@ -192,13 +180,11 @@
     move-result-object p1
 
     .line 18
-    sget-object v0, LY/a;
-    ->A:[I
+    sget-object v0, LY/a;->A:[I
 
     .line 19
     .line 20
-    invoke-virtual {p1, p2, v0}, Landroid/content/res/Resources$Theme;
-    ->obtainStyledAttributes(I[I)Landroid/content/res/TypedArray;
+    invoke-virtual {p1, p2, v0}, Landroid/content/res/Resources$Theme;->obtainStyledAttributes(I[I)Landroid/content/res/TypedArray;
 
     .line 21
     .line 22
@@ -206,8 +192,7 @@
     move-result-object p1
 
     .line 24
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 25
     .line 26
@@ -229,8 +214,7 @@
     move-result-object v0
 
     .line 34
-    invoke-static {p2, p1, v0}, Ly0/a;
-    ->a(Landroid/content/Context;Landroid/content/res/TypedArray;[I)I
+    invoke-static {p2, p1, v0}, Ly0/a;->a(Landroid/content/Context;Landroid/content/res/TypedArray;[I)I
 
     .line 35
     .line 36
@@ -238,8 +222,7 @@
     move-result p2
 
     .line 38
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;
-    ->recycle()V
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
     .line 39
     .line 40
@@ -248,8 +231,7 @@
 
     .line 42
     .line 43
-    invoke-virtual {p0, p2}, Landroidx/appcompat/widget/AppCompatTextView;
-    ->setLineHeight(I)V
+    invoke-virtual {p0, p2}, Landroidx/appcompat/widget/AppCompatTextView;->setLineHeight(I)V
 
     .line 44
     .line 45

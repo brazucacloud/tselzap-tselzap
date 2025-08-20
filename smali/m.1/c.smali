@@ -20,8 +20,7 @@
     .line 3
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 6
     .line 7
@@ -30,14 +29,12 @@
 
     .line 9
     .line 10
-    invoke-direct {p1}, Ljava/util/ArrayDeque;
-    -><init>()V
+    invoke-direct {p1}, Ljava/util/ArrayDeque;-><init>()V
 
     .line 11
     .line 12
     .line 13
-    iput-object p1, p0, Lm/c;
-    ->a:Ljava/util/ArrayDeque;
+    iput-object p1, p0, Lm/c;->a:Ljava/util/ArrayDeque;
 
     .line 14
     .line 15
@@ -45,14 +42,12 @@
 
     .line 16
     :pswitch_0
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 17
     .line 18
     .line 19
-    sget-object p1, LE/o;
-    ->a:[C
+    sget-object p1, LE/o;->a:[C
 
     .line 20
     .line 21
@@ -60,14 +55,12 @@
 
     .line 22
     .line 23
-    invoke-direct {p1, v0}, Ljava/util/ArrayDeque;
-    -><init>(I)V
+    invoke-direct {p1, v0}, Ljava/util/ArrayDeque;-><init>(I)V
 
     .line 24
     .line 25
     .line 26
-    iput-object p1, p0, Lm/c;
-    ->a:Ljava/util/ArrayDeque;
+    iput-object p1, p0, Lm/c;->a:Ljava/util/ArrayDeque;
 
     .line 27
     .line 28
@@ -141,8 +134,7 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lm/c;
-    ->a:Ljava/util/ArrayDeque;
+    iget-object v0, p0, Lm/c;->a:Ljava/util/ArrayDeque;
 
     .line 2
     .line 3
@@ -150,13 +142,11 @@
 
     .line 4
     :try_start_0
-    iget-object v1, p0, Lm/c;
-    ->a:Ljava/util/ArrayDeque;
+    iget-object v1, p0, Lm/c;->a:Ljava/util/ArrayDeque;
 
     .line 5
     .line 6
-    invoke-virtual {v1}, Ljava/util/ArrayDeque;
-    ->poll()Ljava/lang/Object;
+    invoke-virtual {v1}, Ljava/util/ArrayDeque;->poll()Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -181,8 +171,7 @@
 
     .line 16
     .line 17
-    invoke-direct {v0}, Lm/b;
-    -><init>()V
+    invoke-direct {v0}, Lm/b;-><init>()V
 
     .line 18
     .line 19
@@ -273,8 +262,7 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lm/c;
-    ->a:Ljava/util/ArrayDeque;
+    iget-object v0, p0, Lm/c;->a:Ljava/util/ArrayDeque;
 
     .line 2
     .line 3
@@ -282,13 +270,11 @@
 
     .line 4
     :try_start_0
-    iget-object v1, p0, Lm/c;
-    ->a:Ljava/util/ArrayDeque;
+    iget-object v1, p0, Lm/c;->a:Ljava/util/ArrayDeque;
 
     .line 5
     .line 6
-    invoke-virtual {v1}, Ljava/util/ArrayDeque;
-    ->size()I
+    invoke-virtual {v1}, Ljava/util/ArrayDeque;->size()I
 
     .line 7
     .line 8
@@ -304,13 +290,11 @@
 
     .line 13
     .line 14
-    iget-object v1, p0, Lm/c;
-    ->a:Ljava/util/ArrayDeque;
+    iget-object v1, p0, Lm/c;->a:Ljava/util/ArrayDeque;
 
     .line 15
     .line 16
-    invoke-virtual {v1, p1}, Ljava/util/ArrayDeque;
-    ->offer(Ljava/lang/Object;)Z
+    invoke-virtual {v1, p1}, Ljava/util/ArrayDeque;->offer(Ljava/lang/Object;)Z
 
     .line 17
     .line 18
@@ -354,23 +338,19 @@
 
     .line 3
     :try_start_0
-    iput-object v0, p1, Lh/c;
-    ->b:Ljava/nio/ByteBuffer;
+    iput-object v0, p1, Lh/c;->b:Ljava/nio/ByteBuffer;
 
     .line 4
     .line 5
-    iput-object v0, p1, Lh/c;
-    ->c:Lh/b;
+    iput-object v0, p1, Lh/c;->c:Lh/b;
 
     .line 6
     .line 7
-    iget-object v0, p0, Lm/c;
-    ->a:Ljava/util/ArrayDeque;
+    iget-object v0, p0, Lm/c;->a:Ljava/util/ArrayDeque;
 
     .line 8
     .line 9
-    invoke-virtual {v0, p1}, Ljava/util/ArrayDeque;
-    ->offer(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayDeque;->offer(Ljava/lang/Object;)Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

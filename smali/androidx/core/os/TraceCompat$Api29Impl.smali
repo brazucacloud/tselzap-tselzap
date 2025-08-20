@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -38,8 +37,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroid/os/Trace;
-    ->beginAsyncSection(Ljava/lang/String;I)V
+    invoke-static {p0, p1}, Landroid/os/Trace;->beginAsyncSection(Ljava/lang/String;I)V
 
     .line 2
     .line 3
@@ -53,8 +51,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroid/os/Trace;
-    ->endAsyncSection(Ljava/lang/String;I)V
+    invoke-static {p0, p1}, Landroid/os/Trace;->endAsyncSection(Ljava/lang/String;I)V
 
     .line 2
     .line 3
@@ -68,8 +65,7 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Landroid/os/Trace;
-    ->isEnabled()Z
+    invoke-static {}, Landroid/os/Trace;->isEnabled()Z
 
     .line 2
     .line 3
@@ -85,8 +81,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroid/os/Trace;
-    ->setCounter(Ljava/lang/String;J)V
+    invoke-static {p0, p1, p2}, Landroid/os/Trace;->setCounter(Ljava/lang/String;J)V
 
     .line 2
     .line 3

@@ -16,24 +16,20 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/util/AbstractCollection;
-    -><init>()V
+    invoke-direct {p0}, Ljava/util/AbstractCollection;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, LB0/t;
-    ->e:LB0/n;
+    iput-object p1, p0, LB0/t;->e:LB0/n;
 
     .line 5
     .line 6
-    iput-object p2, p0, LB0/t;
-    ->f:[Ljava/lang/Object;
+    iput-object p2, p0, LB0/t;->f:[Ljava/lang/Object;
 
     .line 7
     .line 8
-    iput p3, p0, LB0/t;
-    ->g:I
+    iput p3, p0, LB0/t;->g:I
 
     .line 9
     .line 10
@@ -46,8 +42,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, LB0/o;
-    ->f()LB0/k;
+    invoke-virtual {p0}, LB0/o;->f()LB0/k;
 
     .line 2
     .line 3
@@ -55,8 +50,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0, p1}, LB0/k;
-    ->a([Ljava/lang/Object;)I
+    invoke-virtual {v0, p1}, LB0/k;->a([Ljava/lang/Object;)I
 
     .line 6
     .line 7
@@ -85,8 +79,7 @@
 
     .line 7
     .line 8
-    invoke-interface {p1}, Ljava/util/Map$Entry;
-    ->getKey()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -94,8 +87,7 @@
     move-result-object v0
 
     .line 12
-    invoke-interface {p1}, Ljava/util/Map$Entry;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -107,13 +99,11 @@
 
     .line 17
     .line 18
-    iget-object v2, p0, LB0/t;
-    ->e:LB0/n;
+    iget-object v2, p0, LB0/t;->e:LB0/n;
 
     .line 19
     .line 20
-    invoke-virtual {v2, v0}, LB0/n;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, v0}, LB0/n;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -121,8 +111,7 @@
     move-result-object v0
 
     .line 24
-    invoke-virtual {p1, v0}, Ljava/lang/Object;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     .line 25
     .line 26
@@ -160,8 +149,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, LB0/s;
-    -><init>(LB0/t;)V
+    invoke-direct {v0, p0}, LB0/s;-><init>(LB0/t;)V
 
     .line 4
     .line 5
@@ -173,8 +161,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, LB0/t;
-    ->j()LB0/B;
+    invoke-virtual {p0}, LB0/t;->j()LB0/B;
 
     .line 2
     .line 3
@@ -188,8 +175,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, LB0/o;
-    ->f()LB0/k;
+    invoke-virtual {p0}, LB0/o;->f()LB0/k;
 
     .line 2
     .line 3
@@ -200,8 +186,7 @@
     const/4 v1, 0x0
 
     .line 6
-    invoke-virtual {v0, v1}, LB0/k;
-    ->g(I)LB0/i;
+    invoke-virtual {v0, v1}, LB0/k;->g(I)LB0/i;
 
     .line 7
     .line 8
@@ -215,8 +200,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, LB0/t;
-    ->g:I
+    iget v0, p0, LB0/t;->g:I
 
     .line 2
     .line 3

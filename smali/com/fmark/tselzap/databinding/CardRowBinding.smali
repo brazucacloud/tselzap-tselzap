@@ -76,44 +76,36 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/fmark/tselzap/databinding/CardRowBinding;
-    ->rootView:Landroidx/cardview/widget/CardView;
+    iput-object p1, p0, Lcom/fmark/tselzap/databinding/CardRowBinding;->rootView:Landroidx/cardview/widget/CardView;
 
     .line 5
     .line 6
-    iput-object p2, p0, Lcom/fmark/tselzap/databinding/CardRowBinding;
-    ->answerText:Landroid/widget/TextView;
+    iput-object p2, p0, Lcom/fmark/tselzap/databinding/CardRowBinding;->answerText:Landroid/widget/TextView;
 
     .line 7
     .line 8
-    iput-object p3, p0, Lcom/fmark/tselzap/databinding/CardRowBinding;
-    ->cardView:Landroidx/cardview/widget/CardView;
+    iput-object p3, p0, Lcom/fmark/tselzap/databinding/CardRowBinding;->cardView:Landroidx/cardview/widget/CardView;
 
     .line 9
     .line 10
-    iput-object p4, p0, Lcom/fmark/tselzap/databinding/CardRowBinding;
-    ->containsChip:Lcom/google/android/material/chip/Chip;
+    iput-object p4, p0, Lcom/fmark/tselzap/databinding/CardRowBinding;->containsChip:Lcom/google/android/material/chip/Chip;
 
     .line 11
     .line 12
-    iput-object p5, p0, Lcom/fmark/tselzap/databinding/CardRowBinding;
-    ->defaultMessageChip:Lcom/google/android/material/chip/Chip;
+    iput-object p5, p0, Lcom/fmark/tselzap/databinding/CardRowBinding;->defaultMessageChip:Lcom/google/android/material/chip/Chip;
 
     .line 13
     .line 14
-    iput-object p6, p0, Lcom/fmark/tselzap/databinding/CardRowBinding;
-    ->exactMatchChip:Lcom/google/android/material/chip/Chip;
+    iput-object p6, p0, Lcom/fmark/tselzap/databinding/CardRowBinding;->exactMatchChip:Lcom/google/android/material/chip/Chip;
 
     .line 15
     .line 16
-    iput-object p7, p0, Lcom/fmark/tselzap/databinding/CardRowBinding;
-    ->questionText:Landroid/widget/TextView;
+    iput-object p7, p0, Lcom/fmark/tselzap/databinding/CardRowBinding;->questionText:Landroid/widget/TextView;
 
     .line 17
     .line 18
@@ -135,8 +127,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 5
     .line 6
@@ -167,8 +158,7 @@
     .line 17
     .line 18
     .line 19
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 20
     .line 21
@@ -192,8 +182,7 @@
     .line 29
     .line 30
     .line 31
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 32
     .line 33
@@ -217,8 +206,7 @@
     .line 41
     .line 42
     .line 43
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 44
     .line 45
@@ -242,8 +230,7 @@
     .line 53
     .line 54
     .line 55
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 56
     .line 57
@@ -269,8 +256,7 @@
     move-object v5, v3
 
     .line 67
-    invoke-direct/range {v2 .. v9}, Lcom/fmark/tselzap/databinding/CardRowBinding;
-    -><init>(Landroidx/cardview/widget/CardView;Landroid/widget/TextView;Landroidx/cardview/widget/CardView;Lcom/google/android/material/chip/Chip;Lcom/google/android/material/chip/Chip;Lcom/google/android/material/chip/Chip;Landroid/widget/TextView;)V
+    invoke-direct/range {v2 .. v9}, Lcom/fmark/tselzap/databinding/CardRowBinding;-><init>(Landroidx/cardview/widget/CardView;Landroid/widget/TextView;Landroidx/cardview/widget/CardView;Lcom/google/android/material/chip/Chip;Lcom/google/android/material/chip/Chip;Lcom/google/android/material/chip/Chip;Landroid/widget/TextView;)V
 
     .line 68
     .line 69
@@ -279,8 +265,7 @@
 
     .line 71
     :cond_0
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     .line 72
     .line 73
@@ -288,8 +273,7 @@
     move-result-object p0
 
     .line 75
-    invoke-virtual {p0, v0}, Landroid/content/res/Resources;
-    ->getResourceName(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getResourceName(I)Ljava/lang/String;
 
     .line 76
     .line 77
@@ -305,8 +289,7 @@
 
     .line 82
     .line 83
-    invoke-virtual {v1, p0}, Ljava/lang/String;
-    ->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, p0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 84
     .line 85
@@ -314,8 +297,7 @@
     move-result-object p0
 
     .line 87
-    invoke-direct {v0, p0}, Ljava/lang/NullPointerException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     .line 88
     .line 89
@@ -490,8 +472,7 @@
     const/4 v1, 0x0
 
     .line 1
-    invoke-static {p0, v0, v1}, Lcom/fmark/tselzap/databinding/CardRowBinding;
-    ->inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/fmark/tselzap/databinding/CardRowBinding;
+    invoke-static {p0, v0, v1}, Lcom/fmark/tselzap/databinding/CardRowBinding;->inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/fmark/tselzap/databinding/CardRowBinding;
 
     move-result-object p0
 
@@ -516,21 +497,18 @@
     const/4 v1, 0x0
 
     .line 2
-    invoke-virtual {p0, v0, p1, v1}, Landroid/view/LayoutInflater;
-    ->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    invoke-virtual {p0, v0, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p0
 
     if-eqz p2, :cond_0
 
     .line 3
-    invoke-virtual {p1, p0}, Landroid/view/ViewGroup;
-    ->addView(Landroid/view/View;)V
+    invoke-virtual {p1, p0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     .line 4
     :cond_0
-    invoke-static {p0}, Lcom/fmark/tselzap/databinding/CardRowBinding;
-    ->bind(Landroid/view/View;)Lcom/fmark/tselzap/databinding/CardRowBinding;
+    invoke-static {p0}, Lcom/fmark/tselzap/databinding/CardRowBinding;->bind(Landroid/view/View;)Lcom/fmark/tselzap/databinding/CardRowBinding;
 
     move-result-object p0
 
@@ -545,8 +523,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/fmark/tselzap/databinding/CardRowBinding;
-    ->getRoot()Landroidx/cardview/widget/CardView;
+    invoke-virtual {p0}, Lcom/fmark/tselzap/databinding/CardRowBinding;->getRoot()Landroidx/cardview/widget/CardView;
 
     move-result-object v0
 
@@ -559,8 +536,7 @@
     .end annotation
 
     .line 2
-    iget-object v0, p0, Lcom/fmark/tselzap/databinding/CardRowBinding;
-    ->rootView:Landroidx/cardview/widget/CardView;
+    iget-object v0, p0, Lcom/fmark/tselzap/databinding/CardRowBinding;->rootView:Landroidx/cardview/widget/CardView;
 
     return-object v0
 .end method

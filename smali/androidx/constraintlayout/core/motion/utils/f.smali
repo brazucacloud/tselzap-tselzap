@@ -8,8 +8,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
@@ -17,8 +16,7 @@
     const/4 v0, -0x1
 
     .line 5
-    invoke-virtual {p0}, Ljava/lang/String;
-    ->hashCode()I
+    invoke-virtual {p0}, Ljava/lang/String;->hashCode()I
 
     .line 6
     .line 7
@@ -43,8 +41,7 @@
 
     .line 15
     .line 16
-    invoke-virtual {p0, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 17
     .line 18
@@ -71,8 +68,7 @@
 
     .line 26
     .line 27
-    invoke-virtual {p0, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 28
     .line 29
@@ -99,8 +95,7 @@
 
     .line 37
     .line 38
-    invoke-virtual {p0, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 39
     .line 40
@@ -127,8 +122,7 @@
 
     .line 48
     .line 49
-    invoke-virtual {p0, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 50
     .line 51
@@ -155,8 +149,7 @@
 
     .line 59
     .line 60
-    invoke-virtual {p0, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 61
     .line 62
@@ -183,8 +176,7 @@
 
     .line 70
     .line 71
-    invoke-virtual {p0, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 72
     .line 73
@@ -211,8 +203,7 @@
 
     .line 81
     .line 82
-    invoke-virtual {p0, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 83
     .line 84

@@ -5,8 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/fragment/app/Fragment;
-    ->prepareCallInternal(Landroidx/activity/result/contract/ActivityResultContract;Landroidx/arch/core/util/Function;Landroidx/activity/result/ActivityResultCallback;)Landroidx/activity/result/ActivityResultLauncher;
+    value = Landroidx/fragment/app/Fragment;->prepareCallInternal(Landroidx/activity/result/contract/ActivityResultContract;Landroidx/arch/core/util/Function;Landroidx/activity/result/ActivityResultCallback;)Landroidx/activity/result/ActivityResultLauncher;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,23 +34,19 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/fragment/app/Fragment$10;
-    ->this$0:Landroidx/fragment/app/Fragment;
+    iput-object p1, p0, Landroidx/fragment/app/Fragment$10;->this$0:Landroidx/fragment/app/Fragment;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/fragment/app/Fragment$10;
-    ->val$ref:Ljava/util/concurrent/atomic/AtomicReference;
+    iput-object p2, p0, Landroidx/fragment/app/Fragment$10;->val$ref:Ljava/util/concurrent/atomic/AtomicReference;
 
     .line 4
     .line 5
-    iput-object p3, p0, Landroidx/fragment/app/Fragment$10;
-    ->val$contract:Landroidx/activity/result/contract/ActivityResultContract;
+    iput-object p3, p0, Landroidx/fragment/app/Fragment$10;->val$contract:Landroidx/activity/result/contract/ActivityResultContract;
 
     .line 6
     .line 7
-    invoke-direct {p0}, Landroidx/activity/result/ActivityResultLauncher;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/activity/result/ActivityResultLauncher;-><init>()V
     return-void
 .end method
 
@@ -71,8 +66,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/Fragment$10;
-    ->val$contract:Landroidx/activity/result/contract/ActivityResultContract;    return-object v0
+    iget-object v0, p0, Landroidx/fragment/app/Fragment$10;->val$contract:Landroidx/activity/result/contract/ActivityResultContract;    return-object v0
 .end method
 
 .method public launch(Ljava/lang/Object;Landroidx/core/app/ActivityOptionsCompat;)V
@@ -90,13 +84,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/Fragment$10;
-    ->val$ref:Ljava/util/concurrent/atomic/AtomicReference;
+    iget-object v0, p0, Landroidx/fragment/app/Fragment$10;->val$ref:Ljava/util/concurrent/atomic/AtomicReference;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicReference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicReference;->get()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -112,8 +104,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {v0, p1, p2}, Landroidx/activity/result/ActivityResultLauncher;
-    ->launch(Ljava/lang/Object;Landroidx/core/app/ActivityOptionsCompat;)V
+    invoke-virtual {v0, p1, p2}, Landroidx/activity/result/ActivityResultLauncher;->launch(Ljava/lang/Object;Landroidx/core/app/ActivityOptionsCompat;)V
     return-void
 
     .line 15
@@ -126,8 +117,7 @@
 
     .line 18
     .line 19
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 20
     .line 21
@@ -138,16 +128,14 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/Fragment$10;
-    ->val$ref:Ljava/util/concurrent/atomic/AtomicReference;
+    iget-object v0, p0, Landroidx/fragment/app/Fragment$10;->val$ref:Ljava/util/concurrent/atomic/AtomicReference;
 
     .line 2
     .line 3
     const/4 v1, 0x0
 
     .line 4
-    invoke-virtual {v0, v1}, Ljava/util/concurrent/atomic/AtomicReference;
-    ->getAndSet(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Ljava/util/concurrent/atomic/AtomicReference;->getAndSet(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
@@ -163,8 +151,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {v0}, Landroidx/activity/result/ActivityResultLauncher;
-    ->unregister()V
+    invoke-virtual {v0}, Landroidx/activity/result/ActivityResultLauncher;->unregister()V
 
     .line 13
     .line 14

@@ -12,13 +12,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lr/C;
-    ->b:Ljava/nio/ByteBuffer;
+    iput-object p1, p0, Lr/C;->b:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroid/media/MediaDataSource;
-    -><init>()V
+    invoke-direct {p0}, Landroid/media/MediaDataSource;-><init>()V
 
     .line 4
     .line 5
@@ -38,13 +36,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lr/C;
-    ->b:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Lr/C;->b:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/nio/Buffer;
-    ->limit()I
+    invoke-virtual {v0}, Ljava/nio/Buffer;->limit()I
 
     .line 4
     .line 5
@@ -61,13 +57,11 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lr/C;
-    ->b:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Lr/C;->b:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/nio/Buffer;
-    ->limit()I
+    invoke-virtual {v0}, Ljava/nio/Buffer;->limit()I
 
     .line 4
     .line 5
@@ -92,27 +86,23 @@
 
     .line 14
     :cond_0
-    iget-object v0, p0, Lr/C;
-    ->b:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Lr/C;->b:Ljava/nio/ByteBuffer;
 
     .line 15
     .line 16
     long-to-int p2, p1
 
     .line 17
-    invoke-virtual {v0, p2}, Ljava/nio/ByteBuffer;
-    ->position(I)Ljava/nio/Buffer;
+    invoke-virtual {v0, p2}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
     .line 18
     .line 19
     .line 20
-    iget-object p1, p0, Lr/C;
-    ->b:Ljava/nio/ByteBuffer;
+    iget-object p1, p0, Lr/C;->b:Ljava/nio/ByteBuffer;
 
     .line 21
     .line 22
-    invoke-virtual {p1}, Ljava/nio/Buffer;
-    ->remaining()I
+    invoke-virtual {p1}, Ljava/nio/Buffer;->remaining()I
 
     .line 23
     .line 24
@@ -120,8 +110,7 @@
     move-result p1
 
     .line 26
-    invoke-static {p5, p1}, Ljava/lang/Math;
-    ->min(II)I
+    invoke-static {p5, p1}, Ljava/lang/Math;->min(II)I
 
     .line 27
     .line 28
@@ -129,13 +118,11 @@
     move-result p1
 
     .line 30
-    iget-object p2, p0, Lr/C;
-    ->b:Ljava/nio/ByteBuffer;
+    iget-object p2, p0, Lr/C;->b:Ljava/nio/ByteBuffer;
 
     .line 31
     .line 32
-    invoke-virtual {p2, p3, p4, p1}, Ljava/nio/ByteBuffer;
-    ->get([BII)Ljava/nio/ByteBuffer;
+    invoke-virtual {p2, p3, p4, p1}, Ljava/nio/ByteBuffer;->get([BII)Ljava/nio/ByteBuffer;
 
     .line 33
     .line 34

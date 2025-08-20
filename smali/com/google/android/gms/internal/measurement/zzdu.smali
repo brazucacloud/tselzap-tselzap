@@ -15,8 +15,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, v0}, Lcom/google/android/gms/internal/measurement/zzbx;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, v0}, Lcom/google/android/gms/internal/measurement/zzbx;-><init>(Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -37,8 +36,7 @@
 
     .line 3
     .line 4
-    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzdr;
-    ->a_()V
+    invoke-interface {p0}, Lcom/google/android/gms/internal/measurement/zzdr;->a_()V
 
     .line 5
     .line 6

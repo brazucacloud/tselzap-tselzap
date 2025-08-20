@@ -6,8 +6,7 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -42,8 +41,7 @@
     const/4 v0, 0x1
 
     .line 1
-    invoke-direct {p0, v0}, Landroidx/emoji2/text/MetadataRepo$Node;
-    -><init>(I)V
+    invoke-direct {p0, v0}, Landroidx/emoji2/text/MetadataRepo$Node;-><init>(I)V
 return-void
 .end method
 
@@ -51,17 +49,14 @@ return-void
     .locals 1
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 3
     new-instance v0, Landroid/util/SparseArray;
 
-    invoke-direct {v0, p1}, Landroid/util/SparseArray;
-    -><init>(I)V
+    invoke-direct {v0, p1}, Landroid/util/SparseArray;-><init>(I)V
 
-    iput-object v0, p0, Landroidx/emoji2/text/MetadataRepo$Node;
-    ->mChildren:Landroid/util/SparseArray;
+    iput-object v0, p0, Landroidx/emoji2/text/MetadataRepo$Node;->mChildren:Landroid/util/SparseArray;
 
     return-void
 .end method
@@ -72,8 +67,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/MetadataRepo$Node;
-    ->mChildren:Landroid/util/SparseArray;
+    iget-object v0, p0, Landroidx/emoji2/text/MetadataRepo$Node;->mChildren:Landroid/util/SparseArray;
 
     .line 2
     .line 3
@@ -87,8 +81,7 @@ return-void
 
     .line 7
     :cond_0
-    invoke-virtual {v0, p1}, Landroid/util/SparseArray;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -107,8 +100,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/emoji2/text/MetadataRepo$Node;
-    ->mData:Landroidx/emoji2/text/TypefaceEmojiRasterizer;
+    iget-object v0, p0, Landroidx/emoji2/text/MetadataRepo$Node;->mData:Landroidx/emoji2/text/TypefaceEmojiRasterizer;
 
     .line 2
     .line 3
@@ -123,8 +115,7 @@ return-void
     .end param
 
     .line 1
-    invoke-virtual {p1, p2}, Landroidx/emoji2/text/TypefaceEmojiRasterizer;
-    ->getCodepointAt(I)I
+    invoke-virtual {p1, p2}, Landroidx/emoji2/text/TypefaceEmojiRasterizer;->getCodepointAt(I)I
 
     .line 2
     .line 3
@@ -132,8 +123,7 @@ return-void
     move-result v0
 
     .line 5
-    invoke-virtual {p0, v0}, Landroidx/emoji2/text/MetadataRepo$Node;
-    ->get(I)Landroidx/emoji2/text/MetadataRepo$Node;
+    invoke-virtual {p0, v0}, Landroidx/emoji2/text/MetadataRepo$Node;->get(I)Landroidx/emoji2/text/MetadataRepo$Node;
 
     .line 6
     .line 7
@@ -149,19 +139,16 @@ return-void
 
     .line 12
     .line 13
-    invoke-direct {v0}, Landroidx/emoji2/text/MetadataRepo$Node;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/emoji2/text/MetadataRepo$Node;-><init>()V
 
     .line 14
     .line 15
     .line 16
-    iget-object v1, p0, Landroidx/emoji2/text/MetadataRepo$Node;
-    ->mChildren:Landroid/util/SparseArray;
+    iget-object v1, p0, Landroidx/emoji2/text/MetadataRepo$Node;->mChildren:Landroid/util/SparseArray;
 
     .line 17
     .line 18
-    invoke-virtual {p1, p2}, Landroidx/emoji2/text/TypefaceEmojiRasterizer;
-    ->getCodepointAt(I)I
+    invoke-virtual {p1, p2}, Landroidx/emoji2/text/TypefaceEmojiRasterizer;->getCodepointAt(I)I
 
     .line 19
     .line 20
@@ -169,8 +156,7 @@ return-void
     move-result v2
 
     .line 22
-    invoke-virtual {v1, v2, v0}, Landroid/util/SparseArray;
-    ->put(ILjava/lang/Object;)V
+    invoke-virtual {v1, v2, v0}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 23
     .line 24
@@ -184,8 +170,7 @@ return-void
 
     .line 28
     .line 29
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/emoji2/text/MetadataRepo$Node;
-    ->put(Landroidx/emoji2/text/TypefaceEmojiRasterizer;II)V
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/emoji2/text/MetadataRepo$Node;->put(Landroidx/emoji2/text/TypefaceEmojiRasterizer;II)V
 
     .line 30
     .line 31
@@ -194,8 +179,7 @@ return-void
 
     .line 33
     :cond_1
-    iput-object p1, v0, Landroidx/emoji2/text/MetadataRepo$Node;
-    ->mData:Landroidx/emoji2/text/TypefaceEmojiRasterizer;
+    iput-object p1, v0, Landroidx/emoji2/text/MetadataRepo$Node;->mData:Landroidx/emoji2/text/TypefaceEmojiRasterizer;
 
     .line 34
     .line 35

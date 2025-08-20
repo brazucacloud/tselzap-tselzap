@@ -13,11 +13,9 @@
 
     new-instance v0, Landroidx/collection/CollectionPlatformUtils;
 
-    invoke-direct {v0}, Landroidx/collection/CollectionPlatformUtils;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/collection/CollectionPlatformUtils;-><init>()V
 
-    sput-object v0, Landroidx/collection/CollectionPlatformUtils;
-    ->INSTANCE:Landroidx/collection/CollectionPlatformUtils;
+    sput-object v0, Landroidx/collection/CollectionPlatformUtils;->INSTANCE:Landroidx/collection/CollectionPlatformUtils;
 
     return-void
 .end method
@@ -26,8 +24,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -41,8 +38,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/ArrayIndexOutOfBoundsException;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/ArrayIndexOutOfBoundsException;-><init>()V
     return-object v0
 .end method
 

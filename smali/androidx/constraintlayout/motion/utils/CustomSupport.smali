@@ -14,8 +14,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -69,8 +68,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {v1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 14
     .line 15
@@ -86,14 +84,12 @@
 
     .line 20
     .line 21
-    invoke-direct {v8, v9}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v8, v9}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 22
     .line 23
     .line 24
-    invoke-virtual/range {p0 .. p0}, Landroidx/constraintlayout/widget/ConstraintAttribute;
-    ->getName()Ljava/lang/String;
+    invoke-virtual/range {p0 .. p0}, Landroidx/constraintlayout/widget/ConstraintAttribute;->getName()Ljava/lang/String;
 
     .line 25
     .line 26
@@ -101,14 +97,12 @@
     move-result-object v9
 
     .line 28
-    invoke-virtual {v8, v9}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v8, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 29
     .line 30
     .line 31
-    invoke-virtual {v8}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v8}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 32
     .line 33
@@ -117,13 +111,11 @@
 
     .line 35
     :try_start_0
-    sget-object v9, Landroidx/constraintlayout/motion/utils/CustomSupport$1;
-    ->$SwitchMap$androidx$constraintlayout$widget$ConstraintAttribute$AttributeType:[I
+    sget-object v9, Landroidx/constraintlayout/motion/utils/CustomSupport$1;->$SwitchMap$androidx$constraintlayout$widget$ConstraintAttribute$AttributeType:[I
 
     .line 36
     .line 37
-    invoke-virtual/range {p0 .. p0}, Landroidx/constraintlayout/widget/ConstraintAttribute;
-    ->getType()Landroidx/constraintlayout/widget/ConstraintAttribute$AttributeType;
+    invoke-virtual/range {p0 .. p0}, Landroidx/constraintlayout/widget/ConstraintAttribute;->getType()Landroidx/constraintlayout/widget/ConstraintAttribute$AttributeType;
 
     .line 38
     .line 39
@@ -131,8 +123,7 @@
     move-result-object v10
 
     .line 41
-    invoke-virtual {v10}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v10}, Ljava/lang/Enum;->ordinal()I
 
     .line 42
     .line 43
@@ -154,13 +145,11 @@
     const/4 v11, 0x2
 
     .line 49
-    sget-object v12, Ljava/lang/Integer;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v12, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
 
     .line 50
     .line 51
-    sget-object v13, Ljava/lang/Float;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v13, Ljava/lang/Float;->TYPE:Ljava/lang/Class;
 
     .line 52
     .line 53
@@ -194,8 +183,7 @@
 
     .line 68
     .line 69
-    invoke-virtual {v7, v8, v6}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v7, v8, v6}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 70
     .line 71
@@ -207,8 +195,7 @@
 
     .line 74
     .line 75
-    invoke-static {v7}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v7}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     .line 76
     .line 77
@@ -224,8 +211,7 @@
 
     .line 82
     .line 83
-    invoke-virtual {v6, v1, v2}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;    
+    invoke-virtual {v6, v1, v2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     return-void
 
     .line 87
@@ -258,8 +244,7 @@
 
     .line 97
     .line 98
-    sget-object v9, Ljava/lang/Boolean;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v9, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
 
     .line 99
     .line 100
@@ -267,8 +252,7 @@
 
     .line 101
     .line 102
-    invoke-virtual {v7, v8, v6}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v7, v8, v6}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 103
     .line 104
@@ -303,8 +287,7 @@
 
     .line 117
     :goto_0
-    invoke-static {v7}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v7}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 118
     .line 119
@@ -320,8 +303,7 @@
 
     .line 124
     .line 125
-    invoke-virtual {v6, v1, v2}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;    
+    invoke-virtual {v6, v1, v2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     return-void
 
     .line 129
@@ -334,14 +316,12 @@
 
     .line 132
     .line 133
-    invoke-direct {v2, v6}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 134
     .line 135
     .line 136
-    invoke-virtual/range {p0 .. p0}, Landroidx/constraintlayout/widget/ConstraintAttribute;
-    ->getName()Ljava/lang/String;
+    invoke-virtual/range {p0 .. p0}, Landroidx/constraintlayout/widget/ConstraintAttribute;->getName()Ljava/lang/String;
 
     .line 137
     .line 138
@@ -349,14 +329,12 @@
     move-result-object v6
 
     .line 140
-    invoke-virtual {v2, v6}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 141
     .line 142
     .line 143
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 144
     .line 145
@@ -364,8 +342,7 @@
     move-result-object v2
 
     .line 147
-    invoke-direct {v0, v2}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
     .line 148
     .line 149
@@ -382,8 +359,7 @@
 
     .line 154
     .line 155
-    invoke-virtual {v7, v8, v6}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v7, v8, v6}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 156
     .line 157
@@ -398,8 +374,7 @@
     float-to-double v12, v7
 
     .line 162
-    invoke-static {v12, v13, v14, v15}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v12, v13, v14, v15}, Ljava/lang/Math;->pow(DD)D
 
     .line 163
     .line 164
@@ -417,8 +392,7 @@
     float-to-int v7, v7
 
     .line 170
-    invoke-static {v7}, Landroidx/constraintlayout/motion/utils/CustomSupport;
-    ->clamp(I)I
+    invoke-static {v7}, Landroidx/constraintlayout/motion/utils/CustomSupport;->clamp(I)I
 
     .line 171
     .line 172
@@ -433,8 +407,7 @@
     float-to-double v12, v9
 
     .line 177
-    invoke-static {v12, v13, v14, v15}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v12, v13, v14, v15}, Ljava/lang/Math;->pow(DD)D
 
     .line 178
     .line 179
@@ -452,8 +425,7 @@
     float-to-int v9, v9
 
     .line 185
-    invoke-static {v9}, Landroidx/constraintlayout/motion/utils/CustomSupport;
-    ->clamp(I)I
+    invoke-static {v9}, Landroidx/constraintlayout/motion/utils/CustomSupport;->clamp(I)I
 
     .line 186
     .line 187
@@ -468,8 +440,7 @@
     float-to-double v11, v11
 
     .line 192
-    invoke-static {v11, v12, v14, v15}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v11, v12, v14, v15}, Ljava/lang/Math;->pow(DD)D
 
     .line 193
     .line 194
@@ -487,8 +458,7 @@
     float-to-int v11, v11
 
     .line 200
-    invoke-static {v11}, Landroidx/constraintlayout/motion/utils/CustomSupport;
-    ->clamp(I)I
+    invoke-static {v11}, Landroidx/constraintlayout/motion/utils/CustomSupport;->clamp(I)I
 
     .line 201
     .line 202
@@ -507,8 +477,7 @@
     float-to-int v10, v10
 
     .line 209
-    invoke-static {v10}, Landroidx/constraintlayout/motion/utils/CustomSupport;
-    ->clamp(I)I
+    invoke-static {v10}, Landroidx/constraintlayout/motion/utils/CustomSupport;->clamp(I)I
 
     .line 210
     .line 211
@@ -537,8 +506,7 @@
     or-int/2addr v7, v11
 
     .line 222
-    invoke-static {v7}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 223
     .line 224
@@ -554,8 +522,7 @@
 
     .line 229
     .line 230
-    invoke-virtual {v6, v1, v2}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;    
+    invoke-virtual {v6, v1, v2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     return-void
 
     .line 234
@@ -572,8 +539,7 @@
 
     .line 239
     .line 240
-    invoke-virtual {v7, v8, v6}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v7, v8, v6}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 241
     .line 242
@@ -588,8 +554,7 @@
     float-to-double v12, v7
 
     .line 247
-    invoke-static {v12, v13, v14, v15}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v12, v13, v14, v15}, Ljava/lang/Math;->pow(DD)D
 
     .line 248
     .line 249
@@ -607,8 +572,7 @@
     float-to-int v7, v7
 
     .line 255
-    invoke-static {v7}, Landroidx/constraintlayout/motion/utils/CustomSupport;
-    ->clamp(I)I
+    invoke-static {v7}, Landroidx/constraintlayout/motion/utils/CustomSupport;->clamp(I)I
 
     .line 256
     .line 257
@@ -623,8 +587,7 @@
     float-to-double v12, v9
 
     .line 262
-    invoke-static {v12, v13, v14, v15}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v12, v13, v14, v15}, Ljava/lang/Math;->pow(DD)D
 
     .line 263
     .line 264
@@ -642,8 +605,7 @@
     float-to-int v9, v9
 
     .line 270
-    invoke-static {v9}, Landroidx/constraintlayout/motion/utils/CustomSupport;
-    ->clamp(I)I
+    invoke-static {v9}, Landroidx/constraintlayout/motion/utils/CustomSupport;->clamp(I)I
 
     .line 271
     .line 272
@@ -658,8 +620,7 @@
     float-to-double v11, v11
 
     .line 277
-    invoke-static {v11, v12, v14, v15}, Ljava/lang/Math;
-    ->pow(DD)D
+    invoke-static {v11, v12, v14, v15}, Ljava/lang/Math;->pow(DD)D
 
     .line 278
     .line 279
@@ -677,8 +638,7 @@
     float-to-int v11, v11
 
     .line 285
-    invoke-static {v11}, Landroidx/constraintlayout/motion/utils/CustomSupport;
-    ->clamp(I)I
+    invoke-static {v11}, Landroidx/constraintlayout/motion/utils/CustomSupport;->clamp(I)I
 
     .line 286
     .line 287
@@ -697,8 +657,7 @@
     float-to-int v10, v10
 
     .line 294
-    invoke-static {v10}, Landroidx/constraintlayout/motion/utils/CustomSupport;
-    ->clamp(I)I
+    invoke-static {v10}, Landroidx/constraintlayout/motion/utils/CustomSupport;->clamp(I)I
 
     .line 295
     .line 296
@@ -731,14 +690,12 @@
 
     .line 308
     .line 309
-    invoke-direct {v9}, Landroid/graphics/drawable/ColorDrawable;
-    -><init>()V
+    invoke-direct {v9}, Landroid/graphics/drawable/ColorDrawable;-><init>()V
 
     .line 310
     .line 311
     .line 312
-    invoke-virtual {v9, v7}, Landroid/graphics/drawable/ColorDrawable;
-    ->setColor(I)V
+    invoke-virtual {v9, v7}, Landroid/graphics/drawable/ColorDrawable;->setColor(I)V
 
     .line 313
     .line 314
@@ -751,8 +708,7 @@
 
     .line 318
     .line 319
-    invoke-virtual {v6, v1, v2}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;    
+    invoke-virtual {v6, v1, v2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     return-void
 
     .line 323
@@ -765,8 +721,7 @@
 
     .line 326
     .line 327
-    invoke-virtual {v7, v8, v6}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v7, v8, v6}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 328
     .line 329
@@ -778,8 +733,7 @@
 
     .line 332
     .line 333
-    invoke-static {v7}, Ljava/lang/Float;
-    ->valueOf(F)Ljava/lang/Float;
+    invoke-static {v7}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
     .line 334
     .line 335
@@ -795,8 +749,7 @@
 
     .line 340
     .line 341
-    invoke-virtual {v6, v1, v2}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;    
+    invoke-virtual {v6, v1, v2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     return-void
 
     .line 345
@@ -809,8 +762,7 @@
 
     .line 348
     .line 349
-    invoke-virtual {v7, v8, v6}, Ljava/lang/Class;
-    ->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v7, v8, v6}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 350
     .line 351
@@ -825,8 +777,7 @@
     float-to-int v7, v7
 
     .line 356
-    invoke-static {v7}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 357
     .line 358
@@ -842,8 +793,7 @@
 
     .line 363
     .line 364
-    invoke-virtual {v6, v1, v2}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v6, v1, v2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_1
     .catch Ljava/lang/NoSuchMethodException; {:try_start_1 .. :try_end_1} :catch_2
     .catch Ljava/lang/IllegalAccessException; {:try_start_1 .. :try_end_1} :catch_1
@@ -855,8 +805,7 @@
 
     .line 369
     .line 370
-    invoke-static {v2, v8, v4}, LA/d;
-    ->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2, v8, v4}, LA/d;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 371
     .line 372
@@ -864,8 +813,7 @@
     move-result-object v2
 
     .line 374
-    invoke-static {v1}, Landroidx/constraintlayout/motion/widget/Debug;
-    ->getName(Landroid/view/View;)Ljava/lang/String;
+    invoke-static {v1}, Landroidx/constraintlayout/motion/widget/Debug;->getName(Landroid/view/View;)Ljava/lang/String;
 
     .line 375
     .line 376
@@ -873,20 +821,17 @@
     move-result-object v1
 
     .line 378
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 379
     .line 380
     .line 381
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 382
     .line 383
     .line 384
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 385
     .line 386
@@ -894,8 +839,7 @@
     move-result-object v1
 
     .line 388
-    invoke-static {v5, v1, v0}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v5, v1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 389
     .line 390
@@ -908,8 +852,7 @@
 
     .line 393
     .line 394
-    invoke-static {v2, v8, v4}, LA/d;
-    ->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2, v8, v4}, LA/d;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 395
     .line 396
@@ -917,8 +860,7 @@
     move-result-object v2
 
     .line 398
-    invoke-static {v1}, Landroidx/constraintlayout/motion/widget/Debug;
-    ->getName(Landroid/view/View;)Ljava/lang/String;
+    invoke-static {v1}, Landroidx/constraintlayout/motion/widget/Debug;->getName(Landroid/view/View;)Ljava/lang/String;
 
     .line 399
     .line 400
@@ -926,20 +868,17 @@
     move-result-object v1
 
     .line 402
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 403
     .line 404
     .line 405
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 406
     .line 407
     .line 408
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 409
     .line 410
@@ -947,8 +886,7 @@
     move-result-object v1
 
     .line 412
-    invoke-static {v5, v1, v0}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v5, v1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 413
     .line 414
@@ -961,8 +899,7 @@
 
     .line 417
     .line 418
-    invoke-static {v2, v8, v4}, LA/d;
-    ->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v2, v8, v4}, LA/d;->s(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 419
     .line 420
@@ -970,8 +907,7 @@
     move-result-object v2
 
     .line 422
-    invoke-static {v1}, Landroidx/constraintlayout/motion/widget/Debug;
-    ->getName(Landroid/view/View;)Ljava/lang/String;
+    invoke-static {v1}, Landroidx/constraintlayout/motion/widget/Debug;->getName(Landroid/view/View;)Ljava/lang/String;
 
     .line 423
     .line 424
@@ -979,20 +915,17 @@
     move-result-object v1
 
     .line 426
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 427
     .line 428
     .line 429
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 430
     .line 431
     .line 432
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 433
     .line 434
@@ -1000,8 +933,7 @@
     move-result-object v1
 
     .line 436
-    invoke-static {v5, v1, v0}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v5, v1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 437
     .line 438

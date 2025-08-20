@@ -60,8 +60,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -70,14 +69,12 @@
 
     .line 5
     .line 6
-    invoke-direct {v0, p0}, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture$1;
-    -><init>(Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;)V
+    invoke-direct {v0, p0}, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture$1;-><init>(Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;)V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;
-    ->delegate:Landroidx/concurrent/futures/AbstractResolvableFuture;
+    iput-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;->delegate:Landroidx/concurrent/futures/AbstractResolvableFuture;
 
     .line 10
     .line 11
@@ -85,14 +82,12 @@
 
     .line 12
     .line 13
-    invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;
-    -><init>(Ljava/lang/Object;)V
+    invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;
-    ->completerWeakReference:Ljava/lang/ref/WeakReference;    
+    iput-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;->completerWeakReference:Ljava/lang/ref/WeakReference;
     return-void
 .end method
 
@@ -110,13 +105,11 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;
-    ->delegate:Landroidx/concurrent/futures/AbstractResolvableFuture;
+    iget-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;->delegate:Landroidx/concurrent/futures/AbstractResolvableFuture;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/concurrent/futures/AbstractResolvableFuture;
-    ->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
+    invoke-virtual {v0, p1, p2}, Landroidx/concurrent/futures/AbstractResolvableFuture;->addListener(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
 return-void
 .end method
 
@@ -124,13 +117,11 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;
-    ->completerWeakReference:Ljava/lang/ref/WeakReference;
+    iget-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;->completerWeakReference:Ljava/lang/ref/WeakReference;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -142,13 +133,11 @@ return-void
 
     .line 8
     .line 9
-    iget-object v1, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;
-    ->delegate:Landroidx/concurrent/futures/AbstractResolvableFuture;
+    iget-object v1, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;->delegate:Landroidx/concurrent/futures/AbstractResolvableFuture;
 
     .line 10
     .line 11
-    invoke-virtual {v1, p1}, Landroidx/concurrent/futures/AbstractResolvableFuture;
-    ->cancel(Z)Z
+    invoke-virtual {v1, p1}, Landroidx/concurrent/futures/AbstractResolvableFuture;->cancel(Z)Z
 
     .line 12
     .line 13
@@ -164,8 +153,7 @@ return-void
 
     .line 18
     .line 19
-    invoke-virtual {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;
-    ->fireCancellationListeners()V
+    invoke-virtual {v0}, Landroidx/concurrent/futures/CallbackToFutureAdapter$Completer;->fireCancellationListeners()V
 
     .line 20
     .line 21
@@ -178,13 +166,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;
-    ->delegate:Landroidx/concurrent/futures/AbstractResolvableFuture;
+    iget-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;->delegate:Landroidx/concurrent/futures/AbstractResolvableFuture;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/concurrent/futures/AbstractResolvableFuture;
-    ->cancel(Z)Z
+    invoke-virtual {v0, p1}, Landroidx/concurrent/futures/AbstractResolvableFuture;->cancel(Z)Z
 
     .line 4
     .line 5
@@ -203,11 +189,9 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;
-    ->delegate:Landroidx/concurrent/futures/AbstractResolvableFuture;
+    iget-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;->delegate:Landroidx/concurrent/futures/AbstractResolvableFuture;
 
-    invoke-virtual {v0}, Landroidx/concurrent/futures/AbstractResolvableFuture;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Landroidx/concurrent/futures/AbstractResolvableFuture;->get()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -229,11 +213,9 @@ return-void
     .end annotation
 
     .line 2
-    iget-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;
-    ->delegate:Landroidx/concurrent/futures/AbstractResolvableFuture;
+    iget-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;->delegate:Landroidx/concurrent/futures/AbstractResolvableFuture;
 
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/concurrent/futures/AbstractResolvableFuture;
-    ->get(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/concurrent/futures/AbstractResolvableFuture;->get(JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -244,13 +226,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;
-    ->delegate:Landroidx/concurrent/futures/AbstractResolvableFuture;
+    iget-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;->delegate:Landroidx/concurrent/futures/AbstractResolvableFuture;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/concurrent/futures/AbstractResolvableFuture;
-    ->isCancelled()Z
+    invoke-virtual {v0}, Landroidx/concurrent/futures/AbstractResolvableFuture;->isCancelled()Z
 
     .line 4
     .line 5
@@ -264,13 +244,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;
-    ->delegate:Landroidx/concurrent/futures/AbstractResolvableFuture;
+    iget-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;->delegate:Landroidx/concurrent/futures/AbstractResolvableFuture;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/concurrent/futures/AbstractResolvableFuture;
-    ->isDone()Z
+    invoke-virtual {v0}, Landroidx/concurrent/futures/AbstractResolvableFuture;->isDone()Z
 
     .line 4
     .line 5
@@ -289,13 +267,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;
-    ->delegate:Landroidx/concurrent/futures/AbstractResolvableFuture;
+    iget-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;->delegate:Landroidx/concurrent/futures/AbstractResolvableFuture;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/concurrent/futures/AbstractResolvableFuture;
-    ->set(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Landroidx/concurrent/futures/AbstractResolvableFuture;->set(Ljava/lang/Object;)Z
 
     .line 4
     .line 5
@@ -309,13 +285,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;
-    ->delegate:Landroidx/concurrent/futures/AbstractResolvableFuture;
+    iget-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;->delegate:Landroidx/concurrent/futures/AbstractResolvableFuture;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/concurrent/futures/AbstractResolvableFuture;
-    ->setException(Ljava/lang/Throwable;)Z
+    invoke-virtual {v0, p1}, Landroidx/concurrent/futures/AbstractResolvableFuture;->setException(Ljava/lang/Throwable;)Z
 
     .line 4
     .line 5
@@ -329,13 +303,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;
-    ->delegate:Landroidx/concurrent/futures/AbstractResolvableFuture;
+    iget-object v0, p0, Landroidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture;->delegate:Landroidx/concurrent/futures/AbstractResolvableFuture;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/concurrent/futures/AbstractResolvableFuture;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Landroidx/concurrent/futures/AbstractResolvableFuture;->toString()Ljava/lang/String;
 
     .line 4
     .line 5

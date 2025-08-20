@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/provider/FontRequestWorker;
-    ->requestFontAsync(Landroid/content/Context;Landroidx/core/provider/FontRequest;ILjava/util/concurrent/Executor;Landroidx/core/provider/CallbackWithHandler;)Landroid/graphics/Typeface;
+    value = Landroidx/core/provider/FontRequestWorker;->requestFontAsync(Landroid/content/Context;Landroidx/core/provider/FontRequest;ILjava/util/concurrent/Executor;Landroidx/core/provider/CallbackWithHandler;)Landroid/graphics/Typeface;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -41,13 +40,11 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/core/provider/FontRequestWorker$2;
-    ->val$callback:Landroidx/core/provider/CallbackWithHandler;
+    iput-object p1, p0, Landroidx/core/provider/FontRequestWorker$2;->val$callback:Landroidx/core/provider/CallbackWithHandler;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
@@ -67,16 +64,13 @@
 
     const/4 v0, -0x3
 
-    invoke-direct {p1, v0}, Landroidx/core/provider/FontRequestWorker$TypefaceResult;
-    -><init>(I)V
+    invoke-direct {p1, v0}, Landroidx/core/provider/FontRequestWorker$TypefaceResult;-><init>(I)V
 
     .line 3
     :cond_0
-    iget-object v0, p0, Landroidx/core/provider/FontRequestWorker$2;
-    ->val$callback:Landroidx/core/provider/CallbackWithHandler;
+    iget-object v0, p0, Landroidx/core/provider/FontRequestWorker$2;->val$callback:Landroidx/core/provider/CallbackWithHandler;
 
-    invoke-virtual {v0, p1}, Landroidx/core/provider/CallbackWithHandler;
-    ->onTypefaceResult(Landroidx/core/provider/FontRequestWorker$TypefaceResult;)V
+    invoke-virtual {v0, p1}, Landroidx/core/provider/CallbackWithHandler;->onTypefaceResult(Landroidx/core/provider/FontRequestWorker$TypefaceResult;)V
 return-void
 .end method
 
@@ -86,8 +80,7 @@ return-void
     .line 1
     check-cast p1, Landroidx/core/provider/FontRequestWorker$TypefaceResult;
 
-    invoke-virtual {p0, p1}, Landroidx/core/provider/FontRequestWorker$2;
-    ->accept(Landroidx/core/provider/FontRequestWorker$TypefaceResult;)V
+    invoke-virtual {p0, p1}, Landroidx/core/provider/FontRequestWorker$2;->accept(Landroidx/core/provider/FontRequestWorker$TypefaceResult;)V
 return-void
 .end method
 

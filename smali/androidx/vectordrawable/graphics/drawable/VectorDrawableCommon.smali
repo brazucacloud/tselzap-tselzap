@@ -15,8 +15,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/graphics/drawable/Drawable;
-    -><init>()V
+    invoke-direct {p0}, Landroid/graphics/drawable/Drawable;-><init>()V
     return-void
 .end method
 
@@ -26,8 +25,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;
-    ->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
 
     .line 2
     .line 3
@@ -35,8 +33,7 @@
 
     .line 4
     .line 5
-    invoke-static {v0, p1}, Landroidx/core/graphics/drawable/DrawableCompat;
-    ->applyTheme(Landroid/graphics/drawable/Drawable;Landroid/content/res/Resources$Theme;)V
+    invoke-static {v0, p1}, Landroidx/core/graphics/drawable/DrawableCompat;->applyTheme(Landroid/graphics/drawable/Drawable;Landroid/content/res/Resources$Theme;)V
 
     .line 6
     .line 7
@@ -49,8 +46,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;
-    ->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
 
     .line 2
     .line 3
@@ -58,14 +54,12 @@
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;
-    ->clearColorFilter()V
+    invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->clearColorFilter()V
     return-void
 
     .line 9
     :cond_0
-    invoke-super {p0}, Landroid/graphics/drawable/Drawable;
-    ->clearColorFilter()V
+    invoke-super {p0}, Landroid/graphics/drawable/Drawable;->clearColorFilter()V
 return-void
 .end method
 
@@ -73,8 +67,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;
-    ->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
 
     .line 2
     .line 3
@@ -82,8 +75,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;
-    ->getCurrent()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->getCurrent()Landroid/graphics/drawable/Drawable;
 
     .line 6
     .line 7
@@ -94,8 +86,7 @@ return-void
 
     .line 10
     :cond_0
-    invoke-super {p0}, Landroid/graphics/drawable/Drawable;
-    ->getCurrent()Landroid/graphics/drawable/Drawable;
+    invoke-super {p0}, Landroid/graphics/drawable/Drawable;->getCurrent()Landroid/graphics/drawable/Drawable;
 
     .line 11
     .line 12
@@ -109,8 +100,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;
-    ->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
 
     .line 2
     .line 3
@@ -118,8 +108,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;
-    ->getMinimumHeight()I
+    invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->getMinimumHeight()I
 
     .line 6
     .line 7
@@ -130,8 +119,7 @@ return-void
 
     .line 10
     :cond_0
-    invoke-super {p0}, Landroid/graphics/drawable/Drawable;
-    ->getMinimumHeight()I
+    invoke-super {p0}, Landroid/graphics/drawable/Drawable;->getMinimumHeight()I
 
     .line 11
     .line 12
@@ -145,8 +133,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;
-    ->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
 
     .line 2
     .line 3
@@ -154,8 +141,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;
-    ->getMinimumWidth()I
+    invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->getMinimumWidth()I
 
     .line 6
     .line 7
@@ -166,8 +152,7 @@ return-void
 
     .line 10
     :cond_0
-    invoke-super {p0}, Landroid/graphics/drawable/Drawable;
-    ->getMinimumWidth()I
+    invoke-super {p0}, Landroid/graphics/drawable/Drawable;->getMinimumWidth()I
 
     .line 11
     .line 12
@@ -181,8 +166,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;
-    ->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
 
     .line 2
     .line 3
@@ -190,8 +174,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;
-    ->getPadding(Landroid/graphics/Rect;)Z
+    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->getPadding(Landroid/graphics/Rect;)Z
 
     .line 6
     .line 7
@@ -202,8 +185,7 @@ return-void
 
     .line 10
     :cond_0
-    invoke-super {p0, p1}, Landroid/graphics/drawable/Drawable;
-    ->getPadding(Landroid/graphics/Rect;)Z
+    invoke-super {p0, p1}, Landroid/graphics/drawable/Drawable;->getPadding(Landroid/graphics/Rect;)Z
 
     .line 11
     .line 12
@@ -217,8 +199,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;
-    ->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
 
     .line 2
     .line 3
@@ -226,8 +207,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;
-    ->getState()[I
+    invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->getState()[I
 
     .line 6
     .line 7
@@ -238,8 +218,7 @@ return-void
 
     .line 10
     :cond_0
-    invoke-super {p0}, Landroid/graphics/drawable/Drawable;
-    ->getState()[I
+    invoke-super {p0}, Landroid/graphics/drawable/Drawable;->getState()[I
 
     .line 11
     .line 12
@@ -253,8 +232,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;
-    ->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
 
     .line 2
     .line 3
@@ -262,8 +240,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;
-    ->getTransparentRegion()Landroid/graphics/Region;
+    invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->getTransparentRegion()Landroid/graphics/Region;
 
     .line 6
     .line 7
@@ -274,8 +251,7 @@ return-void
 
     .line 10
     :cond_0
-    invoke-super {p0}, Landroid/graphics/drawable/Drawable;
-    ->getTransparentRegion()Landroid/graphics/Region;
+    invoke-super {p0}, Landroid/graphics/drawable/Drawable;->getTransparentRegion()Landroid/graphics/Region;
 
     .line 11
     .line 12
@@ -289,8 +265,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;
-    ->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
 
     .line 2
     .line 3
@@ -298,8 +273,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-static {v0}, Landroidx/core/graphics/drawable/DrawableCompat;
-    ->jumpToCurrentState(Landroid/graphics/drawable/Drawable;)V
+    invoke-static {v0}, Landroidx/core/graphics/drawable/DrawableCompat;->jumpToCurrentState(Landroid/graphics/drawable/Drawable;)V
 
     .line 6
     .line 7
@@ -312,8 +286,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;
-    ->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
 
     .line 2
     .line 3
@@ -321,14 +294,12 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;
-    ->setBounds(Landroid/graphics/Rect;)V
+    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->setBounds(Landroid/graphics/Rect;)V
 return-void
 
     .line 9
     :cond_0
-    invoke-super {p0, p1}, Landroid/graphics/drawable/Drawable;
-    ->onBoundsChange(Landroid/graphics/Rect;)V
+    invoke-super {p0, p1}, Landroid/graphics/drawable/Drawable;->onBoundsChange(Landroid/graphics/Rect;)V
 return-void
 .end method
 
@@ -336,8 +307,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;
-    ->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
 
     .line 2
     .line 3
@@ -345,8 +315,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;
-    ->setLevel(I)Z
+    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->setLevel(I)Z
 
     .line 6
     .line 7
@@ -357,8 +326,7 @@ return-void
 
     .line 10
     :cond_0
-    invoke-super {p0, p1}, Landroid/graphics/drawable/Drawable;
-    ->onLevelChange(I)Z
+    invoke-super {p0, p1}, Landroid/graphics/drawable/Drawable;->onLevelChange(I)Z
 
     .line 11
     .line 12
@@ -372,8 +340,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;
-    ->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
 
     .line 2
     .line 3
@@ -381,14 +348,12 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;
-    ->setChangingConfigurations(I)V
+    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->setChangingConfigurations(I)V
 return-void
 
     .line 9
     :cond_0
-    invoke-super {p0, p1}, Landroid/graphics/drawable/Drawable;
-    ->setChangingConfigurations(I)V
+    invoke-super {p0, p1}, Landroid/graphics/drawable/Drawable;->setChangingConfigurations(I)V
 return-void
 .end method
 
@@ -396,8 +361,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;
-    ->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
 
     .line 2
     .line 3
@@ -405,14 +369,12 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1, p2}, Landroid/graphics/drawable/Drawable;
-    ->setColorFilter(ILandroid/graphics/PorterDuff$Mode;)V
+    invoke-virtual {v0, p1, p2}, Landroid/graphics/drawable/Drawable;->setColorFilter(ILandroid/graphics/PorterDuff$Mode;)V
 return-void
 
     .line 9
     :cond_0
-    invoke-super {p0, p1, p2}, Landroid/graphics/drawable/Drawable;
-    ->setColorFilter(ILandroid/graphics/PorterDuff$Mode;)V
+    invoke-super {p0, p1, p2}, Landroid/graphics/drawable/Drawable;->setColorFilter(ILandroid/graphics/PorterDuff$Mode;)V
 return-void
 .end method
 
@@ -420,8 +382,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;
-    ->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
 
     .line 2
     .line 3
@@ -429,8 +390,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;
-    ->setFilterBitmap(Z)V
+    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->setFilterBitmap(Z)V
 
     .line 6
     .line 7
@@ -443,8 +403,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;
-    ->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
 
     .line 2
     .line 3
@@ -452,8 +411,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-static {v0, p1, p2}, Landroidx/core/graphics/drawable/DrawableCompat;
-    ->setHotspot(Landroid/graphics/drawable/Drawable;FF)V
+    invoke-static {v0, p1, p2}, Landroidx/core/graphics/drawable/DrawableCompat;->setHotspot(Landroid/graphics/drawable/Drawable;FF)V
 
     .line 6
     .line 7
@@ -466,8 +424,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;
-    ->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
 
     .line 2
     .line 3
@@ -475,8 +432,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-static {v0, p1, p2, p3, p4}, Landroidx/core/graphics/drawable/DrawableCompat;
-    ->setHotspotBounds(Landroid/graphics/drawable/Drawable;IIII)V
+    invoke-static {v0, p1, p2, p3, p4}, Landroidx/core/graphics/drawable/DrawableCompat;->setHotspotBounds(Landroid/graphics/drawable/Drawable;IIII)V
 
     .line 6
     .line 7
@@ -489,8 +445,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;
-    ->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
+    iget-object v0, p0, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCommon;->mDelegateDrawable:Landroid/graphics/drawable/Drawable;
 
     .line 2
     .line 3
@@ -498,8 +453,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;
-    ->setState([I)Z
+    invoke-virtual {v0, p1}, Landroid/graphics/drawable/Drawable;->setState([I)Z
 
     .line 6
     .line 7
@@ -510,8 +464,7 @@ return-void
 
     .line 10
     :cond_0
-    invoke-super {p0, p1}, Landroid/graphics/drawable/Drawable;
-    ->setState([I)Z
+    invoke-super {p0, p1}, Landroid/graphics/drawable/Drawable;->setState([I)Z
 
     .line 11
     .line 12

@@ -12,8 +12,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/internal/common/zzn;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/internal/common/zzn;-><init>()V
 
     .line 2
     .line 3
@@ -22,8 +21,7 @@
 
     .line 5
     .line 6
-    iput-object p1, p0, Lcom/google/android/gms/internal/common/zzp;
-    ->zza:Ljava/lang/String;
+    iput-object p1, p0, Lcom/google/android/gms/internal/common/zzp;->zza:Ljava/lang/String;
 
     .line 7
     .line 8
@@ -35,8 +33,7 @@
 .method public final toString()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/google/android/gms/internal/common/zzp;
-    ->zza:Ljava/lang/String;
+    iget-object v0, p0, Lcom/google/android/gms/internal/common/zzp;->zza:Ljava/lang/String;
 
     return-object v0
 .end method

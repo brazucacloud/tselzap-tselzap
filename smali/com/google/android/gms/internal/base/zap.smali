@@ -11,8 +11,7 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x1f
 
@@ -26,8 +25,7 @@
     const/4 v0, 0x0
 
     :goto_0
-    sput v0, Lcom/google/android/gms/internal/base/zap;
-    ->zaa:I
+    sput v0, Lcom/google/android/gms/internal/base/zap;->zaa:I
 
     return-void
 .end method

@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/navigation/NavDeepLink;
-    -><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    value = Landroidx/navigation/NavDeepLink;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -33,13 +32,11 @@
 .method public constructor <init>(Landroidx/navigation/NavDeepLink;)V
     .locals 0
 
-    iput-object p1, p0, Landroidx/navigation/NavDeepLink$isParameterizedQuery$2;
-    ->this$0:Landroidx/navigation/NavDeepLink;
+    iput-object p1, p0, Landroidx/navigation/NavDeepLink$isParameterizedQuery$2;->this$0:Landroidx/navigation/NavDeepLink;
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
-    -><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
 return-void
 .end method
 
@@ -49,31 +46,25 @@ return-void
     .locals 1
 
     .line 2
-    iget-object v0, p0, Landroidx/navigation/NavDeepLink$isParameterizedQuery$2;
-    ->this$0:Landroidx/navigation/NavDeepLink;
+    iget-object v0, p0, Landroidx/navigation/NavDeepLink$isParameterizedQuery$2;->this$0:Landroidx/navigation/NavDeepLink;
 
-    invoke-virtual {v0}, Landroidx/navigation/NavDeepLink;
-    ->getUriPattern()Ljava/lang/String;
+    invoke-virtual {v0}, Landroidx/navigation/NavDeepLink;->getUriPattern()Ljava/lang/String;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Landroidx/navigation/NavDeepLink$isParameterizedQuery$2;
-    ->this$0:Landroidx/navigation/NavDeepLink;
+    iget-object v0, p0, Landroidx/navigation/NavDeepLink$isParameterizedQuery$2;->this$0:Landroidx/navigation/NavDeepLink;
 
-    invoke-virtual {v0}, Landroidx/navigation/NavDeepLink;
-    ->getUriPattern()Ljava/lang/String;
+    invoke-virtual {v0}, Landroidx/navigation/NavDeepLink;->getUriPattern()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v0}, Landroid/net/Uri;
-    ->parse(Ljava/lang/String;)Landroid/net/Uri;
+    invoke-static {v0}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Landroid/net/Uri;
-    ->getQuery()Ljava/lang/String;
+    invoke-virtual {v0}, Landroid/net/Uri;->getQuery()Ljava/lang/String;
 
     move-result-object v0
 
@@ -87,8 +78,7 @@ return-void
     const/4 v0, 0x0
 
     :goto_0
-    invoke-static {v0}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v0
 
@@ -99,8 +89,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/navigation/NavDeepLink$isParameterizedQuery$2;
-    ->invoke()Ljava/lang/Boolean;
+    invoke-virtual {p0}, Landroidx/navigation/NavDeepLink$isParameterizedQuery$2;->invoke()Ljava/lang/Boolean;
 
     move-result-object v0
 

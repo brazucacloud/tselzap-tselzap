@@ -5,8 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/recyclerview/widget/SnapHelper;
-    ->createSnapScroller(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)Landroidx/recyclerview/widget/LinearSmoothScroller;
+    value = Landroidx/recyclerview/widget/SnapHelper;->createSnapScroller(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)Landroidx/recyclerview/widget/LinearSmoothScroller;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -24,13 +23,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/recyclerview/widget/SnapHelper$2;
-    ->this$0:Landroidx/recyclerview/widget/SnapHelper;
+    iput-object p1, p0, Landroidx/recyclerview/widget/SnapHelper$2;->this$0:Landroidx/recyclerview/widget/SnapHelper;
 
     .line 2
     .line 3
-    invoke-direct {p0, p2}, Landroidx/recyclerview/widget/LinearSmoothScroller;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p2}, Landroidx/recyclerview/widget/LinearSmoothScroller;-><init>(Landroid/content/Context;)V
 return-void
 .end method
 
@@ -40,8 +37,7 @@ return-void
     .locals 1
 
     .line 1
-    iget p1, p1, Landroid/util/DisplayMetrics;
-    ->densityDpi:I
+    iget p1, p1, Landroid/util/DisplayMetrics;->densityDpi:I
 
     .line 2
     .line 3
@@ -61,13 +57,11 @@ return-void
     .locals 2
 
     .line 1
-    iget-object p2, p0, Landroidx/recyclerview/widget/SnapHelper$2;
-    ->this$0:Landroidx/recyclerview/widget/SnapHelper;
+    iget-object p2, p0, Landroidx/recyclerview/widget/SnapHelper$2;->this$0:Landroidx/recyclerview/widget/SnapHelper;
 
     .line 2
     .line 3
-    iget-object v0, p2, Landroidx/recyclerview/widget/SnapHelper;
-    ->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, p2, Landroidx/recyclerview/widget/SnapHelper;->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 4
     .line 5
@@ -79,8 +73,7 @@ return-void
 
     .line 8
     :cond_0
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;
-    ->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;->getLayoutManager()Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
 
     .line 9
     .line 10
@@ -88,8 +81,7 @@ return-void
     move-result-object v0
 
     .line 12
-    invoke-virtual {p2, v0, p1}, Landroidx/recyclerview/widget/SnapHelper;
-    ->calculateDistanceToFinalSnap(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;Landroid/view/View;)[I
+    invoke-virtual {p2, v0, p1}, Landroidx/recyclerview/widget/SnapHelper;->calculateDistanceToFinalSnap(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;Landroid/view/View;)[I
 
     .line 13
     .line 14
@@ -111,8 +103,7 @@ return-void
 
     .line 21
     .line 22
-    invoke-static {p2}, Ljava/lang/Math;
-    ->abs(I)I
+    invoke-static {p2}, Ljava/lang/Math;->abs(I)I
 
     .line 23
     .line 24
@@ -120,8 +111,7 @@ return-void
     move-result v0
 
     .line 26
-    invoke-static {p1}, Ljava/lang/Math;
-    ->abs(I)I
+    invoke-static {p1}, Ljava/lang/Math;->abs(I)I
 
     .line 27
     .line 28
@@ -129,8 +119,7 @@ return-void
     move-result v1
 
     .line 30
-    invoke-static {v0, v1}, Ljava/lang/Math;
-    ->max(II)I
+    invoke-static {v0, v1}, Ljava/lang/Math;->max(II)I
 
     .line 31
     .line 32
@@ -138,8 +127,7 @@ return-void
     move-result v0
 
     .line 34
-    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/LinearSmoothScroller;
-    ->calculateTimeForDeceleration(I)I
+    invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/LinearSmoothScroller;->calculateTimeForDeceleration(I)I
 
     .line 35
     .line 36
@@ -151,13 +139,11 @@ return-void
 
     .line 39
     .line 40
-    iget-object v1, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;
-    ->mDecelerateInterpolator:Landroid/view/animation/DecelerateInterpolator;
+    iget-object v1, p0, Landroidx/recyclerview/widget/LinearSmoothScroller;->mDecelerateInterpolator:Landroid/view/animation/DecelerateInterpolator;
 
     .line 41
     .line 42
-    invoke-virtual {p3, p2, p1, v0, v1}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;
-    ->update(IIILandroid/view/animation/Interpolator;)V
+    invoke-virtual {p3, p2, p1, v0, v1}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->update(IIILandroid/view/animation/Interpolator;)V
 
     .line 43
     .line 44

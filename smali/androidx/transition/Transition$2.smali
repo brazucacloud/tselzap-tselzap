@@ -5,8 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/transition/Transition;
-    ->runAnimator(Landroid/animation/Animator;Landroidx/collection/ArrayMap;)V
+    value = Landroidx/transition/Transition;->runAnimator(Landroid/animation/Animator;Landroidx/collection/ArrayMap;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,18 +25,15 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/transition/Transition$2;
-    ->this$0:Landroidx/transition/Transition;
+    iput-object p1, p0, Landroidx/transition/Transition$2;->this$0:Landroidx/transition/Transition;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/transition/Transition$2;
-    ->val$runningAnimators:Landroidx/collection/ArrayMap;
+    iput-object p2, p0, Landroidx/transition/Transition$2;->val$runningAnimators:Landroidx/collection/ArrayMap;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;
-    -><init>()V
+    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
     return-void
 .end method
 
@@ -47,29 +43,24 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/transition/Transition$2;
-    ->val$runningAnimators:Landroidx/collection/ArrayMap;
+    iget-object v0, p0, Landroidx/transition/Transition$2;->val$runningAnimators:Landroidx/collection/ArrayMap;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/collection/ArrayMap;
-    ->remove(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p1}, Landroidx/collection/ArrayMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/transition/Transition$2;
-    ->this$0:Landroidx/transition/Transition;
+    iget-object v0, p0, Landroidx/transition/Transition$2;->this$0:Landroidx/transition/Transition;
 
     .line 7
     .line 8
-    iget-object v0, v0, Landroidx/transition/Transition;
-    ->mCurrentAnimators:Ljava/util/ArrayList;
+    iget-object v0, v0, Landroidx/transition/Transition;->mCurrentAnimators:Ljava/util/ArrayList;
 
     .line 9
     .line 10
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
-    ->remove(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 return-void
 .end method
 
@@ -77,18 +68,15 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/transition/Transition$2;
-    ->this$0:Landroidx/transition/Transition;
+    iget-object v0, p0, Landroidx/transition/Transition$2;->this$0:Landroidx/transition/Transition;
 
     .line 2
     .line 3
-    iget-object v0, v0, Landroidx/transition/Transition;
-    ->mCurrentAnimators:Ljava/util/ArrayList;
+    iget-object v0, v0, Landroidx/transition/Transition;->mCurrentAnimators:Ljava/util/ArrayList;
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z    
+    invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
     return-void
 .end method
 

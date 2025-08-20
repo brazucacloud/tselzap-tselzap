@@ -12,13 +12,11 @@
     .locals 0
 
     .line 1
-    iput-object p2, p0, Lcom/google/android/gms/measurement/internal/zzna;
-    ->zza:Ljava/util/concurrent/atomic/AtomicReference;
+    iput-object p2, p0, Lcom/google/android/gms/measurement/internal/zzna;->zza:Ljava/util/concurrent/atomic/AtomicReference;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Lcom/google/android/gms/measurement/internal/zzgo;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/measurement/internal/zzgo;-><init>()V
 
     .line 4
     .line 5
@@ -43,8 +41,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzna;
-    ->zza:Ljava/util/concurrent/atomic/AtomicReference;
+    iget-object v0, p0, Lcom/google/android/gms/measurement/internal/zzna;->zza:Ljava/util/concurrent/atomic/AtomicReference;
 
     .line 2
     .line 3
@@ -52,24 +49,20 @@
 
     .line 4
     :try_start_0
-    iget-object v1, p0, Lcom/google/android/gms/measurement/internal/zzna;
-    ->zza:Ljava/util/concurrent/atomic/AtomicReference;
+    iget-object v1, p0, Lcom/google/android/gms/measurement/internal/zzna;->zza:Ljava/util/concurrent/atomic/AtomicReference;
 
     .line 5
     .line 6
-    invoke-virtual {v1, p1}, Ljava/util/concurrent/atomic/AtomicReference;
-    ->set(Ljava/lang/Object;)V
+    invoke-virtual {v1, p1}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
 
     .line 7
     .line 8
     .line 9
-    iget-object p1, p0, Lcom/google/android/gms/measurement/internal/zzna;
-    ->zza:Ljava/util/concurrent/atomic/AtomicReference;
+    iget-object p1, p0, Lcom/google/android/gms/measurement/internal/zzna;->zza:Ljava/util/concurrent/atomic/AtomicReference;
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->notifyAll()V
+    invoke-virtual {p1}, Ljava/lang/Object;->notifyAll()V
 
     .line 12
     .line 13

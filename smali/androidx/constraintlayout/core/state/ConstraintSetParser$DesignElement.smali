@@ -47,24 +47,20 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$DesignElement;
-    ->mId:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$DesignElement;->mId:Ljava/lang/String;
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$DesignElement;
-    ->mType:Ljava/lang/String;
+    iput-object p2, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$DesignElement;->mType:Ljava/lang/String;
 
     .line 7
     .line 8
-    iput-object p3, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$DesignElement;
-    ->mParams:Ljava/util/HashMap;    
+    iput-object p3, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$DesignElement;->mParams:Ljava/util/HashMap;
     return-void
 .end method
 
@@ -74,8 +70,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$DesignElement;
-    ->mId:Ljava/lang/String;    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$DesignElement;->mId:Ljava/lang/String;    return-object v0
 .end method
 
 .method public getParams()Ljava/util/HashMap;
@@ -91,16 +86,14 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$DesignElement;
-    ->mParams:Ljava/util/HashMap;    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$DesignElement;->mParams:Ljava/util/HashMap;    return-object v0
 .end method
 
 .method public getType()Ljava/lang/String;
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$DesignElement;
-    ->mType:Ljava/lang/String;    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$DesignElement;->mType:Ljava/lang/String;    return-object v0
 .end method
 
 .end class

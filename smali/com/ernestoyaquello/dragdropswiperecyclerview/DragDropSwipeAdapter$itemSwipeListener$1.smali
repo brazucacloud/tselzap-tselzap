@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    -><init>(Ljava/util/List;)V
+    value = Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;-><init>(Ljava/util/List;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -41,13 +40,11 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemSwipeListener$1;
-    ->this$0:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
+    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemSwipeListener$1;->this$0:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
@@ -65,19 +62,16 @@
 
     .line 2
     .line 3
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemSwipeListener$1;
-    ->this$0:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
+    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemSwipeListener$1;->this$0:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
 
     .line 7
     .line 8
-    invoke-static {v0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->access$getMutableDataSet$p(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;)Ljava/util/List;
+    invoke-static {v0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->access$getMutableDataSet$p(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;)Ljava/util/List;
 
     .line 9
     .line 10
@@ -85,8 +79,7 @@
     move-result-object v0
 
     .line 12
-    invoke-interface {v0, p1}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -94,13 +87,11 @@
     move-result-object v0
 
     .line 16
-    iget-object v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemSwipeListener$1;
-    ->this$0:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
+    iget-object v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemSwipeListener$1;->this$0:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
 
     .line 17
     .line 18
-    invoke-static {v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->access$getSwipeListener$p(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;)Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnItemSwipeListener;
+    invoke-static {v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->access$getSwipeListener$p(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;)Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnItemSwipeListener;
 
     .line 19
     .line 20
@@ -112,8 +103,7 @@
 
     .line 23
     .line 24
-    invoke-interface {v1, p1, p2, v0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnItemSwipeListener;
-    ->onItemSwiped(ILcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnItemSwipeListener$SwipeDirection;Ljava/lang/Object;)Z
+    invoke-interface {v1, p1, p2, v0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnItemSwipeListener;->onItemSwiped(ILcom/ernestoyaquello/dragdropswiperecyclerview/listener/OnItemSwipeListener$SwipeDirection;Ljava/lang/Object;)Z
 
     .line 25
     .line 26
@@ -132,13 +122,11 @@
 
     .line 32
     :cond_0
-    iget-object p2, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemSwipeListener$1;
-    ->this$0:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
+    iget-object p2, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$itemSwipeListener$1;->this$0:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
 
     .line 33
     .line 34
-    invoke-static {p2, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->access$onListItemSwiped(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;I)V
+    invoke-static {p2, p1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->access$onListItemSwiped(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;I)V
 
     .line 35
     .line 36

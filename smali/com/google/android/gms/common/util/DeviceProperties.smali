@@ -84,8 +84,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -99,8 +98,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 2
     .line 3
@@ -108,8 +106,7 @@
     move-result-object p0
 
     .line 5
-    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzj:Ljava/lang/Boolean;
+    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;->zzj:Ljava/lang/Boolean;
 
     .line 6
     .line 7
@@ -117,8 +114,7 @@
 
     .line 8
     .line 9
-    invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;
-    ->isAtLeastO()Z
+    invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;->isAtLeastO()Z
 
     .line 10
     .line 11
@@ -137,8 +133,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;
-    ->hasSystemFeature(Ljava/lang/String;)Z
+    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;->hasSystemFeature(Ljava/lang/String;)Z
 
     .line 19
     .line 20
@@ -154,8 +149,7 @@
 
     .line 25
     :cond_0
-    invoke-static {v1}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 26
     .line 27
@@ -163,19 +157,16 @@
     move-result-object p0
 
     .line 29
-    sput-object p0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzj:Ljava/lang/Boolean;
+    sput-object p0, Lcom/google/android/gms/common/util/DeviceProperties;->zzj:Ljava/lang/Boolean;
 
     .line 30
     .line 31
     :cond_1
-    sget-object p0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzj:Ljava/lang/Boolean;
+    sget-object p0, Lcom/google/android/gms/common/util/DeviceProperties;->zzj:Ljava/lang/Boolean;
 
     .line 32
     .line 33
-    invoke-virtual {p0}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 34
     .line 35
@@ -195,8 +186,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzm:Ljava/lang/Boolean;
+    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;->zzm:Ljava/lang/Boolean;
 
     .line 2
     .line 3
@@ -204,8 +194,7 @@
 
     .line 4
     .line 5
-    invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;
-    ->isAtLeastR()Z
+    invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;->isAtLeastR()Z
 
     .line 6
     .line 7
@@ -220,8 +209,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 13
     .line 14
@@ -233,8 +221,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;
-    ->hasSystemFeature(Ljava/lang/String;)Z
+    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;->hasSystemFeature(Ljava/lang/String;)Z
 
     .line 19
     .line 20
@@ -250,8 +237,7 @@
 
     .line 25
     :cond_0
-    invoke-static {v1}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 26
     .line 27
@@ -259,19 +245,16 @@
     move-result-object p0
 
     .line 29
-    sput-object p0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzm:Ljava/lang/Boolean;
+    sput-object p0, Lcom/google/android/gms/common/util/DeviceProperties;->zzm:Ljava/lang/Boolean;
 
     .line 30
     .line 31
     :cond_1
-    sget-object p0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzm:Ljava/lang/Boolean;
+    sget-object p0, Lcom/google/android/gms/common/util/DeviceProperties;->zzm:Ljava/lang/Boolean;
 
     .line 32
     .line 33
-    invoke-virtual {p0}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 34
     .line 35
@@ -291,8 +274,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzc:Ljava/lang/Boolean;
+    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;->zzc:Ljava/lang/Boolean;
 
     .line 2
     .line 3
@@ -300,8 +282,7 @@
 
     .line 4
     .line 5
-    invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;
-    ->isAtLeastR()Z
+    invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;->isAtLeastR()Z
 
     .line 6
     .line 7
@@ -316,8 +297,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 13
     .line 14
@@ -329,8 +309,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;
-    ->hasSystemFeature(Ljava/lang/String;)Z
+    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;->hasSystemFeature(Ljava/lang/String;)Z
 
     .line 19
     .line 20
@@ -346,8 +325,7 @@
 
     .line 25
     :cond_0
-    invoke-static {v1}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 26
     .line 27
@@ -355,19 +333,16 @@
     move-result-object p0
 
     .line 29
-    sput-object p0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzc:Ljava/lang/Boolean;
+    sput-object p0, Lcom/google/android/gms/common/util/DeviceProperties;->zzc:Ljava/lang/Boolean;
 
     .line 30
     .line 31
     :cond_1
-    sget-object p0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzc:Ljava/lang/Boolean;
+    sget-object p0, Lcom/google/android/gms/common/util/DeviceProperties;->zzc:Ljava/lang/Boolean;
 
     .line 32
     .line 33
-    invoke-virtual {p0}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 34
     .line 35
@@ -387,8 +362,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzg:Ljava/lang/Boolean;
+    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;->zzg:Ljava/lang/Boolean;
 
     .line 2
     .line 3
@@ -396,8 +370,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 6
     .line 7
@@ -409,8 +382,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;
-    ->hasSystemFeature(Ljava/lang/String;)Z
+    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;->hasSystemFeature(Ljava/lang/String;)Z
 
     .line 12
     .line 13
@@ -429,8 +401,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;
-    ->hasSystemFeature(Ljava/lang/String;)Z
+    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;->hasSystemFeature(Ljava/lang/String;)Z
 
     .line 21
     .line 22
@@ -446,8 +417,7 @@
 
     .line 27
     :cond_0
-    invoke-static {v1}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 28
     .line 29
@@ -455,19 +425,16 @@
     move-result-object p0
 
     .line 31
-    sput-object p0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzg:Ljava/lang/Boolean;
+    sput-object p0, Lcom/google/android/gms/common/util/DeviceProperties;->zzg:Ljava/lang/Boolean;
 
     .line 32
     .line 33
     :cond_1
-    sget-object p0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzg:Ljava/lang/Boolean;
+    sget-object p0, Lcom/google/android/gms/common/util/DeviceProperties;->zzg:Ljava/lang/Boolean;
 
     .line 34
     .line 35
-    invoke-virtual {p0}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 36
     .line 37
@@ -487,8 +454,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zza:Ljava/lang/Boolean;
+    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;->zza:Ljava/lang/Boolean;
 
     .line 2
     .line 3
@@ -496,8 +462,7 @@
 
     .line 4
     .line 5
-    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->isFoldable(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;->isFoldable(Landroid/content/Context;)Z
 
     .line 6
     .line 7
@@ -512,8 +477,7 @@
 
     .line 11
     .line 12
-    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->isTablet(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;->isTablet(Landroid/content/Context;)Z
 
     .line 13
     .line 14
@@ -528,8 +492,7 @@
 
     .line 18
     .line 19
-    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->isWearable(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;->isWearable(Landroid/content/Context;)Z
 
     .line 20
     .line 21
@@ -541,8 +504,7 @@
 
     .line 24
     .line 25
-    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzb(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;->zzb(Landroid/content/Context;)Z
 
     .line 26
     .line 27
@@ -554,8 +516,7 @@
 
     .line 30
     .line 31
-    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzi:Ljava/lang/Boolean;
+    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;->zzi:Ljava/lang/Boolean;
 
     .line 32
     .line 33
@@ -563,8 +524,7 @@
 
     .line 34
     .line 35
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 36
     .line 37
@@ -576,8 +536,7 @@
 
     .line 40
     .line 41
-    invoke-virtual {v0, v3}, Landroid/content/pm/PackageManager;
-    ->hasSystemFeature(Ljava/lang/String;)Z
+    invoke-virtual {v0, v3}, Landroid/content/pm/PackageManager;->hasSystemFeature(Ljava/lang/String;)Z
 
     .line 42
     .line 43
@@ -585,8 +544,7 @@
     move-result v0
 
     .line 45
-    invoke-static {v0}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 46
     .line 47
@@ -594,19 +552,16 @@
     move-result-object v0
 
     .line 49
-    sput-object v0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzi:Ljava/lang/Boolean;
+    sput-object v0, Lcom/google/android/gms/common/util/DeviceProperties;->zzi:Ljava/lang/Boolean;
 
     .line 50
     .line 51
     :cond_0
-    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzi:Ljava/lang/Boolean;
+    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;->zzi:Ljava/lang/Boolean;
 
     .line 52
     .line 53
-    invoke-virtual {v0}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 54
     .line 55
@@ -618,8 +573,7 @@
 
     .line 58
     .line 59
-    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->isAuto(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;->isAuto(Landroid/content/Context;)Z
 
     .line 60
     .line 61
@@ -631,8 +585,7 @@
 
     .line 64
     .line 65
-    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->isTv(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;->isTv(Landroid/content/Context;)Z
 
     .line 66
     .line 67
@@ -644,8 +597,7 @@
 
     .line 70
     .line 71
-    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzl:Ljava/lang/Boolean;
+    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;->zzl:Ljava/lang/Boolean;
 
     .line 72
     .line 73
@@ -653,8 +605,7 @@
 
     .line 74
     .line 75
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 76
     .line 77
@@ -666,8 +617,7 @@
 
     .line 80
     .line 81
-    invoke-virtual {v0, v3}, Landroid/content/pm/PackageManager;
-    ->hasSystemFeature(Ljava/lang/String;)Z
+    invoke-virtual {v0, v3}, Landroid/content/pm/PackageManager;->hasSystemFeature(Ljava/lang/String;)Z
 
     .line 82
     .line 83
@@ -675,8 +625,7 @@
     move-result v0
 
     .line 85
-    invoke-static {v0}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 86
     .line 87
@@ -684,19 +633,16 @@
     move-result-object v0
 
     .line 89
-    sput-object v0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzl:Ljava/lang/Boolean;
+    sput-object v0, Lcom/google/android/gms/common/util/DeviceProperties;->zzl:Ljava/lang/Boolean;
 
     .line 90
     .line 91
     :cond_1
-    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzl:Ljava/lang/Boolean;
+    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;->zzl:Ljava/lang/Boolean;
 
     .line 92
     .line 93
-    invoke-virtual {v0}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {v0}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 94
     .line 95
@@ -708,8 +654,7 @@
 
     .line 98
     .line 99
-    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->isBstar(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;->isBstar(Landroid/content/Context;)Z
 
     .line 100
     .line 101
@@ -721,8 +666,7 @@
 
     .line 104
     .line 105
-    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->isXr(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;->isXr(Landroid/content/Context;)Z
 
     .line 106
     .line 107
@@ -743,8 +687,7 @@
     .line 113
     :cond_3
     :goto_0
-    invoke-static {v1}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 114
     .line 115
@@ -752,19 +695,16 @@
     move-result-object p0
 
     .line 117
-    sput-object p0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zza:Ljava/lang/Boolean;
+    sput-object p0, Lcom/google/android/gms/common/util/DeviceProperties;->zza:Ljava/lang/Boolean;
 
     .line 118
     .line 119
     :cond_4
-    sget-object p0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zza:Ljava/lang/Boolean;
+    sget-object p0, Lcom/google/android/gms/common/util/DeviceProperties;->zza:Ljava/lang/Boolean;
 
     .line 120
     .line 121
-    invoke-virtual {p0}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 122
     .line 123
@@ -784,8 +724,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     .line 2
     .line 3
@@ -793,8 +732,7 @@
     move-result-object p0
 
     .line 5
-    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzc(Landroid/content/res/Resources;)Z
+    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;->zzc(Landroid/content/res/Resources;)Z
 
     .line 6
     .line 7
@@ -818,8 +756,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zza(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;->zza(Landroid/content/Context;)Z
 
     .line 2
     .line 3
@@ -839,13 +776,11 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object p0
 
-    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->isTablet(Landroid/content/res/Resources;)Z
+    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;->isTablet(Landroid/content/res/Resources;)Z
 
     move-result p0
 
@@ -869,18 +804,15 @@
 
     .line 2
     :cond_0
-    sget-object v1, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzb:Ljava/lang/Boolean;
+    sget-object v1, Lcom/google/android/gms/common/util/DeviceProperties;->zzb:Ljava/lang/Boolean;
 
     if-nez v1, :cond_3
 
-    invoke-virtual {p0}, Landroid/content/res/Resources;
-    ->getConfiguration()Landroid/content/res/Configuration;
+    invoke-virtual {p0}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
 
     move-result-object v1
 
-    iget v1, v1, Landroid/content/res/Configuration;
-    ->screenLayout:I
+    iget v1, v1, Landroid/content/res/Configuration;->screenLayout:I
 
     and-int/lit8 v1, v1, 0xf
 
@@ -897,8 +829,7 @@
 
     .line 3
     :cond_1
-    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzc(Landroid/content/res/Resources;)Z
+    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;->zzc(Landroid/content/res/Resources;)Z
 
     move-result p0
 
@@ -908,21 +839,17 @@
 
     :cond_2
     :goto_1
-    invoke-static {v0}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object p0
 
-    sput-object p0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzb:Ljava/lang/Boolean;
+    sput-object p0, Lcom/google/android/gms/common/util/DeviceProperties;->zzb:Ljava/lang/Boolean;
 
     :cond_3
-    sget-object p0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzb:Ljava/lang/Boolean;
+    sget-object p0, Lcom/google/android/gms/common/util/DeviceProperties;->zzb:Ljava/lang/Boolean;
 
     .line 4
-    invoke-virtual {p0}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
 
     move-result p0
 
@@ -939,8 +866,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 2
     .line 3
@@ -948,8 +874,7 @@
     move-result-object p0
 
     .line 5
-    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzk:Ljava/lang/Boolean;
+    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;->zzk:Ljava/lang/Boolean;
 
     .line 6
     .line 7
@@ -961,8 +886,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;
-    ->hasSystemFeature(Ljava/lang/String;)Z
+    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;->hasSystemFeature(Ljava/lang/String;)Z
 
     .line 12
     .line 13
@@ -981,8 +905,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;
-    ->hasSystemFeature(Ljava/lang/String;)Z
+    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;->hasSystemFeature(Ljava/lang/String;)Z
 
     .line 21
     .line 22
@@ -998,8 +921,7 @@
 
     .line 27
     .line 28
-    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;
-    ->hasSystemFeature(Ljava/lang/String;)Z
+    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;->hasSystemFeature(Ljava/lang/String;)Z
 
     .line 29
     .line 30
@@ -1015,8 +937,7 @@
 
     .line 35
     .line 36
-    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;
-    ->hasSystemFeature(Ljava/lang/String;)Z
+    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;->hasSystemFeature(Ljava/lang/String;)Z
 
     .line 37
     .line 38
@@ -1037,8 +958,7 @@
     .line 44
     :cond_1
     :goto_0
-    invoke-static {v1}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 45
     .line 46
@@ -1046,19 +966,16 @@
     move-result-object p0
 
     .line 48
-    sput-object p0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzk:Ljava/lang/Boolean;
+    sput-object p0, Lcom/google/android/gms/common/util/DeviceProperties;->zzk:Ljava/lang/Boolean;
 
     .line 49
     .line 50
     :cond_2
-    sget-object p0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzk:Ljava/lang/Boolean;
+    sget-object p0, Lcom/google/android/gms/common/util/DeviceProperties;->zzk:Ljava/lang/Boolean;
 
     .line 51
     .line 52
-    invoke-virtual {p0}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 53
     .line 54
@@ -1074,8 +991,7 @@
     .end annotation
 
     .line 1
-    sget v0, Lcom/google/android/gms/common/GooglePlayServicesUtilLight;
-    ->GOOGLE_PLAY_SERVICES_VERSION_CODE:I
+    sget v0, Lcom/google/android/gms/common/GooglePlayServicesUtilLight;->GOOGLE_PLAY_SERVICES_VERSION_CODE:I
 
     .line 2
     .line 3
@@ -1083,13 +999,11 @@
 
     .line 4
     .line 5
-    sget-object v1, Landroid/os/Build;
-    ->TYPE:Ljava/lang/String;
+    sget-object v1, Landroid/os/Build;->TYPE:Ljava/lang/String;
 
     .line 6
     .line 7
-    invoke-virtual {v0, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 8
     .line 9
@@ -1116,8 +1030,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 2
     .line 3
@@ -1125,8 +1038,7 @@
     move-result-object p0
 
     .line 5
-    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzd(Landroid/content/pm/PackageManager;)Z
+    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;->zzd(Landroid/content/pm/PackageManager;)Z
 
     .line 6
     .line 7
@@ -1150,8 +1062,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->isWearable(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;->isWearable(Landroid/content/Context;)Z
 
     .line 2
     .line 3
@@ -1163,8 +1074,7 @@
 
     .line 6
     .line 7
-    invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;
-    ->isAtLeastN()Z
+    invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;->isAtLeastN()Z
 
     .line 8
     .line 9
@@ -1177,8 +1087,7 @@
     .line 12
     .line 13
     :cond_0
-    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zza(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/google/android/gms/common/util/DeviceProperties;->zza(Landroid/content/Context;)Z
 
     .line 14
     .line 15
@@ -1190,8 +1099,7 @@
 
     .line 18
     .line 19
-    invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;
-    ->isAtLeastO()Z
+    invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;->isAtLeastO()Z
 
     .line 20
     .line 21
@@ -1203,8 +1111,7 @@
 
     .line 24
     .line 25
-    invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;
-    ->isAtLeastR()Z
+    invoke-static {}, Lcom/google/android/gms/common/util/PlatformVersion;->isAtLeastR()Z
 
     .line 26
     .line 27
@@ -1238,8 +1145,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 2
     .line 3
@@ -1247,8 +1153,7 @@
     move-result-object p0
 
     .line 5
-    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzn:Ljava/lang/Boolean;
+    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;->zzn:Ljava/lang/Boolean;
 
     .line 6
     .line 7
@@ -1260,8 +1165,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;
-    ->hasSystemFeature(Ljava/lang/String;)Z
+    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;->hasSystemFeature(Ljava/lang/String;)Z
 
     .line 12
     .line 13
@@ -1269,8 +1173,7 @@
     move-result p0
 
     .line 15
-    invoke-static {p0}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 16
     .line 17
@@ -1278,19 +1181,16 @@
     move-result-object p0
 
     .line 19
-    sput-object p0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzn:Ljava/lang/Boolean;
+    sput-object p0, Lcom/google/android/gms/common/util/DeviceProperties;->zzn:Ljava/lang/Boolean;
 
     .line 20
     .line 21
     :cond_0
-    sget-object p0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzn:Ljava/lang/Boolean;
+    sget-object p0, Lcom/google/android/gms/common/util/DeviceProperties;->zzn:Ljava/lang/Boolean;
 
     .line 22
     .line 23
-    invoke-virtual {p0}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 24
     .line 25
@@ -1311,8 +1211,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzf:Ljava/lang/Boolean;
+    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;->zzf:Ljava/lang/Boolean;
 
     .line 2
     .line 3
@@ -1320,8 +1219,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 6
     .line 7
@@ -1333,8 +1231,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;
-    ->hasSystemFeature(Ljava/lang/String;)Z
+    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;->hasSystemFeature(Ljava/lang/String;)Z
 
     .line 12
     .line 13
@@ -1342,8 +1239,7 @@
     move-result p0
 
     .line 15
-    invoke-static {p0}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 16
     .line 17
@@ -1351,19 +1247,16 @@
     move-result-object p0
 
     .line 19
-    sput-object p0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzf:Ljava/lang/Boolean;
+    sput-object p0, Lcom/google/android/gms/common/util/DeviceProperties;->zzf:Ljava/lang/Boolean;
 
     .line 20
     .line 21
     :cond_0
-    sget-object p0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzf:Ljava/lang/Boolean;
+    sget-object p0, Lcom/google/android/gms/common/util/DeviceProperties;->zzf:Ljava/lang/Boolean;
 
     .line 22
     .line 23
-    invoke-virtual {p0}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 24
     .line 25
@@ -1381,8 +1274,7 @@
     .end param
 
     .line 1
-    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzh:Ljava/lang/Boolean;
+    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;->zzh:Ljava/lang/Boolean;
 
     .line 2
     .line 3
@@ -1390,8 +1282,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 6
     .line 7
@@ -1403,8 +1294,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {v0, v1}, Landroid/content/pm/PackageManager;
-    ->hasSystemFeature(Ljava/lang/String;)Z
+    invoke-virtual {v0, v1}, Landroid/content/pm/PackageManager;->hasSystemFeature(Ljava/lang/String;)Z
 
     .line 12
     .line 13
@@ -1419,8 +1309,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 19
     .line 20
@@ -1432,8 +1321,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;
-    ->hasSystemFeature(Ljava/lang/String;)Z
+    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;->hasSystemFeature(Ljava/lang/String;)Z
 
     .line 25
     .line 26
@@ -1454,8 +1342,7 @@
     .line 32
     :cond_1
     :goto_0
-    invoke-static {v1}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 33
     .line 34
@@ -1463,19 +1350,16 @@
     move-result-object p0
 
     .line 36
-    sput-object p0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzh:Ljava/lang/Boolean;
+    sput-object p0, Lcom/google/android/gms/common/util/DeviceProperties;->zzh:Ljava/lang/Boolean;
 
     .line 37
     .line 38
     :cond_2
-    sget-object p0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzh:Ljava/lang/Boolean;
+    sget-object p0, Lcom/google/android/gms/common/util/DeviceProperties;->zzh:Ljava/lang/Boolean;
 
     .line 39
     .line 40
-    invoke-virtual {p0}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 41
     .line 42
@@ -1504,8 +1388,7 @@
 
     .line 5
     :cond_0
-    sget-object v1, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzd:Ljava/lang/Boolean;
+    sget-object v1, Lcom/google/android/gms/common/util/DeviceProperties;->zzd:Ljava/lang/Boolean;
 
     .line 6
     .line 7
@@ -1513,8 +1396,7 @@
 
     .line 8
     .line 9
-    invoke-virtual {p0}, Landroid/content/res/Resources;
-    ->getConfiguration()Landroid/content/res/Configuration;
+    invoke-virtual {p0}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
 
     .line 10
     .line 11
@@ -1522,8 +1404,7 @@
     move-result-object p0
 
     .line 13
-    iget v1, p0, Landroid/content/res/Configuration;
-    ->screenLayout:I
+    iget v1, p0, Landroid/content/res/Configuration;->screenLayout:I
 
     .line 14
     .line 15
@@ -1538,8 +1419,7 @@
 
     .line 19
     .line 20
-    iget p0, p0, Landroid/content/res/Configuration;
-    ->smallestScreenWidthDp:I
+    iget p0, p0, Landroid/content/res/Configuration;->smallestScreenWidthDp:I
 
     .line 21
     .line 22
@@ -1555,8 +1435,7 @@
 
     .line 27
     :cond_1
-    invoke-static {v0}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 28
     .line 29
@@ -1564,19 +1443,16 @@
     move-result-object p0
 
     .line 31
-    sput-object p0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzd:Ljava/lang/Boolean;
+    sput-object p0, Lcom/google/android/gms/common/util/DeviceProperties;->zzd:Ljava/lang/Boolean;
 
     .line 32
     .line 33
     :cond_2
-    sget-object p0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zzd:Ljava/lang/Boolean;
+    sget-object p0, Lcom/google/android/gms/common/util/DeviceProperties;->zzd:Ljava/lang/Boolean;
 
     .line 34
     .line 35
-    invoke-virtual {p0}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 36
     .line 37
@@ -1600,8 +1476,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zze:Ljava/lang/Boolean;
+    sget-object v0, Lcom/google/android/gms/common/util/DeviceProperties;->zze:Ljava/lang/Boolean;
 
     .line 2
     .line 3
@@ -1613,8 +1488,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;
-    ->hasSystemFeature(Ljava/lang/String;)Z
+    invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;->hasSystemFeature(Ljava/lang/String;)Z
 
     .line 8
     .line 9
@@ -1622,8 +1496,7 @@
     move-result p0
 
     .line 11
-    invoke-static {p0}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 12
     .line 13
@@ -1631,19 +1504,16 @@
     move-result-object p0
 
     .line 15
-    sput-object p0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zze:Ljava/lang/Boolean;
+    sput-object p0, Lcom/google/android/gms/common/util/DeviceProperties;->zze:Ljava/lang/Boolean;
 
     .line 16
     .line 17
     :cond_0
-    sget-object p0, Lcom/google/android/gms/common/util/DeviceProperties;
-    ->zze:Ljava/lang/Boolean;
+    sget-object p0, Lcom/google/android/gms/common/util/DeviceProperties;->zze:Ljava/lang/Boolean;
 
     .line 18
     .line 19
-    invoke-virtual {p0}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {p0}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 20
     .line 21

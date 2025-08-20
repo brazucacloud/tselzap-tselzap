@@ -10,8 +10,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -25,8 +24,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p1}, Lcom/google/android/gms/tasks/Task;
-    ->getResult()Ljava/lang/Object;
+    invoke-virtual {p1}, Lcom/google/android/gms/tasks/Task;->getResult()Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -38,8 +36,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p1}, Ljava/lang/Boolean;
-    ->booleanValue()Z
+    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
 
     .line 8
     .line 9
@@ -73,14 +70,12 @@
 
     .line 22
     .line 23
-    invoke-direct {v0, v1, v2}, Lcom/google/android/gms/common/api/Status;
-    -><init>(ILjava/lang/String;)V
+    invoke-direct {v0, v1, v2}, Lcom/google/android/gms/common/api/Status;-><init>(ILjava/lang/String;)V
 
     .line 24
     .line 25
     .line 26
-    invoke-direct {p1, v0}, Lcom/google/android/gms/common/api/ApiException;
-    -><init>(Lcom/google/android/gms/common/api/Status;)V
+    invoke-direct {p1, v0}, Lcom/google/android/gms/common/api/ApiException;-><init>(Lcom/google/android/gms/common/api/Status;)V
 
     .line 27
     .line 28

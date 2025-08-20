@@ -5,8 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/google/firebase/Timestamp;
-    ->compareTo(Lcom/google/firebase/Timestamp;)I
+    value = Lcom/google/firebase/Timestamp;->compareTo(Lcom/google/firebase/Timestamp;)I
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -25,11 +24,9 @@
 
     new-instance v0, Lcom/google/firebase/Timestamp$compareTo$2;
 
-    invoke-direct {v0}, Lcom/google/firebase/Timestamp$compareTo$2;
-    -><init>()V
+    invoke-direct {v0}, Lcom/google/firebase/Timestamp$compareTo$2;-><init>()V
 
-    sput-object v0, Lcom/google/firebase/Timestamp$compareTo$2;
-    ->INSTANCE:Lcom/google/firebase/Timestamp$compareTo$2;
+    sput-object v0, Lcom/google/firebase/Timestamp$compareTo$2;->INSTANCE:Lcom/google/firebase/Timestamp$compareTo$2;
 
     return-void
 .end method
@@ -41,8 +38,7 @@
 
     const-string v1, "nanoseconds"
 
-    invoke-direct {p0, v1, v0}, Lkotlin/jvm/internal/n;
-    -><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {p0, v1, v0}, Lkotlin/jvm/internal/n;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 return-void
 .end method
 
@@ -56,8 +52,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Lcom/google/firebase/Timestamp;
-    ->getNanoseconds()I
+    invoke-virtual {p1}, Lcom/google/firebase/Timestamp;->getNanoseconds()I
 
     .line 4
     .line 5
@@ -65,8 +60,7 @@ return-void
     move-result p1
 
     .line 7
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 8
     .line 9

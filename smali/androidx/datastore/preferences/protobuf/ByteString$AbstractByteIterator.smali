@@ -22,8 +22,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -33,13 +32,11 @@
     .locals 1
 
     .line 2
-    invoke-interface {p0}, Landroidx/datastore/preferences/protobuf/ByteString$ByteIterator;
-    ->nextByte()B
+    invoke-interface {p0}, Landroidx/datastore/preferences/protobuf/ByteString$ByteIterator;->nextByte()B
 
     move-result v0
 
-    invoke-static {v0}, Ljava/lang/Byte;
-    ->valueOf(B)Ljava/lang/Byte;
+    invoke-static {v0}, Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
 
     move-result-object v0
 
@@ -50,8 +47,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$AbstractByteIterator;
-    ->next()Ljava/lang/Byte;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/ByteString$AbstractByteIterator;->next()Ljava/lang/Byte;
 
     move-result-object v0
 
@@ -66,8 +62,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     .line 4
     .line 5

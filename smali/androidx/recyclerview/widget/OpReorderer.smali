@@ -20,14 +20,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/recyclerview/widget/OpReorderer;
-    ->mCallback:Landroidx/recyclerview/widget/OpReorderer$Callback;    
+    iput-object p1, p0, Landroidx/recyclerview/widget/OpReorderer;->mCallback:Landroidx/recyclerview/widget/OpReorderer$Callback;
     return-void
 .end method
 
@@ -43,8 +41,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p1}, Ljava/util/List;
-    ->size()I
+    invoke-interface {p1}, Ljava/util/List;->size()I
 
     .line 2
     .line 3
@@ -66,8 +63,7 @@
 
     .line 9
     .line 10
-    invoke-interface {p1, v0}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -79,8 +75,7 @@
 
     .line 15
     .line 16
-    iget v3, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->cmd:I
+    iget v3, v3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->cmd:I
 
     .line 17
     .line 18
@@ -129,13 +124,11 @@
     .end annotation
 
     .line 1
-    iget v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 2
     .line 3
-    iget v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 4
     .line 5
@@ -154,8 +147,7 @@
 
     .line 10
     :goto_0
-    iget v3, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v3, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 11
     .line 12
@@ -172,22 +164,19 @@
 
     .line 17
     .line 18
-    iget v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 19
     .line 20
     add-int/2addr v3, v1
 
     .line 21
-    iput v3, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iput v3, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 22
     .line 23
     :cond_2
-    iget v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 24
     .line 25
@@ -195,16 +184,14 @@
 
     .line 26
     .line 27
-    iget v3, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v3, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 28
     .line 29
     add-int/2addr v0, v3
 
     .line 30
-    iput v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iput v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 31
     .line 32
@@ -212,19 +199,16 @@
     add-int/2addr v1, v2
 
     .line 33
-    iput v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iput v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 34
     .line 35
-    invoke-interface {p1, p2, p5}, Ljava/util/List;
-    ->set(ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p2, p5}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
     .line 36
     .line 37
     .line 38
-    invoke-interface {p1, p4, p3}, Ljava/util/List;
-    ->set(ILjava/lang/Object;)Ljava/lang/Object;    
+    invoke-interface {p1, p4, p3}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
     return-void
 .end method
 
@@ -240,8 +224,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p1, p2}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {p1, p2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -256,8 +239,7 @@
 
     .line 7
     .line 8
-    invoke-interface {p1, p3}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {p1, p3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -272,8 +254,7 @@
 
     .line 14
     .line 15
-    iget v0, v6, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->cmd:I
+    iget v0, v6, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->cmd:I
 
     .line 16
     .line 17
@@ -310,8 +291,7 @@
     move v5, p3
 
     .line 31
-    invoke-virtual/range {v1 .. v6}, Landroidx/recyclerview/widget/OpReorderer;
-    ->swapMoveUpdate(Ljava/util/List;ILandroidx/recyclerview/widget/AdapterHelper$UpdateOp;ILandroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-virtual/range {v1 .. v6}, Landroidx/recyclerview/widget/OpReorderer;->swapMoveUpdate(Ljava/util/List;ILandroidx/recyclerview/widget/AdapterHelper$UpdateOp;ILandroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 return-void
 
     .line 35
@@ -328,8 +308,7 @@ return-void
     move v5, p3
 
     .line 39
-    invoke-virtual/range {v1 .. v6}, Landroidx/recyclerview/widget/OpReorderer;
-    ->swapMoveRemove(Ljava/util/List;ILandroidx/recyclerview/widget/AdapterHelper$UpdateOp;ILandroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-virtual/range {v1 .. v6}, Landroidx/recyclerview/widget/OpReorderer;->swapMoveRemove(Ljava/util/List;ILandroidx/recyclerview/widget/AdapterHelper$UpdateOp;ILandroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 return-void
 
     .line 43
@@ -346,8 +325,7 @@ return-void
     move v5, p3
 
     .line 47
-    invoke-direct/range {v1 .. v6}, Landroidx/recyclerview/widget/OpReorderer;
-    ->swapMoveAdd(Ljava/util/List;ILandroidx/recyclerview/widget/AdapterHelper$UpdateOp;ILandroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-direct/range {v1 .. v6}, Landroidx/recyclerview/widget/OpReorderer;->swapMoveAdd(Ljava/util/List;ILandroidx/recyclerview/widget/AdapterHelper$UpdateOp;ILandroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 return-void
 .end method
 
@@ -366,8 +344,7 @@ return-void
 
     .line 1
     :goto_0
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/OpReorderer;
-    ->getLastMoveOutOfOrder(Ljava/util/List;)I
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/OpReorderer;->getLastMoveOutOfOrder(Ljava/util/List;)I
 
     .line 2
     .line 3
@@ -386,8 +363,7 @@ return-void
 
     .line 9
     .line 10
-    invoke-direct {p0, p1, v0, v1}, Landroidx/recyclerview/widget/OpReorderer;
-    ->swapMoveOp(Ljava/util/List;II)V
+    invoke-direct {p0, p1, v0, v1}, Landroidx/recyclerview/widget/OpReorderer;->swapMoveOp(Ljava/util/List;II)V
 
     .line 11
     .line 12
@@ -415,13 +391,11 @@ return-void
     .end annotation
 
     .line 1
-    iget v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 2
     .line 3
-    iget v1, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v1, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 4
     .line 5
@@ -435,8 +409,7 @@ return-void
 
     .line 8
     .line 9
-    iget v4, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v4, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 10
     .line 11
@@ -444,8 +417,7 @@ return-void
 
     .line 12
     .line 13
-    iget v4, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v4, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 14
     .line 15
@@ -475,8 +447,7 @@ return-void
 
     .line 24
     :cond_1
-    iget v4, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v4, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 25
     .line 26
@@ -488,8 +459,7 @@ return-void
 
     .line 29
     .line 30
-    iget v4, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v4, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 31
     .line 32
@@ -511,8 +481,7 @@ return-void
 
     .line 38
     :goto_1
-    iget v4, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v4, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 39
     .line 40
@@ -526,8 +495,7 @@ return-void
     sub-int/2addr v4, v2
 
     .line 44
-    iput v4, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iput v4, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 45
     .line 46
@@ -535,8 +503,7 @@ return-void
 
     .line 47
     :cond_3
-    iget v6, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v6, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 48
     .line 49
@@ -550,23 +517,19 @@ return-void
     sub-int/2addr v6, v2
 
     .line 53
-    iput v6, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iput v6, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 54
     .line 55
-    iput v5, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->cmd:I
+    iput v5, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->cmd:I
 
     .line 56
     .line 57
-    iput v2, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iput v2, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 58
     .line 59
-    iget p2, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget p2, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 60
     .line 61
@@ -574,31 +537,26 @@ return-void
 
     .line 62
     .line 63
-    invoke-interface {p1, p4}, Ljava/util/List;
-    ->remove(I)Ljava/lang/Object;
+    invoke-interface {p1, p4}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
     .line 64
     .line 65
     .line 66
-    iget-object p1, p0, Landroidx/recyclerview/widget/OpReorderer;
-    ->mCallback:Landroidx/recyclerview/widget/OpReorderer$Callback;
+    iget-object p1, p0, Landroidx/recyclerview/widget/OpReorderer;->mCallback:Landroidx/recyclerview/widget/OpReorderer$Callback;
 
     .line 67
     .line 68
-    invoke-interface {p1, p5}, Landroidx/recyclerview/widget/OpReorderer$Callback;
-    ->recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-interface {p1, p5}, Landroidx/recyclerview/widget/OpReorderer$Callback;->recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 return-void
 
     .line 72
     :cond_4
     :goto_2
-    iget v1, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v1, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 73
     .line 74
-    iget v4, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v4, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 75
     .line 76
@@ -612,8 +570,7 @@ return-void
     add-int/2addr v4, v2
 
     .line 80
-    iput v4, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iput v4, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 81
     .line 82
@@ -621,8 +578,7 @@ return-void
 
     .line 83
     :cond_5
-    iget v7, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v7, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 84
     .line 85
@@ -640,16 +596,14 @@ return-void
     sub-int/2addr v4, v1
 
     .line 91
-    iget-object v7, p0, Landroidx/recyclerview/widget/OpReorderer;
-    ->mCallback:Landroidx/recyclerview/widget/OpReorderer$Callback;
+    iget-object v7, p0, Landroidx/recyclerview/widget/OpReorderer;->mCallback:Landroidx/recyclerview/widget/OpReorderer$Callback;
 
     .line 92
     .line 93
     add-int/2addr v1, v2
 
     .line 94
-    invoke-interface {v7, v5, v1, v4, v6}, Landroidx/recyclerview/widget/OpReorderer$Callback;
-    ->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    invoke-interface {v7, v5, v1, v4, v6}, Landroidx/recyclerview/widget/OpReorderer$Callback;->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
 
     .line 95
     .line 96
@@ -657,21 +611,18 @@ return-void
     move-result-object v6
 
     .line 98
-    iget v1, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v1, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 99
     .line 100
-    iget v2, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v2, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 101
     .line 102
     sub-int/2addr v1, v2
 
     .line 103
-    iput v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iput v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 104
     .line 105
@@ -681,25 +632,21 @@ return-void
 
     .line 106
     .line 107
-    invoke-interface {p1, p2, p5}, Ljava/util/List;
-    ->set(ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p2, p5}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
     .line 108
     .line 109
     .line 110
-    invoke-interface {p1, p4}, Ljava/util/List;
-    ->remove(I)Ljava/lang/Object;
+    invoke-interface {p1, p4}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
     .line 111
     .line 112
     .line 113
-    iget-object p1, p0, Landroidx/recyclerview/widget/OpReorderer;
-    ->mCallback:Landroidx/recyclerview/widget/OpReorderer$Callback;
+    iget-object p1, p0, Landroidx/recyclerview/widget/OpReorderer;->mCallback:Landroidx/recyclerview/widget/OpReorderer$Callback;
 
     .line 114
     .line 115
-    invoke-interface {p1, p3}, Landroidx/recyclerview/widget/OpReorderer$Callback;
-    ->recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-interface {p1, p3}, Landroidx/recyclerview/widget/OpReorderer$Callback;->recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 return-void
 
     .line 119
@@ -712,13 +659,11 @@ return-void
 
     .line 122
     .line 123
-    iget v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 124
     .line 125
-    iget v1, v6, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v1, v6, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 126
     .line 127
@@ -726,27 +671,23 @@ return-void
 
     .line 128
     .line 129
-    iget v1, v6, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v1, v6, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 130
     .line 131
     sub-int/2addr v0, v1
 
     .line 132
-    iput v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iput v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 133
     .line 134
     :cond_8
-    iget v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 135
     .line 136
-    iget v1, v6, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v1, v6, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 137
     .line 138
@@ -754,27 +695,23 @@ return-void
 
     .line 139
     .line 140
-    iget v1, v6, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v1, v6, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 141
     .line 142
     sub-int/2addr v0, v1
 
     .line 143
-    iput v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iput v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 144
     .line 145
     :cond_9
-    iget v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 146
     .line 147
-    iget v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 148
     .line 149
@@ -782,27 +719,23 @@ return-void
 
     .line 150
     .line 151
-    iget v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 152
     .line 153
     sub-int/2addr v0, v1
 
     .line 154
-    iput v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iput v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 155
     .line 156
     :cond_a
-    iget v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 157
     .line 158
-    iget v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 159
     .line 160
@@ -810,16 +743,14 @@ return-void
 
     .line 161
     .line 162
-    iget v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 163
     .line 164
     sub-int/2addr v0, v1
 
     .line 165
-    iput v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iput v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 166
     .line 167
@@ -831,13 +762,11 @@ return-void
 
     .line 169
     .line 170
-    iget v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 171
     .line 172
-    iget v1, v6, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v1, v6, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 173
     .line 174
@@ -845,27 +774,23 @@ return-void
 
     .line 175
     .line 176
-    iget v1, v6, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v1, v6, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 177
     .line 178
     sub-int/2addr v0, v1
 
     .line 179
-    iput v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iput v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 180
     .line 181
     :cond_c
-    iget v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 182
     .line 183
-    iget v1, v6, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v1, v6, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 184
     .line 185
@@ -873,27 +798,23 @@ return-void
 
     .line 186
     .line 187
-    iget v1, v6, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v1, v6, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 188
     .line 189
     sub-int/2addr v0, v1
 
     .line 190
-    iput v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iput v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 191
     .line 192
     :cond_d
-    iget v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 193
     .line 194
-    iget v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 195
     .line 196
@@ -901,27 +822,23 @@ return-void
 
     .line 197
     .line 198
-    iget v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 199
     .line 200
     sub-int/2addr v0, v1
 
     .line 201
-    iput v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iput v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 202
     .line 203
     :cond_e
-    iget v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 204
     .line 205
-    iget v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 206
     .line 207
@@ -929,34 +846,29 @@ return-void
 
     .line 208
     .line 209
-    iget v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 210
     .line 211
     sub-int/2addr v0, v1
 
     .line 212
-    iput v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iput v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 213
     .line 214
     :cond_f
     :goto_4
-    invoke-interface {p1, p2, p5}, Ljava/util/List;
-    ->set(ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p2, p5}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
     .line 215
     .line 216
     .line 217
-    iget p5, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget p5, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 218
     .line 219
-    iget v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 220
     .line 221
@@ -964,8 +876,7 @@ return-void
 
     .line 222
     .line 223
-    invoke-interface {p1, p4, p3}, Ljava/util/List;
-    ->set(ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p4, p3}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
     .line 224
     .line 225
@@ -974,8 +885,7 @@ return-void
 
     .line 227
     :cond_10
-    invoke-interface {p1, p4}, Ljava/util/List;
-    ->remove(I)Ljava/lang/Object;
+    invoke-interface {p1, p4}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
     .line 228
     .line 229
@@ -985,8 +895,7 @@ return-void
 
     .line 231
     .line 232
-    invoke-interface {p1, p2, v6}, Ljava/util/List;
-    ->add(ILjava/lang/Object;)V
+    invoke-interface {p1, p2, v6}, Ljava/util/List;->add(ILjava/lang/Object;)V
 
     .line 233
     .line 234
@@ -1011,13 +920,11 @@ return-void
     .end annotation
 
     .line 1
-    iget v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v0, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 2
     .line 3
-    iget v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 4
     .line 5
@@ -1037,8 +944,7 @@ return-void
     sub-int/2addr v1, v3
 
     .line 11
-    iput v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iput v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 12
     .line 13
@@ -1046,8 +952,7 @@ return-void
 
     .line 14
     :cond_0
-    iget v5, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v5, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 15
     .line 16
@@ -1061,28 +966,23 @@ return-void
     sub-int/2addr v5, v3
 
     .line 20
-    iput v5, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iput v5, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 21
     .line 22
-    iget-object v0, p0, Landroidx/recyclerview/widget/OpReorderer;
-    ->mCallback:Landroidx/recyclerview/widget/OpReorderer$Callback;
+    iget-object v0, p0, Landroidx/recyclerview/widget/OpReorderer;->mCallback:Landroidx/recyclerview/widget/OpReorderer$Callback;
 
     .line 23
     .line 24
-    iget v1, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v1, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 25
     .line 26
-    iget-object v5, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->payload:Ljava/lang/Object;
+    iget-object v5, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->payload:Ljava/lang/Object;
 
     .line 27
     .line 28
-    invoke-interface {v0, v2, v1, v3, v5}, Landroidx/recyclerview/widget/OpReorderer$Callback;
-    ->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    invoke-interface {v0, v2, v1, v3, v5}, Landroidx/recyclerview/widget/OpReorderer$Callback;->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
 
     .line 29
     .line 30
@@ -1099,13 +999,11 @@ return-void
 
     .line 34
     :goto_1
-    iget v1, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v1, p3, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 35
     .line 36
-    iget v5, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v5, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 37
     .line 38
@@ -1116,8 +1014,7 @@ return-void
     add-int/2addr v5, v3
 
     .line 41
-    iput v5, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iput v5, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 42
     .line 43
@@ -1125,8 +1022,7 @@ return-void
 
     .line 44
     :cond_2
-    iget v6, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v6, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 45
     .line 46
@@ -1144,21 +1040,18 @@ return-void
     sub-int/2addr v5, v1
 
     .line 52
-    iget-object v4, p0, Landroidx/recyclerview/widget/OpReorderer;
-    ->mCallback:Landroidx/recyclerview/widget/OpReorderer$Callback;
+    iget-object v4, p0, Landroidx/recyclerview/widget/OpReorderer;->mCallback:Landroidx/recyclerview/widget/OpReorderer$Callback;
 
     .line 53
     .line 54
     add-int/2addr v1, v3
 
     .line 55
-    iget-object v3, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->payload:Ljava/lang/Object;
+    iget-object v3, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->payload:Ljava/lang/Object;
 
     .line 56
     .line 57
-    invoke-interface {v4, v2, v1, v5, v3}, Landroidx/recyclerview/widget/OpReorderer$Callback;
-    ->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
+    invoke-interface {v4, v2, v1, v5, v3}, Landroidx/recyclerview/widget/OpReorderer$Callback;->obtainUpdateOp(IIILjava/lang/Object;)Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
 
     .line 58
     .line 59
@@ -1166,29 +1059,25 @@ return-void
     move-result-object v4
 
     .line 61
-    iget v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 62
     .line 63
     sub-int/2addr v1, v5
 
     .line 64
-    iput v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iput v1, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 65
     .line 66
     :cond_3
     :goto_2
-    invoke-interface {p1, p4, p3}, Ljava/util/List;
-    ->set(ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p4, p3}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
     .line 67
     .line 68
     .line 69
-    iget p3, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget p3, p5, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 70
     .line 71
@@ -1196,8 +1085,7 @@ return-void
 
     .line 72
     .line 73
-    invoke-interface {p1, p2, p5}, Ljava/util/List;
-    ->set(ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, p2, p5}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
     .line 74
     .line 75
@@ -1206,19 +1094,16 @@ return-void
 
     .line 77
     :cond_4
-    invoke-interface {p1, p2}, Ljava/util/List;
-    ->remove(I)Ljava/lang/Object;
+    invoke-interface {p1, p2}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
     .line 78
     .line 79
     .line 80
-    iget-object p3, p0, Landroidx/recyclerview/widget/OpReorderer;
-    ->mCallback:Landroidx/recyclerview/widget/OpReorderer$Callback;
+    iget-object p3, p0, Landroidx/recyclerview/widget/OpReorderer;->mCallback:Landroidx/recyclerview/widget/OpReorderer$Callback;
 
     .line 81
     .line 82
-    invoke-interface {p3, p5}, Landroidx/recyclerview/widget/OpReorderer$Callback;
-    ->recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
+    invoke-interface {p3, p5}, Landroidx/recyclerview/widget/OpReorderer$Callback;->recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V
 
     .line 83
     .line 84
@@ -1228,8 +1113,7 @@ return-void
 
     .line 86
     .line 87
-    invoke-interface {p1, p2, v0}, Ljava/util/List;
-    ->add(ILjava/lang/Object;)V
+    invoke-interface {p1, p2, v0}, Ljava/util/List;->add(ILjava/lang/Object;)V
 
     .line 88
     .line 89
@@ -1239,8 +1123,7 @@ return-void
 
     .line 91
     .line 92
-    invoke-interface {p1, p2, v4}, Ljava/util/List;
-    ->add(ILjava/lang/Object;)V
+    invoke-interface {p1, p2, v4}, Ljava/util/List;->add(ILjava/lang/Object;)V
 
     .line 93
     .line 94

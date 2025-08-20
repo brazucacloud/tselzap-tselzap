@@ -13,11 +13,9 @@
 
     new-instance v0, Landroidx/datastore/core/DataStoreFactory;
 
-    invoke-direct {v0}, Landroidx/datastore/core/DataStoreFactory;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/datastore/core/DataStoreFactory;-><init>()V
 
-    sput-object v0, Landroidx/datastore/core/DataStoreFactory;
-    ->INSTANCE:Landroidx/datastore/core/DataStoreFactory;
+    sput-object v0, Landroidx/datastore/core/DataStoreFactory;->INSTANCE:Landroidx/datastore/core/DataStoreFactory;
 
     return-void
 .end method
@@ -26,8 +24,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -62,8 +59,7 @@
 
     .line 10
     .line 11
-    sget-object p3, Ld1/t;
-    ->b:Ld1/t;
+    sget-object p3, Ld1/t;->b:Ld1/t;
 
     .line 12
     .line 13
@@ -79,13 +75,11 @@
 
     .line 17
     .line 18
-    sget-object p2, Lz1/F;
-    ->b:LG1/c;
+    sget-object p2, Lz1/F;->b:LG1/c;
 
     .line 19
     .line 20
-    invoke-static {}, Lz1/w;
-    ->b()Lz1/l0;
+    invoke-static {}, Lz1/w;->b()Lz1/l0;
 
     .line 21
     .line 22
@@ -93,8 +87,7 @@
     move-result-object p3
 
     .line 24
-    invoke-virtual {p2, p3}, Lg1/a;
-    ->plus(Lg1/i;)Lg1/i;
+    invoke-virtual {p2, p3}, Lg1/a;->plus(Lg1/i;)Lg1/i;
 
     .line 25
     .line 26
@@ -102,8 +95,7 @@
     move-result-object p2
 
     .line 28
-    invoke-static {p2}, Lz1/w;
-    ->a(Lg1/i;)LE1/e;
+    invoke-static {p2}, Lz1/w;->a(Lg1/i;)LE1/e;
 
     .line 29
     .line 30
@@ -124,8 +116,7 @@
     move-object v5, p5
 
     .line 36
-    invoke-virtual/range {v0 .. v5}, Landroidx/datastore/core/DataStoreFactory;
-    ->create(Landroidx/datastore/core/Serializer;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Ljava/util/List;Lz1/v;Lp1/a;)Landroidx/datastore/core/DataStore;
+    invoke-virtual/range {v0 .. v5}, Landroidx/datastore/core/DataStoreFactory;->create(Landroidx/datastore/core/Serializer;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Ljava/util/List;Lz1/v;Lp1/a;)Landroidx/datastore/core/DataStore;
 
     .line 37
     .line 38
@@ -162,18 +153,15 @@
     .line 1
     const-string v0, "serializer"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "migrations"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "produceFile"
 
-    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v7, 0x8
 
@@ -191,8 +179,7 @@
 
     move-object v6, p4
 
-    invoke-static/range {v1 .. v8}, Landroidx/datastore/core/DataStoreFactory;
-    ->create$default(Landroidx/datastore/core/DataStoreFactory;Landroidx/datastore/core/Serializer;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Ljava/util/List;Lz1/v;Lp1/a;ILjava/lang/Object;)Landroidx/datastore/core/DataStore;
+    invoke-static/range {v1 .. v8}, Landroidx/datastore/core/DataStoreFactory;->create$default(Landroidx/datastore/core/DataStoreFactory;Landroidx/datastore/core/Serializer;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Ljava/util/List;Lz1/v;Lp1/a;ILjava/lang/Object;)Landroidx/datastore/core/DataStore;
 
     move-result-object p1
 
@@ -224,46 +211,38 @@
 
     const-string v0, "serializer"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "migrations"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "scope"
 
-    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p4, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "produceFile"
 
-    invoke-static {p5, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p5, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-nez p2, :cond_0
 
     .line 4
     new-instance p2, Landroidx/datastore/core/handlers/NoOpCorruptionHandler;
 
-    invoke-direct {p2}, Landroidx/datastore/core/handlers/NoOpCorruptionHandler;
-    -><init>()V
+    invoke-direct {p2}, Landroidx/datastore/core/handlers/NoOpCorruptionHandler;-><init>()V
 
     :cond_0
     move-object v4, p2
 
     .line 5
-    sget-object p2, Landroidx/datastore/core/DataMigrationInitializer;
-    ->Companion:Landroidx/datastore/core/DataMigrationInitializer$Companion;
+    sget-object p2, Landroidx/datastore/core/DataMigrationInitializer;->Companion:Landroidx/datastore/core/DataMigrationInitializer$Companion;
 
-    invoke-virtual {p2, p3}, Landroidx/datastore/core/DataMigrationInitializer$Companion;
-    ->getInitializer(Ljava/util/List;)Lp1/p;
+    invoke-virtual {p2, p3}, Landroidx/datastore/core/DataMigrationInitializer$Companion;->getInitializer(Ljava/util/List;)Lp1/p;
 
     move-result-object p2
 
-    invoke-static {p2}, Lcom/bumptech/glide/b;
-    ->R(Ljava/lang/Object;)Ljava/util/List;
+    invoke-static {p2}, Lcom/bumptech/glide/b;->R(Ljava/lang/Object;)Ljava/util/List;
 
     move-result-object v3
 
@@ -276,8 +255,7 @@
 
     move-object v1, p5
 
-    invoke-direct/range {v0 .. v5}, Landroidx/datastore/core/SingleProcessDataStore;
-    -><init>(Lp1/a;Landroidx/datastore/core/Serializer;Ljava/util/List;Landroidx/datastore/core/CorruptionHandler;Lz1/v;)V
+    invoke-direct/range {v0 .. v5}, Landroidx/datastore/core/SingleProcessDataStore;-><init>(Lp1/a;Landroidx/datastore/core/Serializer;Ljava/util/List;Landroidx/datastore/core/CorruptionHandler;Lz1/v;)V
 return-object v0
 .end method
 
@@ -302,13 +280,11 @@ return-object v0
     .line 2
     const-string v0, "serializer"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "produceFile"
 
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v7, 0xc
 
@@ -326,8 +302,7 @@ return-object v0
 
     move-object v6, p3
 
-    invoke-static/range {v1 .. v8}, Landroidx/datastore/core/DataStoreFactory;
-    ->create$default(Landroidx/datastore/core/DataStoreFactory;Landroidx/datastore/core/Serializer;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Ljava/util/List;Lz1/v;Lp1/a;ILjava/lang/Object;)Landroidx/datastore/core/DataStore;
+    invoke-static/range {v1 .. v8}, Landroidx/datastore/core/DataStoreFactory;->create$default(Landroidx/datastore/core/DataStoreFactory;Landroidx/datastore/core/Serializer;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Ljava/util/List;Lz1/v;Lp1/a;ILjava/lang/Object;)Landroidx/datastore/core/DataStore;
 
     move-result-object p1
 
@@ -353,13 +328,11 @@ return-object v0
     .line 3
     const-string v0, "serializer"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "produceFile"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/16 v7, 0xe
 
@@ -377,8 +350,7 @@ return-object v0
 
     move-object v6, p2
 
-    invoke-static/range {v1 .. v8}, Landroidx/datastore/core/DataStoreFactory;
-    ->create$default(Landroidx/datastore/core/DataStoreFactory;Landroidx/datastore/core/Serializer;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Ljava/util/List;Lz1/v;Lp1/a;ILjava/lang/Object;)Landroidx/datastore/core/DataStore;
+    invoke-static/range {v1 .. v8}, Landroidx/datastore/core/DataStoreFactory;->create$default(Landroidx/datastore/core/DataStoreFactory;Landroidx/datastore/core/Serializer;Landroidx/datastore/core/handlers/ReplaceFileCorruptionHandler;Ljava/util/List;Lz1/v;Lp1/a;ILjava/lang/Object;)Landroidx/datastore/core/DataStore;
 
     move-result-object p1
 

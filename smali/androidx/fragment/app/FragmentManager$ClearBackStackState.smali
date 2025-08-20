@@ -32,19 +32,16 @@
     .end param
 
     .line 1
-    iput-object p1, p0, Landroidx/fragment/app/FragmentManager$ClearBackStackState;
-    ->this$0:Landroidx/fragment/app/FragmentManager;
+    iput-object p1, p0, Landroidx/fragment/app/FragmentManager$ClearBackStackState;->this$0:Landroidx/fragment/app/FragmentManager;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/fragment/app/FragmentManager$ClearBackStackState;
-    ->mName:Ljava/lang/String;    
+    iput-object p2, p0, Landroidx/fragment/app/FragmentManager$ClearBackStackState;->mName:Ljava/lang/String;
     return-void
 .end method
 
@@ -73,18 +70,15 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentManager$ClearBackStackState;
-    ->this$0:Landroidx/fragment/app/FragmentManager;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentManager$ClearBackStackState;->this$0:Landroidx/fragment/app/FragmentManager;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/fragment/app/FragmentManager$ClearBackStackState;
-    ->mName:Ljava/lang/String;
+    iget-object v1, p0, Landroidx/fragment/app/FragmentManager$ClearBackStackState;->mName:Ljava/lang/String;
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1, p2, v1}, Landroidx/fragment/app/FragmentManager;
-    ->clearBackStackState(Ljava/util/ArrayList;Ljava/util/ArrayList;Ljava/lang/String;)Z
+    invoke-virtual {v0, p1, p2, v1}, Landroidx/fragment/app/FragmentManager;->clearBackStackState(Ljava/util/ArrayList;Ljava/util/ArrayList;Ljava/lang/String;)Z
 
     .line 6
     .line 7

@@ -30,13 +30,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi26;
-    ->this$0:Landroidx/appcompat/widget/AppCompatTextView;
+    iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi26;->this$0:Landroidx/appcompat/widget/AppCompatTextView;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -46,13 +44,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi26;
-    ->this$0:Landroidx/appcompat/widget/AppCompatTextView;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi26;->this$0:Landroidx/appcompat/widget/AppCompatTextView;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/appcompat/widget/AppCompatTextView;
-    ->access$001(Landroidx/appcompat/widget/AppCompatTextView;)I
+    invoke-static {v0}, Landroidx/appcompat/widget/AppCompatTextView;->access$001(Landroidx/appcompat/widget/AppCompatTextView;)I
 
     .line 4
     .line 5
@@ -66,13 +62,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi26;
-    ->this$0:Landroidx/appcompat/widget/AppCompatTextView;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi26;->this$0:Landroidx/appcompat/widget/AppCompatTextView;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/appcompat/widget/AppCompatTextView;
-    ->access$101(Landroidx/appcompat/widget/AppCompatTextView;)I
+    invoke-static {v0}, Landroidx/appcompat/widget/AppCompatTextView;->access$101(Landroidx/appcompat/widget/AppCompatTextView;)I
 
     .line 4
     .line 5
@@ -86,13 +80,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi26;
-    ->this$0:Landroidx/appcompat/widget/AppCompatTextView;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi26;->this$0:Landroidx/appcompat/widget/AppCompatTextView;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/appcompat/widget/AppCompatTextView;
-    ->access$201(Landroidx/appcompat/widget/AppCompatTextView;)I
+    invoke-static {v0}, Landroidx/appcompat/widget/AppCompatTextView;->access$201(Landroidx/appcompat/widget/AppCompatTextView;)I
 
     .line 4
     .line 5
@@ -106,13 +98,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi26;
-    ->this$0:Landroidx/appcompat/widget/AppCompatTextView;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi26;->this$0:Landroidx/appcompat/widget/AppCompatTextView;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/appcompat/widget/AppCompatTextView;
-    ->access$301(Landroidx/appcompat/widget/AppCompatTextView;)[I
+    invoke-static {v0}, Landroidx/appcompat/widget/AppCompatTextView;->access$301(Landroidx/appcompat/widget/AppCompatTextView;)[I
 
     .line 4
     .line 5
@@ -126,13 +116,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi26;
-    ->this$0:Landroidx/appcompat/widget/AppCompatTextView;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi26;->this$0:Landroidx/appcompat/widget/AppCompatTextView;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/appcompat/widget/AppCompatTextView;
-    ->access$401(Landroidx/appcompat/widget/AppCompatTextView;)I
+    invoke-static {v0}, Landroidx/appcompat/widget/AppCompatTextView;->access$401(Landroidx/appcompat/widget/AppCompatTextView;)I
 
     .line 4
     .line 5
@@ -146,13 +134,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi26;
-    ->this$0:Landroidx/appcompat/widget/AppCompatTextView;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi26;->this$0:Landroidx/appcompat/widget/AppCompatTextView;
 
     .line 2
     .line 3
-    invoke-static {v0}, Landroidx/appcompat/widget/AppCompatTextView;
-    ->access$501(Landroidx/appcompat/widget/AppCompatTextView;)Landroid/view/textclassifier/TextClassifier;
+    invoke-static {v0}, Landroidx/appcompat/widget/AppCompatTextView;->access$501(Landroidx/appcompat/widget/AppCompatTextView;)Landroid/view/textclassifier/TextClassifier;
 
     .line 4
     .line 5
@@ -166,13 +152,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi26;
-    ->this$0:Landroidx/appcompat/widget/AppCompatTextView;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi26;->this$0:Landroidx/appcompat/widget/AppCompatTextView;
 
     .line 2
     .line 3
-    invoke-static {v0, p1, p2, p3, p4}, Landroidx/appcompat/widget/AppCompatTextView;
-    ->access$601(Landroidx/appcompat/widget/AppCompatTextView;IIII)V    
+    invoke-static {v0, p1, p2, p3, p4}, Landroidx/appcompat/widget/AppCompatTextView;->access$601(Landroidx/appcompat/widget/AppCompatTextView;IIII)V
     return-void
 .end method
 
@@ -180,13 +164,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi26;
-    ->this$0:Landroidx/appcompat/widget/AppCompatTextView;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi26;->this$0:Landroidx/appcompat/widget/AppCompatTextView;
 
     .line 2
     .line 3
-    invoke-static {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextView;
-    ->access$701(Landroidx/appcompat/widget/AppCompatTextView;[II)V    
+    invoke-static {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextView;->access$701(Landroidx/appcompat/widget/AppCompatTextView;[II)V
     return-void
 .end method
 
@@ -194,13 +176,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi26;
-    ->this$0:Landroidx/appcompat/widget/AppCompatTextView;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi26;->this$0:Landroidx/appcompat/widget/AppCompatTextView;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Landroidx/appcompat/widget/AppCompatTextView;
-    ->access$801(Landroidx/appcompat/widget/AppCompatTextView;I)V    
+    invoke-static {v0, p1}, Landroidx/appcompat/widget/AppCompatTextView;->access$801(Landroidx/appcompat/widget/AppCompatTextView;I)V
     return-void
 .end method
 
@@ -230,13 +210,11 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi26;
-    ->this$0:Landroidx/appcompat/widget/AppCompatTextView;
+    iget-object v0, p0, Landroidx/appcompat/widget/AppCompatTextView$SuperCallerApi26;->this$0:Landroidx/appcompat/widget/AppCompatTextView;
 
     .line 2
     .line 3
-    invoke-static {v0, p1}, Landroidx/appcompat/widget/AppCompatTextView;
-    ->access$901(Landroidx/appcompat/widget/AppCompatTextView;Landroid/view/textclassifier/TextClassifier;)V    
+    invoke-static {v0, p1}, Landroidx/appcompat/widget/AppCompatTextView;->access$901(Landroidx/appcompat/widget/AppCompatTextView;Landroid/view/textclassifier/TextClassifier;)V
     return-void
 .end method
 

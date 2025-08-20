@@ -24,8 +24,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -34,14 +33,12 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/util/ArrayDeque;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayDeque;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/appcompat/app/LayoutIncludeDetector;
-    ->mXmlParserStack:Ljava/util/Deque;    
+    iput-object v0, p0, Landroidx/appcompat/app/LayoutIncludeDetector;->mXmlParserStack:Ljava/util/Deque;
     return-void
 .end method
 
@@ -61,8 +58,7 @@
     .line 3
     .line 4
     :try_start_0
-    invoke-interface {p0}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getEventType()I
+    invoke-interface {p0}, Lorg/xmlpull/v1/XmlPullParser;->getEventType()I
 
     .line 5
     .line 6
@@ -77,8 +73,7 @@
 
     .line 10
     .line 11
-    invoke-interface {p0}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getEventType()I
+    invoke-interface {p0}, Lorg/xmlpull/v1/XmlPullParser;->getEventType()I
 
     .line 12
     .line 13
@@ -129,8 +124,7 @@
 
     .line 1
     :goto_0
-    invoke-interface {p0}, Ljava/util/Collection;
-    ->isEmpty()Z
+    invoke-interface {p0}, Ljava/util/Collection;->isEmpty()Z
 
     .line 2
     .line 3
@@ -142,8 +136,7 @@
 
     .line 6
     .line 7
-    invoke-interface {p0}, Ljava/util/Deque;
-    ->peek()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Deque;->peek()Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -155,8 +148,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {v0}, Ljava/lang/ref/Reference;
-    ->get()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -168,8 +160,7 @@
 
     .line 18
     .line 19
-    invoke-static {v0}, Landroidx/appcompat/app/LayoutIncludeDetector;
-    ->isParserOutdated(Lorg/xmlpull/v1/XmlPullParser;)Z
+    invoke-static {v0}, Landroidx/appcompat/app/LayoutIncludeDetector;->isParserOutdated(Lorg/xmlpull/v1/XmlPullParser;)Z
 
     .line 20
     .line 21
@@ -181,8 +172,7 @@
 
     .line 24
     .line 25
-    invoke-interface {p0}, Ljava/util/Deque;
-    ->pop()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Deque;->pop()Ljava/lang/Object;
 
     .line 26
     .line 27
@@ -221,8 +211,7 @@
     .line 4
     .line 5
     :try_start_0
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getEventType()I
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->getEventType()I
 
     .line 6
     .line 7
@@ -241,8 +230,7 @@
 
     .line 13
     .line 14
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getName()Ljava/lang/String;
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->getName()Ljava/lang/String;
 
     .line 15
     .line 16
@@ -250,8 +238,7 @@
     move-result-object p1
 
     .line 18
-    invoke-virtual {p0, p1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 19
     .line 20
@@ -292,8 +279,7 @@
 
     .line 6
     .line 7
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getDepth()I
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->getDepth()I
 
     .line 8
     .line 9
@@ -308,13 +294,11 @@
 
     .line 13
     .line 14
-    iget-object v0, p0, Landroidx/appcompat/app/LayoutIncludeDetector;
-    ->mXmlParserStack:Ljava/util/Deque;
+    iget-object v0, p0, Landroidx/appcompat/app/LayoutIncludeDetector;->mXmlParserStack:Ljava/util/Deque;
 
     .line 15
     .line 16
-    invoke-static {v0}, Landroidx/appcompat/app/LayoutIncludeDetector;
-    ->popOutdatedAttrHolders(Ljava/util/Deque;)Lorg/xmlpull/v1/XmlPullParser;
+    invoke-static {v0}, Landroidx/appcompat/app/LayoutIncludeDetector;->popOutdatedAttrHolders(Ljava/util/Deque;)Lorg/xmlpull/v1/XmlPullParser;
 
     .line 17
     .line 18
@@ -322,8 +306,7 @@
     move-result-object v0
 
     .line 20
-    iget-object v2, p0, Landroidx/appcompat/app/LayoutIncludeDetector;
-    ->mXmlParserStack:Ljava/util/Deque;
+    iget-object v2, p0, Landroidx/appcompat/app/LayoutIncludeDetector;->mXmlParserStack:Ljava/util/Deque;
 
     .line 21
     .line 22
@@ -331,20 +314,17 @@
 
     .line 23
     .line 24
-    invoke-direct {v3, p1}, Ljava/lang/ref/WeakReference;
-    -><init>(Ljava/lang/Object;)V
+    invoke-direct {v3, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
     .line 25
     .line 26
     .line 27
-    invoke-interface {v2, v3}, Ljava/util/Deque;
-    ->push(Ljava/lang/Object;)V
+    invoke-interface {v2, v3}, Ljava/util/Deque;->push(Ljava/lang/Object;)V
 
     .line 28
     .line 29
     .line 30
-    invoke-static {p1, v0}, Landroidx/appcompat/app/LayoutIncludeDetector;
-    ->shouldInheritContext(Lorg/xmlpull/v1/XmlPullParser;Lorg/xmlpull/v1/XmlPullParser;)Z
+    invoke-static {p1, v0}, Landroidx/appcompat/app/LayoutIncludeDetector;->shouldInheritContext(Lorg/xmlpull/v1/XmlPullParser;Lorg/xmlpull/v1/XmlPullParser;)Z
 
     .line 31
     .line 32

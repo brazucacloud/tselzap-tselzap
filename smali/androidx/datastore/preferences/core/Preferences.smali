@@ -17,8 +17,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -73,8 +72,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroidx/datastore/preferences/core/Preferences;
-    ->asMap()Ljava/util/Map;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/core/Preferences;->asMap()Ljava/util/Map;
 
     .line 4
     .line 5
@@ -82,8 +80,7 @@
     move-result-object v1
 
     .line 7
-    invoke-static {v1}, Ld1/B;
-    ->Y(Ljava/util/Map;)Ljava/util/LinkedHashMap;
+    invoke-static {v1}, Ld1/B;->Y(Ljava/util/Map;)Ljava/util/LinkedHashMap;
 
     .line 8
     .line 9
@@ -94,8 +91,7 @@
     const/4 v2, 0x0
 
     .line 12
-    invoke-direct {v0, v1, v2}, Landroidx/datastore/preferences/core/MutablePreferences;
-    -><init>(Ljava/util/Map;Z)V
+    invoke-direct {v0, v1, v2}, Landroidx/datastore/preferences/core/MutablePreferences;-><init>(Ljava/util/Map;Z)V
 
     .line 13
     .line 14
@@ -111,8 +107,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroidx/datastore/preferences/core/Preferences;
-    ->asMap()Ljava/util/Map;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/core/Preferences;->asMap()Ljava/util/Map;
 
     .line 4
     .line 5
@@ -120,8 +115,7 @@
     move-result-object v1
 
     .line 7
-    invoke-static {v1}, Ld1/B;
-    ->Y(Ljava/util/Map;)Ljava/util/LinkedHashMap;
+    invoke-static {v1}, Ld1/B;->Y(Ljava/util/Map;)Ljava/util/LinkedHashMap;
 
     .line 8
     .line 9
@@ -132,8 +126,7 @@
     const/4 v2, 0x1
 
     .line 12
-    invoke-direct {v0, v1, v2}, Landroidx/datastore/preferences/core/MutablePreferences;
-    -><init>(Ljava/util/Map;Z)V
+    invoke-direct {v0, v1, v2}, Landroidx/datastore/preferences/core/MutablePreferences;-><init>(Ljava/util/Map;Z)V
 
     .line 13
     .line 14

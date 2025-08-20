@@ -22,8 +22,7 @@
 .method static constructor <clinit>()V
     .locals 3
 
-    invoke-static {}, Landroidx/navigation/serialization/InternalType;
-    ->values()[Landroidx/navigation/serialization/InternalType;
+    invoke-static {}, Landroidx/navigation/serialization/InternalType;->values()[Landroidx/navigation/serialization/InternalType;
 
     move-result-object v0
 
@@ -32,11 +31,9 @@
     new-array v0, v0, [I
 
     :try_start_0
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->INT:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->INT:Landroidx/navigation/serialization/InternalType;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -48,11 +45,9 @@
 
     :catch_0
     :try_start_1
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->BOOL:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->BOOL:Landroidx/navigation/serialization/InternalType;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -64,11 +59,9 @@
 
     :catch_1
     :try_start_2
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->FLOAT:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->FLOAT:Landroidx/navigation/serialization/InternalType;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -80,11 +73,9 @@
 
     :catch_2
     :try_start_3
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->LONG:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->LONG:Landroidx/navigation/serialization/InternalType;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -96,11 +87,9 @@
 
     :catch_3
     :try_start_4
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->STRING:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->STRING:Landroidx/navigation/serialization/InternalType;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -112,11 +101,9 @@
 
     :catch_4
     :try_start_5
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->STRING_NULLABLE:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->STRING_NULLABLE:Landroidx/navigation/serialization/InternalType;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -128,11 +115,9 @@
 
     :catch_5
     :try_start_6
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->ENUM:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->ENUM:Landroidx/navigation/serialization/InternalType;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -144,11 +129,9 @@
 
     :catch_6
     :try_start_7
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->INT_NULLABLE:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->INT_NULLABLE:Landroidx/navigation/serialization/InternalType;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -160,11 +143,9 @@
 
     :catch_7
     :try_start_8
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->BOOL_NULLABLE:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->BOOL_NULLABLE:Landroidx/navigation/serialization/InternalType;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -176,11 +157,9 @@
 
     :catch_8
     :try_start_9
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->DOUBLE:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->DOUBLE:Landroidx/navigation/serialization/InternalType;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -192,11 +171,9 @@
 
     :catch_9
     :try_start_a
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->DOUBLE_NULLABLE:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->DOUBLE_NULLABLE:Landroidx/navigation/serialization/InternalType;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -208,11 +185,9 @@
 
     :catch_a
     :try_start_b
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->FLOAT_NULLABLE:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->FLOAT_NULLABLE:Landroidx/navigation/serialization/InternalType;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -224,11 +199,9 @@
 
     :catch_b
     :try_start_c
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->LONG_NULLABLE:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->LONG_NULLABLE:Landroidx/navigation/serialization/InternalType;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -240,11 +213,9 @@
 
     :catch_c
     :try_start_d
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->INT_ARRAY:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->INT_ARRAY:Landroidx/navigation/serialization/InternalType;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -256,11 +227,9 @@
 
     :catch_d
     :try_start_e
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->BOOL_ARRAY:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->BOOL_ARRAY:Landroidx/navigation/serialization/InternalType;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -272,11 +241,9 @@
 
     :catch_e
     :try_start_f
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->DOUBLE_ARRAY:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->DOUBLE_ARRAY:Landroidx/navigation/serialization/InternalType;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -288,11 +255,9 @@
 
     :catch_f
     :try_start_10
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->FLOAT_ARRAY:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->FLOAT_ARRAY:Landroidx/navigation/serialization/InternalType;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -304,11 +269,9 @@
 
     :catch_10
     :try_start_11
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->LONG_ARRAY:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->LONG_ARRAY:Landroidx/navigation/serialization/InternalType;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -320,11 +283,9 @@
 
     :catch_11
     :try_start_12
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->ARRAY:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->ARRAY:Landroidx/navigation/serialization/InternalType;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -336,11 +297,9 @@
 
     :catch_12
     :try_start_13
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->LIST:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->LIST:Landroidx/navigation/serialization/InternalType;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -352,11 +311,9 @@
 
     :catch_13
     :try_start_14
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->ENUM_NULLABLE:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->ENUM_NULLABLE:Landroidx/navigation/serialization/InternalType;
 
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     move-result v1
 
@@ -367,8 +324,7 @@
     .catch Ljava/lang/NoSuchFieldError; {:try_start_14 .. :try_end_14} :catch_14
 
     :catch_14
-    sput-object v0, Landroidx/navigation/serialization/NavTypeConverterKt$WhenMappings;
-    ->$EnumSwitchMapping$0:[I
+    sput-object v0, Landroidx/navigation/serialization/NavTypeConverterKt$WhenMappings;->$EnumSwitchMapping$0:[I
 
     return-void
 .end method

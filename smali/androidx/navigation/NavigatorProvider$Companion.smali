@@ -19,8 +19,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -28,8 +27,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/navigation/NavigatorProvider$Companion;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/navigation/NavigatorProvider$Companion;-><init>()V
     return-void
 .end method
 
@@ -53,14 +51,12 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {}, Landroidx/navigation/NavigatorProvider;
-    ->access$getAnnotationNames$cp()Ljava/util/Map;
+    invoke-static {}, Landroidx/navigation/NavigatorProvider;->access$getAnnotationNames$cp()Ljava/util/Map;
 
     .line 7
     .line 8
@@ -68,8 +64,7 @@
     move-result-object v0
 
     .line 10
-    invoke-interface {v0, p1}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -89,8 +84,7 @@
 
     .line 19
     .line 20
-    invoke-virtual {p1, v0}, Ljava/lang/Class;
-    ->getAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;
+    invoke-virtual {p1, v0}, Ljava/lang/Class;->getAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;
 
     .line 21
     .line 22
@@ -106,8 +100,7 @@
 
     .line 27
     .line 28
-    invoke-interface {v0}, Landroidx/navigation/Navigator$Name;
-    ->value()Ljava/lang/String;
+    invoke-interface {v0}, Landroidx/navigation/Navigator$Name;->value()Ljava/lang/String;
 
     .line 29
     .line 30
@@ -123,8 +116,7 @@
 
     .line 34
     :goto_0
-    invoke-virtual {p0, v0}, Landroidx/navigation/NavigatorProvider$Companion;
-    ->validateName$navigation_common_release(Ljava/lang/String;)Z
+    invoke-virtual {p0, v0}, Landroidx/navigation/NavigatorProvider$Companion;->validateName$navigation_common_release(Ljava/lang/String;)Z
 
     .line 35
     .line 36
@@ -136,8 +128,7 @@
 
     .line 39
     .line 40
-    invoke-static {}, Landroidx/navigation/NavigatorProvider;
-    ->access$getAnnotationNames$cp()Ljava/util/Map;
+    invoke-static {}, Landroidx/navigation/NavigatorProvider;->access$getAnnotationNames$cp()Ljava/util/Map;
 
     .line 41
     .line 42
@@ -145,8 +136,7 @@
     move-result-object v1
 
     .line 44
-    invoke-interface {v1, p1, v0}, Ljava/util/Map;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, p1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 45
     .line 46
@@ -155,8 +145,7 @@
 
     .line 48
     :cond_1
-    invoke-virtual {p1}, Ljava/lang/Class;
-    ->getSimpleName()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
 
     .line 49
     .line 50
@@ -168,8 +157,7 @@
 
     .line 53
     .line 54
-    invoke-virtual {v0, p1}, Ljava/lang/String;
-    ->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v0, p1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 55
     .line 56
@@ -181,8 +169,7 @@
 
     .line 59
     .line 60
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     .line 61
     .line 62
@@ -190,8 +177,7 @@
     move-result-object p1
 
     .line 64
-    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 65
     .line 66
@@ -201,8 +187,7 @@
     .line 68
     :cond_2
     :goto_1
-    invoke-static {v0}, Lkotlin/jvm/internal/j;
-    ->c(Ljava/lang/Object;)V
+    invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 return-object v0
 .end method
 
@@ -214,8 +199,7 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-interface {p1}, Ljava/lang/CharSequence;
-    ->length()I
+    invoke-interface {p1}, Ljava/lang/CharSequence;->length()I
 
     .line 4
     .line 5

@@ -23,13 +23,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/ActivityChooserView$1;
-    ->this$0:Landroidx/appcompat/widget/ActivityChooserView;
+    iput-object p1, p0, Landroidx/appcompat/widget/ActivityChooserView$1;->this$0:Landroidx/appcompat/widget/ActivityChooserView;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroid/database/DataSetObserver;
-    -><init>()V
+    invoke-direct {p0}, Landroid/database/DataSetObserver;-><init>()V
     return-void
 .end method
 
@@ -39,24 +37,20 @@
     .locals 1
 
     .line 1
-    invoke-super {p0}, Landroid/database/DataSetObserver;
-    ->onChanged()V
+    invoke-super {p0}, Landroid/database/DataSetObserver;->onChanged()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/appcompat/widget/ActivityChooserView$1;
-    ->this$0:Landroidx/appcompat/widget/ActivityChooserView;
+    iget-object v0, p0, Landroidx/appcompat/widget/ActivityChooserView$1;->this$0:Landroidx/appcompat/widget/ActivityChooserView;
 
     .line 5
     .line 6
-    iget-object v0, v0, Landroidx/appcompat/widget/ActivityChooserView;
-    ->mAdapter:Landroidx/appcompat/widget/ActivityChooserView$ActivityChooserViewAdapter;
+    iget-object v0, v0, Landroidx/appcompat/widget/ActivityChooserView;->mAdapter:Landroidx/appcompat/widget/ActivityChooserView$ActivityChooserViewAdapter;
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroid/widget/BaseAdapter;
-    ->notifyDataSetChanged()V
+    invoke-virtual {v0}, Landroid/widget/BaseAdapter;->notifyDataSetChanged()V
     return-void
 .end method
 
@@ -64,24 +58,20 @@
     .locals 1
 
     .line 1
-    invoke-super {p0}, Landroid/database/DataSetObserver;
-    ->onInvalidated()V
+    invoke-super {p0}, Landroid/database/DataSetObserver;->onInvalidated()V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/appcompat/widget/ActivityChooserView$1;
-    ->this$0:Landroidx/appcompat/widget/ActivityChooserView;
+    iget-object v0, p0, Landroidx/appcompat/widget/ActivityChooserView$1;->this$0:Landroidx/appcompat/widget/ActivityChooserView;
 
     .line 5
     .line 6
-    iget-object v0, v0, Landroidx/appcompat/widget/ActivityChooserView;
-    ->mAdapter:Landroidx/appcompat/widget/ActivityChooserView$ActivityChooserViewAdapter;
+    iget-object v0, v0, Landroidx/appcompat/widget/ActivityChooserView;->mAdapter:Landroidx/appcompat/widget/ActivityChooserView$ActivityChooserViewAdapter;
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroid/widget/BaseAdapter;
-    ->notifyDataSetInvalidated()V
+    invoke-virtual {v0}, Landroid/widget/BaseAdapter;->notifyDataSetInvalidated()V
     return-void
 .end method
 

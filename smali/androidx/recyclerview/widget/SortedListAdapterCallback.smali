@@ -46,14 +46,12 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Landroidx/recyclerview/widget/SortedList$Callback;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/recyclerview/widget/SortedList$Callback;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/recyclerview/widget/SortedListAdapterCallback;
-    ->mAdapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;    
+    iput-object p1, p0, Landroidx/recyclerview/widget/SortedListAdapterCallback;->mAdapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
     return-void
 .end method
 
@@ -63,11 +61,9 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/SortedListAdapterCallback;
-    ->mAdapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
+    iget-object v0, p0, Landroidx/recyclerview/widget/SortedListAdapterCallback;->mAdapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
-    invoke-virtual {v0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->notifyItemRangeChanged(II)V
+    invoke-virtual {v0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyItemRangeChanged(II)V
 
     return-void
 .end method
@@ -81,11 +77,9 @@
     .end annotation
 
     .line 2
-    iget-object v0, p0, Landroidx/recyclerview/widget/SortedListAdapterCallback;
-    ->mAdapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
+    iget-object v0, p0, Landroidx/recyclerview/widget/SortedListAdapterCallback;->mAdapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->notifyItemRangeChanged(IILjava/lang/Object;)V
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyItemRangeChanged(IILjava/lang/Object;)V
 
     return-void
 .end method
@@ -94,13 +88,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/SortedListAdapterCallback;
-    ->mAdapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
+    iget-object v0, p0, Landroidx/recyclerview/widget/SortedListAdapterCallback;->mAdapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->notifyItemRangeInserted(II)V    
+    invoke-virtual {v0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyItemRangeInserted(II)V
     return-void
 .end method
 
@@ -108,13 +100,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/SortedListAdapterCallback;
-    ->mAdapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
+    iget-object v0, p0, Landroidx/recyclerview/widget/SortedListAdapterCallback;->mAdapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->notifyItemMoved(II)V    
+    invoke-virtual {v0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyItemMoved(II)V
     return-void
 .end method
 
@@ -122,13 +112,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/SortedListAdapterCallback;
-    ->mAdapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
+    iget-object v0, p0, Landroidx/recyclerview/widget/SortedListAdapterCallback;->mAdapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->notifyItemRangeRemoved(II)V    
+    invoke-virtual {v0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->notifyItemRangeRemoved(II)V
     return-void
 .end method
 

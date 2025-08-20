@@ -16,13 +16,11 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/constraintlayout/core/state/State$Helper;
-    ->BARRIER:Landroidx/constraintlayout/core/state/State$Helper;
+    sget-object v0, Landroidx/constraintlayout/core/state/State$Helper;->BARRIER:Landroidx/constraintlayout/core/state/State$Helper;
 
     .line 2
     .line 3
-    invoke-direct {p0, p1, v0}, Landroidx/constraintlayout/core/state/HelperReference;
-    -><init>(Landroidx/constraintlayout/core/state/State;Landroidx/constraintlayout/core/state/State$Helper;)V
+    invoke-direct {p0, p1, v0}, Landroidx/constraintlayout/core/state/HelperReference;-><init>(Landroidx/constraintlayout/core/state/State;Landroidx/constraintlayout/core/state/State$Helper;)V
 return-void
 .end method
 
@@ -32,24 +30,20 @@ return-void
     .locals 3
 
     .line 1
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/state/helpers/BarrierReference;
-    ->getHelperWidget()Landroidx/constraintlayout/core/widgets/HelperWidget;
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/state/helpers/BarrierReference;->getHelperWidget()Landroidx/constraintlayout/core/widgets/HelperWidget;
 
     .line 2
     .line 3
     .line 4
-    sget-object v0, Landroidx/constraintlayout/core/state/helpers/BarrierReference$1;
-    ->$SwitchMap$androidx$constraintlayout$core$state$State$Direction:[I
+    sget-object v0, Landroidx/constraintlayout/core/state/helpers/BarrierReference$1;->$SwitchMap$androidx$constraintlayout$core$state$State$Direction:[I
 
     .line 5
     .line 6
-    iget-object v1, p0, Landroidx/constraintlayout/core/state/helpers/BarrierReference;
-    ->mDirection:Landroidx/constraintlayout/core/state/State$Direction;
+    iget-object v1, p0, Landroidx/constraintlayout/core/state/helpers/BarrierReference;->mDirection:Landroidx/constraintlayout/core/state/State$Direction;
 
     .line 7
     .line 8
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     .line 9
     .line 10
@@ -108,29 +102,24 @@ return-void
     .line 31
     :cond_2
     :goto_0
-    iget-object v0, p0, Landroidx/constraintlayout/core/state/helpers/BarrierReference;
-    ->mBarrierWidget:Landroidx/constraintlayout/core/widgets/Barrier;
+    iget-object v0, p0, Landroidx/constraintlayout/core/state/helpers/BarrierReference;->mBarrierWidget:Landroidx/constraintlayout/core/widgets/Barrier;
 
     .line 32
     .line 33
-    invoke-virtual {v0, v1}, Landroidx/constraintlayout/core/widgets/Barrier;
-    ->setBarrierType(I)V
+    invoke-virtual {v0, v1}, Landroidx/constraintlayout/core/widgets/Barrier;->setBarrierType(I)V
 
     .line 34
     .line 35
     .line 36
-    iget-object v0, p0, Landroidx/constraintlayout/core/state/helpers/BarrierReference;
-    ->mBarrierWidget:Landroidx/constraintlayout/core/widgets/Barrier;
+    iget-object v0, p0, Landroidx/constraintlayout/core/state/helpers/BarrierReference;->mBarrierWidget:Landroidx/constraintlayout/core/widgets/Barrier;
 
     .line 37
     .line 38
-    iget v1, p0, Landroidx/constraintlayout/core/state/helpers/BarrierReference;
-    ->mMargin:I
+    iget v1, p0, Landroidx/constraintlayout/core/state/helpers/BarrierReference;->mMargin:I
 
     .line 39
     .line 40
-    invoke-virtual {v0, v1}, Landroidx/constraintlayout/core/widgets/Barrier;
-    ->setMargin(I)V
+    invoke-virtual {v0, v1}, Landroidx/constraintlayout/core/widgets/Barrier;->setMargin(I)V
 return-void
 .end method
 
@@ -138,8 +127,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/state/helpers/BarrierReference;
-    ->mBarrierWidget:Landroidx/constraintlayout/core/widgets/Barrier;
+    iget-object v0, p0, Landroidx/constraintlayout/core/state/helpers/BarrierReference;->mBarrierWidget:Landroidx/constraintlayout/core/widgets/Barrier;
 
     .line 2
     .line 3
@@ -151,28 +139,24 @@ return-void
 
     .line 6
     .line 7
-    invoke-direct {v0}, Landroidx/constraintlayout/core/widgets/Barrier;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/constraintlayout/core/widgets/Barrier;-><init>()V
 
     .line 8
     .line 9
     .line 10
-    iput-object v0, p0, Landroidx/constraintlayout/core/state/helpers/BarrierReference;
-    ->mBarrierWidget:Landroidx/constraintlayout/core/widgets/Barrier;
+    iput-object v0, p0, Landroidx/constraintlayout/core/state/helpers/BarrierReference;->mBarrierWidget:Landroidx/constraintlayout/core/widgets/Barrier;
 
     .line 11
     .line 12
     :cond_0
-    iget-object v0, p0, Landroidx/constraintlayout/core/state/helpers/BarrierReference;
-    ->mBarrierWidget:Landroidx/constraintlayout/core/widgets/Barrier;    return-object v0
+    iget-object v0, p0, Landroidx/constraintlayout/core/state/helpers/BarrierReference;->mBarrierWidget:Landroidx/constraintlayout/core/widgets/Barrier;    return-object v0
 .end method
 
 .method public margin(I)Landroidx/constraintlayout/core/state/ConstraintReference;
     .locals 0
 
     .line 2
-    iput p1, p0, Landroidx/constraintlayout/core/state/helpers/BarrierReference;
-    ->mMargin:I
+    iput p1, p0, Landroidx/constraintlayout/core/state/helpers/BarrierReference;->mMargin:I
 
     return-object p0
 .end method
@@ -181,16 +165,13 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/state/HelperReference;
-    ->mHelperState:Landroidx/constraintlayout/core/state/State;
+    iget-object v0, p0, Landroidx/constraintlayout/core/state/HelperReference;->mHelperState:Landroidx/constraintlayout/core/state/State;
 
-    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/state/State;
-    ->convertDimension(Ljava/lang/Object;)I
+    invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/state/State;->convertDimension(Ljava/lang/Object;)I
 
     move-result p1
 
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/core/state/helpers/BarrierReference;
-    ->margin(I)Landroidx/constraintlayout/core/state/ConstraintReference;
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/core/state/helpers/BarrierReference;->margin(I)Landroidx/constraintlayout/core/state/ConstraintReference;
 
     return-object p0
 .end method
@@ -199,8 +180,7 @@ return-void
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/constraintlayout/core/state/helpers/BarrierReference;
-    ->mDirection:Landroidx/constraintlayout/core/state/State$Direction;    
+    iput-object p1, p0, Landroidx/constraintlayout/core/state/helpers/BarrierReference;->mDirection:Landroidx/constraintlayout/core/state/State$Direction;
     return-void
 .end method
 

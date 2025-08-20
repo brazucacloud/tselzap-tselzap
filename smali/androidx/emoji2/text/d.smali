@@ -17,14 +17,11 @@
     .locals 0
 
     .line 1
-    iput p2, p0, Landroidx/emoji2/text/d;
-    ->b:I
+    iput p2, p0, Landroidx/emoji2/text/d;->b:I
 
-    iput-object p1, p0, Landroidx/emoji2/text/d;
-    ->c:Landroidx/emoji2/text/FontRequestEmojiCompatConfig$FontRequestMetadataLoader;
+    iput-object p1, p0, Landroidx/emoji2/text/d;->c:Landroidx/emoji2/text/FontRequestEmojiCompatConfig$FontRequestMetadataLoader;
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -34,24 +31,19 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/emoji2/text/d;
-    ->b:I
+    iget v0, p0, Landroidx/emoji2/text/d;->b:I
 
     packed-switch v0, :pswitch_data_0
 
-    iget-object v0, p0, Landroidx/emoji2/text/d;
-    ->c:Landroidx/emoji2/text/FontRequestEmojiCompatConfig$FontRequestMetadataLoader;
+    iget-object v0, p0, Landroidx/emoji2/text/d;->c:Landroidx/emoji2/text/FontRequestEmojiCompatConfig$FontRequestMetadataLoader;
 
-    invoke-virtual {v0}, Landroidx/emoji2/text/FontRequestEmojiCompatConfig$FontRequestMetadataLoader;
-    ->loadInternal()V
+    invoke-virtual {v0}, Landroidx/emoji2/text/FontRequestEmojiCompatConfig$FontRequestMetadataLoader;->loadInternal()V
     return-void
 
     :pswitch_0
-    iget-object v0, p0, Landroidx/emoji2/text/d;
-    ->c:Landroidx/emoji2/text/FontRequestEmojiCompatConfig$FontRequestMetadataLoader;
+    iget-object v0, p0, Landroidx/emoji2/text/d;->c:Landroidx/emoji2/text/FontRequestEmojiCompatConfig$FontRequestMetadataLoader;
 
-    invoke-virtual {v0}, Landroidx/emoji2/text/FontRequestEmojiCompatConfig$FontRequestMetadataLoader;
-    ->createMetadata()V
+    invoke-virtual {v0}, Landroidx/emoji2/text/FontRequestEmojiCompatConfig$FontRequestMetadataLoader;->createMetadata()V
     return-void
 
     nop

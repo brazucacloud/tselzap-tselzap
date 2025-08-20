@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -38,8 +37,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/PopupWindow;
-    ->getOverlapAnchor()Z
+    invoke-virtual {p0}, Landroid/widget/PopupWindow;->getOverlapAnchor()Z
 
     .line 2
     .line 3
@@ -55,8 +53,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/PopupWindow;
-    ->getWindowLayoutType()I
+    invoke-virtual {p0}, Landroid/widget/PopupWindow;->getWindowLayoutType()I
 
     .line 2
     .line 3
@@ -72,8 +69,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/widget/PopupWindow;
-    ->setOverlapAnchor(Z)V
+    invoke-virtual {p0, p1}, Landroid/widget/PopupWindow;->setOverlapAnchor(Z)V
 
     .line 2
     .line 3
@@ -87,8 +83,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/widget/PopupWindow;
-    ->setWindowLayoutType(I)V
+    invoke-virtual {p0, p1}, Landroid/widget/PopupWindow;->setWindowLayoutType(I)V
 
     .line 2
     .line 3

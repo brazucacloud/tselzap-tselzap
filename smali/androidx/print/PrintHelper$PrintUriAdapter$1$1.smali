@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/print/PrintHelper$PrintUriAdapter$1;
-    ->onPreExecute()V
+    value = Landroidx/print/PrintHelper$PrintUriAdapter$1;->onPreExecute()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/print/PrintHelper$PrintUriAdapter$1$1;
-    ->this$2:Landroidx/print/PrintHelper$PrintUriAdapter$1;
+    iput-object p1, p0, Landroidx/print/PrintHelper$PrintUriAdapter$1$1;->this$2:Landroidx/print/PrintHelper$PrintUriAdapter$1;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -43,32 +40,27 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/print/PrintHelper$PrintUriAdapter$1$1;
-    ->this$2:Landroidx/print/PrintHelper$PrintUriAdapter$1;
+    iget-object v0, p0, Landroidx/print/PrintHelper$PrintUriAdapter$1$1;->this$2:Landroidx/print/PrintHelper$PrintUriAdapter$1;
 
     .line 2
     .line 3
-    iget-object v0, v0, Landroidx/print/PrintHelper$PrintUriAdapter$1;
-    ->this$1:Landroidx/print/PrintHelper$PrintUriAdapter;
+    iget-object v0, v0, Landroidx/print/PrintHelper$PrintUriAdapter$1;->this$1:Landroidx/print/PrintHelper$PrintUriAdapter;
 
     .line 4
     .line 5
-    invoke-virtual {v0}, Landroidx/print/PrintHelper$PrintUriAdapter;
-    ->cancelLoad()V
+    invoke-virtual {v0}, Landroidx/print/PrintHelper$PrintUriAdapter;->cancelLoad()V
 
     .line 6
     .line 7
     .line 8
-    iget-object v0, p0, Landroidx/print/PrintHelper$PrintUriAdapter$1$1;
-    ->this$2:Landroidx/print/PrintHelper$PrintUriAdapter$1;
+    iget-object v0, p0, Landroidx/print/PrintHelper$PrintUriAdapter$1$1;->this$2:Landroidx/print/PrintHelper$PrintUriAdapter$1;
 
     .line 9
     .line 10
     const/4 v1, 0x0
 
     .line 11
-    invoke-virtual {v0, v1}, Landroid/os/AsyncTask;
-    ->cancel(Z)Z    
+    invoke-virtual {v0, v1}, Landroid/os/AsyncTask;->cancel(Z)Z
     return-void
 .end method
 

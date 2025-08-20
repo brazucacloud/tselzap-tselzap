@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/view/ViewGroupKt;
-    ->getDescendants(Landroid/view/ViewGroup;)Lw1/h;
+    value = Landroidx/core/view/ViewGroupKt;->getDescendants(Landroid/view/ViewGroup;)Lw1/h;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -35,11 +34,9 @@
 
     new-instance v0, Landroidx/core/view/ViewGroupKt$descendants$1$1;
 
-    invoke-direct {v0}, Landroidx/core/view/ViewGroupKt$descendants$1$1;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/core/view/ViewGroupKt$descendants$1$1;-><init>()V
 
-    sput-object v0, Landroidx/core/view/ViewGroupKt$descendants$1$1;
-    ->INSTANCE:Landroidx/core/view/ViewGroupKt$descendants$1$1;
+    sput-object v0, Landroidx/core/view/ViewGroupKt$descendants$1$1;->INSTANCE:Landroidx/core/view/ViewGroupKt$descendants$1$1;
 
     return-void
 .end method
@@ -49,8 +46,7 @@
 
     const/4 v0, 0x1
 
-    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;
-    -><init>(I)V
+    invoke-direct {p0, v0}, Lkotlin/jvm/internal/k;-><init>(I)V
 return-void
 .end method
 
@@ -62,8 +58,7 @@ return-void
     .line 1
     check-cast p1, Landroid/view/View;
 
-    invoke-virtual {p0, p1}, Landroidx/core/view/ViewGroupKt$descendants$1$1;
-    ->invoke(Landroid/view/View;)Ljava/util/Iterator;
+    invoke-virtual {p0, p1}, Landroidx/core/view/ViewGroupKt$descendants$1$1;->invoke(Landroid/view/View;)Ljava/util/Iterator;
 
     move-result-object p1
 
@@ -100,15 +95,13 @@ return-void
     :goto_0
     if-eqz p1, :cond_1
 
-    invoke-static {p1}, Landroidx/core/view/ViewGroupKt;
-    ->getChildren(Landroid/view/ViewGroup;)Lw1/h;
+    invoke-static {p1}, Landroidx/core/view/ViewGroupKt;->getChildren(Landroid/view/ViewGroup;)Lw1/h;
 
     move-result-object p1
 
     if-eqz p1, :cond_1
 
-    invoke-interface {p1}, Lw1/h;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Lw1/h;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 

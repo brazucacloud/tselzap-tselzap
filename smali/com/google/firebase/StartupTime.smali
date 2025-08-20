@@ -13,8 +13,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -41,8 +40,7 @@
     move-wide v5, p4
 
     .line 6
-    invoke-direct/range {v0 .. v6}, Lcom/google/firebase/AutoValue_StartupTime;
-    -><init>(JJJ)V
+    invoke-direct/range {v0 .. v6}, Lcom/google/firebase/AutoValue_StartupTime;-><init>(JJJ)V
 
     .line 7
     .line 8
@@ -56,8 +54,7 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Ljava/lang/System;
-    ->currentTimeMillis()J
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     .line 2
     .line 3
@@ -65,8 +62,7 @@
     move-result-wide v0
 
     .line 5
-    invoke-static {}, Landroid/os/SystemClock;
-    ->elapsedRealtime()J
+    invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     .line 6
     .line 7
@@ -74,8 +70,7 @@
     move-result-wide v2
 
     .line 9
-    invoke-static {}, Landroid/os/SystemClock;
-    ->uptimeMillis()J
+    invoke-static {}, Landroid/os/SystemClock;->uptimeMillis()J
 
     .line 10
     .line 11
@@ -83,8 +78,7 @@
     move-result-wide v4
 
     .line 13
-    invoke-static/range {v0 .. v5}, Lcom/google/firebase/StartupTime;
-    ->create(JJJ)Lcom/google/firebase/StartupTime;
+    invoke-static/range {v0 .. v5}, Lcom/google/firebase/StartupTime;->create(JJJ)Lcom/google/firebase/StartupTime;
 
     .line 14
     .line 15

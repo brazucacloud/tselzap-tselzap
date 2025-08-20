@@ -25,16 +25,13 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
-    iput-char p1, p0, Landroidx/core/graphics/PathParser$PathDataNode;
-    ->mType:C
+    iput-char p1, p0, Landroidx/core/graphics/PathParser$PathDataNode;->mType:C
 
     .line 3
-    iput-object p2, p0, Landroidx/core/graphics/PathParser$PathDataNode;
-    ->mParams:[F
+    iput-object p2, p0, Landroidx/core/graphics/PathParser$PathDataNode;->mParams:[F
 
     return-void
 .end method
@@ -43,31 +40,25 @@
     .locals 2
 
     .line 4
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 5
-    iget-char v0, p1, Landroidx/core/graphics/PathParser$PathDataNode;
-    ->mType:C
+    iget-char v0, p1, Landroidx/core/graphics/PathParser$PathDataNode;->mType:C
 
-    iput-char v0, p0, Landroidx/core/graphics/PathParser$PathDataNode;
-    ->mType:C
+    iput-char v0, p0, Landroidx/core/graphics/PathParser$PathDataNode;->mType:C
 
     .line 6
-    iget-object p1, p1, Landroidx/core/graphics/PathParser$PathDataNode;
-    ->mParams:[F
+    iget-object p1, p1, Landroidx/core/graphics/PathParser$PathDataNode;->mParams:[F
 
     const/4 v0, 0x0
 
     array-length v1, p1
 
-    invoke-static {p1, v0, v1}, Landroidx/core/graphics/PathParser;
-    ->copyOfRange([FII)[F
+    invoke-static {p1, v0, v1}, Landroidx/core/graphics/PathParser;->copyOfRange([FII)[F
 
     move-result-object p1
 
-    iput-object p1, p0, Landroidx/core/graphics/PathParser$PathDataNode;
-    ->mParams:[F
+    iput-object p1, p0, Landroidx/core/graphics/PathParser$PathDataNode;->mParams:[F
 
     return-void
 .end method
@@ -76,8 +67,7 @@
     .locals 0
 
     .line 1
-    iget-char p0, p0, Landroidx/core/graphics/PathParser$PathDataNode;
-    ->mType:C
+    iget-char p0, p0, Landroidx/core/graphics/PathParser$PathDataNode;->mType:C
 
     .line 2
     .line 3
@@ -88,8 +78,7 @@
     .locals 0
 
     .line 1
-    iput-char p1, p0, Landroidx/core/graphics/PathParser$PathDataNode;
-    ->mType:C
+    iput-char p1, p0, Landroidx/core/graphics/PathParser$PathDataNode;->mType:C
 
     .line 2
     .line 3
@@ -100,8 +89,7 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/core/graphics/PathParser$PathDataNode;
-    ->mParams:[F
+    iget-object p0, p0, Landroidx/core/graphics/PathParser$PathDataNode;->mParams:[F
 
     .line 2
     .line 3
@@ -112,8 +100,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/graphics/PathParser$PathDataNode;
-    ->addCommand(Landroid/graphics/Path;[FCC[F)V
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/graphics/PathParser$PathDataNode;->addCommand(Landroid/graphics/Path;[FCC[F)V
 
     .line 2
     .line 3
@@ -196,14 +183,12 @@
 
     .line 33
     :sswitch_1
-    invoke-virtual {v0}, Landroid/graphics/Path;
-    ->close()V
+    invoke-virtual {v0}, Landroid/graphics/Path;->close()V
 
     .line 34
     .line 35
     .line 36
-    invoke-virtual {v0, v5, v6}, Landroid/graphics/Path;
-    ->moveTo(FF)V
+    invoke-virtual {v0, v5, v6}, Landroid/graphics/Path;->moveTo(FF)V
 
     .line 37
     .line 38
@@ -513,8 +498,7 @@
 
     .line 175
     .line 176
-    invoke-virtual {v0, v5, v1, v2, v4}, Landroid/graphics/Path;
-    ->rQuadTo(FFFF)V
+    invoke-virtual {v0, v5, v1, v2, v4}, Landroid/graphics/Path;->rQuadTo(FFFF)V
 
     .line 177
     .line 178
@@ -631,8 +615,7 @@
 
     .line 225
     .line 226
-    invoke-virtual/range {v0 .. v6}, Landroid/graphics/Path;
-    ->rCubicTo(FFFFFF)V
+    invoke-virtual/range {v0 .. v6}, Landroid/graphics/Path;->rCubicTo(FFFFFF)V
 
     .line 227
     .line 228
@@ -698,8 +681,7 @@
 
     .line 253
     .line 254
-    invoke-virtual {v0, v1, v2}, Landroid/graphics/Path;
-    ->rLineTo(FF)V
+    invoke-virtual {v0, v1, v2}, Landroid/graphics/Path;->rLineTo(FF)V
 
     .line 255
     .line 256
@@ -708,8 +690,7 @@
 
     .line 258
     :cond_7
-    invoke-virtual {v0, v1, v2}, Landroid/graphics/Path;
-    ->rMoveTo(FF)V
+    invoke-virtual {v0, v1, v2}, Landroid/graphics/Path;->rMoveTo(FF)V
 
     .line 259
     .line 260
@@ -739,8 +720,7 @@
 
     .line 271
     .line 272
-    invoke-virtual {v0, v1, v5}, Landroid/graphics/Path;
-    ->rLineTo(FF)V
+    invoke-virtual {v0, v1, v5}, Landroid/graphics/Path;->rLineTo(FF)V
 
     .line 273
     .line 274
@@ -809,8 +789,7 @@
 
     .line 302
     .line 303
-    invoke-virtual {v0, v7, v8, v1, v3}, Landroid/graphics/Path;
-    ->quadTo(FFFF)V
+    invoke-virtual {v0, v7, v8, v1, v3}, Landroid/graphics/Path;->quadTo(FFFF)V
 
     .line 304
     .line 305
@@ -930,8 +909,7 @@
 
     .line 353
     .line 354
-    invoke-virtual/range {v0 .. v6}, Landroid/graphics/Path;
-    ->cubicTo(FFFFFF)V
+    invoke-virtual/range {v0 .. v6}, Landroid/graphics/Path;->cubicTo(FFFFFF)V
 
     .line 355
     .line 356
@@ -993,8 +971,7 @@
 
     .line 381
     .line 382
-    invoke-virtual {v0, v1, v2}, Landroid/graphics/Path;
-    ->lineTo(FF)V
+    invoke-virtual {v0, v1, v2}, Landroid/graphics/Path;->lineTo(FF)V
 
     .line 383
     .line 384
@@ -1011,8 +988,7 @@
     .line 388
     .line 389
     :cond_10
-    invoke-virtual {v0, v1, v2}, Landroid/graphics/Path;
-    ->moveTo(FF)V
+    invoke-virtual {v0, v1, v2}, Landroid/graphics/Path;->moveTo(FF)V
 
     .line 390
     .line 391
@@ -1048,8 +1024,7 @@
 
     .line 405
     .line 406
-    invoke-virtual {v0, v1, v5}, Landroid/graphics/Path;
-    ->lineTo(FF)V
+    invoke-virtual {v0, v1, v5}, Landroid/graphics/Path;->lineTo(FF)V
 
     .line 407
     .line 408
@@ -1077,8 +1052,7 @@
     const/4 v2, 0x0
 
     .line 419
-    invoke-virtual {v0, v2, v1}, Landroid/graphics/Path;
-    ->rLineTo(FF)V
+    invoke-virtual {v0, v2, v1}, Landroid/graphics/Path;->rLineTo(FF)V
 
     .line 420
     .line 421
@@ -1128,8 +1102,7 @@
 
     .line 443
     .line 444
-    invoke-virtual {v0, v1, v3, v5, v12}, Landroid/graphics/Path;
-    ->rQuadTo(FFFF)V
+    invoke-virtual {v0, v1, v3, v5, v12}, Landroid/graphics/Path;->rQuadTo(FFFF)V
 
     .line 445
     .line 446
@@ -1179,8 +1152,7 @@
     const/4 v2, 0x0
 
     .line 467
-    invoke-virtual {v0, v1, v2}, Landroid/graphics/Path;
-    ->rLineTo(FF)V
+    invoke-virtual {v0, v1, v2}, Landroid/graphics/Path;->rLineTo(FF)V
 
     .line 468
     .line 469
@@ -1253,8 +1225,7 @@
 
     .line 502
     .line 503
-    invoke-virtual/range {v0 .. v6}, Landroid/graphics/Path;
-    ->rCubicTo(FFFFFF)V
+    invoke-virtual/range {v0 .. v6}, Landroid/graphics/Path;->rCubicTo(FFFFFF)V
 
     .line 504
     .line 505
@@ -1438,8 +1409,7 @@
 
     .line 582
     :goto_14
-    invoke-static/range {v0 .. v9}, Landroidx/core/graphics/PathParser$PathDataNode;
-    ->drawArc(Landroid/graphics/Path;FFFFFFFZZ)V
+    invoke-static/range {v0 .. v9}, Landroidx/core/graphics/PathParser$PathDataNode;->drawArc(Landroid/graphics/Path;FFFFFFFZZ)V
 
     .line 583
     .line 584
@@ -1493,8 +1463,7 @@
 
     .line 606
     .line 607
-    invoke-virtual {v0, v1, v2}, Landroid/graphics/Path;
-    ->lineTo(FF)V
+    invoke-virtual {v0, v1, v2}, Landroid/graphics/Path;->lineTo(FF)V
 
     .line 608
     .line 609
@@ -1555,8 +1524,7 @@
 
     .line 636
     .line 637
-    invoke-virtual {v0, v1, v2, v4, v6}, Landroid/graphics/Path;
-    ->quadTo(FFFF)V
+    invoke-virtual {v0, v1, v2, v4, v6}, Landroid/graphics/Path;->quadTo(FFFF)V
 
     .line 638
     .line 639
@@ -1614,8 +1582,7 @@
 
     .line 663
     .line 664
-    invoke-virtual {v0, v1, v2}, Landroid/graphics/Path;
-    ->lineTo(FF)V
+    invoke-virtual {v0, v1, v2}, Landroid/graphics/Path;->lineTo(FF)V
 
     .line 665
     .line 666
@@ -1695,8 +1662,7 @@
 
     .line 702
     .line 703
-    invoke-virtual/range {v0 .. v6}, Landroid/graphics/Path;
-    ->cubicTo(FFFFFF)V
+    invoke-virtual/range {v0 .. v6}, Landroid/graphics/Path;->cubicTo(FFFFFF)V
 
     .line 704
     .line 705
@@ -1866,8 +1832,7 @@
 
     .line 776
     :goto_18
-    invoke-static/range {v0 .. v9}, Landroidx/core/graphics/PathParser$PathDataNode;
-    ->drawArc(Landroid/graphics/Path;FFFFFFFZZ)V
+    invoke-static/range {v0 .. v9}, Landroidx/core/graphics/PathParser$PathDataNode;->drawArc(Landroid/graphics/Path;FFFFFFFZZ)V
 
     .line 777
     .line 778
@@ -2893,8 +2858,7 @@
     div-double/2addr v4, v6
 
     .line 13
-    invoke-static {v4, v5}, Ljava/lang/Math;
-    ->abs(D)D
+    invoke-static {v4, v5}, Ljava/lang/Math;->abs(D)D
 
     .line 14
     .line 15
@@ -2902,8 +2866,7 @@
     move-result-wide v4
 
     .line 17
-    invoke-static {v4, v5}, Ljava/lang/Math;
-    ->ceil(D)D
+    invoke-static {v4, v5}, Ljava/lang/Math;->ceil(D)D
 
     .line 18
     .line 19
@@ -2914,8 +2877,7 @@
     double-to-int v4, v4
 
     .line 22
-    invoke-static/range {p13 .. p14}, Ljava/lang/Math;
-    ->cos(D)D
+    invoke-static/range {p13 .. p14}, Ljava/lang/Math;->cos(D)D
 
     .line 23
     .line 24
@@ -2923,8 +2885,7 @@
     move-result-wide v5
 
     .line 26
-    invoke-static/range {p13 .. p14}, Ljava/lang/Math;
-    ->sin(D)D
+    invoke-static/range {p13 .. p14}, Ljava/lang/Math;->sin(D)D
 
     .line 27
     .line 28
@@ -2932,8 +2893,7 @@
     move-result-wide v7
 
     .line 30
-    invoke-static/range {p15 .. p16}, Ljava/lang/Math;
-    ->cos(D)D
+    invoke-static/range {p15 .. p16}, Ljava/lang/Math;->cos(D)D
 
     .line 31
     .line 32
@@ -2941,8 +2901,7 @@
     move-result-wide v9
 
     .line 34
-    invoke-static/range {p15 .. p16}, Ljava/lang/Math;
-    ->sin(D)D
+    invoke-static/range {p15 .. p16}, Ljava/lang/Math;->sin(D)D
 
     .line 35
     .line 36
@@ -3039,8 +2998,7 @@
 
     .line 79
     .line 80
-    invoke-static/range {v31 .. v32}, Ljava/lang/Math;
-    ->sin(D)D
+    invoke-static/range {v31 .. v32}, Ljava/lang/Math;->sin(D)D
 
     .line 81
     .line 82
@@ -3048,8 +3006,7 @@
     move-result-wide v33
 
     .line 84
-    invoke-static/range {v31 .. v32}, Ljava/lang/Math;
-    ->cos(D)D
+    invoke-static/range {v31 .. v32}, Ljava/lang/Math;->cos(D)D
 
     .line 85
     .line 86
@@ -3137,8 +3094,7 @@
 
     .line 127
     .line 128
-    invoke-static/range {v35 .. v36}, Ljava/lang/Math;
-    ->tan(D)D
+    invoke-static/range {v35 .. v36}, Ljava/lang/Math;->tan(D)D
 
     .line 129
     .line 130
@@ -3146,8 +3102,7 @@
     move-result-wide v35
 
     .line 132
-    invoke-static/range {v23 .. v24}, Ljava/lang/Math;
-    ->sin(D)D
+    invoke-static/range {v23 .. v24}, Ljava/lang/Math;->sin(D)D
 
     .line 133
     .line 134
@@ -3171,8 +3126,7 @@
 
     .line 143
     .line 144
-    invoke-static/range {v41 .. v42}, Ljava/lang/Math;
-    ->sqrt(D)D
+    invoke-static/range {v41 .. v42}, Ljava/lang/Math;->sqrt(D)D
 
     .line 145
     .line 146
@@ -3255,8 +3209,7 @@
 
     .line 184
     .line 185
-    invoke-virtual {v13, v8, v8}, Landroid/graphics/Path;
-    ->rLineTo(FF)V
+    invoke-virtual {v13, v8, v8}, Landroid/graphics/Path;->rLineTo(FF)V
 
     .line 186
     .line 187
@@ -3307,8 +3260,7 @@
 
     .line 207
     .line 208
-    invoke-virtual/range {v39 .. v45}, Landroid/graphics/Path;
-    ->cubicTo(FFFFFF)V
+    invoke-virtual/range {v39 .. v45}, Landroid/graphics/Path;->cubicTo(FFFFFF)V
 
     .line 209
     .line 210
@@ -3398,8 +3350,7 @@
     float-to-double v4, v7
 
     .line 12
-    invoke-static {v4, v5}, Ljava/lang/Math;
-    ->toRadians(D)D
+    invoke-static {v4, v5}, Ljava/lang/Math;->toRadians(D)D
 
     .line 13
     .line 14
@@ -3407,8 +3358,7 @@
     move-result-wide v19
 
     .line 16
-    invoke-static/range {v19 .. v20}, Ljava/lang/Math;
-    ->cos(D)D
+    invoke-static/range {v19 .. v20}, Ljava/lang/Math;->cos(D)D
 
     .line 17
     .line 18
@@ -3416,8 +3366,7 @@
     move-result-wide v4
 
     .line 20
-    invoke-static/range {v19 .. v20}, Ljava/lang/Math;
-    ->sin(D)D
+    invoke-static/range {v19 .. v20}, Ljava/lang/Math;->sin(D)D
 
     .line 21
     .line 22
@@ -3620,8 +3569,7 @@
 
     .line 114
     .line 115
-    invoke-static {v2, v0}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 116
     .line 117
@@ -3662,20 +3610,17 @@
 
     .line 134
     .line 135
-    invoke-direct {v4, v5}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v4, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 136
     .line 137
     .line 138
-    invoke-virtual {v4, v0, v1}, Ljava/lang/StringBuilder;
-    ->append(D)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v0, v1}, Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
 
     .line 139
     .line 140
     .line 141
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 142
     .line 143
@@ -3683,14 +3628,12 @@
     move-result-object v4
 
     .line 145
-    invoke-static {v2, v4}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v2, v4}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 146
     .line 147
     .line 148
-    invoke-static {v0, v1}, Ljava/lang/Math;
-    ->sqrt(D)D
+    invoke-static {v0, v1}, Ljava/lang/Math;->sqrt(D)D
 
     .line 149
     .line 150
@@ -3744,8 +3687,7 @@
 
     .line 173
     .line 174
-    invoke-static/range {v0 .. v9}, Landroidx/core/graphics/PathParser$PathDataNode;
-    ->drawArc(Landroid/graphics/Path;FFFFFFFZZ)V
+    invoke-static/range {v0 .. v9}, Landroidx/core/graphics/PathParser$PathDataNode;->drawArc(Landroid/graphics/Path;FFFFFFFZZ)V
 
     .line 175
     .line 176
@@ -3758,8 +3700,7 @@
 
     .line 179
     .line 180
-    invoke-static/range {v37 .. v38}, Ljava/lang/Math;
-    ->sqrt(D)D
+    invoke-static/range {v37 .. v38}, Ljava/lang/Math;->sqrt(D)D
 
     .line 181
     .line 182
@@ -3812,8 +3753,7 @@
 
     .line 204
     .line 205
-    invoke-static {v1, v2, v6, v7}, Ljava/lang/Math;
-    ->atan2(DD)D
+    invoke-static {v1, v2, v6, v7}, Ljava/lang/Math;->atan2(DD)D
 
     .line 206
     .line 207
@@ -3829,8 +3769,7 @@
 
     .line 212
     .line 213
-    invoke-static {v1, v2, v6, v7}, Ljava/lang/Math;
-    ->atan2(DD)D
+    invoke-static {v1, v2, v6, v7}, Ljava/lang/Math;->atan2(DD)D
 
     .line 214
     .line 215
@@ -3934,8 +3873,7 @@
     move-wide v7, v0
 
     .line 259
-    invoke-static/range {v6 .. v24}, Landroidx/core/graphics/PathParser$PathDataNode;
-    ->arcToBezier(Landroid/graphics/Path;DDDDDDDDD)V
+    invoke-static/range {v6 .. v24}, Landroidx/core/graphics/PathParser$PathDataNode;->arcToBezier(Landroid/graphics/Path;DDDDDDDDD)V
 
     .line 260
     .line 261
@@ -3955,8 +3893,7 @@
     .end param
     .annotation build Landroidx/annotation/RestrictTo;
         value = {
-            .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
         }
     .end annotation
 
@@ -3964,8 +3901,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/graphics/PathParser;
-    ->nodesToPath([Landroidx/core/graphics/PathParser$PathDataNode;Landroid/graphics/Path;)V
+    invoke-static {p0, p1}, Landroidx/core/graphics/PathParser;->nodesToPath([Landroidx/core/graphics/PathParser$PathDataNode;Landroid/graphics/Path;)V
 
     .line 2
     .line 3
@@ -3981,8 +3917,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/graphics/PathParser$PathDataNode;
-    ->mParams:[F
+    iget-object v0, p0, Landroidx/core/graphics/PathParser$PathDataNode;->mParams:[F
 
     .line 2
     .line 3
@@ -3993,8 +3928,7 @@
     .locals 1
 
     .line 1
-    iget-char v0, p0, Landroidx/core/graphics/PathParser$PathDataNode;
-    ->mType:C
+    iget-char v0, p0, Landroidx/core/graphics/PathParser$PathDataNode;->mType:C
 
     .line 2
     .line 3
@@ -4013,13 +3947,11 @@
     .end param
 
     .line 1
-    iget-char v0, p1, Landroidx/core/graphics/PathParser$PathDataNode;
-    ->mType:C
+    iget-char v0, p1, Landroidx/core/graphics/PathParser$PathDataNode;->mType:C
 
     .line 2
     .line 3
-    iput-char v0, p0, Landroidx/core/graphics/PathParser$PathDataNode;
-    ->mType:C
+    iput-char v0, p0, Landroidx/core/graphics/PathParser$PathDataNode;->mType:C
 
     .line 4
     .line 5
@@ -4027,8 +3959,7 @@
 
     .line 6
     :goto_0
-    iget-object v1, p1, Landroidx/core/graphics/PathParser$PathDataNode;
-    ->mParams:[F
+    iget-object v1, p1, Landroidx/core/graphics/PathParser$PathDataNode;->mParams:[F
 
     .line 7
     .line 8
@@ -4039,8 +3970,7 @@
 
     .line 10
     .line 11
-    iget-object v2, p0, Landroidx/core/graphics/PathParser$PathDataNode;
-    ->mParams:[F
+    iget-object v2, p0, Landroidx/core/graphics/PathParser$PathDataNode;->mParams:[F
 
     .line 12
     .line 13
@@ -4059,8 +3989,7 @@
 
     .line 19
     .line 20
-    iget-object v1, p2, Landroidx/core/graphics/PathParser$PathDataNode;
-    ->mParams:[F
+    iget-object v1, p2, Landroidx/core/graphics/PathParser$PathDataNode;->mParams:[F
 
     .line 21
     .line 22

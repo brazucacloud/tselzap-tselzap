@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/slidingpanelayout/widget/FoldingFeatureObserver$registerLayoutStateChangeCallback$1;
-    ->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    value = Landroidx/slidingpanelayout/widget/FoldingFeatureObserver$registerLayoutStateChangeCallback$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -34,13 +33,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver$registerLayoutStateChangeCallback$1$invokeSuspend$$inlined$collect$1;
-    ->this$0:Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;
+    iput-object p1, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver$registerLayoutStateChangeCallback$1$invokeSuspend$$inlined$collect$1;->this$0:Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -65,13 +62,11 @@
 
     .line 2
     .line 3
-    iget-object p2, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver$registerLayoutStateChangeCallback$1$invokeSuspend$$inlined$collect$1;
-    ->this$0:Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;
+    iget-object p2, p0, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver$registerLayoutStateChangeCallback$1$invokeSuspend$$inlined$collect$1;->this$0:Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;
 
     .line 4
     .line 5
-    invoke-static {p2}, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;
-    ->access$getOnFoldingFeatureChangeListener$p(Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;)Landroidx/slidingpanelayout/widget/FoldingFeatureObserver$OnFoldingFeatureChangeListener;
+    invoke-static {p2}, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;->access$getOnFoldingFeatureChangeListener$p(Landroidx/slidingpanelayout/widget/FoldingFeatureObserver;)Landroidx/slidingpanelayout/widget/FoldingFeatureObserver$OnFoldingFeatureChangeListener;
 
     .line 6
     .line 7
@@ -79,8 +74,7 @@
     move-result-object p2
 
     .line 9
-    sget-object v0, Lc1/v;
-    ->a:Lc1/v;
+    sget-object v0, Lc1/v;->a:Lc1/v;
 
     .line 10
     .line 11
@@ -95,8 +89,7 @@
 
     .line 15
     :cond_0
-    invoke-interface {p2, p1}, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver$OnFoldingFeatureChangeListener;
-    ->onFoldingFeatureChange(Landroidx/window/layout/FoldingFeature;)V
+    invoke-interface {p2, p1}, Landroidx/slidingpanelayout/widget/FoldingFeatureObserver$OnFoldingFeatureChangeListener;->onFoldingFeatureChange(Landroidx/window/layout/FoldingFeature;)V
 
     .line 16
     .line 17
@@ -105,8 +98,7 @@
 
     .line 19
     :goto_0
-    sget-object p2, Lh1/a;
-    ->b:Lh1/a;
+    sget-object p2, Lh1/a;->b:Lh1/a;
 
     .line 20
     .line 21

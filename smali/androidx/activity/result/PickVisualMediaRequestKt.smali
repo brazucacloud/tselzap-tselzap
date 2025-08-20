@@ -12,8 +12,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -22,14 +21,12 @@
 
     .line 7
     .line 8
-    invoke-direct {v0}, Landroidx/activity/result/PickVisualMediaRequest$Builder;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/activity/result/PickVisualMediaRequest$Builder;-><init>()V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {v0, p0}, Landroidx/activity/result/PickVisualMediaRequest$Builder;
-    ->setMediaType(Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$VisualMediaType;)Landroidx/activity/result/PickVisualMediaRequest$Builder;
+    invoke-virtual {v0, p0}, Landroidx/activity/result/PickVisualMediaRequest$Builder;->setMediaType(Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$VisualMediaType;)Landroidx/activity/result/PickVisualMediaRequest$Builder;
 
     .line 12
     .line 13
@@ -37,8 +34,7 @@
     move-result-object p0
 
     .line 15
-    invoke-virtual {p0}, Landroidx/activity/result/PickVisualMediaRequest$Builder;
-    ->build()Landroidx/activity/result/PickVisualMediaRequest;
+    invoke-virtual {p0}, Landroidx/activity/result/PickVisualMediaRequest$Builder;->build()Landroidx/activity/result/PickVisualMediaRequest;
 
     .line 16
     .line 17
@@ -60,14 +56,12 @@
 
     .line 4
     .line 5
-    sget-object p0, Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$ImageAndVideo;
-    ->INSTANCE:Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$ImageAndVideo;
+    sget-object p0, Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$ImageAndVideo;->INSTANCE:Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$ImageAndVideo;
 
     .line 6
     .line 7
     :cond_0
-    invoke-static {p0}, Landroidx/activity/result/PickVisualMediaRequestKt;
-    ->PickVisualMediaRequest(Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$VisualMediaType;)Landroidx/activity/result/PickVisualMediaRequest;
+    invoke-static {p0}, Landroidx/activity/result/PickVisualMediaRequestKt;->PickVisualMediaRequest(Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$VisualMediaType;)Landroidx/activity/result/PickVisualMediaRequest;
 
     .line 8
     .line 9

@@ -15,8 +15,7 @@
 
     .line 2
     .line 3
-    invoke-interface {p1}, Ljava/util/List;
-    ->clear()V
+    invoke-interface {p1}, Ljava/util/List;->clear()V
 
     .line 4
     .line 5

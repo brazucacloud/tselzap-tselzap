@@ -14,8 +14,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -33,8 +32,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-virtual {p0, v0, v1}, Landroidx/emoji2/text/flatbuffer/Struct;
-    ->__reset(ILjava/nio/ByteBuffer;)V
+    invoke-virtual {p0, v0, v1}, Landroidx/emoji2/text/flatbuffer/Struct;->__reset(ILjava/nio/ByteBuffer;)V
 return-void
 .end method
 
@@ -42,14 +40,12 @@ return-void
     .locals 0
 
     .line 1
-    iput-object p2, p0, Landroidx/emoji2/text/flatbuffer/Struct;
-    ->bb:Ljava/nio/ByteBuffer;
+    iput-object p2, p0, Landroidx/emoji2/text/flatbuffer/Struct;->bb:Ljava/nio/ByteBuffer;
 
     if-eqz p2, :cond_0
 
     .line 2
-    iput p1, p0, Landroidx/emoji2/text/flatbuffer/Struct;
-    ->bb_pos:I
+    iput p1, p0, Landroidx/emoji2/text/flatbuffer/Struct;->bb_pos:I
 
     return-void
 
@@ -57,8 +53,7 @@ return-void
     const/4 p1, 0x0
 
     .line 3
-    iput p1, p0, Landroidx/emoji2/text/flatbuffer/Struct;
-    ->bb_pos:I
+    iput p1, p0, Landroidx/emoji2/text/flatbuffer/Struct;->bb_pos:I
 
     return-void
 .end method

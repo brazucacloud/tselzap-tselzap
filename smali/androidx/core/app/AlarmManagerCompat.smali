@@ -18,8 +18,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -35,8 +34,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -48,8 +46,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/app/AlarmManagerCompat$Api31Impl;
-    ->canScheduleExactAlarms(Landroid/app/AlarmManager;)Z
+    invoke-static {p0}, Landroidx/core/app/AlarmManagerCompat$Api31Impl;->canScheduleExactAlarms(Landroid/app/AlarmManager;)Z
 
     .line 8
     .line 9
@@ -86,8 +83,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p1, p2, p3}, Landroidx/core/app/AlarmManagerCompat$Api21Impl;
-    ->createAlarmClockInfo(JLandroid/app/PendingIntent;)Landroid/app/AlarmManager$AlarmClockInfo;
+    invoke-static {p1, p2, p3}, Landroidx/core/app/AlarmManagerCompat$Api21Impl;->createAlarmClockInfo(JLandroid/app/PendingIntent;)Landroid/app/AlarmManager$AlarmClockInfo;
 
     .line 2
     .line 3
@@ -95,8 +91,7 @@
     move-result-object p1
 
     .line 5
-    invoke-static {p0, p1, p4}, Landroidx/core/app/AlarmManagerCompat$Api21Impl;
-    ->setAlarmClock(Landroid/app/AlarmManager;Ljava/lang/Object;Landroid/app/PendingIntent;)V
+    invoke-static {p0, p1, p4}, Landroidx/core/app/AlarmManagerCompat$Api21Impl;->setAlarmClock(Landroid/app/AlarmManager;Ljava/lang/Object;Landroid/app/PendingIntent;)V
 
     .line 6
     .line 7
@@ -116,8 +111,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -129,8 +123,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/app/AlarmManagerCompat$Api23Impl;
-    ->setAndAllowWhileIdle(Landroid/app/AlarmManager;IJLandroid/app/PendingIntent;)V
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/app/AlarmManagerCompat$Api23Impl;->setAndAllowWhileIdle(Landroid/app/AlarmManager;IJLandroid/app/PendingIntent;)V
 
     .line 8
     .line 9
@@ -139,8 +132,7 @@
 
     .line 11
     :cond_0
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/app/AlarmManager;
-    ->set(IJLandroid/app/PendingIntent;)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/app/AlarmManager;->set(IJLandroid/app/PendingIntent;)V
 
     .line 12
     .line 13
@@ -160,8 +152,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/app/AlarmManager;
-    ->setExact(IJLandroid/app/PendingIntent;)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/app/AlarmManager;->setExact(IJLandroid/app/PendingIntent;)V
 
     .line 2
     .line 3
@@ -181,8 +172,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -194,8 +184,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/app/AlarmManagerCompat$Api23Impl;
-    ->setExactAndAllowWhileIdle(Landroid/app/AlarmManager;IJLandroid/app/PendingIntent;)V
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/app/AlarmManagerCompat$Api23Impl;->setExactAndAllowWhileIdle(Landroid/app/AlarmManager;IJLandroid/app/PendingIntent;)V
 
     .line 8
     .line 9
@@ -204,8 +193,7 @@
 
     .line 11
     :cond_0
-    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/app/AlarmManagerCompat;
-    ->setExact(Landroid/app/AlarmManager;IJLandroid/app/PendingIntent;)V
+    invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/app/AlarmManagerCompat;->setExact(Landroid/app/AlarmManager;IJLandroid/app/PendingIntent;)V
 
     .line 12
     .line 13

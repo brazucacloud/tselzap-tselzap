@@ -28,8 +28,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroid/util/Property;
-    -><init>(Ljava/lang/Class;Ljava/lang/String;)V
+    invoke-direct {p0, p1, p2}, Landroid/util/Property;-><init>(Ljava/lang/Class;Ljava/lang/String;)V
 return-void
 .end method
 
@@ -50,8 +49,7 @@ return-void
     .line 2
     check-cast p1, Landroid/widget/ImageView;
 
-    invoke-virtual {p0, p1}, Landroidx/transition/ChangeImageTransform$2;
-    ->get(Landroid/widget/ImageView;)Landroid/graphics/Matrix;
+    invoke-virtual {p0, p1}, Landroidx/transition/ChangeImageTransform$2;->get(Landroid/widget/ImageView;)Landroid/graphics/Matrix;
 
     move-result-object p1
 
@@ -62,8 +60,7 @@ return-void
     .locals 0
 
     .line 2
-    invoke-static {p1, p2}, Landroidx/transition/ImageViewUtils;
-    ->animateTransform(Landroid/widget/ImageView;Landroid/graphics/Matrix;)V
+    invoke-static {p1, p2}, Landroidx/transition/ImageViewUtils;->animateTransform(Landroid/widget/ImageView;Landroid/graphics/Matrix;)V
 
     return-void
 .end method
@@ -76,8 +73,7 @@ return-void
 
     check-cast p2, Landroid/graphics/Matrix;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/transition/ChangeImageTransform$2;
-    ->set(Landroid/widget/ImageView;Landroid/graphics/Matrix;)V
+    invoke-virtual {p0, p1, p2}, Landroidx/transition/ChangeImageTransform$2;->set(Landroid/widget/ImageView;Landroid/graphics/Matrix;)V
 
     return-void
 .end method

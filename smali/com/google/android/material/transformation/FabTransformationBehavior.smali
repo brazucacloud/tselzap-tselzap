@@ -13,26 +13,22 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/material/transformation/ExpandableTransformationBehavior;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/android/material/transformation/ExpandableTransformationBehavior;-><init>()V
 
     .line 2
     new-instance v0, Landroid/graphics/Rect;
 
-    invoke-direct {v0}, Landroid/graphics/Rect;
-    -><init>()V
+    invoke-direct {v0}, Landroid/graphics/Rect;-><init>()V
 
     .line 3
     new-instance v0, Landroid/graphics/RectF;
 
-    invoke-direct {v0}, Landroid/graphics/RectF;
-    -><init>()V
+    invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
 
     .line 4
     new-instance v0, Landroid/graphics/RectF;
 
-    invoke-direct {v0}, Landroid/graphics/RectF;
-    -><init>()V
+    invoke-direct {v0}, Landroid/graphics/RectF;-><init>()V
     return-void
 .end method
 
@@ -40,26 +36,22 @@
     .locals 0
 
     .line 5
-    invoke-direct {p0, p1, p2}, Lcom/google/android/material/transformation/ExpandableTransformationBehavior;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Lcom/google/android/material/transformation/ExpandableTransformationBehavior;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 6
     new-instance p1, Landroid/graphics/Rect;
 
-    invoke-direct {p1}, Landroid/graphics/Rect;
-    -><init>()V
+    invoke-direct {p1}, Landroid/graphics/Rect;-><init>()V
 
     .line 7
     new-instance p1, Landroid/graphics/RectF;
 
-    invoke-direct {p1}, Landroid/graphics/RectF;
-    -><init>()V
+    invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
 
     .line 8
     new-instance p1, Landroid/graphics/RectF;
 
-    invoke-direct {p1}, Landroid/graphics/RectF;
-    -><init>()V
+    invoke-direct {p1}, Landroid/graphics/RectF;-><init>()V
     return-void
 .end method
 
@@ -69,8 +61,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p2}, Landroid/view/View;
-    ->getVisibility()I
+    invoke-virtual {p2}, Landroid/view/View;->getVisibility()I
 
     .line 2
     .line 3
@@ -100,8 +91,7 @@
 
     .line 14
     .line 15
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -212,8 +202,7 @@
     .locals 1
 
     .line 1
-    iget v0, p1, Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;
-    ->dodgeInsetEdges:I
+    iget v0, p1, Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;->dodgeInsetEdges:I
 
     .line 2
     .line 3
@@ -225,8 +214,7 @@
 
     .line 6
     .line 7
-    iput v0, p1, Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;
-    ->dodgeInsetEdges:I
+    iput v0, p1, Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;->dodgeInsetEdges:I
 
     .line 8
     .line 9

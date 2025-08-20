@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/datastore/preferences/protobuf/UnsafeUtil;
-    ->getUnsafe()Lsun/misc/Unsafe;
+    value = Landroidx/datastore/preferences/protobuf/UnsafeUtil;->getUnsafe()Lsun/misc/Unsafe;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -32,8 +31,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -43,8 +41,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$1;
-    ->run()Lsun/misc/Unsafe;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$1;->run()Lsun/misc/Unsafe;
 
     move-result-object v0
 
@@ -58,8 +55,7 @@
     const-class v0, Lsun/misc/Unsafe;
 
     .line 3
-    invoke-virtual {v0}, Ljava/lang/Class;
-    ->getDeclaredFields()[Ljava/lang/reflect/Field;
+    invoke-virtual {v0}, Ljava/lang/Class;->getDeclaredFields()[Ljava/lang/reflect/Field;
 
     move-result-object v1
 
@@ -77,26 +73,22 @@
     const/4 v6, 0x1
 
     .line 4
-    invoke-virtual {v5, v6}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v5, v6}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 5
-    invoke-virtual {v5, v4}, Ljava/lang/reflect/Field;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v5, v4}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v4
 
     .line 6
-    invoke-virtual {v0, v4}, Ljava/lang/Class;
-    ->isInstance(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v4}, Ljava/lang/Class;->isInstance(Ljava/lang/Object;)Z
 
     move-result v5
 
     if-eqz v5, :cond_0
 
     .line 7
-    invoke-virtual {v0, v4}, Ljava/lang/Class;
-    ->cast(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v4}, Ljava/lang/Class;->cast(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 

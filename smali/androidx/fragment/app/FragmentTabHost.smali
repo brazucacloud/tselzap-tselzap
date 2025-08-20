@@ -58,21 +58,17 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-direct {p0, p1, v0}, Landroid/widget/TabHost;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Landroid/widget/TabHost;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 2
     new-instance v1, Ljava/util/ArrayList;
 
-    invoke-direct {v1}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object v1, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mTabs:Ljava/util/ArrayList;
+    iput-object v1, p0, Landroidx/fragment/app/FragmentTabHost;->mTabs:Ljava/util/ArrayList;
 
     .line 3
-    invoke-direct {p0, p1, v0}, Landroidx/fragment/app/FragmentTabHost;
-    ->initFragmentTabHost(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, v0}, Landroidx/fragment/app/FragmentTabHost;->initFragmentTabHost(Landroid/content/Context;Landroid/util/AttributeSet;)V
 return-void
 .end method
 
@@ -90,21 +86,17 @@ return-void
     .end annotation
 
     .line 4
-    invoke-direct {p0, p1, p2}, Landroid/widget/TabHost;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Landroid/widget/TabHost;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 5
     new-instance v0, Ljava/util/ArrayList;
 
-    invoke-direct {v0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    iput-object v0, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mTabs:Ljava/util/ArrayList;
+    iput-object v0, p0, Landroidx/fragment/app/FragmentTabHost;->mTabs:Ljava/util/ArrayList;
 
     .line 6
-    invoke-direct {p0, p1, p2}, Landroidx/fragment/app/FragmentTabHost;
-    ->initFragmentTabHost(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Landroidx/fragment/app/FragmentTabHost;->initFragmentTabHost(Landroid/content/Context;Landroid/util/AttributeSet;)V
 return-void
 .end method
 
@@ -122,8 +114,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/fragment/app/FragmentTabHost;
-    ->getTabInfoForTag(Ljava/lang/String;)Landroidx/fragment/app/FragmentTabHost$TabInfo;
+    invoke-direct {p0, p1}, Landroidx/fragment/app/FragmentTabHost;->getTabInfoForTag(Ljava/lang/String;)Landroidx/fragment/app/FragmentTabHost$TabInfo;
 
     .line 2
     .line 3
@@ -131,8 +122,7 @@ return-void
     move-result-object p1
 
     .line 5
-    iget-object v0, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mLastTab:Landroidx/fragment/app/FragmentTabHost$TabInfo;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentTabHost;->mLastTab:Landroidx/fragment/app/FragmentTabHost$TabInfo;
 
     .line 6
     .line 7
@@ -144,13 +134,11 @@ return-void
 
     .line 10
     .line 11
-    iget-object p2, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mFragmentManager:Landroidx/fragment/app/FragmentManager;
+    iget-object p2, p0, Landroidx/fragment/app/FragmentTabHost;->mFragmentManager:Landroidx/fragment/app/FragmentManager;
 
     .line 12
     .line 13
-    invoke-virtual {p2}, Landroidx/fragment/app/FragmentManager;
-    ->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
+    invoke-virtual {p2}, Landroidx/fragment/app/FragmentManager;->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
 
     .line 14
     .line 15
@@ -159,8 +147,7 @@ return-void
 
     .line 17
     :cond_0
-    iget-object v0, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mLastTab:Landroidx/fragment/app/FragmentTabHost$TabInfo;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentTabHost;->mLastTab:Landroidx/fragment/app/FragmentTabHost$TabInfo;
 
     .line 18
     .line 19
@@ -168,8 +155,7 @@ return-void
 
     .line 20
     .line 21
-    iget-object v0, v0, Landroidx/fragment/app/FragmentTabHost$TabInfo;
-    ->fragment:Landroidx/fragment/app/Fragment;
+    iget-object v0, v0, Landroidx/fragment/app/FragmentTabHost$TabInfo;->fragment:Landroidx/fragment/app/Fragment;
 
     .line 22
     .line 23
@@ -177,8 +163,7 @@ return-void
 
     .line 24
     .line 25
-    invoke-virtual {p2, v0}, Landroidx/fragment/app/FragmentTransaction;
-    ->detach(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
+    invoke-virtual {p2, v0}, Landroidx/fragment/app/FragmentTransaction;->detach(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
 
     .line 26
     .line 27
@@ -188,8 +173,7 @@ return-void
 
     .line 29
     .line 30
-    iget-object v0, p1, Landroidx/fragment/app/FragmentTabHost$TabInfo;
-    ->fragment:Landroidx/fragment/app/Fragment;
+    iget-object v0, p1, Landroidx/fragment/app/FragmentTabHost$TabInfo;->fragment:Landroidx/fragment/app/Fragment;
 
     .line 31
     .line 32
@@ -197,13 +181,11 @@ return-void
 
     .line 33
     .line 34
-    iget-object v0, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mFragmentManager:Landroidx/fragment/app/FragmentManager;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentTabHost;->mFragmentManager:Landroidx/fragment/app/FragmentManager;
 
     .line 35
     .line 36
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;
-    ->getFragmentFactory()Landroidx/fragment/app/FragmentFactory;
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->getFragmentFactory()Landroidx/fragment/app/FragmentFactory;
 
     .line 37
     .line 38
@@ -211,13 +193,11 @@ return-void
     move-result-object v0
 
     .line 40
-    iget-object v1, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mContext:Landroid/content/Context;
+    iget-object v1, p0, Landroidx/fragment/app/FragmentTabHost;->mContext:Landroid/content/Context;
 
     .line 41
     .line 42
-    invoke-virtual {v1}, Landroid/content/Context;
-    ->getClassLoader()Ljava/lang/ClassLoader;
+    invoke-virtual {v1}, Landroid/content/Context;->getClassLoader()Ljava/lang/ClassLoader;
 
     .line 43
     .line 44
@@ -225,13 +205,11 @@ return-void
     move-result-object v1
 
     .line 46
-    iget-object v2, p1, Landroidx/fragment/app/FragmentTabHost$TabInfo;
-    ->clss:Ljava/lang/Class;
+    iget-object v2, p1, Landroidx/fragment/app/FragmentTabHost$TabInfo;->clss:Ljava/lang/Class;
 
     .line 47
     .line 48
-    invoke-virtual {v2}, Ljava/lang/Class;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     .line 49
     .line 50
@@ -239,8 +217,7 @@ return-void
     move-result-object v2
 
     .line 52
-    invoke-virtual {v0, v1, v2}, Landroidx/fragment/app/FragmentFactory;
-    ->instantiate(Ljava/lang/ClassLoader;Ljava/lang/String;)Landroidx/fragment/app/Fragment;
+    invoke-virtual {v0, v1, v2}, Landroidx/fragment/app/FragmentFactory;->instantiate(Ljava/lang/ClassLoader;Ljava/lang/String;)Landroidx/fragment/app/Fragment;
 
     .line 53
     .line 54
@@ -248,39 +225,32 @@ return-void
     move-result-object v0
 
     .line 56
-    iput-object v0, p1, Landroidx/fragment/app/FragmentTabHost$TabInfo;
-    ->fragment:Landroidx/fragment/app/Fragment;
+    iput-object v0, p1, Landroidx/fragment/app/FragmentTabHost$TabInfo;->fragment:Landroidx/fragment/app/Fragment;
 
     .line 57
     .line 58
-    iget-object v1, p1, Landroidx/fragment/app/FragmentTabHost$TabInfo;
-    ->args:Landroid/os/Bundle;
+    iget-object v1, p1, Landroidx/fragment/app/FragmentTabHost$TabInfo;->args:Landroid/os/Bundle;
 
     .line 59
     .line 60
-    invoke-virtual {v0, v1}, Landroidx/fragment/app/Fragment;
-    ->setArguments(Landroid/os/Bundle;)V
+    invoke-virtual {v0, v1}, Landroidx/fragment/app/Fragment;->setArguments(Landroid/os/Bundle;)V
 
     .line 61
     .line 62
     .line 63
-    iget v0, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mContainerId:I
+    iget v0, p0, Landroidx/fragment/app/FragmentTabHost;->mContainerId:I
 
     .line 64
     .line 65
-    iget-object v1, p1, Landroidx/fragment/app/FragmentTabHost$TabInfo;
-    ->fragment:Landroidx/fragment/app/Fragment;
+    iget-object v1, p1, Landroidx/fragment/app/FragmentTabHost$TabInfo;->fragment:Landroidx/fragment/app/Fragment;
 
     .line 66
     .line 67
-    iget-object v2, p1, Landroidx/fragment/app/FragmentTabHost$TabInfo;
-    ->tag:Ljava/lang/String;
+    iget-object v2, p1, Landroidx/fragment/app/FragmentTabHost$TabInfo;->tag:Ljava/lang/String;
 
     .line 68
     .line 69
-    invoke-virtual {p2, v0, v1, v2}, Landroidx/fragment/app/FragmentTransaction;
-    ->add(ILandroidx/fragment/app/Fragment;Ljava/lang/String;)Landroidx/fragment/app/FragmentTransaction;
+    invoke-virtual {p2, v0, v1, v2}, Landroidx/fragment/app/FragmentTransaction;->add(ILandroidx/fragment/app/Fragment;Ljava/lang/String;)Landroidx/fragment/app/FragmentTransaction;
 
     .line 70
     .line 71
@@ -289,16 +259,14 @@ return-void
 
     .line 73
     :cond_2
-    invoke-virtual {p2, v0}, Landroidx/fragment/app/FragmentTransaction;
-    ->attach(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
+    invoke-virtual {p2, v0}, Landroidx/fragment/app/FragmentTransaction;->attach(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
 
     .line 74
     .line 75
     .line 76
     :cond_3
     :goto_0
-    iput-object p1, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mLastTab:Landroidx/fragment/app/FragmentTabHost$TabInfo;
+    iput-object p1, p0, Landroidx/fragment/app/FragmentTabHost;->mLastTab:Landroidx/fragment/app/FragmentTabHost$TabInfo;
 
     .line 77
     .line 78
@@ -310,8 +278,7 @@ return-void
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mRealTabContent:Landroid/widget/FrameLayout;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentTabHost;->mRealTabContent:Landroid/widget/FrameLayout;
 
     .line 2
     .line 3
@@ -319,13 +286,11 @@ return-void
 
     .line 4
     .line 5
-    iget v0, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mContainerId:I
+    iget v0, p0, Landroidx/fragment/app/FragmentTabHost;->mContainerId:I
 
     .line 6
     .line 7
-    invoke-virtual {p0, v0}, Landroid/view/View;
-    ->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     .line 8
     .line 9
@@ -337,8 +302,7 @@ return-void
 
     .line 12
     .line 13
-    iput-object v0, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mRealTabContent:Landroid/widget/FrameLayout;
+    iput-object v0, p0, Landroidx/fragment/app/FragmentTabHost;->mRealTabContent:Landroid/widget/FrameLayout;
 
     .line 14
     .line 15
@@ -362,25 +326,21 @@ return-void
 
     .line 23
     .line 24
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 25
     .line 26
     .line 27
-    iget v2, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mContainerId:I
+    iget v2, p0, Landroidx/fragment/app/FragmentTabHost;->mContainerId:I
 
     .line 28
     .line 29
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 30
     .line 31
     .line 32
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 33
     .line 34
@@ -388,8 +348,7 @@ return-void
     move-result-object v1
 
     .line 36
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 37
     .line 38
@@ -411,8 +370,7 @@ return-void
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0, v0}, Landroid/view/View;
-    ->findViewById(I)Landroid/view/View;
+    invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
     .line 5
     .line 6
@@ -428,8 +386,7 @@ return-void
 
     .line 11
     .line 12
-    invoke-direct {v1, p1}, Landroid/widget/LinearLayout;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {v1, p1}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
 
     .line 13
     .line 14
@@ -437,8 +394,7 @@ return-void
     const/4 v2, 0x1
 
     .line 16
-    invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;
-    ->setOrientation(I)V
+    invoke-virtual {v1, v2}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
     .line 17
     .line 18
@@ -450,14 +406,12 @@ return-void
     const/4 v3, -0x1
 
     .line 22
-    invoke-direct {v2, v3, v3}, Landroid/widget/FrameLayout$LayoutParams;
-    -><init>(II)V
+    invoke-direct {v2, v3, v3}, Landroid/widget/FrameLayout$LayoutParams;-><init>(II)V
 
     .line 23
     .line 24
     .line 25
-    invoke-virtual {p0, v1, v2}, Landroid/view/ViewGroup;
-    ->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {p0, v1, v2}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 26
     .line 27
@@ -466,14 +420,12 @@ return-void
 
     .line 29
     .line 30
-    invoke-direct {v2, p1}, Landroid/widget/TabWidget;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {v2, p1}, Landroid/widget/TabWidget;-><init>(Landroid/content/Context;)V
 
     .line 31
     .line 32
     .line 33
-    invoke-virtual {v2, v0}, Landroid/view/View;
-    ->setId(I)V
+    invoke-virtual {v2, v0}, Landroid/view/View;->setId(I)V
 
     .line 34
     .line 35
@@ -481,8 +433,7 @@ return-void
     const/4 v0, 0x0
 
     .line 37
-    invoke-virtual {v2, v0}, Landroid/widget/LinearLayout;
-    ->setOrientation(I)V
+    invoke-virtual {v2, v0}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
     .line 38
     .line 39
@@ -497,14 +448,12 @@ return-void
     const/4 v6, 0x0
 
     .line 44
-    invoke-direct {v4, v3, v5, v6}, Landroid/widget/LinearLayout$LayoutParams;
-    -><init>(IIF)V
+    invoke-direct {v4, v3, v5, v6}, Landroid/widget/LinearLayout$LayoutParams;-><init>(IIF)V
 
     .line 45
     .line 46
     .line 47
-    invoke-virtual {v1, v2, v4}, Landroid/view/ViewGroup;
-    ->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v1, v2, v4}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 48
     .line 49
@@ -513,8 +462,7 @@ return-void
 
     .line 51
     .line 52
-    invoke-direct {v2, p1}, Landroid/widget/FrameLayout;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {v2, p1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
     .line 53
     .line 54
@@ -524,8 +472,7 @@ return-void
     .line 56
     .line 57
     .line 58
-    invoke-virtual {v2, v4}, Landroid/view/View;
-    ->setId(I)V
+    invoke-virtual {v2, v4}, Landroid/view/View;->setId(I)V
 
     .line 59
     .line 60
@@ -534,14 +481,12 @@ return-void
 
     .line 62
     .line 63
-    invoke-direct {v4, v0, v0, v6}, Landroid/widget/LinearLayout$LayoutParams;
-    -><init>(IIF)V
+    invoke-direct {v4, v0, v0, v6}, Landroid/widget/LinearLayout$LayoutParams;-><init>(IIF)V
 
     .line 64
     .line 65
     .line 66
-    invoke-virtual {v1, v2, v4}, Landroid/view/ViewGroup;
-    ->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v1, v2, v4}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 67
     .line 68
@@ -550,24 +495,20 @@ return-void
 
     .line 70
     .line 71
-    invoke-direct {v2, p1}, Landroid/widget/FrameLayout;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {v2, p1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
     .line 72
     .line 73
     .line 74
-    iput-object v2, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mRealTabContent:Landroid/widget/FrameLayout;
+    iput-object v2, p0, Landroidx/fragment/app/FragmentTabHost;->mRealTabContent:Landroid/widget/FrameLayout;
 
     .line 75
     .line 76
-    iget p1, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mContainerId:I
+    iget p1, p0, Landroidx/fragment/app/FragmentTabHost;->mContainerId:I
 
     .line 77
     .line 78
-    invoke-virtual {v2, p1}, Landroid/view/View;
-    ->setId(I)V
+    invoke-virtual {v2, p1}, Landroid/view/View;->setId(I)V
 
     .line 79
     .line 80
@@ -580,14 +521,12 @@ return-void
 
     .line 84
     .line 85
-    invoke-direct {p1, v3, v0, v4}, Landroid/widget/LinearLayout$LayoutParams;
-    -><init>(IIF)V
+    invoke-direct {p1, v3, v0, v4}, Landroid/widget/LinearLayout$LayoutParams;-><init>(IIF)V
 
     .line 86
     .line 87
     .line 88
-    invoke-virtual {v1, v2, p1}, Landroid/view/ViewGroup;
-    ->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v1, v2, p1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 89
     .line 90
@@ -602,13 +541,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mTabs:Ljava/util/ArrayList;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentTabHost;->mTabs:Ljava/util/ArrayList;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {v0}, Ljava/util/ArrayList;->size()I
 
     .line 4
     .line 5
@@ -624,13 +561,11 @@ return-void
 
     .line 9
     .line 10
-    iget-object v2, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mTabs:Ljava/util/ArrayList;
+    iget-object v2, p0, Landroidx/fragment/app/FragmentTabHost;->mTabs:Ljava/util/ArrayList;
 
     .line 11
     .line 12
-    invoke-virtual {v2, v1}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {v2, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -642,13 +577,11 @@ return-void
 
     .line 17
     .line 18
-    iget-object v3, v2, Landroidx/fragment/app/FragmentTabHost$TabInfo;
-    ->tag:Ljava/lang/String;
+    iget-object v3, v2, Landroidx/fragment/app/FragmentTabHost$TabInfo;->tag:Ljava/lang/String;
 
     .line 19
     .line 20
-    invoke-virtual {v3, p1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v3, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 21
     .line 22
@@ -693,8 +626,7 @@ return-void
     const/4 v1, 0x0
 
     .line 9
-    invoke-virtual {p1, p2, v0, v1, v1}, Landroid/content/Context;
-    ->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
+    invoke-virtual {p1, p2, v0, v1, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
     .line 10
     .line 11
@@ -702,8 +634,7 @@ return-void
     move-result-object p1
 
     .line 13
-    invoke-virtual {p1, v1, v1}, Landroid/content/res/TypedArray;
-    ->getResourceId(II)I
+    invoke-virtual {p1, v1, v1}, Landroid/content/res/TypedArray;->getResourceId(II)I
 
     .line 14
     .line 15
@@ -711,19 +642,16 @@ return-void
     move-result p2
 
     .line 17
-    iput p2, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mContainerId:I
+    iput p2, p0, Landroidx/fragment/app/FragmentTabHost;->mContainerId:I
 
     .line 18
     .line 19
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;
-    ->recycle()V
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
 
     .line 20
     .line 21
     .line 22
-    invoke-super {p0, p0}, Landroid/widget/TabHost;
-    ->setOnTabChangedListener(Landroid/widget/TabHost$OnTabChangeListener;)V
+    invoke-super {p0, p0}, Landroid/widget/TabHost;->setOnTabChangedListener(Landroid/widget/TabHost$OnTabChangeListener;)V
 return-void
 .end method
 
@@ -762,25 +690,21 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mContext:Landroid/content/Context;
+    iget-object v1, p0, Landroidx/fragment/app/FragmentTabHost;->mContext:Landroid/content/Context;
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroidx/fragment/app/FragmentTabHost$DummyTabFactory;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {v0, v1}, Landroidx/fragment/app/FragmentTabHost$DummyTabFactory;-><init>(Landroid/content/Context;)V
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p1, v0}, Landroid/widget/TabHost$TabSpec;
-    ->setContent(Landroid/widget/TabHost$TabContentFactory;)Landroid/widget/TabHost$TabSpec;
+    invoke-virtual {p1, v0}, Landroid/widget/TabHost$TabSpec;->setContent(Landroid/widget/TabHost$TabContentFactory;)Landroid/widget/TabHost$TabSpec;
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p1}, Landroid/widget/TabHost$TabSpec;
-    ->getTag()Ljava/lang/String;
+    invoke-virtual {p1}, Landroid/widget/TabHost$TabSpec;->getTag()Ljava/lang/String;
 
     .line 12
     .line 13
@@ -792,14 +716,12 @@ return-void
 
     .line 16
     .line 17
-    invoke-direct {v1, v0, p2, p3}, Landroidx/fragment/app/FragmentTabHost$TabInfo;
-    -><init>(Ljava/lang/String;Ljava/lang/Class;Landroid/os/Bundle;)V
+    invoke-direct {v1, v0, p2, p3}, Landroidx/fragment/app/FragmentTabHost$TabInfo;-><init>(Ljava/lang/String;Ljava/lang/Class;Landroid/os/Bundle;)V
 
     .line 18
     .line 19
     .line 20
-    iget-boolean p2, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mAttached:Z
+    iget-boolean p2, p0, Landroidx/fragment/app/FragmentTabHost;->mAttached:Z
 
     .line 21
     .line 22
@@ -807,13 +729,11 @@ return-void
 
     .line 23
     .line 24
-    iget-object p2, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mFragmentManager:Landroidx/fragment/app/FragmentManager;
+    iget-object p2, p0, Landroidx/fragment/app/FragmentTabHost;->mFragmentManager:Landroidx/fragment/app/FragmentManager;
 
     .line 25
     .line 26
-    invoke-virtual {p2, v0}, Landroidx/fragment/app/FragmentManager;
-    ->findFragmentByTag(Ljava/lang/String;)Landroidx/fragment/app/Fragment;
+    invoke-virtual {p2, v0}, Landroidx/fragment/app/FragmentManager;->findFragmentByTag(Ljava/lang/String;)Landroidx/fragment/app/Fragment;
 
     .line 27
     .line 28
@@ -821,8 +741,7 @@ return-void
     move-result-object p2
 
     .line 30
-    iput-object p2, v1, Landroidx/fragment/app/FragmentTabHost$TabInfo;
-    ->fragment:Landroidx/fragment/app/Fragment;
+    iput-object p2, v1, Landroidx/fragment/app/FragmentTabHost$TabInfo;->fragment:Landroidx/fragment/app/Fragment;
 
     .line 31
     .line 32
@@ -830,8 +749,7 @@ return-void
 
     .line 33
     .line 34
-    invoke-virtual {p2}, Landroidx/fragment/app/Fragment;
-    ->isDetached()Z
+    invoke-virtual {p2}, Landroidx/fragment/app/Fragment;->isDetached()Z
 
     .line 35
     .line 36
@@ -843,13 +761,11 @@ return-void
 
     .line 39
     .line 40
-    iget-object p2, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mFragmentManager:Landroidx/fragment/app/FragmentManager;
+    iget-object p2, p0, Landroidx/fragment/app/FragmentTabHost;->mFragmentManager:Landroidx/fragment/app/FragmentManager;
 
     .line 41
     .line 42
-    invoke-virtual {p2}, Landroidx/fragment/app/FragmentManager;
-    ->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
+    invoke-virtual {p2}, Landroidx/fragment/app/FragmentManager;->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
 
     .line 43
     .line 44
@@ -857,37 +773,31 @@ return-void
     move-result-object p2
 
     .line 46
-    iget-object p3, v1, Landroidx/fragment/app/FragmentTabHost$TabInfo;
-    ->fragment:Landroidx/fragment/app/Fragment;
+    iget-object p3, v1, Landroidx/fragment/app/FragmentTabHost$TabInfo;->fragment:Landroidx/fragment/app/Fragment;
 
     .line 47
     .line 48
-    invoke-virtual {p2, p3}, Landroidx/fragment/app/FragmentTransaction;
-    ->detach(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
+    invoke-virtual {p2, p3}, Landroidx/fragment/app/FragmentTransaction;->detach(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
 
     .line 49
     .line 50
     .line 51
-    invoke-virtual {p2}, Landroidx/fragment/app/FragmentTransaction;
-    ->commit()I
+    invoke-virtual {p2}, Landroidx/fragment/app/FragmentTransaction;->commit()I
 
     .line 52
     .line 53
     .line 54
     :cond_0
-    iget-object p2, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mTabs:Ljava/util/ArrayList;
+    iget-object p2, p0, Landroidx/fragment/app/FragmentTabHost;->mTabs:Ljava/util/ArrayList;
 
     .line 55
     .line 56
-    invoke-virtual {p2, v1}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {p2, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 57
     .line 58
     .line 59
-    invoke-virtual {p0, p1}, Landroid/widget/TabHost;
-    ->addTab(Landroid/widget/TabHost$TabSpec;)V
+    invoke-virtual {p0, p1}, Landroid/widget/TabHost;->addTab(Landroid/widget/TabHost$TabSpec;)V
     return-void
 .end method
 
@@ -897,14 +807,12 @@ return-void
     .end annotation
 
     .line 1
-    invoke-super {p0}, Landroid/widget/TabHost;
-    ->onAttachedToWindow()V
+    invoke-super {p0}, Landroid/widget/TabHost;->onAttachedToWindow()V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0}, Landroid/widget/TabHost;
-    ->getCurrentTabTag()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/widget/TabHost;->getCurrentTabTag()Ljava/lang/String;
 
     .line 5
     .line 6
@@ -912,13 +820,11 @@ return-void
     move-result-object v0
 
     .line 8
-    iget-object v1, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mTabs:Ljava/util/ArrayList;
+    iget-object v1, p0, Landroidx/fragment/app/FragmentTabHost;->mTabs:Ljava/util/ArrayList;
 
     .line 9
     .line 10
-    invoke-virtual {v1}, Ljava/util/ArrayList;
-    ->size()I
+    invoke-virtual {v1}, Ljava/util/ArrayList;->size()I
 
     .line 11
     .line 12
@@ -937,13 +843,11 @@ return-void
 
     .line 17
     .line 18
-    iget-object v4, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mTabs:Ljava/util/ArrayList;
+    iget-object v4, p0, Landroidx/fragment/app/FragmentTabHost;->mTabs:Ljava/util/ArrayList;
 
     .line 19
     .line 20
-    invoke-virtual {v4, v3}, Ljava/util/ArrayList;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {v4, v3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
     .line 21
     .line 22
@@ -955,18 +859,15 @@ return-void
 
     .line 25
     .line 26
-    iget-object v5, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mFragmentManager:Landroidx/fragment/app/FragmentManager;
+    iget-object v5, p0, Landroidx/fragment/app/FragmentTabHost;->mFragmentManager:Landroidx/fragment/app/FragmentManager;
 
     .line 27
     .line 28
-    iget-object v6, v4, Landroidx/fragment/app/FragmentTabHost$TabInfo;
-    ->tag:Ljava/lang/String;
+    iget-object v6, v4, Landroidx/fragment/app/FragmentTabHost$TabInfo;->tag:Ljava/lang/String;
 
     .line 29
     .line 30
-    invoke-virtual {v5, v6}, Landroidx/fragment/app/FragmentManager;
-    ->findFragmentByTag(Ljava/lang/String;)Landroidx/fragment/app/Fragment;
+    invoke-virtual {v5, v6}, Landroidx/fragment/app/FragmentManager;->findFragmentByTag(Ljava/lang/String;)Landroidx/fragment/app/Fragment;
 
     .line 31
     .line 32
@@ -974,8 +875,7 @@ return-void
     move-result-object v5
 
     .line 34
-    iput-object v5, v4, Landroidx/fragment/app/FragmentTabHost$TabInfo;
-    ->fragment:Landroidx/fragment/app/Fragment;
+    iput-object v5, v4, Landroidx/fragment/app/FragmentTabHost$TabInfo;->fragment:Landroidx/fragment/app/Fragment;
 
     .line 35
     .line 36
@@ -983,8 +883,7 @@ return-void
 
     .line 37
     .line 38
-    invoke-virtual {v5}, Landroidx/fragment/app/Fragment;
-    ->isDetached()Z
+    invoke-virtual {v5}, Landroidx/fragment/app/Fragment;->isDetached()Z
 
     .line 39
     .line 40
@@ -996,13 +895,11 @@ return-void
 
     .line 43
     .line 44
-    iget-object v5, v4, Landroidx/fragment/app/FragmentTabHost$TabInfo;
-    ->tag:Ljava/lang/String;
+    iget-object v5, v4, Landroidx/fragment/app/FragmentTabHost$TabInfo;->tag:Ljava/lang/String;
 
     .line 45
     .line 46
-    invoke-virtual {v5, v0}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v5, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 47
     .line 48
@@ -1014,8 +911,7 @@ return-void
 
     .line 51
     .line 52
-    iput-object v4, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mLastTab:Landroidx/fragment/app/FragmentTabHost$TabInfo;
+    iput-object v4, p0, Landroidx/fragment/app/FragmentTabHost;->mLastTab:Landroidx/fragment/app/FragmentTabHost$TabInfo;
 
     .line 53
     .line 54
@@ -1027,13 +923,11 @@ return-void
 
     .line 56
     .line 57
-    iget-object v2, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mFragmentManager:Landroidx/fragment/app/FragmentManager;
+    iget-object v2, p0, Landroidx/fragment/app/FragmentTabHost;->mFragmentManager:Landroidx/fragment/app/FragmentManager;
 
     .line 58
     .line 59
-    invoke-virtual {v2}, Landroidx/fragment/app/FragmentManager;
-    ->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
+    invoke-virtual {v2}, Landroidx/fragment/app/FragmentManager;->beginTransaction()Landroidx/fragment/app/FragmentTransaction;
 
     .line 60
     .line 61
@@ -1042,13 +936,11 @@ return-void
 
     .line 63
     :cond_1
-    iget-object v4, v4, Landroidx/fragment/app/FragmentTabHost$TabInfo;
-    ->fragment:Landroidx/fragment/app/Fragment;
+    iget-object v4, v4, Landroidx/fragment/app/FragmentTabHost$TabInfo;->fragment:Landroidx/fragment/app/Fragment;
 
     .line 64
     .line 65
-    invoke-virtual {v2, v4}, Landroidx/fragment/app/FragmentTransaction;
-    ->detach(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
+    invoke-virtual {v2, v4}, Landroidx/fragment/app/FragmentTransaction;->detach(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;
 
     .line 66
     .line 67
@@ -1066,13 +958,11 @@ return-void
     const/4 v1, 0x1
 
     .line 72
-    iput-boolean v1, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mAttached:Z
+    iput-boolean v1, p0, Landroidx/fragment/app/FragmentTabHost;->mAttached:Z
 
     .line 73
     .line 74
-    invoke-direct {p0, v0, v2}, Landroidx/fragment/app/FragmentTabHost;
-    ->doTabChanged(Ljava/lang/String;Landroidx/fragment/app/FragmentTransaction;)Landroidx/fragment/app/FragmentTransaction;
+    invoke-direct {p0, v0, v2}, Landroidx/fragment/app/FragmentTabHost;->doTabChanged(Ljava/lang/String;Landroidx/fragment/app/FragmentTransaction;)Landroidx/fragment/app/FragmentTransaction;
 
     .line 75
     .line 76
@@ -1084,19 +974,16 @@ return-void
 
     .line 79
     .line 80
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentTransaction;
-    ->commit()I
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentTransaction;->commit()I
 
     .line 81
     .line 82
     .line 83
-    iget-object v0, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mFragmentManager:Landroidx/fragment/app/FragmentManager;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentTabHost;->mFragmentManager:Landroidx/fragment/app/FragmentManager;
 
     .line 84
     .line 85
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;
-    ->executePendingTransactions()Z
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->executePendingTransactions()Z
 
     .line 86
     .line 87
@@ -1111,8 +998,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-super {p0}, Landroid/widget/TabHost;
-    ->onDetachedFromWindow()V
+    invoke-super {p0}, Landroid/widget/TabHost;->onDetachedFromWindow()V
 
     .line 2
     .line 3
@@ -1120,8 +1006,7 @@ return-void
     const/4 v0, 0x0
 
     .line 5
-    iput-boolean v0, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mAttached:Z
+    iput-boolean v0, p0, Landroidx/fragment/app/FragmentTabHost;->mAttached:Z
 return-void
 .end method
 
@@ -1146,8 +1031,7 @@ return-void
 
     .line 4
     .line 5
-    invoke-super {p0, p1}, Landroid/widget/TabHost;
-    ->onRestoreInstanceState(Landroid/os/Parcelable;)V
+    invoke-super {p0, p1}, Landroid/widget/TabHost;->onRestoreInstanceState(Landroid/os/Parcelable;)V
 return-void
 
     .line 9
@@ -1156,8 +1040,7 @@ return-void
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Landroid/view/AbsSavedState;
-    ->getSuperState()Landroid/os/Parcelable;
+    invoke-virtual {p1}, Landroid/view/AbsSavedState;->getSuperState()Landroid/os/Parcelable;
 
     .line 12
     .line 13
@@ -1165,19 +1048,16 @@ return-void
     move-result-object v0
 
     .line 15
-    invoke-super {p0, v0}, Landroid/widget/TabHost;
-    ->onRestoreInstanceState(Landroid/os/Parcelable;)V
+    invoke-super {p0, v0}, Landroid/widget/TabHost;->onRestoreInstanceState(Landroid/os/Parcelable;)V
 
     .line 16
     .line 17
     .line 18
-    iget-object p1, p1, Landroidx/fragment/app/FragmentTabHost$SavedState;
-    ->curTab:Ljava/lang/String;
+    iget-object p1, p1, Landroidx/fragment/app/FragmentTabHost$SavedState;->curTab:Ljava/lang/String;
 
     .line 19
     .line 20
-    invoke-virtual {p0, p1}, Landroid/widget/TabHost;
-    ->setCurrentTabByTag(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Landroid/widget/TabHost;->setCurrentTabByTag(Ljava/lang/String;)V
 return-void
 .end method
 
@@ -1190,8 +1070,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-super {p0}, Landroid/widget/TabHost;
-    ->onSaveInstanceState()Landroid/os/Parcelable;
+    invoke-super {p0}, Landroid/widget/TabHost;->onSaveInstanceState()Landroid/os/Parcelable;
 
     .line 2
     .line 3
@@ -1203,14 +1082,12 @@ return-void
 
     .line 6
     .line 7
-    invoke-direct {v1, v0}, Landroidx/fragment/app/FragmentTabHost$SavedState;
-    -><init>(Landroid/os/Parcelable;)V
+    invoke-direct {v1, v0}, Landroidx/fragment/app/FragmentTabHost$SavedState;-><init>(Landroid/os/Parcelable;)V
 
     .line 8
     .line 9
     .line 10
-    invoke-virtual {p0}, Landroid/widget/TabHost;
-    ->getCurrentTabTag()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/widget/TabHost;->getCurrentTabTag()Ljava/lang/String;
 
     .line 11
     .line 12
@@ -1218,8 +1095,7 @@ return-void
     move-result-object v0
 
     .line 14
-    iput-object v0, v1, Landroidx/fragment/app/FragmentTabHost$SavedState;
-    ->curTab:Ljava/lang/String;    
+    iput-object v0, v1, Landroidx/fragment/app/FragmentTabHost$SavedState;->curTab:Ljava/lang/String;
     return-object v1
 .end method
 
@@ -1233,8 +1109,7 @@ return-void
     .end annotation
 
     .line 1
-    iget-boolean v0, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mAttached:Z
+    iget-boolean v0, p0, Landroidx/fragment/app/FragmentTabHost;->mAttached:Z
 
     .line 2
     .line 3
@@ -1245,8 +1120,7 @@ return-void
     const/4 v0, 0x0
 
     .line 6
-    invoke-direct {p0, p1, v0}, Landroidx/fragment/app/FragmentTabHost;
-    ->doTabChanged(Ljava/lang/String;Landroidx/fragment/app/FragmentTransaction;)Landroidx/fragment/app/FragmentTransaction;
+    invoke-direct {p0, p1, v0}, Landroidx/fragment/app/FragmentTabHost;->doTabChanged(Ljava/lang/String;Landroidx/fragment/app/FragmentTransaction;)Landroidx/fragment/app/FragmentTransaction;
 
     .line 7
     .line 8
@@ -1258,15 +1132,13 @@ return-void
 
     .line 11
     .line 12
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentTransaction;
-    ->commit()I
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentTransaction;->commit()I
 
     .line 13
     .line 14
     .line 15
     :cond_0
-    iget-object v0, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mOnTabChangeListener:Landroid/widget/TabHost$OnTabChangeListener;
+    iget-object v0, p0, Landroidx/fragment/app/FragmentTabHost;->mOnTabChangeListener:Landroid/widget/TabHost$OnTabChangeListener;
 
     .line 16
     .line 17
@@ -1274,8 +1146,7 @@ return-void
 
     .line 18
     .line 19
-    invoke-interface {v0, p1}, Landroid/widget/TabHost$OnTabChangeListener;
-    ->onTabChanged(Ljava/lang/String;)V
+    invoke-interface {v0, p1}, Landroid/widget/TabHost$OnTabChangeListener;->onTabChanged(Ljava/lang/String;)V
 
     .line 20
     .line 21
@@ -1294,8 +1165,7 @@ return-void
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mOnTabChangeListener:Landroid/widget/TabHost$OnTabChangeListener;    
+    iput-object p1, p0, Landroidx/fragment/app/FragmentTabHost;->mOnTabChangeListener:Landroid/widget/TabHost$OnTabChangeListener;
     return-void
 .end method
 
@@ -1309,8 +1179,7 @@ return-void
 
     const-string v1, "Must call setup() that takes a Context and FragmentManager"
 
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     throw v0
 .end method
@@ -1329,24 +1198,19 @@ return-void
     .end annotation
 
     .line 2
-    invoke-direct {p0, p1}, Landroidx/fragment/app/FragmentTabHost;
-    ->ensureHierarchy(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Landroidx/fragment/app/FragmentTabHost;->ensureHierarchy(Landroid/content/Context;)V
 
     .line 3
-    invoke-super {p0}, Landroid/widget/TabHost;
-    ->setup()V
+    invoke-super {p0}, Landroid/widget/TabHost;->setup()V
 
     .line 4
-    iput-object p1, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mContext:Landroid/content/Context;
+    iput-object p1, p0, Landroidx/fragment/app/FragmentTabHost;->mContext:Landroid/content/Context;
 
     .line 5
-    iput-object p2, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mFragmentManager:Landroidx/fragment/app/FragmentManager;
+    iput-object p2, p0, Landroidx/fragment/app/FragmentTabHost;->mFragmentManager:Landroidx/fragment/app/FragmentManager;
 
     .line 6
-    invoke-direct {p0}, Landroidx/fragment/app/FragmentTabHost;
-    ->ensureContent()V
+    invoke-direct {p0}, Landroidx/fragment/app/FragmentTabHost;->ensureContent()V
     return-void
 .end method
 
@@ -1364,39 +1228,30 @@ return-void
     .end annotation
 
     .line 7
-    invoke-direct {p0, p1}, Landroidx/fragment/app/FragmentTabHost;
-    ->ensureHierarchy(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Landroidx/fragment/app/FragmentTabHost;->ensureHierarchy(Landroid/content/Context;)V
 
     .line 8
-    invoke-super {p0}, Landroid/widget/TabHost;
-    ->setup()V
+    invoke-super {p0}, Landroid/widget/TabHost;->setup()V
 
     .line 9
-    iput-object p1, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mContext:Landroid/content/Context;
+    iput-object p1, p0, Landroidx/fragment/app/FragmentTabHost;->mContext:Landroid/content/Context;
 
     .line 10
-    iput-object p2, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mFragmentManager:Landroidx/fragment/app/FragmentManager;
+    iput-object p2, p0, Landroidx/fragment/app/FragmentTabHost;->mFragmentManager:Landroidx/fragment/app/FragmentManager;
 
     .line 11
-    iput p3, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mContainerId:I
+    iput p3, p0, Landroidx/fragment/app/FragmentTabHost;->mContainerId:I
 
     .line 12
-    invoke-direct {p0}, Landroidx/fragment/app/FragmentTabHost;
-    ->ensureContent()V
+    invoke-direct {p0}, Landroidx/fragment/app/FragmentTabHost;->ensureContent()V
 
     .line 13
-    iget-object p1, p0, Landroidx/fragment/app/FragmentTabHost;
-    ->mRealTabContent:Landroid/widget/FrameLayout;
+    iget-object p1, p0, Landroidx/fragment/app/FragmentTabHost;->mRealTabContent:Landroid/widget/FrameLayout;
 
-    invoke-virtual {p1, p3}, Landroid/view/View;
-    ->setId(I)V
+    invoke-virtual {p1, p3}, Landroid/view/View;->setId(I)V
 
     .line 14
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getId()I
+    invoke-virtual {p0}, Landroid/view/View;->getId()I
 
     move-result p1
 
@@ -1407,8 +1262,7 @@ return-void
     const p1, 0x1020012
 
     .line 15
-    invoke-virtual {p0, p1}, Landroid/view/View;
-    ->setId(I)V
+    invoke-virtual {p0, p1}, Landroid/view/View;->setId(I)V
 
     :cond_0
     return-void

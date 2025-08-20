@@ -66,14 +66,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroidx/collection/ArrayMap;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/collection/ArrayMap;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Lcom/google/android/gms/internal/measurement/zzih;
-    ->zza:Ljava/util/Map;
+    sput-object v0, Lcom/google/android/gms/internal/measurement/zzih;->zza:Ljava/util/Map;
 
     .line 7
     .line 8
@@ -84,8 +82,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -94,14 +91,12 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Lcom/google/android/gms/internal/measurement/zzih;
-    ->zze:Ljava/lang/Object;
+    iput-object v0, p0, Lcom/google/android/gms/internal/measurement/zzih;->zze:Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -109,24 +104,20 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, Lcom/google/android/gms/internal/measurement/zzih;
-    ->zzg:Ljava/util/List;
+    iput-object v0, p0, Lcom/google/android/gms/internal/measurement/zzih;->zzg:Ljava/util/List;
 
     .line 17
     .line 18
-    iput-object p1, p0, Lcom/google/android/gms/internal/measurement/zzih;
-    ->zzb:Landroid/content/SharedPreferences;
+    iput-object p1, p0, Lcom/google/android/gms/internal/measurement/zzih;->zzb:Landroid/content/SharedPreferences;
 
     .line 19
     .line 20
-    iput-object p2, p0, Lcom/google/android/gms/internal/measurement/zzih;
-    ->zzc:Ljava/lang/Runnable;
+    iput-object p2, p0, Lcom/google/android/gms/internal/measurement/zzih;->zzc:Ljava/lang/Runnable;
 
     .line 21
     .line 22
@@ -137,8 +128,7 @@
     .locals 3
 
     .line 1
-    invoke-static {}, Landroid/os/StrictMode;
-    ->allowThreadDiskReads()Landroid/os/StrictMode$ThreadPolicy;
+    invoke-static {}, Landroid/os/StrictMode;->allowThreadDiskReads()Landroid/os/StrictMode$ThreadPolicy;
 
     move-result-object v0
 
@@ -146,8 +136,7 @@
     :try_start_0
     const-string v1, "direct_boot:"
 
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->startsWith(Ljava/lang/String;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v1
 
@@ -156,16 +145,14 @@
     if-eqz v1, :cond_1
 
     .line 3
-    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzhd;
-    ->zza()Z
+    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzhd;->zza()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
     .line 4
-    invoke-static {p0}, Landroidx/core/os/a;
-    ->e(Landroid/content/Context;)Landroid/content/Context;
+    invoke-static {p0}, Landroidx/core/os/a;->e(Landroid/content/Context;)Landroid/content/Context;
 
     move-result-object p0
 
@@ -181,49 +168,41 @@
     const/16 v1, 0xc
 
     .line 5
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->substring(I)Ljava/lang/String;
+    invoke-virtual {p1, v1}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     move-result-object p1
 
-    sget-object v1, Lcom/google/android/gms/internal/measurement/zzcs;
-    ->zza:Lcom/google/android/gms/internal/measurement/zzco;
+    sget-object v1, Lcom/google/android/gms/internal/measurement/zzcs;->zza:Lcom/google/android/gms/internal/measurement/zzco;
 
     .line 6
-    invoke-static {p0, p1, v2, v1}, Lcom/google/android/gms/internal/measurement/zzcw;
-    ->zza(Landroid/content/Context;Ljava/lang/String;ILcom/google/android/gms/internal/measurement/zzco;)Landroid/content/SharedPreferences;
+    invoke-static {p0, p1, v2, v1}, Lcom/google/android/gms/internal/measurement/zzcw;->zza(Landroid/content/Context;Ljava/lang/String;ILcom/google/android/gms/internal/measurement/zzco;)Landroid/content/SharedPreferences;
 
     move-result-object p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 7
-    invoke-static {v0}, Landroid/os/StrictMode;
-    ->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
+    invoke-static {v0}, Landroid/os/StrictMode;->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
     return-object p0
 
     .line 8
     :cond_1
     :try_start_1
-    sget-object v1, Lcom/google/android/gms/internal/measurement/zzcs;
-    ->zza:Lcom/google/android/gms/internal/measurement/zzco;
+    sget-object v1, Lcom/google/android/gms/internal/measurement/zzcs;->zza:Lcom/google/android/gms/internal/measurement/zzco;
 
-    invoke-static {p0, p1, v2, v1}, Lcom/google/android/gms/internal/measurement/zzcw;
-    ->zza(Landroid/content/Context;Ljava/lang/String;ILcom/google/android/gms/internal/measurement/zzco;)Landroid/content/SharedPreferences;
+    invoke-static {p0, p1, v2, v1}, Lcom/google/android/gms/internal/measurement/zzcw;->zza(Landroid/content/Context;Ljava/lang/String;ILcom/google/android/gms/internal/measurement/zzco;)Landroid/content/SharedPreferences;
 
     move-result-object p0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     .line 9
-    invoke-static {v0}, Landroid/os/StrictMode;
-    ->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
+    invoke-static {v0}, Landroid/os/StrictMode;->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
 return-object p0
 
     .line 10
     :goto_1
-    invoke-static {v0}, Landroid/os/StrictMode;
-    ->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
+    invoke-static {v0}, Landroid/os/StrictMode;->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
 
     .line 11
     throw p0
@@ -233,8 +212,7 @@ return-object p0
     .locals 3
 
     .line 12
-    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzhd;
-    ->zza()Z
+    invoke-static {}, Lcom/google/android/gms/internal/measurement/zzhd;->zza()Z
 
     move-result v0
 
@@ -243,16 +221,14 @@ return-object p0
     .line 13
     const-string v0, "direct_boot:"
 
-    invoke-virtual {p1, v0}, Ljava/lang/String;
-    ->startsWith(Ljava/lang/String;)Z
+    invoke-virtual {p1, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
     .line 14
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzhd;
-    ->zzb(Landroid/content/Context;)Z
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzhd;->zzb(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -276,11 +252,9 @@ return-object p0
 
     .line 16
     :try_start_0
-    sget-object v1, Lcom/google/android/gms/internal/measurement/zzih;
-    ->zza:Ljava/util/Map;
+    sget-object v1, Lcom/google/android/gms/internal/measurement/zzih;->zza:Ljava/util/Map;
 
-    invoke-interface {v1, p1}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v2
 
@@ -292,33 +266,26 @@ return-object p0
     new-instance v2, Lcom/google/android/gms/internal/measurement/zzih;
 
     .line 18
-    invoke-static {p0, p1}, Lcom/google/android/gms/internal/measurement/zzih;
-    ->zza(Landroid/content/Context;Ljava/lang/String;)Landroid/content/SharedPreferences;
+    invoke-static {p0, p1}, Lcom/google/android/gms/internal/measurement/zzih;->zza(Landroid/content/Context;Ljava/lang/String;)Landroid/content/SharedPreferences;
 
     move-result-object p0
 
-    invoke-direct {v2, p0, p2}, Lcom/google/android/gms/internal/measurement/zzih;
-    -><init>(Landroid/content/SharedPreferences;Ljava/lang/Runnable;)V
+    invoke-direct {v2, p0, p2}, Lcom/google/android/gms/internal/measurement/zzih;-><init>(Landroid/content/SharedPreferences;Ljava/lang/Runnable;)V
 
     .line 19
     new-instance p0, Lcom/google/android/gms/internal/measurement/zzig;
 
-    invoke-direct {p0, v2}, Lcom/google/android/gms/internal/measurement/zzig;
-    -><init>(Lcom/google/android/gms/internal/measurement/zzih;)V
+    invoke-direct {p0, v2}, Lcom/google/android/gms/internal/measurement/zzig;-><init>(Lcom/google/android/gms/internal/measurement/zzih;)V
 
-    iput-object p0, v2, Lcom/google/android/gms/internal/measurement/zzih;
-    ->zzd:Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;
+    iput-object p0, v2, Lcom/google/android/gms/internal/measurement/zzih;->zzd:Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;
 
     .line 20
-    iget-object p2, v2, Lcom/google/android/gms/internal/measurement/zzih;
-    ->zzb:Landroid/content/SharedPreferences;
+    iget-object p2, v2, Lcom/google/android/gms/internal/measurement/zzih;->zzb:Landroid/content/SharedPreferences;
 
-    invoke-interface {p2, p0}, Landroid/content/SharedPreferences;
-    ->registerOnSharedPreferenceChangeListener(Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;)V
+    invoke-interface {p2, p0}, Landroid/content/SharedPreferences;->registerOnSharedPreferenceChangeListener(Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;)V
 
     .line 21
-    invoke-interface {v1, p1, v2}, Ljava/util/Map;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, p1, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_1
 
@@ -352,48 +319,39 @@ return-object p0
 
     .line 44
     :try_start_0
-    sget-object v1, Lcom/google/android/gms/internal/measurement/zzih;
-    ->zza:Ljava/util/Map;
+    sget-object v1, Lcom/google/android/gms/internal/measurement/zzih;->zza:Ljava/util/Map;
 
-    invoke-interface {v1}, Ljava/util/Map;
-    ->values()Ljava/util/Collection;
+    invoke-interface {v1}, Ljava/util/Map;->values()Ljava/util/Collection;
 
     move-result-object v1
 
-    invoke-interface {v1}, Ljava/util/Collection;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
     move-result-object v1
 
     :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v2
 
     if-eqz v2, :cond_0
 
-    invoke-interface {v1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Lcom/google/android/gms/internal/measurement/zzih;
 
     .line 45
-    iget-object v3, v2, Lcom/google/android/gms/internal/measurement/zzih;
-    ->zzb:Landroid/content/SharedPreferences;
+    iget-object v3, v2, Lcom/google/android/gms/internal/measurement/zzih;->zzb:Landroid/content/SharedPreferences;
 
-    iget-object v2, v2, Lcom/google/android/gms/internal/measurement/zzih;
-    ->zzd:Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;
+    iget-object v2, v2, Lcom/google/android/gms/internal/measurement/zzih;->zzd:Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;
 
     .line 46
-    invoke-virtual {v2}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 47
-    invoke-interface {v3, v2}, Landroid/content/SharedPreferences;
-    ->unregisterOnSharedPreferenceChangeListener(Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;)V
+    invoke-interface {v3, v2}, Landroid/content/SharedPreferences;->unregisterOnSharedPreferenceChangeListener(Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;)V
 
     goto :goto_0
 
@@ -404,11 +362,9 @@ return-object p0
 
     .line 48
     :cond_0
-    sget-object v1, Lcom/google/android/gms/internal/measurement/zzih;
-    ->zza:Ljava/util/Map;
+    sget-object v1, Lcom/google/android/gms/internal/measurement/zzih;->zza:Ljava/util/Map;
 
-    invoke-interface {v1}, Ljava/util/Map;
-    ->clear()V
+    invoke-interface {v1}, Ljava/util/Map;->clear()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -430,8 +386,7 @@ return-object p0
     .locals 0
 
     .line 35
-    iget-object p1, p0, Lcom/google/android/gms/internal/measurement/zzih;
-    ->zze:Ljava/lang/Object;
+    iget-object p1, p0, Lcom/google/android/gms/internal/measurement/zzih;->zze:Ljava/lang/Object;
 
     monitor-enter p1
 
@@ -439,15 +394,12 @@ return-object p0
 
     .line 36
     :try_start_0
-    iput-object p2, p0, Lcom/google/android/gms/internal/measurement/zzih;
-    ->zzf:Ljava/util/Map;
+    iput-object p2, p0, Lcom/google/android/gms/internal/measurement/zzih;->zzf:Ljava/util/Map;
 
     .line 37
-    iget-object p2, p0, Lcom/google/android/gms/internal/measurement/zzih;
-    ->zzc:Ljava/lang/Runnable;
+    iget-object p2, p0, Lcom/google/android/gms/internal/measurement/zzih;->zzc:Ljava/lang/Runnable;
 
-    invoke-interface {p2}, Ljava/lang/Runnable;
-    ->run()V
+    invoke-interface {p2}, Ljava/lang/Runnable;->run()V
 
     .line 38
     monitor-exit p1
@@ -459,32 +411,27 @@ return-object p0
 
     .line 40
     :try_start_1
-    iget-object p1, p0, Lcom/google/android/gms/internal/measurement/zzih;
-    ->zzg:Ljava/util/List;
+    iget-object p1, p0, Lcom/google/android/gms/internal/measurement/zzih;->zzg:Ljava/util/List;
 
-    invoke-interface {p1}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
     move-result p2
 
     if-eqz p2, :cond_0
 
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object p2
 
     check-cast p2, Lcom/google/android/gms/internal/measurement/zzhk;
 
     .line 41
-    invoke-interface {p2}, Lcom/google/android/gms/internal/measurement/zzhk;
-    ->zza()V
+    invoke-interface {p2}, Lcom/google/android/gms/internal/measurement/zzhk;->zza()V
 
     goto :goto_0
 
@@ -524,27 +471,23 @@ return-object p0
     .locals 3
 
     .line 24
-    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzih;
-    ->zzf:Ljava/util/Map;
+    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzih;->zzf:Ljava/util/Map;
 
     if-nez v0, :cond_1
 
     .line 25
-    iget-object v1, p0, Lcom/google/android/gms/internal/measurement/zzih;
-    ->zze:Ljava/lang/Object;
+    iget-object v1, p0, Lcom/google/android/gms/internal/measurement/zzih;->zze:Ljava/lang/Object;
 
     monitor-enter v1
 
     .line 26
     :try_start_0
-    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzih;
-    ->zzf:Ljava/util/Map;
+    iget-object v0, p0, Lcom/google/android/gms/internal/measurement/zzih;->zzf:Ljava/util/Map;
 
     if-nez v0, :cond_0
 
     .line 27
-    invoke-static {}, Landroid/os/StrictMode;
-    ->allowThreadDiskReads()Landroid/os/StrictMode$ThreadPolicy;
+    invoke-static {}, Landroid/os/StrictMode;->allowThreadDiskReads()Landroid/os/StrictMode$ThreadPolicy;
 
     move-result-object v0
     :try_end_0
@@ -552,24 +495,20 @@ return-object p0
 
     .line 28
     :try_start_1
-    iget-object v2, p0, Lcom/google/android/gms/internal/measurement/zzih;
-    ->zzb:Landroid/content/SharedPreferences;
+    iget-object v2, p0, Lcom/google/android/gms/internal/measurement/zzih;->zzb:Landroid/content/SharedPreferences;
 
-    invoke-interface {v2}, Landroid/content/SharedPreferences;
-    ->getAll()Ljava/util/Map;
+    invoke-interface {v2}, Landroid/content/SharedPreferences;->getAll()Ljava/util/Map;
 
     move-result-object v2
 
     .line 29
-    iput-object v2, p0, Lcom/google/android/gms/internal/measurement/zzih;
-    ->zzf:Ljava/util/Map;
+    iput-object v2, p0, Lcom/google/android/gms/internal/measurement/zzih;->zzf:Ljava/util/Map;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
     .line 30
     :try_start_2
-    invoke-static {v0}, Landroid/os/StrictMode;
-    ->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
+    invoke-static {v0}, Landroid/os/StrictMode;->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
 
     move-object v0, v2
 
@@ -584,8 +523,7 @@ return-object p0
     move-exception p1
 
     .line 31
-    invoke-static {v0}, Landroid/os/StrictMode;
-    ->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
+    invoke-static {v0}, Landroid/os/StrictMode;->setThreadPolicy(Landroid/os/StrictMode$ThreadPolicy;)V
 
     .line 32
     throw p1
@@ -609,8 +547,7 @@ return-object p0
     if-eqz v0, :cond_2
 
     .line 34
-    invoke-interface {v0, p1}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 

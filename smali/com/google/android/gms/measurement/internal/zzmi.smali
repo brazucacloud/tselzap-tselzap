@@ -18,25 +18,21 @@
     :try_start_0
     new-instance v1, Ljava/io/ByteArrayOutputStream;
 
-    invoke-direct {v1}, Ljava/io/ByteArrayOutputStream;
-    -><init>()V
+    invoke-direct {v1}, Ljava/io/ByteArrayOutputStream;-><init>()V
 
     .line 2
     new-instance v2, Ljava/io/ObjectOutputStream;
 
-    invoke-direct {v2, v1}, Ljava/io/ObjectOutputStream;
-    -><init>(Ljava/io/OutputStream;)V
+    invoke-direct {v2, v1}, Ljava/io/ObjectOutputStream;-><init>(Ljava/io/OutputStream;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_2
 
     .line 3
     :try_start_1
-    invoke-virtual {v2, p0}, Ljava/io/ObjectOutputStream;
-    ->writeObject(Ljava/lang/Object;)V
+    invoke-virtual {v2, p0}, Ljava/io/ObjectOutputStream;->writeObject(Ljava/lang/Object;)V
 
     .line 4
-    invoke-virtual {v2}, Ljava/io/ObjectOutputStream;
-    ->flush()V
+    invoke-virtual {v2}, Ljava/io/ObjectOutputStream;->flush()V
 
     .line 5
     new-instance p0, Ljava/io/ObjectInputStream;
@@ -44,23 +40,19 @@
     new-instance v3, Ljava/io/ByteArrayInputStream;
 
     .line 6
-    invoke-virtual {v1}, Ljava/io/ByteArrayOutputStream;
-    ->toByteArray()[B
+    invoke-virtual {v1}, Ljava/io/ByteArrayOutputStream;->toByteArray()[B
 
     move-result-object v1
 
-    invoke-direct {v3, v1}, Ljava/io/ByteArrayInputStream;
-    -><init>([B)V
+    invoke-direct {v3, v1}, Ljava/io/ByteArrayInputStream;-><init>([B)V
 
-    invoke-direct {p0, v3}, Ljava/io/ObjectInputStream;
-    -><init>(Ljava/io/InputStream;)V
+    invoke-direct {p0, v3}, Ljava/io/ObjectInputStream;-><init>(Ljava/io/InputStream;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
     .line 7
     :try_start_2
-    invoke-virtual {p0}, Ljava/io/ObjectInputStream;
-    ->readObject()Ljava/lang/Object;
+    invoke-virtual {p0}, Ljava/io/ObjectInputStream;->readObject()Ljava/lang/Object;
 
     move-result-object v1
     :try_end_2
@@ -68,12 +60,10 @@
 
     .line 8
     :try_start_3
-    invoke-virtual {v2}, Ljava/io/ObjectOutputStream;
-    ->close()V
+    invoke-virtual {v2}, Ljava/io/ObjectOutputStream;->close()V
 
     .line 9
-    invoke-virtual {p0}, Ljava/io/ObjectInputStream;
-    ->close()V
+    invoke-virtual {p0}, Ljava/io/ObjectInputStream;->close()V
     return-object v1
 
     :catchall_0
@@ -99,15 +89,13 @@
     if-eqz v2, :cond_1
 
     .line 10
-    invoke-virtual {v2}, Ljava/io/ObjectOutputStream;
-    ->close()V
+    invoke-virtual {v2}, Ljava/io/ObjectOutputStream;->close()V
 
     :cond_1
     if-eqz p0, :cond_2
 
     .line 11
-    invoke-virtual {p0}, Ljava/io/ObjectInputStream;
-    ->close()V
+    invoke-virtual {p0}, Ljava/io/ObjectInputStream;->close()V
 
     .line 12
     :cond_2
@@ -124,20 +112,17 @@
     .locals 4
 
     .line 13
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 14
-    invoke-static {p2}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p2}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 15
     array-length v0, p1
 
     array-length v1, p2
 
-    invoke-static {v0, v1}, Ljava/lang/Math;
-    ->min(II)I
+    invoke-static {v0, v1}, Ljava/lang/Math;->min(II)I
 
     move-result v0
 
@@ -168,8 +153,7 @@
 
     .line 17
     :cond_1
-    invoke-virtual {p0, v3}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p0, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v3
 

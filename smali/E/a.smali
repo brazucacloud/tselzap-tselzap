@@ -14,8 +14,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/io/InputStream;
-    -><init>()V
+    invoke-direct {p0}, Ljava/io/InputStream;-><init>()V
 
     .line 2
     .line 3
@@ -23,13 +22,11 @@
     const/4 v0, -0x1
 
     .line 5
-    iput v0, p0, LE/a;
-    ->c:I
+    iput v0, p0, LE/a;->c:I
 
     .line 6
     .line 7
-    iput-object p1, p0, LE/a;
-    ->b:Ljava/nio/ByteBuffer;
+    iput-object p1, p0, LE/a;->b:Ljava/nio/ByteBuffer;
 
     .line 8
     .line 9
@@ -42,13 +39,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, LE/a;
-    ->b:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, LE/a;->b:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/nio/Buffer;
-    ->remaining()I
+    invoke-virtual {v0}, Ljava/nio/Buffer;->remaining()I
 
     .line 4
     .line 5
@@ -66,13 +61,11 @@
 
     .line 2
     :try_start_0
-    iget-object p1, p0, LE/a;
-    ->b:Ljava/nio/ByteBuffer;
+    iget-object p1, p0, LE/a;->b:Ljava/nio/ByteBuffer;
 
     .line 3
     .line 4
-    invoke-virtual {p1}, Ljava/nio/Buffer;
-    ->position()I
+    invoke-virtual {p1}, Ljava/nio/Buffer;->position()I
 
     .line 5
     .line 6
@@ -80,8 +73,7 @@
     move-result p1
 
     .line 8
-    iput p1, p0, LE/a;
-    ->c:I
+    iput p1, p0, LE/a;->c:I
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -131,11 +123,9 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, LE/a;
-    ->b:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, LE/a;->b:Ljava/nio/ByteBuffer;
 
-    invoke-virtual {v0}, Ljava/nio/Buffer;
-    ->hasRemaining()Z
+    invoke-virtual {v0}, Ljava/nio/Buffer;->hasRemaining()Z
 
     move-result v1
 
@@ -147,8 +137,7 @@
 
     .line 2
     :cond_0
-    invoke-virtual {v0}, Ljava/nio/ByteBuffer;
-    ->get()B
+    invoke-virtual {v0}, Ljava/nio/ByteBuffer;->get()B
 
     move-result v0
 
@@ -161,11 +150,9 @@
     .locals 2
 
     .line 3
-    iget-object v0, p0, LE/a;
-    ->b:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, LE/a;->b:Ljava/nio/ByteBuffer;
 
-    invoke-virtual {v0}, Ljava/nio/Buffer;
-    ->hasRemaining()Z
+    invoke-virtual {v0}, Ljava/nio/Buffer;->hasRemaining()Z
 
     move-result v1
 
@@ -177,20 +164,17 @@
 
     .line 4
     :cond_0
-    invoke-virtual {v0}, Ljava/nio/Buffer;
-    ->remaining()I
+    invoke-virtual {v0}, Ljava/nio/Buffer;->remaining()I
 
     move-result v1
 
     .line 5
-    invoke-static {p3, v1}, Ljava/lang/Math;
-    ->min(II)I
+    invoke-static {p3, v1}, Ljava/lang/Math;->min(II)I
 
     move-result p3
 
     .line 6
-    invoke-virtual {v0, p1, p2, p3}, Ljava/nio/ByteBuffer;
-    ->get([BII)Ljava/nio/ByteBuffer;
+    invoke-virtual {v0, p1, p2, p3}, Ljava/nio/ByteBuffer;->get([BII)Ljava/nio/ByteBuffer;
 
     return p3
 .end method
@@ -203,8 +187,7 @@
 
     .line 2
     :try_start_0
-    iget v0, p0, LE/a;
-    ->c:I
+    iget v0, p0, LE/a;->c:I
 
     .line 3
     .line 4
@@ -215,13 +198,11 @@
 
     .line 6
     .line 7
-    iget-object v1, p0, LE/a;
-    ->b:Ljava/nio/ByteBuffer;
+    iget-object v1, p0, LE/a;->b:Ljava/nio/ByteBuffer;
 
     .line 8
     .line 9
-    invoke-virtual {v1, v0}, Ljava/nio/ByteBuffer;
-    ->position(I)Ljava/nio/Buffer;
+    invoke-virtual {v1, v0}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -250,8 +231,7 @@
 
     .line 19
     .line 20
-    invoke-direct {v0, v1}, Ljava/io/IOException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
 
     .line 21
     .line 22
@@ -333,13 +313,11 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, LE/a;
-    ->b:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, LE/a;->b:Ljava/nio/ByteBuffer;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Ljava/nio/Buffer;
-    ->hasRemaining()Z
+    invoke-virtual {v0}, Ljava/nio/Buffer;->hasRemaining()Z
 
     .line 4
     .line 5
@@ -359,8 +337,7 @@
 
     .line 12
     :cond_0
-    invoke-virtual {v0}, Ljava/nio/Buffer;
-    ->remaining()I
+    invoke-virtual {v0}, Ljava/nio/Buffer;->remaining()I
 
     .line 13
     .line 14
@@ -371,8 +348,7 @@
     int-to-long v1, v1
 
     .line 17
-    invoke-static {p1, p2, v1, v2}, Ljava/lang/Math;
-    ->min(JJ)J
+    invoke-static {p1, p2, v1, v2}, Ljava/lang/Math;->min(JJ)J
 
     .line 18
     .line 19
@@ -380,8 +356,7 @@
     move-result-wide p1
 
     .line 21
-    invoke-virtual {v0}, Ljava/nio/Buffer;
-    ->position()I
+    invoke-virtual {v0}, Ljava/nio/Buffer;->position()I
 
     .line 22
     .line 23
@@ -398,8 +373,7 @@
     long-to-int v2, v1
 
     .line 28
-    invoke-virtual {v0, v2}, Ljava/nio/ByteBuffer;
-    ->position(I)Ljava/nio/Buffer;
+    invoke-virtual {v0, v2}, Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
 
     .line 29
     .line 30

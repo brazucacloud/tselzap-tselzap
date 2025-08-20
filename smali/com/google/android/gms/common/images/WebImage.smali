@@ -59,11 +59,9 @@
 
     new-instance v0, Lcom/google/android/gms/common/images/zah;
 
-    invoke-direct {v0}, Lcom/google/android/gms/common/images/zah;
-    -><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/common/images/zah;-><init>()V
 
-    sput-object v0, Lcom/google/android/gms/common/images/WebImage;
-    ->CREATOR:Landroid/os/Parcelable$Creator;
+    sput-object v0, Lcom/google/android/gms/common/images/WebImage;->CREATOR:Landroid/os/Parcelable$Creator;
 
     return-void
 .end method
@@ -94,20 +92,15 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
-    iput p1, p0, Lcom/google/android/gms/common/images/WebImage;
-    ->zaa:I
+    iput p1, p0, Lcom/google/android/gms/common/images/WebImage;->zaa:I
 
-    iput-object p2, p0, Lcom/google/android/gms/common/images/WebImage;
-    ->zab:Landroid/net/Uri;
+    iput-object p2, p0, Lcom/google/android/gms/common/images/WebImage;->zab:Landroid/net/Uri;
 
-    iput p3, p0, Lcom/google/android/gms/common/images/WebImage;
-    ->zac:I
+    iput p3, p0, Lcom/google/android/gms/common/images/WebImage;->zac:I
 
-    iput p4, p0, Lcom/google/android/gms/common/images/WebImage;
-    ->zad:I
+    iput p4, p0, Lcom/google/android/gms/common/images/WebImage;->zad:I
 
     return-void
 .end method
@@ -122,8 +115,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, p1, v0, v0}, Lcom/google/android/gms/common/images/WebImage;
-    -><init>(Landroid/net/Uri;II)V
+    invoke-direct {p0, p1, v0, v0}, Lcom/google/android/gms/common/images/WebImage;-><init>(Landroid/net/Uri;II)V
 return-void
 .end method
 
@@ -137,8 +129,7 @@ return-void
     const/4 v0, 0x1
 
     .line 3
-    invoke-direct {p0, v0, p1, p2, p3}, Lcom/google/android/gms/common/images/WebImage;
-    -><init>(ILandroid/net/Uri;II)V
+    invoke-direct {p0, v0, p1, p2, p3}, Lcom/google/android/gms/common/images/WebImage;-><init>(ILandroid/net/Uri;II)V
 
     if-eqz p1, :cond_1
 
@@ -155,8 +146,7 @@ return-void
     const-string p2, "width and height must not be negative"
 
     .line 5
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     throw p1
 
@@ -167,8 +157,7 @@ return-void
     const-string p2, "url cannot be null"
 
     .line 7
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     throw p1
 .end method
@@ -183,13 +172,11 @@ return-void
     .end annotation
 
     .line 8
-    sget-object v0, Landroid/net/Uri;
-    ->EMPTY:Landroid/net/Uri;
+    sget-object v0, Landroid/net/Uri;->EMPTY:Landroid/net/Uri;
 
     const-string v1, "url"
 
-    invoke-virtual {p1, v1}, Lorg/json/JSONObject;
-    ->has(Ljava/lang/String;)Z
+    invoke-virtual {p1, v1}, Lorg/json/JSONObject;->has(Ljava/lang/String;)Z
 
     move-result v2
 
@@ -197,13 +184,11 @@ return-void
 
     .line 9
     :try_start_0
-    invoke-virtual {p1, v1}, Lorg/json/JSONObject;
-    ->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p1, v1}, Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-static {v1}, Landroid/net/Uri;
-    ->parse(Ljava/lang/String;)Landroid/net/Uri;
+    invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     move-result-object v0
     :try_end_0
@@ -216,20 +201,17 @@ return-void
     const/4 v2, 0x0
 
     .line 10
-    invoke-virtual {p1, v1, v2}, Lorg/json/JSONObject;
-    ->optInt(Ljava/lang/String;I)I
+    invoke-virtual {p1, v1, v2}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;I)I
 
     move-result v1
 
     const-string v3, "height"
 
-    invoke-virtual {p1, v3, v2}, Lorg/json/JSONObject;
-    ->optInt(Ljava/lang/String;I)I
+    invoke-virtual {p1, v3, v2}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;I)I
 
     move-result p1
 
-    invoke-direct {p0, v0, v1, p1}, Lcom/google/android/gms/common/images/WebImage;
-    -><init>(Landroid/net/Uri;II)V
+    invoke-direct {p0, v0, v1, p1}, Lcom/google/android/gms/common/images/WebImage;-><init>(Landroid/net/Uri;II)V
 return-void
 .end method
 
@@ -277,18 +259,15 @@ return-void
 
     .line 14
     .line 15
-    iget-object v2, p0, Lcom/google/android/gms/common/images/WebImage;
-    ->zab:Landroid/net/Uri;
+    iget-object v2, p0, Lcom/google/android/gms/common/images/WebImage;->zab:Landroid/net/Uri;
 
     .line 16
     .line 17
-    iget-object v3, p1, Lcom/google/android/gms/common/images/WebImage;
-    ->zab:Landroid/net/Uri;
+    iget-object v3, p1, Lcom/google/android/gms/common/images/WebImage;->zab:Landroid/net/Uri;
 
     .line 18
     .line 19
-    invoke-static {v2, v3}, Lcom/google/android/gms/common/internal/Objects;
-    ->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v2, v3}, Lcom/google/android/gms/common/internal/Objects;->equal(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 20
     .line 21
@@ -300,13 +279,11 @@ return-void
 
     .line 24
     .line 25
-    iget v2, p0, Lcom/google/android/gms/common/images/WebImage;
-    ->zac:I
+    iget v2, p0, Lcom/google/android/gms/common/images/WebImage;->zac:I
 
     .line 26
     .line 27
-    iget v3, p1, Lcom/google/android/gms/common/images/WebImage;
-    ->zac:I
+    iget v3, p1, Lcom/google/android/gms/common/images/WebImage;->zac:I
 
     .line 28
     .line 29
@@ -314,13 +291,11 @@ return-void
 
     .line 30
     .line 31
-    iget v2, p0, Lcom/google/android/gms/common/images/WebImage;
-    ->zad:I
+    iget v2, p0, Lcom/google/android/gms/common/images/WebImage;->zad:I
 
     .line 32
     .line 33
-    iget p1, p1, Lcom/google/android/gms/common/images/WebImage;
-    ->zad:I
+    iget p1, p1, Lcom/google/android/gms/common/images/WebImage;->zad:I
 
     .line 34
     .line 35
@@ -339,8 +314,7 @@ return-void
 .method public getHeight()I
     .locals 1
 
-    iget v0, p0, Lcom/google/android/gms/common/images/WebImage;
-    ->zad:I
+    iget v0, p0, Lcom/google/android/gms/common/images/WebImage;->zad:I
 
     return v0
 .end method
@@ -350,8 +324,7 @@ return-void
     .annotation build Landroidx/annotation/NonNull;
     .end annotation
 
-    iget-object v0, p0, Lcom/google/android/gms/common/images/WebImage;
-    ->zab:Landroid/net/Uri;
+    iget-object v0, p0, Lcom/google/android/gms/common/images/WebImage;->zab:Landroid/net/Uri;
 
     return-object v0
 .end method
@@ -359,8 +332,7 @@ return-void
 .method public getWidth()I
     .locals 1
 
-    iget v0, p0, Lcom/google/android/gms/common/images/WebImage;
-    ->zac:I
+    iget v0, p0, Lcom/google/android/gms/common/images/WebImage;->zac:I
 
     return v0
 .end method
@@ -369,18 +341,15 @@ return-void
     .locals 5
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/images/WebImage;
-    ->zab:Landroid/net/Uri;
+    iget-object v0, p0, Lcom/google/android/gms/common/images/WebImage;->zab:Landroid/net/Uri;
 
     .line 2
     .line 3
-    iget v1, p0, Lcom/google/android/gms/common/images/WebImage;
-    ->zac:I
+    iget v1, p0, Lcom/google/android/gms/common/images/WebImage;->zac:I
 
     .line 4
     .line 5
-    invoke-static {v1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 6
     .line 7
@@ -388,13 +357,11 @@ return-void
     move-result-object v1
 
     .line 9
-    iget v2, p0, Lcom/google/android/gms/common/images/WebImage;
-    ->zad:I
+    iget v2, p0, Lcom/google/android/gms/common/images/WebImage;->zad:I
 
     .line 10
     .line 11
-    invoke-static {v2}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 12
     .line 13
@@ -430,8 +397,7 @@ return-void
 
     .line 26
     .line 27
-    invoke-static {v3}, Lcom/google/android/gms/common/internal/Objects;
-    ->hashCode([Ljava/lang/Object;)I
+    invoke-static {v3}, Lcom/google/android/gms/common/internal/Objects;->hashCode([Ljava/lang/Object;)I
 
     .line 28
     .line 29
@@ -454,8 +420,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lorg/json/JSONObject;
-    -><init>()V
+    invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
 
     .line 4
     .line 5
@@ -465,13 +430,11 @@ return-void
 
     .line 7
     .line 8
-    iget-object v2, p0, Lcom/google/android/gms/common/images/WebImage;
-    ->zab:Landroid/net/Uri;
+    iget-object v2, p0, Lcom/google/android/gms/common/images/WebImage;->zab:Landroid/net/Uri;
 
     .line 9
     .line 10
-    invoke-virtual {v2}, Landroid/net/Uri;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Landroid/net/Uri;->toString()Ljava/lang/String;
 
     .line 11
     .line 12
@@ -479,8 +442,7 @@ return-void
     move-result-object v2
 
     .line 14
-    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;
-    ->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
+    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     .line 15
     .line 16
@@ -489,13 +451,11 @@ return-void
 
     .line 18
     .line 19
-    iget v2, p0, Lcom/google/android/gms/common/images/WebImage;
-    ->zac:I
+    iget v2, p0, Lcom/google/android/gms/common/images/WebImage;->zac:I
 
     .line 20
     .line 21
-    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;
-    ->put(Ljava/lang/String;I)Lorg/json/JSONObject;
+    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
     .line 22
     .line 23
@@ -504,13 +464,11 @@ return-void
 
     .line 25
     .line 26
-    iget v2, p0, Lcom/google/android/gms/common/images/WebImage;
-    ->zad:I
+    iget v2, p0, Lcom/google/android/gms/common/images/WebImage;->zad:I
 
     .line 27
     .line 28
-    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;
-    ->put(Ljava/lang/String;I)Lorg/json/JSONObject;
+    invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -527,28 +485,23 @@ return-void
     .end annotation
 
     .line 1
-    sget-object v0, Ljava/util/Locale;
-    ->US:Ljava/util/Locale;
+    sget-object v0, Ljava/util/Locale;->US:Ljava/util/Locale;
 
     .line 2
     .line 3
-    iget v0, p0, Lcom/google/android/gms/common/images/WebImage;
-    ->zac:I
+    iget v0, p0, Lcom/google/android/gms/common/images/WebImage;->zac:I
 
     .line 4
     .line 5
-    iget v1, p0, Lcom/google/android/gms/common/images/WebImage;
-    ->zad:I
+    iget v1, p0, Lcom/google/android/gms/common/images/WebImage;->zad:I
 
     .line 6
     .line 7
-    iget-object v2, p0, Lcom/google/android/gms/common/images/WebImage;
-    ->zab:Landroid/net/Uri;
+    iget-object v2, p0, Lcom/google/android/gms/common/images/WebImage;->zab:Landroid/net/Uri;
 
     .line 8
     .line 9
-    invoke-virtual {v2}, Landroid/net/Uri;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Landroid/net/Uri;->toString()Ljava/lang/String;
 
     .line 10
     .line 11
@@ -568,8 +521,7 @@ return-void
 
     .line 18
     .line 19
-    invoke-static {v3, v0, v4, v1, v5}, LA/d;
-    ->q(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v3, v0, v4, v1, v5}, LA/d;->q(Ljava/lang/String;ILjava/lang/String;ILjava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 20
     .line 21
@@ -577,14 +529,12 @@ return-void
     move-result-object v0
 
     .line 23
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 27
     .line 28
@@ -602,13 +552,11 @@ return-void
     .end param
 
     .line 1
-    iget v0, p0, Lcom/google/android/gms/common/images/WebImage;
-    ->zaa:I
+    iget v0, p0, Lcom/google/android/gms/common/images/WebImage;->zaa:I
 
     .line 2
     .line 3
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
-    ->beginObjectHeader(Landroid/os/Parcel;)I
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->beginObjectHeader(Landroid/os/Parcel;)I
 
     .line 4
     .line 5
@@ -619,14 +567,12 @@ return-void
     const/4 v2, 0x1
 
     .line 8
-    invoke-static {p1, v2, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
-    ->writeInt(Landroid/os/Parcel;II)V
+    invoke-static {p1, v2, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeInt(Landroid/os/Parcel;II)V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p0}, Lcom/google/android/gms/common/images/WebImage;
-    ->getUrl()Landroid/net/Uri;
+    invoke-virtual {p0}, Lcom/google/android/gms/common/images/WebImage;->getUrl()Landroid/net/Uri;
 
     .line 12
     .line 13
@@ -640,8 +586,7 @@ return-void
     const/4 v3, 0x2
 
     .line 17
-    invoke-static {p1, v3, v0, p2, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
-    ->writeParcelable(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
+    invoke-static {p1, v3, v0, p2, v2}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeParcelable(Landroid/os/Parcel;ILandroid/os/Parcelable;IZ)V
 
     .line 18
     .line 19
@@ -649,8 +594,7 @@ return-void
     const/4 p2, 0x3
 
     .line 21
-    invoke-virtual {p0}, Lcom/google/android/gms/common/images/WebImage;
-    ->getWidth()I
+    invoke-virtual {p0}, Lcom/google/android/gms/common/images/WebImage;->getWidth()I
 
     .line 22
     .line 23
@@ -658,8 +602,7 @@ return-void
     move-result v0
 
     .line 25
-    invoke-static {p1, p2, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
-    ->writeInt(Landroid/os/Parcel;II)V
+    invoke-static {p1, p2, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeInt(Landroid/os/Parcel;II)V
 
     .line 26
     .line 27
@@ -667,8 +610,7 @@ return-void
     const/4 p2, 0x4
 
     .line 29
-    invoke-virtual {p0}, Lcom/google/android/gms/common/images/WebImage;
-    ->getHeight()I
+    invoke-virtual {p0}, Lcom/google/android/gms/common/images/WebImage;->getHeight()I
 
     .line 30
     .line 31
@@ -676,14 +618,12 @@ return-void
     move-result v0
 
     .line 33
-    invoke-static {p1, p2, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
-    ->writeInt(Landroid/os/Parcel;II)V
+    invoke-static {p1, p2, v0}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->writeInt(Landroid/os/Parcel;II)V
 
     .line 34
     .line 35
     .line 36
-    invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;
-    ->finishObjectHeader(Landroid/os/Parcel;I)V
+    invoke-static {p1, v1}, Lcom/google/android/gms/common/internal/safeparcel/SafeParcelWriter;->finishObjectHeader(Landroid/os/Parcel;I)V
 
     .line 37
     .line 38

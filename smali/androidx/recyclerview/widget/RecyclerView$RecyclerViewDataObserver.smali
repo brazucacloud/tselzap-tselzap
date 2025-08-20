@@ -23,13 +23,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;
-    ->this$0:Landroidx/recyclerview/widget/RecyclerView;
+    iput-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;->this$0:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;-><init>()V
     return-void
 .end method
 
@@ -39,56 +37,47 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;
-    ->this$0:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;->this$0:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 2
     .line 3
     const/4 v1, 0x0
 
     .line 4
-    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;
-    ->assertNotInLayoutOrScroll(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->assertNotInLayoutOrScroll(Ljava/lang/String;)V
 
     .line 5
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;
-    ->this$0:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;->this$0:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 8
     .line 9
-    iget-object v1, v0, Landroidx/recyclerview/widget/RecyclerView;
-    ->mState:Landroidx/recyclerview/widget/RecyclerView$State;
+    iget-object v1, v0, Landroidx/recyclerview/widget/RecyclerView;->mState:Landroidx/recyclerview/widget/RecyclerView$State;
 
     .line 10
     .line 11
     const/4 v2, 0x1
 
     .line 12
-    iput-boolean v2, v1, Landroidx/recyclerview/widget/RecyclerView$State;
-    ->mStructureChanged:Z
+    iput-boolean v2, v1, Landroidx/recyclerview/widget/RecyclerView$State;->mStructureChanged:Z
 
     .line 13
     .line 14
-    invoke-virtual {v0, v2}, Landroidx/recyclerview/widget/RecyclerView;
-    ->processDataSetCompletelyChanged(Z)V
+    invoke-virtual {v0, v2}, Landroidx/recyclerview/widget/RecyclerView;->processDataSetCompletelyChanged(Z)V
 
     .line 15
     .line 16
     .line 17
-    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;
-    ->this$0:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;->this$0:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 18
     .line 19
-    iget-object v0, v0, Landroidx/recyclerview/widget/RecyclerView;
-    ->mAdapterHelper:Landroidx/recyclerview/widget/AdapterHelper;
+    iget-object v0, v0, Landroidx/recyclerview/widget/RecyclerView;->mAdapterHelper:Landroidx/recyclerview/widget/AdapterHelper;
 
     .line 20
     .line 21
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/AdapterHelper;
-    ->hasPendingUpdates()Z
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/AdapterHelper;->hasPendingUpdates()Z
 
     .line 22
     .line 23
@@ -100,13 +89,11 @@
 
     .line 26
     .line 27
-    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;
-    ->this$0:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;->this$0:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 28
     .line 29
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;
-    ->requestLayout()V
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V
 
     .line 30
     .line 31
@@ -119,32 +106,27 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;
-    ->this$0:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;->this$0:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 2
     .line 3
     const/4 v1, 0x0
 
     .line 4
-    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;
-    ->assertNotInLayoutOrScroll(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->assertNotInLayoutOrScroll(Ljava/lang/String;)V
 
     .line 5
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;
-    ->this$0:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;->this$0:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 8
     .line 9
-    iget-object v0, v0, Landroidx/recyclerview/widget/RecyclerView;
-    ->mAdapterHelper:Landroidx/recyclerview/widget/AdapterHelper;
+    iget-object v0, v0, Landroidx/recyclerview/widget/RecyclerView;->mAdapterHelper:Landroidx/recyclerview/widget/AdapterHelper;
 
     .line 10
     .line 11
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/recyclerview/widget/AdapterHelper;
-    ->onItemRangeChanged(IILjava/lang/Object;)Z
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/recyclerview/widget/AdapterHelper;->onItemRangeChanged(IILjava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -156,8 +138,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;
-    ->triggerUpdateProcessor()V
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;->triggerUpdateProcessor()V
 
     .line 18
     .line 19
@@ -170,32 +151,27 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;
-    ->this$0:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;->this$0:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 2
     .line 3
     const/4 v1, 0x0
 
     .line 4
-    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;
-    ->assertNotInLayoutOrScroll(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->assertNotInLayoutOrScroll(Ljava/lang/String;)V
 
     .line 5
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;
-    ->this$0:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;->this$0:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 8
     .line 9
-    iget-object v0, v0, Landroidx/recyclerview/widget/RecyclerView;
-    ->mAdapterHelper:Landroidx/recyclerview/widget/AdapterHelper;
+    iget-object v0, v0, Landroidx/recyclerview/widget/RecyclerView;->mAdapterHelper:Landroidx/recyclerview/widget/AdapterHelper;
 
     .line 10
     .line 11
-    invoke-virtual {v0, p1, p2}, Landroidx/recyclerview/widget/AdapterHelper;
-    ->onItemRangeInserted(II)Z
+    invoke-virtual {v0, p1, p2}, Landroidx/recyclerview/widget/AdapterHelper;->onItemRangeInserted(II)Z
 
     .line 12
     .line 13
@@ -207,8 +183,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;
-    ->triggerUpdateProcessor()V
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;->triggerUpdateProcessor()V
 
     .line 18
     .line 19
@@ -221,32 +196,27 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;
-    ->this$0:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;->this$0:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 2
     .line 3
     const/4 v1, 0x0
 
     .line 4
-    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;
-    ->assertNotInLayoutOrScroll(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->assertNotInLayoutOrScroll(Ljava/lang/String;)V
 
     .line 5
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;
-    ->this$0:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;->this$0:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 8
     .line 9
-    iget-object v0, v0, Landroidx/recyclerview/widget/RecyclerView;
-    ->mAdapterHelper:Landroidx/recyclerview/widget/AdapterHelper;
+    iget-object v0, v0, Landroidx/recyclerview/widget/RecyclerView;->mAdapterHelper:Landroidx/recyclerview/widget/AdapterHelper;
 
     .line 10
     .line 11
-    invoke-virtual {v0, p1, p2, p3}, Landroidx/recyclerview/widget/AdapterHelper;
-    ->onItemRangeMoved(III)Z
+    invoke-virtual {v0, p1, p2, p3}, Landroidx/recyclerview/widget/AdapterHelper;->onItemRangeMoved(III)Z
 
     .line 12
     .line 13
@@ -258,8 +228,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;
-    ->triggerUpdateProcessor()V
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;->triggerUpdateProcessor()V
 
     .line 18
     .line 19
@@ -272,32 +241,27 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;
-    ->this$0:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;->this$0:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 2
     .line 3
     const/4 v1, 0x0
 
     .line 4
-    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;
-    ->assertNotInLayoutOrScroll(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->assertNotInLayoutOrScroll(Ljava/lang/String;)V
 
     .line 5
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;
-    ->this$0:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;->this$0:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 8
     .line 9
-    iget-object v0, v0, Landroidx/recyclerview/widget/RecyclerView;
-    ->mAdapterHelper:Landroidx/recyclerview/widget/AdapterHelper;
+    iget-object v0, v0, Landroidx/recyclerview/widget/RecyclerView;->mAdapterHelper:Landroidx/recyclerview/widget/AdapterHelper;
 
     .line 10
     .line 11
-    invoke-virtual {v0, p1, p2}, Landroidx/recyclerview/widget/AdapterHelper;
-    ->onItemRangeRemoved(II)Z
+    invoke-virtual {v0, p1, p2}, Landroidx/recyclerview/widget/AdapterHelper;->onItemRangeRemoved(II)Z
 
     .line 12
     .line 13
@@ -309,8 +273,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;
-    ->triggerUpdateProcessor()V
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;->triggerUpdateProcessor()V
 
     .line 18
     .line 19
@@ -323,13 +286,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;
-    ->this$0:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;->this$0:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 2
     .line 3
-    iget-object v1, v0, Landroidx/recyclerview/widget/RecyclerView;
-    ->mPendingSavedState:Landroidx/recyclerview/widget/RecyclerView$SavedState;
+    iget-object v1, v0, Landroidx/recyclerview/widget/RecyclerView;->mPendingSavedState:Landroidx/recyclerview/widget/RecyclerView$SavedState;
 
     .line 4
     .line 5
@@ -341,8 +302,7 @@
 
     .line 8
     :cond_0
-    iget-object v0, v0, Landroidx/recyclerview/widget/RecyclerView;
-    ->mAdapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
+    iget-object v0, v0, Landroidx/recyclerview/widget/RecyclerView;->mAdapter:Landroidx/recyclerview/widget/RecyclerView$Adapter;
 
     .line 9
     .line 10
@@ -350,8 +310,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;
-    ->canRestoreState()Z
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->canRestoreState()Z
 
     .line 13
     .line 14
@@ -363,13 +322,11 @@
 
     .line 17
     .line 18
-    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;
-    ->this$0:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;->this$0:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 19
     .line 20
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;
-    ->requestLayout()V
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V
 
     .line 21
     .line 22
@@ -383,13 +340,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;
-    ->this$0:Landroidx/recyclerview/widget/RecyclerView;
+    iget-object v0, p0, Landroidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver;->this$0:Landroidx/recyclerview/widget/RecyclerView;
 
     .line 2
     .line 3
-    iget-boolean v1, v0, Landroidx/recyclerview/widget/RecyclerView;
-    ->mHasFixedSize:Z
+    iget-boolean v1, v0, Landroidx/recyclerview/widget/RecyclerView;->mHasFixedSize:Z
 
     .line 4
     .line 5
@@ -397,8 +352,7 @@
 
     .line 6
     .line 7
-    iget-boolean v1, v0, Landroidx/recyclerview/widget/RecyclerView;
-    ->mIsAttached:Z
+    iget-boolean v1, v0, Landroidx/recyclerview/widget/RecyclerView;->mIsAttached:Z
 
     .line 8
     .line 9
@@ -406,13 +360,11 @@
 
     .line 10
     .line 11
-    iget-object v1, v0, Landroidx/recyclerview/widget/RecyclerView;
-    ->mUpdateChildViewsRunnable:Ljava/lang/Runnable;
+    iget-object v1, v0, Landroidx/recyclerview/widget/RecyclerView;->mUpdateChildViewsRunnable:Ljava/lang/Runnable;
 
     .line 12
     .line 13
-    invoke-static {v0, v1}, Landroidx/core/view/ViewCompat;
-    ->postOnAnimation(Landroid/view/View;Ljava/lang/Runnable;)V    
+    invoke-static {v0, v1}, Landroidx/core/view/ViewCompat;->postOnAnimation(Landroid/view/View;Ljava/lang/Runnable;)V
     return-void
 
     .line 17
@@ -420,13 +372,11 @@
     const/4 v1, 0x1
 
     .line 18
-    iput-boolean v1, v0, Landroidx/recyclerview/widget/RecyclerView;
-    ->mAdapterUpdateDuringMeasure:Z
+    iput-boolean v1, v0, Landroidx/recyclerview/widget/RecyclerView;->mAdapterUpdateDuringMeasure:Z
 
     .line 19
     .line 20
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;
-    ->requestLayout()V
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V
     return-void
 .end method
 

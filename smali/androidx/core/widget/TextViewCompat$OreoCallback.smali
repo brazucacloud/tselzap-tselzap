@@ -51,27 +51,23 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->mCallback:Landroid/view/ActionMode$Callback;
+    iput-object p1, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;->mCallback:Landroid/view/ActionMode$Callback;
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->mTextView:Landroid/widget/TextView;
+    iput-object p2, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;->mTextView:Landroid/widget/TextView;
 
     .line 7
     .line 8
     const/4 p1, 0x0
 
     .line 9
-    iput-boolean p1, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->mInitializedMenuBuilderReferences:Z
+    iput-boolean p1, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;->mInitializedMenuBuilderReferences:Z
 
     .line 10
     .line 11
@@ -86,8 +82,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/content/Intent;
-    -><init>()V
+    invoke-direct {v0}, Landroid/content/Intent;-><init>()V
 
     .line 4
     .line 5
@@ -96,8 +91,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0, v1}, Landroid/content/Intent;
-    ->setAction(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v0, v1}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 9
     .line 10
@@ -109,8 +103,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {v0, v1}, Landroid/content/Intent;
-    ->setType(Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v0, v1}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 15
     .line 16
@@ -124,8 +117,7 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->createProcessTextIntent()Landroid/content/Intent;
+    invoke-direct {p0}, Landroidx/core/widget/TextViewCompat$OreoCallback;->createProcessTextIntent()Landroid/content/Intent;
 
     .line 2
     .line 3
@@ -133,8 +125,7 @@
     move-result-object v0
 
     .line 5
-    invoke-direct {p0, p2}, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->isEditable(Landroid/widget/TextView;)Z
+    invoke-direct {p0, p2}, Landroidx/core/widget/TextViewCompat$OreoCallback;->isEditable(Landroid/widget/TextView;)Z
 
     .line 6
     .line 7
@@ -150,8 +141,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {v0, v1, p2}, Landroid/content/Intent;
-    ->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
+    invoke-virtual {v0, v1, p2}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Z)Landroid/content/Intent;
 
     .line 14
     .line 15
@@ -159,23 +149,19 @@
     move-result-object p2
 
     .line 17
-    iget-object p1, p1, Landroid/content/pm/ResolveInfo;
-    ->activityInfo:Landroid/content/pm/ActivityInfo;
+    iget-object p1, p1, Landroid/content/pm/ResolveInfo;->activityInfo:Landroid/content/pm/ActivityInfo;
 
     .line 18
     .line 19
-    iget-object v0, p1, Landroid/content/pm/ActivityInfo;
-    ->packageName:Ljava/lang/String;
+    iget-object v0, p1, Landroid/content/pm/ActivityInfo;->packageName:Ljava/lang/String;
 
     .line 20
     .line 21
-    iget-object p1, p1, Landroid/content/pm/ActivityInfo;
-    ->name:Ljava/lang/String;
+    iget-object p1, p1, Landroid/content/pm/ActivityInfo;->name:Ljava/lang/String;
 
     .line 22
     .line 23
-    invoke-virtual {p2, v0, p1}, Landroid/content/Intent;
-    ->setClassName(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {p2, v0, p1}, Landroid/content/Intent;->setClassName(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
     .line 24
     .line 25
@@ -204,8 +190,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 4
     .line 5
@@ -222,8 +207,7 @@
 
     .line 11
     :cond_0
-    invoke-direct {p0}, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->createProcessTextIntent()Landroid/content/Intent;
+    invoke-direct {p0}, Landroidx/core/widget/TextViewCompat$OreoCallback;->createProcessTextIntent()Landroid/content/Intent;
 
     .line 12
     .line 13
@@ -234,8 +218,7 @@
     const/4 v2, 0x0
 
     .line 16
-    invoke-virtual {p2, v1, v2}, Landroid/content/pm/PackageManager;
-    ->queryIntentActivities(Landroid/content/Intent;I)Ljava/util/List;
+    invoke-virtual {p2, v1, v2}, Landroid/content/pm/PackageManager;->queryIntentActivities(Landroid/content/Intent;I)Ljava/util/List;
 
     .line 17
     .line 18
@@ -243,8 +226,7 @@
     move-result-object p2
 
     .line 20
-    invoke-interface {p2}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 21
     .line 22
@@ -254,8 +236,7 @@
     .line 24
     :cond_1
     :goto_0
-    invoke-interface {p2}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
 
     .line 25
     .line 26
@@ -267,8 +248,7 @@
 
     .line 29
     .line 30
-    invoke-interface {p2}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 31
     .line 32
@@ -280,8 +260,7 @@
 
     .line 35
     .line 36
-    invoke-direct {p0, v1, p1}, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->isSupportedActivity(Landroid/content/pm/ResolveInfo;Landroid/content/Context;)Z
+    invoke-direct {p0, v1, p1}, Landroidx/core/widget/TextViewCompat$OreoCallback;->isSupportedActivity(Landroid/content/pm/ResolveInfo;Landroid/content/Context;)Z
 
     .line 37
     .line 38
@@ -293,8 +272,7 @@
 
     .line 41
     .line 42
-    invoke-virtual {v0, v1}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 43
     .line 44
@@ -319,8 +297,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Landroid/widget/TextView;
-    ->onCheckIsTextEditor()Z
+    invoke-virtual {p1}, Landroid/widget/TextView;->onCheckIsTextEditor()Z
 
     .line 6
     .line 7
@@ -332,8 +309,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Landroid/view/View;
-    ->isEnabled()Z
+    invoke-virtual {p1}, Landroid/view/View;->isEnabled()Z
 
     .line 12
     .line 13
@@ -360,8 +336,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p2}, Landroid/content/Context;
-    ->getPackageName()Ljava/lang/String;
+    invoke-virtual {p2}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -369,18 +344,15 @@
     move-result-object v0
 
     .line 5
-    iget-object v1, p1, Landroid/content/pm/ResolveInfo;
-    ->activityInfo:Landroid/content/pm/ActivityInfo;
+    iget-object v1, p1, Landroid/content/pm/ResolveInfo;->activityInfo:Landroid/content/pm/ActivityInfo;
 
     .line 6
     .line 7
-    iget-object v1, v1, Landroid/content/pm/ActivityInfo;
-    ->packageName:Ljava/lang/String;
+    iget-object v1, v1, Landroid/content/pm/ActivityInfo;->packageName:Ljava/lang/String;
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 10
     .line 11
@@ -396,13 +368,11 @@
 
     .line 16
     :cond_0
-    iget-object p1, p1, Landroid/content/pm/ResolveInfo;
-    ->activityInfo:Landroid/content/pm/ActivityInfo;
+    iget-object p1, p1, Landroid/content/pm/ResolveInfo;->activityInfo:Landroid/content/pm/ActivityInfo;
 
     .line 17
     .line 18
-    iget-boolean v0, p1, Landroid/content/pm/ActivityInfo;
-    ->exported:Z
+    iget-boolean v0, p1, Landroid/content/pm/ActivityInfo;->exported:Z
 
     .line 19
     .line 20
@@ -414,8 +384,7 @@
 
     .line 23
     :cond_1
-    iget-object p1, p1, Landroid/content/pm/ActivityInfo;
-    ->permission:Ljava/lang/String;
+    iget-object p1, p1, Landroid/content/pm/ActivityInfo;->permission:Ljava/lang/String;
 
     .line 24
     .line 25
@@ -423,8 +392,7 @@
 
     .line 26
     .line 27
-    invoke-static {p2, p1}, Landroidx/core/text/a;
-    ->a(Landroid/content/Context;Ljava/lang/String;)I
+    invoke-static {p2, p1}, Landroidx/core/text/a;->a(Landroid/content/Context;Ljava/lang/String;)I
 
     .line 28
     .line 29
@@ -457,13 +425,11 @@
     .locals 8
 
     .line 1
-    iget-object v0, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->mTextView:Landroid/widget/TextView;
+    iget-object v0, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;->mTextView:Landroid/widget/TextView;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {v0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 4
     .line 5
@@ -471,8 +437,7 @@
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0}, Landroid/content/Context;
-    ->getPackageManager()Landroid/content/pm/PackageManager;
+    invoke-virtual {v0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     .line 8
     .line 9
@@ -480,13 +445,11 @@
     move-result-object v1
 
     .line 11
-    iget-boolean v2, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->mInitializedMenuBuilderReferences:Z
+    iget-boolean v2, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;->mInitializedMenuBuilderReferences:Z
 
     .line 12
     .line 13
-    sget-object v3, Ljava/lang/Integer;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v3, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
 
     .line 14
     .line 15
@@ -504,8 +467,7 @@
 
     .line 20
     .line 21
-    iput-boolean v6, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->mInitializedMenuBuilderReferences:Z
+    iput-boolean v6, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;->mInitializedMenuBuilderReferences:Z
 
     .line 22
     .line 23
@@ -514,8 +476,7 @@
 
     .line 24
     .line 25
-    invoke-static {v2}, Ljava/lang/Class;
-    ->forName(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v2}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 26
     .line 27
@@ -523,8 +484,7 @@
     move-result-object v2
 
     .line 29
-    iput-object v2, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->mMenuBuilderClass:Ljava/lang/Class;
+    iput-object v2, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;->mMenuBuilderClass:Ljava/lang/Class;
 
     .line 30
     .line 31
@@ -536,8 +496,7 @@
 
     .line 34
     .line 35
-    invoke-virtual {v2, v4, v7}, Ljava/lang/Class;
-    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v2, v4, v7}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 36
     .line 37
@@ -545,13 +504,11 @@
     move-result-object v2
 
     .line 39
-    iput-object v2, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->mMenuBuilderRemoveItemAtMethod:Ljava/lang/reflect/Method;
+    iput-object v2, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;->mMenuBuilderRemoveItemAtMethod:Ljava/lang/reflect/Method;
 
     .line 40
     .line 41
-    iput-boolean v6, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->mCanUseMenuBuilderReferences:Z
+    iput-boolean v6, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;->mCanUseMenuBuilderReferences:Z
     :try_end_0
     .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
     .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_0
@@ -565,26 +522,22 @@
     const/4 v2, 0x0
 
     .line 45
-    iput-object v2, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->mMenuBuilderClass:Ljava/lang/Class;
+    iput-object v2, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;->mMenuBuilderClass:Ljava/lang/Class;
 
     .line 46
     .line 47
-    iput-object v2, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->mMenuBuilderRemoveItemAtMethod:Ljava/lang/reflect/Method;
+    iput-object v2, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;->mMenuBuilderRemoveItemAtMethod:Ljava/lang/reflect/Method;
 
     .line 48
     .line 49
-    iput-boolean v5, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->mCanUseMenuBuilderReferences:Z
+    iput-boolean v5, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;->mCanUseMenuBuilderReferences:Z
 
     .line 50
     .line 51
     :cond_0
     :goto_0
     :try_start_1
-    iget-boolean v2, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->mCanUseMenuBuilderReferences:Z
+    iget-boolean v2, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;->mCanUseMenuBuilderReferences:Z
 
     .line 52
     .line 53
@@ -592,13 +545,11 @@
 
     .line 54
     .line 55
-    iget-object v2, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->mMenuBuilderClass:Ljava/lang/Class;
+    iget-object v2, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;->mMenuBuilderClass:Ljava/lang/Class;
 
     .line 56
     .line 57
-    invoke-virtual {v2, p1}, Ljava/lang/Class;
-    ->isInstance(Ljava/lang/Object;)Z
+    invoke-virtual {v2, p1}, Ljava/lang/Class;->isInstance(Ljava/lang/Object;)Z
 
     .line 58
     .line 59
@@ -610,8 +561,7 @@
 
     .line 62
     .line 63
-    iget-object v2, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->mMenuBuilderRemoveItemAtMethod:Ljava/lang/reflect/Method;
+    iget-object v2, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;->mMenuBuilderRemoveItemAtMethod:Ljava/lang/reflect/Method;
 
     .line 64
     .line 65
@@ -619,8 +569,7 @@
 
     .line 66
     :cond_1
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 67
     .line 68
@@ -636,8 +585,7 @@
 
     .line 73
     .line 74
-    invoke-virtual {v2, v4, v7}, Ljava/lang/Class;
-    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v2, v4, v7}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 75
     .line 76
@@ -646,8 +594,7 @@
 
     .line 78
     :goto_1
-    invoke-interface {p1}, Landroid/view/Menu;
-    ->size()I
+    invoke-interface {p1}, Landroid/view/Menu;->size()I
 
     .line 79
     .line 80
@@ -663,8 +610,7 @@
 
     .line 84
     .line 85
-    invoke-interface {p1, v3}, Landroid/view/Menu;
-    ->getItem(I)Landroid/view/MenuItem;
+    invoke-interface {p1, v3}, Landroid/view/Menu;->getItem(I)Landroid/view/MenuItem;
 
     .line 86
     .line 87
@@ -672,8 +618,7 @@
     move-result-object v4
 
     .line 89
-    invoke-interface {v4}, Landroid/view/MenuItem;
-    ->getIntent()Landroid/content/Intent;
+    invoke-interface {v4}, Landroid/view/MenuItem;->getIntent()Landroid/content/Intent;
 
     .line 90
     .line 91
@@ -689,8 +634,7 @@
 
     .line 96
     .line 97
-    invoke-interface {v4}, Landroid/view/MenuItem;
-    ->getIntent()Landroid/content/Intent;
+    invoke-interface {v4}, Landroid/view/MenuItem;->getIntent()Landroid/content/Intent;
 
     .line 98
     .line 99
@@ -698,8 +642,7 @@
     move-result-object v4
 
     .line 101
-    invoke-virtual {v4}, Landroid/content/Intent;
-    ->getAction()Ljava/lang/String;
+    invoke-virtual {v4}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
     .line 102
     .line 103
@@ -707,8 +650,7 @@
     move-result-object v4
 
     .line 105
-    invoke-virtual {v7, v4}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v7, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 106
     .line 107
@@ -720,8 +662,7 @@
 
     .line 110
     .line 111
-    invoke-static {v3}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v3}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 112
     .line 113
@@ -737,8 +678,7 @@
 
     .line 118
     .line 119
-    invoke-virtual {v2, p1, v7}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v2, p1, v7}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_1
     .catch Ljava/lang/NoSuchMethodException; {:try_start_1 .. :try_end_1} :catch_1
     .catch Ljava/lang/IllegalAccessException; {:try_start_1 .. :try_end_1} :catch_1
@@ -756,8 +696,7 @@
 
     .line 125
     :cond_3
-    invoke-direct {p0, v0, v1}, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->getSupportedActivities(Landroid/content/Context;Landroid/content/pm/PackageManager;)Ljava/util/List;
+    invoke-direct {p0, v0, v1}, Landroidx/core/widget/TextViewCompat$OreoCallback;->getSupportedActivities(Landroid/content/Context;Landroid/content/pm/PackageManager;)Ljava/util/List;
 
     .line 126
     .line 127
@@ -769,8 +708,7 @@
 
     .line 130
     :goto_3
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     .line 131
     .line 132
@@ -782,8 +720,7 @@
 
     .line 135
     .line 136
-    invoke-interface {v0, v2}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 137
     .line 138
@@ -799,8 +736,7 @@
 
     .line 143
     .line 144
-    invoke-virtual {v3, v1}, Landroid/content/pm/ResolveInfo;
-    ->loadLabel(Landroid/content/pm/PackageManager;)Ljava/lang/CharSequence;
+    invoke-virtual {v3, v1}, Landroid/content/pm/ResolveInfo;->loadLabel(Landroid/content/pm/PackageManager;)Ljava/lang/CharSequence;
 
     .line 145
     .line 146
@@ -808,8 +744,7 @@
     move-result-object v7
 
     .line 148
-    invoke-interface {p1, v5, v5, v4, v7}, Landroid/view/Menu;
-    ->add(IIILjava/lang/CharSequence;)Landroid/view/MenuItem;
+    invoke-interface {p1, v5, v5, v4, v7}, Landroid/view/Menu;->add(IIILjava/lang/CharSequence;)Landroid/view/MenuItem;
 
     .line 149
     .line 150
@@ -817,13 +752,11 @@
     move-result-object v4
 
     .line 152
-    iget-object v7, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->mTextView:Landroid/widget/TextView;
+    iget-object v7, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;->mTextView:Landroid/widget/TextView;
 
     .line 153
     .line 154
-    invoke-direct {p0, v3, v7}, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->createProcessTextIntentForResolveInfo(Landroid/content/pm/ResolveInfo;Landroid/widget/TextView;)Landroid/content/Intent;
+    invoke-direct {p0, v3, v7}, Landroidx/core/widget/TextViewCompat$OreoCallback;->createProcessTextIntentForResolveInfo(Landroid/content/pm/ResolveInfo;Landroid/widget/TextView;)Landroid/content/Intent;
 
     .line 155
     .line 156
@@ -831,8 +764,7 @@
     move-result-object v3
 
     .line 158
-    invoke-interface {v4, v3}, Landroid/view/MenuItem;
-    ->setIntent(Landroid/content/Intent;)Landroid/view/MenuItem;
+    invoke-interface {v4, v3}, Landroid/view/MenuItem;->setIntent(Landroid/content/Intent;)Landroid/view/MenuItem;
 
     .line 159
     .line 160
@@ -840,8 +772,7 @@
     move-result-object v3
 
     .line 162
-    invoke-interface {v3, v6}, Landroid/view/MenuItem;
-    ->setShowAsAction(I)V
+    invoke-interface {v3, v6}, Landroid/view/MenuItem;->setShowAsAction(I)V
 
     .line 163
     .line 164
@@ -865,8 +796,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->mCallback:Landroid/view/ActionMode$Callback;
+    iget-object v0, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;->mCallback:Landroid/view/ActionMode$Callback;
 
     .line 2
     .line 3
@@ -877,13 +807,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->mCallback:Landroid/view/ActionMode$Callback;
+    iget-object v0, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;->mCallback:Landroid/view/ActionMode$Callback;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1, p2}, Landroid/view/ActionMode$Callback;
-    ->onActionItemClicked(Landroid/view/ActionMode;Landroid/view/MenuItem;)Z
+    invoke-interface {v0, p1, p2}, Landroid/view/ActionMode$Callback;->onActionItemClicked(Landroid/view/ActionMode;Landroid/view/MenuItem;)Z
 
     .line 4
     .line 5
@@ -897,13 +825,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->mCallback:Landroid/view/ActionMode$Callback;
+    iget-object v0, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;->mCallback:Landroid/view/ActionMode$Callback;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1, p2}, Landroid/view/ActionMode$Callback;
-    ->onCreateActionMode(Landroid/view/ActionMode;Landroid/view/Menu;)Z
+    invoke-interface {v0, p1, p2}, Landroid/view/ActionMode$Callback;->onCreateActionMode(Landroid/view/ActionMode;Landroid/view/Menu;)Z
 
     .line 4
     .line 5
@@ -917,13 +843,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->mCallback:Landroid/view/ActionMode$Callback;
+    iget-object v0, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;->mCallback:Landroid/view/ActionMode$Callback;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Landroid/view/ActionMode$Callback;
-    ->onDestroyActionMode(Landroid/view/ActionMode;)V
+    invoke-interface {v0, p1}, Landroid/view/ActionMode$Callback;->onDestroyActionMode(Landroid/view/ActionMode;)V
 
     .line 4
     .line 5
@@ -935,19 +859,16 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0, p2}, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->recomputeProcessTextMenuItems(Landroid/view/Menu;)V
+    invoke-direct {p0, p2}, Landroidx/core/widget/TextViewCompat$OreoCallback;->recomputeProcessTextMenuItems(Landroid/view/Menu;)V
 
     .line 2
     .line 3
     .line 4
-    iget-object v0, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;
-    ->mCallback:Landroid/view/ActionMode$Callback;
+    iget-object v0, p0, Landroidx/core/widget/TextViewCompat$OreoCallback;->mCallback:Landroid/view/ActionMode$Callback;
 
     .line 5
     .line 6
-    invoke-interface {v0, p1, p2}, Landroid/view/ActionMode$Callback;
-    ->onPrepareActionMode(Landroid/view/ActionMode;Landroid/view/Menu;)Z
+    invoke-interface {v0, p1, p2}, Landroid/view/ActionMode$Callback;->onPrepareActionMode(Landroid/view/ActionMode;Landroid/view/Menu;)Z
 
     .line 7
     .line 8

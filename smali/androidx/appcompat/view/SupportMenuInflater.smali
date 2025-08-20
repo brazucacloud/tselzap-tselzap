@@ -6,8 +6,7 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP_PREFIX:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -84,27 +83,23 @@
 
     .line 8
     .line 9
-    sput-object v0, Landroidx/appcompat/view/SupportMenuInflater;
-    ->ACTION_VIEW_CONSTRUCTOR_SIGNATURE:[Ljava/lang/Class;
+    sput-object v0, Landroidx/appcompat/view/SupportMenuInflater;->ACTION_VIEW_CONSTRUCTOR_SIGNATURE:[Ljava/lang/Class;
 
     .line 10
     .line 11
-    sput-object v0, Landroidx/appcompat/view/SupportMenuInflater;
-    ->ACTION_PROVIDER_CONSTRUCTOR_SIGNATURE:[Ljava/lang/Class;    return-void
+    sput-object v0, Landroidx/appcompat/view/SupportMenuInflater;->ACTION_PROVIDER_CONSTRUCTOR_SIGNATURE:[Ljava/lang/Class;    return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 2
 
     .line 1
-    invoke-direct {p0, p1}, Landroid/view/MenuInflater;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {p0, p1}, Landroid/view/MenuInflater;-><init>(Landroid/content/Context;)V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/appcompat/view/SupportMenuInflater;
-    ->mContext:Landroid/content/Context;
+    iput-object p1, p0, Landroidx/appcompat/view/SupportMenuInflater;->mContext:Landroid/content/Context;
 
     .line 5
     .line 6
@@ -122,13 +117,11 @@
 
     .line 11
     .line 12
-    iput-object v0, p0, Landroidx/appcompat/view/SupportMenuInflater;
-    ->mActionViewConstructorArguments:[Ljava/lang/Object;
+    iput-object v0, p0, Landroidx/appcompat/view/SupportMenuInflater;->mActionViewConstructorArguments:[Ljava/lang/Object;
 
     .line 13
     .line 14
-    iput-object v0, p0, Landroidx/appcompat/view/SupportMenuInflater;
-    ->mActionProviderConstructorArguments:[Ljava/lang/Object;    
+    iput-object v0, p0, Landroidx/appcompat/view/SupportMenuInflater;->mActionProviderConstructorArguments:[Ljava/lang/Object;
     return-void
 .end method
 
@@ -156,8 +149,7 @@
 
     .line 11
     .line 12
-    invoke-virtual {p1}, Landroid/content/ContextWrapper;
-    ->getBaseContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/content/ContextWrapper;->getBaseContext()Landroid/content/Context;
 
     .line 13
     .line 14
@@ -165,8 +157,7 @@
     move-result-object p1
 
     .line 16
-    invoke-direct {p0, p1}, Landroidx/appcompat/view/SupportMenuInflater;
-    ->findRealOwner(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-direct {p0, p1}, Landroidx/appcompat/view/SupportMenuInflater;->findRealOwner(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -186,14 +177,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p3}, Landroidx/appcompat/view/SupportMenuInflater$MenuState;
-    -><init>(Landroidx/appcompat/view/SupportMenuInflater;Landroid/view/Menu;)V
+    invoke-direct {v0, p0, p3}, Landroidx/appcompat/view/SupportMenuInflater$MenuState;-><init>(Landroidx/appcompat/view/SupportMenuInflater;Landroid/view/Menu;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getEventType()I
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->getEventType()I
 
     .line 7
     .line 8
@@ -216,8 +205,7 @@
 
     .line 15
     .line 16
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getName()Ljava/lang/String;
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->getName()Ljava/lang/String;
 
     .line 17
     .line 18
@@ -225,8 +213,7 @@
     move-result-object p3
 
     .line 20
-    invoke-virtual {p3, v2}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p3, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 21
     .line 22
@@ -238,8 +225,7 @@
 
     .line 25
     .line 26
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->next()I
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->next()I
 
     .line 27
     .line 28
@@ -259,8 +245,7 @@
 
     .line 34
     .line 35
-    invoke-virtual {p2, p3}, Ljava/lang/String;
-    ->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {p2, p3}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 36
     .line 37
@@ -268,8 +253,7 @@
     move-result-object p2
 
     .line 39
-    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
     .line 40
     .line 41
@@ -278,8 +262,7 @@
 
     .line 43
     :cond_2
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->next()I
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->next()I
 
     .line 44
     .line 45
@@ -340,8 +323,7 @@
     .line 68
     .line 69
     :cond_3
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getName()Ljava/lang/String;
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->getName()Ljava/lang/String;
 
     .line 70
     .line 71
@@ -353,8 +335,7 @@
 
     .line 74
     .line 75
-    invoke-virtual {p3, v8}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p3, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 76
     .line 77
@@ -376,8 +357,7 @@
 
     .line 84
     :cond_4
-    invoke-virtual {p3, v10}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p3, v10}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 85
     .line 86
@@ -389,8 +369,7 @@
 
     .line 89
     .line 90
-    invoke-virtual {v0}, Landroidx/appcompat/view/SupportMenuInflater$MenuState;
-    ->resetGroup()V
+    invoke-virtual {v0}, Landroidx/appcompat/view/SupportMenuInflater$MenuState;->resetGroup()V
 
     .line 91
     .line 92
@@ -399,8 +378,7 @@
 
     .line 94
     :cond_5
-    invoke-virtual {p3, v9}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p3, v9}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 95
     .line 96
@@ -412,8 +390,7 @@
 
     .line 99
     .line 100
-    invoke-virtual {v0}, Landroidx/appcompat/view/SupportMenuInflater$MenuState;
-    ->hasAddedItem()Z
+    invoke-virtual {v0}, Landroidx/appcompat/view/SupportMenuInflater$MenuState;->hasAddedItem()Z
 
     .line 101
     .line 102
@@ -425,8 +402,7 @@
 
     .line 105
     .line 106
-    iget-object p3, v0, Landroidx/appcompat/view/SupportMenuInflater$MenuState;
-    ->itemActionProvider:Landroidx/core/view/ActionProvider;
+    iget-object p3, v0, Landroidx/appcompat/view/SupportMenuInflater$MenuState;->itemActionProvider:Landroidx/core/view/ActionProvider;
 
     .line 107
     .line 108
@@ -434,8 +410,7 @@
 
     .line 109
     .line 110
-    invoke-virtual {p3}, Landroidx/core/view/ActionProvider;
-    ->hasSubMenu()Z
+    invoke-virtual {p3}, Landroidx/core/view/ActionProvider;->hasSubMenu()Z
 
     .line 111
     .line 112
@@ -447,8 +422,7 @@
 
     .line 115
     .line 116
-    invoke-virtual {v0}, Landroidx/appcompat/view/SupportMenuInflater$MenuState;
-    ->addSubMenuItem()Landroid/view/SubMenu;
+    invoke-virtual {v0}, Landroidx/appcompat/view/SupportMenuInflater$MenuState;->addSubMenuItem()Landroid/view/SubMenu;
 
     .line 117
     .line 118
@@ -457,8 +431,7 @@
 
     .line 120
     :cond_6
-    invoke-virtual {v0}, Landroidx/appcompat/view/SupportMenuInflater$MenuState;
-    ->addItem()V
+    invoke-virtual {v0}, Landroidx/appcompat/view/SupportMenuInflater$MenuState;->addItem()V
 
     .line 121
     .line 122
@@ -467,8 +440,7 @@
 
     .line 124
     :cond_7
-    invoke-virtual {p3, v2}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p3, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 125
     .line 126
@@ -495,8 +467,7 @@
 
     .line 135
     :cond_9
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getName()Ljava/lang/String;
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->getName()Ljava/lang/String;
 
     .line 136
     .line 137
@@ -504,8 +475,7 @@
     move-result-object p3
 
     .line 139
-    invoke-virtual {p3, v10}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p3, v10}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 140
     .line 141
@@ -517,8 +487,7 @@
 
     .line 144
     .line 145
-    invoke-virtual {v0, p2}, Landroidx/appcompat/view/SupportMenuInflater$MenuState;
-    ->readGroup(Landroid/util/AttributeSet;)V
+    invoke-virtual {v0, p2}, Landroidx/appcompat/view/SupportMenuInflater$MenuState;->readGroup(Landroid/util/AttributeSet;)V
 
     .line 146
     .line 147
@@ -527,8 +496,7 @@
 
     .line 149
     :cond_a
-    invoke-virtual {p3, v9}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p3, v9}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 150
     .line 151
@@ -540,8 +508,7 @@
 
     .line 154
     .line 155
-    invoke-virtual {v0, p2}, Landroidx/appcompat/view/SupportMenuInflater$MenuState;
-    ->readItem(Landroid/util/AttributeSet;)V
+    invoke-virtual {v0, p2}, Landroidx/appcompat/view/SupportMenuInflater$MenuState;->readItem(Landroid/util/AttributeSet;)V
 
     .line 156
     .line 157
@@ -550,8 +517,7 @@
 
     .line 159
     :cond_b
-    invoke-virtual {p3, v2}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p3, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 160
     .line 161
@@ -563,8 +529,7 @@
 
     .line 164
     .line 165
-    invoke-virtual {v0}, Landroidx/appcompat/view/SupportMenuInflater$MenuState;
-    ->addSubMenuItem()Landroid/view/SubMenu;
+    invoke-virtual {v0}, Landroidx/appcompat/view/SupportMenuInflater$MenuState;->addSubMenuItem()Landroid/view/SubMenu;
 
     .line 166
     .line 167
@@ -572,8 +537,7 @@
     move-result-object p3
 
     .line 169
-    invoke-direct {p0, p1, p2, p3}, Landroidx/appcompat/view/SupportMenuInflater;
-    ->parseMenu(Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroid/view/Menu;)V
+    invoke-direct {p0, p1, p2, p3}, Landroidx/appcompat/view/SupportMenuInflater;->parseMenu(Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroid/view/Menu;)V
 
     .line 170
     .line 171
@@ -590,8 +554,7 @@
     .line 175
     :cond_d
     :goto_2
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->next()I
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->next()I
 
     .line 176
     .line 177
@@ -611,8 +574,7 @@
 
     .line 183
     .line 184
-    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
     .line 185
     .line 186
@@ -630,8 +592,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/view/SupportMenuInflater;
-    ->mRealOwner:Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/appcompat/view/SupportMenuInflater;->mRealOwner:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -639,13 +600,11 @@
 
     .line 4
     .line 5
-    iget-object v0, p0, Landroidx/appcompat/view/SupportMenuInflater;
-    ->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/appcompat/view/SupportMenuInflater;->mContext:Landroid/content/Context;
 
     .line 6
     .line 7
-    invoke-direct {p0, v0}, Landroidx/appcompat/view/SupportMenuInflater;
-    ->findRealOwner(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-direct {p0, v0}, Landroidx/appcompat/view/SupportMenuInflater;->findRealOwner(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -653,14 +612,12 @@
     move-result-object v0
 
     .line 11
-    iput-object v0, p0, Landroidx/appcompat/view/SupportMenuInflater;
-    ->mRealOwner:Ljava/lang/Object;
+    iput-object v0, p0, Landroidx/appcompat/view/SupportMenuInflater;->mRealOwner:Ljava/lang/Object;
 
     .line 12
     .line 13
     :cond_0
-    iget-object v0, p0, Landroidx/appcompat/view/SupportMenuInflater;
-    ->mRealOwner:Ljava/lang/Object;    return-object v0
+    iget-object v0, p0, Landroidx/appcompat/view/SupportMenuInflater;->mRealOwner:Ljava/lang/Object;    return-object v0
 .end method
 
 .method public inflate(ILandroid/view/Menu;)V
@@ -683,8 +640,7 @@
 
     .line 6
     .line 7
-    invoke-super {p0, p1, p2}, Landroid/view/MenuInflater;
-    ->inflate(ILandroid/view/Menu;)V
+    invoke-super {p0, p1, p2}, Landroid/view/MenuInflater;->inflate(ILandroid/view/Menu;)V
 return-void
 
     .line 11
@@ -696,13 +652,11 @@ return-void
 
     .line 13
     :try_start_0
-    iget-object v3, p0, Landroidx/appcompat/view/SupportMenuInflater;
-    ->mContext:Landroid/content/Context;
+    iget-object v3, p0, Landroidx/appcompat/view/SupportMenuInflater;->mContext:Landroid/content/Context;
 
     .line 14
     .line 15
-    invoke-virtual {v3}, Landroid/content/Context;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v3}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     .line 16
     .line 17
@@ -710,8 +664,7 @@ return-void
     move-result-object v3
 
     .line 19
-    invoke-virtual {v3, p1}, Landroid/content/res/Resources;
-    ->getLayout(I)Landroid/content/res/XmlResourceParser;
+    invoke-virtual {v3, p1}, Landroid/content/res/Resources;->getLayout(I)Landroid/content/res/XmlResourceParser;
 
     .line 20
     .line 21
@@ -719,8 +672,7 @@ return-void
     move-result-object v1
 
     .line 23
-    invoke-static {v1}, Landroid/util/Xml;
-    ->asAttributeSet(Lorg/xmlpull/v1/XmlPullParser;)Landroid/util/AttributeSet;
+    invoke-static {v1}, Landroid/util/Xml;->asAttributeSet(Lorg/xmlpull/v1/XmlPullParser;)Landroid/util/AttributeSet;
 
     .line 24
     .line 25
@@ -743,8 +695,7 @@ return-void
 
     .line 33
     .line 34
-    invoke-virtual {v3}, Landroidx/appcompat/view/menu/MenuBuilder;
-    ->isDispatchingItemsChanged()Z
+    invoke-virtual {v3}, Landroidx/appcompat/view/menu/MenuBuilder;->isDispatchingItemsChanged()Z
 
     .line 35
     .line 36
@@ -756,8 +707,7 @@ return-void
 
     .line 39
     .line 40
-    invoke-virtual {v3}, Landroidx/appcompat/view/menu/MenuBuilder;
-    ->stopDispatchingItemsChanged()V
+    invoke-virtual {v3}, Landroidx/appcompat/view/menu/MenuBuilder;->stopDispatchingItemsChanged()V
 
     .line 41
     .line 42
@@ -791,8 +741,7 @@ return-void
     .line 51
     :cond_1
     :goto_0
-    invoke-direct {p0, v1, p1, p2}, Landroidx/appcompat/view/SupportMenuInflater;
-    ->parseMenu(Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroid/view/Menu;)V
+    invoke-direct {p0, v1, p1, p2}, Landroidx/appcompat/view/SupportMenuInflater;->parseMenu(Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroid/view/Menu;)V
     :try_end_0
     .catch Lorg/xmlpull/v1/XmlPullParserException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
@@ -809,8 +758,7 @@ return-void
 
     .line 57
     .line 58
-    invoke-virtual {p2}, Landroidx/appcompat/view/menu/MenuBuilder;
-    ->startDispatchingItemsChanged()V
+    invoke-virtual {p2}, Landroidx/appcompat/view/menu/MenuBuilder;->startDispatchingItemsChanged()V
 
     .line 59
     .line 60
@@ -820,8 +768,7 @@ return-void
 
     .line 62
     .line 63
-    invoke-interface {v1}, Landroid/content/res/XmlResourceParser;
-    ->close()V
+    invoke-interface {v1}, Landroid/content/res/XmlResourceParser;->close()V
 
     .line 64
     .line 65
@@ -836,8 +783,7 @@ return-void
 
     .line 68
     .line 69
-    invoke-direct {v3, v0, p1}, Landroid/view/InflateException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v3, v0, p1}, Landroid/view/InflateException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 70
     .line 71
@@ -850,8 +796,7 @@ return-void
 
     .line 74
     .line 75
-    invoke-direct {v3, v0, p1}, Landroid/view/InflateException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v3, v0, p1}, Landroid/view/InflateException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 76
     .line 77
@@ -870,8 +815,7 @@ return-void
 
     .line 82
     .line 83
-    invoke-virtual {p2}, Landroidx/appcompat/view/menu/MenuBuilder;
-    ->startDispatchingItemsChanged()V
+    invoke-virtual {p2}, Landroidx/appcompat/view/menu/MenuBuilder;->startDispatchingItemsChanged()V
 
     .line 84
     .line 85
@@ -881,8 +825,7 @@ return-void
 
     .line 87
     .line 88
-    invoke-interface {v1}, Landroid/content/res/XmlResourceParser;
-    ->close()V
+    invoke-interface {v1}, Landroid/content/res/XmlResourceParser;->close()V
 
     .line 89
     .line 90

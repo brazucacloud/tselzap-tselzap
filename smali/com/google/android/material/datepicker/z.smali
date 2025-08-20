@@ -8,8 +8,7 @@
     .locals 1
 
     .line 1
-    iget p1, p1, Landroid/util/DisplayMetrics;
-    ->densityDpi:I
+    iget p1, p1, Landroid/util/DisplayMetrics;->densityDpi:I
 
     .line 2
     .line 3

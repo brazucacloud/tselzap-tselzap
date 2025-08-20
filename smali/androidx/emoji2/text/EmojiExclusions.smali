@@ -17,8 +17,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -40,8 +39,7 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -53,8 +51,7 @@
 
     .line 6
     .line 7
-    invoke-static {}, Landroidx/emoji2/text/EmojiExclusions$EmojiExclusions_Api34;
-    ->getExclusions()Ljava/util/Set;
+    invoke-static {}, Landroidx/emoji2/text/EmojiExclusions$EmojiExclusions_Api34;->getExclusions()Ljava/util/Set;
 
     .line 8
     .line 9
@@ -65,8 +62,7 @@
 
     .line 12
     :cond_0
-    invoke-static {}, Landroidx/emoji2/text/EmojiExclusions$EmojiExclusions_Reflections;
-    ->getExclusions()Ljava/util/Set;
+    invoke-static {}, Landroidx/emoji2/text/EmojiExclusions$EmojiExclusions_Reflections;->getExclusions()Ljava/util/Set;
 
     .line 13
     .line 14

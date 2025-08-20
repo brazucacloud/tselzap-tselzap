@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/view/ViewCompat$Api21Impl;
-    ->setOnApplyWindowInsetsListener(Landroid/view/View;Landroidx/core/view/OnApplyWindowInsetsListener;)V
+    value = Landroidx/core/view/ViewCompat$Api21Impl;->setOnApplyWindowInsetsListener(Landroid/view/View;Landroidx/core/view/OnApplyWindowInsetsListener;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -36,18 +35,15 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/core/view/ViewCompat$Api21Impl$1;
-    ->val$v:Landroid/view/View;
+    iput-object p1, p0, Landroidx/core/view/ViewCompat$Api21Impl$1;->val$v:Landroid/view/View;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/core/view/ViewCompat$Api21Impl$1;
-    ->val$listener:Landroidx/core/view/OnApplyWindowInsetsListener;
+    iput-object p2, p0, Landroidx/core/view/ViewCompat$Api21Impl$1;->val$listener:Landroidx/core/view/OnApplyWindowInsetsListener;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 6
     .line 7
@@ -55,8 +51,7 @@
     const/4 p1, 0x0
 
     .line 9
-    iput-object p1, p0, Landroidx/core/view/ViewCompat$Api21Impl$1;
-    ->mLastInsets:Landroidx/core/view/WindowInsetsCompat;
+    iput-object p1, p0, Landroidx/core/view/ViewCompat$Api21Impl$1;->mLastInsets:Landroidx/core/view/WindowInsetsCompat;
 
     .line 10
     .line 11
@@ -69,8 +64,7 @@
     .locals 4
 
     .line 1
-    invoke-static {p2, p1}, Landroidx/core/view/WindowInsetsCompat;
-    ->toWindowInsetsCompat(Landroid/view/WindowInsets;Landroid/view/View;)Landroidx/core/view/WindowInsetsCompat;
+    invoke-static {p2, p1}, Landroidx/core/view/WindowInsetsCompat;->toWindowInsetsCompat(Landroid/view/WindowInsets;Landroid/view/View;)Landroidx/core/view/WindowInsetsCompat;
 
     .line 2
     .line 3
@@ -78,8 +72,7 @@
     move-result-object v0
 
     .line 5
-    sget v1, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 6
     .line 7
@@ -91,24 +84,20 @@
 
     .line 10
     .line 11
-    iget-object v3, p0, Landroidx/core/view/ViewCompat$Api21Impl$1;
-    ->val$v:Landroid/view/View;
+    iget-object v3, p0, Landroidx/core/view/ViewCompat$Api21Impl$1;->val$v:Landroid/view/View;
 
     .line 12
     .line 13
-    invoke-static {p2, v3}, Landroidx/core/view/ViewCompat$Api21Impl;
-    ->callCompatInsetAnimationCallback(Landroid/view/WindowInsets;Landroid/view/View;)V
+    invoke-static {p2, v3}, Landroidx/core/view/ViewCompat$Api21Impl;->callCompatInsetAnimationCallback(Landroid/view/WindowInsets;Landroid/view/View;)V
 
     .line 14
     .line 15
     .line 16
-    iget-object p2, p0, Landroidx/core/view/ViewCompat$Api21Impl$1;
-    ->mLastInsets:Landroidx/core/view/WindowInsetsCompat;
+    iget-object p2, p0, Landroidx/core/view/ViewCompat$Api21Impl$1;->mLastInsets:Landroidx/core/view/WindowInsetsCompat;
 
     .line 17
     .line 18
-    invoke-virtual {v0, p2}, Landroidx/core/view/WindowInsetsCompat;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p2}, Landroidx/core/view/WindowInsetsCompat;->equals(Ljava/lang/Object;)Z
 
     .line 19
     .line 20
@@ -120,13 +109,11 @@
 
     .line 23
     .line 24
-    iget-object p2, p0, Landroidx/core/view/ViewCompat$Api21Impl$1;
-    ->val$listener:Landroidx/core/view/OnApplyWindowInsetsListener;
+    iget-object p2, p0, Landroidx/core/view/ViewCompat$Api21Impl$1;->val$listener:Landroidx/core/view/OnApplyWindowInsetsListener;
 
     .line 25
     .line 26
-    invoke-interface {p2, p1, v0}, Landroidx/core/view/OnApplyWindowInsetsListener;
-    ->onApplyWindowInsets(Landroid/view/View;Landroidx/core/view/WindowInsetsCompat;)Landroidx/core/view/WindowInsetsCompat;
+    invoke-interface {p2, p1, v0}, Landroidx/core/view/OnApplyWindowInsetsListener;->onApplyWindowInsets(Landroid/view/View;Landroidx/core/view/WindowInsetsCompat;)Landroidx/core/view/WindowInsetsCompat;
 
     .line 27
     .line 28
@@ -134,8 +121,7 @@
     move-result-object p1
 
     .line 30
-    invoke-virtual {p1}, Landroidx/core/view/WindowInsetsCompat;
-    ->toWindowInsets()Landroid/view/WindowInsets;
+    invoke-virtual {p1}, Landroidx/core/view/WindowInsetsCompat;->toWindowInsets()Landroid/view/WindowInsets;
 
     .line 31
     .line 32
@@ -146,18 +132,15 @@
 
     .line 35
     :cond_0
-    iput-object v0, p0, Landroidx/core/view/ViewCompat$Api21Impl$1;
-    ->mLastInsets:Landroidx/core/view/WindowInsetsCompat;
+    iput-object v0, p0, Landroidx/core/view/ViewCompat$Api21Impl$1;->mLastInsets:Landroidx/core/view/WindowInsetsCompat;
 
     .line 36
     .line 37
-    iget-object p2, p0, Landroidx/core/view/ViewCompat$Api21Impl$1;
-    ->val$listener:Landroidx/core/view/OnApplyWindowInsetsListener;
+    iget-object p2, p0, Landroidx/core/view/ViewCompat$Api21Impl$1;->val$listener:Landroidx/core/view/OnApplyWindowInsetsListener;
 
     .line 38
     .line 39
-    invoke-interface {p2, p1, v0}, Landroidx/core/view/OnApplyWindowInsetsListener;
-    ->onApplyWindowInsets(Landroid/view/View;Landroidx/core/view/WindowInsetsCompat;)Landroidx/core/view/WindowInsetsCompat;
+    invoke-interface {p2, p1, v0}, Landroidx/core/view/OnApplyWindowInsetsListener;->onApplyWindowInsets(Landroid/view/View;Landroidx/core/view/WindowInsetsCompat;)Landroidx/core/view/WindowInsetsCompat;
 
     .line 40
     .line 41
@@ -169,8 +152,7 @@
 
     .line 44
     .line 45
-    invoke-virtual {p2}, Landroidx/core/view/WindowInsetsCompat;
-    ->toWindowInsets()Landroid/view/WindowInsets;
+    invoke-virtual {p2}, Landroidx/core/view/WindowInsetsCompat;->toWindowInsets()Landroid/view/WindowInsets;
 
     .line 46
     .line 47
@@ -181,14 +163,12 @@
 
     .line 50
     :cond_1
-    invoke-static {p1}, Landroidx/core/view/ViewCompat;
-    ->requestApplyInsets(Landroid/view/View;)V
+    invoke-static {p1}, Landroidx/core/view/ViewCompat;->requestApplyInsets(Landroid/view/View;)V
 
     .line 51
     .line 52
     .line 53
-    invoke-virtual {p2}, Landroidx/core/view/WindowInsetsCompat;
-    ->toWindowInsets()Landroid/view/WindowInsets;
+    invoke-virtual {p2}, Landroidx/core/view/WindowInsetsCompat;->toWindowInsets()Landroid/view/WindowInsets;
 
     .line 54
     .line 55

@@ -22,8 +22,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -31,8 +30,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/ByteString$ArraysByteArrayCopier;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/ByteString$ArraysByteArrayCopier;-><init>()V
     return-void
 .end method
 
@@ -45,8 +43,7 @@
     add-int/2addr p3, p2
 
     .line 2
-    invoke-static {p1, p2, p3}, Ljava/util/Arrays;
-    ->copyOfRange([BII)[B
+    invoke-static {p1, p2, p3}, Ljava/util/Arrays;->copyOfRange([BII)[B
 
     .line 3
     .line 4

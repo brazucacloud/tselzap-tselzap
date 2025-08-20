@@ -65,49 +65,40 @@
     .end annotation
 
     .line 7
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 8
-    iput p1, p0, Lcom/android/volley/NetworkResponse;
-    ->statusCode:I
+    iput p1, p0, Lcom/android/volley/NetworkResponse;->statusCode:I
 
     .line 9
-    iput-object p2, p0, Lcom/android/volley/NetworkResponse;
-    ->data:[B
+    iput-object p2, p0, Lcom/android/volley/NetworkResponse;->data:[B
 
     .line 10
-    iput-object p3, p0, Lcom/android/volley/NetworkResponse;
-    ->headers:Ljava/util/Map;
+    iput-object p3, p0, Lcom/android/volley/NetworkResponse;->headers:Ljava/util/Map;
 
     if-nez p4, :cond_0
 
     const/4 p1, 0x0
 
     .line 11
-    iput-object p1, p0, Lcom/android/volley/NetworkResponse;
-    ->allHeaders:Ljava/util/List;
+    iput-object p1, p0, Lcom/android/volley/NetworkResponse;->allHeaders:Ljava/util/List;
 
     goto :goto_0
 
     .line 12
     :cond_0
-    invoke-static {p4}, Ljava/util/Collections;
-    ->unmodifiableList(Ljava/util/List;)Ljava/util/List;
+    invoke-static {p4}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/android/volley/NetworkResponse;
-    ->allHeaders:Ljava/util/List;
+    iput-object p1, p0, Lcom/android/volley/NetworkResponse;->allHeaders:Ljava/util/List;
 
     .line 13
     :goto_0
-    iput-boolean p5, p0, Lcom/android/volley/NetworkResponse;
-    ->notModified:Z
+    iput-boolean p5, p0, Lcom/android/volley/NetworkResponse;->notModified:Z
 
     .line 14
-    iput-wide p6, p0, Lcom/android/volley/NetworkResponse;
-    ->networkTimeMs:J
+    iput-wide p6, p0, Lcom/android/volley/NetworkResponse;->networkTimeMs:J
 
     return-void
 .end method
@@ -144,8 +135,7 @@
     move v4, p4
 
     .line 3
-    invoke-direct/range {v0 .. v6}, Lcom/android/volley/NetworkResponse;
-    -><init>(I[BLjava/util/Map;ZJ)V
+    invoke-direct/range {v0 .. v6}, Lcom/android/volley/NetworkResponse;-><init>(I[BLjava/util/Map;ZJ)V
 return-void
 .end method
 
@@ -169,8 +159,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-static {p3}, Lcom/android/volley/NetworkResponse;
-    ->toAllHeaderList(Ljava/util/Map;)Ljava/util/List;
+    invoke-static {p3}, Lcom/android/volley/NetworkResponse;->toAllHeaderList(Ljava/util/Map;)Ljava/util/List;
 
     move-result-object v4
 
@@ -186,8 +175,7 @@ return-void
 
     move-wide v6, p5
 
-    invoke-direct/range {v0 .. v7}, Lcom/android/volley/NetworkResponse;
-    -><init>(I[BLjava/util/Map;Ljava/util/List;ZJ)V
+    invoke-direct/range {v0 .. v7}, Lcom/android/volley/NetworkResponse;-><init>(I[BLjava/util/Map;Ljava/util/List;ZJ)V
 return-void
 .end method
 
@@ -207,8 +195,7 @@ return-void
     .end annotation
 
     .line 2
-    invoke-static {p6}, Lcom/android/volley/NetworkResponse;
-    ->toHeaderMap(Ljava/util/List;)Ljava/util/Map;
+    invoke-static {p6}, Lcom/android/volley/NetworkResponse;->toHeaderMap(Ljava/util/List;)Ljava/util/Map;
 
     move-result-object v3
 
@@ -224,8 +211,7 @@ return-void
 
     move-object v4, p6
 
-    invoke-direct/range {v0 .. v7}, Lcom/android/volley/NetworkResponse;
-    -><init>(I[BLjava/util/Map;Ljava/util/List;ZJ)V
+    invoke-direct/range {v0 .. v7}, Lcom/android/volley/NetworkResponse;-><init>(I[BLjava/util/Map;Ljava/util/List;ZJ)V
 return-void
 .end method
 
@@ -235,8 +221,7 @@ return-void
     const-wide/16 v4, 0x0
 
     .line 4
-    sget-object v6, Ljava/util/Collections;
-    ->EMPTY_LIST:Ljava/util/List;
+    sget-object v6, Ljava/util/Collections;->EMPTY_LIST:Ljava/util/List;
 
     const/16 v1, 0xc8
 
@@ -247,8 +232,7 @@ return-void
     move-object v2, p1
 
     .line 5
-    invoke-direct/range {v0 .. v6}, Lcom/android/volley/NetworkResponse;
-    -><init>(I[BZJLjava/util/List;)V
+    invoke-direct/range {v0 .. v6}, Lcom/android/volley/NetworkResponse;-><init>(I[BZJLjava/util/List;)V
 return-void
 .end method
 
@@ -284,8 +268,7 @@ return-void
     move-object v3, p2
 
     .line 6
-    invoke-direct/range {v0 .. v6}, Lcom/android/volley/NetworkResponse;
-    -><init>(I[BLjava/util/Map;ZJ)V
+    invoke-direct/range {v0 .. v6}, Lcom/android/volley/NetworkResponse;-><init>(I[BLjava/util/Map;ZJ)V
 return-void
 .end method
 
@@ -322,8 +305,7 @@ return-void
 
     .line 5
     :cond_0
-    invoke-interface {p0}, Ljava/util/Map;
-    ->isEmpty()Z
+    invoke-interface {p0}, Ljava/util/Map;->isEmpty()Z
 
     .line 6
     .line 7
@@ -335,8 +317,7 @@ return-void
 
     .line 10
     .line 11
-    sget-object p0, Ljava/util/Collections;
-    ->EMPTY_LIST:Ljava/util/List;
+    sget-object p0, Ljava/util/Collections;->EMPTY_LIST:Ljava/util/List;
 
     .line 12
     .line 13
@@ -348,8 +329,7 @@ return-void
 
     .line 15
     .line 16
-    invoke-interface {p0}, Ljava/util/Map;
-    ->size()I
+    invoke-interface {p0}, Ljava/util/Map;->size()I
 
     .line 17
     .line 18
@@ -357,14 +337,12 @@ return-void
     move-result v1
 
     .line 20
-    invoke-direct {v0, v1}, Ljava/util/ArrayList;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
     .line 21
     .line 22
     .line 23
-    invoke-interface {p0}, Ljava/util/Map;
-    ->entrySet()Ljava/util/Set;
+    invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     .line 24
     .line 25
@@ -372,8 +350,7 @@ return-void
     move-result-object p0
 
     .line 27
-    invoke-interface {p0}, Ljava/util/Set;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     .line 28
     .line 29
@@ -382,8 +359,7 @@ return-void
 
     .line 31
     :goto_0
-    invoke-interface {p0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 32
     .line 33
@@ -395,8 +371,7 @@ return-void
 
     .line 36
     .line 37
-    invoke-interface {p0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 38
     .line 39
@@ -412,8 +387,7 @@ return-void
 
     .line 44
     .line 45
-    invoke-interface {v1}, Ljava/util/Map$Entry;
-    ->getKey()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     .line 46
     .line 47
@@ -425,8 +399,7 @@ return-void
 
     .line 50
     .line 51
-    invoke-interface {v1}, Ljava/util/Map$Entry;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     .line 52
     .line 53
@@ -438,14 +411,12 @@ return-void
 
     .line 56
     .line 57
-    invoke-direct {v2, v3, v1}, Lcom/android/volley/Header;
-    -><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v2, v3, v1}, Lcom/android/volley/Header;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 58
     .line 59
     .line 60
-    invoke-virtual {v0, v2}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 61
     .line 62
@@ -490,8 +461,7 @@ return-void
 
     .line 5
     :cond_0
-    invoke-interface {p0}, Ljava/util/List;
-    ->isEmpty()Z
+    invoke-interface {p0}, Ljava/util/List;->isEmpty()Z
 
     .line 6
     .line 7
@@ -503,8 +473,7 @@ return-void
 
     .line 10
     .line 11
-    sget-object p0, Ljava/util/Collections;
-    ->EMPTY_MAP:Ljava/util/Map;
+    sget-object p0, Ljava/util/Collections;->EMPTY_MAP:Ljava/util/Map;
 
     .line 12
     .line 13
@@ -516,19 +485,16 @@ return-void
 
     .line 15
     .line 16
-    sget-object v1, Ljava/lang/String;
-    ->CASE_INSENSITIVE_ORDER:Ljava/util/Comparator;
+    sget-object v1, Ljava/lang/String;->CASE_INSENSITIVE_ORDER:Ljava/util/Comparator;
 
     .line 17
     .line 18
-    invoke-direct {v0, v1}, Ljava/util/TreeMap;
-    -><init>(Ljava/util/Comparator;)V
+    invoke-direct {v0, v1}, Ljava/util/TreeMap;-><init>(Ljava/util/Comparator;)V
 
     .line 19
     .line 20
     .line 21
-    invoke-interface {p0}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 22
     .line 23
@@ -537,8 +503,7 @@ return-void
 
     .line 25
     :goto_0
-    invoke-interface {p0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 26
     .line 27
@@ -550,8 +515,7 @@ return-void
 
     .line 30
     .line 31
-    invoke-interface {p0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 32
     .line 33
@@ -563,8 +527,7 @@ return-void
 
     .line 36
     .line 37
-    invoke-virtual {v1}, Lcom/android/volley/Header;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/android/volley/Header;->getName()Ljava/lang/String;
 
     .line 38
     .line 39
@@ -572,8 +535,7 @@ return-void
     move-result-object v2
 
     .line 41
-    invoke-virtual {v1}, Lcom/android/volley/Header;
-    ->getValue()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/android/volley/Header;->getValue()Ljava/lang/String;
 
     .line 42
     .line 43
@@ -581,8 +543,7 @@ return-void
     move-result-object v1
 
     .line 45
-    invoke-virtual {v0, v2, v1}, Ljava/util/TreeMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, v2, v1}, Ljava/util/TreeMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 46
     .line 47

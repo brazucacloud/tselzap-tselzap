@@ -21,14 +21,12 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, p1}, Landroidx/collection/SparseArrayCompat;
-    ->containsKey(I)Z
+    invoke-virtual {p0, p1}, Landroidx/collection/SparseArrayCompat;->containsKey(I)Z
 
     .line 7
     .line 8
@@ -57,8 +55,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -67,14 +64,12 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p0}, Landroidx/collection/SparseArrayCompat;
-    ->size()I
+    invoke-virtual {p0}, Landroidx/collection/SparseArrayCompat;->size()I
 
     .line 12
     .line 13
@@ -90,8 +85,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0, v1}, Landroidx/collection/SparseArrayCompat;
-    ->keyAt(I)I
+    invoke-virtual {p0, v1}, Landroidx/collection/SparseArrayCompat;->keyAt(I)I
 
     .line 19
     .line 20
@@ -99,8 +93,7 @@
     move-result v2
 
     .line 22
-    invoke-static {v2}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 23
     .line 24
@@ -108,8 +101,7 @@
     move-result-object v2
 
     .line 26
-    invoke-virtual {p0, v1}, Landroidx/collection/SparseArrayCompat;
-    ->valueAt(I)Ljava/lang/Object;
+    invoke-virtual {p0, v1}, Landroidx/collection/SparseArrayCompat;->valueAt(I)Ljava/lang/Object;
 
     .line 27
     .line 28
@@ -117,8 +109,7 @@
     move-result-object v3
 
     .line 30
-    invoke-interface {p1, v2, v3}, Lp1/p;
-    ->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v2, v3}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 31
     .line 32
@@ -151,14 +142,12 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, p1, p2}, Landroidx/collection/SparseArrayCompat;
-    ->get(ILjava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroidx/collection/SparseArrayCompat;->get(ILjava/lang/Object;)Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -187,8 +176,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -197,14 +185,12 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {p0, p1}, Landroidx/collection/SparseArrayCompat;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Landroidx/collection/SparseArrayCompat;->get(I)Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -216,8 +202,7 @@
 
     .line 16
     .line 17
-    invoke-interface {p2}, Lp1/a;
-    ->invoke()Ljava/lang/Object;
+    invoke-interface {p2}, Lp1/a;->invoke()Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -246,14 +231,12 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroidx/collection/SparseArrayCompat;
-    ->size()I
+    invoke-virtual {p0}, Landroidx/collection/SparseArrayCompat;->size()I
 
     .line 7
     .line 8
@@ -280,14 +263,12 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroidx/collection/SparseArrayCompat;
-    ->isEmpty()Z
+    invoke-virtual {p0}, Landroidx/collection/SparseArrayCompat;->isEmpty()Z
 
     .line 7
     .line 8
@@ -316,8 +297,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -326,8 +306,7 @@
 
     .line 7
     .line 8
-    invoke-direct {v0, p0}, Landroidx/collection/SparseArrayKt$keyIterator$1;
-    -><init>(Landroidx/collection/SparseArrayCompat;)V
+    invoke-direct {v0, p0}, Landroidx/collection/SparseArrayKt$keyIterator$1;-><init>(Landroidx/collection/SparseArrayCompat;)V
 return-object v0
 .end method
 
@@ -352,8 +331,7 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -362,8 +340,7 @@ return-object v0
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -372,8 +349,7 @@ return-object v0
 
     .line 12
     .line 13
-    invoke-virtual {p0}, Landroidx/collection/SparseArrayCompat;
-    ->size()I
+    invoke-virtual {p0}, Landroidx/collection/SparseArrayCompat;->size()I
 
     .line 14
     .line 15
@@ -381,8 +357,7 @@ return-object v0
     move-result v1
 
     .line 17
-    invoke-virtual {p1}, Landroidx/collection/SparseArrayCompat;
-    ->size()I
+    invoke-virtual {p1}, Landroidx/collection/SparseArrayCompat;->size()I
 
     .line 18
     .line 19
@@ -393,20 +368,17 @@ return-object v0
     add-int/2addr v2, v1
 
     .line 22
-    invoke-direct {v0, v2}, Landroidx/collection/SparseArrayCompat;
-    -><init>(I)V
+    invoke-direct {v0, v2}, Landroidx/collection/SparseArrayCompat;-><init>(I)V
 
     .line 23
     .line 24
     .line 25
-    invoke-virtual {v0, p0}, Landroidx/collection/SparseArrayCompat;
-    ->putAll(Landroidx/collection/SparseArrayCompat;)V
+    invoke-virtual {v0, p0}, Landroidx/collection/SparseArrayCompat;->putAll(Landroidx/collection/SparseArrayCompat;)V
 
     .line 26
     .line 27
     .line 28
-    invoke-virtual {v0, p1}, Landroidx/collection/SparseArrayCompat;
-    ->putAll(Landroidx/collection/SparseArrayCompat;)V
+    invoke-virtual {v0, p1}, Landroidx/collection/SparseArrayCompat;->putAll(Landroidx/collection/SparseArrayCompat;)V
 return-object v0
 .end method
 
@@ -418,14 +390,12 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, p1, p2}, Landroidx/collection/SparseArrayCompat;
-    ->remove(ILjava/lang/Object;)Z
+    invoke-virtual {p0, p1, p2}, Landroidx/collection/SparseArrayCompat;->remove(ILjava/lang/Object;)Z
 
     .line 7
     .line 8
@@ -452,14 +422,12 @@ return-object v0
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, p1, p2}, Landroidx/collection/SparseArrayCompat;
-    ->put(ILjava/lang/Object;)V
+    invoke-virtual {p0, p1, p2}, Landroidx/collection/SparseArrayCompat;->put(ILjava/lang/Object;)V
 return-void
 .end method
 
@@ -482,8 +450,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -492,8 +459,7 @@ return-void
 
     .line 7
     .line 8
-    invoke-direct {v0, p0}, Landroidx/collection/SparseArrayKt$valueIterator$1;
-    -><init>(Landroidx/collection/SparseArrayCompat;)V
+    invoke-direct {v0, p0}, Landroidx/collection/SparseArrayKt$valueIterator$1;-><init>(Landroidx/collection/SparseArrayCompat;)V
 return-object v0
 .end method
 

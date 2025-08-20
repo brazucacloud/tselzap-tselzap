@@ -24,14 +24,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/BasePendingResult;
-    -><init>(Lcom/google/android/gms/common/api/GoogleApiClient;)V
+    invoke-direct {p0, p1}, Lcom/google/android/gms/common/api/internal/BasePendingResult;-><init>(Lcom/google/android/gms/common/api/GoogleApiClient;)V
 
     .line 2
     .line 3
     .line 4
-    iput-object p2, p0, Lcom/google/android/gms/common/api/zag;
-    ->zae:Lcom/google/android/gms/common/api/Result;
+    iput-object p2, p0, Lcom/google/android/gms/common/api/zag;->zae:Lcom/google/android/gms/common/api/Result;
 
     .line 5
     .line 6
@@ -50,8 +48,7 @@
         }
     .end annotation
 
-    iget-object p1, p0, Lcom/google/android/gms/common/api/zag;
-    ->zae:Lcom/google/android/gms/common/api/Result;
+    iget-object p1, p0, Lcom/google/android/gms/common/api/zag;->zae:Lcom/google/android/gms/common/api/Result;
 
     return-object p1
 .end method

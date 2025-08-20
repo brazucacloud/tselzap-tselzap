@@ -18,14 +18,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Lcom/google/firebase/analytics/ktx/AnalyticsKt;
-    ->zzb:Ljava/lang/Object;
+    sput-object v0, Lcom/google/firebase/analytics/ktx/AnalyticsKt;->zzb:Ljava/lang/Object;
 
     .line 7
     .line 8
@@ -38,8 +36,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/google/firebase/analytics/ktx/AnalyticsKt;
-    ->zza:Lcom/google/firebase/analytics/FirebaseAnalytics;
+    sget-object v0, Lcom/google/firebase/analytics/ktx/AnalyticsKt;->zza:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     .line 2
     .line 3
@@ -58,14 +55,12 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object p0, Lcom/google/firebase/analytics/ktx/AnalyticsKt;
-    ->zza:Lcom/google/firebase/analytics/FirebaseAnalytics;
+    sget-object p0, Lcom/google/firebase/analytics/ktx/AnalyticsKt;->zza:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     .line 7
     .line 8
@@ -73,8 +68,7 @@
 
     .line 9
     .line 10
-    sget-object p0, Lcom/google/firebase/analytics/ktx/AnalyticsKt;
-    ->zzb:Ljava/lang/Object;
+    sget-object p0, Lcom/google/firebase/analytics/ktx/AnalyticsKt;->zzb:Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -82,8 +76,7 @@
 
     .line 13
     :try_start_0
-    sget-object v0, Lcom/google/firebase/analytics/ktx/AnalyticsKt;
-    ->zza:Lcom/google/firebase/analytics/FirebaseAnalytics;
+    sget-object v0, Lcom/google/firebase/analytics/ktx/AnalyticsKt;->zza:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     .line 14
     .line 15
@@ -91,13 +84,11 @@
 
     .line 16
     .line 17
-    sget-object v0, Lcom/google/firebase/ktx/Firebase;
-    ->INSTANCE:Lcom/google/firebase/ktx/Firebase;
+    sget-object v0, Lcom/google/firebase/ktx/Firebase;->INSTANCE:Lcom/google/firebase/ktx/Firebase;
 
     .line 18
     .line 19
-    invoke-static {v0}, Lcom/google/firebase/ktx/FirebaseKt;
-    ->getApp(Lcom/google/firebase/ktx/Firebase;)Lcom/google/firebase/FirebaseApp;
+    invoke-static {v0}, Lcom/google/firebase/ktx/FirebaseKt;->getApp(Lcom/google/firebase/ktx/Firebase;)Lcom/google/firebase/FirebaseApp;
 
     .line 20
     .line 21
@@ -105,8 +96,7 @@
     move-result-object v0
 
     .line 23
-    invoke-virtual {v0}, Lcom/google/firebase/FirebaseApp;
-    ->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {v0}, Lcom/google/firebase/FirebaseApp;->getApplicationContext()Landroid/content/Context;
 
     .line 24
     .line 25
@@ -114,8 +104,7 @@
     move-result-object v0
 
     .line 27
-    invoke-static {v0}, Lcom/google/firebase/analytics/FirebaseAnalytics;
-    ->getInstance(Landroid/content/Context;)Lcom/google/firebase/analytics/FirebaseAnalytics;
+    invoke-static {v0}, Lcom/google/firebase/analytics/FirebaseAnalytics;->getInstance(Landroid/content/Context;)Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     .line 28
     .line 29
@@ -123,8 +112,7 @@
     move-result-object v0
 
     .line 31
-    sput-object v0, Lcom/google/firebase/analytics/ktx/AnalyticsKt;
-    ->zza:Lcom/google/firebase/analytics/FirebaseAnalytics;
+    sput-object v0, Lcom/google/firebase/analytics/ktx/AnalyticsKt;->zza:Lcom/google/firebase/analytics/FirebaseAnalytics;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -157,13 +145,11 @@
     .line 40
     :cond_1
     :goto_2
-    sget-object p0, Lcom/google/firebase/analytics/ktx/AnalyticsKt;
-    ->zza:Lcom/google/firebase/analytics/FirebaseAnalytics;
+    sget-object p0, Lcom/google/firebase/analytics/ktx/AnalyticsKt;->zza:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     .line 41
     .line 42
-    invoke-static {p0}, Lkotlin/jvm/internal/j;
-    ->c(Ljava/lang/Object;)V
+    invoke-static {p0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 
     .line 43
     .line 44
@@ -175,8 +161,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Lcom/google/firebase/analytics/ktx/AnalyticsKt;
-    ->zzb:Ljava/lang/Object;
+    sget-object v0, Lcom/google/firebase/analytics/ktx/AnalyticsKt;->zzb:Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -212,8 +197,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -222,8 +206,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -232,8 +215,7 @@
 
     .line 12
     .line 13
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -242,20 +224,17 @@
 
     .line 17
     .line 18
-    invoke-direct {v0}, Lcom/google/firebase/analytics/ktx/ParametersBuilder;
-    -><init>()V
+    invoke-direct {v0}, Lcom/google/firebase/analytics/ktx/ParametersBuilder;-><init>()V
 
     .line 19
     .line 20
     .line 21
-    invoke-interface {p2, v0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 22
     .line 23
     .line 24
-    invoke-virtual {v0}, Lcom/google/firebase/analytics/ktx/ParametersBuilder;
-    ->getBundle()Landroid/os/Bundle;
+    invoke-virtual {v0}, Lcom/google/firebase/analytics/ktx/ParametersBuilder;->getBundle()Landroid/os/Bundle;
 
     .line 25
     .line 26
@@ -263,8 +242,7 @@
     move-result-object p2
 
     .line 28
-    invoke-virtual {p0, p1, p2}, Lcom/google/firebase/analytics/FirebaseAnalytics;
-    ->logEvent(Ljava/lang/String;Landroid/os/Bundle;)V
+    invoke-virtual {p0, p1, p2}, Lcom/google/firebase/analytics/FirebaseAnalytics;->logEvent(Ljava/lang/String;Landroid/os/Bundle;)V
 
     .line 29
     .line 30
@@ -276,8 +254,7 @@
     .locals 0
 
     .line 1
-    sput-object p0, Lcom/google/firebase/analytics/ktx/AnalyticsKt;
-    ->zza:Lcom/google/firebase/analytics/FirebaseAnalytics;
+    sput-object p0, Lcom/google/firebase/analytics/ktx/AnalyticsKt;->zza:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     .line 2
     .line 3
@@ -308,8 +285,7 @@
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -318,8 +294,7 @@
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -328,20 +303,17 @@
 
     .line 12
     .line 13
-    invoke-direct {v0}, Lcom/google/firebase/analytics/ktx/ConsentBuilder;
-    -><init>()V
+    invoke-direct {v0}, Lcom/google/firebase/analytics/ktx/ConsentBuilder;-><init>()V
 
     .line 14
     .line 15
     .line 16
-    invoke-interface {p1, v0}, Lp1/l;
-    ->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 17
     .line 18
     .line 19
-    invoke-virtual {v0}, Lcom/google/firebase/analytics/ktx/ConsentBuilder;
-    ->asMap()Ljava/util/Map;
+    invoke-virtual {v0}, Lcom/google/firebase/analytics/ktx/ConsentBuilder;->asMap()Ljava/util/Map;
 
     .line 20
     .line 21
@@ -349,8 +321,7 @@
     move-result-object p1
 
     .line 23
-    invoke-virtual {p0, p1}, Lcom/google/firebase/analytics/FirebaseAnalytics;
-    ->setConsent(Ljava/util/Map;)V
+    invoke-virtual {p0, p1}, Lcom/google/firebase/analytics/FirebaseAnalytics;->setConsent(Ljava/util/Map;)V
 
     .line 24
     .line 25

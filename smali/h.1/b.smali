@@ -32,8 +32,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -41,21 +40,18 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-object v0, p0, Lh/b;
-    ->a:[I
+    iput-object v0, p0, Lh/b;->a:[I
 
     .line 6
     .line 7
     const/4 v0, 0x0
 
     .line 8
-    iput v0, p0, Lh/b;
-    ->b:I
+    iput v0, p0, Lh/b;->b:I
 
     .line 9
     .line 10
-    iput v0, p0, Lh/b;
-    ->c:I
+    iput v0, p0, Lh/b;->c:I
 
     .line 11
     .line 12
@@ -63,14 +59,12 @@
 
     .line 13
     .line 14
-    invoke-direct {v0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
     .line 15
     .line 16
     .line 17
-    iput-object v0, p0, Lh/b;
-    ->e:Ljava/util/ArrayList;
+    iput-object v0, p0, Lh/b;->e:Ljava/util/ArrayList;
 
     .line 18
     .line 19

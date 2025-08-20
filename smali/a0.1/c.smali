@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/Context;
-    ->getSystemService(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p0, p1}, Landroid/content/Context;->getSystemService(Ljava/lang/Class;)Ljava/lang/Object;
 
     move-result-object p0
 
@@ -20,8 +19,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/text/StaticLayout$Builder;
-    ->setTextDirection(Landroid/text/TextDirectionHeuristic;)Landroid/text/StaticLayout$Builder;
+    invoke-virtual {p0, p1}, Landroid/text/StaticLayout$Builder;->setTextDirection(Landroid/text/TextDirectionHeuristic;)Landroid/text/StaticLayout$Builder;
 
     return-void
 .end method
@@ -50,8 +48,7 @@
     .line 1
     const-string v0, "android.permission.USE_FULL_SCREEN_INTENT"
 
-    invoke-virtual {p0, v0}, Landroid/content/Context;
-    ->checkSelfPermission(Ljava/lang/String;)I
+    invoke-virtual {p0, v0}, Landroid/content/Context;->checkSelfPermission(Ljava/lang/String;)I
 
     move-result p0
 
@@ -62,8 +59,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/AutoCompleteTextView;
-    ->getCompoundDrawableTintList()Landroid/content/res/ColorStateList;
+    invoke-virtual {p0}, Landroid/widget/AutoCompleteTextView;->getCompoundDrawableTintList()Landroid/content/res/ColorStateList;
 
     move-result-object p0
 
@@ -74,8 +70,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/Button;
-    ->getCompoundDrawableTintList()Landroid/content/res/ColorStateList;
+    invoke-virtual {p0}, Landroid/widget/Button;->getCompoundDrawableTintList()Landroid/content/res/ColorStateList;
 
     move-result-object p0
 
@@ -86,8 +81,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/CheckBox;
-    ->getCompoundDrawableTintList()Landroid/content/res/ColorStateList;
+    invoke-virtual {p0}, Landroid/widget/CheckBox;->getCompoundDrawableTintList()Landroid/content/res/ColorStateList;
 
     move-result-object p0
 
@@ -98,8 +92,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/CheckedTextView;
-    ->getCompoundDrawableTintList()Landroid/content/res/ColorStateList;
+    invoke-virtual {p0}, Landroid/widget/CheckedTextView;->getCompoundDrawableTintList()Landroid/content/res/ColorStateList;
 
     move-result-object p0
 
@@ -110,8 +103,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/EditText;
-    ->getCompoundDrawableTintList()Landroid/content/res/ColorStateList;
+    invoke-virtual {p0}, Landroid/widget/EditText;->getCompoundDrawableTintList()Landroid/content/res/ColorStateList;
 
     move-result-object p0
 
@@ -122,8 +114,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/MultiAutoCompleteTextView;
-    ->getCompoundDrawableTintList()Landroid/content/res/ColorStateList;
+    invoke-virtual {p0}, Landroid/widget/MultiAutoCompleteTextView;->getCompoundDrawableTintList()Landroid/content/res/ColorStateList;
 
     move-result-object p0
 
@@ -134,8 +125,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/RadioButton;
-    ->getCompoundDrawableTintList()Landroid/content/res/ColorStateList;
+    invoke-virtual {p0}, Landroid/widget/RadioButton;->getCompoundDrawableTintList()Landroid/content/res/ColorStateList;
 
     move-result-object p0
 
@@ -146,8 +136,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/TextView;
-    ->getCompoundDrawableTintList()Landroid/content/res/ColorStateList;
+    invoke-virtual {p0}, Landroid/widget/TextView;->getCompoundDrawableTintList()Landroid/content/res/ColorStateList;
 
     move-result-object p0
 
@@ -158,8 +147,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/ToggleButton;
-    ->getCompoundDrawableTintList()Landroid/content/res/ColorStateList;
+    invoke-virtual {p0}, Landroid/widget/ToggleButton;->getCompoundDrawableTintList()Landroid/content/res/ColorStateList;
 
     move-result-object p0
 
@@ -170,8 +158,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/AutoCompleteTextView;
-    ->getCompoundDrawableTintMode()Landroid/graphics/PorterDuff$Mode;
+    invoke-virtual {p0}, Landroid/widget/AutoCompleteTextView;->getCompoundDrawableTintMode()Landroid/graphics/PorterDuff$Mode;
 
     move-result-object p0
 
@@ -182,8 +169,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/Button;
-    ->getCompoundDrawableTintMode()Landroid/graphics/PorterDuff$Mode;
+    invoke-virtual {p0}, Landroid/widget/Button;->getCompoundDrawableTintMode()Landroid/graphics/PorterDuff$Mode;
 
     move-result-object p0
 
@@ -194,8 +180,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/CheckBox;
-    ->getCompoundDrawableTintMode()Landroid/graphics/PorterDuff$Mode;
+    invoke-virtual {p0}, Landroid/widget/CheckBox;->getCompoundDrawableTintMode()Landroid/graphics/PorterDuff$Mode;
 
     move-result-object p0
 
@@ -206,8 +191,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/CheckedTextView;
-    ->getCompoundDrawableTintMode()Landroid/graphics/PorterDuff$Mode;
+    invoke-virtual {p0}, Landroid/widget/CheckedTextView;->getCompoundDrawableTintMode()Landroid/graphics/PorterDuff$Mode;
 
     move-result-object p0
 
@@ -218,8 +202,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/EditText;
-    ->getCompoundDrawableTintMode()Landroid/graphics/PorterDuff$Mode;
+    invoke-virtual {p0}, Landroid/widget/EditText;->getCompoundDrawableTintMode()Landroid/graphics/PorterDuff$Mode;
 
     move-result-object p0
 
@@ -230,8 +213,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/MultiAutoCompleteTextView;
-    ->getCompoundDrawableTintMode()Landroid/graphics/PorterDuff$Mode;
+    invoke-virtual {p0}, Landroid/widget/MultiAutoCompleteTextView;->getCompoundDrawableTintMode()Landroid/graphics/PorterDuff$Mode;
 
     move-result-object p0
 
@@ -242,8 +224,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/RadioButton;
-    ->getCompoundDrawableTintMode()Landroid/graphics/PorterDuff$Mode;
+    invoke-virtual {p0}, Landroid/widget/RadioButton;->getCompoundDrawableTintMode()Landroid/graphics/PorterDuff$Mode;
 
     move-result-object p0
 
@@ -254,8 +235,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/TextView;
-    ->getCompoundDrawableTintMode()Landroid/graphics/PorterDuff$Mode;
+    invoke-virtual {p0}, Landroid/widget/TextView;->getCompoundDrawableTintMode()Landroid/graphics/PorterDuff$Mode;
 
     move-result-object p0
 
@@ -266,8 +246,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/ToggleButton;
-    ->getCompoundDrawableTintMode()Landroid/graphics/PorterDuff$Mode;
+    invoke-virtual {p0}, Landroid/widget/ToggleButton;->getCompoundDrawableTintMode()Landroid/graphics/PorterDuff$Mode;
 
     move-result-object p0
 
@@ -278,8 +257,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/LinearLayout;
-    ->getForeground()Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0}, Landroid/widget/LinearLayout;->getForeground()Landroid/graphics/drawable/Drawable;
 
     move-result-object p0
 
@@ -290,8 +268,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/graphics/drawable/Icon;
-    ->createWithBitmap(Landroid/graphics/Bitmap;)Landroid/graphics/drawable/Icon;
+    invoke-static {p0}, Landroid/graphics/drawable/Icon;->createWithBitmap(Landroid/graphics/Bitmap;)Landroid/graphics/drawable/Icon;
 
     move-result-object p0
 
@@ -302,8 +279,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/graphics/drawable/Icon;
-    ->createWithContentUri(Landroid/net/Uri;)Landroid/graphics/drawable/Icon;
+    invoke-static {p0}, Landroid/graphics/drawable/Icon;->createWithContentUri(Landroid/net/Uri;)Landroid/graphics/drawable/Icon;
 
     move-result-object p0
 
@@ -325,8 +301,7 @@
     .line 1
     const/4 v0, 0x0
 
-    invoke-static {p0, v0, p1}, Landroid/graphics/drawable/Icon;
-    ->createWithData([BII)Landroid/graphics/drawable/Icon;
+    invoke-static {p0, v0, p1}, Landroid/graphics/drawable/Icon;->createWithData([BII)Landroid/graphics/drawable/Icon;
 
     move-result-object p0
 
@@ -341,8 +316,7 @@
 
     const v1, 0x7fffffff
 
-    invoke-static {p2, v0, p0, p1, v1}, Landroid/text/StaticLayout$Builder;
-    ->obtain(Ljava/lang/CharSequence;IILandroid/text/TextPaint;I)Landroid/text/StaticLayout$Builder;
+    invoke-static {p2, v0, p0, p1, v1}, Landroid/text/StaticLayout$Builder;->obtain(Ljava/lang/CharSequence;IILandroid/text/TextPaint;I)Landroid/text/StaticLayout$Builder;
 
     move-result-object p0
 

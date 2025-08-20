@@ -23,13 +23,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/core/content/UnusedAppRestrictionsBackportService$1;
-    ->this$0:Landroidx/core/content/UnusedAppRestrictionsBackportService;
+    iput-object p1, p0, Landroidx/core/content/UnusedAppRestrictionsBackportService$1;->this$0:Landroidx/core/content/UnusedAppRestrictionsBackportService;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Landroidx/core/app/unusedapprestrictions/IUnusedAppRestrictionsBackportService$Stub;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/core/app/unusedapprestrictions/IUnusedAppRestrictionsBackportService$Stub;-><init>()V
 
     .line 4
     .line 5
@@ -59,19 +57,16 @@
 
     .line 5
     .line 6
-    invoke-direct {v0, p1}, Landroidx/core/content/UnusedAppRestrictionsBackportCallback;
-    -><init>(Landroidx/core/app/unusedapprestrictions/IUnusedAppRestrictionsBackportCallback;)V
+    invoke-direct {v0, p1}, Landroidx/core/content/UnusedAppRestrictionsBackportCallback;-><init>(Landroidx/core/app/unusedapprestrictions/IUnusedAppRestrictionsBackportCallback;)V
 
     .line 7
     .line 8
     .line 9
-    iget-object p1, p0, Landroidx/core/content/UnusedAppRestrictionsBackportService$1;
-    ->this$0:Landroidx/core/content/UnusedAppRestrictionsBackportService;
+    iget-object p1, p0, Landroidx/core/content/UnusedAppRestrictionsBackportService$1;->this$0:Landroidx/core/content/UnusedAppRestrictionsBackportService;
 
     .line 10
     .line 11
-    invoke-virtual {p1, v0}, Landroidx/core/content/UnusedAppRestrictionsBackportService;
-    ->isPermissionRevocationEnabled(Landroidx/core/content/UnusedAppRestrictionsBackportCallback;)V
+    invoke-virtual {p1, v0}, Landroidx/core/content/UnusedAppRestrictionsBackportService;->isPermissionRevocationEnabled(Landroidx/core/content/UnusedAppRestrictionsBackportCallback;)V
 
     .line 12
     .line 13

@@ -80,49 +80,40 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/core/app/RemoteInput;
-    ->mResultKey:Ljava/lang/String;
+    iput-object p1, p0, Landroidx/core/app/RemoteInput;->mResultKey:Ljava/lang/String;
 
     .line 5
     .line 6
-    iput-object p2, p0, Landroidx/core/app/RemoteInput;
-    ->mLabel:Ljava/lang/CharSequence;
+    iput-object p2, p0, Landroidx/core/app/RemoteInput;->mLabel:Ljava/lang/CharSequence;
 
     .line 7
     .line 8
-    iput-object p3, p0, Landroidx/core/app/RemoteInput;
-    ->mChoices:[Ljava/lang/CharSequence;
+    iput-object p3, p0, Landroidx/core/app/RemoteInput;->mChoices:[Ljava/lang/CharSequence;
 
     .line 9
     .line 10
-    iput-boolean p4, p0, Landroidx/core/app/RemoteInput;
-    ->mAllowFreeFormTextInput:Z
+    iput-boolean p4, p0, Landroidx/core/app/RemoteInput;->mAllowFreeFormTextInput:Z
 
     .line 11
     .line 12
-    iput p5, p0, Landroidx/core/app/RemoteInput;
-    ->mEditChoicesBeforeSending:I
+    iput p5, p0, Landroidx/core/app/RemoteInput;->mEditChoicesBeforeSending:I
 
     .line 13
     .line 14
-    iput-object p6, p0, Landroidx/core/app/RemoteInput;
-    ->mExtras:Landroid/os/Bundle;
+    iput-object p6, p0, Landroidx/core/app/RemoteInput;->mExtras:Landroid/os/Bundle;
 
     .line 15
     .line 16
-    iput-object p7, p0, Landroidx/core/app/RemoteInput;
-    ->mAllowedDataTypes:Ljava/util/Set;
+    iput-object p7, p0, Landroidx/core/app/RemoteInput;->mAllowedDataTypes:Ljava/util/Set;
 
     .line 17
     .line 18
-    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;
-    ->getEditChoicesBeforeSending()I
+    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;->getEditChoicesBeforeSending()I
 
     .line 19
     .line 20
@@ -137,8 +128,7 @@
 
     .line 24
     .line 25
-    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;
-    ->getAllowFreeFormInput()Z
+    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;->getAllowFreeFormInput()Z
 
     .line 26
     .line 27
@@ -162,8 +152,7 @@
 
     .line 35
     .line 36
-    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 37
     .line 38
@@ -203,8 +192,7 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -216,8 +204,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1, p2}, Landroidx/core/app/RemoteInput$Api26Impl;
-    ->addDataResultToIntent(Landroidx/core/app/RemoteInput;Landroid/content/Intent;Ljava/util/Map;)V
+    invoke-static {p0, p1, p2}, Landroidx/core/app/RemoteInput$Api26Impl;->addDataResultToIntent(Landroidx/core/app/RemoteInput;Landroid/content/Intent;Ljava/util/Map;)V
 
     .line 8
     .line 9
@@ -226,8 +213,7 @@
 
     .line 11
     :cond_0
-    invoke-static {p1}, Landroidx/core/app/RemoteInput;
-    ->getClipDataIntentFromIntent(Landroid/content/Intent;)Landroid/content/Intent;
+    invoke-static {p1}, Landroidx/core/app/RemoteInput;->getClipDataIntentFromIntent(Landroid/content/Intent;)Landroid/content/Intent;
 
     .line 12
     .line 13
@@ -243,15 +229,13 @@
 
     .line 18
     .line 19
-    invoke-direct {v0}, Landroid/content/Intent;
-    -><init>()V
+    invoke-direct {v0}, Landroid/content/Intent;-><init>()V
 
     .line 20
     .line 21
     .line 22
     :cond_1
-    invoke-interface {p2}, Ljava/util/Map;
-    ->entrySet()Ljava/util/Set;
+    invoke-interface {p2}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     .line 23
     .line 24
@@ -259,8 +243,7 @@
     move-result-object p2
 
     .line 26
-    invoke-interface {p2}, Ljava/util/Set;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     .line 27
     .line 28
@@ -269,8 +252,7 @@
 
     .line 30
     :goto_0
-    invoke-interface {p2}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
 
     .line 31
     .line 32
@@ -282,8 +264,7 @@
 
     .line 35
     .line 36
-    invoke-interface {p2}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 37
     .line 38
@@ -295,8 +276,7 @@
 
     .line 41
     .line 42
-    invoke-interface {v1}, Ljava/util/Map$Entry;
-    ->getKey()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     .line 43
     .line 44
@@ -308,8 +288,7 @@
 
     .line 47
     .line 48
-    invoke-interface {v1}, Ljava/util/Map$Entry;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     .line 49
     .line 50
@@ -329,8 +308,7 @@
 
     .line 57
     :cond_2
-    invoke-static {v2}, Landroidx/core/app/RemoteInput;
-    ->getExtraResultsKeyForData(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Landroidx/core/app/RemoteInput;->getExtraResultsKeyForData(Ljava/lang/String;)Ljava/lang/String;
 
     .line 58
     .line 59
@@ -338,8 +316,7 @@
     move-result-object v3
 
     .line 61
-    invoke-virtual {v0, v3}, Landroid/content/Intent;
-    ->getBundleExtra(Ljava/lang/String;)Landroid/os/Bundle;
+    invoke-virtual {v0, v3}, Landroid/content/Intent;->getBundleExtra(Ljava/lang/String;)Landroid/os/Bundle;
 
     .line 62
     .line 63
@@ -355,15 +332,13 @@
 
     .line 68
     .line 69
-    invoke-direct {v3}, Landroid/os/Bundle;
-    -><init>()V
+    invoke-direct {v3}, Landroid/os/Bundle;-><init>()V
 
     .line 70
     .line 71
     .line 72
     :cond_3
-    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;
-    ->getResultKey()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;->getResultKey()Ljava/lang/String;
 
     .line 73
     .line 74
@@ -371,8 +346,7 @@
     move-result-object v4
 
     .line 76
-    invoke-virtual {v1}, Landroid/net/Uri;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Landroid/net/Uri;->toString()Ljava/lang/String;
 
     .line 77
     .line 78
@@ -380,14 +354,12 @@
     move-result-object v1
 
     .line 80
-    invoke-virtual {v3, v4, v1}, Landroid/os/BaseBundle;
-    ->putString(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v3, v4, v1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 81
     .line 82
     .line 83
-    invoke-static {v2}, Landroidx/core/app/RemoteInput;
-    ->getExtraResultsKeyForData(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v2}, Landroidx/core/app/RemoteInput;->getExtraResultsKeyForData(Ljava/lang/String;)Ljava/lang/String;
 
     .line 84
     .line 85
@@ -395,8 +367,7 @@
     move-result-object v1
 
     .line 87
-    invoke-virtual {v0, v1, v3}, Landroid/content/Intent;
-    ->putExtra(Ljava/lang/String;Landroid/os/Bundle;)Landroid/content/Intent;
+    invoke-virtual {v0, v1, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Landroid/os/Bundle;)Landroid/content/Intent;
 
     .line 88
     .line 89
@@ -409,8 +380,7 @@
 
     .line 92
     .line 93
-    invoke-static {p0, v0}, Landroid/content/ClipData;
-    ->newIntent(Ljava/lang/CharSequence;Landroid/content/Intent;)Landroid/content/ClipData;
+    invoke-static {p0, v0}, Landroid/content/ClipData;->newIntent(Ljava/lang/CharSequence;Landroid/content/Intent;)Landroid/content/ClipData;
 
     .line 94
     .line 95
@@ -418,8 +388,7 @@
     move-result-object p0
 
     .line 97
-    invoke-virtual {p1, p0}, Landroid/content/Intent;
-    ->setClipData(Landroid/content/ClipData;)V
+    invoke-virtual {p1, p0}, Landroid/content/Intent;->setClipData(Landroid/content/ClipData;)V
 
     .line 98
     .line 99
@@ -449,8 +418,7 @@
     const/4 v1, 0x0
 
     .line 3
-    sget v2, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v2, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 4
     .line 5
@@ -462,8 +430,7 @@
 
     .line 8
     .line 9
-    invoke-static {p0}, Landroidx/core/app/RemoteInput;
-    ->fromCompat([Landroidx/core/app/RemoteInput;)[Landroid/app/RemoteInput;
+    invoke-static {p0}, Landroidx/core/app/RemoteInput;->fromCompat([Landroidx/core/app/RemoteInput;)[Landroid/app/RemoteInput;
 
     .line 10
     .line 11
@@ -471,8 +438,7 @@
     move-result-object p0
 
     .line 13
-    invoke-static {p0, p1, p2}, Landroidx/core/app/RemoteInput$Api20Impl;
-    ->addResultsToIntent(Ljava/lang/Object;Landroid/content/Intent;Landroid/os/Bundle;)V
+    invoke-static {p0, p1, p2}, Landroidx/core/app/RemoteInput$Api20Impl;->addResultsToIntent(Ljava/lang/Object;Landroid/content/Intent;Landroid/os/Bundle;)V
 
     .line 14
     .line 15
@@ -481,8 +447,7 @@
 
     .line 17
     :cond_0
-    invoke-static {p1}, Landroidx/core/app/RemoteInput;
-    ->getResultsFromIntent(Landroid/content/Intent;)Landroid/os/Bundle;
+    invoke-static {p1}, Landroidx/core/app/RemoteInput;->getResultsFromIntent(Landroid/content/Intent;)Landroid/os/Bundle;
 
     .line 18
     .line 19
@@ -490,8 +455,7 @@
     move-result-object v2
 
     .line 21
-    invoke-static {p1}, Landroidx/core/app/RemoteInput;
-    ->getResultsSource(Landroid/content/Intent;)I
+    invoke-static {p1}, Landroidx/core/app/RemoteInput;->getResultsSource(Landroid/content/Intent;)I
 
     .line 22
     .line 23
@@ -507,8 +471,7 @@
 
     .line 28
     :cond_1
-    invoke-virtual {v2, p2}, Landroid/os/Bundle;
-    ->putAll(Landroid/os/Bundle;)V
+    invoke-virtual {v2, p2}, Landroid/os/Bundle;->putAll(Landroid/os/Bundle;)V
 
     .line 29
     .line 30
@@ -532,8 +495,7 @@
 
     .line 37
     .line 38
-    invoke-virtual {v5}, Landroidx/core/app/RemoteInput;
-    ->getResultKey()Ljava/lang/String;
+    invoke-virtual {v5}, Landroidx/core/app/RemoteInput;->getResultKey()Ljava/lang/String;
 
     .line 39
     .line 40
@@ -541,8 +503,7 @@
     move-result-object v6
 
     .line 42
-    invoke-static {p1, v6}, Landroidx/core/app/RemoteInput;
-    ->getDataResultsFromIntent(Landroid/content/Intent;Ljava/lang/String;)Ljava/util/Map;
+    invoke-static {p1, v6}, Landroidx/core/app/RemoteInput;->getDataResultsFromIntent(Landroid/content/Intent;Ljava/lang/String;)Ljava/util/Map;
 
     .line 43
     .line 44
@@ -558,8 +519,7 @@
 
     .line 49
     .line 50
-    invoke-static {v7}, Landroidx/core/app/RemoteInput;
-    ->fromCompat([Landroidx/core/app/RemoteInput;)[Landroid/app/RemoteInput;
+    invoke-static {v7}, Landroidx/core/app/RemoteInput;->fromCompat([Landroidx/core/app/RemoteInput;)[Landroid/app/RemoteInput;
 
     .line 51
     .line 52
@@ -567,8 +527,7 @@
     move-result-object v7
 
     .line 54
-    invoke-static {v7, p1, p2}, Landroidx/core/app/RemoteInput$Api20Impl;
-    ->addResultsToIntent(Ljava/lang/Object;Landroid/content/Intent;Landroid/os/Bundle;)V
+    invoke-static {v7, p1, p2}, Landroidx/core/app/RemoteInput$Api20Impl;->addResultsToIntent(Ljava/lang/Object;Landroid/content/Intent;Landroid/os/Bundle;)V
 
     .line 55
     .line 56
@@ -577,8 +536,7 @@
 
     .line 58
     .line 59
-    invoke-static {v5, p1, v6}, Landroidx/core/app/RemoteInput;
-    ->addDataResultToIntent(Landroidx/core/app/RemoteInput;Landroid/content/Intent;Ljava/util/Map;)V
+    invoke-static {v5, p1, v6}, Landroidx/core/app/RemoteInput;->addDataResultToIntent(Landroidx/core/app/RemoteInput;Landroid/content/Intent;Ljava/util/Map;)V
 
     .line 60
     .line 61
@@ -591,8 +549,7 @@
 
     .line 64
     :cond_3
-    invoke-static {p1, v3}, Landroidx/core/app/RemoteInput;
-    ->setResultsSource(Landroid/content/Intent;I)V
+    invoke-static {p1, v3}, Landroidx/core/app/RemoteInput;->setResultsSource(Landroid/content/Intent;I)V
 
     .line 65
     .line 66
@@ -607,8 +564,7 @@
     .end annotation
 
     .line 4
-    invoke-static {p0}, Landroidx/core/app/RemoteInput$Api20Impl;
-    ->fromCompat(Landroidx/core/app/RemoteInput;)Landroid/app/RemoteInput;
+    invoke-static {p0}, Landroidx/core/app/RemoteInput$Api20Impl;->fromCompat(Landroidx/core/app/RemoteInput;)Landroid/app/RemoteInput;
 
     move-result-object p0
 
@@ -644,8 +600,7 @@
     .line 3
     aget-object v2, p0, v1
 
-    invoke-static {v2}, Landroidx/core/app/RemoteInput;
-    ->fromCompat(Landroidx/core/app/RemoteInput;)Landroid/app/RemoteInput;
+    invoke-static {v2}, Landroidx/core/app/RemoteInput;->fromCompat(Landroidx/core/app/RemoteInput;)Landroid/app/RemoteInput;
 
     move-result-object v2
 
@@ -666,8 +621,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/app/RemoteInput$Api20Impl;
-    ->fromPlatform(Ljava/lang/Object;)Landroidx/core/app/RemoteInput;
+    invoke-static {p0}, Landroidx/core/app/RemoteInput$Api20Impl;->fromPlatform(Ljava/lang/Object;)Landroidx/core/app/RemoteInput;
 
     .line 2
     .line 3
@@ -681,8 +635,7 @@
     .locals 3
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Intent;
-    ->getClipData()Landroid/content/ClipData;
+    invoke-virtual {p0}, Landroid/content/Intent;->getClipData()Landroid/content/ClipData;
 
     .line 2
     .line 3
@@ -701,8 +654,7 @@
 
     .line 9
     :cond_0
-    invoke-virtual {p0}, Landroid/content/ClipData;
-    ->getDescription()Landroid/content/ClipDescription;
+    invoke-virtual {p0}, Landroid/content/ClipData;->getDescription()Landroid/content/ClipDescription;
 
     .line 10
     .line 11
@@ -714,8 +666,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {v1, v2}, Landroid/content/ClipDescription;
-    ->hasMimeType(Ljava/lang/String;)Z
+    invoke-virtual {v1, v2}, Landroid/content/ClipDescription;->hasMimeType(Ljava/lang/String;)Z
 
     .line 16
     .line 17
@@ -731,8 +682,7 @@
 
     .line 22
     :cond_1
-    invoke-virtual {v1}, Landroid/content/ClipDescription;
-    ->getLabel()Ljava/lang/CharSequence;
+    invoke-virtual {v1}, Landroid/content/ClipDescription;->getLabel()Ljava/lang/CharSequence;
 
     .line 23
     .line 24
@@ -740,8 +690,7 @@
     move-result-object v1
 
     .line 26
-    invoke-interface {v1}, Ljava/lang/CharSequence;
-    ->toString()Ljava/lang/String;
+    invoke-interface {v1}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
     .line 27
     .line 28
@@ -753,8 +702,7 @@
 
     .line 31
     .line 32
-    invoke-virtual {v1, v2}, Ljava/lang/String;
-    ->contentEquals(Ljava/lang/CharSequence;)Z
+    invoke-virtual {v1, v2}, Ljava/lang/String;->contentEquals(Ljava/lang/CharSequence;)Z
 
     .line 33
     .line 34
@@ -773,8 +721,7 @@
     const/4 v0, 0x0
 
     .line 40
-    invoke-virtual {p0, v0}, Landroid/content/ClipData;
-    ->getItemAt(I)Landroid/content/ClipData$Item;
+    invoke-virtual {p0, v0}, Landroid/content/ClipData;->getItemAt(I)Landroid/content/ClipData$Item;
 
     .line 41
     .line 42
@@ -782,8 +729,7 @@
     move-result-object p0
 
     .line 44
-    invoke-virtual {p0}, Landroid/content/ClipData$Item;
-    ->getIntent()Landroid/content/Intent;
+    invoke-virtual {p0}, Landroid/content/ClipData$Item;->getIntent()Landroid/content/Intent;
 
     .line 45
     .line 46
@@ -820,8 +766,7 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -833,8 +778,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/app/RemoteInput$Api26Impl;
-    ->getDataResultsFromIntent(Landroid/content/Intent;Ljava/lang/String;)Ljava/util/Map;
+    invoke-static {p0, p1}, Landroidx/core/app/RemoteInput$Api26Impl;->getDataResultsFromIntent(Landroid/content/Intent;Ljava/lang/String;)Ljava/util/Map;
 
     .line 8
     .line 9
@@ -845,8 +789,7 @@
 
     .line 12
     :cond_0
-    invoke-static {p0}, Landroidx/core/app/RemoteInput;
-    ->getClipDataIntentFromIntent(Landroid/content/Intent;)Landroid/content/Intent;
+    invoke-static {p0}, Landroidx/core/app/RemoteInput;->getClipDataIntentFromIntent(Landroid/content/Intent;)Landroid/content/Intent;
 
     .line 13
     .line 14
@@ -869,14 +812,12 @@
 
     .line 21
     .line 22
-    invoke-direct {v1}, Ljava/util/HashMap;
-    -><init>()V
+    invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
     .line 23
     .line 24
     .line 25
-    invoke-virtual {p0}, Landroid/content/Intent;
-    ->getExtras()Landroid/os/Bundle;
+    invoke-virtual {p0}, Landroid/content/Intent;->getExtras()Landroid/os/Bundle;
 
     .line 26
     .line 27
@@ -884,8 +825,7 @@
     move-result-object v2
 
     .line 29
-    invoke-virtual {v2}, Landroid/os/BaseBundle;
-    ->keySet()Ljava/util/Set;
+    invoke-virtual {v2}, Landroid/os/BaseBundle;->keySet()Ljava/util/Set;
 
     .line 30
     .line 31
@@ -893,8 +833,7 @@
     move-result-object v2
 
     .line 33
-    invoke-interface {v2}, Ljava/util/Set;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     .line 34
     .line 35
@@ -904,8 +843,7 @@
     .line 37
     :cond_2
     :goto_0
-    invoke-interface {v2}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
 
     .line 38
     .line 39
@@ -917,8 +855,7 @@
 
     .line 42
     .line 43
-    invoke-interface {v2}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 44
     .line 45
@@ -934,8 +871,7 @@
 
     .line 50
     .line 51
-    invoke-virtual {v3, v4}, Ljava/lang/String;
-    ->startsWith(Ljava/lang/String;)Z
+    invoke-virtual {v3, v4}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     .line 52
     .line 53
@@ -951,8 +887,7 @@
 
     .line 58
     .line 59
-    invoke-virtual {v3, v4}, Ljava/lang/String;
-    ->substring(I)Ljava/lang/String;
+    invoke-virtual {v3, v4}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     .line 60
     .line 61
@@ -960,8 +895,7 @@
     move-result-object v4
 
     .line 63
-    invoke-virtual {v4}, Ljava/lang/String;
-    ->isEmpty()Z
+    invoke-virtual {v4}, Ljava/lang/String;->isEmpty()Z
 
     .line 64
     .line 65
@@ -977,8 +911,7 @@
 
     .line 70
     :cond_3
-    invoke-virtual {p0, v3}, Landroid/content/Intent;
-    ->getBundleExtra(Ljava/lang/String;)Landroid/os/Bundle;
+    invoke-virtual {p0, v3}, Landroid/content/Intent;->getBundleExtra(Ljava/lang/String;)Landroid/os/Bundle;
 
     .line 71
     .line 72
@@ -986,8 +919,7 @@
     move-result-object v3
 
     .line 74
-    invoke-virtual {v3, p1}, Landroid/os/BaseBundle;
-    ->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v3, p1}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     .line 75
     .line 76
@@ -999,8 +931,7 @@
 
     .line 79
     .line 80
-    invoke-virtual {v3}, Ljava/lang/String;
-    ->isEmpty()Z
+    invoke-virtual {v3}, Ljava/lang/String;->isEmpty()Z
 
     .line 81
     .line 82
@@ -1016,8 +947,7 @@
 
     .line 87
     :cond_4
-    invoke-static {v3}, Landroid/net/Uri;
-    ->parse(Ljava/lang/String;)Landroid/net/Uri;
+    invoke-static {v3}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
     .line 88
     .line 89
@@ -1025,8 +955,7 @@
     move-result-object v3
 
     .line 91
-    invoke-virtual {v1, v4, v3}, Ljava/util/HashMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v4, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 92
     .line 93
@@ -1035,8 +964,7 @@
 
     .line 95
     :cond_5
-    invoke-virtual {v1}, Ljava/util/HashMap;
-    ->isEmpty()Z
+    invoke-virtual {v1}, Ljava/util/HashMap;->isEmpty()Z
 
     .line 96
     .line 97
@@ -1063,8 +991,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p0}, LA/d;
-    ->w(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, p0}, LA/d;->w(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 4
     .line 5
@@ -1084,8 +1011,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/app/RemoteInput$Api20Impl;
-    ->getResultsFromIntent(Landroid/content/Intent;)Landroid/os/Bundle;
+    invoke-static {p0}, Landroidx/core/app/RemoteInput$Api20Impl;->getResultsFromIntent(Landroid/content/Intent;)Landroid/os/Bundle;
 
     .line 2
     .line 3
@@ -1103,8 +1029,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -1116,8 +1041,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/app/RemoteInput$Api28Impl;
-    ->getResultsSource(Landroid/content/Intent;)I
+    invoke-static {p0}, Landroidx/core/app/RemoteInput$Api28Impl;->getResultsSource(Landroid/content/Intent;)I
 
     .line 8
     .line 9
@@ -1128,8 +1052,7 @@
 
     .line 12
     :cond_0
-    invoke-static {p0}, Landroidx/core/app/RemoteInput;
-    ->getClipDataIntentFromIntent(Landroid/content/Intent;)Landroid/content/Intent;
+    invoke-static {p0}, Landroidx/core/app/RemoteInput;->getClipDataIntentFromIntent(Landroid/content/Intent;)Landroid/content/Intent;
 
     .line 13
     .line 14
@@ -1148,8 +1071,7 @@
 
     .line 20
     :cond_1
-    invoke-virtual {p0}, Landroid/content/Intent;
-    ->getExtras()Landroid/os/Bundle;
+    invoke-virtual {p0}, Landroid/content/Intent;->getExtras()Landroid/os/Bundle;
 
     .line 21
     .line 22
@@ -1161,8 +1083,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {p0, v1, v0}, Landroid/os/BaseBundle;
-    ->getInt(Ljava/lang/String;I)I
+    invoke-virtual {p0, v1, v0}, Landroid/os/BaseBundle;->getInt(Ljava/lang/String;I)I
 
     .line 27
     .line 28
@@ -1180,8 +1101,7 @@
     .end param
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -1193,8 +1113,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0, p1}, Landroidx/core/app/RemoteInput$Api28Impl;
-    ->setResultsSource(Landroid/content/Intent;I)V
+    invoke-static {p0, p1}, Landroidx/core/app/RemoteInput$Api28Impl;->setResultsSource(Landroid/content/Intent;I)V
 
     .line 8
     .line 9
@@ -1203,8 +1122,7 @@
 
     .line 11
     :cond_0
-    invoke-static {p0}, Landroidx/core/app/RemoteInput;
-    ->getClipDataIntentFromIntent(Landroid/content/Intent;)Landroid/content/Intent;
+    invoke-static {p0}, Landroidx/core/app/RemoteInput;->getClipDataIntentFromIntent(Landroid/content/Intent;)Landroid/content/Intent;
 
     .line 12
     .line 13
@@ -1220,8 +1138,7 @@
 
     .line 18
     .line 19
-    invoke-direct {v0}, Landroid/content/Intent;
-    -><init>()V
+    invoke-direct {v0}, Landroid/content/Intent;-><init>()V
 
     .line 20
     .line 21
@@ -1231,8 +1148,7 @@
 
     .line 23
     .line 24
-    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;
-    ->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
+    invoke-virtual {v0, v1, p1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;I)Landroid/content/Intent;
 
     .line 25
     .line 26
@@ -1241,8 +1157,7 @@
 
     .line 28
     .line 29
-    invoke-static {p1, v0}, Landroid/content/ClipData;
-    ->newIntent(Ljava/lang/CharSequence;Landroid/content/Intent;)Landroid/content/ClipData;
+    invoke-static {p1, v0}, Landroid/content/ClipData;->newIntent(Ljava/lang/CharSequence;Landroid/content/Intent;)Landroid/content/ClipData;
 
     .line 30
     .line 31
@@ -1250,8 +1165,7 @@
     move-result-object p1
 
     .line 33
-    invoke-virtual {p0, p1}, Landroid/content/Intent;
-    ->setClipData(Landroid/content/ClipData;)V
+    invoke-virtual {p0, p1}, Landroid/content/Intent;->setClipData(Landroid/content/ClipData;)V
 
     .line 34
     .line 35
@@ -1265,8 +1179,7 @@
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/core/app/RemoteInput;
-    ->mAllowFreeFormTextInput:Z
+    iget-boolean v0, p0, Landroidx/core/app/RemoteInput;->mAllowFreeFormTextInput:Z
 
     .line 2
     .line 3
@@ -1288,8 +1201,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/RemoteInput;
-    ->mAllowedDataTypes:Ljava/util/Set;
+    iget-object v0, p0, Landroidx/core/app/RemoteInput;->mAllowedDataTypes:Ljava/util/Set;
 
     .line 2
     .line 3
@@ -1302,8 +1214,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/RemoteInput;
-    ->mChoices:[Ljava/lang/CharSequence;
+    iget-object v0, p0, Landroidx/core/app/RemoteInput;->mChoices:[Ljava/lang/CharSequence;
 
     .line 2
     .line 3
@@ -1314,8 +1225,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/core/app/RemoteInput;
-    ->mEditChoicesBeforeSending:I
+    iget v0, p0, Landroidx/core/app/RemoteInput;->mEditChoicesBeforeSending:I
 
     .line 2
     .line 3
@@ -1328,8 +1238,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/RemoteInput;
-    ->mExtras:Landroid/os/Bundle;
+    iget-object v0, p0, Landroidx/core/app/RemoteInput;->mExtras:Landroid/os/Bundle;
 
     .line 2
     .line 3
@@ -1342,8 +1251,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/RemoteInput;
-    ->mLabel:Ljava/lang/CharSequence;
+    iget-object v0, p0, Landroidx/core/app/RemoteInput;->mLabel:Ljava/lang/CharSequence;
 
     .line 2
     .line 3
@@ -1356,8 +1264,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/core/app/RemoteInput;
-    ->mResultKey:Ljava/lang/String;
+    iget-object v0, p0, Landroidx/core/app/RemoteInput;->mResultKey:Ljava/lang/String;
 
     .line 2
     .line 3
@@ -1368,8 +1275,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;
-    ->getAllowFreeFormInput()Z
+    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;->getAllowFreeFormInput()Z
 
     .line 2
     .line 3
@@ -1381,8 +1287,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;
-    ->getChoices()[Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;->getChoices()[Ljava/lang/CharSequence;
 
     .line 8
     .line 9
@@ -1394,8 +1299,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;
-    ->getChoices()[Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;->getChoices()[Ljava/lang/CharSequence;
 
     .line 14
     .line 15
@@ -1411,8 +1315,7 @@
     .line 19
     .line 20
     :cond_0
-    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;
-    ->getAllowedDataTypes()Ljava/util/Set;
+    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;->getAllowedDataTypes()Ljava/util/Set;
 
     .line 21
     .line 22
@@ -1424,8 +1327,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;
-    ->getAllowedDataTypes()Ljava/util/Set;
+    invoke-virtual {p0}, Landroidx/core/app/RemoteInput;->getAllowedDataTypes()Ljava/util/Set;
 
     .line 27
     .line 28
@@ -1433,8 +1335,7 @@
     move-result-object v0
 
     .line 30
-    invoke-interface {v0}, Ljava/util/Set;
-    ->isEmpty()Z
+    invoke-interface {v0}, Ljava/util/Set;->isEmpty()Z
 
     .line 31
     .line 32

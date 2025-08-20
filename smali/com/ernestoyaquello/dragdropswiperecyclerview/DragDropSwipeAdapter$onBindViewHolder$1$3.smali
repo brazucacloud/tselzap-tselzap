@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->onBindViewHolder(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;I)V
+    value = Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->onBindViewHolder(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;I)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -55,16 +54,13 @@
         }
     .end annotation
 
-    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$onBindViewHolder$1$3;
-    ->$holder:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
+    iput-object p1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$onBindViewHolder$1$3;->$holder:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
 
-    iput-object p2, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$onBindViewHolder$1$3;
-    ->this$0:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
+    iput-object p2, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$onBindViewHolder$1$3;->this$0:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
 
     const/4 p1, 0x0
 
-    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;
-    -><init>(I)V
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/k;-><init>(I)V
 return-void
 .end method
 
@@ -74,11 +70,9 @@ return-void
     .locals 4
 
     .line 2
-    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$onBindViewHolder$1$3;
-    ->$holder:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
+    iget-object v0, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$onBindViewHolder$1$3;->$holder:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
 
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
-    ->getBindingAdapterPosition()I
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->getBindingAdapterPosition()I
 
     move-result v0
 
@@ -87,28 +81,22 @@ return-void
     if-eq v0, v1, :cond_0
 
     .line 3
-    iget-object v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$onBindViewHolder$1$3;
-    ->this$0:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
+    iget-object v1, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$onBindViewHolder$1$3;->this$0:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
 
-    invoke-static {v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->access$getMutableDataSet$p(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;)Ljava/util/List;
+    invoke-static {v1}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->access$getMutableDataSet$p(Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;)Ljava/util/List;
 
     move-result-object v1
 
-    invoke-interface {v1, v0}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {v1, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v1
 
     .line 4
-    iget-object v2, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$onBindViewHolder$1$3;
-    ->this$0:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
+    iget-object v2, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$onBindViewHolder$1$3;->this$0:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
 
-    iget-object v3, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$onBindViewHolder$1$3;
-    ->$holder:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
+    iget-object v3, p0, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$onBindViewHolder$1$3;->$holder:Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;
 
-    invoke-virtual {v2, v1, v3, v0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;
-    ->canBeSwiped(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;I)Z
+    invoke-virtual {v2, v1, v3, v0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter;->canBeSwiped(Ljava/lang/Object;Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$ViewHolder;I)Z
 
     move-result v0
 
@@ -119,8 +107,7 @@ return-void
 
     .line 5
     :goto_0
-    invoke-static {v0}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     move-result-object v0
 
@@ -131,8 +118,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$onBindViewHolder$1$3;
-    ->invoke()Ljava/lang/Boolean;
+    invoke-virtual {p0}, Lcom/ernestoyaquello/dragdropswiperecyclerview/DragDropSwipeAdapter$onBindViewHolder$1$3;->invoke()Ljava/lang/Boolean;
 
     move-result-object v0
 

@@ -8,8 +8,7 @@
     .locals 4
 
     .line 1
-    invoke-static {p0}, Ljava/lang/Float;
-    ->floatToRawIntBits(F)I
+    invoke-static {p0}, Ljava/lang/Float;->floatToRawIntBits(F)I
 
     .line 2
     .line 3
@@ -20,8 +19,7 @@
     int-to-long v0, p0
 
     .line 6
-    invoke-static {p1}, Ljava/lang/Float;
-    ->floatToRawIntBits(F)I
+    invoke-static {p1}, Ljava/lang/Float;->floatToRawIntBits(F)I
 
     .line 7
     .line 8

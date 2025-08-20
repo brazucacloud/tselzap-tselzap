@@ -18,14 +18,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p1}, Lo/w;
-    -><init>(LF/d;)V
+    invoke-direct {v0, p1}, Lo/w;-><init>(LF/d;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 7
     .line 8
@@ -37,19 +35,16 @@
     const/4 v1, 0x2
 
     .line 12
-    invoke-direct {p1, v1}, Lcom/bumptech/glide/d;
-    -><init>(I)V
+    invoke-direct {p1, v1}, Lcom/bumptech/glide/d;-><init>(I)V
 
     .line 13
     .line 14
     .line 15
-    iput-object p1, p0, Lo/r;
-    ->b:Lcom/bumptech/glide/d;
+    iput-object p1, p0, Lo/r;->b:Lcom/bumptech/glide/d;
 
     .line 16
     .line 17
-    iput-object v0, p0, Lo/r;
-    ->a:Lo/w;
+    iput-object v0, p0, Lo/r;->a:Lo/w;
 
     .line 18
     .line 19
@@ -66,13 +61,11 @@
 
     .line 2
     :try_start_0
-    iget-object v0, p0, Lo/r;
-    ->a:Lo/w;
+    iget-object v0, p0, Lo/r;->a:Lo/w;
 
     .line 3
     .line 4
-    invoke-virtual {v0, p1}, Lo/w;
-    ->d(Ljava/lang/Class;)Ljava/util/ArrayList;
+    invoke-virtual {v0, p1}, Lo/w;->d(Ljava/lang/Class;)Ljava/util/ArrayList;
 
     .line 5
     .line 6

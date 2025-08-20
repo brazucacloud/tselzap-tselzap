@@ -5,8 +5,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/transition/TransitionSet;
-    ->runAnimators()V
+    value = Landroidx/transition/TransitionSet;->runAnimators()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -26,18 +25,15 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/transition/TransitionSet$1;
-    ->this$0:Landroidx/transition/TransitionSet;
+    iput-object p1, p0, Landroidx/transition/TransitionSet$1;->this$0:Landroidx/transition/TransitionSet;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/transition/TransitionSet$1;
-    ->val$nextTransition:Landroidx/transition/Transition;
+    iput-object p2, p0, Landroidx/transition/TransitionSet$1;->val$nextTransition:Landroidx/transition/Transition;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/transition/TransitionListenerAdapter;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/transition/TransitionListenerAdapter;-><init>()V
     return-void
 .end method
 
@@ -51,19 +47,16 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/transition/TransitionSet$1;
-    ->val$nextTransition:Landroidx/transition/Transition;
+    iget-object v0, p0, Landroidx/transition/TransitionSet$1;->val$nextTransition:Landroidx/transition/Transition;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/transition/Transition;
-    ->runAnimators()V
+    invoke-virtual {v0}, Landroidx/transition/Transition;->runAnimators()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p1, p0}, Landroidx/transition/Transition;
-    ->removeListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;    
+    invoke-virtual {p1, p0}, Landroidx/transition/Transition;->removeListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;
     return-void
 .end method
 

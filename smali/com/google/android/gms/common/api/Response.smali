@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -41,11 +40,9 @@
     .end annotation
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/Response;
-    ->zza:Lcom/google/android/gms/common/api/Result;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/Response;->zza:Lcom/google/android/gms/common/api/Result;
 
     return-void
 .end method
@@ -63,8 +60,7 @@
         }
     .end annotation
 
-    iget-object v0, p0, Lcom/google/android/gms/common/api/Response;
-    ->zza:Lcom/google/android/gms/common/api/Result;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/Response;->zza:Lcom/google/android/gms/common/api/Result;
 
     return-object v0
 .end method
@@ -81,8 +77,7 @@
         }
     .end annotation
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/Response;
-    ->zza:Lcom/google/android/gms/common/api/Result;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/Response;->zza:Lcom/google/android/gms/common/api/Result;
 
     return-void
 .end method

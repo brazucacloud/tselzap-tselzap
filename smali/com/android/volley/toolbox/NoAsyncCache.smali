@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/android/volley/AsyncCache;
-    -><init>()V
+    invoke-direct {p0}, Lcom/android/volley/AsyncCache;-><init>()V
 
     .line 2
     .line 3
@@ -23,8 +22,7 @@
     .locals 0
 
     .line 1
-    invoke-interface {p1}, Lcom/android/volley/AsyncCache$OnWriteCompleteCallback;
-    ->onWriteComplete()V
+    invoke-interface {p1}, Lcom/android/volley/AsyncCache$OnWriteCompleteCallback;->onWriteComplete()V
 
     .line 2
     .line 3
@@ -39,8 +37,7 @@
     const/4 p1, 0x0
 
     .line 2
-    invoke-interface {p2, p1}, Lcom/android/volley/AsyncCache$OnGetCompleteCallback;
-    ->onGetComplete(Lcom/android/volley/Cache$Entry;)V
+    invoke-interface {p2, p1}, Lcom/android/volley/AsyncCache$OnGetCompleteCallback;->onGetComplete(Lcom/android/volley/Cache$Entry;)V
 
     .line 3
     .line 4
@@ -52,8 +49,7 @@
     .locals 0
 
     .line 1
-    invoke-interface {p1}, Lcom/android/volley/AsyncCache$OnWriteCompleteCallback;
-    ->onWriteComplete()V
+    invoke-interface {p1}, Lcom/android/volley/AsyncCache$OnWriteCompleteCallback;->onWriteComplete()V
 
     .line 2
     .line 3
@@ -65,8 +61,7 @@
     .locals 0
 
     .line 1
-    invoke-interface {p3}, Lcom/android/volley/AsyncCache$OnWriteCompleteCallback;
-    ->onWriteComplete()V
+    invoke-interface {p3}, Lcom/android/volley/AsyncCache$OnWriteCompleteCallback;->onWriteComplete()V
 
     .line 2
     .line 3
@@ -78,8 +73,7 @@
     .locals 0
 
     .line 1
-    invoke-interface {p3}, Lcom/android/volley/AsyncCache$OnWriteCompleteCallback;
-    ->onWriteComplete()V
+    invoke-interface {p3}, Lcom/android/volley/AsyncCache$OnWriteCompleteCallback;->onWriteComplete()V
 
     .line 2
     .line 3
@@ -91,8 +85,7 @@
     .locals 0
 
     .line 1
-    invoke-interface {p2}, Lcom/android/volley/AsyncCache$OnWriteCompleteCallback;
-    ->onWriteComplete()V
+    invoke-interface {p2}, Lcom/android/volley/AsyncCache$OnWriteCompleteCallback;->onWriteComplete()V
 
     .line 2
     .line 3

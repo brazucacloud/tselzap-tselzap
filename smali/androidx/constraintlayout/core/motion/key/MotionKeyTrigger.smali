@@ -102,8 +102,7 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Landroidx/constraintlayout/core/motion/key/MotionKey;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/core/motion/key/MotionKey;-><init>()V
 
     .line 2
     .line 3
@@ -111,46 +110,38 @@
     const/4 v0, -0x1
 
     .line 5
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mCurveFit:I
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mCurveFit:I
 
     .line 6
     .line 7
     const/4 v0, 0x0
 
     .line 8
-    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mCross:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mCross:Ljava/lang/String;
 
     .line 9
     .line 10
-    sget v1, Landroidx/constraintlayout/core/motion/key/MotionKey;
-    ->UNSET:I
+    sget v1, Landroidx/constraintlayout/core/motion/key/MotionKey;->UNSET:I
 
     .line 11
     .line 12
-    iput v1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mTriggerReceiver:I
+    iput v1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mTriggerReceiver:I
 
     .line 13
     .line 14
-    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mNegativeCross:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mNegativeCross:Ljava/lang/String;
 
     .line 15
     .line 16
-    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mPositiveCross:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mPositiveCross:Ljava/lang/String;
 
     .line 17
     .line 18
-    iput v1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mTriggerID:I
+    iput v1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mTriggerID:I
 
     .line 19
     .line 20
-    iput v1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mTriggerCollisionId:I
+    iput v1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mTriggerCollisionId:I
 
     .line 21
     .line 22
@@ -159,26 +150,22 @@
     .line 23
     .line 24
     .line 25
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mTriggerSlack:F
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mTriggerSlack:F
 
     .line 26
     .line 27
     const/4 v0, 0x1
 
     .line 28
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mFireCrossReset:Z
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mFireCrossReset:Z
 
     .line 29
     .line 30
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mFireNegativeReset:Z
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mFireNegativeReset:Z
 
     .line 31
     .line 32
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mFirePositiveReset:Z
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mFirePositiveReset:Z
 
     .line 33
     .line 34
@@ -186,31 +173,26 @@
 
     .line 35
     .line 36
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mFireThreshold:F
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mFireThreshold:F
 
     .line 37
     .line 38
     const/4 v0, 0x0
 
     .line 39
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mPostLayout:Z
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mPostLayout:Z
 
     .line 40
     .line 41
-    iput v1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mViewTransitionOnNegativeCross:I
+    iput v1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mViewTransitionOnNegativeCross:I
 
     .line 42
     .line 43
-    iput v1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mViewTransitionOnPositiveCross:I
+    iput v1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mViewTransitionOnPositiveCross:I
 
     .line 44
     .line 45
-    iput v1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mViewTransitionOnCross:I
+    iput v1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mViewTransitionOnCross:I
 
     .line 46
     .line 47
@@ -218,14 +200,12 @@
 
     .line 48
     .line 49
-    invoke-direct {v0}, Landroidx/constraintlayout/core/motion/utils/FloatRect;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/constraintlayout/core/motion/utils/FloatRect;-><init>()V
 
     .line 50
     .line 51
     .line 52
-    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mCollisionRect:Landroidx/constraintlayout/core/motion/utils/FloatRect;
+    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mCollisionRect:Landroidx/constraintlayout/core/motion/utils/FloatRect;
 
     .line 53
     .line 54
@@ -233,22 +213,19 @@
 
     .line 55
     .line 56
-    invoke-direct {v0}, Landroidx/constraintlayout/core/motion/utils/FloatRect;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/constraintlayout/core/motion/utils/FloatRect;-><init>()V
 
     .line 57
     .line 58
     .line 59
-    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mTargetRect:Landroidx/constraintlayout/core/motion/utils/FloatRect;
+    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mTargetRect:Landroidx/constraintlayout/core/motion/utils/FloatRect;
 
     .line 60
     .line 61
     const/4 v0, 0x5
 
     .line 62
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;
-    ->mType:I
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mType:I
 
     .line 63
     .line 64
@@ -256,14 +233,12 @@
 
     .line 65
     .line 66
-    invoke-direct {v0}, Ljava/util/HashMap;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     .line 67
     .line 68
     .line 69
-    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;
-    ->mCustom:Ljava/util/HashMap;    
+    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mCustom:Ljava/util/HashMap;
     return-void
 .end method
 
@@ -271,8 +246,7 @@
     .locals 4
 
     .line 1
-    invoke-virtual {p1}, Ljava/lang/String;
-    ->length()I
+    invoke-virtual {p1}, Ljava/lang/String;->length()I
 
     .line 2
     .line 3
@@ -302,8 +276,7 @@
 
     .line 12
     .line 13
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->substring(I)Ljava/lang/String;
+    invoke-virtual {p1, v1}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     .line 14
     .line 15
@@ -311,13 +284,11 @@
     move-result-object p1
 
     .line 17
-    sget-object v1, Ljava/util/Locale;
-    ->ROOT:Ljava/util/Locale;
+    sget-object v1, Ljava/util/Locale;->ROOT:Ljava/util/Locale;
 
     .line 18
     .line 19
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+    invoke-virtual {p1, v1}, Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
 
     .line 20
     .line 21
@@ -326,13 +297,11 @@
 
     .line 23
     :cond_1
-    iget-object v1, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;
-    ->mCustom:Ljava/util/HashMap;
+    iget-object v1, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mCustom:Ljava/util/HashMap;
 
     .line 24
     .line 25
-    invoke-virtual {v1}, Ljava/util/HashMap;
-    ->keySet()Ljava/util/Set;
+    invoke-virtual {v1}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
 
     .line 26
     .line 27
@@ -340,8 +309,7 @@
     move-result-object v1
 
     .line 29
-    invoke-interface {v1}, Ljava/util/Set;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     .line 30
     .line 31
@@ -351,8 +319,7 @@
     .line 33
     :cond_2
     :goto_1
-    invoke-interface {v1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
     .line 34
     .line 35
@@ -364,8 +331,7 @@
 
     .line 38
     .line 39
-    invoke-interface {v1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 40
     .line 41
@@ -377,13 +343,11 @@
 
     .line 44
     .line 45
-    sget-object v3, Ljava/util/Locale;
-    ->ROOT:Ljava/util/Locale;
+    sget-object v3, Ljava/util/Locale;->ROOT:Ljava/util/Locale;
 
     .line 46
     .line 47
-    invoke-virtual {v2, v3}, Ljava/lang/String;
-    ->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+    invoke-virtual {v2, v3}, Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
 
     .line 48
     .line 49
@@ -395,8 +359,7 @@
 
     .line 52
     .line 53
-    invoke-virtual {v3, p1}, Ljava/lang/String;
-    ->matches(Ljava/lang/String;)Z
+    invoke-virtual {v3, p1}, Ljava/lang/String;->matches(Ljava/lang/String;)Z
 
     .line 54
     .line 55
@@ -409,13 +372,11 @@
     .line 58
     .line 59
     :cond_3
-    iget-object v3, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;
-    ->mCustom:Ljava/util/HashMap;
+    iget-object v3, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mCustom:Ljava/util/HashMap;
 
     .line 60
     .line 61
-    invoke-virtual {v3, v2}, Ljava/util/HashMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 62
     .line 63
@@ -431,8 +392,7 @@
 
     .line 68
     .line 69
-    invoke-virtual {v2, p2}, Landroidx/constraintlayout/core/motion/CustomVariable;
-    ->applyToWidget(Landroidx/constraintlayout/core/motion/MotionWidget;)V
+    invoke-virtual {v2, p2}, Landroidx/constraintlayout/core/motion/CustomVariable;->applyToWidget(Landroidx/constraintlayout/core/motion/MotionWidget;)V
 
     .line 70
     .line 71
@@ -467,11 +427,9 @@
     .line 2
     new-instance v0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
 
-    invoke-direct {v0}, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;-><init>()V
 
-    invoke-virtual {v0, p0}, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->copy(Landroidx/constraintlayout/core/motion/key/MotionKey;)Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
+    invoke-virtual {v0, p0}, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->copy(Landroidx/constraintlayout/core/motion/key/MotionKey;)Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
 
     move-result-object v0
 
@@ -482,8 +440,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->clone()Landroidx/constraintlayout/core/motion/key/MotionKey;
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->clone()Landroidx/constraintlayout/core/motion/key/MotionKey;
 
     move-result-object v0
 
@@ -500,8 +457,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->copy(Landroidx/constraintlayout/core/motion/key/MotionKey;)Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->copy(Landroidx/constraintlayout/core/motion/key/MotionKey;)Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
 
     move-result-object p1
 
@@ -512,123 +468,90 @@
     .locals 1
 
     .line 2
-    invoke-super {p0, p1}, Landroidx/constraintlayout/core/motion/key/MotionKey;
-    ->copy(Landroidx/constraintlayout/core/motion/key/MotionKey;)Landroidx/constraintlayout/core/motion/key/MotionKey;
+    invoke-super {p0, p1}, Landroidx/constraintlayout/core/motion/key/MotionKey;->copy(Landroidx/constraintlayout/core/motion/key/MotionKey;)Landroidx/constraintlayout/core/motion/key/MotionKey;
 
     .line 3
     check-cast p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
 
     .line 4
-    iget v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mCurveFit:I
+    iget v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mCurveFit:I
 
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mCurveFit:I
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mCurveFit:I
 
     .line 5
-    iget-object v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mCross:Ljava/lang/String;
+    iget-object v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mCross:Ljava/lang/String;
 
-    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mCross:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mCross:Ljava/lang/String;
 
     .line 6
-    iget v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mTriggerReceiver:I
+    iget v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mTriggerReceiver:I
 
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mTriggerReceiver:I
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mTriggerReceiver:I
 
     .line 7
-    iget-object v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mNegativeCross:Ljava/lang/String;
+    iget-object v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mNegativeCross:Ljava/lang/String;
 
-    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mNegativeCross:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mNegativeCross:Ljava/lang/String;
 
     .line 8
-    iget-object v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mPositiveCross:Ljava/lang/String;
+    iget-object v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mPositiveCross:Ljava/lang/String;
 
-    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mPositiveCross:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mPositiveCross:Ljava/lang/String;
 
     .line 9
-    iget v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mTriggerID:I
+    iget v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mTriggerID:I
 
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mTriggerID:I
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mTriggerID:I
 
     .line 10
-    iget v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mTriggerCollisionId:I
+    iget v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mTriggerCollisionId:I
 
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mTriggerCollisionId:I
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mTriggerCollisionId:I
 
     .line 11
-    iget v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mTriggerSlack:F
+    iget v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mTriggerSlack:F
 
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mTriggerSlack:F
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mTriggerSlack:F
 
     .line 12
-    iget-boolean v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mFireCrossReset:Z
+    iget-boolean v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mFireCrossReset:Z
 
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mFireCrossReset:Z
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mFireCrossReset:Z
 
     .line 13
-    iget-boolean v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mFireNegativeReset:Z
+    iget-boolean v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mFireNegativeReset:Z
 
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mFireNegativeReset:Z
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mFireNegativeReset:Z
 
     .line 14
-    iget-boolean v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mFirePositiveReset:Z
+    iget-boolean v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mFirePositiveReset:Z
 
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mFirePositiveReset:Z
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mFirePositiveReset:Z
 
     .line 15
-    iget v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mFireThreshold:F
+    iget v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mFireThreshold:F
 
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mFireThreshold:F
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mFireThreshold:F
 
     .line 16
-    iget v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mFireLastPos:F
+    iget v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mFireLastPos:F
 
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mFireLastPos:F
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mFireLastPos:F
 
     .line 17
-    iget-boolean v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mPostLayout:Z
+    iget-boolean v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mPostLayout:Z
 
-    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mPostLayout:Z
+    iput-boolean v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mPostLayout:Z
 
     .line 18
-    iget-object v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mCollisionRect:Landroidx/constraintlayout/core/motion/utils/FloatRect;
+    iget-object v0, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mCollisionRect:Landroidx/constraintlayout/core/motion/utils/FloatRect;
 
-    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mCollisionRect:Landroidx/constraintlayout/core/motion/utils/FloatRect;
+    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mCollisionRect:Landroidx/constraintlayout/core/motion/utils/FloatRect;
 
     .line 19
-    iget-object p1, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mTargetRect:Landroidx/constraintlayout/core/motion/utils/FloatRect;
+    iget-object p1, p1, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mTargetRect:Landroidx/constraintlayout/core/motion/utils/FloatRect;
 
-    iput-object p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mTargetRect:Landroidx/constraintlayout/core/motion/utils/FloatRect;
+    iput-object p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mTargetRect:Landroidx/constraintlayout/core/motion/utils/FloatRect;
 
     return-object p0
 .end method
@@ -651,8 +574,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
@@ -660,8 +582,7 @@
     const/4 v0, -0x1
 
     .line 5
-    invoke-virtual {p1}, Ljava/lang/String;
-    ->hashCode()I
+    invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
 
     .line 6
     .line 7
@@ -687,8 +608,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 18
     .line 19
@@ -717,8 +637,7 @@
 
     .line 29
     .line 30
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 31
     .line 32
@@ -747,8 +666,7 @@
 
     .line 42
     .line 43
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 44
     .line 45
@@ -777,8 +695,7 @@
 
     .line 55
     .line 56
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 57
     .line 58
@@ -805,8 +722,7 @@
 
     .line 66
     .line 67
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 68
     .line 69
@@ -833,8 +749,7 @@
 
     .line 77
     .line 78
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 79
     .line 80
@@ -861,8 +776,7 @@
 
     .line 88
     .line 89
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 90
     .line 91
@@ -889,8 +803,7 @@
 
     .line 99
     .line 100
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 101
     .line 102
@@ -917,8 +830,7 @@
 
     .line 110
     .line 111
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 112
     .line 113
@@ -945,8 +857,7 @@
 
     .line 121
     .line 122
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 123
     .line 124
@@ -973,8 +884,7 @@
 
     .line 132
     .line 133
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 134
     .line 135
@@ -1129,8 +1039,7 @@
     if-eq p1, v0, :cond_0
 
     .line 8
-    invoke-super {p0, p1, p2}, Landroidx/constraintlayout/core/motion/key/MotionKey;
-    ->setValue(IF)Z
+    invoke-super {p0, p1, p2}, Landroidx/constraintlayout/core/motion/key/MotionKey;->setValue(IF)Z
 
     move-result p1
 
@@ -1138,8 +1047,7 @@
 
     .line 9
     :cond_0
-    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mTriggerSlack:F
+    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mTriggerSlack:F
 
     const/4 p1, 0x1
 
@@ -1164,8 +1072,7 @@
     packed-switch p1, :pswitch_data_0
 
     .line 1
-    invoke-super {p0, p1, p2}, Landroidx/constraintlayout/core/motion/key/MotionKey;
-    ->setValue(II)Z
+    invoke-super {p0, p1, p2}, Landroidx/constraintlayout/core/motion/key/MotionKey;->setValue(II)Z
 
     move-result p1
 
@@ -1173,53 +1080,45 @@
 
     .line 2
     :pswitch_0
-    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mViewTransitionOnNegativeCross:I
+    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mViewTransitionOnNegativeCross:I
 
     goto :goto_0
 
     .line 3
     :pswitch_1
-    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mViewTransitionOnPositiveCross:I
+    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mViewTransitionOnPositiveCross:I
 
     goto :goto_0
 
     .line 4
     :pswitch_2
-    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mViewTransitionOnCross:I
+    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mViewTransitionOnCross:I
 
     goto :goto_0
 
     .line 5
     :cond_0
-    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mTriggerReceiver:I
+    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mTriggerReceiver:I
 
     goto :goto_0
 
     .line 6
     :cond_1
-    invoke-static {p2}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object p1
 
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/core/motion/key/MotionKey;
-    ->toInt(Ljava/lang/Object;)I
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/core/motion/key/MotionKey;->toInt(Ljava/lang/Object;)I
 
     move-result p1
 
-    iput p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mTriggerID:I
+    iput p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mTriggerID:I
 
     goto :goto_0
 
     .line 7
     :cond_2
-    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mTriggerCollisionId:I
+    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mTriggerCollisionId:I
 
     :goto_0
     const/4 p1, 0x1
@@ -1252,8 +1151,7 @@
     if-eq p1, v0, :cond_0
 
     .line 10
-    invoke-super {p0, p1, p2}, Landroidx/constraintlayout/core/motion/key/MotionKey;
-    ->setValue(ILjava/lang/String;)Z
+    invoke-super {p0, p1, p2}, Landroidx/constraintlayout/core/motion/key/MotionKey;->setValue(ILjava/lang/String;)Z
 
     move-result p1
 
@@ -1261,22 +1159,19 @@
 
     .line 11
     :cond_0
-    iput-object p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mCross:Ljava/lang/String;
+    iput-object p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mCross:Ljava/lang/String;
 
     goto :goto_0
 
     .line 12
     :cond_1
-    iput-object p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mNegativeCross:Ljava/lang/String;
+    iput-object p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mNegativeCross:Ljava/lang/String;
 
     goto :goto_0
 
     .line 13
     :cond_2
-    iput-object p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mPositiveCross:Ljava/lang/String;
+    iput-object p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mPositiveCross:Ljava/lang/String;
 
     :goto_0
     const/4 p1, 0x1
@@ -1292,8 +1187,7 @@
     if-eq p1, v0, :cond_0
 
     .line 14
-    invoke-super {p0, p1, p2}, Landroidx/constraintlayout/core/motion/key/MotionKey;
-    ->setValue(IZ)Z
+    invoke-super {p0, p1, p2}, Landroidx/constraintlayout/core/motion/key/MotionKey;->setValue(IZ)Z
 
     move-result p1
 
@@ -1301,8 +1195,7 @@
 
     .line 15
     :cond_0
-    iput-boolean p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;
-    ->mPostLayout:Z
+    iput-boolean p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyTrigger;->mPostLayout:Z
 
     const/4 p1, 0x1
 

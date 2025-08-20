@@ -40,8 +40,7 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -50,14 +49,12 @@
 
     .line 5
     .line 6
-    invoke-direct {v0, p0}, Landroidx/core/view/c;
-    -><init>(Landroidx/core/view/DragStartHelper;)V
+    invoke-direct {v0, p0}, Landroidx/core/view/c;-><init>(Landroidx/core/view/DragStartHelper;)V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/core/view/DragStartHelper;
-    ->mLongClickListener:Landroid/view/View$OnLongClickListener;
+    iput-object v0, p0, Landroidx/core/view/DragStartHelper;->mLongClickListener:Landroid/view/View$OnLongClickListener;
 
     .line 10
     .line 11
@@ -65,24 +62,20 @@
 
     .line 12
     .line 13
-    invoke-direct {v0, p0}, Landroidx/core/view/d;
-    -><init>(Landroidx/core/view/DragStartHelper;)V
+    invoke-direct {v0, p0}, Landroidx/core/view/d;-><init>(Landroidx/core/view/DragStartHelper;)V
 
     .line 14
     .line 15
     .line 16
-    iput-object v0, p0, Landroidx/core/view/DragStartHelper;
-    ->mTouchListener:Landroid/view/View$OnTouchListener;
+    iput-object v0, p0, Landroidx/core/view/DragStartHelper;->mTouchListener:Landroid/view/View$OnTouchListener;
 
     .line 17
     .line 18
-    iput-object p1, p0, Landroidx/core/view/DragStartHelper;
-    ->mView:Landroid/view/View;
+    iput-object p1, p0, Landroidx/core/view/DragStartHelper;->mView:Landroid/view/View;
 
     .line 19
     .line 20
-    iput-object p2, p0, Landroidx/core/view/DragStartHelper;
-    ->mListener:Landroidx/core/view/DragStartHelper$OnDragStartListener;
+    iput-object p2, p0, Landroidx/core/view/DragStartHelper;->mListener:Landroidx/core/view/DragStartHelper$OnDragStartListener;
 
     .line 21
     .line 22
@@ -95,34 +88,28 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/DragStartHelper;
-    ->mView:Landroid/view/View;
+    iget-object v0, p0, Landroidx/core/view/DragStartHelper;->mView:Landroid/view/View;
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/core/view/DragStartHelper;
-    ->mLongClickListener:Landroid/view/View$OnLongClickListener;
+    iget-object v1, p0, Landroidx/core/view/DragStartHelper;->mLongClickListener:Landroid/view/View$OnLongClickListener;
 
     .line 4
     .line 5
-    invoke-virtual {v0, v1}, Landroid/view/View;
-    ->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v0, p0, Landroidx/core/view/DragStartHelper;
-    ->mView:Landroid/view/View;
+    iget-object v0, p0, Landroidx/core/view/DragStartHelper;->mView:Landroid/view/View;
 
     .line 9
     .line 10
-    iget-object v1, p0, Landroidx/core/view/DragStartHelper;
-    ->mTouchListener:Landroid/view/View$OnTouchListener;
+    iget-object v1, p0, Landroidx/core/view/DragStartHelper;->mTouchListener:Landroid/view/View$OnTouchListener;
 
     .line 11
     .line 12
-    invoke-virtual {v0, v1}, Landroid/view/View;
-    ->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     .line 13
     .line 14
@@ -134,27 +121,23 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/core/view/DragStartHelper;
-    ->mView:Landroid/view/View;
+    iget-object v0, p0, Landroidx/core/view/DragStartHelper;->mView:Landroid/view/View;
 
     .line 2
     .line 3
     const/4 v1, 0x0
 
     .line 4
-    invoke-virtual {v0, v1}, Landroid/view/View;
-    ->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
 
     .line 5
     .line 6
     .line 7
-    iget-object v0, p0, Landroidx/core/view/DragStartHelper;
-    ->mView:Landroid/view/View;
+    iget-object v0, p0, Landroidx/core/view/DragStartHelper;->mView:Landroid/view/View;
 
     .line 8
     .line 9
-    invoke-virtual {v0, v1}, Landroid/view/View;
-    ->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     .line 10
     .line 11
@@ -170,18 +153,15 @@
     .end param
 
     .line 1
-    iget v0, p0, Landroidx/core/view/DragStartHelper;
-    ->mLastTouchX:I
+    iget v0, p0, Landroidx/core/view/DragStartHelper;->mLastTouchX:I
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/core/view/DragStartHelper;
-    ->mLastTouchY:I
+    iget v1, p0, Landroidx/core/view/DragStartHelper;->mLastTouchY:I
 
     .line 4
     .line 5
-    invoke-virtual {p1, v0, v1}, Landroid/graphics/Point;
-    ->set(II)V
+    invoke-virtual {p1, v0, v1}, Landroid/graphics/Point;->set(II)V
 
     .line 6
     .line 7
@@ -197,8 +177,7 @@
     .end param
 
     .line 1
-    iget-boolean v0, p0, Landroidx/core/view/DragStartHelper;
-    ->mDragging:Z
+    iget-boolean v0, p0, Landroidx/core/view/DragStartHelper;->mDragging:Z
 
     .line 2
     .line 3
@@ -212,13 +191,11 @@
 
     .line 7
     :cond_0
-    iget-object v0, p0, Landroidx/core/view/DragStartHelper;
-    ->mListener:Landroidx/core/view/DragStartHelper$OnDragStartListener;
+    iget-object v0, p0, Landroidx/core/view/DragStartHelper;->mListener:Landroidx/core/view/DragStartHelper$OnDragStartListener;
 
     .line 8
     .line 9
-    invoke-interface {v0, p1, p0}, Landroidx/core/view/DragStartHelper$OnDragStartListener;
-    ->onDragStart(Landroid/view/View;Landroidx/core/view/DragStartHelper;)Z
+    invoke-interface {v0, p1, p0}, Landroidx/core/view/DragStartHelper$OnDragStartListener;->onDragStart(Landroid/view/View;Landroidx/core/view/DragStartHelper;)Z
 
     .line 10
     .line 11
@@ -226,8 +203,7 @@
     move-result p1
 
     .line 13
-    iput-boolean p1, p0, Landroidx/core/view/DragStartHelper;
-    ->mDragging:Z
+    iput-boolean p1, p0, Landroidx/core/view/DragStartHelper;->mDragging:Z
 
     .line 14
     .line 15
@@ -246,8 +222,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p2}, Landroid/view/MotionEvent;
-    ->getX()F
+    invoke-virtual {p2}, Landroid/view/MotionEvent;->getX()F
 
     .line 2
     .line 3
@@ -258,8 +233,7 @@
     float-to-int v0, v0
 
     .line 6
-    invoke-virtual {p2}, Landroid/view/MotionEvent;
-    ->getY()F
+    invoke-virtual {p2}, Landroid/view/MotionEvent;->getY()F
 
     .line 7
     .line 8
@@ -270,8 +244,7 @@
     float-to-int v1, v1
 
     .line 11
-    invoke-virtual {p2}, Landroid/view/MotionEvent;
-    ->getAction()I
+    invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
 
     .line 12
     .line 13
@@ -315,8 +288,7 @@
 
     .line 29
     .line 30
-    invoke-static {p2, v2}, Landroidx/core/view/MotionEventCompat;
-    ->isFromSource(Landroid/view/MotionEvent;I)Z
+    invoke-static {p2, v2}, Landroidx/core/view/MotionEventCompat;->isFromSource(Landroid/view/MotionEvent;I)Z
 
     .line 31
     .line 32
@@ -328,8 +300,7 @@
 
     .line 35
     .line 36
-    invoke-virtual {p2}, Landroid/view/MotionEvent;
-    ->getButtonState()I
+    invoke-virtual {p2}, Landroid/view/MotionEvent;->getButtonState()I
 
     .line 37
     .line 38
@@ -348,8 +319,7 @@
 
     .line 44
     :cond_1
-    iget-boolean p2, p0, Landroidx/core/view/DragStartHelper;
-    ->mDragging:Z
+    iget-boolean p2, p0, Landroidx/core/view/DragStartHelper;->mDragging:Z
 
     .line 45
     .line 46
@@ -361,8 +331,7 @@
 
     .line 49
     :cond_2
-    iget p2, p0, Landroidx/core/view/DragStartHelper;
-    ->mLastTouchX:I
+    iget p2, p0, Landroidx/core/view/DragStartHelper;->mLastTouchX:I
 
     .line 50
     .line 51
@@ -370,8 +339,7 @@
 
     .line 52
     .line 53
-    iget p2, p0, Landroidx/core/view/DragStartHelper;
-    ->mLastTouchY:I
+    iget p2, p0, Landroidx/core/view/DragStartHelper;->mLastTouchY:I
 
     .line 54
     .line 55
@@ -383,23 +351,19 @@
 
     .line 58
     :cond_3
-    iput v0, p0, Landroidx/core/view/DragStartHelper;
-    ->mLastTouchX:I
+    iput v0, p0, Landroidx/core/view/DragStartHelper;->mLastTouchX:I
 
     .line 59
     .line 60
-    iput v1, p0, Landroidx/core/view/DragStartHelper;
-    ->mLastTouchY:I
+    iput v1, p0, Landroidx/core/view/DragStartHelper;->mLastTouchY:I
 
     .line 61
     .line 62
-    iget-object p2, p0, Landroidx/core/view/DragStartHelper;
-    ->mListener:Landroidx/core/view/DragStartHelper$OnDragStartListener;
+    iget-object p2, p0, Landroidx/core/view/DragStartHelper;->mListener:Landroidx/core/view/DragStartHelper$OnDragStartListener;
 
     .line 63
     .line 64
-    invoke-interface {p2, p1, p0}, Landroidx/core/view/DragStartHelper$OnDragStartListener;
-    ->onDragStart(Landroid/view/View;Landroidx/core/view/DragStartHelper;)Z
+    invoke-interface {p2, p1, p0}, Landroidx/core/view/DragStartHelper$OnDragStartListener;->onDragStart(Landroid/view/View;Landroidx/core/view/DragStartHelper;)Z
 
     .line 65
     .line 66
@@ -407,8 +371,7 @@
     move-result p1
 
     .line 68
-    iput-boolean p1, p0, Landroidx/core/view/DragStartHelper;
-    ->mDragging:Z
+    iput-boolean p1, p0, Landroidx/core/view/DragStartHelper;->mDragging:Z
 
     .line 69
     .line 70
@@ -416,8 +379,7 @@
 
     .line 71
     :cond_4
-    iput-boolean v3, p0, Landroidx/core/view/DragStartHelper;
-    ->mDragging:Z
+    iput-boolean v3, p0, Landroidx/core/view/DragStartHelper;->mDragging:Z
 
     .line 72
     .line 73
@@ -425,13 +387,11 @@
 
     .line 74
     :cond_5
-    iput v0, p0, Landroidx/core/view/DragStartHelper;
-    ->mLastTouchX:I
+    iput v0, p0, Landroidx/core/view/DragStartHelper;->mLastTouchX:I
 
     .line 75
     .line 76
-    iput v1, p0, Landroidx/core/view/DragStartHelper;
-    ->mLastTouchY:I
+    iput v1, p0, Landroidx/core/view/DragStartHelper;->mLastTouchY:I
 
     .line 77
     .line 78

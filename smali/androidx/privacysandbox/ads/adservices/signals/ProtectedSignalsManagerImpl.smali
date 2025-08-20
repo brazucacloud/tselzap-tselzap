@@ -18,8 +18,7 @@
 
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -40,20 +39,17 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-direct {p0}, Landroidx/privacysandbox/ads/adservices/signals/ProtectedSignalsManager;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/privacysandbox/ads/adservices/signals/ProtectedSignalsManager;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/signals/ProtectedSignalsManagerImpl;
-    ->protectedSignalsManager:Landroid/adservices/signals/ProtectedSignalsManager;    
+    iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/signals/ProtectedSignalsManagerImpl;->protectedSignalsManager:Landroid/adservices/signals/ProtectedSignalsManager;
     return-void
 .end method
 
@@ -61,8 +57,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/privacysandbox/ads/adservices/signals/ProtectedSignalsManagerImpl;
-    ->convertUpdateRequest(Landroidx/privacysandbox/ads/adservices/signals/UpdateSignalsRequest;)Landroid/adservices/signals/UpdateSignalsRequest;
+    invoke-direct {p0, p1}, Landroidx/privacysandbox/ads/adservices/signals/ProtectedSignalsManagerImpl;->convertUpdateRequest(Landroidx/privacysandbox/ads/adservices/signals/UpdateSignalsRequest;)Landroid/adservices/signals/UpdateSignalsRequest;
 
     .line 2
     .line 3
@@ -76,22 +71,19 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Landroidx/privacysandbox/ads/adservices/signals/ProtectedSignalsManagerImpl;
-    ->protectedSignalsManager:Landroid/adservices/signals/ProtectedSignalsManager;    return-object p0
+    iget-object p0, p0, Landroidx/privacysandbox/ads/adservices/signals/ProtectedSignalsManagerImpl;->protectedSignalsManager:Landroid/adservices/signals/ProtectedSignalsManager;    return-object p0
 .end method
 
 .method private final convertUpdateRequest(Landroidx/privacysandbox/ads/adservices/signals/UpdateSignalsRequest;)Landroid/adservices/signals/UpdateSignalsRequest;
     .locals 1
 
     .line 1
-    invoke-static {}, Lf/a;
-    ->c()V
+    invoke-static {}, Lf/a;->c()V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/signals/UpdateSignalsRequest;
-    ->getUpdateUri()Landroid/net/Uri;
+    invoke-virtual {p1}, Landroidx/privacysandbox/ads/adservices/signals/UpdateSignalsRequest;->getUpdateUri()Landroid/net/Uri;
 
     .line 5
     .line 6
@@ -99,8 +91,7 @@
     move-result-object p1
 
     .line 8
-    invoke-static {p1}, Lf/a;
-    ->a(Landroid/net/Uri;)Landroid/adservices/signals/UpdateSignalsRequest$Builder;
+    invoke-static {p1}, Lf/a;->a(Landroid/net/Uri;)Landroid/adservices/signals/UpdateSignalsRequest$Builder;
 
     .line 9
     .line 10
@@ -108,8 +99,7 @@
     move-result-object p1
 
     .line 12
-    invoke-static {p1}, Lf/a;
-    ->b(Landroid/adservices/signals/UpdateSignalsRequest$Builder;)Landroid/adservices/signals/UpdateSignalsRequest;
+    invoke-static {p1}, Lf/a;->b(Landroid/adservices/signals/UpdateSignalsRequest$Builder;)Landroid/adservices/signals/UpdateSignalsRequest;
 
     .line 13
     .line 14
@@ -121,8 +111,7 @@
 
     .line 17
     .line 18
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
     return-object p1
 .end method
 
@@ -153,8 +142,7 @@
 
     .line 2
     .line 3
-    invoke-static {p2}, Lcom/bumptech/glide/b;
-    ->K(Lg1/d;)Lg1/d;
+    invoke-static {p2}, Lcom/bumptech/glide/b;->K(Lg1/d;)Lg1/d;
 
     .line 4
     .line 5
@@ -165,20 +153,17 @@
     const/4 v1, 0x1
 
     .line 8
-    invoke-direct {v0, v1, p2}, Lz1/g;
-    -><init>(ILg1/d;)V
+    invoke-direct {v0, v1, p2}, Lz1/g;-><init>(ILg1/d;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-virtual {v0}, Lz1/g;
-    ->r()V
+    invoke-virtual {v0}, Lz1/g;->r()V
 
     .line 12
     .line 13
     .line 14
-    invoke-static {p0}, Landroidx/privacysandbox/ads/adservices/signals/ProtectedSignalsManagerImpl;
-    ->access$getProtectedSignalsManager$p(Landroidx/privacysandbox/ads/adservices/signals/ProtectedSignalsManagerImpl;)Landroid/adservices/signals/ProtectedSignalsManager;
+    invoke-static {p0}, Landroidx/privacysandbox/ads/adservices/signals/ProtectedSignalsManagerImpl;->access$getProtectedSignalsManager$p(Landroidx/privacysandbox/ads/adservices/signals/ProtectedSignalsManagerImpl;)Landroid/adservices/signals/ProtectedSignalsManager;
 
     .line 15
     .line 16
@@ -186,8 +171,7 @@
     move-result-object p2
 
     .line 18
-    invoke-static {p0, p1}, Landroidx/privacysandbox/ads/adservices/signals/ProtectedSignalsManagerImpl;
-    ->access$convertUpdateRequest(Landroidx/privacysandbox/ads/adservices/signals/ProtectedSignalsManagerImpl;Landroidx/privacysandbox/ads/adservices/signals/UpdateSignalsRequest;)Landroid/adservices/signals/UpdateSignalsRequest;
+    invoke-static {p0, p1}, Landroidx/privacysandbox/ads/adservices/signals/ProtectedSignalsManagerImpl;->access$convertUpdateRequest(Landroidx/privacysandbox/ads/adservices/signals/ProtectedSignalsManagerImpl;Landroidx/privacysandbox/ads/adservices/signals/UpdateSignalsRequest;)Landroid/adservices/signals/UpdateSignalsRequest;
 
     .line 19
     .line 20
@@ -202,14 +186,12 @@
     const/4 v1, 0x2
 
     .line 25
-    invoke-direct {p1, v1}, Landroidx/arch/core/executor/a;
-    -><init>(I)V
+    invoke-direct {p1, v1}, Landroidx/arch/core/executor/a;-><init>(I)V
 
     .line 26
     .line 27
     .line 28
-    invoke-static {v0}, Landroidx/core/os/OutcomeReceiverKt;
-    ->asOutcomeReceiver(Lg1/d;)Landroid/os/OutcomeReceiver;
+    invoke-static {v0}, Landroidx/core/os/OutcomeReceiverKt;->asOutcomeReceiver(Lg1/d;)Landroid/os/OutcomeReceiver;
 
     .line 29
     .line 30
@@ -217,14 +199,12 @@
     move-result-object v1
 
     .line 32
-    invoke-static {p2, p0, p1, v1}, Lf/a;
-    ->d(Landroid/adservices/signals/ProtectedSignalsManager;Landroid/adservices/signals/UpdateSignalsRequest;Landroidx/arch/core/executor/a;Landroid/os/OutcomeReceiver;)V
+    invoke-static {p2, p0, p1, v1}, Lf/a;->d(Landroid/adservices/signals/ProtectedSignalsManager;Landroid/adservices/signals/UpdateSignalsRequest;Landroidx/arch/core/executor/a;Landroid/os/OutcomeReceiver;)V
 
     .line 33
     .line 34
     .line 35
-    invoke-virtual {v0}, Lz1/g;
-    ->q()Ljava/lang/Object;
+    invoke-virtual {v0}, Lz1/g;->q()Ljava/lang/Object;
 
     .line 36
     .line 37
@@ -232,8 +212,7 @@
     move-result-object p0
 
     .line 39
-    sget-object p1, Lh1/a;
-    ->b:Lh1/a;
+    sget-object p1, Lh1/a;->b:Lh1/a;
 
     .line 40
     .line 41
@@ -241,8 +220,7 @@
 
     .line 44
     :cond_0
-    sget-object p0, Lc1/v;
-    ->a:Lc1/v;    return-object p0
+    sget-object p0, Lc1/v;->a:Lc1/v;    return-object p0
 .end method
 
 
@@ -269,8 +247,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/privacysandbox/ads/adservices/signals/ProtectedSignalsManagerImpl;
-    ->updateSignals$suspendImpl(Landroidx/privacysandbox/ads/adservices/signals/ProtectedSignalsManagerImpl;Landroidx/privacysandbox/ads/adservices/signals/UpdateSignalsRequest;Lg1/d;)Ljava/lang/Object;
+    invoke-static {p0, p1, p2}, Landroidx/privacysandbox/ads/adservices/signals/ProtectedSignalsManagerImpl;->updateSignals$suspendImpl(Landroidx/privacysandbox/ads/adservices/signals/ProtectedSignalsManagerImpl;Landroidx/privacysandbox/ads/adservices/signals/UpdateSignalsRequest;Lg1/d;)Ljava/lang/Object;
 
     .line 2
     .line 3

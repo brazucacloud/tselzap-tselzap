@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -49,8 +48,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/content/Context;
-    ->createAttributionContext(Ljava/lang/String;)Landroid/content/Context;
+    invoke-virtual {p0, p1}, Landroid/content/Context;->createAttributionContext(Ljava/lang/String;)Landroid/content/Context;
 
     .line 2
     .line 3
@@ -66,8 +64,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getAttributionTag()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/content/Context;->getAttributionTag()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -84,8 +81,7 @@
 
     .line 1
     :try_start_0
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getDisplay()Landroid/view/Display;
+    invoke-virtual {p0}, Landroid/content/Context;->getDisplay()Landroid/view/Display;
 
     .line 2
     .line 3
@@ -106,14 +102,12 @@
 
     .line 9
     .line 10
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 11
     .line 12
     .line 13
-    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 14
     .line 15
@@ -122,14 +116,12 @@
 
     .line 17
     .line 18
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 19
     .line 20
     .line 21
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 22
     .line 23
@@ -141,8 +133,7 @@
 
     .line 26
     .line 27
-    invoke-static {v1, v0}, Landroid/util/Log;
-    ->w(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 28
     .line 29
@@ -151,8 +142,7 @@
 
     .line 31
     .line 32
-    invoke-virtual {p0, v0}, Landroid/content/Context;
-    ->getSystemService(Ljava/lang/Class;)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/Class;)Ljava/lang/Object;
 
     .line 33
     .line 34
@@ -167,8 +157,7 @@
     const/4 v0, 0x0
 
     .line 39
-    invoke-virtual {p0, v0}, Landroid/hardware/display/DisplayManager;
-    ->getDisplay(I)Landroid/view/Display;
+    invoke-virtual {p0, v0}, Landroid/hardware/display/DisplayManager;->getDisplay(I)Landroid/view/Display;
 
     .line 40
     .line 41

@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/datastore/preferences/SharedPreferencesMigrationKt;
-    ->getShouldRunMigration(Ljava/util/Set;)Lp1/p;
+    value = Landroidx/datastore/preferences/SharedPreferencesMigrationKt;->getShouldRunMigration(Ljava/util/Set;)Lp1/p;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -65,16 +64,14 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getShouldRunMigration$1;
-    ->$keysToMigrate:Ljava/util/Set;
+    iput-object p1, p0, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getShouldRunMigration$1;->$keysToMigrate:Ljava/util/Set;
 
     .line 2
     .line 3
     const/4 p1, 0x2
 
     .line 4
-    invoke-direct {p0, p1, p2}, Li1/i;
-    -><init>(ILg1/d;)V
+    invoke-direct {p0, p1, p2}, Li1/i;-><init>(ILg1/d;)V
 return-void
 .end method
 
@@ -99,19 +96,16 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getShouldRunMigration$1;
-    ->$keysToMigrate:Ljava/util/Set;
+    iget-object v1, p0, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getShouldRunMigration$1;->$keysToMigrate:Ljava/util/Set;
 
     .line 4
     .line 5
-    invoke-direct {v0, v1, p2}, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getShouldRunMigration$1;
-    -><init>(Ljava/util/Set;Lg1/d;)V
+    invoke-direct {v0, v1, p2}, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getShouldRunMigration$1;-><init>(Ljava/util/Set;Lg1/d;)V
 
     .line 6
     .line 7
     .line 8
-    iput-object p1, v0, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getShouldRunMigration$1;
-    ->L$0:Ljava/lang/Object;    
+    iput-object p1, v0, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getShouldRunMigration$1;->L$0:Ljava/lang/Object;
     return-object v0
 .end method
 
@@ -130,18 +124,15 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getShouldRunMigration$1;
-    ->create(Ljava/lang/Object;Lg1/d;)Lg1/d;
+    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getShouldRunMigration$1;->create(Ljava/lang/Object;Lg1/d;)Lg1/d;
 
     move-result-object p1
 
     check-cast p1, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getShouldRunMigration$1;
 
-    sget-object p2, Lc1/v;
-    ->a:Lc1/v;
+    sget-object p2, Lc1/v;->a:Lc1/v;
 
-    invoke-virtual {p1, p2}, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getShouldRunMigration$1;
-    ->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getShouldRunMigration$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -156,8 +147,7 @@ return-void
 
     check-cast p2, Lg1/d;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getShouldRunMigration$1;
-    ->invoke(Landroidx/datastore/preferences/core/Preferences;Lg1/d;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getShouldRunMigration$1;->invoke(Landroidx/datastore/preferences/core/Preferences;Lg1/d;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -168,13 +158,11 @@ return-void
     .locals 4
 
     .line 1
-    sget-object v0, Lh1/a;
-    ->b:Lh1/a;
+    sget-object v0, Lh1/a;->b:Lh1/a;
 
     .line 2
     .line 3
-    iget v0, p0, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getShouldRunMigration$1;
-    ->label:I
+    iget v0, p0, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getShouldRunMigration$1;->label:I
 
     .line 4
     .line 5
@@ -182,14 +170,12 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {p1}, Lcom/bumptech/glide/b;
-    ->c0(Ljava/lang/Object;)V
+    invoke-static {p1}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
 
     .line 8
     .line 9
     .line 10
-    iget-object p1, p0, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getShouldRunMigration$1;
-    ->L$0:Ljava/lang/Object;
+    iget-object p1, p0, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getShouldRunMigration$1;->L$0:Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -197,8 +183,7 @@ return-void
 
     .line 13
     .line 14
-    invoke-virtual {p1}, Landroidx/datastore/preferences/core/Preferences;
-    ->asMap()Ljava/util/Map;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/core/Preferences;->asMap()Ljava/util/Map;
 
     .line 15
     .line 16
@@ -206,8 +191,7 @@ return-void
     move-result-object p1
 
     .line 18
-    invoke-interface {p1}, Ljava/util/Map;
-    ->keySet()Ljava/util/Set;
+    invoke-interface {p1}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     .line 19
     .line 20
@@ -223,8 +207,7 @@ return-void
 
     .line 25
     .line 26
-    invoke-static {p1, v1}, Ld1/m;
-    ->j0(Ljava/lang/Iterable;I)I
+    invoke-static {p1, v1}, Ld1/m;->j0(Ljava/lang/Iterable;I)I
 
     .line 27
     .line 28
@@ -232,14 +215,12 @@ return-void
     move-result v1
 
     .line 30
-    invoke-direct {v0, v1}, Ljava/util/ArrayList;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
     .line 31
     .line 32
     .line 33
-    invoke-interface {p1}, Ljava/lang/Iterable;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     .line 34
     .line 35
@@ -248,8 +229,7 @@ return-void
 
     .line 37
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
     .line 38
     .line 39
@@ -261,8 +241,7 @@ return-void
 
     .line 42
     .line 43
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 44
     .line 45
@@ -274,8 +253,7 @@ return-void
 
     .line 48
     .line 49
-    invoke-virtual {v1}, Landroidx/datastore/preferences/core/Preferences$Key;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v1}, Landroidx/datastore/preferences/core/Preferences$Key;->getName()Ljava/lang/String;
 
     .line 50
     .line 51
@@ -283,8 +261,7 @@ return-void
     move-result-object v1
 
     .line 53
-    invoke-interface {v0, v1}, Ljava/util/Collection;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v0, v1}, Ljava/util/Collection;->add(Ljava/lang/Object;)Z
 
     .line 54
     .line 55
@@ -293,13 +270,11 @@ return-void
 
     .line 57
     :cond_0
-    iget-object p1, p0, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getShouldRunMigration$1;
-    ->$keysToMigrate:Ljava/util/Set;
+    iget-object p1, p0, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getShouldRunMigration$1;->$keysToMigrate:Ljava/util/Set;
 
     .line 58
     .line 59
-    invoke-static {}, Landroidx/datastore/preferences/SharedPreferencesMigrationKt;
-    ->getMIGRATE_ALL_KEYS()Ljava/util/Set;
+    invoke-static {}, Landroidx/datastore/preferences/SharedPreferencesMigrationKt;->getMIGRATE_ALL_KEYS()Ljava/util/Set;
 
     .line 60
     .line 61
@@ -318,8 +293,7 @@ return-void
 
     .line 67
     :cond_1
-    iget-object p1, p0, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getShouldRunMigration$1;
-    ->$keysToMigrate:Ljava/util/Set;
+    iget-object p1, p0, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getShouldRunMigration$1;->$keysToMigrate:Ljava/util/Set;
 
     .line 68
     .line 69
@@ -334,8 +308,7 @@ return-void
 
     .line 73
     .line 74
-    invoke-interface {p1}, Ljava/util/Collection;
-    ->isEmpty()Z
+    invoke-interface {p1}, Ljava/util/Collection;->isEmpty()Z
 
     .line 75
     .line 76
@@ -355,8 +328,7 @@ return-void
 
     .line 82
     :cond_3
-    invoke-interface {p1}, Ljava/lang/Iterable;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
 
     .line 83
     .line 84
@@ -365,8 +337,7 @@ return-void
 
     .line 86
     :cond_4
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
     .line 87
     .line 88
@@ -378,8 +349,7 @@ return-void
 
     .line 91
     .line 92
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 93
     .line 94
@@ -391,8 +361,7 @@ return-void
 
     .line 97
     .line 98
-    invoke-interface {v0, v1}, Ljava/util/List;
-    ->contains(Ljava/lang/Object;)Z
+    invoke-interface {v0, v1}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
 
     .line 99
     .line 100
@@ -405,8 +374,7 @@ return-void
     .line 103
     .line 104
     :goto_1
-    invoke-static {v2}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {v2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 105
     .line 106
@@ -425,8 +393,7 @@ return-void
 
     .line 112
     .line 113
-    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 114
     .line 115

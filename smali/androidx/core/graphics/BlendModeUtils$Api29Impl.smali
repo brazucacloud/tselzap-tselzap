@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -45,13 +44,11 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/core/graphics/BlendModeUtils$1;
-    ->$SwitchMap$androidx$core$graphics$BlendModeCompat:[I
+    sget-object v0, Landroidx/core/graphics/BlendModeUtils$1;->$SwitchMap$androidx$core$graphics$BlendModeCompat:[I
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {p0}, Ljava/lang/Enum;->ordinal()I
 
     .line 4
     .line 5
@@ -74,8 +71,7 @@
 
     .line 14
     :pswitch_0
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->LUMINOSITY:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->LUMINOSITY:Landroid/graphics/BlendMode;
 
     .line 15
     .line 16
@@ -83,8 +79,7 @@
 
     .line 17
     :pswitch_1
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->COLOR:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->COLOR:Landroid/graphics/BlendMode;
 
     .line 18
     .line 19
@@ -92,8 +87,7 @@
 
     .line 20
     :pswitch_2
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->SATURATION:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->SATURATION:Landroid/graphics/BlendMode;
 
     .line 21
     .line 22
@@ -101,8 +95,7 @@
 
     .line 23
     :pswitch_3
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->HUE:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->HUE:Landroid/graphics/BlendMode;
 
     .line 24
     .line 25
@@ -110,8 +103,7 @@
 
     .line 26
     :pswitch_4
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->MULTIPLY:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->MULTIPLY:Landroid/graphics/BlendMode;
 
     .line 27
     .line 28
@@ -119,8 +111,7 @@
 
     .line 29
     :pswitch_5
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->EXCLUSION:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->EXCLUSION:Landroid/graphics/BlendMode;
 
     .line 30
     .line 31
@@ -128,8 +119,7 @@
 
     .line 32
     :pswitch_6
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->DIFFERENCE:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->DIFFERENCE:Landroid/graphics/BlendMode;
 
     .line 33
     .line 34
@@ -137,8 +127,7 @@
 
     .line 35
     :pswitch_7
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->SOFT_LIGHT:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->SOFT_LIGHT:Landroid/graphics/BlendMode;
 
     .line 36
     .line 37
@@ -146,8 +135,7 @@
 
     .line 38
     :pswitch_8
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->HARD_LIGHT:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->HARD_LIGHT:Landroid/graphics/BlendMode;
 
     .line 39
     .line 40
@@ -155,8 +143,7 @@
 
     .line 41
     :pswitch_9
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->COLOR_BURN:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->COLOR_BURN:Landroid/graphics/BlendMode;
 
     .line 42
     .line 43
@@ -164,8 +151,7 @@
 
     .line 44
     :pswitch_a
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->COLOR_DODGE:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->COLOR_DODGE:Landroid/graphics/BlendMode;
 
     .line 45
     .line 46
@@ -173,8 +159,7 @@
 
     .line 47
     :pswitch_b
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->LIGHTEN:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->LIGHTEN:Landroid/graphics/BlendMode;
 
     .line 48
     .line 49
@@ -182,8 +167,7 @@
 
     .line 50
     :pswitch_c
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->DARKEN:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->DARKEN:Landroid/graphics/BlendMode;
 
     .line 51
     .line 52
@@ -191,8 +175,7 @@
 
     .line 53
     :pswitch_d
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->OVERLAY:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->OVERLAY:Landroid/graphics/BlendMode;
 
     .line 54
     .line 55
@@ -200,8 +183,7 @@
 
     .line 56
     :pswitch_e
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->SCREEN:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->SCREEN:Landroid/graphics/BlendMode;
 
     .line 57
     .line 58
@@ -209,8 +191,7 @@
 
     .line 59
     :pswitch_f
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->MODULATE:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->MODULATE:Landroid/graphics/BlendMode;
 
     .line 60
     .line 61
@@ -218,8 +199,7 @@
 
     .line 62
     :pswitch_10
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->PLUS:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->PLUS:Landroid/graphics/BlendMode;
 
     .line 63
     .line 64
@@ -227,8 +207,7 @@
 
     .line 65
     :pswitch_11
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->XOR:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->XOR:Landroid/graphics/BlendMode;
 
     .line 66
     .line 67
@@ -236,8 +215,7 @@
 
     .line 68
     :pswitch_12
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->DST_ATOP:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->DST_ATOP:Landroid/graphics/BlendMode;
 
     .line 69
     .line 70
@@ -245,8 +223,7 @@
 
     .line 71
     :pswitch_13
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->SRC_ATOP:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->SRC_ATOP:Landroid/graphics/BlendMode;
 
     .line 72
     .line 73
@@ -254,8 +231,7 @@
 
     .line 74
     :pswitch_14
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->DST_OUT:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->DST_OUT:Landroid/graphics/BlendMode;
 
     .line 75
     .line 76
@@ -263,8 +239,7 @@
 
     .line 77
     :pswitch_15
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->SRC_OUT:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->SRC_OUT:Landroid/graphics/BlendMode;
 
     .line 78
     .line 79
@@ -272,8 +247,7 @@
 
     .line 80
     :pswitch_16
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->DST_IN:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->DST_IN:Landroid/graphics/BlendMode;
 
     .line 81
     .line 82
@@ -281,8 +255,7 @@
 
     .line 83
     :pswitch_17
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->SRC_IN:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->SRC_IN:Landroid/graphics/BlendMode;
 
     .line 84
     .line 85
@@ -290,8 +263,7 @@
 
     .line 86
     :pswitch_18
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->DST_OVER:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->DST_OVER:Landroid/graphics/BlendMode;
 
     .line 87
     .line 88
@@ -299,8 +271,7 @@
 
     .line 89
     :pswitch_19
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->SRC_OVER:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->SRC_OVER:Landroid/graphics/BlendMode;
 
     .line 90
     .line 91
@@ -308,8 +279,7 @@
 
     .line 92
     :pswitch_1a
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->DST:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->DST:Landroid/graphics/BlendMode;
 
     .line 93
     .line 94
@@ -317,8 +287,7 @@
 
     .line 95
     :pswitch_1b
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->SRC:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->SRC:Landroid/graphics/BlendMode;
 
     .line 96
     .line 97
@@ -326,8 +295,7 @@
 
     .line 98
     :pswitch_1c
-    sget-object p0, Landroid/graphics/BlendMode;
-    ->CLEAR:Landroid/graphics/BlendMode;
+    sget-object p0, Landroid/graphics/BlendMode;->CLEAR:Landroid/graphics/BlendMode;
 
     .line 99
     .line 100

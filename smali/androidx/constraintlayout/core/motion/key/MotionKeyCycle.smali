@@ -78,8 +78,7 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Landroidx/constraintlayout/core/motion/key/MotionKey;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/constraintlayout/core/motion/key/MotionKey;-><init>()V
 
     .line 2
     .line 3
@@ -87,29 +86,25 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mTransitionEasing:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mTransitionEasing:Ljava/lang/String;
 
     .line 6
     .line 7
     const/4 v1, 0x0
 
     .line 8
-    iput v1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mCurveFit:I
+    iput v1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mCurveFit:I
 
     .line 9
     .line 10
     const/4 v1, -0x1
 
     .line 11
-    iput v1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mWaveShape:I
+    iput v1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mWaveShape:I
 
     .line 12
     .line 13
-    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mCustomWaveShape:Ljava/lang/String;
+    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mCustomWaveShape:Ljava/lang/String;
 
     .line 14
     .line 15
@@ -117,89 +112,73 @@
 
     .line 16
     .line 17
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mWavePeriod:F
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mWavePeriod:F
 
     .line 18
     .line 19
     const/4 v1, 0x0
 
     .line 20
-    iput v1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mWaveOffset:F
+    iput v1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mWaveOffset:F
 
     .line 21
     .line 22
-    iput v1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mWavePhase:F
+    iput v1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mWavePhase:F
 
     .line 23
     .line 24
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mProgress:F
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mProgress:F
 
     .line 25
     .line 26
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mAlpha:F
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mAlpha:F
 
     .line 27
     .line 28
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mElevation:F
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mElevation:F
 
     .line 29
     .line 30
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mRotation:F
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mRotation:F
 
     .line 31
     .line 32
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mTransitionPathRotate:F
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mTransitionPathRotate:F
 
     .line 33
     .line 34
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mRotationX:F
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mRotationX:F
 
     .line 35
     .line 36
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mRotationY:F
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mRotationY:F
 
     .line 37
     .line 38
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mScaleX:F
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mScaleX:F
 
     .line 39
     .line 40
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mScaleY:F
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mScaleY:F
 
     .line 41
     .line 42
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mTranslationX:F
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mTranslationX:F
 
     .line 43
     .line 44
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mTranslationY:F
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mTranslationY:F
 
     .line 45
     .line 46
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mTranslationZ:F
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mTranslationZ:F
 
     .line 47
     .line 48
     const/4 v0, 0x4
 
     .line 49
-    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;
-    ->mType:I
+    iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mType:I
 
     .line 50
     .line 51
@@ -207,14 +186,12 @@
 
     .line 52
     .line 53
-    invoke-direct {v0}, Ljava/util/HashMap;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
     .line 54
     .line 55
     .line 56
-    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;
-    ->mCustom:Ljava/util/HashMap;    
+    iput-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mCustom:Ljava/util/HashMap;
     return-void
 .end method
 
@@ -241,8 +218,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {v1}, Ljava/util/HashMap;
-    ->keySet()Ljava/util/Set;
+    invoke-virtual {v1}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
 
     .line 6
     .line 7
@@ -250,8 +226,7 @@
     move-result-object v2
 
     .line 9
-    invoke-interface {v2}, Ljava/util/Set;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     .line 10
     .line 11
@@ -261,8 +236,7 @@
     .line 13
     :cond_0
     :goto_0
-    invoke-interface {v2}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
 
     .line 14
     .line 15
@@ -274,8 +248,7 @@
 
     .line 18
     .line 19
-    invoke-interface {v2}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 20
     .line 21
@@ -291,8 +264,7 @@
 
     .line 26
     .line 27
-    invoke-virtual {v3, v4}, Ljava/lang/String;
-    ->startsWith(Ljava/lang/String;)Z
+    invoke-virtual {v3, v4}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     .line 28
     .line 29
@@ -311,8 +283,7 @@
     const/4 v4, 0x7
 
     .line 36
-    invoke-virtual {v3, v4}, Ljava/lang/String;
-    ->substring(I)Ljava/lang/String;
+    invoke-virtual {v3, v4}, Ljava/lang/String;->substring(I)Ljava/lang/String;
 
     .line 37
     .line 38
@@ -320,13 +291,11 @@
     move-result-object v4
 
     .line 40
-    iget-object v6, v0, Landroidx/constraintlayout/core/motion/key/MotionKey;
-    ->mCustom:Ljava/util/HashMap;
+    iget-object v6, v0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mCustom:Ljava/util/HashMap;
 
     .line 41
     .line 42
-    invoke-virtual {v6, v4}, Ljava/util/HashMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v6, v4}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 43
     .line 44
@@ -345,8 +314,7 @@
 
     .line 50
     .line 51
-    invoke-virtual {v15}, Landroidx/constraintlayout/core/motion/CustomVariable;
-    ->getType()I
+    invoke-virtual {v15}, Landroidx/constraintlayout/core/motion/CustomVariable;->getType()I
 
     .line 52
     .line 53
@@ -366,8 +334,7 @@
 
     .line 60
     :cond_1
-    invoke-virtual {v1, v3}, Ljava/util/HashMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 61
     .line 62
@@ -390,33 +357,27 @@
 
     .line 70
     :cond_2
-    iget v7, v0, Landroidx/constraintlayout/core/motion/key/MotionKey;
-    ->mFramePosition:I
+    iget v7, v0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mFramePosition:I
 
     .line 71
     .line 72
-    iget v8, v0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mWaveShape:I
+    iget v8, v0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mWaveShape:I
 
     .line 73
     .line 74
-    iget-object v9, v0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mCustomWaveShape:Ljava/lang/String;
+    iget-object v9, v0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mCustomWaveShape:Ljava/lang/String;
 
     .line 75
     .line 76
-    iget v11, v0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mWavePeriod:F
+    iget v11, v0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mWavePeriod:F
 
     .line 77
     .line 78
-    iget v12, v0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mWaveOffset:F
+    iget v12, v0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mWaveOffset:F
 
     .line 79
     .line 80
-    iget v3, v0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mWavePhase:F
+    iget v3, v0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mWavePhase:F
 
     .line 81
     .line 82
@@ -424,8 +385,7 @@
 
     .line 83
     .line 84
-    invoke-virtual {v15}, Landroidx/constraintlayout/core/motion/CustomVariable;
-    ->getValueToInterpolate()F
+    invoke-virtual {v15}, Landroidx/constraintlayout/core/motion/CustomVariable;->getValueToInterpolate()F
 
     .line 85
     .line 86
@@ -436,8 +396,7 @@
     const/4 v10, -0x1
 
     .line 89
-    invoke-virtual/range {v6 .. v15}, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator;
-    ->setPoint(IILjava/lang/String;IFFFFLjava/lang/Object;)V
+    invoke-virtual/range {v6 .. v15}, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator;->setPoint(IILjava/lang/String;IFFFFLjava/lang/Object;)V
 
     .line 90
     .line 91
@@ -446,8 +405,7 @@
 
     .line 93
     :cond_3
-    invoke-virtual {v0, v3}, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->getValue(Ljava/lang/String;)F
+    invoke-virtual {v0, v3}, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->getValue(Ljava/lang/String;)F
 
     .line 94
     .line 95
@@ -455,8 +413,7 @@
     move-result v24
 
     .line 97
-    invoke-static/range {v24 .. v24}, Ljava/lang/Float;
-    ->isNaN(F)Z
+    invoke-static/range {v24 .. v24}, Ljava/lang/Float;->isNaN(F)Z
 
     .line 98
     .line 99
@@ -472,8 +429,7 @@
 
     .line 104
     :cond_4
-    invoke-virtual {v1, v3}, Ljava/util/HashMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 105
     .line 106
@@ -497,33 +453,27 @@
 
     .line 115
     :cond_5
-    iget v3, v0, Landroidx/constraintlayout/core/motion/key/MotionKey;
-    ->mFramePosition:I
+    iget v3, v0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mFramePosition:I
 
     .line 116
     .line 117
-    iget v4, v0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mWaveShape:I
+    iget v4, v0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mWaveShape:I
 
     .line 118
     .line 119
-    iget-object v6, v0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mCustomWaveShape:Ljava/lang/String;
+    iget-object v6, v0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mCustomWaveShape:Ljava/lang/String;
 
     .line 120
     .line 121
-    iget v7, v0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mWavePeriod:F
+    iget v7, v0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mWavePeriod:F
 
     .line 122
     .line 123
-    iget v8, v0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mWaveOffset:F
+    iget v8, v0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mWaveOffset:F
 
     .line 124
     .line 125
-    iget v9, v0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mWavePhase:F
+    iget v9, v0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mWavePhase:F
 
     .line 126
     .line 127
@@ -555,8 +505,7 @@
 
     .line 140
     .line 141
-    invoke-virtual/range {v16 .. v24}, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator;
-    ->setPoint(IILjava/lang/String;IFFFF)V
+    invoke-virtual/range {v16 .. v24}, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator;->setPoint(IILjava/lang/String;IFFFF)V
 
     .line 142
     .line 143
@@ -597,8 +546,7 @@
     .locals 1
 
     .line 2
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->clone()Landroidx/constraintlayout/core/motion/key/MotionKey;
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->clone()Landroidx/constraintlayout/core/motion/key/MotionKey;
 
     move-result-object v0
 
@@ -609,8 +557,7 @@
     .locals 3
 
     .line 1
-    sget-object v0, Ljava/lang/System;
-    ->out:Ljava/io/PrintStream;
+    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     .line 2
     .line 3
@@ -622,19 +569,16 @@
 
     .line 6
     .line 7
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    iget v2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mWaveShape:I
+    iget v2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mWaveShape:I
 
     .line 11
     .line 12
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 13
     .line 14
@@ -643,19 +587,16 @@
 
     .line 16
     .line 17
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 18
     .line 19
     .line 20
-    iget v2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mWavePeriod:F
+    iget v2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mWavePeriod:F
 
     .line 21
     .line 22
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     .line 23
     .line 24
@@ -664,19 +605,16 @@
 
     .line 26
     .line 27
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 28
     .line 29
     .line 30
-    iget v2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mWaveOffset:F
+    iget v2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mWaveOffset:F
 
     .line 31
     .line 32
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     .line 33
     .line 34
@@ -685,19 +623,16 @@
 
     .line 36
     .line 37
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 38
     .line 39
     .line 40
-    iget v2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mWavePhase:F
+    iget v2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mWavePhase:F
 
     .line 41
     .line 42
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     .line 43
     .line 44
@@ -706,19 +641,16 @@
 
     .line 46
     .line 47
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 48
     .line 49
     .line 50
-    iget v2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mRotation:F
+    iget v2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mRotation:F
 
     .line 51
     .line 52
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     .line 53
     .line 54
@@ -727,14 +659,12 @@
 
     .line 56
     .line 57
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     .line 58
     .line 59
     .line 60
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 61
     .line 62
@@ -742,8 +672,7 @@
     move-result-object v1
 
     .line 64
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;
-    ->println(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
     return-void
 .end method
 
@@ -759,13 +688,11 @@
     .end annotation
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mAlpha:F
+    iget v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mAlpha:F
 
     .line 2
     .line 3
-    invoke-static {v0}, Ljava/lang/Float;
-    ->isNaN(F)Z
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
 
     .line 4
     .line 5
@@ -781,20 +708,17 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1, v0}, Ljava/util/HashSet;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
     .line 12
     .line 13
     .line 14
     :cond_0
-    iget v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mElevation:F
+    iget v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mElevation:F
 
     .line 15
     .line 16
-    invoke-static {v0}, Ljava/lang/Float;
-    ->isNaN(F)Z
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
 
     .line 17
     .line 18
@@ -810,20 +734,17 @@
 
     .line 23
     .line 24
-    invoke-virtual {p1, v0}, Ljava/util/HashSet;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
     .line 25
     .line 26
     .line 27
     :cond_1
-    iget v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mRotation:F
+    iget v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mRotation:F
 
     .line 28
     .line 29
-    invoke-static {v0}, Ljava/lang/Float;
-    ->isNaN(F)Z
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
 
     .line 30
     .line 31
@@ -839,20 +760,17 @@
 
     .line 36
     .line 37
-    invoke-virtual {p1, v0}, Ljava/util/HashSet;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
     .line 38
     .line 39
     .line 40
     :cond_2
-    iget v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mRotationX:F
+    iget v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mRotationX:F
 
     .line 41
     .line 42
-    invoke-static {v0}, Ljava/lang/Float;
-    ->isNaN(F)Z
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
 
     .line 43
     .line 44
@@ -868,20 +786,17 @@
 
     .line 49
     .line 50
-    invoke-virtual {p1, v0}, Ljava/util/HashSet;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
     .line 51
     .line 52
     .line 53
     :cond_3
-    iget v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mRotationY:F
+    iget v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mRotationY:F
 
     .line 54
     .line 55
-    invoke-static {v0}, Ljava/lang/Float;
-    ->isNaN(F)Z
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
 
     .line 56
     .line 57
@@ -897,20 +812,17 @@
 
     .line 62
     .line 63
-    invoke-virtual {p1, v0}, Ljava/util/HashSet;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
     .line 64
     .line 65
     .line 66
     :cond_4
-    iget v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mScaleX:F
+    iget v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mScaleX:F
 
     .line 67
     .line 68
-    invoke-static {v0}, Ljava/lang/Float;
-    ->isNaN(F)Z
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
 
     .line 69
     .line 70
@@ -926,20 +838,17 @@
 
     .line 75
     .line 76
-    invoke-virtual {p1, v0}, Ljava/util/HashSet;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
     .line 77
     .line 78
     .line 79
     :cond_5
-    iget v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mScaleY:F
+    iget v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mScaleY:F
 
     .line 80
     .line 81
-    invoke-static {v0}, Ljava/lang/Float;
-    ->isNaN(F)Z
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
 
     .line 82
     .line 83
@@ -955,20 +864,17 @@
 
     .line 88
     .line 89
-    invoke-virtual {p1, v0}, Ljava/util/HashSet;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
     .line 90
     .line 91
     .line 92
     :cond_6
-    iget v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mTransitionPathRotate:F
+    iget v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mTransitionPathRotate:F
 
     .line 93
     .line 94
-    invoke-static {v0}, Ljava/lang/Float;
-    ->isNaN(F)Z
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
 
     .line 95
     .line 96
@@ -984,20 +890,17 @@
 
     .line 101
     .line 102
-    invoke-virtual {p1, v0}, Ljava/util/HashSet;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
     .line 103
     .line 104
     .line 105
     :cond_7
-    iget v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mTranslationX:F
+    iget v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mTranslationX:F
 
     .line 106
     .line 107
-    invoke-static {v0}, Ljava/lang/Float;
-    ->isNaN(F)Z
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
 
     .line 108
     .line 109
@@ -1013,20 +916,17 @@
 
     .line 114
     .line 115
-    invoke-virtual {p1, v0}, Ljava/util/HashSet;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
     .line 116
     .line 117
     .line 118
     :cond_8
-    iget v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mTranslationY:F
+    iget v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mTranslationY:F
 
     .line 119
     .line 120
-    invoke-static {v0}, Ljava/lang/Float;
-    ->isNaN(F)Z
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
 
     .line 121
     .line 122
@@ -1042,20 +942,17 @@
 
     .line 127
     .line 128
-    invoke-virtual {p1, v0}, Ljava/util/HashSet;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
     .line 129
     .line 130
     .line 131
     :cond_9
-    iget v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mTranslationZ:F
+    iget v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mTranslationZ:F
 
     .line 132
     .line 133
-    invoke-static {v0}, Ljava/lang/Float;
-    ->isNaN(F)Z
+    invoke-static {v0}, Ljava/lang/Float;->isNaN(F)Z
 
     .line 134
     .line 135
@@ -1071,20 +968,17 @@
 
     .line 140
     .line 141
-    invoke-virtual {p1, v0}, Ljava/util/HashSet;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
     .line 142
     .line 143
     .line 144
     :cond_a
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;
-    ->mCustom:Ljava/util/HashMap;
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mCustom:Ljava/util/HashMap;
 
     .line 145
     .line 146
-    invoke-virtual {v0}, Ljava/util/HashMap;
-    ->size()I
+    invoke-virtual {v0}, Ljava/util/HashMap;->size()I
 
     .line 147
     .line 148
@@ -1096,13 +990,11 @@
 
     .line 151
     .line 152
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;
-    ->mCustom:Ljava/util/HashMap;
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mCustom:Ljava/util/HashMap;
 
     .line 153
     .line 154
-    invoke-virtual {v0}, Ljava/util/HashMap;
-    ->keySet()Ljava/util/Set;
+    invoke-virtual {v0}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
 
     .line 155
     .line 156
@@ -1110,8 +1002,7 @@
     move-result-object v0
 
     .line 158
-    invoke-interface {v0}, Ljava/util/Set;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     .line 159
     .line 160
@@ -1120,8 +1011,7 @@
 
     .line 162
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 163
     .line 164
@@ -1133,8 +1023,7 @@
 
     .line 167
     .line 168
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 169
     .line 170
@@ -1154,20 +1043,17 @@
 
     .line 177
     .line 178
-    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 179
     .line 180
     .line 181
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 182
     .line 183
     .line 184
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 185
     .line 186
@@ -1175,8 +1061,7 @@
     move-result-object v1
 
     .line 188
-    invoke-virtual {p1, v1}, Ljava/util/HashSet;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
     .line 189
     .line 190
@@ -1192,8 +1077,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
@@ -1201,8 +1085,7 @@
     const/4 v0, -0x1
 
     .line 5
-    invoke-virtual {p1}, Ljava/lang/String;
-    ->hashCode()I
+    invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
 
     .line 6
     .line 7
@@ -1228,8 +1111,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 18
     .line 19
@@ -1258,8 +1140,7 @@
 
     .line 29
     .line 30
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 31
     .line 32
@@ -1288,8 +1169,7 @@
 
     .line 42
     .line 43
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 44
     .line 45
@@ -1318,8 +1198,7 @@
 
     .line 55
     .line 56
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 57
     .line 58
@@ -1348,8 +1227,7 @@
 
     .line 68
     .line 69
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 70
     .line 71
@@ -1378,8 +1256,7 @@
 
     .line 81
     .line 82
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 83
     .line 84
@@ -1408,8 +1285,7 @@
 
     .line 94
     .line 95
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 96
     .line 97
@@ -1438,8 +1314,7 @@
 
     .line 107
     .line 108
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 109
     .line 110
@@ -1468,8 +1343,7 @@
 
     .line 120
     .line 121
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 122
     .line 123
@@ -1498,8 +1372,7 @@
 
     .line 133
     .line 134
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 135
     .line 136
@@ -1529,8 +1402,7 @@
 
     .line 147
     .line 148
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 149
     .line 150
@@ -1560,8 +1432,7 @@
 
     .line 161
     .line 162
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 163
     .line 164
@@ -1591,8 +1462,7 @@
 
     .line 175
     .line 176
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 177
     .line 178
@@ -1622,8 +1492,7 @@
 
     .line 189
     .line 190
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 191
     .line 192
@@ -1651,8 +1520,7 @@
 
     .line 201
     .line 202
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 203
     .line 204
@@ -1680,8 +1548,7 @@
 
     .line 213
     .line 214
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 215
     .line 216
@@ -1709,8 +1576,7 @@
 
     .line 225
     .line 226
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 227
     .line 228
@@ -1738,8 +1604,7 @@
 
     .line 237
     .line 238
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 239
     .line 240
@@ -1767,8 +1632,7 @@
 
     .line 249
     .line 250
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 251
     .line 252
@@ -1796,8 +1660,7 @@
 
     .line 261
     .line 262
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 263
     .line 264
@@ -1825,8 +1688,7 @@
 
     .line 273
     .line 274
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 275
     .line 276
@@ -2078,8 +1940,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 2
     .line 3
@@ -2087,8 +1948,7 @@
     const/4 v0, -0x1
 
     .line 5
-    invoke-virtual {p1}, Ljava/lang/String;
-    ->hashCode()I
+    invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
 
     .line 6
     .line 7
@@ -2110,8 +1970,7 @@
 
     .line 15
     .line 16
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 17
     .line 18
@@ -2141,8 +2000,7 @@
 
     .line 29
     .line 30
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 31
     .line 32
@@ -2172,8 +2030,7 @@
 
     .line 43
     .line 44
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 45
     .line 46
@@ -2203,8 +2060,7 @@
 
     .line 57
     .line 58
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 59
     .line 60
@@ -2234,8 +2090,7 @@
 
     .line 71
     .line 72
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 73
     .line 74
@@ -2265,8 +2120,7 @@
 
     .line 85
     .line 86
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 87
     .line 88
@@ -2296,8 +2150,7 @@
 
     .line 99
     .line 100
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 101
     .line 102
@@ -2324,8 +2177,7 @@
 
     .line 110
     .line 111
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 112
     .line 113
@@ -2352,8 +2204,7 @@
 
     .line 121
     .line 122
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 123
     .line 124
@@ -2380,8 +2231,7 @@
 
     .line 132
     .line 133
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 134
     .line 135
@@ -2408,8 +2258,7 @@
 
     .line 143
     .line 144
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 145
     .line 146
@@ -2436,8 +2285,7 @@
 
     .line 154
     .line 155
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 156
     .line 157
@@ -2464,8 +2312,7 @@
 
     .line 165
     .line 166
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 167
     .line 168
@@ -2492,8 +2339,7 @@
 
     .line 176
     .line 177
-    invoke-virtual {p1, v1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 178
     .line 179
@@ -2522,73 +2368,59 @@
 
     .line 191
     :pswitch_0
-    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mTransitionPathRotate:F    return p1
+    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mTransitionPathRotate:F    return p1
 
     .line 194
     :pswitch_1
-    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mWavePhase:F    return p1
+    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mWavePhase:F    return p1
 
     .line 197
     :pswitch_2
-    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mAlpha:F    return p1
+    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mAlpha:F    return p1
 
     .line 200
     :pswitch_3
-    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mElevation:F    return p1
+    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mElevation:F    return p1
 
     .line 203
     :pswitch_4
-    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mScaleY:F    return p1
+    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mScaleY:F    return p1
 
     .line 206
     :pswitch_5
-    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mScaleX:F    return p1
+    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mScaleX:F    return p1
 
     .line 209
     :pswitch_6
-    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mProgress:F    return p1
+    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mProgress:F    return p1
 
     .line 212
     :pswitch_7
-    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mWaveOffset:F    return p1
+    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mWaveOffset:F    return p1
 
     .line 215
     :pswitch_8
-    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mTranslationZ:F    return p1
+    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mTranslationZ:F    return p1
 
     .line 218
     :pswitch_9
-    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mTranslationY:F    return p1
+    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mTranslationY:F    return p1
 
     .line 221
     :pswitch_a
-    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mTranslationX:F    return p1
+    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mTranslationX:F    return p1
 
     .line 224
     :pswitch_b
-    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mRotation:F    return p1
+    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mRotation:F    return p1
 
     .line 227
     :pswitch_c
-    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mRotationY:F    return p1
+    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mRotationY:F    return p1
 
     .line 230
     :pswitch_d
-    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mRotationX:F    return p1
+    iget p1, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mRotationX:F    return p1
 
     .line 233
     :sswitch_data_0
@@ -2646,14 +2478,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/util/HashSet;
-    -><init>()V
+    invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0, v0}, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->getAttributeNames(Ljava/util/HashSet;)V
+    invoke-virtual {p0, v0}, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->getAttributeNames(Ljava/util/HashSet;)V
 
     .line 7
     .line 8
@@ -2666,19 +2496,16 @@
 
     .line 12
     .line 13
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 14
     .line 15
     .line 16
-    iget v2, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;
-    ->mFramePosition:I
+    iget v2, p0, Landroidx/constraintlayout/core/motion/key/MotionKey;->mFramePosition:I
 
     .line 17
     .line 18
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 19
     .line 20
@@ -2687,14 +2514,12 @@
 
     .line 22
     .line 23
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 24
     .line 25
     .line 26
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 27
     .line 28
@@ -2702,8 +2527,7 @@
     move-result-object v1
 
     .line 30
-    invoke-static {v1}, Landroidx/constraintlayout/core/motion/utils/Utils;
-    ->log(Ljava/lang/String;)V
+    invoke-static {v1}, Landroidx/constraintlayout/core/motion/utils/Utils;->log(Ljava/lang/String;)V
 
     .line 31
     .line 32
@@ -2716,19 +2540,16 @@
 
     .line 36
     .line 37
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 38
     .line 39
     .line 40
-    iget v2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mWaveShape:I
+    iget v2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mWaveShape:I
 
     .line 41
     .line 42
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 43
     .line 44
@@ -2737,19 +2558,16 @@
 
     .line 46
     .line 47
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 48
     .line 49
     .line 50
-    iget v2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mWavePeriod:F
+    iget v2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mWavePeriod:F
 
     .line 51
     .line 52
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     .line 53
     .line 54
@@ -2758,19 +2576,16 @@
 
     .line 56
     .line 57
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 58
     .line 59
     .line 60
-    iget v2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mWaveOffset:F
+    iget v2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mWaveOffset:F
 
     .line 61
     .line 62
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     .line 63
     .line 64
@@ -2779,19 +2594,16 @@
 
     .line 66
     .line 67
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 68
     .line 69
     .line 70
-    iget v2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mWavePhase:F
+    iget v2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mWavePhase:F
 
     .line 71
     .line 72
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     .line 73
     .line 74
@@ -2800,14 +2612,12 @@
 
     .line 76
     .line 77
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(C)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
     .line 78
     .line 79
     .line 80
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 81
     .line 82
@@ -2815,8 +2625,7 @@
     move-result-object v1
 
     .line 84
-    invoke-static {v1}, Landroidx/constraintlayout/core/motion/utils/Utils;
-    ->log(Ljava/lang/String;)V
+    invoke-static {v1}, Landroidx/constraintlayout/core/motion/utils/Utils;->log(Ljava/lang/String;)V
 
     .line 85
     .line 86
@@ -2828,8 +2637,7 @@
 
     .line 89
     .line 90
-    invoke-virtual {v0, v2}, Ljava/util/HashSet;
-    ->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+    invoke-virtual {v0, v2}, Ljava/util/HashSet;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
     .line 91
     .line 92
@@ -2853,8 +2661,7 @@
 
     .line 100
     .line 101
-    invoke-direct {v2}, Ljava/lang/StringBuilder;
-    -><init>()V
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 102
     .line 103
@@ -2863,8 +2670,7 @@
 
     .line 105
     .line 106
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 107
     .line 108
@@ -2873,8 +2679,7 @@
 
     .line 110
     .line 111
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 112
     .line 113
@@ -2883,8 +2688,7 @@
 
     .line 115
     .line 116
-    invoke-virtual {p0, v3}, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->getValue(Ljava/lang/String;)F
+    invoke-virtual {p0, v3}, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->getValue(Ljava/lang/String;)F
 
     .line 117
     .line 118
@@ -2892,14 +2696,12 @@
     move-result v3
 
     .line 120
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;
-    ->append(F)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
 
     .line 121
     .line 122
     .line 123
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 124
     .line 125
@@ -2907,8 +2709,7 @@
     move-result-object v2
 
     .line 127
-    invoke-static {v2}, Landroidx/constraintlayout/core/motion/utils/Utils;
-    ->log(Ljava/lang/String;)V
+    invoke-static {v2}, Landroidx/constraintlayout/core/motion/utils/Utils;->log(Ljava/lang/String;)V
 
     .line 128
     .line 129
@@ -2944,8 +2745,7 @@
     packed-switch p1, :pswitch_data_1
 
     .line 8
-    invoke-super {p0, p1, p2}, Landroidx/constraintlayout/core/motion/key/MotionKey;
-    ->setValue(IF)Z
+    invoke-super {p0, p1, p2}, Landroidx/constraintlayout/core/motion/key/MotionKey;->setValue(IF)Z
 
     move-result p1
 
@@ -2953,106 +2753,91 @@
 
     .line 9
     :pswitch_0
-    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mWavePhase:F
+    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mWavePhase:F
 
     goto :goto_0
 
     .line 10
     :pswitch_1
-    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mWaveOffset:F
+    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mWaveOffset:F
 
     goto :goto_0
 
     .line 11
     :pswitch_2
-    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mWavePeriod:F
+    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mWavePeriod:F
 
     goto :goto_0
 
     .line 12
     :pswitch_3
-    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mScaleY:F
+    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mScaleY:F
 
     goto :goto_0
 
     .line 13
     :pswitch_4
-    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mScaleX:F
+    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mScaleX:F
 
     goto :goto_0
 
     .line 14
     :pswitch_5
-    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mRotation:F
+    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mRotation:F
 
     goto :goto_0
 
     .line 15
     :pswitch_6
-    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mRotationY:F
+    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mRotationY:F
 
     goto :goto_0
 
     .line 16
     :pswitch_7
-    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mRotationX:F
+    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mRotationX:F
 
     goto :goto_0
 
     .line 17
     :pswitch_8
-    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mElevation:F
+    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mElevation:F
 
     goto :goto_0
 
     .line 18
     :pswitch_9
-    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mTranslationZ:F
+    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mTranslationZ:F
 
     goto :goto_0
 
     .line 19
     :pswitch_a
-    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mTranslationY:F
+    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mTranslationY:F
 
     goto :goto_0
 
     .line 20
     :pswitch_b
-    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mTranslationX:F
+    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mTranslationX:F
 
     goto :goto_0
 
     .line 21
     :cond_0
-    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mTransitionPathRotate:F
+    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mTransitionPathRotate:F
 
     goto :goto_0
 
     .line 22
     :cond_1
-    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mAlpha:F
+    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mAlpha:F
 
     goto :goto_0
 
     .line 23
     :cond_2
-    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mProgress:F
+    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mProgress:F
 
     :goto_0
     const/4 p1, 0x1
@@ -3098,8 +2883,7 @@
     int-to-float v0, p2
 
     .line 1
-    invoke-virtual {p0, p1, v0}, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->setValue(IF)Z
+    invoke-virtual {p0, p1, v0}, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->setValue(IF)Z
 
     move-result v0
 
@@ -3109,8 +2893,7 @@
 
     .line 2
     :cond_0
-    invoke-super {p0, p1, p2}, Landroidx/constraintlayout/core/motion/key/MotionKey;
-    ->setValue(II)Z
+    invoke-super {p0, p1, p2}, Landroidx/constraintlayout/core/motion/key/MotionKey;->setValue(II)Z
 
     move-result p1
 
@@ -3118,15 +2901,13 @@
 
     .line 3
     :cond_1
-    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mWaveShape:I
+    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mWaveShape:I
 
     return v1
 
     .line 4
     :cond_2
-    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mCurveFit:I
+    iput p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mCurveFit:I
 
     return v1
 .end method
@@ -3145,8 +2926,7 @@
     if-eq p1, v0, :cond_0
 
     .line 5
-    invoke-super {p0, p1, p2}, Landroidx/constraintlayout/core/motion/key/MotionKey;
-    ->setValue(ILjava/lang/String;)Z
+    invoke-super {p0, p1, p2}, Landroidx/constraintlayout/core/motion/key/MotionKey;->setValue(ILjava/lang/String;)Z
 
     move-result p1
 
@@ -3154,15 +2934,13 @@
 
     .line 6
     :cond_0
-    iput-object p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mCustomWaveShape:Ljava/lang/String;
+    iput-object p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mCustomWaveShape:Ljava/lang/String;
 
     return v1
 
     .line 7
     :cond_1
-    iput-object p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;
-    ->mTransitionEasing:Ljava/lang/String;
+    iput-object p2, p0, Landroidx/constraintlayout/core/motion/key/MotionKeyCycle;->mTransitionEasing:Ljava/lang/String;
 
     return v1
 .end method

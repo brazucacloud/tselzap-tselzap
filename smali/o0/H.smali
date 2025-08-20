@@ -12,8 +12,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, v0}, Landroid/content/Context;
-    ->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -25,8 +24,7 @@
 
     .line 8
     .line 9
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 10
     .line 11
@@ -38,8 +36,7 @@
 
     .line 14
     .line 15
-    invoke-static {p0}, Landroidx/core/view/p;
-    ->s(Landroid/view/WindowManager;)Landroid/view/WindowMetrics;
+    invoke-static {p0}, Landroidx/core/view/p;->s(Landroid/view/WindowManager;)Landroid/view/WindowMetrics;
 
     .line 16
     .line 17
@@ -47,8 +44,7 @@
     move-result-object p0
 
     .line 19
-    invoke-static {p0}, Landroidx/core/view/p;
-    ->e(Landroid/view/WindowMetrics;)Landroid/graphics/Rect;
+    invoke-static {p0}, Landroidx/core/view/p;->e(Landroid/view/WindowMetrics;)Landroid/graphics/Rect;
 
     .line 20
     .line 21
@@ -59,8 +55,7 @@
 
     .line 24
     :cond_0
-    invoke-interface {p0}, Landroid/view/WindowManager;
-    ->getDefaultDisplay()Landroid/view/Display;
+    invoke-interface {p0}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
 
     .line 25
     .line 26
@@ -72,14 +67,12 @@
 
     .line 29
     .line 30
-    invoke-direct {v0}, Landroid/graphics/Point;
-    -><init>()V
+    invoke-direct {v0}, Landroid/graphics/Point;-><init>()V
 
     .line 31
     .line 32
     .line 33
-    invoke-virtual {p0, v0}, Landroid/view/Display;
-    ->getRealSize(Landroid/graphics/Point;)V
+    invoke-virtual {p0, v0}, Landroid/view/Display;->getRealSize(Landroid/graphics/Point;)V
 
     .line 34
     .line 35
@@ -88,29 +81,24 @@
 
     .line 37
     .line 38
-    invoke-direct {p0}, Landroid/graphics/Rect;
-    -><init>()V
+    invoke-direct {p0}, Landroid/graphics/Rect;-><init>()V
 
     .line 39
     .line 40
     .line 41
-    iget v1, v0, Landroid/graphics/Point;
-    ->x:I
+    iget v1, v0, Landroid/graphics/Point;->x:I
 
     .line 42
     .line 43
-    iput v1, p0, Landroid/graphics/Rect;
-    ->right:I
+    iput v1, p0, Landroid/graphics/Rect;->right:I
 
     .line 44
     .line 45
-    iget v0, v0, Landroid/graphics/Point;
-    ->y:I
+    iget v0, v0, Landroid/graphics/Point;->y:I
 
     .line 46
     .line 47
-    iput v0, p0, Landroid/graphics/Rect;
-    ->bottom:I
+    iput v0, p0, Landroid/graphics/Rect;->bottom:I
 
     .line 48
     .line 49

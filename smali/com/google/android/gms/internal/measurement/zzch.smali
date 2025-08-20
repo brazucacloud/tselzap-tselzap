@@ -9,8 +9,7 @@
 
     .line 1
     :try_start_0
-    invoke-interface {p0, p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzci;
-    ->zza(Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzco;Lcom/google/android/gms/internal/measurement/zzcl;)Ljava/lang/String;
+    invoke-interface {p0, p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzci;->zza(Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzco;Lcom/google/android/gms/internal/measurement/zzcl;)Ljava/lang/String;
 
     .line 2
     .line 3

@@ -29,8 +29,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;
-    -><init>(II)V
+    invoke-direct {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;-><init>(II)V
 
     return-void
 .end method
@@ -39,8 +38,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
 .end method
@@ -49,8 +47,7 @@
     .locals 0
 
     .line 4
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;
-    -><init>(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;-><init>(Landroid/view/ViewGroup$LayoutParams;)V
 
     return-void
 .end method
@@ -59,8 +56,7 @@
     .locals 0
 
     .line 3
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;
-    -><init>(Landroid/view/ViewGroup$MarginLayoutParams;)V
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;-><init>(Landroid/view/ViewGroup$MarginLayoutParams;)V
 
     return-void
 .end method
@@ -69,8 +65,7 @@
     .locals 0
 
     .line 5
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;
-    -><init>(Landroidx/recyclerview/widget/RecyclerView$LayoutParams;)V
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;-><init>(Landroidx/recyclerview/widget/RecyclerView$LayoutParams;)V
 
     return-void
 .end method
@@ -81,8 +76,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LayoutParams;
-    ->mSpan:Landroidx/recyclerview/widget/StaggeredGridLayoutManager$Span;
+    iget-object v0, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LayoutParams;->mSpan:Landroidx/recyclerview/widget/StaggeredGridLayoutManager$Span;
 
     .line 2
     .line 3
@@ -96,24 +90,21 @@
 
     .line 7
     :cond_0
-    iget v0, v0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$Span;
-    ->mIndex:I    return v0
+    iget v0, v0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$Span;->mIndex:I    return v0
 .end method
 
 .method public isFullSpan()Z
     .locals 1
 
     .line 1
-    iget-boolean v0, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LayoutParams;
-    ->mFullSpan:Z    return v0
+    iget-boolean v0, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LayoutParams;->mFullSpan:Z    return v0
 .end method
 
 .method public setFullSpan(Z)V
     .locals 0
 
     .line 1
-    iput-boolean p1, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LayoutParams;
-    ->mFullSpan:Z
+    iput-boolean p1, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LayoutParams;->mFullSpan:Z
 return-void
 .end method
 

@@ -12,14 +12,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/util/TypedValue;
-    -><init>()V
+    invoke-direct {v0}, Landroid/util/TypedValue;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getTheme()Landroid/content/res/Resources$Theme;
+    invoke-virtual {p0}, Landroid/content/Context;->getTheme()Landroid/content/res/Resources$Theme;
 
     .line 7
     .line 8
@@ -30,8 +28,7 @@
     const/4 v1, 0x1
 
     .line 11
-    invoke-virtual {p0, p1, v0, v1}, Landroid/content/res/Resources$Theme;
-    ->resolveAttribute(ILandroid/util/TypedValue;Z)Z
+    invoke-virtual {p0, p1, v0, v1}, Landroid/content/res/Resources$Theme;->resolveAttribute(ILandroid/util/TypedValue;Z)Z
 
     .line 12
     .line 13
@@ -56,8 +53,7 @@
     .locals 1
 
     .line 1
-    invoke-static {p0, p1}, Lr0/b;
-    ->a(Landroid/content/Context;I)Landroid/util/TypedValue;
+    invoke-static {p0, p1}, Lr0/b;->a(Landroid/content/Context;I)Landroid/util/TypedValue;
 
     .line 2
     .line 3
@@ -69,8 +65,7 @@
 
     .line 6
     .line 7
-    iget p1, p0, Landroid/util/TypedValue;
-    ->type:I
+    iget p1, p0, Landroid/util/TypedValue;->type:I
 
     .line 8
     .line 9
@@ -82,8 +77,7 @@
 
     .line 12
     .line 13
-    iget p0, p0, Landroid/util/TypedValue;
-    ->data:I
+    iget p0, p0, Landroid/util/TypedValue;->data:I
 
     .line 14
     .line 15
@@ -110,8 +104,7 @@
     .locals 2
 
     .line 1
-    invoke-static {p0, p1}, Lr0/b;
-    ->a(Landroid/content/Context;I)Landroid/util/TypedValue;
+    invoke-static {p0, p1}, Lr0/b;->a(Landroid/content/Context;I)Landroid/util/TypedValue;
 
     .line 2
     .line 3
@@ -131,8 +124,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     .line 11
     .line 12
@@ -140,8 +132,7 @@
     move-result-object p0
 
     .line 14
-    invoke-virtual {p0, p1}, Landroid/content/res/Resources;
-    ->getResourceName(I)Ljava/lang/String;
+    invoke-virtual {p0, p1}, Landroid/content/res/Resources;->getResourceName(I)Ljava/lang/String;
 
     .line 15
     .line 16
@@ -174,8 +165,7 @@
 
     .line 28
     .line 29
-    invoke-static {p0, p1}, Ljava/lang/String;
-    ->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0, p1}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     .line 30
     .line 31
@@ -183,8 +173,7 @@
     move-result-object p0
 
     .line 33
-    invoke-direct {v0, p0}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 34
     .line 35

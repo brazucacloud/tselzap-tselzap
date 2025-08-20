@@ -34,8 +34,7 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Lu0/f;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Lu0/f;-><init>(I)V
 
     .line 6
     .line 7
@@ -44,8 +43,7 @@
 
     .line 9
     .line 10
-    invoke-static {v1, v0}, LF/g;
-    ->a(ILF/c;)LF/d;
+    invoke-static {v1, v0}, LF/g;->a(ILF/c;)LF/d;
 
     .line 11
     .line 12
@@ -53,8 +51,7 @@
     move-result-object v0
 
     .line 14
-    sput-object v0, Lk/B;
-    ->f:LF/d;
+    sput-object v0, Lk/B;->f:LF/d;
 
     .line 15
     .line 16
@@ -65,8 +62,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -75,14 +71,12 @@
 
     .line 5
     .line 6
-    invoke-direct {v0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Lk/B;
-    ->b:LF/h;
+    iput-object v0, p0, Lk/B;->b:LF/h;
 
     .line 10
     .line 11
@@ -95,8 +89,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lk/B;
-    ->b:LF/h;
+    iget-object v0, p0, Lk/B;->b:LF/h;
 
     .line 2
     .line 3
@@ -107,13 +100,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lk/B;
-    ->c:Lk/C;
+    iget-object v0, p0, Lk/B;->c:Lk/C;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Lk/C;
-    ->b()I
+    invoke-interface {v0}, Lk/C;->b()I
 
     .line 4
     .line 5
@@ -127,13 +118,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lk/B;
-    ->c:Lk/C;
+    iget-object v0, p0, Lk/B;->c:Lk/C;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Lk/C;
-    ->c()Ljava/lang/Class;
+    invoke-interface {v0}, Lk/C;->c()Ljava/lang/Class;
 
     .line 4
     .line 5
@@ -151,19 +140,16 @@
 
     .line 2
     :try_start_0
-    iget-object v0, p0, Lk/B;
-    ->b:LF/h;
+    iget-object v0, p0, Lk/B;->b:LF/h;
 
     .line 3
     .line 4
-    invoke-virtual {v0}, LF/h;
-    ->a()V
+    invoke-virtual {v0}, LF/h;->a()V
 
     .line 5
     .line 6
     .line 7
-    iget-boolean v0, p0, Lk/B;
-    ->d:Z
+    iget-boolean v0, p0, Lk/B;->d:Z
 
     .line 8
     .line 9
@@ -174,13 +160,11 @@
     const/4 v0, 0x0
 
     .line 12
-    iput-boolean v0, p0, Lk/B;
-    ->d:Z
+    iput-boolean v0, p0, Lk/B;->d:Z
 
     .line 13
     .line 14
-    iget-boolean v0, p0, Lk/B;
-    ->e:Z
+    iget-boolean v0, p0, Lk/B;->e:Z
 
     .line 15
     .line 16
@@ -188,8 +172,7 @@
 
     .line 17
     .line 18
-    invoke-virtual {p0}, Lk/B;
-    ->recycle()V
+    invoke-virtual {p0}, Lk/B;->recycle()V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -223,8 +206,7 @@
 
     .line 29
     .line 30
-    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 31
     .line 32
@@ -296,13 +278,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lk/B;
-    ->c:Lk/C;
+    iget-object v0, p0, Lk/B;->c:Lk/C;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Lk/C;
-    ->get()Ljava/lang/Object;
+    invoke-interface {v0}, Lk/C;->get()Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -320,13 +300,11 @@
 
     .line 2
     :try_start_0
-    iget-object v0, p0, Lk/B;
-    ->b:LF/h;
+    iget-object v0, p0, Lk/B;->b:LF/h;
 
     .line 3
     .line 4
-    invoke-virtual {v0}, LF/h;
-    ->a()V
+    invoke-virtual {v0}, LF/h;->a()V
 
     .line 5
     .line 6
@@ -334,13 +312,11 @@
     const/4 v0, 0x1
 
     .line 8
-    iput-boolean v0, p0, Lk/B;
-    ->e:Z
+    iput-boolean v0, p0, Lk/B;->e:Z
 
     .line 9
     .line 10
-    iget-boolean v0, p0, Lk/B;
-    ->d:Z
+    iget-boolean v0, p0, Lk/B;->d:Z
 
     .line 11
     .line 12
@@ -348,13 +324,11 @@
 
     .line 13
     .line 14
-    iget-object v0, p0, Lk/B;
-    ->c:Lk/C;
+    iget-object v0, p0, Lk/B;->c:Lk/C;
 
     .line 15
     .line 16
-    invoke-interface {v0}, Lk/C;
-    ->recycle()V
+    invoke-interface {v0}, Lk/C;->recycle()V
 
     .line 17
     .line 18
@@ -362,18 +336,15 @@
     const/4 v0, 0x0
 
     .line 20
-    iput-object v0, p0, Lk/B;
-    ->c:Lk/C;
+    iput-object v0, p0, Lk/B;->c:Lk/C;
 
     .line 21
     .line 22
-    sget-object v0, Lk/B;
-    ->f:LF/d;
+    sget-object v0, Lk/B;->f:LF/d;
 
     .line 23
     .line 24
-    invoke-virtual {v0, p0}, LF/d;
-    ->release(Ljava/lang/Object;)Z
+    invoke-virtual {v0, p0}, LF/d;->release(Ljava/lang/Object;)Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

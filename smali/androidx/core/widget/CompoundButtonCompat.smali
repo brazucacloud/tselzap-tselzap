@@ -25,8 +25,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -44,8 +43,7 @@
     .end annotation
 
     .line 1
-    sget v0, Landroid/os/Build$VERSION;
-    ->SDK_INT:I
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     .line 2
     .line 3
@@ -57,8 +55,7 @@
 
     .line 6
     .line 7
-    invoke-static {p0}, Landroidx/core/widget/CompoundButtonCompat$Api23Impl;
-    ->getButtonDrawable(Landroid/widget/CompoundButton;)Landroid/graphics/drawable/Drawable;
+    invoke-static {p0}, Landroidx/core/widget/CompoundButtonCompat$Api23Impl;->getButtonDrawable(Landroid/widget/CompoundButton;)Landroid/graphics/drawable/Drawable;
 
     .line 8
     .line 9
@@ -69,8 +66,7 @@
 
     .line 12
     :cond_0
-    sget-boolean v0, Landroidx/core/widget/CompoundButtonCompat;
-    ->sButtonDrawableFieldFetched:Z
+    sget-boolean v0, Landroidx/core/widget/CompoundButtonCompat;->sButtonDrawableFieldFetched:Z
 
     .line 13
     .line 14
@@ -94,8 +90,7 @@
 
     .line 22
     .line 23
-    invoke-virtual {v2, v3}, Ljava/lang/Class;
-    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v2, v3}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 24
     .line 25
@@ -103,13 +98,11 @@
     move-result-object v2
 
     .line 27
-    sput-object v2, Landroidx/core/widget/CompoundButtonCompat;
-    ->sButtonDrawableField:Ljava/lang/reflect/Field;
+    sput-object v2, Landroidx/core/widget/CompoundButtonCompat;->sButtonDrawableField:Ljava/lang/reflect/Field;
 
     .line 28
     .line 29
-    invoke-virtual {v2, v0}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v2, v0}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
     :try_end_0
     .catch Ljava/lang/NoSuchFieldException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -127,21 +120,18 @@
 
     .line 35
     .line 36
-    invoke-static {v1, v3, v2}, Landroid/util/Log;
-    ->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v3, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 37
     .line 38
     .line 39
     :goto_0
-    sput-boolean v0, Landroidx/core/widget/CompoundButtonCompat;
-    ->sButtonDrawableFieldFetched:Z
+    sput-boolean v0, Landroidx/core/widget/CompoundButtonCompat;->sButtonDrawableFieldFetched:Z
 
     .line 40
     .line 41
     :cond_1
-    sget-object v0, Landroidx/core/widget/CompoundButtonCompat;
-    ->sButtonDrawableField:Ljava/lang/reflect/Field;
+    sget-object v0, Landroidx/core/widget/CompoundButtonCompat;->sButtonDrawableField:Ljava/lang/reflect/Field;
 
     .line 42
     .line 43
@@ -153,8 +143,7 @@
     .line 45
     .line 46
     :try_start_1
-    invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 47
     .line 48
@@ -179,14 +168,12 @@
 
     .line 55
     .line 56
-    invoke-static {v1, v0, p0}, Landroid/util/Log;
-    ->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v0, p0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 57
     .line 58
     .line 59
-    sput-object v2, Landroidx/core/widget/CompoundButtonCompat;
-    ->sButtonDrawableField:Ljava/lang/reflect/Field;
+    sput-object v2, Landroidx/core/widget/CompoundButtonCompat;->sButtonDrawableField:Ljava/lang/reflect/Field;
 
     .line 60
     .line 61
@@ -204,8 +191,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/widget/CompoundButtonCompat$Api21Impl;
-    ->getButtonTintList(Landroid/widget/CompoundButton;)Landroid/content/res/ColorStateList;
+    invoke-static {p0}, Landroidx/core/widget/CompoundButtonCompat$Api21Impl;->getButtonTintList(Landroid/widget/CompoundButton;)Landroid/content/res/ColorStateList;
 
     .line 2
     .line 3
@@ -225,8 +211,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/widget/CompoundButtonCompat$Api21Impl;
-    ->getButtonTintMode(Landroid/widget/CompoundButton;)Landroid/graphics/PorterDuff$Mode;
+    invoke-static {p0}, Landroidx/core/widget/CompoundButtonCompat$Api21Impl;->getButtonTintMode(Landroid/widget/CompoundButton;)Landroid/graphics/PorterDuff$Mode;
 
     .line 2
     .line 3
@@ -248,8 +233,7 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/widget/CompoundButtonCompat$Api21Impl;
-    ->setButtonTintList(Landroid/widget/CompoundButton;Landroid/content/res/ColorStateList;)V
+    invoke-static {p0, p1}, Landroidx/core/widget/CompoundButtonCompat$Api21Impl;->setButtonTintList(Landroid/widget/CompoundButton;Landroid/content/res/ColorStateList;)V
 
     .line 2
     .line 3
@@ -269,8 +253,7 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/widget/CompoundButtonCompat$Api21Impl;
-    ->setButtonTintMode(Landroid/widget/CompoundButton;Landroid/graphics/PorterDuff$Mode;)V
+    invoke-static {p0, p1}, Landroidx/core/widget/CompoundButtonCompat$Api21Impl;->setButtonTintMode(Landroid/widget/CompoundButton;Landroid/graphics/PorterDuff$Mode;)V
 
     .line 2
     .line 3

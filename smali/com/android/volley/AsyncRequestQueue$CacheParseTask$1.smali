@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/android/volley/AsyncRequestQueue$CacheParseTask;
-    ->run()V
+    value = Lcom/android/volley/AsyncRequestQueue$CacheParseTask;->run()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/android/volley/AsyncRequestQueue$CacheParseTask$1;
-    ->this$1:Lcom/android/volley/AsyncRequestQueue$CacheParseTask;
+    iput-object p1, p0, Lcom/android/volley/AsyncRequestQueue$CacheParseTask$1;->this$1:Lcom/android/volley/AsyncRequestQueue$CacheParseTask;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
@@ -47,23 +44,19 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/android/volley/AsyncRequestQueue$CacheParseTask$1;
-    ->this$1:Lcom/android/volley/AsyncRequestQueue$CacheParseTask;
+    iget-object v0, p0, Lcom/android/volley/AsyncRequestQueue$CacheParseTask$1;->this$1:Lcom/android/volley/AsyncRequestQueue$CacheParseTask;
 
     .line 2
     .line 3
-    iget-object v1, v0, Lcom/android/volley/AsyncRequestQueue$CacheParseTask;
-    ->this$0:Lcom/android/volley/AsyncRequestQueue;
+    iget-object v1, v0, Lcom/android/volley/AsyncRequestQueue$CacheParseTask;->this$0:Lcom/android/volley/AsyncRequestQueue;
 
     .line 4
     .line 5
-    iget-object v0, v0, Lcom/android/volley/RequestTask;
-    ->mRequest:Lcom/android/volley/Request;
+    iget-object v0, v0, Lcom/android/volley/RequestTask;->mRequest:Lcom/android/volley/Request;
 
     .line 6
     .line 7
-    invoke-virtual {v1, v0}, Lcom/android/volley/AsyncRequestQueue;
-    ->sendRequestOverNetwork(Lcom/android/volley/Request;)V
+    invoke-virtual {v1, v0}, Lcom/android/volley/AsyncRequestQueue;->sendRequestOverNetwork(Lcom/android/volley/Request;)V
 
     .line 8
     .line 9

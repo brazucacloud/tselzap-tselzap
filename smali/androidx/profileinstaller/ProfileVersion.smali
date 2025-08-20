@@ -6,8 +6,7 @@
 # annotations
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -47,8 +46,7 @@
     .line 5
     .line 6
     .line 7
-    sput-object v1, Landroidx/profileinstaller/ProfileVersion;
-    ->V015_S:[B
+    sput-object v1, Landroidx/profileinstaller/ProfileVersion;->V015_S:[B
 
     .line 8
     .line 9
@@ -61,8 +59,7 @@
     .line 12
     .line 13
     .line 14
-    sput-object v1, Landroidx/profileinstaller/ProfileVersion;
-    ->V010_P:[B
+    sput-object v1, Landroidx/profileinstaller/ProfileVersion;->V010_P:[B
 
     .line 15
     .line 16
@@ -75,8 +72,7 @@
     .line 19
     .line 20
     .line 21
-    sput-object v1, Landroidx/profileinstaller/ProfileVersion;
-    ->V009_O_MR1:[B
+    sput-object v1, Landroidx/profileinstaller/ProfileVersion;->V009_O_MR1:[B
 
     .line 22
     .line 23
@@ -89,8 +85,7 @@
     .line 26
     .line 27
     .line 28
-    sput-object v1, Landroidx/profileinstaller/ProfileVersion;
-    ->V005_O:[B
+    sput-object v1, Landroidx/profileinstaller/ProfileVersion;->V005_O:[B
 
     .line 29
     .line 30
@@ -103,8 +98,7 @@
     .line 33
     .line 34
     .line 35
-    sput-object v1, Landroidx/profileinstaller/ProfileVersion;
-    ->V001_N:[B
+    sput-object v1, Landroidx/profileinstaller/ProfileVersion;->V001_N:[B
 
     .line 36
     .line 37
@@ -117,8 +111,7 @@
     .line 40
     .line 41
     .line 42
-    sput-object v1, Landroidx/profileinstaller/ProfileVersion;
-    ->METADATA_V001_N:[B
+    sput-object v1, Landroidx/profileinstaller/ProfileVersion;->METADATA_V001_N:[B
 
     .line 43
     .line 44
@@ -131,8 +124,7 @@
     .line 47
     .line 48
     .line 49
-    sput-object v0, Landroidx/profileinstaller/ProfileVersion;
-    ->METADATA_V002:[B
+    sput-object v0, Landroidx/profileinstaller/ProfileVersion;->METADATA_V002:[B
 
     .line 50
     .line 51
@@ -236,8 +228,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -249,13 +240,11 @@
     .locals 2
 
     .line 1
-    sget-object v0, Landroidx/profileinstaller/ProfileVersion;
-    ->V001_N:[B
+    sget-object v0, Landroidx/profileinstaller/ProfileVersion;->V001_N:[B
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Ljava/util/Arrays;
-    ->equals([B[B)Z
+    invoke-static {p0, v0}, Ljava/util/Arrays;->equals([B[B)Z
 
     .line 4
     .line 5
@@ -275,13 +264,11 @@
 
     .line 12
     :cond_0
-    sget-object v0, Landroidx/profileinstaller/ProfileVersion;
-    ->V005_O:[B
+    sget-object v0, Landroidx/profileinstaller/ProfileVersion;->V005_O:[B
 
     .line 13
     .line 14
-    invoke-static {p0, v0}, Ljava/util/Arrays;
-    ->equals([B[B)Z
+    invoke-static {p0, v0}, Ljava/util/Arrays;->equals([B[B)Z
 
     .line 15
     .line 16

@@ -26,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/core/provider/SelfDestructiveThread$1;
-    ->this$0:Landroidx/core/provider/SelfDestructiveThread;
+    iput-object p1, p0, Landroidx/core/provider/SelfDestructiveThread$1;->this$0:Landroidx/core/provider/SelfDestructiveThread;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 4
     .line 5
@@ -46,8 +44,7 @@
     .locals 2
 
     .line 1
-    iget v0, p1, Landroid/os/Message;
-    ->what:I
+    iget v0, p1, Landroid/os/Message;->what:I
 
     .line 2
     .line 3
@@ -66,13 +63,11 @@
 
     .line 9
     :cond_0
-    iget-object v0, p0, Landroidx/core/provider/SelfDestructiveThread$1;
-    ->this$0:Landroidx/core/provider/SelfDestructiveThread;
+    iget-object v0, p0, Landroidx/core/provider/SelfDestructiveThread$1;->this$0:Landroidx/core/provider/SelfDestructiveThread;
 
     .line 10
     .line 11
-    iget-object p1, p1, Landroid/os/Message;
-    ->obj:Ljava/lang/Object;
+    iget-object p1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -80,8 +75,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0, p1}, Landroidx/core/provider/SelfDestructiveThread;
-    ->onInvokeRunnable(Ljava/lang/Runnable;)V
+    invoke-virtual {v0, p1}, Landroidx/core/provider/SelfDestructiveThread;->onInvokeRunnable(Ljava/lang/Runnable;)V
 
     .line 16
     .line 17
@@ -90,13 +84,11 @@
 
     .line 19
     :cond_1
-    iget-object p1, p0, Landroidx/core/provider/SelfDestructiveThread$1;
-    ->this$0:Landroidx/core/provider/SelfDestructiveThread;
+    iget-object p1, p0, Landroidx/core/provider/SelfDestructiveThread$1;->this$0:Landroidx/core/provider/SelfDestructiveThread;
 
     .line 20
     .line 21
-    invoke-virtual {p1}, Landroidx/core/provider/SelfDestructiveThread;
-    ->onDestruction()V
+    invoke-virtual {p1}, Landroidx/core/provider/SelfDestructiveThread;->onDestruction()V
 
     .line 22
     .line 23

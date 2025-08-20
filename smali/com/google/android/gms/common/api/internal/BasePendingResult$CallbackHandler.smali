@@ -31,14 +31,12 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Landroid/os/Looper;
-    ->getMainLooper()Landroid/os/Looper;
+    invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
     move-result-object v0
 
     .line 2
-    invoke-direct {p0, v0}, Lcom/google/android/gms/internal/base/zau;
-    -><init>(Landroid/os/Looper;)V
+    invoke-direct {p0, v0}, Lcom/google/android/gms/internal/base/zau;-><init>(Landroid/os/Looper;)V
     return-void
 .end method
 
@@ -50,8 +48,7 @@
     .end param
 
     .line 3
-    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/base/zau;
-    -><init>(Landroid/os/Looper;)V
+    invoke-direct {p0, p1}, Lcom/google/android/gms/internal/base/zau;-><init>(Landroid/os/Looper;)V
 return-void
 .end method
 
@@ -65,8 +62,7 @@ return-void
     .end param
 
     .line 1
-    iget v0, p1, Landroid/os/Message;
-    ->what:I
+    iget v0, p1, Landroid/os/Message;->what:I
 
     .line 2
     .line 3
@@ -88,8 +84,7 @@ return-void
 
     .line 10
     .line 11
-    invoke-static {v0, p1}, LA/d;
-    ->c(ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, p1}, LA/d;->c(ILjava/lang/String;)Ljava/lang/String;
 
     .line 12
     .line 13
@@ -101,8 +96,7 @@ return-void
 
     .line 16
     .line 17
-    invoke-direct {v0}, Ljava/lang/Exception;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/Exception;-><init>()V
 
     .line 18
     .line 19
@@ -111,8 +105,7 @@ return-void
 
     .line 21
     .line 22
-    invoke-static {v1, p1, v0}, Landroid/util/Log;
-    ->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, p1, v0}, Landroid/util/Log;->wtf(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 23
     .line 24
@@ -121,8 +114,7 @@ return-void
 
     .line 26
     :cond_0
-    iget-object p1, p1, Landroid/os/Message;
-    ->obj:Ljava/lang/Object;
+    iget-object p1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
     .line 27
     .line 28
@@ -130,13 +122,11 @@ return-void
 
     .line 29
     .line 30
-    sget-object v0, Lcom/google/android/gms/common/api/Status;
-    ->RESULT_TIMEOUT:Lcom/google/android/gms/common/api/Status;
+    sget-object v0, Lcom/google/android/gms/common/api/Status;->RESULT_TIMEOUT:Lcom/google/android/gms/common/api/Status;
 
     .line 31
     .line 32
-    invoke-virtual {p1, v0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;
-    ->forceFailureUnlessReady(Lcom/google/android/gms/common/api/Status;)V
+    invoke-virtual {p1, v0}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->forceFailureUnlessReady(Lcom/google/android/gms/common/api/Status;)V
 
     .line 33
     .line 34
@@ -145,8 +135,7 @@ return-void
 
     .line 36
     :cond_1
-    iget-object p1, p1, Landroid/os/Message;
-    ->obj:Ljava/lang/Object;
+    iget-object p1, p1, Landroid/os/Message;->obj:Ljava/lang/Object;
 
     .line 37
     .line 38
@@ -154,8 +143,7 @@ return-void
 
     .line 39
     .line 40
-    iget-object v0, p1, Landroid/util/Pair;
-    ->first:Ljava/lang/Object;
+    iget-object v0, p1, Landroid/util/Pair;->first:Ljava/lang/Object;
 
     .line 41
     .line 42
@@ -163,8 +151,7 @@ return-void
 
     .line 43
     .line 44
-    iget-object p1, p1, Landroid/util/Pair;
-    ->second:Ljava/lang/Object;
+    iget-object p1, p1, Landroid/util/Pair;->second:Ljava/lang/Object;
 
     .line 45
     .line 46
@@ -173,8 +160,7 @@ return-void
     .line 47
     .line 48
     :try_start_0
-    invoke-interface {v0, p1}, Lcom/google/android/gms/common/api/ResultCallback;
-    ->onResult(Lcom/google/android/gms/common/api/Result;)V
+    invoke-interface {v0, p1}, Lcom/google/android/gms/common/api/ResultCallback;->onResult(Lcom/google/android/gms/common/api/Result;)V
     :try_end_0
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -188,8 +174,7 @@ return-void
     move-exception v0
 
     .line 53
-    invoke-static {p1}, Lcom/google/android/gms/common/api/internal/BasePendingResult;
-    ->zal(Lcom/google/android/gms/common/api/Result;)V
+    invoke-static {p1}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->zal(Lcom/google/android/gms/common/api/Result;)V
 
     .line 54
     .line 55
@@ -237,13 +222,11 @@ return-void
     .end param
 
     .line 1
-    sget v0, Lcom/google/android/gms/common/api/internal/BasePendingResult;
-    ->zad:I
+    sget v0, Lcom/google/android/gms/common/api/internal/BasePendingResult;->zad:I
 
     .line 2
     .line 3
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -259,8 +242,7 @@ return-void
 
     .line 10
     .line 11
-    invoke-direct {v0, p1, p2}, Landroid/util/Pair;
-    -><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-direct {v0, p1, p2}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 12
     .line 13
@@ -268,8 +250,7 @@ return-void
     const/4 p1, 0x1
 
     .line 15
-    invoke-virtual {p0, p1, v0}, Landroid/os/Handler;
-    ->obtainMessage(ILjava/lang/Object;)Landroid/os/Message;
+    invoke-virtual {p0, p1, v0}, Landroid/os/Handler;->obtainMessage(ILjava/lang/Object;)Landroid/os/Message;
 
     .line 16
     .line 17
@@ -277,8 +258,7 @@ return-void
     move-result-object p1
 
     .line 19
-    invoke-virtual {p0, p1}, Landroid/os/Handler;
-    ->sendMessage(Landroid/os/Message;)Z
+    invoke-virtual {p0, p1}, Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
 
     .line 20
     .line 21

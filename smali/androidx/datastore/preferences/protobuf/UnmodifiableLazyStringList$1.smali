@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList;
-    ->listIterator(I)Ljava/util/ListIterator;
+    value = Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList;->listIterator(I)Ljava/util/ListIterator;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -48,24 +47,20 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;
-    ->this$0:Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList;
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;->this$0:Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList;
 
     .line 2
     .line 3
-    iput p2, p0, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;
-    ->val$index:I
+    iput p2, p0, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;->val$index:I
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 6
     .line 7
     .line 8
-    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList;
-    ->access$000(Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList;)Landroidx/datastore/preferences/protobuf/LazyStringList;
+    invoke-static {p1}, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList;->access$000(Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList;)Landroidx/datastore/preferences/protobuf/LazyStringList;
 
     .line 9
     .line 10
@@ -73,8 +68,7 @@
     move-result-object p1
 
     .line 12
-    invoke-interface {p1, p2}, Ljava/util/List;
-    ->listIterator(I)Ljava/util/ListIterator;
+    invoke-interface {p1, p2}, Ljava/util/List;->listIterator(I)Ljava/util/ListIterator;
 
     .line 13
     .line 14
@@ -82,8 +76,7 @@
     move-result-object p1
 
     .line 16
-    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;
-    ->iter:Ljava/util/ListIterator;    
+    iput-object p1, p0, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;->iter:Ljava/util/ListIterator;
     return-void
 .end method
 
@@ -95,8 +88,7 @@
     .line 1
     check-cast p1, Ljava/lang/String;
 
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;
-    ->add(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;->add(Ljava/lang/String;)V
 return-void
 .end method
 
@@ -106,8 +98,7 @@ return-void
     .line 2
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     throw p1
 .end method
@@ -116,13 +107,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;
-    ->iter:Ljava/util/ListIterator;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;->iter:Ljava/util/ListIterator;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/ListIterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/ListIterator;->hasNext()Z
 
     .line 4
     .line 5
@@ -136,13 +125,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;
-    ->iter:Ljava/util/ListIterator;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;->iter:Ljava/util/ListIterator;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/ListIterator;
-    ->hasPrevious()Z
+    invoke-interface {v0}, Ljava/util/ListIterator;->hasPrevious()Z
 
     .line 4
     .line 5
@@ -156,8 +143,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;
-    ->next()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;->next()Ljava/lang/String;
 
     move-result-object v0
 
@@ -168,11 +154,9 @@ return-void
     .locals 1
 
     .line 2
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;
-    ->iter:Ljava/util/ListIterator;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;->iter:Ljava/util/ListIterator;
 
-    invoke-interface {v0}, Ljava/util/ListIterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/ListIterator;->next()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -185,13 +169,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;
-    ->iter:Ljava/util/ListIterator;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;->iter:Ljava/util/ListIterator;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/ListIterator;
-    ->nextIndex()I
+    invoke-interface {v0}, Ljava/util/ListIterator;->nextIndex()I
 
     .line 4
     .line 5
@@ -205,8 +187,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;
-    ->previous()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;->previous()Ljava/lang/String;
 
     move-result-object v0
 
@@ -217,11 +198,9 @@ return-void
     .locals 1
 
     .line 2
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;
-    ->iter:Ljava/util/ListIterator;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;->iter:Ljava/util/ListIterator;
 
-    invoke-interface {v0}, Ljava/util/ListIterator;
-    ->previous()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/ListIterator;->previous()Ljava/lang/Object;
 
     move-result-object v0
 
@@ -234,13 +213,11 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;
-    ->iter:Ljava/util/ListIterator;
+    iget-object v0, p0, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;->iter:Ljava/util/ListIterator;
 
     .line 2
     .line 3
-    invoke-interface {v0}, Ljava/util/ListIterator;
-    ->previousIndex()I
+    invoke-interface {v0}, Ljava/util/ListIterator;->previousIndex()I
 
     .line 4
     .line 5
@@ -258,8 +235,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     .line 4
     .line 5
@@ -272,8 +248,7 @@ return-void
     .line 1
     check-cast p1, Ljava/lang/String;
 
-    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;
-    ->set(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList$1;->set(Ljava/lang/String;)V
 return-void
 .end method
 
@@ -283,8 +258,7 @@ return-void
     .line 2
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     throw p1
 .end method

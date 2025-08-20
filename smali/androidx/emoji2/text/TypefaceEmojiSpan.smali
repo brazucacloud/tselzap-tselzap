@@ -10,8 +10,7 @@
 
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -39,8 +38,7 @@
     .end param
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/emoji2/text/EmojiSpan;
-    -><init>(Landroidx/emoji2/text/TypefaceEmojiRasterizer;)V
+    invoke-direct {p0, p1}, Landroidx/emoji2/text/EmojiSpan;-><init>(Landroidx/emoji2/text/TypefaceEmojiRasterizer;)V
 
     .line 2
     .line 3
@@ -77,8 +75,7 @@
 
     .line 9
     .line 10
-    invoke-interface {p1, p2, p3, v0}, Landroid/text/Spanned;
-    ->getSpans(IILjava/lang/Class;)[Ljava/lang/Object;
+    invoke-interface {p1, p2, p3, v0}, Landroid/text/Spanned;->getSpans(IILjava/lang/Class;)[Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -122,8 +119,7 @@
 
     .line 29
     :cond_0
-    iget-object p2, p0, Landroidx/emoji2/text/TypefaceEmojiSpan;
-    ->mWorkingPaint:Landroid/text/TextPaint;
+    iget-object p2, p0, Landroidx/emoji2/text/TypefaceEmojiSpan;->mWorkingPaint:Landroid/text/TextPaint;
 
     .line 30
     .line 31
@@ -135,20 +131,17 @@
 
     .line 34
     .line 35
-    invoke-direct {p2}, Landroid/text/TextPaint;
-    -><init>()V
+    invoke-direct {p2}, Landroid/text/TextPaint;-><init>()V
 
     .line 36
     .line 37
     .line 38
-    iput-object p2, p0, Landroidx/emoji2/text/TypefaceEmojiSpan;
-    ->mWorkingPaint:Landroid/text/TextPaint;
+    iput-object p2, p0, Landroidx/emoji2/text/TypefaceEmojiSpan;->mWorkingPaint:Landroid/text/TextPaint;
 
     .line 39
     .line 40
     :cond_1
-    invoke-virtual {p2, p4}, Landroid/graphics/Paint;
-    ->set(Landroid/graphics/Paint;)V
+    invoke-virtual {p2, p4}, Landroid/graphics/Paint;->set(Landroid/graphics/Paint;)V
 
     .line 41
     .line 42
@@ -165,8 +158,7 @@
 
     .line 47
     .line 48
-    invoke-virtual {p4, p2}, Landroid/text/style/CharacterStyle;
-    ->updateDrawState(Landroid/text/TextPaint;)V
+    invoke-virtual {p4, p2}, Landroid/text/style/CharacterStyle;->updateDrawState(Landroid/text/TextPaint;)V
 
     .line 49
     .line 50
@@ -229,8 +221,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/emoji2/text/TypefaceEmojiSpan;
-    ->sDebugPaint:Landroid/graphics/Paint;
+    sget-object v0, Landroidx/emoji2/text/TypefaceEmojiSpan;->sDebugPaint:Landroid/graphics/Paint;
 
     .line 2
     .line 3
@@ -242,19 +233,16 @@
 
     .line 6
     .line 7
-    invoke-direct {v0}, Landroid/text/TextPaint;
-    -><init>()V
+    invoke-direct {v0}, Landroid/text/TextPaint;-><init>()V
 
     .line 8
     .line 9
     .line 10
-    sput-object v0, Landroidx/emoji2/text/TypefaceEmojiSpan;
-    ->sDebugPaint:Landroid/graphics/Paint;
+    sput-object v0, Landroidx/emoji2/text/TypefaceEmojiSpan;->sDebugPaint:Landroid/graphics/Paint;
 
     .line 11
     .line 12
-    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;
-    ->get()Landroidx/emoji2/text/EmojiCompat;
+    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;->get()Landroidx/emoji2/text/EmojiCompat;
 
     .line 13
     .line 14
@@ -262,8 +250,7 @@
     move-result-object v1
 
     .line 16
-    invoke-virtual {v1}, Landroidx/emoji2/text/EmojiCompat;
-    ->getEmojiSpanIndicatorColor()I
+    invoke-virtual {v1}, Landroidx/emoji2/text/EmojiCompat;->getEmojiSpanIndicatorColor()I
 
     .line 17
     .line 18
@@ -271,31 +258,26 @@
     move-result v1
 
     .line 20
-    invoke-virtual {v0, v1}, Landroid/graphics/Paint;
-    ->setColor(I)V
+    invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
 
     .line 21
     .line 22
     .line 23
-    sget-object v0, Landroidx/emoji2/text/TypefaceEmojiSpan;
-    ->sDebugPaint:Landroid/graphics/Paint;
+    sget-object v0, Landroidx/emoji2/text/TypefaceEmojiSpan;->sDebugPaint:Landroid/graphics/Paint;
 
     .line 24
     .line 25
-    sget-object v1, Landroid/graphics/Paint$Style;
-    ->FILL:Landroid/graphics/Paint$Style;
+    sget-object v1, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
 
     .line 26
     .line 27
-    invoke-virtual {v0, v1}, Landroid/graphics/Paint;
-    ->setStyle(Landroid/graphics/Paint$Style;)V
+    invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
     .line 28
     .line 29
     .line 30
     :cond_0
-    sget-object v0, Landroidx/emoji2/text/TypefaceEmojiSpan;
-    ->sDebugPaint:Landroid/graphics/Paint;
+    sget-object v0, Landroidx/emoji2/text/TypefaceEmojiSpan;->sDebugPaint:Landroid/graphics/Paint;
 
     .line 31
     .line 32
@@ -345,8 +327,7 @@
 
     .line 6
     .line 7
-    invoke-direct {p0, p2, p3, p4, v2}, Landroidx/emoji2/text/TypefaceEmojiSpan;
-    ->applyCharacterSpanStyles(Ljava/lang/CharSequence;IILandroid/graphics/Paint;)Landroid/text/TextPaint;
+    invoke-direct {p0, p2, p3, p4, v2}, Landroidx/emoji2/text/TypefaceEmojiSpan;->applyCharacterSpanStyles(Ljava/lang/CharSequence;IILandroid/graphics/Paint;)Landroid/text/TextPaint;
 
     .line 8
     .line 9
@@ -358,8 +339,7 @@
 
     .line 12
     .line 13
-    iget p2, v5, Landroid/text/TextPaint;
-    ->bgColor:I
+    iget p2, v5, Landroid/text/TextPaint;->bgColor:I
 
     .line 14
     .line 15
@@ -367,8 +347,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p0}, Landroidx/emoji2/text/EmojiSpan;
-    ->getWidth()I
+    invoke-virtual {p0}, Landroidx/emoji2/text/EmojiSpan;->getWidth()I
 
     .line 18
     .line 19
@@ -398,8 +377,7 @@
     move v6, p5
 
     .line 29
-    invoke-virtual/range {v3 .. v9}, Landroidx/emoji2/text/TypefaceEmojiSpan;
-    ->drawBackground(Landroid/graphics/Canvas;Landroid/text/TextPaint;FFFF)V
+    invoke-virtual/range {v3 .. v9}, Landroidx/emoji2/text/TypefaceEmojiSpan;->drawBackground(Landroid/graphics/Canvas;Landroid/text/TextPaint;FFFF)V
 
     .line 30
     .line 31
@@ -408,8 +386,7 @@
     move-object p2, v5
 
     .line 33
-    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;
-    ->get()Landroidx/emoji2/text/EmojiCompat;
+    invoke-static {}, Landroidx/emoji2/text/EmojiCompat;->get()Landroidx/emoji2/text/EmojiCompat;
 
     .line 34
     .line 35
@@ -417,8 +394,7 @@
     move-result-object p3
 
     .line 37
-    invoke-virtual {p3}, Landroidx/emoji2/text/EmojiCompat;
-    ->isEmojiSpanIndicatorEnabled()Z
+    invoke-virtual {p3}, Landroidx/emoji2/text/EmojiCompat;->isEmojiSpanIndicatorEnabled()Z
 
     .line 38
     .line 39
@@ -433,8 +409,7 @@
     int-to-float v5, v0
 
     .line 44
-    invoke-virtual {p0}, Landroidx/emoji2/text/EmojiSpan;
-    ->getWidth()I
+    invoke-virtual {p0}, Landroidx/emoji2/text/EmojiSpan;->getWidth()I
 
     .line 45
     .line 46
@@ -452,8 +427,7 @@
     int-to-float v7, v1
 
     .line 52
-    invoke-static {}, Landroidx/emoji2/text/TypefaceEmojiSpan;
-    ->getDebugPaint()Landroid/graphics/Paint;
+    invoke-static {}, Landroidx/emoji2/text/TypefaceEmojiSpan;->getDebugPaint()Landroid/graphics/Paint;
 
     .line 53
     .line 54
@@ -467,15 +441,13 @@
     move v4, p5
 
     .line 58
-    invoke-virtual/range {v3 .. v8}, Landroid/graphics/Canvas;
-    ->drawRect(FFFFLandroid/graphics/Paint;)V
+    invoke-virtual/range {v3 .. v8}, Landroid/graphics/Canvas;->drawRect(FFFFLandroid/graphics/Paint;)V
 
     .line 59
     .line 60
     .line 61
     :cond_1
-    invoke-virtual {p0}, Landroidx/emoji2/text/EmojiSpan;
-    ->getTypefaceRasterizer()Landroidx/emoji2/text/TypefaceEmojiRasterizer;
+    invoke-virtual {p0}, Landroidx/emoji2/text/EmojiSpan;->getTypefaceRasterizer()Landroidx/emoji2/text/TypefaceEmojiRasterizer;
 
     .line 62
     .line 63
@@ -502,8 +474,7 @@
 
     .line 72
     :goto_0
-    invoke-virtual {p3, p1, p5, p4, p2}, Landroidx/emoji2/text/TypefaceEmojiRasterizer;
-    ->draw(Landroid/graphics/Canvas;FFLandroid/graphics/Paint;)V
+    invoke-virtual {p3, p1, p5, p4, p2}, Landroidx/emoji2/text/TypefaceEmojiRasterizer;->draw(Landroid/graphics/Canvas;FFLandroid/graphics/Paint;)V
 
     .line 73
     .line 74
@@ -515,8 +486,7 @@
     .locals 4
 
     .line 1
-    invoke-virtual {p2}, Landroid/graphics/Paint;
-    ->getColor()I
+    invoke-virtual {p2}, Landroid/graphics/Paint;->getColor()I
 
     .line 2
     .line 3
@@ -524,8 +494,7 @@
     move-result v0
 
     .line 5
-    invoke-virtual {p2}, Landroid/graphics/Paint;
-    ->getStyle()Landroid/graphics/Paint$Style;
+    invoke-virtual {p2}, Landroid/graphics/Paint;->getStyle()Landroid/graphics/Paint$Style;
 
     .line 6
     .line 7
@@ -533,24 +502,20 @@
     move-result-object v1
 
     .line 9
-    iget v2, p2, Landroid/text/TextPaint;
-    ->bgColor:I
+    iget v2, p2, Landroid/text/TextPaint;->bgColor:I
 
     .line 10
     .line 11
-    invoke-virtual {p2, v2}, Landroid/graphics/Paint;
-    ->setColor(I)V
+    invoke-virtual {p2, v2}, Landroid/graphics/Paint;->setColor(I)V
 
     .line 12
     .line 13
     .line 14
-    sget-object v2, Landroid/graphics/Paint$Style;
-    ->FILL:Landroid/graphics/Paint$Style;
+    sget-object v2, Landroid/graphics/Paint$Style;->FILL:Landroid/graphics/Paint$Style;
 
     .line 15
     .line 16
-    invoke-virtual {p2, v2}, Landroid/graphics/Paint;
-    ->setStyle(Landroid/graphics/Paint$Style;)V
+    invoke-virtual {p2, v2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
     .line 17
     .line 18
@@ -570,20 +535,17 @@
     move p5, v3
 
     .line 24
-    invoke-virtual/range {p1 .. p6}, Landroid/graphics/Canvas;
-    ->drawRect(FFFFLandroid/graphics/Paint;)V
+    invoke-virtual/range {p1 .. p6}, Landroid/graphics/Canvas;->drawRect(FFFFLandroid/graphics/Paint;)V
 
     .line 25
     .line 26
     .line 27
-    invoke-virtual {p6, v1}, Landroid/graphics/Paint;
-    ->setStyle(Landroid/graphics/Paint$Style;)V
+    invoke-virtual {p6, v1}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
     .line 28
     .line 29
     .line 30
-    invoke-virtual {p6, v0}, Landroid/graphics/Paint;
-    ->setColor(I)V
+    invoke-virtual {p6, v0}, Landroid/graphics/Paint;->setColor(I)V
 
     .line 31
     .line 32

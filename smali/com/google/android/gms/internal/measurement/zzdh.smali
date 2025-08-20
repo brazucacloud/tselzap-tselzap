@@ -16,14 +16,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Lcom/google/android/gms/internal/measurement/zzdk;
-    -><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/internal/measurement/zzdk;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sput-object v0, Lcom/google/android/gms/internal/measurement/zzdh;
-    ->zza:Lcom/google/android/gms/internal/measurement/zzdf;
+    sput-object v0, Lcom/google/android/gms/internal/measurement/zzdh;->zza:Lcom/google/android/gms/internal/measurement/zzdf;
 
     .line 7
     .line 8
@@ -33,8 +31,7 @@
 .method public static bridge synthetic zza()Lcom/google/android/gms/internal/measurement/zzdf;
     .locals 1
 
-    sget-object v0, Lcom/google/android/gms/internal/measurement/zzdh;
-    ->zza:Lcom/google/android/gms/internal/measurement/zzdf;
+    sget-object v0, Lcom/google/android/gms/internal/measurement/zzdh;->zza:Lcom/google/android/gms/internal/measurement/zzdf;
 
     return-object v0
 .end method

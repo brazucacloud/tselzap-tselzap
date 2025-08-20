@@ -29,8 +29,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-direct {p0, v0}, Lcom/android/volley/toolbox/HurlStack;
-    -><init>(Lcom/android/volley/toolbox/HurlStack$UrlRewriter;)V
+    invoke-direct {p0, v0}, Lcom/android/volley/toolbox/HurlStack;-><init>(Lcom/android/volley/toolbox/HurlStack$UrlRewriter;)V
 return-void
 .end method
 
@@ -40,8 +39,7 @@ return-void
     const/4 v0, 0x0
 
     .line 2
-    invoke-direct {p0, p1, v0}, Lcom/android/volley/toolbox/HurlStack;
-    -><init>(Lcom/android/volley/toolbox/HurlStack$UrlRewriter;Ljavax/net/ssl/SSLSocketFactory;)V
+    invoke-direct {p0, p1, v0}, Lcom/android/volley/toolbox/HurlStack;-><init>(Lcom/android/volley/toolbox/HurlStack$UrlRewriter;Ljavax/net/ssl/SSLSocketFactory;)V
 return-void
 .end method
 
@@ -49,16 +47,13 @@ return-void
     .locals 0
 
     .line 3
-    invoke-direct {p0}, Lcom/android/volley/toolbox/BaseHttpStack;
-    -><init>()V
+    invoke-direct {p0}, Lcom/android/volley/toolbox/BaseHttpStack;-><init>()V
 
     .line 4
-    iput-object p1, p0, Lcom/android/volley/toolbox/HurlStack;
-    ->mUrlRewriter:Lcom/android/volley/toolbox/HurlStack$UrlRewriter;
+    iput-object p1, p0, Lcom/android/volley/toolbox/HurlStack;->mUrlRewriter:Lcom/android/volley/toolbox/HurlStack$UrlRewriter;
 
     .line 5
-    iput-object p2, p0, Lcom/android/volley/toolbox/HurlStack;
-    ->mSslSocketFactory:Ljavax/net/ssl/SSLSocketFactory;
+    iput-object p2, p0, Lcom/android/volley/toolbox/HurlStack;->mSslSocketFactory:Ljavax/net/ssl/SSLSocketFactory;
 
     return-void
 .end method
@@ -67,8 +62,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-static {p0}, Lcom/android/volley/toolbox/HurlStack;
-    ->inputStreamFromConnection(Ljava/net/HttpURLConnection;)Ljava/io/InputStream;
+    invoke-static {p0}, Lcom/android/volley/toolbox/HurlStack;->inputStreamFromConnection(Ljava/net/HttpURLConnection;)Ljava/io/InputStream;
 
     .line 2
     .line 3
@@ -93,14 +87,12 @@ return-void
     const/4 v0, 0x1
 
     .line 2
-    invoke-virtual {p1, v0}, Ljava/net/URLConnection;
-    ->setDoOutput(Z)V
+    invoke-virtual {p1, v0}, Ljava/net/URLConnection;->setDoOutput(Z)V
 
     .line 3
     .line 4
     .line 5
-    invoke-virtual {p1}, Ljava/net/URLConnection;
-    ->getRequestProperties()Ljava/util/Map;
+    invoke-virtual {p1}, Ljava/net/URLConnection;->getRequestProperties()Ljava/util/Map;
 
     .line 6
     .line 7
@@ -112,8 +104,7 @@ return-void
 
     .line 10
     .line 11
-    invoke-interface {v0, v1}, Ljava/util/Map;
-    ->containsKey(Ljava/lang/Object;)Z
+    invoke-interface {v0, v1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     .line 12
     .line 13
@@ -125,8 +116,7 @@ return-void
 
     .line 16
     .line 17
-    invoke-virtual {p2}, Lcom/android/volley/Request;
-    ->getBodyContentType()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/android/volley/Request;->getBodyContentType()Ljava/lang/String;
 
     .line 18
     .line 19
@@ -134,8 +124,7 @@ return-void
     move-result-object v0
 
     .line 21
-    invoke-virtual {p1, v1, v0}, Ljava/net/URLConnection;
-    ->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p1, v1, v0}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 22
     .line 23
@@ -148,8 +137,7 @@ return-void
     array-length v1, p3
 
     .line 27
-    invoke-virtual {p0, p2, p1, v1}, Lcom/android/volley/toolbox/HurlStack;
-    ->createOutputStream(Lcom/android/volley/Request;Ljava/net/HttpURLConnection;I)Ljava/io/OutputStream;
+    invoke-virtual {p0, p2, p1, v1}, Lcom/android/volley/toolbox/HurlStack;->createOutputStream(Lcom/android/volley/Request;Ljava/net/HttpURLConnection;I)Ljava/io/OutputStream;
 
     .line 28
     .line 29
@@ -157,20 +145,17 @@ return-void
     move-result-object p1
 
     .line 31
-    invoke-direct {v0, p1}, Ljava/io/DataOutputStream;
-    -><init>(Ljava/io/OutputStream;)V
+    invoke-direct {v0, p1}, Ljava/io/DataOutputStream;-><init>(Ljava/io/OutputStream;)V
 
     .line 32
     .line 33
     .line 34
-    invoke-virtual {v0, p3}, Ljava/io/OutputStream;
-    ->write([B)V
+    invoke-virtual {v0, p3}, Ljava/io/OutputStream;->write([B)V
 
     .line 35
     .line 36
     .line 37
-    invoke-virtual {v0}, Ljava/io/OutputStream;
-    ->close()V
+    invoke-virtual {v0}, Ljava/io/OutputStream;->close()V
 
     .line 38
     .line 39
@@ -190,8 +175,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p2}, Lcom/android/volley/Request;
-    ->getBody()[B
+    invoke-virtual {p2}, Lcom/android/volley/Request;->getBody()[B
 
     .line 2
     .line 3
@@ -203,8 +187,7 @@ return-void
 
     .line 6
     .line 7
-    invoke-direct {p0, p1, p2, v0}, Lcom/android/volley/toolbox/HurlStack;
-    ->addBody(Ljava/net/HttpURLConnection;Lcom/android/volley/Request;[B)V
+    invoke-direct {p0, p1, p2, v0}, Lcom/android/volley/toolbox/HurlStack;->addBody(Ljava/net/HttpURLConnection;Lcom/android/volley/Request;[B)V
 
     .line 8
     .line 9
@@ -237,8 +220,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-interface {p0}, Ljava/util/Map;
-    ->size()I
+    invoke-interface {p0}, Ljava/util/Map;->size()I
 
     .line 4
     .line 5
@@ -246,14 +228,12 @@ return-void
     move-result v1
 
     .line 7
-    invoke-direct {v0, v1}, Ljava/util/ArrayList;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Ljava/util/ArrayList;-><init>(I)V
 
     .line 8
     .line 9
     .line 10
-    invoke-interface {p0}, Ljava/util/Map;
-    ->entrySet()Ljava/util/Set;
+    invoke-interface {p0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
     .line 11
     .line 12
@@ -261,8 +241,7 @@ return-void
     move-result-object p0
 
     .line 14
-    invoke-interface {p0}, Ljava/util/Set;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     .line 15
     .line 16
@@ -271,8 +250,7 @@ return-void
 
     .line 18
     :cond_0
-    invoke-interface {p0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 19
     .line 20
@@ -284,8 +262,7 @@ return-void
 
     .line 23
     .line 24
-    invoke-interface {p0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 25
     .line 26
@@ -297,8 +274,7 @@ return-void
 
     .line 29
     .line 30
-    invoke-interface {v1}, Ljava/util/Map$Entry;
-    ->getKey()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     .line 31
     .line 32
@@ -310,8 +286,7 @@ return-void
 
     .line 35
     .line 36
-    invoke-interface {v1}, Ljava/util/Map$Entry;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     .line 37
     .line 38
@@ -323,8 +298,7 @@ return-void
 
     .line 41
     .line 42
-    invoke-interface {v2}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v2}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 43
     .line 44
@@ -333,8 +307,7 @@ return-void
 
     .line 46
     :goto_0
-    invoke-interface {v2}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
 
     .line 47
     .line 48
@@ -346,8 +319,7 @@ return-void
 
     .line 51
     .line 52
-    invoke-interface {v2}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 53
     .line 54
@@ -363,8 +335,7 @@ return-void
 
     .line 59
     .line 60
-    invoke-interface {v1}, Ljava/util/Map$Entry;
-    ->getKey()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     .line 61
     .line 62
@@ -376,14 +347,12 @@ return-void
 
     .line 65
     .line 66
-    invoke-direct {v4, v5, v3}, Lcom/android/volley/Header;
-    -><init>(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-direct {v4, v5, v3}, Lcom/android/volley/Header;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 67
     .line 68
     .line 69
-    invoke-virtual {v0, v4}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {v0, v4}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 70
     .line 71
@@ -434,8 +403,7 @@ return-void
 
     .line 1
     :try_start_0
-    invoke-virtual {p0}, Ljava/net/URLConnection;
-    ->getInputStream()Ljava/io/InputStream;
+    invoke-virtual {p0}, Ljava/net/URLConnection;->getInputStream()Ljava/io/InputStream;
 
     .line 2
     .line 3
@@ -448,8 +416,7 @@ return-void
 
     .line 6
     :catch_0
-    invoke-virtual {p0}, Ljava/net/HttpURLConnection;
-    ->getErrorStream()Ljava/io/InputStream;
+    invoke-virtual {p0}, Ljava/net/HttpURLConnection;->getErrorStream()Ljava/io/InputStream;
 
     .line 7
     .line 8
@@ -472,8 +439,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Lcom/android/volley/toolbox/HurlStack;
-    ->createConnection(Ljava/net/URL;)Ljava/net/HttpURLConnection;
+    invoke-virtual {p0, p1}, Lcom/android/volley/toolbox/HurlStack;->createConnection(Ljava/net/URL;)Ljava/net/HttpURLConnection;
 
     .line 2
     .line 3
@@ -481,8 +447,7 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-virtual {p2}, Lcom/android/volley/Request;
-    ->getTimeoutMs()I
+    invoke-virtual {p2}, Lcom/android/volley/Request;->getTimeoutMs()I
 
     .line 6
     .line 7
@@ -490,14 +455,12 @@ return-void
     move-result p2
 
     .line 9
-    invoke-virtual {v0, p2}, Ljava/net/URLConnection;
-    ->setConnectTimeout(I)V
+    invoke-virtual {v0, p2}, Ljava/net/URLConnection;->setConnectTimeout(I)V
 
     .line 10
     .line 11
     .line 12
-    invoke-virtual {v0, p2}, Ljava/net/URLConnection;
-    ->setReadTimeout(I)V
+    invoke-virtual {v0, p2}, Ljava/net/URLConnection;->setReadTimeout(I)V
 
     .line 13
     .line 14
@@ -505,8 +468,7 @@ return-void
     const/4 p2, 0x0
 
     .line 16
-    invoke-virtual {v0, p2}, Ljava/net/URLConnection;
-    ->setUseCaches(Z)V
+    invoke-virtual {v0, p2}, Ljava/net/URLConnection;->setUseCaches(Z)V
 
     .line 17
     .line 18
@@ -514,8 +476,7 @@ return-void
     const/4 p2, 0x1
 
     .line 20
-    invoke-virtual {v0, p2}, Ljava/net/URLConnection;
-    ->setDoInput(Z)V
+    invoke-virtual {v0, p2}, Ljava/net/URLConnection;->setDoInput(Z)V
 
     .line 21
     .line 22
@@ -524,8 +485,7 @@ return-void
 
     .line 24
     .line 25
-    invoke-virtual {p1}, Ljava/net/URL;
-    ->getProtocol()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/net/URL;->getProtocol()Ljava/lang/String;
 
     .line 26
     .line 27
@@ -533,8 +493,7 @@ return-void
     move-result-object p1
 
     .line 29
-    invoke-virtual {p2, p1}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 30
     .line 31
@@ -546,8 +505,7 @@ return-void
 
     .line 34
     .line 35
-    iget-object p1, p0, Lcom/android/volley/toolbox/HurlStack;
-    ->mSslSocketFactory:Ljavax/net/ssl/SSLSocketFactory;
+    iget-object p1, p0, Lcom/android/volley/toolbox/HurlStack;->mSslSocketFactory:Ljavax/net/ssl/SSLSocketFactory;
 
     .line 36
     .line 37
@@ -562,8 +520,7 @@ return-void
 
     .line 41
     .line 42
-    invoke-virtual {p2, p1}, Ljavax/net/ssl/HttpsURLConnection;
-    ->setSSLSocketFactory(Ljavax/net/ssl/SSLSocketFactory;)V
+    invoke-virtual {p2, p1}, Ljavax/net/ssl/HttpsURLConnection;->setSSLSocketFactory(Ljavax/net/ssl/SSLSocketFactory;)V
 
     .line 43
     .line 44
@@ -578,8 +535,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p1}, Ljava/net/URL;
-    ->openConnection()Ljava/net/URLConnection;
+    invoke-virtual {p1}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
 
     .line 2
     .line 3
@@ -591,8 +547,7 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {}, Ljava/net/HttpURLConnection;
-    ->getFollowRedirects()Z
+    invoke-static {}, Ljava/net/HttpURLConnection;->getFollowRedirects()Z
 
     .line 8
     .line 9
@@ -600,8 +555,7 @@ return-void
     move-result v0
 
     .line 11
-    invoke-virtual {p1, v0}, Ljava/net/HttpURLConnection;
-    ->setInstanceFollowRedirects(Z)V
+    invoke-virtual {p1, v0}, Ljava/net/HttpURLConnection;->setInstanceFollowRedirects(Z)V
 
     .line 12
     .line 13
@@ -627,8 +581,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-direct {p1, p2}, Lcom/android/volley/toolbox/HurlStack$UrlConnectionInputStream;
-    -><init>(Ljava/net/HttpURLConnection;)V
+    invoke-direct {p1, p2}, Lcom/android/volley/toolbox/HurlStack$UrlConnectionInputStream;-><init>(Ljava/net/HttpURLConnection;)V
 
     .line 4
     .line 5
@@ -650,8 +603,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p2}, Ljava/net/URLConnection;
-    ->getOutputStream()Ljava/io/OutputStream;
+    invoke-virtual {p2}, Ljava/net/URLConnection;->getOutputStream()Ljava/io/OutputStream;
 
     .line 2
     .line 3
@@ -677,8 +629,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p1}, Lcom/android/volley/Request;
-    ->getUrl()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/android/volley/Request;->getUrl()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -690,20 +641,17 @@ return-void
 
     .line 6
     .line 7
-    invoke-direct {v1}, Ljava/util/HashMap;
-    -><init>()V
+    invoke-direct {v1}, Ljava/util/HashMap;-><init>()V
 
     .line 8
     .line 9
     .line 10
-    invoke-virtual {v1, p2}, Ljava/util/HashMap;
-    ->putAll(Ljava/util/Map;)V
+    invoke-virtual {v1, p2}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
 
     .line 11
     .line 12
     .line 13
-    invoke-virtual {p1}, Lcom/android/volley/Request;
-    ->getHeaders()Ljava/util/Map;
+    invoke-virtual {p1}, Lcom/android/volley/Request;->getHeaders()Ljava/util/Map;
 
     .line 14
     .line 15
@@ -711,14 +659,12 @@ return-void
     move-result-object p2
 
     .line 17
-    invoke-virtual {v1, p2}, Ljava/util/HashMap;
-    ->putAll(Ljava/util/Map;)V
+    invoke-virtual {v1, p2}, Ljava/util/HashMap;->putAll(Ljava/util/Map;)V
 
     .line 18
     .line 19
     .line 20
-    iget-object p2, p0, Lcom/android/volley/toolbox/HurlStack;
-    ->mUrlRewriter:Lcom/android/volley/toolbox/HurlStack$UrlRewriter;
+    iget-object p2, p0, Lcom/android/volley/toolbox/HurlStack;->mUrlRewriter:Lcom/android/volley/toolbox/HurlStack$UrlRewriter;
 
     .line 21
     .line 22
@@ -726,8 +672,7 @@ return-void
 
     .line 23
     .line 24
-    invoke-interface {p2, v0}, Lcom/android/volley/toolbox/UrlRewriter;
-    ->rewriteUrl(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p2, v0}, Lcom/android/volley/toolbox/UrlRewriter;->rewriteUrl(Ljava/lang/String;)Ljava/lang/String;
 
     .line 25
     .line 26
@@ -754,8 +699,7 @@ return-void
 
     .line 35
     .line 36
-    invoke-static {p2, v0}, LA/d;
-    ->w(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p2, v0}, LA/d;->w(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 37
     .line 38
@@ -763,8 +707,7 @@ return-void
     move-result-object p2
 
     .line 40
-    invoke-direct {p1, p2}, Ljava/io/IOException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
 
     .line 41
     .line 42
@@ -778,14 +721,12 @@ return-void
 
     .line 45
     .line 46
-    invoke-direct {p2, v0}, Ljava/net/URL;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p2, v0}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
 
     .line 47
     .line 48
     .line 49
-    invoke-direct {p0, p2, p1}, Lcom/android/volley/toolbox/HurlStack;
-    ->openConnection(Ljava/net/URL;Lcom/android/volley/Request;)Ljava/net/HttpURLConnection;
+    invoke-direct {p0, p2, p1}, Lcom/android/volley/toolbox/HurlStack;->openConnection(Ljava/net/URL;Lcom/android/volley/Request;)Ljava/net/HttpURLConnection;
 
     .line 50
     .line 51
@@ -797,8 +738,7 @@ return-void
 
     .line 54
     :try_start_0
-    invoke-virtual {v1}, Ljava/util/HashMap;
-    ->keySet()Ljava/util/Set;
+    invoke-virtual {v1}, Ljava/util/HashMap;->keySet()Ljava/util/Set;
 
     .line 55
     .line 56
@@ -806,8 +746,7 @@ return-void
     move-result-object v2
 
     .line 58
-    invoke-interface {v2}, Ljava/util/Set;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     .line 59
     .line 60
@@ -816,8 +755,7 @@ return-void
 
     .line 62
     :goto_1
-    invoke-interface {v2}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v2}, Ljava/util/Iterator;->hasNext()Z
 
     .line 63
     .line 64
@@ -829,8 +767,7 @@ return-void
 
     .line 67
     .line 68
-    invoke-interface {v2}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 69
     .line 70
@@ -842,8 +779,7 @@ return-void
 
     .line 73
     .line 74
-    invoke-virtual {v1, v3}, Ljava/util/HashMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, v3}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 75
     .line 76
@@ -855,8 +791,7 @@ return-void
 
     .line 79
     .line 80
-    invoke-virtual {p2, v3, v4}, Ljava/net/URLConnection;
-    ->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {p2, v3, v4}, Ljava/net/URLConnection;->setRequestProperty(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 81
     .line 82
@@ -872,14 +807,12 @@ return-void
 
     .line 86
     :cond_2
-    invoke-virtual {p0, p2, p1}, Lcom/android/volley/toolbox/HurlStack;
-    ->setConnectionParametersForRequest(Ljava/net/HttpURLConnection;Lcom/android/volley/Request;)V
+    invoke-virtual {p0, p2, p1}, Lcom/android/volley/toolbox/HurlStack;->setConnectionParametersForRequest(Ljava/net/HttpURLConnection;Lcom/android/volley/Request;)V
 
     .line 87
     .line 88
     .line 89
-    invoke-virtual {p2}, Ljava/net/HttpURLConnection;
-    ->getResponseCode()I
+    invoke-virtual {p2}, Ljava/net/HttpURLConnection;->getResponseCode()I
 
     .line 90
     .line 91
@@ -894,8 +827,7 @@ return-void
 
     .line 95
     .line 96
-    invoke-virtual {p1}, Lcom/android/volley/Request;
-    ->getMethod()I
+    invoke-virtual {p1}, Lcom/android/volley/Request;->getMethod()I
 
     .line 97
     .line 98
@@ -903,8 +835,7 @@ return-void
     move-result v2
 
     .line 100
-    invoke-static {v2, v1}, Lcom/android/volley/toolbox/HurlStack;
-    ->hasResponseBody(II)Z
+    invoke-static {v2, v1}, Lcom/android/volley/toolbox/HurlStack;->hasResponseBody(II)Z
 
     .line 101
     .line 102
@@ -920,8 +851,7 @@ return-void
 
     .line 107
     .line 108
-    invoke-virtual {p2}, Ljava/net/URLConnection;
-    ->getHeaderFields()Ljava/util/Map;
+    invoke-virtual {p2}, Ljava/net/URLConnection;->getHeaderFields()Ljava/util/Map;
 
     .line 109
     .line 110
@@ -929,8 +859,7 @@ return-void
     move-result-object v2
 
     .line 112
-    invoke-static {v2}, Lcom/android/volley/toolbox/HurlStack;
-    ->convertHeaders(Ljava/util/Map;)Ljava/util/List;
+    invoke-static {v2}, Lcom/android/volley/toolbox/HurlStack;->convertHeaders(Ljava/util/Map;)Ljava/util/List;
 
     .line 113
     .line 114
@@ -938,16 +867,14 @@ return-void
     move-result-object v2
 
     .line 116
-    invoke-direct {p1, v1, v2}, Lcom/android/volley/toolbox/HttpResponse;
-    -><init>(ILjava/util/List;)V
+    invoke-direct {p1, v1, v2}, Lcom/android/volley/toolbox/HttpResponse;-><init>(ILjava/util/List;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 117
     .line 118
     .line 119
-    invoke-virtual {p2}, Ljava/net/HttpURLConnection;
-    ->disconnect()V
+    invoke-virtual {p2}, Ljava/net/HttpURLConnection;->disconnect()V
 
     .line 120
     .line 121
@@ -964,8 +891,7 @@ return-void
 
     .line 125
     .line 126
-    invoke-virtual {p2}, Ljava/net/URLConnection;
-    ->getHeaderFields()Ljava/util/Map;
+    invoke-virtual {p2}, Ljava/net/URLConnection;->getHeaderFields()Ljava/util/Map;
 
     .line 127
     .line 128
@@ -973,8 +899,7 @@ return-void
     move-result-object v3
 
     .line 130
-    invoke-static {v3}, Lcom/android/volley/toolbox/HurlStack;
-    ->convertHeaders(Ljava/util/Map;)Ljava/util/List;
+    invoke-static {v3}, Lcom/android/volley/toolbox/HurlStack;->convertHeaders(Ljava/util/Map;)Ljava/util/List;
 
     .line 131
     .line 132
@@ -982,8 +907,7 @@ return-void
     move-result-object v3
 
     .line 134
-    invoke-virtual {p2}, Ljava/net/URLConnection;
-    ->getContentLength()I
+    invoke-virtual {p2}, Ljava/net/URLConnection;->getContentLength()I
 
     .line 135
     .line 136
@@ -991,8 +915,7 @@ return-void
     move-result v4
 
     .line 138
-    invoke-virtual {p0, p1, p2}, Lcom/android/volley/toolbox/HurlStack;
-    ->createInputStream(Lcom/android/volley/Request;Ljava/net/HttpURLConnection;)Ljava/io/InputStream;
+    invoke-virtual {p0, p1, p2}, Lcom/android/volley/toolbox/HurlStack;->createInputStream(Lcom/android/volley/Request;Ljava/net/HttpURLConnection;)Ljava/io/InputStream;
 
     .line 139
     .line 140
@@ -1000,8 +923,7 @@ return-void
     move-result-object p1
 
     .line 142
-    invoke-direct {v2, v1, v3, v4, p1}, Lcom/android/volley/toolbox/HttpResponse;
-    -><init>(ILjava/util/List;ILjava/io/InputStream;)V
+    invoke-direct {v2, v1, v3, v4, p1}, Lcom/android/volley/toolbox/HttpResponse;-><init>(ILjava/util/List;ILjava/io/InputStream;)V
 
     .line 143
     .line 144
@@ -1018,8 +940,7 @@ return-void
 
     .line 149
     .line 150
-    invoke-direct {p1, v1}, Ljava/io/IOException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v1}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
 
     .line 151
     .line 152
@@ -1034,8 +955,7 @@ return-void
 
     .line 155
     .line 156
-    invoke-virtual {p2}, Ljava/net/HttpURLConnection;
-    ->disconnect()V
+    invoke-virtual {p2}, Ljava/net/HttpURLConnection;->disconnect()V
 
     .line 157
     .line 158
@@ -1135,8 +1055,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p2}, Lcom/android/volley/Request;
-    ->getMethod()I
+    invoke-virtual {p2}, Lcom/android/volley/Request;->getMethod()I
 
     .line 2
     .line 3
@@ -1161,8 +1080,7 @@ return-void
 
     .line 13
     .line 14
-    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 15
     .line 16
@@ -1175,14 +1093,12 @@ return-void
 
     .line 19
     .line 20
-    invoke-virtual {p1, v0}, Ljava/net/HttpURLConnection;
-    ->setRequestMethod(Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
 
     .line 21
     .line 22
     .line 23
-    invoke-direct {p0, p1, p2}, Lcom/android/volley/toolbox/HurlStack;
-    ->addBodyIfExists(Ljava/net/HttpURLConnection;Lcom/android/volley/Request;)V
+    invoke-direct {p0, p1, p2}, Lcom/android/volley/toolbox/HurlStack;->addBodyIfExists(Ljava/net/HttpURLConnection;Lcom/android/volley/Request;)V
 
     .line 24
     .line 25
@@ -1195,8 +1111,7 @@ return-void
 
     .line 28
     .line 29
-    invoke-virtual {p1, p2}, Ljava/net/HttpURLConnection;
-    ->setRequestMethod(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
 
     .line 30
     .line 31
@@ -1209,8 +1124,7 @@ return-void
 
     .line 34
     .line 35
-    invoke-virtual {p1, p2}, Ljava/net/HttpURLConnection;
-    ->setRequestMethod(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
 
     .line 36
     .line 37
@@ -1223,8 +1137,7 @@ return-void
 
     .line 40
     .line 41
-    invoke-virtual {p1, p2}, Ljava/net/HttpURLConnection;
-    ->setRequestMethod(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
 
     .line 42
     .line 43
@@ -1237,8 +1150,7 @@ return-void
 
     .line 46
     .line 47
-    invoke-virtual {p1, p2}, Ljava/net/HttpURLConnection;
-    ->setRequestMethod(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
 
     .line 48
     .line 49
@@ -1251,14 +1163,12 @@ return-void
 
     .line 52
     .line 53
-    invoke-virtual {p1, v0}, Ljava/net/HttpURLConnection;
-    ->setRequestMethod(Ljava/lang/String;)V
+    invoke-virtual {p1, v0}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
 
     .line 54
     .line 55
     .line 56
-    invoke-direct {p0, p1, p2}, Lcom/android/volley/toolbox/HurlStack;
-    ->addBodyIfExists(Ljava/net/HttpURLConnection;Lcom/android/volley/Request;)V
+    invoke-direct {p0, p1, p2}, Lcom/android/volley/toolbox/HurlStack;->addBodyIfExists(Ljava/net/HttpURLConnection;Lcom/android/volley/Request;)V
 
     .line 57
     .line 58
@@ -1267,14 +1177,12 @@ return-void
 
     .line 60
     :pswitch_6
-    invoke-virtual {p1, v1}, Ljava/net/HttpURLConnection;
-    ->setRequestMethod(Ljava/lang/String;)V
+    invoke-virtual {p1, v1}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
 
     .line 61
     .line 62
     .line 63
-    invoke-direct {p0, p1, p2}, Lcom/android/volley/toolbox/HurlStack;
-    ->addBodyIfExists(Ljava/net/HttpURLConnection;Lcom/android/volley/Request;)V
+    invoke-direct {p0, p1, p2}, Lcom/android/volley/toolbox/HurlStack;->addBodyIfExists(Ljava/net/HttpURLConnection;Lcom/android/volley/Request;)V
 
     .line 64
     .line 65
@@ -1287,8 +1195,7 @@ return-void
 
     .line 68
     .line 69
-    invoke-virtual {p1, p2}, Ljava/net/HttpURLConnection;
-    ->setRequestMethod(Ljava/lang/String;)V
+    invoke-virtual {p1, p2}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
 
     .line 70
     .line 71
@@ -1297,8 +1204,7 @@ return-void
 
     .line 73
     :pswitch_8
-    invoke-virtual {p2}, Lcom/android/volley/Request;
-    ->getPostBody()[B
+    invoke-virtual {p2}, Lcom/android/volley/Request;->getPostBody()[B
 
     .line 74
     .line 75
@@ -1310,14 +1216,12 @@ return-void
 
     .line 78
     .line 79
-    invoke-virtual {p1, v1}, Ljava/net/HttpURLConnection;
-    ->setRequestMethod(Ljava/lang/String;)V
+    invoke-virtual {p1, v1}, Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
 
     .line 80
     .line 81
     .line 82
-    invoke-direct {p0, p1, p2, v0}, Lcom/android/volley/toolbox/HurlStack;
-    ->addBody(Ljava/net/HttpURLConnection;Lcom/android/volley/Request;[B)V
+    invoke-direct {p0, p1, p2, v0}, Lcom/android/volley/toolbox/HurlStack;->addBody(Ljava/net/HttpURLConnection;Lcom/android/volley/Request;[B)V
 
     .line 83
     .line 84

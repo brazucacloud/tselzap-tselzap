@@ -41,29 +41,24 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput p1, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->cmd:I
+    iput p1, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->cmd:I
 
     .line 5
     .line 6
-    iput p2, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iput p2, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 7
     .line 8
-    iput p3, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iput p3, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 9
     .line 10
-    iput-object p4, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->payload:Ljava/lang/Object;    
+    iput-object p4, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->payload:Ljava/lang/Object;
     return-void
 .end method
 
@@ -73,8 +68,7 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->cmd:I
+    iget v0, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->cmd:I
 
     .line 2
     .line 3
@@ -152,13 +146,11 @@
 
     .line 12
     .line 13
-    iget v1, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->cmd:I
+    iget v1, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->cmd:I
 
     .line 14
     .line 15
-    iget v3, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->cmd:I
+    iget v3, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->cmd:I
 
     .line 16
     .line 17
@@ -174,21 +166,18 @@
 
     .line 23
     .line 24
-    iget v1, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v1, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 25
     .line 26
-    iget v3, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v3, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 27
     .line 28
     sub-int/2addr v1, v3
 
     .line 29
-    invoke-static {v1}, Ljava/lang/Math;
-    ->abs(I)I
+    invoke-static {v1}, Ljava/lang/Math;->abs(I)I
 
     .line 30
     .line 31
@@ -200,13 +189,11 @@
 
     .line 34
     .line 35
-    iget v1, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v1, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 36
     .line 37
-    iget v3, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v3, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 38
     .line 39
@@ -214,13 +201,11 @@
 
     .line 40
     .line 41
-    iget v1, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v1, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 42
     .line 43
-    iget v3, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v3, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 44
     .line 45
@@ -228,13 +213,11 @@
 
     .line 48
     :cond_3
-    iget v1, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v1, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 49
     .line 50
-    iget v3, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v3, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 51
     .line 52
@@ -242,13 +225,11 @@
 
     .line 55
     :cond_4
-    iget v1, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v1, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 56
     .line 57
-    iget v3, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v3, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 58
     .line 59
@@ -256,8 +237,7 @@
 
     .line 62
     :cond_5
-    iget-object v1, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->payload:Ljava/lang/Object;
+    iget-object v1, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->payload:Ljava/lang/Object;
 
     .line 63
     .line 64
@@ -265,13 +245,11 @@
 
     .line 65
     .line 66
-    iget-object p1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->payload:Ljava/lang/Object;
+    iget-object p1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->payload:Ljava/lang/Object;
 
     .line 67
     .line 68
-    invoke-virtual {v1, p1}, Ljava/lang/Object;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, p1}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     .line 69
     .line 70
@@ -283,8 +261,7 @@
 
     .line 75
     :cond_6
-    iget-object p1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->payload:Ljava/lang/Object;
+    iget-object p1, p1, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->payload:Ljava/lang/Object;
 
     .line 76
     .line 77
@@ -299,8 +276,7 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->cmd:I
+    iget v0, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->cmd:I
 
     .line 2
     .line 3
@@ -308,8 +284,7 @@
 
     .line 4
     .line 5
-    iget v1, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v1, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 6
     .line 7
@@ -320,8 +295,7 @@
 
     .line 9
     .line 10
-    iget v1, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v1, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 11
     .line 12
@@ -338,14 +312,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Ljava/lang/StringBuilder;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-static {p0}, Ljava/lang/System;
-    ->identityHashCode(Ljava/lang/Object;)I
+    invoke-static {p0}, Ljava/lang/System;->identityHashCode(Ljava/lang/Object;)I
 
     .line 7
     .line 8
@@ -353,8 +325,7 @@
     move-result v1
 
     .line 10
-    invoke-static {v1}, Ljava/lang/Integer;
-    ->toHexString(I)Ljava/lang/String;
+    invoke-static {v1}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
 
     .line 11
     .line 12
@@ -362,8 +333,7 @@
     move-result-object v1
 
     .line 14
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 15
     .line 16
@@ -372,14 +342,12 @@
 
     .line 18
     .line 19
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 20
     .line 21
     .line 22
-    invoke-virtual {p0}, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->cmdToString()Ljava/lang/String;
+    invoke-virtual {p0}, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->cmdToString()Ljava/lang/String;
 
     .line 23
     .line 24
@@ -387,8 +355,7 @@
     move-result-object v1
 
     .line 26
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 27
     .line 28
@@ -397,19 +364,16 @@
 
     .line 30
     .line 31
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 32
     .line 33
     .line 34
-    iget v1, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->positionStart:I
+    iget v1, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->positionStart:I
 
     .line 35
     .line 36
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 37
     .line 38
@@ -418,19 +382,16 @@
 
     .line 40
     .line 41
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 42
     .line 43
     .line 44
-    iget v1, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->itemCount:I
+    iget v1, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->itemCount:I
 
     .line 45
     .line 46
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
     .line 47
     .line 48
@@ -439,19 +400,16 @@
 
     .line 50
     .line 51
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 52
     .line 53
     .line 54
-    iget-object v1, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;
-    ->payload:Ljava/lang/Object;
+    iget-object v1, p0, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;->payload:Ljava/lang/Object;
 
     .line 55
     .line 56
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 57
     .line 58
@@ -460,14 +418,12 @@
 
     .line 60
     .line 61
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 62
     .line 63
     .line 64
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 65
     .line 66

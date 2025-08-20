@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/ArrayRow;
-    -><init>(Landroidx/constraintlayout/core/Cache;)V
+    invoke-direct {p0, p1}, Landroidx/constraintlayout/core/ArrayRow;-><init>(Landroidx/constraintlayout/core/Cache;)V
 return-void
 .end method
 
@@ -19,14 +18,12 @@ return-void
     .locals 1
 
     .line 1
-    invoke-super {p0, p1}, Landroidx/constraintlayout/core/ArrayRow;
-    ->addError(Landroidx/constraintlayout/core/SolverVariable;)V
+    invoke-super {p0, p1}, Landroidx/constraintlayout/core/ArrayRow;->addError(Landroidx/constraintlayout/core/SolverVariable;)V
 
     .line 2
     .line 3
     .line 4
-    iget v0, p1, Landroidx/constraintlayout/core/SolverVariable;
-    ->usageInRowCount:I
+    iget v0, p1, Landroidx/constraintlayout/core/SolverVariable;->usageInRowCount:I
 
     .line 5
     .line 6
@@ -34,8 +31,7 @@ return-void
 
     .line 7
     .line 8
-    iput v0, p1, Landroidx/constraintlayout/core/SolverVariable;
-    ->usageInRowCount:I    
+    iput v0, p1, Landroidx/constraintlayout/core/SolverVariable;->usageInRowCount:I
     return-void
 .end method
 

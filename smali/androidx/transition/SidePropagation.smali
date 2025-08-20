@@ -14,8 +14,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroidx/transition/VisibilityPropagation;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/transition/VisibilityPropagation;-><init>()V
 
     .line 2
     .line 3
@@ -24,8 +23,7 @@
 
     .line 5
     .line 6
-    iput v0, p0, Landroidx/transition/SidePropagation;
-    ->mPropagationSpeed:F
+    iput v0, p0, Landroidx/transition/SidePropagation;->mPropagationSpeed:F
 
     .line 7
     .line 8
@@ -33,8 +31,7 @@
 
     .line 9
     .line 10
-    iput v0, p0, Landroidx/transition/SidePropagation;
-    ->mSide:I    
+    iput v0, p0, Landroidx/transition/SidePropagation;->mSide:I
     return-void
 .end method
 
@@ -42,8 +39,7 @@
     .locals 5
 
     .line 1
-    iget v0, p0, Landroidx/transition/SidePropagation;
-    ->mSide:I
+    iget v0, p0, Landroidx/transition/SidePropagation;->mSide:I
 
     .line 2
     .line 3
@@ -65,8 +61,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getLayoutDirection()I
+    invoke-virtual {p1}, Landroid/view/View;->getLayoutDirection()I
 
     .line 12
     .line 13
@@ -103,8 +98,7 @@
 
     .line 25
     .line 26
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getLayoutDirection()I
+    invoke-virtual {p1}, Landroid/view/View;->getLayoutDirection()I
 
     .line 27
     .line 28
@@ -157,8 +151,7 @@
     sub-int/2addr p4, p2
 
     .line 49
-    invoke-static {p4}, Ljava/lang/Math;
-    ->abs(I)I
+    invoke-static {p4}, Ljava/lang/Math;->abs(I)I
 
     .line 50
     .line 51
@@ -178,8 +171,7 @@
     sub-int/2addr p4, p2
 
     .line 57
-    invoke-static {p4}, Ljava/lang/Math;
-    ->abs(I)I
+    invoke-static {p4}, Ljava/lang/Math;->abs(I)I
 
     .line 58
     .line 59
@@ -199,8 +191,7 @@
     sub-int/2addr p5, p3
 
     .line 65
-    invoke-static {p5}, Ljava/lang/Math;
-    ->abs(I)I
+    invoke-static {p5}, Ljava/lang/Math;->abs(I)I
 
     .line 66
     .line 67
@@ -220,8 +211,7 @@
     sub-int/2addr p5, p3
 
     .line 73
-    invoke-static {p5}, Ljava/lang/Math;
-    ->abs(I)I
+    invoke-static {p5}, Ljava/lang/Math;->abs(I)I
 
     .line 74
     .line 75
@@ -238,8 +228,7 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/transition/SidePropagation;
-    ->mSide:I
+    iget v0, p0, Landroidx/transition/SidePropagation;->mSide:I
 
     .line 2
     .line 3
@@ -275,8 +264,7 @@
 
     .line 18
     .line 19
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getHeight()I
+    invoke-virtual {p1}, Landroid/view/View;->getHeight()I
 
     .line 20
     .line 21
@@ -287,8 +275,7 @@
 
     .line 24
     :cond_0
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getWidth()I
+    invoke-virtual {p1}, Landroid/view/View;->getWidth()I
 
     .line 25
     .line 26
@@ -336,8 +323,7 @@
 
     .line 10
     :cond_0
-    invoke-virtual/range {p2 .. p2}, Landroidx/transition/Transition;
-    ->getEpicenter()Landroid/graphics/Rect;
+    invoke-virtual/range {p2 .. p2}, Landroidx/transition/Transition;->getEpicenter()Landroid/graphics/Rect;
 
     .line 11
     .line 12
@@ -352,8 +338,7 @@
 
     .line 16
     .line 17
-    invoke-virtual {p0, v1}, Landroidx/transition/VisibilityPropagation;
-    ->getViewVisibility(Landroidx/transition/TransitionValues;)I
+    invoke-virtual {p0, v1}, Landroidx/transition/VisibilityPropagation;->getViewVisibility(Landroidx/transition/TransitionValues;)I
 
     .line 18
     .line 19
@@ -395,8 +380,7 @@
 
     .line 32
     :goto_2
-    invoke-virtual {p0, v1}, Landroidx/transition/VisibilityPropagation;
-    ->getViewX(Landroidx/transition/TransitionValues;)I
+    invoke-virtual {p0, v1}, Landroidx/transition/VisibilityPropagation;->getViewX(Landroidx/transition/TransitionValues;)I
 
     .line 33
     .line 34
@@ -404,8 +388,7 @@
     move-result v2
 
     .line 36
-    invoke-virtual {p0, v1}, Landroidx/transition/VisibilityPropagation;
-    ->getViewY(Landroidx/transition/TransitionValues;)I
+    invoke-virtual {p0, v1}, Landroidx/transition/VisibilityPropagation;->getViewY(Landroidx/transition/TransitionValues;)I
 
     .line 37
     .line 38
@@ -423,8 +406,7 @@
     move-object v7, p1
 
     .line 44
-    invoke-virtual {p1, v6}, Landroid/view/View;
-    ->getLocationOnScreen([I)V
+    invoke-virtual {p1, v6}, Landroid/view/View;->getLocationOnScreen([I)V
 
     .line 45
     .line 46
@@ -436,8 +418,7 @@
 
     .line 49
     .line 50
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getTranslationX()F
+    invoke-virtual {p1}, Landroid/view/View;->getTranslationX()F
 
     .line 51
     .line 52
@@ -445,8 +426,7 @@
     move-result v9
 
     .line 54
-    invoke-static {v9}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v9}, Ljava/lang/Math;->round(F)I
 
     .line 55
     .line 56
@@ -461,8 +441,7 @@
 
     .line 60
     .line 61
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getTranslationY()F
+    invoke-virtual {p1}, Landroid/view/View;->getTranslationY()F
 
     .line 62
     .line 63
@@ -470,8 +449,7 @@
     move-result v6
 
     .line 65
-    invoke-static {v6}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v6}, Ljava/lang/Math;->round(F)I
 
     .line 66
     .line 67
@@ -482,8 +460,7 @@
     add-int/2addr v6, v3
 
     .line 70
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getWidth()I
+    invoke-virtual {p1}, Landroid/view/View;->getWidth()I
 
     .line 71
     .line 72
@@ -495,8 +472,7 @@
 
     .line 75
     .line 76
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getHeight()I
+    invoke-virtual {p1}, Landroid/view/View;->getHeight()I
 
     .line 77
     .line 78
@@ -511,8 +487,7 @@
 
     .line 82
     .line 83
-    invoke-virtual {v4}, Landroid/graphics/Rect;
-    ->centerX()I
+    invoke-virtual {v4}, Landroid/graphics/Rect;->centerX()I
 
     .line 84
     .line 85
@@ -520,8 +495,7 @@
     move-result v5
 
     .line 87
-    invoke-virtual {v4}, Landroid/graphics/Rect;
-    ->centerY()I
+    invoke-virtual {v4}, Landroid/graphics/Rect;->centerY()I
 
     .line 88
     .line 89
@@ -601,8 +575,7 @@
 
     .line 116
     :goto_4
-    invoke-direct/range {v0 .. v9}, Landroidx/transition/SidePropagation;
-    ->distance(Landroid/view/View;IIIIIIII)I
+    invoke-direct/range {v0 .. v9}, Landroidx/transition/SidePropagation;->distance(Landroid/view/View;IIIIIIII)I
 
     .line 117
     .line 118
@@ -613,8 +586,7 @@
     int-to-float v1, v2
 
     .line 121
-    invoke-direct/range {p0 .. p1}, Landroidx/transition/SidePropagation;
-    ->getMaxDistance(Landroid/view/ViewGroup;)I
+    invoke-direct/range {p0 .. p1}, Landroidx/transition/SidePropagation;->getMaxDistance(Landroid/view/ViewGroup;)I
 
     .line 122
     .line 123
@@ -628,8 +600,7 @@
     div-float/2addr v1, v2
 
     .line 127
-    invoke-virtual/range {p2 .. p2}, Landroidx/transition/Transition;
-    ->getDuration()J
+    invoke-virtual/range {p2 .. p2}, Landroidx/transition/Transition;->getDuration()J
 
     .line 128
     .line 129
@@ -660,8 +631,7 @@
     long-to-float v2, v2
 
     .line 141
-    iget v3, p0, Landroidx/transition/SidePropagation;
-    ->mPropagationSpeed:F
+    iget v3, p0, Landroidx/transition/SidePropagation;->mPropagationSpeed:F
 
     .line 142
     .line 143
@@ -672,8 +642,7 @@
 
     .line 145
     .line 146
-    invoke-static {v2}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v2}, Ljava/lang/Math;->round(F)I
 
     .line 147
     .line 148
@@ -701,8 +670,7 @@
 
     .line 5
     .line 6
-    iput p1, p0, Landroidx/transition/SidePropagation;
-    ->mPropagationSpeed:F    
+    iput p1, p0, Landroidx/transition/SidePropagation;->mPropagationSpeed:F
     return-void
 
     .line 9
@@ -715,8 +683,7 @@
 
     .line 12
     .line 13
-    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 14
     .line 15
@@ -727,8 +694,7 @@
     .locals 0
 
     .line 1
-    iput p1, p0, Landroidx/transition/SidePropagation;
-    ->mSide:I    
+    iput p1, p0, Landroidx/transition/SidePropagation;->mSide:I
     return-void
 .end method
 

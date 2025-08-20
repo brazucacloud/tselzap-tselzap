@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Ldalvik/system/PathClassLoader;
-    -><init>(Ljava/lang/String;Ljava/lang/ClassLoader;)V
+    invoke-direct {p0, p1, p2}, Ldalvik/system/PathClassLoader;-><init>(Ljava/lang/String;Ljava/lang/ClassLoader;)V
 
     .line 2
     .line 3
@@ -27,8 +26,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1, v0}, Ljava/lang/String;
-    ->startsWith(Ljava/lang/String;)Z
+    invoke-virtual {p1, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     .line 4
     .line 5
@@ -44,8 +42,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1, v0}, Ljava/lang/String;
-    ->startsWith(Ljava/lang/String;)Z
+    invoke-virtual {p1, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     .line 12
     .line 13
@@ -58,8 +55,7 @@
     .line 16
     .line 17
     :try_start_0
-    invoke-virtual {p0, p1}, Ljava/lang/ClassLoader;
-    ->findClass(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-virtual {p0, p1}, Ljava/lang/ClassLoader;->findClass(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 18
     .line 19
@@ -73,8 +69,7 @@
     .line 22
     :catch_0
     :cond_0
-    invoke-super {p0, p1, p2}, Ldalvik/system/PathClassLoader;
-    ->loadClass(Ljava/lang/String;Z)Ljava/lang/Class;
+    invoke-super {p0, p1, p2}, Ldalvik/system/PathClassLoader;->loadClass(Ljava/lang/String;Z)Ljava/lang/Class;
 
     .line 23
     .line 24

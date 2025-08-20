@@ -56,8 +56,7 @@
     const/4 v1, 0x0
 
     .line 2
-    invoke-direct {p0, p1, v0, v1, v1}, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;
-    -><init>(Lcom/google/android/gms/common/api/internal/ListenerHolder;[Lcom/google/android/gms/common/Feature;ZI)V
+    invoke-direct {p0, p1, v0, v1, v1}, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;-><init>(Lcom/google/android/gms/common/api/internal/ListenerHolder;[Lcom/google/android/gms/common/Feature;ZI)V
 return-void
 .end method
 
@@ -89,8 +88,7 @@ return-void
     const/4 v0, 0x0
 
     .line 3
-    invoke-direct {p0, p1, p2, p3, v0}, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;
-    -><init>(Lcom/google/android/gms/common/api/internal/ListenerHolder;[Lcom/google/android/gms/common/Feature;ZI)V
+    invoke-direct {p0, p1, p2, p3, v0}, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;-><init>(Lcom/google/android/gms/common/api/internal/ListenerHolder;[Lcom/google/android/gms/common/Feature;ZI)V
 return-void
 .end method
 
@@ -120,20 +118,15 @@ return-void
     .end annotation
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;
-    ->zaa:Lcom/google/android/gms/common/api/internal/ListenerHolder;
+    iput-object p1, p0, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;->zaa:Lcom/google/android/gms/common/api/internal/ListenerHolder;
 
-    iput-object p2, p0, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;
-    ->zab:[Lcom/google/android/gms/common/Feature;
+    iput-object p2, p0, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;->zab:[Lcom/google/android/gms/common/Feature;
 
-    iput-boolean p3, p0, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;
-    ->zac:Z
+    iput-boolean p3, p0, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;->zac:Z
 
-    iput p4, p0, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;
-    ->zad:I
+    iput p4, p0, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;->zad:I
 
     return-void
 .end method
@@ -146,13 +139,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;
-    ->zaa:Lcom/google/android/gms/common/api/internal/ListenerHolder;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;->zaa:Lcom/google/android/gms/common/api/internal/ListenerHolder;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/ListenerHolder;
-    ->clear()V
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/ListenerHolder;->clear()V
 
     .line 4
     .line 5
@@ -179,13 +170,11 @@ return-void
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;
-    ->zaa:Lcom/google/android/gms/common/api/internal/ListenerHolder;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;->zaa:Lcom/google/android/gms/common/api/internal/ListenerHolder;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/ListenerHolder;
-    ->getListenerKey()Lcom/google/android/gms/common/api/internal/ListenerHolder$ListenerKey;
+    invoke-virtual {v0}, Lcom/google/android/gms/common/api/internal/ListenerHolder;->getListenerKey()Lcom/google/android/gms/common/api/internal/ListenerHolder$ListenerKey;
 
     .line 4
     .line 5
@@ -203,8 +192,7 @@ return-void
     .annotation build Lcom/google/android/gms/common/annotation/KeepForSdk;
     .end annotation
 
-    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;
-    ->zab:[Lcom/google/android/gms/common/Feature;
+    iget-object v0, p0, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;->zab:[Lcom/google/android/gms/common/Feature;
 
     return-object v0
 .end method
@@ -234,8 +222,7 @@ return-void
 .method public final zaa()I
     .locals 1
 
-    iget v0, p0, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;
-    ->zad:I
+    iget v0, p0, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;->zad:I
 
     return v0
 .end method
@@ -243,8 +230,7 @@ return-void
 .method public final zab()Z
     .locals 1
 
-    iget-boolean v0, p0, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;
-    ->zac:Z
+    iget-boolean v0, p0, Lcom/google/android/gms/common/api/internal/RegisterListenerMethod;->zac:Z
 
     return v0
 .end method

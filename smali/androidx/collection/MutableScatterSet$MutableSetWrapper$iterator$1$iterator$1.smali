@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1;
-    -><init>(Landroidx/collection/MutableScatterSet;)V
+    value = Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1;-><init>(Landroidx/collection/MutableScatterSet;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -72,18 +71,15 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->this$0:Landroidx/collection/MutableScatterSet;
+    iput-object p1, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->this$0:Landroidx/collection/MutableScatterSet;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->this$1:Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1;
+    iput-object p2, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->this$1:Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1;
 
     .line 4
     .line 5
-    invoke-direct {p0, p3}, Li1/h;
-    -><init>(Lg1/d;)V
+    invoke-direct {p0, p3}, Li1/h;-><init>(Lg1/d;)V
 return-void
 .end method
 
@@ -108,24 +104,20 @@ return-void
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->this$0:Landroidx/collection/MutableScatterSet;
+    iget-object v1, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->this$0:Landroidx/collection/MutableScatterSet;
 
     .line 4
     .line 5
-    iget-object v2, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->this$1:Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1;
+    iget-object v2, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->this$1:Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1;
 
     .line 6
     .line 7
-    invoke-direct {v0, v1, v2, p2}, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    -><init>(Landroidx/collection/MutableScatterSet;Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1;Lg1/d;)V
+    invoke-direct {v0, v1, v2, p2}, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;-><init>(Landroidx/collection/MutableScatterSet;Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1;Lg1/d;)V
 
     .line 8
     .line 9
     .line 10
-    iput-object p1, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->L$0:Ljava/lang/Object;    
+    iput-object p1, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->L$0:Ljava/lang/Object;
     return-object v0
 .end method
 
@@ -137,8 +129,7 @@ return-void
 
     check-cast p2, Lg1/d;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->invoke(Lw1/j;Lg1/d;)Ljava/lang/Object;
+    invoke-virtual {p0, p1, p2}, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->invoke(Lw1/j;Lg1/d;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -160,18 +151,15 @@ return-void
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1, p2}, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->create(Ljava/lang/Object;Lg1/d;)Lg1/d;
+    invoke-virtual {p0, p1, p2}, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->create(Ljava/lang/Object;Lg1/d;)Lg1/d;
 
     move-result-object p1
 
     check-cast p1, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
 
-    sget-object p2, Lc1/v;
-    ->a:Lc1/v;
+    sget-object p2, Lc1/v;->a:Lc1/v;
 
-    invoke-virtual {p1, p2}, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p1, p2}, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p1
 
@@ -189,13 +177,11 @@ return-void
     const/4 v1, 0x1
 
     .line 4
-    sget-object v2, Lh1/a;
-    ->b:Lh1/a;
+    sget-object v2, Lh1/a;->b:Lh1/a;
 
     .line 5
     .line 6
-    iget v3, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->label:I
+    iget v3, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->label:I
 
     .line 7
     .line 8
@@ -214,33 +200,27 @@ return-void
 
     .line 14
     .line 15
-    iget v3, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->I$3:I
+    iget v3, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->I$3:I
 
     .line 16
     .line 17
-    iget v6, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->I$2:I
+    iget v6, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->I$2:I
 
     .line 18
     .line 19
-    iget-wide v7, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->J$0:J
+    iget-wide v7, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->J$0:J
 
     .line 20
     .line 21
-    iget v9, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->I$1:I
+    iget v9, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->I$1:I
 
     .line 22
     .line 23
-    iget v10, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->I$0:I
+    iget v10, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->I$0:I
 
     .line 24
     .line 25
-    iget-object v11, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->L$3:Ljava/lang/Object;
+    iget-object v11, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->L$3:Ljava/lang/Object;
 
     .line 26
     .line 27
@@ -248,8 +228,7 @@ return-void
 
     .line 28
     .line 29
-    iget-object v12, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->L$2:Ljava/lang/Object;
+    iget-object v12, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->L$2:Ljava/lang/Object;
 
     .line 30
     .line 31
@@ -257,8 +236,7 @@ return-void
 
     .line 32
     .line 33
-    iget-object v13, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->L$1:Ljava/lang/Object;
+    iget-object v13, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->L$1:Ljava/lang/Object;
 
     .line 34
     .line 35
@@ -266,8 +244,7 @@ return-void
 
     .line 36
     .line 37
-    iget-object v14, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->L$0:Ljava/lang/Object;
+    iget-object v14, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->L$0:Ljava/lang/Object;
 
     .line 38
     .line 39
@@ -275,8 +252,7 @@ return-void
 
     .line 40
     .line 41
-    invoke-static/range {p1 .. p1}, Lcom/bumptech/glide/b;
-    ->c0(Ljava/lang/Object;)V
+    invoke-static/range {p1 .. p1}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
 
     .line 42
     .line 43
@@ -294,8 +270,7 @@ return-void
 
     .line 49
     .line 50
-    invoke-direct {v1, v2}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
     .line 51
     .line 52
@@ -304,14 +279,12 @@ return-void
 
     .line 54
     :cond_1
-    invoke-static/range {p1 .. p1}, Lcom/bumptech/glide/b;
-    ->c0(Ljava/lang/Object;)V
+    invoke-static/range {p1 .. p1}, Lcom/bumptech/glide/b;->c0(Ljava/lang/Object;)V
 
     .line 55
     .line 56
     .line 57
-    iget-object v3, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->L$0:Ljava/lang/Object;
+    iget-object v3, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->L$0:Ljava/lang/Object;
 
     .line 58
     .line 59
@@ -319,18 +292,15 @@ return-void
 
     .line 60
     .line 61
-    iget-object v6, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->this$0:Landroidx/collection/MutableScatterSet;
+    iget-object v6, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->this$0:Landroidx/collection/MutableScatterSet;
 
     .line 62
     .line 63
-    iget-object v7, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->this$1:Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1;
+    iget-object v7, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->this$1:Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1;
 
     .line 64
     .line 65
-    iget-object v8, v6, Landroidx/collection/ScatterSet;
-    ->metadata:[J
+    iget-object v8, v6, Landroidx/collection/ScatterSet;->metadata:[J
 
     .line 66
     .line 67
@@ -464,14 +434,12 @@ return-void
     add-int/2addr v4, v3
 
     .line 123
-    invoke-virtual {v13, v4}, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1;
-    ->setCurrent(I)V
+    invoke-virtual {v13, v4}, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1;->setCurrent(I)V
 
     .line 124
     .line 125
     .line 126
-    iget-object v5, v12, Landroidx/collection/ScatterSet;
-    ->elements:[Ljava/lang/Object;
+    iget-object v5, v12, Landroidx/collection/ScatterSet;->elements:[Ljava/lang/Object;
 
     .line 127
     .line 128
@@ -479,64 +447,52 @@ return-void
 
     .line 129
     .line 130
-    iput-object v14, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->L$0:Ljava/lang/Object;
+    iput-object v14, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->L$0:Ljava/lang/Object;
 
     .line 131
     .line 132
-    iput-object v13, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->L$1:Ljava/lang/Object;
+    iput-object v13, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->L$1:Ljava/lang/Object;
 
     .line 133
     .line 134
-    iput-object v12, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->L$2:Ljava/lang/Object;
+    iput-object v12, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->L$2:Ljava/lang/Object;
 
     .line 135
     .line 136
-    iput-object v11, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->L$3:Ljava/lang/Object;
+    iput-object v11, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->L$3:Ljava/lang/Object;
 
     .line 137
     .line 138
-    iput v10, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->I$0:I
+    iput v10, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->I$0:I
 
     .line 139
     .line 140
-    iput v9, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->I$1:I
+    iput v9, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->I$1:I
 
     .line 141
     .line 142
-    iput-wide v7, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->J$0:J
+    iput-wide v7, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->J$0:J
 
     .line 143
     .line 144
-    iput v6, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->I$2:I
+    iput v6, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->I$2:I
 
     .line 145
     .line 146
-    iput v3, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->I$3:I
+    iput v3, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->I$3:I
 
     .line 147
     .line 148
-    iput v1, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;
-    ->label:I
+    iput v1, v0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1$iterator$1;->label:I
 
     .line 149
     .line 150
-    invoke-virtual {v14, v4, v0}, Lw1/j;
-    ->b(Ljava/lang/Object;Li1/h;)V
+    invoke-virtual {v14, v4, v0}, Lw1/j;->b(Ljava/lang/Object;Li1/h;)V
 
     .line 151
     .line 152
     .line 153
-    sget-object v1, Lh1/a;
-    ->b:Lh1/a;    return-object v2
+    sget-object v1, Lh1/a;->b:Lh1/a;    return-object v2
 
     .line 156
     :cond_2
@@ -588,8 +544,7 @@ return-void
 
     .line 172
     :cond_5
-    sget-object v1, Lc1/v;
-    ->a:Lc1/v;    return-object v1
+    sget-object v1, Lc1/v;->a:Lc1/v;    return-object v1
 .end method
 
 .end class

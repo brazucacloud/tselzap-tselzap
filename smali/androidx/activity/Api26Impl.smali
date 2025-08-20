@@ -19,11 +19,9 @@
 
     new-instance v0, Landroidx/activity/Api26Impl;
 
-    invoke-direct {v0}, Landroidx/activity/Api26Impl;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/activity/Api26Impl;-><init>()V
 
-    sput-object v0, Landroidx/activity/Api26Impl;
-    ->INSTANCE:Landroidx/activity/Api26Impl;
+    sput-object v0, Landroidx/activity/Api26Impl;->INSTANCE:Landroidx/activity/Api26Impl;
 
     return-void
 .end method
@@ -32,8 +30,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -47,14 +44,12 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/app/PictureInPictureParams$Builder;
-    -><init>()V
+    invoke-direct {v0}, Landroid/app/PictureInPictureParams$Builder;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {v0, p2}, Landroid/app/PictureInPictureParams$Builder;
-    ->setSourceRectHint(Landroid/graphics/Rect;)Landroid/app/PictureInPictureParams$Builder;
+    invoke-virtual {v0, p2}, Landroid/app/PictureInPictureParams$Builder;->setSourceRectHint(Landroid/graphics/Rect;)Landroid/app/PictureInPictureParams$Builder;
 
     .line 7
     .line 8
@@ -62,8 +57,7 @@
     move-result-object p2
 
     .line 10
-    invoke-virtual {p2}, Landroid/app/PictureInPictureParams$Builder;
-    ->build()Landroid/app/PictureInPictureParams;
+    invoke-virtual {p2}, Landroid/app/PictureInPictureParams$Builder;->build()Landroid/app/PictureInPictureParams;
 
     .line 11
     .line 12
@@ -71,8 +65,7 @@
     move-result-object p2
 
     .line 14
-    invoke-virtual {p1, p2}, Landroid/app/Activity;
-    ->setPictureInPictureParams(Landroid/app/PictureInPictureParams;)V
+    invoke-virtual {p1, p2}, Landroid/app/Activity;->setPictureInPictureParams(Landroid/app/PictureInPictureParams;)V
     return-void
 .end method
 

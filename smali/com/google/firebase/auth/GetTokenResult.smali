@@ -46,14 +46,11 @@
         }
     .end annotation
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/google/firebase/auth/GetTokenResult;
-    ->zza:Ljava/lang/String;
+    iput-object p1, p0, Lcom/google/firebase/auth/GetTokenResult;->zza:Ljava/lang/String;
 
-    iput-object p2, p0, Lcom/google/firebase/auth/GetTokenResult;
-    ->zzb:Ljava/util/Map;
+    iput-object p2, p0, Lcom/google/firebase/auth/GetTokenResult;->zzb:Ljava/util/Map;
 
     return-void
 .end method
@@ -62,13 +59,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lcom/google/firebase/auth/GetTokenResult;
-    ->zzb:Ljava/util/Map;
+    iget-object v0, p0, Lcom/google/firebase/auth/GetTokenResult;->zzb:Ljava/util/Map;
 
     .line 2
     .line 3
-    invoke-interface {v0, p1}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 4
     .line 5
@@ -92,8 +87,7 @@
 
     .line 14
     :cond_0
-    invoke-virtual {p1}, Ljava/lang/Integer;
-    ->longValue()J
+    invoke-virtual {p1}, Ljava/lang/Integer;->longValue()J
 
     .line 15
     .line 16
@@ -113,8 +107,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, v0}, Lcom/google/firebase/auth/GetTokenResult;
-    ->zza(Ljava/lang/String;)J
+    invoke-direct {p0, v0}, Lcom/google/firebase/auth/GetTokenResult;->zza(Ljava/lang/String;)J
 
     .line 4
     .line 5
@@ -139,8 +132,7 @@
         }
     .end annotation
 
-    iget-object v0, p0, Lcom/google/firebase/auth/GetTokenResult;
-    ->zzb:Ljava/util/Map;
+    iget-object v0, p0, Lcom/google/firebase/auth/GetTokenResult;->zzb:Ljava/util/Map;
 
     return-object v0
 .end method
@@ -153,8 +145,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, v0}, Lcom/google/firebase/auth/GetTokenResult;
-    ->zza(Ljava/lang/String;)J
+    invoke-direct {p0, v0}, Lcom/google/firebase/auth/GetTokenResult;->zza(Ljava/lang/String;)J
 
     .line 4
     .line 5
@@ -172,8 +163,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p0, v0}, Lcom/google/firebase/auth/GetTokenResult;
-    ->zza(Ljava/lang/String;)J
+    invoke-direct {p0, v0}, Lcom/google/firebase/auth/GetTokenResult;->zza(Ljava/lang/String;)J
 
     .line 4
     .line 5
@@ -189,8 +179,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/firebase/auth/GetTokenResult;
-    ->zzb:Ljava/util/Map;
+    iget-object v0, p0, Lcom/google/firebase/auth/GetTokenResult;->zzb:Ljava/util/Map;
 
     .line 2
     .line 3
@@ -198,8 +187,7 @@
 
     .line 4
     .line 5
-    invoke-interface {v0, v1}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -219,8 +207,7 @@
 
     .line 14
     .line 15
-    invoke-interface {v0, v1}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -250,8 +237,7 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/firebase/auth/GetTokenResult;
-    ->zzb:Ljava/util/Map;
+    iget-object v0, p0, Lcom/google/firebase/auth/GetTokenResult;->zzb:Ljava/util/Map;
 
     .line 2
     .line 3
@@ -259,8 +245,7 @@
 
     .line 4
     .line 5
-    invoke-interface {v0, v1}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 6
     .line 7
@@ -280,8 +265,7 @@
 
     .line 14
     .line 15
-    invoke-interface {v0, v1}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -307,8 +291,7 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 
-    iget-object v0, p0, Lcom/google/firebase/auth/GetTokenResult;
-    ->zza:Ljava/lang/String;
+    iget-object v0, p0, Lcom/google/firebase/auth/GetTokenResult;->zza:Ljava/lang/String;
 
     return-object v0
 .end method

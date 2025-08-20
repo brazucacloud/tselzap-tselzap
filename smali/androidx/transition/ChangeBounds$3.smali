@@ -28,8 +28,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2}, Landroid/util/Property;
-    -><init>(Ljava/lang/Class;Ljava/lang/String;)V
+    invoke-direct {p0, p1, p2}, Landroid/util/Property;-><init>(Ljava/lang/Class;Ljava/lang/String;)V
 return-void
 .end method
 
@@ -50,8 +49,7 @@ return-void
     .line 2
     check-cast p1, Landroid/view/View;
 
-    invoke-virtual {p0, p1}, Landroidx/transition/ChangeBounds$3;
-    ->get(Landroid/view/View;)Landroid/graphics/PointF;
+    invoke-virtual {p0, p1}, Landroidx/transition/ChangeBounds$3;->get(Landroid/view/View;)Landroid/graphics/PointF;
 
     move-result-object p1
 
@@ -62,38 +60,31 @@ return-void
     .locals 3
 
     .line 2
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getLeft()I
+    invoke-virtual {p1}, Landroid/view/View;->getLeft()I
 
     move-result v0
 
     .line 3
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getTop()I
+    invoke-virtual {p1}, Landroid/view/View;->getTop()I
 
     move-result v1
 
     .line 4
-    iget v2, p2, Landroid/graphics/PointF;
-    ->x:F
+    iget v2, p2, Landroid/graphics/PointF;->x:F
 
-    invoke-static {v2}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v2}, Ljava/lang/Math;->round(F)I
 
     move-result v2
 
     .line 5
-    iget p2, p2, Landroid/graphics/PointF;
-    ->y:F
+    iget p2, p2, Landroid/graphics/PointF;->y:F
 
-    invoke-static {p2}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {p2}, Ljava/lang/Math;->round(F)I
 
     move-result p2
 
     .line 6
-    invoke-static {p1, v0, v1, v2, p2}, Landroidx/transition/ViewUtils;
-    ->setLeftTopRightBottom(Landroid/view/View;IIII)V
+    invoke-static {p1, v0, v1, v2, p2}, Landroidx/transition/ViewUtils;->setLeftTopRightBottom(Landroid/view/View;IIII)V
 
     return-void
 .end method
@@ -106,8 +97,7 @@ return-void
 
     check-cast p2, Landroid/graphics/PointF;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/transition/ChangeBounds$3;
-    ->set(Landroid/view/View;Landroid/graphics/PointF;)V
+    invoke-virtual {p0, p1, p2}, Landroidx/transition/ChangeBounds$3;->set(Landroid/view/View;Landroid/graphics/PointF;)V
 
     return-void
 .end method

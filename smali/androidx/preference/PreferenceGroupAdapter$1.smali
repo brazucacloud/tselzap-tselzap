@@ -26,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/preference/PreferenceGroupAdapter$1;
-    ->this$0:Landroidx/preference/PreferenceGroupAdapter;
+    iput-object p1, p0, Landroidx/preference/PreferenceGroupAdapter$1;->this$0:Landroidx/preference/PreferenceGroupAdapter;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -42,13 +40,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/preference/PreferenceGroupAdapter$1;
-    ->this$0:Landroidx/preference/PreferenceGroupAdapter;
+    iget-object v0, p0, Landroidx/preference/PreferenceGroupAdapter$1;->this$0:Landroidx/preference/PreferenceGroupAdapter;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroidx/preference/PreferenceGroupAdapter;
-    ->updatePreferences()V
+    invoke-virtual {v0}, Landroidx/preference/PreferenceGroupAdapter;->updatePreferences()V
     return-void
 .end method
 

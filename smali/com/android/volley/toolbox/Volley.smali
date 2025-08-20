@@ -12,8 +12,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -29,8 +28,7 @@
     const/4 v0, 0x0
 
     .line 10
-    invoke-static {p0, v0}, Lcom/android/volley/toolbox/Volley;
-    ->newRequestQueue(Landroid/content/Context;Lcom/android/volley/toolbox/BaseHttpStack;)Lcom/android/volley/RequestQueue;
+    invoke-static {p0, v0}, Lcom/android/volley/toolbox/Volley;->newRequestQueue(Landroid/content/Context;Lcom/android/volley/toolbox/BaseHttpStack;)Lcom/android/volley/RequestQueue;
 
     move-result-object p0
 
@@ -43,31 +41,26 @@
     .end annotation
 
     .line 6
-    invoke-virtual {p0}, Landroid/content/Context;
-    ->getApplicationContext()Landroid/content/Context;
+    invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p0
 
     .line 7
     new-instance v0, Lcom/android/volley/toolbox/Volley$1;
 
-    invoke-direct {v0, p0}, Lcom/android/volley/toolbox/Volley$1;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p0}, Lcom/android/volley/toolbox/Volley$1;-><init>(Landroid/content/Context;)V
 
     .line 8
     new-instance p0, Lcom/android/volley/RequestQueue;
 
     new-instance v1, Lcom/android/volley/toolbox/DiskBasedCache;
 
-    invoke-direct {v1, v0}, Lcom/android/volley/toolbox/DiskBasedCache;
-    -><init>(Lcom/android/volley/toolbox/DiskBasedCache$FileSupplier;)V
+    invoke-direct {v1, v0}, Lcom/android/volley/toolbox/DiskBasedCache;-><init>(Lcom/android/volley/toolbox/DiskBasedCache$FileSupplier;)V
 
-    invoke-direct {p0, v1, p1}, Lcom/android/volley/RequestQueue;
-    -><init>(Lcom/android/volley/Cache;Lcom/android/volley/Network;)V
+    invoke-direct {p0, v1, p1}, Lcom/android/volley/RequestQueue;-><init>(Lcom/android/volley/Cache;Lcom/android/volley/Network;)V
 
     .line 9
-    invoke-virtual {p0}, Lcom/android/volley/RequestQueue;
-    ->start()V
+    invoke-virtual {p0}, Lcom/android/volley/RequestQueue;->start()V
     return-object p0
 .end method
 
@@ -83,11 +76,9 @@
 
     new-instance v0, Lcom/android/volley/toolbox/HurlStack;
 
-    invoke-direct {v0}, Lcom/android/volley/toolbox/HurlStack;
-    -><init>()V
+    invoke-direct {v0}, Lcom/android/volley/toolbox/HurlStack;-><init>()V
 
-    invoke-direct {p1, v0}, Lcom/android/volley/toolbox/BasicNetwork;
-    -><init>(Lcom/android/volley/toolbox/BaseHttpStack;)V
+    invoke-direct {p1, v0}, Lcom/android/volley/toolbox/BasicNetwork;-><init>(Lcom/android/volley/toolbox/BaseHttpStack;)V
 
     goto :goto_0
 
@@ -95,15 +86,13 @@
     :cond_0
     new-instance v0, Lcom/android/volley/toolbox/BasicNetwork;
 
-    invoke-direct {v0, p1}, Lcom/android/volley/toolbox/BasicNetwork;
-    -><init>(Lcom/android/volley/toolbox/BaseHttpStack;)V
+    invoke-direct {v0, p1}, Lcom/android/volley/toolbox/BasicNetwork;-><init>(Lcom/android/volley/toolbox/BaseHttpStack;)V
 
     move-object p1, v0
 
     .line 3
     :goto_0
-    invoke-static {p0, p1}, Lcom/android/volley/toolbox/Volley;
-    ->newRequestQueue(Landroid/content/Context;Lcom/android/volley/Network;)Lcom/android/volley/RequestQueue;
+    invoke-static {p0, p1}, Lcom/android/volley/toolbox/Volley;->newRequestQueue(Landroid/content/Context;Lcom/android/volley/Network;)Lcom/android/volley/RequestQueue;
 
     move-result-object p0
 
@@ -123,8 +112,7 @@
     const/4 p1, 0x0
 
     .line 4
-    invoke-static {p0, p1}, Lcom/android/volley/toolbox/Volley;
-    ->newRequestQueue(Landroid/content/Context;Lcom/android/volley/toolbox/BaseHttpStack;)Lcom/android/volley/RequestQueue;
+    invoke-static {p0, p1}, Lcom/android/volley/toolbox/Volley;->newRequestQueue(Landroid/content/Context;Lcom/android/volley/toolbox/BaseHttpStack;)Lcom/android/volley/RequestQueue;
 
     move-result-object p0
 
@@ -134,11 +122,9 @@
     :cond_0
     new-instance v0, Lcom/android/volley/toolbox/BasicNetwork;
 
-    invoke-direct {v0, p1}, Lcom/android/volley/toolbox/BasicNetwork;
-    -><init>(Lcom/android/volley/toolbox/HttpStack;)V
+    invoke-direct {v0, p1}, Lcom/android/volley/toolbox/BasicNetwork;-><init>(Lcom/android/volley/toolbox/HttpStack;)V
 
-    invoke-static {p0, v0}, Lcom/android/volley/toolbox/Volley;
-    ->newRequestQueue(Landroid/content/Context;Lcom/android/volley/Network;)Lcom/android/volley/RequestQueue;
+    invoke-static {p0, v0}, Lcom/android/volley/toolbox/Volley;->newRequestQueue(Landroid/content/Context;Lcom/android/volley/Network;)Lcom/android/volley/RequestQueue;
 
     move-result-object p0
 

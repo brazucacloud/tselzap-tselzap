@@ -11,8 +11,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -20,8 +19,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzjj;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzjj;-><init>()V
     return-void
 .end method
 
@@ -38,8 +36,7 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-static {p1, p2, v0, v1, p3}, Ljava/lang/System;
-    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {p1, p2, v0, v1, p3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 5
     .line 6

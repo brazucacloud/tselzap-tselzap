@@ -16,8 +16,7 @@
 
 .annotation build Landroidx/annotation/RestrictTo;
     value = {
-        .enum Landroidx/annotation/RestrictTo$Scope;
-    ->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
+        .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY:Landroidx/annotation/RestrictTo$Scope;
     }
 .end annotation
 
@@ -84,8 +83,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {v3, v4}, Ljava/lang/Class;
-    ->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+    invoke-virtual {v3, v4}, Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
 
     .line 9
     .line 10
@@ -97,8 +95,7 @@
 
     .line 13
     .line 14
-    sget-object v6, Ljava/lang/Long;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v6, Ljava/lang/Long;->TYPE:Ljava/lang/Class;
 
     .line 15
     .line 16
@@ -110,8 +107,7 @@
 
     .line 19
     .line 20
-    sget-object v8, Ljava/lang/Integer;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v8, Ljava/lang/Integer;->TYPE:Ljava/lang/Class;
 
     .line 21
     .line 22
@@ -119,8 +115,7 @@
 
     .line 23
     .line 24
-    sget-object v8, Ljava/lang/Boolean;
-    ->TYPE:Ljava/lang/Class;
+    sget-object v8, Ljava/lang/Boolean;->TYPE:Ljava/lang/Class;
 
     .line 25
     .line 26
@@ -131,8 +126,7 @@
 
     .line 28
     .line 29
-    invoke-virtual {v3, v5, v7}, Ljava/lang/Class;
-    ->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+    invoke-virtual {v3, v5, v7}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     .line 30
     .line 31
@@ -140,8 +134,7 @@
     move-result-object v5
 
     .line 33
-    invoke-virtual {v5, v2}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v5, v2}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 34
     .line 35
@@ -154,8 +147,7 @@
 
     .line 39
     .line 40
-    invoke-virtual {v3, v7}, Ljava/lang/Class;
-    ->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+    invoke-virtual {v3, v7}, Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     .line 41
     .line 42
@@ -163,8 +155,7 @@
     move-result-object v0
 
     .line 44
-    invoke-virtual {v0, v2}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v0, v2}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
     :try_end_0
     .catch Ljava/lang/NoSuchFieldException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/NoSuchMethodException; {:try_start_0 .. :try_end_0} :catch_0
@@ -187,8 +178,7 @@
 
     .line 51
     :goto_0
-    invoke-virtual {v0}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 52
     .line 53
@@ -196,8 +186,7 @@
     move-result-object v2
 
     .line 55
-    invoke-virtual {v2}, Ljava/lang/Class;
-    ->getName()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
     .line 56
     .line 57
@@ -209,8 +198,7 @@
 
     .line 60
     .line 61
-    invoke-static {v3, v2, v0}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v3, v2, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 62
     .line 63
@@ -225,18 +213,15 @@
 
     .line 67
     :goto_1
-    sput-object v4, Landroidx/core/graphics/WeightTypefaceApi26;
-    ->sNativeInstance:Ljava/lang/reflect/Field;
+    sput-object v4, Landroidx/core/graphics/WeightTypefaceApi26;->sNativeInstance:Ljava/lang/reflect/Field;
 
     .line 68
     .line 69
-    sput-object v5, Landroidx/core/graphics/WeightTypefaceApi26;
-    ->sNativeCreateFromTypefaceWithExactStyle:Ljava/lang/reflect/Method;
+    sput-object v5, Landroidx/core/graphics/WeightTypefaceApi26;->sNativeCreateFromTypefaceWithExactStyle:Ljava/lang/reflect/Method;
 
     .line 70
     .line 71
-    sput-object v0, Landroidx/core/graphics/WeightTypefaceApi26;
-    ->sConstructor:Ljava/lang/reflect/Constructor;
+    sput-object v0, Landroidx/core/graphics/WeightTypefaceApi26;->sConstructor:Ljava/lang/reflect/Constructor;
 
     .line 72
     .line 73
@@ -244,14 +229,12 @@
 
     .line 74
     .line 75
-    invoke-direct {v0, v1}, Landroidx/collection/LongSparseArray;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/collection/LongSparseArray;-><init>(I)V
 
     .line 76
     .line 77
     .line 78
-    sput-object v0, Landroidx/core/graphics/WeightTypefaceApi26;
-    ->sWeightTypefaceCache:Landroidx/collection/LongSparseArray;
+    sput-object v0, Landroidx/core/graphics/WeightTypefaceApi26;->sWeightTypefaceCache:Landroidx/collection/LongSparseArray;
 
     .line 79
     .line 80
@@ -259,14 +242,12 @@
 
     .line 81
     .line 82
-    invoke-direct {v0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
     .line 83
     .line 84
     .line 85
-    sput-object v0, Landroidx/core/graphics/WeightTypefaceApi26;
-    ->sWeightCacheLock:Ljava/lang/Object;
+    sput-object v0, Landroidx/core/graphics/WeightTypefaceApi26;->sWeightCacheLock:Ljava/lang/Object;
 
     .line 86
     .line 87
@@ -277,8 +258,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -296,13 +276,11 @@
 
     .line 2
     :try_start_0
-    sget-object v1, Landroidx/core/graphics/WeightTypefaceApi26;
-    ->sConstructor:Ljava/lang/reflect/Constructor;
+    sget-object v1, Landroidx/core/graphics/WeightTypefaceApi26;->sConstructor:Ljava/lang/reflect/Constructor;
 
     .line 3
     .line 4
-    invoke-static {p0, p1}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {p0, p1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 5
     .line 6
@@ -324,8 +302,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {v1, p1}, Ljava/lang/reflect/Constructor;
-    ->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v1, p1}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 15
     .line 16
@@ -358,8 +335,7 @@
     .end annotation
 
     .line 1
-    invoke-static {}, Landroidx/core/graphics/WeightTypefaceApi26;
-    ->isPrivateApiAvailable()Z
+    invoke-static {}, Landroidx/core/graphics/WeightTypefaceApi26;->isPrivateApiAvailable()Z
 
     .line 2
     .line 3
@@ -384,8 +360,7 @@
     or-int/2addr v0, p2
 
     .line 12
-    sget-object v1, Landroidx/core/graphics/WeightTypefaceApi26;
-    ->sWeightCacheLock:Ljava/lang/Object;
+    sget-object v1, Landroidx/core/graphics/WeightTypefaceApi26;->sWeightCacheLock:Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -393,8 +368,7 @@
 
     .line 15
     :try_start_0
-    invoke-static {p0}, Landroidx/core/graphics/WeightTypefaceApi26;
-    ->getNativeInstance(Landroid/graphics/Typeface;)J
+    invoke-static {p0}, Landroidx/core/graphics/WeightTypefaceApi26;->getNativeInstance(Landroid/graphics/Typeface;)J
 
     .line 16
     .line 17
@@ -402,13 +376,11 @@
     move-result-wide v2
 
     .line 19
-    sget-object p0, Landroidx/core/graphics/WeightTypefaceApi26;
-    ->sWeightTypefaceCache:Landroidx/collection/LongSparseArray;
+    sget-object p0, Landroidx/core/graphics/WeightTypefaceApi26;->sWeightTypefaceCache:Landroidx/collection/LongSparseArray;
 
     .line 20
     .line 21
-    invoke-virtual {p0, v2, v3}, Landroidx/collection/LongSparseArray;
-    ->get(J)Ljava/lang/Object;
+    invoke-virtual {p0, v2, v3}, Landroidx/collection/LongSparseArray;->get(J)Ljava/lang/Object;
 
     .line 22
     .line 23
@@ -431,14 +403,12 @@
     const/4 v5, 0x4
 
     .line 32
-    invoke-direct {v4, v5}, Landroid/util/SparseArray;
-    -><init>(I)V
+    invoke-direct {v4, v5}, Landroid/util/SparseArray;-><init>(I)V
 
     .line 33
     .line 34
     .line 35
-    invoke-virtual {p0, v2, v3, v4}, Landroidx/collection/LongSparseArray;
-    ->put(JLjava/lang/Object;)V
+    invoke-virtual {p0, v2, v3, v4}, Landroidx/collection/LongSparseArray;->put(JLjava/lang/Object;)V
 
     .line 36
     .line 37
@@ -454,8 +424,7 @@
 
     .line 41
     :cond_1
-    invoke-virtual {v4, v0}, Landroid/util/SparseArray;
-    ->get(I)Ljava/lang/Object;
+    invoke-virtual {v4, v0}, Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
 
     .line 42
     .line 43
@@ -478,8 +447,7 @@
     .line 51
     :cond_2
     :goto_0
-    invoke-static {v2, v3, p1, p2}, Landroidx/core/graphics/WeightTypefaceApi26;
-    ->nativeCreateFromTypefaceWithExactStyle(JIZ)J
+    invoke-static {v2, v3, p1, p2}, Landroidx/core/graphics/WeightTypefaceApi26;->nativeCreateFromTypefaceWithExactStyle(JIZ)J
 
     .line 52
     .line 53
@@ -487,8 +455,7 @@
     move-result-wide p0
 
     .line 55
-    invoke-static {p0, p1}, Landroidx/core/graphics/WeightTypefaceApi26;
-    ->create(J)Landroid/graphics/Typeface;
+    invoke-static {p0, p1}, Landroidx/core/graphics/WeightTypefaceApi26;->create(J)Landroid/graphics/Typeface;
 
     .line 56
     .line 57
@@ -496,8 +463,7 @@
     move-result-object p0
 
     .line 59
-    invoke-virtual {v4, v0, p0}, Landroid/util/SparseArray;
-    ->put(ILjava/lang/Object;)V
+    invoke-virtual {v4, v0, p0}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 60
     .line 61
@@ -577,13 +543,11 @@
 
     .line 1
     :try_start_0
-    sget-object v0, Landroidx/core/graphics/WeightTypefaceApi26;
-    ->sNativeInstance:Ljava/lang/reflect/Field;
+    sget-object v0, Landroidx/core/graphics/WeightTypefaceApi26;->sNativeInstance:Ljava/lang/reflect/Field;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;
-    ->getLong(Ljava/lang/Object;)J
+    invoke-virtual {v0, p0}, Ljava/lang/reflect/Field;->getLong(Ljava/lang/Object;)J
 
     .line 4
     .line 5
@@ -603,8 +567,7 @@
 
     .line 10
     .line 11
-    invoke-direct {v0, p0}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v0, p0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
 
     .line 12
     .line 13
@@ -629,8 +592,7 @@
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/core/graphics/WeightTypefaceApi26;
-    ->sNativeInstance:Ljava/lang/reflect/Field;
+    sget-object v0, Landroidx/core/graphics/WeightTypefaceApi26;->sNativeInstance:Ljava/lang/reflect/Field;
 
     .line 2
     .line 3
@@ -659,13 +621,11 @@
 
     .line 1
     :try_start_0
-    sget-object v0, Landroidx/core/graphics/WeightTypefaceApi26;
-    ->sNativeCreateFromTypefaceWithExactStyle:Ljava/lang/reflect/Method;
+    sget-object v0, Landroidx/core/graphics/WeightTypefaceApi26;->sNativeCreateFromTypefaceWithExactStyle:Ljava/lang/reflect/Method;
 
     .line 2
     .line 3
-    invoke-static {p0, p1}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {p0, p1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 4
     .line 5
@@ -673,8 +633,7 @@
     move-result-object p0
 
     .line 7
-    invoke-static {p2}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 8
     .line 9
@@ -682,8 +641,7 @@
     move-result-object p1
 
     .line 11
-    invoke-static {p3}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p3}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 12
     .line 13
@@ -722,8 +680,7 @@
     const/4 p0, 0x0
 
     .line 28
-    invoke-virtual {v0, p0, p3}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v0, p0, p3}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 29
     .line 30
@@ -735,8 +692,7 @@
 
     .line 33
     .line 34
-    invoke-virtual {p0}, Ljava/lang/Long;
-    ->longValue()J
+    invoke-virtual {p0}, Ljava/lang/Long;->longValue()J
 
     .line 35
     .line 36
@@ -757,8 +713,7 @@
 
     .line 41
     .line 42
-    invoke-direct {p1, p0}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/Throwable;)V
+    invoke-direct {p1, p0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
 
     .line 43
     .line 44
@@ -774,8 +729,7 @@
 
     .line 48
     .line 49
-    invoke-direct {p1, p0}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/Throwable;)V
+    invoke-direct {p1, p0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
 
     .line 50
     .line 51

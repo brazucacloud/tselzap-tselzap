@@ -40,8 +40,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -50,30 +49,25 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 12
     .line 13
     .line 14
-    iput-object p1, p0, Landroidx/collection/MutableMapEntry;
-    ->keys:[Ljava/lang/Object;
+    iput-object p1, p0, Landroidx/collection/MutableMapEntry;->keys:[Ljava/lang/Object;
 
     .line 15
     .line 16
-    iput-object p2, p0, Landroidx/collection/MutableMapEntry;
-    ->values:[Ljava/lang/Object;
+    iput-object p2, p0, Landroidx/collection/MutableMapEntry;->values:[Ljava/lang/Object;
 
     .line 17
     .line 18
-    iput p3, p0, Landroidx/collection/MutableMapEntry;
-    ->index:I    
+    iput p3, p0, Landroidx/collection/MutableMapEntry;->index:I
     return-void
 .end method
 
@@ -95,8 +89,7 @@
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/collection/MutableMapEntry;
-    ->index:I    return v0
+    iget v0, p0, Landroidx/collection/MutableMapEntry;->index:I    return v0
 .end method
 
 .method public getKey()Ljava/lang/Object;
@@ -108,13 +101,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/MutableMapEntry;
-    ->keys:[Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/collection/MutableMapEntry;->keys:[Ljava/lang/Object;
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/collection/MutableMapEntry;
-    ->index:I
+    iget v1, p0, Landroidx/collection/MutableMapEntry;->index:I
 
     .line 4
     .line 5
@@ -125,8 +116,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/MutableMapEntry;
-    ->keys:[Ljava/lang/Object;    return-object v0
+    iget-object v0, p0, Landroidx/collection/MutableMapEntry;->keys:[Ljava/lang/Object;    return-object v0
 .end method
 
 .method public getValue()Ljava/lang/Object;
@@ -138,13 +128,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/MutableMapEntry;
-    ->values:[Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/collection/MutableMapEntry;->values:[Ljava/lang/Object;
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/collection/MutableMapEntry;
-    ->index:I
+    iget v1, p0, Landroidx/collection/MutableMapEntry;->index:I
 
     .line 4
     .line 5
@@ -155,8 +143,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/MutableMapEntry;
-    ->values:[Ljava/lang/Object;    return-object v0
+    iget-object v0, p0, Landroidx/collection/MutableMapEntry;->values:[Ljava/lang/Object;    return-object v0
 .end method
 
 .method public setValue(Ljava/lang/Object;)Ljava/lang/Object;
@@ -168,13 +155,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/collection/MutableMapEntry;
-    ->values:[Ljava/lang/Object;
+    iget-object v0, p0, Landroidx/collection/MutableMapEntry;->values:[Ljava/lang/Object;
 
     .line 2
     .line 3
-    iget v1, p0, Landroidx/collection/MutableMapEntry;
-    ->index:I
+    iget v1, p0, Landroidx/collection/MutableMapEntry;->index:I
 
     .line 4
     .line 5

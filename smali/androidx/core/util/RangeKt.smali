@@ -33,8 +33,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/util/Range;
-    ->intersect(Landroid/util/Range;)Landroid/util/Range;
+    invoke-virtual {p0, p1}, Landroid/util/Range;->intersect(Landroid/util/Range;)Landroid/util/Range;
 
     .line 2
     .line 3
@@ -65,8 +64,7 @@
     .end annotation
 
     .line 2
-    invoke-virtual {p0, p1}, Landroid/util/Range;
-    ->extend(Landroid/util/Range;)Landroid/util/Range;
+    invoke-virtual {p0, p1}, Landroid/util/Range;->extend(Landroid/util/Range;)Landroid/util/Range;
 
     move-result-object p0
 
@@ -92,8 +90,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/util/Range;
-    ->extend(Ljava/lang/Comparable;)Landroid/util/Range;
+    invoke-virtual {p0, p1}, Landroid/util/Range;->extend(Ljava/lang/Comparable;)Landroid/util/Range;
 
     move-result-object p0
 
@@ -121,8 +118,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1}, Landroid/util/Range;
-    -><init>(Ljava/lang/Comparable;Ljava/lang/Comparable;)V
+    invoke-direct {v0, p0, p1}, Landroid/util/Range;-><init>(Ljava/lang/Comparable;Ljava/lang/Comparable;)V
 
     .line 4
     .line 5
@@ -152,8 +148,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/core/util/RangeKt$toClosedRange$1;
-    -><init>(Landroid/util/Range;)V
+    invoke-direct {v0, p0}, Landroidx/core/util/RangeKt$toClosedRange$1;-><init>(Landroid/util/Range;)V
 
     .line 4
     .line 5
@@ -184,8 +179,7 @@
 
     .line 2
     .line 3
-    invoke-interface {p0}, Lu1/d;
-    ->getStart()Ljava/lang/Comparable;
+    invoke-interface {p0}, Lu1/d;->getStart()Ljava/lang/Comparable;
 
     .line 4
     .line 5
@@ -193,8 +187,7 @@
     move-result-object v1
 
     .line 7
-    invoke-interface {p0}, Lu1/d;
-    ->getEndInclusive()Ljava/lang/Comparable;
+    invoke-interface {p0}, Lu1/d;->getEndInclusive()Ljava/lang/Comparable;
 
     .line 8
     .line 9
@@ -202,8 +195,7 @@
     move-result-object p0
 
     .line 11
-    invoke-direct {v0, v1, p0}, Landroid/util/Range;
-    -><init>(Ljava/lang/Comparable;Ljava/lang/Comparable;)V
+    invoke-direct {v0, v1, p0}, Landroid/util/Range;-><init>(Ljava/lang/Comparable;Ljava/lang/Comparable;)V
 
     .line 12
     .line 13

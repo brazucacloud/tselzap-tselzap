@@ -31,8 +31,7 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -45,8 +44,7 @@
 
     .line 7
     .line 8
-    iput-object v1, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;
-    ->mKeys:[I
+    iput-object v1, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;->mKeys:[I
 
     .line 9
     .line 10
@@ -54,13 +52,11 @@
 
     .line 11
     .line 12
-    iput-object v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;
-    ->mValues:[[F
+    iput-object v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;->mValues:[[F
 
     .line 13
     .line 14
-    invoke-virtual {p0}, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;
-    ->clear()V
+    invoke-virtual {p0}, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;->clear()V
     return-void
 .end method
 
@@ -70,8 +66,7 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;
-    ->mValues:[[F
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;->mValues:[[F
 
     .line 2
     .line 3
@@ -83,15 +78,13 @@
 
     .line 6
     .line 7
-    invoke-virtual {p0, p1}, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;
-    ->remove(I)V
+    invoke-virtual {p0, p1}, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;->remove(I)V
 
     .line 8
     .line 9
     .line 10
     :cond_0
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;
-    ->mValues:[[F
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;->mValues:[[F
 
     .line 11
     .line 12
@@ -99,13 +92,11 @@
 
     .line 13
     .line 14
-    iget-object p2, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;
-    ->mKeys:[I
+    iget-object p2, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;->mKeys:[I
 
     .line 15
     .line 16
-    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;
-    ->mCount:I
+    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;->mCount:I
 
     .line 17
     .line 18
@@ -113,8 +104,7 @@
 
     .line 19
     .line 20
-    iput v1, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;
-    ->mCount:I
+    iput v1, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;->mCount:I
 
     .line 21
     .line 22
@@ -122,8 +112,7 @@
 
     .line 23
     .line 24
-    invoke-static {p2}, Ljava/util/Arrays;
-    ->sort([I)V
+    invoke-static {p2}, Ljava/util/Arrays;->sort([I)V
 return-void
 .end method
 
@@ -131,8 +120,7 @@ return-void
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;
-    ->mKeys:[I
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;->mKeys:[I
 
     .line 2
     .line 3
@@ -140,22 +128,19 @@ return-void
 
     .line 4
     .line 5
-    invoke-static {v0, v1}, Ljava/util/Arrays;
-    ->fill([II)V
+    invoke-static {v0, v1}, Ljava/util/Arrays;->fill([II)V
 
     .line 6
     .line 7
     .line 8
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;
-    ->mValues:[[F
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;->mValues:[[F
 
     .line 9
     .line 10
     const/4 v1, 0x0
 
     .line 11
-    invoke-static {v0, v1}, Ljava/util/Arrays;
-    ->fill([Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-static {v0, v1}, Ljava/util/Arrays;->fill([Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 12
     .line 13
@@ -163,8 +148,7 @@ return-void
     const/4 v0, 0x0
 
     .line 15
-    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;
-    ->mCount:I    
+    iput v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;->mCount:I
     return-void
 .end method
 
@@ -172,8 +156,7 @@ return-void
     .locals 4
 
     .line 1
-    sget-object v0, Ljava/lang/System;
-    ->out:Ljava/io/PrintStream;
+    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     .line 2
     .line 3
@@ -185,24 +168,20 @@ return-void
 
     .line 6
     .line 7
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 8
     .line 9
     .line 10
-    iget-object v2, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;
-    ->mKeys:[I
+    iget-object v2, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;->mKeys:[I
 
     .line 11
     .line 12
-    iget v3, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;
-    ->mCount:I
+    iget v3, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;->mCount:I
 
     .line 13
     .line 14
-    invoke-static {v2, v3}, Ljava/util/Arrays;
-    ->copyOf([II)[I
+    invoke-static {v2, v3}, Ljava/util/Arrays;->copyOf([II)[I
 
     .line 15
     .line 16
@@ -210,8 +189,7 @@ return-void
     move-result-object v2
 
     .line 18
-    invoke-static {v2}, Ljava/util/Arrays;
-    ->toString([I)Ljava/lang/String;
+    invoke-static {v2}, Ljava/util/Arrays;->toString([I)Ljava/lang/String;
 
     .line 19
     .line 20
@@ -219,14 +197,12 @@ return-void
     move-result-object v2
 
     .line 22
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 23
     .line 24
     .line 25
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 26
     .line 27
@@ -234,14 +210,12 @@ return-void
     move-result-object v1
 
     .line 29
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;
-    ->println(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
 
     .line 30
     .line 31
     .line 32
-    sget-object v0, Ljava/lang/System;
-    ->out:Ljava/io/PrintStream;
+    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     .line 33
     .line 34
@@ -249,8 +223,7 @@ return-void
 
     .line 35
     .line 36
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;
-    ->print(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->print(Ljava/lang/String;)V
 
     .line 37
     .line 38
@@ -259,8 +232,7 @@ return-void
 
     .line 40
     :goto_0
-    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;
-    ->mCount:I
+    iget v1, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;->mCount:I
 
     .line 41
     .line 42
@@ -268,8 +240,7 @@ return-void
 
     .line 43
     .line 44
-    sget-object v1, Ljava/lang/System;
-    ->out:Ljava/io/PrintStream;
+    sget-object v1, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     .line 45
     .line 46
@@ -277,8 +248,7 @@ return-void
 
     .line 47
     .line 48
-    invoke-direct {v2}, Ljava/lang/StringBuilder;
-    -><init>()V
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 49
     .line 50
@@ -300,14 +270,12 @@ return-void
     .line 57
     .line 58
     :goto_1
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 59
     .line 60
     .line 61
-    invoke-virtual {p0, v0}, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;
-    ->valueAt(I)[F
+    invoke-virtual {p0, v0}, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;->valueAt(I)[F
 
     .line 62
     .line 63
@@ -315,8 +283,7 @@ return-void
     move-result-object v3
 
     .line 65
-    invoke-static {v3}, Ljava/util/Arrays;
-    ->toString([F)Ljava/lang/String;
+    invoke-static {v3}, Ljava/util/Arrays;->toString([F)Ljava/lang/String;
 
     .line 66
     .line 67
@@ -324,14 +291,12 @@ return-void
     move-result-object v3
 
     .line 69
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 70
     .line 71
     .line 72
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 73
     .line 74
@@ -339,8 +304,7 @@ return-void
     move-result-object v2
 
     .line 76
-    invoke-virtual {v1, v2}, Ljava/io/PrintStream;
-    ->print(Ljava/lang/String;)V
+    invoke-virtual {v1, v2}, Ljava/io/PrintStream;->print(Ljava/lang/String;)V
 
     .line 77
     .line 78
@@ -353,8 +317,7 @@ return-void
 
     .line 82
     :cond_1
-    sget-object v0, Ljava/lang/System;
-    ->out:Ljava/io/PrintStream;
+    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     .line 83
     .line 84
@@ -362,8 +325,7 @@ return-void
 
     .line 85
     .line 86
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;
-    ->println(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
 return-void
 .end method
 
@@ -371,8 +333,7 @@ return-void
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;
-    ->mKeys:[I
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;->mKeys:[I
 
     .line 2
     .line 3
@@ -383,8 +344,7 @@ return-void
     .locals 4
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;
-    ->mValues:[[F
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;->mValues:[[F
 
     .line 2
     .line 3
@@ -402,8 +362,7 @@ return-void
 
     .line 8
     :goto_0
-    iget v2, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;
-    ->mCount:I
+    iget v2, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;->mCount:I
 
     .line 9
     .line 10
@@ -411,8 +370,7 @@ return-void
 
     .line 11
     .line 12
-    iget-object v2, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;
-    ->mKeys:[I
+    iget-object v2, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;->mKeys:[I
 
     .line 13
     .line 14
@@ -466,8 +424,7 @@ return-void
 
     .line 36
     .line 37
-    iput v2, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;
-    ->mCount:I    
+    iput v2, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;->mCount:I
     return-void
 .end method
 
@@ -475,21 +432,18 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;
-    ->mCount:I    return v0
+    iget v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;->mCount:I    return v0
 .end method
 
 .method public valueAt(I)[F
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;
-    ->mValues:[[F
+    iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;->mValues:[[F
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;
-    ->mKeys:[I
+    iget-object v1, p0, Landroidx/constraintlayout/core/motion/utils/KeyFrameArray$FloatArray;->mKeys:[I
 
     .line 4
     .line 5

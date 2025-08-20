@@ -15,24 +15,20 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, LB0/p;
-    ->b:LB0/w;
+    iput-object p1, p0, LB0/p;->b:LB0/w;
 
     .line 5
     .line 6
-    sget p1, LB0/o;
-    ->d:I
+    sget p1, LB0/o;->d:I
 
     .line 7
     .line 8
-    sget-object p1, LB0/x;
-    ->j:[Ljava/lang/Object;
+    sget-object p1, LB0/x;->j:[Ljava/lang/Object;
 
     .line 9
     .line 10

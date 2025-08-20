@@ -12,14 +12,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/fmark/tselzap/Utils/ContactManager;
-    ->context:Landroid/content/Context;
+    iput-object p1, p0, Lcom/fmark/tselzap/Utils/ContactManager;->context:Landroid/content/Context;
 
     .line 5
     .line 6
@@ -32,13 +30,11 @@
     .locals 7
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Utils/ContactManager;
-    ->context:Landroid/content/Context;
+    iget-object v0, p0, Lcom/fmark/tselzap/Utils/ContactManager;->context:Landroid/content/Context;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/content/Context;
-    ->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     .line 4
     .line 5
@@ -54,8 +50,7 @@
     move-result-object v5
 
     .line 11
-    sget-object v2, Landroid/provider/ContactsContract$CommonDataKinds$Phone;
-    ->CONTENT_URI:Landroid/net/Uri;
+    sget-object v2, Landroid/provider/ContactsContract$CommonDataKinds$Phone;->CONTENT_URI:Landroid/net/Uri;
 
     .line 12
     .line 13
@@ -69,8 +64,7 @@
 
     .line 16
     .line 17
-    invoke-virtual/range {v1 .. v6}, Landroid/content/ContentResolver;
-    ->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
+    invoke-virtual/range {v1 .. v6}, Landroid/content/ContentResolver;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
     .line 18
     .line 19
@@ -82,8 +76,7 @@
 
     .line 22
     .line 23
-    invoke-interface {p1}, Landroid/database/Cursor;
-    ->getCount()I
+    invoke-interface {p1}, Landroid/database/Cursor;->getCount()I
 
     .line 24
     .line 25
@@ -110,8 +103,7 @@
 
     .line 33
     .line 34
-    invoke-interface {p1}, Landroid/database/Cursor;
-    ->close()V
+    invoke-interface {p1}, Landroid/database/Cursor;->close()V
 
     .line 35
     .line 36
@@ -124,13 +116,11 @@
     .locals 7
 
     .line 1
-    iget-object v0, p0, Lcom/fmark/tselzap/Utils/ContactManager;
-    ->context:Landroid/content/Context;
+    iget-object v0, p0, Lcom/fmark/tselzap/Utils/ContactManager;->context:Landroid/content/Context;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/content/Context;
-    ->getContentResolver()Landroid/content/ContentResolver;
+    invoke-virtual {v0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
 
     .line 4
     .line 5
@@ -138,8 +128,7 @@
     move-result-object v0
 
     .line 7
-    invoke-virtual {p0, p2}, Lcom/fmark/tselzap/Utils/ContactManager;
-    ->contactExists(Ljava/lang/String;)Z
+    invoke-virtual {p0, p2}, Lcom/fmark/tselzap/Utils/ContactManager;->contactExists(Ljava/lang/String;)Z
 
     .line 8
     .line 9
@@ -161,8 +150,7 @@
 
     .line 16
     .line 17
-    invoke-direct {v1}, Landroid/content/ContentValues;
-    -><init>()V
+    invoke-direct {v1}, Landroid/content/ContentValues;-><init>()V
 
     .line 18
     .line 19
@@ -174,8 +162,7 @@
     const/4 v3, 0x0
 
     .line 23
-    invoke-virtual {v1, v2, v3}, Landroid/content/ContentValues;
-    ->put(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 24
     .line 25
@@ -184,19 +171,16 @@
 
     .line 27
     .line 28
-    invoke-virtual {v1, v2, v3}, Landroid/content/ContentValues;
-    ->put(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v2, v3}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 29
     .line 30
     .line 31
-    sget-object v2, Landroid/provider/ContactsContract$RawContacts;
-    ->CONTENT_URI:Landroid/net/Uri;
+    sget-object v2, Landroid/provider/ContactsContract$RawContacts;->CONTENT_URI:Landroid/net/Uri;
 
     .line 32
     .line 33
-    invoke-virtual {v0, v2, v1}, Landroid/content/ContentResolver;
-    ->insert(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;
+    invoke-virtual {v0, v2, v1}, Landroid/content/ContentResolver;->insert(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;
 
     .line 34
     .line 35
@@ -204,8 +188,7 @@
     move-result-object v2
 
     .line 37
-    invoke-static {v2}, Landroid/content/ContentUris;
-    ->parseId(Landroid/net/Uri;)J
+    invoke-static {v2}, Landroid/content/ContentUris;->parseId(Landroid/net/Uri;)J
 
     .line 38
     .line 39
@@ -213,14 +196,12 @@
     move-result-wide v2
 
     .line 41
-    invoke-virtual {v1}, Landroid/content/ContentValues;
-    ->clear()V
+    invoke-virtual {v1}, Landroid/content/ContentValues;->clear()V
 
     .line 42
     .line 43
     .line 44
-    invoke-static {v2, v3}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 45
     .line 46
@@ -232,8 +213,7 @@
 
     .line 49
     .line 50
-    invoke-virtual {v1, v5, v4}, Landroid/content/ContentValues;
-    ->put(Ljava/lang/String;Ljava/lang/Long;)V
+    invoke-virtual {v1, v5, v4}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
 
     .line 51
     .line 52
@@ -246,8 +226,7 @@
 
     .line 56
     .line 57
-    invoke-virtual {v1, v6, v4}, Landroid/content/ContentValues;
-    ->put(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v6, v4}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 58
     .line 59
@@ -256,31 +235,26 @@
 
     .line 61
     .line 62
-    invoke-virtual {v1, v4, p1}, Landroid/content/ContentValues;
-    ->put(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v4, p1}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 63
     .line 64
     .line 65
-    sget-object p1, Landroid/provider/ContactsContract$Data;
-    ->CONTENT_URI:Landroid/net/Uri;
+    sget-object p1, Landroid/provider/ContactsContract$Data;->CONTENT_URI:Landroid/net/Uri;
 
     .line 66
     .line 67
-    invoke-virtual {v0, p1, v1}, Landroid/content/ContentResolver;
-    ->insert(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;
+    invoke-virtual {v0, p1, v1}, Landroid/content/ContentResolver;->insert(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;
 
     .line 68
     .line 69
     .line 70
-    invoke-virtual {v1}, Landroid/content/ContentValues;
-    ->clear()V
+    invoke-virtual {v1}, Landroid/content/ContentValues;->clear()V
 
     .line 71
     .line 72
     .line 73
-    invoke-static {v2, v3}, Ljava/lang/Long;
-    ->valueOf(J)Ljava/lang/Long;
+    invoke-static {v2, v3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     .line 74
     .line 75
@@ -288,8 +262,7 @@
     move-result-object v2
 
     .line 77
-    invoke-virtual {v1, v5, v2}, Landroid/content/ContentValues;
-    ->put(Ljava/lang/String;Ljava/lang/Long;)V
+    invoke-virtual {v1, v5, v2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Long;)V
 
     .line 78
     .line 79
@@ -298,14 +271,12 @@
 
     .line 81
     .line 82
-    invoke-virtual {v1, v6, v2}, Landroid/content/ContentValues;
-    ->put(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v6, v2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 83
     .line 84
     .line 85
-    invoke-virtual {v1, v4, p2}, Landroid/content/ContentValues;
-    ->put(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v1, v4, p2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 86
     .line 87
@@ -313,8 +284,7 @@
     const/4 p2, 0x2
 
     .line 89
-    invoke-static {p2}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 90
     .line 91
@@ -326,14 +296,12 @@
 
     .line 94
     .line 95
-    invoke-virtual {v1, v2, p2}, Landroid/content/ContentValues;
-    ->put(Ljava/lang/String;Ljava/lang/Integer;)V
+    invoke-virtual {v1, v2, p2}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/Integer;)V
 
     .line 96
     .line 97
     .line 98
-    invoke-virtual {v0, p1, v1}, Landroid/content/ContentResolver;
-    ->insert(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;
+    invoke-virtual {v0, p1, v1}, Landroid/content/ContentResolver;->insert(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;
 
     .line 99
     .line 100

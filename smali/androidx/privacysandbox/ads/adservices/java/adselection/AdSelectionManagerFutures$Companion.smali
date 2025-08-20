@@ -19,8 +19,7 @@
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -28,8 +27,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/privacysandbox/ads/adservices/java/adselection/AdSelectionManagerFutures$Companion;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/privacysandbox/ads/adservices/java/adselection/AdSelectionManagerFutures$Companion;-><init>()V
     return-void
 .end method
 
@@ -43,19 +41,16 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    sget-object v0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionManager;
-    ->Companion:Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionManager$Companion;
+    sget-object v0, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionManager;->Companion:Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionManager$Companion;
 
     .line 7
     .line 8
-    invoke-virtual {v0, p1}, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionManager$Companion;
-    ->obtain(Landroid/content/Context;)Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionManager;
+    invoke-virtual {v0, p1}, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionManager$Companion;->obtain(Landroid/content/Context;)Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionManager;
 
     .line 9
     .line 10
@@ -71,8 +66,7 @@
 
     .line 15
     .line 16
-    invoke-direct {v0, p1}, Landroidx/privacysandbox/ads/adservices/java/adselection/AdSelectionManagerFutures$Api33Ext4JavaImpl;
-    -><init>(Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionManager;)V
+    invoke-direct {v0, p1}, Landroidx/privacysandbox/ads/adservices/java/adselection/AdSelectionManagerFutures$Api33Ext4JavaImpl;-><init>(Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionManager;)V
 return-object v0
 
     .line 20

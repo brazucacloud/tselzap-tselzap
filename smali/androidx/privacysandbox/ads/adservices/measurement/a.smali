@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/measurement/WebSourceRegistrationRequest$Builder;
-    ->setAppDestination(Landroid/net/Uri;)Landroid/adservices/measurement/WebSourceRegistrationRequest$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/measurement/WebSourceRegistrationRequest$Builder;->setAppDestination(Landroid/net/Uri;)Landroid/adservices/measurement/WebSourceRegistrationRequest$Builder;
 
     move-result-object p0
 
@@ -29,8 +28,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/measurement/WebSourceRegistrationRequest$Builder;
-    ->setVerifiedDestination(Landroid/net/Uri;)Landroid/adservices/measurement/WebSourceRegistrationRequest$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/measurement/WebSourceRegistrationRequest$Builder;->setVerifiedDestination(Landroid/net/Uri;)Landroid/adservices/measurement/WebSourceRegistrationRequest$Builder;
 
     move-result-object p0
 
@@ -50,8 +48,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/topics/Topic;
-    ->getTopicId()I
+    invoke-virtual {p0}, Landroid/adservices/topics/Topic;->getTopicId()I
 
     move-result p0
 
@@ -62,8 +59,7 @@
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/topics/Topic;
-    ->getTaxonomyVersion()J
+    invoke-virtual {p0}, Landroid/adservices/topics/Topic;->getTaxonomyVersion()J
 
     move-result-wide v0
 
@@ -74,8 +70,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/measurement/WebSourceRegistrationRequest$Builder;
-    ->setWebDestination(Landroid/net/Uri;)Landroid/adservices/measurement/WebSourceRegistrationRequest$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/measurement/WebSourceRegistrationRequest$Builder;->setWebDestination(Landroid/net/Uri;)Landroid/adservices/measurement/WebSourceRegistrationRequest$Builder;
 
     move-result-object p0
 
@@ -86,8 +81,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/measurement/WebSourceRegistrationRequest$Builder;
-    ->setInputEvent(Landroid/view/InputEvent;)Landroid/adservices/measurement/WebSourceRegistrationRequest$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/measurement/WebSourceRegistrationRequest$Builder;->setInputEvent(Landroid/view/InputEvent;)Landroid/adservices/measurement/WebSourceRegistrationRequest$Builder;
 
     move-result-object p0
 
@@ -100,8 +94,7 @@
     .line 1
     new-instance v0, Landroid/adservices/measurement/WebSourceRegistrationRequest$Builder;
 
-    invoke-direct {v0, p0, p1}, Landroid/adservices/measurement/WebSourceRegistrationRequest$Builder;
-    -><init>(Ljava/util/List;Landroid/net/Uri;)V
+    invoke-direct {v0, p0, p1}, Landroid/adservices/measurement/WebSourceRegistrationRequest$Builder;-><init>(Ljava/util/List;Landroid/net/Uri;)V
     return-object v0
 .end method
 
@@ -109,8 +102,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/measurement/WebSourceRegistrationRequest$Builder;
-    ->build()Landroid/adservices/measurement/WebSourceRegistrationRequest;
+    invoke-virtual {p0}, Landroid/adservices/measurement/WebSourceRegistrationRequest$Builder;->build()Landroid/adservices/measurement/WebSourceRegistrationRequest;
 
     move-result-object p0
 
@@ -121,8 +113,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/measurement/WebTriggerParams$Builder;
-    ->setDebugKeyAllowed(Z)Landroid/adservices/measurement/WebTriggerParams$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/measurement/WebTriggerParams$Builder;->setDebugKeyAllowed(Z)Landroid/adservices/measurement/WebTriggerParams$Builder;
 
     move-result-object p0
 
@@ -135,8 +126,7 @@
     .line 1
     new-instance v0, Landroid/adservices/measurement/WebTriggerParams$Builder;
 
-    invoke-direct {v0, p0}, Landroid/adservices/measurement/WebTriggerParams$Builder;
-    -><init>(Landroid/net/Uri;)V
+    invoke-direct {v0, p0}, Landroid/adservices/measurement/WebTriggerParams$Builder;-><init>(Landroid/net/Uri;)V
     return-object v0
 .end method
 
@@ -144,8 +134,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/measurement/WebTriggerParams$Builder;
-    ->build()Landroid/adservices/measurement/WebTriggerParams;
+    invoke-virtual {p0}, Landroid/adservices/measurement/WebTriggerParams$Builder;->build()Landroid/adservices/measurement/WebTriggerParams;
 
     move-result-object p0
 
@@ -158,8 +147,7 @@
     .line 1
     new-instance v0, Landroid/adservices/measurement/WebTriggerRegistrationRequest$Builder;
 
-    invoke-direct {v0, p0, p1}, Landroid/adservices/measurement/WebTriggerRegistrationRequest$Builder;
-    -><init>(Ljava/util/List;Landroid/net/Uri;)V
+    invoke-direct {v0, p0, p1}, Landroid/adservices/measurement/WebTriggerRegistrationRequest$Builder;-><init>(Ljava/util/List;Landroid/net/Uri;)V
     return-object v0
 .end method
 
@@ -167,8 +155,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/measurement/WebTriggerRegistrationRequest$Builder;
-    ->build()Landroid/adservices/measurement/WebTriggerRegistrationRequest;
+    invoke-virtual {p0}, Landroid/adservices/measurement/WebTriggerRegistrationRequest$Builder;->build()Landroid/adservices/measurement/WebTriggerRegistrationRequest;
 
     move-result-object p0
 
@@ -181,8 +168,7 @@
     .line 1
     new-instance v0, Landroid/adservices/topics/GetTopicsRequest$Builder;
 
-    invoke-direct {v0}, Landroid/adservices/topics/GetTopicsRequest$Builder;
-    -><init>()V
+    invoke-direct {v0}, Landroid/adservices/topics/GetTopicsRequest$Builder;-><init>()V
     return-object v0
 .end method
 
@@ -190,8 +176,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/topics/GetTopicsRequest$Builder;
-    ->setAdsSdkName(Ljava/lang/String;)Landroid/adservices/topics/GetTopicsRequest$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/topics/GetTopicsRequest$Builder;->setAdsSdkName(Ljava/lang/String;)Landroid/adservices/topics/GetTopicsRequest$Builder;
 
     move-result-object p0
 
@@ -202,8 +187,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/adservices/topics/GetTopicsRequest$Builder;
-    ->setShouldRecordObservation(Z)Landroid/adservices/topics/GetTopicsRequest$Builder;
+    invoke-virtual {p0, p1}, Landroid/adservices/topics/GetTopicsRequest$Builder;->setShouldRecordObservation(Z)Landroid/adservices/topics/GetTopicsRequest$Builder;
 
     move-result-object p0
 
@@ -214,8 +198,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/topics/GetTopicsRequest$Builder;
-    ->build()Landroid/adservices/topics/GetTopicsRequest;
+    invoke-virtual {p0}, Landroid/adservices/topics/GetTopicsRequest$Builder;->build()Landroid/adservices/topics/GetTopicsRequest;
 
     move-result-object p0
 
@@ -244,8 +227,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0}, Landroid/adservices/topics/TopicsManager;
-    ->get(Landroid/content/Context;)Landroid/adservices/topics/TopicsManager;
+    invoke-static {p0}, Landroid/adservices/topics/TopicsManager;->get(Landroid/content/Context;)Landroid/adservices/topics/TopicsManager;
 
     move-result-object p0
 
@@ -267,8 +249,7 @@
     .line 1
     const/4 v0, 0x1
 
-    invoke-virtual {p0, v0}, Landroid/app/ActivityOptions;
-    ->setPendingIntentBackgroundActivityStartMode(I)Landroid/app/ActivityOptions;
+    invoke-virtual {p0, v0}, Landroid/app/ActivityOptions;->setPendingIntentBackgroundActivityStartMode(I)Landroid/app/ActivityOptions;
 
     move-result-object p0
 
@@ -279,8 +260,7 @@
     .locals 1
 
     .line 1
-    invoke-static {}, Landroid/app/BroadcastOptions;
-    ->makeBasic()Landroid/app/BroadcastOptions;
+    invoke-static {}, Landroid/app/BroadcastOptions;->makeBasic()Landroid/app/BroadcastOptions;
 
     move-result-object v0
 
@@ -300,8 +280,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/topics/GetTopicsResponse;
-    ->getTopics()Ljava/util/List;
+    invoke-virtual {p0}, Landroid/adservices/topics/GetTopicsResponse;->getTopics()Ljava/util/List;
 
     move-result-object p0
 
@@ -321,8 +300,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/topics/TopicsManager;
-    ->getTopics(Landroid/adservices/topics/GetTopicsRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
+    invoke-virtual {p0, p1, p2, p3}, Landroid/adservices/topics/TopicsManager;->getTopics(Landroid/adservices/topics/GetTopicsRequest;Ljava/util/concurrent/Executor;Landroid/os/OutcomeReceiver;)V
 return-void
 .end method
 
@@ -330,8 +308,7 @@ return-void
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroid/adservices/topics/Topic;
-    ->getModelVersion()J
+    invoke-virtual {p0}, Landroid/adservices/topics/Topic;->getModelVersion()J
 
     move-result-wide v0
 

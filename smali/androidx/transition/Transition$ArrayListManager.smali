@@ -19,8 +19,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -47,15 +46,13 @@
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/util/ArrayList;
-    -><init>()V
+    invoke-direct {p0}, Ljava/util/ArrayList;-><init>()V
 
     .line 6
     .line 7
     .line 8
     :cond_0
-    invoke-virtual {p0, p1}, Ljava/util/ArrayList;
-    ->contains(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p1}, Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
 
     .line 9
     .line 10
@@ -67,8 +64,7 @@
 
     .line 13
     .line 14
-    invoke-virtual {p0, p1}, Ljava/util/ArrayList;
-    ->add(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
     .line 15
     .line 16
@@ -96,14 +92,12 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0, p1}, Ljava/util/ArrayList;
-    ->remove(Ljava/lang/Object;)Z
+    invoke-virtual {p0, p1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Ljava/util/ArrayList;
-    ->isEmpty()Z
+    invoke-virtual {p0}, Ljava/util/ArrayList;->isEmpty()Z
 
     .line 7
     .line 8

@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/core/app/ActivityRecreator;
-    ->queueOnStopIfNecessary(Ljava/lang/Object;ILandroid/app/Activity;)Z
+    value = Landroidx/core/app/ActivityRecreator;->queueOnStopIfNecessary(Ljava/lang/Object;ILandroid/app/Activity;)Z
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -34,18 +33,15 @@
     .end annotation
 
     .line 1
-    iput-object p1, p0, Landroidx/core/app/ActivityRecreator$3;
-    ->val$activityThread:Ljava/lang/Object;
+    iput-object p1, p0, Landroidx/core/app/ActivityRecreator$3;->val$activityThread:Ljava/lang/Object;
 
     .line 2
     .line 3
-    iput-object p2, p0, Landroidx/core/app/ActivityRecreator$3;
-    ->val$token:Ljava/lang/Object;
+    iput-object p2, p0, Landroidx/core/app/ActivityRecreator$3;->val$token:Ljava/lang/Object;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 6
     .line 7
@@ -69,8 +65,7 @@
 
     .line 4
     :try_start_0
-    sget-object v3, Landroidx/core/app/ActivityRecreator;
-    ->performStopActivity3ParamsMethod:Ljava/lang/reflect/Method;
+    sget-object v3, Landroidx/core/app/ActivityRecreator;->performStopActivity3ParamsMethod:Ljava/lang/reflect/Method;
 
     .line 5
     .line 6
@@ -78,13 +73,11 @@
 
     .line 7
     .line 8
-    iget-object v4, p0, Landroidx/core/app/ActivityRecreator$3;
-    ->val$activityThread:Ljava/lang/Object;
+    iget-object v4, p0, Landroidx/core/app/ActivityRecreator$3;->val$activityThread:Ljava/lang/Object;
 
     .line 9
     .line 10
-    iget-object v5, p0, Landroidx/core/app/ActivityRecreator$3;
-    ->val$token:Ljava/lang/Object;
+    iget-object v5, p0, Landroidx/core/app/ActivityRecreator$3;->val$token:Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -99,8 +92,7 @@
 
     .line 16
     .line 17
-    sget-object v2, Ljava/lang/Boolean;
-    ->FALSE:Ljava/lang/Boolean;
+    sget-object v2, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     .line 18
     .line 19
@@ -116,8 +108,7 @@
 
     .line 24
     .line 25
-    invoke-virtual {v3, v4, v6}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, v4, v6}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 26
     .line 27
@@ -140,18 +131,15 @@
 
     .line 33
     :cond_0
-    sget-object v3, Landroidx/core/app/ActivityRecreator;
-    ->performStopActivity2ParamsMethod:Ljava/lang/reflect/Method;
+    sget-object v3, Landroidx/core/app/ActivityRecreator;->performStopActivity2ParamsMethod:Ljava/lang/reflect/Method;
 
     .line 34
     .line 35
-    iget-object v4, p0, Landroidx/core/app/ActivityRecreator$3;
-    ->val$activityThread:Ljava/lang/Object;
+    iget-object v4, p0, Landroidx/core/app/ActivityRecreator$3;->val$activityThread:Ljava/lang/Object;
 
     .line 36
     .line 37
-    iget-object v5, p0, Landroidx/core/app/ActivityRecreator$3;
-    ->val$token:Ljava/lang/Object;
+    iget-object v5, p0, Landroidx/core/app/ActivityRecreator$3;->val$token:Ljava/lang/Object;
 
     .line 38
     .line 39
@@ -163,8 +151,7 @@
 
     .line 42
     .line 43
-    sget-object v2, Ljava/lang/Boolean;
-    ->FALSE:Ljava/lang/Boolean;
+    sget-object v2, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     .line 44
     .line 45
@@ -172,8 +159,7 @@
 
     .line 46
     .line 47
-    invoke-virtual {v3, v4, v0}, Ljava/lang/reflect/Method;
-    ->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, v4, v0}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catch Ljava/lang/RuntimeException; {:try_start_0 .. :try_end_0} :catch_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -193,8 +179,7 @@
 
     .line 54
     .line 55
-    invoke-static {v1, v2, v0}, Landroid/util/Log;
-    ->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+    invoke-static {v1, v2, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
     .line 56
     .line 57
@@ -203,8 +188,7 @@
 
     .line 59
     :goto_1
-    invoke-virtual {v0}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 60
     .line 61
@@ -220,8 +204,7 @@
 
     .line 66
     .line 67
-    invoke-virtual {v0}, Ljava/lang/Throwable;
-    ->getMessage()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     .line 68
     .line 69
@@ -233,8 +216,7 @@
 
     .line 72
     .line 73
-    invoke-virtual {v0}, Ljava/lang/Throwable;
-    ->getMessage()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     .line 74
     .line 75
@@ -246,8 +228,7 @@
 
     .line 78
     .line 79
-    invoke-virtual {v1, v2}, Ljava/lang/String;
-    ->startsWith(Ljava/lang/String;)Z
+    invoke-virtual {v1, v2}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
     .line 80
     .line 81

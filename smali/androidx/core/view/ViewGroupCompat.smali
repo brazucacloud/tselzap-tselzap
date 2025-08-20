@@ -22,8 +22,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -39,8 +38,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0}, Landroid/view/ViewGroup;
-    ->getLayoutMode()I
+    invoke-virtual {p0}, Landroid/view/ViewGroup;->getLayoutMode()I
 
     .line 2
     .line 3
@@ -58,8 +56,7 @@
     .end param
 
     .line 1
-    invoke-static {p0}, Landroidx/core/view/ViewGroupCompat$Api21Impl;
-    ->getNestedScrollAxes(Landroid/view/ViewGroup;)I
+    invoke-static {p0}, Landroidx/core/view/ViewGroupCompat$Api21Impl;->getNestedScrollAxes(Landroid/view/ViewGroup;)I
 
     .line 2
     .line 3
@@ -77,8 +74,7 @@
     .end param
 
     .line 1
-    invoke-static {p0}, Landroidx/core/view/ViewGroupCompat$Api21Impl;
-    ->isTransitionGroup(Landroid/view/ViewGroup;)Z
+    invoke-static {p0}, Landroidx/core/view/ViewGroupCompat$Api21Impl;->isTransitionGroup(Landroid/view/ViewGroup;)Z
 
     .line 2
     .line 3
@@ -94,8 +90,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/view/ViewGroup;
-    ->onRequestSendAccessibilityEvent(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)Z
+    invoke-virtual {p0, p1, p2}, Landroid/view/ViewGroup;->onRequestSendAccessibilityEvent(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)Z
 
     .line 2
     .line 3
@@ -113,8 +108,7 @@
     .end param
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;
-    ->setLayoutMode(I)V
+    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->setLayoutMode(I)V
 
     .line 2
     .line 3
@@ -128,8 +122,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;
-    ->setMotionEventSplittingEnabled(Z)V
+    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->setMotionEventSplittingEnabled(Z)V
 
     .line 2
     .line 3
@@ -145,8 +138,7 @@
     .end param
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/core/view/ViewGroupCompat$Api21Impl;
-    ->setTransitionGroup(Landroid/view/ViewGroup;Z)V
+    invoke-static {p0, p1}, Landroidx/core/view/ViewGroupCompat$Api21Impl;->setTransitionGroup(Landroid/view/ViewGroup;Z)V
 
     .line 2
     .line 3

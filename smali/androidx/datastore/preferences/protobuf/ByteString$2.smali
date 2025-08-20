@@ -31,8 +31,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -46,56 +45,47 @@
     .locals 4
 
     .line 2
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->iterator()Landroidx/datastore/preferences/protobuf/ByteString$ByteIterator;
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;->iterator()Landroidx/datastore/preferences/protobuf/ByteString$ByteIterator;
 
     move-result-object v0
 
     .line 3
-    invoke-virtual {p2}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->iterator()Landroidx/datastore/preferences/protobuf/ByteString$ByteIterator;
+    invoke-virtual {p2}, Landroidx/datastore/preferences/protobuf/ByteString;->iterator()Landroidx/datastore/preferences/protobuf/ByteString$ByteIterator;
 
     move-result-object v1
 
     .line 4
     :cond_0
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
-    invoke-interface {v1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
     move-result v2
 
     if-eqz v2, :cond_1
 
     .line 5
-    invoke-interface {v0}, Landroidx/datastore/preferences/protobuf/ByteString$ByteIterator;
-    ->nextByte()B
+    invoke-interface {v0}, Landroidx/datastore/preferences/protobuf/ByteString$ByteIterator;->nextByte()B
 
     move-result v2
 
-    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->access$200(B)I
+    invoke-static {v2}, Landroidx/datastore/preferences/protobuf/ByteString;->access$200(B)I
 
     move-result v2
 
-    invoke-interface {v1}, Landroidx/datastore/preferences/protobuf/ByteString$ByteIterator;
-    ->nextByte()B
+    invoke-interface {v1}, Landroidx/datastore/preferences/protobuf/ByteString$ByteIterator;->nextByte()B
 
     move-result v3
 
-    invoke-static {v3}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->access$200(B)I
+    invoke-static {v3}, Landroidx/datastore/preferences/protobuf/ByteString;->access$200(B)I
 
     move-result v3
 
-    invoke-static {v2, v3}, Ljava/lang/Integer;
-    ->compare(II)I
+    invoke-static {v2, v3}, Ljava/lang/Integer;->compare(II)I
 
     move-result v2
 
@@ -105,18 +95,15 @@
 
     .line 6
     :cond_1
-    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->size()I
+    invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/ByteString;->size()I
 
     move-result p1
 
-    invoke-virtual {p2}, Landroidx/datastore/preferences/protobuf/ByteString;
-    ->size()I
+    invoke-virtual {p2}, Landroidx/datastore/preferences/protobuf/ByteString;->size()I
 
     move-result p2
 
-    invoke-static {p1, p2}, Ljava/lang/Integer;
-    ->compare(II)I
+    invoke-static {p1, p2}, Ljava/lang/Integer;->compare(II)I
 
     move-result p1
 
@@ -131,8 +118,7 @@
 
     check-cast p2, Landroidx/datastore/preferences/protobuf/ByteString;
 
-    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/ByteString$2;
-    ->compare(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)I
+    invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/ByteString$2;->compare(Landroidx/datastore/preferences/protobuf/ByteString;Landroidx/datastore/preferences/protobuf/ByteString;)I
 
     move-result p1
 

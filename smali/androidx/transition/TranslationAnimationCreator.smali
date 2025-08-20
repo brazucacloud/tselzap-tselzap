@@ -16,8 +16,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -52,8 +51,7 @@
     const/4 v2, 0x0
 
     .line 4
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getTranslationX()F
+    invoke-virtual {p0}, Landroid/view/View;->getTranslationX()F
 
     .line 5
     .line 6
@@ -61,8 +59,7 @@
     move-result v3
 
     .line 8
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getTranslationY()F
+    invoke-virtual {p0}, Landroid/view/View;->getTranslationY()F
 
     .line 9
     .line 10
@@ -70,18 +67,15 @@
     move-result v4
 
     .line 12
-    iget-object v5, p1, Landroidx/transition/TransitionValues;
-    ->view:Landroid/view/View;
+    iget-object v5, p1, Landroidx/transition/TransitionValues;->view:Landroid/view/View;
 
     .line 13
     .line 14
-    sget v6, Landroidx/transition/R$id;
-    ->transition_position:I
+    sget v6, Landroidx/transition/R$id;->transition_position:I
 
     .line 15
     .line 16
-    invoke-virtual {v5, v6}, Landroid/view/View;
-    ->getTag(I)Ljava/lang/Object;
+    invoke-virtual {v5, v6}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
 
     .line 17
     .line 18
@@ -132,14 +126,12 @@
 
     .line 37
     :goto_0
-    invoke-virtual {p0, p4}, Landroid/view/View;
-    ->setTranslationX(F)V
+    invoke-virtual {p0, p4}, Landroid/view/View;->setTranslationX(F)V
 
     .line 38
     .line 39
     .line 40
-    invoke-virtual {p0, p2}, Landroid/view/View;
-    ->setTranslationY(F)V
+    invoke-virtual {p0, p2}, Landroid/view/View;->setTranslationY(F)V
 
     .line 41
     .line 42
@@ -166,8 +158,7 @@
 
     .line 53
     :cond_1
-    sget-object p3, Landroid/view/View;
-    ->TRANSLATION_X:Landroid/util/Property;
+    sget-object p3, Landroid/view/View;->TRANSLATION_X:Landroid/util/Property;
 
     .line 54
     .line 55
@@ -183,8 +174,7 @@
 
     .line 60
     .line 61
-    invoke-static {p3, v5}, Landroid/animation/PropertyValuesHolder;
-    ->ofFloat(Landroid/util/Property;[F)Landroid/animation/PropertyValuesHolder;
+    invoke-static {p3, v5}, Landroid/animation/PropertyValuesHolder;->ofFloat(Landroid/util/Property;[F)Landroid/animation/PropertyValuesHolder;
 
     .line 62
     .line 63
@@ -192,8 +182,7 @@
     move-result-object p3
 
     .line 65
-    sget-object p4, Landroid/view/View;
-    ->TRANSLATION_Y:Landroid/util/Property;
+    sget-object p4, Landroid/view/View;->TRANSLATION_Y:Landroid/util/Property;
 
     .line 66
     .line 67
@@ -209,8 +198,7 @@
 
     .line 72
     .line 73
-    invoke-static {p4, v5}, Landroid/animation/PropertyValuesHolder;
-    ->ofFloat(Landroid/util/Property;[F)Landroid/animation/PropertyValuesHolder;
+    invoke-static {p4, v5}, Landroid/animation/PropertyValuesHolder;->ofFloat(Landroid/util/Property;[F)Landroid/animation/PropertyValuesHolder;
 
     .line 74
     .line 75
@@ -230,8 +218,7 @@
 
     .line 82
     .line 83
-    invoke-static {p0, p4}, Landroid/animation/ObjectAnimator;
-    ->ofPropertyValuesHolder(Ljava/lang/Object;[Landroid/animation/PropertyValuesHolder;)Landroid/animation/ObjectAnimator;
+    invoke-static {p0, p4}, Landroid/animation/ObjectAnimator;->ofPropertyValuesHolder(Ljava/lang/Object;[Landroid/animation/PropertyValuesHolder;)Landroid/animation/ObjectAnimator;
 
     .line 84
     .line 85
@@ -243,13 +230,11 @@
 
     .line 88
     .line 89
-    iget-object p1, p1, Landroidx/transition/TransitionValues;
-    ->view:Landroid/view/View;
+    iget-object p1, p1, Landroidx/transition/TransitionValues;->view:Landroid/view/View;
 
     .line 90
     .line 91
-    invoke-direct {p3, p0, p1, v3, v4}, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;
-    -><init>(Landroid/view/View;Landroid/view/View;FF)V
+    invoke-direct {p3, p0, p1, v3, v4}, Landroidx/transition/TranslationAnimationCreator$TransitionPositionListener;-><init>(Landroid/view/View;Landroid/view/View;FF)V
 
     .line 92
     .line 93
@@ -258,20 +243,17 @@
 
     .line 95
     .line 96
-    invoke-virtual {p0, p3}, Landroidx/transition/Transition;
-    ->addListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;
+    invoke-virtual {p0, p3}, Landroidx/transition/Transition;->addListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;
 
     .line 97
     .line 98
     .line 99
-    invoke-virtual {p2, p3}, Landroid/animation/Animator;
-    ->addListener(Landroid/animation/Animator$AnimatorListener;)V
+    invoke-virtual {p2, p3}, Landroid/animation/Animator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
     .line 100
     .line 101
     .line 102
-    invoke-virtual {p2, p8}, Landroid/animation/Animator;
-    ->setInterpolator(Landroid/animation/TimeInterpolator;)V
+    invoke-virtual {p2, p8}, Landroid/animation/Animator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 return-object p2
 .end method
 

@@ -67,39 +67,32 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/fmark/tselzap/databinding/DialogHelpBotBinding;
-    ->rootView:Landroidx/core/widget/NestedScrollView;
+    iput-object p1, p0, Lcom/fmark/tselzap/databinding/DialogHelpBotBinding;->rootView:Landroidx/core/widget/NestedScrollView;
 
     .line 5
     .line 6
-    iput-object p2, p0, Lcom/fmark/tselzap/databinding/DialogHelpBotBinding;
-    ->closeButton:Lcom/google/android/material/button/MaterialButton;
+    iput-object p2, p0, Lcom/fmark/tselzap/databinding/DialogHelpBotBinding;->closeButton:Lcom/google/android/material/button/MaterialButton;
 
     .line 7
     .line 8
-    iput-object p3, p0, Lcom/fmark/tselzap/databinding/DialogHelpBotBinding;
-    ->copyRequestButton:Lcom/google/android/material/button/MaterialButton;
+    iput-object p3, p0, Lcom/fmark/tselzap/databinding/DialogHelpBotBinding;->copyRequestButton:Lcom/google/android/material/button/MaterialButton;
 
     .line 9
     .line 10
-    iput-object p4, p0, Lcom/fmark/tselzap/databinding/DialogHelpBotBinding;
-    ->copyResponseButton:Lcom/google/android/material/button/MaterialButton;
+    iput-object p4, p0, Lcom/fmark/tselzap/databinding/DialogHelpBotBinding;->copyResponseButton:Lcom/google/android/material/button/MaterialButton;
 
     .line 11
     .line 12
-    iput-object p5, p0, Lcom/fmark/tselzap/databinding/DialogHelpBotBinding;
-    ->getSend:Landroid/widget/TextView;
+    iput-object p5, p0, Lcom/fmark/tselzap/databinding/DialogHelpBotBinding;->getSend:Landroid/widget/TextView;
 
     .line 13
     .line 14
-    iput-object p6, p0, Lcom/fmark/tselzap/databinding/DialogHelpBotBinding;
-    ->sendPost:Landroid/widget/TextView;
+    iput-object p6, p0, Lcom/fmark/tselzap/databinding/DialogHelpBotBinding;->sendPost:Landroid/widget/TextView;
 
     .line 15
     .line 16
@@ -121,8 +114,7 @@
     .line 2
     .line 3
     .line 4
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 5
     .line 6
@@ -146,8 +138,7 @@
     .line 14
     .line 15
     .line 16
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 17
     .line 18
@@ -171,8 +162,7 @@
     .line 26
     .line 27
     .line 28
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 29
     .line 30
@@ -196,8 +186,7 @@
     .line 38
     .line 39
     .line 40
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 41
     .line 42
@@ -221,8 +210,7 @@
     .line 50
     .line 51
     .line 52
-    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;
-    ->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
 
     .line 53
     .line 54
@@ -252,8 +240,7 @@
 
     .line 65
     .line 66
-    invoke-direct/range {v2 .. v8}, Lcom/fmark/tselzap/databinding/DialogHelpBotBinding;
-    -><init>(Landroidx/core/widget/NestedScrollView;Lcom/google/android/material/button/MaterialButton;Lcom/google/android/material/button/MaterialButton;Lcom/google/android/material/button/MaterialButton;Landroid/widget/TextView;Landroid/widget/TextView;)V
+    invoke-direct/range {v2 .. v8}, Lcom/fmark/tselzap/databinding/DialogHelpBotBinding;-><init>(Landroidx/core/widget/NestedScrollView;Lcom/google/android/material/button/MaterialButton;Lcom/google/android/material/button/MaterialButton;Lcom/google/android/material/button/MaterialButton;Landroid/widget/TextView;Landroid/widget/TextView;)V
 
     .line 67
     .line 68
@@ -262,8 +249,7 @@
 
     .line 70
     :cond_0
-    invoke-virtual {p0}, Landroid/view/View;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
 
     .line 71
     .line 72
@@ -271,8 +257,7 @@
     move-result-object p0
 
     .line 74
-    invoke-virtual {p0, v0}, Landroid/content/res/Resources;
-    ->getResourceName(I)Ljava/lang/String;
+    invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getResourceName(I)Ljava/lang/String;
 
     .line 75
     .line 76
@@ -288,8 +273,7 @@
 
     .line 81
     .line 82
-    invoke-virtual {v1, p0}, Ljava/lang/String;
-    ->concat(Ljava/lang/String;)Ljava/lang/String;
+    invoke-virtual {v1, p0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
     .line 83
     .line 84
@@ -297,8 +281,7 @@
     move-result-object p0
 
     .line 86
-    invoke-direct {v0, p0}, Ljava/lang/NullPointerException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p0}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     .line 87
     .line 88
@@ -474,8 +457,7 @@
     const/4 v1, 0x0
 
     .line 1
-    invoke-static {p0, v0, v1}, Lcom/fmark/tselzap/databinding/DialogHelpBotBinding;
-    ->inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/fmark/tselzap/databinding/DialogHelpBotBinding;
+    invoke-static {p0, v0, v1}, Lcom/fmark/tselzap/databinding/DialogHelpBotBinding;->inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/fmark/tselzap/databinding/DialogHelpBotBinding;
 
     move-result-object p0
 
@@ -500,21 +482,18 @@
     const/4 v1, 0x0
 
     .line 2
-    invoke-virtual {p0, v0, p1, v1}, Landroid/view/LayoutInflater;
-    ->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+    invoke-virtual {p0, v0, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     move-result-object p0
 
     if-eqz p2, :cond_0
 
     .line 3
-    invoke-virtual {p1, p0}, Landroid/view/ViewGroup;
-    ->addView(Landroid/view/View;)V
+    invoke-virtual {p1, p0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     .line 4
     :cond_0
-    invoke-static {p0}, Lcom/fmark/tselzap/databinding/DialogHelpBotBinding;
-    ->bind(Landroid/view/View;)Lcom/fmark/tselzap/databinding/DialogHelpBotBinding;
+    invoke-static {p0}, Lcom/fmark/tselzap/databinding/DialogHelpBotBinding;->bind(Landroid/view/View;)Lcom/fmark/tselzap/databinding/DialogHelpBotBinding;
 
     move-result-object p0
 
@@ -529,8 +508,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Lcom/fmark/tselzap/databinding/DialogHelpBotBinding;
-    ->getRoot()Landroidx/core/widget/NestedScrollView;
+    invoke-virtual {p0}, Lcom/fmark/tselzap/databinding/DialogHelpBotBinding;->getRoot()Landroidx/core/widget/NestedScrollView;
 
     move-result-object v0
 
@@ -543,8 +521,7 @@
     .end annotation
 
     .line 2
-    iget-object v0, p0, Lcom/fmark/tselzap/databinding/DialogHelpBotBinding;
-    ->rootView:Landroidx/core/widget/NestedScrollView;
+    iget-object v0, p0, Lcom/fmark/tselzap/databinding/DialogHelpBotBinding;->rootView:Landroidx/core/widget/NestedScrollView;
 
     return-object v0
 .end method

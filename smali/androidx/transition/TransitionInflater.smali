@@ -64,8 +64,7 @@
 
     .line 13
     .line 14
-    sput-object v0, Landroidx/transition/TransitionInflater;
-    ->CONSTRUCTOR_SIGNATURE:[Ljava/lang/Class;
+    sput-object v0, Landroidx/transition/TransitionInflater;->CONSTRUCTOR_SIGNATURE:[Ljava/lang/Class;
 
     .line 15
     .line 16
@@ -73,14 +72,12 @@
 
     .line 17
     .line 18
-    invoke-direct {v0}, Landroidx/collection/ArrayMap;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/collection/ArrayMap;-><init>()V
 
     .line 19
     .line 20
     .line 21
-    sput-object v0, Landroidx/transition/TransitionInflater;
-    ->CONSTRUCTORS:Landroidx/collection/ArrayMap;    return-void
+    sput-object v0, Landroidx/transition/TransitionInflater;->CONSTRUCTORS:Landroidx/collection/ArrayMap;    return-void
 .end method
 
 .method private constructor <init>(Landroid/content/Context;)V
@@ -91,14 +88,12 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Landroidx/transition/TransitionInflater;
-    ->mContext:Landroid/content/Context;    
+    iput-object p1, p0, Landroidx/transition/TransitionInflater;->mContext:Landroid/content/Context;
     return-void
 .end method
 
@@ -130,8 +125,7 @@
 
     .line 5
     .line 6
-    invoke-interface {p1, v2, v3}, Landroid/util/AttributeSet;
-    ->getAttributeValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p1, v2, v3}, Landroid/util/AttributeSet;->getAttributeValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 7
     .line 8
@@ -144,8 +138,7 @@
     .line 11
     .line 12
     :try_start_0
-    sget-object p3, Landroidx/transition/TransitionInflater;
-    ->CONSTRUCTORS:Landroidx/collection/ArrayMap;
+    sget-object p3, Landroidx/transition/TransitionInflater;->CONSTRUCTORS:Landroidx/collection/ArrayMap;
 
     .line 13
     .line 14
@@ -155,8 +148,7 @@
 
     .line 15
     :try_start_1
-    invoke-virtual {p3, v2}, Landroidx/collection/ArrayMap;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p3, v2}, Landroidx/collection/ArrayMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 16
     .line 17
@@ -172,13 +164,11 @@
 
     .line 22
     .line 23
-    iget-object v4, p0, Landroidx/transition/TransitionInflater;
-    ->mContext:Landroid/content/Context;
+    iget-object v4, p0, Landroidx/transition/TransitionInflater;->mContext:Landroid/content/Context;
 
     .line 24
     .line 25
-    invoke-virtual {v4}, Landroid/content/Context;
-    ->getClassLoader()Ljava/lang/ClassLoader;
+    invoke-virtual {v4}, Landroid/content/Context;->getClassLoader()Ljava/lang/ClassLoader;
 
     .line 26
     .line 27
@@ -186,8 +176,7 @@
     move-result-object v4
 
     .line 29
-    invoke-static {v2, v1, v4}, Ljava/lang/Class;
-    ->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
+    invoke-static {v2, v1, v4}, Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
 
     .line 30
     .line 31
@@ -195,8 +184,7 @@
     move-result-object v4
 
     .line 33
-    invoke-virtual {v4, p2}, Ljava/lang/Class;
-    ->asSubclass(Ljava/lang/Class;)Ljava/lang/Class;
+    invoke-virtual {v4, p2}, Ljava/lang/Class;->asSubclass(Ljava/lang/Class;)Ljava/lang/Class;
 
     .line 34
     .line 35
@@ -208,13 +196,11 @@
 
     .line 38
     .line 39
-    sget-object v3, Landroidx/transition/TransitionInflater;
-    ->CONSTRUCTOR_SIGNATURE:[Ljava/lang/Class;
+    sget-object v3, Landroidx/transition/TransitionInflater;->CONSTRUCTOR_SIGNATURE:[Ljava/lang/Class;
 
     .line 40
     .line 41
-    invoke-virtual {v4, v3}, Ljava/lang/Class;
-    ->getConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+    invoke-virtual {v4, v3}, Ljava/lang/Class;->getConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
 
     .line 42
     .line 43
@@ -222,14 +208,12 @@
     move-result-object v3
 
     .line 45
-    invoke-virtual {v3, v0}, Ljava/lang/reflect/AccessibleObject;
-    ->setAccessible(Z)V
+    invoke-virtual {v3, v0}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
     .line 46
     .line 47
     .line 48
-    invoke-virtual {p3, v2, v3}, Landroidx/collection/SimpleArrayMap;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {p3, v2, v3}, Landroidx/collection/SimpleArrayMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 49
     .line 50
@@ -246,8 +230,7 @@
     .line 54
     :cond_0
     :goto_0
-    iget-object v4, p0, Landroidx/transition/TransitionInflater;
-    ->mContext:Landroid/content/Context;
+    iget-object v4, p0, Landroidx/transition/TransitionInflater;->mContext:Landroid/content/Context;
 
     .line 55
     .line 56
@@ -266,8 +249,7 @@
 
     .line 62
     .line 63
-    invoke-virtual {v3, v5}, Ljava/lang/reflect/Constructor;
-    ->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-virtual {v3, v5}, Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 64
     .line 65
@@ -308,14 +290,12 @@
 
     .line 77
     .line 78
-    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 79
     .line 80
     .line 81
-    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
     .line 82
     .line 83
@@ -324,20 +304,17 @@
 
     .line 85
     .line 86
-    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 87
     .line 88
     .line 89
-    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 90
     .line 91
     .line 92
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 93
     .line 94
@@ -345,8 +322,7 @@
     move-result-object p2
 
     .line 96
-    invoke-direct {p3, p2, p1}, Landroid/view/InflateException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p3, p2, p1}, Landroid/view/InflateException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 97
     .line 98
@@ -363,8 +339,7 @@
 
     .line 103
     .line 104
-    invoke-static {p3, p2}, LA/d;
-    ->f(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p3, p2}, LA/d;->f(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 105
     .line 106
@@ -372,8 +347,7 @@
     move-result-object p2
 
     .line 108
-    invoke-direct {p1, p2}, Landroid/view/InflateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Landroid/view/InflateException;-><init>(Ljava/lang/String;)V
 
     .line 109
     .line 110
@@ -386,8 +360,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getDepth()I
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->getDepth()I
 
     .line 2
     .line 3
@@ -426,8 +399,7 @@
     .line 16
     :cond_1
     :goto_1
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->next()I
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->next()I
 
     .line 17
     .line 18
@@ -442,8 +414,7 @@
 
     .line 22
     .line 23
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getDepth()I
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->getDepth()I
 
     .line 24
     .line 25
@@ -474,8 +445,7 @@
 
     .line 36
     :cond_3
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getName()Ljava/lang/String;
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->getName()Ljava/lang/String;
 
     .line 37
     .line 38
@@ -487,8 +457,7 @@
 
     .line 41
     .line 42
-    invoke-virtual {v5, v4}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v5, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 43
     .line 44
@@ -504,13 +473,11 @@
 
     .line 49
     .line 50
-    iget-object v4, p0, Landroidx/transition/TransitionInflater;
-    ->mContext:Landroid/content/Context;
+    iget-object v4, p0, Landroidx/transition/TransitionInflater;->mContext:Landroid/content/Context;
 
     .line 51
     .line 52
-    invoke-direct {v3, v4, p2}, Landroidx/transition/Fade;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {v3, v4, p2}, Landroidx/transition/Fade;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 53
     .line 54
@@ -524,8 +491,7 @@
 
     .line 58
     .line 59
-    invoke-virtual {v5, v4}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v5, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 60
     .line 61
@@ -541,13 +507,11 @@
 
     .line 66
     .line 67
-    iget-object v4, p0, Landroidx/transition/TransitionInflater;
-    ->mContext:Landroid/content/Context;
+    iget-object v4, p0, Landroidx/transition/TransitionInflater;->mContext:Landroid/content/Context;
 
     .line 68
     .line 69
-    invoke-direct {v3, v4, p2}, Landroidx/transition/ChangeBounds;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {v3, v4, p2}, Landroidx/transition/ChangeBounds;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 70
     .line 71
@@ -561,8 +525,7 @@
 
     .line 75
     .line 76
-    invoke-virtual {v5, v4}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v5, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 77
     .line 78
@@ -578,13 +541,11 @@
 
     .line 83
     .line 84
-    iget-object v4, p0, Landroidx/transition/TransitionInflater;
-    ->mContext:Landroid/content/Context;
+    iget-object v4, p0, Landroidx/transition/TransitionInflater;->mContext:Landroid/content/Context;
 
     .line 85
     .line 86
-    invoke-direct {v3, v4, p2}, Landroidx/transition/Slide;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {v3, v4, p2}, Landroidx/transition/Slide;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 87
     .line 88
@@ -598,8 +559,7 @@
 
     .line 92
     .line 93
-    invoke-virtual {v5, v4}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v5, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 94
     .line 95
@@ -615,13 +575,11 @@
 
     .line 100
     .line 101
-    iget-object v4, p0, Landroidx/transition/TransitionInflater;
-    ->mContext:Landroid/content/Context;
+    iget-object v4, p0, Landroidx/transition/TransitionInflater;->mContext:Landroid/content/Context;
 
     .line 102
     .line 103
-    invoke-direct {v3, v4, p2}, Landroidx/transition/Explode;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {v3, v4, p2}, Landroidx/transition/Explode;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 104
     .line 105
@@ -635,8 +593,7 @@
 
     .line 109
     .line 110
-    invoke-virtual {v5, v4}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v5, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 111
     .line 112
@@ -652,13 +609,11 @@
 
     .line 117
     .line 118
-    iget-object v4, p0, Landroidx/transition/TransitionInflater;
-    ->mContext:Landroid/content/Context;
+    iget-object v4, p0, Landroidx/transition/TransitionInflater;->mContext:Landroid/content/Context;
 
     .line 119
     .line 120
-    invoke-direct {v3, v4, p2}, Landroidx/transition/ChangeImageTransform;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {v3, v4, p2}, Landroidx/transition/ChangeImageTransform;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 121
     .line 122
@@ -672,8 +627,7 @@
 
     .line 126
     .line 127
-    invoke-virtual {v5, v4}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v5, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 128
     .line 129
@@ -689,13 +643,11 @@
 
     .line 134
     .line 135
-    iget-object v4, p0, Landroidx/transition/TransitionInflater;
-    ->mContext:Landroid/content/Context;
+    iget-object v4, p0, Landroidx/transition/TransitionInflater;->mContext:Landroid/content/Context;
 
     .line 136
     .line 137
-    invoke-direct {v3, v4, p2}, Landroidx/transition/ChangeTransform;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {v3, v4, p2}, Landroidx/transition/ChangeTransform;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 138
     .line 139
@@ -709,8 +661,7 @@
 
     .line 143
     .line 144
-    invoke-virtual {v5, v4}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v5, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 145
     .line 146
@@ -726,13 +677,11 @@
 
     .line 151
     .line 152
-    iget-object v4, p0, Landroidx/transition/TransitionInflater;
-    ->mContext:Landroid/content/Context;
+    iget-object v4, p0, Landroidx/transition/TransitionInflater;->mContext:Landroid/content/Context;
 
     .line 153
     .line 154
-    invoke-direct {v3, v4, p2}, Landroidx/transition/ChangeClipBounds;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {v3, v4, p2}, Landroidx/transition/ChangeClipBounds;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 155
     .line 156
@@ -746,8 +695,7 @@
 
     .line 160
     .line 161
-    invoke-virtual {v5, v4}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v5, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 162
     .line 163
@@ -763,13 +711,11 @@
 
     .line 168
     .line 169
-    iget-object v4, p0, Landroidx/transition/TransitionInflater;
-    ->mContext:Landroid/content/Context;
+    iget-object v4, p0, Landroidx/transition/TransitionInflater;->mContext:Landroid/content/Context;
 
     .line 170
     .line 171
-    invoke-direct {v3, v4, p2}, Landroidx/transition/AutoTransition;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {v3, v4, p2}, Landroidx/transition/AutoTransition;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 172
     .line 173
@@ -783,8 +729,7 @@
 
     .line 177
     .line 178
-    invoke-virtual {v5, v4}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v5, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 179
     .line 180
@@ -800,13 +745,11 @@
 
     .line 185
     .line 186
-    iget-object v4, p0, Landroidx/transition/TransitionInflater;
-    ->mContext:Landroid/content/Context;
+    iget-object v4, p0, Landroidx/transition/TransitionInflater;->mContext:Landroid/content/Context;
 
     .line 187
     .line 188
-    invoke-direct {v3, v4, p2}, Landroidx/transition/ChangeScroll;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {v3, v4, p2}, Landroidx/transition/ChangeScroll;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 189
     .line 190
@@ -820,8 +763,7 @@
 
     .line 194
     .line 195
-    invoke-virtual {v5, v4}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v5, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 196
     .line 197
@@ -837,13 +779,11 @@
 
     .line 202
     .line 203
-    iget-object v4, p0, Landroidx/transition/TransitionInflater;
-    ->mContext:Landroid/content/Context;
+    iget-object v4, p0, Landroidx/transition/TransitionInflater;->mContext:Landroid/content/Context;
 
     .line 204
     .line 205
-    invoke-direct {v3, v4, p2}, Landroidx/transition/TransitionSet;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {v3, v4, p2}, Landroidx/transition/TransitionSet;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 206
     .line 207
@@ -856,8 +796,7 @@
 
     .line 210
     .line 211
-    invoke-virtual {v5, v4}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v5, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 212
     .line 213
@@ -873,8 +812,7 @@
 
     .line 218
     .line 219
-    invoke-direct {p0, p2, v3, v5}, Landroidx/transition/TransitionInflater;
-    ->createCustom(Landroid/util/AttributeSet;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-direct {p0, p2, v3, v5}, Landroidx/transition/TransitionInflater;->createCustom(Landroid/util/AttributeSet;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 220
     .line 221
@@ -894,8 +832,7 @@
 
     .line 227
     .line 228
-    invoke-virtual {v5, v4}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v5, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 229
     .line 230
@@ -907,8 +844,7 @@
 
     .line 233
     .line 234
-    invoke-direct {p0, p1, p2, p3}, Landroidx/transition/TransitionInflater;
-    ->getTargetIds(Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroidx/transition/Transition;)V
+    invoke-direct {p0, p1, p2, p3}, Landroidx/transition/TransitionInflater;->getTargetIds(Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroidx/transition/Transition;)V
 
     .line 235
     .line 236
@@ -921,8 +857,7 @@
 
     .line 239
     .line 240
-    invoke-virtual {v5, v4}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v5, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 241
     .line 242
@@ -942,19 +877,16 @@
 
     .line 249
     .line 250
-    iget-object v5, p0, Landroidx/transition/TransitionInflater;
-    ->mContext:Landroid/content/Context;
+    iget-object v5, p0, Landroidx/transition/TransitionInflater;->mContext:Landroid/content/Context;
 
     .line 251
     .line 252
-    invoke-direct {v4, v5, p2}, Landroidx/transition/ArcMotion;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {v4, v5, p2}, Landroidx/transition/ArcMotion;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 253
     .line 254
     .line 255
-    invoke-virtual {p3, v4}, Landroidx/transition/Transition;
-    ->setPathMotion(Landroidx/transition/PathMotion;)V
+    invoke-virtual {p3, v4}, Landroidx/transition/Transition;->setPathMotion(Landroidx/transition/PathMotion;)V
 
     .line 256
     .line 257
@@ -971,8 +903,7 @@
 
     .line 262
     .line 263
-    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
     .line 264
     .line 265
@@ -985,8 +916,7 @@
 
     .line 268
     .line 269
-    invoke-virtual {v5, v4}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v5, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 270
     .line 271
@@ -1006,8 +936,7 @@
 
     .line 278
     .line 279
-    invoke-direct {p0, p2, v4, v5}, Landroidx/transition/TransitionInflater;
-    ->createCustom(Landroid/util/AttributeSet;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-direct {p0, p2, v4, v5}, Landroidx/transition/TransitionInflater;->createCustom(Landroid/util/AttributeSet;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
 
     .line 280
     .line 281
@@ -1019,8 +948,7 @@
 
     .line 284
     .line 285
-    invoke-virtual {p3, v4}, Landroidx/transition/Transition;
-    ->setPathMotion(Landroidx/transition/PathMotion;)V
+    invoke-virtual {p3, v4}, Landroidx/transition/Transition;->setPathMotion(Landroidx/transition/PathMotion;)V
 
     .line 286
     .line 287
@@ -1037,8 +965,7 @@
 
     .line 292
     .line 293
-    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
     .line 294
     .line 295
@@ -1051,8 +978,7 @@
 
     .line 298
     .line 299
-    invoke-virtual {v5, v4}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v5, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 300
     .line 301
@@ -1072,19 +998,16 @@
 
     .line 308
     .line 309
-    iget-object v5, p0, Landroidx/transition/TransitionInflater;
-    ->mContext:Landroid/content/Context;
+    iget-object v5, p0, Landroidx/transition/TransitionInflater;->mContext:Landroid/content/Context;
 
     .line 310
     .line 311
-    invoke-direct {v4, v5, p2}, Landroidx/transition/PatternPathMotion;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {v4, v5, p2}, Landroidx/transition/PatternPathMotion;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 312
     .line 313
     .line 314
-    invoke-virtual {p3, v4}, Landroidx/transition/Transition;
-    ->setPathMotion(Landroidx/transition/PathMotion;)V
+    invoke-virtual {p3, v4}, Landroidx/transition/Transition;->setPathMotion(Landroidx/transition/PathMotion;)V
 
     .line 315
     .line 316
@@ -1094,8 +1017,7 @@
 
     .line 318
     .line 319
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->isEmptyElementTag()Z
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->isEmptyElementTag()Z
 
     .line 320
     .line 321
@@ -1107,8 +1029,7 @@
 
     .line 324
     .line 325
-    invoke-direct {p0, p1, p2, v3}, Landroidx/transition/TransitionInflater;
-    ->createTransitionFromXml(Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroidx/transition/Transition;)Landroidx/transition/Transition;
+    invoke-direct {p0, p1, p2, v3}, Landroidx/transition/TransitionInflater;->createTransitionFromXml(Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroidx/transition/Transition;)Landroidx/transition/Transition;
 
     .line 326
     .line 327
@@ -1118,8 +1039,7 @@
 
     .line 329
     .line 330
-    invoke-virtual {v1, v3}, Landroidx/transition/TransitionSet;
-    ->addTransition(Landroidx/transition/Transition;)Landroidx/transition/TransitionSet;
+    invoke-virtual {v1, v3}, Landroidx/transition/TransitionSet;->addTransition(Landroidx/transition/Transition;)Landroidx/transition/TransitionSet;
 
     .line 331
     .line 332
@@ -1146,8 +1066,7 @@
 
     .line 342
     .line 343
-    invoke-direct {p1, p2}, Landroid/view/InflateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Landroid/view/InflateException;-><init>(Ljava/lang/String;)V
 
     .line 344
     .line 345
@@ -1164,8 +1083,7 @@
 
     .line 350
     .line 351
-    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
     .line 352
     .line 353
@@ -1186,14 +1104,12 @@
 
     .line 360
     .line 361
-    invoke-direct {p3, v0}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p3, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 362
     .line 363
     .line 364
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getName()Ljava/lang/String;
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->getName()Ljava/lang/String;
 
     .line 365
     .line 366
@@ -1201,14 +1117,12 @@
     move-result-object p1
 
     .line 368
-    invoke-virtual {p3, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 369
     .line 370
     .line 371
-    invoke-virtual {p3}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 372
     .line 373
@@ -1216,8 +1130,7 @@
     move-result-object p1
 
     .line 375
-    invoke-direct {p2, p1}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
     .line 376
     .line 377
@@ -1239,8 +1152,7 @@
     .end annotation
 
     .line 1
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getDepth()I
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->getDepth()I
 
     .line 2
     .line 3
@@ -1252,8 +1164,7 @@
 
     .line 6
     :goto_0
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->next()I
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->next()I
 
     .line 7
     .line 8
@@ -1268,8 +1179,7 @@
 
     .line 12
     .line 13
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getDepth()I
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->getDepth()I
 
     .line 14
     .line 15
@@ -1300,8 +1210,7 @@
 
     .line 26
     :cond_1
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getName()Ljava/lang/String;
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->getName()Ljava/lang/String;
 
     .line 27
     .line 28
@@ -1313,8 +1222,7 @@
 
     .line 31
     .line 32
-    invoke-virtual {v2, v3}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 33
     .line 34
@@ -1330,8 +1238,7 @@
 
     .line 39
     .line 40
-    invoke-direct {v1}, Landroidx/transition/TransitionManager;
-    -><init>()V
+    invoke-direct {v1}, Landroidx/transition/TransitionManager;-><init>()V
 
     .line 41
     .line 42
@@ -1344,8 +1251,7 @@
 
     .line 45
     .line 46
-    invoke-virtual {v2, v3}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 47
     .line 48
@@ -1361,8 +1267,7 @@
 
     .line 53
     .line 54
-    invoke-direct {p0, p2, p1, p3, v1}, Landroidx/transition/TransitionInflater;
-    ->loadTransition(Landroid/util/AttributeSet;Lorg/xmlpull/v1/XmlPullParser;Landroid/view/ViewGroup;Landroidx/transition/TransitionManager;)V
+    invoke-direct {p0, p2, p1, p3, v1}, Landroidx/transition/TransitionInflater;->loadTransition(Landroid/util/AttributeSet;Lorg/xmlpull/v1/XmlPullParser;Landroid/view/ViewGroup;Landroidx/transition/TransitionManager;)V
 
     .line 55
     .line 56
@@ -1383,14 +1288,12 @@
 
     .line 63
     .line 64
-    invoke-direct {p3, v0}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p3, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 65
     .line 66
     .line 67
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getName()Ljava/lang/String;
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->getName()Ljava/lang/String;
 
     .line 68
     .line 69
@@ -1398,14 +1301,12 @@
     move-result-object p1
 
     .line 71
-    invoke-virtual {p3, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 72
     .line 73
     .line 74
-    invoke-virtual {p3}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 75
     .line 76
@@ -1413,8 +1314,7 @@
     move-result-object p1
 
     .line 78
-    invoke-direct {p2, p1}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
     .line 79
     .line 80
@@ -1440,8 +1340,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0}, Landroidx/transition/TransitionInflater;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p0}, Landroidx/transition/TransitionInflater;-><init>(Landroid/content/Context;)V
 return-object v0
 .end method
 
@@ -1453,8 +1352,7 @@ return-object v0
     .end param
 
     .line 1
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getDepth()I
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->getDepth()I
 
     .line 2
     .line 3
@@ -1463,8 +1361,7 @@ return-object v0
 
     .line 5
     :goto_0
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->next()I
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->next()I
 
     .line 6
     .line 7
@@ -1479,8 +1376,7 @@ return-object v0
 
     .line 11
     .line 12
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getDepth()I
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->getDepth()I
 
     .line 13
     .line 14
@@ -1511,8 +1407,7 @@ return-object v0
 
     .line 25
     :cond_1
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getName()Ljava/lang/String;
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->getName()Ljava/lang/String;
 
     .line 26
     .line 27
@@ -1524,8 +1419,7 @@ return-object v0
 
     .line 30
     .line 31
-    invoke-virtual {v1, v5}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v1, v5}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 32
     .line 33
@@ -1537,18 +1431,15 @@ return-object v0
 
     .line 36
     .line 37
-    iget-object v1, p0, Landroidx/transition/TransitionInflater;
-    ->mContext:Landroid/content/Context;
+    iget-object v1, p0, Landroidx/transition/TransitionInflater;->mContext:Landroid/content/Context;
 
     .line 38
     .line 39
-    sget-object v5, Landroidx/transition/Styleable;
-    ->TRANSITION_TARGET:[I
+    sget-object v5, Landroidx/transition/Styleable;->TRANSITION_TARGET:[I
 
     .line 40
     .line 41
-    invoke-virtual {v1, p2, v5}, Landroid/content/Context;
-    ->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
+    invoke-virtual {v1, p2, v5}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     .line 42
     .line 43
@@ -1563,8 +1454,7 @@ return-object v0
     const/4 v6, 0x0
 
     .line 48
-    invoke-static {v1, p1, v5, v3, v6}, Landroidx/core/content/res/TypedArrayUtils;
-    ->getNamedResourceId(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;II)I
+    invoke-static {v1, p1, v5, v3, v6}, Landroidx/core/content/res/TypedArrayUtils;->getNamedResourceId(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;II)I
 
     .line 49
     .line 50
@@ -1576,8 +1466,7 @@ return-object v0
 
     .line 53
     .line 54
-    invoke-virtual {p3, v5}, Landroidx/transition/Transition;
-    ->addTarget(I)Landroidx/transition/Transition;
+    invoke-virtual {p3, v5}, Landroidx/transition/Transition;->addTarget(I)Landroidx/transition/Transition;
 
     .line 55
     .line 56
@@ -1590,8 +1479,7 @@ return-object v0
 
     .line 59
     .line 60
-    invoke-static {v1, p1, v5, v4, v6}, Landroidx/core/content/res/TypedArrayUtils;
-    ->getNamedResourceId(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;II)I
+    invoke-static {v1, p1, v5, v4, v6}, Landroidx/core/content/res/TypedArrayUtils;->getNamedResourceId(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;II)I
 
     .line 61
     .line 62
@@ -1603,8 +1491,7 @@ return-object v0
 
     .line 65
     .line 66
-    invoke-virtual {p3, v4, v3}, Landroidx/transition/Transition;
-    ->excludeTarget(IZ)Landroidx/transition/Transition;
+    invoke-virtual {p3, v4, v3}, Landroidx/transition/Transition;->excludeTarget(IZ)Landroidx/transition/Transition;
 
     .line 67
     .line 68
@@ -1620,8 +1507,7 @@ return-object v0
     const/4 v5, 0x4
 
     .line 73
-    invoke-static {v1, p1, v4, v5}, Landroidx/core/content/res/TypedArrayUtils;
-    ->getNamedString(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, p1, v4, v5}, Landroidx/core/content/res/TypedArrayUtils;->getNamedString(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;I)Ljava/lang/String;
 
     .line 74
     .line 75
@@ -1633,8 +1519,7 @@ return-object v0
 
     .line 78
     .line 79
-    invoke-virtual {p3, v4}, Landroidx/transition/Transition;
-    ->addTarget(Ljava/lang/String;)Landroidx/transition/Transition;
+    invoke-virtual {p3, v4}, Landroidx/transition/Transition;->addTarget(Ljava/lang/String;)Landroidx/transition/Transition;
 
     .line 80
     .line 81
@@ -1650,8 +1535,7 @@ return-object v0
     const/4 v5, 0x5
 
     .line 86
-    invoke-static {v1, p1, v4, v5}, Landroidx/core/content/res/TypedArrayUtils;
-    ->getNamedString(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, p1, v4, v5}, Landroidx/core/content/res/TypedArrayUtils;->getNamedString(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;I)Ljava/lang/String;
 
     .line 87
     .line 88
@@ -1663,8 +1547,7 @@ return-object v0
 
     .line 91
     .line 92
-    invoke-virtual {p3, v4, v3}, Landroidx/transition/Transition;
-    ->excludeTarget(Ljava/lang/String;Z)Landroidx/transition/Transition;
+    invoke-virtual {p3, v4, v3}, Landroidx/transition/Transition;->excludeTarget(Ljava/lang/String;Z)Landroidx/transition/Transition;
 
     .line 93
     .line 94
@@ -1677,8 +1560,7 @@ return-object v0
 
     .line 97
     .line 98
-    invoke-static {v1, p1, v4, v2}, Landroidx/core/content/res/TypedArrayUtils;
-    ->getNamedString(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, p1, v4, v2}, Landroidx/core/content/res/TypedArrayUtils;->getNamedString(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;I)Ljava/lang/String;
 
     .line 99
     .line 100
@@ -1691,8 +1573,7 @@ return-object v0
     .line 103
     .line 104
     :try_start_0
-    invoke-static {v2}, Ljava/lang/Class;
-    ->forName(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v2}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 105
     .line 106
@@ -1700,8 +1581,7 @@ return-object v0
     move-result-object v4
 
     .line 108
-    invoke-virtual {p3, v4, v3}, Landroidx/transition/Transition;
-    ->excludeTarget(Ljava/lang/Class;Z)Landroidx/transition/Transition;
+    invoke-virtual {p3, v4, v3}, Landroidx/transition/Transition;->excludeTarget(Ljava/lang/Class;Z)Landroidx/transition/Transition;
 
     .line 109
     .line 110
@@ -1721,8 +1601,7 @@ return-object v0
 
     .line 115
     .line 116
-    invoke-static {v1, p1, v3, v6}, Landroidx/core/content/res/TypedArrayUtils;
-    ->getNamedString(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;I)Ljava/lang/String;
+    invoke-static {v1, p1, v3, v6}, Landroidx/core/content/res/TypedArrayUtils;->getNamedString(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;I)Ljava/lang/String;
 
     .line 117
     .line 118
@@ -1734,8 +1613,7 @@ return-object v0
 
     .line 121
     .line 122
-    invoke-static {v2}, Ljava/lang/Class;
-    ->forName(Ljava/lang/String;)Ljava/lang/Class;
+    invoke-static {v2}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
     .line 123
     .line 124
@@ -1743,8 +1621,7 @@ return-object v0
     move-result-object v3
 
     .line 126
-    invoke-virtual {p3, v3}, Landroidx/transition/Transition;
-    ->addTarget(Ljava/lang/Class;)Landroidx/transition/Transition;
+    invoke-virtual {p3, v3}, Landroidx/transition/Transition;->addTarget(Ljava/lang/Class;)Landroidx/transition/Transition;
     :try_end_0
     .catch Ljava/lang/ClassNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1753,8 +1630,7 @@ return-object v0
     .line 129
     :cond_7
     :goto_1
-    invoke-virtual {v1}, Landroid/content/res/TypedArray;
-    ->recycle()V
+    invoke-virtual {v1}, Landroid/content/res/TypedArray;->recycle()V
 
     .line 130
     .line 131
@@ -1763,8 +1639,7 @@ return-object v0
 
     .line 133
     :goto_2
-    invoke-virtual {v1}, Landroid/content/res/TypedArray;
-    ->recycle()V
+    invoke-virtual {v1}, Landroid/content/res/TypedArray;->recycle()V
 
     .line 134
     .line 135
@@ -1777,8 +1652,7 @@ return-object v0
 
     .line 139
     .line 140
-    invoke-static {p3, v2}, LA/d;
-    ->w(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p3, v2}, LA/d;->w(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     .line 141
     .line 142
@@ -1786,8 +1660,7 @@ return-object v0
     move-result-object p3
 
     .line 144
-    invoke-direct {p2, p3, p1}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {p2, p3, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 145
     .line 146
@@ -1808,14 +1681,12 @@ return-object v0
 
     .line 153
     .line 154
-    invoke-direct {p3, v0}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p3, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 155
     .line 156
     .line 157
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getName()Ljava/lang/String;
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->getName()Ljava/lang/String;
 
     .line 158
     .line 159
@@ -1823,14 +1694,12 @@ return-object v0
     move-result-object p1
 
     .line 161
-    invoke-virtual {p3, p1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p3, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 162
     .line 163
     .line 164
-    invoke-virtual {p3}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 165
     .line 166
@@ -1838,8 +1707,7 @@ return-object v0
     move-result-object p1
 
     .line 168
-    invoke-direct {p2, p1}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p2, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
     .line 169
     .line 170
@@ -1859,18 +1727,15 @@ return-object v0
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/transition/TransitionInflater;
-    ->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/transition/TransitionInflater;->mContext:Landroid/content/Context;
 
     .line 2
     .line 3
-    sget-object v1, Landroidx/transition/Styleable;
-    ->TRANSITION_MANAGER:[I
+    sget-object v1, Landroidx/transition/Styleable;->TRANSITION_MANAGER:[I
 
     .line 4
     .line 5
-    invoke-virtual {v0, p1, v1}, Landroid/content/Context;
-    ->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
+    invoke-virtual {v0, p1, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     .line 6
     .line 7
@@ -1888,8 +1753,7 @@ return-object v0
     const/4 v2, -0x1
 
     .line 13
-    invoke-static {p1, p2, v0, v1, v2}, Landroidx/core/content/res/TypedArrayUtils;
-    ->getNamedResourceId(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;II)I
+    invoke-static {p1, p2, v0, v1, v2}, Landroidx/core/content/res/TypedArrayUtils;->getNamedResourceId(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;II)I
 
     .line 14
     .line 15
@@ -1904,8 +1768,7 @@ return-object v0
     const/4 v3, 0x0
 
     .line 20
-    invoke-static {p1, p2, v1, v3, v2}, Landroidx/core/content/res/TypedArrayUtils;
-    ->getNamedResourceId(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;II)I
+    invoke-static {p1, p2, v1, v3, v2}, Landroidx/core/content/res/TypedArrayUtils;->getNamedResourceId(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;II)I
 
     .line 21
     .line 22
@@ -1927,13 +1790,11 @@ return-object v0
 
     .line 29
     :cond_0
-    iget-object v4, p0, Landroidx/transition/TransitionInflater;
-    ->mContext:Landroid/content/Context;
+    iget-object v4, p0, Landroidx/transition/TransitionInflater;->mContext:Landroid/content/Context;
 
     .line 30
     .line 31
-    invoke-static {p3, v1, v4}, Landroidx/transition/Scene;
-    ->getSceneForLayout(Landroid/view/ViewGroup;ILandroid/content/Context;)Landroidx/transition/Scene;
+    invoke-static {p3, v1, v4}, Landroidx/transition/Scene;->getSceneForLayout(Landroid/view/ViewGroup;ILandroid/content/Context;)Landroidx/transition/Scene;
 
     .line 32
     .line 33
@@ -1949,8 +1810,7 @@ return-object v0
     const/4 v5, 0x1
 
     .line 38
-    invoke-static {p1, p2, v4, v5, v2}, Landroidx/core/content/res/TypedArrayUtils;
-    ->getNamedResourceId(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;II)I
+    invoke-static {p1, p2, v4, v5, v2}, Landroidx/core/content/res/TypedArrayUtils;->getNamedResourceId(Landroid/content/res/TypedArray;Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;II)I
 
     .line 39
     .line 40
@@ -1966,13 +1826,11 @@ return-object v0
 
     .line 45
     :cond_1
-    iget-object v2, p0, Landroidx/transition/TransitionInflater;
-    ->mContext:Landroid/content/Context;
+    iget-object v2, p0, Landroidx/transition/TransitionInflater;->mContext:Landroid/content/Context;
 
     .line 46
     .line 47
-    invoke-static {p3, p2, v2}, Landroidx/transition/Scene;
-    ->getSceneForLayout(Landroid/view/ViewGroup;ILandroid/content/Context;)Landroidx/transition/Scene;
+    invoke-static {p3, p2, v2}, Landroidx/transition/Scene;->getSceneForLayout(Landroid/view/ViewGroup;ILandroid/content/Context;)Landroidx/transition/Scene;
 
     .line 48
     .line 49
@@ -1985,8 +1843,7 @@ return-object v0
 
     .line 52
     .line 53
-    invoke-virtual {p0, v0}, Landroidx/transition/TransitionInflater;
-    ->inflateTransition(I)Landroidx/transition/Transition;
+    invoke-virtual {p0, v0}, Landroidx/transition/TransitionInflater;->inflateTransition(I)Landroidx/transition/Transition;
 
     .line 54
     .line 55
@@ -2006,8 +1863,7 @@ return-object v0
 
     .line 62
     .line 63
-    invoke-virtual {p4, v3, p2}, Landroidx/transition/TransitionManager;
-    ->setTransition(Landroidx/transition/Scene;Landroidx/transition/Transition;)V
+    invoke-virtual {p4, v3, p2}, Landroidx/transition/TransitionManager;->setTransition(Landroidx/transition/Scene;Landroidx/transition/Transition;)V
 
     .line 64
     .line 65
@@ -2016,8 +1872,7 @@ return-object v0
 
     .line 67
     :cond_2
-    invoke-virtual {p4, v1, v3, p2}, Landroidx/transition/TransitionManager;
-    ->setTransition(Landroidx/transition/Scene;Landroidx/transition/Scene;Landroidx/transition/Transition;)V
+    invoke-virtual {p4, v1, v3, p2}, Landroidx/transition/TransitionManager;->setTransition(Landroidx/transition/Scene;Landroidx/transition/Scene;Landroidx/transition/Transition;)V
 
     .line 68
     .line 69
@@ -2034,8 +1889,7 @@ return-object v0
 
     .line 74
     .line 75
-    invoke-static {v0, p2}, LA/d;
-    ->c(ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, p2}, LA/d;->c(ILjava/lang/String;)Ljava/lang/String;
 
     .line 76
     .line 77
@@ -2043,8 +1897,7 @@ return-object v0
     move-result-object p2
 
     .line 79
-    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, p2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
     .line 80
     .line 81
@@ -2054,8 +1907,7 @@ return-object v0
     .line 83
     :cond_4
     :goto_2
-    invoke-virtual {p1}, Landroid/content/res/TypedArray;
-    ->recycle()V
+    invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
     return-void
 .end method
 
@@ -2067,13 +1919,11 @@ return-object v0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/transition/TransitionInflater;
-    ->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/transition/TransitionInflater;->mContext:Landroid/content/Context;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/content/Context;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     .line 4
     .line 5
@@ -2081,8 +1931,7 @@ return-object v0
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0, p1}, Landroid/content/res/Resources;
-    ->getXml(I)Landroid/content/res/XmlResourceParser;
+    invoke-virtual {v0, p1}, Landroid/content/res/Resources;->getXml(I)Landroid/content/res/XmlResourceParser;
 
     .line 8
     .line 9
@@ -2091,8 +1940,7 @@ return-object v0
 
     .line 11
     :try_start_0
-    invoke-static {p1}, Landroid/util/Xml;
-    ->asAttributeSet(Lorg/xmlpull/v1/XmlPullParser;)Landroid/util/AttributeSet;
+    invoke-static {p1}, Landroid/util/Xml;->asAttributeSet(Lorg/xmlpull/v1/XmlPullParser;)Landroid/util/AttributeSet;
 
     .line 12
     .line 13
@@ -2103,8 +1951,7 @@ return-object v0
     const/4 v1, 0x0
 
     .line 16
-    invoke-direct {p0, p1, v0, v1}, Landroidx/transition/TransitionInflater;
-    ->createTransitionFromXml(Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroidx/transition/Transition;)Landroidx/transition/Transition;
+    invoke-direct {p0, p1, v0, v1}, Landroidx/transition/TransitionInflater;->createTransitionFromXml(Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroidx/transition/Transition;)Landroidx/transition/Transition;
 
     .line 17
     .line 18
@@ -2116,8 +1963,7 @@ return-object v0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 20
-    invoke-interface {p1}, Landroid/content/res/XmlResourceParser;
-    ->close()V
+    invoke-interface {p1}, Landroid/content/res/XmlResourceParser;->close()V
     return-object v0
 
     .line 24
@@ -2152,14 +1998,12 @@ return-object v0
 
     .line 33
     .line 34
-    invoke-direct {v2}, Ljava/lang/StringBuilder;
-    -><init>()V
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 35
     .line 36
     .line 37
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getPositionDescription()Ljava/lang/String;
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->getPositionDescription()Ljava/lang/String;
 
     .line 38
     .line 39
@@ -2167,8 +2011,7 @@ return-object v0
     move-result-object v3
 
     .line 41
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 42
     .line 43
@@ -2177,14 +2020,12 @@ return-object v0
 
     .line 45
     .line 46
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 47
     .line 48
     .line 49
-    invoke-virtual {v0}, Ljava/lang/Throwable;
-    ->getMessage()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     .line 50
     .line 51
@@ -2192,14 +2033,12 @@ return-object v0
     move-result-object v3
 
     .line 53
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 54
     .line 55
     .line 56
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 57
     .line 58
@@ -2207,8 +2046,7 @@ return-object v0
     move-result-object v2
 
     .line 60
-    invoke-direct {v1, v2, v0}, Landroid/view/InflateException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v1, v2, v0}, Landroid/view/InflateException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 61
     .line 62
@@ -2221,8 +2059,7 @@ return-object v0
 
     .line 65
     .line 66
-    invoke-virtual {v0}, Ljava/lang/Throwable;
-    ->getMessage()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     .line 67
     .line 68
@@ -2230,8 +2067,7 @@ return-object v0
     move-result-object v2
 
     .line 70
-    invoke-direct {v1, v2, v0}, Landroid/view/InflateException;
-    -><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    invoke-direct {v1, v2, v0}, Landroid/view/InflateException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
     .line 71
     .line 72
@@ -2242,8 +2078,7 @@ return-object v0
 
     .line 74
     :goto_2
-    invoke-interface {p1}, Landroid/content/res/XmlResourceParser;
-    ->close()V
+    invoke-interface {p1}, Landroid/content/res/XmlResourceParser;->close()V
 
     .line 75
     .line 76
@@ -2260,13 +2095,11 @@ return-object v0
     .end annotation
 
     .line 1
-    iget-object v0, p0, Landroidx/transition/TransitionInflater;
-    ->mContext:Landroid/content/Context;
+    iget-object v0, p0, Landroidx/transition/TransitionInflater;->mContext:Landroid/content/Context;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/content/Context;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     .line 4
     .line 5
@@ -2274,8 +2107,7 @@ return-object v0
     move-result-object v0
 
     .line 7
-    invoke-virtual {v0, p1}, Landroid/content/res/Resources;
-    ->getXml(I)Landroid/content/res/XmlResourceParser;
+    invoke-virtual {v0, p1}, Landroid/content/res/Resources;->getXml(I)Landroid/content/res/XmlResourceParser;
 
     .line 8
     .line 9
@@ -2284,8 +2116,7 @@ return-object v0
 
     .line 11
     :try_start_0
-    invoke-static {p1}, Landroid/util/Xml;
-    ->asAttributeSet(Lorg/xmlpull/v1/XmlPullParser;)Landroid/util/AttributeSet;
+    invoke-static {p1}, Landroid/util/Xml;->asAttributeSet(Lorg/xmlpull/v1/XmlPullParser;)Landroid/util/AttributeSet;
 
     .line 12
     .line 13
@@ -2293,8 +2124,7 @@ return-object v0
     move-result-object v0
 
     .line 15
-    invoke-direct {p0, p1, v0, p2}, Landroidx/transition/TransitionInflater;
-    ->createTransitionManagerFromXml(Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroid/view/ViewGroup;)Landroidx/transition/TransitionManager;
+    invoke-direct {p0, p1, v0, p2}, Landroidx/transition/TransitionInflater;->createTransitionManagerFromXml(Lorg/xmlpull/v1/XmlPullParser;Landroid/util/AttributeSet;Landroid/view/ViewGroup;)Landroidx/transition/TransitionManager;
 
     .line 16
     .line 17
@@ -2306,8 +2136,7 @@ return-object v0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     .line 19
-    invoke-interface {p1}, Landroid/content/res/XmlResourceParser;
-    ->close()V
+    invoke-interface {p1}, Landroid/content/res/XmlResourceParser;->close()V
 return-object p2
 
     .line 23
@@ -2342,14 +2171,12 @@ return-object p2
 
     .line 32
     .line 33
-    invoke-direct {v1}, Ljava/lang/StringBuilder;
-    -><init>()V
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 34
     .line 35
     .line 36
-    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getPositionDescription()Ljava/lang/String;
+    invoke-interface {p1}, Lorg/xmlpull/v1/XmlPullParser;->getPositionDescription()Ljava/lang/String;
 
     .line 37
     .line 38
@@ -2357,8 +2184,7 @@ return-object p2
     move-result-object v2
 
     .line 40
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 41
     .line 42
@@ -2367,14 +2193,12 @@ return-object p2
 
     .line 44
     .line 45
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 46
     .line 47
     .line 48
-    invoke-virtual {p2}, Ljava/lang/Throwable;
-    ->getMessage()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     .line 49
     .line 50
@@ -2382,14 +2206,12 @@ return-object p2
     move-result-object v2
 
     .line 52
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 53
     .line 54
     .line 55
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 56
     .line 57
@@ -2397,14 +2219,12 @@ return-object p2
     move-result-object v1
 
     .line 59
-    invoke-direct {v0, v1}, Landroid/view/InflateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Landroid/view/InflateException;-><init>(Ljava/lang/String;)V
 
     .line 60
     .line 61
     .line 62
-    invoke-virtual {v0, p2}, Ljava/lang/Throwable;
-    ->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
+    invoke-virtual {v0, p2}, Ljava/lang/Throwable;->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
 
     .line 63
     .line 64
@@ -2417,8 +2237,7 @@ return-object p2
 
     .line 67
     .line 68
-    invoke-virtual {p2}, Ljava/lang/Throwable;
-    ->getMessage()Ljava/lang/String;
+    invoke-virtual {p2}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     .line 69
     .line 70
@@ -2426,14 +2245,12 @@ return-object p2
     move-result-object v1
 
     .line 72
-    invoke-direct {v0, v1}, Landroid/view/InflateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Landroid/view/InflateException;-><init>(Ljava/lang/String;)V
 
     .line 73
     .line 74
     .line 75
-    invoke-virtual {v0, p2}, Ljava/lang/Throwable;
-    ->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
+    invoke-virtual {v0, p2}, Ljava/lang/Throwable;->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
 
     .line 76
     .line 77
@@ -2444,8 +2261,7 @@ return-object p2
 
     .line 79
     :goto_2
-    invoke-interface {p1}, Landroid/content/res/XmlResourceParser;
-    ->close()V
+    invoke-interface {p1}, Landroid/content/res/XmlResourceParser;->close()V
 
     .line 80
     .line 81

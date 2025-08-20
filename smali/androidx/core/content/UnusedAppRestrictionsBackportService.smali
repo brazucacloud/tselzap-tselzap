@@ -22,8 +22,7 @@
     .locals 1
 
     .line 1
-    invoke-direct {p0}, Landroid/app/Service;
-    -><init>()V
+    invoke-direct {p0}, Landroid/app/Service;-><init>()V
 
     .line 2
     .line 3
@@ -32,14 +31,12 @@
 
     .line 5
     .line 6
-    invoke-direct {v0, p0}, Landroidx/core/content/UnusedAppRestrictionsBackportService$1;
-    -><init>(Landroidx/core/content/UnusedAppRestrictionsBackportService;)V
+    invoke-direct {v0, p0}, Landroidx/core/content/UnusedAppRestrictionsBackportService$1;-><init>(Landroidx/core/content/UnusedAppRestrictionsBackportService;)V
 
     .line 7
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/core/content/UnusedAppRestrictionsBackportService;
-    ->mBinder:Landroidx/core/app/unusedapprestrictions/IUnusedAppRestrictionsBackportService$Stub;
+    iput-object v0, p0, Landroidx/core/content/UnusedAppRestrictionsBackportService;->mBinder:Landroidx/core/app/unusedapprestrictions/IUnusedAppRestrictionsBackportService$Stub;
 
     .line 10
     .line 11
@@ -65,8 +62,7 @@
     .end annotation
 
     .line 1
-    iget-object p1, p0, Landroidx/core/content/UnusedAppRestrictionsBackportService;
-    ->mBinder:Landroidx/core/app/unusedapprestrictions/IUnusedAppRestrictionsBackportService$Stub;
+    iget-object p1, p0, Landroidx/core/content/UnusedAppRestrictionsBackportService;->mBinder:Landroidx/core/app/unusedapprestrictions/IUnusedAppRestrictionsBackportService$Stub;
 
     .line 2
     .line 3

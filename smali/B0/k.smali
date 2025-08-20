@@ -20,22 +20,19 @@
 
     .line 2
     .line 3
-    sget-object v1, LB0/r;
-    ->f:LB0/r;
+    sget-object v1, LB0/r;->f:LB0/r;
 
     .line 4
     .line 5
     const/4 v2, 0x0
 
     .line 6
-    invoke-direct {v0, v1, v2}, LB0/i;
-    -><init>(LB0/k;I)V
+    invoke-direct {v0, v1, v2}, LB0/i;-><init>(LB0/k;I)V
 
     .line 7
     .line 8
     .line 9
-    sput-object v0, LB0/k;
-    ->c:LB0/i;
+    sput-object v0, LB0/k;->c:LB0/i;
 
     .line 10
     .line 11
@@ -50,8 +47,7 @@
 
     .line 2
     .line 3
-    sget-object p0, LB0/r;
-    ->f:LB0/r;
+    sget-object p0, LB0/r;->f:LB0/r;
 
     .line 4
     .line 5
@@ -63,8 +59,7 @@
 
     .line 7
     .line 8
-    invoke-direct {v0, p1, p0}, LB0/r;
-    -><init>([Ljava/lang/Object;I)V
+    invoke-direct {v0, p1, p0}, LB0/r;-><init>([Ljava/lang/Object;I)V
 
     .line 9
     .line 10
@@ -78,8 +73,7 @@
     .locals 3
 
     .line 1
-    invoke-virtual {p0}, Ljava/util/AbstractCollection;
-    ->size()I
+    invoke-virtual {p0}, Ljava/util/AbstractCollection;->size()I
 
     .line 2
     .line 3
@@ -95,8 +89,7 @@
 
     .line 7
     .line 8
-    invoke-interface {p0, v1}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -127,8 +120,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     .line 4
     .line 5
@@ -189,8 +181,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     .line 4
     .line 5
@@ -247,8 +238,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, LB0/k;
-    ->indexOf(Ljava/lang/Object;)I
+    invoke-virtual {p0, p1}, LB0/k;->indexOf(Ljava/lang/Object;)I
 
     .line 2
     .line 3
@@ -305,8 +295,7 @@
 
     .line 12
     .line 13
-    invoke-interface {p0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {p0}, Ljava/util/List;->size()I
 
     .line 14
     .line 15
@@ -314,8 +303,7 @@
     move-result v1
 
     .line 17
-    invoke-interface {p1}, Ljava/util/List;
-    ->size()I
+    invoke-interface {p1}, Ljava/util/List;->size()I
 
     .line 18
     .line 19
@@ -347,8 +335,7 @@
 
     .line 30
     .line 31
-    invoke-interface {p0, v3}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {p0, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 32
     .line 33
@@ -356,8 +343,7 @@
     move-result-object v4
 
     .line 35
-    invoke-interface {p1, v3}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 36
     .line 37
@@ -365,8 +351,7 @@
     move-result-object v5
 
     .line 39
-    invoke-static {v4, v5}, La/a;
-    ->p(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v4, v5}, La/a;->p(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 40
     .line 41
@@ -395,8 +380,7 @@
 
     .line 50
     :cond_5
-    invoke-interface {p0}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 51
     .line 52
@@ -404,8 +388,7 @@
     move-result-object v1
 
     .line 54
-    invoke-interface {p1}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 55
     .line 56
@@ -414,8 +397,7 @@
 
     .line 58
     :cond_6
-    invoke-interface {v1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
 
     .line 59
     .line 60
@@ -427,8 +409,7 @@
 
     .line 63
     .line 64
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
     .line 65
     .line 66
@@ -444,8 +425,7 @@
 
     .line 71
     :cond_7
-    invoke-interface {v1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 72
     .line 73
@@ -453,8 +433,7 @@
     move-result-object v3
 
     .line 75
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 76
     .line 77
@@ -462,8 +441,7 @@
     move-result-object v4
 
     .line 79
-    invoke-static {v3, v4}, La/a;
-    ->p(Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v3, v4}, La/a;->p(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     .line 80
     .line 81
@@ -480,8 +458,7 @@
 
     .line 86
     :cond_8
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
     .line 87
     .line 88
@@ -498,8 +475,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Ljava/util/AbstractCollection;
-    ->size()I
+    invoke-virtual {p0}, Ljava/util/AbstractCollection;->size()I
 
     .line 2
     .line 3
@@ -507,14 +483,12 @@
     move-result v0
 
     .line 5
-    invoke-static {p1, v0}, Lcom/bumptech/glide/b;
-    ->i(II)V
+    invoke-static {p1, v0}, Lcom/bumptech/glide/b;->i(II)V
 
     .line 6
     .line 7
     .line 8
-    invoke-virtual {p0}, Ljava/util/AbstractCollection;
-    ->isEmpty()Z
+    invoke-virtual {p0}, Ljava/util/AbstractCollection;->isEmpty()Z
 
     .line 9
     .line 10
@@ -526,8 +500,7 @@
 
     .line 13
     .line 14
-    sget-object p1, LB0/k;
-    ->c:LB0/i;
+    sget-object p1, LB0/k;->c:LB0/i;
 
     .line 15
     .line 16
@@ -539,8 +512,7 @@
 
     .line 18
     .line 19
-    invoke-direct {v0, p0, p1}, LB0/i;
-    -><init>(LB0/k;I)V
+    invoke-direct {v0, p0, p1}, LB0/i;-><init>(LB0/k;I)V
 
     .line 20
     .line 21
@@ -552,8 +524,7 @@
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Ljava/util/AbstractCollection;
-    ->size()I
+    invoke-virtual {p0}, Ljava/util/AbstractCollection;->size()I
 
     .line 2
     .line 3
@@ -561,8 +532,7 @@
     move-result v0
 
     .line 5
-    invoke-static {p1, p2, v0}, Lcom/bumptech/glide/b;
-    ->j(III)V
+    invoke-static {p1, p2, v0}, Lcom/bumptech/glide/b;->j(III)V
 
     .line 6
     .line 7
@@ -570,8 +540,7 @@
     sub-int/2addr p2, p1
 
     .line 9
-    invoke-virtual {p0}, Ljava/util/AbstractCollection;
-    ->size()I
+    invoke-virtual {p0}, Ljava/util/AbstractCollection;->size()I
 
     .line 10
     .line 11
@@ -591,8 +560,7 @@
 
     .line 17
     .line 18
-    sget-object p1, LB0/r;
-    ->f:LB0/r;
+    sget-object p1, LB0/r;->f:LB0/r;
 
     .line 19
     .line 20
@@ -604,8 +572,7 @@
 
     .line 22
     .line 23
-    invoke-direct {v0, p0, p1, p2}, LB0/j;
-    -><init>(LB0/k;II)V
+    invoke-direct {v0, p0, p1, p2}, LB0/j;-><init>(LB0/k;II)V
 
     .line 24
     .line 25
@@ -617,8 +584,7 @@
     .locals 4
 
     .line 1
-    invoke-virtual {p0}, Ljava/util/AbstractCollection;
-    ->size()I
+    invoke-virtual {p0}, Ljava/util/AbstractCollection;->size()I
 
     .line 2
     .line 3
@@ -641,8 +607,7 @@
 
     .line 10
     .line 11
-    invoke-interface {p0, v2}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {p0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 12
     .line 13
@@ -650,8 +615,7 @@
     move-result-object v3
 
     .line 15
-    invoke-virtual {v3}, Ljava/lang/Object;
-    ->hashCode()I
+    invoke-virtual {v3}, Ljava/lang/Object;->hashCode()I
 
     .line 16
     .line 17
@@ -694,8 +658,7 @@
 
     .line 5
     :cond_0
-    invoke-interface {p0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {p0}, Ljava/util/List;->size()I
 
     .line 6
     .line 7
@@ -711,8 +674,7 @@
 
     .line 11
     .line 12
-    invoke-interface {p0, v2}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {p0, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 13
     .line 14
@@ -720,8 +682,7 @@
     move-result-object v3
 
     .line 16
-    invoke-virtual {p1, v3}, Ljava/lang/Object;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v3}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     .line 17
     .line 18
@@ -755,8 +716,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-virtual {p0, v0}, LB0/k;
-    ->g(I)LB0/i;
+    invoke-virtual {p0, v0}, LB0/k;->g(I)LB0/i;
 
     .line 3
     .line 4
@@ -781,8 +741,7 @@
 
     .line 5
     :cond_0
-    invoke-interface {p0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {p0}, Ljava/util/List;->size()I
 
     .line 6
     .line 7
@@ -799,8 +758,7 @@
 
     .line 12
     .line 13
-    invoke-interface {p0, v1}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -808,8 +766,7 @@
     move-result-object v2
 
     .line 17
-    invoke-virtual {p1, v2}, Ljava/lang/Object;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, v2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
 
     .line 18
     .line 19
@@ -842,8 +799,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-virtual {p0, v0}, LB0/k;
-    ->g(I)LB0/i;
+    invoke-virtual {p0, v0}, LB0/k;->g(I)LB0/i;
 
     move-result-object v0
 
@@ -854,8 +810,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1}, LB0/k;
-    ->g(I)LB0/i;
+    invoke-virtual {p0, p1}, LB0/k;->g(I)LB0/i;
 
     move-result-object p1
 
@@ -870,8 +825,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     .line 4
     .line 5
@@ -908,8 +862,7 @@
 
     .line 2
     .line 3
-    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;
-    -><init>()V
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
 
     .line 4
     .line 5
@@ -966,8 +919,7 @@
     .locals 0
 
     .line 1
-    invoke-virtual {p0, p1, p2}, LB0/k;
-    ->h(II)LB0/k;
+    invoke-virtual {p0, p1, p2}, LB0/k;->h(II)LB0/k;
 
     .line 2
     .line 3

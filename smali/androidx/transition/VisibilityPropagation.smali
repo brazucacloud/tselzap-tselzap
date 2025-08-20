@@ -32,16 +32,14 @@
     move-result-object v0
 
     .line 9
-    sput-object v0, Landroidx/transition/VisibilityPropagation;
-    ->VISIBILITY_PROPAGATION_VALUES:[Ljava/lang/String;    return-void
+    sput-object v0, Landroidx/transition/VisibilityPropagation;->VISIBILITY_PROPAGATION_VALUES:[Ljava/lang/String;    return-void
 .end method
 
 .method public constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/transition/TransitionPropagation;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/transition/TransitionPropagation;-><init>()V
     return-void
 .end method
 
@@ -60,8 +58,7 @@
 
     .line 5
     :cond_0
-    iget-object p0, p0, Landroidx/transition/TransitionValues;
-    ->values:Ljava/util/Map;
+    iget-object p0, p0, Landroidx/transition/TransitionValues;->values:Ljava/util/Map;
 
     .line 6
     .line 7
@@ -69,8 +66,7 @@
 
     .line 8
     .line 9
-    invoke-interface {p0, v1}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -99,13 +95,11 @@
     .end param
 
     .line 1
-    iget-object v0, p1, Landroidx/transition/TransitionValues;
-    ->view:Landroid/view/View;
+    iget-object v0, p1, Landroidx/transition/TransitionValues;->view:Landroid/view/View;
 
     .line 2
     .line 3
-    iget-object v1, p1, Landroidx/transition/TransitionValues;
-    ->values:Ljava/util/Map;
+    iget-object v1, p1, Landroidx/transition/TransitionValues;->values:Ljava/util/Map;
 
     .line 4
     .line 5
@@ -113,8 +107,7 @@
 
     .line 6
     .line 7
-    invoke-interface {v1, v2}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 8
     .line 9
@@ -130,8 +123,7 @@
 
     .line 14
     .line 15
-    invoke-virtual {v0}, Landroid/view/View;
-    ->getVisibility()I
+    invoke-virtual {v0}, Landroid/view/View;->getVisibility()I
 
     .line 16
     .line 17
@@ -139,8 +131,7 @@
     move-result v1
 
     .line 19
-    invoke-static {v1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 20
     .line 21
@@ -149,8 +140,7 @@
 
     .line 23
     :cond_0
-    iget-object v2, p1, Landroidx/transition/TransitionValues;
-    ->values:Ljava/util/Map;
+    iget-object v2, p1, Landroidx/transition/TransitionValues;->values:Ljava/util/Map;
 
     .line 24
     .line 25
@@ -158,8 +148,7 @@
 
     .line 26
     .line 27
-    invoke-interface {v2, v3, v1}, Ljava/util/Map;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v2, v3, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 28
     .line 29
@@ -171,8 +160,7 @@
 
     .line 32
     .line 33
-    invoke-virtual {v0, v2}, Landroid/view/View;
-    ->getLocationOnScreen([I)V
+    invoke-virtual {v0, v2}, Landroid/view/View;->getLocationOnScreen([I)V
 
     .line 34
     .line 35
@@ -184,8 +172,7 @@
 
     .line 38
     .line 39
-    invoke-virtual {v0}, Landroid/view/View;
-    ->getTranslationX()F
+    invoke-virtual {v0}, Landroid/view/View;->getTranslationX()F
 
     .line 40
     .line 41
@@ -193,8 +180,7 @@
     move-result v5
 
     .line 43
-    invoke-static {v5}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v5}, Ljava/lang/Math;->round(F)I
 
     .line 44
     .line 45
@@ -209,8 +195,7 @@
 
     .line 49
     .line 50
-    invoke-virtual {v0}, Landroid/view/View;
-    ->getWidth()I
+    invoke-virtual {v0}, Landroid/view/View;->getWidth()I
 
     .line 51
     .line 52
@@ -235,8 +220,7 @@
 
     .line 60
     .line 61
-    invoke-virtual {v0}, Landroid/view/View;
-    ->getTranslationY()F
+    invoke-virtual {v0}, Landroid/view/View;->getTranslationY()F
 
     .line 62
     .line 63
@@ -244,8 +228,7 @@
     move-result v5
 
     .line 65
-    invoke-static {v5}, Ljava/lang/Math;
-    ->round(F)I
+    invoke-static {v5}, Ljava/lang/Math;->round(F)I
 
     .line 66
     .line 67
@@ -260,8 +243,7 @@
 
     .line 71
     .line 72
-    invoke-virtual {v0}, Landroid/view/View;
-    ->getHeight()I
+    invoke-virtual {v0}, Landroid/view/View;->getHeight()I
 
     .line 73
     .line 74
@@ -279,8 +261,7 @@
 
     .line 79
     .line 80
-    iget-object p1, p1, Landroidx/transition/TransitionValues;
-    ->values:Ljava/util/Map;
+    iget-object p1, p1, Landroidx/transition/TransitionValues;->values:Ljava/util/Map;
 
     .line 81
     .line 82
@@ -288,8 +269,7 @@
 
     .line 83
     .line 84
-    invoke-interface {p1, v0, v2}, Ljava/util/Map;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    
+    invoke-interface {p1, v0, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     return-void
 .end method
 
@@ -299,8 +279,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/transition/VisibilityPropagation;
-    ->VISIBILITY_PROPAGATION_VALUES:[Ljava/lang/String;    return-object v0
+    sget-object v0, Landroidx/transition/VisibilityPropagation;->VISIBILITY_PROPAGATION_VALUES:[Ljava/lang/String;    return-object v0
 .end method
 
 .method public getViewVisibility(Landroidx/transition/TransitionValues;)I
@@ -319,8 +298,7 @@
 
     .line 6
     :cond_0
-    iget-object p1, p1, Landroidx/transition/TransitionValues;
-    ->values:Ljava/util/Map;
+    iget-object p1, p1, Landroidx/transition/TransitionValues;->values:Ljava/util/Map;
 
     .line 7
     .line 8
@@ -328,8 +306,7 @@
 
     .line 9
     .line 10
-    invoke-interface {p1, v1}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 11
     .line 12
@@ -345,8 +322,7 @@
 
     .line 19
     :cond_1
-    invoke-virtual {p1}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     .line 20
     .line 21
@@ -367,8 +343,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-static {p1, v0}, Landroidx/transition/VisibilityPropagation;
-    ->getViewCoordinate(Landroidx/transition/TransitionValues;I)I
+    invoke-static {p1, v0}, Landroidx/transition/VisibilityPropagation;->getViewCoordinate(Landroidx/transition/TransitionValues;I)I
 
     .line 3
     .line 4
@@ -389,8 +364,7 @@
     const/4 v0, 0x1
 
     .line 2
-    invoke-static {p1, v0}, Landroidx/transition/VisibilityPropagation;
-    ->getViewCoordinate(Landroidx/transition/TransitionValues;I)I
+    invoke-static {p1, v0}, Landroidx/transition/VisibilityPropagation;->getViewCoordinate(Landroidx/transition/TransitionValues;I)I
 
     .line 3
     .line 4

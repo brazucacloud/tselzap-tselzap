@@ -26,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/transition/GhostViewPort$1;
-    ->this$0:Landroidx/transition/GhostViewPort;
+    iput-object p1, p0, Landroidx/transition/GhostViewPort$1;->this$0:Landroidx/transition/GhostViewPort;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -42,24 +40,20 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Landroidx/transition/GhostViewPort$1;
-    ->this$0:Landroidx/transition/GhostViewPort;
+    iget-object v0, p0, Landroidx/transition/GhostViewPort$1;->this$0:Landroidx/transition/GhostViewPort;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Landroid/view/View;
-    ->postInvalidateOnAnimation()V
+    invoke-virtual {v0}, Landroid/view/View;->postInvalidateOnAnimation()V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/transition/GhostViewPort$1;
-    ->this$0:Landroidx/transition/GhostViewPort;
+    iget-object v0, p0, Landroidx/transition/GhostViewPort$1;->this$0:Landroidx/transition/GhostViewPort;
 
     .line 7
     .line 8
-    iget-object v1, v0, Landroidx/transition/GhostViewPort;
-    ->mStartParent:Landroid/view/ViewGroup;
+    iget-object v1, v0, Landroidx/transition/GhostViewPort;->mStartParent:Landroid/view/ViewGroup;
 
     .line 9
     .line 10
@@ -67,8 +61,7 @@
 
     .line 11
     .line 12
-    iget-object v0, v0, Landroidx/transition/GhostViewPort;
-    ->mStartView:Landroid/view/View;
+    iget-object v0, v0, Landroidx/transition/GhostViewPort;->mStartView:Landroid/view/View;
 
     .line 13
     .line 14
@@ -76,43 +69,36 @@
 
     .line 15
     .line 16
-    invoke-virtual {v1, v0}, Landroid/view/ViewGroup;
-    ->endViewTransition(Landroid/view/View;)V
+    invoke-virtual {v1, v0}, Landroid/view/ViewGroup;->endViewTransition(Landroid/view/View;)V
 
     .line 17
     .line 18
     .line 19
-    iget-object v0, p0, Landroidx/transition/GhostViewPort$1;
-    ->this$0:Landroidx/transition/GhostViewPort;
+    iget-object v0, p0, Landroidx/transition/GhostViewPort$1;->this$0:Landroidx/transition/GhostViewPort;
 
     .line 20
     .line 21
-    iget-object v0, v0, Landroidx/transition/GhostViewPort;
-    ->mStartParent:Landroid/view/ViewGroup;
+    iget-object v0, v0, Landroidx/transition/GhostViewPort;->mStartParent:Landroid/view/ViewGroup;
 
     .line 22
     .line 23
-    invoke-virtual {v0}, Landroid/view/View;
-    ->postInvalidateOnAnimation()V
+    invoke-virtual {v0}, Landroid/view/View;->postInvalidateOnAnimation()V
 
     .line 24
     .line 25
     .line 26
-    iget-object v0, p0, Landroidx/transition/GhostViewPort$1;
-    ->this$0:Landroidx/transition/GhostViewPort;
+    iget-object v0, p0, Landroidx/transition/GhostViewPort$1;->this$0:Landroidx/transition/GhostViewPort;
 
     .line 27
     .line 28
     const/4 v1, 0x0
 
     .line 29
-    iput-object v1, v0, Landroidx/transition/GhostViewPort;
-    ->mStartParent:Landroid/view/ViewGroup;
+    iput-object v1, v0, Landroidx/transition/GhostViewPort;->mStartParent:Landroid/view/ViewGroup;
 
     .line 30
     .line 31
-    iput-object v1, v0, Landroidx/transition/GhostViewPort;
-    ->mStartView:Landroid/view/View;
+    iput-object v1, v0, Landroidx/transition/GhostViewPort;->mStartView:Landroid/view/View;
 
     .line 32
     .line 33

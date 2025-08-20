@@ -31,8 +31,7 @@
     .locals 2
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -41,8 +40,7 @@
 
     .line 5
     .line 6
-    iput-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mData:J    
+    iput-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mData:J
     return-void
 .end method
 
@@ -50,8 +48,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
 
     .line 2
     .line 3
@@ -63,14 +60,12 @@
 
     .line 6
     .line 7
-    invoke-direct {v0}, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    -><init>()V
+    invoke-direct {v0}, Landroidx/recyclerview/widget/ChildHelper$Bucket;-><init>()V
 
     .line 8
     .line 9
     .line 10
-    iput-object v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
+    iput-object v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
 
     .line 11
     .line 12
@@ -92,8 +87,7 @@
 
     .line 4
     .line 5
-    iget-object v1, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
+    iget-object v1, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
 
     .line 6
     .line 7
@@ -104,8 +98,7 @@
     sub-int/2addr p1, v0
 
     .line 10
-    invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->clear(I)V
+    invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->clear(I)V
 
     .line 11
     .line 12
@@ -115,8 +108,7 @@
 
     .line 14
     :cond_1
-    iget-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mData:J
+    iget-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mData:J
 
     .line 15
     .line 16
@@ -133,8 +125,7 @@
     and-long/2addr v0, v2
 
     .line 21
-    iput-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mData:J    
+    iput-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mData:J
     return-void
 .end method
 
@@ -142,8 +133,7 @@
     .locals 6
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
 
     .line 2
     .line 3
@@ -163,13 +153,11 @@
 
     .line 10
     .line 11
-    iget-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mData:J
+    iget-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mData:J
 
     .line 12
     .line 13
-    invoke-static {v0, v1}, Ljava/lang/Long;
-    ->bitCount(J)I
+    invoke-static {v0, v1}, Ljava/lang/Long;->bitCount(J)I
 
     .line 14
     .line 15
@@ -180,8 +168,7 @@
 
     .line 18
     :cond_0
-    iget-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mData:J
+    iget-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mData:J
 
     .line 19
     .line 20
@@ -195,8 +182,7 @@
     and-long/2addr v0, v4
 
     .line 24
-    invoke-static {v0, v1}, Ljava/lang/Long;
-    ->bitCount(J)I
+    invoke-static {v0, v1}, Ljava/lang/Long;->bitCount(J)I
 
     .line 25
     .line 26
@@ -211,8 +197,7 @@
 
     .line 30
     .line 31
-    iget-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mData:J
+    iget-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mData:J
 
     .line 32
     .line 33
@@ -226,8 +211,7 @@
     and-long/2addr v0, v4
 
     .line 37
-    invoke-static {v0, v1}, Ljava/lang/Long;
-    ->bitCount(J)I
+    invoke-static {v0, v1}, Ljava/lang/Long;->bitCount(J)I
 
     .line 38
     .line 39
@@ -241,8 +225,7 @@
     sub-int/2addr p1, v1
 
     .line 43
-    invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->countOnesBefore(I)I
+    invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->countOnesBefore(I)I
 
     .line 44
     .line 45
@@ -250,13 +233,11 @@
     move-result p1
 
     .line 47
-    iget-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mData:J
+    iget-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mData:J
 
     .line 48
     .line 49
-    invoke-static {v0, v1}, Ljava/lang/Long;
-    ->bitCount(J)I
+    invoke-static {v0, v1}, Ljava/lang/Long;->bitCount(J)I
 
     .line 50
     .line 51
@@ -281,22 +262,19 @@
 
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->ensureNext()V
+    invoke-direct {p0}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->ensureNext()V
 
     .line 6
     .line 7
     .line 8
-    iget-object v1, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
+    iget-object v1, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
 
     .line 9
     .line 10
     sub-int/2addr p1, v0
 
     .line 11
-    invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->get(I)Z
+    invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->get(I)Z
 
     .line 12
     .line 13
@@ -307,8 +285,7 @@
 
     .line 16
     :cond_0
-    iget-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mData:J
+    iget-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mData:J
 
     .line 17
     .line 18
@@ -357,28 +334,24 @@
 
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->ensureNext()V
+    invoke-direct {p0}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->ensureNext()V
 
     .line 6
     .line 7
     .line 8
-    iget-object v1, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
+    iget-object v1, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
 
     .line 9
     .line 10
     sub-int/2addr p1, v0
 
     .line 11
-    invoke-virtual {v1, p1, p2}, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->insert(IZ)V
+    invoke-virtual {v1, p1, p2}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->insert(IZ)V
 return-void
 
     .line 15
     :cond_0
-    iget-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mData:J
+    iget-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mData:J
 
     .line 16
     .line 17
@@ -445,8 +418,7 @@ return-void
     or-long/2addr v0, v3
 
     .line 42
-    iput-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mData:J
+    iput-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mData:J
 
     .line 43
     .line 44
@@ -454,8 +426,7 @@ return-void
 
     .line 45
     .line 46
-    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->set(I)V
+    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->set(I)V
 
     .line 47
     .line 48
@@ -464,8 +435,7 @@ return-void
 
     .line 50
     :cond_2
-    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->clear(I)V
+    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->clear(I)V
 
     .line 51
     .line 52
@@ -475,8 +445,7 @@ return-void
 
     .line 54
     .line 55
-    iget-object p1, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
+    iget-object p1, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
 
     .line 56
     .line 57
@@ -493,19 +462,16 @@ return-void
     .line 61
     :cond_4
     :goto_2
-    invoke-direct {p0}, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->ensureNext()V
+    invoke-direct {p0}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->ensureNext()V
 
     .line 62
     .line 63
     .line 64
-    iget-object p1, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
+    iget-object p1, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
 
     .line 65
     .line 66
-    invoke-virtual {p1, v6, v2}, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->insert(IZ)V
+    invoke-virtual {p1, v6, v2}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->insert(IZ)V
 return-void
 .end method
 
@@ -521,22 +487,19 @@ return-void
 
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->ensureNext()V
+    invoke-direct {p0}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->ensureNext()V
 
     .line 6
     .line 7
     .line 8
-    iget-object v1, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
+    iget-object v1, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
 
     .line 9
     .line 10
     sub-int/2addr p1, v0
 
     .line 11
-    invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->remove(I)Z
+    invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->remove(I)Z
 
     .line 12
     .line 13
@@ -555,8 +518,7 @@ return-void
 
     .line 19
     .line 20
-    iget-wide v4, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mData:J
+    iget-wide v4, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mData:J
 
     .line 21
     .line 22
@@ -599,8 +561,7 @@ return-void
     and-long/2addr v4, v7
 
     .line 37
-    iput-wide v4, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mData:J
+    iput-wide v4, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mData:J
 
     .line 38
     .line 39
@@ -617,8 +578,7 @@ return-void
     and-long/2addr v2, v4
 
     .line 44
-    invoke-static {v2, v3, p1}, Ljava/lang/Long;
-    ->rotateRight(JI)J
+    invoke-static {v2, v3, p1}, Ljava/lang/Long;->rotateRight(JI)J
 
     .line 45
     .line 46
@@ -629,13 +589,11 @@ return-void
     or-long/2addr v0, v2
 
     .line 49
-    iput-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mData:J
+    iput-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mData:J
 
     .line 50
     .line 51
-    iget-object p1, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
+    iget-object p1, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
 
     .line 52
     .line 53
@@ -643,8 +601,7 @@ return-void
 
     .line 54
     .line 55
-    invoke-virtual {p1, v10}, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->get(I)Z
+    invoke-virtual {p1, v10}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->get(I)Z
 
     .line 56
     .line 57
@@ -660,20 +617,17 @@ return-void
 
     .line 62
     .line 63
-    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->set(I)V
+    invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->set(I)V
 
     .line 64
     .line 65
     .line 66
     :cond_2
-    iget-object p1, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
+    iget-object p1, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
 
     .line 67
     .line 68
-    invoke-virtual {p1, v10}, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->remove(I)Z
+    invoke-virtual {p1, v10}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->remove(I)Z
 
     .line 69
     .line 70
@@ -690,13 +644,11 @@ return-void
 
     .line 2
     .line 3
-    iput-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mData:J
+    iput-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mData:J
 
     .line 4
     .line 5
-    iget-object v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
 
     .line 6
     .line 7
@@ -704,8 +656,7 @@ return-void
 
     .line 8
     .line 9
-    invoke-virtual {v0}, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->reset()V
+    invoke-virtual {v0}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->reset()V
 
     .line 10
     .line 11
@@ -726,28 +677,24 @@ return-void
 
     .line 4
     .line 5
-    invoke-direct {p0}, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->ensureNext()V
+    invoke-direct {p0}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->ensureNext()V
 
     .line 6
     .line 7
     .line 8
-    iget-object v1, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
+    iget-object v1, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
 
     .line 9
     .line 10
     sub-int/2addr p1, v0
 
     .line 11
-    invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->set(I)V
+    invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->set(I)V
 return-void
 
     .line 15
     :cond_0
-    iget-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mData:J
+    iget-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mData:J
 
     .line 16
     .line 17
@@ -761,8 +708,7 @@ return-void
     or-long/2addr v0, v2
 
     .line 21
-    iput-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mData:J    
+    iput-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mData:J
     return-void
 .end method
 
@@ -770,8 +716,7 @@ return-void
     .locals 3
 
     .line 1
-    iget-object v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
+    iget-object v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
 
     .line 2
     .line 3
@@ -779,13 +724,11 @@ return-void
 
     .line 4
     .line 5
-    iget-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mData:J
+    iget-wide v0, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mData:J
 
     .line 6
     .line 7
-    invoke-static {v0, v1}, Ljava/lang/Long;
-    ->toBinaryString(J)Ljava/lang/String;
+    invoke-static {v0, v1}, Ljava/lang/Long;->toBinaryString(J)Ljava/lang/String;
 
     .line 8
     .line 9
@@ -800,19 +743,16 @@ return-void
 
     .line 13
     .line 14
-    invoke-direct {v0}, Ljava/lang/StringBuilder;
-    -><init>()V
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 15
     .line 16
     .line 17
-    iget-object v1, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
+    iget-object v1, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mNext:Landroidx/recyclerview/widget/ChildHelper$Bucket;
 
     .line 18
     .line 19
-    invoke-virtual {v1}, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v1}, Landroidx/recyclerview/widget/ChildHelper$Bucket;->toString()Ljava/lang/String;
 
     .line 20
     .line 21
@@ -820,8 +760,7 @@ return-void
     move-result-object v1
 
     .line 23
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 24
     .line 25
@@ -830,19 +769,16 @@ return-void
 
     .line 27
     .line 28
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 29
     .line 30
     .line 31
-    iget-wide v1, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;
-    ->mData:J
+    iget-wide v1, p0, Landroidx/recyclerview/widget/ChildHelper$Bucket;->mData:J
 
     .line 32
     .line 33
-    invoke-static {v1, v2}, Ljava/lang/Long;
-    ->toBinaryString(J)Ljava/lang/String;
+    invoke-static {v1, v2}, Ljava/lang/Long;->toBinaryString(J)Ljava/lang/String;
 
     .line 34
     .line 35
@@ -850,14 +786,12 @@ return-void
     move-result-object v1
 
     .line 37
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 38
     .line 39
     .line 40
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 41
     .line 42

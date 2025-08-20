@@ -18,14 +18,12 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/graphics/Path;
-    ->rewind()V
+    invoke-virtual {p0}, Landroid/graphics/Path;->rewind()V
 
     .line 2
     .line 3
     .line 4
-    invoke-interface {p1}, Ljava/util/List;
-    ->size()I
+    invoke-interface {p1}, Ljava/util/List;->size()I
 
     .line 5
     .line 6
@@ -47,8 +45,7 @@
 
     .line 12
     .line 13
-    invoke-interface {p1, v3}, Ljava/util/List;
-    ->get(I)Ljava/lang/Object;
+    invoke-interface {p1, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -64,8 +61,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;
-    ->getAnchor0X()F
+    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;->getAnchor0X()F
 
     .line 22
     .line 23
@@ -73,8 +69,7 @@
     move-result v1
 
     .line 25
-    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;
-    ->getAnchor0Y()F
+    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;->getAnchor0Y()F
 
     .line 26
     .line 27
@@ -82,8 +77,7 @@
     move-result v5
 
     .line 29
-    invoke-virtual {p0, v1, v5}, Landroid/graphics/Path;
-    ->moveTo(FF)V
+    invoke-virtual {p0, v1, v5}, Landroid/graphics/Path;->moveTo(FF)V
 
     .line 30
     .line 31
@@ -92,8 +86,7 @@
 
     .line 33
     :cond_0
-    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;
-    ->getControl0X()F
+    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;->getControl0X()F
 
     .line 34
     .line 35
@@ -101,8 +94,7 @@
     move-result v6
 
     .line 37
-    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;
-    ->getControl0Y()F
+    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;->getControl0Y()F
 
     .line 38
     .line 39
@@ -110,8 +102,7 @@
     move-result v7
 
     .line 41
-    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;
-    ->getControl1X()F
+    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;->getControl1X()F
 
     .line 42
     .line 43
@@ -119,8 +110,7 @@
     move-result v8
 
     .line 45
-    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;
-    ->getControl1Y()F
+    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;->getControl1Y()F
 
     .line 46
     .line 47
@@ -128,8 +118,7 @@
     move-result v9
 
     .line 49
-    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;
-    ->getAnchor1X()F
+    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;->getAnchor1X()F
 
     .line 50
     .line 51
@@ -137,8 +126,7 @@
     move-result v10
 
     .line 53
-    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;
-    ->getAnchor1Y()F
+    invoke-virtual {v4}, Landroidx/graphics/shapes/Cubic;->getAnchor1Y()F
 
     .line 54
     .line 55
@@ -149,8 +137,7 @@
     move-object v5, p0
 
     .line 58
-    invoke-virtual/range {v5 .. v11}, Landroid/graphics/Path;
-    ->cubicTo(FFFFFF)V
+    invoke-virtual/range {v5 .. v11}, Landroid/graphics/Path;->cubicTo(FFFFFF)V
 
     .line 59
     .line 60
@@ -166,8 +153,7 @@
     move-object v5, p0
 
     .line 65
-    invoke-virtual {v5}, Landroid/graphics/Path;
-    ->close()V
+    invoke-virtual {v5}, Landroid/graphics/Path;->close()V
     return-void
 .end method
 
@@ -176,22 +162,18 @@
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "path"
 
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 3
-    invoke-virtual {p0, p1}, Landroidx/graphics/shapes/Morph;
-    ->asCubics(F)Ljava/util/List;
+    invoke-virtual {p0, p1}, Landroidx/graphics/shapes/Morph;->asCubics(F)Ljava/util/List;
 
     move-result-object p0
 
-    invoke-static {p2, p0}, Landroidx/graphics/shapes/Shapes_androidKt;
-    ->pathFromCubics(Landroid/graphics/Path;Ljava/util/List;)V
+    invoke-static {p2, p0}, Landroidx/graphics/shapes/Shapes_androidKt;->pathFromCubics(Landroid/graphics/Path;Ljava/util/List;)V
 return-object p2
 .end method
 
@@ -201,15 +183,13 @@ return-object p2
     .line 1
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const/4 v0, 0x0
 
     const/4 v1, 0x1
 
-    invoke-static {p0, v0, v1, v0}, Landroidx/graphics/shapes/Shapes_androidKt;
-    ->toPath$default(Landroidx/graphics/shapes/RoundedPolygon;Landroid/graphics/Path;ILjava/lang/Object;)Landroid/graphics/Path;
+    invoke-static {p0, v0, v1, v0}, Landroidx/graphics/shapes/Shapes_androidKt;->toPath$default(Landroidx/graphics/shapes/RoundedPolygon;Landroid/graphics/Path;ILjava/lang/Object;)Landroid/graphics/Path;
 
     move-result-object p0
 
@@ -221,22 +201,18 @@ return-object p2
 
     const-string v0, "<this>"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "path"
 
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 2
-    invoke-virtual {p0}, Landroidx/graphics/shapes/RoundedPolygon;
-    ->getCubics()Ljava/util/List;
+    invoke-virtual {p0}, Landroidx/graphics/shapes/RoundedPolygon;->getCubics()Ljava/util/List;
 
     move-result-object p0
 
-    invoke-static {p1, p0}, Landroidx/graphics/shapes/Shapes_androidKt;
-    ->pathFromCubics(Landroid/graphics/Path;Ljava/util/List;)V
+    invoke-static {p1, p0}, Landroidx/graphics/shapes/Shapes_androidKt;->pathFromCubics(Landroid/graphics/Path;Ljava/util/List;)V
     return-object p1
 .end method
 
@@ -250,12 +226,10 @@ return-object p2
     .line 2
     new-instance p2, Landroid/graphics/Path;
 
-    invoke-direct {p2}, Landroid/graphics/Path;
-    -><init>()V
+    invoke-direct {p2}, Landroid/graphics/Path;-><init>()V
 
     :cond_0
-    invoke-static {p0, p1, p2}, Landroidx/graphics/shapes/Shapes_androidKt;
-    ->toPath(Landroidx/graphics/shapes/Morph;FLandroid/graphics/Path;)Landroid/graphics/Path;
+    invoke-static {p0, p1, p2}, Landroidx/graphics/shapes/Shapes_androidKt;->toPath(Landroidx/graphics/shapes/Morph;FLandroid/graphics/Path;)Landroid/graphics/Path;
 
     move-result-object p0
 
@@ -272,12 +246,10 @@ return-object p2
     .line 1
     new-instance p1, Landroid/graphics/Path;
 
-    invoke-direct {p1}, Landroid/graphics/Path;
-    -><init>()V
+    invoke-direct {p1}, Landroid/graphics/Path;-><init>()V
 
     :cond_0
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/Shapes_androidKt;
-    ->toPath(Landroidx/graphics/shapes/RoundedPolygon;Landroid/graphics/Path;)Landroid/graphics/Path;
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/Shapes_androidKt;->toPath(Landroidx/graphics/shapes/RoundedPolygon;Landroid/graphics/Path;)Landroid/graphics/Path;
 
     move-result-object p0
 
@@ -292,8 +264,7 @@ return-object p2
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -302,8 +273,7 @@ return-object p2
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -319,14 +289,12 @@ return-object p2
 
     .line 15
     .line 16
-    invoke-direct {v1, v0, p1}, Landroidx/graphics/shapes/Shapes_androidKt$transformed$1;
-    -><init>([FLandroid/graphics/Matrix;)V
+    invoke-direct {v1, v0, p1}, Landroidx/graphics/shapes/Shapes_androidKt$transformed$1;-><init>([FLandroid/graphics/Matrix;)V
 
     .line 17
     .line 18
     .line 19
-    invoke-virtual {p0, v1}, Landroidx/graphics/shapes/RoundedPolygon;
-    ->transformed(Landroidx/graphics/shapes/PointTransformer;)Landroidx/graphics/shapes/RoundedPolygon;
+    invoke-virtual {p0, v1}, Landroidx/graphics/shapes/RoundedPolygon;->transformed(Landroidx/graphics/shapes/PointTransformer;)Landroidx/graphics/shapes/RoundedPolygon;
 
     .line 20
     .line 21

@@ -35,8 +35,7 @@
     const/16 v2, 0x9c4
 
     .line 1
-    invoke-direct {p0, v2, v0, v1}, Lcom/android/volley/DefaultRetryPolicy;
-    -><init>(IIF)V
+    invoke-direct {p0, v2, v0, v1}, Lcom/android/volley/DefaultRetryPolicy;-><init>(IIF)V
 return-void
 .end method
 
@@ -44,20 +43,16 @@ return-void
     .locals 0
 
     .line 2
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 3
-    iput p1, p0, Lcom/android/volley/DefaultRetryPolicy;
-    ->mCurrentTimeoutMs:I
+    iput p1, p0, Lcom/android/volley/DefaultRetryPolicy;->mCurrentTimeoutMs:I
 
     .line 4
-    iput p2, p0, Lcom/android/volley/DefaultRetryPolicy;
-    ->mMaxNumRetries:I
+    iput p2, p0, Lcom/android/volley/DefaultRetryPolicy;->mMaxNumRetries:I
 
     .line 5
-    iput p3, p0, Lcom/android/volley/DefaultRetryPolicy;
-    ->mBackoffMultiplier:F
+    iput p3, p0, Lcom/android/volley/DefaultRetryPolicy;->mBackoffMultiplier:F
 
     return-void
 .end method
@@ -68,8 +63,7 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/android/volley/DefaultRetryPolicy;
-    ->mBackoffMultiplier:F
+    iget v0, p0, Lcom/android/volley/DefaultRetryPolicy;->mBackoffMultiplier:F
 
     .line 2
     .line 3
@@ -80,8 +74,7 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/android/volley/DefaultRetryPolicy;
-    ->mCurrentRetryCount:I
+    iget v0, p0, Lcom/android/volley/DefaultRetryPolicy;->mCurrentRetryCount:I
 
     .line 2
     .line 3
@@ -92,8 +85,7 @@ return-void
     .locals 1
 
     .line 1
-    iget v0, p0, Lcom/android/volley/DefaultRetryPolicy;
-    ->mCurrentTimeoutMs:I
+    iget v0, p0, Lcom/android/volley/DefaultRetryPolicy;->mCurrentTimeoutMs:I
 
     .line 2
     .line 3
@@ -104,13 +96,11 @@ return-void
     .locals 2
 
     .line 1
-    iget v0, p0, Lcom/android/volley/DefaultRetryPolicy;
-    ->mCurrentRetryCount:I
+    iget v0, p0, Lcom/android/volley/DefaultRetryPolicy;->mCurrentRetryCount:I
 
     .line 2
     .line 3
-    iget v1, p0, Lcom/android/volley/DefaultRetryPolicy;
-    ->mMaxNumRetries:I
+    iget v1, p0, Lcom/android/volley/DefaultRetryPolicy;->mMaxNumRetries:I
 
     .line 4
     .line 5
@@ -133,8 +123,7 @@ return-void
     .locals 3
 
     .line 1
-    iget v0, p0, Lcom/android/volley/DefaultRetryPolicy;
-    ->mCurrentRetryCount:I
+    iget v0, p0, Lcom/android/volley/DefaultRetryPolicy;->mCurrentRetryCount:I
 
     .line 2
     .line 3
@@ -142,21 +131,18 @@ return-void
 
     .line 4
     .line 5
-    iput v0, p0, Lcom/android/volley/DefaultRetryPolicy;
-    ->mCurrentRetryCount:I
+    iput v0, p0, Lcom/android/volley/DefaultRetryPolicy;->mCurrentRetryCount:I
 
     .line 6
     .line 7
-    iget v0, p0, Lcom/android/volley/DefaultRetryPolicy;
-    ->mCurrentTimeoutMs:I
+    iget v0, p0, Lcom/android/volley/DefaultRetryPolicy;->mCurrentTimeoutMs:I
 
     .line 8
     .line 9
     int-to-float v1, v0
 
     .line 10
-    iget v2, p0, Lcom/android/volley/DefaultRetryPolicy;
-    ->mBackoffMultiplier:F
+    iget v2, p0, Lcom/android/volley/DefaultRetryPolicy;->mBackoffMultiplier:F
 
     .line 11
     .line 12
@@ -170,13 +156,11 @@ return-void
     add-int/2addr v0, v1
 
     .line 16
-    iput v0, p0, Lcom/android/volley/DefaultRetryPolicy;
-    ->mCurrentTimeoutMs:I
+    iput v0, p0, Lcom/android/volley/DefaultRetryPolicy;->mCurrentTimeoutMs:I
 
     .line 17
     .line 18
-    invoke-virtual {p0}, Lcom/android/volley/DefaultRetryPolicy;
-    ->hasAttemptRemaining()Z
+    invoke-virtual {p0}, Lcom/android/volley/DefaultRetryPolicy;->hasAttemptRemaining()Z
 
     .line 19
     .line 20

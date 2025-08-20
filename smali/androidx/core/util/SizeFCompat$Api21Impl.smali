@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -45,8 +44,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -55,8 +53,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroidx/core/util/SizeFCompat;
-    ->getWidth()F
+    invoke-virtual {p0}, Landroidx/core/util/SizeFCompat;->getWidth()F
 
     .line 7
     .line 8
@@ -64,8 +61,7 @@
     move-result v1
 
     .line 10
-    invoke-virtual {p0}, Landroidx/core/util/SizeFCompat;
-    ->getHeight()F
+    invoke-virtual {p0}, Landroidx/core/util/SizeFCompat;->getHeight()F
 
     .line 11
     .line 12
@@ -73,8 +69,7 @@
     move-result p0
 
     .line 14
-    invoke-direct {v0, v1, p0}, Landroid/util/SizeF;
-    -><init>(FF)V
+    invoke-direct {v0, v1, p0}, Landroid/util/SizeF;-><init>(FF)V
 
     .line 15
     .line 16
@@ -95,8 +90,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/util/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p0}, Landroidx/core/util/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 2
     .line 3
@@ -105,8 +99,7 @@
 
     .line 5
     .line 6
-    invoke-virtual {p0}, Landroid/util/SizeF;
-    ->getWidth()F
+    invoke-virtual {p0}, Landroid/util/SizeF;->getWidth()F
 
     .line 7
     .line 8
@@ -114,8 +107,7 @@
     move-result v1
 
     .line 10
-    invoke-virtual {p0}, Landroid/util/SizeF;
-    ->getHeight()F
+    invoke-virtual {p0}, Landroid/util/SizeF;->getHeight()F
 
     .line 11
     .line 12
@@ -123,8 +115,7 @@
     move-result p0
 
     .line 14
-    invoke-direct {v0, v1, p0}, Landroidx/core/util/SizeFCompat;
-    -><init>(FF)V
+    invoke-direct {v0, v1, p0}, Landroidx/core/util/SizeFCompat;-><init>(FF)V
 
     .line 15
     .line 16

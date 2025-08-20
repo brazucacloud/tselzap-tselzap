@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -50,8 +49,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0}, Landroidx/core/app/RemoteInput;
-    ->fromCompat(Landroidx/core/app/RemoteInput;)Landroid/app/RemoteInput;
+    invoke-static {p0}, Landroidx/core/app/RemoteInput;->fromCompat(Landroidx/core/app/RemoteInput;)Landroid/app/RemoteInput;
 
     .line 2
     .line 3
@@ -59,8 +57,7 @@
     move-result-object p0
 
     .line 5
-    invoke-static {p0, p1, p2}, Landroid/app/RemoteInput;
-    ->addDataResultToIntent(Landroid/app/RemoteInput;Landroid/content/Intent;Ljava/util/Map;)V
+    invoke-static {p0, p1, p2}, Landroid/app/RemoteInput;->addDataResultToIntent(Landroid/app/RemoteInput;Landroid/content/Intent;Ljava/util/Map;)V
 
     .line 6
     .line 7
@@ -89,8 +86,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/app/RemoteInput;
-    ->getAllowedDataTypes()Ljava/util/Set;
+    invoke-virtual {p0}, Landroid/app/RemoteInput;->getAllowedDataTypes()Ljava/util/Set;
 
     .line 4
     .line 5
@@ -119,8 +115,7 @@
     .end annotation
 
     .line 1
-    invoke-static {p0, p1}, Landroid/app/RemoteInput;
-    ->getDataResultsFromIntent(Landroid/content/Intent;Ljava/lang/String;)Ljava/util/Map;
+    invoke-static {p0, p1}, Landroid/app/RemoteInput;->getDataResultsFromIntent(Landroid/content/Intent;Ljava/lang/String;)Ljava/util/Map;
 
     .line 2
     .line 3
@@ -136,8 +131,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/app/RemoteInput$Builder;
-    ->setAllowDataType(Ljava/lang/String;Z)Landroid/app/RemoteInput$Builder;
+    invoke-virtual {p0, p1, p2}, Landroid/app/RemoteInput$Builder;->setAllowDataType(Ljava/lang/String;Z)Landroid/app/RemoteInput$Builder;
 
     .line 2
     .line 3

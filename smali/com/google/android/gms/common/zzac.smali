@@ -13,14 +13,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Lcom/google/android/gms/common/zzn;
-    ->zze(Landroid/content/Context;)V
+    invoke-static {p1}, Lcom/google/android/gms/common/zzn;->zze(Landroid/content/Context;)V
 
     .line 5
     .line 6

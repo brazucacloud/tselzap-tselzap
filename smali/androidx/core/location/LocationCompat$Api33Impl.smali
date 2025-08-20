@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -38,8 +37,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/location/Location;
-    ->removeBearingAccuracy()V
+    invoke-virtual {p0}, Landroid/location/Location;->removeBearingAccuracy()V
 
     .line 2
     .line 3
@@ -53,8 +51,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/location/Location;
-    ->removeSpeedAccuracy()V
+    invoke-virtual {p0}, Landroid/location/Location;->removeSpeedAccuracy()V
 
     .line 2
     .line 3
@@ -68,8 +65,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/location/Location;
-    ->removeVerticalAccuracy()V
+    invoke-virtual {p0}, Landroid/location/Location;->removeVerticalAccuracy()V
 
     .line 2
     .line 3

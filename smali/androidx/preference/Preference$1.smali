@@ -26,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/preference/Preference$1;
-    ->this$0:Landroidx/preference/Preference;
+    iput-object p1, p0, Landroidx/preference/Preference$1;->this$0:Landroidx/preference/Preference;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -42,13 +40,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/preference/Preference$1;
-    ->this$0:Landroidx/preference/Preference;
+    iget-object v0, p0, Landroidx/preference/Preference$1;->this$0:Landroidx/preference/Preference;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Landroidx/preference/Preference;
-    ->performClick(Landroid/view/View;)V    
+    invoke-virtual {v0, p1}, Landroidx/preference/Preference;->performClick(Landroid/view/View;)V
     return-void
 .end method
 

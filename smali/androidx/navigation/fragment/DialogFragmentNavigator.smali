@@ -67,11 +67,9 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Landroidx/navigation/fragment/DialogFragmentNavigator$Companion;
-    -><init>(Lkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v1}, Landroidx/navigation/fragment/DialogFragmentNavigator$Companion;-><init>(Lkotlin/jvm/internal/e;)V
 
-    sput-object v0, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->Companion:Landroidx/navigation/fragment/DialogFragmentNavigator$Companion;
+    sput-object v0, Landroidx/navigation/fragment/DialogFragmentNavigator;->Companion:Landroidx/navigation/fragment/DialogFragmentNavigator$Companion;
 
     return-void
 .end method
@@ -84,8 +82,7 @@
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -94,25 +91,21 @@
 
     .line 7
     .line 8
-    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
     .line 11
-    invoke-direct {p0}, Landroidx/navigation/Navigator;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/navigation/Navigator;-><init>()V
 
     .line 12
     .line 13
     .line 14
-    iput-object p1, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->context:Landroid/content/Context;
+    iput-object p1, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;->context:Landroid/content/Context;
 
     .line 15
     .line 16
-    iput-object p2, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->fragmentManager:Landroidx/fragment/app/FragmentManager;
+    iput-object p2, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;->fragmentManager:Landroidx/fragment/app/FragmentManager;
 
     .line 17
     .line 18
@@ -120,14 +113,12 @@
 
     .line 19
     .line 20
-    invoke-direct {p1}, Ljava/util/LinkedHashSet;
-    -><init>()V
+    invoke-direct {p1}, Ljava/util/LinkedHashSet;-><init>()V
 
     .line 21
     .line 22
     .line 23
-    iput-object p1, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->restoredTagsAwaitingAttach:Ljava/util/Set;
+    iput-object p1, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;->restoredTagsAwaitingAttach:Ljava/util/Set;
 
     .line 24
     .line 25
@@ -135,14 +126,12 @@
 
     .line 26
     .line 27
-    invoke-direct {p1, p0}, Landroidx/navigation/fragment/DialogFragmentNavigator$observer$1;
-    -><init>(Landroidx/navigation/fragment/DialogFragmentNavigator;)V
+    invoke-direct {p1, p0}, Landroidx/navigation/fragment/DialogFragmentNavigator$observer$1;-><init>(Landroidx/navigation/fragment/DialogFragmentNavigator;)V
 
     .line 28
     .line 29
     .line 30
-    iput-object p1, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->observer:Landroidx/navigation/fragment/DialogFragmentNavigator$observer$1;
+    iput-object p1, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;->observer:Landroidx/navigation/fragment/DialogFragmentNavigator$observer$1;
 
     .line 31
     .line 32
@@ -150,14 +139,12 @@
 
     .line 33
     .line 34
-    invoke-direct {p1}, Ljava/util/LinkedHashMap;
-    -><init>()V
+    invoke-direct {p1}, Ljava/util/LinkedHashMap;-><init>()V
 
     .line 35
     .line 36
     .line 37
-    iput-object p1, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->transitioningFragments:Ljava/util/Map;    
+    iput-object p1, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;->transitioningFragments:Ljava/util/Map;
     return-void
 .end method
 
@@ -165,8 +152,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1, p2}, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->onAttach$lambda$1(Landroidx/navigation/fragment/DialogFragmentNavigator;Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;)V
+    invoke-static {p0, p1, p2}, Landroidx/navigation/fragment/DialogFragmentNavigator;->onAttach$lambda$1(Landroidx/navigation/fragment/DialogFragmentNavigator;Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;)V
 return-void
 .end method
 
@@ -174,8 +160,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-virtual {p0}, Landroidx/navigation/Navigator;
-    ->getState()Landroidx/navigation/NavigatorState;
+    invoke-virtual {p0}, Landroidx/navigation/Navigator;->getState()Landroidx/navigation/NavigatorState;
 
     .line 2
     .line 3
@@ -189,8 +174,7 @@ return-void
     .locals 0
 
     .line 1
-    invoke-direct {p0, p1, p2, p3}, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->popWithTransition(ILandroidx/navigation/NavBackStackEntry;Z)V
+    invoke-direct {p0, p1, p2, p3}, Landroidx/navigation/fragment/DialogFragmentNavigator;->popWithTransition(ILandroidx/navigation/NavBackStackEntry;Z)V
 return-void
 .end method
 
@@ -198,8 +182,7 @@ return-void
     .locals 4
 
     .line 1
-    invoke-virtual {p1}, Landroidx/navigation/NavBackStackEntry;
-    ->getDestination()Landroidx/navigation/NavDestination;
+    invoke-virtual {p1}, Landroidx/navigation/NavBackStackEntry;->getDestination()Landroidx/navigation/NavDestination;
 
     .line 2
     .line 3
@@ -211,8 +194,7 @@ return-void
 
     .line 6
     .line 7
-    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;
-    ->d(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 8
     .line 9
@@ -221,8 +203,7 @@ return-void
 
     .line 11
     .line 12
-    invoke-virtual {v0}, Landroidx/navigation/fragment/DialogFragmentNavigator$Destination;
-    ->getClassName()Ljava/lang/String;
+    invoke-virtual {v0}, Landroidx/navigation/fragment/DialogFragmentNavigator$Destination;->getClassName()Ljava/lang/String;
 
     .line 13
     .line 14
@@ -233,8 +214,7 @@ return-void
     const/4 v2, 0x0
 
     .line 17
-    invoke-virtual {v1, v2}, Ljava/lang/String;
-    ->charAt(I)C
+    invoke-virtual {v1, v2}, Ljava/lang/String;->charAt(I)C
 
     .line 18
     .line 19
@@ -254,19 +234,16 @@ return-void
 
     .line 26
     .line 27
-    invoke-direct {v2}, Ljava/lang/StringBuilder;
-    -><init>()V
+    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
 
     .line 28
     .line 29
     .line 30
-    iget-object v3, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->context:Landroid/content/Context;
+    iget-object v3, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;->context:Landroid/content/Context;
 
     .line 31
     .line 32
-    invoke-virtual {v3}, Landroid/content/Context;
-    ->getPackageName()Ljava/lang/String;
+    invoke-virtual {v3}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     .line 33
     .line 34
@@ -274,20 +251,17 @@ return-void
     move-result-object v3
 
     .line 36
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 37
     .line 38
     .line 39
-    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 40
     .line 41
     .line 42
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 43
     .line 44
@@ -296,13 +270,11 @@ return-void
 
     .line 46
     :cond_0
-    iget-object v2, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->fragmentManager:Landroidx/fragment/app/FragmentManager;
+    iget-object v2, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;->fragmentManager:Landroidx/fragment/app/FragmentManager;
 
     .line 47
     .line 48
-    invoke-virtual {v2}, Landroidx/fragment/app/FragmentManager;
-    ->getFragmentFactory()Landroidx/fragment/app/FragmentFactory;
+    invoke-virtual {v2}, Landroidx/fragment/app/FragmentManager;->getFragmentFactory()Landroidx/fragment/app/FragmentFactory;
 
     .line 49
     .line 50
@@ -310,13 +282,11 @@ return-void
     move-result-object v2
 
     .line 52
-    iget-object v3, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->context:Landroid/content/Context;
+    iget-object v3, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;->context:Landroid/content/Context;
 
     .line 53
     .line 54
-    invoke-virtual {v3}, Landroid/content/Context;
-    ->getClassLoader()Ljava/lang/ClassLoader;
+    invoke-virtual {v3}, Landroid/content/Context;->getClassLoader()Ljava/lang/ClassLoader;
 
     .line 55
     .line 56
@@ -324,8 +294,7 @@ return-void
     move-result-object v3
 
     .line 58
-    invoke-virtual {v2, v3, v1}, Landroidx/fragment/app/FragmentFactory;
-    ->instantiate(Ljava/lang/ClassLoader;Ljava/lang/String;)Landroidx/fragment/app/Fragment;
+    invoke-virtual {v2, v3, v1}, Landroidx/fragment/app/FragmentFactory;->instantiate(Ljava/lang/ClassLoader;Ljava/lang/String;)Landroidx/fragment/app/Fragment;
 
     .line 59
     .line 60
@@ -337,14 +306,12 @@ return-void
 
     .line 63
     .line 64
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;
-    ->e(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 65
     .line 66
     .line 67
-    invoke-virtual {v1}, Ljava/lang/Object;
-    ->getClass()Ljava/lang/Class;
+    invoke-virtual {v1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
     .line 68
     .line 69
@@ -356,8 +323,7 @@ return-void
 
     .line 72
     .line 73
-    invoke-virtual {v3, v2}, Ljava/lang/Class;
-    ->isAssignableFrom(Ljava/lang/Class;)Z
+    invoke-virtual {v3, v2}, Ljava/lang/Class;->isAssignableFrom(Ljava/lang/Class;)Z
 
     .line 74
     .line 75
@@ -373,8 +339,7 @@ return-void
 
     .line 80
     .line 81
-    invoke-virtual {p1}, Landroidx/navigation/NavBackStackEntry;
-    ->getArguments()Landroid/os/Bundle;
+    invoke-virtual {p1}, Landroidx/navigation/NavBackStackEntry;->getArguments()Landroid/os/Bundle;
 
     .line 82
     .line 83
@@ -382,14 +347,12 @@ return-void
     move-result-object v0
 
     .line 85
-    invoke-virtual {v1, v0}, Landroidx/fragment/app/Fragment;
-    ->setArguments(Landroid/os/Bundle;)V
+    invoke-virtual {v1, v0}, Landroidx/fragment/app/Fragment;->setArguments(Landroid/os/Bundle;)V
 
     .line 86
     .line 87
     .line 88
-    invoke-virtual {v1}, Landroidx/fragment/app/Fragment;
-    ->getLifecycle()Landroidx/lifecycle/Lifecycle;
+    invoke-virtual {v1}, Landroidx/fragment/app/Fragment;->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     .line 89
     .line 90
@@ -397,24 +360,20 @@ return-void
     move-result-object v0
 
     .line 92
-    iget-object v2, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->observer:Landroidx/navigation/fragment/DialogFragmentNavigator$observer$1;
+    iget-object v2, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;->observer:Landroidx/navigation/fragment/DialogFragmentNavigator$observer$1;
 
     .line 93
     .line 94
-    invoke-virtual {v0, v2}, Landroidx/lifecycle/Lifecycle;
-    ->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
+    invoke-virtual {v0, v2}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
     .line 95
     .line 96
     .line 97
-    iget-object v0, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->transitioningFragments:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;->transitioningFragments:Ljava/util/Map;
 
     .line 98
     .line 99
-    invoke-virtual {p1}, Landroidx/navigation/NavBackStackEntry;
-    ->getId()Ljava/lang/String;
+    invoke-virtual {p1}, Landroidx/navigation/NavBackStackEntry;->getId()Ljava/lang/String;
 
     .line 100
     .line 101
@@ -422,8 +381,7 @@ return-void
     move-result-object p1
 
     .line 103
-    invoke-interface {v0, p1, v1}, Ljava/util/Map;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    
+    invoke-interface {v0, p1, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     return-object v1
 
     .line 107
@@ -436,14 +394,12 @@ return-void
 
     .line 110
     .line 111
-    invoke-direct {p1, v1}, Ljava/lang/StringBuilder;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p1, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
     .line 112
     .line 113
     .line 114
-    invoke-virtual {v0}, Landroidx/navigation/fragment/DialogFragmentNavigator$Destination;
-    ->getClassName()Ljava/lang/String;
+    invoke-virtual {v0}, Landroidx/navigation/fragment/DialogFragmentNavigator$Destination;->getClassName()Ljava/lang/String;
 
     .line 115
     .line 116
@@ -451,8 +407,7 @@ return-void
     move-result-object v0
 
     .line 118
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 119
     .line 120
@@ -461,14 +416,12 @@ return-void
 
     .line 122
     .line 123
-    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;
-    ->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {p1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     .line 124
     .line 125
     .line 126
-    invoke-virtual {p1}, Ljava/lang/StringBuilder;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     .line 127
     .line 128
@@ -480,8 +433,7 @@ return-void
 
     .line 131
     .line 132
-    invoke-virtual {p1}, Ljava/lang/Object;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     .line 133
     .line 134
@@ -489,8 +441,7 @@ return-void
     move-result-object p1
 
     .line 136
-    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     .line 137
     .line 138
@@ -501,92 +452,76 @@ return-void
     .locals 3
 
     .line 5
-    invoke-direct {p0, p1}, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->createDialogFragment(Landroidx/navigation/NavBackStackEntry;)Landroidx/fragment/app/DialogFragment;
+    invoke-direct {p0, p1}, Landroidx/navigation/fragment/DialogFragmentNavigator;->createDialogFragment(Landroidx/navigation/NavBackStackEntry;)Landroidx/fragment/app/DialogFragment;
 
     move-result-object v0
 
     .line 6
-    iget-object v1, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->fragmentManager:Landroidx/fragment/app/FragmentManager;
+    iget-object v1, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;->fragmentManager:Landroidx/fragment/app/FragmentManager;
 
-    invoke-virtual {p1}, Landroidx/navigation/NavBackStackEntry;
-    ->getId()Ljava/lang/String;
+    invoke-virtual {p1}, Landroidx/navigation/NavBackStackEntry;->getId()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {v0, v1, v2}, Landroidx/fragment/app/DialogFragment;
-    ->show(Landroidx/fragment/app/FragmentManager;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Landroidx/fragment/app/DialogFragment;->show(Landroidx/fragment/app/FragmentManager;Ljava/lang/String;)V
 
     .line 7
-    invoke-virtual {p0}, Landroidx/navigation/Navigator;
-    ->getState()Landroidx/navigation/NavigatorState;
+    invoke-virtual {p0}, Landroidx/navigation/Navigator;->getState()Landroidx/navigation/NavigatorState;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Landroidx/navigation/NavigatorState;
-    ->getBackStack()LC1/A;
+    invoke-virtual {v0}, Landroidx/navigation/NavigatorState;->getBackStack()LC1/A;
 
     move-result-object v0
 
-    invoke-interface {v0}, LC1/A;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, LC1/A;->getValue()Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/util/List;
 
-    invoke-static {v0}, Ld1/k;
-    ->x0(Ljava/util/List;)Ljava/lang/Object;
+    invoke-static {v0}, Ld1/k;->x0(Ljava/util/List;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Landroidx/navigation/NavBackStackEntry;
 
     .line 8
-    invoke-virtual {p0}, Landroidx/navigation/Navigator;
-    ->getState()Landroidx/navigation/NavigatorState;
+    invoke-virtual {p0}, Landroidx/navigation/Navigator;->getState()Landroidx/navigation/NavigatorState;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Landroidx/navigation/NavigatorState;
-    ->getTransitionsInProgress()LC1/A;
+    invoke-virtual {v1}, Landroidx/navigation/NavigatorState;->getTransitionsInProgress()LC1/A;
 
     move-result-object v1
 
-    invoke-interface {v1}, LC1/A;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {v1}, LC1/A;->getValue()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Ljava/lang/Iterable;
 
-    invoke-static {v1, v0}, Ld1/k;
-    ->o0(Ljava/lang/Iterable;Ljava/lang/Object;)Z
+    invoke-static {v1, v0}, Ld1/k;->o0(Ljava/lang/Iterable;Ljava/lang/Object;)Z
 
     move-result v1
 
     .line 9
-    invoke-virtual {p0}, Landroidx/navigation/Navigator;
-    ->getState()Landroidx/navigation/NavigatorState;
+    invoke-virtual {p0}, Landroidx/navigation/Navigator;->getState()Landroidx/navigation/NavigatorState;
 
     move-result-object v2
 
-    invoke-virtual {v2, p1}, Landroidx/navigation/NavigatorState;
-    ->pushWithTransition(Landroidx/navigation/NavBackStackEntry;)V
+    invoke-virtual {v2, p1}, Landroidx/navigation/NavigatorState;->pushWithTransition(Landroidx/navigation/NavBackStackEntry;)V
 
     if-eqz v0, :cond_0
 
     if-nez v1, :cond_0
 
     .line 10
-    invoke-virtual {p0}, Landroidx/navigation/Navigator;
-    ->getState()Landroidx/navigation/NavigatorState;
+    invoke-virtual {p0}, Landroidx/navigation/Navigator;->getState()Landroidx/navigation/NavigatorState;
 
     move-result-object p1
 
-    invoke-virtual {p1, v0}, Landroidx/navigation/NavigatorState;
-    ->markTransitionComplete(Landroidx/navigation/NavBackStackEntry;)V
+    invoke-virtual {p1, v0}, Landroidx/navigation/NavigatorState;->markTransitionComplete(Landroidx/navigation/NavBackStackEntry;)V
 
     :cond_0
     return-void
@@ -600,8 +535,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -610,8 +544,7 @@ return-void
 
     .line 7
     .line 8
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 9
     .line 10
@@ -620,19 +553,16 @@ return-void
 
     .line 12
     .line 13
-    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 14
     .line 15
     .line 16
-    iget-object p1, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->restoredTagsAwaitingAttach:Ljava/util/Set;
+    iget-object p1, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;->restoredTagsAwaitingAttach:Ljava/util/Set;
 
     .line 17
     .line 18
-    invoke-virtual {p2}, Landroidx/fragment/app/Fragment;
-    ->getTag()Ljava/lang/String;
+    invoke-virtual {p2}, Landroidx/fragment/app/Fragment;->getTag()Ljava/lang/String;
 
     .line 19
     .line 20
@@ -664,8 +594,7 @@ return-void
 
     .line 32
     .line 33
-    invoke-static {p1, p0}, Lkotlin/jvm/internal/v;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/v;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 34
     .line 35
@@ -678,8 +607,7 @@ return-void
     .line 38
     :cond_1
     :goto_0
-    invoke-interface {p1, v0}, Ljava/util/Collection;
-    ->remove(Ljava/lang/Object;)Z
+    invoke-interface {p1, v0}, Ljava/util/Collection;->remove(Ljava/lang/Object;)Z
 
     .line 39
     .line 40
@@ -691,8 +619,7 @@ return-void
 
     .line 43
     .line 44
-    invoke-virtual {p2}, Landroidx/fragment/app/Fragment;
-    ->getLifecycle()Landroidx/lifecycle/Lifecycle;
+    invoke-virtual {p2}, Landroidx/fragment/app/Fragment;->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     .line 45
     .line 46
@@ -700,25 +627,21 @@ return-void
     move-result-object p1
 
     .line 48
-    iget-object v0, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->observer:Landroidx/navigation/fragment/DialogFragmentNavigator$observer$1;
+    iget-object v0, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;->observer:Landroidx/navigation/fragment/DialogFragmentNavigator$observer$1;
 
     .line 49
     .line 50
-    invoke-virtual {p1, v0}, Landroidx/lifecycle/Lifecycle;
-    ->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
+    invoke-virtual {p1, v0}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
     .line 51
     .line 52
     .line 53
     :cond_2
-    iget-object p0, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->transitioningFragments:Ljava/util/Map;
+    iget-object p0, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;->transitioningFragments:Ljava/util/Map;
 
     .line 54
     .line 55
-    invoke-virtual {p2}, Landroidx/fragment/app/Fragment;
-    ->getTag()Ljava/lang/String;
+    invoke-virtual {p2}, Landroidx/fragment/app/Fragment;->getTag()Ljava/lang/String;
 
     .line 56
     .line 57
@@ -726,8 +649,7 @@ return-void
     move-result-object p1
 
     .line 59
-    invoke-static {p0}, Lkotlin/jvm/internal/v;
-    ->b(Ljava/lang/Object;)Ljava/util/Map;
+    invoke-static {p0}, Lkotlin/jvm/internal/v;->b(Ljava/lang/Object;)Ljava/util/Map;
 
     .line 60
     .line 61
@@ -735,8 +657,7 @@ return-void
     move-result-object p0
 
     .line 63
-    invoke-interface {p0, p1}, Ljava/util/Map;
-    ->remove(Ljava/lang/Object;)Ljava/lang/Object;    
+    invoke-interface {p0, p1}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
     return-void
 .end method
 
@@ -744,8 +665,7 @@ return-void
     .locals 2
 
     .line 1
-    invoke-virtual {p0}, Landroidx/navigation/Navigator;
-    ->getState()Landroidx/navigation/NavigatorState;
+    invoke-virtual {p0}, Landroidx/navigation/Navigator;->getState()Landroidx/navigation/NavigatorState;
 
     .line 2
     .line 3
@@ -753,8 +673,7 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Landroidx/navigation/NavigatorState;
-    ->getBackStack()LC1/A;
+    invoke-virtual {v0}, Landroidx/navigation/NavigatorState;->getBackStack()LC1/A;
 
     .line 6
     .line 7
@@ -762,8 +681,7 @@ return-void
     move-result-object v0
 
     .line 9
-    invoke-interface {v0}, LC1/A;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, LC1/A;->getValue()Ljava/lang/Object;
 
     .line 10
     .line 11
@@ -779,8 +697,7 @@ return-void
 
     .line 16
     .line 17
-    invoke-static {v0, p1}, Ld1/k;
-    ->s0(Ljava/util/List;I)Ljava/lang/Object;
+    invoke-static {v0, p1}, Ld1/k;->s0(Ljava/util/List;I)Ljava/lang/Object;
 
     .line 18
     .line 19
@@ -792,8 +709,7 @@ return-void
 
     .line 22
     .line 23
-    invoke-virtual {p0}, Landroidx/navigation/Navigator;
-    ->getState()Landroidx/navigation/NavigatorState;
+    invoke-virtual {p0}, Landroidx/navigation/Navigator;->getState()Landroidx/navigation/NavigatorState;
 
     .line 24
     .line 25
@@ -801,8 +717,7 @@ return-void
     move-result-object v0
 
     .line 27
-    invoke-virtual {v0}, Landroidx/navigation/NavigatorState;
-    ->getTransitionsInProgress()LC1/A;
+    invoke-virtual {v0}, Landroidx/navigation/NavigatorState;->getTransitionsInProgress()LC1/A;
 
     .line 28
     .line 29
@@ -810,8 +725,7 @@ return-void
     move-result-object v0
 
     .line 31
-    invoke-interface {v0}, LC1/A;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, LC1/A;->getValue()Ljava/lang/Object;
 
     .line 32
     .line 33
@@ -823,8 +737,7 @@ return-void
 
     .line 36
     .line 37
-    invoke-static {v0, p1}, Ld1/k;
-    ->o0(Ljava/lang/Iterable;Ljava/lang/Object;)Z
+    invoke-static {v0, p1}, Ld1/k;->o0(Ljava/lang/Iterable;Ljava/lang/Object;)Z
 
     .line 38
     .line 39
@@ -832,8 +745,7 @@ return-void
     move-result v0
 
     .line 41
-    invoke-virtual {p0}, Landroidx/navigation/Navigator;
-    ->getState()Landroidx/navigation/NavigatorState;
+    invoke-virtual {p0}, Landroidx/navigation/Navigator;->getState()Landroidx/navigation/NavigatorState;
 
     .line 42
     .line 43
@@ -841,8 +753,7 @@ return-void
     move-result-object v1
 
     .line 45
-    invoke-virtual {v1, p2, p3}, Landroidx/navigation/NavigatorState;
-    ->popWithTransition(Landroidx/navigation/NavBackStackEntry;Z)V
+    invoke-virtual {v1, p2, p3}, Landroidx/navigation/NavigatorState;->popWithTransition(Landroidx/navigation/NavBackStackEntry;Z)V
 
     .line 46
     .line 47
@@ -855,8 +766,7 @@ return-void
 
     .line 51
     .line 52
-    invoke-virtual {p0}, Landroidx/navigation/Navigator;
-    ->getState()Landroidx/navigation/NavigatorState;
+    invoke-virtual {p0}, Landroidx/navigation/Navigator;->getState()Landroidx/navigation/NavigatorState;
 
     .line 53
     .line 54
@@ -864,8 +774,7 @@ return-void
     move-result-object p2
 
     .line 56
-    invoke-virtual {p2, p1}, Landroidx/navigation/NavigatorState;
-    ->markTransitionComplete(Landroidx/navigation/NavBackStackEntry;)V
+    invoke-virtual {p2, p1}, Landroidx/navigation/NavigatorState;->markTransitionComplete(Landroidx/navigation/NavBackStackEntry;)V
 
     .line 57
     .line 58
@@ -880,8 +789,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-virtual {p0}, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->createDestination()Landroidx/navigation/fragment/DialogFragmentNavigator$Destination;
+    invoke-virtual {p0}, Landroidx/navigation/fragment/DialogFragmentNavigator;->createDestination()Landroidx/navigation/fragment/DialogFragmentNavigator$Destination;
 
     move-result-object v0
 
@@ -894,8 +802,7 @@ return-void
     .line 2
     new-instance v0, Landroidx/navigation/fragment/DialogFragmentNavigator$Destination;
 
-    invoke-direct {v0, p0}, Landroidx/navigation/fragment/DialogFragmentNavigator$Destination;
-    -><init>(Landroidx/navigation/Navigator;)V
+    invoke-direct {v0, p0}, Landroidx/navigation/fragment/DialogFragmentNavigator$Destination;-><init>(Landroidx/navigation/Navigator;)V
     return-object v0
 .end method
 
@@ -909,8 +816,7 @@ return-void
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroidx/navigation/Navigator;
-    ->getState()Landroidx/navigation/NavigatorState;
+    invoke-virtual {p0}, Landroidx/navigation/Navigator;->getState()Landroidx/navigation/NavigatorState;
 
     .line 2
     .line 3
@@ -918,8 +824,7 @@ return-void
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Landroidx/navigation/NavigatorState;
-    ->getBackStack()LC1/A;
+    invoke-virtual {v0}, Landroidx/navigation/NavigatorState;->getBackStack()LC1/A;
 
     .line 6
     .line 7
@@ -945,15 +850,12 @@ return-void
 
     const-string p2, "entries"
 
-    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 1
-    iget-object p2, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->fragmentManager:Landroidx/fragment/app/FragmentManager;
+    iget-object p2, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;->fragmentManager:Landroidx/fragment/app/FragmentManager;
 
-    invoke-virtual {p2}, Landroidx/fragment/app/FragmentManager;
-    ->isStateSaved()Z
+    invoke-virtual {p2}, Landroidx/fragment/app/FragmentManager;->isStateSaved()Z
 
     move-result p2
 
@@ -964,36 +866,31 @@ return-void
 
     const-string p2, "Ignoring navigate() call: FragmentManager has already saved its state"
 
-    invoke-static {p1, p2}, Landroid/util/Log;
-    ->i(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {p1, p2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     return-void
 
     .line 3
     :cond_0
-    invoke-interface {p1}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
 
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
     move-result p2
 
     if-eqz p2, :cond_1
 
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object p2
 
     check-cast p2, Landroidx/navigation/NavBackStackEntry;
 
     .line 4
-    invoke-direct {p0, p2}, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->navigate(Landroidx/navigation/NavBackStackEntry;)V
+    invoke-direct {p0, p2}, Landroidx/navigation/fragment/DialogFragmentNavigator;->navigate(Landroidx/navigation/NavBackStackEntry;)V
 
     goto :goto_0
 
@@ -1009,20 +906,17 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-super {p0, p1}, Landroidx/navigation/Navigator;
-    ->onAttach(Landroidx/navigation/NavigatorState;)V
+    invoke-super {p0, p1}, Landroidx/navigation/Navigator;->onAttach(Landroidx/navigation/NavigatorState;)V
 
     .line 7
     .line 8
     .line 9
-    invoke-virtual {p1}, Landroidx/navigation/NavigatorState;
-    ->getBackStack()LC1/A;
+    invoke-virtual {p1}, Landroidx/navigation/NavigatorState;->getBackStack()LC1/A;
 
     .line 10
     .line 11
@@ -1030,8 +924,7 @@ return-void
     move-result-object p1
 
     .line 13
-    invoke-interface {p1}, LC1/A;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {p1}, LC1/A;->getValue()Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -1043,8 +936,7 @@ return-void
 
     .line 18
     .line 19
-    invoke-interface {p1}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 20
     .line 21
@@ -1053,8 +945,7 @@ return-void
 
     .line 23
     :goto_0
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
     .line 24
     .line 25
@@ -1066,8 +957,7 @@ return-void
 
     .line 28
     .line 29
-    invoke-interface {p1}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 30
     .line 31
@@ -1079,13 +969,11 @@ return-void
 
     .line 34
     .line 35
-    iget-object v1, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->fragmentManager:Landroidx/fragment/app/FragmentManager;
+    iget-object v1, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;->fragmentManager:Landroidx/fragment/app/FragmentManager;
 
     .line 36
     .line 37
-    invoke-virtual {v0}, Landroidx/navigation/NavBackStackEntry;
-    ->getId()Ljava/lang/String;
+    invoke-virtual {v0}, Landroidx/navigation/NavBackStackEntry;->getId()Ljava/lang/String;
 
     .line 38
     .line 39
@@ -1093,8 +981,7 @@ return-void
     move-result-object v2
 
     .line 41
-    invoke-virtual {v1, v2}, Landroidx/fragment/app/FragmentManager;
-    ->findFragmentByTag(Ljava/lang/String;)Landroidx/fragment/app/Fragment;
+    invoke-virtual {v1, v2}, Landroidx/fragment/app/FragmentManager;->findFragmentByTag(Ljava/lang/String;)Landroidx/fragment/app/Fragment;
 
     .line 42
     .line 43
@@ -1110,8 +997,7 @@ return-void
 
     .line 48
     .line 49
-    invoke-virtual {v1}, Landroidx/fragment/app/Fragment;
-    ->getLifecycle()Landroidx/lifecycle/Lifecycle;
+    invoke-virtual {v1}, Landroidx/fragment/app/Fragment;->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     .line 50
     .line 51
@@ -1123,13 +1009,11 @@ return-void
 
     .line 54
     .line 55
-    iget-object v0, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->observer:Landroidx/navigation/fragment/DialogFragmentNavigator$observer$1;
+    iget-object v0, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;->observer:Landroidx/navigation/fragment/DialogFragmentNavigator$observer$1;
 
     .line 56
     .line 57
-    invoke-virtual {v1, v0}, Landroidx/lifecycle/Lifecycle;
-    ->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
+    invoke-virtual {v1, v0}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
     .line 58
     .line 59
@@ -1138,13 +1022,11 @@ return-void
 
     .line 61
     :cond_0
-    iget-object v1, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->restoredTagsAwaitingAttach:Ljava/util/Set;
+    iget-object v1, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;->restoredTagsAwaitingAttach:Ljava/util/Set;
 
     .line 62
     .line 63
-    invoke-virtual {v0}, Landroidx/navigation/NavBackStackEntry;
-    ->getId()Ljava/lang/String;
+    invoke-virtual {v0}, Landroidx/navigation/NavBackStackEntry;->getId()Ljava/lang/String;
 
     .line 64
     .line 65
@@ -1152,8 +1034,7 @@ return-void
     move-result-object v0
 
     .line 67
-    invoke-interface {v1, v0}, Ljava/util/Set;
-    ->add(Ljava/lang/Object;)Z
+    invoke-interface {v1, v0}, Ljava/util/Set;->add(Ljava/lang/Object;)Z
 
     .line 68
     .line 69
@@ -1162,8 +1043,7 @@ return-void
 
     .line 71
     :cond_1
-    iget-object p1, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->fragmentManager:Landroidx/fragment/app/FragmentManager;
+    iget-object p1, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;->fragmentManager:Landroidx/fragment/app/FragmentManager;
 
     .line 72
     .line 73
@@ -1171,14 +1051,12 @@ return-void
 
     .line 74
     .line 75
-    invoke-direct {v0, p0}, Landroidx/navigation/fragment/a;
-    -><init>(Landroidx/navigation/fragment/DialogFragmentNavigator;)V
+    invoke-direct {v0, p0}, Landroidx/navigation/fragment/a;-><init>(Landroidx/navigation/fragment/DialogFragmentNavigator;)V
 
     .line 76
     .line 77
     .line 78
-    invoke-virtual {p1, v0}, Landroidx/fragment/app/FragmentManager;
-    ->addFragmentOnAttachListener(Landroidx/fragment/app/FragmentOnAttachListener;)V
+    invoke-virtual {p1, v0}, Landroidx/fragment/app/FragmentManager;->addFragmentOnAttachListener(Landroidx/fragment/app/FragmentOnAttachListener;)V
 return-void
 .end method
 
@@ -1190,19 +1068,16 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->fragmentManager:Landroidx/fragment/app/FragmentManager;
+    iget-object v0, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;->fragmentManager:Landroidx/fragment/app/FragmentManager;
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;
-    ->isStateSaved()Z
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->isStateSaved()Z
 
     .line 9
     .line 10
@@ -1222,19 +1097,16 @@ return-void
 
     .line 17
     .line 18
-    invoke-static {p1, v0}, Landroid/util/Log;
-    ->i(Ljava/lang/String;Ljava/lang/String;)I    
+    invoke-static {p1, v0}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
     return-void
 
     .line 22
     :cond_0
-    iget-object v0, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->transitioningFragments:Ljava/util/Map;
+    iget-object v0, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;->transitioningFragments:Ljava/util/Map;
 
     .line 23
     .line 24
-    invoke-virtual {p1}, Landroidx/navigation/NavBackStackEntry;
-    ->getId()Ljava/lang/String;
+    invoke-virtual {p1}, Landroidx/navigation/NavBackStackEntry;->getId()Ljava/lang/String;
 
     .line 25
     .line 26
@@ -1242,8 +1114,7 @@ return-void
     move-result-object v1
 
     .line 28
-    invoke-interface {v0, v1}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 29
     .line 30
@@ -1259,13 +1130,11 @@ return-void
 
     .line 35
     .line 36
-    iget-object v0, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->fragmentManager:Landroidx/fragment/app/FragmentManager;
+    iget-object v0, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;->fragmentManager:Landroidx/fragment/app/FragmentManager;
 
     .line 37
     .line 38
-    invoke-virtual {p1}, Landroidx/navigation/NavBackStackEntry;
-    ->getId()Ljava/lang/String;
+    invoke-virtual {p1}, Landroidx/navigation/NavBackStackEntry;->getId()Ljava/lang/String;
 
     .line 39
     .line 40
@@ -1273,8 +1142,7 @@ return-void
     move-result-object v1
 
     .line 42
-    invoke-virtual {v0, v1}, Landroidx/fragment/app/FragmentManager;
-    ->findFragmentByTag(Ljava/lang/String;)Landroidx/fragment/app/Fragment;
+    invoke-virtual {v0, v1}, Landroidx/fragment/app/FragmentManager;->findFragmentByTag(Ljava/lang/String;)Landroidx/fragment/app/Fragment;
 
     .line 43
     .line 44
@@ -1307,8 +1175,7 @@ return-void
 
     .line 55
     .line 56
-    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;
-    ->getLifecycle()Landroidx/lifecycle/Lifecycle;
+    invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->getLifecycle()Landroidx/lifecycle/Lifecycle;
 
     .line 57
     .line 58
@@ -1316,26 +1183,22 @@ return-void
     move-result-object v1
 
     .line 60
-    iget-object v2, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->observer:Landroidx/navigation/fragment/DialogFragmentNavigator$observer$1;
+    iget-object v2, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;->observer:Landroidx/navigation/fragment/DialogFragmentNavigator$observer$1;
 
     .line 61
     .line 62
-    invoke-virtual {v1, v2}, Landroidx/lifecycle/Lifecycle;
-    ->removeObserver(Landroidx/lifecycle/LifecycleObserver;)V
+    invoke-virtual {v1, v2}, Landroidx/lifecycle/Lifecycle;->removeObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
     .line 63
     .line 64
     .line 65
-    invoke-virtual {v0}, Landroidx/fragment/app/DialogFragment;
-    ->dismiss()V
+    invoke-virtual {v0}, Landroidx/fragment/app/DialogFragment;->dismiss()V
 
     .line 66
     .line 67
     .line 68
     :cond_3
-    invoke-direct {p0, p1}, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->createDialogFragment(Landroidx/navigation/NavBackStackEntry;)Landroidx/fragment/app/DialogFragment;
+    invoke-direct {p0, p1}, Landroidx/navigation/fragment/DialogFragmentNavigator;->createDialogFragment(Landroidx/navigation/NavBackStackEntry;)Landroidx/fragment/app/DialogFragment;
 
     .line 69
     .line 70
@@ -1343,13 +1206,11 @@ return-void
     move-result-object v0
 
     .line 72
-    iget-object v1, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->fragmentManager:Landroidx/fragment/app/FragmentManager;
+    iget-object v1, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;->fragmentManager:Landroidx/fragment/app/FragmentManager;
 
     .line 73
     .line 74
-    invoke-virtual {p1}, Landroidx/navigation/NavBackStackEntry;
-    ->getId()Ljava/lang/String;
+    invoke-virtual {p1}, Landroidx/navigation/NavBackStackEntry;->getId()Ljava/lang/String;
 
     .line 75
     .line 76
@@ -1357,14 +1218,12 @@ return-void
     move-result-object v2
 
     .line 78
-    invoke-virtual {v0, v1, v2}, Landroidx/fragment/app/DialogFragment;
-    ->show(Landroidx/fragment/app/FragmentManager;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Landroidx/fragment/app/DialogFragment;->show(Landroidx/fragment/app/FragmentManager;Ljava/lang/String;)V
 
     .line 79
     .line 80
     .line 81
-    invoke-virtual {p0}, Landroidx/navigation/Navigator;
-    ->getState()Landroidx/navigation/NavigatorState;
+    invoke-virtual {p0}, Landroidx/navigation/Navigator;->getState()Landroidx/navigation/NavigatorState;
 
     .line 82
     .line 83
@@ -1372,8 +1231,7 @@ return-void
     move-result-object v0
 
     .line 85
-    invoke-virtual {v0, p1}, Landroidx/navigation/NavigatorState;
-    ->onLaunchSingleTopWithTransition(Landroidx/navigation/NavBackStackEntry;)V
+    invoke-virtual {v0, p1}, Landroidx/navigation/NavigatorState;->onLaunchSingleTopWithTransition(Landroidx/navigation/NavBackStackEntry;)V
     return-void
 .end method
 
@@ -1385,19 +1243,16 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
     .line 6
-    iget-object v0, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->fragmentManager:Landroidx/fragment/app/FragmentManager;
+    iget-object v0, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;->fragmentManager:Landroidx/fragment/app/FragmentManager;
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;
-    ->isStateSaved()Z
+    invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->isStateSaved()Z
 
     .line 9
     .line 10
@@ -1417,14 +1272,12 @@ return-void
 
     .line 17
     .line 18
-    invoke-static {p1, p2}, Landroid/util/Log;
-    ->i(Ljava/lang/String;Ljava/lang/String;)I    
+    invoke-static {p1, p2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
     return-void
 
     .line 22
     :cond_0
-    invoke-virtual {p0}, Landroidx/navigation/Navigator;
-    ->getState()Landroidx/navigation/NavigatorState;
+    invoke-virtual {p0}, Landroidx/navigation/Navigator;->getState()Landroidx/navigation/NavigatorState;
 
     .line 23
     .line 24
@@ -1432,8 +1285,7 @@ return-void
     move-result-object v0
 
     .line 26
-    invoke-virtual {v0}, Landroidx/navigation/NavigatorState;
-    ->getBackStack()LC1/A;
+    invoke-virtual {v0}, Landroidx/navigation/NavigatorState;->getBackStack()LC1/A;
 
     .line 27
     .line 28
@@ -1441,8 +1293,7 @@ return-void
     move-result-object v0
 
     .line 30
-    invoke-interface {v0}, LC1/A;
-    ->getValue()Ljava/lang/Object;
+    invoke-interface {v0}, LC1/A;->getValue()Ljava/lang/Object;
 
     .line 31
     .line 32
@@ -1454,8 +1305,7 @@ return-void
 
     .line 35
     .line 36
-    invoke-interface {v0, p1}, Ljava/util/List;
-    ->indexOf(Ljava/lang/Object;)I
+    invoke-interface {v0, p1}, Ljava/util/List;->indexOf(Ljava/lang/Object;)I
 
     .line 37
     .line 38
@@ -1463,8 +1313,7 @@ return-void
     move-result v1
 
     .line 40
-    invoke-interface {v0}, Ljava/util/List;
-    ->size()I
+    invoke-interface {v0}, Ljava/util/List;->size()I
 
     .line 41
     .line 42
@@ -1472,8 +1321,7 @@ return-void
     move-result v2
 
     .line 44
-    invoke-interface {v0, v1, v2}, Ljava/util/List;
-    ->subList(II)Ljava/util/List;
+    invoke-interface {v0, v1, v2}, Ljava/util/List;->subList(II)Ljava/util/List;
 
     .line 45
     .line 46
@@ -1485,8 +1333,7 @@ return-void
 
     .line 49
     .line 50
-    invoke-static {v0}, Ld1/k;
-    ->B0(Ljava/lang/Iterable;)Ljava/util/List;
+    invoke-static {v0}, Ld1/k;->B0(Ljava/lang/Iterable;)Ljava/util/List;
 
     .line 51
     .line 52
@@ -1494,8 +1341,7 @@ return-void
     move-result-object v0
 
     .line 54
-    invoke-interface {v0}, Ljava/util/List;
-    ->iterator()Ljava/util/Iterator;
+    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     .line 55
     .line 56
@@ -1505,8 +1351,7 @@ return-void
     .line 58
     :cond_1
     :goto_0
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->hasNext()Z
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
     .line 59
     .line 60
@@ -1518,8 +1363,7 @@ return-void
 
     .line 63
     .line 64
-    invoke-interface {v0}, Ljava/util/Iterator;
-    ->next()Ljava/lang/Object;
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     .line 65
     .line 66
@@ -1531,13 +1375,11 @@ return-void
 
     .line 69
     .line 70
-    iget-object v3, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->fragmentManager:Landroidx/fragment/app/FragmentManager;
+    iget-object v3, p0, Landroidx/navigation/fragment/DialogFragmentNavigator;->fragmentManager:Landroidx/fragment/app/FragmentManager;
 
     .line 71
     .line 72
-    invoke-virtual {v2}, Landroidx/navigation/NavBackStackEntry;
-    ->getId()Ljava/lang/String;
+    invoke-virtual {v2}, Landroidx/navigation/NavBackStackEntry;->getId()Ljava/lang/String;
 
     .line 73
     .line 74
@@ -1545,8 +1387,7 @@ return-void
     move-result-object v2
 
     .line 76
-    invoke-virtual {v3, v2}, Landroidx/fragment/app/FragmentManager;
-    ->findFragmentByTag(Ljava/lang/String;)Landroidx/fragment/app/Fragment;
+    invoke-virtual {v3, v2}, Landroidx/fragment/app/FragmentManager;->findFragmentByTag(Ljava/lang/String;)Landroidx/fragment/app/Fragment;
 
     .line 77
     .line 78
@@ -1562,8 +1403,7 @@ return-void
 
     .line 83
     .line 84
-    invoke-virtual {v2}, Landroidx/fragment/app/DialogFragment;
-    ->dismiss()V
+    invoke-virtual {v2}, Landroidx/fragment/app/DialogFragment;->dismiss()V
 
     .line 85
     .line 86
@@ -1572,8 +1412,7 @@ return-void
 
     .line 88
     :cond_2
-    invoke-direct {p0, v1, p1, p2}, Landroidx/navigation/fragment/DialogFragmentNavigator;
-    ->popWithTransition(ILandroidx/navigation/NavBackStackEntry;Z)V
+    invoke-direct {p0, v1, p1, p2}, Landroidx/navigation/fragment/DialogFragmentNavigator;->popWithTransition(ILandroidx/navigation/NavBackStackEntry;Z)V
 return-void
 .end method
 

@@ -26,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/appcompat/widget/ActionMenuView$MenuBuilderCallback;
-    ->this$0:Landroidx/appcompat/widget/ActionMenuView;
+    iput-object p1, p0, Landroidx/appcompat/widget/ActionMenuView$MenuBuilderCallback;->this$0:Landroidx/appcompat/widget/ActionMenuView;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -50,13 +48,11 @@
     .end param
 
     .line 1
-    iget-object p1, p0, Landroidx/appcompat/widget/ActionMenuView$MenuBuilderCallback;
-    ->this$0:Landroidx/appcompat/widget/ActionMenuView;
+    iget-object p1, p0, Landroidx/appcompat/widget/ActionMenuView$MenuBuilderCallback;->this$0:Landroidx/appcompat/widget/ActionMenuView;
 
     .line 2
     .line 3
-    iget-object p1, p1, Landroidx/appcompat/widget/ActionMenuView;
-    ->mOnMenuItemClickListener:Landroidx/appcompat/widget/ActionMenuView$OnMenuItemClickListener;
+    iget-object p1, p1, Landroidx/appcompat/widget/ActionMenuView;->mOnMenuItemClickListener:Landroidx/appcompat/widget/ActionMenuView$OnMenuItemClickListener;
 
     .line 4
     .line 5
@@ -64,8 +60,7 @@
 
     .line 6
     .line 7
-    invoke-interface {p1, p2}, Landroidx/appcompat/widget/ActionMenuView$OnMenuItemClickListener;
-    ->onMenuItemClick(Landroid/view/MenuItem;)Z
+    invoke-interface {p1, p2}, Landroidx/appcompat/widget/ActionMenuView$OnMenuItemClickListener;->onMenuItemClick(Landroid/view/MenuItem;)Z
 
     .line 8
     .line 9
@@ -96,13 +91,11 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Landroidx/appcompat/widget/ActionMenuView$MenuBuilderCallback;
-    ->this$0:Landroidx/appcompat/widget/ActionMenuView;
+    iget-object v0, p0, Landroidx/appcompat/widget/ActionMenuView$MenuBuilderCallback;->this$0:Landroidx/appcompat/widget/ActionMenuView;
 
     .line 2
     .line 3
-    iget-object v0, v0, Landroidx/appcompat/widget/ActionMenuView;
-    ->mMenuBuilderCallback:Landroidx/appcompat/view/menu/MenuBuilder$Callback;
+    iget-object v0, v0, Landroidx/appcompat/widget/ActionMenuView;->mMenuBuilderCallback:Landroidx/appcompat/view/menu/MenuBuilder$Callback;
 
     .line 4
     .line 5
@@ -110,8 +103,7 @@
 
     .line 6
     .line 7
-    invoke-interface {v0, p1}, Landroidx/appcompat/view/menu/MenuBuilder$Callback;
-    ->onMenuModeChange(Landroidx/appcompat/view/menu/MenuBuilder;)V
+    invoke-interface {v0, p1}, Landroidx/appcompat/view/menu/MenuBuilder$Callback;->onMenuModeChange(Landroidx/appcompat/view/menu/MenuBuilder;)V
 
     .line 8
     .line 9

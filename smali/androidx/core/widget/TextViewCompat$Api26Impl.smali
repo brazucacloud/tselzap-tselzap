@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -38,8 +37,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/TextView;
-    ->getAutoSizeMaxTextSize()I
+    invoke-virtual {p0}, Landroid/widget/TextView;->getAutoSizeMaxTextSize()I
 
     .line 2
     .line 3
@@ -55,8 +53,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/TextView;
-    ->getAutoSizeMinTextSize()I
+    invoke-virtual {p0}, Landroid/widget/TextView;->getAutoSizeMinTextSize()I
 
     .line 2
     .line 3
@@ -72,8 +69,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/TextView;
-    ->getAutoSizeStepGranularity()I
+    invoke-virtual {p0}, Landroid/widget/TextView;->getAutoSizeStepGranularity()I
 
     .line 2
     .line 3
@@ -89,8 +85,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/TextView;
-    ->getAutoSizeTextAvailableSizes()[I
+    invoke-virtual {p0}, Landroid/widget/TextView;->getAutoSizeTextAvailableSizes()[I
 
     .line 2
     .line 3
@@ -106,8 +101,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/widget/TextView;
-    ->getAutoSizeTextType()I
+    invoke-virtual {p0}, Landroid/widget/TextView;->getAutoSizeTextType()I
 
     .line 2
     .line 3
@@ -123,8 +117,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/widget/TextView;
-    ->setAutoSizeTextTypeUniformWithConfiguration(IIII)V
+    invoke-virtual {p0, p1, p2, p3, p4}, Landroid/widget/TextView;->setAutoSizeTextTypeUniformWithConfiguration(IIII)V
 
     .line 2
     .line 3
@@ -138,8 +131,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/widget/TextView;
-    ->setAutoSizeTextTypeUniformWithPresetSizes([II)V
+    invoke-virtual {p0, p1, p2}, Landroid/widget/TextView;->setAutoSizeTextTypeUniformWithPresetSizes([II)V
 
     .line 2
     .line 3
@@ -153,8 +145,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/widget/TextView;
-    ->setAutoSizeTextTypeWithDefaults(I)V
+    invoke-virtual {p0, p1}, Landroid/widget/TextView;->setAutoSizeTextTypeWithDefaults(I)V
 
     .line 2
     .line 3

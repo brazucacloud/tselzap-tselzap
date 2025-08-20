@@ -25,8 +25,7 @@
     .locals 5
 
     .line 1
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/JavaType;
-    ->values()[Landroidx/datastore/preferences/protobuf/JavaType;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/JavaType;->values()[Landroidx/datastore/preferences/protobuf/JavaType;
 
     .line 2
     .line 3
@@ -41,8 +40,7 @@
 
     .line 7
     .line 8
-    sput-object v0, Landroidx/datastore/preferences/protobuf/FieldType$1;
-    ->$SwitchMap$com$google$protobuf$JavaType:[I
+    sput-object v0, Landroidx/datastore/preferences/protobuf/FieldType$1;->$SwitchMap$com$google$protobuf$JavaType:[I
 
     .line 9
     .line 10
@@ -50,13 +48,11 @@
 
     .line 11
     :try_start_0
-    sget-object v2, Landroidx/datastore/preferences/protobuf/JavaType;
-    ->BYTE_STRING:Landroidx/datastore/preferences/protobuf/JavaType;
+    sget-object v2, Landroidx/datastore/preferences/protobuf/JavaType;->BYTE_STRING:Landroidx/datastore/preferences/protobuf/JavaType;
 
     .line 12
     .line 13
-    invoke-virtual {v2}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
 
     .line 14
     .line 15
@@ -75,18 +71,15 @@
 
     .line 20
     :try_start_1
-    sget-object v2, Landroidx/datastore/preferences/protobuf/FieldType$1;
-    ->$SwitchMap$com$google$protobuf$JavaType:[I
+    sget-object v2, Landroidx/datastore/preferences/protobuf/FieldType$1;->$SwitchMap$com$google$protobuf$JavaType:[I
 
     .line 21
     .line 22
-    sget-object v3, Landroidx/datastore/preferences/protobuf/JavaType;
-    ->MESSAGE:Landroidx/datastore/preferences/protobuf/JavaType;
+    sget-object v3, Landroidx/datastore/preferences/protobuf/JavaType;->MESSAGE:Landroidx/datastore/preferences/protobuf/JavaType;
 
     .line 23
     .line 24
-    invoke-virtual {v3}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v3}, Ljava/lang/Enum;->ordinal()I
 
     .line 25
     .line 26
@@ -105,18 +98,15 @@
 
     .line 31
     :try_start_2
-    sget-object v3, Landroidx/datastore/preferences/protobuf/FieldType$1;
-    ->$SwitchMap$com$google$protobuf$JavaType:[I
+    sget-object v3, Landroidx/datastore/preferences/protobuf/FieldType$1;->$SwitchMap$com$google$protobuf$JavaType:[I
 
     .line 32
     .line 33
-    sget-object v4, Landroidx/datastore/preferences/protobuf/JavaType;
-    ->STRING:Landroidx/datastore/preferences/protobuf/JavaType;
+    sget-object v4, Landroidx/datastore/preferences/protobuf/JavaType;->STRING:Landroidx/datastore/preferences/protobuf/JavaType;
 
     .line 34
     .line 35
-    invoke-virtual {v4}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v4}, Ljava/lang/Enum;->ordinal()I
 
     .line 36
     .line 37
@@ -131,8 +121,7 @@
     .line 40
     .line 41
     :catch_2
-    invoke-static {}, Landroidx/datastore/preferences/protobuf/FieldType$Collection;
-    ->values()[Landroidx/datastore/preferences/protobuf/FieldType$Collection;
+    invoke-static {}, Landroidx/datastore/preferences/protobuf/FieldType$Collection;->values()[Landroidx/datastore/preferences/protobuf/FieldType$Collection;
 
     .line 42
     .line 43
@@ -147,19 +136,16 @@
 
     .line 47
     .line 48
-    sput-object v3, Landroidx/datastore/preferences/protobuf/FieldType$1;
-    ->$SwitchMap$com$google$protobuf$FieldType$Collection:[I
+    sput-object v3, Landroidx/datastore/preferences/protobuf/FieldType$1;->$SwitchMap$com$google$protobuf$FieldType$Collection:[I
 
     .line 49
     .line 50
     :try_start_3
-    sget-object v4, Landroidx/datastore/preferences/protobuf/FieldType$Collection;
-    ->MAP:Landroidx/datastore/preferences/protobuf/FieldType$Collection;
+    sget-object v4, Landroidx/datastore/preferences/protobuf/FieldType$Collection;->MAP:Landroidx/datastore/preferences/protobuf/FieldType$Collection;
 
     .line 51
     .line 52
-    invoke-virtual {v4}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v4}, Ljava/lang/Enum;->ordinal()I
 
     .line 53
     .line 54
@@ -175,18 +161,15 @@
     .line 58
     :catch_3
     :try_start_4
-    sget-object v1, Landroidx/datastore/preferences/protobuf/FieldType$1;
-    ->$SwitchMap$com$google$protobuf$FieldType$Collection:[I
+    sget-object v1, Landroidx/datastore/preferences/protobuf/FieldType$1;->$SwitchMap$com$google$protobuf$FieldType$Collection:[I
 
     .line 59
     .line 60
-    sget-object v3, Landroidx/datastore/preferences/protobuf/FieldType$Collection;
-    ->VECTOR:Landroidx/datastore/preferences/protobuf/FieldType$Collection;
+    sget-object v3, Landroidx/datastore/preferences/protobuf/FieldType$Collection;->VECTOR:Landroidx/datastore/preferences/protobuf/FieldType$Collection;
 
     .line 61
     .line 62
-    invoke-virtual {v3}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v3}, Ljava/lang/Enum;->ordinal()I
 
     .line 63
     .line 64
@@ -202,18 +185,15 @@
     .line 68
     :catch_4
     :try_start_5
-    sget-object v0, Landroidx/datastore/preferences/protobuf/FieldType$1;
-    ->$SwitchMap$com$google$protobuf$FieldType$Collection:[I
+    sget-object v0, Landroidx/datastore/preferences/protobuf/FieldType$1;->$SwitchMap$com$google$protobuf$FieldType$Collection:[I
 
     .line 69
     .line 70
-    sget-object v1, Landroidx/datastore/preferences/protobuf/FieldType$Collection;
-    ->SCALAR:Landroidx/datastore/preferences/protobuf/FieldType$Collection;
+    sget-object v1, Landroidx/datastore/preferences/protobuf/FieldType$Collection;->SCALAR:Landroidx/datastore/preferences/protobuf/FieldType$Collection;
 
     .line 71
     .line 72
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     .line 73
     .line 74

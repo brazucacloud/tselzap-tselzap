@@ -14,18 +14,15 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lcom/google/android/gms/security/zza;
-    ->zza:Landroid/content/Context;
+    iput-object p1, p0, Lcom/google/android/gms/security/zza;->zza:Landroid/content/Context;
 
     .line 2
     .line 3
-    iput-object p2, p0, Lcom/google/android/gms/security/zza;
-    ->zzb:Lcom/google/android/gms/security/ProviderInstaller$ProviderInstallListener;
+    iput-object p2, p0, Lcom/google/android/gms/security/zza;->zzb:Lcom/google/android/gms/security/ProviderInstaller$ProviderInstallListener;
 
     .line 4
     .line 5
-    invoke-direct {p0}, Landroid/os/AsyncTask;
-    -><init>()V
+    invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
 
     .line 6
     .line 7
@@ -44,13 +41,11 @@
     .line 2
     .line 3
     :try_start_0
-    iget-object p1, p0, Lcom/google/android/gms/security/zza;
-    ->zza:Landroid/content/Context;
+    iget-object p1, p0, Lcom/google/android/gms/security/zza;->zza:Landroid/content/Context;
 
     .line 4
     .line 5
-    invoke-static {p1}, Lcom/google/android/gms/security/ProviderInstaller;
-    ->installIfNeeded(Landroid/content/Context;)V
+    invoke-static {p1}, Lcom/google/android/gms/security/ProviderInstaller;->installIfNeeded(Landroid/content/Context;)V
     :try_end_0
     .catch Lcom/google/android/gms/common/GooglePlayServicesRepairableException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Lcom/google/android/gms/common/GooglePlayServicesNotAvailableException; {:try_start_0 .. :try_end_0} :catch_0
@@ -61,8 +56,7 @@
     const/4 p1, 0x0
 
     .line 9
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 10
     .line 11
@@ -87,13 +81,11 @@
 
     .line 18
     :goto_0
-    iget p1, p1, Lcom/google/android/gms/common/GooglePlayServicesNotAvailableException;
-    ->errorCode:I
+    iget p1, p1, Lcom/google/android/gms/common/GooglePlayServicesNotAvailableException;->errorCode:I
 
     .line 19
     .line 20
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 21
     .line 22
@@ -105,8 +97,7 @@
 
     .line 25
     :goto_1
-    invoke-virtual {p1}, Lcom/google/android/gms/common/GooglePlayServicesRepairableException;
-    ->getConnectionStatusCode()I
+    invoke-virtual {p1}, Lcom/google/android/gms/common/GooglePlayServicesRepairableException;->getConnectionStatusCode()I
 
     .line 26
     .line 27
@@ -114,8 +105,7 @@
     move-result p1
 
     .line 29
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 30
     .line 31
@@ -135,8 +125,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     .line 4
     .line 5
@@ -148,13 +137,11 @@
 
     .line 8
     .line 9
-    iget-object p1, p0, Lcom/google/android/gms/security/zza;
-    ->zzb:Lcom/google/android/gms/security/ProviderInstaller$ProviderInstallListener;
+    iget-object p1, p0, Lcom/google/android/gms/security/zza;->zzb:Lcom/google/android/gms/security/ProviderInstaller$ProviderInstallListener;
 
     .line 10
     .line 11
-    invoke-interface {p1}, Lcom/google/android/gms/security/ProviderInstaller$ProviderInstallListener;
-    ->onProviderInstalled()V
+    invoke-interface {p1}, Lcom/google/android/gms/security/ProviderInstaller$ProviderInstallListener;->onProviderInstalled()V
 
     .line 12
     .line 13
@@ -163,13 +150,11 @@
 
     .line 15
     :cond_0
-    iget-object v0, p0, Lcom/google/android/gms/security/zza;
-    ->zza:Landroid/content/Context;
+    iget-object v0, p0, Lcom/google/android/gms/security/zza;->zza:Landroid/content/Context;
 
     .line 16
     .line 17
-    invoke-static {}, Lcom/google/android/gms/security/ProviderInstaller;
-    ->zza()Lcom/google/android/gms/common/GoogleApiAvailabilityLight;
+    invoke-static {}, Lcom/google/android/gms/security/ProviderInstaller;->zza()Lcom/google/android/gms/common/GoogleApiAvailabilityLight;
 
     .line 18
     .line 19
@@ -177,8 +162,7 @@
     move-result-object v1
 
     .line 21
-    invoke-virtual {p1}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     .line 22
     .line 23
@@ -190,8 +174,7 @@
 
     .line 26
     .line 27
-    invoke-virtual {v1, v0, v2, v3}, Lcom/google/android/gms/common/GoogleApiAvailabilityLight;
-    ->getErrorResolutionIntent(Landroid/content/Context;ILjava/lang/String;)Landroid/content/Intent;
+    invoke-virtual {v1, v0, v2, v3}, Lcom/google/android/gms/common/GoogleApiAvailabilityLight;->getErrorResolutionIntent(Landroid/content/Context;ILjava/lang/String;)Landroid/content/Intent;
 
     .line 28
     .line 29
@@ -199,13 +182,11 @@
     move-result-object v0
 
     .line 31
-    iget-object v1, p0, Lcom/google/android/gms/security/zza;
-    ->zzb:Lcom/google/android/gms/security/ProviderInstaller$ProviderInstallListener;
+    iget-object v1, p0, Lcom/google/android/gms/security/zza;->zzb:Lcom/google/android/gms/security/ProviderInstaller$ProviderInstallListener;
 
     .line 32
     .line 33
-    invoke-virtual {p1}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
     .line 34
     .line 35
@@ -213,8 +194,7 @@
     move-result p1
 
     .line 37
-    invoke-interface {v1, p1, v0}, Lcom/google/android/gms/security/ProviderInstaller$ProviderInstallListener;
-    ->onProviderInstallFailed(ILandroid/content/Intent;)V
+    invoke-interface {v1, p1, v0}, Lcom/google/android/gms/security/ProviderInstaller$ProviderInstallListener;->onProviderInstallFailed(ILandroid/content/Intent;)V
 
     .line 38
     .line 39

@@ -28,8 +28,7 @@
 
     .line 6
     .line 7
-    invoke-direct {v2, v3, v1}, Ljava/lang/Enum;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v2, v3, v1}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     .line 8
     .line 9
@@ -42,14 +41,12 @@
 
     .line 13
     .line 14
-    invoke-direct {v3, v4, v0}, Ljava/lang/Enum;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v3, v4, v0}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 
     .line 15
     .line 16
     .line 17
-    sput-object v3, LM/B;
-    ->b:LM/B;
+    sput-object v3, LM/B;->b:LM/B;
 
     .line 18
     .line 19
@@ -68,8 +65,7 @@
 
     .line 25
     .line 26
-    sput-object v4, LM/B;
-    ->c:[LM/B;
+    sput-object v4, LM/B;->c:[LM/B;
 
     .line 27
     .line 28
@@ -77,14 +73,12 @@
 
     .line 29
     .line 30
-    invoke-direct {v0}, Landroid/util/SparseArray;
-    -><init>()V
+    invoke-direct {v0}, Landroid/util/SparseArray;-><init>()V
 
     .line 31
     .line 32
     .line 33
-    invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;
-    ->put(ILjava/lang/Object;)V
+    invoke-virtual {v0, v1, v2}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 34
     .line 35
@@ -92,8 +86,7 @@
     const/4 v1, 0x5
 
     .line 37
-    invoke-virtual {v0, v1, v3}, Landroid/util/SparseArray;
-    ->put(ILjava/lang/Object;)V
+    invoke-virtual {v0, v1, v3}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
 
     .line 38
     .line 39
@@ -109,8 +102,7 @@
 
     .line 2
     .line 3
-    invoke-static {v0, p0}, Ljava/lang/Enum;
-    ->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     .line 4
     .line 5
@@ -129,13 +121,11 @@
     .locals 1
 
     .line 1
-    sget-object v0, LM/B;
-    ->c:[LM/B;
+    sget-object v0, LM/B;->c:[LM/B;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, [LM/B;
-    ->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, [LM/B;->clone()Ljava/lang/Object;
 
     .line 4
     .line 5

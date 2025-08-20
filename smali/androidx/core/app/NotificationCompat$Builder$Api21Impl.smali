@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -38,8 +37,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/media/AudioAttributes$Builder;
-    ->build()Landroid/media/AudioAttributes;
+    invoke-virtual {p0}, Landroid/media/AudioAttributes$Builder;->build()Landroid/media/AudioAttributes;
 
     .line 2
     .line 3
@@ -59,8 +57,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/media/AudioAttributes$Builder;
-    -><init>()V
+    invoke-direct {v0}, Landroid/media/AudioAttributes$Builder;-><init>()V
 
     .line 4
     .line 5
@@ -74,8 +71,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/media/AudioAttributes$Builder;
-    ->setContentType(I)Landroid/media/AudioAttributes$Builder;
+    invoke-virtual {p0, p1}, Landroid/media/AudioAttributes$Builder;->setContentType(I)Landroid/media/AudioAttributes$Builder;
 
     .line 2
     .line 3
@@ -91,8 +87,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/media/AudioAttributes$Builder;
-    ->setLegacyStreamType(I)Landroid/media/AudioAttributes$Builder;
+    invoke-virtual {p0, p1}, Landroid/media/AudioAttributes$Builder;->setLegacyStreamType(I)Landroid/media/AudioAttributes$Builder;
 
     .line 2
     .line 3
@@ -108,8 +103,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/media/AudioAttributes$Builder;
-    ->setUsage(I)Landroid/media/AudioAttributes$Builder;
+    invoke-virtual {p0, p1}, Landroid/media/AudioAttributes$Builder;->setUsage(I)Landroid/media/AudioAttributes$Builder;
 
     .line 2
     .line 3

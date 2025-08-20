@@ -19,8 +19,7 @@
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getTop()I
+    invoke-virtual {p1}, Landroid/view/View;->getTop()I
 
     .line 6
     .line 7
@@ -28,8 +27,7 @@
     move-result p1
 
     .line 9
-    invoke-virtual {p2}, Landroid/view/View;
-    ->getTop()I
+    invoke-virtual {p2}, Landroid/view/View;->getTop()I
 
     .line 10
     .line 11

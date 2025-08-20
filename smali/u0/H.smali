@@ -18,8 +18,7 @@
     .locals 11
 
     .line 1
-    invoke-interface {p2}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getDepth()I
+    invoke-interface {p2}, Lorg/xmlpull/v1/XmlPullParser;->getDepth()I
 
     .line 2
     .line 3
@@ -35,8 +34,7 @@
     .line 7
     :cond_0
     :goto_0
-    invoke-interface {p2}, Lorg/xmlpull/v1/XmlPullParser;
-    ->next()I
+    invoke-interface {p2}, Lorg/xmlpull/v1/XmlPullParser;->next()I
 
     .line 8
     .line 9
@@ -48,8 +46,7 @@
 
     .line 12
     .line 13
-    invoke-interface {p2}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getDepth()I
+    invoke-interface {p2}, Lorg/xmlpull/v1/XmlPullParser;->getDepth()I
 
     .line 14
     .line 15
@@ -80,8 +77,7 @@
 
     .line 26
     .line 27
-    invoke-interface {p2}, Lorg/xmlpull/v1/XmlPullParser;
-    ->getName()Ljava/lang/String;
+    invoke-interface {p2}, Lorg/xmlpull/v1/XmlPullParser;->getName()Ljava/lang/String;
 
     .line 28
     .line 29
@@ -93,8 +89,7 @@
 
     .line 32
     .line 33
-    invoke-virtual {v2, v3}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {v2, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 34
     .line 35
@@ -110,8 +105,7 @@
 
     .line 40
     :cond_2
-    invoke-virtual {p1}, Landroid/content/Context;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     .line 41
     .line 42
@@ -119,8 +113,7 @@
     move-result-object v2
 
     .line 44
-    sget-object v3, LY/a;
-    ->K:[I
+    sget-object v3, LY/a;->K:[I
 
     .line 45
     .line 46
@@ -131,8 +124,7 @@
 
     .line 48
     .line 49
-    invoke-virtual {v2, p3, v3}, Landroid/content/res/Resources;
-    ->obtainAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
+    invoke-virtual {v2, p3, v3}, Landroid/content/res/Resources;->obtainAttributes(Landroid/util/AttributeSet;[I)Landroid/content/res/TypedArray;
 
     .line 50
     .line 51
@@ -144,8 +136,7 @@
 
     .line 54
     :cond_3
-    invoke-virtual {p4, p3, v3, v5, v5}, Landroid/content/res/Resources$Theme;
-    ->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
+    invoke-virtual {p4, p3, v3, v5, v5}, Landroid/content/res/Resources$Theme;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 
     .line 55
     .line 56
@@ -154,8 +145,7 @@
 
     .line 58
     :goto_1
-    invoke-virtual {v2, v5}, Landroid/content/res/TypedArray;
-    ->peekValue(I)Landroid/util/TypedValue;
+    invoke-virtual {v2, v5}, Landroid/content/res/TypedArray;->peekValue(I)Landroid/util/TypedValue;
 
     .line 59
     .line 60
@@ -171,8 +161,7 @@
 
     .line 65
     :cond_4
-    iget v6, v3, Landroid/util/TypedValue;
-    ->type:I
+    iget v6, v3, Landroid/util/TypedValue;->type:I
 
     .line 66
     .line 67
@@ -187,13 +176,11 @@
 
     .line 71
     .line 72
-    iget v3, v3, Landroid/util/TypedValue;
-    ->data:I
+    iget v3, v3, Landroid/util/TypedValue;->data:I
 
     .line 73
     .line 74
-    invoke-virtual {v2}, Landroid/content/res/TypedArray;
-    ->getResources()Landroid/content/res/Resources;
+    invoke-virtual {v2}, Landroid/content/res/TypedArray;->getResources()Landroid/content/res/Resources;
 
     .line 75
     .line 76
@@ -201,8 +188,7 @@
     move-result-object v7
 
     .line 78
-    invoke-virtual {v7}, Landroid/content/res/Resources;
-    ->getDisplayMetrics()Landroid/util/DisplayMetrics;
+    invoke-virtual {v7}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
 
     .line 79
     .line 80
@@ -210,8 +196,7 @@
     move-result-object v7
 
     .line 82
-    invoke-static {v3, v7}, Landroid/util/TypedValue;
-    ->complexToDimensionPixelSize(ILandroid/util/DisplayMetrics;)I
+    invoke-static {v3, v7}, Landroid/util/TypedValue;->complexToDimensionPixelSize(ILandroid/util/DisplayMetrics;)I
 
     .line 83
     .line 84
@@ -222,8 +207,7 @@
     int-to-float v3, v3
 
     .line 87
-    invoke-direct {v6, v4, v3}, Lu0/G;
-    -><init>(IF)V
+    invoke-direct {v6, v4, v3}, Lu0/G;-><init>(IF)V
 
     .line 88
     .line 89
@@ -247,8 +231,7 @@
 
     .line 97
     .line 98
-    invoke-virtual {v3, v4, v4}, Landroid/util/TypedValue;
-    ->getFraction(FF)F
+    invoke-virtual {v3, v4, v4}, Landroid/util/TypedValue;->getFraction(FF)F
 
     .line 99
     .line 100
@@ -256,8 +239,7 @@
     move-result v3
 
     .line 102
-    invoke-direct {v6, v1, v3}, Lu0/G;
-    -><init>(IF)V
+    invoke-direct {v6, v1, v3}, Lu0/G;-><init>(IF)V
 
     .line 103
     .line 104
@@ -271,14 +253,12 @@
 
     .line 107
     :goto_3
-    invoke-virtual {v2}, Landroid/content/res/TypedArray;
-    ->recycle()V
+    invoke-virtual {v2}, Landroid/content/res/TypedArray;->recycle()V
 
     .line 108
     .line 109
     .line 110
-    invoke-interface {p3}, Landroid/util/AttributeSet;
-    ->getAttributeCount()I
+    invoke-interface {p3}, Landroid/util/AttributeSet;->getAttributeCount()I
 
     .line 111
     .line 112
@@ -301,8 +281,7 @@
 
     .line 119
     .line 120
-    invoke-interface {p3, v4}, Landroid/util/AttributeSet;
-    ->getAttributeNameResource(I)I
+    invoke-interface {p3, v4}, Landroid/util/AttributeSet;->getAttributeNameResource(I)I
 
     .line 121
     .line 122
@@ -323,8 +302,7 @@
 
     .line 130
     .line 131
-    invoke-interface {p3, v4, v5}, Landroid/util/AttributeSet;
-    ->getAttributeBooleanValue(IZ)Z
+    invoke-interface {p3, v4, v5}, Landroid/util/AttributeSet;->getAttributeBooleanValue(IZ)Z
 
     .line 132
     .line 133
@@ -360,8 +338,7 @@
 
     .line 145
     :cond_9
-    invoke-static {v3, v7}, Landroid/util/StateSet;
-    ->trimStateSet([II)[I
+    invoke-static {v3, v7}, Landroid/util/StateSet;->trimStateSet([II)[I
 
     .line 146
     .line 147
@@ -380,19 +357,16 @@
     const/4 v7, 0x0
 
     .line 154
-    invoke-direct {v3, v4, v7}, LC1/s;
-    -><init>(IC)V
+    invoke-direct {v3, v4, v7}, LC1/s;-><init>(IC)V
 
     .line 155
     .line 156
     .line 157
-    iput-object v6, v3, LC1/s;
-    ->c:Ljava/lang/Object;
+    iput-object v6, v3, LC1/s;->c:Ljava/lang/Object;
 
     .line 158
     .line 159
-    iget v4, p0, Lu0/H;
-    ->a:I
+    iget v4, p0, Lu0/H;->a:I
 
     .line 160
     .line 161
@@ -408,14 +382,12 @@
     .line 165
     .line 166
     :cond_a
-    iput-object v3, p0, Lu0/H;
-    ->b:LC1/s;
+    iput-object v3, p0, Lu0/H;->b:LC1/s;
 
     .line 167
     .line 168
     :cond_b
-    iget-object v6, p0, Lu0/H;
-    ->c:[[I
+    iget-object v6, p0, Lu0/H;->c:[[I
 
     .line 169
     .line 170
@@ -434,14 +406,12 @@
 
     .line 176
     .line 177
-    invoke-static {v6, v5, v8, v5, v4}, Ljava/lang/System;
-    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {v6, v5, v8, v5, v4}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 178
     .line 179
     .line 180
-    iput-object v8, p0, Lu0/H;
-    ->c:[[I
+    iput-object v8, p0, Lu0/H;->c:[[I
 
     .line 181
     .line 182
@@ -449,30 +419,25 @@
 
     .line 183
     .line 184
-    iget-object v7, p0, Lu0/H;
-    ->d:[LC1/s;
+    iget-object v7, p0, Lu0/H;->d:[LC1/s;
 
     .line 185
     .line 186
-    invoke-static {v7, v5, v6, v5, v4}, Ljava/lang/System;
-    ->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+    invoke-static {v7, v5, v6, v5, v4}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
     .line 187
     .line 188
     .line 189
-    iput-object v6, p0, Lu0/H;
-    ->d:[LC1/s;
+    iput-object v6, p0, Lu0/H;->d:[LC1/s;
 
     .line 190
     .line 191
     :cond_c
-    iget-object v4, p0, Lu0/H;
-    ->c:[[I
+    iget-object v4, p0, Lu0/H;->c:[[I
 
     .line 192
     .line 193
-    iget v5, p0, Lu0/H;
-    ->a:I
+    iget v5, p0, Lu0/H;->a:I
 
     .line 194
     .line 195
@@ -480,8 +445,7 @@
 
     .line 196
     .line 197
-    iget-object v2, p0, Lu0/H;
-    ->d:[LC1/s;
+    iget-object v2, p0, Lu0/H;->d:[LC1/s;
 
     .line 198
     .line 199
@@ -492,8 +456,7 @@
     add-int/2addr v5, v1
 
     .line 202
-    iput v5, p0, Lu0/H;
-    ->a:I
+    iput v5, p0, Lu0/H;->a:I
 
     .line 203
     .line 204

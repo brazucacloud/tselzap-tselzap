@@ -35,8 +35,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -56,8 +55,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getContext()Landroid/content/Context;
+    invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     .line 4
     .line 5
@@ -65,8 +63,7 @@
     move-result-object p1
 
     .line 7
-    invoke-direct {p2, p1}, Landroid/widget/EdgeEffect;
-    -><init>(Landroid/content/Context;)V
+    invoke-direct {p2, p1}, Landroid/widget/EdgeEffect;-><init>(Landroid/content/Context;)V
     return-object p2
 .end method
 

@@ -8,8 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Landroidx/viewpager/widget/PagerTabStrip;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    value = Landroidx/viewpager/widget/PagerTabStrip;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -27,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/viewpager/widget/PagerTabStrip$1;
-    ->this$0:Landroidx/viewpager/widget/PagerTabStrip;
+    iput-object p1, p0, Landroidx/viewpager/widget/PagerTabStrip$1;->this$0:Landroidx/viewpager/widget/PagerTabStrip;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -43,18 +40,15 @@
     .locals 1
 
     .line 1
-    iget-object p1, p0, Landroidx/viewpager/widget/PagerTabStrip$1;
-    ->this$0:Landroidx/viewpager/widget/PagerTabStrip;
+    iget-object p1, p0, Landroidx/viewpager/widget/PagerTabStrip$1;->this$0:Landroidx/viewpager/widget/PagerTabStrip;
 
     .line 2
     .line 3
-    iget-object p1, p1, Landroidx/viewpager/widget/PagerTitleStrip;
-    ->mPager:Landroidx/viewpager/widget/ViewPager;
+    iget-object p1, p1, Landroidx/viewpager/widget/PagerTitleStrip;->mPager:Landroidx/viewpager/widget/ViewPager;
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Landroidx/viewpager/widget/ViewPager;
-    ->getCurrentItem()I
+    invoke-virtual {p1}, Landroidx/viewpager/widget/ViewPager;->getCurrentItem()I
 
     .line 6
     .line 7
@@ -66,8 +60,7 @@
 
     .line 10
     .line 11
-    invoke-virtual {p1, v0}, Landroidx/viewpager/widget/ViewPager;
-    ->setCurrentItem(I)V    
+    invoke-virtual {p1, v0}, Landroidx/viewpager/widget/ViewPager;->setCurrentItem(I)V
     return-void
 .end method
 

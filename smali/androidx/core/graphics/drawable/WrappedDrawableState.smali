@@ -22,8 +22,7 @@
     .end param
 
     .line 1
-    invoke-direct {p0}, Landroid/graphics/drawable/Drawable$ConstantState;
-    -><init>()V
+    invoke-direct {p0}, Landroid/graphics/drawable/Drawable$ConstantState;-><init>()V
 
     .line 2
     .line 3
@@ -31,18 +30,15 @@
     const/4 v0, 0x0
 
     .line 5
-    iput-object v0, p0, Landroidx/core/graphics/drawable/WrappedDrawableState;
-    ->mTint:Landroid/content/res/ColorStateList;
+    iput-object v0, p0, Landroidx/core/graphics/drawable/WrappedDrawableState;->mTint:Landroid/content/res/ColorStateList;
 
     .line 6
     .line 7
-    sget-object v0, Landroidx/core/graphics/drawable/WrappedDrawableApi14;
-    ->DEFAULT_TINT_MODE:Landroid/graphics/PorterDuff$Mode;
+    sget-object v0, Landroidx/core/graphics/drawable/WrappedDrawableApi14;->DEFAULT_TINT_MODE:Landroid/graphics/PorterDuff$Mode;
 
     .line 8
     .line 9
-    iput-object v0, p0, Landroidx/core/graphics/drawable/WrappedDrawableState;
-    ->mTintMode:Landroid/graphics/PorterDuff$Mode;
+    iput-object v0, p0, Landroidx/core/graphics/drawable/WrappedDrawableState;->mTintMode:Landroid/graphics/PorterDuff$Mode;
 
     .line 10
     .line 11
@@ -50,43 +46,35 @@
 
     .line 12
     .line 13
-    iget v0, p1, Landroidx/core/graphics/drawable/WrappedDrawableState;
-    ->mChangingConfigurations:I
+    iget v0, p1, Landroidx/core/graphics/drawable/WrappedDrawableState;->mChangingConfigurations:I
 
     .line 14
     .line 15
-    iput v0, p0, Landroidx/core/graphics/drawable/WrappedDrawableState;
-    ->mChangingConfigurations:I
+    iput v0, p0, Landroidx/core/graphics/drawable/WrappedDrawableState;->mChangingConfigurations:I
 
     .line 16
     .line 17
-    iget-object v0, p1, Landroidx/core/graphics/drawable/WrappedDrawableState;
-    ->mDrawableState:Landroid/graphics/drawable/Drawable$ConstantState;
+    iget-object v0, p1, Landroidx/core/graphics/drawable/WrappedDrawableState;->mDrawableState:Landroid/graphics/drawable/Drawable$ConstantState;
 
     .line 18
     .line 19
-    iput-object v0, p0, Landroidx/core/graphics/drawable/WrappedDrawableState;
-    ->mDrawableState:Landroid/graphics/drawable/Drawable$ConstantState;
+    iput-object v0, p0, Landroidx/core/graphics/drawable/WrappedDrawableState;->mDrawableState:Landroid/graphics/drawable/Drawable$ConstantState;
 
     .line 20
     .line 21
-    iget-object v0, p1, Landroidx/core/graphics/drawable/WrappedDrawableState;
-    ->mTint:Landroid/content/res/ColorStateList;
+    iget-object v0, p1, Landroidx/core/graphics/drawable/WrappedDrawableState;->mTint:Landroid/content/res/ColorStateList;
 
     .line 22
     .line 23
-    iput-object v0, p0, Landroidx/core/graphics/drawable/WrappedDrawableState;
-    ->mTint:Landroid/content/res/ColorStateList;
+    iput-object v0, p0, Landroidx/core/graphics/drawable/WrappedDrawableState;->mTint:Landroid/content/res/ColorStateList;
 
     .line 24
     .line 25
-    iget-object p1, p1, Landroidx/core/graphics/drawable/WrappedDrawableState;
-    ->mTintMode:Landroid/graphics/PorterDuff$Mode;
+    iget-object p1, p1, Landroidx/core/graphics/drawable/WrappedDrawableState;->mTintMode:Landroid/graphics/PorterDuff$Mode;
 
     .line 26
     .line 27
-    iput-object p1, p0, Landroidx/core/graphics/drawable/WrappedDrawableState;
-    ->mTintMode:Landroid/graphics/PorterDuff$Mode;
+    iput-object p1, p0, Landroidx/core/graphics/drawable/WrappedDrawableState;->mTintMode:Landroid/graphics/PorterDuff$Mode;
 
     .line 28
     .line 29
@@ -100,8 +88,7 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Landroidx/core/graphics/drawable/WrappedDrawableState;
-    ->mDrawableState:Landroid/graphics/drawable/Drawable$ConstantState;
+    iget-object v0, p0, Landroidx/core/graphics/drawable/WrappedDrawableState;->mDrawableState:Landroid/graphics/drawable/Drawable$ConstantState;
 
     .line 2
     .line 3
@@ -124,13 +111,11 @@
     .locals 2
 
     .line 1
-    iget v0, p0, Landroidx/core/graphics/drawable/WrappedDrawableState;
-    ->mChangingConfigurations:I
+    iget v0, p0, Landroidx/core/graphics/drawable/WrappedDrawableState;->mChangingConfigurations:I
 
     .line 2
     .line 3
-    iget-object v1, p0, Landroidx/core/graphics/drawable/WrappedDrawableState;
-    ->mDrawableState:Landroid/graphics/drawable/Drawable$ConstantState;
+    iget-object v1, p0, Landroidx/core/graphics/drawable/WrappedDrawableState;->mDrawableState:Landroid/graphics/drawable/Drawable$ConstantState;
 
     .line 4
     .line 5
@@ -138,8 +123,7 @@
 
     .line 6
     .line 7
-    invoke-virtual {v1}, Landroid/graphics/drawable/Drawable$ConstantState;
-    ->getChangingConfigurations()I
+    invoke-virtual {v1}, Landroid/graphics/drawable/Drawable$ConstantState;->getChangingConfigurations()I
 
     .line 8
     .line 9
@@ -168,8 +152,7 @@
     const/4 v0, 0x0
 
     .line 1
-    invoke-virtual {p0, v0}, Landroidx/core/graphics/drawable/WrappedDrawableState;
-    ->newDrawable(Landroid/content/res/Resources;)Landroid/graphics/drawable/Drawable;
+    invoke-virtual {p0, v0}, Landroidx/core/graphics/drawable/WrappedDrawableState;->newDrawable(Landroid/content/res/Resources;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v0
 
@@ -188,8 +171,7 @@
     .line 2
     new-instance v0, Landroidx/core/graphics/drawable/WrappedDrawableApi21;
 
-    invoke-direct {v0, p0, p1}, Landroidx/core/graphics/drawable/WrappedDrawableApi21;
-    -><init>(Landroidx/core/graphics/drawable/WrappedDrawableState;Landroid/content/res/Resources;)V
+    invoke-direct {v0, p0, p1}, Landroidx/core/graphics/drawable/WrappedDrawableApi21;-><init>(Landroidx/core/graphics/drawable/WrappedDrawableState;Landroid/content/res/Resources;)V
     return-object v0
 .end method
 

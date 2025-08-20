@@ -20,14 +20,12 @@
     .end param
 
     .line 1
-    invoke-direct {p0, p1}, Ljava/lang/Exception;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
 
     .line 2
     .line 3
     .line 4
-    iput-object p2, p0, Lcom/google/android/gms/common/UserRecoverableException;
-    ->zza:Landroid/content/Intent;
+    iput-object p2, p0, Lcom/google/android/gms/common/UserRecoverableException;->zza:Landroid/content/Intent;
 
     .line 5
     .line 6
@@ -46,13 +44,11 @@
 
     .line 2
     .line 3
-    iget-object v1, p0, Lcom/google/android/gms/common/UserRecoverableException;
-    ->zza:Landroid/content/Intent;
+    iget-object v1, p0, Lcom/google/android/gms/common/UserRecoverableException;->zza:Landroid/content/Intent;
 
     .line 4
     .line 5
-    invoke-direct {v0, v1}, Landroid/content/Intent;
-    -><init>(Landroid/content/Intent;)V
+    invoke-direct {v0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Intent;)V
 
     .line 6
     .line 7

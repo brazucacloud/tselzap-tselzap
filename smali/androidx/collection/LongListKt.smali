@@ -19,30 +19,26 @@
     const/4 v1, 0x0
 
     .line 4
-    invoke-direct {v0, v1}, Landroidx/collection/MutableLongList;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/collection/MutableLongList;-><init>(I)V
 
     .line 5
     .line 6
     .line 7
-    sput-object v0, Landroidx/collection/LongListKt;
-    ->EmptyLongList:Landroidx/collection/LongList;    return-void
+    sput-object v0, Landroidx/collection/LongListKt;->EmptyLongList:Landroidx/collection/LongList;    return-void
 .end method
 
 .method public static final emptyLongList()Landroidx/collection/LongList;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/collection/LongListKt;
-    ->EmptyLongList:Landroidx/collection/LongList;    return-object v0
+    sget-object v0, Landroidx/collection/LongListKt;->EmptyLongList:Landroidx/collection/LongList;    return-object v0
 .end method
 
 .method public static final longListOf()Landroidx/collection/LongList;
     .locals 1
 
     .line 1
-    sget-object v0, Landroidx/collection/LongListKt;
-    ->EmptyLongList:Landroidx/collection/LongList;
+    sget-object v0, Landroidx/collection/LongListKt;->EmptyLongList:Landroidx/collection/LongList;
 
     return-object v0
 .end method
@@ -51,8 +47,7 @@
     .locals 0
 
     .line 2
-    invoke-static {p0, p1}, Landroidx/collection/LongListKt;
-    ->mutableLongListOf(J)Landroidx/collection/MutableLongList;
+    invoke-static {p0, p1}, Landroidx/collection/LongListKt;->mutableLongListOf(J)Landroidx/collection/MutableLongList;
 
     move-result-object p0
 
@@ -63,8 +58,7 @@
     .locals 0
 
     .line 3
-    invoke-static {p0, p1, p2, p3}, Landroidx/collection/LongListKt;
-    ->mutableLongListOf(JJ)Landroidx/collection/MutableLongList;
+    invoke-static {p0, p1, p2, p3}, Landroidx/collection/LongListKt;->mutableLongListOf(JJ)Landroidx/collection/MutableLongList;
 
     move-result-object p0
 
@@ -75,8 +69,7 @@
     .locals 0
 
     .line 4
-    invoke-static/range {p0 .. p5}, Landroidx/collection/LongListKt;
-    ->mutableLongListOf(JJJ)Landroidx/collection/MutableLongList;
+    invoke-static/range {p0 .. p5}, Landroidx/collection/LongListKt;->mutableLongListOf(JJJ)Landroidx/collection/MutableLongList;
 
     move-result-object p0
 
@@ -88,19 +81,16 @@
 
     const-string v0, "elements"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 5
     new-instance v0, Landroidx/collection/MutableLongList;
 
     array-length v1, p0
 
-    invoke-direct {v0, v1}, Landroidx/collection/MutableLongList;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/collection/MutableLongList;-><init>(I)V
 
-    invoke-virtual {v0, p0}, Landroidx/collection/MutableLongList;
-    ->plusAssign([J)V
+    invoke-virtual {v0, p0}, Landroidx/collection/MutableLongList;->plusAssign([J)V
 return-object v0
 .end method
 
@@ -116,8 +106,7 @@ return-object v0
 
     const/4 v3, 0x0
 
-    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongList;
-    -><init>(IILkotlin/jvm/internal/e;)V
+    invoke-direct {v0, v3, v1, v2}, Landroidx/collection/MutableLongList;-><init>(IILkotlin/jvm/internal/e;)V
 return-object v0
 .end method
 
@@ -129,12 +118,10 @@ return-object v0
 
     const/4 v1, 0x1
 
-    invoke-direct {v0, v1}, Landroidx/collection/MutableLongList;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/collection/MutableLongList;-><init>(I)V
 
     .line 3
-    invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableLongList;
-    ->add(J)Z
+    invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableLongList;->add(J)Z
 
     return-object v0
 .end method
@@ -147,16 +134,13 @@ return-object v0
 
     const/4 v1, 0x2
 
-    invoke-direct {v0, v1}, Landroidx/collection/MutableLongList;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/collection/MutableLongList;-><init>(I)V
 
     .line 5
-    invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableLongList;
-    ->add(J)Z
+    invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableLongList;->add(J)Z
 
     .line 6
-    invoke-virtual {v0, p2, p3}, Landroidx/collection/MutableLongList;
-    ->add(J)Z
+    invoke-virtual {v0, p2, p3}, Landroidx/collection/MutableLongList;->add(J)Z
 
     return-object v0
 .end method
@@ -169,20 +153,16 @@ return-object v0
 
     const/4 v1, 0x3
 
-    invoke-direct {v0, v1}, Landroidx/collection/MutableLongList;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/collection/MutableLongList;-><init>(I)V
 
     .line 8
-    invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableLongList;
-    ->add(J)Z
+    invoke-virtual {v0, p0, p1}, Landroidx/collection/MutableLongList;->add(J)Z
 
     .line 9
-    invoke-virtual {v0, p2, p3}, Landroidx/collection/MutableLongList;
-    ->add(J)Z
+    invoke-virtual {v0, p2, p3}, Landroidx/collection/MutableLongList;->add(J)Z
 
     .line 10
-    invoke-virtual {v0, p4, p5}, Landroidx/collection/MutableLongList;
-    ->add(J)Z
+    invoke-virtual {v0, p4, p5}, Landroidx/collection/MutableLongList;->add(J)Z
 
     return-object v0
 .end method
@@ -192,19 +172,16 @@ return-object v0
 
     const-string v0, "elements"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 11
     new-instance v0, Landroidx/collection/MutableLongList;
 
     array-length v1, p0
 
-    invoke-direct {v0, v1}, Landroidx/collection/MutableLongList;
-    -><init>(I)V
+    invoke-direct {v0, v1}, Landroidx/collection/MutableLongList;-><init>(I)V
 
-    invoke-virtual {v0, p0}, Landroidx/collection/MutableLongList;
-    ->plusAssign([J)V
+    invoke-virtual {v0, p0}, Landroidx/collection/MutableLongList;->plusAssign([J)V
 return-object v0
 .end method
 

@@ -15,14 +15,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lcom/google/android/material/timepicker/l;
-    ->b:Landroid/view/GestureDetector;
+    iput-object p1, p0, Lcom/google/android/material/timepicker/l;->b:Landroid/view/GestureDetector;
 
     .line 5
     .line 6
@@ -39,8 +37,7 @@
 
     .line 2
     .line 3
-    invoke-interface {p1}, Landroid/widget/Checkable;
-    ->isChecked()Z
+    invoke-interface {p1}, Landroid/widget/Checkable;->isChecked()Z
 
     .line 4
     .line 5
@@ -52,13 +49,11 @@
 
     .line 8
     .line 9
-    iget-object p1, p0, Lcom/google/android/material/timepicker/l;
-    ->b:Landroid/view/GestureDetector;
+    iget-object p1, p0, Lcom/google/android/material/timepicker/l;->b:Landroid/view/GestureDetector;
 
     .line 10
     .line 11
-    invoke-virtual {p1, p2}, Landroid/view/GestureDetector;
-    ->onTouchEvent(Landroid/view/MotionEvent;)Z
+    invoke-virtual {p1, p2}, Landroid/view/GestureDetector;->onTouchEvent(Landroid/view/MotionEvent;)Z
 
     .line 12
     .line 13

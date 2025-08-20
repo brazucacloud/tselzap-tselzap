@@ -26,13 +26,11 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Landroidx/preference/DropDownPreference$1;
-    ->this$0:Landroidx/preference/DropDownPreference;
+    iput-object p1, p0, Landroidx/preference/DropDownPreference$1;->this$0:Landroidx/preference/DropDownPreference;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 
@@ -55,13 +53,11 @@
 
     .line 2
     .line 3
-    iget-object p1, p0, Landroidx/preference/DropDownPreference$1;
-    ->this$0:Landroidx/preference/DropDownPreference;
+    iget-object p1, p0, Landroidx/preference/DropDownPreference$1;->this$0:Landroidx/preference/DropDownPreference;
 
     .line 4
     .line 5
-    invoke-virtual {p1}, Landroidx/preference/ListPreference;
-    ->getEntryValues()[Ljava/lang/CharSequence;
+    invoke-virtual {p1}, Landroidx/preference/ListPreference;->getEntryValues()[Ljava/lang/CharSequence;
 
     .line 6
     .line 7
@@ -73,8 +69,7 @@
 
     .line 10
     .line 11
-    invoke-interface {p1}, Ljava/lang/CharSequence;
-    ->toString()Ljava/lang/String;
+    invoke-interface {p1}, Ljava/lang/CharSequence;->toString()Ljava/lang/String;
 
     .line 12
     .line 13
@@ -82,13 +77,11 @@
     move-result-object p1
 
     .line 15
-    iget-object p2, p0, Landroidx/preference/DropDownPreference$1;
-    ->this$0:Landroidx/preference/DropDownPreference;
+    iget-object p2, p0, Landroidx/preference/DropDownPreference$1;->this$0:Landroidx/preference/DropDownPreference;
 
     .line 16
     .line 17
-    invoke-virtual {p2}, Landroidx/preference/ListPreference;
-    ->getValue()Ljava/lang/String;
+    invoke-virtual {p2}, Landroidx/preference/ListPreference;->getValue()Ljava/lang/String;
 
     .line 18
     .line 19
@@ -96,8 +89,7 @@
     move-result-object p2
 
     .line 21
-    invoke-virtual {p1, p2}, Ljava/lang/String;
-    ->equals(Ljava/lang/Object;)Z
+    invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     .line 22
     .line 23
@@ -109,13 +101,11 @@
 
     .line 26
     .line 27
-    iget-object p2, p0, Landroidx/preference/DropDownPreference$1;
-    ->this$0:Landroidx/preference/DropDownPreference;
+    iget-object p2, p0, Landroidx/preference/DropDownPreference$1;->this$0:Landroidx/preference/DropDownPreference;
 
     .line 28
     .line 29
-    invoke-virtual {p2, p1}, Landroidx/preference/Preference;
-    ->callChangeListener(Ljava/lang/Object;)Z
+    invoke-virtual {p2, p1}, Landroidx/preference/Preference;->callChangeListener(Ljava/lang/Object;)Z
 
     .line 30
     .line 31
@@ -127,13 +117,11 @@
 
     .line 34
     .line 35
-    iget-object p2, p0, Landroidx/preference/DropDownPreference$1;
-    ->this$0:Landroidx/preference/DropDownPreference;
+    iget-object p2, p0, Landroidx/preference/DropDownPreference$1;->this$0:Landroidx/preference/DropDownPreference;
 
     .line 36
     .line 37
-    invoke-virtual {p2, p1}, Landroidx/preference/ListPreference;
-    ->setValue(Ljava/lang/String;)V
+    invoke-virtual {p2, p1}, Landroidx/preference/ListPreference;->setValue(Ljava/lang/String;)V
 
     .line 38
     .line 39

@@ -69,155 +69,133 @@
 
     new-array v0, v0, [Landroidx/navigation/serialization/InternalType;
 
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->INT:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->INT:Landroidx/navigation/serialization/InternalType;
 
     const/4 v2, 0x0
 
     aput-object v1, v0, v2
 
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->INT_NULLABLE:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->INT_NULLABLE:Landroidx/navigation/serialization/InternalType;
 
     const/4 v2, 0x1
 
     aput-object v1, v0, v2
 
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->BOOL:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->BOOL:Landroidx/navigation/serialization/InternalType;
 
     const/4 v2, 0x2
 
     aput-object v1, v0, v2
 
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->BOOL_NULLABLE:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->BOOL_NULLABLE:Landroidx/navigation/serialization/InternalType;
 
     const/4 v2, 0x3
 
     aput-object v1, v0, v2
 
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->DOUBLE:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->DOUBLE:Landroidx/navigation/serialization/InternalType;
 
     const/4 v2, 0x4
 
     aput-object v1, v0, v2
 
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->DOUBLE_NULLABLE:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->DOUBLE_NULLABLE:Landroidx/navigation/serialization/InternalType;
 
     const/4 v2, 0x5
 
     aput-object v1, v0, v2
 
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->FLOAT:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->FLOAT:Landroidx/navigation/serialization/InternalType;
 
     const/4 v2, 0x6
 
     aput-object v1, v0, v2
 
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->FLOAT_NULLABLE:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->FLOAT_NULLABLE:Landroidx/navigation/serialization/InternalType;
 
     const/4 v2, 0x7
 
     aput-object v1, v0, v2
 
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->LONG:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->LONG:Landroidx/navigation/serialization/InternalType;
 
     const/16 v2, 0x8
 
     aput-object v1, v0, v2
 
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->LONG_NULLABLE:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->LONG_NULLABLE:Landroidx/navigation/serialization/InternalType;
 
     const/16 v2, 0x9
 
     aput-object v1, v0, v2
 
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->STRING:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->STRING:Landroidx/navigation/serialization/InternalType;
 
     const/16 v2, 0xa
 
     aput-object v1, v0, v2
 
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->STRING_NULLABLE:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->STRING_NULLABLE:Landroidx/navigation/serialization/InternalType;
 
     const/16 v2, 0xb
 
     aput-object v1, v0, v2
 
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->INT_ARRAY:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->INT_ARRAY:Landroidx/navigation/serialization/InternalType;
 
     const/16 v2, 0xc
 
     aput-object v1, v0, v2
 
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->BOOL_ARRAY:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->BOOL_ARRAY:Landroidx/navigation/serialization/InternalType;
 
     const/16 v2, 0xd
 
     aput-object v1, v0, v2
 
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->DOUBLE_ARRAY:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->DOUBLE_ARRAY:Landroidx/navigation/serialization/InternalType;
 
     const/16 v2, 0xe
 
     aput-object v1, v0, v2
 
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->FLOAT_ARRAY:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->FLOAT_ARRAY:Landroidx/navigation/serialization/InternalType;
 
     const/16 v2, 0xf
 
     aput-object v1, v0, v2
 
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->LONG_ARRAY:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->LONG_ARRAY:Landroidx/navigation/serialization/InternalType;
 
     const/16 v2, 0x10
 
     aput-object v1, v0, v2
 
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->ARRAY:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->ARRAY:Landroidx/navigation/serialization/InternalType;
 
     const/16 v2, 0x11
 
     aput-object v1, v0, v2
 
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->LIST:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->LIST:Landroidx/navigation/serialization/InternalType;
 
     const/16 v2, 0x12
 
     aput-object v1, v0, v2
 
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->ENUM:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->ENUM:Landroidx/navigation/serialization/InternalType;
 
     const/16 v2, 0x13
 
     aput-object v1, v0, v2
 
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->ENUM_NULLABLE:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->ENUM_NULLABLE:Landroidx/navigation/serialization/InternalType;
 
     const/16 v2, 0x14
 
     aput-object v1, v0, v2
 
-    sget-object v1, Landroidx/navigation/serialization/InternalType;
-    ->UNKNOWN:Landroidx/navigation/serialization/InternalType;
+    sget-object v1, Landroidx/navigation/serialization/InternalType;->UNKNOWN:Landroidx/navigation/serialization/InternalType;
 
     const/16 v2, 0x15
 
@@ -241,14 +219,12 @@
     const/4 v2, 0x0
 
     .line 6
-    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;-><init>(Ljava/lang/String;I)V
 
     .line 7
     .line 8
     .line 9
-    sput-object v0, Landroidx/navigation/serialization/InternalType;
-    ->INT:Landroidx/navigation/serialization/InternalType;
+    sput-object v0, Landroidx/navigation/serialization/InternalType;->INT:Landroidx/navigation/serialization/InternalType;
 
     .line 10
     .line 11
@@ -263,14 +239,12 @@
     const/4 v2, 0x1
 
     .line 16
-    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;-><init>(Ljava/lang/String;I)V
 
     .line 17
     .line 18
     .line 19
-    sput-object v0, Landroidx/navigation/serialization/InternalType;
-    ->INT_NULLABLE:Landroidx/navigation/serialization/InternalType;
+    sput-object v0, Landroidx/navigation/serialization/InternalType;->INT_NULLABLE:Landroidx/navigation/serialization/InternalType;
 
     .line 20
     .line 21
@@ -285,14 +259,12 @@
     const/4 v2, 0x2
 
     .line 26
-    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;-><init>(Ljava/lang/String;I)V
 
     .line 27
     .line 28
     .line 29
-    sput-object v0, Landroidx/navigation/serialization/InternalType;
-    ->BOOL:Landroidx/navigation/serialization/InternalType;
+    sput-object v0, Landroidx/navigation/serialization/InternalType;->BOOL:Landroidx/navigation/serialization/InternalType;
 
     .line 30
     .line 31
@@ -307,14 +279,12 @@
     const/4 v2, 0x3
 
     .line 36
-    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;-><init>(Ljava/lang/String;I)V
 
     .line 37
     .line 38
     .line 39
-    sput-object v0, Landroidx/navigation/serialization/InternalType;
-    ->BOOL_NULLABLE:Landroidx/navigation/serialization/InternalType;
+    sput-object v0, Landroidx/navigation/serialization/InternalType;->BOOL_NULLABLE:Landroidx/navigation/serialization/InternalType;
 
     .line 40
     .line 41
@@ -329,14 +299,12 @@
     const/4 v2, 0x4
 
     .line 46
-    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;-><init>(Ljava/lang/String;I)V
 
     .line 47
     .line 48
     .line 49
-    sput-object v0, Landroidx/navigation/serialization/InternalType;
-    ->DOUBLE:Landroidx/navigation/serialization/InternalType;
+    sput-object v0, Landroidx/navigation/serialization/InternalType;->DOUBLE:Landroidx/navigation/serialization/InternalType;
 
     .line 50
     .line 51
@@ -351,14 +319,12 @@
     const/4 v2, 0x5
 
     .line 56
-    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;-><init>(Ljava/lang/String;I)V
 
     .line 57
     .line 58
     .line 59
-    sput-object v0, Landroidx/navigation/serialization/InternalType;
-    ->DOUBLE_NULLABLE:Landroidx/navigation/serialization/InternalType;
+    sput-object v0, Landroidx/navigation/serialization/InternalType;->DOUBLE_NULLABLE:Landroidx/navigation/serialization/InternalType;
 
     .line 60
     .line 61
@@ -373,14 +339,12 @@
     const/4 v2, 0x6
 
     .line 66
-    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;-><init>(Ljava/lang/String;I)V
 
     .line 67
     .line 68
     .line 69
-    sput-object v0, Landroidx/navigation/serialization/InternalType;
-    ->FLOAT:Landroidx/navigation/serialization/InternalType;
+    sput-object v0, Landroidx/navigation/serialization/InternalType;->FLOAT:Landroidx/navigation/serialization/InternalType;
 
     .line 70
     .line 71
@@ -395,14 +359,12 @@
     const/4 v2, 0x7
 
     .line 76
-    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;-><init>(Ljava/lang/String;I)V
 
     .line 77
     .line 78
     .line 79
-    sput-object v0, Landroidx/navigation/serialization/InternalType;
-    ->FLOAT_NULLABLE:Landroidx/navigation/serialization/InternalType;
+    sput-object v0, Landroidx/navigation/serialization/InternalType;->FLOAT_NULLABLE:Landroidx/navigation/serialization/InternalType;
 
     .line 80
     .line 81
@@ -418,14 +380,12 @@
 
     .line 86
     .line 87
-    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;-><init>(Ljava/lang/String;I)V
 
     .line 88
     .line 89
     .line 90
-    sput-object v0, Landroidx/navigation/serialization/InternalType;
-    ->LONG:Landroidx/navigation/serialization/InternalType;
+    sput-object v0, Landroidx/navigation/serialization/InternalType;->LONG:Landroidx/navigation/serialization/InternalType;
 
     .line 91
     .line 92
@@ -441,14 +401,12 @@
 
     .line 97
     .line 98
-    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;-><init>(Ljava/lang/String;I)V
 
     .line 99
     .line 100
     .line 101
-    sput-object v0, Landroidx/navigation/serialization/InternalType;
-    ->LONG_NULLABLE:Landroidx/navigation/serialization/InternalType;
+    sput-object v0, Landroidx/navigation/serialization/InternalType;->LONG_NULLABLE:Landroidx/navigation/serialization/InternalType;
 
     .line 102
     .line 103
@@ -464,14 +422,12 @@
 
     .line 108
     .line 109
-    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;-><init>(Ljava/lang/String;I)V
 
     .line 110
     .line 111
     .line 112
-    sput-object v0, Landroidx/navigation/serialization/InternalType;
-    ->STRING:Landroidx/navigation/serialization/InternalType;
+    sput-object v0, Landroidx/navigation/serialization/InternalType;->STRING:Landroidx/navigation/serialization/InternalType;
 
     .line 113
     .line 114
@@ -487,14 +443,12 @@
 
     .line 119
     .line 120
-    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;-><init>(Ljava/lang/String;I)V
 
     .line 121
     .line 122
     .line 123
-    sput-object v0, Landroidx/navigation/serialization/InternalType;
-    ->STRING_NULLABLE:Landroidx/navigation/serialization/InternalType;
+    sput-object v0, Landroidx/navigation/serialization/InternalType;->STRING_NULLABLE:Landroidx/navigation/serialization/InternalType;
 
     .line 124
     .line 125
@@ -510,14 +464,12 @@
 
     .line 130
     .line 131
-    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;-><init>(Ljava/lang/String;I)V
 
     .line 132
     .line 133
     .line 134
-    sput-object v0, Landroidx/navigation/serialization/InternalType;
-    ->INT_ARRAY:Landroidx/navigation/serialization/InternalType;
+    sput-object v0, Landroidx/navigation/serialization/InternalType;->INT_ARRAY:Landroidx/navigation/serialization/InternalType;
 
     .line 135
     .line 136
@@ -533,14 +485,12 @@
 
     .line 141
     .line 142
-    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;-><init>(Ljava/lang/String;I)V
 
     .line 143
     .line 144
     .line 145
-    sput-object v0, Landroidx/navigation/serialization/InternalType;
-    ->BOOL_ARRAY:Landroidx/navigation/serialization/InternalType;
+    sput-object v0, Landroidx/navigation/serialization/InternalType;->BOOL_ARRAY:Landroidx/navigation/serialization/InternalType;
 
     .line 146
     .line 147
@@ -556,14 +506,12 @@
 
     .line 152
     .line 153
-    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;-><init>(Ljava/lang/String;I)V
 
     .line 154
     .line 155
     .line 156
-    sput-object v0, Landroidx/navigation/serialization/InternalType;
-    ->DOUBLE_ARRAY:Landroidx/navigation/serialization/InternalType;
+    sput-object v0, Landroidx/navigation/serialization/InternalType;->DOUBLE_ARRAY:Landroidx/navigation/serialization/InternalType;
 
     .line 157
     .line 158
@@ -579,14 +527,12 @@
 
     .line 163
     .line 164
-    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;-><init>(Ljava/lang/String;I)V
 
     .line 165
     .line 166
     .line 167
-    sput-object v0, Landroidx/navigation/serialization/InternalType;
-    ->FLOAT_ARRAY:Landroidx/navigation/serialization/InternalType;
+    sput-object v0, Landroidx/navigation/serialization/InternalType;->FLOAT_ARRAY:Landroidx/navigation/serialization/InternalType;
 
     .line 168
     .line 169
@@ -602,14 +548,12 @@
 
     .line 174
     .line 175
-    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;-><init>(Ljava/lang/String;I)V
 
     .line 176
     .line 177
     .line 178
-    sput-object v0, Landroidx/navigation/serialization/InternalType;
-    ->LONG_ARRAY:Landroidx/navigation/serialization/InternalType;
+    sput-object v0, Landroidx/navigation/serialization/InternalType;->LONG_ARRAY:Landroidx/navigation/serialization/InternalType;
 
     .line 179
     .line 180
@@ -625,14 +569,12 @@
 
     .line 185
     .line 186
-    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;-><init>(Ljava/lang/String;I)V
 
     .line 187
     .line 188
     .line 189
-    sput-object v0, Landroidx/navigation/serialization/InternalType;
-    ->ARRAY:Landroidx/navigation/serialization/InternalType;
+    sput-object v0, Landroidx/navigation/serialization/InternalType;->ARRAY:Landroidx/navigation/serialization/InternalType;
 
     .line 190
     .line 191
@@ -648,14 +590,12 @@
 
     .line 196
     .line 197
-    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;-><init>(Ljava/lang/String;I)V
 
     .line 198
     .line 199
     .line 200
-    sput-object v0, Landroidx/navigation/serialization/InternalType;
-    ->LIST:Landroidx/navigation/serialization/InternalType;
+    sput-object v0, Landroidx/navigation/serialization/InternalType;->LIST:Landroidx/navigation/serialization/InternalType;
 
     .line 201
     .line 202
@@ -671,14 +611,12 @@
 
     .line 207
     .line 208
-    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;-><init>(Ljava/lang/String;I)V
 
     .line 209
     .line 210
     .line 211
-    sput-object v0, Landroidx/navigation/serialization/InternalType;
-    ->ENUM:Landroidx/navigation/serialization/InternalType;
+    sput-object v0, Landroidx/navigation/serialization/InternalType;->ENUM:Landroidx/navigation/serialization/InternalType;
 
     .line 212
     .line 213
@@ -694,14 +632,12 @@
 
     .line 218
     .line 219
-    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;-><init>(Ljava/lang/String;I)V
 
     .line 220
     .line 221
     .line 222
-    sput-object v0, Landroidx/navigation/serialization/InternalType;
-    ->ENUM_NULLABLE:Landroidx/navigation/serialization/InternalType;
+    sput-object v0, Landroidx/navigation/serialization/InternalType;->ENUM_NULLABLE:Landroidx/navigation/serialization/InternalType;
 
     .line 223
     .line 224
@@ -717,19 +653,16 @@
 
     .line 229
     .line 230
-    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, v1, v2}, Landroidx/navigation/serialization/InternalType;-><init>(Ljava/lang/String;I)V
 
     .line 231
     .line 232
     .line 233
-    sput-object v0, Landroidx/navigation/serialization/InternalType;
-    ->UNKNOWN:Landroidx/navigation/serialization/InternalType;
+    sput-object v0, Landroidx/navigation/serialization/InternalType;->UNKNOWN:Landroidx/navigation/serialization/InternalType;
 
     .line 234
     .line 235
-    invoke-static {}, Landroidx/navigation/serialization/InternalType;
-    ->$values()[Landroidx/navigation/serialization/InternalType;
+    invoke-static {}, Landroidx/navigation/serialization/InternalType;->$values()[Landroidx/navigation/serialization/InternalType;
 
     .line 236
     .line 237
@@ -737,8 +670,7 @@
     move-result-object v0
 
     .line 239
-    sput-object v0, Landroidx/navigation/serialization/InternalType;
-    ->$VALUES:[Landroidx/navigation/serialization/InternalType;    return-void
+    sput-object v0, Landroidx/navigation/serialization/InternalType;->$VALUES:[Landroidx/navigation/serialization/InternalType;    return-void
 .end method
 
 .method private constructor <init>(Ljava/lang/String;I)V
@@ -750,8 +682,7 @@
     .end annotation
 
     .line 1
-    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;
-    -><init>(Ljava/lang/String;I)V
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
 return-void
 .end method
 
@@ -760,8 +691,7 @@ return-void
 
     const-class v0, Landroidx/navigation/serialization/InternalType;
 
-    invoke-static {v0, p0}, Ljava/lang/Enum;
-    ->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
 
     move-result-object p0
 
@@ -773,11 +703,9 @@ return-void
 .method public static values()[Landroidx/navigation/serialization/InternalType;
     .locals 1
 
-    sget-object v0, Landroidx/navigation/serialization/InternalType;
-    ->$VALUES:[Landroidx/navigation/serialization/InternalType;
+    sget-object v0, Landroidx/navigation/serialization/InternalType;->$VALUES:[Landroidx/navigation/serialization/InternalType;
 
-    invoke-virtual {v0}, Ljava/lang/Object;
-    ->clone()Ljava/lang/Object;
+    invoke-virtual {v0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
     move-result-object v0
 

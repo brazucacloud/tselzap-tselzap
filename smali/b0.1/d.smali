@@ -15,14 +15,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    iput-object p1, p0, Lb0/d;
-    ->a:Lcom/google/android/material/behavior/SwipeDismissBehavior;    
+    iput-object p1, p0, Lb0/d;->a:Lcom/google/android/material/behavior/SwipeDismissBehavior;
     return-void
 .end method
 
@@ -32,13 +30,11 @@
     .locals 3
 
     .line 1
-    iget-object p2, p0, Lb0/d;
-    ->a:Lcom/google/android/material/behavior/SwipeDismissBehavior;
+    iget-object p2, p0, Lb0/d;->a:Lcom/google/android/material/behavior/SwipeDismissBehavior;
 
     .line 2
     .line 3
-    invoke-virtual {p2, p1}, Lcom/google/android/material/behavior/SwipeDismissBehavior;
-    ->e(Landroid/view/View;)Z
+    invoke-virtual {p2, p1}, Lcom/google/android/material/behavior/SwipeDismissBehavior;->e(Landroid/view/View;)Z
 
     .line 4
     .line 5
@@ -53,8 +49,7 @@
 
     .line 9
     .line 10
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getLayoutDirection()I
+    invoke-virtual {p1}, Landroid/view/View;->getLayoutDirection()I
 
     .line 11
     .line 12
@@ -73,8 +68,7 @@
 
     .line 18
     :cond_0
-    iget v0, p2, Lcom/google/android/material/behavior/SwipeDismissBehavior;
-    ->f:I
+    iget v0, p2, Lcom/google/android/material/behavior/SwipeDismissBehavior;->f:I
 
     .line 19
     .line 20
@@ -96,8 +90,7 @@
     .line 27
     .line 28
     :cond_2
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getWidth()I
+    invoke-virtual {p1}, Landroid/view/View;->getWidth()I
 
     .line 29
     .line 30
@@ -112,8 +105,7 @@
 
     .line 34
     :cond_3
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getWidth()I
+    invoke-virtual {p1}, Landroid/view/View;->getWidth()I
 
     .line 35
     .line 36
@@ -122,8 +114,7 @@
 
     .line 38
     :goto_0
-    invoke-static {p1, v0}, Landroidx/core/view/ViewCompat;
-    ->offsetLeftAndRight(Landroid/view/View;I)V
+    invoke-static {p1, v0}, Landroidx/core/view/ViewCompat;->offsetLeftAndRight(Landroid/view/View;I)V
 
     .line 39
     .line 40
@@ -131,14 +122,12 @@
     const/4 v0, 0x0
 
     .line 42
-    invoke-virtual {p1, v0}, Landroid/view/View;
-    ->setAlpha(F)V
+    invoke-virtual {p1, v0}, Landroid/view/View;->setAlpha(F)V
 
     .line 43
     .line 44
     .line 45
-    iget-object p2, p2, Lcom/google/android/material/behavior/SwipeDismissBehavior;
-    ->c:Lw0/e;
+    iget-object p2, p2, Lcom/google/android/material/behavior/SwipeDismissBehavior;->c:Lw0/e;
 
     .line 46
     .line 47
@@ -146,8 +135,7 @@
 
     .line 48
     .line 49
-    invoke-virtual {p2, p1}, Lw0/e;
-    ->a(Landroid/view/View;)V
+    invoke-virtual {p2, p1}, Lw0/e;->a(Landroid/view/View;)V
 
     .line 50
     .line 51

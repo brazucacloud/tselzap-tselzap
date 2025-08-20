@@ -16,19 +16,16 @@
     .locals 0
 
     .line 1
-    iput-object p1, p0, Lx0/v;
-    ->d:Lx0/w;
+    iput-object p1, p0, Lx0/v;->d:Lx0/w;
 
     .line 2
     .line 3
-    invoke-direct {p0, p2, p3, p4}, Landroid/widget/ArrayAdapter;
-    -><init>(Landroid/content/Context;I[Ljava/lang/Object;)V
+    invoke-direct {p0, p2, p3, p4}, Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context;I[Ljava/lang/Object;)V
 
     .line 4
     .line 5
     .line 6
-    invoke-virtual {p0}, Lx0/v;
-    ->a()V
+    invoke-virtual {p0}, Lx0/v;->a()V
 
     .line 7
     .line 8
@@ -51,13 +48,11 @@
     const/4 v2, 0x0
 
     .line 4
-    iget-object v3, p0, Lx0/v;
-    ->d:Lx0/w;
+    iget-object v3, p0, Lx0/v;->d:Lx0/w;
 
     .line 5
     .line 6
-    iget-object v4, v3, Lx0/w;
-    ->i:Landroid/content/res/ColorStateList;
+    iget-object v4, v3, Lx0/w;->i:Landroid/content/res/ColorStateList;
 
     .line 7
     .line 8
@@ -103,8 +98,7 @@
     move-result-object v5
 
     .line 25
-    invoke-virtual {v4, v5, v2}, Landroid/content/res/ColorStateList;
-    ->getColorForState([II)I
+    invoke-virtual {v4, v5, v2}, Landroid/content/res/ColorStateList;->getColorForState([II)I
 
     .line 26
     .line 27
@@ -140,20 +134,17 @@
 
     .line 42
     .line 43
-    invoke-direct {v5, v8, v4}, Landroid/content/res/ColorStateList;
-    -><init>([[I[I)V
+    invoke-direct {v5, v8, v4}, Landroid/content/res/ColorStateList;-><init>([[I[I)V
 
     .line 44
     .line 45
     .line 46
     :goto_1
-    iput-object v5, p0, Lx0/v;
-    ->c:Landroid/content/res/ColorStateList;
+    iput-object v5, p0, Lx0/v;->c:Landroid/content/res/ColorStateList;
 
     .line 47
     .line 48
-    iget v4, v3, Lx0/w;
-    ->h:I
+    iget v4, v3, Lx0/w;->h:I
 
     .line 49
     .line 50
@@ -161,8 +152,7 @@
 
     .line 51
     .line 52
-    iget-object v4, v3, Lx0/w;
-    ->i:Landroid/content/res/ColorStateList;
+    iget-object v4, v3, Lx0/w;->i:Landroid/content/res/ColorStateList;
 
     .line 53
     .line 54
@@ -201,13 +191,11 @@
     move-result-object v5
 
     .line 73
-    iget-object v6, v3, Lx0/w;
-    ->i:Landroid/content/res/ColorStateList;
+    iget-object v6, v3, Lx0/w;->i:Landroid/content/res/ColorStateList;
 
     .line 74
     .line 75
-    invoke-virtual {v6, v5, v2}, Landroid/content/res/ColorStateList;
-    ->getColorForState([II)I
+    invoke-virtual {v6, v5, v2}, Landroid/content/res/ColorStateList;->getColorForState([II)I
 
     .line 76
     .line 77
@@ -215,13 +203,11 @@
     move-result v6
 
     .line 79
-    iget-object v7, v3, Lx0/w;
-    ->i:Landroid/content/res/ColorStateList;
+    iget-object v7, v3, Lx0/w;->i:Landroid/content/res/ColorStateList;
 
     .line 80
     .line 81
-    invoke-virtual {v7, v4, v2}, Landroid/content/res/ColorStateList;
-    ->getColorForState([II)I
+    invoke-virtual {v7, v4, v2}, Landroid/content/res/ColorStateList;->getColorForState([II)I
 
     .line 82
     .line 83
@@ -229,13 +215,11 @@
     move-result v7
 
     .line 85
-    iget v8, v3, Lx0/w;
-    ->h:I
+    iget v8, v3, Lx0/w;->h:I
 
     .line 86
     .line 87
-    invoke-static {v6, v8}, Landroidx/core/graphics/ColorUtils;
-    ->compositeColors(II)I
+    invoke-static {v6, v8}, Landroidx/core/graphics/ColorUtils;->compositeColors(II)I
 
     .line 88
     .line 89
@@ -243,13 +227,11 @@
     move-result v6
 
     .line 91
-    iget v8, v3, Lx0/w;
-    ->h:I
+    iget v8, v3, Lx0/w;->h:I
 
     .line 92
     .line 93
-    invoke-static {v7, v8}, Landroidx/core/graphics/ColorUtils;
-    ->compositeColors(II)I
+    invoke-static {v7, v8}, Landroidx/core/graphics/ColorUtils;->compositeColors(II)I
 
     .line 94
     .line 95
@@ -257,8 +239,7 @@
     move-result v7
 
     .line 97
-    iget v3, v3, Lx0/w;
-    ->h:I
+    iget v3, v3, Lx0/w;->h:I
 
     .line 98
     .line 99
@@ -297,15 +278,13 @@
 
     .line 115
     .line 116
-    invoke-direct {v6, v7, v3}, Landroid/content/res/ColorStateList;
-    -><init>([[I[I)V
+    invoke-direct {v6, v7, v3}, Landroid/content/res/ColorStateList;-><init>([[I[I)V
 
     .line 117
     .line 118
     .line 119
     :cond_2
-    iput-object v6, p0, Lx0/v;
-    ->b:Landroid/content/res/ColorStateList;
+    iput-object v6, p0, Lx0/v;->b:Landroid/content/res/ColorStateList;
 
     .line 120
     .line 121
@@ -316,8 +295,7 @@
     .locals 3
 
     .line 1
-    invoke-super {p0, p1, p2, p3}, Landroid/widget/ArrayAdapter;
-    ->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
+    invoke-super {p0, p1, p2, p3}, Landroid/widget/ArrayAdapter;->getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
 
     .line 2
     .line 3
@@ -340,13 +318,11 @@
 
     .line 11
     .line 12
-    iget-object p3, p0, Lx0/v;
-    ->d:Lx0/w;
+    iget-object p3, p0, Lx0/v;->d:Lx0/w;
 
     .line 13
     .line 14
-    invoke-virtual {p3}, Landroid/widget/EditText;
-    ->getText()Landroid/text/Editable;
+    invoke-virtual {p3}, Landroid/widget/EditText;->getText()Landroid/text/Editable;
 
     .line 15
     .line 16
@@ -354,8 +330,7 @@
     move-result-object v0
 
     .line 18
-    invoke-virtual {v0}, Ljava/lang/Object;
-    ->toString()Ljava/lang/String;
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     .line 19
     .line 20
@@ -363,8 +338,7 @@
     move-result-object v0
 
     .line 22
-    invoke-virtual {p2}, Landroid/widget/TextView;
-    ->getText()Ljava/lang/CharSequence;
+    invoke-virtual {p2}, Landroid/widget/TextView;->getText()Ljava/lang/CharSequence;
 
     .line 23
     .line 24
@@ -372,8 +346,7 @@
     move-result-object v1
 
     .line 26
-    invoke-virtual {v0, v1}, Ljava/lang/String;
-    ->contentEquals(Ljava/lang/CharSequence;)Z
+    invoke-virtual {v0, v1}, Ljava/lang/String;->contentEquals(Ljava/lang/CharSequence;)Z
 
     .line 27
     .line 28
@@ -388,8 +361,7 @@
 
     .line 32
     .line 33
-    iget v0, p3, Lx0/w;
-    ->h:I
+    iget v0, p3, Lx0/w;->h:I
 
     .line 34
     .line 35
@@ -401,19 +373,16 @@
 
     .line 38
     .line 39
-    iget p3, p3, Lx0/w;
-    ->h:I
+    iget p3, p3, Lx0/w;->h:I
 
     .line 40
     .line 41
-    invoke-direct {v0, p3}, Landroid/graphics/drawable/ColorDrawable;
-    -><init>(I)V
+    invoke-direct {v0, p3}, Landroid/graphics/drawable/ColorDrawable;-><init>(I)V
 
     .line 42
     .line 43
     .line 44
-    iget-object p3, p0, Lx0/v;
-    ->c:Landroid/content/res/ColorStateList;
+    iget-object p3, p0, Lx0/v;->c:Landroid/content/res/ColorStateList;
 
     .line 45
     .line 46
@@ -421,13 +390,11 @@
 
     .line 47
     .line 48
-    iget-object p3, p0, Lx0/v;
-    ->b:Landroid/content/res/ColorStateList;
+    iget-object p3, p0, Lx0/v;->b:Landroid/content/res/ColorStateList;
 
     .line 49
     .line 50
-    invoke-virtual {v0, p3}, Landroid/graphics/drawable/Drawable;
-    ->setTintList(Landroid/content/res/ColorStateList;)V
+    invoke-virtual {v0, p3}, Landroid/graphics/drawable/Drawable;->setTintList(Landroid/content/res/ColorStateList;)V
 
     .line 51
     .line 52
@@ -436,13 +403,11 @@
 
     .line 54
     .line 55
-    iget-object v2, p0, Lx0/v;
-    ->c:Landroid/content/res/ColorStateList;
+    iget-object v2, p0, Lx0/v;->c:Landroid/content/res/ColorStateList;
 
     .line 56
     .line 57
-    invoke-direct {p3, v2, v0, v1}, Landroid/graphics/drawable/RippleDrawable;
-    -><init>(Landroid/content/res/ColorStateList;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V
+    invoke-direct {p3, v2, v0, v1}, Landroid/graphics/drawable/RippleDrawable;-><init>(Landroid/content/res/ColorStateList;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V
 
     .line 58
     .line 59
@@ -459,8 +424,7 @@
     .line 63
     :cond_1
     :goto_0
-    invoke-virtual {p2, v1}, Landroid/view/View;
-    ->setBackground(Landroid/graphics/drawable/Drawable;)V
+    invoke-virtual {p2, v1}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
     .line 64
     .line 65

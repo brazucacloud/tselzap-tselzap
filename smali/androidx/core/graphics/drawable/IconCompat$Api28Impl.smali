@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -42,8 +41,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/graphics/drawable/Icon;
-    ->getResId()I
+    invoke-virtual {p0}, Landroid/graphics/drawable/Icon;->getResId()I
 
     .line 4
     .line 5
@@ -63,8 +61,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/graphics/drawable/Icon;
-    ->getResPackage()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/graphics/drawable/Icon;->getResPackage()Ljava/lang/String;
 
     .line 4
     .line 5
@@ -84,8 +81,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/graphics/drawable/Icon;
-    ->getType()I
+    invoke-virtual {p0}, Landroid/graphics/drawable/Icon;->getType()I
 
     .line 4
     .line 5
@@ -105,8 +101,7 @@
 
     .line 2
     .line 3
-    invoke-virtual {p0}, Landroid/graphics/drawable/Icon;
-    ->getUri()Landroid/net/Uri;
+    invoke-virtual {p0}, Landroid/graphics/drawable/Icon;->getUri()Landroid/net/Uri;
 
     .line 4
     .line 5

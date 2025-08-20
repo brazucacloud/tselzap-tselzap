@@ -11,14 +11,12 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroid/os/Binder;
-    -><init>()V
+    invoke-direct {p0}, Landroid/os/Binder;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-virtual {p0, p0, p1}, Landroid/os/Binder;
-    ->attachInterface(Landroid/os/IInterface;Ljava/lang/String;)V
+    invoke-virtual {p0, p0, p1}, Landroid/os/Binder;->attachInterface(Landroid/os/IInterface;Ljava/lang/String;)V
 
     .line 5
     .line 6
@@ -47,8 +45,7 @@
 
     .line 5
     .line 6
-    invoke-super {p0, p1, p2, p3, p4}, Landroid/os/Binder;
-    ->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
+    invoke-super {p0, p1, p2, p3, p4}, Landroid/os/Binder;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
 
     .line 7
     .line 8
@@ -60,8 +57,7 @@
 
     .line 11
     :cond_0
-    invoke-virtual {p0}, Landroid/os/Binder;
-    ->getInterfaceDescriptor()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/os/Binder;->getInterfaceDescriptor()Ljava/lang/String;
 
     .line 12
     .line 13
@@ -69,8 +65,7 @@
     move-result-object v0
 
     .line 15
-    invoke-virtual {p2, v0}, Landroid/os/Parcel;
-    ->enforceInterface(Ljava/lang/String;)V
+    invoke-virtual {p2, v0}, Landroid/os/Parcel;->enforceInterface(Ljava/lang/String;)V
 
     .line 16
     .line 17
@@ -89,8 +84,7 @@
 
     .line 23
     :cond_1
-    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/google/android/gms/internal/measurement/zzbx;
-    ->zza(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
+    invoke-virtual {p0, p1, p2, p3, p4}, Lcom/google/android/gms/internal/measurement/zzbx;->zza(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z
 
     .line 24
     .line 25

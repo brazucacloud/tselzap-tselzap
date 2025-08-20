@@ -32,16 +32,14 @@
     move-result-object v0
 
     .line 9
-    sput-object v0, Landroidx/transition/ChangeScroll;
-    ->PROPERTIES:[Ljava/lang/String;    return-void
+    sput-object v0, Landroidx/transition/ChangeScroll;->PROPERTIES:[Ljava/lang/String;    return-void
 .end method
 
 .method public constructor <init>()V
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/transition/Transition;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/transition/Transition;-><init>()V
     return-void
 .end method
 
@@ -57,8 +55,7 @@
     .end param
 
     .line 2
-    invoke-direct {p0, p1, p2}, Landroidx/transition/Transition;
-    -><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    invoke-direct {p0, p1, p2}, Landroidx/transition/Transition;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 return-void
 .end method
 
@@ -66,18 +63,15 @@ return-void
     .locals 3
 
     .line 1
-    iget-object v0, p1, Landroidx/transition/TransitionValues;
-    ->values:Ljava/util/Map;
+    iget-object v0, p1, Landroidx/transition/TransitionValues;->values:Ljava/util/Map;
 
     .line 2
     .line 3
-    iget-object v1, p1, Landroidx/transition/TransitionValues;
-    ->view:Landroid/view/View;
+    iget-object v1, p1, Landroidx/transition/TransitionValues;->view:Landroid/view/View;
 
     .line 4
     .line 5
-    invoke-virtual {v1}, Landroid/view/View;
-    ->getScrollX()I
+    invoke-virtual {v1}, Landroid/view/View;->getScrollX()I
 
     .line 6
     .line 7
@@ -85,8 +79,7 @@ return-void
     move-result v1
 
     .line 9
-    invoke-static {v1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 10
     .line 11
@@ -98,24 +91,20 @@ return-void
 
     .line 14
     .line 15
-    invoke-interface {v0, v2, v1}, Ljava/util/Map;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v2, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 16
     .line 17
     .line 18
-    iget-object v0, p1, Landroidx/transition/TransitionValues;
-    ->values:Ljava/util/Map;
+    iget-object v0, p1, Landroidx/transition/TransitionValues;->values:Ljava/util/Map;
 
     .line 19
     .line 20
-    iget-object p1, p1, Landroidx/transition/TransitionValues;
-    ->view:Landroid/view/View;
+    iget-object p1, p1, Landroidx/transition/TransitionValues;->view:Landroid/view/View;
 
     .line 21
     .line 22
-    invoke-virtual {p1}, Landroid/view/View;
-    ->getScrollY()I
+    invoke-virtual {p1}, Landroid/view/View;->getScrollY()I
 
     .line 23
     .line 24
@@ -123,8 +112,7 @@ return-void
     move-result p1
 
     .line 26
-    invoke-static {p1}, Ljava/lang/Integer;
-    ->valueOf(I)Ljava/lang/Integer;
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     .line 27
     .line 28
@@ -136,8 +124,7 @@ return-void
 
     .line 31
     .line 32
-    invoke-interface {v0, v1, p1}, Ljava/util/Map;
-    ->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    
+    invoke-interface {v0, v1, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
     return-void
 .end method
 
@@ -151,8 +138,7 @@ return-void
     .end param
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/transition/ChangeScroll;
-    ->captureValues(Landroidx/transition/TransitionValues;)V    
+    invoke-direct {p0, p1}, Landroidx/transition/ChangeScroll;->captureValues(Landroidx/transition/TransitionValues;)V
     return-void
 .end method
 
@@ -164,8 +150,7 @@ return-void
     .end param
 
     .line 1
-    invoke-direct {p0, p1}, Landroidx/transition/ChangeScroll;
-    ->captureValues(Landroidx/transition/TransitionValues;)V    
+    invoke-direct {p0, p1}, Landroidx/transition/ChangeScroll;->captureValues(Landroidx/transition/TransitionValues;)V
     return-void
 .end method
 
@@ -202,13 +187,11 @@ return-void
 
     .line 7
     :cond_0
-    iget-object v0, p3, Landroidx/transition/TransitionValues;
-    ->view:Landroid/view/View;
+    iget-object v0, p3, Landroidx/transition/TransitionValues;->view:Landroid/view/View;
 
     .line 8
     .line 9
-    iget-object v1, p2, Landroidx/transition/TransitionValues;
-    ->values:Ljava/util/Map;
+    iget-object v1, p2, Landroidx/transition/TransitionValues;->values:Ljava/util/Map;
 
     .line 10
     .line 11
@@ -216,8 +199,7 @@ return-void
 
     .line 12
     .line 13
-    invoke-interface {v1, v2}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -229,8 +211,7 @@ return-void
 
     .line 18
     .line 19
-    invoke-virtual {v1}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
     .line 20
     .line 21
@@ -238,13 +219,11 @@ return-void
     move-result v1
 
     .line 23
-    iget-object v3, p3, Landroidx/transition/TransitionValues;
-    ->values:Ljava/util/Map;
+    iget-object v3, p3, Landroidx/transition/TransitionValues;->values:Ljava/util/Map;
 
     .line 24
     .line 25
-    invoke-interface {v3, v2}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v3, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 26
     .line 27
@@ -256,8 +235,7 @@ return-void
 
     .line 30
     .line 31
-    invoke-virtual {v2}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
 
     .line 32
     .line 33
@@ -265,8 +243,7 @@ return-void
     move-result v2
 
     .line 35
-    iget-object p2, p2, Landroidx/transition/TransitionValues;
-    ->values:Ljava/util/Map;
+    iget-object p2, p2, Landroidx/transition/TransitionValues;->values:Ljava/util/Map;
 
     .line 36
     .line 37
@@ -274,8 +251,7 @@ return-void
 
     .line 38
     .line 39
-    invoke-interface {p2, v3}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p2, v3}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 40
     .line 41
@@ -287,8 +263,7 @@ return-void
 
     .line 44
     .line 45
-    invoke-virtual {p2}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
 
     .line 46
     .line 47
@@ -296,13 +271,11 @@ return-void
     move-result p2
 
     .line 49
-    iget-object p3, p3, Landroidx/transition/TransitionValues;
-    ->values:Ljava/util/Map;
+    iget-object p3, p3, Landroidx/transition/TransitionValues;->values:Ljava/util/Map;
 
     .line 50
     .line 51
-    invoke-interface {p3, v3}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p3, v3}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 52
     .line 53
@@ -314,8 +287,7 @@ return-void
 
     .line 56
     .line 57
-    invoke-virtual {p3}, Ljava/lang/Integer;
-    ->intValue()I
+    invoke-virtual {p3}, Ljava/lang/Integer;->intValue()I
 
     .line 58
     .line 59
@@ -327,8 +299,7 @@ return-void
 
     .line 62
     .line 63
-    invoke-virtual {v0, v1}, Landroid/view/View;
-    ->setScrollX(I)V
+    invoke-virtual {v0, v1}, Landroid/view/View;->setScrollX(I)V
 
     .line 64
     .line 65
@@ -345,8 +316,7 @@ return-void
     move-result-object v1
 
     .line 72
-    invoke-static {v0, v3, v1}, Landroid/animation/ObjectAnimator;
-    ->ofInt(Ljava/lang/Object;Ljava/lang/String;[I)Landroid/animation/ObjectAnimator;
+    invoke-static {v0, v3, v1}, Landroid/animation/ObjectAnimator;->ofInt(Ljava/lang/Object;Ljava/lang/String;[I)Landroid/animation/ObjectAnimator;
 
     .line 73
     .line 74
@@ -366,8 +336,7 @@ return-void
 
     .line 79
     .line 80
-    invoke-virtual {v0, p2}, Landroid/view/View;
-    ->setScrollY(I)V
+    invoke-virtual {v0, p2}, Landroid/view/View;->setScrollY(I)V
 
     .line 81
     .line 82
@@ -384,8 +353,7 @@ return-void
     move-result-object p2
 
     .line 89
-    invoke-static {v0, p1, p2}, Landroid/animation/ObjectAnimator;
-    ->ofInt(Ljava/lang/Object;Ljava/lang/String;[I)Landroid/animation/ObjectAnimator;
+    invoke-static {v0, p1, p2}, Landroid/animation/ObjectAnimator;->ofInt(Ljava/lang/Object;Ljava/lang/String;[I)Landroid/animation/ObjectAnimator;
 
     .line 90
     .line 91
@@ -394,8 +362,7 @@ return-void
 
     .line 93
     :cond_2
-    invoke-static {v1, p1}, Landroidx/transition/TransitionUtils;
-    ->mergeAnimators(Landroid/animation/Animator;Landroid/animation/Animator;)Landroid/animation/Animator;
+    invoke-static {v1, p1}, Landroidx/transition/TransitionUtils;->mergeAnimators(Landroid/animation/Animator;Landroid/animation/Animator;)Landroid/animation/Animator;
 
     .line 94
     .line 95
@@ -414,8 +381,7 @@ return-void
     .end annotation
 
     .line 1
-    sget-object v0, Landroidx/transition/ChangeScroll;
-    ->PROPERTIES:[Ljava/lang/String;    return-object v0
+    sget-object v0, Landroidx/transition/ChangeScroll;->PROPERTIES:[Ljava/lang/String;    return-object v0
 .end method
 
 .method public isSeekingSupported()Z

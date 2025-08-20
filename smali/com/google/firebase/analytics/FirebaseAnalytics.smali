@@ -30,20 +30,17 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
     .line 4
-    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;
-    ->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static {p1}, Lcom/google/android/gms/common/internal/Preconditions;->checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 5
     .line 6
     .line 7
-    iput-object p1, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;
-    ->zzb:Lcom/google/android/gms/internal/measurement/zzed;
+    iput-object p1, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;->zzb:Lcom/google/android/gms/internal/measurement/zzed;
 
     .line 8
     .line 9
@@ -71,8 +68,7 @@
     .end annotation
 
     .line 1
-    sget-object v0, Lcom/google/firebase/analytics/FirebaseAnalytics;
-    ->zza:Lcom/google/firebase/analytics/FirebaseAnalytics;
+    sget-object v0, Lcom/google/firebase/analytics/FirebaseAnalytics;->zza:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     .line 2
     .line 3
@@ -88,8 +84,7 @@
 
     .line 8
     :try_start_0
-    sget-object v1, Lcom/google/firebase/analytics/FirebaseAnalytics;
-    ->zza:Lcom/google/firebase/analytics/FirebaseAnalytics;
+    sget-object v1, Lcom/google/firebase/analytics/FirebaseAnalytics;->zza:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     .line 9
     .line 10
@@ -97,8 +92,7 @@
 
     .line 11
     .line 12
-    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzed;
-    ->zza(Landroid/content/Context;)Lcom/google/android/gms/internal/measurement/zzed;
+    invoke-static {p0}, Lcom/google/android/gms/internal/measurement/zzed;->zza(Landroid/content/Context;)Lcom/google/android/gms/internal/measurement/zzed;
 
     .line 13
     .line 14
@@ -110,14 +104,12 @@
 
     .line 17
     .line 18
-    invoke-direct {v1, p0}, Lcom/google/firebase/analytics/FirebaseAnalytics;
-    -><init>(Lcom/google/android/gms/internal/measurement/zzed;)V
+    invoke-direct {v1, p0}, Lcom/google/firebase/analytics/FirebaseAnalytics;-><init>(Lcom/google/android/gms/internal/measurement/zzed;)V
 
     .line 19
     .line 20
     .line 21
-    sput-object v1, Lcom/google/firebase/analytics/FirebaseAnalytics;
-    ->zza:Lcom/google/firebase/analytics/FirebaseAnalytics;
+    sput-object v1, Lcom/google/firebase/analytics/FirebaseAnalytics;->zza:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     .line 22
     .line 23
@@ -150,8 +142,7 @@
     .line 30
     :cond_1
     :goto_2
-    sget-object p0, Lcom/google/firebase/analytics/FirebaseAnalytics;
-    ->zza:Lcom/google/firebase/analytics/FirebaseAnalytics;
+    sget-object p0, Lcom/google/firebase/analytics/FirebaseAnalytics;->zza:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
     .line 31
     .line 32
@@ -174,8 +165,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-static {p0, v0, v0, v0, p1}, Lcom/google/android/gms/internal/measurement/zzed;
-    ->zza(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)Lcom/google/android/gms/internal/measurement/zzed;
+    invoke-static {p0, v0, v0, v0, p1}, Lcom/google/android/gms/internal/measurement/zzed;->zza(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)Lcom/google/android/gms/internal/measurement/zzed;
 
     .line 3
     .line 4
@@ -195,8 +185,7 @@
 
     .line 10
     .line 11
-    invoke-direct {p1, p0}, Lcom/google/firebase/analytics/zzd;
-    -><init>(Lcom/google/android/gms/internal/measurement/zzed;)V
+    invoke-direct {p1, p0}, Lcom/google/firebase/analytics/zzd;-><init>(Lcom/google/android/gms/internal/measurement/zzed;)V
 
     .line 12
     .line 13
@@ -208,8 +197,7 @@
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;
-    ->zzb:Lcom/google/android/gms/internal/measurement/zzed;
+    iget-object p0, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;->zzb:Lcom/google/android/gms/internal/measurement/zzed;
 
     return-object p0
 .end method
@@ -224,23 +212,20 @@
 
     .line 3
     :try_start_0
-    iget-object v0, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;
-    ->zzc:Ljava/util/concurrent/ExecutorService;
+    iget-object v0, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;->zzc:Ljava/util/concurrent/ExecutorService;
 
     if-nez v0, :cond_0
 
     .line 4
     new-instance v2, Lcom/google/firebase/analytics/zza;
 
-    sget-object v8, Ljava/util/concurrent/TimeUnit;
-    ->SECONDS:Ljava/util/concurrent/TimeUnit;
+    sget-object v8, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     new-instance v9, Ljava/util/concurrent/ArrayBlockingQueue;
 
     const/16 v0, 0x64
 
-    invoke-direct {v9, v0}, Ljava/util/concurrent/ArrayBlockingQueue;
-    -><init>(I)V
+    invoke-direct {v9, v0}, Ljava/util/concurrent/ArrayBlockingQueue;-><init>(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
@@ -253,11 +238,9 @@
     move-object v3, p0
 
     :try_start_1
-    invoke-direct/range {v2 .. v9}, Lcom/google/firebase/analytics/zza;
-    -><init>(Lcom/google/firebase/analytics/FirebaseAnalytics;IIJLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/BlockingQueue;)V
+    invoke-direct/range {v2 .. v9}, Lcom/google/firebase/analytics/zza;-><init>(Lcom/google/firebase/analytics/FirebaseAnalytics;IIJLjava/util/concurrent/TimeUnit;Ljava/util/concurrent/BlockingQueue;)V
 
-    iput-object v2, v3, Lcom/google/firebase/analytics/FirebaseAnalytics;
-    ->zzc:Ljava/util/concurrent/ExecutorService;
+    iput-object v2, v3, Lcom/google/firebase/analytics/FirebaseAnalytics;->zzc:Ljava/util/concurrent/ExecutorService;
 
     goto :goto_0
 
@@ -278,8 +261,7 @@
 
     .line 5
     :goto_0
-    iget-object v0, v3, Lcom/google/firebase/analytics/FirebaseAnalytics;
-    ->zzc:Ljava/util/concurrent/ExecutorService;
+    iget-object v0, v3, Lcom/google/firebase/analytics/FirebaseAnalytics;->zzc:Ljava/util/concurrent/ExecutorService;
 
     monitor-exit v1
 
@@ -312,8 +294,7 @@
 
     .line 1
     :try_start_0
-    invoke-direct {p0}, Lcom/google/firebase/analytics/FirebaseAnalytics;
-    ->zza()Ljava/util/concurrent/ExecutorService;
+    invoke-direct {p0}, Lcom/google/firebase/analytics/FirebaseAnalytics;->zza()Ljava/util/concurrent/ExecutorService;
 
     .line 2
     .line 3
@@ -325,14 +306,12 @@
 
     .line 6
     .line 7
-    invoke-direct {v1, p0}, Lcom/google/firebase/analytics/zzc;
-    -><init>(Lcom/google/firebase/analytics/FirebaseAnalytics;)V
+    invoke-direct {v1, p0}, Lcom/google/firebase/analytics/zzc;-><init>(Lcom/google/firebase/analytics/FirebaseAnalytics;)V
 
     .line 8
     .line 9
     .line 10
-    invoke-static {v0, v1}, Lcom/google/android/gms/tasks/Tasks;
-    ->call(Ljava/util/concurrent/Executor;Ljava/util/concurrent/Callable;)Lcom/google/android/gms/tasks/Task;
+    invoke-static {v0, v1}, Lcom/google/android/gms/tasks/Tasks;->call(Ljava/util/concurrent/Executor;Ljava/util/concurrent/Callable;)Lcom/google/android/gms/tasks/Task;
 
     .line 11
     .line 12
@@ -348,8 +327,7 @@
     move-exception v0
 
     .line 16
-    iget-object v1, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;
-    ->zzb:Lcom/google/android/gms/internal/measurement/zzed;
+    iget-object v1, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;->zzb:Lcom/google/android/gms/internal/measurement/zzed;
 
     .line 17
     .line 18
@@ -369,14 +347,12 @@
     const/4 v4, 0x0
 
     .line 24
-    invoke-virtual/range {v1 .. v6}, Lcom/google/android/gms/internal/measurement/zzed;
-    ->zza(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-virtual/range {v1 .. v6}, Lcom/google/android/gms/internal/measurement/zzed;->zza(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 25
     .line 26
     .line 27
-    invoke-static {v0}, Lcom/google/android/gms/tasks/Tasks;
-    ->forException(Ljava/lang/Exception;)Lcom/google/android/gms/tasks/Task;
+    invoke-static {v0}, Lcom/google/android/gms/tasks/Tasks;->forException(Ljava/lang/Exception;)Lcom/google/android/gms/tasks/Task;
 
     .line 28
     .line 29
@@ -396,8 +372,7 @@
 
     .line 1
     :try_start_0
-    invoke-static {}, Lcom/google/firebase/installations/FirebaseInstallations;
-    ->getInstance()Lcom/google/firebase/installations/FirebaseInstallations;
+    invoke-static {}, Lcom/google/firebase/installations/FirebaseInstallations;->getInstance()Lcom/google/firebase/installations/FirebaseInstallations;
 
     .line 2
     .line 3
@@ -405,8 +380,7 @@
     move-result-object v0
 
     .line 5
-    invoke-virtual {v0}, Lcom/google/firebase/installations/FirebaseInstallations;
-    ->getId()Lcom/google/android/gms/tasks/Task;
+    invoke-virtual {v0}, Lcom/google/firebase/installations/FirebaseInstallations;->getId()Lcom/google/android/gms/tasks/Task;
 
     .line 6
     .line 7
@@ -414,8 +388,7 @@
     move-result-object v0
 
     .line 9
-    sget-object v1, Ljava/util/concurrent/TimeUnit;
-    ->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
+    sget-object v1, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
     .line 10
     .line 11
@@ -423,8 +396,7 @@
 
     .line 12
     .line 13
-    invoke-static {v0, v2, v3, v1}, Lcom/google/android/gms/tasks/Tasks;
-    ->await(Lcom/google/android/gms/tasks/Task;JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
+    invoke-static {v0, v2, v3, v1}, Lcom/google/android/gms/tasks/Tasks;->await(Lcom/google/android/gms/tasks/Task;JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
 
     .line 14
     .line 15
@@ -462,8 +434,7 @@
 
     .line 25
     .line 26
-    invoke-direct {v1, v0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/Throwable;)V
 
     .line 27
     .line 28
@@ -480,8 +451,7 @@
 
     .line 33
     .line 34
-    invoke-direct {v0, v1}, Ljava/lang/IllegalThreadStateException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {v0, v1}, Ljava/lang/IllegalThreadStateException;-><init>(Ljava/lang/String;)V
 
     .line 35
     .line 36
@@ -494,8 +464,7 @@
 
     .line 39
     .line 40
-    invoke-virtual {v0}, Ljava/lang/Throwable;
-    ->getCause()Ljava/lang/Throwable;
+    invoke-virtual {v0}, Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
 
     .line 41
     .line 42
@@ -503,8 +472,7 @@
     move-result-object v0
 
     .line 44
-    invoke-direct {v1, v0}, Ljava/lang/IllegalStateException;
-    -><init>(Ljava/lang/Throwable;)V
+    invoke-direct {v1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/Throwable;)V
 
     .line 45
     .line 46
@@ -567,8 +535,7 @@
 
     .line 1
     :try_start_0
-    invoke-direct {p0}, Lcom/google/firebase/analytics/FirebaseAnalytics;
-    ->zza()Ljava/util/concurrent/ExecutorService;
+    invoke-direct {p0}, Lcom/google/firebase/analytics/FirebaseAnalytics;->zza()Ljava/util/concurrent/ExecutorService;
 
     .line 2
     .line 3
@@ -580,14 +547,12 @@
 
     .line 6
     .line 7
-    invoke-direct {v1, p0}, Lcom/google/firebase/analytics/zzb;
-    -><init>(Lcom/google/firebase/analytics/FirebaseAnalytics;)V
+    invoke-direct {v1, p0}, Lcom/google/firebase/analytics/zzb;-><init>(Lcom/google/firebase/analytics/FirebaseAnalytics;)V
 
     .line 8
     .line 9
     .line 10
-    invoke-static {v0, v1}, Lcom/google/android/gms/tasks/Tasks;
-    ->call(Ljava/util/concurrent/Executor;Ljava/util/concurrent/Callable;)Lcom/google/android/gms/tasks/Task;
+    invoke-static {v0, v1}, Lcom/google/android/gms/tasks/Tasks;->call(Ljava/util/concurrent/Executor;Ljava/util/concurrent/Callable;)Lcom/google/android/gms/tasks/Task;
 
     .line 11
     .line 12
@@ -603,8 +568,7 @@
     move-exception v0
 
     .line 16
-    iget-object v1, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;
-    ->zzb:Lcom/google/android/gms/internal/measurement/zzed;
+    iget-object v1, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;->zzb:Lcom/google/android/gms/internal/measurement/zzed;
 
     .line 17
     .line 18
@@ -624,14 +588,12 @@
     const/4 v4, 0x0
 
     .line 24
-    invoke-virtual/range {v1 .. v6}, Lcom/google/android/gms/internal/measurement/zzed;
-    ->zza(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    invoke-virtual/range {v1 .. v6}, Lcom/google/android/gms/internal/measurement/zzed;->zza(ILjava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     .line 25
     .line 26
     .line 27
-    invoke-static {v0}, Lcom/google/android/gms/tasks/Tasks;
-    ->forException(Ljava/lang/Exception;)Lcom/google/android/gms/tasks/Task;
+    invoke-static {v0}, Lcom/google/android/gms/tasks/Tasks;->forException(Ljava/lang/Exception;)Lcom/google/android/gms/tasks/Task;
 
     .line 28
     .line 29
@@ -658,13 +620,11 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;
-    ->zzb:Lcom/google/android/gms/internal/measurement/zzed;
+    iget-object v0, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;->zzb:Lcom/google/android/gms/internal/measurement/zzed;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzed;
-    ->zza(Ljava/lang/String;Landroid/os/Bundle;)V
+    invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzed;->zza(Ljava/lang/String;Landroid/os/Bundle;)V
 
     .line 4
     .line 5
@@ -676,13 +636,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;
-    ->zzb:Lcom/google/android/gms/internal/measurement/zzed;
+    iget-object v0, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;->zzb:Lcom/google/android/gms/internal/measurement/zzed;
 
     .line 2
     .line 3
-    invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/zzed;
-    ->zzj()V
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/measurement/zzed;->zzj()V
 
     .line 4
     .line 5
@@ -694,13 +652,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;
-    ->zzb:Lcom/google/android/gms/internal/measurement/zzed;
+    iget-object v0, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;->zzb:Lcom/google/android/gms/internal/measurement/zzed;
 
     .line 2
     .line 3
-    invoke-static {p1}, Ljava/lang/Boolean;
-    ->valueOf(Z)Ljava/lang/Boolean;
+    invoke-static {p1}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
 
     .line 4
     .line 5
@@ -708,8 +664,7 @@
     move-result-object p1
 
     .line 7
-    invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/measurement/zzed;
-    ->zza(Ljava/lang/Boolean;)V
+    invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/measurement/zzed;->zza(Ljava/lang/Boolean;)V
 
     .line 8
     .line 9
@@ -738,19 +693,16 @@
 
     .line 2
     .line 3
-    invoke-direct {v0}, Landroid/os/Bundle;
-    -><init>()V
+    invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
 
     .line 4
     .line 5
     .line 6
-    sget-object v1, Lcom/google/firebase/analytics/FirebaseAnalytics$ConsentType;
-    ->AD_STORAGE:Lcom/google/firebase/analytics/FirebaseAnalytics$ConsentType;
+    sget-object v1, Lcom/google/firebase/analytics/FirebaseAnalytics$ConsentType;->AD_STORAGE:Lcom/google/firebase/analytics/FirebaseAnalytics$ConsentType;
 
     .line 7
     .line 8
-    invoke-interface {p1, v1}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 9
     .line 10
@@ -777,8 +729,7 @@
 
     .line 20
     .line 21
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     .line 22
     .line 23
@@ -802,8 +753,7 @@
 
     .line 32
     :cond_0
-    invoke-virtual {v0, v5, v3}, Landroid/os/BaseBundle;
-    ->putString(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v5, v3}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 33
     .line 34
@@ -812,21 +762,18 @@
 
     .line 36
     :cond_1
-    invoke-virtual {v0, v5, v2}, Landroid/os/BaseBundle;
-    ->putString(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v5, v2}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 37
     .line 38
     .line 39
     :cond_2
     :goto_0
-    sget-object v1, Lcom/google/firebase/analytics/FirebaseAnalytics$ConsentType;
-    ->ANALYTICS_STORAGE:Lcom/google/firebase/analytics/FirebaseAnalytics$ConsentType;
+    sget-object v1, Lcom/google/firebase/analytics/FirebaseAnalytics$ConsentType;->ANALYTICS_STORAGE:Lcom/google/firebase/analytics/FirebaseAnalytics$ConsentType;
 
     .line 40
     .line 41
-    invoke-interface {p1, v1}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 42
     .line 43
@@ -842,8 +789,7 @@
 
     .line 48
     .line 49
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     .line 50
     .line 51
@@ -867,8 +813,7 @@
 
     .line 60
     :cond_3
-    invoke-virtual {v0, v5, v3}, Landroid/os/BaseBundle;
-    ->putString(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v5, v3}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 61
     .line 62
@@ -877,21 +822,18 @@
 
     .line 64
     :cond_4
-    invoke-virtual {v0, v5, v2}, Landroid/os/BaseBundle;
-    ->putString(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v5, v2}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 65
     .line 66
     .line 67
     :cond_5
     :goto_1
-    sget-object v1, Lcom/google/firebase/analytics/FirebaseAnalytics$ConsentType;
-    ->AD_USER_DATA:Lcom/google/firebase/analytics/FirebaseAnalytics$ConsentType;
+    sget-object v1, Lcom/google/firebase/analytics/FirebaseAnalytics$ConsentType;->AD_USER_DATA:Lcom/google/firebase/analytics/FirebaseAnalytics$ConsentType;
 
     .line 68
     .line 69
-    invoke-interface {p1, v1}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 70
     .line 71
@@ -907,8 +849,7 @@
 
     .line 76
     .line 77
-    invoke-virtual {v1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {v1}, Ljava/lang/Enum;->ordinal()I
 
     .line 78
     .line 79
@@ -932,8 +873,7 @@
 
     .line 88
     :cond_6
-    invoke-virtual {v0, v5, v3}, Landroid/os/BaseBundle;
-    ->putString(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v5, v3}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 89
     .line 90
@@ -942,21 +882,18 @@
 
     .line 92
     :cond_7
-    invoke-virtual {v0, v5, v2}, Landroid/os/BaseBundle;
-    ->putString(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v5, v2}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 93
     .line 94
     .line 95
     :cond_8
     :goto_2
-    sget-object v1, Lcom/google/firebase/analytics/FirebaseAnalytics$ConsentType;
-    ->AD_PERSONALIZATION:Lcom/google/firebase/analytics/FirebaseAnalytics$ConsentType;
+    sget-object v1, Lcom/google/firebase/analytics/FirebaseAnalytics$ConsentType;->AD_PERSONALIZATION:Lcom/google/firebase/analytics/FirebaseAnalytics$ConsentType;
 
     .line 96
     .line 97
-    invoke-interface {p1, v1}, Ljava/util/Map;
-    ->get(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {p1, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     .line 98
     .line 99
@@ -972,8 +909,7 @@
 
     .line 104
     .line 105
-    invoke-virtual {p1}, Ljava/lang/Enum;
-    ->ordinal()I
+    invoke-virtual {p1}, Ljava/lang/Enum;->ordinal()I
 
     .line 106
     .line 107
@@ -997,8 +933,7 @@
 
     .line 116
     :cond_9
-    invoke-virtual {v0, v1, v3}, Landroid/os/BaseBundle;
-    ->putString(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v3}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 117
     .line 118
@@ -1007,21 +942,18 @@
 
     .line 120
     :cond_a
-    invoke-virtual {v0, v1, v2}, Landroid/os/BaseBundle;
-    ->putString(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 121
     .line 122
     .line 123
     :cond_b
     :goto_3
-    iget-object p1, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;
-    ->zzb:Lcom/google/android/gms/internal/measurement/zzed;
+    iget-object p1, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;->zzb:Lcom/google/android/gms/internal/measurement/zzed;
 
     .line 124
     .line 125
-    invoke-virtual {p1, v0}, Lcom/google/android/gms/internal/measurement/zzed;
-    ->zzb(Landroid/os/Bundle;)V
+    invoke-virtual {p1, v0}, Lcom/google/android/gms/internal/measurement/zzed;->zzb(Landroid/os/Bundle;)V
 
     .line 126
     .line 127
@@ -1063,13 +995,11 @@
     .end annotation
 
     .line 1
-    iget-object v0, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;
-    ->zzb:Lcom/google/android/gms/internal/measurement/zzed;
+    iget-object v0, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;->zzb:Lcom/google/android/gms/internal/measurement/zzed;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzed;
-    ->zza(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, p1, p2, p3}, Lcom/google/android/gms/internal/measurement/zzed;->zza(Landroid/app/Activity;Ljava/lang/String;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1093,8 +1023,7 @@
 
     .line 4
     .line 5
-    invoke-direct {v0, p1}, Landroid/os/Bundle;
-    -><init>(Landroid/os/Bundle;)V
+    invoke-direct {v0, p1}, Landroid/os/Bundle;-><init>(Landroid/os/Bundle;)V
 
     .line 6
     .line 7
@@ -1103,13 +1032,11 @@
 
     .line 9
     :cond_0
-    iget-object v0, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;
-    ->zzb:Lcom/google/android/gms/internal/measurement/zzed;
+    iget-object v0, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;->zzb:Lcom/google/android/gms/internal/measurement/zzed;
 
     .line 10
     .line 11
-    invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/measurement/zzed;
-    ->zzc(Landroid/os/Bundle;)V
+    invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/measurement/zzed;->zzc(Landroid/os/Bundle;)V
 
     .line 12
     .line 13
@@ -1121,13 +1048,11 @@
     .locals 1
 
     .line 1
-    iget-object v0, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;
-    ->zzb:Lcom/google/android/gms/internal/measurement/zzed;
+    iget-object v0, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;->zzb:Lcom/google/android/gms/internal/measurement/zzed;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzed;
-    ->zza(J)V
+    invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzed;->zza(J)V
 
     .line 4
     .line 5
@@ -1143,13 +1068,11 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;
-    ->zzb:Lcom/google/android/gms/internal/measurement/zzed;
+    iget-object v0, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;->zzb:Lcom/google/android/gms/internal/measurement/zzed;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/measurement/zzed;
-    ->zzd(Ljava/lang/String;)V
+    invoke-virtual {v0, p1}, Lcom/google/android/gms/internal/measurement/zzed;->zzd(Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -1178,13 +1101,11 @@
     .end param
 
     .line 1
-    iget-object v0, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;
-    ->zzb:Lcom/google/android/gms/internal/measurement/zzed;
+    iget-object v0, p0, Lcom/google/firebase/analytics/FirebaseAnalytics;->zzb:Lcom/google/android/gms/internal/measurement/zzed;
 
     .line 2
     .line 3
-    invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzed;
-    ->zzb(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/internal/measurement/zzed;->zzb(Ljava/lang/String;Ljava/lang/String;)V
 
     .line 4
     .line 5

@@ -16,8 +16,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Landroidx/legacy/content/WakefulBroadcastReceiver;
-    -><init>()V
+    invoke-direct {p0}, Landroidx/legacy/content/WakefulBroadcastReceiver;-><init>()V
 
     .line 2
     .line 3
@@ -49,8 +48,7 @@
 
     .line 5
     :cond_0
-    invoke-static {p1}, Landroidx/legacy/content/WakefulBroadcastReceiver;
-    ->completeWakefulIntent(Landroid/content/Intent;)Z
+    invoke-static {p1}, Landroidx/legacy/content/WakefulBroadcastReceiver;->completeWakefulIntent(Landroid/content/Intent;)Z
 
     .line 6
     .line 7

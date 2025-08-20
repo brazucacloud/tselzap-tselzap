@@ -12,13 +12,11 @@
     .locals 0
 
     .line 1
-    iput-object p2, p0, Lcom/google/android/gms/common/moduleinstall/internal/zas;
-    ->zaa:Lcom/google/android/gms/tasks/TaskCompletionSource;
+    iput-object p2, p0, Lcom/google/android/gms/common/moduleinstall/internal/zas;->zaa:Lcom/google/android/gms/tasks/TaskCompletionSource;
 
     .line 2
     .line 3
-    invoke-direct {p0}, Lcom/google/android/gms/common/moduleinstall/internal/zaa;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/moduleinstall/internal/zaa;-><init>()V
 
     .line 4
     .line 5
@@ -35,13 +33,11 @@
     const/4 v0, 0x0
 
     .line 2
-    iget-object v1, p0, Lcom/google/android/gms/common/moduleinstall/internal/zas;
-    ->zaa:Lcom/google/android/gms/tasks/TaskCompletionSource;
+    iget-object v1, p0, Lcom/google/android/gms/common/moduleinstall/internal/zas;->zaa:Lcom/google/android/gms/tasks/TaskCompletionSource;
 
     .line 3
     .line 4
-    invoke-static {p1, v0, v1}, Lcom/google/android/gms/common/api/internal/TaskUtil;
-    ->trySetResultOrApiException(Lcom/google/android/gms/common/api/Status;Ljava/lang/Object;Lcom/google/android/gms/tasks/TaskCompletionSource;)Z
+    invoke-static {p1, v0, v1}, Lcom/google/android/gms/common/api/internal/TaskUtil;->trySetResultOrApiException(Lcom/google/android/gms/common/api/Status;Ljava/lang/Object;Lcom/google/android/gms/tasks/TaskCompletionSource;)Z
 
     .line 5
     .line 6

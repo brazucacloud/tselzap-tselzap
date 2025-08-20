@@ -25,8 +25,7 @@
     const/4 v0, 0x0
 
     .line 2
-    invoke-static {v0, v0}, Landroidx/collection/FloatFloatPair;
-    ->constructor-impl(FF)J
+    invoke-static {v0, v0}, Landroidx/collection/FloatFloatPair;->constructor-impl(FF)J
 
     .line 3
     .line 4
@@ -34,8 +33,7 @@
     move-result-wide v0
 
     .line 6
-    sput-wide v0, Landroidx/graphics/shapes/Utils;
-    ->Zero:J
+    sput-wide v0, Landroidx/graphics/shapes/Utils;->Zero:J
 
     .line 7
     .line 8
@@ -44,8 +42,7 @@
     .line 9
     .line 10
     .line 11
-    sput v0, Landroidx/graphics/shapes/Utils;
-    ->FloatPi:F
+    sput v0, Landroidx/graphics/shapes/Utils;->FloatPi:F
 
     .line 12
     .line 13
@@ -54,8 +51,7 @@
     .line 14
     .line 15
     .line 16
-    sput v0, Landroidx/graphics/shapes/Utils;
-    ->TwoPi:F    return-void
+    sput v0, Landroidx/graphics/shapes/Utils;->TwoPi:F    return-void
 .end method
 
 .method public static final angle(FF)F
@@ -68,8 +64,7 @@
     float-to-double p0, p0
 
     .line 3
-    invoke-static {v0, v1, p0, p1}, Ljava/lang/Math;
-    ->atan2(DD)D
+    invoke-static {v0, v1, p0, p1}, Ljava/lang/Math;->atan2(DD)D
 
     .line 4
     .line 5
@@ -80,8 +75,7 @@
     double-to-float p0, p0
 
     .line 8
-    sget p1, Landroidx/graphics/shapes/Utils;
-    ->TwoPi:F
+    sget p1, Landroidx/graphics/shapes/Utils;->TwoPi:F
 
     .line 9
     .line 10
@@ -107,13 +101,11 @@
     .line 1
     const-string v0, "tag"
 
-    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string p0, "messageFactory"
 
-    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 return-void
 .end method
 
@@ -123,22 +115,19 @@ return-void
     float-to-double v0, p0
 
     .line 4
-    invoke-static {v0, v1}, Ljava/lang/Math;
-    ->cos(D)D
+    invoke-static {v0, v1}, Ljava/lang/Math;->cos(D)D
 
     move-result-wide v2
 
     double-to-float p0, v2
 
-    invoke-static {v0, v1}, Ljava/lang/Math;
-    ->sin(D)D
+    invoke-static {v0, v1}, Ljava/lang/Math;->sin(D)D
 
     move-result-wide v0
 
     double-to-float v0, v0
 
-    invoke-static {p0, v0}, Landroidx/collection/FloatFloatPair;
-    ->constructor-impl(FF)J
+    invoke-static {p0, v0}, Landroidx/collection/FloatFloatPair;->constructor-impl(FF)J
 
     move-result-wide v0
 
@@ -149,8 +138,7 @@ return-void
     .locals 2
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/Utils;
-    ->distance(FF)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/Utils;->distance(FF)F
 
     move-result v0
 
@@ -165,8 +153,7 @@ return-void
     div-float/2addr p1, v0
 
     .line 2
-    invoke-static {p0, p1}, Landroidx/collection/FloatFloatPair;
-    ->constructor-impl(FF)J
+    invoke-static {p0, p1}, Landroidx/collection/FloatFloatPair;->constructor-impl(FF)J
 
     move-result-wide p0
 
@@ -178,8 +165,7 @@ return-void
 
     const-string p1, "Required distance greater than zero"
 
-    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
     throw p0
 .end method
@@ -202,8 +188,7 @@ return-void
     float-to-double p0, p1
 
     .line 7
-    invoke-static {p0, p1}, Ljava/lang/Math;
-    ->sqrt(D)D
+    invoke-static {p0, p1}, Ljava/lang/Math;->sqrt(D)D
 
     .line 8
     .line 9
@@ -236,8 +221,7 @@ return-void
 
     .line 2
     .line 3
-    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;
-    ->f(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
     .line 4
     .line 5
@@ -287,8 +271,7 @@ return-void
     div-float/2addr v0, v2
 
     .line 24
-    invoke-interface {p3, v1}, Landroidx/graphics/shapes/FindMinimumFunction;
-    ->invoke(F)F
+    invoke-interface {p3, v1}, Landroidx/graphics/shapes/FindMinimumFunction;->invoke(F)F
 
     .line 25
     .line 26
@@ -296,8 +279,7 @@ return-void
     move-result v2
 
     .line 28
-    invoke-interface {p3, v0}, Landroidx/graphics/shapes/FindMinimumFunction;
-    ->invoke(F)F
+    invoke-interface {p3, v0}, Landroidx/graphics/shapes/FindMinimumFunction;->invoke(F)F
 
     .line 29
     .line 30
@@ -356,8 +338,7 @@ return-void
     .line 7
     .line 8
     :cond_0
-    invoke-static {p0, p1, p2, p3}, Landroidx/graphics/shapes/Utils;
-    ->findMinimum(FFFLandroidx/graphics/shapes/FindMinimumFunction;)F
+    invoke-static {p0, p1, p2, p3}, Landroidx/graphics/shapes/Utils;->findMinimum(FFFLandroidx/graphics/shapes/FindMinimumFunction;)F
 
     .line 9
     .line 10
@@ -371,24 +352,21 @@ return-void
     .locals 1
 
     .line 1
-    sget v0, Landroidx/graphics/shapes/Utils;
-    ->FloatPi:F    return v0
+    sget v0, Landroidx/graphics/shapes/Utils;->FloatPi:F    return v0
 .end method
 
 .method public static final getTwoPi()F
     .locals 1
 
     .line 1
-    sget v0, Landroidx/graphics/shapes/Utils;
-    ->TwoPi:F    return v0
+    sget v0, Landroidx/graphics/shapes/Utils;->TwoPi:F    return v0
 .end method
 
 .method public static final getZero()J
     .locals 2
 
     .line 1
-    sget-wide v0, Landroidx/graphics/shapes/Utils;
-    ->Zero:J    return-wide v0
+    sget-wide v0, Landroidx/graphics/shapes/Utils;->Zero:J    return-wide v0
 .end method
 
 .method public static final interpolate(FFF)F
@@ -425,8 +403,7 @@ return-void
     .locals 2
 
     .line 1
-    invoke-static {p1}, Landroidx/graphics/shapes/Utils;
-    ->directionVector(F)J
+    invoke-static {p1}, Landroidx/graphics/shapes/Utils;->directionVector(F)J
 
     .line 2
     .line 3
@@ -434,8 +411,7 @@ return-void
     move-result-wide v0
 
     .line 5
-    invoke-static {v0, v1, p0}, Landroidx/graphics/shapes/PointKt;
-    ->times-so9K2fw(JF)J
+    invoke-static {v0, v1, p0}, Landroidx/graphics/shapes/PointKt;->times-so9K2fw(JF)J
 
     .line 6
     .line 7
@@ -443,8 +419,7 @@ return-void
     move-result-wide p0
 
     .line 9
-    invoke-static {p0, p1, p2, p3}, Landroidx/graphics/shapes/PointKt;
-    ->plus-ybeJwSQ(JJ)J
+    invoke-static {p0, p1, p2, p3}, Landroidx/graphics/shapes/PointKt;->plus-ybeJwSQ(JJ)J
 
     .line 10
     .line 11
@@ -466,14 +441,12 @@ return-void
 
     .line 4
     .line 5
-    sget-wide p2, Landroidx/graphics/shapes/Utils;
-    ->Zero:J
+    sget-wide p2, Landroidx/graphics/shapes/Utils;->Zero:J
 
     .line 6
     .line 7
     :cond_0
-    invoke-static {p0, p1, p2, p3}, Landroidx/graphics/shapes/Utils;
-    ->radialToCartesian-L6JJ3z0(FFJ)J
+    invoke-static {p0, p1, p2, p3}, Landroidx/graphics/shapes/Utils;->radialToCartesian-L6JJ3z0(FFJ)J
 
     .line 8
     .line 9
@@ -487,8 +460,7 @@ return-void
     .locals 1
 
     .line 1
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
-    ->getY-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getY-DnnuFBc(J)F
 
     .line 2
     .line 3
@@ -499,8 +471,7 @@ return-void
     neg-float v0, v0
 
     .line 6
-    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;
-    ->getX-DnnuFBc(J)F
+    invoke-static {p0, p1}, Landroidx/graphics/shapes/PointKt;->getX-DnnuFBc(J)F
 
     .line 7
     .line 8
@@ -508,8 +479,7 @@ return-void
     move-result p0
 
     .line 10
-    invoke-static {v0, p0}, Landroidx/collection/FloatFloatPair;
-    ->constructor-impl(FF)J
+    invoke-static {v0, p0}, Landroidx/collection/FloatFloatPair;->constructor-impl(FF)J
 
     .line 11
     .line 12

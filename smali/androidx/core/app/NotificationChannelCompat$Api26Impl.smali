@@ -23,8 +23,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
     .line 3
@@ -38,8 +37,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/NotificationChannel;
-    ->canBypassDnd()Z
+    invoke-virtual {p0}, Landroid/app/NotificationChannel;->canBypassDnd()Z
 
     .line 2
     .line 3
@@ -55,8 +53,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/NotificationChannel;
-    ->canShowBadge()Z
+    invoke-virtual {p0}, Landroid/app/NotificationChannel;->canShowBadge()Z
 
     .line 2
     .line 3
@@ -76,8 +73,7 @@
 
     .line 2
     .line 3
-    invoke-direct {v0, p0, p1, p2}, Landroid/app/NotificationChannel;
-    -><init>(Ljava/lang/String;Ljava/lang/CharSequence;I)V
+    invoke-direct {v0, p0, p1, p2}, Landroid/app/NotificationChannel;-><init>(Ljava/lang/String;Ljava/lang/CharSequence;I)V
 
     .line 4
     .line 5
@@ -91,8 +87,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/NotificationChannel;
-    ->enableLights(Z)V
+    invoke-virtual {p0, p1}, Landroid/app/NotificationChannel;->enableLights(Z)V
 
     .line 2
     .line 3
@@ -106,8 +101,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/NotificationChannel;
-    ->enableVibration(Z)V
+    invoke-virtual {p0, p1}, Landroid/app/NotificationChannel;->enableVibration(Z)V
 
     .line 2
     .line 3
@@ -121,8 +115,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/NotificationChannel;
-    ->getAudioAttributes()Landroid/media/AudioAttributes;
+    invoke-virtual {p0}, Landroid/app/NotificationChannel;->getAudioAttributes()Landroid/media/AudioAttributes;
 
     .line 2
     .line 3
@@ -138,8 +131,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/NotificationChannel;
-    ->getDescription()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/app/NotificationChannel;->getDescription()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -155,8 +147,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/NotificationChannel;
-    ->getGroup()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/app/NotificationChannel;->getGroup()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -172,8 +163,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/NotificationChannel;
-    ->getId()Ljava/lang/String;
+    invoke-virtual {p0}, Landroid/app/NotificationChannel;->getId()Ljava/lang/String;
 
     .line 2
     .line 3
@@ -189,8 +179,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/NotificationChannel;
-    ->getImportance()I
+    invoke-virtual {p0}, Landroid/app/NotificationChannel;->getImportance()I
 
     .line 2
     .line 3
@@ -206,8 +195,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/NotificationChannel;
-    ->getLightColor()I
+    invoke-virtual {p0}, Landroid/app/NotificationChannel;->getLightColor()I
 
     .line 2
     .line 3
@@ -223,8 +211,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/NotificationChannel;
-    ->getLockscreenVisibility()I
+    invoke-virtual {p0}, Landroid/app/NotificationChannel;->getLockscreenVisibility()I
 
     .line 2
     .line 3
@@ -240,8 +227,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/NotificationChannel;
-    ->getName()Ljava/lang/CharSequence;
+    invoke-virtual {p0}, Landroid/app/NotificationChannel;->getName()Ljava/lang/CharSequence;
 
     .line 2
     .line 3
@@ -257,8 +243,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/NotificationChannel;
-    ->getSound()Landroid/net/Uri;
+    invoke-virtual {p0}, Landroid/app/NotificationChannel;->getSound()Landroid/net/Uri;
 
     .line 2
     .line 3
@@ -274,8 +259,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/NotificationChannel;
-    ->getVibrationPattern()[J
+    invoke-virtual {p0}, Landroid/app/NotificationChannel;->getVibrationPattern()[J
 
     .line 2
     .line 3
@@ -291,8 +275,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/NotificationChannel;
-    ->setDescription(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Landroid/app/NotificationChannel;->setDescription(Ljava/lang/String;)V
 
     .line 2
     .line 3
@@ -306,8 +289,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/NotificationChannel;
-    ->setGroup(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Landroid/app/NotificationChannel;->setGroup(Ljava/lang/String;)V
 
     .line 2
     .line 3
@@ -321,8 +303,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/NotificationChannel;
-    ->setLightColor(I)V
+    invoke-virtual {p0, p1}, Landroid/app/NotificationChannel;->setLightColor(I)V
 
     .line 2
     .line 3
@@ -336,8 +317,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/NotificationChannel;
-    ->setShowBadge(Z)V
+    invoke-virtual {p0, p1}, Landroid/app/NotificationChannel;->setShowBadge(Z)V
 
     .line 2
     .line 3
@@ -351,8 +331,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1, p2}, Landroid/app/NotificationChannel;
-    ->setSound(Landroid/net/Uri;Landroid/media/AudioAttributes;)V
+    invoke-virtual {p0, p1, p2}, Landroid/app/NotificationChannel;->setSound(Landroid/net/Uri;Landroid/media/AudioAttributes;)V
 
     .line 2
     .line 3
@@ -366,8 +345,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0, p1}, Landroid/app/NotificationChannel;
-    ->setVibrationPattern([J)V
+    invoke-virtual {p0, p1}, Landroid/app/NotificationChannel;->setVibrationPattern([J)V
 
     .line 2
     .line 3
@@ -381,8 +359,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/NotificationChannel;
-    ->shouldShowLights()Z
+    invoke-virtual {p0}, Landroid/app/NotificationChannel;->shouldShowLights()Z
 
     .line 2
     .line 3
@@ -398,8 +375,7 @@
     .end annotation
 
     .line 1
-    invoke-virtual {p0}, Landroid/app/NotificationChannel;
-    ->shouldVibrate()Z
+    invoke-virtual {p0}, Landroid/app/NotificationChannel;->shouldVibrate()Z
 
     .line 2
     .line 3

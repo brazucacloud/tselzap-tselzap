@@ -308,8 +308,7 @@
 
     move-result-object v0
 
-    sput-object v0, Landroidx/preference/R$styleable;
-    ->BackgroundStyle:[I
+    sput-object v0, Landroidx/preference/R$styleable;->BackgroundStyle:[I
 
     const/4 v0, 0x6
 
@@ -317,8 +316,7 @@
 
     fill-array-data v0, :array_0
 
-    sput-object v0, Landroidx/preference/R$styleable;
-    ->CheckBoxPreference:[I
+    sput-object v0, Landroidx/preference/R$styleable;->CheckBoxPreference:[I
 
     const/16 v0, 0xc
 
@@ -326,8 +324,7 @@
 
     fill-array-data v0, :array_1
 
-    sput-object v0, Landroidx/preference/R$styleable;
-    ->DialogPreference:[I
+    sput-object v0, Landroidx/preference/R$styleable;->DialogPreference:[I
 
     const v0, 0x7f04064a
 
@@ -335,8 +332,7 @@
 
     move-result-object v1
 
-    sput-object v1, Landroidx/preference/R$styleable;
-    ->EditTextPreference:[I
+    sput-object v1, Landroidx/preference/R$styleable;->EditTextPreference:[I
 
     const v1, 0x10100b2
 
@@ -350,15 +346,13 @@
 
     move-result-object v0
 
-    sput-object v0, Landroidx/preference/R$styleable;
-    ->ListPreference:[I
+    sput-object v0, Landroidx/preference/R$styleable;->ListPreference:[I
 
     filled-new-array {v1, v2, v3, v4}, [I
 
     move-result-object v0
 
-    sput-object v0, Landroidx/preference/R$styleable;
-    ->MultiSelectListPreference:[I
+    sput-object v0, Landroidx/preference/R$styleable;->MultiSelectListPreference:[I
 
     const v0, 0x10100f2
 
@@ -368,8 +362,7 @@
 
     fill-array-data v1, :array_2
 
-    sput-object v1, Landroidx/preference/R$styleable;
-    ->Preference:[I
+    sput-object v1, Landroidx/preference/R$styleable;->Preference:[I
 
     const v1, 0x1010129
 
@@ -381,15 +374,13 @@
 
     move-result-object v4
 
-    sput-object v4, Landroidx/preference/R$styleable;
-    ->PreferenceFragment:[I
+    sput-object v4, Landroidx/preference/R$styleable;->PreferenceFragment:[I
 
     filled-new-array {v0, v1, v2, v3}, [I
 
     move-result-object v0
 
-    sput-object v0, Landroidx/preference/R$styleable;
-    ->PreferenceFragmentCompat:[I
+    sput-object v0, Landroidx/preference/R$styleable;->PreferenceFragmentCompat:[I
 
     const v0, 0x7f0402f2
 
@@ -401,8 +392,7 @@
 
     move-result-object v0
 
-    sput-object v0, Landroidx/preference/R$styleable;
-    ->PreferenceGroup:[I
+    sput-object v0, Landroidx/preference/R$styleable;->PreferenceGroup:[I
 
     const v0, 0x7f0403d9
 
@@ -416,8 +406,7 @@
 
     move-result-object v0
 
-    sput-object v0, Landroidx/preference/R$styleable;
-    ->PreferenceImageView:[I
+    sput-object v0, Landroidx/preference/R$styleable;->PreferenceImageView:[I
 
     const/16 v0, 0x11
 
@@ -425,8 +414,7 @@
 
     fill-array-data v0, :array_3
 
-    sput-object v0, Landroidx/preference/R$styleable;
-    ->PreferenceTheme:[I
+    sput-object v0, Landroidx/preference/R$styleable;->PreferenceTheme:[I
 
     const/4 v0, 0x7
 
@@ -434,8 +422,7 @@
 
     fill-array-data v0, :array_4
 
-    sput-object v0, Landroidx/preference/R$styleable;
-    ->SeekBarPreference:[I
+    sput-object v0, Landroidx/preference/R$styleable;->SeekBarPreference:[I
 
     const/16 v0, 0xa
 
@@ -443,15 +430,13 @@
 
     fill-array-data v1, :array_5
 
-    sput-object v1, Landroidx/preference/R$styleable;
-    ->SwitchPreference:[I
+    sput-object v1, Landroidx/preference/R$styleable;->SwitchPreference:[I
 
     new-array v0, v0, [I
 
     fill-array-data v0, :array_6
 
-    sput-object v0, Landroidx/preference/R$styleable;
-    ->SwitchPreferenceCompat:[I
+    sput-object v0, Landroidx/preference/R$styleable;->SwitchPreferenceCompat:[I
 
     return-void
 
@@ -585,8 +570,7 @@
 .method private constructor <init>()V
     .locals 0
 
-    invoke-direct {p0}, Ljava/lang/Object;
-    -><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
     return-void
 .end method
 

@@ -8,8 +8,7 @@
     .locals 0
 
     .line 1
-    invoke-direct {p0}, Lcom/google/android/gms/common/internal/service/zaj;
-    -><init>()V
+    invoke-direct {p0}, Lcom/google/android/gms/common/internal/service/zaj;-><init>()V
 
     .line 2
     .line 3

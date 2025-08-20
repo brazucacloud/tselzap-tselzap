@@ -40,8 +40,7 @@
 
     .line 14
     .line 15
-    invoke-static {v0, p1}, LA/d;
-    ->c(ILjava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, p1}, LA/d;->c(ILjava/lang/String;)Ljava/lang/String;
 
     .line 16
     .line 17
@@ -49,8 +48,7 @@
     move-result-object p1
 
     .line 19
-    invoke-direct {p0, p1}, Ljava/lang/NullPointerException;
-    -><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
     .line 20
     .line 21
