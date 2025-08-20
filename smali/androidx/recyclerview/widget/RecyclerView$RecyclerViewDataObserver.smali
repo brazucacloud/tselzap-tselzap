@@ -378,4 +378,5 @@
     invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V
     return-void
 .end method
+
 .end class

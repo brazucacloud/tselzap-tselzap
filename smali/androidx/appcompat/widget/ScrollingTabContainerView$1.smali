@@ -118,4 +118,5 @@
     .line 32
     iput-object v1, v0, Landroidx/appcompat/widget/ScrollingTabContainerView;->mTabSelector:Ljava/lang/Runnable;    return-void
 .end method
+
 .end class

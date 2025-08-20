@@ -175,4 +175,5 @@ return-void
     invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/NavType$Companion$ReferenceType$1;->put(Landroid/os/Bundle;Ljava/lang/String;I)V
     return-void
 .end method
+
 .end class

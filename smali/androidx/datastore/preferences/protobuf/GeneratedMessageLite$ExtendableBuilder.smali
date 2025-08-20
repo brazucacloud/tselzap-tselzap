@@ -588,4 +588,5 @@ return-void
     invoke-virtual {v0, v1, p1}, Landroidx/datastore/preferences/protobuf/FieldSet;->setField(Landroidx/datastore/preferences/protobuf/FieldSet$FieldDescriptorLite;Ljava/lang/Object;)V
     return-object p0
 .end method
+
 .end class

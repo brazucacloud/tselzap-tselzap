@@ -178,4 +178,5 @@ return-void
     .line 10
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeValue(Ljava/lang/Object;)V    return-void
 .end method
+
 .end class

@@ -93,4 +93,5 @@ return-object v0
     :cond_0
     return-object p1
 .end method
+
 .end class

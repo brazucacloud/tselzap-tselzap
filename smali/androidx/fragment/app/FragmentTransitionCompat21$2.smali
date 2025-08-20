@@ -159,4 +159,5 @@
     .line 4
     invoke-virtual {p1, p0}, Landroid/transition/Transition;->addListener(Landroid/transition/Transition$TransitionListener;)Landroid/transition/Transition;    return-void
 .end method
+
 .end class

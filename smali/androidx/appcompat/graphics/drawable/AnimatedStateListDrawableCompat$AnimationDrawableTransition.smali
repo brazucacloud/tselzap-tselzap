@@ -182,4 +182,5 @@
     invoke-virtual {v0}, Landroid/animation/Animator;->cancel()V
     return-void
 .end method
+
 .end class

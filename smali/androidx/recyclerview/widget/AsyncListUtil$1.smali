@@ -503,4 +503,5 @@ return-void
     invoke-virtual {p1}, Landroidx/recyclerview/widget/AsyncListUtil;->updateRange()V
     return-void
 .end method
+
 .end class

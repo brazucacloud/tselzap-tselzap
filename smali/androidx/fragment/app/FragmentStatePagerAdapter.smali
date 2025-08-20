@@ -1300,4 +1300,5 @@ return-void
     .line 32
     .line 33
     throw p1.end method
+
 .end class

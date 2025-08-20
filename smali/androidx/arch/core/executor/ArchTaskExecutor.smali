@@ -311,4 +311,5 @@ return-void
     :cond_0
     iput-object p1, p0, Landroidx/arch/core/executor/ArchTaskExecutor;->mDelegate:Landroidx/arch/core/executor/TaskExecutor;    return-void
 .end method
+
 .end class

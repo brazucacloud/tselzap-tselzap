@@ -9,4 +9,5 @@
 # virtual methods
 .method public abstract onStateChanged(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
 .end method
+
 .end class

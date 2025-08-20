@@ -2471,4 +2471,5 @@ return-object p0
     invoke-interface {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/Schema;->writeTo(Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/Writer;)V
     return-void
 .end method
+
 .end class

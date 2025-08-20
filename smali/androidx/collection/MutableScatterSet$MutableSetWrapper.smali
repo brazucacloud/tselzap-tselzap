@@ -493,4 +493,5 @@ return-object v0
     :cond_5
     return v5
 .end method
+
 .end class

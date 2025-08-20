@@ -76,4 +76,5 @@ return-void
     iput-boolean v0, p1, Landroidx/appcompat/widget/ActionBarOverlayLayout;->mAnimatingForFling:Z
 return-void
 .end method
+
 .end class

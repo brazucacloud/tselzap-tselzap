@@ -47,4 +47,5 @@
     invoke-virtual {v0}, Landroidx/appcompat/widget/AbsActionBarView;->showOverflowMenu()Z
 return-void
 .end method
+
 .end class

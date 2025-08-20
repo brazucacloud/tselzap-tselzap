@@ -333,4 +333,5 @@ return-void
     .line 7
     check-cast v0, [Landroidx/constraintlayout/core/dsl/OnSwipe$Side;    return-object v0
 .end method
+
 .end class

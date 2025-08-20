@@ -47,4 +47,5 @@
     invoke-virtual {v0}, Landroidx/appcompat/widget/SearchView;->updateFocusedState()V
     return-void
 .end method
+
 .end class

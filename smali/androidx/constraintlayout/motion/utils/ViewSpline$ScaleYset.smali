@@ -39,4 +39,5 @@
     .line 5
     invoke-virtual {p1, p2}, Landroid/view/View;->setScaleY(F)V    return-void
 .end method
+
 .end class

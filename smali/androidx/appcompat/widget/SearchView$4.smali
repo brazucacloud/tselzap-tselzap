@@ -47,4 +47,5 @@
     invoke-virtual {p1}, Landroidx/appcompat/widget/SearchView;->adjustDropDownSizeAndPosition()V
     return-void
 .end method
+
 .end class

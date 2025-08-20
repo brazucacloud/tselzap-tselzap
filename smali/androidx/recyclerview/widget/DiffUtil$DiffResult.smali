@@ -1279,4 +1279,5 @@
     invoke-virtual {p0, v0}, Landroidx/recyclerview/widget/DiffUtil$DiffResult;->dispatchUpdatesTo(Landroidx/recyclerview/widget/ListUpdateCallback;)V
 return-void
 .end method
+
 .end class

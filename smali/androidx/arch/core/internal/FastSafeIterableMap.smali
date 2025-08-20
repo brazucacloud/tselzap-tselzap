@@ -245,4 +245,5 @@
     .line 7
     invoke-virtual {v1, p1}, Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;    return-object v0
 .end method
+
 .end class

@@ -1123,4 +1123,5 @@ return-void
     invoke-virtual {v0, p1}, Landroid/database/Observable;->unregisterObserver(Ljava/lang/Object;)V
 return-void
 .end method
+
 .end class

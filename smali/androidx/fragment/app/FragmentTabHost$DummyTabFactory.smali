@@ -63,4 +63,5 @@
     .line 12
     invoke-virtual {p1, v0}, Landroid/view/View;->setMinimumHeight(I)V    return-object p1
 .end method
+
 .end class

@@ -1239,4 +1239,5 @@
     invoke-virtual {p1}, Landroid/widget/ImageView;->clearColorFilter()V
     return-void
 .end method
+
 .end class

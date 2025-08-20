@@ -74,4 +74,5 @@
     .line 3
     invoke-static {v0, p0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I    return-void
 .end method
+
 .end class

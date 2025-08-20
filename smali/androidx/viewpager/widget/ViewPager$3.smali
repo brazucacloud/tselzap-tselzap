@@ -59,4 +59,5 @@
     invoke-virtual {v0}, Landroidx/viewpager/widget/ViewPager;->populate()V
     return-void
 .end method
+
 .end class

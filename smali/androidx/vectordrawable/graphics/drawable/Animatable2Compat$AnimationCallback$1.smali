@@ -56,4 +56,5 @@ return-void
     invoke-virtual {v0, p1}, Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;->onAnimationStart(Landroid/graphics/drawable/Drawable;)V
 return-void
 .end method
+
 .end class

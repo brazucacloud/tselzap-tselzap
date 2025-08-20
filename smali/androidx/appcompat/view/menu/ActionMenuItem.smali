@@ -1153,4 +1153,5 @@ return-object p0
     .line 11
     iput p1, p0, Landroidx/appcompat/view/menu/ActionMenuItem;->mFlags:I    return-object p0
 .end method
+
 .end class

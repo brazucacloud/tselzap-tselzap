@@ -56,4 +56,5 @@
     invoke-static {p0, p1, p2}, Landroidx/core/graphics/a;->u(Landroid/animation/AnimatorSet;J)V
 return-void
 .end method
+
 .end class

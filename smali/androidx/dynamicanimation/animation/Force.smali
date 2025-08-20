@@ -9,4 +9,5 @@
 
 .method public abstract isAtEquilibrium(FF)Z
 .end method
+
 .end class

@@ -742,4 +742,5 @@ return-void
     .line 353
     invoke-virtual {v2, v0}, Landroidx/constraintlayout/core/state/ConstraintReference;->setVerticalChainStyle(I)V    return-void
 .end method
+
 .end class

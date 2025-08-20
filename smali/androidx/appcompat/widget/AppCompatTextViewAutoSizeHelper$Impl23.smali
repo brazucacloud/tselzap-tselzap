@@ -56,4 +56,5 @@
     invoke-static {p1, p2}, La0/c;->B(Landroid/text/StaticLayout$Builder;Landroid/text/TextDirectionHeuristic;)V
 return-void
 .end method
+
 .end class

@@ -48,4 +48,5 @@
 
 .method public abstract updateRange(IIIII)V
 .end method
+
 .end class

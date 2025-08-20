@@ -75,4 +75,5 @@
     .line 10
     iput-object p1, p0, Landroidx/concurrent/futures/AbstractResolvableFuture$Failure;->exception:Ljava/lang/Throwable;    return-void
 .end method
+
 .end class

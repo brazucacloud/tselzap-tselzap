@@ -424,4 +424,5 @@ return-void
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->invalidateItemDecorations()V
     return-void
 .end method
+
 .end class

@@ -213,4 +213,5 @@
     .line 3
     invoke-static {v0, p1}, Landroidx/appcompat/widget/AppCompatTextView;->access$901(Landroidx/appcompat/widget/AppCompatTextView;Landroid/view/textclassifier/TextClassifier;)V    return-void
 .end method
+
 .end class

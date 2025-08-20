@@ -232,4 +232,5 @@ return-object v0
     :cond_0
     return-void
 .end method
+
 .end class

@@ -413,4 +413,5 @@
     :cond_0
     return-object v0
 .end method
+
 .end class

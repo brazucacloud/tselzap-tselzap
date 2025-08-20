@@ -128,4 +128,5 @@
     .line 8
     invoke-virtual {p2, p1}, Landroidx/versionedparcelable/VersionedParcel;->writeVersionedParcelable(Landroidx/versionedparcelable/VersionedParcelable;)V    return-void
 .end method
+
 .end class

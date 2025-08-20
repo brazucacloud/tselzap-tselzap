@@ -95,4 +95,5 @@ return-object p0
     .line 1
     iput-object p1, p0, Landroidx/recyclerview/widget/ConcatAdapter$Config$Builder;->mStableIdMode:Landroidx/recyclerview/widget/ConcatAdapter$Config$StableIdMode;    return-object p0
 .end method
+
 .end class

@@ -3186,4 +3186,5 @@ return-void
     invoke-virtual {p2, p1, v2, v0, v1}, Landroid/graphics/Paint;->getTextBounds(Ljava/lang/String;IILandroid/graphics/Rect;)V
     return-void
 .end method
+
 .end class

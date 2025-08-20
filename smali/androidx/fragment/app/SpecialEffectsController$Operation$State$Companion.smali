@@ -157,4 +157,5 @@
     :cond_2
     sget-object p1, Landroidx/fragment/app/SpecialEffectsController$Operation$State;->VISIBLE:Landroidx/fragment/app/SpecialEffectsController$Operation$State;    return-object p1
 .end method
+
 .end class

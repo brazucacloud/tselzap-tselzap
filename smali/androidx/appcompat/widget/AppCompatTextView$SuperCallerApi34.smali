@@ -46,4 +46,5 @@
     .line 3
     invoke-static {v0, p1, p2}, Landroidx/appcompat/widget/AppCompatTextView;->access$1201(Landroidx/appcompat/widget/AppCompatTextView;IF)V    return-void
 .end method
+
 .end class

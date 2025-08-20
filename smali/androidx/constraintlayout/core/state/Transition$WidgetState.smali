@@ -591,4 +591,5 @@ return-void
     .line 41
     iput p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mParentWidth:I    return-void
 .end method
+
 .end class

@@ -233,4 +233,5 @@ return-void
 
     .line 38
     throw p0.end method
+
 .end class

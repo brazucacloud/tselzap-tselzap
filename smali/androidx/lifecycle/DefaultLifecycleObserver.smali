@@ -24,4 +24,5 @@
 
 .method public abstract onStop(Landroidx/lifecycle/LifecycleOwner;)V
 .end method
+
 .end class

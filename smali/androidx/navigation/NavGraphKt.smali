@@ -363,4 +363,5 @@ return-void
     invoke-virtual {p0, p1}, Landroidx/navigation/NavGraph;->addAll(Landroidx/navigation/NavGraph;)V
 return-void
 .end method
+
 .end class

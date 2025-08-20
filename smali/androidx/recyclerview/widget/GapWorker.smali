@@ -1468,4 +1468,5 @@ return-void
     .line 82
     .line 83
     throw v2.end method
+
 .end class

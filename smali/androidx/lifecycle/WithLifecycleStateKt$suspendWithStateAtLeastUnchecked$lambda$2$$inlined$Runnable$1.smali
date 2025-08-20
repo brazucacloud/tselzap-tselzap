@@ -52,4 +52,5 @@
     invoke-virtual {v0, v1}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 return-void
 .end method
+
 .end class

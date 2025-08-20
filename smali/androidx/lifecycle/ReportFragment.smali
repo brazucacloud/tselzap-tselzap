@@ -323,4 +323,5 @@ return-void
     .line 1
     iput-object p1, p0, Landroidx/lifecycle/ReportFragment;->processListener:Landroidx/lifecycle/ReportFragment$ActivityInitializationListener;    return-void
 .end method
+
 .end class

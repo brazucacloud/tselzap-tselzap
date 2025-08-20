@@ -58,4 +58,5 @@
     invoke-virtual {p1}, Landroidx/appcompat/view/ActionMode;->finish()V
     return-void
 .end method
+
 .end class

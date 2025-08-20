@@ -134,4 +134,5 @@ return-void
     invoke-virtual {v1, p1, p2, p3, v0}, Landroidx/navigation/serialization/RouteBuilder;->appendArg(ILjava/lang/String;Landroidx/navigation/NavType;Ljava/util/List;)V
 return-void
 .end method
+
 .end class

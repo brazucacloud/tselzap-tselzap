@@ -17,4 +17,5 @@
 # virtual methods
 .method public abstract convertToString(Landroid/database/Cursor;)Ljava/lang/CharSequence;
 .end method
+
 .end class

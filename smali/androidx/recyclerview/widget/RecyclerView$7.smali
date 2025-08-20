@@ -385,4 +385,5 @@ return-void
     .line 1
     invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$7;->dispatchUpdate(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V    return-void
 .end method
+
 .end class

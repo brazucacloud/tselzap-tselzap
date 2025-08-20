@@ -6622,4 +6622,5 @@ return-object v1
     :cond_2
     return-void
 .end method
+
 .end class

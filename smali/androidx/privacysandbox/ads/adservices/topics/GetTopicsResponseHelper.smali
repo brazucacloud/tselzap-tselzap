@@ -427,4 +427,5 @@ return-object p1
     invoke-direct {p1, v0, v1}, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsResponse;-><init>(Ljava/util/List;Ljava/util/List;)V
 return-object p1
 .end method
+
 .end class

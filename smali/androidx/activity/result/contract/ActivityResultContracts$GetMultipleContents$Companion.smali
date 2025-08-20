@@ -176,4 +176,5 @@
     invoke-direct {p1, v0}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
     return-object p1
 .end method
+
 .end class

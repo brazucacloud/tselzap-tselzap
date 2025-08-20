@@ -875,4 +875,5 @@ return-object p0
     invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Enum;->access$2600(Landroidx/datastore/preferences/protobuf/Enum;I)V
 return-object p0
 .end method
+
 .end class

@@ -2744,4 +2744,5 @@ return-void
     invoke-super/range {p0 .. p7}, Landroid/app/Activity;->startIntentSenderForResult(Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V
 return-void
 .end method
+
 .end class

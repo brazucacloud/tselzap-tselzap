@@ -735,4 +735,5 @@ return-void
     :goto_0
     iput p1, p0, Landroidx/recyclerview/widget/DividerItemDecoration;->mOrientation:I    return-void
 .end method
+
 .end class

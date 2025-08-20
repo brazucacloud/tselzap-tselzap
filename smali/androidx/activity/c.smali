@@ -33,4 +33,5 @@
     invoke-static {v0, p1}, Landroidx/activity/ComponentActivity;->a(Landroidx/activity/ComponentActivity;Landroid/content/Context;)V
 return-void
 .end method
+
 .end class

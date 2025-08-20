@@ -1575,4 +1575,5 @@ return-void
     iput-boolean v0, p0, Landroidx/appcompat/view/SupportMenuInflater$MenuState;->groupEnabled:Z
 return-void
 .end method
+
 .end class

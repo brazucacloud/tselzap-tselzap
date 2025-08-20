@@ -103,4 +103,5 @@
     .line 6
     iput-object p2, p0, Landroidx/concurrent/futures/AbstractResolvableFuture$Cancellation;->cause:Ljava/lang/Throwable;    return-void
 .end method
+
 .end class

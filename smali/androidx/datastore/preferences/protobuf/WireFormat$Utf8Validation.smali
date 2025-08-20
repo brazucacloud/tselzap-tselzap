@@ -183,4 +183,5 @@ return-void
 # virtual methods
 .method public abstract readString(Landroidx/datastore/preferences/protobuf/CodedInputStream;)Ljava/lang/Object;
 .end method
+
 .end class

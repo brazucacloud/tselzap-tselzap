@@ -662,4 +662,5 @@ return-void
     invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/ResourcesWrapper;->updateConfiguration(Landroid/content/res/Configuration;Landroid/util/DisplayMetrics;)V
 return-void
 .end method
+
 .end class

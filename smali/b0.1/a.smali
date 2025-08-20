@@ -335,4 +335,5 @@ return-void
     .packed-switch 0x3
         :pswitch_0
     .end packed-switch.end method
+
 .end class

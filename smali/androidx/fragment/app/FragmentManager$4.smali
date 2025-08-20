@@ -52,4 +52,5 @@
     .line 3
     invoke-direct {v0, p1}, Landroidx/fragment/app/DefaultSpecialEffectsController;-><init>(Landroid/view/ViewGroup;)V    return-object v0
 .end method
+
 .end class

@@ -313,4 +313,5 @@ return-void
     invoke-virtual {v0, p1, p2, p3, p4}, Lsun/misc/Unsafe;->putLong(JJ)V
 return-void
 .end method
+
 .end class

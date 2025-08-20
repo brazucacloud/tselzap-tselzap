@@ -255,4 +255,5 @@ return-void
     invoke-direct {p0, p1, v0}, Landroidx/graphics/shapes/MutableCubic;->transformOnePoint(Landroidx/graphics/shapes/PointTransformer;I)V
 return-void
 .end method
+
 .end class

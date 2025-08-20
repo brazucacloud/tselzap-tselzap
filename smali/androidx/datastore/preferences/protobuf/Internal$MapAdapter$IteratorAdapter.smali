@@ -134,4 +134,5 @@ return-object v0
     invoke-interface {v0}, Ljava/util/Iterator;->remove()V
 return-void
 .end method
+
 .end class

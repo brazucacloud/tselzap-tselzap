@@ -156,4 +156,5 @@ return-object p0
     invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/SourceContext;->access$300(Landroidx/datastore/preferences/protobuf/SourceContext;Landroidx/datastore/preferences/protobuf/ByteString;)V
 return-object p0
 .end method
+
 .end class

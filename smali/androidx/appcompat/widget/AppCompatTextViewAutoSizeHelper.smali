@@ -3229,4 +3229,5 @@ return-void
     .line 22
     invoke-direct {p0, p1}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->setRawTextSize(F)V    return-void
 .end method
+
 .end class

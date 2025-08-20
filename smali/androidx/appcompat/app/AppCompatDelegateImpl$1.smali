@@ -224,4 +224,5 @@ return-void
     invoke-interface {v0, p1, p2}, Ljava/lang/Thread$UncaughtExceptionHandler;->uncaughtException(Ljava/lang/Thread;Ljava/lang/Throwable;)V
 return-void
 .end method
+
 .end class

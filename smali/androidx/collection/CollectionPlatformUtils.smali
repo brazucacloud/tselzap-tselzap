@@ -41,4 +41,5 @@
     invoke-direct {v0}, Ljava/lang/ArrayIndexOutOfBoundsException;-><init>()V
     return-object v0
 .end method
+
 .end class

@@ -4454,4 +4454,5 @@ return-object v1
     invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream$StreamDecoder;->skipRawBytesSlowPath(I)V
 return-void
 .end method
+
 .end class

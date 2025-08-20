@@ -1497,4 +1497,5 @@ return-void
     .line 1
     iget-boolean v0, p0, Landroidx/appcompat/view/menu/ListMenuItemView;->mForceShowIcon:Z    return v0
 .end method
+
 .end class

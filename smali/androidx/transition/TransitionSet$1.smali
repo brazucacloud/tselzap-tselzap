@@ -58,4 +58,5 @@
     .line 6
     invoke-virtual {p1, p0}, Landroidx/transition/Transition;->removeListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;    return-void
 .end method
+
 .end class

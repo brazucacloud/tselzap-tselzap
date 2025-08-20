@@ -616,4 +616,5 @@
     .line 1
     invoke-super {p0, p1}, Landroidx/appcompat/widget/DropDownListView;->setSelector(Landroid/graphics/drawable/Drawable;)V    return-void
 .end method
+
 .end class

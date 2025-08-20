@@ -154,4 +154,5 @@ return-void
     invoke-static {v0, v2, v3, p1, v1}, Landroidx/navigation/NavController;->access$addEntryToBackStack(Landroidx/navigation/NavController;Landroidx/navigation/NavDestination;Landroid/os/Bundle;Landroidx/navigation/NavBackStackEntry;Ljava/util/List;)V
     return-void
 .end method
+
 .end class

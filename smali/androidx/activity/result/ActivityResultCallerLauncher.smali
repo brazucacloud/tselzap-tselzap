@@ -223,4 +223,5 @@ return-void
     invoke-virtual {v0}, Landroidx/activity/result/ActivityResultLauncher;->unregister()V
     return-void
 .end method
+
 .end class

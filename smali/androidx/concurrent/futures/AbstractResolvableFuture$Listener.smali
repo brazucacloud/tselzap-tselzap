@@ -64,4 +64,5 @@
     .line 6
     iput-object p2, p0, Landroidx/concurrent/futures/AbstractResolvableFuture$Listener;->executor:Ljava/util/concurrent/Executor;    return-void
 .end method
+
 .end class

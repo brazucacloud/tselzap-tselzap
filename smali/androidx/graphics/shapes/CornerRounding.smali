@@ -141,4 +141,5 @@ return-void
     .line 1
     iget v0, p0, Landroidx/graphics/shapes/CornerRounding;->smoothing:F    return v0
 .end method
+
 .end class

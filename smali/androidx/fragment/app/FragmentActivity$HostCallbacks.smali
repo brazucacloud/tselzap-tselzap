@@ -713,4 +713,5 @@ return-void
     invoke-virtual {v0, p1}, Landroidx/activity/ComponentActivity;->removeOnTrimMemoryListener(Landroidx/core/util/Consumer;)V
 return-void
 .end method
+
 .end class

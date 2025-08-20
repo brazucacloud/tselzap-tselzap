@@ -968,4 +968,5 @@ return-void
     .line 89
     .line 90
     throw p2.end method
+
 .end class

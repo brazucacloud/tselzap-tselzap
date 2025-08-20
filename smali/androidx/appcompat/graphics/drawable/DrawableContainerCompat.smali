@@ -2716,4 +2716,5 @@ return-void
     invoke-virtual {v0, p1}, Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$DrawableContainerState;->updateDensity(Landroid/content/res/Resources;)V
 return-void
 .end method
+
 .end class

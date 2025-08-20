@@ -123,4 +123,5 @@
     .line 4
     invoke-interface {p1, v0}, Landroidx/transition/GhostView;->setVisibility(I)V    return-void
 .end method
+
 .end class

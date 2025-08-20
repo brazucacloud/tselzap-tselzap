@@ -600,4 +600,5 @@ return-void
     invoke-virtual {v0, p1}, Ljava/util/ArrayDeque;->push(Ljava/lang/Object;)V
 return-void
 .end method
+
 .end class

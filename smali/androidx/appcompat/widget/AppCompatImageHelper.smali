@@ -951,4 +951,5 @@
     invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatImageHelper;->applySupportImageTint()V
     return-void
 .end method
+
 .end class

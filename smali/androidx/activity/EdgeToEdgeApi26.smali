@@ -124,4 +124,5 @@
     invoke-virtual {p1, p2}, Landroidx/core/view/WindowInsetsControllerCompat;->setAppearanceLightNavigationBars(Z)V
 return-void
 .end method
+
 .end class

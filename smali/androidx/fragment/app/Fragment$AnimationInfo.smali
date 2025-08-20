@@ -147,4 +147,5 @@
     .line 27
     iput-object v0, p0, Landroidx/fragment/app/Fragment$AnimationInfo;->mFocusedView:Landroid/view/View;    return-void
 .end method
+
 .end class

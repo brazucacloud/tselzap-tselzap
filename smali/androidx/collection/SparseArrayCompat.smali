@@ -2004,4 +2004,5 @@ return-void
     .line 10
     aget-object p1, v0, p1    return-object p1
 .end method
+
 .end class

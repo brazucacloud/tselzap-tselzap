@@ -87,4 +87,5 @@
     .line 3
     invoke-interface {v0}, Landroid/view/CollapsibleActionView;->onActionViewExpanded()V    return-void
 .end method
+
 .end class

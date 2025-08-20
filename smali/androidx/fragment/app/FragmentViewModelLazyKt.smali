@@ -460,4 +460,5 @@
     .line 5
     check-cast p0, Landroidx/lifecycle/ViewModelStoreOwner;    return-object p0
 .end method
+
 .end class

@@ -11,4 +11,5 @@
     invoke-direct {p0}, Landroidx/fragment/app/FragmentManager;-><init>()V
     return-void
 .end method
+
 .end class

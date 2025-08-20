@@ -67,4 +67,5 @@
     .line 5
     invoke-static {p1, p2, p3}, Landroidx/appcompat/app/AlertController;->manageScrollIndicators(Landroid/view/View;Landroid/view/View;Landroid/view/View;)V    return-void
 .end method
+
 .end class

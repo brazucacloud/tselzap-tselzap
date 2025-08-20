@@ -392,4 +392,5 @@ return-void
     iput-boolean p1, p0, Landroidx/preference/PreferenceViewHolder;->mDividerAllowedBelow:Z
 return-void
 .end method
+
 .end class

@@ -55,4 +55,5 @@ return-void
     iput-boolean p1, p0, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->resolved:Z
 return-void
 .end method
+
 .end class

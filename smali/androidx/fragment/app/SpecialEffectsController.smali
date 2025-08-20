@@ -2316,4 +2316,5 @@ return-void
     iput-boolean p1, p0, Landroidx/fragment/app/SpecialEffectsController;->operationDirectionIsPop:Z
 return-void
 .end method
+
 .end class

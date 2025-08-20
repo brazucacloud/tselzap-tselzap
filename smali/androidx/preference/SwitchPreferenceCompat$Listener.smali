@@ -80,4 +80,5 @@ return-void
     invoke-virtual {p1, p2}, Landroidx/preference/TwoStatePreference;->setChecked(Z)V
 return-void
 .end method
+
 .end class

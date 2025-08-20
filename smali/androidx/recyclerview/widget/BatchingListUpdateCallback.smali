@@ -440,4 +440,5 @@ return-void
     .line 29
     iput v1, p0, Landroidx/recyclerview/widget/BatchingListUpdateCallback;->mLastEventType:I    return-void
 .end method
+
 .end class

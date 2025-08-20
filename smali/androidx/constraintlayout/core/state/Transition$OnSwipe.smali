@@ -1947,4 +1947,5 @@ return-void
     :cond_0
     iput p1, p0, Landroidx/constraintlayout/core/state/Transition$OnSwipe;->mSpringStopThreshold:F    return-void
 .end method
+
 .end class

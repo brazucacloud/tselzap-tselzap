@@ -346,4 +346,5 @@
     .line 3
     invoke-virtual {v0, p0, p1}, Landroidx/transition/ViewUtilsApi19;->transformMatrixToLocal(Landroid/view/View;Landroid/graphics/Matrix;)V    return-void
 .end method
+
 .end class

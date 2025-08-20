@@ -185,4 +185,5 @@
     .line 12
     .line 13
     throw v1.end method
+
 .end class

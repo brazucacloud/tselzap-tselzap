@@ -1571,4 +1571,5 @@ return-void
     iput-boolean p1, p0, Landroidx/transition/ChangeTransform;->mUseOverlay:Z
 return-void
 .end method
+
 .end class

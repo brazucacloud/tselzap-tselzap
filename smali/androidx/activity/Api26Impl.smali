@@ -68,4 +68,5 @@
     invoke-virtual {p1, p2}, Landroid/app/Activity;->setPictureInPictureParams(Landroid/app/PictureInPictureParams;)V
     return-void
 .end method
+
 .end class

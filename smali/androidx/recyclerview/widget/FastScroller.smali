@@ -2814,4 +2814,5 @@ return-void
     invoke-virtual {p0, v4}, Landroidx/recyclerview/widget/FastScroller;->setState(I)V
 return-void
 .end method
+
 .end class

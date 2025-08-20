@@ -30,4 +30,5 @@
     invoke-direct {p0}, Landroidx/privacysandbox/ads/adservices/appsetid/AppSetId$Companion;-><init>()V
     return-void
 .end method
+
 .end class

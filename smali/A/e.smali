@@ -24,4 +24,5 @@
 
 .method public abstract i(LA/c;)Z
 .end method
+
 .end class

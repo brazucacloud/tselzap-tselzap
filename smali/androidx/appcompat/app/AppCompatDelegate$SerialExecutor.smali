@@ -249,4 +249,5 @@ return-void
 
     .line 27
     throw v1.end method
+
 .end class

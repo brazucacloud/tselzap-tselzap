@@ -71,4 +71,5 @@
     .line 9
     invoke-virtual/range {v0 .. v5}, Landroidx/fragment/app/ListFragment;->onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V    return-void
 .end method
+
 .end class

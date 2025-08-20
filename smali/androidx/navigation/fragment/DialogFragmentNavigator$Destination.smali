@@ -317,4 +317,5 @@ return-object v0
     .line 6
     iput-object p1, p0, Landroidx/navigation/fragment/DialogFragmentNavigator$Destination;->_className:Ljava/lang/String;    return-object p0
 .end method
+
 .end class

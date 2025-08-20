@@ -94,4 +94,5 @@
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$DesignElement;->mType:Ljava/lang/String;    return-object v0
 .end method
+
 .end class

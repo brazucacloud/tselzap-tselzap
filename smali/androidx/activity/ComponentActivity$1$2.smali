@@ -108,4 +108,5 @@
     invoke-virtual {v0, v1, v3, v2}, Landroidx/activity/result/ActivityResultRegistry;->dispatchResult(IILandroid/content/Intent;)Z
 return-void
 .end method
+
 .end class

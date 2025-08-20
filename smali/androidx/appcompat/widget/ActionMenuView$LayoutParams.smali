@@ -97,4 +97,5 @@ return-void
     iput-boolean p1, p0, Landroidx/appcompat/widget/ActionMenuView$LayoutParams;->isOverflowButton:Z
 return-void
 .end method
+
 .end class

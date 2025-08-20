@@ -1479,4 +1479,5 @@
     invoke-direct {p0}, Landroidx/navigation/NavDeepLinkBuilder;->verifyAllDestinations()V
     return-object p0
 .end method
+
 .end class

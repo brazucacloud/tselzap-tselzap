@@ -115,4 +115,5 @@
     invoke-virtual {p1, p2}, Landroidx/core/view/WindowInsetsControllerCompat;->setAppearanceLightStatusBars(Z)V
 return-void
 .end method
+
 .end class

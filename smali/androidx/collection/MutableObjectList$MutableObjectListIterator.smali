@@ -304,4 +304,5 @@ return-void
     .line 5
     invoke-interface {v0, v1, p1}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
+
 .end class

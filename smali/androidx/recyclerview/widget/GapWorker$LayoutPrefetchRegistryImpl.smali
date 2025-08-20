@@ -445,4 +445,5 @@
     .line 3
     iput p2, p0, Landroidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl;->mPrefetchDy:I    return-void
 .end method
+
 .end class

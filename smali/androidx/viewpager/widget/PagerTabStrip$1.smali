@@ -62,4 +62,5 @@
     .line 11
     invoke-virtual {p1, v0}, Landroidx/viewpager/widget/ViewPager;->setCurrentItem(I)V    return-void
 .end method
+
 .end class

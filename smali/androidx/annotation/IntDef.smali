@@ -35,4 +35,5 @@
 
 .method public abstract value()[I
 .end method
+
 .end class

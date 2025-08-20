@@ -45,4 +45,5 @@
 
 .method public abstract getFieldsOrThrow(Ljava/lang/String;)Landroidx/datastore/preferences/protobuf/Value;
 .end method
+
 .end class

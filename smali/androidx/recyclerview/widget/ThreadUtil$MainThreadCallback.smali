@@ -45,4 +45,5 @@
 
 .method public abstract updateItemCount(II)V
 .end method
+
 .end class

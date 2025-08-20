@@ -77,4 +77,5 @@ return-object v0
     .line 6
     iput-wide v2, p0, Landroidx/recyclerview/widget/StableIdStorage$IsolatedStableIdStorage;->mNextStableId:J    return-wide v0
 .end method
+
 .end class

@@ -71,4 +71,5 @@ return-void
     invoke-virtual {p1, p2}, Landroid/graphics/drawable/Drawable;->unscheduleSelf(Ljava/lang/Runnable;)V
 return-void
 .end method
+
 .end class

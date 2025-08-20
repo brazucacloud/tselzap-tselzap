@@ -136,4 +136,5 @@
     .line 6
     iput-object p1, p0, Landroidx/navigation/fragment/FragmentNavigator$ClearEntryStateViewModel;->completeTransition:Ljava/lang/ref/WeakReference;    return-void
 .end method
+
 .end class

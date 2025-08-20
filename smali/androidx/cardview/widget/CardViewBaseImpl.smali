@@ -483,4 +483,5 @@ return-void
     .line 44
     invoke-interface {p1, v1, v2, v3, v0}, Landroidx/cardview/widget/CardViewDelegate;->setShadowPadding(IIII)V    return-void
 .end method
+
 .end class

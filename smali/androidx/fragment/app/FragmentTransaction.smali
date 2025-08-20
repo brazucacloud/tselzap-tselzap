@@ -2087,4 +2087,5 @@ return-object p0
     invoke-virtual {p0, v0}, Landroidx/fragment/app/FragmentTransaction;->addOp(Landroidx/fragment/app/FragmentTransaction$Op;)V
 return-object p0
 .end method
+
 .end class

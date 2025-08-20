@@ -241,4 +241,5 @@
     .line 6
     iput-object p1, p0, Landroidx/collection/MutableScatterMap$MutableMapWrapper$entries$1$iterator$1;->iterator:Ljava/util/Iterator;    return-void
 .end method
+
 .end class

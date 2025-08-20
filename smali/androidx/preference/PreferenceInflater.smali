@@ -1417,4 +1417,5 @@ return-object p2
     .line 1
     iput-object p1, p0, Landroidx/preference/PreferenceInflater;->mDefaultPackages:[Ljava/lang/String;    return-void
 .end method
+
 .end class

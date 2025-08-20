@@ -1241,4 +1241,5 @@ return-void
     .line 12
     invoke-virtual {v0, p1}, Landroid/transition/TransitionSet;->addTransition(Landroid/transition/Transition;)Landroid/transition/TransitionSet;    return-object v0
 .end method
+
 .end class

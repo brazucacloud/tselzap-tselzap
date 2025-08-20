@@ -2236,4 +2236,5 @@ return-void
     invoke-direct {p0, p1, v0}, Landroidx/cardview/widget/RoundRectDrawableWithShadow;->setShadowSize(FF)V
 return-void
 .end method
+
 .end class

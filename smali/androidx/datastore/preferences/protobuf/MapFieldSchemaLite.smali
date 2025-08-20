@@ -341,4 +341,5 @@
     invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->makeImmutable()V
     return-object p1
 .end method
+
 .end class

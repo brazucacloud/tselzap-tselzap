@@ -35,4 +35,5 @@
     .line 1
     invoke-static {p0, p1}, Landroidx/core/view/o;->o(Landroid/view/View;I)V    return-void
 .end method
+
 .end class

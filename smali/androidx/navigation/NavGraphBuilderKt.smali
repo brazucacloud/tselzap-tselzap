@@ -605,4 +605,5 @@ return-void
 
     throw p0
 .end method
+
 .end class

@@ -433,4 +433,5 @@ return-void
     .line 11
     invoke-virtual {p0, p1}, Landroidx/preference/ListPreference;->setValue(Ljava/lang/String;)V    return-void
 .end method
+
 .end class

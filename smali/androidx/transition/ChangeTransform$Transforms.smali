@@ -614,4 +614,5 @@
     .line 18
     invoke-static/range {v0 .. v8}, Landroidx/transition/ChangeTransform;->setTransforms(Landroid/view/View;FFFFFFFF)V    return-void
 .end method
+
 .end class

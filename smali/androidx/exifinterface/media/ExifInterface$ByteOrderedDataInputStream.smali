@@ -1705,4 +1705,5 @@ return-void
     .line 26
     iput p1, p0, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;->mPosition:I    return v0
 .end method
+
 .end class

@@ -30,4 +30,5 @@
     invoke-direct {p0}, Landroidx/graphics/shapes/DoubleMapper$Companion;-><init>()V
     return-void
 .end method
+
 .end class

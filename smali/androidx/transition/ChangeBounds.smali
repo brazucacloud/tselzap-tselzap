@@ -1578,4 +1578,5 @@ return-void
     iput-boolean p1, p0, Landroidx/transition/ChangeBounds;->mResizeClip:Z
 return-void
 .end method
+
 .end class

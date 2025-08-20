@@ -102,4 +102,5 @@ return-void
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeByte(B)V
 return-void
 .end method
+
 .end class

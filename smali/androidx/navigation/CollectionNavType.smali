@@ -44,4 +44,5 @@ return-void
         }
     .end annotation
 .end method
+
 .end class

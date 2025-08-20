@@ -154,4 +154,5 @@ return-void
     iput-boolean v3, p0, Landroidx/fragment/app/DefaultSpecialEffectsController$AnimationInfo;->isAnimLoaded:Z
 return-object p1
 .end method
+
 .end class

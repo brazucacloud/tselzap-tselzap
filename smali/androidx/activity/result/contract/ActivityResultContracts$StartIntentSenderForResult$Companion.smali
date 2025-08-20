@@ -30,4 +30,5 @@
     invoke-direct {p0}, Landroidx/activity/result/contract/ActivityResultContracts$StartIntentSenderForResult$Companion;-><init>()V
     return-void
 .end method
+
 .end class

@@ -3102,4 +3102,5 @@
     .line 3
     invoke-virtual {v0, p1}, Landroid/view/View;->setVisibility(I)V    return-object p0
 .end method
+
 .end class

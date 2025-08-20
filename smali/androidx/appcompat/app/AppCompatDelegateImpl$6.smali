@@ -181,4 +181,5 @@
     .line 74
     invoke-virtual {v0, v3}, Landroidx/appcompat/widget/ActionBarContextView;->setVisibility(I)V    return-void
 .end method
+
 .end class

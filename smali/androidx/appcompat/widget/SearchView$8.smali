@@ -62,4 +62,5 @@
     invoke-virtual {p1, p3, p2, p4}, Landroidx/appcompat/widget/SearchView;->onItemClicked(IILjava/lang/String;)Z
 return-void
 .end method
+
 .end class

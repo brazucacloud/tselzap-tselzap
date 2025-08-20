@@ -292,4 +292,5 @@ return-object v0
         .end annotation
     .end param
 .end method
+
 .end class

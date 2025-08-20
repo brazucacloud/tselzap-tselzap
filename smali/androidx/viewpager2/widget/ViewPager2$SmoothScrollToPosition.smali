@@ -56,4 +56,5 @@
     .line 5
     invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollToPosition(I)V    return-void
 .end method
+
 .end class

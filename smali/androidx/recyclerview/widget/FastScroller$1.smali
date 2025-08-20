@@ -51,4 +51,5 @@
     invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/FastScroller;->hide(I)V
 return-void
 .end method
+
 .end class

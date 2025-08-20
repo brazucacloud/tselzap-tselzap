@@ -184,4 +184,5 @@ return-object v0
     invoke-virtual {v0, p0}, Landroidx/collection/MutableFloatList;->plusAssign([F)V
 return-object v0
 .end method
+
 .end class

@@ -150,4 +150,5 @@ return-void
     invoke-virtual {p0, p2}, Landroidx/appcompat/app/ActionBarDrawerToggle$ToolbarCompatDelegate;->setActionBarDescription(I)V
 return-void
 .end method
+
 .end class

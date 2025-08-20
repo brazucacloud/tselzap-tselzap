@@ -3737,4 +3737,5 @@ return-void
     :goto_34
     return-void
 .end method
+
 .end class

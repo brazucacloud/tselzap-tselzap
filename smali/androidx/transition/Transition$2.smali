@@ -78,4 +78,5 @@ return-void
     .line 5
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z    return-void
 .end method
+
 .end class

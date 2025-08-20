@@ -1904,4 +1904,5 @@ return-void
     invoke-direct {p0, p1}, Landroidx/lifecycle/LifecycleRegistry;->moveToState(Landroidx/lifecycle/Lifecycle$State;)V
 return-void
 .end method
+
 .end class

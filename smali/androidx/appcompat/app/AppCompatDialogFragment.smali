@@ -134,4 +134,5 @@ return-void
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/DialogFragment;->setupDialog(Landroid/app/Dialog;I)V
 return-void
 .end method
+
 .end class

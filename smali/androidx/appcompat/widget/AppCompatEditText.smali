@@ -1261,4 +1261,5 @@ return-void
     invoke-virtual {v0, p1}, Landroidx/appcompat/widget/AppCompatEditText$SuperCaller;->setTextClassifier(Landroid/view/textclassifier/TextClassifier;)V
     return-void
 .end method
+
 .end class

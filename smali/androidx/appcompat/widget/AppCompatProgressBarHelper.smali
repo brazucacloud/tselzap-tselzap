@@ -658,4 +658,5 @@ return-object p1
     :cond_9
     return-object p1
 .end method
+
 .end class

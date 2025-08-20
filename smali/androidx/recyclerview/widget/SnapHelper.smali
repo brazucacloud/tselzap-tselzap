@@ -646,4 +646,5 @@
     .line 40
     invoke-virtual {v3, v1, v0}, Landroidx/recyclerview/widget/RecyclerView;->smoothScrollBy(II)V    return-void
 .end method
+
 .end class

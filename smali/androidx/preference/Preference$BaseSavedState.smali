@@ -61,4 +61,5 @@ return-void
     invoke-direct {p0, p1}, Landroid/view/AbsSavedState;-><init>(Landroid/os/Parcelable;)V
 return-void
 .end method
+
 .end class

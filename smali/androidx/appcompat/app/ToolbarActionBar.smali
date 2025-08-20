@@ -1760,4 +1760,5 @@ return-void
     .line 4
     invoke-interface {v0, v1}, Landroidx/appcompat/widget/DecorToolbar;->setVisibility(I)V    return-void
 .end method
+
 .end class

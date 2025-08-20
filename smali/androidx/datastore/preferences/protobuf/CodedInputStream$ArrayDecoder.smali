@@ -3028,4 +3028,5 @@ return-void
 
     .line 25
     throw p1.end method
+
 .end class

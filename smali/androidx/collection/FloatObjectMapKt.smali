@@ -437,4 +437,5 @@ return-object v0
     invoke-virtual {v0, p8, p9}, Landroidx/collection/MutableFloatObjectMap;->set(FLjava/lang/Object;)V
 return-object v0
 .end method
+
 .end class

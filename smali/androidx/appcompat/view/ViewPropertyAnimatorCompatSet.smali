@@ -390,4 +390,5 @@ return-void
     iput-boolean v0, p0, Landroidx/appcompat/view/ViewPropertyAnimatorCompatSet;->mIsStarted:Z
 return-void
 .end method
+
 .end class

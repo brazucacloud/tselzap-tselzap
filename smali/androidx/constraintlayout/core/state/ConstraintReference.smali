@@ -4299,4 +4299,5 @@ return-void
 
     return-object p1
 .end method
+
 .end class

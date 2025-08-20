@@ -615,4 +615,5 @@
     .line 1
     iput-wide p1, p0, Landroidx/recyclerview/widget/RecyclerView$ItemAnimator;->mRemoveDuration:J    return-void
 .end method
+
 .end class

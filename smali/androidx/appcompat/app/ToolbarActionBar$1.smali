@@ -47,4 +47,5 @@
     invoke-virtual {v0}, Landroidx/appcompat/app/ToolbarActionBar;->populateOptionsMenu()V
     return-void
 .end method
+
 .end class

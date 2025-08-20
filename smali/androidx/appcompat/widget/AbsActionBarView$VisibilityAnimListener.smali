@@ -123,4 +123,5 @@ return-void
     .line 5
     iput p2, p0, Landroidx/appcompat/widget/AbsActionBarView$VisibilityAnimListener;->mFinalVisibility:I    return-object p0
 .end method
+
 .end class

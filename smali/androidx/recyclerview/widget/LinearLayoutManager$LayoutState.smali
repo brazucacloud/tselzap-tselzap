@@ -596,4 +596,5 @@
     :cond_4
     return-object v1
 .end method
+
 .end class

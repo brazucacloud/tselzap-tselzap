@@ -1117,4 +1117,5 @@
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;->stop()V
     return-void
 .end method
+
 .end class

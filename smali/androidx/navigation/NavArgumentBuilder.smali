@@ -199,4 +199,5 @@
     .line 5
     invoke-virtual {v0, p1}, Landroidx/navigation/NavArgument$Builder;->setUnknownDefaultValuePresent$navigation_common_release(Z)Landroidx/navigation/NavArgument$Builder;    return-void
 .end method
+
 .end class

@@ -254,4 +254,5 @@
     .line 6
     iput-object p1, p0, Landroidx/lifecycle/LiveDataScopeImpl;->target:Landroidx/lifecycle/CoroutineLiveData;    return-void
 .end method
+
 .end class

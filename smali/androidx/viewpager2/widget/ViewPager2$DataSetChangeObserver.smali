@@ -79,4 +79,5 @@
     invoke-virtual {p0}, Landroidx/viewpager2/widget/ViewPager2$DataSetChangeObserver;->onChanged()V
     return-void
 .end method
+
 .end class

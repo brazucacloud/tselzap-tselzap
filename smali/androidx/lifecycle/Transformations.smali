@@ -363,4 +363,5 @@ return-object v0
     invoke-virtual {v2, p0, p1}, Landroidx/lifecycle/MediatorLiveData;->addSource(Landroidx/lifecycle/LiveData;Landroidx/lifecycle/Observer;)V
 return-object v2
 .end method
+
 .end class

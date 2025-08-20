@@ -108,4 +108,5 @@
     invoke-virtual/range {v0 .. v5}, Landroid/graphics/Outline;->setRoundRect(IIIIF)V
 return-void
 .end method
+
 .end class

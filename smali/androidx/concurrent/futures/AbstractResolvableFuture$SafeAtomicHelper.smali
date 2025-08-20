@@ -315,4 +315,5 @@ return-void
     invoke-virtual {v0, p1, p2}, Ljava/util/concurrent/atomic/AtomicReferenceFieldUpdater;->lazySet(Ljava/lang/Object;Ljava/lang/Object;)V
 return-void
 .end method
+
 .end class

@@ -164,4 +164,5 @@ return-void
     invoke-virtual {p1, p2, p3}, Landroid/os/Bundle;->putBoolean(Ljava/lang/String;Z)V
 return-void
 .end method
+
 .end class

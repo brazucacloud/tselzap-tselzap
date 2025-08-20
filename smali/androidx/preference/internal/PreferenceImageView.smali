@@ -275,4 +275,5 @@
     .line 3
     invoke-super {p0, p1}, Landroid/widget/ImageView;->setMaxWidth(I)V    return-void
 .end method
+
 .end class

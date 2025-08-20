@@ -1354,4 +1354,5 @@ return-void
     .line 42
     invoke-virtual {v2, p1}, Landroid/os/AsyncTask;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;    return-void
 .end method
+
 .end class

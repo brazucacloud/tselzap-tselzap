@@ -247,4 +247,5 @@ return-object p1
     .line 43
     .line 44
     throw p1.end method
+
 .end class

@@ -227,4 +227,5 @@ return-void
     .line 1
     iput-object p2, p1, Landroidx/concurrent/futures/AbstractResolvableFuture$Waiter;->thread:Ljava/lang/Thread;    return-void
 .end method
+
 .end class

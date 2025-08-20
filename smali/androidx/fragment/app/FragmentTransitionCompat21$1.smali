@@ -45,4 +45,5 @@
     .line 1
     iget-object p1, p0, Landroidx/fragment/app/FragmentTransitionCompat21$1;->val$epicenter:Landroid/graphics/Rect;    return-object p1
 .end method
+
 .end class

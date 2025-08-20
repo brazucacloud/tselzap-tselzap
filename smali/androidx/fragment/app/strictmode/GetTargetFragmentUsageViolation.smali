@@ -45,4 +45,5 @@
     .line 20
     invoke-direct {p0, p1, v0}, Landroidx/fragment/app/strictmode/TargetFragmentUsageViolation;-><init>(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V    return-void
 .end method
+
 .end class

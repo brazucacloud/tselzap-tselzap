@@ -77,4 +77,5 @@ return-void
     .line 1
     iget-object p1, p1, Landroidx/arch/core/internal/SafeIterableMap$Entry;->mPrevious:Landroidx/arch/core/internal/SafeIterableMap$Entry;    return-object p1
 .end method
+
 .end class

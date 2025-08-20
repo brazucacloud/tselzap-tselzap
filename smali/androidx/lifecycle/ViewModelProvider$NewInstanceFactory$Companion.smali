@@ -86,4 +86,5 @@
     invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
 return-object v0
 .end method
+
 .end class

@@ -2365,4 +2365,5 @@ return-void
     .line 5
     invoke-virtual {v0, p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView$ImageMatrix;->updateMatrix(Landroid/widget/ImageView;)V    return-void
 .end method
+
 .end class

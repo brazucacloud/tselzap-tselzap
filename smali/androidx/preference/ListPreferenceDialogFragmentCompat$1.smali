@@ -59,4 +59,5 @@
     invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
 return-void
 .end method
+
 .end class

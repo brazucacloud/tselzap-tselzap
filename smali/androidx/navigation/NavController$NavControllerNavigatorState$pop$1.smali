@@ -74,4 +74,5 @@ return-void
     invoke-static {v0, v1, v2}, Landroidx/navigation/NavController$NavControllerNavigatorState;->access$pop$s261051546(Landroidx/navigation/NavController$NavControllerNavigatorState;Landroidx/navigation/NavBackStackEntry;Z)V
 return-void
 .end method
+
 .end class

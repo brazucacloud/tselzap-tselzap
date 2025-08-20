@@ -101,4 +101,5 @@
     .line 1
     iput-object p1, p0, Landroidx/appcompat/widget/AppCompatTextClassifierHelper;->mTextClassifier:Landroid/view/textclassifier/TextClassifier;    return-void
 .end method
+
 .end class

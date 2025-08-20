@@ -2520,4 +2520,5 @@ return-void
     :cond_1
     return v0
 .end method
+
 .end class

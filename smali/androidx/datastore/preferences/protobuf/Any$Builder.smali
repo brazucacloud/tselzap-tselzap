@@ -220,4 +220,5 @@ return-object p0
     invoke-static {v0, p1}, Landroidx/datastore/preferences/protobuf/Any;->access$400(Landroidx/datastore/preferences/protobuf/Any;Landroidx/datastore/preferences/protobuf/ByteString;)V
 return-object p0
 .end method
+
 .end class

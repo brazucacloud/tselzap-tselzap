@@ -86,4 +86,5 @@ return-void
     invoke-static {p0, p1}, Landroidx/activity/result/ActivityResultLauncherKt;->launchUnit(Landroidx/activity/result/ActivityResultLauncher;Landroidx/core/app/ActivityOptionsCompat;)V
 return-void
 .end method
+
 .end class

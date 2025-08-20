@@ -1207,4 +1207,5 @@ return-object p0
     .line 254
     iput v0, v2, Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;->mVelocity:F    return-object v2
 .end method
+
 .end class

@@ -874,4 +874,5 @@ return-void
     invoke-virtual {p1, v0}, Landroidx/activity/OnBackPressedCallback;->setEnabled(Z)V
     return-void
 .end method
+
 .end class

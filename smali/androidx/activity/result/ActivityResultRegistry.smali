@@ -1442,4 +1442,5 @@ return-object p2
     :cond_3
     return-void
 .end method
+
 .end class

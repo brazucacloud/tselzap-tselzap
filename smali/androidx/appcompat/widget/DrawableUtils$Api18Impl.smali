@@ -477,4 +477,5 @@
     :cond_0
     sget-object p0, Landroidx/appcompat/widget/DrawableUtils;->INSETS_NONE:Landroid/graphics/Rect;    return-object p0
 .end method
+
 .end class

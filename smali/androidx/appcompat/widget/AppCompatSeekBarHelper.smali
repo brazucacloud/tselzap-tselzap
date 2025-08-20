@@ -882,4 +882,5 @@
     invoke-direct {p0}, Landroidx/appcompat/widget/AppCompatSeekBarHelper;->applyTickMarkTint()V
     return-void
 .end method
+
 .end class

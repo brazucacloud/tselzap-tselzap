@@ -834,4 +834,5 @@ return-void
     invoke-virtual {p1}, Landroidx/appcompat/widget/AppCompatTextHelper;->applyCompoundDrawablesTints()V
     return-void
 .end method
+
 .end class

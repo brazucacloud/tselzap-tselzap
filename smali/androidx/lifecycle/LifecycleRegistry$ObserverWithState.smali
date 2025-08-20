@@ -164,4 +164,5 @@
     .line 6
     iput-object p1, p0, Landroidx/lifecycle/LifecycleRegistry$ObserverWithState;->state:Landroidx/lifecycle/Lifecycle$State;    return-void
 .end method
+
 .end class

@@ -1316,4 +1316,5 @@
     .line 38
     iput-wide p1, p0, Landroidx/constraintlayout/core/motion/utils/ArcCurveFit$Arc;->mTmpCosAngle:D    return-void
 .end method
+
 .end class

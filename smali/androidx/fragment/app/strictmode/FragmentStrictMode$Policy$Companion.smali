@@ -30,4 +30,5 @@
     invoke-direct {p0}, Landroidx/fragment/app/strictmode/FragmentStrictMode$Policy$Companion;-><init>()V
     return-void
 .end method
+
 .end class

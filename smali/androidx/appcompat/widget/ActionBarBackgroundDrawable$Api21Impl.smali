@@ -34,4 +34,5 @@
     invoke-virtual {p0, p1}, Landroid/graphics/drawable/Drawable;->getOutline(Landroid/graphics/Outline;)V
 return-void
 .end method
+
 .end class

@@ -244,4 +244,5 @@ return-void
     .line 9
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V    return-void
 .end method
+
 .end class

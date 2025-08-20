@@ -66,4 +66,5 @@
     invoke-virtual {p1, p2}, Landroidx/fragment/app/Fragment;->onAttachFragment(Landroidx/fragment/app/Fragment;)V
 return-void
 .end method
+
 .end class

@@ -62,4 +62,5 @@ return-void
     invoke-static {v0}, Landroidx/activity/OnBackPressedDispatcher;->access$onBackCancelled(Landroidx/activity/OnBackPressedDispatcher;)V
 return-void
 .end method
+
 .end class

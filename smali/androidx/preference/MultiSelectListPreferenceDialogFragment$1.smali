@@ -130,4 +130,5 @@ return-void
     iput-boolean p2, p1, Landroidx/preference/MultiSelectListPreferenceDialogFragment;->mPreferenceChanged:Z
 return-void
 .end method
+
 .end class

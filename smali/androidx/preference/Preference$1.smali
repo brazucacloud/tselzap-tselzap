@@ -46,4 +46,5 @@
     .line 3
     invoke-virtual {v0, p1}, Landroidx/preference/Preference;->performClick(Landroid/view/View;)V    return-void
 .end method
+
 .end class

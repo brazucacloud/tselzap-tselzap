@@ -462,4 +462,5 @@ return-void
     invoke-direct {v0, p0}, Landroidx/collection/SparseArrayKt$valueIterator$1;-><init>(Landroidx/collection/SparseArrayCompat;)V
 return-object v0
 .end method
+
 .end class

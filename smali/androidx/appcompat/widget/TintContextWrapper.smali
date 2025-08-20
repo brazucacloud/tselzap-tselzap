@@ -563,4 +563,5 @@ return-void
     invoke-virtual {v0, p1, v1}, Landroid/content/res/Resources$Theme;->applyStyle(IZ)V
 return-void
 .end method
+
 .end class

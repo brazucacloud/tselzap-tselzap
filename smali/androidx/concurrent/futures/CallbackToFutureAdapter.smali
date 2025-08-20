@@ -108,4 +108,5 @@
     :cond_0
     return-object v1
 .end method
+
 .end class

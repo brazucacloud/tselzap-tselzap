@@ -35,4 +35,5 @@
     .line 1
     invoke-virtual {p0, p1}, Landroid/view/View;->setTooltipText(Ljava/lang/CharSequence;)V    return-void
 .end method
+
 .end class

@@ -37,4 +37,5 @@ return-void
     invoke-static {}, Landroid/os/Trace;->endSection()V
     return-void
 .end method
+
 .end class

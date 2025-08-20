@@ -572,4 +572,5 @@ return-object v0
     .line 1
     iget v0, p0, Landroidx/datastore/preferences/protobuf/ProtobufArrayList;->size:I    return v0
 .end method
+
 .end class

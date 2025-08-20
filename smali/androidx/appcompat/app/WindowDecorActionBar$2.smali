@@ -55,4 +55,5 @@
     invoke-virtual {p1}, Landroid/view/View;->requestLayout()V
     return-void
 .end method
+
 .end class

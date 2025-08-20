@@ -390,4 +390,5 @@ return-void
     .line 53
     iput v0, p0, Landroidx/recyclerview/widget/ItemTouchHelper$RecoverAnimation;->mY:F    return-void
 .end method
+
 .end class

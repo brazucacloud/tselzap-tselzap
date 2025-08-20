@@ -69,4 +69,5 @@
 
 .method public abstract mergeFrom([BLandroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)Landroidx/datastore/preferences/protobuf/MessageLite$Builder;
 .end method
+
 .end class

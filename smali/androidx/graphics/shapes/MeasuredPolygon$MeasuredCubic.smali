@@ -592,4 +592,5 @@ return-object p1
     .line 16
     .line 17
     throw p1.end method
+
 .end class

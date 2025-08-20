@@ -72,4 +72,5 @@
     .line 6
     iput-object p1, p0, Landroidx/activity/result/PickVisualMediaRequest$Builder;->mediaType:Landroidx/activity/result/contract/ActivityResultContracts$PickVisualMedia$VisualMediaType;    return-object p0
 .end method
+
 .end class

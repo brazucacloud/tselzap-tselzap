@@ -120,4 +120,5 @@
     .line 1
     iput-object p1, p0, Landroidx/appcompat/graphics/drawable/DrawableContainerCompat$BlockInvalidateCallback;->mCallback:Landroid/graphics/drawable/Drawable$Callback;    return-object p0
 .end method
+
 .end class

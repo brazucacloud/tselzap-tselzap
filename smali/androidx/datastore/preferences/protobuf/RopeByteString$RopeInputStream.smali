@@ -543,4 +543,5 @@
     .line 28
     .line 29
     throw p1.end method
+
 .end class

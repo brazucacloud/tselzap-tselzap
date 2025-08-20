@@ -36,4 +36,5 @@
     invoke-interface {p0, p1}, Landroid/view/Window$Callback;->onPointerCaptureChanged(Z)V
 return-void
 .end method
+
 .end class

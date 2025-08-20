@@ -392,4 +392,5 @@
     invoke-virtual {v0, v1}, Landroid/animation/AnimatorSet;->playTogether(Ljava/util/Collection;)V
 return-void
 .end method
+
 .end class

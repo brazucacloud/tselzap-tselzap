@@ -825,4 +825,5 @@ return-void
     iput-boolean p1, p0, Landroidx/navigation/NavOptionsBuilder;->restoreState:Z
 return-void
 .end method
+
 .end class

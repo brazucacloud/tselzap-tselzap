@@ -607,4 +607,5 @@ return-void
     invoke-virtual {p0}, Landroidx/preference/Preference;->notifyChanged()V
     return-void
 .end method
+
 .end class

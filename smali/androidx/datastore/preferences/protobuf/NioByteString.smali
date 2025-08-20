@@ -994,4 +994,5 @@ return-object v0
     invoke-static {p2, p1}, Landroidx/datastore/preferences/protobuf/ByteBufferWriter;->write(Ljava/nio/ByteBuffer;Ljava/io/OutputStream;)V
 return-void
 .end method
+
 .end class

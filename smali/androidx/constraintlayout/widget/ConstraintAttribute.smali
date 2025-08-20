@@ -3237,4 +3237,5 @@ return-void
         :pswitch_5
     .end packed-switch
 .end method
+
 .end class

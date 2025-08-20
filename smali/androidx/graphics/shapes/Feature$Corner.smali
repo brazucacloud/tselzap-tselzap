@@ -337,4 +337,5 @@ return-void
     invoke-direct/range {v3 .. v10}, Landroidx/graphics/shapes/Feature$Corner;-><init>(Ljava/util/List;JJZLkotlin/jvm/internal/e;)V
     return-object v3
 .end method
+
 .end class

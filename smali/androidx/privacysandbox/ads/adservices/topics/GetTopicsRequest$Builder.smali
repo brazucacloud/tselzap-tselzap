@@ -118,4 +118,5 @@ return-object v0
     iput-boolean p1, p0, Landroidx/privacysandbox/ads/adservices/topics/GetTopicsRequest$Builder;->shouldRecordObservation:Z
 return-object p0
 .end method
+
 .end class

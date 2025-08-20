@@ -147,4 +147,5 @@ return-void
     .line 7
     aput-wide v0, v2, v3    return-object v2
 .end method
+
 .end class

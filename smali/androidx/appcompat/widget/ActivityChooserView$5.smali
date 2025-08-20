@@ -49,4 +49,5 @@
     invoke-virtual {v0}, Landroidx/appcompat/widget/ActivityChooserView;->updateAppearance()V
     return-void
 .end method
+
 .end class

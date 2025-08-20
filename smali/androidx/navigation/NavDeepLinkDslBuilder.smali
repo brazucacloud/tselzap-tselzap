@@ -321,4 +321,5 @@
     .line 1
     iput-object p1, p0, Landroidx/navigation/NavDeepLinkDslBuilder;->uriPattern:Ljava/lang/String;    return-void
 .end method
+
 .end class

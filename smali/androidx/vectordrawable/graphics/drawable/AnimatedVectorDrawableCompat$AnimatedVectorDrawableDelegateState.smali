@@ -144,4 +144,5 @@ return-object v0
     invoke-virtual {p1, p2}, Landroid/graphics/drawable/Drawable;->setCallback(Landroid/graphics/drawable/Drawable$Callback;)V
 return-object v0
 .end method
+
 .end class

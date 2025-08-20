@@ -182,4 +182,5 @@
     .line 35
     iput-object p1, p0, Landroidx/appcompat/widget/ThemedSpinnerAdapter$Helper;->mDropDownInflater:Landroid/view/LayoutInflater;    return-void
 .end method
+
 .end class

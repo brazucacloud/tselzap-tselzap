@@ -704,4 +704,5 @@ return-object v0
     .line 8
     invoke-virtual {v0, p1}, Landroidx/appcompat/widget/ActionBarContextView;->setTitleOptional(Z)V    return-void
 .end method
+
 .end class

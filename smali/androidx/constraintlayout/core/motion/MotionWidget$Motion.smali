@@ -126,4 +126,5 @@
     .line 34
     iput v2, p0, Landroidx/constraintlayout/core/motion/MotionWidget$Motion;->mQuantizeInterpolatorID:I    return-void
 .end method
+
 .end class

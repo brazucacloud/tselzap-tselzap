@@ -253,4 +253,5 @@ return-object v0
     .line 1
     iput-object p1, p0, Landroidx/recyclerview/widget/AsyncDifferConfig$Builder;->mMainThreadExecutor:Ljava/util/concurrent/Executor;    return-object p0
 .end method
+
 .end class

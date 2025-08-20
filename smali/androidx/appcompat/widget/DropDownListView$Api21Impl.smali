@@ -35,4 +35,5 @@
     .line 1
     invoke-virtual {p0, p1, p2}, Landroid/view/View;->drawableHotspotChanged(FF)V    return-void
 .end method
+
 .end class

@@ -143,4 +143,5 @@ return-void
     .line 7
     check-cast v0, [Landroidx/datastore/preferences/protobuf/Writer$FieldOrder;    return-object v0
 .end method
+
 .end class

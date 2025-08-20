@@ -2296,4 +2296,5 @@
     invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/CircularFlow;->anchorReferences()V
     return-void
 .end method
+
 .end class

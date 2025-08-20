@@ -72,4 +72,5 @@
     .line 11
     invoke-virtual {p2, p1}, Landroidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider;->setCurrentItemFromAccessibilityCommand(I)V    return v0
 .end method
+
 .end class

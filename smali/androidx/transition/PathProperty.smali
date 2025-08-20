@@ -228,4 +228,5 @@
     invoke-virtual {p0, p1, p2}, Landroidx/transition/PathProperty;->set(Ljava/lang/Object;Ljava/lang/Float;)V
 return-void
 .end method
+
 .end class

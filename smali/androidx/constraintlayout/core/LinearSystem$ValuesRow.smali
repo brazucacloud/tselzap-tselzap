@@ -35,4 +35,5 @@
     .line 9
     iput-object v0, p0, Landroidx/constraintlayout/core/ArrayRow;->variables:Landroidx/constraintlayout/core/ArrayRow$ArrayRowVariables;    return-void
 .end method
+
 .end class

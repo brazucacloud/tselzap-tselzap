@@ -85,4 +85,5 @@
     invoke-virtual {p1}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V
     return-void
 .end method
+
 .end class

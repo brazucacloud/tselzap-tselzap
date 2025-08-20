@@ -246,4 +246,5 @@ return-void
     .line 1
     iput-object p1, p0, Landroidx/activity/OnBackPressedCallback;->enabledChangedCallback:Lp1/a;    return-void
 .end method
+
 .end class

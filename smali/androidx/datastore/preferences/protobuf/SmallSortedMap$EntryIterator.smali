@@ -403,4 +403,5 @@ return-void
     .line 53
     .line 54
     throw v0.end method
+
 .end class

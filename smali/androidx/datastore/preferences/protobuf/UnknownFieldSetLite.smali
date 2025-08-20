@@ -1828,4 +1828,5 @@ return-object p0
     :goto_2
     return-void
 .end method
+
 .end class

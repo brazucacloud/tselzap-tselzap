@@ -29,4 +29,5 @@
 # virtual methods
 .method public abstract nextByte()B
 .end method
+
 .end class

@@ -768,4 +768,5 @@
     invoke-virtual {p1}, Landroidx/fragment/app/DialogFragment;->dismiss()V
     return-void
 .end method
+
 .end class

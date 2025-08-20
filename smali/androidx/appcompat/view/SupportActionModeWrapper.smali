@@ -298,4 +298,5 @@ return-void
     invoke-virtual {v0, p1}, Landroidx/appcompat/view/ActionMode;->setTitleOptionalHint(Z)V
 return-void
 .end method
+
 .end class

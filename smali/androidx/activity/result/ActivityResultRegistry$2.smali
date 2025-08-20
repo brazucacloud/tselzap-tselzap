@@ -255,4 +255,5 @@
     invoke-virtual {v0, v1}, Landroidx/activity/result/ActivityResultRegistry;->unregister(Ljava/lang/String;)V
 return-void
 .end method
+
 .end class

@@ -2134,4 +2134,5 @@ return-object v2
 
     throw p1
 .end method
+
 .end class

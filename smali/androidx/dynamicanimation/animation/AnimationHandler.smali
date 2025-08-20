@@ -643,4 +643,5 @@ return-void
     .line 1
     iput-object p1, p0, Landroidx/dynamicanimation/animation/AnimationHandler;->mProvider:Landroidx/dynamicanimation/animation/AnimationHandler$AnimationFrameCallbackProvider;    return-void
 .end method
+
 .end class

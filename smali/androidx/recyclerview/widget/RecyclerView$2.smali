@@ -68,4 +68,5 @@
     iput-boolean v1, v0, Landroidx/recyclerview/widget/RecyclerView;->mPostedAnimatorRunner:Z
 return-void
 .end method
+
 .end class

@@ -39,4 +39,5 @@
     invoke-static {v0, v1}, Landroidx/fragment/app/DefaultSpecialEffectsController;->e(Landroid/animation/Animator;Landroidx/fragment/app/SpecialEffectsController$Operation;)V
 return-void
 .end method
+
 .end class

@@ -80,4 +80,5 @@
     invoke-virtual {v0, v1, v2}, Landroidx/activity/result/ActivityResultRegistry;->dispatchResult(ILjava/lang/Object;)Z
 return-void
 .end method
+
 .end class

@@ -78,4 +78,5 @@
     .line 1
     iget-object v0, p0, Landroidx/lifecycle/viewmodel/CreationExtras;->map:Ljava/util/Map;    return-object v0
 .end method
+
 .end class

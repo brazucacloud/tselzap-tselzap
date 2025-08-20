@@ -107,4 +107,5 @@
     :cond_3
     add-int/lit8 p2, p2, 0x1    return p2
 .end method
+
 .end class

@@ -17,4 +17,5 @@
 # virtual methods
 .method public abstract addPosition(II)V
 .end method
+
 .end class

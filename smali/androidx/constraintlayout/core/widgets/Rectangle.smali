@@ -247,4 +247,5 @@
     .line 7
     iput p4, p0, Landroidx/constraintlayout/core/widgets/Rectangle;->height:I    return-void
 .end method
+
 .end class

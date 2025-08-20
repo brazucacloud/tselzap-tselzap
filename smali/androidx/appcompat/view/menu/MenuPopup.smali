@@ -428,4 +428,5 @@
 
 .method public abstract setVerticalOffset(I)V
 .end method
+
 .end class

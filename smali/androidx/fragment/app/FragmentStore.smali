@@ -2786,4 +2786,5 @@ return-void
     .line 18
     check-cast p1, Landroid/os/Bundle;    return-object p1
 .end method
+
 .end class

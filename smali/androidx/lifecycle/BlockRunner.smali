@@ -303,4 +303,5 @@
     .line 28
     iput-object v0, p0, Landroidx/lifecycle/BlockRunner;->runningJob:Lz1/V;    return-void
 .end method
+
 .end class

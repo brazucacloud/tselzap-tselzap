@@ -44,4 +44,5 @@ return-void
     invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->handleOnBackPressed()V
     return-void
 .end method
+
 .end class

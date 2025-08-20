@@ -1518,4 +1518,5 @@ return-void
     invoke-virtual {p0, v1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setHeight(I)V
 return-void
 .end method
+
 .end class

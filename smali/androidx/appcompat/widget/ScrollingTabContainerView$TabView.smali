@@ -720,4 +720,5 @@ return-void
     :goto_2
     invoke-static {p0, v3}, Landroidx/appcompat/widget/TooltipCompat;->setTooltipText(Landroid/view/View;Ljava/lang/CharSequence;)V    return-void
 .end method
+
 .end class

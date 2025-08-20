@@ -162,4 +162,5 @@ return-void
     .line 48
     .line 49
     throw p0.end method
+
 .end class

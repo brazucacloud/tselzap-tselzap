@@ -1153,4 +1153,5 @@ return-void
     .line 1
     iput-wide p1, p0, Landroidx/graphics/shapes/RoundedCorner;->center:J    return-void
 .end method
+
 .end class

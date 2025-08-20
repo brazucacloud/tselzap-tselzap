@@ -308,4 +308,5 @@ return-object v0
     invoke-virtual {v0, p8, p9}, Landroidx/collection/MutableFloatFloatMap;->set(FF)V
 return-object v0
 .end method
+
 .end class

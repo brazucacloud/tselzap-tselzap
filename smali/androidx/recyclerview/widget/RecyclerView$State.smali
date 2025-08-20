@@ -657,4 +657,5 @@ return-void
     .line 1
     iget-boolean v0, p0, Landroidx/recyclerview/widget/RecyclerView$State;->mRunSimpleAnimations:Z    return v0
 .end method
+
 .end class

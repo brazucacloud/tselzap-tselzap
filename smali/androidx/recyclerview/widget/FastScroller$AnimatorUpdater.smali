@@ -104,4 +104,5 @@
     invoke-virtual {p1}, Landroidx/recyclerview/widget/FastScroller;->requestRedraw()V
     return-void
 .end method
+
 .end class

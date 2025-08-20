@@ -88,4 +88,5 @@
     invoke-virtual {p1, v0}, Landroidx/appcompat/app/AppCompatDelegate;->onCreate(Landroid/os/Bundle;)V
     return-void
 .end method
+
 .end class

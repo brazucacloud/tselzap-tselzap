@@ -14,4 +14,5 @@
     .annotation build Landroidx/annotation/Nullable;
     .end annotation
 .end method
+
 .end class

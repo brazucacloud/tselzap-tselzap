@@ -38,4 +38,5 @@
 
 .method public abstract setLong(IJ)J
 .end method
+
 .end class

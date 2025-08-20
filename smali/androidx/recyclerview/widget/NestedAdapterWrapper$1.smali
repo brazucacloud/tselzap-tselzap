@@ -311,4 +311,5 @@ return-void
     invoke-interface {v1, v0}, Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;->onStateRestorationPolicyChanged(Landroidx/recyclerview/widget/NestedAdapterWrapper;)V
 return-void
 .end method
+
 .end class

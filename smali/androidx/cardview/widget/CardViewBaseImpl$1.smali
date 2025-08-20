@@ -363,4 +363,5 @@
     invoke-virtual/range {v0 .. v5}, Landroid/graphics/Canvas;->drawRect(FFFFLandroid/graphics/Paint;)V
 return-void
 .end method
+
 .end class

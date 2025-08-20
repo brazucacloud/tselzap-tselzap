@@ -122,4 +122,5 @@ return-void
     invoke-virtual {p1, p2, v0}, Landroid/os/Parcel;->writeParcelable(Landroid/os/Parcelable;I)V
 return-void
 .end method
+
 .end class

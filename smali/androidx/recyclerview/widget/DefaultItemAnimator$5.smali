@@ -134,4 +134,5 @@
     .line 5
     invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/SimpleItemAnimator;->dispatchAddStarting(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V    return-void
 .end method
+
 .end class

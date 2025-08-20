@@ -307,4 +307,5 @@
     invoke-super {p0}, Landroid/widget/BaseAdapter;->notifyDataSetChanged()V
 return-void
 .end method
+
 .end class

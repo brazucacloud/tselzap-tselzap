@@ -85,4 +85,5 @@ return-object v0
 
     return-object p1
 .end method
+
 .end class

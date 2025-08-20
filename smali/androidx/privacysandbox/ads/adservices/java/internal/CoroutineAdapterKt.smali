@@ -131,4 +131,5 @@ return-object p0
     .line 18
     invoke-virtual {p0, v0}, Lz1/e0;->o(Lp1/l;)Lz1/G;    return-object p1
 .end method
+
 .end class

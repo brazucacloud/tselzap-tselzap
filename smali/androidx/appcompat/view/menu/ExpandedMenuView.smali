@@ -196,4 +196,5 @@
     .line 11
     invoke-virtual {p0, p1}, Landroidx/appcompat/view/menu/ExpandedMenuView;->invokeItem(Landroidx/appcompat/view/menu/MenuItemImpl;)Z    return-void
 .end method
+
 .end class

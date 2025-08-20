@@ -479,4 +479,5 @@ return-void
     invoke-virtual {p1, v0}, Landroid/print/PrintDocumentAdapter$WriteResultCallback;->onWriteFailed(Ljava/lang/CharSequence;)V
 return-void
 .end method
+
 .end class

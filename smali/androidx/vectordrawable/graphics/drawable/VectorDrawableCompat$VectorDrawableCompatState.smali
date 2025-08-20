@@ -657,4 +657,5 @@ return-void
     .line 17
     invoke-virtual {v1, v0, p1, p2, v2}, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VPathRenderer;->draw(Landroid/graphics/Canvas;IILandroid/graphics/ColorFilter;)V    return-void
 .end method
+
 .end class

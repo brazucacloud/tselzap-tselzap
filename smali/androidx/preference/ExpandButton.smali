@@ -325,4 +325,5 @@ return-void
     .line 5
     invoke-virtual {p1, v0}, Landroidx/preference/PreferenceViewHolder;->setDividerAllowedAbove(Z)V    return-void
 .end method
+
 .end class

@@ -565,4 +565,5 @@ return-void
     iput-boolean v0, p0, Landroidx/loader/app/LoaderManagerImpl$LoaderViewModel;->mCreatingLoader:Z
 return-void
 .end method
+
 .end class

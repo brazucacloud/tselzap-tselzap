@@ -83,4 +83,5 @@ return-void
     .line 1
     iput-object p1, p0, Landroidx/appcompat/widget/FitWindowsFrameLayout;->mListener:Landroidx/appcompat/widget/FitWindowsViewGroup$OnFitSystemWindowsListener;    return-void
 .end method
+
 .end class

@@ -378,4 +378,5 @@ return-object p1
     :cond_2
     return v3
 .end method
+
 .end class

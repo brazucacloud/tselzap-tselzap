@@ -125,4 +125,5 @@ return-void
     invoke-virtual {v0, v2, v1}, Landroid/os/Bundle;->putStringArrayList(Ljava/lang/String;Ljava/util/ArrayList;)V
 return-object v0
 .end method
+
 .end class

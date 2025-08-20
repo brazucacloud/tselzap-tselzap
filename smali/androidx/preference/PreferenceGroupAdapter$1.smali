@@ -47,4 +47,5 @@
     invoke-virtual {v0}, Landroidx/preference/PreferenceGroupAdapter;->updatePreferences()V
     return-void
 .end method
+
 .end class

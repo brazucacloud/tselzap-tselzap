@@ -78,4 +78,5 @@ return-void
     invoke-virtual {p1, v0}, Landroidx/navigation/PopUpToBuilder;->setSaveState(Z)V
 return-void
 .end method
+
 .end class

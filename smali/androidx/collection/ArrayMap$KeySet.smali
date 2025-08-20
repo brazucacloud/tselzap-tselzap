@@ -512,4 +512,5 @@
     :cond_2
     return-object p1
 .end method
+
 .end class

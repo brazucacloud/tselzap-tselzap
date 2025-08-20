@@ -687,4 +687,5 @@ return-object v0
     .line 7
     iput p1, p0, Landroidx/transition/ArcMotion;->mMinimumVerticalTangent:F    return-void
 .end method
+
 .end class

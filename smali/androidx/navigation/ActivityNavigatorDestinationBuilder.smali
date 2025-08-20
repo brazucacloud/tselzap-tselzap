@@ -271,4 +271,5 @@
     .line 1
     iput-object p1, p0, Landroidx/navigation/ActivityNavigatorDestinationBuilder;->targetPackage:Ljava/lang/String;    return-void
 .end method
+
 .end class

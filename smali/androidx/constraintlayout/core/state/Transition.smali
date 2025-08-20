@@ -3585,4 +3585,5 @@ return-object v0
     invoke-virtual {p0}, Landroidx/constraintlayout/core/state/Transition;->calcStagger()V
     return-void
 .end method
+
 .end class

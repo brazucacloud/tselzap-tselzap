@@ -204,4 +204,5 @@ return-void
     invoke-direct {p0, p1}, Landroidx/recyclerview/widget/MessageThreadUtil$1;->sendMessage(Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;)V
 return-void
 .end method
+
 .end class

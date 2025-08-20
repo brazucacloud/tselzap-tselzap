@@ -247,4 +247,5 @@
     :cond_3
     iput v3, p0, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat$FrameInterpolator;->mTotalDuration:I    return v3
 .end method
+
 .end class

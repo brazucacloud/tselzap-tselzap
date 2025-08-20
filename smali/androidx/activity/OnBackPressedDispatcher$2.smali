@@ -68,4 +68,5 @@ return-void
     invoke-static {v0, p1}, Landroidx/activity/OnBackPressedDispatcher;->access$onBackProgressed(Landroidx/activity/OnBackPressedDispatcher;Landroidx/activity/BackEventCompat;)V
 return-void
 .end method
+
 .end class

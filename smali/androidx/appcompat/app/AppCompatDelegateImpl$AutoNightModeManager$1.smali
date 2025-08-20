@@ -44,4 +44,5 @@
     invoke-virtual {p1}, Landroidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager;->onChange()V
     return-void
 .end method
+
 .end class

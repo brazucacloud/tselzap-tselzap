@@ -228,4 +228,5 @@ return-object v1
     .line 6
     iput-object p1, p0, Landroidx/lifecycle/Lifecycle;->internalScopeRef:Ljava/util/concurrent/atomic/AtomicReference;    return-void
 .end method
+
 .end class

@@ -482,4 +482,5 @@
     :goto_0
     invoke-virtual {p0}, Landroidx/appcompat/widget/ViewStubCompat;->inflate()Landroid/view/View;    return-void
 .end method
+
 .end class

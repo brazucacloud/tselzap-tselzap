@@ -3961,4 +3961,5 @@ return-object v2
     iput-boolean p1, p0, Landroidx/navigation/NavDeepLink;->isExactDeepLink:Z
 return-void
 .end method
+
 .end class

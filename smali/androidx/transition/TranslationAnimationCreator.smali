@@ -256,4 +256,5 @@
     invoke-virtual {p2, p8}, Landroid/animation/Animator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 return-object p2
 .end method
+
 .end class

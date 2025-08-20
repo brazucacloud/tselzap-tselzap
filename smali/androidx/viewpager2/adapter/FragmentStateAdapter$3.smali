@@ -54,4 +54,5 @@
     invoke-virtual {v0}, Landroidx/viewpager2/adapter/FragmentStateAdapter;->gcFragments()V
     return-void
 .end method
+
 .end class

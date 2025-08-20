@@ -250,4 +250,5 @@ return-void
     invoke-virtual {p1, p2}, Landroidx/savedstate/SavedStateRegistry;->runOnNextRecreation(Ljava/lang/Class;)V
 return-void
 .end method
+
 .end class

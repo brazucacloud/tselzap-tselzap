@@ -80,4 +80,5 @@ return-object v0
     .line 6
     iput-object p1, p0, Landroidx/navigation/ActivityNavigator$Extras$Builder;->activityOptions:Landroidx/core/app/ActivityOptionsCompat;    return-object p0
 .end method
+
 .end class

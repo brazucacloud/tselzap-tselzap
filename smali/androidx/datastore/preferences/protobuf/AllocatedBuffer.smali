@@ -149,4 +149,5 @@ return-object v0
 
 .method public abstract remaining()I
 .end method
+
 .end class

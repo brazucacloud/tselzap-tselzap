@@ -79,4 +79,5 @@
     invoke-virtual {p0}, Landroidx/viewpager2/adapter/FragmentStateAdapter$DataSetChangeObserver;->onChanged()V
     return-void
 .end method
+
 .end class

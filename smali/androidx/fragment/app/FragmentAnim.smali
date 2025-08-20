@@ -575,4 +575,5 @@ return-object p1
     :cond_9
     sget p0, Landroidx/fragment/R$animator;->fragment_open_exit:I    return p0
 .end method
+
 .end class

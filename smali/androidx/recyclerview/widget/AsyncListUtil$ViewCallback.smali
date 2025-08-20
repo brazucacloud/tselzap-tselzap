@@ -133,4 +133,5 @@
     .annotation build Landroidx/annotation/UiThread;
     .end annotation
 .end method
+
 .end class

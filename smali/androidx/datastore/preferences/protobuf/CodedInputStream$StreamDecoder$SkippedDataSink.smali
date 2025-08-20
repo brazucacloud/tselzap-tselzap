@@ -240,4 +240,5 @@
     .line 35
     iput v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream$StreamDecoder$SkippedDataSink;->lastPos:I    return-void
 .end method
+
 .end class

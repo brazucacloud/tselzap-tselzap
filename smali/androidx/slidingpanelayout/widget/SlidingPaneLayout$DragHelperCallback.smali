@@ -801,4 +801,5 @@ return-void
     .line 15
     iget-boolean p1, p1, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$LayoutParams;->slideable:Z    return p1
 .end method
+
 .end class

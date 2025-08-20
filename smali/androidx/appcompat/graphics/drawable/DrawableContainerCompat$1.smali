@@ -59,4 +59,5 @@
     invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
     return-void
 .end method
+
 .end class

@@ -26,4 +26,5 @@
     invoke-direct {p0, p1}, Landroidx/datastore/preferences/protobuf/InvalidProtocolBufferException;-><init>(Ljava/lang/String;)V
 return-void
 .end method
+
 .end class

@@ -206,4 +206,5 @@
     invoke-direct {p0}, Landroidx/preference/PreferenceFragment$ScrollToPreferenceObserver;->scrollToPreference()V
     return-void
 .end method
+
 .end class

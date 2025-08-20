@@ -458,4 +458,5 @@ return-void
     .line 80
     .line 81
     throw p1.end method
+
 .end class

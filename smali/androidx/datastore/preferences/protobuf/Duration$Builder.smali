@@ -177,4 +177,5 @@ return-object p0
     invoke-static {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/Duration;->access$100(Landroidx/datastore/preferences/protobuf/Duration;J)V
 return-object p0
 .end method
+
 .end class

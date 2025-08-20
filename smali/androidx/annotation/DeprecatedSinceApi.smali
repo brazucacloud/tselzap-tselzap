@@ -36,4 +36,5 @@
 
 .method public abstract message()Ljava/lang/String;
 .end method
+
 .end class

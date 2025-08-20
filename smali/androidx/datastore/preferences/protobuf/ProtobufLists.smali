@@ -214,4 +214,5 @@
     invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/LongArrayList;-><init>()V
     return-object v0
 .end method
+
 .end class

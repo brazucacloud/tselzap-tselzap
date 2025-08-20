@@ -17,4 +17,5 @@
 # virtual methods
 .method public abstract onNavigateUp()Z
 .end method
+
 .end class

@@ -166,4 +166,5 @@ return-object p0
     iput-boolean p1, p0, Landroidx/navigation/NavArgument$Builder;->unknownDefaultValuePresent:Z
 return-object p0
 .end method
+
 .end class

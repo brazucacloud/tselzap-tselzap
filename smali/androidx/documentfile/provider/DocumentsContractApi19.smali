@@ -985,4 +985,5 @@ return-object p3
     .line 74
     .line 75
     throw p1.end method
+
 .end class

@@ -30,4 +30,5 @@
     invoke-direct {p0}, Landroidx/savedstate/Recreator$Companion;-><init>()V
     return-void
 .end method
+
 .end class

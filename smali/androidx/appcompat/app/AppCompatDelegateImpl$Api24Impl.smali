@@ -173,4 +173,5 @@
     invoke-static {p0, p1}, Landroidx/appcompat/app/c;->o(Landroid/content/res/Configuration;Landroid/os/LocaleList;)V
     return-void
 .end method
+
 .end class

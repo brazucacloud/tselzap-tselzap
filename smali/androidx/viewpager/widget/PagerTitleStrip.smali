@@ -2024,4 +2024,5 @@ return-void
     iput-boolean v1, v0, Landroidx/viewpager/widget/PagerTitleStrip;->mUpdatingPositions:Z
 return-void
 .end method
+
 .end class

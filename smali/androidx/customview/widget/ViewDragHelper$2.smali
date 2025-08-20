@@ -49,4 +49,5 @@
     .line 4
     invoke-virtual {v0, v1}, Landroidx/customview/widget/ViewDragHelper;->setDragState(I)V    return-void
 .end method
+
 .end class

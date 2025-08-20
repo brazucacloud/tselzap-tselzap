@@ -343,4 +343,5 @@ return-void
     invoke-virtual {p0, p1}, Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataOutputStream;->writeShort(S)V
 return-void
 .end method
+
 .end class

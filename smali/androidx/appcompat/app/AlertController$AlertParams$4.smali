@@ -126,4 +126,5 @@
     invoke-interface {p1, p2, p3, p4}, Landroid/content/DialogInterface$OnMultiChoiceClickListener;->onClick(Landroid/content/DialogInterface;IZ)V
 return-void
 .end method
+
 .end class

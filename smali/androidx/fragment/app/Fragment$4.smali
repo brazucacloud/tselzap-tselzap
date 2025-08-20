@@ -58,4 +58,5 @@
     invoke-virtual {v0}, Landroidx/fragment/app/SpecialEffectsController;->executePendingOperations()V
     return-void
 .end method
+
 .end class

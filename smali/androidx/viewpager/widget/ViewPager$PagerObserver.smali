@@ -56,4 +56,5 @@
     invoke-virtual {v0}, Landroidx/viewpager/widget/ViewPager;->dataSetChanged()V
     return-void
 .end method
+
 .end class

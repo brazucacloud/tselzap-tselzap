@@ -1066,4 +1066,5 @@ return-object p0
     :goto_1
     return-object v1
 .end method
+
 .end class

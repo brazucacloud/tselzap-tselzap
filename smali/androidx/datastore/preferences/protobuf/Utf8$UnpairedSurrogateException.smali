@@ -38,4 +38,5 @@
     invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 return-void
 .end method
+
 .end class

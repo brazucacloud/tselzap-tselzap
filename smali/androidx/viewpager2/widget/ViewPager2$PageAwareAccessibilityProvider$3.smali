@@ -46,4 +46,5 @@
     invoke-virtual {v0}, Landroidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider;->updatePageAccessibilityActions()V
     return-void
 .end method
+
 .end class

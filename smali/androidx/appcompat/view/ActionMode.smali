@@ -113,4 +113,5 @@
     iput-boolean p1, p0, Landroidx/appcompat/view/ActionMode;->mTitleOptionalHint:Z
 return-void
 .end method
+
 .end class

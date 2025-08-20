@@ -25,4 +25,5 @@
     invoke-direct {p0, v0}, Landroidx/customview/view/AbsSavedState;-><init>(Landroidx/customview/view/AbsSavedState$1;)V
 return-void
 .end method
+
 .end class

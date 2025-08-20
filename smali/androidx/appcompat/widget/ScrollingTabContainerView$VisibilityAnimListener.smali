@@ -120,4 +120,5 @@ return-void
     .line 5
     iput-object p1, p2, Landroidx/appcompat/widget/ScrollingTabContainerView;->mVisibilityAnim:Landroid/view/ViewPropertyAnimator;    return-object p0
 .end method
+
 .end class

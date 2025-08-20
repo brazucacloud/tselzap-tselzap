@@ -55,4 +55,5 @@
     invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/ItemTouchHelper$RecoverAnimation;->setFraction(F)V
     return-void
 .end method
+
 .end class

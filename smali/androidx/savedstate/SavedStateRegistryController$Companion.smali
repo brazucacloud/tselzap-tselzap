@@ -56,4 +56,5 @@
     invoke-direct {v0, p1, v1}, Landroidx/savedstate/SavedStateRegistryController;-><init>(Landroidx/savedstate/SavedStateRegistryOwner;Lkotlin/jvm/internal/e;)V
 return-object v0
 .end method
+
 .end class

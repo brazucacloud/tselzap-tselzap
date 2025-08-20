@@ -598,4 +598,5 @@ return-void
     .line 3
     invoke-virtual {p1, v0}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;    return-void
 .end method
+
 .end class

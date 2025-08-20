@@ -113,4 +113,5 @@ return-object v0
     .line 3
     iput p2, p0, Landroidx/activity/result/IntentSenderRequest$Builder;->flagsMask:I    return-object p0
 .end method
+
 .end class

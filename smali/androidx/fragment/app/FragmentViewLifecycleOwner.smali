@@ -566,4 +566,5 @@ return-void
     invoke-virtual {v0, p1}, Landroidx/lifecycle/LifecycleRegistry;->setCurrentState(Landroidx/lifecycle/Lifecycle$State;)V
 return-void
 .end method
+
 .end class

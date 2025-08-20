@@ -68,4 +68,5 @@
     .line 6
     iput-object p2, p0, Landroidx/activity/result/ActivityResultRegistry$CallbackAndContract;->mContract:Landroidx/activity/result/contract/ActivityResultContract;    return-void
 .end method
+
 .end class

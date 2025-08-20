@@ -410,4 +410,5 @@ return-object v0
     .line 1
     iput-object p1, p0, Landroidx/transition/Scene;->mExitAction:Ljava/lang/Runnable;    return-void
 .end method
+
 .end class

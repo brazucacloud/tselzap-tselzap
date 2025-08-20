@@ -59,4 +59,5 @@
     invoke-virtual {v0}, Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat;->stop()V
     return-void
 .end method
+
 .end class

@@ -595,4 +595,5 @@ return-void
     .line 1
     iget v0, p0, Landroidx/datastore/preferences/protobuf/FloatValue;->value_:F    return v0
 .end method
+
 .end class

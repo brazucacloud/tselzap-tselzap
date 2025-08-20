@@ -653,4 +653,5 @@
     invoke-virtual {v0, v1}, Landroid/animation/AnimatorSet;->playTogether([Landroid/animation/Animator;)V
 return-object v0
 .end method
+
 .end class

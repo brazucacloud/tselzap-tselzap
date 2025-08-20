@@ -411,4 +411,5 @@ return-void
 
     return-object v0
 .end method
+
 .end class

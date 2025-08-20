@@ -90,4 +90,5 @@
 
 .method public abstract setText(Ljava/lang/CharSequence;)Landroidx/appcompat/app/ActionBar$Tab;
 .end method
+
 .end class

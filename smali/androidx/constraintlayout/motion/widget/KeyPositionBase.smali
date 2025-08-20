@@ -58,4 +58,5 @@
 
 .method public abstract positionAttributes(Landroid/view/View;Landroid/graphics/RectF;Landroid/graphics/RectF;FF[Ljava/lang/String;[F)V
 .end method
+
 .end class

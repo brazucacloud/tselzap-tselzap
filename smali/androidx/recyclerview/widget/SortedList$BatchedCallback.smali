@@ -248,4 +248,5 @@ return-void
     invoke-virtual {v0, p1, p2}, Landroidx/recyclerview/widget/BatchingListUpdateCallback;->onRemoved(II)V
 return-void
 .end method
+
 .end class

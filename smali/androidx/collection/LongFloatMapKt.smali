@@ -316,4 +316,5 @@ return-object v0
     invoke-virtual {v0, p0, p1, p2}, Landroidx/collection/MutableLongFloatMap;->set(JF)V
 return-object v0
 .end method
+
 .end class

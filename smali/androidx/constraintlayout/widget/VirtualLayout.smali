@@ -337,4 +337,5 @@ return-void
     invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintHelper;->applyLayoutFeatures()V
     return-void
 .end method
+
 .end class

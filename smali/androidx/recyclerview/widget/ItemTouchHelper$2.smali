@@ -735,4 +735,5 @@
     .line 149
     iput v0, p1, Landroidx/recyclerview/widget/ItemTouchHelper;->mActivePointerId:I    return-void
 .end method
+
 .end class

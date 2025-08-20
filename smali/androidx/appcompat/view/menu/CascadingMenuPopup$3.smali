@@ -246,4 +246,5 @@ return-void
     invoke-virtual {p2, p1}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 return-void
 .end method
+
 .end class

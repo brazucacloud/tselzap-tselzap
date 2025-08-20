@@ -45,4 +45,5 @@
         }
     .end annotation
 .end method
+
 .end class

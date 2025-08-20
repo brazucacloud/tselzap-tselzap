@@ -919,4 +919,5 @@ return-void
     invoke-virtual {v0, p1}, Landroid/os/Parcel;->writeStrongInterface(Landroid/os/IInterface;)V
 return-void
 .end method
+
 .end class

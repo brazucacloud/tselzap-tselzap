@@ -57,4 +57,5 @@
     invoke-virtual {v0}, Landroidx/viewpager2/widget/ScrollEventAdapter;->notifyDataSetChangeHappened()V
     return-void
 .end method
+
 .end class

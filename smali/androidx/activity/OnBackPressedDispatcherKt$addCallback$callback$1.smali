@@ -56,4 +56,5 @@ return-void
     .line 3
     invoke-interface {v0, p0}, Lp1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
+
 .end class

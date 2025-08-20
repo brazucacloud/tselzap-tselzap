@@ -17,4 +17,5 @@
 # virtual methods
 .method public abstract onChooseActivity(Landroidx/appcompat/widget/ActivityChooserModel;Landroid/content/Intent;)Z
 .end method
+
 .end class

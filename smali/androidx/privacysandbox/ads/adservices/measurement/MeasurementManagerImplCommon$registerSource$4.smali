@@ -282,4 +282,5 @@ return-void
     .line 62
     .line 63
     throw p1.end method
+
 .end class

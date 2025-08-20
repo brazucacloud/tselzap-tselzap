@@ -56,4 +56,5 @@ return-void
     invoke-static {p0, v0, v1}, Landroid/os/Trace;->setCounter(Ljava/lang/String;J)V
 return-void
 .end method
+
 .end class

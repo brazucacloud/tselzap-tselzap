@@ -829,4 +829,5 @@ return-void
     :goto_2
     return-void
 .end method
+
 .end class

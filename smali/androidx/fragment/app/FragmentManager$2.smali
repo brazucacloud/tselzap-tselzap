@@ -108,4 +108,5 @@ return-void
     .line 3
     invoke-virtual {v0, p1}, Landroidx/fragment/app/FragmentManager;->dispatchPrepareOptionsMenu(Landroid/view/Menu;)Z    return-void
 .end method
+
 .end class

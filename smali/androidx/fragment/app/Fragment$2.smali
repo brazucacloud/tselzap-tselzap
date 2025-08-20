@@ -105,4 +105,5 @@ return-void
     invoke-virtual {v1, v0}, Landroidx/savedstate/SavedStateRegistryController;->performRestore(Landroid/os/Bundle;)V
 return-void
 .end method
+
 .end class

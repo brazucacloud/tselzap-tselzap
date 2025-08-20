@@ -72,4 +72,5 @@
     invoke-interface {v0, v1}, Landroid/content/DialogInterface$OnDismissListener;->onDismiss(Landroid/content/DialogInterface;)V
 return-void
 .end method
+
 .end class

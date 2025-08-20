@@ -298,4 +298,5 @@
     invoke-direct {v0, v1, v2, v3}, Landroidx/recyclerview/widget/DiffUtil$Diagonal;-><init>(III)V
 return-object v0
 .end method
+
 .end class

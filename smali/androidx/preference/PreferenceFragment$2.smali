@@ -50,4 +50,5 @@
     .line 5
     invoke-virtual {v0, v0}, Landroid/view/ViewGroup;->focusableViewAvailable(Landroid/view/View;)V    return-void
 .end method
+
 .end class

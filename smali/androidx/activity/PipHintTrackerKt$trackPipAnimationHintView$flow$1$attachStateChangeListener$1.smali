@@ -158,4 +158,5 @@
     .line 12
     invoke-virtual {p1, v0}, Landroid/view/View;->removeOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V    return-void
 .end method
+
 .end class

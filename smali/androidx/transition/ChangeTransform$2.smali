@@ -75,4 +75,5 @@ return-void
     invoke-virtual {p0, p1, p2}, Landroidx/transition/ChangeTransform$2;->set(Landroidx/transition/ChangeTransform$PathAnimatorMatrix;Landroid/graphics/PointF;)V
 return-void
 .end method
+
 .end class

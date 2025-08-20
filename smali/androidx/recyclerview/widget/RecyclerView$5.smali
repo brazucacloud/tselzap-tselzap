@@ -232,4 +232,5 @@
     invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;->stopScroll()V
     return-void
 .end method
+
 .end class

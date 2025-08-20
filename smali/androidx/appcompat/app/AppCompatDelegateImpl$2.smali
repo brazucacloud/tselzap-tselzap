@@ -101,4 +101,5 @@
     .line 30
     iput v2, v0, Landroidx/appcompat/app/AppCompatDelegateImpl;->mInvalidatePanelMenuFeatures:I    return-void
 .end method
+
 .end class

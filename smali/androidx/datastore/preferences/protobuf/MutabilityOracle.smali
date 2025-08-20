@@ -28,4 +28,5 @@
 # virtual methods
 .method public abstract ensureMutable()V
 .end method
+
 .end class

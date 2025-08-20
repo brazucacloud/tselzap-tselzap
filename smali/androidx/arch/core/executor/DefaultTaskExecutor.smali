@@ -366,4 +366,5 @@ return-void
     invoke-virtual {v0, p1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 return-void
 .end method
+
 .end class

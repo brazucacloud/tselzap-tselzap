@@ -101,4 +101,5 @@
     .line 6
     invoke-virtual {p0, v0}, Landroid/view/View;->getGlobalVisibleRect(Landroid/graphics/Rect;)Z    return-object v0
 .end method
+
 .end class

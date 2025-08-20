@@ -534,4 +534,5 @@ return-void
     .line 167
     :goto_4
     throw v0.end method
+
 .end class

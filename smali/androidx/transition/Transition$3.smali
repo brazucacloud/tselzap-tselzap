@@ -49,4 +49,5 @@
     invoke-virtual {p1, p0}, Landroid/animation/Animator;->removeListener(Landroid/animation/Animator$AnimatorListener;)V
 return-void
 .end method
+
 .end class

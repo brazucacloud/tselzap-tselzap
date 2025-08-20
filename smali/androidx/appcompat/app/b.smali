@@ -39,4 +39,5 @@
     invoke-static {v0, v1}, Landroidx/appcompat/app/AppCompatDelegate$SerialExecutor;->a(Landroidx/appcompat/app/AppCompatDelegate$SerialExecutor;Ljava/lang/Runnable;)V
 return-void
 .end method
+
 .end class

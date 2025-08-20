@@ -117,4 +117,5 @@
     .line 29
     .line 30
     throw p1.end method
+
 .end class

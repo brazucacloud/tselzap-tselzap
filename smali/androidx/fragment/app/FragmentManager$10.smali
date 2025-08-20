@@ -225,4 +225,5 @@ return-void
     invoke-virtual {v4, v1, v0, p1}, Landroidx/fragment/app/Fragment;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V
     return-void
 .end method
+
 .end class

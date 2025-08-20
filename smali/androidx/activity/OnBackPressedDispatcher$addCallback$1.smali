@@ -81,4 +81,5 @@ return-void
     invoke-static {v0}, Landroidx/activity/OnBackPressedDispatcher;->access$updateEnabledCallbacks(Landroidx/activity/OnBackPressedDispatcher;)V
 return-void
 .end method
+
 .end class

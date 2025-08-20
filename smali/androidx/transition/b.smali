@@ -19,4 +19,5 @@ return-void
     invoke-interface {p0, p1}, Landroidx/transition/Transition$TransitionListener;->onTransitionStart(Landroidx/transition/Transition;)V
 return-void
 .end method
+
 .end class

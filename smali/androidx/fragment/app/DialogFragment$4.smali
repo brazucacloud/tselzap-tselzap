@@ -167,4 +167,5 @@
     invoke-virtual {p0, p1}, Landroidx/fragment/app/DialogFragment$4;->onChanged(Landroidx/lifecycle/LifecycleOwner;)V
 return-void
 .end method
+
 .end class

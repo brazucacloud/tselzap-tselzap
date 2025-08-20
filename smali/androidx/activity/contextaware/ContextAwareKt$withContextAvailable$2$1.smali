@@ -70,4 +70,5 @@ return-void
     invoke-interface {p1, v0}, Landroidx/activity/contextaware/ContextAware;->removeOnContextAvailableListener(Landroidx/activity/contextaware/OnContextAvailableListener;)V
 return-void
 .end method
+
 .end class

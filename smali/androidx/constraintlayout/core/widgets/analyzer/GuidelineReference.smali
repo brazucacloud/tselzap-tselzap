@@ -821,4 +821,5 @@ return-void
     invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->resolve(I)V
     return-void
 .end method
+
 .end class

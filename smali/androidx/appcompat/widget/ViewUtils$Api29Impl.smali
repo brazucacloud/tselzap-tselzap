@@ -113,4 +113,5 @@
     invoke-virtual {p1, p2, v0, v1, p0}, Landroid/graphics/Rect;->set(IIII)V
     return-void
 .end method
+
 .end class

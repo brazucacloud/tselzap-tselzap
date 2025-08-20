@@ -595,4 +595,5 @@ return-object v0
     .line 191
     :cond_7
     throw p1.end method
+
 .end class

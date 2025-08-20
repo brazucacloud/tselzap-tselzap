@@ -221,4 +221,5 @@ return-void
     .line 16
     invoke-interface {p0, p1, p2}, Lp1/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
+
 .end class

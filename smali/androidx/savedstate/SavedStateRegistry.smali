@@ -959,4 +959,5 @@ return-void
     .line 8
     invoke-virtual {v0, p1}, Landroidx/arch/core/internal/SafeIterableMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
+
 .end class

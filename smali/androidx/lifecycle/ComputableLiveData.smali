@@ -472,4 +472,5 @@ return-void
     invoke-virtual {v0, v1}, Landroidx/arch/core/executor/TaskExecutor;->executeOnMainThread(Ljava/lang/Runnable;)V
     return-void
 .end method
+
 .end class

@@ -77,4 +77,5 @@
     .line 7
     invoke-virtual {v0, v1, v2}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;I)V    return-void
 .end method
+
 .end class

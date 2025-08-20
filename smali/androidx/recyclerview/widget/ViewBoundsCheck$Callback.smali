@@ -29,4 +29,5 @@
 
 .method public abstract getParentStart()I
 .end method
+
 .end class

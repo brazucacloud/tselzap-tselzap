@@ -2475,4 +2475,5 @@ return-object v0
     .line 10
     aget-object p0, p0, p1    return-object p0
 .end method
+
 .end class

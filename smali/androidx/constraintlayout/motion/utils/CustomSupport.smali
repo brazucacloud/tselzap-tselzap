@@ -950,4 +950,5 @@
         :pswitch_1
         :pswitch_0
     .end packed-switch.end method
+
 .end class

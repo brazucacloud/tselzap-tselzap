@@ -1245,4 +1245,5 @@ return-void
     .line 6
     invoke-virtual {v0, p1}, Landroid/widget/ListView;->setSelection(I)V    return-void
 .end method
+
 .end class

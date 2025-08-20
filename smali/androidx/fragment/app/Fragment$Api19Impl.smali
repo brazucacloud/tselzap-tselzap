@@ -38,4 +38,5 @@
     invoke-virtual {p0}, Landroid/view/View;->cancelPendingInputEvents()V
     return-void
 .end method
+
 .end class

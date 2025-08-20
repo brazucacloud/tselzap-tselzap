@@ -65,4 +65,5 @@
 
     return-object p0
 .end method
+
 .end class

@@ -50,4 +50,5 @@
     invoke-virtual {v0, v1}, Landroidx/fragment/app/Fragment;->callStartTransitionListener(Z)V
 return-void
 .end method
+
 .end class

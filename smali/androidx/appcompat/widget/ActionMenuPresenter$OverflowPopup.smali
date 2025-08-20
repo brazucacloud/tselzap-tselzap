@@ -123,4 +123,5 @@ return-void
     invoke-super {p0}, Landroidx/appcompat/view/menu/MenuPopupHelper;->onDismiss()V
 return-void
 .end method
+
 .end class

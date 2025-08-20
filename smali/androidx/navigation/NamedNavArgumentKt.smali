@@ -64,4 +64,5 @@
     invoke-direct {v0, p0, p1}, Landroidx/navigation/NamedNavArgument;-><init>(Ljava/lang/String;Landroidx/navigation/NavArgument;)V
     return-object v0
 .end method
+
 .end class

@@ -62,4 +62,5 @@ return-void
     invoke-virtual {p1, v0}, Landroidx/viewpager2/adapter/FragmentStateAdapter$FragmentMaxLifecycleEnforcer;->updateFragmentMaxLifecycle(Z)V
 return-void
 .end method
+
 .end class

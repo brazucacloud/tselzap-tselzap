@@ -56,4 +56,5 @@
     invoke-virtual {p1, p2}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setCanOpenPopup(Z)V
 return-void
 .end method
+
 .end class

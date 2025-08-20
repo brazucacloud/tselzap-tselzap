@@ -87,4 +87,5 @@
     :cond_0
     iget v0, p0, Landroidx/constraintlayout/core/state/ConstraintSetParser$Generator;->mCurrent:F    return v0
 .end method
+
 .end class

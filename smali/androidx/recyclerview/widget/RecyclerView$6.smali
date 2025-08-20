@@ -710,4 +710,5 @@
     .line 19
     invoke-virtual {v0, p1}, Landroid/view/ViewGroup;->removeViewAt(I)V    return-void
 .end method
+
 .end class

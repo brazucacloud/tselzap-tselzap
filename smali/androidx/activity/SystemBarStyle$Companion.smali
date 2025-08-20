@@ -198,4 +198,5 @@ return-object v0
     invoke-direct/range {v0 .. v5}, Landroidx/activity/SystemBarStyle;-><init>(IIILp1/l;Lkotlin/jvm/internal/e;)V
 return-object v0
 .end method
+
 .end class

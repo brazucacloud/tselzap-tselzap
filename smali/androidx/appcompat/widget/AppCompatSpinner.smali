@@ -1690,4 +1690,5 @@ return-void
     invoke-interface {v0, v1, v2}, Landroidx/appcompat/widget/AppCompatSpinner$SpinnerPopup;->show(II)V
     return-void
 .end method
+
 .end class

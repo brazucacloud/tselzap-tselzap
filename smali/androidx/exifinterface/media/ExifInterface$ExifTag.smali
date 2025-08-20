@@ -183,4 +183,5 @@
     :goto_0
     return v1
 .end method
+
 .end class

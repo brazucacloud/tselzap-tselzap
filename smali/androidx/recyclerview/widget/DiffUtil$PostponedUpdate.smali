@@ -43,4 +43,5 @@
     iput-boolean p3, p0, Landroidx/recyclerview/widget/DiffUtil$PostponedUpdate;->removal:Z
 return-void
 .end method
+
 .end class

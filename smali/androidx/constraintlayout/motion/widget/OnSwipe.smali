@@ -502,4 +502,5 @@ return-object p0
     .line 1
     iput p1, p0, Landroidx/constraintlayout/motion/widget/OnSwipe;->mTouchRegionId:I    return-object p0
 .end method
+
 .end class

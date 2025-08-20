@@ -1071,4 +1071,5 @@ return-void
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$AbstractBufferedEncoder;->bufferUInt64NoTag(J)V
 return-void
 .end method
+
 .end class

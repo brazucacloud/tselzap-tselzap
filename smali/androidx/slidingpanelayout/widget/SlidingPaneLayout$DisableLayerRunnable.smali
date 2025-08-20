@@ -106,4 +106,5 @@
     invoke-virtual {v0, p0}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
 return-void
 .end method
+
 .end class

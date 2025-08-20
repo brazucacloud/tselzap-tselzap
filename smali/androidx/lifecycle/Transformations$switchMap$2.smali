@@ -157,4 +157,5 @@
     .line 1
     iput-object p1, p0, Landroidx/lifecycle/Transformations$switchMap$2;->liveData:Landroidx/lifecycle/LiveData;    return-void
 .end method
+
 .end class

@@ -168,4 +168,5 @@
     invoke-virtual {p1}, Landroid/os/Message;->sendToTarget()V
     return-void
 .end method
+
 .end class

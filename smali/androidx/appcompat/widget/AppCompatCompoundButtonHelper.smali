@@ -575,4 +575,5 @@ return-void
     invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatCompoundButtonHelper;->applyButtonTint()V
     return-void
 .end method
+
 .end class

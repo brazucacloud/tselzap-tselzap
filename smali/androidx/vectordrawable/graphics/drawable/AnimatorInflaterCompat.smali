@@ -3719,4 +3719,5 @@ return-void
     .line 175
     invoke-virtual {v1, v2}, Landroid/animation/ValueAnimator;->setValues([Landroid/animation/PropertyValuesHolder;)V    return-void
 .end method
+
 .end class

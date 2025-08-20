@@ -1131,4 +1131,5 @@ return-void
     .line 38
     .line 39
     throw p2.end method
+
 .end class

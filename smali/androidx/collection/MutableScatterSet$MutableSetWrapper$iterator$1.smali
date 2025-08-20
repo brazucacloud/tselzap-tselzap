@@ -202,4 +202,5 @@
     .line 1
     iput p1, p0, Landroidx/collection/MutableScatterSet$MutableSetWrapper$iterator$1;->current:I    return-void
 .end method
+
 .end class

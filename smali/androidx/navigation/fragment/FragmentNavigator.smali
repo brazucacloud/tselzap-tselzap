@@ -3110,4 +3110,5 @@ return-void
     invoke-virtual {v1, p1, p2}, Landroidx/navigation/NavigatorState;->popWithTransition(Landroidx/navigation/NavBackStackEntry;Z)V
     return-void
 .end method
+
 .end class

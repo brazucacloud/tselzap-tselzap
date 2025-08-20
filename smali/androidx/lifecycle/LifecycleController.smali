@@ -301,4 +301,5 @@ return-void
     invoke-virtual {v0}, Landroidx/lifecycle/DispatchQueue;->finish()V
     return-void
 .end method
+
 .end class

@@ -12,4 +12,5 @@
 
 .method public abstract getSeconds()J
 .end method
+
 .end class

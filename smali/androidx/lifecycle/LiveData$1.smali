@@ -95,4 +95,5 @@
 
     .line 25
     throw v1.end method
+
 .end class

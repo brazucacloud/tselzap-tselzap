@@ -224,4 +224,5 @@
     .line 87
     .line 88
     throw v2.end method
+
 .end class

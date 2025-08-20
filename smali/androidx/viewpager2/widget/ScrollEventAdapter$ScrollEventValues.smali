@@ -56,4 +56,5 @@
     .line 8
     iput v0, p0, Landroidx/viewpager2/widget/ScrollEventAdapter$ScrollEventValues;->mOffsetPx:I    return-void
 .end method
+
 .end class

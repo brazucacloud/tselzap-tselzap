@@ -30,4 +30,5 @@
     invoke-direct {p0}, Landroidx/navigation/NavBackStackEntryState$Companion;-><init>()V
     return-void
 .end method
+
 .end class

@@ -224,4 +224,5 @@
     .line 14
     .line 15
     throw p1.end method
+
 .end class

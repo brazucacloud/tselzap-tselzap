@@ -56,4 +56,5 @@
 
 .method public abstract onHasView()Z
 .end method
+
 .end class

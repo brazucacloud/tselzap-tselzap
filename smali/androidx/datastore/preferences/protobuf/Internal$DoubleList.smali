@@ -38,4 +38,5 @@
 
 .method public abstract setDouble(ID)D
 .end method
+
 .end class

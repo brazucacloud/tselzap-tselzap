@@ -47,4 +47,5 @@
     invoke-virtual {v0}, Landroidx/recyclerview/widget/StaggeredGridLayoutManager;->checkForGaps()Z
 return-void
 .end method
+
 .end class

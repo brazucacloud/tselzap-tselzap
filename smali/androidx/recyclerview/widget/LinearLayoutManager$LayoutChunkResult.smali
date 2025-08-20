@@ -57,4 +57,5 @@
     iput-boolean v0, p0, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutChunkResult;->mFocusable:Z
 return-void
 .end method
+
 .end class

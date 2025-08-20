@@ -506,4 +506,5 @@ return-object p1
     .line 93
     iput-object p1, p0, Landroidx/transition/PatternPathMotion;->mOriginalPatternPath:Landroid/graphics/Path;    return-void
 .end method
+
 .end class

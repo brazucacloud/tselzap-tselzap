@@ -49,4 +49,5 @@ return-void
     invoke-static {v0}, Landroidx/preference/PreferenceHeaderFragmentCompat;->b(Landroidx/preference/PreferenceHeaderFragmentCompat;)V
 return-void
 .end method
+
 .end class

@@ -57,4 +57,5 @@
     .line 8
     iput v0, p1, Landroid/graphics/Rect;->top:I    return-void
 .end method
+
 .end class

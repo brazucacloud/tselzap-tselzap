@@ -64,4 +64,5 @@
     invoke-interface {p0, v0}, Landroid/view/WindowInsetsController;->show(I)V
     return-void
 .end method
+
 .end class

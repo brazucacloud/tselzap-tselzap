@@ -67,4 +67,5 @@ return-void
     .line 3
     invoke-virtual {p1, p2}, Landroidx/dynamicanimation/animation/FloatValueHolder;->setValue(F)V    return-void
 .end method
+
 .end class

@@ -228,4 +228,5 @@
     .line 1
     iput-object p1, p0, Landroidx/viewpager2/widget/PageTransformerAdapter;->mPageTransformer:Landroidx/viewpager2/widget/ViewPager2$PageTransformer;    return-void
 .end method
+
 .end class

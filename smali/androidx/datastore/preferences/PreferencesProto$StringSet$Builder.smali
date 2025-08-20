@@ -267,4 +267,5 @@ return-object p0
     invoke-static {v0, p1, p2}, Landroidx/datastore/preferences/PreferencesProto$StringSet;->access$2400(Landroidx/datastore/preferences/PreferencesProto$StringSet;ILjava/lang/String;)V
 return-object p0
 .end method
+
 .end class

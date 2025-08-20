@@ -200,4 +200,5 @@
     invoke-direct {p0}, Landroidx/transition/ChangeTransform$PathAnimatorMatrix;->setAnimationMatrix()V
     return-void
 .end method
+
 .end class

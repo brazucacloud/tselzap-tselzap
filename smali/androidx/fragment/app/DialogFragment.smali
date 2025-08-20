@@ -2379,4 +2379,5 @@ return-void
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentTransaction;->commitNow()V
     return-void
 .end method
+
 .end class

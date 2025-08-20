@@ -1012,4 +1012,5 @@ return-void
     .line 7
     .line 8
     throw v0.end method
+
 .end class

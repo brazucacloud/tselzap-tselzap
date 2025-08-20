@@ -58,4 +58,5 @@
     .line 6
     iput-object p2, p0, Landroidx/loader/content/ModernAsyncTask$AsyncTaskResult;->mData:[Ljava/lang/Object;    return-void
 .end method
+
 .end class

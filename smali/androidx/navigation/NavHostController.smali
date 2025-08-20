@@ -80,4 +80,5 @@ return-void
     .line 6
     invoke-super {p0, p1}, Landroidx/navigation/NavController;->setViewModelStore(Landroidx/lifecycle/ViewModelStore;)V    return-void
 .end method
+
 .end class

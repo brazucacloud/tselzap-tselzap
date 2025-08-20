@@ -113,4 +113,5 @@
     .line 36
     iput-object v1, v0, Landroidx/appcompat/widget/ActionBarOverlayLayout;->mCurrentActionBarTopAnimator:Landroid/view/ViewPropertyAnimator;    return-void
 .end method
+
 .end class

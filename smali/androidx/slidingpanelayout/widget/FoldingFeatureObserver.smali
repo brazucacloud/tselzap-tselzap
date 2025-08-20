@@ -283,4 +283,5 @@
     .line 7
     invoke-interface {v0, v1}, Lz1/V;->c(Ljava/util/concurrent/CancellationException;)V    return-void
 .end method
+
 .end class

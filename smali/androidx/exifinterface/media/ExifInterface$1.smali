@@ -213,4 +213,5 @@
     .line 74
     iput-wide p1, p0, Landroidx/exifinterface/media/ExifInterface$1;->mPosition:J    return v2
 .end method
+
 .end class

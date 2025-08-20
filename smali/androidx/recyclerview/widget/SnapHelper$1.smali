@@ -111,4 +111,5 @@ return-void
     iput-boolean p1, p0, Landroidx/recyclerview/widget/SnapHelper$1;->mScrolled:Z
 return-void
 .end method
+
 .end class

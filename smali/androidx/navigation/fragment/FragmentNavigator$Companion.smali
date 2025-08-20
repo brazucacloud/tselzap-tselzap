@@ -30,4 +30,5 @@
     invoke-direct {p0}, Landroidx/navigation/fragment/FragmentNavigator$Companion;-><init>()V
     return-void
 .end method
+
 .end class

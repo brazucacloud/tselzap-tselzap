@@ -5629,4 +5629,5 @@ return-void
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 return-void
 .end method
+
 .end class

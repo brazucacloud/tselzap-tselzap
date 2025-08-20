@@ -135,4 +135,5 @@
     .line 1
     iget v0, p0, Landroidx/recyclerview/widget/GridLayoutManager$LayoutParams;->mSpanSize:I    return v0
 .end method
+
 .end class

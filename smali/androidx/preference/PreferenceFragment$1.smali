@@ -59,4 +59,5 @@
     invoke-virtual {p1}, Landroidx/preference/PreferenceFragment;->bindPreferences()V
     return-void
 .end method
+
 .end class

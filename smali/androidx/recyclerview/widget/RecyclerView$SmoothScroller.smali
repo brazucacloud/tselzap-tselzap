@@ -998,4 +998,5 @@ return-void
     .line 33
     iput-object v1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller;->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;    return-void
 .end method
+
 .end class

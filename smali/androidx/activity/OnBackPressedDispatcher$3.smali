@@ -62,4 +62,5 @@ return-void
     invoke-virtual {v0}, Landroidx/activity/OnBackPressedDispatcher;->onBackPressed()V
     return-void
 .end method
+
 .end class

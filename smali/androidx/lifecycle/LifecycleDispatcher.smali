@@ -123,4 +123,5 @@
     invoke-virtual {p0, v0}, Landroid/app/Application;->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
 return-void
 .end method
+
 .end class

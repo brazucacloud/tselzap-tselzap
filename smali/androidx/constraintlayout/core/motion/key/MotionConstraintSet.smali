@@ -48,4 +48,5 @@
     .line 5
     iput v0, p0, Landroidx/constraintlayout/core/motion/key/MotionConstraintSet;->mRotate:I    return-void
 .end method
+
 .end class

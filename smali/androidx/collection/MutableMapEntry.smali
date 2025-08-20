@@ -168,4 +168,5 @@
     .line 7
     aput-object p1, v0, v1    return-object v2
 .end method
+
 .end class

@@ -48,4 +48,5 @@
     invoke-virtual {p2, p1}, Landroidx/lifecycle/ReportFragment$Companion;->injectIfNeededIn(Landroid/app/Activity;)V
 return-void
 .end method
+
 .end class

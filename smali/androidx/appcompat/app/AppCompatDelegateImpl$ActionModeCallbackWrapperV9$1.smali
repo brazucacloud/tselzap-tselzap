@@ -189,4 +189,5 @@
     .line 76
     invoke-static {p1}, Landroidx/core/view/ViewCompat;->requestApplyInsets(Landroid/view/View;)V    return-void
 .end method
+
 .end class

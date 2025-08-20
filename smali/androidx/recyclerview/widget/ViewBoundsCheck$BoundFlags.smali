@@ -272,4 +272,5 @@
     .line 7
     iput p4, p0, Landroidx/recyclerview/widget/ViewBoundsCheck$BoundFlags;->mChildEnd:I    return-void
 .end method
+
 .end class

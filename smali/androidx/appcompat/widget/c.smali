@@ -33,4 +33,5 @@
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 return-void
 .end method
+
 .end class

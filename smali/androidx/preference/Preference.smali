@@ -4785,4 +4785,5 @@ return-void
     .line 1
     iget-boolean v0, p0, Landroidx/preference/Preference;->mWasDetached:Z    return v0
 .end method
+
 .end class

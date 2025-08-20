@@ -17,4 +17,5 @@
 # virtual methods
 .method public abstract onClose()Z
 .end method
+
 .end class

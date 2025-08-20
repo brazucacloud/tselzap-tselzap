@@ -137,4 +137,5 @@
     invoke-virtual {p1, v1, v0}, Landroid/app/Activity;->overridePendingTransition(II)V
     return-void
 .end method
+
 .end class

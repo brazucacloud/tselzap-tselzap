@@ -46,4 +46,5 @@ return-void
     .line 3
     invoke-virtual {v0}, Landroidx/navigation/NavController;->popBackStack()Z    return-void
 .end method
+
 .end class

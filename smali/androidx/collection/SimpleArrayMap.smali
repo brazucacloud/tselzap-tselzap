@@ -2634,4 +2634,5 @@ return-void
     .line 30
     .line 31
     throw v0.end method
+
 .end class

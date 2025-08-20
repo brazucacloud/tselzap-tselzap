@@ -39,4 +39,5 @@
     .line 5
     invoke-virtual {p1, p2}, Landroid/view/View;->setAlpha(F)V    return-void
 .end method
+
 .end class

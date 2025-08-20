@@ -59,4 +59,5 @@ return-void
     invoke-interface {v0}, Landroid/graphics/drawable/Animatable;->stop()V
 return-void
 .end method
+
 .end class

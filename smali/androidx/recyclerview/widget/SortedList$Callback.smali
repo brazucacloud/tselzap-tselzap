@@ -97,4 +97,5 @@
     invoke-virtual {p0, p1, p2}, Landroidx/recyclerview/widget/SortedList$Callback;->onChanged(II)V
 return-void
 .end method
+
 .end class

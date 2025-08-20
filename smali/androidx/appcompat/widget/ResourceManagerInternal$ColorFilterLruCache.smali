@@ -123,4 +123,5 @@ return-void
     .line 13
     check-cast p1, Landroid/graphics/PorterDuffColorFilter;    return-object p1
 .end method
+
 .end class

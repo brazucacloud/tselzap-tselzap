@@ -53,4 +53,5 @@
     invoke-virtual {v0}, Landroidx/appcompat/app/AppCompatDelegateImpl;->dismissPopups()V
     return-void
 .end method
+
 .end class

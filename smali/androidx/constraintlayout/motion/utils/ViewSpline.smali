@@ -809,4 +809,5 @@
 # virtual methods
 .method public abstract setProperty(Landroid/view/View;F)V
 .end method
+
 .end class

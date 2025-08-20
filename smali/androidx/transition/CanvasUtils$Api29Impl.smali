@@ -46,4 +46,5 @@
     invoke-virtual {p0}, Landroid/graphics/Canvas;->enableZ()V
     return-void
 .end method
+
 .end class

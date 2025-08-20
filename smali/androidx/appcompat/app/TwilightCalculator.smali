@@ -599,4 +599,5 @@
     :cond_2
     iput v6, p0, Landroidx/appcompat/app/TwilightCalculator;->state:I    return-void
 .end method
+
 .end class

@@ -1218,4 +1218,5 @@ return-void
     iput-boolean p2, p0, Landroidx/coordinatorlayout/widget/CoordinatorLayout$LayoutParams;->mDidAcceptNestedScrollTouch:Z
 return-void
 .end method
+
 .end class

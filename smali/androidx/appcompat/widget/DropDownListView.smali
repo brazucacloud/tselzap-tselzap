@@ -2212,4 +2212,5 @@ return-void
     .line 39
     iput p1, p0, Landroidx/appcompat/widget/DropDownListView;->mSelectionBottomPadding:I    return-void
 .end method
+
 .end class

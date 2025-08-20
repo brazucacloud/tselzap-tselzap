@@ -50,4 +50,5 @@
     :cond_0
     invoke-static {p0, p1}, Landroidx/appcompat/widget/TooltipCompatHandler;->setTooltipText(Landroid/view/View;Ljava/lang/CharSequence;)V    return-void
 .end method
+
 .end class

@@ -190,4 +190,5 @@
     .line 69
     invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView$Adapter;->registerAdapterDataObserver(Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;)V    return-void
 .end method
+
 .end class

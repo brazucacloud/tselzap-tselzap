@@ -538,4 +538,5 @@ return-void
     .line 3
     invoke-direct {v0, p0}, Landroidx/versionedparcelable/ParcelImpl;-><init>(Landroidx/versionedparcelable/VersionedParcelable;)V    return-object v0
 .end method
+
 .end class

@@ -48,4 +48,5 @@
     invoke-virtual {v0, p3, p4}, Landroid/graphics/Path;->lineTo(FF)V
 return-object v0
 .end method
+
 .end class

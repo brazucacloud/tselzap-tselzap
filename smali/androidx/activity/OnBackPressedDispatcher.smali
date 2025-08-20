@@ -1056,4 +1056,5 @@ return-void
     invoke-direct {p0, p1}, Landroidx/activity/OnBackPressedDispatcher;->updateBackInvokedCallbackState(Z)V
 return-void
 .end method
+
 .end class

@@ -419,4 +419,5 @@
     invoke-virtual {p1, p2, p3}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
 return-void
 .end method
+
 .end class

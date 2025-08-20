@@ -54,4 +54,5 @@
     .line 12
     iput p5, p0, Landroidx/recyclerview/widget/DefaultItemAnimator$MoveInfo;->toY:I    return-void
 .end method
+
 .end class

@@ -67,4 +67,5 @@
     invoke-virtual {v0}, Landroidx/dynamicanimation/animation/AnimationHandler$AnimationCallbackDispatcher;->dispatchAnimationFrame()V
     return-void
 .end method
+
 .end class

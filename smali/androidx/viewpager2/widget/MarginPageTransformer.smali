@@ -159,4 +159,5 @@
     :cond_1
     invoke-virtual {p1, v1}, Landroid/view/View;->setTranslationY(F)V    return-void
 .end method
+
 .end class

@@ -48,4 +48,5 @@
     .line 1
     iget-object v0, p0, Landroidx/fragment/app/strictmode/Violation;->fragment:Landroidx/fragment/app/Fragment;    return-object v0
 .end method
+
 .end class

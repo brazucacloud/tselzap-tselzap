@@ -38,4 +38,5 @@
 
 .method public abstract to()J
 .end method
+
 .end class

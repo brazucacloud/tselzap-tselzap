@@ -96,4 +96,5 @@
     .line 1
     sget-object v0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$EmptySet;->ITERABLE:Ljava/lang/Iterable;    return-object v0
 .end method
+
 .end class

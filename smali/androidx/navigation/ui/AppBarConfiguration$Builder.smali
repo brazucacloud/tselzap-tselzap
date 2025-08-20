@@ -243,4 +243,5 @@ return-object v0
     .line 1
     iput-object p1, p0, Landroidx/navigation/ui/AppBarConfiguration$Builder;->openableLayout:Landroidx/customview/widget/Openable;    return-object p0
 .end method
+
 .end class

@@ -47,4 +47,5 @@
     invoke-virtual {v0}, Landroidx/fragment/app/Fragment;->startPostponedEnterTransition()V
     return-void
 .end method
+
 .end class

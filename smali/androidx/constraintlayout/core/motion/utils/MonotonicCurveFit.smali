@@ -1799,4 +1799,5 @@
     .line 1
     iget-object v0, p0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;->mT:[D    return-object v0
 .end method
+
 .end class

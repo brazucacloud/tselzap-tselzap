@@ -948,4 +948,5 @@
     :goto_3
     return v1
 .end method
+
 .end class

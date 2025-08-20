@@ -62,4 +62,5 @@
     .line 11
     invoke-virtual {v0, v1}, Landroid/os/AsyncTask;->cancel(Z)Z    return-void
 .end method
+
 .end class

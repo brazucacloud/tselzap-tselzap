@@ -156,4 +156,5 @@
     .line 26
     invoke-virtual {p3, p1}, Landroidx/appcompat/widget/ScrollingTabContainerView$TabView;->bindTab(Landroidx/appcompat/app/ActionBar$Tab;)V    return-object p2
 .end method
+
 .end class

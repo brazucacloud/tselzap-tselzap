@@ -829,4 +829,5 @@ return-object p1
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/PreferencesProto$StringSet;->strings_:Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;    return-object v0
 .end method
+
 .end class

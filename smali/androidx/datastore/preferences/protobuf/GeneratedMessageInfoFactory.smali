@@ -194,4 +194,5 @@
     .line 55
     .line 56
     throw v0.end method
+
 .end class

@@ -2890,4 +2890,5 @@ return-void
     .line 3
     iput-object p2, p1, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$ExtendableMessage;->extensions:Landroidx/datastore/preferences/protobuf/FieldSet;    return-void
 .end method
+
 .end class

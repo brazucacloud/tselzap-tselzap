@@ -769,4 +769,5 @@ return-object p2
     :cond_0
     return v0
 .end method
+
 .end class

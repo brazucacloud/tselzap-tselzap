@@ -100,4 +100,5 @@ return-object v0
     invoke-static {p0, p1}, Landroidx/activity/e;->m(Landroid/window/OnBackInvokedDispatcher;Landroid/window/OnBackInvokedCallback;)V
 return-void
 .end method
+
 .end class

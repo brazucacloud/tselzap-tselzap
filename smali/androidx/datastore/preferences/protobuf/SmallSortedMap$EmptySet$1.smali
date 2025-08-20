@@ -74,4 +74,5 @@
     .line 5
     .line 6
     throw v0.end method
+
 .end class

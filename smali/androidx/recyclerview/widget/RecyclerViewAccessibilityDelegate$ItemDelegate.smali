@@ -681,4 +681,5 @@
     :cond_0
     invoke-super {p0, p1, p2}, Landroidx/core/view/AccessibilityDelegateCompat;->sendAccessibilityEventUnchecked(Landroid/view/View;Landroid/view/accessibility/AccessibilityEvent;)V    return-void
 .end method
+
 .end class

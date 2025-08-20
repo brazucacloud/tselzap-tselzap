@@ -47,4 +47,5 @@
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Empty$Builder;-><init>()V
     return-void
 .end method
+
 .end class

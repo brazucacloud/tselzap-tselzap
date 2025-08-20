@@ -237,4 +237,5 @@ return-void
     :goto_0
     invoke-virtual {v0, p1}, Landroid/view/ActionProvider;->setVisibilityListener(Landroid/view/ActionProvider$VisibilityListener;)V    return-void
 .end method
+
 .end class

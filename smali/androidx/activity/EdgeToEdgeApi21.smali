@@ -89,4 +89,5 @@
     invoke-virtual {p3, p1}, Landroid/view/Window;->addFlags(I)V
 return-void
 .end method
+
 .end class

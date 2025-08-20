@@ -79,4 +79,5 @@
     invoke-virtual {v0, p1}, Landroidx/lifecycle/ProcessLifecycleOwner;->attach$lifecycle_process_release(Landroid/content/Context;)V
     return-void
 .end method
+
 .end class

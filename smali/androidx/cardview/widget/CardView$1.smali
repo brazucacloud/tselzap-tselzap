@@ -201,4 +201,5 @@
     .line 24
     invoke-static {v0, p1, p2, p3, p4}, Landroidx/cardview/widget/CardView;->access$001(Landroidx/cardview/widget/CardView;IIII)V    return-void
 .end method
+
 .end class

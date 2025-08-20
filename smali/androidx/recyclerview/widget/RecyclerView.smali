@@ -24033,4 +24033,5 @@ return-void
     .line 58
     invoke-virtual {p3, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->viewRangeUpdate(II)V    return-void
 .end method
+
 .end class

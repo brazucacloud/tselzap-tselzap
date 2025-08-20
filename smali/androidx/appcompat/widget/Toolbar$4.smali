@@ -47,4 +47,5 @@
     invoke-virtual {p1}, Landroidx/appcompat/widget/Toolbar;->collapseActionView()V
     return-void
 .end method
+
 .end class

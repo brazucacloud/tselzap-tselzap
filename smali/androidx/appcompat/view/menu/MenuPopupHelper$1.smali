@@ -47,4 +47,5 @@
     invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuPopupHelper;->onDismiss()V
     return-void
 .end method
+
 .end class

@@ -1566,4 +1566,5 @@ return-void
     .line 1
     iput-object p1, p0, Landroidx/viewpager2/widget/ScrollEventAdapter;->mCallback:Landroidx/viewpager2/widget/ViewPager2$OnPageChangeCallback;    return-void
 .end method
+
 .end class

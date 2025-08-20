@@ -107,4 +107,5 @@
     iput-boolean p1, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$LayoutParams;->mFullSpan:Z
 return-void
 .end method
+
 .end class

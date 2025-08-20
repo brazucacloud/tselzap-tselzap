@@ -27,4 +27,5 @@
 # virtual methods
 .method public abstract getPopup()Landroidx/appcompat/view/menu/ShowableListMenu;
 .end method
+
 .end class

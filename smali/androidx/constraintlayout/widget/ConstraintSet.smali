@@ -21108,4 +21108,5 @@ return-void
     invoke-virtual {p1, v0}, Ljava/io/Writer;->write(Ljava/lang/String;)V
 return-void
 .end method
+
 .end class

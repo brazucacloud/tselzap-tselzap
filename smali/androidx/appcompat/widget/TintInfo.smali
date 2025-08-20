@@ -57,4 +57,5 @@
     iput-boolean v1, p0, Landroidx/appcompat/widget/TintInfo;->mHasTintMode:Z
 return-void
 .end method
+
 .end class

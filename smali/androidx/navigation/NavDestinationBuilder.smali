@@ -1081,4 +1081,5 @@ return-void
     .line 1
     iput-object p1, p0, Landroidx/navigation/NavDestinationBuilder;->label:Ljava/lang/CharSequence;    return-void
 .end method
+
 .end class

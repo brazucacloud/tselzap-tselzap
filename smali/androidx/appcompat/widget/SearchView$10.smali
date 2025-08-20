@@ -58,4 +58,5 @@
     .line 3
     invoke-virtual {p2, p1}, Landroidx/appcompat/widget/SearchView;->onTextChanged(Ljava/lang/CharSequence;)V    return-void
 .end method
+
 .end class

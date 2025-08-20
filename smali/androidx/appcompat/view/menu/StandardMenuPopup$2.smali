@@ -107,4 +107,5 @@
     :cond_1
     invoke-virtual {p1, p0}, Landroid/view/View;->removeOnAttachStateChangeListener(Landroid/view/View$OnAttachStateChangeListener;)V    return-void
 .end method
+
 .end class

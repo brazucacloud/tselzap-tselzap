@@ -53,4 +53,5 @@
     .line 1
     iget-object v0, p0, Landroidx/recyclerview/widget/StableIdStorage$SharedPoolStableIdStorage;->mSameIdLookup:Landroidx/recyclerview/widget/StableIdStorage$StableIdLookup;    return-object v0
 .end method
+
 .end class

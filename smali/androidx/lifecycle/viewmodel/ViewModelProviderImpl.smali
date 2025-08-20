@@ -243,4 +243,5 @@ return-object v0
     .line 66
     invoke-virtual {v0, p2, p1}, Landroidx/lifecycle/ViewModelStore;->put(Ljava/lang/String;Landroidx/lifecycle/ViewModel;)V    return-object p1
 .end method
+
 .end class

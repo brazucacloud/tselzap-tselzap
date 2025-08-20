@@ -85,4 +85,5 @@
     .line 18
     invoke-direct {p1, p3}, Landroidx/navigation/NavBackStackEntry$SavedStateViewModel;-><init>(Landroidx/lifecycle/SavedStateHandle;)V    return-object p1
 .end method
+
 .end class

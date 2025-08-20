@@ -58,4 +58,5 @@
     invoke-static {p1, v0}, Landroidx/core/view/o;->m(Landroid/app/Activity;Landroidx/lifecycle/ReportFragment$LifecycleCallbacks;)V
 return-void
 .end method
+
 .end class

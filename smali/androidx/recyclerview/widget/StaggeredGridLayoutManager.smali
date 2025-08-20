@@ -11480,4 +11480,5 @@ return-object v0
     .line 17
     iput p1, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager;->mFullSizeSpec:I    return-void
 .end method
+
 .end class

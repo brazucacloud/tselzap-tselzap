@@ -48,4 +48,5 @@
     .line 1
     iget-object v0, p0, Landroidx/navigation/NavBackStackEntry$SavedStateViewModel;->handle:Landroidx/lifecycle/SavedStateHandle;    return-object v0
 .end method
+
 .end class

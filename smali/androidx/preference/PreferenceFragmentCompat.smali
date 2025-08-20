@@ -2460,4 +2460,5 @@ return-void
     invoke-virtual {p0, p1}, Landroidx/preference/PreferenceFragmentCompat;->setPreferenceScreen(Landroidx/preference/PreferenceScreen;)V
 return-void
 .end method
+
 .end class

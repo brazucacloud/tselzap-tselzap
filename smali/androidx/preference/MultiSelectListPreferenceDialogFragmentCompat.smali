@@ -527,4 +527,5 @@ return-void
     invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putCharSequenceArray(Ljava/lang/String;[Ljava/lang/CharSequence;)V
 return-void
 .end method
+
 .end class

@@ -134,4 +134,5 @@ return-void
     invoke-interface {v0, v1, p1}, Landroid/content/DialogInterface$OnClickListener;->onClick(Landroid/content/DialogInterface;I)V
     return-void
 .end method
+
 .end class

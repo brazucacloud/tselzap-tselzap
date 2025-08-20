@@ -57,4 +57,5 @@
     invoke-direct {p0, p1}, Landroidx/privacysandbox/ads/adservices/measurement/MeasurementManagerImplCommon;-><init>(Landroid/adservices/measurement/MeasurementManager;)V
 return-void
 .end method
+
 .end class

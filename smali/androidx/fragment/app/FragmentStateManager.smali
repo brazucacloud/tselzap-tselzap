@@ -5759,4 +5759,5 @@ return-void
     invoke-virtual {v0, v1, v2}, Landroidx/fragment/app/FragmentLifecycleCallbacksDispatcher;->dispatchOnFragmentStopped(Landroidx/fragment/app/Fragment;Z)V
 return-void
 .end method
+
 .end class

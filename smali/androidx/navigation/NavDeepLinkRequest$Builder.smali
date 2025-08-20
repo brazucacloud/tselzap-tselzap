@@ -277,4 +277,5 @@ return-object v0
     .line 6
     iput-object p1, p0, Landroidx/navigation/NavDeepLinkRequest$Builder;->uri:Landroid/net/Uri;    return-object p0
 .end method
+
 .end class

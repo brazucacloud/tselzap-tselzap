@@ -737,4 +737,5 @@ return-void
     invoke-virtual {p0, v0}, Landroidx/transition/Transition;->setPropagation(Landroidx/transition/TransitionPropagation;)V
 return-void
 .end method
+
 .end class

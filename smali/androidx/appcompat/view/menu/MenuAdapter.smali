@@ -469,4 +469,5 @@ return-void
     iput-boolean p1, p0, Landroidx/appcompat/view/menu/MenuAdapter;->mForceShowIcon:Z
 return-void
 .end method
+
 .end class

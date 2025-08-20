@@ -494,4 +494,5 @@ return-object v0
     invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->flush()V
     return-void
 .end method
+
 .end class

@@ -46,4 +46,5 @@ return-void
     invoke-virtual {p0, p1}, Landroid/widget/PopupWindow;->setIsClippedToScreen(Z)V
 return-void
 .end method
+
 .end class

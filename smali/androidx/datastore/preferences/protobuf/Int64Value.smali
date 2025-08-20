@@ -596,4 +596,5 @@ return-void
     .line 1
     iget-wide v0, p0, Landroidx/datastore/preferences/protobuf/Int64Value;->value_:J    return-wide v0
 .end method
+
 .end class

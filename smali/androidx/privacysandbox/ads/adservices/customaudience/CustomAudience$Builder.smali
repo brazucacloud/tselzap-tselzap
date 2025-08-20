@@ -330,4 +330,5 @@ return-object v0
     .line 6
     iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/customaudience/CustomAudience$Builder;->userBiddingSignals:Landroidx/privacysandbox/ads/adservices/common/AdSelectionSignals;    return-object p0
 .end method
+
 .end class

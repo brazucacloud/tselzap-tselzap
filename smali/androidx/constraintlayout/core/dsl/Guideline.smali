@@ -156,4 +156,5 @@
     .line 11
     invoke-interface {v0, v1, p1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;    return-void
 .end method
+
 .end class

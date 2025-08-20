@@ -1181,4 +1181,5 @@ return-void
     invoke-interface {p1, p2, v0}, Landroidx/datastore/preferences/protobuf/Writer;->writeBytes(ILandroidx/datastore/preferences/protobuf/ByteString;)V
 return-void
 .end method
+
 .end class

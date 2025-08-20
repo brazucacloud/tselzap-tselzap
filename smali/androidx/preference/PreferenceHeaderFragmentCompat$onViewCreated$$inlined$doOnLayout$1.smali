@@ -169,4 +169,5 @@
     .line 65
     .line 66
     throw p1.end method
+
 .end class

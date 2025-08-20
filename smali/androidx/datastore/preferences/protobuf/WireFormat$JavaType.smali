@@ -420,4 +420,5 @@
     .line 1
     iget-object v0, p0, Landroidx/datastore/preferences/protobuf/WireFormat$JavaType;->defaultDefault:Ljava/lang/Object;    return-object v0
 .end method
+
 .end class

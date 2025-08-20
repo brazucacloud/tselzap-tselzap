@@ -842,4 +842,5 @@ return-void
     iput-boolean v0, p0, Landroidx/datastore/preferences/protobuf/CodedInputStream;->shouldDiscardUnknownFields:Z
 return-void
 .end method
+
 .end class

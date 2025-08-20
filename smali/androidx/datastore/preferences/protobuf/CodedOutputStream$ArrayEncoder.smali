@@ -2418,4 +2418,5 @@ return-void
     .line 137
     .line 138
     throw p2.end method
+
 .end class

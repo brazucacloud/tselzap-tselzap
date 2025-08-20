@@ -209,4 +209,5 @@
     .line 45
     sget-object p1, Lh1/a;->b:Lh1/a;    return-object p0
 .end method
+
 .end class

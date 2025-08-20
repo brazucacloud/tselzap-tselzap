@@ -384,4 +384,5 @@
     invoke-virtual {p1}, Landroid/app/Dialog;->show()V
     return-void
 .end method
+
 .end class

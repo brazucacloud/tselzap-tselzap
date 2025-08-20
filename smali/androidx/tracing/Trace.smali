@@ -857,4 +857,5 @@ return-void
     invoke-static {v4, p0}, Landroidx/tracing/Trace;->handleException(Ljava/lang/String;Ljava/lang/Exception;)V
 return-void
 .end method
+
 .end class

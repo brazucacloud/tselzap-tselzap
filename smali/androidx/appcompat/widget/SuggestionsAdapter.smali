@@ -3070,4 +3070,5 @@ return-void
     .line 1
     iput p1, p0, Landroidx/appcompat/widget/SuggestionsAdapter;->mQueryRefinement:I    return-void
 .end method
+
 .end class

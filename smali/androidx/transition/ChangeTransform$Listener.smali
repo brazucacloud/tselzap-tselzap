@@ -254,4 +254,5 @@ return-void
     .line 3
     invoke-static {p1}, Landroidx/transition/ChangeTransform;->setIdentityTransforms(Landroid/view/View;)V    return-void
 .end method
+
 .end class

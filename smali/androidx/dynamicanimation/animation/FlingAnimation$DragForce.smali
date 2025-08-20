@@ -305,4 +305,5 @@
     :cond_0
     iget-object p1, p0, Landroidx/dynamicanimation/animation/FlingAnimation$DragForce;->mMassState:Landroidx/dynamicanimation/animation/DynamicAnimation$MassState;    return-object p1
 .end method
+
 .end class

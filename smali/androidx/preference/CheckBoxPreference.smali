@@ -348,4 +348,5 @@ return-void
     .line 4
     invoke-direct {p0, p1}, Landroidx/preference/CheckBoxPreference;->syncViewIfAccessibilityEnabled(Landroid/view/View;)V    return-void
 .end method
+
 .end class

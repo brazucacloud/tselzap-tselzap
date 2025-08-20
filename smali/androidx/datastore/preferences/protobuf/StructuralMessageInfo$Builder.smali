@@ -279,4 +279,5 @@ return-void
     .line 9
     iput-object p1, p0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo$Builder;->syntax:Landroidx/datastore/preferences/protobuf/ProtoSyntax;    return-void
 .end method
+
 .end class

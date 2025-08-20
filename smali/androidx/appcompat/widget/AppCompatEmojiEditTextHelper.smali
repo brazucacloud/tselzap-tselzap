@@ -250,4 +250,5 @@ return-void
     invoke-virtual {v0, p1}, Landroidx/emoji2/viewsintegration/EmojiEditTextHelper;->setEnabled(Z)V
 return-void
 .end method
+
 .end class

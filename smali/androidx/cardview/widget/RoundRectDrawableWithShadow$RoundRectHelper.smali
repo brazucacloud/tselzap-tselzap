@@ -17,4 +17,5 @@
 # virtual methods
 .method public abstract drawRoundRect(Landroid/graphics/Canvas;Landroid/graphics/RectF;FLandroid/graphics/Paint;)V
 .end method
+
 .end class

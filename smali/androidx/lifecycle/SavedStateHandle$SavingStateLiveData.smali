@@ -168,4 +168,5 @@
     :goto_0
     invoke-super {p0, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V    return-void
 .end method
+
 .end class

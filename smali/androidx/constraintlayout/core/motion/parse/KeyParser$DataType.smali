@@ -17,4 +17,5 @@
 # virtual methods
 .method public abstract get(I)I
 .end method
+
 .end class

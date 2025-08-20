@@ -129,4 +129,5 @@ return-object v0
     .line 3
     invoke-virtual {v0}, Landroidx/appcompat/app/AppCompatDelegateImpl;->applyDayNight()Z    return-void
 .end method
+
 .end class

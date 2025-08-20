@@ -61,4 +61,5 @@ return-void
     invoke-virtual {p1}, Landroidx/cursoradapter/widget/CursorAdapter;->onContentChanged()V
     return-void
 .end method
+
 .end class

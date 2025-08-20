@@ -22,4 +22,5 @@
 
 .method public abstract onPreparePanel(I)Z
 .end method
+
 .end class

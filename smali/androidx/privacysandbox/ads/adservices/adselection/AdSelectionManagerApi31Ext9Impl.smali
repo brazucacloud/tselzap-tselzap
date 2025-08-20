@@ -57,4 +57,5 @@
     invoke-direct {p0, p1}, Landroidx/privacysandbox/ads/adservices/adselection/AdSelectionManagerImplCommon;-><init>(Landroid/adservices/adselection/AdSelectionManager;)V
 return-void
 .end method
+
 .end class

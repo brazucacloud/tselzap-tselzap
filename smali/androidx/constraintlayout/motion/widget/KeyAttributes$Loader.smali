@@ -1055,4 +1055,5 @@ return-void
         :pswitch_2
         :pswitch_1
     .end packed-switch.end method
+
 .end class

@@ -1635,4 +1635,5 @@ return-void
     iput-boolean p1, p0, Landroidx/navigation/NavigatorState;->isNavigating:Z
 return-void
 .end method
+
 .end class

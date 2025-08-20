@@ -673,4 +673,5 @@ return-void
     iput-boolean p1, p0, Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;->mCacheSpanIndices:Z
 return-void
 .end method
+
 .end class

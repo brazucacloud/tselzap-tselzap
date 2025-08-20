@@ -455,4 +455,5 @@
     .line 3
     invoke-interface {v0, p1}, Ljava/util/List;->remove(Ljava/lang/Object;)Z    return-void
 .end method
+
 .end class

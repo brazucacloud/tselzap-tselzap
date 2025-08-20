@@ -481,4 +481,5 @@
     invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;-><init>(Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
 return-object v0
 .end method
+
 .end class

@@ -113,4 +113,5 @@
     invoke-interface {v0, p1}, Lg1/d;->resumeWith(Ljava/lang/Object;)V
 return-void
 .end method
+
 .end class

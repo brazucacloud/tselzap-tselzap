@@ -898,4 +898,5 @@ return-void
     invoke-virtual {p0}, Landroid/widget/BaseAdapter;->notifyDataSetInvalidated()V
     return-object v0
 .end method
+
 .end class

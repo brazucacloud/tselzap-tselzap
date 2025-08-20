@@ -3929,4 +3929,5 @@
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
     return-void
 .end method
+
 .end class

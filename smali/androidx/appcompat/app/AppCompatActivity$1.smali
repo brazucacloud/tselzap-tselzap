@@ -66,4 +66,5 @@
     invoke-virtual {v1, v0}, Landroidx/appcompat/app/AppCompatDelegate;->onSaveInstanceState(Landroid/os/Bundle;)V
     return-object v0
 .end method
+
 .end class

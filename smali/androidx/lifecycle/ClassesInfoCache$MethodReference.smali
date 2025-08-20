@@ -294,4 +294,5 @@ return-void
     .line 63
     .line 64
     throw p2.end method
+
 .end class

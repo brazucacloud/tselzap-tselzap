@@ -60,4 +60,5 @@
     .line 4
     invoke-virtual {v0, v1}, Landroid/view/View;->setNestedScrollingEnabled(Z)V    return-void
 .end method
+
 .end class

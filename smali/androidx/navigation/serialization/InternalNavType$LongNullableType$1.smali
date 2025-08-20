@@ -161,4 +161,5 @@ return-void
     invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/serialization/InternalNavType$LongNullableType$1;->put(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/Long;)V
 return-void
 .end method
+
 .end class

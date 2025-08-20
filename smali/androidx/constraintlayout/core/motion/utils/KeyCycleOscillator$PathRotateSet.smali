@@ -103,4 +103,5 @@ return-void
     .line 7
     invoke-virtual {p1, v0, p2}, Landroidx/constraintlayout/core/motion/MotionWidget;->setValue(IF)Z    return-void
 .end method
+
 .end class

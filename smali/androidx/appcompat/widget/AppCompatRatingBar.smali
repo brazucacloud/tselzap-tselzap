@@ -175,4 +175,5 @@ return-void
 
     .line 41
     throw p1.end method
+
 .end class

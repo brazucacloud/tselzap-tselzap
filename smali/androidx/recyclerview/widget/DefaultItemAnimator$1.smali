@@ -144,4 +144,5 @@
     .line 46
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z    return-void
 .end method
+
 .end class

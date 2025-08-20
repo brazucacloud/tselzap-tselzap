@@ -94,4 +94,5 @@ return-void
     invoke-virtual {p1, v0}, Landroidx/loader/content/ModernAsyncTask;->finish(Ljava/lang/Object;)V
 return-void
 .end method
+
 .end class

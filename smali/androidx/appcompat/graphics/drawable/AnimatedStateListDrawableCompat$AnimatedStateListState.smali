@@ -630,4 +630,5 @@ return-object v0
 
     return p1
 .end method
+
 .end class

@@ -54,4 +54,5 @@ return-void
     iput-boolean p1, p0, Landroidx/navigation/PopUpToBuilder;->saveState:Z
 return-void
 .end method
+
 .end class

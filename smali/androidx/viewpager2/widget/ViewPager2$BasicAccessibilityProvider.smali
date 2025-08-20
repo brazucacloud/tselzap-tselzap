@@ -208,4 +208,5 @@
     .line 14
     .line 15
     throw v0.end method
+
 .end class

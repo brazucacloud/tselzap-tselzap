@@ -1084,4 +1084,5 @@ return-object v0
     invoke-direct {v0, p0, v1}, Ljava/lang/String;-><init>([BLjava/nio/charset/Charset;)V
 return-object v0
 .end method
+
 .end class

@@ -182,4 +182,5 @@ return-void
     .line 1
     iput-object p1, p0, Landroidx/constraintlayout/core/state/helpers/BarrierReference;->mDirection:Landroidx/constraintlayout/core/state/State$Direction;    return-void
 .end method
+
 .end class

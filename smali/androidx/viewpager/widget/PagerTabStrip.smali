@@ -1196,4 +1196,5 @@ return-void
     .line 74
     invoke-virtual {p0, v0}, Landroid/view/View;->invalidate(Landroid/graphics/Rect;)V    return-void
 .end method
+
 .end class

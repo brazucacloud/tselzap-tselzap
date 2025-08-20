@@ -66,4 +66,5 @@
     invoke-direct {p2, p1}, Landroid/widget/EdgeEffect;-><init>(Landroid/content/Context;)V
     return-object p2
 .end method
+
 .end class

@@ -1087,4 +1087,5 @@ return-void
     iput-boolean p1, p0, Landroidx/constraintlayout/core/state/Dimension;->mIsSuggested:Z
 return-object p0
 .end method
+
 .end class

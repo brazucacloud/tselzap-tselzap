@@ -140,4 +140,5 @@ return-void
     .line 4
     invoke-static {p1, v0}, Landroidx/transition/ViewGroupUtils;->suppressLayout(Landroid/view/ViewGroup;Z)V    return-void
 .end method
+
 .end class

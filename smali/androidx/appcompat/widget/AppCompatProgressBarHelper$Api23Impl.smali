@@ -146,4 +146,5 @@
     invoke-virtual {p1, p2, p0}, Landroid/graphics/drawable/LayerDrawable;->setLayerInsetEnd(II)V
 return-void
 .end method
+
 .end class

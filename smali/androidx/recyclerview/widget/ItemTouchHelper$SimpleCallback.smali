@@ -120,4 +120,5 @@
     .line 1
     iput p1, p0, Landroidx/recyclerview/widget/ItemTouchHelper$SimpleCallback;->mDefaultSwipeDirs:I    return-void
 .end method
+
 .end class

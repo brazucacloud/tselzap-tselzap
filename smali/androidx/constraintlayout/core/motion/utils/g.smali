@@ -414,4 +414,5 @@
         :pswitch_1
     .end packed-switch
 .end method
+
 .end class

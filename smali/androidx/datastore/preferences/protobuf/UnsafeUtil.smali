@@ -3249,4 +3249,5 @@ return-void
     .line 166
     invoke-virtual {v1, v2, v0}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;)V    return v7
 .end method
+
 .end class

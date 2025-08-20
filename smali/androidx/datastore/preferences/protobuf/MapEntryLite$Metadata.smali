@@ -80,4 +80,5 @@
     .line 10
     iput-object p4, p0, Landroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;->defaultValue:Ljava/lang/Object;    return-void
 .end method
+
 .end class

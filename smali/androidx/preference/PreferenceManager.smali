@@ -1019,4 +1019,5 @@ return-object p1
     :cond_0
     return-void
 .end method
+
 .end class

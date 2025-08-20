@@ -112,4 +112,5 @@
     invoke-virtual {v0, p1}, Ljava/lang/Thread;->setName(Ljava/lang/String;)V
     return-object v0
 .end method
+
 .end class

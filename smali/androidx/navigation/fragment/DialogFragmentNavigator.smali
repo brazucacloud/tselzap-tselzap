@@ -1410,4 +1410,5 @@ return-void
     invoke-direct {p0, v1, p1, p2}, Landroidx/navigation/fragment/DialogFragmentNavigator;->popWithTransition(ILandroidx/navigation/NavBackStackEntry;Z)V
 return-void
 .end method
+
 .end class

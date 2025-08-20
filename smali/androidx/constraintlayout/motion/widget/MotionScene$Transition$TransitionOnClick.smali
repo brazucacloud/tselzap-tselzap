@@ -1011,4 +1011,5 @@ return-void
     .line 36
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V    return-void
 .end method
+
 .end class

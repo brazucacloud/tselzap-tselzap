@@ -47,4 +47,5 @@
     invoke-virtual {v0}, Landroidx/appcompat/widget/ForwardingListener;->onLongPress()V
     return-void
 .end method
+
 .end class

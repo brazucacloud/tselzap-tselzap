@@ -247,4 +247,5 @@ return-void
     .line 98
     .line 99
     throw p0.end method
+
 .end class

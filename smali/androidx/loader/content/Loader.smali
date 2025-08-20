@@ -991,4 +991,5 @@ return-void
     .line 25
     .line 26
     throw p1.end method
+
 .end class

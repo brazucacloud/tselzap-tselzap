@@ -73,4 +73,5 @@
     invoke-direct {p0, p1}, Landroidx/privacysandbox/ads/adservices/topics/TopicsManagerImplCommon;-><init>(Landroid/adservices/topics/TopicsManager;)V
 return-void
 .end method
+
 .end class

@@ -973,4 +973,5 @@
     .line 39
     invoke-interface {p1, p2, p3}, Landroid/view/ViewManager;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V    return-void
 .end method
+
 .end class

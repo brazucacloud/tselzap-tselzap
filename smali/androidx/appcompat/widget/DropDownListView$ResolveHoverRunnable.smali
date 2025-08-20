@@ -84,4 +84,5 @@ return-void
     invoke-virtual {v0}, Landroidx/appcompat/widget/DropDownListView;->drawableStateChanged()V
     return-void
 .end method
+
 .end class

@@ -357,4 +357,5 @@ return-object v0
     invoke-direct {v0, p0, v1}, Landroidx/datastore/preferences/SharedPreferencesMigrationKt$getShouldRunMigration$1;-><init>(Ljava/util/Set;Lg1/d;)V
 return-object v0
 .end method
+
 .end class

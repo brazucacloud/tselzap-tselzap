@@ -135,4 +135,5 @@ return-object v0
     invoke-direct {p4, p0, p1, p2, p3}, Landroidx/collection/LruCacheKt$lruCache$4;-><init>(ILp1/p;Lp1/l;Lp1/r;)V
 return-object p4
 .end method
+
 .end class

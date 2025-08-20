@@ -14,4 +14,5 @@
     invoke-direct {p0, v0}, Ljava/util/concurrent/CancellationException;-><init>(Ljava/lang/String;)V
 return-void
 .end method
+
 .end class

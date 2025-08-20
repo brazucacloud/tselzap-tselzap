@@ -75,4 +75,5 @@
     invoke-virtual {v0, v1}, Landroid/view/Choreographer;->postFrameCallback(Landroid/view/Choreographer$FrameCallback;)V
 return-void
 .end method
+
 .end class

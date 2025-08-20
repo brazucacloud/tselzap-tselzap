@@ -85,4 +85,5 @@
     :cond_0
     invoke-static {p0}, Landroidx/transition/GhostViewPort;->removeGhost(Landroid/view/View;)V    return-void
 .end method
+
 .end class

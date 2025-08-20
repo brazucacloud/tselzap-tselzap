@@ -6,4 +6,5 @@
 # virtual methods
 .method public abstract cancel()V
 .end method
+
 .end class

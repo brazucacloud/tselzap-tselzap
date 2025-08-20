@@ -2174,4 +2174,5 @@
     .line 3
     iput p1, p0, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$Span;->mCachedEnd:I    return-void
 .end method
+
 .end class

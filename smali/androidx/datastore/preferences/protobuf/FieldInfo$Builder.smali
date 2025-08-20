@@ -505,4 +505,5 @@ return-object p0
     .line 1
     iput-object p1, p0, Landroidx/datastore/preferences/protobuf/FieldInfo$Builder;->type:Landroidx/datastore/preferences/protobuf/FieldType;    return-object p0
 .end method
+
 .end class

@@ -17,4 +17,5 @@
 # virtual methods
 .method public abstract doAnimationFrame(J)Z
 .end method
+
 .end class

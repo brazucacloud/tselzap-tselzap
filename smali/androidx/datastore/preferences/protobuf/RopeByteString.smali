@@ -1713,4 +1713,5 @@ return-void
     invoke-virtual {v0, p1}, Landroidx/datastore/preferences/protobuf/ByteString;->writeToReverse(Landroidx/datastore/preferences/protobuf/ByteOutput;)V
 return-void
 .end method
+
 .end class

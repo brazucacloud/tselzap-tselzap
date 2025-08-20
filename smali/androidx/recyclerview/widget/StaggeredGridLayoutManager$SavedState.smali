@@ -456,4 +456,5 @@
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeList(Ljava/util/List;)V
 return-void
 .end method
+
 .end class

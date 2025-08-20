@@ -1149,4 +1149,5 @@ return-object v0
     :cond_9
     return v1
 .end method
+
 .end class

@@ -428,4 +428,5 @@ return-void
     invoke-static {v0, p2, v2, v7}, Landroidx/core/app/ActivityCompat;->startActivityForResult(Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)V
 return-void
 .end method
+
 .end class

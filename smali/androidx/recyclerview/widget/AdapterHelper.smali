@@ -2922,4 +2922,5 @@ return-void
     .line 12
     iput v0, p0, Landroidx/recyclerview/widget/AdapterHelper;->mExistingUpdateTypes:I    return-void
 .end method
+
 .end class

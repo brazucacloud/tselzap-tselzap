@@ -65,4 +65,5 @@
     .line 11
     iput v0, p0, Landroidx/recyclerview/widget/GapWorker$Task;->position:I    return-void
 .end method
+
 .end class

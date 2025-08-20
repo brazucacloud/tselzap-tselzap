@@ -155,4 +155,5 @@ return-object v0
     .line 1
     iput-object p1, p0, Landroidx/privacysandbox/ads/adservices/measurement/WebSourceRegistrationRequest$Builder;->webDestination:Landroid/net/Uri;    return-object p0
 .end method
+
 .end class

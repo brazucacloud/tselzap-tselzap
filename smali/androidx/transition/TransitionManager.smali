@@ -1231,4 +1231,5 @@ return-void
     invoke-static {p1, v0}, Landroidx/transition/TransitionManager;->changeScene(Landroidx/transition/Scene;Landroidx/transition/Transition;)V
 return-void
 .end method
+
 .end class

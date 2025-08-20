@@ -60,4 +60,5 @@
     invoke-virtual {p2, p3, p1}, Landroidx/recyclerview/widget/FastScroller;->updateScrollPosition(II)V
     return-void
 .end method
+
 .end class

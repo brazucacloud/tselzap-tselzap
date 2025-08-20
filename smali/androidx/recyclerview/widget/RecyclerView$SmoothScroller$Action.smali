@@ -473,4 +473,5 @@ return-void
     iput-boolean p1, p0, Landroidx/recyclerview/widget/RecyclerView$SmoothScroller$Action;->mChanged:Z
 return-void
 .end method
+
 .end class

@@ -74,4 +74,5 @@
 
 .method public abstract transformed$graphics_shapes_release(Landroidx/graphics/shapes/PointTransformer;)Landroidx/graphics/shapes/Feature;
 .end method
+
 .end class

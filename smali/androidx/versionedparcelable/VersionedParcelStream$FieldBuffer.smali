@@ -161,4 +161,5 @@
     invoke-virtual {v0, v1}, Ljava/io/ByteArrayOutputStream;->writeTo(Ljava/io/OutputStream;)V
 return-void
 .end method
+
 .end class

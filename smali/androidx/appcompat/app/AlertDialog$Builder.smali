@@ -977,4 +977,5 @@ return-object p0
     invoke-virtual {v0}, Landroid/app/Dialog;->show()V
     return-object v0
 .end method
+
 .end class

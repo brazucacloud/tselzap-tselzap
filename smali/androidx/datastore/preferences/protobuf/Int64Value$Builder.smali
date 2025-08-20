@@ -111,4 +111,5 @@ return-void
     .line 8
     invoke-static {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/Int64Value;->access$100(Landroidx/datastore/preferences/protobuf/Int64Value;J)V    return-object p0
 .end method
+
 .end class

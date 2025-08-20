@@ -44,4 +44,5 @@
     invoke-virtual {v0}, Ljava/lang/Thread;->start()V
     return-void
 .end method
+
 .end class

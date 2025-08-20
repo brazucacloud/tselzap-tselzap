@@ -343,4 +343,5 @@ return-void
     invoke-virtual {v0, v1}, Landroid/os/CancellationSignal;->setOnCancelListener(Landroid/os/CancellationSignal$OnCancelListener;)V
 return-void
 .end method
+
 .end class

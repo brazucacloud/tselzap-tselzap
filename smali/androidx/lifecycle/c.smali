@@ -33,4 +33,5 @@
     invoke-static {v0, p1}, Landroidx/lifecycle/FlowLiveDataConversions$asFlow$1;->a(LB1/r;Ljava/lang/Object;)V
 return-void
 .end method
+
 .end class

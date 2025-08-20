@@ -144,4 +144,5 @@
     .line 12
     invoke-virtual {v0, p1}, Landroidx/navigation/NavDeepLinkRequest$Builder;->setUri(Landroid/net/Uri;)Landroidx/navigation/NavDeepLinkRequest$Builder;    return-object v0
 .end method
+
 .end class
