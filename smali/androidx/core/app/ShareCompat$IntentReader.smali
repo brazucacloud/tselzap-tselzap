@@ -73,7 +73,7 @@
     move-result-object p1
 
     invoke-direct {p0, v0, p1}, Landroidx/core/app/ShareCompat$IntentReader;-><init>(Landroid/content/Context;Landroid/content/Intent;)V
-return-void
+    return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/content/Intent;)V

@@ -215,7 +215,7 @@
 
     .line 4
     invoke-direct {p1, p2}, Lcom/google/android/gms/internal/measurement/zzas;-><init>(Ljava/lang/String;)V
-return-object p1
+    return-object p1
 
     .line 5
     :cond_0

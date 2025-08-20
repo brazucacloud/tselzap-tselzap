@@ -62,7 +62,7 @@
 
     .line 5
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
-return-object v0
+    return-object v0
 
     :catchall_0
     move-exception p1

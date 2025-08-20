@@ -675,7 +675,7 @@ return-object p1
     .line 85
     .line 86
     invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/Struct;-><init>()V
-return-object p1
+    return-object p1
 
     .line 90
     nop

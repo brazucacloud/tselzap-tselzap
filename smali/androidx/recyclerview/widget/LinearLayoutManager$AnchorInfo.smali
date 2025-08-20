@@ -37,7 +37,7 @@
     .line 3
     .line 4
     invoke-virtual {p0}, Landroidx/recyclerview/widget/LinearLayoutManager$AnchorInfo;->reset()V
-return-void
+    return-void
 .end method
 
 

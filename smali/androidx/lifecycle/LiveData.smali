@@ -266,7 +266,7 @@
 
     .line 13
     invoke-virtual {p1, v0}, Landroidx/lifecycle/LiveData$ObserverWrapper;->activeStateChanged(Z)V
-return-void
+    return-void
 
     .line 17
     :cond_1

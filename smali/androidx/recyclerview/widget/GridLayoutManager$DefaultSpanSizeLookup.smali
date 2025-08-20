@@ -20,7 +20,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;-><init>()V
-return-void
+    return-void
 .end method
 
 

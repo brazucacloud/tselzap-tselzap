@@ -341,7 +341,7 @@ return-void
     .line 79
     :goto_0
     invoke-virtual {v0}, Landroidx/lifecycle/LifecycleController;->finish()V
-return-object p1
+    return-object p1
 
     .line 83
     :catchall_1

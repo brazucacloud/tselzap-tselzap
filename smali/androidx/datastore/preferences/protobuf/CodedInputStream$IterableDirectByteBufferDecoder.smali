@@ -133,7 +133,7 @@
     .line 14
     :cond_0
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->tryGetNextByteBuffer()V
-return-void
+    return-void
 .end method
 
 .method public synthetic constructor <init>(Ljava/lang/Iterable;IZLandroidx/datastore/preferences/protobuf/CodedInputStream$1;)V
@@ -182,7 +182,7 @@ return-void
     .line 8
     .line 9
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->tryGetNextByteBuffer()V
-return-void
+    return-void
 
     .line 13
     :cond_0
@@ -913,7 +913,7 @@ return-void
     .line 2
     .line 3
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->recomputeBufferSizeAfterLimit()V
-return-void
+    return-void
 .end method
 
 .method public pushLimit(I)I
@@ -1919,7 +1919,7 @@ return-void
 
     .line 38
     invoke-direct {p0, v0, v1, p1}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readRawBytesTo([BII)V
-return-object v0
+    return-object v0
 
     .line 42
     :cond_1
@@ -4029,7 +4029,7 @@ return-object v0
 
     .line 5
     invoke-virtual {p0, p1, p2, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$IterableDirectByteBufferDecoder;->readGroup(ILandroidx/datastore/preferences/protobuf/MessageLite$Builder;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
-return-void
+    return-void
 .end method
 
 .method public resetSizeCounter()V

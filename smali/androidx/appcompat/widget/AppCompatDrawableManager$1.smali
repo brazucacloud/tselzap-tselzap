@@ -661,7 +661,7 @@ return-object p1
     .line 89
     .line 90
     invoke-direct {p1, v1, v0}, Landroid/content/res/ColorStateList;-><init>([[I[I)V
-return-object p1
+    return-object p1
 .end method
 
 .method private getRatingBarLayerDrawable(Landroidx/appcompat/widget/ResourceManagerInternal;Landroid/content/Context;I)Landroid/graphics/drawable/LayerDrawable;
@@ -1019,7 +1019,7 @@ return-object p3
 
     .line 15
     invoke-virtual {p1, p2}, Landroid/graphics/drawable/Drawable;->setColorFilter(Landroid/graphics/ColorFilter;)V
-return-void
+    return-void
 .end method
 
 

@@ -48,7 +48,7 @@
     move-result-object v0
 
     invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/ManifestSchemaFactory;-><init>(Landroidx/datastore/preferences/protobuf/MessageInfoFactory;)V
-return-void
+    return-void
 .end method
 
 .method private constructor <init>(Landroidx/datastore/preferences/protobuf/MessageInfoFactory;)V
@@ -117,7 +117,7 @@ return-void
     .line 19
     .line 20
     invoke-direct {v0, v3}, Landroidx/datastore/preferences/protobuf/ManifestSchemaFactory$CompositeMessageInfoFactory;-><init>([Landroidx/datastore/preferences/protobuf/MessageInfoFactory;)V
-return-object v0
+    return-object v0
 .end method
 
 .method private static getDescriptorMessageInfoFactory()Landroidx/datastore/preferences/protobuf/MessageInfoFactory;

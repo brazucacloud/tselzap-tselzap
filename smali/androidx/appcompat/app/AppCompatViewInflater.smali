@@ -369,7 +369,7 @@
     .line 72
     :cond_3
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method private checkOnClickListener(Landroid/view/View;Landroid/util/AttributeSet;)V
@@ -925,7 +925,7 @@ return-void
     .line 56
     .line 57
     invoke-direct {p1, p0, p2}, Landroidx/appcompat/view/ContextThemeWrapper;-><init>(Landroid/content/Context;I)V
-return-object p1
+    return-object p1
 
     .line 61
     :cond_3

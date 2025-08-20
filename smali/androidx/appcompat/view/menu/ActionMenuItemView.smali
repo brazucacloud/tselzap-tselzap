@@ -726,7 +726,7 @@
     .line 9
     .line 10
     invoke-direct {p0}, Landroidx/appcompat/view/menu/ActionMenuItemView;->updateTextButtonVisibility()V
-return-void
+    return-void
 .end method
 
 .method public onMeasure(II)V
@@ -1182,7 +1182,7 @@ return-void
     .line 43
     .line 44
     invoke-direct {p0}, Landroidx/appcompat/view/menu/ActionMenuItemView;->updateTextButtonVisibility()V
-return-void
+    return-void
 .end method
 
 .method public setItemInvoker(Landroidx/appcompat/view/menu/MenuBuilder$ItemInvoker;)V
@@ -1225,7 +1225,7 @@ return-void
     .line 2
     .line 3
     invoke-direct {p0}, Landroidx/appcompat/view/menu/ActionMenuItemView;->updateTextButtonVisibility()V
-return-void
+    return-void
 .end method
 
 .method public showsIcon()Z

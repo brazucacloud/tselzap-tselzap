@@ -17,7 +17,7 @@
 
     .line 1
     invoke-direct {p0}, Landroid/app/Service;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static getServiceInfo(Landroid/content/Context;)Landroid/content/pm/ServiceInfo;

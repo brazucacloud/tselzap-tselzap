@@ -78,7 +78,7 @@ return-void
     new-instance v0, Landroid/adservices/common/AdData$Builder;
 
     invoke-direct {v0}, Landroid/adservices/common/AdData$Builder;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method public static bridge synthetic e(Landroid/adservices/common/AdData$Builder;Landroid/net/Uri;)Landroid/adservices/common/AdData$Builder;
@@ -143,7 +143,7 @@ return-object v0
     new-instance v0, Landroid/adservices/customaudience/CustomAudience$Builder;
 
     invoke-direct {v0}, Landroid/adservices/customaudience/CustomAudience$Builder;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method public static bridge synthetic k(Landroid/adservices/customaudience/CustomAudience$Builder;Landroid/adservices/common/AdSelectionSignals;)Landroid/adservices/customaudience/CustomAudience$Builder;
@@ -261,7 +261,7 @@ return-object v0
     new-instance v0, Landroid/adservices/customaudience/JoinCustomAudienceRequest$Builder;
 
     invoke-direct {v0}, Landroid/adservices/customaudience/JoinCustomAudienceRequest$Builder;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method public static synthetic v()Landroid/adservices/customaudience/LeaveCustomAudienceRequest$Builder;
@@ -271,7 +271,7 @@ return-object v0
     new-instance v0, Landroid/adservices/customaudience/LeaveCustomAudienceRequest$Builder;
 
     invoke-direct {v0}, Landroid/adservices/customaudience/LeaveCustomAudienceRequest$Builder;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method public static bridge synthetic w(Landroid/adservices/customaudience/LeaveCustomAudienceRequest$Builder;Landroid/adservices/common/AdTechIdentifier;)Landroid/adservices/customaudience/LeaveCustomAudienceRequest$Builder;
@@ -303,7 +303,7 @@ return-object v0
     new-instance v0, Landroid/adservices/customaudience/TrustedBiddingData$Builder;
 
     invoke-direct {v0}, Landroid/adservices/customaudience/TrustedBiddingData$Builder;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method public static bridge synthetic z()Ljava/lang/Class;

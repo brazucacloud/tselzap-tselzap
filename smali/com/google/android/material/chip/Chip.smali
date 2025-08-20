@@ -7850,7 +7850,7 @@
     .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/google/android/material/chip/Chip;->e()V
-return-void
+    return-void
 .end method
 
 .method public final setCompoundDrawables(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)V
@@ -9412,7 +9412,7 @@ return-void
     .line 11
     :cond_0
     invoke-virtual {p0}, Lcom/google/android/material/chip/Chip;->h()V
-return-void
+    return-void
 .end method
 
 .method public final setTextAppearance(Landroid/content/Context;I)V
@@ -9438,7 +9438,7 @@ return-void
     .line 7
     :cond_0
     invoke-virtual {p0}, Lcom/google/android/material/chip/Chip;->h()V
-return-void
+    return-void
 .end method
 
 .method public setTextAppearance(Lr0/f;)V
@@ -9459,7 +9459,7 @@ return-void
     .line 3
     :cond_0
     invoke-virtual {p0}, Lcom/google/android/material/chip/Chip;->h()V
-return-void
+    return-void
 .end method
 
 .method public setTextAppearanceResource(I)V

@@ -418,7 +418,7 @@ return-void
     .line 2
     .line 3
     invoke-direct {v0, p0}, Landroidx/activity/ComponentActivity$ReportFullyDrawnExecutorApi16Impl;-><init>(Landroidx/activity/ComponentActivity;)V
-return-object v0
+    return-object v0
 .end method
 
 .method private synthetic lambda$new$0()Lc1/v;
@@ -1306,7 +1306,7 @@ return-void
 
     .line 1
     invoke-virtual {p0}, Landroid/app/Activity;->invalidateOptionsMenu()V
-return-void
+    return-void
 .end method
 
 .method public onActivityResult(IILandroid/content/Intent;)V
@@ -1368,7 +1368,7 @@ return-void
 
     .line 5
     invoke-virtual {v0}, Landroidx/activity/OnBackPressedDispatcher;->onBackPressed()V
-return-void
+    return-void
 .end method
 
 .method public onConfigurationChanged(Landroid/content/res/Configuration;)V
@@ -2559,7 +2559,7 @@ return-void
     .line 22
     .line 23
     invoke-static {}, Landroidx/tracing/Trace;->endSection()V
-return-void
+    return-void
 
     .line 27
     :goto_1

@@ -108,7 +108,7 @@ return-void
 
     .line 11
     invoke-virtual {p1, p2, p3}, Landroidx/appcompat/widget/AppCompatEmojiTextHelper;->loadFromAttributes(Landroid/util/AttributeSet;I)V
-return-void
+    return-void
 .end method
 
 .method private getEmojiTextViewHelper()Landroidx/appcompat/widget/AppCompatEmojiTextHelper;
@@ -652,7 +652,7 @@ return-void
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityRecord;->setClassName(Ljava/lang/CharSequence;)V
-return-void
+    return-void
 .end method
 
 .method public onInitializeAccessibilityNodeInfo(Landroid/view/accessibility/AccessibilityNodeInfo;)V
@@ -677,7 +677,7 @@ return-void
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityNodeInfo;->setClassName(Ljava/lang/CharSequence;)V
-return-void
+    return-void
 .end method
 
 .method public onLayout(ZIIII)V
@@ -792,7 +792,7 @@ return-void
 
     .line 8
     invoke-virtual {v0, p1}, Landroidx/appcompat/widget/AppCompatEmojiTextHelper;->setAllCaps(Z)V
-return-void
+    return-void
 .end method
 
 .method public setAutoSizeTextTypeUniformWithConfiguration(IIII)V
@@ -1009,7 +1009,7 @@ return-void
 
     .line 5
     invoke-virtual {v0, p1}, Landroidx/appcompat/widget/AppCompatEmojiTextHelper;->setEnabled(Z)V
-return-void
+    return-void
 .end method
 
 .method public setFilters([Landroid/text/InputFilter;)V
@@ -1037,7 +1037,7 @@ return-void
 
     .line 9
     invoke-super {p0, p1}, Landroid/widget/Button;->setFilters([Landroid/text/InputFilter;)V
-return-void
+    return-void
 .end method
 
 .method public setSupportAllCaps(Z)V
@@ -1148,7 +1148,7 @@ return-void
     .line 7
     .line 8
     invoke-virtual {p1}, Landroidx/appcompat/widget/AppCompatTextHelper;->applyCompoundDrawablesTints()V
-return-void
+    return-void
 .end method
 
 .method public setSupportCompoundDrawablesTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -1178,7 +1178,7 @@ return-void
     .line 7
     .line 8
     invoke-virtual {p1}, Landroidx/appcompat/widget/AppCompatTextHelper;->applyCompoundDrawablesTints()V
-return-void
+    return-void
 .end method
 
 .method public setTextAppearance(Landroid/content/Context;I)V

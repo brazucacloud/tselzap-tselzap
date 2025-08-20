@@ -877,7 +877,7 @@ return-void
     .line 51
     .line 52
     invoke-virtual {p0}, Landroid/widget/BaseAdapter;->notifyDataSetChanged()V
-return-object v0
+    return-object v0
 
     .line 56
     :cond_5
@@ -896,6 +896,6 @@ return-object v0
     .line 61
     .line 62
     invoke-virtual {p0}, Landroid/widget/BaseAdapter;->notifyDataSetInvalidated()V
-return-object v0
+    return-object v0
 .end method
 .end class

@@ -184,7 +184,7 @@
 
     .line 36
     invoke-direct {p0}, Landroidx/recyclerview/widget/StaggeredGridLayoutManager;->createOrientationHelpers()V
-return-void
+    return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
@@ -284,7 +284,7 @@ return-void
 
     .line 19
     invoke-direct {p0}, Landroidx/recyclerview/widget/StaggeredGridLayoutManager;->createOrientationHelpers()V
-return-void
+    return-void
 .end method
 
 .method private appendViewToAllSpans(Landroid/view/View;)V
@@ -3801,7 +3801,7 @@ return-void
 
     .line 6
     invoke-virtual {v0}, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$AnchorInfo;->reset()V
-return-void
+    return-void
 
     .line 7
     :cond_1
@@ -5936,7 +5936,7 @@ return-void
     .line 19
     .line 20
     invoke-virtual {p2, p1, v2}, Ljava/util/BitSet;->set(IZ)V
-return-void
+    return-void
 
     .line 24
     :cond_0
@@ -8491,7 +8491,7 @@ return-object v0
     .line 5
     .line 6
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public isAutoMeasureEnabled()Z
@@ -8747,7 +8747,7 @@ return-void
     .line 24
     :cond_0
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public onFocusSearchFailed(Landroid/view/View;ILandroidx/recyclerview/widget/RecyclerView$Recycler;Landroidx/recyclerview/widget/RecyclerView$State;)Landroid/view/View;
@@ -9553,7 +9553,7 @@ return-void
 
     .line 41
     invoke-virtual {p4, p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setCollectionItemInfo(Ljava/lang/Object;)V
-return-void
+    return-void
 
     .line 45
     :cond_2
@@ -9609,7 +9609,7 @@ return-void
 
     .line 66
     invoke-virtual {p4, p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setCollectionItemInfo(Ljava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method public onItemsAdded(Landroidx/recyclerview/widget/RecyclerView;II)V
@@ -9637,7 +9637,7 @@ return-void
     .line 5
     .line 6
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public onItemsMoved(Landroidx/recyclerview/widget/RecyclerView;III)V
@@ -9721,7 +9721,7 @@ return-void
     .line 15
     .line 16
     invoke-virtual {p1}, Landroidx/recyclerview/widget/StaggeredGridLayoutManager$AnchorInfo;->reset()V
-return-void
+    return-void
 .end method
 
 .method public onRestoreInstanceState(Landroid/os/Parcelable;)V
@@ -10352,7 +10352,7 @@ return-object v0
     .line 17
     .line 18
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public scrollToPositionWithOffset(II)V
@@ -10382,7 +10382,7 @@ return-void
     .line 11
     .line 12
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public scrollVerticallyBy(ILandroidx/recyclerview/widget/RecyclerView$Recycler;Landroidx/recyclerview/widget/RecyclerView$State;)I
@@ -10457,7 +10457,7 @@ return-void
     .line 25
     .line 26
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setMeasuredDimension(Landroid/graphics/Rect;II)V
@@ -10711,7 +10711,7 @@ return-void
     .line 33
     .line 34
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setReverseLayout(Z)V
@@ -10752,7 +10752,7 @@ return-void
     .line 16
     .line 17
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setSpanCount(I)V

@@ -26,7 +26,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/preference/PreferenceDialogFragment;-><init>()V
-return-void
+    return-void
 .end method
 
 .method private getEditTextPreference()Landroidx/preference/EditTextPreference;
@@ -179,7 +179,7 @@ return-object v0
 
     .line 37
     invoke-virtual {p1, v0}, Landroid/widget/EditText;->setSelection(I)V
-return-void
+    return-void
 
     .line 41
     :cond_0

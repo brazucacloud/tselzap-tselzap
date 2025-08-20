@@ -59,7 +59,7 @@
     .line 14
     .line 15
     invoke-virtual {p0}, Landroidx/appcompat/view/menu/MenuAdapter;->findExpandedIndex()V
-return-void
+    return-void
 .end method
 
 

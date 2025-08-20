@@ -800,7 +800,7 @@ return-void
     new-instance v0, Landroidx/navigation/fragment/DialogFragmentNavigator$Destination;
 
     invoke-direct {v0, p0}, Landroidx/navigation/fragment/DialogFragmentNavigator$Destination;-><init>(Landroidx/navigation/Navigator;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public final getBackStack$navigation_fragment_release()LC1/A;
@@ -1228,7 +1228,7 @@ return-void
 
     .line 85
     invoke-virtual {v0, p1}, Landroidx/navigation/NavigatorState;->onLaunchSingleTopWithTransition(Landroidx/navigation/NavBackStackEntry;)V
-return-void
+    return-void
 .end method
 
 .method public popBackStack(Landroidx/navigation/NavBackStackEntry;Z)V

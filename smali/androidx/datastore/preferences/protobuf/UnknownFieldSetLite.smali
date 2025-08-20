@@ -420,7 +420,7 @@ return-object p0
     .line 2
     .line 3
     invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method private static writeField(ILjava/lang/Object;Landroidx/datastore/preferences/protobuf/Writer;)V
@@ -488,7 +488,7 @@ return-object v0
 
     .line 29
     invoke-interface {p2, v0, p0}, Landroidx/datastore/preferences/protobuf/Writer;->writeFixed32(II)V
-return-void
+    return-void
 
     .line 33
     :cond_0
@@ -589,7 +589,7 @@ return-void
 
     .line 87
     invoke-interface {p2, v0, p0, p1}, Landroidx/datastore/preferences/protobuf/Writer;->writeFixed64(IJ)V
-return-void
+    return-void
 
     .line 91
     :cond_5
@@ -606,7 +606,7 @@ return-void
 
     .line 97
     invoke-interface {p2, v0, p0, p1}, Landroidx/datastore/preferences/protobuf/Writer;->writeInt64(IJ)V
-return-void
+    return-void
 .end method
 
 

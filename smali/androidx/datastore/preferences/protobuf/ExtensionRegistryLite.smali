@@ -256,7 +256,7 @@
     .line 11
     .line 12
     invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method public static resolveExtensionClass()Ljava/lang/Class;

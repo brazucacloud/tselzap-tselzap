@@ -252,7 +252,7 @@ return-void
     move-result-object v1
 
     invoke-direct {p0, v0, v1, p2, p1}, Landroidx/appcompat/app/AppCompatDelegateImpl;-><init>(Landroid/content/Context;Landroid/view/Window;Landroidx/appcompat/app/AppCompatCallback;Ljava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/app/Activity;Landroidx/appcompat/app/AppCompatCallback;)V
@@ -389,7 +389,7 @@ return-void
     .line 21
     :cond_2
     invoke-static {}, Landroidx/appcompat/widget/AppCompatDrawableManager;->preload()V
-return-void
+    return-void
 .end method
 
 .method private applyApplicationSpecificConfig(Z)Z
@@ -780,7 +780,7 @@ return-void
     .line 125
     .line 126
     invoke-virtual {v0}, Landroid/view/View;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method private attachToWindow(Landroid/view/Window;)V
@@ -3943,7 +3943,7 @@ return-object v0
     .line 49
     .line 50
     invoke-virtual {p0, p1, v1}, Landroidx/appcompat/app/AppCompatDelegateImpl;->closePanel(Landroidx/appcompat/app/AppCompatDelegateImpl$PanelFeatureState;Z)V
-return-void
+    return-void
 
     .line 54
     :cond_2
@@ -4334,7 +4334,7 @@ return-void
     .line 239
     .line 240
     invoke-virtual {p0}, Landroidx/appcompat/app/AppCompatDelegateImpl;->updateBackInvokedCallbackState()V
-return-void
+    return-void
 
     .line 244
     :cond_d
@@ -5058,7 +5058,7 @@ return-void
     .line 64
     .line 65
     invoke-interface {v0, v4, p1}, Landroid/view/Window$Callback;->onPanelClosed(ILandroid/view/Menu;)V
-return-void
+    return-void
 
     .line 69
     :cond_2
@@ -5495,7 +5495,7 @@ return-void
     .line 27
     .line 28
     invoke-virtual {v0, p1}, Landroid/app/Activity;->onConfigurationChanged(Landroid/content/res/Configuration;)V
-return-void
+    return-void
 
     .line 32
     :cond_0
@@ -6268,7 +6268,7 @@ return-void
 
     .line 26
     invoke-virtual {p1, p2}, Landroidx/appcompat/app/AppCompatDelegateImpl$AppCompatWindowCallback;->bypassOnContentChanged(Landroid/view/Window$Callback;)V
-return-void
+    return-void
 .end method
 
 .method public applyAppLocales()Z
@@ -8555,7 +8555,7 @@ return-object v0
     .line 12
     .line 13
     invoke-static {v0, p0}, Landroidx/core/view/LayoutInflaterCompat;->setFactory2(Landroid/view/LayoutInflater;Landroid/view/LayoutInflater$Factory2;)V
-return-void
+    return-void
 
     .line 17
     :cond_0
@@ -9341,7 +9341,7 @@ return-void
     .line 92
     :cond_3
     invoke-direct {p0}, Landroidx/appcompat/app/AppCompatDelegateImpl;->cleanupAutoManagers()V
-return-void
+    return-void
 .end method
 
 .method public onKeyDown(ILandroid/view/KeyEvent;)Z
@@ -9776,7 +9776,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/appcompat/app/AppCompatDelegateImpl;->ensureSubDecor()V
-return-void
+    return-void
 .end method
 
 .method public onPostResume()V
@@ -10116,7 +10116,7 @@ return-void
     move-result-object v0
 
     invoke-virtual {p1, v0}, Landroidx/appcompat/app/AppCompatDelegateImpl$AppCompatWindowCallback;->bypassOnContentChanged(Landroid/view/Window$Callback;)V
-return-void
+    return-void
 .end method
 
 .method public setContentView(Landroid/view/View;)V
@@ -10152,7 +10152,7 @@ return-void
     move-result-object v0
 
     invoke-virtual {p1, v0}, Landroidx/appcompat/app/AppCompatDelegateImpl$AppCompatWindowCallback;->bypassOnContentChanged(Landroid/view/Window$Callback;)V
-return-void
+    return-void
 .end method
 
 .method public setContentView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
@@ -10188,7 +10188,7 @@ return-void
     move-result-object p2
 
     invoke-virtual {p1, p2}, Landroidx/appcompat/app/AppCompatDelegateImpl$AppCompatWindowCallback;->bypassOnContentChanged(Landroid/view/Window$Callback;)V
-return-void
+    return-void
 .end method
 
 .method public setDefaultLocalesForLocaleList(Landroidx/core/os/LocaleListCompat;)V
@@ -10375,7 +10375,7 @@ return-void
     .line 47
     :goto_0
     invoke-virtual {p0}, Landroidx/appcompat/app/AppCompatDelegateImpl;->updateBackInvokedCallbackState()V
-return-void
+    return-void
 .end method
 
 .method public setSupportActionBar(Landroidx/appcompat/widget/Toolbar;)V
@@ -10496,7 +10496,7 @@ return-void
     .line 58
     :goto_0
     invoke-virtual {p0}, Landroidx/appcompat/app/AppCompatDelegateImpl;->invalidateOptionsMenu()V
-return-void
+    return-void
 
     .line 62
     :cond_3
@@ -10568,7 +10568,7 @@ return-void
 
     .line 21
     invoke-virtual {v0, p1}, Landroidx/appcompat/app/ActionBar;->setWindowTitle(Ljava/lang/CharSequence;)V
-return-void
+    return-void
 
     .line 25
     :cond_1

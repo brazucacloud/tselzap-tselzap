@@ -143,7 +143,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$StringSet;->clearStrings()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$2800(Landroidx/datastore/preferences/PreferencesProto$StringSet;Landroidx/datastore/preferences/protobuf/ByteString;)V
@@ -734,7 +734,7 @@ return-object p1
     .line 80
     .line 81
     invoke-direct {p1}, Landroidx/datastore/preferences/PreferencesProto$StringSet;-><init>()V
-return-object p1
+    return-object p1
 
     .line 85
     :pswitch_data_0

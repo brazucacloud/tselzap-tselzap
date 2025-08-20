@@ -122,7 +122,7 @@ return-void
     .line 31
     .line 32
     invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/FastScroller;->setState(I)V
-return-void
+    return-void
 
     .line 36
     :cond_1
@@ -138,6 +138,6 @@ return-void
     .line 40
     .line 41
     invoke-virtual {p1}, Landroidx/recyclerview/widget/FastScroller;->requestRedraw()V
-return-void
+    return-void
 .end method
 .end class

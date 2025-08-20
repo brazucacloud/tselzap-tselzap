@@ -323,7 +323,7 @@ return-object v0
     const/4 v2, 0x0
 
     invoke-direct {v0, v2, p0, v1}, Landroidx/core/content/res/ComplexColorCompat;-><init>(Landroid/graphics/Shader;Landroid/content/res/ColorStateList;I)V
-return-object v0
+    return-object v0
 .end method
 
 .method public static from(Landroid/graphics/Shader;)Landroidx/core/content/res/ComplexColorCompat;

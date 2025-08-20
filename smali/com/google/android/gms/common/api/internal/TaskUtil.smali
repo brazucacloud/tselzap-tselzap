@@ -13,7 +13,7 @@
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static setResultOrApiException(Lcom/google/android/gms/common/api/Status;Lcom/google/android/gms/tasks/TaskCompletionSource;)V
@@ -84,7 +84,7 @@ return-void
 
     .line 3
     invoke-virtual {p2, p1}, Lcom/google/android/gms/tasks/TaskCompletionSource;->setResult(Ljava/lang/Object;)V
-return-void
+    return-void
 
     .line 4
     :cond_0

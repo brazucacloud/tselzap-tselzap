@@ -31,7 +31,7 @@
     .line 2
     .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -102,6 +102,6 @@ return-void
     .line 31
     .line 32
     invoke-virtual {p1}, Landroidx/recyclerview/widget/FastScroller;->requestRedraw()V
-return-void
+    return-void
 .end method
 .end class

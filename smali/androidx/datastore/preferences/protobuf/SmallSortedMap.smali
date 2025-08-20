@@ -119,7 +119,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->checkMutable()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$600(Landroidx/datastore/preferences/protobuf/SmallSortedMap;)Ljava/util/List;
@@ -503,7 +503,7 @@ return-void
     .line 2
     .line 3
     invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap$1;-><init>(I)V
-return-object v0
+    return-object v0
 .end method
 
 .method public static newInstanceForTest(I)Landroidx/datastore/preferences/protobuf/SmallSortedMap;

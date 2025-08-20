@@ -684,7 +684,7 @@ return-object p1
     .line 85
     .line 86
     invoke-direct {p1}, Landroidx/datastore/preferences/PreferencesProto$PreferenceMap;-><init>()V
-return-object p1
+    return-object p1
 
     .line 90
     nop

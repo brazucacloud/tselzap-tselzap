@@ -770,6 +770,6 @@ return-void
 
     .line 1
     invoke-virtual {p0}, Landroidx/constraintlayout/core/widgets/VirtualLayout;->captureWidgets()V
-return-void
+    return-void
 .end method
 .end class

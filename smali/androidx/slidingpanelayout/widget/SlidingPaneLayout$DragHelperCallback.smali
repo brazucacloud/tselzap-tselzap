@@ -28,7 +28,7 @@
     .line 2
     .line 3
     invoke-direct {p0}, Landroidx/customview/widget/ViewDragHelper$Callback;-><init>()V
-return-void
+    return-void
 .end method
 
 .method private isDraggable()Z
@@ -408,7 +408,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p1}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->setAllChildrenVisible()V
-return-void
+    return-void
 .end method
 
 .method public onViewDragStateChanged(I)V
@@ -531,7 +531,7 @@ return-void
     .line 7
     .line 8
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
-return-void
+    return-void
 .end method
 
 .method public onViewReleased(Landroid/view/View;FF)V
@@ -762,7 +762,7 @@ return-void
     .line 105
     .line 106
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
-return-void
+    return-void
 .end method
 
 .method public tryCaptureView(Landroid/view/View;I)Z

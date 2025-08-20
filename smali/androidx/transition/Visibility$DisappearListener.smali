@@ -186,7 +186,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/transition/Visibility$DisappearListener;->hideViewWhenNotCanceled()V
-return-void
+    return-void
 .end method
 
 .method public onAnimationEnd(Landroid/animation/Animator;Z)V

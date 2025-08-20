@@ -236,7 +236,7 @@ return-void
 
     .line 1
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
-return-void
+    return-void
 .end method
 
 .method public isAutoMirrored()Z
@@ -284,7 +284,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->jumpToCurrentState()V
-return-void
+    return-void
 .end method
 
 .method public onBoundsChange(Landroid/graphics/Rect;)V

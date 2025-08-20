@@ -718,7 +718,7 @@ return-void
     .line 10
     .line 11
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
-return-void
+    return-void
 .end method
 
 .method private clearBackStackStateViewModels()V
@@ -4930,7 +4930,7 @@ return-void
     .line 41
     :goto_0
     invoke-virtual {v0, v2}, Landroidx/activity/OnBackPressedCallback;->setEnabled(Z)V
-return-void
+    return-void
 
     .line 45
     :goto_1
@@ -6070,7 +6070,7 @@ return-void
     .line 2
     .line 3
     invoke-direct {v0, p0}, Landroidx/fragment/app/BackStackRecord;-><init>(Landroidx/fragment/app/FragmentManager;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public checkForMenus()Z
@@ -9302,7 +9302,7 @@ return-void
     .line 51
     .line 52
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentStore;->burpActive()V
-return-void
+    return-void
 .end method
 
 .method public executePendingTransactions()Z
@@ -9873,7 +9873,7 @@ return-void
     .line 18
     .line 19
     invoke-virtual {v0}, Landroidx/activity/OnBackPressedDispatcher;->onBackPressed()V
-return-void
+    return-void
 .end method
 
 .method public hideFragment(Landroidx/fragment/app/Fragment;)V
@@ -10591,7 +10591,7 @@ return-void
     .line 127
     .line 128
     invoke-virtual {p1, p2}, Landroidx/activity/result/ActivityResultLauncher;->launch(Ljava/lang/Object;)V
-return-void
+    return-void
 
     .line 132
     :cond_4
@@ -15248,7 +15248,7 @@ return-void
     .line 79
     :cond_2
     invoke-virtual {p2, v0}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
-return-void
+    return-void
 .end method
 
 .method public setMaxLifecycle(Landroidx/fragment/app/Fragment;Landroidx/lifecycle/Lifecycle$State;)V

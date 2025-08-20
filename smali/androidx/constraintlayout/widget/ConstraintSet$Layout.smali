@@ -4174,7 +4174,7 @@ return-void
     .line 751
     :cond_0
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 
     .line 755
     :pswitch_data_0

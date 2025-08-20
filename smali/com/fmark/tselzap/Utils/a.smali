@@ -22,7 +22,7 @@
     iput-object p1, p0, Lcom/fmark/tselzap/Utils/a;->b:Landroid/widget/LinearLayout;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 

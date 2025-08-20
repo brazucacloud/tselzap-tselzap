@@ -627,7 +627,7 @@ return-void
 
     .line 7
     invoke-virtual {p0, v5}, Landroidx/collection/ArraySet;->set_size$collection(I)V
-return-void
+    return-void
 
     .line 8
     :cond_0
@@ -1288,7 +1288,7 @@ return-void
     .line 2
     .line 3
     invoke-direct {v0, p0}, Landroidx/collection/ArraySet$ElementIterator;-><init>(Landroidx/collection/ArraySet;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public remove(Ljava/lang/Object;)Z
@@ -1465,7 +1465,7 @@ return-object v0
     .line 13
     .line 14
     invoke-virtual {p0}, Landroidx/collection/ArraySet;->clear()V
-return-object v1
+    return-object v1
 
     .line 18
     :cond_0
@@ -1755,7 +1755,7 @@ return-object v1
     .line 153
     .line 154
     invoke-virtual {p0, v3}, Landroidx/collection/ArraySet;->set_size$collection(I)V
-return-object v1
+    return-object v1
 
     .line 158
     :cond_6

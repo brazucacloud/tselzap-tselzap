@@ -80,7 +80,7 @@
 
     .line 22
     invoke-virtual {v0}, Ljava/io/InputStream;->close()V
-return-object p0
+    return-object p0
 
     :goto_1
     if-eqz v0, :cond_1
@@ -215,7 +215,7 @@ return-object p0
     const-string p4, "Failed to parse URL. Not uploading MeasurementBatch. appId"
 
     invoke-virtual {p1, p4, p3, p2}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method public final bridge synthetic zzb()Lcom/google/android/gms/common/util/Clock;

@@ -34,7 +34,7 @@
     .line 2
     .line 3
     invoke-direct {p0}, Landroid/database/DataSetObserver;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -135,7 +135,7 @@ return-void
 
     .line 38
     invoke-virtual {v0, v2, v1, v3}, Landroidx/viewpager/widget/PagerTitleStrip;->updateTextPositions(IFZ)V
-return-void
+    return-void
 .end method
 
 .method public onPageScrollStateChanged(I)V

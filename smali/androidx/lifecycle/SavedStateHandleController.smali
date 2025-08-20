@@ -111,7 +111,7 @@
 
     .line 29
     invoke-virtual {p1, p2, v0}, Landroidx/savedstate/SavedStateRegistry;->registerSavedStateProvider(Ljava/lang/String;Landroidx/savedstate/SavedStateRegistry$SavedStateProvider;)V
-return-void
+    return-void
 
     .line 33
     :cond_0

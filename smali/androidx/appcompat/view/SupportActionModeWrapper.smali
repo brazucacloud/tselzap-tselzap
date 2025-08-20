@@ -51,7 +51,7 @@
     .line 2
     .line 3
     invoke-virtual {v0}, Landroidx/appcompat/view/ActionMode;->finish()V
-return-void
+    return-void
 .end method
 
 .method public getCustomView()Landroid/view/View;
@@ -101,7 +101,7 @@ return-void
     .line 12
     .line 13
     invoke-direct {v0, v1, v2}, Landroidx/appcompat/view/menu/MenuWrapperICS;-><init>(Landroid/content/Context;Landroidx/core/internal/view/SupportMenu;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public getMenuInflater()Landroid/view/MenuInflater;
@@ -203,7 +203,7 @@ return-object v0
     .line 2
     .line 3
     invoke-virtual {v0}, Landroidx/appcompat/view/ActionMode;->invalidate()V
-return-void
+    return-void
 .end method
 
 .method public isTitleOptional()Z

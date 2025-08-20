@@ -789,7 +789,7 @@ return-void
     .line 42
     .line 43
     invoke-direct {p0, p1, v0, p2}, Landroidx/fragment/app/SpecialEffectsController;->enqueue(Landroidx/fragment/app/SpecialEffectsController$Operation$State;Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;Landroidx/fragment/app/FragmentStateManager;)V
-return-void
+    return-void
 .end method
 
 .method public final enqueueHide(Landroidx/fragment/app/FragmentStateManager;)V
@@ -873,7 +873,7 @@ return-void
     .line 39
     .line 40
     invoke-direct {p0, v0, v1, p1}, Landroidx/fragment/app/SpecialEffectsController;->enqueue(Landroidx/fragment/app/SpecialEffectsController$Operation$State;Landroidx/fragment/app/SpecialEffectsController$Operation$LifecycleImpact;Landroidx/fragment/app/FragmentStateManager;)V
-return-void
+    return-void
 .end method
 
 .method public final enqueueRemove(Landroidx/fragment/app/FragmentStateManager;)V

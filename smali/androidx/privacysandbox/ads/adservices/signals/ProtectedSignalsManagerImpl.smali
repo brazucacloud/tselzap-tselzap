@@ -111,7 +111,7 @@
     .line 17
     .line 18
     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-return-object p1
+    return-object p1
 .end method
 
 .method public static updateSignals$suspendImpl(Landroidx/privacysandbox/ads/adservices/signals/ProtectedSignalsManagerImpl;Landroidx/privacysandbox/ads/adservices/signals/UpdateSignalsRequest;Lg1/d;)Ljava/lang/Object;

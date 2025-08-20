@@ -68,7 +68,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Landroidx/collection/MutableScatterMap;->clear()V
-return-void
+    return-void
 .end method
 
 .method public getEntries()Ljava/util/Set;

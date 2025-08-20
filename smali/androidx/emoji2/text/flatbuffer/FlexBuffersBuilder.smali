@@ -2567,7 +2567,7 @@ return-void
     move-result-wide v1
 
     invoke-direct {p0, v0, v1, v2}, Landroidx/emoji2/text/flatbuffer/FlexBuffersBuilder;->putUInt64(Ljava/lang/String;J)V
-return-void
+    return-void
 .end method
 
 .method public startMap()I

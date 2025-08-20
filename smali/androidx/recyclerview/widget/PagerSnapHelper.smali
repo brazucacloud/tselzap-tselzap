@@ -25,7 +25,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/SnapHelper;-><init>()V
-return-void
+    return-void
 .end method
 
 .method private distanceToCenter(Landroid/view/View;Landroidx/recyclerview/widget/OrientationHelper;)I
@@ -613,7 +613,7 @@ return-void
 
     .line 15
     invoke-direct {p1, p0, v0}, Landroidx/recyclerview/widget/PagerSnapHelper$1;-><init>(Landroidx/recyclerview/widget/PagerSnapHelper;Landroid/content/Context;)V
-return-object p1
+    return-object p1
 .end method
 
 .method public findSnapView(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;)Landroid/view/View;

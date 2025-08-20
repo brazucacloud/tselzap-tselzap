@@ -20,7 +20,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$EdgeEffectFactory;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -48,6 +48,6 @@ return-void
 
     .line 7
     invoke-direct {p2, p1}, Landroid/widget/EdgeEffect;-><init>(Landroid/content/Context;)V
-return-object p2
+    return-object p2
 .end method
 .end class

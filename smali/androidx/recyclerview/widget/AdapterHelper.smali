@@ -2351,7 +2351,7 @@ return-void
     .line 12
     .line 13
     invoke-direct {v0, p1, p2, p3, p4}, Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;-><init>(IIILjava/lang/Object;)V
-return-object v0
+    return-object v0
 
     .line 17
     :cond_0
@@ -2803,7 +2803,7 @@ return-object v0
     .line 67
     .line 68
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
-return-void
+    return-void
 .end method
 
 .method public recycleUpdateOp(Landroidx/recyclerview/widget/AdapterHelper$UpdateOp;)V

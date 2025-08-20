@@ -42,7 +42,7 @@
     .line 4
     .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -56,6 +56,6 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Landroidx/fragment/app/SpecialEffectsController;->executePendingOperations()V
-return-void
+    return-void
 .end method
 .end class

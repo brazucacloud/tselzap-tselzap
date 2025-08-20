@@ -114,7 +114,7 @@
     .line 48
     .line 49
     invoke-virtual {p0}, Landroidx/lifecycle/LifecycleController;->finish()V
-return-void
+    return-void
 
     .line 53
     :cond_0
@@ -144,7 +144,7 @@ return-void
     .line 4
     .line 5
     invoke-virtual {p0}, Landroidx/lifecycle/LifecycleController;->finish()V
-return-void
+    return-void
 .end method
 
 .method private static final observer$lambda$0(Landroidx/lifecycle/LifecycleController;Lz1/V;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
@@ -220,7 +220,7 @@ return-void
     .line 36
     .line 37
     invoke-virtual {p0}, Landroidx/lifecycle/LifecycleController;->finish()V
-return-void
+    return-void
 
     .line 41
     :cond_0
@@ -261,7 +261,7 @@ return-void
     .line 58
     .line 59
     invoke-virtual {p0}, Landroidx/lifecycle/DispatchQueue;->pause()V
-return-void
+    return-void
 
     .line 63
     :cond_1
@@ -270,7 +270,7 @@ return-void
     .line 64
     .line 65
     invoke-virtual {p0}, Landroidx/lifecycle/DispatchQueue;->resume()V
-return-void
+    return-void
 .end method
 
 
@@ -299,6 +299,6 @@ return-void
     .line 9
     .line 10
     invoke-virtual {v0}, Landroidx/lifecycle/DispatchQueue;->finish()V
-return-void
+    return-void
 .end method
 .end class

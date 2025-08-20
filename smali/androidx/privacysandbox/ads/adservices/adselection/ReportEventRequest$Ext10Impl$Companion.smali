@@ -20,7 +20,7 @@
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public synthetic constructor <init>(Lkotlin/jvm/internal/e;)V
@@ -28,7 +28,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/privacysandbox/ads/adservices/adselection/ReportEventRequest$Ext10Impl$Companion;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -120,6 +120,6 @@ return-void
     .line 42
     .line 43
     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-return-object p1
+    return-object p1
 .end method
 .end class

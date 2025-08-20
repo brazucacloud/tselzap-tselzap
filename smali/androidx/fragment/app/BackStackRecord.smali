@@ -784,7 +784,7 @@ return-void
 
     .line 7
     invoke-virtual {v0, p0, v1}, Landroidx/fragment/app/FragmentManager;->execSingleAction(Landroidx/fragment/app/FragmentManager$OpGenerator;Z)V
-return-void
+    return-void
 .end method
 
 .method public commitNowAllowingStateLoss()V
@@ -804,7 +804,7 @@ return-void
 
     .line 7
     invoke-virtual {v0, p0, v1}, Landroidx/fragment/app/FragmentManager;->execSingleAction(Landroidx/fragment/app/FragmentManager$OpGenerator;Z)V
-return-void
+    return-void
 .end method
 
 .method public detach(Landroidx/fragment/app/Fragment;)Landroidx/fragment/app/FragmentTransaction;

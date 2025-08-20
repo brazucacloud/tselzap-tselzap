@@ -9,7 +9,7 @@
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static emptyBooleanList()Landroidx/datastore/preferences/protobuf/Internal$BooleanList;
@@ -164,7 +164,7 @@ return-void
     .line 2
     .line 3
     invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/BooleanArrayList;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method public static newDoubleList()Landroidx/datastore/preferences/protobuf/Internal$DoubleList;
@@ -176,7 +176,7 @@ return-object v0
     .line 2
     .line 3
     invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/DoubleArrayList;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method public static newFloatList()Landroidx/datastore/preferences/protobuf/Internal$FloatList;
@@ -188,7 +188,7 @@ return-object v0
     .line 2
     .line 3
     invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/FloatArrayList;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method public static newIntList()Landroidx/datastore/preferences/protobuf/Internal$IntList;
@@ -200,7 +200,7 @@ return-object v0
     .line 2
     .line 3
     invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/IntArrayList;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method public static newLongList()Landroidx/datastore/preferences/protobuf/Internal$LongList;
@@ -212,6 +212,6 @@ return-object v0
     .line 2
     .line 3
     invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/LongArrayList;-><init>()V
-return-object v0
+    return-object v0
 .end method
 .end class

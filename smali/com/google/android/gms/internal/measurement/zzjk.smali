@@ -227,7 +227,7 @@
     move-result v1
 
     invoke-direct {p2, v0, v1, p1}, Lcom/google/android/gms/internal/measurement/zzjd;-><init>([BII)V
-return-object p2
+    return-object p2
 .end method
 
 .method public final zza(Lcom/google/android/gms/internal/measurement/zzja;)V
@@ -245,7 +245,7 @@ return-object p2
     move-result v2
 
     invoke-virtual {p1, v0, v1, v2}, Lcom/google/android/gms/internal/measurement/zzja;->zza([BII)V
-return-void
+    return-void
 .end method
 
 .method public final zza(Lcom/google/android/gms/internal/measurement/zziz;II)Z

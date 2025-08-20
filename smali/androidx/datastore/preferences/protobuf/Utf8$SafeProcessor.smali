@@ -20,7 +20,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Utf8$Processor;-><init>()V
-return-void
+    return-void
 .end method
 
 .method private static partialIsValidUtf8([BII)I
@@ -659,7 +659,7 @@ return-void
     .line 158
     .line 159
     invoke-direct {p1, v9, v0, v10}, Ljava/lang/String;-><init>([CII)V
-return-object p1
+    return-object p1
 
     .line 163
     :cond_b

@@ -44,7 +44,7 @@
     .line 7
     .line 8
     invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->makeImmutable()V
-return-void
+    return-void
 .end method
 
 .method private constructor <init>()V
@@ -753,7 +753,7 @@ return-void
     .line 8
     .line 9
     invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;-><init>()V
-return-object v0
+    return-object v0
 
     .line 13
     :cond_0

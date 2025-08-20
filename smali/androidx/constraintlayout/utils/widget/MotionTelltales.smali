@@ -603,7 +603,7 @@ return-void
     .line 3
     .line 4
     invoke-virtual {p0}, Landroid/view/View;->postInvalidate()V
-return-void
+    return-void
 .end method
 
 .method public setText(Ljava/lang/CharSequence;)V
@@ -623,6 +623,6 @@ return-void
     .line 6
     .line 7
     invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
-return-void
+    return-void
 .end method
 .end class

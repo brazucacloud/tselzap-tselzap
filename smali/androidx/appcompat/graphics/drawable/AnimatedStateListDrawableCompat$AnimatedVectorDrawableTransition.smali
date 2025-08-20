@@ -45,7 +45,7 @@
     .line 2
     .line 3
     invoke-virtual {v0}, Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat;->start()V
-return-void
+    return-void
 .end method
 
 .method public stop()V
@@ -57,6 +57,6 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat;->stop()V
-return-void
+    return-void
 .end method
 .end class

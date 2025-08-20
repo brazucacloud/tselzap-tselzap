@@ -222,7 +222,7 @@
 
     .line 12
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method private captureValues(Landroidx/transition/TransitionValues;)V

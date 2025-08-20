@@ -32,7 +32,7 @@
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -202,7 +202,7 @@ return-void
 
     .line 21
     invoke-direct {v0, v1, v2, v3}, Landroidx/recyclerview/widget/DiffUtil$Diagonal;-><init>(III)V
-return-object v0
+    return-object v0
 
     .line 25
     :cond_0
@@ -243,7 +243,7 @@ return-object v0
 
     .line 43
     invoke-direct {v0, v1, v2, v3}, Landroidx/recyclerview/widget/DiffUtil$Diagonal;-><init>(III)V
-return-object v0
+    return-object v0
 
     .line 47
     :cond_1
@@ -272,7 +272,7 @@ return-object v0
 
     .line 59
     invoke-direct {v0, v1, v2, v3}, Landroidx/recyclerview/widget/DiffUtil$Diagonal;-><init>(III)V
-return-object v0
+    return-object v0
 
     .line 63
     :cond_2

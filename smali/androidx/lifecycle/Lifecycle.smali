@@ -99,7 +99,7 @@
     .line 21
     .line 22
     invoke-virtual {p0, p1}, LC1/C;->h(Ljava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method public static synthetic a(LC1/C;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V

@@ -4052,7 +4052,7 @@
     .line 184
     :cond_a
     invoke-virtual {p0}, Landroidx/customview/widget/ViewDragHelper;->cancel()V
-return-void
+    return-void
 
     .line 188
     :cond_b
@@ -4349,7 +4349,7 @@ return-void
     .line 329
     :cond_13
     invoke-virtual {p0}, Landroidx/customview/widget/ViewDragHelper;->cancel()V
-return-void
+    return-void
 
     .line 333
     :cond_14

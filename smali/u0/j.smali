@@ -225,7 +225,7 @@ return-void
     move-result-object p1
 
     invoke-direct {p0, p1}, Lu0/j;-><init>(Lu0/n;)V
-return-void
+    return-void
 .end method
 
 .method public constructor <init>(Lu0/h;)V

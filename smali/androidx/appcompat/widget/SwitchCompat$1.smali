@@ -69,7 +69,7 @@ return-void
     move-result p2
 
     invoke-virtual {p1, p2}, Landroidx/appcompat/widget/SwitchCompat;->setThumbPosition(F)V
-return-void
+    return-void
 .end method
 
 .method public bridge synthetic set(Ljava/lang/Object;Ljava/lang/Object;)V

@@ -47,7 +47,7 @@
     .line 6
     .line 7
     invoke-direct {p0}, Landroidx/activity/result/ActivityResultLauncher;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -105,7 +105,7 @@ return-void
     .line 10
     .line 11
     invoke-virtual {v0, p1, p2}, Landroidx/activity/result/ActivityResultLauncher;->launch(Ljava/lang/Object;Landroidx/core/app/ActivityOptionsCompat;)V
-return-void
+    return-void
 
     .line 15
     :cond_0

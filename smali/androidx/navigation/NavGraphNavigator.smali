@@ -317,7 +317,7 @@
     move-result-object p1
 
     invoke-virtual {v0, p1, p2, p3}, Landroidx/navigation/Navigator;->navigate(Ljava/util/List;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)V
-return-void
+    return-void
 
     .line 33
     :cond_8
@@ -364,7 +364,7 @@ return-void
     new-instance v0, Landroidx/navigation/NavGraph;
 
     invoke-direct {v0, p0}, Landroidx/navigation/NavGraph;-><init>(Landroidx/navigation/Navigator;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public final getBackStack()LC1/A;

@@ -893,7 +893,7 @@ return-void
 
     .line 19
     invoke-virtual {p0, v0, v1, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->write([BII)V
-return-void
+    return-void
 
     .line 23
     :cond_0
@@ -911,7 +911,7 @@ return-void
     .line 29
     .line 30
     invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$UnsafeDirectNioEncoder;->write(Ljava/nio/ByteBuffer;)V
-return-void
+    return-void
 .end method
 
 .method public writeRawMessageSetExtension(ILandroidx/datastore/preferences/protobuf/ByteString;)V

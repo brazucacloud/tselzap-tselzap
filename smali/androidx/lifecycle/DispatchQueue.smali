@@ -107,7 +107,7 @@ return-void
     .line 8
     .line 9
     invoke-virtual {p0}, Landroidx/lifecycle/DispatchQueue;->drainQueue()V
-return-void
+    return-void
 
     .line 13
     :cond_0
@@ -231,7 +231,7 @@ return-void
     .line 30
     :cond_0
     invoke-direct {p0, p2}, Landroidx/lifecycle/DispatchQueue;->enqueue(Ljava/lang/Runnable;)V
-return-void
+    return-void
 
     .line 34
     :cond_1
@@ -375,7 +375,7 @@ return-void
     .line 3
     .line 4
     invoke-virtual {p0}, Landroidx/lifecycle/DispatchQueue;->drainQueue()V
-return-void
+    return-void
 .end method
 
 .method public final pause()V
@@ -421,7 +421,7 @@ return-void
     .line 12
     .line 13
     invoke-virtual {p0}, Landroidx/lifecycle/DispatchQueue;->drainQueue()V
-return-void
+    return-void
 
     .line 17
     :cond_1

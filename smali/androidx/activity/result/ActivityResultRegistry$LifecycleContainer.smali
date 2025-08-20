@@ -144,6 +144,6 @@ return-void
     .line 26
     .line 27
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
-return-void
+    return-void
 .end method
 .end class

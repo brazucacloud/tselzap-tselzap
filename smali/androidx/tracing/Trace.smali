@@ -23,7 +23,7 @@
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static beginAsyncSection(Ljava/lang/String;I)V
@@ -395,7 +395,7 @@ return-void
 
     .line 1
     invoke-static {}, Landroidx/tracing/TraceApi18Impl;->endSection()V
-return-void
+    return-void
 .end method
 
 .method private static handleException(Ljava/lang/String;Ljava/lang/Exception;)V

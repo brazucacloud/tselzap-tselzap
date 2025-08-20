@@ -190,7 +190,7 @@
     :cond_4
     :goto_1
     invoke-virtual {p0}, Landroidx/activity/FullyDrawnReporter;->removeReporter()V
-return-object v3
+    return-object v3
 
     .line 84
     :goto_2
@@ -247,7 +247,7 @@ return-object v3
     .line 15
     .line 16
     invoke-virtual {p0}, Landroidx/activity/FullyDrawnReporter;->removeReporter()V
-return-object v1
+    return-object v1
 
     .line 20
     :catchall_0

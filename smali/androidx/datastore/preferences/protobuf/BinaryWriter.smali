@@ -309,7 +309,7 @@ return-void
     .line 2
     .line 3
     invoke-direct {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeDirectWriter;-><init>(Landroidx/datastore/preferences/protobuf/BufferAllocator;I)V
-return-object v0
+    return-object v0
 .end method
 
 .method public static newSafeHeapInstance(Landroidx/datastore/preferences/protobuf/BufferAllocator;I)Landroidx/datastore/preferences/protobuf/BinaryWriter;
@@ -345,7 +345,7 @@ return-object v0
     .line 8
     .line 9
     invoke-direct {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryWriter$UnsafeDirectWriter;-><init>(Landroidx/datastore/preferences/protobuf/BufferAllocator;I)V
-return-object v0
+    return-object v0
 
     .line 13
     :cond_0
@@ -385,7 +385,7 @@ return-object v0
     .line 8
     .line 9
     invoke-direct {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/BinaryWriter$UnsafeHeapWriter;-><init>(Landroidx/datastore/preferences/protobuf/BufferAllocator;I)V
-return-object v0
+    return-object v0
 
     .line 13
     :cond_0
@@ -1695,7 +1695,7 @@ return-void
 
     .line 56
     invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeEnum(II)V
-return-void
+    return-void
 
     .line 60
     :cond_1
@@ -1743,7 +1743,7 @@ return-void
 
     .line 84
     invoke-interface {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeDouble(ID)V
-return-void
+    return-void
 
     .line 88
     :pswitch_4
@@ -1760,7 +1760,7 @@ return-void
 
     .line 94
     invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeFloat(IF)V
-return-void
+    return-void
 
     .line 98
     :pswitch_5
@@ -1777,7 +1777,7 @@ return-void
 
     .line 104
     invoke-interface {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeUInt64(IJ)V
-return-void
+    return-void
 
     .line 108
     :pswitch_6
@@ -1794,7 +1794,7 @@ return-void
 
     .line 114
     invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeUInt32(II)V
-return-void
+    return-void
 
     .line 118
     :pswitch_7
@@ -1820,7 +1820,7 @@ return-void
 
     .line 130
     invoke-interface {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeSInt64(IJ)V
-return-void
+    return-void
 
     .line 134
     :pswitch_9
@@ -1837,7 +1837,7 @@ return-void
 
     .line 140
     invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeSInt32(II)V
-return-void
+    return-void
 
     .line 144
     :pswitch_a
@@ -1854,7 +1854,7 @@ return-void
 
     .line 150
     invoke-interface {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeSFixed64(IJ)V
-return-void
+    return-void
 
     .line 154
     :pswitch_b
@@ -1871,7 +1871,7 @@ return-void
 
     .line 160
     invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeSFixed32(II)V
-return-void
+    return-void
 
     .line 164
     :pswitch_c
@@ -1888,7 +1888,7 @@ return-void
 
     .line 170
     invoke-interface {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeInt64(IJ)V
-return-void
+    return-void
 
     .line 174
     :pswitch_d
@@ -1905,7 +1905,7 @@ return-void
 
     .line 180
     invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeInt32(II)V
-return-void
+    return-void
 
     .line 184
     :pswitch_e
@@ -1922,7 +1922,7 @@ return-void
 
     .line 190
     invoke-interface {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/Writer;->writeFixed64(IJ)V
-return-void
+    return-void
 
     .line 194
     :pswitch_f
@@ -1939,7 +1939,7 @@ return-void
 
     .line 200
     invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeFixed32(II)V
-return-void
+    return-void
 
     .line 204
     :pswitch_10
@@ -1956,7 +1956,7 @@ return-void
 
     .line 210
     invoke-interface {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Writer;->writeBool(IZ)V
-return-void
+    return-void
 
     .line 214
     nop

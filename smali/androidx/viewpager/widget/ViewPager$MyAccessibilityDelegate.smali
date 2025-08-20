@@ -28,7 +28,7 @@
     .line 2
     .line 3
     invoke-direct {p0}, Landroidx/core/view/AccessibilityDelegateCompat;-><init>()V
-return-void
+    return-void
 .end method
 
 .method private canScroll()Z

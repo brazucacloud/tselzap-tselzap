@@ -36,7 +36,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/lifecycle/viewmodel/CreationExtras;-><init>()V
-return-void
+    return-void
 .end method
 
 

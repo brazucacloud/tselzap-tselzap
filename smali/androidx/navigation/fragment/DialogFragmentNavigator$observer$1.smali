@@ -37,7 +37,7 @@
     .line 2
     .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -259,7 +259,7 @@ return-void
 
     .line 102
     invoke-virtual {p1, p0}, Landroidx/lifecycle/Lifecycle;->removeObserver(Landroidx/lifecycle/LifecycleObserver;)V
-return-void
+    return-void
 
     .line 106
     :cond_4
@@ -493,7 +493,7 @@ return-void
 
     .line 219
     invoke-static {p1, v0, v1, p2}, Landroidx/navigation/fragment/DialogFragmentNavigator;->access$popWithTransition(Landroidx/navigation/fragment/DialogFragmentNavigator;ILandroidx/navigation/NavBackStackEntry;Z)V
-return-void
+    return-void
 
     .line 223
     :cond_8
@@ -766,6 +766,6 @@ return-void
     :cond_f
     :goto_4
     invoke-virtual {p1}, Landroidx/fragment/app/DialogFragment;->dismiss()V
-return-void
+    return-void
 .end method
 .end class

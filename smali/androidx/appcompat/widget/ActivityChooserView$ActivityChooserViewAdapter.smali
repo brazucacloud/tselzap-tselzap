@@ -846,7 +846,7 @@
     .line 45
     :cond_1
     invoke-virtual {p0}, Landroid/widget/BaseAdapter;->notifyDataSetChanged()V
-return-void
+    return-void
 .end method
 
 .method public setMaxActivityCount(I)V
@@ -912,7 +912,7 @@ return-void
     .line 14
     .line 15
     invoke-virtual {p0}, Landroid/widget/BaseAdapter;->notifyDataSetChanged()V
-return-void
+    return-void
 .end method
 
 .method public setShowFooterView(Z)V

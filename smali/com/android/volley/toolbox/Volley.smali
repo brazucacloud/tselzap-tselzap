@@ -61,7 +61,7 @@
 
     .line 9
     invoke-virtual {p0}, Lcom/android/volley/RequestQueue;->start()V
-return-object p0
+    return-object p0
 .end method
 
 .method public static newRequestQueue(Landroid/content/Context;Lcom/android/volley/toolbox/BaseHttpStack;)Lcom/android/volley/RequestQueue;

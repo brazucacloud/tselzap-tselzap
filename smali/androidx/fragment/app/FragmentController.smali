@@ -112,7 +112,7 @@ return-void
     .line 4
     .line 5
     invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchActivityCreated()V
-return-void
+    return-void
 .end method
 
 .method public dispatchConfigurationChanged(Landroid/content/res/Configuration;)V
@@ -179,7 +179,7 @@ return-void
     .line 4
     .line 5
     invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchCreate()V
-return-void
+    return-void
 .end method
 
 .method public dispatchCreateOptionsMenu(Landroid/view/Menu;Landroid/view/MenuInflater;)Z
@@ -227,7 +227,7 @@ return-void
     .line 4
     .line 5
     invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchDestroy()V
-return-void
+    return-void
 .end method
 
 .method public dispatchDestroyView()V
@@ -243,7 +243,7 @@ return-void
     .line 4
     .line 5
     invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchDestroyView()V
-return-void
+    return-void
 .end method
 
 .method public dispatchLowMemory()V
@@ -351,7 +351,7 @@ return-void
     .line 4
     .line 5
     invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchPause()V
-return-void
+    return-void
 .end method
 
 .method public dispatchPictureInPictureModeChanged(Z)V
@@ -424,7 +424,7 @@ return-void
     .line 4
     .line 5
     invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchResume()V
-return-void
+    return-void
 .end method
 
 .method public dispatchStart()V
@@ -440,7 +440,7 @@ return-void
     .line 4
     .line 5
     invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchStart()V
-return-void
+    return-void
 .end method
 
 .method public dispatchStop()V
@@ -456,7 +456,7 @@ return-void
     .line 4
     .line 5
     invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchStop()V
-return-void
+    return-void
 .end method
 
 .method public doLoaderDestroy()V
@@ -686,7 +686,7 @@ return-void
     .line 4
     .line 5
     invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->noteStateNotSaved()V
-return-void
+    return-void
 .end method
 
 .method public onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
@@ -989,7 +989,7 @@ return-void
 
     .line 23
     invoke-direct {v1, v0}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
-return-object v1
+    return-object v1
 
     .line 27
     :cond_0

@@ -89,7 +89,7 @@ return-void
     .line 5
     .line 6
     invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatSeekBarHelper;->drawableStateChanged()V
-return-void
+    return-void
 .end method
 
 .method public jumpDrawablesToCurrentState()V
@@ -106,7 +106,7 @@ return-void
     .line 5
     .line 6
     invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatSeekBarHelper;->jumpDrawablesToCurrentState()V
-return-void
+    return-void
 .end method
 
 .method public declared-synchronized onDraw(Landroid/graphics/Canvas;)V

@@ -110,7 +110,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Value;->clearKind()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$1000(Landroidx/datastore/preferences/protobuf/Value;Z)V
@@ -125,7 +125,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Value;->clearBoolValue()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$1200(Landroidx/datastore/preferences/protobuf/Value;Landroidx/datastore/preferences/protobuf/Struct;)V
@@ -154,7 +154,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Value;->clearStructValue()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$1600(Landroidx/datastore/preferences/protobuf/Value;Landroidx/datastore/preferences/protobuf/ListValue;)V
@@ -183,7 +183,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Value;->clearListValue()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$200(Landroidx/datastore/preferences/protobuf/Value;I)V
@@ -205,7 +205,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Value;->clearNullValue()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$500(Landroidx/datastore/preferences/protobuf/Value;D)V
@@ -220,7 +220,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Value;->clearNumberValue()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$700(Landroidx/datastore/preferences/protobuf/Value;Ljava/lang/String;)V
@@ -235,7 +235,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Value;->clearStringValue()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$900(Landroidx/datastore/preferences/protobuf/Value;Landroidx/datastore/preferences/protobuf/ByteString;)V
@@ -1318,7 +1318,7 @@ return-void
     .line 95
     .line 96
     invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/Value;-><init>()V
-return-object p1
+    return-object p1
 
     .line 100
     nop

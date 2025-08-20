@@ -25,7 +25,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/fragment/app/Fragment;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static final synthetic access$getOnBackPressedCallback$p(Landroidx/navigation/fragment/AbstractListDetailFragment;)Landroidx/activity/OnBackPressedCallback;
@@ -174,7 +174,7 @@ return-object v0
     .line 15
     .line 16
     invoke-direct {v0}, Landroidx/navigation/fragment/NavHostFragment;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method public abstract onCreateListPaneView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
@@ -696,7 +696,7 @@ return-object p2
     .line 36
     :cond_0
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method public onListPaneViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
@@ -872,6 +872,6 @@ return-void
     .line 32
     :goto_0
     invoke-virtual {p1, v0}, Landroidx/activity/OnBackPressedCallback;->setEnabled(Z)V
-return-void
+    return-void
 .end method
 .end class

@@ -56,7 +56,7 @@
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public synthetic constructor <init>(Landroidx/datastore/preferences/protobuf/ListFieldSchema$1;)V
@@ -64,7 +64,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/ListFieldSchema;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static full()Landroidx/datastore/preferences/protobuf/ListFieldSchema;

@@ -5152,7 +5152,7 @@ return-object v0
 
     .line 15
     invoke-static {p0, p1, p2, p3, v0}, Landroidx/fragment/app/FragmentTransition;->callSharedElementStartEnd(Landroidx/fragment/app/Fragment;Landroidx/fragment/app/Fragment;ZLandroidx/collection/ArrayMap;Z)V
-return-void
+    return-void
 .end method
 
 .method private final syncAnimations(Ljava/util/List;)V

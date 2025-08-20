@@ -78,6 +78,6 @@ return-void
     move-result-object p1
 
     invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
-return-object p1
+    return-object p1
 .end method
 .end class

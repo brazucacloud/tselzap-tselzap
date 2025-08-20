@@ -82,7 +82,7 @@
 
     .line 2
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/ByteOutput;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public synthetic constructor <init>(Landroidx/datastore/preferences/protobuf/CodedOutputStream$1;)V
@@ -90,7 +90,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$100()Z
@@ -1434,7 +1434,7 @@ return-object v0
     new-instance v0, Landroidx/datastore/preferences/protobuf/CodedOutputStream$HeapNioEncoder;
 
     invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$HeapNioEncoder;-><init>(Ljava/nio/ByteBuffer;)V
-return-object v0
+    return-object v0
 
     .line 7
     :cond_0

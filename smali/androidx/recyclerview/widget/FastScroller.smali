@@ -474,7 +474,7 @@ return-void
     .line 17
     .line 18
     invoke-direct {p0}, Landroidx/recyclerview/widget/FastScroller;->cancelHide()V
-return-void
+    return-void
 .end method
 
 .method private drawHorizontalScrollbar(Landroid/graphics/Canvas;)V
@@ -1461,7 +1461,7 @@ return-void
     .line 48
     .line 49
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
-return-void
+    return-void
 .end method
 
 .method public isDragging()Z
@@ -2305,7 +2305,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Landroid/view/View;->invalidate()V
-return-void
+    return-void
 .end method
 
 .method public setState(I)V
@@ -2542,7 +2542,7 @@ return-void
     .line 57
     .line 58
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->start()V
-return-void
+    return-void
 .end method
 
 .method public updateScrollPosition(II)V

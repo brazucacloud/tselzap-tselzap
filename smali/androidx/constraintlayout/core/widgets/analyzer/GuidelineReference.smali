@@ -662,7 +662,7 @@ return-void
     .line 17
     .line 18
     invoke-virtual {v0, v1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->setX(I)V
-return-void
+    return-void
 
     .line 22
     :cond_0
@@ -691,7 +691,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->clear()V
-return-void
+    return-void
 .end method
 
 .method public reset()V
@@ -819,6 +819,6 @@ return-void
     .line 40
     .line 41
     invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/analyzer/DependencyNode;->resolve(I)V
-return-void
+    return-void
 .end method
 .end class

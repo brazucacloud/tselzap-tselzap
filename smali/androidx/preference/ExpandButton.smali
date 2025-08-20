@@ -295,7 +295,7 @@ return-void
     .line 91
     :cond_4
     invoke-virtual {p0, v1}, Landroidx/preference/Preference;->setSummary(Ljava/lang/CharSequence;)V
-return-void
+    return-void
 .end method
 
 

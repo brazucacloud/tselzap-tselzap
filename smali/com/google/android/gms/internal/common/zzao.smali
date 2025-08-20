@@ -11,7 +11,7 @@
     .locals 0
 
     invoke-direct {p0}, Lcom/google/android/gms/internal/common/zzan;-><init>()V
-return-void
+    return-void
 .end method
 
 

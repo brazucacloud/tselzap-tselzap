@@ -1311,7 +1311,7 @@ return-void
 
     .line 19
     invoke-virtual {p0, v0, v1, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$ArrayEncoder;->write([BII)V
-return-void
+    return-void
 
     .line 23
     :cond_0
@@ -1329,7 +1329,7 @@ return-void
     .line 29
     .line 30
     invoke-virtual {p0, p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream$ArrayEncoder;->write(Ljava/nio/ByteBuffer;)V
-return-void
+    return-void
 .end method
 
 .method public final writeRawMessageSetExtension(ILandroidx/datastore/preferences/protobuf/ByteString;)V
@@ -1667,7 +1667,7 @@ return-void
 
     .line 34
     invoke-static {v1, v2, v3, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte([BJB)V
-return-void
+    return-void
 
     .line 38
     :cond_0
@@ -2200,7 +2200,7 @@ return-void
 
     .line 37
     invoke-static {v1, v2, v3, p1}, Landroidx/datastore/preferences/protobuf/UnsafeUtil;->putByte([BJB)V
-return-void
+    return-void
 
     .line 41
     :cond_0

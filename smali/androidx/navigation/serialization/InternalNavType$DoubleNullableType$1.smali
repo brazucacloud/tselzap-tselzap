@@ -157,7 +157,7 @@ return-void
     move-result-object v0
 
     invoke-virtual {v0, p1, p2, p3}, Landroidx/navigation/NavType;->put(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method public bridge synthetic put(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/Object;)V

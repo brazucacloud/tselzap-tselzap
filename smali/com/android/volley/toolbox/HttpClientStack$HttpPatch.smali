@@ -24,7 +24,7 @@
 
     .line 1
     invoke-direct {p0}, Lorg/apache/http/client/methods/HttpEntityEnclosingRequestBase;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/String;)V

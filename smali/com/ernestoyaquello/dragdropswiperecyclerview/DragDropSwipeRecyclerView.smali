@@ -374,7 +374,7 @@
 
     .line 22
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 
     :catchall_0
     move-exception p2

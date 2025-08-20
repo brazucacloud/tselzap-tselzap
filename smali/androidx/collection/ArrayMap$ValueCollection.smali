@@ -39,7 +39,7 @@
     .line 2
     .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -99,7 +99,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Landroidx/collection/SimpleArrayMap;->clear()V
-return-void
+    return-void
 .end method
 
 .method public contains(Ljava/lang/Object;)Z

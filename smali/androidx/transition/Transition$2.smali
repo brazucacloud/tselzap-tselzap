@@ -34,7 +34,7 @@
     .line 4
     .line 5
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
-return-void
+    return-void
 .end method
 
 

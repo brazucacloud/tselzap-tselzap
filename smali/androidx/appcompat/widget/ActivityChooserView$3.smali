@@ -28,7 +28,7 @@
     .line 2
     .line 3
     invoke-direct {p0}, Landroid/view/View$AccessibilityDelegate;-><init>()V
-return-void
+    return-void
 .end method
 
 

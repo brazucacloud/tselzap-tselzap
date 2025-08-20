@@ -189,7 +189,7 @@
 
     .line 76
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
-return-void
+    return-void
 .end method
 
 .method private constructor <init>()V
@@ -197,7 +197,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static canPositionSelectorForHoveredItem()Z

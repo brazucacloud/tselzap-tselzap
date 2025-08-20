@@ -885,7 +885,7 @@ return-void
 
     .line 7
     invoke-virtual {v0, p1}, Landroidx/fragment/app/BackStackRecord;->bumpBackStackNesting(I)V
-return-object v0
+    return-object v0
 .end method
 
 .method public instantiate(Landroidx/fragment/app/FragmentManager;Ljava/util/Map;)Landroidx/fragment/app/BackStackRecord;

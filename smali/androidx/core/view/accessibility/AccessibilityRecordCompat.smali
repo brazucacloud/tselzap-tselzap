@@ -73,7 +73,7 @@
     move-result-object v1
 
     invoke-direct {v0, v1}, Landroidx/core/view/accessibility/AccessibilityRecordCompat;-><init>(Ljava/lang/Object;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public static obtain(Landroidx/core/view/accessibility/AccessibilityRecordCompat;)Landroidx/core/view/accessibility/AccessibilityRecordCompat;

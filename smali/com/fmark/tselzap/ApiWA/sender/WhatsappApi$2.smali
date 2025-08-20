@@ -164,7 +164,7 @@
     move-result-object v0
 
     invoke-virtual {v0}, Landroid/database/sqlite/SQLiteClosable;->close()V
-return-object p1
+    return-object p1
 .end method
 
 .method public bridge synthetic onPostExecute(Ljava/lang/Object;)V

@@ -1495,7 +1495,7 @@
 
     .line 6
     invoke-virtual {p0, p1, p2}, Landroidx/datastore/preferences/protobuf/Utf8$Processor;->encodeUtf8Direct(Ljava/lang/CharSequence;Ljava/nio/ByteBuffer;)V
-return-void
+    return-void
 
     .line 7
     :cond_1

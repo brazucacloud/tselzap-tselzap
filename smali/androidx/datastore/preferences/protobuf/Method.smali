@@ -158,7 +158,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Method;->clearResponseTypeUrl()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$1100(Landroidx/datastore/preferences/protobuf/Method;Landroidx/datastore/preferences/protobuf/ByteString;)V
@@ -182,7 +182,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Method;->clearResponseStreaming()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$1400(Landroidx/datastore/preferences/protobuf/Method;ILandroidx/datastore/preferences/protobuf/Option;)V
@@ -238,7 +238,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Method;->clearName()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$2000(Landroidx/datastore/preferences/protobuf/Method;Ljava/lang/Iterable;)V
@@ -254,7 +254,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Method;->clearOptions()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$2200(Landroidx/datastore/preferences/protobuf/Method;I)V
@@ -285,7 +285,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Method;->clearSyntax()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$300(Landroidx/datastore/preferences/protobuf/Method;Landroidx/datastore/preferences/protobuf/ByteString;)V
@@ -309,7 +309,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Method;->clearRequestTypeUrl()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$600(Landroidx/datastore/preferences/protobuf/Method;Landroidx/datastore/preferences/protobuf/ByteString;)V
@@ -333,7 +333,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Method;->clearRequestStreaming()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$900(Landroidx/datastore/preferences/protobuf/Method;Ljava/lang/String;)V
@@ -384,7 +384,7 @@ return-void
     move-result-object p2
 
     invoke-interface {v0, p1, p2}, Ljava/util/List;->add(ILjava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method private addOptions(ILandroidx/datastore/preferences/protobuf/Option;)V
@@ -1305,7 +1305,7 @@ return-object p1
     .line 116
     .line 117
     invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/Method;-><init>()V
-return-object p1
+    return-object p1
 
     .line 121
     :pswitch_data_0

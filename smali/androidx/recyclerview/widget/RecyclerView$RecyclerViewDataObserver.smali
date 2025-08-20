@@ -28,7 +28,7 @@
     .line 2
     .line 3
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -376,6 +376,6 @@ return-void
     .line 19
     .line 20
     invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V
-return-void
+    return-void
 .end method
 .end class

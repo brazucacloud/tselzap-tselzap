@@ -148,7 +148,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/appcompat/widget/TooltipCompatHandler;->lambda$new$0()V
-return-void
+    return-void
 .end method
 
 .method private cancelPendingShow()V
@@ -760,7 +760,7 @@ return-void
 
     .line 1
     invoke-virtual {p0}, Landroidx/appcompat/widget/TooltipCompatHandler;->hide()V
-return-void
+    return-void
 .end method
 
 .method public show(Z)V

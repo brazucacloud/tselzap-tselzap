@@ -1617,7 +1617,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
-return-void
+    return-void
 .end method
 
 .method public contains(Ljava/lang/String;)Z
@@ -3042,7 +3042,7 @@ return-object v0
     .line 5
     .line 6
     invoke-virtual {v0}, Landroidx/constraintlayout/core/motion/utils/TypedBundle;->clear()V
-return-void
+    return-void
 .end method
 
 .method public setTouchUp(FJFF)V
@@ -3583,6 +3583,6 @@ return-void
     .line 103
     :cond_4
     invoke-virtual {p0}, Landroidx/constraintlayout/core/state/Transition;->calcStagger()V
-return-void
+    return-void
 .end method
 .end class

@@ -753,7 +753,7 @@
 
     .line 80
     invoke-direct {v0}, Landroidx/appcompat/widget/SearchView;->updateQueryHint()V
-return-void
+    return-void
 .end method
 
 .method private createIntent(Ljava/lang/String;Landroid/net/Uri;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Landroid/content/Intent;
@@ -1544,7 +1544,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Landroid/widget/AutoCompleteTextView;->dismissDropDown()V
-return-void
+    return-void
 .end method
 
 .method private getChildBoundsWithinSearchView(Landroid/view/View;Landroid/graphics/Rect;)V
@@ -1628,7 +1628,7 @@ return-void
 
     .line 37
     invoke-virtual {p2, v0, v2, v1, p1}, Landroid/graphics/Rect;->set(IIII)V
-return-void
+    return-void
 .end method
 
 .method private getDecoratedHint(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
@@ -2914,7 +2914,7 @@ return-void
     .line 67
     .line 68
     invoke-direct {p0}, Landroidx/appcompat/widget/SearchView;->updateSubmitArea()V
-return-void
+    return-void
 .end method
 
 .method private updateVoiceButton(Z)V
@@ -3486,7 +3486,7 @@ return-void
 
     .line 17
     invoke-virtual {p2, p1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
-return-void
+    return-void
 .end method
 
 .method public onActionViewCollapsed()V
@@ -3972,7 +3972,7 @@ return-void
     .line 6
     .line 7
     invoke-super {p0, p1, p2}, Landroidx/appcompat/widget/LinearLayoutCompat;->onMeasure(II)V
-return-void
+    return-void
 
     .line 11
     :cond_0
@@ -4229,7 +4229,7 @@ return-void
     .line 22
     .line 23
     invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -4832,7 +4832,7 @@ return-object v1
 
     .line 22
     invoke-virtual {v1, v0}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
-return-void
+    return-void
 
     .line 26
     :cond_1
@@ -4902,7 +4902,7 @@ return-void
     .line 3
     .line 4
     invoke-direct {p0}, Landroidx/appcompat/widget/SearchView;->postUpdateFocusedState()V
-return-void
+    return-void
 .end method
 
 .method public requestFocus(ILandroid/graphics/Rect;)Z
@@ -5001,12 +5001,12 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p0}, Landroidx/appcompat/widget/SearchView;->onCloseClicked()V
-return-void
+    return-void
 
     .line 7
     :cond_0
     invoke-virtual {p0}, Landroidx/appcompat/widget/SearchView;->onSearchClicked()V
-return-void
+    return-void
 .end method
 
 .method public setIconifiedByDefault(Z)V
@@ -5031,7 +5031,7 @@ return-void
     .line 10
     .line 11
     invoke-direct {p0}, Landroidx/appcompat/widget/SearchView;->updateQueryHint()V
-return-void
+    return-void
 .end method
 
 .method public setImeOptions(I)V
@@ -5065,7 +5065,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setOnCloseListener(Landroidx/appcompat/widget/SearchView$OnCloseListener;)V
@@ -5155,7 +5155,7 @@ return-void
     .line 2
     .line 3
     invoke-direct {p0}, Landroidx/appcompat/widget/SearchView;->updateQueryHint()V
-return-void
+    return-void
 .end method
 
 .method public setQueryRefinementEnabled(Z)V
@@ -5382,6 +5382,6 @@ return-void
     .line 36
     :cond_2
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-return-void
+    return-void
 .end method
 .end class

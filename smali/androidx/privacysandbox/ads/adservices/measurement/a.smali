@@ -95,7 +95,7 @@
     new-instance v0, Landroid/adservices/measurement/WebSourceRegistrationRequest$Builder;
 
     invoke-direct {v0, p0, p1}, Landroid/adservices/measurement/WebSourceRegistrationRequest$Builder;-><init>(Ljava/util/List;Landroid/net/Uri;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public static bridge synthetic f(Landroid/adservices/measurement/WebSourceRegistrationRequest$Builder;)Landroid/adservices/measurement/WebSourceRegistrationRequest;
@@ -127,7 +127,7 @@ return-object v0
     new-instance v0, Landroid/adservices/measurement/WebTriggerParams$Builder;
 
     invoke-direct {v0, p0}, Landroid/adservices/measurement/WebTriggerParams$Builder;-><init>(Landroid/net/Uri;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public static bridge synthetic i(Landroid/adservices/measurement/WebTriggerParams$Builder;)Landroid/adservices/measurement/WebTriggerParams;
@@ -148,7 +148,7 @@ return-object v0
     new-instance v0, Landroid/adservices/measurement/WebTriggerRegistrationRequest$Builder;
 
     invoke-direct {v0, p0, p1}, Landroid/adservices/measurement/WebTriggerRegistrationRequest$Builder;-><init>(Ljava/util/List;Landroid/net/Uri;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public static bridge synthetic k(Landroid/adservices/measurement/WebTriggerRegistrationRequest$Builder;)Landroid/adservices/measurement/WebTriggerRegistrationRequest;
@@ -169,7 +169,7 @@ return-object v0
     new-instance v0, Landroid/adservices/topics/GetTopicsRequest$Builder;
 
     invoke-direct {v0}, Landroid/adservices/topics/GetTopicsRequest$Builder;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method public static bridge synthetic m(Landroid/adservices/topics/GetTopicsRequest$Builder;Ljava/lang/String;)Landroid/adservices/topics/GetTopicsRequest$Builder;

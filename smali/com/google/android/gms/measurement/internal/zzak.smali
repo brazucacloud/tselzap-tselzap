@@ -1482,7 +1482,7 @@
     const-string v0, "Failed to load metadata: Metadata bundle is null"
 
     invoke-virtual {p1, v0}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;)V
-return-object v1
+    return-object v1
 
     .line 5
     :cond_0
@@ -1770,7 +1770,7 @@ return-object v1
     const-string v2, "Failed to load string array from metadata: resource not found"
 
     invoke-virtual {v0, v2, p1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-return-object v1
+    return-object v1
 .end method
 
 .method public final zzh(Ljava/lang/String;)V

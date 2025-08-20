@@ -351,7 +351,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Carousel;->lambda$updateItems$0()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$000(Landroidx/constraintlayout/helper/widget/Carousel;)Landroidx/constraintlayout/motion/widget/MotionLayout;
@@ -366,7 +366,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Carousel;->updateItems()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$200(Landroidx/constraintlayout/helper/widget/Carousel;)I
@@ -1713,7 +1713,7 @@ return-void
     .line 17
     .line 18
     invoke-virtual {p0}, Landroidx/constraintlayout/helper/widget/Carousel;->refresh()V
-return-void
+    return-void
 .end method
 
 .method public onAttachedToWindow()V
@@ -1909,7 +1909,7 @@ return-void
     .line 5
     .line 6
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
-return-void
+    return-void
 .end method
 
 .method public onTransitionChange(Landroidx/constraintlayout/motion/widget/MotionLayout;IIF)V
@@ -2217,7 +2217,7 @@ return-void
     .line 43
     .line 44
     invoke-direct {p0}, Landroidx/constraintlayout/helper/widget/Carousel;->updateItems()V
-return-void
+    return-void
 .end method
 
 .method public setAdapter(Landroidx/constraintlayout/helper/widget/Carousel$Adapter;)V

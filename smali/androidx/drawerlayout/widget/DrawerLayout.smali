@@ -1750,7 +1750,7 @@ return-void
     .line 79
     .line 80
     invoke-virtual {p1}, Ljava/util/ArrayList;->clear()V
-return-void
+    return-void
 .end method
 
 .method public addView(Landroid/view/View;ILandroid/view/ViewGroup$LayoutParams;)V
@@ -2180,7 +2180,7 @@ return-void
     .line 16
     :goto_0
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-return-void
+    return-void
 
     .line 17
     :cond_3
@@ -3797,7 +3797,7 @@ return-object v0
     move-result-object v1
 
     invoke-direct {v0, v1, p1}, Landroidx/drawerlayout/widget/DrawerLayout$LayoutParams;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public generateLayoutParams(Landroid/view/ViewGroup$LayoutParams;)Landroid/view/ViewGroup$LayoutParams;
@@ -4558,7 +4558,7 @@ return-object v0
     .line 6
     .line 7
     invoke-virtual {p0}, Landroidx/drawerlayout/widget/DrawerLayout;->updateBackInvokedCallbackState()V
-return-void
+    return-void
 .end method
 
 .method public onDetachedFromWindow()V
@@ -4578,7 +4578,7 @@ return-void
     .line 6
     .line 7
     invoke-virtual {p0}, Landroidx/drawerlayout/widget/DrawerLayout;->updateBackInvokedCallbackState()V
-return-void
+    return-void
 .end method
 
 .method public onDraw(Landroid/graphics/Canvas;)V
@@ -6620,7 +6620,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/drawerlayout/widget/DrawerLayout;->resolveShadowDrawables()V
-return-void
+    return-void
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -7225,7 +7225,7 @@ return-void
     .line 19
     :goto_0
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-return-void
+    return-void
 
     .line 20
     :cond_3
@@ -7371,7 +7371,7 @@ return-void
     .line 18
     .line 19
     invoke-virtual {p0}, Landroidx/drawerlayout/widget/DrawerLayout;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setDrawerElevation(F)V
@@ -7666,7 +7666,7 @@ return-void
     move-result-object p1
 
     invoke-virtual {p0, p1, p2}, Landroidx/drawerlayout/widget/DrawerLayout;->setDrawerShadow(Landroid/graphics/drawable/Drawable;I)V
-return-void
+    return-void
 .end method
 
 .method public setDrawerShadow(Landroid/graphics/drawable/Drawable;I)V
@@ -7839,7 +7839,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-return-void
+    return-void
 .end method
 
 .method public setStatusBarBackground(I)V
@@ -7866,7 +7866,7 @@ return-void
 
     .line 4
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-return-void
+    return-void
 .end method
 
 .method public setStatusBarBackground(Landroid/graphics/drawable/Drawable;)V
@@ -7881,7 +7881,7 @@ return-void
 
     .line 2
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-return-void
+    return-void
 .end method
 
 .method public setStatusBarBackgroundColor(I)V
@@ -7906,7 +7906,7 @@ return-void
     .line 7
     .line 8
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-return-void
+    return-void
 .end method
 
 .method public updateBackInvokedCallbackState()V

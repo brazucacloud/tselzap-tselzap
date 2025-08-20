@@ -221,7 +221,7 @@
 
     .line 17
     invoke-static {}, Landroidx/core/os/TraceCompat;->endSection()V
-return-object v1
+    return-object v1
 
     :catchall_0
     move-exception p0
@@ -266,7 +266,7 @@ return-object v1
 
     .line 3
     invoke-static {}, Landroidx/core/os/TraceCompat;->endSection()V
-return-object v0
+    return-object v0
 
     :catchall_0
     move-exception p0
@@ -309,7 +309,7 @@ return-object v0
 
     .line 7
     invoke-static {}, Landroidx/core/os/TraceCompat;->endSection()V
-return-object v0
+    return-object v0
 
     :catchall_0
     move-exception p0
@@ -352,7 +352,7 @@ return-object v0
 
     .line 11
     invoke-static {}, Landroidx/core/os/TraceCompat;->endSection()V
-return-object v0
+    return-object v0
 
     :catchall_0
     move-exception p0

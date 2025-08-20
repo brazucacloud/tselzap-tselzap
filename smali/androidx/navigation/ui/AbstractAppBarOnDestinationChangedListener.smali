@@ -294,7 +294,7 @@
     .line 91
     .line 92
     invoke-virtual {p1}, Landroid/animation/ObjectAnimator;->start()V
-return-void
+    return-void
 
     .line 96
     :cond_4
@@ -378,7 +378,7 @@ return-void
     .line 34
     .line 35
     invoke-virtual {p1, p0}, Landroidx/navigation/NavController;->removeOnDestinationChangedListener(Landroidx/navigation/NavController$OnDestinationChangedListener;)V
-return-void
+    return-void
 
     .line 39
     :cond_2

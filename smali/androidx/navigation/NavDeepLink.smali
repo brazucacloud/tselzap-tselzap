@@ -304,7 +304,7 @@ return-void
 
     .line 15
     invoke-direct {p0}, Landroidx/navigation/NavDeepLink;->parseMime()V
-return-void
+    return-void
 .end method
 
 .method public static final synthetic access$getFragArgsAndRegex(Landroidx/navigation/NavDeepLink;)Lc1/f;
@@ -1514,7 +1514,7 @@ return-void
     .line 11
     :cond_0
     invoke-virtual {p1, p2, p3}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-return-void
+    return-void
 .end method
 
 .method private final parseArgumentForRepeatedParam(Landroid/os/Bundle;Ljava/lang/String;Ljava/lang/String;Landroidx/navigation/NavArgument;)Z

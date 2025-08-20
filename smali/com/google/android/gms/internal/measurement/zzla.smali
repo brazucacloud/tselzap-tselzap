@@ -11,7 +11,7 @@
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method private static zzc(Ljava/lang/Object;J)Lcom/google/android/gms/internal/measurement/zzkr;

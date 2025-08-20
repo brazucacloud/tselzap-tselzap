@@ -116,7 +116,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$Value;->clearInteger()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$1100(Landroidx/datastore/preferences/PreferencesProto$Value;J)V
@@ -131,7 +131,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$Value;->clearLong()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$1300(Landroidx/datastore/preferences/PreferencesProto$Value;Ljava/lang/String;)V
@@ -146,7 +146,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$Value;->clearString()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$1500(Landroidx/datastore/preferences/PreferencesProto$Value;Landroidx/datastore/preferences/protobuf/ByteString;)V
@@ -182,7 +182,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$Value;->clearStringSet()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$2000(Landroidx/datastore/preferences/PreferencesProto$Value;D)V
@@ -197,7 +197,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$Value;->clearDouble()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$300()Landroidx/datastore/preferences/PreferencesProto$Value;
@@ -212,7 +212,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$Value;->clearValue()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$500(Landroidx/datastore/preferences/PreferencesProto$Value;Z)V
@@ -227,7 +227,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$Value;->clearBoolean()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$700(Landroidx/datastore/preferences/PreferencesProto$Value;F)V
@@ -242,7 +242,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/PreferencesProto$Value;->clearFloat()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$900(Landroidx/datastore/preferences/PreferencesProto$Value;I)V
@@ -1239,7 +1239,7 @@ return-void
     .line 95
     .line 96
     invoke-direct {p1}, Landroidx/datastore/preferences/PreferencesProto$Value;-><init>()V
-return-object p1
+    return-object p1
 
     .line 100
     nop

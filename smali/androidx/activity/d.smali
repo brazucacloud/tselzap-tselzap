@@ -22,7 +22,7 @@
     iput-object p1, p0, Landroidx/activity/d;->c:Ljava/lang/Object;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -56,7 +56,7 @@ return-void
     check-cast v0, Landroidx/activity/ComponentActivity;
 
     invoke-virtual {v0}, Landroidx/activity/ComponentActivity;->invalidateMenu()V
-return-void
+    return-void
 
     :pswitch_2
     iget-object v0, p0, Landroidx/activity/d;->c:Ljava/lang/Object;

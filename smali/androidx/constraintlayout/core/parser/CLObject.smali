@@ -117,7 +117,7 @@ return-object v0
     .line 2
     .line 3
     invoke-direct {v0, p0}, Landroidx/constraintlayout/core/parser/CLObject$CLObjectIterator;-><init>(Landroidx/constraintlayout/core/parser/CLObject;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public toFormattedJSON()Ljava/lang/String;

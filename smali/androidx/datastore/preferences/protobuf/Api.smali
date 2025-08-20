@@ -202,7 +202,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Api;->clearMethods()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$1200(Landroidx/datastore/preferences/protobuf/Api;I)V
@@ -274,7 +274,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Api;->clearName()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$2000(Landroidx/datastore/preferences/protobuf/Api;)V
@@ -282,7 +282,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Api;->clearOptions()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$2100(Landroidx/datastore/preferences/protobuf/Api;I)V
@@ -305,7 +305,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Api;->clearVersion()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$2400(Landroidx/datastore/preferences/protobuf/Api;Landroidx/datastore/preferences/protobuf/ByteString;)V
@@ -344,7 +344,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Api;->clearSourceContext()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$2900(Landroidx/datastore/preferences/protobuf/Api;ILandroidx/datastore/preferences/protobuf/Mixin;)V
@@ -416,7 +416,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Api;->clearMixins()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$3700(Landroidx/datastore/preferences/protobuf/Api;I)V
@@ -455,7 +455,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Api;->clearSyntax()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$500(Landroidx/datastore/preferences/protobuf/Api;ILandroidx/datastore/preferences/protobuf/Method$Builder;)V
@@ -590,7 +590,7 @@ return-void
     move-result-object p2
 
     invoke-interface {v0, p1, p2}, Ljava/util/List;->add(ILjava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method private addMethods(ILandroidx/datastore/preferences/protobuf/Method;)V
@@ -657,7 +657,7 @@ return-void
     move-result-object p2
 
     invoke-interface {v0, p1, p2}, Ljava/util/List;->add(ILjava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method private addMixins(ILandroidx/datastore/preferences/protobuf/Mixin;)V
@@ -725,7 +725,7 @@ return-void
     move-result-object p2
 
     invoke-interface {v0, p1, p2}, Ljava/util/List;->add(ILjava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method private addOptions(ILandroidx/datastore/preferences/protobuf/Option;)V
@@ -1893,7 +1893,7 @@ return-object p1
     .line 128
     .line 129
     invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/Api;-><init>()V
-return-object p1
+    return-object p1
 
     .line 133
     :pswitch_data_0

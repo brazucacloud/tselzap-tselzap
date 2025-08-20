@@ -433,7 +433,7 @@ return-void
     iget-object p1, p0, Landroidx/constraintlayout/core/state/Transition$WidgetState;->mMotionControl:Landroidx/constraintlayout/core/motion/Motion;
 
     invoke-virtual {p1, v0}, Landroidx/constraintlayout/core/motion/Motion;->addKey(Landroidx/constraintlayout/core/motion/key/MotionKey;)V
-return-void
+    return-void
 .end method
 
 .method public setKeyCycle(Landroidx/constraintlayout/core/motion/utils/TypedBundle;)V

@@ -132,7 +132,7 @@
     .line 49
     :cond_1
     invoke-virtual {p0}, Landroidx/appcompat/widget/ScrollingTabContainerView$TabView;->update()V
-return-void
+    return-void
 .end method
 
 
@@ -146,7 +146,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p0}, Landroidx/appcompat/widget/ScrollingTabContainerView$TabView;->update()V
-return-void
+    return-void
 .end method
 
 .method public getTab()Landroidx/appcompat/app/ActionBar$Tab;

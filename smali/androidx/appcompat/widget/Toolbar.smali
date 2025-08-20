@@ -668,7 +668,7 @@ return-void
     .line 71
     :cond_f
     invoke-virtual {v0}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method private addCustomViewsWithGravity(Ljava/util/List;I)V
@@ -1809,7 +1809,7 @@ return-void
 
     .line 7
     invoke-direct {v0, v1}, Landroidx/appcompat/view/SupportMenuInflater;-><init>(Landroid/content/Context;)V
-return-object v0
+    return-object v0
 .end method
 
 .method private getVerticalMargins(Landroid/view/View;)I
@@ -2885,7 +2885,7 @@ return-object v0
     .line 26
     .line 27
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
-return-void
+    return-void
 .end method
 
 .method public addMenuProvider(Landroidx/core/view/MenuProvider;)V
@@ -3247,7 +3247,7 @@ return-void
     const/4 v1, -0x2
 
     invoke-direct {v0, v1, v1}, Landroidx/appcompat/widget/Toolbar$LayoutParams;-><init>(II)V
-return-object v0
+    return-object v0
 .end method
 
 .method public bridge synthetic generateLayoutParams(Landroid/util/AttributeSet;)Landroid/view/ViewGroup$LayoutParams;
@@ -3283,7 +3283,7 @@ return-object v0
     move-result-object v1
 
     invoke-direct {v0, v1, p1}, Landroidx/appcompat/widget/Toolbar$LayoutParams;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public generateLayoutParams(Landroid/view/ViewGroup$LayoutParams;)Landroidx/appcompat/widget/Toolbar$LayoutParams;
@@ -4177,7 +4177,7 @@ return-object v0
 
     .line 9
     invoke-virtual {v0, p1, v1}, Landroid/view/MenuInflater;->inflate(ILandroid/view/Menu;)V
-return-void
+    return-void
 .end method
 
 .method public invalidateMenu()V
@@ -4249,7 +4249,7 @@ return-void
     .line 31
     :cond_0
     invoke-direct {p0}, Landroidx/appcompat/widget/Toolbar;->onCreateMenu()V
-return-void
+    return-void
 .end method
 
 .method public isBackInvokedCallbackEnabled()Z
@@ -4421,7 +4421,7 @@ return-void
     .line 3
     .line 4
     invoke-virtual {p0}, Landroidx/appcompat/widget/Toolbar;->updateBackInvokedCallbackState()V
-return-void
+    return-void
 .end method
 
 .method public onDetachedFromWindow()V
@@ -4443,7 +4443,7 @@ return-void
     .line 8
     .line 9
     invoke-virtual {p0}, Landroidx/appcompat/widget/Toolbar;->updateBackInvokedCallbackState()V
-return-void
+    return-void
 .end method
 
 .method public onHoverEvent(Landroid/view/MotionEvent;)Z
@@ -6224,7 +6224,7 @@ return-void
     .line 765
     .line 766
     invoke-virtual {v1}, Ljava/util/ArrayList;->clear()V
-return-void
+    return-void
 .end method
 
 .method public onMeasure(II)V
@@ -7936,7 +7936,7 @@ return-void
 
     :goto_0
     invoke-virtual {p0, p1}, Landroidx/appcompat/widget/Toolbar;->setCollapseContentDescription(Ljava/lang/CharSequence;)V
-return-void
+    return-void
 .end method
 
 .method public setCollapseContentDescription(Ljava/lang/CharSequence;)V
@@ -7986,7 +7986,7 @@ return-void
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/appcompat/widget/Toolbar;->setCollapseIcon(Landroid/graphics/drawable/Drawable;)V
-return-void
+    return-void
 .end method
 
 .method public setCollapseIcon(Landroid/graphics/drawable/Drawable;)V
@@ -8037,7 +8037,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setContentInsetEndWithActions(I)V
@@ -8183,7 +8183,7 @@ return-void
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/appcompat/widget/Toolbar;->setLogo(Landroid/graphics/drawable/Drawable;)V
-return-void
+    return-void
 .end method
 
 .method public setLogo(Landroid/graphics/drawable/Drawable;)V
@@ -8267,7 +8267,7 @@ return-void
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/appcompat/widget/Toolbar;->setLogoDescription(Ljava/lang/CharSequence;)V
-return-void
+    return-void
 .end method
 
 .method public setLogoDescription(Ljava/lang/CharSequence;)V
@@ -8497,7 +8497,7 @@ return-void
     .line 96
     .line 97
     invoke-virtual {p0}, Landroidx/appcompat/widget/Toolbar;->updateBackInvokedCallbackState()V
-return-void
+    return-void
 .end method
 
 .method public setMenuCallbacks(Landroidx/appcompat/view/menu/MenuPresenter$Callback;Landroidx/appcompat/view/menu/MenuBuilder$Callback;)V
@@ -8559,7 +8559,7 @@ return-void
 
     :goto_0
     invoke-virtual {p0, p1}, Landroidx/appcompat/widget/Toolbar;->setNavigationContentDescription(Ljava/lang/CharSequence;)V
-return-void
+    return-void
 .end method
 
 .method public setNavigationContentDescription(Ljava/lang/CharSequence;)V
@@ -8614,7 +8614,7 @@ return-void
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/appcompat/widget/Toolbar;->setNavigationIcon(Landroid/graphics/drawable/Drawable;)V
-return-void
+    return-void
 .end method
 
 .method public setNavigationIcon(Landroid/graphics/drawable/Drawable;)V
@@ -8806,7 +8806,7 @@ return-void
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/appcompat/widget/Toolbar;->setSubtitle(Ljava/lang/CharSequence;)V
-return-void
+    return-void
 .end method
 
 .method public setSubtitle(Ljava/lang/CharSequence;)V
@@ -9011,7 +9011,7 @@ return-void
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/appcompat/widget/Toolbar;->setTitle(Ljava/lang/CharSequence;)V
-return-void
+    return-void
 .end method
 
 .method public setTitle(Ljava/lang/CharSequence;)V
@@ -9153,7 +9153,7 @@ return-void
     .line 8
     .line 9
     invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setTitleMarginBottom(I)V
@@ -9165,7 +9165,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setTitleMarginEnd(I)V
@@ -9177,7 +9177,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setTitleMarginStart(I)V
@@ -9189,7 +9189,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setTitleMarginTop(I)V
@@ -9201,7 +9201,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setTitleTextAppearance(Landroid/content/Context;I)V

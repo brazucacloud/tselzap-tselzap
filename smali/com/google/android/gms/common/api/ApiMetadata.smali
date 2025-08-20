@@ -150,7 +150,7 @@
     new-instance v0, Lcom/google/android/gms/common/api/ApiMetadata$Builder;
 
     invoke-direct {v0}, Lcom/google/android/gms/common/api/ApiMetadata$Builder;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 

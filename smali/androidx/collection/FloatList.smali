@@ -255,7 +255,7 @@ return-void
     const-string p1, "StringBuilder().apply(builderAction).toString()"
 
     invoke-static {p0, p1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-return-object p0
+    return-object p0
 
     .line 18
     :cond_8
@@ -2146,7 +2146,7 @@ return-object p0
     const-string p2, "StringBuilder().apply(builderAction).toString()"
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-return-object p1
+    return-object p1
 .end method
 
 .method public final joinToString(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Lp1/l;)Ljava/lang/String;
@@ -2244,7 +2244,7 @@ return-object p1
     const-string p2, "StringBuilder().apply(builderAction).toString()"
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-return-object p1
+    return-object p1
 .end method
 
 .method public final joinToString(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILp1/l;)Ljava/lang/String;
@@ -2339,7 +2339,7 @@ return-object p1
     const-string p2, "StringBuilder().apply(builderAction).toString()"
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-return-object p1
+    return-object p1
 .end method
 
 .method public final joinToString(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;Lp1/l;)Ljava/lang/String;
@@ -2435,7 +2435,7 @@ return-object p1
     const-string p2, "StringBuilder().apply(builderAction).toString()"
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-return-object p1
+    return-object p1
 .end method
 
 .method public final joinToString(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Lp1/l;)Ljava/lang/String;
@@ -2528,7 +2528,7 @@ return-object p1
     const-string p2, "StringBuilder().apply(builderAction).toString()"
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-return-object p1
+    return-object p1
 .end method
 
 .method public final joinToString(Ljava/lang/CharSequence;Lp1/l;)Ljava/lang/String;
@@ -2620,7 +2620,7 @@ return-object p1
     const-string p2, "StringBuilder().apply(builderAction).toString()"
 
     invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-return-object p1
+    return-object p1
 .end method
 
 .method public final joinToString(Lp1/l;)Ljava/lang/String;
@@ -2709,7 +2709,7 @@ return-object p1
     const-string v0, "StringBuilder().apply(builderAction).toString()"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-return-object p1
+    return-object p1
 .end method
 
 .method public final last()F

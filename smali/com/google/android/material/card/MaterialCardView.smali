@@ -2435,7 +2435,7 @@ return-void
     :cond_1
     :goto_0
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-return-void
+    return-void
 .end method
 
 .method public setStrokeWidth(I)V

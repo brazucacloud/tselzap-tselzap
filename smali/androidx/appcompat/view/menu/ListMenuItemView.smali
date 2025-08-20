@@ -159,7 +159,7 @@
 
     .line 13
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method private addContentView(Landroid/view/View;)V

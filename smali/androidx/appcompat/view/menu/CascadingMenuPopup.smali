@@ -1537,7 +1537,7 @@ return-object v0
     .line 11
     .line 12
     invoke-direct {p0, p1}, Landroidx/appcompat/view/menu/CascadingMenuPopup;->showMenu(Landroidx/appcompat/view/menu/MenuBuilder;)V
-return-void
+    return-void
 
     .line 16
     :cond_0

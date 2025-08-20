@@ -32,7 +32,7 @@
 
     .line 16
     invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
-return-void
+    return-void
 
     :catchall_0
     move-exception p1
@@ -70,7 +70,7 @@ return-void
 
     .line 12
     invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
-return-void
+    return-void
 
     :catchall_0
     move-exception p1
@@ -108,7 +108,7 @@ return-void
 
     .line 20
     invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
-return-void
+    return-void
 
     :catchall_0
     move-exception p1
@@ -146,7 +146,7 @@ return-void
 
     .line 4
     invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
-return-void
+    return-void
 
     :catchall_0
     move-exception p1
@@ -184,7 +184,7 @@ return-void
 
     .line 8
     invoke-virtual {p0, v0}, Landroid/graphics/Canvas;->restoreToCount(I)V
-return-void
+    return-void
 
     :catchall_0
     move-exception p1

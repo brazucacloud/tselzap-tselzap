@@ -689,7 +689,7 @@ return-void
     .line 6
     .line 7
     invoke-interface {p1, p0}, Landroidx/core/util/Consumer;->accept(Ljava/lang/Object;)V
-return-void
+    return-void
 
     .line 11
     :cond_0
@@ -755,7 +755,7 @@ return-void
 
     .line 14
     invoke-virtual {v0, v1}, Landroidx/dynamicanimation/animation/SpringAnimation;->animateToFinalPosition(F)V
-return-void
+    return-void
 .end method
 
 .method public animateToStart(Ljava/lang/Runnable;)V
@@ -993,7 +993,7 @@ return-void
     .line 31
     .line 32
     invoke-direct {p0}, Landroidx/transition/Transition$SeekController;->callProgressListeners()V
-return-void
+    return-void
 .end method
 
 .method public onTransitionCancel(Landroidx/transition/Transition;)V
@@ -1079,7 +1079,7 @@ return-void
     .line 30
     :cond_0
     invoke-direct {p0}, Landroidx/transition/Transition$SeekController;->callProgressListeners()V
-return-void
+    return-void
 .end method
 
 .method public removeOnProgressChangedListener(Landroidx/core/util/Consumer;)V
@@ -1202,7 +1202,7 @@ return-void
 
     .line 13
     invoke-virtual {p0, v0, v1}, Landroidx/transition/Transition$SeekController;->setCurrentPlayTimeMillis(J)V
-return-void
+    return-void
 
     .line 17
     :cond_0

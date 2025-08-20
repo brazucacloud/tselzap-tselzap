@@ -720,7 +720,7 @@ return-void
     .line 80
     .line 81
     invoke-virtual {p0}, Landroid/view/View;->refreshDrawableState()V
-return-void
+    return-void
 .end method
 
 .method private setSelectorEnabled(Z)V
@@ -908,7 +908,7 @@ return-void
     .line 12
     .line 13
     invoke-direct {p0}, Landroidx/appcompat/widget/DropDownListView;->updateSelectorStateCompat()V
-return-void
+    return-void
 .end method
 
 .method public hasFocus()Z

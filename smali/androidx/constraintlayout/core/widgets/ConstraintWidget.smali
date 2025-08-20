@@ -671,7 +671,7 @@
 
     .line 79
     invoke-direct {p0}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->addAnchors()V
-return-void
+    return-void
 
     :array_0
     .array-data 1
@@ -1085,7 +1085,7 @@ return-void
 
     .line 238
     invoke-direct {p0}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->addAnchors()V
-return-void
+    return-void
 
     :array_0
     .array-data 1
@@ -13219,7 +13219,7 @@ return-void
     :cond_b
     :goto_1
     invoke-virtual {p1}, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->reset()V
-return-void
+    return-void
 .end method
 
 .method public resetAnchors()V

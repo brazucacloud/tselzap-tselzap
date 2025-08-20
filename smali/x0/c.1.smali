@@ -19,7 +19,7 @@
     iput-object p1, p0, Lx0/c;->b:Lx0/d;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
-return-void
+    return-void
 .end method
 
 

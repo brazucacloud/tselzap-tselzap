@@ -78,6 +78,6 @@ return-object v0
 
     .line 20
     invoke-direct {v1, v0}, Landroidx/lifecycle/viewmodel/internal/CloseableCoroutineScope;-><init>(Lg1/i;)V
-return-object v1
+    return-object v1
 .end method
 .end class

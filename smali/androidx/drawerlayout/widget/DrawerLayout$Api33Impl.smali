@@ -24,7 +24,7 @@
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static findOnBackInvokedDispatcher(Landroidx/drawerlayout/widget/DrawerLayout;)Landroid/window/OnBackInvokedDispatcher;
@@ -73,7 +73,7 @@ return-void
     .line 5
     .line 6
     invoke-direct {v0, p0}, Landroidx/appcompat/widget/c;-><init>(Ljava/lang/Runnable;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public static tryRegisterOnBackInvokedCallback(Ljava/lang/Object;Ljava/lang/Object;)V

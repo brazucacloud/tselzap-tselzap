@@ -97,7 +97,7 @@
     move-result-object p1
 
     invoke-direct {p0, v0, p1}, Landroidx/viewpager2/adapter/FragmentStateAdapter;-><init>(Landroidx/fragment/app/FragmentManager;Landroidx/lifecycle/Lifecycle;)V
-return-void
+    return-void
 .end method
 
 .method public constructor <init>(Landroidx/fragment/app/FragmentActivity;)V
@@ -117,7 +117,7 @@ return-void
     move-result-object p1
 
     invoke-direct {p0, v0, p1}, Landroidx/viewpager2/adapter/FragmentStateAdapter;-><init>(Landroidx/fragment/app/FragmentManager;Landroidx/lifecycle/Lifecycle;)V
-return-void
+    return-void
 .end method
 
 .method public constructor <init>(Landroidx/fragment/app/FragmentManager;Landroidx/lifecycle/Lifecycle;)V
@@ -676,7 +676,7 @@ return-void
     .line 51
     .line 52
     invoke-virtual {v0, p1, p2}, Landroidx/collection/LongSparseArray;->remove(J)V
-return-void
+    return-void
 
     .line 56
     :cond_3
@@ -1482,7 +1482,7 @@ return-void
     .line 13
     :cond_1
     invoke-virtual {p0}, Landroidx/viewpager2/adapter/FragmentStateAdapter;->gcFragments()V
-return-void
+    return-void
 .end method
 
 .method public bridge synthetic onCreateViewHolder(Landroid/view/ViewGroup;I)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
@@ -1601,7 +1601,7 @@ return-void
 
     .line 3
     invoke-virtual {p0}, Landroidx/viewpager2/adapter/FragmentStateAdapter;->gcFragments()V
-return-void
+    return-void
 .end method
 
 .method public bridge synthetic onViewRecycled(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V

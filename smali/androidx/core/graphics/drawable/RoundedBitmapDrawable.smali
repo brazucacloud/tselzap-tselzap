@@ -1579,7 +1579,7 @@
     move-result p1
 
     invoke-virtual {p0, p1}, Landroidx/core/graphics/drawable/RoundedBitmapDrawable;->setTargetDensity(I)V
-return-void
+    return-void
 .end method
 
 .method public setTargetDensity(Landroid/util/DisplayMetrics;)V

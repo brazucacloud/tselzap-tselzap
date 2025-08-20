@@ -422,7 +422,7 @@ return-void
     .line 98
     .line 99
     invoke-virtual {p2}, Landroidx/fragment/app/FragmentTransaction;->commitNow()V
-return-void
+    return-void
 
     .line 103
     :cond_5
@@ -1032,7 +1032,7 @@ return-void
 
     .line 37
     invoke-direct {p1, v0, v1}, Landroidx/activity/ComponentDialog;-><init>(Landroid/content/Context;I)V
-return-object p1
+    return-object p1
 .end method
 
 .method public onDestroyView()V
@@ -1159,7 +1159,7 @@ return-object p1
     .line 20
     .line 21
     invoke-virtual {v0, v1}, Landroidx/lifecycle/LiveData;->removeObserver(Landroidx/lifecycle/Observer;)V
-return-void
+    return-void
 .end method
 
 .method public onDismiss(Landroid/content/DialogInterface;)V
@@ -2377,6 +2377,6 @@ return-void
     .line 16
     .line 17
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentTransaction;->commitNow()V
-return-void
+    return-void
 .end method
 .end class

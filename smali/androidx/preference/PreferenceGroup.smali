@@ -196,7 +196,7 @@ return-void
     .line 16
     :cond_0
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method private removePreferenceInt(Landroidx/preference/Preference;)Z
@@ -1329,7 +1329,7 @@ return-void
 
     .line 26
     invoke-super {p0, p1}, Landroidx/preference/Preference;->onRestoreInstanceState(Landroid/os/Parcelable;)V
-return-void
+    return-void
 
     .line 30
     :cond_1
@@ -1434,7 +1434,7 @@ return-object v1
 
     .line 28
     invoke-virtual {p0}, Landroidx/preference/Preference;->notifyHierarchyChanged()V
-return-void
+    return-void
 
     .line 32
     :goto_1

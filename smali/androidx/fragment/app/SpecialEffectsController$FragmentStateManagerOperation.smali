@@ -100,7 +100,7 @@
     .line 5
     .line 6
     invoke-virtual {v0}, Landroidx/fragment/app/FragmentStateManager;->moveToExpectedState()V
-return-void
+    return-void
 .end method
 
 .method public onStart()V

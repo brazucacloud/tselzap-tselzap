@@ -3599,7 +3599,7 @@ return-void
     .line 18
     .line 19
     invoke-virtual {p0}, Landroid/content/res/TypedArray;->recycle()V
-return-object v0
+    return-object v0
 .end method
 
 .method private convertReferenceString(Landroid/view/View;Ljava/lang/String;)[I
@@ -4062,7 +4062,7 @@ return-void
     .line 19
     .line 20
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-object v0
+    return-object v0
 .end method
 
 .method private get(I)Landroidx/constraintlayout/widget/ConstraintSet$Constraint;
@@ -12170,7 +12170,7 @@ return-void
     .line 8
     .line 9
     invoke-virtual {p1}, Landroidx/constraintlayout/widget/ConstraintLayout;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public applyToHelper(Landroidx/constraintlayout/widget/ConstraintHelper;Landroidx/constraintlayout/core/widgets/ConstraintWidget;Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;Landroid/util/SparseArray;)V
@@ -17031,7 +17031,7 @@ return-void
 
     .line 125
     invoke-virtual {p1, p2}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-return-void
+    return-void
 .end method
 
 .method public getApplyElevation(I)Z

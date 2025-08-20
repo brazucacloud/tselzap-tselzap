@@ -323,7 +323,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Landroidx/activity/OnBackPressedDispatcher;->onBackPressed()V
-return-void
+    return-void
 .end method
 
 .method public onCreate(Landroid/os/Bundle;)V
@@ -398,7 +398,7 @@ return-void
     .line 34
     .line 35
     invoke-virtual {p1, v0}, Landroidx/lifecycle/LifecycleRegistry;->handleLifecycleEvent(Landroidx/lifecycle/Lifecycle$Event;)V
-return-void
+    return-void
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Bundle;
@@ -454,7 +454,7 @@ return-object v0
     .line 9
     .line 10
     invoke-virtual {v0, v1}, Landroidx/lifecycle/LifecycleRegistry;->handleLifecycleEvent(Landroidx/lifecycle/Lifecycle$Event;)V
-return-void
+    return-void
 .end method
 
 .method public onStop()V

@@ -66,7 +66,7 @@ return-void
 
     .line 5
     invoke-direct {p0, p1, p2, p3, p4}, Landroid/database/sqlite/SQLiteOpenHelper;-><init>(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V
-return-void
+    return-void
 .end method
 
 .end class

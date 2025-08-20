@@ -176,7 +176,7 @@ return-void
     .line 8
     .line 9
     invoke-virtual {p0}, Landroidx/lifecycle/ProcessLifecycleOwner;->dispatchStopIfNeeded$lifecycle_process_release()V
-return-void
+    return-void
 .end method
 
 .method public static final get()Landroidx/lifecycle/LifecycleOwner;
@@ -392,7 +392,7 @@ return-void
     .line 6
     .line 7
     invoke-virtual {p0}, Landroidx/lifecycle/ProcessLifecycleOwner;->dispatchStopIfNeeded$lifecycle_process_release()V
-return-void
+    return-void
 .end method
 
 .method public final attach$lifecycle_process_release(Landroid/content/Context;)V

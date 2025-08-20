@@ -1256,7 +1256,7 @@ return-void
     move-result-object p0
 
     invoke-virtual {p0}, Landroid/widget/Toast;->show()V
-return-void
+    return-void
 .end method
 
 .method public static logError(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
@@ -1334,7 +1334,7 @@ return-void
     move-result-object p0
 
     invoke-virtual {p0}, Landroid/widget/Toast;->show()V
-return-void
+    return-void
 .end method
 
 .method public static navigateToFragment(Landroid/app/Activity;Landroidx/fragment/app/Fragment;I)V

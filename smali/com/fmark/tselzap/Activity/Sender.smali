@@ -2126,7 +2126,7 @@
 
     .line 1
     invoke-direct {p0}, Lcom/fmark/tselzap/Activity/Sender;->WhtsC()V
-return-void
+    return-void
 .end method
 
 .method public static bridge synthetic l(Lcom/fmark/tselzap/Activity/Sender;)V
@@ -2134,7 +2134,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Lcom/fmark/tselzap/Activity/Sender;->checkUpdate()V
-return-void
+    return-void
 .end method
 
 .method public static bridge synthetic m(Lcom/fmark/tselzap/Activity/Sender;Landroid/content/Context;)Z

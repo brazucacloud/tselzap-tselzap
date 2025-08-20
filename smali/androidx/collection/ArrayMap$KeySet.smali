@@ -39,7 +39,7 @@
     .line 2
     .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -99,7 +99,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Landroidx/collection/SimpleArrayMap;->clear()V
-return-void
+    return-void
 .end method
 
 .method public contains(Ljava/lang/Object;)Z
@@ -281,7 +281,7 @@ return-void
     .line 4
     .line 5
     invoke-direct {v0, v1}, Landroidx/collection/ArrayMap$KeyIterator;-><init>(Landroidx/collection/ArrayMap;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public remove(Ljava/lang/Object;)Z

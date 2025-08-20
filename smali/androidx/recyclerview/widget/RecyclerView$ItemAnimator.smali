@@ -388,7 +388,7 @@
     .line 25
     .line 26
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
-return-void
+    return-void
 .end method
 
 .method public abstract endAnimation(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
@@ -474,7 +474,7 @@ return-void
     .line 2
     .line 3
     invoke-direct {v0}, Landroidx/recyclerview/widget/RecyclerView$ItemAnimator$ItemHolderInfo;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method public onAnimationFinished(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V

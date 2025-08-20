@@ -301,7 +301,7 @@ return-void
     .line 5
     .line 6
     invoke-virtual {p1}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->reset()V
-return-void
+    return-void
 .end method
 
 .method public removeAllChildren()V
@@ -313,7 +313,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
-return-void
+    return-void
 .end method
 
 .method public reset()V

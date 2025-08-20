@@ -500,7 +500,7 @@
     .line 128
     :cond_3
     invoke-virtual {v9}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V
-return-void
+    return-void
 
     .line 132
     :goto_1
@@ -539,7 +539,7 @@ return-void
     .line 11
     .line 12
     invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatCheckedTextViewHelper;->applyCheckMarkTint()V
-return-void
+    return-void
 .end method
 
 .method public setSupportCheckMarkTintList(Landroid/content/res/ColorStateList;)V
@@ -558,7 +558,7 @@ return-void
     .line 5
     .line 6
     invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatCheckedTextViewHelper;->applyCheckMarkTint()V
-return-void
+    return-void
 .end method
 
 .method public setSupportCheckMarkTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -581,6 +581,6 @@ return-void
     .line 5
     .line 6
     invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatCheckedTextViewHelper;->applyCheckMarkTint()V
-return-void
+    return-void
 .end method
 .end class

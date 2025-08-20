@@ -77,7 +77,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/lifecycle/EmittedSource;->removeSource()V
-return-void
+    return-void
 .end method
 
 .method private final removeSource()V

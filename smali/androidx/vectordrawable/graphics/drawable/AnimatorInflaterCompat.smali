@@ -43,7 +43,7 @@
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method private static createAnimatorFromXml(Landroid/content/Context;Landroid/content/res/Resources;Landroid/content/res/Resources$Theme;Lorg/xmlpull/v1/XmlPullParser;F)Landroid/animation/Animator;
@@ -366,7 +366,7 @@ return-void
 
     .line 26
     invoke-virtual {v8, p0}, Landroid/animation/AnimatorSet;->playTogether([Landroid/animation/Animator;)V
-return-object v6
+    return-object v6
 
     .line 27
     :cond_b
@@ -2145,7 +2145,7 @@ return-object v6
     .line 100
     :cond_7
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-object p2
+    return-object p2
 .end method
 
 .method private static loadObjectAnimator(Landroid/content/Context;Landroid/content/res/Resources;Landroid/content/res/Resources$Theme;Landroid/util/AttributeSet;FLorg/xmlpull/v1/XmlPullParser;)Landroid/animation/ObjectAnimator;

@@ -114,7 +114,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Mixin;->clearName()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$300(Landroidx/datastore/preferences/protobuf/Mixin;Landroidx/datastore/preferences/protobuf/ByteString;)V
@@ -138,7 +138,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Mixin;->clearRoot()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$600(Landroidx/datastore/preferences/protobuf/Mixin;Landroidx/datastore/preferences/protobuf/ByteString;)V
@@ -708,7 +708,7 @@ return-object p1
     .line 85
     .line 86
     invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/Mixin;-><init>()V
-return-object p1
+    return-object p1
 
     .line 90
     nop

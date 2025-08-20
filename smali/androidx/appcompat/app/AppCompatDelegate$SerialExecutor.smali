@@ -95,7 +95,7 @@ return-void
     .line 3
     .line 4
     invoke-virtual {p0}, Landroidx/appcompat/app/AppCompatDelegate$SerialExecutor;->scheduleNext()V
-return-void
+    return-void
 
     .line 8
     :catchall_0

@@ -17,7 +17,7 @@
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static dumpLayoutParams(Landroid/view/ViewGroup$LayoutParams;Ljava/lang/String;)V
@@ -211,7 +211,7 @@ return-void
     move-result-object p1
 
     invoke-virtual {p0, p1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-return-void
+    return-void
 .end method
 
 .method public static dumpLayoutParams(Landroid/view/ViewGroup;Ljava/lang/String;)V
@@ -915,7 +915,7 @@ return-void
 
     .line 235
     invoke-virtual {p0, v0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-return-void
+    return-void
 .end method
 
 .method public static getActionType(Landroid/view/MotionEvent;)Ljava/lang/String;

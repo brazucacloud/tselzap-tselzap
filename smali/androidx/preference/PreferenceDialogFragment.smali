@@ -65,7 +65,7 @@
 
     .line 1
     invoke-direct {p0}, Landroid/app/DialogFragment;-><init>()V
-return-void
+    return-void
 .end method
 
 .method private requestInputMethod(Landroid/app/Dialog;)V

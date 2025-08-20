@@ -23,7 +23,7 @@
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -42,6 +42,6 @@ return-void
     .line 5
     .line 6
     invoke-virtual {v0}, Ljava/lang/Thread;->start()V
-return-void
+    return-void
 .end method
 .end class

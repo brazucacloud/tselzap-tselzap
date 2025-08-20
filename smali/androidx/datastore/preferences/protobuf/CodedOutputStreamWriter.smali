@@ -2834,7 +2834,7 @@ return-void
     .line 8
     .line 9
     invoke-direct {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedOutputStreamWriter;->writeDeterministicMap(ILandroidx/datastore/preferences/protobuf/MapEntryLite$Metadata;Ljava/util/Map;)V
-return-void
+    return-void
 
     .line 13
     :cond_0

@@ -107,7 +107,7 @@
 
     .line 10
     invoke-virtual {v2, v4, v3, v0}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
-return-object v5
+    return-object v5
 
     .line 11
     :cond_0
@@ -160,7 +160,7 @@ return-object v5
     move-result-object v2
 
     invoke-virtual {v2}, Lcom/google/android/gms/measurement/internal/zzap;->zzr()V
-return-object v0
+    return-object v0
 
     :catchall_0
     move-exception v0
@@ -200,7 +200,7 @@ return-object v0
     move-result-object v2
 
     invoke-virtual {v2}, Lcom/google/android/gms/measurement/internal/zzap;->zzr()V
-return-object v0
+    return-object v0
 
     .line 21
     :cond_2
@@ -552,7 +552,7 @@ return-object v0
     move-result-object v2
 
     invoke-virtual {v2}, Lcom/google/android/gms/measurement/internal/zzap;->zzr()V
-return-object v0
+    return-object v0
 
     .line 60
     :cond_a
@@ -1545,7 +1545,7 @@ return-object v0
 
     .line 173
     invoke-virtual {v2, v4, v3, v0}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
-return-object v20
+    return-object v20
 
     .line 174
     :goto_b
@@ -1577,7 +1577,7 @@ return-object v20
     move-result-object v2
 
     invoke-virtual {v2}, Lcom/google/android/gms/measurement/internal/zzap;->zzr()V
-return-object v0
+    return-object v0
 
     .line 177
     :goto_c

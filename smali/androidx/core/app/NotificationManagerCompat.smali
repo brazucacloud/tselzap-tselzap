@@ -995,7 +995,7 @@ return-void
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/core/app/NotificationManagerCompat;->createNotificationChannel(Landroid/app/NotificationChannel;)V
-return-void
+    return-void
 .end method
 
 .method public createNotificationChannelGroup(Landroid/app/NotificationChannelGroup;)V
@@ -1034,7 +1034,7 @@ return-void
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/core/app/NotificationManagerCompat;->createNotificationChannelGroup(Landroid/app/NotificationChannelGroup;)V
-return-void
+    return-void
 .end method
 
 .method public createNotificationChannelGroups(Ljava/util/List;)V

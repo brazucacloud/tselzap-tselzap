@@ -34,7 +34,7 @@
     iput-object p1, p0, Landroidx/datastore/preferences/protobuf/SmallSortedMap$EntrySet;->this$0:Landroidx/datastore/preferences/protobuf/SmallSortedMap;
 
     invoke-direct {p0}, Ljava/util/AbstractSet;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public synthetic constructor <init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Landroidx/datastore/preferences/protobuf/SmallSortedMap$1;)V
@@ -111,7 +111,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->clear()V
-return-void
+    return-void
 .end method
 
 .method public contains(Ljava/lang/Object;)Z

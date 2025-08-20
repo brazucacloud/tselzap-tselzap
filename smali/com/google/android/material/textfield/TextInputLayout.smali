@@ -16972,7 +16972,7 @@ return-void
 
     :goto_0
     invoke-virtual {p0, p1}, Lcom/google/android/material/textfield/TextInputLayout;->setHint(Ljava/lang/CharSequence;)V
-return-void
+    return-void
 .end method
 
 .method public setHint(Ljava/lang/CharSequence;)V
@@ -17849,7 +17849,7 @@ return-void
     iget-object v0, v0, Lx0/p;->h:Lcom/google/android/material/internal/CheckableImageButton;
 
     invoke-virtual {v0, p1}, Landroidx/appcompat/widget/AppCompatImageButton;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
-return-void
+    return-void
 .end method
 
 .method public setPasswordVisibilityToggleDrawable(Landroid/graphics/drawable/Drawable;)V
@@ -18459,7 +18459,7 @@ return-void
 
     :goto_0
     invoke-virtual {p0, p1}, Lcom/google/android/material/textfield/TextInputLayout;->setStartIconContentDescription(Ljava/lang/CharSequence;)V
-return-void
+    return-void
 .end method
 
 .method public setStartIconContentDescription(Ljava/lang/CharSequence;)V
@@ -18513,7 +18513,7 @@ return-void
 
     :goto_0
     invoke-virtual {p0, p1}, Lcom/google/android/material/textfield/TextInputLayout;->setStartIconDrawable(Landroid/graphics/drawable/Drawable;)V
-return-void
+    return-void
 .end method
 
 .method public setStartIconDrawable(Landroid/graphics/drawable/Drawable;)V

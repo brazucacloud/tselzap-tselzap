@@ -334,7 +334,7 @@
     .line 51
     .line 52
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$ViewFlinger;->postOnAnimation()V
-return-void
+    return-void
 .end method
 
 .method public postOnAnimation()V
@@ -358,7 +358,7 @@ return-void
     .line 9
     :cond_0
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$ViewFlinger;->internalPostOnAnimation()V
-return-void
+    return-void
 .end method
 
 .method public run()V
@@ -382,7 +382,7 @@ return-void
     .line 8
     .line 9
     invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$ViewFlinger;->stop()V
-return-void
+    return-void
 
     .line 13
     :cond_0
@@ -1240,7 +1240,7 @@ return-void
     .line 407
     .line 408
     invoke-direct {v0}, Landroidx/recyclerview/widget/RecyclerView$ViewFlinger;->internalPostOnAnimation()V
-return-void
+    return-void
 
     .line 412
     :cond_1a
@@ -1402,7 +1402,7 @@ return-void
     .line 64
     :cond_3
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$ViewFlinger;->postOnAnimation()V
-return-void
+    return-void
 .end method
 
 .method public stop()V
@@ -1423,6 +1423,6 @@ return-void
     .line 7
     .line 8
     invoke-virtual {v0}, Landroid/widget/OverScroller;->abortAnimation()V
-return-void
+    return-void
 .end method
 .end class

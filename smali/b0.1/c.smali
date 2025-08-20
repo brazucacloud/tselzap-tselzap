@@ -360,7 +360,7 @@
     .line 23
     .line 24
     invoke-virtual {p1, v0}, LN0/d;->f(Lw0/d;)V
-return-void
+    return-void
 
     .line 28
     :cond_1

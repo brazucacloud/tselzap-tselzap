@@ -1528,7 +1528,7 @@ return-void
     .line 70
     .line 71
     invoke-virtual {v1}, Landroidx/fragment/app/Fragment;->restoreChildFragmentState()V
-return-void
+    return-void
 .end method
 
 .method public createView()V
@@ -2834,7 +2834,7 @@ return-void
     .line 239
     .line 240
     invoke-virtual {v0, p0}, Landroidx/fragment/app/FragmentStore;->makeInactive(Landroidx/fragment/app/FragmentStateManager;)V
-return-void
+    return-void
 .end method
 
 .method public destroyFragmentView()V
@@ -5088,7 +5088,7 @@ return-void
 
     .line 14
     invoke-direct {v0, v1}, Landroidx/fragment/app/Fragment$SavedState;-><init>(Landroid/os/Bundle;)V
-return-object v0
+    return-object v0
 
     .line 18
     :cond_0

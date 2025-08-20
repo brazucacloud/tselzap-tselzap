@@ -3683,7 +3683,7 @@
     .line 233
     .line 234
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView;->resetFocusInfo()V
-return-void
+    return-void
 .end method
 
 .method private dispatchToOnItemTouchListeners(Landroid/view/MotionEvent;)Z
@@ -6970,7 +6970,7 @@ return-void
     :cond_5
     :goto_3
     invoke-virtual {p0}, Landroid/view/View;->postInvalidateOnAnimation()V
-return-void
+    return-void
 .end method
 
 .method private recoverFocusFromState()V
@@ -8285,7 +8285,7 @@ return-void
     .line 11
     .line 12
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView;->releaseGlows()V
-return-void
+    return-void
 .end method
 
 .method private saveFocusInfo()V
@@ -8361,7 +8361,7 @@ return-void
     .line 30
     .line 31
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView;->resetFocusInfo()V
-return-void
+    return-void
 
     .line 35
     :cond_2
@@ -9241,7 +9241,7 @@ return-void
     :cond_5
     :goto_2
     invoke-virtual {p0}, Landroid/view/View;->postInvalidateOnAnimation()V
-return-void
+    return-void
 .end method
 
 .method public addFocusables(Ljava/util/ArrayList;II)V
@@ -9357,7 +9357,7 @@ return-void
 
     .line 8
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public addOnChildAttachStateChangeListener(Landroidx/recyclerview/widget/RecyclerView$OnChildAttachStateChangeListener;)V
@@ -9967,7 +9967,7 @@ return-void
     .line 33
     .line 34
     invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->clearOldPositions()V
-return-void
+    return-void
 .end method
 
 .method public clearOnChildAttachStateChangeListeners()V
@@ -10752,7 +10752,7 @@ return-void
     .line 81
     .line 82
     invoke-static {}, Landroid/os/Trace;->endSection()V
-return-void
+    return-void
 
     .line 86
     :cond_4
@@ -10805,7 +10805,7 @@ return-void
     .line 109
     .line 110
     invoke-static {}, Landroid/os/Trace;->endSection()V
-return-void
+    return-void
 .end method
 
 .method public defaultOnMeasure(II)V
@@ -11653,7 +11653,7 @@ return-void
     .line 125
     :goto_2
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView;->dispatchLayoutStep3()V
-return-void
+    return-void
 .end method
 
 .method public dispatchNestedFling(FFZ)Z
@@ -11767,7 +11767,7 @@ return-void
     move-object v7, p7
 
     invoke-virtual/range {v0 .. v7}, Landroidx/core/view/NestedScrollingChildHelper;->dispatchNestedScroll(IIII[II[I)V
-return-void
+    return-void
 .end method
 
 .method public dispatchNestedScroll(IIII[I)Z
@@ -12987,7 +12987,7 @@ return-void
 
     .line 47
     invoke-virtual {v0, v1, v2}, Landroid/widget/EdgeEffect;->setSize(II)V
-return-void
+    return-void
 
     .line 51
     :cond_1
@@ -13008,7 +13008,7 @@ return-void
 
     .line 59
     invoke-virtual {v0, v1, v2}, Landroid/widget/EdgeEffect;->setSize(II)V
-return-void
+    return-void
 .end method
 
 .method public ensureLeftGlow()V
@@ -13111,7 +13111,7 @@ return-void
 
     .line 47
     invoke-virtual {v0, v1, v2}, Landroid/widget/EdgeEffect;->setSize(II)V
-return-void
+    return-void
 
     .line 51
     :cond_1
@@ -13132,7 +13132,7 @@ return-void
 
     .line 59
     invoke-virtual {v0, v1, v2}, Landroid/widget/EdgeEffect;->setSize(II)V
-return-void
+    return-void
 .end method
 
 .method public ensureRightGlow()V
@@ -13235,7 +13235,7 @@ return-void
 
     .line 47
     invoke-virtual {v0, v1, v2}, Landroid/widget/EdgeEffect;->setSize(II)V
-return-void
+    return-void
 
     .line 51
     :cond_1
@@ -13256,7 +13256,7 @@ return-void
 
     .line 59
     invoke-virtual {v0, v1, v2}, Landroid/widget/EdgeEffect;->setSize(II)V
-return-void
+    return-void
 .end method
 
 .method public ensureTopGlow()V
@@ -13359,7 +13359,7 @@ return-void
 
     .line 47
     invoke-virtual {v0, v1, v2}, Landroid/widget/EdgeEffect;->setSize(II)V
-return-void
+    return-void
 
     .line 51
     :cond_1
@@ -13380,7 +13380,7 @@ return-void
 
     .line 59
     invoke-virtual {v0, v1, v2}, Landroid/widget/EdgeEffect;->setSize(II)V
-return-void
+    return-void
 .end method
 
 .method public exceptionLabel()Ljava/lang/String;
@@ -16052,7 +16052,7 @@ return-object v1
     .line 21
     .line 22
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public isAccessibilityEnabled()Z
@@ -16300,7 +16300,7 @@ return-void
     .line 29
     .line 30
     invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->markItemDecorInsetsDirty()V
-return-void
+    return-void
 .end method
 
 .method public markKnownViewsInvalid()V
@@ -16390,7 +16390,7 @@ return-void
     .line 39
     .line 40
     invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->markKnownViewsInvalid()V
-return-void
+    return-void
 .end method
 
 .method public nestedScrollBy(II)V
@@ -16703,7 +16703,7 @@ return-void
     .line 90
     .line 91
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public offsetPositionRecordsForMove(II)V
@@ -16916,7 +16916,7 @@ return-void
     .line 95
     .line 96
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public offsetPositionRecordsForRemove(IIZ)V
@@ -17192,7 +17192,7 @@ return-void
     .line 135
     .line 136
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public onAttachedToWindow()V
@@ -19264,7 +19264,7 @@ return-void
     .line 19
     .line 20
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -19373,7 +19373,7 @@ return-void
     :cond_1
     :goto_0
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView;->invalidateGlows()V
-return-void
+    return-void
 .end method
 
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
@@ -20482,7 +20482,7 @@ return-void
     .line 8
     .line 9
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView;->markKnownViewsInvalid()V
-return-void
+    return-void
 .end method
 
 .method public recordAnimationInfoIfBouncedHiddenView(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;Landroidx/recyclerview/widget/RecyclerView$ItemAnimator$ItemHolderInfo;)V
@@ -20628,7 +20628,7 @@ return-void
     .line 25
     .line 26
     invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->clear()V
-return-void
+    return-void
 .end method
 
 .method public removeAnimatingView(Landroid/view/View;)Z
@@ -20988,7 +20988,7 @@ return-void
     .line 38
     .line 39
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public removeItemDecorationAt(I)V
@@ -22373,7 +22373,7 @@ return-void
     .line 11
     .line 12
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setChildDrawingOrderCallback(Landroidx/recyclerview/widget/RecyclerView$ChildDrawingOrderCallback;)V
@@ -22527,7 +22527,7 @@ return-void
     .line 5
     .line 6
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView;->invalidateGlows()V
-return-void
+    return-void
 .end method
 
 .method public setHasFixedSize(Z)V
@@ -22857,7 +22857,7 @@ return-void
     .line 121
     .line 122
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setLayoutTransition(Landroid/animation/LayoutTransition;)V
@@ -22905,7 +22905,7 @@ return-void
 
     .line 5
     invoke-virtual {v0, p1}, Landroidx/core/view/NestedScrollingChildHelper;->setNestedScrollingEnabled(Z)V
-return-void
+    return-void
 .end method
 
 .method public setOnFlingListener(Landroidx/recyclerview/widget/RecyclerView$OnFlingListener;)V
@@ -23718,7 +23718,7 @@ return-void
     move-result-object v0
 
     invoke-virtual {v0}, Landroidx/core/view/NestedScrollingChildHelper;->stopNestedScroll()V
-return-void
+    return-void
 .end method
 
 .method public stopNestedScroll(I)V
@@ -23730,7 +23730,7 @@ return-void
     move-result-object v0
 
     invoke-virtual {v0, p1}, Landroidx/core/view/NestedScrollingChildHelper;->stopNestedScroll(I)V
-return-void
+    return-void
 .end method
 
 .method public stopScroll()V
@@ -23746,7 +23746,7 @@ return-void
     .line 4
     .line 5
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView;->stopScrollersInternal()V
-return-void
+    return-void
 .end method
 
 .method public final suppressLayout(Z)V
@@ -23902,7 +23902,7 @@ return-void
     .line 11
     .line 12
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public viewRangeUpdate(IILjava/lang/Object;)V

@@ -193,7 +193,7 @@
 
     .line 3
     invoke-direct {p0, v0, p1}, Landroidx/recyclerview/widget/AsyncListDiffer;-><init>(Landroidx/recyclerview/widget/ListUpdateCallback;Landroidx/recyclerview/widget/AsyncDifferConfig;)V
-return-void
+    return-void
 .end method
 
 .method private onCurrentListChanged(Ljava/util/List;Ljava/lang/Runnable;)V

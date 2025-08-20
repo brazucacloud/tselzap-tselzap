@@ -17,7 +17,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/fragment/app/FragmentTransitionImpl;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic a(Ljava/lang/Runnable;Landroidx/transition/Transition;Ljava/lang/Runnable;)V

@@ -9,7 +9,7 @@
 
     .line 2
     invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zziz;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public synthetic constructor <init>(Lcom/google/android/gms/internal/measurement/zzjm;)V
@@ -17,7 +17,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzjh;-><init>()V
-return-void
+    return-void
 .end method
 
 

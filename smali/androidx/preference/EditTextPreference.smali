@@ -121,7 +121,7 @@ return-void
     .line 5
     :cond_0
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 
@@ -354,7 +354,7 @@ return-void
     .line 19
     :cond_0
     invoke-virtual {p0}, Landroidx/preference/Preference;->notifyChanged()V
-return-void
+    return-void
 .end method
 
 .method public shouldDisableDependents()Z

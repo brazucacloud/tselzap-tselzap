@@ -160,7 +160,7 @@
 
     .line 14
     invoke-virtual {p1, p2, p3}, Landroidx/appcompat/widget/AppCompatEmojiTextHelper;->loadFromAttributes(Landroid/util/AttributeSet;I)V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$001(Landroidx/appcompat/widget/AppCompatTextView;)I
@@ -1354,7 +1354,7 @@ return-void
 
     .line 8
     invoke-virtual {v0, p1}, Landroidx/appcompat/widget/AppCompatEmojiTextHelper;->setAllCaps(Z)V
-return-void
+    return-void
 .end method
 
 .method public setAutoSizeTextTypeUniformWithConfiguration(IIII)V
@@ -1887,7 +1887,7 @@ return-void
 
     .line 5
     invoke-virtual {v0, p1}, Landroidx/appcompat/widget/AppCompatEmojiTextHelper;->setEnabled(Z)V
-return-void
+    return-void
 .end method
 
 .method public setFilters([Landroid/text/InputFilter;)V
@@ -2141,7 +2141,7 @@ return-void
     .line 7
     .line 8
     invoke-virtual {p1}, Landroidx/appcompat/widget/AppCompatTextHelper;->applyCompoundDrawablesTints()V
-return-void
+    return-void
 .end method
 
 .method public setSupportCompoundDrawablesTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -2171,7 +2171,7 @@ return-void
     .line 7
     .line 8
     invoke-virtual {p1}, Landroidx/appcompat/widget/AppCompatTextHelper;->applyCompoundDrawablesTints()V
-return-void
+    return-void
 .end method
 
 .method public setTextAppearance(Landroid/content/Context;I)V

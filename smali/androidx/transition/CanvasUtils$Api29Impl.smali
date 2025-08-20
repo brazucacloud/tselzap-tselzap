@@ -24,7 +24,7 @@
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static disableZ(Landroid/graphics/Canvas;)V
@@ -34,7 +34,7 @@ return-void
 
     .line 1
     invoke-virtual {p0}, Landroid/graphics/Canvas;->disableZ()V
-return-void
+    return-void
 .end method
 
 .method public static enableZ(Landroid/graphics/Canvas;)V
@@ -44,6 +44,6 @@ return-void
 
     .line 1
     invoke-virtual {p0}, Landroid/graphics/Canvas;->enableZ()V
-return-void
+    return-void
 .end method
 .end class

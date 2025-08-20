@@ -17,7 +17,7 @@
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -50,7 +50,7 @@ return-void
     .line 6
     .line 7
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
-return-void
+    return-void
 
     .line 11
     :cond_0

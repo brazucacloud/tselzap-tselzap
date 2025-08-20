@@ -131,7 +131,7 @@ return-void
     .line 28
     .line 29
     invoke-direct {p0}, Landroidx/collection/MutableIntSet;->removeDeletedMarkers()V
-return-void
+    return-void
 
     .line 33
     :cond_0
@@ -873,7 +873,7 @@ return-void
     .line 34
     .line 35
     invoke-direct {p0}, Landroidx/collection/MutableIntSet;->initializeGrowth()V
-return-void
+    return-void
 .end method
 
 .method private final initializeStorage(I)V
@@ -1742,7 +1742,7 @@ return-void
     .line 33
     :cond_0
     invoke-direct {p0}, Landroidx/collection/MutableIntSet;->initializeGrowth()V
-return-void
+    return-void
 .end method
 
 .method public final minusAssign(I)V

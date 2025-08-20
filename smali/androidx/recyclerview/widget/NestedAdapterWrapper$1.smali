@@ -28,7 +28,7 @@
     .line 2
     .line 3
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -66,7 +66,7 @@ return-void
     .line 14
     .line 15
     invoke-interface {v1, v0}, Landroidx/recyclerview/widget/NestedAdapterWrapper$Callback;->onChanged(Landroidx/recyclerview/widget/NestedAdapterWrapper;)V
-return-void
+    return-void
 .end method
 
 .method public onItemRangeChanged(II)V

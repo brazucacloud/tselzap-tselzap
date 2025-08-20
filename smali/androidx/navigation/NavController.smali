@@ -4610,7 +4610,7 @@ return-void
 
     .line 31
     invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
-return-object p1
+    return-object p1
 .end method
 
 .method private final instantiateBackStack(Ld1/h;)Ljava/util/List;
@@ -6025,7 +6025,7 @@ return-object p1
     .line 114
     :cond_9
     invoke-virtual {v0}, Landroidx/navigation/NavController;->updateBackStackLifecycle$navigation_runtime_release()V
-return-void
+    return-void
 
     .line 115
     :cond_a
@@ -8866,7 +8866,7 @@ return-void
     .line 16
     :goto_0
     invoke-virtual {v0, v2}, Landroidx/activity/OnBackPressedCallback;->setEnabled(Z)V
-return-void
+    return-void
 .end method
 
 
@@ -9092,7 +9092,7 @@ return-void
     .line 2
     .line 3
     invoke-direct {v0, p0}, Landroidx/navigation/NavDeepLinkBuilder;-><init>(Landroidx/navigation/NavController;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public enableOnBackPressed(Z)V
@@ -9109,7 +9109,7 @@ return-object v0
     .line 2
     .line 3
     invoke-direct {p0}, Landroidx/navigation/NavController;->updateOnBackPressedCallbackEnabled()V
-return-void
+    return-void
 .end method
 
 .method public final findDestination(ILandroidx/navigation/NavDestination;)Landroidx/navigation/NavDestination;
@@ -9751,7 +9751,7 @@ return-void
     .line 6
     .line 7
     invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->d(Ljava/lang/Object;Ljava/lang/String;)V
-return-object v0
+    return-object v0
 
     .line 11
     :cond_0
@@ -14224,7 +14224,7 @@ return-void
     const/4 v0, 0x0
 
     invoke-virtual {p0, p1, v0}, Landroidx/navigation/NavController;->setGraph(Landroidx/navigation/NavGraph;Landroid/os/Bundle;)V
-return-void
+    return-void
 .end method
 
 .method public setGraph(ILandroid/os/Bundle;)V
@@ -14249,7 +14249,7 @@ return-void
     move-result-object p1
 
     invoke-virtual {p0, p1, p2}, Landroidx/navigation/NavController;->setGraph(Landroidx/navigation/NavGraph;Landroid/os/Bundle;)V
-return-void
+    return-void
 .end method
 
 .method public setGraph(Landroidx/navigation/NavGraph;)V
@@ -14398,7 +14398,7 @@ return-void
 
     .line 12
     invoke-direct {p0, p2}, Landroidx/navigation/NavController;->onGraphCreated(Landroid/os/Bundle;)V
-return-void
+    return-void
 
     :cond_4
     move-object v3, p0

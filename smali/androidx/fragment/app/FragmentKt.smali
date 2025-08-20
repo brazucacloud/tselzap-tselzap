@@ -43,7 +43,7 @@ return-void
 
     .line 15
     invoke-virtual {p0, p1}, Landroidx/fragment/app/FragmentManager;->clearFragmentResult(Ljava/lang/String;)V
-return-void
+    return-void
 .end method
 
 .method public static final clearFragmentResultListener(Landroidx/fragment/app/Fragment;Ljava/lang/String;)V
@@ -77,7 +77,7 @@ return-void
 
     .line 15
     invoke-virtual {p0, p1}, Landroidx/fragment/app/FragmentManager;->clearFragmentResultListener(Ljava/lang/String;)V
-return-void
+    return-void
 .end method
 
 .method public static final setFragmentResult(Landroidx/fragment/app/Fragment;Ljava/lang/String;Landroid/os/Bundle;)V
@@ -120,7 +120,7 @@ return-void
 
     .line 20
     invoke-virtual {p0, p1, p2}, Landroidx/fragment/app/FragmentManager;->setFragmentResult(Ljava/lang/String;Landroid/os/Bundle;)V
-return-void
+    return-void
 .end method
 
 .method public static final setFragmentResultListener(Landroidx/fragment/app/Fragment;Ljava/lang/String;Lp1/p;)V

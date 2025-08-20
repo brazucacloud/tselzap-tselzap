@@ -355,7 +355,7 @@ return-void
     .line 11
     :cond_0
     invoke-virtual {p0}, Landroidx/appcompat/app/ActionBarDrawerToggle;->syncState()V
-return-void
+    return-void
 .end method
 
 .method public onDrawerClosed(Landroid/view/View;)V
@@ -606,7 +606,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p0}, Landroidx/appcompat/app/ActionBarDrawerToggle;->syncState()V
-return-void
+    return-void
 .end method
 
 .method public setDrawerIndicatorEnabled(Z)V
@@ -741,7 +741,7 @@ return-void
     .line 8
     :goto_0
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/ActionBarDrawerToggle;->setHomeAsUpIndicator(Landroid/graphics/drawable/Drawable;)V
-return-void
+    return-void
 .end method
 
 .method public setHomeAsUpIndicator(Landroid/graphics/drawable/Drawable;)V

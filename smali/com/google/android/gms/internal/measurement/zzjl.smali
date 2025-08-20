@@ -37,7 +37,7 @@
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzjl;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static zza(I)I

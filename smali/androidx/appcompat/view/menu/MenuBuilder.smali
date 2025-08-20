@@ -451,7 +451,7 @@ return-object v0
     .line 49
     :cond_2
     invoke-virtual {p0}, Landroidx/appcompat/view/menu/MenuBuilder;->startDispatchingItemsChanged()V
-return-void
+    return-void
 .end method
 
 .method private dispatchRestoreInstanceState(Landroid/os/Bundle;)V
@@ -4538,7 +4538,7 @@ return-void
     .line 57
     :cond_4
     invoke-virtual {p0}, Landroidx/appcompat/view/menu/MenuBuilder;->startDispatchingItemsChanged()V
-return-void
+    return-void
 .end method
 
 .method public setGroupCheckable(IZZ)V

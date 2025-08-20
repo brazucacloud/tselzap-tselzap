@@ -416,7 +416,7 @@
     .line 84
     .line 85
     invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintHelper;->validateParams()V
-return-void
+    return-void
 .end method
 
 .method public loadParameters(Landroidx/constraintlayout/widget/ConstraintSet$Constraint;Landroidx/constraintlayout/core/widgets/HelperWidget;Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;Landroid/util/SparseArray;)V
@@ -587,7 +587,7 @@ return-void
     .line 19
     .line 20
     invoke-virtual {v0, p1}, Landroidx/constraintlayout/core/widgets/Barrier;->setMargin(I)V
-return-void
+    return-void
 .end method
 
 .method public setMargin(I)V

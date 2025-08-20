@@ -94,7 +94,7 @@
 
     .line 7
     invoke-virtual {p0, v5}, Landroidx/collection/ArraySet;->set_size$collection(I)V
-return-void
+    return-void
 
     .line 8
     :cond_0
@@ -1823,7 +1823,7 @@ return-object v0
     .line 18
     .line 19
     invoke-virtual {p0}, Landroidx/collection/ArraySet;->clear()V
-return-object v1
+    return-object v1
 
     .line 23
     :cond_0
@@ -2113,7 +2113,7 @@ return-object v1
     .line 158
     .line 159
     invoke-virtual {p0, v3}, Landroidx/collection/ArraySet;->set_size$collection(I)V
-return-object v1
+    return-object v1
 
     .line 163
     :cond_6

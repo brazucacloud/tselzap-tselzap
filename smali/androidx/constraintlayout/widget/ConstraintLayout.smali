@@ -4047,7 +4047,7 @@ return-void
     const/4 v1, -0x2
 
     invoke-direct {v0, v1, v1}, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;-><init>(II)V
-return-object v0
+    return-object v0
 .end method
 
 .method public bridge synthetic generateLayoutParams(Landroid/util/AttributeSet;)Landroid/view/ViewGroup$LayoutParams;
@@ -4083,7 +4083,7 @@ return-object v0
     move-result-object v1
 
     invoke-direct {v0, v1, p1}, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public getDesignInformation(ILjava/lang/Object;)Ljava/lang/Object;
@@ -6125,7 +6125,7 @@ return-void
 
     .line 19
     invoke-virtual {p1, v0, p0}, Landroid/util/SparseArray;->put(ILjava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method public setMaxHeight(I)V
@@ -6145,7 +6145,7 @@ return-void
     .line 7
     .line 8
     invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintLayout;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setMaxWidth(I)V
@@ -6165,7 +6165,7 @@ return-void
     .line 7
     .line 8
     invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintLayout;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setMinHeight(I)V
@@ -6185,7 +6185,7 @@ return-void
     .line 7
     .line 8
     invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintLayout;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setMinWidth(I)V
@@ -6205,7 +6205,7 @@ return-void
     .line 7
     .line 8
     invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintLayout;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setOnConstraintsChanged(Landroidx/constraintlayout/widget/ConstraintsChangedListener;)V

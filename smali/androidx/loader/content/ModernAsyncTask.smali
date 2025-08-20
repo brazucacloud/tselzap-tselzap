@@ -624,7 +624,7 @@ return-object p0
 
     .line 2
     invoke-virtual {p0}, Landroidx/loader/content/ModernAsyncTask;->onCancelled()V
-return-void
+    return-void
 .end method
 
 .method public onPostExecute(Ljava/lang/Object;)V
@@ -704,7 +704,7 @@ return-void
 
     .line 20
     invoke-virtual {v0}, Landroid/os/Message;->sendToTarget()V
-return-object p1
+    return-object p1
 .end method
 
 .method public postResultIfNotInvoked(Ljava/lang/Object;)V

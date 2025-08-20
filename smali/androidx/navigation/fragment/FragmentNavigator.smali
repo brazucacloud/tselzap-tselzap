@@ -604,7 +604,7 @@ return-void
     .line 23
     .line 24
     invoke-virtual {p1, p2}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
-return-void
+    return-void
 .end method
 
 .method public static synthetic b(Landroidx/navigation/fragment/FragmentNavigator;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
@@ -1321,7 +1321,7 @@ return-void
     move-result-object v1
 
     invoke-virtual {v1, p1}, Landroidx/navigation/NavigatorState;->pushWithTransition(Landroidx/navigation/NavBackStackEntry;)V
-return-void
+    return-void
 
     .line 10
     :cond_0
@@ -1486,7 +1486,7 @@ return-void
     move-result-object v1
 
     invoke-virtual {v1, p1}, Landroidx/navigation/NavigatorState;->pushWithTransition(Landroidx/navigation/NavBackStackEntry;)V
-return-void
+    return-void
 .end method
 
 .method private static final onAttach$lambda$3(Landroidx/navigation/NavigatorState;Landroidx/navigation/fragment/FragmentNavigator;Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;)V
@@ -1886,7 +1886,7 @@ return-void
     new-instance v0, Landroidx/navigation/fragment/FragmentNavigator$Destination;
 
     invoke-direct {v0, p0}, Landroidx/navigation/fragment/FragmentNavigator$Destination;-><init>(Landroidx/navigation/Navigator;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public final getBackStack$navigation_fragment_release()LC1/A;
@@ -1992,7 +1992,7 @@ return-object v0
     .line 29
     .line 30
     invoke-static {p1, p2}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-return-object p1
+    return-object p1
 .end method
 
 .method public navigate(Ljava/util/List;Landroidx/navigation/NavOptions;Landroidx/navigation/Navigator$Extras;)V
@@ -2384,7 +2384,7 @@ return-void
 
     .line 117
     invoke-virtual {v0, p1}, Landroidx/navigation/NavigatorState;->onLaunchSingleTop(Landroidx/navigation/NavBackStackEntry;)V
-return-void
+    return-void
 .end method
 
 .method public onRestoreState(Landroid/os/Bundle;)V
@@ -3108,6 +3108,6 @@ return-void
 
     .line 290
     invoke-virtual {v1, p1, p2}, Landroidx/navigation/NavigatorState;->popWithTransition(Landroidx/navigation/NavBackStackEntry;Z)V
-return-void
+    return-void
 .end method
 .end class

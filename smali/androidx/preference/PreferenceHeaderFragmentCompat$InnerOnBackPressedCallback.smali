@@ -56,7 +56,7 @@
 
     .line 16
     invoke-virtual {p1, p0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->addPanelSlideListener(Landroidx/slidingpanelayout/widget/SlidingPaneLayout$PanelSlideListener;)V
-return-void
+    return-void
 .end method
 
 

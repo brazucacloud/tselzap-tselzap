@@ -330,7 +330,7 @@ return-void
     .line 99
     :cond_1
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
-return-void
+    return-void
 .end method
 
 .method private drawVertical(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;)V
@@ -532,7 +532,7 @@ return-void
     .line 95
     :cond_1
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
-return-void
+    return-void
 .end method
 
 
@@ -591,7 +591,7 @@ return-void
 
     .line 19
     invoke-virtual {p1, p3, p3, p3, p2}, Landroid/graphics/Rect;->set(IIII)V
-return-void
+    return-void
 
     .line 23
     :cond_1
@@ -604,7 +604,7 @@ return-void
 
     .line 27
     invoke-virtual {p1, p3, p3, p2, p3}, Landroid/graphics/Rect;->set(IIII)V
-return-void
+    return-void
 .end method
 
 .method public onDraw(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;)V

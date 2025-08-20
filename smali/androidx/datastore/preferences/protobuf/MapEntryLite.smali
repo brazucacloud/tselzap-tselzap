@@ -288,7 +288,7 @@ return-object v0
     new-instance p0, Ljava/util/AbstractMap$SimpleImmutableEntry;
 
     invoke-direct {p0, v0, v1}, Ljava/util/AbstractMap$SimpleImmutableEntry;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
-return-object p0
+    return-object p0
 .end method
 
 .method public static parseField(Landroidx/datastore/preferences/protobuf/CodedInputStream;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;Landroidx/datastore/preferences/protobuf/WireFormat$FieldType;Ljava/lang/Object;)Ljava/lang/Object;

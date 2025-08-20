@@ -385,7 +385,7 @@ return-void
 
     .line 43
     invoke-interface {v0}, Ljava/util/Iterator;->remove()V
-return-void
+    return-void
 
     .line 47
     :cond_1

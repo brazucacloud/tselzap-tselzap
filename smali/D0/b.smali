@@ -26,7 +26,7 @@
     iput-object p3, p0, LD0/b;->d:Ljava/lang/Object;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public synthetic constructor <init>(Ljava/lang/Object;Ljava/lang/Object;IZ)V
@@ -40,7 +40,7 @@ return-void
     iput-object p2, p0, LD0/b;->c:Ljava/lang/Object;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 

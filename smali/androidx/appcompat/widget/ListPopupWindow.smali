@@ -1797,7 +1797,7 @@ return-void
     .line 8
     .line 9
     invoke-direct {v0, v1}, Landroid/graphics/Rect;-><init>(Landroid/graphics/Rect;)V
-return-object v0
+    return-object v0
 
     .line 13
     :cond_0
@@ -2970,7 +2970,7 @@ return-void
     .line 25
     :cond_0
     invoke-virtual {p0, p1}, Landroidx/appcompat/widget/ListPopupWindow;->setWidth(I)V
-return-void
+    return-void
 .end method
 
 .method public setDropDownAlwaysVisible(Z)V

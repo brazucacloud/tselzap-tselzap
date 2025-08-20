@@ -3365,7 +3365,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Lcom/fmark/tselzap/Services/BackgroundApiService;->fetchDataFromApi()V
-return-void
+    return-void
 .end method
 
 .method public static bridge synthetic q(Lcom/fmark/tselzap/Services/BackgroundApiService;Ljava/lang/String;Ljava/lang/Exception;)V
@@ -3381,7 +3381,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Lcom/fmark/tselzap/Services/BackgroundApiService;->restartService()V
-return-void
+    return-void
 .end method
 
 .method private releaseWakeLock()V

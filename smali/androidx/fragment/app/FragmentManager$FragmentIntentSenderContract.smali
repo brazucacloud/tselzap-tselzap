@@ -29,7 +29,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/activity/result/contract/ActivityResultContract;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -185,7 +185,7 @@ return-void
     new-instance v0, Landroidx/activity/result/ActivityResult;
 
     invoke-direct {v0, p1, p2}, Landroidx/activity/result/ActivityResult;-><init>(ILandroid/content/Intent;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public bridge synthetic parseResult(ILandroid/content/Intent;)Ljava/lang/Object;

@@ -520,7 +520,7 @@
     .line 27
     .line 28
     invoke-virtual {v0}, Landroidx/collection/SimpleArrayMap;->clear()V
-return-void
+    return-void
 .end method
 
 .method public contains(Ljava/lang/Object;)Z

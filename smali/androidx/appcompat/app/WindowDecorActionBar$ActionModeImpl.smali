@@ -413,7 +413,7 @@ return-object v0
     .line 21
     .line 22
     invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuBuilder;->startDispatchingItemsChanged()V
-return-void
+    return-void
 
     .line 26
     :catchall_0
@@ -636,7 +636,7 @@ return-void
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/WindowDecorActionBar$ActionModeImpl;->setSubtitle(Ljava/lang/CharSequence;)V
-return-void
+    return-void
 .end method
 
 .method public setSubtitle(Ljava/lang/CharSequence;)V
@@ -669,7 +669,7 @@ return-void
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/WindowDecorActionBar$ActionModeImpl;->setTitle(Ljava/lang/CharSequence;)V
-return-void
+    return-void
 .end method
 
 .method public setTitle(Ljava/lang/CharSequence;)V

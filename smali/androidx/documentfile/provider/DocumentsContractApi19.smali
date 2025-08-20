@@ -21,7 +21,7 @@
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static canRead(Landroid/content/Context;Landroid/net/Uri;)Z
@@ -743,7 +743,7 @@ return-void
 
     .line 37
     invoke-static {p0}, Landroidx/documentfile/provider/DocumentsContractApi19;->closeQuietly(Ljava/lang/AutoCloseable;)V
-return-wide p1
+    return-wide p1
 
     .line 41
     :catchall_0
@@ -807,7 +807,7 @@ return-wide p3
     .line 67
     .line 68
     invoke-static {p0}, Landroidx/documentfile/provider/DocumentsContractApi19;->closeQuietly(Ljava/lang/AutoCloseable;)V
-return-wide p3
+    return-wide p3
 
     .line 72
     :goto_1
@@ -911,7 +911,7 @@ return-wide p3
 
     .line 37
     invoke-static {p0}, Landroidx/documentfile/provider/DocumentsContractApi19;->closeQuietly(Ljava/lang/AutoCloseable;)V
-return-object p1
+    return-object p1
 
     .line 41
     :catchall_0
@@ -975,7 +975,7 @@ return-object p3
     .line 67
     .line 68
     invoke-static {p0}, Landroidx/documentfile/provider/DocumentsContractApi19;->closeQuietly(Ljava/lang/AutoCloseable;)V
-return-object p3
+    return-object p3
 
     .line 72
     :goto_1

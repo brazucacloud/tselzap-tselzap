@@ -946,7 +946,7 @@ return-void
     .line 5
     .line 6
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-return-void
+    return-void
 .end method
 
 .method public setPadding(IIII)V
@@ -990,7 +990,7 @@ return-void
     .line 7
     .line 8
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-return-void
+    return-void
 .end method
 
 .method public setTabIndicatorColorResource(I)V
@@ -1018,7 +1018,7 @@ return-void
 
     .line 9
     invoke-virtual {p0, p1}, Landroidx/viewpager/widget/PagerTabStrip;->setTabIndicatorColor(I)V
-return-void
+    return-void
 .end method
 
 .method public setTextSpacing(I)V

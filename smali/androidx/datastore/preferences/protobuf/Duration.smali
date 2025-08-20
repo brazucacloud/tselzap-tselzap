@@ -79,7 +79,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/GeneratedMessageLite;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$000()Landroidx/datastore/preferences/protobuf/Duration;
@@ -102,7 +102,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Duration;->clearSeconds()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$300(Landroidx/datastore/preferences/protobuf/Duration;I)V
@@ -118,7 +118,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Duration;->clearNanos()V
-return-void
+    return-void
 .end method
 
 .method private clearNanos()V
@@ -595,7 +595,7 @@ return-object p1
     .line 85
     .line 86
     invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/Duration;-><init>()V
-return-object p1
+    return-object p1
 
     .line 90
     nop

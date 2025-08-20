@@ -136,7 +136,7 @@ return-void
 
     .line 6
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 
@@ -523,7 +523,7 @@ return-void
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/preference/MultiSelectListPreference;->setEntries([Ljava/lang/CharSequence;)V
-return-void
+    return-void
 .end method
 
 .method public setEntries([Ljava/lang/CharSequence;)V
@@ -605,6 +605,6 @@ return-void
     .line 13
     .line 14
     invoke-virtual {p0}, Landroidx/preference/Preference;->notifyChanged()V
-return-void
+    return-void
 .end method
 .end class

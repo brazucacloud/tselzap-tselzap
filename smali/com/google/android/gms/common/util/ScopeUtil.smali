@@ -13,7 +13,7 @@
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static toScopeString(Ljava/util/Set;)[Ljava/lang/String;

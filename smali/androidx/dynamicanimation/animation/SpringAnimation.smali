@@ -277,7 +277,7 @@ return-void
     .line 25
     .line 26
     invoke-virtual {p0}, Landroidx/dynamicanimation/animation/SpringAnimation;->start()V
-return-void
+    return-void
 .end method
 
 .method public canSkipToEnd()Z

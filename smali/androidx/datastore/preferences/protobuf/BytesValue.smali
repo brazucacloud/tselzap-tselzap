@@ -105,7 +105,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BytesValue;->clearValue()V
-return-void
+    return-void
 .end method
 
 .method private clearValue()V
@@ -601,7 +601,7 @@ return-void
     .line 80
     .line 81
     invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/BytesValue;-><init>()V
-return-object p1
+    return-object p1
 
     .line 85
     :pswitch_data_0

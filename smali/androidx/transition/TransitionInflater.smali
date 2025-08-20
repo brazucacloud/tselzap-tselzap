@@ -1907,7 +1907,7 @@ return-object v0
     :cond_4
     :goto_2
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 
@@ -1963,7 +1963,7 @@ return-void
 
     .line 20
     invoke-interface {p1}, Landroid/content/res/XmlResourceParser;->close()V
-return-object v0
+    return-object v0
 
     .line 24
     :catchall_0

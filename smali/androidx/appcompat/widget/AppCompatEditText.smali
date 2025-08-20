@@ -1150,7 +1150,7 @@ return-void
     .line 7
     .line 8
     invoke-virtual {p1}, Landroidx/appcompat/widget/AppCompatTextHelper;->applyCompoundDrawablesTints()V
-return-void
+    return-void
 .end method
 
 .method public setSupportCompoundDrawablesTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -1180,7 +1180,7 @@ return-void
     .line 7
     .line 8
     invoke-virtual {p1}, Landroidx/appcompat/widget/AppCompatTextHelper;->applyCompoundDrawablesTints()V
-return-void
+    return-void
 .end method
 
 .method public setTextAppearance(Landroid/content/Context;I)V
@@ -1259,6 +1259,6 @@ return-void
 
     .line 20
     invoke-virtual {v0, p1}, Landroidx/appcompat/widget/AppCompatEditText$SuperCaller;->setTextClassifier(Landroid/view/textclassifier/TextClassifier;)V
-return-void
+    return-void
 .end method
 .end class

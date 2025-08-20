@@ -177,7 +177,7 @@
     .line 16
     .line 17
     invoke-direct {v0, p0, v1, p1}, Landroidx/documentfile/provider/TreeDocumentFile;-><init>(Landroidx/documentfile/provider/DocumentFile;Landroid/content/Context;Landroid/net/Uri;)V
-return-object v0
+    return-object v0
 
     .line 21
     :cond_0

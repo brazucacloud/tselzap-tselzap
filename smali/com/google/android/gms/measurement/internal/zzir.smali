@@ -140,7 +140,7 @@ return-void
     const-string p2, "Error clearing default event params"
 
     invoke-virtual {p0, p2, p1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-return-void
+    return-void
 
     .line 143
     :cond_0
@@ -189,7 +189,7 @@ return-void
     move-result-object p3
 
     invoke-virtual {p0, p2, p3, v0, p1}, Lcom/google/android/gms/measurement/internal/zzap;->zza(Ljava/lang/String;Ljava/lang/Long;Ljava/lang/String;Landroid/os/Bundle;)V
-return-void
+    return-void
 
     .line 150
     :cond_1
@@ -265,7 +265,7 @@ return-void
 
     .line 129
     invoke-virtual {p0, p2, p4, p1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method public static synthetic zza(Lcom/google/android/gms/measurement/internal/zzir;Lcom/google/android/gms/measurement/internal/zzq;Lcom/google/android/gms/measurement/internal/zzag;)V
@@ -366,7 +366,7 @@ return-void
 
     .line 115
     invoke-virtual {p0, p3, p1, p2}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method private final zza(Ljava/lang/Runnable;)V
@@ -392,7 +392,7 @@ return-void
 
     .line 206
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
-return-void
+    return-void
 
     .line 207
     :cond_0
@@ -403,7 +403,7 @@ return-void
     move-result-object v0
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/measurement/internal/zzij;->zzc(Ljava/lang/Runnable;)V
-return-void
+    return-void
 .end method
 
 .method private final zza(Ljava/lang/String;Z)V
@@ -707,7 +707,7 @@ return-void
 
     .line 18
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
-return-void
+    return-void
 
     .line 19
     :cond_0
@@ -718,7 +718,7 @@ return-void
     move-result-object v0
 
     invoke-virtual {v0, p1}, Lcom/google/android/gms/measurement/internal/zzij;->zzb(Ljava/lang/Runnable;)V
-return-void
+    return-void
 .end method
 
 .method private final zzd(Lcom/google/android/gms/measurement/internal/zzbj;Lcom/google/android/gms/measurement/internal/zzq;)V
@@ -1998,7 +1998,7 @@ return-void
     const-string p3, "[sgtm] UploadBatchesCallback failed."
 
     invoke-virtual {p2, p3, p1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-return-void
+    return-void
 
     :cond_0
     const/4 v0, 0x0
@@ -2409,7 +2409,7 @@ return-object v2
 
     .line 4
     invoke-direct {p0, p1, p2}, Lcom/google/android/gms/measurement/internal/zzir;->zzd(Lcom/google/android/gms/measurement/internal/zzbj;Lcom/google/android/gms/measurement/internal/zzq;)V
-return-void
+    return-void
 
     .line 5
     :cond_0

@@ -24,7 +24,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/fragment/app/Fragment;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static final synthetic access$getOnBackPressedCallback$p(Landroidx/preference/PreferenceHeaderFragmentCompat;)Landroidx/activity/OnBackPressedCallback;
@@ -302,7 +302,7 @@ return-void
     .line 24
     :goto_0
     invoke-virtual {v0, p0}, Landroidx/activity/OnBackPressedCallback;->setEnabled(Z)V
-return-void
+    return-void
 .end method
 
 .method private final openPreferenceHeader(Landroid/content/Intent;)V
@@ -334,7 +334,7 @@ return-void
     move-result-object p1
 
     invoke-direct {p0, p1}, Landroidx/preference/PreferenceHeaderFragmentCompat;->openPreferenceHeader(Landroid/content/Intent;)V
-return-void
+    return-void
 
     .line 3
     :cond_0
@@ -899,7 +899,7 @@ return-void
 
     .line 55
     invoke-virtual {p1, p2}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->setLockMode(I)V
-return-object p1
+    return-object p1
 .end method
 
 .method public onPreferenceStartFragment(Landroidx/preference/PreferenceFragmentCompat;Landroidx/preference/Preference;)Z

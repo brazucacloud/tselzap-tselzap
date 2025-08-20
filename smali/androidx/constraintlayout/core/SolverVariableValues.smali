@@ -139,7 +139,7 @@
     .line 45
     .line 46
     invoke-virtual {p0}, Landroidx/constraintlayout/core/SolverVariableValues;->clear()V
-return-void
+    return-void
 .end method
 
 .method private addToHashMap(Landroidx/constraintlayout/core/SolverVariable;I)V

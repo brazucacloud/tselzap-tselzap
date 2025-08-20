@@ -1377,7 +1377,7 @@
 
     .line 1
     invoke-direct {p0}, Lcom/fmark/tselzap/fragments/Api_coder;->showImprovedDialog()V
-return-void
+    return-void
 .end method
 
 .method public static bridge synthetic r(Lcom/fmark/tselzap/fragments/Api_coder;)V
@@ -1385,7 +1385,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Lcom/fmark/tselzap/fragments/Api_coder;->startServiceLogic()V
-return-void
+    return-void
 .end method
 
 .method public static bridge synthetic s(Lcom/fmark/tselzap/fragments/Api_coder;Z)V
@@ -1847,7 +1847,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Lcom/fmark/tselzap/fragments/Api_coder;->updateLog()V
-return-void
+    return-void
 .end method
 
 .method public static bridge synthetic u(Lcom/fmark/tselzap/fragments/Api_coder;Ljava/lang/String;)V

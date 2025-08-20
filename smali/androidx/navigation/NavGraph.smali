@@ -717,7 +717,7 @@
 
     .line 114
     invoke-virtual {v0, v1, p1}, Landroidx/collection/SparseArrayCompat;->put(ILjava/lang/Object;)V
-return-void
+    return-void
 
     .line 118
     :cond_6
@@ -1706,7 +1706,7 @@ return-void
     .line 18
     .line 19
     invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public final getStartDestination()I
@@ -1843,7 +1843,7 @@ return-object v0
     .line 2
     .line 3
     invoke-direct {v0, p0}, Landroidx/navigation/NavGraph$iterator$1;-><init>(Landroidx/navigation/NavGraph;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public matchDeepLink(Landroidx/navigation/NavDeepLinkRequest;)Landroidx/navigation/NavDestination$DeepLinkMatch;
@@ -2461,7 +2461,7 @@ return-object v0
     .line 48
     .line 49
     invoke-virtual {p2}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method public final remove(Landroidx/navigation/NavDestination;)V
@@ -2900,6 +2900,6 @@ return-void
     .line 98
     .line 99
     invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-return-object v0
+    return-object v0
 .end method
 .end class

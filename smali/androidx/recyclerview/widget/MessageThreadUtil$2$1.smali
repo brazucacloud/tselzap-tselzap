@@ -31,7 +31,7 @@
     .line 2
     .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -73,7 +73,7 @@ return-void
 
     .line 16
     invoke-virtual {v0, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
-return-void
+    return-void
 
     .line 20
     :cond_0

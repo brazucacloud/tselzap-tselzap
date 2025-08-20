@@ -240,7 +240,7 @@
 
     .line 25
     invoke-direct {v0, v1, v2, v3}, Landroidx/navigation/fragment/FragmentNavigator;-><init>(Landroid/content/Context;Landroidx/fragment/app/FragmentManager;I)V
-return-object v0
+    return-object v0
 .end method
 
 .method public final getNavController()Landroidx/navigation/NavController;
@@ -409,7 +409,7 @@ return-object v0
     .line 33
     :cond_0
     invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onCreate(Landroid/os/Bundle;)V
-return-void
+    return-void
 .end method
 
 .method public onCreateNavController(Landroidx/navigation/NavController;)V
@@ -745,7 +745,7 @@ return-void
     .line 61
     :cond_1
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method public onSaveInstanceState(Landroid/os/Bundle;)V

@@ -204,7 +204,7 @@
     .line 66
     :goto_0
     invoke-virtual {p0}, Landroidx/preference/PreferenceGroupAdapter;->updatePreferences()V
-return-void
+    return-void
 .end method
 
 .method private createExpandButton(Landroidx/preference/PreferenceGroup;Ljava/util/List;)Landroidx/preference/ExpandButton;

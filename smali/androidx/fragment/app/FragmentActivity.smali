@@ -63,7 +63,7 @@
 
     .line 5
     invoke-direct {p0}, Landroidx/fragment/app/FragmentActivity;->init()V
-return-void
+    return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -103,7 +103,7 @@ return-void
 
     .line 10
     invoke-direct {p0}, Landroidx/fragment/app/FragmentActivity;->init()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic d(Landroidx/fragment/app/FragmentActivity;Landroid/content/Context;)V
@@ -248,7 +248,7 @@ return-void
     .line 12
     .line 13
     invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method private synthetic lambda$init$1(Landroid/content/res/Configuration;)V
@@ -260,7 +260,7 @@ return-object v0
     .line 2
     .line 3
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentController;->noteStateNotSaved()V
-return-void
+    return-void
 .end method
 
 .method private synthetic lambda$init$2(Landroid/content/Intent;)V
@@ -272,7 +272,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentController;->noteStateNotSaved()V
-return-void
+    return-void
 .end method
 
 .method private synthetic lambda$init$3(Landroid/content/Context;)V
@@ -730,7 +730,7 @@ return-void
 
     .line 104
     invoke-virtual {v0, p1, p2, p3, p4}, Landroidx/fragment/app/FragmentManager;->dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
-return-void
+    return-void
 .end method
 
 .method public getSupportFragmentManager()Landroidx/fragment/app/FragmentManager;
@@ -869,7 +869,7 @@ return-void
     .line 12
     .line 13
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentController;->dispatchCreate()V
-return-void
+    return-void
 .end method
 
 .method public onCreateView(Landroid/view/View;Ljava/lang/String;Landroid/content/Context;Landroid/util/AttributeSet;)Landroid/view/View;
@@ -1078,7 +1078,7 @@ return-void
     .line 3
     .line 4
     invoke-virtual {p0}, Landroidx/fragment/app/FragmentActivity;->onResumeFragments()V
-return-void
+    return-void
 .end method
 
 .method public onRequestPermissionsResult(I[Ljava/lang/String;[I)V
@@ -1162,7 +1162,7 @@ return-void
     .line 9
     .line 10
     invoke-virtual {v0}, Landroidx/fragment/app/FragmentController;->dispatchResume()V
-return-void
+    return-void
 .end method
 
 .method public onStart()V
@@ -1242,7 +1242,7 @@ return-void
     .line 37
     .line 38
     invoke-virtual {v0}, Landroidx/fragment/app/FragmentController;->dispatchStart()V
-return-void
+    return-void
 .end method
 
 .method public onStateNotSaved()V
@@ -1254,7 +1254,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Landroidx/fragment/app/FragmentController;->noteStateNotSaved()V
-return-void
+    return-void
 .end method
 
 .method public onStop()V
@@ -1449,7 +1449,7 @@ return-void
 
     .line 1
     invoke-virtual {p0}, Landroidx/activity/ComponentActivity;->invalidateMenu()V
-return-void
+    return-void
 .end method
 
 .method public supportPostponeEnterTransition()V

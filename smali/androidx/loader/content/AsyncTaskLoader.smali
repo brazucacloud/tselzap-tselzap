@@ -208,7 +208,7 @@ return-void
     .line 14
     .line 15
     invoke-virtual {p0, p2}, Landroidx/loader/content/AsyncTaskLoader;->onCanceled(Ljava/lang/Object;)V
-return-void
+    return-void
 
     .line 19
     :cond_1
@@ -237,7 +237,7 @@ return-void
     .line 30
     .line 31
     invoke-virtual {p0, p2}, Landroidx/loader/content/Loader;->deliverResult(Ljava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method public dump(Ljava/lang/String;Ljava/io/FileDescriptor;Ljava/io/PrintWriter;[Ljava/lang/String;)V
@@ -814,7 +814,7 @@ return-void
     .line 13
     .line 14
     invoke-virtual {p0}, Landroidx/loader/content/AsyncTaskLoader;->executePendingTask()V
-return-void
+    return-void
 .end method
 
 .method public onLoadInBackground()Ljava/lang/Object;

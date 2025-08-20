@@ -181,7 +181,7 @@ return-void
     .line 8
     .line 9
     invoke-direct {p0, p1}, Landroidx/transition/ChangeImageTransform$Listener;->saveMatrix(Landroid/graphics/Matrix;)V
-return-void
+    return-void
 .end method
 
 .method public onAnimationResume(Landroid/animation/Animator;)V
@@ -189,7 +189,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/transition/ChangeImageTransform$Listener;->restoreMatrix()V
-return-void
+    return-void
 .end method
 
 .method public onAnimationStart(Landroid/animation/Animator;)V
@@ -282,7 +282,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/transition/ChangeImageTransform$Listener;->restoreMatrix()V
-return-void
+    return-void
 .end method
 
 .method public onTransitionStart(Landroidx/transition/Transition;)V

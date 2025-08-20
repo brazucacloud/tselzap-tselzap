@@ -25,7 +25,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/SnapHelper;-><init>()V
-return-void
+    return-void
 .end method
 
 .method private computeDistancePerChild(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;Landroidx/recyclerview/widget/OrientationHelper;)F

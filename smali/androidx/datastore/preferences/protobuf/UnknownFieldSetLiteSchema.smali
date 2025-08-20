@@ -20,7 +20,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/UnknownFieldSchema;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -281,7 +281,7 @@ return-void
 
     .line 5
     invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;->makeImmutable()V
-return-void
+    return-void
 .end method
 
 .method public merge(Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;)Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;
@@ -398,7 +398,7 @@ return-void
 
     .line 2
     invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/UnknownFieldSetLite;->makeImmutable()V
-return-object p1
+    return-object p1
 .end method
 
 .method public bridge synthetic toImmutable(Ljava/lang/Object;)Ljava/lang/Object;

@@ -223,7 +223,7 @@
     iget-object v1, p0, Lcom/google/android/gms/measurement/internal/zzbi;->zza:Landroid/os/Bundle;
 
     invoke-direct {v0, v1}, Landroid/os/Bundle;-><init>(Landroid/os/Bundle;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public final zzb(Ljava/lang/String;)Ljava/lang/Long;

@@ -270,7 +270,7 @@ return-object p1
     new-instance p1, Lcom/google/android/gms/internal/measurement/zzfz$zzf;
 
     invoke-direct {p1}, Lcom/google/android/gms/internal/measurement/zzfz$zzf;-><init>()V
-return-object p1
+    return-object p1
 
     :pswitch_data_0
     .packed-switch 0x1

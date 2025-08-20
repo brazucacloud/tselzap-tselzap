@@ -722,7 +722,7 @@
     .line 184
     .line 185
     invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method private final inflateArgument(Landroid/content/res/TypedArray;Landroid/content/res/Resources;I)Landroidx/navigation/NavArgument;
@@ -1573,7 +1573,7 @@ return-void
     .line 33
     :cond_0
     invoke-virtual {p3}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 
     .line 37
     :cond_1
@@ -1647,7 +1647,7 @@ return-void
     .line 26
     .line 27
     invoke-virtual {p3}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 
     .line 31
     :cond_0
@@ -1931,7 +1931,7 @@ return-void
     .line 130
     .line 131
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 
     .line 135
     :cond_7

@@ -2787,7 +2787,7 @@ return-void
     .line 4
     .line 5
     invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
-return-void
+    return-void
 
     .line 9
     :cond_0
@@ -3268,7 +3268,7 @@ return-void
 
     .line 5
     invoke-virtual {p0}, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat;->invalidateSelf()V
-return-void
+    return-void
 .end method
 
 .method public bridge synthetic setFilterBitmap(Z)V
@@ -3552,7 +3552,7 @@ return-void
     .line 16
     .line 17
     invoke-direct {p2, p1, p3}, Landroid/graphics/PorterDuffColorFilter;-><init>(ILandroid/graphics/PorterDuff$Mode;)V
-return-object p2
+    return-object p2
 
     .line 21
     :cond_1

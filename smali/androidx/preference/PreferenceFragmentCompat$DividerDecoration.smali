@@ -402,7 +402,7 @@ return-void
     .line 18
     .line 19
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->invalidateItemDecorations()V
-return-void
+    return-void
 .end method
 
 .method public setDividerHeight(I)V
@@ -422,6 +422,6 @@ return-void
     .line 6
     .line 7
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView;->invalidateItemDecorations()V
-return-void
+    return-void
 .end method
 .end class

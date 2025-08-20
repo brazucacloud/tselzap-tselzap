@@ -544,7 +544,7 @@ return-void
     .line 42
     :goto_0
     invoke-virtual {p0, v0, v1}, Landroidx/viewpager/widget/PagerTitleStrip;->updateAdapter(Landroidx/viewpager/widget/PagerAdapter;Landroidx/viewpager/widget/PagerAdapter;)V
-return-void
+    return-void
 
     .line 46
     :cond_1
@@ -914,7 +914,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p0}, Landroidx/viewpager/widget/PagerTitleStrip;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setNonPrimaryAlpha(F)V
@@ -1079,7 +1079,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p0}, Landroidx/viewpager/widget/PagerTitleStrip;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public updateAdapter(Landroidx/viewpager/widget/PagerAdapter;Landroidx/viewpager/widget/PagerAdapter;)V

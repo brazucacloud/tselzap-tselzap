@@ -44,7 +44,7 @@
     .line 4
     .line 5
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryWriter$UnsafeHeapWriter;->nextBuffer()V
-return-void
+    return-void
 .end method
 
 .method private arrayPos()I
@@ -83,7 +83,7 @@ return-void
     move-result-object v0
 
     invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryWriter$UnsafeHeapWriter;->nextBuffer(Landroidx/datastore/preferences/protobuf/AllocatedBuffer;)V
-return-void
+    return-void
 .end method
 
 .method private nextBuffer(I)V
@@ -3202,7 +3202,7 @@ return-void
     add-int/2addr v2, v0
 
     invoke-static {p1, p2, v1, v2, p3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
-return-void
+    return-void
 
     .line 6
     :cond_0
@@ -3799,7 +3799,7 @@ return-void
 
     .line 5
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryWriter$UnsafeHeapWriter;->nextBuffer()V
-return-void
+    return-void
 
     .line 6
     :cond_0
@@ -3821,7 +3821,7 @@ return-void
     add-int/2addr v2, v0
 
     invoke-static {p1, p2, v1, v2, p3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
-return-void
+    return-void
 
     .line 8
     :cond_1

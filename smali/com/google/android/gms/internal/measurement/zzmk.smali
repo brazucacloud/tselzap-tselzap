@@ -74,7 +74,7 @@
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzmk;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static bridge synthetic zza(Lcom/google/android/gms/internal/measurement/zzmk;)I
@@ -311,7 +311,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzmk;->zzg()V
-return-void
+    return-void
 .end method
 
 .method public static bridge synthetic zze(Lcom/google/android/gms/internal/measurement/zzmk;)[Ljava/lang/Object;

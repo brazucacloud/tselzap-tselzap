@@ -57,7 +57,7 @@ return-void
     new-instance v0, Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;
 
     invoke-direct {v0}, Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method public static bridge synthetic c(Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;Landroid/adservices/common/AdSelectionSignals;)Landroid/adservices/adselection/AdSelectionFromOutcomesConfig$Builder;
@@ -131,7 +131,7 @@ return-object v0
     new-instance v0, Landroid/adservices/adselection/GetAdSelectionDataRequest$Builder;
 
     invoke-direct {v0}, Landroid/adservices/adselection/GetAdSelectionDataRequest$Builder;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method public static bridge synthetic j(Landroid/adservices/adselection/GetAdSelectionDataRequest$Builder;Landroid/adservices/common/AdTechIdentifier;)Landroid/adservices/adselection/GetAdSelectionDataRequest$Builder;
@@ -174,7 +174,7 @@ return-object v0
     new-instance v0, Landroid/adservices/adselection/PersistAdSelectionResultRequest$Builder;
 
     invoke-direct {v0}, Landroid/adservices/adselection/PersistAdSelectionResultRequest$Builder;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method public static bridge synthetic n(Landroid/adservices/adselection/PersistAdSelectionResultRequest$Builder;J)Landroid/adservices/adselection/PersistAdSelectionResultRequest$Builder;
@@ -236,7 +236,7 @@ return-object v0
     move v5, p4
 
     invoke-direct/range {v0 .. v5}, Landroid/adservices/adselection/ReportEventRequest$Builder;-><init>(JLjava/lang/String;Ljava/lang/String;I)V
-return-object v0
+    return-object v0
 .end method
 
 .method public static bridge synthetic s(Landroid/adservices/adselection/ReportEventRequest$Builder;Landroid/view/InputEvent;)Landroid/adservices/adselection/ReportEventRequest$Builder;
@@ -268,7 +268,7 @@ return-object v0
     new-instance v0, Landroid/adservices/adselection/ReportImpressionRequest;
 
     invoke-direct {v0, p0, p1}, Landroid/adservices/adselection/ReportImpressionRequest;-><init>(J)V
-return-object v0
+    return-object v0
 .end method
 
 .method public static synthetic v(JILandroid/adservices/common/AdTechIdentifier;)Landroid/adservices/adselection/UpdateAdCounterHistogramRequest$Builder;

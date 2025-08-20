@@ -59,6 +59,6 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p1}, Landroidx/loader/content/Loader;->onContentChanged()V
-return-void
+    return-void
 .end method
 .end class

@@ -178,7 +178,7 @@
     .line 5
     .line 6
     invoke-direct {p0}, Landroidx/recyclerview/widget/MessageThreadUtil$2;->maybeExecuteBackgroundRunnable()V
-return-void
+    return-void
 .end method
 
 .method private sendMessageAtFrontOfQueue(Landroidx/recyclerview/widget/MessageThreadUtil$SyncQueueItem;)V
@@ -195,7 +195,7 @@ return-void
     .line 5
     .line 6
     invoke-direct {p0}, Landroidx/recyclerview/widget/MessageThreadUtil$2;->maybeExecuteBackgroundRunnable()V
-return-void
+    return-void
 .end method
 
 

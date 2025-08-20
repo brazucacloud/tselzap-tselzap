@@ -230,7 +230,7 @@
     .line 14
     .line 15
     invoke-virtual {v0}, Landroid/database/DataSetObservable;->notifyChanged()V
-return-void
+    return-void
 
     .line 19
     :goto_1

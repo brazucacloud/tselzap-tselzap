@@ -608,6 +608,6 @@ return-void
     .line 107
     .line 108
     invoke-virtual {p1}, Landroid/app/Dialog;->show()V
-return-void
+    return-void
 .end method
 .end class

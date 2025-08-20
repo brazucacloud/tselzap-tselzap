@@ -31,7 +31,7 @@
     iget-object v0, p0, Landroidx/core/content/f;->b:Landroidx/core/content/UnusedAppRestrictionsBackportServiceConnection;
 
     invoke-virtual {v0}, Landroidx/core/content/UnusedAppRestrictionsBackportServiceConnection;->disconnectFromService()V
-return-void
+    return-void
 .end method
 
 .end class

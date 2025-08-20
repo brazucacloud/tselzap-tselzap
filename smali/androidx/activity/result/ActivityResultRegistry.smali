@@ -442,7 +442,7 @@ return-void
 
     .line 16
     invoke-direct {p0, v0, p1}, Landroidx/activity/result/ActivityResultRegistry;->bindRcKey(ILjava/lang/String;)V
-return-void
+    return-void
 .end method
 
 

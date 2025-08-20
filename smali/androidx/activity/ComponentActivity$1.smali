@@ -28,7 +28,7 @@
     .line 2
     .line 3
     invoke-direct {p0}, Landroidx/activity/result/ActivityResultRegistry;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -268,7 +268,7 @@ return-void
     .line 103
     :cond_4
     invoke-static {v0, p2, p1}, Landroidx/core/app/ActivityCompat;->requestPermissions(Landroid/app/Activity;[Ljava/lang/String;I)V
-return-void
+    return-void
 
     .line 107
     :cond_5

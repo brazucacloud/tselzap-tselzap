@@ -26,7 +26,7 @@
     iput-object p2, p0, Landroidx/core/location/n;->d:Ljava/util/concurrent/Executor;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 

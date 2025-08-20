@@ -159,7 +159,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuPopupHelper;->dismiss()V
-return-void
+    return-void
 .end method
 
 .method public getDragToOpenListener()Landroid/view/View$OnTouchListener;
@@ -239,7 +239,7 @@ return-void
     .line 4
     .line 5
     invoke-direct {v0, v1}, Landroidx/appcompat/view/SupportMenuInflater;-><init>(Landroid/content/Context;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public getMenuListView()Landroid/widget/ListView;
@@ -308,7 +308,7 @@ return-object v0
     .line 6
     .line 7
     invoke-virtual {v0, p1, v1}, Landroid/view/MenuInflater;->inflate(ILandroid/view/Menu;)V
-return-void
+    return-void
 .end method
 
 .method public setForceShowIcon(Z)V
@@ -366,6 +366,6 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Landroidx/appcompat/view/menu/MenuPopupHelper;->show()V
-return-void
+    return-void
 .end method
 .end class

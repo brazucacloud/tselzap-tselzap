@@ -157,7 +157,7 @@ return-void
     .line 18
     .line 19
     invoke-virtual {p1, p2}, Landroidx/lifecycle/LiveData;->removeObserver(Landroidx/lifecycle/Observer;)V
-return-void
+    return-void
 
     .line 23
     :cond_0

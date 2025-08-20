@@ -599,7 +599,7 @@ return-void
     move-result p1
 
     invoke-virtual {p0, p1}, Landroidx/appcompat/widget/SwitchCompat;->setChecked(Z)V
-return-void
+    return-void
 .end method
 
 .method private animateThumbToCheckedState(Z)V
@@ -675,7 +675,7 @@ return-void
     .line 32
     .line 33
     invoke-virtual {p1}, Landroid/animation/ObjectAnimator;->start()V
-return-void
+    return-void
 .end method
 
 .method private applyThumbTint()V
@@ -977,7 +977,7 @@ return-void
     .line 11
     .line 12
     invoke-virtual {p1}, Landroid/view/MotionEvent;->recycle()V
-return-void
+    return-void
 .end method
 
 .method private static constrain(FFF)F
@@ -1479,7 +1479,7 @@ return-void
 
     .line 28
     invoke-direct/range {v0 .. v7}, Landroid/text/StaticLayout;-><init>(Ljava/lang/CharSequence;Landroid/text/TextPaint;ILandroid/text/Layout$Alignment;FFZ)V
-return-object v0
+    return-object v0
 .end method
 
 .method private setOffStateDescriptionOnRAndAbove()V
@@ -3214,7 +3214,7 @@ return-void
     .line 10
     .line 11
     invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public onInitializeAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
@@ -3322,7 +3322,7 @@ return-void
     .line 41
     .line 42
     invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityNodeInfo;->setText(Ljava/lang/CharSequence;)V
-return-void
+    return-void
 
     .line 46
     :cond_1
@@ -4553,7 +4553,7 @@ return-void
 
     .line 8
     invoke-virtual {v0, p1}, Landroidx/appcompat/widget/AppCompatEmojiTextHelper;->setAllCaps(Z)V
-return-void
+    return-void
 .end method
 
 .method public setChecked(Z)V
@@ -4617,7 +4617,7 @@ return-void
     .line 28
     .line 29
     invoke-direct {p0, p1}, Landroidx/appcompat/widget/SwitchCompat;->animateThumbToCheckedState(Z)V
-return-void
+    return-void
 
     .line 33
     :cond_1
@@ -4702,7 +4702,7 @@ return-void
     .line 17
     .line 18
     invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public final setEnforceSwitchWidth(Z)V
@@ -4714,7 +4714,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-return-void
+    return-void
 .end method
 
 .method public setFilters([Landroid/text/InputFilter;)V
@@ -4742,7 +4742,7 @@ return-void
 
     .line 9
     invoke-super {p0, p1}, Landroid/widget/CompoundButton;->setFilters([Landroid/text/InputFilter;)V
-return-void
+    return-void
 .end method
 
 .method public setShowText(Z)V
@@ -4788,7 +4788,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-return-void
+    return-void
 .end method
 
 .method public setSwitchMinWidth(I)V
@@ -4800,7 +4800,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setSwitchPadding(I)V
@@ -4812,7 +4812,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setSwitchTextAppearance(Landroid/content/Context;I)V
@@ -5025,7 +5025,7 @@ return-void
     .line 100
     .line 101
     invoke-virtual {p1}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method public setSwitchTypeface(Landroid/graphics/Typeface;)V
@@ -5272,7 +5272,7 @@ return-void
     .line 16
     :cond_1
     invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setThumbPosition(F)V
@@ -5284,7 +5284,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-return-void
+    return-void
 .end method
 
 .method public setThumbResource(I)V
@@ -5308,7 +5308,7 @@ return-void
 
     .line 9
     invoke-virtual {p0, p1}, Landroidx/appcompat/widget/SwitchCompat;->setThumbDrawable(Landroid/graphics/drawable/Drawable;)V
-return-void
+    return-void
 .end method
 
 .method public setThumbTextPadding(I)V
@@ -5320,7 +5320,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setThumbTintList(Landroid/content/res/ColorStateList;)V
@@ -5343,7 +5343,7 @@ return-void
     .line 5
     .line 6
     invoke-direct {p0}, Landroidx/appcompat/widget/SwitchCompat;->applyThumbTint()V
-return-void
+    return-void
 .end method
 
 .method public setThumbTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -5366,7 +5366,7 @@ return-void
     .line 5
     .line 6
     invoke-direct {p0}, Landroidx/appcompat/widget/SwitchCompat;->applyThumbTint()V
-return-void
+    return-void
 .end method
 
 .method public setTrackDrawable(Landroid/graphics/drawable/Drawable;)V
@@ -5405,7 +5405,7 @@ return-void
     .line 16
     :cond_1
     invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setTrackResource(I)V
@@ -5429,7 +5429,7 @@ return-void
 
     .line 9
     invoke-virtual {p0, p1}, Landroidx/appcompat/widget/SwitchCompat;->setTrackDrawable(Landroid/graphics/drawable/Drawable;)V
-return-void
+    return-void
 .end method
 
 .method public setTrackTintList(Landroid/content/res/ColorStateList;)V
@@ -5452,7 +5452,7 @@ return-void
     .line 5
     .line 6
     invoke-direct {p0}, Landroidx/appcompat/widget/SwitchCompat;->applyTrackTint()V
-return-void
+    return-void
 .end method
 
 .method public setTrackTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -5475,7 +5475,7 @@ return-void
     .line 5
     .line 6
     invoke-direct {p0}, Landroidx/appcompat/widget/SwitchCompat;->applyTrackTint()V
-return-void
+    return-void
 .end method
 
 .method public toggle()V
@@ -5495,7 +5495,7 @@ return-void
     .line 6
     .line 7
     invoke-virtual {p0, v0}, Landroidx/appcompat/widget/SwitchCompat;->setChecked(Z)V
-return-void
+    return-void
 .end method
 
 .method public verifyDrawable(Landroid/graphics/drawable/Drawable;)Z

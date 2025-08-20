@@ -529,7 +529,7 @@ return-void
 
     .line 43
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method private dispatchSetInitialValue()V
@@ -798,7 +798,7 @@ return-void
 
     .line 21
     invoke-virtual {p1, p0, v0}, Landroidx/preference/Preference;->onDependencyChanged(Landroidx/preference/Preference;Z)V
-return-void
+    return-void
 .end method
 
 .method private setEnabledStateOnViews(Landroid/view/View;Z)V
@@ -1265,7 +1265,7 @@ return-void
     .line 21
     .line 22
     invoke-virtual {p1, v1, v0}, Landroid/os/Bundle;->putParcelable(Ljava/lang/String;Landroid/os/Parcelable;)V
-return-void
+    return-void
 
     .line 26
     :cond_0
@@ -2491,7 +2491,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/preference/Preference;->registerDependency()V
-return-void
+    return-void
 .end method
 
 .method public onAttachedToHierarchy(Landroidx/preference/PreferenceManager;)V
@@ -2519,7 +2519,7 @@ return-void
     .line 4
     :cond_0
     invoke-direct {p0}, Landroidx/preference/Preference;->dispatchSetInitialValue()V
-return-void
+    return-void
 .end method
 
 .method public onAttachedToHierarchy(Landroidx/preference/PreferenceManager;J)V
@@ -3290,7 +3290,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/preference/Preference;->unregisterDependency()V
-return-void
+    return-void
 .end method
 
 .method public onRestoreInstanceState(Landroid/os/Parcelable;)V
@@ -3490,7 +3490,7 @@ return-void
 
     .line 1
     invoke-virtual {p0}, Landroidx/preference/Preference;->performClick()V
-return-void
+    return-void
 .end method
 
 .method public persistBoolean(Z)Z
@@ -4214,7 +4214,7 @@ return-void
     .line 5
     .line 6
     invoke-direct {p0}, Landroidx/preference/Preference;->registerDependency()V
-return-void
+    return-void
 .end method
 
 .method public setEnabled(Z)V
@@ -4603,7 +4603,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p0}, Landroidx/preference/Preference;->notifyChanged()V
-return-void
+    return-void
 .end method
 
 .method public setTitle(I)V

@@ -221,7 +221,7 @@ return-void
 
     .line 5
     invoke-virtual {v0, p0}, Landroidx/arch/core/executor/ArchTaskExecutor;->postToMainThread(Ljava/lang/Runnable;)V
-return-void
+    return-void
 .end method
 
 .method private static synthetic lambda$static$1(Ljava/lang/Runnable;)V
@@ -237,7 +237,7 @@ return-void
 
     .line 5
     invoke-virtual {v0, p0}, Landroidx/arch/core/executor/ArchTaskExecutor;->executeOnDiskIO(Ljava/lang/Runnable;)V
-return-void
+    return-void
 .end method
 
 

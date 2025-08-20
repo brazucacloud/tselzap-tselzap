@@ -980,7 +980,7 @@
     .line 3
     .line 4
     invoke-direct {p0}, Landroidx/fragment/app/ListFragment;->ensureList()V
-return-void
+    return-void
 .end method
 
 .method public final requireListAdapter()Landroid/widget/ListAdapter;

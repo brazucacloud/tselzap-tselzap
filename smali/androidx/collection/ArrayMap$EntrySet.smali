@@ -36,7 +36,7 @@
     .line 2
     .line 3
     invoke-direct {p0}, Ljava/util/AbstractSet;-><init>()V
-return-void
+    return-void
 .end method
 
 

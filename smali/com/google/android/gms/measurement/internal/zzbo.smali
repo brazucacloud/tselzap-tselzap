@@ -11,7 +11,7 @@
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -20,7 +20,7 @@ return-void
     .locals 0
 
     invoke-static {}, Lcom/google/android/gms/internal/measurement/zzhu;->zzc()V
-return-void
+    return-void
 .end method
 
 .end class

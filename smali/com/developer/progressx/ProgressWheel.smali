@@ -165,7 +165,7 @@
 
     .line 45
     invoke-direct {p0}, Lcom/developer/progressx/ProgressWheel;->setAnimationEnabled()V
-return-void
+    return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -281,7 +281,7 @@ return-void
 
     .line 23
     invoke-direct {p0}, Lcom/developer/progressx/ProgressWheel;->setAnimationEnabled()V
-return-void
+    return-void
 .end method
 
 .method private parseAttributes(Landroid/content/res/TypedArray;)V

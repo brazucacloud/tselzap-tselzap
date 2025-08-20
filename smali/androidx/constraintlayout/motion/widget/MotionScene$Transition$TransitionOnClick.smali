@@ -123,7 +123,7 @@
     .line 12
     :cond_2
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method public constructor <init>(Landroidx/constraintlayout/motion/widget/MotionScene$Transition;II)V
@@ -550,7 +550,7 @@ return-void
 
     .line 40
     invoke-virtual {p1, v0}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToState(I)V
-return-void
+    return-void
 
     .line 44
     :cond_1
@@ -607,7 +607,7 @@ return-void
     .line 71
     .line 72
     invoke-virtual {p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToEnd()V
-return-void
+    return-void
 
     .line 76
     :cond_2
@@ -835,7 +835,7 @@ return-void
     .line 173
     .line 174
     invoke-virtual {p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToEnd()V
-return-void
+    return-void
 
     .line 178
     :cond_b
@@ -865,7 +865,7 @@ return-void
     .line 190
     .line 191
     invoke-virtual {p1}, Landroidx/constraintlayout/motion/widget/MotionLayout;->transitionToStart()V
-return-void
+    return-void
 
     .line 195
     :cond_c

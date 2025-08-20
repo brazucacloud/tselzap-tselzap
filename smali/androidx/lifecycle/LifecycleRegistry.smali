@@ -1392,7 +1392,7 @@ return-void
     .line 93
     .line 94
     invoke-virtual {v0, v1}, LC1/C;->h(Ljava/lang/Object;)V
-return-void
+    return-void
 
     .line 98
     :cond_3
@@ -1819,7 +1819,7 @@ return-object v1
 
     .line 15
     invoke-direct {p0, p1}, Landroidx/lifecycle/LifecycleRegistry;->moveToState(Landroidx/lifecycle/Lifecycle$State;)V
-return-void
+    return-void
 .end method
 
 .method public markState(Landroidx/lifecycle/Lifecycle$State;)V

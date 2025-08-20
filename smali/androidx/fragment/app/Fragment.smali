@@ -315,7 +315,7 @@
 
     .line 15
     invoke-direct {p0}, Landroidx/fragment/app/Fragment;->initLifecycle()V
-return-void
+    return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -341,7 +341,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/fragment/app/Fragment;->lambda$performCreateView$0()V
-return-void
+    return-void
 .end method
 
 .method private ensureAnimationInfo()Landroidx/fragment/app/Fragment$AnimationInfo;
@@ -902,7 +902,7 @@ return-object p1
     .line 4
     .line 5
     invoke-virtual {p1}, Landroidx/fragment/app/Fragment$OnPreAttachedListener;->onPreAttached()V
-return-void
+    return-void
 
     .line 9
     :cond_0
@@ -3161,7 +3161,7 @@ return-void
     move-result-object v0
 
     invoke-static {p1, v0}, Landroidx/core/view/LayoutInflaterCompat;->setFactory2(Landroid/view/LayoutInflater;Landroid/view/LayoutInflater$Factory2;)V
-return-object p1
+    return-object p1
 
     .line 6
     :cond_0
@@ -3617,7 +3617,7 @@ return-object p1
     .line 12
     .line 13
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method public getSharedElementTargetNames()Ljava/util/ArrayList;
@@ -3665,7 +3665,7 @@ return-object v0
     .line 12
     .line 13
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method public final getString(I)Ljava/lang/String;
@@ -4427,7 +4427,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->noteStateNotSaved()V
-return-void
+    return-void
 .end method
 
 .method public onActivityCreated(Landroid/os/Bundle;)V
@@ -5281,7 +5281,7 @@ return-void
     .line 23
     .line 24
     invoke-virtual {p1}, Landroidx/fragment/app/FragmentManager;->dispatchActivityCreated()V
-return-void
+    return-void
 
     .line 28
     :cond_0
@@ -5442,7 +5442,7 @@ return-void
     .line 63
     .line 64
     invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchAttach()V
-return-void
+    return-void
 
     .line 68
     :cond_1
@@ -6316,7 +6316,7 @@ return-void
 
     .line 1
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->onLowMemory()V
-return-void
+    return-void
 .end method
 
 .method public performMultiWindowModeChanged(Z)V
@@ -6690,7 +6690,7 @@ return-void
     .line 29
     .line 30
     invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchPrimaryNavigationFragmentChanged()V
-return-void
+    return-void
 .end method
 
 .method public performResume()V
@@ -6781,7 +6781,7 @@ return-void
     .line 42
     .line 43
     invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchResume()V
-return-void
+    return-void
 
     .line 47
     :cond_1
@@ -6908,7 +6908,7 @@ return-void
     .line 42
     .line 43
     invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchStart()V
-return-void
+    return-void
 
     .line 47
     :cond_1
@@ -7087,7 +7087,7 @@ return-void
     .line 19
     .line 20
     invoke-virtual {v0}, Landroidx/fragment/app/FragmentManager;->dispatchViewCreated()V
-return-void
+    return-void
 .end method
 
 .method public postponeEnterTransition()V
@@ -7313,7 +7313,7 @@ return-void
 
     .line 9
     invoke-virtual {v0, p0, p1, p2}, Landroidx/fragment/app/FragmentManager;->launchRequestPermissions(Landroidx/fragment/app/Fragment;[Ljava/lang/String;I)V
-return-void
+    return-void
 
     .line 13
     :cond_0
@@ -9009,7 +9009,7 @@ return-void
     move-result-object v0
 
     invoke-virtual {v0, p0, p1, p2, p3}, Landroidx/fragment/app/FragmentManager;->launchStartActivityForResult(Landroidx/fragment/app/Fragment;Landroid/content/Intent;ILandroid/os/Bundle;)V
-return-void
+    return-void
 
     .line 4
     :cond_0
@@ -9205,7 +9205,7 @@ return-void
 
     .line 79
     invoke-virtual/range {v0 .. v8}, Landroidx/fragment/app/FragmentManager;->launchStartIntentSenderForResult(Landroidx/fragment/app/Fragment;Landroid/content/IntentSender;ILandroid/content/Intent;IIILandroid/os/Bundle;)V
-return-void
+    return-void
 
     .line 83
     :cond_1

@@ -110,7 +110,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Option;->clearName()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$300(Landroidx/datastore/preferences/protobuf/Option;Landroidx/datastore/preferences/protobuf/ByteString;)V
@@ -147,7 +147,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Option;->clearValue()V
-return-void
+    return-void
 .end method
 
 .method private clearName()V
@@ -758,7 +758,7 @@ return-object p1
     .line 85
     .line 86
     invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/Option;-><init>()V
-return-object p1
+    return-object p1
 
     .line 90
     nop

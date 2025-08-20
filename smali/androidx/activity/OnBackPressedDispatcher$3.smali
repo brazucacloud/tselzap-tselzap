@@ -60,6 +60,6 @@ return-void
     iget-object v0, p0, Landroidx/activity/OnBackPressedDispatcher$3;->this$0:Landroidx/activity/OnBackPressedDispatcher;
 
     invoke-virtual {v0}, Landroidx/activity/OnBackPressedDispatcher;->onBackPressed()V
-return-void
+    return-void
 .end method
 .end class

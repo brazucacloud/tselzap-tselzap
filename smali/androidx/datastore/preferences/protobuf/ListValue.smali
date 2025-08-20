@@ -159,7 +159,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/ListValue;->clearValues()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$900(Landroidx/datastore/preferences/protobuf/ListValue;I)V
@@ -209,7 +209,7 @@ return-void
     move-result-object p2
 
     invoke-interface {v0, p1, p2}, Ljava/util/List;->add(ILjava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method private addValues(ILandroidx/datastore/preferences/protobuf/Value;)V
@@ -806,7 +806,7 @@ return-void
     .line 85
     .line 86
     invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/ListValue;-><init>()V
-return-object p1
+    return-object p1
 
     .line 90
     nop

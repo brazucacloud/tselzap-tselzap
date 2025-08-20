@@ -1251,7 +1251,7 @@ return-void
 
     .line 20
     invoke-virtual {v0, p1}, LC1/C;->h(Ljava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method public push(Landroidx/navigation/NavBackStackEntry;)V

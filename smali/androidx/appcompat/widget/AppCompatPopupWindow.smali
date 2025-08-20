@@ -141,7 +141,7 @@ return-void
     .line 31
     .line 32
     invoke-virtual {p1}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method private setSupportOverlapAnchor(Z)V

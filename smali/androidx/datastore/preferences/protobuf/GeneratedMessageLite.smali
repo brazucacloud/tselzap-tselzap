@@ -937,7 +937,7 @@
     .line 2
     .line 3
     invoke-direct {v0, p0, p1, p2}, Landroidx/datastore/preferences/protobuf/RawMessageInfo;-><init>(Landroidx/datastore/preferences/protobuf/MessageLite;Ljava/lang/String;[Ljava/lang/Object;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public static newRepeatedGeneratedExtension(Landroidx/datastore/preferences/protobuf/MessageLite;Landroidx/datastore/preferences/protobuf/MessageLite;Landroidx/datastore/preferences/protobuf/Internal$EnumLiteMap;ILandroidx/datastore/preferences/protobuf/WireFormat$FieldType;ZLjava/lang/Class;)Landroidx/datastore/preferences/protobuf/GeneratedMessageLite$GeneratedExtension;
@@ -2248,7 +2248,7 @@ return-object p0
 
     .line 9
     invoke-interface {v0, p0}, Landroidx/datastore/preferences/protobuf/Schema;->makeImmutable(Ljava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method public mergeLengthDelimitedField(ILandroidx/datastore/preferences/protobuf/ByteString;)V
@@ -2469,6 +2469,6 @@ return-void
 
     .line 13
     invoke-interface {v0, p0, p1}, Landroidx/datastore/preferences/protobuf/Schema;->writeTo(Ljava/lang/Object;Landroidx/datastore/preferences/protobuf/Writer;)V
-return-void
+    return-void
 .end method
 .end class

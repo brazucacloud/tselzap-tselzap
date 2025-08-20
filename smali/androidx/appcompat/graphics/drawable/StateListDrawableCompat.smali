@@ -577,7 +577,7 @@ return-void
     const/4 v2, 0x0
 
     invoke-direct {v0, v1, p0, v2}, Landroidx/appcompat/graphics/drawable/StateListDrawableCompat$StateListState;-><init>(Landroidx/appcompat/graphics/drawable/StateListDrawableCompat$StateListState;Landroidx/appcompat/graphics/drawable/StateListDrawableCompat;Landroid/content/res/Resources;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public extractStateSet(Landroid/util/AttributeSet;)[I

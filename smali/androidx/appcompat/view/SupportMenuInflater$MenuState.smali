@@ -128,7 +128,7 @@
     .line 12
     .line 13
     invoke-virtual {p0}, Landroidx/appcompat/view/SupportMenuInflater$MenuState;->resetGroup()V
-return-void
+    return-void
 .end method
 
 .method private getShortcut(Ljava/lang/String;)C
@@ -910,7 +910,7 @@ return-object v0
     .line 60
     .line 61
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method public readItem(Landroid/util/AttributeSet;)V

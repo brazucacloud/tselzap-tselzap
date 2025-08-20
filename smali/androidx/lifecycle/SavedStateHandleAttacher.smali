@@ -82,7 +82,7 @@
     .line 23
     .line 24
     invoke-virtual {p1}, Landroidx/lifecycle/SavedStateHandlesProvider;->performRestore()V
-return-void
+    return-void
 
     .line 28
     :cond_0

@@ -823,7 +823,7 @@ return-void
     .line 194
     :cond_5
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 
     .line 198
     nop

@@ -663,7 +663,7 @@ return-void
 
     .line 13
     invoke-direct {v0, v1, v2, v3}, Ljava/io/ByteArrayInputStream;-><init>([BII)V
-return-object v0
+    return-object v0
 .end method
 
 .method public final partialHash(III)I
@@ -788,7 +788,7 @@ return-object v0
 
     .line 23
     invoke-direct {v0, v1, v2, p2}, Landroidx/datastore/preferences/protobuf/ByteString$BoundedByteString;-><init>([BII)V
-return-object v0
+    return-object v0
 .end method
 
 .method public final toStringInternal(Ljava/nio/charset/Charset;)Ljava/lang/String;
@@ -820,7 +820,7 @@ return-object v0
 
     .line 13
     invoke-direct {v0, v1, v2, v3, p1}, Ljava/lang/String;-><init>([BIILjava/nio/charset/Charset;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public final writeTo(Landroidx/datastore/preferences/protobuf/ByteOutput;)V
@@ -838,7 +838,7 @@ return-object v0
     move-result v2
 
     invoke-virtual {p1, v0, v1, v2}, Landroidx/datastore/preferences/protobuf/ByteOutput;->writeLazy([BII)V
-return-void
+    return-void
 .end method
 
 .method public final writeTo(Ljava/io/OutputStream;)V
@@ -850,7 +850,7 @@ return-void
     move-result-object v0
 
     invoke-virtual {p1, v0}, Ljava/io/OutputStream;->write([B)V
-return-void
+    return-void
 .end method
 
 .method public final writeToInternal(Ljava/io/OutputStream;II)V
@@ -873,6 +873,6 @@ return-void
 
     .line 8
     invoke-virtual {p1, v0, v1, p3}, Ljava/io/OutputStream;->write([BII)V
-return-void
+    return-void
 .end method
 .end class

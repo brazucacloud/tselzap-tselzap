@@ -211,7 +211,7 @@
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static checkAppCompatTheme(Landroid/view/View;Landroid/content/Context;)V
@@ -322,7 +322,7 @@ return-void
     :cond_0
     :goto_0
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 
     .line 50
     :goto_1
@@ -610,7 +610,7 @@ return-object p0
 
     .line 15
     invoke-virtual {p0}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V
-return-object p1
+    return-object p1
 
     .line 19
     :catchall_0

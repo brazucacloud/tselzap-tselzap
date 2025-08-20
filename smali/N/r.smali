@@ -22,7 +22,7 @@
     iput-object p1, p0, LN/r;->c:Ljava/lang/Runnable;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 

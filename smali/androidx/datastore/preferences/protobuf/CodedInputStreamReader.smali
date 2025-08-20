@@ -4456,7 +4456,7 @@ return-object v1
 
     .line 2
     invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedInputStreamReader;->readGroupList(Ljava/util/List;Landroidx/datastore/preferences/protobuf/Schema;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
-return-void
+    return-void
 .end method
 
 .method public readInt32()I
@@ -5718,7 +5718,7 @@ return-void
 
     .line 2
     invoke-virtual {p0, p1, p2, p3}, Landroidx/datastore/preferences/protobuf/CodedInputStreamReader;->readMessageList(Ljava/util/List;Landroidx/datastore/preferences/protobuf/Schema;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
-return-void
+    return-void
 .end method
 
 .method public readSFixed32()I

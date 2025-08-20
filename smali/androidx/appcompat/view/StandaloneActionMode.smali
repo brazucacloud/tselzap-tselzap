@@ -187,7 +187,7 @@ return-void
 
     .line 9
     invoke-direct {v0, v1}, Landroidx/appcompat/view/SupportMenuInflater;-><init>(Landroid/content/Context;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public getSubtitle()Ljava/lang/CharSequence;

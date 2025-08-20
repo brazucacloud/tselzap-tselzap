@@ -116,7 +116,7 @@
 
     .line 31
     invoke-virtual {v0, p1}, Landroid/content/res/Resources$Theme;->setTo(Landroid/content/res/Resources$Theme;)V
-return-void
+    return-void
 
     .line 35
     :cond_0

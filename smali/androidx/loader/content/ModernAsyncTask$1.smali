@@ -95,6 +95,6 @@
 
     .line 23
     invoke-direct {v0, p1, v1}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;Ljava/lang/String;)V
-return-object v0
+    return-object v0
 .end method
 .end class

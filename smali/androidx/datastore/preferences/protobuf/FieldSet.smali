@@ -106,7 +106,7 @@
 
     .line 8
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/FieldSet;->makeImmutable()V
-return-void
+    return-void
 .end method
 
 .method public synthetic constructor <init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Landroidx/datastore/preferences/protobuf/FieldSet$1;)V
@@ -131,7 +131,7 @@ return-void
 
     .line 5
     invoke-virtual {p0}, Landroidx/datastore/preferences/protobuf/FieldSet;->makeImmutable()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$100(Landroidx/datastore/preferences/protobuf/SmallSortedMap;Z)Landroidx/datastore/preferences/protobuf/SmallSortedMap;
@@ -5103,7 +5103,7 @@ return-void
     check-cast v0, Landroidx/datastore/preferences/protobuf/MessageLite;
 
     invoke-virtual {p2, p1, v0}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->writeMessageSetExtension(ILandroidx/datastore/preferences/protobuf/MessageLite;)V
-return-void
+    return-void
 
     .line 13
     :cond_1

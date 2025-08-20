@@ -43,7 +43,7 @@
 
     .line 1
     invoke-direct {p0}, Lcom/developer/kalert/KAlertDialog$1;->lambda$onAnimationEnd$0()V
-return-void
+    return-void
 .end method
 
 .method private synthetic lambda$onAnimationEnd$0()V

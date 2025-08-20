@@ -1619,7 +1619,7 @@ return-void
     .line 9
     .line 10
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 
@@ -1745,7 +1745,7 @@ return-void
 
     .line 35
     invoke-virtual {p2, v0, v1, v2, p1}, Landroid/graphics/RectF;->set(FFFF)V
-return-object p2
+    return-object p2
 .end method
 
 .method public getLimitBoundsToId()I
@@ -2026,7 +2026,7 @@ return-object p2
 
     .line 35
     invoke-virtual {p2, v0, v1, v2, p1}, Landroid/graphics/RectF;->set(FFFF)V
-return-object p2
+    return-object p2
 .end method
 
 .method public getTouchRegionId()I

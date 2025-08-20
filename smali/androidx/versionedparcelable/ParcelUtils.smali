@@ -13,7 +13,7 @@
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static fromInputStream(Ljava/io/InputStream;)Landroidx/versionedparcelable/VersionedParcelable;
@@ -520,7 +520,7 @@ return-void
     .line 9
     .line 10
     invoke-virtual {v0}, Landroidx/versionedparcelable/VersionedParcelStream;->closeField()V
-return-void
+    return-void
 .end method
 
 .method public static toParcelable(Landroidx/versionedparcelable/VersionedParcelable;)Landroid/os/Parcelable;

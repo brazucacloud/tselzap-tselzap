@@ -387,7 +387,7 @@ return-void
     move-result-object p0
 
     invoke-interface {p11, p0}, Lcom/fmark/tselzap/Interfaces/OnPhoneNumberSavedListener;->onPhoneNumberSaved(Ljava/lang/String;)V
-return-void
+    return-void
 .end method
 
 .method public static requestPermissions(Landroid/app/Activity;)V

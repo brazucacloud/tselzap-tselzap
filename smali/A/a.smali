@@ -701,7 +701,7 @@ return-void
     .line 265
     .line 266
     invoke-virtual {p0}, LA/a;->i()V
-return-object p0
+    return-object p0
 .end method
 
 .method public b()LA/a;
@@ -848,7 +848,7 @@ return-object p0
     .line 21
     .line 22
     invoke-virtual {p0}, LA/a;->i()V
-return-object p0
+    return-object p0
 .end method
 
 .method public bridge synthetic clone()Ljava/lang/Object;
@@ -913,7 +913,7 @@ return-object p0
     .line 21
     .line 22
     invoke-virtual {p0}, LA/a;->i()V
-return-object p0
+    return-object p0
 .end method
 
 .method public final equals(Ljava/lang/Object;)Z
@@ -1231,9 +1231,8 @@ return-object p0
     iput p1, p0, LA/a;->b:I
 
     .line 23
-    .line 24
     invoke-virtual {p0}, LA/a;->i()V
-return-object p0
+    return-object p0
 .end method
 
 .method public final h()LA/a;
@@ -1286,9 +1285,8 @@ return-object p0
     iput v0, p0, LA/a;->b:I
 
     .line 23
-    .line 24
     invoke-virtual {p0}, LA/a;->i()V
-return-object p0
+    return-object p0
 .end method
 
 .method public final hashCode()I
@@ -1609,9 +1607,8 @@ return-object p0
 
     .line 22
     .line 23
-    .line 24
     invoke-virtual {p0}, LA/a;->i()V
-return-object p0
+    return-object p0
 .end method
 
 .method public final k(LD/b;)LA/a;
@@ -1662,7 +1659,7 @@ return-object p0
     .line 21
     .line 22
     invoke-virtual {p0}, LA/a;->i()V
-return-object p0
+    return-object p0
 .end method
 
 .method public final l()LA/a;
@@ -1716,7 +1713,7 @@ return-object p0
     .line 22
     .line 23
     invoke-virtual {p0}, LA/a;->i()V
-return-object p0
+    return-object p0
 .end method
 
 .method public final m(Li/m;Z)LA/a;
@@ -1805,7 +1802,7 @@ return-object p0
     .line 43
     .line 44
     invoke-virtual {p0}, LA/a;->i()V
-return-object p0
+    return-object p0
 .end method
 
 .method public final n(Ljava/lang/Class;Li/m;Z)LA/a;
@@ -1901,7 +1898,7 @@ return-object p0
     .line 44
     :cond_1
     invoke-virtual {p0}, LA/a;->i()V
-return-object p0
+    return-object p0
 .end method
 
 .method public final o(Lr/j;)LA/a;
@@ -2013,8 +2010,7 @@ return-object p0
     iput v0, p0, LA/a;->b:I
 
     .line 23
-    .line 24
     invoke-virtual {p0}, LA/a;->i()V
-return-object p0
+    return-object p0
 .end method
 .end class

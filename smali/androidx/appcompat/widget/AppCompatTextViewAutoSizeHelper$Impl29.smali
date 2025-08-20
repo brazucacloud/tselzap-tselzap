@@ -24,7 +24,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper$Impl23;-><init>()V
-return-void
+    return-void
 .end method
 
 

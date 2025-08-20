@@ -133,6 +133,6 @@ return-void
     move-result-wide v0
 
     invoke-virtual {p0, p1, p2, v0, v1}, Landroidx/navigation/serialization/InternalNavType$DoubleType$1;->put(Landroid/os/Bundle;Ljava/lang/String;D)V
-return-void
+    return-void
 .end method
 .end class

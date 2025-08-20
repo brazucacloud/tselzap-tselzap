@@ -1160,7 +1160,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->autoSizeText()V
-return-void
+    return-void
 .end method
 
 .method public getAutoSizeMaxTextSize()I
@@ -3220,7 +3220,7 @@ return-void
 
     .line 1
     invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatTextHelper;->applyCompoundDrawablesTints()V
-return-void
+    return-void
 .end method
 
 .method public onSetTextAppearance(Landroid/content/Context;I)V
@@ -3678,7 +3678,7 @@ return-void
     .line 22
     .line 23
     invoke-direct {p0}, Landroidx/appcompat/widget/AppCompatTextHelper;->setCompoundTints()V
-return-void
+    return-void
 .end method
 
 .method public setCompoundDrawableTintMode(Landroid/graphics/PorterDuff$Mode;)V
@@ -3739,7 +3739,7 @@ return-void
     .line 22
     .line 23
     invoke-direct {p0}, Landroidx/appcompat/widget/AppCompatTextHelper;->setCompoundTints()V
-return-void
+    return-void
 .end method
 
 .method public setTextSize(IF)V

@@ -20,7 +20,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Utf8$Processor;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static isAvailable()Z
@@ -1162,7 +1162,7 @@ return-void
     .line 194
     .line 195
     invoke-direct {v0, v11, v2, v12}, Ljava/lang/String;-><init>([CII)V
-return-object v0
+    return-object v0
 
     .line 199
     :cond_b
@@ -1692,7 +1692,7 @@ return-object v0
     .line 205
     .line 206
     invoke-direct {v0, v13, v3, v14}, Ljava/lang/String;-><init>([CII)V
-return-object v0
+    return-object v0
 
     .line 210
     :cond_b

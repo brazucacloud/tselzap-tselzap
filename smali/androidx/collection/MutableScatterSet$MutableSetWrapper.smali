@@ -129,7 +129,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Landroidx/collection/MutableScatterSet;->clear()V
-return-void
+    return-void
 .end method
 
 .method public iterator()Ljava/util/Iterator;

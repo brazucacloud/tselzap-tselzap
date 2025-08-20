@@ -189,7 +189,7 @@ return-void
 
     .line 11
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method private setValueInternal(IZ)V
@@ -653,7 +653,7 @@ return-void
     .line 36
     .line 37
     invoke-virtual {p0}, Landroidx/preference/Preference;->notifyChanged()V
-return-void
+    return-void
 
     .line 41
     :cond_1
@@ -906,7 +906,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p0}, Landroidx/preference/Preference;->notifyChanged()V
-return-void
+    return-void
 .end method
 
 .method public setUpdatesContinuously(Z)V

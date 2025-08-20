@@ -22,7 +22,7 @@
     iput-object p1, p0, Ln0/c;->c:Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 

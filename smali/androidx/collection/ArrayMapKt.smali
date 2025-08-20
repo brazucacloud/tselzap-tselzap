@@ -22,7 +22,7 @@
     new-instance v0, Landroidx/collection/ArrayMap;
 
     invoke-direct {v0}, Landroidx/collection/ArrayMap;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method public static final varargs arrayMapOf([Lc1/f;)Landroidx/collection/ArrayMap;

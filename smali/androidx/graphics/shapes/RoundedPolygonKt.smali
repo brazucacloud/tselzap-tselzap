@@ -226,7 +226,7 @@
     move-result p0
 
     invoke-direct {v0, v1, v2, p0}, Landroidx/graphics/shapes/RoundedPolygon;-><init>(Ljava/util/List;FF)V
-return-object v0
+    return-object v0
 .end method
 
 .method public static final RoundedPolygon([F)Landroidx/graphics/shapes/RoundedPolygon;

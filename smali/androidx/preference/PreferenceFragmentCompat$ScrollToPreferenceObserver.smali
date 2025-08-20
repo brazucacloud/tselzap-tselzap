@@ -156,7 +156,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/preference/PreferenceFragmentCompat$ScrollToPreferenceObserver;->scrollToPreference()V
-return-void
+    return-void
 .end method
 
 .method public onItemRangeChanged(II)V
@@ -164,7 +164,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/preference/PreferenceFragmentCompat$ScrollToPreferenceObserver;->scrollToPreference()V
-return-void
+    return-void
 .end method
 
 .method public onItemRangeChanged(IILjava/lang/Object;)V
@@ -172,7 +172,7 @@ return-void
 
     .line 2
     invoke-direct {p0}, Landroidx/preference/PreferenceFragmentCompat$ScrollToPreferenceObserver;->scrollToPreference()V
-return-void
+    return-void
 .end method
 
 .method public onItemRangeInserted(II)V
@@ -180,7 +180,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/preference/PreferenceFragmentCompat$ScrollToPreferenceObserver;->scrollToPreference()V
-return-void
+    return-void
 .end method
 
 .method public onItemRangeMoved(III)V
@@ -188,7 +188,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/preference/PreferenceFragmentCompat$ScrollToPreferenceObserver;->scrollToPreference()V
-return-void
+    return-void
 .end method
 
 .method public onItemRangeRemoved(II)V
@@ -196,6 +196,6 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/preference/PreferenceFragmentCompat$ScrollToPreferenceObserver;->scrollToPreference()V
-return-void
+    return-void
 .end method
 .end class

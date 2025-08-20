@@ -455,7 +455,7 @@ return-object v0
     .line 23
     .line 24
     invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->flush()V
-return-void
+    return-void
 .end method
 
 .method public writeTo(Ljava/io/OutputStream;)V
@@ -492,6 +492,6 @@ return-void
     .line 15
     .line 16
     invoke-virtual {p1}, Landroidx/datastore/preferences/protobuf/CodedOutputStream;->flush()V
-return-void
+    return-void
 .end method
 .end class

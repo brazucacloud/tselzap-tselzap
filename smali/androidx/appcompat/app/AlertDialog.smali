@@ -207,7 +207,7 @@ return-void
     .line 5
     .line 6
     invoke-virtual {p1}, Landroidx/appcompat/app/AlertController;->installContent()V
-return-void
+    return-void
 .end method
 
 .method public onKeyDown(ILandroid/view/KeyEvent;)Z

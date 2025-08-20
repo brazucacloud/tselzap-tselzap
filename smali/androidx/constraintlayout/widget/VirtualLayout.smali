@@ -322,7 +322,7 @@ return-void
     .line 3
     .line 4
     invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintHelper;->applyLayoutFeatures()V
-return-void
+    return-void
 .end method
 
 .method public setVisibility(I)V
@@ -335,6 +335,6 @@ return-void
     .line 3
     .line 4
     invoke-virtual {p0}, Landroidx/constraintlayout/widget/ConstraintHelper;->applyLayoutFeatures()V
-return-void
+    return-void
 .end method
 .end class

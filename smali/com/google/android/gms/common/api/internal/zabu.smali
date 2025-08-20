@@ -81,7 +81,7 @@ return-void
     .locals 0
 
     invoke-direct {p0}, Lcom/google/android/gms/common/api/internal/zabu;->zah()V
-return-void
+    return-void
 .end method
 
 .method private final zah()V

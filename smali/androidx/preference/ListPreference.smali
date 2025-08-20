@@ -170,7 +170,7 @@ return-void
 
     .line 10
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method private getValueIndex()I
@@ -616,7 +616,7 @@ return-void
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/preference/ListPreference;->setEntries([Ljava/lang/CharSequence;)V
-return-void
+    return-void
 .end method
 
 .method public setEntries([Ljava/lang/CharSequence;)V

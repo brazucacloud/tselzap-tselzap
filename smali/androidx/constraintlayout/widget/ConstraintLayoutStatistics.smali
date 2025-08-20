@@ -1081,6 +1081,6 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Landroidx/constraintlayout/core/Metrics;->reset()V
-return-void
+    return-void
 .end method
 .end class

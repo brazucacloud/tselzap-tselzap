@@ -74,7 +74,7 @@
     .line 13
     :cond_0
     invoke-direct {v1, v0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
-return-object v1
+    return-object v1
 .end method
 
 

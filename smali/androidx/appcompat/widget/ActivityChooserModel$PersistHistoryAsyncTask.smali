@@ -38,7 +38,7 @@
     .line 2
     .line 3
     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
-return-void
+    return-void
 .end method
 
 

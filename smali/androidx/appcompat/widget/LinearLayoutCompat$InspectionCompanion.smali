@@ -321,7 +321,7 @@ return-void
     move-result p1
 
     invoke-static {p2, v0, p1}, Landroidx/appcompat/widget/a;->e(Landroid/view/inspector/PropertyReader;II)V
-return-void
+    return-void
 
     .line 12
     :cond_0

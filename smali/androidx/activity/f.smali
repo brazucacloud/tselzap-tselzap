@@ -124,7 +124,7 @@
     new-instance v0, Landroid/view/inspector/InspectionCompanion$UninitializedPropertyMapException;
 
     invoke-direct {v0}, Landroid/view/inspector/InspectionCompanion$UninitializedPropertyMapException;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method public static bridge synthetic g(Landroid/view/Window;)V

@@ -83,7 +83,7 @@
     .line 16
     .line 17
     invoke-virtual {p1}, Landroid/view/MotionEvent;->recycle()V
-return-void
+    return-void
 .end method
 
 .method private beginFakeVelocityTracker()V
@@ -143,7 +143,7 @@ return-void
     .line 28
     :cond_0
     invoke-virtual {v0}, Landroid/view/VelocityTracker;->clear()V
-return-void
+    return-void
 .end method
 
 

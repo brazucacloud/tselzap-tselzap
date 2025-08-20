@@ -19,7 +19,7 @@
     iput-object p1, p0, LB0/c;->c:LB0/f;
 
     invoke-direct {p0}, Ljava/util/AbstractSet;-><init>()V
-return-void
+    return-void
 .end method
 
 

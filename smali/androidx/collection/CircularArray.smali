@@ -332,7 +332,7 @@ return-void
 
     .line 5
     invoke-virtual {p0, v0}, Landroidx/collection/CircularArray;->removeFromStart(I)V
-return-void
+    return-void
 .end method
 
 .method public final get(I)Ljava/lang/Object;
@@ -383,7 +383,7 @@ return-void
     .line 18
     .line 19
     invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
-return-object p1
+    return-object p1
 
     .line 23
     :cond_0

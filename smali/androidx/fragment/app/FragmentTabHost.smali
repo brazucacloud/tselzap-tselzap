@@ -798,7 +798,7 @@ return-void
     .line 58
     .line 59
     invoke-virtual {p0, p1}, Landroid/widget/TabHost;->addTab(Landroid/widget/TabHost$TabSpec;)V
-return-void
+    return-void
 .end method
 
 .method public onAttachedToWindow()V
@@ -1209,7 +1209,7 @@ return-void
 
     .line 6
     invoke-direct {p0}, Landroidx/fragment/app/FragmentTabHost;->ensureContent()V
-return-void
+    return-void
 .end method
 
 .method public setup(Landroid/content/Context;Landroidx/fragment/app/FragmentManager;I)V

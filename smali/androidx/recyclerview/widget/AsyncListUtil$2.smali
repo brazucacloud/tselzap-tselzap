@@ -648,7 +648,7 @@ return-void
     .line 23
     .line 24
     invoke-interface {v0, v1, p1}, Landroidx/recyclerview/widget/ThreadUtil$MainThreadCallback;->updateItemCount(II)V
-return-void
+    return-void
 .end method
 
 .method public updateRange(IIIII)V

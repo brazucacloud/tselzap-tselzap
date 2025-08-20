@@ -849,7 +849,7 @@
     .line 228
     :cond_14
     invoke-virtual {p0}, Landroidx/constraintlayout/core/state/HelperReference;->applyBase()V
-return-void
+    return-void
 .end method
 
 .method public getFirstHorizontalBias()F

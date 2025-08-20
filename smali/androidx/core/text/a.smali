@@ -178,7 +178,7 @@ return-void
 
     .line 1
     invoke-virtual {p0}, Landroid/graphics/drawable/AnimatedVectorDrawable;->clearAnimationCallbacks()V
-return-void
+    return-void
 .end method
 
 .method public static bridge synthetic n(Landroid/graphics/drawable/AnimatedVectorDrawable;Landroid/graphics/drawable/Animatable2$AnimationCallback;)V

@@ -97,7 +97,7 @@ return-void
 
     .line 8
     invoke-virtual {p0}, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat;->jumpToCurrentState()V
-return-void
+    return-void
 .end method
 
 .method public static create(Landroid/content/Context;ILandroid/content/res/Resources$Theme;)Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat;
@@ -1844,7 +1844,7 @@ return-object v0
     .line 28
     .line 29
     invoke-direct {p0}, Landroidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat;->init()V
-return-void
+    return-void
 .end method
 
 .method public isStateful()Z

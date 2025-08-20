@@ -942,7 +942,7 @@ return-void
     const-string v0, "insets"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/j;->f(Ljava/lang/Object;Ljava/lang/String;)V
-return-object p1
+    return-object p1
 .end method
 
 .method public removeAllViewsInLayout()V

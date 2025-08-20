@@ -685,7 +685,7 @@
     new-instance v0, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;
 
     invoke-direct {v0, v1, v2}, Landroidx/constraintlayout/core/motion/utils/MonotonicCurveFit;-><init>([D[[D)V
-return-object v0
+    return-object v0
 .end method
 
 .method private static diff(DDDDDD)D

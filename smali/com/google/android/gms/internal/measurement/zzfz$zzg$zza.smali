@@ -37,7 +37,7 @@
     move-result-object v0
 
     invoke-direct {p0, v0}, Lcom/google/android/gms/internal/measurement/zzki$zzb;-><init>(Lcom/google/android/gms/internal/measurement/zzki;)V
-return-void
+    return-void
 .end method
 
 .method public synthetic constructor <init>(Lcom/google/android/gms/internal/measurement/zzge;)V
@@ -45,7 +45,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzfz$zzg$zza;-><init>()V
-return-void
+    return-void
 .end method
 
 .end class

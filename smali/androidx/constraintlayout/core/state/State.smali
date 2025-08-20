@@ -1513,7 +1513,7 @@ return-void
     .line 2
     .line 3
     invoke-direct {p1, p0}, Landroidx/constraintlayout/core/state/ConstraintReference;-><init>(Landroidx/constraintlayout/core/state/State;)V
-return-object p1
+    return-object p1
 .end method
 
 .method public directMapping()V

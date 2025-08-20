@@ -42,7 +42,7 @@
     .line 2
     .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -223,6 +223,6 @@ return-void
     .line 15
     :cond_3
     invoke-virtual {v4, v1, v0, p1}, Landroidx/fragment/app/Fragment;->onRequestPermissionsResult(I[Ljava/lang/String;[I)V
-return-void
+    return-void
 .end method
 .end class

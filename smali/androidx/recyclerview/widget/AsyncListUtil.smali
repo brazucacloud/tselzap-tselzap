@@ -295,7 +295,7 @@
     .line 78
     .line 79
     invoke-virtual {p0}, Landroidx/recyclerview/widget/AsyncListUtil;->refresh()V
-return-void
+    return-void
 .end method
 
 .method private isRefreshPending()Z

@@ -180,7 +180,7 @@ return-void
     move-result-object p1
 
     invoke-static {p2, v0, p1}, Landroidx/appcompat/widget/a;->h(Landroid/view/inspector/PropertyReader;ILjava/lang/CharSequence;)V
-return-void
+    return-void
 
     .line 7
     :cond_0

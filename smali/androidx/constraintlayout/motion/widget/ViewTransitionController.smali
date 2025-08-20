@@ -608,7 +608,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Landroid/view/View;->invalidate()V
-return-void
+    return-void
 .end method
 
 .method public isViewTransitionEnabled(I)Z

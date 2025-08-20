@@ -241,7 +241,7 @@ return-void
 
     .line 7
     invoke-direct {p0, p1}, Landroidx/transition/ChangeTransform$Listener;->setCurrentMatrix(Landroid/graphics/Matrix;)V
-return-void
+    return-void
 .end method
 
 .method public onAnimationResume(Landroid/animation/Animator;)V

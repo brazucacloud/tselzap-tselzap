@@ -9,7 +9,7 @@
 
     .line 1
     invoke-direct {p0}, Landroid/content/ContentProvider;-><init>()V
-return-void
+    return-void
 .end method
 
 

@@ -33,7 +33,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/constraintlayout/core/motion/utils/KeyCycleOscillator;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static makeSpline(Ljava/lang/String;)Landroidx/constraintlayout/motion/utils/ViewOscillator;
@@ -61,7 +61,7 @@ return-void
     .line 10
     .line 11
     invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewOscillator$CustomSet;-><init>()V
-return-object p0
+    return-object p0
 
     .line 15
     :cond_0
@@ -495,7 +495,7 @@ return-object p0
     .line 202
     .line 203
     invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewOscillator$AlphaSet;-><init>()V
-return-object p0
+    return-object p0
 
     .line 207
     :pswitch_1
@@ -504,7 +504,7 @@ return-object p0
     .line 208
     .line 209
     invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewOscillator$AlphaSet;-><init>()V
-return-object p0
+    return-object p0
 
     .line 213
     :pswitch_2
@@ -513,7 +513,7 @@ return-object p0
     .line 214
     .line 215
     invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewOscillator$PathRotateSet;-><init>()V
-return-object p0
+    return-object p0
 
     .line 219
     :pswitch_3
@@ -522,7 +522,7 @@ return-object p0
     .line 220
     .line 221
     invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewOscillator$ElevationSet;-><init>()V
-return-object p0
+    return-object p0
 
     .line 225
     :pswitch_4
@@ -531,7 +531,7 @@ return-object p0
     .line 226
     .line 227
     invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewOscillator$RotationSet;-><init>()V
-return-object p0
+    return-object p0
 
     .line 231
     :pswitch_5
@@ -540,7 +540,7 @@ return-object p0
     .line 232
     .line 233
     invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewOscillator$AlphaSet;-><init>()V
-return-object p0
+    return-object p0
 
     .line 237
     :pswitch_6
@@ -549,7 +549,7 @@ return-object p0
     .line 238
     .line 239
     invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewOscillator$ScaleYset;-><init>()V
-return-object p0
+    return-object p0
 
     .line 243
     :pswitch_7
@@ -558,7 +558,7 @@ return-object p0
     .line 244
     .line 245
     invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewOscillator$ScaleXset;-><init>()V
-return-object p0
+    return-object p0
 
     .line 249
     :pswitch_8
@@ -567,7 +567,7 @@ return-object p0
     .line 250
     .line 251
     invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewOscillator$ProgressSet;-><init>()V
-return-object p0
+    return-object p0
 
     .line 255
     :pswitch_9
@@ -576,7 +576,7 @@ return-object p0
     .line 256
     .line 257
     invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewOscillator$TranslationZset;-><init>()V
-return-object p0
+    return-object p0
 
     .line 261
     :pswitch_a
@@ -585,7 +585,7 @@ return-object p0
     .line 262
     .line 263
     invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewOscillator$TranslationYset;-><init>()V
-return-object p0
+    return-object p0
 
     .line 267
     :pswitch_b
@@ -594,7 +594,7 @@ return-object p0
     .line 268
     .line 269
     invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewOscillator$TranslationXset;-><init>()V
-return-object p0
+    return-object p0
 
     .line 273
     :pswitch_c
@@ -603,7 +603,7 @@ return-object p0
     .line 274
     .line 275
     invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewOscillator$RotationYset;-><init>()V
-return-object p0
+    return-object p0
 
     .line 279
     :pswitch_d
@@ -612,7 +612,7 @@ return-object p0
     .line 280
     .line 281
     invoke-direct {p0}, Landroidx/constraintlayout/motion/utils/ViewOscillator$RotationXset;-><init>()V
-return-object p0
+    return-object p0
 
     .line 285
     :sswitch_data_0

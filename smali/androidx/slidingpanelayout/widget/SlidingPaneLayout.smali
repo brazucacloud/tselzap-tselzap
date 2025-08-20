@@ -533,7 +533,7 @@ return-void
 
     .line 65
     invoke-virtual {p1, p0, v0}, Landroid/graphics/Rect;->offset(II)V
-return-object p1
+    return-object p1
 .end method
 
 .method private static getMinimumWidth(Landroid/view/View;)I
@@ -1548,7 +1548,7 @@ return-object v0
     .line 15
     .line 16
     invoke-virtual {v0}, Landroidx/customview/widget/ViewDragHelper;->abort()V
-return-void
+    return-void
 
     .line 20
     :cond_0
@@ -2212,7 +2212,7 @@ return-void
     .line 2
     .line 3
     invoke-direct {v0}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$LayoutParams;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method public generateLayoutParams(Landroid/util/AttributeSet;)Landroid/view/ViewGroup$LayoutParams;
@@ -2226,7 +2226,7 @@ return-object v0
     move-result-object v1
 
     invoke-direct {v0, v1, p1}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout$LayoutParams;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public generateLayoutParams(Landroid/view/ViewGroup$LayoutParams;)Landroid/view/ViewGroup$LayoutParams;
@@ -2596,7 +2596,7 @@ return-object v0
     .line 38
     .line 39
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
-return-void
+    return-void
 .end method
 
 .method public onInterceptTouchEvent(Landroid/view/MotionEvent;)Z
@@ -5004,7 +5004,7 @@ return-void
     .line 34
     .line 35
     invoke-virtual {p0, p1}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->setLockMode(I)V
-return-void
+    return-void
 .end method
 
 .method public onSaveInstanceState()Landroid/os/Parcelable;
@@ -5564,7 +5564,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setShadowDrawable(Landroid/graphics/drawable/Drawable;)V
@@ -5626,7 +5626,7 @@ return-void
 
     .line 9
     invoke-virtual {p0, p1}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->setShadowDrawableLeft(Landroid/graphics/drawable/Drawable;)V
-return-void
+    return-void
 .end method
 
 .method public setShadowResourceLeft(I)V
@@ -5650,7 +5650,7 @@ return-void
 
     .line 9
     invoke-virtual {p0, p1}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->setShadowDrawableLeft(Landroid/graphics/drawable/Drawable;)V
-return-void
+    return-void
 .end method
 
 .method public setShadowResourceRight(I)V
@@ -5674,7 +5674,7 @@ return-void
 
     .line 9
     invoke-virtual {p0, p1}, Landroidx/slidingpanelayout/widget/SlidingPaneLayout;->setShadowDrawableRight(Landroid/graphics/drawable/Drawable;)V
-return-void
+    return-void
 .end method
 
 .method public setSliderFadeColor(I)V

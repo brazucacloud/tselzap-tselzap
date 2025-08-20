@@ -194,7 +194,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Type;->clearFields()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$1200(Landroidx/datastore/preferences/protobuf/Type;I)V
@@ -234,7 +234,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Type;->clearOneofs()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$1700(Landroidx/datastore/preferences/protobuf/Type;Landroidx/datastore/preferences/protobuf/ByteString;)V
@@ -266,7 +266,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Type;->clearName()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$2000(Landroidx/datastore/preferences/protobuf/Type;Landroidx/datastore/preferences/protobuf/Option;)V
@@ -314,7 +314,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Type;->clearOptions()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$2600(Landroidx/datastore/preferences/protobuf/Type;I)V
@@ -362,7 +362,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Type;->clearSourceContext()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$3100(Landroidx/datastore/preferences/protobuf/Type;I)V
@@ -385,7 +385,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Type;->clearSyntax()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$400(Landroidx/datastore/preferences/protobuf/Type;ILandroidx/datastore/preferences/protobuf/Field;)V
@@ -527,7 +527,7 @@ return-void
     move-result-object p2
 
     invoke-interface {v0, p1, p2}, Ljava/util/List;->add(ILjava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method private addFields(ILandroidx/datastore/preferences/protobuf/Field;)V
@@ -649,7 +649,7 @@ return-void
     move-result-object p2
 
     invoke-interface {v0, p1, p2}, Ljava/util/List;->add(ILjava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method private addOptions(ILandroidx/datastore/preferences/protobuf/Option;)V
@@ -1703,7 +1703,7 @@ return-object p1
     .line 116
     .line 117
     invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/Type;-><init>()V
-return-object p1
+    return-object p1
 
     .line 121
     :pswitch_data_0

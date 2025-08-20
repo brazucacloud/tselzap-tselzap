@@ -51,7 +51,7 @@
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic a(Ljava/lang/String;Landroidx/fragment/app/strictmode/Violation;)V
@@ -131,7 +131,7 @@ return-void
 
     .line 28
     invoke-static {p1}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
-return-object p1
+    return-object p1
 
     .line 32
     :cond_0
@@ -1616,7 +1616,7 @@ return-object p1
     .line 37
     .line 38
     invoke-interface {p2}, Ljava/lang/Runnable;->run()V
-return-void
+    return-void
 
     .line 42
     :cond_0

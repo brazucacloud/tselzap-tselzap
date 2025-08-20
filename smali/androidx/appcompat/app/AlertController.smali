@@ -2626,7 +2626,7 @@ return-void
     .line 9
     .line 10
     invoke-direct {p0}, Landroidx/appcompat/app/AlertController;->setupView()V
-return-void
+    return-void
 .end method
 
 .method public onKeyDown(ILandroid/view/KeyEvent;)Z

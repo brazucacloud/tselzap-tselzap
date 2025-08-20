@@ -28,7 +28,7 @@
     .line 2
     .line 3
     invoke-direct {p0}, Landroidx/lifecycle/EmptyActivityLifecycleCallbacks;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -51,7 +51,7 @@ return-void
     .line 7
     .line 8
     invoke-virtual {p1}, Landroidx/lifecycle/ProcessLifecycleOwner;->activityResumed$lifecycle_process_release()V
-return-void
+    return-void
 .end method
 
 .method public onActivityPostStarted(Landroid/app/Activity;)V
@@ -72,6 +72,6 @@ return-void
     .line 7
     .line 8
     invoke-virtual {p1}, Landroidx/lifecycle/ProcessLifecycleOwner;->activityStarted$lifecycle_process_release()V
-return-void
+    return-void
 .end method
 .end class

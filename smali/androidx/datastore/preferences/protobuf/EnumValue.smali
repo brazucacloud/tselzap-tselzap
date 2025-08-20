@@ -154,7 +154,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/EnumValue;->clearOptions()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$1400(Landroidx/datastore/preferences/protobuf/EnumValue;I)V
@@ -169,7 +169,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/EnumValue;->clearName()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$300(Landroidx/datastore/preferences/protobuf/EnumValue;Landroidx/datastore/preferences/protobuf/ByteString;)V
@@ -191,7 +191,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/EnumValue;->clearNumber()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$600(Landroidx/datastore/preferences/protobuf/EnumValue;ILandroidx/datastore/preferences/protobuf/Option;)V
@@ -262,7 +262,7 @@ return-void
     move-result-object p2
 
     invoke-interface {v0, p1, p2}, Ljava/util/List;->add(ILjava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method private addOptions(ILandroidx/datastore/preferences/protobuf/Option;)V
@@ -958,7 +958,7 @@ return-void
     .line 95
     .line 96
     invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/EnumValue;-><init>()V
-return-object p1
+    return-object p1
 
     .line 100
     nop

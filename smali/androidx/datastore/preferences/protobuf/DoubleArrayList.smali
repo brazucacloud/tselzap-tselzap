@@ -57,7 +57,7 @@
     .line 10
     .line 11
     invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->makeImmutable()V
-return-void
+    return-void
 .end method
 
 .method public constructor <init>()V
@@ -275,7 +275,7 @@ return-void
     move-result-wide v0
 
     invoke-direct {p0, p1, v0, v1}, Landroidx/datastore/preferences/protobuf/DoubleArrayList;->addDouble(ID)V
-return-void
+    return-void
 .end method
 
 .method public bridge synthetic add(ILjava/lang/Object;)V

@@ -149,7 +149,7 @@ return-void
     .line 36
     .line 37
     invoke-direct {p0, v2, v2, v1}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;-><init>(II[B)V
-return-object p0
+    return-object p0
 
     .line 41
     :cond_0
@@ -246,7 +246,7 @@ return-object v0
     move-result-object v0
 
     invoke-direct {p1, v1, p0, v0}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;-><init>(II[B)V
-return-object p1
+    return-object p1
 .end method
 
 .method public static createSLong(ILjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
@@ -315,7 +315,7 @@ return-object p1
     move-result-object v0
 
     invoke-direct {p1, v1, p0, v0}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;-><init>(II[B)V
-return-object p1
+    return-object p1
 .end method
 
 .method public static createSRational(Landroidx/exifinterface/media/ExifInterface$Rational;Ljava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
@@ -399,7 +399,7 @@ return-object p1
     move-result-object v0
 
     invoke-direct {p1, v1, p0, v0}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;-><init>(II[B)V
-return-object p1
+    return-object p1
 .end method
 
 .method public static createString(Ljava/lang/String;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
@@ -459,7 +459,7 @@ return-object p1
 
     .line 27
     invoke-direct {v0, v2, v1, p0}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;-><init>(II[B)V
-return-object v0
+    return-object v0
 .end method
 
 .method public static createULong(JLjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
@@ -534,7 +534,7 @@ return-object v0
     move-result-object v0
 
     invoke-direct {p1, v1, p0, v0}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;-><init>(II[B)V
-return-object p1
+    return-object p1
 .end method
 
 .method public static createURational(Landroidx/exifinterface/media/ExifInterface$Rational;Ljava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
@@ -618,7 +618,7 @@ return-object p1
     move-result-object v0
 
     invoke-direct {p1, v1, p0, v0}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;-><init>(II[B)V
-return-object p1
+    return-object p1
 .end method
 
 .method public static createUShort(ILjava/nio/ByteOrder;)Landroidx/exifinterface/media/ExifInterface$ExifAttribute;
@@ -689,7 +689,7 @@ return-object p1
     move-result-object v0
 
     invoke-direct {p1, v1, p0, v0}, Landroidx/exifinterface/media/ExifInterface$ExifAttribute;-><init>(II[B)V
-return-object p1
+    return-object p1
 .end method
 
 

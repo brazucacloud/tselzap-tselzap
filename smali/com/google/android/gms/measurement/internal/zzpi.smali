@@ -466,7 +466,7 @@
     check-cast v3, Lcom/google/android/gms/internal/measurement/zzgg$zzo;
 
     invoke-direct {v0, p1, v1, v2, v3}, Lcom/google/android/gms/measurement/internal/zzph;-><init>(Ljava/lang/String;Ljava/util/Map;Lcom/google/android/gms/measurement/internal/zzmf;Lcom/google/android/gms/internal/measurement/zzgg$zzo;)V
-return-object v0
+    return-object v0
 
     .line 16
     :cond_1
@@ -793,7 +793,7 @@ return-object v0
     check-cast v3, Lcom/google/android/gms/internal/measurement/zzgg$zzo;
 
     invoke-direct {v0, p1, v1, v2, v3}, Lcom/google/android/gms/measurement/internal/zzph;-><init>(Ljava/lang/String;Ljava/util/Map;Lcom/google/android/gms/measurement/internal/zzmf;Lcom/google/android/gms/internal/measurement/zzgg$zzo;)V
-return-object v0
+    return-object v0
 
     .line 57
     :cond_b
@@ -831,7 +831,7 @@ return-object v0
     sget-object v1, Lcom/google/android/gms/measurement/internal/zzmf;->zza:Lcom/google/android/gms/measurement/internal/zzmf;
 
     invoke-direct {v0, p1, v1}, Lcom/google/android/gms/measurement/internal/zzph;-><init>(Ljava/lang/String;Lcom/google/android/gms/measurement/internal/zzmf;)V
-return-object v0
+    return-object v0
 
     .line 60
     :cond_d
@@ -855,7 +855,7 @@ return-object v0
     sget-object v1, Lcom/google/android/gms/measurement/internal/zzmf;->zza:Lcom/google/android/gms/measurement/internal/zzmf;
 
     invoke-direct {v0, p1, v1}, Lcom/google/android/gms/measurement/internal/zzph;-><init>(Ljava/lang/String;Lcom/google/android/gms/measurement/internal/zzmf;)V
-return-object v0
+    return-object v0
 
     .line 62
     :cond_e

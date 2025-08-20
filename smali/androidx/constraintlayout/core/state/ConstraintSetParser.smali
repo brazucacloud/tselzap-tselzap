@@ -27,7 +27,7 @@
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static applyAttribute(Landroidx/constraintlayout/core/state/State;Landroidx/constraintlayout/core/state/ConstraintSetParser$LayoutVariables;Landroidx/constraintlayout/core/state/ConstraintReference;Landroidx/constraintlayout/core/parser/CLObject;Ljava/lang/String;)V
@@ -4573,7 +4573,7 @@ return-void
 
     .line 502
     invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-return-void
+    return-void
 
     .line 506
     :pswitch_2
@@ -9091,7 +9091,7 @@ return-void
 
     .line 487
     invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-return-void
+    return-void
 
     .line 491
     :pswitch_6
@@ -13173,7 +13173,7 @@ return-void
     move-result-object p0
 
     invoke-virtual {p1, p0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-return-void
+    return-void
 .end method
 
 .method public static parseJSON(Ljava/lang/String;Landroidx/constraintlayout/core/state/Transition;I)V

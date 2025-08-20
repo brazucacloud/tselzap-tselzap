@@ -175,7 +175,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->clearName()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$1100(Landroidx/datastore/preferences/protobuf/Field;Landroidx/datastore/preferences/protobuf/ByteString;)V
@@ -199,7 +199,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->clearTypeUrl()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$1400(Landroidx/datastore/preferences/protobuf/Field;Landroidx/datastore/preferences/protobuf/ByteString;)V
@@ -223,7 +223,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->clearOneofIndex()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$1700(Landroidx/datastore/preferences/protobuf/Field;Z)V
@@ -239,7 +239,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->clearPacked()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$1900(Landroidx/datastore/preferences/protobuf/Field;ILandroidx/datastore/preferences/protobuf/Option;)V
@@ -311,7 +311,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->clearOptions()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$2700(Landroidx/datastore/preferences/protobuf/Field;I)V
@@ -335,7 +335,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->clearJsonName()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$300(Landroidx/datastore/preferences/protobuf/Field;)V
@@ -343,7 +343,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->clearKind()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$3000(Landroidx/datastore/preferences/protobuf/Field;Landroidx/datastore/preferences/protobuf/ByteString;)V
@@ -366,7 +366,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->clearDefaultValue()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$3300(Landroidx/datastore/preferences/protobuf/Field;Landroidx/datastore/preferences/protobuf/ByteString;)V
@@ -396,7 +396,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->clearCardinality()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$700(Landroidx/datastore/preferences/protobuf/Field;I)V
@@ -412,7 +412,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Field;->clearNumber()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$900(Landroidx/datastore/preferences/protobuf/Field;Ljava/lang/String;)V
@@ -463,7 +463,7 @@ return-void
     move-result-object p2
 
     invoke-interface {v0, p1, p2}, Ljava/util/List;->add(ILjava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method private addOptions(ILandroidx/datastore/preferences/protobuf/Option;)V
@@ -1532,7 +1532,7 @@ return-object p1
     .line 134
     .line 135
     invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/Field;-><init>()V
-return-object p1
+    return-object p1
 
     .line 139
     :pswitch_data_0

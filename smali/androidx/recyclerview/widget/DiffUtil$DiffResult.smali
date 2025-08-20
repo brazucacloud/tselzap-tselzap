@@ -138,7 +138,7 @@
     .line 35
     .line 36
     invoke-direct {p0}, Landroidx/recyclerview/widget/DiffUtil$DiffResult;->findMatchingItems()V
-return-void
+    return-void
 .end method
 
 .method private addEdgeDiagonals()V
@@ -1261,7 +1261,7 @@ return-void
     .line 37
     :cond_a
     invoke-virtual {p1}, Landroidx/recyclerview/widget/BatchingListUpdateCallback;->dispatchLastEvent()V
-return-void
+    return-void
 .end method
 
 .method public dispatchUpdatesTo(Landroidx/recyclerview/widget/RecyclerView$Adapter;)V

@@ -797,7 +797,7 @@
 
     .line 95
     invoke-interface {v1}, Landroid/database/Cursor;->close()V
-return-wide p1
+    return-wide p1
 
     :catchall_0
     move-exception p1
@@ -909,7 +909,7 @@ return-wide p3
 
     .line 176
     invoke-virtual {p1, v0}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;)V
-return-object v3
+    return-object v3
 
     .line 177
     :cond_0
@@ -1207,7 +1207,7 @@ return-object v3
 
     .line 212
     invoke-virtual {v1, v2, p1, v0}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
-return-object v3
+    return-object v3
 .end method
 
 .method private final zza(Landroid/database/Cursor;I)Ljava/lang/Object;
@@ -1259,7 +1259,7 @@ return-object v3
     const-string v0, "Loaded invalid unknown value type, ignoring it"
 
     invoke-virtual {p1, v0, p2}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-return-object v1
+    return-object v1
 
     .line 240
     :cond_0
@@ -1274,7 +1274,7 @@ return-object v1
     const-string p2, "Loaded invalid blob type value, ignoring it"
 
     invoke-virtual {p1, p2}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;)V
-return-object v1
+    return-object v1
 
     .line 241
     :cond_1
@@ -1321,7 +1321,7 @@ return-object v1
     const-string p2, "Loaded invalid null value from database"
 
     invoke-virtual {p1, p2}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;)V
-return-object v1
+    return-object v1
 .end method
 
 .method private final zza(Ljava/lang/String;[Ljava/lang/String;Lcom/google/android/gms/measurement/internal/zzay;)Ljava/lang/Object;
@@ -1495,7 +1495,7 @@ return-object p2
 
     .line 260
     invoke-interface {v1}, Landroid/database/Cursor;->close()V
-return-object p1
+    return-object p1
 
     :catchall_0
     move-exception p1
@@ -1818,7 +1818,7 @@ return-object p3
     const-string v1, "Error storing event aggregates. appId"
 
     invoke-virtual {v0, v1, p2, p1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method private final zza(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)V
@@ -1967,7 +1967,7 @@ return-void
     const-string v1, "Error storing into table. key"
 
     invoke-virtual {v0, v1, p1, p2, p3}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method private final zza(JLcom/google/android/gms/measurement/internal/zzbg;JZ)Z
@@ -2974,7 +2974,7 @@ return-void
 
     .line 41
     invoke-interface {v1}, Landroid/database/Cursor;->close()V
-return-wide p1
+    return-wide p1
 
     :catchall_0
     move-exception p1
@@ -4007,7 +4007,7 @@ return-object v11
     move-result-object p2
 
     invoke-virtual {v0, v1, p2, p1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method private final zzr(Ljava/lang/String;)I
@@ -5347,7 +5347,7 @@ return-void
 
     .line 90
     invoke-virtual {p3, v0, p1, p2}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
-return-wide v2
+    return-wide v2
 .end method
 
 .method public final zza(Ljava/lang/String;Ljava/lang/Long;)Landroid/util/Pair;
@@ -5497,7 +5497,7 @@ return-object v0
 
     .line 114
     invoke-interface {v1}, Landroid/database/Cursor;->close()V
-return-object p1
+    return-object p1
 
     :catch_1
     move-exception v2
@@ -8402,7 +8402,7 @@ return-void
     move-result-object v0
 
     invoke-virtual {p2, p3, v0, p1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method public final zza(Ljava/lang/Long;)V
@@ -9724,7 +9724,7 @@ return-void
 
     .line 563
     invoke-virtual {v7}, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
-return-void
+    return-void
 
     .line 564
     :goto_9
@@ -9876,7 +9876,7 @@ return-void
     const-string v1, "Error incrementing retry count. error"
 
     invoke-virtual {v0, v1, p1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method public final zza(Lcom/google/android/gms/internal/measurement/zzgg$zzk;Z)Z
@@ -11806,7 +11806,7 @@ return-void
 
     .line 18
     invoke-virtual {v1}, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
-return-wide v5
+    return-wide v5
 
     :catchall_0
     move-exception v0
@@ -11885,7 +11885,7 @@ return-wide v5
 
     .line 26
     invoke-virtual {v1}, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
-return-wide v5
+    return-wide v5
 
     :catch_1
     move-exception v0
@@ -11904,7 +11904,7 @@ return-wide v5
 
     .line 28
     invoke-virtual {v1}, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
-return-wide v7
+    return-wide v7
 
     .line 29
     :goto_0
@@ -11931,7 +11931,7 @@ return-wide v7
 
     .line 32
     invoke-virtual {v1}, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
-return-wide v2
+    return-wide v2
 
     .line 33
     :goto_1
@@ -12273,7 +12273,7 @@ return-object p2
 
     .line 120
     invoke-interface {v2}, Landroid/database/Cursor;->close()V
-return-object v1
+    return-object v1
 
     .line 121
     :cond_2
@@ -12640,7 +12640,7 @@ return-object v1
     const-string v1, "Error incrementing retry count. error"
 
     invoke-virtual {v0, v1, p1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method public final zzb(Ljava/lang/String;Lcom/google/android/gms/measurement/internal/zzju;)V
@@ -12823,7 +12823,7 @@ return-object v0
 
     .line 13
     invoke-interface {v1}, Landroid/database/Cursor;->close()V
-return-object p1
+    return-object p1
 
     :catch_1
     move-exception v2
@@ -13467,7 +13467,7 @@ return-object v8
 
     .line 8
     invoke-interface {v4}, Landroid/database/Cursor;->close()V
-return-object v3
+    return-object v3
 
     .line 9
     :cond_0
@@ -14311,7 +14311,7 @@ return-object v0
 
     .line 8
     invoke-interface {v2}, Landroid/database/Cursor;->close()V
-return-object v1
+    return-object v1
 
     :cond_0
     const/4 v0, 0x0
@@ -14529,7 +14529,7 @@ return-object v5
 
     .line 34
     invoke-interface {v2}, Landroid/database/Cursor;->close()V
-return-object v1
+    return-object v1
 
     :cond_0
     const/4 v0, 0x0
@@ -14830,7 +14830,7 @@ return-object v3
 
     .line 17
     invoke-interface {v10}, Landroid/database/Cursor;->close()V
-return-object p1
+    return-object p1
 
     :catchall_0
     move-exception v0
@@ -15123,7 +15123,7 @@ return-object v1
 
     .line 17
     invoke-interface {v10}, Landroid/database/Cursor;->close()V
-return-object p1
+    return-object p1
 
     :catchall_0
     move-exception v0
@@ -15404,7 +15404,7 @@ return-object v1
     const-string v2, "Error deleting user property. appId"
 
     invoke-virtual {v1, v2, p1, p2, v0}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method public final zzi(Ljava/lang/String;)Lcom/google/android/gms/measurement/internal/zzpu;
@@ -15581,7 +15581,7 @@ return-void
 
     .line 15
     invoke-interface {v3}, Landroid/database/Cursor;->close()V
-return-object v16
+    return-object v16
 
     .line 16
     :cond_3
@@ -15862,7 +15862,7 @@ return-object v0
 
     .line 9
     invoke-interface {v1}, Landroid/database/Cursor;->close()V
-return-object v0
+    return-object v0
 
     :cond_0
     const/4 v2, 0x0
@@ -19819,7 +19819,7 @@ return-object v0
     move-result-object v0
 
     invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;->beginTransaction()V
-return-void
+    return-void
 .end method
 
 .method public final zzq(Ljava/lang/String;)Z
@@ -19991,7 +19991,7 @@ return-void
     move-result-object v0
 
     invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
-return-void
+    return-void
 .end method
 
 .method public final zzw()V

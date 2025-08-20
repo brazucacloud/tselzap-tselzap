@@ -357,7 +357,7 @@ return-object v1
 
     .line 15
     invoke-virtual {p0, p1}, Landroidx/preference/TwoStatePreference;->setChecked(Z)V
-return-void
+    return-void
 .end method
 
 .method public setChecked(Z)V
@@ -459,7 +459,7 @@ return-void
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/preference/TwoStatePreference;->setSummaryOff(Ljava/lang/CharSequence;)V
-return-void
+    return-void
 .end method
 
 .method public setSummaryOff(Ljava/lang/CharSequence;)V
@@ -499,7 +499,7 @@ return-void
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/preference/TwoStatePreference;->setSummaryOn(Ljava/lang/CharSequence;)V
-return-void
+    return-void
 .end method
 
 .method public setSummaryOn(Ljava/lang/CharSequence;)V

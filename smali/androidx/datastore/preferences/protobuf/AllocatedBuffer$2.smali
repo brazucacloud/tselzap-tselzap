@@ -42,7 +42,7 @@
     .line 6
     .line 7
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/AllocatedBuffer;-><init>()V
-return-void
+    return-void
 .end method
 
 

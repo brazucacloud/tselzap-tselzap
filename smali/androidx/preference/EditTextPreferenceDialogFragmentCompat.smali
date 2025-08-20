@@ -499,7 +499,7 @@ return-void
     .line 4
     .line 5
     invoke-virtual {p0}, Landroidx/preference/EditTextPreferenceDialogFragmentCompat;->scheduleShowSoftInputInner()V
-return-void
+    return-void
 .end method
 
 .method public scheduleShowSoftInputInner()V

@@ -2310,7 +2310,7 @@
 
     .line 44
     invoke-virtual {v1}, Landroid/os/Parcel;->recycle()V
-return-object p1
+    return-object p1
 
     :catchall_0
     move-exception p1
@@ -2336,7 +2336,7 @@ return-object p1
 
     .line 46
     invoke-virtual {v1}, Landroid/os/Parcel;->recycle()V
-return-object v0
+    return-object v0
 
     .line 47
     :goto_0
@@ -2546,7 +2546,7 @@ return-object v0
     move-result-wide v6
 
     invoke-direct/range {v2 .. v7}, Lcom/google/android/gms/measurement/internal/zzbj;-><init>(Ljava/lang/String;Lcom/google/android/gms/measurement/internal/zzbi;Ljava/lang/String;J)V
-return-object v2
+    return-object v2
 .end method
 
 .method public final zza(Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzgg$zzk$zza;Lcom/google/android/gms/internal/measurement/zzgg$zzf$zza;Ljava/lang/String;)Lcom/google/android/gms/measurement/internal/zzow;
@@ -3522,7 +3522,7 @@ return-object v2
     const/4 p3, 0x1
 
     invoke-direct {p1, p2, v0, v1, p3}, Lcom/google/android/gms/measurement/internal/zzow;-><init>(Ljava/lang/String;JI)V
-return-object p1
+    return-object p1
 
     :cond_1c
     :goto_5
@@ -5992,7 +5992,7 @@ return-object p1
     const-string v0, "Ignoring invalid (type) event param value"
 
     invoke-virtual {p1, v0, p2}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method public final zza(Lcom/google/android/gms/internal/measurement/zzgg$zzp$zza;Ljava/lang/Object;)V
@@ -6071,7 +6071,7 @@ return-void
     const-string v0, "Ignoring invalid (type) user attribute value"
 
     invoke-virtual {p1, v0, p2}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method public final zza(JJ)Z

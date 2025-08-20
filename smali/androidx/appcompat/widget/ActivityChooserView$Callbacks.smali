@@ -34,7 +34,7 @@
     .line 2
     .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method private notifyOnDismissListener()V
@@ -359,7 +359,7 @@ return-void
 
     .line 50
     invoke-virtual {p1, p3}, Landroidx/appcompat/widget/ActivityChooserModel;->setDefaultActivity(I)V
-return-void
+    return-void
 
     .line 54
     :cond_2

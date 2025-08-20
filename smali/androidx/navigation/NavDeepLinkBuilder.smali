@@ -1089,7 +1089,7 @@
 
     .line 121
     invoke-static {v0}, Lkotlin/jvm/internal/j;->c(Ljava/lang/Object;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public final createTaskStackBuilder()Landroidx/core/app/TaskStackBuilder;
@@ -1477,6 +1477,6 @@ return-object v0
 
     .line 3
     invoke-direct {p0}, Landroidx/navigation/NavDeepLinkBuilder;->verifyAllDestinations()V
-return-object p0
+    return-object p0
 .end method
 .end class

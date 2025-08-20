@@ -129,7 +129,7 @@ return-void
     new-instance v0, Landroid/adservices/measurement/DeletionRequest$Builder;
 
     invoke-direct {v0}, Landroid/adservices/measurement/DeletionRequest$Builder;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method public static bridge synthetic i(Landroid/adservices/measurement/DeletionRequest$Builder;I)Landroid/adservices/measurement/DeletionRequest$Builder;
@@ -214,7 +214,7 @@ return-object v0
     new-instance v0, Landroid/adservices/measurement/WebSourceParams$Builder;
 
     invoke-direct {v0, p0}, Landroid/adservices/measurement/WebSourceParams$Builder;-><init>(Landroid/net/Uri;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public static bridge synthetic q(Landroid/adservices/measurement/WebSourceParams$Builder;)Landroid/adservices/measurement/WebSourceParams;

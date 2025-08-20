@@ -22,7 +22,7 @@
     iput v0, p0, LN/l;->b:I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public synthetic constructor <init>(Landroid/content/Context;I)V
@@ -34,7 +34,7 @@ return-void
     iput-object p1, p0, LN/l;->c:Landroid/content/Context;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 

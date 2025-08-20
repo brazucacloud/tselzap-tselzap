@@ -373,7 +373,7 @@
 
     .line 1
     invoke-direct {p0}, Lcom/fmark/tselzap/fragments/Bot_coder;->lambda$onViewCreated$0()V
-return-void
+    return-void
 .end method
 
 .method private dismissCurrentDialog()V
@@ -3025,7 +3025,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Lcom/fmark/tselzap/fragments/Bot_coder;->lambda$checkXiaomiPermissions$12()V
-return-void
+    return-void
 .end method
 
 .method private synthetic lambda$checkXiaomiPermissions$12()V
@@ -3942,7 +3942,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Lcom/fmark/tselzap/fragments/Bot_coder;->setPR()V
-return-void
+    return-void
 .end method
 
 .method public static bridge synthetic r(Lcom/fmark/tselzap/fragments/Bot_coder;I)V

@@ -1579,7 +1579,7 @@ return-void
 
     .line 9
     invoke-virtual {p0, p1}, Landroidx/appcompat/widget/AppCompatSpinner;->setPopupBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
-return-void
+    return-void
 .end method
 
 .method public setPrompt(Ljava/lang/CharSequence;)V
@@ -1688,6 +1688,6 @@ return-void
 
     .line 11
     invoke-interface {v0, v1, v2}, Landroidx/appcompat/widget/AppCompatSpinner$SpinnerPopup;->show(II)V
-return-void
+    return-void
 .end method
 .end class

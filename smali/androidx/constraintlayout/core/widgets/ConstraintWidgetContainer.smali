@@ -2384,7 +2384,7 @@ return-void
 
     .line 11
     invoke-virtual {v0, v1, v2}, Landroidx/constraintlayout/core/widgets/analyzer/DependencyGraph;->defineTerminalWidgets(Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;Landroidx/constraintlayout/core/widgets/ConstraintWidget$DimensionBehaviour;)V
-return-void
+    return-void
 .end method
 
 .method public directMeasure(Z)Z
@@ -2895,7 +2895,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Landroidx/constraintlayout/core/widgets/analyzer/DependencyGraph;->invalidateGraph()V
-return-void
+    return-void
 .end method
 
 .method public invalidateMeasures()V
@@ -2907,7 +2907,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Landroidx/constraintlayout/core/widgets/analyzer/DependencyGraph;->invalidateMeasures()V
-return-void
+    return-void
 .end method
 
 .method public isHeightMeasuredTooSmall()Z

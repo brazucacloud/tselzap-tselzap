@@ -30,7 +30,7 @@
     iput p3, p0, Landroidx/core/location/h;->d:I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 

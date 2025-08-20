@@ -1473,7 +1473,7 @@ return-void
     .line 228
     .line 229
     invoke-virtual {p1}, Landroidx/constraintlayout/widget/ConstraintLayout$LayoutParams;->validate()V
-return-void
+    return-void
 .end method
 
 .method public clone()Landroidx/constraintlayout/widget/ConstraintSet$Constraint;

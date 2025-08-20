@@ -92,7 +92,7 @@
 
     .line 10
     invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridEngine;->initVariables()V
-return-void
+    return-void
 .end method
 
 .method public constructor <init>(III)V
@@ -548,7 +548,7 @@ return-void
     .line 106
     :cond_5
     invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridEngine;->addAllConstraintPositions()V
-return-void
+    return-void
 .end method
 
 .method private getColByIndex(I)I
@@ -1697,7 +1697,7 @@ return-void
     .line 12
     .line 13
     invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridEngine;->updateActualRowsAndColumns()V
-return-void
+    return-void
 .end method
 
 .method public setNumWidgets(I)V
@@ -1792,7 +1792,7 @@ return-void
     .line 12
     .line 13
     invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridEngine;->updateActualRowsAndColumns()V
-return-void
+    return-void
 .end method
 
 .method public setSkips(Ljava/lang/String;)V

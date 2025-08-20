@@ -410,7 +410,7 @@
     .line 5
     .line 6
     invoke-virtual {p1}, Landroidx/appcompat/widget/SearchView;->onTextFocusChanged()V
-return-void
+    return-void
 .end method
 
 .method public onKeyPreIme(ILandroid/view/KeyEvent;)Z

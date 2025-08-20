@@ -524,7 +524,7 @@ return-void
     .line 29
     .line 30
     invoke-virtual {v0}, Landroidx/collection/SparseArrayCompat;->clear()V
-return-void
+    return-void
 .end method
 
 .method public putLoader(ILandroidx/loader/app/LoaderManagerImpl$LoaderInfo;)V

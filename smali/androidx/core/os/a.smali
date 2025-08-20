@@ -112,7 +112,7 @@
     new-instance v0, Landroid/content/res/Resources$NotFoundException;
 
     invoke-direct {v0, p0, p1}, Landroid/content/res/Resources$NotFoundException;-><init>(Ljava/lang/String;Ljava/lang/Exception;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public static bridge synthetic g(Landroid/text/TextPaint;)Landroid/os/LocaleList;

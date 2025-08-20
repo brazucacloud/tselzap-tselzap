@@ -674,7 +674,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder;->lambda$updateSocketStatus$4()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic e(Lcom/fmark/tselzap/fragments/ApiContact_coder;ILjava/lang/String;)V
@@ -1003,7 +1003,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder;->clearContacts()V
-return-void
+    return-void
 .end method
 
 .method private lambda$onViewCreated$0(Landroid/widget/CompoundButton;Z)V
@@ -2016,7 +2016,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder;->getAllContacts()V
-return-void
+    return-void
 .end method
 
 .method public static bridge synthetic n(Lcom/fmark/tselzap/fragments/ApiContact_coder;)V
@@ -2024,7 +2024,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder;->reconnectSocketIfNeeded()V
-return-void
+    return-void
 .end method
 
 .method public static bridge synthetic o(Lcom/fmark/tselzap/fragments/ApiContact_coder;Ljava/lang/String;Ljava/lang/String;)V
@@ -2078,7 +2078,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Lcom/fmark/tselzap/fragments/ApiContact_coder;->updateSocketStatus()V
-return-void
+    return-void
 .end method
 
 .method private reconnectSocketIfNeeded()V

@@ -229,7 +229,7 @@
 
     .line 97
     invoke-virtual {p1, p2}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setMovementGranularities(I)V
-return-void
+    return-void
 .end method
 
 

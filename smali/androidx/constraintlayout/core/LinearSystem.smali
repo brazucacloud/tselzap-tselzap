@@ -1004,7 +1004,7 @@
     .line 52
     .line 53
     invoke-virtual {v1, v0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-return-void
+    return-void
 .end method
 
 .method private displaySolverVariables()V
@@ -4520,7 +4520,7 @@ return-void
     .line 64
     :goto_0
     invoke-static {}, Landroidx/constraintlayout/core/SolverVariable;->increaseErrorId()V
-return-object v0
+    return-object v0
 .end method
 
 .method public createSlackVariable()Landroidx/constraintlayout/core/SolverVariable;
@@ -5060,7 +5060,7 @@ return-object v0
     .line 219
     .line 220
     invoke-virtual {v1, v0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-return-void
+    return-void
 .end method
 
 .method public displaySystemInformation()V
@@ -5363,7 +5363,7 @@ return-void
 
     .line 150
     invoke-virtual {v1, v0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-return-void
+    return-void
 .end method
 
 .method public displayVariablesReadableRows()V
@@ -5508,7 +5508,7 @@ return-void
     .line 68
     .line 69
     invoke-virtual {v1, v0}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-return-void
+    return-void
 .end method
 
 .method public fillMetrics(Landroidx/constraintlayout/core/Metrics;)V
@@ -5790,7 +5790,7 @@ return-void
     .line 19
     .line 20
     invoke-direct {p0}, Landroidx/constraintlayout/core/LinearSystem;->computeValues()V
-return-void
+    return-void
 
     .line 24
     :cond_1
@@ -5910,7 +5910,7 @@ return-void
     .line 79
     :cond_7
     invoke-direct {p0}, Landroidx/constraintlayout/core/LinearSystem;->computeValues()V
-return-void
+    return-void
 .end method
 
 .method public minimizeGoal(Landroidx/constraintlayout/core/LinearSystem$Row;)V
@@ -6005,7 +6005,7 @@ return-void
     .line 42
     .line 43
     invoke-direct {p0}, Landroidx/constraintlayout/core/LinearSystem;->computeValues()V
-return-void
+    return-void
 .end method
 
 .method public removeRow(Landroidx/constraintlayout/core/ArrayRow;)V

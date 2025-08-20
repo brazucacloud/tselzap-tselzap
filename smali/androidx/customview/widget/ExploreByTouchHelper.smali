@@ -613,7 +613,7 @@
 
     .line 105
     invoke-virtual {p2, p1}, Landroid/view/accessibility/AccessibilityEvent;->setPackageName(Ljava/lang/CharSequence;)V
-return-object p2
+    return-object p2
 .end method
 
 .method private createEventForHost(I)Landroid/view/accessibility/AccessibilityEvent;
@@ -1648,7 +1648,7 @@ return-void
     .line 26
     .line 27
     invoke-virtual {p2, v2, v3, v0, v3}, Landroid/graphics/Rect;->set(IIII)V
-return-object p2
+    return-object p2
 
     .line 31
     :cond_0

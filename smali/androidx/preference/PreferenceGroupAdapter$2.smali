@@ -46,7 +46,7 @@
     .line 8
     .line 9
     invoke-direct {p0}, Landroidx/recyclerview/widget/DiffUtil$Callback;-><init>()V
-return-void
+    return-void
 .end method
 
 

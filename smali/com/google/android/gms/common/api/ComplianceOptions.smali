@@ -188,7 +188,7 @@ return-void
     new-instance v0, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;
 
     invoke-direct {v0}, Lcom/google/android/gms/common/api/ComplianceOptions$Builder;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method public static final newBuilder(Landroid/content/Context;)Lcom/google/android/gms/common/api/ComplianceOptions$Builder;

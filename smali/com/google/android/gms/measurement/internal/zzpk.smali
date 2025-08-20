@@ -852,7 +852,7 @@ return-object p1
 
     :cond_a
     invoke-direct {p3, p4, v2, v0, v1}, Lcom/google/android/gms/measurement/internal/zzbb;-><init>(Ljava/lang/Boolean;ILjava/lang/Boolean;Ljava/lang/String;)V
-return-object p3
+    return-object p3
 
     .line 158
     :cond_b
@@ -2114,7 +2114,7 @@ return-void
 
     .line 636
     invoke-direct {p0}, Lcom/google/android/gms/measurement/internal/zzpk;->zzac()V
-return-void
+    return-void
 
     .line 637
     :cond_9
@@ -2160,7 +2160,7 @@ return-void
 
     .line 641
     invoke-direct {p0}, Lcom/google/android/gms/measurement/internal/zzpk;->zzac()V
-return-void
+    return-void
 
     .line 642
     :cond_a
@@ -2331,7 +2331,7 @@ return-void
 
     .line 663
     invoke-direct {p0}, Lcom/google/android/gms/measurement/internal/zzpk;->zzac()V
-return-void
+    return-void
 
     .line 664
     :goto_6
@@ -3736,7 +3736,7 @@ return-void
 
     .line 1182
     invoke-static {v2, v1}, Lcom/google/android/gms/measurement/internal/zzpk;->zzb(Landroid/content/Context;Landroid/content/Intent;)V
-return-void
+    return-void
 
     :cond_29
     move-object v3, v7
@@ -4021,7 +4021,7 @@ return-void
 
     .line 1212
     invoke-virtual {p3, v1, p1}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
-return-void
+    return-void
 
     .line 1213
     :cond_2
@@ -4115,7 +4115,7 @@ return-void
     move-result-object v0
 
     invoke-virtual {v0, p1, p2}, Lcom/google/android/gms/measurement/internal/zzap;->zzb(Ljava/lang/String;Lcom/google/android/gms/measurement/internal/zzju;)V
-return-void
+    return-void
 .end method
 
 .method private final zza(Ljava/lang/String;ZLjava/lang/Long;Ljava/lang/Long;)V
@@ -4204,7 +4204,7 @@ return-void
     const-string v0, "Set uploading progress before finishing the previous upload"
 
     invoke-virtual {p1, v0}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;)V
-return-void
+    return-void
 
     .line 881
     :cond_0
@@ -6842,7 +6842,7 @@ return-void
 
     .line 128
     invoke-static {p0, p1, v0}, Lcom/google/android/gms/measurement/internal/a;->c(Landroid/content/Context;Landroid/content/Intent;Landroid/os/Bundle;)V
-return-void
+    return-void
 .end method
 
 .method private final zzb(Lcom/google/android/gms/measurement/internal/zzbj;Lcom/google/android/gms/measurement/internal/zzq;)V
@@ -7029,7 +7029,7 @@ return-void
 
     .line 19
     invoke-direct/range {v0 .. v5}, Lcom/google/android/gms/measurement/internal/zzpk;->zza(Ljava/lang/String;ILjava/lang/Throwable;[BLjava/util/Map;)V
-return-void
+    return-void
 
     :cond_0
     move-object v0, p0
@@ -7329,7 +7329,7 @@ return-void
     const-string v3, "Failed to parse config URL. Not fetching. appId"
 
     invoke-virtual {v2, v3, p1, v1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method private final zzb(Ljava/lang/String;J)Z
@@ -12845,7 +12845,7 @@ return-void
     move-result-object v1
 
     invoke-virtual {v0, v4, v1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-return-object v2
+    return-object v2
 
     :cond_1
     move-object v2, v0
@@ -13009,7 +13009,7 @@ return-object v2
     const/16 v28, 0x0
 
     invoke-direct/range {v0 .. v41}, Lcom/google/android/gms/measurement/internal/zzq;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;JJLjava/lang/String;ZZLjava/lang/String;JIZZLjava/lang/String;Ljava/lang/Boolean;JLjava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZJILjava/lang/String;IJLjava/lang/String;Ljava/lang/String;JI)V
-return-object v0
+    return-object v0
 
     .line 33
     :cond_2
@@ -13025,7 +13025,7 @@ return-object v0
     const-string v3, "No app data available; dropping"
 
     invoke-virtual {v0, v3, v1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-return-object v2
+    return-object v2
 .end method
 
 .method private final zzc(Lcom/google/android/gms/measurement/internal/zzbj;Lcom/google/android/gms/measurement/internal/zzq;)V
@@ -13662,7 +13662,7 @@ return-object v2
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/zzap;->zzr()V
-return-void
+    return-void
 
     :cond_10
     move-object/from16 v21, v15
@@ -14120,7 +14120,7 @@ return-void
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/zzap;->zzr()V
-return-void
+    return-void
 
     :cond_17
     if-eqz v18, :cond_19
@@ -14226,7 +14226,7 @@ return-void
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/zzap;->zzr()V
-return-void
+    return-void
 
     :cond_19
     move-object/from16 v10, p1
@@ -14322,7 +14322,7 @@ return-void
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/zzap;->zzr()V
-return-void
+    return-void
 
     :cond_1b
     move-wide/from16 v16, v14
@@ -14693,7 +14693,7 @@ return-void
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/zzap;->zzr()V
-return-void
+    return-void
 
     .line 239
     :cond_21
@@ -16071,7 +16071,7 @@ return-void
     const-string v3, "Background event processing time, ms"
 
     invoke-virtual {v0, v3, v2}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-return-void
+    return-void
 
     .line 400
     :goto_1e
@@ -16090,7 +16090,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/measurement/internal/zzpk;->zzae()V
-return-void
+    return-void
 .end method
 
 .method private final zzd(Ljava/lang/String;)Lcom/google/android/gms/measurement/internal/zzbb;
@@ -16195,7 +16195,7 @@ return-void
 
     .line 38
     invoke-direct {p0}, Lcom/google/android/gms/measurement/internal/zzpk;->zzac()V
-return-void
+    return-void
 
     :catchall_0
     move-exception p1
@@ -16231,7 +16231,7 @@ return-void
 
     .line 42
     invoke-direct {p0}, Lcom/google/android/gms/measurement/internal/zzpk;->zzac()V
-return-void
+    return-void
 
     .line 43
     :cond_1
@@ -16254,7 +16254,7 @@ return-void
 
     .line 46
     invoke-direct {p0}, Lcom/google/android/gms/measurement/internal/zzpk;->zzac()V
-return-void
+    return-void
 
     .line 47
     :cond_2
@@ -16292,7 +16292,7 @@ return-void
 
     .line 51
     invoke-direct {p0}, Lcom/google/android/gms/measurement/internal/zzpk;->zzac()V
-return-void
+    return-void
 
     .line 52
     :cond_3
@@ -16327,7 +16327,7 @@ return-void
 
     .line 55
     invoke-direct {p0}, Lcom/google/android/gms/measurement/internal/zzpk;->zzac()V
-return-void
+    return-void
 
     .line 56
     :cond_4
@@ -16349,7 +16349,7 @@ return-void
 
     .line 58
     invoke-direct {p0}, Lcom/google/android/gms/measurement/internal/zzpk;->zzac()V
-return-void
+    return-void
 
     .line 59
     :cond_5
@@ -16367,7 +16367,7 @@ return-void
 
     .line 61
     invoke-direct {p0}, Lcom/google/android/gms/measurement/internal/zzpk;->zzac()V
-return-void
+    return-void
 
     .line 62
     :cond_6
@@ -16473,7 +16473,7 @@ return-void
 
     .line 79
     invoke-direct {p0}, Lcom/google/android/gms/measurement/internal/zzpk;->zzac()V
-return-void
+    return-void
 
     .line 80
     :goto_0
@@ -17522,7 +17522,7 @@ return-object v0
     move-result-object p1
 
     invoke-virtual {p1, v0, v2, v4}, Lcom/google/android/gms/measurement/internal/zzap;->zza(Lcom/google/android/gms/measurement/internal/zzg;ZZ)V
-return-object v0
+    return-object v0
 .end method
 
 .method public final zza(Ljava/lang/String;Lcom/google/android/gms/measurement/internal/zzpb;)Lcom/google/android/gms/measurement/internal/zzpd;
@@ -17549,7 +17549,7 @@ return-object v0
     sget-object p2, Ljava/util/Collections;->EMPTY_LIST:Ljava/util/List;
 
     invoke-direct {p1, p2}, Lcom/google/android/gms/measurement/internal/zzpd;-><init>(Ljava/util/List;)V
-return-object p1
+    return-object p1
 
     .line 163
     :cond_0
@@ -18166,7 +18166,7 @@ return-object p1
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1}, Ljava/util/ArrayList;-><init>()V
-return-object p1
+    return-object p1
 .end method
 
 .method public final zza(Lcom/google/android/gms/measurement/internal/zzai;)V
@@ -18484,7 +18484,7 @@ return-object p1
     move-result-object p1
 
     invoke-virtual {p1}, Lcom/google/android/gms/measurement/internal/zzap;->zzr()V
-return-void
+    return-void
 
     .line 833
     :goto_4
@@ -18687,7 +18687,7 @@ return-void
     const-string v5, "Dropping non-safelisted event. appId, event name, origin"
 
     invoke-virtual {v0, v5, v4, v2, v3}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
-return-void
+    return-void
 
     :cond_5
     move-object v15, v5
@@ -19511,7 +19511,7 @@ return-void
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/zzap;->zzr()V
-return-void
+    return-void
 
     .line 546
     :goto_e
@@ -19628,7 +19628,7 @@ return-void
 
     .line 557
     invoke-virtual {v1, v2, v3}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-return-void
+    return-void
 
     .line 558
     :goto_0
@@ -19811,7 +19811,7 @@ return-void
     const-string v2, "No app data available; dropping event"
 
     invoke-virtual {v1, v2, v3}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method public final zza(Lcom/google/android/gms/measurement/internal/zzg;Lcom/google/android/gms/internal/measurement/zzgg$zzk$zza;)V
@@ -20614,7 +20614,7 @@ return-void
 
     .line 963
     invoke-static/range {v6 .. v11}, Lcom/google/android/gms/measurement/internal/zzqd;->zza(Lcom/google/android/gms/measurement/internal/zzqc;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;I)V
-return-void
+    return-void
 
     .line 964
     :cond_3
@@ -20693,7 +20693,7 @@ return-void
 
     .line 973
     invoke-static/range {v10 .. v15}, Lcom/google/android/gms/measurement/internal/zzqd;->zza(Lcom/google/android/gms/measurement/internal/zzqc;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;I)V
-return-void
+    return-void
 
     .line 974
     :cond_6
@@ -21110,7 +21110,7 @@ return-void
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/zzap;->zzr()V
-return-void
+    return-void
 
     .line 1026
     :goto_5
@@ -21366,7 +21366,7 @@ return-void
 
     .line 791
     invoke-direct {p0}, Lcom/google/android/gms/measurement/internal/zzpk;->zzac()V
-return-void
+    return-void
 
     .line 792
     :goto_2
@@ -21664,7 +21664,7 @@ return-void
     const-string v1, "[sgtm] Queued batch doesn\'t exist. appId, rowId"
 
     invoke-virtual {v0, v1, p1, p2}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
-return-void
+    return-void
 
     .line 889
     :cond_1
@@ -22049,7 +22049,7 @@ return-void
     const-string v1, "[sgtm] increased batch retry count after failed client upload. appId, rowId"
 
     invoke-virtual {v0, v1, p1, p2}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method public final zza(Ljava/lang/String;Lcom/google/android/gms/measurement/internal/zzmh;)V
@@ -22336,7 +22336,7 @@ return-void
     move-result-object p1
 
     invoke-virtual {p1}, Lcom/google/android/gms/measurement/internal/zzap;->zzr()V
-return-void
+    return-void
 
     .line 872
     :goto_2
@@ -22355,7 +22355,7 @@ return-void
 
     .line 669
     invoke-direct {p0}, Lcom/google/android/gms/measurement/internal/zzpk;->zzaf()V
-return-void
+    return-void
 .end method
 
 .method public final zza(ZILjava/lang/Throwable;[BLjava/lang/String;Ljava/util/List;)V
@@ -23258,7 +23258,7 @@ return-void
 
     .line 766
     invoke-direct {v1}, Lcom/google/android/gms/measurement/internal/zzpk;->zzac()V
-return-void
+    return-void
 
     .line 767
     :goto_d
@@ -23960,7 +23960,7 @@ return-void
     move-result-object p1
 
     invoke-virtual {p1}, Lcom/google/android/gms/measurement/internal/zzap;->zzr()V
-return-void
+    return-void
 
     .line 202
     :goto_4
@@ -26197,7 +26197,7 @@ return-void
     move-result-object v0
 
     invoke-virtual {v0}, Lcom/google/android/gms/measurement/internal/zzap;->zzr()V
-return-void
+    return-void
 
     .line 214
     :goto_14

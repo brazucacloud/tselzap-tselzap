@@ -81,7 +81,7 @@
     .end annotation
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static getInstance()Lcom/google/android/gms/common/GoogleApiAvailabilityLight;

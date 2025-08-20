@@ -22,7 +22,7 @@
     iput-object p1, p0, Landroidx/navigation/fragment/e;->b:Ljava/lang/Object;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 

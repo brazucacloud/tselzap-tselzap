@@ -703,7 +703,7 @@ return-void
     .line 5
     .line 6
     invoke-virtual {p0}, Landroidx/constraintlayout/core/widgets/Guideline;->inferRelativePercentPosition()V
-return-void
+    return-void
 
     .line 10
     :cond_0
@@ -724,7 +724,7 @@ return-void
     .line 17
     .line 18
     invoke-virtual {p0}, Landroidx/constraintlayout/core/widgets/Guideline;->inferRelativeEndPosition()V
-return-void
+    return-void
 
     .line 22
     :cond_1
@@ -945,7 +945,7 @@ return-void
     .line 13
     :cond_0
     invoke-virtual {p0, v0}, Landroidx/constraintlayout/core/widgets/Guideline;->setGuideBegin(I)V
-return-void
+    return-void
 .end method
 
 .method public inferRelativeEndPosition()V
@@ -1016,7 +1016,7 @@ return-void
     .line 31
     :cond_0
     invoke-virtual {p0, v0}, Landroidx/constraintlayout/core/widgets/Guideline;->setGuideEnd(I)V
-return-void
+    return-void
 .end method
 
 .method public inferRelativePercentPosition()V
@@ -1099,7 +1099,7 @@ return-void
     .line 35
     :cond_0
     invoke-virtual {p0, v0}, Landroidx/constraintlayout/core/widgets/Guideline;->setGuidePercent(F)V
-return-void
+    return-void
 .end method
 
 .method public isPercent()Z

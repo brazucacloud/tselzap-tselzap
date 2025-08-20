@@ -543,7 +543,7 @@
 
     .line 32
     invoke-virtual {p1, v2, p2, p3}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;->connectCircularConstraint(Landroidx/constraintlayout/core/widgets/ConstraintWidget;FI)V
-return-void
+    return-void
 
     .line 36
     :pswitch_1
@@ -3093,7 +3093,7 @@ return-void
 
     .line 19
     invoke-direct {v0, v1, v2}, Landroidx/constraintlayout/core/widgets/ConstraintWidget;-><init>(II)V
-return-object v0
+    return-object v0
 .end method
 
 .method public end()Landroidx/constraintlayout/core/state/ConstraintReference;

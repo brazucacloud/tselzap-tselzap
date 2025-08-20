@@ -874,7 +874,7 @@ return-void
     .line 72
     :cond_3
     invoke-static {}, Landroid/os/Trace;->endSection()V
-return-void
+    return-void
 
     .line 76
     :goto_2
@@ -1038,7 +1038,7 @@ return-void
     .line 67
     .line 68
     invoke-static {}, Landroid/os/Trace;->endSection()V
-return-object p2
+    return-object p2
 
     .line 72
     :goto_2
@@ -1324,7 +1324,7 @@ return-void
     .line 17
     .line 18
     invoke-static {}, Landroid/os/Trace;->endSection()V
-return-void
+    return-void
 
     .line 22
     :cond_0

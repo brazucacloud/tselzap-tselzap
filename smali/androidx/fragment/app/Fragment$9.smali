@@ -120,6 +120,6 @@ return-void
 
     .line 28
     invoke-virtual {v2, v0}, Ljava/util/concurrent/atomic/AtomicReference;->set(Ljava/lang/Object;)V
-return-void
+    return-void
 .end method
 .end class

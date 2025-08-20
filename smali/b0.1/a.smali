@@ -19,7 +19,7 @@
     iput-object p1, p0, Lb0/a;->b:Ljava/lang/Object;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -51,7 +51,7 @@ return-void
     .line 13
     .line 14
     invoke-virtual {p1}, Ln0/b;->d()V
-return-void
+    return-void
 
     .line 18
     nop
@@ -93,7 +93,7 @@ return-void
     .line 14
     .line 15
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
-return-void
+    return-void
 
     .line 19
     :pswitch_0
@@ -193,7 +193,7 @@ return-void
     .line 66
     .line 67
     invoke-virtual {p1}, Ln0/b;->e()V
-return-void
+    return-void
 
     .line 71
     :pswitch_3

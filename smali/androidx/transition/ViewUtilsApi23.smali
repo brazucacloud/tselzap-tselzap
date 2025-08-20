@@ -25,7 +25,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/transition/ViewUtilsApi22;-><init>()V
-return-void
+    return-void
 .end method
 
 

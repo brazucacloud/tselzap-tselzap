@@ -163,7 +163,7 @@
     check-cast p0, Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat;
 
     invoke-virtual {p0}, Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat;->clearAnimationCallbacks()V
-return-void
+    return-void
 .end method
 
 .method public static create(Landroid/content/Context;I)Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat;
@@ -937,7 +937,7 @@ return-void
     .line 5
     :cond_1
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
-return-void
+    return-void
 .end method
 
 .method public bridge synthetic clearColorFilter()V
@@ -1590,7 +1590,7 @@ return-void
     iget-object p1, p0, Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat;->mAnimatedVectorState:Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat$AnimatedVectorDrawableCompatState;
 
     invoke-virtual {p1}, Landroidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat$AnimatedVectorDrawableCompatState;->setupAnimatorSet()V
-return-void
+    return-void
 .end method
 
 .method public isAutoMirrored()Z
@@ -2216,7 +2216,7 @@ return-void
     .line 6
     .line 7
     invoke-virtual {v0}, Landroid/graphics/drawable/AnimatedVectorDrawable;->start()V
-return-void
+    return-void
 
     .line 11
     :cond_0
@@ -2254,7 +2254,7 @@ return-void
     .line 28
     .line 29
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
-return-void
+    return-void
 .end method
 
 .method public stop()V
@@ -2274,7 +2274,7 @@ return-void
     .line 6
     .line 7
     invoke-virtual {v0}, Landroid/graphics/drawable/AnimatedVectorDrawable;->stop()V
-return-void
+    return-void
 
     .line 11
     :cond_0
@@ -2287,7 +2287,7 @@ return-void
     .line 14
     .line 15
     invoke-virtual {v0}, Landroid/animation/AnimatorSet;->end()V
-return-void
+    return-void
 .end method
 
 .method public unregisterAnimationCallback(Landroidx/vectordrawable/graphics/drawable/Animatable2Compat$AnimationCallback;)Z

@@ -12,7 +12,7 @@
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method private static getSerializedSizeLite(ILjava/lang/Object;Ljava/lang/Object;)I
@@ -339,6 +339,6 @@ return-void
     .line 3
     .line 4
     invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/MapFieldLite;->makeImmutable()V
-return-object p1
+    return-object p1
 .end method
 .end class

@@ -440,7 +440,7 @@ return-void
     move-result-object p1
 
     invoke-direct {p0, p1}, Lcom/google/android/gms/common/SignInButton;->zaa(Landroid/content/Context;)V
-return-void
+    return-void
 .end method
 
 .method public setStyle(II[Lcom/google/android/gms/common/api/Scope;)V

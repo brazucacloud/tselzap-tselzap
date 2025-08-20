@@ -1110,7 +1110,7 @@
     .line 145
     :cond_6
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 
     .line 149
     :cond_7
@@ -1513,7 +1513,7 @@ return-void
     move-result v0
 
     invoke-virtual {p0, p1, v0}, Landroidx/appcompat/app/WindowDecorActionBar;->addTab(Landroidx/appcompat/app/ActionBar$Tab;Z)V
-return-void
+    return-void
 .end method
 
 .method public addTab(Landroidx/appcompat/app/ActionBar$Tab;I)V
@@ -1527,7 +1527,7 @@ return-void
     move-result v0
 
     invoke-virtual {p0, p1, p2, v0}, Landroidx/appcompat/app/WindowDecorActionBar;->addTab(Landroidx/appcompat/app/ActionBar$Tab;IZ)V
-return-void
+    return-void
 .end method
 
 .method public addTab(Landroidx/appcompat/app/ActionBar$Tab;IZ)V
@@ -1707,7 +1707,7 @@ return-void
     .line 58
     .line 59
     invoke-virtual {v1}, Landroidx/appcompat/view/ViewPropertyAnimatorCompatSet;->start()V
-return-void
+    return-void
 
     .line 63
     :cond_2
@@ -2131,7 +2131,7 @@ return-void
     .line 113
     .line 114
     invoke-virtual {v0}, Landroidx/appcompat/view/ViewPropertyAnimatorCompatSet;->start()V
-return-void
+    return-void
 
     .line 118
     :cond_4
@@ -3097,7 +3097,7 @@ return-void
     .line 2
     .line 3
     invoke-direct {v0, p0}, Landroidx/appcompat/app/WindowDecorActionBar$TabImpl;-><init>(Landroidx/appcompat/app/WindowDecorActionBar;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public onConfigurationChanged(Landroid/content/res/Configuration;)V
@@ -3125,7 +3125,7 @@ return-object v0
 
     .line 11
     invoke-direct {p0, p1}, Landroidx/appcompat/app/WindowDecorActionBar;->setHasEmbeddedTabs(Z)V
-return-void
+    return-void
 .end method
 
 .method public onContentScrollStarted()V
@@ -3271,7 +3271,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/appcompat/app/WindowDecorActionBar;->cleanupTabs()V
-return-void
+    return-void
 .end method
 
 .method public removeOnMenuVisibilityListener(Landroidx/appcompat/app/ActionBar$OnMenuVisibilityListener;)V
@@ -3299,7 +3299,7 @@ return-void
 
     .line 5
     invoke-virtual {p0, p1}, Landroidx/appcompat/app/WindowDecorActionBar;->removeTabAt(I)V
-return-void
+    return-void
 .end method
 
 .method public removeTabAt(I)V

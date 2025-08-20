@@ -345,7 +345,7 @@
 
     .line 4
     invoke-virtual {v0}, Landroidx/core/app/PendingIntentCompat$GatedCallback;->close()V
-return-void
+    return-void
 
     :catchall_0
     move-exception p0
@@ -505,7 +505,7 @@ return-void
 
     .line 12
     invoke-virtual {v1}, Landroidx/core/app/PendingIntentCompat$GatedCallback;->close()V
-return-void
+    return-void
 
     .line 13
     :goto_1

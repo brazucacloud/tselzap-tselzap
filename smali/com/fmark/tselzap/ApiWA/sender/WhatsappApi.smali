@@ -1930,7 +1930,7 @@ return-void
     move-result-object p2
 
     invoke-direct {p0, p1, v1, v0, p2}, Lcom/fmark/tselzap/ApiWA/sender/WhatsappApi;->sendBigMessage(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-return-void
+    return-void
 .end method
 
 

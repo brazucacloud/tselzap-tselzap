@@ -242,7 +242,7 @@ return-object p1
     new-instance p1, Lcom/google/android/gms/internal/measurement/zzfz$zze;
 
     invoke-direct {p1}, Lcom/google/android/gms/internal/measurement/zzfz$zze;-><init>()V
-return-object p1
+    return-object p1
 
     nop
 

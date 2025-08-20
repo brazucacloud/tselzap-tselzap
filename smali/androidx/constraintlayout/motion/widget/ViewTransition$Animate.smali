@@ -190,7 +190,7 @@
     .line 67
     .line 68
     invoke-virtual {p0}, Landroidx/constraintlayout/motion/widget/ViewTransition$Animate;->mutate()V
-return-void
+    return-void
 .end method
 
 
@@ -208,12 +208,12 @@ return-void
     .line 4
     .line 5
     invoke-virtual {p0}, Landroidx/constraintlayout/motion/widget/ViewTransition$Animate;->mutateReverse()V
-return-void
+    return-void
 
     .line 9
     :cond_0
     invoke-virtual {p0}, Landroidx/constraintlayout/motion/widget/ViewTransition$Animate;->mutateForward()V
-return-void
+    return-void
 .end method
 
 .method public mutateForward()V
@@ -491,7 +491,7 @@ return-void
     .line 128
     .line 129
     invoke-virtual {v0}, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->invalidate()V
-return-void
+    return-void
 .end method
 
 .method public mutateReverse()V
@@ -760,7 +760,7 @@ return-void
     .line 123
     .line 124
     invoke-virtual {v0}, Landroidx/constraintlayout/motion/widget/ViewTransitionController;->invalidate()V
-return-void
+    return-void
 .end method
 
 .method public reactTo(IFF)V

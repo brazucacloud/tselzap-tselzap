@@ -154,12 +154,12 @@ return-void
     .line 9
     .line 10
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$ArrayDecoder;->skipRawVarintFastPath()V
-return-void
+    return-void
 
     .line 14
     :cond_0
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$ArrayDecoder;->skipRawVarintSlowPath()V
-return-void
+    return-void
 .end method
 
 .method private skipRawVarintFastPath()V
@@ -394,7 +394,7 @@ return-void
     .line 2
     .line 3
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$ArrayDecoder;->recomputeBufferSizeAfterLimit()V
-return-void
+    return-void
 .end method
 
 .method public pushLimit(I)I
@@ -2700,7 +2700,7 @@ return-void
 
     .line 5
     invoke-virtual {p0, p1, p2, v0}, Landroidx/datastore/preferences/protobuf/CodedInputStream$ArrayDecoder;->readGroup(ILandroidx/datastore/preferences/protobuf/MessageLite$Builder;Landroidx/datastore/preferences/protobuf/ExtensionRegistryLite;)V
-return-void
+    return-void
 .end method
 
 .method public resetSizeCounter()V

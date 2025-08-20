@@ -143,7 +143,7 @@ return-void
     .line 28
     .line 29
     invoke-direct {p0}, Landroidx/collection/MutableObjectLongMap;->removeDeletedMarkers()V
-return-void
+    return-void
 
     .line 33
     :cond_0
@@ -929,7 +929,7 @@ return-void
     .line 34
     .line 35
     invoke-direct {p0}, Landroidx/collection/MutableObjectLongMap;->initializeGrowth()V
-return-void
+    return-void
 .end method
 
 .method private final initializeStorage(I)V
@@ -1630,7 +1630,7 @@ return-void
     .line 39
     .line 40
     invoke-direct {p0}, Landroidx/collection/MutableObjectLongMap;->initializeGrowth()V
-return-void
+    return-void
 .end method
 
 .method public final getOrPut(Ljava/lang/Object;Lp1/a;)J
@@ -1694,7 +1694,7 @@ return-void
 
     .line 27
     invoke-virtual {p0, p1, v0, v1}, Landroidx/collection/MutableObjectLongMap;->set(Ljava/lang/Object;J)V
-return-wide v0
+    return-wide v0
 .end method
 
 .method public final minusAssign(Landroidx/collection/ScatterSet;)V

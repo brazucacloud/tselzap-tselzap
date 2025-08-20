@@ -230,7 +230,7 @@ return-void
     .line 27
     .line 28
     invoke-virtual {v0, p1}, Landroidx/savedstate/SavedStateRegistry;->performRestore$savedstate_release(Landroid/os/Bundle;)V
-return-void
+    return-void
 
     .line 32
     :cond_1

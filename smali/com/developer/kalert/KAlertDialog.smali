@@ -1806,7 +1806,7 @@ return-void
 
     .line 25
     invoke-direct {p0}, Lcom/developer/kalert/KAlertDialog;->hideKeyboard()V
-return-void
+    return-void
 .end method
 
 .method public confirmButtonColor(I)Lcom/developer/kalert/KAlertDialog;

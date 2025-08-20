@@ -621,7 +621,7 @@
     .line 86
     :cond_0
     invoke-direct {p0}, Landroidx/vectordrawable/graphics/drawable/VectorDrawableCompat$VGroup;->updateLocalMatrix()V
-return-void
+    return-void
 .end method
 
 
@@ -711,7 +711,7 @@ return-void
     .line 9
     .line 10
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method public isStateful()Z

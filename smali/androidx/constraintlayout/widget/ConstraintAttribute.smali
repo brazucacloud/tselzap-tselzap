@@ -1085,7 +1085,7 @@
     .line 258
     :cond_d
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method public static setAttributes(Landroid/view/View;Ljava/util/HashMap;)V

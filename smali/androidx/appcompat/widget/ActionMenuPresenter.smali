@@ -1701,7 +1701,7 @@
     .line 3
     .line 4
     invoke-super {p0, p1, p2}, Landroidx/appcompat/view/menu/BaseMenuPresenter;->onCloseMenu(Landroidx/appcompat/view/menu/MenuBuilder;Z)V
-return-void
+    return-void
 .end method
 
 .method public onConfigurationChanged(Landroid/content/res/Configuration;)V

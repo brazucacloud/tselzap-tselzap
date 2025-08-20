@@ -80,7 +80,7 @@
     .line 16
     .line 17
     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -442,7 +442,7 @@ return-void
     iget-object p1, p0, Landroidx/print/PrintHelper$1;->val$writeResultCallback:Landroid/print/PrintDocumentAdapter$WriteResultCallback;
 
     invoke-virtual {p1}, Landroid/print/PrintDocumentAdapter$WriteResultCallback;->onWriteCancelled()V
-return-void
+    return-void
 
     :cond_0
     if-nez p1, :cond_1

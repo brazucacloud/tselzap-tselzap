@@ -211,7 +211,7 @@ return-void
     .line 8
     .line 9
     invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public final isEmpty()Z

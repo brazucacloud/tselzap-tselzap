@@ -63,7 +63,7 @@ return-void
     new-instance p1, Landroidx/navigation/fragment/FragmentNavigator$ClearEntryStateViewModel;
 
     invoke-direct {p1}, Landroidx/navigation/fragment/FragmentNavigator$ClearEntryStateViewModel;-><init>()V
-return-object p1
+    return-object p1
 .end method
 
 .method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;

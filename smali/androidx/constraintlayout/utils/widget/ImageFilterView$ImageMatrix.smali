@@ -1237,6 +1237,6 @@
     .line 109
     :cond_4
     invoke-virtual {p1}, Landroid/widget/ImageView;->clearColorFilter()V
-return-void
+    return-void
 .end method
 .end class

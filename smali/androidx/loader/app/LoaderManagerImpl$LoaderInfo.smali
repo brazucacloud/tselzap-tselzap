@@ -474,7 +474,7 @@ return-void
 
     .line 109
     invoke-virtual {p3, p1}, Ljava/io/PrintWriter;->println(Z)V
-return-void
+    return-void
 .end method
 
 .method public getLoader()Landroidx/loader/content/Loader;
@@ -629,7 +629,7 @@ return-void
     .line 25
     .line 26
     invoke-virtual {v0}, Landroidx/loader/content/Loader;->startLoading()V
-return-void
+    return-void
 .end method
 
 .method public onInactive()V
@@ -685,7 +685,7 @@ return-void
     .line 25
     .line 26
     invoke-virtual {v0}, Landroidx/loader/content/Loader;->stopLoading()V
-return-void
+    return-void
 .end method
 
 .method public onLoadComplete(Landroidx/loader/content/Loader;Ljava/lang/Object;)V

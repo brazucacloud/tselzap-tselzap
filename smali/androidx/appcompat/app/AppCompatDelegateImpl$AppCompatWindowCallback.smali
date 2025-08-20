@@ -421,7 +421,7 @@ return-void
 
     .line 9
     invoke-interface {v0, p1, p2}, Landroid/view/Window$Callback;->onPanelClosed(ILandroid/view/Menu;)V
-return-void
+    return-void
 
     .line 13
     :cond_0

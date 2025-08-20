@@ -305,7 +305,7 @@ return-void
     .line 6
     :cond_1
     invoke-virtual {p1, p2, v0}, Landroid/os/Bundle;->putFloatArray(Ljava/lang/String;[F)V
-return-void
+    return-void
 .end method
 
 .method public bridge synthetic serializeAsValues(Ljava/lang/Object;)Ljava/util/List;

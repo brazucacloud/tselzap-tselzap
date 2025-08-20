@@ -315,7 +315,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Landroidx/activity/ComponentActivity;->invalidateMenu()V
-return-void
+    return-void
 .end method
 
 .method public onAttachFragment(Landroidx/fragment/app/FragmentManager;Landroidx/fragment/app/Fragment;)V
@@ -599,7 +599,7 @@ return-void
 
     .line 1
     invoke-virtual {p0}, Landroidx/fragment/app/FragmentActivity$HostCallbacks;->invalidateMenu()V
-return-void
+    return-void
 .end method
 
 .method public removeMenuProvider(Landroidx/core/view/MenuProvider;)V

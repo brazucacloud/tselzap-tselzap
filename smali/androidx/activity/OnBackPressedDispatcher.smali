@@ -187,7 +187,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/activity/OnBackPressedDispatcher;->onBackCancelled()V
-return-void
+    return-void
 .end method
 
 .method public static final synthetic access$onBackProgressed(Landroidx/activity/OnBackPressedDispatcher;Landroidx/activity/BackEventCompat;)V
@@ -218,7 +218,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/activity/OnBackPressedDispatcher;->updateEnabledCallbacks()V
-return-void
+    return-void
 .end method
 
 .method private final onBackCancelled()V
@@ -862,7 +862,7 @@ return-object v0
 
     .line 1
     invoke-direct {p0}, Landroidx/activity/OnBackPressedDispatcher;->onBackCancelled()V
-return-void
+    return-void
 .end method
 
 .method public final dispatchOnBackProgressed(Landroidx/activity/BackEventCompat;)V
@@ -1008,7 +1008,7 @@ return-void
     .line 38
     .line 39
     invoke-virtual {v1}, Landroidx/activity/OnBackPressedCallback;->handleOnBackPressed()V
-return-void
+    return-void
 
     .line 43
     :cond_2

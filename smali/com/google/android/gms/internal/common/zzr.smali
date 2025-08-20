@@ -8,7 +8,7 @@
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static zzb(C)Lcom/google/android/gms/internal/common/zzr;

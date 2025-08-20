@@ -720,7 +720,7 @@
     .line 71
     :cond_3
     invoke-virtual {v0}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$000(Landroidx/transition/Transition;)Landroidx/transition/Transition;
@@ -3351,7 +3351,7 @@ return-object p0
     .line 2
     .line 3
     invoke-virtual {p0}, Landroidx/transition/Transition;->end()V
-return-void
+    return-void
 
     .line 7
     :cond_0
@@ -3471,7 +3471,7 @@ return-void
     .line 64
     .line 65
     invoke-virtual {p1}, Landroid/animation/Animator;->start()V
-return-void
+    return-void
 .end method
 
 .method public cancel()V
@@ -4228,7 +4228,7 @@ return-void
     .line 20
     .line 21
     invoke-virtual {p1}, Landroidx/collection/LongSparseArray;->clear()V
-return-void
+    return-void
 
     .line 25
     :cond_0
@@ -4267,7 +4267,7 @@ return-void
     .line 42
     .line 43
     invoke-virtual {p1}, Landroidx/collection/LongSparseArray;->clear()V
-return-void
+    return-void
 .end method
 
 .method public clone()Landroidx/transition/Transition;
@@ -7208,7 +7208,7 @@ return-void
     .line 192
     .line 193
     invoke-virtual {p0}, Landroidx/transition/Transition;->runAnimators()V
-return-void
+    return-void
 
     .line 197
     :cond_7
@@ -7490,7 +7490,7 @@ return-void
     .line 113
     .line 114
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
-return-void
+    return-void
 .end method
 
 .method public removeListener(Landroidx/transition/Transition$TransitionListener;)Landroidx/transition/Transition;
@@ -7884,7 +7884,7 @@ return-void
     .line 43
     .line 44
     invoke-virtual {p0}, Landroidx/transition/Transition;->end()V
-return-void
+    return-void
 .end method
 
 .method public setCanRemoveViews(Z)V

@@ -72,7 +72,7 @@
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static final synthetic access$get_instance$cp()Landroidx/lifecycle/ViewModelProvider$NewInstanceFactory;

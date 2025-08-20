@@ -855,7 +855,7 @@
 
     .line 4
     invoke-direct {p0}, Landroidx/appcompat/view/menu/ActionMenuItem;->applyIconTint()V
-return-object p0
+    return-object p0
 .end method
 
 .method public setIcon(Landroid/graphics/drawable/Drawable;)Landroid/view/MenuItem;
@@ -866,7 +866,7 @@ return-object p0
 
     .line 2
     invoke-direct {p0}, Landroidx/appcompat/view/menu/ActionMenuItem;->applyIconTint()V
-return-object p0
+    return-object p0
 .end method
 
 .method public setIconTintList(Landroid/content/res/ColorStateList;)Landroid/view/MenuItem;
@@ -891,7 +891,7 @@ return-object p0
     .line 5
     .line 6
     invoke-direct {p0}, Landroidx/appcompat/view/menu/ActionMenuItem;->applyIconTint()V
-return-object p0
+    return-object p0
 .end method
 
 .method public setIconTintMode(Landroid/graphics/PorterDuff$Mode;)Landroid/view/MenuItem;
@@ -912,7 +912,7 @@ return-object p0
     .line 5
     .line 6
     invoke-direct {p0}, Landroidx/appcompat/view/menu/ActionMenuItem;->applyIconTint()V
-return-object p0
+    return-object p0
 .end method
 
 .method public setIntent(Landroid/content/Intent;)Landroid/view/MenuItem;

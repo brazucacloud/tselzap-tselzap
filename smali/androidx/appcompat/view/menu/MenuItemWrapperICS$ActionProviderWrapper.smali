@@ -205,7 +205,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Landroid/view/ActionProvider;->refreshVisibility()V
-return-void
+    return-void
 .end method
 
 .method public setVisibilityListener(Landroidx/core/view/ActionProvider$VisibilityListener;)V

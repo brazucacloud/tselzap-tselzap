@@ -660,7 +660,7 @@ return-void
     .line 7
     .line 8
     invoke-virtual {v0}, Landroid/util/SparseIntArray;->clear()V
-return-void
+    return-void
 .end method
 
 .method private computeScrollOffsetWithSpanInfo(Landroidx/recyclerview/widget/RecyclerView$State;)I
@@ -3153,7 +3153,7 @@ return-void
     .line 37
     :goto_1
     invoke-direct {p0, v0}, Landroidx/recyclerview/widget/GridLayoutManager;->calculateItemBorders(I)V
-return-void
+    return-void
 .end method
 
 
@@ -5630,7 +5630,7 @@ return-void
     .line 22
     :cond_0
     invoke-direct {p0}, Landroidx/recyclerview/widget/GridLayoutManager;->ensureViewSet()V
-return-void
+    return-void
 .end method
 
 .method public onFocusSearchFailed(Landroid/view/View;ILandroidx/recyclerview/widget/RecyclerView$Recycler;Landroidx/recyclerview/widget/RecyclerView$State;)Landroid/view/View;
@@ -6506,7 +6506,7 @@ return-void
 
     .line 43
     invoke-virtual {p4, p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setCollectionItemInfo(Ljava/lang/Object;)V
-return-void
+    return-void
 
     .line 47
     :cond_1
@@ -6550,7 +6550,7 @@ return-void
 
     .line 64
     invoke-virtual {p4, p1}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setCollectionItemInfo(Ljava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method public onItemsAdded(Landroidx/recyclerview/widget/RecyclerView;II)V
@@ -6571,7 +6571,7 @@ return-void
     .line 7
     .line 8
     invoke-virtual {p1}, Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;->invalidateSpanGroupIndexCache()V
-return-void
+    return-void
 .end method
 
 .method public onItemsChanged(Landroidx/recyclerview/widget/RecyclerView;)V
@@ -6592,7 +6592,7 @@ return-void
     .line 7
     .line 8
     invoke-virtual {p1}, Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;->invalidateSpanGroupIndexCache()V
-return-void
+    return-void
 .end method
 
 .method public onItemsMoved(Landroidx/recyclerview/widget/RecyclerView;III)V
@@ -6613,7 +6613,7 @@ return-void
     .line 7
     .line 8
     invoke-virtual {p1}, Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;->invalidateSpanGroupIndexCache()V
-return-void
+    return-void
 .end method
 
 .method public onItemsRemoved(Landroidx/recyclerview/widget/RecyclerView;II)V
@@ -6634,7 +6634,7 @@ return-void
     .line 7
     .line 8
     invoke-virtual {p1}, Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;->invalidateSpanGroupIndexCache()V
-return-void
+    return-void
 .end method
 
 .method public onItemsUpdated(Landroidx/recyclerview/widget/RecyclerView;IILjava/lang/Object;)V
@@ -6655,7 +6655,7 @@ return-void
     .line 7
     .line 8
     invoke-virtual {p1}, Landroidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup;->invalidateSpanGroupIndexCache()V
-return-void
+    return-void
 .end method
 
 .method public onLayoutChildren(Landroidx/recyclerview/widget/RecyclerView$Recycler;Landroidx/recyclerview/widget/RecyclerView$State;)V
@@ -6686,7 +6686,7 @@ return-void
     .line 12
     .line 13
     invoke-direct {p0}, Landroidx/recyclerview/widget/GridLayoutManager;->clearPreLayoutSpanMappingCache()V
-return-void
+    return-void
 .end method
 
 .method public onLayoutCompleted(Landroidx/recyclerview/widget/RecyclerView$State;)V
@@ -7553,7 +7553,7 @@ return-void
     .line 17
     .line 18
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->requestLayout()V
-return-void
+    return-void
 
     .line 22
     :cond_1

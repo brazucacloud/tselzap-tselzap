@@ -884,7 +884,7 @@ return-object v0
     .line 42
     .line 43
     invoke-direct {v3, v0, v2, v1, p1}, Ljava/lang/String;-><init>([BIILjava/nio/charset/Charset;)V
-return-object v3
+    return-object v3
 .end method
 
 .method public writeTo(Landroidx/datastore/preferences/protobuf/ByteOutput;)V
@@ -898,7 +898,7 @@ return-object v3
     move-result-object v0
 
     invoke-virtual {p1, v0}, Landroidx/datastore/preferences/protobuf/ByteOutput;->writeLazy(Ljava/nio/ByteBuffer;)V
-return-void
+    return-void
 .end method
 
 .method public writeTo(Ljava/io/OutputStream;)V
@@ -910,7 +910,7 @@ return-void
     move-result-object v0
 
     invoke-virtual {p1, v0}, Ljava/io/OutputStream;->write([B)V
-return-void
+    return-void
 .end method
 
 .method public writeToInternal(Ljava/io/OutputStream;II)V
@@ -976,7 +976,7 @@ return-void
 
     .line 29
     invoke-virtual {p1, p2, v1, p3}, Ljava/io/OutputStream;->write([BII)V
-return-void
+    return-void
 
     .line 33
     :cond_0

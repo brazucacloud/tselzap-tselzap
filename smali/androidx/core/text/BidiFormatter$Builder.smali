@@ -39,7 +39,7 @@
     move-result v0
 
     invoke-direct {p0, v0}, Landroidx/core/text/BidiFormatter$Builder;->initialize(Z)V
-return-void
+    return-void
 .end method
 
 .method public constructor <init>(Ljava/util/Locale;)V

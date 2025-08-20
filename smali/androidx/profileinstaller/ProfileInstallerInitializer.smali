@@ -180,7 +180,7 @@ return-void
     new-instance p1, Landroidx/profileinstaller/ProfileInstallerInitializer$Result;
 
     invoke-direct {p1}, Landroidx/profileinstaller/ProfileInstallerInitializer$Result;-><init>()V
-return-object p1
+    return-object p1
 
     .line 4
     :cond_0
@@ -203,7 +203,7 @@ return-object p1
     new-instance p1, Landroidx/profileinstaller/ProfileInstallerInitializer$Result;
 
     invoke-direct {p1}, Landroidx/profileinstaller/ProfileInstallerInitializer$Result;-><init>()V
-return-object p1
+    return-object p1
 .end method
 
 .method public bridge synthetic create(Landroid/content/Context;)Ljava/lang/Object;

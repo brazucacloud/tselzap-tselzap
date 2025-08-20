@@ -43,7 +43,7 @@
 
     .line 7
     invoke-direct {p0, p1}, Landroidx/collection/IndexBasedArrayIterator;-><init>(I)V
-return-void
+    return-void
 .end method
 
 

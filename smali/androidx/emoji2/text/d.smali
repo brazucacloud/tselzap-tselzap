@@ -22,7 +22,7 @@
     iput-object p1, p0, Landroidx/emoji2/text/d;->c:Landroidx/emoji2/text/FontRequestEmojiCompatConfig$FontRequestMetadataLoader;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -38,13 +38,13 @@ return-void
     iget-object v0, p0, Landroidx/emoji2/text/d;->c:Landroidx/emoji2/text/FontRequestEmojiCompatConfig$FontRequestMetadataLoader;
 
     invoke-virtual {v0}, Landroidx/emoji2/text/FontRequestEmojiCompatConfig$FontRequestMetadataLoader;->loadInternal()V
-return-void
+    return-void
 
     :pswitch_0
     iget-object v0, p0, Landroidx/emoji2/text/d;->c:Landroidx/emoji2/text/FontRequestEmojiCompatConfig$FontRequestMetadataLoader;
 
     invoke-virtual {v0}, Landroidx/emoji2/text/FontRequestEmojiCompatConfig$FontRequestMetadataLoader;->createMetadata()V
-return-void
+    return-void
 
     nop
 

@@ -419,7 +419,7 @@ return-void
     move-result-object p1
 
     invoke-static {p2, v0, p1}, Landroidx/activity/f;->l(Landroid/view/inspector/PropertyReader;ILandroid/graphics/PorterDuff$Mode;)V
-return-void
+    return-void
 
     .line 16
     :cond_0

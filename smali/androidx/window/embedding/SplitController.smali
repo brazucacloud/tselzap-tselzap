@@ -104,7 +104,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/window/embedding/SplitController;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static final synthetic access$getGlobalInstance$cp()Landroidx/window/embedding/SplitController;

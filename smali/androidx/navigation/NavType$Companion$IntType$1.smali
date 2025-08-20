@@ -167,6 +167,6 @@ return-void
     move-result p3
 
     invoke-virtual {p0, p1, p2, p3}, Landroidx/navigation/NavType$Companion$IntType$1;->put(Landroid/os/Bundle;Ljava/lang/String;I)V
-return-void
+    return-void
 .end method
 .end class

@@ -1499,7 +1499,7 @@
     move-result-object p1
 
     invoke-virtual {p0, p1}, Lx0/w;->setSimpleItems([Ljava/lang/String;)V
-return-void
+    return-void
 .end method
 
 .method public setSimpleItems([Ljava/lang/String;)V

@@ -1001,7 +1001,7 @@ return-void
     .line 8
     .line 9
     invoke-direct {v0, p0}, Landroidx/datastore/preferences/protobuf/UnmodifiableLazyStringList;-><init>(Landroidx/datastore/preferences/protobuf/LazyStringList;)V
-return-object v0
+    return-object v0
 
     .line 13
     :cond_0

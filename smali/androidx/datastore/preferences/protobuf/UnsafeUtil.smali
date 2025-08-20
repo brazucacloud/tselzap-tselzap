@@ -488,7 +488,7 @@
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$000(Ljava/lang/Object;J)B
@@ -1642,7 +1642,7 @@ return-void
     .line 18
     .line 19
     invoke-direct {v1, v0}, Landroidx/datastore/preferences/protobuf/UnsafeUtil$Android64MemoryAccessor;-><init>(Lsun/misc/Unsafe;)V
-return-object v1
+    return-object v1
 
     .line 23
     :cond_1

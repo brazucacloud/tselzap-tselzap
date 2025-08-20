@@ -249,7 +249,7 @@
     const/16 v1, 0x11
 
     invoke-virtual {p0, p1, v0, p2, v1}, Landroid/text/SpannableStringBuilder;->setSpan(Ljava/lang/Object;III)V
-return-object p0
+    return-object p0
 .end method
 
 .method public static final inSpans(Landroid/text/SpannableStringBuilder;[Ljava/lang/Object;Lp1/l;)Landroid/text/SpannableStringBuilder;

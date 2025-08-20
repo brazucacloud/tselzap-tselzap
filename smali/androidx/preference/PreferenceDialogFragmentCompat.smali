@@ -57,7 +57,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/fragment/app/DialogFragment;-><init>()V
-return-void
+    return-void
 .end method
 
 .method private requestInputMethod(Landroid/app/Dialog;)V
@@ -94,7 +94,7 @@ return-void
     .line 15
     :cond_0
     invoke-virtual {p0}, Landroidx/preference/PreferenceDialogFragmentCompat;->scheduleShowSoftInput()V
-return-void
+    return-void
 .end method
 
 

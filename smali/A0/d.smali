@@ -29,7 +29,7 @@
     iput v0, p0, LA0/d;->b:I
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public constructor <init>(Landroid/os/ParcelFileDescriptor;Ljava/util/ArrayList;Ll/f;)V
@@ -131,7 +131,7 @@ return-void
 
     .line 11
     invoke-virtual {p0}, LA0/d;->h()V
-return-void
+    return-void
 .end method
 
 .method public constructor <init>(Lcom/google/android/material/floatingactionbutton/ExtendedFloatingActionButton;LA0/c;Ln0/c;)V
@@ -200,7 +200,7 @@ return-void
     iput-object p3, p0, LA0/d;->e:Ljava/lang/Object;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/String;)V

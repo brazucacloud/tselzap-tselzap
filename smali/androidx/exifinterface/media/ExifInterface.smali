@@ -8646,7 +8646,7 @@
     move-result-object p1
 
     invoke-direct {p0, p1}, Landroidx/exifinterface/media/ExifInterface;->initForFilename(Ljava/lang/String;)V
-return-void
+    return-void
 
     .line 6
     :cond_0
@@ -8984,7 +8984,7 @@ return-void
     .line 54
     :goto_0
     invoke-direct {p0, p1}, Landroidx/exifinterface/media/ExifInterface;->loadAttributes(Ljava/io/InputStream;)V
-return-void
+    return-void
 
     .line 55
     :cond_4
@@ -11029,12 +11029,12 @@ return-void
     .line 325
     :cond_f
     invoke-virtual {v2}, Landroid/media/MediaMetadataRetriever;->release()V
-return-void
+    return-void
 
     .line 329
     :cond_10
     invoke-virtual {v2}, Landroid/media/MediaMetadataRetriever;->release()V
-return-void
+    return-void
 
     .line 333
     :goto_4
@@ -12953,7 +12953,7 @@ return-void
     .line 124
     .line 125
     invoke-direct {p0}, Landroidx/exifinterface/media/ExifInterface;->validateImages()V
-return-void
+    return-void
 
     .line 129
     :cond_4
@@ -14459,7 +14459,7 @@ return-void
     .line 135
     .line 136
     invoke-direct {p0, v5, v7}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
-return-object p0
+    return-object p0
 
     .line 140
     :cond_5
@@ -17768,7 +17768,7 @@ return-void
     .line 107
     .line 108
     invoke-direct {p0}, Landroidx/exifinterface/media/ExifInterface;->printAttributes()V
-return-void
+    return-void
 
     .line 112
     :goto_2
@@ -20601,7 +20601,7 @@ return-void
     .line 956
     .line 957
     invoke-direct {v0, v1, v3}, Landroidx/exifinterface/media/ExifInterface;->readImageFileDirectory(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;I)V
-return-void
+    return-void
 
     .line 961
     :cond_2a
@@ -20629,7 +20629,7 @@ return-void
 
     .line 972
     invoke-direct {v0, v1, v2}, Landroidx/exifinterface/media/ExifInterface;->readImageFileDirectory(Landroidx/exifinterface/media/ExifInterface$ByteOrderedDataInputStream;I)V
-return-void
+    return-void
 
     .line 976
     :cond_2b
@@ -28029,7 +28029,7 @@ return-void
 
     .line 95
     invoke-virtual {p0, v1, p1}, Landroidx/exifinterface/media/ExifInterface;->setAttribute(Ljava/lang/String;Ljava/lang/String;)V
-return-void
+    return-void
 
     .line 99
     :cond_4

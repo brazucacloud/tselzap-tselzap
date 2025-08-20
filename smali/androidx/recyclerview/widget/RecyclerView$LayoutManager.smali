@@ -1155,7 +1155,7 @@ return-void
     .line 45
     .line 46
     invoke-virtual {p0}, Landroid/content/res/TypedArray;->recycle()V
-return-object v0
+    return-object v0
 .end method
 
 .method private isFocusedChildVisibleAfterScrolling(Landroidx/recyclerview/widget/RecyclerView;II)Z
@@ -3590,7 +3590,7 @@ return-void
 
     .line 116
     invoke-virtual {p3, p2, p1}, Landroid/graphics/Rect;->offset(II)V
-return-void
+    return-void
 .end method
 
 .method public getWidth()I

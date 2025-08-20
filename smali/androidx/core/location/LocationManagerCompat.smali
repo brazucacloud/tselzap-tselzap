@@ -310,7 +310,7 @@ return-void
     .line 2
     :goto_0
     invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/location/LocationManagerCompat;->getCurrentLocation(Landroid/location/LocationManager;Ljava/lang/String;Landroid/os/CancellationSignal;Ljava/util/concurrent/Executor;Landroidx/core/util/Consumer;)V
-return-void
+    return-void
 .end method
 
 .method public static getGnssHardwareModelName(Landroid/location/LocationManager;)Ljava/lang/String;
@@ -2905,7 +2905,7 @@ return-void
 
     .line 21
     invoke-virtual/range {v1 .. v7}, Landroid/location/LocationManager;->requestLocationUpdates(Ljava/lang/String;JFLandroid/location/LocationListener;Landroid/os/Looper;)V
-return-void
+    return-void
 .end method
 
 .method public static requestLocationUpdates(Landroid/location/LocationManager;Ljava/lang/String;Landroidx/core/location/LocationRequestCompat;Ljava/util/concurrent/Executor;Landroidx/core/location/LocationListenerCompat;)V
@@ -2951,7 +2951,7 @@ return-void
 
     .line 3
     invoke-static {p0, p1, p2, p3, p4}, Landroidx/core/location/LocationManagerCompat$Api31Impl;->requestLocationUpdates(Landroid/location/LocationManager;Ljava/lang/String;Landroid/location/LocationRequest;Ljava/util/concurrent/Executor;Landroid/location/LocationListener;)V
-return-void
+    return-void
 
     :cond_0
     const/16 v1, 0x1e

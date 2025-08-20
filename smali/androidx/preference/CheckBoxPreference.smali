@@ -137,7 +137,7 @@ return-void
 
     .line 8
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method private syncCheckboxView(Landroid/view/View;)V

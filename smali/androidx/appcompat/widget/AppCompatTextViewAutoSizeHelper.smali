@@ -3135,7 +3135,7 @@ return-void
     .line 45
     .line 46
     invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatTextViewAutoSizeHelper;->autoSizeText()V
-return-void
+    return-void
 
     .line 50
     :cond_0

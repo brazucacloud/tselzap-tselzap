@@ -655,7 +655,7 @@
     .line 42
     .line 43
     invoke-static {}, Landroid/os/Trace;->endSection()V
-return-object p1
+    return-object p1
 
     .line 47
     :cond_1
@@ -780,7 +780,7 @@ return-object p1
     .line 2
     .line 3
     invoke-virtual {v0}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObservable;->notifyChanged()V
-return-void
+    return-void
 .end method
 
 .method public final notifyItemChanged(I)V
@@ -1105,7 +1105,7 @@ return-void
     .line 4
     .line 5
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$AdapterDataObservable;->notifyStateRestorationPolicyChanged()V
-return-void
+    return-void
 .end method
 
 .method public unregisterAdapterDataObserver(Landroidx/recyclerview/widget/RecyclerView$AdapterDataObserver;)V

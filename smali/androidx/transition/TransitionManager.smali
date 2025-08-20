@@ -267,7 +267,7 @@
     .line 24
     :cond_0
     invoke-virtual {p0}, Landroidx/transition/Scene;->enter()V
-return-void
+    return-void
 
     .line 28
     :cond_1
@@ -671,7 +671,7 @@ return-void
     .line 86
     :cond_4
     invoke-virtual {p0}, Landroidx/transition/Scene;->enter()V
-return-object v2
+    return-object v2
 
     .line 90
     :cond_5

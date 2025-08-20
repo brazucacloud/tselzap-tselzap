@@ -125,7 +125,7 @@
 
     .line 8
     invoke-static {v0, v1, p1, p3, p4}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
-return-void
+    return-void
 .end method
 
 .method public getOffsetIntoBytes()I

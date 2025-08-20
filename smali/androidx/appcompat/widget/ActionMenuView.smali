@@ -2440,7 +2440,7 @@ return-object v0
     .line 3
     .line 4
     invoke-virtual {p0}, Landroidx/appcompat/widget/ActionMenuView;->dismissPopupMenus()V
-return-void
+    return-void
 .end method
 
 .method public onLayout(ZIIII)V

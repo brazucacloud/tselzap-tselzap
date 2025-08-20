@@ -189,7 +189,7 @@
     const/4 v0, 0x0
 
     invoke-direct {p0, v0, v0, p1}, Lcom/google/android/gms/measurement/internal/zzju;-><init>(Ljava/lang/Boolean;Ljava/lang/Boolean;I)V
-return-object p0
+    return-object p0
 
     .line 19
     :cond_0
@@ -344,7 +344,7 @@ return-object p0
     new-instance p0, Lcom/google/android/gms/measurement/internal/zzju;
 
     invoke-direct {p0, v0, p1}, Lcom/google/android/gms/measurement/internal/zzju;-><init>(Ljava/util/EnumMap;I)V
-return-object p0
+    return-object p0
 .end method
 
 .method public static zza(C)Lcom/google/android/gms/measurement/internal/zzjx;

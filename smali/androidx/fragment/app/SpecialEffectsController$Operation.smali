@@ -169,7 +169,7 @@ return-void
     .line 5
     .line 6
     invoke-virtual {p0}, Landroidx/fragment/app/SpecialEffectsController$Operation;->cancel()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic a(Landroidx/fragment/app/SpecialEffectsController$Operation;)V
@@ -243,7 +243,7 @@ return-void
     .line 16
     .line 17
     invoke-virtual {p0}, Landroidx/fragment/app/SpecialEffectsController$Operation;->complete()V
-return-void
+    return-void
 
     .line 21
     :cond_1

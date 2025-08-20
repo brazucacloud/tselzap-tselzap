@@ -31,7 +31,7 @@
     .line 2
     .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -666,7 +666,7 @@ return-void
     .line 24
     .line 25
     invoke-virtual {v0}, Landroid/view/ViewGroup;->removeAllViews()V
-return-void
+    return-void
 .end method
 
 .method public removeViewAt(I)V

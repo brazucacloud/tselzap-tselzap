@@ -292,7 +292,7 @@ return-void
     const-string v1, "onBind called with null intent"
 
     invoke-virtual {p1, v1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;)V
-return-object v0
+    return-object v0
 
     .line 11
     :cond_0
@@ -319,7 +319,7 @@ return-object v0
     move-result-object v0
 
     invoke-direct {p1, v0}, Lcom/google/android/gms/measurement/internal/zzir;-><init>(Lcom/google/android/gms/measurement/internal/zzpk;)V
-return-object p1
+    return-object p1
 
     .line 14
     :cond_1
@@ -334,7 +334,7 @@ return-object p1
     const-string v2, "onBind received unknown action"
 
     invoke-virtual {v1, v2, p1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public final zza()V
@@ -365,7 +365,7 @@ return-object v0
     const-string v1, "Local AppMeasurementService is starting up"
 
     invoke-virtual {v0, v1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;)V
-return-void
+    return-void
 .end method
 
 .method public final zza(Landroid/app/job/JobParameters;)Z
@@ -514,7 +514,7 @@ return-void
     const-string v1, "Local AppMeasurementService is shutting down"
 
     invoke-virtual {v0, v1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;)V
-return-void
+    return-void
 .end method
 
 .method public final zzb(Landroid/content/Intent;)V
@@ -536,7 +536,7 @@ return-void
     const-string v0, "onRebind called with null intent"
 
     invoke-virtual {p1, v0}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;)V
-return-void
+    return-void
 
     .line 6
     :cond_0
@@ -556,7 +556,7 @@ return-void
     const-string v1, "onRebind called. action"
 
     invoke-virtual {v0, v1, p1}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;Ljava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method public final zzc(Landroid/content/Intent;)Z

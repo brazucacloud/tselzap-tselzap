@@ -107,7 +107,7 @@ return-void
     new-instance v0, Landroidx/graphics/shapes/Feature$Edge;
 
     invoke-direct {v0, p1}, Landroidx/graphics/shapes/Feature$Edge;-><init>(Ljava/util/List;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public bridge synthetic transformed$graphics_shapes_release(Landroidx/graphics/shapes/PointTransformer;)Landroidx/graphics/shapes/Feature;

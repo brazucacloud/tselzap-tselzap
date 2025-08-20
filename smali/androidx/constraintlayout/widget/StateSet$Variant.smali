@@ -339,7 +339,7 @@
     .line 145
     :cond_6
     invoke-virtual {p2}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 

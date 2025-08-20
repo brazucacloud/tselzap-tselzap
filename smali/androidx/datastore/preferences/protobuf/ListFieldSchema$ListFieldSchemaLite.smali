@@ -30,7 +30,7 @@ return-void
 
     .line 2
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/ListFieldSchema$ListFieldSchemaLite;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static getProtobufList(Ljava/lang/Object;J)Landroidx/datastore/preferences/protobuf/Internal$ProtobufList;

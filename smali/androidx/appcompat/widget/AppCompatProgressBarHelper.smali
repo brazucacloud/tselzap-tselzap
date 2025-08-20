@@ -313,7 +313,7 @@ return-object v1
     .line 45
     :cond_1
     invoke-virtual {p1}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method public tileify(Landroid/graphics/drawable/Drawable;Z)Landroid/graphics/drawable/Drawable;
@@ -648,7 +648,7 @@ return-object p1
 
     .line 158
     invoke-direct {p1, v2, p2, v1}, Landroid/graphics/drawable/ClipDrawable;-><init>(Landroid/graphics/drawable/Drawable;II)V
-return-object p1
+    return-object p1
 
     .line 162
     :cond_8

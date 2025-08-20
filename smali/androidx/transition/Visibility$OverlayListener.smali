@@ -116,7 +116,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/transition/Visibility$OverlayListener;->removeFromOverlay()V
-return-void
+    return-void
 .end method
 
 .method public onAnimationEnd(Landroid/animation/Animator;Z)V
@@ -203,7 +203,7 @@ return-void
     .line 22
     .line 23
     invoke-virtual {p1}, Landroidx/transition/Transition;->cancel()V
-return-void
+    return-void
 .end method
 
 .method public onAnimationStart(Landroid/animation/Animator;Z)V

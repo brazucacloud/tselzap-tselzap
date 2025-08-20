@@ -1323,7 +1323,7 @@ return-void
     .line 39
     :cond_0
     invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->setMatrix()V
-return-void
+    return-void
 .end method
 
 
@@ -1442,7 +1442,7 @@ return-void
     .line 3
     .line 4
     invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->setMatrix()V
-return-void
+    return-void
 .end method
 
 .method public setAltImageDrawable(Landroid/graphics/drawable/Drawable;)V
@@ -1772,7 +1772,7 @@ return-void
     .line 2
     .line 3
     invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->updateViewMatrix()V
-return-void
+    return-void
 .end method
 
 .method public setImagePanY(F)V
@@ -1784,7 +1784,7 @@ return-void
     .line 2
     .line 3
     invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->updateViewMatrix()V
-return-void
+    return-void
 .end method
 
 .method public setImageResource(I)V
@@ -1891,7 +1891,7 @@ return-void
     .line 2
     .line 3
     invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->updateViewMatrix()V
-return-void
+    return-void
 .end method
 
 .method public setImageZoom(F)V
@@ -1903,7 +1903,7 @@ return-void
     .line 2
     .line 3
     invoke-direct {p0}, Landroidx/constraintlayout/utils/widget/ImageFilterView;->updateViewMatrix()V
-return-void
+    return-void
 .end method
 
 .method public setRound(F)V

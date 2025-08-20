@@ -20,7 +20,7 @@
 
     .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public synthetic constructor <init>(Lkotlin/jvm/internal/e;)V
@@ -28,7 +28,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/navigation/ActivityNavigator$Companion;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -135,6 +135,6 @@ return-void
     .line 41
     :goto_3
     invoke-virtual {p1, v1, v0}, Landroid/app/Activity;->overridePendingTransition(II)V
-return-void
+    return-void
 .end method
 .end class

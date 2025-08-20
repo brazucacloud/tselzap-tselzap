@@ -118,7 +118,7 @@
     .line 24
     .line 25
     invoke-direct {p0}, Landroidx/viewpager2/widget/ScrollEventAdapter;->resetState()V
-return-void
+    return-void
 .end method
 
 .method private dispatchScrolled(IFI)V
@@ -405,7 +405,7 @@ return-void
     :cond_2
     :goto_1
     invoke-direct {p0, v0}, Landroidx/viewpager2/widget/ScrollEventAdapter;->dispatchStateChanged(I)V
-return-void
+    return-void
 .end method
 
 .method private updateScrollEventValues()V
@@ -440,7 +440,7 @@ return-void
     .line 13
     .line 14
     invoke-virtual {v0}, Landroidx/viewpager2/widget/ScrollEventAdapter$ScrollEventValues;->reset()V
-return-void
+    return-void
 
     .line 18
     :cond_0
@@ -461,7 +461,7 @@ return-void
     .line 25
     .line 26
     invoke-virtual {v0}, Landroidx/viewpager2/widget/ScrollEventAdapter$ScrollEventValues;->reset()V
-return-void
+    return-void
 
     .line 30
     :cond_1
@@ -988,7 +988,7 @@ return-void
     .line 35
     .line 36
     invoke-direct {p0}, Landroidx/viewpager2/widget/ScrollEventAdapter;->resetState()V
-return-void
+    return-void
 
     .line 40
     :cond_2

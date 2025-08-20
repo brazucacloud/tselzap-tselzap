@@ -498,7 +498,7 @@ return-void
     .line 2
     .line 3
     invoke-direct {p0}, Landroidx/appcompat/widget/ShareActionProvider;->setActivityChooserPolicyIfNeeded()V
-return-void
+    return-void
 .end method
 
 .method public setShareHistoryFileName(Ljava/lang/String;)V
@@ -510,7 +510,7 @@ return-void
     .line 2
     .line 3
     invoke-direct {p0}, Landroidx/appcompat/widget/ShareActionProvider;->setActivityChooserPolicyIfNeeded()V
-return-void
+    return-void
 .end method
 
 .method public setShareIntent(Landroid/content/Intent;)V

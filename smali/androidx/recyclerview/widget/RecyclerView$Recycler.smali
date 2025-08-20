@@ -1103,7 +1103,7 @@ return-void
     .line 5
     .line 6
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->recycleAndClearCachedViews()V
-return-void
+    return-void
 .end method
 
 .method public clearOldPositions()V
@@ -2856,7 +2856,7 @@ return-void
     :cond_3
     :goto_1
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->recycleAndClearCachedViews()V
-return-void
+    return-void
 .end method
 
 .method public offsetPositionRecordsForInsert(II)V
@@ -3412,7 +3412,7 @@ return-void
     .line 14
     .line 15
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->maybeSendPoolingContainerAttach()V
-return-void
+    return-void
 .end method
 
 .method public onAttachedToWindow()V
@@ -3420,7 +3420,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->maybeSendPoolingContainerAttach()V
-return-void
+    return-void
 .end method
 
 .method public onDetachedFromWindow()V
@@ -4799,7 +4799,7 @@ return-void
     .line 32
     :cond_1
     invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->maybeSendPoolingContainerAttach()V
-return-void
+    return-void
 .end method
 
 .method public setViewCacheExtension(Landroidx/recyclerview/widget/RecyclerView$ViewCacheExtension;)V
@@ -4818,7 +4818,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->updateViewCacheSize()V
-return-void
+    return-void
 .end method
 
 .method public tryGetViewHolderForPositionByDeadline(IZJ)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
@@ -6129,7 +6129,7 @@ return-object v1
     .line 21
     .line 22
     invoke-virtual {p1}, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->clearReturnedFromScrapFlag()V
-return-void
+    return-void
 .end method
 
 .method public updateViewCacheSize()V

@@ -105,7 +105,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/StringValue;->clearValue()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$300(Landroidx/datastore/preferences/protobuf/StringValue;Landroidx/datastore/preferences/protobuf/ByteString;)V
@@ -633,7 +633,7 @@ return-void
     .line 80
     .line 81
     invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/StringValue;-><init>()V
-return-object p1
+    return-object p1
 
     .line 85
     :pswitch_data_0

@@ -101,7 +101,7 @@
 
     .line 7
     invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridCore;->initMatrices()V
-return-void
+    return-void
 .end method
 
 .method public constructor <init>(II)V
@@ -155,7 +155,7 @@ return-void
 
     .line 18
     invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridCore;->initMatrices()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic a(Ljava/lang/String;Ljava/lang/String;)I
@@ -184,7 +184,7 @@ return-void
     .line 6
     .line 7
     invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridCore;->arrangeWidgets()V
-return-void
+    return-void
 .end method
 
 .method private arrangeWidgets()V
@@ -474,7 +474,7 @@ return-void
     .line 12
     .line 13
     invoke-virtual {p1}, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->reset()V
-return-void
+    return-void
 .end method
 
 .method private clearVerticalAttributes(Landroidx/constraintlayout/core/widgets/ConstraintWidget;)V
@@ -513,7 +513,7 @@ return-void
     .line 17
     .line 18
     invoke-virtual {p1}, Landroidx/constraintlayout/core/widgets/ConstraintAnchor;->reset()V
-return-void
+    return-void
 .end method
 
 .method private connectWidget(Landroidx/constraintlayout/core/widgets/ConstraintWidget;IIII)V
@@ -3649,7 +3649,7 @@ return-void
     .line 3
     .line 4
     invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridCore;->addConstraints()V
-return-void
+    return-void
 .end method
 
 .method public getColumnWeights()Ljava/lang/String;
@@ -3822,7 +3822,7 @@ return-void
     .line 15
     .line 16
     invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridCore;->initVariables()V
-return-void
+    return-void
 .end method
 
 .method public setContainer(Landroidx/constraintlayout/core/widgets/ConstraintWidgetContainer;)V
@@ -3987,7 +3987,7 @@ return-void
     .line 15
     .line 16
     invoke-direct {p0}, Landroidx/constraintlayout/core/utils/GridCore;->initVariables()V
-return-void
+    return-void
 .end method
 
 .method public setSkips(Ljava/lang/String;)V

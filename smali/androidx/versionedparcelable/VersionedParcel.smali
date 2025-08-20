@@ -179,7 +179,7 @@
 
     .line 28
     invoke-direct {v0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
-return-object v0
+    return-object v0
 
     .line 32
     :pswitch_1
@@ -233,7 +233,7 @@ return-object p1
     .line 63
     .line 64
     invoke-direct {p1}, Landroid/os/NetworkOnMainThreadException;-><init>()V
-return-object p1
+    return-object p1
 
     .line 68
     :pswitch_7
@@ -2918,7 +2918,7 @@ return-object p1
     .line 23
     .line 24
     invoke-direct {v0, p1, p2}, Landroid/util/Size;-><init>(II)V
-return-object v0
+    return-object v0
 
     .line 28
     :cond_1
@@ -2979,7 +2979,7 @@ return-object v0
     .line 23
     .line 24
     invoke-direct {v0, p1, p2}, Landroid/util/SizeF;-><init>(FF)V
-return-object v0
+    return-object v0
 
     .line 28
     :cond_1
@@ -3621,7 +3621,7 @@ return-object v0
     .line 5
     .line 6
     invoke-virtual {p0}, Landroidx/versionedparcelable/VersionedParcel;->writeNoException()V
-return-void
+    return-void
 
     .line 10
     :cond_0
@@ -4724,7 +4724,7 @@ return-void
 
     .line 7
     invoke-virtual {v0}, Landroidx/versionedparcelable/VersionedParcel;->closeField()V
-return-void
+    return-void
 .end method
 
 .method public writeVersionedParcelable(Landroidx/versionedparcelable/VersionedParcelable;I)V

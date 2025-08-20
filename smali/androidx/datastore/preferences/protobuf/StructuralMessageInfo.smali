@@ -78,7 +78,7 @@
     new-instance v0, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo$Builder;
 
     invoke-direct {v0}, Landroidx/datastore/preferences/protobuf/StructuralMessageInfo$Builder;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method public static newBuilder(I)Landroidx/datastore/preferences/protobuf/StructuralMessageInfo$Builder;

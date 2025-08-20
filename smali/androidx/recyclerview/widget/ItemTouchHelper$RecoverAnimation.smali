@@ -181,7 +181,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->cancel()V
-return-void
+    return-void
 .end method
 
 .method public onAnimationCancel(Landroid/animation/Animator;)V
@@ -276,7 +276,7 @@ return-void
     .line 8
     .line 9
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->start()V
-return-void
+    return-void
 .end method
 
 .method public update()V

@@ -118,7 +118,7 @@ return-void
 
     .line 9
     invoke-interface {v0, p1, p2}, Landroidx/datastore/preferences/protobuf/Schema;->mergeFrom(Ljava/lang/Object;Ljava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 

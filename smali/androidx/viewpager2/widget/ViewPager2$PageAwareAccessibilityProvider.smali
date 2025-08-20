@@ -178,7 +178,7 @@
 
     .line 49
     invoke-virtual {p1, v0}, Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;->setCollectionInfo(Ljava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method private addCollectionItemInfo(Landroid/view/View;Landroidx/core/view/accessibility/AccessibilityNodeInfoCompat;)V
@@ -734,7 +734,7 @@ return-void
 
     .line 1
     invoke-virtual {p0}, Landroidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider;->updatePageAccessibilityActions()V
-return-void
+    return-void
 .end method
 
 .method public onRvInitializeAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V
@@ -763,7 +763,7 @@ return-void
 
     .line 10
     invoke-virtual {p1, v0}, Landroid/view/accessibility/AccessibilityRecord;->setClassName(Ljava/lang/CharSequence;)V
-return-void
+    return-void
 .end method
 
 .method public onSetLayoutDirection()V
@@ -771,7 +771,7 @@ return-void
 
     .line 1
     invoke-virtual {p0}, Landroidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider;->updatePageAccessibilityActions()V
-return-void
+    return-void
 .end method
 
 .method public onSetNewCurrentItem()V
@@ -779,7 +779,7 @@ return-void
 
     .line 1
     invoke-virtual {p0}, Landroidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider;->updatePageAccessibilityActions()V
-return-void
+    return-void
 .end method
 
 .method public onSetOrientation()V
@@ -787,7 +787,7 @@ return-void
 
     .line 1
     invoke-virtual {p0}, Landroidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider;->updatePageAccessibilityActions()V
-return-void
+    return-void
 .end method
 
 .method public onSetUserInputEnabled()V
@@ -795,7 +795,7 @@ return-void
 
     .line 1
     invoke-virtual {p0}, Landroidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider;->updatePageAccessibilityActions()V
-return-void
+    return-void
 .end method
 
 .method public setCurrentItemFromAccessibilityCommand(I)V

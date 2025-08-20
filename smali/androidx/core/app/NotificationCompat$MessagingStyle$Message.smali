@@ -123,7 +123,7 @@
     move-result-object p4
 
     invoke-direct {p0, p1, p2, p3, p4}, Landroidx/core/app/NotificationCompat$MessagingStyle$Message;-><init>(Ljava/lang/CharSequence;JLandroidx/core/app/Person;)V
-return-void
+    return-void
 .end method
 
 .method public static getBundleArrayForMessages(Ljava/util/List;)[Landroid/os/Bundle;

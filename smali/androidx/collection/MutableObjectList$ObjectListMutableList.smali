@@ -164,7 +164,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Landroidx/collection/MutableObjectList;->clear()V
-return-void
+    return-void
 .end method
 
 .method public contains(Ljava/lang/Object;)Z
@@ -326,7 +326,7 @@ return-void
 
     .line 4
     invoke-direct {v0, p0, v1}, Landroidx/collection/MutableObjectList$MutableObjectListIterator;-><init>(Ljava/util/List;I)V
-return-object v0
+    return-object v0
 .end method
 
 .method public lastIndexOf(Ljava/lang/Object;)I

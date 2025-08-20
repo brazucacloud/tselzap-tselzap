@@ -181,7 +181,7 @@
     new-instance v0, Landroid/text/PrecomputedText$Params$Builder;
 
     invoke-direct {v0, p0}, Landroid/text/PrecomputedText$Params$Builder;-><init>(Landroid/text/TextPaint;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public static bridge synthetic n(Landroid/text/PrecomputedText$Params$Builder;)Landroid/text/PrecomputedText$Params;

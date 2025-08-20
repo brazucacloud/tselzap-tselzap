@@ -31,7 +31,7 @@
     iput-object p1, p0, LL/b;->c:Ljava/lang/Object;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 

@@ -1968,7 +1968,7 @@ return-void
     .line 17
     .line 18
     invoke-virtual {p0}, Landroidx/collection/SimpleArrayMap;->clear()V
-return-object v3
+    return-object v3
 
     .line 22
     :cond_0

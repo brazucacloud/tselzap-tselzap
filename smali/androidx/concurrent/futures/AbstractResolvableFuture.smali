@@ -274,7 +274,7 @@
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method private addDoneString(Ljava/lang/StringBuilder;)V
@@ -711,7 +711,7 @@ return-void
 
     .line 32
     invoke-virtual {v1, v2, p0, v0}, Ljava/util/logging/Logger;->log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
-return-void
+    return-void
 .end method
 
 .method private getDoneValue(Ljava/lang/Object;)Ljava/lang/Object;
@@ -1028,7 +1028,7 @@ return-object p0
 
     .line 109
     invoke-direct {v0, p0}, Landroidx/concurrent/futures/AbstractResolvableFuture$Failure;-><init>(Ljava/lang/Throwable;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public static getUninterruptibly(Ljava/util/concurrent/Future;)Ljava/lang/Object;

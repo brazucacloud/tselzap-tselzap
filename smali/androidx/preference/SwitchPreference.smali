@@ -163,7 +163,7 @@ return-void
 
     .line 9
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method private syncSwitchView(Landroid/view/View;)V
@@ -420,7 +420,7 @@ return-void
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/preference/SwitchPreference;->setSwitchTextOff(Ljava/lang/CharSequence;)V
-return-void
+    return-void
 .end method
 
 .method public setSwitchTextOff(Ljava/lang/CharSequence;)V
@@ -435,7 +435,7 @@ return-void
 
     .line 2
     invoke-virtual {p0}, Landroidx/preference/Preference;->notifyChanged()V
-return-void
+    return-void
 .end method
 
 .method public setSwitchTextOn(I)V
@@ -451,7 +451,7 @@ return-void
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/preference/SwitchPreference;->setSwitchTextOn(Ljava/lang/CharSequence;)V
-return-void
+    return-void
 .end method
 
 .method public setSwitchTextOn(Ljava/lang/CharSequence;)V
@@ -466,6 +466,6 @@ return-void
 
     .line 2
     invoke-virtual {p0}, Landroidx/preference/Preference;->notifyChanged()V
-return-void
+    return-void
 .end method
 .end class

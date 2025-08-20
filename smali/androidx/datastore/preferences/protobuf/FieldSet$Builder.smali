@@ -62,7 +62,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/FieldSet$Builder;-><init>()V
-return-void
+    return-void
 .end method
 
 .method private constructor <init>(Landroidx/datastore/preferences/protobuf/SmallSortedMap;)V
@@ -1099,7 +1099,7 @@ return-object v0
     .line 19
     .line 20
     invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/SmallSortedMap;->makeImmutable()V
-return-object v0
+    return-object v0
 
     .line 24
     :cond_0

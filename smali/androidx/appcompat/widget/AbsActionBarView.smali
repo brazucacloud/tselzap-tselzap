@@ -179,7 +179,7 @@
 
     .line 7
     invoke-virtual {p1}, Landroidx/core/view/ViewPropertyAnimatorCompat;->start()V
-return-void
+    return-void
 .end method
 
 .method public canShowOverflowMenu()Z
@@ -785,7 +785,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setVisibility(I)V

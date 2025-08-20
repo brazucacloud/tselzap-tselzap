@@ -1791,7 +1791,7 @@ return-wide v2
     const-string v2, "Failed to read events from database in reasonable time"
 
     invoke-virtual {v0, v2}, Lcom/google/android/gms/measurement/internal/zzhe;->zza(Ljava/lang/String;)V
-return-object p1
+    return-object p1
 .end method
 
 .method public final zza(Lcom/google/android/gms/measurement/internal/zzai;)Z

@@ -798,7 +798,7 @@
 
     .line 77
     invoke-virtual {v1, p1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-return-void
+    return-void
 .end method
 
 .method public springConfig(FFFFFFFI)V

@@ -134,7 +134,7 @@ return-object v0
     .line 2
     .line 3
     invoke-virtual {v0}, Ljava/util/ArrayList;->clear()V
-return-void
+    return-void
 .end method
 
 .method public clone()Landroidx/constraintlayout/core/parser/CLContainer;
@@ -1485,7 +1485,7 @@ return-object v0
     .line 30
     .line 31
     invoke-virtual {v1, p2}, Landroidx/constraintlayout/core/parser/CLKey;->set(Landroidx/constraintlayout/core/parser/CLElement;)V
-return-void
+    return-void
 
     .line 35
     :cond_1

@@ -2891,7 +2891,7 @@ return-void
 
     .line 8
     invoke-direct {p0, v0}, Landroidx/appcompat/widget/SuggestionsAdapter;->updateSpinnerState(Landroid/database/Cursor;)V
-return-void
+    return-void
 .end method
 
 .method public notifyDataSetInvalidated()V
@@ -2912,7 +2912,7 @@ return-void
 
     .line 8
     invoke-direct {p0, v0}, Landroidx/appcompat/widget/SuggestionsAdapter;->updateSpinnerState(Landroid/database/Cursor;)V
-return-void
+    return-void
 .end method
 
 .method public onClick(Landroid/view/View;)V

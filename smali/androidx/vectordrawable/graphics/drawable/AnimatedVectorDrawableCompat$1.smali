@@ -31,7 +31,7 @@
     .line 2
     .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -45,7 +45,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p1}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
-return-void
+    return-void
 .end method
 
 .method public scheduleDrawable(Landroid/graphics/drawable/Drawable;Ljava/lang/Runnable;J)V

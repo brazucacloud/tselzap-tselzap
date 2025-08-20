@@ -176,7 +176,7 @@
 
     .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic a(Landroid/content/Context;)V
@@ -1034,7 +1034,7 @@ return-void
 
     .line 24
     invoke-static {v0, p0}, Landroidx/appcompat/app/AppCompatDelegate$Api33Impl;->localeManagerSetApplicationLocales(Ljava/lang/Object;Landroid/os/LocaleList;)V
-return-void
+    return-void
 
     .line 28
     :cond_0

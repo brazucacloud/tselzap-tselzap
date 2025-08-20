@@ -792,7 +792,7 @@ return-object p1
     const-string p3, ""
 
     invoke-virtual {p2, p3, p1}, Lcom/google/android/gms/internal/measurement/zzh;->zzc(Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzaq;)V
-return-object p1
+    return-object p1
 
     .line 50
     :cond_e
@@ -801,7 +801,7 @@ return-object p1
     move-result-object p3
 
     invoke-virtual {p2, p3, p1}, Lcom/google/android/gms/internal/measurement/zzh;->zzc(Ljava/lang/String;Lcom/google/android/gms/internal/measurement/zzaq;)V
-return-object p1
+    return-object p1
 
     .line 51
     :pswitch_7

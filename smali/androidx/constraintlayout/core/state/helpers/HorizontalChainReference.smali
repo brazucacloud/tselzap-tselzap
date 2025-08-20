@@ -894,7 +894,7 @@ return-void
     .line 424
     :cond_10
     invoke-virtual {v2, v3}, Landroidx/constraintlayout/core/state/ConstraintReference;->setHorizontalChainStyle(I)V
-return-void
+    return-void
 
     .line 428
     :cond_11

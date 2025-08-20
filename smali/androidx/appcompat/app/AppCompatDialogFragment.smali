@@ -9,7 +9,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/fragment/app/DialogFragment;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public constructor <init>(I)V
@@ -57,7 +57,7 @@ return-void
 
     .line 11
     invoke-direct {p1, v0, v1}, Landroidx/appcompat/app/AppCompatDialog;-><init>(Landroid/content/Context;I)V
-return-object p1
+    return-object p1
 .end method
 
 .method public setupDialog(Landroid/app/Dialog;I)V

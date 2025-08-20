@@ -361,7 +361,7 @@
 
     .line 16
     invoke-virtual {p0}, Landroidx/viewpager/widget/ViewPager;->initViewPager()V
-return-void
+    return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -450,7 +450,7 @@ return-void
 
     .line 32
     invoke-virtual {p0}, Landroidx/viewpager/widget/ViewPager;->initViewPager()V
-return-void
+    return-void
 .end method
 
 .method private calculatePageOffsets(Landroidx/viewpager/widget/ViewPager$ItemInfo;ILandroidx/viewpager/widget/ViewPager$ItemInfo;)V
@@ -3195,7 +3195,7 @@ return-object p1
     .line 30
     .line 31
     invoke-virtual {p1, p2}, Landroid/widget/Scroller;->setFinalX(I)V
-return-void
+    return-void
 
     .line 35
     :cond_0
@@ -7038,7 +7038,7 @@ return-void
     .line 129
     .line 130
     invoke-virtual {p1}, Landroid/view/MotionEvent;->recycle()V
-return-void
+    return-void
 
     .line 134
     :cond_5
@@ -7066,7 +7066,7 @@ return-void
     .line 2
     .line 3
     invoke-direct {v0}, Landroidx/viewpager/widget/ViewPager$LayoutParams;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method public generateLayoutParams(Landroid/util/AttributeSet;)Landroid/view/ViewGroup$LayoutParams;
@@ -11319,7 +11319,7 @@ return-void
 
     .line 6
     invoke-direct {v0}, Landroidx/viewpager/widget/ViewPager;->sortChildDrawingOrder()V
-return-void
+    return-void
 
     .line 7
     :cond_1
@@ -11329,7 +11329,7 @@ return-void
 
     .line 8
     invoke-direct {v0}, Landroidx/viewpager/widget/ViewPager;->sortChildDrawingOrder()V
-return-void
+    return-void
 
     .line 9
     :cond_2
@@ -12667,7 +12667,7 @@ return-void
     .line 15
     :cond_7
     invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
-return-void
+    return-void
 
     .line 16
     :cond_8
@@ -12812,7 +12812,7 @@ return-void
     .line 11
     .line 12
     invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setPageMarginDrawable(I)V
@@ -12867,7 +12867,7 @@ return-void
 
     .line 4
     invoke-virtual {p0}, Landroid/view/View;->invalidate()V
-return-void
+    return-void
 .end method
 
 .method public setPageTransformer(ZLandroidx/viewpager/widget/ViewPager$PageTransformer;)V

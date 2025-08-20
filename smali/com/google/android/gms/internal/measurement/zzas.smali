@@ -836,7 +836,7 @@
     move-result-object v0
 
     invoke-direct {v1, v0}, Lcom/google/android/gms/internal/measurement/zzai;-><init>(Ljava/lang/Double;)V
-return-object v1
+    return-object v1
 
     :pswitch_1
     move-object/from16 v3, p0
@@ -1001,7 +1001,7 @@ return-object v1
 
     .line 50
     invoke-direct {v5, v0}, Lcom/google/android/gms/internal/measurement/zzas;-><init>(Ljava/lang/String;)V
-return-object v5
+    return-object v5
 
     :pswitch_2
     move-object/from16 v3, p0
@@ -1148,7 +1148,7 @@ return-object v5
     move-result-object v0
 
     invoke-direct {v4, v0}, Lcom/google/android/gms/internal/measurement/zzas;-><init>(Ljava/lang/String;)V
-return-object v4
+    return-object v4
 
     :pswitch_3
     move-object/from16 v3, p0
@@ -1184,7 +1184,7 @@ return-object v4
     aput-object v3, v1, v2
 
     invoke-direct {v0, v1}, Lcom/google/android/gms/internal/measurement/zzaf;-><init>([Lcom/google/android/gms/internal/measurement/zzaq;)V
-return-object v0
+    return-object v0
 
     :cond_1a
     const/4 v2, 0x0
@@ -1270,7 +1270,7 @@ return-object v0
     new-instance v0, Lcom/google/android/gms/internal/measurement/zzaf;
 
     invoke-direct {v0}, Lcom/google/android/gms/internal/measurement/zzaf;-><init>()V
-return-object v0
+    return-object v0
 
     .line 72
     :cond_1d
@@ -1560,7 +1560,7 @@ return-object v0
     move-result-object v0
 
     invoke-direct {v4, v0}, Lcom/google/android/gms/internal/measurement/zzas;-><init>(Ljava/lang/String;)V
-return-object v4
+    return-object v4
 
     :pswitch_5
     move-object/from16 v3, p0
@@ -1672,7 +1672,7 @@ return-object v1
     move-result-object v0
 
     invoke-direct {v1, v0}, Lcom/google/android/gms/internal/measurement/zzas;-><init>(Ljava/lang/String;)V
-return-object v1
+    return-object v1
 
     :pswitch_7
     const/4 v4, 0x0
@@ -1841,7 +1841,7 @@ return-object v1
     move-result-object v0
 
     invoke-direct {v1, v0}, Lcom/google/android/gms/internal/measurement/zzas;-><init>(Ljava/lang/String;)V
-return-object v1
+    return-object v1
 
     :pswitch_a
     move-object/from16 v3, p0
@@ -1924,7 +1924,7 @@ return-object v1
     move-result-object v0
 
     invoke-direct {v1, v0}, Lcom/google/android/gms/internal/measurement/zzai;-><init>(Ljava/lang/Double;)V
-return-object v1
+    return-object v1
 
     .line 128
     :cond_2c
@@ -2033,7 +2033,7 @@ return-object v1
     move-result-object v0
 
     invoke-direct {v1, v0}, Lcom/google/android/gms/internal/measurement/zzas;-><init>(Ljava/lang/String;)V
-return-object v1
+    return-object v1
 
     :pswitch_d
     move-object/from16 v3, p0
@@ -2114,7 +2114,7 @@ return-object v1
     move-result-object v0
 
     invoke-direct {v1, v0}, Lcom/google/android/gms/internal/measurement/zzas;-><init>(Ljava/lang/String;)V
-return-object v1
+    return-object v1
 
     .line 145
     :cond_31
@@ -2144,7 +2144,7 @@ return-object v1
     move-result-object v0
 
     invoke-direct {v1, v0}, Lcom/google/android/gms/internal/measurement/zzas;-><init>(Ljava/lang/String;)V
-return-object v1
+    return-object v1
 
     :pswitch_f
     const/4 v2, 0x0

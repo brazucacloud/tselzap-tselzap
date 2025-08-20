@@ -19,7 +19,7 @@
     iput-object p1, p0, Li0/b;->b:Ljava/lang/Object;
 
     invoke-direct {p0}, Landroid/view/ViewOutlineProvider;-><init>()V
-return-void
+    return-void
 .end method
 
 

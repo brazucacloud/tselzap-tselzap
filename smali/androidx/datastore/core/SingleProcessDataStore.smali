@@ -351,7 +351,7 @@
 
     .line 22
     invoke-direct/range {v0 .. v5}, Landroidx/datastore/core/SingleProcessDataStore;-><init>(Lp1/a;Landroidx/datastore/core/Serializer;Ljava/util/List;Landroidx/datastore/core/CorruptionHandler;Lz1/v;)V
-return-void
+    return-void
 .end method
 
 .method public static final synthetic access$getActiveFiles$cp()Ljava/util/Set;

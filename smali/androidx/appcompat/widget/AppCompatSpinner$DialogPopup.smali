@@ -44,7 +44,7 @@
     .line 2
     .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -199,7 +199,7 @@ return-void
     .line 26
     :cond_0
     invoke-virtual {p0}, Landroidx/appcompat/widget/AppCompatSpinner$DialogPopup;->dismiss()V
-return-void
+    return-void
 .end method
 
 .method public setAdapter(Landroid/widget/ListAdapter;)V
@@ -382,6 +382,6 @@ return-void
     .line 53
     .line 54
     invoke-virtual {p1}, Landroid/app/Dialog;->show()V
-return-void
+    return-void
 .end method
 .end class

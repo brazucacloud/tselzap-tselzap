@@ -359,7 +359,7 @@
     .line 141
     .line 142
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method private static lerp(FFF)F
@@ -978,7 +978,7 @@ return-void
     .line 276
     .line 277
     invoke-virtual {v1}, Landroid/graphics/Canvas;->restore()V
-return-void
+    return-void
 .end method
 
 .method public getArrowHeadLength()F
@@ -1360,7 +1360,7 @@ return-void
     .line 5
     .line 6
     invoke-virtual {p0}, Landroid/graphics/drawable/Drawable;->invalidateSelf()V
-return-void
+    return-void
 .end method
 
 .method public setDirection(I)V

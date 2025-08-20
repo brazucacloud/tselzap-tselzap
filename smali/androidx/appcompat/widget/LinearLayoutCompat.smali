@@ -261,7 +261,7 @@ return-void
 
     .line 24
     invoke-virtual {v3}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method private forceUniformHeight(II)V
@@ -1207,7 +1207,7 @@ return-void
     new-instance v0, Landroidx/appcompat/widget/LinearLayoutCompat$LayoutParams;
 
     invoke-direct {v0, v1, v1}, Landroidx/appcompat/widget/LinearLayoutCompat$LayoutParams;-><init>(II)V
-return-object v0
+    return-object v0
 
     :cond_0
     const/4 v2, 0x1
@@ -1261,7 +1261,7 @@ return-object v0
     move-result-object v1
 
     invoke-direct {v0, v1, p1}, Landroidx/appcompat/widget/LinearLayoutCompat$LayoutParams;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public generateLayoutParams(Landroid/view/ViewGroup$LayoutParams;)Landroidx/appcompat/widget/LinearLayoutCompat$LayoutParams;
@@ -8008,7 +8008,7 @@ return-void
     .line 33
     .line 34
     invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setDividerPadding(I)V

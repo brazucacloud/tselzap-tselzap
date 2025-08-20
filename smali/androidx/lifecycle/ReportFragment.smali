@@ -49,7 +49,7 @@
 
     .line 1
     invoke-direct {p0}, Landroid/app/Fragment;-><init>()V
-return-void
+    return-void
 .end method
 
 .method private final dispatch(Landroidx/lifecycle/Lifecycle$Event;)V

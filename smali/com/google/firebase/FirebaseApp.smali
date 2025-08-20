@@ -1568,7 +1568,7 @@ return-void
 
     .line 22
     invoke-direct {v0}, Lcom/google/firebase/FirebaseApp;->initializeAllApis()V
-return-object v0
+    return-object v0
 
     :catchall_0
     move-exception p0
@@ -2514,7 +2514,7 @@ return-object v0
     check-cast v0, Lcom/google/firebase/internal/DataCollectionConfigStorage;
 
     invoke-virtual {v0, p1}, Lcom/google/firebase/internal/DataCollectionConfigStorage;->setEnabled(Ljava/lang/Boolean;)V
-return-void
+    return-void
 .end method
 
 .method public setDataCollectionDefaultEnabled(Z)V

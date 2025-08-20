@@ -68,7 +68,7 @@
     new-instance v0, Lcom/google/android/gms/measurement/internal/zzf;
 
     invoke-direct {v0, p0}, Lcom/google/android/gms/measurement/internal/zzf;-><init>(Lcom/google/android/gms/measurement/internal/zzjx;)V
-return-object v0
+    return-object v0
 .end method
 
 

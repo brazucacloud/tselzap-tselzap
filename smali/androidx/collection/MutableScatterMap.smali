@@ -424,7 +424,7 @@ return-void
     .line 34
     .line 35
     invoke-direct {p0}, Landroidx/collection/MutableScatterMap;->initializeGrowth()V
-return-void
+    return-void
 .end method
 
 .method private final initializeStorage(I)V
@@ -1157,7 +1157,7 @@ return-object v0
     .line 46
     .line 47
     invoke-direct {p0}, Landroidx/collection/MutableScatterMap;->initializeGrowth()V
-return-void
+    return-void
 .end method
 
 .method public final compute(Ljava/lang/Object;Lp1/p;)Ljava/lang/Object;

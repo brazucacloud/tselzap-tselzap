@@ -58,7 +58,7 @@
 
     .line 1
     invoke-virtual {p0}, Landroid/content/pm/ShortcutManager;->removeAllDynamicShortcuts()V
-return-void
+    return-void
 .end method
 
 .method public static bridge synthetic g(Landroid/content/pm/ShortcutManager;Ljava/lang/String;)V

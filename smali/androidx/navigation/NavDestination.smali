@@ -142,7 +142,7 @@
     move-result-object p1
 
     invoke-direct {p0, p1}, Landroidx/navigation/NavDestination;-><init>(Ljava/lang/String;)V
-return-void
+    return-void
 .end method
 
 .method public constructor <init>(Ljava/lang/String;)V
@@ -542,7 +542,7 @@ return-void
     move-result-object p1
 
     invoke-virtual {p0, p1}, Landroidx/navigation/NavDestination;->addDeepLink(Landroidx/navigation/NavDeepLink;)V
-return-void
+    return-void
 .end method
 
 .method public final addInDefaultArgs(Landroid/os/Bundle;)Landroid/os/Bundle;
@@ -2971,7 +2971,7 @@ return-void
 
     .line 57
     invoke-direct/range {v3 .. v9}, Landroidx/navigation/NavDestination$DeepLinkMatch;-><init>(Landroidx/navigation/NavDestination;Landroid/os/Bundle;ZIZI)V
-return-object v3
+    return-object v3
 
     .line 61
     :cond_2
@@ -3119,7 +3119,7 @@ return-object v3
     .line 68
     .line 69
     invoke-virtual {p2}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method public final putAction(II)V
@@ -3176,7 +3176,7 @@ return-void
     iget-object v0, p0, Landroidx/navigation/NavDestination;->actions:Landroidx/collection/SparseArrayCompat;
 
     invoke-virtual {v0, p1, p2}, Landroidx/collection/SparseArrayCompat;->put(ILjava/lang/Object;)V
-return-void
+    return-void
 
     .line 4
     :cond_0
@@ -3718,6 +3718,6 @@ return-void
     .line 89
     .line 90
     invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-return-object v0
+    return-object v0
 .end method
 .end class

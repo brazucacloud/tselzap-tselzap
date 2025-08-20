@@ -363,7 +363,7 @@
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static zza(Ljava/lang/Object;J)D
@@ -569,7 +569,7 @@ return-void
     const-string v3, "logMissingMethod"
 
     invoke-virtual {v0, v1, v2, v3, p0}, Ljava/util/logging/Logger;->logp(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-return-void
+    return-void
 .end method
 
 .method public static zza([BJB)V

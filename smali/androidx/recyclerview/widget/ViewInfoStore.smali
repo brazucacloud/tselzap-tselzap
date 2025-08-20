@@ -476,7 +476,7 @@ return-void
     .line 7
     .line 8
     invoke-virtual {v0}, Landroidx/collection/LongSparseArray;->clear()V
-return-void
+    return-void
 .end method
 
 .method public getFromOldChangeHolders(J)Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
@@ -593,7 +593,7 @@ return-void
 
     .line 1
     invoke-static {}, Landroidx/recyclerview/widget/ViewInfoStore$InfoRecord;->drainCache()V
-return-void
+    return-void
 .end method
 
 .method public onViewDetached(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V

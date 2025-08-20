@@ -93,7 +93,7 @@
     new-instance v0, Landroid/view/WindowInsets$Builder;
 
     invoke-direct {v0}, Landroid/view/WindowInsets$Builder;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method public static synthetic f(Landroid/view/WindowInsets;)Landroid/view/WindowInsets$Builder;
@@ -144,7 +144,7 @@ return-object v0
     new-instance v0, Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;
 
     invoke-direct {v0, p0}, Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;-><init>(Ljava/util/Map;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public static bridge synthetic k(Landroid/view/accessibility/AccessibilityNodeInfo$TouchDelegateInfo;Landroid/graphics/Region;)Landroid/view/accessibility/AccessibilityNodeInfo;

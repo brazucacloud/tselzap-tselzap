@@ -711,7 +711,7 @@ return-void
     .line 74
     .line 75
     invoke-static {v0, v1}, Lkotlin/jvm/internal/j;->e(Ljava/lang/Object;Ljava/lang/String;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public final verify(Ljava/lang/String;Landroid/os/Bundle;)Z

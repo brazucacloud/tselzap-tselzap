@@ -683,7 +683,7 @@
     .line 11
     .line 12
     invoke-direct {p1, p0}, Landroidx/constraintlayout/core/motion/Motion$1;-><init>(Landroidx/constraintlayout/core/motion/utils/Easing;)V
-return-object p1
+    return-object p1
 .end method
 
 .method private getPreCycleDistance()F
@@ -1280,7 +1280,7 @@ return-void
 
     .line 29
     invoke-virtual {p1, v0, v1, v2, v3}, Landroidx/constraintlayout/core/motion/MotionPaths;->setBounds(FFFF)V
-return-void
+    return-void
 .end method
 
 .method private setupRelative()V

@@ -871,7 +871,7 @@ return-void
     .line 37
     .line 38
     invoke-virtual {v0, p0, v1, v2}, Landroidx/dynamicanimation/animation/AnimationHandler;->addAnimationFrameCallback(Landroidx/dynamicanimation/animation/AnimationHandler$AnimationFrameCallback;J)V
-return-void
+    return-void
 
     .line 42
     :cond_1

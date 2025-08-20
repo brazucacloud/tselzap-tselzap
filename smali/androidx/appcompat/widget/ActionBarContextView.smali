@@ -144,7 +144,7 @@
 
     .line 10
     invoke-virtual {p1}, Landroidx/appcompat/widget/TintTypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method private initTitle()V
@@ -1974,7 +1974,7 @@ return-void
     .line 27
     :cond_2
     invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setSubtitle(Ljava/lang/CharSequence;)V
@@ -1986,7 +1986,7 @@ return-void
     .line 2
     .line 3
     invoke-direct {p0}, Landroidx/appcompat/widget/ActionBarContextView;->initTitle()V
-return-void
+    return-void
 .end method
 
 .method public setTitle(Ljava/lang/CharSequence;)V

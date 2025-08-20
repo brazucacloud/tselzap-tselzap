@@ -22,7 +22,7 @@
     iput-object p1, p0, Landroidx/core/view/l;->b:Landroid/view/ViewConfiguration;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 

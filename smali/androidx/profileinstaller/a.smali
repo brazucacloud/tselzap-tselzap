@@ -30,7 +30,7 @@
     iput-object p3, p0, Landroidx/profileinstaller/a;->e:Ljava/lang/Object;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 

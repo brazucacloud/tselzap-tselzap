@@ -4072,7 +4072,7 @@ return-object p1
     .line 2
     .line 3
     invoke-direct {v0}, Landroidx/recyclerview/widget/LinearLayoutManager$LayoutState;-><init>()V
-return-object v0
+    return-object v0
 .end method
 
 .method public ensureLayoutState()V
@@ -7196,7 +7196,7 @@ return-void
     .line 15
     .line 16
     invoke-virtual {p1}, Landroidx/recyclerview/widget/LinearLayoutManager$AnchorInfo;->reset()V
-return-void
+    return-void
 .end method
 
 .method public onRestoreInstanceState(Landroid/os/Parcelable;)V
@@ -7428,7 +7428,7 @@ return-object v0
     .line 88
     :cond_2
     invoke-virtual {v0}, Landroidx/recyclerview/widget/LinearLayoutManager$SavedState;->invalidateAnchor()V
-return-object v0
+    return-object v0
 .end method
 
 .method public performAccessibilityAction(ILandroid/os/Bundle;)Z
@@ -8043,7 +8043,7 @@ return-void
     .line 14
     :cond_0
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public scrollToPositionWithOffset(II)V
@@ -8073,7 +8073,7 @@ return-void
     .line 12
     :cond_0
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public scrollVerticallyBy(ILandroidx/recyclerview/widget/RecyclerView$Recycler;Landroidx/recyclerview/widget/RecyclerView$State;)I
@@ -8219,7 +8219,7 @@ return-void
     .line 44
     .line 45
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setRecycleChildrenOnDetach(Z)V
@@ -8255,7 +8255,7 @@ return-void
     .line 11
     .line 12
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setSmoothScrollbarEnabled(Z)V
@@ -8291,7 +8291,7 @@ return-void
     .line 11
     .line 12
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public shouldMeasureTwice()Z

@@ -2544,7 +2544,7 @@
     .line 7
     :cond_1
     invoke-virtual {p2}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method private parseMotionSceneTags(Landroid/content/Context;Lorg/xmlpull/v1/XmlPullParser;)V
@@ -2669,7 +2669,7 @@ return-void
     .line 55
     :cond_2
     invoke-virtual {p1}, Landroid/content/res/TypedArray;->recycle()V
-return-void
+    return-void
 .end method
 
 .method private readConstraintChain(ILandroidx/constraintlayout/motion/widget/MotionLayout;)V
@@ -4725,7 +4725,7 @@ return-void
     .line 33
     .line 34
     invoke-direct {v0}, Landroid/view/animation/AnticipateInterpolator;-><init>()V
-return-object v0
+    return-object v0
 
     .line 38
     :cond_1
@@ -4734,7 +4734,7 @@ return-object v0
     .line 39
     .line 40
     invoke-direct {v0}, Landroid/view/animation/OvershootInterpolator;-><init>()V
-return-object v0
+    return-object v0
 
     .line 44
     :cond_2
@@ -4743,7 +4743,7 @@ return-object v0
     .line 45
     .line 46
     invoke-direct {v0}, Landroid/view/animation/BounceInterpolator;-><init>()V
-return-object v0
+    return-object v0
 
     .line 50
     :cond_3
@@ -4752,7 +4752,7 @@ return-object v0
     .line 51
     .line 52
     invoke-direct {v0}, Landroid/view/animation/DecelerateInterpolator;-><init>()V
-return-object v0
+    return-object v0
 
     .line 56
     :cond_4
@@ -4761,7 +4761,7 @@ return-object v0
     .line 57
     .line 58
     invoke-direct {v0}, Landroid/view/animation/AccelerateInterpolator;-><init>()V
-return-object v0
+    return-object v0
 
     .line 62
     :cond_5
@@ -4770,7 +4770,7 @@ return-object v0
     .line 63
     .line 64
     invoke-direct {v0}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
-return-object v0
+    return-object v0
 
     .line 68
     :cond_6
@@ -6883,7 +6883,7 @@ return-void
     .line 243
     .line 244
     invoke-virtual {p1, p2, p3}, Landroidx/constraintlayout/motion/widget/TouchResponse;->setDown(FF)V
-return-void
+    return-void
 
     .line 248
     :cond_9

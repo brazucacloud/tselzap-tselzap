@@ -1058,7 +1058,7 @@ return-void
     const/4 v1, -0x1
 
     invoke-direct {v0, v1, v1}, Landroidx/appcompat/widget/ActionBarOverlayLayout$LayoutParams;-><init>(II)V
-return-object v0
+    return-object v0
 .end method
 
 .method public bridge synthetic generateLayoutParams(Landroid/util/AttributeSet;)Landroid/view/ViewGroup$LayoutParams;
@@ -1094,7 +1094,7 @@ return-object v0
     move-result-object v1
 
     invoke-direct {v0, v1, p1}, Landroidx/appcompat/widget/ActionBarOverlayLayout$LayoutParams;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
-return-object v0
+    return-object v0
 .end method
 
 .method public getActionBarHideOffset()I
@@ -1680,7 +1680,7 @@ return-void
     .line 3
     .line 4
     invoke-virtual {p0}, Landroidx/appcompat/widget/ActionBarOverlayLayout;->haltActionBarHideOffsetAnimations()V
-return-void
+    return-void
 .end method
 
 .method public onLayout(ZIIII)V

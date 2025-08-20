@@ -69,7 +69,7 @@
     .line 10
     .line 11
     invoke-virtual {v0}, Landroidx/datastore/preferences/protobuf/AbstractProtobufList;->makeImmutable()V
-return-void
+    return-void
 .end method
 
 .method public constructor <init>()V

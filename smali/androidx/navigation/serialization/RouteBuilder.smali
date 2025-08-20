@@ -646,7 +646,7 @@ return-void
 
     .line 49
     invoke-direct {p0, p2, p1}, Landroidx/navigation/serialization/RouteBuilder;->addQuery(Ljava/lang/String;Ljava/lang/String;)V
-return-void
+    return-void
 
     .line 53
     :cond_1
@@ -678,7 +678,7 @@ return-void
 
     .line 68
     invoke-direct {p0, p1}, Landroidx/navigation/serialization/RouteBuilder;->addPath(Ljava/lang/String;)V
-return-void
+    return-void
 .end method
 
 .method public final build()Ljava/lang/String;

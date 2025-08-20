@@ -309,7 +309,7 @@ return-void
 
     .line 7
     invoke-direct {p0}, Lcom/google/android/gms/measurement/internal/zzhs;->zzc()V
-return-object v6
+    return-object v6
 
     .line 8
     :cond_2
@@ -441,7 +441,7 @@ return-object v1
 
     .line 21
     invoke-interface {p2}, Landroid/content/SharedPreferences$Editor;->apply()V
-return-void
+    return-void
 
     .line 22
     :cond_2
@@ -506,7 +506,7 @@ return-void
 
     .line 27
     invoke-interface {v1}, Landroid/content/SharedPreferences$Editor;->apply()V
-return-void
+    return-void
 .end method
 
 .end class

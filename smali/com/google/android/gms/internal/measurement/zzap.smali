@@ -346,7 +346,7 @@
     move-result-object p2
 
     invoke-direct {p1, p2}, Lcom/google/android/gms/internal/measurement/zzas;-><init>(Ljava/lang/String;)V
-return-object p1
+    return-object p1
 
     .line 3
     :cond_0

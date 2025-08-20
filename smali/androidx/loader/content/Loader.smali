@@ -123,7 +123,7 @@
     .line 3
     .line 4
     invoke-virtual {p0}, Landroidx/loader/content/Loader;->onAbandon()V
-return-void
+    return-void
 .end method
 
 .method public cancelLoad()Z
@@ -467,7 +467,7 @@ return-void
 
     .line 1
     invoke-virtual {p0}, Landroidx/loader/content/Loader;->onForceLoad()V
-return-void
+    return-void
 .end method
 
 .method public getContext()Landroid/content/Context;
@@ -540,7 +540,7 @@ return-void
     .line 4
     .line 5
     invoke-virtual {p0}, Landroidx/loader/content/Loader;->forceLoad()V
-return-void
+    return-void
 
     .line 9
     :cond_0
@@ -760,7 +760,7 @@ return-void
     .line 8
     .line 9
     invoke-virtual {p0}, Landroidx/loader/content/Loader;->onStartLoading()V
-return-void
+    return-void
 .end method
 
 .method public stopLoading()V
@@ -777,7 +777,7 @@ return-void
     .line 3
     .line 4
     invoke-virtual {p0}, Landroidx/loader/content/Loader;->onStopLoading()V
-return-void
+    return-void
 .end method
 
 .method public takeContentChanged()Z

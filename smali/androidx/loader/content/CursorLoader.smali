@@ -183,7 +183,7 @@
 
     .line 3
     invoke-interface {p1}, Landroid/database/Cursor;->close()V
-return-void
+    return-void
 
     .line 4
     :cond_0
@@ -761,7 +761,7 @@ return-void
     :cond_2
     :goto_0
     invoke-virtual {p0}, Landroidx/loader/content/Loader;->forceLoad()V
-return-void
+    return-void
 .end method
 
 .method public onStopLoading()V

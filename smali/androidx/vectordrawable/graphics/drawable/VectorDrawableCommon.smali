@@ -16,7 +16,7 @@
 
     .line 1
     invoke-direct {p0}, Landroid/graphics/drawable/Drawable;-><init>()V
-return-void
+    return-void
 .end method
 
 
@@ -55,7 +55,7 @@ return-void
     .line 4
     .line 5
     invoke-virtual {v0}, Landroid/graphics/drawable/Drawable;->clearColorFilter()V
-return-void
+    return-void
 
     .line 9
     :cond_0

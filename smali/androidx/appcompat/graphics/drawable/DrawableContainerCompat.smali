@@ -385,7 +385,7 @@
 
     .line 152
     invoke-virtual {p1, v0}, Landroid/graphics/drawable/Drawable;->setCallback(Landroid/graphics/drawable/Drawable$Callback;)V
-return-void
+    return-void
 
     .line 156
     :goto_2

@@ -786,7 +786,7 @@ return-void
     .line 48
     .line 49
     invoke-virtual {v2}, Landroid/view/ViewPropertyAnimator;->start()V
-return-void
+    return-void
 
     .line 53
     :cond_2
@@ -838,7 +838,7 @@ return-void
     .line 77
     .line 78
     invoke-virtual {v2}, Landroid/view/ViewPropertyAnimator;->start()V
-return-void
+    return-void
 .end method
 
 .method public createTabView(Landroidx/appcompat/app/ActionBar$Tab;Z)Landroidx/appcompat/widget/ScrollingTabContainerView$TabView;
@@ -1058,7 +1058,7 @@ return-void
 
     .line 7
     invoke-virtual {p1}, Landroidx/appcompat/app/ActionBar$Tab;->select()V
-return-void
+    return-void
 .end method
 
 .method public onMeasure(II)V
@@ -1483,7 +1483,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {p0}, Landroid/view/View;->requestLayout()V
-return-void
+    return-void
 .end method
 
 .method public setTabSelected(I)V

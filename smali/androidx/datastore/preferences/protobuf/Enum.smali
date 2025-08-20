@@ -170,7 +170,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Enum;->clearEnumvalue()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$1200(Landroidx/datastore/preferences/protobuf/Enum;I)V
@@ -242,7 +242,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Enum;->clearName()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$2000(Landroidx/datastore/preferences/protobuf/Enum;)V
@@ -250,7 +250,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Enum;->clearOptions()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$2100(Landroidx/datastore/preferences/protobuf/Enum;I)V
@@ -290,7 +290,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Enum;->clearSourceContext()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$2600(Landroidx/datastore/preferences/protobuf/Enum;I)V
@@ -313,7 +313,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Enum;->clearSyntax()V
-return-void
+    return-void
 .end method
 
 .method public static synthetic access$300(Landroidx/datastore/preferences/protobuf/Enum;Landroidx/datastore/preferences/protobuf/ByteString;)V
@@ -432,7 +432,7 @@ return-void
     move-result-object p2
 
     invoke-interface {v0, p1, p2}, Ljava/util/List;->add(ILjava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method private addEnumvalue(ILandroidx/datastore/preferences/protobuf/EnumValue;)V
@@ -499,7 +499,7 @@ return-void
     move-result-object p2
 
     invoke-interface {v0, p1, p2}, Ljava/util/List;->add(ILjava/lang/Object;)V
-return-void
+    return-void
 .end method
 
 .method private addOptions(ILandroidx/datastore/preferences/protobuf/Option;)V
@@ -1465,7 +1465,7 @@ return-object p1
     .line 110
     .line 111
     invoke-direct {p1}, Landroidx/datastore/preferences/protobuf/Enum;-><init>()V
-return-object p1
+    return-object p1
 
     .line 115
     :pswitch_data_0

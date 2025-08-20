@@ -2102,7 +2102,7 @@ return-void
     .line 2
     .line 3
     invoke-virtual {v0}, Ljava/util/HashMap;->clear()V
-return-void
+    return-void
 .end method
 
 .method public restoreAddedFragments(Ljava/util/List;)V

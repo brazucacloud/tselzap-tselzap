@@ -47,7 +47,7 @@
     .line 6
     .line 7
     invoke-direct {p0}, Landroidx/activity/result/ActivityResultLauncher;-><init>()V
-return-void
+    return-void
 .end method
 
 

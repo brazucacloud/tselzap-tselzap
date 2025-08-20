@@ -549,7 +549,7 @@ return-void
     .line 37
     :cond_2
     invoke-direct {p0}, Landroidx/dynamicanimation/animation/AnimationHandler;->cleanUpList()V
-return-void
+    return-void
 .end method
 
 .method public getProvider()Landroidx/dynamicanimation/animation/AnimationHandler$AnimationFrameCallbackProvider;

@@ -460,7 +460,7 @@ return-void
     .line 165
     :goto_2
     invoke-virtual {p0, v3}, Landroidx/appcompat/widget/ListPopupWindow;->setHorizontalOffset(I)V
-return-void
+    return-void
 .end method
 
 .method public getHintText()Ljava/lang/CharSequence;

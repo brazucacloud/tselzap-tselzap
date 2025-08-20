@@ -209,7 +209,7 @@
     iget-object p1, p0, Lcom/google/android/gms/internal/measurement/zzac;->zzc:Ljava/util/List;
 
     invoke-interface {p1}, Ljava/util/List;->clear()V
-return-void
+    return-void
 .end method
 
 .method public final zza(Ljava/lang/String;JLjava/util/Map;)V

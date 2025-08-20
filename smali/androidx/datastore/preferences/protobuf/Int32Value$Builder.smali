@@ -45,7 +45,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/Int32Value$Builder;-><init>()V
-return-void
+    return-void
 .end method
 
 

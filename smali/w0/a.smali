@@ -19,7 +19,7 @@
     iput-object p1, p0, Lw0/a;->b:Lw0/i;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public synthetic constructor <init>(Lw0/i;II)V
@@ -31,7 +31,7 @@ return-void
     iput-object p1, p0, Lw0/a;->b:Lw0/i;
 
     invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
-return-void
+    return-void
 .end method
 
 

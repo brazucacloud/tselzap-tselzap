@@ -74,7 +74,7 @@ return-void
     move-result-object p1
 
     invoke-direct {p0, p1, p6}, Lcom/google/android/gms/internal/measurement/zzjr$zzb;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
-return-void
+    return-void
 .end method
 
 .method private constructor <init>(Ljava/lang/String;Ljava/lang/Throwable;)V

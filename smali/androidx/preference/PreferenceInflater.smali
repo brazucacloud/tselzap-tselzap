@@ -789,7 +789,7 @@ return-void
 
     .line 59
     invoke-virtual {p0, p1}, Landroidx/preference/PreferenceInflater;->setDefaultPackages([Ljava/lang/String;)V
-return-void
+    return-void
 .end method
 
 .method private onMergeRoots(Landroidx/preference/PreferenceGroup;Landroidx/preference/PreferenceGroup;)Landroidx/preference/PreferenceGroup;
@@ -1181,7 +1181,7 @@ return-object p2
 
     .line 3
     invoke-interface {p1}, Landroid/content/res/XmlResourceParser;->close()V
-return-object p2
+    return-object p2
 
     :catchall_0
     move-exception p2

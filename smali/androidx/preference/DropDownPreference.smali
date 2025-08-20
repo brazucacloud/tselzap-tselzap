@@ -97,7 +97,7 @@ return-void
 
     .line 8
     invoke-direct {p0}, Landroidx/preference/DropDownPreference;->updateEntries()V
-return-void
+    return-void
 .end method
 
 .method private findSpinnerIndexOfValue(Ljava/lang/String;)I
@@ -404,7 +404,7 @@ return-void
     .line 3
     .line 4
     invoke-direct {p0}, Landroidx/preference/DropDownPreference;->updateEntries()V
-return-void
+    return-void
 .end method
 
 .method public setValueIndex(I)V

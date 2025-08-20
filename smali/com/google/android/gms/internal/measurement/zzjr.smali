@@ -71,7 +71,7 @@
 
     .line 2
     invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzja;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public synthetic constructor <init>(Lcom/google/android/gms/internal/measurement/zzjs;)V
@@ -79,7 +79,7 @@ return-void
 
     .line 1
     invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/zzjr;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public static zza(D)I
@@ -432,7 +432,7 @@ return-void
     const/4 v2, 0x0
 
     invoke-direct {v1, p0, v2, v0}, Lcom/google/android/gms/internal/measurement/zzjr$zza;-><init>([BII)V
-return-object v1
+    return-object v1
 .end method
 
 .method public static zzc(IJ)I

@@ -88,7 +88,7 @@
 
     .line 8
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public constructor <init>(Landroidx/core/app/RemoteActionCompat;)V

@@ -103,7 +103,7 @@
 
     .line 1
     invoke-direct {p0}, Landroidx/transition/Transition;-><init>()V
-return-void
+    return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
@@ -514,7 +514,7 @@ return-void
 
     .line 41
     invoke-direct {v0, p0}, Landroid/graphics/Matrix;-><init>(Landroid/graphics/Matrix;)V
-return-object v0
+    return-object v0
 
     .line 45
     :cond_0
@@ -553,7 +553,7 @@ return-object v0
 
     .line 61
     invoke-direct {v0, p0}, Landroid/graphics/Matrix;-><init>(Landroid/graphics/Matrix;)V
-return-object v0
+    return-object v0
 .end method
 
 .method private createMatrixAnimator(Landroid/widget/ImageView;Landroid/graphics/Matrix;Landroid/graphics/Matrix;)Landroid/animation/ObjectAnimator;

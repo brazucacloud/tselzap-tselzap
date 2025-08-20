@@ -60,7 +60,7 @@
     move-result-object v0
 
     invoke-direct {p0, v0}, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeHeapWriter;->nextBuffer(Landroidx/datastore/preferences/protobuf/AllocatedBuffer;)V
-return-void
+    return-void
 .end method
 
 .method private nextBuffer(I)V
@@ -3167,7 +3167,7 @@ return-void
 
     .line 4
     invoke-direct {p0}, Landroidx/datastore/preferences/protobuf/BinaryWriter$SafeHeapWriter;->nextBuffer()V
-return-void
+    return-void
 
     .line 5
     :cond_0
