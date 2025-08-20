@@ -6,10 +6,14 @@ const db = {
     // Executar query com retorno de múltiplas linhas
     async query(text, params) {
         try {
+            console.log('🔍 EXECUTANDO QUERY:', text.substring(0, 100) + '...');
+            console.log('🔍 PARÂMETROS:', params);
             const result = await pool.query(text, params);
             return result.rows;
         } catch (error) {
-            console.error('Erro na query:', error);
+            console.error('❌ ERRO NA QUERY:', text);
+            console.error('❌ PARÂMETROS:', params);
+            console.error('❌ ERRO:', error.message);
             throw error;
         }
     },
@@ -48,9 +52,18 @@ async function initializeDatabase() {
         const schemaPath = path.join(__dirname, 'schema.sql');
         
         if (fs.existsSync(schemaPath)) {
-            const schema = fs.readFileSync(schemaPath, 'utf8');
-            await pool.query(schema);
-            console.log('✅ Schema PostgreSQL criado com sucesso');
+            try {
+                const schema = fs.readFileSync(schemaPath, 'utf8');
+                await pool.query(schema);
+                console.log('✅ Schema PostgreSQL criado com sucesso');
+            } catch (error) {
+                // Ignore errors for existing triggers/tables
+                if (error.code === '42710' || error.code === '42P07') {
+                    console.log('ℹ️ Schema já existe ou parcialmente criado');
+                } else {
+                    console.warn('⚠️ Aviso no schema:', error.message);
+                }
+            }
         }
 
         // Verificar se existe usuário admin
@@ -168,7 +181,7 @@ async function insertDefaultTasks() {
     for (const task of tasks) {
         try {
             await db.run(
-                'INSERT INTO tasks (day_number, task_type, description, target_count, time_spread_minutes) VALUES ($1, $2, $3, $4, $5) ON CONFLICT DO NOTHING',
+                'INSERT INTO tasks (day_number, task_type, description, target_count, time_spread_minutes) VALUES ($1, $2, $3, $4, $5)',
                 [task.day, task.type, task.description, task.count, task.time]
             );
         } catch (error) {

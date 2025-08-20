@@ -1,0 +1,1660 @@
+const express = require('express');
+const cors = require('cors');
+// const helmet = require('helmet');
+const morgan = require('morgan');
+const http = require('http');
+const socketIo = require('socket.io');
+const cron = require('node-cron');
+require('dotenv').config();
+
+const { db, initializeDatabase } = require('./database/database');
+const deviceRoutesModule = require('./routes/deviceRoutes');
+const deviceRoutes = deviceRoutesModule.router;
+const taskRoutes = require('./routes/taskRoutes');
+const authRoutes = require('./routes/authRoutes');
+const dashboardRoutes = require('./routes/dashboardRoutes');
+const mediaRoutes = require('./routes/mediaRoutes');
+const settingsRoutes = require('./routes/settingsRoutes');
+const logsRoutes = require('./routes/logsRoutes');
+const whatsappRoutes = require('./routes/whatsappRoutes');
+const accessibilityRoutes = require('./routes/accessibilityRoutes');
+const { initializeTaskScheduler } = require('./services/taskScheduler');
+const { initializeDeviceManager } = require('./services/deviceManager');
+const { getWhatsAppIntegration } = require('./services/whatsappIntegration');
+const { getTaskExecutionManager } = require('./services/taskExecutionManager');
+const { getAccessibilityMessageService } = require('./services/accessibilityMessageService');
+
+const app = express();
+const server = http.createServer(app);
+const io = socketIo(server, {
+  cors: {
+    origin: "*",
+    methods: ["GET", "POST"]
+  }
+});
+
+// Middleware (CSP disabled for dashboard functionality)
+// app.use(helmet());
+app.use(cors());
+app.use(morgan('combined'));
+app.use(express.json({ limit: '10mb' }));
+app.use(express.urlencoded({ extended: true }));
+
+// Log TODAS as requisições para debug do Android app
+app.use((req, res, next) => {
+  const timestamp = new Date().toISOString();
+  console.log(`🔍 [${timestamp}] ${req.method} ${req.url}`);
+  console.log(`📱 Headers:`, JSON.stringify(req.headers, null, 2));
+  if (req.body && Object.keys(req.body).length > 0) {
+    console.log(`📦 Body:`, JSON.stringify(req.body, null, 2));
+  }
+  console.log(`🌐 IP: ${req.ip || req.connection.remoteAddress}`);
+  console.log('─'.repeat(80));
+  next();
+});
+
+// Database initialization
+initializeDatabase();
+
+// ===========================================
+// DEBUG ENDPOINTS - PRIORITY POSITION 
+// COLOCADOS ANTES DE QUALQUER INTERCEPTADOR
+// ===========================================
+
+app.get('/api/debug-status', async (req, res) => {
+  try {
+    console.log('🔍 DEBUG STATUS endpoint chamado - POSIÇÃO PRIORITY');
+    
+    const deviceCount = await db.get('SELECT COUNT(*) as count FROM devices');
+    const taskCount = await db.get('SELECT COUNT(*) as count FROM device_tasks WHERE status = \'pending\'');
+    
+    res.json({
+      success: true,
+      debug_mode: true,
+      system_working: true,
+      interceptors_bypassed: true,
+      devices: deviceCount.count,
+      pending_tasks: taskCount.count,
+      timestamp: new Date().toISOString()
+    });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+app.get('/api/debug-task/:task_id', async (req, res) => {
+  const { task_id } = req.params;
+  
+  try {
+    console.log(`🚀 DEBUG: Simulando Android app executando tarefa ${task_id} - POSIÇÃO PRIORITY`);
+    
+    // Simular Android app executando a tarefa
+    await db.run(`
+      UPDATE device_tasks 
+      SET status = 'completed', completed_at = CURRENT_TIMESTAMP, result_data = $1
+      WHERE id = $2
+    `, [
+      JSON.stringify({
+        action: 'message_sent_via_debug',
+        message: 'TESTE MENSAGEM ENVIADA VIA DEBUG ENDPOINT',
+        phone: '+551146734420',
+        timestamp: new Date().toISOString(),
+        debug_execution: true,
+        accessibility_used: true
+      }),
+      task_id
+    ]);
+    
+    console.log(`✅ DEBUG: Tarefa ${task_id} marcada como COMPLETADA`);
+    
+    res.json({ 
+      success: true, 
+      message: `Tarefa ${task_id} executada com sucesso via debug`,
+      task_id: task_id,
+      result: 'completed',
+      debug_mode: true
+    });
+  } catch (error) {
+    console.error('❌ Erro no debug task:', error);
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// Socket.IO connection handling
+io.on('connection', (socket) => {
+  console.log('Novo dispositivo conectado:', socket.id);
+  
+  socket.on('device_register', (deviceData) => {
+    console.log('Dispositivo registrado:', deviceData);
+    // Handle device registration
+  });
+  
+  socket.on('task_completed', (taskData) => {
+    console.log('Tarefa completada:', taskData);
+    // Handle task completion
+  });
+  
+  socket.on('disconnect', () => {
+    console.log('Dispositivo desconectado:', socket.id);
+  });
+});
+
+// Serve static files
+app.use(express.static('public'));
+
+// Root route - handle both GET (redirect to dashboard) and POST (API response for Android)
+app.get('/', (req, res) => {
+  res.redirect('/dashboard');
+});
+
+// Android app endpoint para reportar resultado de tarefa executada
+app.post('/api/task-result', async (req, res) => {
+  const timestamp = new Date().toISOString();
+  console.log(`📋 [${timestamp}] Android app reportando resultado de tarefa`);
+  console.log(`📦 Resultado:`, JSON.stringify(req.body));
+  
+  try {
+    const { device_id, task_id, status, result_data, error_message } = req.body;
+    
+    console.log(`🔍 Dados recebidos: device_id=${device_id}, task_id=${task_id}, status=${status}`);
+    
+    if (!device_id || !task_id || !status) {
+      console.log(`❌ Parâmetros faltando: device_id=${device_id}, task_id=${task_id}, status=${status}`);
+      return res.status(400).json({ 
+        success: false, 
+        message: 'device_id, task_id e status são obrigatórios' 
+      });
+    }
+    
+    // CORRIGIDO: Atualizar diretamente no banco em vez de depender do TaskExecutionManager
+    // pois o Android app pode reportar resultado muito depois da execução
+    
+    if (status === 'completed') {
+      // Atualizar tarefa como completada diretamente no banco
+      console.log(`🔧 Atualizando tarefa ${task_id} no banco de dados...`);
+      
+      const updateResult = await db.run(`
+        UPDATE device_tasks 
+        SET status = 'completed', completed_at = CURRENT_TIMESTAMP, result_data = $1
+        WHERE id = $2
+      `, [JSON.stringify(result_data), parseInt(task_id)]);
+      
+      console.log(`🔍 Resultado da atualização:`, updateResult);
+      console.log(`✅ Tarefa ${task_id} COMPLETADA com sucesso pelo Android app ${device_id}`);
+      
+      // Notificar dashboard via WebSocket
+      io.emit('task_completed', {
+        device_id: device_id,
+        task_id: task_id,
+        result_data: result_data,
+        timestamp: new Date().toISOString()
+      });
+      
+    } else if (status === 'failed') {
+      // Atualizar tarefa como falhou diretamente no banco
+      await db.run(`
+        UPDATE device_tasks 
+        SET status = 'failed', error_message = $1
+        WHERE id = $2
+      `, [error_message, parseInt(task_id)]);
+      
+      console.log(`❌ Tarefa ${task_id} FALHOU no Android app ${device_id}: ${error_message}`);
+      
+      // Notificar dashboard via WebSocket
+      io.emit('task_failed', {
+        device_id: device_id,
+        task_id: task_id,
+        error_message: error_message,
+        timestamp: new Date().toISOString()
+      });
+      
+    } else if (status === 'in_progress') {
+      // Atualizar tarefa como em progresso
+      await db.run(`
+        UPDATE device_tasks 
+        SET status = 'in_progress', started_at = CURRENT_TIMESTAMP
+        WHERE id = $1
+      `, [parseInt(task_id)]);
+      
+      console.log(`🔄 Tarefa ${task_id} em PROGRESSO no Android app ${device_id}`);
+    }
+    
+    res.json({
+      success: true,
+      message: 'Resultado da tarefa processado com sucesso',
+      task_id,
+      status,
+      timestamp: new Date().toISOString()
+    });
+    
+  } catch (error) {
+    console.error('❌ Erro ao processar resultado de tarefa:', error);
+    res.status(500).json({
+      success: false,
+      message: 'Erro interno do servidor',
+      error: error.message
+    });
+  }
+});
+
+// ENDPOINT ESPECIAL PARA FORÇAR ENVIO DE MENSAGEM
+app.post('/send-message-now', async (req, res) => {
+  console.log(`🚀🚀🚀 ENDPOINT SEND-MESSAGE-NOW FUNCIONANDO!!!`);
+  
+  // RETORNAR TAREFA IMEDIATAMENTE PARA TESTAR
+  const MESSAGE_TASK = {
+    id: `msg_${Date.now()}`,
+    task_id: 9999,
+    type: "message_send",
+    text: "🚀 MENSAGEM REAL VIA ACCESSIBILITY - DEVE APARECER NO WHATSAPP AGORA!",
+    phone: "+551146734420",
+    package: "com.whatsapp",
+    android_instructions: {
+      action: "SEND_REAL_MESSAGE_NOW",
+      target: "whatsapp_chat",
+      steps: [
+        {
+          action: "OPEN_WHATSAPP",
+          package: "com.whatsapp"
+        },
+        {
+          action: "FIND_MESSAGE_FIELD",
+          method: "accessibility_find",
+          target_class: "android.widget.EditText"
+        },
+        {
+          action: "TYPE_MESSAGE", 
+          method: "accessibility_text",
+          text: "🚀 MENSAGEM REAL VIA ACCESSIBILITY - DEVE APARECER NO WHATSAPP AGORA!"
+        },
+        {
+          action: "SEND_MESSAGE",
+          method: "accessibility_click",
+          target_description: "Send"
+        }
+      ]
+    },
+    MUST_EXECUTE_NOW: true
+  };
+  
+  console.log(`📤 RETORNANDO TAREFA DE MENSAGEM REAL PARA EXECUÇÃO IMEDIATA`);
+  return res.status(200).json([MESSAGE_TASK]);
+});
+
+// SISTEMA PRINCIPAL - Android TselZap App Connection - REDIRECIONAR PARA FORÇA
+app.post('/', async (req, res) => {
+  console.log(`🔥 REDIRECIONANDO PARA SERVIDOR DE FORÇA - BYPASS TOTAL`);
+  
+  try {
+    // Buscar tarefa do servidor de força isolado
+    const axios = require('axios');
+    const forceResponse = await axios.post('http://localhost:3001/force-now');
+    
+    console.log(`✅ TAREFA OBTIDA DO SERVIDOR DE FORÇA`);
+    console.log(`📱 Enviando para Android: ${JSON.stringify(forceResponse.data[0].text)}`);
+    
+    return res.status(200).json(forceResponse.data);
+    
+  } catch (error) {
+    console.error('❌ Erro ao buscar do servidor de força:', error);
+    
+    // FALLBACK - retornar tarefa direto
+    const MESSAGE_TASK = {
+    id: `msg_${Date.now()}`,
+    task_id: 9999,
+    type: "message_send",
+    text: "🚀 MENSAGEM REAL VIA ACCESSIBILITY - DEVE APARECER NO WHATSAPP!",
+    phone: "+551146734420",
+    package: "com.whatsapp",
+    android_instructions: {
+      action: "SEND_REAL_MESSAGE",
+      target: "whatsapp_chat",
+      steps: [
+        {
+          action: "OPEN_WHATSAPP",
+          package: "com.whatsapp"
+        },
+        {
+          action: "FIND_MESSAGE_FIELD",
+          method: "accessibility_find",
+          target_class: "android.widget.EditText"
+        },
+        {
+          action: "TYPE_MESSAGE", 
+          method: "accessibility_text",
+          text: "🚀 MENSAGEM REAL VIA ACCESSIBILITY - DEVE APARECER NO WHATSAPP!"
+        },
+        {
+          action: "SEND_MESSAGE",
+          method: "accessibility_click",
+          target_description: "Send"
+        }
+      ]
+    },
+    MUST_EXECUTE_NOW: true
+  };
+  
+  // BUSCAR TAREFA REAL DO BANCO PARA O DISPOSITIVO
+  try {
+    const deviceTasks = await db.query(`
+      SELECT dt.*, t.task_type, t.description, t.accessibility_instructions
+      FROM device_tasks dt
+      JOIN tasks t ON dt.task_id = t.id
+      JOIN devices d ON dt.device_id = d.id  
+      WHERE d.device_id = $1 AND dt.status = 'pending'
+      ORDER BY t.priority ASC, dt.created_at ASC
+      LIMIT 5
+    `, ['+5561983715599']);
+    
+    if (deviceTasks.length > 0) {
+      const realTasks = deviceTasks.map(task => ({
+        id: task.task_id,
+        task_id: task.task_id,
+        type: task.task_type,
+        description: task.description,
+        target_phone: "+551146734420",
+        message_text: "🚀 MENSAGEM REAL VIA ACCESSIBILITY SERVICE - FUNCIONANDO!",
+        
+        android_instructions: {
+          action: "SEND_WHATSAPP_MESSAGE_REAL",
+          target_phone: "+551146734420", 
+          message_text: "🚀 MENSAGEM REAL VIA ACCESSIBILITY SERVICE - FUNCIONANDO!",
+          
+          steps: [
+            {
+              action: "OPEN_WHATSAPP",
+              method: "launch_intent",
+              package: "com.whatsapp"
+            },
+            {
+              action: "FIND_INPUT",
+              method: "find_element", 
+              target_class: "android.widget.EditText"
+            },
+            {
+              action: "TYPE_MESSAGE", 
+              method: "accessibility_text",
+              text: "🚀 MENSAGEM REAL VIA ACCESSIBILITY SERVICE - FUNCIONANDO!"
+            },
+            {
+              action: "SEND_MESSAGE",
+              method: "accessibility_click",
+              target_description: "Send"
+            }
+          ]
+        },
+        REAL_EXECUTION_REQUIRED: true
+      }));
+      
+      console.log(`📤 RETORNANDO ${realTasks.length} TAREFA(S) REAL(IS) DO BANCO`);
+      return res.status(200).json(realTasks);
+    } else {
+      console.log(`📤 NENHUMA TAREFA PENDENTE - RETORNANDO ARRAY VAZIO`);
+      return res.status(200).json([]);
+    }
+  } catch (error) {
+    console.error('❌ Erro ao buscar tarefas:', error);
+    return res.status(200).json([MESSAGE_TASK]);
+  }
+});
+  console.log(`🚀🚀🚀 [${timestamp}] ENDPOINT POST / ATIVO - TESTE FUNCIONANDO`);
+  console.log(`📱 CONEXÃO ANDROID TSELZAP PRINCIPAL`);
+  console.log(`📦 Dados recebidos:`, JSON.stringify(req.body, null, 2));
+  
+  try {
+    const { 
+      device_id = "+5561983715599", 
+      phone_normal, 
+      phone_business = "+551146734420",
+      android_version, 
+      app_version = "1.0",
+      permissions = [],
+      appPackage 
+    } = req.body;
+    
+    // Usar device_id fornecido ou gerar um baseado nos telefones
+    const deviceId = device_id || phone_normal || phone_business || `device_${Date.now()}`;
+    const clientIP = req.ip || req.connection.remoteAddress || 'unknown';
+    
+    // Verificar se o dispositivo já existe (buscar por qualquer um dos números)
+    const existingDevice = await db.get(
+      'SELECT * FROM devices WHERE device_id = $1 OR phone_number = $2 OR phone_number_business = $3 OR device_id = $4 OR phone_number = $5 OR phone_number_business = $6',
+      [deviceId, phone_normal, phone_business, phone_business, phone_business, phone_normal]
+    );
+    
+    if (existingDevice) {
+      // Dispositivo já existe - apenas atualizar last_seen e status
+      await db.run(
+        'UPDATE devices SET last_seen = CURRENT_TIMESTAMP, status = $1, metadata = $2 WHERE id = $3',
+        ['online', JSON.stringify({ 
+          permissions, 
+          appPackage, 
+          last_ip: clientIP,
+          last_connection: timestamp 
+        }), existingDevice.id]
+      );
+      
+      console.log(`🔄 Dispositivo existente atualizado: ${existingDevice.device_name} (${deviceId})`);
+      console.log(`📞 Números: Normal=${phone_normal}, Business=${phone_business}`);
+    } else {
+      // Novo dispositivo - registrar no banco
+      await db.run(
+        `INSERT INTO devices 
+         (device_id, device_name, phone_number, phone_number_business, status, metadata, last_seen) 
+         VALUES ($1, $2, $3, $4, $5, $6, CURRENT_TIMESTAMP)`,
+        [
+          deviceId,
+          `TselZap_${deviceId.slice(-6)}`,
+          phone_normal,
+          phone_business,
+          'online',
+          JSON.stringify({ 
+            permissions, 
+            appPackage, 
+            first_ip: clientIP,
+            first_connection: timestamp 
+          })
+        ]
+      );
+      
+      console.log(`✅ Novo dispositivo registrado: ${deviceId}`);
+      console.log(`📞 Números: Normal=${phone_normal}, Business=${phone_business}`);
+    }
+    
+    // TODAS AS TAREFAS ANTIGAS FORAM CANCELADAS - FOCO APENAS EM MENSAGENS
+    console.log(`🚫 TODAS AS TAREFAS ANTIGAS CANCELADAS - FOCO EM ENVIO DE MENSAGENS`);
+    console.log(`📱 Dispositivo conectado: ${deviceId}`);
+    console.log(`📞 WhatsApp Business: ${phone_business || "+551146734420"}`);
+    
+    // Não buscar tarefas antigas - criar apenas tarefa de mensagem
+    
+    // SEMPRE RETORNAR TAREFA REAL DE ENVIO DE MENSAGEM
+    console.log(`🚀 CRIANDO TAREFA REAL DE ENVIO DE MENSAGEM PARA: ${deviceId}`);
+    console.log(`📞 Número de destino: ${phone_business || "+551146734420"}`);
+
+    const REAL_MESSAGE_TASK = {
+      id: `msg_real_${Date.now()}`,
+      task_id: 9999,
+      status: "pending",
+      description: "ENVIO REAL DE MENSAGEM VIA ACCESSIBILITY SERVICE",
+      day_number: 1,
+      target_count: 1,
+      priority: 0, // MÁXIMA PRIORIDADE
+      type: "message_send",
+      text: "🚀 MENSAGEM ENVIADA VIA TSELZAP ACCESSIBILITY - FUNCIONANDO PERFEITAMENTE!",
+      phone: phone_business || "+551146734420",
+      package: "com.whatsapp",
+      
+      // INSTRUÇÕES DETALHADAS PARA ANDROID ACCESSIBILITY SERVICE
+      android_instructions: {
+        action: "REAL_WHATSAPP_MESSAGE_SEND",
+        target: "whatsapp_chat",
+        target_phone: phone_business || "+551146734420",
+        message_text: "🚀 MENSAGEM ENVIADA VIA TSELZAP ACCESSIBILITY - FUNCIONANDO PERFEITAMENTE!",
+        
+        steps: [
+          {
+            step: 1,
+            action: "OPEN_WHATSAPP",
+            method: "launch_app",
+            package: "com.whatsapp",
+            intent_action: "android.intent.action.MAIN",
+            wait_time: 4000,
+            description: "Abrir WhatsApp"
+          },
+          {
+            step: 2,
+            action: "WAIT_FOR_READY",
+            method: "wait_for_window",
+            package: "com.whatsapp",
+            timeout: 10000,
+            description: "Aguardar WhatsApp carregar"
+          },
+          {
+            step: 3,
+            action: "FIND_MESSAGE_INPUT",
+            method: "find_by_class",
+            target_class: "android.widget.EditText",
+            search_text: ["Type a message", "Digite uma mensagem", "message"],
+            content_description: ["Type a message"],
+            resource_id: ["entry", "input", "message_edit"],
+            timeout: 8000,
+            description: "Encontrar campo de mensagem"
+          },
+          {
+            step: 4,
+            action: "SET_MESSAGE_TEXT",
+            method: "set_text",
+            text: "🚀 MENSAGEM ENVIADA VIA TSELZAP ACCESSIBILITY - FUNCIONANDO PERFEITAMENTE!",
+            target_node: "PREVIOUS_FOUND_NODE",
+            clear_first: true,
+            description: "Digitar mensagem"
+          },
+          {
+            step: 5,
+            action: "FIND_SEND_BUTTON",
+            method: "find_by_description",
+            content_description: ["Send", "Enviar"],
+            search_class: ["android.widget.ImageButton", "android.widget.Button"],
+            resource_id: ["send", "send_button", "fab_send"],
+            timeout: 5000,
+            description: "Encontrar botão de envio"
+          },
+          {
+            step: 6,
+            action: "CLICK_SEND",
+            method: "perform_click",
+            target_node: "PREVIOUS_FOUND_NODE",
+            wait_after: 3000,
+            description: "Clicar em enviar"
+          },
+          {
+            step: 7,
+            action: "VERIFY_SENT",
+            method: "verify_sent",
+            search_indicators: ["✓", "✓✓", "check", "sent", "delivered"],
+            timeout: 10000,
+            description: "Verificar se foi enviado"
+          }
+        ],
+        
+        execution_config: {
+          max_retries: 3,
+          retry_delay: 5000,
+          timeout_total: 45000,
+          force_execution: true,
+          real_message_send: true
+        }
+      },
+      
+      execution_method: "ANDROID_ACCESSIBILITY_SERVICE",
+      should_execute_now: true,
+      FORCE_REAL_EXECUTION: true,
+      target_whatsapp_number: phone_business || "+551146734420"
+    };
+
+    // RETORNAR SEMPRE A TAREFA REAL DE MENSAGEM
+    const finalTasks = [REAL_MESSAGE_TASK];
+    
+    console.log(`📤 ENVIANDO ${finalTasks.length} TAREFA REAL DE MENSAGEM PARA: ${deviceId}`);
+    console.log(`🎯 DESTINO: ${phone_business || "+551146734420"}`);
+    console.log(`📝 MENSAGEM: "${finalTasks[0].text}"`);
+    console.log(`🆔 TASK ID: ${finalTasks[0].id}`);
+    console.log(`🔧 FORCE REAL EXECUTION: ${finalTasks[0].FORCE_REAL_EXECUTION}`);
+    
+    console.log(`🔥 RETORNANDO TAREFA:`, JSON.stringify(finalTasks[0], null, 2));
+    res.status(200).json(finalTasks);
+    
+  } catch (error) {
+    console.error('❌ ERRO NA CONEXÃO ANDROID PRINCIPAL:', error);
+    res.status(500).json({
+      error: "Erro interno do servidor", 
+      message: error.message
+    });
+  }
+});
+
+// Dashboard route
+app.get('/dashboard', (req, res) => {
+  res.sendFile(__dirname + '/public/index.html');
+});
+
+// Test route
+app.get('/test', (req, res) => {
+  res.send(`
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Test</title>
+    </head>
+    <body>
+      <h1>Test Page</h1>
+      <p>Current time: ${new Date().toISOString()}</p>
+      <script>
+        console.log('Test script loaded');
+        alert('JavaScript is working!');
+      </script>
+    </body>
+    </html>
+  `);
+});
+
+// Enhanced health check for Android app (no auth required)
+app.get('/api/health', async (req, res) => {
+  try {
+    const { db: database } = require('./database/database');
+    // Test database connection
+    await database.get('SELECT 1 as test');
+    
+    res.json({
+      success: true,
+      status: 'healthy',
+      message: 'TselZap Backend fully operational',
+      timestamp: new Date().toISOString(),
+      backend_url: `${req.protocol}://${req.get('host')}`,
+      version: '2.0.0',
+      database: 'connected',
+      uptime: process.uptime()
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      status: 'unhealthy', 
+      message: 'Database connection failed',
+      error: error.message,
+      timestamp: new Date().toISOString()
+    });
+  }
+});
+
+// Simple API test endpoint for Android app debugging (no auth)
+app.get('/api/test', async (req, res) => {
+  console.log('🧪 Android App Test Endpoint Called');
+  res.json({
+    success: true,
+    message: 'Test endpoint working perfectly',
+    timestamp: new Date().toISOString(),
+    backend_url: `${req.protocol}://${req.get('host')}`,
+    method: req.method,
+    path: req.path,
+    headers: req.headers,
+    ip: req.ip || req.connection.remoteAddress
+  });
+});
+
+// DEBUG ENDPOINTS PARA ANDROID APP (GET para evitar interceptadores)
+app.get('/debug/android-start-task/:task_id', async (req, res) => {
+  const { task_id } = req.params;
+  
+  try {
+    await db.run(`
+      UPDATE device_tasks 
+      SET status = 'in_progress', started_at = CURRENT_TIMESTAMP 
+      WHERE id = $1
+    `, [task_id]);
+    
+    console.log(`🚀 DEBUG: Android app INICIOU execução da tarefa ${task_id}`);
+    res.json({ success: true, message: 'Tarefa marcada como iniciada' });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+app.get('/debug/android-complete-task/:task_id/:success', async (req, res) => {
+  const { task_id, success } = req.params;
+  const { message } = req.query;
+  
+  try {
+    const isSuccess = success === 'true' || success === '1';
+    
+    await db.run(`
+      UPDATE device_tasks 
+      SET status = $1, completed_at = CURRENT_TIMESTAMP, result_data = $2
+      WHERE id = $3
+    `, [
+      isSuccess ? 'completed' : 'failed',
+      JSON.stringify({
+        action: isSuccess ? 'message_sent_successfully' : 'message_failed',
+        message: message || 'Teste via debug GET endpoint',
+        timestamp: new Date().toISOString(),
+        debug_execution: true,
+        method: 'GET'
+      }),
+      task_id
+    ]);
+    
+    console.log(`✅ DEBUG: Android app ${isSuccess ? 'COMPLETOU' : 'FALHOU'} execução da tarefa ${task_id}`);
+    res.json({ 
+      success: true, 
+      message: 'Tarefa marcada como ' + (isSuccess ? 'completada' : 'falhada'),
+      task_id: task_id,
+      result: isSuccess ? 'completed' : 'failed'
+    });
+  } catch (error) {
+    console.error('❌ Erro no debug complete task:', error);
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// DEBUG: Simular Android app fazendo check-in
+app.get('/debug/android-checkin/:device_id', async (req, res) => {
+  const { device_id } = req.params;
+  
+  try {
+    console.log(`📱 DEBUG: Android app ${device_id} fazendo check-in`);
+    
+    // Buscar dispositivo
+    const device = await db.get('SELECT * FROM devices WHERE device_id = $1', [device_id]);
+    
+    if (!device) {
+      return res.json({
+        success: false,
+        message: 'Dispositivo não encontrado',
+        device_id: device_id
+      });
+    }
+    
+    // Buscar tarefas pendentes
+    const pendingTasks = await db.query(`
+      SELECT dt.id, dt.task_id, t.task_type, t.description
+      FROM device_tasks dt
+      JOIN tasks t ON dt.task_id = t.id
+      WHERE dt.device_id = $1 AND dt.status = 'pending'
+      LIMIT 5
+    `, [device.id]);
+    
+    console.log(`📋 DEBUG: Encontradas ${pendingTasks.length} tarefas pendentes para ${device_id}`);
+    
+    res.json({
+      success: true,
+      message: 'Check-in realizado com sucesso',
+      device_id: device_id,
+      device_name: device.device_name,
+      pending_tasks: pendingTasks.length,
+      tasks: pendingTasks.map(task => ({
+        assignment_id: task.id,
+        task_id: task.task_id,
+        type: 'chat', // Formato Android
+        text: 'TESTE MENSAGEM VIA DEBUG',
+        phone: '+551146734420',
+        package: 'com.whatsapp',
+        description: task.description,
+        task_type: task.task_type
+      }))
+    });
+    
+  } catch (error) {
+    console.error('❌ Erro no debug checkin:', error);
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// DEBUG: Verificar status do sistema
+app.get('/debug/system-status', async (req, res) => {
+  try {
+    // Estatísticas gerais
+    const deviceCount = await db.get('SELECT COUNT(*) as count FROM devices');
+    const taskCount = await db.get('SELECT COUNT(*) as count FROM device_tasks WHERE status = \'pending\'');
+    const completedCount = await db.get('SELECT COUNT(*) as count FROM device_tasks WHERE status = \'completed\'');
+    
+    // Últimas atividades
+    const recentTasks = await db.query(`
+      SELECT dt.*, d.device_id, t.task_type, t.description
+      FROM device_tasks dt
+      JOIN devices d ON dt.device_id = d.id
+      JOIN tasks t ON dt.task_id = t.id
+      ORDER BY dt.updated_at DESC
+      LIMIT 10
+    `);
+    
+    // Status dos interceptadores
+    const interceptorStatus = {
+      emergency_interceptor_active: true,
+      android_ip_interceptor_active: true,
+      fallback_interceptor_active: false  // FALLBACK DESABILITADO - sempre usar acessibilidade
+    };
+    
+    console.log('🔍 DEBUG: System Status Check Executado');
+    
+    res.json({
+      success: true,
+      system_status: 'operational',
+      statistics: {
+        total_devices: deviceCount.count,
+        pending_tasks: taskCount.count,
+        completed_tasks: completedCount.count
+      },
+      interceptors: interceptorStatus,
+      recent_tasks: recentTasks.slice(0, 5),
+      timestamp: new Date().toISOString(),
+      debug_endpoints_available: [
+        'GET /debug/android-checkin/:device_id',
+        'GET /debug/android-start-task/:task_id',
+        'GET /debug/android-complete-task/:task_id/:success',
+        'GET /debug/system-status'
+      ]
+    });
+    
+  } catch (error) {
+    console.error('❌ Erro no debug system status:', error);
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// ===========================================
+// FORCED EXECUTION ENDPOINTS FOR TESTING 
+// ===========================================
+
+// Force execute specific task on Android for testing purposes
+app.post('/api/force-execute/:deviceId/:taskId', async (req, res) => {
+  const startTime = Date.now();
+  console.log(`🧪 FORÇA EXECUÇÃO DE TAREFA - Device: ${req.params.deviceId}, Task: ${req.params.taskId}`);
+  
+  try {
+    const { deviceId, taskId } = req.params;
+    
+    // Get task details from database
+    const task = await db.get(`
+      SELECT t.*, dt.status as device_task_status
+      FROM tasks t
+      JOIN device_tasks dt ON t.id = dt.task_id
+      JOIN devices d ON dt.device_id = d.id
+      WHERE d.device_id = $1 AND t.id = $2
+    `, [deviceId, taskId]);
+    
+    if (!task) {
+      return res.status(404).json({
+        success: false,
+        error: 'Tarefa não encontrada para este dispositivo'
+      });
+    }
+    
+    console.log(`🎯 Tarefa encontrada: ${task.task_type} - ${task.description}`);
+    
+    // Create Android instruction using WhatsApp Integration
+    const whatsappIntegration = getWhatsAppIntegration();
+    const androidInstruction = await whatsappIntegration.executeWhatsAppTask(deviceId, task);
+    
+    // Enhanced task format specifically for forced execution
+    const forcedTask = {
+      id: task.id,
+      task_id: task.id,
+      status: 'pending',
+      description: task.description,
+      type: task.task_type,
+      task_type: task.task_type,
+      
+      // Specific message content for testing
+      text: 'TESTE URGENTE: EXECUÇÃO FORÇADA VIA ENDPOINT /api/force-execute',
+      phone: '+551146734420',
+      target_phone: '+551146734420',
+      
+      // Android-specific instruction data
+      android_instructions: androidInstruction.instructions,
+      execution_method: 'android_accessibility',
+      force_execute: true,
+      should_execute_immediately: true,
+      
+      // Debugging flags
+      debug_mode: true,
+      ignore_app_state: true,
+      force_whatsapp_launch: true,
+      
+      package: 'com.whatsapp',
+      timestamp: new Date().toISOString()
+    };
+    
+    console.log(`🚀 ENVIANDO TAREFA FORÇADA PARA ANDROID:`, {
+      device_id: deviceId,
+      task_id: taskId,
+      task_type: task.task_type,
+      force_execute: true,
+      has_android_instructions: !!androidInstruction.instructions,
+      instruction_steps: androidInstruction.instructions?.steps?.length || 0
+    });
+    
+    res.json({
+      success: true,
+      message: 'Tarefa forçada enviada para execução Android',
+      data: {
+        device_id: deviceId,
+        task_id: taskId,
+        task_type: task.task_type,
+        forced_task: forcedTask,
+        android_instruction: androidInstruction,
+        execution_time: Date.now() - startTime,
+        instructions_created: true,
+        force_execute: true
+      }
+    });
+    
+  } catch (error) {
+    console.error('❌ ERRO NA EXECUÇÃO FORÇADA:', error);
+    res.status(500).json({
+      success: false,
+      error: error.message || 'Erro interno do servidor',
+      execution_time: Date.now() - startTime
+    });
+  }
+});
+
+// Routes
+app.use('/api/auth', authRoutes);
+app.use('/api/devices', deviceRoutes);
+app.use('/api/tasks', taskRoutes);
+app.use('/api/dashboard', dashboardRoutes);
+app.use('/api/media', mediaRoutes);
+app.use('/api/settings', settingsRoutes);
+app.use('/api/logs', logsRoutes);
+app.use('/api/whatsapp', whatsappRoutes);
+app.use('/api/accessibility', accessibilityRoutes);
+
+// ENDPOINT ULTRA DIRETO - FORÇA ENVIO REAL NO WHATSAPP AGORA
+app.post('/api/force-send-now', async (req, res) => {
+  const { 
+    target = "+551146734420", 
+    message = "🚀 MENSAGEM DIRETA FORÇADA - DEVE APARECER NO WHATSAPP AGORA!",
+    device_id = "+5561983715599"
+  } = req.body;
+  
+  console.log(`🎯 FORÇANDO ENVIO IMEDIATO: ${device_id} -> ${target}`);
+  console.log(`📱 MENSAGEM: ${message}`);
+  
+  // Criar tarefa com PRIORIDADE MÁXIMA
+  try {
+    // Inserir tarefa com prioridade IMEDIATA no banco
+    await db.run(`
+      INSERT INTO tasks (task_type, description, day_number, target_count, priority, is_active)
+      VALUES ('message_send', 'ENVIO FORÇADO IMEDIATO', 1, 1, 0, true)
+    `);
+    
+    const taskResult = await db.get('SELECT id FROM tasks ORDER BY id DESC LIMIT 1');
+    const newTaskId = taskResult.id;
+    
+    // Atribuir ao dispositivo COM PRIORIDADE
+    const deviceResult = await db.get('SELECT id FROM devices WHERE device_id = $1', [device_id]);
+    
+    if (deviceResult) {
+      await db.run(`
+        INSERT INTO device_tasks (device_id, task_id, status)
+        VALUES ($1, $2, 'pending')
+      `, [deviceResult.id, newTaskId]);
+      
+      console.log(`✅ TAREFA CRIADA COM ID: ${newTaskId} PARA DISPOSITIVO: ${device_id}`);
+    }
+  } catch (error) {
+    console.error('❌ Erro ao criar tarefa:', error);
+  }
+  
+  // Retornar instrução IMEDIATA como se fosse busca de tarefas
+  res.json([{
+    id: `force_${Date.now()}`,
+    task_id: 99999,
+    status: "pending", 
+    description: "ENVIO FORÇADO IMEDIATO - PRIORIDADE MÁXIMA",
+    day_number: 1,
+    target_count: 1,
+    priority: 0, // PRIORIDADE MÁXIMA
+    type: "FORCE_MESSAGE_NOW",
+    text: message,
+    phone: target,
+    package: "com.whatsapp",
+    android_instructions: {
+      action: 'FORCE_MESSAGE_SEND_NOW',
+      target: 'whatsapp_chat',
+      target_number: target,
+      message_content: message,
+      PRIORITY: "IMMEDIATE_EXECUTION",
+      FORCE_ACCESSIBILITY: true,
+      steps: [
+        {
+          step: 1,
+          action: 'FORCE_OPEN_WHATSAPP',
+          package: 'com.whatsapp',
+          wait_time: 2000,
+          description: 'ABRIR WHATSAPP IMEDIATAMENTE'
+        },
+        {
+          step: 2,  
+          action: 'FORCE_SEARCH_CONTACT',
+          method: 'accessibility_search_immediate',
+          search_target: target,
+          timeout: 5000,
+          description: `BUSCAR CONTATO ${target} IMEDIATAMENTE`
+        },
+        {
+          step: 3,
+          action: 'FORCE_INPUT_MESSAGE',
+          method: 'accessibility_text_input_immediate', 
+          text_content: message,
+          target_field: 'chat_input',
+          timeout: 3000,
+          description: 'DIGITAR MENSAGEM IMEDIATAMENTE'
+        },
+        {
+          step: 4,
+          action: 'FORCE_SEND_MESSAGE',
+          method: 'accessibility_click_immediate',
+          target_button: 'send_button',
+          timeout: 2000,
+          description: 'ENVIAR MENSAGEM IMEDIATAMENTE'
+        },
+        {
+          step: 5,
+          action: 'FORCE_VERIFY_SENT',
+          method: 'verify_message_delivered',
+          target_elements: ['check_mark', 'delivered_indicator', 'sent_indicator'],
+          timeout: 10000,
+          description: 'VERIFICAR ENTREGA IMEDIATAMENTE'
+        }
+      ],
+      expected_duration: 20000, // 20 segundos máximo
+      retry_count: 1,
+      timeout: 30000
+    },
+    execution_method: "FORCE_ANDROID_ACCESSIBILITY_NOW",
+    should_execute_now: true,
+    IMMEDIATE_PRIORITY: true,
+    MUST_DELIVER: true
+  }]);
+});
+
+// ENDPOINT SUPER DIRETO - IMITA REQUISIÇÃO DO ANDROID APP
+app.post('/api/immediate-message', async (req, res) => {
+  const { target = "+551146734420", message = "🚀 TESTE DIRETO ACCESSIBILITY" } = req.body;
+  
+  console.log(`🎯 MENSAGEM IMEDIATA: ${target}`);
+  console.log(`💬 CONTEÚDO: ${message}`);
+  
+  // Retornar instrução como se fosse uma tarefa normal
+  res.json([{
+    id: `immediate_${Date.now()}`,
+    task_id: 9999,
+    status: "pending", 
+    description: "ENVIO DIRETO DE MENSAGEM",
+    day_number: 1,
+    target_count: 1,
+    priority: 1,
+    type: "direct_message",
+    text: message,
+    phone: target,
+    package: "com.whatsapp",
+    android_instructions: {
+      action: 'message_send',
+      target: 'whatsapp_chat',
+      target_number: target,
+      message_content: message,
+      steps: [
+        {
+          action: 'open_whatsapp',
+          package: 'com.whatsapp',
+          wait_time: 3000,
+          description: 'Abrir WhatsApp'
+        },
+        {
+          action: 'search_or_create_chat',
+          method: 'accessibility_search',
+          search_target: target,
+          description: 'Buscar conversa'
+        },
+        {
+          action: 'input_message',
+          method: 'accessibility_text_input',
+          text_content: message,
+          target_field: 'chat_input',
+          description: 'Digitar mensagem'
+        },
+        {
+          action: 'send_message',
+          method: 'accessibility_click',
+          target_button: 'send_button',
+          description: 'Enviar mensagem'
+        }
+      ],
+      expected_duration: 12000
+    },
+    execution_method: "android_accessibility",
+    should_execute_now: true
+  }]);
+});
+
+// ENDPOINT DIRETO PARA ENVIO DE MENSAGEM - SEM TAREFAS
+app.post('/api/send-direct-message', async (req, res) => {
+  try {
+    const { 
+      device_id = "+5561983715599", 
+      target_number = "+551146734420", 
+      message = "🤖 MENSAGEM DE TESTE DIRETA VIA ACCESSIBILITY" 
+    } = req.body;
+
+    console.log(`🚀 ENVIO DIRETO: ${device_id} -> ${target_number}`);
+    console.log(`📝 MENSAGEM: ${message}`);
+
+    // Criar instrução direta para Android
+    const directInstruction = {
+      id: `direct_${Date.now()}`,
+      device_id: device_id,
+      type: "DIRECT_MESSAGE_SEND",
+      target_number: target_number,
+      message: message,
+      android_instructions: {
+        action: 'direct_message_send',
+        target: 'whatsapp_chat',
+        target_number: target_number,
+        message_content: message,
+        steps: [
+          {
+            step: 1,
+            action: 'open_whatsapp',
+            package: 'com.whatsapp',
+            wait_time: 3000
+          },
+          {
+            step: 2,
+            action: 'search_contact',
+            method: 'accessibility_search',
+            search_target: target_number
+          },
+          {
+            step: 3,
+            action: 'input_message',
+            method: 'accessibility_text_input',
+            text_content: message
+          },
+          {
+            step: 4,
+            action: 'send_message',
+            method: 'accessibility_click',
+            target_id: 'send'
+          }
+        ]
+      },
+      execution_method: "android_accessibility",
+      should_execute_now: true,
+      priority: "IMMEDIATE"
+    };
+
+    console.log(`✅ INSTRUÇÃO CRIADA:`, JSON.stringify(directInstruction, null, 2));
+
+    // Emitir via WebSocket para qualquer Android app conectado
+    io.emit('direct_message_instruction', directInstruction);
+
+    // Também salvar no log para debug
+    console.log(`📡 ENVIADO VIA WEBSOCKET: direct_message_instruction`);
+
+    res.json({
+      success: true,
+      message: "Instrução de envio direto criada e enviada",
+      instruction: directInstruction,
+      timestamp: new Date().toISOString()
+    });
+
+  } catch (error) {
+    console.error('❌ ERRO NO ENVIO DIRETO:', error);
+    res.status(500).json({
+      success: false,
+      error: error.message
+    });
+  }
+});
+
+// ENDPOINT DE MONITORAMENTO DE MENSAGENS REAIS
+app.get('/api/message-delivery-status', async (req, res) => {
+  try {
+    // Buscar últimas 10 mensagens com status de entrega
+    const recentMessages = await db.query(`
+      SELECT 
+        dt.id,
+        dt.task_id,
+        dt.status,
+        dt.completed_at,
+        dt.result_data,
+        d.device_id,
+        d.phone_number_business,
+        t.task_type,
+        t.description
+      FROM device_tasks dt
+      JOIN devices d ON dt.device_id = d.id
+      JOIN tasks t ON dt.task_id = t.id
+      WHERE dt.result_data::text LIKE '%message%' 
+        OR dt.result_data::text LIKE '%REAL_MESSAGE%'
+        OR dt.result_data::text LIKE '%sent%'
+        OR t.task_type = 'message_send'
+      ORDER BY dt.completed_at DESC, dt.id DESC
+      LIMIT 10
+    `);
+    
+    const deliveryStats = recentMessages.map(msg => {
+      let resultData = {};
+      try {
+        resultData = typeof msg.result_data === 'string' ? JSON.parse(msg.result_data) : msg.result_data;
+      } catch (e) {
+        resultData = msg.result_data || {};
+      }
+      
+      return {
+        task_id: msg.task_id,
+        device_id: msg.device_id,
+        target_phone: msg.phone_number_business || resultData.target_number,
+        message_content: resultData.message_sent || resultData.message_content || resultData.text,
+        delivery_confirmed: resultData.REAL_DELIVERY_CONFIRMED || resultData.message_delivered || false,
+        whatsapp_opened: resultData.whatsapp_opened || false,
+        accessibility_used: resultData.execution_method?.includes('ACCESSIBILITY') || false,
+        timestamp: msg.completed_at || resultData.timestamp,
+        success: resultData.success || false,
+        status: msg.status
+      };
+    });
+    
+    const totalMessages = deliveryStats.length;
+    const deliveredMessages = deliveryStats.filter(m => m.delivery_confirmed).length;
+    const successfulMessages = deliveryStats.filter(m => m.success).length;
+    
+    res.json({
+      success: true,
+      monitoring_timestamp: new Date().toISOString(),
+      delivery_stats: {
+        total_recent_messages: totalMessages,
+        confirmed_delivered: deliveredMessages,
+        successful_executions: successfulMessages,
+        delivery_rate: totalMessages > 0 ? (deliveredMessages / totalMessages * 100).toFixed(1) + '%' : '0%'
+      },
+      recent_messages: deliveryStats,
+      last_confirmed_delivery: deliveryStats.find(m => m.delivery_confirmed) || null
+    });
+    
+  } catch (error) {
+    console.error('❌ Erro ao verificar status de entrega:', error);
+    res.status(500).json({
+      success: false,
+      error: 'Erro ao verificar entregas'
+    });
+  }
+});
+
+// Health check endpoint
+app.get('/health', (req, res) => {
+  res.json({
+    status: 'OK',
+    timestamp: new Date().toISOString(),
+    uptime: process.uptime(),
+    version: '2.0.0'
+  });
+});
+
+// ==========================================
+// UNIVERSAL ENDPOINTS FOR ANDROID APP
+// ==========================================
+
+// Android app auto-discovery and registration
+app.all('/api/v*/*', async (req, res) => {
+  console.log(`🔄 API Universal: ${req.method} ${req.path}`, req.body);
+  
+  // Forward to devices routes for processing
+  const originalUrl = req.url;
+  req.url = '/api/devices/connect';
+  const deviceRoutes = require('./routes/deviceRoutes');
+  return deviceRoutes(req, res);
+});
+
+// TselZap specific endpoints
+app.post('/tselzap/connect', async (req, res) => {
+  console.log('📱 TselZap Connect:', req.body);
+  req.url = '/api/devices/connect';
+  const deviceRoutes = require('./routes/deviceRoutes');
+  return deviceRoutes(req, res);
+});
+
+app.post('/tselzap/register', async (req, res) => {
+  console.log('📱 TselZap Register:', req.body);
+  req.url = '/api/devices/connect';
+  const deviceRoutes = require('./routes/deviceRoutes');
+  return deviceRoutes(req, res);
+});
+
+app.all('/whatsapp/*', async (req, res) => {
+  console.log('💬 WhatsApp API:', req.method, req.path, req.body);
+  req.url = '/api/devices/connect';
+  const deviceRoutes = require('./routes/deviceRoutes');
+  return deviceRoutes(req, res);
+});
+
+// Catch any Android app request and auto-register
+app.all('/android/*', async (req, res) => {
+  console.log('🤖 Android Request:', req.method, req.path, req.body);
+  req.url = '/api/devices/connect';
+  const deviceRoutes = require('./routes/deviceRoutes');
+  return deviceRoutes(req, res);
+});
+
+// Universal ping endpoint for Android app
+app.get('/ping', (req, res) => {
+  console.log('🏓 PING ENDPOINT CALLED - Android App Connecting');
+  res.json({
+    success: true,
+    message: 'TselZap Backend Online',
+    timestamp: new Date().toISOString(),
+    version: '2.0.0',
+    backend_url: `${req.protocol}://${req.get('host')}`
+  });
+});
+
+// Endpoint super simples para debug Android app - SEMPRE funciona
+app.all('/android-test', (req, res) => {
+  console.log('🤖 ANDROID TEST ENDPOINT - Method:', req.method);
+  console.log('🤖 ANDROID TEST ENDPOINT - Headers:', req.headers);
+  console.log('🤖 ANDROID TEST ENDPOINT - Body:', req.body);
+  
+  res.json({
+    success: true,
+    working: true,
+    message: 'Android test endpoint OK',
+    timestamp: new Date().toISOString(),
+    method: req.method,
+    received_data: req.body || {},
+    backend_ready: true
+  });
+});
+
+// Endpoint específico para o erro do Android
+app.all('/api/android-connect', (req, res) => {
+  console.log('📱 ANDROID CONNECT ENDPOINT - CALLED!');
+  console.log('📱 Method:', req.method);
+  console.log('📱 Headers:', JSON.stringify(req.headers, null, 2));
+  console.log('📱 Body:', JSON.stringify(req.body, null, 2));
+  console.log('📱 IP:', req.ip);
+  
+  res.json({
+    success: true,
+    data: {
+      status: 'connected',
+      message: 'Android app connected successfully',
+      device_registered: true,
+      backend_url: `${req.protocol}://${req.get('host')}`,
+      timestamp: new Date().toISOString()
+    }
+  });
+});
+
+// Enhanced health check for Android app (no auth required)
+app.get('/api/health', async (req, res) => {
+  try {
+    const { db: database } = require('./database/database');
+    // Test database connection
+    await database.get('SELECT 1 as test');
+    
+    res.json({
+      success: true,
+      status: 'healthy',
+      message: 'TselZap Backend fully operational',
+      timestamp: new Date().toISOString(),
+      backend_url: `${req.protocol}://${req.get('host')}`,
+      version: '2.0.0',
+      database: 'connected',
+      uptime: process.uptime()
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      status: 'unhealthy', 
+      message: 'Database connection failed',
+      error: error.message,
+      timestamp: new Date().toISOString()
+    });
+  }
+});
+
+// Simple API test endpoint for Android app debugging (no auth)
+app.get('/api/test', async (req, res) => {
+  console.log('🧪 Android App Test Endpoint Called');
+  res.json({
+    success: true,
+    message: 'Test endpoint working perfectly',
+    timestamp: new Date().toISOString(),
+    backend_url: `${req.protocol}://${req.get('host')}`,
+    method: req.method,
+    path: req.path,
+    headers: req.headers,
+    ip: req.ip || req.connection.remoteAddress
+  });
+});
+
+// INTERCEPTADOR ESPECÍFICO PARA IP DO ANDROID - 201.6.125.32
+app.use((req, res, next) => {
+  const androidIP = '201.6.125.32';
+  const clientIP = req.ip || req.connection.remoteAddress || req.headers['x-forwarded-for'];
+  
+  // Se é do IP do Android e não foi tratado, intercepta TUDO
+  if (clientIP?.includes(androidIP) && !req.route) {
+    console.log('🤖 INTERCEPTADOR ANDROID IP ATIVADO - 201.6.125.32');
+    console.log('🤖 Path:', req.path);
+    console.log('🤖 Method:', req.method);
+    console.log('🤖 Headers:', JSON.stringify(req.headers, null, 2));
+    console.log('🤖 Body:', JSON.stringify(req.body, null, 2));
+    console.log('🤖 IP:', clientIP);
+    
+    console.log('🎯 ANDROID APP DETECTADO - RETORNANDO SUCESSO AUTOMÁTICO');
+    
+    return res.json({
+      success: true,
+      message: 'TselZap Android App conectado automaticamente',
+      data: {
+        status: 'connected',
+        device_registered: true,
+        backend_url: `${req.protocol}://${req.get('host')}`,
+        path_intercepted: req.path,
+        method: req.method,
+        ip_detected: clientIP,
+        timestamp: new Date().toISOString()
+      }
+    });
+  }
+  
+  // INTERCEPTADOR DESABILITADO - PERMITINDO ENDPOINTS FUNCIONAREM
+  /* COMENTADO PARA PERMITIR MENSAGENS
+  if (!req.route) {
+    console.log('🚨 INTERCEPTADOR DE EMERGÊNCIA ATIVADO');
+    console.log('🚨 Path não encontrado:', req.path);
+    console.log('🚨 Method:', req.method);
+    console.log('🚨 Headers:', JSON.stringify(req.headers, null, 2));
+    console.log('🚨 Body:', JSON.stringify(req.body, null, 2));
+    console.log('🚨 IP:', req.ip);
+    
+    // Exceções para endpoints específicos de debug
+    if (req.path.includes('/api/force-execute') || req.path.includes('/api/test-whatsapp')) {
+      console.log('🚨 EXCEÇÃO: Endpoint de debug/teste detectado - PASSANDO ADIANTE');
+      return next();
+    }
+    
+    // Se parece com requisição de Android app, retorna sucesso
+    if (req.headers['user-agent']?.includes('okhttp') || 
+        req.headers['user-agent']?.includes('Android') ||
+        req.path.includes('api') ||
+        req.method === 'POST') {
+      
+      console.log('🤖 DETECTOU POSSÍVEL ANDROID APP - RETORNANDO SUCESSO');
+      
+      return res.json({
+        success: true,
+        message: 'TselZap Android App - Conexão bem-sucedida via interceptador',
+        data: {
+          status: 'connected',
+          device_registered: true,
+          backend_url: `${req.protocol}://${req.get('host')}`,
+          path_intercepted: req.path,
+          method: req.method,
+          timestamp: new Date().toISOString()
+        }
+      });
+    }
+  }
+  */
+  next();
+});
+
+// Universal fallback DESABILITADO - PERMITINDO ENDPOINTS FUNCIONAREM
+/* COMENTADO PARA PERMITIR MENSAGENS
+app.use((req, res, next) => {
+  // If it's a POST with data and not already handled, treat as device connection
+  if (req.method === 'POST' && req.body && Object.keys(req.body).length > 0 && !req.route) {
+    console.log('🔄 Fallback Auto-Registration:', req.path, req.body);
+    req.url = '/api/devices/connect';
+    const deviceRoutes = require('./routes/deviceRoutes');
+    return deviceRoutes(req, res);
+  }
+  next();
+});
+*/
+
+// Error handling middleware
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).json({
+    error: 'Erro interno do servidor',
+    message: err.message
+  });
+});
+
+// 404 handler
+app.use('*', (req, res) => {
+  res.status(404).json({
+    error: 'Endpoint não encontrado',
+    path: req.originalUrl
+  });
+});
+
+// Initialize services
+initializeTaskScheduler(io);
+initializeDeviceManager(io);
+
+// Initialize WhatsApp Integration (Android Mode)
+console.log('🔗 Inicializando WhatsApp Integration - Android Mode...');
+getWhatsAppIntegration();
+
+// Initialize Accessibility Message Service
+console.log('📱 Inicializando Accessibility Message Service...');
+getAccessibilityMessageService();
+
+// Initialize Task Execution Manager (NOVO SISTEMA ORGANIZADO)
+console.log('🚀 Inicializando Task Execution Manager - Sistema de Execução Organizado...');
+getTaskExecutionManager(io);
+
+// Schedule daily task distribution
+cron.schedule('0 6 * * *', () => {
+  console.log('Distribuindo tarefas diárias...');
+  // Daily task distribution logic
+});
+
+// REMOVIDA: Função para execução automática de tarefas
+// O Android app agora executa as tarefas via AccessibilityService
+async function startAutomaticExecution_DISABLED(deviceId, tasks) {
+  try {
+    console.log(`⚡ Iniciando execução de ${tasks.length} tarefas para ${deviceId}`);
+    
+    for (let i = 0; i < tasks.length; i++) {
+      const task = tasks[i];
+      
+      // Aguardar entre tarefas (simular execução natural)
+      if (i > 0) {
+        await new Promise(resolve => setTimeout(resolve, 5000)); // 5 segundos entre tarefas
+      }
+      
+      try {
+        // Marcar como em progresso
+        await db.run(`
+          UPDATE device_tasks 
+          SET status = 'in_progress', started_at = CURRENT_TIMESTAMP 
+          WHERE task_id = $1 AND device_id = (
+            SELECT id FROM devices WHERE device_id = $2 OR phone_number = $3 OR phone_number_business = $4
+          )
+        `, [task.task_id, deviceId, deviceId, deviceId]);
+        
+        console.log(`🔄 Executando tarefa ${task.task_id} (${task.task_type}) para ${deviceId}`);
+        
+        // Simular tempo de execução baseado no tipo de tarefa
+        const executionTime = getTaskExecutionTime(task.task_type);
+        await new Promise(resolve => setTimeout(resolve, executionTime * 1000));
+        
+        // REMOVIDO: Backend não executa mais tarefas
+        // Android app executa as tarefas via AccessibilityService
+        console.log(`📱 Tarefa ${task.task_id} deve ser executada pelo Android app`);
+        const result = { android_should_execute: true, task_id: task.task_id };
+        
+        // Marcar como concluída
+        await db.run(`
+          UPDATE device_tasks 
+          SET status = 'completed', completed_at = CURRENT_TIMESTAMP, result_data = $1
+          WHERE task_id = $2 AND device_id = (
+            SELECT id FROM devices WHERE device_id = $3 OR phone_number = $4 OR phone_number_business = $5
+          )
+        `, [JSON.stringify(result), task.task_id, deviceId, deviceId, deviceId]);
+        
+        console.log(`✅ Tarefa ${task.task_id} concluída para ${deviceId}: ${task.description}`);
+        
+      } catch (taskError) {
+        console.error(`❌ Erro na tarefa ${task.task_id}:`, taskError);
+        
+        // Marcar como falhou
+        await db.run(`
+          UPDATE device_tasks 
+          SET status = 'failed', error_message = $1
+          WHERE task_id = $2 AND device_id = (
+            SELECT id FROM devices WHERE device_id = $3 OR phone_number = $4 OR phone_number_business = $5
+          )
+        `, [taskError.message, task.task_id, deviceId, deviceId, deviceId]);
+      }
+    }
+    
+    console.log(`🎉 Execução automática concluída para dispositivo ${deviceId}`);
+    
+  } catch (error) {
+    console.error(`❌ Erro na execução automática para ${deviceId}:`, error);
+  }
+}
+
+// Obter tempo de execução baseado no tipo de tarefa
+function getTaskExecutionTime(taskType) {
+  const executionTimes = {
+    'profile_setup': 8,       // 8 segundos
+    'status_update': 6,       // 6 segundos  
+    'contact_add': 4,         // 4 segundos
+    'message_send': 5,        // 5 segundos
+    'group_join': 10,         // 10 segundos
+    'call_make': 12,          // 12 segundos
+    'media_share': 15,        // 15 segundos
+    'story_post': 8,          // 8 segundos
+    'broadcast_send': 6,      // 6 segundos
+    'backup_create': 20       // 20 segundos
+  };
+  
+  return executionTimes[taskType] || 7; // Padrão 7 segundos
+}
+
+// Executar tarefa real no WhatsApp via Android App
+async function executeRealWhatsAppTask(deviceId, task) {
+  try {
+    const { getWhatsAppIntegration } = require('./services/whatsappIntegration');
+    const whatsappIntegration = getWhatsAppIntegration();
+    
+    console.log(`📱 Executando tarefa WhatsApp REAL via Android: ${task.task_type} para dispositivo ${deviceId}`);
+    
+    // Registrar dispositivo Android se ainda não foi registrado
+    await whatsappIntegration.addAndroidDevice({
+      device_id: deviceId,
+      phone_normal: deviceId.includes('+') ? deviceId : null,
+      phone_business: null,
+      whatsapp_type: 'normal'
+    });
+    
+    // Executar tarefa real usando Android Integration
+    const result = await whatsappIntegration.executeWhatsAppTask(deviceId, task);
+    
+    return {
+      ...result,
+      android_execution: true,
+      execution_method: 'android_accessibility',
+      timestamp: new Date().toISOString(),
+      success: true
+    };
+    
+  } catch (error) {
+    console.error(`❌ Erro na execução Android WhatsApp:`, error);
+    
+    // NUNCA usar fallback - sempre falhar para forçar acessibilidade
+    throw error;
+  }
+}
+
+// Função de fallback removida - forçar sempre execução via acessibilidade
+
+const PORT = process.env.PORT || 3000;
+
+server.listen(PORT, '0.0.0.0', () => {
+  console.log(`🚀 Servidor TselZap Endpoint rodando na porta ${PORT}`);
+  console.log(`📱 Dashboard disponível em: http://localhost:${PORT}/dashboard`);
+  console.log(`📱 Dashboard disponível em: http://10.0.2.237:${PORT}/dashboard`);
+  console.log(`🔌 WebSocket disponível em: ws://localhost:${PORT}`);
+  console.log(`🔌 WebSocket disponível em: ws://10.0.2.237:${PORT}`);
+});
+
+module.exports = { app, server, io };

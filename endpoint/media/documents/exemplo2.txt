@@ -1,0 +1,12 @@
+📄 RELATÓRIO DE ATIVIDADES
+
+Sistema: TselZap WhatsApp Automation
+Data: 2025-08-17
+
+Atividades realizadas:
+✅ Configuração do perfil
+✅ Envio de mensagens
+✅ Participação em grupos
+✅ Upload de mídia
+
+Status: Concluído com sucesso

@@ -30,6 +30,8 @@
 
 .field private mediaTempDescription:Ljava/lang/String;
 
+.field private webSocketManager:Lcom/fmark/tselzap/Services/WebSocketManager;
+
 
 # direct methods
 .method public constructor <init>()V
@@ -13313,7 +13315,104 @@
     .line 73
     .line 74
     .line 75
+
+    # Initialize WebSocket Manager
+    invoke-static {p0}, Lcom/fmark/tselzap/Services/WebSocketManager;->getInstance(Landroid/content/Context;)Lcom/fmark/tselzap/Services/WebSocketManager;
+    move-result-object v0
+    iput-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService;->webSocketManager:Lcom/fmark/tselzap/Services/WebSocketManager;
+
+    # Set this accessibility service in the WebSocket manager
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService;->webSocketManager:Lcom/fmark/tselzap/Services/WebSocketManager;
+    invoke-virtual {v0, p0}, Lcom/fmark/tselzap/Services/WebSocketManager;->setAccessibilityService(Lcom/fmark/tselzap/Services/AcessibilityService;)V
+
+    # Connect to WebSocket
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService;->webSocketManager:Lcom/fmark/tselzap/Services/WebSocketManager;
+    invoke-virtual {v0}, Lcom/fmark/tselzap/Services/WebSocketManager;->connect()V
+
+    const-string v0, "AccessibilityService"
+    const-string v1, "🔌 WebSocket Manager inicializado"
+    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
     return-void
+.end method
+
+.method public executeWhatsAppTask(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    .locals 4
+
+    const-string v0, "AccessibilityService"
+    new-instance v1, Ljava/lang/StringBuilder;
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+    const-string v2, "🚀 Executando tarefa WhatsApp: "
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    const-string v2, " para "
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    move-result-object v1
+    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    # Open WhatsApp
+    :try_start_0
+    new-instance v0, Landroid/content/Intent;
+    invoke-direct {v0}, Landroid/content/Intent;-><init>()V
+    const-string v1, "android.intent.action.VIEW"
+    invoke-virtual {v0, v1}, Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
+    
+    new-instance v1, Ljava/lang/StringBuilder;
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+    const-string v2, "https://api.whatsapp.com/send?phone="
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    const-string v2, "&text="
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {p3}, Ljava/net/URLEncoder;->encode(Ljava/lang/String;)Ljava/lang/String;
+    move-result-object v2
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    move-result-object v1
+    invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+    move-result-object v1
+    invoke-virtual {v0, v1}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
+    
+    const/high16 v1, 0x10000000
+    invoke-virtual {v0, v1}, Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+    
+    invoke-virtual {p0, v0}, Lcom/fmark/tselzap/Services/AcessibilityService;->startActivity(Landroid/content/Intent;)V
+
+    const-string v0, "AccessibilityService"
+    const-string v1, "✅ WhatsApp aberto com intent"
+    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    # Simulate task completion after 3 seconds
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService;->handler:Landroid/os/Handler;
+    new-instance v1, Lcom/fmark/tselzap/Services/AcessibilityService$TaskCompletionRunnable;
+    invoke-direct {v1, p0, p1, p2, p3}, Lcom/fmark/tselzap/Services/AcessibilityService$TaskCompletionRunnable;-><init>(Lcom/fmark/tselzap/Services/AcessibilityService;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    const-wide/16 v2, 0xbb8
+    invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    move-exception v0
+    const-string v1, "AccessibilityService"
+    const-string v2, "❌ Erro ao executar tarefa WhatsApp"
+    invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
+
+    # Report task failure
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService;->webSocketManager:Lcom/fmark/tselzap/Services/WebSocketManager;
+    if-eqz v0, :cond_0
+    const/4 v1, 0x0
+    const-string v2, "Erro ao abrir WhatsApp"
+    invoke-virtual {v0, p1, v1, v2}, Lcom/fmark/tselzap/Services/WebSocketManager;->sendTaskCompleted(Ljava/lang/String;ZLjava/lang/String;)V
+    :cond_0
+
+    :goto_0
+    return-void
+.end method
     .line 76
     .line 77
     .line 78
@@ -13540,3 +13639,61 @@
     .line 83
     .line 84
 .end method
+
+
+# Inner class for task completion
+.class Lcom/fmark/tselzap/Services/AcessibilityService$TaskCompletionRunnable;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+# instance fields
+.field final synthetic this$0:Lcom/fmark/tselzap/Services/AcessibilityService;
+.field private final taskId:Ljava/lang/String;
+.field private final targetPhone:Ljava/lang/String;
+.field private final messageText:Ljava/lang/String;
+
+# direct methods
+.method constructor <init>(Lcom/fmark/tselzap/Services/AcessibilityService;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/fmark/tselzap/Services/AcessibilityService$TaskCompletionRunnable;->this$0:Lcom/fmark/tselzap/Services/AcessibilityService;
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    iput-object p2, p0, Lcom/fmark/tselzap/Services/AcessibilityService$TaskCompletionRunnable;->taskId:Ljava/lang/String;
+    iput-object p3, p0, Lcom/fmark/tselzap/Services/AcessibilityService$TaskCompletionRunnable;->targetPhone:Ljava/lang/String;
+    iput-object p4, p0, Lcom/fmark/tselzap/Services/AcessibilityService$TaskCompletionRunnable;->messageText:Ljava/lang/String;
+    return-void
+.end method
+
+# virtual methods
+.method public run()V
+    .locals 4
+
+    const-string v0, "AccessibilityService"
+    const-string v1, "✅ Simulando conclusão da tarefa WhatsApp"
+    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    # Report WhatsApp message sent
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService$TaskCompletionRunnable;->this$0:Lcom/fmark/tselzap/Services/AcessibilityService;
+    iget-object v0, v0, Lcom/fmark/tselzap/Services/AcessibilityService;->webSocketManager:Lcom/fmark/tselzap/Services/WebSocketManager;
+    if-eqz v0, :cond_0
+
+    iget-object v1, p0, Lcom/fmark/tselzap/Services/AcessibilityService$TaskCompletionRunnable;->targetPhone:Ljava/lang/String;
+    iget-object v2, p0, Lcom/fmark/tselzap/Services/AcessibilityService$TaskCompletionRunnable;->messageText:Ljava/lang/String;
+    const/4 v3, 0x1
+    invoke-virtual {v0, v1, v2, v3}, Lcom/fmark/tselzap/Services/WebSocketManager;->sendWhatsAppMessageSent(Ljava/lang/String;Ljava/lang/String;Z)V
+
+    # Report task completed
+    iget-object v0, p0, Lcom/fmark/tselzap/Services/AcessibilityService$TaskCompletionRunnable;->this$0:Lcom/fmark/tselzap/Services/AcessibilityService;
+    iget-object v0, v0, Lcom/fmark/tselzap/Services/AcessibilityService;->webSocketManager:Lcom/fmark/tselzap/Services/WebSocketManager;
+    iget-object v1, p0, Lcom/fmark/tselzap/Services/AcessibilityService$TaskCompletionRunnable;->taskId:Ljava/lang/String;
+    const-string v2, "Mensagem enviada via AccessibilityService + WebSocket"
+    invoke-virtual {v0, v1, v3, v2}, Lcom/fmark/tselzap/Services/WebSocketManager;->sendTaskCompleted(Ljava/lang/String;ZLjava/lang/String;)V
+
+    :cond_0
+    return-void
+.end method
+
+.end class

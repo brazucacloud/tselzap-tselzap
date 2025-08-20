@@ -69,7 +69,7 @@ class TaskScheduler {
       }
 
       // Get all active devices
-      const devices = await database.query(`
+      const devices = await database.db.query(`
         SELECT id, device_id, current_day 
         FROM devices 
         WHERE status != 'offline' AND current_day < 21
@@ -83,10 +83,10 @@ class TaskScheduler {
           await this.assignTasksToDevice(device.id, dayNumber);
           
           // Update device current day
-          await database.run(`
+          await database.db.run(`
             UPDATE devices 
-            SET current_day = ?, updated_at = CURRENT_TIMESTAMP
-            WHERE id = ?
+            SET current_day = $1, updated_at = CURRENT_TIMESTAMP
+            WHERE id = $2
           `, [dayNumber, device.id]);
 
           // Notify device via WebSocket
@@ -106,9 +106,9 @@ class TaskScheduler {
   async assignTasksToDevice(deviceId, dayNumber) {
     try {
       // Get tasks for the specific day
-      const tasks = await database.query(`
+      const tasks = await database.db.query(`
         SELECT * FROM tasks 
-        WHERE day_number = ? AND is_active = 1
+        WHERE day_number = $1 AND is_active = true
         ORDER BY priority
       `, [dayNumber]);
 
@@ -119,17 +119,20 @@ class TaskScheduler {
 
       // Assign each task to the device
       for (const task of tasks) {
-        await database.run(`
-          INSERT OR IGNORE INTO device_tasks (device_id, task_id, status)
-          VALUES (?, ?, 'pending')
+        await database.db.run(`
+          INSERT INTO device_tasks (device_id, task_id, status)
+          VALUES ($1, $2, 'pending')
+          ON CONFLICT (device_id, task_id) DO NOTHING
         `, [deviceId, task.id]);
       }
 
       // Create or update daily progress
-      await database.run(`
-        INSERT OR REPLACE INTO daily_progress 
+      await database.db.run(`
+        INSERT INTO daily_progress 
         (device_id, day_number, total_tasks, status, start_time)
-        VALUES (?, ?, ?, 'in_progress', CURRENT_TIMESTAMP)
+        VALUES ($1, $2, $3, 'in_progress', CURRENT_TIMESTAMP)
+        ON CONFLICT (device_id, day_number) 
+        DO UPDATE SET total_tasks = EXCLUDED.total_tasks, status = EXCLUDED.status, start_time = EXCLUDED.start_time
       `, [deviceId, dayNumber, tasks.length]);
 
       console.log(`📋 ${tasks.length} tarefas atribuídas ao dispositivo ${deviceId} para o dia ${dayNumber}`);
@@ -141,10 +144,10 @@ class TaskScheduler {
   async cleanupOfflineDevices() {
     try {
       // Mark devices as offline if they haven't been seen in the last 10 minutes
-      const result = await database.run(`
+      const result = await database.db.run(`
         UPDATE devices 
         SET status = 'offline', updated_at = CURRENT_TIMESTAMP
-        WHERE last_seen < datetime('now', '-10 minutes') AND status != 'offline'
+        WHERE last_seen < NOW() - INTERVAL '10 minutes' AND status != 'offline'
       `);
 
       if (result.changes > 0) {
@@ -158,32 +161,32 @@ class TaskScheduler {
   async monitorTaskTimeouts() {
     try {
       // Find tasks that have been in progress for more than 30 minutes
-      const timeoutTasks = await database.query(`
+      const timeoutTasks = await database.db.query(`
         SELECT 
           dt.id,
           dt.device_id,
           dt.task_id,
           d.device_id as device_identifier,
-          t.task_description
+          t.description as task_description
         FROM device_tasks dt
         JOIN devices d ON dt.device_id = d.id
         JOIN tasks t ON dt.task_id = t.id
         WHERE dt.status = 'in_progress' 
-        AND dt.started_at < datetime('now', '-30 minutes')
+        AND dt.started_at < NOW() - INTERVAL '30 minutes'
       `);
 
       for (const task of timeoutTasks) {
         // Mark task as failed due to timeout
-        await database.run(`
+        await database.db.run(`
           UPDATE device_tasks 
           SET status = 'failed', error_message = 'Timeout: tarefa excedeu o tempo limite'
-          WHERE id = ?
+          WHERE id = $1
         `, [task.id]);
 
         // Log the timeout
-        await database.run(`
+        await database.db.run(`
           INSERT INTO task_logs (device_id, task_id, action, details)
-          VALUES (?, ?, 'timeout', ?)
+          VALUES ($1, $2, 'timeout', $3)
         `, [task.device_id, task.task_id, JSON.stringify({ reason: 'Task timeout after 30 minutes' })]);
 
         // Notify device
@@ -204,7 +207,7 @@ class TaskScheduler {
   async updateProgress() {
     try {
       // Update daily progress for all devices
-      const progressUpdates = await database.query(`
+      const progressUpdates = await database.db.query(`
         SELECT 
           dp.device_id,
           dp.day_number,
@@ -230,19 +233,19 @@ class TaskScheduler {
           status = 'failed';
         }
 
-        await database.run(`
+        await database.db.run(`
           UPDATE daily_progress 
-          SET tasks_completed = ?, status = ?, end_time = CASE WHEN ? = 'completed' THEN CURRENT_TIMESTAMP ELSE end_time END
-          WHERE device_id = ? AND day_number = ?
+          SET tasks_completed = $1, status = $2, end_time = CASE WHEN $3 = 'completed' THEN CURRENT_TIMESTAMP ELSE end_time END
+          WHERE device_id = $4 AND day_number = $5
         `, [progress.completed_tasks, status, status, progress.device_id, progress.day_number]);
 
         // Update device total tasks completed
-        await database.run(`
+        await database.db.run(`
           UPDATE devices 
           SET total_tasks_completed = (
-            SELECT SUM(tasks_completed) FROM daily_progress WHERE device_id = ?
+            SELECT SUM(tasks_completed) FROM daily_progress WHERE device_id = $1
           )
-          WHERE id = ?
+          WHERE id = $2
         `, [progress.device_id, progress.device_id]);
       }
 
@@ -266,8 +269,8 @@ class TaskScheduler {
   // Manual task assignment for specific device and day
   async assignTasksManually(deviceId, dayNumber) {
     try {
-      const device = await database.get(`
-        SELECT id FROM devices WHERE device_id = ?
+      const device = await database.db.get(`
+        SELECT id FROM devices WHERE device_id = $1
       `, [deviceId]);
 
       if (!device) {

@@ -1,39 +1,38 @@
 const express = require('express');
 const router = express.Router();
-const database = require('../database/database');
+const { db } = require('../database/database');
 const { authenticateToken } = require('../middleware/auth');
 
 // Get dashboard overview
 router.get('/overview', authenticateToken, async (req, res) => {
   try {
     // Device statistics
-    const deviceStats = await database.query(`
+    const deviceStats = await db.query(`
       SELECT 
         COUNT(*) as total_devices,
         COUNT(CASE WHEN status = 'online' THEN 1 END) as online_devices,
         COUNT(CASE WHEN status = 'offline' THEN 1 END) as offline_devices,
         COUNT(CASE WHEN status = 'busy' THEN 1 END) as busy_devices,
-        AVG(current_day) as avg_current_day,
-        SUM(total_tasks_completed) as total_tasks_completed
+        AVG(current_day) as avg_current_day
       FROM devices
     `);
     
     // Task statistics
-    const taskStats = await database.query(`
+    const taskStats = await db.query(`
       SELECT 
         COUNT(*) as total_tasks,
-        COUNT(CASE WHEN is_active = 1 THEN 1 END) as active_tasks,
+        COUNT(CASE WHEN is_active = TRUE THEN 1 END) as active_tasks,
         COUNT(DISTINCT day_number) as total_days
       FROM tasks
     `);
     
     // Recent activity
-    const recentActivity = await database.query(`
+    const recentActivity = await db.query(`
       SELECT 
         tl.*,
         d.device_name,
         d.device_id,
-        t.task_description
+        t.description
       FROM task_logs tl
       JOIN devices d ON tl.device_id = d.id
       JOIN tasks t ON tl.task_id = t.id
@@ -42,11 +41,11 @@ router.get('/overview', authenticateToken, async (req, res) => {
     `);
     
     // Daily progress overview
-    const dailyProgress = await database.query(`
+    const dailyProgress = await db.query(`
       SELECT 
         dp.day_number,
         COUNT(dp.id) as devices_count,
-        AVG(dp.tasks_completed * 100.0 / dp.total_tasks) as avg_completion_percentage,
+        AVG(CASE WHEN dp.total_tasks > 0 THEN dp.completed_tasks * 100.0 / dp.total_tasks ELSE 0 END) as avg_completion_percentage,
         COUNT(CASE WHEN dp.status = 'completed' THEN 1 END) as completed_devices
       FROM daily_progress dp
       GROUP BY dp.day_number
@@ -55,15 +54,15 @@ router.get('/overview', authenticateToken, async (req, res) => {
     `);
     
     // Task completion by type
-    const taskCompletionByType = await database.query(`
+    const taskCompletionByType = await db.query(`
       SELECT 
         t.task_type,
         COUNT(dt.id) as total_assignments,
         COUNT(CASE WHEN dt.status = 'completed' THEN 1 END) as completed,
-        ROUND(COUNT(CASE WHEN dt.status = 'completed' THEN 1 END) * 100.0 / COUNT(dt.id), 2) as completion_rate
+        ROUND(CASE WHEN COUNT(dt.id) > 0 THEN COUNT(CASE WHEN dt.status = 'completed' THEN 1 END) * 100.0 / COUNT(dt.id) ELSE 0 END, 2) as completion_rate
       FROM tasks t
       LEFT JOIN device_tasks dt ON t.id = dt.task_id
-      WHERE t.is_active = 1
+      WHERE t.is_active = TRUE
       GROUP BY t.task_type
       ORDER BY completion_rate DESC
     `);
@@ -92,23 +91,22 @@ router.get('/devices/performance', authenticateToken, async (req, res) => {
   try {
     const { limit = 10 } = req.query;
     
-    const devicePerformance = await database.query(`
+    const devicePerformance = await db.query(`
       SELECT 
         d.device_id,
         d.device_name,
         d.phone_number,
         d.current_day,
-        d.total_tasks_completed,
         d.status,
         d.last_seen,
         COUNT(dt.id) as total_assigned_tasks,
         COUNT(CASE WHEN dt.status = 'completed' THEN 1 END) as completed_tasks,
-        ROUND(COUNT(CASE WHEN dt.status = 'completed' THEN 1 END) * 100.0 / COUNT(dt.id), 2) as completion_rate
+        ROUND(CASE WHEN COUNT(dt.id) > 0 THEN COUNT(CASE WHEN dt.status = 'completed' THEN 1 END) * 100.0 / COUNT(dt.id) ELSE 0 END, 2) as completion_rate
       FROM devices d
       LEFT JOIN device_tasks dt ON d.id = dt.device_id
       GROUP BY d.id
-      ORDER BY completion_rate DESC, d.total_tasks_completed DESC
-      LIMIT ?
+      ORDER BY completion_rate DESC, completed_tasks DESC
+      LIMIT $1
     `, [parseInt(limit)]);
     
     res.json({
@@ -130,14 +128,14 @@ router.get('/daily/:dayNumber', authenticateToken, async (req, res) => {
     const { dayNumber } = req.params;
     
     // Day overview
-    const dayOverview = await database.query(`
+    const dayOverview = await db.query(`
       SELECT 
         dp.day_number,
         COUNT(dp.id) as total_devices,
         COUNT(CASE WHEN dp.status = 'completed' THEN 1 END) as completed_devices,
         COUNT(CASE WHEN dp.status = 'in_progress' THEN 1 END) as in_progress_devices,
-        AVG(dp.tasks_completed * 100.0 / dp.total_tasks) as avg_completion_percentage,
-        SUM(dp.tasks_completed) as total_tasks_completed,
+        AVG(CASE WHEN dp.total_tasks > 0 THEN dp.completed_tasks * 100.0 / dp.total_tasks ELSE 0 END) as avg_completion_percentage,
+        SUM(dp.completed_tasks) as total_completed_tasks,
         SUM(dp.total_tasks) as total_tasks_assigned
       FROM daily_progress dp
       WHERE dp.day_number = ?
@@ -145,15 +143,15 @@ router.get('/daily/:dayNumber', authenticateToken, async (req, res) => {
     `, [dayNumber]);
     
     // Task breakdown for the day
-    const taskBreakdown = await database.query(`
+    const taskBreakdown = await db.query(`
       SELECT 
         t.task_type,
-        t.task_description,
+        t.description,
         COUNT(dt.id) as total_assignments,
         COUNT(CASE WHEN dt.status = 'completed' THEN 1 END) as completed,
         COUNT(CASE WHEN dt.status = 'in_progress' THEN 1 END) as in_progress,
         COUNT(CASE WHEN dt.status = 'failed' THEN 1 END) as failed,
-        ROUND(COUNT(CASE WHEN dt.status = 'completed' THEN 1 END) * 100.0 / COUNT(dt.id), 2) as completion_rate
+        ROUND(CASE WHEN COUNT(dt.id) > 0 THEN COUNT(CASE WHEN dt.status = 'completed' THEN 1 END) * 100.0 / COUNT(dt.id) ELSE 0 END, 2) as completion_rate
       FROM tasks t
       LEFT JOIN device_tasks dt ON t.id = dt.task_id
       WHERE t.day_number = ?
@@ -162,16 +160,16 @@ router.get('/daily/:dayNumber', authenticateToken, async (req, res) => {
     `, [dayNumber]);
     
     // Device list for the day
-    const deviceList = await database.query(`
+    const deviceList = await db.query(`
       SELECT 
         d.device_id,
         d.device_name,
         d.phone_number,
         d.status,
-        dp.tasks_completed,
+        dp.completed_tasks,
         dp.total_tasks,
         dp.status as day_status,
-        ROUND(dp.tasks_completed * 100.0 / dp.total_tasks, 2) as completion_percentage
+        ROUND(CASE WHEN dp.total_tasks > 0 THEN dp.completed_tasks * 100.0 / dp.total_tasks ELSE 0 END, 2) as completion_percentage
       FROM daily_progress dp
       JOIN devices d ON dp.device_id = d.id
       WHERE dp.day_number = ?
@@ -199,33 +197,33 @@ router.get('/daily/:dayNumber', authenticateToken, async (req, res) => {
 router.get('/realtime', authenticateToken, async (req, res) => {
   try {
     // Online devices in last 5 minutes
-    const onlineDevices = await database.query(`
+    const onlineDevices = await db.query(`
       SELECT COUNT(*) as count
       FROM devices 
-      WHERE last_seen > datetime('now', '-5 minutes')
+      WHERE last_seen > NOW() - INTERVAL '5 minutes'
     `);
     
     // Tasks completed in last hour
-    const recentCompletions = await database.query(`
+    const recentCompletions = await db.query(`
       SELECT COUNT(*) as count
       FROM device_tasks 
       WHERE status = 'completed' 
-      AND completed_at > datetime('now', '-1 hour')
+      AND completed_at > NOW() - INTERVAL '1 hour'
     `);
     
     // Active tasks
-    const activeTasks = await database.query(`
+    const activeTasks = await db.query(`
       SELECT COUNT(*) as count
       FROM device_tasks 
       WHERE status = 'in_progress'
     `);
     
     // Recent errors
-    const recentErrors = await database.query(`
+    const recentErrors = await db.query(`
       SELECT COUNT(*) as count
       FROM device_tasks 
       WHERE status = 'failed' 
-      AND created_at > datetime('now', '-1 hour')
+      AND created_at > NOW() - INTERVAL '1 hour'
     `);
     
     res.json({
@@ -251,7 +249,7 @@ router.get('/realtime', authenticateToken, async (req, res) => {
 router.get('/health', authenticateToken, async (req, res) => {
   try {
     // Database health
-    const dbHealth = await database.query('SELECT 1 as status');
+    const dbHealth = await db.query('SELECT 1 as status');
     
     // System uptime
     const uptime = process.uptime();
@@ -260,7 +258,7 @@ router.get('/health', authenticateToken, async (req, res) => {
     const memoryUsage = process.memoryUsage();
     
     // Active connections (simplified)
-    const activeConnections = await database.query(`
+    const activeConnections = await db.query(`
       SELECT COUNT(*) as count FROM devices WHERE status = 'online'
     `);
     
@@ -295,20 +293,20 @@ router.get('/analytics', authenticateToken, async (req, res) => {
     let timeFilter = '';
     switch (period) {
       case '1d':
-        timeFilter = "AND tl.timestamp > datetime('now', '-1 day')";
+        timeFilter = "AND tl.timestamp > NOW() - INTERVAL '1 day'";
         break;
       case '7d':
-        timeFilter = "AND tl.timestamp > datetime('now', '-7 days')";
+        timeFilter = "AND tl.timestamp > NOW() - INTERVAL '7 days'";
         break;
       case '30d':
-        timeFilter = "AND tl.timestamp > datetime('now', '-30 days')";
+        timeFilter = "AND tl.timestamp > NOW() - INTERVAL '30 days'";
         break;
       default:
-        timeFilter = "AND tl.timestamp > datetime('now', '-7 days')";
+        timeFilter = "AND tl.timestamp > NOW() - INTERVAL '7 days'";
     }
     
     // Task completion trend
-    const completionTrend = await database.query(`
+    const completionTrend = await db.query(`
       SELECT 
         DATE(tl.timestamp) as date,
         COUNT(CASE WHEN tl.action = 'completed' THEN 1 END) as completed_tasks,
@@ -320,18 +318,18 @@ router.get('/analytics', authenticateToken, async (req, res) => {
     `);
     
     // Device activity trend
-    const deviceActivityTrend = await database.query(`
+    const deviceActivityTrend = await db.query(`
       SELECT 
         DATE(d.last_seen) as date,
         COUNT(DISTINCT d.id) as active_devices
       FROM devices d
-      WHERE d.last_seen > datetime('now', '-${period === '1d' ? '1' : period === '30d' ? '30' : '7'} days')
+      WHERE d.last_seen > NOW() - INTERVAL '${period === '1d' ? '1' : period === '30d' ? '30' : '7'} days'
       GROUP BY DATE(d.last_seen)
       ORDER BY date
     `);
     
     // Task type performance
-    const taskTypePerformance = await database.query(`
+    const taskTypePerformance = await db.query(`
       SELECT 
         t.task_type,
         COUNT(dt.id) as total_assignments,
@@ -339,7 +337,7 @@ router.get('/analytics', authenticateToken, async (req, res) => {
         ROUND(COUNT(CASE WHEN dt.status = 'completed' THEN 1 END) * 100.0 / COUNT(dt.id), 2) as success_rate
       FROM tasks t
       LEFT JOIN device_tasks dt ON t.id = dt.task_id
-      WHERE dt.created_at > datetime('now', '-${period === '1d' ? '1' : period === '30d' ? '30' : '7'} days')
+      WHERE dt.created_at > NOW() - INTERVAL '${period === '1d' ? '1' : period === '30d' ? '30' : '7'} days'
       GROUP BY t.task_type
       ORDER BY success_rate DESC
     `);
@@ -360,6 +358,71 @@ router.get('/analytics', authenticateToken, async (req, res) => {
       error: 'Erro interno do servidor'
     });
   }
+});
+
+// GET /api/dashboard/execution-status - Status de execução em tempo real
+router.get('/execution-status', authenticateToken, async (req, res) => {
+    try {
+        const { getTaskExecutionManager } = require('../services/taskExecutionManager');
+        const taskManager = getTaskExecutionManager();
+        
+        const status = taskManager.getExecutionStatus();
+        
+        res.json({
+            success: true,
+            data: status
+        });
+    } catch (error) {
+        console.error('Erro ao obter status de execução:', error);
+        res.status(500).json({
+            success: false,
+            message: 'Erro interno do servidor'
+        });
+    }
+});
+
+// GET /api/dashboard/stats - Estatísticas para contadores do frontend
+router.get('/stats', authenticateToken, async (req, res) => {
+    try {
+        // Estatísticas de tarefas em tempo real
+        const taskStats = await db.query(`
+            SELECT 
+                COUNT(*) as total_tasks,
+                COUNT(CASE WHEN dt.status = 'pending' THEN 1 END) as pending_tasks,
+                COUNT(CASE WHEN dt.status = 'in_progress' THEN 1 END) as in_progress_tasks,
+                COUNT(CASE WHEN dt.status = 'completed' THEN 1 END) as completed_tasks,
+                COUNT(CASE WHEN dt.status = 'failed' THEN 1 END) as failed_tasks
+            FROM device_tasks dt
+            JOIN devices d ON dt.device_id = d.id
+            WHERE d.status != 'offline'
+        `);
+
+        // Estatísticas de dispositivos
+        const deviceStats = await db.query(`
+            SELECT 
+                COUNT(*) as total_devices,
+                COUNT(CASE WHEN status = 'online' THEN 1 END) as online_devices,
+                COUNT(CASE WHEN status = 'offline' THEN 1 END) as offline_devices,
+                COUNT(CASE WHEN status = 'busy' THEN 1 END) as busy_devices
+            FROM devices
+        `);
+
+        const stats = {
+            ...taskStats[0],
+            ...deviceStats[0]
+        };
+
+        res.json({
+            success: true,
+            data: stats
+        });
+    } catch (error) {
+        console.error('Erro ao obter estatísticas:', error);
+        res.status(500).json({
+            success: false,
+            message: 'Erro interno do servidor'
+        });
+    }
 });
 
 module.exports = router;

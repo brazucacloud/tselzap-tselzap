@@ -1,0 +1,11 @@
+📋 DOCUMENTO DE EXEMPLO 1
+
+Este é um documento de texto de exemplo para o sistema TselZap.
+
+Conteúdo:
+- Informações importantes
+- Dados relevantes  
+- Documentação necessária
+
+Data: 2025-08-17
+Versão: 1.0

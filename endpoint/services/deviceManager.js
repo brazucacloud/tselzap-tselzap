@@ -145,19 +145,19 @@ class DeviceManager {
         FROM device_tasks dt
         JOIN tasks t ON dt.task_id = t.id
         JOIN devices d ON dt.device_id = d.id
-        WHERE d.device_id = ? AND dt.status IN ('pending', 'in_progress')
+        WHERE d.device_id = $1 AND dt.status IN ('pending', 'in_progress')
       `;
       
       const params = [deviceId];
       
       if (dayNumber) {
-        query += ' AND t.day_number = ?';
+        query += ' AND t.day_number = $2';
         params.push(dayNumber);
       }
       
       query += ' ORDER BY t.priority, dt.created_at';
 
-      const tasks = await database.query(query, params);
+      const tasks = await database.db.query(query, params);
       
       if (tasks.length > 0) {
         this.io.to(deviceId).emit('tasks_assigned', {
@@ -180,18 +180,18 @@ class DeviceManager {
   // Send pending tasks to device
   async sendPendingTasks(socket, deviceId) {
     try {
-      const tasks = await database.query(`
+      const tasks = await database.db.query(`
         SELECT 
           dt.id as assignment_id,
           t.id as task_id,
           t.task_type,
-          t.task_description,
+          t.description as task_description,
           t.task_data,
           t.priority
         FROM device_tasks dt
         JOIN tasks t ON dt.task_id = t.id
         JOIN devices d ON dt.device_id = d.id
-        WHERE d.device_id = ? AND dt.status = 'pending'
+        WHERE d.device_id = $1 AND dt.status = 'pending'
         ORDER BY t.priority, dt.created_at
       `, [deviceId]);
 
@@ -202,10 +202,161 @@ class DeviceManager {
         });
         
         console.log(`📋 ${tasks.length} tarefas pendentes enviadas para o dispositivo ${deviceId}`);
+        
+        // DESABILITADO: Android app executa tarefas via AccessibilityService
+        console.log(`📱 ${tasks.length} tarefas enviadas para Android app executar`);
+        // setTimeout(() => {
+        //   this.startAutomaticTaskExecution(deviceId);
+        // }, 5000);
       }
     } catch (error) {
       console.error(`❌ Erro ao enviar tarefas pendentes para o dispositivo ${deviceId}:`, error);
     }
+  }
+
+  // DESABILITADO: Execução automática de tarefas
+  // Android app agora executa as tarefas via AccessibilityService
+  async startAutomaticTaskExecution_DISABLED(deviceId) {
+    console.log(`📱 Android app deve executar tarefas para dispositivo ${deviceId} via AccessibilityService`);
+    // NÃO executar no backend - deixar o Android app executar
+  }
+
+  // Executar uma tarefa específica
+  async executeTask(deviceId, task) {
+    try {
+      console.log(`⚡ Executando tarefa ${task.task_id} (${task.task_type}) para dispositivo ${deviceId}`);
+      
+      // Marcar tarefa como em progresso
+      await this.updateTaskStatus(deviceId, task.task_id, 'in_progress');
+      
+      // Simular execução da tarefa baseada no tipo
+      const executionTime = this.getTaskExecutionTime(task.task_type);
+      
+      // Notificar dispositivo para executar tarefa
+      const device = this.connectedDevices.get(deviceId);
+      if (device) {
+        this.io.to(deviceId).emit('execute_task', {
+          task_id: task.task_id,
+          task_type: task.task_type,
+          description: task.description,
+          target_count: task.target_count,
+          execution_time: executionTime,
+          timestamp: new Date().toISOString()
+        });
+      }
+
+      // Simular execução (em produção, o app Android faria isso)
+      setTimeout(async () => {
+        await this.completeTaskAutomatically(deviceId, task);
+      }, executionTime * 1000);
+
+    } catch (error) {
+      console.error(`❌ Erro ao executar tarefa ${task.task_id}:`, error);
+      await this.updateTaskStatus(deviceId, task.task_id, 'failed', null, error.message);
+    }
+  }
+
+  // Completar tarefa automaticamente (simulação)
+  async completeTaskAutomatically(deviceId, task) {
+    try {
+      // Simular resultado baseado no tipo de tarefa
+      const result = this.generateTaskResult(task.task_type);
+      
+      // Marcar como concluída
+      await this.updateTaskStatus(deviceId, task.task_id, 'completed', result);
+      
+      console.log(`✅ Tarefa ${task.task_id} concluída automaticamente para dispositivo ${deviceId}`);
+      
+      // DESABILITADO: Android app executa próximas tarefas via AccessibilityService
+      console.log(`📱 Android app deve executar próxima tarefa para dispositivo ${deviceId}`);
+      // setTimeout(() => {
+      //   this.startAutomaticTaskExecution(deviceId);
+      // }, 2000);
+      
+    } catch (error) {
+      console.error(`❌ Erro ao completar tarefa ${task.task_id}:`, error);
+      await this.updateTaskStatus(deviceId, task.task_id, 'failed', null, error.message);
+    }
+  }
+
+  // Obter tempo de execução baseado no tipo de tarefa
+  getTaskExecutionTime(taskType) {
+    const executionTimes = {
+      'profile_setup': 10,      // 10 segundos
+      'status_update': 8,       // 8 segundos
+      'contact_add': 5,         // 5 segundos
+      'message_send': 7,        // 7 segundos
+      'group_join': 12,         // 12 segundos
+      'call_make': 15,          // 15 segundos
+      'media_share': 20,        // 20 segundos
+      'story_post': 10,         // 10 segundos
+      'broadcast_send': 8,      // 8 segundos
+      'backup_create': 25       // 25 segundos
+    };
+    
+    return executionTimes[taskType] || 10; // Padrão 10 segundos
+  }
+
+  // Gerar resultado simulado para tarefa
+  generateTaskResult(taskType) {
+    const results = {
+      'profile_setup': {
+        action: 'profile_updated',
+        success: true,
+        details: 'Foto de perfil configurada com sucesso'
+      },
+      'status_update': {
+        action: 'status_updated',
+        success: true,
+        status_count: Math.floor(Math.random() * 3) + 1
+      },
+      'contact_add': {
+        action: 'contact_added',
+        success: true,
+        contacts_added: Math.floor(Math.random() * 5) + 1
+      },
+      'message_send': {
+        action: 'message_sent',
+        success: true,
+        messages_sent: Math.floor(Math.random() * 10) + 1
+      },
+      'group_join': {
+        action: 'group_joined',
+        success: true,
+        groups_joined: 1
+      },
+      'call_make': {
+        action: 'call_made',
+        success: true,
+        call_duration: Math.floor(Math.random() * 60) + 30
+      },
+      'media_share': {
+        action: 'media_shared',
+        success: true,
+        media_count: Math.floor(Math.random() * 5) + 1
+      },
+      'story_post': {
+        action: 'story_posted',
+        success: true,
+        story_count: 1
+      },
+      'broadcast_send': {
+        action: 'broadcast_sent',
+        success: true,
+        recipients: Math.floor(Math.random() * 20) + 5
+      },
+      'backup_create': {
+        action: 'backup_created',
+        success: true,
+        backup_size: Math.floor(Math.random() * 100) + 50 + 'MB'
+      }
+    };
+    
+    return results[taskType] || {
+      action: 'task_completed',
+      success: true,
+      details: 'Tarefa executada com sucesso'
+    };
   }
 
   // Update device status in database
@@ -213,8 +364,8 @@ class DeviceManager {
     try {
       let query = `
         UPDATE devices 
-        SET status = ?, last_seen = CURRENT_TIMESTAMP, updated_at = CURRENT_TIMESTAMP
-        WHERE device_id = ?
+        SET status = $1, last_seen = CURRENT_TIMESTAMP, updated_at = CURRENT_TIMESTAMP
+        WHERE device_id = $2
       `;
       
       const params = [status, deviceId];
@@ -222,15 +373,15 @@ class DeviceManager {
       if (deviceData) {
         query = `
           UPDATE devices 
-          SET device_name = ?, phone_number = ?, android_version = ?, app_version = ?, 
-              status = ?, last_seen = CURRENT_TIMESTAMP, updated_at = CURRENT_TIMESTAMP
-          WHERE device_id = ?
+          SET device_name = $1, phone_number = $2, android_version = $3, app_version = $4, 
+              status = $5, last_seen = CURRENT_TIMESTAMP, updated_at = CURRENT_TIMESTAMP
+          WHERE device_id = $6
         `;
         params.splice(0, 2, deviceData.device_name, deviceData.phone_number, 
                      deviceData.android_version, deviceData.app_version, status, deviceId);
       }
       
-      await database.run(query, params);
+      await database.db.run(query, params);
     } catch (error) {
       console.error(`❌ Erro ao atualizar status do dispositivo ${deviceId}:`, error);
     }
@@ -239,10 +390,10 @@ class DeviceManager {
   // Update device last seen
   async updateDeviceLastSeen(deviceId) {
     try {
-      await database.run(`
+      await database.db.run(`
         UPDATE devices 
         SET last_seen = CURRENT_TIMESTAMP
-        WHERE device_id = ?
+        WHERE device_id = $1
       `, [deviceId]);
     } catch (error) {
       console.error(`❌ Erro ao atualizar last_seen do dispositivo ${deviceId}:`, error);
@@ -252,8 +403,8 @@ class DeviceManager {
   // Update task status in database
   async updateTaskStatus(deviceId, taskId, status, resultData = null, errorMessage = null) {
     try {
-      const device = await database.get(`
-        SELECT id FROM devices WHERE device_id = ?
+      const device = await database.db.get(`
+        SELECT id FROM devices WHERE device_id = $1
       `, [deviceId]);
 
       if (!device) {
@@ -277,22 +428,22 @@ class DeviceManager {
       }
 
       const setClause = Object.keys(updateData)
-        .map(key => `${key} = ?`)
+        .map((key, index) => `${key} = $${index + 1}`)
         .join(', ');
 
       const values = Object.values(updateData);
       values.push(device.id, taskId);
 
-      await database.run(`
+      await database.db.run(`
         UPDATE device_tasks 
         SET ${setClause}
-        WHERE device_id = ? AND task_id = ?
+        WHERE device_id = $${values.length - 1} AND task_id = $${values.length}
       `, values);
 
       // Log task action
-      await database.run(`
+      await database.db.run(`
         INSERT INTO task_logs (device_id, task_id, action, details)
-        VALUES (?, ?, ?, ?)
+        VALUES ($1, $2, $3, $4)
       `, [device.id, taskId, status, JSON.stringify({ result_data: resultData, error_message: errorMessage })]);
 
     } catch (error) {
@@ -346,7 +497,7 @@ class DeviceManager {
   // Get device statistics
   async getDeviceStatistics() {
     try {
-      const stats = await database.query(`
+      const stats = await database.db.query(`
         SELECT 
           COUNT(*) as total_devices,
           COUNT(CASE WHEN status = 'online' THEN 1 END) as online_devices,

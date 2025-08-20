@@ -71,10 +71,27 @@ router.post('/login', async (req, res) => {
   }
 });
 
-// Register new user
-router.post('/register', async (req, res) => {
+// Create new user (admin only)
+router.post('/users', async (req, res) => {
   try {
     const { username, password, email, role = 'user' } = req.body;
+    const token = req.headers.authorization?.split(' ')[1];
+    
+    if (!token) {
+      return res.status(401).json({
+        success: false,
+        error: 'Token não fornecido'
+      });
+    }
+    
+    const decoded = jwt.verify(token, process.env.JWT_SECRET || 'tselzap-secret-key');
+    
+    if (decoded.role !== 'admin') {
+      return res.status(403).json({
+        success: false,
+        error: 'Acesso negado. Apenas administradores podem criar usuários.'
+      });
+    }
     
     if (!username || !password) {
       return res.status(400).json({
@@ -83,9 +100,16 @@ router.post('/register', async (req, res) => {
       });
     }
     
+    if (password.length < 6) {
+      return res.status(400).json({
+        success: false,
+        error: 'A senha deve ter pelo menos 6 caracteres'
+      });
+    }
+    
     // Check if user already exists
     const existingUser = await db.get(`
-      SELECT id FROM users WHERE username = $1 OR email = $2
+      SELECT id FROM users WHERE username = $1 OR (email = $2 AND email IS NOT NULL)
     `, [username, email]);
     
     if (existingUser) {
@@ -102,7 +126,7 @@ router.post('/register', async (req, res) => {
     const result = await db.run(`
       INSERT INTO users (username, password_hash, email, role)
       VALUES ($1, $2, $3, $4) RETURNING id
-    `, [username, hashedPassword, email, role]);
+    `, [username, hashedPassword, email || null, role]);
     
     const newUser = await db.get(`
       SELECT id, username, email, role, created_at FROM users WHERE id = $1
@@ -114,7 +138,7 @@ router.post('/register', async (req, res) => {
       data: newUser
     });
   } catch (error) {
-    console.error('Erro ao registrar usuário:', error);
+    console.error('Erro ao criar usuário:', error);
     res.status(500).json({
       success: false,
       error: 'Erro interno do servidor'
@@ -239,16 +263,157 @@ router.get('/users', async (req, res) => {
       });
     }
     
-    const users = await db.query(`
+    const users = await db.all(`
       SELECT id, username, email, role, created_at, updated_at FROM users ORDER BY created_at DESC
     `);
     
     res.json({
       success: true,
-      data: users
+      users: users
     });
   } catch (error) {
     console.error('Erro ao buscar usuários:', error);
+    res.status(500).json({
+      success: false,
+      error: 'Erro interno do servidor'
+    });
+  }
+});
+
+// Get specific user (admin only)
+router.get('/users/:userId', async (req, res) => {
+  try {
+    const { userId } = req.params;
+    const token = req.headers.authorization?.split(' ')[1];
+    
+    if (!token) {
+      return res.status(401).json({
+        success: false,
+        error: 'Token não fornecido'
+      });
+    }
+    
+    const decoded = jwt.verify(token, process.env.JWT_SECRET || 'tselzap-secret-key');
+    
+    if (decoded.role !== 'admin') {
+      return res.status(403).json({
+        success: false,
+        error: 'Acesso negado'
+      });
+    }
+    
+    const user = await db.get(`
+      SELECT id, username, email, role, created_at, updated_at FROM users WHERE id = $1
+    `, [userId]);
+    
+    if (!user) {
+      return res.status(404).json({
+        success: false,
+        error: 'Usuário não encontrado'
+      });
+    }
+    
+    res.json({
+      success: true,
+      user: user
+    });
+  } catch (error) {
+    console.error('Erro ao buscar usuário:', error);
+    res.status(500).json({
+      success: false,
+      error: 'Erro interno do servidor'
+    });
+  }
+});
+
+// Update user (admin only)
+router.put('/users/:userId', async (req, res) => {
+  try {
+    const { userId } = req.params;
+    const { username, email, password, role } = req.body;
+    const token = req.headers.authorization?.split(' ')[1];
+    
+    if (!token) {
+      return res.status(401).json({
+        success: false,
+        error: 'Token não fornecido'
+      });
+    }
+    
+    const decoded = jwt.verify(token, process.env.JWT_SECRET || 'tselzap-secret-key');
+    
+    if (decoded.role !== 'admin') {
+      return res.status(403).json({
+        success: false,
+        error: 'Acesso negado'
+      });
+    }
+    
+    if (!username) {
+      return res.status(400).json({
+        success: false,
+        error: 'Nome de usuário é obrigatório'
+      });
+    }
+    
+    // Check if user exists
+    const existingUser = await db.get(`
+      SELECT id FROM users WHERE id = $1
+    `, [userId]);
+    
+    if (!existingUser) {
+      return res.status(404).json({
+        success: false,
+        error: 'Usuário não encontrado'
+      });
+    }
+    
+    // Check if username or email already exists (exclude current user)
+    const duplicateUser = await db.get(`
+      SELECT id FROM users WHERE (username = $1 OR (email = $2 AND email IS NOT NULL)) AND id != $3
+    `, [username, email, userId]);
+    
+    if (duplicateUser) {
+      return res.status(400).json({
+        success: false,
+        error: 'Nome de usuário ou email já existe'
+      });
+    }
+    
+    let updateQuery = `
+      UPDATE users SET username = $1, email = $2, role = $3, updated_at = CURRENT_TIMESTAMP WHERE id = $4
+    `;
+    let params = [username, email || null, role, userId];
+    
+    // If password is provided, hash it and include in update
+    if (password) {
+      if (password.length < 6) {
+        return res.status(400).json({
+          success: false,
+          error: 'A senha deve ter pelo menos 6 caracteres'
+        });
+      }
+      
+      const hashedPassword = await bcrypt.hash(password, 10);
+      updateQuery = `
+        UPDATE users SET username = $1, email = $2, role = $3, password_hash = $4, updated_at = CURRENT_TIMESTAMP WHERE id = $5
+      `;
+      params = [username, email || null, role, hashedPassword, userId];
+    }
+    
+    await db.run(updateQuery, params);
+    
+    const updatedUser = await db.get(`
+      SELECT id, username, email, role, created_at, updated_at FROM users WHERE id = $1
+    `, [userId]);
+    
+    res.json({
+      success: true,
+      message: 'Usuário atualizado com sucesso',
+      user: updatedUser
+    });
+  } catch (error) {
+    console.error('Erro ao atualizar usuário:', error);
     res.status(500).json({
       success: false,
       error: 'Erro interno do servidor'

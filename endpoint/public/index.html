@@ -1,51 +1,77 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TselZap Dashboard - Gerenciamento de Aquecimento de Chips</title>
-    <link href="lib/bootstrap.min.css" rel="stylesheet">
-    <link href="lib/all.min.css" rel="stylesheet">
+    <title>TselZap Dashboard - Sistema de Automação WhatsApp</title>
+    
+    <!-- Meta Tags -->
+    <meta name="description" content="Dashboard profissional para gerenciamento de aquecimento de chips WhatsApp">
+    <meta name="author" content="TselZap">
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/png" href="logo.png">
+    
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-light">
     <!-- Loading Screen -->
-    <div id="loadingScreen" class="loading-screen">
-        <div class="loading-content">
-            <div class="spinner-border text-primary" role="status">
-                <span class="visually-hidden">Carregando...</span>
+    <div id="loadingScreen" class="loading-overlay">
+        <div class="loading-container">
+            <div class="loading-logo">
+                <img src="logo.png" alt="TselZap">
             </div>
-            <h4 class="mt-3">TselZap Dashboard</h4>
-            <p>Inicializando sistema...</p>
+            <div class="loading-spinner"></div>
+            <h3 class="loading-title">TselZap Dashboard</h3>
+            <p class="loading-subtitle">Inicializando sistema de automação...</p>
         </div>
     </div>
 
     <!-- Login Modal -->
-    <div class="modal fade" id="loginModal" tabindex="-1" aria-hidden="true">
+    <div class="modal fade" id="loginModal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false">
         <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header bg-primary text-white">
-                    <h5 class="modal-title">
-                        <i class="fas fa-sign-in-alt me-2"></i>
-                        Login - TselZap Dashboard
-                    </h5>
-                </div>
-                <div class="modal-body">
-                    <form id="loginForm">
-                        <div class="mb-3">
-                            <label for="username" class="form-label">Usuário</label>
-                            <input type="text" class="form-control" id="username" required>
+            <div class="modal-content border-0 shadow-lg login-modern-modal">
+                <div class="modal-body p-0">
+                    <div class="login-modern-container">
+                        <!-- Logo Section -->
+                        <div class="login-modern-logo">
+                            <img src="logo.png" alt="TselZap">
                         </div>
-                        <div class="mb-3">
-                            <label for="password" class="form-label">Senha</label>
-                            <input type="password" class="form-control" id="password" required>
+                        
+                        <!-- Title Section -->
+                        <div class="login-modern-header">
+                            <h1 class="login-modern-title">Professional WhatsApp Automation Platform</h1>
+                            <p class="login-modern-subtitle">Access your automation dashboard</p>
                         </div>
-                        <div class="alert alert-danger d-none" id="loginError"></div>
-                        <button type="submit" class="btn btn-primary w-100">
-                            <i class="fas fa-sign-in-alt me-2"></i>
-                            Entrar
-                        </button>
-                    </form>
+                        
+                        
+                        <!-- Form Section -->
+                        <form id="loginForm" class="login-modern-form">
+                            <div class="form-group-modern">
+                                <label for="username" class="form-label-modern">Usuário</label>
+                                <input type="text" class="form-control-modern" id="username" placeholder="admin" required>
+                            </div>
+                            
+                            <div class="form-group-modern">
+                                <label for="password" class="form-label-modern">Password</label>
+                                <input type="password" class="form-control-modern" id="password" placeholder="••••••••" required>
+                            </div>
+                            
+                            <div class="alert alert-danger d-none" id="loginError" role="alert">
+                                <i class="fas fa-exclamation-triangle me-2"></i>
+                                <span id="loginErrorText"></span>
+                            </div>
+                            
+                            <button type="submit" class="btn-modern-primary">
+                                Login
+                            </button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -53,451 +79,1814 @@
 
     <!-- Main Dashboard -->
     <div id="dashboard" class="d-none">
-        <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <i class="fas fa-mobile-alt me-2"></i>
-                    TselZap Dashboard
-                </a>
-                
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
+        <!-- Sidebar -->
+        <nav id="sidebar" class="sidebar">
+            <div class="sidebar-header">
+                <div class="sidebar-logo">
+                    <img src="logo.png" alt="TselZap">
+                </div>
+                <button class="sidebar-toggle d-lg-none" id="sidebarToggle">
+                    <i class="fas fa-times"></i>
                 </button>
-                
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav me-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#" data-page="overview">
-                                <i class="fas fa-tachometer-alt me-1"></i>
-                                Visão Geral
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" data-page="devices">
-                                <i class="fas fa-mobile-alt me-1"></i>
-                                Dispositivos
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" data-page="tasks">
-                                <i class="fas fa-tasks me-1"></i>
-                                Tarefas
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" data-page="analytics">
-                                <i class="fas fa-chart-line me-1"></i>
-                                Analytics
-                            </a>
-                        </li>
-                    </ul>
-                    
-                    <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                                <i class="fas fa-user me-1"></i>
-                                <span id="currentUser">Admin</span>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#" id="logoutBtn">
-                                    <i class="fas fa-sign-out-alt me-2"></i>
-                                    Sair
-                                </a></li>
-                            </ul>
-                        </li>
-                    </ul>
+            </div>
+            
+            <div class="sidebar-menu">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" data-page="overview">
+                            <i class="fas fa-tachometer-alt"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-page="devices">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Dispositivos</span>
+                            <span class="badge bg-primary ms-auto" id="devicesBadge">0</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-page="tasks">
+                            <i class="fas fa-tasks"></i>
+                            <span>Tarefas</span>
+                            <span class="badge bg-success ms-auto" id="tasksBadge">0</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-page="media">
+                            <i class="fas fa-photo-video"></i>
+                            <span>Mídia & IA</span>
+                            <span class="badge bg-info ms-auto" id="mediaBadge">0</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-page="warming">
+                            <i class="fas fa-fire"></i>
+                            <span>Aquecimento 21 Dias</span>
+                            <span class="badge bg-warning ms-auto" id="warmingBadge">0</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-page="analytics">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Analytics</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-page="logs">
+                            <i class="fas fa-list-alt"></i>
+                            <span>Logs</span>
+                            <span class="badge bg-info ms-auto" id="logsBadge">0</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" id="settingsMenuItem" style="display: none;">
+                        <a class="nav-link" href="#" data-page="settings">
+                            <i class="fas fa-cog"></i>
+                            <span>Configurações</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" id="usersMenuItem" style="display: none;">
+                        <a class="nav-link" href="#" data-page="users">
+                            <i class="fas fa-users"></i>
+                            <span>Usuários</span>
+                            <span class="badge bg-warning ms-auto" id="usersBadge">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="sidebar-footer">
+                <div class="status-indicator">
+                    <div class="status-dot" id="connectionStatus"></div>
+                    <span class="status-text" id="connectionText">Conectando...</span>
                 </div>
             </div>
         </nav>
 
         <!-- Main Content -->
-        <div class="container-fluid mt-4">
-            <!-- Overview Page -->
-            <div id="overviewPage" class="page-content">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="mb-4">
-                            <i class="fas fa-tachometer-alt me-2"></i>
-                            Visão Geral do Sistema
+        <main class="main-content">
+            <!-- Top Bar -->
+            <header class="top-bar">
+                <div class="top-bar-left">
+                    <button class="sidebar-toggle d-lg-none" id="mobileToggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <h1 class="page-title" id="pageTitle">Dashboard</h1>
+                </div>
+                
+                <div class="top-bar-right">
+                    <div class="top-bar-actions">
+                        <!-- Theme Toggle -->
+                        <button class="btn btn-outline-secondary btn-sm me-2" id="themeToggle" title="Alternar tema">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                        
+                        <!-- Notifications -->
+                        <div class="dropdown me-2">
+                            <button class="btn btn-outline-secondary btn-sm position-relative" type="button" data-bs-toggle="dropdown">
+                                <i class="fas fa-bell"></i>
+                                <span class="notification-badge" id="notificationBadge">0</span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end notification-dropdown">
+                                <li class="dropdown-header">
+                                    <i class="fas fa-bell me-2"></i>Notificações
+                                </li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li id="notificationsList">
+                                    <div class="text-center text-muted p-3">
+                                        Nenhuma notificação
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <!-- User Menu -->
+                        <div class="dropdown">
+                            <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="dropdown">
+                                <i class="fas fa-user me-1"></i>
+                                <span id="currentUser">Admin</span>
+                                <i class="fas fa-chevron-down ms-1"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item text-danger" href="#" id="logoutBtn">
+                                    <i class="fas fa-sign-out-alt me-2"></i>Sair
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Page Content -->
+            <div class="page-container">
+                <!-- Overview Page -->
+                <div id="overviewPage" class="page-content">
+                    <!-- Stats Cards -->
+                    <div class="row g-4 mb-4">
+                        <div class="col-xl-3 col-md-6">
+                            <div class="stats-card stats-card-primary">
+                                <div class="stats-icon">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </div>
+                                <div class="stats-content">
+                                    <h3 class="stats-number" id="onlineDevices">0</h3>
+                                    <p class="stats-label">Dispositivos Online</p>
+                                    <div class="stats-trend">
+                                        <i class="fas fa-arrow-up"></i>
+                                        <span id="devicesTrend">+0%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-xl-3 col-md-6">
+                            <div class="stats-card stats-card-success">
+                                <div class="stats-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="stats-content">
+                                    <h3 class="stats-number" id="completedTasks">0</h3>
+                                    <p class="stats-label">Tarefas Concluídas</p>
+                                    <div class="stats-trend">
+                                        <i class="fas fa-arrow-up"></i>
+                                        <span id="tasksTrend">+0%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-xl-3 col-md-6">
+                            <div class="stats-card stats-card-warning">
+                                <div class="stats-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="stats-content">
+                                    <h3 class="stats-number" id="activeTasks">0</h3>
+                                    <p class="stats-label">Tarefas Ativas</p>
+                                    <div class="stats-trend">
+                                        <i class="fas fa-arrow-down"></i>
+                                        <span id="activeTrend">-0%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-xl-3 col-md-6">
+                            <div class="stats-card stats-card-info">
+                                <div class="stats-icon">
+                                    <i class="fas fa-calendar-day"></i>
+                                </div>
+                                <div class="stats-content">
+                                    <h3 class="stats-number" id="currentDay">1</h3>
+                                    <p class="stats-label">Dia do Ciclo</p>
+                                    <div class="stats-trend">
+                                        <i class="fas fa-minus"></i>
+                                        <span>de 21 dias</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Charts Section -->
+                    <div class="row g-4 mb-4">
+                        <div class="col-lg-8">
+                            <div class="chart-card">
+                                <div class="chart-header">
+                                    <h5 class="chart-title">
+                                        <i class="fas fa-chart-line me-2"></i>
+                                        Progresso de Tarefas (7 dias)
+                                    </h5>
+                                    <div class="chart-actions">
+                                        <button class="btn btn-sm btn-outline-secondary" data-period="7d">7D</button>
+                                        <button class="btn btn-sm btn-outline-secondary" data-period="30d">30D</button>
+                                    </div>
+                                </div>
+                                <div class="chart-body">
+                                    <canvas id="progressChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4">
+                            <div class="chart-card">
+                                <div class="chart-header">
+                                    <h5 class="chart-title">
+                                        <i class="fas fa-chart-pie me-2"></i>
+                                        Status das Tarefas
+                                    </h5>
+                                </div>
+                                <div class="chart-body">
+                                    <canvas id="taskStatusChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Recent Activity -->
+                    <div class="activity-card">
+                        <div class="activity-header">
+                            <h5 class="activity-title">
+                                <i class="fas fa-history me-2"></i>
+                                Atividade Recente
+                            </h5>
+                            <button class="btn btn-sm btn-outline-primary" id="refreshActivity">
+                                <i class="fas fa-sync-alt"></i>
+                            </button>
+                        </div>
+                        <div class="activity-body">
+                            <div class="activity-list" id="recentActivityList">
+                                <!-- Activity items will be populated here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Devices Page -->
+                <div id="devicesPage" class="page-content d-none">
+                    <div class="page-header">
+                        <h2 class="page-title">
+                            <i class="fas fa-mobile-alt me-2"></i>
+                            Gerenciamento de Dispositivos
                         </h2>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addDeviceModal">
+                            <i class="fas fa-plus me-2"></i>
+                            Adicionar Dispositivo
+                        </button>
                     </div>
-                </div>
 
-                <!-- Stats Cards -->
-                <div class="row mb-4">
-                    <div class="col-xl-3 col-md-6 mb-3">
-                        <div class="card bg-primary text-white h-100">
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between">
-                                    <div>
-                                        <h6 class="card-title">Dispositivos Online</h6>
-                                        <h3 id="onlineDevices">0</h3>
-                                    </div>
-                                    <div class="align-self-center">
-                                        <i class="fas fa-mobile-alt fa-2x"></i>
-                                    </div>
+                    <!-- Device Filters -->
+                    <div class="filter-card mb-4">
+                        <div class="row g-3">
+                            <div class="col-md-3">
+                                <label class="form-label">Status</label>
+                                <select class="form-select" id="statusFilter">
+                                    <option value="">Todos os Status</option>
+                                    <option value="online">Online</option>
+                                    <option value="offline">Offline</option>
+                                    <option value="busy">Ocupado</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+                                <label class="form-label">Dia do Ciclo</label>
+                                <select class="form-select" id="dayFilter">
+                                    <option value="">Todos os Dias</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">Buscar</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="deviceSearch" placeholder="Buscar por nome, telefone ou ID...">
+                                    <button class="btn btn-outline-secondary" type="button">
+                                        <i class="fas fa-search"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="col-xl-3 col-md-6 mb-3">
-                        <div class="card bg-success text-white h-100">
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between">
-                                    <div>
-                                        <h6 class="card-title">Tarefas Concluídas</h6>
-                                        <h3 id="completedTasks">0</h3>
-                                    </div>
-                                    <div class="align-self-center">
-                                        <i class="fas fa-check-circle fa-2x"></i>
-                                    </div>
+
+                    <!-- Devices Grid -->
+                    <div class="devices-grid" id="devicesGrid">
+                        <!-- Device cards will be populated here -->
+                    </div>
+                </div>
+
+                <!-- Warming Page -->
+                <div id="warmingPage" class="page-content d-none">
+                    <div class="page-header">
+                        <h2 class="page-title">
+                            <i class="fas fa-fire me-2"></i>
+                            Sistema de Aquecimento 21 Dias
+                        </h2>
+                        <button class="btn btn-danger" onclick="startWarming()">
+                            <i class="fas fa-play me-2"></i>
+                            Iniciar Aquecimento
+                        </button>
+                    </div>
+
+                    <!-- Warming Overview -->
+                    <div class="row mb-4">
+                        <div class="col-md-3">
+                            <div class="stat-card warming-active">
+                                <div class="stat-icon">
+                                    <i class="fas fa-fire"></i>
+                                </div>
+                                <div class="stat-content">
+                                    <h3 class="stat-number" id="activeWarmingCount">0</h3>
+                                    <p class="stat-label">Dispositivos em Aquecimento</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="stat-card warming-completed">
+                                <div class="stat-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="stat-content">
+                                    <h3 class="stat-number" id="completedWarmingCount">0</h3>
+                                    <p class="stat-label">Aquecimentos Completados</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="stat-card warming-success">
+                                <div class="stat-icon">
+                                    <i class="fas fa-percentage"></i>
+                                </div>
+                                <div class="stat-content">
+                                    <h3 class="stat-number" id="warmingSuccessRate">0%</h3>
+                                    <p class="stat-label">Taxa de Sucesso</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="stat-card warming-interactions">
+                                <div class="stat-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <div class="stat-content">
+                                    <h3 class="stat-number" id="totalInteractions">0</h3>
+                                    <p class="stat-label">Interações Hoje</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="col-xl-3 col-md-6 mb-3">
-                        <div class="card bg-warning text-white h-100">
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between">
-                                    <div>
-                                        <h6 class="card-title">Tarefas em Andamento</h6>
-                                        <h3 id="activeTasks">0</h3>
-                                    </div>
-                                    <div class="align-self-center">
-                                        <i class="fas fa-clock fa-2x"></i>
-                                    </div>
+
+                    <!-- Warming Devices -->
+                    <div class="filter-card mb-4">
+                        <div class="row g-3">
+                            <div class="col-md-4">
+                                <label class="form-label">Status do Aquecimento</label>
+                                <select class="form-select" id="warmingStatusFilter">
+                                    <option value="">Todos os Status</option>
+                                    <option value="active">Ativo</option>
+                                    <option value="paused">Pausado</option>
+                                    <option value="completed">Completado</option>
+                                    <option value="failed">Falhado</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <label class="form-label">Dia Atual</label>
+                                <select class="form-select" id="currentDayFilter">
+                                    <option value="">Todos os Dias</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <label class="form-label">Buscar Dispositivo</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="warmingDeviceSearch" placeholder="Nome ou telefone...">
+                                    <button class="btn btn-outline-secondary" type="button">
+                                        <i class="fas fa-search"></i>
+                                    </button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="col-xl-3 col-md-6 mb-3">
-                        <div class="card bg-info text-white h-100">
-                            <div class="card-body">
-                                <div class="d-flex justify-content-between">
-                                    <div>
-                                        <h6 class="card-title">Dia Atual</h6>
-                                        <h3 id="currentDay">1</h3>
-                                    </div>
-                                    <div class="align-self-center">
-                                        <i class="fas fa-calendar-day fa-2x"></i>
-                                    </div>
+
+                    <!-- Warming Devices Grid -->
+                    <div class="warming-devices-grid" id="warmingDevicesGrid">
+                        <!-- Warming device cards will be populated here -->
+                    </div>
+
+                    <!-- Day Progress Timeline -->
+                    <div class="mt-5">
+                        <h4><i class="fas fa-calendar-alt me-2"></i>Progresso dos 21 Dias</h4>
+                        <div class="warming-timeline" id="warmingTimeline">
+                            <!-- Timeline will be populated here -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tasks Page -->
+                <div id="tasksPage" class="page-content d-none">
+                    <div class="page-header">
+                        <h2 class="page-title">
+                            <i class="fas fa-tasks me-2"></i>
+                            Gerenciamento de Tarefas
+                        </h2>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addTaskModal">
+                            <i class="fas fa-plus me-2"></i>
+                            Nova Tarefa
+                        </button>
+                    </div>
+
+                    <!-- Task Stats -->
+                    <div class="row g-4 mb-4">
+                        <div class="col-md-3">
+                            <div class="mini-stats-card">
+                                <div class="mini-stats-icon bg-primary">
+                                    <i class="fas fa-list"></i>
+                                </div>
+                                <div class="mini-stats-content">
+                                    <h4 id="totalTasks">0</h4>
+                                    <p>Total de Tarefas</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="mini-stats-card">
+                                <div class="mini-stats-icon bg-success">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                                <div class="mini-stats-content">
+                                    <h4 id="completedTasksCount">0</h4>
+                                    <p>Concluídas</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="mini-stats-card">
+                                <div class="mini-stats-icon bg-warning">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="mini-stats-content">
+                                    <h4 id="pendingTasksCount">0</h4>
+                                    <p>Pendentes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="mini-stats-card">
+                                <div class="mini-stats-icon bg-danger">
+                                    <i class="fas fa-times"></i>
+                                </div>
+                                <div class="mini-stats-content">
+                                    <h4 id="failedTasksCount">0</h4>
+                                    <p>Falharam</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Charts Row -->
-                <div class="row mb-4">
-                    <div class="col-lg-8">
-                        <div class="card">
-                            <div class="card-header">
-                                <h5 class="card-title mb-0">
-                                    <i class="fas fa-chart-line me-2"></i>
-                                    Progresso Diário
-                                </h5>
-                            </div>
-                            <div class="card-body">
-                                <canvas id="progressChart" height="100"></canvas>
+                    <!-- Tasks Table -->
+                    <div class="table-card">
+                        <div class="table-header">
+                            <h5 class="table-title">Lista de Tarefas</h5>
+                            <div class="table-actions">
+                                <button class="btn btn-sm btn-outline-secondary" id="refreshTasks">
+                                    <i class="fas fa-sync-alt"></i>
+                                </button>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-header">
-                                <h5 class="card-title mb-0">
-                                    <i class="fas fa-chart-pie me-2"></i>
-                                    Status das Tarefas
-                                </h5>
-                            </div>
-                            <div class="card-body">
-                                <canvas id="taskStatusChart" height="200"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Recent Activity -->
-                <div class="row">
-                    <div class="col-12">
-                        <div class="card">
-                            <div class="card-header">
-                                <h5 class="card-title mb-0">
-                                    <i class="fas fa-history me-2"></i>
-                                    Atividade Recente
-                                </h5>
-                            </div>
-                            <div class="card-body">
-                                <div class="table-responsive">
-                                    <table class="table table-hover">
-                                        <thead>
-                                            <tr>
-                                                <th>Dispositivo</th>
-                                                <th>Ação</th>
-                                                <th>Tarefa</th>
-                                                <th>Status</th>
-                                                <th>Data/Hora</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody id="recentActivityTable">
-                                            <!-- Activity rows will be populated here -->
-                                        </tbody>
-                                    </table>
-                                </div>
+                        <div class="table-body">
+                            <div class="table-responsive">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Dia</th>
+                                            <th>Tipo</th>
+                                            <th>Descrição</th>
+                                            <th>Prioridade</th>
+                                            <th>Status</th>
+                                            <th>Progresso</th>
+                                            <th>Ações</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="tasksTable">
+                                        <!-- Task rows will be populated here -->
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Devices Page -->
-            <div id="devicesPage" class="page-content d-none">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="d-flex justify-content-between align-items-center mb-4">
-                            <h2>
-                                <i class="fas fa-mobile-alt me-2"></i>
-                                Gerenciamento de Dispositivos
-                            </h2>
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addDeviceModal">
-                                <i class="fas fa-plus me-2"></i>
-                                Adicionar Dispositivo
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Device Filters -->
-                <div class="row mb-4">
-                    <div class="col-md-3">
-                        <select class="form-select" id="statusFilter">
-                            <option value="">Todos os Status</option>
-                            <option value="online">Online</option>
-                            <option value="offline">Offline</option>
-                            <option value="busy">Ocupado</option>
-                        </select>
-                    </div>
-                    <div class="col-md-3">
-                        <select class="form-select" id="dayFilter">
-                            <option value="">Todos os Dias</option>
-                            <option value="1">Dia 1</option>
-                            <option value="2">Dia 2</option>
-                            <option value="3">Dia 3</option>
-                            <!-- More days will be populated -->
-                        </select>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="input-group">
-                            <input type="text" class="form-control" id="deviceSearch" placeholder="Buscar dispositivo...">
-                            <button class="btn btn-outline-secondary" type="button">
-                                <i class="fas fa-search"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Devices Table -->
-                <div class="card">
-                    <div class="card-body">
-                        <div class="table-responsive">
-                            <table class="table table-hover">
-                                <thead>
-                                    <tr>
-                                        <th>ID</th>
-                                        <th>Nome</th>
-                                        <th>Telefone</th>
-                                        <th>Status</th>
-                                        <th>Dia Atual</th>
-                                        <th>Tarefas Concluídas</th>
-                                        <th>Última Atividade</th>
-                                        <th>Ações</th>
-                                    </tr>
-                                </thead>
-                                <tbody id="devicesTable">
-                                    <!-- Device rows will be populated here -->
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Tasks Page -->
-            <div id="tasksPage" class="page-content d-none">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="d-flex justify-content-between align-items-center mb-4">
-                            <h2>
-                                <i class="fas fa-tasks me-2"></i>
-                                Gerenciamento de Tarefas
-                            </h2>
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addTaskModal">
-                                <i class="fas fa-plus me-2"></i>
-                                Nova Tarefa
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Task Filters -->
-                <div class="row mb-4">
-                    <div class="col-md-2">
-                        <select class="form-select" id="taskDayFilter">
-                            <option value="">Todos os Dias</option>
-                            <!-- Days will be populated -->
-                        </select>
-                    </div>
-                    <div class="col-md-2">
-                        <select class="form-select" id="taskTypeFilter">
-                            <option value="">Todos os Tipos</option>
-                            <option value="profile_setup">Configuração de Perfil</option>
-                            <option value="message_activity">Atividade de Mensagens</option>
-                            <option value="group_activity">Atividade de Grupos</option>
-                            <option value="media_activity">Atividade de Mídia</option>
-                        </select>
-                    </div>
-                    <div class="col-md-2">
-                        <select class="form-select" id="taskStatusFilter">
-                            <option value="">Todos os Status</option>
-                            <option value="pending">Pendente</option>
-                            <option value="in_progress">Em Andamento</option>
-                            <option value="completed">Concluída</option>
-                            <option value="failed">Falhou</option>
-                        </select>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="input-group">
-                            <input type="text" class="form-control" id="taskSearch" placeholder="Buscar tarefa...">
-                            <button class="btn btn-outline-secondary" type="button">
-                                <i class="fas fa-search"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Tasks Table -->
-                <div class="card">
-                    <div class="card-body">
-                        <div class="table-responsive">
-                            <table class="table table-hover">
-                                <thead>
-                                    <tr>
-                                        <th>Dia</th>
-                                        <th>Tipo</th>
-                                        <th>Descrição</th>
-                                        <th>Prioridade</th>
-                                        <th>Status</th>
-                                        <th>Dispositivos</th>
-                                        <th>Concluídas</th>
-                                        <th>Ações</th>
-                                    </tr>
-                                </thead>
-                                <tbody id="tasksTable">
-                                    <!-- Task rows will be populated here -->
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Analytics Page -->
-            <div id="analyticsPage" class="page-content d-none">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="mb-4">
+                <!-- Analytics Page -->
+                <div id="analyticsPage" class="page-content d-none">
+                    <div class="page-header">
+                        <h2 class="page-title">
                             <i class="fas fa-chart-line me-2"></i>
                             Analytics e Relatórios
                         </h2>
-                    </div>
-                </div>
-
-                <!-- Analytics Filters -->
-                <div class="row mb-4">
-                    <div class="col-md-3">
-                        <select class="form-select" id="analyticsPeriod">
-                            <option value="7d">Últimos 7 dias</option>
-                            <option value="30d">Últimos 30 dias</option>
-                            <option value="1d">Último dia</option>
-                        </select>
-                    </div>
-                </div>
-
-                <!-- Analytics Charts -->
-                <div class="row mb-4">
-                    <div class="col-lg-6">
-                        <div class="card">
-                            <div class="card-header">
-                                <h5 class="card-title mb-0">
-                                    <i class="fas fa-chart-area me-2"></i>
-                                    Tendência de Conclusão
-                                </h5>
-                            </div>
-                            <div class="card-body">
-                                <canvas id="completionTrendChart" height="100"></canvas>
-                            </div>
+                        <div class="btn-group">
+                            <button class="btn btn-outline-primary" data-period="1d">1 Dia</button>
+                            <button class="btn btn-primary" data-period="7d">7 Dias</button>
+                            <button class="btn btn-outline-primary" data-period="30d">30 Dias</button>
                         </div>
                     </div>
-                    
-                    <div class="col-lg-6">
-                        <div class="card">
-                            <div class="card-header">
-                                <h5 class="card-title mb-0">
-                                    <i class="fas fa-chart-bar me-2"></i>
-                                    Atividade dos Dispositivos
-                                </h5>
-                            </div>
-                            <div class="card-body">
-                                <canvas id="deviceActivityChart" height="100"></canvas>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Performance Metrics -->
-                <div class="row">
-                    <div class="col-12">
-                        <div class="card">
-                            <div class="card-header">
-                                <h5 class="card-title mb-0">
-                                    <i class="fas fa-tachometer-alt me-2"></i>
-                                    Métricas de Performance
-                                </h5>
-                            </div>
-                            <div class="card-body">
-                                <div class="table-responsive">
-                                    <table class="table table-hover">
-                                        <thead>
-                                            <tr>
-                                                <th>Tipo de Tarefa</th>
-                                                <th>Total Atribuídas</th>
-                                                <th>Concluídas</th>
-                                                <th>Taxa de Sucesso</th>
-                                                <th>Tempo Médio</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody id="performanceTable">
-                                            <!-- Performance rows will be populated here -->
-                                        </tbody>
-                                    </table>
+                    <!-- Analytics Charts -->
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                            <div class="chart-card">
+                                <div class="chart-header">
+                                    <h5 class="chart-title">Tendência de Conclusão</h5>
+                                </div>
+                                <div class="chart-body">
+                                    <canvas id="completionTrendChart"></canvas>
                                 </div>
                             </div>
                         </div>
+                        
+                        <div class="col-lg-6">
+                            <div class="chart-card">
+                                <div class="chart-header">
+                                    <h5 class="chart-title">Atividade dos Dispositivos</h5>
+                                </div>
+                                <div class="chart-body">
+                                    <canvas id="deviceActivityChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Logs Page -->
+                <!-- Media & AI Page -->
+                <div id="mediaPage" class="page-content d-none">
+                    <div class="page-header">
+                        <h2 class="page-title">
+                            <i class="fas fa-photo-video me-2"></i>
+                            Mídia & Inteligência Artificial
+                        </h2>
+                        <div class="btn-group">
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#uploadModal">
+                                <i class="fas fa-upload me-1"></i>
+                                Upload
+                            </button>
+                            <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#downloadModal">
+                                <i class="fas fa-download me-1"></i>
+                                Download URL
+                            </button>
+                            <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#aiConfigModal">
+                                <i class="fas fa-robot me-1"></i>
+                                Config. IA
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- AI Generation Section -->
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="card-title mb-0">
+                                        <i class="fas fa-magic me-2"></i>
+                                        Geração de Texto com IA
+                                    </h5>
+                                </div>
+                                <div class="card-body">
+                                    <form id="textGenerationForm">
+                                        <div class="mb-3">
+                                            <label for="textPrompt" class="form-label">Prompt</label>
+                                            <textarea class="form-control" id="textPrompt" rows="3" placeholder="Descreva o tipo de mensagem que deseja gerar..."></textarea>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <label for="textModel" class="form-label">Modelo</label>
+                                                <select class="form-select" id="textModel">
+                                                    <option value="">Usar padrão</option>
+                                                    <option value="gpt-4o-mini">GPT-4o Mini (Rápido)</option>
+                                                    <option value="gpt-4o">GPT-4o (Qualidade)</option>
+                                                    <option value="gpt-3.5-turbo">GPT-3.5 Turbo</option>
+                                                    <option value="gpt-4-turbo">GPT-4 Turbo</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <label for="textCategory" class="form-label">Categoria</label>
+                                                <select class="form-select" id="textCategory">
+                                                    <option value="general">Geral</option>
+                                                    <option value="business">Negócios</option>
+                                                    <option value="casual">Casual</option>
+                                                    <option value="greeting">Saudação</option>
+                                                    <option value="status">Status</option>
+                                                    <option value="marketing">Marketing</option>
+                                                    <option value="social">Social</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <label for="textMaxTokens" class="form-label">Max Tokens</label>
+                                                <input type="number" class="form-control" id="textMaxTokens" value="100" min="50" max="2000">
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary mt-3">
+                                            <i class="fas fa-magic me-1"></i>
+                                            Gerar Texto
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="card-title mb-0">
+                                        <i class="fas fa-image me-2"></i>
+                                        Geração de Imagem com IA
+                                    </h5>
+                                </div>
+                                <div class="card-body">
+                                    <form id="imageGenerationForm">
+                                        <div class="mb-3">
+                                            <label for="imagePrompt" class="form-label">Prompt</label>
+                                            <textarea class="form-control" id="imagePrompt" rows="3" placeholder="Descreva a imagem que deseja gerar..."></textarea>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <label for="imageModel" class="form-label">Modelo</label>
+                                                <select class="form-select" id="imageModel">
+                                                    <option value="dall-e-3">DALL-E 3 (Melhor)</option>
+                                                    <option value="dall-e-2">DALL-E 2 (Econômico)</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <label for="imageSize" class="form-label">Tamanho</label>
+                                                <select class="form-select" id="imageSize">
+                                                    <option value="1024x1024">1024x1024 (Quadrado)</option>
+                                                    <option value="1024x1792">1024x1792 (Vertical)</option>
+                                                    <option value="1792x1024">1792x1024 (Horizontal)</option>
+                                                    <option value="512x512">512x512 (DALL-E 2)</option>
+                                                    <option value="256x256">256x256 (DALL-E 2)</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <label for="imageQuality" class="form-label">Qualidade</label>
+                                                <select class="form-select" id="imageQuality">
+                                                    <option value="standard">Standard</option>
+                                                    <option value="hd">HD (DALL-E 3)</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col-md-6">
+                                                <label for="imageStyle" class="form-label">Estilo (DALL-E 3)</label>
+                                                <select class="form-select" id="imageStyle">
+                                                    <option value="vivid">Vívido (padrão)</option>
+                                                    <option value="natural">Natural</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="imageCount" class="form-label">Quantidade</label>
+                                                <select class="form-select" id="imageCount">
+                                                    <option value="1">1 imagem</option>
+                                                    <option value="2">2 imagens (DALL-E 2)</option>
+                                                    <option value="3">3 imagens (DALL-E 2)</option>
+                                                    <option value="4">4 imagens (DALL-E 2)</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary mt-3">
+                                            <i class="fas fa-image me-1"></i>
+                                            Gerar Imagem
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Media Filters -->
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <div class="row align-items-end">
+                                <div class="col-md-3">
+                                    <label for="mediaTypeFilter" class="form-label">Tipo</label>
+                                    <select class="form-select" id="mediaTypeFilter">
+                                        <option value="">Todos</option>
+                                        <option value="image">Imagens</option>
+                                        <option value="video">Vídeos</option>
+                                        <option value="audio">Áudios</option>
+                                        <option value="document">Documentos</option>
+                                        <option value="message">Mensagens</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="mediaGeneratedFilter" class="form-label">Origem</label>
+                                    <select class="form-select" id="mediaGeneratedFilter">
+                                        <option value="">Todos</option>
+                                        <option value="true">Gerado por IA</option>
+                                        <option value="false">Upload/Download</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="mediaSearchFilter" class="form-label">Buscar</label>
+                                    <input type="text" class="form-control" id="mediaSearchFilter" placeholder="Nome, descrição...">
+                                </div>
+                                <div class="col-md-2">
+                                    <button class="btn btn-outline-secondary w-100" id="clearMediaFilters">
+                                        <i class="fas fa-times me-1"></i>
+                                        Limpar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Media Files List -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="card-title mb-0">
+                                <i class="fas fa-folder-open me-2"></i>
+                                Arquivos de Mídia
+                            </h5>
+                            <div class="card-tools">
+                                <span class="badge bg-info" id="mediaFilesCount">0 arquivos</span>
+                            </div>
+                        </div>
+                        <div class="card-body p-0">
+                            <div class="table-responsive">
+                                <table class="table table-hover mb-0">
+                                    <thead class="table-light">
+                                        <tr>
+                                            <th>Preview</th>
+                                            <th>Nome</th>
+                                            <th>Tipo</th>
+                                            <th>Tamanho</th>
+                                            <th>Origem</th>
+                                            <th>Data</th>
+                                            <th>Ações</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="mediaFilesTable">
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="logsPage" class="page-content d-none">
+                    <div class="page-header">
+                        <h2 class="page-title">
+                            <i class="fas fa-list-alt me-2"></i>
+                            Logs & Monitoramento
+                        </h2>
+                        <p class="page-subtitle">Sistema avançado de logs para debugging de conexões e aquecimento WhatsApp</p>
+                    </div>
+
+                    <!-- Log Statistics Cards -->
+                    <div class="row g-4 mb-4">
+                        <div class="col-md-3">
+                            <div class="card bg-primary text-white">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <h6 class="card-title">Conexões Hoje</h6>
+                                            <h3 class="mb-0" id="connectionsToday">0</h3>
+                                        </div>
+                                        <div class="icon">
+                                            <i class="fas fa-plug fa-2x"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card bg-success text-white">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <h6 class="card-title">Tarefas Executadas</h6>
+                                            <h3 class="mb-0" id="tasksToday">0</h3>
+                                        </div>
+                                        <div class="icon">
+                                            <i class="fas fa-tasks fa-2x"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card bg-warning text-white">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <h6 class="card-title">Erros Hoje</h6>
+                                            <h3 class="mb-0" id="errorsToday">0</h3>
+                                        </div>
+                                        <div class="icon">
+                                            <i class="fas fa-exclamation-triangle fa-2x"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card bg-info text-white">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <h6 class="card-title">Tamanho Logs</h6>
+                                            <h3 class="mb-0" id="logsSizeMB">0 MB</h3>
+                                        </div>
+                                        <div class="icon">
+                                            <i class="fas fa-database fa-2x"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Log Controls -->
+                    <div class="row g-4 mb-4">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="card-title mb-0">
+                                        <i class="fas fa-filter me-2"></i>
+                                        Filtros e Controles
+                                    </h5>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row g-3">
+                                        <div class="col-md-3">
+                                            <label for="logType" class="form-label">Tipo de Log</label>
+                                            <select class="form-select" id="logType">
+                                                <option value="">Todos os Tipos</option>
+                                                <option value="connections">Conexões</option>
+                                                <option value="tasks">Tarefas</option>
+                                                <option value="errors">Erros</option>
+                                                <option value="general">Geral</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <label for="logLevel" class="form-label">Nível</label>
+                                            <select class="form-select" id="logLevel">
+                                                <option value="">Todos os Níveis</option>
+                                                <option value="info">Info</option>
+                                                <option value="warn">Warning</option>
+                                                <option value="error">Error</option>
+                                                <option value="debug">Debug</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <label for="deviceIdFilter" class="form-label">Device ID</label>
+                                            <input type="text" class="form-control" id="deviceIdFilter" placeholder="Filtrar por Device ID">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <label for="logTimeRange" class="form-label">Período</label>
+                                            <select class="form-select" id="logTimeRange">
+                                                <option value="1">Última 1 hora</option>
+                                                <option value="6">Últimas 6 horas</option>
+                                                <option value="24" selected>Últimas 24 horas</option>
+                                                <option value="168">Última semana</option>
+                                                <option value="720">Último mês</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row g-3 mt-2">
+                                        <div class="col-md-6">
+                                            <button class="btn btn-primary" id="applyLogFilters">
+                                                <i class="fas fa-search me-1"></i>
+                                                Aplicar Filtros
+                                            </button>
+                                            <button class="btn btn-outline-secondary ms-2" id="clearLogFilters">
+                                                <i class="fas fa-times me-1"></i>
+                                                Limpar
+                                            </button>
+                                        </div>
+                                        <div class="col-md-6 text-end">
+                                            <button class="btn btn-warning" id="cleanOldLogs">
+                                                <i class="fas fa-broom me-1"></i>
+                                                Limpar Logs Antigos
+                                            </button>
+                                            <button class="btn btn-success ms-2" id="refreshLogs">
+                                                <i class="fas fa-sync me-1"></i>
+                                                Atualizar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Log Tabs -->
+                    <div class="card">
+                        <div class="card-header">
+                            <ul class="nav nav-tabs card-header-tabs" id="logTabs">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="recentLogs-tab" data-bs-toggle="tab" href="#recentLogs">
+                                        <i class="fas fa-clock me-1"></i>
+                                        Logs Recentes
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="deviceConnections-tab" data-bs-toggle="tab" href="#deviceConnections">
+                                        <i class="fas fa-mobile-alt me-1"></i>
+                                        Conexões Dispositivos
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="taskExecutions-tab" data-bs-toggle="tab" href="#taskExecutions">
+                                        <i class="fas fa-fire me-1"></i>
+                                        Aquecimento WhatsApp
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="systemErrors-tab" data-bs-toggle="tab" href="#systemErrors">
+                                        <i class="fas fa-bug me-1"></i>
+                                        Erros do Sistema
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="logFiles-tab" data-bs-toggle="tab" href="#logFiles">
+                                        <i class="fas fa-file-archive me-1"></i>
+                                        Arquivos de Log
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-body">
+                            <div class="tab-content" id="logTabContent">
+                                <!-- Recent Logs Tab -->
+                                <div class="tab-pane fade show active" id="recentLogs">
+                                    <div class="table-responsive">
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th>Timestamp</th>
+                                                    <th>Nível</th>
+                                                    <th>Serviço</th>
+                                                    <th>Mensagem</th>
+                                                    <th>Device ID</th>
+                                                    <th>Ações</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody id="recentLogsTable">
+                                                <tr>
+                                                    <td colspan="6" class="text-center">
+                                                        <div class="spinner-border text-primary" role="status">
+                                                            <span class="visually-hidden">Carregando...</span>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <!-- Device Connections Tab -->
+                                <div class="tab-pane fade" id="deviceConnections">
+                                    <div class="table-responsive">
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th>Timestamp</th>
+                                                    <th>Device ID</th>
+                                                    <th>Nome</th>
+                                                    <th>IP</th>
+                                                    <th>WhatsApp</th>
+                                                    <th>Status</th>
+                                                    <th>Ações</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody id="deviceConnectionsTable">
+                                                <tr>
+                                                    <td colspan="7" class="text-center">
+                                                        <div class="spinner-border text-primary" role="status">
+                                                            <span class="visually-hidden">Carregando...</span>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <!-- Task Executions Tab -->
+                                <div class="tab-pane fade" id="taskExecutions">
+                                    <div class="table-responsive">
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th>Timestamp</th>
+                                                    <th>Device ID</th>
+                                                    <th>Ação</th>
+                                                    <th>Tipo Tarefa</th>
+                                                    <th>Dia</th>
+                                                    <th>Status</th>
+                                                    <th>Detalhes</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody id="taskExecutionsTable">
+                                                <tr>
+                                                    <td colspan="7" class="text-center">
+                                                        <div class="spinner-border text-primary" role="status">
+                                                            <span class="visually-hidden">Carregando...</span>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <!-- System Errors Tab -->
+                                <div class="tab-pane fade" id="systemErrors">
+                                    <div class="table-responsive">
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th>Timestamp</th>
+                                                    <th>Erro</th>
+                                                    <th>Serviço</th>
+                                                    <th>Device ID</th>
+                                                    <th>Stack Trace</th>
+                                                    <th>Ações</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody id="systemErrorsTable">
+                                                <tr>
+                                                    <td colspan="6" class="text-center">
+                                                        <div class="spinner-border text-primary" role="status">
+                                                            <span class="visually-hidden">Carregando...</span>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <!-- Log Files Tab -->
+                                <div class="tab-pane fade" id="logFiles">
+                                    <div class="table-responsive">
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th>Nome do Arquivo</th>
+                                                    <th>Tipo</th>
+                                                    <th>Tamanho</th>
+                                                    <th>Modificado</th>
+                                                    <th>Compactado</th>
+                                                    <th>Ações</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody id="logFilesTable">
+                                                <tr>
+                                                    <td colspan="6" class="text-center">
+                                                        <div class="spinner-border text-primary" role="status">
+                                                            <span class="visually-hidden">Carregando...</span>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                            <div class="logs-container" id="logsContainer">
+                                <!-- Logs will be populated here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Settings Page (Admin Only) -->
+                <div id="settingsPage" class="page-content d-none">
+                    <div class="page-header">
+                        <h2 class="page-title">
+                            <i class="fas fa-cog me-2"></i>
+                            Configurações do Sistema
+                        </h2>
+                        <p class="page-subtitle">Configure parâmetros gerais do sistema e automação WhatsApp</p>
+                    </div>
+
+                    <div class="row g-4">
+                        <!-- Configurações Gerais -->
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="card-title mb-0">
+                                        <i class="fas fa-sliders-h me-2"></i>
+                                        Configurações Gerais
+                                    </h5>
+                                </div>
+                                <div class="card-body">
+                                    <form id="generalSettingsForm">
+                                        <div class="row g-3">
+                                            <div class="col-md-6">
+                                                <label for="systemName" class="form-label">Nome do Sistema</label>
+                                                <input type="text" class="form-control" id="systemName" value="TselZap Dashboard">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="timezone" class="form-label">Fuso Horário</label>
+                                                <select class="form-select" id="timezone">
+                                                    <option value="America/Sao_Paulo" selected>América/São Paulo (GMT-3)</option>
+                                                    <option value="America/New_York">América/Nova York (GMT-5)</option>
+                                                    <option value="Europe/London">Europa/Londres (GMT+0)</option>
+                                                    <option value="Asia/Tokyo">Ásia/Tóquio (GMT+9)</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="maxDevices" class="form-label">Máximo de Dispositivos</label>
+                                                <input type="number" class="form-control" id="maxDevices" value="100" min="1" max="1000">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="taskInterval" class="form-label">Intervalo entre Tarefas (minutos)</label>
+                                                <input type="number" class="form-control" id="taskInterval" value="5" min="1" max="60">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Configurações de Automação -->
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="card-title mb-0">
+                                        <i class="fas fa-robot me-2"></i>
+                                        Configurações de Automação WhatsApp
+                                    </h5>
+                                </div>
+                                <div class="card-body">
+                                    <form id="automationSettingsForm">
+                                        <div class="row g-3">
+                                            <div class="col-md-6">
+                                                <label for="dailyTaskLimit" class="form-label">Limite de Tarefas Diárias</label>
+                                                <input type="number" class="form-control" id="dailyTaskLimit" value="50" min="1" max="200">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="messageDelay" class="form-label">Delay entre Mensagens (segundos)</label>
+                                                <input type="number" class="form-control" id="messageDelay" value="3" min="1" max="30">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="autoRestart" checked>
+                                                    <label class="form-check-label" for="autoRestart">
+                                                        Auto-reiniciar em caso de erro
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="randomizeTimings" checked>
+                                                    <label class="form-check-label" for="randomizeTimings">
+                                                        Randomizar tempos de execução
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Configurações de Segurança -->
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="card-title mb-0">
+                                        <i class="fas fa-shield-alt me-2"></i>
+                                        Configurações de Segurança
+                                    </h5>
+                                </div>
+                                <div class="card-body">
+                                    <form id="securitySettingsForm">
+                                        <div class="row g-3">
+                                            <div class="col-md-6">
+                                                <label for="sessionTimeout" class="form-label">Timeout de Sessão (horas)</label>
+                                                <input type="number" class="form-control" id="sessionTimeout" value="24" min="1" max="168">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="maxLoginAttempts" class="form-label">Máximo de Tentativas de Login</label>
+                                                <input type="number" class="form-control" id="maxLoginAttempts" value="5" min="3" max="10">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="requirePasswordChange" checked>
+                                                    <label class="form-check-label" for="requirePasswordChange">
+                                                        Exigir troca de senha padrão
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="enableAuditLog" checked>
+                                                    <label class="form-check-label" for="enableAuditLog">
+                                                        Habilitar log de auditoria
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Configurações de Notificações -->
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="card-title mb-0">
+                                        <i class="fas fa-bell me-2"></i>
+                                        Configurações de Notificações
+                                    </h5>
+                                </div>
+                                <div class="card-body">
+                                    <form id="notificationSettingsForm">
+                                        <div class="row g-3">
+                                            <div class="col-md-6">
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="notifyDeviceOffline" checked>
+                                                    <label class="form-check-label" for="notifyDeviceOffline">
+                                                        Notificar dispositivo offline
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="notifyTaskFailure" checked>
+                                                    <label class="form-check-label" for="notifyTaskFailure">
+                                                        Notificar falhas de tarefas
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="notifySystemErrors">
+                                                    <label class="form-check-label" for="notifySystemErrors">
+                                                        Notificar erros do sistema
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="dailyReports" checked>
+                                                    <label class="form-check-label" for="dailyReports">
+                                                        Relatórios diários automáticos
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Configurações de Backup -->
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5 class="card-title mb-0">
+                                        <i class="fas fa-database me-2"></i>
+                                        Configurações de Backup e Manutenção
+                                    </h5>
+                                </div>
+                                <div class="card-body">
+                                    <form id="backupSettingsForm">
+                                        <div class="row g-3">
+                                            <div class="col-md-6">
+                                                <label for="backupFrequency" class="form-label">Frequência de Backup</label>
+                                                <select class="form-select" id="backupFrequency">
+                                                    <option value="daily" selected>Diário</option>
+                                                    <option value="weekly">Semanal</option>
+                                                    <option value="monthly">Mensal</option>
+                                                    <option value="disabled">Desabilitado</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="backupRetention" class="form-label">Retenção de Backups (dias)</label>
+                                                <input type="number" class="form-control" id="backupRetention" value="30" min="7" max="365">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="autoCleanLogs" checked>
+                                                    <label class="form-check-label" for="autoCleanLogs">
+                                                        Limpeza automática de logs antigos
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-check form-switch">
+                                                    <input class="form-check-input" type="checkbox" id="compressBackups" checked>
+                                                    <label class="form-check-label" for="compressBackups">
+                                                        Comprimir backups automaticamente
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Botões de Ação -->
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <button type="button" class="btn btn-primary me-2" id="saveAllSettings">
+                                                <i class="fas fa-save me-1"></i>
+                                                Salvar Configurações
+                                            </button>
+                                            <button type="button" class="btn btn-outline-secondary me-2" id="resetSettings">
+                                                <i class="fas fa-undo me-1"></i>
+                                                Restaurar Padrões
+                                            </button>
+                                        </div>
+                                        <div>
+                                            <button type="button" class="btn btn-warning me-2" id="exportSettings">
+                                                <i class="fas fa-download me-1"></i>
+                                                Exportar
+                                            </button>
+                                            <button type="button" class="btn btn-info" id="importSettings">
+                                                <i class="fas fa-upload me-1"></i>
+                                                Importar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Users Page (Admin Only) -->
+                <div id="usersPage" class="page-content d-none">
+                    <div class="page-header">
+                        <h2 class="page-title">
+                            <i class="fas fa-users me-2"></i>
+                            Gerenciamento de Usuários
+                        </h2>
+                        <div class="btn-group">
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#createUserModal">
+                                <i class="fas fa-user-plus me-1"></i>
+                                Novo Usuário
+                            </button>
+                            <button class="btn btn-outline-secondary" id="refreshUsers">
+                                <i class="fas fa-sync me-1"></i>
+                                Atualizar
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Users Stats -->
+                    <div class="row mb-4">
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <i class="fas fa-users fa-2x text-primary mb-2"></i>
+                                    <h3 class="mb-0" id="totalUsersCount">0</h3>
+                                    <small class="text-muted">Total de Usuários</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <i class="fas fa-user-shield fa-2x text-success mb-2"></i>
+                                    <h3 class="mb-0" id="adminUsersCount">0</h3>
+                                    <small class="text-muted">Administradores</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <i class="fas fa-user fa-2x text-info mb-2"></i>
+                                    <h3 class="mb-0" id="regularUsersCount">0</h3>
+                                    <small class="text-muted">Usuários Normais</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <i class="fas fa-clock fa-2x text-warning mb-2"></i>
+                                    <h3 class="mb-0" id="recentUsersCount">0</h3>
+                                    <small class="text-muted">Novos (7 dias)</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Users Table -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h5 class="card-title mb-0">
+                                <i class="fas fa-list me-2"></i>
+                                Lista de Usuários
+                            </h5>
+                            <div class="card-tools">
+                                <div class="input-group">
+                                    <input type="text" class="form-control form-control-sm" id="searchUsers" placeholder="Buscar usuários...">
+                                    <button class="btn btn-outline-secondary btn-sm" type="button">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body p-0">
+                            <div class="table-responsive">
+                                <table class="table table-hover mb-0">
+                                    <thead class="table-light">
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Usuário</th>
+                                            <th>Email</th>
+                                            <th>Função</th>
+                                            <th>Criado em</th>
+                                            <th>Último Acesso</th>
+                                            <th>Status</th>
+                                            <th>Ações</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="usersTable">
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Overlay for mobile -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Device Details Modal -->
+    <div class="modal fade" id="deviceDetailsModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <i class="fas fa-mobile-alt me-2"></i>
+                        Detalhes do Dispositivo
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="deviceDetailsContent">
+                        <div class="text-center">
+                            <div class="spinner-border text-primary" role="status">
+                                <span class="visually-hidden">Carregando...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-success" id="startDeviceFromModal">
+                            <i class="fas fa-play me-1"></i>
+                            Iniciar
+                        </button>
+                        <button type="button" class="btn btn-warning" id="pauseDeviceFromModal">
+                            <i class="fas fa-pause me-1"></i>
+                            Pausar
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- Task Details Modal -->
+    <div class="modal fade" id="taskDetailsModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <i class="fas fa-tasks me-2"></i>
+                        Detalhes da Tarefa
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="taskDetailsContent">
+                        <div class="text-center">
+                            <div class="spinner-border text-primary" role="status">
+                                <span class="visually-hidden">Carregando...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-warning" id="editTaskFromModal">
+                            <i class="fas fa-edit me-1"></i>
+                            Editar
+                        </button>
+                        <button type="button" class="btn btn-danger" id="deleteTaskFromModal">
+                            <i class="fas fa-trash me-1"></i>
+                            Excluir
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Media Modals -->
+    <!-- Upload Modal -->
+    <div class="modal fade" id="uploadModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <i class="fas fa-upload me-2"></i>
+                        Upload de Arquivo
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="uploadForm" enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <label for="uploadFile" class="form-label">Arquivo</label>
+                            <input type="file" class="form-control" id="uploadFile" accept=".jpg,.jpeg,.png,.gif,.webp,.mp4,.avi,.mov,.webm,.mp3,.wav,.ogg,.m4a,.pdf,.txt" required>
+                            <div class="form-text">Formatos suportados: Imagens, Vídeos, Áudios, PDFs, TXT</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="uploadDescription" class="form-label">Descrição (opcional)</label>
+                            <textarea class="form-control" id="uploadDescription" rows="2" placeholder="Descrição do arquivo..."></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="uploadTags" class="form-label">Tags (opcional)</label>
+                            <input type="text" class="form-control" id="uploadTags" placeholder="tag1, tag2, tag3...">
+                            <div class="form-text">Separar tags com vírgulas</div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" id="uploadSubmit">
+                        <i class="fas fa-upload me-1"></i>
+                        Upload
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Download Modal -->
+    <div class="modal fade" id="downloadModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <i class="fas fa-download me-2"></i>
+                        Download de URL
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="downloadForm">
+                        <div class="mb-3">
+                            <label for="downloadUrl" class="form-label">URL do Arquivo</label>
+                            <input type="url" class="form-control" id="downloadUrl" placeholder="https://exemplo.com/arquivo.jpg" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="downloadDescription" class="form-label">Descrição (opcional)</label>
+                            <textarea class="form-control" id="downloadDescription" rows="2" placeholder="Descrição do arquivo..."></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="downloadType" class="form-label">Tipo Forçado (opcional)</label>
+                            <select class="form-select" id="downloadType">
+                                <option value="">Auto-detectar</option>
+                                <option value="image">Imagem</option>
+                                <option value="video">Vídeo</option>
+                                <option value="audio">Áudio</option>
+                                <option value="document">Documento</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-info" id="downloadSubmit">
+                        <i class="fas fa-download me-1"></i>
+                        Baixar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- AI Config Modal -->
+    <div class="modal fade" id="aiConfigModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <i class="fas fa-robot me-2"></i>
+                        Configuração da Inteligência Artificial
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="aiConfigForm">
+                        <div class="mb-3">
+                            <label for="openaiApiKey" class="form-label">OpenAI API Key</label>
+                            <input type="password" class="form-control" id="openaiApiKey" placeholder="sk-..." required>
+                            <div class="form-text">Sua chave da API do OpenAI</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="openaiModel" class="form-label">Modelo</label>
+                                <select class="form-select" id="openaiModel">
+                                    <optgroup label="GPT-4o (Mais Recente)">
+                                        <option value="gpt-4o">GPT-4o (Recomendado)</option>
+                                        <option value="gpt-4o-mini">GPT-4o Mini (Econômico)</option>
+                                    </optgroup>
+                                    <optgroup label="GPT-4 Turbo">
+                                        <option value="gpt-4-turbo">GPT-4 Turbo</option>
+                                        <option value="gpt-4-turbo-preview">GPT-4 Turbo Preview</option>
+                                        <option value="gpt-4-0125-preview">GPT-4 0125 Preview</option>
+                                        <option value="gpt-4-1106-preview">GPT-4 1106 Preview</option>
+                                    </optgroup>
+                                    <optgroup label="GPT-4 Standard">
+                                        <option value="gpt-4">GPT-4</option>
+                                        <option value="gpt-4-0613">GPT-4 0613</option>
+                                        <option value="gpt-4-32k">GPT-4 32K</option>
+                                        <option value="gpt-4-32k-0613">GPT-4 32K 0613</option>
+                                    </optgroup>
+                                    <optgroup label="GPT-3.5 Turbo">
+                                        <option value="gpt-3.5-turbo">GPT-3.5 Turbo</option>
+                                        <option value="gpt-3.5-turbo-0125">GPT-3.5 Turbo 0125</option>
+                                        <option value="gpt-3.5-turbo-1106">GPT-3.5 Turbo 1106</option>
+                                        <option value="gpt-3.5-turbo-16k">GPT-3.5 Turbo 16K</option>
+                                        <option value="gpt-3.5-turbo-instruct">GPT-3.5 Turbo Instruct</option>
+                                    </optgroup>
+                                </select>
+                                <div class="form-text">
+                                    <small><strong>Mini:</strong> Mais rápido e barato | <strong>Standard:</strong> Balanceado | <strong>32K:</strong> Contexto maior</small>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="openaiMaxTokens" class="form-label">Max Tokens</label>
+                                <input type="number" class="form-control" id="openaiMaxTokens" value="1000" min="50" max="4000">
+                            </div>
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <label for="openaiTemperature" class="form-label">Temperatura (0.0 - 2.0)</label>
+                            <input type="range" class="form-range" id="openaiTemperature" min="0" max="2" step="0.1" value="0.7">
+                            <div class="d-flex justify-content-between">
+                                <small>Conservador</small>
+                                <span id="temperatureValue">0.7</span>
+                                <small>Criativo</small>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="openaiSystemPrompt" class="form-label">Prompt do Sistema</label>
+                            <textarea class="form-control" id="openaiSystemPrompt" rows="3" placeholder="Você é um assistente especializado em criar conteúdo para WhatsApp..."></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-success" id="aiConfigSubmit">
+                        <i class="fas fa-save me-1"></i>
+                        Salvar Configuração
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Create User Modal -->
+    <div class="modal fade" id="createUserModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <i class="fas fa-user-plus me-2"></i>
+                        Criar Novo Usuário
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="createUserForm">
+                        <div class="mb-3">
+                            <label for="newUsername" class="form-label">Nome de Usuário</label>
+                            <input type="text" class="form-control" id="newUsername" required>
+                            <div class="form-text">Usado para fazer login no sistema</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="newUserEmail" class="form-label">Email (opcional)</label>
+                            <input type="email" class="form-control" id="newUserEmail">
+                            <div class="form-text">Para notificações e recuperação de senha</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="newUserPassword" class="form-label">Senha</label>
+                            <input type="password" class="form-control" id="newUserPassword" required>
+                            <div class="form-text">Mínimo 6 caracteres</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="newUserPasswordConfirm" class="form-label">Confirmar Senha</label>
+                            <input type="password" class="form-control" id="newUserPasswordConfirm" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="newUserRole" class="form-label">Função</label>
+                            <select class="form-select" id="newUserRole">
+                                <option value="user">Usuário Normal</option>
+                                <option value="admin">Administrador</option>
+                            </select>
+                            <div class="form-text">Administradores podem gerenciar usuários</div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" id="createUserSubmit">
+                        <i class="fas fa-user-plus me-1"></i>
+                        Criar Usuário
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit User Modal -->
+    <div class="modal fade" id="editUserModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <i class="fas fa-user-edit me-2"></i>
+                        Editar Usuário
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="editUserForm">
+                        <input type="hidden" id="editUserId">
+                        <div class="mb-3">
+                            <label for="editUsername" class="form-label">Nome de Usuário</label>
+                            <input type="text" class="form-control" id="editUsername" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="editUserEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="editUserEmail">
+                        </div>
+                        <div class="mb-3">
+                            <label for="editUserPassword" class="form-label">Nova Senha (opcional)</label>
+                            <input type="password" class="form-control" id="editUserPassword">
+                            <div class="form-text">Deixe em branco para manter a senha atual</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="editUserRole" class="form-label">Função</label>
+                            <select class="form-select" id="editUserRole">
+                                <option value="user">Usuário Normal</option>
+                                <option value="admin">Administrador</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" id="editUserSubmit">
+                        <i class="fas fa-save me-1"></i>
+                        Salvar Alterações
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Scripts -->
-    <script src="lib/bootstrap.bundle.min.js"></script>
-    <script src="lib/chart.min.js"></script>
-    <script src="lib/socket.io.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js"></script>
+    <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
     <script src="app.js"></script>
 </body>
 </html>

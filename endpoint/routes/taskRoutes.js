@@ -1,7 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const database = require('../database/database');
+const { db: database } = require('../database/database');
 const { authenticateToken } = require('../middleware/auth');
+const logger = require('../services/logger');
 
 // Get all tasks
 router.get('/', authenticateToken, async (req, res) => {
@@ -21,12 +22,12 @@ router.get('/', authenticateToken, async (req, res) => {
     const params = [];
     
     if (day) {
-      whereConditions.push('t.day_number = ?');
+      whereConditions.push(`t.day_number = $${params.length + 1}`);
       params.push(day);
     }
     
     if (type) {
-      whereConditions.push('t.task_type = ?');
+      whereConditions.push(`t.task_type = $${params.length + 1}`);
       params.push(type);
     }
     
@@ -57,7 +58,7 @@ router.get('/:taskId', authenticateToken, async (req, res) => {
     const { taskId } = req.params;
     
     const task = await database.get(`
-      SELECT * FROM tasks WHERE id = ?
+      SELECT * FROM tasks WHERE id = $1
     `, [taskId]);
     
     if (!task) {
@@ -76,7 +77,7 @@ router.get('/:taskId', authenticateToken, async (req, res) => {
         d.phone_number
       FROM device_tasks dt
       JOIN devices d ON dt.device_id = d.id
-      WHERE dt.task_id = ?
+      WHERE dt.task_id = $1
       ORDER BY dt.created_at DESC
     `, [taskId]);
     
@@ -99,9 +100,9 @@ router.get('/:taskId', authenticateToken, async (req, res) => {
 // Create new task
 router.post('/', authenticateToken, async (req, res) => {
   try {
-    const { day_number, task_type, task_description, task_data, priority } = req.body;
+    const { day_number, task_type, description, target_count, time_spread_minutes, priority } = req.body;
     
-    if (!day_number || !task_type || !task_description) {
+    if (!day_number || !task_type || !description) {
       return res.status(400).json({
         success: false,
         error: 'Dia, tipo e descrição são obrigatórios'
@@ -109,13 +110,14 @@ router.post('/', authenticateToken, async (req, res) => {
     }
     
     const result = await database.run(`
-      INSERT INTO tasks (day_number, task_type, task_description, task_data, priority)
-      VALUES (?, ?, ?, ?, ?)
-    `, [day_number, task_type, task_description, JSON.stringify(task_data), priority || 1]);
+      INSERT INTO tasks (day_number, task_type, description, target_count, time_spread_minutes, priority)
+      VALUES ($1, $2, $3, $4, $5, $6)
+      RETURNING id
+    `, [day_number, task_type, description, target_count || 1, time_spread_minutes || 60, priority || 1]);
     
     const newTask = await database.get(`
-      SELECT * FROM tasks WHERE id = ?
-    `, [result.id]);
+      SELECT * FROM tasks WHERE id = $1
+    `, [result.rows[0].id]);
     
     res.status(201).json({
       success: true,
@@ -135,38 +137,43 @@ router.post('/', authenticateToken, async (req, res) => {
 router.put('/:taskId', authenticateToken, async (req, res) => {
   try {
     const { taskId } = req.params;
-    const { day_number, task_type, task_description, task_data, priority, is_active } = req.body;
+    const { day_number, task_type, description, target_count, time_spread_minutes, priority, is_active } = req.body;
     
     const updateFields = [];
     const params = [];
     
     if (day_number !== undefined) {
-      updateFields.push('day_number = ?');
+      updateFields.push(`day_number = $${params.length + 1}`);
       params.push(day_number);
     }
     
     if (task_type !== undefined) {
-      updateFields.push('task_type = ?');
+      updateFields.push(`task_type = $${params.length + 1}`);
       params.push(task_type);
     }
     
-    if (task_description !== undefined) {
-      updateFields.push('task_description = ?');
-      params.push(task_description);
+    if (description !== undefined) {
+      updateFields.push(`description = $${params.length + 1}`);
+      params.push(description);
     }
     
-    if (task_data !== undefined) {
-      updateFields.push('task_data = ?');
-      params.push(JSON.stringify(task_data));
+    if (target_count !== undefined) {
+      updateFields.push(`target_count = $${params.length + 1}`);
+      params.push(target_count);
+    }
+    
+    if (time_spread_minutes !== undefined) {
+      updateFields.push(`time_spread_minutes = $${params.length + 1}`);
+      params.push(time_spread_minutes);
     }
     
     if (priority !== undefined) {
-      updateFields.push('priority = ?');
+      updateFields.push(`priority = $${params.length + 1}`);
       params.push(priority);
     }
     
     if (is_active !== undefined) {
-      updateFields.push('is_active = ?');
+      updateFields.push(`is_active = $${params.length + 1}`);
       params.push(is_active);
     }
     
@@ -182,10 +189,10 @@ router.put('/:taskId', authenticateToken, async (req, res) => {
     const result = await database.run(`
       UPDATE tasks 
       SET ${updateFields.join(', ')}
-      WHERE id = ?
+      WHERE id = $${params.length}
     `, params);
     
-    if (result.changes === 0) {
+    if (result.rowCount === 0) {
       return res.status(404).json({
         success: false,
         error: 'Tarefa não encontrada'
@@ -193,7 +200,7 @@ router.put('/:taskId', authenticateToken, async (req, res) => {
     }
     
     const updatedTask = await database.get(`
-      SELECT * FROM tasks WHERE id = ?
+      SELECT * FROM tasks WHERE id = $1
     `, [taskId]);
     
     res.json({
@@ -217,7 +224,7 @@ router.delete('/:taskId', authenticateToken, async (req, res) => {
     
     // Check if task is assigned to any devices
     const assignments = await database.query(`
-      SELECT COUNT(*) as count FROM device_tasks WHERE task_id = ?
+      SELECT COUNT(*) as count FROM device_tasks WHERE task_id = $1
     `, [taskId]);
     
     if (assignments[0].count > 0) {
@@ -228,10 +235,10 @@ router.delete('/:taskId', authenticateToken, async (req, res) => {
     }
     
     const result = await database.run(`
-      DELETE FROM tasks WHERE id = ?
+      DELETE FROM tasks WHERE id = $1
     `, [taskId]);
     
-    if (result.changes === 0) {
+    if (result.rowCount === 0) {
       return res.status(404).json({
         success: false,
         error: 'Tarefa não encontrada'
@@ -263,7 +270,7 @@ router.get('/day/:dayNumber', authenticateToken, async (req, res) => {
         COUNT(CASE WHEN dt.status = 'completed' THEN 1 END) as completed_count
       FROM tasks t
       LEFT JOIN device_tasks dt ON t.id = dt.task_id
-      WHERE t.day_number = ?
+      WHERE t.day_number = $1
       GROUP BY t.id
       ORDER BY t.priority
     `, [dayNumber]);
@@ -343,24 +350,27 @@ router.post('/assign-day/:dayNumber', authenticateToken, async (req, res) => {
     
     // Get tasks for the day
     const tasks = await database.query(`
-      SELECT * FROM tasks WHERE day_number = ? AND is_active = 1
-    `, [dayNumber]);
+      SELECT * FROM tasks WHERE day_number = $1 AND is_active = $2
+    `, [dayNumber, true]);
     
     let assignedCount = 0;
     
     for (const device of devices) {
       for (const task of tasks) {
         await database.run(`
-          INSERT OR IGNORE INTO device_tasks (device_id, task_id, status)
-          VALUES (?, ?, 'pending')
+          INSERT INTO device_tasks (device_id, task_id, status)
+          VALUES ($1, $2, 'pending')
+          ON CONFLICT (device_id, task_id) DO NOTHING
         `, [device.id, task.id]);
         assignedCount++;
       }
       
       // Update daily progress
       await database.run(`
-        INSERT OR REPLACE INTO daily_progress (device_id, day_number, total_tasks, status)
-        VALUES (?, ?, ?, 'in_progress')
+        INSERT INTO daily_progress (device_id, day_number, total_tasks, status)
+        VALUES ($1, $2, $3, 'in_progress')
+        ON CONFLICT (device_id, day_number) 
+        DO UPDATE SET total_tasks = EXCLUDED.total_tasks, status = EXCLUDED.status
       `, [device.id, dayNumber, tasks.length]);
     }
     
@@ -402,7 +412,7 @@ router.get('/stats/completion', authenticateToken, async (req, res) => {
     
     const params = [];
     if (day) {
-      query += ' WHERE t.day_number = ?';
+      query += ' WHERE t.day_number = $1';
       params.push(day);
     }
     
